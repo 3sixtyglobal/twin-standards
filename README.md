@@ -14,6 +14,7 @@ This mono-repository contains packages defining standards.
 - [standards-vda](packages/standards-vda/README.md) - Models which define the structure of [VDA JAIF Standard](https://www.vda.de/).
 - [standards-gaia-x](packages/standards-gaia-x/README.md) - Models which define the structure of [Gaia-x](https://docs.gaia-x.eu/ontology/development/).
 - [standards-ld-contexts](packages/standards-ld-contexts/README.md) - Local copies of standard LD contexts which can be used for offline development.
+- [standards-w3c-activity-streams](packages/standards-w3c-activity-streams/README.md) - Models which define the structure of [W3C Activity Streams Standard](https://www.w3.org/TR/activitystreams-core/).
 
 ## Contributing
 
