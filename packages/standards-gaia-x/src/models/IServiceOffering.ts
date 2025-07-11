@@ -2,38 +2,23 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { GaiaXContextType } from "./gaiaXContextType";
 import type { GaiaXTypes } from "./gaiaXTypes";
 import type { IDataResource } from "./IDataResource";
 import type { IEndpoint } from "./IEndpoint";
-import type { IParticipant } from "./IParticipant";
+import type { IGaiaXEntity } from "./IGaiaXEntity";
+import type { ILegalPerson } from "./ILegalPerson";
 
 /**
  * A Service offering
  */
-export interface IServiceOffering extends IJsonLdNodeObject {
-	/**
-	 * The LD context
-	 */
-	"@context": GaiaXContextType;
-
-	/**
-	 * Id
-	 */
-	id: string;
-
+export interface IServiceOffering extends IGaiaXEntity {
 	/**
 	 * Type
 	 */
 	type: typeof GaiaXTypes.ServiceOffering;
 
 	/**
-	 * Description
-	 */
-	description?: string;
-
-	/**
-	 * Name
+	 * Name of the Service Offering.
 	 */
 	name: string;
 
@@ -42,8 +27,8 @@ export interface IServiceOffering extends IJsonLdNodeObject {
 	 */
 	providedBy:
 		| string
-		| IParticipant
-		| (IJsonLdNodeObject & { id: string; type: typeof GaiaXTypes.Participant });
+		| ILegalPerson
+		| (IJsonLdNodeObject & { id: string; type: typeof GaiaXTypes.LegalPerson });
 
 	/**
 	 * ODRL policy associated to the service offering

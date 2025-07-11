@@ -1,11 +1,12 @@
 {
 	"baseUrl": "https://schema.twindev.org/gaia-x/",
 	"types": [
+		"./src/models/gaiaXContextType.ts",
 		"./src/models/IAddress.ts",
 		"./src/models/IDataResource.ts",
 		"./src/models/IDataExchangeComponent.ts",
 		"./src/models/IEndpoint.ts",
-		"./src/models/IParticipant.ts",
+		"./src/models/ILegalPerson.ts",
 		"./src/models/IRegistrationNumber.ts",
 		"./src/models/IServiceOffering.ts"
 	],

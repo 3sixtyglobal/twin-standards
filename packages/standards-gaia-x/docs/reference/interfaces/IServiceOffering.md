@@ -4,7 +4,7 @@ A Service offering
 
 ## Extends
 
-- `IJsonLdNodeObject`
+- `IGaiaXEntity`
 
 ## Indexable
 
@@ -16,11 +16,11 @@ A Service offering
 
 > **@context**: [`GaiaXContextType`](../type-aliases/GaiaXContextType.md)
 
-The LD context
+The LD context.
 
-#### Overrides
+#### Inherited from
 
-`IJsonLdNodeObject.@context`
+`IGaiaXEntity.@context`
 
 ***
 
@@ -28,7 +28,23 @@ The LD context
 
 > **id**: `string`
 
-Id
+The Id.
+
+#### Inherited from
+
+`IGaiaXEntity.id`
+
+***
+
+### description?
+
+> `optional` **description**: `string`
+
+Description of the Gaia-X entity.
+
+#### Inherited from
+
+`IGaiaXEntity.description`
 
 ***
 
@@ -40,25 +56,21 @@ Type
 
 ***
 
-### description?
-
-> `optional` **description**: `string`
-
-Description
-
-***
-
 ### name
 
 > **name**: `string`
 
-Name
+Name of the Service Offering.
+
+#### Overrides
+
+`IGaiaXEntity.name`
 
 ***
 
 ### providedBy
 
-> **providedBy**: `string` \| [`IParticipant`](IParticipant.md) \| `IJsonLdNodeObject` & `object`
+> **providedBy**: `string` \| [`ILegalPerson`](ILegalPerson.md) \| `IJsonLdNodeObject` & `object`
 
 Participant that provides the offering
 

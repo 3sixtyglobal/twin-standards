@@ -17,9 +17,9 @@ export const GaiaXTypes = {
 	ServiceOffering: "ServiceOffering",
 
 	/**
-	 * Participant
+	 * Legal Person
 	 */
-	Participant: "LegalPerson",
+	LegalPerson: "LegalPerson",
 
 	/**
 	 * Data Exchange Component

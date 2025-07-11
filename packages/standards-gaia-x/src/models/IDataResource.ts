@@ -5,13 +5,14 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { GaiaXContextType } from "./gaiaXContextType";
 import type { GaiaXTypes } from "./gaiaXTypes";
 import type { IDataExchangeComponent } from "./IDataExchangeComponent";
-import type { IParticipant } from "./IParticipant";
+import type { IGaiaXEntity } from "./IGaiaXEntity";
+import type { ILegalPerson } from "./ILegalPerson";
 
 /**
  * A Data Resource as defined by Gaia-X.
  * See also W3C DCAT Dataset https://www.w3.org/TR/vocab-dcat-3/.
  */
-export interface IDataResource extends IJsonLdNodeObject {
+export interface IDataResource extends IGaiaXEntity {
 	/**
 	 * The LD Context
 	 */
@@ -26,11 +27,6 @@ export interface IDataResource extends IJsonLdNodeObject {
 	 * Subject type
 	 */
 	type: typeof GaiaXTypes.DataResource;
-
-	/**
-	 * Description
-	 */
-	description?: string;
 
 	/**
 	 * The Resource Name
@@ -50,7 +46,7 @@ export interface IDataResource extends IJsonLdNodeObject {
 	/**
 	 * Who is the data producer
 	 */
-	producedBy: IParticipant | string;
+	producedBy: ILegalPerson | string;
 
 	/**
 	 * Pointer (URL) to the license
@@ -60,7 +56,7 @@ export interface IDataResource extends IJsonLdNodeObject {
 	/**
 	 * Copyright owner
 	 */
-	copyrightOwnedBy: IParticipant | string;
+	copyrightOwnedBy: ILegalPerson | string;
 
 	/**
 	 * ODRL Policy

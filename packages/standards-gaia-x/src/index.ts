@@ -8,6 +8,6 @@ export * from "./models/IAddress";
 export * from "./models/IDataExchangeComponent";
 export * from "./models/IDataResource";
 export * from "./models/IEndpoint";
-export * from "./models/IParticipant";
+export * from "./models/ILegalPerson";
 export * from "./models/IRegistrationNumber";
 export * from "./models/IServiceOffering";

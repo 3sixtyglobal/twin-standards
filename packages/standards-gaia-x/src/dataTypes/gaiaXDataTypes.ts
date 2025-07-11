@@ -8,7 +8,8 @@ import AddressSchema from "../schemas/Address.json";
 import DataExchangeComponentSchema from "../schemas/DataExchangeComponent.json";
 import DataResourceSchema from "../schemas/DataResource.json";
 import EndpointSchema from "../schemas/Endpoint.json";
-import ParticipantSchema from "../schemas/Participant.json";
+import GaiaXContextTypeSchema from "../schemas/GaiaXContextType.json";
+import LegalPersonSchema from "../schemas/LegalPerson.json";
 import RegistrationNumberSchema from "../schemas/RegistrationNumber.json";
 import ServiceOfferingSchema from "../schemas/ServiceOffering.json";
 
@@ -20,6 +21,12 @@ export class GaiaXDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
+		DataTypeHandlerFactory.register("https://schema.twindev.org/gaia-x/GaiaXContextType", () => ({
+			context: "https://schema.twindev.org/gaia-x/",
+			type: "GaiaXContextType",
+			jsonSchema: async () => GaiaXContextTypeSchema as IJsonSchema
+		}));
+
 		DataTypeHandlerFactory.register(
 			`${GaiaXContexts.ContextRoot}${GaiaXTypes.DataExchangeComponent}`,
 			() => ({
@@ -60,11 +67,11 @@ export class GaiaXDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.Participant}`,
+			`${GaiaXContexts.ContextRoot}${GaiaXTypes.LegalPerson}`,
 			() => ({
 				context: GaiaXContexts.ContextRoot,
-				type: GaiaXTypes.Participant,
-				jsonSchema: async () => ParticipantSchema as IJsonSchema
+				type: GaiaXTypes.LegalPerson,
+				jsonSchema: async () => LegalPersonSchema as IJsonSchema
 			})
 		);
 
