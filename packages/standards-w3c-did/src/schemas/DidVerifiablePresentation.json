@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/DidVerifiablePresentation",
+	"$id": "https://schema.twindev.org/w3c-did/DidVerifiablePresentation",
 	"description": "Interface describing a verifiable presentation.",
 	"type": "object",
 	"properties": {
@@ -58,7 +58,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidVerifiableCredential"
+							"$ref": "https://schema.twindev.org/w3c-did/DidVerifiableCredential"
 						}
 					]
 				}
@@ -71,14 +71,14 @@
 		"proof": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/did/Proof"
+					"$ref": "https://schema.twindev.org/w3c-did/Proof"
 				},
 				{
 					"type": "array",
 					"items": false,
 					"prefixItems": [
 						{
-							"$ref": "https://schema.twindev.org/did/Proof"
+							"$ref": "https://schema.twindev.org/w3c-did/Proof"
 						}
 					]
 				}

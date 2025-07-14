@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/JsonWebSignature2020Proof",
+	"$id": "https://schema.twindev.org/w3c-did/JsonWebSignature2020Proof",
 	"description": "Interface describing a did proof in JSON Web Signature 2020 Format. https://www.w3.org/TR/vc-jws-2020/",
 	"type": "object",
 	"properties": {

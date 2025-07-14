@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/odrl/OdrlPermission",
+	"$id": "https://schema.twindev.org/w3c-odrl/OdrlPermission",
 	"description": "Interface for Permission Rules. A Permission allows an action to be exercised on an Asset if all constraints are satisfied and if all duties are fulfilled.",
 	"type": "object",
 	"properties": {
@@ -90,10 +90,10 @@
 		"action": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/ActionType"
+					"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlAction"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAction"
 				},
 				{
 					"type": "array",
@@ -102,10 +102,10 @@
 						{
 							"anyOf": [
 								{
-									"$ref": "https://schema.twindev.org/odrl/ActionType"
+									"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
 								},
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlAction"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAction"
 								}
 							]
 						}
@@ -120,7 +120,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlAsset"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAsset"
 				},
 				{
 					"type": "array",
@@ -132,7 +132,7 @@
 									"type": "string"
 								},
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlAsset"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAsset"
 								}
 							]
 						}
@@ -147,7 +147,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlParty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlParty"
 				}
 			],
 			"description": "The assigner of the rule."
@@ -158,7 +158,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlParty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlParty"
 				}
 			],
 			"description": "The assignee of the rule."
@@ -169,7 +169,7 @@
 			"description": "Constraints applied to the rule.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlConstraint"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlConstraint"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
 			"description": "The duties that must be fulfilled before the permission can be exercised. A Permission MAY have none, one, or more duty property values.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlDuty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlDuty"
 				}
 			]
 		}

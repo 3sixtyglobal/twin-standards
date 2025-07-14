@@ -33,7 +33,7 @@ export class OdrlDataTypes {
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/www\.w3\.org\/ns\/odrl\/?/,
-			"https://www.w3.org/ns/odrl.jsonld"
+			OdrlContexts.ContextRedirect
 		);
 	}
 

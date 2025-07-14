@@ -10,8 +10,8 @@
 
 ## Type Aliases
 
+- [ActivityStreamsContextType](type-aliases/ActivityStreamsContextType.md)
 - [ActivityStreamsContexts](type-aliases/ActivityStreamsContexts.md)
-- [ActivityStreamsLdContextType](type-aliases/ActivityStreamsLdContextType.md)
 - [ActivityStreamsTypes](type-aliases/ActivityStreamsTypes.md)
 
 ## Variables

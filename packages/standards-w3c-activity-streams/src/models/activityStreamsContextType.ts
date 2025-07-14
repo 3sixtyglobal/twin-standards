@@ -7,7 +7,7 @@ import type { ActivityStreamsContexts } from "./activityStreamsContexts";
 /**
  * The Activity Streams JSON-LD context type.
  */
-export type ActivityStreamsLdContextType =
+export type ActivityStreamsContextType =
 	| typeof ActivityStreamsContexts.ContextRoot
 	| [typeof ActivityStreamsContexts.ContextRoot]
 	| [...IJsonLdContextDefinitionElement[], typeof ActivityStreamsContexts.ContextRoot];

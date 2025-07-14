@@ -5,7 +5,7 @@
 	"type": "object",
 	"properties": {
 		"@context": {
-			"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsLdContextType",
+			"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsContextType",
 			"description": "The LD Context."
 		},
 		"@id": {
@@ -85,21 +85,31 @@
 			"type": "string"
 		},
 		"type": {
+			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-activity-streams/ObjectOrArray%3CActivityStreamsTypes%3E"
+					"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsTypes"
+				},
+				{
+					"type": "string"
 				},
 				{
 					"type": "array",
 					"items": false,
 					"prefixItems": [
 						{
-							"type": "string"
+							"anyOf": [
+								{
+									"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsTypes"
+								},
+								{
+									"type": "string"
+								}
+							]
 						}
 					]
 				}
-			],
-			"description": "Activity Type."
+			]
 		},
 		"generator": {
 			"anyOf": [

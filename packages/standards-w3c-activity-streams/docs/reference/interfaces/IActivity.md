@@ -12,13 +12,13 @@ https://www.w3.org/TR/activitystreams-core/#activities
 
 ## Indexable
 
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
+\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `IJsonLdContextDefinition` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
 
 ## Properties
 
 ### @context
 
-> **@context**: [`ActivityStreamsLdContextType`](../type-aliases/ActivityStreamsLdContextType.md)
+> **@context**: [`ActivityStreamsContextType`](../type-aliases/ActivityStreamsContextType.md)
 
 The LD Context.
 
@@ -30,7 +30,7 @@ The LD Context.
 
 ### type
 
-> **type**: `string`[] \| `ObjectOrArray`\<[`ActivityStreamsTypes`](../type-aliases/ActivityStreamsTypes.md)\>
+> **type**: `ObjectOrArray`\<`string`\>
 
 Activity Type.
 

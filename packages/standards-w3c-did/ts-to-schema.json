@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/did/",
+	"baseUrl": "https://schema.twindev.org/w3c-did/",
 	"types": [
 		"./src/models/didCryptoSuites.ts",
 		"./src/models/didTypes.ts",

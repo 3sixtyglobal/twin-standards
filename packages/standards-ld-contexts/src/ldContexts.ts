@@ -6,11 +6,12 @@ import dcmitype from "./ldContexts/dublin-core-dcmitype.json";
 import dcTerms from "./ldContexts/dublin-core-terms.json";
 import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json";
 import gaiaXDevelopment from "./ldContexts/gaia-x-development.json";
-import odrl from "./ldContexts/odrl.json";
 import schemaOrg from "./ldContexts/schema.org.json";
 import unCefact from "./ldContexts/un-cefact-vocab.json";
-import vc from "./ldContexts/vc-data-model-v2.json";
-import jws from "./ldContexts/w3id-jws-2020-v1.json";
+import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json";
+import w3cOdrl from "./ldContexts/w3c-odrl.json";
+import w3cVc from "./ldContexts/w3c-vc-data-model-v2.json";
+import w3IdJws from "./ldContexts/w3id-jws-2020-v1.json";
 
 /**
  * Map of all the ld contexts by their URL.
@@ -25,12 +26,15 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://w3id.org/gaia-x/development": gaiaXDevelopment,
 	"https://w3id.org/gaia-x/development#": gaiaXDevelopment,
 
-	// ODRL
-	"http://www.w3.org/ns/odrl.jsonld": odrl,
+	// W3C ODRL
+	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
+
+	// W3C Activity Streams
+	"https://www.w3.org/ns/activitystreams#": w3cActivityStreams,
 
 	// W3C Credentials
-	"https://www.w3.org/ns/credentials/v2": vc,
-	"https://w3id.org/security/suites/jws-2020/v1": jws,
+	"https://www.w3.org/ns/credentials/v2": w3cVc,
+	"https://w3id.org/security/suites/jws-2020/v1": w3IdJws,
 
 	// UN/CEFACT
 	"https://vocabulary.uncefact.org": unCefact,

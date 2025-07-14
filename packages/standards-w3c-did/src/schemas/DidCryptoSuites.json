@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/DidCryptoSuites",
+	"$id": "https://schema.twindev.org/w3c-did/DidCryptoSuites",
 	"description": "The types for DID Proof crypto suites.",
 	"type": "string",
 	"enum": [

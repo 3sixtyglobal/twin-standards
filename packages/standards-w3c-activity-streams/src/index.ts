@@ -4,5 +4,5 @@
 export * from "./dataTypes/activityStreamsDataTypes";
 export * from "./models/IActivity";
 export * from "./models/activityStreamsContexts";
-export * from "./models/activityStreamsLdContextType";
+export * from "./models/activityStreamsContextType";
 export * from "./models/activityStreamsTypes";

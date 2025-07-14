@@ -3,7 +3,7 @@
 
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdLanguageMap, IJsonLdNodeObject, IJsonLdObject } from "@twin.org/data-json-ld";
-import type { ActivityStreamsLdContextType } from "./activityStreamsLdContextType";
+import type { ActivityStreamsContextType } from "./activityStreamsContextType";
 import type { ActivityStreamsTypes } from "./activityStreamsTypes";
 
 /**
@@ -15,12 +15,12 @@ export interface IActivity extends IJsonLdNodeObject {
 	 * The LD Context.
 	 *
 	 */
-	"@context": ActivityStreamsLdContextType;
+	"@context": ActivityStreamsContextType;
 
 	/**
 	 * Activity Type.
 	 */
-	type: ObjectOrArray<ActivityStreamsTypes> | string[];
+	type: ObjectOrArray<ActivityStreamsTypes | string>;
 
 	/**
 	 * The generator of the Activity.

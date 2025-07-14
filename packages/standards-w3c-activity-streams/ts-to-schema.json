@@ -1,8 +1,8 @@
 {
 	"baseUrl": "https://schema.twindev.org/w3c-activity-streams/",
 	"types": [
+		"./src/models/activityStreamsContextType.ts",
 		"./src/models/IActivity.ts",
-		"./src/models/activityStreamsLdContextType.ts",
 		"./src/models/activityStreamsTypes.ts"
 	],
 	"externalReferences": {

@@ -1,11 +1,11 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/odrl/OdrlPolicy",
+	"$id": "https://schema.twindev.org/w3c-odrl/OdrlPolicy",
 	"description": "Interface representing an ODRL Policy.",
 	"type": "object",
 	"properties": {
 		"@context": {
-			"$ref": "https://schema.twindev.org/odrl/OdrlContextType",
+			"$ref": "https://schema.twindev.org/w3c-odrl/OdrlContextType",
 			"description": "The context for the policy. Must include \"https://www.w3.org/ns/odrl.jsonld\""
 		},
 		"@id": {
@@ -60,7 +60,7 @@
 			]
 		},
 		"@type": {
-			"$ref": "https://schema.twindev.org/odrl/PolicyType",
+			"$ref": "https://schema.twindev.org/w3c-odrl/PolicyType",
 			"description": "The type of policy. Must be one of: \"Set\", \"Offer\", \"Agreement\""
 		},
 		"@reverse": {
@@ -99,7 +99,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlParty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlParty"
 				}
 			],
 			"description": "The assigner of the policy. Applies to all rules unless overridden at rule level."
@@ -110,7 +110,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlParty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlParty"
 				}
 			],
 			"description": "The assignee of the policy. Applies to all rules unless overridden at rule level."
@@ -121,7 +121,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlAsset"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAsset"
 				},
 				{
 					"type": "array",
@@ -133,7 +133,7 @@
 									"type": "string"
 								},
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlAsset"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAsset"
 								}
 							]
 						}
@@ -145,10 +145,10 @@
 		"action": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/ActionType"
+					"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlAction"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAction"
 				},
 				{
 					"type": "array",
@@ -157,10 +157,10 @@
 						{
 							"anyOf": [
 								{
-									"$ref": "https://schema.twindev.org/odrl/ActionType"
+									"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
 								},
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlAction"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlAction"
 								}
 							]
 						}
@@ -187,7 +187,7 @@
 			"description": "The parent policy(ies) this policy inherits from. IRIs identifying the parent Policy(ies)."
 		},
 		"conflict": {
-			"$ref": "https://schema.twindev.org/odrl/ConflictStrategyType",
+			"$ref": "https://schema.twindev.org/w3c-odrl/ConflictStrategyType",
 			"description": "The conflict resolution strategy.\n- perm: Permissions override Prohibitions\n- prohibit: Prohibitions override Permissions\n- invalid: Policy is void if conflicts exist (default)"
 		},
 		"permission": {
@@ -196,7 +196,7 @@
 			"description": "The permissions in the policy. At least one of permission, prohibition, or obligation must be present.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlPermission"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlPermission"
 				}
 			]
 		},
@@ -206,7 +206,7 @@
 			"description": "The prohibitions in the policy. At least one of permission, prohibition, or obligation must be present.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlProhibition"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlProhibition"
 				}
 			]
 		},
@@ -216,7 +216,7 @@
 			"description": "The obligations in the policy. At least one of permission, prohibition, or obligation must be present.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlDuty"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlDuty"
 				}
 			]
 		}

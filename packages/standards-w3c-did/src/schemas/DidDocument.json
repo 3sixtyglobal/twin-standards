@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/DidDocument",
+	"$id": "https://schema.twindev.org/w3c-did/DidDocument",
 	"description": "Interface describing a DID Document. Spec https://www.w3.org/TR/did-core/#did-document-properties.",
 	"type": "object",
 	"properties": {
@@ -75,7 +75,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -92,7 +92,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -109,7 +109,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -126,7 +126,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -143,7 +143,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -160,7 +160,7 @@
 							"type": "string"
 						},
 						{
-							"$ref": "https://schema.twindev.org/did/DidDocumentVerificationMethod"
+							"$ref": "https://schema.twindev.org/w3c-did/DidDocumentVerificationMethod"
 						}
 					]
 				}
@@ -172,7 +172,7 @@
 			"description": "The services.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/did/DidService"
+					"$ref": "https://schema.twindev.org/w3c-did/DidService"
 				}
 			]
 		}

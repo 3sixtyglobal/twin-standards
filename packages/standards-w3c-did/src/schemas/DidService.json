@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/DidService",
+	"$id": "https://schema.twindev.org/w3c-did/DidService",
 	"description": "Interface describing a did document service.",
 	"type": "object",
 	"properties": {

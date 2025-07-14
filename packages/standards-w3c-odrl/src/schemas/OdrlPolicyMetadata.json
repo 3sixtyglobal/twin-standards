@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/odrl/OdrlPolicyMetadata",
+	"$id": "https://schema.twindev.org/w3c-odrl/OdrlPolicyMetadata",
 	"description": "Interface for ODRL Policy Metadata using Dublin Core terms. While these aren't explicitly defined in the ODRL spec, they are valid and useful metadata properties that follow Dublin Core standards.",
 	"type": "object",
 	"properties": {

@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsLdContextType",
+	"$id": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsContextType",
 	"description": "The Activity Streams JSON-LD context type.",
 	"anyOf": [
 		{

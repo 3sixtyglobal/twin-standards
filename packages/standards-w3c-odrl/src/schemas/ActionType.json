@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/odrl/ActionType",
+	"$id": "https://schema.twindev.org/w3c-odrl/ActionType",
 	"description": "The types for ODRL Actions. Simple action types (for direct string usage)   The types for ODRL Actions.",
 	"type": "string",
 	"enum": [

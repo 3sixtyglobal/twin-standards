@@ -233,8 +233,21 @@
 			"description": "Participant that provides the offering"
 		},
 		"servicePolicy": {
-			"$ref": "https://schema.twindev.org/gaia-x/ObjectOrArray%3CIJsonLdNodeObject%3E",
-			"description": "ODRL policy associated to the service offering"
+			"description": "Object or array data type",
+			"anyOf": [
+				{
+					"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
+				},
+				{
+					"type": "array",
+					"items": false,
+					"prefixItems": [
+						{
+							"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
+						}
+					]
+				}
+			]
 		},
 		"aggregationOfResources": {
 			"anyOf": [

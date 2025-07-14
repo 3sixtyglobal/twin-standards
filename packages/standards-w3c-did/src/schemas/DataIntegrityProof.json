@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/DataIntegrityProof",
+	"$id": "https://schema.twindev.org/w3c-did/DataIntegrityProof",
 	"description": "Interface describing a did proof. https://www.w3.org/TR/vc-data-integrity/",
 	"type": "object",
 	"properties": {
@@ -34,7 +34,7 @@
 		"cryptosuite": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/did/DidCryptoSuites"
+					"$ref": "https://schema.twindev.org/w3c-did/DidCryptoSuites"
 				},
 				{
 					"type": "string"

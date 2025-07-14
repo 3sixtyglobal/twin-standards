@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/did/Multikey",
+	"$id": "https://schema.twindev.org/w3c-did/Multikey",
 	"description": "Interface describing a Multikey. https://www.w3.org/TR/cid-1.0/",
 	"type": "object",
 	"properties": {

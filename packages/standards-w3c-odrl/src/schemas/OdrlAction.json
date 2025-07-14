@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/odrl/OdrlAction",
+	"$id": "https://schema.twindev.org/w3c-odrl/OdrlAction",
 	"description": "Interface for ODRL Actions.",
 	"type": "object",
 	"properties": {
@@ -87,10 +87,10 @@
 		"refinement": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlConstraint"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlConstraint"
 				},
 				{
-					"$ref": "https://schema.twindev.org/odrl/OdrlLogicalConstraint"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlLogicalConstraint"
 				},
 				{
 					"type": "array",
@@ -99,10 +99,10 @@
 						{
 							"anyOf": [
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlConstraint"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlConstraint"
 								},
 								{
-									"$ref": "https://schema.twindev.org/odrl/OdrlLogicalConstraint"
+									"$ref": "https://schema.twindev.org/w3c-odrl/OdrlLogicalConstraint"
 								}
 							]
 						}
@@ -112,7 +112,7 @@
 			"description": "Refinements applied to the action."
 		},
 		"includedIn": {
-			"$ref": "https://schema.twindev.org/odrl/ActionType",
+			"$ref": "https://schema.twindev.org/w3c-odrl/ActionType",
 			"description": "Reference to the action this action is included in."
 		},
 		"implies": {
@@ -121,7 +121,7 @@
 			"description": "References to actions this action implies.",
 			"prefixItems": [
 				{
-					"$ref": "https://schema.twindev.org/odrl/ActionType"
+					"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
 				}
 			]
 		}
