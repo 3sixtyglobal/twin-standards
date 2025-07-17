@@ -18,7 +18,8 @@
 		"**/wordlists/**",
 		"**/src-json/**",
 		"**/ldContexts/*.json",
-		"changelog.md"
+		"changelog.md",
+		"**/schemas"
 	],
 	"words": [
 		"abbrev",

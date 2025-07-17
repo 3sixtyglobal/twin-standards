@@ -1,0 +1,19 @@
+{
+	"baseUrl": "https://schema.twindev.org/unece/",
+	"types": [
+		"./src/codeTypes/uneceAmountCurrencyCodes.ts",
+		"./src/codeTypes/uneceCountryIdCodes.ts",
+		"./src/codeTypes/uneceDocumentCodes.ts",
+		"./src/codeTypes/uneceDocumentStatusCodes.ts",
+		"./src/codeTypes/uneceGovernmentActionCodes.ts",
+		"./src/codeTypes/uneceReferenceCodes.ts",
+		"./src/codeTypes/uneceResponsibleGovernmentAgencyCodes.ts",
+		"./src/codeTypes/uneceStatusCodes.ts",
+		"./src/codeTypes/uneceTransportMeansTypeCodes.ts",
+		"./src/codeTypes/uneceTransportModeCodes.ts",
+		"./src/codeTypes/uneceWorkflowStatusCodes.ts"
+	],
+	"externalReferences": {
+		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+	}
+}
