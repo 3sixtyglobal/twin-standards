@@ -8,5 +8,6 @@
 	"packages/standards-unece": "0.0.2-next.2",
 	"packages/standards-vda": "0.0.2-next.2",
 	"packages/standards-gaia-x": "0.0.2-next.2",
-	"packages/standards-ld-contexts": "0.0.2-next.2"
+	"packages/standards-ld-contexts": "0.0.2-next.2",
+	"packages/standards-w3c-activity-streams": "0.0.2-next.2"
 }

@@ -59,6 +59,11 @@
 			"package-name": "standards-ld-contexts",
 			"changelog-path": "docs/changelog.md",
 			"extra-files": ["src/index.ts"]
+		},
+		"packages/standards-w3c-activity-streams": {
+			"package-name": "standards-w3c-activity-streams",
+			"changelog-path": "docs/changelog.md",
+			"extra-files": ["src/index.ts"]
 		}
 	},
 	"plugins": [
@@ -76,7 +81,8 @@
 				"standards-unece",
 				"standards-vda",
 				"standards-gaia-x",
-				"standards-ld-contexts"
+				"standards-ld-contexts",
+				"standards-w3c-activity-streams"
 			]
 		}
 	]
