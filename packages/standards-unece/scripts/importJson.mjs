@@ -43,7 +43,6 @@ async function generateCodes(filename, name, json) {
 		'// Copyright 2024 IOTA Stiftung.',
 		'// SPDX-License-Identifier: Apache-2.0.',
 		'/* cSpell:disable */',
-		'/* eslint-disable max-len */',
 		'import type { IUneceCode } from "../models/IUneceCode";',
 		'',
 		'/* This file is auto-generated with the importJson script, do not edit manually. */',
@@ -58,11 +57,11 @@ async function generateCodes(filename, name, json) {
 
 	const values = [];
 	for (const code of json.values) {
-		values.push(`\t{`);
+		values.push('\t{');
 		values.push(`\t\turi: "${code.uri}",`);
 		values.push(`\t\tcomment: "${code.comment}",`);
 		values.push(`\t\tvalue: "${code.value}"`);
-		values.push(`\t},`);
+		values.push('\t},');
 	}
 
 	codesContent.push(values.join('\n').slice(0, -1), '];', '');
@@ -80,26 +79,34 @@ async function generateCodeTypes(filename, name, json) {
 	const codesContent = [
 		'// Copyright 2024 IOTA Stiftung.',
 		'// SPDX-License-Identifier: Apache-2.0.',
-		'/* cSpell:disable */',
-		'/* eslint-disable max-len */',
-		'',
-		'/* This file is auto-generated with the importJson script, do not edit manually. */',
-		'',
-		'/**',
-		` * ${json.comment}`,
-		` * https://vocabulary.uncefact.org/${json.label}`,
-		` * https://github.com/uncefact/vocabulary-outputs/blob/main/_data/${filename}`,
-		' */',
-		'// eslint-disable-next-line @typescript-eslint/naming-convention',
-		`export const ${name}Codes = {`
+		'/* cSpell:disable */'
 	];
+
+	if (['UneceResponsibleGovernmentAgency', 'UneceTransportMeansType'].includes(name)) {
+		codesContent.push('/* eslint-disable max-len */');
+	}
+
+	codesContent.push(
+		...[
+			'',
+			'/* This file is auto-generated with the importJson script, do not edit manually. */',
+			'',
+			'/**',
+			` * ${json.comment}`,
+			` * https://vocabulary.uncefact.org/${json.label}`,
+			` * https://github.com/uncefact/vocabulary-outputs/blob/main/_data/${filename}`,
+			' */',
+			'// eslint-disable-next-line @typescript-eslint/naming-convention',
+			`export const ${name}Codes = {`
+		]
+	);
 
 	const values = [];
 	const keyNames = [];
 	for (const code of json.values) {
-		values.push(`\t/**`);
+		values.push('\t/**');
 		values.push(`\t * ${code.comment}: ${code.value}.`);
-		values.push(`\t */`);
+		values.push('\t */');
 		const num = Number.parseInt(code.value, 10);
 		if (!Number.isNaN(num)) {
 			let keyName = pascalCase(code.comment).replace(/[^\dA-Za-z]/g, '');
@@ -116,7 +123,7 @@ async function generateCodeTypes(filename, name, json) {
 		} else {
 			values.push(`\t${code.value}: "${code.uri}",`);
 		}
-		values.push(``);
+		values.push('');
 	}
 
 	codesContent.push(values.join('\n').slice(0, -2), '};', '');

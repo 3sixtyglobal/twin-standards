@@ -4,7 +4,7 @@
 
 The types concerning Activity Streams.
 
-## Type declaration
+## Type Declaration
 
 ### Activity
 

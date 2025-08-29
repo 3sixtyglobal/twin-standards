@@ -42,7 +42,6 @@ export class Gs1IdentifiersValidation {
 				);
 
 				if (isValid) {
-					// eslint-disable-next-line default-case
 					switch (specificParts[1]) {
 						case Gs1IdTypes.Gtin:
 							Gs1IdentifiersValidation.epcIdGtin(propertyName, urn, failures);

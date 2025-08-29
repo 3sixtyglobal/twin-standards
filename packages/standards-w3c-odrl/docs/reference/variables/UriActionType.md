@@ -5,7 +5,7 @@
 The types for ODRL Actions.
 URI action types (for use with rdf:value/@id)
 
-## Type declaration
+## Type Declaration
 
 ### OdrlUse
 

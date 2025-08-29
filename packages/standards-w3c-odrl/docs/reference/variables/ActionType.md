@@ -5,7 +5,7 @@
 The types for ODRL Actions.
 Simple action types (for direct string usage)
 
-## Type declaration
+## Type Declaration
 
 ### Use
 

@@ -4,7 +4,7 @@
 
 The types for ODRL.
 
-## Type declaration
+## Type Declaration
 
 ### Policy
 
