@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-vcard - Changelog
 
+## [0.0.2-next.3](https://github.com/twinfoundation/standards/compare/standards-w3c-vcard-v0.0.2-next.2...standards-w3c-vcard-v0.0.2-next.3) (2025-08-29)
+
+
+### Features
+
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+
 ## [0.0.2-next.2](https://github.com/twinfoundation/standards/compare/standards-w3c-vcard-v0.0.2-next.1...standards-w3c-vcard-v0.0.2-next.2) (2025-08-19)
 
 

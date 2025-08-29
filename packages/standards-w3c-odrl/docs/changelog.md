@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.2-next.3](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.2-next.2...standards-w3c-odrl-v0.0.2-next.3) (2025-08-29)
+
+
+### Features
+
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.2-next.2 to 0.0.2-next.3
+    * @twin.org/standards-dublin-core bumped from 0.0.2-next.2 to 0.0.2-next.3
+
 ## [0.0.2-next.2](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.2-next.1...standards-w3c-odrl-v0.0.2-next.2) (2025-08-19)
 
 
