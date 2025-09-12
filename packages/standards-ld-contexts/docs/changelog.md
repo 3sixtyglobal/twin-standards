@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.2-next.4](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.3...standards-ld-contexts-v0.0.2-next.4) (2025-09-12)
+
+
+### Miscellaneous Chores
+
+* **standards-ld-contexts:** Synchronize repo versions
+
 ## [0.0.2-next.3](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.2...standards-ld-contexts-v0.0.2-next.3) (2025-08-29)
 
 
