@@ -1,17 +1,14 @@
-# Interface: IDidVerifiableCredential
+# Interface: IDidVerifiableCredentialCommon
 
 Interface describing a verifiable credential.
 https://www.w3.org/TR/vc-data-model-2.0
 
+## Extended by
+
+- [`IDidVerifiableCredentialV1`](IDidVerifiableCredentialV1.md)
+- [`IDidVerifiableCredentialV2`](IDidVerifiableCredentialV2.md)
+
 ## Properties
-
-### @context
-
-> **@context**: `"https://www.w3.org/2018/credentials/v1"` \| `"https://www.w3.org/ns/credentials/v2"` \| \[`"https://www.w3.org/ns/credentials/v2"`, `...IJsonLdContextDefinitionElement[]`\] \| \[`"https://www.w3.org/2018/credentials/v1"`, `...IJsonLdContextDefinitionElement[]`\]
-
-The context for the verifiable credential.
-
-***
 
 ### id?
 
@@ -62,14 +59,6 @@ The issuing identity.
 
 ***
 
-### issuanceDate?
-
-> `optional` **issuanceDate**: `string`
-
-The date the verifiable credential was issued.
-
-***
-
 ### name?
 
 > `optional` **name**: `string` \| [`IDidLabel`](IDidLabel.md)[]
@@ -83,22 +72,6 @@ The name of the credential.
 > `optional` **description**: `string` \| [`IDidLabel`](IDidLabel.md)[]
 
 The description of the credential.
-
-***
-
-### validFrom?
-
-> `optional` **validFrom**: `string`
-
-The date the verifiable credential is valid from.
-
-***
-
-### validUntil?
-
-> `optional` **validUntil**: `string`
-
-The date the verifiable credential is valid until.
 
 ***
 

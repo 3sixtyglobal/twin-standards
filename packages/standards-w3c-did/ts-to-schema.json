@@ -13,6 +13,8 @@
 		"./src/models/IDidPresentationVerification.ts",
 		"./src/models/IDidService.ts",
 		"./src/models/IDidVerifiableCredential.ts",
+		"./src/models/IDidVerifiableCredentialV1.ts",
+		"./src/models/IDidVerifiableCredentialV2.ts",
 		"./src/models/IDidVerifiablePresentation.ts",
 		"./src/models/IJsonWebSignature2020Proof.ts",
 		"./src/models/IMultikey.ts",

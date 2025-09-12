@@ -6,6 +6,7 @@
 - [JsonWebSignature2020SignerVerifier](classes/JsonWebSignature2020SignerVerifier.md)
 - [MultikeyHelper](classes/MultikeyHelper.md)
 - [ProofHelper](classes/ProofHelper.md)
+- [VerifiableCredentialHelper](classes/VerifiableCredentialHelper.md)
 
 ## Interfaces
 
@@ -17,7 +18,9 @@
 - [IDidLabel](interfaces/IDidLabel.md)
 - [IDidPresentationVerification](interfaces/IDidPresentationVerification.md)
 - [IDidService](interfaces/IDidService.md)
-- [IDidVerifiableCredential](interfaces/IDidVerifiableCredential.md)
+- [IDidVerifiableCredentialCommon](interfaces/IDidVerifiableCredentialCommon.md)
+- [IDidVerifiableCredentialV1](interfaces/IDidVerifiableCredentialV1.md)
+- [IDidVerifiableCredentialV2](interfaces/IDidVerifiableCredentialV2.md)
 - [IDidVerifiablePresentation](interfaces/IDidVerifiablePresentation.md)
 - [IJsonWebSignature2020Proof](interfaces/IJsonWebSignature2020Proof.md)
 - [IMultikey](interfaces/IMultikey.md)
@@ -25,6 +28,7 @@
 
 ## Type Aliases
 
+- [IDidVerifiableCredential](type-aliases/IDidVerifiableCredential.md)
 - [IProof](type-aliases/IProof.md)
 - [DidContexts](type-aliases/DidContexts.md)
 - [DidCryptoSuites](type-aliases/DidCryptoSuites.md)
