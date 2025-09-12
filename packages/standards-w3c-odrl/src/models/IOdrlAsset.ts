@@ -5,6 +5,7 @@ import type { IOdrlAssetCollection } from "./IOdrlAssetCollection";
 
 /**
  * Interface for ODRL Assets.
+ * https://www.w3.org/TR/odrl-model/#asset
  */
 export interface IOdrlAsset extends IJsonLdNodeObject {
 	/**

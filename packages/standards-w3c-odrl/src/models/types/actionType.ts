@@ -7,260 +7,291 @@
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const ActionType = {
+	// Core actions
+
 	/**
-	 * To use the Asset - actions that involve general usage by parties.
+	 * The act of using an asset, covering any general usage where ownership does not change.
+	 * This is the parent term for most permissions and prohibitions.
 	 */
 	Use: "use",
 
 	/**
-	 * To transfer the ownership to third parties.
+	 * The act of transferring the ownership of an asset in perpetuity to a third party.
 	 */
 	Transfer: "transfer",
 
-	/**
-	 * To accept that the use of the Asset may be tracked.
-	 */
-	AcceptTracking: "acceptTracking",
+	// Sub-actions of 'use'
 
 	/**
-	 * To use the Asset or parts of it as part of a composite collection.
+	 * The act of using an asset (or parts of it) as part of a composite collection.
 	 */
 	Aggregate: "aggregate",
 
 	/**
-	 * To add explanatory notations/commentaries to the Asset without modifying the Asset in any other way.
+	 * The act of adding explanatory notations/commentaries to the asset.
 	 */
 	Annotate: "annotate",
 
 	/**
-	 * To anonymize all or parts of the Asset.
+	 * The act of anonymising all or parts of the asset, for example, to remove identifying particulars.
 	 */
 	Anonymize: "anonymize",
 
 	/**
-	 * To store the Asset (in a non-transient form).
+	 * The act of persistently storing the asset in a non-transient form.
 	 */
 	Archive: "archive",
 
 	/**
-	 * To attribute the use of the Asset.
-	 */
-	Attribute: "attribute",
-
-	/**
-	 * Credit be given to copyright holder and/or author.
-	 */
-	Attribution: "attribution",
-
-	/**
-	 * Exercising rights for commercial purposes.
-	 */
-	CommercialUse: "commercialUse",
-
-	/**
-	 * To compensate by transfer of some amount of value for using or selling the Asset.
-	 */
-	Compensate: "compensate",
-
-	/**
-	 * To create multiple copies of the Asset that are being concurrently used.
+	 * The act of multiple concurrent use of the asset.
 	 */
 	ConcurrentUse: "concurrentUse",
 
 	/**
-	 * To permanently remove all copies of the Asset after it has been used.
+	 * The act of using the asset in a business environment where it may be traded for profit.
 	 */
-	Delete: "delete",
+	Commercialize: "commercialize",
 
 	/**
-	 * To create a new derivative Asset from this Asset and to edit or modify the derivative.
+	 * The act of making an exact reproduction of the asset. Also identified as `reproduce`.
+	 */
+	Copy: "copy",
+
+	/**
+	 * The act of creating a new derivative asset from the original and editing or modifying it.
 	 */
 	Derive: "derive",
 
 	/**
-	 * Distribution of derivative works.
-	 */
-	DerivativeWorks: "derivativeWorks",
-
-	/**
-	 * To produce a digital copy of (or otherwise digitize) the Asset from its analogue form.
+	 * The act of producing a digital copy of an asset from its analogue form.
 	 */
 	Digitize: "digitize",
 
 	/**
-	 * To create a static and transient rendition of an Asset.
+	 * The act of making a transient visible rendering of the asset, such as displaying an image on a screen.
+	 * Also identified as `present` in earlier versions.
 	 */
 	Display: "display",
 
 	/**
-	 * To supply the Asset to third-parties.
+	 * The act of publicly distributing, displaying, or performing the asset.
 	 */
 	Distribute: "distribute",
 
 	/**
-	 * Distribution, public display, and publicly performance.
-	 */
-	Distribution: "distribution",
-
-	/**
-	 * To ensure that the Rule on the Asset is exclusive.
-	 */
-	EnsureExclusivity: "ensureExclusivity",
-
-	/**
-	 * To run the computer program Asset.
+	 * The act of executing the asset, such as running a program or application.
 	 */
 	Execute: "execute",
 
 	/**
-	 * To extract parts of the Asset and to use it as a new Asset.
+	 * The act of extracting (replicating) unchanged parts of the asset for reuse.
 	 */
 	Extract: "extract",
 
 	/**
-	 * To transfer the ownership without compensation and while deleting the original asset.
+	 * The act of extracting unchanged character(s) from the asset.
 	 */
-	Give: "give",
+	ExtractChar: "extractChar",
 
 	/**
-	 * To grant the use of the Asset to third parties.
+	 * The act of extracting unchanged word(s) from the asset.
 	 */
-	GrantUse: "grantUse",
+	ExtractWord: "extractWord",
 
 	/**
-	 * To include other related assets in the Asset.
+	 * The act of extracting unchanged page(s) from the asset.
 	 */
-	Include: "include",
+	ExtractPage: "extractPage",
 
 	/**
-	 * To record the Asset in an index.
+	 * The act of recording the asset in an index, for example, a search engine database.
 	 */
 	Index: "index",
 
 	/**
-	 * To inform that an action has been performed on or in relation to the Asset.
-	 */
-	Inform: "inform",
-
-	/**
-	 * To load the computer program Asset onto a storage device.
+	 * The act of loading the asset onto a storage device ready for operation.
 	 */
 	Install: "install",
 
 	/**
-	 * To change existing content of the Asset without creating a new asset.
+	 * The act of granting the use of the asset to third parties. Also identified as `sublicense` in earlier versions.
+	 */
+	License: "license",
+
+	/**
+	 * The act of making the asset available to a third-party for a fixed period with exchange of value.
+	 */
+	Lease: "lease",
+
+	/**
+	 * The act of making the asset available to a third-party for a fixed period without exchange of value.
+	 */
+	Lend: "lend",
+
+	/**
+	 * The act of updating existing content of the asset without creating a new one.
 	 */
 	Modify: "modify",
 
 	/**
-	 * To move the Asset from one digital location to another including deleting the original copy.
+	 * The act of moving the asset from one digital location to another and deleting the original.
 	 */
 	Move: "move",
 
 	/**
-	 * To grant the specified Policy to a third party for their use of the Asset.
-	 */
-	NextPolicy: "nextPolicy",
-
-	/**
-	 * Copyright and license notices be kept intact.
-	 */
-	Notice: "notice",
-
-	/**
-	 * To obtain verifiable consent to perform the requested action.
-	 */
-	ObtainConsent: "obtainConsent",
-
-	/**
-	 * To create a sequential and transient rendition of an Asset.
+	 * The act of rendering the asset into audio and/or video form.
 	 */
 	Play: "play",
 
 	/**
-	 * To publicly perform the Asset.
+	 * The act of providing a short preview of the asset.
 	 */
-	Present: "present",
+	Preview: "preview",
 
 	/**
-	 * To create a tangible and permanent rendition of an Asset.
+	 * The act of rendering the asset onto paper or hard copy form.
 	 */
 	Print: "print",
 
 	/**
-	 * To obtain data from the Asset.
+	 * The act of obtaining data from the asset, such as a database record.
 	 */
 	Read: "read",
 
 	/**
-	 * To make duplicate copies of the Asset in any material form.
+	 * The act of using the asset for a purpose other than its intended purpose.
 	 */
-	Reproduce: "reproduce",
+	SecondaryUse: "secondaryUse",
 
 	/**
-	 * Making multiple copies.
+	 * The act of non-commercial reproduction and distribution of the asset to third-parties.
 	 */
-	Reproduction: "reproduction",
+	Share: "share",
 
 	/**
-	 * To review the Policy applicable to the Asset.
+	 * The act of sharing the asset to parties in close proximity to the owner.
 	 */
-	ReviewPolicy: "reviewPolicy",
+	AdhocShare: "adhocShare",
 
 	/**
-	 * To transfer the ownership with compensation and while deleting the original asset.
-	 */
-	Sell: "sell",
-
-	/**
-	 * Derivative works be licensed under the same terms or compatible terms.
+	 * The act of distributing any derivative asset under the same terms as the original.
 	 */
 	ShareAlike: "shareAlike",
 
 	/**
-	 * Permits commercial derivatives, but only non-commercial distribution.
-	 */
-	Sharing: "sharing",
-
-	/**
-	 * Source code must be provided when exercising some rights.
-	 */
-	SourceCode: "sourceCode",
-
-	/**
-	 * To deliver the Asset in real-time.
-	 */
-	Stream: "stream",
-
-	/**
-	 * To use the Asset in timed relations with media elements of another Asset.
-	 */
-	Synchronize: "synchronize",
-
-	/**
-	 * To have a text Asset read out loud.
+	 * The act of a system reading the text of the asset out loud.
 	 */
 	TextToSpeech: "textToSpeech",
 
 	/**
-	 * To convert the Asset into a different format.
-	 */
-	Transform: "transform",
-
-	/**
-	 * To translate the Asset into another natural language.
+	 * The act of translating the asset's original language into another, creating a new derivative asset.
 	 */
 	Translate: "translate",
 
 	/**
-	 * To unload and delete the computer program Asset.
+	 * The act of transforming the asset into a different digital format.
+	 */
+	Transform: "transform",
+
+	/**
+	 * The act of unloading the asset from a storage device, making it no longer accessible.
 	 */
 	Uninstall: "uninstall",
 
 	/**
-	 * To apply a watermark to the Asset.
+	 * The act of applying a watermark to the asset.
 	 */
-	Watermark: "watermark"
+	Watermark: "watermark",
+
+	/**
+	 * The act of writing to or modifying the asset.
+	 */
+	Write: "write",
+
+	/**
+	 * The act of adding to the end of an asset, for example, a database record.
+	 * Also identified as `appendTo`.
+	 */
+	Append: "append",
+
+	// Sub-actions of 'transfer'
+
+	/**
+	 * The act of giving away the asset in perpetuity without exchange of value, requiring the original to be deleted.
+	 */
+	Give: "give",
+
+	/**
+	 * The act of trading the asset in exchange for compensation, requiring the original to be deleted.
+	 */
+	Sell: "sell",
+
+	// Actions typically used in Duties
+
+	/**
+	 * The act of accepting that the use of the asset may be tracked by a specified party.
+	 */
+	AcceptTracking: "acceptTracking",
+
+	/**
+	 * The act of keeping a policy notice attached to the asset.
+	 */
+	AttachPolicy: "attachPolicy",
+
+	/**
+	 * The act of attaching the source of the asset and its derivatives.
+	 */
+	AttachSource: "attachSource",
+
+	/**
+	 * The act of attributing the asset to a specified party.
+	 */
+	Attribute: "attribute",
+
+	/**
+	 * The act of compensating a specified party by some amount for use of the asset.
+	 */
+	Compensate: "compensate",
+
+	/**
+	 * The act of permanently removing all copies of the asset.
+	 */
+	Delete: "delete",
+
+	/**
+	 * The act of requiring the assigner to ensure a permission is exclusive to the assignee.
+	 */
+	EnsureExclusivity: "ensureExclusivity",
+
+	/**
+	 * The act of including other related assets to fulfil the function.
+	 */
+	Include: "include",
+
+	/**
+	 * The act of informing a party that an action has been performed on the asset.
+	 */
+	Inform: "inform",
+
+	/**
+	 * The act of specifying a policy for third-party use of the asset.
+	 */
+	NextPolicy: "nextPolicy",
+
+	/**
+	 * The act of requiring explicit consent from a party to perform an action.
+	 */
+	ObtainConsent: "obtainConsent",
+
+	/**
+	 * The act of paying a financial amount to a party for use of the asset.
+	 */
+	Pay: "pay",
+
+	/**
+	 * The act of performing a manual review of the terms associated with the asset.
+	 */
+	ReviewPolicy: "reviewPolicy"
 } as const;
 
 /**

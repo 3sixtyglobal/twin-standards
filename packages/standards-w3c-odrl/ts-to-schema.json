@@ -13,7 +13,6 @@
 		"./src/models/IOdrlPartyCollection.ts",
 		"./src/models/IOdrlPermission.ts",
 		"./src/models/IOdrlPolicy.ts",
-		"./src/models/IOdrlPolicyMetadata.ts",
 		"./src/models/IOdrlProhibition.ts",
 		"./src/models/IOdrlRule.ts",
 		"./src/models/IOdrlSet.ts",
@@ -26,7 +25,6 @@
 		"./src/models/types/statusType.ts",
 		"./src/models/types/actionType.ts",
 		"./src/models/types/leftOperandType.ts",
-		"./src/models/types/uriActionType.ts",
 		"./src/models/types/rightOperandType.ts"
 	],
 	"externalReferences": {

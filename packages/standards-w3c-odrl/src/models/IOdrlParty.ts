@@ -6,6 +6,7 @@ import type { IOdrlPartyCollection } from "./IOdrlPartyCollection";
 
 /**
  * Interface for ODRL Parties.
+ * https://www.w3.org/TR/odrl-model/#party
  */
 export interface IOdrlParty extends IJsonLdNodeObject {
 	/**

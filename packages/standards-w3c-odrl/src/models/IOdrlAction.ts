@@ -8,6 +8,7 @@ import type { ActionType } from "./types/actionType";
 
 /**
  * Interface for ODRL Actions.
+ * https://www.w3.org/TR/odrl-model/#action
  */
 export interface IOdrlAction extends IJsonLdNodeObject {
 	/**
@@ -33,10 +34,10 @@ export interface IOdrlAction extends IJsonLdNodeObject {
 	/**
 	 * Reference to the action this action is included in.
 	 */
-	includedIn?: ActionType;
+	includedIn?: ActionType | string;
 
 	/**
 	 * References to actions this action implies.
 	 */
-	implies?: ActionType[];
+	implies?: (ActionType | string)[];
 }

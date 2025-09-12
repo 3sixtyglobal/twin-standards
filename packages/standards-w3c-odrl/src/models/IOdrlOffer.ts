@@ -8,6 +8,7 @@ import type { OdrlTypes } from "./types/odrlTypes";
 /**
  * Interface representing an ODRL Offer.
  * An Offer requires an assigner (the party making the offer).
+ * https://www.w3.org/TR/odrl-model/#policy-offer
  */
 export interface IOdrlOffer extends IOdrlPolicy {
 	/**

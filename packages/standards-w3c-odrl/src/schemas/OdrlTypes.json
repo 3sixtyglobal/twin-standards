@@ -19,7 +19,6 @@
 		"Duty",
 		"Constraint",
 		"LogicalConstraint",
-		"ContextType",
-		"PolicyMetadata"
+		"ContextType"
 	]
 }

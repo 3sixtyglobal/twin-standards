@@ -8,6 +8,7 @@ import type { OdrlTypes } from "./types/odrlTypes";
 /**
  * Interface representing an ODRL Agreement.
  * An Agreement requires both an assigner and assignee (both agreeing parties).
+ * https://www.w3.org/TR/odrl-model/#policy-agreement
  */
 export interface IOdrlAgreement extends IOdrlPolicy {
 	/**

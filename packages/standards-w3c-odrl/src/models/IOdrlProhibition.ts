@@ -6,6 +6,7 @@ import type { IOdrlRule } from "./IOdrlRule";
 
 /**
  * Interface for Prohibition Rules.
+ * https://www.w3.org/TR/odrl-model/#prohibition
  */
 export interface IOdrlProhibition extends IOdrlRule {
 	/**

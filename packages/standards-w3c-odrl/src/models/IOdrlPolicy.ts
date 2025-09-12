@@ -15,6 +15,7 @@ import type { PolicyType } from "./types/policyType";
 
 /**
  * Interface representing an ODRL Policy.
+ * https://www.w3.org/TR/odrl-model/#policy
  */
 export interface IOdrlPolicy extends IJsonLdNodeObject {
 	/**
@@ -61,7 +62,7 @@ export interface IOdrlPolicy extends IJsonLdNodeObject {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ActionType | IOdrlAction | (ActionType | IOdrlAction)[];
+	action?: ActionType | string | IOdrlAction | (ActionType | string | IOdrlAction)[];
 
 	/**
 	 * The parent policy(ies) this policy inherits from.

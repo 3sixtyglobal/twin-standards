@@ -9,6 +9,7 @@ import type { ActionType } from "./types/actionType";
 
 /**
  * Base interface for ODRL Rules.
+ * https://www.w3.org/TR/odrl-model/#rule
  */
 export interface IOdrlRule extends IJsonLdNodeObject {
 	/**
@@ -19,7 +20,7 @@ export interface IOdrlRule extends IJsonLdNodeObject {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ActionType | IOdrlAction | (ActionType | IOdrlAction)[];
+	action?: ActionType | string | IOdrlAction | (ActionType | string | IOdrlAction)[];
 
 	/**
 	 * The target asset for the rule.

@@ -8,6 +8,7 @@ import type { IOdrlRule } from "./IOdrlRule";
  * Interface for Permission Rules.
  * A Permission allows an action to be exercised on an Asset
  * if all constraints are satisfied and if all duties are fulfilled.
+ * https://www.w3.org/TR/odrl-model/#permission
  */
 export interface IOdrlPermission extends IOdrlRule {
 	/**

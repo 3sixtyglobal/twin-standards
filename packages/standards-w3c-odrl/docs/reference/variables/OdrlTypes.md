@@ -101,9 +101,3 @@ LogicalConstraint type.
 > `readonly` **ContextType**: `"ContextType"` = `"ContextType"`
 
 ContextType.
-
-### PolicyMetadata
-
-> `readonly` **PolicyMetadata**: `"PolicyMetadata"` = `"PolicyMetadata"`
-
-PolicyMetadata type.

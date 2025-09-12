@@ -18,7 +18,6 @@ import OdrlPartySchema from "../schemas/OdrlParty.json";
 import OdrlPartyCollectionSchema from "../schemas/OdrlPartyCollection.json";
 import OdrlPermissionSchema from "../schemas/OdrlPermission.json";
 import OdrlPolicySchema from "../schemas/OdrlPolicy.json";
-import OdrlPolicyMetadataSchema from "../schemas/OdrlPolicyMetadata.json";
 import OdrlProhibitionSchema from "../schemas/OdrlProhibition.json";
 import OdrlRuleSchema from "../schemas/OdrlRule.json";
 import OdrlSetSchema from "../schemas/OdrlSet.json";
@@ -113,15 +112,6 @@ export class OdrlDataTypes {
 				context: OdrlContexts.ContextRoot,
 				type: OdrlTypes.LogicalConstraint,
 				jsonSchema: async () => OdrlLogicalConstraintSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${OdrlContexts.ContextRoot}${OdrlTypes.PolicyMetadata}`,
-			() => ({
-				context: OdrlContexts.ContextRoot,
-				type: OdrlTypes.PolicyMetadata,
-				jsonSchema: async () => OdrlPolicyMetadataSchema as IJsonSchema
 			})
 		);
 

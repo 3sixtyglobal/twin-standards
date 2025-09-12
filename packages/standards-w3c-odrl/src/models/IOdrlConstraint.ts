@@ -8,6 +8,7 @@ import type { StatusType } from "./types/statusType";
 
 /**
  * Interface for ODRL Constraints.
+ * https://www.w3.org/TR/odrl-model/#constraint
  */
 export interface IOdrlConstraint extends IJsonLdNodeObject {
 	/**

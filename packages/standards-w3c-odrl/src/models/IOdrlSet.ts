@@ -7,6 +7,7 @@ import type { OdrlTypes } from "./types/odrlTypes";
 /**
  * Interface representing an ODRL Set.
  * A Set is a basic policy type with no specific party requirements.
+ * https://www.w3.org/TR/odrl-model/#policy-set
  */
 export interface IOdrlSet extends IOdrlPolicy {
 	/**

@@ -84,12 +84,7 @@ export const OdrlTypes = {
 	/**
 	 * ContextType.
 	 */
-	ContextType: "ContextType",
-
-	/**
-	 * PolicyMetadata type.
-	 */
-	PolicyMetadata: "PolicyMetadata"
+	ContextType: "ContextType"
 } as const;
 
 /**

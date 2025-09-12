@@ -7,6 +7,7 @@ import type { IOdrlConstraint } from "./IOdrlConstraint";
  * Interface for ODRL Asset Collections.
  * An AssetCollection is a single resource representing a set of member resources,
  * where all members of the set will be the subject of the Rule.
+ * https://www.w3.org/TR/odrl-model/#asset
  */
 export interface IOdrlAssetCollection extends IOdrlAsset {
 	/**

@@ -22,7 +22,6 @@ import { OdrlTypes } from "../src/models/types/odrlTypes";
 import { OperatorType } from "../src/models/types/operatorType";
 import { PolicyType } from "../src/models/types/policyType";
 import { RightOperandType } from "../src/models/types/rightOperandType";
-import { UriActionType } from "../src/models/types/uriActionType";
 
 describe("ODRL Examples from Specification", () => {
 	it("Example 1: Set Policy with use permission", () => {
@@ -378,7 +377,7 @@ describe("ODRL Examples from Specification", () => {
 					assigner: "http://example.com/org:616",
 					action: [
 						{
-							"rdf:value": { "@id": UriActionType.OdrlPrint },
+							"rdf:value": { "@id": `odrl:${ActionType.Print}` },
 							refinement: [
 								{
 									leftOperand: "resolution",
@@ -412,7 +411,7 @@ describe("ODRL Examples from Specification", () => {
 		const actions = permission?.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
-		expect(action["rdf:value"]).toEqual({ "@id": UriActionType.OdrlPrint });
+		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Print}` });
 
 		// Test the refinement
 		const refinements = action.refinement as (IOdrlConstraint | IOdrlLogicalConstraint)[];
@@ -460,7 +459,7 @@ describe("ODRL Examples from Specification", () => {
 					target: "http://example.com/book/1999",
 					assigner: "http://example.com/org/paisley-park",
 					action: {
-						"rdf:value": { "@id": UriActionType.OdrlReproduce },
+						"rdf:value": { "@id": "odrl:reproduce" },
 						refinement: {
 							xone: {
 								"@list": [
@@ -485,7 +484,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(permission?.assigner).toBe("http://example.com/org/paisley-park");
 
 		const action = permission?.action as IOdrlAction;
-		expect(action["rdf:value"]).toEqual({ "@id": UriActionType.OdrlReproduce });
+		expect(action["rdf:value"]).toEqual({ "@id": "odrl:reproduce" });
 
 		const refinement = action.refinement as IOdrlLogicalConstraint;
 		expect(refinement.xone).toBeDefined();
@@ -740,7 +739,7 @@ describe("ODRL Examples from Specification", () => {
 					action: [
 						{
 							"rdf:value": {
-								"@id": UriActionType.OdrlCompensate
+								"@id": `odrl:${ActionType.Compensate}`
 							},
 							refinement: [
 								{
@@ -775,7 +774,7 @@ describe("ODRL Examples from Specification", () => {
 		const actions = obligation?.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
-		expect(action["rdf:value"]).toEqual({ "@id": UriActionType.OdrlCompensate });
+		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Compensate}` });
 
 		// Test refinement array
 		const refinements = action.refinement as (IOdrlConstraint | IOdrlLogicalConstraint)[];
@@ -806,7 +805,7 @@ describe("ODRL Examples from Specification", () => {
 						{
 							action: [
 								{
-									"rdf:value": { "@id": UriActionType.OdrlCompensate },
+									"rdf:value": { "@id": `odrl:${ActionType.Compensate}` },
 									refinement: [
 										{
 											leftOperand: LeftOperandType.PayAmount,
@@ -849,7 +848,7 @@ describe("ODRL Examples from Specification", () => {
 		const actions = consequence.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
-		expect(action["rdf:value"]).toEqual({ "@id": UriActionType.OdrlCompensate });
+		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Compensate}` });
 
 		// Test consequence refinement
 		const refinements = action.refinement as IOdrlConstraint[];
@@ -882,7 +881,7 @@ describe("ODRL Examples from Specification", () => {
 						{
 							action: [
 								{
-									"rdf:value": { "@id": UriActionType.OdrlCompensate },
+									"rdf:value": { "@id": `odrl:${ActionType.Compensate}` },
 									refinement: [
 										{
 											leftOperand: LeftOperandType.PayAmount,
@@ -930,7 +929,7 @@ describe("ODRL Examples from Specification", () => {
 		const actions = duty.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
-		expect(action["rdf:value"]).toEqual({ "@id": UriActionType.OdrlCompensate });
+		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Compensate}` });
 
 		// Test duty action refinement
 		const refinements = action.refinement as IOdrlConstraint[];
@@ -1095,7 +1094,7 @@ describe("ODRL Examples from Specification", () => {
 				{
 					target: ["http://example.com/music/1999.mp3", "http://example.com/music/PurpleRain.mp3"],
 					assigner: "http://example.com/org/sony-music",
-					action: [ActionType.Play, ActionType.Stream]
+					action: [ActionType.Play, "stream"]
 				}
 			]
 		};
@@ -1125,7 +1124,7 @@ describe("ODRL Examples from Specification", () => {
 		const actions = permission?.action as ActionType[];
 		expect(actions).toHaveLength(2);
 		expect(actions[0]).toBe(ActionType.Play);
-		expect(actions[1]).toBe(ActionType.Stream);
+		expect(actions[1]).toBe("stream");
 	});
 
 	it("Example 27: Policy with decomposed atomic permissions", () => {
@@ -1143,7 +1142,7 @@ describe("ODRL Examples from Specification", () => {
 				{
 					target: "http://example.com/music/1999.mp3",
 					assigner: "http://example.com/org/sony-music",
-					action: ActionType.Stream
+					action: "stream"
 				},
 				{
 					target: "http://example.com/music/PurpleRain.mp3",
@@ -1153,7 +1152,7 @@ describe("ODRL Examples from Specification", () => {
 				{
 					target: "http://example.com/music/PurpleRain.mp3",
 					assigner: "http://example.com/org/sony-music",
-					action: ActionType.Stream
+					action: "stream"
 				}
 			]
 		};
@@ -1183,7 +1182,7 @@ describe("ODRL Examples from Specification", () => {
 
 		// Second permission: 1999.mp3 + stream
 		expect(permissions[1].target).toBe("http://example.com/music/1999.mp3");
-		expect(permissions[1].action).toBe(ActionType.Stream);
+		expect(permissions[1].action).toBe("stream");
 
 		// Third permission: PurpleRain.mp3 + play
 		expect(permissions[2].target).toBe("http://example.com/music/PurpleRain.mp3");
@@ -1191,7 +1190,7 @@ describe("ODRL Examples from Specification", () => {
 
 		// Fourth permission: PurpleRain.mp3 + stream
 		expect(permissions[3].target).toBe("http://example.com/music/PurpleRain.mp3");
-		expect(permissions[3].action).toBe(ActionType.Stream);
+		expect(permissions[3].action).toBe("stream");
 	});
 
 	it("Example 28: Compact Policy with shared properties", () => {
@@ -1545,7 +1544,6 @@ describe("OdrlDataTypes Validation", () => {
 			OdrlTypes.PartyCollection,
 			OdrlTypes.Duty,
 			OdrlTypes.Prohibition,
-			OdrlTypes.PolicyMetadata,
 			OdrlTypes.ContextType
 		];
 
