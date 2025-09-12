@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.2-next.6](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.2-next.5...standards-w3c-odrl-v0.0.2-next.6) (2025-09-12)
+
+
+### Features
+
+* update ODRL actions and allow custom actions ([c517dad](https://github.com/twinfoundation/standards/commit/c517dad09d68f5dee9117c6cb142f75caad098c4))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.2-next.5 to 0.0.2-next.6
+    * @twin.org/standards-dublin-core bumped from 0.0.2-next.5 to 0.0.2-next.6
+
 ## [0.0.2-next.5](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.2-next.4...standards-w3c-odrl-v0.0.2-next.5) (2025-09-12)
 
 
