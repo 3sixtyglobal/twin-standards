@@ -1,16 +1,13 @@
-# Interface: IDidVerifiablePresentation
+# Interface: IDidVerifiablePresentationCommon
 
 Interface describing a verifiable presentation.
 
+## Extended by
+
+- [`IDidVerifiablePresentationV1`](IDidVerifiablePresentationV1.md)
+- [`IDidVerifiablePresentationV2`](IDidVerifiablePresentationV2.md)
+
 ## Properties
-
-### @context
-
-> **@context**: `"https://www.w3.org/ns/credentials/v2"` \| \[`"https://www.w3.org/ns/credentials/v2"`, `...IJsonLdContextDefinitionElement[]`\]
-
-The context for the verifiable presentation.
-
-***
 
 ### id?
 
@@ -25,14 +22,6 @@ Provide a unique identifier for the presentation.
 > **type**: `string` \| `string`[]
 
 The types of the data stored in the verifiable credential.
-
-***
-
-### verifiableCredential?
-
-> `optional` **verifiableCredential**: (`string` \| [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md))[]
-
-The data for the verifiable credentials.
 
 ***
 
