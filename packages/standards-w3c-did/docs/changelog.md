@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.2-next.5](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.2-next.4...standards-w3c-did-v0.0.2-next.5) (2025-09-12)
+
+
+### Features
+
+* separate DID VP v1 and v2 properties ([335a3c2](https://github.com/twinfoundation/standards/commit/335a3c2543ca5dbaae785568617ea85c0a8269ad))
+
 ## [0.0.2-next.4](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.2-next.3...standards-w3c-did-v0.0.2-next.4) (2025-09-12)
 
 
