@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.2-next.7](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.6...standards-ld-contexts-v0.0.2-next.7) (2025-09-15)
+
+
+### Features
+
+* add ids contract negotiation types ([6225dde](https://github.com/twinfoundation/standards/commit/6225ddec9e845e3782e2944f30c771911855f165))
+
 ## [0.0.2-next.6](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.5...standards-ld-contexts-v0.0.2-next.6) (2025-09-12)
 
 
