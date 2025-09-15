@@ -1,11 +1,11 @@
 {
-	"name": "@twin.org/standards-w3c-ids-contract-negotiation",
+	"name": "@twin.org/standards-ids-contract-negotiation",
 	"version": "0.0.2-next.7",
 	"description": "Models which define the structure of W3C IDS Contract Negotiation Protocol",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/twinfoundation/standards.git",
-		"directory": "packages/standards-w3c-ids-contract-negotiation"
+		"directory": "packages/standards-ids-contract-negotiation"
 	},
 	"author": "cornel.filip@iota.org",
 	"license": "Apache-2.0",

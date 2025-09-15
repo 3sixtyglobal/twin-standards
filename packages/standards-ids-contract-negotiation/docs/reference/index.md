@@ -1,4 +1,4 @@
-# @twin.org/standards-w3c-ids-contract-negotiation
+# @twin.org/standards-ids-contract-negotiation
 
 ## Classes
 
