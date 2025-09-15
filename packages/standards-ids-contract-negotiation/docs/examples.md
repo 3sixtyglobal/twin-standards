@@ -1,1 +1,1 @@
-# @twin.org/standards-w3c-odrl - Examples
+# @twin.org/standards-ids-contract-negotiation - Examples

@@ -62,6 +62,11 @@
 			"package-name": "standards-w3c-activity-streams",
 			"changelog-path": "docs/changelog.md",
 			"extra-files": ["src/index.ts"]
+		},
+		"packages/standards-ids-contract-negotiation": {
+			"package-name": "standards-ids-contract-negotiation",
+			"changelog-path": "docs/changelog.md",
+			"extra-files": ["src/index.ts"]
 		}
 	},
 	"plugins": [
@@ -80,7 +85,8 @@
 				"standards-vda",
 				"standards-gaia-x",
 				"standards-ld-contexts",
-				"standards-w3c-activity-streams"
+				"standards-w3c-activity-streams",
+				"standards-ids-contract-negotiation"
 			]
 		}
 	]
