@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
+import type { IOdrlAgreement } from "@twin.org/standards-w3c-odrl";
 import type { IdsContractNegotiationContextType } from "./idsContractNegotiationContextType";
 import type { IdsContractNegotiationTypes } from "./idsContractNegotiationTypes";
 
@@ -30,9 +30,9 @@ export interface IIdsContractAgreementMessage {
 	consumerPid: string;
 
 	/**
-	 * The offer being requested.
+	 * The agreement being sent.
 	 */
-	offer: IOdrlOffer;
+	agreement: IOdrlAgreement;
 
 	/**
 	 * The base callback address for the provider to update the consumer on the state of the negotiation.

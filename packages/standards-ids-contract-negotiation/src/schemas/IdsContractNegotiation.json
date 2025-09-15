@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractNegotiation",
-	"description": "Interface for IDS Contract Agreement Messages. https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-2.3-contract-agreement-message",
+	"description": "Interface for IDS Contract Agreement Messages. https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-3.1-ack-contract-negotiation",
 	"type": "object",
 	"properties": {
 		"@context": {

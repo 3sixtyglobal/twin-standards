@@ -37,11 +37,11 @@ The consumer id for the contract.
 
 ***
 
-### offer
+### agreement
 
-> **offer**: `IOdrlOffer`
+> **agreement**: `IOdrlAgreement`
 
-The offer being requested.
+The agreement being sent.
 
 ***
 

@@ -21,9 +21,9 @@
 			"type": "string",
 			"description": "The consumer id for the contract."
 		},
-		"offer": {
-			"$ref": "https://schema.twindev.org/w3c-ids-contract-negotiation/OdrlOffer",
-			"description": "The offer being requested."
+		"agreement": {
+			"$ref": "https://schema.twindev.org/w3c-ids-contract-negotiation/OdrlAgreement",
+			"description": "The agreement being sent."
 		},
 		"callbackAddress": {
 			"type": "string",
@@ -35,7 +35,7 @@
 		"@type",
 		"providerPid",
 		"consumerPid",
-		"offer"
+		"agreement"
 	],
 	"additionalProperties": false
 }

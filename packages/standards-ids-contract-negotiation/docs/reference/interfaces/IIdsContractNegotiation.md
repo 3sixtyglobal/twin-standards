@@ -1,7 +1,7 @@
 # Interface: IIdsContractNegotiation
 
 Interface for IDS Contract Agreement Messages.
-https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-2.3-contract-agreement-message
+https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-3.1-ack-contract-negotiation
 
 ## Properties
 
