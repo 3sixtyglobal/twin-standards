@@ -1,0 +1,44 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractNegotiationError",
+	"description": "Interface for IDS Contract Negotiation Error Messages. https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-3.2-error-contract-negotiation-error",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractNegotiationContextType",
+			"description": "The JSON-LD context."
+		},
+		"@type": {
+			"type": "string",
+			"const": "ContractNegotiationError",
+			"description": "The type of the message."
+		},
+		"providerPid": {
+			"type": "string",
+			"description": "The provider id for the contract."
+		},
+		"consumerPid": {
+			"type": "string",
+			"description": "The consumer id for the contract."
+		},
+		"code": {
+			"type": "string",
+			"description": "The error code."
+		},
+		"reason": {
+			"type": "array",
+			"items": false,
+			"description": "The error reason(s).",
+			"prefixItems": [
+				{}
+			]
+		}
+	},
+	"required": [
+		"@context",
+		"@type",
+		"providerPid",
+		"consumerPid"
+	],
+	"additionalProperties": false
+}

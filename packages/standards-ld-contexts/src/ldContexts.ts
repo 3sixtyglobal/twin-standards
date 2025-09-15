@@ -6,6 +6,7 @@ import dcmitype from "./ldContexts/dublin-core-dcmitype.json";
 import dcTerms from "./ldContexts/dublin-core-terms.json";
 import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json";
 import gaiaXDevelopment from "./ldContexts/gaia-x-development.json";
+import idsContractNegotiation from "./ldContexts/ids-contract-negotiation.json";
 import schemaOrg from "./ldContexts/schema.org.json";
 import unCefact from "./ldContexts/un-cefact-vocab.json";
 import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json";
@@ -44,6 +45,10 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"http://purl.org/dc/dcmitype/": dcmitype,
 	"https://schema.twindev.org/dublin-core/terms.jsonld": dcTerms,
 	"https://schema.twindev.org/dublin-core/dcmitype.jsonld": dcmitype,
+
+	// IDS Contract Negotiation
+	"https://w3id.org/dspace/2024/1/context.json": idsContractNegotiation,
+	"https://w3id.org/dspace/2025/1/context.jsonld": idsContractNegotiation,
 
 	// Federated Catalogue
 	"https://schema.twindev.org/federated-catalogue/types.jsonld": federatedCatalogueTerms

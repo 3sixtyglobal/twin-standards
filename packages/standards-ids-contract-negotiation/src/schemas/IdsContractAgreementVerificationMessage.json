@@ -1,0 +1,32 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractAgreementVerificationMessage",
+	"description": "Interface for IDS Contract Agreement Verification Messages. https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol#id-2.4-contract-agreement-verification-message",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractNegotiationContextType",
+			"description": "The JSON-LD context."
+		},
+		"@type": {
+			"type": "string",
+			"const": "ContractAgreementVerificationMessage",
+			"description": "The type of the message."
+		},
+		"providerPid": {
+			"type": "string",
+			"description": "The provider id for the contract."
+		},
+		"consumerPid": {
+			"type": "string",
+			"description": "The consumer id for the contract."
+		}
+	},
+	"required": [
+		"@context",
+		"@type",
+		"providerPid",
+		"consumerPid"
+	],
+	"additionalProperties": false
+}

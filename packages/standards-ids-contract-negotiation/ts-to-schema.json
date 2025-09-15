@@ -1,0 +1,19 @@
+{
+	"baseUrl": "https://schema.twindev.org/w3c-ids-contract-negotiation/",
+	"types": [
+		"./src/models/idsContractNegotiationContexts.ts",
+		"./src/models/IIdsContractAgreementMessage.ts",
+		"./src/models/IIdsContractAgreementVerificationMessage.ts",
+		"./src/models/IIdsContractNegotiation.ts",
+		"./src/models/IIdsContractNegotiationError.ts",
+		"./src/models/IIdsContractNegotiationEventMessage.ts",
+		"./src/models/IIdsContractNegotiationTerminationMessage.ts",
+		"./src/models/IIdsContractOfferMessage.ts",
+		"./src/models/IIdsContractRequestMessage.ts",
+		"./src/models/types/idsContractNegotiationEventType.ts",
+		"./src/models/types/idsContractNegotiationStateType.ts"
+	],
+	"externalReferences": {
+		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+	}
+}
