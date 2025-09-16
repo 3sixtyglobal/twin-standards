@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.2-next.11](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.10...standards-ids-contract-negotiation-v0.0.2-next.11) (2025-09-16)
+
+
+### Features
+
+* expand ids contract error message ([290e9f4](https://github.com/twinfoundation/standards/commit/290e9f48ce7ada345a6da27dc5605111f38903e7))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.2-next.10 to 0.0.2-next.11
+
 ## [0.0.2-next.10](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.9...standards-ids-contract-negotiation-v0.0.2-next.10) (2025-09-16)
 
 
