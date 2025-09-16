@@ -10,7 +10,7 @@
 		},
 		"@type": {
 			"type": "string",
-			"const": "ContractAgreementMessage",
+			"const": "ContractNegotiation",
 			"description": "The type of the message."
 		},
 		"providerPid": {

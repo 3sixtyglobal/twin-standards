@@ -17,7 +17,7 @@ export interface IIdsContractNegotiation {
 	/**
 	 * The type of the message.
 	 */
-	"@type": typeof IdsContractNegotiationTypes.ContractAgreementMessage;
+	"@type": typeof IdsContractNegotiationTypes.ContractNegotiation;
 
 	/**
 	 * The provider id for the contract.
