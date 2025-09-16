@@ -36,6 +36,16 @@ export interface IIdsContractNegotiationError {
 	/**
 	 * The error reason(s).
 	 */
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	reason?: any[];
+	reason?: {
+		"@value": string;
+		"@language"?: string;
+	}[];
+
+	/**
+	 * The error description(s).
+	 */
+	description?: {
+		"@value": string;
+		"@language"?: string;
+	}[];
 }

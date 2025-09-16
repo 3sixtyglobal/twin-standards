@@ -30,7 +30,43 @@
 			"items": false,
 			"description": "The error reason(s).",
 			"prefixItems": [
-				{}
+				{
+					"type": "object",
+					"properties": {
+						"@value": {
+							"type": "string"
+						},
+						"@language": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"@value"
+					],
+					"additionalProperties": false
+				}
+			]
+		},
+		"description": {
+			"type": "array",
+			"items": false,
+			"description": "The error description(s).",
+			"prefixItems": [
+				{
+					"type": "object",
+					"properties": {
+						"@value": {
+							"type": "string"
+						},
+						"@language": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"@value"
+					],
+					"additionalProperties": false
+				}
 			]
 		}
 	},

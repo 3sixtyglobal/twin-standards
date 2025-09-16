@@ -47,6 +47,30 @@ The error code.
 
 ### reason?
 
-> `optional` **reason**: `any`[]
+> `optional` **reason**: `object`[]
 
 The error reason(s).
+
+#### @value
+
+> **@value**: `string`
+
+#### @language?
+
+> `optional` **@language**: `string`
+
+***
+
+### description?
+
+> `optional` **description**: `object`[]
+
+The error description(s).
+
+#### @value
+
+> **@value**: `string`
+
+#### @language?
+
+> `optional` **@language**: `string`
