@@ -2,15 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonSchema } from "@twin.org/data-core";
 import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { nameof } from "@twin.org/nameof";
 import { GaiaXContexts } from "../models/gaiaXContexts";
-import type { GaiaXContextType } from "../models/gaiaXContextType";
 import { GaiaXTypes } from "../models/gaiaXTypes";
 import AddressSchema from "../schemas/Address.json";
 import DataExchangeComponentSchema from "../schemas/DataExchangeComponent.json";
 import DataResourceSchema from "../schemas/DataResource.json";
 import EndpointSchema from "../schemas/Endpoint.json";
-import GaiaXContextTypeSchema from "../schemas/GaiaXContextType.json";
 import LegalPersonSchema from "../schemas/LegalPerson.json";
 import RegistrationNumberSchema from "../schemas/RegistrationNumber.json";
 import ServiceOfferingSchema from "../schemas/ServiceOffering.json";
@@ -23,15 +20,6 @@ export class GaiaXDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.TwinContext}/${nameof<GaiaXContextType>()}`,
-			() => ({
-				context: GaiaXContexts.TwinContext,
-				type: nameof<GaiaXContextType>(),
-				jsonSchema: async () => GaiaXContextTypeSchema as IJsonSchema
-			})
-		);
-
 		DataTypeHandlerFactory.register(
 			`${GaiaXContexts.ContextRoot}${GaiaXTypes.DataExchangeComponent}`,
 			() => ({

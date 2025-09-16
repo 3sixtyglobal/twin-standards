@@ -18,7 +18,6 @@
 		"Prohibition",
 		"Duty",
 		"Constraint",
-		"LogicalConstraint",
-		"ContextType"
+		"LogicalConstraint"
 	]
 }

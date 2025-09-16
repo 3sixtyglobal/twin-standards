@@ -17,7 +17,6 @@
 		"./src/models/IOdrlRule.ts",
 		"./src/models/IOdrlSet.ts",
 		"./src/models/types/logicalConstraintType.ts",
-		"./src/models/odrlContextType.ts",
 		"./src/models/types/odrlTypes.ts",
 		"./src/models/types/operatorType.ts",
 		"./src/models/types/policyType.ts",
@@ -29,5 +28,6 @@
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	}
+	},
+	"autoExpandTypes": ["OdrlContextType"]
 }

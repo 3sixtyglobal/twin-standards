@@ -1,7 +1,6 @@
 {
 	"baseUrl": "https://schema.twindev.org/gaia-x/",
 	"types": [
-		"./src/models/gaiaXContextType.ts",
 		"./src/models/IAddress.ts",
 		"./src/models/IDataResource.ts",
 		"./src/models/IDataExchangeComponent.ts",
@@ -12,5 +11,6 @@
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	}
+	},
+	"autoExpandTypes": ["GaiaXContextType"]
 }

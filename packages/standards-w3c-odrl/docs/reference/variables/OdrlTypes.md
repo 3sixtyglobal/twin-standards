@@ -95,9 +95,3 @@ Constraint type.
 > `readonly` **LogicalConstraint**: `"LogicalConstraint"` = `"LogicalConstraint"`
 
 LogicalConstraint type.
-
-### ContextType
-
-> `readonly` **ContextType**: `"ContextType"` = `"ContextType"`
-
-ContextType.

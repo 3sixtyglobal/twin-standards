@@ -1543,8 +1543,7 @@ describe("OdrlDataTypes Validation", () => {
 			OdrlTypes.Party,
 			OdrlTypes.PartyCollection,
 			OdrlTypes.Duty,
-			OdrlTypes.Prohibition,
-			OdrlTypes.ContextType
+			OdrlTypes.Prohibition
 		];
 
 		for (const type of testTypes) {

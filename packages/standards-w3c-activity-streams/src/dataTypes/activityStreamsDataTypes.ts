@@ -5,10 +5,8 @@ import { DataTypeHandlerFactory } from "@twin.org/data-core";
 import { nameof } from "@twin.org/nameof";
 import type { JSONSchema7 } from "json-schema";
 import { ActivityStreamsContexts } from "../models/activityStreamsContexts";
-import type { ActivityStreamsContextType } from "../models/activityStreamsContextType";
 import { ActivityStreamsTypes } from "../models/activityStreamsTypes";
 import ActivitySchema from "../schemas/Activity.json";
-import ActivityStreamsContextTypeSchema from "../schemas/ActivityStreamsContextType.json";
 import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json";
 
 /**
@@ -31,18 +29,14 @@ export abstract class ActivityStreamsDataTypes {
 			);
 		}
 
-		const twinSchemaTypes: { [key: string]: JSONSchema7 } = {
-			[nameof<ActivityStreamsContextType>()]: ActivityStreamsContextTypeSchema as JSONSchema7,
-			[nameof<ActivityStreamsTypes>()]: ActivityStreamsTypesSchema as JSONSchema7
-		};
-
-		for (const type of Object.keys(twinSchemaTypes)) {
-			DataTypeHandlerFactory.register(`${ActivityStreamsContexts.TwinContext}/${type}`, () => ({
+		DataTypeHandlerFactory.register(
+			`${ActivityStreamsContexts.TwinContext}/${nameof<ActivityStreamsTypes>()}`,
+			() => ({
 				context: ActivityStreamsContexts.TwinContext,
-				type,
+				type: nameof<ActivityStreamsTypes>(),
 				defaultValue: {},
-				jsonSchema: async () => twinSchemaTypes[type]
-			}));
-		}
+				jsonSchema: async () => ActivityStreamsTypesSchema as JSONSchema7
+			})
+		);
 	}
 }
