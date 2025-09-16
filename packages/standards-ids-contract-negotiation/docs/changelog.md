@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.2-next.10](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.9...standards-ids-contract-negotiation-v0.0.2-next.10) (2025-09-16)
+
+
+### Bug Fixes
+
+* correct contract negotiation type ([bd4d270](https://github.com/twinfoundation/standards/commit/bd4d270de2f6eea90d2a8495311a249f896585a2))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.2-next.9 to 0.0.2-next.10
+
 ## [0.0.2-next.9](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.8...standards-ids-contract-negotiation-v0.0.2-next.9) (2025-09-15)
 
 
