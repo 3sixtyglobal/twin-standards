@@ -48,5 +48,5 @@ export interface IServiceOffering extends IGaiaXEntity {
 	/**
 	 * The endpoint
 	 */
-	endpoint: IEndpoint;
+	endpoint?: IEndpoint;
 }

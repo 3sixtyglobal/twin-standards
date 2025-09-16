@@ -4,7 +4,7 @@
 
 The LD Contexts concerning Gaia-X.
 
-## Type Declaration
+## Type declaration
 
 ### ContextRoot
 

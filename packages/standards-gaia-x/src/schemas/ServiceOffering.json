@@ -5,45 +5,8 @@
 	"type": "object",
 	"properties": {
 		"@context": {
-			"description": "The Gaia-X JSON-LD context type.",
-			"anyOf": [
-				{
-					"type": "string",
-					"const": "https://w3id.org/gaia-x/development"
-				},
-				{
-					"type": "array",
-					"minItems": 2,
-					"items": {
-						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-					},
-					"prefixItems": [
-						{
-							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
-						},
-						{
-							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-						}
-					]
-				},
-				{
-					"type": "array",
-					"minItems": 2,
-					"items": {
-						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-					},
-					"prefixItems": [
-						{
-							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-						},
-						{
-							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
-						}
-					]
-				}
-			]
+			"$ref": "https://schema.twindev.org/gaia-x/GaiaXContextType",
+			"description": "The LD context."
 		},
 		"@id": {
 			"anyOf": [
@@ -270,21 +233,8 @@
 			"description": "Participant that provides the offering"
 		},
 		"servicePolicy": {
-			"description": "Object or array data type",
-			"anyOf": [
-				{
-					"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
-				},
-				{
-					"type": "array",
-					"items": false,
-					"prefixItems": [
-						{
-							"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
-						}
-					]
-				}
-			]
+			"$ref": "https://schema.twindev.org/gaia-x/ObjectOrArray%3CIJsonLdNodeObject%3E",
+			"description": "ODRL policy associated to the service offering"
 		},
 		"aggregationOfResources": {
 			"anyOf": [
@@ -436,7 +386,6 @@
 	},
 	"required": [
 		"@context",
-		"endpoint",
 		"id",
 		"name",
 		"providedBy",
