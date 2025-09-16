@@ -5,8 +5,45 @@
 	"type": "object",
 	"properties": {
 		"@context": {
-			"$ref": "https://schema.twindev.org/w3c-ids-contract-negotiation/IdsContractNegotiationContextType",
-			"description": "The JSON-LD context."
+			"description": "The IDS Contract Negotiation JSON-LD context type.",
+			"anyOf": [
+				{
+					"type": "string",
+					"const": "https://w3id.org/dspace/2024/1/context.json"
+				},
+				{
+					"type": "array",
+					"minItems": 2,
+					"items": {
+						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+					},
+					"prefixItems": [
+						{
+							"type": "string",
+							"const": "https://w3id.org/dspace/2024/1/context.json"
+						},
+						{
+							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+						}
+					]
+				},
+				{
+					"type": "array",
+					"minItems": 2,
+					"items": {
+						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+					},
+					"prefixItems": [
+						{
+							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+						},
+						{
+							"type": "string",
+							"const": "https://w3id.org/dspace/2024/1/context.json"
+						}
+					]
+				}
+			]
 		},
 		"@type": {
 			"type": "string",
