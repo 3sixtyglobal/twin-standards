@@ -1,5 +1,12 @@
 # @twin.org/standards-schema-org - Changelog
 
+## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.2-next.11...standards-schema-org-v0.0.2-next.12) (2025-09-16)
+
+
+### Miscellaneous Chores
+
+* **standards-schema-org:** Synchronize repo versions
+
 ## [0.0.2-next.11](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.2-next.10...standards-schema-org-v0.0.2-next.11) (2025-09-16)
 
 

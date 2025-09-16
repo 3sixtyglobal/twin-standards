@@ -1,5 +1,12 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.11...standards-gaia-x-v0.0.2-next.12) (2025-09-16)
+
+
+### Features
+
+* inline context types in schemas ([11f8377](https://github.com/twinfoundation/standards/commit/11f8377b129d459a4596ff30a86651beacd7f743))
+
 ## [0.0.2-next.11](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.10...standards-gaia-x-v0.0.2-next.11) (2025-09-16)
 
 

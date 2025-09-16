@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.11...standards-ids-contract-negotiation-v0.0.2-next.12) (2025-09-16)
+
+
+### Features
+
+* improve JSON schemas ([77818a9](https://github.com/twinfoundation/standards/commit/77818a9a33c05904198f745b9fd3eede4fc21000))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.2-next.11 to 0.0.2-next.12
+
 ## [0.0.2-next.11](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.10...standards-ids-contract-negotiation-v0.0.2-next.11) (2025-09-16)
 
 
