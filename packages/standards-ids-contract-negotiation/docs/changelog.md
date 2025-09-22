@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.2-next.13](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.12...standards-ids-contract-negotiation-v0.0.2-next.13) (2025-09-22)
+
+
+### Miscellaneous Chores
+
+* **standards-ids-contract-negotiation:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.2-next.12 to 0.0.2-next.13
+
 ## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-ids-contract-negotiation-v0.0.2-next.11...standards-ids-contract-negotiation-v0.0.2-next.12) (2025-09-16)
 
 

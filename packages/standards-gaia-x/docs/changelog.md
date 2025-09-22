@@ -1,5 +1,12 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.2-next.13](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.12...standards-gaia-x-v0.0.2-next.13) (2025-09-22)
+
+
+### Bug Fixes
+
+* service offering endpoint is optional ([#56](https://github.com/twinfoundation/standards/issues/56)) ([788ae71](https://github.com/twinfoundation/standards/commit/788ae716052782f1e5361ba9e81c326b1b982494))
+
 ## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.11...standards-gaia-x-v0.0.2-next.12) (2025-09-16)
 
 

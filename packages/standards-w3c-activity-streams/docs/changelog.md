@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2-next.13](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.2-next.12...standards-w3c-activity-streams-v0.0.2-next.13) (2025-09-22)
+
+
+### Features
+
+* add additional activity stream types ([aa06a3a](https://github.com/twinfoundation/standards/commit/aa06a3a825c3c6196b7610b0dcc2a5dc5e53aecb))
+
 ## [0.0.2-next.12](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.2-next.11...standards-w3c-activity-streams-v0.0.2-next.12) (2025-09-16)
 
 
