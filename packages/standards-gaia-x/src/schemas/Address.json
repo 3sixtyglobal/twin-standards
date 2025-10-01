@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/Address",
+	"$id": "https://schema.twindev.org/gaia-x-loire/Address",
 	"description": "Address as defined by Gaia-X https://docs.gaia-x.eu/ontology/development/classes/Address/",
 	"type": "object",
 	"properties": {

@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/gaia-x/",
+	"baseUrl": "https://schema.twindev.org/gaia-x-loire/",
 	"types": [
 		"./src/models/IAddress.ts",
 		"./src/models/IDataResource.ts",

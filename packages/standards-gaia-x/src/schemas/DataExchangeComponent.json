@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/DataExchangeComponent",
+	"$id": "https://schema.twindev.org/gaia-x-loire/DataExchangeComponent",
 	"description": "Data Exchange component as defined by Gaia-X https://docs.gaia-x.eu/ontology/development/classes/DataExchangeComponent",
 	"type": "object",
 	"properties": {
@@ -9,7 +9,7 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/gaia-x/development"
+					"const": "https://schema.twindev.org/gaia-x-loire/"
 				},
 				{
 					"type": "array",
@@ -20,7 +20,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -39,7 +39,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						}
 					]
 				}

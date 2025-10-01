@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/ServiceOffering",
+	"$id": "https://schema.twindev.org/gaia-x-loire/ServiceOffering",
 	"description": "A Service offering",
 	"type": "object",
 	"properties": {
@@ -9,7 +9,7 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/gaia-x/development"
+					"const": "https://schema.twindev.org/gaia-x-loire/"
 				},
 				{
 					"type": "array",
@@ -20,7 +20,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -39,7 +39,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						}
 					]
 				}
@@ -144,7 +144,7 @@
 					"type": "string"
 				},
 				{
-					"$ref": "https://schema.twindev.org/gaia-x/LegalPerson"
+					"$ref": "https://schema.twindev.org/gaia-x-loire/LegalPerson"
 				},
 				{
 					"type": "object",
@@ -302,7 +302,7 @@
 					"items": false,
 					"prefixItems": [
 						{
-							"$ref": "https://schema.twindev.org/gaia-x/DataResource"
+							"$ref": "https://schema.twindev.org/gaia-x-loire/DataResource"
 						}
 					]
 				},
@@ -430,7 +430,7 @@
 			"description": "Resources aggregated It is supported different representations, inline, by reference both providing the URI or a partial JSON-LD Node object"
 		},
 		"endpoint": {
-			"$ref": "https://schema.twindev.org/gaia-x/Endpoint",
+			"$ref": "https://schema.twindev.org/gaia-x-loire/Endpoint",
 			"description": "The endpoint"
 		}
 	},

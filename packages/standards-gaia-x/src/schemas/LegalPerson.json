@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/LegalPerson",
+	"$id": "https://schema.twindev.org/gaia-x-loire/LegalPerson",
 	"description": "A Legal Person as defined by Gaia-X.",
 	"type": "object",
 	"properties": {
@@ -9,7 +9,7 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/gaia-x/development"
+					"const": "https://schema.twindev.org/gaia-x-loire/"
 				},
 				{
 					"type": "array",
@@ -20,7 +20,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -39,7 +39,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						}
 					]
 				}
@@ -139,7 +139,7 @@
 			"description": "JSON-LD type."
 		},
 		"registrationNumber": {
-			"$ref": "https://schema.twindev.org/gaia-x/RegistrationNumber",
+			"$ref": "https://schema.twindev.org/gaia-x-loire/RegistrationNumber",
 			"description": "The legal registration number."
 		},
 		"legalName": {
@@ -147,11 +147,11 @@
 			"description": "The legal name."
 		},
 		"legalAddress": {
-			"$ref": "https://schema.twindev.org/gaia-x/Address",
+			"$ref": "https://schema.twindev.org/gaia-x-loire/Address",
 			"description": "Legal Address"
 		},
 		"headquartersAddress": {
-			"$ref": "https://schema.twindev.org/gaia-x/Address",
+			"$ref": "https://schema.twindev.org/gaia-x-loire/Address",
 			"description": "Headquarters address."
 		},
 		"parentOrganizationOf": {

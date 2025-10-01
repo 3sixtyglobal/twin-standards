@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/DataResource",
+	"$id": "https://schema.twindev.org/gaia-x-loire/DataResource",
 	"description": "A Data Resource as defined by Gaia-X. See also W3C DCAT Dataset https://www.w3.org/TR/vocab-dcat-3/.",
 	"type": "object",
 	"properties": {
@@ -9,7 +9,7 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/gaia-x/development"
+					"const": "https://schema.twindev.org/gaia-x-loire/"
 				},
 				{
 					"type": "array",
@@ -20,7 +20,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -39,7 +39,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/gaia-x/development"
+							"const": "https://schema.twindev.org/gaia-x-loire/"
 						}
 					]
 				}
@@ -141,7 +141,7 @@
 		"exposedThrough": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/gaia-x/DataExchangeComponent"
+					"$ref": "https://schema.twindev.org/gaia-x-loire/DataExchangeComponent"
 				},
 				{
 					"type": "string"
@@ -272,7 +272,7 @@
 		"producedBy": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/gaia-x/LegalPerson"
+					"$ref": "https://schema.twindev.org/gaia-x-loire/LegalPerson"
 				},
 				{
 					"type": "string"
@@ -287,7 +287,7 @@
 		"copyrightOwnedBy": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/gaia-x/LegalPerson"
+					"$ref": "https://schema.twindev.org/gaia-x-loire/LegalPerson"
 				},
 				{
 					"type": "string"

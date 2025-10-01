@@ -27,6 +27,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://w3id.org/gaia-x/development": gaiaX2411,
 	"https://w3id.org/gaia-x/development#": gaiaX2411,
 
+	"https://schema.twindev.org/gaia-x-loire/": gaiaX2411,
+
 	// W3C ODRL
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
 

@@ -9,12 +9,7 @@ export const GaiaXContexts = {
 	/**
 	 * The Gaia-X LD Context
 	 */
-	ContextRoot: "https://w3id.org/gaia-x/development",
-
-	/**
-	 * The Gaia-X custom context.
-	 */
-	TwinContext: "https://schema.twindev.org/gaia-x"
+	ContextRoot: "https://schema.twindev.org/gaia-x-loire/"
 } as const;
 
 /**

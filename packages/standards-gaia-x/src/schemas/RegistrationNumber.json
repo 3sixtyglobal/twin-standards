@@ -1,6 +1,6 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/gaia-x/RegistrationNumber",
+	"$id": "https://schema.twindev.org/gaia-x-loire/RegistrationNumber",
 	"description": "Registration Number as defined by the Gaia-X ontology. https://docs.gaia-x.eu/ontology/development/classes/RegistrationNumber/",
 	"type": "object",
 	"properties": {
