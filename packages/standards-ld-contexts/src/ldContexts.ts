@@ -5,7 +5,7 @@ import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import dcmitype from "./ldContexts/dublin-core-dcmitype.json";
 import dcTerms from "./ldContexts/dublin-core-terms.json";
 import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json";
-import gaiaXDevelopment from "./ldContexts/gaia-x-development.json";
+import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json";
 import idsContractNegotiation from "./ldContexts/ids-contract-negotiation.json";
 import schemaOrg from "./ldContexts/schema.org.json";
 import unCefact from "./ldContexts/un-cefact-vocab.json";
@@ -24,8 +24,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://schema.org/docs/jsonldcontext.jsonld": schemaOrg,
 
 	// Gaia-X
-	"https://w3id.org/gaia-x/development": gaiaXDevelopment,
-	"https://w3id.org/gaia-x/development#": gaiaXDevelopment,
+	"https://w3id.org/gaia-x/development": gaiaX2411,
+	"https://w3id.org/gaia-x/development#": gaiaX2411,
 
 	// W3C ODRL
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,

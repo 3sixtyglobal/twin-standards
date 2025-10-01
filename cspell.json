@@ -53,7 +53,9 @@
 		"xone",
 		"DCMI",
 		"dcmitype",
-		"dublincore"
+		"dublincore",
+		"linkml",
+		"LinkML"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",
