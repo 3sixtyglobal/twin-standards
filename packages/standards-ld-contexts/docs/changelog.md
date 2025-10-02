@@ -1,5 +1,13 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.2-next.14](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.13...standards-ld-contexts-v0.0.2-next.14) (2025-10-02)
+
+
+### Bug Fixes
+
+* gaia-x pinned LD Context ([#59](https://github.com/twinfoundation/standards/issues/59)) ([7572616](https://github.com/twinfoundation/standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
+* pin to 24.11 Gaia-X LD Context ([#58](https://github.com/twinfoundation/standards/issues/58)) ([4d3b9cc](https://github.com/twinfoundation/standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
+
 ## [0.0.2-next.13](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.12...standards-ld-contexts-v0.0.2-next.13) (2025-09-22)
 
 

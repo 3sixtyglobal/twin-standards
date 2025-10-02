@@ -1,5 +1,12 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.2-next.14](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.13...standards-gaia-x-v0.0.2-next.14) (2025-10-02)
+
+
+### Bug Fixes
+
+* gaia-x pinned LD Context ([#59](https://github.com/twinfoundation/standards/issues/59)) ([7572616](https://github.com/twinfoundation/standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
+
 ## [0.0.2-next.13](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.12...standards-gaia-x-v0.0.2-next.13) (2025-09-22)
 
 
