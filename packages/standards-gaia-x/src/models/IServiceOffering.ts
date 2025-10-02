@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { GaiaXTypes } from "./gaiaXTypes";
 import type { IDataResource } from "./IDataResource";
 import type { IEndpoint } from "./IEndpoint";
@@ -33,7 +34,7 @@ export interface IServiceOffering extends IGaiaXEntity {
 	/**
 	 * ODRL policy associated to the service offering
 	 */
-	servicePolicy: ObjectOrArray<IJsonLdNodeObject>;
+	servicePolicy: ObjectOrArray<IOdrlPolicy>;
 
 	/**
 	 * Resources aggregated
