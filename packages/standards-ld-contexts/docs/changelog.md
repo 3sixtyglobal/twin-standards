@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.2-next.15](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.14...standards-ld-contexts-v0.0.2-next.15) (2025-10-09)
+
+
+### Features
+
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+
 ## [0.0.2-next.14](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.13...standards-ld-contexts-v0.0.2-next.14) (2025-10-02)
 
 

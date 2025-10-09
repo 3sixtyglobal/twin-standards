@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-gaia-x",
-	"version": "0.0.2-next.14",
+	"version": "0.0.2-next.15",
 	"description": "Models which define the structure of Gaia-x",
 	"repository": {
 		"type": "git",
@@ -36,7 +36,7 @@
 		"@twin.org/data-core": "next",
 		"@twin.org/data-json-ld": "next",
 		"@twin.org/core": "next",
-		"@twin.org/standards-w3c-odrl": "0.0.2-next.14"
+		"@twin.org/standards-w3c-odrl": "0.0.2-next.15"
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "6.1.0",

@@ -1,5 +1,20 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.2-next.15](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.14...standards-gaia-x-v0.0.2-next.15) (2025-10-09)
+
+
+### Features
+
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* use full ODRL objects in gaia-x ([5d532cf](https://github.com/twinfoundation/standards/commit/5d532cf519810251407c755efd41385a6f348825))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.2-next.14 to 0.0.2-next.15
+
 ## [0.0.2-next.14](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.2-next.13...standards-gaia-x-v0.0.2-next.14) (2025-10-02)
 
 
