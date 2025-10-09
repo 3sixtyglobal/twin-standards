@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.2-next.16](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.15...standards-ld-contexts-v0.0.2-next.16) (2025-10-09)
+
+
+### Bug Fixes
+
+* gaia-x loire LD Context ([#62](https://github.com/twinfoundation/standards/issues/62)) ([072c4e7](https://github.com/twinfoundation/standards/commit/072c4e789158b3f989fa0fdd23df2532f7626dad))
+
 ## [0.0.2-next.15](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.2-next.14...standards-ld-contexts-v0.0.2-next.15) (2025-10-09)
 
 
