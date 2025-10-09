@@ -1,19 +1,15 @@
 {
 	"error": {
 		"proofHelper": {
-			"unsupportedProofType": "Proof type \"{proofType}\" not supported.",
-			"proofMissing": "Proof is missing."
+			"unsupportedProofType": "Proof type \"{proofType}\" not supported."
 		},
 		"jsonWebSignature2020SignerVerifier": {
-			"missingPrivateKey": "Private key is missing.",
-			"missingPublicKey": "Public key is missing.",
-			"missingProofValue": "Proof value is missing."
+			"missingJws": "JWS is missing from proof."
 		},
 		"dataIntegrityProofSignerVerifier": {
-			"cryptosuiteNotSupported": "Cryptosuite \"{cryptosuite}\" is not supported.",
+			"cryptosuiteNotSupported": "Cryptosuite \"{cryptoSuite}\" is not supported.",
 			"missingPrivateKey": "Private key is missing.",
-			"missingPublicKey": "Public key is missing.",
-			"missingProofValue": "Proof value is missing."
+			"missingPublicKey": "Public key is missing."
 		},
 		"multikeyHelper": {
 			"invalidPublicKeyMultibase": "Public key multibase \"{publicKeyMultibase}\" is invalid.",

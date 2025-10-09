@@ -27,7 +27,7 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 	/**
 	 * Runtime name for the class.
 	 */
-	public readonly CLASS_NAME: string = nameof<DataIntegrityProofSignerVerifier>();
+	public static readonly CLASS_NAME: string = nameof<DataIntegrityProofSignerVerifier>();
 
 	/**
 	 * Create a proof for the given data.
@@ -41,13 +41,21 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 		unsignedProof: IDataIntegrityProof,
 		signKey: IJwk
 	): Promise<IProof> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
-		Guards.object<IProof>(this.CLASS_NAME, nameof(unsignedProof), unsignedProof);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(signKey), signKey);
+		Guards.object<IJsonLdNodeObject>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IProof>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(unsignedProof),
+			unsignedProof
+		);
+		Guards.object<IJwk>(DataIntegrityProofSignerVerifier.CLASS_NAME, nameof(signKey), signKey);
 
 		const rawKeys = await Jwk.toRaw(signKey);
 		if (!Is.uint8Array(rawKeys.privateKey)) {
-			throw new GeneralError(this.CLASS_NAME, "missingPrivateKey");
+			throw new GeneralError(DataIntegrityProofSignerVerifier.CLASS_NAME, "missingPrivateKey");
 		}
 
 		const unsecuredDocumentClone = ObjectHelper.clone(unsecuredDocument);
@@ -82,14 +90,26 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 		signedProof: IDataIntegrityProof,
 		verifyKey: IJwk
 	): Promise<boolean> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(securedDocument), securedDocument);
-		Guards.object<IDataIntegrityProof>(this.CLASS_NAME, nameof(signedProof), signedProof);
-		Guards.stringValue(this.CLASS_NAME, nameof(signedProof.proofValue), signedProof.proofValue);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(verifyKey), verifyKey);
+		Guards.object<IJsonLdNodeObject>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(securedDocument),
+			securedDocument
+		);
+		Guards.object<IDataIntegrityProof>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(signedProof),
+			signedProof
+		);
+		Guards.stringValue(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(signedProof.proofValue),
+			signedProof.proofValue
+		);
+		Guards.object<IJwk>(DataIntegrityProofSignerVerifier.CLASS_NAME, nameof(verifyKey), verifyKey);
 
 		const rawKeys = await Jwk.toRaw(verifyKey);
 		if (!Is.uint8Array(rawKeys.publicKey)) {
-			throw new GeneralError(this.CLASS_NAME, "missingPublicKey");
+			throw new GeneralError(DataIntegrityProofSignerVerifier.CLASS_NAME, "missingPublicKey");
 		}
 
 		const combinedHash = await this.createHash(securedDocument, signedProof);
@@ -111,15 +131,23 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 		unsecuredDocument: IJsonLdNodeObject,
 		unsignedProof: IDataIntegrityProof
 	): Promise<Uint8Array> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
-		Guards.object<IDataIntegrityProof>(this.CLASS_NAME, nameof(unsignedProof), unsignedProof);
+		Guards.object<IJsonLdNodeObject>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IDataIntegrityProof>(
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
+			nameof(unsignedProof),
+			unsignedProof
+		);
 		Guards.stringValue(
-			this.CLASS_NAME,
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
 			nameof(unsignedProof.cryptosuite),
 			unsignedProof.cryptosuite
 		);
 		Guards.stringValue(
-			this.CLASS_NAME,
+			DataIntegrityProofSignerVerifier.CLASS_NAME,
 			nameof(unsignedProof.verificationMethod),
 			unsignedProof.verificationMethod
 		);
@@ -131,9 +159,13 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 		delete proofOptionsClone.proofValue;
 
 		if (proofOptionsClone.cryptosuite !== DidCryptoSuites.EdDSAJcs2022) {
-			throw new GeneralError(this.CLASS_NAME, "cryptosuiteNotSupported", {
-				cryptoSuite: proofOptionsClone.cryptosuite
-			});
+			throw new GeneralError(
+				DataIntegrityProofSignerVerifier.CLASS_NAME,
+				"cryptosuiteNotSupported",
+				{
+					cryptoSuite: proofOptionsClone.cryptosuite
+				}
+			);
 		}
 
 		unsecuredDocumentClone["@context"] = JsonLdProcessor.combineContexts(

@@ -21,7 +21,7 @@ https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
 
 ### CLASS\_NAME
 
-> `readonly` **CLASS\_NAME**: `string`
+> `readonly` `static` **CLASS\_NAME**: `string`
 
 Runtime name for the class.
 

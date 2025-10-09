@@ -123,8 +123,8 @@ export class MultikeyHelper {
 			}
 			secretKeyRaw = Converter.base58ToBytes(multikey.secretKeyMultibase.slice(1));
 			if (secretKeyRaw[0] !== 0x80 || secretKeyRaw[1] !== 0x26) {
-				throw new GeneralError(MultikeyHelper.CLASS_NAME, "publicKeyMultibaseMissingHeader", {
-					publicKeyMultibase: multikey.publicKeyMultibase
+				throw new GeneralError(MultikeyHelper.CLASS_NAME, "secretKeyMultibaseMissingHeader", {
+					secretKeyMultibase: multikey.secretKeyMultibase
 				});
 			}
 		}

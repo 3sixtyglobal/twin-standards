@@ -20,7 +20,7 @@ Helper methods for creating and verifying proofs.
 
 ### CLASS\_NAME
 
-> `readonly` **CLASS\_NAME**: `string`
+> `readonly` `static` **CLASS\_NAME**: `string`
 
 Runtime name for the class.
 

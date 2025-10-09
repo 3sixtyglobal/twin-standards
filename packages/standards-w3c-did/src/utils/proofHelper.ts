@@ -28,7 +28,12 @@ export class ProofHelper {
 	 * @throws GeneralError if the proof type is not supported.
 	 */
 	public static createSignerVerifier(proofType: ProofTypes): IProofSignerVerifier {
-		Guards.arrayOneOf(this.CLASS_NAME, nameof(proofType), proofType, Object.values(ProofTypes));
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
 
 		let signerVerifier: IProofSignerVerifier | undefined;
 		if (proofType === ProofTypes.DataIntegrityProof) {
@@ -57,10 +62,19 @@ export class ProofHelper {
 		unsignedProof: IProof,
 		signKey: IJwk
 	): Promise<IProof> {
-		Guards.arrayOneOf(this.CLASS_NAME, nameof(proofType), proofType, Object.values(ProofTypes));
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsignedProof), unsignedProof);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(signKey), signKey);
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(unsignedProof), unsignedProof);
+		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(signKey), signKey);
 		return ProofHelper.createSignerVerifier(proofType).createProof(
 			unsecuredDocument as unknown as IJsonLdNodeObject,
 			unsignedProof,
@@ -80,10 +94,14 @@ export class ProofHelper {
 		signedProof: IProof,
 		verifyKey: IJwk
 	): Promise<boolean> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(securedDocument), securedDocument);
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(signedProof), signedProof);
-		Guards.stringValue(this.CLASS_NAME, nameof(signedProof.type), signedProof.type);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(verifyKey), verifyKey);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(securedDocument),
+			securedDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(signedProof), signedProof);
+		Guards.stringValue(ProofHelper.CLASS_NAME, nameof(signedProof.type), signedProof.type);
+		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(verifyKey), verifyKey);
 
 		const signerVerifier = ProofHelper.createSignerVerifier(signedProof.type as ProofTypes);
 
