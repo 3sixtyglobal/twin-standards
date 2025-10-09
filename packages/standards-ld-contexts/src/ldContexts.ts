@@ -24,10 +24,11 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://schema.org/docs/jsonldcontext.jsonld": schemaOrg,
 
 	// Gaia-X
-	"https://w3id.org/gaia-x/development": gaiaX2411,
-	"https://w3id.org/gaia-x/development#": gaiaX2411,
+	"https://w3id.org/gaia-x/2411": gaiaX2411,
+	"https://w3id.org/gaia-x/2411#": gaiaX2411,
 
 	"https://schema.twindev.org/gaia-x-loire/": gaiaX2411,
+	"https://schema.twindev.org/gaia-x-loire/types.jsonld": gaiaX2411,
 
 	// W3C ODRL
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
@@ -53,6 +54,7 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://w3id.org/dspace/2025/1/context.jsonld": idsContractNegotiation,
 
 	// Federated Catalogue
+	"https://schema.twindev.org/federated-catalogue/": federatedCatalogueTerms,
 	"https://schema.twindev.org/federated-catalogue/types.jsonld": federatedCatalogueTerms
 };
 
