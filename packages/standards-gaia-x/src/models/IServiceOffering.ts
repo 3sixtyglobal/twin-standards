@@ -3,11 +3,11 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
-import type { GaiaXTypes } from "./gaiaXTypes";
-import type { IDataResource } from "./IDataResource";
-import type { IEndpoint } from "./IEndpoint";
-import type { IGaiaXEntity } from "./IGaiaXEntity";
-import type { ILegalPerson } from "./ILegalPerson";
+import type { GaiaXTypes } from "./gaiaXTypes.js";
+import type { IDataResource } from "./IDataResource.js";
+import type { IEndpoint } from "./IEndpoint.js";
+import type { IGaiaXEntity } from "./IGaiaXEntity.js";
+import type { ILegalPerson } from "./ILegalPerson.js";
 
 /**
  * A Service offering

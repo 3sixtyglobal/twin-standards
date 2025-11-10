@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
-import type { IUneceCode } from "../models/IUneceCode";
+import type { IUneceCode } from "../models/IUneceCode.js";
 
 /* This file is auto-generated with the importJson script, do not edit manually. */
 

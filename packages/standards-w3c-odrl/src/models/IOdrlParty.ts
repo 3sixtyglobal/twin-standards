@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IOdrlPartyCollection } from "./IOdrlPartyCollection";
+import type { IOdrlPartyCollection } from "./IOdrlPartyCollection.js";
 
 /**
  * Interface for ODRL Parties.

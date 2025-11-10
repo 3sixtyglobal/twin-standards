@@ -3,11 +3,11 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
-import type { GaiaXContextType } from "./gaiaXContextType";
-import type { GaiaXTypes } from "./gaiaXTypes";
-import type { IDataExchangeComponent } from "./IDataExchangeComponent";
-import type { IGaiaXEntity } from "./IGaiaXEntity";
-import type { ILegalPerson } from "./ILegalPerson";
+import type { GaiaXContextType } from "./gaiaXContextType.js";
+import type { GaiaXTypes } from "./gaiaXTypes.js";
+import type { IDataExchangeComponent } from "./IDataExchangeComponent.js";
+import type { IGaiaXEntity } from "./IGaiaXEntity.js";
+import type { ILegalPerson } from "./ILegalPerson.js";
 
 /**
  * A Data Resource as defined by Gaia-X.

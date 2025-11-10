@@ -1,13 +1,12 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { DataTypeHandlerFactory } from "@twin.org/data-core";
 import { nameof } from "@twin.org/nameof";
 import type { JSONSchema7 } from "json-schema";
-import { ActivityStreamsContexts } from "../models/activityStreamsContexts";
-import { ActivityStreamsTypes } from "../models/activityStreamsTypes";
-import ActivitySchema from "../schemas/Activity.json";
-import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json";
+import { ActivityStreamsContexts } from "../models/activityStreamsContexts.js";
+import { ActivityStreamsTypes } from "../models/activityStreamsTypes.js";
+import ActivitySchema from "../schemas/Activity.json" with { type: "json" };
+import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json" with { type: "json" };
 
 /**
  * Data Type registration for the Data Space Connector

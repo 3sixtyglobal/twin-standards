@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { ObjectHelper } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
-import type { IDidVerifiableCredential } from "../models/IDidVerifiableCredential";
+import type { IDidVerifiableCredential } from "../models/IDidVerifiableCredential.js";
 
 /**
  * Helper methods for creating and verifying proofs.

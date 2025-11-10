@@ -14,14 +14,16 @@
 					"type": "array",
 					"minItems": 1,
 					"items": {
-						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+						"anyOf": [
+							{
+								"type": "string",
+								"const": "https://w3id.org/security/suites/jws-2020/v1"
+							}
+						]
 					},
-					"prefixItems": [
-						{
-							"type": "string",
-							"const": "https://w3id.org/security/suites/jws-2020/v1"
-						}
-					]
+					"additionalItems": {
+						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+					}
 				}
 			],
 			"description": "JSON-LD Context."

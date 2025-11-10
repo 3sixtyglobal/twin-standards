@@ -1,9 +1,9 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
-import type { DidContexts } from "./didContexts";
-import type { IDidDocumentVerificationMethod } from "./IDidDocumentVerificationMethod";
-import type { IDidService } from "./IDidService";
+import type { DidContexts } from "./didContexts.js";
+import type { IDidDocumentVerificationMethod } from "./IDidDocumentVerificationMethod.js";
+import type { IDidService } from "./IDidService.js";
 
 /**
  * Interface describing a DID Document.

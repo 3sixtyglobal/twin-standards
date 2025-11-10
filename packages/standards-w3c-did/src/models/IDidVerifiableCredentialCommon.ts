@@ -1,10 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IDidCredentialSchema } from "./IDidCredentialSchema";
-import type { IDidCredentialStatus } from "./IDidCredentialStatus";
-import type { IDidLabel } from "./IDidLabel";
-import type { IProof } from "./IProof";
+import type { IDidCredentialSchema } from "./IDidCredentialSchema.js";
+import type { IDidCredentialStatus } from "./IDidCredentialStatus.js";
+import type { IDidLabel } from "./IDidLabel.js";
+import type { IProof } from "./IProof.js";
 
 /**
  * Interface describing a verifiable credential.

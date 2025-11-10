@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DublinCoreContexts } from "../models/dublinCoreContexts";
+import { DublinCoreContexts } from "../models/dublinCoreContexts.js";
 
 /**
  * Handle all the data types for Dublin Core.

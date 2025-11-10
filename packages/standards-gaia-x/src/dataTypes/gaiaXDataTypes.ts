@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonSchema } from "@twin.org/data-core";
 import { DataTypeHandlerFactory } from "@twin.org/data-core";
-import { GaiaXContexts } from "../models/gaiaXContexts";
-import { GaiaXTypes } from "../models/gaiaXTypes";
-import AddressSchema from "../schemas/Address.json";
-import DataExchangeComponentSchema from "../schemas/DataExchangeComponent.json";
-import DataResourceSchema from "../schemas/DataResource.json";
-import EndpointSchema from "../schemas/Endpoint.json";
-import LegalPersonSchema from "../schemas/LegalPerson.json";
-import RegistrationNumberSchema from "../schemas/RegistrationNumber.json";
-import ServiceOfferingSchema from "../schemas/ServiceOffering.json";
+import { GaiaXContexts } from "../models/gaiaXContexts.js";
+import { GaiaXTypes } from "../models/gaiaXTypes.js";
+import AddressSchema from "../schemas/Address.json" with { type: "json" };
+import DataExchangeComponentSchema from "../schemas/DataExchangeComponent.json" with { type: "json" };
+import DataResourceSchema from "../schemas/DataResource.json" with { type: "json" };
+import EndpointSchema from "../schemas/Endpoint.json" with { type: "json" };
+import LegalPersonSchema from "../schemas/LegalPerson.json" with { type: "json" };
+import RegistrationNumberSchema from "../schemas/RegistrationNumber.json" with { type: "json" };
+import ServiceOfferingSchema from "../schemas/ServiceOffering.json" with { type: "json" };
 
 /**
  * Handle all the data types for Gaia-X.

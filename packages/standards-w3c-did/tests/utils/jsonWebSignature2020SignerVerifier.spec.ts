@@ -4,11 +4,11 @@ import { Converter, ObjectHelper } from "@twin.org/core";
 import { Ed25519 } from "@twin.org/crypto";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { type IJwk, Jwk } from "@twin.org/web";
-import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential";
-import type { IJsonWebSignature2020Proof } from "../../src/models/IJsonWebSignature2020Proof";
-import { ProofTypes } from "../../src/models/proofTypes";
-import { JsonWebSignature2020SignerVerifier } from "../../src/signerVerifiers/jsonWebSignature2020SignerVerifier";
-import { ProofHelper } from "../../src/utils/proofHelper";
+import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential.js";
+import type { IJsonWebSignature2020Proof } from "../../src/models/IJsonWebSignature2020Proof.js";
+import { ProofTypes } from "../../src/models/proofTypes.js";
+import { JsonWebSignature2020SignerVerifier } from "../../src/signerVerifiers/jsonWebSignature2020SignerVerifier.js";
+import { ProofHelper } from "../../src/utils/proofHelper.js";
 
 describe("JsonWebSignature2020SignerVerifier", () => {
 	beforeAll(() => {

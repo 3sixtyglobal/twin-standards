@@ -3,10 +3,10 @@
 import { Url, Validation } from "@twin.org/core";
 import { DataTypeHandlerFactory, type IJsonSchema } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { SchemaOrgContexts } from "../models/schemaOrgContexts";
-import { SchemaOrgTypes } from "../models/schemaOrgTypes";
-import GeoCoordinatesSchema from "../schemas/GeoCoordinates.json";
-import { SchemaOrgValidation } from "../utils/schemaOrgValidation";
+import { SchemaOrgContexts } from "../models/schemaOrgContexts.js";
+import { SchemaOrgTypes } from "../models/schemaOrgTypes.js";
+import GeoCoordinatesSchema from "../schemas/GeoCoordinates.json" with { type: "json" };
+import { SchemaOrgValidation } from "../utils/schemaOrgValidation.js";
 
 /**
  * Handle all the data types for schema.org.

@@ -3,23 +3,23 @@
 import { DataTypeHandlerFactory } from "@twin.org/data-core";
 import type { IJsonSchema } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { OdrlContexts } from "../models/odrlContexts";
-import { OdrlTypes } from "../models/types/odrlTypes";
-import OdrlActionSchema from "../schemas/OdrlAction.json";
-import OdrlAgreementSchema from "../schemas/OdrlAgreement.json";
-import OdrlAssetSchema from "../schemas/OdrlAsset.json";
-import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json";
-import OdrlConstraintSchema from "../schemas/OdrlConstraint.json";
-import OdrlDutySchema from "../schemas/OdrlDuty.json";
-import OdrlLogicalConstraintSchema from "../schemas/OdrlLogicalConstraint.json";
-import OdrlOfferSchema from "../schemas/OdrlOffer.json";
-import OdrlPartySchema from "../schemas/OdrlParty.json";
-import OdrlPartyCollectionSchema from "../schemas/OdrlPartyCollection.json";
-import OdrlPermissionSchema from "../schemas/OdrlPermission.json";
-import OdrlPolicySchema from "../schemas/OdrlPolicy.json";
-import OdrlProhibitionSchema from "../schemas/OdrlProhibition.json";
-import OdrlRuleSchema from "../schemas/OdrlRule.json";
-import OdrlSetSchema from "../schemas/OdrlSet.json";
+import { OdrlContexts } from "../models/odrlContexts.js";
+import { OdrlTypes } from "../models/types/odrlTypes.js";
+import OdrlActionSchema from "../schemas/OdrlAction.json" with { type: "json" };
+import OdrlAgreementSchema from "../schemas/OdrlAgreement.json" with { type: "json" };
+import OdrlAssetSchema from "../schemas/OdrlAsset.json" with { type: "json" };
+import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json" with { type: "json" };
+import OdrlConstraintSchema from "../schemas/OdrlConstraint.json" with { type: "json" };
+import OdrlDutySchema from "../schemas/OdrlDuty.json" with { type: "json" };
+import OdrlLogicalConstraintSchema from "../schemas/OdrlLogicalConstraint.json" with { type: "json" };
+import OdrlOfferSchema from "../schemas/OdrlOffer.json" with { type: "json" };
+import OdrlPartySchema from "../schemas/OdrlParty.json" with { type: "json" };
+import OdrlPartyCollectionSchema from "../schemas/OdrlPartyCollection.json" with { type: "json" };
+import OdrlPermissionSchema from "../schemas/OdrlPermission.json" with { type: "json" };
+import OdrlPolicySchema from "../schemas/OdrlPolicy.json" with { type: "json" };
+import OdrlProhibitionSchema from "../schemas/OdrlProhibition.json" with { type: "json" };
+import OdrlRuleSchema from "../schemas/OdrlRule.json" with { type: "json" };
+import OdrlSetSchema from "../schemas/OdrlSet.json" with { type: "json" };
 
 /**
  * Handle all the data types for ODRL.

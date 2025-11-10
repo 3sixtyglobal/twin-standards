@@ -4,24 +4,24 @@ import { DataTypeHandlerFactory, type IJsonSchema, JsonSchemaHelper } from "@twi
 import { JsonLdDataTypes } from "@twin.org/data-json-ld";
 import { DublinCoreContexts, DublinCorePropertyType } from "@twin.org/standards-dublin-core";
 import { VCardContexts, VCardPropertyType } from "@twin.org/standards-w3c-vcard";
-import { OdrlDataTypes } from "../src/dataTypes/odrlDataTypes";
-import type { IOdrlAction } from "../src/models/IOdrlAction";
-import type { IOdrlAsset } from "../src/models/IOdrlAsset";
-import type { IOdrlAssetCollection } from "../src/models/IOdrlAssetCollection";
-import type { IOdrlConstraint } from "../src/models/IOdrlConstraint";
-import type { IOdrlDuty } from "../src/models/IOdrlDuty";
-import type { IOdrlLogicalConstraint } from "../src/models/IOdrlLogicalConstraint";
-import type { IOdrlParty } from "../src/models/IOdrlParty";
-import type { IOdrlPartyCollection } from "../src/models/IOdrlPartyCollection";
-import type { IOdrlPolicy } from "../src/models/IOdrlPolicy";
-import { OdrlContexts } from "../src/models/odrlContexts";
-import { ActionType } from "../src/models/types/actionType";
-import { ConflictStrategyType } from "../src/models/types/conflictStrategyType";
-import { LeftOperandType } from "../src/models/types/leftOperandType";
-import { OdrlTypes } from "../src/models/types/odrlTypes";
-import { OperatorType } from "../src/models/types/operatorType";
-import { PolicyType } from "../src/models/types/policyType";
-import { RightOperandType } from "../src/models/types/rightOperandType";
+import { OdrlDataTypes } from "../src/dataTypes/odrlDataTypes.js";
+import type { IOdrlAction } from "../src/models/IOdrlAction.js";
+import type { IOdrlAsset } from "../src/models/IOdrlAsset.js";
+import type { IOdrlAssetCollection } from "../src/models/IOdrlAssetCollection.js";
+import type { IOdrlConstraint } from "../src/models/IOdrlConstraint.js";
+import type { IOdrlDuty } from "../src/models/IOdrlDuty.js";
+import type { IOdrlLogicalConstraint } from "../src/models/IOdrlLogicalConstraint.js";
+import type { IOdrlParty } from "../src/models/IOdrlParty.js";
+import type { IOdrlPartyCollection } from "../src/models/IOdrlPartyCollection.js";
+import type { IOdrlPolicy } from "../src/models/IOdrlPolicy.js";
+import { OdrlContexts } from "../src/models/odrlContexts.js";
+import { ActionType } from "../src/models/types/actionType.js";
+import { ConflictStrategyType } from "../src/models/types/conflictStrategyType.js";
+import { LeftOperandType } from "../src/models/types/leftOperandType.js";
+import { OdrlTypes } from "../src/models/types/odrlTypes.js";
+import { OperatorType } from "../src/models/types/operatorType.js";
+import { PolicyType } from "../src/models/types/policyType.js";
+import { RightOperandType } from "../src/models/types/rightOperandType.js";
 
 describe("ODRL Examples from Specification", () => {
 	it("Example 1: Set Policy with use permission", () => {

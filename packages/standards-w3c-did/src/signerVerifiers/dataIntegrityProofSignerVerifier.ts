@@ -13,11 +13,11 @@ import { Ed25519, Sha256 } from "@twin.org/crypto";
 import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import { Jwk, type IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import { DidCryptoSuites } from "../models/didCryptoSuites";
-import type { IDataIntegrityProof } from "../models/IDataIntegrityProof";
-import type { IProof } from "../models/IProof";
-import type { IProofSignerVerifier } from "../models/IProofSignerVerifier";
+import { DidContexts } from "../models/didContexts.js";
+import { DidCryptoSuites } from "../models/didCryptoSuites.js";
+import type { IDataIntegrityProof } from "../models/IDataIntegrityProof.js";
+import type { IProof } from "../models/IProof.js";
+import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
 
 /**
  * Helper methods for creating and verifying proofs.

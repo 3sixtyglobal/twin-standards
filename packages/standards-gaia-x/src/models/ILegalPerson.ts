@@ -1,10 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { GaiaXTypes } from "./gaiaXTypes";
-import type { IAddress } from "./IAddress";
-import type { IGaiaXEntity } from "./IGaiaXEntity";
-import type { IRegistrationNumber } from "./IRegistrationNumber";
+import type { GaiaXTypes } from "./gaiaXTypes.js";
+import type { IAddress } from "./IAddress.js";
+import type { IGaiaXEntity } from "./IGaiaXEntity.js";
+import type { IRegistrationNumber } from "./IRegistrationNumber.js";
 
 /**
  * A Legal Person as defined by Gaia-X.

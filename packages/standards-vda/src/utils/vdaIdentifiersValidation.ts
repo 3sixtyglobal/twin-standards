@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { Is, type IValidationFailure, Urn } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
-import type { IVdaBizLocation } from "../models/IVdaBizLocation";
-import type { IVdaObjectIdentifier } from "../models/IVdaObjectIdentifier";
-import type { IVdaReadPoint } from "../models/IVdaReadPoint";
-import type { IVdaUriPlates } from "../models/IVdaUriPlates";
-import { VdaUriIdentifiers } from "../models/vdaUriIdentifiers";
-import { VdaUriPackages } from "../models/vdaUriPackages";
+import type { IVdaBizLocation } from "../models/IVdaBizLocation.js";
+import type { IVdaObjectIdentifier } from "../models/IVdaObjectIdentifier.js";
+import type { IVdaReadPoint } from "../models/IVdaReadPoint.js";
+import type { IVdaUriPlates } from "../models/IVdaUriPlates.js";
+import { VdaUriIdentifiers } from "../models/vdaUriIdentifiers.js";
+import { VdaUriPackages } from "../models/vdaUriPackages.js";
 
 /**
  * Validation for identifier types for VDA.
@@ -180,7 +180,7 @@ export class VdaIdentifiersValidation {
 	 */
 	public static extractUriPlp(id: string): IVdaUriPlates | undefined {
 		const parts = /^urn:jaif:id:([\dA-Z]{2}):([\dA-Z]{2})([\dA-Z]{2})([\dA-Z]{9})(\d{9})/.exec(id);
-		if (parts && parts.length === 6 && id.split(":")[4].length === 22) {
+		if (parts?.length === 6 && id.split(":")[4].length === 22) {
 			const data = {
 				applicationFamilyIdentifier: parts[1],
 				typeOfPackage: parts[2],
@@ -214,7 +214,7 @@ export class VdaIdentifiersValidation {
 			const split = epc.split(":");
 			if (split.length === 5) {
 				const parts = /([\dA-Z]{3})([\dA-Z]{2})(\d+){1,9}(([\dA-Z]+)\+([\dA-Z]+))/.exec(split[4]);
-				if (parts && parts.length === 7) {
+				if (parts?.length === 7) {
 					return {
 						dataIdentifier: parts[1],
 						issuingAgencyCode: parts[2],

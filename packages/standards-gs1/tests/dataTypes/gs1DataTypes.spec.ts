@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { Gs1Is } from "../../src/utils/gs1Is";
+import { Gs1Is } from "../../src/utils/gs1Is.js";
 
 describe("Gs1DataTypes", () => {
 	test("Test should successfully validate 24 character Hexadecimal EPCs", async () => {

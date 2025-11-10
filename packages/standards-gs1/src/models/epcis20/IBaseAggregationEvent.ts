@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IEpcisEventDetails } from "./IEpcisEventDetails";
-import type { IQuantity } from "./IQuantity";
+import type { IEpcisEventDetails } from "./IEpcisEventDetails.js";
+import type { IQuantity } from "./IQuantity.js";
 
 /**
  * Describes an AggregationEvent.

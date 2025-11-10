@@ -15,7 +15,7 @@ This mono-repository contains packages defining standards.
 - [standards-gaia-x](packages/standards-gaia-x/README.md) - Models which define the structure of [Gaia-x](https://docs.gaia-x.eu/ontology/development/).
 - [standards-ld-contexts](packages/standards-ld-contexts/README.md) - Local copies of standard LD contexts which can be used for offline development.
 - [standards-w3c-activity-streams](packages/standards-w3c-activity-streams/README.md) - Models which define the structure of [W3C Activity Streams Standard](https://www.w3.org/TR/activitystreams-core/).
-- [standards-ids-contract-negotiation](packages/standards-ids-contract-negotiation/README.md) - Models which define the structure of [IDS Contract Negotiation Protocol](https://docs.internationaldataspaces.org/ids-knowledgebase/dataspace-protocol/contract-negotiation/contract.negotiation.protocol).
+- [standards-dataspace-protocol](packages/standards-dataspace-protocol/README.md) - Models which define the structure of [Dataspace Protocol](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/).
 
 ## Contributing
 

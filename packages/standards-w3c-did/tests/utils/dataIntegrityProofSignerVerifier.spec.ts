@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { Converter, JsonHelper } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import { DidContexts } from "../../src/models/didContexts";
-import { DidTypes } from "../../src/models/didTypes";
-import type { IDataIntegrityProof } from "../../src/models/IDataIntegrityProof";
-import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential";
-import type { IMultikey } from "../../src/models/IMultikey";
-import { ProofTypes } from "../../src/models/proofTypes";
-import { DataIntegrityProofSignerVerifier } from "../../src/signerVerifiers/dataIntegrityProofSignerVerifier";
-import { MultikeyHelper } from "../../src/utils/multikeyHelper";
-import { ProofHelper } from "../../src/utils/proofHelper";
+import { DidContexts } from "../../src/models/didContexts.js";
+import { DidTypes } from "../../src/models/didTypes.js";
+import type { IDataIntegrityProof } from "../../src/models/IDataIntegrityProof.js";
+import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential.js";
+import type { IMultikey } from "../../src/models/IMultikey.js";
+import { ProofTypes } from "../../src/models/proofTypes.js";
+import { DataIntegrityProofSignerVerifier } from "../../src/signerVerifiers/dataIntegrityProofSignerVerifier.js";
+import { MultikeyHelper } from "../../src/utils/multikeyHelper.js";
+import { ProofHelper } from "../../src/utils/proofHelper.js";
 
 //  Based on https://www.w3.org/TR/vc-di-eddsa/#representation-eddsa-jcs-2022
 describe("DataIntegrityProofSignerVerifier", () => {

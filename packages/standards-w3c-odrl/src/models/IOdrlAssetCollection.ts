@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IOdrlAsset } from "./IOdrlAsset";
-import type { IOdrlConstraint } from "./IOdrlConstraint";
+import type { IOdrlAsset } from "./IOdrlAsset.js";
+import type { IOdrlConstraint } from "./IOdrlConstraint.js";
 
 /**
  * Interface for ODRL Asset Collections.

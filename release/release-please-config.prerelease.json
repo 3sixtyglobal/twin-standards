@@ -65,8 +65,8 @@
 			"changelog-path": "docs/changelog.md",
 			"extra-files": ["src/index.ts"]
 		},
-		"packages/standards-ids-contract-negotiation": {
-			"package-name": "standards-ids-contract-negotiation",
+		"packages/standards-dataspace-protocol": {
+			"package-name": "standards-dataspace-protocol",
 			"changelog-path": "docs/changelog.md",
 			"extra-files": ["src/index.ts"]
 		}
@@ -88,7 +88,7 @@
 				"standards-gaia-x",
 				"standards-ld-contexts",
 				"standards-w3c-activity-streams",
-				"standards-ids-contract-negotiation"
+				"standards-dataspace-protocol"
 			]
 		}
 	]

@@ -1,8 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IEpcisEventDetails } from "./IEpcisEventDetails";
-import type { IQuantity } from "./IQuantity";
-import type { ISensorElement } from "./ISensorElement";
+import type { IEpcisEventDetails } from "./IEpcisEventDetails.js";
+import type { IQuantity } from "./IQuantity.js";
+import type { ISensorElement } from "./ISensorElement.js";
 
 /**
  * Defines an EPCIS 2.0 Object Event.

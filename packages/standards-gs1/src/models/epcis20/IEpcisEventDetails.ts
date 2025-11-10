@@ -1,11 +1,11 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ActionTypes } from "./actionTypes";
-import type { BizStepTypes } from "./bizStepTypes";
-import type { DispositionTypes } from "./dispositionTypes";
-import type { IBizTransaction } from "./IBizTransaction";
-import type { IEpcisEvent } from "./IEpcisEvent";
-import type { ISimpleLocation } from "./ISimpleLocation";
+import type { ActionTypes } from "./actionTypes.js";
+import type { BizStepTypes } from "./bizStepTypes.js";
+import type { DispositionTypes } from "./dispositionTypes.js";
+import type { IBizTransaction } from "./IBizTransaction.js";
+import type { IEpcisEvent } from "./IEpcisEvent.js";
+import type { ISimpleLocation } from "./ISimpleLocation.js";
 
 /**
  * EPCIS Event Details.

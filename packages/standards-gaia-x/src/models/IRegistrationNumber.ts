@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { GaiaXTypes } from "./gaiaXTypes";
+import type { GaiaXTypes } from "./gaiaXTypes.js";
 
 /**
  * Registration Number as defined by the Gaia-X ontology.

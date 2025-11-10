@@ -1,9 +1,9 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IVdaBizLocation } from "../../src/models/IVdaBizLocation";
-import type { IVdaObjectIdentifier } from "../../src/models/IVdaObjectIdentifier";
-import type { IVdaReadPoint } from "../../src/models/IVdaReadPoint";
-import { VdaIdentifiersValidation } from "../../src/utils/vdaIdentifiersValidation";
+import type { IVdaBizLocation } from "../../src/models/IVdaBizLocation.js";
+import type { IVdaObjectIdentifier } from "../../src/models/IVdaObjectIdentifier.js";
+import type { IVdaReadPoint } from "../../src/models/IVdaReadPoint.js";
+import { VdaIdentifiersValidation } from "../../src/utils/vdaIdentifiersValidation.js";
 
 describe("VdaIdentifiersValidation", () => {
 	test("Test should successfully extract VDA Object Identifier", async () => {

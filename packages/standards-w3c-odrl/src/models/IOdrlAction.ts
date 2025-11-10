@@ -1,10 +1,9 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IOdrlConstraint } from "./IOdrlConstraint";
-import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint";
-import type { ActionType } from "./types/actionType";
+import type { IOdrlConstraint } from "./IOdrlConstraint.js";
+import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
+import type { ActionType } from "./types/actionType.js";
 
 /**
  * Interface for ODRL Actions.

@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ISensorMetadata } from "./ISensorMetadata";
-import type { ISensorReport } from "./ISensorReport";
+import type { ISensorMetadata } from "./ISensorMetadata.js";
+import type { ISensorReport } from "./ISensorReport.js";
 
 /**
  * EPCIS SensorElement.

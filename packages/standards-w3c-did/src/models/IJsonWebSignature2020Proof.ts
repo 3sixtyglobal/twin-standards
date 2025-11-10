@@ -1,8 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
-import type { DidContexts } from "./didContexts";
-import type { ProofTypes } from "./proofTypes";
+import type { DidContexts } from "./didContexts.js";
+import type { ProofTypes } from "./proofTypes.js";
 
 /**
  * Interface describing a did proof in JSON Web Signature 2020 Format.

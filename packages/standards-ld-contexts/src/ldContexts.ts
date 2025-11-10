@@ -2,17 +2,17 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { GeneralError, Is } from "@twin.org/core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import dcmitype from "./ldContexts/dublin-core-dcmitype.json";
-import dcTerms from "./ldContexts/dublin-core-terms.json";
-import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json";
-import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json";
-import idsContractNegotiation from "./ldContexts/ids-contract-negotiation.json";
-import schemaOrg from "./ldContexts/schema.org.json";
-import unCefact from "./ldContexts/un-cefact-vocab.json";
-import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json";
-import w3cOdrl from "./ldContexts/w3c-odrl.json";
-import w3cVc from "./ldContexts/w3c-vc-data-model-v2.json";
-import w3IdJws from "./ldContexts/w3id-jws-2020-v1.json";
+import dataspaceProtocol from "./ldContexts/dataspace-protocol.json" with { type: "json" };
+import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json" };
+import dcTerms from "./ldContexts/dublin-core-terms.json" with { type: "json" };
+import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json" with { type: "json" };
+import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json" with { type: "json" };
+import schemaOrg from "./ldContexts/schema.org.json" with { type: "json" };
+import unCefact from "./ldContexts/un-cefact-vocab.json" with { type: "json" };
+import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json" with { type: "json" };
+import w3cOdrl from "./ldContexts/w3c-odrl.json" with { type: "json" };
+import w3cVc from "./ldContexts/w3c-vc-data-model-v2.json" with { type: "json" };
+import w3IdJws from "./ldContexts/w3id-jws-2020-v1.json" with { type: "json" };
 
 /**
  * Map of all the ld contexts by their URL.
@@ -50,8 +50,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://schema.twindev.org/dublin-core/dcmitype.jsonld": dcmitype,
 
 	// IDS Contract Negotiation
-	"https://w3id.org/dspace/2024/1/context.json": idsContractNegotiation,
-	"https://w3id.org/dspace/2025/1/context.jsonld": idsContractNegotiation,
+	"https://w3id.org/dspace/2024/1/context.json": dataspaceProtocol,
+	"https://w3id.org/dspace/2025/1/context.jsonld": dataspaceProtocol,
 
 	// Federated Catalogue
 	"https://schema.twindev.org/federated-catalogue/": federatedCatalogueTerms,

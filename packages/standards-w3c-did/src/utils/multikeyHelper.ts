@@ -1,12 +1,11 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { Converter, GeneralError, Guards, Is } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
 import type { IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import { DidTypes } from "../models/didTypes";
-import type { IMultikey } from "../models/IMultikey";
+import { DidContexts } from "../models/didContexts.js";
+import { DidTypes } from "../models/didTypes.js";
+import type { IMultikey } from "../models/IMultikey.js";
 
 /**
  * Helper methods for multikey.

@@ -1,8 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJwk } from "@twin.org/web";
-import type { IMultikey } from "../../src/models/IMultikey";
-import { MultikeyHelper } from "../../src/utils/multikeyHelper";
+import type { IMultikey } from "../../src/models/IMultikey.js";
+import { MultikeyHelper } from "../../src/utils/multikeyHelper.js";
 
 describe("MultikeyHelper", () => {
 	test("Can convert a multikey to a JWK", async () => {

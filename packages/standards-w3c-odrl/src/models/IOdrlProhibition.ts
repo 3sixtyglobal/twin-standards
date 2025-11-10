@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
-import type { IOdrlDuty } from "./IOdrlDuty";
-import type { IOdrlRule } from "./IOdrlRule";
+import type { IOdrlDuty } from "./IOdrlDuty.js";
+import type { IOdrlRule } from "./IOdrlRule.js";
 
 /**
  * Interface for Prohibition Rules.

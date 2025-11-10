@@ -4,13 +4,13 @@ import { GeneralError, Guards, Is } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import type { IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import { DidCryptoSuites } from "../models/didCryptoSuites";
-import type { IProof } from "../models/IProof";
-import type { IProofSignerVerifier } from "../models/IProofSignerVerifier";
-import { ProofTypes } from "../models/proofTypes";
-import { DataIntegrityProofSignerVerifier } from "../signerVerifiers/dataIntegrityProofSignerVerifier";
-import { JsonWebSignature2020SignerVerifier } from "../signerVerifiers/jsonWebSignature2020SignerVerifier";
+import { DidContexts } from "../models/didContexts.js";
+import { DidCryptoSuites } from "../models/didCryptoSuites.js";
+import type { IProof } from "../models/IProof.js";
+import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
+import { ProofTypes } from "../models/proofTypes.js";
+import { DataIntegrityProofSignerVerifier } from "../signerVerifiers/dataIntegrityProofSignerVerifier.js";
+import { JsonWebSignature2020SignerVerifier } from "../signerVerifiers/jsonWebSignature2020SignerVerifier.js";
 
 /**
  * Helper methods for creating and verifying proofs.

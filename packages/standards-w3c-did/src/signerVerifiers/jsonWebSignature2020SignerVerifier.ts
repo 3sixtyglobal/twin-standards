@@ -12,9 +12,9 @@ import { Sha256 } from "@twin.org/crypto";
 import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import { Jwk, Jws, type IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import type { IJsonWebSignature2020Proof } from "../models/IJsonWebSignature2020Proof";
-import type { IProofSignerVerifier } from "../models/IProofSignerVerifier";
+import { DidContexts } from "../models/didContexts.js";
+import type { IJsonWebSignature2020Proof } from "../models/IJsonWebSignature2020Proof.js";
+import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
 
 /**
  * Helper methods for creating and verifying proofs.

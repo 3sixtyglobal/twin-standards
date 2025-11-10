@@ -1,7 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
-import { Gs1IdTypes } from "./gs1IdTypes";
+import { Gs1IdTypes } from "./gs1IdTypes.js";
 
 /**
  * The types of GS1 Identifier data.
