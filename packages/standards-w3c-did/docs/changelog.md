@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.2](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.1...standards-w3c-did-v0.0.3-next.2) (2025-11-11)
+
+
+### Features
+
+* update schemas ([c3c11e0](https://github.com/twinfoundation/standards/commit/c3c11e07da6c0d3eac5ea4a68e3ad57f022b2351))
+
 ## [0.0.3-next.1](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.0...standards-w3c-did-v0.0.3-next.1) (2025-11-10)
 
 
