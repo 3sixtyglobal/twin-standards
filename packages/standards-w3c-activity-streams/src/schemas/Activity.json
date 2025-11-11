@@ -23,15 +23,13 @@
 				{
 					"type": "array",
 					"minItems": 1,
+					"prefixItems": [
+						{
+							"type": "string",
+							"const": "https://www.w3.org/ns/activitystreams"
+						}
+					],
 					"items": {
-						"anyOf": [
-							{
-								"type": "string",
-								"const": "https://www.w3.org/ns/activitystreams"
-							}
-						]
-					},
-					"additionalItems": {
 						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
 					}
 				}

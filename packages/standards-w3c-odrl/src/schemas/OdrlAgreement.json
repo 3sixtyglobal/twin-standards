@@ -14,36 +14,32 @@
 				{
 					"type": "array",
 					"minItems": 2,
+					"prefixItems": [
+						{
+							"type": "string",
+							"const": "https://www.w3.org/ns/odrl/2/"
+						},
+						{
+							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+						}
+					],
 					"items": {
-						"anyOf": [
-							{
-								"type": "string",
-								"const": "https://www.w3.org/ns/odrl/2/"
-							},
-							{
-								"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-							}
-						]
-					},
-					"additionalItems": {
 						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
 					}
 				},
 				{
 					"type": "array",
 					"minItems": 2,
+					"prefixItems": [
+						{
+							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
+						},
+						{
+							"type": "string",
+							"const": "https://www.w3.org/ns/odrl/2/"
+						}
+					],
 					"items": {
-						"anyOf": [
-							{
-								"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-							},
-							{
-								"type": "string",
-								"const": "https://www.w3.org/ns/odrl/2/"
-							}
-						]
-					},
-					"additionalItems": {
 						"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
 					}
 				}
