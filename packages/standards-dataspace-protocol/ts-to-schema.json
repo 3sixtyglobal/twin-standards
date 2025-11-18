@@ -10,10 +10,13 @@
 		"./src/models/contractNegotiation/IContractOfferMessage.ts",
 		"./src/models/contractNegotiation/IContractRequestMessage.ts",
 		"./src/models/contractNegotiation/types/contractNegotiationEventType.ts",
-		"./src/models/contractNegotiation/types/contractNegotiationStateType.ts"
+		"./src/models/contractNegotiation/types/contractNegotiationStateType.ts",
+		"./src/models/catalog/ICatalogRequestMessage.ts",
+		"./src/models/catalog/IDatasetRequestMessage.ts",
+		"./src/models/catalog/ICatalogError.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
 	},
-	"autoExpandTypes": ["ContractNegotiationContextType"]
+	"autoExpandTypes": ["DataspaceProtocolContextType"]
 }

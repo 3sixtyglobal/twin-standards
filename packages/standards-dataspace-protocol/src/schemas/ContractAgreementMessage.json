@@ -5,11 +5,11 @@
 	"type": "object",
 	"properties": {
 		"@context": {
-			"description": "The Dataspace Protocol Contract Negotiation JSON-LD context type.",
+			"description": "The Dataspace Protocol Protocol JSON-LD context type.",
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/dspace/2024/1/context.json"
+					"const": "https://w3id.org/dspace/2025/1/context.json"
 				},
 				{
 					"type": "array",
@@ -17,7 +17,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/dspace/2024/1/context.json"
+							"const": "https://w3id.org/dspace/2025/1/context.json"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -36,7 +36,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/dspace/2024/1/context.json"
+							"const": "https://w3id.org/dspace/2025/1/context.json"
 						}
 					],
 					"items": {

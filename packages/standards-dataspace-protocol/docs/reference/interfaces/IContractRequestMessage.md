@@ -7,7 +7,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cont
 
 ### @context
 
-> **@context**: [`ContractNegotiationContextType`](../type-aliases/ContractNegotiationContextType.md)
+> **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
 The JSON-LD context.
 

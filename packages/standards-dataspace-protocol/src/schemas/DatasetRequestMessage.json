@@ -1,7 +1,7 @@
 {
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
-	"$id": "https://schema.twindev.org/dataspace-protocol/ContractNegotiationTerminationMessage",
-	"description": "Interface for Dataspace Protocol Contract Negotiation Termination Messages. https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-termination-message",
+	"$id": "https://schema.twindev.org/dataspace-protocol/DatasetRequestMessage",
+	"description": "Interface for Dataspace Protocol Dataset Request Messages. https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#dataset-request-message",
 	"type": "object",
 	"properties": {
 		"@context": {
@@ -47,32 +47,18 @@
 		},
 		"@type": {
 			"type": "string",
-			"const": "ContractNegotiationTerminationMessage",
+			"const": "DatasetRequestMessage",
 			"description": "The type of the message."
 		},
-		"providerPid": {
+		"dataset": {
 			"type": "string",
-			"description": "The provider id for the contract."
-		},
-		"consumerPid": {
-			"type": "string",
-			"description": "The consumer id for the contract."
-		},
-		"code": {
-			"type": "string",
-			"description": "The termination code."
-		},
-		"reason": {
-			"type": "array",
-			"items": {},
-			"description": "The termination reason(s)."
+			"description": "The identifier of the dataset."
 		}
 	},
 	"required": [
 		"@context",
 		"@type",
-		"providerPid",
-		"consumerPid"
+		"dataset"
 	],
 	"additionalProperties": false
 }

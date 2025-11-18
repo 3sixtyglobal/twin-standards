@@ -1,16 +1,16 @@
-# Class: ContractNegotiationDataTypes
+# Class: DataspaceProtocolDataTypes
 
-Handle all the data types for Dataspace Protocol Contract Negotiation.
+Handle all the data types for Dataspace Protocol.
 
 ## Constructors
 
 ### Constructor
 
-> **new ContractNegotiationDataTypes**(): `ContractNegotiationDataTypes`
+> **new DataspaceProtocolDataTypes**(): `DataspaceProtocolDataTypes`
 
 #### Returns
 
-`ContractNegotiationDataTypes`
+`DataspaceProtocolDataTypes`
 
 ## Methods
 

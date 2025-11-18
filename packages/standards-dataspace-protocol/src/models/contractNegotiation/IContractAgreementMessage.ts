@@ -1,8 +1,8 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IOdrlAgreement } from "@twin.org/standards-w3c-odrl";
-import type { ContractNegotiationContextType } from "./contractNegotiationContextType.js";
 import type { ContractNegotiationTypes } from "./contractNegotiationTypes.js";
+import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
 
 /**
  * Interface for Dataspace Protocol Contract Agreement Messages.
@@ -12,7 +12,7 @@ export interface IContractAgreementMessage {
 	/**
 	 * The JSON-LD context.
 	 */
-	"@context": ContractNegotiationContextType;
+	"@context": DataspaceProtocolContextType;
 
 	/**
 	 * The type of the message.

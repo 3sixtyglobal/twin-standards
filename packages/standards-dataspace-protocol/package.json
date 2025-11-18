@@ -34,6 +34,7 @@
 		"@twin.org/data-core": "next",
 		"@twin.org/data-json-ld": "next",
 		"@twin.org/web": "next",
+		"@twin.org/standards-w3c-dcat": "0.0.3-next.3",
 		"@twin.org/standards-w3c-odrl": "0.0.3-next.3"
 	},
 	"devDependencies": {
