@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-dataspace-protocol",
-	"version": "0.0.3-next.2",
+	"version": "0.0.3-next.3",
 	"description": "Models which define the structure of Dataspace Protocol",
 	"repository": {
 		"type": "git",
@@ -34,7 +34,7 @@
 		"@twin.org/data-core": "next",
 		"@twin.org/data-json-ld": "next",
 		"@twin.org/web": "next",
-		"@twin.org/standards-w3c-odrl": "0.0.3-next.2"
+		"@twin.org/standards-w3c-odrl": "0.0.3-next.3"
 	},
 	"devDependencies": {
 		"@twin.org/nameof-transformer": "next",
