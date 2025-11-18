@@ -9,7 +9,7 @@ export const OdrlContexts = {
 	/**
 	 * The context root for ODRL vocabulary.
 	 */
-	ContextRoot: "https://www.w3.org/ns/odrl/2/",
+	ContextRoot: "http://www.w3.org/ns/odrl/2/",
 
 	/**
 	 * The context root for ODRL.

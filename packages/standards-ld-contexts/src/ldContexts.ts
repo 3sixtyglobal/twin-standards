@@ -5,12 +5,14 @@ import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import dataspaceProtocol from "./ldContexts/dataspace-protocol.json" with { type: "json" };
 import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json" };
 import dcTerms from "./ldContexts/dublin-core-terms.json" with { type: "json" };
-import federatedCatalogueTerms from "./ldContexts/federated-catalogue-terms.json" with { type: "json" };
+import foaf from "./ldContexts/foaf.json" with { type: "json" };
 import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json" with { type: "json" };
 import schemaOrg from "./ldContexts/schema.org.json" with { type: "json" };
 import unCefact from "./ldContexts/un-cefact-vocab.json" with { type: "json" };
 import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json" with { type: "json" };
+import w3cDcat from "./ldContexts/w3c-dcat.json" with { type: "json" };
 import w3cOdrl from "./ldContexts/w3c-odrl.json" with { type: "json" };
+import w3cRdf from "./ldContexts/w3c-rdf.json" with { type: "json" };
 import w3cVc from "./ldContexts/w3c-vc-data-model-v2.json" with { type: "json" };
 import w3IdJws from "./ldContexts/w3id-jws-2020-v1.json" with { type: "json" };
 
@@ -29,6 +31,10 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 
 	"https://schema.twindev.org/gaia-x-loire/": gaiaX2411,
 	"https://schema.twindev.org/gaia-x-loire/types.jsonld": gaiaX2411,
+
+	// W3C DCAT
+	"http://www.w3.org/ns/dcat#": w3cDcat,
+	"https://www.w3.org/ns/dcat.jsonld": w3cDcat,
 
 	// W3C ODRL
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
@@ -53,9 +59,15 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://w3id.org/dspace/2024/1/context.json": dataspaceProtocol,
 	"https://w3id.org/dspace/2025/1/context.jsonld": dataspaceProtocol,
 
-	// Federated Catalogue
-	"https://schema.twindev.org/federated-catalogue/": federatedCatalogueTerms,
-	"https://schema.twindev.org/federated-catalogue/types.jsonld": federatedCatalogueTerms
+	// Foaf
+	"https://schema.twindev.org/foaf/": foaf,
+	"https://schema.twindev.org/foaf/types.jsonld": foaf,
+	"http://xmlns.com/foaf/0.1/": foaf,
+
+	// W3C RDF
+	"https://schema.twindev.org/w3c-rdf/": w3cRdf,
+	"https://schema.twindev.org/w3c-rdf/types.jsonld": w3cRdf,
+	"http://www.w3.org/2000/01/rdf-schema#": w3cRdf
 };
 
 /**

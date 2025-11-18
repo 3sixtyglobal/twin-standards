@@ -11,7 +11,13 @@ export const DublinCoreClasses = {
 	 * See Description at
 	 * https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Collection
 	 */
-	Collection: "Collection"
+	Collection: "Collection",
+
+	/**
+	 * See Description at
+	 * https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/PeriodOfTime
+	 */
+	PeriodOfTime: "PeriodOfTime"
 } as const;
 
 /**

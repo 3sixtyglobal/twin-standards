@@ -11,7 +11,7 @@ export const VCardContexts = {
 	 * Based on W3C VCard Ontology.
 	 * @see http://www.w3.org/2006/vcard/ns#
 	 */
-	Context: "http://www.w3.org/2006/vcard/ns#"
+	ContextRoot: "http://www.w3.org/2006/vcard/ns#"
 } as const;
 
 /**

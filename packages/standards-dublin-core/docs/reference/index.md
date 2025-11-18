@@ -4,6 +4,10 @@
 
 - [DublinCoreDataTypes](classes/DublinCoreDataTypes.md)
 
+## Interfaces
+
+- [IPeriodOfTime](interfaces/IPeriodOfTime.md)
+
 ## Type Aliases
 
 - [DublinCoreClasses](type-aliases/DublinCoreClasses.md)

@@ -3,5 +3,5 @@
 export * from "./models/dublinCoreContexts.js";
 export * from "./models/dublinCorePropertyType.js";
 export * from "./models/dublinCoreClasses.js";
-
+export * from "./models/IPeriodOfTime.js";
 export * from "./dataTypes/dublinCoreDataTypes.js";

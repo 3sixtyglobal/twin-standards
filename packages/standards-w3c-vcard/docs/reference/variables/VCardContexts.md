@@ -6,9 +6,9 @@ The contexts for VCard.
 
 ## Type Declaration
 
-### Context
+### ContextRoot
 
-> `readonly` **Context**: `"http://www.w3.org/2006/vcard/ns#"` = `"http://www.w3.org/2006/vcard/ns#"`
+> `readonly` **ContextRoot**: `"http://www.w3.org/2006/vcard/ns#"` = `"http://www.w3.org/2006/vcard/ns#"`
 
 The context root for VCard.
 Based on W3C VCard Ontology.

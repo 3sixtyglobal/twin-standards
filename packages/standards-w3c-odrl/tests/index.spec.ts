@@ -199,7 +199,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 9: Agreement Policy with complex Party objects", () => {
 		const policy: IOdrlPolicy = {
-			"@context": [OdrlContexts.ContextRoot, { vcard: VCardContexts.Context }],
+			"@context": [OdrlContexts.ContextRoot, { vcard: VCardContexts.ContextRoot }],
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:777",
 			profile: "http://example.com/odrl:profile:05",
@@ -225,7 +225,7 @@ describe("ODRL Examples from Specification", () => {
 
 		expect(policy["@context"]).toEqual([
 			OdrlContexts.ContextRoot,
-			{ vcard: VCardContexts.Context }
+			{ vcard: VCardContexts.ContextRoot }
 		]);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:05");

@@ -1,0 +1,15 @@
+{
+	"baseUrl": "https://schema.twindev.org/foaf/",
+	"types": [
+		"./src/models/IAgent.ts",
+		"./src/models/IDocument.ts",
+		"./src/models/IGroup.ts",
+		"./src/models/IImage.ts",
+		"./src/models/IOrganization.ts",
+		"./src/models/IPerson.ts"
+	],
+	"externalReferences": {
+		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+	},
+	"autoExpandTypes": ["FoafContextType"]
+}

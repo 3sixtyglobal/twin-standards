@@ -65,6 +65,16 @@
 			"changelog-path": "docs/changelog.md",
 			"extra-files": ["src/index.ts"]
 		},
+		"packages/standards-foaf": {
+			"package-name": "standards-foaf",
+			"changelog-path": "docs/changelog.md",
+			"extra-files": ["src/index.ts"]
+		},
+		"packages/standards-w3c-dcat": {
+			"package-name": "standards-w3c-dcat",
+			"changelog-path": "docs/changelog.md",
+			"extra-files": ["src/index.ts"]
+		},
 		"packages/standards-dataspace-protocol": {
 			"package-name": "standards-dataspace-protocol",
 			"changelog-path": "docs/changelog.md",
@@ -88,6 +98,8 @@
 				"standards-gaia-x",
 				"standards-ld-contexts",
 				"standards-w3c-activity-streams",
+				"standards-foaf",
+				"standards-w3c-dcat",
 				"standards-dataspace-protocol"
 			]
 		}

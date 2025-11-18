@@ -63,6 +63,8 @@
 		"packages/standards-gaia-x",
 		"packages/standards-ld-contexts",
 		"packages/standards-w3c-activity-streams",
+		"packages/standards-foaf",
+		"packages/standards-w3c-dcat",
 		"packages/standards-dataspace-protocol"
 	],
 	"type": "module",
