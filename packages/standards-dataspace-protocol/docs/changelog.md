@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.4](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.3...standards-dataspace-protocol-v0.0.3-next.4) (2025-11-18)
+
+
+### Features
+
+* implement Dataspace Protocol Objects ([#73](https://github.com/twinfoundation/standards/issues/73)) ([2505495](https://github.com/twinfoundation/standards/commit/2505495c03b54a6606a775d7f2211308372c7cc6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.3 to 0.0.3-next.4
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.3 to 0.0.3-next.4
+
 ## [0.0.3-next.3](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.2...standards-dataspace-protocol-v0.0.3-next.3) (2025-11-18)
 
 

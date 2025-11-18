@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-w3c-dcat",
-	"version": "0.0.3-next.3",
+	"version": "0.0.3-next.4",
 	"description": "Models which define the structure of W3C DCAT Standard",
 	"repository": {
 		"type": "git",
@@ -31,10 +31,10 @@
 	},
 	"dependencies": {
 		"@twin.org/data-json-ld": "next",
-		"@twin.org/standards-dublin-core": "0.0.3-next.3",
-		"@twin.org/standards-foaf": "0.0.3-next.3",
-		"@twin.org/standards-w3c-odrl": "0.0.3-next.3",
-		"@twin.org/standards-w3c-vcard": "0.0.3-next.3",
+		"@twin.org/standards-dublin-core": "0.0.3-next.4",
+		"@twin.org/standards-foaf": "0.0.3-next.4",
+		"@twin.org/standards-w3c-odrl": "0.0.3-next.4",
+		"@twin.org/standards-w3c-vcard": "0.0.3-next.4",
 		"@twin.org/web": "next"
 	},
 	"devDependencies": {
