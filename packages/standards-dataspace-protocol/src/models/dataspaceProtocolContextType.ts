@@ -4,7 +4,7 @@ import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
 import type { DataspaceProtocolContexts } from "./dataspaceProtocolContexts.js";
 
 /**
- * The Dataspace Protocol Protocol JSON-LD context type.
+ * The Dataspace Protocol JSON-LD context type.
  */
 export type DataspaceProtocolContextType =
 	| [typeof DataspaceProtocolContexts.ContextRoot]
