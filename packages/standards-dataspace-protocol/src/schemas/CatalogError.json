@@ -8,8 +8,13 @@
 			"description": "The Dataspace Protocol Protocol JSON-LD context type.",
 			"anyOf": [
 				{
-					"type": "string",
-					"const": "https://w3id.org/dspace/2025/1/context.json"
+					"type": "array",
+					"items": {
+						"type": "string",
+						"const": "https://w3id.org/dspace/2025/1/context.json"
+					},
+					"minItems": 1,
+					"maxItems": 1
 				},
 				{
 					"type": "array",
@@ -54,12 +59,10 @@
 			"type": "string",
 			"description": "The error code."
 		},
-		"reasons": {
+		"reason": {
 			"type": "array",
-			"items": {
-				"type": "string"
-			},
-			"description": "An optional array of error reasons."
+			"items": {},
+			"description": "The error reason(s)."
 		}
 	},
 	"required": [

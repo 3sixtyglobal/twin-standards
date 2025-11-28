@@ -36,16 +36,6 @@ export interface IContractNegotiationError {
 	/**
 	 * The error reason(s).
 	 */
-	reason?: {
-		"@value": string;
-		"@language"?: string;
-	}[];
-
-	/**
-	 * The error description(s).
-	 */
-	description?: {
-		"@value": string;
-		"@language"?: string;
-	}[];
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	reason?: any[];
 }

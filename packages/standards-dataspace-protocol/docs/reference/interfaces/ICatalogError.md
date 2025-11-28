@@ -29,8 +29,8 @@ The error code.
 
 ***
 
-### reasons?
+### reason?
 
-> `optional` **reasons**: `string`[]
+> `optional` **reason**: `any`[]
 
-An optional array of error reasons.
+The error reason(s).

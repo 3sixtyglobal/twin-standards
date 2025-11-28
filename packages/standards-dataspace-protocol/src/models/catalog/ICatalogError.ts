@@ -24,7 +24,8 @@ export interface ICatalogError {
 	code: string;
 
 	/**
-	 * An optional array of error reasons.
+	 * The error reason(s).
 	 */
-	reasons?: string[];
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	reason?: any[];
 }

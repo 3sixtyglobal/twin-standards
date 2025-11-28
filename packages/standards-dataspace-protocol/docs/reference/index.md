@@ -2,7 +2,10 @@
 
 ## Classes
 
+- [CatalogDataTypes](classes/CatalogDataTypes.md)
+- [ContractNegotiationDataTypes](classes/ContractNegotiationDataTypes.md)
 - [DataspaceProtocolDataTypes](classes/DataspaceProtocolDataTypes.md)
+- [TransferProcessDataTypes](classes/TransferProcessDataTypes.md)
 
 ## Interfaces
 
@@ -17,6 +20,15 @@
 - [IContractNegotiationTerminationMessage](interfaces/IContractNegotiationTerminationMessage.md)
 - [IContractOfferMessage](interfaces/IContractOfferMessage.md)
 - [IContractRequestMessage](interfaces/IContractRequestMessage.md)
+- [IDataAddress](interfaces/IDataAddress.md)
+- [IEndpointProperty](interfaces/IEndpointProperty.md)
+- [ITransferCompletionMessage](interfaces/ITransferCompletionMessage.md)
+- [ITransferError](interfaces/ITransferError.md)
+- [ITransferProcess](interfaces/ITransferProcess.md)
+- [ITransferRequestMessage](interfaces/ITransferRequestMessage.md)
+- [ITransferStartMessage](interfaces/ITransferStartMessage.md)
+- [ITransferSuspensionMessage](interfaces/ITransferSuspensionMessage.md)
+- [ITransferTerminationMessage](interfaces/ITransferTerminationMessage.md)
 
 ## Type Aliases
 
@@ -26,6 +38,8 @@
 - [ContractNegotiationStateType](type-aliases/ContractNegotiationStateType.md)
 - [DataspaceProtocolContextType](type-aliases/DataspaceProtocolContextType.md)
 - [DataspaceProtocolContexts](type-aliases/DataspaceProtocolContexts.md)
+- [TransferProcessTypes](type-aliases/TransferProcessTypes.md)
+- [TransferProcessStateType](type-aliases/TransferProcessStateType.md)
 
 ## Variables
 
@@ -34,3 +48,5 @@
 - [ContractNegotiationEventType](variables/ContractNegotiationEventType.md)
 - [ContractNegotiationStateType](variables/ContractNegotiationStateType.md)
 - [DataspaceProtocolContexts](variables/DataspaceProtocolContexts.md)
+- [TransferProcessTypes](variables/TransferProcessTypes.md)
+- [TransferProcessStateType](variables/TransferProcessStateType.md)
