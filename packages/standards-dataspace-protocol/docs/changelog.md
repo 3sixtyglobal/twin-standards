@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.0.3-next.5](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.4...standards-dataspace-protocol-v0.0.3-next.5) (2025-11-28)
+
+
+### Features
+
+* ds protocol - data transfer ([#77](https://github.com/twinfoundation/standards/issues/77)) ([1bf0375](https://github.com/twinfoundation/standards/commit/1bf03750c74daaa0eb133b03927a0f40eb27a1e3))
+
+
+### Bug Fixes
+
+* filter is array in catalog request (please merge after [#77](https://github.com/twinfoundation/standards/issues/77)) ([#78](https://github.com/twinfoundation/standards/issues/78)) ([72a234c](https://github.com/twinfoundation/standards/commit/72a234c6620466ac4a5aded677af7590ccf94077))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.4 to 0.0.3-next.5
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.4 to 0.0.3-next.5
+
 ## [0.0.3-next.4](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.3...standards-dataspace-protocol-v0.0.3-next.4) (2025-11-18)
 
 
