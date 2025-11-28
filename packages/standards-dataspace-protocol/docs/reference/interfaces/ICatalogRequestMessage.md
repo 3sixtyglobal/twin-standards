@@ -23,6 +23,6 @@ The type of the message.
 
 ### filter?
 
-> `optional` **filter**: `unknown`
+> `optional` **filter**: `unknown`[]
 
 An implementation-specific query or filter expression.

@@ -21,5 +21,5 @@ export interface ICatalogRequestMessage {
 	/**
 	 * An implementation-specific query or filter expression.
 	 */
-	filter?: unknown;
+	filter?: unknown[];
 }

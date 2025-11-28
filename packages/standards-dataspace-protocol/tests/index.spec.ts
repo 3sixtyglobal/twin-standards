@@ -32,15 +32,16 @@ describe("Dataspace Protocol", () => {
 
 	describe("Catalog Protocol - Request Messages", () => {
 		test("should create valid catalog request message with filter", () => {
+			const filterEelement = { category: "test" };
 			const message: ICatalogRequestMessage = {
 				"@context": [DataspaceProtocolContexts.ContextRoot],
 				"@type": CatalogTypes.CatalogRequestMessage,
-				filter: { category: "test" }
+				filter: [filterEelement]
 			};
 
 			expect(message["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
 			expect(message["@type"]).toBe(CatalogTypes.CatalogRequestMessage);
-			expect(message.filter).toEqual({ category: "test" });
+			expect(message.filter).toContain(filterEelement);
 		});
 
 		test("should create valid dataset request message", () => {
@@ -88,14 +89,15 @@ describe("Dataspace Protocol", () => {
 
 	describe("Catalog Protocol - Integration Flows", () => {
 		test("should demonstrate catalog request and response flow", () => {
+			const filterEelement = { category: "sensors" };
 			// Request
 			const request: ICatalogRequestMessage = {
 				"@context": [DataspaceProtocolContexts.ContextRoot],
 				"@type": CatalogTypes.CatalogRequestMessage,
-				filter: { category: "sensors" }
+				filter: [filterEelement]
 			};
 
-			expect(request.filter).toEqual({ category: "sensors" });
+			expect(request.filter).toContain(filterEelement);
 
 			// Response (simulated)
 			const dataset: IDataset = {

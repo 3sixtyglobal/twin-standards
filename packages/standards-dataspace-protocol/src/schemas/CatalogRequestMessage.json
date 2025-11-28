@@ -56,6 +56,8 @@
 			"description": "The type of the message."
 		},
 		"filter": {
+			"type": "array",
+			"items": {},
 			"description": "An implementation-specific query or filter expression."
 		}
 	},
