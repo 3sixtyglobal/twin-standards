@@ -1,0 +1,71 @@
+# Interface: IGeographicalMultiPoint
+
+A collection of points, on the surface of the Earth (reference ISO 19136).
+
+## See
+
+https://vocabulary.uncefact.org/GeographicalMultiPoint
+
+## Extends
+
+- `IJsonLdNodeObject`
+
+## Indexable
+
+\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `string`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
+
+## Properties
+
+### @context?
+
+> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+#### Overrides
+
+`IJsonLdNodeObject.@context`
+
+***
+
+### type
+
+> **type**: `"GeographicalMultiPoint"`
+
+JSON-LD Type.
+
+***
+
+### associatedDirectPositionList?
+
+> `optional` **associatedDirectPositionList**: `string`
+
+The direct position list associated with this geographical multi-point.
+
+#### See
+
+https://vocabulary.uncefact.org/associatedDirectPositionList
+
+***
+
+### associatedGeographicalObjectCharacteristic?
+
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IGeographicalObjectCharacteristic`](IGeographicalObjectCharacteristic.md)[]
+
+The geographical object characteristic associated with this geographical multi-point.
+
+#### See
+
+https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
+
+***
+
+### memberGeographicalPoint?
+
+> `optional` **memberGeographicalPoint**: [`IGeographicalPoint`](IGeographicalPoint.md)[]
+
+A geographical point member of this geographical multi-point feature.
+
+#### See
+
+https://vocabulary.uncefact.org/memberGeographicalPoint

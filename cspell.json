@@ -16,16 +16,18 @@
 		"typedoc.json",
 		"eslint.config*",
 		"**/wordlists/**",
-		"**/src-json/**",
+		"**/src-data/**",
 		"**/ldContexts/*.json",
 		"changelog.md",
-		"**/schemas"
+		"**/schemas",
+		"ts-to-schema.json"
 	],
 	"words": [
 		"abbrev",
 		"autorelease",
 		"bday",
 		"cefact",
+		"codelists",
 		"cryptosuite",
 		"Dataspace",
 		"DCAT",

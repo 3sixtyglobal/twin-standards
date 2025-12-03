@@ -1,0 +1,96 @@
+# Interface: IRadioactiveIsotope
+
+Any of several species of the same chemical element with different masses whose nuclei are unstable and dissipate excess
+energy by spontaneously emitting radiation in the form of alpha, beta, or gamma rays.
+
+## See
+
+https://vocabulary.uncefact.org/RadioactiveIsotope
+
+## Extends
+
+- `IJsonLdNodeObject`
+
+## Indexable
+
+\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `string`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
+
+## Properties
+
+### @context?
+
+> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+#### Overrides
+
+`IJsonLdNodeObject.@context`
+
+***
+
+### type
+
+> **type**: `"RadioactiveIsotope"`
+
+JSON-LD Type.
+
+***
+
+### activityLevelMeasure?
+
+> `optional` **activityLevelMeasure**: [`IMeasureType`](IMeasureType.md)[]
+
+A measure of the activity level of this specified radioactive isotope.
+
+#### See
+
+https://vocabulary.uncefact.org/activityLevelMeasure
+
+***
+
+### name?
+
+> `optional` **name**: `string`
+
+A name, expressed as text, for this specified radioactive isotope, such as C14.
+
+#### See
+
+https://vocabulary.uncefact.org/name
+
+***
+
+### note?
+
+> `optional` **note**: `string`
+
+A note, expressed as text, for this specified radioactive isotope.
+
+#### See
+
+https://vocabulary.uncefact.org/note
+
+***
+
+### specifiedRadionuclide?
+
+> `optional` **specifiedRadionuclide**: [`IRadionuclide`](IRadionuclide.md)[]
+
+The radionuclide details specified for this radioactive isotope.
+
+#### See
+
+https://vocabulary.uncefact.org/specifiedRadionuclide
+
+***
+
+### unitActivityLevelMeasure?
+
+> `optional` **unitActivityLevelMeasure**: [`IUnitMeasureType`](IUnitMeasureType.md)[]
+
+A measure of the activity level of this specified radioactive isotope.
+
+#### See
+
+https://vocabulary.uncefact.org/unitActivityLevelMeasure

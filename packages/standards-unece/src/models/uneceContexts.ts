@@ -1,4 +1,4 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
@@ -9,7 +9,12 @@ export const UneceContexts = {
 	/**
 	 * Context Root.
 	 */
-	ContextRoot: "https://vocabulary.uncefact.org/"
+	ContextRoot: "https://vocabulary.uncefact.org/",
+
+	/**
+	 * The UNECE namespace.
+	 */
+	ContextRedirect: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld"
 } as const;
 
 /**

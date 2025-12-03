@@ -1,0 +1,100 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+/* cSpell:disable */
+/* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { IAssertion } from "./IAssertion.js";
+import type { ILocation } from "./ILocation.js";
+import type { IStandard } from "./IStandard.js";
+import type { UneceContextType } from "../uneceContextType.js";
+import type { UneceTypes } from "../uneceTypes.js";
+
+/**
+ * The process of certifying that a certain product, process or organization has passed performance tests, or qualification
+ * requirements stipulated in a standard or regulation.
+ * @see https://vocabulary.uncefact.org/SpecifiedCertification
+ */
+export interface ISpecifiedCertification extends IJsonLdNodeObject {
+	/**
+	 * JSON-LD Context.
+	 */
+	"@context"?: UneceContextType;
+
+	/**
+	 * JSON-LD Type.
+	 */
+	type: typeof UneceTypes.SpecifiedCertification;
+
+	/**
+	 * An assertion, expressed as text, for this specified certification.
+	 * @see https://vocabulary.uncefact.org/assertion
+	 */
+	assertion?: string;
+
+	/**
+	 * A code specifying an assertion for this specified certification, such as a claim that a product is free of hazardous
+	 * chemicals.
+	 * @see https://vocabulary.uncefact.org/assertionCode
+	 */
+	assertionCode?: string;
+
+	/**
+	 * An audit date, time, date time or other date time value for this specified certification.
+	 * @see https://vocabulary.uncefact.org/auditDateTime
+	 */
+	auditDateTime?: string;
+
+	/**
+	 * The end date value for this specified certification.
+	 * @see https://vocabulary.uncefact.org/endDateTime
+	 */
+	endDateTime?: string;
+
+	/**
+	 * An identifier for this specified certification.
+	 * @see https://vocabulary.uncefact.org/identifier
+	 */
+	identifier?: string;
+
+	/**
+	 * A referenced location related to this specified certification.
+	 * @see https://vocabulary.uncefact.org/relatedLocation
+	 */
+	relatedLocation?: ILocation[];
+
+	/**
+	 * A referenced standard related to this specified certification.
+	 * @see https://vocabulary.uncefact.org/relatedStandard
+	 */
+	relatedStandard?: IStandard[];
+
+	/**
+	 * A responsible agency, expressed as text, for this specified certification.
+	 * @see https://vocabulary.uncefact.org/responsibleAgency
+	 */
+	responsibleAgency?: string;
+
+	/**
+	 * A sustainability assertion for this specified certification.
+	 * @see https://vocabulary.uncefact.org/specifiedAssertion
+	 */
+	specifiedAssertion?: IAssertion[];
+
+	/**
+	 * A standard, expressed as text, for this specified certification.
+	 * @see https://vocabulary.uncefact.org/standard
+	 */
+	standard?: string;
+
+	/**
+	 * The start date value for this specified certification.
+	 * @see https://vocabulary.uncefact.org/startDateTime
+	 */
+	startDateTime?: string;
+
+	/**
+	 * A Uniform Resource Identifier (URI) for this specified certification.
+	 * @see https://vocabulary.uncefact.org/uRIId
+	 */
+	uRIId?: string;
+}

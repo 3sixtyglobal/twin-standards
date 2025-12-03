@@ -1,0 +1,91 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+/* cSpell:disable */
+/* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { IDocumentContextParameter } from "./IDocumentContextParameter.js";
+import type { UneceContextType } from "../uneceContextType.js";
+import type { UneceTypes } from "../uneceTypes.js";
+
+/**
+ * The scenario or setting of an exchanged document, such as its business process application context.
+ * @see https://vocabulary.uncefact.org/ExchangedDocumentContext
+ */
+export interface IExchangedDocumentContext extends IJsonLdNodeObject {
+	/**
+	 * JSON-LD Context.
+	 */
+	"@context"?: UneceContextType;
+
+	/**
+	 * JSON-LD Type.
+	 */
+	type: typeof UneceTypes.ExchangedDocumentContext;
+
+	/**
+	 * An application context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/applicationSpecifiedParameter
+	 */
+	applicationSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * A Business Information Master (BIM) context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/bIMSpecifiedParameter
+	 */
+	bIMSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * A business process context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/businessProcessSpecifiedParameter
+	 */
+	businessProcessSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * A guideline context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/guidelineSpecifiedParameter
+	 */
+	guidelineSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * The message standard document context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/messageStandardSpecifiedParameter
+	 */
+	messageStandardSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * The date, time, date time, or other date time value of the processing of a transaction for this exchanged document
+	 * context.
+	 * @see https://vocabulary.uncefact.org/processingTransactionDateTime
+	 */
+	processingTransactionDateTime?: string;
+
+	/**
+	 * A scenario context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/scenarioSpecifiedParameter
+	 */
+	scenarioSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * The identifier of a specified transaction in this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/specifiedTransactionId
+	 */
+	specifiedTransactionId?: string;
+
+	/**
+	 * A subset context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/subsetSpecifiedParameter
+	 */
+	subsetSpecifiedParameter?: IDocumentContextParameter[];
+
+	/**
+	 * The indication of whether or not this exchanged document context is a test.
+	 * @see https://vocabulary.uncefact.org/testIndicator
+	 */
+	testIndicator?: boolean;
+
+	/**
+	 * A user specified document context parameter specified for this exchanged document context.
+	 * @see https://vocabulary.uncefact.org/userSpecifiedParameter
+	 */
+	userSpecifiedParameter?: IDocumentContextParameter[];
+}

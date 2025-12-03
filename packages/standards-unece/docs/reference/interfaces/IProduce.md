@@ -1,0 +1,131 @@
+# Interface: IProduce
+
+Agricultural plants or plant products grown and harvested, such as grain, fruit, vegetables, silage.
+
+## See
+
+https://vocabulary.uncefact.org/Produce
+
+## Extends
+
+- `IJsonLdNodeObject`
+
+## Indexable
+
+\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `string`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
+
+## Properties
+
+### @context?
+
+> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+#### Overrides
+
+`IJsonLdNodeObject.@context`
+
+***
+
+### type
+
+> **type**: `"Produce"`
+
+JSON-LD Type.
+
+***
+
+### calculatedYieldMeasure?
+
+> `optional` **calculatedYieldMeasure**: [`IMeasureType`](IMeasureType.md)[]
+
+A measure of the calculated yield, such as weight per surface area unit, of this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/calculatedYieldMeasure
+
+***
+
+### estimatedYieldMeasure?
+
+> `optional` **estimatedYieldMeasure**: [`IMeasureType`](IMeasureType.md)[]
+
+A measure of the estimated yield, such as weight per surface area unit, of this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/estimatedYieldMeasure
+
+***
+
+### identifier?
+
+> `optional` **identifier**: `string`
+
+An identifier for this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/identifier
+
+***
+
+### inputSpecifiedBatch?
+
+> `optional` **inputSpecifiedBatch**: [`ICropProduceBatch`](ICropProduceBatch.md)[]
+
+An input batch crop produce, such as seed or fertilizer, specified for this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/inputSpecifiedBatch
+
+***
+
+### name?
+
+> `optional` **name**: `string`
+
+The name, expressed as text, for this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/name
+
+***
+
+### outputSpecifiedBatch?
+
+> `optional` **outputSpecifiedBatch**: [`ICropProduceBatch`](ICropProduceBatch.md)[]
+
+An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/outputSpecifiedBatch
+
+***
+
+### subordinateTypeCode?
+
+> `optional` **subordinateTypeCode**: `string`
+
+The code specifying the subordinate type of crop produce, such as product or by-product.
+
+#### See
+
+https://vocabulary.uncefact.org/subordinateTypeCode
+
+***
+
+### typeCode?
+
+> `optional` **typeCode**: `string`
+
+The code specifying the type of crop produce.
+
+#### See
+
+https://vocabulary.uncefact.org/typeCode

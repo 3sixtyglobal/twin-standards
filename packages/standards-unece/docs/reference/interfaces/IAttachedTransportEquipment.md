@@ -1,0 +1,95 @@
+# Interface: IAttachedTransportEquipment
+
+A piece of attached transport equipment, such as a chain or a tarpaulin.
+
+## See
+
+https://vocabulary.uncefact.org/AttachedTransportEquipment
+
+## Extends
+
+- `IJsonLdNodeObject`
+
+## Indexable
+
+\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `string`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
+
+## Properties
+
+### @context?
+
+> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+#### Overrides
+
+`IJsonLdNodeObject.@context`
+
+***
+
+### type
+
+> **type**: `"AttachedTransportEquipment"`
+
+JSON-LD Type.
+
+***
+
+### characteristic?
+
+> `optional` **characteristic**: `string`
+
+The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment.
+
+#### See
+
+https://vocabulary.uncefact.org/characteristic
+
+***
+
+### identifier?
+
+> `optional` **identifier**: `string`
+
+A unique identifier of this piece of attached transport equipment.
+
+#### See
+
+https://vocabulary.uncefact.org/identifier
+
+***
+
+### transportEquipmentCategoryCode?
+
+> `optional` **transportEquipmentCategoryCode**: [`TransportEquipmentCategoryCodeList`](../type-aliases/TransportEquipmentCategoryCodeList.md)[]
+
+A code specifying a category of this piece of attached transport equipment.
+
+#### See
+
+https://vocabulary.uncefact.org/transportEquipmentCategoryCode
+
+***
+
+### transportEquipmentSizeTypeCharacteristicCode?
+
+> `optional` **transportEquipmentSizeTypeCharacteristicCode**: [`TransportEquipmentSizeTypeCodeList`](../type-aliases/TransportEquipmentSizeTypeCodeList.md)
+
+The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment.
+
+#### See
+
+https://vocabulary.uncefact.org/transportEquipmentSizeTypeCharacteristicCode
+
+***
+
+### unitQuantity?
+
+> `optional` **unitQuantity**: [`IQuantityType`](IQuantityType.md)[]
+
+The number of units of attached transport equipment.
+
+#### See
+
+https://vocabulary.uncefact.org/unitQuantity
