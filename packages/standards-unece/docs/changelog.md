@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.5...standards-unece-v0.0.3-next.6) (2025-12-03)
+
+
+### Features
+
+* generate unece types from JSON schema ([#71](https://github.com/twinfoundation/standards/issues/71)) ([5a596e7](https://github.com/twinfoundation/standards/commit/5a596e7a79c1a0b213560f5fb8b9ec5019d598d7))
+
 ## [0.0.3-next.5](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.4...standards-unece-v0.0.3-next.5) (2025-11-28)
 
 

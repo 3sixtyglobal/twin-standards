@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.5...standards-dataspace-protocol-v0.0.3-next.6) (2025-12-03)
+
+
+### Bug Fixes
+
+* context doc name ([e994ebc](https://github.com/twinfoundation/standards/commit/e994ebcd5d3b296b21a678716bf740c91e5899c3))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.5 to 0.0.3-next.6
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.5 to 0.0.3-next.6
+
 ## [0.0.3-next.5](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.4...standards-dataspace-protocol-v0.0.3-next.5) (2025-11-28)
 
 
