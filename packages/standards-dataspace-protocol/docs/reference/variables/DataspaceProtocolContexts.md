@@ -8,7 +8,7 @@ The contexts for Dataspace Protocol Protocol.
 
 ### ContextRoot
 
-> `readonly` **ContextRoot**: `"https://w3id.org/dspace/2025/1/context.json"` = `"https://w3id.org/dspace/2025/1/context.json"`
+> `readonly` **ContextRoot**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
 
 The context root for Dataspace Protocol Protocol.
 
