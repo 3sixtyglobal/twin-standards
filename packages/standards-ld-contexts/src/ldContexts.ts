@@ -35,12 +35,14 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	// W3C DCAT
 	"http://www.w3.org/ns/dcat#": w3cDcat,
 	"https://www.w3.org/ns/dcat.jsonld": w3cDcat,
+	"http://www.w3.org/ns/dcat.jsonld": w3cDcat,
 
 	// W3C ODRL
 	"http://www.w3.org/ns/odrl.jsonld": w3cOdrl,
 
 	// W3C Activity Streams
 	"https://www.w3.org/ns/activitystreams#": w3cActivityStreams,
+	"https://www.w3.org/ns/activitystreams": w3cActivityStreams,
 
 	// W3C Credentials
 	"https://www.w3.org/ns/credentials/v2": w3cVc,
@@ -48,6 +50,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 
 	// UN/CEFACT
 	"https://vocabulary.uncefact.org": unCefact,
+	"https://vocabulary.uncefact.org/unece-context.jsonld": unCefact,
+	"https://vocabulary.uncefact.org/unece-context-D23B.jsonld": unCefact,
 
 	// Dublin Core
 	"http://purl.org/dc/terms/": dcTerms,
@@ -55,7 +59,7 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://schema.twindev.org/dublin-core/terms.jsonld": dcTerms,
 	"https://schema.twindev.org/dublin-core/dcmitype.jsonld": dcmitype,
 
-	// IDS Contract Negotiation
+	// Data Space Protocol
 	"https://w3id.org/dspace/2024/1/context.json": dataspaceProtocol,
 	"https://w3id.org/dspace/2025/1/context.jsonld": dataspaceProtocol,
 
