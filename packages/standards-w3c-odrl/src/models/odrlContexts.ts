@@ -7,9 +7,14 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const OdrlContexts = {
 	/**
-	 * The context root for ODRL vocabulary.
+	 * The LD Context URL
 	 */
-	ContextRoot: "http://www.w3.org/ns/odrl/2/",
+	ContextRoot: "http://www.w3.org/ns/odrl.jsonld",
+
+	/**
+	 * The namespace prefix for all terms in ODRL.
+	 */
+	OdrlNamespace: "http://www.w3.org/ns/odrl/2/",
 
 	/**
 	 * The context root for ODRL.

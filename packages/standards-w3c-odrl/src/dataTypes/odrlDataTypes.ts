@@ -39,20 +39,20 @@ export class OdrlDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Policy}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Policy}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Policy,
 			jsonSchema: async () => OdrlPolicySchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Asset}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Asset}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Asset,
 			jsonSchema: async () => OdrlAssetSchema as IJsonSchema
 		}));
 
 		DataTypeHandlerFactory.register(
-			`${OdrlContexts.ContextRoot}${OdrlTypes.AssetCollection}`,
+			`${OdrlContexts.OdrlNamespace}${OdrlTypes.AssetCollection}`,
 			() => ({
 				context: OdrlContexts.ContextRoot,
 				type: OdrlTypes.AssetCollection,
@@ -60,14 +60,14 @@ export class OdrlDataTypes {
 			})
 		);
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Party}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Party}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Party,
 			jsonSchema: async () => OdrlPartySchema as IJsonSchema
 		}));
 
 		DataTypeHandlerFactory.register(
-			`${OdrlContexts.ContextRoot}${OdrlTypes.PartyCollection}`,
+			`${OdrlContexts.OdrlNamespace}${OdrlTypes.PartyCollection}`,
 			() => ({
 				context: OdrlContexts.ContextRoot,
 				type: OdrlTypes.PartyCollection,
@@ -75,38 +75,41 @@ export class OdrlDataTypes {
 			})
 		);
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Action}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Action}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Action,
 			jsonSchema: async () => OdrlActionSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Permission}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Permission}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Permission,
 			jsonSchema: async () => OdrlPermissionSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Prohibition}`, () => ({
-			context: OdrlContexts.ContextRoot,
-			type: OdrlTypes.Prohibition,
-			jsonSchema: async () => OdrlProhibitionSchema as IJsonSchema
-		}));
+		DataTypeHandlerFactory.register(
+			`${OdrlContexts.OdrlNamespace}${OdrlTypes.Prohibition}`,
+			() => ({
+				context: OdrlContexts.ContextRoot,
+				type: OdrlTypes.Prohibition,
+				jsonSchema: async () => OdrlProhibitionSchema as IJsonSchema
+			})
+		);
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Duty}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Duty}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Duty,
 			jsonSchema: async () => OdrlDutySchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Constraint}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Constraint}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Constraint,
 			jsonSchema: async () => OdrlConstraintSchema as IJsonSchema
 		}));
 
 		DataTypeHandlerFactory.register(
-			`${OdrlContexts.ContextRoot}${OdrlTypes.LogicalConstraint}`,
+			`${OdrlContexts.OdrlNamespace}${OdrlTypes.LogicalConstraint}`,
 			() => ({
 				context: OdrlContexts.ContextRoot,
 				type: OdrlTypes.LogicalConstraint,
@@ -114,25 +117,25 @@ export class OdrlDataTypes {
 			})
 		);
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Set}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Set}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Set,
 			jsonSchema: async () => OdrlSetSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Offer}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Offer}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Offer,
 			jsonSchema: async () => OdrlOfferSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Agreement}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Agreement}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Agreement,
 			jsonSchema: async () => OdrlAgreementSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${OdrlContexts.ContextRoot}${OdrlTypes.Rule}`, () => ({
+		DataTypeHandlerFactory.register(`${OdrlContexts.OdrlNamespace}${OdrlTypes.Rule}`, () => ({
 			context: OdrlContexts.ContextRoot,
 			type: OdrlTypes.Rule,
 			jsonSchema: async () => OdrlRuleSchema as IJsonSchema

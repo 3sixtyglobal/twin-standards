@@ -1547,7 +1547,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const type of testTypes) {
-			const typeKey = `${OdrlContexts.ContextRoot}${type}`;
+			const typeKey = `${OdrlContexts.OdrlNamespace}${type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1591,7 +1591,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const testCase of testCases) {
-			const typeKey = `${OdrlContexts.ContextRoot}${testCase.type}`;
+			const typeKey = `${OdrlContexts.OdrlNamespace}${testCase.type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1616,7 +1616,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const type of testTypes) {
-			const typeKey = `${OdrlContexts.ContextRoot}${type}`;
+			const typeKey = `${OdrlContexts.OdrlNamespace}${type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1645,7 +1645,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const testCase of testCases) {
-			const typeKey = `${OdrlContexts.ContextRoot}${testCase.type}`;
+			const typeKey = `${OdrlContexts.OdrlNamespace}${testCase.type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1663,7 +1663,7 @@ describe("OdrlDataTypes Validation", () => {
 	it("should be able to validate context variants", async () => {
 		const testCases = [
 			{
-				data: "https://www.w3.org/ns/odrl/2/",
+				data: OdrlContexts.ContextRoot,
 				expect: true
 			},
 			{
@@ -1671,19 +1671,19 @@ describe("OdrlDataTypes Validation", () => {
 				expect: false
 			},
 			{
-				data: ["https://www.w3.org/ns/odrl/2/"],
-				expect: false
+				data: [OdrlContexts.ContextRoot],
+				expect: true
 			},
 			{
 				data: ["https://foo"],
 				expect: false
 			},
 			{
-				data: ["https://www.w3.org/ns/odrl/2/", "https://www.w3.org/ns/odrl/2/"],
+				data: [OdrlContexts.ContextRoot, OdrlContexts.ContextRoot],
 				expect: false
 			},
 			{
-				data: ["https://foo", "https://www.w3.org/ns/odrl/2/", "https://www.w3.org/ns/odrl/2/"],
+				data: ["https://foo", OdrlContexts.ContextRoot, OdrlContexts.ContextRoot],
 				expect: false
 			},
 			{
@@ -1695,19 +1695,19 @@ describe("OdrlDataTypes Validation", () => {
 				expect: false
 			},
 			{
-				data: ["https://foo", "https://www.w3.org/ns/odrl/2/"],
+				data: ["https://foo", OdrlContexts.ContextRoot],
 				expect: true
 			},
 			{
-				data: ["https://foo", "https://foo", "https://www.w3.org/ns/odrl/2/"],
+				data: ["https://foo", "https://foo", OdrlContexts.ContextRoot],
 				expect: false
 			},
 			{
-				data: ["https://foo", "https://www.w3.org/ns/odrl/2/", "https://foo"],
+				data: ["https://foo", OdrlContexts.ContextRoot, "https://foo"],
 				expect: false
 			},
 			{
-				data: ["https://foo", "https://www.w3.org/ns/odrl/2/", "https://foo2"],
+				data: ["https://foo", OdrlContexts.ContextRoot, "https://foo2"],
 				expect: true
 			}
 		];
@@ -1719,11 +1719,11 @@ describe("OdrlDataTypes Validation", () => {
 					anyOf: [
 						{
 							type: "string",
-							const: "https://www.w3.org/ns/odrl/2/"
+							const: OdrlContexts.ContextRoot
 						},
 						{
 							type: "array",
-							minItems: 2,
+							minItems: 1,
 							prefixItems: [
 								{
 									$ref: "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -1733,7 +1733,7 @@ describe("OdrlDataTypes Validation", () => {
 							minContains: 1,
 							maxContains: 1,
 							contains: {
-								const: "https://www.w3.org/ns/odrl/2/"
+								const: OdrlContexts.ContextRoot
 							},
 							uniqueItems: true
 						}

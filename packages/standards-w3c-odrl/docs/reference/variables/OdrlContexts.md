@@ -8,9 +8,15 @@ The contexts for ODRL.
 
 ### ContextRoot
 
-> `readonly` **ContextRoot**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
+> `readonly` **ContextRoot**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
-The context root for ODRL vocabulary.
+The LD Context URL
+
+### OdrlNamespace
+
+> `readonly` **OdrlNamespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
+
+The namespace prefix for all terms in ODRL.
 
 ### ContextRedirect
 
