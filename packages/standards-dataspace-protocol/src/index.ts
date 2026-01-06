@@ -9,6 +9,7 @@ export * from "./models/catalog/dataspaceProtocolCatalogTypes.js";
 export * from "./models/catalog/IDataspaceProtocolCatalogError.js";
 export * from "./models/catalog/IDataspaceProtocolCatalogRequestMessage.js";
 export * from "./models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
+export * from "./models/catalog/IDataspaceProtocolDataset.js";
 
 export * from "./dataTypes/catalogDataTypes.js";
 

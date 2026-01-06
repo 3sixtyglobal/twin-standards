@@ -11,6 +11,7 @@
 
 - [IDataspaceProtocolCatalogError](interfaces/IDataspaceProtocolCatalogError.md)
 - [IDataspaceProtocolCatalogRequestMessage](interfaces/IDataspaceProtocolCatalogRequestMessage.md)
+- [IDataspaceProtocolDataset](interfaces/IDataspaceProtocolDataset.md)
 - [IDataspaceProtocolDatasetRequestMessage](interfaces/IDataspaceProtocolDatasetRequestMessage.md)
 - [IDataspaceProtocolContractAgreementMessage](interfaces/IDataspaceProtocolContractAgreementMessage.md)
 - [IDataspaceProtocolContractAgreementVerificationMessage](interfaces/IDataspaceProtocolContractAgreementVerificationMessage.md)
