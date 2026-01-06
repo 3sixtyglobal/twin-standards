@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.6...standards-dataspace-protocol-v0.0.3-next.7) (2026-01-06)
+
+
+### Features
+
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+
+
+### Bug Fixes
+
+* documentation. ds protocol LD Context updated ([6e5203d](https://github.com/twinfoundation/standards/commit/6e5203d3115a257653181a5f0cddb9f380cf9a39))
+* DS Protocol LDContext ([931679d](https://github.com/twinfoundation/standards/commit/931679d6736acbe55efee5d1f542b923ac3875eb))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.6 to 0.0.3-next.7
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.6 to 0.0.3-next.7
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.5...standards-dataspace-protocol-v0.0.3-next.6) (2025-12-03)
 
 

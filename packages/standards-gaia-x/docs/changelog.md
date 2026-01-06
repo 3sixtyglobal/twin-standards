@@ -1,5 +1,19 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.6...standards-gaia-x-v0.0.3-next.7) (2026-01-06)
+
+
+### Features
+
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.6 to 0.0.3-next.7
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.5...standards-gaia-x-v0.0.3-next.6) (2025-12-03)
 
 

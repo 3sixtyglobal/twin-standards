@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.6...standards-ld-contexts-v0.0.3-next.7) (2026-01-06)
+
+
+### Bug Fixes
+
+* refine local LD Contexts ([#84](https://github.com/twinfoundation/standards/issues/84)) ([785e359](https://github.com/twinfoundation/standards/commit/785e359ad6895fcb97197ca707915651fe3ae79c))
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.5...standards-ld-contexts-v0.0.3-next.6) (2025-12-03)
 
 

@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.6...standards-w3c-odrl-v0.0.3-next.7) (2026-01-06)
+
+
+### Bug Fixes
+
+* odrl LD Context vs odrl namespace ([#83](https://github.com/twinfoundation/standards/issues/83)) ([d2c0c3c](https://github.com/twinfoundation/standards/commit/d2c0c3ca71b4a38f15d46070118fb4d6ac00fc02))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.6 to 0.0.3-next.7
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.6 to 0.0.3-next.7
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.5...standards-w3c-odrl-v0.0.3-next.6) (2025-12-03)
 
 

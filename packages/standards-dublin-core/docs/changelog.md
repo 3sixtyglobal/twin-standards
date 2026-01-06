@@ -1,5 +1,12 @@
 # @twin.org/standards-dublin-core - Changelog
 
+## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.6...standards-dublin-core-v0.0.3-next.7) (2026-01-06)
+
+
+### Features
+
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+
 ## [0.0.3-next.6](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.5...standards-dublin-core-v0.0.3-next.6) (2025-12-03)
 
 
