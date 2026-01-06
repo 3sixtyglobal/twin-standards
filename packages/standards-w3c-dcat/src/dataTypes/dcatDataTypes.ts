@@ -5,15 +5,15 @@ import { DataTypeHandlerFactory } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { DcatClasses } from "../models/dcatClasses.js";
 import { DcatContexts } from "../models/dcatContexts.js";
-import CatalogSchema from "../schemas/Catalog.json" with { type: "json" };
-import CatalogRecordSchema from "../schemas/CatalogRecord.json" with { type: "json" };
-import DataServiceSchema from "../schemas/DataService.json" with { type: "json" };
-import DatasetSchema from "../schemas/Dataset.json" with { type: "json" };
-import DatasetSeriesSchema from "../schemas/DatasetSeries.json" with { type: "json" };
-import DistributionSchema from "../schemas/Distribution.json" with { type: "json" };
-import RelationshipSchema from "../schemas/Relationship.json" with { type: "json" };
-import ResourceSchema from "../schemas/Resource.json" with { type: "json" };
-import RoleSchema from "../schemas/Role.json" with { type: "json" };
+import CatalogSchema from "../schemas/DcatCatalog.json" with { type: "json" };
+import CatalogRecordSchema from "../schemas/DcatCatalogRecord.json" with { type: "json" };
+import DataServiceSchema from "../schemas/DcatDataService.json" with { type: "json" };
+import DatasetSchema from "../schemas/DcatDataset.json" with { type: "json" };
+import DatasetSeriesSchema from "../schemas/DcatDatasetSeries.json" with { type: "json" };
+import DistributionSchema from "../schemas/DcatDistribution.json" with { type: "json" };
+import RelationshipSchema from "../schemas/DcatRelationship.json" with { type: "json" };
+import ResourceSchema from "../schemas/DcatResource.json" with { type: "json" };
+import RoleSchema from "../schemas/DcatRole.json" with { type: "json" };
 
 /**
  * Class providing DCAT data type utilities and JSON-LD redirect registration.

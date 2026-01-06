@@ -1,8 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdContextDefinition } from "@twin.org/data-json-ld";
-import type { IDestination } from "./IDestination.js";
-import type { ISource } from "./ISource.js";
+import type { IDestination } from "./IEpcisDestination.js";
+import type { ISource } from "./IEpcisSource.js";
 
 /**
  * EPCIS Event.

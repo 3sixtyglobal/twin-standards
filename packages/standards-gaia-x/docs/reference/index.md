@@ -6,13 +6,13 @@
 
 ## Interfaces
 
-- [IAddress](interfaces/IAddress.md)
-- [IDataExchangeComponent](interfaces/IDataExchangeComponent.md)
-- [IDataResource](interfaces/IDataResource.md)
-- [IEndpoint](interfaces/IEndpoint.md)
-- [ILegalPerson](interfaces/ILegalPerson.md)
-- [IRegistrationNumber](interfaces/IRegistrationNumber.md)
-- [IServiceOffering](interfaces/IServiceOffering.md)
+- [IGaiaXAddress](interfaces/IGaiaXAddress.md)
+- [IGaiaXDataExchangeComponent](interfaces/IGaiaXDataExchangeComponent.md)
+- [IGaiaXDataResource](interfaces/IGaiaXDataResource.md)
+- [IGaiaXEndpoint](interfaces/IGaiaXEndpoint.md)
+- [IGaiaXLegalPerson](interfaces/IGaiaXLegalPerson.md)
+- [IGaiaXRegistrationNumber](interfaces/IGaiaXRegistrationNumber.md)
+- [IGaiaXServiceOffering](interfaces/IGaiaXServiceOffering.md)
 
 ## Type Aliases
 

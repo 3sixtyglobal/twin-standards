@@ -6,15 +6,15 @@
 
 ## Interfaces
 
-- [ICatalog](interfaces/ICatalog.md)
-- [ICatalogRecord](interfaces/ICatalogRecord.md)
-- [IDataService](interfaces/IDataService.md)
-- [IDataset](interfaces/IDataset.md)
-- [IDatasetSeries](interfaces/IDatasetSeries.md)
-- [IDistribution](interfaces/IDistribution.md)
-- [IRelationship](interfaces/IRelationship.md)
-- [IResource](interfaces/IResource.md)
-- [IRole](interfaces/IRole.md)
+- [IDcatCatalog](interfaces/IDcatCatalog.md)
+- [IDcatCatalogRecord](interfaces/IDcatCatalogRecord.md)
+- [IDcatDataService](interfaces/IDcatDataService.md)
+- [IDcatDataset](interfaces/IDcatDataset.md)
+- [IDcatDatasetSeries](interfaces/IDcatDatasetSeries.md)
+- [IDcatDistribution](interfaces/IDcatDistribution.md)
+- [IDcatRelationship](interfaces/IDcatRelationship.md)
+- [IDcatResource](interfaces/IDcatResource.md)
+- [IDcatRole](interfaces/IDcatRole.md)
 
 ## Type Aliases
 
@@ -22,12 +22,12 @@
 - [DcatContextType](type-aliases/DcatContextType.md)
 - [DcatContexts](type-aliases/DcatContexts.md)
 - [DcatRelationshipType](type-aliases/DcatRelationshipType.md)
-- [LiteralType](type-aliases/LiteralType.md)
-- [IriType](type-aliases/IriType.md)
-- [DateTimeType](type-aliases/DateTimeType.md)
-- [DurationType](type-aliases/DurationType.md)
-- [DecimalType](type-aliases/DecimalType.md)
-- [NonNegativeIntegerType](type-aliases/NonNegativeIntegerType.md)
+- [DcatLiteralType](type-aliases/DcatLiteralType.md)
+- [DcatIriType](type-aliases/DcatIriType.md)
+- [DcatDateTimeType](type-aliases/DcatDateTimeType.md)
+- [DcatDurationType](type-aliases/DcatDurationType.md)
+- [DcatDecimalType](type-aliases/DcatDecimalType.md)
+- [DcatNonNegativeIntegerType](type-aliases/DcatNonNegativeIntegerType.md)
 
 ## Variables
 

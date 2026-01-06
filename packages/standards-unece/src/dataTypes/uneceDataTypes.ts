@@ -24,7 +24,7 @@ export class UneceDataTypes {
 	 */
 	public static async registerTypes(): Promise<void> {
 		for (const type of Object.values(UneceTypes)) {
-			const json = await import(`../schemas/${type}.json`, { assert: { type: "json" } });
+			const json = await import(`../schemas/Unece${type}.json`, { assert: { type: "json" } });
 
 			DataTypeHandlerFactory.register(`${UneceContexts.ContextRoot}${type}`, () => ({
 				context: UneceContexts.ContextRoot,

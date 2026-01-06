@@ -250,7 +250,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 	const importLines = [];
 	const typeLines = [];
 	const typeName = stripUnece(id);
-	const interfaceName = `I${typeName}`;
+	const interfaceName = `IUnece${typeName}`;
 	const description = item['rdfs:comment'] ?? 'No description available.';
 	const props = [];
 	const imports = [];
@@ -317,7 +317,9 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				// If its a list type but has no values, we treat it as a string property
 				propType = 'string';
 			} else {
-				const propImportType = isList ? stripUnece(propType) : `I${stripUnece(propType)}`;
+				const propImportType = isList
+					? `Unece${stripUnece(propType)}`
+					: `IUnece${stripUnece(propType)}`;
 
 				imports.push({
 					type: propImportType,
@@ -374,7 +376,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 
 	generatedTypes.push({
 		typeName,
-		interfaceName,
+		fileName: interfaceName,
 		outputDir: CLASS_OUTPUT_DIR,
 		description
 	});
@@ -423,7 +425,7 @@ async function processList(jsonLdMapping, jsonSchemaMapping, id, item, generated
 			)
 		);
 		typeLines.push('// eslint-disable-next-line @typescript-eslint/naming-convention');
-		typeLines.push(`export const ${typeName} = {`);
+		typeLines.push(`export const Unece${typeName} = {`);
 
 		const existingLabels = [];
 		for (let i = 0; i < (item.values ?? []).length; i++) {
@@ -477,13 +479,14 @@ async function processList(jsonLdMapping, jsonSchemaMapping, id, item, generated
 				listIdDeprecated
 			)
 		);
-		const exportText = `export type ${typeName} = (typeof ${typeName})[keyof typeof ${typeName}];`;
+		const exportText = `export type Unece${typeName} = (typeof Unece${typeName})[keyof typeof Unece${typeName}];`;
 		typeLines.push(exportText);
 
-		await writeCodeFile(LIST_OUTPUT_DIR, camelCase(typeName), [], typeLines);
+		await writeCodeFile(LIST_OUTPUT_DIR, `unece${typeName}`, [], typeLines);
 
 		generatedTypes.push({
 			typeName,
+			fileName: `unece${typeName}`,
 			outputDir: LIST_OUTPUT_DIR,
 			description
 		});
@@ -587,7 +590,7 @@ async function generateTsToSchemaJson(generatedTypes) {
 	const existingContent = await loadJSON(tsToSchemaPath);
 
 	const types = generatedTypes
-		.map(t => `./src/models/${t.outputDir}/${t.interfaceName ?? camelCase(t.typeName)}.ts`)
+		.map(t => `./src/models/${t.outputDir}/${t.fileName}.ts`)
 		.sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'case' }));
 
 	existingContent.baseUrl = 'https://schema.twindev.org/unece/';

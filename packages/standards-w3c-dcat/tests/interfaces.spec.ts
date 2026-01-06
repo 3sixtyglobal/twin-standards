@@ -8,16 +8,16 @@ import { VCardContexts } from "@twin.org/standards-w3c-vcard";
 import { DcatDataTypes } from "../src/dataTypes/dcatDataTypes.js";
 import {
 	DcatClasses,
-	type ICatalog,
-	type ICatalogRecord,
-	type IDataService,
-	type IDatasetSeries,
-	type IDistribution,
-	type IDataset,
-	type IRelationship
+	type IDcatCatalog,
+	type IDcatCatalogRecord,
+	type IDcatDataService,
+	type IDcatDatasetSeries,
+	type IDcatDistribution,
+	type IDcatDataset,
+	type IDcatRelationship
 } from "../src/index.js";
 import { DcatContexts } from "../src/models/dcatContexts.js";
-import type { IResource } from "../src/models/IResource.js";
+import type { IDcatResource } from "../src/models/IDcatResource.js";
 
 describe("DCAT Interfaces and Schemas", () => {
 	beforeAll(() => {
@@ -30,8 +30,8 @@ describe("DCAT Interfaces and Schemas", () => {
 		FoafDataTypes.registerRedirects();
 	});
 
-	describe("IResource Interface", () => {
-		const resourceExample: IResource = {
+	describe("IDcatResource Interface", () => {
+		const resourceExample: IDcatResource = {
 			"@context": {
 				dcat: DcatContexts.ContextRoot,
 				dcterms: DublinCoreContexts.ContextTerms,
@@ -90,8 +90,8 @@ describe("DCAT Interfaces and Schemas", () => {
 		});
 	});
 
-	describe("IDataset Interface", () => {
-		const datasetExample: IDataset = {
+	describe("IDcatDataset Interface", () => {
+		const datasetExample: IDcatDataset = {
 			"@context": {
 				dcat: DcatContexts.ContextRoot,
 				dcterms: DublinCoreContexts.ContextTerms,
@@ -160,8 +160,8 @@ describe("DCAT Interfaces and Schemas", () => {
 		});
 	});
 
-	describe("ICatalog Interface", () => {
-		const catalogExample: ICatalog = {
+	describe("IDcatCatalog Interface", () => {
+		const catalogExample: IDcatCatalog = {
 			"@context": {
 				dcat: DcatContexts.ContextRoot,
 				dcterms: DublinCoreContexts.ContextTerms,
@@ -239,8 +239,8 @@ describe("DCAT Interfaces and Schemas", () => {
 		});
 	});
 
-	describe("IDistribution Interface", () => {
-		const distributionExample: IDistribution = {
+	describe("IDcatDistribution Interface", () => {
+		const distributionExample: IDcatDistribution = {
 			"@context": {
 				dcat: DcatContexts.ContextRoot,
 				dcterms: DublinCoreContexts.ContextTerms,
@@ -284,8 +284,8 @@ describe("DCAT Interfaces and Schemas", () => {
 	});
 });
 
-describe("IDataService Interface", () => {
-	const dataServiceExample: IDataService = {
+describe("IDcatDataService Interface", () => {
+	const dataServiceExample: IDcatDataService = {
 		"@context": {
 			dcat: DcatContexts.ContextRoot,
 			dcterms: DublinCoreContexts.ContextTerms,
@@ -340,8 +340,8 @@ describe("IDataService Interface", () => {
 	});
 });
 
-describe("IDatasetSeries Interface", () => {
-	const datasetSeriesExample: IDatasetSeries = {
+describe("IDcatDatasetSeries Interface", () => {
+	const datasetSeriesExample: IDcatDatasetSeries = {
 		"@context": {
 			dcat: DcatContexts.ContextRoot,
 			dcterms: DublinCoreContexts.ContextTerms,
@@ -419,8 +419,8 @@ describe("IDatasetSeries Interface", () => {
 	});
 });
 
-describe("ICatalogRecord Interface", () => {
-	const catalogRecordExample: ICatalogRecord = {
+describe("IDcatCatalogRecord Interface", () => {
+	const catalogRecordExample: IDcatCatalogRecord = {
 		"@context": {
 			dcat: DcatContexts.ContextRoot,
 			dcterms: DublinCoreContexts.ContextTerms,
@@ -474,8 +474,8 @@ describe("ICatalogRecord Interface", () => {
 	});
 });
 
-describe("IRelationship Interface", () => {
-	const relationship: IRelationship = {
+describe("IDcatRelationship Interface", () => {
+	const relationship: IDcatRelationship = {
 		"@context": {
 			dcat: DcatContexts.ContextRoot,
 			dcterms: DublinCoreContexts.ContextTerms

@@ -6,13 +6,13 @@
 
 ## Interfaces
 
-- [IAgent](interfaces/IAgent.md)
-- [IBaseObject](interfaces/IBaseObject.md)
-- [IDocument](interfaces/IDocument.md)
-- [IGroup](interfaces/IGroup.md)
-- [IImage](interfaces/IImage.md)
-- [IOrganization](interfaces/IOrganization.md)
-- [IPerson](interfaces/IPerson.md)
+- [IFoafAgent](interfaces/IFoafAgent.md)
+- [IFoafBaseObject](interfaces/IFoafBaseObject.md)
+- [IFoafDocument](interfaces/IFoafDocument.md)
+- [IFoafGroup](interfaces/IFoafGroup.md)
+- [IFoafImage](interfaces/IFoafImage.md)
+- [IFoafOrganization](interfaces/IFoafOrganization.md)
+- [IFoafPerson](interfaces/IFoafPerson.md)
 
 ## Type Aliases
 

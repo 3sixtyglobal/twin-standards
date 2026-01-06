@@ -1,12 +1,12 @@
 {
 	"baseUrl": "https://schema.twindev.org/foaf/",
 	"types": [
-		"./src/models/IAgent.ts",
-		"./src/models/IDocument.ts",
-		"./src/models/IGroup.ts",
-		"./src/models/IImage.ts",
-		"./src/models/IOrganization.ts",
-		"./src/models/IPerson.ts"
+		"./src/models/IFoafAgent.ts",
+		"./src/models/IFoafDocument.ts",
+		"./src/models/IFoafGroup.ts",
+		"./src/models/IFoafImage.ts",
+		"./src/models/IFoafOrganization.ts",
+		"./src/models/IFoafPerson.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"

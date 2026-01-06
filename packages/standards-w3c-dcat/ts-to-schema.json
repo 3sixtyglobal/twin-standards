@@ -1,15 +1,15 @@
 {
 	"baseUrl": "https://schema.twindev.org/w3c-dcat/",
 	"types": [
-		"./src/models/IResource.ts",
-		"./src/models/ICatalog.ts",
-		"./src/models/IDataset.ts",
-		"./src/models/IDistribution.ts",
-		"./src/models/IDataService.ts",
-		"./src/models/IDatasetSeries.ts",
-		"./src/models/ICatalogRecord.ts",
-		"./src/models/IRelationship.ts",
-		"./src/models/IRole.ts"
+		"./src/models/IDcatResource.ts",
+		"./src/models/IDcatCatalog.ts",
+		"./src/models/IDcatDataset.ts",
+		"./src/models/IDcatDistribution.ts",
+		"./src/models/IDcatDataService.ts",
+		"./src/models/IDcatDatasetSeries.ts",
+		"./src/models/IDcatCatalogRecord.ts",
+		"./src/models/IDcatRelationship.ts",
+		"./src/models/IDcatRole.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",

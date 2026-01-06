@@ -5,12 +5,12 @@ import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import type { JSONSchema7 } from "json-schema";
 import { FoafContexts } from "../models/foafContexts.js";
 import { FoafTypes } from "../models/foafTypes.js";
-import AgentSchema from "../schemas/Agent.json" with { type: "json" };
-import DocumentSchema from "../schemas/Document.json" with { type: "json" };
-import GroupSchema from "../schemas/Group.json" with { type: "json" };
-import ImageSchema from "../schemas/Image.json" with { type: "json" };
-import OrganizationSchema from "../schemas/Organization.json" with { type: "json" };
-import PersonSchema from "../schemas/Person.json" with { type: "json" };
+import AgentSchema from "../schemas/FoafAgent.json" with { type: "json" };
+import DocumentSchema from "../schemas/FoafDocument.json" with { type: "json" };
+import GroupSchema from "../schemas/FoafGroup.json" with { type: "json" };
+import ImageSchema from "../schemas/FoafImage.json" with { type: "json" };
+import OrganizationSchema from "../schemas/FoafOrganization.json" with { type: "json" };
+import PersonSchema from "../schemas/FoafPerson.json" with { type: "json" };
 
 /**
  * Data Type registration for FOAF

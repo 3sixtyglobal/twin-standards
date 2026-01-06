@@ -1,13 +1,13 @@
 {
 	"baseUrl": "https://schema.twindev.org/gaia-x-loire/",
 	"types": [
-		"./src/models/IAddress.ts",
-		"./src/models/IDataResource.ts",
-		"./src/models/IDataExchangeComponent.ts",
-		"./src/models/IEndpoint.ts",
-		"./src/models/ILegalPerson.ts",
-		"./src/models/IRegistrationNumber.ts",
-		"./src/models/IServiceOffering.ts"
+		"./src/models/IGaiaXAddress.ts",
+		"./src/models/IGaiaXDataResource.ts",
+		"./src/models/IGaiaXDataExchangeComponent.ts",
+		"./src/models/IGaiaXEndpoint.ts",
+		"./src/models/IGaiaXLegalPerson.ts",
+		"./src/models/IGaiaXRegistrationNumber.ts",
+		"./src/models/IGaiaXServiceOffering.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",

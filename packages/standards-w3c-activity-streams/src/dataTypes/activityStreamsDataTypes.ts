@@ -5,7 +5,7 @@ import { nameof } from "@twin.org/nameof";
 import type { JSONSchema7 } from "json-schema";
 import { ActivityStreamsContexts } from "../models/activityStreamsContexts.js";
 import { ActivityStreamsTypes } from "../models/activityStreamsTypes.js";
-import ActivitySchema from "../schemas/Activity.json" with { type: "json" };
+import ActivitySchema from "../schemas/ActivityStreamsActivity.json" with { type: "json" };
 import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json" with { type: "json" };
 
 /**

@@ -18,7 +18,7 @@
 		"build:generate-interfaces": "node ./scripts/generateInterfaces.mjs",
 		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas",
 		"build:compile": "tspc",
-		"build": "npm run build:generate-interfaces && npm run build:compile",
+		"build": "npm run build:generate-interfaces && npm run build:compile && npm run build:schema",
 		"dev": "nodemon --watch src --ext ts --exec \"npm run build\"",
 		"test": "vitest --run --config ./vitest.config.ts --no-cache",
 		"test:build": "tspc -p ./tests/tsconfig.json --noEmit",

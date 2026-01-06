@@ -1,11 +1,11 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ActionTypes } from "./actionTypes.js";
-import type { BizStepTypes } from "./bizStepTypes.js";
-import type { DispositionTypes } from "./dispositionTypes.js";
-import type { IBizTransaction } from "./IBizTransaction.js";
+import type { EpcisActionTypes } from "./epcisActionTypes.js";
+import type { EpcisBizStepTypes } from "./epcisBizStepTypes.js";
+import type { EpcisDispositionTypes } from "./epcisDispositionTypes.js";
+import type { IBizTransaction } from "./IEpcisBizTransaction.js";
 import type { IEpcisEvent } from "./IEpcisEvent.js";
-import type { ISimpleLocation } from "./ISimpleLocation.js";
+import type { ISimpleLocation } from "./IEpcisSimpleLocation.js";
 
 /**
  * EPCIS Event Details.
@@ -14,7 +14,7 @@ export interface IEpcisEventDetails extends IEpcisEvent {
 	/**
 	 * Action: ADD, OBSERVE, DELETE.
 	 */
-	action: ActionTypes;
+	action: EpcisActionTypes;
 
 	/**
 	 * The location of reading point.
@@ -29,12 +29,12 @@ export interface IEpcisEventDetails extends IEpcisEvent {
 	/**
 	 * The business step as per EPCIS.
 	 */
-	bizStep?: BizStepTypes;
+	bizStep?: EpcisBizStepTypes;
 
 	/**
 	 * The disposition as per EPCIS.
 	 */
-	disposition?: DispositionTypes;
+	disposition?: EpcisDispositionTypes;
 
 	/**
 	 * The list of related business transactions.

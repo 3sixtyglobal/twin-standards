@@ -6,7 +6,7 @@
 
 ## Interfaces
 
-- [IPeriodOfTime](interfaces/IPeriodOfTime.md)
+- [IDublinCorePeriodOfTime](interfaces/IDublinCorePeriodOfTime.md)
 
 ## Type Aliases
 

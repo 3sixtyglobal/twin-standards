@@ -1,8 +1,8 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { entity, property } from "@twin.org/entity";
-import type { SubSiteAttributes } from "../models/gs1/subSiteAttributes.js";
-import type { SubSiteTypes } from "../models/gs1/subSiteTypes.js";
+import type { Gs1SubSiteAttributes } from "../models/gs1/gs1SubSiteAttributes.js";
+import type { Gs1SubSiteTypes } from "../models/gs1/gs1SubSiteTypes.js";
 
 /**
  * Interface describing a GS1 Location master data.
@@ -38,7 +38,7 @@ export class Gs1Location {
 		type: "string",
 		optional: true
 	})
-	public sst?: SubSiteTypes;
+	public sst?: Gs1SubSiteTypes;
 
 	/**
 	 * Sub site attribute further qualifies the business function of the sub site location.
@@ -48,7 +48,7 @@ export class Gs1Location {
 		type: "string",
 		optional: true
 	})
-	public ssa?: SubSiteAttributes;
+	public ssa?: Gs1SubSiteAttributes;
 
 	/**
 	 * Sub site detail provides additional proprietary information.

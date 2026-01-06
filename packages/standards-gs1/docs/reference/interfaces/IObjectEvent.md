@@ -106,7 +106,7 @@ Destination list. Semantics according to EPCIS standard.
 
 ### action
 
-> **action**: [`ActionTypes`](../type-aliases/ActionTypes.md)
+> **action**: [`EpcisActionTypes`](../type-aliases/EpcisActionTypes.md)
 
 Action: ADD, OBSERVE, DELETE.
 
@@ -142,7 +142,7 @@ The biz location where the item ends up.
 
 ### bizStep?
 
-> `optional` **bizStep**: [`BizStepTypes`](../type-aliases/BizStepTypes.md)
+> `optional` **bizStep**: [`EpcisBizStepTypes`](../type-aliases/EpcisBizStepTypes.md)
 
 The business step as per EPCIS.
 
@@ -154,7 +154,7 @@ The business step as per EPCIS.
 
 ### disposition?
 
-> `optional` **disposition**: [`DispositionTypes`](../type-aliases/DispositionTypes.md)
+> `optional` **disposition**: [`EpcisDispositionTypes`](../type-aliases/EpcisDispositionTypes.md)
 
 The disposition as per EPCIS.
 

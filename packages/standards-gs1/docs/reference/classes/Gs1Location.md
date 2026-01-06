@@ -34,7 +34,7 @@ Identifies the site in which the location is contained.
 
 ### sst?
 
-> `optional` **sst**: [`SubSiteTypes`](../type-aliases/SubSiteTypes.md)
+> `optional` **sst**: [`Gs1SubSiteTypes`](../type-aliases/Gs1SubSiteTypes.md)
 
 Sub site type describes the primary business function of the sub site location.
 
@@ -42,7 +42,7 @@ Sub site type describes the primary business function of the sub site location.
 
 ### ssa?
 
-> `optional` **ssa**: [`SubSiteAttributes`](../type-aliases/SubSiteAttributes.md)
+> `optional` **ssa**: [`Gs1SubSiteAttributes`](../type-aliases/Gs1SubSiteAttributes.md)
 
 Sub site attribute further qualifies the business function of the sub site location.
 

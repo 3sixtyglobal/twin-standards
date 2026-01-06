@@ -6,7 +6,7 @@
 
 ## Interfaces
 
-- [IActivity](interfaces/IActivity.md)
+- [IActivityStreamsActivity](interfaces/IActivityStreamsActivity.md)
 
 ## Type Aliases
 
