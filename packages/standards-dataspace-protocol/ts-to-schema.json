@@ -14,7 +14,6 @@
 		"./src/models/catalog/IDataspaceProtocolCatalogRequestMessage.ts",
 		"./src/models/catalog/IDataspaceProtocolDatasetRequestMessage.ts",
 		"./src/models/catalog/IDataspaceProtocolCatalogError.ts",
-		"./src/models/catalog/IDataspaceProtocolDataset.ts",
 		"./src/models/transferProcess/IDataspaceProtocolDataAddress.ts",
 		"./src/models/transferProcess/IDataspaceProtocolEndpointProperty.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferCompletionMessage.ts",
