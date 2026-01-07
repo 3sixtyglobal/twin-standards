@@ -23,10 +23,38 @@
 		"./src/models/transferProcess/IDataspaceProtocolTransferStartMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferSuspensionMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferTerminationMessage.ts",
-		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts"
+		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts",
+		"./src/models/catalog/IDataspaceProtocolDataset.ts",
+		"./src/models/catalog/IDataspaceProtocolCatalog.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
 	},
-	"autoExpandTypes": ["DataspaceProtocolContextType"]
+	"autoExpandTypes": [
+		"DataspaceProtocolContextType"
+	],
+	"overrides": {
+		"IDataspaceProtocolDataset": {
+			"$schema": "https://json-schema.org/draft/2019-09/schema",
+			"$id": "https://schema.twindev.org/dataspace-protocol/DataspaceProtocolDataset",
+			"description": "Dataset compliant with Eclipse Data Space Protocol. Validates only DS Protocol-specific requirements while allowing all optional DCAT properties.",
+			"title": "DataspaceProtocolDataset",
+			"allOf": [
+				{
+					"$ref": "https://w3id.org/dspace/2025/1/catalog/dataset-schema.json"
+				}
+			]
+		},
+		"IDataspaceProtocolCatalog": {
+			"$schema": "https://json-schema.org/draft/2019-09/schema",
+			"$id": "https://schema.twindev.org/dataspace-protocol/DataspaceProtocolCatalog",
+			"description": "Catalog compliant with Eclipse Data Space Protocol. Validates only DS Protocol-specific requirements while allowing all optional DCAT properties.",
+			"title": "DataspaceProtocolCatalog",
+			"allOf": [
+				{
+					"$ref": "https://w3id.org/dspace/2025/1/catalog/catalog-schema.json"
+				}
+			]
+		}
+	}
 }

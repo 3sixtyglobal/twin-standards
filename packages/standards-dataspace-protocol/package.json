@@ -43,6 +43,7 @@
 		"@twin.org/validate-locales": "next",
 		"@twin.org/ts-to-schema": "next",
 		"@vitest/coverage-v8": "4.0.8",
+		"@twin.org/standards-ld-contexts": "next",
 		"copyfiles": "2.4.1",
 		"nodemon": "3.1.10",
 		"rimraf": "6.1.0",

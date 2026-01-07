@@ -7,6 +7,7 @@ import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json
 import dcTerms from "./ldContexts/dublin-core-terms.json" with { type: "json" };
 import foaf from "./ldContexts/foaf.json" with { type: "json" };
 import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json" with { type: "json" };
+import odrlDataspaceProtocol from "./ldContexts/odrl-dataspace-protocol.json" with { type: "json" };
 import schemaOrg from "./ldContexts/schema.org.json" with { type: "json" };
 import unCefact from "./ldContexts/un-cefact-vocab.json" with { type: "json" };
 import w3cActivityStreams from "./ldContexts/w3c-activity-streams.json" with { type: "json" };
@@ -62,6 +63,8 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	// Data Space Protocol
 	"https://w3id.org/dspace/2024/1/context.json": dataspaceProtocol,
 	"https://w3id.org/dspace/2025/1/context.jsonld": dataspaceProtocol,
+
+	"https://w3id.org/dspace/2025/1/odrl-profile.jsonld": odrlDataspaceProtocol,
 
 	// Foaf
 	"https://schema.twindev.org/foaf/": foaf,

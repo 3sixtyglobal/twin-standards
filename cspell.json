@@ -61,7 +61,8 @@
 		"Stiftung",
 		"unece",
 		"vcard",
-		"xone"
+		"xone",
+		"vocab"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",

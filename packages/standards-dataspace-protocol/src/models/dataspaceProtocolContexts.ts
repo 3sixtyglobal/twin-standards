@@ -12,6 +12,11 @@ export const DataspaceProtocolContexts = {
 	ContextRoot: "https://w3id.org/dspace/2025/1/context.jsonld",
 
 	/**
+	 * The namespace.
+	 */
+	DspNamespace: "https://w3id.org/dspace/2025/1/",
+
+	/**
 	 * The context redirect for Dataspace Protocol Protocol.
 	 */
 	ContextRedirect: "https://w3id.org/dspace/2025/1/context.jsonld"

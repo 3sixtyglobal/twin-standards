@@ -24,90 +24,90 @@ export class ContractNegotiationDataTypes {
 	 */
 	public static registerTypes(): void {
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractAgreementMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractAgreementMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractAgreementMessage,
 				jsonSchema: async () => ContractAgreementMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractAgreementVerificationMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractAgreementVerificationMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractAgreementVerificationMessage,
 				jsonSchema: async () => ContractAgreementVerificationMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiation}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiation}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiation,
 				jsonSchema: async () => ContractNegotiation as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationError}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationError}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationError,
 				jsonSchema: async () => ContractNegotiationError as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventMessage,
 				jsonSchema: async () => ContractNegotiationEventMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationTerminationMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationTerminationMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationTerminationMessage,
 				jsonSchema: async () => ContractNegotiationTerminationMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractOfferMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractOfferMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractOfferMessage,
 				jsonSchema: async () => ContractOfferMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractRequestMessage}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractRequestMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractRequestMessage,
 				jsonSchema: async () => ContractRequestMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventType}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventType}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationEventType,
 				jsonSchema: async () => ContractNegotiationEventType as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationStateType}`,
+			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolContractNegotiationTypes.ContractNegotiationStateType}`,
 			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				context: DataspaceProtocolContexts.DspNamespace,
 				type: DataspaceProtocolContractNegotiationTypes.ContractNegotiationStateType,
 				jsonSchema: async () => ContractNegotiationStateType as IJsonSchema
 			})

@@ -1,17 +1,33 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { ArrayHelper } from "@twin.org/core";
+import { ArrayHelper, ObjectHelper, type IValidationFailure } from "@twin.org/core";
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
-import { DcatContexts, type IDcatCatalog, type IDcatDataset } from "@twin.org/standards-w3c-dcat";
+import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
+import {
+	type IDcatCatalog,
+	type IDcatDataset,
+	DcatContexts,
+	type IDcatDistribution,
+	type IDcatDataService
+} from "@twin.org/standards-w3c-dcat";
+import { OdrlContexts } from "@twin.org/standards-w3c-odrl";
 import {
 	DataspaceProtocolCatalogTypes,
 	DataspaceProtocolContexts,
-	type IDataspaceProtocolCatalogError,
+	DataspaceProtocolDataTypes,
+	DataspaceProtocolHelper,
 	type IDataspaceProtocolCatalogRequestMessage,
-	type IDataspaceProtocolDatasetRequestMessage
+	type IDataspaceProtocolDatasetRequestMessage,
+	type IDataspaceProtocolCatalogError
 } from "../src/index.js";
 
 describe("Dataspace Protocol", () => {
+	beforeAll(async () => {
+		DataspaceProtocolDataTypes.registerTypes();
+		await addAllContextsToDocumentCache();
+	});
+
 	describe("Catalog Protocol - Contexts", () => {
 		test("should have correct context URLs", () => {
 			expect(DataspaceProtocolContexts.ContextRoot).toContain(
@@ -28,6 +44,221 @@ describe("Dataspace Protocol", () => {
 			expect(DataspaceProtocolCatalogTypes.CatalogRequestMessage).toBe("CatalogRequestMessage");
 			expect(DataspaceProtocolCatalogTypes.DatasetRequestMessage).toBe("DatasetRequestMessage");
 			expect(DataspaceProtocolCatalogTypes.CatalogError).toBe("CatalogError");
+		});
+	});
+
+	describe("Catalog Protocol - Ds Protocol specific validations", () => {
+		const dataset: IDcatDataset = {
+			"@context": {
+				dcat: DcatContexts.ContextRoot,
+				odrl: OdrlContexts.OdrlNamespace,
+				dcterms: DublinCoreContexts.ContextTerms
+			},
+			"@id": "dataset:dataset1",
+			"@type": "dcat:Dataset",
+			"dcat:distribution": [
+				{
+					"@type": "dcat:Distribution",
+					"dcterms:format": "example:format",
+					"dcat:accessService": "service:access1"
+				}
+			],
+			"odrl:hasPolicy": {
+				"@context": OdrlContexts.ContextRoot,
+				"@type": "Offer",
+				uid: "policy:policy1",
+				permission: [
+					{
+						action: "use"
+					}
+				]
+			},
+			"dcterms:type": "https://vocabulary.uncefact.org/Consignment",
+			"dcterms:publisher": "did:iota:0x123456789abcdef"
+		};
+
+		const dataService: IDcatDataService = {
+			"@context": {
+				dcat: DcatContexts.ContextRoot,
+				dcterms: DublinCoreContexts.ContextTerms
+			},
+			"@id": "dataservice:ds1",
+			"@type": "dcat:DataService",
+			"dcat:endpointURL": "https://as.example.org/as1"
+		};
+
+		const transferRequest: IJsonLdNodeObject = {
+			"@context": [DataspaceProtocolContexts.ContextRoot],
+			"@type": "TransferRequestMessage",
+			agreementId: "agreement:agreement1",
+			consumerPid: "consumer:consumerPid",
+			format: "example:format",
+			callbackAddress: "https://callback.example.org/cb1"
+		};
+
+		const datasetAsDsProtocol: IJsonLdNodeObject = {
+			"@context": [
+				DataspaceProtocolContexts.ContextRoot,
+				{
+					dcterms: DublinCoreContexts.ContextTerms
+				}
+			],
+			"@id": "dataset:dataset2",
+			"@type": "Dataset",
+			distribution: [
+				{
+					"@type": "Distribution",
+					format: "example:format",
+					accessService: "service:access1"
+				}
+			],
+			hasPolicy: {
+				"@type": "Offer",
+				"@id": "policy:policy1",
+				permission: [
+					{
+						action: "use"
+					}
+				]
+			},
+			"dcterms:type": "https://vocabulary.uncefact.org/Consignment",
+			"dcterms:publisher": "did:iota:0x123456789abcdef"
+		};
+
+		test("should determine as conformant valid Dataset as per the DS Protocol", async () => {
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				dataset,
+				validationFailures
+			);
+
+			expect(isConformant).toBe(true);
+		});
+
+		test("should determine as conformant valid Catalog as per the DS Protocol", async () => {
+			const catalog: IDcatCatalog = {
+				"@context": {
+					dcat: DcatContexts.ContextRoot,
+					odrl: OdrlContexts.OdrlNamespace,
+					dcterms: DublinCoreContexts.ContextTerms,
+					// We need this otherwise the compaction process would not work well for participantId
+					participantId: {
+						"@id": `${DataspaceProtocolContexts.DspNamespace}participantId`,
+						"@type": "@id"
+					}
+				},
+				"@id": "catalog:c1",
+				participantId: "p1:p1",
+				"@type": "dcat:Catalog",
+				"dcat:dataset": dataset,
+				"dcat:service": dataService
+			};
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				catalog,
+				validationFailures
+			);
+
+			expect(isConformant).toBe(true);
+		});
+
+		test("should determine as conformant valid Distribution as per the DS Protocol", async () => {
+			const distribution: IDcatDistribution = {
+				"@context": {
+					dcat: DcatContexts.ContextRoot,
+					odrl: OdrlContexts.OdrlNamespace,
+					dcterms: DublinCoreContexts.ContextTerms
+				},
+				"@id": "distribution:d1",
+				"@type": "dcat:Distribution",
+				"dcterms:format": "example:format",
+				"dcat:accessService": "dataservice:ds1"
+			};
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				distribution,
+				validationFailures
+			);
+			expect(isConformant).toBe(true);
+		});
+
+		test("should determine as conformant valid DataService as per the DS Protocol", async () => {
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				dataService,
+				validationFailures
+			);
+			expect(isConformant).toBe(true);
+		});
+
+		test("should determine as conformant a standard object of the DS Protocol", async () => {
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				transferRequest,
+				validationFailures
+			);
+			expect(isConformant).toBe(true);
+		});
+
+		test("should determine as conformant a dataset represented with the DS Protocol's LD Context", async () => {
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				datasetAsDsProtocol,
+				validationFailures
+			);
+			expect(isConformant).toBe(true);
+		});
+
+		test("should declare non conformant an invalid Dataset as per the DS Protocol", async () => {
+			const dataset2: IDcatDataset = ObjectHelper.clone<IDcatDataset>(dataset);
+			delete (dataset2["dcat:distribution"] as IDcatDistribution[])[0]["dcterms:format"];
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				dataset2,
+				validationFailures
+			);
+			expect(isConformant).toBe(false);
+		});
+
+		test("should declare non conformant an invalid DataService as per the DS Protocol", async () => {
+			const datasService2: IDcatDataService = ObjectHelper.clone<IDcatDataService>(dataService);
+			delete datasService2["dcat:endpointURL"];
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				datasService2,
+				validationFailures
+			);
+			expect(isConformant).toBe(false);
+		});
+
+		test("should determine as non conformant an invalid standard object of the DS Protocol", async () => {
+			const transferRequest2: IJsonLdNodeObject =
+				ObjectHelper.clone<IJsonLdNodeObject>(transferRequest);
+			delete transferRequest2.agreementId;
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				transferRequest2,
+				validationFailures
+			);
+			expect(isConformant).toBe(false);
+		});
+
+		test("should determine as non conformant an invalid standard object of the DS Protocol - no @type", async () => {
+			const transferRequest2: IJsonLdNodeObject =
+				ObjectHelper.clone<IJsonLdNodeObject>(transferRequest);
+			delete transferRequest2["@type"];
+
+			const validationFailures: IValidationFailure[] = [];
+			const isConformant = await DataspaceProtocolHelper.checkConformance(
+				transferRequest2,
+				validationFailures
+			);
+			expect(isConformant).toBe(false);
 		});
 	});
 
@@ -103,7 +334,7 @@ describe("Dataspace Protocol", () => {
 			// Response (simulated)
 			const dataset: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.ContextRoot,
+					dcat: DcatContexts.DcatNamespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",
@@ -112,7 +343,7 @@ describe("Dataspace Protocol", () => {
 
 			const response: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.ContextRoot,
+					dcat: DcatContexts.DcatNamespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Catalog",
@@ -138,7 +369,7 @@ describe("Dataspace Protocol", () => {
 			// Response
 			const response: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.ContextRoot,
+					dcat: DcatContexts.DcatNamespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",

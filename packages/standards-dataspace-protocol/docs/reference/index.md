@@ -6,12 +6,17 @@
 - [ContractNegotiationDataTypes](classes/ContractNegotiationDataTypes.md)
 - [DataspaceProtocolDataTypes](classes/DataspaceProtocolDataTypes.md)
 - [TransferProcessDataTypes](classes/TransferProcessDataTypes.md)
+- [DataspaceProtocolHelper](classes/DataspaceProtocolHelper.md)
 
 ## Interfaces
 
+- [IDataspaceProtocolCatalog](interfaces/IDataspaceProtocolCatalog.md)
 - [IDataspaceProtocolCatalogError](interfaces/IDataspaceProtocolCatalogError.md)
 - [IDataspaceProtocolCatalogRequestMessage](interfaces/IDataspaceProtocolCatalogRequestMessage.md)
+- [IDataspaceProtocolDataService](interfaces/IDataspaceProtocolDataService.md)
+- [IDataspaceProtocolDataset](interfaces/IDataspaceProtocolDataset.md)
 - [IDataspaceProtocolDatasetRequestMessage](interfaces/IDataspaceProtocolDatasetRequestMessage.md)
+- [IDataspaceProtocolDistribution](interfaces/IDataspaceProtocolDistribution.md)
 - [IDataspaceProtocolContractAgreementMessage](interfaces/IDataspaceProtocolContractAgreementMessage.md)
 - [IDataspaceProtocolContractAgreementVerificationMessage](interfaces/IDataspaceProtocolContractAgreementVerificationMessage.md)
 - [IDataspaceProtocolContractNegotiation](interfaces/IDataspaceProtocolContractNegotiation.md)

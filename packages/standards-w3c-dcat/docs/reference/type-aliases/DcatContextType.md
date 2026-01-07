@@ -17,7 +17,7 @@ Supports the DCAT context URL or arrays with additional context definitions.
 
 ### odrl?
 
-> `optional` **odrl**: *typeof* `OdrlContexts.ContextRoot`
+> `optional` **odrl**: *typeof* `OdrlContexts.OdrlNamespace`
 
 ### foaf?
 

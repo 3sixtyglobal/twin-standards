@@ -1,1 +1,7 @@
-{}
+{
+	"error": {
+		"dataspaceProtocolHelper": {
+			"schemaNotRegistered": "JSON Schema \"{schemaId}\" is not registered in DataTypeHandlerFactory"
+		}
+	}
+}

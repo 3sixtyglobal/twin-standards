@@ -10,6 +10,11 @@ export * from "./models/catalog/IDataspaceProtocolCatalogError.js";
 export * from "./models/catalog/IDataspaceProtocolCatalogRequestMessage.js";
 export * from "./models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
 
+export * from "./models/catalog/IDataspaceProtocolDataset.js";
+export * from "./models/catalog/IDataspaceProtocolCatalog.js";
+export * from "./models/catalog/IDataspaceProtocolDistribution.js";
+export * from "./models/catalog/IDataspaceProtocolDataService.js";
+
 export * from "./dataTypes/catalogDataTypes.js";
 
 // Contract Negotiation Protocol
@@ -41,3 +46,5 @@ export * from "./models/transferProcess/IDataspaceProtocolTransferTerminationMes
 export * from "./models/transferProcess/types/dataspaceProtocolTransferProcessStateType.js";
 
 export * from "./dataTypes/transferProcessDataTypes.js";
+
+export * from "./utils/dataspaceProtocolHelper.js";
