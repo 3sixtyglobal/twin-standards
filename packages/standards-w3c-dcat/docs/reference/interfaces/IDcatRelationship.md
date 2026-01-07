@@ -32,7 +32,7 @@ The JSON-LD context for the resource.
 
 ### @type
 
-> **@type**: `"Relationship"`
+> **@type**: `"dcat:Relationship"`
 
 The type identifier, typically "Relationship".
 

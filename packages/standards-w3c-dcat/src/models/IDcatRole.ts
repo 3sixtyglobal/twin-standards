@@ -15,7 +15,7 @@ export interface IDcatRole extends IJsonLdNodeObject {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
-	"@context"?: DcatContextType;
+	"@context": DcatContextType;
 
 	/**
 	 * The type identifier, typically "Role".

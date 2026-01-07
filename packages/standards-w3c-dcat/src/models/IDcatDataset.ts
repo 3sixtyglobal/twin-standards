@@ -4,8 +4,8 @@ import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IDublinCorePeriodOfTime } from "@twin.org/standards-dublin-core";
 import type { DcatClasses } from "./dcatClasses.js";
-import type { IDcatDistribution } from "./IDcatDistribution.js";
 import type { IDcatResource } from "./IDcatResource.js";
+import type { DistributionOptionalContext } from "./types/dcatContextFreeTypes.js";
 import type { DcatDecimalType, DcatDurationType } from "./types/dcatPropertyTypes.js";
 
 /**
@@ -28,7 +28,7 @@ export interface IDcatDataset extends IDcatResource {
 	 * An available distribution of the dataset.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution
 	 */
-	"dcat:distribution"?: ObjectOrArray<IDcatDistribution>;
+	"dcat:distribution"?: ObjectOrArray<DistributionOptionalContext>;
 
 	/**
 	 * The frequency at which the dataset is published.

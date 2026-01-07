@@ -12,6 +12,12 @@ DCAT (Data Catalog Vocabulary) namespace contexts.
 
 The context root for DCAT vocabulary.
 
+### DcatNamespace
+
+> `readonly` **DcatNamespace**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
+
+The namespace for DCAT terms
+
 ### ContextRedirect
 
 > `readonly` **ContextRedirect**: `"https://www.w3.org/ns/dcat.jsonld"` = `"https://www.w3.org/ns/dcat.jsonld"`

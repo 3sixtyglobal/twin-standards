@@ -20,7 +20,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog
 
 ### @type
 
-> **@type**: `"Catalog"`
+> **@type**: `"dcat:Catalog"`
 
 The type identifier, typically "Catalog".
 
@@ -68,7 +68,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
 
 ### dcat:dataset?
 
-> `optional` **dcat:dataset**: `ObjectOrArray`\<[`IDcatDataset`](IDcatDataset.md)\>
+> `optional` **dcat:dataset**: `ObjectOrArray`\<[`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)\>
 
 A dataset that is listed in the catalog.
 
@@ -80,7 +80,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 
 ### dcat:service?
 
-> `optional` **dcat:service**: `ObjectOrArray`\<[`IDcatDataService`](IDcatDataService.md)\>
+> `optional` **dcat:service**: `ObjectOrArray`\<[`DataServiceOptionalContext`](../type-aliases/DataServiceOptionalContext.md)\>
 
 A data service that is listed in the catalog.
 
@@ -92,7 +92,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
 
 ### dcat:catalog?
 
-> `optional` **dcat:catalog**: `ObjectOrArray`\<`IDcatCatalog`\>
+> `optional` **dcat:catalog**: `ObjectOrArray`\<[`CatalogOptionalContext`](../type-aliases/CatalogOptionalContext.md)\>
 
 A catalog that is listed in the catalog.
 
@@ -104,7 +104,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
 
 ### dcat:record?
 
-> `optional` **dcat:record**: `ObjectOrArray`\<[`IDcatCatalogRecord`](IDcatCatalogRecord.md)\>
+> `optional` **dcat:record**: `ObjectOrArray`\<[`CatalogRecordOptionalContext`](../type-aliases/CatalogRecordOptionalContext.md)\>
 
 A record describing the registration of a single resource in the catalog.
 
@@ -116,7 +116,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 
 ### dcat:distribution?
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`IDcatDistribution`](IDcatDistribution.md)\>
+> `optional` **dcat:distribution**: `ObjectOrArray`\<[`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)\>
 
 An available distribution of the dataset.
 
@@ -242,9 +242,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ***
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 

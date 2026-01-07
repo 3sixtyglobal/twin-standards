@@ -83,6 +83,14 @@
 				"dcterms": {
 					"type": "string",
 					"const": "http://purl.org/dc/terms/"
+				},
+				"odrl": {
+					"type": "string",
+					"const": "http://www.w3.org/ns/odrl.jsonld"
+				},
+				"foaf": {
+					"type": "string",
+					"const": "https://xmlns.com/foaf/0.1/"
 				}
 			},
 			"required": [
@@ -135,11 +143,11 @@
 		"@type": {
 			"type": "string",
 			"enum": [
-				"Resource",
-				"Dataset",
-				"DataService",
-				"Catalog",
-				"DatasetSeries"
+				"dcat:Resource",
+				"dcat:Dataset",
+				"dcat:DataService",
+				"dcat:Catalog",
+				"dcat:DatasetSeries"
 			],
 			"description": "The type of the resource. Typically \"Catalog\", \"Dataset\", \"DataService\", \"DatasetSeries\", or the base \"Resource\"."
 		},
@@ -312,6 +320,7 @@
 		}
 	},
 	"required": [
+		"@context",
 		"@type"
 	],
 	"additionalProperties": {

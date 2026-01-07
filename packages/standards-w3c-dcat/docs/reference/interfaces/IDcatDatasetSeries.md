@@ -20,7 +20,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series
 
 ### dcat:distribution?
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`IDcatDistribution`](IDcatDistribution.md)\>
+> `optional` **dcat:distribution**: `ObjectOrArray`\<[`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)\>
 
 An available distribution of the dataset.
 
@@ -148,7 +148,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ### @type
 
-> **@type**: `"DatasetSeries"`
+> **@type**: `"dcat:DatasetSeries"`
 
 The type identifier, typically "DatasetSeries".
 
@@ -194,9 +194,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_member
 
 ***
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 

@@ -17,7 +17,7 @@ export interface IDcatCatalogRecord extends IJsonLdNodeObject {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
-	"@context"?: DcatContextType;
+	"@context": DcatContextType;
 
 	/**
 	 * The type identifier, typically "CatalogRecord".

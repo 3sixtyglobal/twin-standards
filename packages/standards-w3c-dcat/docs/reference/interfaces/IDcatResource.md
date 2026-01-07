@@ -22,9 +22,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
 
 ## Properties
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 
@@ -36,7 +36,7 @@ The JSON-LD context for the resource.
 
 ### @type
 
-> **@type**: `"Catalog"` \| `"Resource"` \| `"Dataset"` \| `"DataService"` \| `"DatasetSeries"`
+> **@type**: `"dcat:Catalog"` \| `"dcat:Resource"` \| `"dcat:Dataset"` \| `"dcat:DataService"` \| `"dcat:DatasetSeries"`
 
 The type of the resource.
 Typically "Catalog", "Dataset", "DataService", "DatasetSeries", or the base "Resource".

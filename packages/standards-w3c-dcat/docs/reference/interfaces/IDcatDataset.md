@@ -25,7 +25,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset
 
 ### @type
 
-> **@type**: `"Catalog"` \| `"Dataset"` \| `"DatasetSeries"`
+> **@type**: `"dcat:Catalog"` \| `"dcat:Dataset"` \| `"dcat:DatasetSeries"`
 
 The type identifier, typically "Dataset".
 Can also be "Catalog" or "DatasetSeries" for subclasses.
@@ -38,7 +38,7 @@ Can also be "Catalog" or "DatasetSeries" for subclasses.
 
 ### dcat:distribution?
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`IDcatDistribution`](IDcatDistribution.md)\>
+> `optional` **dcat:distribution**: `ObjectOrArray`\<[`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)\>
 
 An available distribution of the dataset.
 
@@ -132,9 +132,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ***
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 

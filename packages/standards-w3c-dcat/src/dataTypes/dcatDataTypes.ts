@@ -39,71 +39,71 @@ export class DcatDataTypes {
 	 * Register all the DCAT data types with their JSON schemas.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(`${DcatContexts.ContextRoot}${DcatClasses.Resource}`, () => ({
-			context: DcatContexts.ContextRoot,
+		DataTypeHandlerFactory.register(`${DcatContexts.DcatNamespace}${DcatClasses.Resource}`, () => ({
+			context: DcatContexts.DcatNamespace,
 			type: DcatClasses.Resource,
 			jsonSchema: async () => ResourceSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${DcatContexts.ContextRoot}${DcatClasses.Catalog}`, () => ({
-			context: DcatContexts.ContextRoot,
+		DataTypeHandlerFactory.register(`${DcatContexts.DcatNamespace}${DcatClasses.Catalog}`, () => ({
+			context: DcatContexts.DcatNamespace,
 			type: DcatClasses.Catalog,
 			jsonSchema: async () => CatalogSchema as IJsonSchema
 		}));
 
-		DataTypeHandlerFactory.register(`${DcatContexts.ContextRoot}${DcatClasses.Dataset}`, () => ({
-			context: DcatContexts.ContextRoot,
+		DataTypeHandlerFactory.register(`${DcatContexts.DcatNamespace}${DcatClasses.Dataset}`, () => ({
+			context: DcatContexts.DcatNamespace,
 			type: DcatClasses.Dataset,
 			jsonSchema: async () => DatasetSchema as IJsonSchema
 		}));
 
 		DataTypeHandlerFactory.register(
-			`${DcatContexts.ContextRoot}${DcatClasses.Distribution}`,
+			`${DcatContexts.DcatNamespace}${DcatClasses.Distribution}`,
 			() => ({
-				context: DcatContexts.ContextRoot,
+				context: DcatContexts.DcatNamespace,
 				type: DcatClasses.Distribution,
 				jsonSchema: async () => DistributionSchema as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DcatContexts.ContextRoot}${DcatClasses.DataService}`,
+			`${DcatContexts.DcatNamespace}${DcatClasses.DataService}`,
 			() => ({
-				context: DcatContexts.ContextRoot,
+				context: DcatContexts.DcatNamespace,
 				type: DcatClasses.DataService,
 				jsonSchema: async () => DataServiceSchema as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DcatContexts.ContextRoot}${DcatClasses.DatasetSeries}`,
+			`${DcatContexts.DcatNamespace}${DcatClasses.DatasetSeries}`,
 			() => ({
-				context: DcatContexts.ContextRoot,
+				context: DcatContexts.DcatNamespace,
 				type: DcatClasses.DatasetSeries,
 				jsonSchema: async () => DatasetSeriesSchema as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DcatContexts.ContextRoot}${DcatClasses.CatalogRecord}`,
+			`${DcatContexts.DcatNamespace}${DcatClasses.CatalogRecord}`,
 			() => ({
-				context: DcatContexts.ContextRoot,
+				context: DcatContexts.DcatNamespace,
 				type: DcatClasses.CatalogRecord,
 				jsonSchema: async () => CatalogRecordSchema as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DcatContexts.ContextRoot}${DcatClasses.Relationship}`,
+			`${DcatContexts.DcatNamespace}${DcatClasses.Relationship}`,
 			() => ({
-				context: DcatContexts.ContextRoot,
+				context: DcatContexts.DcatNamespace,
 				type: DcatClasses.Relationship,
 				jsonSchema: async () => RelationshipSchema as IJsonSchema
 			})
 		);
 
-		DataTypeHandlerFactory.register(`${DcatContexts.ContextRoot}${DcatClasses.Role}`, () => ({
-			context: DcatContexts.ContextRoot,
+		DataTypeHandlerFactory.register(`${DcatContexts.DcatNamespace}${DcatClasses.Role}`, () => ({
+			context: DcatContexts.DcatNamespace,
 			type: DcatClasses.Role,
 			jsonSchema: async () => RoleSchema as IJsonSchema
 		}));

@@ -14,3 +14,11 @@ Supports the DCAT context URL or arrays with additional context definitions.
 ### dcterms
 
 > **dcterms**: *typeof* `DublinCoreContexts.ContextTerms`
+
+### odrl?
+
+> `optional` **odrl**: *typeof* `OdrlContexts.ContextRoot`
+
+### foaf?
+
+> `optional` **foaf**: *typeof* `FoafContexts.ContextRoot`

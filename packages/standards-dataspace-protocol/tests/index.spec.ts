@@ -1,7 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { ArrayHelper } from "@twin.org/core";
-import type { IDcatCatalog, IDcatDataset } from "@twin.org/standards-w3c-dcat";
+import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
+import { DcatContexts, type IDcatCatalog, type IDcatDataset } from "@twin.org/standards-w3c-dcat";
 import {
 	DataspaceProtocolCatalogTypes,
 	DataspaceProtocolContexts,
@@ -101,19 +102,27 @@ describe("Dataspace Protocol", () => {
 
 			// Response (simulated)
 			const dataset: IDcatDataset = {
-				"@type": "Dataset",
-				"@id": "sensor-dataset-1"
+				"@context": {
+					dcat: DcatContexts.ContextRoot,
+					dcterms: DublinCoreContexts.ContextTerms
+				},
+				"@type": "dcat:Dataset",
+				"@id": "sensor:sensor-dataset-1"
 			};
 
 			const response: IDcatCatalog = {
-				"@type": "Catalog",
-				"@id": "catalog-response",
+				"@context": {
+					dcat: DcatContexts.ContextRoot,
+					dcterms: DublinCoreContexts.ContextTerms
+				},
+				"@type": "dcat:Catalog",
+				"@id": "catalog:catalog-response",
 				"dcat:dataset": [dataset]
 			};
 
 			expect(response["dcat:dataset"]).toBeDefined();
 			const datasets = ArrayHelper.fromObjectOrArray(response["dcat:dataset"]);
-			expect(datasets?.[0]?.["@id"]).toBe("sensor-dataset-1");
+			expect(datasets?.[0]?.["@id"]).toBe("sensor:sensor-dataset-1");
 		});
 
 		test("should demonstrate dataset request and response flow", () => {
@@ -121,15 +130,19 @@ describe("Dataspace Protocol", () => {
 			const request: IDataspaceProtocolDatasetRequestMessage = {
 				"@context": [DataspaceProtocolContexts.ContextRoot],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
-				dataset: "dataset-456"
+				dataset: "dataset:dataset-456"
 			};
 
-			expect(request.dataset).toBe("dataset-456");
+			expect(request.dataset).toBe("dataset:dataset-456");
 
 			// Response
 			const response: IDcatDataset = {
-				"@type": "Dataset",
-				"@id": "dataset-456",
+				"@context": {
+					dcat: DcatContexts.ContextRoot,
+					dcterms: DublinCoreContexts.ContextTerms
+				},
+				"@type": "dcat:Dataset",
+				"@id": "dataset:dataset-456",
 				"dcterms:title": "Requested Dataset"
 			};
 

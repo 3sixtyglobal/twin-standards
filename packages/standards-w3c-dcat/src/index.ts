@@ -16,3 +16,4 @@ export * from "./models/IDcatRelationship.js";
 export * from "./models/IDcatResource.js";
 export * from "./models/IDcatRole.js";
 export * from "./models/types/dcatPropertyTypes.js";
+export * from "./models/types/dcatContextFreeTypes.js";

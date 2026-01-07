@@ -20,7 +20,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service
 
 ### @type
 
-> **@type**: `"DataService"`
+> **@type**: `"dcat:DataService"`
 
 The type identifier, typically "DataService".
 
@@ -67,9 +67,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset
 
 ***
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 

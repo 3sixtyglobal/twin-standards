@@ -23,15 +23,15 @@ describe("DCAT", () => {
 
 	describe("Classes", () => {
 		it("should have all core DCAT classes", () => {
-			expect(DcatClasses.Catalog).toBe("Catalog");
-			expect(DcatClasses.Resource).toBe("Resource");
-			expect(DcatClasses.Dataset).toBe("Dataset");
-			expect(DcatClasses.Distribution).toBe("Distribution");
-			expect(DcatClasses.DataService).toBe("DataService");
-			expect(DcatClasses.DatasetSeries).toBe("DatasetSeries");
-			expect(DcatClasses.CatalogRecord).toBe("CatalogRecord");
-			expect(DcatClasses.Relationship).toBe("Relationship");
-			expect(DcatClasses.Role).toBe("Role");
+			expect(DcatClasses.Catalog).toBe("dcat:Catalog");
+			expect(DcatClasses.Resource).toBe("dcat:Resource");
+			expect(DcatClasses.Dataset).toBe("dcat:Dataset");
+			expect(DcatClasses.Distribution).toBe("dcat:Distribution");
+			expect(DcatClasses.DataService).toBe("dcat:DataService");
+			expect(DcatClasses.DatasetSeries).toBe("dcat:DatasetSeries");
+			expect(DcatClasses.CatalogRecord).toBe("dcat:CatalogRecord");
+			expect(DcatClasses.Relationship).toBe("dcat:Relationship");
+			expect(DcatClasses.Role).toBe("dcat:Role");
 		});
 
 		it("should have exactly 9 classes", () => {

@@ -83,6 +83,14 @@
 				"dcterms": {
 					"type": "string",
 					"const": "http://purl.org/dc/terms/"
+				},
+				"odrl": {
+					"type": "string",
+					"const": "http://www.w3.org/ns/odrl.jsonld"
+				},
+				"foaf": {
+					"type": "string",
+					"const": "https://xmlns.com/foaf/0.1/"
 				}
 			},
 			"required": [
@@ -134,7 +142,7 @@
 		},
 		"@type": {
 			"type": "string",
-			"const": "Catalog",
+			"const": "dcat:Catalog",
 			"description": "The type identifier, typically \"Catalog\"."
 		},
 		"@reverse": {
@@ -308,12 +316,12 @@
 			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-dcat/DcatDistribution"
+					"$ref": "https://schema.twindev.org/w3c-dcat/DistributionOptionalContext"
 				},
 				{
 					"type": "array",
 					"items": {
-						"$ref": "https://schema.twindev.org/w3c-dcat/DcatDistribution"
+						"$ref": "https://schema.twindev.org/w3c-dcat/DistributionOptionalContext"
 					}
 				}
 			]
@@ -407,12 +415,12 @@
 			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-dcat/DcatDataset"
+					"$ref": "https://schema.twindev.org/w3c-dcat/DatasetOptionalContext"
 				},
 				{
 					"type": "array",
 					"items": {
-						"$ref": "https://schema.twindev.org/w3c-dcat/DcatDataset"
+						"$ref": "https://schema.twindev.org/w3c-dcat/DatasetOptionalContext"
 					}
 				}
 			]
@@ -421,12 +429,12 @@
 			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-dcat/DcatDataService"
+					"$ref": "https://schema.twindev.org/w3c-dcat/DataServiceOptionalContext"
 				},
 				{
 					"type": "array",
 					"items": {
-						"$ref": "https://schema.twindev.org/w3c-dcat/DcatDataService"
+						"$ref": "https://schema.twindev.org/w3c-dcat/DataServiceOptionalContext"
 					}
 				}
 			]
@@ -435,12 +443,12 @@
 			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-dcat/DcatCatalog"
+					"$ref": "https://schema.twindev.org/w3c-dcat/CatalogOptionalContext"
 				},
 				{
 					"type": "array",
 					"items": {
-						"$ref": "https://schema.twindev.org/w3c-dcat/DcatCatalog"
+						"$ref": "https://schema.twindev.org/w3c-dcat/CatalogOptionalContext"
 					}
 				}
 			]
@@ -449,18 +457,19 @@
 			"description": "Object or array data type",
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-dcat/DcatCatalogRecord"
+					"$ref": "https://schema.twindev.org/w3c-dcat/CatalogRecordOptionalContext"
 				},
 				{
 					"type": "array",
 					"items": {
-						"$ref": "https://schema.twindev.org/w3c-dcat/DcatCatalogRecord"
+						"$ref": "https://schema.twindev.org/w3c-dcat/CatalogRecordOptionalContext"
 					}
 				}
 			]
 		}
 	},
 	"required": [
+		"@context",
 		"@type"
 	],
 	"additionalProperties": {

@@ -1,5 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import { ObjectHelper } from "@twin.org/core";
 import { DataTypeHandlerFactory, JsonSchemaHelper, type IJsonSchema } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { DublinCoreContexts, DublinCoreDataTypes } from "@twin.org/standards-dublin-core";
@@ -14,7 +15,8 @@ import {
 	type IDcatDatasetSeries,
 	type IDcatDistribution,
 	type IDcatDataset,
-	type IDcatRelationship
+	type IDcatRelationship,
+	type IDcatRole
 } from "../src/index.js";
 import { DcatContexts } from "../src/models/dcatContexts.js";
 import type { IDcatResource } from "../src/models/IDcatResource.js";
@@ -38,7 +40,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				foaf: FoafContexts.ContextRoot,
 				vcard: VCardContexts.ContextRoot
 			},
-			"@type": "Resource",
+			"@type": "dcat:Resource",
 			"dcterms:identifier": "res:20251118-0001",
 			"dcterms:title": "National Parks Boundary Dataset (Example)",
 			"dcterms:description":
@@ -99,7 +101,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				vcard: VCardContexts.ContextRoot
 			},
 			"@id": "http://example.org/dataset/energy-stats",
-			"@type": "Dataset",
+			"@type": "dcat:Dataset",
 			"dcterms:title": "National Energy Statistics 2025",
 			"dcterms:description":
 				"Annual dataset of national energy production and consumption figures.",
@@ -169,7 +171,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				vcard: VCardContexts.ContextRoot
 			},
 			"@id": "http://example.org/catalog/national-energy",
-			"@type": "Catalog",
+			"@type": "dcat:Catalog",
 			"dcterms:title": "National Energy Data Catalog",
 			"dcterms:description":
 				"A catalog of datasets and services related to national energy statistics and infrastructure.",
@@ -248,7 +250,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				vcard: VCardContexts.ContextRoot
 			},
 			"@id": "http://example.org/dataset/energy-stats/csv",
-			"@type": "Distribution",
+			"@type": "dcat:Distribution",
 			"dcterms:title": "CSV distribution of National Energy Statistics 2025",
 			"dcterms:description":
 				"This CSV file contains tabular data on national energy production and consumption figures for 2025.",
@@ -293,7 +295,7 @@ describe("IDcatDataService Interface", () => {
 			vcard: VCardContexts.ContextRoot
 		},
 		"@id": "http://example.org/service/energy-api",
-		"@type": "DataService",
+		"@type": "dcat:DataService",
 		"dcterms:title": "National Energy Statistics API",
 		"dcterms:description":
 			"RESTful API providing access to national energy production and consumption data.",
@@ -349,7 +351,7 @@ describe("IDcatDatasetSeries Interface", () => {
 			vcard: VCardContexts.ContextRoot
 		},
 		"@id": "http://example.org/dataset-series/energy-stats",
-		"@type": "DatasetSeries",
+		"@type": "dcat:DatasetSeries",
 		"dcterms:title": "National Energy Statistics Series",
 		"dcterms:description":
 			"A series of datasets containing annual national energy production and consumption figures.",
@@ -428,15 +430,19 @@ describe("IDcatCatalogRecord Interface", () => {
 			vcard: VCardContexts.ContextRoot
 		},
 		"@id": "http://example.org/catalog/energy/record/energy-stats-2025",
-		"@type": "CatalogRecord",
+		"@type": "dcat:CatalogRecord",
 		"dcterms:title": "Catalog record for National Energy Statistics 2025",
 		"dcterms:description":
 			"This record describes the entry of the dataset 'National Energy Statistics 2025' in the National Energy Data Catalog.",
 		"dcterms:issued": "2025-11-18",
 		"dcterms:modified": "2025-11-19",
 		"foaf:primaryTopic": {
+			"@context": {
+				dcat: DcatContexts.ContextRoot,
+				dcterms: DublinCoreContexts.ContextTerms
+			},
 			"@id": "http://example.org/dataset/energy-stats-2025",
-			"@type": "Dataset",
+			"@type": "dcat:Dataset",
 			"dcterms:title": "National Energy Statistics 2025",
 			"dcterms:description":
 				"Annual dataset of national energy production and consumption figures.",
@@ -470,7 +476,14 @@ describe("IDcatCatalogRecord Interface", () => {
 			catalogRecordExample["@context"]
 		);
 
-		expect(compacted).toEqual(catalogRecordExample);
+		const catalogRecordExampleCloned = ObjectHelper.clone<IDcatCatalogRecord>(catalogRecordExample);
+		const primaryTopic = ObjectHelper.propertyGet<IDcatDataset>(
+			catalogRecordExampleCloned,
+			"foaf:primaryTopic"
+		);
+		ObjectHelper.propertyDelete(primaryTopic, "@context");
+
+		expect(compacted).toEqual(catalogRecordExampleCloned);
 	});
 });
 
@@ -480,15 +493,19 @@ describe("IDcatRelationship Interface", () => {
 			dcat: DcatContexts.ContextRoot,
 			dcterms: DublinCoreContexts.ContextTerms
 		},
-		"@type": "Relationship",
+		"@type": "dcat:Relationship",
 		"dcat:relation": {
 			"@id": "http://example.org/publication/energy-report-2025",
 			"@type": "foaf:Document",
 			"dcterms:title": "Annual Energy Report 2025"
 		},
 		"dcat:hadRole": {
+			"@context": {
+				dcat: DcatContexts.ContextRoot,
+				dcterms: DublinCoreContexts.ContextTerms
+			},
 			"@id": "http://example.org/role/isDocumentedBy",
-			"@type": "Role",
+			"@type": "dcat:Role",
 			"dcterms:title": "Is documented by"
 		}
 	};
@@ -510,6 +527,9 @@ describe("IDcatRelationship Interface", () => {
 
 	it("should retain all properties after JSON-LD round-trip", async () => {
 		const compacted = await JsonLdProcessor.compact(relationship, relationship["@context"]);
+
+		const role = ObjectHelper.propertyGet<IDcatRole>(relationship, "dcat:hadRole");
+		ObjectHelper.propertyDelete(role, "@context");
 
 		expect(compacted).toEqual(relationship);
 	});

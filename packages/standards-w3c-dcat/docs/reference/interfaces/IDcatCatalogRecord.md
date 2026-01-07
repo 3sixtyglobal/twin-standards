@@ -18,9 +18,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record
 
 ## Properties
 
-### @context?
+### @context
 
-> `optional` **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
 
@@ -32,7 +32,7 @@ The JSON-LD context for the resource.
 
 ### @type
 
-> **@type**: `"CatalogRecord"`
+> **@type**: `"dcat:CatalogRecord"`
 
 The type identifier, typically "CatalogRecord".
 

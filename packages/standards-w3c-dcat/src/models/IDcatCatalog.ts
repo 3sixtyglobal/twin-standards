@@ -2,10 +2,14 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
 import type { DcatClasses } from "./dcatClasses.js";
-import type { IDcatCatalogRecord } from "./IDcatCatalogRecord.js";
-import type { IDcatDataService } from "./IDcatDataService.js";
 import type { IDcatDataset } from "./IDcatDataset.js";
 import type { IDcatResource } from "./IDcatResource.js";
+import type {
+	CatalogOptionalContext,
+	CatalogRecordOptionalContext,
+	DataServiceOptionalContext,
+	DatasetOptionalContext
+} from "./types/dcatContextFreeTypes.js";
 
 /**
  * Interface for DCAT Catalog.
@@ -41,23 +45,23 @@ export interface IDcatCatalog extends IDcatDataset {
 	 * A dataset that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 	 */
-	"dcat:dataset"?: ObjectOrArray<IDcatDataset>;
+	"dcat:dataset"?: ObjectOrArray<DatasetOptionalContext>;
 
 	/**
 	 * A data service that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
 	 */
-	"dcat:service"?: ObjectOrArray<IDcatDataService>;
+	"dcat:service"?: ObjectOrArray<DataServiceOptionalContext>;
 
 	/**
 	 * A catalog that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
 	 */
-	"dcat:catalog"?: ObjectOrArray<IDcatCatalog>;
+	"dcat:catalog"?: ObjectOrArray<CatalogOptionalContext>;
 
 	/**
 	 * A record describing the registration of a single resource in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 	 */
-	"dcat:record"?: ObjectOrArray<IDcatCatalogRecord>;
+	"dcat:record"?: ObjectOrArray<CatalogRecordOptionalContext>;
 }
