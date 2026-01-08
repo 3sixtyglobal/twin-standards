@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.0.3-next.8](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.7...standards-dataspace-protocol-v0.0.3-next.8) (2026-01-08)
+
+
+### Features
+
+* add dataspace protocol dataset ([06b2180](https://github.com/twinfoundation/standards/commit/06b21803551bef6c4c9fba488d672323b22ee54e))
+* add dataspace protocol dataset ([26d9031](https://github.com/twinfoundation/standards/commit/26d9031e18667b6e6c4395323522e4b56fcc0356))
+* add ds protocol catalog dataset ([#86](https://github.com/twinfoundation/standards/issues/86)) ([45600e6](https://github.com/twinfoundation/standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+
+
+### Bug Fixes
+
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/twinfoundation/standards/issues/85)) ([4546167](https://github.com/twinfoundation/standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.7 to 0.0.3-next.8
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.7 to 0.0.3-next.8
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from next to 0.0.3-next.8
+
 ## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.6...standards-dataspace-protocol-v0.0.3-next.7) (2026-01-06)
 
 

@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.3-next.8](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.7...standards-ld-contexts-v0.0.3-next.8) (2026-01-08)
+
+
+### Features
+
+* add ds protocol catalog dataset ([#86](https://github.com/twinfoundation/standards/issues/86)) ([45600e6](https://github.com/twinfoundation/standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+
 ## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.6...standards-ld-contexts-v0.0.3-next.7) (2026-01-06)
 
 

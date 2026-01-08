@@ -1,5 +1,27 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.8](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.7...standards-w3c-dcat-v0.0.3-next.8) (2026-01-08)
+
+
+### Features
+
+* add ds protocol catalog dataset ([#86](https://github.com/twinfoundation/standards/issues/86)) ([45600e6](https://github.com/twinfoundation/standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+
+
+### Bug Fixes
+
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/twinfoundation/standards/issues/85)) ([4546167](https://github.com/twinfoundation/standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.7 to 0.0.3-next.8
+    * @twin.org/standards-foaf bumped from 0.0.3-next.7 to 0.0.3-next.8
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.7 to 0.0.3-next.8
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.7 to 0.0.3-next.8
+
 ## [0.0.3-next.7](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.6...standards-w3c-dcat-v0.0.3-next.7) (2026-01-06)
 
 
