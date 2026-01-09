@@ -39,36 +39,6 @@ MUST refer to the transfer identifier of the Provider side.
 
 ### state
 
-> **state**: `object`
+> **state**: `string`
 
 The transfer process state.
-
-#### COMPLETED
-
-> **COMPLETED**: `string` = `"COMPLETED"`
-
-Completed
-
-#### REQUESTED
-
-> **REQUESTED**: `string` = `"REQUESTED"`
-
-Requested
-
-#### STARTED
-
-> **STARTED**: `string` = `"STARTED"`
-
-Started
-
-#### SUSPENDED
-
-> **SUSPENDED**: `string` = `"SUSPENDED"`
-
-Suspended
-
-#### TERMINATED
-
-> **TERMINATED**: `string` = `"TERMINATED"`
-
-Terminated

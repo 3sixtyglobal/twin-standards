@@ -32,5 +32,5 @@ export interface IDataspaceProtocolTransferProcess {
 	/**
 	 * The transfer process state.
 	 */
-	state: typeof DataspaceProtocolTransferProcessStateType;
+	state: DataspaceProtocolTransferProcessStateType;
 }

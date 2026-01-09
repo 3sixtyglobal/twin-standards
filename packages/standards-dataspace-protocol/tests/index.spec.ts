@@ -19,7 +19,9 @@ import {
 	DataspaceProtocolHelper,
 	type IDataspaceProtocolCatalogRequestMessage,
 	type IDataspaceProtocolDatasetRequestMessage,
-	type IDataspaceProtocolCatalogError
+	type IDataspaceProtocolCatalogError,
+	type IDataspaceProtocolTransferProcess,
+	DataspaceProtocolTransferProcessStateType
 } from "../src/index.js";
 
 describe("Dataspace Protocol", () => {
@@ -398,6 +400,79 @@ describe("Dataspace Protocol", () => {
 
 			expect(errorResponse.code).toBe("DATASET_NOT_FOUND");
 			expect(errorResponse.reason).toHaveLength(1);
+		});
+	});
+
+	describe("Transfer Protocol - Transfer Process Messages", () => {
+		test("should create valid Transfer Process with REQUESTED state", () => {
+			const transferProcess: IDataspaceProtocolTransferProcess = {
+				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@type": "dspace:TransferProcess",
+				consumerPid: "consumer:pid-123",
+				providerPid: "provider:pid-456",
+				state: DataspaceProtocolTransferProcessStateType.REQUESTED
+			};
+
+			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(transferProcess["@type"]).toBe("dspace:TransferProcess");
+			expect(transferProcess.consumerPid).toBe("consumer:pid-123");
+			expect(transferProcess.providerPid).toBe("provider:pid-456");
+			expect(transferProcess.state).toBe("REQUESTED");
+		});
+
+		test("should create valid Transfer Process with STARTED state", () => {
+			const transferProcess: IDataspaceProtocolTransferProcess = {
+				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@type": "dspace:TransferProcess",
+				consumerPid: "consumer:pid-789",
+				providerPid: "provider:pid-012",
+				state: DataspaceProtocolTransferProcessStateType.STARTED
+			};
+
+			expect(transferProcess.state).toBe("STARTED");
+		});
+
+		test("should accept all valid Transfer Process state values", () => {
+			const states = [
+				DataspaceProtocolTransferProcessStateType.REQUESTED,
+				DataspaceProtocolTransferProcessStateType.STARTED,
+				DataspaceProtocolTransferProcessStateType.COMPLETED,
+				DataspaceProtocolTransferProcessStateType.SUSPENDED,
+				DataspaceProtocolTransferProcessStateType.TERMINATED
+			];
+
+			states.forEach(state => {
+				const transferProcess: IDataspaceProtocolTransferProcess = {
+					"@context": [DataspaceProtocolContexts.ContextRoot],
+					"@type": "dspace:TransferProcess",
+					consumerPid: "consumer:pid",
+					providerPid: "provider:pid",
+					state
+				};
+
+				expect(transferProcess.state).toBe(state);
+				expect(typeof transferProcess.state).toBe("string");
+			});
+		});
+
+		test("should demonstrate Transfer Process state as string value", () => {
+			const transferProcess: IDataspaceProtocolTransferProcess = {
+				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@type": "dspace:TransferProcess",
+				consumerPid: "consumer:pid-test",
+				providerPid: "provider:pid-test",
+				state: "COMPLETED"
+			};
+
+			// Verify state is a string, not an object
+			expect(typeof transferProcess.state).toBe("string");
+			expect(transferProcess.state).toBe("COMPLETED");
+
+			// Verify it can be serialized to JSON properly
+			const json = JSON.stringify(transferProcess);
+			const parsed = JSON.parse(json);
+			expect(parsed.state).toBe("COMPLETED");
+			expect(typeof parsed.state).toBe("string");
 		});
 	});
 });
