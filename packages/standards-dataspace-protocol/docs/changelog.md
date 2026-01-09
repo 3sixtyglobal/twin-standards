@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.9](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.8...standards-dataspace-protocol-v0.0.3-next.9) (2026-01-09)
+
+
+### Bug Fixes
+
+* removing typeof in the state of the IDataspaceProtocolTransferProcess model ([#94](https://github.com/twinfoundation/standards/issues/94)) ([2b9814e](https://github.com/twinfoundation/standards/commit/2b9814e4882a505a087455271782cd6d4ba5305d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.8 to 0.0.3-next.9
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.8 to 0.0.3-next.9
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.8 to 0.0.3-next.9
+
 ## [0.0.3-next.8](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.7...standards-dataspace-protocol-v0.0.3-next.8) (2026-01-08)
 
 
