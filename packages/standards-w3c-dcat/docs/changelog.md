@@ -1,5 +1,22 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.10](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.9...standards-w3c-dcat-v0.0.3-next.10) (2026-01-13)
+
+
+### Features
+
+* naming fixing and usage ([#98](https://github.com/twinfoundation/standards/issues/98)) ([9e95344](https://github.com/twinfoundation/standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.9 to 0.0.3-next.10
+    * @twin.org/standards-foaf bumped from 0.0.3-next.9 to 0.0.3-next.10
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.9 to 0.0.3-next.10
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.9 to 0.0.3-next.10
+
 ## [0.0.3-next.9](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.8...standards-w3c-dcat-v0.0.3-next.9) (2026-01-09)
 
 

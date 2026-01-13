@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.10](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.9...standards-w3c-activity-streams-v0.0.3-next.10) (2026-01-13)
+
+
+### Features
+
+* naming fixing and usage ([#98](https://github.com/twinfoundation/standards/issues/98)) ([9e95344](https://github.com/twinfoundation/standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+
 ## [0.0.3-next.9](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.8...standards-w3c-activity-streams-v0.0.3-next.9) (2026-01-09)
 
 
