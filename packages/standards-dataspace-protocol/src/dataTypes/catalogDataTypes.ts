@@ -22,7 +22,7 @@ export class CatalogDataTypes {
 	 */
 	public static registerTypes(): void {
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolCatalogTypes.CatalogRequestMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.CatalogRequestMessage}`,
 			() => ({
 				context: DataspaceProtocolContexts.ContextRoot,
 				type: DataspaceProtocolCatalogTypes.CatalogRequestMessage,
@@ -31,7 +31,7 @@ export class CatalogDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolCatalogTypes.DatasetRequestMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.DatasetRequestMessage}`,
 			() => ({
 				context: DataspaceProtocolContexts.ContextRoot,
 				type: DataspaceProtocolCatalogTypes.DatasetRequestMessage,
@@ -40,7 +40,7 @@ export class CatalogDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolCatalogTypes.CatalogError}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.CatalogError}`,
 			() => ({
 				context: DataspaceProtocolContexts.ContextRoot,
 				type: DataspaceProtocolCatalogTypes.CatalogError,

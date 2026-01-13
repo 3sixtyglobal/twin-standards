@@ -18,9 +18,9 @@ export abstract class ActivityStreamsDataTypes {
 	public static registerTypes(): void {
 		for (const activityStreamsType of Object.values(ActivityStreamsTypes)) {
 			DataTypeHandlerFactory.register(
-				`${ActivityStreamsContexts.ActivityStreamsNamespace}${activityStreamsType}`,
+				`${ActivityStreamsContexts.Namespace}${activityStreamsType}`,
 				() => ({
-					context: ActivityStreamsContexts.ActivityStreamsNamespace,
+					context: ActivityStreamsContexts.Namespace,
 					type: `${activityStreamsType}`,
 					defaultValue: {},
 					jsonSchema: async () => ActivitySchema as JSONSchema7

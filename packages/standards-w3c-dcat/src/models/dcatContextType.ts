@@ -13,6 +13,6 @@ import type { DcatContexts } from "./dcatContexts.js";
 export type DcatContextType = {
 	dcat: typeof DcatContexts.ContextRoot;
 	dcterms: typeof DublinCoreContexts.ContextTerms;
-	odrl?: typeof OdrlContexts.OdrlNamespace;
+	odrl?: typeof OdrlContexts.Namespace;
 	foaf?: typeof FoafContexts.ContextRoot;
 } & IJsonLdContextDefinition;

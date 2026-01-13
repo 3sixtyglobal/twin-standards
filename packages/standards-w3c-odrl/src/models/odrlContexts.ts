@@ -14,7 +14,7 @@ export const OdrlContexts = {
 	/**
 	 * The namespace prefix for all terms in ODRL.
 	 */
-	OdrlNamespace: "http://www.w3.org/ns/odrl/2/",
+	Namespace: "http://www.w3.org/ns/odrl/2/",
 
 	/**
 	 * The context root for ODRL.

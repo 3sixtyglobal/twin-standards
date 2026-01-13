@@ -12,9 +12,9 @@ The LD Contexts concerning Activity Streams.
 
 The Activity Streams LD Context.
 
-### ActivityStreamsNamespace
+### Namespace
 
-> `readonly` **ActivityStreamsNamespace**: `"https://www.w3.org/ns/activitystreams#"` = `"https://www.w3.org/ns/activitystreams#"`
+> `readonly` **Namespace**: `"https://www.w3.org/ns/activitystreams#"` = `"https://www.w3.org/ns/activitystreams#"`
 
 The Activity Streams namespace.
 

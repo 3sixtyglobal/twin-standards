@@ -53,7 +53,7 @@ describe("Dataspace Protocol", () => {
 		const dataset: IDcatDataset = {
 			"@context": {
 				dcat: DcatContexts.ContextRoot,
-				odrl: OdrlContexts.OdrlNamespace,
+				odrl: OdrlContexts.Namespace,
 				dcterms: DublinCoreContexts.ContextTerms
 			},
 			"@id": "dataset:dataset1",
@@ -141,11 +141,11 @@ describe("Dataspace Protocol", () => {
 			const catalog: IDcatCatalog = {
 				"@context": {
 					dcat: DcatContexts.ContextRoot,
-					odrl: OdrlContexts.OdrlNamespace,
+					odrl: OdrlContexts.Namespace,
 					dcterms: DublinCoreContexts.ContextTerms,
 					// We need this otherwise the compaction process would not work well for participantId
 					participantId: {
-						"@id": `${DataspaceProtocolContexts.DspNamespace}participantId`,
+						"@id": `${DataspaceProtocolContexts.Namespace}participantId`,
 						"@type": "@id"
 					}
 				},
@@ -169,7 +169,7 @@ describe("Dataspace Protocol", () => {
 			const distribution: IDcatDistribution = {
 				"@context": {
 					dcat: DcatContexts.ContextRoot,
-					odrl: OdrlContexts.OdrlNamespace,
+					odrl: OdrlContexts.Namespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@id": "distribution:d1",
@@ -336,7 +336,7 @@ describe("Dataspace Protocol", () => {
 			// Response (simulated)
 			const dataset: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.DcatNamespace,
+					dcat: DcatContexts.Namespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",
@@ -345,7 +345,7 @@ describe("Dataspace Protocol", () => {
 
 			const response: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.DcatNamespace,
+					dcat: DcatContexts.Namespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Catalog",
@@ -371,7 +371,7 @@ describe("Dataspace Protocol", () => {
 			// Response
 			const response: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.DcatNamespace,
+					dcat: DcatContexts.Namespace,
 					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",

@@ -1547,7 +1547,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const type of testTypes) {
-			const typeKey = `${OdrlContexts.OdrlNamespace}${type}`;
+			const typeKey = `${OdrlContexts.Namespace}${type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1591,7 +1591,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const testCase of testCases) {
-			const typeKey = `${OdrlContexts.OdrlNamespace}${testCase.type}`;
+			const typeKey = `${OdrlContexts.Namespace}${testCase.type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1616,7 +1616,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const type of testTypes) {
-			const typeKey = `${OdrlContexts.OdrlNamespace}${type}`;
+			const typeKey = `${OdrlContexts.Namespace}${type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();
@@ -1645,7 +1645,7 @@ describe("OdrlDataTypes Validation", () => {
 		];
 
 		for (const testCase of testCases) {
-			const typeKey = `${OdrlContexts.OdrlNamespace}${testCase.type}`;
+			const typeKey = `${OdrlContexts.Namespace}${testCase.type}`;
 			const handler = DataTypeHandlerFactory.get(typeKey);
 
 			expect(handler).toBeDefined();

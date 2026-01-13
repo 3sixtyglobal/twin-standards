@@ -23,81 +23,81 @@ export class TransferProcessDataTypes {
 	 */
 	public static registerTypes(): void {
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.DataAddress}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.DataAddress}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.DataAddress,
 				jsonSchema: async () => DataAddress as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.EndpointProperty}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.EndpointProperty}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.EndpointProperty,
 				jsonSchema: async () => EndpointProperty as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferCompletionMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferCompletionMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferCompletionMessage,
 				jsonSchema: async () => TransferCompletionMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferError}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferError}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferError,
 				jsonSchema: async () => TransferError as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferProcess}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferProcess}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferProcess,
 				jsonSchema: async () => TransferProcess as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferRequestMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferRequestMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferRequestMessage,
 				jsonSchema: async () => TransferRequestMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferStartMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferStartMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferStartMessage,
 				jsonSchema: async () => TransferStartMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferSuspensionMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferSuspensionMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferSuspensionMessage,
 				jsonSchema: async () => TransferSuspensionMessage as IJsonSchema
 			})
 		);
 
 		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.DspNamespace}${DataspaceProtocolTransferProcessTypes.TransferTerminationMessage}`,
+			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolTransferProcessTypes.TransferTerminationMessage}`,
 			() => ({
-				context: DataspaceProtocolContexts.DspNamespace,
+				context: DataspaceProtocolContexts.Namespace,
 				type: DataspaceProtocolTransferProcessTypes.TransferTerminationMessage,
 				jsonSchema: async () => TransferTerminationMessage as IJsonSchema
 			})

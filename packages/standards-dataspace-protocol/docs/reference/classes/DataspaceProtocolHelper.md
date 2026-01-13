@@ -39,3 +39,25 @@ the Validation failures obtained during the conformance checking.
 `Promise`\<`boolean`\>
 
 true or false depending whether the object is conformant or not
+
+***
+
+### normalize()
+
+> `static` **normalize**(`object`): `Promise`\<`IJsonLdNodeObject`\>
+
+Normalizes the input object making it compliant with the DS Protocol specifications.
+
+#### Parameters
+
+##### object
+
+`IJsonLdNodeObject`
+
+The input object.
+
+#### Returns
+
+`Promise`\<`IJsonLdNodeObject`\>
+
+The input object normalized.

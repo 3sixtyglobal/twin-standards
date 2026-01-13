@@ -79,7 +79,6 @@ export abstract class DataspaceProtocolHelper {
 	 * Normalizes the input object making it compliant with the DS Protocol specifications.
 	 * @param object The input object.
 	 * @returns The input object normalized.
-	 * @internal
 	 */
 	public static async normalize(object: IJsonLdNodeObject): Promise<IJsonLdNodeObject> {
 		const annotatedObject = DataspaceProtocolHelper.annotateLDContextForFormat(object);

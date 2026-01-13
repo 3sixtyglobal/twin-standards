@@ -12,9 +12,9 @@ The contexts for ODRL.
 
 The LD Context URL
 
-### OdrlNamespace
+### Namespace
 
-> `readonly` **OdrlNamespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
+> `readonly` **Namespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
 
 The namespace prefix for all terms in ODRL.
 

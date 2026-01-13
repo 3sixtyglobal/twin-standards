@@ -14,7 +14,7 @@ export const ActivityStreamsContexts = {
 	/**
 	 * The Activity Streams namespace.
 	 */
-	ActivityStreamsNamespace: "https://www.w3.org/ns/activitystreams#",
+	Namespace: "https://www.w3.org/ns/activitystreams#",
 
 	/**
 	 * The TWIN context for Activity Streams.

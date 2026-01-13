@@ -12,9 +12,9 @@ The contexts for Dataspace Protocol Protocol.
 
 The context root for Dataspace Protocol Protocol.
 
-### DspNamespace
+### Namespace
 
-> `readonly` **DspNamespace**: `"https://w3id.org/dspace/2025/1/"` = `"https://w3id.org/dspace/2025/1/"`
+> `readonly` **Namespace**: `"https://w3id.org/dspace/2025/1/"` = `"https://w3id.org/dspace/2025/1/"`
 
 The namespace.
 

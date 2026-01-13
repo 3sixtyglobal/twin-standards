@@ -14,7 +14,7 @@ export const DataspaceProtocolContexts = {
 	/**
 	 * The namespace.
 	 */
-	DspNamespace: "https://w3id.org/dspace/2025/1/",
+	Namespace: "https://w3id.org/dspace/2025/1/",
 
 	/**
 	 * The context redirect for Dataspace Protocol Protocol.

@@ -12,9 +12,9 @@ DCAT (Data Catalog Vocabulary) namespace contexts.
 
 The context root for DCAT vocabulary.
 
-### DcatNamespace
+### Namespace
 
-> `readonly` **DcatNamespace**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
+> `readonly` **Namespace**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
 
 The namespace for DCAT terms
 

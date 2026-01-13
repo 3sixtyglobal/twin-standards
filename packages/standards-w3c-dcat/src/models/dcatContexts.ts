@@ -15,7 +15,7 @@ export const DcatContexts = {
 	/**
 	 * The namespace for DCAT terms
 	 */
-	DcatNamespace: "http://www.w3.org/ns/dcat#",
+	Namespace: "http://www.w3.org/ns/dcat#",
 
 	/**
 	 * The redirect URL for the DCAT context, used for JSON-LD processing.
