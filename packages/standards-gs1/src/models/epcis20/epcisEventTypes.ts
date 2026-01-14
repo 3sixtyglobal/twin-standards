@@ -2,37 +2,37 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * EPCIS 2.0 event types.
+ * EPCIS 2.0 event type identifiers used in EPCIS JSON and XML documents.
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const EpcisEventTypes = {
 	/**
-	 * ObjectEvent.
+	 * Event that observes one or more instance- or class-level objects.
 	 */
 	ObjectEvent: "ObjectEvent",
 
 	/**
-	 * Aggregation Event.
+	 * Event recording child objects aggregated under a parent identifier.
 	 */
 	AggregationEvent: "AggregationEvent",
 
 	/**
-	 * Association Event.
+	 * Event recording parent/child associations without implying containment.
 	 */
 	AssociationEvent: "AssociationEvent",
 
 	/**
-	 * Transformation Event.
+	 * Event recording how inputs are transformed into outputs.
 	 */
 	TransformationEvent: "TransformationEvent",
 
 	/**
-	 * Transaction Event.
+	 * Event linking objects or quantities to business transactions.
 	 */
 	TransactionEvent: "TransactionEvent"
 } as const;
 
 /**
- * EPCIS 2.0 event types.
+ * EPCIS 2.0 event type identifiers used in EPCIS JSON and XML documents.
  */
 export type EpcisEventTypes = (typeof EpcisEventTypes)[keyof typeof EpcisEventTypes];

@@ -1,14 +1,30 @@
 # Interface: IEpcisQueryDocument
 
-EPCIS Query Document.
+EPCIS 2.0 QueryDocument used to submit queries to an EPCIS repository.
+
+## See
+
+https://ref.gs1.org/epcis/EPCISQueryDocument
+
+## Extends
+
+- `IJsonLdNodeObject`
+
+## Indexable
+
+\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
 
 ## Properties
 
 ### @context
 
-> **@context**: `IJsonLdContextDefinition`
+> **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
 The @context.
+
+#### Overrides
+
+`IJsonLdNodeObject.@context`
 
 ***
 
@@ -22,7 +38,7 @@ The JSON-LD document id.
 
 ### type
 
-> **type**: `string`
+> **type**: `"EPCISQueryDocument"`
 
 JSON-LD Type.
 
@@ -46,36 +62,6 @@ Creation Date.
 
 ### epcisBody
 
-> **epcisBody**: `object`
+> **epcisBody**: [`IEpcisQueryDocumentBody`](IEpcisQueryDocumentBody.md)
 
 The EPCIS Body.
-
-#### queryResults
-
-> **queryResults**: `object`
-
-The results of the query.
-
-##### queryResults.subscriptionID?
-
-> `optional` **subscriptionID**: `string`
-
-The concerned subscription.
-
-##### queryResults.queryName
-
-> **queryName**: `string`
-
-The concerned query.
-
-##### queryResults.resultsBody
-
-> **resultsBody**: `object`
-
-And now the results.
-
-##### queryResults.resultsBody.eventList
-
-> **eventList**: [`IEpcisEvent`](IEpcisEvent.md)[]
-
-The list of events.

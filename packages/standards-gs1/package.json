@@ -14,8 +14,10 @@
 		"node": ">=20.0.0"
 	},
 	"scripts": {
-		"clean": "rimraf dist coverage docs/reference",
-		"build": "tspc",
+		"clean": "rimraf dist coverage docs/reference src/schemas",
+		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas",
+		"build:compile": "tspc",
+		"build": "npm run build:schema && npm run build:compile",
 		"dev": "nodemon --watch src --ext ts --exec \"npm run build\"",
 		"test": "vitest --run --config ./vitest.config.ts --no-cache",
 		"test:build": "tspc -p ./tests/tsconfig.json --noEmit",
@@ -37,6 +39,7 @@
 	"devDependencies": {
 		"@twin.org/nameof-transformer": "next",
 		"@twin.org/nameof-vitest-plugin": "next",
+		"@twin.org/ts-to-schema": "next",
 		"@twin.org/validate-locales": "next",
 		"@vitest/coverage-v8": "4.0.8",
 		"copyfiles": "2.4.1",

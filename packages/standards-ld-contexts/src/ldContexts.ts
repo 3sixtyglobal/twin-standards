@@ -7,6 +7,7 @@ import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json
 import dcTerms from "./ldContexts/dublin-core-terms.json" with { type: "json" };
 import foaf from "./ldContexts/foaf.json" with { type: "json" };
 import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json" with { type: "json" };
+import gs1epcis from "./ldContexts/gs1-epcis.json" with { type: "json" };
 import odrlDataspaceProtocol from "./ldContexts/odrl-dataspace-protocol.json" with { type: "json" };
 import schemaOrg from "./ldContexts/schema.org.json" with { type: "json" };
 import unCefact from "./ldContexts/un-cefact-vocab.json" with { type: "json" };
@@ -74,7 +75,11 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	// W3C RDF
 	"https://schema.twindev.org/w3c-rdf/": w3cRdf,
 	"https://schema.twindev.org/w3c-rdf/types.jsonld": w3cRdf,
-	"http://www.w3.org/2000/01/rdf-schema#": w3cRdf
+	"http://www.w3.org/2000/01/rdf-schema#": w3cRdf,
+
+	// GS1 EPCIS
+	"https://ref.gs1.org/epcis/": gs1epcis,
+	"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld": gs1epcis
 };
 
 /**

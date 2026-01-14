@@ -1,27 +1,18 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdContextDefinition } from "@twin.org/data-json-ld";
-import type { IDestination } from "./IEpcisDestination.js";
-import type { ISource } from "./IEpcisSource.js";
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { EpcisContextType } from "./epcisContextType.js";
+import type { IEpcisErrorDeclaration } from "./IEpcisErrorDeclaration.js";
 
 /**
- * EPCIS Event.
+ * Base EPCIS 2.0 Event carrying shared fields across all event types.
+ * @see https://ref.gs1.org/epcis/Event
  */
-export interface IEpcisEvent {
+export interface IEpcisEvent extends IJsonLdNodeObject {
 	/**
 	 * JSON-LD @context.
 	 */
-	"@context"?: IJsonLdContextDefinition;
-
-	/**
-	 * UUID of the event.
-	 */
-	id?: string;
-
-	/**
-	 * The id of the event. Marked here as optional as we usually won't store it on Tangle.
-	 */
-	eventID?: string;
+	"@context": EpcisContextType;
 
 	/**
 	 * Type of Event.
@@ -29,27 +20,36 @@ export interface IEpcisEvent {
 	type: string;
 
 	/**
-	 * Timestamp in UTC.
+	 * URI identifier of a specific EPCIS event (alias of id in JSON or XML).
+	 */
+	eventID?: string;
+
+	/**
+	 * (Optional) CertificationDetails relevant for Objects, Places and/or
+	 * Organizations mentioned in this Event.
+	 */
+	certificationInfo?: string | string[];
+
+	/**
+	 * Error declaration.
+	 */
+	errorDeclaration?: IEpcisErrorDeclaration;
+
+	/**
+	 * The date and time at which the EPCIS Capturing Applications asserts the event
+	 * occurred.
 	 */
 	eventTime: string;
 
 	/**
-	 * Timezone offset. Useful if we want to represent timestamp in local timezone.
+	 * The time zone offset in effect at the time and place the event occurred,
+	 * expressed as an offset from UTC.
 	 */
 	eventTimeZoneOffset: string;
 
 	/**
-	 * When the event was recorded. It will be automatically generated.
+	 * (Optional) The date and time at which this event was recorded by an EPCIS
+	 * Repository; ignored at capture and present on query results.
 	 */
 	recordTime?: string;
-
-	/**
-	 * Source list. Semantics according to EPCIS standard.
-	 */
-	sourceList?: ISource[];
-
-	/**
-	 * Destination list. Semantics according to EPCIS standard.
-	 */
-	destinationList?: IDestination[];
 }

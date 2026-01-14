@@ -1,17 +1,25 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { EpcisSourceDestTypes } from "./epcisSourceDestTypes.js";
 
 /**
- * EPCIS Destination.
+ * EPCIS 2.0 Destination element identifying the terminating endpoint of a
+ * business transfer.
+ * @see https://ref.gs1.org/epcis/SourceOrDestination
  */
-export interface IDestination {
+export interface IEpcisDestination extends IJsonLdNodeObject {
 	/**
-	 * Type.
+	 * Identifier indicating the role of SourceOrDestination in a transfer (Owning
+	 * Party, Possessing Party, or Location).
+	 *
+	 * Use {@link EpcisSourceDestTypes} for known values.
 	 */
-	type: string;
+	type: EpcisSourceDestTypes | string;
 
 	/**
-	 * The destination.
+	 * Identifier that denotes the specific source or destination of a business
+	 * transfer; must correlate with the selected type.
 	 */
 	destination: string;
 }

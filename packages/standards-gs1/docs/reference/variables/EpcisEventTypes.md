@@ -2,7 +2,7 @@
 
 > `const` **EpcisEventTypes**: `object`
 
-EPCIS 2.0 event types.
+EPCIS 2.0 event type identifiers used in EPCIS JSON and XML documents.
 
 ## Type Declaration
 
@@ -10,28 +10,28 @@ EPCIS 2.0 event types.
 
 > `readonly` **ObjectEvent**: `"ObjectEvent"` = `"ObjectEvent"`
 
-ObjectEvent.
+Event that observes one or more instance- or class-level objects.
 
 ### AggregationEvent
 
 > `readonly` **AggregationEvent**: `"AggregationEvent"` = `"AggregationEvent"`
 
-Aggregation Event.
+Event recording child objects aggregated under a parent identifier.
 
 ### AssociationEvent
 
 > `readonly` **AssociationEvent**: `"AssociationEvent"` = `"AssociationEvent"`
 
-Association Event.
+Event recording parent/child associations without implying containment.
 
 ### TransformationEvent
 
 > `readonly` **TransformationEvent**: `"TransformationEvent"` = `"TransformationEvent"`
 
-Transformation Event.
+Event recording how inputs are transformed into outputs.
 
 ### TransactionEvent
 
 > `readonly` **TransactionEvent**: `"TransactionEvent"` = `"TransactionEvent"`
 
-Transaction Event.
+Event linking objects or quantities to business transactions.

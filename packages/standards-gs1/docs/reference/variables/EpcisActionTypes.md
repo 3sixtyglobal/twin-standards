@@ -2,7 +2,8 @@
 
 > `const` **EpcisActionTypes**: `object`
 
-EPCIS 2.0 action types.
+GS1 EPCIS 2.0 action values capturing whether an event adds, observes, or
+removes associations.
 
 ## Type Declaration
 
@@ -10,16 +11,18 @@ EPCIS 2.0 action types.
 
 > `readonly` **Add**: `"ADD"` = `"ADD"`
 
-ADD action.
+Indicates that associations described by the event are created as of
+eventTime.
 
 ### Observe
 
 > `readonly` **Observe**: `"OBSERVE"` = `"OBSERVE"`
 
-OBSERVE action.
+Reports an observation of existing associations without changing them.
 
 ### Delete
 
 > `readonly` **Delete**: `"DELETE"` = `"DELETE"`
 
-DELETE action.
+Indicates that associations described by the event no longer hold as of
+eventTime.

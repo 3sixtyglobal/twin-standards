@@ -1,16 +1,19 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdContextDefinition } from "@twin.org/data-json-ld";
-import type { IEpcisEvent } from "./IEpcisEvent.js";
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { EpcisContextType } from "./epcisContextType.js";
+import type { EpcisTypes } from "./epcisTypes.js";
+import type { IEpcisQueryDocumentBody } from "./IEpcisQueryDocumentBody.js";
 
 /**
- * EPCIS Query Document.
+ * EPCIS 2.0 QueryDocument used to submit queries to an EPCIS repository.
+ * @see https://ref.gs1.org/epcis/EPCISQueryDocument
  */
-export interface IEpcisQueryDocument {
+export interface IEpcisQueryDocument extends IJsonLdNodeObject {
 	/**
 	 * The @context.
 	 */
-	"@context": IJsonLdContextDefinition;
+	"@context": EpcisContextType;
 
 	/**
 	 * The JSON-LD document id.
@@ -20,12 +23,13 @@ export interface IEpcisQueryDocument {
 	/**
 	 * JSON-LD Type.
 	 */
-	type: string;
+	type: typeof EpcisTypes.EPCISQueryDocument;
 
 	/**
 	 * Schema version.
 	 */
 	schemaVersion?: string;
+
 	/**
 	 * Creation Date.
 	 */
@@ -34,28 +38,5 @@ export interface IEpcisQueryDocument {
 	/**
 	 * The EPCIS Body.
 	 */
-	epcisBody: {
-		/**
-		 * The results of the query.
-		 */
-		queryResults: {
-			/**
-			 * The concerned subscription.
-			 */
-			subscriptionID?: string;
-			/**
-			 * The concerned query.
-			 */
-			queryName: string;
-			/**
-			 * And now the results.
-			 */
-			resultsBody: {
-				/**
-				 * The list of events.
-				 */
-				eventList: IEpcisEvent[];
-			};
-		};
-	};
+	epcisBody: IEpcisQueryDocumentBody;
 }
