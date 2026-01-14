@@ -97,6 +97,7 @@ export abstract class DataspaceProtocolHelper {
 	 * Ensures format property has a proper LD Context.
 	 * @param object The object.
 	 * @returns a copy of the object annotated with the proper LD Context.
+	 * @internal
 	 */
 	private static annotateLDContextForFormat(object: IJsonLdNodeObject): IJsonLdNodeObject {
 		const result = ObjectHelper.clone<IJsonLdNodeObject>(object);
