@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.12](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.11...standards-dataspace-protocol-v0.0.3-next.12) (2026-01-14)
+
+
+### Bug Fixes
+
+* omit context for dcat objects in dspace protocol ([#104](https://github.com/twinfoundation/standards/issues/104)) ([05004d4](https://github.com/twinfoundation/standards/commit/05004d40734a1e87473cb99c67e6c1c217cdf0c0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.11 to 0.0.3-next.12
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.11 to 0.0.3-next.12
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.11 to 0.0.3-next.12
+
 ## [0.0.3-next.11](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.10...standards-dataspace-protocol-v0.0.3-next.11) (2026-01-14)
 
 
