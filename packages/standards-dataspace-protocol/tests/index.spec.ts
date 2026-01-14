@@ -1,7 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { ArrayHelper, ObjectHelper, type IValidationFailure } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
 import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
 import {
@@ -470,6 +470,60 @@ describe("Dataspace Protocol", () => {
 			const parsed = JSON.parse(json);
 			expect(parsed.state).toBe("COMPLETED");
 			expect(typeof parsed.state).toBe("string");
+		});
+	});
+
+	describe("Redirect Regex Bug Verification", () => {
+		// This test verifies a bug in registerRedirects() where the regex pattern is too broad.
+		// The regex new RegExp("https://w3id.org/dspace/2025/1/") matches ALL URLs under the namespace,
+		// including odrl-profile.jsonld which should NOT be redirected.
+
+		beforeEach(() => {
+			// Clear redirects before each test to ensure isolation
+			JsonLdProcessor.setRedirects([]);
+		});
+
+		afterEach(() => {
+			// Clean up redirects after each test
+			JsonLdProcessor.setRedirects([]);
+		});
+
+		test("registerRedirects regex correctly matches only exact namespace URL (bug fixed)", () => {
+			// Register redirects to get the actual regex pattern used
+			DataspaceProtocolDataTypes.registerRedirects();
+			const redirects = JsonLdProcessor.getRedirects();
+			expect(redirects.length).toBe(1);
+			const regex = redirects[0].from;
+
+			// URLs that should be matched (intended behavior)
+			const namespaceUrl = DataspaceProtocolContexts.Namespace;
+			expect(regex.test(namespaceUrl)).toBe(true);
+
+			// URLs that should NOT be matched (bug fixed - these should not match)
+			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
+			const contextJsonldUrl = "https://w3id.org/dspace/2025/1/context.jsonld";
+
+			// After the fix, the regex should NOT match sub-paths
+			expect(regex.test(odrlProfileUrl)).toBe(false);
+			expect(regex.test(contextJsonldUrl)).toBe(false);
+		});
+
+		test("redirect does NOT apply to odrl-profile URL when registered (bug fixed)", () => {
+			// Register redirects (beforeEach already cleared them)
+			DataspaceProtocolDataTypes.registerRedirects();
+
+			const redirects = JsonLdProcessor.getRedirects();
+			expect(redirects.length).toBe(1);
+
+			// The redirect should match the namespace exactly
+			const namespaceUrl = DataspaceProtocolContexts.Namespace;
+			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
+			const redirect = redirects[0];
+
+			// After the fix, the redirect should match the namespace but NOT sub-paths
+			expect(redirect.from.test(namespaceUrl)).toBe(true);
+			expect(redirect.from.test(odrlProfileUrl)).toBe(false);
+			expect(redirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
 		});
 	});
 });

@@ -14,8 +14,14 @@ export class DataspaceProtocolDataTypes {
 	 * Register the JSON-LD Redirects.
 	 */
 	public static registerRedirects(): void {
+		// Escape regex special characters and anchor to match exactly the namespace URL
+		// This prevents matching sub-paths like odrl-profile.jsonld or context.jsonld
+		const escapedNamespace = DataspaceProtocolContexts.Namespace.replace(
+			/[$()*+.?[\\\]^{|}]/g,
+			"\\$&"
+		);
 		JsonLdProcessor.addRedirect(
-			new RegExp(DataspaceProtocolContexts.Namespace),
+			new RegExp(`^${escapedNamespace}$`),
 			DataspaceProtocolContexts.JsonLdContext
 		);
 	}
