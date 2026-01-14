@@ -1,5 +1,13 @@
 # @twin.org/standards-gs1 - Changelog
 
+## [0.0.3-next.11](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.10...standards-gs1-v0.0.3-next.11) (2026-01-14)
+
+
+### Features
+
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* update epcis models to match spec ([#92](https://github.com/twinfoundation/standards/issues/92)) ([1e56f70](https://github.com/twinfoundation/standards/commit/1e56f70415a8612113a36ad65a6cc5abdd85e091))
+
 ## [0.0.3-next.10](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.9...standards-gs1-v0.0.3-next.10) (2026-01-13)
 
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.11](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.10...standards-dataspace-protocol-v0.0.3-next.11) (2026-01-14)
+
+
+### Features
+
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.10 to 0.0.3-next.11
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.10 to 0.0.3-next.11
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.10 to 0.0.3-next.11
+
 ## [0.0.3-next.10](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.9...standards-dataspace-protocol-v0.0.3-next.10) (2026-01-13)
 
 

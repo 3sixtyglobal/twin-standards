@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.3-next.11](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.10...standards-ld-contexts-v0.0.3-next.11) (2026-01-14)
+
+
+### Features
+
+* update epcis models to match spec ([#92](https://github.com/twinfoundation/standards/issues/92)) ([1e56f70](https://github.com/twinfoundation/standards/commit/1e56f70415a8612113a36ad65a6cc5abdd85e091))
+
 ## [0.0.3-next.10](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.9...standards-ld-contexts-v0.0.3-next.10) (2026-01-13)
 
 
