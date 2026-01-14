@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.13](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.12...standards-dataspace-protocol-v0.0.3-next.13) (2026-01-14)
+
+
+### Bug Fixes
+
+* adapting regex to fix the bad behavior ([#107](https://github.com/twinfoundation/standards/issues/107)) ([17ba814](https://github.com/twinfoundation/standards/commit/17ba8140b6356a1c4d5923c91a28a996f22af484))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.12 to 0.0.3-next.13
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.12 to 0.0.3-next.13
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.12 to 0.0.3-next.13
+
 ## [0.0.3-next.12](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.11...standards-dataspace-protocol-v0.0.3-next.12) (2026-01-14)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.13](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.12...standards-w3c-activity-streams-v0.0.3-next.13) (2026-01-14)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-activity-streams:** Synchronize repo versions
+
 ## [0.0.3-next.12](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.11...standards-w3c-activity-streams-v0.0.3-next.12) (2026-01-14)
 
 
