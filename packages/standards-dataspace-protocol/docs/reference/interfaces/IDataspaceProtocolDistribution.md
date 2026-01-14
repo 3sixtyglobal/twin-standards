@@ -70,7 +70,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### hasPolicy?
 
-> `optional` **hasPolicy**: `ObjectOrArray`\<`IOdrlOffer`\>
+> `optional` **hasPolicy**: `ObjectOrArray`\<`Omit`\<`IOdrlOffer`, `"@context"`\>\>
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -83,7 +83,7 @@ allows for future multi-offer support.
 
 ### accessService
 
-> **accessService**: `string` \| [`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md)
+> **accessService**: `string` \| `Omit`\<[`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md), `"@context"`\>
 
 Access service.
 It can be a URI pointing to an access service or inline the access service itself

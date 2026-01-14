@@ -3,6 +3,7 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatDataService } from "@twin.org/standards-w3c-dcat";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
+import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
 
 /**
@@ -36,7 +37,7 @@ export interface IDataspaceProtocolDataService
 	 * The type identifier for the Data Service.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	"@type": "DataService";
+	"@type": typeof DataspaceProtocolCatalogTypes.DataService;
 
 	/**
 	 * Unique identifier for the dataset.
@@ -52,5 +53,5 @@ export interface IDataspaceProtocolDataService
 	/**
 	 * Datasets served.
 	 */
-	servesDataset?: ObjectOrArray<IDataspaceProtocolDataset>;
+	servesDataset?: ObjectOrArray<Omit<IDataspaceProtocolDataset, "@context">>;
 }

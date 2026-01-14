@@ -4,6 +4,7 @@ import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatDataset } from "@twin.org/standards-w3c-dcat";
 import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
+import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
 
 /**
@@ -47,7 +48,7 @@ export interface IDataspaceProtocolDataset
 	 * The type identifier for the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	"@type": "Dataset";
+	"@type": typeof DataspaceProtocolCatalogTypes.Dataset;
 
 	/**
 	 * Unique identifier for the dataset.
@@ -63,11 +64,11 @@ export interface IDataspaceProtocolDataset
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy: ObjectOrArray<IOdrlOffer>;
+	hasPolicy: ObjectOrArray<Omit<IOdrlOffer, "@context">>;
 
 	/**
 	 * Distribution of the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	distribution: ObjectOrArray<IDataspaceProtocolDistribution>;
+	distribution: ObjectOrArray<Omit<IDataspaceProtocolDistribution, "@context">>;
 }

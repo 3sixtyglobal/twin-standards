@@ -4,6 +4,7 @@ import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatDistribution } from "@twin.org/standards-w3c-dcat";
 import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
+import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
 
 /**
@@ -46,7 +47,7 @@ export interface IDataspaceProtocolDistribution
 	 * The type identifier for the Distribution.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	"@type": "Distribution";
+	"@type": typeof DataspaceProtocolCatalogTypes.Distribution;
 
 	/**
 	 * Unique identifier for the dataset.
@@ -62,13 +63,13 @@ export interface IDataspaceProtocolDistribution
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy?: ObjectOrArray<IOdrlOffer>;
+	hasPolicy?: ObjectOrArray<Omit<IOdrlOffer, "@context">>;
 
 	/**
 	 * Access service.
 	 * It can be a URI pointing to an access service or inline the access service itself
 	 */
-	accessService: string | IDataspaceProtocolDataService;
+	accessService: string | Omit<IDataspaceProtocolDataService, "@context">;
 
 	/**
 	 * Distribution format.

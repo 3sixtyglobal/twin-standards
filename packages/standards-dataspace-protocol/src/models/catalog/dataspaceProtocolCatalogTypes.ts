@@ -20,7 +20,27 @@ export const DataspaceProtocolCatalogTypes = {
 	/**
 	 * Catalog Error.
 	 */
-	CatalogError: "CatalogError"
+	CatalogError: "CatalogError",
+
+	/**
+	 * Dataset.
+	 */
+	Dataset: "Dataset",
+
+	/**
+	 * Data Service.
+	 */
+	DataService: "DataService",
+
+	/**
+	 * Distribution.
+	 */
+	Distribution: "Distribution",
+
+	/**
+	 * Catalog.
+	 */
+	Catalog: "Catalog"
 } as const;
 
 /**

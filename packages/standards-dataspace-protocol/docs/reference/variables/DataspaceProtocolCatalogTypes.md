@@ -24,3 +24,27 @@ Dataset Request Message.
 > `readonly` **CatalogError**: `"CatalogError"` = `"CatalogError"`
 
 Catalog Error.
+
+### Dataset
+
+> `readonly` **Dataset**: `"Dataset"` = `"Dataset"`
+
+Dataset.
+
+### DataService
+
+> `readonly` **DataService**: `"DataService"` = `"DataService"`
+
+Data Service.
+
+### Distribution
+
+> `readonly` **Distribution**: `"Distribution"` = `"Distribution"`
+
+Distribution.
+
+### Catalog
+
+> `readonly` **Catalog**: `"Catalog"` = `"Catalog"`
+
+Catalog.

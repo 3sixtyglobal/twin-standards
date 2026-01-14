@@ -3,6 +3,7 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatCatalog } from "@twin.org/standards-w3c-dcat";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
+import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
 import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
 import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
@@ -41,7 +42,7 @@ export interface IDataspaceProtocolCatalog
 	 * The type identifier for the Catalog.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	"@type": "Catalog";
+	"@type": typeof DataspaceProtocolCatalogTypes.Catalog;
 
 	/**
 	 * Unique identifier for the dataset.
@@ -57,20 +58,20 @@ export interface IDataspaceProtocolCatalog
 	/**
 	 * Other concerned catalogs
 	 */
-	catalog?: ObjectOrArray<IDataspaceProtocolCatalog>;
+	catalog?: ObjectOrArray<Omit<IDataspaceProtocolCatalog, "@context">>;
 
 	/**
 	 * Datasets registered
 	 */
-	dataset?: ObjectOrArray<IDataspaceProtocolDataset>;
+	dataset?: ObjectOrArray<Omit<IDataspaceProtocolDataset, "@context">>;
 
 	/**
 	 * Catalog's distributions
 	 */
-	distribution?: ObjectOrArray<IDataspaceProtocolDistribution>;
+	distribution?: ObjectOrArray<Omit<IDataspaceProtocolDistribution, "@context">>;
 
 	/**
 	 * Data services registered-
 	 */
-	service?: ObjectOrArray<IDataspaceProtocolDataService>;
+	service?: ObjectOrArray<Omit<IDataspaceProtocolDataService, "@context">>;
 }
