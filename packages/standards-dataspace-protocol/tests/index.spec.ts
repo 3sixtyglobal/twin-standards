@@ -32,10 +32,7 @@ describe("Dataspace Protocol", () => {
 
 	describe("Catalog Protocol - Contexts", () => {
 		test("should have correct context URLs", () => {
-			expect(DataspaceProtocolContexts.ContextRoot).toContain(
-				"https://w3id.org/dspace/2025/1/context.json"
-			);
-			expect(DataspaceProtocolContexts.ContextRedirect).toBe(
+			expect(DataspaceProtocolContexts.JsonLdContext).toBe(
 				"https://w3id.org/dspace/2025/1/context.jsonld"
 			);
 		});
@@ -52,9 +49,9 @@ describe("Dataspace Protocol", () => {
 	describe("Catalog Protocol - Ds Protocol specific validations", () => {
 		const dataset: IDcatDataset = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
+				dcat: DcatContexts.Namespace,
 				odrl: OdrlContexts.Namespace,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "dataset:dataset1",
 			"@type": "dcat:Dataset",
@@ -66,7 +63,7 @@ describe("Dataspace Protocol", () => {
 				}
 			],
 			"odrl:hasPolicy": {
-				"@context": OdrlContexts.ContextRoot,
+				"@context": OdrlContexts.JsonLdContext,
 				"@type": "Offer",
 				uid: "policy:policy1",
 				permission: [
@@ -81,8 +78,8 @@ describe("Dataspace Protocol", () => {
 
 		const dataService: IDcatDataService = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "dataservice:ds1",
 			"@type": "dcat:DataService",
@@ -90,7 +87,7 @@ describe("Dataspace Protocol", () => {
 		};
 
 		const transferRequest: IJsonLdNodeObject = {
-			"@context": [DataspaceProtocolContexts.ContextRoot],
+			"@context": [DataspaceProtocolContexts.JsonLdContext],
 			"@type": "TransferRequestMessage",
 			agreementId: "agreement:agreement1",
 			consumerPid: "consumer:consumerPid",
@@ -100,9 +97,9 @@ describe("Dataspace Protocol", () => {
 
 		const datasetAsDsProtocol: IJsonLdNodeObject = {
 			"@context": [
-				DataspaceProtocolContexts.ContextRoot,
+				DataspaceProtocolContexts.JsonLdContext,
 				{
-					dcterms: DublinCoreContexts.ContextTerms
+					dcterms: DublinCoreContexts.NamespaceTerms
 				}
 			],
 			"@id": "dataset:dataset2",
@@ -140,9 +137,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Catalog as per the DS Protocol", async () => {
 			const catalog: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.ContextRoot,
+					dcat: DcatContexts.Namespace,
 					odrl: OdrlContexts.Namespace,
-					dcterms: DublinCoreContexts.ContextTerms,
+					dcterms: DublinCoreContexts.NamespaceTerms,
 					// We need this otherwise the compaction process would not work well for participantId
 					participantId: {
 						"@id": `${DataspaceProtocolContexts.Namespace}participantId`,
@@ -168,9 +165,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Distribution as per the DS Protocol", async () => {
 			const distribution: IDcatDistribution = {
 				"@context": {
-					dcat: DcatContexts.ContextRoot,
+					dcat: DcatContexts.Namespace,
 					odrl: OdrlContexts.Namespace,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@id": "distribution:d1",
 				"@type": "dcat:Distribution",
@@ -266,26 +263,26 @@ describe("Dataspace Protocol", () => {
 
 	describe("Catalog Protocol - Request Messages", () => {
 		test("should create valid catalog request message with filter", () => {
-			const filterEelement = { category: "test" };
+			const filterElement = { category: "test" };
 			const message: IDataspaceProtocolCatalogRequestMessage = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.CatalogRequestMessage,
-				filter: [filterEelement]
+				filter: [filterElement]
 			};
 
-			expect(message["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(message["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
 			expect(message["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogRequestMessage);
-			expect(message.filter).toContain(filterEelement);
+			expect(message.filter).toContain(filterElement);
 		});
 
 		test("should create valid dataset request message", () => {
 			const message: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "dataset-123"
 			};
 
-			expect(message["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(message["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
 			expect(message["@type"]).toBe(DataspaceProtocolCatalogTypes.DatasetRequestMessage);
 			expect(message.dataset).toBe("dataset-123");
 		});
@@ -294,12 +291,12 @@ describe("Dataspace Protocol", () => {
 	describe("Catalog Protocol - Error Messages", () => {
 		test("should create valid catalog error without reasons", () => {
 			const error: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "NOT_FOUND"
 			};
 
-			expect(error["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(error["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
 			expect(error["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogError);
 			expect(error.code).toBe("NOT_FOUND");
 			expect(error.reason).toBeUndefined();
@@ -307,13 +304,13 @@ describe("Dataspace Protocol", () => {
 
 		test("should create valid catalog error with reasons", () => {
 			const error: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "VALIDATION_ERROR",
 				reason: ["Invalid filter format", "Missing required field"]
 			};
 
-			expect(error["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(error["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
 			expect(error["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogError);
 			expect(error.code).toBe("VALIDATION_ERROR");
 			expect(error.reason).toHaveLength(2);
@@ -326,7 +323,7 @@ describe("Dataspace Protocol", () => {
 			const filterEelement = { category: "sensors" };
 			// Request
 			const request: IDataspaceProtocolCatalogRequestMessage = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.CatalogRequestMessage,
 				filter: [filterEelement]
 			};
@@ -337,7 +334,7 @@ describe("Dataspace Protocol", () => {
 			const dataset: IDcatDataset = {
 				"@context": {
 					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "sensor:sensor-dataset-1"
@@ -346,7 +343,7 @@ describe("Dataspace Protocol", () => {
 			const response: IDcatCatalog = {
 				"@context": {
 					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Catalog",
 				"@id": "catalog:catalog-response",
@@ -361,7 +358,7 @@ describe("Dataspace Protocol", () => {
 		test("should demonstrate dataset request and response flow", () => {
 			// Request
 			const request: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "dataset:dataset-456"
 			};
@@ -372,7 +369,7 @@ describe("Dataspace Protocol", () => {
 			const response: IDcatDataset = {
 				"@context": {
 					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "dataset:dataset-456",
@@ -385,14 +382,14 @@ describe("Dataspace Protocol", () => {
 
 		test("should demonstrate error response flow", () => {
 			const request: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "non-existent-dataset"
 			};
 
 			// Error response
 			const errorResponse: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "DATASET_NOT_FOUND",
 				reason: [`Dataset '${request.dataset}' does not exist in the catalog`]
@@ -406,14 +403,14 @@ describe("Dataspace Protocol", () => {
 	describe("Transfer Protocol - Transfer Process Messages", () => {
 		test("should create valid Transfer Process with REQUESTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": "dspace:TransferProcess",
 				consumerPid: "consumer:pid-123",
 				providerPid: "provider:pid-456",
 				state: DataspaceProtocolTransferProcessStateType.REQUESTED
 			};
 
-			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.ContextRoot);
+			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
 			expect(transferProcess["@type"]).toBe("dspace:TransferProcess");
 			expect(transferProcess.consumerPid).toBe("consumer:pid-123");
 			expect(transferProcess.providerPid).toBe("provider:pid-456");
@@ -422,7 +419,7 @@ describe("Dataspace Protocol", () => {
 
 		test("should create valid Transfer Process with STARTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": "dspace:TransferProcess",
 				consumerPid: "consumer:pid-789",
 				providerPid: "provider:pid-012",
@@ -443,7 +440,7 @@ describe("Dataspace Protocol", () => {
 
 			states.forEach(state => {
 				const transferProcess: IDataspaceProtocolTransferProcess = {
-					"@context": [DataspaceProtocolContexts.ContextRoot],
+					"@context": [DataspaceProtocolContexts.JsonLdContext],
 					"@type": "dspace:TransferProcess",
 					consumerPid: "consumer:pid",
 					providerPid: "provider:pid",
@@ -457,7 +454,7 @@ describe("Dataspace Protocol", () => {
 
 		test("should demonstrate Transfer Process state as string value", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.ContextRoot],
+				"@context": [DataspaceProtocolContexts.JsonLdContext],
 				"@type": "dspace:TransferProcess",
 				consumerPid: "consumer:pid-test",
 				providerPid: "provider:pid-test",

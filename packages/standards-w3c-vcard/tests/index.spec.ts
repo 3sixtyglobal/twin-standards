@@ -4,7 +4,7 @@ import { VCardContexts, VCardPropertyType } from "../src/index.js";
 
 describe("VCard", () => {
 	it("should have correct context", () => {
-		expect(VCardContexts.ContextRoot).toBe("http://www.w3.org/2006/vcard/ns#");
+		expect(VCardContexts.Namespace).toBe("http://www.w3.org/2006/vcard/ns#");
 	});
 
 	it("should have correct property types", () => {

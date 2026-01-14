@@ -16,9 +16,9 @@ export class Gs1DataTypes {
 	 */
 	public static registerTypes(): void {
 		DataTypeHandlerFactory.register(
-			`${GS1Contexts.ContextRoot}${Gs1Types.LocationMasterData}`,
+			`${GS1Contexts.Namespace}${Gs1Types.LocationMasterData}`,
 			() => ({
-				context: GS1Contexts.ContextRoot,
+				namespace: GS1Contexts.Namespace,
 				type: Gs1Types.LocationMasterData,
 				defaultValue: {},
 				validate: async (propertyName, value, failures, container) =>

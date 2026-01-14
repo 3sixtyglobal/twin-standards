@@ -12,9 +12,9 @@ export const EpcisContexts = {
 	Namespace: "https://ref.gs1.org/epcis/",
 
 	/**
-	 * The JSON-LD context.
+	 * The JSON-LD Context URL.
 	 */
-	Context: "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"
+	JsonLdContext: "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"
 } as const;
 
 /**

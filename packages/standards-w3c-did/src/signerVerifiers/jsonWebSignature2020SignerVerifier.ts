@@ -53,7 +53,7 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 
 		unsecuredDocumentClone["@context"] = JsonLdProcessor.combineContexts(
 			unsecuredDocumentClone["@context"],
-			DidContexts.ContextSecurityJws2020
+			DidContexts.NamespaceSecurityJws2020
 		);
 
 		const hash = await this.createHash(unsecuredDocument, unsignedProof);
@@ -142,7 +142,7 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 
 		unsecuredDocumentClone["@context"] = JsonLdProcessor.combineContexts(
 			unsecuredDocumentClone["@context"],
-			DidContexts.ContextSecurityJws2020
+			DidContexts.NamespaceSecurityJws2020
 		);
 
 		proofOptionsClone["@context"] = unsecuredDocumentClone[

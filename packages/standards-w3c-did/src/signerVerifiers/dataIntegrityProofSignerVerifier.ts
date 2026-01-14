@@ -64,7 +64,7 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 
 		unsecuredDocumentClone["@context"] = JsonLdProcessor.combineContexts(
 			unsecuredDocumentClone["@context"],
-			DidContexts.ContextDataIntegrity
+			DidContexts.NamespaceDataIntegrity
 		);
 
 		signedProof["@context"] = unsecuredDocumentClone["@context"] as IDataIntegrityProof["@context"];
@@ -170,7 +170,7 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 
 		unsecuredDocumentClone["@context"] = JsonLdProcessor.combineContexts(
 			unsecuredDocumentClone["@context"],
-			DidContexts.ContextDataIntegrity
+			DidContexts.NamespaceDataIntegrity
 		);
 
 		proofOptionsClone["@context"] = unsecuredDocumentClone[

@@ -2,12 +2,12 @@
 
 > `const` **GaiaXContexts**: `object`
 
-The LD Contexts concerning Gaia-X.
+The Contexts concerning Gaia-X.
 
 ## Type Declaration
 
-### ContextRoot
+### Namespace
 
-> `readonly` **ContextRoot**: `"https://schema.twindev.org/gaia-x-loire/"` = `"https://schema.twindev.org/gaia-x-loire/"`
+> `readonly` **Namespace**: `"https://schema.twindev.org/gaia-x-loire/"` = `"https://schema.twindev.org/gaia-x-loire/"`
 
-The Gaia-X LD Context
+The Gaia-X Namespace

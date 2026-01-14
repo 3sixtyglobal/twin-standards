@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 import { GeneralError, Is, ObjectHelper, type IValidationFailure } from "@twin.org/core";
-import { DataTypeHandlerFactory, JsonSchemaHelper } from "@twin.org/data-core";
+import { DataTypeHelper, JsonSchemaHelper } from "@twin.org/data-core";
 import {
 	JsonLdHelper,
 	JsonLdProcessor,
-	type IJsonLdNodeObject,
-	type IJsonLdContextDefinitionRoot
+	type IJsonLdContextDefinitionRoot,
+	type IJsonLdNodeObject
 } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import { DcatContexts } from "@twin.org/standards-w3c-dcat";
@@ -35,7 +35,7 @@ export abstract class DataspaceProtocolHelper {
 	): Promise<boolean> {
 		let result = false;
 
-		const dcatPrefix = DcatContexts.ContextRoot;
+		const dcatPrefix = DcatContexts.Namespace;
 
 		const objectTypes = await JsonLdHelper.getType(object);
 
@@ -43,32 +43,29 @@ export abstract class DataspaceProtocolHelper {
 			let dataTypeIdentifier = type;
 			if (type.startsWith(dcatPrefix)) {
 				const nonQualifiedType = `dcat:${type.replace(dcatPrefix, "")}`;
-				dataTypeIdentifier = `${DataspaceProtocolContexts.ContextRoot}#${nonQualifiedType}`;
+				dataTypeIdentifier = `${DataspaceProtocolContexts.Namespace}${nonQualifiedType}`;
 			}
 
-			const schemaHandler = DataTypeHandlerFactory.getIfExists(dataTypeIdentifier);
-			if (schemaHandler?.jsonSchema) {
-				const schema = await schemaHandler.jsonSchema();
-				if (!schema) {
-					throw new GeneralError(DataspaceProtocolHelper.CLASS_NAME, "schemaNotRegistered", {
-						schemaId: dataTypeIdentifier
-					});
-				}
+			const schema = await DataTypeHelper.getSchemaForType(dataTypeIdentifier);
+			if (!schema) {
+				throw new GeneralError(DataspaceProtocolHelper.CLASS_NAME, "schemaNotRegistered", {
+					schemaId: dataTypeIdentifier
+				});
+			}
 
-				const validationResult = await JsonSchemaHelper.validate(
-					schema,
-					await DataspaceProtocolHelper.normalize(object)
-				);
-				result = validationResult.result;
+			const validationResult = await JsonSchemaHelper.validate(
+				schema,
+				await DataspaceProtocolHelper.normalize(object)
+			);
+			result = validationResult.result;
 
-				if (!result && Is.array(validationResult.error)) {
-					for (const aError of validationResult.error) {
-						const validationFailure: IValidationFailure = {
-							property: aError.instancePath,
-							reason: aError.message as string
-						};
-						validationFailures.push(validationFailure);
-					}
+			if (!result && Is.array(validationResult.error)) {
+				for (const aError of validationResult.error) {
+					const validationFailure: IValidationFailure = {
+						property: aError.instancePath,
+						reason: aError.message as string
+					};
+					validationFailures.push(validationFailure);
 				}
 			}
 		}
@@ -84,7 +81,7 @@ export abstract class DataspaceProtocolHelper {
 		const annotatedObject = DataspaceProtocolHelper.annotateLDContextForFormat(object);
 
 		const compactedObject = await JsonLdProcessor.compact(annotatedObject, [
-			DataspaceProtocolContexts.ContextRoot
+			DataspaceProtocolContexts.JsonLdContext
 		]);
 
 		if (!Is.array(compactedObject["@context"])) {

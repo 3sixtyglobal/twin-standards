@@ -6,8 +6,8 @@ The contexts of GS1.
 
 ## Type Declaration
 
-### ContextRoot
+### Namespace
 
-> `readonly` **ContextRoot**: `"https://gs1.org/voc/"` = `"https://gs1.org/voc/"`
+> `readonly` **Namespace**: `"https://gs1.org/voc/"` = `"https://gs1.org/voc/"`
 
-The context root for the GS1 types.
+The namespace for the GS1 types.

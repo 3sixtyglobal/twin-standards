@@ -2,17 +2,17 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * The LD Contexts concerning Gaia-X.
+ * The Contexts concerning Gaia-X.
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const GaiaXContexts = {
 	/**
-	 * The Gaia-X LD Context
+	 * The Gaia-X Namespace
 	 */
-	ContextRoot: "https://schema.twindev.org/gaia-x-loire/"
+	Namespace: "https://schema.twindev.org/gaia-x-loire/"
 } as const;
 
 /**
- * The LD Contexts concerning Gaia-X.
+ * The Contexts concerning Gaia-X.
  */
 export type GaiaXContexts = (typeof GaiaXContexts)[keyof typeof GaiaXContexts];

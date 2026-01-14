@@ -16,31 +16,28 @@ export class SchemaOrgDataTypes {
 	 * Register the JSON-LD Redirects.
 	 */
 	public static registerRedirects(): void {
-		JsonLdProcessor.addRedirect(/https?:\/\/schema.org\/?/, SchemaOrgContexts.ContextRedirect);
+		JsonLdProcessor.addRedirect(/https?:\/\/schema.org\/?/, SchemaOrgContexts.JsonLdContext);
 	}
 
 	/**
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Text}`,
-			() => ({
-				context: SchemaOrgContexts.ContextRoot,
-				type: SchemaOrgTypes.Text,
-				defaultValue: "",
-				jsonSchema: async () => ({
-					type: "string"
-				}),
-				validate: async (propertyName, value, failures, container) =>
-					Validation.string(propertyName, value, failures)
-			})
-		);
+		DataTypeHandlerFactory.register(`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Text}`, () => ({
+			namespace: SchemaOrgContexts.Namespace,
+			type: SchemaOrgTypes.Text,
+			defaultValue: "",
+			jsonSchema: async () => ({
+				type: "string"
+			}),
+			validate: async (propertyName, value, failures, container) =>
+				Validation.string(propertyName, value, failures)
+		}));
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Integer}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Integer}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.Integer,
 				defaultValue: 0,
 				jsonSchema: async () => ({
@@ -52,9 +49,9 @@ export class SchemaOrgDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Float}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Float}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.Float,
 				defaultValue: 0,
 				jsonSchema: async () => ({
@@ -66,9 +63,9 @@ export class SchemaOrgDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Boolean}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Boolean}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.Boolean,
 				defaultValue: true,
 				jsonSchema: async () => ({
@@ -79,40 +76,34 @@ export class SchemaOrgDataTypes {
 			})
 		);
 
-		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.URL}`,
-			() => ({
-				context: SchemaOrgContexts.ContextRoot,
-				type: SchemaOrgTypes.URL,
-				defaultValue: "",
-				jsonSchema: async () => ({
-					type: "string",
-					format: "uri"
-				}),
-				validate: async (propertyName, value, failures, container) =>
-					Url.validate(propertyName, value, failures)
-			})
-		);
+		DataTypeHandlerFactory.register(`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.URL}`, () => ({
+			namespace: SchemaOrgContexts.Namespace,
+			type: SchemaOrgTypes.URL,
+			defaultValue: "",
+			jsonSchema: async () => ({
+				type: "string",
+				format: "uri"
+			}),
+			validate: async (propertyName, value, failures, container) =>
+				Url.validate(propertyName, value, failures)
+		}));
+
+		DataTypeHandlerFactory.register(`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Date}`, () => ({
+			namespace: SchemaOrgContexts.Namespace,
+			type: SchemaOrgTypes.Date,
+			defaultValue: new Date(),
+			jsonSchema: async () => ({
+				type: "string",
+				format: "date"
+			}),
+			validate: async (propertyName, value, failures, container) =>
+				Validation.dateString(propertyName, value, failures)
+		}));
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Date}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.DateTime}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
-				type: SchemaOrgTypes.Date,
-				defaultValue: new Date(),
-				jsonSchema: async () => ({
-					type: "string",
-					format: "date"
-				}),
-				validate: async (propertyName, value, failures, container) =>
-					Validation.dateString(propertyName, value, failures)
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.DateTime}`,
-			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.DateTime,
 				defaultValue: new Date(),
 				jsonSchema: async () => ({
@@ -124,25 +115,22 @@ export class SchemaOrgDataTypes {
 			})
 		);
 
-		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Time}`,
-			() => ({
-				context: SchemaOrgContexts.ContextRoot,
-				type: SchemaOrgTypes.Time,
-				defaultValue: new Date(),
-				jsonSchema: async () => ({
-					type: "string",
-					format: "time"
-				}),
-				validate: async (propertyName, value, failures, container) =>
-					Validation.timeString(propertyName, value, failures)
-			})
-		);
+		DataTypeHandlerFactory.register(`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Time}`, () => ({
+			namespace: SchemaOrgContexts.Namespace,
+			type: SchemaOrgTypes.Time,
+			defaultValue: new Date(),
+			jsonSchema: async () => ({
+				type: "string",
+				format: "time"
+			}),
+			validate: async (propertyName, value, failures, container) =>
+				Validation.timeString(propertyName, value, failures)
+		}));
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.Image}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.Image}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.Image,
 				defaultValue: "",
 				jsonSchema: async () => ({
@@ -155,9 +143,9 @@ export class SchemaOrgDataTypes {
 		);
 
 		DataTypeHandlerFactory.register(
-			`${SchemaOrgContexts.ContextRoot}${SchemaOrgTypes.GeoCoordinates}`,
+			`${SchemaOrgContexts.Namespace}${SchemaOrgTypes.GeoCoordinates}`,
 			() => ({
-				context: SchemaOrgContexts.ContextRoot,
+				namespace: SchemaOrgContexts.Namespace,
 				type: SchemaOrgTypes.GeoCoordinates,
 				defaultValue: { longitude: 0, latitude: 0 },
 				jsonSchema: async () => GeoCoordinatesSchema as IJsonSchema,

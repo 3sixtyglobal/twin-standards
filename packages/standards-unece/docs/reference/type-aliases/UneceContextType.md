@@ -1,5 +1,5 @@
 # Type Alias: UneceContextType
 
-> **UneceContextType** = *typeof* [`ContextRoot`](../variables/UneceContexts.md#contextroot) \| \[*typeof* [`ContextRoot`](../variables/UneceContexts.md#contextroot), `...IJsonLdContextDefinitionElement[]`\]
+> **UneceContextType** = *typeof* [`Namespace`](../variables/UneceContexts.md#namespace) \| \[*typeof* [`Namespace`](../variables/UneceContexts.md#namespace), `...IJsonLdContextDefinitionElement[]`\]
 
 The UNECE JSON-LD context type.

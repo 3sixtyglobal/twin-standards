@@ -7,9 +7,9 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const GS1Contexts = {
 	/**
-	 * The context root for the GS1 types.
+	 * The namespace for the GS1 types.
 	 */
-	ContextRoot: "https://gs1.org/voc/"
+	Namespace: "https://gs1.org/voc/"
 } as const;
 
 /**

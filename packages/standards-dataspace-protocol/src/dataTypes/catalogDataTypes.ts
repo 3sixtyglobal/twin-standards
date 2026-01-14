@@ -1,17 +1,16 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonSchema } from "@twin.org/data-core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
+import { DataTypeHelper } from "@twin.org/data-core";
 import { DcatClasses, DcatContexts } from "@twin.org/standards-w3c-dcat";
 import { DataspaceProtocolCatalogTypes } from "../models/catalog/dataspaceProtocolCatalogTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
-import DsProtocolCatalog from "../schemas/DataspaceProtocolCatalog.json" with { type: "json" };
-import CatalogError from "../schemas/DataspaceProtocolCatalogError.json" with { type: "json" };
-import CatalogRequestMessage from "../schemas/DataspaceProtocolCatalogRequestMessage.json" with { type: "json" };
-import DsProtocolDataset from "../schemas/DataspaceProtocolDataset.json" with { type: "json" };
-import DatasetRequestMessage from "../schemas/DataspaceProtocolDatasetRequestMessage.json" with { type: "json" };
-import DsProtocolDataService from "../schemas-src/DataspaceProtocolDataService.json" with { type: "json" };
-import DsProtocolDistribution from "../schemas-src/DataspaceProtocolDistribution.json" with { type: "json" };
+import DsProtocolCatalogSchema from "../schemas/DataspaceProtocolCatalog.json" with { type: "json" };
+import CatalogErrorSchema from "../schemas/DataspaceProtocolCatalogError.json" with { type: "json" };
+import CatalogRequestMessageSchema from "../schemas/DataspaceProtocolCatalogRequestMessage.json" with { type: "json" };
+import DsProtocolDatasetSchema from "../schemas/DataspaceProtocolDataset.json" with { type: "json" };
+import DatasetRequestMessageSchema from "../schemas/DataspaceProtocolDatasetRequestMessage.json" with { type: "json" };
+import DsProtocolDataServiceSchema from "../schemas-src/DataspaceProtocolDataService.json" with { type: "json" };
+import DsProtocolDistributionSchema from "../schemas-src/DataspaceProtocolDistribution.json" with { type: "json" };
 
 /**
  * Handle all the catalog data types for Dataspace Protocol.
@@ -21,68 +20,54 @@ export class CatalogDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.CatalogRequestMessage}`,
-			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+		const types = [
+			{
 				type: DataspaceProtocolCatalogTypes.CatalogRequestMessage,
-				jsonSchema: async () => CatalogRequestMessage as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.DatasetRequestMessage}`,
-			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				schema: CatalogRequestMessageSchema
+			},
+			{
 				type: DataspaceProtocolCatalogTypes.DatasetRequestMessage,
-				jsonSchema: async () => DatasetRequestMessage as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.Namespace}${DataspaceProtocolCatalogTypes.CatalogError}`,
-			() => ({
-				context: DataspaceProtocolContexts.ContextRoot,
+				schema: DatasetRequestMessageSchema
+			},
+			{
 				type: DataspaceProtocolCatalogTypes.CatalogError,
-				jsonSchema: async () => CatalogError as IJsonSchema
-			})
+				schema: CatalogErrorSchema
+			}
+		];
+
+		DataTypeHelper.registerTypes(
+			DataspaceProtocolContexts.Namespace,
+			DataspaceProtocolContexts.JsonLdContext,
+			types
 		);
 
 		// This is just for schema registration as Dataset is a DCAT type
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}#${DcatClasses.Dataset}`,
-			() => ({
-				context: DcatContexts.ContextRoot,
-				type: DcatClasses.Dataset,
-				jsonSchema: async () => DsProtocolDataset as IJsonSchema
-			})
+		DataTypeHelper.registerType(
+			DataspaceProtocolContexts.Namespace,
+			DcatClasses.Dataset,
+			DcatContexts.JsonLdContext,
+			DsProtocolDatasetSchema
 		);
 
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}#${DcatClasses.Catalog}`,
-			() => ({
-				context: DcatContexts.ContextRoot,
-				type: DcatClasses.Catalog,
-				jsonSchema: async () => DsProtocolCatalog as IJsonSchema
-			})
+		DataTypeHelper.registerType(
+			DataspaceProtocolContexts.Namespace,
+			DcatClasses.Catalog,
+			DcatContexts.JsonLdContext,
+			DsProtocolCatalogSchema
 		);
 
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}#${DcatClasses.Distribution}`,
-			() => ({
-				context: DcatContexts.ContextRoot,
-				type: DcatClasses.Distribution,
-				jsonSchema: async () => DsProtocolDistribution as IJsonSchema
-			})
+		DataTypeHelper.registerType(
+			DataspaceProtocolContexts.Namespace,
+			DcatClasses.Distribution,
+			DcatContexts.JsonLdContext,
+			DsProtocolDistributionSchema
 		);
 
-		DataTypeHandlerFactory.register(
-			`${DataspaceProtocolContexts.ContextRoot}#${DcatClasses.DataService}`,
-			() => ({
-				context: DcatContexts.ContextRoot,
-				type: DcatClasses.DataService,
-				jsonSchema: async () => DsProtocolDataService as IJsonSchema
-			})
+		DataTypeHelper.registerType(
+			DataspaceProtocolContexts.Namespace,
+			DcatClasses.DataService,
+			DcatContexts.JsonLdContext,
+			DsProtocolDataServiceSchema
 		);
 	}
 }

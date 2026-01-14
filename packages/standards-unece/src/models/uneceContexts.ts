@@ -7,14 +7,14 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const UneceContexts = {
 	/**
-	 * Context Root.
+	 * Namespace.
 	 */
-	ContextRoot: "https://vocabulary.uncefact.org/",
+	Namespace: "https://vocabulary.uncefact.org/",
 
 	/**
-	 * The UNECE namespace.
+	 * The JSON-LD Context URL.
 	 */
-	ContextRedirect: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld"
+	JsonLdContext: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld"
 } as const;
 
 /**

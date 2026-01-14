@@ -125,7 +125,7 @@ export class ProofHelper {
 		let proof: IProof | undefined;
 		if (proofType === ProofTypes.DataIntegrityProof) {
 			proof = {
-				"@context": DidContexts.ContextDataIntegrity,
+				"@context": DidContexts.NamespaceDataIntegrity,
 				type: ProofTypes.DataIntegrityProof,
 				cryptosuite: DidCryptoSuites.EdDSAJcs2022,
 				created: new Date(Date.now()).toISOString(),
@@ -135,7 +135,7 @@ export class ProofHelper {
 			};
 		} else if (proofType === ProofTypes.JsonWebSignature2020) {
 			proof = {
-				"@context": DidContexts.ContextSecurityJws2020,
+				"@context": DidContexts.NamespaceSecurityJws2020,
 				type: ProofTypes.JsonWebSignature2020,
 				created: new Date(Date.now()).toISOString(),
 				verificationMethod: verificationMethodId,

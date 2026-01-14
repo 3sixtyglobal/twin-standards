@@ -1,7 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonSchema } from "@twin.org/data-core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
+import { DataTypeHelper } from "@twin.org/data-core";
 import { GaiaXContexts } from "../models/gaiaXContexts.js";
 import { GaiaXTypes } from "../models/gaiaXTypes.js";
 import AddressSchema from "../schemas/Address.json" with { type: "json" };
@@ -20,61 +19,37 @@ export class GaiaXDataTypes {
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.DataExchangeComponent}`,
-			() => ({
-				context: GaiaXContexts.ContextRoot,
+		const types = [
+			{
 				type: GaiaXTypes.DataExchangeComponent,
-				jsonSchema: async () => DataExchangeComponentSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.DataResource}`,
-			() => ({
-				context: GaiaXContexts.ContextRoot,
+				schema: DataExchangeComponentSchema
+			},
+			{
 				type: GaiaXTypes.DataResource,
-				jsonSchema: async () => DataResourceSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(`${GaiaXContexts.ContextRoot}${GaiaXTypes.Endpoint}`, () => ({
-			context: GaiaXContexts.ContextRoot,
-			type: GaiaXTypes.Endpoint,
-			jsonSchema: async () => EndpointSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${GaiaXContexts.ContextRoot}${GaiaXTypes.Address}`, () => ({
-			context: GaiaXContexts.ContextRoot,
-			type: GaiaXTypes.Address,
-			jsonSchema: async () => AddressSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.ServiceOffering}`,
-			() => ({
-				context: GaiaXContexts.ContextRoot,
+				schema: DataResourceSchema
+			},
+			{
+				type: GaiaXTypes.Endpoint,
+				schema: EndpointSchema
+			},
+			{
+				type: GaiaXTypes.Address,
+				schema: AddressSchema
+			},
+			{
 				type: GaiaXTypes.ServiceOffering,
-				jsonSchema: async () => ServiceOfferingSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.LegalPerson}`,
-			() => ({
-				context: GaiaXContexts.ContextRoot,
+				schema: ServiceOfferingSchema
+			},
+			{
 				type: GaiaXTypes.LegalPerson,
-				jsonSchema: async () => LegalPersonSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${GaiaXContexts.ContextRoot}${GaiaXTypes.RegistrationNumber}`,
-			() => ({
-				context: GaiaXContexts.ContextRoot,
+				schema: LegalPersonSchema
+			},
+			{
 				type: GaiaXTypes.RegistrationNumber,
-				jsonSchema: async () => RegistrationNumberSchema as IJsonSchema
-			})
-		);
+				schema: RegistrationNumberSchema
+			}
+		];
+
+		DataTypeHelper.registerTypes(GaiaXContexts.Namespace, undefined, types);
 	}
 }

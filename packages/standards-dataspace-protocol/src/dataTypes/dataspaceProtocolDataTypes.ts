@@ -15,8 +15,8 @@ export class DataspaceProtocolDataTypes {
 	 */
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(
-			new RegExp(DataspaceProtocolContexts.ContextRoot),
-			DataspaceProtocolContexts.ContextRedirect
+			new RegExp(DataspaceProtocolContexts.Namespace),
+			DataspaceProtocolContexts.JsonLdContext
 		);
 	}
 

@@ -7,19 +7,14 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolContexts = {
 	/**
-	 * The context root for Dataspace Protocol Protocol.
+	 * The JSON-LD Context URL.
 	 */
-	ContextRoot: "https://w3id.org/dspace/2025/1/context.jsonld",
+	JsonLdContext: "https://w3id.org/dspace/2025/1/context.jsonld",
 
 	/**
 	 * The namespace.
 	 */
-	Namespace: "https://w3id.org/dspace/2025/1/",
-
-	/**
-	 * The context redirect for Dataspace Protocol Protocol.
-	 */
-	ContextRedirect: "https://w3id.org/dspace/2025/1/context.jsonld"
+	Namespace: "https://w3id.org/dspace/2025/1/"
 } as const;
 
 /**

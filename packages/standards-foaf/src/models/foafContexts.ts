@@ -7,19 +7,14 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const FoafContexts = {
 	/**
-	 * The FOAF LD Context.
+	 * The FOAF Namespace.
 	 */
-	ContextRoot: "https://xmlns.com/foaf/0.1/",
+	Namespace: "https://xmlns.com/foaf/0.1/",
 
 	/**
-	 * The TWIN context for FOAF.
+	 * The JSON-LD Context URL.
 	 */
-	TwinContext: "https://schema.twindev.org/foaf/",
-
-	/**
-	 * The TWIN context redirect for JSON-LD.
-	 */
-	ContextRedirect: "https://schema.twindev.org/foaf/types.jsonld"
+	JsonLdContext: "https://schema.twindev.org/foaf/types.jsonld"
 } as const;
 
 /**

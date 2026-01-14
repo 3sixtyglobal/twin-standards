@@ -5,19 +5,11 @@ import { DcatClasses, DcatContexts, DcatDataTypes, DcatRelationshipType } from "
 describe("DCAT", () => {
 	describe("Contexts", () => {
 		it("should have correct DCAT context root URL", () => {
-			expect(DcatContexts.ContextRoot).toBe("http://www.w3.org/ns/dcat#");
+			expect(DcatContexts.Namespace).toBe("http://www.w3.org/ns/dcat#");
 		});
 
 		it("should have correct redirect URL", () => {
-			expect(DcatContexts.ContextRedirect).toBe("https://www.w3.org/ns/dcat.jsonld");
-		});
-
-		it("should have correct SPDX context URL", () => {
-			expect(DcatContexts.ContextSpdx).toBe("http://spdx.org/rdf/terms#");
-		});
-
-		it("should have correct PROV context URL", () => {
-			expect(DcatContexts.ContextProv).toBe("http://www.w3.org/ns/prov#");
+			expect(DcatContexts.JsonLdContext).toBe("https://www.w3.org/ns/dcat.jsonld");
 		});
 	});
 

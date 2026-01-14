@@ -13,8 +13,8 @@ export interface IDidVerifiablePresentationV2 extends IDidVerifiablePresentation
 	 * The context for the verifiable presentation.
 	 */
 	"@context":
-		| typeof DidContexts.ContextVCv2
-		| [typeof DidContexts.ContextVCv2, ...IJsonLdContextDefinitionElement[]];
+		| typeof DidContexts.NamespaceVCv2
+		| [typeof DidContexts.NamespaceVCv2, ...IJsonLdContextDefinitionElement[]];
 
 	/**
 	 * The data for the verifiable credentials.

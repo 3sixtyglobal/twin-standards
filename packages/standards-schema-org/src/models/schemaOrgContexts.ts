@@ -9,12 +9,12 @@ export const SchemaOrgContexts = {
 	/**
 	 * Context Root.
 	 */
-	ContextRoot: "https://schema.org",
+	Namespace: "https://schema.org",
 
 	/**
-	 * The redirect for the JSON-LD definition.
+	 * The JSON-LD Context URL.
 	 */
-	ContextRedirect: "https://schema.org/docs/jsonldcontext.json"
+	JsonLdContext: "https://schema.org/docs/jsonldcontext.json"
 } as const;
 
 /**

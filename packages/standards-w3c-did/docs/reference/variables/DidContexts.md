@@ -6,50 +6,50 @@ The contexts for DIDs.
 
 ## Type Declaration
 
-### Context
+### Namespace
 
-> `readonly` **Context**: `"https://www.w3.org/ns/did/v1"` = `"https://www.w3.org/ns/did/v1"`
+> `readonly` **Namespace**: `"https://www.w3.org/ns/did/v1"` = `"https://www.w3.org/ns/did/v1"`
 
 The context root for DID.
 
-### ContextVCv1
+### NamespaceVCv1
 
-> `readonly` **ContextVCv1**: `"https://www.w3.org/2018/credentials/v1"` = `"https://www.w3.org/2018/credentials/v1"`
+> `readonly` **NamespaceVCv1**: `"https://www.w3.org/2018/credentials/v1"` = `"https://www.w3.org/2018/credentials/v1"`
 
 The context root for DID VC v1.
 
-### ContextVCv2
+### NamespaceVCv2
 
-> `readonly` **ContextVCv2**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
+> `readonly` **NamespaceVCv2**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
 
 The context root for DID VC v2.
 
-### ContextSecurityEd25519
+### NamespaceSecurityEd25519
 
-> `readonly` **ContextSecurityEd25519**: `"https://w3id.org/security/suites/ed25519-2020/v1"` = `"https://w3id.org/security/suites/ed25519-2020/v1"`
+> `readonly` **NamespaceSecurityEd25519**: `"https://w3id.org/security/suites/ed25519-2020/v1"` = `"https://w3id.org/security/suites/ed25519-2020/v1"`
 
 The context root for security ed25519 suites.
 
-### ContextSecurityJws2020
+### NamespaceSecurityJws2020
 
-> `readonly` **ContextSecurityJws2020**: `"https://w3id.org/security/suites/jws-2020/v1"` = `"https://w3id.org/security/suites/jws-2020/v1"`
+> `readonly` **NamespaceSecurityJws2020**: `"https://w3id.org/security/suites/jws-2020/v1"` = `"https://w3id.org/security/suites/jws-2020/v1"`
 
 The context root for security jws-2020 suites.
 
-### ContextDataIntegrity
+### NamespaceDataIntegrity
 
-> `readonly` **ContextDataIntegrity**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
-
-The context root for VC Data Integrity.
-
-### ContextControllerIdentifiers
-
-> `readonly` **ContextControllerIdentifiers**: `"https://www.w3.org/ns/cid/v1"` = `"https://www.w3.org/ns/cid/v1"`
+> `readonly` **NamespaceDataIntegrity**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
 
 The context root for VC Data Integrity.
 
-### ContextSecurityMultikey
+### NamespaceControllerIdentifiers
 
-> `readonly` **ContextSecurityMultikey**: `"https://w3id.org/security/multikey/v1"` = `"https://w3id.org/security/multikey/v1"`
+> `readonly` **NamespaceControllerIdentifiers**: `"https://www.w3.org/ns/cid/v1"` = `"https://www.w3.org/ns/cid/v1"`
+
+The context root for VC Data Integrity.
+
+### NamespaceSecurityMultikey
+
+> `readonly` **NamespaceSecurityMultikey**: `"https://w3id.org/security/multikey/v1"` = `"https://w3id.org/security/multikey/v1"`
 
 The context root for security multikey suites.

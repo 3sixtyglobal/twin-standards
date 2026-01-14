@@ -12,8 +12,8 @@ Canonical EPCIS JSON-LD context IRIs as defined by GS1.
 
 The namespace for the objects.
 
-### Context
+### JsonLdContext
 
-> `readonly` **Context**: `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"` = `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"`
+> `readonly` **JsonLdContext**: `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"` = `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"`
 
-The JSON-LD context.
+The JSON-LD Context URL.

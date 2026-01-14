@@ -14,8 +14,8 @@ export interface IDataIntegrityProof {
 	 * JSON-LD Context.
 	 */
 	"@context"?:
-		| typeof DidContexts.ContextDataIntegrity
-		| [typeof DidContexts.ContextDataIntegrity, ...IJsonLdContextDefinitionElement[]];
+		| typeof DidContexts.NamespaceDataIntegrity
+		| [typeof DidContexts.NamespaceDataIntegrity, ...IJsonLdContextDefinitionElement[]];
 
 	/**
 	 * JSON-LD Type.

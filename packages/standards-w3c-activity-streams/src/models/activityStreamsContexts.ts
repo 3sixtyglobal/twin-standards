@@ -7,19 +7,9 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const ActivityStreamsContexts = {
 	/**
-	 * The Activity Streams LD Context.
-	 */
-	ContextRoot: "https://www.w3.org/ns/activitystreams",
-
-	/**
 	 * The Activity Streams namespace.
 	 */
-	Namespace: "https://www.w3.org/ns/activitystreams#",
-
-	/**
-	 * The TWIN context for Activity Streams.
-	 */
-	TwinContext: "https://schema.twindev.org/w3c-activity-streams"
+	Namespace: "https://www.w3.org/ns/activitystreams"
 } as const;
 
 /**

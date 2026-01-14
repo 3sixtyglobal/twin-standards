@@ -7,15 +7,15 @@ import type { OdrlContexts } from "./odrlContexts.js";
  * The ODRL JSON-LD context type.
  */
 export type OdrlContextType =
-	| typeof OdrlContexts.ContextRoot
-	| [typeof OdrlContexts.ContextRoot]
+	| typeof OdrlContexts.JsonLdContext
+	| [typeof OdrlContexts.JsonLdContext]
 	| [
 			...IJsonLdContextDefinitionElement[],
-			typeof OdrlContexts.ContextRoot,
+			typeof OdrlContexts.JsonLdContext,
 			IJsonLdContextDefinitionElement
 	  ]
 	| [
 			IJsonLdContextDefinitionElement,
-			typeof OdrlContexts.ContextRoot,
+			typeof OdrlContexts.JsonLdContext,
 			...IJsonLdContextDefinitionElement[]
 	  ];

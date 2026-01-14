@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
+import { DataTypeHelper } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import type { JSONSchema7 } from "json-schema";
 import { EpcisContexts } from "../models/epcis20/epcisContexts.js";
 import { EpcisTypes } from "../models/epcis20/epcisTypes.js";
 import AggregationEventSchema from "../schemas/EpcisAggregationEvent.json" with { type: "json" };
@@ -21,72 +20,44 @@ export class EpcisDataTypes {
 	 * Register the JSON-LD Redirects.
 	 */
 	public static registerRedirects(): void {
-		JsonLdProcessor.addRedirect(/https?:\/\/ref.gs1.org\/epcis\/?/, EpcisContexts.Context);
+		JsonLdProcessor.addRedirect(/https?:\/\/ref.gs1.org\/epcis\/?/, EpcisContexts.JsonLdContext);
 	}
 
 	/**
 	 * Register all the data types.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.EPCISDocument}`,
-			() => ({
-				context: EpcisContexts.Context,
+		const types = [
+			{
 				type: EpcisTypes.EPCISDocument,
-				defaultValue: {},
-				jsonSchema: async () => DocumentSchema as JSONSchema7
-			})
-		);
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.EPCISQueryDocument}`,
-			() => ({
-				context: EpcisContexts.Context,
+				schema: DocumentSchema
+			},
+			{
 				type: EpcisTypes.EPCISQueryDocument,
-				defaultValue: {},
-				jsonSchema: async () => QueryDocumentSchema as JSONSchema7
-			})
-		);
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.AggregationEvent}`,
-			() => ({
-				context: EpcisContexts.Context,
+				schema: QueryDocumentSchema
+			},
+			{
 				type: EpcisTypes.AggregationEvent,
-				defaultValue: {},
-				jsonSchema: async () => AggregationEventSchema as JSONSchema7
-			})
-		);
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.AssociationEvent}`,
-			() => ({
-				context: EpcisContexts.Context,
+				schema: AggregationEventSchema
+			},
+			{
 				type: EpcisTypes.AssociationEvent,
-				defaultValue: {},
-				jsonSchema: async () => AssociationEventSchema as JSONSchema7
-			})
-		);
-		DataTypeHandlerFactory.register(`${EpcisContexts.Namespace}${EpcisTypes.ObjectEvent}`, () => ({
-			context: EpcisContexts.Context,
-			type: EpcisTypes.ObjectEvent,
-			defaultValue: {},
-			jsonSchema: async () => ObjectEventSchema as JSONSchema7
-		}));
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.TransactionEvent}`,
-			() => ({
-				context: EpcisContexts.Context,
+				schema: AssociationEventSchema
+			},
+			{
+				type: EpcisTypes.ObjectEvent,
+				schema: ObjectEventSchema
+			},
+			{
 				type: EpcisTypes.TransactionEvent,
-				defaultValue: {},
-				jsonSchema: async () => TransactionEventSchema as JSONSchema7
-			})
-		);
-		DataTypeHandlerFactory.register(
-			`${EpcisContexts.Namespace}${EpcisTypes.TransformationEvent}`,
-			() => ({
-				context: EpcisContexts.Context,
+				schema: TransactionEventSchema
+			},
+			{
 				type: EpcisTypes.TransformationEvent,
-				defaultValue: {},
-				jsonSchema: async () => TransformationEventSchema as JSONSchema7
-			})
-		);
+				schema: TransformationEventSchema
+			}
+		];
+
+		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.JsonLdContext, types);
 	}
 }

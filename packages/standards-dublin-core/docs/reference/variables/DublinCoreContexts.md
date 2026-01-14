@@ -6,9 +6,9 @@ The contexts for Dublin Core.
 
 ## Type Declaration
 
-### ContextTerms
+### NamespaceTerms
 
-> `readonly` **ContextTerms**: `"http://purl.org/dc/terms/"` = `"http://purl.org/dc/terms/"`
+> `readonly` **NamespaceTerms**: `"http://purl.org/dc/terms/"` = `"http://purl.org/dc/terms/"`
 
 The LD context for Dublin Core Terms vocabulary.
 
@@ -16,9 +16,9 @@ The LD context for Dublin Core Terms vocabulary.
 
 https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
 
-### ContextDcmiType
+### NamespaceDcmiType
 
-> `readonly` **ContextDcmiType**: `"http://purl.org/dc/dcmitype/"` = `"http://purl.org/dc/dcmitype/"`
+> `readonly` **NamespaceDcmiType**: `"http://purl.org/dc/dcmitype/"` = `"http://purl.org/dc/dcmitype/"`
 
 The LD context for Dublin Core DCMI Types vocabulary.
 
@@ -26,14 +26,14 @@ The LD context for Dublin Core DCMI Types vocabulary.
 
 https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
 
-### ContextTermsRedirect
+### JsonLdContextTerms
 
-> `readonly` **ContextTermsRedirect**: `"https://schema.twindev.org/dublin-core/terms.jsonld"` = `"https://schema.twindev.org/dublin-core/terms.jsonld"`
+> `readonly` **JsonLdContextTerms**: `"https://schema.twindev.org/dublin-core/terms.jsonld"` = `"https://schema.twindev.org/dublin-core/terms.jsonld"`
 
-Redirection URL for terms
+JSON-LD Context URL for terms
 
-### ContextDcmiTypeRedirect
+### JsonLdContextDcmiType
 
-> `readonly` **ContextDcmiTypeRedirect**: `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"` = `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"`
+> `readonly` **JsonLdContextDcmiType**: `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"` = `"https://schema.twindev.org/dublin-core/dcmitype.jsonld"`
 
-Redirection URLs
+JSON-LD Context URL for DCMI Types

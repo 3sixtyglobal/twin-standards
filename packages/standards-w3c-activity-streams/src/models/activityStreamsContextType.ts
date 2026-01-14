@@ -7,6 +7,6 @@ import type { ActivityStreamsContexts } from "./activityStreamsContexts.js";
  * The Activity Streams JSON-LD context type.
  */
 export type ActivityStreamsContextType =
-	| typeof ActivityStreamsContexts.ContextRoot
-	| [typeof ActivityStreamsContexts.ContextRoot]
-	| [...IJsonLdContextDefinitionElement[], typeof ActivityStreamsContexts.ContextRoot];
+	| typeof ActivityStreamsContexts.Namespace
+	| [typeof ActivityStreamsContexts.Namespace]
+	| [...IJsonLdContextDefinitionElement[], typeof ActivityStreamsContexts.Namespace];

@@ -6,14 +6,14 @@ The contexts of schema.org data.
 
 ## Type Declaration
 
-### ContextRoot
+### Namespace
 
-> `readonly` **ContextRoot**: `"https://schema.org"` = `"https://schema.org"`
+> `readonly` **Namespace**: `"https://schema.org"` = `"https://schema.org"`
 
 Context Root.
 
-### ContextRedirect
+### JsonLdContext
 
-> `readonly` **ContextRedirect**: `"https://schema.org/docs/jsonldcontext.json"` = `"https://schema.org/docs/jsonldcontext.json"`
+> `readonly` **JsonLdContext**: `"https://schema.org/docs/jsonldcontext.json"` = `"https://schema.org/docs/jsonldcontext.json"`
 
-The redirect for the JSON-LD definition.
+The JSON-LD Context URL.

@@ -35,10 +35,10 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatResource Interface", () => {
 		const resourceExample: IDcatResource = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms,
-				foaf: FoafContexts.ContextRoot,
-				vcard: VCardContexts.ContextRoot
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms,
+				foaf: FoafContexts.Namespace,
+				vcard: VCardContexts.Namespace
 			},
 			"@type": "dcat:Resource",
 			"dcterms:identifier": "res:20251118-0001",
@@ -72,7 +72,7 @@ describe("DCAT Interfaces and Schemas", () => {
 
 		it("should validate resource against schema", async () => {
 			const handler = DataTypeHandlerFactory.get(
-				`${DcatContexts.ContextRoot}${DcatClasses.Resource}`
+				`${DcatContexts.Namespace}${DcatClasses.Resource}`
 			);
 			expect(handler).toBeDefined();
 
@@ -95,10 +95,10 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatDataset Interface", () => {
 		const datasetExample: IDcatDataset = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms,
-				foaf: FoafContexts.ContextRoot,
-				vcard: VCardContexts.ContextRoot
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms,
+				foaf: FoafContexts.Namespace,
+				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/dataset/energy-stats",
 			"@type": "dcat:Dataset",
@@ -141,9 +141,7 @@ describe("DCAT Interfaces and Schemas", () => {
 		};
 
 		it("should validate dataset against schema", async () => {
-			const handler = DataTypeHandlerFactory.get(
-				`${DcatContexts.ContextRoot}${DcatClasses.Dataset}`
-			);
+			const handler = DataTypeHandlerFactory.get(`${DcatContexts.Namespace}${DcatClasses.Dataset}`);
 			expect(handler).toBeDefined();
 
 			if (handler?.jsonSchema) {
@@ -165,10 +163,10 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatCatalog Interface", () => {
 		const catalogExample: IDcatCatalog = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms,
-				foaf: FoafContexts.ContextRoot,
-				vcard: VCardContexts.ContextRoot
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms,
+				foaf: FoafContexts.Namespace,
+				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/catalog/national-energy",
 			"@type": "dcat:Catalog",
@@ -220,9 +218,7 @@ describe("DCAT Interfaces and Schemas", () => {
 		};
 
 		it("should validate catalog against schema", async () => {
-			const handler = DataTypeHandlerFactory.get(
-				`${DcatContexts.ContextRoot}${DcatClasses.Catalog}`
-			);
+			const handler = DataTypeHandlerFactory.get(`${DcatContexts.Namespace}${DcatClasses.Catalog}`);
 			expect(handler).toBeDefined();
 
 			if (handler?.jsonSchema) {
@@ -244,10 +240,10 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatDistribution Interface", () => {
 		const distributionExample: IDcatDistribution = {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms,
-				foaf: FoafContexts.ContextRoot,
-				vcard: VCardContexts.ContextRoot
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms,
+				foaf: FoafContexts.Namespace,
+				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/dataset/energy-stats/csv",
 			"@type": "dcat:Distribution",
@@ -262,7 +258,7 @@ describe("DCAT Interfaces and Schemas", () => {
 		};
 		it("should validate distribution against schema", async () => {
 			const handler = DataTypeHandlerFactory.get(
-				`${DcatContexts.ContextRoot}${DcatClasses.Distribution}`
+				`${DcatContexts.Namespace}${DcatClasses.Distribution}`
 			);
 			expect(handler).toBeDefined();
 
@@ -289,10 +285,10 @@ describe("DCAT Interfaces and Schemas", () => {
 describe("IDcatDataService Interface", () => {
 	const dataServiceExample: IDcatDataService = {
 		"@context": {
-			dcat: DcatContexts.ContextRoot,
-			dcterms: DublinCoreContexts.ContextTerms,
-			foaf: FoafContexts.ContextRoot,
-			vcard: VCardContexts.ContextRoot
+			dcat: DcatContexts.Namespace,
+			dcterms: DublinCoreContexts.NamespaceTerms,
+			foaf: FoafContexts.Namespace,
+			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/service/energy-api",
 		"@type": "dcat:DataService",
@@ -319,7 +315,7 @@ describe("IDcatDataService Interface", () => {
 
 	it("should validate data service against schema", async () => {
 		const handler = DataTypeHandlerFactory.get(
-			`${DcatContexts.ContextRoot}${DcatClasses.DataService}`
+			`${DcatContexts.Namespace}${DcatClasses.DataService}`
 		);
 		expect(handler).toBeDefined();
 
@@ -345,10 +341,10 @@ describe("IDcatDataService Interface", () => {
 describe("IDcatDatasetSeries Interface", () => {
 	const datasetSeriesExample: IDcatDatasetSeries = {
 		"@context": {
-			dcat: DcatContexts.ContextRoot,
-			dcterms: DublinCoreContexts.ContextTerms,
-			foaf: FoafContexts.ContextRoot,
-			vcard: VCardContexts.ContextRoot
+			dcat: DcatContexts.Namespace,
+			dcterms: DublinCoreContexts.NamespaceTerms,
+			foaf: FoafContexts.Namespace,
+			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/dataset-series/energy-stats",
 		"@type": "dcat:DatasetSeries",
@@ -398,7 +394,7 @@ describe("IDcatDatasetSeries Interface", () => {
 
 	it("should validate dataset series against schema", async () => {
 		const handler = DataTypeHandlerFactory.get(
-			`${DcatContexts.ContextRoot}${DcatClasses.DatasetSeries}`
+			`${DcatContexts.Namespace}${DcatClasses.DatasetSeries}`
 		);
 		expect(handler).toBeDefined();
 
@@ -424,10 +420,10 @@ describe("IDcatDatasetSeries Interface", () => {
 describe("IDcatCatalogRecord Interface", () => {
 	const catalogRecordExample: IDcatCatalogRecord = {
 		"@context": {
-			dcat: DcatContexts.ContextRoot,
-			dcterms: DublinCoreContexts.ContextTerms,
-			foaf: FoafContexts.ContextRoot,
-			vcard: VCardContexts.ContextRoot
+			dcat: DcatContexts.Namespace,
+			dcterms: DublinCoreContexts.NamespaceTerms,
+			foaf: FoafContexts.Namespace,
+			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/catalog/energy/record/energy-stats-2025",
 		"@type": "dcat:CatalogRecord",
@@ -438,8 +434,8 @@ describe("IDcatCatalogRecord Interface", () => {
 		"dcterms:modified": "2025-11-19",
 		"foaf:primaryTopic": {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "http://example.org/dataset/energy-stats-2025",
 			"@type": "dcat:Dataset",
@@ -457,7 +453,7 @@ describe("IDcatCatalogRecord Interface", () => {
 
 	it("should validate catalog record against schema", async () => {
 		const handler = DataTypeHandlerFactory.get(
-			`${DcatContexts.ContextRoot}${DcatClasses.CatalogRecord}`
+			`${DcatContexts.Namespace}${DcatClasses.CatalogRecord}`
 		);
 		expect(handler).toBeDefined();
 
@@ -490,8 +486,8 @@ describe("IDcatCatalogRecord Interface", () => {
 describe("IDcatRelationship Interface", () => {
 	const relationship: IDcatRelationship = {
 		"@context": {
-			dcat: DcatContexts.ContextRoot,
-			dcterms: DublinCoreContexts.ContextTerms
+			dcat: DcatContexts.Namespace,
+			dcterms: DublinCoreContexts.NamespaceTerms
 		},
 		"@type": "dcat:Relationship",
 		"dcat:relation": {
@@ -501,8 +497,8 @@ describe("IDcatRelationship Interface", () => {
 		},
 		"dcat:hadRole": {
 			"@context": {
-				dcat: DcatContexts.ContextRoot,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "http://example.org/role/isDocumentedBy",
 			"@type": "dcat:Role",
@@ -512,7 +508,7 @@ describe("IDcatRelationship Interface", () => {
 
 	it("should validate relationship against schema", async () => {
 		const handler = DataTypeHandlerFactory.get(
-			`${DcatContexts.ContextRoot}${DcatClasses.Relationship}`
+			`${DcatContexts.Namespace}${DcatClasses.Relationship}`
 		);
 		expect(handler).toBeDefined();
 

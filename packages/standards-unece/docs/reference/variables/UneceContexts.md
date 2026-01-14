@@ -6,14 +6,14 @@ The types of UNECE contexts.
 
 ## Type Declaration
 
-### ContextRoot
+### Namespace
 
-> `readonly` **ContextRoot**: `"https://vocabulary.uncefact.org/"` = `"https://vocabulary.uncefact.org/"`
+> `readonly` **Namespace**: `"https://vocabulary.uncefact.org/"` = `"https://vocabulary.uncefact.org/"`
 
-Context Root.
+Namespace.
 
-### ContextRedirect
+### JsonLdContext
 
-> `readonly` **ContextRedirect**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
+> `readonly` **JsonLdContext**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
 
-The UNECE namespace.
+The JSON-LD Context URL.

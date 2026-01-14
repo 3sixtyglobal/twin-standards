@@ -7,11 +7,11 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const VCardContexts = {
 	/**
-	 * The context root for VCard.
+	 * The namespace for VCard.
 	 * Based on W3C VCard Ontology.
 	 * @see http://www.w3.org/2006/vcard/ns#
 	 */
-	ContextRoot: "http://www.w3.org/2006/vcard/ns#"
+	Namespace: "http://www.w3.org/2006/vcard/ns#"
 } as const;
 
 /**

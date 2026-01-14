@@ -6,20 +6,14 @@ The LD Contexts concerning FOAF.
 
 ## Type Declaration
 
-### ContextRoot
+### Namespace
 
-> `readonly` **ContextRoot**: `"https://xmlns.com/foaf/0.1/"` = `"https://xmlns.com/foaf/0.1/"`
+> `readonly` **Namespace**: `"https://xmlns.com/foaf/0.1/"` = `"https://xmlns.com/foaf/0.1/"`
 
-The FOAF LD Context.
+The FOAF Namespace.
 
-### TwinContext
+### JsonLdContext
 
-> `readonly` **TwinContext**: `"https://schema.twindev.org/foaf/"` = `"https://schema.twindev.org/foaf/"`
+> `readonly` **JsonLdContext**: `"https://schema.twindev.org/foaf/types.jsonld"` = `"https://schema.twindev.org/foaf/types.jsonld"`
 
-The TWIN context for FOAF.
-
-### ContextRedirect
-
-> `readonly` **ContextRedirect**: `"https://schema.twindev.org/foaf/types.jsonld"` = `"https://schema.twindev.org/foaf/types.jsonld"`
-
-The TWIN context redirect for JSON-LD.
+The JSON-LD Context URL.

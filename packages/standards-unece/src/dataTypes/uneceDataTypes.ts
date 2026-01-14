@@ -13,10 +13,7 @@ export class UneceDataTypes {
 	 * Register the JSON-LD Redirects.
 	 */
 	public static registerRedirects(): void {
-		JsonLdProcessor.addRedirect(
-			new RegExp(UneceContexts.ContextRoot),
-			UneceContexts.ContextRedirect
-		);
+		JsonLdProcessor.addRedirect(new RegExp(UneceContexts.Namespace), UneceContexts.JsonLdContext);
 	}
 
 	/**
@@ -26,8 +23,9 @@ export class UneceDataTypes {
 		for (const type of Object.values(UneceTypes)) {
 			const json = await import(`../schemas/Unece${type}.json`, { assert: { type: "json" } });
 
-			DataTypeHandlerFactory.register(`${UneceContexts.ContextRoot}${type}`, () => ({
-				context: UneceContexts.ContextRoot,
+			DataTypeHandlerFactory.register(`${UneceContexts.Namespace}${type}`, () => ({
+				namespace: UneceContexts.Namespace,
+				jsonLdContext: UneceContexts.JsonLdContext,
 				type,
 				jsonSchema: async () => json as IJsonSchema
 			}));

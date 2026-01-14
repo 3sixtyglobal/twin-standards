@@ -7,14 +7,14 @@ import type { GaiaXContexts } from "./gaiaXContexts.js";
  * The Gaia-X JSON-LD context type.
  */
 export type GaiaXContextType =
-	| typeof GaiaXContexts.ContextRoot
+	| typeof GaiaXContexts.Namespace
 	| [
 			...IJsonLdContextDefinitionElement[],
-			typeof GaiaXContexts.ContextRoot,
+			typeof GaiaXContexts.Namespace,
 			IJsonLdContextDefinitionElement
 	  ]
 	| [
 			IJsonLdContextDefinitionElement,
-			typeof GaiaXContexts.ContextRoot,
+			typeof GaiaXContexts.Namespace,
 			...IJsonLdContextDefinitionElement[]
 	  ];

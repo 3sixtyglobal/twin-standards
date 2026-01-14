@@ -1,7 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonSchema } from "@twin.org/data-core";
-import { DataTypeHandlerFactory } from "@twin.org/data-core";
+import { DataTypeHelper } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { DcatClasses } from "../models/dcatClasses.js";
 import { DcatContexts } from "../models/dcatContexts.js";
@@ -24,14 +23,11 @@ export class DcatDataTypes {
 	 * This maps the W3C DCAT namespace to a local redirect URL for faster resolution.
 	 */
 	public static registerRedirects(): void {
-		JsonLdProcessor.addRedirect(
-			/https?:\/\/www\.w3\.org\/ns\/dcat#?/,
-			DcatContexts.ContextRedirect
-		);
+		JsonLdProcessor.addRedirect(/https?:\/\/www\.w3\.org\/ns\/dcat#?/, DcatContexts.JsonLdContext);
 
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/www\.w3\.org\/2000\/01\/rdf-schema#?/,
-			DcatContexts.ContextRdfRedirect
+			DcatContexts.JsonLdContextRdf
 		);
 	}
 
@@ -39,64 +35,45 @@ export class DcatDataTypes {
 	 * Register all the DCAT data types with their JSON schemas.
 	 */
 	public static registerTypes(): void {
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Resource}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Resource,
-			jsonSchema: async () => ResourceSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Catalog}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Catalog,
-			jsonSchema: async () => CatalogSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Dataset}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Dataset,
-			jsonSchema: async () => DatasetSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Distribution}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Distribution,
-			jsonSchema: async () => DistributionSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.DataService}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.DataService,
-			jsonSchema: async () => DataServiceSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(
-			`${DcatContexts.Namespace}${DcatClasses.DatasetSeries}`,
-			() => ({
-				context: DcatContexts.Namespace,
-				type: DcatClasses.DatasetSeries,
-				jsonSchema: async () => DatasetSeriesSchema as IJsonSchema
-			})
-		);
-
-		DataTypeHandlerFactory.register(
-			`${DcatContexts.Namespace}${DcatClasses.CatalogRecord}`,
-			() => ({
-				context: DcatContexts.Namespace,
+		const types = [
+			{
+				type: DcatClasses.Resource,
+				schema: ResourceSchema
+			},
+			{
+				type: DcatClasses.Catalog,
+				schema: CatalogSchema
+			},
+			{
 				type: DcatClasses.CatalogRecord,
-				jsonSchema: async () => CatalogRecordSchema as IJsonSchema
-			})
-		);
+				schema: CatalogRecordSchema
+			},
+			{
+				type: DcatClasses.Dataset,
+				schema: DatasetSchema
+			},
+			{
+				type: DcatClasses.Distribution,
+				schema: DistributionSchema
+			},
+			{
+				type: DcatClasses.DataService,
+				schema: DataServiceSchema
+			},
+			{
+				type: DcatClasses.DatasetSeries,
+				schema: DatasetSeriesSchema
+			},
+			{
+				type: DcatClasses.Relationship,
+				schema: RelationshipSchema
+			},
+			{
+				type: DcatClasses.Role,
+				schema: RoleSchema
+			}
+		];
 
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Relationship}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Relationship,
-			jsonSchema: async () => RelationshipSchema as IJsonSchema
-		}));
-
-		DataTypeHandlerFactory.register(`${DcatContexts.Namespace}${DcatClasses.Role}`, () => ({
-			context: DcatContexts.Namespace,
-			type: DcatClasses.Role,
-			jsonSchema: async () => RoleSchema as IJsonSchema
-		}));
+		DataTypeHelper.registerTypes(DcatContexts.Namespace, DcatContexts.JsonLdContext, types);
 	}
 }

@@ -6,20 +6,14 @@ The contexts for Dataspace Protocol Protocol.
 
 ## Type Declaration
 
-### ContextRoot
+### JsonLdContext
 
-> `readonly` **ContextRoot**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
+> `readonly` **JsonLdContext**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
 
-The context root for Dataspace Protocol Protocol.
+The JSON-LD Context URL.
 
 ### Namespace
 
 > `readonly` **Namespace**: `"https://w3id.org/dspace/2025/1/"` = `"https://w3id.org/dspace/2025/1/"`
 
 The namespace.
-
-### ContextRedirect
-
-> `readonly` **ContextRedirect**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
-
-The context redirect for Dataspace Protocol Protocol.

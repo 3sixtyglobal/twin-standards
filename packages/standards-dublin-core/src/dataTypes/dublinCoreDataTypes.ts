@@ -13,11 +13,11 @@ export class DublinCoreDataTypes {
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/purl.org\/dc\/terms\/?/,
-			DublinCoreContexts.ContextTermsRedirect
+			DublinCoreContexts.JsonLdContextTerms
 		);
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/purl.org\/dc\/dcmitype\/?/,
-			DublinCoreContexts.ContextDcmiTypeRedirect
+			DublinCoreContexts.JsonLdContextDcmiType
 		);
 	}
 }

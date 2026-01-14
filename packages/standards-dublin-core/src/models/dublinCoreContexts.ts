@@ -10,23 +10,23 @@ export const DublinCoreContexts = {
 	 * The LD context for Dublin Core Terms vocabulary.
 	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
 	 */
-	ContextTerms: "http://purl.org/dc/terms/",
+	NamespaceTerms: "http://purl.org/dc/terms/",
 
 	/**
 	 * The LD context for Dublin Core DCMI Types vocabulary.
 	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
 	 */
-	ContextDcmiType: "http://purl.org/dc/dcmitype/",
+	NamespaceDcmiType: "http://purl.org/dc/dcmitype/",
 
 	/**
-	 * Redirection URL for terms
+	 * JSON-LD Context URL for terms
 	 */
-	ContextTermsRedirect: "https://schema.twindev.org/dublin-core/terms.jsonld",
+	JsonLdContextTerms: "https://schema.twindev.org/dublin-core/terms.jsonld",
 
 	/**
-	 * Redirection URLs
+	 * JSON-LD Context URL for DCMI Types
 	 */
-	ContextDcmiTypeRedirect: "https://schema.twindev.org/dublin-core/dcmitype.jsonld"
+	JsonLdContextDcmiType: "https://schema.twindev.org/dublin-core/dcmitype.jsonld"
 } as const;
 
 /**

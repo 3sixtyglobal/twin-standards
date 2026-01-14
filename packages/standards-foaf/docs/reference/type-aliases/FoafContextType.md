@@ -1,5 +1,5 @@
 # Type Alias: FoafContextType
 
-> **FoafContextType** = *typeof* [`ContextRoot`](../variables/FoafContexts.md#contextroot) \| \[*typeof* [`ContextRoot`](../variables/FoafContexts.md#contextroot)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`ContextRoot`](../variables/FoafContexts.md#contextroot)\]
+> **FoafContextType** = *typeof* [`Namespace`](../variables/FoafContexts.md#namespace) \| \[*typeof* [`Namespace`](../variables/FoafContexts.md#namespace)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`Namespace`](../variables/FoafContexts.md#namespace)\]
 
 The FOAF JSON-LD context type.

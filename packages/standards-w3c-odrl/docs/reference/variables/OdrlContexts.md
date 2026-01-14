@@ -6,20 +6,14 @@ The contexts for ODRL.
 
 ## Type Declaration
 
-### ContextRoot
+### JsonLdContext
 
-> `readonly` **ContextRoot**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
+> `readonly` **JsonLdContext**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
-The LD Context URL
+The JSON-LD Context URL.
 
 ### Namespace
 
 > `readonly` **Namespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
 
 The namespace prefix for all terms in ODRL.
-
-### ContextRedirect
-
-> `readonly` **ContextRedirect**: `"https://www.w3.org/ns/odrl.jsonld"` = `"https://www.w3.org/ns/odrl.jsonld"`
-
-The context root for ODRL.

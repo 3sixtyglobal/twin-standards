@@ -65,7 +65,7 @@ export class MultikeyHelper {
 		publicKey.set(publicRaw, 2);
 
 		const multikey: IMultikey = {
-			"@context": DidContexts.ContextControllerIdentifiers,
+			"@context": DidContexts.NamespaceControllerIdentifiers,
 			type: DidTypes.Multikey,
 			controller,
 			id,
