@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.14](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.13...standards-dataspace-protocol-v0.0.3-next.14) (2026-01-15)
+
+
+### Bug Fixes
+
+* correct registration type for DS DCAT3 type ([04703df](https://github.com/twinfoundation/standards/commit/04703df048f56f6315bbd0bb73b7b6b62eb858a1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.13 to 0.0.3-next.14
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.13 to 0.0.3-next.14
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.13 to 0.0.3-next.14
+
 ## [0.0.3-next.13](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.12...standards-dataspace-protocol-v0.0.3-next.13) (2026-01-14)
 
 
