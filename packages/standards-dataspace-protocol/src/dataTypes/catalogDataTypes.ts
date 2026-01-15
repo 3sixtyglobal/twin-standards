@@ -1,7 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { DataTypeHelper } from "@twin.org/data-core";
-import { DcatClasses, DcatContexts } from "@twin.org/standards-w3c-dcat";
+import { DcatContexts } from "@twin.org/standards-w3c-dcat";
 import { DataspaceProtocolCatalogTypes } from "../models/catalog/dataspaceProtocolCatalogTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import DsProtocolCatalogSchema from "../schemas/DataspaceProtocolCatalog.json" with { type: "json" };
@@ -41,31 +41,31 @@ export class CatalogDataTypes {
 			types
 		);
 
-		// This is just for schema registration as Dataset is a DCAT type
+		// These are the custom version of the DCAT3 classes with DS Protocol constraints
 		DataTypeHelper.registerType(
 			DataspaceProtocolContexts.Namespace,
-			DcatClasses.Dataset,
+			DataspaceProtocolCatalogTypes.Dataset,
 			DcatContexts.JsonLdContext,
 			DsProtocolDatasetSchema
 		);
 
 		DataTypeHelper.registerType(
 			DataspaceProtocolContexts.Namespace,
-			DcatClasses.Catalog,
+			DataspaceProtocolCatalogTypes.Catalog,
 			DcatContexts.JsonLdContext,
 			DsProtocolCatalogSchema
 		);
 
 		DataTypeHelper.registerType(
 			DataspaceProtocolContexts.Namespace,
-			DcatClasses.Distribution,
+			DataspaceProtocolCatalogTypes.Distribution,
 			DcatContexts.JsonLdContext,
 			DsProtocolDistributionSchema
 		);
 
 		DataTypeHelper.registerType(
 			DataspaceProtocolContexts.Namespace,
-			DcatClasses.DataService,
+			DataspaceProtocolCatalogTypes.DataService,
 			DcatContexts.JsonLdContext,
 			DsProtocolDataServiceSchema
 		);

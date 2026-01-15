@@ -35,14 +35,17 @@ export abstract class DataspaceProtocolHelper {
 	): Promise<boolean> {
 		let result = false;
 
-		const dcatPrefix = DcatContexts.Namespace;
+		const dcatNamespace = DcatContexts.Namespace;
 
 		const objectTypes = await JsonLdHelper.getType(object);
 
 		for (const type of objectTypes) {
 			let dataTypeIdentifier = type;
-			if (type.startsWith(dcatPrefix)) {
-				const nonQualifiedType = `dcat:${type.replace(dcatPrefix, "")}`;
+
+			// If the DCAT3 types are used, convert to the DS Protocol equivalent
+			// which have the enhancements and constraints defined by the DS Protocol
+			if (type.startsWith(dcatNamespace)) {
+				const nonQualifiedType = type.replace(dcatNamespace, "");
 				dataTypeIdentifier = `${DataspaceProtocolContexts.Namespace}${nonQualifiedType}`;
 			}
 
