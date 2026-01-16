@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.0.3-next.15](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.14...standards-dataspace-protocol-v0.0.3-next.15) (2026-01-16)
+
+
+### Features
+
+* add missing const modifiers for enum const ([0f40483](https://github.com/twinfoundation/standards/commit/0f40483395b5d214ae7a80ff0f17991ee11acdea))
+* add missing const modifiers for enum const ([7e66eaf](https://github.com/twinfoundation/standards/commit/7e66eaff416654c6f71efd86c65557f7dcb55de1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.14 to 0.0.3-next.15
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.14 to 0.0.3-next.15
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.14 to 0.0.3-next.15
+
 ## [0.0.3-next.14](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.13...standards-dataspace-protocol-v0.0.3-next.14) (2026-01-15)
 
 

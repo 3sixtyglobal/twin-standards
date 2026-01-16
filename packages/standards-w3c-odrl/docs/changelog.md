@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.15](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.14...standards-w3c-odrl-v0.0.3-next.15) (2026-01-16)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-odrl:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.14 to 0.0.3-next.15
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.14 to 0.0.3-next.15
+
 ## [0.0.3-next.14](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.13...standards-w3c-odrl-v0.0.3-next.14) (2026-01-15)
 
 
