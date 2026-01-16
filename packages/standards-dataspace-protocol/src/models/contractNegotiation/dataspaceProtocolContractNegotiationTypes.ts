@@ -56,7 +56,7 @@ export const DataspaceProtocolContractNegotiationTypes = {
 	 * Contract Negotiation State Type.
 	 */
 	ContractNegotiationStateType: "ContractNegotiationStateType"
-};
+} as const;
 
 /**
  * The types for Dataspace Protocol Contract Negotiation.

@@ -51,7 +51,7 @@ export const DataspaceProtocolTransferProcessTypes = {
 	 * Transfer Error.
 	 */
 	TransferError: "TransferError"
-};
+} as const;
 
 /**
  * The types for Dataspace Protocol Transfer.

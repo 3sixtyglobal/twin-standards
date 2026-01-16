@@ -31,7 +31,7 @@ export const DataspaceProtocolTransferProcessStateType = {
 	 * Terminated
 	 */
 	TERMINATED: "TERMINATED"
-};
+} as const;
 
 /**
  * The types for Dataspace Protocol Transfer.
