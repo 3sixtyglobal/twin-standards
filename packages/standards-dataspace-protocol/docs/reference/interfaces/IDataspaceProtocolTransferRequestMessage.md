@@ -15,7 +15,7 @@ LD Context
 
 ### @type
 
-> **@type**: `string`
+> **@type**: `"TransferRequestMessage"`
 
 LD Type
 

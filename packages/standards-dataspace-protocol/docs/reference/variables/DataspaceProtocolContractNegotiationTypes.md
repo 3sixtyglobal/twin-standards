@@ -9,60 +9,60 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#mess
 
 ### ContractNegotiation
 
-> **ContractNegotiation**: `string` = `"ContractNegotiation"`
+> `readonly` **ContractNegotiation**: `"ContractNegotiation"` = `"ContractNegotiation"`
 
 Contract Negotiation.
 
 ### ContractRequestMessage
 
-> **ContractRequestMessage**: `string` = `"ContractRequestMessage"`
+> `readonly` **ContractRequestMessage**: `"ContractRequestMessage"` = `"ContractRequestMessage"`
 
 Contract Request Message.
 
 ### ContractOfferMessage
 
-> **ContractOfferMessage**: `string` = `"ContractOfferMessage"`
+> `readonly` **ContractOfferMessage**: `"ContractOfferMessage"` = `"ContractOfferMessage"`
 
 Contract Offer Message.
 
 ### ContractAgreementMessage
 
-> **ContractAgreementMessage**: `string` = `"ContractAgreementMessage"`
+> `readonly` **ContractAgreementMessage**: `"ContractAgreementMessage"` = `"ContractAgreementMessage"`
 
 Contract Agreement Message.
 
 ### ContractAgreementVerificationMessage
 
-> **ContractAgreementVerificationMessage**: `string` = `"ContractAgreementVerificationMessage"`
+> `readonly` **ContractAgreementVerificationMessage**: `"ContractAgreementVerificationMessage"` = `"ContractAgreementVerificationMessage"`
 
 Contract Agreement Verification Message.
 
 ### ContractNegotiationEventMessage
 
-> **ContractNegotiationEventMessage**: `string` = `"ContractNegotiationEventMessage"`
+> `readonly` **ContractNegotiationEventMessage**: `"ContractNegotiationEventMessage"` = `"ContractNegotiationEventMessage"`
 
 Contract Negotiation Event Message.
 
 ### ContractNegotiationTerminationMessage
 
-> **ContractNegotiationTerminationMessage**: `string` = `"ContractNegotiationTerminationMessage"`
+> `readonly` **ContractNegotiationTerminationMessage**: `"ContractNegotiationTerminationMessage"` = `"ContractNegotiationTerminationMessage"`
 
 Contract Negotiation Termination Message.
 
 ### ContractNegotiationError
 
-> **ContractNegotiationError**: `string` = `"ContractNegotiationError"`
+> `readonly` **ContractNegotiationError**: `"ContractNegotiationError"` = `"ContractNegotiationError"`
 
 Contract Negotiation Error.
 
 ### ContractNegotiationEventType
 
-> **ContractNegotiationEventType**: `string` = `"ContractNegotiationEventType"`
+> `readonly` **ContractNegotiationEventType**: `"ContractNegotiationEventType"` = `"ContractNegotiationEventType"`
 
 Contract Negotiation Event Type.
 
 ### ContractNegotiationStateType
 
-> **ContractNegotiationStateType**: `string` = `"ContractNegotiationStateType"`
+> `readonly` **ContractNegotiationStateType**: `"ContractNegotiationStateType"` = `"ContractNegotiationStateType"`
 
 Contract Negotiation State Type.

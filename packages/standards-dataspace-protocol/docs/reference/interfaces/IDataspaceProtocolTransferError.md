@@ -15,7 +15,7 @@ LD Context
 
 ### @type
 
-> **@type**: `string`
+> **@type**: `"TransferError"`
 
 LD Type
 

@@ -7,7 +7,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level
 
 ### @type
 
-> **@type**: `string`
+> **@type**: `"DataAddress"`
 
 LD Type
 

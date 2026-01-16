@@ -404,14 +404,14 @@ describe("Dataspace Protocol", () => {
 		test("should create valid Transfer Process with REQUESTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
 				"@context": [DataspaceProtocolContexts.JsonLdContext],
-				"@type": "dspace:TransferProcess",
+				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-123",
 				providerPid: "provider:pid-456",
 				state: DataspaceProtocolTransferProcessStateType.REQUESTED
 			};
 
 			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
-			expect(transferProcess["@type"]).toBe("dspace:TransferProcess");
+			expect(transferProcess["@type"]).toBe("TransferProcess");
 			expect(transferProcess.consumerPid).toBe("consumer:pid-123");
 			expect(transferProcess.providerPid).toBe("provider:pid-456");
 			expect(transferProcess.state).toBe("REQUESTED");
@@ -420,7 +420,7 @@ describe("Dataspace Protocol", () => {
 		test("should create valid Transfer Process with STARTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
 				"@context": [DataspaceProtocolContexts.JsonLdContext],
-				"@type": "dspace:TransferProcess",
+				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-789",
 				providerPid: "provider:pid-012",
 				state: DataspaceProtocolTransferProcessStateType.STARTED
@@ -441,7 +441,7 @@ describe("Dataspace Protocol", () => {
 			states.forEach(state => {
 				const transferProcess: IDataspaceProtocolTransferProcess = {
 					"@context": [DataspaceProtocolContexts.JsonLdContext],
-					"@type": "dspace:TransferProcess",
+					"@type": "TransferProcess",
 					consumerPid: "consumer:pid",
 					providerPid: "provider:pid",
 					state
@@ -455,7 +455,7 @@ describe("Dataspace Protocol", () => {
 		test("should demonstrate Transfer Process state as string value", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
 				"@context": [DataspaceProtocolContexts.JsonLdContext],
-				"@type": "dspace:TransferProcess",
+				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-test",
 				providerPid: "provider:pid-test",
 				state: "COMPLETED"

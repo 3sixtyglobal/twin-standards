@@ -9,54 +9,54 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/
 
 ### TransferRequestMessage
 
-> **TransferRequestMessage**: `string` = `"TransferRequestMessage"`
+> `readonly` **TransferRequestMessage**: `"TransferRequestMessage"` = `"TransferRequestMessage"`
 
 Transfer Request Message.
 
 ### TransferStartMessage
 
-> **TransferStartMessage**: `string` = `"TransferStartMessage"`
+> `readonly` **TransferStartMessage**: `"TransferStartMessage"` = `"TransferStartMessage"`
 
 Transfer Start Message.
 
 ### TransferSuspensionMessage
 
-> **TransferSuspensionMessage**: `string` = `"TransferSuspensionMessage"`
+> `readonly` **TransferSuspensionMessage**: `"TransferSuspensionMessage"` = `"TransferSuspensionMessage"`
 
 Transfer Suspension Message.
 
 ### TransferCompletionMessage
 
-> **TransferCompletionMessage**: `string` = `"TransferCompletionMessage"`
+> `readonly` **TransferCompletionMessage**: `"TransferCompletionMessage"` = `"TransferCompletionMessage"`
 
 Transfer Completion Message.
 
 ### TransferTerminationMessage
 
-> **TransferTerminationMessage**: `string` = `"TransferTerminationMessage"`
+> `readonly` **TransferTerminationMessage**: `"TransferTerminationMessage"` = `"TransferTerminationMessage"`
 
 Transfer Termination Message.
 
 ### DataAddress
 
-> **DataAddress**: `string` = `"DataAddress"`
+> `readonly` **DataAddress**: `"DataAddress"` = `"DataAddress"`
 
 Data Address
 
 ### EndpointProperty
 
-> **EndpointProperty**: `string` = `"EndpointProperty"`
+> `readonly` **EndpointProperty**: `"EndpointProperty"` = `"EndpointProperty"`
 
 Endpoint property.
 
 ### TransferProcess
 
-> **TransferProcess**: `string` = `"TransferProcess"`
+> `readonly` **TransferProcess**: `"TransferProcess"` = `"TransferProcess"`
 
 Transfer Process
 
 ### TransferError
 
-> **TransferError**: `string` = `"TransferError"`
+> `readonly` **TransferError**: `"TransferError"` = `"TransferError"`
 
 Transfer Error.

@@ -9,30 +9,30 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/
 
 ### COMPLETED
 
-> **COMPLETED**: `string` = `"COMPLETED"`
+> `readonly` **COMPLETED**: `"COMPLETED"` = `"COMPLETED"`
 
 Completed
 
 ### REQUESTED
 
-> **REQUESTED**: `string` = `"REQUESTED"`
+> `readonly` **REQUESTED**: `"REQUESTED"` = `"REQUESTED"`
 
 Requested
 
 ### STARTED
 
-> **STARTED**: `string` = `"STARTED"`
+> `readonly` **STARTED**: `"STARTED"` = `"STARTED"`
 
 Started
 
 ### SUSPENDED
 
-> **SUSPENDED**: `string` = `"SUSPENDED"`
+> `readonly` **SUSPENDED**: `"SUSPENDED"` = `"SUSPENDED"`
 
 Suspended
 
 ### TERMINATED
 
-> **TERMINATED**: `string` = `"TERMINATED"`
+> `readonly` **TERMINATED**: `"TERMINATED"` = `"TERMINATED"`
 
 Terminated

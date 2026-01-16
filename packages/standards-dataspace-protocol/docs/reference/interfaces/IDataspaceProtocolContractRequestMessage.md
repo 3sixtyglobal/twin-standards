@@ -15,7 +15,7 @@ The JSON-LD context.
 
 ### @type
 
-> **@type**: `string`
+> **@type**: `"ContractRequestMessage"`
 
 The type of the message.
 

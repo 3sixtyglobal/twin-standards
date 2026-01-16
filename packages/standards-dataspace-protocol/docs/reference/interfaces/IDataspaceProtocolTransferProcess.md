@@ -15,7 +15,7 @@ LD Context
 
 ### @type
 
-> **@type**: `string`
+> **@type**: `"TransferProcess"`
 
 LD Type
 
@@ -39,6 +39,6 @@ MUST refer to the transfer identifier of the Provider side.
 
 ### state
 
-> **state**: `string`
+> **state**: [`DataspaceProtocolTransferProcessStateType`](../type-aliases/DataspaceProtocolTransferProcessStateType.md)
 
 The transfer process state.
