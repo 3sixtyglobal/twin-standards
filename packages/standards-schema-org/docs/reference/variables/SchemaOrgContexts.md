@@ -8,9 +8,15 @@ The contexts of schema.org data.
 
 ### Namespace
 
-> `readonly` **Namespace**: `"https://schema.org"` = `"https://schema.org"`
+> `readonly` **Namespace**: `"https://schema.org/"` = `"https://schema.org/"`
 
-Context Root.
+The canonical RDF namespace URI.
+
+### Context
+
+> `readonly` **Context**: `"https://schema.org"` = `"https://schema.org"`
+
+The value to use in @context.
 
 ### JsonLdContext
 

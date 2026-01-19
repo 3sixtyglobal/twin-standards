@@ -7,9 +7,14 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const SchemaOrgContexts = {
 	/**
-	 * Context Root.
+	 * The canonical RDF namespace URI.
 	 */
-	Namespace: "https://schema.org",
+	Namespace: "https://schema.org/",
+
+	/**
+	 * The value to use in @context.
+	 */
+	Context: "https://schema.org",
 
 	/**
 	 * The JSON-LD Context URL.
