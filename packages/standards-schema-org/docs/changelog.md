@@ -1,5 +1,12 @@
 # @twin.org/standards-schema-org - Changelog
 
+## [0.0.3-next.16](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.15...standards-schema-org-v0.0.3-next.16) (2026-01-19)
+
+
+### Bug Fixes
+
+* modifying the schema of the namespace and adding the context ([#112](https://github.com/twinfoundation/standards/issues/112)) ([3fc06fc](https://github.com/twinfoundation/standards/commit/3fc06fcc4e76450499679b8bc12c361526c06146))
+
 ## [0.0.3-next.15](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.14...standards-schema-org-v0.0.3-next.15) (2026-01-16)
 
 
