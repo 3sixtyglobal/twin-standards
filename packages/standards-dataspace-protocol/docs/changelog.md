@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.19](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.18...standards-dataspace-protocol-v0.0.3-next.19) (2026-01-21)
+
+
+### Bug Fixes
+
+* dspace protocol context ([769c758](https://github.com/twinfoundation/standards/commit/769c7583b11db681c1fde66713976112b7f12de8))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.18 to 0.0.3-next.19
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.18 to 0.0.3-next.19
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.18 to 0.0.3-next.19
+
 ## [0.0.3-next.18](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.17...standards-dataspace-protocol-v0.0.3-next.18) (2026-01-21)
 
 
