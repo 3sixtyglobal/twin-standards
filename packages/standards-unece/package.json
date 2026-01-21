@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-unece",
-	"version": "0.0.3-next.17",
+	"version": "0.0.3-next.18",
 	"description": "Models which define the structure of UN/CEFACT Standard",
 	"repository": {
 		"type": "git",
