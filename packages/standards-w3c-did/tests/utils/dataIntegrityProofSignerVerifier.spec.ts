@@ -89,7 +89,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		);
 
 		const multikey: IMultikey = {
-			"@context": DidContexts.NamespaceControllerIdentifiers,
+			"@context": DidContexts.ContextControllerIdentifiers,
 			type: DidTypes.Multikey,
 			publicKeyMultibase: "z6MkrJVnaZkeFzdQyMZu1cgjg7k1pZZ6pvBQ7XJPt4swbTQ2",
 			secretKeyMultibase: "z3u2en7t5LR2WtQH5PfFqMqwVHBeXouLzo6haApm8XHqvjxq"

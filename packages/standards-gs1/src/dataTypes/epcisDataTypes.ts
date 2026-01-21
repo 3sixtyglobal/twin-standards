@@ -21,6 +21,8 @@ export class EpcisDataTypes {
 	 */
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(/https?:\/\/ref.gs1.org\/epcis\/?/, EpcisContexts.JsonLdContext);
+		const escapedContext = EpcisContexts.Context.replace(/[$()*+.?[\\\]^{|}]/g, "\\$&");
+		JsonLdProcessor.addRedirect(new RegExp(`^${escapedContext}$`), EpcisContexts.JsonLdContext);
 	}
 
 	/**
@@ -58,6 +60,6 @@ export class EpcisDataTypes {
 			}
 		];
 
-		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.Context, types);
 	}
 }

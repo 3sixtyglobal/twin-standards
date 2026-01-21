@@ -10,7 +10,15 @@ The types of UNECE contexts.
 
 > `readonly` **Namespace**: `"https://vocabulary.uncefact.org/"` = `"https://vocabulary.uncefact.org/"`
 
-Namespace.
+The canonical RDF namespace URI.
+
+### Context
+
+> `readonly` **Context**: `"https://vocabulary.uncefact.org"` = `"https://vocabulary.uncefact.org"`
+
+The value to use in @context.
+Note: Context differs from Namespace (no trailing slash) as per UNECE standard specification.
+The UNECE JSON-LD context URL format does not include a trailing slash.
 
 ### JsonLdContext
 

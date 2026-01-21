@@ -7,5 +7,5 @@ import type { UneceContexts } from "./uneceContexts.js";
  * The UNECE JSON-LD context type.
  */
 export type UneceContextType =
-	| typeof UneceContexts.Namespace
-	| [typeof UneceContexts.Namespace, ...IJsonLdContextDefinitionElement[]];
+	| typeof UneceContexts.Context
+	| [typeof UneceContexts.Context, ...IJsonLdContextDefinitionElement[]];

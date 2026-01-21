@@ -7,9 +7,16 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const UneceContexts = {
 	/**
-	 * Namespace.
+	 * The canonical RDF namespace URI.
 	 */
 	Namespace: "https://vocabulary.uncefact.org/",
+
+	/**
+	 * The value to use in @context.
+	 * Note: Context differs from Namespace (no trailing slash) as per UNECE standard specification.
+	 * The UNECE JSON-LD context URL format does not include a trailing slash.
+	 */
+	Context: "https://vocabulary.uncefact.org",
 
 	/**
 	 * The JSON-LD Context URL.

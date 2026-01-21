@@ -9,13 +9,13 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://ref.gs1.org/epcis/"
+					"const": "https://ref.gs1.org/epcis"
 				},
 				{
 					"type": "array",
 					"items": {
 						"type": "string",
-						"const": "https://ref.gs1.org/epcis/"
+						"const": "https://ref.gs1.org/epcis"
 					},
 					"minItems": 1,
 					"maxItems": 1
@@ -26,7 +26,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://ref.gs1.org/epcis/"
+							"const": "https://ref.gs1.org/epcis"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -45,7 +45,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://ref.gs1.org/epcis/"
+							"const": "https://ref.gs1.org/epcis"
 						}
 					],
 					"items": {

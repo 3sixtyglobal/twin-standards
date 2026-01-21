@@ -7,21 +7,33 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DublinCoreContexts = {
 	/**
-	 * The LD context for Dublin Core Terms vocabulary.
-	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
+	 * The canonical RDF namespace URI for Dublin Core Terms.
 	 */
 	NamespaceTerms: "http://purl.org/dc/terms/",
 
 	/**
-	 * The LD context for Dublin Core DCMI Types vocabulary.
-	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
+	 * The value to use in JSON-LD context for Dublin Core Terms.
+	 * Note: ContextTerms matches NamespaceTerms (both include trailing slash) as per Dublin Core specification.
+	 * The Dublin Core Terms JSON-LD context URL format includes a trailing slash.
 	 */
-	NamespaceDcmiType: "http://purl.org/dc/dcmitype/",
+	ContextTerms: "http://purl.org/dc/terms/",
 
 	/**
 	 * JSON-LD Context URL for terms
 	 */
 	JsonLdContextTerms: "https://schema.twindev.org/dublin-core/terms.jsonld",
+
+	/**
+	 * The canonical RDF namespace URI for Dublin Core DCMI Types.
+	 */
+	NamespaceDcmiType: "http://purl.org/dc/dcmitype/",
+
+	/**
+	 * The value to use in JSON-LD context for Dublin Core DCMI Types.
+	 * Note: ContextDcmiType matches NamespaceDcmiType (both include trailing slash) as per Dublin Core specification.
+	 * The Dublin Core DCMI Types JSON-LD context URL format includes a trailing slash.
+	 */
+	ContextDcmiType: "http://purl.org/dc/dcmitype/",
 
 	/**
 	 * JSON-LD Context URL for DCMI Types

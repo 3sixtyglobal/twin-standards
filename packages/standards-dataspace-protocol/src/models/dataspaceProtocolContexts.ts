@@ -7,14 +7,19 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolContexts = {
 	/**
-	 * The JSON-LD Context URL.
+	 * The canonical RDF namespace URI.
 	 */
-	JsonLdContext: "https://w3id.org/dspace/2025/1/context.jsonld",
+	Namespace: "https://w3id.org/dspace/2025/1/",
 
 	/**
-	 * The namespace.
+	 * The value to use in @context.
 	 */
-	Namespace: "https://w3id.org/dspace/2025/1/"
+	Context: "https://w3id.org/dspace/2025/1",
+
+	/**
+	 * The JSON-LD Context URL.
+	 */
+	JsonLdContext: "https://w3id.org/dspace/2025/1/context.jsonld"
 } as const;
 
 /**

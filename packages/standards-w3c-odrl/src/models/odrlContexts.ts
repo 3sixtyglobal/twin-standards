@@ -7,14 +7,21 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const OdrlContexts = {
 	/**
-	 * The JSON-LD Context URL.
+	 * The canonical RDF namespace URI.
 	 */
-	JsonLdContext: "http://www.w3.org/ns/odrl.jsonld",
+	Namespace: "http://www.w3.org/ns/odrl/2/",
 
 	/**
-	 * The namespace prefix for all terms in ODRL.
+	 * The value to use in @context.
+	 * Note: Context differs from Namespace (no trailing slash) as per ODRL 2.2 specification.
+	 * The ODRL JSON-LD context URL format does not include a trailing slash.
 	 */
-	Namespace: "http://www.w3.org/ns/odrl/2/"
+	Context: "http://www.w3.org/ns/odrl/2",
+
+	/**
+	 * The JSON-LD Context URL.
+	 */
+	JsonLdContext: "http://www.w3.org/ns/odrl.jsonld"
 } as const;
 
 /**

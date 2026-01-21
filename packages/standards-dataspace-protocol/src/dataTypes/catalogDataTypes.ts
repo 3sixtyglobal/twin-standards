@@ -37,7 +37,7 @@ export class CatalogDataTypes {
 
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolContexts.JsonLdContext,
+			DataspaceProtocolContexts.Context,
 			types
 		);
 

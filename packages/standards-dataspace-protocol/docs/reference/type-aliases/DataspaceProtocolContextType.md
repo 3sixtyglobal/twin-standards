@@ -1,5 +1,5 @@
 # Type Alias: DataspaceProtocolContextType
 
-> **DataspaceProtocolContextType** = \[*typeof* [`JsonLdContext`](../variables/DataspaceProtocolContexts.md#jsonldcontext)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`JsonLdContext`](../variables/DataspaceProtocolContexts.md#jsonldcontext), `IJsonLdContextDefinitionElement`\] \| \[`IJsonLdContextDefinitionElement`, *typeof* [`JsonLdContext`](../variables/DataspaceProtocolContexts.md#jsonldcontext), `...IJsonLdContextDefinitionElement[]`\]
+> **DataspaceProtocolContextType** = *typeof* [`Context`](../variables/DataspaceProtocolContexts.md#context) \| \[*typeof* [`Context`](../variables/DataspaceProtocolContexts.md#context)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`Context`](../variables/DataspaceProtocolContexts.md#context), `IJsonLdContextDefinitionElement`\] \| \[`IJsonLdContextDefinitionElement`, *typeof* [`Context`](../variables/DataspaceProtocolContexts.md#context), `...IJsonLdContextDefinitionElement[]`\]
 
 The Dataspace Protocol JSON-LD context type.

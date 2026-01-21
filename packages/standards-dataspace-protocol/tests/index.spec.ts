@@ -11,7 +11,7 @@ import {
 	type IDcatDistribution,
 	type IDcatDataService
 } from "@twin.org/standards-w3c-dcat";
-import { OdrlContexts } from "@twin.org/standards-w3c-odrl";
+import { OdrlContexts, OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
 import {
 	DataspaceProtocolCatalogTypes,
 	DataspaceProtocolContexts,
@@ -26,12 +26,15 @@ import {
 
 describe("Dataspace Protocol", () => {
 	beforeAll(async () => {
+		OdrlDataTypes.registerRedirects();
+		DataspaceProtocolDataTypes.registerRedirects();
 		DataspaceProtocolDataTypes.registerTypes();
 		await addAllContextsToDocumentCache();
 	});
 
 	describe("Catalog Protocol - Contexts", () => {
 		test("should have correct context URLs", () => {
+			expect(DataspaceProtocolContexts.Context).toBe("https://w3id.org/dspace/2025/1");
 			expect(DataspaceProtocolContexts.JsonLdContext).toBe(
 				"https://w3id.org/dspace/2025/1/context.jsonld"
 			);
@@ -49,9 +52,9 @@ describe("Dataspace Protocol", () => {
 	describe("Catalog Protocol - Ds Protocol specific validations", () => {
 		const dataset: IDcatDataset = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				odrl: OdrlContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms
+				dcat: DcatContexts.Context,
+				odrl: OdrlContexts.JsonLdContext,
+				dcterms: DublinCoreContexts.ContextTerms
 			},
 			"@id": "dataset:dataset1",
 			"@type": "dcat:Dataset",
@@ -62,7 +65,7 @@ describe("Dataspace Protocol", () => {
 					"dcat:accessService": "service:access1"
 				}
 			],
-			"odrl:hasPolicy": {
+			[`${OdrlContexts.Namespace}hasPolicy`]: {
 				"@context": OdrlContexts.JsonLdContext,
 				"@type": "Offer",
 				uid: "policy:policy1",
@@ -78,8 +81,8 @@ describe("Dataspace Protocol", () => {
 
 		const dataService: IDcatDataService = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms
 			},
 			"@id": "dataservice:ds1",
 			"@type": "dcat:DataService",
@@ -87,7 +90,7 @@ describe("Dataspace Protocol", () => {
 		};
 
 		const transferRequest: IJsonLdNodeObject = {
-			"@context": [DataspaceProtocolContexts.JsonLdContext],
+			"@context": [DataspaceProtocolContexts.Context],
 			"@type": "TransferRequestMessage",
 			agreementId: "agreement:agreement1",
 			consumerPid: "consumer:consumerPid",
@@ -97,9 +100,9 @@ describe("Dataspace Protocol", () => {
 
 		const datasetAsDsProtocol: IJsonLdNodeObject = {
 			"@context": [
-				DataspaceProtocolContexts.JsonLdContext,
+				DataspaceProtocolContexts.Context,
 				{
-					dcterms: DublinCoreContexts.NamespaceTerms
+					dcterms: DublinCoreContexts.ContextTerms
 				}
 			],
 			"@id": "dataset:dataset2",
@@ -137,9 +140,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Catalog as per the DS Protocol", async () => {
 			const catalog: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.Namespace,
-					odrl: OdrlContexts.Namespace,
-					dcterms: DublinCoreContexts.NamespaceTerms,
+					dcat: DcatContexts.Context,
+					odrl: OdrlContexts.JsonLdContext,
+					dcterms: DublinCoreContexts.ContextTerms,
 					// We need this otherwise the compaction process would not work well for participantId
 					participantId: {
 						"@id": `${DataspaceProtocolContexts.Namespace}participantId`,
@@ -165,9 +168,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Distribution as per the DS Protocol", async () => {
 			const distribution: IDcatDistribution = {
 				"@context": {
-					dcat: DcatContexts.Namespace,
-					odrl: OdrlContexts.Namespace,
-					dcterms: DublinCoreContexts.NamespaceTerms
+					dcat: DcatContexts.Context,
+					odrl: OdrlContexts.JsonLdContext,
+					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@id": "distribution:d1",
 				"@type": "dcat:Distribution",
@@ -265,24 +268,24 @@ describe("Dataspace Protocol", () => {
 		test("should create valid catalog request message with filter", () => {
 			const filterElement = { category: "test" };
 			const message: IDataspaceProtocolCatalogRequestMessage = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.CatalogRequestMessage,
 				filter: [filterElement]
 			};
 
-			expect(message["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
+			expect(message["@context"]).toContain(DataspaceProtocolContexts.Context);
 			expect(message["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogRequestMessage);
 			expect(message.filter).toContain(filterElement);
 		});
 
 		test("should create valid dataset request message", () => {
 			const message: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "dataset-123"
 			};
 
-			expect(message["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
+			expect(message["@context"]).toContain(DataspaceProtocolContexts.Context);
 			expect(message["@type"]).toBe(DataspaceProtocolCatalogTypes.DatasetRequestMessage);
 			expect(message.dataset).toBe("dataset-123");
 		});
@@ -291,12 +294,12 @@ describe("Dataspace Protocol", () => {
 	describe("Catalog Protocol - Error Messages", () => {
 		test("should create valid catalog error without reasons", () => {
 			const error: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "NOT_FOUND"
 			};
 
-			expect(error["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
+			expect(error["@context"]).toContain(DataspaceProtocolContexts.Context);
 			expect(error["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogError);
 			expect(error.code).toBe("NOT_FOUND");
 			expect(error.reason).toBeUndefined();
@@ -304,13 +307,13 @@ describe("Dataspace Protocol", () => {
 
 		test("should create valid catalog error with reasons", () => {
 			const error: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "VALIDATION_ERROR",
 				reason: ["Invalid filter format", "Missing required field"]
 			};
 
-			expect(error["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
+			expect(error["@context"]).toContain(DataspaceProtocolContexts.Context);
 			expect(error["@type"]).toBe(DataspaceProtocolCatalogTypes.CatalogError);
 			expect(error.code).toBe("VALIDATION_ERROR");
 			expect(error.reason).toHaveLength(2);
@@ -323,7 +326,7 @@ describe("Dataspace Protocol", () => {
 			const filterEelement = { category: "sensors" };
 			// Request
 			const request: IDataspaceProtocolCatalogRequestMessage = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.CatalogRequestMessage,
 				filter: [filterEelement]
 			};
@@ -333,8 +336,8 @@ describe("Dataspace Protocol", () => {
 			// Response (simulated)
 			const dataset: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.NamespaceTerms
+					dcat: DcatContexts.Context,
+					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "sensor:sensor-dataset-1"
@@ -342,8 +345,8 @@ describe("Dataspace Protocol", () => {
 
 			const response: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.NamespaceTerms
+					dcat: DcatContexts.Context,
+					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Catalog",
 				"@id": "catalog:catalog-response",
@@ -358,7 +361,7 @@ describe("Dataspace Protocol", () => {
 		test("should demonstrate dataset request and response flow", () => {
 			// Request
 			const request: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "dataset:dataset-456"
 			};
@@ -368,8 +371,8 @@ describe("Dataspace Protocol", () => {
 			// Response
 			const response: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.Namespace,
-					dcterms: DublinCoreContexts.NamespaceTerms
+					dcat: DcatContexts.Context,
+					dcterms: DublinCoreContexts.ContextTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "dataset:dataset-456",
@@ -382,14 +385,14 @@ describe("Dataspace Protocol", () => {
 
 		test("should demonstrate error response flow", () => {
 			const request: IDataspaceProtocolDatasetRequestMessage = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.DatasetRequestMessage,
 				dataset: "non-existent-dataset"
 			};
 
 			// Error response
 			const errorResponse: IDataspaceProtocolCatalogError = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": DataspaceProtocolCatalogTypes.CatalogError,
 				code: "DATASET_NOT_FOUND",
 				reason: [`Dataset '${request.dataset}' does not exist in the catalog`]
@@ -403,14 +406,14 @@ describe("Dataspace Protocol", () => {
 	describe("Transfer Protocol - Transfer Process Messages", () => {
 		test("should create valid Transfer Process with REQUESTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-123",
 				providerPid: "provider:pid-456",
 				state: DataspaceProtocolTransferProcessStateType.REQUESTED
 			};
 
-			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.JsonLdContext);
+			expect(transferProcess["@context"]).toContain(DataspaceProtocolContexts.Context);
 			expect(transferProcess["@type"]).toBe("TransferProcess");
 			expect(transferProcess.consumerPid).toBe("consumer:pid-123");
 			expect(transferProcess.providerPid).toBe("provider:pid-456");
@@ -419,7 +422,7 @@ describe("Dataspace Protocol", () => {
 
 		test("should create valid Transfer Process with STARTED state", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-789",
 				providerPid: "provider:pid-012",
@@ -440,7 +443,7 @@ describe("Dataspace Protocol", () => {
 
 			states.forEach(state => {
 				const transferProcess: IDataspaceProtocolTransferProcess = {
-					"@context": [DataspaceProtocolContexts.JsonLdContext],
+					"@context": [DataspaceProtocolContexts.Context],
 					"@type": "TransferProcess",
 					consumerPid: "consumer:pid",
 					providerPid: "provider:pid",
@@ -454,7 +457,7 @@ describe("Dataspace Protocol", () => {
 
 		test("should demonstrate Transfer Process state as string value", () => {
 			const transferProcess: IDataspaceProtocolTransferProcess = {
-				"@context": [DataspaceProtocolContexts.JsonLdContext],
+				"@context": [DataspaceProtocolContexts.Context],
 				"@type": "TransferProcess",
 				consumerPid: "consumer:pid-test",
 				providerPid: "provider:pid-test",
@@ -492,20 +495,69 @@ describe("Dataspace Protocol", () => {
 			// Register redirects to get the actual regex pattern used
 			DataspaceProtocolDataTypes.registerRedirects();
 			const redirects = JsonLdProcessor.getRedirects();
-			expect(redirects.length).toBe(1);
-			const regex = redirects[0].from;
+			expect(redirects.length).toBe(2); // Namespace and Context redirects
+
+			// Find the namespace redirect
+			const namespaceRedirect = redirects.find(
+				r => r.to === DataspaceProtocolContexts.JsonLdContext
+			);
+			expect(namespaceRedirect).toBeDefined();
+			if (!namespaceRedirect) {
+				throw new Error("Namespace redirect not found");
+			}
+			const namespaceRegex = namespaceRedirect.from;
 
 			// URLs that should be matched (intended behavior)
 			const namespaceUrl = DataspaceProtocolContexts.Namespace;
-			expect(regex.test(namespaceUrl)).toBe(true);
+			expect(namespaceRegex.test(namespaceUrl)).toBe(true);
 
 			// URLs that should NOT be matched (bug fixed - these should not match)
 			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
 			const contextJsonldUrl = "https://w3id.org/dspace/2025/1/context.jsonld";
 
 			// After the fix, the regex should NOT match sub-paths
-			expect(regex.test(odrlProfileUrl)).toBe(false);
-			expect(regex.test(contextJsonldUrl)).toBe(false);
+			expect(namespaceRegex.test(odrlProfileUrl)).toBe(false);
+			expect(namespaceRegex.test(contextJsonldUrl)).toBe(false);
+		});
+
+		test("registerRedirects correctly redirects both Namespace and Context URLs", () => {
+			// Register redirects
+			DataspaceProtocolDataTypes.registerRedirects();
+			const redirects = JsonLdProcessor.getRedirects();
+			expect(redirects.length).toBe(2);
+
+			// Find both redirects
+			const namespaceRedirect = redirects.find(r =>
+				r.from.test(DataspaceProtocolContexts.Namespace)
+			);
+			const contextRedirect = redirects.find(r => r.from.test(DataspaceProtocolContexts.Context));
+
+			expect(namespaceRedirect).toBeDefined();
+			expect(contextRedirect).toBeDefined();
+
+			if (!namespaceRedirect || !contextRedirect) {
+				throw new Error("Redirects not found");
+			}
+
+			// Verify both redirect to JsonLdContext
+			expect(namespaceRedirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
+			expect(contextRedirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
+
+			// Verify Namespace redirect matches Namespace URL exactly
+			expect(namespaceRedirect.from.test(DataspaceProtocolContexts.Namespace)).toBe(true);
+			expect(namespaceRedirect.from.test(DataspaceProtocolContexts.Context)).toBe(false);
+
+			// Verify Context redirect matches Context URL exactly
+			expect(contextRedirect.from.test(DataspaceProtocolContexts.Context)).toBe(true);
+			expect(contextRedirect.from.test(DataspaceProtocolContexts.Namespace)).toBe(false);
+
+			// Verify neither redirect matches sub-paths
+			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
+			const contextJsonldUrl = "https://w3id.org/dspace/2025/1/context.jsonld";
+			expect(namespaceRedirect.from.test(odrlProfileUrl)).toBe(false);
+			expect(namespaceRedirect.from.test(contextJsonldUrl)).toBe(false);
+			expect(contextRedirect.from.test(odrlProfileUrl)).toBe(false);
+			expect(contextRedirect.from.test(contextJsonldUrl)).toBe(false);
 		});
 
 		test("redirect does NOT apply to odrl-profile URL when registered (bug fixed)", () => {
@@ -513,17 +565,25 @@ describe("Dataspace Protocol", () => {
 			DataspaceProtocolDataTypes.registerRedirects();
 
 			const redirects = JsonLdProcessor.getRedirects();
-			expect(redirects.length).toBe(1);
+			expect(redirects.length).toBe(2); // Namespace and Context redirects
+
+			// Find the namespace redirect
+			const namespaceRedirect = redirects.find(r =>
+				r.from.test(DataspaceProtocolContexts.Namespace)
+			);
+			expect(namespaceRedirect).toBeDefined();
+			if (!namespaceRedirect) {
+				throw new Error("Namespace redirect not found");
+			}
 
 			// The redirect should match the namespace exactly
 			const namespaceUrl = DataspaceProtocolContexts.Namespace;
 			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
-			const redirect = redirects[0];
 
 			// After the fix, the redirect should match the namespace but NOT sub-paths
-			expect(redirect.from.test(namespaceUrl)).toBe(true);
-			expect(redirect.from.test(odrlProfileUrl)).toBe(false);
-			expect(redirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
+			expect(namespaceRedirect.from.test(namespaceUrl)).toBe(true);
+			expect(namespaceRedirect.from.test(odrlProfileUrl)).toBe(false);
+			expect(namespaceRedirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
 		});
 	});
 });

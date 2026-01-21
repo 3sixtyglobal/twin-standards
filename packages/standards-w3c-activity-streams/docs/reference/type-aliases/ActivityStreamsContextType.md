@@ -1,5 +1,5 @@
 # Type Alias: ActivityStreamsContextType
 
-> **ActivityStreamsContextType** = *typeof* [`Namespace`](../variables/ActivityStreamsContexts.md#namespace) \| \[*typeof* [`Namespace`](../variables/ActivityStreamsContexts.md#namespace)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`Namespace`](../variables/ActivityStreamsContexts.md#namespace)\]
+> **ActivityStreamsContextType** = *typeof* [`Context`](../variables/ActivityStreamsContexts.md#context) \| \[*typeof* [`Context`](../variables/ActivityStreamsContexts.md#context)\] \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`Context`](../variables/ActivityStreamsContexts.md#context)\]
 
 The Activity Streams JSON-LD context type.

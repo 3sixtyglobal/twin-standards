@@ -13,8 +13,8 @@ export interface IJsonWebSignature2020Proof {
 	 * JSON-LD Context.
 	 */
 	"@context"?:
-		| typeof DidContexts.NamespaceSecurityJws2020
-		| [typeof DidContexts.NamespaceSecurityJws2020, ...IJsonLdContextDefinitionElement[]];
+		| typeof DidContexts.ContextSecurityJws2020
+		| [typeof DidContexts.ContextSecurityJws2020, ...IJsonLdContextDefinitionElement[]];
 
 	/**
 	 * JSON-LD Type.

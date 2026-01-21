@@ -11,8 +11,8 @@ import type { DcatContexts } from "./dcatContexts.js";
  * Supports the DCAT context URL or arrays with additional context definitions.
  */
 export type DcatContextType = {
-	dcat: typeof DcatContexts.Namespace;
-	dcterms: typeof DublinCoreContexts.NamespaceTerms;
-	odrl?: typeof OdrlContexts.Namespace;
-	foaf?: typeof FoafContexts.Namespace;
+	dcat: typeof DcatContexts.Context;
+	dcterms: typeof DublinCoreContexts.ContextTerms;
+	odrl?: typeof OdrlContexts.JsonLdContext;
+	foaf?: typeof FoafContexts.JsonLdContext;
 } & IJsonLdContextDefinition;

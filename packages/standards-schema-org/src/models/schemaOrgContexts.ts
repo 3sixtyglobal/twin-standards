@@ -13,6 +13,8 @@ export const SchemaOrgContexts = {
 
 	/**
 	 * The value to use in @context.
+	 * Note: Context differs from Namespace (no trailing slash) as per schema.org specification.
+	 * The schema.org JSON-LD context URL format does not include a trailing slash.
 	 */
 	Context: "https://schema.org",
 

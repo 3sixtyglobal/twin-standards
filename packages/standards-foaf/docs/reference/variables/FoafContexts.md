@@ -10,7 +10,15 @@ The LD Contexts concerning FOAF.
 
 > `readonly` **Namespace**: `"https://xmlns.com/foaf/0.1/"` = `"https://xmlns.com/foaf/0.1/"`
 
-The FOAF Namespace.
+The canonical RDF namespace URI.
+
+### Context
+
+> `readonly` **Context**: `"https://xmlns.com/foaf/0.1/"` = `"https://xmlns.com/foaf/0.1/"`
+
+The value to use in @context.
+Note: Context matches Namespace (both include trailing slash) as per FOAF specification.
+The FOAF JSON-LD context URL format includes a trailing slash.
 
 ### JsonLdContext
 

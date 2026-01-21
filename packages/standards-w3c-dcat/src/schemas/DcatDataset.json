@@ -86,11 +86,11 @@
 				},
 				"odrl": {
 					"type": "string",
-					"const": "http://www.w3.org/ns/odrl/2/"
+					"const": "http://www.w3.org/ns/odrl.jsonld"
 				},
 				"foaf": {
 					"type": "string",
-					"const": "https://xmlns.com/foaf/0.1/"
+					"const": "https://schema.twindev.org/foaf/types.jsonld"
 				}
 			},
 			"required": [

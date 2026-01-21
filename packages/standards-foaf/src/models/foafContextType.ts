@@ -7,6 +7,6 @@ import type { FoafContexts } from "./foafContexts.js";
  * The FOAF JSON-LD context type.
  */
 export type FoafContextType =
-	| typeof FoafContexts.Namespace
-	| [typeof FoafContexts.Namespace]
-	| [...IJsonLdContextDefinitionElement[], typeof FoafContexts.Namespace];
+	| typeof FoafContexts.Context
+	| [typeof FoafContexts.Context]
+	| [...IJsonLdContextDefinitionElement[], typeof FoafContexts.Context];

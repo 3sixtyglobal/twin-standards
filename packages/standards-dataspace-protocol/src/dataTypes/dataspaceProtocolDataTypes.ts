@@ -24,6 +24,12 @@ export class DataspaceProtocolDataTypes {
 			new RegExp(`^${escapedNamespace}$`),
 			DataspaceProtocolContexts.JsonLdContext
 		);
+		// Redirect Context to JsonLdContext for JSON-LD processing
+		const escapedContext = DataspaceProtocolContexts.Context.replace(/[$()*+.?[\\\]^{|}]/g, "\\$&");
+		JsonLdProcessor.addRedirect(
+			new RegExp(`^${escapedContext}$`),
+			DataspaceProtocolContexts.JsonLdContext
+		);
 	}
 
 	/**

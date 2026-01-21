@@ -13,8 +13,8 @@ export interface IDidVerifiableCredentialV2 extends IDidVerifiableCredentialComm
 	 * The context for the verifiable credential.
 	 */
 	"@context":
-		| typeof DidContexts.NamespaceVCv2
-		| [typeof DidContexts.NamespaceVCv2, ...IJsonLdContextDefinitionElement[]];
+		| typeof DidContexts.ContextVCv2
+		| [typeof DidContexts.ContextVCv2, ...IJsonLdContextDefinitionElement[]];
 
 	/**
 	 * The date the verifiable credential is valid from.

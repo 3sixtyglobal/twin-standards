@@ -7,9 +7,21 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const GaiaXContexts = {
 	/**
-	 * The Gaia-X Namespace
+	 * The canonical RDF namespace URI.
 	 */
-	Namespace: "https://schema.twindev.org/gaia-x-loire/"
+	Namespace: "https://schema.twindev.org/gaia-x-loire/",
+
+	/**
+	 * The value to use in @context.
+	 * Note: Context matches Namespace (both include trailing slash) as per Gaia-X specification.
+	 * The Gaia-X JSON-LD context URL format includes a trailing slash.
+	 */
+	Context: "https://schema.twindev.org/gaia-x-loire/",
+
+	/**
+	 * The JSON-LD Context URL.
+	 */
+	JsonLdContext: "https://schema.twindev.org/gaia-x-loire/types.jsonld"
 } as const;
 
 /**

@@ -35,9 +35,9 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatResource Interface", () => {
 		const resourceExample: IDcatResource = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms,
-				foaf: FoafContexts.Namespace,
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms,
+				foaf: FoafContexts.JsonLdContext,
 				vcard: VCardContexts.Namespace
 			},
 			"@type": "dcat:Resource",
@@ -95,9 +95,9 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatDataset Interface", () => {
 		const datasetExample: IDcatDataset = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms,
-				foaf: FoafContexts.Namespace,
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms,
+				foaf: FoafContexts.JsonLdContext,
 				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/dataset/energy-stats",
@@ -163,9 +163,9 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatCatalog Interface", () => {
 		const catalogExample: IDcatCatalog = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms,
-				foaf: FoafContexts.Namespace,
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms,
+				foaf: FoafContexts.JsonLdContext,
 				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/catalog/national-energy",
@@ -240,9 +240,9 @@ describe("DCAT Interfaces and Schemas", () => {
 	describe("IDcatDistribution Interface", () => {
 		const distributionExample: IDcatDistribution = {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms,
-				foaf: FoafContexts.Namespace,
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms,
+				foaf: FoafContexts.JsonLdContext,
 				vcard: VCardContexts.Namespace
 			},
 			"@id": "http://example.org/dataset/energy-stats/csv",
@@ -285,9 +285,9 @@ describe("DCAT Interfaces and Schemas", () => {
 describe("IDcatDataService Interface", () => {
 	const dataServiceExample: IDcatDataService = {
 		"@context": {
-			dcat: DcatContexts.Namespace,
-			dcterms: DublinCoreContexts.NamespaceTerms,
-			foaf: FoafContexts.Namespace,
+			dcat: DcatContexts.Context,
+			dcterms: DublinCoreContexts.ContextTerms,
+			foaf: FoafContexts.JsonLdContext,
 			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/service/energy-api",
@@ -341,9 +341,9 @@ describe("IDcatDataService Interface", () => {
 describe("IDcatDatasetSeries Interface", () => {
 	const datasetSeriesExample: IDcatDatasetSeries = {
 		"@context": {
-			dcat: DcatContexts.Namespace,
-			dcterms: DublinCoreContexts.NamespaceTerms,
-			foaf: FoafContexts.Namespace,
+			dcat: DcatContexts.Context,
+			dcterms: DublinCoreContexts.ContextTerms,
+			foaf: FoafContexts.JsonLdContext,
 			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/dataset-series/energy-stats",
@@ -420,9 +420,9 @@ describe("IDcatDatasetSeries Interface", () => {
 describe("IDcatCatalogRecord Interface", () => {
 	const catalogRecordExample: IDcatCatalogRecord = {
 		"@context": {
-			dcat: DcatContexts.Namespace,
-			dcterms: DublinCoreContexts.NamespaceTerms,
-			foaf: FoafContexts.Namespace,
+			dcat: DcatContexts.Context,
+			dcterms: DublinCoreContexts.ContextTerms,
+			foaf: FoafContexts.JsonLdContext,
 			vcard: VCardContexts.Namespace
 		},
 		"@id": "http://example.org/catalog/energy/record/energy-stats-2025",
@@ -434,8 +434,8 @@ describe("IDcatCatalogRecord Interface", () => {
 		"dcterms:modified": "2025-11-19",
 		"foaf:primaryTopic": {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms
 			},
 			"@id": "http://example.org/dataset/energy-stats-2025",
 			"@type": "dcat:Dataset",
@@ -486,8 +486,8 @@ describe("IDcatCatalogRecord Interface", () => {
 describe("IDcatRelationship Interface", () => {
 	const relationship: IDcatRelationship = {
 		"@context": {
-			dcat: DcatContexts.Namespace,
-			dcterms: DublinCoreContexts.NamespaceTerms
+			dcat: DcatContexts.Context,
+			dcterms: DublinCoreContexts.ContextTerms
 		},
 		"@type": "dcat:Relationship",
 		"dcat:relation": {
@@ -497,8 +497,8 @@ describe("IDcatRelationship Interface", () => {
 		},
 		"dcat:hadRole": {
 			"@context": {
-				dcat: DcatContexts.Namespace,
-				dcterms: DublinCoreContexts.NamespaceTerms
+				dcat: DcatContexts.Context,
+				dcterms: DublinCoreContexts.ContextTerms
 			},
 			"@id": "http://example.org/role/isDocumentedBy",
 			"@type": "dcat:Role",

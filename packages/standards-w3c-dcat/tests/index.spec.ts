@@ -8,6 +8,10 @@ describe("DCAT", () => {
 			expect(DcatContexts.Namespace).toBe("http://www.w3.org/ns/dcat#");
 		});
 
+		it("should have correct Context property", () => {
+			expect(DcatContexts.Context).toBe("http://www.w3.org/ns/dcat#");
+		});
+
 		it("should have correct redirect URL", () => {
 			expect(DcatContexts.JsonLdContext).toBe("https://www.w3.org/ns/dcat.jsonld");
 		});

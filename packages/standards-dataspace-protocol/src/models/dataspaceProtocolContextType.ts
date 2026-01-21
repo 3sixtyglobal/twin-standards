@@ -7,14 +7,15 @@ import type { DataspaceProtocolContexts } from "./dataspaceProtocolContexts.js";
  * The Dataspace Protocol JSON-LD context type.
  */
 export type DataspaceProtocolContextType =
-	| [typeof DataspaceProtocolContexts.JsonLdContext]
+	| typeof DataspaceProtocolContexts.Context
+	| [typeof DataspaceProtocolContexts.Context]
 	| [
 			...IJsonLdContextDefinitionElement[],
-			typeof DataspaceProtocolContexts.JsonLdContext,
+			typeof DataspaceProtocolContexts.Context,
 			IJsonLdContextDefinitionElement
 	  ]
 	| [
 			IJsonLdContextDefinitionElement,
-			typeof DataspaceProtocolContexts.JsonLdContext,
+			typeof DataspaceProtocolContexts.Context,
 			...IJsonLdContextDefinitionElement[]
 	  ];

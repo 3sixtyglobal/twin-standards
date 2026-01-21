@@ -10,7 +10,15 @@ Canonical EPCIS JSON-LD context IRIs as defined by GS1.
 
 > `readonly` **Namespace**: `"https://ref.gs1.org/epcis/"` = `"https://ref.gs1.org/epcis/"`
 
-The namespace for the objects.
+The canonical RDF namespace URI.
+
+### Context
+
+> `readonly` **Context**: `"https://ref.gs1.org/epcis"` = `"https://ref.gs1.org/epcis"`
+
+The value to use in JSON-LD context.
+Note: Context differs from Namespace (no trailing slash) as per GS1 EPCIS standard specification.
+The EPCIS JSON-LD context URL format does not include a trailing slash.
 
 ### JsonLdContext
 

@@ -13,10 +13,10 @@ export interface IMultikey {
 	 * JSON-LD Context.
 	 */
 	"@context"?:
-		| typeof DidContexts.NamespaceControllerIdentifiers
-		| typeof DidContexts.NamespaceSecurityMultikey
-		| [typeof DidContexts.NamespaceControllerIdentifiers, ...IJsonLdContextDefinitionElement[]]
-		| [typeof DidContexts.NamespaceSecurityMultikey, ...IJsonLdContextDefinitionElement[]];
+		| typeof DidContexts.ContextControllerIdentifiers
+		| typeof DidContexts.ContextSecurityMultikey
+		| [typeof DidContexts.ContextControllerIdentifiers, ...IJsonLdContextDefinitionElement[]]
+		| [typeof DidContexts.ContextSecurityMultikey, ...IJsonLdContextDefinitionElement[]];
 
 	/**
 	 * The id of the entry.

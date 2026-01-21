@@ -7,6 +7,11 @@ describe("Dublin Core", () => {
 		expect(DublinCoreContexts.NamespaceTerms).toBe("http://purl.org/dc/terms/");
 	});
 
+	it("should have correct Context properties", () => {
+		expect(DublinCoreContexts.ContextTerms).toBe("http://purl.org/dc/terms/");
+		expect(DublinCoreContexts.ContextDcmiType).toBe("http://purl.org/dc/dcmitype/");
+	});
+
 	it("should have correct property types", () => {
 		expect(`dc:${DublinCorePropertyType.Creator}`).toBe("dc:creator");
 		expect(`dc:${DublinCorePropertyType.Description}`).toBe("dc:description");

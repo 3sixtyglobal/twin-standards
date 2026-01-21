@@ -12,6 +12,7 @@ import {
 import { nameof } from "@twin.org/nameof";
 import { DcatContexts } from "@twin.org/standards-w3c-dcat";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
+import { DataspaceProtocolTransferProcessTypes } from "../models/transferProcess/dataspaceProtocolTransferProcessTypes.js";
 
 /**
  * Dataspace protocol helper.
@@ -56,10 +57,9 @@ export abstract class DataspaceProtocolHelper {
 				});
 			}
 
-			const validationResult = await JsonSchemaHelper.validate(
-				schema,
-				await DataspaceProtocolHelper.normalize(object)
-			);
+			const normalizedObject = await DataspaceProtocolHelper.normalize(object);
+
+			const validationResult = await JsonSchemaHelper.validate(schema, normalizedObject);
 			result = validationResult.result;
 
 			if (!result && Is.array(validationResult.error)) {
@@ -83,9 +83,19 @@ export abstract class DataspaceProtocolHelper {
 	public static async normalize(object: IJsonLdNodeObject): Promise<IJsonLdNodeObject> {
 		const annotatedObject = DataspaceProtocolHelper.annotateLDContextForFormat(object);
 
-		const compactedObject = await JsonLdProcessor.compact(annotatedObject, [
-			DataspaceProtocolContexts.JsonLdContext
-		]);
+		// Determine if this is a message/transfer type (which expects Context) or a catalog type (which expects JsonLdContext)
+		const objectType = ObjectHelper.propertyGet<string | string[]>(object, "@type");
+		const isTransferProcessType =
+			Is.string(objectType) &&
+			(objectType.includes("Message") ||
+				objectType === DataspaceProtocolTransferProcessTypes.TransferProcess ||
+				objectType === DataspaceProtocolTransferProcessTypes.TransferError);
+
+		const contextToUse = isTransferProcessType
+			? DataspaceProtocolContexts.Context
+			: DataspaceProtocolContexts.JsonLdContext;
+
+		const compactedObject = await JsonLdProcessor.compact(annotatedObject, [contextToUse]);
 
 		if (!Is.array(compactedObject["@context"])) {
 			ObjectHelper.propertySet(compactedObject, "@context", [

@@ -8,15 +8,15 @@ import type { EpcisContexts } from "./epcisContexts.js";
  * context root and optionally augmented with custom entries.
  */
 export type EpcisContextType =
-	| typeof EpcisContexts.Namespace
-	| [typeof EpcisContexts.Namespace]
+	| typeof EpcisContexts.Context
+	| [typeof EpcisContexts.Context]
 	| [
 			...IJsonLdContextDefinitionElement[],
-			typeof EpcisContexts.Namespace,
+			typeof EpcisContexts.Context,
 			IJsonLdContextDefinitionElement
 	  ]
 	| [
 			IJsonLdContextDefinitionElement,
-			typeof EpcisContexts.Namespace,
+			typeof EpcisContexts.Context,
 			...IJsonLdContextDefinitionElement[]
 	  ];

@@ -29,6 +29,9 @@ export class OdrlDataTypes {
 	 */
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(/https?:\/\/www\.w3\.org\/ns\/odrl\/?/, OdrlContexts.JsonLdContext);
+		// Redirect Context to JsonLdContext for JSON-LD processing
+		const escapedContext = OdrlContexts.Context.replace(/[$()*+.?[\\\]^{|}]/g, "\\$&");
+		JsonLdProcessor.addRedirect(new RegExp(`^${escapedContext}$`), OdrlContexts.JsonLdContext);
 	}
 
 	/**
@@ -98,6 +101,6 @@ export class OdrlDataTypes {
 			}
 		];
 
-		DataTypeHelper.registerTypes(OdrlContexts.Namespace, OdrlContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(OdrlContexts.Namespace, OdrlContexts.Context, types);
 	}
 }

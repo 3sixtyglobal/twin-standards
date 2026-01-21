@@ -10,27 +10,35 @@ The contexts for Dublin Core.
 
 > `readonly` **NamespaceTerms**: `"http://purl.org/dc/terms/"` = `"http://purl.org/dc/terms/"`
 
-The LD context for Dublin Core Terms vocabulary.
+The canonical RDF namespace URI for Dublin Core Terms.
 
-#### See
+### ContextTerms
 
-https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
+> `readonly` **ContextTerms**: `"http://purl.org/dc/terms/"` = `"http://purl.org/dc/terms/"`
 
-### NamespaceDcmiType
-
-> `readonly` **NamespaceDcmiType**: `"http://purl.org/dc/dcmitype/"` = `"http://purl.org/dc/dcmitype/"`
-
-The LD context for Dublin Core DCMI Types vocabulary.
-
-#### See
-
-https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
+The value to use in JSON-LD context for Dublin Core Terms.
+Note: ContextTerms matches NamespaceTerms (both include trailing slash) as per Dublin Core specification.
+The Dublin Core Terms JSON-LD context URL format includes a trailing slash.
 
 ### JsonLdContextTerms
 
 > `readonly` **JsonLdContextTerms**: `"https://schema.twindev.org/dublin-core/terms.jsonld"` = `"https://schema.twindev.org/dublin-core/terms.jsonld"`
 
 JSON-LD Context URL for terms
+
+### NamespaceDcmiType
+
+> `readonly` **NamespaceDcmiType**: `"http://purl.org/dc/dcmitype/"` = `"http://purl.org/dc/dcmitype/"`
+
+The canonical RDF namespace URI for Dublin Core DCMI Types.
+
+### ContextDcmiType
+
+> `readonly` **ContextDcmiType**: `"http://purl.org/dc/dcmitype/"` = `"http://purl.org/dc/dcmitype/"`
+
+The value to use in JSON-LD context for Dublin Core DCMI Types.
+Note: ContextDcmiType matches NamespaceDcmiType (both include trailing slash) as per Dublin Core specification.
+The Dublin Core DCMI Types JSON-LD context URL format includes a trailing slash.
 
 ### JsonLdContextDcmiType
 

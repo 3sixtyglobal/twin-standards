@@ -26,7 +26,7 @@ import { RightOperandType } from "../src/models/types/rightOperandType.js";
 describe("ODRL Examples from Specification", () => {
 	it("Example 1: Set Policy with use permission", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Set,
 			uid: "http://example.com/policy:1010",
 			permission: [
@@ -44,7 +44,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 2: Offer Policy with play permission and assigner", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:1011",
 			profile: "http://example.com/odrl:profile:01",
@@ -65,7 +65,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 3: Agreement Policy with play permission and both parties", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:1012",
 			profile: "http://example.com/odrl:profile:01",
@@ -92,7 +92,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 4: Offer Policy with display permission and target Asset", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:3333",
 			profile: "http://example.com/odrl:profile:02",
@@ -116,7 +116,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 5: Policy with AssetCollection target", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:1011",
 			profile: "http://example.com/odrl:profile:03",
@@ -170,7 +170,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 8: Agreement Policy with assigner and assignee", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:04",
@@ -184,7 +184,7 @@ describe("ODRL Examples from Specification", () => {
 			]
 		};
 
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:04");
@@ -199,7 +199,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 9: Agreement Policy with complex Party objects", () => {
 		const policy: IOdrlPolicy = {
-			"@context": [OdrlContexts.JsonLdContext, { vcard: VCardContexts.Namespace }],
+			"@context": [OdrlContexts.Context, { vcard: VCardContexts.Namespace }],
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:777",
 			profile: "http://example.com/odrl:profile:05",
@@ -223,10 +223,7 @@ describe("ODRL Examples from Specification", () => {
 			]
 		};
 
-		expect(policy["@context"]).toEqual([
-			OdrlContexts.JsonLdContext,
-			{ vcard: VCardContexts.Namespace }
-		]);
+		expect(policy["@context"]).toEqual([OdrlContexts.Context, { vcard: VCardContexts.Namespace }]);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:05");
 
@@ -291,7 +288,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 12: Offer Policy with play action", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:1012",
 			profile: "http://example.com/odrl:profile:06",
@@ -304,7 +301,7 @@ describe("ODRL Examples from Specification", () => {
 			]
 		};
 
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:1012");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:06");
@@ -321,7 +318,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 13: Offer Policy with datetime constraint", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:6163",
 			profile: "http://example.com/odrl:profile:10",
@@ -344,7 +341,7 @@ describe("ODRL Examples from Specification", () => {
 			]
 		};
 
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:6163");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
@@ -367,7 +364,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 14: Offer Policy with action refinement", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:6161",
 			profile: "http://example.com/odrl:profile:10",
@@ -396,7 +393,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test the policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:6161");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
@@ -450,7 +447,7 @@ describe("ODRL Examples from Specification", () => {
 
 		// Main policy with logical constraint
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:88",
 			profile: "http://example.com/odrl:profile:10",
@@ -473,7 +470,7 @@ describe("ODRL Examples from Specification", () => {
 			]
 		};
 
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:88");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
@@ -512,7 +509,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 16: Offer Policy with AssetCollection refinement", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:4444",
 			profile: "http://example.com/odrl:profile:11",
@@ -540,7 +537,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:4444");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:11");
@@ -570,7 +567,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 17: Agreement Policy with PartyCollection refinement", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:4444",
 			profile: "http://example.com/odrl:profile:12",
@@ -598,7 +595,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:4444");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:12");
@@ -630,7 +627,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 18: Offer Policy with permission constraint", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:9090",
 			profile: "http://example.com/odrl:profile:07",
@@ -654,7 +651,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:9090");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:07");
@@ -679,7 +676,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 19: Agreement Policy with Permission and Prohibition", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:5555",
 			profile: "http://example.com/odrl:profile:08",
@@ -703,7 +700,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:5555");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:08");
@@ -728,7 +725,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 20: Agreement Policy with obligation", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:42",
 			profile: "http://example.com/odrl:profile:09",
@@ -759,7 +756,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:42");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
@@ -791,7 +788,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 21: Agreement Policy with obligation consequence", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:42B",
 			profile: "http://example.com/odrl:profile:09",
@@ -827,7 +824,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:42B");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
@@ -868,7 +865,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 22: Offer Policy with permission duty", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Offer,
 			uid: "http://example.com/policy:88",
 			profile: "http://example.com/odrl:profile:09",
@@ -909,7 +906,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.uid).toBe("http://example.com/policy:88");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
@@ -953,7 +950,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 23: Agreement Policy with permission duty consequence", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:66",
 			profile: "http://example.com/odrl:profile:09",
@@ -980,7 +977,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:66");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
@@ -1008,7 +1005,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 24: Agreement Policy with prohibition remedy", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:33CC",
 			profile: "http://example.com/odrl:profile:09",
@@ -1029,7 +1026,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.uid).toBe("http://example.com/policy:33CC");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
@@ -1051,7 +1048,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 25: Atomic Policy with single permission", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:7777",
 			profile: "http://example.com/odrl:profile:20",
@@ -1065,7 +1062,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:7777");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
@@ -1086,7 +1083,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 26: Policy with multiple targets and actions", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:20",
@@ -1100,7 +1097,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
@@ -1129,7 +1126,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 27: Policy with decomposed atomic permissions", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:20",
@@ -1158,7 +1155,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
@@ -1195,7 +1192,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 28: Compact Policy with shared properties", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:21",
@@ -1213,7 +1210,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:21");
@@ -1232,7 +1229,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 29: Policy with expanded shared properties", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:21",
@@ -1253,7 +1250,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:21");
@@ -1276,7 +1273,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 30: Policy with Dublin Core metadata", () => {
 		const policy: IOdrlPolicy = {
-			"@context": [OdrlContexts.JsonLdContext, { dc: DublinCoreContexts.NamespaceTerms }],
+			"@context": [OdrlContexts.Context, { dc: DublinCoreContexts.NamespaceTerms }],
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:8888",
 			profile: "http://example.com/odrl:profile:22",
@@ -1292,7 +1289,7 @@ describe("ODRL Examples from Specification", () => {
 
 		// Test basic policy structure
 		expect(policy["@context"]).toEqual([
-			OdrlContexts.JsonLdContext,
+			OdrlContexts.Context,
 			{ dc: DublinCoreContexts.NamespaceTerms }
 		]);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
@@ -1317,7 +1314,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 31: Parent Policy with obligation for inheritance", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:default",
 			profile: "http://example.com/odrl:profile:30",
@@ -1331,7 +1328,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:default");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:30");
@@ -1348,7 +1345,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 32: Child Agreement Policy inheriting from parent Policy", () => {
 		const childPolicy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:4444",
 			profile: "http://example.com/odrl:profile:30",
@@ -1363,7 +1360,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(childPolicy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(childPolicy["@context"]).toBe(OdrlContexts.Context);
 		expect(childPolicy["@type"]).toBe(PolicyType.Agreement);
 		expect(childPolicy.uid).toBe("http://example.com/policy:4444");
 		expect(childPolicy.profile).toBe("http://example.com/odrl:profile:30");
@@ -1383,7 +1380,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 33: Agreement Policy after inheritance expansion", () => {
 		const expandedPolicy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Agreement,
 			uid: "http://example.com/policy:4444",
 			profile: "http://example.com/odrl:profile:30",
@@ -1407,7 +1404,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(expandedPolicy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(expandedPolicy["@context"]).toBe(OdrlContexts.Context);
 		expect(expandedPolicy["@type"]).toBe(PolicyType.Agreement);
 		expect(expandedPolicy.uid).toBe("http://example.com/policy:4444");
 		expect(expandedPolicy.profile).toBe("http://example.com/odrl:profile:30");
@@ -1439,7 +1436,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 34: Policy with conflict strategy preference", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:0001",
 			profile: "http://example.com/odrl:profile:40",
@@ -1454,7 +1451,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:0001");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:40");
@@ -1472,7 +1469,7 @@ describe("ODRL Examples from Specification", () => {
 
 	it("Example 35: Policy with permission and prohibition", () => {
 		const policy: IOdrlPolicy = {
-			"@context": OdrlContexts.JsonLdContext,
+			"@context": OdrlContexts.Context,
 			"@type": PolicyType.Policy,
 			uid: "http://example.com/policy:0002",
 			profile: "http://example.com/odrl:profile:40",
@@ -1493,7 +1490,7 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		// Test policy structure
-		expect(policy["@context"]).toBe(OdrlContexts.JsonLdContext);
+		expect(policy["@context"]).toBe(OdrlContexts.Context);
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.uid).toBe("http://example.com/policy:0002");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:40");
@@ -1552,7 +1549,7 @@ describe("OdrlDataTypes Validation", () => {
 
 			expect(handler).toBeDefined();
 			expect(handler.namespace).toBe(OdrlContexts.Namespace);
-			expect(handler.jsonLdContext).toBe(OdrlContexts.JsonLdContext);
+			expect(handler.jsonLdContext).toBe(OdrlContexts.Context);
 			expect(handler.type).toBe(type);
 			expect(handler.jsonSchema).toBeDefined();
 			expect(typeof handler.jsonSchema).toBe("function");
@@ -1570,7 +1567,7 @@ describe("OdrlDataTypes Validation", () => {
 			{
 				type: OdrlTypes.Policy,
 				data: {
-					"@context": OdrlContexts.JsonLdContext,
+					"@context": OdrlContexts.Context,
 					"@type": PolicyType.Set,
 					uid: "http://example.com/policy:test"
 				}
@@ -1664,7 +1661,7 @@ describe("OdrlDataTypes Validation", () => {
 	it("should be able to validate context variants", async () => {
 		const testCases = [
 			{
-				data: OdrlContexts.JsonLdContext,
+				data: OdrlContexts.Context,
 				expect: true
 			},
 			{
@@ -1672,7 +1669,7 @@ describe("OdrlDataTypes Validation", () => {
 				expect: false
 			},
 			{
-				data: [OdrlContexts.JsonLdContext],
+				data: [OdrlContexts.Context],
 				expect: true
 			},
 			{
@@ -1680,11 +1677,11 @@ describe("OdrlDataTypes Validation", () => {
 				expect: false
 			},
 			{
-				data: [OdrlContexts.JsonLdContext, OdrlContexts.JsonLdContext],
+				data: [OdrlContexts.Context, OdrlContexts.Context],
 				expect: false
 			},
 			{
-				data: ["https://foo", OdrlContexts.JsonLdContext, OdrlContexts.JsonLdContext],
+				data: ["https://foo", OdrlContexts.Context, OdrlContexts.Context],
 				expect: false
 			},
 			{
@@ -1696,19 +1693,19 @@ describe("OdrlDataTypes Validation", () => {
 				expect: false
 			},
 			{
-				data: ["https://foo", OdrlContexts.JsonLdContext],
+				data: ["https://foo", OdrlContexts.Context],
 				expect: true
 			},
 			{
-				data: ["https://foo", "https://foo", OdrlContexts.JsonLdContext],
+				data: ["https://foo", "https://foo", OdrlContexts.Context],
 				expect: false
 			},
 			{
-				data: ["https://foo", OdrlContexts.JsonLdContext, "https://foo"],
+				data: ["https://foo", OdrlContexts.Context, "https://foo"],
 				expect: false
 			},
 			{
-				data: ["https://foo", OdrlContexts.JsonLdContext, "https://foo2"],
+				data: ["https://foo", OdrlContexts.Context, "https://foo2"],
 				expect: true
 			}
 		];
@@ -1720,7 +1717,7 @@ describe("OdrlDataTypes Validation", () => {
 					anyOf: [
 						{
 							type: "string",
-							const: OdrlContexts.JsonLdContext
+							const: OdrlContexts.Context
 						},
 						{
 							type: "array",
@@ -1734,7 +1731,7 @@ describe("OdrlDataTypes Validation", () => {
 							minContains: 1,
 							maxContains: 1,
 							contains: {
-								const: OdrlContexts.JsonLdContext
+								const: OdrlContexts.Context
 							},
 							uniqueItems: true
 						}

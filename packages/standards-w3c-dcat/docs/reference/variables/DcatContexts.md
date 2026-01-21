@@ -10,7 +10,15 @@ DCAT (Data Catalog Vocabulary) namespace contexts.
 
 > `readonly` **Namespace**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
 
-The namespace for DCAT terms
+The canonical RDF namespace URI.
+
+### Context
+
+> `readonly` **Context**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
+
+The value to use in @context.
+Note: Context matches Namespace (both include trailing hash) as per DCAT 3.0 specification.
+The DCAT JSON-LD context URL format includes a trailing hash.
 
 ### JsonLdContext
 
