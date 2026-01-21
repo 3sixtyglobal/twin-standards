@@ -9,16 +9,16 @@ Supports the DCAT context URL or arrays with additional context definitions.
 
 ### dcat
 
-> **dcat**: *typeof* [`Context`](../variables/DcatContexts.md#context)
+> **dcat**: *typeof* [`Namespace`](../variables/DcatContexts.md#namespace)
 
 ### dcterms
 
-> **dcterms**: *typeof* `DublinCoreContexts.ContextTerms`
+> **dcterms**: *typeof* `DublinCoreContexts.NamespaceTerms`
 
 ### odrl?
 
-> `optional` **odrl**: *typeof* `OdrlContexts.JsonLdContext`
+> `optional` **odrl**: *typeof* `OdrlContexts.Namespace`
 
 ### foaf?
 
-> `optional` **foaf**: *typeof* `FoafContexts.JsonLdContext`
+> `optional` **foaf**: *typeof* `FoafContexts.Namespace`

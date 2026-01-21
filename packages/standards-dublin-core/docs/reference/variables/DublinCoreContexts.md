@@ -24,7 +24,7 @@ The Dublin Core Terms JSON-LD context URL format includes a trailing slash.
 
 > `readonly` **JsonLdContextTerms**: `"https://schema.twindev.org/dublin-core/terms.jsonld"` = `"https://schema.twindev.org/dublin-core/terms.jsonld"`
 
-JSON-LD Context URL for terms
+JSON-LD Context URL for Dublin Core Terms.
 
 ### NamespaceDcmiType
 

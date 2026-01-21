@@ -54,9 +54,9 @@ describe("Dataspace Protocol", () => {
 	describe("Catalog Protocol - Ds Protocol specific validations", () => {
 		const dataset: IDcatDataset = {
 			"@context": {
-				dcat: DcatContexts.Context,
-				odrl: OdrlContexts.JsonLdContext,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcat: DcatContexts.Namespace,
+				odrl: OdrlContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "dataset:dataset1",
 			"@type": "dcat:Dataset",
@@ -83,8 +83,8 @@ describe("Dataspace Protocol", () => {
 
 		const dataService: IDcatDataService = {
 			"@context": {
-				dcat: DcatContexts.Context,
-				dcterms: DublinCoreContexts.ContextTerms
+				dcat: DcatContexts.Namespace,
+				dcterms: DublinCoreContexts.NamespaceTerms
 			},
 			"@id": "dataservice:ds1",
 			"@type": "dcat:DataService",
@@ -142,9 +142,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Catalog as per the DS Protocol", async () => {
 			const catalog: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.Context,
-					odrl: OdrlContexts.JsonLdContext,
-					dcterms: DublinCoreContexts.ContextTerms,
+					dcat: DcatContexts.Namespace,
+					odrl: OdrlContexts.Namespace,
+					dcterms: DublinCoreContexts.NamespaceTerms,
 					// We need this otherwise the compaction process would not work well for participantId
 					participantId: {
 						"@id": `${DataspaceProtocolContexts.Namespace}participantId`,
@@ -170,9 +170,9 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Distribution as per the DS Protocol", async () => {
 			const distribution: IDcatDistribution = {
 				"@context": {
-					dcat: DcatContexts.Context,
-					odrl: OdrlContexts.JsonLdContext,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcat: DcatContexts.Namespace,
+					odrl: OdrlContexts.Namespace,
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@id": "distribution:d1",
 				"@type": "dcat:Distribution",
@@ -338,8 +338,8 @@ describe("Dataspace Protocol", () => {
 			// Response (simulated)
 			const dataset: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.Context,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcat: DcatContexts.Namespace,
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "sensor:sensor-dataset-1"
@@ -347,8 +347,8 @@ describe("Dataspace Protocol", () => {
 
 			const response: IDcatCatalog = {
 				"@context": {
-					dcat: DcatContexts.Context,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcat: DcatContexts.Namespace,
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Catalog",
 				"@id": "catalog:catalog-response",
@@ -373,8 +373,8 @@ describe("Dataspace Protocol", () => {
 			// Response
 			const response: IDcatDataset = {
 				"@context": {
-					dcat: DcatContexts.Context,
-					dcterms: DublinCoreContexts.ContextTerms
+					dcat: DcatContexts.Namespace,
+					dcterms: DublinCoreContexts.NamespaceTerms
 				},
 				"@type": "dcat:Dataset",
 				"@id": "dataset:dataset-456",

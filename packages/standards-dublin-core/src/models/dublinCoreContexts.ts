@@ -19,7 +19,7 @@ export const DublinCoreContexts = {
 	ContextTerms: "http://purl.org/dc/terms/",
 
 	/**
-	 * JSON-LD Context URL for terms
+	 * JSON-LD Context URL for Dublin Core Terms.
 	 */
 	JsonLdContextTerms: "https://schema.twindev.org/dublin-core/terms.jsonld",
 
