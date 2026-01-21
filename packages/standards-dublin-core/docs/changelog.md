@@ -1,5 +1,12 @@
 # @twin.org/standards-dublin-core - Changelog
 
+## [0.0.3-next.17](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.16...standards-dublin-core-v0.0.3-next.17) (2026-01-21)
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.0.3-next.16](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.15...standards-dublin-core-v0.0.3-next.16) (2026-01-19)
 
 

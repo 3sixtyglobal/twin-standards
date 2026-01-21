@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.17](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.16...standards-w3c-odrl-v0.0.3-next.17) (2026-01-21)
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.16 to 0.0.3-next.17
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.16 to 0.0.3-next.17
+
 ## [0.0.3-next.16](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.15...standards-w3c-odrl-v0.0.3-next.16) (2026-01-19)
 
 
