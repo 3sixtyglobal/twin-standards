@@ -14,7 +14,7 @@ export const DataspaceProtocolContexts = {
 	/**
 	 * The value to use in @context.
 	 */
-	Context: "https://w3id.org/dspace/2025/1",
+	Context: "https://w3id.org/dspace/2025/1/context.jsonld",
 
 	/**
 	 * The JSON-LD Context URL.

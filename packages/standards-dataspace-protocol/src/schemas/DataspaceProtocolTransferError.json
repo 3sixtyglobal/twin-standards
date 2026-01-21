@@ -9,13 +9,13 @@
 			"anyOf": [
 				{
 					"type": "string",
-					"const": "https://w3id.org/dspace/2025/1"
+					"const": "https://w3id.org/dspace/2025/1/context.jsonld"
 				},
 				{
 					"type": "array",
 					"items": {
 						"type": "string",
-						"const": "https://w3id.org/dspace/2025/1"
+						"const": "https://w3id.org/dspace/2025/1/context.jsonld"
 					},
 					"minItems": 1,
 					"maxItems": 1
@@ -26,7 +26,7 @@
 					"prefixItems": [
 						{
 							"type": "string",
-							"const": "https://w3id.org/dspace/2025/1"
+							"const": "https://w3id.org/dspace/2025/1/context.jsonld"
 						},
 						{
 							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
@@ -45,7 +45,7 @@
 						},
 						{
 							"type": "string",
-							"const": "https://w3id.org/dspace/2025/1"
+							"const": "https://w3id.org/dspace/2025/1/context.jsonld"
 						}
 					],
 					"items": {

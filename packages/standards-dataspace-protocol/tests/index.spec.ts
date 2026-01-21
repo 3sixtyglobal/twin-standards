@@ -34,7 +34,9 @@ describe("Dataspace Protocol", () => {
 
 	describe("Catalog Protocol - Contexts", () => {
 		test("should have correct context URLs", () => {
-			expect(DataspaceProtocolContexts.Context).toBe("https://w3id.org/dspace/2025/1");
+			expect(DataspaceProtocolContexts.Context).toBe(
+				"https://w3id.org/dspace/2025/1/context.jsonld"
+			);
 			expect(DataspaceProtocolContexts.JsonLdContext).toBe(
 				"https://w3id.org/dspace/2025/1/context.jsonld"
 			);
@@ -495,7 +497,7 @@ describe("Dataspace Protocol", () => {
 			// Register redirects to get the actual regex pattern used
 			DataspaceProtocolDataTypes.registerRedirects();
 			const redirects = JsonLdProcessor.getRedirects();
-			expect(redirects.length).toBe(2); // Namespace and Context redirects
+			expect(redirects.length).toBe(1); // Namespace and Context redirects
 
 			// Find the namespace redirect
 			const namespaceRedirect = redirects.find(
@@ -524,40 +526,31 @@ describe("Dataspace Protocol", () => {
 			// Register redirects
 			DataspaceProtocolDataTypes.registerRedirects();
 			const redirects = JsonLdProcessor.getRedirects();
-			expect(redirects.length).toBe(2);
+			expect(redirects.length).toBe(1);
 
 			// Find both redirects
 			const namespaceRedirect = redirects.find(r =>
 				r.from.test(DataspaceProtocolContexts.Namespace)
 			);
-			const contextRedirect = redirects.find(r => r.from.test(DataspaceProtocolContexts.Context));
 
 			expect(namespaceRedirect).toBeDefined();
-			expect(contextRedirect).toBeDefined();
 
-			if (!namespaceRedirect || !contextRedirect) {
+			if (!namespaceRedirect) {
 				throw new Error("Redirects not found");
 			}
 
 			// Verify both redirect to JsonLdContext
 			expect(namespaceRedirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
-			expect(contextRedirect.to).toBe(DataspaceProtocolContexts.JsonLdContext);
 
 			// Verify Namespace redirect matches Namespace URL exactly
 			expect(namespaceRedirect.from.test(DataspaceProtocolContexts.Namespace)).toBe(true);
 			expect(namespaceRedirect.from.test(DataspaceProtocolContexts.Context)).toBe(false);
-
-			// Verify Context redirect matches Context URL exactly
-			expect(contextRedirect.from.test(DataspaceProtocolContexts.Context)).toBe(true);
-			expect(contextRedirect.from.test(DataspaceProtocolContexts.Namespace)).toBe(false);
 
 			// Verify neither redirect matches sub-paths
 			const odrlProfileUrl = "https://w3id.org/dspace/2025/1/odrl-profile.jsonld";
 			const contextJsonldUrl = "https://w3id.org/dspace/2025/1/context.jsonld";
 			expect(namespaceRedirect.from.test(odrlProfileUrl)).toBe(false);
 			expect(namespaceRedirect.from.test(contextJsonldUrl)).toBe(false);
-			expect(contextRedirect.from.test(odrlProfileUrl)).toBe(false);
-			expect(contextRedirect.from.test(contextJsonldUrl)).toBe(false);
 		});
 
 		test("redirect does NOT apply to odrl-profile URL when registered (bug fixed)", () => {
@@ -565,7 +558,7 @@ describe("Dataspace Protocol", () => {
 			DataspaceProtocolDataTypes.registerRedirects();
 
 			const redirects = JsonLdProcessor.getRedirects();
-			expect(redirects.length).toBe(2); // Namespace and Context redirects
+			expect(redirects.length).toBe(1); // Namespace and Context redirects
 
 			// Find the namespace redirect
 			const namespaceRedirect = redirects.find(r =>

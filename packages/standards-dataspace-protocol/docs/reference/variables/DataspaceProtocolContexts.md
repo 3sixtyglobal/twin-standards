@@ -14,7 +14,7 @@ The canonical RDF namespace URI.
 
 ### Context
 
-> `readonly` **Context**: `"https://w3id.org/dspace/2025/1"` = `"https://w3id.org/dspace/2025/1"`
+> `readonly` **Context**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
 
 The value to use in @context.
 
