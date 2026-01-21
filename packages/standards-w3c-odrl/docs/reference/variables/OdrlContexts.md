@@ -14,11 +14,10 @@ The canonical RDF namespace URI.
 
 ### Context
 
-> `readonly` **Context**: `"http://www.w3.org/ns/odrl/2"` = `"http://www.w3.org/ns/odrl/2"`
+> `readonly` **Context**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
 The value to use in @context.
-Note: Context differs from Namespace (no trailing slash) as per ODRL 2.2 specification.
-The ODRL JSON-LD context URL format does not include a trailing slash.
+Note: Context points to the JSON-LD url as per ODRL 2.2 specification.
 
 ### JsonLdContext
 
