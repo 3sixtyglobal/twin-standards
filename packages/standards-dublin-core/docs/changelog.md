@@ -1,5 +1,12 @@
 # @twin.org/standards-dublin-core - Changelog
 
+## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.19...standards-dublin-core-v0.0.3-next.20) (2026-01-21)
+
+
+### Bug Fixes
+
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/twinfoundation/standards/issues/119)) ([110cc50](https://github.com/twinfoundation/standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
 ## [0.0.3-next.19](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.18...standards-dublin-core-v0.0.3-next.19) (2026-01-21)
 
 

@@ -1,5 +1,22 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.19...standards-w3c-dcat-v0.0.3-next.20) (2026-01-21)
+
+
+### Bug Fixes
+
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/twinfoundation/standards/issues/119)) ([110cc50](https://github.com/twinfoundation/standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.19 to 0.0.3-next.20
+    * @twin.org/standards-foaf bumped from 0.0.3-next.19 to 0.0.3-next.20
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.19 to 0.0.3-next.20
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.19 to 0.0.3-next.20
+
 ## [0.0.3-next.19](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.18...standards-w3c-dcat-v0.0.3-next.19) (2026-01-21)
 
 
