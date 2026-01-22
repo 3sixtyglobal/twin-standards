@@ -37,37 +37,34 @@ export class CatalogDataTypes {
 
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolContexts.Context,
+			DataspaceProtocolContexts.JsonLdContext,
 			types
 		);
 
 		// These are the custom version of the DCAT3 classes with DS Protocol constraints
-		DataTypeHelper.registerType(
-			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolCatalogTypes.Dataset,
-			DcatContexts.JsonLdContext,
-			DsProtocolDatasetSchema
-		);
+		const typesDcat3 = [
+			{
+				type: DataspaceProtocolCatalogTypes.Dataset,
+				schema: DsProtocolDatasetSchema
+			},
+			{
+				type: DataspaceProtocolCatalogTypes.Catalog,
+				schema: DsProtocolCatalogSchema
+			},
+			{
+				type: DataspaceProtocolCatalogTypes.Distribution,
+				schema: DsProtocolDistributionSchema
+			},
+			{
+				type: DataspaceProtocolCatalogTypes.DataService,
+				schema: DsProtocolDataServiceSchema
+			}
+		];
 
-		DataTypeHelper.registerType(
+		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolCatalogTypes.Catalog,
 			DcatContexts.JsonLdContext,
-			DsProtocolCatalogSchema
-		);
-
-		DataTypeHelper.registerType(
-			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolCatalogTypes.Distribution,
-			DcatContexts.JsonLdContext,
-			DsProtocolDistributionSchema
-		);
-
-		DataTypeHelper.registerType(
-			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolCatalogTypes.DataService,
-			DcatContexts.JsonLdContext,
-			DsProtocolDataServiceSchema
+			typesDcat3
 		);
 	}
 }

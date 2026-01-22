@@ -60,6 +60,6 @@ export class EpcisDataTypes {
 			}
 		];
 
-		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.Context, types);
+		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.JsonLdContext, types);
 	}
 }

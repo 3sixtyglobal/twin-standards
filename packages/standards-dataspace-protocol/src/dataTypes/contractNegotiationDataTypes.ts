@@ -67,7 +67,7 @@ export class ContractNegotiationDataTypes {
 
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
-			DataspaceProtocolContexts.Context,
+			DataspaceProtocolContexts.JsonLdContext,
 			types
 		);
 	}

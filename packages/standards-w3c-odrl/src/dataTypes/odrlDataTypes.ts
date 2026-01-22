@@ -98,6 +98,6 @@ export class OdrlDataTypes {
 			}
 		];
 
-		DataTypeHelper.registerTypes(OdrlContexts.Namespace, OdrlContexts.Context, types);
+		DataTypeHelper.registerTypes(OdrlContexts.Namespace, OdrlContexts.JsonLdContext, types);
 	}
 }

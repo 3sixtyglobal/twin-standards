@@ -50,6 +50,6 @@ export class GaiaXDataTypes {
 			}
 		];
 
-		DataTypeHelper.registerTypes(GaiaXContexts.Namespace, undefined, types);
+		DataTypeHelper.registerTypes(GaiaXContexts.Namespace, GaiaXContexts.JsonLdContext, types);
 	}
 }
