@@ -2797,7 +2797,7 @@ Loading breakbulk (1 ton to 7 ton) ro-ro in overtime: 203098.
 
 > `readonly` **LoadingBreakbulkRoRoInOvertime203099**: `"unece:FreightChargeTypeId#203099"` = `"unece:FreightChargeTypeId#203099"`
 
-Loading breakbulk (<1 ton) ro-ro in overtime: 203099.
+Loading breakbulk (&lt;1 ton) ro-ro in overtime: 203099.
 
 ### LoadingCarsRoRo
 
@@ -2845,7 +2845,7 @@ Loading general cargo (1 ton to 7 tons) ro-ro: 203108.
 
 > `readonly` **LoadingGeneralCargoRoRo203109**: `"unece:FreightChargeTypeId#203109"` = `"unece:FreightChargeTypeId#203109"`
 
-Loading general cargo (<1 ton) ro-ro: 203109.
+Loading general cargo (&lt;1 ton) ro-ro: 203109.
 
 ### LoadingLogsRoRo
 
@@ -4281,7 +4281,7 @@ Discharging breakbulk (1 ton to 7 ton) ro-ro in overtime: 204144.
 
 > `readonly` **DischargingBreakbulkRoRoInOvertime204145**: `"unece:FreightChargeTypeId#204145"` = `"unece:FreightChargeTypeId#204145"`
 
-Discharging breakbulk (<1 ton) ro-ro in overtime: 204145.
+Discharging breakbulk (&lt;1 ton) ro-ro in overtime: 204145.
 
 ### DischargingCarsRoRo
 
@@ -4329,7 +4329,7 @@ Discharging general cargo (1 ton to 7 tons) ro-ro: 204154.
 
 > `readonly` **DischargingGeneralCargoRoRo204155**: `"unece:FreightChargeTypeId#204155"` = `"unece:FreightChargeTypeId#204155"`
 
-Discharging general cargo (<1 ton) ro-ro: 204155.
+Discharging general cargo (&lt;1 ton) ro-ro: 204155.
 
 ### DischargingLogsRoRo
 
@@ -4839,13 +4839,13 @@ Shifting breakbulk (1 ton to 7 ton) ro-ro in overtime: 205020.
 
 > `readonly` **ShiftingBreakbulkRoRo205021**: `"unece:FreightChargeTypeId#205021"` = `"unece:FreightChargeTypeId#205021"`
 
-Shifting breakbulk (<1 ton) ro-ro: 205021.
+Shifting breakbulk (&lt;1 ton) ro-ro: 205021.
 
 ### ShiftingBreakbulkRoRoInOvertime205022
 
 > `readonly` **ShiftingBreakbulkRoRoInOvertime205022**: `"unece:FreightChargeTypeId#205022"` = `"unece:FreightChargeTypeId#205022"`
 
-Shifting breakbulk (<1 ton) ro-ro in overtime: 205022.
+Shifting breakbulk (&lt;1 ton) ro-ro in overtime: 205022.
 
 ### ShiftingCarsRoRo
 
@@ -5193,13 +5193,13 @@ Reloading breakbulk (1 ton to 7 ton) ro-ro in overtime: 206018.
 
 > `readonly` **ReloadingBreakbulkRoRo206019**: `"unece:FreightChargeTypeId#206019"` = `"unece:FreightChargeTypeId#206019"`
 
-Reloading breakbulk (<1 ton) ro-ro: 206019.
+Reloading breakbulk (&lt;1 ton) ro-ro: 206019.
 
 ### ReloadingBreakbulkRoRoInOvertime206020
 
 > `readonly` **ReloadingBreakbulkRoRoInOvertime206020**: `"unece:FreightChargeTypeId#206020"` = `"unece:FreightChargeTypeId#206020"`
 
-Reloading breakbulk (<1 ton) ro-ro in overtime: 206020.
+Reloading breakbulk (&lt;1 ton) ro-ro in overtime: 206020.
 
 ### ReloadingCarsRoRo
 
@@ -5589,7 +5589,7 @@ Receiving selfunits: 207019.
 
 > `readonly` **ReceivingSelfunits207020**: `"unece:FreightChargeTypeId#207020"` = `"unece:FreightChargeTypeId#207020"`
 
-Receiving selfunits (<10 ton): 207020.
+Receiving selfunits (&lt;10 ton): 207020.
 
 ### ReceivingSelfunitsAssistedByThirdParty
 

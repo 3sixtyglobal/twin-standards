@@ -2333,7 +2333,7 @@ export const UneceFreightChargeTypeId = {
 	LoadingBreakbulkRoRoInOvertime: "unece:FreightChargeTypeId#203098",
 
 	/**
-	 * Loading breakbulk (<1 ton) ro-ro in overtime: 203099.
+	 * Loading breakbulk (&lt;1 ton) ro-ro in overtime: 203099.
 	 */
 	LoadingBreakbulkRoRoInOvertime203099: "unece:FreightChargeTypeId#203099",
 
@@ -2373,7 +2373,7 @@ export const UneceFreightChargeTypeId = {
 	LoadingGeneralCargoRoRo: "unece:FreightChargeTypeId#203108",
 
 	/**
-	 * Loading general cargo (<1 ton) ro-ro: 203109.
+	 * Loading general cargo (&lt;1 ton) ro-ro: 203109.
 	 */
 	LoadingGeneralCargoRoRo203109: "unece:FreightChargeTypeId#203109",
 
@@ -3570,7 +3570,7 @@ export const UneceFreightChargeTypeId = {
 	DischargingBreakbulkRoRoInOvertime: "unece:FreightChargeTypeId#204144",
 
 	/**
-	 * Discharging breakbulk (<1 ton) ro-ro in overtime: 204145.
+	 * Discharging breakbulk (&lt;1 ton) ro-ro in overtime: 204145.
 	 */
 	DischargingBreakbulkRoRoInOvertime204145: "unece:FreightChargeTypeId#204145",
 
@@ -3610,7 +3610,7 @@ export const UneceFreightChargeTypeId = {
 	DischargingGeneralCargoRoRo: "unece:FreightChargeTypeId#204154",
 
 	/**
-	 * Discharging general cargo (<1 ton) ro-ro: 204155.
+	 * Discharging general cargo (&lt;1 ton) ro-ro: 204155.
 	 */
 	DischargingGeneralCargoRoRo204155: "unece:FreightChargeTypeId#204155",
 
@@ -4035,12 +4035,12 @@ export const UneceFreightChargeTypeId = {
 	ShiftingBreakbulkRoRoInOvertime: "unece:FreightChargeTypeId#205020",
 
 	/**
-	 * Shifting breakbulk (<1 ton) ro-ro: 205021.
+	 * Shifting breakbulk (&lt;1 ton) ro-ro: 205021.
 	 */
 	ShiftingBreakbulkRoRo205021: "unece:FreightChargeTypeId#205021",
 
 	/**
-	 * Shifting breakbulk (<1 ton) ro-ro in overtime: 205022.
+	 * Shifting breakbulk (&lt;1 ton) ro-ro in overtime: 205022.
 	 */
 	ShiftingBreakbulkRoRoInOvertime205022: "unece:FreightChargeTypeId#205022",
 
@@ -4330,12 +4330,12 @@ export const UneceFreightChargeTypeId = {
 	ReloadingBreakbulkRoRoInOvertime: "unece:FreightChargeTypeId#206018",
 
 	/**
-	 * Reloading breakbulk (<1 ton) ro-ro: 206019.
+	 * Reloading breakbulk (&lt;1 ton) ro-ro: 206019.
 	 */
 	ReloadingBreakbulkRoRo206019: "unece:FreightChargeTypeId#206019",
 
 	/**
-	 * Reloading breakbulk (<1 ton) ro-ro in overtime: 206020.
+	 * Reloading breakbulk (&lt;1 ton) ro-ro in overtime: 206020.
 	 */
 	ReloadingBreakbulkRoRoInOvertime206020: "unece:FreightChargeTypeId#206020",
 
@@ -4660,7 +4660,7 @@ export const UneceFreightChargeTypeId = {
 	ReceivingSelfunits: "unece:FreightChargeTypeId#207019",
 
 	/**
-	 * Receiving selfunits (<10 ton): 207020.
+	 * Receiving selfunits (&lt;10 ton): 207020.
 	 */
 	ReceivingSelfunits207020: "unece:FreightChargeTypeId#207020",
 
