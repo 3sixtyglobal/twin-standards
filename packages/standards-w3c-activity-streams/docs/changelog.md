@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.20...standards-w3c-activity-streams-v0.0.3-next.21) (2026-01-23)
+
+
+### Features
+
+* w3c activity streams ([#121](https://github.com/twinfoundation/standards/issues/121)) ([dfb85b4](https://github.com/twinfoundation/standards/commit/dfb85b4c3b25ee7daa77bd52bdbf9de8de457f5f))
+
 ## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.19...standards-w3c-activity-streams-v0.0.3-next.20) (2026-01-21)
 
 

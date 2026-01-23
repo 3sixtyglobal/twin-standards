@@ -1,5 +1,19 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.20...standards-gaia-x-v0.0.3-next.21) (2026-01-23)
+
+
+### Features
+
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.20 to 0.0.3-next.21
+
 ## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.19...standards-gaia-x-v0.0.3-next.20) (2026-01-21)
 
 

@@ -1,5 +1,21 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.20...standards-w3c-odrl-v0.0.3-next.21) (2026-01-23)
+
+
+### Features
+
+* remove unneeded redirect ([32f1b5a](https://github.com/twinfoundation/standards/commit/32f1b5a3479902673a3f7bd554bf6d963df7a462))
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.20 to 0.0.3-next.21
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.20 to 0.0.3-next.21
+
 ## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.19...standards-w3c-odrl-v0.0.3-next.20) (2026-01-21)
 
 

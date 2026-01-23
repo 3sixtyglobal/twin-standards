@@ -1,5 +1,12 @@
 # @twin.org/standards-gs1 - Changelog
 
+## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.20...standards-gs1-v0.0.3-next.21) (2026-01-23)
+
+
+### Features
+
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+
 ## [0.0.3-next.20](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.19...standards-gs1-v0.0.3-next.20) (2026-01-21)
 
 
