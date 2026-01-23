@@ -1,4 +1,4 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
@@ -21,7 +21,7 @@ export const ActivityStreamsContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://www.w3.org/ns/activitystreams"
+	JsonLdContext: "https://www.w3.org/ns/activitystreams.jsonld"
 } as const;
 
 /**

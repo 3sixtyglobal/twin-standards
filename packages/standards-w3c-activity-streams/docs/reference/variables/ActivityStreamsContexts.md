@@ -22,6 +22,6 @@ The Activity Streams JSON-LD context URL format does not include a trailing hash
 
 ### JsonLdContext
 
-> `readonly` **JsonLdContext**: `"https://www.w3.org/ns/activitystreams"` = `"https://www.w3.org/ns/activitystreams"`
+> `readonly` **JsonLdContext**: `"https://www.w3.org/ns/activitystreams.jsonld"` = `"https://www.w3.org/ns/activitystreams.jsonld"`
 
 The JSON-LD Context URL.

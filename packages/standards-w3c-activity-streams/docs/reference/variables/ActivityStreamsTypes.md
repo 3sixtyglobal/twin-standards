@@ -11,7 +11,9 @@ Section 3.1 Activity Types: https://www.w3.org/TR/activitystreams-vocabulary/#ac
 
 > `readonly` **Activity**: `"Activity"` = `"Activity"`
 
-Activity
+Activity.
+
+Generic base type for activities (actions) in Activity Streams.
 
 #### See
 
@@ -21,7 +23,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-activity
 
 > `readonly` **Accept**: `"Accept"` = `"Accept"`
 
-Accept
+Accept.
+
+Indicates that the actor accepts the object.
 
 #### See
 
@@ -31,7 +35,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accept
 
 > `readonly` **Add**: `"Add"` = `"Add"`
 
-Add
+Add.
+
+Indicates that the actor added the object to the target.
 
 #### See
 
@@ -41,7 +47,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-add
 
 > `readonly` **Announce**: `"Announce"` = `"Announce"`
 
-Announce
+Announce.
+
+Indicates that the actor is calling attention to the object.
 
 #### See
 
@@ -51,7 +59,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-announce
 
 > `readonly` **Arrive**: `"Arrive"` = `"Arrive"`
 
-Arrive
+Arrive.
+
+Intransitive activity indicating that the actor arrived at a location.
 
 #### See
 
@@ -61,7 +71,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-arrive
 
 > `readonly` **Block**: `"Block"` = `"Block"`
 
-Block
+Block.
+
+Indicates that the actor is blocking the object (a stronger form of Ignore).
 
 #### See
 
@@ -71,7 +83,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-block
 
 > `readonly` **Create**: `"Create"` = `"Create"`
 
-Create
+Create.
+
+Indicates that the actor has created the object.
 
 #### See
 
@@ -81,7 +95,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-create
 
 > `readonly` **Delete**: `"Delete"` = `"Delete"`
 
-Delete
+Delete.
+
+Indicates that the actor has deleted the object.
 
 #### See
 
@@ -91,7 +107,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-delete
 
 > `readonly` **Dislike**: `"Dislike"` = `"Dislike"`
 
-Dislike
+Dislike.
+
+Indicates that the actor dislikes the object.
 
 #### See
 
@@ -101,7 +119,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-dislike
 
 > `readonly` **Flag**: `"Flag"` = `"Flag"`
 
-Flag
+Flag.
+
+Indicates that the actor is flagging the object (e.g., reporting it).
 
 #### See
 
@@ -111,7 +131,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-flag
 
 > `readonly` **Follow**: `"Follow"` = `"Follow"`
 
-Follow
+Follow.
+
+Indicates that the actor is following the object.
 
 #### See
 
@@ -121,7 +143,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow
 
 > `readonly` **Ignore**: `"Ignore"` = `"Ignore"`
 
-Ignore
+Ignore.
+
+Indicates that the actor is ignoring the object.
 
 #### See
 
@@ -131,7 +155,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ignore
 
 > `readonly` **Invite**: `"Invite"` = `"Invite"`
 
-Invite
+Invite.
+
+Specialization of Offer in which the actor is extending an invitation.
 
 #### See
 
@@ -141,7 +167,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-invite
 
 > `readonly` **Join**: `"Join"` = `"Join"`
 
-Join
+Join.
+
+Indicates that the actor has joined the object.
 
 #### See
 
@@ -151,7 +179,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-join
 
 > `readonly` **Leave**: `"Leave"` = `"Leave"`
 
-Leave
+Leave.
+
+Indicates that the actor has left the object.
 
 #### See
 
@@ -161,7 +191,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-leave
 
 > `readonly` **Like**: `"Like"` = `"Like"`
 
-Like
+Like.
+
+Indicates that the actor likes, recommends, or endorses the object.
 
 #### See
 
@@ -171,7 +203,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-like
 
 > `readonly` **Listen**: `"Listen"` = `"Listen"`
 
-Listen
+Listen.
+
+Indicates that the actor has listened to the object.
 
 #### See
 
@@ -181,7 +215,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-listen
 
 > `readonly` **Move**: `"Move"` = `"Move"`
 
-Move
+Move.
+
+Indicates that the actor has moved the object from `origin` to `target`.
 
 #### See
 
@@ -191,7 +227,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-move
 
 > `readonly` **Offer**: `"Offer"` = `"Offer"`
 
-Offer
+Offer.
+
+Indicates that the actor is offering the object (optionally to a target).
 
 #### See
 
@@ -201,7 +239,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-offer
 
 > `readonly` **Question**: `"Question"` = `"Question"`
 
-Question
+Question.
+
+Intransitive activity representing a question; can express options via `oneOf`/`anyOf`.
 
 #### See
 
@@ -211,7 +251,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
 
 > `readonly` **Reject**: `"Reject"` = `"Reject"`
 
-Reject
+Reject.
+
+Indicates that the actor is rejecting the object.
 
 #### See
 
@@ -221,7 +263,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-reject
 
 > `readonly` **Read**: `"Read"` = `"Read"`
 
-Read
+Read.
+
+Indicates that the actor has read the object.
 
 #### See
 
@@ -231,7 +275,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-read
 
 > `readonly` **Remove**: `"Remove"` = `"Remove"`
 
-Remove
+Remove.
+
+Indicates that the actor is removing the object (optionally from an origin context).
 
 #### See
 
@@ -241,7 +287,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove
 
 > `readonly` **TentativeReject**: `"TentativeReject"` = `"TentativeReject"`
 
-TentativeReject
+TentativeReject.
+
+Specialization of Reject indicating that the rejection is tentative.
 
 #### See
 
@@ -251,7 +299,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativereject
 
 > `readonly` **TentativeAccept**: `"TentativeAccept"` = `"TentativeAccept"`
 
-TentativeAccept
+TentativeAccept.
+
+Specialization of Accept indicating that the acceptance is tentative.
 
 #### See
 
@@ -261,7 +311,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tentativeaccept
 
 > `readonly` **Travel**: `"Travel"` = `"Travel"`
 
-Travel
+Travel.
+
+Intransitive activity indicating that the actor is travelling to `target` from `origin`.
 
 #### See
 
@@ -271,7 +323,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-travel
 
 > `readonly` **Undo**: `"Undo"` = `"Undo"`
 
-Undo
+Undo.
+
+Indicates that the actor is undoing a previous activity.
 
 #### See
 
@@ -281,7 +335,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-undo
 
 > `readonly` **Update**: `"Update"` = `"Update"`
 
-Update
+Update.
+
+Indicates that the actor has updated the object.
 
 #### See
 
@@ -291,7 +347,9 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-update
 
 > `readonly` **View**: `"View"` = `"View"`
 
-View
+View.
+
+Indicates that the actor has viewed the object.
 
 #### See
 

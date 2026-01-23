@@ -1,18 +1,21 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdLanguageMap, IJsonLdNodeObject, IJsonLdObject } from "@twin.org/data-json-ld";
+import type { IJsonLdLanguageMap, IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { ActivityStreamsContextType } from "./activityStreamsContextType.js";
 import type { ActivityStreamsTypes } from "./activityStreamsTypes.js";
+import type { IActivityStreamsObject } from "./IActivityStreamsObject.js";
 
 /**
- * A W3C Activity from Activity Streams
+ * A W3C Activity from Activity Streams.
+ *
+ * An `Activity` describes an action performed by an `actor` on an `object`, and
+ * can optionally include a `target`, `result`, `origin`, or `instrument`.
  * @see https://www.w3.org/TR/activitystreams-core/#activities
  */
-export interface IActivityStreamsActivity extends IJsonLdNodeObject {
+export interface IActivityStreamsActivity extends IActivityStreamsObject {
 	/**
 	 * The LD Context.
-	 *
 	 */
 	"@context": ActivityStreamsContextType;
 
@@ -23,26 +26,27 @@ export interface IActivityStreamsActivity extends IJsonLdNodeObject {
 
 	/**
 	 * The generator of the Activity.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator
 	 */
-	generator?: IJsonLdObject["@id"] | IJsonLdNodeObject;
+	generator?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * The Actor behind the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor
 	 */
-	actor: IJsonLdObject["@id"] | IJsonLdNodeObject;
+	actor?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * The object affected by the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object
 	 */
-	object: IJsonLdNodeObject;
+	object?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * The target of the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target
 	 */
-	target?: IJsonLdNodeObject;
+	target?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * Summary of the Activity.
@@ -54,17 +58,23 @@ export interface IActivityStreamsActivity extends IJsonLdNodeObject {
 	 * Result of the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result
 	 */
-	result?: IJsonLdNodeObject;
+	result?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * Activity's origin.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-origin
 	 */
-	origin?: IJsonLdObject["@id"] | IJsonLdNodeObject;
+	origin?: ObjectOrArray<string | IJsonLdNodeObject>;
+
+	/**
+	 * Instrument used in the Activity.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-instrument
+	 */
+	instrument?: ObjectOrArray<string | IJsonLdNodeObject>;
 
 	/**
 	 * The date and time at which the object was updated.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
 	 */
-	updated: string;
+	updated?: string;
 }

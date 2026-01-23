@@ -24,6 +24,7 @@
 	],
 	"words": [
 		"abbrev",
+		"activitystreams",
 		"autorelease",
 		"bday",
 		"cefact",
@@ -64,8 +65,8 @@
 		"Stiftung",
 		"unece",
 		"vcard",
-		"xone",
-		"vocab"
+		"vocab",
+		"xone"
 	],
 	"ignoreRegExpList": [
 		"/from\\s+(['\"]).*\\1/",
