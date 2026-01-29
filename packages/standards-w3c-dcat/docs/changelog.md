@@ -1,5 +1,22 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.22](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.21...standards-w3c-dcat-v0.0.3-next.22) (2026-01-29)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-dcat:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.21 to 0.0.3-next.22
+    * @twin.org/standards-foaf bumped from 0.0.3-next.21 to 0.0.3-next.22
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.21 to 0.0.3-next.22
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.21 to 0.0.3-next.22
+
 ## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.20...standards-w3c-dcat-v0.0.3-next.21) (2026-01-23)
 
 

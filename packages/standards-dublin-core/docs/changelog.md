@@ -1,5 +1,12 @@
 # @twin.org/standards-dublin-core - Changelog
 
+## [0.0.3-next.22](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.21...standards-dublin-core-v0.0.3-next.22) (2026-01-29)
+
+
+### Miscellaneous Chores
+
+* **standards-dublin-core:** Synchronize repo versions
+
 ## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.20...standards-dublin-core-v0.0.3-next.21) (2026-01-23)
 
 

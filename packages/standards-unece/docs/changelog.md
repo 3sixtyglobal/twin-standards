@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.22](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.21...standards-unece-v0.0.3-next.22) (2026-01-29)
+
+
+### Miscellaneous Chores
+
+* **standards-unece:** Synchronize repo versions
+
 ## [0.0.3-next.21](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.20...standards-unece-v0.0.3-next.21) (2026-01-23)
 
 
