@@ -18,6 +18,7 @@ This mono-repository contains packages defining standards.
 - [standards-w3c-activity-streams](packages/standards-w3c-activity-streams/README.md) - Models which define the structure of [W3C Activity Streams Standard](https://www.w3.org/TR/activitystreams-core/).
 - [standards-foaf](packages/standards-foaf/README.md) - Models which define the structure of [FOAF](https://xmlns.com/foaf/).
 - [standards-dataspace-protocol](packages/standards-dataspace-protocol/README.md) - Models which define the structure of [Dataspace Protocol](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/).
+- [standards-dcsa](packages/standards-dcsa/README.md) - Models which define the structure of [DCSA](https://dcsa.org/standards/track-and-trace/standard-documentation-track-and-trace).
 
 ## Contributing
 

@@ -1,0 +1,59 @@
+# Interface: IDcsaReeferEventMetadataActive
+
+Reefer event metadata (active event).
+
+Source: `reeferEvent` metadata allOf in the DCSA Event Domain (v3.1.0).
+
+## See
+
+https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3.1.0.yaml
+
+## Properties
+
+### eventID
+
+> **eventID**: `string`
+
+Unique identifier of this event.
+
+***
+
+### eventCreatedDateTime
+
+> **eventCreatedDateTime**: `string`
+
+Timestamp of when the event was created by the publisher.
+Format: ISO 8601 date-time.
+
+***
+
+### publisher
+
+> **publisher**: [`IDcsaPublisher`](IDcsaPublisher.md)
+
+The party publishing this event.
+
+***
+
+### publisherRole
+
+> **publisherRole**: [`DcsaTntPublisherRole`](../type-aliases/DcsaTntPublisherRole.md)
+
+Publisher role (context of the publisher).
+
+***
+
+### eventType
+
+> **eventType**: `"REEFER"`
+
+Event type discriminator.
+
+***
+
+### retractedEventID?
+
+> `optional` **retractedEventID**: `null`
+
+Must be `null` (or omitted) for non-retraction events.
+The upstream schema defines a default of `null`.

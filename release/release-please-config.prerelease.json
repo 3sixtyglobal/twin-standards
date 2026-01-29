@@ -12,73 +12,63 @@
 	"packages": {
 		"packages/standards-w3c-did": {
 			"package-name": "standards-w3c-did",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-w3c-vcard": {
 			"package-name": "standards-w3c-vcard",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-dublin-core": {
 			"package-name": "standards-dublin-core",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-w3c-odrl": {
 			"package-name": "standards-w3c-odrl",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-schema-org": {
 			"package-name": "standards-schema-org",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-gs1": {
 			"package-name": "standards-gs1",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-unece": {
 			"package-name": "standards-unece",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-vda": {
 			"package-name": "standards-vda",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-gaia-x": {
 			"package-name": "standards-gaia-x",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-ld-contexts": {
 			"package-name": "standards-ld-contexts",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-w3c-activity-streams": {
 			"package-name": "standards-w3c-activity-streams",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-foaf": {
 			"package-name": "standards-foaf",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-w3c-dcat": {
 			"package-name": "standards-w3c-dcat",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
 		},
 		"packages/standards-dataspace-protocol": {
 			"package-name": "standards-dataspace-protocol",
-			"changelog-path": "docs/changelog.md",
-			"extra-files": ["src/index.ts"]
+			"changelog-path": "docs/changelog.md"
+		},
+		"packages/standards-dcsa": {
+			"package-name": "standards-dcsa",
+			"changelog-path": "docs/changelog.md"
 		}
 	},
 	"plugins": [
@@ -100,7 +90,8 @@
 				"standards-w3c-activity-streams",
 				"standards-foaf",
 				"standards-w3c-dcat",
-				"standards-dataspace-protocol"
+				"standards-dataspace-protocol",
+				"standards-dcsa"
 			]
 		}
 	]
