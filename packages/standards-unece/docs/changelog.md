@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.24](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.23...standards-unece-v0.0.3-next.24) (2026-01-30)
+
+
+### Features
+
+* update unece context property ([6ff8f20](https://github.com/twinfoundation/standards/commit/6ff8f2050beb5aef11c388605fae5b44d644b804))
+
 ## [0.0.3-next.23](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.22...standards-unece-v0.0.3-next.23) (2026-01-30)
 
 
