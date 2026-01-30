@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.23](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.22...standards-unece-v0.0.3-next.23) (2026-01-30)
+
+
+### Features
+
+* use inline import for unece types ([ccf61f4](https://github.com/twinfoundation/standards/commit/ccf61f4e99da1ff1ca20eda6acff5059b5e103c1))
+
 ## [0.0.3-next.22](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.21...standards-unece-v0.0.3-next.22) (2026-01-29)
 
 
