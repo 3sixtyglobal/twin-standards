@@ -548,7 +548,10 @@ export class UneceDataTypes {
 	 * Register the JSON-LD Redirects.
 	 */
 	public static registerRedirects(): void {
-		JsonLdProcessor.addRedirect(new RegExp(UneceContexts.Namespace), UneceContexts.JsonLdContext);
+		JsonLdProcessor.addRedirect(
+			/https:\/\/vocabulary\.uncefact\.org\/?/,
+			UneceContexts.JsonLdContext
+		);
 	}
 
 	/**

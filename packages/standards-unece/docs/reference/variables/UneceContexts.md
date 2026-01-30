@@ -14,11 +14,9 @@ The canonical RDF namespace URI.
 
 ### Context
 
-> `readonly` **Context**: `"https://vocabulary.uncefact.org"` = `"https://vocabulary.uncefact.org"`
+> `readonly` **Context**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
 
 The value to use in @context.
-Note: Context differs from Namespace (no trailing slash) as per UNECE standard specification.
-The UNECE JSON-LD context URL format does not include a trailing slash.
 
 ### JsonLdContext
 

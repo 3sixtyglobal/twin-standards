@@ -13,10 +13,8 @@ export const UneceContexts = {
 
 	/**
 	 * The value to use in @context.
-	 * Note: Context differs from Namespace (no trailing slash) as per UNECE standard specification.
-	 * The UNECE JSON-LD context URL format does not include a trailing slash.
 	 */
-	Context: "https://vocabulary.uncefact.org",
+	Context: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld",
 
 	/**
 	 * The JSON-LD Context URL.
