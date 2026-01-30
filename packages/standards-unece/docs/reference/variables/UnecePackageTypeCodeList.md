@@ -2008,13 +2008,13 @@ Intermediate bulk container, metal: WF.
 
 > `readonly` **IntermediateBulkContainerSteelPressurised10Kpa**: `"unece:PackageTypeCodeList#WG"` = `"unece:PackageTypeCodeList#WG"`
 
-Intermediate bulk container, steel, pressurised > 10 kpa: WG.
+Intermediate bulk container, steel, pressurised &gt; 10 kpa: WG.
 
 ### IntermediateBulkContainerAluminiumPressurised10Kpa
 
 > `readonly` **IntermediateBulkContainerAluminiumPressurised10Kpa**: `"unece:PackageTypeCodeList#WH"` = `"unece:PackageTypeCodeList#WH"`
 
-Intermediate bulk container, aluminium, pressurised > 10 kpa: WH.
+Intermediate bulk container, aluminium, pressurised &gt; 10 kpa: WH.
 
 ### IntermediateBulkContainerMetalPressure10Kpa
 

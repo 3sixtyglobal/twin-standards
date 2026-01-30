@@ -671,6 +671,9 @@ function createComment(text, prefix = '', url = '', isDeprecated = false) {
  */
 function createCommentInner(text, prefix = '') {
 	const commentLines = [];
+
+	text = text.replace(/</g, '&lt;').replace(/>/g, '&gt;').trim();
+
 	if (!text.endsWith('.')) {
 		text = `${text}.`;
 	}

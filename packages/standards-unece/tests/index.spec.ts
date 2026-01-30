@@ -5,7 +5,7 @@ import { UneceDataTypes } from "../src/dataTypes/uneceDataTypes.js";
 
 describe("standards-unece", () => {
 	test("Can register types", async () => {
-		await UneceDataTypes.registerTypes();
+		UneceDataTypes.registerTypes();
 
 		expect(DataTypeHandlerFactory.names().length).toBeGreaterThan(0);
 	});

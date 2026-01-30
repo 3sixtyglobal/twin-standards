@@ -1675,12 +1675,12 @@ export const UnecePackageTypeCodeList = {
 	IntermediateBulkContainerMetal: "unece:PackageTypeCodeList#WF",
 
 	/**
-	 * Intermediate bulk container, steel, pressurised > 10 kpa: WG.
+	 * Intermediate bulk container, steel, pressurised &gt; 10 kpa: WG.
 	 */
 	IntermediateBulkContainerSteelPressurised10Kpa: "unece:PackageTypeCodeList#WG",
 
 	/**
-	 * Intermediate bulk container, aluminium, pressurised > 10 kpa: WH.
+	 * Intermediate bulk container, aluminium, pressurised &gt; 10 kpa: WH.
 	 */
 	IntermediateBulkContainerAluminiumPressurised10Kpa: "unece:PackageTypeCodeList#WH",
 

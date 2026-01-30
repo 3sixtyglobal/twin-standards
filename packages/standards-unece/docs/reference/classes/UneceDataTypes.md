@@ -28,10 +28,10 @@ Register the JSON-LD Redirects.
 
 ### registerTypes()
 
-> `static` **registerTypes**(): `Promise`\<`void`\>
+> `static` **registerTypes**(): `void`
 
 Register all the data types.
 
 #### Returns
 
-`Promise`\<`void`\>
+`void`

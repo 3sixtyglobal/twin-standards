@@ -130,27 +130,27 @@ export const UneceTransportEquipmentSizeTypeCodeList = {
 	RefrigeratedTankIC40Feet: "unece:TransportEquipmentSizeTypeCodeList#32",
 
 	/**
-	 * Movable case: L < 6,15m: 33.
+	 * Movable case: L &lt; 6,15m: 33.
 	 */
 	MovableCaseL615m: "unece:TransportEquipmentSizeTypeCodeList#33",
 
 	/**
-	 * Movable case: 6,15m < L < 7,82m: 34.
+	 * Movable case: 6,15m &lt; L &lt; 7,82m: 34.
 	 */
 	MovableCase615mL782m: "unece:TransportEquipmentSizeTypeCodeList#34",
 
 	/**
-	 * Movable case: 7,82m < L < 9,15m: 35.
+	 * Movable case: 7,82m &lt; L &lt; 9,15m: 35.
 	 */
 	MovableCase782mL915m: "unece:TransportEquipmentSizeTypeCodeList#35",
 
 	/**
-	 * Movable case: 9,15m < L < 10,90m: 36.
+	 * Movable case: 9,15m &lt; L &lt; 10,90m: 36.
 	 */
 	MovableCase915mL1090m: "unece:TransportEquipmentSizeTypeCodeList#36",
 
 	/**
-	 * Movable case: 10,90m < L < 13,75m: 37.
+	 * Movable case: 10,90m &lt; L &lt; 13,75m: 37.
 	 */
 	MovableCase1090mL1375m: "unece:TransportEquipmentSizeTypeCodeList#37",
 
