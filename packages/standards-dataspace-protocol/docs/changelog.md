@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.26](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.25...standards-dataspace-protocol-v0.0.3-next.26) (2026-02-02)
+
+
+### Features
+
+* w3id endpoints constants added ([#131](https://github.com/twinfoundation/standards/issues/131)) ([5fe981a](https://github.com/twinfoundation/standards/commit/5fe981a6508bbf19886436cedb88c7044619e295))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.25 to 0.0.3-next.26
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.25 to 0.0.3-next.26
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.25 to 0.0.3-next.26
+
 ## [0.0.3-next.25](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.24...standards-dataspace-protocol-v0.0.3-next.25) (2026-02-02)
 
 
