@@ -44,6 +44,7 @@
 - [DataspaceProtocolContextType](type-aliases/DataspaceProtocolContextType.md)
 - [DataspaceProtocolContexts](type-aliases/DataspaceProtocolContexts.md)
 - [DataspaceProtocolTransferProcessTypes](type-aliases/DataspaceProtocolTransferProcessTypes.md)
+- [DataspaceProtocolEndpointType](type-aliases/DataspaceProtocolEndpointType.md)
 - [DataspaceProtocolTransferProcessStateType](type-aliases/DataspaceProtocolTransferProcessStateType.md)
 
 ## Variables
@@ -54,4 +55,5 @@
 - [DataspaceProtocolContractNegotiationStateType](variables/DataspaceProtocolContractNegotiationStateType.md)
 - [DataspaceProtocolContexts](variables/DataspaceProtocolContexts.md)
 - [DataspaceProtocolTransferProcessTypes](variables/DataspaceProtocolTransferProcessTypes.md)
+- [DataspaceProtocolEndpointType](variables/DataspaceProtocolEndpointType.md)
 - [DataspaceProtocolTransferProcessStateType](variables/DataspaceProtocolTransferProcessStateType.md)
