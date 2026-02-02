@@ -1,5 +1,22 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.25](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.24...standards-w3c-dcat-v0.0.3-next.25) (2026-02-02)
+
+
+### Features
+
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.24 to 0.0.3-next.25
+    * @twin.org/standards-foaf bumped from 0.0.3-next.24 to 0.0.3-next.25
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.24 to 0.0.3-next.25
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.24 to 0.0.3-next.25
+
 ## [0.0.3-next.24](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.23...standards-w3c-dcat-v0.0.3-next.24) (2026-01-30)
 
 

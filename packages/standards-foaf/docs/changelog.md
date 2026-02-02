@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.25](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.24...standards-foaf-v0.0.3-next.25) (2026-02-02)
+
+
+### Features
+
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+
 ## [0.0.3-next.24](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.23...standards-foaf-v0.0.3-next.24) (2026-01-30)
 
 
