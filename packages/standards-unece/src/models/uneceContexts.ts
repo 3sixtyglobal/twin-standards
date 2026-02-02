@@ -19,7 +19,12 @@ export const UneceContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld"
+	JsonLdContext: "https://vocabulary.uncefact.org/unece-context-D23B.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/unece/"
 } as const;
 
 /**

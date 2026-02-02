@@ -25,3 +25,9 @@ The Activity Streams JSON-LD context URL format does not include a trailing hash
 > `readonly` **JsonLdContext**: `"https://www.w3.org/ns/activitystreams.jsonld"` = `"https://www.w3.org/ns/activitystreams.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-activity-streams/"` = `"https://schema.twindev.org/w3c-activity-streams/"`
+
+The namespace location of the hosted version of the JSON Schema.

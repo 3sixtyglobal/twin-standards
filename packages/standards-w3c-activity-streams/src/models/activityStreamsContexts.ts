@@ -21,7 +21,12 @@ export const ActivityStreamsContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://www.w3.org/ns/activitystreams.jsonld"
+	JsonLdContext: "https://www.w3.org/ns/activitystreams.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/w3c-activity-streams/"
 } as const;
 
 /**

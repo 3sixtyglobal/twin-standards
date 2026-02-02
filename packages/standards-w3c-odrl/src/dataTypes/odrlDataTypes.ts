@@ -99,5 +99,10 @@ export class OdrlDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(OdrlContexts.Namespace, OdrlContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(
+			OdrlContexts.JsonSchemaNamespace,
+			OdrlContexts.JsonLdContext,
+			types
+		);
 	}
 }

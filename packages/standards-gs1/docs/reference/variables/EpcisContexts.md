@@ -25,3 +25,9 @@ The EPCIS JSON-LD context URL format does not include a trailing slash.
 > `readonly` **JsonLdContext**: `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"` = `"https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/gs1/"` = `"https://schema.twindev.org/gs1/"`
+
+The namespace location of the hosted version of the JSON Schema.

@@ -41,6 +41,12 @@ export class CatalogDataTypes {
 			types
 		);
 
+		DataTypeHelper.registerTypes(
+			DataspaceProtocolContexts.JsonSchemaNamespace,
+			DataspaceProtocolContexts.JsonLdContext,
+			types
+		);
+
 		// These are the custom version of the DCAT3 classes with DS Protocol constraints
 		const typesDcat3 = [
 			{
@@ -63,6 +69,12 @@ export class CatalogDataTypes {
 
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.Namespace,
+			DcatContexts.JsonLdContext,
+			typesDcat3
+		);
+
+		DataTypeHelper.registerTypes(
+			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
 			typesDcat3
 		);

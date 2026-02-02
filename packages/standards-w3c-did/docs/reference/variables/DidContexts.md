@@ -20,6 +20,12 @@ The value to use in JSON-LD context for DID.
 Note: Context matches Namespace (no trailing slash) as per W3C DID specification.
 The W3C DID JSON-LD context URL format does not include a trailing slash.
 
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-did/"` = `"https://schema.twindev.org/w3c-did/"`
+
+The namespace location of the hosted version of the JSON Schema.
+
 ### NamespaceVCv1
 
 > `readonly` **NamespaceVCv1**: `"https://www.w3.org/2018/credentials/v1"` = `"https://www.w3.org/2018/credentials/v1"`

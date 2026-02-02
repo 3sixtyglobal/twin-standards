@@ -250,5 +250,6 @@ export abstract class DcsaDataTypes {
 			}
 		];
 		DataTypeHelper.registerTypes(DcsaContexts.Namespace, undefined, types);
+		DataTypeHelper.registerTypes(DcsaContexts.JsonSchemaNamespace, undefined, types);
 	}
 }

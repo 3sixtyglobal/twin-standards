@@ -280,5 +280,11 @@ export abstract class ActivityStreamsDataTypes {
 			ActivityStreamsContexts.JsonLdContext,
 			types
 		);
+
+		DataTypeHelper.registerTypes(
+			ActivityStreamsContexts.JsonSchemaNamespace,
+			ActivityStreamsContexts.JsonLdContext,
+			types
+		);
 	}
 }

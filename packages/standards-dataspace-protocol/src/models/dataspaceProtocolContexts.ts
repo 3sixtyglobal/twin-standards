@@ -19,7 +19,12 @@ export const DataspaceProtocolContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://w3id.org/dspace/2025/1/context.jsonld"
+	JsonLdContext: "https://w3id.org/dspace/2025/1/context.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/dataspace-protocol/"
 } as const;
 
 /**

@@ -23,3 +23,9 @@ The value to use in @context.
 > `readonly` **JsonLdContext**: `"https://w3id.org/dspace/2025/1/context.jsonld"` = `"https://w3id.org/dspace/2025/1/context.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/dataspace-protocol/"` = `"https://schema.twindev.org/dataspace-protocol/"`
+
+The namespace location of the hosted version of the JSON Schema.

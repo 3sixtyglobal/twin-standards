@@ -21,7 +21,12 @@ export const EpcisContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld"
+	JsonLdContext: "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/gs1/"
 } as const;
 
 /**

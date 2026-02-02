@@ -23,3 +23,9 @@ The value to use in @context.
 > `readonly` **JsonLdContext**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/unece/"` = `"https://schema.twindev.org/unece/"`
+
+The namespace location of the hosted version of the JSON Schema.

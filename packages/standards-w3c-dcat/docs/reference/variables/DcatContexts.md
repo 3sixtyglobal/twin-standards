@@ -26,6 +26,12 @@ The DCAT JSON-LD context URL format includes a trailing hash.
 
 The JSON-LD Context URL.
 
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-dcat/"` = `"https://schema.twindev.org/w3c-dcat/"`
+
+The namespace location of the hosted version of the JSON Schema.
+
 ### NamespaceRdf
 
 > `readonly` **NamespaceRdf**: `"http://www.w3.org/2000/01/rdf-schema#"` = `"http://www.w3.org/2000/01/rdf-schema#"`

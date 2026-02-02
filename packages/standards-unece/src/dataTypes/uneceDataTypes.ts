@@ -2702,5 +2702,10 @@ export class UneceDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(UneceContexts.Namespace, UneceContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(
+			UneceContexts.JsonSchemaNamespace,
+			UneceContexts.JsonLdContext,
+			types
+		);
 	}
 }

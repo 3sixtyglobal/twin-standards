@@ -65,5 +65,11 @@ export class TransferProcessDataTypes {
 			DataspaceProtocolContexts.JsonLdContext,
 			types
 		);
+
+		DataTypeHelper.registerTypes(
+			DataspaceProtocolContexts.JsonSchemaNamespace,
+			DataspaceProtocolContexts.JsonLdContext,
+			types
+		);
 	}
 }

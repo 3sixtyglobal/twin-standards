@@ -54,5 +54,10 @@ export abstract class FoafDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(FoafContexts.Namespace, FoafContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(
+			FoafContexts.JsonSchemaNamespace,
+			FoafContexts.JsonLdContext,
+			types
+		);
 	}
 }

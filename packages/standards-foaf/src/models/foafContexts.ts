@@ -21,7 +21,12 @@ export const FoafContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "https://schema.twindev.org/foaf/types.jsonld"
+	JsonLdContext: "https://schema.twindev.org/foaf/types.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/foaf/"
 } as const;
 
 /**

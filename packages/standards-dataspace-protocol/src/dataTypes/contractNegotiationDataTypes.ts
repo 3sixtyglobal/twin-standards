@@ -70,5 +70,11 @@ export class ContractNegotiationDataTypes {
 			DataspaceProtocolContexts.JsonLdContext,
 			types
 		);
+
+		DataTypeHelper.registerTypes(
+			DataspaceProtocolContexts.JsonSchemaNamespace,
+			DataspaceProtocolContexts.JsonLdContext,
+			types
+		);
 	}
 }

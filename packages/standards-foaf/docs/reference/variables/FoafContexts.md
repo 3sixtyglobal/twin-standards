@@ -25,3 +25,9 @@ The FOAF JSON-LD context URL format includes a trailing slash.
 > `readonly` **JsonLdContext**: `"https://schema.twindev.org/foaf/types.jsonld"` = `"https://schema.twindev.org/foaf/types.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/foaf/"` = `"https://schema.twindev.org/foaf/"`
+
+The namespace location of the hosted version of the JSON Schema.

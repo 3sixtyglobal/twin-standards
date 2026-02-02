@@ -75,5 +75,10 @@ export class DcatDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(DcatContexts.Namespace, DcatContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(
+			DcatContexts.JsonSchemaNamespace,
+			DcatContexts.JsonLdContext,
+			types
+		);
 	}
 }

@@ -24,3 +24,9 @@ Note: Context points to the JSON-LD url as per ODRL 2.2 specification.
 > `readonly` **JsonLdContext**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
 The JSON-LD Context URL.
+
+### JsonSchemaNamespace
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-odrl/"` = `"https://schema.twindev.org/w3c-odrl/"`
+
+The namespace location of the hosted version of the JSON Schema.

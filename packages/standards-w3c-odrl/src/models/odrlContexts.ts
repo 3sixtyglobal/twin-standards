@@ -20,7 +20,12 @@ export const OdrlContexts = {
 	/**
 	 * The JSON-LD Context URL.
 	 */
-	JsonLdContext: "http://www.w3.org/ns/odrl.jsonld"
+	JsonLdContext: "http://www.w3.org/ns/odrl.jsonld",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/w3c-odrl/"
 } as const;
 
 /**

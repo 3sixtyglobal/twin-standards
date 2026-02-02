@@ -9,7 +9,12 @@ export const DcsaContexts = {
 	/**
 	 * The canonical RDF namespace URI.
 	 */
-	Namespace: "https://dcsa.org/"
+	Namespace: "https://dcsa.org/",
+
+	/**
+	 * The namespace location of the hosted version of the JSON Schema.
+	 */
+	JsonSchemaNamespace: "https://schema.twindev.org/dcsa/"
 } as const;
 
 /**

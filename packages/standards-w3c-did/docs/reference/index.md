@@ -2,6 +2,7 @@
 
 ## Classes
 
+- [DidDataTypes](classes/DidDataTypes.md)
 - [DataIntegrityProofSignerVerifier](classes/DataIntegrityProofSignerVerifier.md)
 - [JsonWebSignature2020SignerVerifier](classes/JsonWebSignature2020SignerVerifier.md)
 - [MultikeyHelper](classes/MultikeyHelper.md)

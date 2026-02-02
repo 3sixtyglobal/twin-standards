@@ -61,5 +61,10 @@ export class EpcisDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(EpcisContexts.Namespace, EpcisContexts.JsonLdContext, types);
+		DataTypeHelper.registerTypes(
+			EpcisContexts.JsonSchemaNamespace,
+			EpcisContexts.JsonLdContext,
+			types
+		);
 	}
 }

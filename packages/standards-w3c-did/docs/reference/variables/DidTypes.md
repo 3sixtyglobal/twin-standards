@@ -6,6 +6,12 @@ The types for DIDs.
 
 ## Type Declaration
 
+### Document
+
+> `readonly` **Document**: `"Document"` = `"Document"`
+
+The type for Document.
+
 ### VerifiableCredential
 
 > `readonly` **VerifiableCredential**: `"VerifiableCredential"` = `"VerifiableCredential"`
