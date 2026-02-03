@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.29](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.28...standards-dataspace-protocol-v0.0.3-next.29) (2026-02-03)
+
+
+### Features
+
+* adding twin protocol endpoins constants ([#133](https://github.com/twinfoundation/standards/issues/133)) ([3592c81](https://github.com/twinfoundation/standards/commit/3592c811c368b23046ef8b60f6cca0eb8356ad87))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.28 to 0.0.3-next.29
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.28 to 0.0.3-next.29
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.28 to 0.0.3-next.29
+
 ## [0.0.3-next.28](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.27...standards-dataspace-protocol-v0.0.3-next.28) (2026-02-03)
 
 
