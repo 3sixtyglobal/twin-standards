@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode?
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
+> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 A code specifying the type of trade location.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/name
 
 ### tradeLocationCountryId?
 
-> `optional` **tradeLocationCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
+> `optional` **tradeLocationCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
 
 The unique identifier of a country location used or referenced in trade.
 

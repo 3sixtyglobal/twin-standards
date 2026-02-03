@@ -104,10 +104,7 @@
 			"description": "The code specifying the type of production waste recovery disposal process."
 		},
 		"specifiedProcessCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
 			"description": "A process certificate specified for this production waste recovery disposal process."
 		}
 	},

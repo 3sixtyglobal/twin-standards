@@ -28,7 +28,7 @@ export interface IUneceCountrySubDivision extends IJsonLdNodeObject {
 	 * A party that is authorized to perform an activity in this trade country sub-division.
 	 * @see https://vocabulary.uncefact.org/activityAuthorizedParty
 	 */
-	activityAuthorizedParty?: IUneceTradeParty[];
+	activityAuthorizedParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the hierarchical level of this trade country sub-division.
@@ -46,7 +46,7 @@ export interface IUneceCountrySubDivision extends IJsonLdNodeObject {
 	 * The code specifying the function type of this trade country sub-division.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
 
 	/**
 	 * A name, expressed as text, of this trade country sub-division.
@@ -58,13 +58,13 @@ export interface IUneceCountrySubDivision extends IJsonLdNodeObject {
 	 * A subordinate country sub-division within this trade country sub-division.
 	 * @see https://vocabulary.uncefact.org/subordinateCountrySubDivision
 	 */
-	subordinateCountrySubDivision?: IUneceCountrySubDivision[];
+	subordinateCountrySubDivision?: IUneceCountrySubDivision;
 
 	/**
 	 * A superordinate country sub-division for this trade country sub-division.
 	 * @see https://vocabulary.uncefact.org/superordinateCountrySubDivision
 	 */
-	superordinateCountrySubDivision?: IUneceCountrySubDivision[];
+	superordinateCountrySubDivision?: IUneceCountrySubDivision;
 
 	/**
 	 * A code specifying a type of country sub-division for trade purposes.

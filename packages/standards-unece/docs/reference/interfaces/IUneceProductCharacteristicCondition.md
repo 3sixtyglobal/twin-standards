@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this product characteristic condition.
 

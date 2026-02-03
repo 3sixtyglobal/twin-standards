@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/amendmentReasonCode
 
 ### annualQuotaQuantity?
 
-> `optional` **annualQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **annualQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The annual quota quantity under this cross-border regulatory procedure.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableCurrencyExchange
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A period applicable to this cross-border regulatory procedure.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableTax?
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax, levy or duty applicable to this cross-border regulatory procedure.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ### borderClearanceInstructions?
 
-> `optional` **borderClearanceInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
+> `optional` **borderClearanceInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
 
 Border clearance instructions for this cross-border regulatory procedure.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/controlStartDateConfirmationIndicator
 
 ### crossBorderRegulatoryProcedurePaymentMethodCode?
 
-> `optional` **crossBorderRegulatoryProcedurePaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)[]
+> `optional` **crossBorderRegulatoryProcedurePaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
 
 The code specifying the payment method for this cross-border regulatory procedure, such as by deferred payment method.
 
@@ -281,7 +281,7 @@ https://vocabulary.uncefact.org/deferredPaymentMethodIndicator
 
 ### document?
 
-> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)
 
 A document referenced by this cross-border regulatory procedure.
 
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/document
 
 ### entryCustomsOfficeSpecifiedLocation?
 
-> `optional` **entryCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **entryCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office at which the goods subject to this cross-border regulatory procedure, enter
 the customs territory of entry.
@@ -306,7 +306,7 @@ https://vocabulary.uncefact.org/entryCustomsOfficeSpecifiedLocation
 
 ### examinationEvent?
 
-> `optional` **examinationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **examinationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 An examination event for this cross-border regulatory procedure.
 
@@ -330,7 +330,7 @@ https://vocabulary.uncefact.org/exemptionClaimantParty
 
 ### exitCustomsOfficeSpecifiedLocation?
 
-> `optional` **exitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **exitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office at which the goods which are subject to this cross-border regulatory
 procedure leave the customs territory of destination.
@@ -343,7 +343,7 @@ https://vocabulary.uncefact.org/exitCustomsOfficeSpecifiedLocation
 
 ### exportCustomsOfficeSpecifiedLocation?
 
-> `optional` **exportCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **exportCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office which is responsible for export formalities for the goods which are subject
 to this cross-border regulatory procedure.
@@ -431,7 +431,7 @@ https://vocabulary.uncefact.org/immediatePayableTotalChargeAmount
 
 ### importCustomsOfficeSpecifiedLocation?
 
-> `optional` **importCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **importCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office which is responsible for import formalities for the goods which are subject
 to this cross-border regulatory procedure.
@@ -493,7 +493,7 @@ https://vocabulary.uncefact.org/performanceDateTime
 
 ### previousDocument?
 
-> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A previous document related to this cross-border regulatory procedure.
 
@@ -553,7 +553,7 @@ https://vocabulary.uncefact.org/remark
 
 ### reportedLogisticsStatus?
 
-> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
+> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)
 
 A logistics status reported for this cross-border regulatory procedure.
 
@@ -578,7 +578,7 @@ https://vocabulary.uncefact.org/requestOverrideCode
 
 ### requiredChemicalTreatment?
 
-> `optional` **requiredChemicalTreatment**: [`IUneceAppliedChemicalTreatment`](IUneceAppliedChemicalTreatment.md)[]
+> `optional` **requiredChemicalTreatment**: [`IUneceAppliedChemicalTreatment`](IUneceAppliedChemicalTreatment.md)
 
 A chemical treatment applied as required by this cross-border regulatory procedure.
 
@@ -590,7 +590,7 @@ https://vocabulary.uncefact.org/requiredChemicalTreatment
 
 ### requiredSeal?
 
-> `optional` **requiredSeal**: [`IUneceSeal`](IUneceSeal.md)[]
+> `optional` **requiredSeal**: [`IUneceSeal`](IUneceSeal.md)
 
 A seal required by this cross-border regulatory procedure.
 
@@ -602,7 +602,7 @@ https://vocabulary.uncefact.org/requiredSeal
 
 ### requiredTestSpecificationReport?
 
-> `optional` **requiredTestSpecificationReport**: [`IUneceTestSpecificationReport`](IUneceTestSpecificationReport.md)[]
+> `optional` **requiredTestSpecificationReport**: [`IUneceTestSpecificationReport`](IUneceTestSpecificationReport.md)
 
 A report of a certification test and its attributes that is required for this cross-border regulatory procedure.
 
@@ -638,7 +638,7 @@ https://vocabulary.uncefact.org/responsibleGovernmentAgencyResponsibleAgencyCode
 
 ### specifiedDebtorFinancialAccount?
 
-> `optional` **specifiedDebtorFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)[]
+> `optional` **specifiedDebtorFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)
 
 A debtor financial account specified for this cross-border regulatory procedure.
 
@@ -650,7 +650,7 @@ https://vocabulary.uncefact.org/specifiedDebtorFinancialAccount
 
 ### statementNote?
 
-> `optional` **statementNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **statementNote**: [`IUneceNote`](IUneceNote.md)
 
 A statement note for this cross-border regulatory procedure.
 
@@ -686,7 +686,7 @@ https://vocabulary.uncefact.org/tariffDeductionQuantity
 
 ### tariffQuantity?
 
-> `optional` **tariffQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **tariffQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A tariff quantity for this cross-border regulatory procedure.
 
@@ -698,7 +698,7 @@ https://vocabulary.uncefact.org/tariffQuantity
 
 ### totalChargeAmount?
 
-> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the total charges, including tariff and non-tariff charges, for this cross-border regulatory
 procedure.
@@ -735,7 +735,7 @@ https://vocabulary.uncefact.org/transactionNatureCode
 
 ### transitCustomsOfficeSpecifiedLocation?
 
-> `optional` **transitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **transitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A location of a specified customs office which is responsible for transit formalities en route for the goods which are
 subject to this cross-border regulatory procedure.
@@ -748,7 +748,7 @@ https://vocabulary.uncefact.org/transitCustomsOfficeSpecifiedLocation
 
 ### transitReleaseCustomsOfficeSpecifiedLocation?
 
-> `optional` **transitReleaseCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **transitReleaseCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A location of a specified customs office at which the goods which are subject to this cross-border regulatory procedure
 are released from a customs transit regime.
@@ -774,7 +774,7 @@ https://vocabulary.uncefact.org/transportMovementTypeCode
 
 ### treatmentEvent?
 
-> `optional` **treatmentEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **treatmentEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A treatment event for this cross-border regulatory procedure.
 
@@ -786,7 +786,7 @@ https://vocabulary.uncefact.org/treatmentEvent
 
 ### usedToDateQuotaQuantity?
 
-> `optional` **usedToDateQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **usedToDateQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity of the quota used to date under this cross-border regulatory procedure.
 
@@ -798,7 +798,7 @@ https://vocabulary.uncefact.org/usedToDateQuotaQuantity
 
 ### valuationBasisAmount?
 
-> `optional` **valuationBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valuationBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the basis on which the valuation is, or will be, calculated for this cross-border regulatory
 procedure.

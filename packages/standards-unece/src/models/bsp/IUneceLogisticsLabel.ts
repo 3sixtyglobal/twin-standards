@@ -33,7 +33,7 @@ export interface IUneceLogisticsLabel extends IJsonLdNodeObject {
 	 * A section included in this logistics label.
 	 * @see https://vocabulary.uncefact.org/includedSection
 	 */
-	includedSection?: IUneceSection[];
+	includedSection?: IUneceSection;
 
 	/**
 	 * The code specifying the layout type of this logistics label.

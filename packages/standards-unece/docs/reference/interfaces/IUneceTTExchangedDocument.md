@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### receiverSpecifiedParty?
 
-> `optional` **receiverSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **receiverSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 The receiving party specified for this TT exchanged document.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/receiverSpecifiedParty
 
 ### senderSpecifiedParty?
 
-> `optional` **senderSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **senderSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 The sending party specified for this TT exchanged document.
 

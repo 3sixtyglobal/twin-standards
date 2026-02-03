@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableSpecifiedTemperature?
 
-> `optional` **applicableSpecifiedTemperature**: [`IUneceSpecifiedTemperature`](IUneceSpecifiedTemperature.md)[]
+> `optional` **applicableSpecifiedTemperature**: [`IUneceSpecifiedTemperature`](IUneceSpecifiedTemperature.md)
 
 The specified temperature applicable for this applied chemical treatment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedTemperature
 
 ### appliedPeriod?
 
-> `optional` **appliedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **appliedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A period during which this chemical treatment is applied.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/appliedPeriod
 
 ### chemicalConcentrationMeasure?
 
-> `optional` **chemicalConcentrationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **chemicalConcentrationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the chemical concentration of this applied chemical treatment.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### resultAuthentication?
 
-> `optional` **resultAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **resultAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The authentication of the results of this applied chemical treatment.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/resultAuthentication
 
 ### resultNote?
 
-> `optional` **resultNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **resultNote**: [`IUneceNote`](IUneceNote.md)
 
 The note describing the results of this applied chemical treatment.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/resultNote
 
 ### unitChemicalConcentrationMeasure?
 
-> `optional` **unitChemicalConcentrationMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitChemicalConcentrationMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
 A measure of the chemical concentration of this applied chemical treatment.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/unitChemicalConcentrationMeasure
 
 ### usedChemical?
 
-> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)[]
+> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)
 
 A chemical used during this applied chemical treatment.
 

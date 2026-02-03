@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/logisticsSealTypeCode
 
 ### logisticsSealingPartyRoleCode?
 
-> `optional` **logisticsSealingPartyRoleCode**: [`UneceSealingPartyRoleCodeList`](../type-aliases/UneceSealingPartyRoleCodeList.md)[]
+> `optional` **logisticsSealingPartyRoleCode**: [`UneceSealingPartyRoleCodeList`](../type-aliases/UneceSealingPartyRoleCodeList.md)
 
 The code specifying the role of the party responsible for the sealing of this logistics seal.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/maximumId
 
 ### sealConditionCode?
 
-> `optional` **sealConditionCode**: [`UneceSealConditionCodeList`](../type-aliases/UneceSealConditionCodeList.md)[]
+> `optional` **sealConditionCode**: [`UneceSealConditionCodeList`](../type-aliases/UneceSealConditionCodeList.md)
 
 A code specifying a condition of this logistics seal.
 

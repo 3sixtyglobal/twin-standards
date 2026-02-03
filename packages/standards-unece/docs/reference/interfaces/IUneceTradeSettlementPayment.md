@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/requestedExecutionDateTime
 
 ### specifiedPaymentTradeSettlement?
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
+> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
 
 A trade settlement payment specified for this trade settlement payment.
 

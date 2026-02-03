@@ -44,11 +44,11 @@ export interface IUneceIndividualTTAnimal extends IJsonLdNodeObject {
 	 * The delimited period specified for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The delimited period specified for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod[];
+	specifiedPeriod?: IUneceDelimitedPeriod;
 }

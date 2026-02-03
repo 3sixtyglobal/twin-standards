@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableCorrectiveAction?
 
-> `optional` **applicableCorrectiveAction**: [`IUneceCorrectiveAction`](IUneceCorrectiveAction.md)[]
+> `optional` **applicableCorrectiveAction**: [`IUneceCorrectiveAction`](IUneceCorrectiveAction.md)
 
 A corrective action applicable to this specified inspection result.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableCorrectiveAction
 
 ### applicableInspectionResultCharacteristic?
 
-> `optional` **applicableInspectionResultCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
+> `optional` **applicableInspectionResultCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)
 
 A characteristic applicable to this specified inspection result.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableInspectionResultCharacteristic
 
 ### applicableMethod?
 
-> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A method applicable to this specified inspection result.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ### applicablePreventiveAction?
 
-> `optional` **applicablePreventiveAction**: [`IUnecePreventiveAction`](IUnecePreventiveAction.md)[]
+> `optional` **applicablePreventiveAction**: [`IUnecePreventiveAction`](IUnecePreventiveAction.md)
 
 A preventive action applicable to this specified inspection result.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicablePreventiveAction
 
 ### applicableSpecifiedAction?
 
-> `optional` **applicableSpecifiedAction**: [`IUneceSpecifiedAction`](IUneceSpecifiedAction.md)[]
+> `optional` **applicableSpecifiedAction**: [`IUneceSpecifiedAction`](IUneceSpecifiedAction.md)
 
 An action applicable to this specified inspection result.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/approvalDateTime
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this specified inspection result.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### attachedInspectionNote?
 
-> `optional` **attachedInspectionNote**: [`IUneceInspectionNote`](IUneceInspectionNote.md)[]
+> `optional` **attachedInspectionNote**: [`IUneceInspectionNote`](IUneceInspectionNote.md)
 
 A note with additional information and or conclusions attached to this specified inspection result.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/attachedInspectionNote
 
 ### expectedValueApplicableCharacteristic?
 
-> `optional` **expectedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
+> `optional` **expectedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)
 
 An expected value for the inspection characteristic to be acquired by using the type of inspection applicable to this
 specified inspection result.
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/inspectionDateTime
 
 ### inspectionParty?
 
-> `optional` **inspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **inspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 An inspection party specified for this inspection result.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/inspectionParty
 
 ### inspectionStandard?
 
-> `optional` **inspectionStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **inspectionStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced inspection standard for this specified inspection result.
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/inspectionStandard
 
 ### laboratoryObservationResult?
 
-> `optional` **laboratoryObservationResult**: [`IUneceObservationResult`](IUneceObservationResult.md)[]
+> `optional` **laboratoryObservationResult**: [`IUneceObservationResult`](IUneceObservationResult.md)
 
 A laboratory sample observation result for this specified inspection result.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/laboratoryObservationResult
 
 ### maximumStandardValueApplicableCharacteristic?
 
-> `optional` **maximumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
+> `optional` **maximumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)
 
 A maximum standard value for the inspection characteristic observed or measured by using the type of inspection
 applicable to this specified inspection result.
@@ -233,7 +233,7 @@ https://vocabulary.uncefact.org/maximumStandardValueApplicableCharacteristic
 
 ### minimumStandardValueApplicableCharacteristic?
 
-> `optional` **minimumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
+> `optional` **minimumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)
 
 A minimum standard value for the inspection characteristic observed or measured by using the type of inspection
 applicable to this specified inspection result.
@@ -246,7 +246,7 @@ https://vocabulary.uncefact.org/minimumStandardValueApplicableCharacteristic
 
 ### observedValueApplicableCharacteristic?
 
-> `optional` **observedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
+> `optional` **observedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)
 
 An observed value for the inspection characteristic acquired by using the type of inspection applicable to this
 specified inspection result.
@@ -259,7 +259,7 @@ https://vocabulary.uncefact.org/observedValueApplicableCharacteristic
 
 ### obtainedAssertion?
 
-> `optional` **obtainedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **obtainedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 A sustainability assertion obtained by means of this specified inspection result.
 
@@ -271,7 +271,7 @@ https://vocabulary.uncefact.org/obtainedAssertion
 
 ### obtainedConformanceCertificate?
 
-> `optional` **obtainedConformanceCertificate**: [`IUneceConformanceCertificate`](IUneceConformanceCertificate.md)[]
+> `optional` **obtainedConformanceCertificate**: [`IUneceConformanceCertificate`](IUneceConformanceCertificate.md)
 
 A conformance certificate obtained by means of this specified inspection result.
 
@@ -283,7 +283,7 @@ https://vocabulary.uncefact.org/obtainedConformanceCertificate
 
 ### obtainedOrganizationalCertificate?
 
-> `optional` **obtainedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
+> `optional` **obtainedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
 
 An organizational certificate obtained by means of this specified inspection result.
 
@@ -295,7 +295,7 @@ https://vocabulary.uncefact.org/obtainedOrganizationalCertificate
 
 ### obtainedProcessCertificate?
 
-> `optional` **obtainedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **obtainedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate obtained by means of this specified inspection result.
 
@@ -307,7 +307,7 @@ https://vocabulary.uncefact.org/obtainedProcessCertificate
 
 ### obtainedProductCertificate?
 
-> `optional` **obtainedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **obtainedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate obtained by means of this specified inspection result.
 
@@ -319,7 +319,7 @@ https://vocabulary.uncefact.org/obtainedProductCertificate
 
 ### obtainedSpecifiedCertificate?
 
-> `optional` **obtainedSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **obtainedSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A certificate obtained by means of this specified inspection result.
 
@@ -331,7 +331,7 @@ https://vocabulary.uncefact.org/obtainedSpecifiedCertificate
 
 ### outsourcedInspectionParty?
 
-> `optional` **outsourcedInspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **outsourcedInspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 An outsourced inspection party for this specified inspection result.
 
@@ -343,7 +343,7 @@ https://vocabulary.uncefact.org/outsourcedInspectionParty
 
 ### relatedAssessment?
 
-> `optional` **relatedAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
+> `optional` **relatedAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
 
 An assessment related to this specified inspection result.
 
@@ -355,7 +355,7 @@ https://vocabulary.uncefact.org/relatedAssessment
 
 ### relatedInstructions?
 
-> `optional` **relatedInstructions**: [`IUneceInspectionInstructions`](IUneceInspectionInstructions.md)[]
+> `optional` **relatedInstructions**: [`IUneceInspectionInstructions`](IUneceInspectionInstructions.md)
 
 Inspection instructions related to this specified inspection result.
 
@@ -403,7 +403,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ### specifiedInspectionReference?
 
-> `optional` **specifiedInspectionReference**: [`IUneceInspectionReference`](IUneceInspectionReference.md)[]
+> `optional` **specifiedInspectionReference**: [`IUneceInspectionReference`](IUneceInspectionReference.md)
 
 An inspection reference specified for this inspection result.
 

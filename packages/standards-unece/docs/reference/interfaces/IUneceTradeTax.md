@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### allowanceChargeBasisAmount?
 
-> `optional` **allowanceChargeBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **allowanceChargeBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value used as the allowance and charge basis on which this trade related tax, levy or duty is calculated.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicablePercent
 
 ### applicableTradeLocation?
 
-> `optional` **applicableTradeLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
+> `optional` **applicableTradeLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
 
 A location where this trade tax is applicable.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableTradeLocation
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value used as the basis on which this trade related tax, levy or duty is calculated.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### basisQuantity?
 
-> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity used as the basis for calculating the amount of this trade related tax, levy or duty.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ### buyerDeductibleTaxSpecifiedAccountingAccount?
 
-> `optional` **buyerDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **buyerDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 The buyer deductible tax specified accounting account for this trade related tax, levy or duty.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/buyerDeductibleTaxSpecifiedAccountingAccount
 
 ### buyerNonDeductibleTaxSpecifiedAccountingAccount?
 
-> `optional` **buyerNonDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **buyerNonDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 The buyer non-deductible tax specified accounting account for this trade related tax, levy or duty.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/buyerNonDeductibleTaxSpecifiedAccountingAccount
 
 ### buyerRepayableTaxSpecifiedAccountingAccount?
 
-> `optional` **buyerRepayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **buyerRepayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 The buyer repayable tax specified accounting account for this trade related tax, levy or duty.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/buyerRepayableTaxSpecifiedAccountingAccount
 
 ### calculatedAmount?
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value resulting from the calculation of this trade related tax, levy or duty.
 
@@ -209,7 +209,7 @@ https://vocabulary.uncefact.org/customsDutyIndicator
 
 ### customsDutyRegimeTypeCode?
 
-> `optional` **customsDutyRegimeTypeCode**: [`UneceCustomsDutyRegimeTypeCodeList`](../type-aliases/UneceCustomsDutyRegimeTypeCodeList.md)[]
+> `optional` **customsDutyRegimeTypeCode**: [`UneceCustomsDutyRegimeTypeCodeList`](../type-aliases/UneceCustomsDutyRegimeTypeCodeList.md)
 
 The code specifying a type of regime applicable to the assessment or calculation of this trade related tax, levy or
 duty, such as a preferential duty rate.
@@ -307,7 +307,7 @@ https://vocabulary.uncefact.org/exemptionReason
 
 ### grandTotalAmount?
 
-> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the grand total of the basis plus tax for this trade tax.
 
@@ -344,7 +344,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### informationAmount?
 
-> `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of an amount being reported for information for this trade related tax, levy or duty.
 
@@ -368,7 +368,7 @@ https://vocabulary.uncefact.org/jurisdiction
 
 ### lineTotalBasisAmount?
 
-> `optional` **lineTotalBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **lineTotalBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value used as the line total basis on which this trade related tax, levy or duty is calculated.
 
@@ -404,7 +404,7 @@ https://vocabulary.uncefact.org/paymentId
 
 ### placeApplicableLocation?
 
-> `optional` **placeApplicableLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
+> `optional` **placeApplicableLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
 
 A location where this trade tax is applicable.
 
@@ -490,7 +490,7 @@ https://vocabulary.uncefact.org/selfAssessedBasisAmount
 
 ### selfAssessedBasisQuantity?
 
-> `optional` **selfAssessedBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **selfAssessedBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity on which this trade related tax, levy or duty has been calculated on a self-assessment basis.
 
@@ -514,7 +514,7 @@ https://vocabulary.uncefact.org/selfAssessedCalculatedAmount
 
 ### sellerPayableTaxSpecifiedAccountingAccount?
 
-> `optional` **sellerPayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **sellerPayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 The seller payable tax specified accounting account for this trade related tax, levy or duty.
 
@@ -526,7 +526,7 @@ https://vocabulary.uncefact.org/sellerPayableTaxSpecifiedAccountingAccount
 
 ### sellerRefundableTaxSpecifiedAccountingAccount?
 
-> `optional` **sellerRefundableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **sellerRefundableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 The seller refundable tax specified accounting account for this trade related tax, levy or duty.
 
@@ -538,7 +538,7 @@ https://vocabulary.uncefact.org/sellerRefundableTaxSpecifiedAccountingAccount
 
 ### serviceSupplyCountry?
 
-> `optional` **serviceSupplyCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **serviceSupplyCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 The country or country sub-division where a service was supplied for this trade tax.
 
@@ -550,7 +550,7 @@ https://vocabulary.uncefact.org/serviceSupplyCountry
 
 ### specifiedAccountingAccount?
 
-> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A specified accounting account for this trade related tax, levy or duty.
 
@@ -647,7 +647,7 @@ https://vocabulary.uncefact.org/taxType
 
 ### taxTypeCode?
 
-> `optional` **taxTypeCode**: [`UneceTaxTypeCodeList`](../type-aliases/UneceTaxTypeCodeList.md)[]
+> `optional` **taxTypeCode**: [`UneceTaxTypeCodeList`](../type-aliases/UneceTaxTypeCodeList.md)
 
 The code specifying the type of trade related tax, levy or duty, such as a code for a Value Added Tax (VAT) [Reference
 United Nations Code List (UNCL) 5153].
@@ -696,7 +696,7 @@ https://vocabulary.uncefact.org/tradeTaxFunctionCode
 
 ### tradeTaxPaymentMethodCode?
 
-> `optional` **tradeTaxPaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)[]
+> `optional` **tradeTaxPaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
 
 The code specifying the payment method for this trade related tax, levy or duty.
 
@@ -708,7 +708,7 @@ https://vocabulary.uncefact.org/tradeTaxPaymentMethodCode
 
 ### unitBasisAmount?
 
-> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated.
 

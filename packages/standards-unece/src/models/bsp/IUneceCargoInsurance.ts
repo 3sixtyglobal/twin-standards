@@ -44,5 +44,5 @@ export interface IUneceCargoInsurance extends IJsonLdNodeObject {
 	 * The coverage party for this transport cargo insurance.
 	 * @see https://vocabulary.uncefact.org/coverageParty
 	 */
-	coverageParty?: IUneceTradeParty[];
+	coverageParty?: IUneceTradeParty;
 }

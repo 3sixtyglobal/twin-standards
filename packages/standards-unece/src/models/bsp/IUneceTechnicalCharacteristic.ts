@@ -34,14 +34,14 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * The capacity, expressed as a measure, such as a production volume, a surface area or a number of animals, for this
 	 * technical characteristic.
 	 * @see https://vocabulary.uncefact.org/capacityValueMeasure
 	 */
-	capacityValueMeasure?: IUneceMeasureType[];
+	capacityValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the certification granted to this technical characteristic.
@@ -53,7 +53,7 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * A specified material component of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/componentMaterial
 	 */
-	componentMaterial?: IUneceSpecifiedMaterial[];
+	componentMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * The date, time, date time, or other date time value of the construction of this technical characteristic.
@@ -101,13 +101,13 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * An animal holding event specified for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 	 */
-	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent[];
+	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent;
 
 	/**
 	 * A supply chain event specified for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The code specifying the subordinate type for this technical characteristic.
@@ -137,7 +137,7 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * The value, expressed as an amount, for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueAmount
 	 */
-	valueAmount?: IUneceAmountType[];
+	valueAmount?: IUneceAmountType;
 
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value. for this technical characteristic.
@@ -155,7 +155,7 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * The measure of the value of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The value, expressed as a number, for this technical characteristic.
@@ -167,17 +167,17 @@ export interface IUneceTechnicalCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter[];
+	valueParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A range specified for the value of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange[];
+	valueRange?: IUneceRange;
 
 	/**
 	 * A tolerance specified for the value of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance[];
+	valueTolerance?: IUneceTolerance;
 }

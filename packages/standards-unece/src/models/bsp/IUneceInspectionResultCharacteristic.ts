@@ -28,7 +28,7 @@ export interface IUneceInspectionResultCharacteristic extends IJsonLdNodeObject 
 	 * A specified method applicable to this inspection result characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableMethod
 	 */
-	applicableMethod?: IUneceSpecifiedMethod[];
+	applicableMethod?: IUneceSpecifiedMethod;
 
 	/**
 	 * The code specifying the operator, such as less than, for comparing this inspection result characteristic with one or
@@ -41,13 +41,13 @@ export interface IUneceInspectionResultCharacteristic extends IJsonLdNodeObject 
 	 * An applicable objective observation parameter of the interpretation result for this inspection result characteristic.
 	 * @see https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 	 */
-	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter[];
+	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter;
 
 	/**
 	 * Accuracy, expressed as a measure, of the measurement for this inspection result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredAccuracyMeasure
 	 */
-	measuredAccuracyMeasure?: IUneceMeasureType[];
+	measuredAccuracyMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measured value, expressed as text, for this inspection result characteristic.
@@ -59,7 +59,7 @@ export interface IUneceInspectionResultCharacteristic extends IJsonLdNodeObject 
 	 * A measured value for this inspection result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredValueMeasure
 	 */
-	measuredValueMeasure?: IUneceMeasureType[];
+	measuredValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the quality of the result for this inspection result characteristic.

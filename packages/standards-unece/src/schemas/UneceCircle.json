@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedGeographicalObjectCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic",
 			"description": "The geographical object characteristic associated with this specified circle."
 		},
 		"associatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A logistics location associated with this specified circle."
 		},
 		"centreGeographicalPoint": {
@@ -114,10 +108,7 @@
 			"description": "The geographical point which defines the centre of this specified circle."
 		},
 		"radiusMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the radius for this specified circle."
 		}
 	},

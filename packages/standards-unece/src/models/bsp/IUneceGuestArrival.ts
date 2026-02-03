@@ -44,5 +44,5 @@ export interface IUneceGuestArrival extends IJsonLdNodeObject {
 	 * The code specifying the transport mode of this specified guest arrival.
 	 * @see https://vocabulary.uncefact.org/transportModeCode
 	 */
-	transportModeCode?: UneceTransportModeCodeList[];
+	transportModeCode?: UneceTransportModeCodeList;
 }

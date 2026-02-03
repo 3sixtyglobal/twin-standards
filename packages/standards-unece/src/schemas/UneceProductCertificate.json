@@ -100,10 +100,7 @@
 			"description": "The actual effective date, time, date time or other date time value for this product certificate."
 		},
 		"applicableAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion applicable to this product certificate."
 		},
 		"applicableObjectCode": {
@@ -111,45 +108,27 @@
 			"description": "A code specifying an object, such as item, animal, person or organization applicable for this product certificate."
 		},
 		"applicableProductCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
 			"description": "A product characteristic applicable to this product certificate."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this product certificate."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this product certificate."
 		},
 		"applicableTradeProductCertification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeProductCertification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeProductCertification",
 			"description": "The trade product certification applicable to this product certificate."
 		},
 		"attachedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file attached to this product certificate."
 		},
 		"certificateTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList",
 			"description": "A code specifying the type of product certificate."
 		},
 		"description": {

@@ -32,5 +32,5 @@ export interface IUneceCropMixtureConstituent extends IJsonLdNodeObject {
 	 * The botanical crop specified for this field crop mixture constituent.
 	 * @see https://vocabulary.uncefact.org/specifiedBotanicalCrop
 	 */
-	specifiedBotanicalCrop?: IUneceBotanicalCrop[];
+	specifiedBotanicalCrop?: IUneceBotanicalCrop;
 }

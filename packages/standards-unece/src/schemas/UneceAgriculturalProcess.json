@@ -104,10 +104,7 @@
 			"description": "The date, time, date time or other date time value for the actual start of the crop production in this agricultural process."
 		},
 		"appliedAgriculturalApplication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
 			"description": "An agricultural application applied to a crop production agricultural process."
 		},
 		"description": {
@@ -119,10 +116,7 @@
 			"description": "The date, time, date time or other date time value for the earliest start of the crop production in this agricultural process."
 		},
 		"harvestedBatch": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch",
 			"description": "A crop produce batch harvested in the crop production for this agricultural process."
 		},
 		"latestEndDateTime": {
@@ -130,24 +124,15 @@
 			"description": "The date, time, date time or other date time value of the latest end for the crop production in this agricultural process."
 		},
 		"productionWasteInstructions": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDisposalInstructions"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDisposalInstructions",
 			"description": "Disposal instructions related to production waste for this agricultural crop production process."
 		},
 		"reportedProductionWasteMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionWasteMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionWasteMaterial",
 			"description": "Production waste material reported for this agricultural crop production process."
 		},
 		"specifiedFieldCrop": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFieldCrop"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFieldCrop",
 			"description": "A field crop specified for this crop production agricultural process."
 		},
 		"statusCode": {

@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"attainedAcademicQualification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAcademicQualification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAcademicQualification",
 			"description": "An academic qualification attained by this transport person."
 		},
 		"birthCountryId": {
@@ -127,10 +124,7 @@
 			"description": "A code specifying a category for this transport person, such as a member of crew or passenger."
 		},
 		"declaredPersonalEffects": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePersonalEffects"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePersonalEffects",
 			"description": "Personal effects use declared by a transport person."
 		},
 		"disembarkationDateTime": {
@@ -138,17 +132,11 @@
 			"description": "A date, time, date time, or other date time value that this person disembarked from a means of transport."
 		},
 		"disembarkationLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A disembarkation location for this transport person."
 		},
 		"emailURICommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "The email URI (Uniform Resource Identifier) communication for this transport person."
 		},
 		"embarkationDateTime": {
@@ -156,10 +144,7 @@
 			"description": "A date, time, date time, or other date time value that this person embarked upon a means of transport."
 		},
 		"embarkationLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "An embarkation location for this transport person."
 		},
 		"familyName": {
@@ -175,10 +160,7 @@
 			"description": "A given name, expressed as text, for this transport person."
 		},
 		"identifiedStowaway": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStowaway"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStowaway",
 			"description": "A transport person identified as a found stowaway."
 		},
 		"identifier": {
@@ -190,24 +172,15 @@
 			"description": "The indication of whether or not this transport person is in transit."
 		},
 		"landlineTelephoneCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "Landline telephone communication information for this transport person."
 		},
 		"mobileTelephoneCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "Mobile telephone communication information for this transport person."
 		},
 		"nationalityCountry": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountry"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountry",
 			"description": "A country that constitutes a nationality by origin, birth, or naturalization for this transport person."
 		},
 		"onboardIndicator": {
@@ -215,10 +188,7 @@
 			"description": "The indication of whether or not this person is onboard a means of transport."
 		},
 		"partyRoleCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePartyRoleCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePartyRoleCodeList",
 			"description": "A code specifying a role of this transport person."
 		},
 		"passengerId": {
@@ -226,10 +196,7 @@
 			"description": "A passenger identifier for this transport person."
 		},
 		"reportedIllness": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceIllness"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceIllness",
 			"description": "An MDH (Maritime Declaration of Health) reported illness or disease for this transport person."
 		},
 		"role": {
@@ -237,17 +204,11 @@
 			"description": "A role, expressed as text, of this transport person."
 		},
 		"specificAccreditation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAccreditation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAccreditation",
 			"description": "A certified accreditation specific to this transport person."
 		},
 		"transportPersonLanguageId": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLanguageId"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLanguageId",
 			"description": "A unique identifier of a language related to this transport person, such as their spoken or correspondence language."
 		},
 		"transportPersonName": {
@@ -255,17 +216,11 @@
 			"description": "The name or set of names, expressed as text, by which this transport person is known."
 		},
 		"travelIdentityDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced travel identity document for this transport person."
 		},
 		"travelVisaDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced travel visa document for this transport person."
 		}
 	},

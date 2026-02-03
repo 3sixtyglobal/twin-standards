@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedGeographicalObjectCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic",
 			"description": "The geographical object characteristic associated with this geographical grid."
 		},
 		"associatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A logistics location associated with this specified geographical grid."
 		},
 		"axisName": {
@@ -142,10 +136,7 @@
 			"description": "The direct position list associated with the origin of this geographical grid."
 		},
 		"specifiedPlot": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePlot"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePlot",
 			"description": "A crop plot specified for this geographical grid."
 		}
 	},

@@ -33,11 +33,11 @@ export interface IUneceGeographicalLine extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical line.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic[];
+	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified geographical line.
 	 * @see https://vocabulary.uncefact.org/associatedLocation
 	 */
-	associatedLocation?: IUneceLogisticsLocation[];
+	associatedLocation?: IUneceLogisticsLocation;
 }

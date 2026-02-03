@@ -28,7 +28,7 @@ export interface IUneceDeliveryAdjustment extends IJsonLdNodeObject {
 	 * An actual monetary value added or subtracted as a result of this delivery adjustment.
 	 * @see https://vocabulary.uncefact.org/actualAmount
 	 */
-	actualAmount?: IUneceAmountType[];
+	actualAmount?: IUneceAmountType;
 
 	/**
 	 * The actual date, time, date time, or other date time value of this delivery adjustment.
@@ -46,7 +46,7 @@ export interface IUneceDeliveryAdjustment extends IJsonLdNodeObject {
 	 * The code specifying a reason for this delivery adjustment.
 	 * @see https://vocabulary.uncefact.org/adjustmentReasonCode
 	 */
-	adjustmentReasonCode?: UneceAdjustmentReasonCodeList[];
+	adjustmentReasonCode?: UneceAdjustmentReasonCodeList;
 
 	/**
 	 * A reason, expressed as text, for this delivery adjustment.

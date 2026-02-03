@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### lowerLimitActualMeasure?
 
-> `optional` **lowerLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **lowerLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The actual lower limit measure of this ingredient range measurement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/lowerLimitComparisonOperatorCode
 
 ### lowerLimitPressureConditionMeasure?
 
-> `optional` **lowerLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **lowerLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the pressure condition at which this lower limit ingredient range measurement is taken.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lowerLimitPressureConditionMeasure
 
 ### upperLimitActualMeasure?
 
-> `optional` **upperLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **upperLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The actual upper limit measure of this ingredient range measurement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/upperLimitComparisonOperatorCode
 
 ### upperLimitPressureConditionMeasure?
 
-> `optional` **upperLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **upperLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the pressure condition at which this upper limit ingredient range measurement is taken.
 

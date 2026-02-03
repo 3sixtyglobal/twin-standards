@@ -41,13 +41,13 @@ export interface IUneceObservationResultCharacteristic extends IJsonLdNodeObject
 	 * characteristic.
 	 * @see https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 	 */
-	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter[];
+	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter;
 
 	/**
 	 * Accuracy, expressed as a measure, of the measurement for this sample observation result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredAccuracyMeasure
 	 */
-	measuredAccuracyMeasure?: IUneceMeasureType[];
+	measuredAccuracyMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measured value, expressed as text, for this sample observation result characteristic.
@@ -59,7 +59,7 @@ export interface IUneceObservationResultCharacteristic extends IJsonLdNodeObject
 	 * The measured value, expressed as a measure, for this sample observation result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredValueMeasure
 	 */
-	measuredValueMeasure?: IUneceMeasureType[];
+	measuredValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The identifier of the method parameter for this sample observation result characteristic.

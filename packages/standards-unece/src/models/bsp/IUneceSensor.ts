@@ -32,25 +32,25 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * An actual calibrated measurement reported for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/actualReportedMeasurement
 	 */
-	actualReportedMeasurement?: IUneceCalibratedMeasurement[];
+	actualReportedMeasurement?: IUneceCalibratedMeasurement;
 
 	/**
 	 * A control setting parameter defined for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/definedControlSettingParameter
 	 */
-	definedControlSettingParameter?: IUneceControlSettingParameter[];
+	definedControlSettingParameter?: IUneceControlSettingParameter;
 
 	/**
 	 * An operational parameter defined for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/definedOperationalParameter
 	 */
-	definedOperationalParameter?: IUneceOperationalParameter[];
+	definedOperationalParameter?: IUneceOperationalParameter;
 
 	/**
 	 * A product certificate granted for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/grantedCertificate
 	 */
-	grantedCertificate?: IUneceProductCertificate[];
+	grantedCertificate?: IUneceProductCertificate;
 
 	/**
 	 * An identifier of this monitoring sensor.
@@ -62,13 +62,13 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * The manufacturer party for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The owner party of this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty[];
+	ownerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying a position of this monitoring sensor.
@@ -80,7 +80,7 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * A calibrated measurement of precision for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/precisionMeasurement
 	 */
-	precisionMeasurement?: IUneceCalibratedMeasurement[];
+	precisionMeasurement?: IUneceCalibratedMeasurement;
 
 	/**
 	 * The percentage of the remaining battery charge of this monitoring sensor.
@@ -92,7 +92,7 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * A scheduled calibrated measurement reported for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/scheduledReportedMeasurement
 	 */
-	scheduledReportedMeasurement?: IUneceCalibratedMeasurement[];
+	scheduledReportedMeasurement?: IUneceCalibratedMeasurement;
 
 	/**
 	 * The code specifying a type of monitoring sensor.
@@ -104,5 +104,5 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * The measure of the value for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 }

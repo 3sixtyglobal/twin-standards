@@ -104,10 +104,7 @@
 			"description": "The area or location, expressed as text, that is included in this photographic picture."
 		},
 		"attachedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file attached to this photographic picture."
 		},
 		"copyrightOwnerName": {
@@ -135,10 +132,7 @@
 			"description": "The code specifying the intended use of this photographic picture."
 		},
 		"linearDimension": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension",
 			"description": "Linear spatial dimensions of this photographic picture."
 		},
 		"pictureType": {
@@ -162,10 +156,7 @@
 			"description": "The value, expressed as a number, for the resolution of this photographic picture."
 		},
 		"specifiedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceNote",
 			"description": "A note specified for this photographic picture."
 		},
 		"subject": {

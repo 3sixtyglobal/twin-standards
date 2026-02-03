@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/productionWasteRecoveryDisposalProcessTypeCode
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate specified for this production waste recovery disposal process.
 

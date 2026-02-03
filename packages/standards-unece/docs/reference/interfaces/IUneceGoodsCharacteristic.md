@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### absolutePresenceVolumeMeasure?
 
-> `optional` **absolutePresenceVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **absolutePresenceVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The volume measure of the absolute presence of this material goods characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/absolutePresenceVolumeMeasure
 
 ### absolutePresenceWeightMeasure?
 
-> `optional` **absolutePresenceWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **absolutePresenceWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The weight measure of the absolute presence of this material goods characteristic.
 

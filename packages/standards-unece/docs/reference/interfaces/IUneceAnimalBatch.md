@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maximumSizeMeasure?
 
-> `optional` **maximumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The maximum size, expressed as a measure, of the animals for this animal batch.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/maximumSizeMeasure
 
 ### minimumSizeMeasure?
 
-> `optional` **minimumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The minimum size, expressed as a measure, of the animals for this animal batch.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/salesNoteId
 
 ### specifiedDelimitedPeriod?
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this animal batch.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod?
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this animal batch.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units, expressed as a quantity, for this animal batch.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The weight, expressed as a measure, for this animal batch.
 

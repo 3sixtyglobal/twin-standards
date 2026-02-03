@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"calculatedYieldMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the calculated yield, such as weight per surface area unit, of this crop produce."
 		},
 		"estimatedYieldMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the estimated yield, such as weight per surface area unit, of this crop produce."
 		},
 		"identifier": {
@@ -114,10 +108,7 @@
 			"description": "An identifier for this crop produce."
 		},
 		"inputSpecifiedBatch": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch",
 			"description": "An input batch crop produce, such as seed or fertilizer, specified for this crop produce."
 		},
 		"name": {
@@ -125,10 +116,7 @@
 			"description": "The name, expressed as text, for this crop produce."
 		},
 		"outputSpecifiedBatch": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCropProduceBatch",
 			"description": "An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce."
 		},
 		"subordinateTypeCode": {

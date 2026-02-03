@@ -47,31 +47,31 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * Disposal instructions for this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableDisposalInstructions
 	 */
-	applicableDisposalInstructions?: IUneceDisposalInstructions[];
+	applicableDisposalInstructions?: IUneceDisposalInstructions;
 
 	/**
 	 * Material goods characteristic applicable to this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 	 */
-	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic[];
+	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic;
 
 	/**
 	 * Packaging instructions applicable to this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicablePackagingInstructions
 	 */
-	applicablePackagingInstructions?: IUnecePackagingInstructions[];
+	applicablePackagingInstructions?: IUnecePackagingInstructions;
 
 	/**
 	 * Returnable asset instructions for this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableReturnableAssetInstructions
 	 */
-	applicableReturnableAssetInstructions?: IUneceReturnableAssetInstructions[];
+	applicableReturnableAssetInstructions?: IUneceReturnableAssetInstructions;
 
 	/**
 	 * The measure of the capacity of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/capacityMeasure
 	 */
-	capacityMeasure?: IUneceMeasureType[];
+	capacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * A code specifying the condition of this supply chain packaging.
@@ -84,14 +84,14 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * of product on a pallet.
 	 * @see https://vocabulary.uncefact.org/contentLayerQuantity
 	 */
-	contentLayerQuantity?: IUneceQuantityType[];
+	contentLayerQuantity?: IUneceQuantityType;
 
 	/**
 	 * The total number of units of this supply chain packaging facing the customer, such as would be seen when this packaging
 	 * is placed on a retail shelf.
 	 * @see https://vocabulary.uncefact.org/customerFacingTotalUnitQuantity
 	 */
-	customerFacingTotalUnitQuantity?: IUneceQuantityType[];
+	customerFacingTotalUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * A textual description of this supply chain packaging.
@@ -115,43 +115,43 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * The total number of units in a layer of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/layerTotalUnitQuantity
 	 */
-	layerTotalUnitQuantity?: IUneceQuantityType[];
+	layerTotalUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension[];
+	linearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The maximum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/maximumLinearDimension
 	 */
-	maximumLinearDimension?: IUneceSpatialDimension[];
+	maximumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The number of units of this type of supply chain packaging which can be stacked on top of each other.
 	 * @see https://vocabulary.uncefact.org/maximumStackabilityQuantity
 	 */
-	maximumStackabilityQuantity?: IUneceQuantityType[];
+	maximumStackabilityQuantity?: IUneceQuantityType;
 
 	/**
 	 * The measure of the maximum stackability weight of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/maximumStackabilityWeightMeasure
 	 */
-	maximumStackabilityWeightMeasure?: IUneceMeasureType[];
+	maximumStackabilityWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The minimum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/minimumLinearDimension
 	 */
-	minimumLinearDimension?: IUneceSpatialDimension[];
+	minimumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The code specifying the type of supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/packageTypeCode
 	 */
-	packageTypeCode?: UnecePackageTypeCodeList[];
+	packageTypeCode?: UnecePackageTypeCodeList;
 
 	/**
 	 * The type, expressed as text, of supply chain packaging.
@@ -194,7 +194,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * quality, manufacture or origin.
 	 * @see https://vocabulary.uncefact.org/specifiedMarking
 	 */
-	specifiedMarking?: IUneceMarking[];
+	specifiedMarking?: IUneceMarking;
 
 	/**
 	 * The code specifying a level for this supply chain packaging.
@@ -206,23 +206,23 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * A total number of units contained in this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/totalUnitQuantity
 	 */
-	totalUnitQuantity?: IUneceQuantityType[];
+	totalUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of units of this type of supply chain packaging which can be stacked vertically for transport operations.
 	 * @see https://vocabulary.uncefact.org/transportMaximumStackabilityQuantity
 	 */
-	transportMaximumStackabilityQuantity?: IUneceQuantityType[];
+	transportMaximumStackabilityQuantity?: IUneceQuantityType;
 
 	/**
 	 * A measure of the weight of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The load bearing capability measure for this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/weightUnitLoadBearingCapabilityMeasure
 	 */
-	weightUnitLoadBearingCapabilityMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitLoadBearingCapabilityMeasure?: IUneceWeightUnitMeasureType;
 }

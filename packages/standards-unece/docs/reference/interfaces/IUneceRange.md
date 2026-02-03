@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endId
 
 ### maximumValueMeasure?
 
-> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum value for this specified range.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ### minimumValueMeasure?
 
-> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum value for this specified range.
 

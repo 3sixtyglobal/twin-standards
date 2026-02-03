@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedStandard?
 
-> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard associated to this specified licence.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### grantedParty?
 
-> `optional` **grantedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **grantedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A party granted this specified licence.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party that issues this specified licence.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/name
 
 ### subjectTypeCode?
 
-> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
+> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)
 
 A code specifying a subject type for this licence.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/validIndicator
 
 ### verifiedObject?
 
-> `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)[]
+> `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)
 
 An object verified for this specified licence.
 

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### linearUnitDistanceMeasure?
 
-> `optional` **linearUnitDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **linearUnitDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the distance of this specified route.
 

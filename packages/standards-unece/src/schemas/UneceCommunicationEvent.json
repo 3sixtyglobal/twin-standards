@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedGeographicalFeature": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
 			"description": "A geographical feature associated with this communication event."
 		},
 		"description": {
@@ -115,17 +112,11 @@
 			"description": "The date, time, date time, or other date time value of an occurrence of this communication event."
 		},
 		"occurrenceLogisticsLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "The logistics location where this communication event will occur or has occurred."
 		},
 		"operationalResponsibleParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The operational responsible party for this communication event."
 		},
 		"reasonCode": {
@@ -137,17 +128,11 @@
 			"description": "The code specifying the type of communication event."
 		},
 		"unitQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of units for this communication event."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of a value for this communication event."
 		}
 	},

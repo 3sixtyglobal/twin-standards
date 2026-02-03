@@ -34,7 +34,7 @@ export interface IUneceLanguageProficiency extends IJsonLdNodeObject {
 	 * The code specifying the language for this personal language proficiency.
 	 * @see https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageCode
 	 */
-	personalLanguageProficiencyLanguageCode?: UneceLanguageCodeList[];
+	personalLanguageProficiencyLanguageCode?: UneceLanguageCodeList;
 
 	/**
 	 * The identifier of the language for which this personal language proficiency is defined.

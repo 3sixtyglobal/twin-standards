@@ -66,31 +66,31 @@ export interface IUneceCropProduceBatch extends IJsonLdNodeObject {
 	 * The size, expressed as a measure, for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/sizeMeasure
 	 */
-	sizeMeasure?: IUneceMeasureType[];
+	sizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * An agricultural certificate specified for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 	 */
-	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate[];
+	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate;
 
 	/**
 	 * An agricultural characteristic specified for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 	 */
-	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic[];
+	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic;
 
 	/**
 	 * A crop produce specified for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/specifiedProduce
 	 */
-	specifiedProduce?: IUneceProduce[];
+	specifiedProduce?: IUneceProduce;
 
 	/**
 	 * The quantity specified for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/specifiedQuantity
 	 */
-	specifiedQuantity?: IUneceQuantityType[];
+	specifiedQuantity?: IUneceQuantityType;
 
 	/**
 	 * The code specifying the type of crop produce batch.
@@ -102,5 +102,5 @@ export interface IUneceCropProduceBatch extends IJsonLdNodeObject {
 	 * The number of units, expressed as a quantity, for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 }

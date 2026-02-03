@@ -44,7 +44,7 @@ export interface IUnecePaymentFinancialAccount extends IJsonLdNodeObject {
 	 * The code specifying the currency of this payment financial account.
 	 * @see https://vocabulary.uncefact.org/paymentFinancialAccountCurrencyCode
 	 */
-	paymentFinancialAccountCurrencyCode?: UneceCurrencyCodeList[];
+	paymentFinancialAccountCurrencyCode?: UneceCurrencyCodeList;
 
 	/**
 	 * The code specifying the type of payment financial account.

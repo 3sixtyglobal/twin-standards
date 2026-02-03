@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An additional document referenced in this subordinate line trade agreement.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalDocument
 
 ### buyerOrderDocument?
 
-> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A buyer generated order document referenced in this subordinate line trade agreement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/buyerOrderDocument
 
 ### grossPriceProductPrice?
 
-> `optional` **grossPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
+> `optional` **grossPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
 
 A gross product price in this subordinate line trade agreement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/grossPriceProductPrice
 
 ### netPriceProductPrice?
 
-> `optional` **netPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
+> `optional` **netPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
 
 A net product price in this subordinate line trade agreement.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/netPriceProductPrice
 
 ### sellerOrderDocument?
 
-> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The seller generated order document referenced in this subordinate line trade agreement.
 

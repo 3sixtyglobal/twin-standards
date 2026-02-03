@@ -34,7 +34,7 @@ export interface IUneceCoordinateSourceSystem extends IJsonLdNodeObject {
 	 * The quantity of signal source available for this geographical coordinate source system.
 	 * @see https://vocabulary.uncefact.org/signalSourceAvailableQuantity
 	 */
-	signalSourceAvailableQuantity?: IUneceQuantityType[];
+	signalSourceAvailableQuantity?: IUneceQuantityType;
 
 	/**
 	 * The code specifying a type of source for this geographical coordinate source system.
@@ -46,11 +46,11 @@ export interface IUneceCoordinateSourceSystem extends IJsonLdNodeObject {
 	 * The measure of the tolerance of this geographical coordinate source system.
 	 * @see https://vocabulary.uncefact.org/toleranceMeasure
 	 */
-	toleranceMeasure?: IUneceMeasureType[];
+	toleranceMeasure?: IUneceMeasureType;
 
 	/**
 	 * The quantity of the used signal source of this geographical coordinate source system.
 	 * @see https://vocabulary.uncefact.org/usedSignalSourceQuantity
 	 */
-	usedSignalSourceQuantity?: IUneceQuantityType[];
+	usedSignalSourceQuantity?: IUneceQuantityType;
 }

@@ -100,10 +100,7 @@
 			"description": "The indication whether or not this operational parameter is changeable."
 		},
 		"definedRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A defined range specified for this operational parameter."
 		},
 		"description": {
@@ -135,10 +132,7 @@
 			"description": "The indication of whether or not this operational parameter value is allowed."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure value for this operational parameter."
 		}
 	},

@@ -32,7 +32,7 @@ export interface IUneceTransportationWasteRecoveryDisposalProcess extends IJsonL
 	 * A process certificate specified for this transportation waste recovery disposal process.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate[];
+	specifiedProcessCertificate?: IUneceProcessCertificate;
 
 	/**
 	 * The code specifying the type of transportation waste recovery disposal process.

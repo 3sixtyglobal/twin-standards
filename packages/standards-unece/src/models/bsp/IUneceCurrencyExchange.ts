@@ -27,7 +27,7 @@ export interface IUneceCurrencyExchange extends IJsonLdNodeObject {
 	 * An associated document referenced for this trade related currency exchange.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument[];
+	associatedDocument?: IUneceDocument;
 
 	/**
 	 * The rate factor used for conversion from the source currency to the target currency for trade purposes.
@@ -57,7 +57,7 @@ export interface IUneceCurrencyExchange extends IJsonLdNodeObject {
 	 * A document referenced for this trade related currency exchange.
 	 * @see https://vocabulary.uncefact.org/document
 	 */
-	document?: IUneceDocument[];
+	document?: IUneceDocument;
 
 	/**
 	 * The numeric unit basis of the source currency used in this trade related currency exchange rate calculation.

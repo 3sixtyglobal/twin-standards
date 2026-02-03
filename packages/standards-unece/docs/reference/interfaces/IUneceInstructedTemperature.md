@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/controlCode
 
 ### maximumValueMeasure?
 
-> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum value of this instructed temperature.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ### minimumValueMeasure?
 
-> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum value of this instructed temperature.
 

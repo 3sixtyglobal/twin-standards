@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"businessRelatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "The business location related to this TT transformation event."
 		},
 		"businessStepCode": {
@@ -107,10 +104,7 @@
 			"description": "The code specifying the business step for this TT transformation event."
 		},
 		"destinationRelatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
 			"description": "A destination related party for this TT transformation event."
 		},
 		"dispositionCode": {
@@ -126,10 +120,7 @@
 			"description": "An instance identifier for an input object of this TT transformation event."
 		},
 		"inputQuantitySpecifiedEventElement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
 			"description": "A quantity event element specified for an input of this TT transformation event."
 		},
 		"occurrenceDateTime": {
@@ -141,17 +132,11 @@
 			"description": "An instance identifier for an output object of this TT transformation event."
 		},
 		"outputQuantitySpecifiedEventElement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
 			"description": "A quantity event element specified for an output of this TT transformation event."
 		},
 		"readPointRelatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "The read point related location of this TT transformation event."
 		},
 		"recordedDateTime": {
@@ -159,31 +144,19 @@
 			"description": "The date, time, date time, or other date time value at which this TT transformation event was recorded."
 		},
 		"relatedCertification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification",
 			"description": "A certification related to this TT transformation event."
 		},
 		"sourceRelatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
 			"description": "A source related party for this TT transformation event."
 		},
 		"specifiedError": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceError"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceError",
 			"description": "A declared error specified for this TT transformation event."
 		},
 		"specifiedTradeTransaction": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction",
 			"description": "A trade transaction specified for this TT transformation event."
 		},
 		"transformationId": {

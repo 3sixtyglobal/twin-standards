@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### additionalInformationNote?
 
-> `optional` **additionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **additionalInformationNote**: [`IUneceNote`](IUneceNote.md)
 
 An additional information note for this production process.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalInformationNote
 
 ### allocatedMachine?
 
-> `optional` **allocatedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
+> `optional` **allocatedMachine**: [`IUneceMachine`](IUneceMachine.md)
 
 A machine allocated to this production process.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/allocatedMachine
 
 ### allocatedProductionDevice?
 
-> `optional` **allocatedProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
+> `optional` **allocatedProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)
 
 A production device allocated to this production process.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/allocatedProductionDevice
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
 
 An assessment applicable to this production process.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableDeclaration?
 
-> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
+> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)
 
 A specified declaration applicable to this production process.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ### applicableFault?
 
-> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)[]
+> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)
 
 A specified fault applicable to this production process.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableFault
 
 ### applicableLicence?
 
-> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
+> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)
 
 A specified licence applicable to this production process.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ### applicableParameter?
 
-> `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A specified parameter applicable to this production process.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A period applicable to this production process.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableProductionCycle?
 
-> `optional` **applicableProductionCycle**: [`IUneceProductionCycle`](IUneceProductionCycle.md)[]
+> `optional` **applicableProductionCycle**: [`IUneceProductionCycle`](IUneceProductionCycle.md)
 
 A specified production cycle applicable to this production process.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/applicableProductionCycle
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A certificate applicable to this production process.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
 
 A specified inspection applicable to this production process.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this production process.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
 
 A sustainability inspection applicable to this production process.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### appliedChemicalTreatment?
 
-> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
+> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)
 
 A chemical treatment applied during this production process.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ### appliedCropProtectionTreatment?
 
-> `optional` **appliedCropProtectionTreatment**: [`IUneceCropProtectionTreatment`](IUneceCropProtectionTreatment.md)[]
+> `optional` **appliedCropProtectionTreatment**: [`IUneceCropProtectionTreatment`](IUneceCropProtectionTreatment.md)
 
 A crop protection treatment applied during this production process.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/appliedCropProtectionTreatment
 
 ### appliedProductFinishingTreatment?
 
-> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)[]
+> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)
 
 A product finishing treatment applied during this production process.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/appliedProductFinishingTreatment
 
 ### associatedStandard?
 
-> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard associated with this production process.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### inputApplicableBatch?
 
-> `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
 
 An input product batch applicable to this production process.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/inputApplicableBatch
 
 ### inputApplicableMaterial?
 
-> `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Input material applicable to this production process.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/inputApplicableMaterial
 
 ### inputApplicableProduct?
 
-> `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 An input product applicable to this production process.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/inventoryTypeCode
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A manufacturer party for this production process.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### occurrenceEvent?
 
-> `optional` **occurrenceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **occurrenceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 An occurrence of an event for this production process.
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/operationTechnologyCode
 
 ### outputApplicableBatch?
 
-> `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
 
 An output product batch applicable to this production process.
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/outputApplicableBatch
 
 ### outputApplicableMaterial?
 
-> `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Output material applicable to this production process.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/outputApplicableMaterial
 
 ### outputApplicableProduct?
 
-> `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 An output product applicable to this production process.
 
@@ -470,7 +470,7 @@ https://vocabulary.uncefact.org/outputApplicableProduct
 
 ### performedWorkItem?
 
-> `optional` **performedWorkItem**: [`IUneceProcessWorkItem`](IUneceProcessWorkItem.md)[]
+> `optional` **performedWorkItem**: [`IUneceProcessWorkItem`](IUneceProcessWorkItem.md)
 
 A work item performed for this production process.
 
@@ -518,7 +518,7 @@ https://vocabulary.uncefact.org/productionProcessTypeCode
 
 ### productionWasteInstructions?
 
-> `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
+> `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
 
 Disposal instructions for the waste resulting from this production process.
 
@@ -542,7 +542,7 @@ https://vocabulary.uncefact.org/recyclingIndicator
 
 ### relatedBinaryFile?
 
-> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file related to this production process.
 
@@ -554,7 +554,7 @@ https://vocabulary.uncefact.org/relatedBinaryFile
 
 ### reportedProductionWasteMaterial?
 
-> `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)[]
+> `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)
 
 Waste material reported for this production process.
 
@@ -566,7 +566,7 @@ https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 
 ### specificationDocument?
 
-> `optional` **specificationDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specificationDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A specification document referenced for this production process.
 
@@ -578,7 +578,7 @@ https://vocabulary.uncefact.org/specificationDocument
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 A sustainability assertion specified for this production process.
 
@@ -590,7 +590,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document specified for this production process.
 
@@ -602,7 +602,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedFacility?
 
-> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
+> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)
 
 A production facility specified for this production process.
 
@@ -614,7 +614,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ### specifiedOrganizationalCertificate?
 
-> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
+> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
 
 An organizational certificate specified for this production process.
 
@@ -626,7 +626,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 
 ### specifiedOrganizationalCertification?
 
-> `optional` **specifiedOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
+> `optional` **specifiedOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)
 
 An organizational certification specified for this production process.
 
@@ -638,7 +638,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertification
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate specified for this production process.
 
@@ -650,7 +650,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### specifiedProcessCertification?
 
-> `optional` **specifiedProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)[]
+> `optional` **specifiedProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)
 
 A process certification specified for this production process.
 
@@ -662,7 +662,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertification
 
 ### specifiedProductBatchCertification?
 
-> `optional` **specifiedProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)[]
+> `optional` **specifiedProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)
 
 A product batch certification specified for this production process.
 
@@ -674,7 +674,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertification
 
 ### specifiedTradeProductCertification?
 
-> `optional` **specifiedTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
+> `optional` **specifiedTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)
 
 A trade product certification specified for this production process.
 
@@ -722,7 +722,7 @@ https://vocabulary.uncefact.org/stepCode
 
 ### subcontractorParty?
 
-> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A subcontractor party specified for this production process.
 
@@ -734,7 +734,7 @@ https://vocabulary.uncefact.org/subcontractorParty
 
 ### subordinateProcess?
 
-> `optional` **subordinateProcess**: `IUneceProductionProcess`[]
+> `optional` **subordinateProcess**: `IUneceProductionProcess`
 
 A subordinate process of this production process.
 

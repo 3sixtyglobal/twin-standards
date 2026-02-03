@@ -61,109 +61,109 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * An additional information note for this production process.
 	 * @see https://vocabulary.uncefact.org/additionalInformationNote
 	 */
-	additionalInformationNote?: IUneceNote[];
+	additionalInformationNote?: IUneceNote;
 
 	/**
 	 * A machine allocated to this production process.
 	 * @see https://vocabulary.uncefact.org/allocatedMachine
 	 */
-	allocatedMachine?: IUneceMachine[];
+	allocatedMachine?: IUneceMachine;
 
 	/**
 	 * A production device allocated to this production process.
 	 * @see https://vocabulary.uncefact.org/allocatedProductionDevice
 	 */
-	allocatedProductionDevice?: IUneceProductionDevice[];
+	allocatedProductionDevice?: IUneceProductionDevice;
 
 	/**
 	 * An assessment applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment[];
+	applicableAssessment?: IUneceAssessment;
 
 	/**
 	 * A specified declaration applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableDeclaration
 	 */
-	applicableDeclaration?: IUneceSpecifiedDeclaration[];
+	applicableDeclaration?: IUneceSpecifiedDeclaration;
 
 	/**
 	 * A specified fault applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableFault
 	 */
-	applicableFault?: IUneceSpecifiedFault[];
+	applicableFault?: IUneceSpecifiedFault;
 
 	/**
 	 * A specified licence applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableLicence
 	 */
-	applicableLicence?: IUneceLicence[];
+	applicableLicence?: IUneceLicence;
 
 	/**
 	 * A specified parameter applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableParameter
 	 */
-	applicableParameter?: IUneceSpecifiedParameter[];
+	applicableParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A period applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod[];
+	applicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A specified production cycle applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableProductionCycle
 	 */
-	applicableProductionCycle?: IUneceProductionCycle[];
+	applicableProductionCycle?: IUneceProductionCycle;
 
 	/**
 	 * A certificate applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A specified inspection applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
 
 	/**
 	 * A sustainability characteristic applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A sustainability inspection applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
 
 	/**
 	 * A chemical treatment applied during this production process.
 	 * @see https://vocabulary.uncefact.org/appliedChemicalTreatment
 	 */
-	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment[];
+	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment;
 
 	/**
 	 * A crop protection treatment applied during this production process.
 	 * @see https://vocabulary.uncefact.org/appliedCropProtectionTreatment
 	 */
-	appliedCropProtectionTreatment?: IUneceCropProtectionTreatment[];
+	appliedCropProtectionTreatment?: IUneceCropProtectionTreatment;
 
 	/**
 	 * A product finishing treatment applied during this production process.
 	 * @see https://vocabulary.uncefact.org/appliedProductFinishingTreatment
 	 */
-	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment[];
+	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment;
 
 	/**
 	 * A referenced standard associated with this production process.
 	 * @see https://vocabulary.uncefact.org/associatedStandard
 	 */
-	associatedStandard?: IUneceStandard[];
+	associatedStandard?: IUneceStandard;
 
 	/**
 	 * The indication of whether or not this production process is critical.
@@ -199,19 +199,19 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * An input product batch applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/inputApplicableBatch
 	 */
-	inputApplicableBatch?: IUneceProductBatch[];
+	inputApplicableBatch?: IUneceProductBatch;
 
 	/**
 	 * Input material applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/inputApplicableMaterial
 	 */
-	inputApplicableMaterial?: IUneceSpecifiedMaterial[];
+	inputApplicableMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * An input product applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/inputApplicableProduct
 	 */
-	inputApplicableProduct?: IUneceTradeProduct[];
+	inputApplicableProduct?: IUneceTradeProduct;
 
 	/**
 	 * The code specifying the inventory type for this production process.
@@ -223,7 +223,7 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * A manufacturer party for this production process.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The name, expressed as text, of this production process.
@@ -241,7 +241,7 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * An occurrence of an event for this production process.
 	 * @see https://vocabulary.uncefact.org/occurrenceEvent
 	 */
-	occurrenceEvent?: IUneceSupplyChainEvent[];
+	occurrenceEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The code specifying the operation reference for this production process.
@@ -259,25 +259,25 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * An output product batch applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/outputApplicableBatch
 	 */
-	outputApplicableBatch?: IUneceProductBatch[];
+	outputApplicableBatch?: IUneceProductBatch;
 
 	/**
 	 * Output material applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/outputApplicableMaterial
 	 */
-	outputApplicableMaterial?: IUneceSpecifiedMaterial[];
+	outputApplicableMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * An output product applicable to this production process.
 	 * @see https://vocabulary.uncefact.org/outputApplicableProduct
 	 */
-	outputApplicableProduct?: IUneceTradeProduct[];
+	outputApplicableProduct?: IUneceTradeProduct;
 
 	/**
 	 * A work item performed for this production process.
 	 * @see https://vocabulary.uncefact.org/performedWorkItem
 	 */
-	performedWorkItem?: IUneceProcessWorkItem[];
+	performedWorkItem?: IUneceProcessWorkItem;
 
 	/**
 	 * The code specifying the inventory type for this production process.
@@ -301,7 +301,7 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * Disposal instructions for the waste resulting from this production process.
 	 * @see https://vocabulary.uncefact.org/productionWasteInstructions
 	 */
-	productionWasteInstructions?: IUneceDisposalInstructions[];
+	productionWasteInstructions?: IUneceDisposalInstructions;
 
 	/**
 	 * The indication of whether or not this is a recycling production process.
@@ -313,73 +313,73 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * A binary file related to this production process.
 	 * @see https://vocabulary.uncefact.org/relatedBinaryFile
 	 */
-	relatedBinaryFile?: IUneceBinaryFile[];
+	relatedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * Waste material reported for this production process.
 	 * @see https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 	 */
-	reportedProductionWasteMaterial?: IUneceProductionWasteMaterial[];
+	reportedProductionWasteMaterial?: IUneceProductionWasteMaterial;
 
 	/**
 	 * A specification document referenced for this production process.
 	 * @see https://vocabulary.uncefact.org/specificationDocument
 	 */
-	specificationDocument?: IUneceDocument[];
+	specificationDocument?: IUneceDocument;
 
 	/**
 	 * A sustainability assertion specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion[];
+	specifiedAssertion?: IUneceAssertion;
 
 	/**
 	 * A referenced document specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument[];
+	specifiedDocument?: IUneceDocument;
 
 	/**
 	 * A production facility specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedFacility
 	 */
-	specifiedFacility?: IUneceProductionFacility[];
+	specifiedFacility?: IUneceProductionFacility;
 
 	/**
 	 * An organizational certificate specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 	 */
-	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate[];
+	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate;
 
 	/**
 	 * An organizational certification specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertification
 	 */
-	specifiedOrganizationalCertification?: IUneceOrganizationalCertification[];
+	specifiedOrganizationalCertification?: IUneceOrganizationalCertification;
 
 	/**
 	 * A process certificate specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate[];
+	specifiedProcessCertificate?: IUneceProcessCertificate;
 
 	/**
 	 * A process certification specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertification
 	 */
-	specifiedProcessCertification?: IUneceProcessCertification[];
+	specifiedProcessCertification?: IUneceProcessCertification;
 
 	/**
 	 * A product batch certification specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCertification
 	 */
-	specifiedProductBatchCertification?: IUneceProductBatchCertification[];
+	specifiedProductBatchCertification?: IUneceProductBatchCertification;
 
 	/**
 	 * A trade product certification specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeProductCertification
 	 */
-	specifiedTradeProductCertification?: IUneceTradeProductCertification[];
+	specifiedTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A status, expressed as text, of this production process.
@@ -403,11 +403,11 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * A subcontractor party specified for this production process.
 	 * @see https://vocabulary.uncefact.org/subcontractorParty
 	 */
-	subcontractorParty?: IUneceTradeParty[];
+	subcontractorParty?: IUneceTradeParty;
 
 	/**
 	 * A subordinate process of this production process.
 	 * @see https://vocabulary.uncefact.org/subordinateProcess
 	 */
-	subordinateProcess?: IUneceProductionProcess[];
+	subordinateProcess?: IUneceProductionProcess;
 }

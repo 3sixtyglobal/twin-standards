@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### definedContact?
 
-> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
+> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
 A trade contact defined for this location party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 Fax communication information for this location party.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/name
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 A postal address for this location party.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ### providedService?
 
-> `optional` **providedService**: [`IUneceService`](IUneceService.md)[]
+> `optional` **providedService**: [`IUneceService`](IUneceService.md)
 
 A transport service provided by this location party.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/providedService
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location or place specified for this party.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedTransportPerson?
 
-> `optional` **specifiedTransportPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)[]
+> `optional` **specifiedTransportPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)
 
 A transport related person specified for this location party.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### uRICommunication?
 
-> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.
 

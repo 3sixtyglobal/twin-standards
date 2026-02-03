@@ -33,7 +33,7 @@ export interface IUneceStoresItemInventory extends IJsonLdNodeObject {
 	 * An onboard quantity for this stores inventory item.
 	 * @see https://vocabulary.uncefact.org/onboardQuantity
 	 */
-	onboardQuantity?: IUneceQuantityType[];
+	onboardQuantity?: IUneceQuantityType;
 
 	/**
 	 * A sequence number for this stores inventory item.
@@ -45,7 +45,7 @@ export interface IUneceStoresItemInventory extends IJsonLdNodeObject {
 	 * A location specified for this stores inventory item.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
+	specifiedLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A code specifying the type of stores inventory item.

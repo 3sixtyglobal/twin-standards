@@ -32,7 +32,7 @@ export interface IUneceSection extends IJsonLdNodeObject {
 	 * A segment included in this label section.
 	 * @see https://vocabulary.uncefact.org/includedSegment
 	 */
-	includedSegment?: IUneceSegment[];
+	includedSegment?: IUneceSegment;
 
 	/**
 	 * The code specifying the pattern of this label section.

@@ -104,10 +104,7 @@
 			"description": "The code specifying the forecast type in these supply chain forecast terms."
 		},
 		"supplyChainForecastTermsCommitmentLevelCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommitmentLevelCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommitmentLevelCodeList",
 			"description": "A code specifying a commitment level in these supply chain forecast terms."
 		},
 		"supplyChainForecastTermsFrequencyCode": {

@@ -45,43 +45,43 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * An assessment applicable to this production facility.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment[];
+	applicableAssessment?: IUneceAssessment;
 
 	/**
 	 * A certificate applicable to this production facility.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A specified inspection applicable to this production facility.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
 
 	/**
 	 * A sustainability characteristic applicable to this production facility.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A sustainability inspection applicable to this production facility.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
 
 	/**
 	 * A measure of the buffer capacity for this production facility.
 	 * @see https://vocabulary.uncefact.org/bufferCapacityMeasure
 	 */
-	bufferCapacityMeasure?: IUneceMeasureType[];
+	bufferCapacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the capacity of this production facility.
 	 * @see https://vocabulary.uncefact.org/capacityMeasure
 	 */
-	capacityMeasure?: IUneceMeasureType[];
+	capacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * The completion date of this production facility.
@@ -129,7 +129,7 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * A measure of the input capacity for this production facility.
 	 * @see https://vocabulary.uncefact.org/inputCapacityMeasure
 	 */
-	inputCapacityMeasure?: IUneceMeasureType[];
+	inputCapacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * A licence, expressed as text, for this production facility.
@@ -147,13 +147,13 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * A measure of the output capacity for this production facility.
 	 * @see https://vocabulary.uncefact.org/outputCapacityMeasure
 	 */
-	outputCapacityMeasure?: IUneceMeasureType[];
+	outputCapacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * A physical location referenced for this production facility.
 	 * @see https://vocabulary.uncefact.org/physicalLocation
 	 */
-	physicalLocation?: IUneceLocation[];
+	physicalLocation?: IUneceLocation;
 
 	/**
 	 * The code specifying the type of certification for this production facility.
@@ -183,7 +183,7 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * A production unit related to this production facility.
 	 * @see https://vocabulary.uncefact.org/relatedProductionUnit
 	 */
-	relatedProductionUnit?: IUneceProductionUnit[];
+	relatedProductionUnit?: IUneceProductionUnit;
 
 	/**
 	 * The renovation date of this production facility.
@@ -201,77 +201,77 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * An animal certificate specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalCertificate
 	 */
-	specifiedAnimalCertificate?: IUneceAnimalCertificate[];
+	specifiedAnimalCertificate?: IUneceAnimalCertificate;
 
 	/**
 	 * An animal certification specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalCertification
 	 */
-	specifiedAnimalCertification?: IUneceAnimalCertification[];
+	specifiedAnimalCertification?: IUneceAnimalCertification;
 
 	/**
 	 * An organizational certificate specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 	 */
-	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate[];
+	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate;
 
 	/**
 	 * An organizational certification specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertification
 	 */
-	specifiedOrganizationalCertification?: IUneceOrganizationalCertification[];
+	specifiedOrganizationalCertification?: IUneceOrganizationalCertification;
 
 	/**
 	 * A production process specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProcess
 	 */
-	specifiedProcess?: IUneceProductionProcess[];
+	specifiedProcess?: IUneceProductionProcess;
 
 	/**
 	 * A process certificate specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate[];
+	specifiedProcessCertificate?: IUneceProcessCertificate;
 
 	/**
 	 * A process certification specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertification
 	 */
-	specifiedProcessCertification?: IUneceProcessCertification[];
+	specifiedProcessCertification?: IUneceProcessCertification;
 
 	/**
 	 * A product batch certificate specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 	 */
-	specifiedProductBatchCertificate?: IUneceProductBatchCertificate[];
+	specifiedProductBatchCertificate?: IUneceProductBatchCertificate;
 
 	/**
 	 * A product batch certification specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCertification
 	 */
-	specifiedProductBatchCertification?: IUneceProductBatchCertification[];
+	specifiedProductBatchCertification?: IUneceProductBatchCertification;
 
 	/**
 	 * A product certificate specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedProductCertificate
 	 */
-	specifiedProductCertificate?: IUneceProductCertificate[];
+	specifiedProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A supply chain event specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * A trade product certification specified for this production facility.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeProductCertification
 	 */
-	specifiedTradeProductCertification?: IUneceTradeProductCertification[];
+	specifiedTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A production facility subordinate to this production facility.
 	 * @see https://vocabulary.uncefact.org/subordinateFacility
 	 */
-	subordinateFacility?: IUneceProductionFacility[];
+	subordinateFacility?: IUneceProductionFacility;
 }

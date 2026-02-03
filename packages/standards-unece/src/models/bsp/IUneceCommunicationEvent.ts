@@ -31,7 +31,7 @@ export interface IUneceCommunicationEvent extends IJsonLdNodeObject {
 	 * A geographical feature associated with this communication event.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalFeature
 	 */
-	associatedGeographicalFeature?: IUneceGeographicalFeature[];
+	associatedGeographicalFeature?: IUneceGeographicalFeature;
 
 	/**
 	 * A textual description of this communication event.
@@ -55,13 +55,13 @@ export interface IUneceCommunicationEvent extends IJsonLdNodeObject {
 	 * The logistics location where this communication event will occur or has occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 	 */
-	occurrenceLogisticsLocation?: IUneceLogisticsLocation[];
+	occurrenceLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The operational responsible party for this communication event.
 	 * @see https://vocabulary.uncefact.org/operationalResponsibleParty
 	 */
-	operationalResponsibleParty?: IUneceTradeParty[];
+	operationalResponsibleParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying a reason for this communication event.
@@ -79,11 +79,11 @@ export interface IUneceCommunicationEvent extends IJsonLdNodeObject {
 	 * The number of units for this communication event.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The measure of a value for this communication event.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 }

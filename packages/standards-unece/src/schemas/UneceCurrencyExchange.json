@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "An associated document referenced for this trade related currency exchange."
 		},
 		"conversionRate": {
@@ -119,10 +116,7 @@
 			"description": "The code specifying the target currency of a trade related currency conversion."
 		},
 		"document": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A document referenced for this trade related currency exchange."
 		},
 		"sourceUnitBasisNumeric": {

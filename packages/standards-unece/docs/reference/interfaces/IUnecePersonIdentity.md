@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/socialSecurityId
 
 ### specifiedProprietaryIdentity?
 
-> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)
 
 A proprietary Identity specified for this person.
 

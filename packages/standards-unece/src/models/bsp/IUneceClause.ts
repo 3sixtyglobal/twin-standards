@@ -27,13 +27,13 @@ export interface IUneceClause extends IJsonLdNodeObject {
 	 * A measurement associated with this document clause.
 	 * @see https://vocabulary.uncefact.org/associatedMeasurement
 	 */
-	associatedMeasurement?: IUneceMeasurement[];
+	associatedMeasurement?: IUneceMeasurement;
 
 	/**
 	 * A period of time associated with this document clause.
 	 * @see https://vocabulary.uncefact.org/associatedPeriod
 	 */
-	associatedPeriod?: IUneceSpecifiedPeriod[];
+	associatedPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * Content, expressed as text, of this document clause.

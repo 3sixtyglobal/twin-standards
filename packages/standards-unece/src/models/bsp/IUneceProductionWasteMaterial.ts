@@ -30,25 +30,25 @@ export interface IUneceProductionWasteMaterial extends IJsonLdNodeObject {
 	 * A product certificate applicable to this production waste material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A production waste recovery disposal process applicable to this production waste material.
 	 * @see https://vocabulary.uncefact.org/applicableProductionWasteRecoveryDisposalProcess
 	 */
-	applicableProductionWasteRecoveryDisposalProcess?: IUneceProductionWasteRecoveryDisposalProcess[];
+	applicableProductionWasteRecoveryDisposalProcess?: IUneceProductionWasteRecoveryDisposalProcess;
 
 	/**
 	 * A sustainability characteristic applicable to this production waste material.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A production waste material component included in this production waste material.
 	 * @see https://vocabulary.uncefact.org/includedProductionWasteMaterialComponent
 	 */
-	includedProductionWasteMaterialComponent?: IUneceProductionWasteMaterialComponent[];
+	includedProductionWasteMaterialComponent?: IUneceProductionWasteMaterialComponent;
 
 	/**
 	 * The code specifying the type of production waste material.
@@ -60,11 +60,11 @@ export interface IUneceProductionWasteMaterial extends IJsonLdNodeObject {
 	 * A measure of the volume of this production waste material.
 	 * @see https://vocabulary.uncefact.org/volumeMeasure
 	 */
-	volumeMeasure?: IUneceMeasureType[];
+	volumeMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the weight of this production waste material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 }

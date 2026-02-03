@@ -39,35 +39,35 @@ export interface IUneceSubordinateLineTradeSettlement extends IJsonLdNodeObject 
 	 * A tax applicable to this subordinate line trade settlement.
 	 * @see https://vocabulary.uncefact.org/applicableTax
 	 */
-	applicableTax?: IUneceTradeTax[];
+	applicableTax?: IUneceTradeTax;
 
 	/**
 	 * The billing period specified for the subordinate line of this trade settlement.
 	 * @see https://vocabulary.uncefact.org/billingPeriod
 	 */
-	billingPeriod?: IUneceSpecifiedPeriod[];
+	billingPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * An invoice document referenced for this subordinate line trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceReferencedDocument
 	 */
-	invoiceReferencedDocument?: IUneceDocument[];
+	invoiceReferencedDocument?: IUneceDocument;
 
 	/**
 	 * A purchase accounting account specified for the subordinate line of this trade settlement.
 	 * @see https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 	 */
-	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount[];
+	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * An allowance or charge specified for this subordinate line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedAllowanceCharge
 	 */
-	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge[];
+	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge;
 
 	/**
 	 * A financial adjustment specified for this subordinate line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialAdjustment
 	 */
-	specifiedFinancialAdjustment?: IUneceFinancialAdjustment[];
+	specifiedFinancialAdjustment?: IUneceFinancialAdjustment;
 }

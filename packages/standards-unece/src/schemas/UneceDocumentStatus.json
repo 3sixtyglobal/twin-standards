@@ -104,10 +104,7 @@
 			"description": "The textual description of this document status."
 		},
 		"documentStatusConditionCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocumentStatusCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocumentStatusCodeList",
 			"description": "The code specifying the condition of this document status."
 		},
 		"documentStatusProcessConditionCode": {
@@ -119,10 +116,7 @@
 			"description": "A code specifying a reason for this document status."
 		},
 		"includedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceNote",
 			"description": "A note included for this document status."
 		},
 		"information": {
@@ -174,10 +168,7 @@
 			"description": "A sequence number for this document status."
 		},
 		"specifiedDocumentCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocumentCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocumentCharacteristic",
 			"description": "A document characteristic specified for this document status."
 		},
 		"validInformation": {

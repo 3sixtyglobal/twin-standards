@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### affectedDistanceMeasure?
 
-> `optional` **affectedDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **affectedDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The affected distance over which this calculated emission is measured.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/affectedDistanceMeasure
 
 ### pollutionMeasure?
 
-> `optional` **pollutionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **pollutionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the pollution calculated for this emission.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### weightUnitWeightMeasure?
 
-> `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 A weight for which this calculated emission is measured.
 

@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/languageName
 
 ### personalLanguageProficiencyLanguageCode?
 
-> `optional` **personalLanguageProficiencyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)[]
+> `optional` **personalLanguageProficiencyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
 
 The code specifying the language for this personal language proficiency.
 

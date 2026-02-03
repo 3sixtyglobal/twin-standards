@@ -30,7 +30,7 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * A dimension that is a component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/componentSpatialDimension
 	 */
-	componentSpatialDimension?: IUneceSpatialDimension[];
+	componentSpatialDimension?: IUneceSpatialDimension;
 
 	/**
 	 * A textual description of this spatial dimension.
@@ -42,13 +42,13 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * The code specifying the type of spatial dimension, such as thickness, area, or volume.
 	 * @see https://vocabulary.uncefact.org/dimensionTypeCode
 	 */
-	dimensionTypeCode?: UneceDimensionTypeCodeList[];
+	dimensionTypeCode?: UneceDimensionTypeCodeList;
 
 	/**
 	 * The measure of the height component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/heightMeasure
 	 */
-	heightMeasure?: IUneceMeasureType[];
+	heightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The unique identifier of this spatial dimension.
@@ -60,47 +60,47 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * The measure of the length component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/lengthMeasure
 	 */
-	lengthMeasure?: IUneceMeasureType[];
+	lengthMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the diameter component for this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/linearUnitDiameterMeasure
 	 */
-	linearUnitDiameterMeasure?: IUneceLinearUnitMeasureType[];
+	linearUnitDiameterMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * The measure of the height component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/linearUnitHeightMeasure
 	 */
-	linearUnitHeightMeasure?: IUneceLinearUnitMeasureType[];
+	linearUnitHeightMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * The measure of the length component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/linearUnitLengthMeasure
 	 */
-	linearUnitLengthMeasure?: IUneceLinearUnitMeasureType[];
+	linearUnitLengthMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * The measure of the width component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/linearUnitWidthMeasure
 	 */
-	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType[];
+	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * The number of units with these spatial dimensions.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The measure of the value of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/unitValueMeasure
 	 */
-	unitValueMeasure?: IUneceUnitMeasureType[];
+	unitValueMeasure?: IUneceUnitMeasureType;
 
 	/**
 	 * The measure of the width component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/widthMeasure
 	 */
-	widthMeasure?: IUneceMeasureType[];
+	widthMeasure?: IUneceMeasureType;
 }

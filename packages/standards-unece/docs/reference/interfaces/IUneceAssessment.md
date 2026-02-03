@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this specified assessment.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this specified assessment.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### assessedObject?
 
-> `optional` **assessedObject**: [`IUneceObject`](IUneceObject.md)[]
+> `optional` **assessedObject**: [`IUneceObject`](IUneceObject.md)
 
 An object assessed for this specified assessment.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/assessorParty
 
 ### associatedBinaryFile?
 
-> `optional` **associatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **associatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file associated with this specified assessment.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/name
 
 ### relatedTradeTransaction?
 
-> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)[]
+> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)
 
 A supply chain trade transaction related to this specified assessment.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/verifiedIndicator
 
 ### verifierParty?
 
-> `optional` **verifierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **verifierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A verifier party for this specified assessment.
 

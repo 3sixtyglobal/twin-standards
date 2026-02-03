@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### breakdownBalanceOut?
 
-> `optional` **breakdownBalanceOut**: `IUneceHeaderBalanceOut`[]
+> `optional` **breakdownBalanceOut**: `IUneceHeaderBalanceOut`
 
 A balance out breakdown of this header balance out.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/breakdownBalanceOut
 
 ### calculatedAmount?
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value calculated for this header balance out.
 

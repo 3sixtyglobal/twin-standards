@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualOccurrenceDateTime
 
 ### arrivalRelatedLocation?
 
-> `optional` **arrivalRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **arrivalRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 An arrival location related to this port movement event.
 

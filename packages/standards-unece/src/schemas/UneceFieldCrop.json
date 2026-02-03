@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableAgriculturalProcess": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess",
 			"description": "An agricultural process crop production applicable for this field crop."
 		},
 		"appliedAgriculturalApplication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
 			"description": "An agricultural application applied to this field crop."
 		},
 		"className": {
@@ -138,17 +132,11 @@
 			"description": "The textual description for this field crop."
 		},
 		"grownPlot": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePlot"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePlot",
 			"description": "The plot where this field crop is grown."
 		},
 		"grownPreviousCrop": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFieldCrop"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFieldCrop",
 			"description": "A field crop grown previous to this field crop."
 		},
 		"harvestDateTime": {
@@ -156,10 +144,7 @@
 			"description": "The date, time, date time, or other date time value for the harvest of this field crop."
 		},
 		"harvestedProduce": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProduce"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProduce",
 			"description": "Produce harvested from this field crop."
 		},
 		"plantingReasonCode": {
@@ -187,17 +172,11 @@
 			"description": "The code specifying the sowing period for this field crop, such as spring or winter."
 		},
 		"specifiedAgriculturalCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic",
 			"description": "An agricultural characteristic specified for this field crop."
 		},
 		"specifiedCropMixtureConstituent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCropMixtureConstituent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCropMixtureConstituent",
 			"description": "A field crop mixture constituent specified for this field crop."
 		}
 	},

@@ -26,7 +26,7 @@ export interface IUneceDelimitedPeriod extends IJsonLdNodeObject {
 	 * The measure of the length of time for this delimited period such as hours, days, weeks, months or years.
 	 * @see https://vocabulary.uncefact.org/durationMeasure
 	 */
-	durationMeasure?: IUneceMeasureType[];
+	durationMeasure?: IUneceMeasureType;
 
 	/**
 	 * The date, time, date time or other date time value for the end of this delimited period.

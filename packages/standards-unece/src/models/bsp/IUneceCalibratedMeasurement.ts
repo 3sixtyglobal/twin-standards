@@ -38,7 +38,7 @@ export interface IUneceCalibratedMeasurement extends IJsonLdNodeObject {
 	 * The measure of the tolerance of this calibrated measurement.
 	 * @see https://vocabulary.uncefact.org/toleranceMeasure
 	 */
-	toleranceMeasure?: IUneceMeasureType[];
+	toleranceMeasure?: IUneceMeasureType;
 
 	/**
 	 * The percent of tolerance of this calibrated measurement.
@@ -62,7 +62,7 @@ export interface IUneceCalibratedMeasurement extends IJsonLdNodeObject {
 	 * The value of a measure for this calibrated measurement.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The identifier of a version of this calibrated measurement.

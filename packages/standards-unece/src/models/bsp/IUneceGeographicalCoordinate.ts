@@ -111,11 +111,11 @@ export interface IUneceGeographicalCoordinate extends IJsonLdNodeObject {
 	 * The CS (Coordinate System) engineering coordinate reference system used for this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 	 */
-	usedCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem[];
+	usedCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem;
 
 	/**
 	 * The geographical coordinate source system used for this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/usedCoordinateSourceSystem
 	 */
-	usedCoordinateSourceSystem?: IUneceCoordinateSourceSystem[];
+	usedCoordinateSourceSystem?: IUneceCoordinateSourceSystem;
 }

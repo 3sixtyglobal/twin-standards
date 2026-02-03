@@ -41,7 +41,7 @@ export interface IUneceDocumentStatus extends IJsonLdNodeObject {
 	 * The code specifying the condition of this document status.
 	 * @see https://vocabulary.uncefact.org/documentStatusConditionCode
 	 */
-	documentStatusConditionCode?: UneceDocumentStatusCodeList[];
+	documentStatusConditionCode?: UneceDocumentStatusCodeList;
 
 	/**
 	 * The code specifying the process condition of this document status.
@@ -59,7 +59,7 @@ export interface IUneceDocumentStatus extends IJsonLdNodeObject {
 	 * A note included for this document status.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote[];
+	includedNote?: IUneceNote;
 
 	/**
 	 * Information, expressed as text, for this document status.
@@ -137,7 +137,7 @@ export interface IUneceDocumentStatus extends IJsonLdNodeObject {
 	 * A document characteristic specified for this document status.
 	 * @see https://vocabulary.uncefact.org/specifiedDocumentCharacteristic
 	 */
-	specifiedDocumentCharacteristic?: IUneceDocumentCharacteristic[];
+	specifiedDocumentCharacteristic?: IUneceDocumentCharacteristic;
 
 	/**
 	 * The valid information, expressed as text, for this document status.

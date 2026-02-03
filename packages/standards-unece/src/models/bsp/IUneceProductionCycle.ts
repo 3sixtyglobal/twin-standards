@@ -28,7 +28,7 @@ export interface IUneceProductionCycle extends IJsonLdNodeObject {
 	 * A process applicable to this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/applicableProductionProcess
 	 */
-	applicableProductionProcess?: IUneceProductionProcess[];
+	applicableProductionProcess?: IUneceProductionProcess;
 
 	/**
 	 * The date, time, date time, or other date time value of the end of this specified production cycle.
@@ -52,7 +52,7 @@ export interface IUneceProductionCycle extends IJsonLdNodeObject {
 	 * A process document referenced for this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/processSpecifiedDocument
 	 */
-	processSpecifiedDocument?: IUneceDocument[];
+	processSpecifiedDocument?: IUneceDocument;
 
 	/**
 	 * The production year for this specified production cycle.
@@ -64,7 +64,7 @@ export interface IUneceProductionCycle extends IJsonLdNodeObject {
 	 * A binary file related to this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/relatedBinaryFile
 	 */
-	relatedBinaryFile?: IUneceBinaryFile[];
+	relatedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The sequence number for this specified production cycle.

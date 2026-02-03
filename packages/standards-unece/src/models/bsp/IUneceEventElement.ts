@@ -34,5 +34,5 @@ export interface IUneceEventElement extends IJsonLdNodeObject {
 	 * The number of units of this TT event element.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 }

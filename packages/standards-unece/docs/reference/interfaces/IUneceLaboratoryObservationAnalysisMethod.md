@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/obligatoryTypeCode
 
 ### sampledObjectMinimumRequiredObjectSizeMeasure?
 
-> `optional` **sampledObjectMinimumRequiredObjectSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **sampledObjectMinimumRequiredObjectSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum object size required for this laboratory observation analysis method.
 

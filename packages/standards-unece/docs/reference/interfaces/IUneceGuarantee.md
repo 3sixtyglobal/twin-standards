@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/effectiveDelimitedPeriod
 
 ### liabilityAmount?
 
-> `optional` **liabilityAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **liabilityAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of a liability in this financial guarantee.
 

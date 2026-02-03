@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/childObjectInstanceId
 
 ### childQuantitySpecifiedEventElement?
 
-> `optional` **childQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
+> `optional` **childQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)
 
 A quantity event element specified for a child of this TT aggregation event.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/childQuantitySpecifiedEventElement
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A destination related party for this TT aggregation event.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/parentObjectId
 
 ### readPointRelatedLocation?
 
-> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The read point related location of this TT aggregation event.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/recordedDateTime
 
 ### relatedCertification?
 
-> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)[]
+> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)
 
 A certification related to this TT aggregation event.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ### relatedTTLocation?
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The location related to this TT aggregation event.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A source related party for this TT aggregation event.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/sourceRelatedParty
 
 ### specifiedError?
 
-> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)[]
+> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)
 
 A declared error specified for this TT aggregation event.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/specifiedError
 
 ### specifiedTradeTransaction?
 
-> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
+> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)
 
 A trade transaction specified for this TT aggregation event.
 

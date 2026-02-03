@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/expectedDateTime
 
 ### transportModeCode?
 
-> `optional` **transportModeCode**: [`UneceTransportModeCodeList`](../type-aliases/UneceTransportModeCodeList.md)[]
+> `optional` **transportModeCode**: [`UneceTransportModeCodeList`](../type-aliases/UneceTransportModeCodeList.md)
 
 The code specifying the transport mode of this specified guest arrival.
 

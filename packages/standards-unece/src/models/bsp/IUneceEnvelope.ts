@@ -33,13 +33,13 @@ export interface IUneceEnvelope extends IJsonLdNodeObject {
 	 * The payload included in this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/includedPayload
 	 */
-	includedPayload?: IUnecePayload[];
+	includedPayload?: IUnecePayload;
 
 	/**
 	 * The document metadata for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/metadataDocument
 	 */
-	metadataDocument?: IUneceXHEDocument[];
+	metadataDocument?: IUneceXHEDocument;
 
 	/**
 	 * The indication of whether or not a payload is included in this XHE envelope.

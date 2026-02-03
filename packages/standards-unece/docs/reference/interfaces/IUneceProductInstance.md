@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/ammunitionId
 
 ### applicableClassification?
 
-> `optional` **applicableClassification**: [`IUneceClassification`](IUneceClassification.md)[]
+> `optional` **applicableClassification**: [`IUneceClassification`](IUneceClassification.md)
 
 A product classification applicable to this trade product instance.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableClassification
 
 ### applicableGoodsCharacteristic?
 
-> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
+> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
 
 A distinguishing material feature applicable to this trade product instance.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
 
 A product characteristic applicable to this trade product instance.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ### appliedProcess?
 
-> `optional` **appliedProcess**: [`IUneceProductHandlingProcess`](IUneceProductHandlingProcess.md)[]
+> `optional` **appliedProcess**: [`IUneceProductHandlingProcess`](IUneceProductHandlingProcess.md)
 
 A product handling process applied to this trade product instance, such as manufacturing or storage.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/bestBeforeDateTime
 
 ### brandNameAdditionalInformationNote?
 
-> `optional` **brandNameAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **brandNameAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)
 
 An additional brand name information note for this trade product instance.
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/ceramicCapacitorId
 
 ### certificationEvidenceDocument?
 
-> `optional` **certificationEvidenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **certificationEvidenceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document providing evidence of certification for this trade product instance.
 
@@ -280,7 +280,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### ingredientAdditionalInformationNote?
 
-> `optional` **ingredientAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **ingredientAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)
 
 A note providing additional ingredient information for this trade product instance.
 
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/ingredientAdditionalInformationNote
 
 ### inspectionDocument?
 
-> `optional` **inspectionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **inspectionDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced inspection document for this trade product instance.
 
@@ -304,7 +304,7 @@ https://vocabulary.uncefact.org/inspectionDocument
 
 ### inspectionEvent?
 
-> `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The inspection event for this trade product instance.
 
@@ -364,7 +364,7 @@ https://vocabulary.uncefact.org/manufacturerAssignedSerialId
 
 ### originLocation?
 
-> `optional` **originLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **originLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A location of origin for this supply chain product instance.
 
@@ -376,7 +376,7 @@ https://vocabulary.uncefact.org/originLocation
 
 ### packagingEvent?
 
-> `optional` **packagingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **packagingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The packaging event for this trade product instance.
 
@@ -388,7 +388,7 @@ https://vocabulary.uncefact.org/packagingEvent
 
 ### processingEvent?
 
-> `optional` **processingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **processingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The processing event for this trade product instance.
 
@@ -400,7 +400,7 @@ https://vocabulary.uncefact.org/processingEvent
 
 ### productCharacteristic?
 
-> `optional` **productCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
+> `optional` **productCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
 
 A product characteristic for this trade product instance.
 
@@ -412,7 +412,7 @@ https://vocabulary.uncefact.org/productCharacteristic
 
 ### productionEvent?
 
-> `optional` **productionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **productionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The production event for this trade product instance.
 
@@ -424,7 +424,7 @@ https://vocabulary.uncefact.org/productionEvent
 
 ### qualityGradeAdditionalInformationNote?
 
-> `optional` **qualityGradeAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **qualityGradeAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)
 
 A note providing additional quality grade information for this trade product instance.
 
@@ -436,7 +436,7 @@ https://vocabulary.uncefact.org/qualityGradeAdditionalInformationNote
 
 ### reclassificationEvent?
 
-> `optional` **reclassificationEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **reclassificationEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 A reclassification supply chain event for this trade product instance.
 
@@ -509,7 +509,7 @@ https://vocabulary.uncefact.org/supplierAssignedSerialId
 
 ### usedPackaging?
 
-> `optional` **usedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
+> `optional` **usedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
 
 Packaging used for this trade product instance.
 

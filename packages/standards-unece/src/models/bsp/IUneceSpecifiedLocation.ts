@@ -68,5 +68,5 @@ export interface IUneceSpecifiedLocation extends IJsonLdNodeObject {
 	 * A address specified for this location.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeAddress
 	 */
-	specifiedTradeAddress?: IUneceTradeAddress[];
+	specifiedTradeAddress?: IUneceTradeAddress;
 }

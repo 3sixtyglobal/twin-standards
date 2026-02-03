@@ -46,17 +46,17 @@ export interface IUneceComplexDescription extends IJsonLdNodeObject {
 	 * A requesting specification query for this work item complex description.
 	 * @see https://vocabulary.uncefact.org/requestingQuery
 	 */
-	requestingQuery?: IUneceSpecificationQuery[];
+	requestingQuery?: IUneceSpecificationQuery;
 
 	/**
 	 * A responding specification response for this work item complex description.
 	 * @see https://vocabulary.uncefact.org/respondingResponse
 	 */
-	respondingResponse?: IUneceResponse[];
+	respondingResponse?: IUneceResponse;
 
 	/**
 	 * The complex description subset for this work item complex description.
 	 * @see https://vocabulary.uncefact.org/subsetComplexDescription
 	 */
-	subsetComplexDescription?: IUneceComplexDescription[];
+	subsetComplexDescription?: IUneceComplexDescription;
 }

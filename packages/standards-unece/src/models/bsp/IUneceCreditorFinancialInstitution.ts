@@ -201,13 +201,13 @@ export interface IUneceCreditorFinancialInstitution extends IJsonLdNodeObject {
 	 * A proprietary identity specified for this creditor financial institution.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity[];
+	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
 
 	/**
 	 * The branch financial institution for this creditor financial institution.
 	 * @see https://vocabulary.uncefact.org/subDivisionFinancialInstitution
 	 */
-	subDivisionFinancialInstitution?: IUneceBranchFinancialInstitution[];
+	subDivisionFinancialInstitution?: IUneceBranchFinancialInstitution;
 
 	/**
 	 * The unique Swiss Bank Code (BC) identifier for this creditor financial institution.

@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/deliveryDiscontinuationCode
 
 ### deliveryTermsDeliveryTypeCode?
 
-> `optional` **deliveryTermsDeliveryTypeCode**: [`UneceDeliveryTermsCodeList`](../type-aliases/UneceDeliveryTermsCodeList.md)[]
+> `optional` **deliveryTermsDeliveryTypeCode**: [`UneceDeliveryTermsCodeList`](../type-aliases/UneceDeliveryTermsCodeList.md)
 
 The code specifying the type of delivery for these trade delivery terms.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/partialDeliveryAllowedIndicator
 
 ### relevantLocation?
 
-> `optional` **relevantLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
+> `optional` **relevantLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
 
 The trade location relevant for these trade delivery terms.
 

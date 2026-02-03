@@ -35,7 +35,7 @@ export interface IUneceTTParty extends IJsonLdNodeObject {
 	 * A technical characteristic managed by this TT party.
 	 * @see https://vocabulary.uncefact.org/managedCharacteristic
 	 */
-	managedCharacteristic?: IUneceTechnicalCharacteristic[];
+	managedCharacteristic?: IUneceTechnicalCharacteristic;
 
 	/**
 	 * The name, expressed as text, for this TT party.
@@ -47,7 +47,7 @@ export interface IUneceTTParty extends IJsonLdNodeObject {
 	 * A code specifying the type of TT party.
 	 * @see https://vocabulary.uncefact.org/partyTypeCode
 	 */
-	partyTypeCode?: UnecePartyTypeCodeList[];
+	partyTypeCode?: UnecePartyTypeCodeList;
 
 	/**
 	 * The identifier for the country of residence for this TT party, such as the country in which a person lives or in which a
@@ -60,13 +60,13 @@ export interface IUneceTTParty extends IJsonLdNodeObject {
 	 * A tracking animal specified for this TT party.
 	 * @see https://vocabulary.uncefact.org/specifiedTTAnimal
 	 */
-	specifiedTTAnimal?: IUneceTTAnimal[];
+	specifiedTTAnimal?: IUneceTTAnimal;
 
 	/**
 	 * A location specified for this TT party.
 	 * @see https://vocabulary.uncefact.org/specifiedTTLocation
 	 */
-	specifiedTTLocation?: IUneceTTLocation[];
+	specifiedTTLocation?: IUneceTTLocation;
 
 	/**
 	 * A code specifying the role of this TT party.

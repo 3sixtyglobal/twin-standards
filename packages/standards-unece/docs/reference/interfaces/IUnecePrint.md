@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableMaterial?
 
-> `optional` **applicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **applicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Material applicable to this product print.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableMaterial
 
 ### applicableMethod?
 
-> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A specified method applicable to this product print.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ### applicableProductionDevice?
 
-> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
+> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)
 
 A production device applicable to this product print.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableProductionDevice
 
 ### applicableTechnicalCharacteristic?
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
 
 A technical characteristic applicable to this product print.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/name
 
 ### relatedParty?
 
-> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A trade party related to this product print.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/sectionCode
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document specified for this product print.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedMachine?
 
-> `optional` **specifiedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
+> `optional` **specifiedMachine**: [`IUneceMachine`](IUneceMachine.md)
 
 A production machine specified for this product print.
 

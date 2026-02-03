@@ -96,31 +96,19 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableMachine": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMachine"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMachine",
 			"description": "A production machine applicable to this facility production unit."
 		},
 		"applicableProductionDevice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionDevice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionDevice",
 			"description": "A production device applicable to this facility production unit."
 		},
 		"applicableProductionProcess": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionProcess"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionProcess",
 			"description": "A production process applicable to this facility production unit."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this facility production unit."
 		},
 		"completionDate": {
@@ -132,10 +120,7 @@
 			"description": "The date of construction of this facility production unit."
 		},
 		"dedicatedFacility": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionFacility"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionFacility",
 			"description": "A dedicated production facility for this production unit."
 		},
 		"description": {
@@ -151,31 +136,19 @@
 			"description": "An identifier of this facility production unit."
 		},
 		"inputApplicableBatch": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
 			"description": "An input product batch applicable to this facility production unit."
 		},
 		"inputApplicableMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
 			"description": "Input material applicable to this facility production unit."
 		},
 		"inputApplicableProduct": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
 			"description": "An input product applicable to this facility production unit."
 		},
 		"manufacturerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A manufacturer party related to this facility production unit."
 		},
 		"name": {
@@ -183,80 +156,47 @@
 			"description": "The name, expressed as text, for this facility production unit."
 		},
 		"outputApplicableBatch": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
 			"description": "An output product batch applicable to this facility production unit."
 		},
 		"outputApplicableMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
 			"description": "Output material applicable to this facility production unit."
 		},
 		"outputApplicableProduct": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
 			"description": "An output product applicable to this facility production unit."
 		},
 		"physicalLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "A physical location referenced for this facility production unit."
 		},
 		"relatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A trade party related to this facility production unit."
 		},
 		"specifiedOrganizationalCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceOrganizationalCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceOrganizationalCertificate",
 			"description": "An organizational certificate specified for this facility production unit."
 		},
 		"specifiedProcessCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
 			"description": "A process certificate specified for this facility production unit."
 		},
 		"specifiedProductBatchCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductBatchCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductBatchCertificate",
 			"description": "A product batch certificate specified for this facility production unit."
 		},
 		"specifiedProductCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
 			"description": "A product certificate specified for this facility production unit."
 		},
 		"subcontractorParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A subcontractor party for this facility production unit."
 		},
 		"subordinateProductionUnit": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionUnit"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionUnit",
 			"description": "A production unit subordinate to this facility production unit."
 		},
 		"typeCode": {

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### cargoCategoryTypeCode?
 
-> `optional` **cargoCategoryTypeCode**: [`UneceCargoCategoryCodeList`](../type-aliases/UneceCargoCategoryCodeList.md)[]
+> `optional` **cargoCategoryTypeCode**: [`UneceCargoCategoryCodeList`](../type-aliases/UneceCargoCategoryCodeList.md)
 
 The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/cargoCategoryTypeCode
 
 ### cargoCommodityCategoryStatisticalClassificationCode?
 
-> `optional` **cargoCommodityCategoryStatisticalClassificationCode**: `"unece:CargoCommodityCategoryCodeList#ZZZ"`[]
+> `optional` **cargoCommodityCategoryStatisticalClassificationCode**: `"unece:CargoCommodityCategoryCodeList#ZZZ"`
 
 The code specifying a statistical classification for this transport cargo.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/cargoCommodityCategoryStatisticalClassificationC
 
 ### cargoOperationalCategoryCode?
 
-> `optional` **cargoOperationalCategoryCode**: [`UneceCargoOperationalCategoryCodeList`](../type-aliases/UneceCargoOperationalCategoryCodeList.md)[]
+> `optional` **cargoOperationalCategoryCode**: [`UneceCargoOperationalCategoryCodeList`](../type-aliases/UneceCargoOperationalCategoryCodeList.md)
 
 The code specifying the operational category for this transport cargo, such as obnoxious or military.
 

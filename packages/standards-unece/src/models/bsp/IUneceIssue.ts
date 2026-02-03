@@ -32,19 +32,19 @@ export interface IUneceIssue extends IJsonLdNodeObject {
 	 * The maximum metric characteristic specified for this target issue.
 	 * @see https://vocabulary.uncefact.org/maximumSpecifiedCharacteristic
 	 */
-	maximumSpecifiedCharacteristic?: IUneceMetricCharacteristic[];
+	maximumSpecifiedCharacteristic?: IUneceMetricCharacteristic;
 
 	/**
 	 * The minimum metric characteristic specified for this target issue.
 	 * @see https://vocabulary.uncefact.org/minimumSpecifiedCharacteristic
 	 */
-	minimumSpecifiedCharacteristic?: IUneceMetricCharacteristic[];
+	minimumSpecifiedCharacteristic?: IUneceMetricCharacteristic;
 
 	/**
 	 * The metric characteristic specified for this target issue.
 	 * @see https://vocabulary.uncefact.org/specifiedMetricCharacteristic
 	 */
-	specifiedMetricCharacteristic?: IUneceMetricCharacteristic[];
+	specifiedMetricCharacteristic?: IUneceMetricCharacteristic;
 
 	/**
 	 * The code specifying the type of target issue, such as a value or a range.

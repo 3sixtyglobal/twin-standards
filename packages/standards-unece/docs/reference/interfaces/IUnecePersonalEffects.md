@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### onboardQuantity?
 
-> `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 An onboard number of these specified personal effects.
 

@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableProcessCharacteristic?
 
-> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)[]
+> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)
 
 A process characteristic applicable to this product handling process.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableProcessCharacteristic
 
 ### completionPeriod?
 
-> `optional` **completionPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **completionPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period of completion for this product handling process.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/completionPeriod
 
 ### operationCountry?
 
-> `optional` **operationCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **operationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 The trade country where the operation of this product handling process occurs.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/operationCountry
 
 ### operatorParty?
 
-> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A trade party who is an operator of this product handling process.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### processTypeCode?
 
-> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)[]
+> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)
 
 The code specifying the type of product handling process.
 

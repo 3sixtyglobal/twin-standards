@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### identifiedPaymentTerms?
 
-> `optional` **identifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)[]
+> `optional` **identifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
 
 The payment terms identified for this advance payment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedTax?
 
-> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax included in this advance payment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/includedTax
 
 ### invoiceSpecifiedDocument?
 
-> `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An invoice document referenced by this advance payment.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/invoiceSpecifiedDocument
 
 ### paidAmount?
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the funds or securities paid in this advance payment.
 

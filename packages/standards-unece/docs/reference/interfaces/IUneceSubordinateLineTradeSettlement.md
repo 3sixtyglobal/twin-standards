@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/amountDirectionCode
 
 ### applicableTax?
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax applicable to this subordinate line trade settlement.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ### billingPeriod?
 
-> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The billing period specified for the subordinate line of this trade settlement.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/billingPeriod
 
 ### invoiceReferencedDocument?
 
-> `optional` **invoiceReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An invoice document referenced for this subordinate line trade settlement.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/invoiceReferencedDocument
 
 ### purchaseSpecifiedAccountingAccount?
 
-> `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A purchase accounting account specified for the subordinate line of this trade settlement.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 
 ### specifiedAllowanceCharge?
 
-> `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
+> `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)
 
 An allowance or charge specified for this subordinate line trade settlement.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/specifiedAllowanceCharge
 
 ### specifiedFinancialAdjustment?
 
-> `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)[]
+> `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)
 
 A financial adjustment specified for this subordinate line trade settlement.
 

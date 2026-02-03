@@ -26,53 +26,53 @@ export interface IUneceTransportationHealth extends IJsonLdNodeObject {
 	 * A died onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/diedOnboardHealthIndication
 	 */
-	diedOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	diedOnboardHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * A disease onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/diseaseOnboardHealthIndication
 	 */
-	diseaseOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	diseaseOnboardHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * An ill person or persons now onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/illPersonNowOnboardHealthIndication
 	 */
-	illPersonNowOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	illPersonNowOnboardHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * A medical practitioner consulted indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/medicalPractitionerConsultedHealthIndication
 	 */
-	medicalPractitionerConsultedHealthIndication?: IUneceMDHHealthIndication[];
+	medicalPractitionerConsultedHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * A more ill onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/moreIllOnboardHealthIndication
 	 */
-	moreIllOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	moreIllOnboardHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * An onboard infection condition indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/onboardInfectionConditionHealthIndication
 	 */
-	onboardInfectionConditionHealthIndication?: IUneceMDHHealthIndication[];
+	onboardInfectionConditionHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * An applied sanitary measure indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/sanitaryMeasureAppliedHealthIndication
 	 */
-	sanitaryMeasureAppliedHealthIndication?: IUneceMDHHealthIndication[];
+	sanitaryMeasureAppliedHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * A sick animal or animals onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/sickAnimalOnboardHealthIndication
 	 */
-	sickAnimalOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	sickAnimalOnboardHealthIndication?: IUneceMDHHealthIndication;
 
 	/**
 	 * A stowaway or stowaways found onboard indication for this MDH transportation health.
 	 * @see https://vocabulary.uncefact.org/stowawayFoundOnboardHealthIndication
 	 */
-	stowawayFoundOnboardHealthIndication?: IUneceMDHHealthIndication[];
+	stowawayFoundOnboardHealthIndication?: IUneceMDHHealthIndication;
 }

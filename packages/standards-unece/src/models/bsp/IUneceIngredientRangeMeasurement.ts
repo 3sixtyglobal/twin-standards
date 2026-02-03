@@ -32,7 +32,7 @@ export interface IUneceIngredientRangeMeasurement extends IJsonLdNodeObject {
 	 * The actual lower limit measure of this ingredient range measurement.
 	 * @see https://vocabulary.uncefact.org/lowerLimitActualMeasure
 	 */
-	lowerLimitActualMeasure?: IUneceMeasureType[];
+	lowerLimitActualMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the comparison operator for the lower limit of this ingredient range measurement.
@@ -44,13 +44,13 @@ export interface IUneceIngredientRangeMeasurement extends IJsonLdNodeObject {
 	 * The measure of the pressure condition at which this lower limit ingredient range measurement is taken.
 	 * @see https://vocabulary.uncefact.org/lowerLimitPressureConditionMeasure
 	 */
-	lowerLimitPressureConditionMeasure?: IUneceMeasureType[];
+	lowerLimitPressureConditionMeasure?: IUneceMeasureType;
 
 	/**
 	 * The actual upper limit measure of this ingredient range measurement.
 	 * @see https://vocabulary.uncefact.org/upperLimitActualMeasure
 	 */
-	upperLimitActualMeasure?: IUneceMeasureType[];
+	upperLimitActualMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the comparison operator for the upper limit of this ingredient range measurement.
@@ -62,5 +62,5 @@ export interface IUneceIngredientRangeMeasurement extends IJsonLdNodeObject {
 	 * The measure of the pressure condition at which this upper limit ingredient range measurement is taken.
 	 * @see https://vocabulary.uncefact.org/upperLimitPressureConditionMeasure
 	 */
-	upperLimitPressureConditionMeasure?: IUneceMeasureType[];
+	upperLimitPressureConditionMeasure?: IUneceMeasureType;
 }

@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value for this metric characteristic.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a value for this metric characteristic.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueMethod?
 
-> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A method specified for a value of this metric characteristic.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter specified for a value for this metric characteristic.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valueQuantity?
 
-> `optional` **valueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **valueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The value, expressed as a quantity, for this metric characteristic.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/valueQuantity
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
 
 A range specified for a value of this metric characteristic.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 A tolerance specified for a value of this metric characteristic.
 

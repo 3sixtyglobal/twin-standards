@@ -100,10 +100,7 @@
 			"description": "An identifier of this OEM equipment."
 		},
 		"manufacturerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The manufacturer party for this OEM equipment."
 		},
 		"pollingCapabilityIndicator": {
@@ -111,10 +108,7 @@
 			"description": "The indication of whether or not this OEM equipment has a polling capability."
 		},
 		"pollingRateMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the polling rate for this OEM equipment."
 		},
 		"typeCode": {

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### nationalityCountry?
 
-> `optional` **nationalityCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **nationalityCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 A country that constitutes a nationality by origin, birth, or naturalization for this representative person.
 

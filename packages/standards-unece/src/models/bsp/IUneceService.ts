@@ -38,13 +38,13 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * An actual period of performance for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/actualPerformancePeriod
 	 */
-	actualPerformancePeriod?: IUneceSpecifiedPeriod[];
+	actualPerformancePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The monetary value of the charge for this transport service.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType[];
+	chargeAmount?: IUneceAmountType;
 
 	/**
 	 * The contract identifier of this referenced transport service.
@@ -56,7 +56,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A logistics location specified for a delivery by this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/deliverySpecifiedLocation
 	 */
-	deliverySpecifiedLocation?: IUneceLogisticsLocation[];
+	deliverySpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The textual description of this transport service.
@@ -74,7 +74,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * An estimated period of performance for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/estimatedPerformancePeriod
 	 */
-	estimatedPerformancePeriod?: IUneceSpecifiedPeriod[];
+	estimatedPerformancePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The unique identifier of this transport service.
@@ -92,7 +92,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A quantity of items for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/itemQuantity
 	 */
-	itemQuantity?: IUneceQuantityType[];
+	itemQuantity?: IUneceQuantityType;
 
 	/**
 	 * The name, expressed as text, of this transport service.
@@ -104,7 +104,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A planned period of performance for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/plannedPerformancePeriod
 	 */
-	plannedPerformancePeriod?: IUneceSpecifiedPeriod[];
+	plannedPerformancePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The indication of whether or not this referenced transport service has been planned in advance of its execution.
@@ -122,31 +122,31 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A related logistics location specified for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/relatedSpecifiedLocation
 	 */
-	relatedSpecifiedLocation?: IUneceLogisticsLocation[];
+	relatedSpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A requested period of performance for this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/requestedPerformancePeriod
 	 */
-	requestedPerformancePeriod?: IUneceSpecifiedPeriod[];
+	requestedPerformancePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A trade party requesting this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/requesterParty
 	 */
-	requesterParty?: IUneceTradeParty[];
+	requesterParty?: IUneceTradeParty;
 
 	/**
 	 * A trade party responsible for this transport service.
 	 * @see https://vocabulary.uncefact.org/responsibleParty
 	 */
-	responsibleParty?: IUneceTradeParty[];
+	responsibleParty?: IUneceTradeParty;
 
 	/**
 	 * A trade party responsible for this transport service.
 	 * @see https://vocabulary.uncefact.org/responsibleTradeParty
 	 */
-	responsibleTradeParty?: IUneceTradeParty[];
+	responsibleTradeParty?: IUneceTradeParty;
 
 	/**
 	 * A transport route specified for this transport service.
@@ -158,7 +158,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A code specifying a contract movement type of this transport service.
 	 * @see https://vocabulary.uncefact.org/transportContractMovementContractMovementTypeCode
 	 */
-	transportContractMovementContractMovementTypeCode?: UneceTransportContractMovementCodeList[];
+	transportContractMovementContractMovementTypeCode?: UneceTransportContractMovementCodeList;
 
 	/**
 	 * A code specifying a type of category for this transport service.
@@ -182,17 +182,17 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * The code specifying the priority of this transport service.
 	 * @see https://vocabulary.uncefact.org/transportServicePriorityCode
 	 */
-	transportServicePriorityCode?: UneceTransportServicePriorityCodeList[];
+	transportServicePriorityCode?: UneceTransportServicePriorityCodeList;
 
 	/**
 	 * A code specifying a service requirement for this transport service.
 	 * @see https://vocabulary.uncefact.org/transportServiceRequirementCode
 	 */
-	transportServiceRequirementCode?: UneceTransportServiceRequirementCodeList[];
+	transportServiceRequirementCode?: UneceTransportServiceRequirementCodeList;
 
 	/**
 	 * The Uniform Resource Identifier (URI) communication for this transport service, such as its website or email address.
 	 * @see https://vocabulary.uncefact.org/uRICommunication
 	 */
-	uRICommunication?: IUneceCommunication[];
+	uRICommunication?: IUneceCommunication;
 }

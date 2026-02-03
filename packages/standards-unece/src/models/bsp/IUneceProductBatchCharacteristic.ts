@@ -33,13 +33,13 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * A country applicable to this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableCountry
 	 */
-	applicableCountry?: IUneceCountry[];
+	applicableCountry?: IUneceCountry;
 
 	/**
 	 * A referenced standard applicable to this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A textual description of this product batch characteristic.
@@ -81,7 +81,7 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * The value, expressed as an amount, for this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueAmount
 	 */
-	valueAmount?: IUneceAmountType[];
+	valueAmount?: IUneceAmountType;
 
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, for this product batch characteristic.
@@ -99,13 +99,13 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * A method specified for a value of this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod[];
+	valueMethod?: IUneceSpecifiedMethod;
 
 	/**
 	 * The value, expressed as a number, for this product batch characteristic.
@@ -117,17 +117,17 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for a value of this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter[];
+	valueParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A range specified for a value of this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange[];
+	valueRange?: IUneceRange;
 
 	/**
 	 * A tolerance specified for a value of this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance[];
+	valueTolerance?: IUneceTolerance;
 }

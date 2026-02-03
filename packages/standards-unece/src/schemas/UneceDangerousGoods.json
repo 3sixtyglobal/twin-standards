@@ -108,10 +108,7 @@
 			"description": "All packed in one information, expressed as text, for these transported dangerous goods."
 		},
 		"associatedTransportEquipment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment",
 			"description": "Referenced transport equipment associated with the dangerous goods."
 		},
 		"authorizationInformation": {
@@ -123,10 +120,7 @@
 			"description": "Compliance declaration information, expressed as text, for these transported dangerous goods."
 		},
 		"controlTemperatureMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasurement",
 			"description": "The measurement of the control temperature of these transported dangerous goods."
 		},
 		"crewEmergencyInformation": {
@@ -138,24 +132,15 @@
 			"description": "Crew member emergency identity information, expressed as text, concerning the transport of these dangerous goods."
 		},
 		"dangerousGoodsPackagingLevelPackagingDangerLevelCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDangerousGoodsPackagingLevelCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDangerousGoodsPackagingLevelCodeList",
 			"description": "The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes."
 		},
 		"dangerousGoodsRegulationCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDangerousGoodsRegulationCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDangerousGoodsRegulationCodeList",
 			"description": "The code specifying a regulation applicable to these transported dangerous goods."
 		},
 		"densityMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A density measure for these transported dangerous goods."
 		},
 		"eMSId": {
@@ -163,17 +148,11 @@
 			"description": "The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods."
 		},
 		"emergencyContact": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeContact"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeContact",
 			"description": "The person or department to be contacted in the event of any emergency related to these transported dangerous goods."
 		},
 		"emergencyTemperatureMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasurement",
 			"description": "The measurement of the emergency temperature of these transported dangerous goods."
 		},
 		"exceptedQuantityStatementInformation": {
@@ -185,10 +164,7 @@
 			"description": "Expert training certificate information, expressed as text, concerning the transport of these dangerous goods."
 		},
 		"explosiveCargoNetWeightMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
 			"description": "The measure of the explosive cargo weight applicable to these transported dangerous goods."
 		},
 		"explosiveCompatibilityGroupCode": {
@@ -228,10 +204,7 @@
 			"description": "The code specifying the IMDG (International Maritime Dangerous Goods regulation) segregation group for these transported dangerous goods."
 		},
 		"includedFuel": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFuel"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFuel",
 			"description": "Gaseous fuels included in the transport of these dangerous goods."
 		},
 		"information": {
@@ -295,10 +268,7 @@
 			"description": "The indicator of whether or not these transported dangerous goods are radioactive."
 		},
 		"radioactiveMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRadioactiveMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRadioactiveMaterial",
 			"description": "The radioactive material (Class 7) transported as dangerous goods."
 		},
 		"regulationName": {
@@ -310,17 +280,11 @@
 			"description": "The name, expressed as text, for the regulatory authority for these transported dangerous goods."
 		},
 		"relatedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A document related to these transported dangerous goods."
 		},
 		"reportableQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The reportable quantity for these transported dangerous goods."
 		},
 		"shipperDeclarationInformation": {
@@ -332,17 +296,11 @@
 			"description": "The unique identifier of the special provision for these transported dangerous goods."
 		},
 		"specifiedPackage": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePackage"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePackage",
 			"description": "A logistics package specified for these transported dangerous goods."
 		},
 		"statedCondition": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCondition"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCondition",
 			"description": "A stated condition of these transported dangerous goods."
 		},
 		"supplementaryInformation": {
@@ -362,10 +320,7 @@
 			"description": "A technical name, expressed as text, for these transported dangerous goods."
 		},
 		"temperatureUnitMeltingPointTemperatureMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTemperatureUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTemperatureUnitMeasureType",
 			"description": "A melting point temperature measure for these transported dangerous goods."
 		},
 		"transportDangerousGoodsPackageTypeCode": {
@@ -373,10 +328,7 @@
 			"description": "The code specifying the package type for the transported dangerous goods."
 		},
 		"transportExpertContact": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeContact"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeContact",
 			"description": "The expert to be contacted for details about the transport of these dangerous goods."
 		},
 		"tunnelRestrictionCode": {
@@ -388,17 +340,11 @@
 			"description": "The code specifying the unique United Nations Dangerous Goods (UNDG) number assigned to these transported dangerous goods."
 		},
 		"unitDensityMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType",
 			"description": "A density measure for these transported dangerous goods."
 		},
 		"unitViscosityMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType",
 			"description": "A viscosity measure for these transported dangerous goods."
 		},
 		"upperPartOrangeHazardPlacardId": {
@@ -406,38 +352,23 @@
 			"description": "The unique upper part of the orange hazard placard identifier for these transported dangerous goods."
 		},
 		"viscosityMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A viscosity measure for these transported dangerous goods."
 		},
 		"volumeUnitGrossVolumeMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
 			"description": "The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods."
 		},
 		"volumeUnitMarinePollutantVolumeMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
 			"description": "A measure of the marine pollutant volume of these transported dangerous goods."
 		},
 		"weightUnitGrossWeightMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
 			"description": "The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment."
 		},
 		"weightUnitNetWeightMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
 			"description": "The measure of the net weight (mass) of these transported dangerous goods."
 		}
 	},

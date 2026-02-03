@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### previousStatusCode?
 
-> `optional` **previousStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)[]
+> `optional` **previousStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 
 The code specifying the previous status of this trade workflow object.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/previousStatusCode
 
 ### workflowStatusCode?
 
-> `optional` **workflowStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)[]
+> `optional` **workflowStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 
 The code specifying the status of this trade workflow object.
 

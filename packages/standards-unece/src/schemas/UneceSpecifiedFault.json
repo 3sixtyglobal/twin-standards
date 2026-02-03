@@ -100,10 +100,7 @@
 			"description": "The actual percentage of this specified fault."
 		},
 		"actualSpecifiedQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The actual total quantity of this specified fault."
 		},
 		"categoryCode": {
@@ -127,10 +124,7 @@
 			"description": "A type, expressed as text, of this specified fault."
 		},
 		"operationalApplicableTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "An applicable operational tolerance of this specified fault."
 		},
 		"typeCode": {

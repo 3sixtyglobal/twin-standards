@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedCircle?
 
-> `optional` **includedCircle**: [`IUneceCircle`](IUneceCircle.md)[]
+> `optional` **includedCircle**: [`IUneceCircle`](IUneceCircle.md)
 
 A circle included in this specified geographical feature.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/includedCircle
 
 ### includedGeographicalGrid?
 
-> `optional` **includedGeographicalGrid**: [`IUneceGeographicalGrid`](IUneceGeographicalGrid.md)[]
+> `optional` **includedGeographicalGrid**: [`IUneceGeographicalGrid`](IUneceGeographicalGrid.md)
 
 The geographical grid included in this geographical feature.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/includedGeographicalGrid
 
 ### includedGeographicalLine?
 
-> `optional` **includedGeographicalLine**: [`IUneceGeographicalLine`](IUneceGeographicalLine.md)[]
+> `optional` **includedGeographicalLine**: [`IUneceGeographicalLine`](IUneceGeographicalLine.md)
 
 The geographical line included in this geographical feature.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/includedGeographicalLine
 
 ### includedGeographicalMultiCurve?
 
-> `optional` **includedGeographicalMultiCurve**: [`IUneceGeographicalMultiCurve`](IUneceGeographicalMultiCurve.md)[]
+> `optional` **includedGeographicalMultiCurve**: [`IUneceGeographicalMultiCurve`](IUneceGeographicalMultiCurve.md)
 
 The geographical multi-curve included in this geographical feature.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiCurve
 
 ### includedGeographicalMultiPoint?
 
-> `optional` **includedGeographicalMultiPoint**: [`IUneceGeographicalMultiPoint`](IUneceGeographicalMultiPoint.md)[]
+> `optional` **includedGeographicalMultiPoint**: [`IUneceGeographicalMultiPoint`](IUneceGeographicalMultiPoint.md)
 
 The geographical multi-point included in this geographical feature.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiPoint
 
 ### includedGeographicalMultiSurface?
 
-> `optional` **includedGeographicalMultiSurface**: [`IUneceGeographicalMultiSurface`](IUneceGeographicalMultiSurface.md)[]
+> `optional` **includedGeographicalMultiSurface**: [`IUneceGeographicalMultiSurface`](IUneceGeographicalMultiSurface.md)
 
 The geographical multi-surface included in this geographical feature.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiSurface
 
 ### includedGeographicalPoint?
 
-> `optional` **includedGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)[]
+> `optional` **includedGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
 
 The geographical point included in this geographical feature.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/includedGeographicalPoint
 
 ### includedGeographicalSurface?
 
-> `optional` **includedGeographicalSurface**: [`IUneceGeographicalSurface`](IUneceGeographicalSurface.md)[]
+> `optional` **includedGeographicalSurface**: [`IUneceGeographicalSurface`](IUneceGeographicalSurface.md)
 
 The geographical surface included in this geographical feature.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/name
 
 ### usedCoordinateReferenceSystem?
 
-> `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)[]
+> `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)
 
 The CS (Coordinate System) engineering coordinate reference system used for this specified geographical feature.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 
 ### usedCoordinateSourceSystem?
 
-> `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)[]
+> `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)
 
 The geographical coordinate source system used for this specified geographical feature.
 

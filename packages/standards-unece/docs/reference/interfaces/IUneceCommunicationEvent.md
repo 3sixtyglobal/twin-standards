@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### associatedGeographicalFeature?
 
-> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
+> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)
 
 A geographical feature associated with this communication event.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### occurrenceLogisticsLocation?
 
-> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The logistics location where this communication event will occur or has occurred.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ### operationalResponsibleParty?
 
-> `optional` **operationalResponsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **operationalResponsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The operational responsible party for this communication event.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units for this communication event.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of a value for this communication event.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### addedAdjustmentAmount?
 
-> `optional` **addedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **addedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the adjustment added for this cross-border customs valuation.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/chargeApportionMethodCode
 
 ### deductedAdjustmentAmount?
 
-> `optional` **deductedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **deductedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the adjustment deducted for this cross-border customs valuation.
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/methodCode
 
 ### otherChargeAmount?
 
-> `optional` **otherChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **otherChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value added or subtracted from the total invoice price not previously taken into account for this
 cross-border customs valuation.

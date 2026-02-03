@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedAssertion?
 
-> `optional` **includedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **includedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 A sustainability assertion included on this product label.
 

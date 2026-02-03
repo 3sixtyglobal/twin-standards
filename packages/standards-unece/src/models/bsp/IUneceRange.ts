@@ -33,13 +33,13 @@ export interface IUneceRange extends IJsonLdNodeObject {
 	 * The measure of the maximum value for this specified range.
 	 * @see https://vocabulary.uncefact.org/maximumValueMeasure
 	 */
-	maximumValueMeasure?: IUneceMeasureType[];
+	maximumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the minimum value for this specified range.
 	 * @see https://vocabulary.uncefact.org/minimumValueMeasure
 	 */
-	minimumValueMeasure?: IUneceMeasureType[];
+	minimumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The identifier of the start of this specified range.

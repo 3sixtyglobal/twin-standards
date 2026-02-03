@@ -38,7 +38,7 @@ export interface IUneceIllness extends IJsonLdNodeObject {
 	 * A logistics evacuation location for this MDH illness.
 	 * @see https://vocabulary.uncefact.org/evacuationLocation
 	 */
-	evacuationLocation?: IUneceLogisticsLocation[];
+	evacuationLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A code specifying a health status of this MDH illness.

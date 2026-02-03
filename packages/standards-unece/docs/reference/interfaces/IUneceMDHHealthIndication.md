@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### appliedSanitaryMeasure?
 
-> `optional` **appliedSanitaryMeasure**: [`IUneceSanitaryMeasure`](IUneceSanitaryMeasure.md)[]
+> `optional` **appliedSanitaryMeasure**: [`IUneceSanitaryMeasure`](IUneceSanitaryMeasure.md)
 
 A sanitary measure applied for this MDH health indication.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/reportedDateTime
 
 ### reportedQuantity?
 
-> `optional` **reportedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **reportedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A reported quantity for this MDH health indication.
 

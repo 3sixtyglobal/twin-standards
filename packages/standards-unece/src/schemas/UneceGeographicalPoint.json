@@ -100,17 +100,11 @@
 			"description": "The direct position list associated with this geographical point."
 		},
 		"associatedGeographicalObjectCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic",
 			"description": "The geographical object characteristic associated with this geographical point."
 		},
 		"associatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A logistics location associated with this specified geographical point."
 		}
 	},

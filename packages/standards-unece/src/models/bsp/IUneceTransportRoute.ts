@@ -59,7 +59,7 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * An itinerary stop event for this transport route, such as a port call in a vessel schedule.
 	 * @see https://vocabulary.uncefact.org/itineraryStopEvent
 	 */
-	itineraryStopEvent?: IUneceTransportEvent[];
+	itineraryStopEvent?: IUneceTransportEvent;
 
 	/**
 	 * Binary object data that is the map of this transport route.
@@ -77,7 +77,7 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * The specified period during which this transport route is scheduled.
 	 * @see https://vocabulary.uncefact.org/scheduledPeriod
 	 */
-	scheduledPeriod?: IUneceSpecifiedPeriod[];
+	scheduledPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A code specifying a security level for this transport route.
@@ -89,7 +89,7 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * The logistics transport movement specified for this transport route.
 	 * @see https://vocabulary.uncefact.org/specifiedTransportMovement
 	 */
-	specifiedTransportMovement?: IUneceTransportMovement[];
+	specifiedTransportMovement?: IUneceTransportMovement;
 
 	/**
 	 * A means of transport, expressed as text, for this transport route.
@@ -101,5 +101,5 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * The code specifying a status for a transport route, such as planned or actual.
 	 * @see https://vocabulary.uncefact.org/transportRouteStatusCode
 	 */
-	transportRouteStatusCode?: UneceStatusCodeList[];
+	transportRouteStatusCode?: UneceStatusCodeList;
 }

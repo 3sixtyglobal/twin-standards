@@ -34,19 +34,19 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * An agricultural process crop production specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/applicableAgriculturalProcess
 	 */
-	applicableAgriculturalProcess?: IUneceAgriculturalProcess[];
+	applicableAgriculturalProcess?: IUneceAgriculturalProcess;
 
 	/**
 	 * A specified agricultural application applied to this crop plot.
 	 * @see https://vocabulary.uncefact.org/appliedAgriculturalApplication
 	 */
-	appliedAgriculturalApplication?: IUneceAgriculturalApplication[];
+	appliedAgriculturalApplication?: IUneceAgriculturalApplication;
 
 	/**
 	 * The area measure for this crop plot.
 	 * @see https://vocabulary.uncefact.org/areaMeasure
 	 */
-	areaMeasure?: IUneceMeasureType[];
+	areaMeasure?: IUneceMeasureType;
 
 	/**
 	 * The date, time, date time, or other date time value for the end of this crop plot.
@@ -58,7 +58,7 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * A field crop grown on this crop plot.
 	 * @see https://vocabulary.uncefact.org/grownCrop
 	 */
-	grownCrop?: IUneceFieldCrop[];
+	grownCrop?: IUneceFieldCrop;
 
 	/**
 	 * The identifier for this crop plot.
@@ -70,7 +70,7 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * A crop plot included in this crop plot.
 	 * @see https://vocabulary.uncefact.org/includedPlot
 	 */
-	includedPlot?: IUnecePlot[];
+	includedPlot?: IUnecePlot;
 
 	/**
 	 * The indication of whether or not this crop plot is certified as regulatory organic.
@@ -88,32 +88,32 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * An agricultural certificate specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 	 */
-	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate[];
+	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate;
 
 	/**
 	 * An agricultural characteristic specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 	 */
-	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic[];
+	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic;
 
 	/**
 	 * An agricultural zone area specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalZoneArea
 	 */
-	specifiedAgriculturalZoneArea?: IUneceAgriculturalZoneArea[];
+	specifiedAgriculturalZoneArea?: IUneceAgriculturalZoneArea;
 
 	/**
 	 * An agricultural zone area specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedArea
 	 * @deprecated
 	 */
-	specifiedArea?: IUneceArea[];
+	specifiedArea?: IUneceArea;
 
 	/**
 	 * The referenced location specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation[];
+	specifiedLocation?: IUneceLocation;
 
 	/**
 	 * The date, time, date time, or other date time value for the start of this crop plot.

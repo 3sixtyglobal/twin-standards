@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasurement",
 			"description": "A measurement associated with this document clause."
 		},
 		"associatedPeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "A period of time associated with this document clause."
 		},
 		"content": {

@@ -36,14 +36,14 @@ export interface IUneceTransportSettingTemperature extends IJsonLdNodeObject {
 	 * degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/maximumValueMeasure
 	 */
-	maximumValueMeasure?: IUneceMeasureType[];
+	maximumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the lowest value of this transport setting temperature, such as a minimum temperature value of four
 	 * degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/minimumValueMeasure
 	 */
-	minimumValueMeasure?: IUneceMeasureType[];
+	minimumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of transport setting temperature [Reference United Nations Code List (UNCL) 6245].
@@ -55,5 +55,5 @@ export interface IUneceTransportSettingTemperature extends IJsonLdNodeObject {
 	 * The measure of the value of this transport setting temperature, such as a temperature value of ten degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/temperatureUnitValueMeasure
 	 */
-	temperatureUnitValueMeasure?: IUneceTemperatureUnitMeasureType[];
+	temperatureUnitValueMeasure?: IUneceTemperatureUnitMeasureType;
 }

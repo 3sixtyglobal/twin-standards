@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### onboardQuantity?
 
-> `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 An onboard quantity for this stores inventory item.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A location specified for this stores inventory item.
 

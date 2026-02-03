@@ -62,7 +62,7 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * An email Uniform Resource Identifier (URI) communication for this contact person.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication[];
+	emailURICommunication?: IUneceCommunication;
 
 	/**
 	 * A name, expressed as text, that this contact person shares with members of his/her family.
@@ -80,7 +80,7 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * Facsimile communication information for this contact person.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication[];
+	faxCommunication?: IUneceCommunication;
 
 	/**
 	 * The code specifying the gender of this contact person.
@@ -98,7 +98,7 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * An instant messaging communication for this contact person.
 	 * @see https://vocabulary.uncefact.org/instantMessagingCommunication
 	 */
-	instantMessagingCommunication?: IUneceCommunication[];
+	instantMessagingCommunication?: IUneceCommunication;
 
 	/**
 	 * The middle name, expressed as text, of this contact person, usually given by parents at birth.
@@ -122,31 +122,31 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * The birth address specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedBirthAddress
 	 */
-	specifiedBirthAddress?: IUneceBirthAddress[];
+	specifiedBirthAddress?: IUneceBirthAddress;
 
 	/**
 	 * A universal communication specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedCommunication
 	 */
-	specifiedCommunication?: IUneceCommunication[];
+	specifiedCommunication?: IUneceCommunication;
 
 	/**
 	 * An employer identity specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedEmployerIdentity
 	 */
-	specifiedEmployerIdentity?: IUneceEmployerIdentity[];
+	specifiedEmployerIdentity?: IUneceEmployerIdentity;
 
 	/**
 	 * The person identity specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedPersonIdentity
 	 */
-	specifiedPersonIdentity?: IUnecePersonIdentity[];
+	specifiedPersonIdentity?: IUnecePersonIdentity;
 
 	/**
 	 * A tax registration specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedTaxRegistration
 	 */
-	specifiedTaxRegistration?: IUneceTaxRegistration[];
+	specifiedTaxRegistration?: IUneceTaxRegistration;
 
 	/**
 	 * Telephone communication information for this contact person.
@@ -164,5 +164,5 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * A website Uniform Resource Identifier (URI) communication for this contact person.
 	 * @see https://vocabulary.uncefact.org/websiteURICommunication
 	 */
-	websiteURICommunication?: IUneceCommunication[];
+	websiteURICommunication?: IUneceCommunication;
 }

@@ -80,5 +80,5 @@ export interface IUneceProduct extends IJsonLdNodeObject {
 	 * A unit quantity of this referenced product.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 }

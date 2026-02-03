@@ -35,7 +35,7 @@ export interface IUneceSubordinateLocation extends IJsonLdNodeObject {
 	 * The code specifying the type of subordinate location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
 
 	/**
 	 * The name, expressed as text, of this subordinate location.
@@ -47,11 +47,11 @@ export interface IUneceSubordinateLocation extends IJsonLdNodeObject {
 	 * Physical geographical coordinate information for this subordinate location.
 	 * @see https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 	 */
-	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate[];
+	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate;
 
 	/**
 	 * The location subordinate to this subordinate location.
 	 * @see https://vocabulary.uncefact.org/subordinateSubordinateSubordinateLocation
 	 */
-	subordinateSubordinateSubordinateLocation?: IUneceSubordinateSubordinateLocation[];
+	subordinateSubordinateSubordinateLocation?: IUneceSubordinateSubordinateLocation;
 }

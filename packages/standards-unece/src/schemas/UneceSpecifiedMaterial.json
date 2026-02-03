@@ -96,66 +96,39 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableAssessment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssessment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssessment",
 			"description": "An assessment applicable for this specified material."
 		},
 		"applicableGoodsCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic",
 			"description": "A goods characteristic applicable to this specified material."
 		},
 		"applicableProductCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
 			"description": "A product certificate applicable to this specified material."
 		},
 		"applicableProductCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
 			"description": "A product characteristic applicable to this specified material."
 		},
 		"applicableQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The quantity applicable to this specified material."
 		},
 		"applicableSpecifiedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
 			"description": "A certificate applicable to this specified material."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this specified material."
 		},
 		"applicableTradeProductCertification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeProductCertification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeProductCertification",
 			"description": "A product certification applicable to this specified material."
 		},
 		"applicableWasteMaterialRecoveryDisposalProcess": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceWasteMaterialRecoveryDisposalProcess"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceWasteMaterialRecoveryDisposalProcess",
 			"description": "A waste material recovery disposal process applicable to this specified material."
 		},
 		"classificationId": {
@@ -163,10 +136,7 @@
 			"description": "An identifier of the classification of this specified material."
 		},
 		"componentMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
 			"description": "Component material for this specified material."
 		},
 		"description": {
@@ -186,24 +156,15 @@
 			"description": "Information, expressed as text, for this specified material."
 		},
 		"manufacturerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A manufacturer party for this specified material."
 		},
 		"massMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the mass of this specified material."
 		},
 		"massRatioMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A mass measure of this specified material expressed as a ratio to another mass, such as the total mass."
 		},
 		"name": {
@@ -215,10 +176,7 @@
 			"description": "The percentage of the presence for this specified material."
 		},
 		"specifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "A referenced location specified for this material."
 		},
 		"statusCode": {
@@ -230,31 +188,19 @@
 			"description": "The code specifying the type of material."
 		},
 		"usedChemical": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceChemical"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceChemical",
 			"description": "A distinct chemical used for this specified material."
 		},
 		"volumeMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the volume of this specified material."
 		},
 		"volumeRatioMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the volume of this specified material expressed as a ratio to another volume, such as the total volume."
 		},
 		"weightMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of the weight of this specified material."
 		}
 	},

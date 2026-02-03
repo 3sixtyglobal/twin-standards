@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party for this OEM equipment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/pollingCapabilityIndicator
 
 ### pollingRateMeasure?
 
-> `optional` **pollingRateMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **pollingRateMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the polling rate for this OEM equipment.
 

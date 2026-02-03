@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### matchingEvent?
 
-> `optional` **matchingEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
+> `optional` **matchingEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)
 
 A matching event for this communication pairing.
 

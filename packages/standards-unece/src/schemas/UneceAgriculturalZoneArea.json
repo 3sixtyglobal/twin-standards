@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableAgriculturalCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic",
 			"description": "An agricultural characteristic applicable to this agricultural zone area."
 		},
 		"appliedAgriculturalApplication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
 			"description": "A specified agricultural application applied to this agricultural zone area."
 		},
 		"designatedSection": {
@@ -114,10 +108,7 @@
 			"description": "The designated section, expressed as text, of this agricultural zone area."
 		},
 		"harvestedProduce": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProduce"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProduce",
 			"description": "Crop produce harvested from this agricultural zone area."
 		},
 		"identifier": {
@@ -133,24 +124,15 @@
 			"description": "The name, expressed as text, for this agricultural zone area."
 		},
 		"specifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "The referenced location specified for this agricultural zone area."
 		},
 		"specifiedPlot": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePlot"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePlot",
 			"description": "A crop plot specified for this agricultural zone area."
 		},
 		"subordinateArea": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea",
 			"description": "An agricultural zone area subordinate to this agricultural zone area."
 		},
 		"thirdPartyIssuedId": {

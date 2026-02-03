@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
 
 An assessment applicable to this production facility.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A certificate applicable to this production facility.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
 
 A specified inspection applicable to this production facility.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this production facility.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
 
 A sustainability inspection applicable to this production facility.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### bufferCapacityMeasure?
 
-> `optional` **bufferCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **bufferCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the buffer capacity for this production facility.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/bufferCapacityMeasure
 
 ### capacityMeasure?
 
-> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the capacity of this production facility.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### inputCapacityMeasure?
 
-> `optional` **inputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **inputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the input capacity for this production facility.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/name
 
 ### outputCapacityMeasure?
 
-> `optional` **outputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **outputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the output capacity for this production facility.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/outputCapacityMeasure
 
 ### physicalLocation?
 
-> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 A physical location referenced for this production facility.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/productionFacilityTypeCode
 
 ### relatedProductionUnit?
 
-> `optional` **relatedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
+> `optional` **relatedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)
 
 A production unit related to this production facility.
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/roofTypeCode
 
 ### specifiedAnimalCertificate?
 
-> `optional` **specifiedAnimalCertificate**: [`IUneceAnimalCertificate`](IUneceAnimalCertificate.md)[]
+> `optional` **specifiedAnimalCertificate**: [`IUneceAnimalCertificate`](IUneceAnimalCertificate.md)
 
 An animal certificate specified for this production facility.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/specifiedAnimalCertificate
 
 ### specifiedAnimalCertification?
 
-> `optional` **specifiedAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)[]
+> `optional` **specifiedAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)
 
 An animal certification specified for this production facility.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/specifiedAnimalCertification
 
 ### specifiedOrganizationalCertificate?
 
-> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
+> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
 
 An organizational certificate specified for this production facility.
 
@@ -386,7 +386,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 
 ### specifiedOrganizationalCertification?
 
-> `optional` **specifiedOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
+> `optional` **specifiedOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)
 
 An organizational certification specified for this production facility.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertification
 
 ### specifiedProcess?
 
-> `optional` **specifiedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
+> `optional` **specifiedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
 
 A production process specified for this production facility.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/specifiedProcess
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate specified for this production facility.
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### specifiedProcessCertification?
 
-> `optional` **specifiedProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)[]
+> `optional` **specifiedProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)
 
 A process certification specified for this production facility.
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertification
 
 ### specifiedProductBatchCertificate?
 
-> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)[]
+> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)
 
 A product batch certificate specified for this production facility.
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 
 ### specifiedProductBatchCertification?
 
-> `optional` **specifiedProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)[]
+> `optional` **specifiedProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)
 
 A product batch certification specified for this production facility.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertification
 
 ### specifiedProductCertificate?
 
-> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate specified for this production facility.
 
@@ -470,7 +470,7 @@ https://vocabulary.uncefact.org/specifiedProductCertificate
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 A supply chain event specified for this production facility.
 
@@ -482,7 +482,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ### specifiedTradeProductCertification?
 
-> `optional` **specifiedTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
+> `optional` **specifiedTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)
 
 A trade product certification specified for this production facility.
 
@@ -494,7 +494,7 @@ https://vocabulary.uncefact.org/specifiedTradeProductCertification
 
 ### subordinateFacility?
 
-> `optional` **subordinateFacility**: `IUneceProductionFacility`[]
+> `optional` **subordinateFacility**: `IUneceProductionFacility`
 
 A production facility subordinate to this production facility.
 

@@ -32,11 +32,11 @@ export interface IUneceInstructedTemperature extends IJsonLdNodeObject {
 	 * The measure of the maximum value of this instructed temperature.
 	 * @see https://vocabulary.uncefact.org/maximumValueMeasure
 	 */
-	maximumValueMeasure?: IUneceMeasureType[];
+	maximumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the minimum value of this instructed temperature.
 	 * @see https://vocabulary.uncefact.org/minimumValueMeasure
 	 */
-	minimumValueMeasure?: IUneceMeasureType[];
+	minimumValueMeasure?: IUneceMeasureType;
 }

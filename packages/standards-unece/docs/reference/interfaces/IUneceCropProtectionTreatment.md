@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableProcessCertificate?
 
-> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate applicable to this specified crop protection treatment.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this specified crop protection treatment.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usedMaterial?
 
-> `optional` **usedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **usedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Material used for this specified crop protection treatment.
 

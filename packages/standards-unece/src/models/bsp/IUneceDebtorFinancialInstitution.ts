@@ -181,7 +181,7 @@ export interface IUneceDebtorFinancialInstitution extends IJsonLdNodeObject {
 	 * The branch financial institution for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/subDivisionFinancialInstitution
 	 */
-	subDivisionFinancialInstitution?: IUneceBranchFinancialInstitution[];
+	subDivisionFinancialInstitution?: IUneceBranchFinancialInstitution;
 
 	/**
 	 * The unique Swiss Bank Code (BC) identifier for this debtor financial institution.

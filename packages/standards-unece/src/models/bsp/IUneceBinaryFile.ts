@@ -33,7 +33,7 @@ export interface IUneceBinaryFile extends IJsonLdNodeObject {
 	 * The specified period when access to this binary file is available.
 	 * @see https://vocabulary.uncefact.org/accessAvailabilityPeriod
 	 */
-	accessAvailabilityPeriod?: IUneceSpecifiedPeriod[];
+	accessAvailabilityPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A name of an author, expressed as text, of this specified binary file.
@@ -87,7 +87,7 @@ export interface IUneceBinaryFile extends IJsonLdNodeObject {
 	 * The measure of the size of this specified binary file.
 	 * @see https://vocabulary.uncefact.org/sizeMeasure
 	 */
-	sizeMeasure?: IUneceMeasureType[];
+	sizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * A title, expressed as text, for this specified binary file.

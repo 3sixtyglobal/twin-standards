@@ -26,7 +26,7 @@ export interface IUnecePairing extends IJsonLdNodeObject {
 	 * A matching event for this communication pairing.
 	 * @see https://vocabulary.uncefact.org/matchingEvent
 	 */
-	matchingEvent?: IUneceCommunicationEvent[];
+	matchingEvent?: IUneceCommunicationEvent;
 
 	/**
 	 * The code specifying the method of this communication pairing.

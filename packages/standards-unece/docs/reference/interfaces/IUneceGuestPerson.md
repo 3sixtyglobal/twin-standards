@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### accompanyingAnimal?
 
-> `optional` **accompanyingAnimal**: [`IUnecePetAnimal`](IUnecePetAnimal.md)[]
+> `optional` **accompanyingAnimal**: [`IUnecePetAnimal`](IUnecePetAnimal.md)
 
 A pet animal accompanying this guest person.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/accompanyingAnimal
 
 ### applicableSpecifiedNote?
 
-> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
+> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)
 
 A note applicable to this guest person.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ### carriedCertificate?
 
-> `optional` **carriedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **carriedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A certificate carried by this guest person.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/carriedCertificate
 
 ### claimedLanguageProficiency?
 
-> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)[]
+> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)
 
 Personal language proficiency skills claimed by this guest person.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/description
 
 ### durationUnitAgeMeasure?
 
-> `optional` **durationUnitAgeMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)[]
+> `optional` **durationUnitAgeMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
 The measure of the age of this guest person.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/name
 
 ### notifiedAllergy?
 
-> `optional` **notifiedAllergy**: [`IUneceAllergy`](IUneceAllergy.md)[]
+> `optional` **notifiedAllergy**: [`IUneceAllergy`](IUneceAllergy.md)
 
 An allergy notified for this guest person.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/notifiedAllergy
 
 ### notifiedDisability?
 
-> `optional` **notifiedDisability**: [`IUneceDisability`](IUneceDisability.md)[]
+> `optional` **notifiedDisability**: [`IUneceDisability`](IUneceDisability.md)
 
 A disability notified for this guest person.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/notifiedDisability
 
 ### notifiedFoodChoice?
 
-> `optional` **notifiedFoodChoice**: [`IUneceFoodChoice`](IUneceFoodChoice.md)[]
+> `optional` **notifiedFoodChoice**: [`IUneceFoodChoice`](IUneceFoodChoice.md)
 
 A food choice notified for this guest person.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/notifiedFoodChoice
 
 ### notifiedGuestArrival?
 
-> `optional` **notifiedGuestArrival**: [`IUneceGuestArrival`](IUneceGuestArrival.md)[]
+> `optional` **notifiedGuestArrival**: [`IUneceGuestArrival`](IUneceGuestArrival.md)
 
 An arrival notified for this guest person.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/notifiedGuestArrival
 
 ### notifiedHealthIndication?
 
-> `optional` **notifiedHealthIndication**: [`IUneceGuestHealthIndication`](IUneceGuestHealthIndication.md)[]
+> `optional` **notifiedHealthIndication**: [`IUneceGuestHealthIndication`](IUneceGuestHealthIndication.md)
 
 A health indication notified for this guest person.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/notifiedHealthIndication
 
 ### notifiedPreference?
 
-> `optional` **notifiedPreference**: [`IUnecePreference`](IUnecePreference.md)[]
+> `optional` **notifiedPreference**: [`IUnecePreference`](IUnecePreference.md)
 
 An experience item preference notified for this guest person.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/notifiedPreference
 
 ### notifiedProtectionMeans?
 
-> `optional` **notifiedProtectionMeans**: [`IUneceProtectionMeans`](IUneceProtectionMeans.md)[]
+> `optional` **notifiedProtectionMeans**: [`IUneceProtectionMeans`](IUneceProtectionMeans.md)
 
 A disease protection means notified for this guest person.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/passportId
 
 ### raisedQuery?
 
-> `optional` **raisedQuery**: [`IUneceSpecialQuery`](IUneceSpecialQuery.md)[]
+> `optional` **raisedQuery**: [`IUneceSpecialQuery`](IUneceSpecialQuery.md)
 
 A special query raised for this guest person.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/roleCode
 
 ### specifiedCarriedEquipment?
 
-> `optional` **specifiedCarriedEquipment**: [`IUneceCarriedEquipment`](IUneceCarriedEquipment.md)[]
+> `optional` **specifiedCarriedEquipment**: [`IUneceCarriedEquipment`](IUneceCarriedEquipment.md)
 
 Carried equipment specified for this guest person.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/specifiedCarriedEquipment
 
 ### specifiedPaymentMeans?
 
-> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)[]
+> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
 A trade settlement payment means specified for this guest person.
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/titleCode
 
 ### travelInsuranceCertificate?
 
-> `optional` **travelInsuranceCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **travelInsuranceCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A travel insurance certificate for this guest person.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/travelInsuranceCertificate
 
 ### usedCommunication?
 
-> `optional` **usedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **usedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 A universal communication used by this guest.
 

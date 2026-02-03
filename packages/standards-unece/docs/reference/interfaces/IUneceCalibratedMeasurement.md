@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/quantificationTypeCode
 
 ### toleranceMeasure?
 
-> `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the tolerance of this calibrated measurement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/valueCode
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The value of a measure for this calibrated measurement.
 

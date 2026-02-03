@@ -38,55 +38,55 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * An assessment applicable for this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment[];
+	applicableAssessment?: IUneceAssessment;
 
 	/**
 	 * A goods characteristic applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 	 */
-	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic[];
+	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic;
 
 	/**
 	 * A product certificate applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A product characteristic applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic[];
+	applicableProductCharacteristic?: IUneceProductCharacteristic;
 
 	/**
 	 * The quantity applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableQuantity
 	 */
-	applicableQuantity?: IUneceQuantityType[];
+	applicableQuantity?: IUneceQuantityType;
 
 	/**
 	 * A certificate applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A sustainability characteristic applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A product certification applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification[];
+	applicableTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A waste material recovery disposal process applicable to this specified material.
 	 * @see https://vocabulary.uncefact.org/applicableWasteMaterialRecoveryDisposalProcess
 	 */
-	applicableWasteMaterialRecoveryDisposalProcess?: IUneceWasteMaterialRecoveryDisposalProcess[];
+	applicableWasteMaterialRecoveryDisposalProcess?: IUneceWasteMaterialRecoveryDisposalProcess;
 
 	/**
 	 * An identifier of the classification of this specified material.
@@ -98,7 +98,7 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * Component material for this specified material.
 	 * @see https://vocabulary.uncefact.org/componentMaterial
 	 */
-	componentMaterial?: IUneceSpecifiedMaterial[];
+	componentMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * A textual description of this specified material.
@@ -128,19 +128,19 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * A manufacturer party for this specified material.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * A measure of the mass of this specified material.
 	 * @see https://vocabulary.uncefact.org/massMeasure
 	 */
-	massMeasure?: IUneceMeasureType[];
+	massMeasure?: IUneceMeasureType;
 
 	/**
 	 * A mass measure of this specified material expressed as a ratio to another mass, such as the total mass.
 	 * @see https://vocabulary.uncefact.org/massRatioMeasure
 	 */
-	massRatioMeasure?: IUneceMeasureType[];
+	massRatioMeasure?: IUneceMeasureType;
 
 	/**
 	 * The name, expressed as text, of this specified material.
@@ -158,7 +158,7 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * A referenced location specified for this material.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation[];
+	specifiedLocation?: IUneceLocation;
 
 	/**
 	 * The code specifying the status of this material.
@@ -176,23 +176,23 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * A distinct chemical used for this specified material.
 	 * @see https://vocabulary.uncefact.org/usedChemical
 	 */
-	usedChemical?: IUneceChemical[];
+	usedChemical?: IUneceChemical;
 
 	/**
 	 * A measure of the volume of this specified material.
 	 * @see https://vocabulary.uncefact.org/volumeMeasure
 	 */
-	volumeMeasure?: IUneceMeasureType[];
+	volumeMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the volume of this specified material expressed as a ratio to another volume, such as the total volume.
 	 * @see https://vocabulary.uncefact.org/volumeRatioMeasure
 	 */
-	volumeRatioMeasure?: IUneceMeasureType[];
+	volumeRatioMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the weight of this specified material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 }

@@ -104,10 +104,7 @@
 			"description": "The code specifying the role for this cooperating organization."
 		},
 		"usedInformationSource": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInformationSource"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInformationSource",
 			"description": "A specified cooperative information source used for or from this cooperating organization."
 		}
 	},

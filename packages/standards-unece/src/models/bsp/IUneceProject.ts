@@ -52,13 +52,13 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * The monetary value of the net budget for this procuring project.
 	 * @see https://vocabulary.uncefact.org/netBudgetAmount
 	 */
-	netBudgetAmount?: IUneceAmountType[];
+	netBudgetAmount?: IUneceAmountType;
 
 	/**
 	 * The inspection event specified for this procuring project.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent[];
+	specifiedInspectionEvent?: IUneceInspectionEvent;
 
 	/**
 	 * A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring
@@ -72,7 +72,7 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * procuring project.
 	 * @see https://vocabulary.uncefact.org/totalBudgetAmount
 	 */
-	totalBudgetAmount?: IUneceAmountType[];
+	totalBudgetAmount?: IUneceAmountType;
 
 	/**
 	 * The code specifying the type of procuring project, such as goods, works and service.

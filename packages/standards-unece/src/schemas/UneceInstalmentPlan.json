@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"specifiedInstalmentPayment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInstalmentPayment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInstalmentPayment",
 			"description": "An instalment payment specified for this instalment plan."
 		}
 	},

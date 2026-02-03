@@ -33,13 +33,13 @@ export interface IUneceAppliedTax extends IJsonLdNodeObject {
 	 * The monetary value used as the basis in calculating the applied tax.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType[];
+	basisAmount?: IUneceAmountType;
 
 	/**
 	 * The monetary value resulting from the calculation of the applied tax.
 	 * @see https://vocabulary.uncefact.org/calculatedAmount
 	 */
-	calculatedAmount?: IUneceAmountType[];
+	calculatedAmount?: IUneceAmountType;
 
 	/**
 	 * The rate used to calculate the applied tax.

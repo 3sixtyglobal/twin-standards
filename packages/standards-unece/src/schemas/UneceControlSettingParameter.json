@@ -112,10 +112,7 @@
 			"description": "The name, expressed as text, of this control setting parameter."
 		},
 		"requestedRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A requested range specified for this control setting parameter."
 		},
 		"statusCode": {
@@ -135,10 +132,7 @@
 			"description": "The indication of whether or not this control setting parameter value is allowed."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure value for this control setting parameter."
 		}
 	},

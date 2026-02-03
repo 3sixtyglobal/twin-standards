@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/careProvided
 
 ### claimedLanguageProficiency?
 
-> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)[]
+> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)
 
 Personal language proficiency skills claimed by this found stowaway.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/claimedLanguageProficiency
 
 ### countryClaimedNationalityId?
 
-> `optional` **countryClaimedNationalityId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
+> `optional` **countryClaimedNationalityId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
 
 An identifier of a nationality claimed by this found stowaway.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/discoveredDateTime
 
 ### embarkationLocation?
 
-> `optional` **embarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **embarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location where a found stowaway embarked upon the transport means on which they were discovered.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/embarkationLocation
 
 ### homeAddress?
 
-> `optional` **homeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **homeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 A home address for this found stowaway.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/personalStatement
 
 ### photographicPictureBinaryFile?
 
-> `optional` **photographicPictureBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **photographicPictureBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file providing a photographic picture of this found stowaway.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/possessionList
 
 ### providedContact?
 
-> `optional` **providedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
+> `optional` **providedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
 A person or department that acts as a point of contact with or for this found stowaway.
 

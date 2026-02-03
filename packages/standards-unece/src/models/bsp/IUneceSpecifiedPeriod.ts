@@ -41,7 +41,7 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * The number of days in this specified period.
 	 * @see https://vocabulary.uncefact.org/dayQuantity
 	 */
-	dayQuantity?: IUneceQuantityType[];
+	dayQuantity?: IUneceQuantityType;
 
 	/**
 	 * A textual description of this specified period of time.
@@ -59,7 +59,7 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * A measure of the length of time for this specified time period such as hours, days, weeks, months, years.
 	 * @see https://vocabulary.uncefact.org/durationMeasure
 	 */
-	durationMeasure?: IUneceMeasureType[];
+	durationMeasure?: IUneceMeasureType;
 
 	/**
 	 * The date, time, date time or other date time value for the end of this specified period of time.
@@ -89,13 +89,13 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * The measure of the maximum length of time for this specified period, such as hours, days, weeks, months, years.
 	 * @see https://vocabulary.uncefact.org/maximumDurationMeasure
 	 */
-	maximumDurationMeasure?: IUneceDurationUnitMeasureType[];
+	maximumDurationMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * The measure of the minimum length of time for this specified period, such as hours, days, weeks, months, years.
 	 * @see https://vocabulary.uncefact.org/minimumDurationMeasure
 	 */
-	minimumDurationMeasure?: IUneceDurationUnitMeasureType[];
+	minimumDurationMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * A name, expressed as text, of this specified period.
@@ -107,7 +107,7 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * The number of nights in this specified period.
 	 * @see https://vocabulary.uncefact.org/nightQuantity
 	 */
-	nightQuantity?: IUneceQuantityType[];
+	nightQuantity?: IUneceQuantityType;
 
 	/**
 	 * The indication of whether or not an entity is open during this specified period.

@@ -116,10 +116,7 @@
 			"description": "The identifier of the residence country of this contact person."
 		},
 		"emailURICommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "An email Uniform Resource Identifier (URI) communication for this contact person."
 		},
 		"familyName": {
@@ -131,10 +128,7 @@
 			"description": "The prefix, expressed as text, that precedes this contact person's family name, such as Van, Von."
 		},
 		"faxCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "Facsimile communication information for this contact person."
 		},
 		"genderCode": {
@@ -146,10 +140,7 @@
 			"description": "The name, expressed as text, given to this contact person, usually by parents at birth."
 		},
 		"instantMessagingCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "An instant messaging communication for this contact person."
 		},
 		"middleName": {
@@ -165,38 +156,23 @@
 			"description": "A role, expressed as text, for this contact person."
 		},
 		"specifiedBirthAddress": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBirthAddress"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBirthAddress",
 			"description": "The birth address specified for this contact person."
 		},
 		"specifiedCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "A universal communication specified for this contact person."
 		},
 		"specifiedEmployerIdentity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceEmployerIdentity"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceEmployerIdentity",
 			"description": "An employer identity specified for this contact person."
 		},
 		"specifiedPersonIdentity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePersonIdentity"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePersonIdentity",
 			"description": "The person identity specified for this contact person."
 		},
 		"specifiedTaxRegistration": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTaxRegistration"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTaxRegistration",
 			"description": "A tax registration specified for this contact person."
 		},
 		"telephoneCommunication": {
@@ -208,10 +184,7 @@
 			"description": "The textual expression of the title associated with this contact person, such as Doctor."
 		},
 		"websiteURICommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "A website Uniform Resource Identifier (URI) communication for this contact person."
 		}
 	},

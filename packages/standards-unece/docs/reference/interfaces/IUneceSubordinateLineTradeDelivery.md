@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualDeliveryEvent?
 
-> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 An actual delivery event for this subordinate line trade delivery.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ### billedQuantity?
 
-> `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A billed quantity of this subordinate line trade delivery.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/billedQuantity
 
 ### includedPackaging?
 
-> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
+> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
 
 Packaging included in this subordinate line trade delivery.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/includedPackaging
 
 ### packageQuantity?
 
-> `optional` **packageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **packageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of packages in this subordinate line trade delivery.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/packageQuantity
 
 ### perPackageUnitQuantity?
 
-> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units per package in this subordinate line trade delivery.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/perPackageUnitQuantity
 
 ### productUnitQuantity?
 
-> `optional` **productUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **productUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of product units in this subordinate line trade delivery.
 

@@ -44,7 +44,7 @@ export interface IUneceAgriculturalProcess extends IJsonLdNodeObject {
 	 * An agricultural application applied to a crop production agricultural process.
 	 * @see https://vocabulary.uncefact.org/appliedAgriculturalApplication
 	 */
-	appliedAgriculturalApplication?: IUneceAgriculturalApplication[];
+	appliedAgriculturalApplication?: IUneceAgriculturalApplication;
 
 	/**
 	 * The textual description of the agricultural process for this crop production.
@@ -63,7 +63,7 @@ export interface IUneceAgriculturalProcess extends IJsonLdNodeObject {
 	 * A crop produce batch harvested in the crop production for this agricultural process.
 	 * @see https://vocabulary.uncefact.org/harvestedBatch
 	 */
-	harvestedBatch?: IUneceCropProduceBatch[];
+	harvestedBatch?: IUneceCropProduceBatch;
 
 	/**
 	 * The date, time, date time or other date time value of the latest end for the crop production in this agricultural
@@ -76,19 +76,19 @@ export interface IUneceAgriculturalProcess extends IJsonLdNodeObject {
 	 * Disposal instructions related to production waste for this agricultural crop production process.
 	 * @see https://vocabulary.uncefact.org/productionWasteInstructions
 	 */
-	productionWasteInstructions?: IUneceDisposalInstructions[];
+	productionWasteInstructions?: IUneceDisposalInstructions;
 
 	/**
 	 * Production waste material reported for this agricultural crop production process.
 	 * @see https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 	 */
-	reportedProductionWasteMaterial?: IUneceProductionWasteMaterial[];
+	reportedProductionWasteMaterial?: IUneceProductionWasteMaterial;
 
 	/**
 	 * A field crop specified for this crop production agricultural process.
 	 * @see https://vocabulary.uncefact.org/specifiedFieldCrop
 	 */
-	specifiedFieldCrop?: IUneceFieldCrop[];
+	specifiedFieldCrop?: IUneceFieldCrop;
 
 	/**
 	 * The code specifying the status of the agricultural process for this crop production.

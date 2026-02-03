@@ -76,7 +76,7 @@ export interface IUneceDocumentCharacteristic extends IJsonLdNodeObject {
 	 * A value, expressed as a monetary value, for this document characteristic.
 	 * @see https://vocabulary.uncefact.org/valueAmount
 	 */
-	valueAmount?: IUneceAmountType[];
+	valueAmount?: IUneceAmountType;
 
 	/**
 	 * The indication of whether or not the value of this document characteristic is changed.
@@ -94,7 +94,7 @@ export interface IUneceDocumentCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this document characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * A value, expressed as a number, for this document characteristic.
@@ -112,5 +112,5 @@ export interface IUneceDocumentCharacteristic extends IJsonLdNodeObject {
 	 * A value, expressed as a quantity, for this document characteristic.
 	 * @see https://vocabulary.uncefact.org/valueQuantity
 	 */
-	valueQuantity?: IUneceQuantityType[];
+	valueQuantity?: IUneceQuantityType;
 }

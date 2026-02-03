@@ -100,10 +100,7 @@
 			"description": "The code specifying the action for this TT object event."
 		},
 		"businessRelatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "The business location related to this TT object event."
 		},
 		"businessStepCode": {
@@ -111,10 +108,7 @@
 			"description": "The code specifying the business step for this TT object event."
 		},
 		"destinationRelatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
 			"description": "A destination related party for this TT object event."
 		},
 		"dispositionCode": {
@@ -134,17 +128,11 @@
 			"description": "The date, time, date time, or other date time value at which this TT object event occurred."
 		},
 		"quantitySpecifiedEventElement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
 			"description": "A quantity event element specified for this TT object event."
 		},
 		"readPointRelatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "The read point related location of this TT object event."
 		},
 		"recordedDateTime": {
@@ -152,31 +140,19 @@
 			"description": "The date, time, date time, or other date time value at which this TT object event was recorded."
 		},
 		"relatedCertification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification",
 			"description": "A certification related to this TT object event."
 		},
 		"sourceRelatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
 			"description": "A source related party for this TT object event."
 		},
 		"specifiedError": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceError"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceError",
 			"description": "A declared error specified for this TT object event."
 		},
 		"specifiedTradeTransaction": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction",
 			"description": "A trade transaction specified for this TT object event."
 		}
 	},

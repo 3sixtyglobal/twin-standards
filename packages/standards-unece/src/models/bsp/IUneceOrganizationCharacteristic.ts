@@ -33,13 +33,13 @@ export interface IUneceOrganizationCharacteristic extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A condition or status, expressed as text, of this organization characteristic.
@@ -81,7 +81,7 @@ export interface IUneceOrganizationCharacteristic extends IJsonLdNodeObject {
 	 * The value, expressed as an amount, for this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueAmount
 	 */
-	valueAmount?: IUneceAmountType[];
+	valueAmount?: IUneceAmountType;
 
 	/**
 	 * The value for this organization characteristic expressed as a date, time, date time, or other date time value.
@@ -99,13 +99,13 @@ export interface IUneceOrganizationCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * A method specified for the value of this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod[];
+	valueMethod?: IUneceSpecifiedMethod;
 
 	/**
 	 * The value, expressed as a number, for this organization characteristic.
@@ -117,17 +117,17 @@ export interface IUneceOrganizationCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter[];
+	valueParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A range specified for the value of this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange[];
+	valueRange?: IUneceRange;
 
 	/**
 	 * A tolerance specified for the value of this organization characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance[];
+	valueTolerance?: IUneceTolerance;
 }

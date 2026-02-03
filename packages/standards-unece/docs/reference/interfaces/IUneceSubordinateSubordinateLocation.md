@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode?
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
+> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 The code specifying the type of subordinate of a subordinate location.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalGeographicalCoordinate?
 
-> `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)[]
+> `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 
 Physical geographical coordinate information for this subordinate of a subordinate location.
 

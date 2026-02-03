@@ -41,7 +41,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * An additional document referenced in this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/additionalDocument
 	 */
-	additionalDocument?: IUneceDocument[];
+	additionalDocument?: IUneceDocument;
 
 	/**
 	 * The code, specifying the direction, either an addition or subtraction, for the amount of this line trade settlement.
@@ -53,25 +53,25 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * A tax applicable to this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/applicableTax
 	 */
-	applicableTax?: IUneceTradeTax[];
+	applicableTax?: IUneceTradeTax;
 
 	/**
 	 * A document associated with this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument[];
+	associatedDocument?: IUneceDocument;
 
 	/**
 	 * A document line associated with this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/associatedDocumentLineDocument
 	 */
-	associatedDocumentLineDocument?: IUneceDocumentLineDocument[];
+	associatedDocumentLineDocument?: IUneceDocumentLineDocument;
 
 	/**
 	 * A billing period specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/billingPeriod
 	 */
-	billingPeriod?: IUneceSpecifiedPeriod[];
+	billingPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A code specifying a type of creditor reference for this line trade settlement.
@@ -95,7 +95,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * An invoice document referenced in this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceDocument
 	 */
-	invoiceDocument?: IUneceDocument[];
+	invoiceDocument?: IUneceDocument;
 
 	/**
 	 * The invoice issuer reference, expressed as text, for this line settlement.
@@ -113,13 +113,13 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * A payable accounting account specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/payableSpecifiedAccountingAccount
 	 */
-	payableSpecifiedAccountingAccount?: IUneceAccountingAccount[];
+	payableSpecifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * The payer party for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty[];
+	payerParty?: IUneceTradeParty;
 
 	/**
 	 * The payer reference, expressed as text, for this line trade settlement.
@@ -131,7 +131,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of a payment for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/paymentAmount
 	 */
-	paymentAmount?: IUneceAmountType[];
+	paymentAmount?: IUneceAmountType;
 
 	/**
 	 * A payment reference, expressed as text, for this line trade settlement.
@@ -143,67 +143,67 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * The code specifying the price currency for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/priceCurrencyCode
 	 */
-	priceCurrencyCode?: UneceCurrencyCodeList[];
+	priceCurrencyCode?: UneceCurrencyCodeList;
 
 	/**
 	 * A purchase accounting account specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 	 */
-	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount[];
+	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * A receivable accounting account specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/receivableSpecifiedAccountingAccount
 	 */
-	receivableSpecifiedAccountingAccount?: IUneceAccountingAccount[];
+	receivableSpecifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * A sales accounting account specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/salesSpecifiedAccountingAccount
 	 */
-	salesSpecifiedAccountingAccount?: IUneceAccountingAccount[];
+	salesSpecifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * An accounting account specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedAccountingAccount
 	 */
-	specifiedAccountingAccount?: IUneceAccountingAccount[];
+	specifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * An allowance or charge specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedAllowanceCharge
 	 */
-	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge[];
+	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge;
 
 	/**
 	 * A financial adjustment specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialAdjustment
 	 */
-	specifiedFinancialAdjustment?: IUneceFinancialAdjustment[];
+	specifiedFinancialAdjustment?: IUneceFinancialAdjustment;
 
 	/**
 	 * A financial card specified in this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialCard
 	 */
-	specifiedFinancialCard?: IUneceFinancialCard[];
+	specifiedFinancialCard?: IUneceFinancialCard;
 
 	/**
 	 * Payment terms specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentTerms
 	 */
-	specifiedPaymentTerms?: IUnecePaymentTerms[];
+	specifiedPaymentTerms?: IUnecePaymentTerms;
 
 	/**
 	 * A logistics service charge specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedServiceCharge
 	 */
-	specifiedServiceCharge?: IUneceServiceCharge[];
+	specifiedServiceCharge?: IUneceServiceCharge;
 
 	/**
 	 * The monetary summation totals specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementLineMonetarySummation
 	 */
-	specifiedTradeSettlementLineMonetarySummation?: IUneceTradeSettlementLineMonetarySummation[];
+	specifiedTradeSettlementLineMonetarySummation?: IUneceTradeSettlementLineMonetarySummation;
 
 	/**
 	 * The code specifying the status of this line trade settlement.
@@ -215,17 +215,17 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * A tax subtotal calculated for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/subtotalCalculatedTax
 	 */
-	subtotalCalculatedTax?: IUneceTradeTax[];
+	subtotalCalculatedTax?: IUneceTradeTax;
 
 	/**
 	 * The monetary value of the total adjustment for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/totalAdjustmentAmount
 	 */
-	totalAdjustmentAmount?: IUneceAmountType[];
+	totalAdjustmentAmount?: IUneceAmountType;
 
 	/**
 	 * A trade transaction referenced in this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/tradeTransaction
 	 */
-	tradeTransaction?: IUneceLineTradeTransaction[];
+	tradeTransaction?: IUneceLineTradeTransaction;
 }

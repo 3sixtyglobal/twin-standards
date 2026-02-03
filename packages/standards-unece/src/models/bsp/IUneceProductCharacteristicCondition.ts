@@ -38,5 +38,5 @@ export interface IUneceProductCharacteristicCondition extends IJsonLdNodeObject 
 	 * The measure of the value for this product characteristic condition.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 }

@@ -28,7 +28,7 @@ export interface IUneceAssertion extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this sustainability assertion.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A textual description of this sustainability assertion.
@@ -52,7 +52,7 @@ export interface IUneceAssertion extends IJsonLdNodeObject {
 	 * A sustainability characteristic included in this sustainability assertion.
 	 * @see https://vocabulary.uncefact.org/includedCharacteristic
 	 */
-	includedCharacteristic?: IUneceSustainabilityCharacteristic[];
+	includedCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * An identifier of a party issuing this sustainability assertion.
@@ -64,7 +64,7 @@ export interface IUneceAssertion extends IJsonLdNodeObject {
 	 * A compliance policy related to this sustainability assertion.
 	 * @see https://vocabulary.uncefact.org/relatedPolicy
 	 */
-	relatedPolicy?: IUnecePolicy[];
+	relatedPolicy?: IUnecePolicy;
 
 	/**
 	 * The code specifying the status of this sustainability assertion.

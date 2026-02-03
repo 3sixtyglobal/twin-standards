@@ -39,13 +39,13 @@ export interface IUneceRequirement extends IJsonLdNodeObject {
 	 * The payment trade settlement for this specified requirement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 	 */
-	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement[];
+	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement;
 
 	/**
 	 * The party specifying this specified requirement.
 	 * @see https://vocabulary.uncefact.org/specifyingParty
 	 */
-	specifyingParty?: IUneceTradeParty[];
+	specifyingParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the type of specified requirement.

@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/cashAccountTypeCode
 
 ### financingFinancialAccountCurrencyCode?
 
-> `optional` **financingFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
+> `optional` **financingFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the currency of this financing financial account.
 

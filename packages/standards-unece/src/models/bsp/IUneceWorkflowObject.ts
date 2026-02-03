@@ -32,11 +32,11 @@ export interface IUneceWorkflowObject extends IJsonLdNodeObject {
 	 * The code specifying the previous status of this trade workflow object.
 	 * @see https://vocabulary.uncefact.org/previousStatusCode
 	 */
-	previousStatusCode?: UneceWorkflowStatusCodeList[];
+	previousStatusCode?: UneceWorkflowStatusCodeList;
 
 	/**
 	 * The code specifying the status of this trade workflow object.
 	 * @see https://vocabulary.uncefact.org/workflowStatusCode
 	 */
-	workflowStatusCode?: UneceWorkflowStatusCodeList[];
+	workflowStatusCode?: UneceWorkflowStatusCodeList;
 }

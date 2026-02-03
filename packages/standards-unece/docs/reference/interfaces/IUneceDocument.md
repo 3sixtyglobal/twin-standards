@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/acceptanceDateTime
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A specified binary file attached to this referenced document.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/communicationChannelCode
 
 ### contractualClause?
 
-> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)[]
+> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)
 
 A contractual clause of this referenced document.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/documentLineStatusCode
 
 ### documentStatusCode?
 
-> `optional` **documentStatusCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)[]
+> `optional` **documentStatusCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)
 
 The code specifying the status for this referenced document.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/documentType
 
 ### documentTypeCode?
 
-> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
+> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
 
 The code specifying the type of referenced document.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedAmount?
 
-> `optional` **includedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **includedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value included in this referenced document.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/includedAmount
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
 
 A note included in this referenced document.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issueLogisticsLocation?
 
-> `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The logistics related location where this referenced document has been issued.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/issuerAssignedId
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade related party that issues this referenced document.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ### issuerSpecifiedInstructions?
 
-> `optional` **issuerSpecifiedInstructions**: [`IUneceDocumentHandlingInstructions`](IUneceDocumentHandlingInstructions.md)[]
+> `optional` **issuerSpecifiedInstructions**: [`IUneceDocumentHandlingInstructions`](IUneceDocumentHandlingInstructions.md)
 
 Handling instructions specified by the issuer for this referenced document.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/lineId
 
 ### lineItemQuantity?
 
-> `optional` **lineItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **lineItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of line items in this referenced document.
 
@@ -470,7 +470,7 @@ https://vocabulary.uncefact.org/lineItemQuantity
 
 ### lodgementLocation?
 
-> `optional` **lodgementLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **lodgementLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The logistics related location where this referenced document has been lodged.
 
@@ -482,7 +482,7 @@ https://vocabulary.uncefact.org/lodgementLocation
 
 ### messageFunctionPurposeCode?
 
-> `optional` **messageFunctionPurposeCode**: [`UneceMessageFunctionCodeList`](../type-aliases/UneceMessageFunctionCodeList.md)[]
+> `optional` **messageFunctionPurposeCode**: [`UneceMessageFunctionCodeList`](../type-aliases/UneceMessageFunctionCodeList.md)
 
 The code specifying the purpose of this referenced document.
 
@@ -602,7 +602,7 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ### recipientTradeParty?
 
-> `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A trade related party that receives this referenced document.
 
@@ -626,7 +626,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ### referenceRelationshipTypeCode?
 
-> `optional` **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)[]
+> `optional` **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
 The code specifying the type of relationship between this referenced document and another artefact, such as a
 replacement of an original document.
@@ -639,7 +639,7 @@ https://vocabulary.uncefact.org/referenceRelationshipTypeCode
 
 ### referenceTypeCode?
 
-> `optional` **referenceTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)[]
+> `optional` **referenceTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
 The code specifying the reference type of this referenced document.
 
@@ -723,7 +723,7 @@ https://vocabulary.uncefact.org/sectionName
 
 ### senderTradeParty?
 
-> `optional` **senderTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **senderTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade related party that sends this referenced document.
 
@@ -735,7 +735,7 @@ https://vocabulary.uncefact.org/senderTradeParty
 
 ### signatoryAuthentication?
 
-> `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 A signatory authentication for this referenced document.
 
@@ -747,7 +747,7 @@ https://vocabulary.uncefact.org/signatoryAuthentication
 
 ### specifiedDocumentStatus?
 
-> `optional` **specifiedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)[]
+> `optional` **specifiedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)
 
 Status information specified for this referenced document.
 

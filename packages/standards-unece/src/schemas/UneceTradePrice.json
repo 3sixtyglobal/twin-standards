@@ -96,31 +96,19 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableCustomerClass": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCustomerClass"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCustomerClass",
 			"description": "An applicable customer class for this trade price."
 		},
 		"applicableSpecifiedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote",
 			"description": "A specified note applicable to this trade price."
 		},
 		"appliedAllowanceCharge": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeAllowanceCharge"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeAllowanceCharge",
 			"description": "An allowance or charge applied to the trade price."
 		},
 		"associatedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "An associated document referenced for this trade price."
 		},
 		"basisDateTime": {
@@ -128,10 +116,7 @@
 			"description": "The date, time, date time, or other date time value used as the basis for this trade price."
 		},
 		"basisQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The quantity on which the trade price is based."
 		},
 		"bracketTypeCode": {
@@ -155,38 +140,23 @@
 			"description": "A reason, expressed as text, for a change of this trade price."
 		},
 		"chargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of the trade price charge."
 		},
 		"comparisonPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceReferencePrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceReferencePrice",
 			"description": "A price that provides a comparison with this trade price."
 		},
 		"customerServicePointQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of customer service points for this trade price."
 		},
 		"dayQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of days related to this trade price."
 		},
 		"deliveryLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeLocation",
 			"description": "A delivery location for this trade price."
 		},
 		"description": {
@@ -198,10 +168,7 @@
 			"description": "The code specifying the determination of this trade price."
 		},
 		"document": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A document referenced for this trade price."
 		},
 		"expiryDateTime": {
@@ -209,17 +176,11 @@
 			"description": "The expiry date, time, date time, or other date time value for this trade price."
 		},
 		"grandTotalChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of the grand total charge of this trade price."
 		},
 		"includedTax": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
 			"description": "A tax included in this trade price."
 		},
 		"information": {
@@ -227,31 +188,19 @@
 			"description": "Information, expressed as text, for this trade price."
 		},
 		"maximumChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value that is the maximum charge in a range of trade prices."
 		},
 		"maximumQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The maximum quantity in a range for which the trade price applies."
 		},
 		"minimumChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value that is the minimum charge in a range of trade prices."
 		},
 		"minimumQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The minimum quantity in a range for which this trade price applies."
 		},
 		"multipleReasonIndicator": {
@@ -263,10 +212,7 @@
 			"description": "The indication of whether or not the trade price is the net price."
 		},
 		"operationalApplicablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "An operational period applicable for this trade price."
 		},
 		"orderUnitConversionFactorNumeric": {
@@ -278,10 +224,7 @@
 			"description": "A type, expressed as text, for this trade price."
 		},
 		"priceTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePriceTypeCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePriceTypeCodeList",
 			"description": "The code specifying the type of trade price."
 		},
 		"reasonCode": {
@@ -289,24 +232,15 @@
 			"description": "A code specifying a reason for this trade price."
 		},
 		"repackagingChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of a repackaging charge for this trade price."
 		},
 		"repairChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of a repair charge for this trade price."
 		},
 		"seasonalApplicablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "A seasonal period applicable for this trade price."
 		},
 		"seasonalRankCode": {
@@ -314,24 +248,15 @@
 			"description": "The code specifying the seasonal rank of this trade price."
 		},
 		"specifiedPaymentTradeSettlement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentTradeSettlement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentTradeSettlement",
 			"description": "A payment trade settlement specified for this trade price."
 		},
 		"totalChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of the total charge of this trade price."
 		},
 		"tradeComparisonPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceReferencePrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceReferencePrice",
 			"description": "A price that provides a trade comparison with this trade price."
 		},
 		"tradePriceBracketTypeCode": {

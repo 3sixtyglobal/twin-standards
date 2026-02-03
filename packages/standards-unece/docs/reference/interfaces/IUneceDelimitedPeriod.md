@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### durationMeasure?
 
-> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the length of time for this delimited period such as hours, days, weeks, months or years.
 

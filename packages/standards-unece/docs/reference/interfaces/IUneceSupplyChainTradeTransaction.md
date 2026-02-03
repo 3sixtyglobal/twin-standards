@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableHeaderTradeAgreement?
 
-> `optional` **applicableHeaderTradeAgreement**: [`IUneceHeaderTradeAgreement`](IUneceHeaderTradeAgreement.md)[]
+> `optional` **applicableHeaderTradeAgreement**: [`IUneceHeaderTradeAgreement`](IUneceHeaderTradeAgreement.md)
 
 A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableHeaderTradeAgreement
 
 ### applicableHeaderTradeDelivery?
 
-> `optional` **applicableHeaderTradeDelivery**: [`IUneceHeaderTradeDelivery`](IUneceHeaderTradeDelivery.md)[]
+> `optional` **applicableHeaderTradeDelivery**: [`IUneceHeaderTradeDelivery`](IUneceHeaderTradeDelivery.md)
 
 A trade delivery header applicable to this supply chain trade transaction.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableHeaderTradeDelivery
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A period applicable to this supply chain trade transaction.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableTradeSettlement?
 
-> `optional` **applicableTradeSettlement**: [`IUneceHeaderTradeSettlement`](IUneceHeaderTradeSettlement.md)[]
+> `optional` **applicableTradeSettlement**: [`IUneceHeaderTradeSettlement`](IUneceHeaderTradeSettlement.md)
 
 The trade settlement header applicable to this supply chain trade transaction.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableTradeSettlement
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or
 packing list.
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ### associatedDocumentLineDocument?
 
-> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)[]
+> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)
 
 The document line associated with this supply chain trade transaction.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/associatedDocumentLineDocument
 
 ### associatedFinancingRequestResultDocument?
 
-> `optional` **associatedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)[]
+> `optional` **associatedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)
 
 The financing request result document associated with this supply chain trade transaction.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/associatedFinancingRequestResultDocument
 
 ### associatedStandard?
 
-> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard associated with this supply chain trade transaction.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedDeliverySchedule?
 
-> `optional` **includedDeliverySchedule**: [`IUneceDeliverySchedule`](IUneceDeliverySchedule.md)[]
+> `optional` **includedDeliverySchedule**: [`IUneceDeliverySchedule`](IUneceDeliverySchedule.md)
 
 Delivery scheduling details included in a defined forecast period for this supply chain trade transaction.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/includedDeliverySchedule
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
 
 A note included in this supply chain trade transaction.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/includedNote
 
 ### includedProductGroup?
 
-> `optional` **includedProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)[]
+> `optional` **includedProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)
 
 A product group included in this supply chain trade transaction.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/includedProductGroup
 
 ### includedSupplyChainTradeLineItem?
 
-> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
+> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)
 
 A trade line item included in this supply chain trade transaction.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 
 ### includedTradeProduct?
 
-> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 A trade product included in this supply chain trade transaction.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### lineItemQuantity?
 
-> `optional` **lineItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **lineItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of line items for this supply chain trade transaction.
 
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/shipmentId
 
 ### specifiedPackage?
 
-> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
+> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)
 
 A logistics package specified for this supply chain trade transaction.
 

@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/coverageDescription
 
 ### coverageParty?
 
-> `optional` **coverageParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **coverageParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The coverage party for this transport cargo insurance.
 

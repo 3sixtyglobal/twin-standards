@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedSupplyChainTradeLineItem?
 
-> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
+> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)
 
 A supply chain trade line item which is included in this trade product group.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 
 ### includedTradeProduct?
 
-> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 A product included in this trade product group.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document specified for this trade product group.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### subordinateProductGroup?
 
-> `optional` **subordinateProductGroup**: `IUneceProductGroup`[]
+> `optional` **subordinateProductGroup**: `IUneceProductGroup`
 
 A product group subordinate to this trade product group.
 

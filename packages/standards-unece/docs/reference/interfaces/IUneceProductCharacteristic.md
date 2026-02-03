@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableCondition?
 
-> `optional` **applicableCondition**: [`IUneceProductCharacteristicCondition`](IUneceProductCharacteristicCondition.md)[]
+> `optional` **applicableCondition**: [`IUneceProductCharacteristicCondition`](IUneceProductCharacteristicCondition.md)
 
 A condition applicable to this product characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableCondition
 
 ### applicableCountry?
 
-> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 A country applicable to this product characteristic.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 The referenced standard that is applicable to this product characteristic.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this product characteristic.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The value, expressed as an amount, for this product characteristic.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ### valueBinaryFile?
 
-> `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 The value for this product characteristic expressed in a binary file.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a value for this product characteristic.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueMethod?
 
-> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A method specified for a value of this product characteristic.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter specified for a value of this product characteristic.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
 
 A range specified for a value of this product characteristic.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 A tolerance specified for a value of this product characteristic.
 

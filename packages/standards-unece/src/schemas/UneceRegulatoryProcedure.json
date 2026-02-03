@@ -104,10 +104,7 @@
 			"description": "A code specifying a reason for an amendment to this cross-border regulatory procedure."
 		},
 		"annualQuotaQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The annual quota quantity under this cross-border regulatory procedure."
 		},
 		"applicableCurrencyExchange": {
@@ -115,24 +112,15 @@
 			"description": "The applicable currency exchange for this cross-border regulatory procedure."
 		},
 		"applicablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "A period applicable to this cross-border regulatory procedure."
 		},
 		"applicableTax": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
 			"description": "A tax, levy or duty applicable to this cross-border regulatory procedure."
 		},
 		"borderClearanceInstructions": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportInstructions"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportInstructions",
 			"description": "Border clearance instructions for this cross-border regulatory procedure."
 		},
 		"categoryCode": {
@@ -160,10 +148,7 @@
 			"description": "The indication of whether or not the start date of a control has been confirmed for this cross-border regulatory procedure."
 		},
 		"crossBorderRegulatoryProcedurePaymentMethodCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentMethodCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentMethodCodeList",
 			"description": "The code specifying the payment method for this cross-border regulatory procedure, such as by deferred payment method."
 		},
 		"crossBorderRegulatoryProcedureTypeCode": {
@@ -191,24 +176,15 @@
 			"description": "The indication of whether or not the deferred payment method is applicable to this cross-border regulatory procedure."
 		},
 		"document": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A document referenced by this cross-border regulatory procedure."
 		},
 		"entryCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "The location of the specified customs office at which the goods subject to this cross-border regulatory procedure, enter the customs territory of entry."
 		},
 		"examinationEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "An examination event for this cross-border regulatory procedure."
 		},
 		"exemptionClaimantParty": {
@@ -216,17 +192,11 @@
 			"description": "A party who claims an exemption from this cross-border regulatory procedure."
 		},
 		"exitCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "The location of the specified customs office at which the goods which are subject to this cross-border regulatory procedure leave the customs territory of destination."
 		},
 		"exportCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "The location of the specified customs office which is responsible for export formalities for the goods which are subject to this cross-border regulatory procedure."
 		},
 		"exportLicenceControlClassificationId": {
@@ -254,10 +224,7 @@
 			"description": "A monetary value of the total charges, including tariff and non-tariff charges, immediately payable for this cross-border regulatory procedure."
 		},
 		"importCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "The location of the specified customs office which is responsible for import formalities for the goods which are subject to this cross-border regulatory procedure."
 		},
 		"nonTariffChargeAmount": {
@@ -277,10 +244,7 @@
 			"description": "A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be, performed."
 		},
 		"previousDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A previous document related to this cross-border regulatory procedure."
 		},
 		"previousProcedureTypeCode": {
@@ -300,10 +264,7 @@
 			"description": "A remark, expressed as text, for this cross-border regulatory procedure."
 		},
 		"reportedLogisticsStatus": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatus"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatus",
 			"description": "A logistics status reported for this cross-border regulatory procedure."
 		},
 		"requestOverrideCode": {
@@ -311,24 +272,15 @@
 			"description": "A code specifying a request, including a reason, to override previously submitted information for this cross-border regulatory procedure, such as due to an error condition."
 		},
 		"requiredChemicalTreatment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAppliedChemicalTreatment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAppliedChemicalTreatment",
 			"description": "A chemical treatment applied as required by this cross-border regulatory procedure."
 		},
 		"requiredSeal": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSeal"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSeal",
 			"description": "A seal required by this cross-border regulatory procedure."
 		},
 		"requiredTestSpecificationReport": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTestSpecificationReport"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTestSpecificationReport",
 			"description": "A report of a certification test and its attributes that is required for this cross-border regulatory procedure."
 		},
 		"responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode": {
@@ -340,17 +292,11 @@
 			"description": "The code specifying the agency responsible for this cross-border regulatory procedure."
 		},
 		"specifiedDebtorFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialAccount",
 			"description": "A debtor financial account specified for this cross-border regulatory procedure."
 		},
 		"statementNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceNote",
 			"description": "A statement note for this cross-border regulatory procedure."
 		},
 		"tariffAmount": {
@@ -362,17 +308,11 @@
 			"description": "A quantity to be deducted from the tariff quantity for this cross-border regulatory procedure."
 		},
 		"tariffQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "A tariff quantity for this cross-border regulatory procedure."
 		},
 		"totalChargeAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of the total charges, including tariff and non-tariff charges, for this cross-border regulatory procedure."
 		},
 		"totalConsignmentValueAmount": {
@@ -384,17 +324,11 @@
 			"description": "A code specifying the nature of a transaction for this cross-border regulatory procedure."
 		},
 		"transitCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A location of a specified customs office which is responsible for transit formalities en route for the goods which are subject to this cross-border regulatory procedure."
 		},
 		"transitReleaseCustomsOfficeSpecifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A location of a specified customs office at which the goods which are subject to this cross-border regulatory procedure are released from a customs transit regime."
 		},
 		"transportMovementTypeCode": {
@@ -402,24 +336,15 @@
 			"description": "A code specifying the transport movement type, such as import, export, transit, for this cross-border regulatory procedure."
 		},
 		"treatmentEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A treatment event for this cross-border regulatory procedure."
 		},
 		"usedToDateQuotaQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The quantity of the quota used to date under this cross-border regulatory procedure."
 		},
 		"valuationBasisAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The monetary value of the basis on which the valuation is, or will be, calculated for this cross-border regulatory procedure."
 		}
 	},

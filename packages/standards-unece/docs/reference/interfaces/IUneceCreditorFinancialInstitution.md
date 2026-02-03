@@ -373,7 +373,7 @@ https://vocabulary.uncefact.org/spanishDomesticInterbankingId
 
 ### specifiedProprietaryIdentity?
 
-> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)
 
 A proprietary identity specified for this creditor financial institution.
 
@@ -385,7 +385,7 @@ https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 
 ### subDivisionFinancialInstitution?
 
-> `optional` **subDivisionFinancialInstitution**: [`IUneceBranchFinancialInstitution`](IUneceBranchFinancialInstitution.md)[]
+> `optional` **subDivisionFinancialInstitution**: [`IUneceBranchFinancialInstitution`](IUneceBranchFinancialInstitution.md)
 
 The branch financial institution for this creditor financial institution.
 

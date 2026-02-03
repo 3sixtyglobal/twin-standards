@@ -28,17 +28,17 @@ export interface IUneceLineTradeTransaction extends IJsonLdNodeObject {
 	 * A trade agreement applicable to this line trade transaction, such as payment or delivery terms.
 	 * @see https://vocabulary.uncefact.org/applicableLineTradeAgreement
 	 */
-	applicableLineTradeAgreement?: IUneceLineTradeAgreement[];
+	applicableLineTradeAgreement?: IUneceLineTradeAgreement;
 
 	/**
 	 * A trade delivery applicable to this line trade transaction.
 	 * @see https://vocabulary.uncefact.org/applicableLineTradeDelivery
 	 */
-	applicableLineTradeDelivery?: IUneceLineTradeDelivery[];
+	applicableLineTradeDelivery?: IUneceLineTradeDelivery;
 
 	/**
 	 * A trade product included in this line trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedTradeProduct
 	 */
-	includedTradeProduct?: IUneceTradeProduct[];
+	includedTradeProduct?: IUneceTradeProduct;
 }

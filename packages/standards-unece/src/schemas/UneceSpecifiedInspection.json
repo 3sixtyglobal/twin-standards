@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"attachedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file attached to this specified inspection."
 		},
 		"description": {
@@ -107,17 +104,11 @@
 			"description": "A textual description of this specified inspection."
 		},
 		"executionParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The party executing this specified inspection."
 		},
 		"executionPerson": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInspectionPerson"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInspectionPerson",
 			"description": "The inspector executing this specified inspection."
 		},
 		"identifier": {
@@ -133,31 +124,19 @@
 			"description": "The indication of whether or not this specified inspection is outsourced."
 		},
 		"reportedInspectionResult": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInspectionResult"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInspectionResult",
 			"description": "The result reported for this specified inspection."
 		},
 		"specifiedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced document for this specified inspection."
 		},
 		"specifiedInspectionEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent",
 			"description": "An inspection event for this specified inspection."
 		},
 		"specifiedInspectionStatus": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInspectionStatus"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInspectionStatus",
 			"description": "The status for this specified inspection."
 		},
 		"typeCode": {

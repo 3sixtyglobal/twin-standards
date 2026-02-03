@@ -120,10 +120,7 @@
 			"description": "The identifier of this document line document."
 		},
 		"includedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceNote",
 			"description": "A note included in this document line."
 		},
 		"issueDateTime": {
@@ -155,17 +152,11 @@
 			"description": "The date, time, date time, or other date time value of the publication of this document line."
 		},
 		"referenceAcknowledgementDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAcknowledgementDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAcknowledgementDocument",
 			"description": "The acknowledgement document referenced in this document line."
 		},
 		"referenceDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A document referenced from this document line."
 		},
 		"responseReasonCode": {

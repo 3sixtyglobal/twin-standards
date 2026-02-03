@@ -61,49 +61,49 @@ export interface IUneceGeographicalFeature extends IJsonLdNodeObject {
 	 * A circle included in this specified geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedCircle
 	 */
-	includedCircle?: IUneceCircle[];
+	includedCircle?: IUneceCircle;
 
 	/**
 	 * The geographical grid included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalGrid
 	 */
-	includedGeographicalGrid?: IUneceGeographicalGrid[];
+	includedGeographicalGrid?: IUneceGeographicalGrid;
 
 	/**
 	 * The geographical line included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalLine
 	 */
-	includedGeographicalLine?: IUneceGeographicalLine[];
+	includedGeographicalLine?: IUneceGeographicalLine;
 
 	/**
 	 * The geographical multi-curve included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalMultiCurve
 	 */
-	includedGeographicalMultiCurve?: IUneceGeographicalMultiCurve[];
+	includedGeographicalMultiCurve?: IUneceGeographicalMultiCurve;
 
 	/**
 	 * The geographical multi-point included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalMultiPoint
 	 */
-	includedGeographicalMultiPoint?: IUneceGeographicalMultiPoint[];
+	includedGeographicalMultiPoint?: IUneceGeographicalMultiPoint;
 
 	/**
 	 * The geographical multi-surface included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalMultiSurface
 	 */
-	includedGeographicalMultiSurface?: IUneceGeographicalMultiSurface[];
+	includedGeographicalMultiSurface?: IUneceGeographicalMultiSurface;
 
 	/**
 	 * The geographical point included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalPoint
 	 */
-	includedGeographicalPoint?: IUneceGeographicalPoint[];
+	includedGeographicalPoint?: IUneceGeographicalPoint;
 
 	/**
 	 * The geographical surface included in this geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedGeographicalSurface
 	 */
-	includedGeographicalSurface?: IUneceGeographicalSurface[];
+	includedGeographicalSurface?: IUneceGeographicalSurface;
 
 	/**
 	 * The polygon included in this geographical feature.
@@ -121,11 +121,11 @@ export interface IUneceGeographicalFeature extends IJsonLdNodeObject {
 	 * The CS (Coordinate System) engineering coordinate reference system used for this specified geographical feature.
 	 * @see https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 	 */
-	usedCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem[];
+	usedCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem;
 
 	/**
 	 * The geographical coordinate source system used for this specified geographical feature.
 	 * @see https://vocabulary.uncefact.org/usedCoordinateSourceSystem
 	 */
-	usedCoordinateSourceSystem?: IUneceCoordinateSourceSystem[];
+	usedCoordinateSourceSystem?: IUneceCoordinateSourceSystem;
 }

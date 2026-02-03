@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"actualComplexDescription": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceComplexDescription"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceComplexDescription",
 			"description": "An actual complex description for this basic work item."
 		},
 		"alternativeClassificationCode": {
@@ -107,17 +104,11 @@
 			"description": "A code specifying an alternative classification for this basic work item."
 		},
 		"binaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A specified binary file referenced by this basic work item."
 		},
 		"changedStatus": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus",
 			"description": "A changed recorded status for this basic work item."
 		},
 		"comment": {
@@ -137,10 +128,7 @@
 			"description": "The index, expressed as text, to be used for this basic work item."
 		},
 		"itemBasicWorkItem": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem",
 			"description": "A basic work item in this basic work item."
 		},
 		"priceListItemId": {
@@ -160,10 +148,7 @@
 			"description": "A code specifying a requested action for this basic work item."
 		},
 		"totalPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice",
 			"description": "A total calculated price for this basic work item."
 		},
 		"totalQuantity": {
@@ -171,10 +156,7 @@
 			"description": "The total quantity for this basic work item."
 		},
 		"totalQuantityAnalysis": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityAnalysis"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityAnalysis",
 			"description": "An analysis of the total quantity for this basic work item."
 		},
 		"totalQuantityClassificationCode": {
@@ -186,10 +168,7 @@
 			"description": "A code specifying the type of basic work item."
 		},
 		"unitPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice",
 			"description": "A unit calculated price for this basic work item."
 		}
 	},

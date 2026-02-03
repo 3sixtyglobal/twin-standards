@@ -27,7 +27,7 @@ export interface IUneceGeographicalMultiSurface extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical multi-surface.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic[];
+	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A polygon included in this geographical multi-surface.

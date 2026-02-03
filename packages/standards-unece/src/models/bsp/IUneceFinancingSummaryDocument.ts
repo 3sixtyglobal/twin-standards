@@ -30,7 +30,7 @@ export interface IUneceFinancingSummaryDocument extends IJsonLdNodeObject {
 	 * An original total monetary value of accepted transactions in this financing summary document.
 	 * @see https://vocabulary.uncefact.org/acceptedTransactionOriginalTotalAmount
 	 */
-	acceptedTransactionOriginalTotalAmount?: IUneceAmountType[];
+	acceptedTransactionOriginalTotalAmount?: IUneceAmountType;
 
 	/**
 	 * The financed applied rate, expressed as a percentage, in this financing summary document.
@@ -42,29 +42,29 @@ export interface IUneceFinancingSummaryDocument extends IJsonLdNodeObject {
 	 * A financed total monetary value in this financing summary document.
 	 * @see https://vocabulary.uncefact.org/financedTotalAmount
 	 */
-	financedTotalAmount?: IUneceAmountType[];
+	financedTotalAmount?: IUneceAmountType;
 
 	/**
 	 * The number of financed transactions specified in this financing summary document.
 	 * @see https://vocabulary.uncefact.org/financedTransactionSpecifiedQuantity
 	 */
-	financedTransactionSpecifiedQuantity?: IUneceQuantityType[];
+	financedTransactionSpecifiedQuantity?: IUneceQuantityType;
 
 	/**
 	 * The financing financial account, used for managing the line of credit, specified for this financing summary document.
 	 * @see https://vocabulary.uncefact.org/lineOfCreditSpecifiedFinancialAccount
 	 */
-	lineOfCreditSpecifiedFinancialAccount?: IUneceFinancingFinancialAccount[];
+	lineOfCreditSpecifiedFinancialAccount?: IUneceFinancingFinancialAccount;
 
 	/**
 	 * The financial booking related to this financing summary document.
 	 * @see https://vocabulary.uncefact.org/relatedBooking
 	 */
-	relatedBooking?: IUneceBooking[];
+	relatedBooking?: IUneceBooking;
 
 	/**
 	 * The creditor financial account, used for crediting, specified for this financing summary document.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 	 */
-	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount[];
+	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount;
 }

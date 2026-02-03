@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/allPackedInOneInformation
 
 ### associatedTransportEquipment?
 
-> `optional` **associatedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
+> `optional` **associatedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)
 
 Referenced transport equipment associated with the dangerous goods.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/complianceDeclarationInformation
 
 ### controlTemperatureMeasurement?
 
-> `optional` **controlTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
+> `optional` **controlTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
 
 The measurement of the control temperature of these transported dangerous goods.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/crewMemberEmergencyIdentityInformation
 
 ### dangerousGoodsPackagingLevelPackagingDangerLevelCode?
 
-> `optional` **dangerousGoodsPackagingLevelPackagingDangerLevelCode**: [`UneceDangerousGoodsPackagingLevelCodeList`](../type-aliases/UneceDangerousGoodsPackagingLevelCodeList.md)[]
+> `optional` **dangerousGoodsPackagingLevelPackagingDangerLevelCode**: [`UneceDangerousGoodsPackagingLevelCodeList`](../type-aliases/UneceDangerousGoodsPackagingLevelCodeList.md)
 
 The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/dangerousGoodsPackagingLevelPackagingDangerLevel
 
 ### dangerousGoodsRegulationCode?
 
-> `optional` **dangerousGoodsRegulationCode**: [`UneceDangerousGoodsRegulationCodeList`](../type-aliases/UneceDangerousGoodsRegulationCodeList.md)[]
+> `optional` **dangerousGoodsRegulationCode**: [`UneceDangerousGoodsRegulationCodeList`](../type-aliases/UneceDangerousGoodsRegulationCodeList.md)
 
 The code specifying a regulation applicable to these transported dangerous goods.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/dangerousGoodsRegulationCode
 
 ### densityMeasure?
 
-> `optional` **densityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **densityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A density measure for these transported dangerous goods.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/eMSId
 
 ### emergencyContact?
 
-> `optional` **emergencyContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
+> `optional` **emergencyContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
 The person or department to be contacted in the event of any emergency related to these transported dangerous goods.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/emergencyContact
 
 ### emergencyTemperatureMeasurement?
 
-> `optional` **emergencyTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
+> `optional` **emergencyTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
 
 The measurement of the emergency temperature of these transported dangerous goods.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/expertTrainingCertificateInformation
 
 ### explosiveCargoNetWeightMeasure?
 
-> `optional` **explosiveCargoNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **explosiveCargoNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of the explosive cargo weight applicable to these transported dangerous goods.
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/iMDGSegregationGroupCode
 
 ### includedFuel?
 
-> `optional` **includedFuel**: [`IUneceFuel`](IUneceFuel.md)[]
+> `optional` **includedFuel**: [`IUneceFuel`](IUneceFuel.md)
 
 Gaseous fuels included in the transport of these dangerous goods.
 
@@ -557,7 +557,7 @@ https://vocabulary.uncefact.org/radioactiveIndicator
 
 ### radioactiveMaterial?
 
-> `optional` **radioactiveMaterial**: [`IUneceRadioactiveMaterial`](IUneceRadioactiveMaterial.md)[]
+> `optional` **radioactiveMaterial**: [`IUneceRadioactiveMaterial`](IUneceRadioactiveMaterial.md)
 
 The radioactive material (Class 7) transported as dangerous goods.
 
@@ -593,7 +593,7 @@ https://vocabulary.uncefact.org/regulatoryAuthorityName
 
 ### relatedDocument?
 
-> `optional` **relatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **relatedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A document related to these transported dangerous goods.
 
@@ -605,7 +605,7 @@ https://vocabulary.uncefact.org/relatedDocument
 
 ### reportableQuantity?
 
-> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The reportable quantity for these transported dangerous goods.
 
@@ -641,7 +641,7 @@ https://vocabulary.uncefact.org/specialProvisionId
 
 ### specifiedPackage?
 
-> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
+> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)
 
 A logistics package specified for these transported dangerous goods.
 
@@ -653,7 +653,7 @@ https://vocabulary.uncefact.org/specifiedPackage
 
 ### statedCondition?
 
-> `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)[]
+> `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)
 
 A stated condition of these transported dangerous goods.
 
@@ -713,7 +713,7 @@ https://vocabulary.uncefact.org/technicalName
 
 ### temperatureUnitMeltingPointTemperatureMeasure?
 
-> `optional` **temperatureUnitMeltingPointTemperatureMeasure**: [`IUneceTemperatureUnitMeasureType`](IUneceTemperatureUnitMeasureType.md)[]
+> `optional` **temperatureUnitMeltingPointTemperatureMeasure**: [`IUneceTemperatureUnitMeasureType`](IUneceTemperatureUnitMeasureType.md)
 
 A melting point temperature measure for these transported dangerous goods.
 
@@ -737,7 +737,7 @@ https://vocabulary.uncefact.org/transportDangerousGoodsPackageTypeCode
 
 ### transportExpertContact?
 
-> `optional` **transportExpertContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
+> `optional` **transportExpertContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
 The expert to be contacted for details about the transport of these dangerous goods.
 
@@ -774,7 +774,7 @@ https://vocabulary.uncefact.org/uNDGIdentificationCode
 
 ### unitDensityMeasure?
 
-> `optional` **unitDensityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitDensityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
 A density measure for these transported dangerous goods.
 
@@ -786,7 +786,7 @@ https://vocabulary.uncefact.org/unitDensityMeasure
 
 ### unitViscosityMeasure?
 
-> `optional` **unitViscosityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitViscosityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
 A viscosity measure for these transported dangerous goods.
 
@@ -810,7 +810,7 @@ https://vocabulary.uncefact.org/upperPartOrangeHazardPlacardId
 
 ### viscosityMeasure?
 
-> `optional` **viscosityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **viscosityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A viscosity measure for these transported dangerous goods.
 
@@ -822,7 +822,7 @@ https://vocabulary.uncefact.org/viscosityMeasure
 
 ### volumeUnitGrossVolumeMeasure?
 
-> `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of
 these transported dangerous goods.
@@ -835,7 +835,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ### volumeUnitMarinePollutantVolumeMeasure?
 
-> `optional` **volumeUnitMarinePollutantVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **volumeUnitMarinePollutantVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 A measure of the marine pollutant volume of these transported dangerous goods.
 
@@ -847,7 +847,7 @@ https://vocabulary.uncefact.org/volumeUnitMarinePollutantVolumeMeasure
 
 ### weightUnitGrossWeightMeasure?
 
-> `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport
 equipment.
@@ -860,7 +860,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of the net weight (mass) of these transported dangerous goods.
 

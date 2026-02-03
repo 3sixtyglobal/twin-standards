@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableCountry?
 
-> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 A country applicable to this product batch characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this product batch characteristic.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The value, expressed as an amount, for this product batch characteristic.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a value for this product batch characteristic.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueMethod?
 
-> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A method specified for a value of this product batch characteristic.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter specified for a value of this product batch characteristic.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
 
 A range specified for a value of this product batch characteristic.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 A tolerance specified for a value of this product batch characteristic.
 

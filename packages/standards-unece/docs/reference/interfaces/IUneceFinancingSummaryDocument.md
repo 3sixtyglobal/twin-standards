@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### acceptedTransactionOriginalTotalAmount?
 
-> `optional` **acceptedTransactionOriginalTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **acceptedTransactionOriginalTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 An original total monetary value of accepted transactions in this financing summary document.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/financedAppliedRatePercent
 
 ### financedTotalAmount?
 
-> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A financed total monetary value in this financing summary document.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ### financedTransactionSpecifiedQuantity?
 
-> `optional` **financedTransactionSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **financedTransactionSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of financed transactions specified in this financing summary document.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/financedTransactionSpecifiedQuantity
 
 ### lineOfCreditSpecifiedFinancialAccount?
 
-> `optional` **lineOfCreditSpecifiedFinancialAccount**: [`IUneceFinancingFinancialAccount`](IUneceFinancingFinancialAccount.md)[]
+> `optional` **lineOfCreditSpecifiedFinancialAccount**: [`IUneceFinancingFinancialAccount`](IUneceFinancingFinancialAccount.md)
 
 The financing financial account, used for managing the line of credit, specified for this financing summary document.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/lineOfCreditSpecifiedFinancialAccount
 
 ### relatedBooking?
 
-> `optional` **relatedBooking**: [`IUneceBooking`](IUneceBooking.md)[]
+> `optional` **relatedBooking**: [`IUneceBooking`](IUneceBooking.md)
 
 The financial booking related to this financing summary document.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/relatedBooking
 
 ### specifiedCreditorFinancialAccount?
 
-> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 The creditor financial account, used for crediting, specified for this financing summary document.
 

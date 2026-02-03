@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableCountry": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountry"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountry",
 			"description": "A country applicable to this product batch characteristic."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this product batch characteristic."
 		},
 		"description": {
@@ -134,10 +128,7 @@
 			"description": "A value, expressed as text, for this product batch characteristic."
 		},
 		"valueAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The value, expressed as an amount, for this product batch characteristic."
 		},
 		"valueDateTime": {
@@ -149,17 +140,11 @@
 			"description": "The value, expressed as an indicator, for this product batch characteristic."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of a value for this product batch characteristic."
 		},
 		"valueMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A method specified for a value of this product batch characteristic."
 		},
 		"valueNumeric": {
@@ -167,24 +152,15 @@
 			"description": "The value, expressed as a number, for this product batch characteristic."
 		},
 		"valueParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter specified for a value of this product batch characteristic."
 		},
 		"valueRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A range specified for a value of this product batch characteristic."
 		},
 		"valueTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "A tolerance specified for a value of this product batch characteristic."
 		}
 	},

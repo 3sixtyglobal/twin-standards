@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualStatus
 
 ### associatedReference?
 
-> `optional` **associatedReference**: [`IUneceSupplyChainReference`](IUneceSupplyChainReference.md)[]
+> `optional` **associatedReference**: [`IUneceSupplyChainReference`](IUneceSupplyChainReference.md)
 
 A reference associated with this supply chain event.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/descriptionBinaryObject
 
 ### discretePeriod?
 
-> `optional` **discretePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **discretePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A discrete period specified for this supply chain event.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### occurrenceLocation?
 
-> `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location for the occurrence of this supply chain event.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/occurrenceLocation
 
 ### occurrenceLogisticsLocation?
 
-> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location where this supply chain event occurs.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ### occurrencePeriod?
 
-> `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A specified period of time during which this supply chain event occurs.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/occurrencePeriod
 
 ### relatedSustainabilityCharacteristic?
 
-> `optional` **relatedSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **relatedSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic related to this supply chain event.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/relatedSustainabilityCharacteristic
 
 ### relatedTechnicalCharacteristic?
 
-> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
 
 A technical characteristic related to this supply chain event.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A number of units for this supply chain event.
 

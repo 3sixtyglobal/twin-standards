@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### acceptedAmount?
 
-> `optional` **acceptedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **acceptedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value accepted for this payment trade settlement.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/additionalDescription
 
 ### applicableTax?
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 The tax applicable to this payment trade settlement.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### creditNoteAmount?
 
-> `optional` **creditNoteAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **creditNoteAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the credit note for this payment trade settlement.
 
@@ -137,7 +137,7 @@ https://vocabulary.uncefact.org/creditorReferenceTypeCode
 
 ### discountAmount?
 
-> `optional` **discountAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **discountAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the payment that is the discount for this trade settlement, such as from the application of an
 agreed discount to the amount due.
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ### duePayableAmount?
 
-> `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the payment that is the exact amount due and payable for this trade settlement, such as the amount
 due to the creditor.
@@ -175,7 +175,7 @@ https://vocabulary.uncefact.org/duePayableAmount
 
 ### identifiedGuarantee?
 
-> `optional` **identifiedGuarantee**: [`IUneceGuarantee`](IUneceGuarantee.md)[]
+> `optional` **identifiedGuarantee**: [`IUneceGuarantee`](IUneceGuarantee.md)
 
 The financial guarantee identified for this payment trade settlement.
 
@@ -211,7 +211,7 @@ https://vocabulary.uncefact.org/invoicePayerAssignedReferenceId
 
 ### payeeParty?
 
-> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payee party for this payment trade settlement.
 
@@ -223,7 +223,7 @@ https://vocabulary.uncefact.org/payeeParty
 
 ### payerParty?
 
-> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payer party for this payment trade settlement.
 
@@ -235,7 +235,7 @@ https://vocabulary.uncefact.org/payerParty
 
 ### paymentAmount?
 
-> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the payment for this trade settlement payment.
 
@@ -247,7 +247,7 @@ https://vocabulary.uncefact.org/paymentAmount
 
 ### paymentApplicableCurrencyExchange?
 
-> `optional` **paymentApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
+> `optional` **paymentApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
 The currency exchange applicable to this payment trade settlement.
 
@@ -259,7 +259,7 @@ https://vocabulary.uncefact.org/paymentApplicableCurrencyExchange
 
 ### paymentCurrencyCode?
 
-> `optional` **paymentCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
+> `optional` **paymentCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the currency for this payment trade settlement.
 
@@ -319,7 +319,7 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ### recordedExperienceItem?
 
-> `optional` **recordedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
+> `optional` **recordedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)
 
 A specified experience item recorded for this payment trade settlement.
 
@@ -343,7 +343,7 @@ https://vocabulary.uncefact.org/refundAmount
 
 ### requestedAmount?
 
-> `optional` **requestedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **requestedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value requested for this payment trade settlement.
 
@@ -355,7 +355,7 @@ https://vocabulary.uncefact.org/requestedAmount
 
 ### specifiedPaymentMeans?
 
-> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)[]
+> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
 The payment means specified for this payment trade settlement.
 
@@ -367,7 +367,7 @@ https://vocabulary.uncefact.org/specifiedPaymentMeans
 
 ### specifiedTradeSettlementPaymentMonetarySummation?
 
-> `optional` **specifiedTradeSettlementPaymentMonetarySummation**: [`IUneceTradeSettlementPaymentMonetarySummation`](IUneceTradeSettlementPaymentMonetarySummation.md)[]
+> `optional` **specifiedTradeSettlementPaymentMonetarySummation**: [`IUneceTradeSettlementPaymentMonetarySummation`](IUneceTradeSettlementPaymentMonetarySummation.md)
 
 The monetary summation totals specified for this payment trade settlement.
 
@@ -391,7 +391,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### taxAmount?
 
-> `optional` **taxAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **taxAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the tax related to this payment trade settlement.
 
@@ -403,7 +403,7 @@ https://vocabulary.uncefact.org/taxAmount
 
 ### totalTaxAmount?
 
-> `optional` **totalTaxAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalTaxAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the total tax for this payment trade settlement.
 

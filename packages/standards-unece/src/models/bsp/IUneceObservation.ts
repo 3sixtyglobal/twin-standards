@@ -27,7 +27,7 @@ export interface IUneceObservation extends IJsonLdNodeObject {
 	 * A note providing information applicable to this specified observation.
 	 * @see https://vocabulary.uncefact.org/applicableNote
 	 */
-	applicableNote?: IUneceNote[];
+	applicableNote?: IUneceNote;
 
 	/**
 	 * The textual description for this specified observation.
@@ -45,5 +45,5 @@ export interface IUneceObservation extends IJsonLdNodeObject {
 	 * A binary file related to this specified observation.
 	 * @see https://vocabulary.uncefact.org/relatedBinaryFile
 	 */
-	relatedBinaryFile?: IUneceBinaryFile[];
+	relatedBinaryFile?: IUneceBinaryFile;
 }

@@ -100,17 +100,11 @@
 			"description": "Care, expressed as text, that has been provided to this found stowaway."
 		},
 		"claimedLanguageProficiency": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLanguageProficiency"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLanguageProficiency",
 			"description": "Personal language proficiency skills claimed by this found stowaway."
 		},
 		"countryClaimedNationalityId": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountryId"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountryId",
 			"description": "An identifier of a nationality claimed by this found stowaway."
 		},
 		"discoveredDateTime": {
@@ -118,17 +112,11 @@
 			"description": "A date, time, date time, or other date time value on which this found stowaway is discovered."
 		},
 		"embarkationLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A logistics location where a found stowaway embarked upon the transport means on which they were discovered."
 		},
 		"homeAddress": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
 			"description": "A home address for this found stowaway."
 		},
 		"intendedDestinationLocationCode": {
@@ -148,10 +136,7 @@
 			"description": "A personal statement, expressed as text, made by this found stowaway."
 		},
 		"photographicPictureBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file providing a photographic picture of this found stowaway."
 		},
 		"physicalDescription": {
@@ -163,10 +148,7 @@
 			"description": "A list of possessions, expressed as text, for this found stowaway."
 		},
 		"providedContact": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeContact"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeContact",
 			"description": "A person or department that acts as a point of contact with or for this found stowaway."
 		},
 		"providedName": {

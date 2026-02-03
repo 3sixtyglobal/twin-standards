@@ -33,7 +33,7 @@ export interface IUneceOperationalParameter extends IJsonLdNodeObject {
 	 * A defined range specified for this operational parameter.
 	 * @see https://vocabulary.uncefact.org/definedRange
 	 */
-	definedRange?: IUneceRange[];
+	definedRange?: IUneceRange;
 
 	/**
 	 * A textual description of this operational parameter.
@@ -81,5 +81,5 @@ export interface IUneceOperationalParameter extends IJsonLdNodeObject {
 	 * The measure value for this operational parameter.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 }

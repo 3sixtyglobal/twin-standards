@@ -32,19 +32,19 @@ export interface IUneceAppliedChemicalTreatment extends IJsonLdNodeObject {
 	 * The specified temperature applicable for this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedTemperature
 	 */
-	applicableSpecifiedTemperature?: IUneceSpecifiedTemperature[];
+	applicableSpecifiedTemperature?: IUneceSpecifiedTemperature;
 
 	/**
 	 * A period during which this chemical treatment is applied.
 	 * @see https://vocabulary.uncefact.org/appliedPeriod
 	 */
-	appliedPeriod?: IUneceSpecifiedPeriod[];
+	appliedPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A measure of the chemical concentration of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/chemicalConcentrationMeasure
 	 */
-	chemicalConcentrationMeasure?: IUneceMeasureType[];
+	chemicalConcentrationMeasure?: IUneceMeasureType;
 
 	/**
 	 * The name, expressed as text, of the method of this applied chemical treatment.
@@ -68,23 +68,23 @@ export interface IUneceAppliedChemicalTreatment extends IJsonLdNodeObject {
 	 * The authentication of the results of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/resultAuthentication
 	 */
-	resultAuthentication?: IUneceAuthentication[];
+	resultAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The note describing the results of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/resultNote
 	 */
-	resultNote?: IUneceNote[];
+	resultNote?: IUneceNote;
 
 	/**
 	 * A measure of the chemical concentration of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/unitChemicalConcentrationMeasure
 	 */
-	unitChemicalConcentrationMeasure?: IUneceUnitMeasureType[];
+	unitChemicalConcentrationMeasure?: IUneceUnitMeasureType;
 
 	/**
 	 * A chemical used during this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/usedChemical
 	 */
-	usedChemical?: IUneceChemical[];
+	usedChemical?: IUneceChemical;
 }

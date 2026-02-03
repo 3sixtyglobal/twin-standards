@@ -34,7 +34,7 @@ export interface IUneceQuantityAnalysis extends IJsonLdNodeObject {
 	 * A work item dimension of the actual quantity in this work item quantity analysis.
 	 * @see https://vocabulary.uncefact.org/actualQuantityDimension
 	 */
-	actualQuantityDimension?: IUneceWorkItemDimension[];
+	actualQuantityDimension?: IUneceWorkItemDimension;
 
 	/**
 	 * The percentage of a total quantity that the actual quantity of this work item quantity analysis represents.
@@ -52,13 +52,13 @@ export interface IUneceQuantityAnalysis extends IJsonLdNodeObject {
 	 * A quantity analysis breakdown of this work item quantity analysis.
 	 * @see https://vocabulary.uncefact.org/breakdownQuantityAnalysis
 	 */
-	breakdownQuantityAnalysis?: IUneceQuantityAnalysis[];
+	breakdownQuantityAnalysis?: IUneceQuantityAnalysis;
 
 	/**
 	 * A changed recorded status for this work item quantity analysis.
 	 * @see https://vocabulary.uncefact.org/changedStatus
 	 */
-	changedStatus?: IUneceRecordedStatus[];
+	changedStatus?: IUneceRecordedStatus;
 
 	/**
 	 * The code specifying the contractual language for this work item quantity analysis.

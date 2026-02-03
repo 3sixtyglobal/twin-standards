@@ -39,7 +39,7 @@ export interface IUneceOrganizationalCertificate extends IJsonLdNodeObject {
 	 * A sustainability assertion applicable to this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAssertion
 	 */
-	applicableAssertion?: IUneceAssertion[];
+	applicableAssertion?: IUneceAssertion;
 
 	/**
 	 * A code specifying an object for which this organizational certificate is applicable.
@@ -51,37 +51,37 @@ export interface IUneceOrganizationalCertificate extends IJsonLdNodeObject {
 	 * A characteristic applicable to this organization certificate.
 	 * @see https://vocabulary.uncefact.org/applicableOrganizationCharacteristic
 	 */
-	applicableOrganizationCharacteristic?: IUneceOrganizationCharacteristic[];
+	applicableOrganizationCharacteristic?: IUneceOrganizationCharacteristic;
 
 	/**
 	 * An organizational certification applicable to this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/applicableOrganizationalCertification
 	 */
-	applicableOrganizationalCertification?: IUneceOrganizationalCertification[];
+	applicableOrganizationalCertification?: IUneceOrganizationalCertification;
 
 	/**
 	 * A referenced standard applicable to this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A binary file attached to this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The code specifying the type of organizational certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * A textual description of this organizational certificate.

@@ -41,7 +41,7 @@ export interface IUneceDeliveryTerms extends IJsonLdNodeObject {
 	 * The code specifying the type of delivery for these trade delivery terms.
 	 * @see https://vocabulary.uncefact.org/deliveryTermsDeliveryTypeCode
 	 */
-	deliveryTermsDeliveryTypeCode?: UneceDeliveryTermsCodeList[];
+	deliveryTermsDeliveryTypeCode?: UneceDeliveryTermsCodeList;
 
 	/**
 	 * A code specifying a function of these trade delivery terms.
@@ -65,7 +65,7 @@ export interface IUneceDeliveryTerms extends IJsonLdNodeObject {
 	 * The trade location relevant for these trade delivery terms.
 	 * @see https://vocabulary.uncefact.org/relevantLocation
 	 */
-	relevantLocation?: IUneceTradeLocation[];
+	relevantLocation?: IUneceTradeLocation;
 
 	/**
 	 * A code specifying the risk responsibility for these trade delivery terms.

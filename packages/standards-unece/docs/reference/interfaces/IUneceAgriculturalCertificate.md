@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ### applicableAssertion?
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 A sustainability assertion applicable to this agricultural certificate.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this agricultural certificate.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this agricultural certificate.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this agricultural certificate.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of agricultural certificate.
 

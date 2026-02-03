@@ -34,13 +34,13 @@ export interface IUneceTTAnimal extends IJsonLdNodeObject {
 	 * The holder responsible party for this TT animal.
 	 * @see https://vocabulary.uncefact.org/holderResponsibleParty
 	 */
-	holderResponsibleParty?: IUneceTTParty[];
+	holderResponsibleParty?: IUneceTTParty;
 
 	/**
 	 * A location related to this TT animal.
 	 * @see https://vocabulary.uncefact.org/relatedTTLocation
 	 */
-	relatedTTLocation?: IUneceTTLocation[];
+	relatedTTLocation?: IUneceTTLocation;
 
 	/**
 	 * The code specifying the type of species and subclasses of this TT animal, such as bovine, sheep or salmon.
@@ -58,41 +58,41 @@ export interface IUneceTTAnimal extends IJsonLdNodeObject {
 	 * An animal certificate specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalCertificate
 	 */
-	specifiedAnimalCertificate?: IUneceAnimalCertificate[];
+	specifiedAnimalCertificate?: IUneceAnimalCertificate;
 
 	/**
 	 * An animal holding event specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 	 */
-	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent[];
+	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent;
 
 	/**
 	 * An animal identity specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalIdentity
 	 */
-	specifiedAnimalIdentity?: IUneceAnimalIdentity[];
+	specifiedAnimalIdentity?: IUneceAnimalIdentity;
 
 	/**
 	 * A delimited period specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The individual tracking animal specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedIndividualTTAnimal
 	 */
-	specifiedIndividualTTAnimal?: IUneceIndividualTTAnimal[];
+	specifiedIndividualTTAnimal?: IUneceIndividualTTAnimal;
 
 	/**
 	 * A delimited period specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod[];
+	specifiedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * A species specified for this TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedSpeciesTTAnimal
 	 */
-	specifiedSpeciesTTAnimal?: IUneceSpeciesTTAnimal[];
+	specifiedSpeciesTTAnimal?: IUneceSpeciesTTAnimal;
 }

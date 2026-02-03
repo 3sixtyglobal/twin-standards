@@ -34,17 +34,17 @@ export interface IUneceFuel extends IJsonLdNodeObject {
 	 * A measure of a weight (mass) for this specified fuel.
 	 * @see https://vocabulary.uncefact.org/volumeUnitVolumeMeasure
 	 */
-	volumeUnitVolumeMeasure?: IUneceVolumeUnitMeasureType[];
+	volumeUnitVolumeMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * A measure of a volume for this specified fuel.
 	 * @see https://vocabulary.uncefact.org/weightUnitWeightMeasure
 	 */
-	weightUnitWeightMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitWeightMeasure?: IUneceWeightUnitMeasureType;
 
 	/**
 	 * A working pressure measure for this specified fuel.
 	 * @see https://vocabulary.uncefact.org/workingPressureMeasure
 	 */
-	workingPressureMeasure?: IUneceUnitMeasureType[];
+	workingPressureMeasure?: IUneceUnitMeasureType;
 }

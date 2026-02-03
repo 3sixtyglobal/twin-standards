@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### relatedTTLocation?
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 A Track and Trace (TT) location related to this animal holding event.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ### relatedTechnicalCharacteristic?
 
-> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
 
 A technical characteristic related to this animal holding event.
 

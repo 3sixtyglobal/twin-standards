@@ -81,13 +81,13 @@ export interface IUnecePaymentFinancialInstitution extends IJsonLdNodeObject {
 	 * A communication specified for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/specifiedCommunication
 	 */
-	specifiedCommunication?: IUneceCommunication[];
+	specifiedCommunication?: IUneceCommunication;
 
 	/**
 	 * A payment financial account specified for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentFinancialAccount
 	 */
-	specifiedPaymentFinancialAccount?: IUnecePaymentFinancialAccount[];
+	specifiedPaymentFinancialAccount?: IUnecePaymentFinancialAccount;
 
 	/**
 	 * The code specifying the type of payment financial institution.

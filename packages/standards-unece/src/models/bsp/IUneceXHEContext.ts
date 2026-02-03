@@ -27,11 +27,11 @@ export interface IUneceXHEContext extends IJsonLdNodeObject {
 	 * A reference to the scope of this XHE context.
 	 * @see https://vocabulary.uncefact.org/scopeReference
 	 */
-	scopeReference?: IUneceXHEReference[];
+	scopeReference?: IUneceXHEReference;
 
 	/**
 	 * A parameter specified for this XHE context.
 	 * @see https://vocabulary.uncefact.org/specifiedParameter
 	 */
-	specifiedParameter?: IUneceXHEParameter[];
+	specifiedParameter?: IUneceXHEParameter;
 }

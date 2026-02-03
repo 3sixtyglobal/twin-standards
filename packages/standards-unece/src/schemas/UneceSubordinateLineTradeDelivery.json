@@ -96,45 +96,27 @@
 			"description": "JSON-LD Type."
 		},
 		"actualDeliveryEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
 			"description": "An actual delivery event for this subordinate line trade delivery."
 		},
 		"billedQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "A billed quantity of this subordinate line trade delivery."
 		},
 		"includedPackaging": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainPackaging"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainPackaging",
 			"description": "Packaging included in this subordinate line trade delivery."
 		},
 		"packageQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of packages in this subordinate line trade delivery."
 		},
 		"perPackageUnitQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of units per package in this subordinate line trade delivery."
 		},
 		"productUnitQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of product units in this subordinate line trade delivery."
 		}
 	},

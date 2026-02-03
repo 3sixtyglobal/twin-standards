@@ -32,19 +32,19 @@ export interface IUneceAssessment extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this specified assessment.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this specified assessment.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * An object assessed for this specified assessment.
 	 * @see https://vocabulary.uncefact.org/assessedObject
 	 */
-	assessedObject?: IUneceObject[];
+	assessedObject?: IUneceObject;
 
 	/**
 	 * The assessor party for this specified assessment.
@@ -56,7 +56,7 @@ export interface IUneceAssessment extends IJsonLdNodeObject {
 	 * A binary file associated with this specified assessment.
 	 * @see https://vocabulary.uncefact.org/associatedBinaryFile
 	 */
-	associatedBinaryFile?: IUneceBinaryFile[];
+	associatedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The code specifying the assurance level, such as verified by second party or third party, for this specified assessment.
@@ -86,7 +86,7 @@ export interface IUneceAssessment extends IJsonLdNodeObject {
 	 * A supply chain trade transaction related to this specified assessment.
 	 * @see https://vocabulary.uncefact.org/relatedTradeTransaction
 	 */
-	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction[];
+	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction;
 
 	/**
 	 * The date, time, date time or other date time value of the report of this specified assessment.
@@ -134,5 +134,5 @@ export interface IUneceAssessment extends IJsonLdNodeObject {
 	 * A verifier party for this specified assessment.
 	 * @see https://vocabulary.uncefact.org/verifierParty
 	 */
-	verifierParty?: IUneceTradeParty[];
+	verifierParty?: IUneceTradeParty;
 }

@@ -39,13 +39,13 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * The reference to the decryption key for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/decryptionKeyReference
 	 */
-	decryptionKeyReference?: IUneceXHEReference[];
+	decryptionKeyReference?: IUneceXHEReference;
 
 	/**
 	 * The reference to the decryption for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/decryptionReference
 	 */
-	decryptionReference?: IUneceXHEReference[];
+	decryptionReference?: IUneceXHEReference;
 
 	/**
 	 * A textual description of this XHE payload instance.
@@ -57,7 +57,7 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * The code specifying the document type for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/documentTypeCode
 	 */
-	documentTypeCode?: UneceDocumentCodeList[];
+	documentTypeCode?: UneceDocumentCodeList;
 
 	/**
 	 * The indication of whether or not this XHE payload instance is encrypted.
@@ -99,7 +99,7 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * The reference to the payload for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/payloadReference
 	 */
-	payloadReference?: IUneceXHEReference[];
+	payloadReference?: IUneceXHEReference;
 
 	/**
 	 * The profile execution identifier for this XHE payload instance.
@@ -117,7 +117,7 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * A reference relevant to this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/relevantReference
 	 */
-	relevantReference?: IUneceXHEReference[];
+	relevantReference?: IUneceXHEReference;
 
 	/**
 	 * The code specifying the validation type of this XHE payload instance.

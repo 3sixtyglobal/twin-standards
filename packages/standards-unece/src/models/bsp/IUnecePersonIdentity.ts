@@ -56,5 +56,5 @@ export interface IUnecePersonIdentity extends IJsonLdNodeObject {
 	 * A proprietary Identity specified for this person.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity[];
+	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
 }

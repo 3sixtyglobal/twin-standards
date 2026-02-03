@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/accountingAmountTypeAmountTypeCode
 
 ### accountingDocumentSetTriggerCode?
 
-> `optional` **accountingDocumentSetTriggerCode**: [`UneceAccountingDocumentCodeList`](../type-aliases/UneceAccountingDocumentCodeList.md)[]
+> `optional` **accountingDocumentSetTriggerCode**: [`UneceAccountingDocumentCodeList`](../type-aliases/UneceAccountingDocumentCodeList.md)
 
 A code specifying a set trigger for this trade accounting account to be used in response to a specific event or a set of
 events.

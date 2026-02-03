@@ -100,10 +100,7 @@
 			"description": "An identifier for this TT party."
 		},
 		"managedCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic",
 			"description": "A technical characteristic managed by this TT party."
 		},
 		"name": {
@@ -111,10 +108,7 @@
 			"description": "The name, expressed as text, for this TT party."
 		},
 		"partyTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePartyTypeCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePartyTypeCodeList",
 			"description": "A code specifying the type of TT party."
 		},
 		"residenceCountryId": {
@@ -122,17 +116,11 @@
 			"description": "The identifier for the country of residence for this TT party, such as the country in which a person lives or in which a corporation has its place of incorporation."
 		},
 		"specifiedTTAnimal": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTAnimal"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTAnimal",
 			"description": "A tracking animal specified for this TT party."
 		},
 		"specifiedTTLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "A location specified for this TT party."
 		},
 		"tTPartyRoleCode": {

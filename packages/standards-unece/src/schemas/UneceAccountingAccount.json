@@ -108,10 +108,7 @@
 			"description": "The code specifying the amount type for this trade accounting account."
 		},
 		"accountingDocumentSetTriggerCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAccountingDocumentCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAccountingDocumentCodeList",
 			"description": "A code specifying a set trigger for this trade accounting account to be used in response to a specific event or a set of events."
 		},
 		"costReferenceDimensionPattern": {

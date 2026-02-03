@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### paymentFinancialAccountCurrencyCode?
 
-> `optional` **paymentFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
+> `optional` **paymentFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the currency of this payment financial account.
 

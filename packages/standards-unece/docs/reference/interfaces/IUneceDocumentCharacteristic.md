@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/valueAdjustmentDirectionCode
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A value, expressed as a monetary value, for this document characteristic.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/valueDateTime
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a value for this document characteristic.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/valuePercent
 
 ### valueQuantity?
 
-> `optional` **valueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **valueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A value, expressed as a quantity, for this document characteristic.
 

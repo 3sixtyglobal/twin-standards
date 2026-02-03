@@ -27,13 +27,13 @@ export interface IUneceReturnableAssetInstructions extends IJsonLdNodeObject {
 	 * A deposit value specified in these returnable asset instructions.
 	 * @see https://vocabulary.uncefact.org/depositValueSpecifiedAmount
 	 */
-	depositValueSpecifiedAmount?: IUneceAmountType[];
+	depositValueSpecifiedAmount?: IUneceAmountType;
 
 	/**
 	 * The specified period during which the deposit value specified in these returnable asset instructions is valid.
 	 * @see https://vocabulary.uncefact.org/depositValueValidityPeriod
 	 */
-	depositValueValidityPeriod?: IUneceSpecifiedPeriod[];
+	depositValueValidityPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * An identifier of the material to which these returnable asset instructions apply.

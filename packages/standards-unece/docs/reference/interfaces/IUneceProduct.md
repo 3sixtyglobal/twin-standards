@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/sellerAssignedId
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A unit quantity of this referenced product.
 

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### marketingMeasure?
 
-> `optional` **marketingMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **marketingMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A marketing measure for this trade product feature.
 

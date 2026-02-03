@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/areaIncluded
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this photographic picture.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/intendedUseCode
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 Linear spatial dimensions of this photographic picture.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/resolutionValueNumeric
 
 ### specifiedNote?
 
-> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)
 
 A note specified for this photographic picture.
 

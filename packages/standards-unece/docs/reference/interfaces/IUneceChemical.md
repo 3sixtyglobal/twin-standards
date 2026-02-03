@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableHazardousMaterial?
 
-> `optional` **applicableHazardousMaterial**: [`IUneceHazardousMaterial`](IUneceHazardousMaterial.md)[]
+> `optional` **applicableHazardousMaterial**: [`IUneceHazardousMaterial`](IUneceHazardousMaterial.md)
 
 An applicable toxicological hazardous material for this distinct chemical.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableHazardousMaterial
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
 
 A product characteristic applicable to this distinct chemical.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this distinct chemical.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### massMeasure?
 
-> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the mass of this distinct chemical.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/massMeasure
 
 ### massRatioMeasure?
 
-> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A mass measure of this distinct chemical expressed as a ratio to another mass, such as the total mass.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/massRatioMeasure
 
 ### molecularWeightMeasure?
 
-> `optional` **molecularWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **molecularWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the molecular weight (in grams) for this distinct chemical.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/molecularWeightMeasure
 
 ### presenceMeasurement?
 
-> `optional` **presenceMeasurement**: [`IUneceIngredientRangeMeasurement`](IUneceIngredientRangeMeasurement.md)[]
+> `optional` **presenceMeasurement**: [`IUneceIngredientRangeMeasurement`](IUneceIngredientRangeMeasurement.md)
 
 A measurement of the range of the presence of an ingredient in this distinct chemical.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/scientificName
 
 ### specifiedProductCertificate?
 
-> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate specified for this distinct chemical.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### volumeMeasure?
 
-> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the volume of this distinct chemical.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ### volumeRatioMeasure?
 
-> `optional` **volumeRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **volumeRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the volume of this distinct chemical expressed as a ratio to another volume, such as the total volume.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/volumeRatioMeasure
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the weight of this distinct chemical.
 

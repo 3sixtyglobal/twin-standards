@@ -79,7 +79,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A measure of the acquisition lead time for this trade product.
 	 * @see https://vocabulary.uncefact.org/acquisitionLeadTimeMeasure
 	 */
-	acquisitionLeadTimeMeasure?: IUneceMeasureType[];
+	acquisitionLeadTimeMeasure?: IUneceMeasureType;
 
 	/**
 	 * An additional textual description for this trade product.
@@ -91,133 +91,133 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * An additional referenced document for this trade product, such as a manual or a certificate.
 	 * @see https://vocabulary.uncefact.org/additionalReferenceDocument
 	 */
-	additionalReferenceDocument?: IUneceDocument[];
+	additionalReferenceDocument?: IUneceDocument;
 
 	/**
 	 * An assessment applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment[];
+	applicableAssessment?: IUneceAssessment;
 
 	/**
 	 * Transport dangerous goods information applicable for this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableDangerousGoods
 	 */
-	applicableDangerousGoods?: IUneceDangerousGoods[];
+	applicableDangerousGoods?: IUneceDangerousGoods;
 
 	/**
 	 * A specified declaration applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableDeclaration
 	 */
-	applicableDeclaration?: IUneceSpecifiedDeclaration[];
+	applicableDeclaration?: IUneceSpecifiedDeclaration;
 
 	/**
 	 * Disposal instructions applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableDisposalInstructions
 	 */
-	applicableDisposalInstructions?: IUneceDisposalInstructions[];
+	applicableDisposalInstructions?: IUneceDisposalInstructions;
 
 	/**
 	 * A fault applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableFault
 	 */
-	applicableFault?: IUneceSpecifiedFault[];
+	applicableFault?: IUneceSpecifiedFault;
 
 	/**
 	 * A material goods characteristic applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 	 */
-	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic[];
+	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic;
 
 	/**
 	 * A keyword applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableKeyword
 	 */
-	applicableKeyword?: IUneceKeyword[];
+	applicableKeyword?: IUneceKeyword;
 
 	/**
 	 * A specified licence applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableLicence
 	 */
-	applicableLicence?: IUneceLicence[];
+	applicableLicence?: IUneceLicence;
 
 	/**
 	 * Logistics packaging applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableLogisticsPackaging
 	 */
-	applicableLogisticsPackaging?: IUneceLogisticsPackaging[];
+	applicableLogisticsPackaging?: IUneceLogisticsPackaging;
 
 	/**
 	 * A specified period applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod[];
+	applicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A characteristic applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic[];
+	applicableProductCharacteristic?: IUneceProductCharacteristic;
 
 	/**
 	 * A production process applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableProductionProcess
 	 */
-	applicableProductionProcess?: IUneceProductionProcess[];
+	applicableProductionProcess?: IUneceProductionProcess;
 
 	/**
 	 * A certificate applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * An inspection applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
 
 	/**
 	 * Packaging applicable for use with this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableSupplyChainPackaging
 	 */
-	applicableSupplyChainPackaging?: IUneceSupplyChainPackaging[];
+	applicableSupplyChainPackaging?: IUneceSupplyChainPackaging;
 
 	/**
 	 * A sustainability characteristic applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A sustainability inspection applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
 
 	/**
 	 * A technical characteristic applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
 
 	/**
 	 * A certification applicable to this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification[];
+	applicableTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A chemical treatment applied to this trade product.
 	 * @see https://vocabulary.uncefact.org/appliedChemicalTreatment
 	 */
-	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment[];
+	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment;
 
 	/**
 	 * A product finishing treatment applied to this trade product.
 	 * @see https://vocabulary.uncefact.org/appliedProductFinishingTreatment
 	 */
-	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment[];
+	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment;
 
 	/**
 	 * The measure of the area density, such as paper density 100 gsm, of this trade product.
@@ -229,7 +229,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A tag device attached to this trade product to provide protection from a peril such as theft.
 	 * @see https://vocabulary.uncefact.org/attachedSecurityTag
 	 */
-	attachedSecurityTag?: IUneceSecurityTag[];
+	attachedSecurityTag?: IUneceSecurityTag;
 
 	/**
 	 * A code specifying the available measurement of this trade product.
@@ -277,7 +277,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A buyer supplier parts document referenced for this trade product.
 	 * @see https://vocabulary.uncefact.org/buyerSuppliedPartsReferenceDocument
 	 */
-	buyerSuppliedPartsReferenceDocument?: IUneceDocument[];
+	buyerSuppliedPartsReferenceDocument?: IUneceDocument;
 
 	/**
 	 * The CITES (Convention on International Trade in Endangered Species) code for this trade product.
@@ -296,13 +296,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A product care label specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/careSpecifiedLabel
 	 */
-	careSpecifiedLabel?: IUneceProductLabel[];
+	careSpecifiedLabel?: IUneceProductLabel;
 
 	/**
 	 * A referenced certification evidence document for this trade product.
 	 * @see https://vocabulary.uncefact.org/certificationEvidenceReferenceDocument
 	 */
-	certificationEvidenceReferenceDocument?: IUneceDocument[];
+	certificationEvidenceReferenceDocument?: IUneceDocument;
 
 	/**
 	 * The code specifying the classification for this trade product.
@@ -356,7 +356,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A material component of this trade product.
 	 * @see https://vocabulary.uncefact.org/componentMaterial
 	 */
-	componentMaterial?: IUneceSpecifiedMaterial[];
+	componentMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * A concise textual description for this trade product, such as the description used on a shelf or printed on a receipt.
@@ -392,7 +392,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * The number of content units of this trade product.
 	 * @see https://vocabulary.uncefact.org/contentUnitQuantity
 	 */
-	contentUnitQuantity?: IUneceQuantityType[];
+	contentUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The indication of whether or not instances of this trade product have a content variable measure, such as weight, length
@@ -441,7 +441,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A product classification designated for this trade product.
 	 * @see https://vocabulary.uncefact.org/designatedClassification
 	 */
-	designatedClassification?: IUneceClassification[];
+	designatedClassification?: IUneceClassification;
 
 	/**
 	 * A designation, expressed as text, for this trade product.
@@ -459,13 +459,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A distributor trade party for this trade product.
 	 * @see https://vocabulary.uncefact.org/distributorParty
 	 */
-	distributorParty?: IUneceTradeParty[];
+	distributorParty?: IUneceTradeParty;
 
 	/**
 	 * The measure of the drained net weight (mass) of this trade product.
 	 * @see https://vocabulary.uncefact.org/drainedNetWeightMeasure
 	 */
-	drainedNetWeightMeasure?: IUneceMeasureType[];
+	drainedNetWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The EPC (Electronic Product Code) identifier of this trade product.
@@ -489,13 +489,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * An end use product group for this trade product.
 	 * @see https://vocabulary.uncefact.org/endUseProductGroup
 	 */
-	endUseProductGroup?: IUneceProductGroup[];
+	endUseProductGroup?: IUneceProductGroup;
 
 	/**
 	 * An end user party for this trade product.
 	 * @see https://vocabulary.uncefact.org/endUserParty
 	 */
-	endUserParty?: IUneceTradeParty[];
+	endUserParty?: IUneceTradeParty;
 
 	/**
 	 * The indication of whether or not this trade product is for export.
@@ -519,25 +519,25 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A final assembly country for this trade product.
 	 * @see https://vocabulary.uncefact.org/finalAssemblyCountry
 	 */
-	finalAssemblyCountry?: IUneceCountry[];
+	finalAssemblyCountry?: IUneceCountry;
 
 	/**
 	 * The measure of the life span of this trade product from date of delivery.
 	 * @see https://vocabulary.uncefact.org/fromDeliveryLifeSpanMeasure
 	 */
-	fromDeliveryLifeSpanMeasure?: IUneceDurationUnitMeasureType[];
+	fromDeliveryLifeSpanMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * The measure of the life span of this trade product from date of opening.
 	 * @see https://vocabulary.uncefact.org/fromOpeningLifeSpanMeasure
 	 */
-	fromOpeningLifeSpanMeasure?: IUneceDurationUnitMeasureType[];
+	fromOpeningLifeSpanMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * The measure of the life span of this trade product from date of production.
 	 * @see https://vocabulary.uncefact.org/fromProductionLifeSpanMeasure
 	 */
-	fromProductionLifeSpanMeasure?: IUneceDurationUnitMeasureType[];
+	fromProductionLifeSpanMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * A textual description of a function for this trade product.
@@ -585,7 +585,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A measure of the gross weight (mass) of this trade product.
 	 * @see https://vocabulary.uncefact.org/grossWeightMeasure
 	 */
-	grossWeightMeasure?: IUneceMeasureType[];
+	grossWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * A unique identifier for this trade product.
@@ -597,25 +597,25 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * An included product referenced from this trade product.
 	 * @see https://vocabulary.uncefact.org/includedProduct
 	 */
-	includedProduct?: IUneceProduct[];
+	includedProduct?: IUneceProduct;
 
 	/**
 	 * The number of content units of products included in this trade product.
 	 * @see https://vocabulary.uncefact.org/includedProductContentUnitQuantity
 	 */
-	includedProductContentUnitQuantity?: IUneceQuantityType[];
+	includedProductContentUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of different product types included at the next lower level in this trade product.
 	 * @see https://vocabulary.uncefact.org/includedProductTypeQuantity
 	 */
-	includedProductTypeQuantity?: IUneceQuantityType[];
+	includedProductTypeQuantity?: IUneceQuantityType;
 
 	/**
 	 * An individual instance of this trade product.
 	 * @see https://vocabulary.uncefact.org/individualProductInstance
 	 */
-	individualProductInstance?: IUneceProductInstance[];
+	individualProductInstance?: IUneceProductInstance;
 
 	/**
 	 * A unique industry assigned identifier for this product.
@@ -627,25 +627,25 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * An information note for this trade product.
 	 * @see https://vocabulary.uncefact.org/informationNote
 	 */
-	informationNote?: IUneceNote[];
+	informationNote?: IUneceNote;
 
 	/**
 	 * The number of content units in an inner pack of this trade product.
 	 * @see https://vocabulary.uncefact.org/innerPackContentUnitQuantity
 	 */
-	innerPackContentUnitQuantity?: IUneceQuantityType[];
+	innerPackContentUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of inner packs of this trade product.
 	 * @see https://vocabulary.uncefact.org/innerPackQuantity
 	 */
-	innerPackQuantity?: IUneceQuantityType[];
+	innerPackQuantity?: IUneceQuantityType;
 
 	/**
 	 * A referenced inspection document for this trade product.
 	 * @see https://vocabulary.uncefact.org/inspectionReferenceDocument
 	 */
-	inspectionReferenceDocument?: IUneceDocument[];
+	inspectionReferenceDocument?: IUneceDocument;
 
 	/**
 	 * An intended use, expressed as text, for this trade product.
@@ -682,19 +682,19 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * Linear spatial dimensions of this trade product.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension[];
+	linearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * A Material Safety Data Sheet (MSDS) document referenced for this product.
 	 * @see https://vocabulary.uncefact.org/mSDSReferenceDocument
 	 */
-	mSDSReferenceDocument?: IUneceDocument[];
+	mSDSReferenceDocument?: IUneceDocument;
 
 	/**
 	 * The MSRP (Manufacturer Suggested Retail Price) for this trade product.
 	 * @see https://vocabulary.uncefact.org/mSRPPrice
 	 */
-	mSRPPrice?: IUneceTradePrice[];
+	mSRPPrice?: IUneceTradePrice;
 
 	/**
 	 * The country of manufacture of this trade product.
@@ -712,7 +712,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A manufacturer party for this trade product.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The indication of whether or not this trade product is marked with a serial number.
@@ -724,7 +724,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A referenced marketing campaign document for this trade product.
 	 * @see https://vocabulary.uncefact.org/marketingCampaignReferenceDocument
 	 */
-	marketingCampaignReferenceDocument?: IUneceDocument[];
+	marketingCampaignReferenceDocument?: IUneceDocument;
 
 	/**
 	 * A marketing description, expressed as text, for this trade product.
@@ -736,19 +736,19 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A marketing feature of this trade product.
 	 * @see https://vocabulary.uncefact.org/marketingFeature
 	 */
-	marketingFeature?: IUneceTradeProductFeature[];
+	marketingFeature?: IUneceTradeProductFeature;
 
 	/**
 	 * Maximum linear spatial dimensions of this trade product.
 	 * @see https://vocabulary.uncefact.org/maximumLinearDimension
 	 */
-	maximumLinearDimension?: IUneceSpatialDimension[];
+	maximumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * Minimum linear spatial dimensions of this trade product.
 	 * @see https://vocabulary.uncefact.org/minimumLinearDimension
 	 */
-	minimumLinearDimension?: IUneceSpatialDimension[];
+	minimumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * A unique model identifier for this trade product.
@@ -796,13 +796,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A country of origin for this trade product.
 	 * @see https://vocabulary.uncefact.org/originCountry
 	 */
-	originCountry?: IUneceCountry[];
+	originCountry?: IUneceCountry;
 
 	/**
 	 * A location of origin for this trade product.
 	 * @see https://vocabulary.uncefact.org/originLocation
 	 */
-	originLocation?: IUneceLogisticsLocation[];
+	originLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A textual description of the physical form of this trade product.
@@ -826,13 +826,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A binary file presentation specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/presentationBinaryFile
 	 */
-	presentationBinaryFile?: IUneceBinaryFile[];
+	presentationBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A preservation method applied to this trade product.
 	 * @see https://vocabulary.uncefact.org/preservationAppliedMethod
 	 */
-	preservationAppliedMethod?: IUneceSpecifiedMethod[];
+	preservationAppliedMethod?: IUneceSpecifiedMethod;
 
 	/**
 	 * A textual description of the print design for this trade product.
@@ -868,7 +868,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A measure of the production lead time for this trade product.
 	 * @see https://vocabulary.uncefact.org/productionLeadTimeMeasure
 	 */
-	productionLeadTimeMeasure?: IUneceMeasureType[];
+	productionLeadTimeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The promotional variant identifier for this trade product.
@@ -886,7 +886,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A quality parameter specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/qualityParameter
 	 */
-	qualityParameter?: IUneceSpecifiedParameter[];
+	qualityParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * The indication of whether or not this trade product is recyclable.
@@ -929,25 +929,25 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A TT (Track and Trace) animal, such as one kept or raised on a farm or ranch, related to this trade product.
 	 * @see https://vocabulary.uncefact.org/relatedAnimal
 	 */
-	relatedAnimal?: IUneceTTAnimal[];
+	relatedAnimal?: IUneceTTAnimal;
 
 	/**
 	 * A referenced location related to this trade product.
 	 * @see https://vocabulary.uncefact.org/relatedLocation
 	 */
-	relatedLocation?: IUneceLocation[];
+	relatedLocation?: IUneceLocation;
 
 	/**
 	 * A logistics package related to this trade product.
 	 * @see https://vocabulary.uncefact.org/relatedPackage
 	 */
-	relatedPackage?: IUnecePackage[];
+	relatedPackage?: IUnecePackage;
 
 	/**
 	 * A supply chain trade transaction related to this trade product.
 	 * @see https://vocabulary.uncefact.org/relatedTradeTransaction
 	 */
-	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction[];
+	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction;
 
 	/**
 	 * A code specifying a repair level type for this trade product.
@@ -959,13 +959,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A party responsible for this trade product.
 	 * @see https://vocabulary.uncefact.org/responsibleParty
 	 */
-	responsibleParty?: IUneceTradeParty[];
+	responsibleParty?: IUneceTradeParty;
 
 	/**
 	 * A party responsible for this trade product.
 	 * @see https://vocabulary.uncefact.org/responsibleTradeParty
 	 */
-	responsibleTradeParty?: IUneceTradeParty[];
+	responsibleTradeParty?: IUneceTradeParty;
 
 	/**
 	 * The indication of whether or not this trade product is reusable.
@@ -977,7 +977,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A sales country for this trade product.
 	 * @see https://vocabulary.uncefact.org/salesCountry
 	 */
-	salesCountry?: IUneceCountry[];
+	salesCountry?: IUneceCountry;
 
 	/**
 	 * A scientific name, expressed as text, for this trade product.
@@ -1037,67 +1037,67 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion[];
+	specifiedAssertion?: IUneceAssertion;
 
 	/**
 	 * A colour specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedColour
 	 */
-	specifiedColour?: IUneceColour[];
+	specifiedColour?: IUneceColour;
 
 	/**
 	 * A production facility specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedFacility
 	 */
-	specifiedFacility?: IUneceProductionFacility[];
+	specifiedFacility?: IUneceProductionFacility;
 
 	/**
 	 * A product label specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedLabel
 	 */
-	specifiedLabel?: IUneceProductLabel[];
+	specifiedLabel?: IUneceProductLabel;
 
 	/**
 	 * A photographic picture specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedPicture
 	 */
-	specifiedPicture?: IUnecePicture[];
+	specifiedPicture?: IUnecePicture;
 
 	/**
 	 * A product print specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedPrint
 	 */
-	specifiedPrint?: IUnecePrint[];
+	specifiedPrint?: IUnecePrint;
 
 	/**
 	 * A product certificate specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedProductCertificate
 	 */
-	specifiedProductCertificate?: IUneceProductCertificate[];
+	specifiedProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A product group specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedProductGroup
 	 */
-	specifiedProductGroup?: IUneceProductGroup[];
+	specifiedProductGroup?: IUneceProductGroup;
 
 	/**
 	 * A product label specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedProductLabel
 	 */
-	specifiedProductLabel?: IUneceProductLabel[];
+	specifiedProductLabel?: IUneceProductLabel;
 
 	/**
 	 * A supply chain event specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The specification of the delivery quantities and delivery date/time values in a supply plan for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyPlan
 	 */
-	specifiedSupplyPlan?: IUneceSupplyPlan[];
+	specifiedSupplyPlan?: IUneceSupplyPlan;
 
 	/**
 	 * A code specifying a status for this trade product.
@@ -1121,7 +1121,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A subcontractor party for this trade product.
 	 * @see https://vocabulary.uncefact.org/subcontractorParty
 	 */
-	subcontractorParty?: IUneceTradeParty[];
+	subcontractorParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the subordinate type of trade product.
@@ -1139,7 +1139,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A referenced product that may substitute for this trade product.
 	 * @see https://vocabulary.uncefact.org/substituteProduct
 	 */
-	substituteProduct?: IUneceProduct[];
+	substituteProduct?: IUneceProduct;
 
 	/**
 	 * A referenced product that is substituted by this trade product.
@@ -1151,7 +1151,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A country of supply for this trade product.
 	 * @see https://vocabulary.uncefact.org/suppliedFromCountry
 	 */
-	suppliedFromCountry?: IUneceCountry[];
+	suppliedFromCountry?: IUneceCountry;
 
 	/**
 	 * An identifier for a tracking system of this trade product.
@@ -1205,7 +1205,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A usage information note for this trade product.
 	 * @see https://vocabulary.uncefact.org/usageInformationNote
 	 */
-	usageInformationNote?: IUneceNote[];
+	usageInformationNote?: IUneceNote;
 
 	/**
 	 * A textual description of a use of this trade product.

@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"holderResponsibleParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
 			"description": "The holder responsible party for this TT animal."
 		},
 		"relatedTTLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTTLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTTLocation",
 			"description": "A location related to this TT animal."
 		},
 		"speciesTypeCode": {
@@ -118,52 +112,31 @@
 			"description": "The animal batch specified for this TT animal."
 		},
 		"specifiedAnimalCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAnimalCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAnimalCertificate",
 			"description": "An animal certificate specified for this TT animal."
 		},
 		"specifiedAnimalHoldingEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent",
 			"description": "An animal holding event specified for this TT animal."
 		},
 		"specifiedAnimalIdentity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAnimalIdentity"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAnimalIdentity",
 			"description": "An animal identity specified for this TT animal."
 		},
 		"specifiedDelimitedPeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
 			"description": "A delimited period specified for this TT animal."
 		},
 		"specifiedIndividualTTAnimal": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceIndividualTTAnimal"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceIndividualTTAnimal",
 			"description": "The individual tracking animal specified for this TT animal."
 		},
 		"specifiedPeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
 			"description": "A delimited period specified for this TT animal."
 		},
 		"specifiedSpeciesTTAnimal": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpeciesTTAnimal"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpeciesTTAnimal",
 			"description": "A species specified for this TT animal."
 		}
 	},

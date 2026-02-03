@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"binaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A specified binary file referenced by this valuation breakdown statement."
 		},
 		"changedStatus": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus",
 			"description": "A changed recorded status for this valuation breakdown statement."
 		},
 		"comment": {
@@ -118,10 +112,7 @@
 			"description": "The code specifying the contractual language for this valuation breakdown statement."
 		},
 		"creationBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A specified binary file used to create this valuation breakdown statement."
 		},
 		"creationDateTime": {
@@ -129,10 +120,7 @@
 			"description": "The date, time, date time, or other date time value of the creation of this valuation breakdown statement."
 		},
 		"defaultCurrencyCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList",
 			"description": "The code specifying the default currency for this valuation breakdown statement."
 		},
 		"defaultLanguageCode": {
@@ -148,17 +136,11 @@
 			"description": "The unique identifier for this valuation breakdown statement."
 		},
 		"itemBasicWorkItem": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem",
 			"description": "A basic work item in this valuation breakdown statement."
 		},
 		"itemGroupedWorkItem": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGroupedWorkItem"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGroupedWorkItem",
 			"description": "A grouped work item in this valuation breakdown statement."
 		},
 		"measurementMethodId": {
@@ -174,10 +156,7 @@
 			"description": "The identifier of a price list for this valuation breakdown statement."
 		},
 		"readerBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A specified binary file used to read this valuation breakdown statement."
 		},
 		"requestedActionCode": {
@@ -185,10 +164,7 @@
 			"description": "A code specifying the requested action for this valuation breakdown statement."
 		},
 		"totalPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice",
 			"description": "A total calculated price for this valuation breakdown statement."
 		},
 		"typeCode": {

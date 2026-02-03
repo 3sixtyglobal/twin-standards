@@ -32,13 +32,13 @@ export interface IUneceLaboratoryObservationContact extends IJsonLdNodeObject {
 	 * The email address of this laboratory observation contact.
 	 * @see https://vocabulary.uncefact.org/emailCommunication
 	 */
-	emailCommunication?: IUneceCommunication[];
+	emailCommunication?: IUneceCommunication;
 
 	/**
 	 * The fax number of this laboratory observation contact.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication[];
+	faxCommunication?: IUneceCommunication;
 
 	/**
 	 * The identifier of this laboratory observation contact.
@@ -50,7 +50,7 @@ export interface IUneceLaboratoryObservationContact extends IJsonLdNodeObject {
 	 * The mobile phone number of this laboratory observation contact.
 	 * @see https://vocabulary.uncefact.org/mobileTelephoneCommunication
 	 */
-	mobileTelephoneCommunication?: IUneceCommunication[];
+	mobileTelephoneCommunication?: IUneceCommunication;
 
 	/**
 	 * The name, expressed as text, of the person for this laboratory observation contact.

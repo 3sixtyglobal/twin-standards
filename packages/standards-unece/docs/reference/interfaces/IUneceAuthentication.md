@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedClause?
 
-> `optional` **includedClause**: [`IUneceClause`](IUneceClause.md)[]
+> `optional` **includedClause**: [`IUneceClause`](IUneceClause.md)
 
 A document clause included in this document authentication.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/information
 
 ### issueLocation?
 
-> `optional` **issueLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **issueLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location of issue of this document authentication.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/issueLocation
 
 ### issueLogisticsLocation?
 
-> `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The issue location for this document authentication.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ### locationProviderParty?
 
-> `optional` **locationProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **locationProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade party providing the location for this document authentication.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/locationProviderParty
 
 ### providerParty?
 
-> `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade party providing this document authentication.
 

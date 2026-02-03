@@ -116,10 +116,7 @@
 			"description": "The value, expressed as text, for this agricultural characteristic."
 		},
 		"valueAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The value, expressed as an amount, for this agricultural characteristic."
 		},
 		"valueDateTime": {
@@ -131,17 +128,11 @@
 			"description": "The value, expressed as an indicator, for this agricultural characteristic."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of a value for this agricultural characteristic."
 		},
 		"valueMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A method specified for the value of this agricultural characteristic."
 		},
 		"valueNumeric": {
@@ -149,24 +140,15 @@
 			"description": "The value, expressed as a number, for this agricultural characteristic."
 		},
 		"valueParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter specified for the value of this agricultural characteristic."
 		},
 		"valueRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A range specified for the value of this agricultural characteristic."
 		},
 		"valueTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "A tolerance specified for the value of this agricultural characteristic."
 		}
 	},

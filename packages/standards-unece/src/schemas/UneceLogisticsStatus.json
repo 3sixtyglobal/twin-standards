@@ -96,24 +96,15 @@
 			"description": "JSON-LD Type."
 		},
 		"arrivalReportedEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A transport arrival event reported for this logistics status."
 		},
 		"contactParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A contact party for this logistics status."
 		},
 		"departureReportedEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A transport departure event reported for this logistics status."
 		},
 		"description": {
@@ -125,24 +116,15 @@
 			"description": "Information, expressed as text, for this logistics status."
 		},
 		"loadingReportedEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A transport loading event reported for this logistics status."
 		},
 		"logisticsStatusConditionCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatusCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatusCodeList",
 			"description": "The code specifying this logistics status condition [UNECE Recommendation 24]."
 		},
 		"logisticsStatusReasonCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatusCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatusCodeList",
 			"description": "A code specifying a reason for this logistics status [UNECE Recommendation 24]."
 		},
 		"reason": {
@@ -154,10 +136,7 @@
 			"description": "The reference date, time, date time or other date time value for this logistics status."
 		},
 		"reportedSupplyChainEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
 			"description": "A supply chain event reported for this logistics status."
 		},
 		"sequenceNumeric": {
@@ -165,17 +144,11 @@
 			"description": "The sequence number of this logistics status, such as within a status report."
 		},
 		"specifiedLogisticsLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
 			"description": "A location specified for this logistics status."
 		},
 		"unloadingReportedEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A transport unloading event reported for this logistics status."
 		},
 		"validityPeriod": {

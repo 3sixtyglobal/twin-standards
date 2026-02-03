@@ -29,186 +29,186 @@ export interface IUneceTradeSettlementHeaderMonetarySummation extends IJsonLdNod
 	 * A monetary value that is an adjusted amount balanced out for this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/adjustedBalanceOutAmount
 	 */
-	adjustedBalanceOutAmount?: IUneceAmountType[];
+	adjustedBalanceOutAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all allowance amounts being reported in this trade settlement header monetary
 	 * summation.
 	 * @see https://vocabulary.uncefact.org/allowanceTotalAmount
 	 */
-	allowanceTotalAmount?: IUneceAmountType[];
+	allowanceTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A header balance out applicable to this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/applicableHeaderBalanceOut
 	 */
-	applicableHeaderBalanceOut?: IUneceHeaderBalanceOut[];
+	applicableHeaderBalanceOut?: IUneceHeaderBalanceOut;
 
 	/**
 	 * A monetary value that is an amount balanced out for this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/balanceOutAmount
 	 */
-	balanceOutAmount?: IUneceAmountType[];
+	balanceOutAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all charge amounts being reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/chargeTotalAmount
 	 */
-	chargeTotalAmount?: IUneceAmountType[];
+	chargeTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the
 	 * amount due to the creditor.
 	 * @see https://vocabulary.uncefact.org/duePayableAmount
 	 */
-	duePayableAmount?: IUneceAmountType[];
+	duePayableAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all line amounts, excluding all duties and taxes, being reported in this trade
 	 * settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/excludingTaxesLineTotalAmount
 	 */
-	excludingTaxesLineTotalAmount?: IUneceAmountType[];
+	excludingTaxesLineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the grand total of this trade settlement header monetary summation, to include addition and
 	 * subtraction of individual summation amounts.
 	 * @see https://vocabulary.uncefact.org/grandTotalAmount
 	 */
-	grandTotalAmount?: IUneceAmountType[];
+	grandTotalAmount?: IUneceAmountType;
 
 	/**
 	 * The financial adjustment of the grand total specified for this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/grandTotalSpecifiedAdjustment
 	 */
-	grandTotalSpecifiedAdjustment?: IUneceFinancialAdjustment[];
+	grandTotalSpecifiedAdjustment?: IUneceFinancialAdjustment;
 
 	/**
 	 * A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported
 	 * in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/grossLineTotalAmount
 	 */
-	grossLineTotalAmount?: IUneceAmountType[];
+	grossLineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all line amounts, including all duties and taxes, being reported in this trade
 	 * settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/includingTaxesLineTotalAmount
 	 */
-	includingTaxesLineTotalAmount?: IUneceAmountType[];
+	includingTaxesLineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of an amount being reported for information in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/informationAmount
 	 */
-	informationAmount?: IUneceAmountType[];
+	informationAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all insurance charges being reported in this trade settlement header monetary
 	 * summation.
 	 * @see https://vocabulary.uncefact.org/insuranceChargeTotalAmount
 	 */
-	insuranceChargeTotalAmount?: IUneceAmountType[];
+	insuranceChargeTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the line amount total being reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/lineTotalAmount
 	 */
-	lineTotalAmount?: IUneceAmountType[];
+	lineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all line amounts, including line level allowances and charges and including line level
 	 * taxes, being reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/netIncludingTaxesLineTotalAmount
 	 */
-	netIncludingTaxesLineTotalAmount?: IUneceAmountType[];
+	netIncludingTaxesLineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level
 	 * taxes, being reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/netLineTotalAmount
 	 */
-	netLineTotalAmount?: IUneceAmountType[];
+	netLineTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a payment total reported in this header trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/paymentTotalAmount
 	 */
-	paymentTotalAmount?: IUneceAmountType[];
+	paymentTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value which constitutes the total product value, excluding tobacco tax, stated for information purposes in
 	 * this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/productValueExcludingTobaccoTaxInformationAmount
 	 */
-	productValueExcludingTobaccoTaxInformationAmount?: IUneceAmountType[];
+	productValueExcludingTobaccoTaxInformationAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value which constitutes the retail value, excluding all duties and taxes, stated for information purposes in
 	 * this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/retailValueExcludingTaxInformationAmount
 	 */
-	retailValueExcludingTaxInformationAmount?: IUneceAmountType[];
+	retailValueExcludingTaxInformationAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a rounding amount being applied in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/roundingAmount
 	 */
-	roundingAmount?: IUneceAmountType[];
+	roundingAmount?: IUneceAmountType;
 
 	/**
 	 * A document referenced for this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument[];
+	specifiedDocument?: IUneceDocument;
 
 	/**
 	 * A monetary value of the total of all tax basis amounts being reported in this trade settlement monetary summation.
 	 * @see https://vocabulary.uncefact.org/taxBasisTotalAmount
 	 */
-	taxBasisTotalAmount?: IUneceAmountType[];
+	taxBasisTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/taxTotalAmount
 	 */
-	taxTotalAmount?: IUneceAmountType[];
+	taxTotalAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a total allowance and charge reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/totalAllowanceChargeAmount
 	 */
-	totalAllowanceChargeAmount?: IUneceAmountType[];
+	totalAllowanceChargeAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of the total deposit fee stated for information purposes in this trade settlement header monetary
 	 * summation.
 	 * @see https://vocabulary.uncefact.org/totalDepositFeeInformationAmount
 	 */
-	totalDepositFeeInformationAmount?: IUneceAmountType[];
+	totalDepositFeeInformationAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a total discount reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/totalDiscountAmount
 	 */
-	totalDiscountAmount?: IUneceAmountType[];
+	totalDiscountAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a total discount basis reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/totalDiscountBasisAmount
 	 */
-	totalDiscountBasisAmount?: IUneceAmountType[];
+	totalDiscountBasisAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a prepaid total reported in this trade settlement header monetary summation.
 	 * @see https://vocabulary.uncefact.org/totalPrepaidAmount
 	 */
-	totalPrepaidAmount?: IUneceAmountType[];
+	totalPrepaidAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value which constitutes the total retail value stated for information purposes in this trade settlement
 	 * header monetary summation.
 	 * @see https://vocabulary.uncefact.org/totalRetailValueInformationAmount
 	 */
-	totalRetailValueInformationAmount?: IUneceAmountType[];
+	totalRetailValueInformationAmount?: IUneceAmountType;
 }

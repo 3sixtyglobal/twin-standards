@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"activityAuthorizedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A party that is authorized to perform an activity in this trade country sub-division."
 		},
 		"hierarchicalLevelCode": {
@@ -111,10 +108,7 @@
 			"description": "The unique identifier for this trade country sub-division."
 		},
 		"locationFunctionTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocationFunctionCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocationFunctionCodeList",
 			"description": "The code specifying the function type of this trade country sub-division."
 		},
 		"name": {
@@ -122,17 +116,11 @@
 			"description": "A name, expressed as text, of this trade country sub-division."
 		},
 		"subordinateCountrySubDivision": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision",
 			"description": "A subordinate country sub-division within this trade country sub-division."
 		},
 		"superordinateCountrySubDivision": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision",
 			"description": "A superordinate country sub-division for this trade country sub-division."
 		},
 		"typeCode": {

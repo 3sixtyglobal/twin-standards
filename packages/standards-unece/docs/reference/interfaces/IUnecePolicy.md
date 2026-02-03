@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this compliance policy.
 

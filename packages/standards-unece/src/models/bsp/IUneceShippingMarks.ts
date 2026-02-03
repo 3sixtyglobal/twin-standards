@@ -27,13 +27,13 @@ export interface IUneceShippingMarks extends IJsonLdNodeObject {
 	 * A barcode label that is a part of these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/barcodeLabel
 	 */
-	barcodeLabel?: IUneceLogisticsLabel[];
+	barcodeLabel?: IUneceLogisticsLabel;
 
 	/**
 	 * A code specifying a marking instruction for these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/logisticsShippingMarksMarkingInstructionCode
 	 */
-	logisticsShippingMarksMarkingInstructionCode?: UneceMarkingInstructionCodeList[];
+	logisticsShippingMarksMarkingInstructionCode?: UneceMarkingInstructionCodeList;
 
 	/**
 	 * The code specifying the package category for these logistics shipping marks.
@@ -51,17 +51,17 @@ export interface IUneceShippingMarks extends IJsonLdNodeObject {
 	 * A Radio Frequency Identification (RFID) label that is a part of these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/rFIDLabel
 	 */
-	rFIDLabel?: IUneceLogisticsLabel[];
+	rFIDLabel?: IUneceLogisticsLabel;
 
 	/**
 	 * Radioactive labelling that is a part of these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/radioactiveLabel
 	 */
-	radioactiveLabel?: IUneceLogisticsLabel[];
+	radioactiveLabel?: IUneceLogisticsLabel;
 
 	/**
 	 * A Vehicle Identification Number (VIN) label that is a part of these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/vINLabel
 	 */
-	vINLabel?: IUneceLogisticsLabel[];
+	vINLabel?: IUneceLogisticsLabel;
 }

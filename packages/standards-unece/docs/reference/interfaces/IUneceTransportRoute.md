@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### itineraryStopEvent?
 
-> `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 An itinerary stop event for this transport route, such as a port call in a vessel schedule.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/routeType
 
 ### scheduledPeriod?
 
-> `optional` **scheduledPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **scheduledPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period during which this transport route is scheduled.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ### specifiedTransportMovement?
 
-> `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
+> `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
 
 The logistics transport movement specified for this transport route.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/transportMeans
 
 ### transportRouteStatusCode?
 
-> `optional` **transportRouteStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)[]
+> `optional` **transportRouteStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)
 
 The code specifying a status for a transport route, such as planned or actual.
 

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/access
 
 ### accessAvailabilityPeriod?
 
-> `optional` **accessAvailabilityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **accessAvailabilityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period when access to this binary file is available.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/mIMECode
 
 ### sizeMeasure?
 
-> `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the size of this specified binary file.
 

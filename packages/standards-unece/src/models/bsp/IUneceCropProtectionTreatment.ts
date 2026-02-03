@@ -29,13 +29,13 @@ export interface IUneceCropProtectionTreatment extends IJsonLdNodeObject {
 	 * A process certificate applicable to this specified crop protection treatment.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCertificate
 	 */
-	applicableProcessCertificate?: IUneceProcessCertificate[];
+	applicableProcessCertificate?: IUneceProcessCertificate;
 
 	/**
 	 * A sustainability characteristic applicable to this specified crop protection treatment.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A textual description of this specified crop protection treatment.
@@ -59,5 +59,5 @@ export interface IUneceCropProtectionTreatment extends IJsonLdNodeObject {
 	 * Material used for this specified crop protection treatment.
 	 * @see https://vocabulary.uncefact.org/usedMaterial
 	 */
-	usedMaterial?: IUneceSpecifiedMaterial[];
+	usedMaterial?: IUneceSpecifiedMaterial;
 }

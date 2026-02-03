@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableSpecifiedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote",
 			"description": "A specified note applicable for this experience event."
 		},
 		"basicObjective": {
@@ -111,10 +108,7 @@
 			"description": "The break up date, time, date time, or other date time value for this experience event."
 		},
 		"calculatedPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradePrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradePrice",
 			"description": "A calculated price for this experience event."
 		},
 		"choiceAllowedIndicator": {
@@ -130,10 +124,7 @@
 			"description": "A textual description of this experience event."
 		},
 		"distinctiveFeature": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedFeature"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedFeature",
 			"description": "A distinctive feature specified for this experience event."
 		},
 		"identifier": {
@@ -161,31 +152,19 @@
 			"description": "A name, expressed as text, for this experience event."
 		},
 		"operationalPeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "An operational period specified for this experience event."
 		},
 		"providedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
 			"description": "A specified certificate provided for this experience event."
 		},
 		"providedRequirement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRequirement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRequirement",
 			"description": "A specified requirement provided for this experience event."
 		},
 		"requiredUsageCondition": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceUsageCondition"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceUsageCondition",
 			"description": "The specified usage condition required for this experience event."
 		},
 		"reservationGuarantee": {
@@ -197,10 +176,7 @@
 			"description": "The indication of whether or not a reservation is required for this experience event."
 		},
 		"specifiedTradeParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A party specified for this experience event."
 		}
 	},

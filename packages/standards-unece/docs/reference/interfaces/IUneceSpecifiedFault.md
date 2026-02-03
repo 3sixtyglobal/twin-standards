@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualSpecifiedPercent
 
 ### actualSpecifiedQuantity?
 
-> `optional` **actualSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **actualSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The actual total quantity of this specified fault.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/faultType
 
 ### operationalApplicableTolerance?
 
-> `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 An applicable operational tolerance of this specified fault.
 

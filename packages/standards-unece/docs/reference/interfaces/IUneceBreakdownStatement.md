@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### binaryFile?
 
-> `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A specified binary file referenced by this valuation breakdown statement.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/binaryFile
 
 ### changedStatus?
 
-> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
+> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)
 
 A changed recorded status for this valuation breakdown statement.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### creationBinaryFile?
 
-> `optional` **creationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **creationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A specified binary file used to create this valuation breakdown statement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### defaultCurrencyCode?
 
-> `optional` **defaultCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
+> `optional` **defaultCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the default currency for this valuation breakdown statement.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### itemBasicWorkItem?
 
-> `optional` **itemBasicWorkItem**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)[]
+> `optional` **itemBasicWorkItem**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)
 
 A basic work item in this valuation breakdown statement.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/itemBasicWorkItem
 
 ### itemGroupedWorkItem?
 
-> `optional` **itemGroupedWorkItem**: [`IUneceGroupedWorkItem`](IUneceGroupedWorkItem.md)[]
+> `optional` **itemGroupedWorkItem**: [`IUneceGroupedWorkItem`](IUneceGroupedWorkItem.md)
 
 A grouped work item in this valuation breakdown statement.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/priceListId
 
 ### readerBinaryFile?
 
-> `optional` **readerBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **readerBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A specified binary file used to read this valuation breakdown statement.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ### totalPrice?
 
-> `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
+> `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)
 
 A total calculated price for this valuation breakdown statement.
 

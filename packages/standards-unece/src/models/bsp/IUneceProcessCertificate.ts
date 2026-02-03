@@ -39,7 +39,7 @@ export interface IUneceProcessCertificate extends IJsonLdNodeObject {
 	 * The sustainability assertion applicable to this process certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAssertion
 	 */
-	applicableAssertion?: IUneceAssertion[];
+	applicableAssertion?: IUneceAssertion;
 
 	/**
 	 * A code specifying an object for which this process certificate is applicable.
@@ -51,37 +51,37 @@ export interface IUneceProcessCertificate extends IJsonLdNodeObject {
 	 * A process certification applicable to this process certificate.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCertification
 	 */
-	applicableProcessCertification?: IUneceProcessCertification[];
+	applicableProcessCertification?: IUneceProcessCertification;
 
 	/**
 	 * A process characteristic applicable to this process certificate.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCharacteristic
 	 */
-	applicableProcessCharacteristic?: IUneceProcessCharacteristic[];
+	applicableProcessCharacteristic?: IUneceProcessCharacteristic;
 
 	/**
 	 * A referenced standard applicable to this process certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this process certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A binary file attached to this process certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The code specifying the type of process certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * A textual description of this process certificate.

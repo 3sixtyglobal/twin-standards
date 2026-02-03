@@ -39,7 +39,7 @@ export interface IUneceExperienceProgramAction extends IJsonLdNodeObject {
 	 * A party specified for this experience program action.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty[];
+	specifiedTradeParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the status of this experience program action.

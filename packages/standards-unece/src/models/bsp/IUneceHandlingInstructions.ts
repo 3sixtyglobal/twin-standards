@@ -30,13 +30,13 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * A transport related temperature setting applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/applicableTransportSettingTemperature
 	 */
-	applicableTransportSettingTemperature?: IUneceTransportSettingTemperature[];
+	applicableTransportSettingTemperature?: IUneceTransportSettingTemperature;
 
 	/**
 	 * The instructed temperature for delivery applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/deliveryApplicableTemperature
 	 */
-	deliveryApplicableTemperature?: IUneceInstructedTemperature[];
+	deliveryApplicableTemperature?: IUneceInstructedTemperature;
 
 	/**
 	 * A textual description of these handling instructions.
@@ -90,31 +90,31 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * The instructed temperature for market delivery applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/marketDeliveryApplicableTemperature
 	 */
-	marketDeliveryApplicableTemperature?: IUneceInstructedTemperature[];
+	marketDeliveryApplicableTemperature?: IUneceInstructedTemperature;
 
 	/**
 	 * The maximum number of units which can be stacked on top of each other according to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/maximumStackabilityApplicableQuantity
 	 */
-	maximumStackabilityApplicableQuantity?: IUneceQuantityType[];
+	maximumStackabilityApplicableQuantity?: IUneceQuantityType;
 
 	/**
 	 * The maximum stackability weight applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/maximumStackabilityWeightApplicableMeasure
 	 */
-	maximumStackabilityWeightApplicableMeasure?: IUneceWeightUnitMeasureType[];
+	maximumStackabilityWeightApplicableMeasure?: IUneceWeightUnitMeasureType;
 
 	/**
 	 * The measure of the maximum storage humidity applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/maximumStorageHumidityApplicableMeasure
 	 */
-	maximumStorageHumidityApplicableMeasure?: IUneceMeasureType[];
+	maximumStorageHumidityApplicableMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the minimum storage humidity applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/minimumStorageHumidityApplicableMeasure
 	 */
-	minimumStorageHumidityApplicableMeasure?: IUneceMeasureType[];
+	minimumStorageHumidityApplicableMeasure?: IUneceMeasureType;
 
 	/**
 	 * A procedure, expressed as text, for these handling instructions.
@@ -132,5 +132,5 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * The instructed temperature for storage applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/storageApplicableTemperature
 	 */
-	storageApplicableTemperature?: IUneceInstructedTemperature[];
+	storageApplicableTemperature?: IUneceInstructedTemperature;
 }

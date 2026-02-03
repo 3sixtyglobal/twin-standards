@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ### paidAmount?
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value paid or to be paid for this instalment payment.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/sequenceId
 
 ### specifiedFinancingRequestResultDocument?
 
-> `optional` **specifiedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)[]
+> `optional` **specifiedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)
 
 The financing request result document specified for this instalment payment.
 

@@ -27,5 +27,5 @@ export interface IUneceRegulatedGoods extends IJsonLdNodeObject {
 	 * Transport dangerous goods information applicable to these logistics regulated goods.
 	 * @see https://vocabulary.uncefact.org/applicableDangerousGoods
 	 */
-	applicableDangerousGoods?: IUneceDangerousGoods[];
+	applicableDangerousGoods?: IUneceDangerousGoods;
 }

@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this organization characteristic."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this organization characteristic."
 		},
 		"condition": {
@@ -134,10 +128,7 @@
 			"description": "A value, expressed as text, for this organization characteristic."
 		},
 		"valueAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The value, expressed as an amount, for this organization characteristic."
 		},
 		"valueDateTime": {
@@ -149,17 +140,11 @@
 			"description": "The value for this organization characteristic expressed as an indicator."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of a value for this organization characteristic."
 		},
 		"valueMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A method specified for the value of this organization characteristic."
 		},
 		"valueNumeric": {
@@ -167,24 +152,15 @@
 			"description": "The value, expressed as a number, for this organization characteristic."
 		},
 		"valueParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter specified for the value of this organization characteristic."
 		},
 		"valueRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A range specified for the value of this organization characteristic."
 		},
 		"valueTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "A tolerance specified for the value of this organization characteristic."
 		}
 	},

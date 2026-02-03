@@ -49,13 +49,13 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * A quantity event element specified for a child of this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/childQuantitySpecifiedEventElement
 	 */
-	childQuantitySpecifiedEventElement?: IUneceEventElement[];
+	childQuantitySpecifiedEventElement?: IUneceEventElement;
 
 	/**
 	 * A destination related party for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/destinationRelatedParty
 	 */
-	destinationRelatedParty?: IUneceTTParty[];
+	destinationRelatedParty?: IUneceTTParty;
 
 	/**
 	 * The code specifying the disposition related to this TT aggregation event.
@@ -85,7 +85,7 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * The read point related location of this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/readPointRelatedLocation
 	 */
-	readPointRelatedLocation?: IUneceTTLocation[];
+	readPointRelatedLocation?: IUneceTTLocation;
 
 	/**
 	 * The date, time, date time, or other date time value at which this TT aggregation event was recorded.
@@ -97,29 +97,29 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * A certification related to this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/relatedCertification
 	 */
-	relatedCertification?: IUneceSpecifiedCertification[];
+	relatedCertification?: IUneceSpecifiedCertification;
 
 	/**
 	 * The location related to this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/relatedTTLocation
 	 */
-	relatedTTLocation?: IUneceTTLocation[];
+	relatedTTLocation?: IUneceTTLocation;
 
 	/**
 	 * A source related party for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/sourceRelatedParty
 	 */
-	sourceRelatedParty?: IUneceTTParty[];
+	sourceRelatedParty?: IUneceTTParty;
 
 	/**
 	 * A declared error specified for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/specifiedError
 	 */
-	specifiedError?: IUneceError[];
+	specifiedError?: IUneceError;
 
 	/**
 	 * A trade transaction specified for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeTransaction
 	 */
-	specifiedTradeTransaction?: IUneceTTTradeTransaction[];
+	specifiedTradeTransaction?: IUneceTTTradeTransaction;
 }

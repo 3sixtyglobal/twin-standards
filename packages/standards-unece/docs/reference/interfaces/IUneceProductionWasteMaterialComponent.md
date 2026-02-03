@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate applicable to this production waste material component.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this production waste material component.
 

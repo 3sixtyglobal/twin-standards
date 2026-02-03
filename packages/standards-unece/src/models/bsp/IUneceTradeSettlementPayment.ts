@@ -52,5 +52,5 @@ export interface IUneceTradeSettlementPayment extends IJsonLdNodeObject {
 	 * A trade settlement payment specified for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 	 */
-	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement[];
+	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement;
 }

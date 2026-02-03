@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "An applicable period for this specified experience item."
 		},
 		"applicableQuantityUnitTypeCode": {
@@ -107,24 +104,15 @@
 			"description": "The code specifying the type of quantity unit applicable for this specified experience item."
 		},
 		"availablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "An available period for this specified experience item."
 		},
 		"availableProduct": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceExperienceProduct"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceExperienceProduct",
 			"description": "An available product for this specified experience item."
 		},
 		"availableUnitQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of units available for this specified experience item."
 		},
 		"brandName": {
@@ -132,10 +120,7 @@
 			"description": "A brand name, expressed as text, of this specified experience item."
 		},
 		"calculatedPrice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradePrice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradePrice",
 			"description": "A calculated price for this specified experience item."
 		},
 		"capabilityLevel": {
@@ -171,24 +156,15 @@
 			"description": "An instruction, expressed as text, for this specified experience item."
 		},
 		"lowerPriceLimitAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of a lower price limit of this specified experience item."
 		},
 		"maximumGuestQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The maximum number of guests for this specified experience item."
 		},
 		"minimumGuestQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The minimum number of guests for this specified experience item."
 		},
 		"name": {
@@ -204,17 +180,11 @@
 			"description": "The code specifying the response status for this specified experience item."
 		},
 		"specifiedExperienceEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceExperienceEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceExperienceEvent",
 			"description": "An event for this specified experience item."
 		},
 		"specifiedTradeParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A party specified for this specified experience item."
 		},
 		"statusCode": {
@@ -230,24 +200,15 @@
 			"description": "The code specifying the type of theme for this specified experience item."
 		},
 		"unitQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of units for this specified experience item."
 		},
 		"upperPriceLimitAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A monetary value of an upper price limit of this specified experience item."
 		},
 		"visitingPeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "A visiting period for this specified experience item."
 		}
 	},

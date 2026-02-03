@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedCountry?
 
-> `optional` **includedCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **includedCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 A country included in this trade geopolitical region.
 

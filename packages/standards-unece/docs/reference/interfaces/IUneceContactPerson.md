@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/countryResidenceCountryId
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 An email Uniform Resource Identifier (URI) communication for this contact person.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/familyNamePrefix
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 Facsimile communication information for this contact person.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/givenName
 
 ### instantMessagingCommunication?
 
-> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 An instant messaging communication for this contact person.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/role
 
 ### specifiedBirthAddress?
 
-> `optional` **specifiedBirthAddress**: [`IUneceBirthAddress`](IUneceBirthAddress.md)[]
+> `optional` **specifiedBirthAddress**: [`IUneceBirthAddress`](IUneceBirthAddress.md)
 
 The birth address specified for this contact person.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/specifiedBirthAddress
 
 ### specifiedCommunication?
 
-> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 A universal communication specified for this contact person.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ### specifiedEmployerIdentity?
 
-> `optional` **specifiedEmployerIdentity**: [`IUneceEmployerIdentity`](IUneceEmployerIdentity.md)[]
+> `optional` **specifiedEmployerIdentity**: [`IUneceEmployerIdentity`](IUneceEmployerIdentity.md)
 
 An employer identity specified for this contact person.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/specifiedEmployerIdentity
 
 ### specifiedPersonIdentity?
 
-> `optional` **specifiedPersonIdentity**: [`IUnecePersonIdentity`](IUnecePersonIdentity.md)[]
+> `optional` **specifiedPersonIdentity**: [`IUnecePersonIdentity`](IUnecePersonIdentity.md)
 
 The person identity specified for this contact person.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/specifiedPersonIdentity
 
 ### specifiedTaxRegistration?
 
-> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)[]
+> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)
 
 A tax registration specified for this contact person.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/title
 
 ### websiteURICommunication?
 
-> `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 A website Uniform Resource Identifier (URI) communication for this contact person.
 

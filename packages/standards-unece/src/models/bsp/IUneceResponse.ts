@@ -50,5 +50,5 @@ export interface IUneceResponse extends IJsonLdNodeObject {
 	 * The code specifying the type of this specification response.
 	 * @see https://vocabulary.uncefact.org/responseTypeCode
 	 */
-	responseTypeCode?: UneceResponseTypeCodeList[];
+	responseTypeCode?: UneceResponseTypeCodeList;
 }

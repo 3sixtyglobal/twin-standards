@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableTransportSettingTemperature?
 
-> `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
+> `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)
 
 A transport related temperature setting applicable to these handling instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableTransportSettingTemperature
 
 ### deliveryApplicableTemperature?
 
-> `optional` **deliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)[]
+> `optional` **deliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for delivery applicable to these handling instructions.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/itemName
 
 ### marketDeliveryApplicableTemperature?
 
-> `optional` **marketDeliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)[]
+> `optional` **marketDeliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for market delivery applicable to these handling instructions.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/marketDeliveryApplicableTemperature
 
 ### maximumStackabilityApplicableQuantity?
 
-> `optional` **maximumStackabilityApplicableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **maximumStackabilityApplicableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The maximum number of units which can be stacked on top of each other according to these handling instructions.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/maximumStackabilityApplicableQuantity
 
 ### maximumStackabilityWeightApplicableMeasure?
 
-> `optional` **maximumStackabilityWeightApplicableMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **maximumStackabilityWeightApplicableMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The maximum stackability weight applicable to these handling instructions.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightApplicableMeasure
 
 ### maximumStorageHumidityApplicableMeasure?
 
-> `optional` **maximumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum storage humidity applicable to these handling instructions.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/maximumStorageHumidityApplicableMeasure
 
 ### minimumStorageHumidityApplicableMeasure?
 
-> `optional` **minimumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum storage humidity applicable to these handling instructions.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/requirementIndicator
 
 ### storageApplicableTemperature?
 
-> `optional` **storageApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)[]
+> `optional` **storageApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for storage applicable to these handling instructions.
 

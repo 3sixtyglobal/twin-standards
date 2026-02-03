@@ -31,29 +31,29 @@ export interface IUneceProductHandlingProcess extends IJsonLdNodeObject {
 	 * A process characteristic applicable to this product handling process.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCharacteristic
 	 */
-	applicableProcessCharacteristic?: IUneceProcessCharacteristic[];
+	applicableProcessCharacteristic?: IUneceProcessCharacteristic;
 
 	/**
 	 * The specified period of completion for this product handling process.
 	 * @see https://vocabulary.uncefact.org/completionPeriod
 	 */
-	completionPeriod?: IUneceSpecifiedPeriod[];
+	completionPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The trade country where the operation of this product handling process occurs.
 	 * @see https://vocabulary.uncefact.org/operationCountry
 	 */
-	operationCountry?: IUneceCountry[];
+	operationCountry?: IUneceCountry;
 
 	/**
 	 * A trade party who is an operator of this product handling process.
 	 * @see https://vocabulary.uncefact.org/operatorParty
 	 */
-	operatorParty?: IUneceTradeParty[];
+	operatorParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the type of product handling process.
 	 * @see https://vocabulary.uncefact.org/processTypeCode
 	 */
-	processTypeCode?: UneceProcessTypeCodeList[];
+	processTypeCode?: UneceProcessTypeCodeList;
 }

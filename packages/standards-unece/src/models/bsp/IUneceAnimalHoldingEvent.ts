@@ -39,13 +39,13 @@ export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
 	 * A Track and Trace (TT) location related to this animal holding event.
 	 * @see https://vocabulary.uncefact.org/relatedTTLocation
 	 */
-	relatedTTLocation?: IUneceTTLocation[];
+	relatedTTLocation?: IUneceTTLocation;
 
 	/**
 	 * A technical characteristic related to this animal holding event.
 	 * @see https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 	 */
-	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
+	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
 
 	/**
 	 * The code specifying the type of animal holding event.

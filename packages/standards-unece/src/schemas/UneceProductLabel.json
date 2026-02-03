@@ -116,10 +116,7 @@
 			"description": "An identifier of this product label."
 		},
 		"includedAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion included on this product label."
 		},
 		"layoutTypeCode": {

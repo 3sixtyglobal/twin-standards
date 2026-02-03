@@ -33,25 +33,25 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * An actual monetary value of the trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/actualAmount
 	 */
-	actualAmount?: IUneceAmountType[];
+	actualAmount?: IUneceAmountType;
 
 	/**
 	 * The actual trade currency exchange for this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/actualCurrencyExchange
 	 */
-	actualCurrencyExchange?: IUneceCurrencyExchange[];
+	actualCurrencyExchange?: IUneceCurrencyExchange;
 
 	/**
 	 * The code specifying the type of this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/allowanceChargeIdTypeCode
 	 */
-	allowanceChargeIdTypeCode?: UneceAllowanceChargeIdCodeList[];
+	allowanceChargeIdTypeCode?: UneceAllowanceChargeIdCodeList;
 
 	/**
 	 * The code specifying the reason for this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/allowanceChargeReasonCode
 	 */
-	allowanceChargeReasonCode?: UneceAllowanceChargeReasonCodeList[];
+	allowanceChargeReasonCode?: UneceAllowanceChargeReasonCodeList;
 
 	/**
 	 * A date, time, date time, or other date time value applied to the trade allowance charge.
@@ -63,13 +63,13 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * A monetary value that is the basis on which this trade allowance charge is calculated.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType[];
+	basisAmount?: IUneceAmountType;
 
 	/**
 	 * The quantity on which this trade allowance charge is based.
 	 * @see https://vocabulary.uncefact.org/basisQuantity
 	 */
-	basisQuantity?: IUneceQuantityType[];
+	basisQuantity?: IUneceQuantityType;
 
 	/**
 	 * The percentage applied to calculate this trade allowance charge.
@@ -81,7 +81,7 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * A tax category of this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/categoryTradeTax
 	 */
-	categoryTradeTax?: IUneceTradeTax[];
+	categoryTradeTax?: IUneceTradeTax;
 
 	/**
 	 * The indication of whether or not the trade allowance charge is a charge.
@@ -129,13 +129,13 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * An accounting account specified for this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/specifiedAccountingAccount
 	 */
-	specifiedAccountingAccount?: IUneceAccountingAccount[];
+	specifiedAccountingAccount?: IUneceAccountingAccount;
 
 	/**
 	 * The monetary value of the unit basis on which the allowance or charge is calculated.
 	 * @see https://vocabulary.uncefact.org/unitBasisAmount
 	 */
-	unitBasisAmount?: IUneceAmountType[];
+	unitBasisAmount?: IUneceAmountType;
 
 	/**
 	 * The specified period for which this trade allowance charge is valid.

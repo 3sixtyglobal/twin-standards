@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actionCode
 
 ### businessRelatedLocation?
 
-> `optional` **businessRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **businessRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The business location related to this TT object event.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A destination related party for this TT object event.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### quantitySpecifiedEventElement?
 
-> `optional` **quantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
+> `optional` **quantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)
 
 A quantity event element specified for this TT object event.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/quantitySpecifiedEventElement
 
 ### readPointRelatedLocation?
 
-> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The read point related location of this TT object event.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/recordedDateTime
 
 ### relatedCertification?
 
-> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)[]
+> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)
 
 A certification related to this TT object event.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A source related party for this TT object event.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/sourceRelatedParty
 
 ### specifiedError?
 
-> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)[]
+> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)
 
 A declared error specified for this TT object event.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/specifiedError
 
 ### specifiedTradeTransaction?
 
-> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
+> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)
 
 A trade transaction specified for this TT object event.
 

@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ### applicableAssertion?
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 A sustainability assertion applicable to this organizational certificate.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ### applicableOrganizationCharacteristic?
 
-> `optional` **applicableOrganizationCharacteristic**: [`IUneceOrganizationCharacteristic`](IUneceOrganizationCharacteristic.md)[]
+> `optional` **applicableOrganizationCharacteristic**: [`IUneceOrganizationCharacteristic`](IUneceOrganizationCharacteristic.md)
 
 A characteristic applicable to this organization certificate.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableOrganizationCharacteristic
 
 ### applicableOrganizationalCertification?
 
-> `optional` **applicableOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
+> `optional` **applicableOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)
 
 An organizational certification applicable to this organizational certificate.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableOrganizationalCertification
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this organizational certificate.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this organizational certificate.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this organizational certificate.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of organizational certificate.
 

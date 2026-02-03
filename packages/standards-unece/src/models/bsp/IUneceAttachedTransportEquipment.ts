@@ -40,7 +40,7 @@ export interface IUneceAttachedTransportEquipment extends IJsonLdNodeObject {
 	 * A code specifying a category of this piece of attached transport equipment.
 	 * @see https://vocabulary.uncefact.org/transportEquipmentCategoryCode
 	 */
-	transportEquipmentCategoryCode?: UneceTransportEquipmentCategoryCodeList[];
+	transportEquipmentCategoryCode?: UneceTransportEquipmentCategoryCodeList;
 
 	/**
 	 * The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment.
@@ -52,5 +52,5 @@ export interface IUneceAttachedTransportEquipment extends IJsonLdNodeObject {
 	 * The number of units of attached transport equipment.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 }

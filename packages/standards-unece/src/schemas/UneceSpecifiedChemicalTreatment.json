@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this specified chemical treatment."
 		},
 		"description": {
@@ -111,10 +108,7 @@
 			"description": "An identifier of this specified chemical treatment."
 		},
 		"specifiedProcessCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
 			"description": "A process certificate for this specified chemical treatment."
 		},
 		"typeCode": {
@@ -122,10 +116,7 @@
 			"description": "The code specifying the type of chemical treatment."
 		},
 		"usedChemical": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceChemical"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceChemical",
 			"description": "A distinct chemical used for this specified chemical treatment."
 		}
 	},

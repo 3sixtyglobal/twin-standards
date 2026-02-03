@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedMeasurement?
 
-> `optional` **specifiedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
+> `optional` **specifiedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)
 
 A calibrated measurement specified for this specified condition.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/statementCode
 
 ### subjectTypeCode?
 
-> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
+> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)
 
 A code specifying a subject type for this specified condition.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/subjectTypeCode
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a value for this specified condition.
 

@@ -51,7 +51,7 @@ export interface IUneceControlSettingParameter extends IJsonLdNodeObject {
 	 * A requested range specified for this control setting parameter.
 	 * @see https://vocabulary.uncefact.org/requestedRange
 	 */
-	requestedRange?: IUneceRange[];
+	requestedRange?: IUneceRange;
 
 	/**
 	 * The code specifying the status of this control setting parameter.
@@ -81,5 +81,5 @@ export interface IUneceControlSettingParameter extends IJsonLdNodeObject {
 	 * The measure value for this control setting parameter.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 }

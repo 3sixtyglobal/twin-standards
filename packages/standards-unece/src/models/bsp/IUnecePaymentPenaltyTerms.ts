@@ -27,13 +27,13 @@ export interface IUnecePaymentPenaltyTerms extends IJsonLdNodeObject {
 	 * A monetary value of the actual penalty in these trade payment penalty terms.
 	 * @see https://vocabulary.uncefact.org/actualPenaltyAmount
 	 */
-	actualPenaltyAmount?: IUneceAmountType[];
+	actualPenaltyAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value used as a basis to calculate these trade payment penalty terms.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType[];
+	basisAmount?: IUneceAmountType;
 
 	/**
 	 * The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms.
@@ -45,7 +45,7 @@ export interface IUnecePaymentPenaltyTerms extends IJsonLdNodeObject {
 	 * The measure of the period used as a basis to calculate these trade payment penalty terms.
 	 * @see https://vocabulary.uncefact.org/basisPeriodMeasure
 	 */
-	basisPeriodMeasure?: IUneceMeasureType[];
+	basisPeriodMeasure?: IUneceMeasureType;
 
 	/**
 	 * The percent applied to calculate these trade payment penalty terms.

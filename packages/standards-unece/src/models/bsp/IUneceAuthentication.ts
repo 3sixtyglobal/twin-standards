@@ -54,7 +54,7 @@ export interface IUneceAuthentication extends IJsonLdNodeObject {
 	 * A document clause included in this document authentication.
 	 * @see https://vocabulary.uncefact.org/includedClause
 	 */
-	includedClause?: IUneceClause[];
+	includedClause?: IUneceClause;
 
 	/**
 	 * Information, expressed as text, for this document authentication.
@@ -66,25 +66,25 @@ export interface IUneceAuthentication extends IJsonLdNodeObject {
 	 * The referenced location of issue of this document authentication.
 	 * @see https://vocabulary.uncefact.org/issueLocation
 	 */
-	issueLocation?: IUneceLocation[];
+	issueLocation?: IUneceLocation;
 
 	/**
 	 * The issue location for this document authentication.
 	 * @see https://vocabulary.uncefact.org/issueLogisticsLocation
 	 */
-	issueLogisticsLocation?: IUneceLogisticsLocation[];
+	issueLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The trade party providing the location for this document authentication.
 	 * @see https://vocabulary.uncefact.org/locationProviderParty
 	 */
-	locationProviderParty?: IUneceTradeParty[];
+	locationProviderParty?: IUneceTradeParty;
 
 	/**
 	 * The trade party providing this document authentication.
 	 * @see https://vocabulary.uncefact.org/providerParty
 	 */
-	providerParty?: IUneceTradeParty[];
+	providerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the type of representation of this document authentication, such as direct or indirect.

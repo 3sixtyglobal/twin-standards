@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/name
 
 ### netBudgetAmount?
 
-> `optional` **netBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **netBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the net budget for this procuring project.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/netBudgetAmount
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
 The inspection event specified for this procuring project.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/subWorksTypeCode
 
 ### totalBudgetAmount?
 
-> `optional` **totalBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the total budget which includes net amount, taxes, and material and instalment costs for this
 procuring project.

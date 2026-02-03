@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/cardholderName
 
 ### creditAvailableAmount?
 
-> `optional` **creditAvailableAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **creditAvailableAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the credit available for this trade settlement financial card.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/creditAvailableAmount
 
 ### creditLimitAmount?
 
-> `optional` **creditLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **creditLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the credit limit for this trade settlement financial card.
 

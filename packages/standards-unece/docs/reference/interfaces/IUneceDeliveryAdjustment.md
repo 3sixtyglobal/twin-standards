@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualAmount?
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 An actual monetary value added or subtracted as a result of this delivery adjustment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### adjustmentReasonCode?
 
-> `optional` **adjustmentReasonCode**: [`UneceAdjustmentReasonCodeList`](../type-aliases/UneceAdjustmentReasonCodeList.md)[]
+> `optional` **adjustmentReasonCode**: [`UneceAdjustmentReasonCodeList`](../type-aliases/UneceAdjustmentReasonCodeList.md)
 
 The code specifying a reason for this delivery adjustment.
 

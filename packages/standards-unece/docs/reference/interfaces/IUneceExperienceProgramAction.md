@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/description
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A party specified for this experience program action.
 

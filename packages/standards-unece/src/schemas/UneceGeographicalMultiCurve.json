@@ -100,17 +100,11 @@
 			"description": "The direct position list associated with this geographical multi-curve."
 		},
 		"associatedGeographicalObjectCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalObjectCharacteristic",
 			"description": "The geographical object characteristic associated with this geographical multi-curve."
 		},
 		"memberGeographicalLine": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalLine"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalLine",
 			"description": "A geographical line member of this geographical multi-curve."
 		}
 	},

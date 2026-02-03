@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableInspectionResult?
 
-> `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)[]
+> `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)
 
 The specified inspection result applicable to this sustainability inspection.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableInspectionResult
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this sustainability inspection.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A characteristic applicable to this sustainability inspection.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached for this sustainability inspection.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/description
 
 ### executionParty?
 
-> `optional` **executionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **executionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party responsible for the execution of this sustainability inspection.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/executionParty
 
 ### executionPerson?
 
-> `optional` **executionPerson**: [`IUneceInspectionPerson`](IUneceInspectionPerson.md)[]
+> `optional` **executionPerson**: [`IUneceInspectionPerson`](IUneceInspectionPerson.md)
 
 The inspector responsible for the execution of this sustainability inspection.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/outsourcedIndicator
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document specified for this sustainability inspection.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
 A specified inspection event for this sustainability inspection.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ### specifiedInspectionStatus?
 
-> `optional` **specifiedInspectionStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)[]
+> `optional` **specifiedInspectionStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)
 
 The inspection status specified for this sustainability inspection.
 

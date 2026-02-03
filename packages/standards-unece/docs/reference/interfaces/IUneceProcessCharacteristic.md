@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this process characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this process characteristic.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maximumValueMeasure?
 
-> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum value for this process characteristic.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ### measuredAttributeTypeCode?
 
-> `optional` **measuredAttributeTypeCode**: [`UneceMeasuredAttributeCodeList`](../type-aliases/UneceMeasuredAttributeCodeList.md)[]
+> `optional` **measuredAttributeTypeCode**: [`UneceMeasuredAttributeCodeList`](../type-aliases/UneceMeasuredAttributeCodeList.md)
 
 The code specifying the type of this process characteristic.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/measuredAttributeTypeCode
 
 ### minimumValueMeasure?
 
-> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum value for this process characteristic.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The value, expressed as an amount, for this process characteristic.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this process characteristic.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueMethod?
 
-> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
+> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
 
 A method specified for the value of this process characteristic.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter specified for the value of this process characteristic.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
 
 A range specified for the value of this process characteristic.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 A tolerance specified for the value of this process characteristic.
 

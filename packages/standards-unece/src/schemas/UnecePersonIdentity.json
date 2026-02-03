@@ -116,10 +116,7 @@
 			"description": "The social security identifier for this person."
 		},
 		"specifiedProprietaryIdentity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity",
 			"description": "A proprietary Identity specified for this person."
 		}
 	},

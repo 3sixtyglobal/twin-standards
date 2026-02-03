@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ### interpretationResultApplicableParameter?
 
-> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)[]
+> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)
 
 An applicable observation objective parameter of the interpretation result for this sample observation result
 characteristic.
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ### measuredAccuracyMeasure?
 
-> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 Accuracy, expressed as a measure, of the measurement for this sample observation result characteristic.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/measuredValue
 
 ### measuredValueMeasure?
 
-> `optional` **measuredValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **measuredValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measured value, expressed as a measure, for this sample observation result characteristic.
 

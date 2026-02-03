@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/actualStartDateTime
 
 ### appliedAgriculturalApplication?
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
+> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)
 
 An agricultural application applied to a crop production agricultural process.
 
@@ -101,7 +101,7 @@ https://vocabulary.uncefact.org/earliestStartDateTime
 
 ### harvestedBatch?
 
-> `optional` **harvestedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
+> `optional` **harvestedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)
 
 A crop produce batch harvested in the crop production for this agricultural process.
 
@@ -126,7 +126,7 @@ https://vocabulary.uncefact.org/latestEndDateTime
 
 ### productionWasteInstructions?
 
-> `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
+> `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
 
 Disposal instructions related to production waste for this agricultural crop production process.
 
@@ -138,7 +138,7 @@ https://vocabulary.uncefact.org/productionWasteInstructions
 
 ### reportedProductionWasteMaterial?
 
-> `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)[]
+> `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)
 
 Production waste material reported for this agricultural crop production process.
 
@@ -150,7 +150,7 @@ https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 
 ### specifiedFieldCrop?
 
-> `optional` **specifiedFieldCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)[]
+> `optional` **specifiedFieldCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)
 
 A field crop specified for this crop production agricultural process.
 

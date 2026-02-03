@@ -32,7 +32,7 @@ export interface IUnecePortMovementEvent extends IJsonLdNodeObject {
 	 * An arrival location related to this port movement event.
 	 * @see https://vocabulary.uncefact.org/arrivalRelatedLocation
 	 */
-	arrivalRelatedLocation?: IUneceLogisticsLocation[];
+	arrivalRelatedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A textual description of this port movement event.

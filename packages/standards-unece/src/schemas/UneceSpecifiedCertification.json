@@ -116,17 +116,11 @@
 			"description": "An identifier for this specified certification."
 		},
 		"relatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "A referenced location related to this specified certification."
 		},
 		"relatedStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard related to this specified certification."
 		},
 		"responsibleAgency": {
@@ -134,10 +128,7 @@
 			"description": "A responsible agency, expressed as text, for this specified certification."
 		},
 		"specifiedAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion for this specified certification."
 		},
 		"standard": {

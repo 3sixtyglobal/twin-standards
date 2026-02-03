@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### componentSpatialDimension?
 
-> `optional` **componentSpatialDimension**: `IUneceSpatialDimension`[]
+> `optional` **componentSpatialDimension**: `IUneceSpatialDimension`
 
 A dimension that is a component of this spatial dimension.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### dimensionTypeCode?
 
-> `optional` **dimensionTypeCode**: [`UneceDimensionTypeCodeList`](../type-aliases/UneceDimensionTypeCodeList.md)[]
+> `optional` **dimensionTypeCode**: [`UneceDimensionTypeCodeList`](../type-aliases/UneceDimensionTypeCodeList.md)
 
 The code specifying the type of spatial dimension, such as thickness, area, or volume.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/dimensionTypeCode
 
 ### heightMeasure?
 
-> `optional` **heightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **heightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the height component of this spatial dimension.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### lengthMeasure?
 
-> `optional` **lengthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **lengthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the length component of this spatial dimension.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/lengthMeasure
 
 ### linearUnitDiameterMeasure?
 
-> `optional` **linearUnitDiameterMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **linearUnitDiameterMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the diameter component for this spatial dimension.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/linearUnitDiameterMeasure
 
 ### linearUnitHeightMeasure?
 
-> `optional` **linearUnitHeightMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **linearUnitHeightMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the height component of this spatial dimension.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/linearUnitHeightMeasure
 
 ### linearUnitLengthMeasure?
 
-> `optional` **linearUnitLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **linearUnitLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the length component of this spatial dimension.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/linearUnitLengthMeasure
 
 ### linearUnitWidthMeasure?
 
-> `optional` **linearUnitWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
+> `optional` **linearUnitWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the width component of this spatial dimension.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/linearUnitWidthMeasure
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units with these spatial dimensions.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ### unitValueMeasure?
 
-> `optional` **unitValueMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitValueMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
 The measure of the value of this spatial dimension.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/unitValueMeasure
 
 ### widthMeasure?
 
-> `optional` **widthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **widthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the width component of this spatial dimension.
 

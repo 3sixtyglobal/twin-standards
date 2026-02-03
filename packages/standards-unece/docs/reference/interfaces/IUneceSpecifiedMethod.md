@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableParameter?
 
-> `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter applicable to this specified method.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate applicable to this transportation waste material component.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this transportation waste material component.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ### estimatedGeneratedMeasure?
 
-> `optional` **estimatedGeneratedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **estimatedGeneratedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The estimated measure for this generated transportation waste material component.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/estimatedGeneratedMeasure
 
 ### maximumDedicatedStorageCapacityMeasure?
 
-> `optional` **maximumDedicatedStorageCapacityMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **maximumDedicatedStorageCapacityMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The measure of the maximum dedicated storage capacity for this transportation waste material component.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/maximumDedicatedStorageCapacityMeasure
 
 ### plannedDischargedMeasure?
 
-> `optional` **plannedDischargedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **plannedDischargedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The planned measure for this discharged transportation waste material component.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/plannedDischargedMeasure
 
 ### remainingDeliveryEvent?
 
-> `optional` **remainingDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **remainingDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A delivery event for this remaining transportation waste material component.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### volumeUnitReceivedMeasure?
 
-> `optional` **volumeUnitReceivedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **volumeUnitReceivedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The measure of this received transportation waste material component.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/volumeUnitReceivedMeasure
 
 ### volumeUnitRetainedMeasure?
 
-> `optional` **volumeUnitRetainedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **volumeUnitRetainedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The measure for this retained transportation waste material component.
 

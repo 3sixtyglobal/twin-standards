@@ -34,7 +34,7 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * A specified note applicable for this experience event.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedNote
 	 */
-	applicableSpecifiedNote?: IUneceSpecifiedNote[];
+	applicableSpecifiedNote?: IUneceSpecifiedNote;
 
 	/**
 	 * A basic objective, expressed as text, for this experience event.
@@ -52,7 +52,7 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * A calculated price for this experience event.
 	 * @see https://vocabulary.uncefact.org/calculatedPrice
 	 */
-	calculatedPrice?: IUneceTradePrice[];
+	calculatedPrice?: IUneceTradePrice;
 
 	/**
 	 * The indication of whether or not a choice is allowed for this experience event.
@@ -76,7 +76,7 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * A distinctive feature specified for this experience event.
 	 * @see https://vocabulary.uncefact.org/distinctiveFeature
 	 */
-	distinctiveFeature?: IUneceSpecifiedFeature[];
+	distinctiveFeature?: IUneceSpecifiedFeature;
 
 	/**
 	 * The identifier of this experience event.
@@ -118,25 +118,25 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * An operational period specified for this experience event.
 	 * @see https://vocabulary.uncefact.org/operationalPeriod
 	 */
-	operationalPeriod?: IUneceSpecifiedPeriod[];
+	operationalPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A specified certificate provided for this experience event.
 	 * @see https://vocabulary.uncefact.org/providedCertificate
 	 */
-	providedCertificate?: IUneceSpecifiedCertificate[];
+	providedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A specified requirement provided for this experience event.
 	 * @see https://vocabulary.uncefact.org/providedRequirement
 	 */
-	providedRequirement?: IUneceRequirement[];
+	providedRequirement?: IUneceRequirement;
 
 	/**
 	 * The specified usage condition required for this experience event.
 	 * @see https://vocabulary.uncefact.org/requiredUsageCondition
 	 */
-	requiredUsageCondition?: IUneceUsageCondition[];
+	requiredUsageCondition?: IUneceUsageCondition;
 
 	/**
 	 * A reservation guarantee, expressed as text, for this experience event.
@@ -154,5 +154,5 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * A party specified for this experience event.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty[];
+	specifiedTradeParty?: IUneceTradeParty;
 }

@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### actualReportedMeasurement?
 
-> `optional` **actualReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
+> `optional` **actualReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)
 
 An actual calibrated measurement reported for this monitoring sensor.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualReportedMeasurement
 
 ### definedControlSettingParameter?
 
-> `optional` **definedControlSettingParameter**: [`IUneceControlSettingParameter`](IUneceControlSettingParameter.md)[]
+> `optional` **definedControlSettingParameter**: [`IUneceControlSettingParameter`](IUneceControlSettingParameter.md)
 
 A control setting parameter defined for this monitoring sensor.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/definedControlSettingParameter
 
 ### definedOperationalParameter?
 
-> `optional` **definedOperationalParameter**: [`IUneceOperationalParameter`](IUneceOperationalParameter.md)[]
+> `optional` **definedOperationalParameter**: [`IUneceOperationalParameter`](IUneceOperationalParameter.md)
 
 An operational parameter defined for this monitoring sensor.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/definedOperationalParameter
 
 ### grantedCertificate?
 
-> `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate granted for this monitoring sensor.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party for this monitoring sensor.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The owner party of this monitoring sensor.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/positionCode
 
 ### precisionMeasurement?
 
-> `optional` **precisionMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
+> `optional` **precisionMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)
 
 A calibrated measurement of precision for this monitoring sensor.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/remainingBatteryChargePercent
 
 ### scheduledReportedMeasurement?
 
-> `optional` **scheduledReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
+> `optional` **scheduledReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)
 
 A scheduled calibrated measurement reported for this monitoring sensor.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this monitoring sensor.
 

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ### emailCommunication?
 
-> `optional` **emailCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **emailCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The email address of this laboratory observation contact.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/emailCommunication
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The fax number of this laboratory observation contact.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### mobileTelephoneCommunication?
 
-> `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The mobile phone number of this laboratory observation contact.
 

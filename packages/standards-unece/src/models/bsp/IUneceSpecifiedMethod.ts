@@ -26,7 +26,7 @@ export interface IUneceSpecifiedMethod extends IJsonLdNodeObject {
 	 * A parameter applicable to this specified method.
 	 * @see https://vocabulary.uncefact.org/applicableParameter
 	 */
-	applicableParameter?: IUneceSpecifiedParameter[];
+	applicableParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A certification identifier of this specified method.

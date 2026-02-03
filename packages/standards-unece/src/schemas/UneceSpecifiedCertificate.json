@@ -104,10 +104,7 @@
 			"description": "A code specifying an alias name of this specified certificate."
 		},
 		"applicableClause": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceClause"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceClause",
 			"description": "A clause applicable to this specified certificate."
 		},
 		"applicableGeographicRegion": {
@@ -115,17 +112,11 @@
 			"description": "A geographic region, expressed as text, applicable for this specified certificate."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this specified certificate."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this specified certificate."
 		},
 		"assuranceLevelCode": {
@@ -133,17 +124,11 @@
 			"description": "The code specifying the assurance level, such as certified by third party, for this specified certificate."
 		},
 		"attachedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file attached to this specified certificate."
 		},
 		"availableLanguageCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLanguageCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLanguageCodeList",
 			"description": "A code specifying an available language for this specified certificate."
 		},
 		"capabilityLevel": {
@@ -155,31 +140,19 @@
 			"description": "A code specifying a category for this specified certificate."
 		},
 		"certificateTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList",
 			"description": "A code specifying a type of specified certificate."
 		},
 		"certifiedObject": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceObject"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceObject",
 			"description": "An object certified by this specified certificate."
 		},
 		"certifiedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The certified party for this specified certificate."
 		},
 		"certifiedPersonQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of certified persons for this specified certificate."
 		},
 		"description": {
@@ -203,10 +176,7 @@
 			"description": "The identifier for this specified certificate."
 		},
 		"issuanceLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeLocation",
 			"description": "An issuance location for this specified certificate."
 		},
 		"issueDateTime": {
@@ -218,10 +188,7 @@
 			"description": "The code specifying the reason why this specified certificate was issued."
 		},
 		"issuerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The issuer party for this specified certificate."
 		},
 		"latestEndorsementDateTime": {
@@ -237,10 +204,7 @@
 			"description": "An identifier of a party for this specified certificate."
 		},
 		"providingParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The party, other than the issuer, providing this specified certificate."
 		},
 		"purposeCode": {
@@ -248,17 +212,11 @@
 			"description": "A code specifying a purpose of this specified certificate."
 		},
 		"relatedTradeTransaction": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeTransaction"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeTransaction",
 			"description": "A supply chain trade transaction related to this specified certificate."
 		},
 		"reportedDocumentStatus": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocumentStatus"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocumentStatus",
 			"description": "A reported status for this specified certificate."
 		},
 		"requestedEffectiveDateTime": {
@@ -278,10 +236,7 @@
 			"description": "The code specifying the status of this specified certificate."
 		},
 		"subjectTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList",
 			"description": "A code specifying a subject type for this specified certificate."
 		},
 		"validIndicator": {

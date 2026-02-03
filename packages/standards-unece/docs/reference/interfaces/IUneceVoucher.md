@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/description
 
 ### faceAmount?
 
-> `optional` **faceAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **faceAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value shown on the face of this experience item voucher.
 

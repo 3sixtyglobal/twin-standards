@@ -28,18 +28,18 @@ export interface IUneceSpecifiedTemperature extends IJsonLdNodeObject {
 	 * fourteen degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/maximumValueMeasure
 	 */
-	maximumValueMeasure?: IUneceMeasureType[];
+	maximumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four
 	 * degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/minimumValueMeasure
 	 */
-	minimumValueMeasure?: IUneceMeasureType[];
+	minimumValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of the value of this specified temperature, such as a temperature value of ten degrees Celsius.
 	 * @see https://vocabulary.uncefact.org/temperatureUnitValueMeasure
 	 */
-	temperatureUnitValueMeasure?: IUneceTemperatureUnitMeasureType[];
+	temperatureUnitValueMeasure?: IUneceTemperatureUnitMeasureType;
 }

@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/objectClassId
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this TT event element.
 

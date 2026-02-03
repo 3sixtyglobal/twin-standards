@@ -45,7 +45,7 @@ export interface IUneceFinancingFinancialAccount extends IJsonLdNodeObject {
 	 * The code specifying the currency of this financing financial account.
 	 * @see https://vocabulary.uncefact.org/financingFinancialAccountCurrencyCode
 	 */
-	financingFinancialAccountCurrencyCode?: UneceCurrencyCodeList[];
+	financingFinancialAccountCurrencyCode?: UneceCurrencyCodeList;
 
 	/**
 	 * The unique International Bank Account Number (IBAN) identifier for this financing financial account.

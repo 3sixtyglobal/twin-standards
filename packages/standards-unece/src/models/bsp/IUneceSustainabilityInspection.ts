@@ -35,25 +35,25 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * The specified inspection result applicable to this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/applicableInspectionResult
 	 */
-	applicableInspectionResult?: IUneceInspectionResult[];
+	applicableInspectionResult?: IUneceInspectionResult;
 
 	/**
 	 * A referenced standard applicable to this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A characteristic applicable to this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A binary file attached for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A textual description of this sustainability inspection.
@@ -65,13 +65,13 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * The party responsible for the execution of this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/executionParty
 	 */
-	executionParty?: IUneceTradeParty[];
+	executionParty?: IUneceTradeParty;
 
 	/**
 	 * The inspector responsible for the execution of this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/executionPerson
 	 */
-	executionPerson?: IUneceInspectionPerson[];
+	executionPerson?: IUneceInspectionPerson;
 
 	/**
 	 * An identifier of this sustainability inspection.
@@ -95,19 +95,19 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * A referenced document specified for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument[];
+	specifiedDocument?: IUneceDocument;
 
 	/**
 	 * A specified inspection event for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent[];
+	specifiedInspectionEvent?: IUneceInspectionEvent;
 
 	/**
 	 * The inspection status specified for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionStatus
 	 */
-	specifiedInspectionStatus?: IUneceInspectionStatus[];
+	specifiedInspectionStatus?: IUneceInspectionStatus;
 
 	/**
 	 * The code specifying the type of sustainability inspection.

@@ -96,24 +96,15 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableAgriculturalProcess": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess",
 			"description": "An agricultural process crop production specified for this crop plot."
 		},
 		"appliedAgriculturalApplication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
 			"description": "A specified agricultural application applied to this crop plot."
 		},
 		"areaMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The area measure for this crop plot."
 		},
 		"endDateTime": {
@@ -121,10 +112,7 @@
 			"description": "The date, time, date time, or other date time value for the end of this crop plot."
 		},
 		"grownCrop": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFieldCrop"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFieldCrop",
 			"description": "A field crop grown on this crop plot."
 		},
 		"identifier": {
@@ -132,10 +120,7 @@
 			"description": "The identifier for this crop plot."
 		},
 		"includedPlot": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePlot"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePlot",
 			"description": "A crop plot included in this crop plot."
 		},
 		"regulatoryOrganicIndicator": {
@@ -147,39 +132,24 @@
 			"description": "The code specifying the type of regulatory soil for this crop plot."
 		},
 		"specifiedAgriculturalCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate",
 			"description": "An agricultural certificate specified for this crop plot."
 		},
 		"specifiedAgriculturalCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic",
 			"description": "An agricultural characteristic specified for this crop plot."
 		},
 		"specifiedAgriculturalZoneArea": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea",
 			"description": "An agricultural zone area specified for this crop plot."
 		},
 		"specifiedArea": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceArea"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceArea",
 			"description": "An agricultural zone area specified for this crop plot.",
 			"deprecated": true
 		},
 		"specifiedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "The referenced location specified for this crop plot."
 		},
 		"startDateTime": {

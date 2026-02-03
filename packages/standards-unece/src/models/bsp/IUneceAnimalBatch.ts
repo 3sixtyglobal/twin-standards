@@ -52,13 +52,13 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The maximum size, expressed as a measure, of the animals for this animal batch.
 	 * @see https://vocabulary.uncefact.org/maximumSizeMeasure
 	 */
-	maximumSizeMeasure?: IUneceMeasureType[];
+	maximumSizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The minimum size, expressed as a measure, of the animals for this animal batch.
 	 * @see https://vocabulary.uncefact.org/minimumSizeMeasure
 	 */
-	minimumSizeMeasure?: IUneceMeasureType[];
+	minimumSizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The date, time, date time, or other date time value of the sale for this animal batch.
@@ -76,23 +76,23 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod[];
+	specifiedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The number of units, expressed as a quantity, for this animal batch.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The weight, expressed as a measure, for this animal batch.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 }

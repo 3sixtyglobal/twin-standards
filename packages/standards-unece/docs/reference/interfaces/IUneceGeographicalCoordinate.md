@@ -199,7 +199,7 @@ https://vocabulary.uncefact.org/timeZoneDateTime
 
 ### usedCoordinateReferenceSystem?
 
-> `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)[]
+> `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)
 
 The CS (Coordinate System) engineering coordinate reference system used for this geographical coordinate.
 
@@ -211,7 +211,7 @@ https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 
 ### usedCoordinateSourceSystem?
 
-> `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)[]
+> `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)
 
 The geographical coordinate source system used for this geographical coordinate.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this technical characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### capacityValueMeasure?
 
-> `optional` **capacityValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **capacityValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The capacity, expressed as a measure, such as a production volume, a surface area or a number of animals, for this
 technical characteristic.
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/certificationCode
 
 ### componentMaterial?
 
-> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 A specified material component of this technical characteristic.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/measurementMethodCode
 
 ### specifiedAnimalHoldingEvent?
 
-> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
+> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)
 
 An animal holding event specified for this technical characteristic.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 A supply chain event specified for this technical characteristic.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAmount?
 
-> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The value, expressed as an amount, for this technical characteristic.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value of this technical characteristic.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
 
 A parameter specified for the value of this technical characteristic.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
 
 A range specified for the value of this technical characteristic.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
 
 A tolerance specified for the value of this technical characteristic.
 

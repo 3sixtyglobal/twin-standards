@@ -33,7 +33,7 @@ export interface IUneceEquipment extends IJsonLdNodeObject {
 	 * The manufacturer party for this OEM equipment.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The indication of whether or not this OEM equipment has a polling capability.
@@ -45,7 +45,7 @@ export interface IUneceEquipment extends IJsonLdNodeObject {
 	 * The measure of the polling rate for this OEM equipment.
 	 * @see https://vocabulary.uncefact.org/pollingRateMeasure
 	 */
-	pollingRateMeasure?: IUneceMeasureType[];
+	pollingRateMeasure?: IUneceMeasureType;
 
 	/**
 	 * A code specifying a type of OEM equipment.

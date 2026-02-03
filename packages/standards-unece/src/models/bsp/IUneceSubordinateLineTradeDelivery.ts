@@ -28,35 +28,35 @@ export interface IUneceSubordinateLineTradeDelivery extends IJsonLdNodeObject {
 	 * An actual delivery event for this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/actualDeliveryEvent
 	 */
-	actualDeliveryEvent?: IUneceSupplyChainEvent[];
+	actualDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * A billed quantity of this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/billedQuantity
 	 */
-	billedQuantity?: IUneceQuantityType[];
+	billedQuantity?: IUneceQuantityType;
 
 	/**
 	 * Packaging included in this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/includedPackaging
 	 */
-	includedPackaging?: IUneceSupplyChainPackaging[];
+	includedPackaging?: IUneceSupplyChainPackaging;
 
 	/**
 	 * The number of packages in this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/packageQuantity
 	 */
-	packageQuantity?: IUneceQuantityType[];
+	packageQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of units per package in this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/perPackageUnitQuantity
 	 */
-	perPackageUnitQuantity?: IUneceQuantityType[];
+	perPackageUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of product units in this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/productUnitQuantity
 	 */
-	productUnitQuantity?: IUneceQuantityType[];
+	productUnitQuantity?: IUneceQuantityType;
 }

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedDirectPositionList
 
 ### associatedGeographicalObjectCharacteristic?
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)[]
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical line.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation?
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location associated with this specified geographical line.
 

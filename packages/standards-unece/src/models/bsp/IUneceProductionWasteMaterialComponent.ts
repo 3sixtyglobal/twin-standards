@@ -27,13 +27,13 @@ export interface IUneceProductionWasteMaterialComponent extends IJsonLdNodeObjec
 	 * A product certificate applicable to this production waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A sustainability characteristic applicable to this production waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A textual description of this production waste material component.

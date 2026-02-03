@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### authorizedRegistration?
 
-> `optional` **authorizedRegistration**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)[]
+> `optional` **authorizedRegistration**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)
 
 A legal registration authorized for this legally set up organization.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/name
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 A postal address for this legally set up organization.
 

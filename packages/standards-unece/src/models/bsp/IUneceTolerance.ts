@@ -50,7 +50,7 @@ export interface IUneceTolerance extends IJsonLdNodeObject {
 	 * The minus quantity value of this specified tolerance.
 	 * @see https://vocabulary.uncefact.org/minusValueQuantity
 	 */
-	minusValueQuantity?: IUneceQuantityType[];
+	minusValueQuantity?: IUneceQuantityType;
 
 	/**
 	 * The surplus percentage value of this specified tolerance.
@@ -62,5 +62,5 @@ export interface IUneceTolerance extends IJsonLdNodeObject {
 	 * The surplus quantity value of this specified tolerance.
 	 * @see https://vocabulary.uncefact.org/surplusValueQuantity
 	 */
-	surplusValueQuantity?: IUneceQuantityType[];
+	surplusValueQuantity?: IUneceQuantityType;
 }

@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/queryId
 
 ### responseTypeCode?
 
-> `optional` **responseTypeCode**: [`UneceResponseTypeCodeList`](../type-aliases/UneceResponseTypeCodeList.md)[]
+> `optional` **responseTypeCode**: [`UneceResponseTypeCodeList`](../type-aliases/UneceResponseTypeCodeList.md)
 
 The code specifying the type of this specification response.
 

@@ -35,7 +35,7 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * An additional statement note for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/additionalStatementNote
 	 */
-	additionalStatementNote?: IUneceNote[];
+	additionalStatementNote?: IUneceNote;
 
 	/**
 	 * Customs valuation information applicable to this exchanged declaration.
@@ -47,7 +47,7 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * A referenced document associated with this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument[];
+	associatedDocument?: IUneceDocument;
 
 	/**
 	 * The rate of currency exchange in this exchanged declaration.
@@ -59,13 +59,13 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * The monetary value specified for customs purposes in this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/customsValueSpecifiedAmount
 	 */
-	customsValueSpecifiedAmount?: IUneceAmountType[];
+	customsValueSpecifiedAmount?: IUneceAmountType;
 
 	/**
 	 * The trade party acting as an agent for the declarant for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/declarantAgentParty
 	 */
-	declarantAgentParty?: IUneceTradeParty[];
+	declarantAgentParty?: IUneceTradeParty;
 
 	/**
 	 * The trade party acting as the declarant for this exchanged declaration.
@@ -77,13 +77,13 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * The code specifying the type of this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/documentTypeCode
 	 */
-	documentTypeCode?: UneceDocumentCodeList[];
+	documentTypeCode?: UneceDocumentCodeList;
 
 	/**
 	 * The gross weight measure specified in this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/grossWeightSpecifiedMeasure
 	 */
-	grossWeightSpecifiedMeasure?: IUneceWeightUnitMeasureType[];
+	grossWeightSpecifiedMeasure?: IUneceWeightUnitMeasureType;
 
 	/**
 	 * An identifier for this exchanged declaration.
@@ -108,13 +108,13 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * A previous document referenced for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/previousDocument
 	 */
-	previousDocument?: IUneceDocument[];
+	previousDocument?: IUneceDocument;
 
 	/**
 	 * A principal trade party associated with this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/principalAssociatedParty
 	 */
-	principalAssociatedParty?: IUneceTradeParty[];
+	principalAssociatedParty?: IUneceTradeParty;
 
 	/**
 	 * A code specifying a procedure for this exchanged declaration.
@@ -132,25 +132,25 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * The monetary value specified for statistical purposes in this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/statisticalValueSpecifiedAmount
 	 */
-	statisticalValueSpecifiedAmount?: IUneceAmountType[];
+	statisticalValueSpecifiedAmount?: IUneceAmountType;
 
 	/**
 	 * The submission location for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/submissionLocation
 	 */
-	submissionLocation?: IUneceLogisticsLocation[];
+	submissionLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The total invoice monetary value specified in this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/totalInvoiceSpecifiedAmount
 	 */
-	totalInvoiceSpecifiedAmount?: IUneceAmountType[];
+	totalInvoiceSpecifiedAmount?: IUneceAmountType;
 
 	/**
 	 * The total package quantity specified in this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/totalPackageSpecifiedQuantity
 	 */
-	totalPackageSpecifiedQuantity?: IUneceQuantityType[];
+	totalPackageSpecifiedQuantity?: IUneceQuantityType;
 
 	/**
 	 * The identifier for the version of this exchanged declaration.

@@ -38,7 +38,7 @@ export interface IUneceSpecifiedRoute extends IJsonLdNodeObject {
 	 * The measure of the distance of this specified route.
 	 * @see https://vocabulary.uncefact.org/linearUnitDistanceMeasure
 	 */
-	linearUnitDistanceMeasure?: IUneceLinearUnitMeasureType[];
+	linearUnitDistanceMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * The Uniform Resource Identifier (URI) of the map of this specified route.

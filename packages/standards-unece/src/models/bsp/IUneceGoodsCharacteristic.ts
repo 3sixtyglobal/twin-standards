@@ -26,13 +26,13 @@ export interface IUneceGoodsCharacteristic extends IJsonLdNodeObject {
 	 * The volume measure of the absolute presence of this material goods characteristic.
 	 * @see https://vocabulary.uncefact.org/absolutePresenceVolumeMeasure
 	 */
-	absolutePresenceVolumeMeasure?: IUneceMeasureType[];
+	absolutePresenceVolumeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The weight measure of the absolute presence of this material goods characteristic.
 	 * @see https://vocabulary.uncefact.org/absolutePresenceWeightMeasure
 	 */
-	absolutePresenceWeightMeasure?: IUneceMeasureType[];
+	absolutePresenceWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * A textual description of this material goods characteristic.

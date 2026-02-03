@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedEvent?
 
-> `optional` **associatedEvent**: [`IUneceCorrectiveEvent`](IUneceCorrectiveEvent.md)[]
+> `optional` **associatedEvent**: [`IUneceCorrectiveEvent`](IUneceCorrectiveEvent.md)
 
 A corrective event associated with this declared error.
 

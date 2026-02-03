@@ -36,7 +36,7 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * A geographical feature associated with this logistics location.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalFeature
 	 */
-	associatedGeographicalFeature?: IUneceGeographicalFeature[];
+	associatedGeographicalFeature?: IUneceGeographicalFeature;
 
 	/**
 	 * A country name, expressed as text, of this logistics location.
@@ -60,7 +60,7 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * A facility location referenced for this logistics location.
 	 * @see https://vocabulary.uncefact.org/facilityLocation
 	 */
-	facilityLocation?: IUneceLocation[];
+	facilityLocation?: IUneceLocation;
 
 	/**
 	 * The indication of whether or not this logistics location is in a health affected area.
@@ -79,19 +79,19 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * A supply chain inspection event at this logistics location.
 	 * @see https://vocabulary.uncefact.org/inspectionEvent
 	 */
-	inspectionEvent?: IUneceSupplyChainEvent[];
+	inspectionEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * A code specifying the type of this logistics related location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
 
 	/**
 	 * The unique identifier of a country for this logistics location.
 	 * @see https://vocabulary.uncefact.org/logisticsLocationCountryId
 	 */
-	logisticsLocationCountryId?: UneceCountryId[];
+	logisticsLocationCountryId?: UneceCountryId;
 
 	/**
 	 * A name, expressed as text, of this logistics related location.
@@ -103,43 +103,43 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * Geographical coordinate information for this logistics related location.
 	 * @see https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 	 */
-	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate[];
+	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate;
 
 	/**
 	 * The postal trade address information for this logistics related location.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress[];
+	postalAddress?: IUneceTradeAddress;
 
 	/**
 	 * A geographical feature previously associated with this logistics location.
 	 * @see https://vocabulary.uncefact.org/previousAssociatedGeographicalFeature
 	 */
-	previousAssociatedGeographicalFeature?: IUneceGeographicalFeature[];
+	previousAssociatedGeographicalFeature?: IUneceGeographicalFeature;
 
 	/**
 	 * A servicing party specified for this logistics related location.
 	 * @see https://vocabulary.uncefact.org/servicingSpecifiedParty
 	 */
-	servicingSpecifiedParty?: IUneceLocationParty[];
+	servicingSpecifiedParty?: IUneceLocationParty;
 
 	/**
 	 * An inspection event specified for this logistics location.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent[];
+	specifiedInspectionEvent?: IUneceInspectionEvent;
 
 	/**
 	 * A period of stay at this logistics location.
 	 * @see https://vocabulary.uncefact.org/stayPeriod
 	 */
-	stayPeriod?: IUneceSpecifiedPeriod[];
+	stayPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A logistics location subordinate to this logistics location.
 	 * @see https://vocabulary.uncefact.org/subordinateRelatedLocation
 	 */
-	subordinateRelatedLocation?: IUneceLogisticsLocation[];
+	subordinateRelatedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A location subordinate to this logistics related location.

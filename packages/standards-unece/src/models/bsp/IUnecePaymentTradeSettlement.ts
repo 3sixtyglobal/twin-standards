@@ -35,7 +35,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value accepted for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/acceptedAmount
 	 */
-	acceptedAmount?: IUneceAmountType[];
+	acceptedAmount?: IUneceAmountType;
 
 	/**
 	 * A description, expressed as text, of additional information supplied to enable the matching of an entry with the items
@@ -48,7 +48,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The tax applicable to this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/applicableTax
 	 */
-	applicableTax?: IUneceTradeTax[];
+	applicableTax?: IUneceTradeTax;
 
 	/**
 	 * The creation date, time, date time, or other date time value for this payment trade settlement.
@@ -60,7 +60,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The monetary value of the credit note for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/creditNoteAmount
 	 */
-	creditNoteAmount?: IUneceAmountType[];
+	creditNoteAmount?: IUneceAmountType;
 
 	/**
 	 * The unique identifier of the creditor reference for this payment trade settlement, such as a specific identifier
@@ -86,7 +86,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * agreed discount to the amount due.
 	 * @see https://vocabulary.uncefact.org/discountAmount
 	 */
-	discountAmount?: IUneceAmountType[];
+	discountAmount?: IUneceAmountType;
 
 	/**
 	 * The due date, time, date time, or other date time value for this payment trade settlement.
@@ -99,13 +99,13 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * due to the creditor.
 	 * @see https://vocabulary.uncefact.org/duePayableAmount
 	 */
-	duePayableAmount?: IUneceAmountType[];
+	duePayableAmount?: IUneceAmountType;
 
 	/**
 	 * The financial guarantee identified for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/identifiedGuarantee
 	 */
-	identifiedGuarantee?: IUneceGuarantee[];
+	identifiedGuarantee?: IUneceGuarantee;
 
 	/**
 	 * An instruction, expressed as text, for this payment trade settlement.
@@ -123,31 +123,31 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The payee party for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/payeeParty
 	 */
-	payeeParty?: IUneceTradeParty[];
+	payeeParty?: IUneceTradeParty;
 
 	/**
 	 * The payer party for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty[];
+	payerParty?: IUneceTradeParty;
 
 	/**
 	 * A monetary value of the payment for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/paymentAmount
 	 */
-	paymentAmount?: IUneceAmountType[];
+	paymentAmount?: IUneceAmountType;
 
 	/**
 	 * The currency exchange applicable to this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/paymentApplicableCurrencyExchange
 	 */
-	paymentApplicableCurrencyExchange?: IUneceCurrencyExchange[];
+	paymentApplicableCurrencyExchange?: IUneceCurrencyExchange;
 
 	/**
 	 * The code specifying the currency for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/paymentCurrencyCode
 	 */
-	paymentCurrencyCode?: UneceCurrencyCodeList[];
+	paymentCurrencyCode?: UneceCurrencyCodeList;
 
 	/**
 	 * The penalty percentage related to this payment trade settlement.
@@ -177,7 +177,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * A specified experience item recorded for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/recordedExperienceItem
 	 */
-	recordedExperienceItem?: IUneceExperienceItem[];
+	recordedExperienceItem?: IUneceExperienceItem;
 
 	/**
 	 * A monetary value of the refund related to this payment trade settlement.
@@ -189,19 +189,19 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value requested for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/requestedAmount
 	 */
-	requestedAmount?: IUneceAmountType[];
+	requestedAmount?: IUneceAmountType;
 
 	/**
 	 * The payment means specified for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans[];
+	specifiedPaymentMeans?: IUnecePaymentMeans;
 
 	/**
 	 * The monetary summation totals specified for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementPaymentMonetarySummation
 	 */
-	specifiedTradeSettlementPaymentMonetarySummation?: IUneceTradeSettlementPaymentMonetarySummation[];
+	specifiedTradeSettlementPaymentMonetarySummation?: IUneceTradeSettlementPaymentMonetarySummation;
 
 	/**
 	 * The code specifying the status of this payment trade settlement.
@@ -213,13 +213,13 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of the tax related to this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/taxAmount
 	 */
-	taxAmount?: IUneceAmountType[];
+	taxAmount?: IUneceAmountType;
 
 	/**
 	 * The monetary value of the total tax for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/totalTaxAmount
 	 */
-	totalTaxAmount?: IUneceAmountType[];
+	totalTaxAmount?: IUneceAmountType;
 
 	/**
 	 * The indication of whether or not this payment trade settlement includes a transfer fee.

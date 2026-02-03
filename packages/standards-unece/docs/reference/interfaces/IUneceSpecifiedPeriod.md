@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/continuousIndicator
 
 ### dayQuantity?
 
-> `optional` **dayQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **dayQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of days in this specified period.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/duration
 
 ### durationMeasure?
 
-> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the length of time for this specified time period such as hours, days, weeks, months, years.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/inclusiveIndicator
 
 ### maximumDurationMeasure?
 
-> `optional` **maximumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)[]
+> `optional` **maximumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
 The measure of the maximum length of time for this specified period, such as hours, days, weeks, months, years.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/maximumDurationMeasure
 
 ### minimumDurationMeasure?
 
-> `optional` **minimumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)[]
+> `optional` **minimumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
 The measure of the minimum length of time for this specified period, such as hours, days, weeks, months, years.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/name
 
 ### nightQuantity?
 
-> `optional` **nightQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **nightQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of nights in this specified period.
 

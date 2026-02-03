@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### activityLevelMeasure?
 
-> `optional` **activityLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **activityLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the activity level of this specified radioactive isotope.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/note
 
 ### specifiedRadionuclide?
 
-> `optional` **specifiedRadionuclide**: [`IUneceRadionuclide`](IUneceRadionuclide.md)[]
+> `optional` **specifiedRadionuclide**: [`IUneceRadionuclide`](IUneceRadionuclide.md)
 
 The radionuclide details specified for this radioactive isotope.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/specifiedRadionuclide
 
 ### unitActivityLevelMeasure?
 
-> `optional` **unitActivityLevelMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitActivityLevelMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
 A measure of the activity level of this specified radioactive isotope.
 

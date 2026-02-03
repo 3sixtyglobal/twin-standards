@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"authorizedRegistration": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLegalRegistration"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLegalRegistration",
 			"description": "A legal registration authorized for this legally set up organization."
 		},
 		"businessTypeCode": {
@@ -127,10 +124,7 @@
 			"description": "A name, expressed as text, of this legally set up organization."
 		},
 		"postalAddress": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
 			"description": "A postal address for this legally set up organization."
 		},
 		"tradingBusinessName": {

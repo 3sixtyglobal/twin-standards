@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### depositValueSpecifiedAmount?
 
-> `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A deposit value specified in these returnable asset instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/depositValueSpecifiedAmount
 
 ### depositValueValidityPeriod?
 
-> `optional` **depositValueValidityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **depositValueValidityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period during which the deposit value specified in these returnable asset instructions is valid.
 

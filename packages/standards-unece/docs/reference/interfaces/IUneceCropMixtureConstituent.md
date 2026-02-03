@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/cropProportionPercent
 
 ### specifiedBotanicalCrop?
 
-> `optional` **specifiedBotanicalCrop**: [`IUneceBotanicalCrop`](IUneceBotanicalCrop.md)[]
+> `optional` **specifiedBotanicalCrop**: [`IUneceBotanicalCrop`](IUneceBotanicalCrop.md)
 
 The botanical crop specified for this field crop mixture constituent.
 

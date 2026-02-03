@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"includedPayloadInstance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePayloadInstance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePayloadInstance",
 			"description": "A payload instance included in this XHE payload."
 		}
 	},

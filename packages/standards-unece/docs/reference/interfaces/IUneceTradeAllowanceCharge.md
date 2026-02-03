@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualAmount?
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 An actual monetary value of the trade allowance charge.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ### actualCurrencyExchange?
 
-> `optional` **actualCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
+> `optional` **actualCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
 The actual trade currency exchange for this trade allowance charge.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/actualCurrencyExchange
 
 ### allowanceChargeIdTypeCode?
 
-> `optional` **allowanceChargeIdTypeCode**: [`UneceAllowanceChargeIdCodeList`](../type-aliases/UneceAllowanceChargeIdCodeList.md)[]
+> `optional` **allowanceChargeIdTypeCode**: [`UneceAllowanceChargeIdCodeList`](../type-aliases/UneceAllowanceChargeIdCodeList.md)
 
 The code specifying the type of this trade allowance charge.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/allowanceChargeIdTypeCode
 
 ### allowanceChargeReasonCode?
 
-> `optional` **allowanceChargeReasonCode**: [`UneceAllowanceChargeReasonCodeList`](../type-aliases/UneceAllowanceChargeReasonCodeList.md)[]
+> `optional` **allowanceChargeReasonCode**: [`UneceAllowanceChargeReasonCodeList`](../type-aliases/UneceAllowanceChargeReasonCodeList.md)
 
 The code specifying the reason for this trade allowance charge.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/appliedDateTime
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value that is the basis on which this trade allowance charge is calculated.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### basisQuantity?
 
-> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity on which this trade allowance charge is based.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ### categoryTradeTax?
 
-> `optional` **categoryTradeTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **categoryTradeTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax category of this trade allowance charge.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedAccountingAccount?
 
-> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 An accounting account specified for this trade allowance charge.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ### unitBasisAmount?
 
-> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the unit basis on which the allowance or charge is calculated.
 

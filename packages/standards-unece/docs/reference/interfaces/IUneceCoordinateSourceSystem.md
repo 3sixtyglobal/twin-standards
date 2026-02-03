@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### signalSourceAvailableQuantity?
 
-> `optional` **signalSourceAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **signalSourceAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity of signal source available for this geographical coordinate source system.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/sourceTypeCode
 
 ### toleranceMeasure?
 
-> `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the tolerance of this geographical coordinate source system.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/toleranceMeasure
 
 ### usedSignalSourceQuantity?
 
-> `optional` **usedSignalSourceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **usedSignalSourceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity of the used signal source of this geographical coordinate source system.
 

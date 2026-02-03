@@ -146,15 +146,17 @@ async function loadCsvData() {
 	const content = await fs.readFile(path.join(SOURCE_DATA_DIR, 'unece-reduced.csv'), 'utf8');
 	const lines = content.split(/\r?\n/).filter(Boolean);
 
-	const headers = lines[0].split(',').map(h => h.trim());
+	const headers = lines[0].split(',').map(h => camelCase(h.trim()));
 	const result = [];
 	for (let i = 1; i < lines.length; i++) {
 		const values = lines[i].split(',');
 		const obj = {};
-		for (let j = 0; j < headers.length; j++) {
-			obj[headers[j]] = values[j] !== undefined ? values[j].trim() : '';
+		if (values.length === headers.length) {
+			for (let j = 0; j < headers.length; j++) {
+				obj[headers[j]] = values[j] !== undefined ? values[j].trim() : '';
+			}
+			result.push(obj);
 		}
-		result.push(obj);
 	}
 
 	return result;
@@ -760,11 +762,12 @@ async function main() {
 	const csvMapping = {};
 
 	for (const row of csvData) {
+		console.log(row);
 		const cctsKey = [
 			row.objectClassTerm,
 			row.propertyTerm,
 			row.representationTerm,
-			row.associatedObject
+			row.associatedObjectClass
 		]
 			.filter(t => t.trim().length > 0)
 			.join('.')

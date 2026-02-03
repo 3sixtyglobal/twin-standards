@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/customizationId
 
 ### includedPayload?
 
-> `optional` **includedPayload**: [`IUnecePayload`](IUnecePayload.md)[]
+> `optional` **includedPayload**: [`IUnecePayload`](IUnecePayload.md)
 
 The payload included in this XHE envelope.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/includedPayload
 
 ### metadataDocument?
 
-> `optional` **metadataDocument**: [`IUneceXHEDocument`](IUneceXHEDocument.md)[]
+> `optional` **metadataDocument**: [`IUneceXHEDocument`](IUneceXHEDocument.md)
 
 The document metadata for this XHE envelope.
 

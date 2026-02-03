@@ -100,52 +100,31 @@
 			"description": "A financial card applicable to this trade settlement payment means."
 		},
 		"creditorSpecifiedFinancialInstitution": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution",
 			"description": "A creditor financial institution specified for this trade settlement payment means."
 		},
 		"debtorSpecifiedFinancialInstitution": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution",
 			"description": "A debtor financial institution specified for this trade settlement payment means."
 		},
 		"identifiedCash": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCash"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCash",
 			"description": "A cash payment identified for this trade settlement payment means."
 		},
 		"identifiedCheque": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCheque"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCheque",
 			"description": "A cheque payment identified for this trade settlement payment means."
 		},
 		"identifiedDigitalMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDigitalMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDigitalMethod",
 			"description": "A digital payment method identified for this trade settlement payment means."
 		},
 		"identifiedFinancialCard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFinancialCard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFinancialCard",
 			"description": "A financial card identified for this trade settlement payment means."
 		},
 		"identifiedVoucher": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceVoucher"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceVoucher",
 			"description": "An experience item voucher identified for this trade settlement payment means."
 		},
 		"information": {
@@ -153,38 +132,23 @@
 			"description": "Information, expressed as text, for this trade settlement payment means."
 		},
 		"paidAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The monetary value to be paid by this trade settlement payment means."
 		},
 		"payeePartyFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount",
 			"description": "A creditor financial account of the payee party for this trade settlement payment means."
 		},
 		"payeeSpecifiedFinancialInstitution": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialInstitution"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialInstitution",
 			"description": "The creditor financial institution of the payee party specified for this trade settlement payment means."
 		},
 		"payerPartyFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialAccount",
 			"description": "The debtor financial account of the payer party for this trade settlement payment means."
 		},
 		"payerSpecifiedFinancialInstitution": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialInstitution"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDebtorFinancialInstitution",
 			"description": "The debtor financial institution of the payer party specified for this trade settlement payment means."
 		},
 		"paymentGuaranteeMeansGuaranteeMethodCode": {
@@ -200,10 +164,7 @@
 			"description": "The type of trade settlement payment means, expressed as text."
 		},
 		"paymentMeansTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentMeansCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentMeansCodeList",
 			"description": "The code specifying the type of trade settlement payment means, such as cash or check."
 		},
 		"paymentMethodCode": {
@@ -211,17 +172,11 @@
 			"description": "The code specifying the method by which a payment may be made for this trade settlement payment means."
 		},
 		"specifiedCreditorFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount",
 			"description": "A creditor financial account specified for this trade settlement payment means."
 		},
 		"specifiedPaymentFinancialInstitution": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentFinancialInstitution",
 			"description": "A financial institution specified for this trade settlement payment means."
 		},
 		"tradeSettlementPaymentMeansId": {

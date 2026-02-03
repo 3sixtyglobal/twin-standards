@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic?
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)[]
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this linear ring.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/coordinate
 
 ### coordinateDirectPosition?
 
-> `optional` **coordinateDirectPosition**: [`IUneceDirectPosition`](IUneceDirectPosition.md)[]
+> `optional` **coordinateDirectPosition**: [`IUneceDirectPosition`](IUneceDirectPosition.md)
 
 The specified direct position of a coordinate for this linear ring.
 

@@ -32,13 +32,13 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * The code specifying whether the financial adjustment must be subtracted or added.
 	 * @see https://vocabulary.uncefact.org/accountingDebitCreditStatusDirectionCode
 	 */
-	accountingDebitCreditStatusDirectionCode?: UneceAccountingDebitCreditStatusCodeList[];
+	accountingDebitCreditStatusDirectionCode?: UneceAccountingDebitCreditStatusCodeList;
 
 	/**
 	 * An actual monetary value added or subtracted as a result of this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/actualAmount
 	 */
-	actualAmount?: IUneceAmountType[];
+	actualAmount?: IUneceAmountType;
 
 	/**
 	 * The actual date, time, date time, or other date time value of this financial adjustment.
@@ -56,7 +56,7 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * The claim related party for this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/claimRelatedParty
 	 */
-	claimRelatedParty?: IUneceTradeParty[];
+	claimRelatedParty?: IUneceTradeParty;
 
 	/**
 	 * A code specifying a reason for this financial adjustment.
@@ -68,7 +68,7 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * The invoice document referenced for this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/invoiceReferenceDocument
 	 */
-	invoiceReferenceDocument?: IUneceDocument[];
+	invoiceReferenceDocument?: IUneceDocument;
 
 	/**
 	 * A reason, expressed as text, for this financial adjustment.
@@ -80,5 +80,5 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * A trade tax related to this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/relatedTax
 	 */
-	relatedTax?: IUneceTradeTax[];
+	relatedTax?: IUneceTradeTax;
 }

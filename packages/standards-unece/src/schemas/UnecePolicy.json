@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this compliance policy."
 		},
 		"description": {

@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"accompanyingAnimal": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePetAnimal"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePetAnimal",
 			"description": "A pet animal accompanying this guest person."
 		},
 		"applicableSpecifiedNote": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote",
 			"description": "A note applicable to this guest person."
 		},
 		"birthDateTime": {
@@ -114,17 +108,11 @@
 			"description": "The date, time, date time, or other date time value which specifies the birth date for this guest."
 		},
 		"carriedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
 			"description": "A certificate carried by this guest person."
 		},
 		"claimedLanguageProficiency": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLanguageProficiency"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLanguageProficiency",
 			"description": "Personal language proficiency skills claimed by this guest person."
 		},
 		"description": {
@@ -132,10 +120,7 @@
 			"description": "A textual description of this guest person."
 		},
 		"durationUnitAgeMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDurationUnitMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDurationUnitMeasureType",
 			"description": "The measure of the age of this guest person."
 		},
 		"genderCode": {
@@ -155,52 +140,31 @@
 			"description": "A name, expressed as text, by which this guest person is known."
 		},
 		"notifiedAllergy": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAllergy"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAllergy",
 			"description": "An allergy notified for this guest person."
 		},
 		"notifiedDisability": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDisability"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDisability",
 			"description": "A disability notified for this guest person."
 		},
 		"notifiedFoodChoice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFoodChoice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFoodChoice",
 			"description": "A food choice notified for this guest person."
 		},
 		"notifiedGuestArrival": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGuestArrival"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGuestArrival",
 			"description": "An arrival notified for this guest person."
 		},
 		"notifiedHealthIndication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGuestHealthIndication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGuestHealthIndication",
 			"description": "A health indication notified for this guest person."
 		},
 		"notifiedPreference": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePreference"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePreference",
 			"description": "An experience item preference notified for this guest person."
 		},
 		"notifiedProtectionMeans": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProtectionMeans"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProtectionMeans",
 			"description": "A disease protection means notified for this guest person."
 		},
 		"passportId": {
@@ -208,10 +172,7 @@
 			"description": "The identifier of the passport of this guest."
 		},
 		"raisedQuery": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecialQuery"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecialQuery",
 			"description": "A special query raised for this guest person."
 		},
 		"residenceCountryId": {
@@ -223,17 +184,11 @@
 			"description": "The code specifying the role of this guest person."
 		},
 		"specifiedCarriedEquipment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCarriedEquipment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCarriedEquipment",
 			"description": "Carried equipment specified for this guest person."
 		},
 		"specifiedPaymentMeans": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans",
 			"description": "A trade settlement payment means specified for this guest person."
 		},
 		"title": {
@@ -245,17 +200,11 @@
 			"description": "The code specifying the title of this guest person."
 		},
 		"travelInsuranceCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
 			"description": "A travel insurance certificate for this guest person."
 		},
 		"usedCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "A universal communication used by this guest."
 		}
 	},

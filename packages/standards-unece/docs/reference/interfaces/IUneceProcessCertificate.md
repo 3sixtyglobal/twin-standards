@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ### applicableAssertion?
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 The sustainability assertion applicable to this process certificate.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ### applicableProcessCertification?
 
-> `optional` **applicableProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)[]
+> `optional` **applicableProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)
 
 A process certification applicable to this process certificate.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableProcessCertification
 
 ### applicableProcessCharacteristic?
 
-> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)[]
+> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)
 
 A process characteristic applicable to this process certificate.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableProcessCharacteristic
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 A referenced standard applicable to this process certificate.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this process certificate.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this process certificate.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of process certificate.
 

@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"matchingEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunicationEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunicationEvent",
 			"description": "A matching event for this communication pairing."
 		},
 		"methodCode": {

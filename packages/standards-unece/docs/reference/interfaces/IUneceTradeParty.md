@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### agreedContract?
 
-> `optional` **agreedContract**: [`IUneceContract`](IUneceContract.md)[]
+> `optional` **agreedContract**: [`IUneceContract`](IUneceContract.md)
 
 A trade contract agreed with this trade party.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/allianceName
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
 
 An assessment applicable to this trade party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableDeclaration?
 
-> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
+> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)
 
 A specified declaration applicable to this trade party.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ### applicableLicence?
 
-> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
+> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)
 
 A specified licence applicable to this trade party.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ### applicableOrganizationalCertificate?
 
-> `optional` **applicableOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
+> `optional` **applicableOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
 
 An organizational certificate applicable to this trade party.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableOrganizationalCertificate
 
 ### applicableOrganizationalCertification?
 
-> `optional` **applicableOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
+> `optional` **applicableOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)
 
 An organizational certification applicable to this trade party.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/applicableOrganizationalCertification
 
 ### applicableProcessCertificate?
 
-> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate applicable to this trade party.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ### applicableProductBatchCertificate?
 
-> `optional` **applicableProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)[]
+> `optional` **applicableProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)
 
 A product batch certificate applicable to this trade party.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/applicableProductBatchCertificate
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate applicable to this trade party.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableServiceCharge?
 
-> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
+> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)
 
 A logistics service charge applicable to this trade party.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/applicableServiceCharge
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
 
 A certificate applicable to this trade party.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
 
 A specified inspection applicable to this trade party.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this trade party.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
 
 A sustainability inspection applicable to this trade party.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### applicableTechnicalCharacteristic?
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
 
 A technical characteristic applicable to this trade party.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ### associatedMembership?
 
-> `optional` **associatedMembership**: [`IUneceMembership`](IUneceMembership.md)[]
+> `optional` **associatedMembership**: [`IUneceMembership`](IUneceMembership.md)
 
 A membership associated with this trade party.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/associatedMembership
 
 ### associatedParty?
 
-> `optional` **associatedParty**: `IUneceTradeParty`[]
+> `optional` **associatedParty**: `IUneceTradeParty`
 
 A party associated with this trade party, such as a local agent of a shipping line.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/associatedParty
 
 ### attentionOfAssociatedParty?
 
-> `optional` **attentionOfAssociatedParty**: `IUneceTradeParty`[]
+> `optional` **attentionOfAssociatedParty**: `IUneceTradeParty`
 
 A trade party associated with this trade party to whom incoming mail is marked with words such as 'for the attention of'
 or 'FAO' or 'ATTN'.
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/attentionOfAssociatedParty
 
 ### availableExperienceItem?
 
-> `optional` **availableExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
+> `optional` **availableExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)
 
 An experience item available for this trade party.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/availableExperienceItem
 
 ### availableFacility?
 
-> `optional` **availableFacility**: [`IUneceExperienceFacility`](IUneceExperienceFacility.md)[]
+> `optional` **availableFacility**: [`IUneceExperienceFacility`](IUneceExperienceFacility.md)
 
 An experience facility made available for or by this trade party.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/chainName
 
 ### claimedLanguageProficiency?
 
-> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)[]
+> `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)
 
 Personal language proficiency skills claimed by this trade party.
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/claimedLanguageProficiency
 
 ### commentedReviewNote?
 
-> `optional` **commentedReviewNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
+> `optional` **commentedReviewNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)
 
 A commented review note specified for this trade party.
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/commentedReviewNote
 
 ### confirmedAuthentication?
 
-> `optional` **confirmedAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **confirmedAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 A confirmed document authentication for this trade party.
 
@@ -375,7 +375,7 @@ https://vocabulary.uncefact.org/confirmedAuthentication
 
 ### cooperativeInformationSource?
 
-> `optional` **cooperativeInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)[]
+> `optional` **cooperativeInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)
 
 A cooperative information source specified for this trade party.
 
@@ -411,7 +411,7 @@ https://vocabulary.uncefact.org/dUNSId
 
 ### definedContact?
 
-> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
+> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
 A trade contact defined for this trade party.
 
@@ -447,7 +447,7 @@ https://vocabulary.uncefact.org/disclosureLevelCode
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The email communication for this trade party.
 
@@ -459,7 +459,7 @@ https://vocabulary.uncefact.org/emailURICommunication
 
 ### endPointURICommunication?
 
-> `optional` **endPointURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **endPointURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The communication address of the end point URI for this trade party.
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/endPointURICommunication
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 A fax communication for this trade party.
 
@@ -519,7 +519,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issuedNotificationReferencedDocument?
 
-> `optional` **issuedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **issuedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced notification document issued to this trade party.
 
@@ -531,7 +531,7 @@ https://vocabulary.uncefact.org/issuedNotificationReferencedDocument
 
 ### logoAssociatedBinaryFile?
 
-> `optional` **logoAssociatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **logoAssociatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A file containing a specified binary representation of a logo associated with this trade party.
 
@@ -543,7 +543,7 @@ https://vocabulary.uncefact.org/logoAssociatedBinaryFile
 
 ### logoReferencedDocument?
 
-> `optional` **logoReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **logoReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The referenced logo document for this trade party.
 
@@ -567,7 +567,7 @@ https://vocabulary.uncefact.org/name
 
 ### ownedFinancialAccount?
 
-> `optional` **ownedFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **ownedFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 The creditor financial account owned by this trade party.
 
@@ -579,7 +579,7 @@ https://vocabulary.uncefact.org/ownedFinancialAccount
 
 ### partyRoleCode?
 
-> `optional` **partyRoleCode**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)[]
+> `optional` **partyRoleCode**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)
 
 A code specifying the role of this trade party.
 
@@ -591,7 +591,7 @@ https://vocabulary.uncefact.org/partyRoleCode
 
 ### partyTypeCode?
 
-> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
+> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)
 
 A code specifying the type of trade party that is independent of its role.
 
@@ -603,7 +603,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 The postal address for this trade party.
 
@@ -615,7 +615,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ### providedProcess?
 
-> `optional` **providedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
+> `optional` **providedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
 
 A production process provided by this trade party.
 
@@ -627,7 +627,7 @@ https://vocabulary.uncefact.org/providedProcess
 
 ### providedService?
 
-> `optional` **providedService**: [`IUneceService`](IUneceService.md)[]
+> `optional` **providedService**: [`IUneceService`](IUneceService.md)
 
 A transport service provided by this trade party.
 
@@ -675,7 +675,7 @@ https://vocabulary.uncefact.org/registeredId
 
 ### relatedBatch?
 
-> `optional` **relatedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **relatedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
 
 A product batch related to this trade party.
 
@@ -687,7 +687,7 @@ https://vocabulary.uncefact.org/relatedBatch
 
 ### relatedMaterial?
 
-> `optional` **relatedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **relatedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Material related to this trade party.
 
@@ -699,7 +699,7 @@ https://vocabulary.uncefact.org/relatedMaterial
 
 ### requestedExperienceItem?
 
-> `optional` **requestedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
+> `optional` **requestedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)
 
 An experience item requested for or by this trade party.
 
@@ -711,7 +711,7 @@ https://vocabulary.uncefact.org/requestedExperienceItem
 
 ### requestedNotificationReferencedDocument?
 
-> `optional` **requestedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **requestedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced notification document requested by this trade party.
 
@@ -723,7 +723,7 @@ https://vocabulary.uncefact.org/requestedNotificationReferencedDocument
 
 ### reservedExperienceItem?
 
-> `optional` **reservedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
+> `optional` **reservedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)
 
 An experience item reserved for or by this trade party.
 
@@ -759,7 +759,7 @@ https://vocabulary.uncefact.org/salesManagerName
 
 ### searchedWishListExperienceItem?
 
-> `optional` **searchedWishListExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
+> `optional` **searchedWishListExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)
 
 An experience item wish list searched for or by this trade party.
 
@@ -771,7 +771,7 @@ https://vocabulary.uncefact.org/searchedWishListExperienceItem
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 The sustainability assertion specified for this trade party.
 
@@ -783,7 +783,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedAuthoritativeSignatoryPerson?
 
-> `optional` **specifiedAuthoritativeSignatoryPerson**: [`IUneceAuthoritativeSignatoryPerson`](IUneceAuthoritativeSignatoryPerson.md)[]
+> `optional` **specifiedAuthoritativeSignatoryPerson**: [`IUneceAuthoritativeSignatoryPerson`](IUneceAuthoritativeSignatoryPerson.md)
 
 A person specified to sign on behalf of this trade party.
 
@@ -795,7 +795,7 @@ https://vocabulary.uncefact.org/specifiedAuthoritativeSignatoryPerson
 
 ### specifiedContactPerson?
 
-> `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)[]
+> `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)
 
 A contact person specified for this trade party.
 
@@ -807,7 +807,7 @@ https://vocabulary.uncefact.org/specifiedContactPerson
 
 ### specifiedCooperatingOrganization?
 
-> `optional` **specifiedCooperatingOrganization**: [`IUneceCooperatingOrganization`](IUneceCooperatingOrganization.md)[]
+> `optional` **specifiedCooperatingOrganization**: [`IUneceCooperatingOrganization`](IUneceCooperatingOrganization.md)
 
 A cooperating organization specified for this trade party.
 
@@ -819,7 +819,7 @@ https://vocabulary.uncefact.org/specifiedCooperatingOrganization
 
 ### specifiedCreditorFinancialInstitution?
 
-> `optional` **specifiedCreditorFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)[]
+> `optional` **specifiedCreditorFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
 A creditor financial institution specified for this trade party.
 
@@ -831,7 +831,7 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialInstitution
 
 ### specifiedFacility?
 
-> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
+> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)
 
 A production facility specified for this trade party.
 
@@ -843,7 +843,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ### specifiedFinancialIdentity?
 
-> `optional` **specifiedFinancialIdentity**: [`IUneceFinancialIdentity`](IUneceFinancialIdentity.md)[]
+> `optional` **specifiedFinancialIdentity**: [`IUneceFinancialIdentity`](IUneceFinancialIdentity.md)
 
 The financial identity specified for this trade party.
 
@@ -855,7 +855,7 @@ https://vocabulary.uncefact.org/specifiedFinancialIdentity
 
 ### specifiedGovernmentRegistration?
 
-> `optional` **specifiedGovernmentRegistration**: [`IUneceGovernmentRegistration`](IUneceGovernmentRegistration.md)[]
+> `optional` **specifiedGovernmentRegistration**: [`IUneceGovernmentRegistration`](IUneceGovernmentRegistration.md)
 
 A governmental registration specified for this trade party.
 
@@ -867,7 +867,7 @@ https://vocabulary.uncefact.org/specifiedGovernmentRegistration
 
 ### specifiedGuestPerson?
 
-> `optional` **specifiedGuestPerson**: [`IUneceGuestPerson`](IUneceGuestPerson.md)[]
+> `optional` **specifiedGuestPerson**: [`IUneceGuestPerson`](IUneceGuestPerson.md)
 
 A guest person specified by this trade party.
 
@@ -879,7 +879,7 @@ https://vocabulary.uncefact.org/specifiedGuestPerson
 
 ### specifiedLegalOrganization?
 
-> `optional` **specifiedLegalOrganization**: [`IUneceLegalOrganization`](IUneceLegalOrganization.md)[]
+> `optional` **specifiedLegalOrganization**: [`IUneceLegalOrganization`](IUneceLegalOrganization.md)
 
 The legally constituted organization specified for this trade party.
 
@@ -891,7 +891,7 @@ https://vocabulary.uncefact.org/specifiedLegalOrganization
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics related location or place specified for this trade party.
 
@@ -903,7 +903,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedProprietaryIdentity?
 
-> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)
 
 A proprietary identity specified for this trade party.
 
@@ -915,7 +915,7 @@ https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 
 ### specifiedRiskAnalysisResult?
 
-> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
+> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)
 
 A result of a logistics risk analysis calculation specified for this trade party.
 
@@ -927,7 +927,7 @@ https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 
 ### specifiedTaxRegistration?
 
-> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)[]
+> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)
 
 A tax registration specified for this trade party.
 
@@ -939,7 +939,7 @@ https://vocabulary.uncefact.org/specifiedTaxRegistration
 
 ### specifiedTradeProduct?
 
-> `optional` **specifiedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **specifiedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 A product specified for this trade party.
 
@@ -951,7 +951,7 @@ https://vocabulary.uncefact.org/specifiedTradeProduct
 
 ### subcontractorParty?
 
-> `optional` **subcontractorParty**: `IUneceTradeParty`[]
+> `optional` **subcontractorParty**: `IUneceTradeParty`
 
 A subcontractor for this trade party.
 
@@ -975,7 +975,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ### tradePartyLanguageCode?
 
-> `optional` **tradePartyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)[]
+> `optional` **tradePartyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
 
 A code specifying a language for this trade party.
 
@@ -987,7 +987,7 @@ https://vocabulary.uncefact.org/tradePartyLanguageCode
 
 ### uRICommunication?
 
-> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.
 

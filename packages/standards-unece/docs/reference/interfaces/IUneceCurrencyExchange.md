@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An associated document referenced for this trade related currency exchange.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/currencyTargetCurrencyCode
 
 ### document?
 
-> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)
 
 A document referenced for this trade related currency exchange.
 

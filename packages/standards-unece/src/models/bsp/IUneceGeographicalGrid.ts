@@ -29,13 +29,13 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical grid.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic[];
+	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified geographical grid.
 	 * @see https://vocabulary.uncefact.org/associatedLocation
 	 */
-	associatedLocation?: IUneceLogisticsLocation[];
+	associatedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * An axis name, expressed as text, for this geographical grid.
@@ -92,5 +92,5 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * A crop plot specified for this geographical grid.
 	 * @see https://vocabulary.uncefact.org/specifiedPlot
 	 */
-	specifiedPlot?: IUnecePlot[];
+	specifiedPlot?: IUnecePlot;
 }

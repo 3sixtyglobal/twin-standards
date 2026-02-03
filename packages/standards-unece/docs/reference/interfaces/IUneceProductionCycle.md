@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductionProcess?
 
-> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
+> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
 
 A process applicable to this specified production cycle.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### processSpecifiedDocument?
 
-> `optional` **processSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **processSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A process document referenced for this specified production cycle.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/productionYearDateTime
 
 ### relatedBinaryFile?
 
-> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file related to this specified production cycle.
 

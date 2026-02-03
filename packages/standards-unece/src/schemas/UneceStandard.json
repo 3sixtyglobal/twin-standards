@@ -100,52 +100,31 @@
 			"description": "The identifier of the agency for this referenced standard."
 		},
 		"applicableAssessment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssessment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssessment",
 			"description": "A specified assessment applicable to this referenced standard."
 		},
 		"applicableCountry": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountry"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountry",
 			"description": "A country where this referenced standard is applicable."
 		},
 		"applicableDeclaration": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedDeclaration"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedDeclaration",
 			"description": "A specified declaration applicable to this referenced standard."
 		},
 		"applicableLicence": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLicence"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLicence",
 			"description": "A specified licence applicable to this referenced standard."
 		},
 		"applicableMetricCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMetricCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMetricCharacteristic",
 			"description": "A metric characteristic applicable to this referenced standard."
 		},
 		"applicableSpecifiedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
 			"description": "A specified certificate applicable to this referenced standard."
 		},
 		"attachedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file attached to this referenced standard."
 		},
 		"description": {
@@ -169,17 +148,11 @@
 			"description": "The identifier of a part of this referenced standard, such as a section or topic."
 		},
 		"specifiedAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion specified for this referenced standard."
 		},
 		"specifiedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced document specified for this referenced standard."
 		},
 		"typeCode": {

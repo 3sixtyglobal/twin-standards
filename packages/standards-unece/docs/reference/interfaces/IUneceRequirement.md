@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/rule
 
 ### specifiedPaymentTradeSettlement?
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
+> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
 
 The payment trade settlement for this specified requirement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 
 ### specifyingParty?
 
-> `optional` **specifyingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **specifyingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party specifying this specified requirement.
 

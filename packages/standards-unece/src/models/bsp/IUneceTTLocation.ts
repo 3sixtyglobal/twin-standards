@@ -31,7 +31,7 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * A technical characteristic applicable to this TT location.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
 
 	/**
 	 * A textual description of this TT location.
@@ -49,7 +49,7 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * The code specifying the type of TT location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
 
 	/**
 	 * A name, expressed as text, of this TT location.
@@ -61,23 +61,23 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * The party responsible for this TT location.
 	 * @see https://vocabulary.uncefact.org/responsibleTTParty
 	 */
-	responsibleTTParty?: IUneceTTParty[];
+	responsibleTTParty?: IUneceTTParty;
 
 	/**
 	 * An animal holding event specified for this TT location.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 	 */
-	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent[];
+	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent;
 
 	/**
 	 * The geographical area specified for this TT location.
 	 * @see https://vocabulary.uncefact.org/specifiedGeographicalArea
 	 */
-	specifiedGeographicalArea?: IUneceGeographicalArea[];
+	specifiedGeographicalArea?: IUneceGeographicalArea;
 
 	/**
 	 * An animal specified for this TT location.
 	 * @see https://vocabulary.uncefact.org/specifiedTTAnimal
 	 */
-	specifiedTTAnimal?: IUneceTTAnimal[];
+	specifiedTTAnimal?: IUneceTTAnimal;
 }

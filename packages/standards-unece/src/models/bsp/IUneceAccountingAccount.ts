@@ -48,7 +48,7 @@ export interface IUneceAccountingAccount extends IJsonLdNodeObject {
 	 * events.
 	 * @see https://vocabulary.uncefact.org/accountingDocumentSetTriggerCode
 	 */
-	accountingDocumentSetTriggerCode?: UneceAccountingDocumentCodeList[];
+	accountingDocumentSetTriggerCode?: UneceAccountingDocumentCodeList;
 
 	/**
 	 * The cost reference dimension pattern, expressed as text, for this trade accounting account.

@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/sessionId
 
 ### specifiedContext?
 
-> `optional` **specifiedContext**: [`IUneceNegotiationContext`](IUneceNegotiationContext.md)[]
+> `optional` **specifiedContext**: [`IUneceNegotiationContext`](IUneceNegotiationContext.md)
 
 A context specified for this electronic negotiation exchange.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedContext
 
 ### specifiedIssue?
 
-> `optional` **specifiedIssue**: [`IUneceIssue`](IUneceIssue.md)[]
+> `optional` **specifiedIssue**: [`IUneceIssue`](IUneceIssue.md)
 
 A target issue specified for this electronic negotiation exchange.
 

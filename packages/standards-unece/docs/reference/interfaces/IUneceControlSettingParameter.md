@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### requestedRange?
 
-> `optional` **requestedRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **requestedRange**: [`IUneceRange`](IUneceRange.md)
 
 A requested range specified for this control setting parameter.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure value for this control setting parameter.
 

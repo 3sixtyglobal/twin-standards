@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### statusValueMeasure?
 
-> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the status value for this observation objective parameter.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this observation objective parameter.
 

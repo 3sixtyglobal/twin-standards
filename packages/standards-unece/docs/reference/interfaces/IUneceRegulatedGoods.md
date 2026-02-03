@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableDangerousGoods?
 
-> `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
+> `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)
 
 Transport dangerous goods information applicable to these logistics regulated goods.
 

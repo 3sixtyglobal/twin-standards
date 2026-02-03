@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this product batch certification."
 		},
 		"assertion": {
@@ -111,10 +108,7 @@
 			"description": "The code specifying the assertion for this product batch certification, such as a claim that a product is free from gluten."
 		},
 		"relatedLocation": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLocation"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLocation",
 			"description": "A referenced location related to this product batch certification."
 		},
 		"responsibleAgency": {
@@ -122,10 +116,7 @@
 			"description": "An agency, expressed as text, responsible for this product batch certification."
 		},
 		"specifiedAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion specified for this product batch certification."
 		},
 		"standard": {

@@ -62,13 +62,13 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The approver signature that authenticates this exchanged document.
 	 * @see https://vocabulary.uncefact.org/approverSignatoryAuthentication
 	 */
-	approverSignatoryAuthentication?: IUneceAuthentication[];
+	approverSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * A binary file attached to this exchanged document.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A binary object that is attached or otherwise appended to this exchanged document.
@@ -80,7 +80,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The buyer signature that authenticates this exchanged document.
 	 * @see https://vocabulary.uncefact.org/buyerSignatoryAuthentication
 	 */
-	buyerSignatoryAuthentication?: IUneceAuthentication[];
+	buyerSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The date, time, date time, or other date time value of a cancellation of the exchanged document.
@@ -98,7 +98,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * A contractual clause of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/contractualClause
 	 */
-	contractualClause?: IUneceClause[];
+	contractualClause?: IUneceClause;
 
 	/**
 	 * The indication of whether or not this exchanged document has specific control requirements.
@@ -153,19 +153,19 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * document type.
 	 * @see https://vocabulary.uncefact.org/documentResponseDocumentTypeCode
 	 */
-	documentResponseDocumentTypeCode?: UneceDocumentCodeList[];
+	documentResponseDocumentTypeCode?: UneceDocumentCodeList;
 
 	/**
 	 * The code specifying the status of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/documentStatusCode
 	 */
-	documentStatusCode?: UneceDocumentStatusCodeList[];
+	documentStatusCode?: UneceDocumentStatusCodeList;
 
 	/**
 	 * The code specifying the type of exchanged document.
 	 * @see https://vocabulary.uncefact.org/documentTypeCode
 	 */
-	documentTypeCode?: UneceDocumentCodeList[];
+	documentTypeCode?: UneceDocumentCodeList;
 
 	/**
 	 * The specified period within which this exchanged document is effective.
@@ -189,13 +189,13 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * A code specifying a type of response requested for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/exchangedDocumentResponseTypeCode
 	 */
-	exchangedDocumentResponseTypeCode?: UneceResponseTypeCodeList[];
+	exchangedDocumentResponseTypeCode?: UneceResponseTypeCodeList;
 
 	/**
 	 * The first or primary signature that authenticates this exchanged document.
 	 * @see https://vocabulary.uncefact.org/firstSignatoryAuthentication
 	 */
-	firstSignatoryAuthentication?: IUneceAuthentication[];
+	firstSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The date, time, date time or other date time value when the first version of this exchanged document was issued.
@@ -208,7 +208,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * indicating where appropriate the authentication party.
 	 * @see https://vocabulary.uncefact.org/fourthSignatoryAuthentication
 	 */
-	fourthSignatoryAuthentication?: IUneceAuthentication[];
+	fourthSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The unique global identifier for this exchanged document.
@@ -232,7 +232,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * A note included in this exchanged document.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote[];
+	includedNote?: IUneceNote;
 
 	/**
 	 * Information, expressed as text, for this exchanged document.
@@ -250,13 +250,13 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The location where this exchanged document has been issued.
 	 * @see https://vocabulary.uncefact.org/issueLogisticsLocation
 	 */
-	issueLogisticsLocation?: IUneceLogisticsLocation[];
+	issueLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The party that issues this exchanged document.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty[];
+	issuerParty?: IUneceTradeParty;
 
 	/**
 	 * The unique identifier of a specific item in this exchanged document.
@@ -280,19 +280,19 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The number of line items in this exchanged document.
 	 * @see https://vocabulary.uncefact.org/lineItemQuantity
 	 */
-	lineItemQuantity?: IUneceQuantityType[];
+	lineItemQuantity?: IUneceQuantityType;
 
 	/**
 	 * The location where this exchanged document has been lodged.
 	 * @see https://vocabulary.uncefact.org/lodgementLocation
 	 */
-	lodgementLocation?: IUneceLogisticsLocation[];
+	lodgementLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A code specifying the purpose of this exchanged document, such as request or reminder.
 	 * @see https://vocabulary.uncefact.org/messageFunctionPurposeCode
 	 */
-	messageFunctionPurposeCode?: UneceMessageFunctionCodeList[];
+	messageFunctionPurposeCode?: UneceMessageFunctionCodeList;
 
 	/**
 	 * A name, expressed as text, of this exchanged document.
@@ -323,7 +323,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The party that owns this exchanged document.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty[];
+	ownerParty?: IUneceTradeParty;
 
 	/**
 	 * The unique identifier of a specific page of this exchanged document.
@@ -335,7 +335,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * A platform provider party specified for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/platformProviderParty
 	 */
-	platformProviderParty?: IUneceTradeParty[];
+	platformProviderParty?: IUneceTradeParty;
 
 	/**
 	 * The unique identifier of the previous revision of this exchanged document.
@@ -359,13 +359,13 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * A trade party that receives this exchanged document.
 	 * @see https://vocabulary.uncefact.org/recipientTradeParty
 	 */
-	recipientTradeParty?: IUneceTradeParty[];
+	recipientTradeParty?: IUneceTradeParty;
 
 	/**
 	 * Other documents referenced by this exchanged document.
 	 * @see https://vocabulary.uncefact.org/referenceDocument
 	 */
-	referenceDocument?: IUneceDocument[];
+	referenceDocument?: IUneceDocument;
 
 	/**
 	 * A date, time, date time, or other date time value of a rejection response of the exchanged document.
@@ -408,7 +408,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * indicating where appropriate the authentication party.
 	 * @see https://vocabulary.uncefact.org/secondSignatoryAuthentication
 	 */
-	secondSignatoryAuthentication?: IUneceAuthentication[];
+	secondSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * A unique sender assigned identifier for this exchanged document.
@@ -420,13 +420,13 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * The party that sends this exchanged document.
 	 * @see https://vocabulary.uncefact.org/senderTradeParty
 	 */
-	senderTradeParty?: IUneceTradeParty[];
+	senderTradeParty?: IUneceTradeParty;
 
 	/**
 	 * A signatory document authentication for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/signatoryAuthentication
 	 */
-	signatoryAuthentication?: IUneceAuthentication[];
+	signatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The date, time, date time or other date time value for the formal submission of this exchanged document to a receiver by
@@ -458,7 +458,7 @@ export interface IUneceExchangedDocument extends IJsonLdNodeObject {
 	 * indicating where appropriate the authentication party.
 	 * @see https://vocabulary.uncefact.org/thirdSignatoryAuthentication
 	 */
-	thirdSignatoryAuthentication?: IUneceAuthentication[];
+	thirdSignatoryAuthentication?: IUneceAuthentication;
 
 	/**
 	 * The total number of pages for this exchanged document.

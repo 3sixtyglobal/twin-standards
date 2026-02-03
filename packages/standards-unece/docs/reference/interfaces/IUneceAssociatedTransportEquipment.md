@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### affixedSeal?
 
-> `optional` **affixedSeal**: [`IUneceSeal`](IUneceSeal.md)[]
+> `optional` **affixedSeal**: [`IUneceSeal`](IUneceSeal.md)
 
 A logistics seal affixed to this piece of associated transport equipment.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ### containedConsignment?
 
-> `optional` **containedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
+> `optional` **containedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
 
 A supply chain consignment contained in this piece of associated transport equipment.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/containedConsignment
 
 ### goodsItemUnitQuantity?
 
-> `optional` **goodsItemUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **goodsItemUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A quantity of goods items in this associated transport equipment.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/goodsItemUnitQuantity
 
 ### grossGoodsVolumeMeasure?
 
-> `optional` **grossGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **grossGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 A measure of the gross goods volume of this associated transport equipment.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/grossGoodsVolumeMeasure
 
 ### grossGoodsWeightMeasure?
 
-> `optional` **grossGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **grossGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 A measure of the gross goods weight of this associated transport equipment.
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ### grossWeightMeasure?
 
-> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the gross weight (mass) of this piece of associated transport equipment which is the weight (mass)
 including loaded goods, packing and transport equipment.
@@ -173,7 +173,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### loadedDangerousGoods?
 
-> `optional` **loadedDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
+> `optional` **loadedDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)
 
 Dangerous goods loaded into or onto this piece of associated transport equipment.
 
@@ -197,7 +197,7 @@ https://vocabulary.uncefact.org/loadedPackageQuantity
 
 ### netGoodsVolumeMeasure?
 
-> `optional` **netGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **netGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 A measure of the net goods volume of this associated transport equipment.
 
@@ -209,7 +209,7 @@ https://vocabulary.uncefact.org/netGoodsVolumeMeasure
 
 ### netGoodsWeightMeasure?
 
-> `optional` **netGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **netGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 A measure of the net goods weight of this associated transport equipment.
 
@@ -221,7 +221,7 @@ https://vocabulary.uncefact.org/netGoodsWeightMeasure
 
 ### registrationCountry?
 
-> `optional` **registrationCountry**: [`IUneceCountry`](IUneceCountry.md)[]
+> `optional` **registrationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
 A registration country for this associated transport equipment.
 
@@ -233,7 +233,7 @@ https://vocabulary.uncefact.org/registrationCountry
 
 ### reportableQuantity?
 
-> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A reportable quantity for this associated transport equipment.
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/reportableQuantity
 
 ### sealQuantity?
 
-> `optional` **sealQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **sealQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A quantity of seals for this associated piece of transport equipment.
 
@@ -282,7 +282,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### settingTemperature?
 
-> `optional` **settingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
+> `optional` **settingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)
 
 A temperature setting for this piece of associated transport equipment, such as storage temperature or operational
 temperature.
@@ -320,7 +320,7 @@ https://vocabulary.uncefact.org/tareWeightMeasure
 
 ### transportEquipmentCategoryCode?
 
-> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
+> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)
 
 A code specifying a category of this piece of associated transport equipment.
 
@@ -344,7 +344,7 @@ https://vocabulary.uncefact.org/transportEquipmentSizeTypeCharacteristicCode
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this type of associated transport equipment.
 
@@ -368,7 +368,7 @@ https://vocabulary.uncefact.org/usedCapacityCode
 
 ### verifiedGrossWeightMeasure?
 
-> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 A measure of the verified gross weight (mass) of this piece of associated transport equipment which is the weight (mass)
 including loaded goods, packing and transport equipment.
@@ -381,7 +381,7 @@ https://vocabulary.uncefact.org/verifiedGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 A measure of the net weight of this associated transport equipment.
 

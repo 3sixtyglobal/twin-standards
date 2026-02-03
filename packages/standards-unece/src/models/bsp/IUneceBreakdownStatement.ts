@@ -31,13 +31,13 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * A specified binary file referenced by this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/binaryFile
 	 */
-	binaryFile?: IUneceBinaryFile[];
+	binaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A changed recorded status for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/changedStatus
 	 */
-	changedStatus?: IUneceRecordedStatus[];
+	changedStatus?: IUneceRecordedStatus;
 
 	/**
 	 * A comment, expressed as text, for this valuation breakdown statement.
@@ -55,7 +55,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * A specified binary file used to create this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/creationBinaryFile
 	 */
-	creationBinaryFile?: IUneceBinaryFile[];
+	creationBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The date, time, date time, or other date time value of the creation of this valuation breakdown statement.
@@ -67,7 +67,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * The code specifying the default currency for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/defaultCurrencyCode
 	 */
-	defaultCurrencyCode?: UneceCurrencyCodeList[];
+	defaultCurrencyCode?: UneceCurrencyCodeList;
 
 	/**
 	 * The code specifying the default language for this valuation breakdown statement.
@@ -91,13 +91,13 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * A basic work item in this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/itemBasicWorkItem
 	 */
-	itemBasicWorkItem?: IUneceBasicWorkItem[];
+	itemBasicWorkItem?: IUneceBasicWorkItem;
 
 	/**
 	 * A grouped work item in this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/itemGroupedWorkItem
 	 */
-	itemGroupedWorkItem?: IUneceGroupedWorkItem[];
+	itemGroupedWorkItem?: IUneceGroupedWorkItem;
 
 	/**
 	 * A unique identifier of a method of measurement for this valuation breakdown statement.
@@ -121,7 +121,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * A specified binary file used to read this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/readerBinaryFile
 	 */
-	readerBinaryFile?: IUneceBinaryFile[];
+	readerBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A code specifying the requested action for this valuation breakdown statement.
@@ -133,7 +133,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * A total calculated price for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/totalPrice
 	 */
-	totalPrice?: IUneceCalculatedPrice[];
+	totalPrice?: IUneceCalculatedPrice;
 
 	/**
 	 * A code specifying the type of valuation breakdown statement.

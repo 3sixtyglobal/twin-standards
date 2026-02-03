@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableInspectionResult": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceInspectionResult"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceInspectionResult",
 			"description": "A specified inspection result applicable to this sustainability characteristic."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this sustainability characteristic."
 		},
 		"categoryCode": {
@@ -126,10 +120,7 @@
 			"description": "An identifier of this sustainability characteristic."
 		},
 		"maximumValueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of a maximum value for this sustainability characteristic."
 		},
 		"measurementMethodCode": {
@@ -137,10 +128,7 @@
 			"description": "The code specifying the measurement method for this sustainability characteristic."
 		},
 		"minimumValueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of a minimum value for this sustainability characteristic."
 		},
 		"shareableIndicator": {
@@ -148,10 +136,7 @@
 			"description": "The indication of whether or not this sustainability characteristic is shareable."
 		},
 		"specifiedSupplyChainEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
 			"description": "A supply chain event specified for this sustainability characteristic."
 		},
 		"subordinateCategoryCode": {
@@ -175,17 +160,11 @@
 			"description": "A value, expressed as text, for this sustainability characteristic."
 		},
 		"valueAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The value, expressed as an amount, for this sustainability characteristic."
 		},
 		"valueBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A value, expressed in a binary file, for this sustainability characteristic."
 		},
 		"valueDateTime": {
@@ -197,10 +176,7 @@
 			"description": "The value, expressed as an indicator, for this sustainability characteristic."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measure of a value for this sustainability characteristic."
 		},
 		"valueNumeric": {
@@ -208,31 +184,19 @@
 			"description": "The value, expressed as a number, for this sustainability characteristic."
 		},
 		"valueParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter specified for the value of this sustainability characteristic."
 		},
 		"valuePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
 			"description": "A period specified for the value of this sustainability characteristic."
 		},
 		"valueRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A range specified for the value of this sustainability characteristic."
 		},
 		"valueTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "A tolerance specified for the value of this sustainability characteristic."
 		}
 	},

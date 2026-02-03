@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### scopeReference?
 
-> `optional` **scopeReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **scopeReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
 
 A reference to the scope of this XHE context.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/scopeReference
 
 ### specifiedParameter?
 
-> `optional` **specifiedParameter**: [`IUneceXHEParameter`](IUneceXHEParameter.md)[]
+> `optional` **specifiedParameter**: [`IUneceXHEParameter`](IUneceXHEParameter.md)
 
 A parameter specified for this XHE context.
 

@@ -26,13 +26,13 @@ export interface IUneceWorkItemDimension extends IJsonLdNodeObject {
 	 * A work item component dimension for this work item dimension.
 	 * @see https://vocabulary.uncefact.org/componentDimension
 	 */
-	componentDimension?: IUneceWorkItemDimension[];
+	componentDimension?: IUneceWorkItemDimension;
 
 	/**
 	 * A work item component dimension for this work item dimension.
 	 * @see https://vocabulary.uncefact.org/componentWorkItemDimension
 	 */
-	componentWorkItemDimension?: IUneceWorkItemDimension[];
+	componentWorkItemDimension?: IUneceWorkItemDimension;
 
 	/**
 	 * The code specifying the contractual language for this work item dimension.
@@ -56,7 +56,7 @@ export interface IUneceWorkItemDimension extends IJsonLdNodeObject {
 	 * The measured value for this work item dimension.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of this work item dimension.

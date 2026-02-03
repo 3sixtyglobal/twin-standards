@@ -29,7 +29,7 @@ export interface IUneceProductBatchCertification extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this product batch certification.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * An assertion, expressed as text, for this product batch certification, such as a claim that this product is free from
@@ -49,7 +49,7 @@ export interface IUneceProductBatchCertification extends IJsonLdNodeObject {
 	 * A referenced location related to this product batch certification.
 	 * @see https://vocabulary.uncefact.org/relatedLocation
 	 */
-	relatedLocation?: IUneceLocation[];
+	relatedLocation?: IUneceLocation;
 
 	/**
 	 * An agency, expressed as text, responsible for this product batch certification.
@@ -61,7 +61,7 @@ export interface IUneceProductBatchCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this product batch certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion[];
+	specifiedAssertion?: IUneceAssertion;
 
 	/**
 	 * A standard, expressed as text, used for this product batch certification.

@@ -32,13 +32,13 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * Instructions applicable to this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/applicablePackagingInstructions
 	 */
-	applicablePackagingInstructions?: IUnecePackagingInstructions[];
+	applicablePackagingInstructions?: IUnecePackagingInstructions;
 
 	/**
 	 * A measure of a capacity of this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/capacityMeasure
 	 */
-	capacityMeasure?: IUneceMeasureType[];
+	capacityMeasure?: IUneceMeasureType;
 
 	/**
 	 * The indication whether or not this logistics packaging has a certification.
@@ -56,13 +56,13 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A package contained in this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/containedPackage
 	 */
-	containedPackage?: IUnecePackage[];
+	containedPackage?: IUnecePackage;
 
 	/**
 	 * A number of content layers in this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/contentLayerQuantity
 	 */
-	contentLayerQuantity?: IUneceQuantityType[];
+	contentLayerQuantity?: IUneceQuantityType;
 
 	/**
 	 * A textual description of this logistics packaging.
@@ -104,7 +104,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A linear dimension or a set of linear dimensions of this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension[];
+	linearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The code specifying the level of this logistics packaging.
@@ -116,7 +116,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * The number of units of this type of logistics packaging which can be stacked on top of each other.
 	 * @see https://vocabulary.uncefact.org/maximumStackabilityQuantity
 	 */
-	maximumStackabilityQuantity?: IUneceQuantityType[];
+	maximumStackabilityQuantity?: IUneceQuantityType;
 
 	/**
 	 * The textual description of the method of logistics packaging, such as hermetically sealed.
@@ -146,19 +146,19 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A marking specified for this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/specifiedMarking
 	 */
-	specifiedMarking?: IUneceMarking[];
+	specifiedMarking?: IUneceMarking;
 
 	/**
 	 * A total number of units contained in this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/totalUnitQuantity
 	 */
-	totalUnitQuantity?: IUneceQuantityType[];
+	totalUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of units of this type of logistics packaging which can be stacked vertically for transport operations.
 	 * @see https://vocabulary.uncefact.org/transportMaximumStackabilityQuantity
 	 */
-	transportMaximumStackabilityQuantity?: IUneceQuantityType[];
+	transportMaximumStackabilityQuantity?: IUneceQuantityType;
 
 	/**
 	 * A code specifying a type of logistics packaging.
@@ -170,11 +170,11 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A measure of a weight (mass) of this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measure of load bearing capability of this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/weightUnitLoadBearingCapabilityMeasure
 	 */
-	weightUnitLoadBearingCapabilityMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitLoadBearingCapabilityMeasure?: IUneceWeightUnitMeasureType;
 }

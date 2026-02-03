@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualDiscountAmount?
 
-> `optional` **actualDiscountAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualDiscountAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of the actual discount in these trade payment discount terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualDiscountAmount
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value used as a basis to calculate the discount in these trade payment discount terms.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/basisDateTime
 
 ### basisPeriodMeasure?
 
-> `optional` **basisPeriodMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **basisPeriodMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the basis period for these trade payment discount terms.
 

@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A binary file attached to this specified inspection.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/description
 
 ### executionParty?
 
-> `optional` **executionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **executionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party executing this specified inspection.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/executionParty
 
 ### executionPerson?
 
-> `optional` **executionPerson**: [`IUneceInspectionPerson`](IUneceInspectionPerson.md)[]
+> `optional` **executionPerson**: [`IUneceInspectionPerson`](IUneceInspectionPerson.md)
 
 The inspector executing this specified inspection.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/outsourcedIndicator
 
 ### reportedInspectionResult?
 
-> `optional` **reportedInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)[]
+> `optional` **reportedInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)
 
 The result reported for this specified inspection.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/reportedInspectionResult
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document for this specified inspection.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
 An inspection event for this specified inspection.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ### specifiedInspectionStatus?
 
-> `optional` **specifiedInspectionStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)[]
+> `optional` **specifiedInspectionStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)
 
 The status for this specified inspection.
 

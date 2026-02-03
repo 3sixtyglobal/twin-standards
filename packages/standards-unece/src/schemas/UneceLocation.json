@@ -96,38 +96,23 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableSpecifiedInspection": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedInspection"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedInspection",
 			"description": "A specified inspection applicable to this referenced location."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this referenced location."
 		},
 		"applicableSustainabilityInspection": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityInspection"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityInspection",
 			"description": "A sustainability inspection applicable to this referenced location."
 		},
 		"appliedAgriculturalApplication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
 			"description": "A specified agricultural application applied to this referenced location."
 		},
 		"associatedGeographicalFeature": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
 			"description": "A geographical feature associated with this referenced location."
 		},
 		"countryName": {
@@ -139,10 +124,7 @@
 			"description": "The identifier of the country sub-division for this referenced location."
 		},
 		"definedCoordinateReferenceSystem": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCoordinateReferenceSystem"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCoordinateReferenceSystem",
 			"description": "The Coordinate System (CS) engineering coordinate reference system defined for this referenced location."
 		},
 		"description": {
@@ -162,10 +144,7 @@
 			"description": "The polygon included for this referenced location."
 		},
 		"locationCountryId": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCountryId"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCountryId",
 			"description": "The identifier of the country for this referenced location."
 		},
 		"locationReferenceTypeCode": {
@@ -181,73 +160,43 @@
 			"description": "A name, expressed as text, of this referenced location."
 		},
 		"physicalGeographicalFeature": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
 			"description": "The physical geographical feature specified for this referenced location."
 		},
 		"physicalGeographicalPoint": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalPoint"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalPoint",
 			"description": "The physical geographical point specified for this location."
 		},
 		"postalAddress": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
 			"description": "The postal trade address for this referenced location."
 		},
 		"relatedProductionUnit": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionUnit"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionUnit",
 			"description": "A facility production unit related to this referenced location."
 		},
 		"specifiedAssertion": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAssertion"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAssertion",
 			"description": "A sustainability assertion specified for this referenced location."
 		},
 		"specifiedFacility": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionFacility"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionFacility",
 			"description": "A production facility specified for this referenced location."
 		},
 		"specifiedInventory": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory",
 			"description": "Supply chain inventory specified for this referenced location."
 		},
 		"specifiedLaboratoryObservationReference": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceLaboratoryObservationReference"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceLaboratoryObservationReference",
 			"description": "A laboratory observation reference specified for this referenced location."
 		},
 		"specifiedSupplyChainEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
 			"description": "A supply chain event specified for this referenced location."
 		},
 		"specifiedTradeParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A trade party specified for this referenced location."
 		},
 		"uTCOffsetNumeric": {

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/customizationId
 
 ### decryptionKeyReference?
 
-> `optional` **decryptionKeyReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **decryptionKeyReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
 
 The reference to the decryption key for this XHE payload instance.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/decryptionKeyReference
 
 ### decryptionReference?
 
-> `optional` **decryptionReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **decryptionReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
 
 The reference to the decryption for this XHE payload instance.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/description
 
 ### documentTypeCode?
 
-> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
+> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
 
 The code specifying the document type for this XHE payload instance.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### payloadReference?
 
-> `optional` **payloadReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **payloadReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
 
 The reference to the payload for this XHE payload instance.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/profileId
 
 ### relevantReference?
 
-> `optional` **relevantReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **relevantReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
 
 A reference relevant to this XHE payload instance.
 

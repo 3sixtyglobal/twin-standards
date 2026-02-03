@@ -26,8 +26,10 @@ The reduced version is simplified to lower the processing requirements in the co
 Steps:
 
 * Open `CCL 23B_01JAN24.csv` in Excel
-* Copy and paste the required columns [`objectClassTerm`, `propertyTerm`, `representationTerm`, `associatedObjectClass`, `minOccurs`, `maxOccurs`] in to a new sheet
+* Switch to the `Reference BIE` tab
+* Copy and paste the required columns [`Object Class Term`, `Property Term`, `Representation Term`, `Associated Object Class`, `Occurrence Min`, `Occurrence Max`] in to a new sheet
 * Export new sheet as a UTF-8 comma delimited CSV to `unuece-reduced.csv`
+* Remove the header lines 2 to 7
 
 ## Automation
 

@@ -39,7 +39,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A reference associated with this supply chain event.
 	 * @see https://vocabulary.uncefact.org/associatedReference
 	 */
-	associatedReference?: IUneceSupplyChainReference[];
+	associatedReference?: IUneceSupplyChainReference;
 
 	/**
 	 * A textual description of this supply chain event.
@@ -57,7 +57,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A discrete period specified for this supply chain event.
 	 * @see https://vocabulary.uncefact.org/discretePeriod
 	 */
-	discretePeriod?: IUneceSpecifiedPeriod[];
+	discretePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The due date, time, date time, or other date time value of this supply chain event.
@@ -99,31 +99,31 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * The referenced location for the occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/occurrenceLocation
 	 */
-	occurrenceLocation?: IUneceLocation[];
+	occurrenceLocation?: IUneceLocation;
 
 	/**
 	 * A logistics location where this supply chain event occurs.
 	 * @see https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 	 */
-	occurrenceLogisticsLocation?: IUneceLogisticsLocation[];
+	occurrenceLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A specified period of time during which this supply chain event occurs.
 	 * @see https://vocabulary.uncefact.org/occurrencePeriod
 	 */
-	occurrencePeriod?: IUneceSpecifiedPeriod[];
+	occurrencePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A sustainability characteristic related to this supply chain event.
 	 * @see https://vocabulary.uncefact.org/relatedSustainabilityCharacteristic
 	 */
-	relatedSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	relatedSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A technical characteristic related to this supply chain event.
 	 * @see https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 	 */
-	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
+	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
 
 	/**
 	 * A time value of an occurrence of this supply chain event.
@@ -141,5 +141,5 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A number of units for this supply chain event.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 }

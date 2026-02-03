@@ -28,19 +28,19 @@ export interface IUneceHazardousMaterial extends IJsonLdNodeObject {
 	 * A product certificate applicable to this toxicological hazardous material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A product characteristic applicable to this toxicological hazardous material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic[];
+	applicableProductCharacteristic?: IUneceProductCharacteristic;
 
 	/**
 	 * A sustainability characteristic applicable to this toxicological hazardous material.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * The textual description of the biological severity of this toxicological hazardous material.

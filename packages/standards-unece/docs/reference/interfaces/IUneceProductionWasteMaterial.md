@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate applicable to this production waste material.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableProductionWasteRecoveryDisposalProcess?
 
-> `optional` **applicableProductionWasteRecoveryDisposalProcess**: [`IUneceProductionWasteRecoveryDisposalProcess`](IUneceProductionWasteRecoveryDisposalProcess.md)[]
+> `optional` **applicableProductionWasteRecoveryDisposalProcess**: [`IUneceProductionWasteRecoveryDisposalProcess`](IUneceProductionWasteRecoveryDisposalProcess.md)
 
 A production waste recovery disposal process applicable to this production waste material.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableProductionWasteRecoveryDisposalProcess
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this production waste material.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### includedProductionWasteMaterialComponent?
 
-> `optional` **includedProductionWasteMaterialComponent**: [`IUneceProductionWasteMaterialComponent`](IUneceProductionWasteMaterialComponent.md)[]
+> `optional` **includedProductionWasteMaterialComponent**: [`IUneceProductionWasteMaterialComponent`](IUneceProductionWasteMaterialComponent.md)
 
 A production waste material component included in this production waste material.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### volumeMeasure?
 
-> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the volume of this production waste material.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the weight of this production waste material.
 

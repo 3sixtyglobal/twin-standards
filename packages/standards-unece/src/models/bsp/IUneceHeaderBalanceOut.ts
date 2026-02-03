@@ -26,13 +26,13 @@ export interface IUneceHeaderBalanceOut extends IJsonLdNodeObject {
 	 * A balance out breakdown of this header balance out.
 	 * @see https://vocabulary.uncefact.org/breakdownBalanceOut
 	 */
-	breakdownBalanceOut?: IUneceHeaderBalanceOut[];
+	breakdownBalanceOut?: IUneceHeaderBalanceOut;
 
 	/**
 	 * A monetary value calculated for this header balance out.
 	 * @see https://vocabulary.uncefact.org/calculatedAmount
 	 */
-	calculatedAmount?: IUneceAmountType[];
+	calculatedAmount?: IUneceAmountType;
 
 	/**
 	 * A textual description of this header balance out.

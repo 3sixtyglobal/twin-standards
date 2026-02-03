@@ -29,7 +29,7 @@ export interface IUneceRadioactiveIsotope extends IJsonLdNodeObject {
 	 * A measure of the activity level of this specified radioactive isotope.
 	 * @see https://vocabulary.uncefact.org/activityLevelMeasure
 	 */
-	activityLevelMeasure?: IUneceMeasureType[];
+	activityLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * A name, expressed as text, for this specified radioactive isotope, such as C14.
@@ -47,11 +47,11 @@ export interface IUneceRadioactiveIsotope extends IJsonLdNodeObject {
 	 * The radionuclide details specified for this radioactive isotope.
 	 * @see https://vocabulary.uncefact.org/specifiedRadionuclide
 	 */
-	specifiedRadionuclide?: IUneceRadionuclide[];
+	specifiedRadionuclide?: IUneceRadionuclide;
 
 	/**
 	 * A measure of the activity level of this specified radioactive isotope.
 	 * @see https://vocabulary.uncefact.org/unitActivityLevelMeasure
 	 */
-	unitActivityLevelMeasure?: IUneceUnitMeasureType[];
+	unitActivityLevelMeasure?: IUneceUnitMeasureType;
 }

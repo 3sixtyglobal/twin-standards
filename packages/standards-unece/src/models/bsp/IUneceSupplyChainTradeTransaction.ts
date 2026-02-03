@@ -40,50 +40,50 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms.
 	 * @see https://vocabulary.uncefact.org/applicableHeaderTradeAgreement
 	 */
-	applicableHeaderTradeAgreement?: IUneceHeaderTradeAgreement[];
+	applicableHeaderTradeAgreement?: IUneceHeaderTradeAgreement;
 
 	/**
 	 * A trade delivery header applicable to this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/applicableHeaderTradeDelivery
 	 */
-	applicableHeaderTradeDelivery?: IUneceHeaderTradeDelivery[];
+	applicableHeaderTradeDelivery?: IUneceHeaderTradeDelivery;
 
 	/**
 	 * A period applicable to this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod[];
+	applicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The trade settlement header applicable to this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/applicableTradeSettlement
 	 */
-	applicableTradeSettlement?: IUneceHeaderTradeSettlement[];
+	applicableTradeSettlement?: IUneceHeaderTradeSettlement;
 
 	/**
 	 * A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or
 	 * packing list.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument[];
+	associatedDocument?: IUneceDocument;
 
 	/**
 	 * The document line associated with this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/associatedDocumentLineDocument
 	 */
-	associatedDocumentLineDocument?: IUneceDocumentLineDocument[];
+	associatedDocumentLineDocument?: IUneceDocumentLineDocument;
 
 	/**
 	 * The financing request result document associated with this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/associatedFinancingRequestResultDocument
 	 */
-	associatedFinancingRequestResultDocument?: IUneceFinancingRequestResultDocument[];
+	associatedFinancingRequestResultDocument?: IUneceFinancingRequestResultDocument;
 
 	/**
 	 * A referenced standard associated with this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/associatedStandard
 	 */
-	associatedStandard?: IUneceStandard[];
+	associatedStandard?: IUneceStandard;
 
 	/**
 	 * The Uniform Resource Locator (URL) of the web location of the document for this supply chain trade transaction.
@@ -101,31 +101,31 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * Delivery scheduling details included in a defined forecast period for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedDeliverySchedule
 	 */
-	includedDeliverySchedule?: IUneceDeliverySchedule[];
+	includedDeliverySchedule?: IUneceDeliverySchedule;
 
 	/**
 	 * A note included in this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote[];
+	includedNote?: IUneceNote;
 
 	/**
 	 * A product group included in this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedProductGroup
 	 */
-	includedProductGroup?: IUneceProductGroup[];
+	includedProductGroup?: IUneceProductGroup;
 
 	/**
 	 * A trade line item included in this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 	 */
-	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem[];
+	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem;
 
 	/**
 	 * A trade product included in this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/includedTradeProduct
 	 */
-	includedTradeProduct?: IUneceTradeProduct[];
+	includedTradeProduct?: IUneceTradeProduct;
 
 	/**
 	 * Information, expressed as text, for this supply chain trade transaction.
@@ -143,7 +143,7 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * The number of line items for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/lineItemQuantity
 	 */
-	lineItemQuantity?: IUneceQuantityType[];
+	lineItemQuantity?: IUneceQuantityType;
 
 	/**
 	 * The unique identifier assigned by the sales agent to identify this supply chain trade transaction.
@@ -168,7 +168,7 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * A logistics package specified for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/specifiedPackage
 	 */
-	specifiedPackage?: IUnecePackage[];
+	specifiedPackage?: IUnecePackage;
 
 	/**
 	 * The code specifying the type of supply chain trade transaction.

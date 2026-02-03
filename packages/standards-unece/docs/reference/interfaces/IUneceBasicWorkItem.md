@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualComplexDescription?
 
-> `optional` **actualComplexDescription**: [`IUneceComplexDescription`](IUneceComplexDescription.md)[]
+> `optional` **actualComplexDescription**: [`IUneceComplexDescription`](IUneceComplexDescription.md)
 
 An actual complex description for this basic work item.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ### binaryFile?
 
-> `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
 A specified binary file referenced by this basic work item.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/binaryFile
 
 ### changedStatus?
 
-> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
+> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)
 
 A changed recorded status for this basic work item.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/index
 
 ### itemBasicWorkItem?
 
-> `optional` **itemBasicWorkItem**: `IUneceBasicWorkItem`[]
+> `optional` **itemBasicWorkItem**: `IUneceBasicWorkItem`
 
 A basic work item in this basic work item.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ### totalPrice?
 
-> `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
+> `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)
 
 A total calculated price for this basic work item.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/totalQuantity
 
 ### totalQuantityAnalysis?
 
-> `optional` **totalQuantityAnalysis**: [`IUneceQuantityAnalysis`](IUneceQuantityAnalysis.md)[]
+> `optional` **totalQuantityAnalysis**: [`IUneceQuantityAnalysis`](IUneceQuantityAnalysis.md)
 
 An analysis of the total quantity for this basic work item.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### unitPrice?
 
-> `optional` **unitPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
+> `optional` **unitPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)
 
 A unit calculated price for this basic work item.
 

@@ -47,7 +47,7 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * The average demand quantity for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/averageDemandQuantity
 	 */
-	averageDemandQuantity?: IUneceQuantityType[];
+	averageDemandQuantity?: IUneceQuantityType;
 
 	/**
 	 * The date, time, date time, or other date time of the average duration for this supply chain inventory.
@@ -65,49 +65,49 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * A disposition document referenced in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/dispositionDocument
 	 */
-	dispositionDocument?: IUneceDocument[];
+	dispositionDocument?: IUneceDocument;
 
 	/**
 	 * A product batch included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedBatch
 	 */
-	includedBatch?: IUneceProductBatch[];
+	includedBatch?: IUneceProductBatch;
 
 	/**
 	 * Material included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedMaterial
 	 */
-	includedMaterial?: IUneceSpecifiedMaterial[];
+	includedMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * A product included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedTradeProduct
 	 */
-	includedTradeProduct?: IUneceTradeProduct[];
+	includedTradeProduct?: IUneceTradeProduct;
 
 	/**
 	 * The measure of the maximum stock level for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/maximumStockLevelMeasure
 	 */
-	maximumStockLevelMeasure?: IUneceMeasureType[];
+	maximumStockLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * The maximum stock quantity in this CI supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/maximumStockQuantity
 	 */
-	maximumStockQuantity?: IUneceQuantityType[];
+	maximumStockQuantity?: IUneceQuantityType;
 
 	/**
 	 * The measure of the minimum stock level for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/minimumStockLevelMeasure
 	 */
-	minimumStockLevelMeasure?: IUneceMeasureType[];
+	minimumStockLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * The minimum stock quantity in this CI supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/minimumStockQuantity
 	 */
-	minimumStockQuantity?: IUneceQuantityType[];
+	minimumStockQuantity?: IUneceQuantityType;
 
 	/**
 	 * The date, time, date time, or other date time value of the planned stock calculation of this supply chain inventory.
@@ -119,31 +119,31 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * The planned stock quantity for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/plannedStockQuantity
 	 */
-	plannedStockQuantity?: IUneceQuantityType[];
+	plannedStockQuantity?: IUneceQuantityType;
 
 	/**
 	 * A note containing a remark for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/remarkNote
 	 */
-	remarkNote?: IUneceNote[];
+	remarkNote?: IUneceNote;
 
 	/**
 	 * The location specified for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
+	specifiedLogisticsLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A supply chain event specified for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * A trade party specified for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty[];
+	specifiedTradeParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying a status for this supply chain inventory.
@@ -155,5 +155,5 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * The quantity of stock in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/stockQuantity
 	 */
-	stockQuantity?: IUneceQuantityType[];
+	stockQuantity?: IUneceQuantityType;
 }

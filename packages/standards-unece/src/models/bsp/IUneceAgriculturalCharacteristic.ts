@@ -61,7 +61,7 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * The value, expressed as an amount, for this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueAmount
 	 */
-	valueAmount?: IUneceAmountType[];
+	valueAmount?: IUneceAmountType;
 
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, of this agricultural characteristic.
@@ -79,13 +79,13 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * The measure of a value for this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType[];
+	valueMeasure?: IUneceMeasureType;
 
 	/**
 	 * A method specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod[];
+	valueMethod?: IUneceSpecifiedMethod;
 
 	/**
 	 * The value, expressed as a number, for this agricultural characteristic.
@@ -97,17 +97,17 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter[];
+	valueParameter?: IUneceSpecifiedParameter;
 
 	/**
 	 * A range specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange[];
+	valueRange?: IUneceRange;
 
 	/**
 	 * A tolerance specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance[];
+	valueTolerance?: IUneceTolerance;
 }

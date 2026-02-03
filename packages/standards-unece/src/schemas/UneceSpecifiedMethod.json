@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter applicable to this specified method."
 		},
 		"certificationId": {

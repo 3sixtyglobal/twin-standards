@@ -29,13 +29,13 @@ export interface IUneceEmission extends IJsonLdNodeObject {
 	 * The affected distance over which this calculated emission is measured.
 	 * @see https://vocabulary.uncefact.org/affectedDistanceMeasure
 	 */
-	affectedDistanceMeasure?: IUneceLinearUnitMeasureType[];
+	affectedDistanceMeasure?: IUneceLinearUnitMeasureType;
 
 	/**
 	 * A measure of the pollution calculated for this emission.
 	 * @see https://vocabulary.uncefact.org/pollutionMeasure
 	 */
-	pollutionMeasure?: IUneceMeasureType[];
+	pollutionMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of this calculated emission.
@@ -47,5 +47,5 @@ export interface IUneceEmission extends IJsonLdNodeObject {
 	 * A weight for which this calculated emission is measured.
 	 * @see https://vocabulary.uncefact.org/weightUnitWeightMeasure
 	 */
-	weightUnitWeightMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitWeightMeasure?: IUneceWeightUnitMeasureType;
 }

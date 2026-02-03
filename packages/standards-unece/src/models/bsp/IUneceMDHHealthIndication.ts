@@ -28,7 +28,7 @@ export interface IUneceMDHHealthIndication extends IJsonLdNodeObject {
 	 * A sanitary measure applied for this MDH health indication.
 	 * @see https://vocabulary.uncefact.org/appliedSanitaryMeasure
 	 */
-	appliedSanitaryMeasure?: IUneceSanitaryMeasure[];
+	appliedSanitaryMeasure?: IUneceSanitaryMeasure;
 
 	/**
 	 * A textual description of this MDH health indication.
@@ -58,7 +58,7 @@ export interface IUneceMDHHealthIndication extends IJsonLdNodeObject {
 	 * A reported quantity for this MDH health indication.
 	 * @see https://vocabulary.uncefact.org/reportedQuantity
 	 */
-	reportedQuantity?: IUneceQuantityType[];
+	reportedQuantity?: IUneceQuantityType;
 
 	/**
 	 * The indication of whether or not the status of this MDH health indication is true or false.

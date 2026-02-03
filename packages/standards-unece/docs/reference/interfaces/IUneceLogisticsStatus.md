@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### arrivalReportedEvent?
 
-> `optional` **arrivalReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **arrivalReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A transport arrival event reported for this logistics status.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/arrivalReportedEvent
 
 ### contactParty?
 
-> `optional` **contactParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **contactParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A contact party for this logistics status.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/contactParty
 
 ### departureReportedEvent?
 
-> `optional` **departureReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **departureReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A transport departure event reported for this logistics status.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/information
 
 ### loadingReportedEvent?
 
-> `optional` **loadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **loadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A transport loading event reported for this logistics status.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/loadingReportedEvent
 
 ### logisticsStatusConditionCode?
 
-> `optional` **logisticsStatusConditionCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)[]
+> `optional` **logisticsStatusConditionCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
 
 The code specifying this logistics status condition [UNECE Recommendation 24].
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/logisticsStatusConditionCode
 
 ### logisticsStatusReasonCode?
 
-> `optional` **logisticsStatusReasonCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)[]
+> `optional` **logisticsStatusReasonCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
 
 A code specifying a reason for this logistics status [UNECE Recommendation 24].
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ### reportedSupplyChainEvent?
 
-> `optional` **reportedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **reportedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 A supply chain event reported for this logistics status.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A location specified for this logistics status.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### unloadingReportedEvent?
 
-> `optional` **unloadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **unloadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A transport unloading event reported for this logistics status.
 

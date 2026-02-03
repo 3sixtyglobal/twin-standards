@@ -33,7 +33,7 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * A binary file attached to this specified inspection.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * A textual description of this specified inspection.
@@ -45,13 +45,13 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * The party executing this specified inspection.
 	 * @see https://vocabulary.uncefact.org/executionParty
 	 */
-	executionParty?: IUneceTradeParty[];
+	executionParty?: IUneceTradeParty;
 
 	/**
 	 * The inspector executing this specified inspection.
 	 * @see https://vocabulary.uncefact.org/executionPerson
 	 */
-	executionPerson?: IUneceInspectionPerson[];
+	executionPerson?: IUneceInspectionPerson;
 
 	/**
 	 * The identifier of this specified inspection.
@@ -75,25 +75,25 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * The result reported for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/reportedInspectionResult
 	 */
-	reportedInspectionResult?: IUneceInspectionResult[];
+	reportedInspectionResult?: IUneceInspectionResult;
 
 	/**
 	 * A referenced document for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument[];
+	specifiedDocument?: IUneceDocument;
 
 	/**
 	 * An inspection event for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent[];
+	specifiedInspectionEvent?: IUneceInspectionEvent;
 
 	/**
 	 * The status for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionStatus
 	 */
-	specifiedInspectionStatus?: IUneceInspectionStatus[];
+	specifiedInspectionStatus?: IUneceInspectionStatus;
 
 	/**
 	 * The code specifying the type of inspection.

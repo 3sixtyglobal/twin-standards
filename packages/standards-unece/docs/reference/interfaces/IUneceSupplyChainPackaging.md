@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/additionalInstructionIndicator
 
 ### applicableDisposalInstructions?
 
-> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
+> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
 
 Disposal instructions for this supply chain packaging.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableDisposalInstructions
 
 ### applicableGoodsCharacteristic?
 
-> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
+> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
 
 Material goods characteristic applicable to this supply chain packaging.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ### applicablePackagingInstructions?
 
-> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)[]
+> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)
 
 Packaging instructions applicable to this supply chain packaging.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicablePackagingInstructions
 
 ### applicableReturnableAssetInstructions?
 
-> `optional` **applicableReturnableAssetInstructions**: [`IUneceReturnableAssetInstructions`](IUneceReturnableAssetInstructions.md)[]
+> `optional` **applicableReturnableAssetInstructions**: [`IUneceReturnableAssetInstructions`](IUneceReturnableAssetInstructions.md)
 
 Returnable asset instructions for this supply chain packaging.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableReturnableAssetInstructions
 
 ### capacityMeasure?
 
-> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the capacity of this supply chain packaging.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/conditionCode
 
 ### contentLayerQuantity?
 
-> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of content layers that are or may be packaged with this supply chain packaging, such as the number of layers
 of product on a pallet.
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/contentLayerQuantity
 
 ### customerFacingTotalUnitQuantity?
 
-> `optional` **customerFacingTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **customerFacingTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The total number of units of this supply chain packaging facing the customer, such as would be seen when this packaging
 is placed on a retail shelf.
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/instructionCode
 
 ### layerTotalUnitQuantity?
 
-> `optional` **layerTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **layerTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The total number of units in a layer of this supply chain packaging.
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/layerTotalUnitQuantity
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 The linear spatial dimensions of this supply chain packaging.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ### maximumLinearDimension?
 
-> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 The maximum linear spatial dimensions of this supply chain packaging.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/maximumLinearDimension
 
 ### maximumStackabilityQuantity?
 
-> `optional` **maximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **maximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this type of supply chain packaging which can be stacked on top of each other.
 
@@ -244,7 +244,7 @@ https://vocabulary.uncefact.org/maximumStackabilityQuantity
 
 ### maximumStackabilityWeightMeasure?
 
-> `optional` **maximumStackabilityWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumStackabilityWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum stackability weight of this supply chain packaging.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightMeasure
 
 ### minimumLinearDimension?
 
-> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 The minimum linear spatial dimensions of this supply chain packaging.
 
@@ -268,7 +268,7 @@ https://vocabulary.uncefact.org/minimumLinearDimension
 
 ### packageTypeCode?
 
-> `optional` **packageTypeCode**: [`UnecePackageTypeCodeList`](../type-aliases/UnecePackageTypeCodeList.md)[]
+> `optional` **packageTypeCode**: [`UnecePackageTypeCodeList`](../type-aliases/UnecePackageTypeCodeList.md)
 
 The code specifying the type of supply chain packaging.
 
@@ -352,7 +352,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedMarking?
 
-> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)[]
+> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)
 
 A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership,
 quality, manufacture or origin.
@@ -377,7 +377,7 @@ https://vocabulary.uncefact.org/supplyChainPackagingLevelCode
 
 ### totalUnitQuantity?
 
-> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A total number of units contained in this supply chain packaging.
 
@@ -389,7 +389,7 @@ https://vocabulary.uncefact.org/totalUnitQuantity
 
 ### transportMaximumStackabilityQuantity?
 
-> `optional` **transportMaximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **transportMaximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this type of supply chain packaging which can be stacked vertically for transport operations.
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/transportMaximumStackabilityQuantity
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of the weight of this supply chain packaging.
 
@@ -413,7 +413,7 @@ https://vocabulary.uncefact.org/weightMeasure
 
 ### weightUnitLoadBearingCapabilityMeasure?
 
-> `optional` **weightUnitLoadBearingCapabilityMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitLoadBearingCapabilityMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The load bearing capability measure for this supply chain packaging.
 

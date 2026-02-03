@@ -30,7 +30,7 @@ export interface IUneceRequestingParty extends IJsonLdNodeObject {
 	 * The code specifying the access rights, such as unlimited, restricted, prohibited, for this requesting party.
 	 * @see https://vocabulary.uncefact.org/accessRightsTypeAccessRightsCode
 	 */
-	accessRightsTypeAccessRightsCode?: UneceAccessRightsTypeCodeList[];
+	accessRightsTypeAccessRightsCode?: UneceAccessRightsTypeCodeList;
 
 	/**
 	 * The unique Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier
@@ -61,7 +61,7 @@ export interface IUneceRequestingParty extends IJsonLdNodeObject {
 	 * The financing financial account, used for managing the line of credit, specified for this requesting party.
 	 * @see https://vocabulary.uncefact.org/lineOfCreditSpecifiedFinancialAccount
 	 */
-	lineOfCreditSpecifiedFinancialAccount?: IUneceFinancingFinancialAccount[];
+	lineOfCreditSpecifiedFinancialAccount?: IUneceFinancingFinancialAccount;
 
 	/**
 	 * The name, expressed as text, for this requesting party.
@@ -73,17 +73,17 @@ export interface IUneceRequestingParty extends IJsonLdNodeObject {
 	 * The code specifying the type of requesting party.
 	 * @see https://vocabulary.uncefact.org/partyTypeCode
 	 */
-	partyTypeCode?: UnecePartyTypeCodeList[];
+	partyTypeCode?: UnecePartyTypeCodeList;
 
 	/**
 	 * The creditor financial account, used for crediting, specified for this requesting party.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 	 */
-	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount[];
+	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount;
 
 	/**
 	 * A proprietary identity specified for this requesting party.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity[];
+	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
 }

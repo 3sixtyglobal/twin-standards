@@ -39,5 +39,5 @@ export interface IUneceProductionWasteRecoveryDisposalProcess extends IJsonLdNod
 	 * A process certificate specified for this production waste recovery disposal process.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate[];
+	specifiedProcessCertificate?: IUneceProcessCertificate;
 }

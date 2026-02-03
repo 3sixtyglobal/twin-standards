@@ -38,7 +38,7 @@ export interface IUneceInspectionEvent extends IJsonLdNodeObject {
 	 * The referenced location where this inspection event will occur or has occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceLocation
 	 */
-	occurrenceLocation?: IUneceLocation[];
+	occurrenceLocation?: IUneceLocation;
 
 	/**
 	 * The code specifying the type of inspection for this event.

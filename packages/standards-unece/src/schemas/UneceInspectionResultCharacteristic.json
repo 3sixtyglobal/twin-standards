@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A specified method applicable to this inspection result characteristic."
 		},
 		"comparisonOperatorCode": {
@@ -107,17 +104,11 @@
 			"description": "The code specifying the operator, such as less than, for comparing this inspection result characteristic with one or more other characteristics."
 		},
 		"interpretationResultApplicableParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceObservationObjectiveParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceObservationObjectiveParameter",
 			"description": "An applicable objective observation parameter of the interpretation result for this inspection result characteristic."
 		},
 		"measuredAccuracyMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "Accuracy, expressed as a measure, of the measurement for this inspection result characteristic."
 		},
 		"measuredValue": {
@@ -125,10 +116,7 @@
 			"description": "The measured value, expressed as text, for this inspection result characteristic."
 		},
 		"measuredValueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "A measured value for this inspection result characteristic."
 		},
 		"qualityResultCode": {

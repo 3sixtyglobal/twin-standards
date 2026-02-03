@@ -27,7 +27,7 @@ export interface IUneceCustomsValuation extends IJsonLdNodeObject {
 	 * The monetary value of the adjustment added for this cross-border customs valuation.
 	 * @see https://vocabulary.uncefact.org/addedAdjustmentAmount
 	 */
-	addedAdjustmentAmount?: IUneceAmountType[];
+	addedAdjustmentAmount?: IUneceAmountType;
 
 	/**
 	 * The adjustment added, expressed as a percentage, for this cross-border customs valuation.
@@ -65,7 +65,7 @@ export interface IUneceCustomsValuation extends IJsonLdNodeObject {
 	 * The monetary value of the adjustment deducted for this cross-border customs valuation.
 	 * @see https://vocabulary.uncefact.org/deductedAdjustmentAmount
 	 */
-	deductedAdjustmentAmount?: IUneceAmountType[];
+	deductedAdjustmentAmount?: IUneceAmountType;
 
 	/**
 	 * The adjustment deducted, expressed as a percentage, for this cross-border customs valuation.
@@ -84,7 +84,7 @@ export interface IUneceCustomsValuation extends IJsonLdNodeObject {
 	 * cross-border customs valuation.
 	 * @see https://vocabulary.uncefact.org/otherChargeAmount
 	 */
-	otherChargeAmount?: IUneceAmountType[];
+	otherChargeAmount?: IUneceAmountType;
 
 	/**
 	 * The indication of whether or not there is a royalty or licence fee related to the goods for this cross-border customs

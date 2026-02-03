@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/automaticExtensionDateTime
 
 ### automaticExtensionDurationMeasure?
 
-> `optional` **automaticExtensionDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)[]
+> `optional` **automaticExtensionDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
 The measure of the duration of the automatic extension for this trade contract.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/signedDateTime
 
 ### signedLocation?
 
-> `optional` **signedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
+> `optional` **signedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)
 
 A location where this trade contract was or will be signed.
 

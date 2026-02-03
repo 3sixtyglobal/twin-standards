@@ -52,79 +52,79 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * An assessment applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment[];
+	applicableAssessment?: IUneceAssessment;
 
 	/**
 	 * Disposal instructions applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableDisposalInstructions
 	 */
-	applicableDisposalInstructions?: IUneceDisposalInstructions[];
+	applicableDisposalInstructions?: IUneceDisposalInstructions;
 
 	/**
 	 * A specified fault applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableFault
 	 */
-	applicableFault?: IUneceSpecifiedFault[];
+	applicableFault?: IUneceSpecifiedFault;
 
 	/**
 	 * A specified period applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod[];
+	applicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A certification applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableProductBatchCertification
 	 */
-	applicableProductBatchCertification?: IUneceProductBatchCertification[];
+	applicableProductBatchCertification?: IUneceProductBatchCertification;
 
 	/**
 	 * A product batch characteristic applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableProductBatchCharacteristic
 	 */
-	applicableProductBatchCharacteristic?: IUneceProductBatchCharacteristic[];
+	applicableProductBatchCharacteristic?: IUneceProductBatchCharacteristic;
 
 	/**
 	 * A certificate applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A specified inspection applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
 
 	/**
 	 * Packaging applicable for use with this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableSupplyChainPackaging
 	 */
-	applicableSupplyChainPackaging?: IUneceSupplyChainPackaging[];
+	applicableSupplyChainPackaging?: IUneceSupplyChainPackaging;
 
 	/**
 	 * A sustainability inspection applicable to this product batch.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
 
 	/**
 	 * A specified agricultural application applied to this product batch.
 	 * @see https://vocabulary.uncefact.org/appliedAgriculturalApplication
 	 */
-	appliedAgriculturalApplication?: IUneceAgriculturalApplication[];
+	appliedAgriculturalApplication?: IUneceAgriculturalApplication;
 
 	/**
 	 * A chemical treatment applied to this product batch.
 	 * @see https://vocabulary.uncefact.org/appliedChemicalTreatment
 	 */
-	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment[];
+	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment;
 
 	/**
 	 * A product finishing treatment applied to this product batch.
 	 * @see https://vocabulary.uncefact.org/appliedProductFinishingTreatment
 	 */
-	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment[];
+	appliedProductFinishingTreatment?: IUneceProductFinishingTreatment;
 
 	/**
 	 * A treatment, expressed as text, applied to this product batch.
@@ -142,19 +142,19 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A product batch component of this product batch.
 	 * @see https://vocabulary.uncefact.org/componentBatch
 	 */
-	componentBatch?: IUneceProductBatch[];
+	componentBatch?: IUneceProductBatch;
 
 	/**
 	 * A specified material component of this product batch.
 	 * @see https://vocabulary.uncefact.org/componentMaterial
 	 */
-	componentMaterial?: IUneceSpecifiedMaterial[];
+	componentMaterial?: IUneceSpecifiedMaterial;
 
 	/**
 	 * A trade product component of this product batch.
 	 * @see https://vocabulary.uncefact.org/componentProduct
 	 */
-	componentProduct?: IUneceTradeProduct[];
+	componentProduct?: IUneceTradeProduct;
 
 	/**
 	 * The date, time, date time or other date time value of the creation of this product batch.
@@ -196,7 +196,7 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the gross weight of this product batch.
 	 * @see https://vocabulary.uncefact.org/grossWeightMeasure
 	 */
-	grossWeightMeasure?: IUneceMeasureType[];
+	grossWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * The identifier for this product batch.
@@ -214,25 +214,25 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the mass of this product batch.
 	 * @see https://vocabulary.uncefact.org/massMeasure
 	 */
-	massMeasure?: IUneceMeasureType[];
+	massMeasure?: IUneceMeasureType;
 
 	/**
 	 * A mass measure of this product batch expressed as a ratio to another mass, such as the total mass.
 	 * @see https://vocabulary.uncefact.org/massRatioMeasure
 	 */
-	massRatioMeasure?: IUneceMeasureType[];
+	massRatioMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the maximum size of this product batch.
 	 * @see https://vocabulary.uncefact.org/maximumSizeMeasure
 	 */
-	maximumSizeMeasure?: IUneceMeasureType[];
+	maximumSizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the minimum size of this product batch.
 	 * @see https://vocabulary.uncefact.org/minimumSizeMeasure
 	 */
-	minimumSizeMeasure?: IUneceMeasureType[];
+	minimumSizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The name, expressed as text, of this product batch.
@@ -274,73 +274,73 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * The size, expressed as a measure, for this product batch.
 	 * @see https://vocabulary.uncefact.org/sizeMeasure
 	 */
-	sizeMeasure?: IUneceMeasureType[];
+	sizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * An agricultural certificate specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 	 */
-	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate[];
+	specifiedAgriculturalCertificate?: IUneceAgriculturalCertificate;
 
 	/**
 	 * An agricultural characteristic specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 	 */
-	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic[];
+	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic;
 
 	/**
 	 * A sustainability assertion specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion[];
+	specifiedAssertion?: IUneceAssertion;
 
 	/**
 	 * A referenced document specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument[];
+	specifiedDocument?: IUneceDocument;
 
 	/**
 	 * A referenced location specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation[];
+	specifiedLocation?: IUneceLocation;
 
 	/**
 	 * A note specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedNote
 	 */
-	specifiedNote?: IUneceNote[];
+	specifiedNote?: IUneceNote;
 
 	/**
 	 * A photographic picture specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedPicture
 	 */
-	specifiedPicture?: IUnecePicture[];
+	specifiedPicture?: IUnecePicture;
 
 	/**
 	 * A production process specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedProcess
 	 */
-	specifiedProcess?: IUneceProductionProcess[];
+	specifiedProcess?: IUneceProductionProcess;
 
 	/**
 	 * A certificate specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 	 */
-	specifiedProductBatchCertificate?: IUneceProductBatchCertificate[];
+	specifiedProductBatchCertificate?: IUneceProductBatchCertificate;
 
 	/**
 	 * A product batch characteristic specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCharacteristic
 	 */
-	specifiedProductBatchCharacteristic?: IUneceProductBatchCharacteristic[];
+	specifiedProductBatchCharacteristic?: IUneceProductBatchCharacteristic;
 
 	/**
 	 * A supply chain event specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The code specifying the status of this product batch.
@@ -358,11 +358,11 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * The number of units, expressed as a quantity, for this product batch.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType[];
+	unitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The weight, expressed as a measure, for this product batch.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 }

@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/minusValuePercent
 
 ### minusValueQuantity?
 
-> `optional` **minusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **minusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The minus quantity value of this specified tolerance.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/surplusValuePercent
 
 ### surplusValueQuantity?
 
-> `optional` **surplusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **surplusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The surplus quantity value of this specified tolerance.
 

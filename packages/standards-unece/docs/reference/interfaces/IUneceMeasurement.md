@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualMeasure?
 
-> `optional` **actualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **actualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 An actual measure for this measurement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ### conditionMeasure?
 
-> `optional` **conditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **conditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a condition for this measurement.
 

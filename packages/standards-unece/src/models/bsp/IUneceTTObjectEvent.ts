@@ -38,7 +38,7 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * The business location related to this TT object event.
 	 * @see https://vocabulary.uncefact.org/businessRelatedLocation
 	 */
-	businessRelatedLocation?: IUneceTTLocation[];
+	businessRelatedLocation?: IUneceTTLocation;
 
 	/**
 	 * The code specifying the business step for this TT object event.
@@ -50,7 +50,7 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * A destination related party for this TT object event.
 	 * @see https://vocabulary.uncefact.org/destinationRelatedParty
 	 */
-	destinationRelatedParty?: IUneceTTParty[];
+	destinationRelatedParty?: IUneceTTParty;
 
 	/**
 	 * The code specifying the disposition related to this TT object event.
@@ -80,13 +80,13 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * A quantity event element specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/quantitySpecifiedEventElement
 	 */
-	quantitySpecifiedEventElement?: IUneceEventElement[];
+	quantitySpecifiedEventElement?: IUneceEventElement;
 
 	/**
 	 * The read point related location of this TT object event.
 	 * @see https://vocabulary.uncefact.org/readPointRelatedLocation
 	 */
-	readPointRelatedLocation?: IUneceTTLocation[];
+	readPointRelatedLocation?: IUneceTTLocation;
 
 	/**
 	 * The date, time, date time, or other date time value at which this TT object event was recorded.
@@ -98,23 +98,23 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * A certification related to this TT object event.
 	 * @see https://vocabulary.uncefact.org/relatedCertification
 	 */
-	relatedCertification?: IUneceSpecifiedCertification[];
+	relatedCertification?: IUneceSpecifiedCertification;
 
 	/**
 	 * A source related party for this TT object event.
 	 * @see https://vocabulary.uncefact.org/sourceRelatedParty
 	 */
-	sourceRelatedParty?: IUneceTTParty[];
+	sourceRelatedParty?: IUneceTTParty;
 
 	/**
 	 * A declared error specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/specifiedError
 	 */
-	specifiedError?: IUneceError[];
+	specifiedError?: IUneceError;
 
 	/**
 	 * A trade transaction specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeTransaction
 	 */
-	specifiedTradeTransaction?: IUneceTTTradeTransaction[];
+	specifiedTradeTransaction?: IUneceTTTradeTransaction;
 }

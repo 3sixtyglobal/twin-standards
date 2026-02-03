@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
 
 A sustainability characteristic applicable to this specified chemical treatment.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
 
 A process certificate for this specified chemical treatment.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usedChemical?
 
-> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)[]
+> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)
 
 A distinct chemical used for this specified chemical treatment.
 

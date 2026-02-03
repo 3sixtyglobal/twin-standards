@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic?
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)[]
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical grid.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation?
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location associated with this specified geographical grid.
 
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/originAssociatedDirectPositionList
 
 ### specifiedPlot?
 
-> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
+> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)
 
 A crop plot specified for this geographical grid.
 

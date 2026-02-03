@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/communicationCapabilityCode
 
 ### embeddedSensor?
 
-> `optional` **embeddedSensor**: [`IUneceSensor`](IUneceSensor.md)[]
+> `optional` **embeddedSensor**: [`IUneceSensor`](IUneceSensor.md)
 
 An embedded sensor of this monitoring IOT device.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/embeddedSensor
 
 ### grantedCertificate?
 
-> `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
+> `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
 
 A product certificate granted for this monitoring IOT device.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### interfaceEquipment?
 
-> `optional` **interfaceEquipment**: [`IUneceEquipment`](IUneceEquipment.md)[]
+> `optional` **interfaceEquipment**: [`IUneceEquipment`](IUneceEquipment.md)
 
 An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/interfaceEquipment
 
 ### latestReceivedGeographicalCoordinate?
 
-> `optional` **latestReceivedGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)[]
+> `optional` **latestReceivedGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 
 The latest geographical coordinates received by this monitoring IOT device, from the perspective of the receiver.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/latestReceivedSignalDateTime
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party of this monitoring IOT device.
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/operationalStatusCode
 
 ### operatorParty?
 
-> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The owner party of this monitoring IOT device.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/powerSourceTypeCode
 
 ### providerParty?
 
-> `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The provider party for this monitoring IOT device.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/providerParty
 
 ### relatedEvent?
 
-> `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
+> `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)
 
 A communication event related to this monitoring IOT device.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/remainingBatteryChargePercent
 
 ### remoteSensor?
 
-> `optional` **remoteSensor**: [`IUneceSensor`](IUneceSensor.md)[]
+> `optional` **remoteSensor**: [`IUneceSensor`](IUneceSensor.md)
 
 A remote sensor of this monitoring IOT device.
 
@@ -268,7 +268,7 @@ https://vocabulary.uncefact.org/remoteSensor
 
 ### reportedTransportEvent?
 
-> `optional` **reportedTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **reportedTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 A transport event reported by this monitoring IOT device.
 
@@ -280,7 +280,7 @@ https://vocabulary.uncefact.org/reportedTransportEvent
 
 ### reportingSensorPairing?
 
-> `optional` **reportingSensorPairing**: [`IUnecePairing`](IUnecePairing.md)[]
+> `optional` **reportingSensorPairing**: [`IUnecePairing`](IUnecePairing.md)
 
 A sensor communication pairing reported for this monitoring IOT device.
 

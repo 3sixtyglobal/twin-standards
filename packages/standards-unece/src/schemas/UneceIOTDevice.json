@@ -104,17 +104,11 @@
 			"description": "The code specifying the communication capability of this monitoring IOT device."
 		},
 		"embeddedSensor": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSensor"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSensor",
 			"description": "An embedded sensor of this monitoring IOT device."
 		},
 		"grantedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
 			"description": "A product certificate granted for this monitoring IOT device."
 		},
 		"identifier": {
@@ -122,17 +116,11 @@
 			"description": "An identifier for this monitoring IOT device."
 		},
 		"interfaceEquipment": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceEquipment"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceEquipment",
 			"description": "An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device."
 		},
 		"latestReceivedGeographicalCoordinate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceGeographicalCoordinate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceGeographicalCoordinate",
 			"description": "The latest geographical coordinates received by this monitoring IOT device, from the perspective of the receiver."
 		},
 		"latestReceivedSignalDateTime": {
@@ -140,10 +128,7 @@
 			"description": "The date, time, date time or other date time value of the latest received signal for this monitoring IOT device, from the perspective of the receiver."
 		},
 		"manufacturerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The manufacturer party of this monitoring IOT device."
 		},
 		"modelId": {
@@ -155,17 +140,11 @@
 			"description": "The code specifying the operational status, such as broken, stolen, unpaired, inactive of this monitoring IOT device."
 		},
 		"operatorParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device."
 		},
 		"ownerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The owner party of this monitoring IOT device."
 		},
 		"positionCode": {
@@ -177,17 +156,11 @@
 			"description": "The code specifying a type of power source for this monitoring IOT device."
 		},
 		"providerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The provider party for this monitoring IOT device."
 		},
 		"relatedEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunicationEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunicationEvent",
 			"description": "A communication event related to this monitoring IOT device."
 		},
 		"remainingBatteryChargePercent": {
@@ -195,24 +168,15 @@
 			"description": "The percentage of the remaining battery charge of this monitoring IOT device."
 		},
 		"remoteSensor": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSensor"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSensor",
 			"description": "A remote sensor of this monitoring IOT device."
 		},
 		"reportedTransportEvent": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
 			"description": "A transport event reported by this monitoring IOT device."
 		},
 		"reportingSensorPairing": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UnecePairing"
-			},
+			"$ref": "https://schema.twindev.org/unece/UnecePairing",
 			"description": "A sensor communication pairing reported for this monitoring IOT device."
 		},
 		"typeCode": {

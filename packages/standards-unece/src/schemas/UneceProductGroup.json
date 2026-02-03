@@ -100,17 +100,11 @@
 			"description": "An identifier for this trade product group."
 		},
 		"includedSupplyChainTradeLineItem": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem",
 			"description": "A supply chain trade line item which is included in this trade product group."
 		},
 		"includedTradeProduct": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
 			"description": "A product included in this trade product group."
 		},
 		"name": {
@@ -118,17 +112,11 @@
 			"description": "The name, expressed as text, for this trade product group."
 		},
 		"specifiedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced document specified for this trade product group."
 		},
 		"subordinateProductGroup": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductGroup"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductGroup",
 			"description": "A product group subordinate to this trade product group."
 		}
 	},

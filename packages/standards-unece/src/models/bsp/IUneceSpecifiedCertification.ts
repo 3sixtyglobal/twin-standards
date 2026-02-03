@@ -60,13 +60,13 @@ export interface IUneceSpecifiedCertification extends IJsonLdNodeObject {
 	 * A referenced location related to this specified certification.
 	 * @see https://vocabulary.uncefact.org/relatedLocation
 	 */
-	relatedLocation?: IUneceLocation[];
+	relatedLocation?: IUneceLocation;
 
 	/**
 	 * A referenced standard related to this specified certification.
 	 * @see https://vocabulary.uncefact.org/relatedStandard
 	 */
-	relatedStandard?: IUneceStandard[];
+	relatedStandard?: IUneceStandard;
 
 	/**
 	 * A responsible agency, expressed as text, for this specified certification.
@@ -78,7 +78,7 @@ export interface IUneceSpecifiedCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion for this specified certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion[];
+	specifiedAssertion?: IUneceAssertion;
 
 	/**
 	 * A standard, expressed as text, for this specified certification.

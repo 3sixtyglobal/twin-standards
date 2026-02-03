@@ -38,7 +38,7 @@ export interface IUneceRepresentativePerson extends IJsonLdNodeObject {
 	 * A country that constitutes a nationality by origin, birth, or naturalization for this representative person.
 	 * @see https://vocabulary.uncefact.org/nationalityCountry
 	 */
-	nationalityCountry?: IUneceCountry[];
+	nationalityCountry?: IUneceCountry;
 
 	/**
 	 * The name or set of names, expressed as text, by which this representative person is known.

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### specifiedXHEIdentity?
 
-> `optional` **specifiedXHEIdentity**: [`IUneceXHEIdentity`](IUneceXHEIdentity.md)[]
+> `optional` **specifiedXHEIdentity**: [`IUneceXHEIdentity`](IUneceXHEIdentity.md)
 
 Identifying information specified for an XHE party.
 

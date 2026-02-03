@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### accountingDebitCreditStatusDirectionCode?
 
-> `optional` **accountingDebitCreditStatusDirectionCode**: [`UneceAccountingDebitCreditStatusCodeList`](../type-aliases/UneceAccountingDebitCreditStatusCodeList.md)[]
+> `optional` **accountingDebitCreditStatusDirectionCode**: [`UneceAccountingDebitCreditStatusCodeList`](../type-aliases/UneceAccountingDebitCreditStatusCodeList.md)
 
 The code specifying whether the financial adjustment must be subtracted or added.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/accountingDebitCreditStatusDirectionCode
 
 ### actualAmount?
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 An actual monetary value added or subtracted as a result of this financial adjustment.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### claimRelatedParty?
 
-> `optional` **claimRelatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **claimRelatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The claim related party for this financial adjustment.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/financialAdjustmentReasonCode
 
 ### invoiceReferenceDocument?
 
-> `optional` **invoiceReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The invoice document referenced for this financial adjustment.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/reason
 
 ### relatedTax?
 
-> `optional` **relatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **relatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A trade tax related to this financial adjustment.
 

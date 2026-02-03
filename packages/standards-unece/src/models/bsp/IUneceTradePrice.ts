@@ -37,25 +37,25 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * An applicable customer class for this trade price.
 	 * @see https://vocabulary.uncefact.org/applicableCustomerClass
 	 */
-	applicableCustomerClass?: IUneceCustomerClass[];
+	applicableCustomerClass?: IUneceCustomerClass;
 
 	/**
 	 * A specified note applicable to this trade price.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedNote
 	 */
-	applicableSpecifiedNote?: IUneceSpecifiedNote[];
+	applicableSpecifiedNote?: IUneceSpecifiedNote;
 
 	/**
 	 * An allowance or charge applied to the trade price.
 	 * @see https://vocabulary.uncefact.org/appliedAllowanceCharge
 	 */
-	appliedAllowanceCharge?: IUneceTradeAllowanceCharge[];
+	appliedAllowanceCharge?: IUneceTradeAllowanceCharge;
 
 	/**
 	 * An associated document referenced for this trade price.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument[];
+	associatedDocument?: IUneceDocument;
 
 	/**
 	 * The date, time, date time, or other date time value used as the basis for this trade price.
@@ -67,7 +67,7 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * The quantity on which the trade price is based.
 	 * @see https://vocabulary.uncefact.org/basisQuantity
 	 */
-	basisQuantity?: IUneceQuantityType[];
+	basisQuantity?: IUneceQuantityType;
 
 	/**
 	 * The code specifying the type of bracket for this trade price.
@@ -103,31 +103,31 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A monetary value of the trade price charge.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType[];
+	chargeAmount?: IUneceAmountType;
 
 	/**
 	 * A price that provides a comparison with this trade price.
 	 * @see https://vocabulary.uncefact.org/comparisonPrice
 	 */
-	comparisonPrice?: IUneceReferencePrice[];
+	comparisonPrice?: IUneceReferencePrice;
 
 	/**
 	 * The number of customer service points for this trade price.
 	 * @see https://vocabulary.uncefact.org/customerServicePointQuantity
 	 */
-	customerServicePointQuantity?: IUneceQuantityType[];
+	customerServicePointQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of days related to this trade price.
 	 * @see https://vocabulary.uncefact.org/dayQuantity
 	 */
-	dayQuantity?: IUneceQuantityType[];
+	dayQuantity?: IUneceQuantityType;
 
 	/**
 	 * A delivery location for this trade price.
 	 * @see https://vocabulary.uncefact.org/deliveryLocation
 	 */
-	deliveryLocation?: IUneceTradeLocation[];
+	deliveryLocation?: IUneceTradeLocation;
 
 	/**
 	 * A textual description of this trade price.
@@ -145,7 +145,7 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A document referenced for this trade price.
 	 * @see https://vocabulary.uncefact.org/document
 	 */
-	document?: IUneceDocument[];
+	document?: IUneceDocument;
 
 	/**
 	 * The expiry date, time, date time, or other date time value for this trade price.
@@ -157,13 +157,13 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A monetary value of the grand total charge of this trade price.
 	 * @see https://vocabulary.uncefact.org/grandTotalChargeAmount
 	 */
-	grandTotalChargeAmount?: IUneceAmountType[];
+	grandTotalChargeAmount?: IUneceAmountType;
 
 	/**
 	 * A tax included in this trade price.
 	 * @see https://vocabulary.uncefact.org/includedTax
 	 */
-	includedTax?: IUneceTradeTax[];
+	includedTax?: IUneceTradeTax;
 
 	/**
 	 * Information, expressed as text, for this trade price.
@@ -175,25 +175,25 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A monetary value that is the maximum charge in a range of trade prices.
 	 * @see https://vocabulary.uncefact.org/maximumChargeAmount
 	 */
-	maximumChargeAmount?: IUneceAmountType[];
+	maximumChargeAmount?: IUneceAmountType;
 
 	/**
 	 * The maximum quantity in a range for which the trade price applies.
 	 * @see https://vocabulary.uncefact.org/maximumQuantity
 	 */
-	maximumQuantity?: IUneceQuantityType[];
+	maximumQuantity?: IUneceQuantityType;
 
 	/**
 	 * A monetary value that is the minimum charge in a range of trade prices.
 	 * @see https://vocabulary.uncefact.org/minimumChargeAmount
 	 */
-	minimumChargeAmount?: IUneceAmountType[];
+	minimumChargeAmount?: IUneceAmountType;
 
 	/**
 	 * The minimum quantity in a range for which this trade price applies.
 	 * @see https://vocabulary.uncefact.org/minimumQuantity
 	 */
-	minimumQuantity?: IUneceQuantityType[];
+	minimumQuantity?: IUneceQuantityType;
 
 	/**
 	 * The indication of whether or not multiple reasons affect this trade price.
@@ -211,7 +211,7 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * An operational period applicable for this trade price.
 	 * @see https://vocabulary.uncefact.org/operationalApplicablePeriod
 	 */
-	operationalApplicablePeriod?: IUneceSpecifiedPeriod[];
+	operationalApplicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The value used as the factor to convert the order unit into the price unit for this trade price.
@@ -229,7 +229,7 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * The code specifying the type of trade price.
 	 * @see https://vocabulary.uncefact.org/priceTypeCode
 	 */
-	priceTypeCode?: UnecePriceTypeCodeList[];
+	priceTypeCode?: UnecePriceTypeCodeList;
 
 	/**
 	 * A code specifying a reason for this trade price.
@@ -241,19 +241,19 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A monetary value of a repackaging charge for this trade price.
 	 * @see https://vocabulary.uncefact.org/repackagingChargeAmount
 	 */
-	repackagingChargeAmount?: IUneceAmountType[];
+	repackagingChargeAmount?: IUneceAmountType;
 
 	/**
 	 * A monetary value of a repair charge for this trade price.
 	 * @see https://vocabulary.uncefact.org/repairChargeAmount
 	 */
-	repairChargeAmount?: IUneceAmountType[];
+	repairChargeAmount?: IUneceAmountType;
 
 	/**
 	 * A seasonal period applicable for this trade price.
 	 * @see https://vocabulary.uncefact.org/seasonalApplicablePeriod
 	 */
-	seasonalApplicablePeriod?: IUneceSpecifiedPeriod[];
+	seasonalApplicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The code specifying the seasonal rank of this trade price.
@@ -265,19 +265,19 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A payment trade settlement specified for this trade price.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 	 */
-	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement[];
+	specifiedPaymentTradeSettlement?: IUnecePaymentTradeSettlement;
 
 	/**
 	 * A monetary value of the total charge of this trade price.
 	 * @see https://vocabulary.uncefact.org/totalChargeAmount
 	 */
-	totalChargeAmount?: IUneceAmountType[];
+	totalChargeAmount?: IUneceAmountType;
 
 	/**
 	 * A price that provides a trade comparison with this trade price.
 	 * @see https://vocabulary.uncefact.org/tradeComparisonPrice
 	 */
-	tradeComparisonPrice?: IUneceReferencePrice[];
+	tradeComparisonPrice?: IUneceReferencePrice;
 
 	/**
 	 * The code specifying the type of bracket for this trade price.

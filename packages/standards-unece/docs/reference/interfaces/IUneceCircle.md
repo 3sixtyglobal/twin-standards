@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic?
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)[]
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this specified circle.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation?
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics location associated with this specified circle.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/centreGeographicalPoint
 
 ### radiusMeasure?
 
-> `optional` **radiusMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **radiusMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the radius for this specified circle.
 

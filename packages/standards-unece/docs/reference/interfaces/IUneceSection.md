@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedSegment?
 
-> `optional` **includedSegment**: [`IUneceSegment`](IUneceSegment.md)[]
+> `optional` **includedSegment**: [`IUneceSegment`](IUneceSegment.md)
 
 A segment included in this label section.
 

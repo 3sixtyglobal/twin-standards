@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### occurrenceLocation?
 
-> `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location where this inspection event will occur or has occurred.
 

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### documentStatusConditionCode?
 
-> `optional` **documentStatusConditionCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)[]
+> `optional` **documentStatusConditionCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)
 
 The code specifying the condition of this document status.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/documentStatusReasonCode
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
 
 A note included for this document status.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedDocumentCharacteristic?
 
-> `optional` **specifiedDocumentCharacteristic**: [`IUneceDocumentCharacteristic`](IUneceDocumentCharacteristic.md)[]
+> `optional` **specifiedDocumentCharacteristic**: [`IUneceDocumentCharacteristic`](IUneceDocumentCharacteristic.md)
 
 A document characteristic specified for this document status.
 

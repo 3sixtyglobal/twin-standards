@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### additionalStatementNote?
 
-> `optional` **additionalStatementNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **additionalStatementNote**: [`IUneceNote`](IUneceNote.md)
 
 An additional statement note for this exchanged declaration.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableCustomsValuation
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A referenced document associated with this exchanged declaration.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/currencyExchangeRate
 
 ### customsValueSpecifiedAmount?
 
-> `optional` **customsValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **customsValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value specified for customs purposes in this exchanged declaration.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/customsValueSpecifiedAmount
 
 ### declarantAgentParty?
 
-> `optional` **declarantAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **declarantAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade party acting as an agent for the declarant for this exchanged declaration.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/declarantParty
 
 ### documentTypeCode?
 
-> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
+> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
 
 The code specifying the type of this exchanged declaration.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ### grossWeightSpecifiedMeasure?
 
-> `optional` **grossWeightSpecifiedMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **grossWeightSpecifiedMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The gross weight measure specified in this exchanged declaration.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/jurisdictionEntryDateTime
 
 ### previousDocument?
 
-> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A previous document referenced for this exchanged declaration.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/previousDocument
 
 ### principalAssociatedParty?
 
-> `optional` **principalAssociatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **principalAssociatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A principal trade party associated with this exchanged declaration.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/specificCircumstanceCode
 
 ### statisticalValueSpecifiedAmount?
 
-> `optional` **statisticalValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **statisticalValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value specified for statistical purposes in this exchanged declaration.
 
@@ -244,7 +244,7 @@ https://vocabulary.uncefact.org/statisticalValueSpecifiedAmount
 
 ### submissionLocation?
 
-> `optional` **submissionLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **submissionLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The submission location for this exchanged declaration.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/submissionLocation
 
 ### totalInvoiceSpecifiedAmount?
 
-> `optional` **totalInvoiceSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalInvoiceSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The total invoice monetary value specified in this exchanged declaration.
 
@@ -268,7 +268,7 @@ https://vocabulary.uncefact.org/totalInvoiceSpecifiedAmount
 
 ### totalPackageSpecifiedQuantity?
 
-> `optional` **totalPackageSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **totalPackageSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The total package quantity specified in this exchanged declaration.
 

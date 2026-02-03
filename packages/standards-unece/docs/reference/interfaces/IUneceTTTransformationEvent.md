@@ -40,7 +40,7 @@ JSON-LD Type.
 
 ### businessRelatedLocation?
 
-> `optional` **businessRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **businessRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The business location related to this TT transformation event.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A destination related party for this TT transformation event.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/inputObjectInstanceId
 
 ### inputQuantitySpecifiedEventElement?
 
-> `optional` **inputQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
+> `optional` **inputQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)
 
 A quantity event element specified for an input of this TT transformation event.
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/outputObjectInstanceId
 
 ### outputQuantitySpecifiedEventElement?
 
-> `optional` **outputQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
+> `optional` **outputQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)
 
 A quantity event element specified for an output of this TT transformation event.
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/outputQuantitySpecifiedEventElement
 
 ### readPointRelatedLocation?
 
-> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
 The read point related location of this TT transformation event.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/recordedDateTime
 
 ### relatedCertification?
 
-> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)[]
+> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)
 
 A certification related to this TT transformation event.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 A source related party for this TT transformation event.
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/sourceRelatedParty
 
 ### specifiedError?
 
-> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)[]
+> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)
 
 A declared error specified for this TT transformation event.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/specifiedError
 
 ### specifiedTradeTransaction?
 
-> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
+> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)
 
 A trade transaction specified for this TT transformation event.
 

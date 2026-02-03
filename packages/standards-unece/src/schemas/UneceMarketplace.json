@@ -104,10 +104,7 @@
 			"description": "The name, expressed as text, for this specified marketplace."
 		},
 		"orderingAvailablePeriod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAvailablePeriod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAvailablePeriod",
 			"description": "An available ordering period for this specified marketplace."
 		},
 		"salesMethodCode": {

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### specifiedInstalmentPayment?
 
-> `optional` **specifiedInstalmentPayment**: [`IUneceInstalmentPayment`](IUneceInstalmentPayment.md)[]
+> `optional` **specifiedInstalmentPayment**: [`IUneceInstalmentPayment`](IUneceInstalmentPayment.md)
 
 An instalment payment specified for this instalment plan.
 

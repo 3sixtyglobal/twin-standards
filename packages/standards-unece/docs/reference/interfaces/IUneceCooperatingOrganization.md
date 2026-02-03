@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/roleCode
 
 ### usedInformationSource?
 
-> `optional` **usedInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)[]
+> `optional` **usedInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)
 
 A specified cooperative information source used for or from this cooperating organization.
 

@@ -75,7 +75,7 @@ export interface IUneceLaboratoryObservationAnalysisMethod extends IJsonLdNodeOb
 	 * The measure of the minimum object size required for this laboratory observation analysis method.
 	 * @see https://vocabulary.uncefact.org/sampledObjectMinimumRequiredObjectSizeMeasure
 	 */
-	sampledObjectMinimumRequiredObjectSizeMeasure?: IUneceMeasureType[];
+	sampledObjectMinimumRequiredObjectSizeMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of laboratory observation analysis method, which is the standard method of the observer

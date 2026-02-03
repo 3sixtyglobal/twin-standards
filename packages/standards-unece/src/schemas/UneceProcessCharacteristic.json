@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this process characteristic."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this process characteristic."
 		},
 		"condition": {
@@ -122,24 +116,15 @@
 			"description": "An identifier of this process characteristic."
 		},
 		"maximumValueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the maximum value for this process characteristic."
 		},
 		"measuredAttributeTypeCode": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasuredAttributeCodeList"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasuredAttributeCodeList",
 			"description": "The code specifying the type of this process characteristic."
 		},
 		"minimumValueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the minimum value for this process characteristic."
 		},
 		"processCharacteristicValueCode": {
@@ -151,10 +136,7 @@
 			"description": "A value, expressed as text, for this process characteristic."
 		},
 		"valueAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "The value, expressed as an amount, for this process characteristic."
 		},
 		"valueDateTime": {
@@ -166,17 +148,11 @@
 			"description": "The value, expressed as an indicator, for this process characteristic."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the value for this process characteristic."
 		},
 		"valueMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A method specified for the value of this process characteristic."
 		},
 		"valueNumeric": {
@@ -184,24 +160,15 @@
 			"description": "The measure of the value, expressed as a number, for this process characteristic."
 		},
 		"valueParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
 			"description": "A parameter specified for the value of this process characteristic."
 		},
 		"valueRange": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceRange"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceRange",
 			"description": "A range specified for the value of this process characteristic."
 		},
 		"valueTolerance": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
 			"description": "A tolerance specified for the value of this process characteristic."
 		}
 	},

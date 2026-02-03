@@ -33,19 +33,19 @@ export interface IUneceTransportationWasteMaterial extends IJsonLdNodeObject {
 	 * A product certificate applicable to this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A sustainability characteristic applicable to this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A transportation waste recovery disposal process applicable to this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/applicableTransportationWasteRecoveryDisposalProcess
 	 */
-	applicableTransportationWasteRecoveryDisposalProcess?: IUneceTransportationWasteRecoveryDisposalProcess[];
+	applicableTransportationWasteRecoveryDisposalProcess?: IUneceTransportationWasteRecoveryDisposalProcess;
 
 	/**
 	 * The indication of whether or not a transportation waste material delivery is complete.
@@ -57,37 +57,37 @@ export interface IUneceTransportationWasteMaterial extends IJsonLdNodeObject {
 	 * A material component included in this transportation waste.
 	 * @see https://vocabulary.uncefact.org/includedTransportationWasteMaterialComponent
 	 */
-	includedTransportationWasteMaterialComponent?: IUneceTransportationWasteMaterialComponent[];
+	includedTransportationWasteMaterialComponent?: IUneceTransportationWasteMaterialComponent;
 
 	/**
 	 * A next delivery event for this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/nextDeliveryEvent
 	 */
-	nextDeliveryEvent?: IUneceTransportEvent[];
+	nextDeliveryEvent?: IUneceTransportEvent;
 
 	/**
 	 * A port reception facility party for this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/portReceptionFacilityParty
 	 */
-	portReceptionFacilityParty?: IUneceTradeParty[];
+	portReceptionFacilityParty?: IUneceTradeParty;
 
 	/**
 	 * A previous delivery event for this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/previousDeliveryTransportEvent
 	 */
-	previousDeliveryTransportEvent?: IUneceTransportEvent[];
+	previousDeliveryTransportEvent?: IUneceTransportEvent;
 
 	/**
 	 * A reception facility contact for this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/receptionFacilityContact
 	 */
-	receptionFacilityContact?: IUneceTradeContact[];
+	receptionFacilityContact?: IUneceTradeContact;
 
 	/**
 	 * A material treatment facility party for this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/treatmentFacilityParty
 	 */
-	treatmentFacilityParty?: IUneceTradeParty[];
+	treatmentFacilityParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the type of transportation waste material.
@@ -99,11 +99,11 @@ export interface IUneceTransportationWasteMaterial extends IJsonLdNodeObject {
 	 * A measure of the volume of this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/volumeMeasure
 	 */
-	volumeMeasure?: IUneceMeasureType[];
+	volumeMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measure of the weight of this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType[];
+	weightMeasure?: IUneceMeasureType;
 }

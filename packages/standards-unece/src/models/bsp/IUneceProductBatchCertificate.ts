@@ -39,7 +39,7 @@ export interface IUneceProductBatchCertificate extends IJsonLdNodeObject {
 	 * A sustainability assertion applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAssertion
 	 */
-	applicableAssertion?: IUneceAssertion[];
+	applicableAssertion?: IUneceAssertion;
 
 	/**
 	 * A code specifying an object for which this product batch certificate is applicable.
@@ -51,37 +51,37 @@ export interface IUneceProductBatchCertificate extends IJsonLdNodeObject {
 	 * A product characteristic applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic[];
+	applicableProductCharacteristic?: IUneceProductCharacteristic;
 
 	/**
 	 * A referenced standard applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * The trade product certification applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification[];
+	applicableTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A binary file attached to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The code specifying the type of product batch certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * A textual description of this product batch certificate.

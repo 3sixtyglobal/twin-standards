@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An additional document referenced in this line trade settlement.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/amountDirectionCode
 
 ### applicableTax?
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax applicable to this line trade settlement.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A document associated with this line trade settlement.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ### associatedDocumentLineDocument?
 
-> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)[]
+> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)
 
 A document line associated with this line trade settlement.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/associatedDocumentLineDocument
 
 ### billingPeriod?
 
-> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 A billing period specified for this line trade settlement.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/invoiceDateTime
 
 ### invoiceDocument?
 
-> `optional` **invoiceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 An invoice document referenced in this line trade settlement.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/invoiceeParty
 
 ### payableSpecifiedAccountingAccount?
 
-> `optional` **payableSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **payableSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A payable accounting account specified for this line trade settlement.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/payableSpecifiedAccountingAccount
 
 ### payerParty?
 
-> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payer party for this line trade settlement.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/payerReference
 
 ### paymentAmount?
 
-> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value of a payment for this line trade settlement.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/paymentReference
 
 ### priceCurrencyCode?
 
-> `optional` **priceCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
+> `optional` **priceCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the price currency for this line trade settlement.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/priceCurrencyCode
 
 ### purchaseSpecifiedAccountingAccount?
 
-> `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A purchase accounting account specified for this line trade settlement.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 
 ### receivableSpecifiedAccountingAccount?
 
-> `optional` **receivableSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **receivableSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A receivable accounting account specified for this line trade settlement.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/receivableSpecifiedAccountingAccount
 
 ### salesSpecifiedAccountingAccount?
 
-> `optional` **salesSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **salesSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 A sales accounting account specified for this line trade settlement.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/salesSpecifiedAccountingAccount
 
 ### specifiedAccountingAccount?
 
-> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
 An accounting account specified for this line trade settlement.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ### specifiedAllowanceCharge?
 
-> `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
+> `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)
 
 An allowance or charge specified for this line trade settlement.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/specifiedAllowanceCharge
 
 ### specifiedFinancialAdjustment?
 
-> `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)[]
+> `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)
 
 A financial adjustment specified for this line trade settlement.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/specifiedFinancialAdjustment
 
 ### specifiedFinancialCard?
 
-> `optional` **specifiedFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)[]
+> `optional` **specifiedFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)
 
 A financial card specified in this line trade settlement.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/specifiedFinancialCard
 
 ### specifiedPaymentTerms?
 
-> `optional` **specifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)[]
+> `optional` **specifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
 
 Payment terms specified for this line trade settlement.
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTerms
 
 ### specifiedServiceCharge?
 
-> `optional` **specifiedServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
+> `optional` **specifiedServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)
 
 A logistics service charge specified for this line trade settlement.
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/specifiedServiceCharge
 
 ### specifiedTradeSettlementLineMonetarySummation?
 
-> `optional` **specifiedTradeSettlementLineMonetarySummation**: [`IUneceTradeSettlementLineMonetarySummation`](IUneceTradeSettlementLineMonetarySummation.md)[]
+> `optional` **specifiedTradeSettlementLineMonetarySummation**: [`IUneceTradeSettlementLineMonetarySummation`](IUneceTradeSettlementLineMonetarySummation.md)
 
 The monetary summation totals specified for this line trade settlement.
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### subtotalCalculatedTax?
 
-> `optional` **subtotalCalculatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **subtotalCalculatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 A tax subtotal calculated for this line trade settlement.
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/subtotalCalculatedTax
 
 ### totalAdjustmentAmount?
 
-> `optional` **totalAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the total adjustment for this line trade settlement.
 
@@ -411,7 +411,7 @@ https://vocabulary.uncefact.org/totalAdjustmentAmount
 
 ### tradeTransaction?
 
-> `optional` **tradeTransaction**: [`IUneceLineTradeTransaction`](IUneceLineTradeTransaction.md)[]
+> `optional` **tradeTransaction**: [`IUneceLineTradeTransaction`](IUneceLineTradeTransaction.md)
 
 A trade transaction referenced in this line trade settlement.
 

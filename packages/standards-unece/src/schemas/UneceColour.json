@@ -96,45 +96,27 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableMachine": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMachine"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMachine",
 			"description": "A production machine applicable to this product colour."
 		},
 		"applicableMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
 			"description": "Specified material applicable to this product colour."
 		},
 		"applicableMethod": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
 			"description": "A specified method applicable to this product colour."
 		},
 		"applicableProductionDevice": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductionDevice"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductionDevice",
 			"description": "A production device applicable to this product colour."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this product colour."
 		},
 		"applicableTechnicalCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic",
 			"description": "A technical characteristic applicable to this product colour."
 		},
 		"description": {
@@ -154,17 +136,11 @@
 			"description": "The percentage of the presence of this product colour."
 		},
 		"relatedParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A trade party related to this product colour."
 		},
 		"specifiedDocument": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceDocument"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
 			"description": "A referenced document specified for this product colour."
 		},
 		"testIndicator": {

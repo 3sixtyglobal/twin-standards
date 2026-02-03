@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maximumSpecifiedCharacteristic?
 
-> `optional` **maximumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)[]
+> `optional` **maximumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The maximum metric characteristic specified for this target issue.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/maximumSpecifiedCharacteristic
 
 ### minimumSpecifiedCharacteristic?
 
-> `optional` **minimumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)[]
+> `optional` **minimumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The minimum metric characteristic specified for this target issue.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/minimumSpecifiedCharacteristic
 
 ### specifiedMetricCharacteristic?
 
-> `optional` **specifiedMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)[]
+> `optional` **specifiedMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The metric characteristic specified for this target issue.
 

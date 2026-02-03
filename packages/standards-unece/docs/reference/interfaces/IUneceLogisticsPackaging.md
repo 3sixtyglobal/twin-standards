@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicablePackagingInstructions?
 
-> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)[]
+> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)
 
 Instructions applicable to this logistics packaging.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicablePackagingInstructions
 
 ### capacityMeasure?
 
-> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a capacity of this logistics packaging.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/conditionCode
 
 ### containedPackage?
 
-> `optional` **containedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
+> `optional` **containedPackage**: [`IUnecePackage`](IUnecePackage.md)
 
 A package contained in this logistics packaging.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/containedPackage
 
 ### contentLayerQuantity?
 
-> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A number of content layers in this logistics packaging.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/instructionIndicator
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 A linear dimension or a set of linear dimensions of this logistics packaging.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/logisticsPackagingLevelCode
 
 ### maximumStackabilityQuantity?
 
-> `optional` **maximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **maximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this type of logistics packaging which can be stacked on top of each other.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedMarking?
 
-> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)[]
+> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)
 
 A marking specified for this logistics packaging.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/specifiedMarking
 
 ### totalUnitQuantity?
 
-> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A total number of units contained in this logistics packaging.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/totalUnitQuantity
 
 ### transportMaximumStackabilityQuantity?
 
-> `optional` **transportMaximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **transportMaximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this type of logistics packaging which can be stacked vertically for transport operations.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 A measure of a weight (mass) of this logistics packaging.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/weightMeasure
 
 ### weightUnitLoadBearingCapabilityMeasure?
 
-> `optional` **weightUnitLoadBearingCapabilityMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitLoadBearingCapabilityMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of load bearing capability of this logistics packaging.
 

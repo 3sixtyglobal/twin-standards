@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedQuantity?
 
-> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 A quantity specified for this trade country.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/specifiedQuantity
 
 ### subordinateCountrySubDivision?
 
-> `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)[]
+> `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)
 
 A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
 

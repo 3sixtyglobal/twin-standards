@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/availabilityIndicator
 
 ### averageDemandQuantity?
 
-> `optional` **averageDemandQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **averageDemandQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The average demand quantity for this supply chain inventory.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/calculationDateTime
 
 ### dispositionDocument?
 
-> `optional` **dispositionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **dispositionDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 A disposition document referenced in this supply chain inventory.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/dispositionDocument
 
 ### includedBatch?
 
-> `optional` **includedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **includedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
 
 A product batch included in this supply chain inventory.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/includedBatch
 
 ### includedMaterial?
 
-> `optional` **includedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **includedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
 
 Material included in this supply chain inventory.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/includedMaterial
 
 ### includedTradeProduct?
 
-> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
 
 A product included in this supply chain inventory.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/includedTradeProduct
 
 ### maximumStockLevelMeasure?
 
-> `optional` **maximumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **maximumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum stock level for this supply chain inventory.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/maximumStockLevelMeasure
 
 ### maximumStockQuantity?
 
-> `optional` **maximumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **maximumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The maximum stock quantity in this CI supply chain inventory.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/maximumStockQuantity
 
 ### minimumStockLevelMeasure?
 
-> `optional` **minimumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **minimumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum stock level for this supply chain inventory.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/minimumStockLevelMeasure
 
 ### minimumStockQuantity?
 
-> `optional` **minimumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **minimumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The minimum stock quantity in this CI supply chain inventory.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/plannedStockCalculationDateTime
 
 ### plannedStockQuantity?
 
-> `optional` **plannedStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **plannedStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The planned stock quantity for this supply chain inventory.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/plannedStockQuantity
 
 ### remarkNote?
 
-> `optional` **remarkNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **remarkNote**: [`IUneceNote`](IUneceNote.md)
 
 A note containing a remark for this supply chain inventory.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/remarkNote
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location specified for this supply chain inventory.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 A supply chain event specified for this supply chain inventory.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 A trade party specified for this supply chain inventory.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### stockQuantity?
 
-> `optional` **stockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **stockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity of stock in this supply chain inventory.
 

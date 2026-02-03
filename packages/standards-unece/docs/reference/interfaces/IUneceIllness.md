@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/comment
 
 ### evacuationLocation?
 
-> `optional` **evacuationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **evacuationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 A logistics evacuation location for this MDH illness.
 

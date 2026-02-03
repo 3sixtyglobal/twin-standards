@@ -96,24 +96,15 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceStandard"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceStandard",
 			"description": "A referenced standard applicable to this specified assessment."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this specified assessment."
 		},
 		"assessedObject": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceObject"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceObject",
 			"description": "An object assessed for this specified assessment."
 		},
 		"assessorParty": {
@@ -121,10 +112,7 @@
 			"description": "The assessor party for this specified assessment."
 		},
 		"associatedBinaryFile": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
 			"description": "A binary file associated with this specified assessment."
 		},
 		"assuranceLevelCode": {
@@ -144,10 +132,7 @@
 			"description": "A name, expressed as text, for this specified assessment."
 		},
 		"relatedTradeTransaction": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeTransaction"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeTransaction",
 			"description": "A supply chain trade transaction related to this specified assessment."
 		},
 		"reportDateTime": {
@@ -179,10 +164,7 @@
 			"description": "The indication of whether or not this specified assessment is verified."
 		},
 		"verifierParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "A verifier party for this specified assessment."
 		}
 	},

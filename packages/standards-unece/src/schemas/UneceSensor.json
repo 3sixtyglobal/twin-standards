@@ -96,31 +96,19 @@
 			"description": "JSON-LD Type."
 		},
 		"actualReportedMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement",
 			"description": "An actual calibrated measurement reported for this monitoring sensor."
 		},
 		"definedControlSettingParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceControlSettingParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceControlSettingParameter",
 			"description": "A control setting parameter defined for this monitoring sensor."
 		},
 		"definedOperationalParameter": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceOperationalParameter"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceOperationalParameter",
 			"description": "An operational parameter defined for this monitoring sensor."
 		},
 		"grantedCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
 			"description": "A product certificate granted for this monitoring sensor."
 		},
 		"identifier": {
@@ -128,17 +116,11 @@
 			"description": "An identifier of this monitoring sensor."
 		},
 		"manufacturerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The manufacturer party for this monitoring sensor."
 		},
 		"ownerParty": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
 			"description": "The owner party of this monitoring sensor."
 		},
 		"positionCode": {
@@ -146,10 +128,7 @@
 			"description": "The code specifying a position of this monitoring sensor."
 		},
 		"precisionMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement",
 			"description": "A calibrated measurement of precision for this monitoring sensor."
 		},
 		"remainingBatteryChargePercent": {
@@ -157,10 +136,7 @@
 			"description": "The percentage of the remaining battery charge of this monitoring sensor."
 		},
 		"scheduledReportedMeasurement": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement",
 			"description": "A scheduled calibrated measurement reported for this monitoring sensor."
 		},
 		"typeCode": {
@@ -168,10 +144,7 @@
 			"description": "The code specifying a type of monitoring sensor."
 		},
 		"valueMeasure": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
 			"description": "The measure of the value for this monitoring sensor."
 		}
 	},

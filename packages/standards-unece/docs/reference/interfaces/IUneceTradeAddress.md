@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalStreetName
 
 ### addressTypeCode?
 
-> `optional` **addressTypeCode**: [`UneceAddressTypeCodeList`](../type-aliases/UneceAddressTypeCodeList.md)[]
+> `optional` **addressTypeCode**: [`UneceAddressTypeCodeList`](../type-aliases/UneceAddressTypeCodeList.md)
 
 A code specifying the type of this trade address, such as business address or home address.
 

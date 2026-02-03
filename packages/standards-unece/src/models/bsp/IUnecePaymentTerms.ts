@@ -33,13 +33,13 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * Trade payment discount terms applicable to these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/applicablePaymentDiscountTerms
 	 */
-	applicablePaymentDiscountTerms?: IUnecePaymentDiscountTerms[];
+	applicablePaymentDiscountTerms?: IUnecePaymentDiscountTerms;
 
 	/**
 	 * Trade payment penalty terms applicable to these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/applicablePaymentPenaltyTerms
 	 */
-	applicablePaymentPenaltyTerms?: IUnecePaymentPenaltyTerms[];
+	applicablePaymentPenaltyTerms?: IUnecePaymentPenaltyTerms;
 
 	/**
 	 * The date, time, date time, or other date time value of the bill start specified by these trade payment terms.
@@ -72,7 +72,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * be transferred.
 	 * @see https://vocabulary.uncefact.org/equivalentAmount
 	 */
-	equivalentAmount?: IUneceAmountType[];
+	equivalentAmount?: IUneceAmountType;
 
 	/**
 	 * Information, expressed as text, for these trade payment terms.
@@ -85,7 +85,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * before deduction of charges.
 	 * @see https://vocabulary.uncefact.org/instructedAmount
 	 */
-	instructedAmount?: IUneceAmountType[];
+	instructedAmount?: IUneceAmountType;
 
 	/**
 	 * A code specifying an instruction for these trade payment terms.
@@ -97,7 +97,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * A monetary value of a partial payment in these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/partialPaymentAmount
 	 */
-	partialPaymentAmount?: IUneceAmountType[];
+	partialPaymentAmount?: IUneceAmountType;
 
 	/**
 	 * A partial payment, expressed as a percent, in these trade payment terms.
@@ -109,7 +109,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * A payee party in these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/payeeParty
 	 */
-	payeeParty?: IUneceTradeParty[];
+	payeeParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the event from which these trade payment terms are offered for a length of time.
@@ -121,7 +121,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * The unique identifier of these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsId
 	 */
-	paymentTermsId?: UnecePaymentTermsId[];
+	paymentTermsId?: UnecePaymentTermsId;
 
 	/**
 	 * A code specifying the type of trade payment terms.
@@ -134,7 +134,7 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * such as 30 days, 3 months.
 	 * @see https://vocabulary.uncefact.org/settlementPeriodMeasure
 	 */
-	settlementPeriodMeasure?: IUneceMeasureType[];
+	settlementPeriodMeasure?: IUneceMeasureType;
 
 	/**
 	 * An identifier of a direct debit mandate in these trade payment terms.

@@ -41,13 +41,13 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * A pet animal accompanying this guest person.
 	 * @see https://vocabulary.uncefact.org/accompanyingAnimal
 	 */
-	accompanyingAnimal?: IUnecePetAnimal[];
+	accompanyingAnimal?: IUnecePetAnimal;
 
 	/**
 	 * A note applicable to this guest person.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedNote
 	 */
-	applicableSpecifiedNote?: IUneceSpecifiedNote[];
+	applicableSpecifiedNote?: IUneceSpecifiedNote;
 
 	/**
 	 * The date, time, date time, or other date time value which specifies the birth date for this guest.
@@ -59,13 +59,13 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * A certificate carried by this guest person.
 	 * @see https://vocabulary.uncefact.org/carriedCertificate
 	 */
-	carriedCertificate?: IUneceSpecifiedCertificate[];
+	carriedCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * Personal language proficiency skills claimed by this guest person.
 	 * @see https://vocabulary.uncefact.org/claimedLanguageProficiency
 	 */
-	claimedLanguageProficiency?: IUneceLanguageProficiency[];
+	claimedLanguageProficiency?: IUneceLanguageProficiency;
 
 	/**
 	 * A textual description of this guest person.
@@ -77,7 +77,7 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * The measure of the age of this guest person.
 	 * @see https://vocabulary.uncefact.org/durationUnitAgeMeasure
 	 */
-	durationUnitAgeMeasure?: IUneceDurationUnitMeasureType[];
+	durationUnitAgeMeasure?: IUneceDurationUnitMeasureType;
 
 	/**
 	 * The code specifying the gender of this guest, such as male, female.
@@ -107,43 +107,43 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * An allergy notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedAllergy
 	 */
-	notifiedAllergy?: IUneceAllergy[];
+	notifiedAllergy?: IUneceAllergy;
 
 	/**
 	 * A disability notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedDisability
 	 */
-	notifiedDisability?: IUneceDisability[];
+	notifiedDisability?: IUneceDisability;
 
 	/**
 	 * A food choice notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedFoodChoice
 	 */
-	notifiedFoodChoice?: IUneceFoodChoice[];
+	notifiedFoodChoice?: IUneceFoodChoice;
 
 	/**
 	 * An arrival notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedGuestArrival
 	 */
-	notifiedGuestArrival?: IUneceGuestArrival[];
+	notifiedGuestArrival?: IUneceGuestArrival;
 
 	/**
 	 * A health indication notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedHealthIndication
 	 */
-	notifiedHealthIndication?: IUneceGuestHealthIndication[];
+	notifiedHealthIndication?: IUneceGuestHealthIndication;
 
 	/**
 	 * An experience item preference notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedPreference
 	 */
-	notifiedPreference?: IUnecePreference[];
+	notifiedPreference?: IUnecePreference;
 
 	/**
 	 * A disease protection means notified for this guest person.
 	 * @see https://vocabulary.uncefact.org/notifiedProtectionMeans
 	 */
-	notifiedProtectionMeans?: IUneceProtectionMeans[];
+	notifiedProtectionMeans?: IUneceProtectionMeans;
 
 	/**
 	 * The identifier of the passport of this guest.
@@ -155,7 +155,7 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * A special query raised for this guest person.
 	 * @see https://vocabulary.uncefact.org/raisedQuery
 	 */
-	raisedQuery?: IUneceSpecialQuery[];
+	raisedQuery?: IUneceSpecialQuery;
 
 	/**
 	 * The identifier of the residence country of this guest person.
@@ -173,13 +173,13 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * Carried equipment specified for this guest person.
 	 * @see https://vocabulary.uncefact.org/specifiedCarriedEquipment
 	 */
-	specifiedCarriedEquipment?: IUneceCarriedEquipment[];
+	specifiedCarriedEquipment?: IUneceCarriedEquipment;
 
 	/**
 	 * A trade settlement payment means specified for this guest person.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans[];
+	specifiedPaymentMeans?: IUnecePaymentMeans;
 
 	/**
 	 * A title, expressed as text, associated with this guest person, such as Doctor, Mr., Mrs., Ms.
@@ -197,11 +197,11 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * A travel insurance certificate for this guest person.
 	 * @see https://vocabulary.uncefact.org/travelInsuranceCertificate
 	 */
-	travelInsuranceCertificate?: IUneceSpecifiedCertificate[];
+	travelInsuranceCertificate?: IUneceSpecifiedCertificate;
 
 	/**
 	 * A universal communication used by this guest.
 	 * @see https://vocabulary.uncefact.org/usedCommunication
 	 */
-	usedCommunication?: IUneceCommunication[];
+	usedCommunication?: IUneceCommunication;
 }

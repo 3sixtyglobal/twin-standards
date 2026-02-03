@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableFinancialCard
 
 ### creditorSpecifiedFinancialInstitution?
 
-> `optional` **creditorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
+> `optional` **creditorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)
 
 A creditor financial institution specified for this trade settlement payment means.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/creditorSpecifiedFinancialInstitution
 
 ### debtorSpecifiedFinancialInstitution?
 
-> `optional` **debtorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
+> `optional` **debtorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)
 
 A debtor financial institution specified for this trade settlement payment means.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/debtorSpecifiedFinancialInstitution
 
 ### identifiedCash?
 
-> `optional` **identifiedCash**: [`IUneceCash`](IUneceCash.md)[]
+> `optional` **identifiedCash**: [`IUneceCash`](IUneceCash.md)
 
 A cash payment identified for this trade settlement payment means.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifiedCash
 
 ### identifiedCheque?
 
-> `optional` **identifiedCheque**: [`IUneceCheque`](IUneceCheque.md)[]
+> `optional` **identifiedCheque**: [`IUneceCheque`](IUneceCheque.md)
 
 A cheque payment identified for this trade settlement payment means.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifiedCheque
 
 ### identifiedDigitalMethod?
 
-> `optional` **identifiedDigitalMethod**: [`IUneceDigitalMethod`](IUneceDigitalMethod.md)[]
+> `optional` **identifiedDigitalMethod**: [`IUneceDigitalMethod`](IUneceDigitalMethod.md)
 
 A digital payment method identified for this trade settlement payment means.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/identifiedDigitalMethod
 
 ### identifiedFinancialCard?
 
-> `optional` **identifiedFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)[]
+> `optional` **identifiedFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)
 
 A financial card identified for this trade settlement payment means.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/identifiedFinancialCard
 
 ### identifiedVoucher?
 
-> `optional` **identifiedVoucher**: [`IUneceVoucher`](IUneceVoucher.md)[]
+> `optional` **identifiedVoucher**: [`IUneceVoucher`](IUneceVoucher.md)
 
 An experience item voucher identified for this trade settlement payment means.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/information
 
 ### paidAmount?
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value to be paid by this trade settlement payment means.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ### payeePartyFinancialAccount?
 
-> `optional` **payeePartyFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **payeePartyFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 A creditor financial account of the payee party for this trade settlement payment means.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/payeePartyFinancialAccount
 
 ### payeeSpecifiedFinancialInstitution?
 
-> `optional` **payeeSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)[]
+> `optional` **payeeSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
 The creditor financial institution of the payee party specified for this trade settlement payment means.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/payeeSpecifiedFinancialInstitution
 
 ### payerPartyFinancialAccount?
 
-> `optional` **payerPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)[]
+> `optional` **payerPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)
 
 The debtor financial account of the payer party for this trade settlement payment means.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/payerPartyFinancialAccount
 
 ### payerSpecifiedFinancialInstitution?
 
-> `optional` **payerSpecifiedFinancialInstitution**: [`IUneceDebtorFinancialInstitution`](IUneceDebtorFinancialInstitution.md)[]
+> `optional` **payerSpecifiedFinancialInstitution**: [`IUneceDebtorFinancialInstitution`](IUneceDebtorFinancialInstitution.md)
 
 The debtor financial institution of the payer party specified for this trade settlement payment means.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/paymentMeansType
 
 ### paymentMeansTypeCode?
 
-> `optional` **paymentMeansTypeCode**: [`UnecePaymentMeansCodeList`](../type-aliases/UnecePaymentMeansCodeList.md)[]
+> `optional` **paymentMeansTypeCode**: [`UnecePaymentMeansCodeList`](../type-aliases/UnecePaymentMeansCodeList.md)
 
 The code specifying the type of trade settlement payment means, such as cash or check.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/paymentMethodCode
 
 ### specifiedCreditorFinancialAccount?
 
-> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 A creditor financial account specified for this trade settlement payment means.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 
 ### specifiedPaymentFinancialInstitution?
 
-> `optional` **specifiedPaymentFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
+> `optional` **specifiedPaymentFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)
 
 A financial institution specified for this trade settlement payment means.
 

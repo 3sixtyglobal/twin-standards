@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"specifiedXHEIdentity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceXHEIdentity"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceXHEIdentity",
 			"description": "Identifying information specified for an XHE party."
 		}
 	},

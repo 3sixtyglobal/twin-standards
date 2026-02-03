@@ -40,7 +40,7 @@ export interface IUnecePicture extends IJsonLdNodeObject {
 	 * A binary file attached to this photographic picture.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile[];
+	attachedBinaryFile?: IUneceBinaryFile;
 
 	/**
 	 * The name of the copyright owner, expressed as text, for this photographic picture.
@@ -82,7 +82,7 @@ export interface IUnecePicture extends IJsonLdNodeObject {
 	 * Linear spatial dimensions of this photographic picture.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension[];
+	linearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The type, expressed as text, of this photographic picture.
@@ -118,7 +118,7 @@ export interface IUnecePicture extends IJsonLdNodeObject {
 	 * A note specified for this photographic picture.
 	 * @see https://vocabulary.uncefact.org/specifiedNote
 	 */
-	specifiedNote?: IUneceNote[];
+	specifiedNote?: IUneceNote;
 
 	/**
 	 * The subject, expressed as text, of this photographic picture.

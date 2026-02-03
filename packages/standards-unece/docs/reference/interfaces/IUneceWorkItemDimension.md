@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### componentDimension?
 
-> `optional` **componentDimension**: `IUneceWorkItemDimension`[]
+> `optional` **componentDimension**: `IUneceWorkItemDimension`
 
 A work item component dimension for this work item dimension.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/componentDimension
 
 ### componentWorkItemDimension?
 
-> `optional` **componentWorkItemDimension**: `IUneceWorkItemDimension`[]
+> `optional` **componentWorkItemDimension**: `IUneceWorkItemDimension`
 
 A work item component dimension for this work item dimension.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measured value for this work item dimension.
 

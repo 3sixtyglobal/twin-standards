@@ -96,17 +96,11 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableProcessCertificate": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
 			"description": "A process certificate applicable to this specified product finishing treatment."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
 			"description": "A sustainability characteristic applicable to this specified product finishing treatment."
 		},
 		"description": {
@@ -122,10 +116,7 @@
 			"description": "The code specifying the type of product finishing treatment."
 		},
 		"usedMaterial": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
 			"description": "Material used for this specified product finishing treatment."
 		}
 	},

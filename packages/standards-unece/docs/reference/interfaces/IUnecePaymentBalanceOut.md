@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### calculatedAmount?
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 A monetary value calculated for this payment balance out.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableTechnicalCharacteristic?
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
 
 A technical characteristic applicable to this TT location.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode?
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
+> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 The code specifying the type of TT location.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/name
 
 ### responsibleTTParty?
 
-> `optional` **responsibleTTParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
+> `optional` **responsibleTTParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
 The party responsible for this TT location.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/responsibleTTParty
 
 ### specifiedAnimalHoldingEvent?
 
-> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
+> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)
 
 An animal holding event specified for this TT location.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 
 ### specifiedGeographicalArea?
 
-> `optional` **specifiedGeographicalArea**: [`IUneceGeographicalArea`](IUneceGeographicalArea.md)[]
+> `optional` **specifiedGeographicalArea**: [`IUneceGeographicalArea`](IUneceGeographicalArea.md)
 
 The geographical area specified for this TT location.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/specifiedGeographicalArea
 
 ### specifiedTTAnimal?
 
-> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
+> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)
 
 An animal specified for this TT location.
 

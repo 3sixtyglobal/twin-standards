@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/spanishDomesticInterbankingId
 
 ### subDivisionFinancialInstitution?
 
-> `optional` **subDivisionFinancialInstitution**: [`IUneceBranchFinancialInstitution`](IUneceBranchFinancialInstitution.md)[]
+> `optional` **subDivisionFinancialInstitution**: [`IUneceBranchFinancialInstitution`](IUneceBranchFinancialInstitution.md)
 
 The branch financial institution for this debtor financial institution.
 

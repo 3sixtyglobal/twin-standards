@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"acceptedTransactionOriginalTotalAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "An original total monetary value of accepted transactions in this financing summary document."
 		},
 		"financedAppliedRatePercent": {
@@ -107,38 +104,23 @@
 			"description": "The financed applied rate, expressed as a percentage, in this financing summary document."
 		},
 		"financedTotalAmount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
 			"description": "A financed total monetary value in this financing summary document."
 		},
 		"financedTransactionSpecifiedQuantity": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
 			"description": "The number of financed transactions specified in this financing summary document."
 		},
 		"lineOfCreditSpecifiedFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceFinancingFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceFinancingFinancialAccount",
 			"description": "The financing financial account, used for managing the line of credit, specified for this financing summary document."
 		},
 		"relatedBooking": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceBooking"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceBooking",
 			"description": "The financial booking related to this financing summary document."
 		},
 		"specifiedCreditorFinancialAccount": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount",
 			"description": "The creditor financial account, used for crediting, specified for this financing summary document."
 		}
 	},

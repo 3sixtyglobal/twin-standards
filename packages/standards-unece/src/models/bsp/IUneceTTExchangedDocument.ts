@@ -45,13 +45,13 @@ export interface IUneceTTExchangedDocument extends IJsonLdNodeObject {
 	 * The receiving party specified for this TT exchanged document.
 	 * @see https://vocabulary.uncefact.org/receiverSpecifiedParty
 	 */
-	receiverSpecifiedParty?: IUneceTTParty[];
+	receiverSpecifiedParty?: IUneceTTParty;
 
 	/**
 	 * The sending party specified for this TT exchanged document.
 	 * @see https://vocabulary.uncefact.org/senderSpecifiedParty
 	 */
-	senderSpecifiedParty?: IUneceTTParty[];
+	senderSpecifiedParty?: IUneceTTParty;
 
 	/**
 	 * The code specifying a purpose of this TT exchanged document.

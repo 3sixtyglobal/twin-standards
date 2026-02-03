@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/productName
 
 ### sizeMeasure?
 
-> `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The size, expressed as a measure, for this crop produce batch.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/sizeMeasure
 
 ### specifiedAgriculturalCertificate?
 
-> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
+> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)
 
 An agricultural certificate specified for this crop produce batch.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ### specifiedAgriculturalCharacteristic?
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
+> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)
 
 An agricultural characteristic specified for this crop produce batch.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ### specifiedProduce?
 
-> `optional` **specifiedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
+> `optional` **specifiedProduce**: [`IUneceProduce`](IUneceProduce.md)
 
 A crop produce specified for this crop produce batch.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedProduce
 
 ### specifiedQuantity?
 
-> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity specified for this crop produce batch.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units, expressed as a quantity, for this crop produce batch.
 

@@ -29,13 +29,13 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * A product certificate applicable to this transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate[];
+	applicableProductCertificate?: IUneceProductCertificate;
 
 	/**
 	 * A sustainability characteristic applicable to this transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
 
 	/**
 	 * A textual description for this transportation waste material component.
@@ -47,25 +47,25 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * The estimated measure for this generated transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/estimatedGeneratedMeasure
 	 */
-	estimatedGeneratedMeasure?: IUneceVolumeUnitMeasureType[];
+	estimatedGeneratedMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * The measure of the maximum dedicated storage capacity for this transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/maximumDedicatedStorageCapacityMeasure
 	 */
-	maximumDedicatedStorageCapacityMeasure?: IUneceVolumeUnitMeasureType[];
+	maximumDedicatedStorageCapacityMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * The planned measure for this discharged transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/plannedDischargedMeasure
 	 */
-	plannedDischargedMeasure?: IUneceVolumeUnitMeasureType[];
+	plannedDischargedMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * A delivery event for this remaining transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/remainingDeliveryEvent
 	 */
-	remainingDeliveryEvent?: IUneceTransportEvent[];
+	remainingDeliveryEvent?: IUneceTransportEvent;
 
 	/**
 	 * A code specifying a type of transportation waste material component.
@@ -77,11 +77,11 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * The measure of this received transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/volumeUnitReceivedMeasure
 	 */
-	volumeUnitReceivedMeasure?: IUneceVolumeUnitMeasureType[];
+	volumeUnitReceivedMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * The measure for this retained transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/volumeUnitRetainedMeasure
 	 */
-	volumeUnitRetainedMeasure?: IUneceVolumeUnitMeasureType[];
+	volumeUnitRetainedMeasure?: IUneceVolumeUnitMeasureType;
 }

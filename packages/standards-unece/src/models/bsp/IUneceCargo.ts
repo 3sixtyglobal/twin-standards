@@ -28,19 +28,19 @@ export interface IUneceCargo extends IJsonLdNodeObject {
 	 * The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo.
 	 * @see https://vocabulary.uncefact.org/cargoCategoryTypeCode
 	 */
-	cargoCategoryTypeCode?: UneceCargoCategoryCodeList[];
+	cargoCategoryTypeCode?: UneceCargoCategoryCodeList;
 
 	/**
 	 * The code specifying a statistical classification for this transport cargo.
 	 * @see https://vocabulary.uncefact.org/cargoCommodityCategoryStatisticalClassificationCode
 	 */
-	cargoCommodityCategoryStatisticalClassificationCode?: UneceCargoCommodityCategoryCodeList[];
+	cargoCommodityCategoryStatisticalClassificationCode?: UneceCargoCommodityCategoryCodeList;
 
 	/**
 	 * The code specifying the operational category for this transport cargo, such as obnoxious or military.
 	 * @see https://vocabulary.uncefact.org/cargoOperationalCategoryCode
 	 */
-	cargoOperationalCategoryCode?: UneceCargoOperationalCategoryCodeList[];
+	cargoOperationalCategoryCode?: UneceCargoOperationalCategoryCodeList;
 
 	/**
 	 * Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or

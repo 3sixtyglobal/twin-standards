@@ -40,19 +40,19 @@ export interface IUneceLaboratoryObservationParty extends IJsonLdNodeObject {
 	 * The office address of this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/officeAddress
 	 */
-	officeAddress?: IUneceTradeAddress[];
+	officeAddress?: IUneceTradeAddress;
 
 	/**
 	 * The person defined as the contact for this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/personDefinedContact
 	 */
-	personDefinedContact?: IUneceLaboratoryObservationContact[];
+	personDefinedContact?: IUneceLaboratoryObservationContact;
 
 	/**
 	 * The postal address of this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress[];
+	postalAddress?: IUneceTradeAddress;
 
 	/**
 	 * An alternate identifier issued by a third party for this laboratory observation party.
@@ -70,5 +70,5 @@ export interface IUneceLaboratoryObservationParty extends IJsonLdNodeObject {
 	 * The website URI (Uniform Resource Identifier) of this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/websiteURICommunication
 	 */
-	websiteURICommunication?: IUneceCommunication[];
+	websiteURICommunication?: IUneceCommunication;
 }
