@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { LeftOperandType } from "./types/leftOperandType.js";
 import type { OperatorType } from "./types/operatorType.js";
@@ -30,7 +31,7 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 	 * value with optional @type is used for literal values (like "5.00" with type "xsd:decimal")
 	 * id is used when referencing a URI/identifier (like odrl:policyUsage)
 	 */
-	rightOperand?:
+	rightOperand?: ObjectOrArray<
 		| string
 		| {
 				"@value": string;
@@ -38,12 +39,14 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 		  }
 		| {
 				"@id": string;
-		  };
+		  }
+	>;
 
 	/**
 	 * Reference to the right operand.
+	 * Can be used to reference external resources or policies using an IRI.
 	 */
-	rightOperandReference?: string;
+	rightOperandReference?: ObjectOrArray<string>;
 
 	/**
 	 * The data type of the right operand.
