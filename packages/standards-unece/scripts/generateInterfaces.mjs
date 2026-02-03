@@ -762,7 +762,6 @@ async function main() {
 	const csvMapping = {};
 
 	for (const row of csvData) {
-		console.log(row);
 		const cctsKey = [
 			row.objectClassTerm,
 			row.propertyTerm,
