@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.28](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.27...standards-w3c-odrl-v0.0.3-next.28) (2026-02-03)
+
+
+### Bug Fixes
+
+* odrl constraint right operand as array ([91c5bf6](https://github.com/twinfoundation/standards/commit/91c5bf6f12f5e2f57d22352b17a50cdf249059e3))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.27 to 0.0.3-next.28
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.27 to 0.0.3-next.28
+
 ## [0.0.3-next.27](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.26...standards-w3c-odrl-v0.0.3-next.27) (2026-02-03)
 
 
