@@ -100,11 +100,17 @@
 			"description": "An applicable toxicological hazardous material for this distinct chemical."
 		},
 		"applicableProductCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
+			},
 			"description": "A product characteristic applicable to this distinct chemical."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this distinct chemical."
 		},
 		"commonName": {
@@ -128,11 +134,17 @@
 			"description": "A measure of the mass of this distinct chemical."
 		},
 		"massRatioMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A mass measure of this distinct chemical expressed as a ratio to another mass, such as the total mass."
 		},
 		"molecularWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The measure of the molecular weight (in grams) for this distinct chemical."
 		},
 		"presenceMeasurement": {
@@ -148,7 +160,10 @@
 			"description": "The scientific name, expressed as text, for this distinct chemical."
 		},
 		"specifiedProductCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
+			},
 			"description": "A product certificate specified for this distinct chemical."
 		},
 		"synonymName": {
@@ -160,11 +175,17 @@
 			"description": "The code specifying the type of distinct chemical."
 		},
 		"volumeMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the volume of this distinct chemical."
 		},
 		"volumeRatioMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the volume of this distinct chemical expressed as a ratio to another volume, such as the total volume."
 		},
 		"weightMeasure": {

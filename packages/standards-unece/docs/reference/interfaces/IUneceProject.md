@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/netBudgetAmount
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
 
 The inspection event specified for this procuring project.
 

@@ -100,7 +100,10 @@
 			"description": "The unique identifier for this trade geopolitical region."
 		},
 		"includedCountry": {
-			"$ref": "https://schema.twindev.org/unece/UneceCountry",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCountry"
+			},
 			"description": "A country included in this trade geopolitical region."
 		},
 		"name": {

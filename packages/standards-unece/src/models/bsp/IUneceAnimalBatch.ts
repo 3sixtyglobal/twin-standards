@@ -76,13 +76,13 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
 
 	/**
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod;
+	specifiedPeriod?: IUneceDelimitedPeriod[];
 
 	/**
 	 * The number of units, expressed as a quantity, for this animal batch.

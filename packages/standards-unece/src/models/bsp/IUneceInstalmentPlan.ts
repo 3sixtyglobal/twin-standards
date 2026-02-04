@@ -26,5 +26,5 @@ export interface IUneceInstalmentPlan extends IJsonLdNodeObject {
 	 * An instalment payment specified for this instalment plan.
 	 * @see https://vocabulary.uncefact.org/specifiedInstalmentPayment
 	 */
-	specifiedInstalmentPayment?: IUneceInstalmentPayment;
+	specifiedInstalmentPayment: IUneceInstalmentPayment[];
 }

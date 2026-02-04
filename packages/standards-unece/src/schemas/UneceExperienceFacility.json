@@ -100,7 +100,10 @@
 			"description": "An architectural style, expressed as text, of this experience facility."
 		},
 		"availableRoute": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedRoute",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedRoute"
+			},
 			"description": "An available route specified for this experience facility."
 		},
 		"completionDateTime": {
@@ -136,11 +139,17 @@
 			"description": "A physical location specified for this experience facility."
 		},
 		"specifiedCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "A specified universal communication for this experience facility."
 		},
 		"usedSource": {
-			"$ref": "https://schema.twindev.org/unece/UneceSource",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSource"
+			},
 			"description": "A water source used by this experience facility."
 		}
 	},

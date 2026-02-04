@@ -40,13 +40,13 @@ export interface IUneceConvoy extends IJsonLdNodeObject {
 	 * A means of transport actively powering this logistics convoy.
 	 * @see https://vocabulary.uncefact.org/powerActiveTransportMeans
 	 */
-	powerActiveTransportMeans?: IUneceLogisticsTransportMeans;
+	powerActiveTransportMeans?: IUneceLogisticsTransportMeans[];
 
 	/**
 	 * A means of transport not actively powering this logistics convoy.
 	 * @see https://vocabulary.uncefact.org/powerInactiveTransportMeans
 	 */
-	powerInactiveTransportMeans?: IUneceLogisticsTransportMeans;
+	powerInactiveTransportMeans?: IUneceLogisticsTransportMeans[];
 
 	/**
 	 * The number of means of transport in this logistics convoy.

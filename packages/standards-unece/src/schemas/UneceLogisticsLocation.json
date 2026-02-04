@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedGeographicalFeature": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
+			},
 			"description": "A geographical feature associated with this logistics location."
 		},
 		"countryName": {
@@ -112,7 +115,10 @@
 			"description": "A textual description of this logistics related location."
 		},
 		"facilityLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A facility location referenced for this logistics location."
 		},
 		"healthAffectedAreaIndicator": {
@@ -124,7 +130,10 @@
 			"description": "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
 		},
 		"inspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A supply chain inspection event at this logistics location."
 		},
 		"locationFunctionTypeCode": {
@@ -144,27 +153,45 @@
 			"description": "Geographical coordinate information for this logistics related location."
 		},
 		"postalAddress": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
+			},
 			"description": "The postal trade address information for this logistics related location."
 		},
 		"previousAssociatedGeographicalFeature": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
+			},
 			"description": "A geographical feature previously associated with this logistics location."
 		},
 		"servicingSpecifiedParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocationParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocationParty"
+			},
 			"description": "A servicing party specified for this logistics related location."
 		},
 		"specifiedInspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent"
+			},
 			"description": "An inspection event specified for this logistics location."
 		},
 		"stayPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
+			},
 			"description": "A period of stay at this logistics location."
 		},
 		"subordinateRelatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
+			},
 			"description": "A logistics location subordinate to this logistics location."
 		},
 		"subordinateSubordinateLocation": {

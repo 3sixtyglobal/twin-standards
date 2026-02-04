@@ -31,7 +31,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * An actual complex description for this basic work item.
 	 * @see https://vocabulary.uncefact.org/actualComplexDescription
 	 */
-	actualComplexDescription?: IUneceComplexDescription;
+	actualComplexDescription?: IUneceComplexDescription[];
 
 	/**
 	 * A code specifying an alternative classification for this basic work item.
@@ -43,13 +43,13 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * A specified binary file referenced by this basic work item.
 	 * @see https://vocabulary.uncefact.org/binaryFile
 	 */
-	binaryFile?: IUneceBinaryFile;
+	binaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A changed recorded status for this basic work item.
 	 * @see https://vocabulary.uncefact.org/changedStatus
 	 */
-	changedStatus?: IUneceRecordedStatus;
+	changedStatus?: IUneceRecordedStatus[];
 
 	/**
 	 * A comment, expressed as text, for this basic work item.
@@ -79,13 +79,13 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * A basic work item in this basic work item.
 	 * @see https://vocabulary.uncefact.org/itemBasicWorkItem
 	 */
-	itemBasicWorkItem?: IUneceBasicWorkItem;
+	itemBasicWorkItem?: IUneceBasicWorkItem[];
 
 	/**
 	 * The unique identifier of a price list item for this basic work item.
 	 * @see https://vocabulary.uncefact.org/priceListItemId
 	 */
-	priceListItemId?: string;
+	priceListItemId: string;
 
 	/**
 	 * A code specifying the primary classification for this basic work item.
@@ -97,7 +97,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * The unique identifier of another work item referenced by this basic work item.
 	 * @see https://vocabulary.uncefact.org/referenceId
 	 */
-	referenceId?: string;
+	referenceId: string;
 
 	/**
 	 * A code specifying a requested action for this basic work item.
@@ -109,7 +109,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * A total calculated price for this basic work item.
 	 * @see https://vocabulary.uncefact.org/totalPrice
 	 */
-	totalPrice?: IUneceCalculatedPrice;
+	totalPrice?: IUneceCalculatedPrice[];
 
 	/**
 	 * The total quantity for this basic work item.
@@ -121,7 +121,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * An analysis of the total quantity for this basic work item.
 	 * @see https://vocabulary.uncefact.org/totalQuantityAnalysis
 	 */
-	totalQuantityAnalysis?: IUneceQuantityAnalysis;
+	totalQuantityAnalysis?: IUneceQuantityAnalysis[];
 
 	/**
 	 * The code specifying the classification of the total quantity for this basic work item.
@@ -139,5 +139,5 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * A unit calculated price for this basic work item.
 	 * @see https://vocabulary.uncefact.org/unitPrice
 	 */
-	unitPrice?: IUneceCalculatedPrice;
+	unitPrice?: IUneceCalculatedPrice[];
 }

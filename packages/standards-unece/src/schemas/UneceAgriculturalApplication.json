@@ -96,23 +96,38 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this agricultural application."
 		},
 		"appliedArea": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalZoneArea"
+			},
 			"description": "A specified agricultural application applied to this agricultural zone area."
 		},
 		"appliedCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate"
+			},
 			"description": "An agricultural certificate applied to this specified agricultural application."
 		},
 		"appliedChemicalTreatment": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedChemicalTreatment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedChemicalTreatment"
+			},
 			"description": "A specified chemical treatment applied to this agricultural application."
 		},
 		"appliedMaterial": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
+			},
 			"description": "Specified material applied to this agricultural application."
 		},
 		"identifier": {
@@ -120,15 +135,24 @@
 			"description": "The identifier for this specified agricultural application."
 		},
 		"specifiedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A referenced location specified for this specified agricultural application."
 		},
 		"specifiedPlot": {
-			"$ref": "https://schema.twindev.org/unece/UnecePlot",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePlot"
+			},
 			"description": "A crop plot specified for this agricultural application."
 		},
 		"specifiedProductBatch": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
+			},
 			"description": "A product batch specified for this specified agricultural application."
 		}
 	},

@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/disposalInstructionsRecyclingDescriptionCode
 
 ***
 
-### handling?
+### handling
 
-> `optional` **handling**: `string`
+> **handling**: `string`
 
 The handling, expressed as text, in this set of disposal instructions.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/materialId
 
 ***
 
-### rCRAHandling?
+### rCRAHandling
 
-> `optional` **rCRAHandling**: `string`
+> **rCRAHandling**: `string`
 
 The Resource Conservation and Recovery Act (RCRA) handling, expressed as text, in this set of disposal instructions.
 

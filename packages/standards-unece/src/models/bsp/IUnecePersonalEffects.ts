@@ -32,7 +32,7 @@ export interface IUnecePersonalEffects extends IJsonLdNodeObject {
 	 * An onboard number of these specified personal effects.
 	 * @see https://vocabulary.uncefact.org/onboardQuantity
 	 */
-	onboardQuantity?: IUneceQuantityType;
+	onboardQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A sequence number for these specified personal effects.

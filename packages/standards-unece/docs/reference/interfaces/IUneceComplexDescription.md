@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### requestingQuery?
 
-> `optional` **requestingQuery**: [`IUneceSpecificationQuery`](IUneceSpecificationQuery.md)
+> `optional` **requestingQuery**: [`IUneceSpecificationQuery`](IUneceSpecificationQuery.md)[]
 
 A requesting specification query for this work item complex description.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/requestingQuery
 
 ### respondingResponse?
 
-> `optional` **respondingResponse**: [`IUneceResponse`](IUneceResponse.md)
+> `optional` **respondingResponse**: [`IUneceResponse`](IUneceResponse.md)[]
 
 A responding specification response for this work item complex description.
 

@@ -44,7 +44,7 @@ export interface IUneceCarriedEquipment extends IJsonLdNodeObject {
 	 * A specification note for this guest carried equipment.
 	 * @see https://vocabulary.uncefact.org/specificationNote
 	 */
-	specificationNote?: IUneceSpecifiedNote;
+	specificationNote?: IUneceSpecifiedNote[];
 
 	/**
 	 * The code specifying the type of guest carried equipment.

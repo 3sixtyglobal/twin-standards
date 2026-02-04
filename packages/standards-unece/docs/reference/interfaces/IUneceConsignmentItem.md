@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/applicableDangerousGoods
 
 ### applicableNote?
 
-> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note providing information applicable to this supply chain consignment item.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ### applicableRegulatoryProcedure?
 
-> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)
+> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)[]
 
 A cross-border regulatory procedure applicable to this supply chain consignment item.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/applicableRegulatoryProcedure
 
 ### applicableServiceCharge?
 
-> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)
+> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
 
 A logistics service charge applicable to this supply chain consignment item.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/applicableTransportMeans
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document associated with this referenced supply chain consignment item.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ### associatedTransportEquipment?
 
-> `optional` **associatedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)
+> `optional` **associatedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
 
 A referenced piece of transport equipment associated with this supply chain consignment item.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/associatedTransportEquipment
 
 ### borderClearanceInstructions?
 
-> `optional` **borderClearanceInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **borderClearanceInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Border clearance instructions for this supply chain consignment item.
 
@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/declaredValueForCarriageAmount
 
 ### declaredValueForCustomsAmount?
 
-> `optional` **declaredValueForCustomsAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **declaredValueForCustomsAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value of this supply chain consignment item as declared for customs purposes.
 
@@ -258,7 +258,7 @@ https://vocabulary.uncefact.org/deliveryParty
 
 ### deliveryTransportEvent?
 
-> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 The delivery event for this supply chain consignment item.
 
@@ -294,7 +294,7 @@ https://vocabulary.uncefact.org/destinationCountry
 
 ### examinationEvent?
 
-> `optional` **examinationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **examinationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 An examination event for this supply chain consignment item.
 
@@ -403,7 +403,7 @@ https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 
 ### goodsUnitQuantity?
 
-> `optional` **goodsUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **goodsUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity of goods, such as gaseous fuel systems or automotive parts, in this supply chain consignment item.
 
@@ -463,7 +463,7 @@ https://vocabulary.uncefact.org/importationCountry
 
 ### includedSupplyChainTradeLineItem?
 
-> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)
+> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
 A trade line item included in this supply chain consignment item.
 
@@ -499,7 +499,7 @@ https://vocabulary.uncefact.org/insuranceValueAmount
 
 ### invoiceAmount?
 
-> `optional` **invoiceAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **invoiceAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value for an invoice for this supply chain consignment item.
 
@@ -535,7 +535,7 @@ https://vocabulary.uncefact.org/linearUnitLoadingLengthMeasure
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The party which manufactured this supply chain consignment item.
 
@@ -559,7 +559,7 @@ https://vocabulary.uncefact.org/nationalTypeExtensionCode
 
 ### natureIdentificationCargo?
 
-> `optional` **natureIdentificationCargo**: [`IUneceCargo`](IUneceCargo.md)
+> `optional` **natureIdentificationCargo**: [`IUneceCargo`](IUneceCargo.md)[]
 
 Transport cargo details of this supply chain consignment item sufficient to identify its nature for customs, statistical
 or transport purposes.
@@ -572,7 +572,7 @@ https://vocabulary.uncefact.org/natureIdentificationCargo
 
 ### originCountry?
 
-> `optional` **originCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **originCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 The country of origin where this supply chain consignment item has been produced.
 
@@ -632,7 +632,7 @@ https://vocabulary.uncefact.org/physicalShippingMarks
 
 ### pickUpEvent?
 
-> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A pick-up transport event for this supply chain consignment item.
 
@@ -644,7 +644,7 @@ https://vocabulary.uncefact.org/pickUpEvent
 
 ### previousAdministrativeDocument?
 
-> `optional` **previousAdministrativeDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **previousAdministrativeDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A previous administrative referenced document for this supply chain consignment item.
 
@@ -656,7 +656,7 @@ https://vocabulary.uncefact.org/previousAdministrativeDocument
 
 ### quarantineInstructions?
 
-> `optional` **quarantineInstructions**: [`IUneceQuarantineInstructions`](IUneceQuarantineInstructions.md)
+> `optional` **quarantineInstructions**: [`IUneceQuarantineInstructions`](IUneceQuarantineInstructions.md)[]
 
 Quarantine instructions for this supply chain consignment item.
 
@@ -668,7 +668,7 @@ https://vocabulary.uncefact.org/quarantineInstructions
 
 ### reportedLogisticsStatus?
 
-> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)
+> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
 
 A logistics status reported for this supply chain consignment item.
 
@@ -716,7 +716,7 @@ https://vocabulary.uncefact.org/specialInstructions
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
 
 An inspection event specified for this supply chain consignment item.
 
@@ -728,7 +728,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ### specifiedRiskAnalysisResult?
 
-> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)
+> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
 
 Results of a logistics risk analysis specified for this supply chain consignment item.
 
@@ -752,7 +752,7 @@ https://vocabulary.uncefact.org/tariffQuantity
 
 ### totalChargeAmount?
 
-> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value of all freight and other service charges for this supply chain consignment item.
 
@@ -789,7 +789,7 @@ https://vocabulary.uncefact.org/tradeLineItemQuantity
 
 ### transitCountry?
 
-> `optional` **transitCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **transitCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A transit country for this supply chain consignment item.
 
@@ -813,7 +813,7 @@ https://vocabulary.uncefact.org/transportContractDocument
 
 ### transportPackage?
 
-> `optional` **transportPackage**: [`IUnecePackage`](IUnecePackage.md)
+> `optional` **transportPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
 A transport package for this supply chain consignment item.
 
@@ -888,7 +888,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.
 

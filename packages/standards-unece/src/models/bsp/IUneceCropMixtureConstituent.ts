@@ -26,11 +26,11 @@ export interface IUneceCropMixtureConstituent extends IJsonLdNodeObject {
 	 * The percent of the crop proportion of this field crop mixture constituent.
 	 * @see https://vocabulary.uncefact.org/cropProportionPercent
 	 */
-	cropProportionPercent?: string;
+	cropProportionPercent: string;
 
 	/**
 	 * The botanical crop specified for this field crop mixture constituent.
 	 * @see https://vocabulary.uncefact.org/specifiedBotanicalCrop
 	 */
-	specifiedBotanicalCrop?: IUneceBotanicalCrop;
+	specifiedBotanicalCrop: IUneceBotanicalCrop;
 }

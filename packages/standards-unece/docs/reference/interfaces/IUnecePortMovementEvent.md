@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### actualOccurrenceDateTime?
+### actualOccurrenceDateTime
 
-> `optional` **actualOccurrenceDateTime**: `string`
+> **actualOccurrenceDateTime**: `string`
 
 An actual date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### estimatedOccurrenceDateTime?
+### estimatedOccurrenceDateTime
 
-> `optional` **estimatedOccurrenceDateTime**: `string`
+> **estimatedOccurrenceDateTime**: `string`
 
 An estimated date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -120,9 +120,9 @@ https://vocabulary.uncefact.org/pilotBoardingPlace
 
 ***
 
-### requestedOccurrenceDateTime?
+### requestedOccurrenceDateTime
 
-> `optional` **requestedOccurrenceDateTime**: `string`
+> **requestedOccurrenceDateTime**: `string`
 
 A requested date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -132,9 +132,9 @@ https://vocabulary.uncefact.org/requestedOccurrenceDateTime
 
 ***
 
-### scheduledOccurrenceDateTime?
+### scheduledOccurrenceDateTime
 
-> `optional` **scheduledOccurrenceDateTime**: `string`
+> **scheduledOccurrenceDateTime**: `string`
 
 A scheduled date, time, date time, or other date time value of the occurrence of this port movement event.
 

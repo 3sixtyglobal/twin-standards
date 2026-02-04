@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/aliasNameCode
 
 ### applicableClause?
 
-> `optional` **applicableClause**: [`IUneceClause`](IUneceClause.md)
+> `optional` **applicableClause**: [`IUneceClause`](IUneceClause.md)[]
 
 A clause applicable to this specified certificate.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableGeographicRegion
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this specified certificate.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this specified certificate.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/assuranceLevelCode
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file attached to this specified certificate.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### availableLanguageCode?
 
-> `optional` **availableLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
+> `optional` **availableLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)[]
 
 A code specifying an available language for this specified certificate.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
 
 A code specifying a type of specified certificate.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ### certifiedObject?
 
-> `optional` **certifiedObject**: [`IUneceObject`](IUneceObject.md)
+> `optional` **certifiedObject**: [`IUneceObject`](IUneceObject.md)[]
 
 An object certified by this specified certificate.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issuanceLocation?
 
-> `optional` **issuanceLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
+> `optional` **issuanceLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
 An issuance location for this specified certificate.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The issuer party for this specified certificate.
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ### relatedTradeTransaction?
 
-> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)
+> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)[]
 
 A supply chain trade transaction related to this specified certificate.
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/relatedTradeTransaction
 
 ### reportedDocumentStatus?
 
-> `optional` **reportedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)
+> `optional` **reportedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)[]
 
 A reported status for this specified certificate.
 
@@ -459,7 +459,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### subjectTypeCode?
 
-> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)
+> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
 A code specifying a subject type for this specified certificate.
 

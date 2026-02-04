@@ -104,12 +104,16 @@
 			"description": "The geographical object characteristic associated with this geographical multi-curve."
 		},
 		"memberGeographicalLine": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalLine",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalLine"
+			},
 			"description": "A geographical line member of this geographical multi-curve."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"associatedGeographicalObjectCharacteristic"
 	],
 	"additionalProperties": {
 		"anyOf": [

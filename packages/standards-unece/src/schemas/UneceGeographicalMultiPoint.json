@@ -104,12 +104,16 @@
 			"description": "The geographical object characteristic associated with this geographical multi-point."
 		},
 		"memberGeographicalPoint": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalPoint",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalPoint"
+			},
 			"description": "A geographical point member of this geographical multi-point feature."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"associatedGeographicalObjectCharacteristic"
 	],
 	"additionalProperties": {
 		"anyOf": [

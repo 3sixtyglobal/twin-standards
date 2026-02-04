@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### associatedStandard?
 
-> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard associated with this specified declaration.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party that issues this specified declaration.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/name
 
 ### subjectTypeCode?
 
-> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)
+> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
 A code specifying a subject type for this specified declaration.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### verifiedObject?
 
-> `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)
+> `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)[]
 
 An object verified for this specified declaration.
 

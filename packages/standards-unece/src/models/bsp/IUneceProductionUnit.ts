@@ -39,25 +39,25 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * A production machine applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/applicableMachine
 	 */
-	applicableMachine?: IUneceMachine;
+	applicableMachine?: IUneceMachine[];
 
 	/**
 	 * A production device applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/applicableProductionDevice
 	 */
-	applicableProductionDevice?: IUneceProductionDevice;
+	applicableProductionDevice?: IUneceProductionDevice[];
 
 	/**
 	 * A production process applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/applicableProductionProcess
 	 */
-	applicableProductionProcess?: IUneceProductionProcess;
+	applicableProductionProcess?: IUneceProductionProcess[];
 
 	/**
 	 * A sustainability characteristic applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * The date of completion of this facility production unit.
@@ -75,7 +75,7 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * A dedicated production facility for this production unit.
 	 * @see https://vocabulary.uncefact.org/dedicatedFacility
 	 */
-	dedicatedFacility?: IUneceProductionFacility;
+	dedicatedFacility?: IUneceProductionFacility[];
 
 	/**
 	 * A textual description of this facility production unit.
@@ -99,25 +99,25 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * An input product batch applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/inputApplicableBatch
 	 */
-	inputApplicableBatch?: IUneceProductBatch;
+	inputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Input material applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/inputApplicableMaterial
 	 */
-	inputApplicableMaterial?: IUneceSpecifiedMaterial;
+	inputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An input product applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/inputApplicableProduct
 	 */
-	inputApplicableProduct?: IUneceTradeProduct;
+	inputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A manufacturer party related to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty;
+	manufacturerParty?: IUneceTradeParty[];
 
 	/**
 	 * The name, expressed as text, for this facility production unit.
@@ -129,19 +129,19 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * An output product batch applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/outputApplicableBatch
 	 */
-	outputApplicableBatch?: IUneceProductBatch;
+	outputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Output material applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/outputApplicableMaterial
 	 */
-	outputApplicableMaterial?: IUneceSpecifiedMaterial;
+	outputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An output product applicable to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/outputApplicableProduct
 	 */
-	outputApplicableProduct?: IUneceTradeProduct;
+	outputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A physical location referenced for this facility production unit.
@@ -153,43 +153,43 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * A trade party related to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/relatedParty
 	 */
-	relatedParty?: IUneceTradeParty;
+	relatedParty?: IUneceTradeParty[];
 
 	/**
 	 * An organizational certificate specified for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 	 */
-	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate;
+	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate[];
 
 	/**
 	 * A process certificate specified for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate;
+	specifiedProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A product batch certificate specified for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 	 */
-	specifiedProductBatchCertificate?: IUneceProductBatchCertificate;
+	specifiedProductBatchCertificate?: IUneceProductBatchCertificate[];
 
 	/**
 	 * A product certificate specified for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/specifiedProductCertificate
 	 */
-	specifiedProductCertificate?: IUneceProductCertificate;
+	specifiedProductCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * A subcontractor party for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/subcontractorParty
 	 */
-	subcontractorParty?: IUneceTradeParty;
+	subcontractorParty?: IUneceTradeParty[];
 
 	/**
 	 * A production unit subordinate to this facility production unit.
 	 * @see https://vocabulary.uncefact.org/subordinateProductionUnit
 	 */
-	subordinateProductionUnit?: IUneceProductionUnit;
+	subordinateProductionUnit?: IUneceProductionUnit[];
 
 	/**
 	 * The code specifying the type of facility production unit.

@@ -96,23 +96,38 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableSpecifiedInspection": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedInspection",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedInspection"
+			},
 			"description": "A specified inspection applicable to this referenced location."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this referenced location."
 		},
 		"applicableSustainabilityInspection": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityInspection",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityInspection"
+			},
 			"description": "A sustainability inspection applicable to this referenced location."
 		},
 		"appliedAgriculturalApplication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
+			},
 			"description": "A specified agricultural application applied to this referenced location."
 		},
 		"associatedGeographicalFeature": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
+			},
 			"description": "A geographical feature associated with this referenced location."
 		},
 		"countryName": {
@@ -168,11 +183,17 @@
 			"description": "The physical geographical point specified for this location."
 		},
 		"postalAddress": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
+			},
 			"description": "The postal trade address for this referenced location."
 		},
 		"relatedProductionUnit": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductionUnit",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductionUnit"
+			},
 			"description": "A facility production unit related to this referenced location."
 		},
 		"specifiedAssertion": {
@@ -180,23 +201,38 @@
 			"description": "A sustainability assertion specified for this referenced location."
 		},
 		"specifiedFacility": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductionFacility",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductionFacility"
+			},
 			"description": "A production facility specified for this referenced location."
 		},
 		"specifiedInventory": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory"
+			},
 			"description": "Supply chain inventory specified for this referenced location."
 		},
 		"specifiedLaboratoryObservationReference": {
-			"$ref": "https://schema.twindev.org/unece/UneceLaboratoryObservationReference",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLaboratoryObservationReference"
+			},
 			"description": "A laboratory observation reference specified for this referenced location."
 		},
 		"specifiedSupplyChainEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A supply chain event specified for this referenced location."
 		},
 		"specifiedTradeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A trade party specified for this referenced location."
 		},
 		"uTCOffsetNumeric": {

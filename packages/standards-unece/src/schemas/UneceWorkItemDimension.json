@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"componentDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension"
+			},
 			"description": "A work item component dimension for this work item dimension."
 		},
 		"componentWorkItemDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension"
+			},
 			"description": "A work item component dimension for this work item dimension."
 		},
 		"contractualLanguageCode": {
@@ -125,7 +131,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"workItemDimensionTypeCode"
 	],
 	"additionalProperties": {
 		"anyOf": [

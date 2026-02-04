@@ -124,20 +124,30 @@
 			"description": "The name, expressed as text, for this requesting party."
 		},
 		"partyTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UnecePartyTypeCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePartyTypeCodeList"
+			},
 			"description": "The code specifying the type of requesting party."
 		},
 		"specifiedCreditorFinancialAccount": {
-			"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCreditorFinancialAccount"
+			},
 			"description": "The creditor financial account, used for crediting, specified for this requesting party."
 		},
 		"specifiedProprietaryIdentity": {
-			"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity"
+			},
 			"description": "A proprietary identity specified for this requesting party."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"specifiedProprietaryIdentity"
 	],
 	"additionalProperties": {
 		"anyOf": [

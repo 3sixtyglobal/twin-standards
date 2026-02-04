@@ -37,7 +37,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A logistics seal affixed to this piece of associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/affixedSeal
 	 */
-	affixedSeal?: IUneceSeal;
+	affixedSeal?: IUneceSeal[];
 
 	/**
 	 * The code specifying the used capacity, such as full or empty, of this associated piece of transport equipment.
@@ -62,25 +62,25 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A supply chain consignment contained in this piece of associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/containedConsignment
 	 */
-	containedConsignment?: IUneceConsignment;
+	containedConsignment?: IUneceConsignment[];
 
 	/**
 	 * A quantity of goods items in this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/goodsItemUnitQuantity
 	 */
-	goodsItemUnitQuantity?: IUneceQuantityType;
+	goodsItemUnitQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A measure of the gross goods volume of this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/grossGoodsVolumeMeasure
 	 */
-	grossGoodsVolumeMeasure?: IUneceVolumeUnitMeasureType;
+	grossGoodsVolumeMeasure?: IUneceVolumeUnitMeasureType[];
 
 	/**
 	 * A measure of the gross goods weight of this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/grossGoodsWeightMeasure
 	 */
-	grossGoodsWeightMeasure?: IUneceWeightUnitMeasureType;
+	grossGoodsWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * The measure of the gross volume of this piece of associated transport equipment.
@@ -93,7 +93,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * including loaded goods, packing and transport equipment.
 	 * @see https://vocabulary.uncefact.org/grossWeightMeasure
 	 */
-	grossWeightMeasure?: IUneceMeasureType;
+	grossWeightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A unique number, mark or name which identifies this associated piece of transport equipment.
@@ -105,7 +105,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * Dangerous goods loaded into or onto this piece of associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/loadedDangerousGoods
 	 */
-	loadedDangerousGoods?: IUneceDangerousGoods;
+	loadedDangerousGoods?: IUneceDangerousGoods[];
 
 	/**
 	 * The number of packages loaded into or onto this piece of associated transport equipment.
@@ -117,13 +117,13 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A measure of the net goods volume of this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/netGoodsVolumeMeasure
 	 */
-	netGoodsVolumeMeasure?: IUneceVolumeUnitMeasureType;
+	netGoodsVolumeMeasure?: IUneceVolumeUnitMeasureType[];
 
 	/**
 	 * A measure of the net goods weight of this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/netGoodsWeightMeasure
 	 */
-	netGoodsWeightMeasure?: IUneceWeightUnitMeasureType;
+	netGoodsWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * A registration country for this associated transport equipment.
@@ -135,7 +135,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A reportable quantity for this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/reportableQuantity
 	 */
-	reportableQuantity?: IUneceQuantityType;
+	reportableQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A quantity of seals for this associated piece of transport equipment.
@@ -161,7 +161,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * temperature.
 	 * @see https://vocabulary.uncefact.org/settingTemperature
 	 */
-	settingTemperature?: IUneceTransportSettingTemperature;
+	settingTemperature?: IUneceTransportSettingTemperature[];
 
 	/**
 	 * The stowage position identifier for this associated transport equipment.
@@ -211,5 +211,5 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A measure of the net weight of this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
 }

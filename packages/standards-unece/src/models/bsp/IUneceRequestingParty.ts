@@ -73,17 +73,17 @@ export interface IUneceRequestingParty extends IJsonLdNodeObject {
 	 * The code specifying the type of requesting party.
 	 * @see https://vocabulary.uncefact.org/partyTypeCode
 	 */
-	partyTypeCode?: UnecePartyTypeCodeList;
+	partyTypeCode?: UnecePartyTypeCodeList[];
 
 	/**
 	 * The creditor financial account, used for crediting, specified for this requesting party.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 	 */
-	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount;
+	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount[];
 
 	/**
 	 * A proprietary identity specified for this requesting party.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
+	specifiedProprietaryIdentity: IUneceProprietaryIdentity[];
 }

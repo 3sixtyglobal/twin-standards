@@ -29,23 +29,23 @@ export interface IUnecePolygon extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this specified polygon.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified polygon.
 	 * @see https://vocabulary.uncefact.org/associatedLocation
 	 */
-	associatedLocation?: IUneceLogisticsLocation;
+	associatedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The exterior linear specified ring for this polygon.
 	 * @see https://vocabulary.uncefact.org/exteriorLinearRing
 	 */
-	exteriorLinearRing?: IUneceLinearRing;
+	exteriorLinearRing: IUneceLinearRing;
 
 	/**
 	 * An interior linear ring specified for this polygon.
 	 * @see https://vocabulary.uncefact.org/interiorLinearRing
 	 */
-	interiorLinearRing?: IUneceLinearRing;
+	interiorLinearRing?: IUneceLinearRing[];
 }

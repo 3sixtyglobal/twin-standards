@@ -43,61 +43,61 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A referenced accessory product applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/accessoryApplicableProduct
 	 */
-	accessoryApplicableProduct?: IUneceProduct;
+	accessoryApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * A referenced product additionally applicable with this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/additionalApplicableProduct
 	 */
-	additionalApplicableProduct?: IUneceProduct;
+	additionalApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * An additional unique identifier for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/additionalId
 	 */
-	additionalId?: string;
+	additionalId: string;
 
 	/**
 	 * A note providing additional information for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/additionalInformationNote
 	 */
-	additionalInformationNote?: IUneceNote;
+	additionalInformationNote?: IUneceNote[];
 
 	/**
 	 * A product batch applicable to this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/applicableBatch
 	 */
-	applicableBatch?: IUneceProductBatch;
+	applicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Material applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/applicableMaterial
 	 */
-	applicableMaterial?: IUneceSpecifiedMaterial;
+	applicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A product handling process applied to this supply chain trade line item, such as manufacturing, treatment or storage.
 	 * @see https://vocabulary.uncefact.org/appliedProcess
 	 */
-	appliedProcess?: IUneceProductHandlingProcess;
+	appliedProcess?: IUneceProductHandlingProcess[];
 
 	/**
 	 * A document authentication asserted for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/assertedAuthentication
 	 */
-	assertedAuthentication?: IUneceAuthentication;
+	assertedAuthentication?: IUneceAuthentication[];
 
 	/**
 	 * The document line associated with this trade line item.
 	 * @see https://vocabulary.uncefact.org/associatedDocumentLineDocument
 	 */
-	associatedDocumentLineDocument?: IUneceDocumentLineDocument;
+	associatedDocumentLineDocument?: IUneceDocumentLineDocument[];
 
 	/**
 	 * A piece of transport equipment associated with this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/associatedTransportEquipment
 	 */
-	associatedTransportEquipment?: IUneceLogisticsTransportEquipment;
+	associatedTransportEquipment?: IUneceLogisticsTransportEquipment[];
 
 	/**
 	 * A unique barcode identifier for this supply chain trade line item.
@@ -109,19 +109,19 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A referenced complementary product applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/complementaryApplicableProduct
 	 */
-	complementaryApplicableProduct?: IUneceProduct;
+	complementaryApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * A referenced component product applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/componentApplicableProduct
 	 */
-	componentApplicableProduct?: IUneceProduct;
+	componentApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * A monetary value declared for customs purposes for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/declaredValueForCustomsAmount
 	 */
-	declaredValueForCustomsAmount?: IUneceAmountType;
+	declaredValueForCustomsAmount?: IUneceAmountType[];
 
 	/**
 	 * The code specifying a description of this supply chain trade line item.
@@ -145,7 +145,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A subordinate trade line item included in this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/includedSubordinateTradeLineItem
 	 */
-	includedSubordinateTradeLineItem?: IUneceSubordinateTradeLineItem;
+	includedSubordinateTradeLineItem?: IUneceSubordinateTradeLineItem[];
 
 	/**
 	 * The consignment item within which this supply chain trade line item is included.
@@ -157,31 +157,31 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * An invoice document associated to this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/invoiceAssociatedDocument
 	 */
-	invoiceAssociatedDocument?: IUneceDocument;
+	invoiceAssociatedDocument?: IUneceDocument[];
 
 	/**
 	 * A logistics package referenced in this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/package
 	 */
-	package?: IUnecePackage;
+	package?: IUnecePackage[];
 
 	/**
 	 * A physical logistics package for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/physicalPackage
 	 */
-	physicalPackage?: IUnecePackage;
+	physicalPackage?: IUnecePackage[];
 
 	/**
 	 * A document referenced for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/referenceDocument
 	 */
-	referenceDocument?: IUneceDocument;
+	referenceDocument?: IUneceDocument[];
 
 	/**
 	 * A required product applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/requiredApplicableProduct
 	 */
-	requiredApplicableProduct?: IUneceProduct;
+	requiredApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * The product specified by the requisitioner for this supply chain trade line item.
@@ -211,19 +211,19 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A line trade settlement specified for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedLineTradeSettlement
 	 */
-	specifiedLineTradeSettlement?: IUneceLineTradeSettlement;
+	specifiedLineTradeSettlement?: IUneceLineTradeSettlement[];
 
 	/**
 	 * A production of goods specified for this supply chain trade line Item.
 	 * @see https://vocabulary.uncefact.org/specifiedProduction
 	 */
-	specifiedProduction?: IUneceProduction;
+	specifiedProduction?: IUneceProduction[];
 
 	/**
 	 * A product specified for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeProduct
 	 */
-	specifiedTradeProduct?: IUneceTradeProduct;
+	specifiedTradeProduct?: IUneceTradeProduct[];
 
 	/**
 	 * The indication of whether or not this supply chain trade line item is a subordinate trade line item.
@@ -235,37 +235,37 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A trade line item subordinate to this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/subordinateTradeLineItem
 	 */
-	subordinateTradeLineItem?: IUneceSubordinateTradeLineItem;
+	subordinateTradeLineItem?: IUneceSubordinateTradeLineItem[];
 
 	/**
 	 * A substitute product batch applicable to this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substituteApplicableBatch
 	 */
-	substituteApplicableBatch?: IUneceProductBatch;
+	substituteApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Substitute material applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substituteApplicableMaterial
 	 */
-	substituteApplicableMaterial?: IUneceSpecifiedMaterial;
+	substituteApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A referenced substitute product applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substituteApplicableProduct
 	 */
-	substituteApplicableProduct?: IUneceProduct;
+	substituteApplicableProduct?: IUneceProduct[];
 
 	/**
 	 * A substituted product batch applicable to this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substitutedApplicableBatch
 	 */
-	substitutedApplicableBatch?: IUneceProductBatch;
+	substitutedApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Substituted material applicable for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substitutedApplicableMaterial
 	 */
-	substitutedApplicableMaterial?: IUneceSpecifiedMaterial;
+	substitutedApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A referenced product substituted for this supply chain trade line item.

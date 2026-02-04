@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedGeographicalFeature": {
-			"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGeographicalFeature"
+			},
 			"description": "A geographical feature associated with this communication event."
 		},
 		"description": {

@@ -116,7 +116,10 @@
 			"description": "The identifier of the residence country of this contact person."
 		},
 		"emailURICommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "An email Uniform Resource Identifier (URI) communication for this contact person."
 		},
 		"familyName": {
@@ -128,7 +131,10 @@
 			"description": "The prefix, expressed as text, that precedes this contact person's family name, such as Van, Von."
 		},
 		"faxCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Facsimile communication information for this contact person."
 		},
 		"genderCode": {
@@ -140,7 +146,10 @@
 			"description": "The name, expressed as text, given to this contact person, usually by parents at birth."
 		},
 		"instantMessagingCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "An instant messaging communication for this contact person."
 		},
 		"middleName": {
@@ -160,7 +169,10 @@
 			"description": "The birth address specified for this contact person."
 		},
 		"specifiedCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "A universal communication specified for this contact person."
 		},
 		"specifiedEmployerIdentity": {
@@ -172,7 +184,10 @@
 			"description": "The person identity specified for this contact person."
 		},
 		"specifiedTaxRegistration": {
-			"$ref": "https://schema.twindev.org/unece/UneceTaxRegistration",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTaxRegistration"
+			},
 			"description": "A tax registration specified for this contact person."
 		},
 		"telephoneCommunication": {

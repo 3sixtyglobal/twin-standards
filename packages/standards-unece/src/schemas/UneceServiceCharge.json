@@ -108,7 +108,10 @@
 			"description": "The start location from which this logistics service charge should be applied."
 		},
 		"appliedTax": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
+			},
 			"description": "A tax that is applied to this logistics service charge."
 		},
 		"appliedToLocation": {
@@ -132,7 +135,10 @@
 			"description": "The trade price upon which a calculation of this logistics service charge is or will be based."
 		},
 		"calculationBasisQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A number used as a basis in a calculation of this logistics service charge."
 		},
 		"chargeCategoryCode": {
@@ -140,7 +146,10 @@
 			"description": "The code specifying the category of charge for this logistics service charge."
 		},
 		"chargeCurrencyCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList"
+			},
 			"description": "A code specifying a charge currency for this logistics service charge."
 		},
 		"chargePayingPartyRoleCode": {
@@ -152,7 +161,10 @@
 			"description": "A textual description of this logistics service charge."
 		},
 		"disbursementAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a disbursement for this logistics service charge."
 		},
 		"freightChargeTariffClassCode": {
@@ -192,11 +204,17 @@
 			"description": "The location of the place of payment of this logistics service charge."
 		},
 		"postTranshipmentCalculationBasisQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A number used as a basis in a post-transhipment calculation of this logistics service charge."
 		},
 		"preTranshipmentCalculationBasisQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A number used as a basis in a pre-transhipment calculation of this logistics service charge."
 		},
 		"repackageAppliedAmount": {
@@ -212,11 +230,17 @@
 			"description": "A code specifying a service type of this logistics service charge."
 		},
 		"specifiedPaymentMeans": {
-			"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans"
+			},
 			"description": "The trade settlement payment means specified for this logistics service charge."
 		},
 		"tariffCurrencyCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCurrencyCodeList"
+			},
 			"description": "A code specifying a tariff currency for this logistics service charge."
 		},
 		"transportServiceCategoryCode": {

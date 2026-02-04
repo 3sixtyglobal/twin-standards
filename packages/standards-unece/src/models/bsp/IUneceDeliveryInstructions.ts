@@ -37,7 +37,7 @@ export interface IUneceDeliveryInstructions extends IJsonLdNodeObject {
 	 * Delivery handling instructions expressed as text.
 	 * @see https://vocabulary.uncefact.org/handling
 	 */
-	handling?: string;
+	handling: string;
 
 	/**
 	 * A code specifying delivery handling instructions.

@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableAgriculturalProcess": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalProcess"
+			},
 			"description": "An agricultural process crop production applicable for this field crop."
 		},
 		"appliedAgriculturalApplication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalApplication"
+			},
 			"description": "An agricultural application applied to this field crop."
 		},
 		"className": {
@@ -136,7 +142,10 @@
 			"description": "The plot where this field crop is grown."
 		},
 		"grownPreviousCrop": {
-			"$ref": "https://schema.twindev.org/unece/UneceFieldCrop",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceFieldCrop"
+			},
 			"description": "A field crop grown previous to this field crop."
 		},
 		"harvestDateTime": {
@@ -144,7 +153,10 @@
 			"description": "The date, time, date time, or other date time value for the harvest of this field crop."
 		},
 		"harvestedProduce": {
-			"$ref": "https://schema.twindev.org/unece/UneceProduce",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProduce"
+			},
 			"description": "Produce harvested from this field crop."
 		},
 		"plantingReasonCode": {
@@ -172,16 +184,24 @@
 			"description": "The code specifying the sowing period for this field crop, such as spring or winter."
 		},
 		"specifiedAgriculturalCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic"
+			},
 			"description": "An agricultural characteristic specified for this field crop."
 		},
 		"specifiedCropMixtureConstituent": {
-			"$ref": "https://schema.twindev.org/unece/UneceCropMixtureConstituent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCropMixtureConstituent"
+			},
 			"description": "A field crop mixture constituent specified for this field crop."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"grownPlot",
+		"specifiedCropMixtureConstituent"
 	],
 	"additionalProperties": {
 		"anyOf": [

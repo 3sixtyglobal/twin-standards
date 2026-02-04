@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/documentStatusReasonCode
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note included for this document status.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedDocumentCharacteristic?
 
-> `optional` **specifiedDocumentCharacteristic**: [`IUneceDocumentCharacteristic`](IUneceDocumentCharacteristic.md)
+> `optional` **specifiedDocumentCharacteristic**: [`IUneceDocumentCharacteristic`](IUneceDocumentCharacteristic.md)[]
 
 A document characteristic specified for this document status.
 

@@ -116,11 +116,17 @@
 			"description": "An identifier for this specified certification."
 		},
 		"relatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A referenced location related to this specified certification."
 		},
 		"relatedStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard related to this specified certification."
 		},
 		"responsibleAgency": {

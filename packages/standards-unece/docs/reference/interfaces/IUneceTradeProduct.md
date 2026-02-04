@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### acquisitionLeadTimeMeasure?
 
-> `optional` **acquisitionLeadTimeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **acquisitionLeadTimeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the acquisition lead time for this trade product.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/additionalDescription
 
 ### additionalReferenceDocument?
 
-> `optional` **additionalReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **additionalReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An additional referenced document for this trade product, such as a manual or a certificate.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/additionalReferenceDocument
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
 An assessment applicable to this trade product.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableDangerousGoods
 
 ### applicableDeclaration?
 
-> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)
+> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
 
 A specified declaration applicable to this trade product.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ### applicableDisposalInstructions?
 
-> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
+> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
 Disposal instructions applicable to this trade product.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/applicableDisposalInstructions
 
 ### applicableFault?
 
-> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)
+> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)[]
 
 A fault applicable to this trade product.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableFault
 
 ### applicableGoodsCharacteristic?
 
-> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
+> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
 A material goods characteristic applicable to this trade product.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ### applicableKeyword?
 
-> `optional` **applicableKeyword**: [`IUneceKeyword`](IUneceKeyword.md)
+> `optional` **applicableKeyword**: [`IUneceKeyword`](IUneceKeyword.md)[]
 
 A keyword applicable to this trade product.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/applicableKeyword
 
 ### applicableLicence?
 
-> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)
+> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
 
 A specified licence applicable to this trade product.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ### applicableLogisticsPackaging?
 
-> `optional` **applicableLogisticsPackaging**: [`IUneceLogisticsPackaging`](IUneceLogisticsPackaging.md)
+> `optional` **applicableLogisticsPackaging**: [`IUneceLogisticsPackaging`](IUneceLogisticsPackaging.md)[]
 
 Logistics packaging applicable to this trade product.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/applicableLogisticsPackaging
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period applicable to this trade product.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
 A characteristic applicable to this trade product.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ### applicableProductionProcess?
 
-> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
+> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
 
 A production process applicable to this trade product.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/applicableProductionProcess
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
 A certificate applicable to this trade product.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
 An inspection applicable to this trade product.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSupplyChainPackaging?
 
-> `optional` **applicableSupplyChainPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
+> `optional` **applicableSupplyChainPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
 Packaging applicable for use with this trade product.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/applicableSupplyChainPackaging
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this trade product.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
 A sustainability inspection applicable to this trade product.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### applicableTechnicalCharacteristic?
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
+> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic applicable to this trade product.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ### applicableTradeProductCertification?
 
-> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)
+> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
 
 A certification applicable to this trade product.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/applicableTradeProductCertification
 
 ### appliedChemicalTreatment?
 
-> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)
+> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
 
 A chemical treatment applied to this trade product.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ### appliedProductFinishingTreatment?
 
-> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)
+> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)[]
 
 A product finishing treatment applied to this trade product.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/areaDensityMeasure
 
 ### attachedSecurityTag?
 
-> `optional` **attachedSecurityTag**: [`IUneceSecurityTag`](IUneceSecurityTag.md)
+> `optional` **attachedSecurityTag**: [`IUneceSecurityTag`](IUneceSecurityTag.md)[]
 
 A tag device attached to this trade product to provide protection from a peril such as theft.
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/buyerAssignedId
 
 ### buyerSuppliedPartsReferenceDocument?
 
-> `optional` **buyerSuppliedPartsReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **buyerSuppliedPartsReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A buyer supplier parts document referenced for this trade product.
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/cancellationAnnouncedLaunchDateTime
 
 ### careSpecifiedLabel?
 
-> `optional` **careSpecifiedLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)
+> `optional` **careSpecifiedLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)[]
 
 A product care label specified for this trade product.
 
@@ -483,7 +483,7 @@ https://vocabulary.uncefact.org/careSpecifiedLabel
 
 ### certificationEvidenceReferenceDocument?
 
-> `optional` **certificationEvidenceReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **certificationEvidenceReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced certification evidence document for this trade product.
 
@@ -591,7 +591,7 @@ https://vocabulary.uncefact.org/commonName
 
 ### componentMaterial?
 
-> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 A material component of this trade product.
 
@@ -760,7 +760,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ### designatedClassification?
 
-> `optional` **designatedClassification**: [`IUneceClassification`](IUneceClassification.md)
+> `optional` **designatedClassification**: [`IUneceClassification`](IUneceClassification.md)[]
 
 A product classification designated for this trade product.
 
@@ -796,7 +796,7 @@ https://vocabulary.uncefact.org/digitalPlatformAssignedId
 
 ### distributorParty?
 
-> `optional` **distributorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **distributorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A distributor trade party for this trade product.
 
@@ -856,7 +856,7 @@ https://vocabulary.uncefact.org/endItemTypeCode
 
 ### endUseProductGroup?
 
-> `optional` **endUseProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)
+> `optional` **endUseProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)[]
 
 An end use product group for this trade product.
 
@@ -868,7 +868,7 @@ https://vocabulary.uncefact.org/endUseProductGroup
 
 ### endUserParty?
 
-> `optional` **endUserParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **endUserParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 An end user party for this trade product.
 
@@ -916,7 +916,7 @@ https://vocabulary.uncefact.org/fSCId
 
 ### finalAssemblyCountry?
 
-> `optional` **finalAssemblyCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **finalAssemblyCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A final assembly country for this trade product.
 
@@ -1048,7 +1048,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ### grossWeightMeasure?
 
-> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the gross weight (mass) of this trade product.
 
@@ -1072,7 +1072,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedProduct?
 
-> `optional` **includedProduct**: [`IUneceProduct`](IUneceProduct.md)
+> `optional` **includedProduct**: [`IUneceProduct`](IUneceProduct.md)[]
 
 An included product referenced from this trade product.
 
@@ -1108,7 +1108,7 @@ https://vocabulary.uncefact.org/includedProductTypeQuantity
 
 ### individualProductInstance?
 
-> `optional` **individualProductInstance**: [`IUneceProductInstance`](IUneceProductInstance.md)
+> `optional` **individualProductInstance**: [`IUneceProductInstance`](IUneceProductInstance.md)[]
 
 An individual instance of this trade product.
 
@@ -1132,7 +1132,7 @@ https://vocabulary.uncefact.org/industryAssignedId
 
 ### informationNote?
 
-> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 An information note for this trade product.
 
@@ -1168,7 +1168,7 @@ https://vocabulary.uncefact.org/innerPackQuantity
 
 ### inspectionReferenceDocument?
 
-> `optional` **inspectionReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **inspectionReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced inspection document for this trade product.
 
@@ -1253,7 +1253,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ### mSDSReferenceDocument?
 
-> `optional` **mSDSReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **mSDSReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A Material Safety Data Sheet (MSDS) document referenced for this product.
 
@@ -1301,7 +1301,7 @@ https://vocabulary.uncefact.org/manufacturerAssignedId
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A manufacturer party for this trade product.
 
@@ -1325,7 +1325,7 @@ https://vocabulary.uncefact.org/markedSerialNumberIndicator
 
 ### marketingCampaignReferenceDocument?
 
-> `optional` **marketingCampaignReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **marketingCampaignReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced marketing campaign document for this trade product.
 
@@ -1349,7 +1349,7 @@ https://vocabulary.uncefact.org/marketingDescription
 
 ### marketingFeature?
 
-> `optional` **marketingFeature**: [`IUneceTradeProductFeature`](IUneceTradeProductFeature.md)
+> `optional` **marketingFeature**: [`IUneceTradeProductFeature`](IUneceTradeProductFeature.md)[]
 
 A marketing feature of this trade product.
 
@@ -1361,7 +1361,7 @@ https://vocabulary.uncefact.org/marketingFeature
 
 ### maximumLinearDimension?
 
-> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 Maximum linear spatial dimensions of this trade product.
 
@@ -1373,7 +1373,7 @@ https://vocabulary.uncefact.org/maximumLinearDimension
 
 ### minimumLinearDimension?
 
-> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 Minimum linear spatial dimensions of this trade product.
 
@@ -1469,7 +1469,7 @@ https://vocabulary.uncefact.org/netWeightMeasure
 
 ### originCountry?
 
-> `optional` **originCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **originCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A country of origin for this trade product.
 
@@ -1481,7 +1481,7 @@ https://vocabulary.uncefact.org/originCountry
 
 ### originLocation?
 
-> `optional` **originLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **originLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location of origin for this trade product.
 
@@ -1529,7 +1529,7 @@ https://vocabulary.uncefact.org/prePackagedIndicator
 
 ### presentationBinaryFile?
 
-> `optional` **presentationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **presentationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file presentation specified for this trade product.
 
@@ -1541,7 +1541,7 @@ https://vocabulary.uncefact.org/presentationBinaryFile
 
 ### preservationAppliedMethod?
 
-> `optional` **preservationAppliedMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
+> `optional` **preservationAppliedMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
 A preservation method applied to this trade product.
 
@@ -1613,7 +1613,7 @@ https://vocabulary.uncefact.org/productionDiscontinuedDateTime
 
 ### productionLeadTimeMeasure?
 
-> `optional` **productionLeadTimeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **productionLeadTimeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the production lead time for this trade product.
 
@@ -1649,7 +1649,7 @@ https://vocabulary.uncefact.org/qualityLevelCode
 
 ### qualityParameter?
 
-> `optional` **qualityParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
+> `optional` **qualityParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
 A quality parameter specified for this trade product.
 
@@ -1734,7 +1734,7 @@ https://vocabulary.uncefact.org/rejectionReasonCode
 
 ### relatedAnimal?
 
-> `optional` **relatedAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)
+> `optional` **relatedAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 
 A TT (Track and Trace) animal, such as one kept or raised on a farm or ranch, related to this trade product.
 
@@ -1746,7 +1746,7 @@ https://vocabulary.uncefact.org/relatedAnimal
 
 ### relatedLocation?
 
-> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location related to this trade product.
 
@@ -1758,7 +1758,7 @@ https://vocabulary.uncefact.org/relatedLocation
 
 ### relatedPackage?
 
-> `optional` **relatedPackage**: [`IUnecePackage`](IUnecePackage.md)
+> `optional` **relatedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
 A logistics package related to this trade product.
 
@@ -1770,7 +1770,7 @@ https://vocabulary.uncefact.org/relatedPackage
 
 ### relatedTradeTransaction?
 
-> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)
+> `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)[]
 
 A supply chain trade transaction related to this trade product.
 
@@ -1794,7 +1794,7 @@ https://vocabulary.uncefact.org/repairLevelTypeCode
 
 ### responsibleParty?
 
-> `optional` **responsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **responsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party responsible for this trade product.
 
@@ -1806,7 +1806,7 @@ https://vocabulary.uncefact.org/responsibleParty
 
 ### responsibleTradeParty?
 
-> `optional` **responsibleTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **responsibleTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party responsible for this trade product.
 
@@ -1830,7 +1830,7 @@ https://vocabulary.uncefact.org/reusableIndicator
 
 ### salesCountry?
 
-> `optional` **salesCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **salesCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A sales country for this trade product.
 
@@ -1962,7 +1962,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedColour?
 
-> `optional` **specifiedColour**: [`IUneceColour`](IUneceColour.md)
+> `optional` **specifiedColour**: [`IUneceColour`](IUneceColour.md)[]
 
 A colour specified for this trade product.
 
@@ -1974,7 +1974,7 @@ https://vocabulary.uncefact.org/specifiedColour
 
 ### specifiedFacility?
 
-> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)
+> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
 A production facility specified for this trade product.
 
@@ -1986,7 +1986,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ### specifiedLabel?
 
-> `optional` **specifiedLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)
+> `optional` **specifiedLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)[]
 
 A product label specified for this trade product.
 
@@ -1998,7 +1998,7 @@ https://vocabulary.uncefact.org/specifiedLabel
 
 ### specifiedPicture?
 
-> `optional` **specifiedPicture**: [`IUnecePicture`](IUnecePicture.md)
+> `optional` **specifiedPicture**: [`IUnecePicture`](IUnecePicture.md)[]
 
 A photographic picture specified for this trade product.
 
@@ -2010,7 +2010,7 @@ https://vocabulary.uncefact.org/specifiedPicture
 
 ### specifiedPrint?
 
-> `optional` **specifiedPrint**: [`IUnecePrint`](IUnecePrint.md)
+> `optional` **specifiedPrint**: [`IUnecePrint`](IUnecePrint.md)[]
 
 A product print specified for this trade product.
 
@@ -2022,7 +2022,7 @@ https://vocabulary.uncefact.org/specifiedPrint
 
 ### specifiedProductCertificate?
 
-> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
+> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
 A product certificate specified for this trade product.
 
@@ -2034,7 +2034,7 @@ https://vocabulary.uncefact.org/specifiedProductCertificate
 
 ### specifiedProductGroup?
 
-> `optional` **specifiedProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)
+> `optional` **specifiedProductGroup**: [`IUneceProductGroup`](IUneceProductGroup.md)[]
 
 A product group specified for this trade product.
 
@@ -2046,7 +2046,7 @@ https://vocabulary.uncefact.org/specifiedProductGroup
 
 ### specifiedProductLabel?
 
-> `optional` **specifiedProductLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)
+> `optional` **specifiedProductLabel**: [`IUneceProductLabel`](IUneceProductLabel.md)[]
 
 A product label specified for this trade product.
 
@@ -2058,7 +2058,7 @@ https://vocabulary.uncefact.org/specifiedProductLabel
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event specified for this trade product.
 
@@ -2118,7 +2118,7 @@ https://vocabulary.uncefact.org/subBrandName
 
 ### subcontractorParty?
 
-> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A subcontractor party for this trade product.
 
@@ -2154,7 +2154,7 @@ https://vocabulary.uncefact.org/subordinateTypeDescription
 
 ### substituteProduct?
 
-> `optional` **substituteProduct**: [`IUneceProduct`](IUneceProduct.md)
+> `optional` **substituteProduct**: [`IUneceProduct`](IUneceProduct.md)[]
 
 A referenced product that may substitute for this trade product.
 
@@ -2178,7 +2178,7 @@ https://vocabulary.uncefact.org/substitutedProduct
 
 ### suppliedFromCountry?
 
-> `optional` **suppliedFromCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **suppliedFromCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A country of supply for this trade product.
 
@@ -2286,7 +2286,7 @@ https://vocabulary.uncefact.org/unitTypeCode
 
 ### usageInformationNote?
 
-> `optional` **usageInformationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **usageInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A usage information note for this trade product.
 

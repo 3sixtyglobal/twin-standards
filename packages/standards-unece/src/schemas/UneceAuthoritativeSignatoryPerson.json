@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"attainedAcademicQualification": {
-			"$ref": "https://schema.twindev.org/unece/UneceAcademicQualification",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAcademicQualification"
+			},
 			"description": "An academic qualification attained by this authoritative signatory person."
 		},
 		"name": {

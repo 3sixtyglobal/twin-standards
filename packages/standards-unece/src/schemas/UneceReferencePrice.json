@@ -100,7 +100,10 @@
 			"description": "A quantity on which the reference price is based."
 		},
 		"chargeAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value of a charged reference price."
 		},
 		"comparisonMethodCode": {

@@ -67,7 +67,7 @@ export interface IUneceDocumentLineDocument extends IJsonLdNodeObject {
 	 * A note included in this document line.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote;
+	includedNote?: IUneceNote[];
 
 	/**
 	 * The date, time, date time, or other date time value for the issuance of this document line.
@@ -115,13 +115,13 @@ export interface IUneceDocumentLineDocument extends IJsonLdNodeObject {
 	 * The acknowledgement document referenced in this document line.
 	 * @see https://vocabulary.uncefact.org/referenceAcknowledgementDocument
 	 */
-	referenceAcknowledgementDocument?: IUneceAcknowledgementDocument;
+	referenceAcknowledgementDocument?: IUneceAcknowledgementDocument[];
 
 	/**
 	 * A document referenced from this document line.
 	 * @see https://vocabulary.uncefact.org/referenceDocument
 	 */
-	referenceDocument?: IUneceDocument;
+	referenceDocument?: IUneceDocument[];
 
 	/**
 	 * The code specifying the response reason of this document line.

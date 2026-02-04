@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/calculatedPriceTypeCode
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the calculated price to be charged.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ### relatedAllowanceCharge?
 
-> `optional` **relatedAllowanceCharge**: [`IUneceAppliedAllowanceCharge`](IUneceAppliedAllowanceCharge.md)
+> `optional` **relatedAllowanceCharge**: [`IUneceAppliedAllowanceCharge`](IUneceAppliedAllowanceCharge.md)[]
 
 Applied allowance charge information related to this calculated price.
 

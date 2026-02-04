@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/sizeMeasure
 
 ### specifiedAgriculturalCertificate?
 
-> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)
+> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
 An agricultural certificate specified for this crop produce batch.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ### specifiedAgriculturalCharacteristic?
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)
+> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic specified for this crop produce batch.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ### specifiedProduce?
 
-> `optional` **specifiedProduce**: [`IUneceProduce`](IUneceProduce.md)
+> `optional` **specifiedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
 
 A crop produce specified for this crop produce batch.
 

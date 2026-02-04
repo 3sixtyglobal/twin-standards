@@ -59,7 +59,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A tax that is applied to this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/appliedTax
 	 */
-	appliedTax?: IUneceTradeTax;
+	appliedTax?: IUneceTradeTax[];
 
 	/**
 	 * The end location at which this logistics service charge is no longer to be applied.
@@ -95,7 +95,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A number used as a basis in a calculation of this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/calculationBasisQuantity
 	 */
-	calculationBasisQuantity?: IUneceQuantityType;
+	calculationBasisQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The code specifying the category of charge for this logistics service charge.
@@ -107,7 +107,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A code specifying a charge currency for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/chargeCurrencyCode
 	 */
-	chargeCurrencyCode?: UneceCurrencyCodeList;
+	chargeCurrencyCode?: UneceCurrencyCodeList[];
 
 	/**
 	 * The code specifying the role of the party responsible for paying this logistics service charge.
@@ -125,7 +125,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A monetary value of a disbursement for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/disbursementAmount
 	 */
-	disbursementAmount?: IUneceAmountType;
+	disbursementAmount?: IUneceAmountType[];
 
 	/**
 	 * The code specifying the tariff class for this logistics service charge which represents an entry in a table of fixed
@@ -186,13 +186,13 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A number used as a basis in a post-transhipment calculation of this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/postTranshipmentCalculationBasisQuantity
 	 */
-	postTranshipmentCalculationBasisQuantity?: IUneceQuantityType;
+	postTranshipmentCalculationBasisQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A number used as a basis in a pre-transhipment calculation of this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/preTranshipmentCalculationBasisQuantity
 	 */
-	preTranshipmentCalculationBasisQuantity?: IUneceQuantityType;
+	preTranshipmentCalculationBasisQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The monetary value of the repackage on which the logistics service charge is determined.
@@ -216,13 +216,13 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * The trade settlement payment means specified for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans;
+	specifiedPaymentMeans?: IUnecePaymentMeans[];
 
 	/**
 	 * A code specifying a tariff currency for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/tariffCurrencyCode
 	 */
-	tariffCurrencyCode?: UneceCurrencyCodeList;
+	tariffCurrencyCode?: UneceCurrencyCodeList[];
 
 	/**
 	 * The code specifying the category of this logistics service charge [Reference United Nations Code List (UNCL) 5237].

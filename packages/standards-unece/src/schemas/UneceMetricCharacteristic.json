@@ -136,7 +136,10 @@
 			"description": "A measure of a value for this metric characteristic."
 		},
 		"valueMethod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
+			},
 			"description": "A method specified for a value of this metric characteristic."
 		},
 		"valueNumeric": {
@@ -144,7 +147,10 @@
 			"description": "The value, expressed as a number, for this metric characteristic."
 		},
 		"valueParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter specified for a value for this metric characteristic."
 		},
 		"valueQuantity": {
@@ -152,11 +158,17 @@
 			"description": "The value, expressed as a quantity, for this metric characteristic."
 		},
 		"valueRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A range specified for a value of this metric characteristic."
 		},
 		"valueTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "A tolerance specified for a value of this metric characteristic."
 		}
 	},

@@ -104,15 +104,24 @@
 			"description": "Dangerous goods transport details applicable to this supply chain consignment item."
 		},
 		"applicableNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note providing information applicable to this supply chain consignment item."
 		},
 		"applicableRegulatoryProcedure": {
-			"$ref": "https://schema.twindev.org/unece/UneceRegulatoryProcedure",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRegulatoryProcedure"
+			},
 			"description": "A cross-border regulatory procedure applicable to this supply chain consignment item."
 		},
 		"applicableServiceCharge": {
-			"$ref": "https://schema.twindev.org/unece/UneceServiceCharge",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceServiceCharge"
+			},
 			"description": "A logistics service charge applicable to this supply chain consignment item."
 		},
 		"applicableTransportMeans": {
@@ -120,15 +129,24 @@
 			"description": "The means of transport applicable to this supply chain consignment item."
 		},
 		"associatedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document associated with this referenced supply chain consignment item."
 		},
 		"associatedTransportEquipment": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment"
+			},
 			"description": "A referenced piece of transport equipment associated with this supply chain consignment item."
 		},
 		"borderClearanceInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportInstructions"
+			},
 			"description": "Border clearance instructions for this supply chain consignment item."
 		},
 		"cargoToleranceInformation": {
@@ -152,7 +170,10 @@
 			"description": "The monetary value of this supply chain consignment item as declared by the shipper or his agent for the purpose of varying the carrier's level of liability from that provided in the contract of carriage, in case of loss or damage to goods or delayed delivery."
 		},
 		"declaredValueForCustomsAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value of this supply chain consignment item as declared for customs purposes."
 		},
 		"declaredValueForStatisticsAmount": {
@@ -168,7 +189,10 @@
 			"description": "The party to whom this supply chain consignment item will be or has been delivered."
 		},
 		"deliveryTransportEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "The delivery event for this supply chain consignment item."
 		},
 		"despatchParty": {
@@ -180,7 +204,10 @@
 			"description": "The destination country for this supply chain consignment item."
 		},
 		"examinationEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "An examination event for this supply chain consignment item."
 		},
 		"exportCountry": {
@@ -216,7 +243,10 @@
 			"description": "The code used as an extension to the type code for further specifying the type of referenced supply chain consignment item."
 		},
 		"goodsUnitQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A quantity of goods, such as gaseous fuel systems or automotive parts, in this supply chain consignment item."
 		},
 		"handlingInstructions": {
@@ -236,7 +266,10 @@
 			"description": "The importation country for this supply chain consignment item."
 		},
 		"includedSupplyChainTradeLineItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem"
+			},
 			"description": "A trade line item included in this supply chain consignment item."
 		},
 		"information": {
@@ -248,7 +281,10 @@
 			"description": "The monetary value of this supply chain consignment item as covered by an insurance policy."
 		},
 		"invoiceAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value for an invoice for this supply chain consignment item."
 		},
 		"linearDimension": {
@@ -260,7 +296,10 @@
 			"description": "The measure of the loading length of this supply chain consignment item."
 		},
 		"manufacturerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The party which manufactured this supply chain consignment item."
 		},
 		"nationalTypeExtensionCode": {
@@ -268,11 +307,17 @@
 			"description": "The code used as a national extension to the type code for further specifying the type of supply chain consignment item."
 		},
 		"natureIdentificationCargo": {
-			"$ref": "https://schema.twindev.org/unece/UneceCargo",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCargo"
+			},
 			"description": "Transport cargo details of this supply chain consignment item sufficient to identify its nature for customs, statistical or transport purposes."
 		},
 		"originCountry": {
-			"$ref": "https://schema.twindev.org/unece/UneceCountry",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCountry"
+			},
 			"description": "The country of origin where this supply chain consignment item has been produced."
 		},
 		"originGeopoliticalRegion": {
@@ -292,19 +337,31 @@
 			"description": "Physical logistics shipping marks and barcode information for this supply chain consignment item."
 		},
 		"pickUpEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "A pick-up transport event for this supply chain consignment item."
 		},
 		"previousAdministrativeDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A previous administrative referenced document for this supply chain consignment item."
 		},
 		"quarantineInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuarantineInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuarantineInstructions"
+			},
 			"description": "Quarantine instructions for this supply chain consignment item."
 		},
 		"reportedLogisticsStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsStatus"
+			},
 			"description": "A logistics status reported for this supply chain consignment item."
 		},
 		"secondTypeExtensionCode": {
@@ -320,11 +377,17 @@
 			"description": "Special instructions, expressed as text, for this supply chain consignment item."
 		},
 		"specifiedInspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent"
+			},
 			"description": "An inspection event specified for this supply chain consignment item."
 		},
 		"specifiedRiskAnalysisResult": {
-			"$ref": "https://schema.twindev.org/unece/UneceRiskAnalysisResult",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRiskAnalysisResult"
+			},
 			"description": "Results of a logistics risk analysis specified for this supply chain consignment item."
 		},
 		"tariffQuantity": {
@@ -332,7 +395,10 @@
 			"description": "The tariff quantity in this supply chain consignment item."
 		},
 		"totalChargeAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value of all freight and other service charges for this supply chain consignment item."
 		},
 		"totalExportExitToImportEntryChargeAmount": {
@@ -344,7 +410,10 @@
 			"description": "The number of trade line items in this referenced supply chain consignment item."
 		},
 		"transitCountry": {
-			"$ref": "https://schema.twindev.org/unece/UneceCountry",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCountry"
+			},
 			"description": "A transit country for this supply chain consignment item."
 		},
 		"transportContractDocument": {
@@ -352,7 +421,10 @@
 			"description": "A transport contract document for this supply chain consignment item."
 		},
 		"transportPackage": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackage",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackage"
+			},
 			"description": "A transport package for this supply chain consignment item."
 		},
 		"transportTemperature": {
@@ -376,7 +448,10 @@
 			"description": "A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment."
 		},
 		"weightUnitNetWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging."
 		}
 	},

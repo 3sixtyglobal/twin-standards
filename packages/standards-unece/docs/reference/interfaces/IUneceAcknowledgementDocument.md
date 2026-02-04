@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/processConditionCode
 
 ### referenceDocument?
 
-> `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A document referenced by this acknowledgement document.
 

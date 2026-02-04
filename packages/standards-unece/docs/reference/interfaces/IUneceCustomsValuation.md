@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/methodCode
 
 ### otherChargeAmount?
 
-> `optional` **otherChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **otherChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value added or subtracted from the total invoice price not previously taken into account for this
 cross-border customs valuation.

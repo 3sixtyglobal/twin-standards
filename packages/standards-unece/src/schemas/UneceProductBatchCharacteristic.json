@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableCountry": {
-			"$ref": "https://schema.twindev.org/unece/UneceCountry",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCountry"
+			},
 			"description": "A country applicable to this product batch characteristic."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this product batch characteristic."
 		},
 		"description": {
@@ -144,7 +150,10 @@
 			"description": "A measure of a value for this product batch characteristic."
 		},
 		"valueMethod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
+			},
 			"description": "A method specified for a value of this product batch characteristic."
 		},
 		"valueNumeric": {
@@ -152,15 +161,24 @@
 			"description": "The value, expressed as a number, for this product batch characteristic."
 		},
 		"valueParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter specified for a value of this product batch characteristic."
 		},
 		"valueRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A range specified for a value of this product batch characteristic."
 		},
 		"valueTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "A tolerance specified for a value of this product batch characteristic."
 		}
 	},

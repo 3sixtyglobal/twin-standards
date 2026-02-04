@@ -29,7 +29,7 @@ export interface IUneceTradeProductCertification extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this trade product certification.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts.
@@ -47,7 +47,7 @@ export interface IUneceTradeProductCertification extends IJsonLdNodeObject {
 	 * A referenced location related to this trade product certification.
 	 * @see https://vocabulary.uncefact.org/relatedLocation
 	 */
-	relatedLocation?: IUneceLocation;
+	relatedLocation?: IUneceLocation[];
 
 	/**
 	 * The agency, expressed as text, responsible for this trade product certification.

@@ -119,7 +119,7 @@ export interface IUneceAcknowledgementDocument extends IJsonLdNodeObject {
 	 * A document referenced by this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/referenceDocument
 	 */
-	referenceDocument?: IUneceDocument;
+	referenceDocument?: IUneceDocument[];
 
 	/**
 	 * The date, time, date time or other date time value of the receipt of the report being acknowledged by this

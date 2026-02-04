@@ -120,7 +120,10 @@
 			"description": "Occupancy, expressed as text, for this specified usage condition."
 		},
 		"requiringParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A party requiring this specified usage condition."
 		}
 	},

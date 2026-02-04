@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
 A product certificate applicable to this toxicological hazardous material.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
 A product characteristic applicable to this toxicological hazardous material.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this toxicological hazardous material.
 

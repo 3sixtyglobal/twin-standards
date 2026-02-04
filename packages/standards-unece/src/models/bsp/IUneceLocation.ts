@@ -42,31 +42,31 @@ export interface IUneceLocation extends IJsonLdNodeObject {
 	 * A specified inspection applicable to this referenced location.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
 
 	/**
 	 * A sustainability characteristic applicable to this referenced location.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A sustainability inspection applicable to this referenced location.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
 
 	/**
 	 * A specified agricultural application applied to this referenced location.
 	 * @see https://vocabulary.uncefact.org/appliedAgriculturalApplication
 	 */
-	appliedAgriculturalApplication?: IUneceAgriculturalApplication;
+	appliedAgriculturalApplication?: IUneceAgriculturalApplication[];
 
 	/**
 	 * A geographical feature associated with this referenced location.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalFeature
 	 */
-	associatedGeographicalFeature?: IUneceGeographicalFeature;
+	associatedGeographicalFeature?: IUneceGeographicalFeature[];
 
 	/**
 	 * The country name, expressed as text, of this referenced location.
@@ -151,13 +151,13 @@ export interface IUneceLocation extends IJsonLdNodeObject {
 	 * The postal trade address for this referenced location.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress;
+	postalAddress?: IUneceTradeAddress[];
 
 	/**
 	 * A facility production unit related to this referenced location.
 	 * @see https://vocabulary.uncefact.org/relatedProductionUnit
 	 */
-	relatedProductionUnit?: IUneceProductionUnit;
+	relatedProductionUnit?: IUneceProductionUnit[];
 
 	/**
 	 * A sustainability assertion specified for this referenced location.
@@ -169,31 +169,31 @@ export interface IUneceLocation extends IJsonLdNodeObject {
 	 * A production facility specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedFacility
 	 */
-	specifiedFacility?: IUneceProductionFacility;
+	specifiedFacility?: IUneceProductionFacility[];
 
 	/**
 	 * Supply chain inventory specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedInventory
 	 */
-	specifiedInventory?: IUneceSupplyChainInventory;
+	specifiedInventory?: IUneceSupplyChainInventory[];
 
 	/**
 	 * A laboratory observation reference specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 	 */
-	specifiedLaboratoryObservationReference?: IUneceLaboratoryObservationReference;
+	specifiedLaboratoryObservationReference?: IUneceLaboratoryObservationReference[];
 
 	/**
 	 * A supply chain event specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A trade party specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty;
+	specifiedTradeParty?: IUneceTradeParty[];
 
 	/**
 	 * The UTC (Universal Time Coordinate) time offset value for this referenced location.

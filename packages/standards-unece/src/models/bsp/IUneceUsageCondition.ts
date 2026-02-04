@@ -62,5 +62,5 @@ export interface IUneceUsageCondition extends IJsonLdNodeObject {
 	 * A party requiring this specified usage condition.
 	 * @see https://vocabulary.uncefact.org/requiringParty
 	 */
-	requiringParty?: IUneceTradeParty;
+	requiringParty?: IUneceTradeParty[];
 }

@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"actualPenaltyAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the actual penalty in these trade payment penalty terms."
 		},
 		"basisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value used as a basis to calculate these trade payment penalty terms."
 		},
 		"basisDateTime": {

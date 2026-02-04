@@ -44,13 +44,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * An actual delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/actualDeliveryEvent
 	 */
-	actualDeliveryEvent?: IUneceSupplyChainEvent;
+	actualDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * An actual despatch event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/actualDespatchEvent
 	 */
-	actualDespatchEvent?: IUneceSupplyChainEvent;
+	actualDespatchEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The actual loading event, at header level, for this trade delivery.
@@ -80,7 +80,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * An additional document, at header level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/additionalDocument
 	 */
-	additionalDocument?: IUneceDocument;
+	additionalDocument?: IUneceDocument[];
 
 	/**
 	 * The quantity, at header level, agreed for this trade delivery.
@@ -104,7 +104,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The despatch event, at header level, confirmed for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/confirmedDespatchEvent
 	 */
-	confirmedDespatchEvent?: IUneceSupplyChainEvent;
+	confirmedDespatchEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The pick-up event, at header level, confirmed for this trade delivery.
@@ -128,7 +128,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The delivery note document, at header level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/deliveryNoteDocument
 	 */
-	deliveryNoteDocument?: IUneceDocument;
+	deliveryNoteDocument?: IUneceDocument[];
 
 	/**
 	 * The despatch advice document, at header level, referenced for this trade delivery.
@@ -146,13 +146,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A disposal party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/disposalParty
 	 */
-	disposalParty?: IUneceTradeParty;
+	disposalParty?: IUneceTradeParty[];
 
 	/**
 	 * The due in available quantity, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/dueInAvailableQuantity
 	 */
-	dueInAvailableQuantity?: IUneceQuantityType;
+	dueInAvailableQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The due in forecasted quantity, at header level, for this trade delivery.
@@ -170,7 +170,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * An estimated delivery event for this trade delivery header.
 	 * @see https://vocabulary.uncefact.org/estimatedDeliveryEvent
 	 */
-	estimatedDeliveryEvent?: IUneceSupplyChainEvent;
+	estimatedDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The indication, at header level, of whether or not this trade delivery is the final delivery.
@@ -188,7 +188,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A freight forwarder party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/freightForwarderParty
 	 */
-	freightForwarderParty?: IUneceTradeParty;
+	freightForwarderParty?: IUneceTradeParty[];
 
 	/**
 	 * The indication, at header level, of whether or not this trade delivery is fully delivered.
@@ -249,19 +249,19 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * Packaging, at header level, included in this trade delivery.
 	 * @see https://vocabulary.uncefact.org/includedPackaging
 	 */
-	includedPackaging?: IUneceSupplyChainPackaging;
+	includedPackaging?: IUneceSupplyChainPackaging[];
 
 	/**
 	 * A note with information, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/informationNote
 	 */
-	informationNote?: IUneceNote;
+	informationNote?: IUneceNote[];
 
 	/**
 	 * An inventory manager party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/inventoryManagerParty
 	 */
-	inventoryManagerParty?: IUneceTradeParty;
+	inventoryManagerParty?: IUneceTradeParty[];
 
 	/**
 	 * The modification of a previously forecasted quantity, at header level, for this trade delivery.
@@ -298,19 +298,19 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A consignment, at header level, planned for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedConsignment
 	 */
-	plannedConsignment?: IUneceConsignment;
+	plannedConsignment?: IUneceConsignment[];
 
 	/**
 	 * A delivery event, at header level, planned for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedDeliveryEvent
 	 */
-	plannedDeliveryEvent?: IUneceSupplyChainEvent;
+	plannedDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A despatch event, at header level, planned for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedDespatchEvent
 	 */
-	plannedDespatchEvent?: IUneceSupplyChainEvent;
+	plannedDespatchEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The pick-up event, at header level, planned for this trade delivery.
@@ -328,19 +328,19 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The event of the planned ship from delivery, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedShipFromDeliveryEvent
 	 */
-	plannedShipFromDeliveryEvent?: IUneceSupplyChainEvent;
+	plannedShipFromDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The planned ship to delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedShipToDeliveryEvent
 	 */
-	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent;
+	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A previous delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/previousDeliverySupplyChainEvent
 	 */
-	previousDeliverySupplyChainEvent?: IUneceSupplyChainEvent;
+	previousDeliverySupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The code specifying the quantity calculation method of this header trade delivery.
@@ -352,19 +352,19 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A receiving advice document, at header level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/receivingAdviceDocument
 	 */
-	receivingAdviceDocument?: IUneceDocument;
+	receivingAdviceDocument?: IUneceDocument[];
 
 	/**
 	 * A consignment, at header level, related to this trade delivery.
 	 * @see https://vocabulary.uncefact.org/relatedConsignment
 	 */
-	relatedConsignment?: IUneceConsignment;
+	relatedConsignment?: IUneceConsignment[];
 
 	/**
 	 * A trade party, at header level, related to this trade delivery.
 	 * @see https://vocabulary.uncefact.org/relatedParty
 	 */
-	relatedParty?: IUneceTradeParty;
+	relatedParty?: IUneceTradeParty[];
 
 	/**
 	 * The remaining quantity, at header level, requested for this trade delivery.
@@ -376,13 +376,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A delivery event, at header level, requested for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/requestedDeliveryEvent
 	 */
-	requestedDeliveryEvent?: IUneceSupplyChainEvent;
+	requestedDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A despatch event, at header level, requested for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/requestedDespatchEvent
 	 */
-	requestedDespatchEvent?: IUneceSupplyChainEvent;
+	requestedDespatchEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The quantity, at header level, requested for this trade delivery.
@@ -394,13 +394,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The ship from party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipFromParty
 	 */
-	shipFromParty?: IUneceTradeParty;
+	shipFromParty?: IUneceTradeParty[];
 
 	/**
 	 * The ship to party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty;
+	shipToParty?: IUneceTradeParty[];
 
 	/**
 	 * The shipment schedule document, referenced at header level, for this trade delivery.
@@ -412,25 +412,25 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * Delivery instructions, at header level, specified for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/specifiedDeliveryInstructions
 	 */
-	specifiedDeliveryInstructions?: IUneceDeliveryInstructions;
+	specifiedDeliveryInstructions?: IUneceDeliveryInstructions[];
 
 	/**
 	 * Handling instructions, at header level, specified for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/specifiedHandlingInstructions
 	 */
-	specifiedHandlingInstructions?: IUneceHandlingInstructions;
+	specifiedHandlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * A supply chain schedule, at header level, specified for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/specifiedSchedule
 	 */
-	specifiedSchedule?: IUneceSchedule;
+	specifiedSchedule?: IUneceSchedule[];
 
 	/**
 	 * A supply chain event, at header level, specified for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The code specifying the status, at header level, for this trade delivery.
@@ -455,19 +455,19 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The ultimate ship to delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryEvent
 	 */
-	ultimateShipToDeliveryEvent?: IUneceSupplyChainEvent;
+	ultimateShipToDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The ultimate ship to party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToParty
 	 */
-	ultimateShipToParty?: IUneceTradeParty;
+	ultimateShipToParty?: IUneceTradeParty[];
 
 	/**
 	 * Logistics transport equipment utilized for this header trade delivery.
 	 * @see https://vocabulary.uncefact.org/utilizedTransportEquipment
 	 */
-	utilizedTransportEquipment?: IUneceLogisticsTransportEquipment;
+	utilizedTransportEquipment?: IUneceLogisticsTransportEquipment[];
 
 	/**
 	 * The measure of the tare weight for this header trade delivery.

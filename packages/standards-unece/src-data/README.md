@@ -38,6 +38,6 @@ The script [generateInterfaces.mjs](../scripts/generateInterfaces.mjs) converts 
 * [../src/models/bsp](../src/models/bsp) contains the BSP Models as TypeScript interfaces
 * [../src/models/lists](../src/models/lists) contains the List Codes as TypeScript const enums
 
-The script uses the JSON-LD schema to construct the model heirarchy, and then augments those models with cardinality information from both the JSON Schema (`maxItems`) and the CSV (`minOccurs`, `maxOccurs`).
+The script uses the JSON-LD schema to construct the model heirarchy, and then augments those models with cardinality information from both the JSON Schema (`maxItems`) and the CSV (`occurrenceMin`, `occurrenceMax`).
 
 The [ts-to-schema.json](../ts-to-schema.json), [UneceTypes.ts](../src/models/UneceTypes.ts) and [index.ts](../src/index.ts) are also updated to include the generated content.

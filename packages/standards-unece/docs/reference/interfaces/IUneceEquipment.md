@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The manufacturer party for this OEM equipment.
 

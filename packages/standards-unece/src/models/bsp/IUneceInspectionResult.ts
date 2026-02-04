@@ -44,31 +44,31 @@ export interface IUneceInspectionResult extends IJsonLdNodeObject {
 	 * A corrective action applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/applicableCorrectiveAction
 	 */
-	applicableCorrectiveAction?: IUneceCorrectiveAction;
+	applicableCorrectiveAction?: IUneceCorrectiveAction[];
 
 	/**
 	 * A characteristic applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/applicableInspectionResultCharacteristic
 	 */
-	applicableInspectionResultCharacteristic?: IUneceInspectionResultCharacteristic;
+	applicableInspectionResultCharacteristic?: IUneceInspectionResultCharacteristic[];
 
 	/**
 	 * A method applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/applicableMethod
 	 */
-	applicableMethod?: IUneceSpecifiedMethod;
+	applicableMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * A preventive action applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/applicablePreventiveAction
 	 */
-	applicablePreventiveAction?: IUnecePreventiveAction;
+	applicablePreventiveAction?: IUnecePreventiveAction[];
 
 	/**
 	 * An action applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedAction
 	 */
-	applicableSpecifiedAction?: IUneceSpecifiedAction;
+	applicableSpecifiedAction?: IUneceSpecifiedAction[];
 
 	/**
 	 * The date, time, date time, or other date time value for the approval of this specified inspection result.
@@ -80,20 +80,20 @@ export interface IUneceInspectionResult extends IJsonLdNodeObject {
 	 * A binary file attached to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A note with additional information and or conclusions attached to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/attachedInspectionNote
 	 */
-	attachedInspectionNote?: IUneceInspectionNote;
+	attachedInspectionNote?: IUneceInspectionNote[];
 
 	/**
 	 * An expected value for the inspection characteristic to be acquired by using the type of inspection applicable to this
 	 * specified inspection result.
 	 * @see https://vocabulary.uncefact.org/expectedValueApplicableCharacteristic
 	 */
-	expectedValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic;
+	expectedValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic[];
 
 	/**
 	 * A general characteristic, such as length, volume, density, sensitivity, conductivity, expressed as text, of this
@@ -118,94 +118,94 @@ export interface IUneceInspectionResult extends IJsonLdNodeObject {
 	 * An inspection party specified for this inspection result.
 	 * @see https://vocabulary.uncefact.org/inspectionParty
 	 */
-	inspectionParty?: IUneceTradeParty;
+	inspectionParty?: IUneceTradeParty[];
 
 	/**
 	 * A referenced inspection standard for this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/inspectionStandard
 	 */
-	inspectionStandard?: IUneceStandard;
+	inspectionStandard?: IUneceStandard[];
 
 	/**
 	 * A laboratory sample observation result for this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/laboratoryObservationResult
 	 */
-	laboratoryObservationResult?: IUneceObservationResult;
+	laboratoryObservationResult?: IUneceObservationResult[];
 
 	/**
 	 * A maximum standard value for the inspection characteristic observed or measured by using the type of inspection
 	 * applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/maximumStandardValueApplicableCharacteristic
 	 */
-	maximumStandardValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic;
+	maximumStandardValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic[];
 
 	/**
 	 * A minimum standard value for the inspection characteristic observed or measured by using the type of inspection
 	 * applicable to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/minimumStandardValueApplicableCharacteristic
 	 */
-	minimumStandardValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic;
+	minimumStandardValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic[];
 
 	/**
 	 * An observed value for the inspection characteristic acquired by using the type of inspection applicable to this
 	 * specified inspection result.
 	 * @see https://vocabulary.uncefact.org/observedValueApplicableCharacteristic
 	 */
-	observedValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic;
+	observedValueApplicableCharacteristic?: IUneceInspectionResultCharacteristic[];
 
 	/**
 	 * A sustainability assertion obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedAssertion
 	 */
-	obtainedAssertion?: IUneceAssertion;
+	obtainedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A conformance certificate obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedConformanceCertificate
 	 */
-	obtainedConformanceCertificate?: IUneceConformanceCertificate;
+	obtainedConformanceCertificate?: IUneceConformanceCertificate[];
 
 	/**
 	 * An organizational certificate obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedOrganizationalCertificate
 	 */
-	obtainedOrganizationalCertificate?: IUneceOrganizationalCertificate;
+	obtainedOrganizationalCertificate?: IUneceOrganizationalCertificate[];
 
 	/**
 	 * A process certificate obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedProcessCertificate
 	 */
-	obtainedProcessCertificate?: IUneceProcessCertificate;
+	obtainedProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A product certificate obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedProductCertificate
 	 */
-	obtainedProductCertificate?: IUneceProductCertificate;
+	obtainedProductCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * A certificate obtained by means of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/obtainedSpecifiedCertificate
 	 */
-	obtainedSpecifiedCertificate?: IUneceSpecifiedCertificate;
+	obtainedSpecifiedCertificate?: IUneceSpecifiedCertificate[];
 
 	/**
 	 * An outsourced inspection party for this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/outsourcedInspectionParty
 	 */
-	outsourcedInspectionParty?: IUneceTradeParty;
+	outsourcedInspectionParty?: IUneceTradeParty[];
 
 	/**
 	 * An assessment related to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/relatedAssessment
 	 */
-	relatedAssessment?: IUneceAssessment;
+	relatedAssessment?: IUneceAssessment[];
 
 	/**
 	 * Inspection instructions related to this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/relatedInstructions
 	 */
-	relatedInstructions?: IUneceInspectionInstructions;
+	relatedInstructions?: IUneceInspectionInstructions[];
 
 	/**
 	 * A material type, expressed as text, related to this specified inspection result.
@@ -229,7 +229,7 @@ export interface IUneceInspectionResult extends IJsonLdNodeObject {
 	 * An inspection reference specified for this inspection result.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionReference
 	 */
-	specifiedInspectionReference?: IUneceInspectionReference;
+	specifiedInspectionReference?: IUneceInspectionReference[];
 
 	/**
 	 * A statement, expressed as text, for this specified inspection result.

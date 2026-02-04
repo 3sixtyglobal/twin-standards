@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### actualQuantityDimension?
 
-> `optional` **actualQuantityDimension**: [`IUneceWorkItemDimension`](IUneceWorkItemDimension.md)
+> `optional` **actualQuantityDimension**: [`IUneceWorkItemDimension`](IUneceWorkItemDimension.md)[]
 
 A work item dimension of the actual quantity in this work item quantity analysis.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ### breakdownQuantityAnalysis?
 
-> `optional` **breakdownQuantityAnalysis**: `IUneceQuantityAnalysis`
+> `optional` **breakdownQuantityAnalysis**: `IUneceQuantityAnalysis`[]
 
 A quantity analysis breakdown of this work item quantity analysis.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/breakdownQuantityAnalysis
 
 ### changedStatus?
 
-> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)
+> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
 
 A changed recorded status for this work item quantity analysis.
 

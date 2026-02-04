@@ -69,7 +69,7 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * A quantity event element specified for an input of this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/inputQuantitySpecifiedEventElement
 	 */
-	inputQuantitySpecifiedEventElement?: IUneceEventElement;
+	inputQuantitySpecifiedEventElement?: IUneceEventElement[];
 
 	/**
 	 * The date, time, date time, or other date time value at which this TT transformation event occurred.
@@ -87,7 +87,7 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * A quantity event element specified for an output of this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/outputQuantitySpecifiedEventElement
 	 */
-	outputQuantitySpecifiedEventElement?: IUneceEventElement;
+	outputQuantitySpecifiedEventElement?: IUneceEventElement[];
 
 	/**
 	 * The read point related location of this TT transformation event.
@@ -99,13 +99,13 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value at which this TT transformation event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
 	 */
-	recordedDateTime?: string;
+	recordedDateTime: string;
 
 	/**
 	 * A certification related to this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/relatedCertification
 	 */
-	relatedCertification?: IUneceSpecifiedCertification;
+	relatedCertification?: IUneceSpecifiedCertification[];
 
 	/**
 	 * A source related party for this TT transformation event.
@@ -117,13 +117,13 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * A declared error specified for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/specifiedError
 	 */
-	specifiedError?: IUneceError;
+	specifiedError?: IUneceError[];
 
 	/**
 	 * A trade transaction specified for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeTransaction
 	 */
-	specifiedTradeTransaction?: IUneceTTTradeTransaction;
+	specifiedTradeTransaction?: IUneceTTTradeTransaction[];
 
 	/**
 	 * The transformation identifier for this TT transformation event.

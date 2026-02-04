@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicationSpecifiedParameter?
 
-> `optional` **applicationSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **applicationSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 An application context parameter specified for this exchanged document context.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicationSpecifiedParameter
 
 ### bIMSpecifiedParameter?
 
-> `optional` **bIMSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **bIMSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A Business Information Master (BIM) context parameter specified for this exchanged document context.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/bIMSpecifiedParameter
 
 ### businessProcessSpecifiedParameter?
 
-> `optional` **businessProcessSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **businessProcessSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A business process context parameter specified for this exchanged document context.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/businessProcessSpecifiedParameter
 
 ### guidelineSpecifiedParameter?
 
-> `optional` **guidelineSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **guidelineSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A guideline context parameter specified for this exchanged document context.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/guidelineSpecifiedParameter
 
 ### messageStandardSpecifiedParameter?
 
-> `optional` **messageStandardSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **messageStandardSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 The message standard document context parameter specified for this exchanged document context.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/processingTransactionDateTime
 
 ### scenarioSpecifiedParameter?
 
-> `optional` **scenarioSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **scenarioSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A scenario context parameter specified for this exchanged document context.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/specifiedTransactionId
 
 ### subsetSpecifiedParameter?
 
-> `optional` **subsetSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **subsetSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A subset context parameter specified for this exchanged document context.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ### userSpecifiedParameter?
 
-> `optional` **userSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
+> `optional` **userSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
 A user specified document context parameter specified for this exchanged document context.
 

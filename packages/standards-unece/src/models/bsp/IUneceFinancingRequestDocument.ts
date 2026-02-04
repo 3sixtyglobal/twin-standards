@@ -34,7 +34,7 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * An additional information note included for this financing request document.
 	 * @see https://vocabulary.uncefact.org/additionalInformationIncludedNote
 	 */
-	additionalInformationIncludedNote?: IUneceNote;
+	additionalInformationIncludedNote?: IUneceNote[];
 
 	/**
 	 * Agreement information, expressed as text, in this financing request document, such as a collection mandate.
@@ -58,7 +58,7 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * A contractual document clause specified for this financing request document.
 	 * @see https://vocabulary.uncefact.org/contractualClause
 	 */
-	contractualClause?: IUneceClause;
+	contractualClause?: IUneceClause[];
 
 	/**
 	 * The indication of whether or not this financing request document is a copy rather than an original.
@@ -88,7 +88,7 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * The group identifier in this financing request document.
 	 * @see https://vocabulary.uncefact.org/groupId
 	 */
-	groupId?: string;
+	groupId: string;
 
 	/**
 	 * The number of grouped transactions specified in this financing request document.
@@ -100,7 +100,7 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * A total monetary value of grouped transactions in this financing request document.
 	 * @see https://vocabulary.uncefact.org/groupedTransactionTotalAmount
 	 */
-	groupedTransactionTotalAmount?: IUneceAmountType;
+	groupedTransactionTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * The creditor financial institution specified as the intermediary in this financing request document.
@@ -112,17 +112,17 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * A status of a cancellation specified for this financing request document, such as accepted.
 	 * @see https://vocabulary.uncefact.org/specifiedCancellationStatus
 	 */
-	specifiedCancellationStatus?: IUneceCancellationStatus;
+	specifiedCancellationStatus?: IUneceCancellationStatus[];
 
 	/**
 	 * The requesting party specified in this financing request document.
 	 * @see https://vocabulary.uncefact.org/specifiedRequestingParty
 	 */
-	specifiedRequestingParty?: IUneceRequestingParty;
+	specifiedRequestingParty: IUneceRequestingParty;
 
 	/**
 	 * The status of the validation specified for this financing request document, such as error.
 	 * @see https://vocabulary.uncefact.org/specifiedValidationStatus
 	 */
-	specifiedValidationStatus?: IUneceValidationStatus;
+	specifiedValidationStatus?: IUneceValidationStatus[];
 }

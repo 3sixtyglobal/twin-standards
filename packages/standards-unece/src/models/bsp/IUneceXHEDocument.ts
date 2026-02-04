@@ -39,13 +39,13 @@ export interface IUneceXHEDocument extends IJsonLdNodeObject {
 	 * A recipient party for this XHE document.
 	 * @see https://vocabulary.uncefact.org/recipientXHEParty
 	 */
-	recipientXHEParty?: IUneceXHEParty;
+	recipientXHEParty: IUneceXHEParty[];
 
 	/**
 	 * A context scope for this XHE document.
 	 * @see https://vocabulary.uncefact.org/scopeContext
 	 */
-	scopeContext?: IUneceXHEContext;
+	scopeContext?: IUneceXHEContext[];
 
 	/**
 	 * The sender party for this XHE document.

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProduct?
 
-> `optional` **applicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **applicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 A product applicable for this subordinate trade line item.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note included in this subordinate trade line item.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedSubordinateLineTradeAgreement
 
 ### specifiedSubordinateLineTradeDelivery?
 
-> `optional` **specifiedSubordinateLineTradeDelivery**: [`IUneceSubordinateLineTradeDelivery`](IUneceSubordinateLineTradeDelivery.md)
+> `optional` **specifiedSubordinateLineTradeDelivery**: [`IUneceSubordinateLineTradeDelivery`](IUneceSubordinateLineTradeDelivery.md)[]
 
 The delivery specified for this subordinate trade line item.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/specifiedSubordinateLineTradeDelivery
 
 ### specifiedSubordinateLineTradeSettlement?
 
-> `optional` **specifiedSubordinateLineTradeSettlement**: [`IUneceSubordinateLineTradeSettlement`](IUneceSubordinateLineTradeSettlement.md)
+> `optional` **specifiedSubordinateLineTradeSettlement**: [`IUneceSubordinateLineTradeSettlement`](IUneceSubordinateLineTradeSettlement.md)[]
 
 A trade settlement specified for this subordinate trade line item.
 

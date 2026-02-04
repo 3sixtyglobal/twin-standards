@@ -96,19 +96,31 @@
 			"description": "JSON-LD Type."
 		},
 		"aftDraughtLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The draught level measured at the aft end of this transport means."
 		},
 		"airDraughtLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType"
+			},
 			"description": "An air draught level measure for this logistics transport means."
 		},
 		"applicableServiceCharge": {
-			"$ref": "https://schema.twindev.org/unece/UneceServiceCharge",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceServiceCharge"
+			},
 			"description": "A service charge, such as a freight charge, applicable to this logistics means of transport."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this logistics transport means."
 		},
 		"approvedSecurityPlanOnboardIndicator": {
@@ -116,11 +128,17 @@
 			"description": "The indication of whether or not there is an approved security plan onboard this logistics transport means."
 		},
 		"attachedIOTDevice": {
-			"$ref": "https://schema.twindev.org/unece/UneceIOTDevice",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceIOTDevice"
+			},
 			"description": "An IOT device attached to this logistics transport means."
 		},
 		"attachedLogisticsTransportEquipment": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment"
+			},
 			"description": "A piece of logistics transport equipment attached to this logistics means of transport."
 		},
 		"callSignId": {
@@ -128,11 +146,17 @@
 			"description": "A call sign identifier for this logistics transport means."
 		},
 		"certifiedEmission": {
-			"$ref": "https://schema.twindev.org/unece/UneceEmission",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceEmission"
+			},
 			"description": "A certified level of pollution calculated for an emission from this logistics transport means."
 		},
 		"companySecurityOfficerPerson": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportPerson",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportPerson"
+			},
 			"description": "A person who is a company security officer for this logistics transport means."
 		},
 		"conferenceCode": {
@@ -140,7 +164,10 @@
 			"description": "The code specifying the conference for this logistics means of transport."
 		},
 		"draughtLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The measure of the draught level of this logistics means of transport."
 		},
 		"driverAccompaniedIndicator": {
@@ -148,7 +175,10 @@
 			"description": "The indication of whether or not this logistics means of transport is accompanied by a driver."
 		},
 		"forwardDraughtLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The draught level measured at the fore end of this transport means."
 		},
 		"helipadIndicator": {
@@ -184,7 +214,10 @@
 			"description": "The measure of the external length required in a lane for this logistics transport means."
 		},
 		"linearUnitWidthMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType"
+			},
 			"description": "A measure of the width of this logistics means of transport."
 		},
 		"loadedCargoMeasure": {
@@ -204,7 +237,10 @@
 			"description": "The manoeuvring speed measured for this logistics means of transport."
 		},
 		"manufacturerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The manufacturer party for this logistics means of transport."
 		},
 		"manufacturingDateTime": {
@@ -212,7 +248,10 @@
 			"description": "The manufacturing date, time, date time, or other date time value for this logistics means of transport."
 		},
 		"maritimeApplicableCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
+			},
 			"description": "A certificate applicable to a maritime logistics transport means."
 		},
 		"name": {
@@ -232,7 +271,10 @@
 			"description": "The owner agent trade party for this logistics means of transport."
 		},
 		"ownerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The party owning this logistics means of transport."
 		},
 		"registrationCountry": {
@@ -240,15 +282,24 @@
 			"description": "The country of registration of this logistics means of transport."
 		},
 		"registrationEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "A registration event of this logistics transport means."
 		},
 		"requiredService": {
-			"$ref": "https://schema.twindev.org/unece/UneceService",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceService"
+			},
 			"description": "A transport service required for this logistics means of transport."
 		},
 		"sanitationControlDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A sanitation control document for this logistics transport means."
 		},
 		"sanitationControlReInspectionRequiredIndicator": {
@@ -260,23 +311,38 @@
 			"description": "The sequence number differentiating this logistics transport means from others."
 		},
 		"serviceProviderParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A trade party providing services for this logistics means of transport."
 		},
 		"specifiedDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension"
+			},
 			"description": "Spatial dimensions specified for this logistics means of transport."
 		},
 		"specifiedEmission": {
-			"$ref": "https://schema.twindev.org/unece/UneceEmission",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceEmission"
+			},
 			"description": "A calculated emission specified for this logistics transport means."
 		},
 		"specifiedFault": {
-			"$ref": "https://schema.twindev.org/unece/UneceIdentifiedFault",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceIdentifiedFault"
+			},
 			"description": "An identified defect specified for this logistics means of transport."
 		},
 		"specifiedHandlingInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceHandlingInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceHandlingInstructions"
+			},
 			"description": "Handling instructions specified for this logistics means of transport."
 		},
 		"transportMeansType": {
@@ -284,7 +350,10 @@
 			"description": "The type, expressed as text, of this logistics means of transport."
 		},
 		"transportMeansTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportMeansTypeCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportMeansTypeCodeList"
+			},
 			"description": "The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28)."
 		},
 		"validSanitationControlIndicator": {
@@ -308,7 +377,10 @@
 			"description": "The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
 		},
 		"weightUnitNetWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
 		},
 		"weightUnitTareWeightMeasure": {
@@ -317,7 +389,10 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"callSignId",
+		"iMOId",
+		"mMSIId"
 	],
 	"additionalProperties": {
 		"anyOf": [

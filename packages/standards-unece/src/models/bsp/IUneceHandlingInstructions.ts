@@ -54,7 +54,7 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * A textual expression of these handling instructions.
 	 * @see https://vocabulary.uncefact.org/handling
 	 */
-	handling?: string;
+	handling: string;
 
 	/**
 	 * A code specifying these handling instructions.

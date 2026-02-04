@@ -112,7 +112,10 @@
 			"description": "The identifier for this specified geographical feature."
 		},
 		"includedCircle": {
-			"$ref": "https://schema.twindev.org/unece/UneceCircle",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCircle"
+			},
 			"description": "A circle included in this specified geographical feature."
 		},
 		"includedGeographicalGrid": {

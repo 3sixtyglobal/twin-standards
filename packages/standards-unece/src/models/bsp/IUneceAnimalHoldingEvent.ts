@@ -45,7 +45,7 @@ export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
 	 * A technical characteristic related to this animal holding event.
 	 * @see https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 	 */
-	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
+	relatedTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
 
 	/**
 	 * The code specifying the type of animal holding event.

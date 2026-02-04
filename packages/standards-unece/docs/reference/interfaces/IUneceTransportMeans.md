@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/transportMeansType
 
 ### transportMeansTypeCode?
 
-> `optional` **transportMeansTypeCode**: [`UneceTransportMeansTypeCodeList`](../type-aliases/UneceTransportMeansTypeCodeList.md)
+> `optional` **transportMeansTypeCode**: [`UneceTransportMeansTypeCodeList`](../type-aliases/UneceTransportMeansTypeCodeList.md)[]
 
 The code specifying the type of referenced transport means [Reference UNECE Recommendation 28].
 

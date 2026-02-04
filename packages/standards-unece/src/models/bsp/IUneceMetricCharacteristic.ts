@@ -92,7 +92,7 @@ export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
 	 * A method specified for a value of this metric characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod;
+	valueMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * The value, expressed as a number, for this metric characteristic.
@@ -104,7 +104,7 @@ export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for a value for this metric characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter;
+	valueParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * The value, expressed as a quantity, for this metric characteristic.
@@ -116,11 +116,11 @@ export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
 	 * A range specified for a value of this metric characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange;
+	valueRange?: IUneceRange[];
 
 	/**
 	 * A tolerance specified for a value of this metric characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

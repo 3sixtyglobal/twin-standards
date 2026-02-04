@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableMachine?
 
-> `optional` **applicableMachine**: [`IUneceMachine`](IUneceMachine.md)
+> `optional` **applicableMachine**: [`IUneceMachine`](IUneceMachine.md)[]
 
 A production machine applicable to this product colour.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableMachine
 
 ### applicableMaterial?
 
-> `optional` **applicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **applicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Specified material applicable to this product colour.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableMaterial
 
 ### applicableMethod?
 
-> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
+> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
 A specified method applicable to this product colour.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ### applicableProductionDevice?
 
-> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)
+> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
 
 A production device applicable to this product colour.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableProductionDevice
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this product colour.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableTechnicalCharacteristic?
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
+> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic applicable to this product colour.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/presencePercent
 
 ### relatedParty?
 
-> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party related to this product colour.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/relatedParty
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document specified for this product colour.
 

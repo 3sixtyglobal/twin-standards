@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### definedContact?
 
-> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
+> `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
 
 A trade contact defined for this location party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Fax communication information for this location party.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/name
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
 A postal address for this location party.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ### providedService?
 
-> `optional` **providedService**: [`IUneceService`](IUneceService.md)
+> `optional` **providedService**: [`IUneceService`](IUneceService.md)[]
 
 A transport service provided by this location party.
 

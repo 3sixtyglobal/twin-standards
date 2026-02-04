@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"additionalInformationIncludedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "An additional information note included for this financing request document."
 		},
 		"agreementInformation": {
@@ -112,7 +115,10 @@
 			"description": "A cancellation reason, expressed as text, in this financing request document."
 		},
 		"contractualClause": {
-			"$ref": "https://schema.twindev.org/unece/UneceClause",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceClause"
+			},
 			"description": "A contractual document clause specified for this financing request document."
 		},
 		"copyIndicator": {
@@ -140,7 +146,10 @@
 			"description": "The number of grouped transactions specified in this financing request document."
 		},
 		"groupedTransactionTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A total monetary value of grouped transactions in this financing request document."
 		},
 		"intermediarySpecifiedFinancialInstitution": {
@@ -148,7 +157,10 @@
 			"description": "The creditor financial institution specified as the intermediary in this financing request document."
 		},
 		"specifiedCancellationStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceCancellationStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCancellationStatus"
+			},
 			"description": "A status of a cancellation specified for this financing request document, such as accepted."
 		},
 		"specifiedRequestingParty": {
@@ -156,12 +168,17 @@
 			"description": "The requesting party specified in this financing request document."
 		},
 		"specifiedValidationStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceValidationStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceValidationStatus"
+			},
 			"description": "The status of the validation specified for this financing request document, such as error."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"groupId",
+		"specifiedRequestingParty"
 	],
 	"additionalProperties": {
 		"anyOf": [

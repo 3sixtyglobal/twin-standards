@@ -38,7 +38,7 @@ export interface IUneceTradeProductFeature extends IJsonLdNodeObject {
 	 * A marketing measure for this trade product feature.
 	 * @see https://vocabulary.uncefact.org/marketingMeasure
 	 */
-	marketingMeasure?: IUneceMeasureType;
+	marketingMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A catch phrase, expressed as text, for marketing of this trade product feature.

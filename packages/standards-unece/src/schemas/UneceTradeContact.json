@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"accessibleLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedLocation"
+			},
 			"description": "An accessible location specified for this trade contact."
 		},
 		"authorizedPersonName": {
@@ -120,15 +123,24 @@
 			"description": "The direct telephone communication information for this trade contact."
 		},
 		"eDICommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Electronic Data Interchange (EDI) communication information for this trade contact."
 		},
 		"emailURICommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "The email URI communication information for this trade contact."
 		},
 		"faxCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Fax communication information for this trade contact."
 		},
 		"identifier": {
@@ -136,7 +148,10 @@
 			"description": "The unique identifier for this trade contact."
 		},
 		"instantMessagingCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Instant messaging communication information for this trade contact."
 		},
 		"jobTitle": {
@@ -156,7 +171,10 @@
 			"description": "A name, expressed as text, of this trade contact person."
 		},
 		"postalAddress": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
+			},
 			"description": "Postal address information for this trade contact."
 		},
 		"responsibility": {
@@ -168,7 +186,10 @@
 			"description": "The contact person specified for this trade contact."
 		},
 		"specifiedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note specified for this trade contact."
 		},
 		"telephoneCommunication": {
@@ -176,7 +197,10 @@
 			"description": "Telephone communication information for this trade contact."
 		},
 		"telexCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Telegraphy (Telex) communication information for this trade contact."
 		},
 		"uRICommunication": {
@@ -184,11 +208,17 @@
 			"description": "Uniform Resource Identifier (URI) communication information for this trade contact, such as a web or an email address."
 		},
 		"usedCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "A communication used by this trade contact."
 		},
 		"vOIPCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Voice Over Internet Protocol (VOIP) communication information for this trade contact."
 		}
 	},

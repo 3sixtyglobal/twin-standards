@@ -116,12 +116,21 @@
 			"description": "The social security identifier for this person."
 		},
 		"specifiedProprietaryIdentity": {
-			"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity"
+			},
 			"description": "A proprietary Identity specified for this person."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"alienRegistrationId",
+		"driversLicenceId",
+		"identityCardId",
+		"passportId",
+		"socialSecurityId",
+		"specifiedProprietaryIdentity"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -33,11 +33,11 @@ export interface IUneceFinancingRequestResultDocument extends IJsonLdNodeObject 
 	 * A monetary value of the financed total amount in this financing request result document.
 	 * @see https://vocabulary.uncefact.org/financedTotalAmount
 	 */
-	financedTotalAmount?: IUneceAmountType;
+	financedTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * The financing status specified in this financing request result document.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancingStatus
 	 */
-	specifiedFinancingStatus?: IUneceFinancingStatus;
+	specifiedFinancingStatus?: IUneceFinancingStatus[];
 }

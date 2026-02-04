@@ -100,7 +100,10 @@
 			"description": "The code specifying the type of quantity unit applicable for this experience product."
 		},
 		"applicableSpecifiedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedNote"
+			},
 			"description": "A note applicable for this experience product."
 		},
 		"brandName": {
@@ -108,7 +111,10 @@
 			"description": "A brand name, expressed as text, for this experience product."
 		},
 		"calculatedPrice": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradePrice",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradePrice"
+			},
 			"description": "A calculated price for this experience product."
 		},
 		"categoryCode": {
@@ -124,7 +130,10 @@
 			"description": "A textual description of this experience product."
 		},
 		"distinctiveFeature": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedFeature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedFeature"
+			},
 			"description": "A distinctive feature of this experience product."
 		},
 		"identifier": {
@@ -132,7 +141,10 @@
 			"description": "The identifier of this experience product."
 		},
 		"includedEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceExperienceEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceExperienceEvent"
+			},
 			"description": "An event included within this experience product."
 		},
 		"indemnityClause": {
@@ -164,19 +176,31 @@
 			"description": "An objective, expressed as text, for this experience product."
 		},
 		"operationalPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
+			},
 			"description": "A operational period for this experience product."
 		},
 		"optionalProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceExperienceProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceExperienceProduct"
+			},
 			"description": "An optional product for this experience product."
 		},
 		"providedCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertificate"
+			},
 			"description": "A certificate provided for this experience product."
 		},
 		"providedRequirement": {
-			"$ref": "https://schema.twindev.org/unece/UneceRequirement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRequirement"
+			},
 			"description": "A requirement provided for this experience product."
 		},
 		"requiredReservationGuaranteeIndicator": {
@@ -184,7 +208,10 @@
 			"description": "The indication of whether or not this experience product requires a reservation guarantee."
 		},
 		"requiredUsageCondition": {
-			"$ref": "https://schema.twindev.org/unece/UneceUsageCondition",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceUsageCondition"
+			},
 			"description": "A required usage condition for this experience product."
 		},
 		"reservationGuarantee": {
@@ -192,7 +219,10 @@
 			"description": "A reservation guarantee, expressed as text, for this experience product."
 		},
 		"specifiedTradeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A party specified for this experience product."
 		},
 		"theme": {

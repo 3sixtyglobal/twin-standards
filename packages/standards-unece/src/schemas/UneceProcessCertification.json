@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this process certification."
 		},
 		"assertion": {
@@ -108,7 +111,10 @@
 			"description": "The code specifying the assertion for this process certification, such as a claim that the process is free from child labour."
 		},
 		"relatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A referenced location related to this process certification."
 		},
 		"responsibleAgency": {

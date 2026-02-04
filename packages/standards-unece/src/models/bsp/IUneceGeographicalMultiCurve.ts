@@ -33,11 +33,11 @@ export interface IUneceGeographicalMultiCurve extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical multi-curve.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A geographical line member of this geographical multi-curve.
 	 * @see https://vocabulary.uncefact.org/memberGeographicalLine
 	 */
-	memberGeographicalLine?: IUneceGeographicalLine;
+	memberGeographicalLine?: IUneceGeographicalLine[];
 }

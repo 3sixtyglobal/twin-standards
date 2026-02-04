@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard associated with this specified declaration."
 		},
 		"assuranceLevelCode": {
@@ -116,7 +119,10 @@
 			"description": "The issue date, time, date time or other date time value for this specified declaration."
 		},
 		"issuerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A party that issues this specified declaration."
 		},
 		"name": {
@@ -124,7 +130,10 @@
 			"description": "A name, expressed as text, for this specified declaration."
 		},
 		"subjectTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList"
+			},
 			"description": "A code specifying a subject type for this specified declaration."
 		},
 		"typeCode": {
@@ -132,7 +141,10 @@
 			"description": "The code specifying the type of specified declaration."
 		},
 		"verifiedObject": {
-			"$ref": "https://schema.twindev.org/unece/UneceObject",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceObject"
+			},
 			"description": "An object verified for this specified declaration."
 		}
 	},

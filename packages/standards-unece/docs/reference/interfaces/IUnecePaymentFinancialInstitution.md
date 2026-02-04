@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### bICId?
+### bICId
 
-> `optional` **bICId**: `string`
+> **bICId**: `string`
 
 The unique Bank Identification Code (BIC) as defined in ISO 9362 for this payment financial institution.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/roleCode
 
 ### specifiedCommunication?
 
-> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A communication specified for this payment financial institution.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ### specifiedPaymentFinancialAccount?
 
-> `optional` **specifiedPaymentFinancialAccount**: [`IUnecePaymentFinancialAccount`](IUnecePaymentFinancialAccount.md)
+> `optional` **specifiedPaymentFinancialAccount**: [`IUnecePaymentFinancialAccount`](IUnecePaymentFinancialAccount.md)[]
 
 A payment financial account specified for this payment financial institution.
 

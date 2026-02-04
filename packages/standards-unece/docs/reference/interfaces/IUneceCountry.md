@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/specifiedQuantity
 
 ### subordinateCountrySubDivision?
 
-> `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)
+> `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)[]
 
 A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
 

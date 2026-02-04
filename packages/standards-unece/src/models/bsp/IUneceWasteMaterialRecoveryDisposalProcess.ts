@@ -27,7 +27,7 @@ export interface IUneceWasteMaterialRecoveryDisposalProcess extends IJsonLdNodeO
 	 * A process certificate applicable to this waste material recovery disposal process.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCertificate
 	 */
-	applicableProcessCertificate?: IUneceProcessCertificate;
+	applicableProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A textual description of a waste material recovery disposal process.

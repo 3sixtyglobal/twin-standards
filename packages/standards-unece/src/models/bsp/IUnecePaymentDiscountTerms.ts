@@ -27,13 +27,13 @@ export interface IUnecePaymentDiscountTerms extends IJsonLdNodeObject {
 	 * A monetary value of the actual discount in these trade payment discount terms.
 	 * @see https://vocabulary.uncefact.org/actualDiscountAmount
 	 */
-	actualDiscountAmount?: IUneceAmountType;
+	actualDiscountAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value used as a basis to calculate the discount in these trade payment discount terms.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType;
+	basisAmount?: IUneceAmountType[];
 
 	/**
 	 * The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment

@@ -33,7 +33,7 @@ export interface IUneceReferencePrice extends IJsonLdNodeObject {
 	 * The monetary value of a charged reference price.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType;
+	chargeAmount?: IUneceAmountType[];
 
 	/**
 	 * The code specifying the comparison method for this reference price.

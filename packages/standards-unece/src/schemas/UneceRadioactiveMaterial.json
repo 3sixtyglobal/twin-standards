@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableRadioactiveIsotope": {
-			"$ref": "https://schema.twindev.org/unece/UneceRadioactiveIsotope",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRadioactiveIsotope"
+			},
 			"description": "An isotope applicable to this radioactive material."
 		},
 		"compositionDescription": {

@@ -31,19 +31,19 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A transport arrival event reported for this logistics status.
 	 * @see https://vocabulary.uncefact.org/arrivalReportedEvent
 	 */
-	arrivalReportedEvent?: IUneceTransportEvent;
+	arrivalReportedEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A contact party for this logistics status.
 	 * @see https://vocabulary.uncefact.org/contactParty
 	 */
-	contactParty?: IUneceTradeParty;
+	contactParty?: IUneceTradeParty[];
 
 	/**
 	 * A transport departure event reported for this logistics status.
 	 * @see https://vocabulary.uncefact.org/departureReportedEvent
 	 */
-	departureReportedEvent?: IUneceTransportEvent;
+	departureReportedEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The textual description of this logistics status.
@@ -61,7 +61,7 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A transport loading event reported for this logistics status.
 	 * @see https://vocabulary.uncefact.org/loadingReportedEvent
 	 */
-	loadingReportedEvent?: IUneceTransportEvent;
+	loadingReportedEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The code specifying this logistics status condition [UNECE Recommendation 24].
@@ -91,7 +91,7 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A supply chain event reported for this logistics status.
 	 * @see https://vocabulary.uncefact.org/reportedSupplyChainEvent
 	 */
-	reportedSupplyChainEvent?: IUneceSupplyChainEvent;
+	reportedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The sequence number of this logistics status, such as within a status report.
@@ -109,7 +109,7 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A transport unloading event reported for this logistics status.
 	 * @see https://vocabulary.uncefact.org/unloadingReportedEvent
 	 */
-	unloadingReportedEvent?: IUneceTransportEvent;
+	unloadingReportedEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A specific validity period for this logistics status.

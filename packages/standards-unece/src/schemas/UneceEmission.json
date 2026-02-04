@@ -100,7 +100,10 @@
 			"description": "The affected distance over which this calculated emission is measured."
 		},
 		"pollutionMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the pollution calculated for this emission."
 		},
 		"typeCode": {
@@ -108,7 +111,10 @@
 			"description": "The code specifying the type of this calculated emission."
 		},
 		"weightUnitWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A weight for which this calculated emission is measured."
 		}
 	},

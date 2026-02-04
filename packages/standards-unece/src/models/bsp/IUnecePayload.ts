@@ -26,5 +26,5 @@ export interface IUnecePayload extends IJsonLdNodeObject {
 	 * A payload instance included in this XHE payload.
 	 * @see https://vocabulary.uncefact.org/includedPayloadInstance
 	 */
-	includedPayloadInstance?: IUnecePayloadInstance;
+	includedPayloadInstance: IUnecePayloadInstance[];
 }

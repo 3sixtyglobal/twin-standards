@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/appliedTaxTypeCode
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value used as the basis in calculating the applied tax.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### calculatedAmount?
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value resulting from the calculation of the applied tax.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### attainedAcademicQualification?
 
-> `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)
+> `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)[]
 
 An academic qualification attained by this authoritative signatory person.
 

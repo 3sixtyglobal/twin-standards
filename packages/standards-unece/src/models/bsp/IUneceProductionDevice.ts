@@ -35,19 +35,19 @@ export interface IUneceProductionDevice extends IJsonLdNodeObject {
 	 * A parameter applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/applicableParameter
 	 */
-	applicableParameter?: IUneceSpecifiedParameter;
+	applicableParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A production machine combined with this specified production device.
 	 * @see https://vocabulary.uncefact.org/combinedMachine
 	 */
-	combinedMachine?: IUneceMachine;
+	combinedMachine?: IUneceMachine[];
 
 	/**
 	 * A production device combined with this specified production device.
 	 * @see https://vocabulary.uncefact.org/combinedProductionDevice
 	 */
-	combinedProductionDevice?: IUneceProductionDevice;
+	combinedProductionDevice?: IUneceProductionDevice[];
 
 	/**
 	 * A textual description of a function of this specified production device.
@@ -65,49 +65,49 @@ export interface IUneceProductionDevice extends IJsonLdNodeObject {
 	 * An input batch applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/inputApplicableBatch
 	 */
-	inputApplicableBatch?: IUneceProductBatch;
+	inputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Input material applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/inputApplicableMaterial
 	 */
-	inputApplicableMaterial?: IUneceSpecifiedMaterial;
+	inputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An input product applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/inputApplicableProduct
 	 */
-	inputApplicableProduct?: IUneceTradeProduct;
+	inputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A measure of the input capacity of this specified production device, such as maximum reach or average per month.
 	 * @see https://vocabulary.uncefact.org/inputCapacityMeasure
 	 */
-	inputCapacityMeasure?: IUneceMeasureType;
+	inputCapacityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * An output batch applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/outputApplicableBatch
 	 */
-	outputApplicableBatch?: IUneceProductBatch;
+	outputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Output material applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/outputApplicableMaterial
 	 */
-	outputApplicableMaterial?: IUneceSpecifiedMaterial;
+	outputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An output product applicable to this specified production device.
 	 * @see https://vocabulary.uncefact.org/outputApplicableProduct
 	 */
-	outputApplicableProduct?: IUneceTradeProduct;
+	outputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A measure of the output capacity of this specified production device, such as maximum reach or average per month.
 	 * @see https://vocabulary.uncefact.org/outputCapacityMeasure
 	 */
-	outputCapacityMeasure?: IUneceMeasureType;
+	outputCapacityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A type, expressed as text, for this specified production device.
@@ -119,25 +119,25 @@ export interface IUneceProductionDevice extends IJsonLdNodeObject {
 	 * An IOT (Internet of Things) or other scanning device reporting event for this specified production device.
 	 * @see https://vocabulary.uncefact.org/reportingIOTDeviceSupplyChainEvent
 	 */
-	reportingIOTDeviceSupplyChainEvent?: IUneceSupplyChainEvent;
+	reportingIOTDeviceSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * An operational parameter requested for this specified production device.
 	 * @see https://vocabulary.uncefact.org/requestedOperationalApplicableParameter
 	 */
-	requestedOperationalApplicableParameter?: IUneceSpecifiedParameter;
+	requestedOperationalApplicableParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A referenced location specified for this production device.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation;
+	specifiedLocation?: IUneceLocation[];
 
 	/**
 	 * A facility production unit for this specified production device.
 	 * @see https://vocabulary.uncefact.org/specifiedProductionUnit
 	 */
-	specifiedProductionUnit?: IUneceProductionUnit;
+	specifiedProductionUnit?: IUneceProductionUnit[];
 
 	/**
 	 * The code specifying the subordinate type for this production device.

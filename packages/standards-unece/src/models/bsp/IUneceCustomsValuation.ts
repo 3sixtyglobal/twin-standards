@@ -84,7 +84,7 @@ export interface IUneceCustomsValuation extends IJsonLdNodeObject {
 	 * cross-border customs valuation.
 	 * @see https://vocabulary.uncefact.org/otherChargeAmount
 	 */
-	otherChargeAmount?: IUneceAmountType;
+	otherChargeAmount?: IUneceAmountType[];
 
 	/**
 	 * The indication of whether or not there is a royalty or licence fee related to the goods for this cross-border customs

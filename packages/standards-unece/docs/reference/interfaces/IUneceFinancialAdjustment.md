@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/accountingDebitCreditStatusDirectionCode
 
 ### actualAmount?
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 An actual monetary value added or subtracted as a result of this financial adjustment.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/reason
 
 ### relatedTax?
 
-> `optional` **relatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
+> `optional` **relatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A trade tax related to this financial adjustment.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### calculatedYieldMeasure?
 
-> `optional` **calculatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **calculatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the calculated yield, such as weight per surface area unit, of this crop produce.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/calculatedYieldMeasure
 
 ### estimatedYieldMeasure?
 
-> `optional` **estimatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **estimatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the estimated yield, such as weight per surface area unit, of this crop produce.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inputSpecifiedBatch?
+### inputSpecifiedBatch
 
-> `optional` **inputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)
+> **inputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
 An input batch crop produce, such as seed or fertilizer, specified for this crop produce.
 
@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### outputSpecifiedBatch?
+### outputSpecifiedBatch
 
-> `optional` **outputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)
+> **outputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
 An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce.
 

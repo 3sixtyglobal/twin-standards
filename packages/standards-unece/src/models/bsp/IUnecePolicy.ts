@@ -27,7 +27,7 @@ export interface IUnecePolicy extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this compliance policy.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A textual description of this compliance policy.

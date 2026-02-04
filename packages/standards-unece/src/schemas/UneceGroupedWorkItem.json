@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"actualComplexDescription": {
-			"$ref": "https://schema.twindev.org/unece/UneceComplexDescription",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceComplexDescription"
+			},
 			"description": "An actual complex description for this work item group."
 		},
 		"alternativeClassificationCode": {
@@ -104,11 +107,17 @@
 			"description": "A code specifying an alternative classification for this work item group."
 		},
 		"binaryFile": {
-			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
+			},
 			"description": "A specified binary file referenced by this grouped work item."
 		},
 		"changedStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus"
+			},
 			"description": "A changed recorded status for this grouped work item."
 		},
 		"comment": {
@@ -128,11 +137,17 @@
 			"description": "The index, expressed as text, to be used for this grouped work item."
 		},
 		"itemBasicWorkItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBasicWorkItem"
+			},
 			"description": "A basic work item within this grouped work item."
 		},
 		"itemGroupedWorkItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceGroupedWorkItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGroupedWorkItem"
+			},
 			"description": "A grouped work item within this grouped work item."
 		},
 		"priceListItemId": {
@@ -148,7 +163,10 @@
 			"description": "A code specifying a requested action for this grouped work item."
 		},
 		"totalPrice": {
-			"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCalculatedPrice"
+			},
 			"description": "A total calculated price for this work item group."
 		},
 		"totalQuantity": {
@@ -161,7 +179,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"priceListItemId"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"scopeReference": {
-			"$ref": "https://schema.twindev.org/unece/UneceXHEReference",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceXHEReference"
+			},
 			"description": "A reference to the scope of this XHE context."
 		},
 		"specifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceXHEParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceXHEParameter"
+			},
 			"description": "A parameter specified for this XHE context."
 		}
 	},

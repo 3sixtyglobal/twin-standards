@@ -112,36 +112,60 @@
 			"description": "The animal batch specified for this TT animal."
 		},
 		"specifiedAnimalCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceAnimalCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAnimalCertificate"
+			},
 			"description": "An animal certificate specified for this TT animal."
 		},
 		"specifiedAnimalHoldingEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent"
+			},
 			"description": "An animal holding event specified for this TT animal."
 		},
 		"specifiedAnimalIdentity": {
-			"$ref": "https://schema.twindev.org/unece/UneceAnimalIdentity",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAnimalIdentity"
+			},
 			"description": "An animal identity specified for this TT animal."
 		},
 		"specifiedDelimitedPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
+			},
 			"description": "A delimited period specified for this TT animal."
 		},
 		"specifiedIndividualTTAnimal": {
-			"$ref": "https://schema.twindev.org/unece/UneceIndividualTTAnimal",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceIndividualTTAnimal"
+			},
 			"description": "The individual tracking animal specified for this TT animal."
 		},
 		"specifiedPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
+			},
 			"description": "A delimited period specified for this TT animal."
 		},
 		"specifiedSpeciesTTAnimal": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpeciesTTAnimal",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpeciesTTAnimal"
+			},
 			"description": "A species specified for this TT animal."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"holderResponsibleParty",
+		"speciesTypeCode",
+		"specifiedAnimalIdentity"
 	],
 	"additionalProperties": {
 		"anyOf": [

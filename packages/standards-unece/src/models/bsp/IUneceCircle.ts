@@ -29,13 +29,13 @@ export interface IUneceCircle extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this specified circle.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified circle.
 	 * @see https://vocabulary.uncefact.org/associatedLocation
 	 */
-	associatedLocation?: IUneceLogisticsLocation;
+	associatedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The geographical point which defines the centre of this specified circle.

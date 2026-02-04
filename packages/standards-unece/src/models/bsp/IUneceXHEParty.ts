@@ -26,5 +26,5 @@ export interface IUneceXHEParty extends IJsonLdNodeObject {
 	 * Identifying information specified for an XHE party.
 	 * @see https://vocabulary.uncefact.org/specifiedXHEIdentity
 	 */
-	specifiedXHEIdentity?: IUneceXHEIdentity;
+	specifiedXHEIdentity: IUneceXHEIdentity[];
 }

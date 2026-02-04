@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### statusValueMeasure?
 
-> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value of the status for this specified parameter.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 A tolerance specified for the value of this parameter.
 

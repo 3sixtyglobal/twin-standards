@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/acceptanceEvent
 
 ### actualDeliveryEvent?
 
-> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An actual delivery event, at header level, for this trade delivery.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ### actualDespatchEvent?
 
-> `optional` **actualDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **actualDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An actual despatch event, at header level, for this trade delivery.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/actualUnloadingEvent
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An additional document, at header level, referenced for this trade delivery.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/classificationDocument
 
 ### confirmedDespatchEvent?
 
-> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The despatch event, at header level, confirmed for this trade delivery.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/consumptionReportDocument
 
 ### deliveryNoteDocument?
 
-> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The delivery note document, at header level, referenced for this trade delivery.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/despatchedQuantity
 
 ### disposalParty?
 
-> `optional` **disposalParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **disposalParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A disposal party, at header level, for this trade delivery.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/disposalParty
 
 ### dueInAvailableQuantity?
 
-> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The due in available quantity, at header level, for this trade delivery.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/dueInRequestedQuantity
 
 ### estimatedDeliveryEvent?
 
-> `optional` **estimatedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **estimatedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An estimated delivery event for this trade delivery header.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/finalDestinationCountry
 
 ### freightForwarderParty?
 
-> `optional` **freightForwarderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **freightForwarderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A freight forwarder party, at header level, for this trade delivery.
 
@@ -459,7 +459,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedPackaging?
 
-> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
+> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
 Packaging, at header level, included in this trade delivery.
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/includedPackaging
 
 ### informationNote?
 
-> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note with information, at header level, for this trade delivery.
 
@@ -483,7 +483,7 @@ https://vocabulary.uncefact.org/informationNote
 
 ### inventoryManagerParty?
 
-> `optional` **inventoryManagerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **inventoryManagerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 An inventory manager party, at header level, for this trade delivery.
 
@@ -556,7 +556,7 @@ https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
 
 ### plannedConsignment?
 
-> `optional` **plannedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
+> `optional` **plannedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
 A consignment, at header level, planned for this trade delivery.
 
@@ -568,7 +568,7 @@ https://vocabulary.uncefact.org/plannedConsignment
 
 ### plannedDeliveryEvent?
 
-> `optional` **plannedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A delivery event, at header level, planned for this trade delivery.
 
@@ -580,7 +580,7 @@ https://vocabulary.uncefact.org/plannedDeliveryEvent
 
 ### plannedDespatchEvent?
 
-> `optional` **plannedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A despatch event, at header level, planned for this trade delivery.
 
@@ -616,7 +616,7 @@ https://vocabulary.uncefact.org/plannedReleaseEvent
 
 ### plannedShipFromDeliveryEvent?
 
-> `optional` **plannedShipFromDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedShipFromDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The event of the planned ship from delivery, at header level, for this trade delivery.
 
@@ -628,7 +628,7 @@ https://vocabulary.uncefact.org/plannedShipFromDeliveryEvent
 
 ### plannedShipToDeliveryEvent?
 
-> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The planned ship to delivery event, at header level, for this trade delivery.
 
@@ -640,7 +640,7 @@ https://vocabulary.uncefact.org/plannedShipToDeliveryEvent
 
 ### previousDeliverySupplyChainEvent?
 
-> `optional` **previousDeliverySupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **previousDeliverySupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A previous delivery event, at header level, for this trade delivery.
 
@@ -664,7 +664,7 @@ https://vocabulary.uncefact.org/quantityCalculationMethodCode
 
 ### receivingAdviceDocument?
 
-> `optional` **receivingAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **receivingAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A receiving advice document, at header level, referenced for this trade delivery.
 
@@ -676,7 +676,7 @@ https://vocabulary.uncefact.org/receivingAdviceDocument
 
 ### relatedConsignment?
 
-> `optional` **relatedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
+> `optional` **relatedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
 A consignment, at header level, related to this trade delivery.
 
@@ -688,7 +688,7 @@ https://vocabulary.uncefact.org/relatedConsignment
 
 ### relatedParty?
 
-> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party, at header level, related to this trade delivery.
 
@@ -712,7 +712,7 @@ https://vocabulary.uncefact.org/remainingRequestedQuantity
 
 ### requestedDeliveryEvent?
 
-> `optional` **requestedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **requestedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A delivery event, at header level, requested for this trade delivery.
 
@@ -724,7 +724,7 @@ https://vocabulary.uncefact.org/requestedDeliveryEvent
 
 ### requestedDespatchEvent?
 
-> `optional` **requestedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **requestedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A despatch event, at header level, requested for this trade delivery.
 
@@ -748,7 +748,7 @@ https://vocabulary.uncefact.org/requestedQuantity
 
 ### shipFromParty?
 
-> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ship from party, at header level, for this trade delivery.
 
@@ -760,7 +760,7 @@ https://vocabulary.uncefact.org/shipFromParty
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ship to party, at header level, for this trade delivery.
 
@@ -784,7 +784,7 @@ https://vocabulary.uncefact.org/shipmentScheduleDocument
 
 ### specifiedDeliveryInstructions?
 
-> `optional` **specifiedDeliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)
+> `optional` **specifiedDeliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)[]
 
 Delivery instructions, at header level, specified for this trade delivery.
 
@@ -796,7 +796,7 @@ https://vocabulary.uncefact.org/specifiedDeliveryInstructions
 
 ### specifiedHandlingInstructions?
 
-> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions, at header level, specified for this trade delivery.
 
@@ -808,7 +808,7 @@ https://vocabulary.uncefact.org/specifiedHandlingInstructions
 
 ### specifiedSchedule?
 
-> `optional` **specifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **specifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain schedule, at header level, specified for this trade delivery.
 
@@ -820,7 +820,7 @@ https://vocabulary.uncefact.org/specifiedSchedule
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event, at header level, specified for this trade delivery.
 
@@ -869,7 +869,7 @@ https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
 
 ### ultimateShipToDeliveryEvent?
 
-> `optional` **ultimateShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **ultimateShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The ultimate ship to delivery event, at header level, for this trade delivery.
 
@@ -881,7 +881,7 @@ https://vocabulary.uncefact.org/ultimateShipToDeliveryEvent
 
 ### ultimateShipToParty?
 
-> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ultimate ship to party, at header level, for this trade delivery.
 
@@ -893,7 +893,7 @@ https://vocabulary.uncefact.org/ultimateShipToParty
 
 ### utilizedTransportEquipment?
 
-> `optional` **utilizedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)
+> `optional` **utilizedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
 
 Logistics transport equipment utilized for this header trade delivery.
 

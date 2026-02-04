@@ -31,7 +31,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * An accessible location specified for this trade contact.
 	 * @see https://vocabulary.uncefact.org/accessibleLocation
 	 */
-	accessibleLocation?: IUneceSpecifiedLocation;
+	accessibleLocation?: IUneceSpecifiedLocation[];
 
 	/**
 	 * The name, expressed as text, of the authorized person for this trade contact.
@@ -67,19 +67,19 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Electronic Data Interchange (EDI) communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/eDICommunication
 	 */
-	eDICommunication?: IUneceCommunication;
+	eDICommunication?: IUneceCommunication[];
 
 	/**
 	 * The email URI communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication;
+	emailURICommunication?: IUneceCommunication[];
 
 	/**
 	 * Fax communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication;
+	faxCommunication?: IUneceCommunication[];
 
 	/**
 	 * The unique identifier for this trade contact.
@@ -91,7 +91,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Instant messaging communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/instantMessagingCommunication
 	 */
-	instantMessagingCommunication?: IUneceCommunication;
+	instantMessagingCommunication?: IUneceCommunication[];
 
 	/**
 	 * A job title, position or designation, expressed as text, of this trade contact within an organization, such as Director,
@@ -122,7 +122,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Postal address information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress;
+	postalAddress?: IUneceTradeAddress[];
 
 	/**
 	 * A responsibility, expressed as text, of this trade contact.
@@ -140,7 +140,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * A note specified for this trade contact.
 	 * @see https://vocabulary.uncefact.org/specifiedNote
 	 */
-	specifiedNote?: IUneceNote;
+	specifiedNote?: IUneceNote[];
 
 	/**
 	 * Telephone communication information for this trade contact.
@@ -152,7 +152,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Telegraphy (Telex) communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/telexCommunication
 	 */
-	telexCommunication?: IUneceCommunication;
+	telexCommunication?: IUneceCommunication[];
 
 	/**
 	 * Uniform Resource Identifier (URI) communication information for this trade contact, such as a web or an email address.
@@ -164,11 +164,11 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * A communication used by this trade contact.
 	 * @see https://vocabulary.uncefact.org/usedCommunication
 	 */
-	usedCommunication?: IUneceCommunication;
+	usedCommunication?: IUneceCommunication[];
 
 	/**
 	 * Voice Over Internet Protocol (VOIP) communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/vOIPCommunication
 	 */
-	vOIPCommunication?: IUneceCommunication;
+	vOIPCommunication?: IUneceCommunication[];
 }

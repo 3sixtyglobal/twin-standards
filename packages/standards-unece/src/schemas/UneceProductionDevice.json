@@ -96,15 +96,24 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter applicable to this specified production device."
 		},
 		"combinedMachine": {
-			"$ref": "https://schema.twindev.org/unece/UneceMachine",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMachine"
+			},
 			"description": "A production machine combined with this specified production device."
 		},
 		"combinedProductionDevice": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductionDevice",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductionDevice"
+			},
 			"description": "A production device combined with this specified production device."
 		},
 		"functionDescription": {
@@ -116,35 +125,59 @@
 			"description": "An identifier of this specified production device."
 		},
 		"inputApplicableBatch": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
+			},
 			"description": "An input batch applicable to this specified production device."
 		},
 		"inputApplicableMaterial": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
+			},
 			"description": "Input material applicable to this specified production device."
 		},
 		"inputApplicableProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "An input product applicable to this specified production device."
 		},
 		"inputCapacityMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the input capacity of this specified production device, such as maximum reach or average per month."
 		},
 		"outputApplicableBatch": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
+			},
 			"description": "An output batch applicable to this specified production device."
 		},
 		"outputApplicableMaterial": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
+			},
 			"description": "Output material applicable to this specified production device."
 		},
 		"outputApplicableProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "An output product applicable to this specified production device."
 		},
 		"outputCapacityMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the output capacity of this specified production device, such as maximum reach or average per month."
 		},
 		"productionDeviceType": {
@@ -152,19 +185,31 @@
 			"description": "A type, expressed as text, for this specified production device."
 		},
 		"reportingIOTDeviceSupplyChainEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "An IOT (Internet of Things) or other scanning device reporting event for this specified production device."
 		},
 		"requestedOperationalApplicableParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "An operational parameter requested for this specified production device."
 		},
 		"specifiedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A referenced location specified for this production device."
 		},
 		"specifiedProductionUnit": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductionUnit",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductionUnit"
+			},
 			"description": "A facility production unit for this specified production device."
 		},
 		"subordinateTypeCode": {

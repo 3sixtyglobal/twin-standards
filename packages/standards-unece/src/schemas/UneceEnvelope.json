@@ -125,7 +125,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"metadataDocument"
 	],
 	"additionalProperties": {
 		"anyOf": [

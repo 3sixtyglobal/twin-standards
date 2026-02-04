@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this technical characteristic."
 		},
 		"capacityValueMeasure": {
@@ -108,7 +111,10 @@
 			"description": "The code specifying the certification granted to this technical characteristic."
 		},
 		"componentMaterial": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
+			},
 			"description": "A specified material component of this technical characteristic."
 		},
 		"constructionDateTime": {
@@ -140,11 +146,17 @@
 			"description": "The code specifying the measurement method for this technical characteristic."
 		},
 		"specifiedAnimalHoldingEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent"
+			},
 			"description": "An animal holding event specified for this technical characteristic."
 		},
 		"specifiedSupplyChainEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A supply chain event specified for this technical characteristic."
 		},
 		"subordinateTypeCode": {
@@ -184,15 +196,24 @@
 			"description": "The value, expressed as a number, for this technical characteristic."
 		},
 		"valueParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter specified for the value of this technical characteristic."
 		},
 		"valueRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A range specified for the value of this technical characteristic."
 		},
 		"valueTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "A tolerance specified for the value of this technical characteristic."
 		}
 	},

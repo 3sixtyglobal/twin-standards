@@ -100,11 +100,17 @@
 			"description": "The code specifying the applied tax type such as VAT."
 		},
 		"basisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value used as the basis in calculating the applied tax."
 		},
 		"calculatedAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value resulting from the calculation of the applied tax."
 		},
 		"calculatedRate": {

@@ -112,11 +112,17 @@
 			"description": "An amendment purpose, expressed in text, for this exchanged document."
 		},
 		"approverSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The approver signature that authenticates this exchanged document."
 		},
 		"attachedBinaryFile": {
-			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
+			},
 			"description": "A binary file attached to this exchanged document."
 		},
 		"attachmentBinaryObject": {
@@ -124,7 +130,10 @@
 			"description": "A binary object that is attached or otherwise appended to this exchanged document."
 		},
 		"buyerSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The buyer signature that authenticates this exchanged document."
 		},
 		"cancellationDateTime": {
@@ -136,7 +145,10 @@
 			"description": "The code specifying a category for this exchanged document."
 		},
 		"contractualClause": {
-			"$ref": "https://schema.twindev.org/unece/UneceClause",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceClause"
+			},
 			"description": "A contractual clause of this exchanged document."
 		},
 		"controlRequirementIndicator": {
@@ -196,11 +208,17 @@
 			"description": "A code specifying a purpose of an amendment to this exchanged document."
 		},
 		"exchangedDocumentResponseTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceResponseTypeCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceResponseTypeCodeList"
+			},
 			"description": "A code specifying a type of response requested for this exchanged document."
 		},
 		"firstSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The first or primary signature that authenticates this exchanged document."
 		},
 		"firstVersionIssueDateTime": {
@@ -208,7 +226,10 @@
 			"description": "The date, time, date time or other date time value when the first version of this exchanged document was issued."
 		},
 		"fourthSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The fourth signature, also known as the third counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party."
 		},
 		"globalId": {
@@ -224,7 +245,10 @@
 			"description": "The unique identifier of this exchanged document."
 		},
 		"includedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note included in this exchanged document."
 		},
 		"information": {
@@ -240,7 +264,10 @@
 			"description": "The location where this exchanged document has been issued."
 		},
 		"issuerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The party that issues this exchanged document."
 		},
 		"itemIdentificationId": {
@@ -284,7 +311,10 @@
 			"description": "The number of originals required of this exchanged document."
 		},
 		"ownerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The party that owns this exchanged document."
 		},
 		"pageId": {
@@ -292,7 +322,10 @@
 			"description": "The unique identifier of a specific page of this exchanged document."
 		},
 		"platformProviderParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A platform provider party specified for this exchanged document."
 		},
 		"previousRevisionId": {
@@ -308,11 +341,17 @@
 			"description": "A unique recipient assigned identifier for this exchanged document."
 		},
 		"recipientTradeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A trade party that receives this exchanged document."
 		},
 		"referenceDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "Other documents referenced by this exchanged document."
 		},
 		"rejectionResponseDateTime": {
@@ -340,7 +379,10 @@
 			"description": "The unique identifier of the revision of this exchanged document."
 		},
 		"secondSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The second signature, also known as the first counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party."
 		},
 		"senderAssignedId": {
@@ -352,7 +394,10 @@
 			"description": "The party that sends this exchanged document."
 		},
 		"signatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "A signatory document authentication for this exchanged document."
 		},
 		"submissionDateTime": {
@@ -372,7 +417,10 @@
 			"description": "Summary information, expressed as text, for this exchanged document."
 		},
 		"thirdSignatoryAuthentication": {
-			"$ref": "https://schema.twindev.org/unece/UneceAuthentication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAuthentication"
+			},
 			"description": "The third signature, also known as the second counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party."
 		},
 		"totalPageQuantity": {
@@ -397,7 +445,21 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"additionalId",
+		"approverSignatoryAuthentication",
+		"buyerSignatoryAuthentication",
+		"firstSignatoryAuthentication",
+		"fourthSignatoryAuthentication",
+		"previousRevisionId",
+		"recipientAssignedId",
+		"recipientTradeParty",
+		"secondSignatoryAuthentication",
+		"senderAssignedId",
+		"signatoryAuthentication",
+		"suffixId",
+		"thirdSignatoryAuthentication",
+		"traderAssignedId"
 	],
 	"additionalProperties": {
 		"anyOf": [

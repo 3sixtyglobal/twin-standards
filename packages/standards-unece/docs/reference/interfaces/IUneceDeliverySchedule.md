@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/scopeCode
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A ship to party for this forecast delivery schedule.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ### specifiedTradeLineItem?
 
-> `optional` **specifiedTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)
+> `optional` **specifiedTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
 A trade line item specified for this forecast delivery schedule.
 

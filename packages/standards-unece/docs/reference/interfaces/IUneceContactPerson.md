@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/countryResidenceCountryId
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 An email Uniform Resource Identifier (URI) communication for this contact person.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/familyNamePrefix
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Facsimile communication information for this contact person.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/givenName
 
 ### instantMessagingCommunication?
 
-> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 An instant messaging communication for this contact person.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/specifiedBirthAddress
 
 ### specifiedCommunication?
 
-> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A universal communication specified for this contact person.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/specifiedPersonIdentity
 
 ### specifiedTaxRegistration?
 
-> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)
+> `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)[]
 
 A tax registration specified for this contact person.
 

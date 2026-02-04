@@ -112,7 +112,10 @@
 			"description": "A unique identifier for this document authentication."
 		},
 		"includedClause": {
-			"$ref": "https://schema.twindev.org/unece/UneceClause",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceClause"
+			},
 			"description": "A document clause included in this document authentication."
 		},
 		"information": {
@@ -161,7 +164,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"includedClause"
 	],
 	"additionalProperties": {
 		"anyOf": [

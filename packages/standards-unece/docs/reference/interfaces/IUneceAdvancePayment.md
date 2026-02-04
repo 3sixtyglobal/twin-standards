@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedTax?
 
-> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
+> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A tax included in this advance payment.
 

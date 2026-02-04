@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/architecturalStyle
 
 ### availableRoute?
 
-> `optional` **availableRoute**: [`IUneceSpecifiedRoute`](IUneceSpecifiedRoute.md)
+> `optional` **availableRoute**: [`IUneceSpecifiedRoute`](IUneceSpecifiedRoute.md)[]
 
 An available route specified for this experience facility.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/physicalSpecifiedLocation
 
 ### specifiedCommunication?
 
-> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A specified universal communication for this experience facility.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ### usedSource?
 
-> `optional` **usedSource**: [`IUneceSource`](IUneceSource.md)
+> `optional` **usedSource**: [`IUneceSource`](IUneceSource.md)[]
 
 A water source used by this experience facility.
 

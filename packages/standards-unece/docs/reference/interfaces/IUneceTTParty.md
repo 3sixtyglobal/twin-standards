@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### managedCharacteristic?
 
-> `optional` **managedCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
+> `optional` **managedCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic managed by this TT party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/name
 
 ### partyTypeCode?
 
-> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)
+> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
 
 A code specifying the type of TT party.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/residenceCountryId
 
 ### specifiedTTAnimal?
 
-> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)
+> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 
 A tracking animal specified for this TT party.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/specifiedTTAnimal
 
 ### specifiedTTLocation?
 
-> `optional` **specifiedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
+> `optional` **specifiedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A location specified for this TT party.
 

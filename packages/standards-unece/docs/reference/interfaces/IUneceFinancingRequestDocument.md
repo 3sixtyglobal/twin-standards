@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### additionalInformationIncludedNote?
 
-> `optional` **additionalInformationIncludedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **additionalInformationIncludedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 An additional information note included for this financing request document.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/cancellationReason
 
 ### contractualClause?
 
-> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)
+> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)[]
 
 A contractual document clause specified for this financing request document.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/firstAgentSpecifiedFinancialInstitution
 
 ***
 
-### groupId?
+### groupId
 
-> `optional` **groupId**: `string`
+> **groupId**: `string`
 
 The group identifier in this financing request document.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/groupedTransactionSpecifiedQuantity
 
 ### groupedTransactionTotalAmount?
 
-> `optional` **groupedTransactionTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **groupedTransactionTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A total monetary value of grouped transactions in this financing request document.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/intermediarySpecifiedFinancialInstitution
 
 ### specifiedCancellationStatus?
 
-> `optional` **specifiedCancellationStatus**: [`IUneceCancellationStatus`](IUneceCancellationStatus.md)
+> `optional` **specifiedCancellationStatus**: [`IUneceCancellationStatus`](IUneceCancellationStatus.md)[]
 
 A status of a cancellation specified for this financing request document, such as accepted.
 
@@ -204,9 +204,9 @@ https://vocabulary.uncefact.org/specifiedCancellationStatus
 
 ***
 
-### specifiedRequestingParty?
+### specifiedRequestingParty
 
-> `optional` **specifiedRequestingParty**: [`IUneceRequestingParty`](IUneceRequestingParty.md)
+> **specifiedRequestingParty**: [`IUneceRequestingParty`](IUneceRequestingParty.md)
 
 The requesting party specified in this financing request document.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/specifiedRequestingParty
 
 ### specifiedValidationStatus?
 
-> `optional` **specifiedValidationStatus**: [`IUneceValidationStatus`](IUneceValidationStatus.md)
+> `optional` **specifiedValidationStatus**: [`IUneceValidationStatus`](IUneceValidationStatus.md)[]
 
 The status of the validation specified for this financing request document, such as error.
 

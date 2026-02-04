@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/name
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
 A postal address for this legally set up organization.
 

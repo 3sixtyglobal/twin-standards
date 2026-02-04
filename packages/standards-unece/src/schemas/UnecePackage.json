@@ -100,7 +100,10 @@
 			"description": "The code specifying the additional level of this logistics package."
 		},
 		"associatedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document associated with this logistics package."
 		},
 		"colourCode": {
@@ -112,7 +115,10 @@
 			"description": "A textual description of this logistics package."
 		},
 		"despatchNoteAssociatedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A despatch note associated with this logistics package."
 		},
 		"globalId": {
@@ -124,7 +130,10 @@
 			"description": "The measure of the gross volume of this logistics package."
 		},
 		"grossWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The measure of the gross weight (mass) of this logistics package and its contents."
 		},
 		"hierarchicalLevelId": {
@@ -136,7 +145,10 @@
 			"description": "The unique identifier for this logistics package."
 		},
 		"includedSupplyChainTradeLineItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem"
+			},
 			"description": "A supply chain trade line item included in this logistics package."
 		},
 		"information": {
@@ -144,7 +156,10 @@
 			"description": "Information, expressed as text, for this logistics package."
 		},
 		"itemQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The number of logistics packages at this level."
 		},
 		"linearDimension": {
@@ -188,7 +203,10 @@
 			"description": "The unique parent identifier for this logistics package."
 		},
 		"perPackageUnitQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A number of units per package in this logistics package."
 		},
 		"physicalShippingMarks": {
@@ -216,7 +234,10 @@
 			"description": "The line trade delivery specified for this logistics package."
 		},
 		"statedCondition": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCondition",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCondition"
+			},
 			"description": "A stated condition of this logistics package."
 		},
 		"usedPackaging": {
@@ -232,7 +253,10 @@
 			"description": "The measure of the gross weight (mass) of this referenced logistics package and its contents."
 		},
 		"weightUnitNetWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "The measure of the net weight (mass) of the contents of this referenced logistics package."
 		},
 		"weightUnitTareWeightMeasure": {

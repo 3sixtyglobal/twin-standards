@@ -100,7 +100,10 @@
 			"description": "The geographical object characteristic associated with this specified polygon."
 		},
 		"associatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
+			},
 			"description": "A logistics location associated with this specified polygon."
 		},
 		"exteriorLinearRing": {
@@ -108,12 +111,17 @@
 			"description": "The exterior linear specified ring for this polygon."
 		},
 		"interiorLinearRing": {
-			"$ref": "https://schema.twindev.org/unece/UneceLinearRing",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLinearRing"
+			},
 			"description": "An interior linear ring specified for this polygon."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"associatedGeographicalObjectCharacteristic",
+		"exteriorLinearRing"
 	],
 	"additionalProperties": {
 		"anyOf": [

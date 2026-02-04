@@ -36,7 +36,7 @@ export interface IUneceAgriculturalCertificate extends IJsonLdNodeObject {
 	 * A sustainability assertion applicable to this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAssertion
 	 */
-	applicableAssertion?: IUneceAssertion;
+	applicableAssertion?: IUneceAssertion[];
 
 	/**
 	 * A code specifying an applicable object, such as item, animal, person or organization, for this agricultural certificate.
@@ -48,25 +48,25 @@ export interface IUneceAgriculturalCertificate extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A sustainability characteristic applicable to this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A binary file attached to this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * The code specifying the type of agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList;
+	certificateTypeCode?: UneceCertificateTypeCodeList[];
 
 	/**
 	 * The textual description of this agricultural certificate.

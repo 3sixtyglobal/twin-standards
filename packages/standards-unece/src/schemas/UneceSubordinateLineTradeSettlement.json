@@ -100,27 +100,45 @@
 			"description": "The code, specifying the direction, either an addition or subtraction, for the amount of this subordinate line trade settlement."
 		},
 		"applicableTax": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
+			},
 			"description": "A tax applicable to this subordinate line trade settlement."
 		},
 		"billingPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
+			},
 			"description": "The billing period specified for the subordinate line of this trade settlement."
 		},
 		"invoiceReferencedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "An invoice document referenced for this subordinate line trade settlement."
 		},
 		"purchaseSpecifiedAccountingAccount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAccountingAccount",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAccountingAccount"
+			},
 			"description": "A purchase accounting account specified for the subordinate line of this trade settlement."
 		},
 		"specifiedAllowanceCharge": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAllowanceCharge",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAllowanceCharge"
+			},
 			"description": "An allowance or charge specified for this subordinate line trade settlement."
 		},
 		"specifiedFinancialAdjustment": {
-			"$ref": "https://schema.twindev.org/unece/UneceFinancialAdjustment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceFinancialAdjustment"
+			},
 			"description": "A financial adjustment specified for this subordinate line trade settlement."
 		}
 	},

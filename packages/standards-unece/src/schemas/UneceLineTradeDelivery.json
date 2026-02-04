@@ -100,11 +100,17 @@
 			"description": "An acceptance delivery event, at line level, for this trade delivery."
 		},
 		"actualDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "An actual delivery event, at line level, for this trade delivery."
 		},
 		"actualDespatchEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "An actual despatch event, at line level, for this trade delivery."
 		},
 		"actualLoadingEvent": {
@@ -124,7 +130,10 @@
 			"description": "The actual unloading event, at line level, for this trade delivery."
 		},
 		"additionalDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "An additional document, at line level, referenced for this trade delivery."
 		},
 		"agreedQuantity": {
@@ -136,11 +145,17 @@
 			"description": "The transport dangerous goods details, at line level, applicable to this trade delivery."
 		},
 		"availableInventory": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory"
+			},
 			"description": "Inventory available, at line level, for this trade delivery."
 		},
 		"availableQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The quantity, at line level, available for this trade delivery."
 		},
 		"billedQuantity": {
@@ -152,7 +167,10 @@
 			"description": "The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery."
 		},
 		"cancelledQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The quantity, at line level, cancelled for this trade delivery."
 		},
 		"chargeFreeQuantity": {
@@ -164,11 +182,17 @@
 			"description": "The referenced classification document, at line level, for this trade delivery."
 		},
 		"confirmedDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "The confirmed delivery event, at line level, for this trade delivery."
 		},
 		"confirmedDespatchEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "The despatch event, at line level, confirmed for this trade delivery."
 		},
 		"confirmedPickUpEvent": {
@@ -180,7 +204,10 @@
 			"description": "The release event, at line level, confirmed for this trade delivery."
 		},
 		"consignmentInventory": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory"
+			},
 			"description": "Supply chain consignment inventory, at line level, for this trade delivery."
 		},
 		"consumptionReportDocument": {
@@ -188,19 +215,31 @@
 			"description": "The consumption report document, at line level, referenced from this trade delivery."
 		},
 		"consumptionSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain consumption schedule, at line level, for this trade delivery."
 		},
 		"customerInventory": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainInventory"
+			},
 			"description": "Supply chain customer inventory, at line level, for this trade delivery."
 		},
 		"deliveryNoteDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "The delivery note document, at line level, referenced for this trade delivery."
 		},
 		"deliverySchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain delivery schedule, at line level, for this trade delivery."
 		},
 		"despatchAdviceDocument": {
@@ -208,7 +247,10 @@
 			"description": "The despatch advice document, at line level, referenced for this trade delivery."
 		},
 		"despatchSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain despatch schedule, at line level, for this trade delivery."
 		},
 		"despatchedQuantity": {
@@ -220,11 +262,17 @@
 			"description": "The quantity, at line level, destroyed for this trade delivery."
 		},
 		"disposalParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A disposal party, at line level, for this trade delivery."
 		},
 		"dueInAvailableQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The due in available quantity, at line level, for this trade delivery."
 		},
 		"dueInForecastedQuantity": {
@@ -272,7 +320,10 @@
 			"description": "An identifier, at line level, for this trade delivery."
 		},
 		"includedPackaging": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainPackaging",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainPackaging"
+			},
 			"description": "Packaging included, at line level, in this trade delivery."
 		},
 		"individualPackageQuantity": {
@@ -280,11 +331,17 @@
 			"description": "The quantity within the individual package, at line level, for this trade delivery."
 		},
 		"informationNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note with information, at line level, for this trade delivery."
 		},
 		"inventoryManagerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "An inventory manager party, at line level, for this trade delivery."
 		},
 		"latestDespatchedQuantity": {
@@ -300,11 +357,17 @@
 			"description": "The code specifying the type of quantity variation, at line level, for this trade delivery."
 		},
 		"logisticsPackage": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackage",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackage"
+			},
 			"description": "A referenced logistics package, at line level, for this trade delivery."
 		},
 		"logisticsServiceProviderParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A logistics service provider party, at line level, for this trade delivery."
 		},
 		"modificationForecastedQuantity": {
@@ -316,7 +379,10 @@
 			"description": "The quantity, at line level, ordered for this trade delivery."
 		},
 		"orderSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain order schedule, at line level, for this trade delivery."
 		},
 		"overDeliveryAllowedIndicator": {
@@ -336,7 +402,10 @@
 			"description": "The indication, at line level, of whether or not this trade delivery can be partially delivered."
 		},
 		"perPackageUnitQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The number of units per package, at line level, in this trade delivery."
 		},
 		"pickUpAvailabilityDateTime": {
@@ -344,15 +413,24 @@
 			"description": "The formatted date, time, date time, or other date time value, at line level, when this delivery is available for pick-up."
 		},
 		"plannedConsignment": {
-			"$ref": "https://schema.twindev.org/unece/UneceConsignment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceConsignment"
+			},
 			"description": "A consignment, at line level, planned for this trade delivery."
 		},
 		"plannedDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A delivery event, at line level, planned for this trade delivery."
 		},
 		"plannedDespatchEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A despatch event, at line level, planned for this trade delivery."
 		},
 		"plannedPickUpEvent": {
@@ -360,7 +438,10 @@
 			"description": "The pick-up event, at line level, planned for this trade delivery."
 		},
 		"plannedShipToDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "The planned ship to delivery event, at line level, for this trade delivery."
 		},
 		"productUnitQuantity": {
@@ -368,7 +449,10 @@
 			"description": "The number of product units, at line level, in this trade delivery."
 		},
 		"projectedSupplyPlan": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyPlan",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyPlan"
+			},
 			"description": "A supply plan, at line level, projected for this trade delivery."
 		},
 		"quantityCalculationMethodCode": {
@@ -384,7 +468,10 @@
 			"description": "The code specifying the reason for the quantity variation, at line level, for this trade delivery."
 		},
 		"receiptSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain receipt schedule, at line level, for this trade delivery."
 		},
 		"receivedQuantity": {
@@ -392,7 +479,10 @@
 			"description": "The quantity, at line level, received for this trade delivery."
 		},
 		"receivingAdviceDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A receiving advice document, at line level, referenced for this trade delivery."
 		},
 		"rejectedQuantity": {
@@ -400,7 +490,10 @@
 			"description": "The quantity, at line level, rejected for this trade delivery."
 		},
 		"relatedConsignment": {
-			"$ref": "https://schema.twindev.org/unece/UneceConsignment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceConsignment"
+			},
 			"description": "A consignment, at line level, related to this line trade delivery."
 		},
 		"remainingRequestedQuantity": {
@@ -408,11 +501,17 @@
 			"description": "The remaining quantity, at line level, requested for this trade delivery."
 		},
 		"requestedDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A delivery event, at line level, requested for this trade delivery."
 		},
 		"requestedDespatchEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A despatch event, at line level, requested for this trade delivery."
 		},
 		"requestedQuantity": {
@@ -428,11 +527,17 @@
 			"description": "The reverse billed quantity, at line level, for this trade delivery."
 		},
 		"shipFromParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The ship from party, at line level, for this trade delivery."
 		},
 		"shipToParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The ship to party, at line level, for this trade delivery."
 		},
 		"shipmentScheduleDocument": {
@@ -440,27 +545,45 @@
 			"description": "The shipment schedule document referenced, at line level, for this trade delivery."
 		},
 		"specifiedDeliveryAdjustment": {
-			"$ref": "https://schema.twindev.org/unece/UneceDeliveryAdjustment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDeliveryAdjustment"
+			},
 			"description": "A delivery adjustment, at line level, specified for this trade delivery."
 		},
 		"specifiedDeliveryInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceDeliveryInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDeliveryInstructions"
+			},
 			"description": "Delivery instructions, at line level, specified for this trade delivery."
 		},
 		"specifiedHandlingInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceHandlingInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceHandlingInstructions"
+			},
 			"description": "Handling instructions, at line level, specified for this trade delivery."
 		},
 		"specifiedPackage": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackage",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackage"
+			},
 			"description": "A logistics package, at line level, specified for this trade delivery."
 		},
 		"specifiedSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply chain schedule, specified at line level, for this trade delivery."
 		},
 		"splitQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A split quantity for this line trade delivery."
 		},
 		"statusCode": {
@@ -472,7 +595,10 @@
 			"description": "A subordinate identifier, at line level, for this trade delivery."
 		},
 		"supplySpecifiedSchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceSchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSchedule"
+			},
 			"description": "A supply (replenishment) schedule, specified at line level, for this trade delivery."
 		},
 		"turnInReceivedQuantity": {
@@ -484,19 +610,31 @@
 			"description": "The formatted date, time, date time, or other date time value, at line level, when this trade delivery is delivered to the ultimate ship to party."
 		},
 		"ultimateShipToParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The ultimate ship to party, at line level, for this trade delivery."
 		},
 		"unavailableQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "The quantity, at line level, unavailable for this trade delivery."
 		},
 		"usedLabel": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLabel",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLabel"
+			},
 			"description": "A logistics label, at line level, used for this trade delivery."
 		},
 		"utilizedTransportEquipment": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportEquipment"
+			},
 			"description": "A piece of logistics transport equipment, at line level, utilized for this trade delivery."
 		},
 		"volumeUnitGrossVolumeMeasure": {
@@ -504,7 +642,10 @@
 			"description": "The measure, at line level, of the gross volume of this trade delivery."
 		},
 		"volumeUnitNetVolumeMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
+			},
 			"description": "The measure, at line level, of the net volume of this line trade delivery."
 		},
 		"weightUnitChargeableWeightMeasure": {
@@ -516,7 +657,10 @@
 			"description": "The measure, at line level, of the gross weight (mass) of this line trade delivery."
 		},
 		"weightUnitNetWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "The measure, at line level, of the net weight (mass) of this trade delivery."
 		},
 		"weightUnitTheoreticalWeightMeasure": {

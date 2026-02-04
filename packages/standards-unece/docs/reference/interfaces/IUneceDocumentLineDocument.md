@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note included in this document line.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/publicationDateTime
 
 ### referenceAcknowledgementDocument?
 
-> `optional` **referenceAcknowledgementDocument**: [`IUneceAcknowledgementDocument`](IUneceAcknowledgementDocument.md)
+> `optional` **referenceAcknowledgementDocument**: [`IUneceAcknowledgementDocument`](IUneceAcknowledgementDocument.md)[]
 
 The acknowledgement document referenced in this document line.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/referenceAcknowledgementDocument
 
 ### referenceDocument?
 
-> `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A document referenced from this document line.
 

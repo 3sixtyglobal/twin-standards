@@ -31,7 +31,7 @@ export interface IUneceCommunicationEvent extends IJsonLdNodeObject {
 	 * A geographical feature associated with this communication event.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalFeature
 	 */
-	associatedGeographicalFeature?: IUneceGeographicalFeature;
+	associatedGeographicalFeature?: IUneceGeographicalFeature[];
 
 	/**
 	 * A textual description of this communication event.

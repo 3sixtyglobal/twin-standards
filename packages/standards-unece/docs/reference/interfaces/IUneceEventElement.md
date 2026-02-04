@@ -38,9 +38,9 @@ JSON-LD Type.
 
 ***
 
-### objectClassId?
+### objectClassId
 
-> `optional` **objectClassId**: `string`
+> **objectClassId**: `string`
 
 The identifier of the object class for this TT event element.
 

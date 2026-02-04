@@ -141,7 +141,11 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"actualOccurrenceDateTime",
+		"estimatedOccurrenceDateTime",
+		"requestedOccurrenceDateTime",
+		"scheduledOccurrenceDateTime"
 	],
 	"additionalProperties": {
 		"anyOf": [

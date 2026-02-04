@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/emailCommunication
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 The fax number of this laboratory observation contact.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An additional document referenced in this line trade agreement.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalDocument
 
 ### agreedPriceProductPrice?
 
-> `optional` **agreedPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **agreedPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 An agreed product price for this line trade agreement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/buyerApprovedDateTime
 
 ### buyerOrderDocument?
 
-> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A buyer generated order document referenced in this line trade agreement.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/buyerReference
 
 ### buyerRequisitionerParty?
 
-> `optional` **buyerRequisitionerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **buyerRequisitionerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party who is a buyer requisitioner in this line trade agreement.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/buyerRequisitionerParty
 
 ### carrierParty?
 
-> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A carrier party for this line trade agreement.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/carrierParty
 
 ### catalogueDocument?
 
-> `optional` **catalogueDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **catalogueDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A catalogue document referenced by this line trade agreement.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/catalogueInformationProviderParty
 
 ### contractDocument?
 
-> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A contract document referenced in this line trade agreement.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/deliveryOrderFulfilmentLeadTimeMeasure
 
 ### demandForecastDocument?
 
-> `optional` **demandForecastDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **demandForecastDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A demand forecast document referenced in this line trade agreement.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/exportLicenceDocument
 
 ### grossPriceProductPrice?
 
-> `optional` **grossPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **grossPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 A gross product price in this line trade agreement.
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/importLicenceDocument
 
 ### includedMarketplace?
 
-> `optional` **includedMarketplace**: [`IUneceMarketplace`](IUneceMarketplace.md)
+> `optional` **includedMarketplace**: [`IUneceMarketplace`](IUneceMarketplace.md)[]
 
 A marketplace included in this line trade agreement.
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/itemBuyerParty
 
 ### itemSellerParty?
 
-> `optional` **itemSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **itemSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The item seller party for this line trade agreement.
 
@@ -423,7 +423,7 @@ https://vocabulary.uncefact.org/letterOfCreditDocument
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A manufacturer party, at line level, for this trade agreement.
 
@@ -435,7 +435,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### marketplaceOrderDocument?
 
-> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The marketplace generated order document referenced in this line trade agreement.
 
@@ -495,7 +495,7 @@ https://vocabulary.uncefact.org/minimumProductOrderableQuantity
 
 ### netPriceProductPrice?
 
-> `optional` **netPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **netPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 A net product price in this line trade agreement.
 
@@ -507,7 +507,7 @@ https://vocabulary.uncefact.org/netPriceProductPrice
 
 ### orderPriceProductPrice?
 
-> `optional` **orderPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **orderPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 An order price for a product in this line trade agreement.
 
@@ -543,7 +543,7 @@ https://vocabulary.uncefact.org/orderingSpecifiedPeriod
 
 ### originalOrderDocument?
 
-> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The original order document referenced in this line trade agreement.
 
@@ -568,7 +568,7 @@ https://vocabulary.uncefact.org/pickUpOrderFulfilmentLeadTimeMeasure
 
 ### previousOrderDocument?
 
-> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The previous order document referenced in this line trade agreement.
 
@@ -592,7 +592,7 @@ https://vocabulary.uncefact.org/priceListDocument
 
 ### primeContractSellerParty?
 
-> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The seller party acting as the prime contractor for this line trade agreement.
 
@@ -785,7 +785,7 @@ https://vocabulary.uncefact.org/reference
 
 ### relevantParty?
 
-> `optional` **relevantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **relevantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party relevant for this line trade agreement.
 
@@ -797,7 +797,7 @@ https://vocabulary.uncefact.org/relevantParty
 
 ### requisitionDocument?
 
-> `optional` **requisitionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **requisitionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A requisition document referenced in this line trade agreement.
 
@@ -809,7 +809,7 @@ https://vocabulary.uncefact.org/requisitionDocument
 
 ### requisitionerDocument?
 
-> `optional` **requisitionerDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **requisitionerDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A requisitioner document referenced in this line trade agreement.
 
@@ -857,7 +857,7 @@ https://vocabulary.uncefact.org/revisionId
 
 ### salesConditionsDocument?
 
-> `optional` **salesConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **salesConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A sales conditions document referenced by this line trade agreement.
 
@@ -881,7 +881,7 @@ https://vocabulary.uncefact.org/salesReportDocument
 
 ### sellerOrderDocument?
 
-> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The seller generated order document referenced in this line trade agreement.
 
@@ -893,7 +893,7 @@ https://vocabulary.uncefact.org/sellerOrderDocument
 
 ### sellerParty?
 
-> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The seller party for this line trade agreement.
 
@@ -917,7 +917,7 @@ https://vocabulary.uncefact.org/sellerReference
 
 ### supplyInstructionDocument?
 
-> `optional` **supplyInstructionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **supplyInstructionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A supply instruction document referenced in this line trade agreement.
 
@@ -941,7 +941,7 @@ https://vocabulary.uncefact.org/supportCentreParty
 
 ### targetMarketCountry?
 
-> `optional` **targetMarketCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **targetMarketCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A target market country for this line trade agreement.
 
@@ -953,7 +953,7 @@ https://vocabulary.uncefact.org/targetMarketCountry
 
 ### ultimateCustomerOrderDocument?
 
-> `optional` **ultimateCustomerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **ultimateCustomerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An ultimate customer order document referenced for this line trade agreement.
 

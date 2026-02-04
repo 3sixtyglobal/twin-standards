@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/administrativeMedicalPersonnelOnboardQuantity
 
 ### applicableRegulatoryProcedure?
 
-> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)
+> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)[]
 
 A cross-border regulatory procedure applicable to this logistics transport movement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableRegulatoryProcedure
 
 ### applicableServiceCharge?
 
-> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)
+> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
 
 A service charge, such as a freight charge, applicable to this logistics transport movement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableServiceCharge
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
 A specified inspection applicable to this logistics transport movement.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this logistics transport movement.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
 A sustainability inspection applicable to this logistics transport movement.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/borderCrossingDateTime
 
 ### borderCrossingEvent?
 
-> `optional` **borderCrossingEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **borderCrossingEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A border crossing event for this logistics transport movement.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/borderCrossingEvent
 
 ### callEvent?
 
-> `optional` **callEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **callEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A call event for this logistics transport movement.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/cargoDescription
 
 ### carriedGoodsCharacteristic?
 
-> `optional` **carriedGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
+> `optional` **carriedGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
 Material characteristics of goods carried during this logistics transport movement.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/carriedGoodsCharacteristic
 
 ### carriedInactiveTransportMeans?
 
-> `optional` **carriedInactiveTransportMeans**: [`IUneceTransportMeans`](IUneceTransportMeans.md)
+> `optional` **carriedInactiveTransportMeans**: [`IUneceTransportMeans`](IUneceTransportMeans.md)[]
 
 Details of transport means inactively carried during the transport movement, such as trucks on a Roll-On/Roll-Off (RORO)
 ferry.
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/carrierAgentParty
 
 ### carrierParty?
 
-> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A carrier party for this logistics transport movement.
 
@@ -316,7 +316,7 @@ https://vocabulary.uncefact.org/crewListRelatedDocument
 
 ### crewNationalityCountry?
 
-> `optional` **crewNationalityCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **crewNationalityCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 Crew nationality details for this logistics transport movement.
 
@@ -328,7 +328,7 @@ https://vocabulary.uncefact.org/crewNationalityCountry
 
 ### crewPerson?
 
-> `optional` **crewPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)
+> `optional` **crewPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)[]
 
 A person who is a member of the crew of the means of transport used for this logistics transport movement.
 
@@ -340,7 +340,7 @@ https://vocabulary.uncefact.org/crewPerson
 
 ### crewPersonalEffects?
 
-> `optional` **crewPersonalEffects**: [`IUnecePersonalEffects`](IUnecePersonalEffects.md)
+> `optional` **crewPersonalEffects**: [`IUnecePersonalEffects`](IUnecePersonalEffects.md)[]
 
 Personal effects of an individual member of the crew for this logistics transport movement.
 
@@ -376,7 +376,7 @@ https://vocabulary.uncefact.org/cycle
 
 ### damageEvent?
 
-> `optional` **damageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **damageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A damage event for this logistics transport movement.
 
@@ -412,7 +412,7 @@ https://vocabulary.uncefact.org/departureEvent
 
 ### documentaryInstructionsNotifiedParty?
 
-> `optional` **documentaryInstructionsNotifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **documentaryInstructionsNotifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party to be notified of the documentary instructions for this logistics transport movement.
 
@@ -424,7 +424,7 @@ https://vocabulary.uncefact.org/documentaryInstructionsNotifiedParty
 
 ### excessTransportService?
 
-> `optional` **excessTransportService**: [`IUneceService`](IUneceService.md)
+> `optional` **excessTransportService**: [`IUneceService`](IUneceService.md)[]
 
 An excess transport service for this logistics transport movement.
 
@@ -436,7 +436,7 @@ https://vocabulary.uncefact.org/excessTransportService
 
 ### firstArrivalEvent?
 
-> `optional` **firstArrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **firstArrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 The first arrival event for this logistics transport movement.
 
@@ -484,7 +484,7 @@ https://vocabulary.uncefact.org/information
 
 ### inspectionParty?
 
-> `optional` **inspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **inspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 An inspection party for this logistics transport movement.
 
@@ -545,7 +545,7 @@ https://vocabulary.uncefact.org/loadingInspectionParty
 
 ### loadingInspectionSpecifiedInstructions?
 
-> `optional` **loadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **loadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Loading inspection instructions specified for this logistics transport movement.
 
@@ -641,7 +641,7 @@ https://vocabulary.uncefact.org/name
 
 ### notifiedParty?
 
-> `optional` **notifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **notifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party to be notified about this logistics transport movement.
 
@@ -653,7 +653,7 @@ https://vocabulary.uncefact.org/notifiedParty
 
 ### onboardInventory?
 
-> `optional` **onboardInventory**: [`IUneceStoresItemInventory`](IUneceStoresItemInventory.md)
+> `optional` **onboardInventory**: [`IUneceStoresItemInventory`](IUneceStoresItemInventory.md)[]
 
 A stores inventory item held onboard for this logistics transport movement.
 
@@ -665,7 +665,7 @@ https://vocabulary.uncefact.org/onboardInventory
 
 ### onboardPerson?
 
-> `optional` **onboardPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)
+> `optional` **onboardPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)[]
 
 A person onboard this logistics transport movement.
 
@@ -713,7 +713,7 @@ https://vocabulary.uncefact.org/passengerListRelatedDocument
 
 ### passengerNationalityCountry?
 
-> `optional` **passengerNationalityCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **passengerNationalityCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 Passenger nationality details for this logistics transport movement.
 
@@ -785,7 +785,7 @@ https://vocabulary.uncefact.org/reportedSecurityInformation
 
 ### reportedTransportationHealth?
 
-> `optional` **reportedTransportationHealth**: [`IUneceTransportationHealth`](IUneceTransportationHealth.md)
+> `optional` **reportedTransportationHealth**: [`IUneceTransportationHealth`](IUneceTransportationHealth.md)[]
 
 MDH (Maritime Declaration of Health) transportation health information reported for this logistics transport movement.
 
@@ -797,7 +797,7 @@ https://vocabulary.uncefact.org/reportedTransportationHealth
 
 ### reportedTransportationWasteMaterial?
 
-> `optional` **reportedTransportationWasteMaterial**: [`IUneceTransportationWasteMaterial`](IUneceTransportationWasteMaterial.md)
+> `optional` **reportedTransportationWasteMaterial**: [`IUneceTransportationWasteMaterial`](IUneceTransportationWasteMaterial.md)[]
 
 Transportation waste material reported for this logistics transport movement.
 
@@ -821,7 +821,7 @@ https://vocabulary.uncefact.org/sailingAdviceNotificationInformation
 
 ### sailingAdviceNotifiedParty?
 
-> `optional` **sailingAdviceNotifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **sailingAdviceNotifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party to be notified of the sailing advice for this logistics transport movement.
 
@@ -882,7 +882,7 @@ https://vocabulary.uncefact.org/serviceCode
 
 ### shipToShipEvent?
 
-> `optional` **shipToShipEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **shipToShipEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A ship to ship event for this logistics transport movement.
 
@@ -894,7 +894,7 @@ https://vocabulary.uncefact.org/shipToShipEvent
 
 ### specialSpecifiedInstructions?
 
-> `optional` **specialSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **specialSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Special transport instructions specified for this logistics transport movement.
 
@@ -906,7 +906,7 @@ https://vocabulary.uncefact.org/specialSpecifiedInstructions
 
 ### specifiedEmission?
 
-> `optional` **specifiedEmission**: [`IUneceEmission`](IUneceEmission.md)
+> `optional` **specifiedEmission**: [`IUneceEmission`](IUneceEmission.md)[]
 
 A calculated emission specified for this logistics transport movement.
 
@@ -918,7 +918,7 @@ https://vocabulary.uncefact.org/specifiedEmission
 
 ### specifiedHandlingInstructions?
 
-> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions specified for this logistics transport movement.
 
@@ -930,7 +930,7 @@ https://vocabulary.uncefact.org/specifiedHandlingInstructions
 
 ### specifiedLogisticsStatus?
 
-> `optional` **specifiedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)
+> `optional` **specifiedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
 
 A status specified for this logistics transport movement.
 
@@ -942,7 +942,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsStatus
 
 ### specifiedOrganizationalCertificate?
 
-> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
+> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
 
 An organizational certificate specified for this logistics transport movement.
 
@@ -954,7 +954,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate specified for this logistics transport movement.
 
@@ -966,7 +966,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### specifiedRiskAnalysisResult?
 
-> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)
+> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
 
 A result of a logistics risk analysis calculation specified for this transport movement.
 
@@ -978,7 +978,7 @@ https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 
 ### specifiedTransportEvent?
 
-> `optional` **specifiedTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **specifiedTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transport event specified for this logistics transport movement.
 
@@ -1014,7 +1014,7 @@ https://vocabulary.uncefact.org/stayId
 
 ### stevedoreParty?
 
-> `optional` **stevedoreParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **stevedoreParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A stevedore party for this logistics transport movement.
 
@@ -1038,7 +1038,7 @@ https://vocabulary.uncefact.org/terminalOperatorAssignedId
 
 ### terminalOperatorParty?
 
-> `optional` **terminalOperatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **terminalOperatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A terminal operator party for this logistics transport movement.
 
@@ -1050,7 +1050,7 @@ https://vocabulary.uncefact.org/terminalOperatorParty
 
 ### towingVesselRelatedTransportMovement?
 
-> `optional` **towingVesselRelatedTransportMovement**: `IUneceTransportMovement`
+> `optional` **towingVesselRelatedTransportMovement**: `IUneceTransportMovement`[]
 
 A towing vessel transport movement related to this logistics transport movement.
 
@@ -1182,7 +1182,7 @@ https://vocabulary.uncefact.org/transportMovementType
 
 ### transportWasteSpecifiedInstructions?
 
-> `optional` **transportWasteSpecifiedInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
+> `optional` **transportWasteSpecifiedInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
 Transport waste disposal instructions specified for this logistics transport movement.
 
@@ -1194,7 +1194,7 @@ https://vocabulary.uncefact.org/transportWasteSpecifiedInstructions
 
 ### transshipmentIntermediateEvent?
 
-> `optional` **transshipmentIntermediateEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **transshipmentIntermediateEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transshipment intermediate event during this logistics transport movement.
 
@@ -1231,7 +1231,7 @@ https://vocabulary.uncefact.org/unloadingInspectionParty
 
 ### unloadingInspectionSpecifiedInstructions?
 
-> `optional` **unloadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **unloadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Unloading inspection instructions specified for this logistics transport movement.
 

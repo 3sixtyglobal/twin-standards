@@ -32,7 +32,7 @@ export interface IUneceGeopoliticalRegion extends IJsonLdNodeObject {
 	 * A country included in this trade geopolitical region.
 	 * @see https://vocabulary.uncefact.org/includedCountry
 	 */
-	includedCountry?: IUneceCountry;
+	includedCountry?: IUneceCountry[];
 
 	/**
 	 * The name, expressed as text, of this trade geopolitical region.

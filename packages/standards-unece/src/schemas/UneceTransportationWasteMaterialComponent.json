@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableProductCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
+			},
 			"description": "A product certificate applicable to this transportation waste material component."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this transportation waste material component."
 		},
 		"description": {
@@ -120,7 +126,10 @@
 			"description": "The planned measure for this discharged transportation waste material component."
 		},
 		"remainingDeliveryEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "A delivery event for this remaining transportation waste material component."
 		},
 		"typeCode": {

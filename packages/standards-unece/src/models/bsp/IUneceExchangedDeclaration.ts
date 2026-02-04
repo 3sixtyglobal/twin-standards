@@ -35,7 +35,7 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * An additional statement note for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/additionalStatementNote
 	 */
-	additionalStatementNote?: IUneceNote;
+	additionalStatementNote?: IUneceNote[];
 
 	/**
 	 * Customs valuation information applicable to this exchanged declaration.
@@ -47,7 +47,7 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * A referenced document associated with this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument;
+	associatedDocument?: IUneceDocument[];
 
 	/**
 	 * The rate of currency exchange in this exchanged declaration.
@@ -108,13 +108,13 @@ export interface IUneceExchangedDeclaration extends IJsonLdNodeObject {
 	 * A previous document referenced for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/previousDocument
 	 */
-	previousDocument?: IUneceDocument;
+	previousDocument?: IUneceDocument[];
 
 	/**
 	 * A principal trade party associated with this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/principalAssociatedParty
 	 */
-	principalAssociatedParty?: IUneceTradeParty;
+	principalAssociatedParty?: IUneceTradeParty[];
 
 	/**
 	 * A code specifying a procedure for this exchanged declaration.

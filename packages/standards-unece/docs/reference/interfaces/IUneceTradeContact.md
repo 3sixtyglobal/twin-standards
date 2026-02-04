@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### accessibleLocation?
 
-> `optional` **accessibleLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)
+> `optional` **accessibleLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
 An accessible location specified for this trade contact.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/directTelephoneCommunication
 
 ### eDICommunication?
 
-> `optional` **eDICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **eDICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Electronic Data Interchange (EDI) communication information for this trade contact.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/eDICommunication
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 The email URI communication information for this trade contact.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/emailURICommunication
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Fax communication information for this trade contact.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### instantMessagingCommunication?
 
-> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Instant messaging communication information for this trade contact.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/personName
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
 Postal address information for this trade contact.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/specifiedContactPerson
 
 ### specifiedNote?
 
-> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note specified for this trade contact.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ### telexCommunication?
 
-> `optional` **telexCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **telexCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Telegraphy (Telex) communication information for this trade contact.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/uRICommunication
 
 ### usedCommunication?
 
-> `optional` **usedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **usedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A communication used by this trade contact.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/usedCommunication
 
 ### vOIPCommunication?
 
-> `optional` **vOIPCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **vOIPCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Voice Over Internet Protocol (VOIP) communication information for this trade contact.
 

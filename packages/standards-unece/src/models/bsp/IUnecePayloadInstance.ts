@@ -63,7 +63,7 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * The indication of whether or not this XHE payload instance is encrypted.
 	 * @see https://vocabulary.uncefact.org/encryptedIndicator
 	 */
-	encryptedIndicator?: boolean;
+	encryptedIndicator: boolean;
 
 	/**
 	 * The encryption hash value, expressed as text, for this XHE payload instance.
@@ -117,7 +117,7 @@ export interface IUnecePayloadInstance extends IJsonLdNodeObject {
 	 * A reference relevant to this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/relevantReference
 	 */
-	relevantReference?: IUneceXHEReference;
+	relevantReference?: IUneceXHEReference[];
 
 	/**
 	 * The code specifying the validation type of this XHE payload instance.

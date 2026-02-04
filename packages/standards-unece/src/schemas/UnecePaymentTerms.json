@@ -96,11 +96,17 @@
 			"description": "JSON-LD Type."
 		},
 		"applicablePaymentDiscountTerms": {
-			"$ref": "https://schema.twindev.org/unece/UnecePaymentDiscountTerms",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePaymentDiscountTerms"
+			},
 			"description": "Trade payment discount terms applicable to these trade payment terms."
 		},
 		"applicablePaymentPenaltyTerms": {
-			"$ref": "https://schema.twindev.org/unece/UnecePaymentPenaltyTerms",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePaymentPenaltyTerms"
+			},
 			"description": "Trade payment penalty terms applicable to these trade payment terms."
 		},
 		"billStartDateTime": {
@@ -120,7 +126,10 @@
 			"description": "The measure of a length of time duration specified for these trade payment terms, such as 12 hours, 15 days, 2 weeks, 3 months, 5 years."
 		},
 		"equivalentAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "An equivalent monetary value to be transferred between debtor and creditor before deduction of charges for these trade payment terms, expressed in the currency of the debtor's account which is different from the currency in which it is to be transferred."
 		},
 		"information": {
@@ -128,7 +137,10 @@
 			"description": "Information, expressed as text, for these trade payment terms."
 		},
 		"instructedAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value that has been instructed to be transferred between debtor and creditor for these trade payment terms before deduction of charges."
 		},
 		"instructionCode": {
@@ -136,7 +148,10 @@
 			"description": "A code specifying an instruction for these trade payment terms."
 		},
 		"partialPaymentAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a partial payment in these trade payment terms."
 		},
 		"partialPaymentPercent": {
@@ -144,7 +159,10 @@
 			"description": "A partial payment, expressed as a percent, in these trade payment terms."
 		},
 		"payeeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A payee party in these trade payment terms."
 		},
 		"paymentTermsEventTimeReferenceFromEventCode": {
@@ -152,7 +170,10 @@
 			"description": "The code specifying the event from which these trade payment terms are offered for a length of time."
 		},
 		"paymentTermsId": {
-			"$ref": "https://schema.twindev.org/unece/UnecePaymentTermsId",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePaymentTermsId"
+			},
 			"description": "The unique identifier of these trade payment terms."
 		},
 		"paymentTermsTypeCode": {

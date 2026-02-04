@@ -100,11 +100,17 @@
 			"description": "The code indicating the scope of a forecast delivery schedule."
 		},
 		"shipToParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A ship to party for this forecast delivery schedule."
 		},
 		"specifiedTradeLineItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem"
+			},
 			"description": "A trade line item specified for this forecast delivery schedule."
 		}
 	},

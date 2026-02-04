@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/identifierLengthNumeric
 
 ***
 
-### issuerPartyName?
+### issuerPartyName
 
-> `optional` **issuerPartyName**: `string`
+> **issuerPartyName**: `string`
 
 The name, expressed as text, of the party issuing this animal identity.
 

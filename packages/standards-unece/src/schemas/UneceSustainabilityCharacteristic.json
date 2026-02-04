@@ -100,7 +100,10 @@
 			"description": "A specified inspection result applicable to this sustainability characteristic."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this sustainability characteristic."
 		},
 		"categoryCode": {
@@ -136,7 +139,10 @@
 			"description": "The indication of whether or not this sustainability characteristic is shareable."
 		},
 		"specifiedSupplyChainEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A supply chain event specified for this sustainability characteristic."
 		},
 		"subordinateCategoryCode": {
@@ -184,19 +190,31 @@
 			"description": "The value, expressed as a number, for this sustainability characteristic."
 		},
 		"valueParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter specified for the value of this sustainability characteristic."
 		},
 		"valuePeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
+			},
 			"description": "A period specified for the value of this sustainability characteristic."
 		},
 		"valueRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A range specified for the value of this sustainability characteristic."
 		},
 		"valueTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "A tolerance specified for the value of this sustainability characteristic."
 		}
 	},

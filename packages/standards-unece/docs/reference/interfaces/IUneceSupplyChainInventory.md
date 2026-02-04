@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/calculationDateTime
 
 ### dispositionDocument?
 
-> `optional` **dispositionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **dispositionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A disposition document referenced in this supply chain inventory.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/dispositionDocument
 
 ### includedBatch?
 
-> `optional` **includedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
+> `optional` **includedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 A product batch included in this supply chain inventory.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/includedBatch
 
 ### includedMaterial?
 
-> `optional` **includedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **includedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Material included in this supply chain inventory.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/includedMaterial
 
 ### includedTradeProduct?
 
-> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 A product included in this supply chain inventory.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/plannedStockQuantity
 
 ### remarkNote?
 
-> `optional` **remarkNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **remarkNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note containing a remark for this supply chain inventory.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event specified for this supply chain inventory.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party specified for this supply chain inventory.
 

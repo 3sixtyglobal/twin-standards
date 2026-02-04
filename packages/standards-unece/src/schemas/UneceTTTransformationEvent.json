@@ -120,7 +120,10 @@
 			"description": "An instance identifier for an input object of this TT transformation event."
 		},
 		"inputQuantitySpecifiedEventElement": {
-			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
+			},
 			"description": "A quantity event element specified for an input of this TT transformation event."
 		},
 		"occurrenceDateTime": {
@@ -132,7 +135,10 @@
 			"description": "An instance identifier for an output object of this TT transformation event."
 		},
 		"outputQuantitySpecifiedEventElement": {
-			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
+			},
 			"description": "A quantity event element specified for an output of this TT transformation event."
 		},
 		"readPointRelatedLocation": {
@@ -144,7 +150,10 @@
 			"description": "The date, time, date time, or other date time value at which this TT transformation event was recorded."
 		},
 		"relatedCertification": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification"
+			},
 			"description": "A certification related to this TT transformation event."
 		},
 		"sourceRelatedParty": {
@@ -152,11 +161,17 @@
 			"description": "A source related party for this TT transformation event."
 		},
 		"specifiedError": {
-			"$ref": "https://schema.twindev.org/unece/UneceError",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceError"
+			},
 			"description": "A declared error specified for this TT transformation event."
 		},
 		"specifiedTradeTransaction": {
-			"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction"
+			},
 			"description": "A trade transaction specified for this TT transformation event."
 		},
 		"transformationId": {
@@ -165,7 +180,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"recordedDateTime"
 	],
 	"additionalProperties": {
 		"anyOf": [

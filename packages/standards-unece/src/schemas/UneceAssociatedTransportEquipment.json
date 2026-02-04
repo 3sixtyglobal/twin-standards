@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"affixedSeal": {
-			"$ref": "https://schema.twindev.org/unece/UneceSeal",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSeal"
+			},
 			"description": "A logistics seal affixed to this piece of associated transport equipment."
 		},
 		"associatedTransportEquipmentUsedCapacityCode": {
@@ -112,19 +115,31 @@
 			"description": "The textual description of the characteristics, i.e. size and type, of this piece of associated transport equipment."
 		},
 		"containedConsignment": {
-			"$ref": "https://schema.twindev.org/unece/UneceConsignment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceConsignment"
+			},
 			"description": "A supply chain consignment contained in this piece of associated transport equipment."
 		},
 		"goodsItemUnitQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A quantity of goods items in this associated transport equipment."
 		},
 		"grossGoodsVolumeMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
+			},
 			"description": "A measure of the gross goods volume of this associated transport equipment."
 		},
 		"grossGoodsWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A measure of the gross goods weight of this associated transport equipment."
 		},
 		"grossVolumeMeasure": {
@@ -132,7 +147,10 @@
 			"description": "The measure of the gross volume of this piece of associated transport equipment."
 		},
 		"grossWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "The measure of the gross weight (mass) of this piece of associated transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
 		},
 		"identifier": {
@@ -140,7 +158,10 @@
 			"description": "A unique number, mark or name which identifies this associated piece of transport equipment."
 		},
 		"loadedDangerousGoods": {
-			"$ref": "https://schema.twindev.org/unece/UneceDangerousGoods",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDangerousGoods"
+			},
 			"description": "Dangerous goods loaded into or onto this piece of associated transport equipment."
 		},
 		"loadedPackageQuantity": {
@@ -148,11 +169,17 @@
 			"description": "The number of packages loaded into or onto this piece of associated transport equipment."
 		},
 		"netGoodsVolumeMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
+			},
 			"description": "A measure of the net goods volume of this associated transport equipment."
 		},
 		"netGoodsWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A measure of the net goods weight of this associated transport equipment."
 		},
 		"registrationCountry": {
@@ -160,7 +187,10 @@
 			"description": "A registration country for this associated transport equipment."
 		},
 		"reportableQuantity": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityType"
+			},
 			"description": "A reportable quantity for this associated transport equipment."
 		},
 		"sealQuantity": {
@@ -176,7 +206,10 @@
 			"description": "The sequence number differentiating this piece of transport equipment from others in a set of associated transport equipment."
 		},
 		"settingTemperature": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportSettingTemperature",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportSettingTemperature"
+			},
 			"description": "A temperature setting for this piece of associated transport equipment, such as storage temperature or operational temperature."
 		},
 		"stowagePositionId": {
@@ -208,7 +241,10 @@
 			"description": "A measure of the verified gross weight (mass) of this piece of associated transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
 		},
 		"weightUnitNetWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A measure of the net weight of this associated transport equipment."
 		}
 	},

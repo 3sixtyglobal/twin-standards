@@ -132,7 +132,10 @@
 			"description": "The identifier of the parent object for this TT transaction event."
 		},
 		"quantitySpecifiedEventElement": {
-			"$ref": "https://schema.twindev.org/unece/UneceEventElement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceEventElement"
+			},
 			"description": "A quantity event element specified for this TT transaction event."
 		},
 		"readPointRelatedLocation": {
@@ -144,7 +147,10 @@
 			"description": "The date, time, date time, or other date time value at which this TT transaction event was recorded."
 		},
 		"relatedCertification": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedCertification"
+			},
 			"description": "A certification related to this TT transaction event."
 		},
 		"sourceRelatedParty": {
@@ -152,16 +158,23 @@
 			"description": "A source related party for this TT transaction event."
 		},
 		"specifiedError": {
-			"$ref": "https://schema.twindev.org/unece/UneceError",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceError"
+			},
 			"description": "A declared error specified for this TT transaction event."
 		},
 		"specifiedTradeTransaction": {
-			"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTTTradeTransaction"
+			},
 			"description": "A trade transaction specified for this TT transaction event."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"recordedDateTime"
 	],
 	"additionalProperties": {
 		"anyOf": [

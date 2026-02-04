@@ -37,7 +37,7 @@ export interface IUneceAnimalIdentity extends IJsonLdNodeObject {
 	 * The name, expressed as text, of the party issuing this animal identity.
 	 * @see https://vocabulary.uncefact.org/issuerPartyName
 	 */
-	issuerPartyName?: string;
+	issuerPartyName: string;
 
 	/**
 	 * The legal basis, expressed as text, for this animal identity.

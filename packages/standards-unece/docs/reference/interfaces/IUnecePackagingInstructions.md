@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### handling?
+### handling
 
-> `optional` **handling**: `string`
+> **handling**: `string`
 
 Packaging handling instructions, expressed as text.
 

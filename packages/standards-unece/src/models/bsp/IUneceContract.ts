@@ -75,7 +75,7 @@ export interface IUneceContract extends IJsonLdNodeObject {
 	 * A location where this trade contract was or will be signed.
 	 * @see https://vocabulary.uncefact.org/signedLocation
 	 */
-	signedLocation?: IUneceSpecifiedLocation;
+	signedLocation?: IUneceSpecifiedLocation[];
 
 	/**
 	 * A job title of the signee, expressed as text, for this trade contract.

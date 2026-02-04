@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/accompaniedIndicator
 
 ### actualRoute?
 
-> `optional` **actualRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
+> `optional` **actualRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
 An actual route for this piece of logistics transport equipment.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/actualRoute
 
 ### additionalInstructions?
 
-> `optional` **additionalInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **additionalInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Additional instructions for this piece of logistics transport equipment.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/additionalInstructions
 
 ### affixedSeal?
 
-> `optional` **affixedSeal**: [`IUneceSeal`](IUneceSeal.md)
+> `optional` **affixedSeal**: [`IUneceSeal`](IUneceSeal.md)[]
 
 A seal affixed to this piece of logistics transport equipment.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/airFlowUnitAirFlowMeasure
 
 ### applicableNote?
 
-> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note providing information applicable to this piece of logistics transport equipment.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ### applicableServiceCharge?
 
-> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)
+> `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
 
 A service charge applicable to this piece of logistics transport equipment.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/applicableServiceCharge
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document associated with this piece of logistics transport equipment.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ### attachedAttachedTransportEquipment?
 
-> `optional` **attachedAttachedTransportEquipment**: [`IUneceAttachedTransportEquipment`](IUneceAttachedTransportEquipment.md)
+> `optional` **attachedAttachedTransportEquipment**: [`IUneceAttachedTransportEquipment`](IUneceAttachedTransportEquipment.md)[]
 
 Transport equipment attached to this piece of logistics transport equipment, such as ropes or refrigeration units.
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/attachedAttachedTransportEquipment
 
 ### attachedIOTDevice?
 
-> `optional` **attachedIOTDevice**: [`IUneceIOTDevice`](IUneceIOTDevice.md)
+> `optional` **attachedIOTDevice**: [`IUneceIOTDevice`](IUneceIOTDevice.md)[]
 
 An IOT device attached to this piece of logistics transport equipment.
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/axleQuantity
 
 ### bondedWarehouseStorageEvent?
 
-> `optional` **bondedWarehouseStorageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **bondedWarehouseStorageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A bonded warehouse storage event specifying when and where this piece of logistics transport equipment will be, or has
 been, stored.
@@ -198,7 +198,7 @@ https://vocabulary.uncefact.org/cargoResidueStatusCode
 
 ### carriedTransportEquipment?
 
-> `optional` **carriedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)
+> `optional` **carriedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)[]
 
 A piece of transport equipment carried on this piece of logistics transport equipment, such as a container placed on a
 rail wagon.
@@ -209,9 +209,9 @@ https://vocabulary.uncefact.org/carriedTransportEquipment
 
 ***
 
-### carrierAssignedBookingId?
+### carrierAssignedBookingId
 
-> `optional` **carrierAssignedBookingId**: `string`
+> **carrierAssignedBookingId**: `string`
 
 A carrier assigned booking identifier for this piece of logistics transport equipment.
 
@@ -223,7 +223,7 @@ https://vocabulary.uncefact.org/carrierAssignedBookingId
 
 ### carrierParty?
 
-> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A carrier party for this piece of logistics transport equipment.
 
@@ -246,9 +246,9 @@ https://vocabulary.uncefact.org/characteristic
 
 ***
 
-### consigneeAssignedConsignmentId?
+### consigneeAssignedConsignmentId
 
-> `optional` **consigneeAssignedConsignmentId**: `string`
+> **consigneeAssignedConsignmentId**: `string`
 
 The consignee assigned consignment identifier for this piece of logistics transport equipment.
 
@@ -273,7 +273,7 @@ https://vocabulary.uncefact.org/consolidationEvent
 
 ### containedConsignment?
 
-> `optional` **containedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
+> `optional` **containedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
 A consignment contained in this piece of logistics transport equipment.
 
@@ -297,7 +297,7 @@ https://vocabulary.uncefact.org/containedConsignmentQuantity
 
 ### containedTransportEquipment?
 
-> `optional` **containedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)
+> `optional` **containedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)[]
 
 A piece of transport equipment contained within this piece of logistics transport equipment, such as a pallet.
 
@@ -321,7 +321,7 @@ https://vocabulary.uncefact.org/damageRemark
 
 ### deconsolidationEvent?
 
-> `optional` **deconsolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **deconsolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A deconsolidation event for this piece of logistics transport equipment.
 
@@ -333,7 +333,7 @@ https://vocabulary.uncefact.org/deconsolidationEvent
 
 ### deliveryInstructions?
 
-> `optional` **deliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)
+> `optional` **deliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)[]
 
 Delivery instructions for this piece of logistics transport equipment.
 
@@ -345,7 +345,7 @@ https://vocabulary.uncefact.org/deliveryInstructions
 
 ### deliveryTransportEvent?
 
-> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A delivery event for this piece of logistics transport equipment.
 
@@ -357,7 +357,7 @@ https://vocabulary.uncefact.org/deliveryTransportEvent
 
 ### goodsItemUnitQuantity?
 
-> `optional` **goodsItemUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **goodsItemUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity of goods items in this logistics transport equipment.
 
@@ -369,7 +369,7 @@ https://vocabulary.uncefact.org/goodsItemUnitQuantity
 
 ### grossGoodsVolumeMeasure?
 
-> `optional` **grossGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
+> `optional` **grossGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
 A measure of the gross goods volume of this logistics transport equipment.
 
@@ -381,7 +381,7 @@ https://vocabulary.uncefact.org/grossGoodsVolumeMeasure
 
 ### grossGoodsWeightMeasure?
 
-> `optional` **grossGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **grossGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the gross goods weight of this logistics transport equipment.
 
@@ -489,7 +489,7 @@ https://vocabulary.uncefact.org/linearUnitRequiredLaneLengthMeasure
 
 ### loadedConsignmentItem?
 
-> `optional` **loadedConsignmentItem**: [`IUneceConsignmentItem`](IUneceConsignmentItem.md)
+> `optional` **loadedConsignmentItem**: [`IUneceConsignmentItem`](IUneceConsignmentItem.md)[]
 
 A consignment item loaded onto, or into, this piece of logistics transport equipment.
 
@@ -501,7 +501,7 @@ https://vocabulary.uncefact.org/loadedConsignmentItem
 
 ### loadedDangerousGoods?
 
-> `optional` **loadedDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)
+> `optional` **loadedDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
 
 Dangerous goods loaded into this piece of logistics transport equipment.
 
@@ -537,7 +537,7 @@ https://vocabulary.uncefact.org/loadingEvent
 
 ### loadingInstructions?
 
-> `optional` **loadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **loadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Loading instructions for this piece of logistics transport equipment.
 
@@ -598,7 +598,7 @@ https://vocabulary.uncefact.org/logisticsTransportEquipmentCharacteristicCode
 
 ### mainCarriageTransportMovement?
 
-> `optional` **mainCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
+> `optional` **mainCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
 A main carriage transport movement for this piece of logistic transport equipment.
 
@@ -610,7 +610,7 @@ https://vocabulary.uncefact.org/mainCarriageTransportMovement
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The manufacturer party specified for this piece of logistics transport equipment.
 
@@ -634,7 +634,7 @@ https://vocabulary.uncefact.org/manufacturingDateTime
 
 ### netGoodsVolumeMeasure?
 
-> `optional` **netGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
+> `optional` **netGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
 A measure of the net goods volume of this logistics transport equipment.
 
@@ -646,7 +646,7 @@ https://vocabulary.uncefact.org/netGoodsVolumeMeasure
 
 ### netGoodsWeightMeasure?
 
-> `optional` **netGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **netGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the net goods weight of this logistics transport equipment.
 
@@ -658,7 +658,7 @@ https://vocabulary.uncefact.org/netGoodsWeightMeasure
 
 ### notifiedParty?
 
-> `optional` **notifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **notifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party who has been or will be notified about this piece of logistics transport equipment.
 
@@ -670,7 +670,7 @@ https://vocabulary.uncefact.org/notifiedParty
 
 ### onCarriageTransportMovement?
 
-> `optional` **onCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
+> `optional` **onCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
 An on-carriage transport movement for this piece of logistics transport equipment.
 
@@ -694,7 +694,7 @@ https://vocabulary.uncefact.org/operatingParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party who owns this piece of logistics transport equipment.
 
@@ -706,7 +706,7 @@ https://vocabulary.uncefact.org/ownerParty
 
 ### pickUpEvent?
 
-> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A pick-up event specifying when and where this piece of logistics transport equipment will be, or has been, collected,
 i.e. picked-up by the carrier.
@@ -770,7 +770,7 @@ https://vocabulary.uncefact.org/powerSupplyTypeCode
 
 ### preCarriageTransportMovement?
 
-> `optional` **preCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
+> `optional` **preCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
 A pre-carriage transport movement for this piece of logistics transport equipment.
 
@@ -782,7 +782,7 @@ https://vocabulary.uncefact.org/preCarriageTransportMovement
 
 ### quarantineInstructions?
 
-> `optional` **quarantineInstructions**: [`IUneceQuarantineInstructions`](IUneceQuarantineInstructions.md)
+> `optional` **quarantineInstructions**: [`IUneceQuarantineInstructions`](IUneceQuarantineInstructions.md)[]
 
 Quarantine instructions for this piece of logistics transport equipment.
 
@@ -806,7 +806,7 @@ https://vocabulary.uncefact.org/registrationCountry
 
 ### relatedEvent?
 
-> `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)
+> `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
 
 A communication event related to this piece of logistics transport equipment.
 
@@ -842,7 +842,7 @@ https://vocabulary.uncefact.org/releaseRestriction
 
 ### reportableQuantity?
 
-> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A reportable quantity for this logistics transport equipment.
 
@@ -854,7 +854,7 @@ https://vocabulary.uncefact.org/reportableQuantity
 
 ### reportedLogisticsStatus?
 
-> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)
+> `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
 
 A status reported for this piece of logistics transport equipment.
 
@@ -866,7 +866,7 @@ https://vocabulary.uncefact.org/reportedLogisticsStatus
 
 ### reportingIOTDevicePairing?
 
-> `optional` **reportingIOTDevicePairing**: [`IUnecePairing`](IUnecePairing.md)
+> `optional` **reportingIOTDevicePairing**: [`IUnecePairing`](IUnecePairing.md)[]
 
 An IOT device reported communication pairing for this piece of logistics transport equipment.
 
@@ -878,7 +878,7 @@ https://vocabulary.uncefact.org/reportingIOTDevicePairing
 
 ### reportingIOTDeviceTransportEvent?
 
-> `optional` **reportingIOTDeviceTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **reportingIOTDeviceTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 An IOT device reported transport event for this piece of logistics transport equipment.
 
@@ -890,7 +890,7 @@ https://vocabulary.uncefact.org/reportingIOTDeviceTransportEvent
 
 ### requestedRoute?
 
-> `optional` **requestedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
+> `optional` **requestedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
 A requested route for this piece of logistics transport equipment.
 
@@ -914,7 +914,7 @@ https://vocabulary.uncefact.org/returnableIndicator
 
 ### scheduledRoute?
 
-> `optional` **scheduledRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
+> `optional` **scheduledRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
 A scheduled or planned route for this piece of logistics transport equipment.
 
@@ -963,7 +963,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### settingTemperature?
 
-> `optional` **settingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)
+> `optional` **settingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
 
 A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational
 temperature.
@@ -988,7 +988,7 @@ https://vocabulary.uncefact.org/shipperReferenceInformation
 
 ### specifiedRiskAnalysisResult?
 
-> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)
+> `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
 
 A result of a logistics risk analysis calculation specified for this transport equipment.
 
@@ -1012,7 +1012,7 @@ https://vocabulary.uncefact.org/specifiedTransportMeans
 
 ### storageEvent?
 
-> `optional` **storageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **storageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.
 
@@ -1137,7 +1137,7 @@ https://vocabulary.uncefact.org/transportEquipmentSupplierPartyRoleCode
 
 ### transportService?
 
-> `optional` **transportService**: [`IUneceService`](IUneceService.md)
+> `optional` **transportService**: [`IUneceService`](IUneceService.md)[]
 
 A transport service for this piece of logistics transport equipment.
 
@@ -1247,7 +1247,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the net weight (mass) of this piece of logistics transport equipment.
 

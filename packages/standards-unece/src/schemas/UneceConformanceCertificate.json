@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"certificateTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCertificateTypeCodeList"
+			},
 			"description": "The code specifying the type of conformance certificate."
 		},
 		"identifier": {

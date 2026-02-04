@@ -30,7 +30,7 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * A dimension that is a component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/componentSpatialDimension
 	 */
-	componentSpatialDimension?: IUneceSpatialDimension;
+	componentSpatialDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * A textual description of this spatial dimension.
@@ -42,7 +42,7 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * The code specifying the type of spatial dimension, such as thickness, area, or volume.
 	 * @see https://vocabulary.uncefact.org/dimensionTypeCode
 	 */
-	dimensionTypeCode?: UneceDimensionTypeCodeList;
+	dimensionTypeCode: UneceDimensionTypeCodeList;
 
 	/**
 	 * The measure of the height component of this spatial dimension.
@@ -84,7 +84,7 @@ export interface IUneceSpatialDimension extends IJsonLdNodeObject {
 	 * The measure of the width component of this spatial dimension.
 	 * @see https://vocabulary.uncefact.org/linearUnitWidthMeasure
 	 */
-	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType;
+	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType[];
 
 	/**
 	 * The number of units with these spatial dimensions.

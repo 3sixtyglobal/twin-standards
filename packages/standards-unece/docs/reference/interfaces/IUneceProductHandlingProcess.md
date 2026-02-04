@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableProcessCharacteristic?
 
-> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)
+> `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)[]
 
 A process characteristic applicable to this product handling process.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### processTypeCode?
 
-> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)
+> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)[]
 
 The code specifying the type of product handling process.
 

@@ -100,7 +100,10 @@
 			"description": "A unique country identifier for this location party."
 		},
 		"definedContact": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeContact",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeContact"
+			},
 			"description": "A trade contact defined for this location party."
 		},
 		"description": {
@@ -108,7 +111,10 @@
 			"description": "A textual description of this location party."
 		},
 		"faxCommunication": {
-			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
+			},
 			"description": "Fax communication information for this location party."
 		},
 		"identifier": {
@@ -124,11 +130,17 @@
 			"description": "A name, expressed as text, for this location party."
 		},
 		"postalAddress": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
+			},
 			"description": "A postal address for this location party."
 		},
 		"providedService": {
-			"$ref": "https://schema.twindev.org/unece/UneceService",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceService"
+			},
 			"description": "A transport service provided by this location party."
 		},
 		"specifiedLogisticsLocation": {

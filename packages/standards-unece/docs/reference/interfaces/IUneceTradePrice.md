@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableCustomerClass?
 
-> `optional` **applicableCustomerClass**: [`IUneceCustomerClass`](IUneceCustomerClass.md)
+> `optional` **applicableCustomerClass**: [`IUneceCustomerClass`](IUneceCustomerClass.md)[]
 
 An applicable customer class for this trade price.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableCustomerClass
 
 ### applicableSpecifiedNote?
 
-> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)
+> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
 A specified note applicable to this trade price.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedNote
 
 ### appliedAllowanceCharge?
 
-> `optional` **appliedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)
+> `optional` **appliedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
 
 An allowance or charge applied to the trade price.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/appliedAllowanceCharge
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An associated document referenced for this trade price.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/changeReason
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the trade price charge.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ### comparisonPrice?
 
-> `optional` **comparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)
+> `optional` **comparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)[]
 
 A price that provides a comparison with this trade price.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/dayQuantity
 
 ### deliveryLocation?
 
-> `optional` **deliveryLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
+> `optional` **deliveryLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
 A delivery location for this trade price.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/determinationCode
 
 ### document?
 
-> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A document referenced for this trade price.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### grandTotalChargeAmount?
 
-> `optional` **grandTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **grandTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the grand total charge of this trade price.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/grandTotalChargeAmount
 
 ### includedTax?
 
-> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
+> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A tax included in this trade price.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/information
 
 ### maximumChargeAmount?
 
-> `optional` **maximumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **maximumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that is the maximum charge in a range of trade prices.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/maximumQuantity
 
 ### minimumChargeAmount?
 
-> `optional` **minimumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **minimumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that is the minimum charge in a range of trade prices.
 
@@ -386,7 +386,7 @@ https://vocabulary.uncefact.org/netPriceIndicator
 
 ### operationalApplicablePeriod?
 
-> `optional` **operationalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **operationalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An operational period applicable for this trade price.
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ### repackagingChargeAmount?
 
-> `optional` **repackagingChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **repackagingChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a repackaging charge for this trade price.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/repackagingChargeAmount
 
 ### repairChargeAmount?
 
-> `optional` **repairChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **repairChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a repair charge for this trade price.
 
@@ -470,7 +470,7 @@ https://vocabulary.uncefact.org/repairChargeAmount
 
 ### seasonalApplicablePeriod?
 
-> `optional` **seasonalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **seasonalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A seasonal period applicable for this trade price.
 
@@ -494,7 +494,7 @@ https://vocabulary.uncefact.org/seasonalRankCode
 
 ### specifiedPaymentTradeSettlement?
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
+> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
 
 A payment trade settlement specified for this trade price.
 
@@ -506,7 +506,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 
 ### totalChargeAmount?
 
-> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total charge of this trade price.
 
@@ -518,7 +518,7 @@ https://vocabulary.uncefact.org/totalChargeAmount
 
 ### tradeComparisonPrice?
 
-> `optional` **tradeComparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)
+> `optional` **tradeComparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)[]
 
 A price that provides a trade comparison with this trade price.
 

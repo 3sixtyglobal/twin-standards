@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### changedDateTime?
+### changedDateTime
 
-> `optional` **changedDateTime**: `string`
+> **changedDateTime**: `string`
 
 The date, time, date time, or other date time value when this recorded status changed.
 

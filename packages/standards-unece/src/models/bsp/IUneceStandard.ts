@@ -41,43 +41,43 @@ export interface IUneceStandard extends IJsonLdNodeObject {
 	 * A specified assessment applicable to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment;
+	applicableAssessment?: IUneceAssessment[];
 
 	/**
 	 * A country where this referenced standard is applicable.
 	 * @see https://vocabulary.uncefact.org/applicableCountry
 	 */
-	applicableCountry?: IUneceCountry;
+	applicableCountry?: IUneceCountry[];
 
 	/**
 	 * A specified declaration applicable to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/applicableDeclaration
 	 */
-	applicableDeclaration?: IUneceSpecifiedDeclaration;
+	applicableDeclaration?: IUneceSpecifiedDeclaration[];
 
 	/**
 	 * A specified licence applicable to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/applicableLicence
 	 */
-	applicableLicence?: IUneceLicence;
+	applicableLicence?: IUneceLicence[];
 
 	/**
 	 * A metric characteristic applicable to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/applicableMetricCharacteristic
 	 */
-	applicableMetricCharacteristic?: IUneceMetricCharacteristic;
+	applicableMetricCharacteristic?: IUneceMetricCharacteristic[];
 
 	/**
 	 * A specified certificate applicable to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
 
 	/**
 	 * A binary file attached to this referenced standard.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A textual description of this referenced standard.
@@ -120,7 +120,7 @@ export interface IUneceStandard extends IJsonLdNodeObject {
 	 * A referenced document specified for this referenced standard.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * The code specifying the type of referenced standard.

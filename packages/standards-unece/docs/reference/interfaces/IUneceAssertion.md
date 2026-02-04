@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this sustainability assertion.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedCharacteristic?
 
-> `optional` **includedCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **includedCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic included in this sustainability assertion.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/issuingPartyId
 
 ### relatedPolicy?
 
-> `optional` **relatedPolicy**: [`IUnecePolicy`](IUnecePolicy.md)
+> `optional` **relatedPolicy**: [`IUnecePolicy`](IUnecePolicy.md)[]
 
 A compliance policy related to this sustainability assertion.
 

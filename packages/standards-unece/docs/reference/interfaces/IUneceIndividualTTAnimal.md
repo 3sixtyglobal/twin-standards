@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedDelimitedPeriod?
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 The delimited period specified for this individual TT animal.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod?
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 The delimited period specified for this individual TT animal.
 

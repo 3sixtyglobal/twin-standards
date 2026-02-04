@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### arrivalReportedEvent?
 
-> `optional` **arrivalReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **arrivalReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transport arrival event reported for this logistics status.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/arrivalReportedEvent
 
 ### contactParty?
 
-> `optional` **contactParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **contactParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A contact party for this logistics status.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/contactParty
 
 ### departureReportedEvent?
 
-> `optional` **departureReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **departureReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transport departure event reported for this logistics status.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/information
 
 ### loadingReportedEvent?
 
-> `optional` **loadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **loadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transport loading event reported for this logistics status.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ### reportedSupplyChainEvent?
 
-> `optional` **reportedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **reportedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event reported for this logistics status.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### unloadingReportedEvent?
 
-> `optional` **unloadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **unloadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A transport unloading event reported for this logistics status.
 

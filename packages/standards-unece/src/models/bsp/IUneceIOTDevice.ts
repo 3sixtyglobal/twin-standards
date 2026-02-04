@@ -46,13 +46,13 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * An embedded sensor of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/embeddedSensor
 	 */
-	embeddedSensor?: IUneceSensor;
+	embeddedSensor?: IUneceSensor[];
 
 	/**
 	 * A product certificate granted for this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/grantedCertificate
 	 */
-	grantedCertificate?: IUneceProductCertificate;
+	grantedCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * An identifier for this monitoring IOT device.
@@ -64,7 +64,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/interfaceEquipment
 	 */
-	interfaceEquipment?: IUneceEquipment;
+	interfaceEquipment?: IUneceEquipment[];
 
 	/**
 	 * The latest geographical coordinates received by this monitoring IOT device, from the perspective of the receiver.
@@ -83,7 +83,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * The manufacturer party of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty;
+	manufacturerParty?: IUneceTradeParty[];
 
 	/**
 	 * A model identifier for this monitoring IOT device.
@@ -107,7 +107,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * The owner party of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty;
+	ownerParty?: IUneceTradeParty[];
 
 	/**
 	 * The code specifying the position of this monitoring IOT device.
@@ -131,7 +131,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * A communication event related to this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/relatedEvent
 	 */
-	relatedEvent?: IUneceCommunicationEvent;
+	relatedEvent?: IUneceCommunicationEvent[];
 
 	/**
 	 * The percentage of the remaining battery charge of this monitoring IOT device.
@@ -143,19 +143,19 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * A remote sensor of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/remoteSensor
 	 */
-	remoteSensor?: IUneceSensor;
+	remoteSensor?: IUneceSensor[];
 
 	/**
 	 * A transport event reported by this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/reportedTransportEvent
 	 */
-	reportedTransportEvent?: IUneceTransportEvent;
+	reportedTransportEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A sensor communication pairing reported for this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/reportingSensorPairing
 	 */
-	reportingSensorPairing?: IUnecePairing;
+	reportingSensorPairing?: IUnecePairing[];
 
 	/**
 	 * The code specifying the type of monitoring IOT device.

@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"activityLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMeasureType"
+			},
 			"description": "A measure of the activity level of this specified radioactive isotope."
 		},
 		"name": {
@@ -108,11 +111,17 @@
 			"description": "A note, expressed as text, for this specified radioactive isotope."
 		},
 		"specifiedRadionuclide": {
-			"$ref": "https://schema.twindev.org/unece/UneceRadionuclide",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRadionuclide"
+			},
 			"description": "The radionuclide details specified for this radioactive isotope."
 		},
 		"unitActivityLevelMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType"
+			},
 			"description": "A measure of the activity level of this specified radioactive isotope."
 		}
 	},

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/forecastTypeCode
 
 ### supplyChainForecastTermsCommitmentLevelCode?
 
-> `optional` **supplyChainForecastTermsCommitmentLevelCode**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)
+> `optional` **supplyChainForecastTermsCommitmentLevelCode**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)[]
 
 A code specifying a commitment level in these supply chain forecast terms.
 

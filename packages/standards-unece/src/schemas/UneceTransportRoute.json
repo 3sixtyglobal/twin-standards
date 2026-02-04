@@ -116,7 +116,10 @@
 			"description": "The unique identifier of this transport route."
 		},
 		"itineraryStopEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceTransportEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTransportEvent"
+			},
 			"description": "An itinerary stop event for this transport route, such as a port call in a vessel schedule."
 		},
 		"mapBinaryObject": {

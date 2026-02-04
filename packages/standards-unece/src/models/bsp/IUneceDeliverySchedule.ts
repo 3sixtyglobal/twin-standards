@@ -33,11 +33,11 @@ export interface IUneceDeliverySchedule extends IJsonLdNodeObject {
 	 * A ship to party for this forecast delivery schedule.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty;
+	shipToParty?: IUneceTradeParty[];
 
 	/**
 	 * A trade line item specified for this forecast delivery schedule.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeLineItem
 	 */
-	specifiedTradeLineItem?: IUneceSupplyChainTradeLineItem;
+	specifiedTradeLineItem?: IUneceSupplyChainTradeLineItem[];
 }

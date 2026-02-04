@@ -39,7 +39,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value used as the allowance and charge basis on which this trade related tax, levy or duty is calculated.
 	 * @see https://vocabulary.uncefact.org/allowanceChargeBasisAmount
 	 */
-	allowanceChargeBasisAmount?: IUneceAmountType;
+	allowanceChargeBasisAmount?: IUneceAmountType[];
 
 	/**
 	 * The percent of trade tax applicable, such as to an object or an activity.
@@ -51,13 +51,13 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A location where this trade tax is applicable.
 	 * @see https://vocabulary.uncefact.org/applicableTradeLocation
 	 */
-	applicableTradeLocation?: IUneceTradeLocation;
+	applicableTradeLocation?: IUneceTradeLocation[];
 
 	/**
 	 * A monetary value used as the basis on which this trade related tax, levy or duty is calculated.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType;
+	basisAmount?: IUneceAmountType[];
 
 	/**
 	 * The quantity used as the basis for calculating the amount of this trade related tax, levy or duty.
@@ -87,7 +87,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value resulting from the calculation of this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/calculatedAmount
 	 */
-	calculatedAmount?: IUneceAmountType;
+	calculatedAmount?: IUneceAmountType[];
 
 	/**
 	 * The rate used to calculate the amount of this trade related tax, levy or duty.
@@ -176,7 +176,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value of the grand total of the basis plus tax for this trade tax.
 	 * @see https://vocabulary.uncefact.org/grandTotalAmount
 	 */
-	grandTotalAmount?: IUneceAmountType;
+	grandTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * The undertaking, expressed as text, given in cash, bond or as a written guarantee to ensure that an obligation will be
@@ -195,7 +195,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value of an amount being reported for information for this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/informationAmount
 	 */
-	informationAmount?: IUneceAmountType;
+	informationAmount?: IUneceAmountType[];
 
 	/**
 	 * A jurisdiction, expressed as text, to which this trade related tax, levy or duty applies.
@@ -207,7 +207,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value used as the line total basis on which this trade related tax, levy or duty is calculated.
 	 * @see https://vocabulary.uncefact.org/lineTotalBasisAmount
 	 */
-	lineTotalBasisAmount?: IUneceAmountType;
+	lineTotalBasisAmount?: IUneceAmountType[];
 
 	/**
 	 * The identifier of the local tax system for this trade tax.
@@ -225,7 +225,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A location where this trade tax is applicable.
 	 * @see https://vocabulary.uncefact.org/placeApplicableLocation
 	 */
-	placeApplicableLocation?: IUneceTradeLocation;
+	placeApplicableLocation?: IUneceTradeLocation[];
 
 	/**
 	 * The rate, expressed as text, of this trade related tax, levy or duty.
@@ -299,7 +299,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A specified accounting account for this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/specifiedAccountingAccount
 	 */
-	specifiedAccountingAccount?: IUneceAccountingAccount;
+	specifiedAccountingAccount?: IUneceAccountingAccount[];
 
 	/**
 	 * A quantity to be deducted from the tariff quantity for the calculation of this trade related tax, duty or levy.
@@ -379,5 +379,5 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated.
 	 * @see https://vocabulary.uncefact.org/unitBasisAmount
 	 */
-	unitBasisAmount?: IUneceAmountType;
+	unitBasisAmount?: IUneceAmountType[];
 }

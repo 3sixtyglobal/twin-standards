@@ -65,25 +65,25 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * A disposition document referenced in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/dispositionDocument
 	 */
-	dispositionDocument?: IUneceDocument;
+	dispositionDocument?: IUneceDocument[];
 
 	/**
 	 * A product batch included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedBatch
 	 */
-	includedBatch?: IUneceProductBatch;
+	includedBatch?: IUneceProductBatch[];
 
 	/**
 	 * Material included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedMaterial
 	 */
-	includedMaterial?: IUneceSpecifiedMaterial;
+	includedMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A product included in this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/includedTradeProduct
 	 */
-	includedTradeProduct?: IUneceTradeProduct;
+	includedTradeProduct?: IUneceTradeProduct[];
 
 	/**
 	 * The measure of the maximum stock level for this supply chain inventory.
@@ -125,7 +125,7 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * A note containing a remark for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/remarkNote
 	 */
-	remarkNote?: IUneceNote;
+	remarkNote?: IUneceNote[];
 
 	/**
 	 * The location specified for this supply chain inventory.
@@ -137,13 +137,13 @@ export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
 	 * A supply chain event specified for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A trade party specified for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty;
+	specifiedTradeParty?: IUneceTradeParty[];
 
 	/**
 	 * The code specifying a status for this supply chain inventory.

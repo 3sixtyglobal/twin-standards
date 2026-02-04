@@ -96,15 +96,24 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableProductCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCertificate"
+			},
 			"description": "A product certificate applicable to this toxicological hazardous material."
 		},
 		"applicableProductCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
+			},
 			"description": "A product characteristic applicable to this toxicological hazardous material."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic applicable to this toxicological hazardous material."
 		},
 		"biologicalSeverityDescription": {

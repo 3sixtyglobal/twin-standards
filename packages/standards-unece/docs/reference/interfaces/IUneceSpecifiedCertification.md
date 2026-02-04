@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### relatedLocation?
 
-> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location related to this specified certification.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/relatedLocation
 
 ### relatedStandard?
 
-> `optional` **relatedStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **relatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard related to this specified certification.
 

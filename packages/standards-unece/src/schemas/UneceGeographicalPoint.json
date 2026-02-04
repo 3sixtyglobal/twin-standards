@@ -104,12 +104,16 @@
 			"description": "The geographical object characteristic associated with this geographical point."
 		},
 		"associatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
+			},
 			"description": "A logistics location associated with this specified geographical point."
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"associatedGeographicalObjectCharacteristic"
 	],
 	"additionalProperties": {
 		"anyOf": [

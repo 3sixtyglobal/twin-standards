@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableAgriculturalProcess?
 
-> `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)
+> `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
 
 An agricultural process crop production specified for this crop plot.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalProcess
 
 ### appliedAgriculturalApplication?
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)
+> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 A specified agricultural application applied to this crop plot.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### grownCrop?
 
-> `optional` **grownCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)
+> `optional` **grownCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)[]
 
 A field crop grown on this crop plot.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/regulatorySoilTypeCode
 
 ### specifiedAgriculturalCertificate?
 
-> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)
+> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
 An agricultural certificate specified for this crop plot.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ### specifiedAgriculturalCharacteristic?
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)
+> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic specified for this crop plot.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ### specifiedAgriculturalZoneArea?
 
-> `optional` **specifiedAgriculturalZoneArea**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)
+> `optional` **specifiedAgriculturalZoneArea**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)[]
 
 An agricultural zone area specified for this crop plot.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalZoneArea
 
 ### ~~specifiedArea?~~
 
-> `optional` **specifiedArea**: [`IUneceArea`](IUneceArea.md)
+> `optional` **specifiedArea**: [`IUneceArea`](IUneceArea.md)[]
 
 An agricultural zone area specified for this crop plot.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/specifiedArea
 
 ### specifiedLocation?
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 The referenced location specified for this crop plot.
 

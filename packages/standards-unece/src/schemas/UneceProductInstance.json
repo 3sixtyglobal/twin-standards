@@ -104,19 +104,31 @@
 			"description": "A unique ammunition identifier for this trade product instance."
 		},
 		"applicableClassification": {
-			"$ref": "https://schema.twindev.org/unece/UneceClassification",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceClassification"
+			},
 			"description": "A product classification applicable to this trade product instance."
 		},
 		"applicableGoodsCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic"
+			},
 			"description": "A distinguishing material feature applicable to this trade product instance."
 		},
 		"applicableProductCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
+			},
 			"description": "A product characteristic applicable to this trade product instance."
 		},
 		"appliedProcess": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductHandlingProcess",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductHandlingProcess"
+			},
 			"description": "A product handling process applied to this trade product instance, such as manufacturing or storage."
 		},
 		"batchId": {
@@ -128,7 +140,10 @@
 			"description": "The date, time, date time, or other date time value before which it is best to consume the items contained in this trade product instance."
 		},
 		"brandNameAdditionalInformationNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "An additional brand name information note for this trade product instance."
 		},
 		"ceramicCapacitorId": {
@@ -136,7 +151,10 @@
 			"description": "The ceramic capacitor identifier of this trade product instance."
 		},
 		"certificationEvidenceDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document providing evidence of certification for this trade product instance."
 		},
 		"commonName": {
@@ -176,15 +194,24 @@
 			"description": "A unique identifier for this trade product instance."
 		},
 		"ingredientAdditionalInformationNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note providing additional ingredient information for this trade product instance."
 		},
 		"inspectionDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced inspection document for this trade product instance."
 		},
 		"inspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "The inspection event for this trade product instance."
 		},
 		"intendedUse": {
@@ -204,7 +231,10 @@
 			"description": "The unique manufacturer assigned serial identifier for this trade product instance."
 		},
 		"originLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
+			},
 			"description": "A location of origin for this supply chain product instance."
 		},
 		"packagingEvent": {
@@ -216,7 +246,10 @@
 			"description": "The processing event for this trade product instance."
 		},
 		"productCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductCharacteristic"
+			},
 			"description": "A product characteristic for this trade product instance."
 		},
 		"productionEvent": {
@@ -224,11 +257,17 @@
 			"description": "The production event for this trade product instance."
 		},
 		"qualityGradeAdditionalInformationNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note providing additional quality grade information for this trade product instance."
 		},
 		"reclassificationEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A reclassification supply chain event for this trade product instance."
 		},
 		"registrationId": {

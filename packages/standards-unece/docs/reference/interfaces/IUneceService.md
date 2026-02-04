@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### actualPerformancePeriod?
 
-> `optional` **actualPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **actualPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An actual period of performance for this referenced transport service.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualPerformancePeriod
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value of the charge for this transport service.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/contractId
 
 ### deliverySpecifiedLocation?
 
-> `optional` **deliverySpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **deliverySpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location specified for a delivery by this referenced transport service.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
 ### estimatedPerformancePeriod?
 
-> `optional` **estimatedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **estimatedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An estimated period of performance for this referenced transport service.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/information
 
 ### itemQuantity?
 
-> `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity of items for this referenced transport service.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/name
 
 ### plannedPerformancePeriod?
 
-> `optional` **plannedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **plannedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A planned period of performance for this referenced transport service.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ### relatedSpecifiedLocation?
 
-> `optional` **relatedSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **relatedSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A related logistics location specified for this referenced transport service.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/relatedSpecifiedLocation
 
 ### requestedPerformancePeriod?
 
-> `optional` **requestedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **requestedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A requested period of performance for this referenced transport service.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/requestedPerformancePeriod
 
 ### requesterParty?
 
-> `optional` **requesterParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **requesterParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party requesting this referenced transport service.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/requesterParty
 
 ### responsibleParty?
 
-> `optional` **responsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **responsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party responsible for this transport service.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/responsibleParty
 
 ### responsibleTradeParty?
 
-> `optional` **responsibleTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **responsibleTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party responsible for this transport service.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/specifiedRoute
 
 ### transportContractMovementContractMovementTypeCode?
 
-> `optional` **transportContractMovementContractMovementTypeCode**: [`UneceTransportContractMovementCodeList`](../type-aliases/UneceTransportContractMovementCodeList.md)
+> `optional` **transportContractMovementContractMovementTypeCode**: [`UneceTransportContractMovementCodeList`](../type-aliases/UneceTransportContractMovementCodeList.md)[]
 
 A code specifying a contract movement type of this transport service.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/transportServicePriorityCode
 
 ### transportServiceRequirementCode?
 
-> `optional` **transportServiceRequirementCode**: [`UneceTransportServiceRequirementCodeList`](../type-aliases/UneceTransportServiceRequirementCodeList.md)
+> `optional` **transportServiceRequirementCode**: [`UneceTransportServiceRequirementCodeList`](../type-aliases/UneceTransportServiceRequirementCodeList.md)[]
 
 A code specifying a service requirement for this transport service.
 

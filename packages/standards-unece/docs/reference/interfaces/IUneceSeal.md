@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/maximumId
 
 ### sealConditionCode?
 
-> `optional` **sealConditionCode**: [`UneceSealConditionCodeList`](../type-aliases/UneceSealConditionCodeList.md)
+> `optional` **sealConditionCode**: [`UneceSealConditionCodeList`](../type-aliases/UneceSealConditionCodeList.md)[]
 
 A code specifying a condition of this logistics seal.
 

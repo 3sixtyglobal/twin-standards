@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
 A product certificate applicable to this transportation waste material component.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this transportation waste material component.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/plannedDischargedMeasure
 
 ### remainingDeliveryEvent?
 
-> `optional` **remainingDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **remainingDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A delivery event for this remaining transportation waste material component.
 

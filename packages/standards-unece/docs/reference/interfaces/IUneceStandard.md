@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/agencyId
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
 A specified assessment applicable to this referenced standard.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableCountry?
 
-> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A country where this referenced standard is applicable.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ### applicableDeclaration?
 
-> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)
+> `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
 
 A specified declaration applicable to this referenced standard.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ### applicableLicence?
 
-> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)
+> `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
 
 A specified licence applicable to this referenced standard.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ### applicableMetricCharacteristic?
 
-> `optional` **applicableMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
+> `optional` **applicableMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)[]
 
 A metric characteristic applicable to this referenced standard.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/applicableMetricCharacteristic
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
 A specified certificate applicable to this referenced standard.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file attached to this referenced standard.
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document specified for this referenced standard.
 

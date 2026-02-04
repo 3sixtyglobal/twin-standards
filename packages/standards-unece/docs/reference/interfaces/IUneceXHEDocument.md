@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### recipientXHEParty?
+### recipientXHEParty
 
-> `optional` **recipientXHEParty**: [`IUneceXHEParty`](IUneceXHEParty.md)
+> **recipientXHEParty**: [`IUneceXHEParty`](IUneceXHEParty.md)[]
 
 A recipient party for this XHE document.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/recipientXHEParty
 
 ### scopeContext?
 
-> `optional` **scopeContext**: [`IUneceXHEContext`](IUneceXHEContext.md)
+> `optional` **scopeContext**: [`IUneceXHEContext`](IUneceXHEContext.md)[]
 
 A context scope for this XHE document.
 

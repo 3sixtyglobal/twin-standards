@@ -39,5 +39,5 @@ export interface IUneceCooperatingOrganization extends IJsonLdNodeObject {
 	 * A specified cooperative information source used for or from this cooperating organization.
 	 * @see https://vocabulary.uncefact.org/usedInformationSource
 	 */
-	usedInformationSource?: IUneceInformationSource;
+	usedInformationSource?: IUneceInformationSource[];
 }

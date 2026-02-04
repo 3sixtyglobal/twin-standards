@@ -112,7 +112,10 @@
 			"description": "The name, expressed as text, of this control setting parameter."
 		},
 		"requestedRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A requested range specified for this control setting parameter."
 		},
 		"statusCode": {

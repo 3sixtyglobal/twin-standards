@@ -100,7 +100,10 @@
 			"description": "A textual description for the type of transportation waste recovery disposal process."
 		},
 		"specifiedProcessCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
+			},
 			"description": "A process certificate specified for this transportation waste recovery disposal process."
 		},
 		"transportationWasteRecoveryDisposalProcessTypeCode": {

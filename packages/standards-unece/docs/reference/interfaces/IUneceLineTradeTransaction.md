@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableLineTradeAgreement?
 
-> `optional` **applicableLineTradeAgreement**: [`IUneceLineTradeAgreement`](IUneceLineTradeAgreement.md)
+> `optional` **applicableLineTradeAgreement**: [`IUneceLineTradeAgreement`](IUneceLineTradeAgreement.md)[]
 
 A trade agreement applicable to this line trade transaction, such as payment or delivery terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableLineTradeAgreement
 
 ### applicableLineTradeDelivery?
 
-> `optional` **applicableLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)
+> `optional` **applicableLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)[]
 
 A trade delivery applicable to this line trade transaction.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableLineTradeDelivery
 
 ### includedTradeProduct?
 
-> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 A trade product included in this line trade transaction.
 

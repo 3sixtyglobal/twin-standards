@@ -54,7 +54,7 @@ export interface IUneceAuthentication extends IJsonLdNodeObject {
 	 * A document clause included in this document authentication.
 	 * @see https://vocabulary.uncefact.org/includedClause
 	 */
-	includedClause?: IUneceClause;
+	includedClause: IUneceClause[];
 
 	/**
 	 * Information, expressed as text, for this document authentication.

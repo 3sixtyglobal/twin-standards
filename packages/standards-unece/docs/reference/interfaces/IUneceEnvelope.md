@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/includedPayload
 
 ***
 
-### metadataDocument?
+### metadataDocument
 
-> `optional` **metadataDocument**: [`IUneceXHEDocument`](IUneceXHEDocument.md)
+> **metadataDocument**: [`IUneceXHEDocument`](IUneceXHEDocument.md)
 
 The document metadata for this XHE envelope.
 

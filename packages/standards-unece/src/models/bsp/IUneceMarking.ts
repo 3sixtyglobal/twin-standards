@@ -29,7 +29,7 @@ export interface IUneceMarking extends IJsonLdNodeObject {
 	 * A code specifying an automatic data capture method type for this packaging marking.
 	 * @see https://vocabulary.uncefact.org/automaticDataCaptureMethodTypeCode
 	 */
-	automaticDataCaptureMethodTypeCode?: UneceAutomaticDataCaptureMethodCodeList;
+	automaticDataCaptureMethodTypeCode?: UneceAutomaticDataCaptureMethodCodeList[];
 
 	/**
 	 * Content, expressed as text, of this packaging marking.
@@ -41,7 +41,7 @@ export interface IUneceMarking extends IJsonLdNodeObject {
 	 * Content, expressed as a monetary amount, for this packaging marking.
 	 * @see https://vocabulary.uncefact.org/contentAmount
 	 */
-	contentAmount?: IUneceAmountType;
+	contentAmount?: IUneceAmountType[];
 
 	/**
 	 * Content, expressed as a code, of this packaging marking.
@@ -65,11 +65,11 @@ export interface IUneceMarking extends IJsonLdNodeObject {
 	 * A code specifying a type of packaging marking.
 	 * @see https://vocabulary.uncefact.org/packagingMarkingTypeCode
 	 */
-	packagingMarkingTypeCode?: UnecePackagingMarkingCodeList;
+	packagingMarkingTypeCode?: UnecePackagingMarkingCodeList[];
 
 	/**
 	 * A logistics label specified for this packaging marking.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLabel
 	 */
-	specifiedLogisticsLabel?: IUneceLogisticsLabel;
+	specifiedLogisticsLabel?: IUneceLogisticsLabel[];
 }

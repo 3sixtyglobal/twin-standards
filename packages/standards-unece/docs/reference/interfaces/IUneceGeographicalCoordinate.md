@@ -110,9 +110,9 @@ https://vocabulary.uncefact.org/latitudeDirectionIndicator
 
 ***
 
-### latitudeMeasure?
+### latitudeMeasure
 
-> `optional` **latitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> **latitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a
 specific place for this geographical coordinate (Reference ISO 6709).
@@ -136,9 +136,9 @@ https://vocabulary.uncefact.org/longitudeDirectionIndicator
 
 ***
 
-### longitudeMeasure?
+### longitudeMeasure
 
-> `optional` **longitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> **longitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a
 specific place (Reference ISO 6709).

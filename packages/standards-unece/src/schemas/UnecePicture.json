@@ -104,7 +104,10 @@
 			"description": "The area or location, expressed as text, that is included in this photographic picture."
 		},
 		"attachedBinaryFile": {
-			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
+			},
 			"description": "A binary file attached to this photographic picture."
 		},
 		"copyrightOwnerName": {
@@ -156,7 +159,10 @@
 			"description": "The value, expressed as a number, for the resolution of this photographic picture."
 		},
 		"specifiedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note specified for this photographic picture."
 		},
 		"subject": {

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An additional document referenced in this header trade agreement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableForecastTerms
 
 ### applicableLogisticsLocation?
 
-> `optional` **applicableLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **applicableLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location or place applicable to this header trade agreement.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableLogisticsLocation
 
 ### applicableLocation?
 
-> `optional` **applicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **applicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location or place applicable to this header trade agreement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicablePaymentTerms
 
 ### applicableRegulatoryProcedure?
 
-> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)
+> `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)[]
 
 A cross-border regulatory procedure applicable to this header trade agreement.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/blanketOrderDocument
 
 ### buyerAgentParty?
 
-> `optional` **buyerAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **buyerAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The buyer agent party for this header trade agreement.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/buyerAssignedAccountantParty
 
 ### buyerOrderDocument?
 
-> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The buyer generated order document referenced in this header trade agreement.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/buyerReference
 
 ### buyerRequisitionerParty?
 
-> `optional` **buyerRequisitionerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **buyerRequisitionerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party who is a buyer requisitioner in this header trade agreement.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/buyerTaxRepresentativeParty
 
 ### carrierParty?
 
-> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The carrier party, at header level, for this trade agreement.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/carrierParty
 
 ### catalogueDocument?
 
-> `optional` **catalogueDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **catalogueDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A catalogue document referenced in this header trade agreement.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/catalogueInformationReceiverParty
 
 ### catalogueRequestDocument?
 
-> `optional` **catalogueRequestDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **catalogueRequestDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A catalogue request document referenced in this header trade agreement.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/catalogueRequestDocument
 
 ### catalogueSubscriptionDocument?
 
-> `optional` **catalogueSubscriptionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **catalogueSubscriptionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A catalogue subscription document referenced in this header trade agreement.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/catalogueSubscriptionDocument
 
 ### contractDocument?
 
-> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A contract document referenced in this header trade agreement.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/contractDocument
 
 ### demandForecastDocument?
 
-> `optional` **demandForecastDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **demandForecastDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A demand forecast document referenced in this header trade agreement.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/letterOfCreditDocument
 
 ### marketplaceOrderDocument?
 
-> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The marketplace generated order document referenced in this header trade agreement.
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/orderResponseDocument
 
 ### originalOrderDocument?
 
-> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The original order document referenced in this header trade agreement.
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/previousOrderChangeDocument
 
 ### previousOrderDocument?
 
-> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The previous order document referenced in this header trade agreement.
 
@@ -482,7 +482,7 @@ https://vocabulary.uncefact.org/priceListDocument
 
 ### pricingBaseApplicableLocation?
 
-> `optional` **pricingBaseApplicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **pricingBaseApplicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 The logistics location applicable to the pricing base for this header trade agreement.
 
@@ -494,7 +494,7 @@ https://vocabulary.uncefact.org/pricingBaseApplicableLocation
 
 ### primeContractSellerParty?
 
-> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The seller party acting as the prime contractor for this header trade agreement.
 
@@ -566,7 +566,7 @@ https://vocabulary.uncefact.org/promotionalDealDocument
 
 ### purchaseConditionsDocument?
 
-> `optional` **purchaseConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **purchaseConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A purchase conditions document referenced in this header trade agreement.
 
@@ -662,7 +662,7 @@ https://vocabulary.uncefact.org/reference
 
 ### relevantParty?
 
-> `optional` **relevantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **relevantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A relevant party for this header trade agreement.
 
@@ -674,7 +674,7 @@ https://vocabulary.uncefact.org/relevantParty
 
 ### requisitionDocument?
 
-> `optional` **requisitionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **requisitionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A requisition document referenced in this header trade agreement.
 
@@ -686,7 +686,7 @@ https://vocabulary.uncefact.org/requisitionDocument
 
 ### requisitionerDocument?
 
-> `optional` **requisitionerDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **requisitionerDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A requisitioner document referenced in this header trade agreement.
 
@@ -722,7 +722,7 @@ https://vocabulary.uncefact.org/salesAgentParty
 
 ### salesConditionsDocument?
 
-> `optional` **salesConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **salesConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A sales conditions document referenced in this header trade agreement.
 
@@ -758,7 +758,7 @@ https://vocabulary.uncefact.org/sellerAssignedAccountantParty
 
 ### sellerOrderDocument?
 
-> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The seller generated order document referenced in this header trade agreement.
 
@@ -770,7 +770,7 @@ https://vocabulary.uncefact.org/sellerOrderDocument
 
 ### sellerParty?
 
-> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The seller party for this header trade agreement.
 
@@ -818,7 +818,7 @@ https://vocabulary.uncefact.org/shippingPeriod
 
 ### specifiedProject?
 
-> `optional` **specifiedProject**: [`IUneceProject`](IUneceProject.md)
+> `optional` **specifiedProject**: [`IUneceProject`](IUneceProject.md)[]
 
 The procuring project specified for this header trade agreement.
 
@@ -830,7 +830,7 @@ https://vocabulary.uncefact.org/specifiedProject
 
 ### supplyInstructionDocument?
 
-> `optional` **supplyInstructionDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **supplyInstructionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A supply instruction document referenced in this header trade agreement.
 
@@ -842,7 +842,7 @@ https://vocabulary.uncefact.org/supplyInstructionDocument
 
 ### targetMarketCountry?
 
-> `optional` **targetMarketCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **targetMarketCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A target market country for this header trade agreement.
 
@@ -854,7 +854,7 @@ https://vocabulary.uncefact.org/targetMarketCountry
 
 ### ultimateCustomerOrderDocument?
 
-> `optional` **ultimateCustomerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **ultimateCustomerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An ultimate customer order document referenced for this header trade agreement.
 

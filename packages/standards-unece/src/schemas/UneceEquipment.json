@@ -100,7 +100,10 @@
 			"description": "An identifier of this OEM equipment."
 		},
 		"manufacturerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The manufacturer party for this OEM equipment."
 		},
 		"pollingCapabilityIndicator": {

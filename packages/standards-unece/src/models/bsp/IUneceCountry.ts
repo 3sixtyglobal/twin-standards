@@ -47,5 +47,5 @@ export interface IUneceCountry extends IJsonLdNodeObject {
 	 * A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
 	 * @see https://vocabulary.uncefact.org/subordinateCountrySubDivision
 	 */
-	subordinateCountrySubDivision?: IUneceCountrySubDivision;
+	subordinateCountrySubDivision?: IUneceCountrySubDivision[];
 }

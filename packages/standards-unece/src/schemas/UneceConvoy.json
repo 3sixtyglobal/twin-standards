@@ -104,11 +104,17 @@
 			"description": "The overall length measure of this logistics convoy."
 		},
 		"powerActiveTransportMeans": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportMeans",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportMeans"
+			},
 			"description": "A means of transport actively powering this logistics convoy."
 		},
 		"powerInactiveTransportMeans": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportMeans",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsTransportMeans"
+			},
 			"description": "A means of transport not actively powering this logistics convoy."
 		},
 		"transportMeansQuantity": {

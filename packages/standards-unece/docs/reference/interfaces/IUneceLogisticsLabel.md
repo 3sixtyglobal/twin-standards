@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedSection?
 
-> `optional` **includedSection**: [`IUneceSection`](IUneceSection.md)
+> `optional` **includedSection**: [`IUneceSection`](IUneceSection.md)[]
 
 A section included in this logistics label.
 

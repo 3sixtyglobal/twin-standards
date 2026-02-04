@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 The referenced standard that is applicable to this product classification.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### classCharacteristic?
 
-> `optional` **classCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
+> `optional` **classCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
 A product class characteristic for this product classification.
 

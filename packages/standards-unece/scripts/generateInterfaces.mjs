@@ -298,8 +298,8 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 			}
 		}
 
-		const isRequired = csvMappingProp?.minOccurs === '1';
-		const isArray = csvMappingProp?.maxOccurs === 'unbounded';
+		const isRequired = csvMappingProp?.occurrenceMin === '1';
+		const isArray = csvMappingProp?.occurrenceMax === 'unbounded';
 		let isPropDeprecated = false;
 
 		const jsonLdPropMapping = jsonLdMapping[propType];

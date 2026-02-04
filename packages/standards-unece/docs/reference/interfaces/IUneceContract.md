@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/signedDateTime
 
 ### signedLocation?
 
-> `optional` **signedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)
+> `optional` **signedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
 A location where this trade contract was or will be signed.
 

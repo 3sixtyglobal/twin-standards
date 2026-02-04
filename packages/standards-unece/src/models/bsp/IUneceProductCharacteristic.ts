@@ -36,25 +36,25 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * A condition applicable to this product characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableCondition
 	 */
-	applicableCondition?: IUneceProductCharacteristicCondition;
+	applicableCondition?: IUneceProductCharacteristicCondition[];
 
 	/**
 	 * A country applicable to this product characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableCountry
 	 */
-	applicableCountry?: IUneceCountry;
+	applicableCountry?: IUneceCountry[];
 
 	/**
 	 * The referenced standard that is applicable to this product characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A sustainability characteristic applicable to this product characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A code specifying the content type of this product characteristic.
@@ -138,7 +138,7 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * A method specified for a value of this product characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod;
+	valueMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * The value, expressed as a number, for this product characteristic.
@@ -150,17 +150,17 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for a value of this product characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter;
+	valueParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A range specified for a value of this product characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange;
+	valueRange?: IUneceRange[];
 
 	/**
 	 * A tolerance specified for a value of this product characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

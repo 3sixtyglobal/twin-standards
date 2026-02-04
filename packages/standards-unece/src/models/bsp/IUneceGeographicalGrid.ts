@@ -29,25 +29,25 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical grid.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified geographical grid.
 	 * @see https://vocabulary.uncefact.org/associatedLocation
 	 */
-	associatedLocation?: IUneceLogisticsLocation;
+	associatedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * An axis name, expressed as text, for this geographical grid.
 	 * @see https://vocabulary.uncefact.org/axisName
 	 */
-	axisName?: string;
+	axisName: string;
 
 	/**
 	 * The cell value, expressed as text, for this geographical grid.
 	 * @see https://vocabulary.uncefact.org/cell
 	 */
-	cell?: string;
+	cell: string;
 
 	/**
 	 * The dimension, expressed as a number, of this geographical grid.
@@ -60,7 +60,7 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * opposing corner of each axis.
 	 * @see https://vocabulary.uncefact.org/highLimit
 	 */
-	highLimit?: string;
+	highLimit: string;
 
 	/**
 	 * An identifier for this geographical grid.
@@ -73,7 +73,7 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * each axis.
 	 * @see https://vocabulary.uncefact.org/lowLimit
 	 */
-	lowLimit?: string;
+	lowLimit: string;
 
 	/**
 	 * The offset vector, expressed as a number, which indicates the offset of cells along each axis for this geographical
@@ -86,11 +86,11 @@ export interface IUneceGeographicalGrid extends IJsonLdNodeObject {
 	 * The direct position list associated with the origin of this geographical grid.
 	 * @see https://vocabulary.uncefact.org/originAssociatedDirectPositionList
 	 */
-	originAssociatedDirectPositionList?: string;
+	originAssociatedDirectPositionList: string;
 
 	/**
 	 * A crop plot specified for this geographical grid.
 	 * @see https://vocabulary.uncefact.org/specifiedPlot
 	 */
-	specifiedPlot?: IUnecePlot;
+	specifiedPlot?: IUnecePlot[];
 }

@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file attached to this specified inspection.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/reportedInspectionResult
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document for this specified inspection.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
 
 An inspection event for this specified inspection.
 

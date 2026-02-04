@@ -29,7 +29,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * A referenced standard associated to this specified licence.
 	 * @see https://vocabulary.uncefact.org/associatedStandard
 	 */
-	associatedStandard?: IUneceStandard;
+	associatedStandard?: IUneceStandard[];
 
 	/**
 	 * A code specifying an assurance level of this specified licence.
@@ -53,7 +53,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * A party granted this specified licence.
 	 * @see https://vocabulary.uncefact.org/grantedParty
 	 */
-	grantedParty?: IUneceTradeParty;
+	grantedParty?: IUneceTradeParty[];
 
 	/**
 	 * An identifier of this specified licence.
@@ -71,7 +71,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * The party that issues this specified licence.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty;
+	issuerParty?: IUneceTradeParty[];
 
 	/**
 	 * A name, expressed as text, for this specified licence.
@@ -83,7 +83,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * A code specifying a subject type for this licence.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList;
+	subjectTypeCode?: UneceSubjectCodeList[];
 
 	/**
 	 * A code specifying a type of licence.
@@ -101,5 +101,5 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * An object verified for this specified licence.
 	 * @see https://vocabulary.uncefact.org/verifiedObject
 	 */
-	verifiedObject?: IUneceObject;
+	verifiedObject?: IUneceObject[];
 }

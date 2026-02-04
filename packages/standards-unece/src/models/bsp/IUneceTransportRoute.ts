@@ -59,7 +59,7 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * An itinerary stop event for this transport route, such as a port call in a vessel schedule.
 	 * @see https://vocabulary.uncefact.org/itineraryStopEvent
 	 */
-	itineraryStopEvent?: IUneceTransportEvent;
+	itineraryStopEvent?: IUneceTransportEvent[];
 
 	/**
 	 * Binary object data that is the map of this transport route.

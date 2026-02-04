@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableMethod?
 
-> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
+> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
 A specified method applicable to this inspection result characteristic.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ### interpretationResultApplicableParameter?
 
-> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)
+> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)[]
 
 An applicable objective observation parameter of the interpretation result for this inspection result characteristic.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ### measuredAccuracyMeasure?
 
-> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 Accuracy, expressed as a measure, of the measurement for this inspection result characteristic.
 

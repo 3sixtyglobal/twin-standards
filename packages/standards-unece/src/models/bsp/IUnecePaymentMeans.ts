@@ -45,43 +45,43 @@ export interface IUnecePaymentMeans extends IJsonLdNodeObject {
 	 * A creditor financial institution specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/creditorSpecifiedFinancialInstitution
 	 */
-	creditorSpecifiedFinancialInstitution?: IUnecePaymentFinancialInstitution;
+	creditorSpecifiedFinancialInstitution?: IUnecePaymentFinancialInstitution[];
 
 	/**
 	 * A debtor financial institution specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/debtorSpecifiedFinancialInstitution
 	 */
-	debtorSpecifiedFinancialInstitution?: IUnecePaymentFinancialInstitution;
+	debtorSpecifiedFinancialInstitution?: IUnecePaymentFinancialInstitution[];
 
 	/**
 	 * A cash payment identified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/identifiedCash
 	 */
-	identifiedCash?: IUneceCash;
+	identifiedCash?: IUneceCash[];
 
 	/**
 	 * A cheque payment identified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/identifiedCheque
 	 */
-	identifiedCheque?: IUneceCheque;
+	identifiedCheque?: IUneceCheque[];
 
 	/**
 	 * A digital payment method identified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/identifiedDigitalMethod
 	 */
-	identifiedDigitalMethod?: IUneceDigitalMethod;
+	identifiedDigitalMethod?: IUneceDigitalMethod[];
 
 	/**
 	 * A financial card identified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/identifiedFinancialCard
 	 */
-	identifiedFinancialCard?: IUneceFinancialCard;
+	identifiedFinancialCard?: IUneceFinancialCard[];
 
 	/**
 	 * An experience item voucher identified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/identifiedVoucher
 	 */
-	identifiedVoucher?: IUneceVoucher;
+	identifiedVoucher?: IUneceVoucher[];
 
 	/**
 	 * Information, expressed as text, for this trade settlement payment means.
@@ -99,25 +99,25 @@ export interface IUnecePaymentMeans extends IJsonLdNodeObject {
 	 * A creditor financial account of the payee party for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payeePartyFinancialAccount
 	 */
-	payeePartyFinancialAccount?: IUneceCreditorFinancialAccount;
+	payeePartyFinancialAccount?: IUneceCreditorFinancialAccount[];
 
 	/**
 	 * The creditor financial institution of the payee party specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payeeSpecifiedFinancialInstitution
 	 */
-	payeeSpecifiedFinancialInstitution?: IUneceCreditorFinancialInstitution;
+	payeeSpecifiedFinancialInstitution?: IUneceCreditorFinancialInstitution[];
 
 	/**
 	 * The debtor financial account of the payer party for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payerPartyFinancialAccount
 	 */
-	payerPartyFinancialAccount?: IUneceDebtorFinancialAccount;
+	payerPartyFinancialAccount?: IUneceDebtorFinancialAccount[];
 
 	/**
 	 * The debtor financial institution of the payer party specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payerSpecifiedFinancialInstitution
 	 */
-	payerSpecifiedFinancialInstitution?: IUneceDebtorFinancialInstitution;
+	payerSpecifiedFinancialInstitution?: IUneceDebtorFinancialInstitution[];
 
 	/**
 	 * The code specifying the method of guarantee for this trade settlement payment means.
@@ -154,13 +154,13 @@ export interface IUnecePaymentMeans extends IJsonLdNodeObject {
 	 * A creditor financial account specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 	 */
-	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount;
+	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount[];
 
 	/**
 	 * A financial institution specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentFinancialInstitution
 	 */
-	specifiedPaymentFinancialInstitution?: IUnecePaymentFinancialInstitution;
+	specifiedPaymentFinancialInstitution?: IUnecePaymentFinancialInstitution[];
 
 	/**
 	 * An identifier for this trade settlement payment means.

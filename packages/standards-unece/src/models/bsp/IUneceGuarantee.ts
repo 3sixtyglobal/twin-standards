@@ -45,5 +45,5 @@ export interface IUneceGuarantee extends IJsonLdNodeObject {
 	 * A monetary value of a liability in this financial guarantee.
 	 * @see https://vocabulary.uncefact.org/liabilityAmount
 	 */
-	liabilityAmount?: IUneceAmountType;
+	liabilityAmount?: IUneceAmountType[];
 }

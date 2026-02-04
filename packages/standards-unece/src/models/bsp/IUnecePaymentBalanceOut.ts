@@ -26,7 +26,7 @@ export interface IUnecePaymentBalanceOut extends IJsonLdNodeObject {
 	 * A monetary value calculated for this payment balance out.
 	 * @see https://vocabulary.uncefact.org/calculatedAmount
 	 */
-	calculatedAmount?: IUneceAmountType;
+	calculatedAmount?: IUneceAmountType[];
 
 	/**
 	 * A textual description of this payment balance out.

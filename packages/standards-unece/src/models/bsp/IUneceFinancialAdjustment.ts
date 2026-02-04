@@ -38,7 +38,7 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * An actual monetary value added or subtracted as a result of this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/actualAmount
 	 */
-	actualAmount?: IUneceAmountType;
+	actualAmount?: IUneceAmountType[];
 
 	/**
 	 * The actual date, time, date time, or other date time value of this financial adjustment.
@@ -80,5 +80,5 @@ export interface IUneceFinancialAdjustment extends IJsonLdNodeObject {
 	 * A trade tax related to this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/relatedTax
 	 */
-	relatedTax?: IUneceTradeTax;
+	relatedTax?: IUneceTradeTax[];
 }

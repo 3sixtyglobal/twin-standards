@@ -54,7 +54,7 @@ export interface IUneceCreditorFinancialInstitution extends IJsonLdNodeObject {
 	 * The unique Bank Identification Code (BIC) as defined in ISO 9362 for this creditor financial institution.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId?: string;
+	bICId: string;
 
 	/**
 	 * The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by
@@ -68,7 +68,7 @@ export interface IUneceCreditorFinancialInstitution extends IJsonLdNodeObject {
 	 * by the New York Clearing House for this creditor financial institution.
 	 * @see https://vocabulary.uncefact.org/cHIPSUniversalId
 	 */
-	cHIPSUniversalId?: string;
+	cHIPSUniversalId: string;
 
 	/**
 	 * The unique Canadian Payments Association Routing Number identifier for this creditor financial institution.
@@ -201,7 +201,7 @@ export interface IUneceCreditorFinancialInstitution extends IJsonLdNodeObject {
 	 * A proprietary identity specified for this creditor financial institution.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
+	specifiedProprietaryIdentity: IUneceProprietaryIdentity[];
 
 	/**
 	 * The branch financial institution for this creditor financial institution.

@@ -132,7 +132,10 @@
 			"description": "The measure of a value for this agricultural characteristic."
 		},
 		"valueMethod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMethod"
+			},
 			"description": "A method specified for the value of this agricultural characteristic."
 		},
 		"valueNumeric": {
@@ -140,15 +143,24 @@
 			"description": "The value, expressed as a number, for this agricultural characteristic."
 		},
 		"valueParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedParameter"
+			},
 			"description": "A parameter specified for the value of this agricultural characteristic."
 		},
 		"valueRange": {
-			"$ref": "https://schema.twindev.org/unece/UneceRange",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRange"
+			},
 			"description": "A range specified for the value of this agricultural characteristic."
 		},
 		"valueTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "A tolerance specified for the value of this agricultural characteristic."
 		}
 	},

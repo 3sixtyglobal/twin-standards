@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableQuantityUnitTypeCode
 
 ### applicableSpecifiedNote?
 
-> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)
+> `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
 A note applicable for this experience product.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/brandName
 
 ### calculatedPrice?
 
-> `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 A calculated price for this experience product.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/description
 
 ### distinctiveFeature?
 
-> `optional` **distinctiveFeature**: [`IUneceSpecifiedFeature`](IUneceSpecifiedFeature.md)
+> `optional` **distinctiveFeature**: [`IUneceSpecifiedFeature`](IUneceSpecifiedFeature.md)[]
 
 A distinctive feature of this experience product.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedEvent?
 
-> `optional` **includedEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)
+> `optional` **includedEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)[]
 
 An event included within this experience product.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/objective
 
 ### operationalPeriod?
 
-> `optional` **operationalPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **operationalPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A operational period for this experience product.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/operationalPeriod
 
 ### optionalProduct?
 
-> `optional` **optionalProduct**: `IUneceExperienceProduct`
+> `optional` **optionalProduct**: `IUneceExperienceProduct`[]
 
 An optional product for this experience product.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/optionalProduct
 
 ### providedCertificate?
 
-> `optional` **providedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
+> `optional` **providedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
 A certificate provided for this experience product.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/providedCertificate
 
 ### providedRequirement?
 
-> `optional` **providedRequirement**: [`IUneceRequirement`](IUneceRequirement.md)
+> `optional` **providedRequirement**: [`IUneceRequirement`](IUneceRequirement.md)[]
 
 A requirement provided for this experience product.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/requiredReservationGuaranteeIndicator
 
 ### requiredUsageCondition?
 
-> `optional` **requiredUsageCondition**: [`IUneceUsageCondition`](IUneceUsageCondition.md)
+> `optional` **requiredUsageCondition**: [`IUneceUsageCondition`](IUneceUsageCondition.md)[]
 
 A required usage condition for this experience product.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/reservationGuarantee
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party specified for this experience product.
 

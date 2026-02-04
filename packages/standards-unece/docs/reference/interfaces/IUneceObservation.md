@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableNote?
 
-> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note providing information applicable to this specified observation.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### relatedBinaryFile?
 
-> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file related to this specified observation.
 

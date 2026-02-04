@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/financedRatePercent
 
 ### financedTotalAmount?
 
-> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the financed total amount in this financing request result document.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ### specifiedFinancingStatus?
 
-> `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)
+> `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)[]
 
 The financing status specified in this financing request result document.
 

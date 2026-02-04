@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableTechnicalCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic"
+			},
 			"description": "A technical characteristic applicable to this TT location."
 		},
 		"description": {
@@ -120,7 +123,10 @@
 			"description": "The party responsible for this TT location."
 		},
 		"specifiedAnimalHoldingEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAnimalHoldingEvent"
+			},
 			"description": "An animal holding event specified for this TT location."
 		},
 		"specifiedGeographicalArea": {
@@ -128,7 +134,10 @@
 			"description": "The geographical area specified for this TT location."
 		},
 		"specifiedTTAnimal": {
-			"$ref": "https://schema.twindev.org/unece/UneceTTAnimal",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTTAnimal"
+			},
 			"description": "An animal specified for this TT location."
 		}
 	},

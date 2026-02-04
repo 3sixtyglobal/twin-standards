@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### agentAssignedCustomerId?
+### agentAssignedCustomerId
 
-> `optional` **agentAssignedCustomerId**: `string`
+> **agentAssignedCustomerId**: `string`
 
 The agent assigned customer identifier for this financial identity.
 
@@ -61,9 +61,9 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### bICId?
+### bICId
 
-> `optional` **bICId**: `string`
+> **bICId**: `string`
 
 The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for
 this financial identity.
@@ -74,9 +74,9 @@ https://vocabulary.uncefact.org/bICId
 
 ***
 
-### bankAssignedId?
+### bankAssignedId
 
-> `optional` **bankAssignedId**: `string`
+> **bankAssignedId**: `string`
 
 The bank assigned identifier for this financial identity.
 
@@ -86,9 +86,9 @@ https://vocabulary.uncefact.org/bankAssignedId
 
 ***
 
-### cHIPSUniversalId?
+### cHIPSUniversalId
 
-> `optional` **cHIPSUniversalId**: `string`
+> **cHIPSUniversalId**: `string`
 
 The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the
 New York Clearing House for this financial identity.
@@ -99,9 +99,9 @@ https://vocabulary.uncefact.org/cHIPSUniversalId
 
 ***
 
-### iBEIId?
+### iBEIId
 
-> `optional` **iBEIId**: `string`
+> **iBEIId**: `string`
 
 The International Business Entity Identifier (IBEI) for this financial identity.
 

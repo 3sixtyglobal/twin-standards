@@ -58,7 +58,7 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * The inspection event specified for this procuring project.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent;
+	specifiedInspectionEvent?: IUneceInspectionEvent[];
 
 	/**
 	 * A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### attainedAcademicQualification?
 
-> `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)
+> `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)[]
 
 An academic qualification attained by this transport person.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### declaredPersonalEffects?
 
-> `optional` **declaredPersonalEffects**: [`IUnecePersonalEffects`](IUnecePersonalEffects.md)
+> `optional` **declaredPersonalEffects**: [`IUnecePersonalEffects`](IUnecePersonalEffects.md)[]
 
 Personal effects use declared by a transport person.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/disembarkationDateTime
 
 ### disembarkationLocation?
 
-> `optional` **disembarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **disembarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A disembarkation location for this transport person.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/disembarkationLocation
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 The email URI (Uniform Resource Identifier) communication for this transport person.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/embarkationDateTime
 
 ### embarkationLocation?
 
-> `optional` **embarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **embarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 An embarkation location for this transport person.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/givenName
 
 ### identifiedStowaway?
 
-> `optional` **identifiedStowaway**: [`IUneceStowaway`](IUneceStowaway.md)
+> `optional` **identifiedStowaway**: [`IUneceStowaway`](IUneceStowaway.md)[]
 
 A transport person identified as a found stowaway.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/inTransitIndicator
 
 ### landlineTelephoneCommunication?
 
-> `optional` **landlineTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **landlineTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Landline telephone communication information for this transport person.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/mobileTelephoneCommunication
 
 ### nationalityCountry?
 
-> `optional` **nationalityCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **nationalityCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A country that constitutes a nationality by origin, birth, or naturalization for this transport person.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/onboardIndicator
 
 ### partyRoleCode?
 
-> `optional` **partyRoleCode**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)
+> `optional` **partyRoleCode**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)[]
 
 A code specifying a role of this transport person.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/passengerId
 
 ### reportedIllness?
 
-> `optional` **reportedIllness**: [`IUneceIllness`](IUneceIllness.md)
+> `optional` **reportedIllness**: [`IUneceIllness`](IUneceIllness.md)[]
 
 An MDH (Maritime Declaration of Health) reported illness or disease for this transport person.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/role
 
 ### specificAccreditation?
 
-> `optional` **specificAccreditation**: [`IUneceAccreditation`](IUneceAccreditation.md)
+> `optional` **specificAccreditation**: [`IUneceAccreditation`](IUneceAccreditation.md)[]
 
 A certified accreditation specific to this transport person.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/specificAccreditation
 
 ### transportPersonLanguageId?
 
-> `optional` **transportPersonLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)
+> `optional` **transportPersonLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)[]
 
 A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/transportPersonName
 
 ### travelIdentityDocument?
 
-> `optional` **travelIdentityDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **travelIdentityDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced travel identity document for this transport person.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/travelIdentityDocument
 
 ### travelVisaDocument?
 
-> `optional` **travelVisaDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **travelVisaDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced travel visa document for this transport person.
 

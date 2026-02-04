@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this trade product certification."
 		},
 		"assertion": {
@@ -108,7 +111,10 @@
 			"description": "A code specifying an assertion for this trade product certification, such as claims that a product is free from peanuts."
 		},
 		"relatedLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLocation"
+			},
 			"description": "A referenced location related to this trade product certification."
 		},
 		"responsibleAgency": {

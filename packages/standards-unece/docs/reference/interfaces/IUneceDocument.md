@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/acceptanceDateTime
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A specified binary file attached to this referenced document.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/communicationChannelCode
 
 ### contractualClause?
 
-> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)
+> `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)[]
 
 A contractual clause of this referenced document.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedAmount?
 
-> `optional` **includedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **includedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value included in this referenced document.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/includedAmount
 
 ### includedNote?
 
-> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note included in this referenced document.
 
@@ -384,9 +384,9 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ***
 
-### issuerAssignedId?
+### issuerAssignedId
 
-> `optional` **issuerAssignedId**: `string`
+> **issuerAssignedId**: `string`
 
 The unique issuer assigned identifier for this referenced document.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/issuerAssignedId
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The trade related party that issues this referenced document.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ### issuerSpecifiedInstructions?
 
-> `optional` **issuerSpecifiedInstructions**: [`IUneceDocumentHandlingInstructions`](IUneceDocumentHandlingInstructions.md)
+> `optional` **issuerSpecifiedInstructions**: [`IUneceDocumentHandlingInstructions`](IUneceDocumentHandlingInstructions.md)[]
 
 Handling instructions specified by the issuer for this referenced document.
 
@@ -540,9 +540,9 @@ https://vocabulary.uncefact.org/pageId
 
 ***
 
-### previousRevisionId?
+### previousRevisionId
 
-> `optional` **previousRevisionId**: `string`
+> **previousRevisionId**: `string`
 
 An identifier for a previous revision of this referenced document.
 
@@ -600,9 +600,9 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ***
 
-### recipientTradeParty?
+### recipientTradeParty
 
-> `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade related party that receives this referenced document.
 
@@ -624,9 +624,9 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ***
 
-### referenceRelationshipTypeCode?
+### referenceRelationshipTypeCode
 
-> `optional` **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
+> **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
 The code specifying the type of relationship between this referenced document and another artefact, such as a
 replacement of an original document.
@@ -733,9 +733,9 @@ https://vocabulary.uncefact.org/senderTradeParty
 
 ***
 
-### signatoryAuthentication?
+### signatoryAuthentication
 
-> `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
+> **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
 
 A signatory authentication for this referenced document.
 
@@ -747,7 +747,7 @@ https://vocabulary.uncefact.org/signatoryAuthentication
 
 ### specifiedDocumentStatus?
 
-> `optional` **specifiedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)
+> `optional` **specifiedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)[]
 
 Status information specified for this referenced document.
 

@@ -33,11 +33,11 @@ export interface IUneceGeographicalMultiPoint extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this geographical multi-point.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A geographical point member of this geographical multi-point feature.
 	 * @see https://vocabulary.uncefact.org/memberGeographicalPoint
 	 */
-	memberGeographicalPoint?: IUneceGeographicalPoint;
+	memberGeographicalPoint?: IUneceGeographicalPoint[];
 }

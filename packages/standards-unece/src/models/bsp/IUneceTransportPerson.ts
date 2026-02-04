@@ -36,7 +36,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * An academic qualification attained by this transport person.
 	 * @see https://vocabulary.uncefact.org/attainedAcademicQualification
 	 */
-	attainedAcademicQualification?: IUneceAcademicQualification;
+	attainedAcademicQualification?: IUneceAcademicQualification[];
 
 	/**
 	 * The identifier of the birth country of this transport person.
@@ -78,7 +78,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * Personal effects use declared by a transport person.
 	 * @see https://vocabulary.uncefact.org/declaredPersonalEffects
 	 */
-	declaredPersonalEffects?: IUnecePersonalEffects;
+	declaredPersonalEffects?: IUnecePersonalEffects[];
 
 	/**
 	 * A date, time, date time, or other date time value that this person disembarked from a means of transport.
@@ -90,13 +90,13 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A disembarkation location for this transport person.
 	 * @see https://vocabulary.uncefact.org/disembarkationLocation
 	 */
-	disembarkationLocation?: IUneceLogisticsLocation;
+	disembarkationLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The email URI (Uniform Resource Identifier) communication for this transport person.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication;
+	emailURICommunication?: IUneceCommunication[];
 
 	/**
 	 * A date, time, date time, or other date time value that this person embarked upon a means of transport.
@@ -108,7 +108,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * An embarkation location for this transport person.
 	 * @see https://vocabulary.uncefact.org/embarkationLocation
 	 */
-	embarkationLocation?: IUneceLogisticsLocation;
+	embarkationLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A family name, expressed as text, for this transport person.
@@ -132,7 +132,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A transport person identified as a found stowaway.
 	 * @see https://vocabulary.uncefact.org/identifiedStowaway
 	 */
-	identifiedStowaway?: IUneceStowaway;
+	identifiedStowaway?: IUneceStowaway[];
 
 	/**
 	 * The unique identifier for this transport person.
@@ -150,7 +150,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * Landline telephone communication information for this transport person.
 	 * @see https://vocabulary.uncefact.org/landlineTelephoneCommunication
 	 */
-	landlineTelephoneCommunication?: IUneceCommunication;
+	landlineTelephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * Mobile telephone communication information for this transport person.
@@ -162,7 +162,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A country that constitutes a nationality by origin, birth, or naturalization for this transport person.
 	 * @see https://vocabulary.uncefact.org/nationalityCountry
 	 */
-	nationalityCountry?: IUneceCountry;
+	nationalityCountry?: IUneceCountry[];
 
 	/**
 	 * The indication of whether or not this person is onboard a means of transport.
@@ -174,7 +174,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A code specifying a role of this transport person.
 	 * @see https://vocabulary.uncefact.org/partyRoleCode
 	 */
-	partyRoleCode?: UnecePartyRoleCodeList;
+	partyRoleCode?: UnecePartyRoleCodeList[];
 
 	/**
 	 * A passenger identifier for this transport person.
@@ -186,7 +186,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * An MDH (Maritime Declaration of Health) reported illness or disease for this transport person.
 	 * @see https://vocabulary.uncefact.org/reportedIllness
 	 */
-	reportedIllness?: IUneceIllness;
+	reportedIllness?: IUneceIllness[];
 
 	/**
 	 * A role, expressed as text, of this transport person.
@@ -198,13 +198,13 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A certified accreditation specific to this transport person.
 	 * @see https://vocabulary.uncefact.org/specificAccreditation
 	 */
-	specificAccreditation?: IUneceAccreditation;
+	specificAccreditation?: IUneceAccreditation[];
 
 	/**
 	 * A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 	 * @see https://vocabulary.uncefact.org/transportPersonLanguageId
 	 */
-	transportPersonLanguageId?: UneceLanguageId;
+	transportPersonLanguageId?: UneceLanguageId[];
 
 	/**
 	 * The name or set of names, expressed as text, by which this transport person is known.
@@ -216,11 +216,11 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * A referenced travel identity document for this transport person.
 	 * @see https://vocabulary.uncefact.org/travelIdentityDocument
 	 */
-	travelIdentityDocument?: IUneceDocument;
+	travelIdentityDocument?: IUneceDocument[];
 
 	/**
 	 * A referenced travel visa document for this transport person.
 	 * @see https://vocabulary.uncefact.org/travelVisaDocument
 	 */
-	travelVisaDocument?: IUneceDocument;
+	travelVisaDocument?: IUneceDocument[];
 }

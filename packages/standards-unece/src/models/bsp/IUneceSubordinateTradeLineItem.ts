@@ -33,7 +33,7 @@ export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
 	 * A product applicable for this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/applicableProduct
 	 */
-	applicableProduct?: IUneceTradeProduct;
+	applicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * The code specifying the category of this subordinate trade line item.
@@ -63,7 +63,7 @@ export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
 	 * A note included in this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote;
+	includedNote?: IUneceNote[];
 
 	/**
 	 * The code specifying the type of response requested for this subordinate trade line item.
@@ -93,11 +93,11 @@ export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
 	 * The delivery specified for this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedSubordinateLineTradeDelivery
 	 */
-	specifiedSubordinateLineTradeDelivery?: IUneceSubordinateLineTradeDelivery;
+	specifiedSubordinateLineTradeDelivery?: IUneceSubordinateLineTradeDelivery[];
 
 	/**
 	 * A trade settlement specified for this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedSubordinateLineTradeSettlement
 	 */
-	specifiedSubordinateLineTradeSettlement?: IUneceSubordinateLineTradeSettlement;
+	specifiedSubordinateLineTradeSettlement?: IUneceSubordinateLineTradeSettlement[];
 }

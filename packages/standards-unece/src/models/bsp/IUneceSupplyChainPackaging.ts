@@ -47,25 +47,25 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * Disposal instructions for this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableDisposalInstructions
 	 */
-	applicableDisposalInstructions?: IUneceDisposalInstructions;
+	applicableDisposalInstructions?: IUneceDisposalInstructions[];
 
 	/**
 	 * Material goods characteristic applicable to this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 	 */
-	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic;
+	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic[];
 
 	/**
 	 * Packaging instructions applicable to this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicablePackagingInstructions
 	 */
-	applicablePackagingInstructions?: IUnecePackagingInstructions;
+	applicablePackagingInstructions?: IUnecePackagingInstructions[];
 
 	/**
 	 * Returnable asset instructions for this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/applicableReturnableAssetInstructions
 	 */
-	applicableReturnableAssetInstructions?: IUneceReturnableAssetInstructions;
+	applicableReturnableAssetInstructions?: IUneceReturnableAssetInstructions[];
 
 	/**
 	 * The measure of the capacity of this supply chain packaging.
@@ -127,7 +127,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * The maximum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/maximumLinearDimension
 	 */
-	maximumLinearDimension?: IUneceSpatialDimension;
+	maximumLinearDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * The number of units of this type of supply chain packaging which can be stacked on top of each other.
@@ -145,7 +145,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * The minimum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/minimumLinearDimension
 	 */
-	minimumLinearDimension?: IUneceSpatialDimension;
+	minimumLinearDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * The code specifying the type of supply chain packaging.
@@ -194,7 +194,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * quality, manufacture or origin.
 	 * @see https://vocabulary.uncefact.org/specifiedMarking
 	 */
-	specifiedMarking?: IUneceMarking;
+	specifiedMarking?: IUneceMarking[];
 
 	/**
 	 * The code specifying a level for this supply chain packaging.

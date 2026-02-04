@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### automaticDataCaptureMethodTypeCode?
 
-> `optional` **automaticDataCaptureMethodTypeCode**: [`UneceAutomaticDataCaptureMethodCodeList`](../type-aliases/UneceAutomaticDataCaptureMethodCodeList.md)
+> `optional` **automaticDataCaptureMethodTypeCode**: [`UneceAutomaticDataCaptureMethodCodeList`](../type-aliases/UneceAutomaticDataCaptureMethodCodeList.md)[]
 
 A code specifying an automatic data capture method type for this packaging marking.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/content
 
 ### contentAmount?
 
-> `optional` **contentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **contentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 Content, expressed as a monetary amount, for this packaging marking.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/packagingMarkingBarcodeTypeCode
 
 ### packagingMarkingTypeCode?
 
-> `optional` **packagingMarkingTypeCode**: [`UnecePackagingMarkingCodeList`](../type-aliases/UnecePackagingMarkingCodeList.md)
+> `optional` **packagingMarkingTypeCode**: [`UnecePackagingMarkingCodeList`](../type-aliases/UnecePackagingMarkingCodeList.md)[]
 
 A code specifying a type of packaging marking.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/packagingMarkingTypeCode
 
 ### specifiedLogisticsLabel?
 
-> `optional` **specifiedLogisticsLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)
+> `optional` **specifiedLogisticsLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 A logistics label specified for this packaging marking.
 

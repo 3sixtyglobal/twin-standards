@@ -75,7 +75,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A trade contract agreed with this trade party.
 	 * @see https://vocabulary.uncefact.org/agreedContract
 	 */
-	agreedContract?: IUneceContract;
+	agreedContract?: IUneceContract[];
 
 	/**
 	 * An alliance name, expressed as text, for this trade party.
@@ -87,116 +87,116 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * An assessment applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableAssessment
 	 */
-	applicableAssessment?: IUneceAssessment;
+	applicableAssessment?: IUneceAssessment[];
 
 	/**
 	 * A specified declaration applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableDeclaration
 	 */
-	applicableDeclaration?: IUneceSpecifiedDeclaration;
+	applicableDeclaration?: IUneceSpecifiedDeclaration[];
 
 	/**
 	 * A specified licence applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableLicence
 	 */
-	applicableLicence?: IUneceLicence;
+	applicableLicence?: IUneceLicence[];
 
 	/**
 	 * An organizational certificate applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableOrganizationalCertificate
 	 */
-	applicableOrganizationalCertificate?: IUneceOrganizationalCertificate;
+	applicableOrganizationalCertificate?: IUneceOrganizationalCertificate[];
 
 	/**
 	 * An organizational certification applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableOrganizationalCertification
 	 */
-	applicableOrganizationalCertification?: IUneceOrganizationalCertification;
+	applicableOrganizationalCertification?: IUneceOrganizationalCertification[];
 
 	/**
 	 * A process certificate applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCertificate
 	 */
-	applicableProcessCertificate?: IUneceProcessCertificate;
+	applicableProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A product batch certificate applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableProductBatchCertificate
 	 */
-	applicableProductBatchCertificate?: IUneceProductBatchCertificate;
+	applicableProductBatchCertificate?: IUneceProductBatchCertificate[];
 
 	/**
 	 * A product certificate applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate;
+	applicableProductCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * A logistics service charge applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableServiceCharge
 	 */
-	applicableServiceCharge?: IUneceServiceCharge;
+	applicableServiceCharge?: IUneceServiceCharge[];
 
 	/**
 	 * A certificate applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 	 */
-	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate;
+	applicableSpecifiedCertificate?: IUneceSpecifiedCertificate[];
 
 	/**
 	 * A specified inspection applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
 
 	/**
 	 * A sustainability characteristic applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A sustainability inspection applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
 
 	/**
 	 * A technical characteristic applicable to this trade party.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
 
 	/**
 	 * A membership associated with this trade party.
 	 * @see https://vocabulary.uncefact.org/associatedMembership
 	 */
-	associatedMembership?: IUneceMembership;
+	associatedMembership?: IUneceMembership[];
 
 	/**
 	 * A party associated with this trade party, such as a local agent of a shipping line.
 	 * @see https://vocabulary.uncefact.org/associatedParty
 	 */
-	associatedParty?: IUneceTradeParty;
+	associatedParty?: IUneceTradeParty[];
 
 	/**
 	 * A trade party associated with this trade party to whom incoming mail is marked with words such as 'for the attention of'
 	 * or 'FAO' or 'ATTN'.
 	 * @see https://vocabulary.uncefact.org/attentionOfAssociatedParty
 	 */
-	attentionOfAssociatedParty?: IUneceTradeParty;
+	attentionOfAssociatedParty?: IUneceTradeParty[];
 
 	/**
 	 * An experience item available for this trade party.
 	 * @see https://vocabulary.uncefact.org/availableExperienceItem
 	 */
-	availableExperienceItem?: IUneceExperienceItem;
+	availableExperienceItem?: IUneceExperienceItem[];
 
 	/**
 	 * An experience facility made available for or by this trade party.
 	 * @see https://vocabulary.uncefact.org/availableFacility
 	 */
-	availableFacility?: IUneceExperienceFacility;
+	availableFacility?: IUneceExperienceFacility[];
 
 	/**
 	 * A brand name, expressed as text, for this trade party.
@@ -226,25 +226,25 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * Personal language proficiency skills claimed by this trade party.
 	 * @see https://vocabulary.uncefact.org/claimedLanguageProficiency
 	 */
-	claimedLanguageProficiency?: IUneceLanguageProficiency;
+	claimedLanguageProficiency?: IUneceLanguageProficiency[];
 
 	/**
 	 * A commented review note specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/commentedReviewNote
 	 */
-	commentedReviewNote?: IUneceSpecifiedNote;
+	commentedReviewNote?: IUneceSpecifiedNote[];
 
 	/**
 	 * A confirmed document authentication for this trade party.
 	 * @see https://vocabulary.uncefact.org/confirmedAuthentication
 	 */
-	confirmedAuthentication?: IUneceAuthentication;
+	confirmedAuthentication?: IUneceAuthentication[];
 
 	/**
 	 * A cooperative information source specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/cooperativeInformationSource
 	 */
-	cooperativeInformationSource?: IUneceInformationSource;
+	cooperativeInformationSource?: IUneceInformationSource[];
 
 	/**
 	 * The unique Department Of Defense Activity Address Code (DODAAC) identifier for this trade party.
@@ -262,7 +262,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A trade contact defined for this trade party.
 	 * @see https://vocabulary.uncefact.org/definedContact
 	 */
-	definedContact?: IUneceTradeContact;
+	definedContact?: IUneceTradeContact[];
 
 	/**
 	 * A textual description of this trade party.
@@ -280,7 +280,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * The email communication for this trade party.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication;
+	emailURICommunication?: IUneceCommunication[];
 
 	/**
 	 * The communication address of the end point URI for this trade party.
@@ -292,7 +292,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A fax communication for this trade party.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication;
+	faxCommunication?: IUneceCommunication[];
 
 	/**
 	 * A Global Location Number (GLN) identifier for this trade party.
@@ -322,7 +322,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A file containing a specified binary representation of a logo associated with this trade party.
 	 * @see https://vocabulary.uncefact.org/logoAssociatedBinaryFile
 	 */
-	logoAssociatedBinaryFile?: IUneceBinaryFile;
+	logoAssociatedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * The referenced logo document for this trade party.
@@ -346,31 +346,31 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A code specifying the role of this trade party.
 	 * @see https://vocabulary.uncefact.org/partyRoleCode
 	 */
-	partyRoleCode?: UnecePartyRoleCodeList;
+	partyRoleCode?: UnecePartyRoleCodeList[];
 
 	/**
 	 * A code specifying the type of trade party that is independent of its role.
 	 * @see https://vocabulary.uncefact.org/partyTypeCode
 	 */
-	partyTypeCode?: UnecePartyTypeCodeList;
+	partyTypeCode?: UnecePartyTypeCodeList[];
 
 	/**
 	 * The postal address for this trade party.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress;
+	postalAddress?: IUneceTradeAddress[];
 
 	/**
 	 * A production process provided by this trade party.
 	 * @see https://vocabulary.uncefact.org/providedProcess
 	 */
-	providedProcess?: IUneceProductionProcess;
+	providedProcess?: IUneceProductionProcess[];
 
 	/**
 	 * A transport service provided by this trade party.
 	 * @see https://vocabulary.uncefact.org/providedService
 	 */
-	providedService?: IUneceService;
+	providedService?: IUneceService[];
 
 	/**
 	 * The indication of whether or not this trade party is quality assured.
@@ -394,19 +394,19 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A product batch related to this trade party.
 	 * @see https://vocabulary.uncefact.org/relatedBatch
 	 */
-	relatedBatch?: IUneceProductBatch;
+	relatedBatch?: IUneceProductBatch[];
 
 	/**
 	 * Material related to this trade party.
 	 * @see https://vocabulary.uncefact.org/relatedMaterial
 	 */
-	relatedMaterial?: IUneceSpecifiedMaterial;
+	relatedMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An experience item requested for or by this trade party.
 	 * @see https://vocabulary.uncefact.org/requestedExperienceItem
 	 */
-	requestedExperienceItem?: IUneceExperienceItem;
+	requestedExperienceItem?: IUneceExperienceItem[];
 
 	/**
 	 * A referenced notification document requested by this trade party.
@@ -418,7 +418,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * An experience item reserved for or by this trade party.
 	 * @see https://vocabulary.uncefact.org/reservedExperienceItem
 	 */
-	reservedExperienceItem?: IUneceExperienceItem;
+	reservedExperienceItem?: IUneceExperienceItem[];
 
 	/**
 	 * A role, expressed as text, for this trade party.
@@ -436,7 +436,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * An experience item wish list searched for or by this trade party.
 	 * @see https://vocabulary.uncefact.org/searchedWishListExperienceItem
 	 */
-	searchedWishListExperienceItem?: IUneceExperienceItem;
+	searchedWishListExperienceItem?: IUneceExperienceItem[];
 
 	/**
 	 * The sustainability assertion specified for this trade party.
@@ -466,25 +466,25 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A creditor financial institution specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialInstitution
 	 */
-	specifiedCreditorFinancialInstitution?: IUneceCreditorFinancialInstitution;
+	specifiedCreditorFinancialInstitution?: IUneceCreditorFinancialInstitution[];
 
 	/**
 	 * A production facility specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedFacility
 	 */
-	specifiedFacility?: IUneceProductionFacility;
+	specifiedFacility?: IUneceProductionFacility[];
 
 	/**
 	 * The financial identity specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialIdentity
 	 */
-	specifiedFinancialIdentity?: IUneceFinancialIdentity;
+	specifiedFinancialIdentity: IUneceFinancialIdentity[];
 
 	/**
 	 * A governmental registration specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedGovernmentRegistration
 	 */
-	specifiedGovernmentRegistration?: IUneceGovernmentRegistration;
+	specifiedGovernmentRegistration?: IUneceGovernmentRegistration[];
 
 	/**
 	 * A guest person specified by this trade party.
@@ -508,31 +508,31 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A proprietary identity specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity?: IUneceProprietaryIdentity;
+	specifiedProprietaryIdentity: IUneceProprietaryIdentity[];
 
 	/**
 	 * A result of a logistics risk analysis calculation specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 	 */
-	specifiedRiskAnalysisResult?: IUneceRiskAnalysisResult;
+	specifiedRiskAnalysisResult?: IUneceRiskAnalysisResult[];
 
 	/**
 	 * A tax registration specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedTaxRegistration
 	 */
-	specifiedTaxRegistration?: IUneceTaxRegistration;
+	specifiedTaxRegistration?: IUneceTaxRegistration[];
 
 	/**
 	 * A product specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeProduct
 	 */
-	specifiedTradeProduct?: IUneceTradeProduct;
+	specifiedTradeProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A subcontractor for this trade party.
 	 * @see https://vocabulary.uncefact.org/subcontractorParty
 	 */
-	subcontractorParty?: IUneceTradeParty;
+	subcontractorParty?: IUneceTradeParty[];
 
 	/**
 	 * A telephone communication for this trade party.
@@ -544,7 +544,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A code specifying a language for this trade party.
 	 * @see https://vocabulary.uncefact.org/tradePartyLanguageCode
 	 */
-	tradePartyLanguageCode?: UneceLanguageCodeList;
+	tradePartyLanguageCode?: UneceLanguageCodeList[];
 
 	/**
 	 * A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.

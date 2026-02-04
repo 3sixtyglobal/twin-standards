@@ -128,11 +128,17 @@
 			"description": "The identifier for the sales note for this animal batch."
 		},
 		"specifiedDelimitedPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
+			},
 			"description": "The delimited period specified for this animal batch."
 		},
 		"specifiedPeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDelimitedPeriod"
+			},
 			"description": "The delimited period specified for this animal batch."
 		},
 		"unitQuantity": {

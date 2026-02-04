@@ -38,13 +38,13 @@ export interface IUneceAppliedChemicalTreatment extends IJsonLdNodeObject {
 	 * A period during which this chemical treatment is applied.
 	 * @see https://vocabulary.uncefact.org/appliedPeriod
 	 */
-	appliedPeriod?: IUneceSpecifiedPeriod;
+	appliedPeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * A measure of the chemical concentration of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/chemicalConcentrationMeasure
 	 */
-	chemicalConcentrationMeasure?: IUneceMeasureType;
+	chemicalConcentrationMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The name, expressed as text, of the method of this applied chemical treatment.
@@ -80,11 +80,11 @@ export interface IUneceAppliedChemicalTreatment extends IJsonLdNodeObject {
 	 * A measure of the chemical concentration of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/unitChemicalConcentrationMeasure
 	 */
-	unitChemicalConcentrationMeasure?: IUneceUnitMeasureType;
+	unitChemicalConcentrationMeasure?: IUneceUnitMeasureType[];
 
 	/**
 	 * A chemical used during this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/usedChemical
 	 */
-	usedChemical?: IUneceChemical;
+	usedChemical?: IUneceChemical[];
 }

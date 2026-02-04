@@ -33,37 +33,37 @@ export interface IUneceColour extends IJsonLdNodeObject {
 	 * A production machine applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableMachine
 	 */
-	applicableMachine?: IUneceMachine;
+	applicableMachine?: IUneceMachine[];
 
 	/**
 	 * Specified material applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableMaterial
 	 */
-	applicableMaterial?: IUneceSpecifiedMaterial;
+	applicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A specified method applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableMethod
 	 */
-	applicableMethod?: IUneceSpecifiedMethod;
+	applicableMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * A production device applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableProductionDevice
 	 */
-	applicableProductionDevice?: IUneceProductionDevice;
+	applicableProductionDevice?: IUneceProductionDevice[];
 
 	/**
 	 * A referenced standard applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A technical characteristic applicable to this product colour.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
 
 	/**
 	 * A textual description of this product colour.
@@ -93,13 +93,13 @@ export interface IUneceColour extends IJsonLdNodeObject {
 	 * A trade party related to this product colour.
 	 * @see https://vocabulary.uncefact.org/relatedParty
 	 */
-	relatedParty?: IUneceTradeParty;
+	relatedParty?: IUneceTradeParty[];
 
 	/**
 	 * A referenced document specified for this product colour.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * The indication of whether or not this product colour is a test.

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### acceptedTransactionOriginalTotalAmount?
 
-> `optional` **acceptedTransactionOriginalTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **acceptedTransactionOriginalTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 An original total monetary value of accepted transactions in this financing summary document.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/financedAppliedRatePercent
 
 ### financedTotalAmount?
 
-> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A financed total monetary value in this financing summary document.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/relatedBooking
 
 ### specifiedCreditorFinancialAccount?
 
-> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
+> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
 
 The creditor financial account, used for crediting, specified for this financing summary document.
 

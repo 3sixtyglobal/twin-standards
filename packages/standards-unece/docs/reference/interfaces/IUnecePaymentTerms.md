@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicablePaymentDiscountTerms?
 
-> `optional` **applicablePaymentDiscountTerms**: [`IUnecePaymentDiscountTerms`](IUnecePaymentDiscountTerms.md)
+> `optional` **applicablePaymentDiscountTerms**: [`IUnecePaymentDiscountTerms`](IUnecePaymentDiscountTerms.md)[]
 
 Trade payment discount terms applicable to these trade payment terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicablePaymentDiscountTerms
 
 ### applicablePaymentPenaltyTerms?
 
-> `optional` **applicablePaymentPenaltyTerms**: [`IUnecePaymentPenaltyTerms`](IUnecePaymentPenaltyTerms.md)
+> `optional` **applicablePaymentPenaltyTerms**: [`IUnecePaymentPenaltyTerms`](IUnecePaymentPenaltyTerms.md)[]
 
 Trade payment penalty terms applicable to these trade payment terms.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/durationUnitDurationMeasure
 
 ### equivalentAmount?
 
-> `optional` **equivalentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **equivalentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 An equivalent monetary value to be transferred between debtor and creditor before deduction of charges for these trade
 payment terms, expressed in the currency of the debtor's account which is different from the currency in which it is to
@@ -137,7 +137,7 @@ https://vocabulary.uncefact.org/information
 
 ### instructedAmount?
 
-> `optional` **instructedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **instructedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that has been instructed to be transferred between debtor and creditor for these trade payment terms
 before deduction of charges.
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/instructionCode
 
 ### partialPaymentAmount?
 
-> `optional` **partialPaymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **partialPaymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a partial payment in these trade payment terms.
 
@@ -186,7 +186,7 @@ https://vocabulary.uncefact.org/partialPaymentPercent
 
 ### payeeParty?
 
-> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A payee party in these trade payment terms.
 
@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/paymentTermsEventTimeReferenceFromEventCode
 
 ### paymentTermsId?
 
-> `optional` **paymentTermsId**: [`UnecePaymentTermsId`](../type-aliases/UnecePaymentTermsId.md)
+> `optional` **paymentTermsId**: [`UnecePaymentTermsId`](../type-aliases/UnecePaymentTermsId.md)[]
 
 The unique identifier of these trade payment terms.
 

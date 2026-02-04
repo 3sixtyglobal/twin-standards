@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/restriction
 
 ### specificationNote?
 
-> `optional` **specificationNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)
+> `optional` **specificationNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
 A specification note for this guest carried equipment.
 

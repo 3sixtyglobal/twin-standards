@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableRadioactiveIsotope?
 
-> `optional` **applicableRadioactiveIsotope**: [`IUneceRadioactiveIsotope`](IUneceRadioactiveIsotope.md)
+> `optional` **applicableRadioactiveIsotope**: [`IUneceRadioactiveIsotope`](IUneceRadioactiveIsotope.md)[]
 
 An isotope applicable to this radioactive material.
 

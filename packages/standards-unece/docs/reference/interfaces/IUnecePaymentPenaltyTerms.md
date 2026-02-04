@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualPenaltyAmount?
 
-> `optional` **actualPenaltyAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **actualPenaltyAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the actual penalty in these trade payment penalty terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualPenaltyAmount
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value used as a basis to calculate these trade payment penalty terms.
 

@@ -104,19 +104,31 @@
 			"description": "The indication of whether or not there is an additional instruction for this supply chain packaging."
 		},
 		"applicableDisposalInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceDisposalInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDisposalInstructions"
+			},
 			"description": "Disposal instructions for this supply chain packaging."
 		},
 		"applicableGoodsCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceGoodsCharacteristic"
+			},
 			"description": "Material goods characteristic applicable to this supply chain packaging."
 		},
 		"applicablePackagingInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackagingInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackagingInstructions"
+			},
 			"description": "Packaging instructions applicable to this supply chain packaging."
 		},
 		"applicableReturnableAssetInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UneceReturnableAssetInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceReturnableAssetInstructions"
+			},
 			"description": "Returnable asset instructions for this supply chain packaging."
 		},
 		"capacityMeasure": {
@@ -156,7 +168,10 @@
 			"description": "The linear spatial dimensions of this supply chain packaging."
 		},
 		"maximumLinearDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension"
+			},
 			"description": "The maximum linear spatial dimensions of this supply chain packaging."
 		},
 		"maximumStackabilityQuantity": {
@@ -168,7 +183,10 @@
 			"description": "The measure of the maximum stackability weight of this supply chain packaging."
 		},
 		"minimumLinearDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension"
+			},
 			"description": "The minimum linear spatial dimensions of this supply chain packaging."
 		},
 		"packageTypeCode": {
@@ -200,7 +218,10 @@
 			"description": "The number of a sequence of the supply chain packaging."
 		},
 		"specifiedMarking": {
-			"$ref": "https://schema.twindev.org/unece/UneceMarking",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMarking"
+			},
 			"description": "A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership, quality, manufacture or origin."
 		},
 		"supplyChainPackagingLevelCode": {

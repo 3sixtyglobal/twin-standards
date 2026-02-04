@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/actualObservationStartDateTime
 
 ### applicableMethod?
 
-> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
+> `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
 A specified method applicable to this sample observation result.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ### attachedLaboratoryObservationNote?
 
-> `optional` **attachedLaboratoryObservationNote**: [`IUneceLaboratoryObservationNote`](IUneceLaboratoryObservationNote.md)
+> `optional` **attachedLaboratoryObservationNote**: [`IUneceLaboratoryObservationNote`](IUneceLaboratoryObservationNote.md)[]
 
 A note attached to the laboratory observation results with additional observations and or conclusions.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/emergencyObservationIndicator
 
 ### expectedValueSpecifiedObservationResultCharacteristic?
 
-> `optional` **expectedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)
+> `optional` **expectedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
 An expected value for the characteristic, to be observed or measured according to the specified type of observation for
 this sample observation result.
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### interpretationResultApplicableParameter?
 
-> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)
+> `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)[]
 
 An applicable observation objective parameter of the interpretation result for this sample observation result.
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ### laboratoryAnalysisRequestSpecifiedReference?
 
-> `optional` **laboratoryAnalysisRequestSpecifiedReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)
+> `optional` **laboratoryAnalysisRequestSpecifiedReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
 A laboratory observation analysis request reference specified for this sample observation result.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/materialTypeCode
 
 ### maximumStandardValueSpecifiedObservationResultCharacteristic?
 
-> `optional` **maximumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)
+> `optional` **maximumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
 A maximum standard value of the values for the characteristic observed or measured by using the specified type of
 observation for this sample observation result.
@@ -209,7 +209,7 @@ https://vocabulary.uncefact.org/maximumStandardValueSpecifiedObservationResultCh
 
 ### minimumStandardValueSpecifiedObservationResultCharacteristic?
 
-> `optional` **minimumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)
+> `optional` **minimumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
 A minimum standard value of the values for the characteristic observed or measured by using the specified type of
 observation for this sample observation result.
@@ -258,7 +258,7 @@ https://vocabulary.uncefact.org/observationTimeFrame
 
 ### observedValueSpecifiedObservationResultCharacteristic?
 
-> `optional` **observedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)
+> `optional` **observedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
 An observed value for the characteristic, acquired by observing or measuring according to the specified type of
 observation for this sample observation result.
@@ -307,7 +307,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ### specifiedLaboratoryObservationInstructions?
 
-> `optional` **specifiedLaboratoryObservationInstructions**: [`IUneceLaboratoryObservationInstructions`](IUneceLaboratoryObservationInstructions.md)
+> `optional` **specifiedLaboratoryObservationInstructions**: [`IUneceLaboratoryObservationInstructions`](IUneceLaboratoryObservationInstructions.md)[]
 
 A set of laboratory observation instructions specified for this sample observation result.
 
@@ -319,7 +319,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationInstructions
 
 ### specifiedLaboratoryObservationReference?
 
-> `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)
+> `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
 A laboratory observation reference specified for this sample observation result.
 
@@ -331,7 +331,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 
 ### usedMethod?
 
-> `optional` **usedMethod**: [`IUneceLaboratoryObservationAnalysisMethod`](IUneceLaboratoryObservationAnalysisMethod.md)
+> `optional` **usedMethod**: [`IUneceLaboratoryObservationAnalysisMethod`](IUneceLaboratoryObservationAnalysisMethod.md)[]
 
 A laboratory observation analysis method used for this sample observation result.
 

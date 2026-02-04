@@ -34,13 +34,13 @@ export interface IUneceProcessCharacteristic extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this process characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A sustainability characteristic applicable to this process characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A condition or status, expressed as text, for this process characteristic.
@@ -118,7 +118,7 @@ export interface IUneceProcessCharacteristic extends IJsonLdNodeObject {
 	 * A method specified for the value of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod;
+	valueMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * The measure of the value, expressed as a number, for this process characteristic.
@@ -130,17 +130,17 @@ export interface IUneceProcessCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter;
+	valueParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A range specified for the value of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange;
+	valueRange?: IUneceRange[];
 
 	/**
 	 * A tolerance specified for the value of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

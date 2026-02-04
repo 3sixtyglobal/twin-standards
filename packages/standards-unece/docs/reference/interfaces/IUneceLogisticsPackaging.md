@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicablePackagingInstructions?
 
-> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)
+> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)[]
 
 Instructions applicable to this logistics packaging.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/conditionCode
 
 ### containedPackage?
 
-> `optional` **containedPackage**: [`IUnecePackage`](IUnecePackage.md)
+> `optional` **containedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
 A package contained in this logistics packaging.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedMarking?
 
-> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)
+> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)[]
 
 A marking specified for this logistics packaging.
 

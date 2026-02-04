@@ -34,13 +34,13 @@ export interface IUneceProductGroup extends IJsonLdNodeObject {
 	 * A supply chain trade line item which is included in this trade product group.
 	 * @see https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 	 */
-	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem;
+	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem[];
 
 	/**
 	 * A product included in this trade product group.
 	 * @see https://vocabulary.uncefact.org/includedTradeProduct
 	 */
-	includedTradeProduct?: IUneceTradeProduct;
+	includedTradeProduct?: IUneceTradeProduct[];
 
 	/**
 	 * The name, expressed as text, for this trade product group.
@@ -52,11 +52,11 @@ export interface IUneceProductGroup extends IJsonLdNodeObject {
 	 * A referenced document specified for this trade product group.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * A product group subordinate to this trade product group.
 	 * @see https://vocabulary.uncefact.org/subordinateProductGroup
 	 */
-	subordinateProductGroup?: IUneceProductGroup;
+	subordinateProductGroup?: IUneceProductGroup[];
 }

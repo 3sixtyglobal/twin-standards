@@ -31,7 +31,7 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * An actual complex description for this work item group.
 	 * @see https://vocabulary.uncefact.org/actualComplexDescription
 	 */
-	actualComplexDescription?: IUneceComplexDescription;
+	actualComplexDescription?: IUneceComplexDescription[];
 
 	/**
 	 * A code specifying an alternative classification for this work item group.
@@ -43,13 +43,13 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * A specified binary file referenced by this grouped work item.
 	 * @see https://vocabulary.uncefact.org/binaryFile
 	 */
-	binaryFile?: IUneceBinaryFile;
+	binaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A changed recorded status for this grouped work item.
 	 * @see https://vocabulary.uncefact.org/changedStatus
 	 */
-	changedStatus?: IUneceRecordedStatus;
+	changedStatus?: IUneceRecordedStatus[];
 
 	/**
 	 * A comment, expressed as text, for this work item group.
@@ -79,19 +79,19 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * A basic work item within this grouped work item.
 	 * @see https://vocabulary.uncefact.org/itemBasicWorkItem
 	 */
-	itemBasicWorkItem?: IUneceBasicWorkItem;
+	itemBasicWorkItem?: IUneceBasicWorkItem[];
 
 	/**
 	 * A grouped work item within this grouped work item.
 	 * @see https://vocabulary.uncefact.org/itemGroupedWorkItem
 	 */
-	itemGroupedWorkItem?: IUneceGroupedWorkItem;
+	itemGroupedWorkItem?: IUneceGroupedWorkItem[];
 
 	/**
 	 * The identifier of a price list item for this grouped work item.
 	 * @see https://vocabulary.uncefact.org/priceListItemId
 	 */
-	priceListItemId?: string;
+	priceListItemId: string;
 
 	/**
 	 * A code specifying the primary classification for this work item group.
@@ -109,7 +109,7 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * A total calculated price for this work item group.
 	 * @see https://vocabulary.uncefact.org/totalPrice
 	 */
-	totalPrice?: IUneceCalculatedPrice;
+	totalPrice?: IUneceCalculatedPrice[];
 
 	/**
 	 * The total quantity of this work item group.

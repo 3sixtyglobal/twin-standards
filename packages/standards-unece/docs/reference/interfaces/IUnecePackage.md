@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/additionalLevelCode
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document associated with this logistics package.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/description
 
 ### despatchNoteAssociatedDocument?
 
-> `optional` **despatchNoteAssociatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **despatchNoteAssociatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A despatch note associated with this logistics package.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ### grossWeightMeasure?
 
-> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 The measure of the gross weight (mass) of this logistics package and its contents.
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedSupplyChainTradeLineItem?
 
-> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)
+> `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
 A supply chain trade line item included in this logistics package.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/information
 
 ### itemQuantity?
 
-> `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The number of logistics packages at this level.
 
@@ -316,7 +316,7 @@ https://vocabulary.uncefact.org/parentId
 
 ### perPackageUnitQuantity?
 
-> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number of units per package in this logistics package.
 
@@ -400,7 +400,7 @@ https://vocabulary.uncefact.org/specifiedLineTradeDelivery
 
 ### statedCondition?
 
-> `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)
+> `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)[]
 
 A stated condition of this logistics package.
 
@@ -448,7 +448,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 The measure of the net weight (mass) of the contents of this referenced logistics package.
 

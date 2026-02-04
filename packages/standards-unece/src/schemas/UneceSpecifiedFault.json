@@ -124,7 +124,10 @@
 			"description": "A type, expressed as text, of this specified fault."
 		},
 		"operationalApplicableTolerance": {
-			"$ref": "https://schema.twindev.org/unece/UneceTolerance",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTolerance"
+			},
 			"description": "An applicable operational tolerance of this specified fault."
 		},
 		"typeCode": {

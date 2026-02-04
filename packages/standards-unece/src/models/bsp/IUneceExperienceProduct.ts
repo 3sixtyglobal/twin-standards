@@ -42,7 +42,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A note applicable for this experience product.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedNote
 	 */
-	applicableSpecifiedNote?: IUneceSpecifiedNote;
+	applicableSpecifiedNote?: IUneceSpecifiedNote[];
 
 	/**
 	 * A brand name, expressed as text, for this experience product.
@@ -54,7 +54,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A calculated price for this experience product.
 	 * @see https://vocabulary.uncefact.org/calculatedPrice
 	 */
-	calculatedPrice?: IUneceTradePrice;
+	calculatedPrice?: IUneceTradePrice[];
 
 	/**
 	 * The code specifying the category of this experience product.
@@ -78,7 +78,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A distinctive feature of this experience product.
 	 * @see https://vocabulary.uncefact.org/distinctiveFeature
 	 */
-	distinctiveFeature?: IUneceSpecifiedFeature;
+	distinctiveFeature?: IUneceSpecifiedFeature[];
 
 	/**
 	 * The identifier of this experience product.
@@ -90,7 +90,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * An event included within this experience product.
 	 * @see https://vocabulary.uncefact.org/includedEvent
 	 */
-	includedEvent?: IUneceExperienceEvent;
+	includedEvent?: IUneceExperienceEvent[];
 
 	/**
 	 * An indemnity clause, expressed as text, for this experience product.
@@ -138,25 +138,25 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A operational period for this experience product.
 	 * @see https://vocabulary.uncefact.org/operationalPeriod
 	 */
-	operationalPeriod?: IUneceSpecifiedPeriod;
+	operationalPeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * An optional product for this experience product.
 	 * @see https://vocabulary.uncefact.org/optionalProduct
 	 */
-	optionalProduct?: IUneceExperienceProduct;
+	optionalProduct?: IUneceExperienceProduct[];
 
 	/**
 	 * A certificate provided for this experience product.
 	 * @see https://vocabulary.uncefact.org/providedCertificate
 	 */
-	providedCertificate?: IUneceSpecifiedCertificate;
+	providedCertificate?: IUneceSpecifiedCertificate[];
 
 	/**
 	 * A requirement provided for this experience product.
 	 * @see https://vocabulary.uncefact.org/providedRequirement
 	 */
-	providedRequirement?: IUneceRequirement;
+	providedRequirement?: IUneceRequirement[];
 
 	/**
 	 * The indication of whether or not this experience product requires a reservation guarantee.
@@ -168,7 +168,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A required usage condition for this experience product.
 	 * @see https://vocabulary.uncefact.org/requiredUsageCondition
 	 */
-	requiredUsageCondition?: IUneceUsageCondition;
+	requiredUsageCondition?: IUneceUsageCondition[];
 
 	/**
 	 * A reservation guarantee, expressed as text, for this experience product.
@@ -180,7 +180,7 @@ export interface IUneceExperienceProduct extends IJsonLdNodeObject {
 	 * A party specified for this experience product.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty;
+	specifiedTradeParty?: IUneceTradeParty[];
 
 	/**
 	 * A theme, expressed as text, for this experience product.

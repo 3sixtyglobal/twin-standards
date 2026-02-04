@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### itineraryStopEvent?
 
-> `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 An itinerary stop event for this transport route, such as a port call in a vessel schedule.
 

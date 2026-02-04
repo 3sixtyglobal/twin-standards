@@ -25,7 +25,7 @@ export interface IUneceRecordedStatus extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value when this recorded status changed.
 	 * @see https://vocabulary.uncefact.org/changedDateTime
 	 */
-	changedDateTime?: string;
+	changedDateTime: string;
 
 	/**
 	 * The name of the person or system, expressed as text, that changed this recorded status.

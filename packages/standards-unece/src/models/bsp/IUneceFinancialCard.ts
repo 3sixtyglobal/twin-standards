@@ -39,13 +39,13 @@ export interface IUneceFinancialCard extends IJsonLdNodeObject {
 	 * A monetary value of the credit available for this trade settlement financial card.
 	 * @see https://vocabulary.uncefact.org/creditAvailableAmount
 	 */
-	creditAvailableAmount?: IUneceAmountType;
+	creditAvailableAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of the credit limit for this trade settlement financial card.
 	 * @see https://vocabulary.uncefact.org/creditLimitAmount
 	 */
-	creditLimitAmount?: IUneceAmountType;
+	creditLimitAmount?: IUneceAmountType[];
 
 	/**
 	 * A textual description of this trade settlement financial card.

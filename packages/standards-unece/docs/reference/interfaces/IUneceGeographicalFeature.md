@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedCircle?
 
-> `optional` **includedCircle**: [`IUneceCircle`](IUneceCircle.md)
+> `optional` **includedCircle**: [`IUneceCircle`](IUneceCircle.md)[]
 
 A circle included in this specified geographical feature.
 

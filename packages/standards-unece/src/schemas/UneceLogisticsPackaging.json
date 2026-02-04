@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicablePackagingInstructions": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackagingInstructions",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackagingInstructions"
+			},
 			"description": "Instructions applicable to this logistics packaging."
 		},
 		"capacityMeasure": {
@@ -112,7 +115,10 @@
 			"description": "A code specifying a condition of this logistics packaging."
 		},
 		"containedPackage": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackage",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackage"
+			},
 			"description": "A package contained in this logistics packaging."
 		},
 		"contentLayerQuantity": {
@@ -172,7 +178,10 @@
 			"description": "The sequence number for this logistics packaging."
 		},
 		"specifiedMarking": {
-			"$ref": "https://schema.twindev.org/unece/UneceMarking",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceMarking"
+			},
 			"description": "A marking specified for this logistics packaging."
 		},
 		"totalUnitQuantity": {

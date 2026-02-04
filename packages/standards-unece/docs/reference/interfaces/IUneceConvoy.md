@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/overallLengthMeasure
 
 ### powerActiveTransportMeans?
 
-> `optional` **powerActiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)
+> `optional` **powerActiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
 A means of transport actively powering this logistics convoy.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/powerActiveTransportMeans
 
 ### powerInactiveTransportMeans?
 
-> `optional` **powerInactiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)
+> `optional` **powerInactiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
 A means of transport not actively powering this logistics convoy.
 

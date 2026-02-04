@@ -37,9 +37,9 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic?
+### associatedGeographicalObjectCharacteristic
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical grid.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation?
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location associated with this specified geographical grid.
 
@@ -61,9 +61,9 @@ https://vocabulary.uncefact.org/associatedLocation
 
 ***
 
-### axisName?
+### axisName
 
-> `optional` **axisName**: `string`
+> **axisName**: `string`
 
 An axis name, expressed as text, for this geographical grid.
 
@@ -73,9 +73,9 @@ https://vocabulary.uncefact.org/axisName
 
 ***
 
-### cell?
+### cell
 
-> `optional` **cell**: `string`
+> **cell**: `string`
 
 The cell value, expressed as text, for this geographical grid.
 
@@ -97,9 +97,9 @@ https://vocabulary.uncefact.org/dimensionNumeric
 
 ***
 
-### highLimit?
+### highLimit
 
-> `optional` **highLimit**: `string`
+> **highLimit**: `string`
 
 The tuple of elements, expressed as text, indicating the high limit of this geographical grid specifying the diagonally
 opposing corner of each axis.
@@ -122,9 +122,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### lowLimit?
+### lowLimit
 
-> `optional` **lowLimit**: `string`
+> **lowLimit**: `string`
 
 The tuple of elements, expressed as text, indicating the low limit of this geographical grid specifying the offset of
 each axis.
@@ -148,9 +148,9 @@ https://vocabulary.uncefact.org/offsetVectorNumeric
 
 ***
 
-### originAssociatedDirectPositionList?
+### originAssociatedDirectPositionList
 
-> `optional` **originAssociatedDirectPositionList**: `string`
+> **originAssociatedDirectPositionList**: `string`
 
 The direct position list associated with the origin of this geographical grid.
 
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/originAssociatedDirectPositionList
 
 ### specifiedPlot?
 
-> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)
+> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
 
 A crop plot specified for this geographical grid.
 

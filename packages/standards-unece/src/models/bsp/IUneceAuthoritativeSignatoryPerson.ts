@@ -26,7 +26,7 @@ export interface IUneceAuthoritativeSignatoryPerson extends IJsonLdNodeObject {
 	 * An academic qualification attained by this authoritative signatory person.
 	 * @see https://vocabulary.uncefact.org/attainedAcademicQualification
 	 */
-	attainedAcademicQualification?: IUneceAcademicQualification;
+	attainedAcademicQualification?: IUneceAcademicQualification[];
 
 	/**
 	 * The name, expressed as text, of this authoritative signatory person.

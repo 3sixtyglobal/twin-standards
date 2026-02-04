@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### attainedSpecifiedQualification?
 
-> `optional` **attainedSpecifiedQualification**: [`IUneceSpecifiedQualification`](IUneceSpecifiedQualification.md)
+> `optional` **attainedSpecifiedQualification**: [`IUneceSpecifiedQualification`](IUneceSpecifiedQualification.md)[]
 
 The specified qualification attained by this inspection person.
 

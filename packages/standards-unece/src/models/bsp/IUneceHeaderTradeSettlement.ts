@@ -43,13 +43,13 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A tax applicable to this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/applicableTax
 	 */
-	applicableTax?: IUneceTradeTax;
+	applicableTax?: IUneceTradeTax[];
 
 	/**
 	 * A billing period specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/billingPeriod
 	 */
-	billingPeriod?: IUneceSpecifiedPeriod;
+	billingPeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * The date, time, date time or other date time value when the book closing is due for this header trade settlement.
@@ -104,7 +104,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of the debit note for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/debitNoteAmount
 	 */
-	debitNoteAmount?: IUneceAmountType;
+	debitNoteAmount?: IUneceAmountType[];
 
 	/**
 	 * A textual description of this header trade settlement.
@@ -123,19 +123,19 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * creditor.
 	 * @see https://vocabulary.uncefact.org/duePayableAmount
 	 */
-	duePayableAmount?: IUneceAmountType;
+	duePayableAmount?: IUneceAmountType[];
 
 	/**
 	 * A factoring agreement document referenced in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/factoringAgreementDocument
 	 */
-	factoringAgreementDocument?: IUneceDocument;
+	factoringAgreementDocument?: IUneceDocument[];
 
 	/**
 	 * A factoring list document referenced in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/factoringListDocument
 	 */
-	factoringListDocument?: IUneceDocument;
+	factoringListDocument?: IUneceDocument[];
 
 	/**
 	 * The currency exchange applicable to the invoice in this header trade settlement.
@@ -159,7 +159,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * An invoice document referenced by this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceDocument
 	 */
-	invoiceDocument?: IUneceDocument;
+	invoiceDocument?: IUneceDocument[];
 
 	/**
 	 * The invoice issuer reference, expressed as text, for this header trade settlement.
@@ -207,25 +207,25 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * The monetary summation totals outstanding for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/outstandingSpecifiedMonetarySummation
 	 */
-	outstandingSpecifiedMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation;
+	outstandingSpecifiedMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation[];
 
 	/**
 	 * A payable accounting account specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/payableSpecifiedAccountingAccount
 	 */
-	payableSpecifiedAccountingAccount?: IUneceAccountingAccount;
+	payableSpecifiedAccountingAccount?: IUneceAccountingAccount[];
 
 	/**
 	 * A payee party for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/payeeParty
 	 */
-	payeeParty?: IUneceTradeParty;
+	payeeParty?: IUneceTradeParty[];
 
 	/**
 	 * The payer party for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty;
+	payerParty?: IUneceTradeParty[];
 
 	/**
 	 * The payer reference, expressed as text, for this header trade settlement.
@@ -279,7 +279,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A purchase accounting account specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 	 */
-	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount;
+	purchaseSpecifiedAccountingAccount?: IUneceAccountingAccount[];
 
 	/**
 	 * The currency exchange applicable to the quotation currency in this header trade settlement.
@@ -297,19 +297,19 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A receivable accounting account specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/receivableSpecifiedAccountingAccount
 	 */
-	receivableSpecifiedAccountingAccount?: IUneceAccountingAccount;
+	receivableSpecifiedAccountingAccount?: IUneceAccountingAccount[];
 
 	/**
 	 * A relevant party for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/relevantParty
 	 */
-	relevantParty?: IUneceTradeParty;
+	relevantParty?: IUneceTradeParty[];
 
 	/**
 	 * A financing monetary value requested for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/requestedFinancingAmount
 	 */
-	requestedFinancingAmount?: IUneceAmountType;
+	requestedFinancingAmount?: IUneceAmountType[];
 
 	/**
 	 * The financing rate, expressed as a percentage, requested for this header trade settlement.
@@ -321,7 +321,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A sales accounting account specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/salesSpecifiedAccountingAccount
 	 */
-	salesSpecifiedAccountingAccount?: IUneceAccountingAccount;
+	salesSpecifiedAccountingAccount?: IUneceAccountingAccount[];
 
 	/**
 	 * The date, time, date time or other date time value of the scheduled payment of this header trade settlement.
@@ -333,25 +333,25 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * An advance payment specified in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedAdvancePayment
 	 */
-	specifiedAdvancePayment?: IUneceAdvancePayment;
+	specifiedAdvancePayment?: IUneceAdvancePayment[];
 
 	/**
 	 * An allowance or charge specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedAllowanceCharge
 	 */
-	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge;
+	specifiedAllowanceCharge?: IUneceTradeAllowanceCharge[];
 
 	/**
 	 * A financial adjustment specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialAdjustment
 	 */
-	specifiedFinancialAdjustment?: IUneceFinancialAdjustment;
+	specifiedFinancialAdjustment?: IUneceFinancialAdjustment[];
 
 	/**
 	 * A financial card specified in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialCard
 	 */
-	specifiedFinancialCard?: IUneceFinancialCard;
+	specifiedFinancialCard?: IUneceFinancialCard[];
 
 	/**
 	 * The payment instalment plan specified for this header trade settlement.
@@ -363,31 +363,31 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A payment means specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans;
+	specifiedPaymentMeans?: IUnecePaymentMeans[];
 
 	/**
 	 * Payment terms specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentTerms
 	 */
-	specifiedPaymentTerms?: IUnecePaymentTerms;
+	specifiedPaymentTerms?: IUnecePaymentTerms[];
 
 	/**
 	 * A logistics service charge specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedServiceCharge
 	 */
-	specifiedServiceCharge?: IUneceServiceCharge;
+	specifiedServiceCharge?: IUneceServiceCharge[];
 
 	/**
 	 * The monetary summation totals specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementHeaderMonetarySummation
 	 */
-	specifiedTradeSettlementHeaderMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation;
+	specifiedTradeSettlementHeaderMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation[];
 
 	/**
 	 * A tax subtotal calculated for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/subtotalCalculatedTax
 	 */
-	subtotalCalculatedTax?: IUneceTradeTax;
+	subtotalCalculatedTax?: IUneceTradeTax[];
 
 	/**
 	 * A currency exchange applicable to a tax in this header trade settlement.
@@ -417,5 +417,5 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * An ultimate payee party in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/ultimatePayeeParty
 	 */
-	ultimatePayeeParty?: IUneceTradeParty;
+	ultimatePayeeParty?: IUneceTradeParty[];
 }

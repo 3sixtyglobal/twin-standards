@@ -124,15 +124,24 @@
 			"description": "The size, expressed as a measure, for this crop produce batch."
 		},
 		"specifiedAgriculturalCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCertificate"
+			},
 			"description": "An agricultural certificate specified for this crop produce batch."
 		},
 		"specifiedAgriculturalCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAgriculturalCharacteristic"
+			},
 			"description": "An agricultural characteristic specified for this crop produce batch."
 		},
 		"specifiedProduce": {
-			"$ref": "https://schema.twindev.org/unece/UneceProduce",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProduce"
+			},
 			"description": "A crop produce specified for this crop produce batch."
 		},
 		"specifiedQuantity": {

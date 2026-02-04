@@ -96,15 +96,24 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableHeaderTradeAgreement": {
-			"$ref": "https://schema.twindev.org/unece/UneceHeaderTradeAgreement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceHeaderTradeAgreement"
+			},
 			"description": "A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms."
 		},
 		"applicableHeaderTradeDelivery": {
-			"$ref": "https://schema.twindev.org/unece/UneceHeaderTradeDelivery",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceHeaderTradeDelivery"
+			},
 			"description": "A trade delivery header applicable to this supply chain trade transaction."
 		},
 		"applicablePeriod": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedPeriod"
+			},
 			"description": "A period applicable to this supply chain trade transaction."
 		},
 		"applicableTradeSettlement": {
@@ -112,11 +121,17 @@
 			"description": "The trade settlement header applicable to this supply chain trade transaction."
 		},
 		"associatedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document associated with this supply chain trade transaction, such as the purchase order, invoice or packing list."
 		},
 		"associatedDocumentLineDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentLineDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentLineDocument"
+			},
 			"description": "The document line associated with this supply chain trade transaction."
 		},
 		"associatedFinancingRequestResultDocument": {
@@ -124,7 +139,10 @@
 			"description": "The financing request result document associated with this supply chain trade transaction."
 		},
 		"associatedStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard associated with this supply chain trade transaction."
 		},
 		"documentURLId": {
@@ -136,23 +154,38 @@
 			"description": "A unique identifier for this supply chain trade transaction."
 		},
 		"includedDeliverySchedule": {
-			"$ref": "https://schema.twindev.org/unece/UneceDeliverySchedule",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDeliverySchedule"
+			},
 			"description": "Delivery scheduling details included in a defined forecast period for this supply chain trade transaction."
 		},
 		"includedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note included in this supply chain trade transaction."
 		},
 		"includedProductGroup": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductGroup",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductGroup"
+			},
 			"description": "A product group included in this supply chain trade transaction."
 		},
 		"includedSupplyChainTradeLineItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainTradeLineItem"
+			},
 			"description": "A trade line item included in this supply chain trade transaction."
 		},
 		"includedTradeProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "A trade product included in this supply chain trade transaction."
 		},
 		"information": {
@@ -180,7 +213,10 @@
 			"description": "An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply chain trade transaction."
 		},
 		"specifiedPackage": {
-			"$ref": "https://schema.twindev.org/unece/UnecePackage",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePackage"
+			},
 			"description": "A logistics package specified for this supply chain trade transaction."
 		},
 		"typeCode": {

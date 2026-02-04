@@ -32,25 +32,25 @@ export interface IUnecePrint extends IJsonLdNodeObject {
 	 * Material applicable to this product print.
 	 * @see https://vocabulary.uncefact.org/applicableMaterial
 	 */
-	applicableMaterial?: IUneceSpecifiedMaterial;
+	applicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * A specified method applicable to this product print.
 	 * @see https://vocabulary.uncefact.org/applicableMethod
 	 */
-	applicableMethod?: IUneceSpecifiedMethod;
+	applicableMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * A production device applicable to this product print.
 	 * @see https://vocabulary.uncefact.org/applicableProductionDevice
 	 */
-	applicableProductionDevice?: IUneceProductionDevice;
+	applicableProductionDevice?: IUneceProductionDevice[];
 
 	/**
 	 * A technical characteristic applicable to this product print.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
 
 	/**
 	 * The code specifying the background colour for this product print.
@@ -92,7 +92,7 @@ export interface IUnecePrint extends IJsonLdNodeObject {
 	 * A trade party related to this product print.
 	 * @see https://vocabulary.uncefact.org/relatedParty
 	 */
-	relatedParty?: IUneceTradeParty;
+	relatedParty?: IUneceTradeParty[];
 
 	/**
 	 * A section, expressed as text, of this product print.
@@ -110,13 +110,13 @@ export interface IUnecePrint extends IJsonLdNodeObject {
 	 * A referenced document specified for this product print.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * A production machine specified for this product print.
 	 * @see https://vocabulary.uncefact.org/specifiedMachine
 	 */
-	specifiedMachine?: IUneceMachine;
+	specifiedMachine?: IUneceMachine[];
 
 	/**
 	 * The indication of whether or not this product print is a test.

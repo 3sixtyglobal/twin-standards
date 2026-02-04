@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableInspectionResult
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this sustainability characteristic.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event specified for this sustainability characteristic.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
 A parameter specified for the value of this sustainability characteristic.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ### valuePeriod?
 
-> `optional` **valuePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **valuePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A period specified for the value of this sustainability characteristic.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/valuePeriod
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
 
 A range specified for the value of this sustainability characteristic.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 A tolerance specified for the value of this sustainability characteristic.
 

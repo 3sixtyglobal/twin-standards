@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueMethod?
 
-> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)
+> `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
 A method specified for a value of this metric characteristic.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ### valueParameter?
 
-> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)
+> `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
 A parameter specified for a value for this metric characteristic.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/valueQuantity
 
 ### valueRange?
 
-> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)
+> `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
 
 A range specified for a value of this metric characteristic.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ### valueTolerance?
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
+> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 A tolerance specified for a value of this metric characteristic.
 

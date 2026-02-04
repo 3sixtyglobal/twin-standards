@@ -26,7 +26,7 @@ export interface IUneceError extends IJsonLdNodeObject {
 	 * A corrective event associated with this declared error.
 	 * @see https://vocabulary.uncefact.org/associatedEvent
 	 */
-	associatedEvent?: IUneceCorrectiveEvent;
+	associatedEvent?: IUneceCorrectiveEvent[];
 
 	/**
 	 * An issue date, time, date time or other date time value for this declared error.

@@ -100,7 +100,10 @@
 			"description": "The unique identifier of this logistics label."
 		},
 		"includedSection": {
-			"$ref": "https://schema.twindev.org/unece/UneceSection",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSection"
+			},
 			"description": "A section included in this logistics label."
 		},
 		"layoutTypeCode": {

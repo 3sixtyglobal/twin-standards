@@ -32,7 +32,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * Instructions applicable to this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/applicablePackagingInstructions
 	 */
-	applicablePackagingInstructions?: IUnecePackagingInstructions;
+	applicablePackagingInstructions?: IUnecePackagingInstructions[];
 
 	/**
 	 * A measure of a capacity of this logistics packaging.
@@ -56,7 +56,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A package contained in this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/containedPackage
 	 */
-	containedPackage?: IUnecePackage;
+	containedPackage?: IUnecePackage[];
 
 	/**
 	 * A number of content layers in this logistics packaging.
@@ -146,7 +146,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A marking specified for this logistics packaging.
 	 * @see https://vocabulary.uncefact.org/specifiedMarking
 	 */
-	specifiedMarking?: IUneceMarking;
+	specifiedMarking?: IUneceMarking[];
 
 	/**
 	 * A total number of units contained in this logistics packaging.

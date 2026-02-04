@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"allowanceChargeBasisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value used as the allowance and charge basis on which this trade related tax, levy or duty is calculated."
 		},
 		"applicablePercent": {
@@ -104,11 +107,17 @@
 			"description": "The percent of trade tax applicable, such as to an object or an activity."
 		},
 		"applicableTradeLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeLocation"
+			},
 			"description": "A location where this trade tax is applicable."
 		},
 		"basisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value used as the basis on which this trade related tax, levy or duty is calculated."
 		},
 		"basisQuantity": {
@@ -128,7 +137,10 @@
 			"description": "The buyer repayable tax specified accounting account for this trade related tax, levy or duty."
 		},
 		"calculatedAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value resulting from the calculation of this trade related tax, levy or duty."
 		},
 		"calculatedRate": {
@@ -184,7 +196,10 @@
 			"description": "The reason, expressed as text, for exemption from this trade related tax, levy or duty."
 		},
 		"grandTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the grand total of the basis plus tax for this trade tax."
 		},
 		"guarantee": {
@@ -196,7 +211,10 @@
 			"description": "The identifier of this trade tax."
 		},
 		"informationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of an amount being reported for information for this trade related tax, levy or duty."
 		},
 		"jurisdiction": {
@@ -204,7 +222,10 @@
 			"description": "A jurisdiction, expressed as text, to which this trade related tax, levy or duty applies."
 		},
 		"lineTotalBasisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value used as the line total basis on which this trade related tax, levy or duty is calculated."
 		},
 		"localTaxSystemId": {
@@ -216,7 +237,10 @@
 			"description": "The unique identifier of the payment of this trade related tax, levy or duty."
 		},
 		"placeApplicableLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeLocation"
+			},
 			"description": "A location where this trade tax is applicable."
 		},
 		"rate": {
@@ -264,7 +288,10 @@
 			"description": "The country or country sub-division where a service was supplied for this trade tax."
 		},
 		"specifiedAccountingAccount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAccountingAccount",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAccountingAccount"
+			},
 			"description": "A specified accounting account for this trade related tax, levy or duty."
 		},
 		"tariffDeductionQuantity": {
@@ -316,7 +343,10 @@
 			"description": "The code specifying the payment method for this trade related tax, levy or duty."
 		},
 		"unitBasisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated."
 		}
 	},

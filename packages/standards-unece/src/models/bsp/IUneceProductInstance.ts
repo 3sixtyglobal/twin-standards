@@ -48,25 +48,25 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A product classification applicable to this trade product instance.
 	 * @see https://vocabulary.uncefact.org/applicableClassification
 	 */
-	applicableClassification?: IUneceClassification;
+	applicableClassification?: IUneceClassification[];
 
 	/**
 	 * A distinguishing material feature applicable to this trade product instance.
 	 * @see https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 	 */
-	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic;
+	applicableGoodsCharacteristic?: IUneceGoodsCharacteristic[];
 
 	/**
 	 * A product characteristic applicable to this trade product instance.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic;
+	applicableProductCharacteristic?: IUneceProductCharacteristic[];
 
 	/**
 	 * A product handling process applied to this trade product instance, such as manufacturing or storage.
 	 * @see https://vocabulary.uncefact.org/appliedProcess
 	 */
-	appliedProcess?: IUneceProductHandlingProcess;
+	appliedProcess?: IUneceProductHandlingProcess[];
 
 	/**
 	 * The unique batch identifier for this trade product instance.
@@ -85,7 +85,7 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * An additional brand name information note for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/brandNameAdditionalInformationNote
 	 */
-	brandNameAdditionalInformationNote?: IUneceNote;
+	brandNameAdditionalInformationNote?: IUneceNote[];
 
 	/**
 	 * The ceramic capacitor identifier of this trade product instance.
@@ -97,7 +97,7 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A referenced document providing evidence of certification for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/certificationEvidenceDocument
 	 */
-	certificationEvidenceDocument?: IUneceDocument;
+	certificationEvidenceDocument?: IUneceDocument[];
 
 	/**
 	 * A common name, expressed as text, for this trade product instance.
@@ -157,19 +157,19 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A note providing additional ingredient information for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/ingredientAdditionalInformationNote
 	 */
-	ingredientAdditionalInformationNote?: IUneceNote;
+	ingredientAdditionalInformationNote?: IUneceNote[];
 
 	/**
 	 * A referenced inspection document for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/inspectionDocument
 	 */
-	inspectionDocument?: IUneceDocument;
+	inspectionDocument?: IUneceDocument[];
 
 	/**
 	 * The inspection event for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/inspectionEvent
 	 */
-	inspectionEvent?: IUneceSupplyChainEvent;
+	inspectionEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * An intended use, expressed as text, for this trade product instance.
@@ -199,7 +199,7 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A location of origin for this supply chain product instance.
 	 * @see https://vocabulary.uncefact.org/originLocation
 	 */
-	originLocation?: IUneceLogisticsLocation;
+	originLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The packaging event for this trade product instance.
@@ -217,7 +217,7 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A product characteristic for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/productCharacteristic
 	 */
-	productCharacteristic?: IUneceProductCharacteristic;
+	productCharacteristic?: IUneceProductCharacteristic[];
 
 	/**
 	 * The production event for this trade product instance.
@@ -229,13 +229,13 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * A note providing additional quality grade information for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/qualityGradeAdditionalInformationNote
 	 */
-	qualityGradeAdditionalInformationNote?: IUneceNote;
+	qualityGradeAdditionalInformationNote?: IUneceNote[];
 
 	/**
 	 * A reclassification supply chain event for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/reclassificationEvent
 	 */
-	reclassificationEvent?: IUneceSupplyChainEvent;
+	reclassificationEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance.

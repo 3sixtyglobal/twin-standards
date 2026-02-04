@@ -96,23 +96,38 @@
 			"description": "JSON-LD Type."
 		},
 		"applicationSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "An application context parameter specified for this exchanged document context."
 		},
 		"bIMSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A Business Information Master (BIM) context parameter specified for this exchanged document context."
 		},
 		"businessProcessSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A business process context parameter specified for this exchanged document context."
 		},
 		"guidelineSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A guideline context parameter specified for this exchanged document context."
 		},
 		"messageStandardSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "The message standard document context parameter specified for this exchanged document context."
 		},
 		"processingTransactionDateTime": {
@@ -120,7 +135,10 @@
 			"description": "The date, time, date time, or other date time value of the processing of a transaction for this exchanged document context."
 		},
 		"scenarioSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A scenario context parameter specified for this exchanged document context."
 		},
 		"specifiedTransactionId": {
@@ -128,7 +146,10 @@
 			"description": "The identifier of a specified transaction in this exchanged document context."
 		},
 		"subsetSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A subset context parameter specified for this exchanged document context."
 		},
 		"testIndicator": {
@@ -136,7 +157,10 @@
 			"description": "The indication of whether or not this exchanged document context is a test."
 		},
 		"userSpecifiedParameter": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocumentContextParameter"
+			},
 			"description": "A user specified document context parameter specified for this exchanged document context."
 		}
 	},

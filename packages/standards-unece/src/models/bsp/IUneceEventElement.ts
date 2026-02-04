@@ -28,7 +28,7 @@ export interface IUneceEventElement extends IJsonLdNodeObject {
 	 * The identifier of the object class for this TT event element.
 	 * @see https://vocabulary.uncefact.org/objectClassId
 	 */
-	objectClassId?: string;
+	objectClassId: string;
 
 	/**
 	 * The number of units of this TT event element.

@@ -67,7 +67,7 @@ export interface IUneceGeographicalCoordinate extends IJsonLdNodeObject {
 	 * specific place for this geographical coordinate (Reference ISO 6709).
 	 * @see https://vocabulary.uncefact.org/latitudeMeasure
 	 */
-	latitudeMeasure?: IUneceMeasureType;
+	latitudeMeasure: IUneceMeasureType;
 
 	/**
 	 * The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific
@@ -81,7 +81,7 @@ export interface IUneceGeographicalCoordinate extends IJsonLdNodeObject {
 	 * specific place (Reference ISO 6709).
 	 * @see https://vocabulary.uncefact.org/longitudeMeasure
 	 */
-	longitudeMeasure?: IUneceMeasureType;
+	longitudeMeasure: IUneceMeasureType;
 
 	/**
 	 * The unique identifier of the reference system used for measuring a geographical coordinate.

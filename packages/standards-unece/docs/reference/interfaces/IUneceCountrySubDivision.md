@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### activityAuthorizedParty?
 
-> `optional` **activityAuthorizedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **activityAuthorizedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party that is authorized to perform an activity in this trade country sub-division.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/name
 
 ### subordinateCountrySubDivision?
 
-> `optional` **subordinateCountrySubDivision**: `IUneceCountrySubDivision`
+> `optional` **subordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
 
 A subordinate country sub-division within this trade country sub-division.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/subordinateCountrySubDivision
 
 ### superordinateCountrySubDivision?
 
-> `optional` **superordinateCountrySubDivision**: `IUneceCountrySubDivision`
+> `optional` **superordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
 
 A superordinate country sub-division for this trade country sub-division.
 

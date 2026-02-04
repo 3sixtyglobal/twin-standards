@@ -33,7 +33,7 @@ export interface IUneceCoordinateReferenceSystem extends IJsonLdNodeObject {
 	 * The level, expressed as text, of this CS engineering coordinate reference system.
 	 * @see https://vocabulary.uncefact.org/level
 	 */
-	level?: string;
+	level: string;
 
 	/**
 	 * The name, expressed as text, for this CS engineering coordinate reference system.
@@ -45,17 +45,17 @@ export interface IUneceCoordinateReferenceSystem extends IJsonLdNodeObject {
 	 * A delimited period specified for this CS engineering coordinate reference system.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
 
 	/**
 	 * A delimited period specified for this CS engineering coordinate reference system.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod;
+	specifiedPeriod?: IUneceDelimitedPeriod[];
 
 	/**
 	 * A CS engineering coordinate reference system subordinate to this CS engineering coordinate reference system.
 	 * @see https://vocabulary.uncefact.org/subordinateCoordinateReferenceSystem
 	 */
-	subordinateCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem;
+	subordinateCoordinateReferenceSystem?: IUneceCoordinateReferenceSystem[];
 }

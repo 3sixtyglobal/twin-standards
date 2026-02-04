@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ### applicableAssertion?
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion applicable to this product batch certificate.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
 A product characteristic applicable to this product batch certificate.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this product batch certificate.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this product batch certificate.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableTradeProductCertification?
 
-> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)
+> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
 
 The trade product certification applicable to this product batch certificate.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/applicableTradeProductCertification
 
 ### attachedBinaryFile?
 
-> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file attached to this product batch certificate.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
 
 The code specifying the type of product batch certificate.
 

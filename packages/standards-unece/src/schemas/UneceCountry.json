@@ -108,7 +108,10 @@
 			"description": "A quantity specified for this trade country."
 		},
 		"subordinateCountrySubDivision": {
-			"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCountrySubDivision"
+			},
 			"description": "A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province."
 		}
 	},

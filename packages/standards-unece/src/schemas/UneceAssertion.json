@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this sustainability assertion."
 		},
 		"description": {
@@ -112,7 +115,10 @@
 			"description": "An identifier of this sustainability assertion."
 		},
 		"includedCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A sustainability characteristic included in this sustainability assertion."
 		},
 		"issuingPartyId": {
@@ -120,7 +126,10 @@
 			"description": "An identifier of a party issuing this sustainability assertion."
 		},
 		"relatedPolicy": {
-			"$ref": "https://schema.twindev.org/unece/UnecePolicy",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePolicy"
+			},
 			"description": "A compliance policy related to this sustainability assertion."
 		},
 		"statusCode": {

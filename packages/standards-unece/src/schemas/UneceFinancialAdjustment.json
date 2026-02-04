@@ -100,7 +100,10 @@
 			"description": "The code specifying whether the financial adjustment must be subtracted or added."
 		},
 		"actualAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "An actual monetary value added or subtracted as a result of this financial adjustment."
 		},
 		"actualDateTime": {
@@ -128,7 +131,10 @@
 			"description": "A reason, expressed as text, for this financial adjustment."
 		},
 		"relatedTax": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
+			},
 			"description": "A trade tax related to this financial adjustment."
 		}
 	},

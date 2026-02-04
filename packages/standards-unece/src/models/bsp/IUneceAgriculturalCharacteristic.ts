@@ -85,7 +85,7 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * A method specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMethod
 	 */
-	valueMethod?: IUneceSpecifiedMethod;
+	valueMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * The value, expressed as a number, for this agricultural characteristic.
@@ -97,17 +97,17 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter;
+	valueParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A range specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange;
+	valueRange?: IUneceRange[];
 
 	/**
 	 * A tolerance specified for the value of this agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

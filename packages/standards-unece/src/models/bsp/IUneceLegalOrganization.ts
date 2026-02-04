@@ -71,7 +71,7 @@ export interface IUneceLegalOrganization extends IJsonLdNodeObject {
 	 * A postal address for this legally set up organization.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress;
+	postalAddress?: IUneceTradeAddress[];
 
 	/**
 	 * The trading business name, expressed as text, of this legally set up organization.

@@ -100,15 +100,24 @@
 			"description": "The code specifying the type of specified fuel."
 		},
 		"volumeUnitVolumeMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceVolumeUnitMeasureType"
+			},
 			"description": "A measure of a weight (mass) for this specified fuel."
 		},
 		"weightUnitWeightMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWeightUnitMeasureType"
+			},
 			"description": "A measure of a volume for this specified fuel."
 		},
 		"workingPressureMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureType"
+			},
 			"description": "A working pressure measure for this specified fuel."
 		}
 	},

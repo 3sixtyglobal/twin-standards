@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"associatedEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceCorrectiveEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCorrectiveEvent"
+			},
 			"description": "A corrective event associated with this declared error."
 		},
 		"issueDateTime": {

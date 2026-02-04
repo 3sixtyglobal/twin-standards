@@ -108,7 +108,10 @@
 			"description": "A Track and Trace (TT) location related to this animal holding event."
 		},
 		"relatedTechnicalCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTechnicalCharacteristic"
+			},
 			"description": "A technical characteristic related to this animal holding event."
 		},
 		"typeCode": {

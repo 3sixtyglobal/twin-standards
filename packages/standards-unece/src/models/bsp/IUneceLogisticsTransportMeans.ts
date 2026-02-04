@@ -44,25 +44,25 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The draught level measured at the aft end of this transport means.
 	 * @see https://vocabulary.uncefact.org/aftDraughtLevelMeasure
 	 */
-	aftDraughtLevelMeasure?: IUneceMeasureType;
+	aftDraughtLevelMeasure?: IUneceMeasureType[];
 
 	/**
 	 * An air draught level measure for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/airDraughtLevelMeasure
 	 */
-	airDraughtLevelMeasure?: IUneceLinearUnitMeasureType;
+	airDraughtLevelMeasure?: IUneceLinearUnitMeasureType[];
 
 	/**
 	 * A service charge, such as a freight charge, applicable to this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/applicableServiceCharge
 	 */
-	applicableServiceCharge?: IUneceServiceCharge;
+	applicableServiceCharge?: IUneceServiceCharge[];
 
 	/**
 	 * A sustainability characteristic applicable to this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * The indication of whether or not there is an approved security plan onboard this logistics transport means.
@@ -74,31 +74,31 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * An IOT device attached to this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/attachedIOTDevice
 	 */
-	attachedIOTDevice?: IUneceIOTDevice;
+	attachedIOTDevice?: IUneceIOTDevice[];
 
 	/**
 	 * A piece of logistics transport equipment attached to this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/attachedLogisticsTransportEquipment
 	 */
-	attachedLogisticsTransportEquipment?: IUneceLogisticsTransportEquipment;
+	attachedLogisticsTransportEquipment?: IUneceLogisticsTransportEquipment[];
 
 	/**
 	 * A call sign identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/callSignId
 	 */
-	callSignId?: string;
+	callSignId: string;
 
 	/**
 	 * A certified level of pollution calculated for an emission from this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/certifiedEmission
 	 */
-	certifiedEmission?: IUneceEmission;
+	certifiedEmission?: IUneceEmission[];
 
 	/**
 	 * A person who is a company security officer for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/companySecurityOfficerPerson
 	 */
-	companySecurityOfficerPerson?: IUneceTransportPerson;
+	companySecurityOfficerPerson?: IUneceTransportPerson[];
 
 	/**
 	 * The code specifying the conference for this logistics means of transport.
@@ -110,7 +110,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The measure of the draught level of this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/draughtLevelMeasure
 	 */
-	draughtLevelMeasure?: IUneceMeasureType;
+	draughtLevelMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The indication of whether or not this logistics means of transport is accompanied by a driver.
@@ -122,7 +122,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The draught level measured at the fore end of this transport means.
 	 * @see https://vocabulary.uncefact.org/forwardDraughtLevelMeasure
 	 */
-	forwardDraughtLevelMeasure?: IUneceMeasureType;
+	forwardDraughtLevelMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The indication of whether or not there is a helipad on this logistics means of transport.
@@ -134,7 +134,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The IMO (International Maritime Organization) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/iMOId
 	 */
-	iMOId?: string;
+	iMOId: string;
 
 	/**
 	 * The code specifying the International Ship and Port facility Security (ISPS) level assigned to this logistics means of
@@ -178,7 +178,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * A measure of the width of this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/linearUnitWidthMeasure
 	 */
-	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType;
+	linearUnitWidthMeasure?: IUneceLinearUnitMeasureType[];
 
 	/**
 	 * The measure of the cargo loaded onto this logistics means of transport, such as the number of barrels of oil or other
@@ -197,7 +197,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The MMSI (Maritime Mobile Service Identity) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/mMSIId
 	 */
-	mMSIId?: string;
+	mMSIId: string;
 
 	/**
 	 * The manoeuvring speed measured for this logistics means of transport.
@@ -209,7 +209,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The manufacturer party for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty;
+	manufacturerParty?: IUneceTradeParty[];
 
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this logistics means of transport.
@@ -221,7 +221,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * A certificate applicable to a maritime logistics transport means.
 	 * @see https://vocabulary.uncefact.org/maritimeApplicableCertificate
 	 */
-	maritimeApplicableCertificate?: IUneceSpecifiedCertificate;
+	maritimeApplicableCertificate?: IUneceSpecifiedCertificate[];
 
 	/**
 	 * The name, expressed as text, of this logistics means of transport.
@@ -251,7 +251,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The party owning this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty;
+	ownerParty?: IUneceTradeParty[];
 
 	/**
 	 * The country of registration of this logistics means of transport.
@@ -263,19 +263,19 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * A registration event of this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/registrationEvent
 	 */
-	registrationEvent?: IUneceTransportEvent;
+	registrationEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A transport service required for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/requiredService
 	 */
-	requiredService?: IUneceService;
+	requiredService?: IUneceService[];
 
 	/**
 	 * A sanitation control document for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/sanitationControlDocument
 	 */
-	sanitationControlDocument?: IUneceDocument;
+	sanitationControlDocument?: IUneceDocument[];
 
 	/**
 	 * The indication of whether or not a Sanitation Control Exemption or Certificate re-inspection is required for this
@@ -294,31 +294,31 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * A trade party providing services for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/serviceProviderParty
 	 */
-	serviceProviderParty?: IUneceTradeParty;
+	serviceProviderParty?: IUneceTradeParty[];
 
 	/**
 	 * Spatial dimensions specified for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/specifiedDimension
 	 */
-	specifiedDimension?: IUneceSpatialDimension;
+	specifiedDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * A calculated emission specified for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/specifiedEmission
 	 */
-	specifiedEmission?: IUneceEmission;
+	specifiedEmission?: IUneceEmission[];
 
 	/**
 	 * An identified defect specified for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/specifiedFault
 	 */
-	specifiedFault?: IUneceIdentifiedFault;
+	specifiedFault?: IUneceIdentifiedFault[];
 
 	/**
 	 * Handling instructions specified for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/specifiedHandlingInstructions
 	 */
-	specifiedHandlingInstructions?: IUneceHandlingInstructions;
+	specifiedHandlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * The type, expressed as text, of this logistics means of transport.
@@ -330,7 +330,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28).
 	 * @see https://vocabulary.uncefact.org/transportMeansTypeCode
 	 */
-	transportMeansTypeCode?: UneceTransportMeansTypeCodeList;
+	transportMeansTypeCode?: UneceTransportMeansTypeCodeList[];
 
 	/**
 	 * The indication of whether or not there is a valid Sanitation Control Exemption or Certificate onboard this logistics
@@ -371,7 +371,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * The measure of the tare weight (mass) of this logistics means of transport which is the weight (mass) including

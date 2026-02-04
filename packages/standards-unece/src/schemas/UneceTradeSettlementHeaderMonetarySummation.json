@@ -96,35 +96,59 @@
 			"description": "JSON-LD Type."
 		},
 		"adjustedBalanceOutAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value that is an adjusted amount balanced out for this trade settlement header monetary summation."
 		},
 		"allowanceTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all allowance amounts being reported in this trade settlement header monetary summation."
 		},
 		"applicableHeaderBalanceOut": {
-			"$ref": "https://schema.twindev.org/unece/UneceHeaderBalanceOut",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceHeaderBalanceOut"
+			},
 			"description": "A header balance out applicable to this trade settlement header monetary summation."
 		},
 		"balanceOutAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value that is an amount balanced out for this trade settlement header monetary summation."
 		},
 		"chargeTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all charge amounts being reported in this trade settlement header monetary summation."
 		},
 		"duePayableAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor."
 		},
 		"excludingTaxesLineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all line amounts, excluding all duties and taxes, being reported in this trade settlement header monetary summation."
 		},
 		"grandTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the grand total of this trade settlement header monetary summation, to include addition and subtraction of individual summation amounts."
 		},
 		"grandTotalSpecifiedAdjustment": {
@@ -132,83 +156,143 @@
 			"description": "The financial adjustment of the grand total specified for this trade settlement header monetary summation."
 		},
 		"grossLineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all line amounts, excluding line level allowances and charges and taxes, being reported in this trade settlement header monetary summation."
 		},
 		"includingTaxesLineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all line amounts, including all duties and taxes, being reported in this trade settlement header monetary summation."
 		},
 		"informationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of an amount being reported for information in this trade settlement header monetary summation."
 		},
 		"insuranceChargeTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all insurance charges being reported in this trade settlement header monetary summation."
 		},
 		"lineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the line amount total being reported in this trade settlement header monetary summation."
 		},
 		"netIncludingTaxesLineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement header monetary summation."
 		},
 		"netLineTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all line amounts, including line level allowances and charges and excluding line level taxes, being reported in this trade settlement header monetary summation."
 		},
 		"paymentTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a payment total reported in this header trade settlement payment monetary summation."
 		},
 		"productValueExcludingTobaccoTaxInformationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value which constitutes the total product value, excluding tobacco tax, stated for information purposes in this trade settlement header monetary summation."
 		},
 		"retailValueExcludingTaxInformationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value which constitutes the retail value, excluding all duties and taxes, stated for information purposes in this trade settlement header monetary summation."
 		},
 		"roundingAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a rounding amount being applied in this trade settlement header monetary summation."
 		},
 		"specifiedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A document referenced for this trade settlement header monetary summation."
 		},
 		"taxBasisTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all tax basis amounts being reported in this trade settlement monetary summation."
 		},
 		"taxTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation."
 		},
 		"totalAllowanceChargeAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a total allowance and charge reported in this trade settlement header monetary summation."
 		},
 		"totalDepositFeeInformationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the total deposit fee stated for information purposes in this trade settlement header monetary summation."
 		},
 		"totalDiscountAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a total discount reported in this trade settlement header monetary summation."
 		},
 		"totalDiscountBasisAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a total discount basis reported in this trade settlement header monetary summation."
 		},
 		"totalPrepaidAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of a prepaid total reported in this trade settlement header monetary summation."
 		},
 		"totalRetailValueInformationAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value which constitutes the total retail value stated for information purposes in this trade settlement header monetary summation."
 		}
 	},

@@ -27,19 +27,19 @@ export interface IUneceTradeSettlementPaymentMonetarySummation extends IJsonLdNo
 	 * A monetary value that is an adjusted amount balanced out for this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/adjustedBalanceOutAmount
 	 */
-	adjustedBalanceOutAmount?: IUneceAmountType;
+	adjustedBalanceOutAmount?: IUneceAmountType[];
 
 	/**
 	 * A balance out applicable to this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/applicablePaymentBalanceOut
 	 */
-	applicablePaymentBalanceOut?: IUnecePaymentBalanceOut;
+	applicablePaymentBalanceOut?: IUnecePaymentBalanceOut[];
 
 	/**
 	 * A monetary value that is an amount balanced out for this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/balanceOutAmount
 	 */
-	balanceOutAmount?: IUneceAmountType;
+	balanceOutAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value transferred as an equivalent amount in the credit transfer payment in this trade settlement payment
@@ -47,36 +47,36 @@ export interface IUneceTradeSettlementPaymentMonetarySummation extends IJsonLdNo
 	 * in the currency of the debtor's account, and transferred into a different currency.
 	 * @see https://vocabulary.uncefact.org/equivalentTransferTotalAmount
 	 */
-	equivalentTransferTotalAmount?: IUneceAmountType;
+	equivalentTransferTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of a grand total reported in this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/grandTotalAmount
 	 */
-	grandTotalAmount?: IUneceAmountType;
+	grandTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of the line total, including taxes, being reported in this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/includingTaxesLineTotalAmount
 	 */
-	includingTaxesLineTotalAmount?: IUneceAmountType;
+	includingTaxesLineTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of the net total of all line amounts, including line level allowances and charges and excluding line
 	 * level taxes, being reported in this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/netLineTotalAmount
 	 */
-	netLineTotalAmount?: IUneceAmountType;
+	netLineTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of a payment total reported in this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/paymentTotalAmount
 	 */
-	paymentTotalAmount?: IUneceAmountType;
+	paymentTotalAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation.
 	 * @see https://vocabulary.uncefact.org/taxTotalAmount
 	 */
-	taxTotalAmount?: IUneceAmountType;
+	taxTotalAmount?: IUneceAmountType[];
 }

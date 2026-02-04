@@ -31,7 +31,7 @@ export interface IUneceProductHandlingProcess extends IJsonLdNodeObject {
 	 * A process characteristic applicable to this product handling process.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCharacteristic
 	 */
-	applicableProcessCharacteristic?: IUneceProcessCharacteristic;
+	applicableProcessCharacteristic?: IUneceProcessCharacteristic[];
 
 	/**
 	 * The specified period of completion for this product handling process.
@@ -55,5 +55,5 @@ export interface IUneceProductHandlingProcess extends IJsonLdNodeObject {
 	 * The code specifying the type of product handling process.
 	 * @see https://vocabulary.uncefact.org/processTypeCode
 	 */
-	processTypeCode?: UneceProcessTypeCodeList;
+	processTypeCode?: UneceProcessTypeCodeList[];
 }

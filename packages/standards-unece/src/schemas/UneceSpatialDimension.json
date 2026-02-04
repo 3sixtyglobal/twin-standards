@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"componentSpatialDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpatialDimension"
+			},
 			"description": "A dimension that is a component of this spatial dimension."
 		},
 		"description": {
@@ -132,7 +135,10 @@
 			"description": "The measure of the length component of this spatial dimension."
 		},
 		"linearUnitWidthMeasure": {
-			"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLinearUnitMeasureType"
+			},
 			"description": "The measure of the width component of this spatial dimension."
 		},
 		"unitQuantity": {
@@ -149,7 +155,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"dimensionTypeCode"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -33,7 +33,7 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * A binary file attached to this specified inspection.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A textual description of this specified inspection.
@@ -81,13 +81,13 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * A referenced document for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * An inspection event for this specified inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent;
+	specifiedInspectionEvent?: IUneceInspectionEvent[];
 
 	/**
 	 * The status for this specified inspection.

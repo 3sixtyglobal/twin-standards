@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableProcessCertificate?
 
-> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
+> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate applicable to this waste material recovery disposal process.
 

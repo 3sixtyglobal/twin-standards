@@ -133,7 +133,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"submittedDateTime"
 	],
 	"additionalProperties": {
 		"anyOf": [

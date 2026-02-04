@@ -80,7 +80,7 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * A quantity event element specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/quantitySpecifiedEventElement
 	 */
-	quantitySpecifiedEventElement?: IUneceEventElement;
+	quantitySpecifiedEventElement?: IUneceEventElement[];
 
 	/**
 	 * The read point related location of this TT object event.
@@ -92,13 +92,13 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value at which this TT object event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
 	 */
-	recordedDateTime?: string;
+	recordedDateTime: string;
 
 	/**
 	 * A certification related to this TT object event.
 	 * @see https://vocabulary.uncefact.org/relatedCertification
 	 */
-	relatedCertification?: IUneceSpecifiedCertification;
+	relatedCertification?: IUneceSpecifiedCertification[];
 
 	/**
 	 * A source related party for this TT object event.
@@ -110,11 +110,11 @@ export interface IUneceTTObjectEvent extends IJsonLdNodeObject {
 	 * A declared error specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/specifiedError
 	 */
-	specifiedError?: IUneceError;
+	specifiedError?: IUneceError[];
 
 	/**
 	 * A trade transaction specified for this TT object event.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeTransaction
 	 */
-	specifiedTradeTransaction?: IUneceTTTradeTransaction;
+	specifiedTradeTransaction?: IUneceTTTradeTransaction[];
 }

@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### additionalStatementNote?
 
-> `optional` **additionalStatementNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **additionalStatementNote**: [`IUneceNote`](IUneceNote.md)[]
 
 An additional statement note for this exchanged declaration.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableCustomsValuation
 
 ### associatedDocument?
 
-> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document associated with this exchanged declaration.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/jurisdictionEntryDateTime
 
 ### previousDocument?
 
-> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A previous document referenced for this exchanged declaration.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/previousDocument
 
 ### principalAssociatedParty?
 
-> `optional` **principalAssociatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **principalAssociatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A principal trade party associated with this exchanged declaration.
 

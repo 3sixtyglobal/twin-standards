@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### cropProportionPercent?
+### cropProportionPercent
 
-> `optional` **cropProportionPercent**: `string`
+> **cropProportionPercent**: `string`
 
 The percent of the crop proportion of this field crop mixture constituent.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/cropProportionPercent
 
 ***
 
-### specifiedBotanicalCrop?
+### specifiedBotanicalCrop
 
-> `optional` **specifiedBotanicalCrop**: [`IUneceBotanicalCrop`](IUneceBotanicalCrop.md)
+> **specifiedBotanicalCrop**: [`IUneceBotanicalCrop`](IUneceBotanicalCrop.md)
 
 The botanical crop specified for this field crop mixture constituent.
 

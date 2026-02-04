@@ -38,13 +38,13 @@ export interface IUneceStowaway extends IJsonLdNodeObject {
 	 * Personal language proficiency skills claimed by this found stowaway.
 	 * @see https://vocabulary.uncefact.org/claimedLanguageProficiency
 	 */
-	claimedLanguageProficiency?: IUneceLanguageProficiency;
+	claimedLanguageProficiency?: IUneceLanguageProficiency[];
 
 	/**
 	 * An identifier of a nationality claimed by this found stowaway.
 	 * @see https://vocabulary.uncefact.org/countryClaimedNationalityId
 	 */
-	countryClaimedNationalityId?: UneceCountryId;
+	countryClaimedNationalityId?: UneceCountryId[];
 
 	/**
 	 * A date, time, date time, or other date time value on which this found stowaway is discovered.
@@ -56,13 +56,13 @@ export interface IUneceStowaway extends IJsonLdNodeObject {
 	 * A logistics location where a found stowaway embarked upon the transport means on which they were discovered.
 	 * @see https://vocabulary.uncefact.org/embarkationLocation
 	 */
-	embarkationLocation?: IUneceLogisticsLocation;
+	embarkationLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A home address for this found stowaway.
 	 * @see https://vocabulary.uncefact.org/homeAddress
 	 */
-	homeAddress?: IUneceTradeAddress;
+	homeAddress?: IUneceTradeAddress[];
 
 	/**
 	 * A code specifying a location of an intended destination for this found stowaway.
@@ -92,7 +92,7 @@ export interface IUneceStowaway extends IJsonLdNodeObject {
 	 * A binary file providing a photographic picture of this found stowaway.
 	 * @see https://vocabulary.uncefact.org/photographicPictureBinaryFile
 	 */
-	photographicPictureBinaryFile?: IUneceBinaryFile;
+	photographicPictureBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * The physical description, expressed as text, of this found stowaway.
@@ -110,7 +110,7 @@ export interface IUneceStowaway extends IJsonLdNodeObject {
 	 * A person or department that acts as a point of contact with or for this found stowaway.
 	 * @see https://vocabulary.uncefact.org/providedContact
 	 */
-	providedContact?: IUneceTradeContact;
+	providedContact?: IUneceTradeContact[];
 
 	/**
 	 * A name, expressed as text, as provided by this found stowaway.

@@ -37,13 +37,13 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A product characteristic applicable to this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic;
+	applicableProductCharacteristic?: IUneceProductCharacteristic[];
 
 	/**
 	 * A sustainability characteristic applicable to this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A common name, expressed as text, for this distinct chemical.
@@ -79,13 +79,13 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A mass measure of this distinct chemical expressed as a ratio to another mass, such as the total mass.
 	 * @see https://vocabulary.uncefact.org/massRatioMeasure
 	 */
-	massRatioMeasure?: IUneceMeasureType;
+	massRatioMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The measure of the molecular weight (in grams) for this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/molecularWeightMeasure
 	 */
-	molecularWeightMeasure?: IUneceMeasureType;
+	molecularWeightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measurement of the range of the presence of an ingredient in this distinct chemical.
@@ -109,7 +109,7 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A product certificate specified for this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/specifiedProductCertificate
 	 */
-	specifiedProductCertificate?: IUneceProductCertificate;
+	specifiedProductCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * A synonym name, expressed as text, for this distinct chemical.
@@ -127,13 +127,13 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A measure of the volume of this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/volumeMeasure
 	 */
-	volumeMeasure?: IUneceMeasureType;
+	volumeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the volume of this distinct chemical expressed as a ratio to another volume, such as the total volume.
 	 * @see https://vocabulary.uncefact.org/volumeRatioMeasure
 	 */
-	volumeRatioMeasure?: IUneceMeasureType;
+	volumeRatioMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the weight of this distinct chemical.

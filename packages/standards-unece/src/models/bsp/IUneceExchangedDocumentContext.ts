@@ -26,31 +26,31 @@ export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
 	 * An application context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/applicationSpecifiedParameter
 	 */
-	applicationSpecifiedParameter?: IUneceDocumentContextParameter;
+	applicationSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * A Business Information Master (BIM) context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/bIMSpecifiedParameter
 	 */
-	bIMSpecifiedParameter?: IUneceDocumentContextParameter;
+	bIMSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * A business process context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/businessProcessSpecifiedParameter
 	 */
-	businessProcessSpecifiedParameter?: IUneceDocumentContextParameter;
+	businessProcessSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * A guideline context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/guidelineSpecifiedParameter
 	 */
-	guidelineSpecifiedParameter?: IUneceDocumentContextParameter;
+	guidelineSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * The message standard document context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/messageStandardSpecifiedParameter
 	 */
-	messageStandardSpecifiedParameter?: IUneceDocumentContextParameter;
+	messageStandardSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * The date, time, date time, or other date time value of the processing of a transaction for this exchanged document
@@ -63,7 +63,7 @@ export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
 	 * A scenario context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/scenarioSpecifiedParameter
 	 */
-	scenarioSpecifiedParameter?: IUneceDocumentContextParameter;
+	scenarioSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * The identifier of a specified transaction in this exchanged document context.
@@ -75,7 +75,7 @@ export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
 	 * A subset context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/subsetSpecifiedParameter
 	 */
-	subsetSpecifiedParameter?: IUneceDocumentContextParameter;
+	subsetSpecifiedParameter?: IUneceDocumentContextParameter[];
 
 	/**
 	 * The indication of whether or not this exchanged document context is a test.
@@ -87,5 +87,5 @@ export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
 	 * A user specified document context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/userSpecifiedParameter
 	 */
-	userSpecifiedParameter?: IUneceDocumentContextParameter;
+	userSpecifiedParameter?: IUneceDocumentContextParameter[];
 }

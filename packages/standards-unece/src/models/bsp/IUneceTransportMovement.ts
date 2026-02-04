@@ -64,31 +64,31 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A cross-border regulatory procedure applicable to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/applicableRegulatoryProcedure
 	 */
-	applicableRegulatoryProcedure?: IUneceRegulatoryProcedure;
+	applicableRegulatoryProcedure?: IUneceRegulatoryProcedure[];
 
 	/**
 	 * A service charge, such as a freight charge, applicable to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/applicableServiceCharge
 	 */
-	applicableServiceCharge?: IUneceServiceCharge;
+	applicableServiceCharge?: IUneceServiceCharge[];
 
 	/**
 	 * A specified inspection applicable to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/applicableSpecifiedInspection
 	 */
-	applicableSpecifiedInspection?: IUneceSpecifiedInspection;
+	applicableSpecifiedInspection?: IUneceSpecifiedInspection[];
 
 	/**
 	 * A sustainability characteristic applicable to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A sustainability inspection applicable to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityInspection
 	 */
-	applicableSustainabilityInspection?: IUneceSustainabilityInspection;
+	applicableSustainabilityInspection?: IUneceSustainabilityInspection[];
 
 	/**
 	 * An arrival event for this logistics transport movement.
@@ -112,13 +112,13 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A border crossing event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/borderCrossingEvent
 	 */
-	borderCrossingEvent?: IUneceTransportEvent;
+	borderCrossingEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A call event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/callEvent
 	 */
-	callEvent?: IUneceTransportEvent;
+	callEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A code specifying a call purpose for this logistics transport movement.
@@ -136,14 +136,14 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Material characteristics of goods carried during this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/carriedGoodsCharacteristic
 	 */
-	carriedGoodsCharacteristic?: IUneceGoodsCharacteristic;
+	carriedGoodsCharacteristic?: IUneceGoodsCharacteristic[];
 
 	/**
 	 * Details of transport means inactively carried during the transport movement, such as trucks on a Roll-On/Roll-Off (RORO)
 	 * ferry.
 	 * @see https://vocabulary.uncefact.org/carriedInactiveTransportMeans
 	 */
-	carriedInactiveTransportMeans?: IUneceTransportMeans;
+	carriedInactiveTransportMeans?: IUneceTransportMeans[];
 
 	/**
 	 * The carrier agent trade party for this logistics transport movement.
@@ -155,7 +155,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A carrier party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/carrierParty
 	 */
-	carrierParty?: IUneceTradeParty;
+	carrierParty?: IUneceTradeParty[];
 
 	/**
 	 * The date, time, date time, or other date time value by which cargo should be loaded onto the means of transport for the
@@ -198,19 +198,19 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Crew nationality details for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/crewNationalityCountry
 	 */
-	crewNationalityCountry?: IUneceCountry;
+	crewNationalityCountry?: IUneceCountry[];
 
 	/**
 	 * A person who is a member of the crew of the means of transport used for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/crewPerson
 	 */
-	crewPerson?: IUneceTransportPerson;
+	crewPerson?: IUneceTransportPerson[];
 
 	/**
 	 * Personal effects of an individual member of the crew for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/crewPersonalEffects
 	 */
-	crewPersonalEffects?: IUnecePersonalEffects;
+	crewPersonalEffects?: IUnecePersonalEffects[];
 
 	/**
 	 * The number of crew members for this logistics transport movement.
@@ -228,7 +228,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A damage event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/damageEvent
 	 */
-	damageEvent?: IUneceTransportEvent;
+	damageEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The indication of whether or not dangerous goods are carried for this logistics transport movement.
@@ -246,19 +246,19 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A party to be notified of the documentary instructions for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/documentaryInstructionsNotifiedParty
 	 */
-	documentaryInstructionsNotifiedParty?: IUneceTradeParty;
+	documentaryInstructionsNotifiedParty?: IUneceTradeParty[];
 
 	/**
 	 * An excess transport service for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/excessTransportService
 	 */
-	excessTransportService?: IUneceService;
+	excessTransportService?: IUneceService[];
 
 	/**
 	 * The first arrival event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/firstArrivalEvent
 	 */
-	firstArrivalEvent?: IUneceTransportEvent;
+	firstArrivalEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The International Ship and Port facility Security code (ISPS) document related to this transport movement.
@@ -282,7 +282,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * An inspection party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/inspectionParty
 	 */
-	inspectionParty?: IUneceTradeParty;
+	inspectionParty?: IUneceTradeParty[];
 
 	/**
 	 * A route in the itinerary of this logistics transport movement.
@@ -313,7 +313,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Loading inspection instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/loadingInspectionSpecifiedInstructions
 	 */
-	loadingInspectionSpecifiedInstructions?: IUneceTransportInstructions;
+	loadingInspectionSpecifiedInstructions?: IUneceTransportInstructions[];
 
 	/**
 	 * The code specifying a status for the logistics transport movement, such as estimated or final.
@@ -361,19 +361,19 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A party to be notified about this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/notifiedParty
 	 */
-	notifiedParty?: IUneceTradeParty;
+	notifiedParty?: IUneceTradeParty[];
 
 	/**
 	 * A stores inventory item held onboard for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/onboardInventory
 	 */
-	onboardInventory?: IUneceStoresItemInventory;
+	onboardInventory?: IUneceStoresItemInventory[];
 
 	/**
 	 * A person onboard this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/onboardPerson
 	 */
-	onboardPerson?: IUneceTransportPerson;
+	onboardPerson?: IUneceTransportPerson[];
 
 	/**
 	 * The number of onboard persons for this logistics transport movement.
@@ -397,7 +397,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Passenger nationality details for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/passengerNationalityCountry
 	 */
-	passengerNationalityCountry?: IUneceCountry;
+	passengerNationalityCountry?: IUneceCountry[];
 
 	/**
 	 * The number of passengers for this logistics transport movement.
@@ -433,13 +433,13 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * MDH (Maritime Declaration of Health) transportation health information reported for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/reportedTransportationHealth
 	 */
-	reportedTransportationHealth?: IUneceTransportationHealth;
+	reportedTransportationHealth?: IUneceTransportationHealth[];
 
 	/**
 	 * Transportation waste material reported for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/reportedTransportationWasteMaterial
 	 */
-	reportedTransportationWasteMaterial?: IUneceTransportationWasteMaterial;
+	reportedTransportationWasteMaterial?: IUneceTransportationWasteMaterial[];
 
 	/**
 	 * Sailing advice notification information, expressed as text, for this logistics transport movement.
@@ -451,7 +451,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A party to be notified of the sailing advice for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/sailingAdviceNotifiedParty
 	 */
-	sailingAdviceNotifiedParty?: IUneceTradeParty;
+	sailingAdviceNotifiedParty?: IUneceTradeParty[];
 
 	/**
 	 * A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as
@@ -482,55 +482,55 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A ship to ship event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/shipToShipEvent
 	 */
-	shipToShipEvent?: IUneceTransportEvent;
+	shipToShipEvent?: IUneceTransportEvent[];
 
 	/**
 	 * Special transport instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specialSpecifiedInstructions
 	 */
-	specialSpecifiedInstructions?: IUneceTransportInstructions;
+	specialSpecifiedInstructions?: IUneceTransportInstructions[];
 
 	/**
 	 * A calculated emission specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedEmission
 	 */
-	specifiedEmission?: IUneceEmission;
+	specifiedEmission?: IUneceEmission[];
 
 	/**
 	 * Handling instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedHandlingInstructions
 	 */
-	specifiedHandlingInstructions?: IUneceHandlingInstructions;
+	specifiedHandlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * A status specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsStatus
 	 */
-	specifiedLogisticsStatus?: IUneceLogisticsStatus;
+	specifiedLogisticsStatus?: IUneceLogisticsStatus[];
 
 	/**
 	 * An organizational certificate specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 	 */
-	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate;
+	specifiedOrganizationalCertificate?: IUneceOrganizationalCertificate[];
 
 	/**
 	 * A process certificate specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate;
+	specifiedProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A result of a logistics risk analysis calculation specified for this transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 	 */
-	specifiedRiskAnalysisResult?: IUneceRiskAnalysisResult;
+	specifiedRiskAnalysisResult?: IUneceRiskAnalysisResult[];
 
 	/**
 	 * A transport event specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/specifiedTransportEvent
 	 */
-	specifiedTransportEvent?: IUneceTransportEvent;
+	specifiedTransportEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A stage, expressed as text, of this logistics transport movement.
@@ -548,7 +548,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A stevedore party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/stevedoreParty
 	 */
-	stevedoreParty?: IUneceTradeParty;
+	stevedoreParty?: IUneceTradeParty[];
 
 	/**
 	 * A unique identifier for this logistics transport movement as assigned by a terminal operator.
@@ -560,13 +560,13 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A terminal operator party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/terminalOperatorParty
 	 */
-	terminalOperatorParty?: IUneceTradeParty;
+	terminalOperatorParty?: IUneceTradeParty[];
 
 	/**
 	 * A towing vessel transport movement related to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/towingVesselRelatedTransportMovement
 	 */
-	towingVesselRelatedTransportMovement?: IUneceTransportMovement;
+	towingVesselRelatedTransportMovement?: IUneceTransportMovement[];
 
 	/**
 	 * The number of traded parcels of cargo being transported in this logistics transport movement.
@@ -632,13 +632,13 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Transport waste disposal instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/transportWasteSpecifiedInstructions
 	 */
-	transportWasteSpecifiedInstructions?: IUneceDisposalInstructions;
+	transportWasteSpecifiedInstructions?: IUneceDisposalInstructions[];
 
 	/**
 	 * A transshipment intermediate event during this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/transshipmentIntermediateEvent
 	 */
-	transshipmentIntermediateEvent?: IUneceTransportEvent;
+	transshipmentIntermediateEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The unloading event during which goods will be or have been unloaded from the means of transport used for this logistics
@@ -657,7 +657,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Unloading inspection instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/unloadingInspectionSpecifiedInstructions
 	 */
-	unloadingInspectionSpecifiedInstructions?: IUneceTransportInstructions;
+	unloadingInspectionSpecifiedInstructions?: IUneceTransportInstructions[];
 
 	/**
 	 * The means of transport used for this logistics transport movement.

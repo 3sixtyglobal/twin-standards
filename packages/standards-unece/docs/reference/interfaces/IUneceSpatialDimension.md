@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### componentSpatialDimension?
 
-> `optional` **componentSpatialDimension**: `IUneceSpatialDimension`
+> `optional` **componentSpatialDimension**: `IUneceSpatialDimension`[]
 
 A dimension that is a component of this spatial dimension.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### dimensionTypeCode?
+### dimensionTypeCode
 
-> `optional` **dimensionTypeCode**: [`UneceDimensionTypeCodeList`](../type-aliases/UneceDimensionTypeCodeList.md)
+> **dimensionTypeCode**: [`UneceDimensionTypeCodeList`](../type-aliases/UneceDimensionTypeCodeList.md)
 
 The code specifying the type of spatial dimension, such as thickness, area, or volume.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/linearUnitLengthMeasure
 
 ### linearUnitWidthMeasure?
 
-> `optional` **linearUnitWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
+> `optional` **linearUnitWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
 
 The measure of the width component of this spatial dimension.
 

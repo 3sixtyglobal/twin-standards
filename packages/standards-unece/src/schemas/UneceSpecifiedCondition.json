@@ -108,7 +108,10 @@
 			"description": "A name, expressed as text, for this specified condition."
 		},
 		"specifiedMeasurement": {
-			"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceCalibratedMeasurement"
+			},
 			"description": "A calibrated measurement specified for this specified condition."
 		},
 		"statement": {
@@ -120,7 +123,10 @@
 			"description": "A code specifying a statement for this specified condition."
 		},
 		"subjectTypeCode": {
-			"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSubjectCodeList"
+			},
 			"description": "A code specifying a subject type for this specified condition."
 		},
 		"valueMeasure": {

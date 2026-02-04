@@ -49,9 +49,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### level?
+### level
 
-> `optional` **level**: `string`
+> **level**: `string`
 
 The level, expressed as text, of this CS engineering coordinate reference system.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedDelimitedPeriod?
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this CS engineering coordinate reference system.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod?
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this CS engineering coordinate reference system.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ### subordinateCoordinateReferenceSystem?
 
-> `optional` **subordinateCoordinateReferenceSystem**: `IUneceCoordinateReferenceSystem`
+> `optional` **subordinateCoordinateReferenceSystem**: `IUneceCoordinateReferenceSystem`[]
 
 A CS engineering coordinate reference system subordinate to this CS engineering coordinate reference system.
 

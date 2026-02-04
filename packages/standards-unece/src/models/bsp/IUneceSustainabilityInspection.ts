@@ -41,19 +41,19 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A characteristic applicable to this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A binary file attached for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A textual description of this sustainability inspection.
@@ -95,13 +95,13 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * A referenced document specified for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedDocument
 	 */
-	specifiedDocument?: IUneceDocument;
+	specifiedDocument?: IUneceDocument[];
 
 	/**
 	 * A specified inspection event for this sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent;
+	specifiedInspectionEvent?: IUneceInspectionEvent[];
 
 	/**
 	 * The inspection status specified for this sustainability inspection.

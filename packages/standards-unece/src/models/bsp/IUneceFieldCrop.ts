@@ -31,13 +31,13 @@ export interface IUneceFieldCrop extends IJsonLdNodeObject {
 	 * An agricultural process crop production applicable for this field crop.
 	 * @see https://vocabulary.uncefact.org/applicableAgriculturalProcess
 	 */
-	applicableAgriculturalProcess?: IUneceAgriculturalProcess;
+	applicableAgriculturalProcess?: IUneceAgriculturalProcess[];
 
 	/**
 	 * An agricultural application applied to this field crop.
 	 * @see https://vocabulary.uncefact.org/appliedAgriculturalApplication
 	 */
-	appliedAgriculturalApplication?: IUneceAgriculturalApplication;
+	appliedAgriculturalApplication?: IUneceAgriculturalApplication[];
 
 	/**
 	 * The class name, expressed as a text, for this field crop.
@@ -85,13 +85,13 @@ export interface IUneceFieldCrop extends IJsonLdNodeObject {
 	 * The plot where this field crop is grown.
 	 * @see https://vocabulary.uncefact.org/grownPlot
 	 */
-	grownPlot?: IUnecePlot;
+	grownPlot: IUnecePlot;
 
 	/**
 	 * A field crop grown previous to this field crop.
 	 * @see https://vocabulary.uncefact.org/grownPreviousCrop
 	 */
-	grownPreviousCrop?: IUneceFieldCrop;
+	grownPreviousCrop?: IUneceFieldCrop[];
 
 	/**
 	 * The date, time, date time, or other date time value for the harvest of this field crop.
@@ -103,7 +103,7 @@ export interface IUneceFieldCrop extends IJsonLdNodeObject {
 	 * Produce harvested from this field crop.
 	 * @see https://vocabulary.uncefact.org/harvestedProduce
 	 */
-	harvestedProduce?: IUneceProduce;
+	harvestedProduce?: IUneceProduce[];
 
 	/**
 	 * A code specifying a reason for planting this field crop.
@@ -145,11 +145,11 @@ export interface IUneceFieldCrop extends IJsonLdNodeObject {
 	 * An agricultural characteristic specified for this field crop.
 	 * @see https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 	 */
-	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic;
+	specifiedAgriculturalCharacteristic?: IUneceAgriculturalCharacteristic[];
 
 	/**
 	 * A field crop mixture constituent specified for this field crop.
 	 * @see https://vocabulary.uncefact.org/specifiedCropMixtureConstituent
 	 */
-	specifiedCropMixtureConstituent?: IUneceCropMixtureConstituent;
+	specifiedCropMixtureConstituent: IUneceCropMixtureConstituent[];
 }

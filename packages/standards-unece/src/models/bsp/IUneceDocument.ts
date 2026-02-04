@@ -55,7 +55,7 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * A specified binary file attached to this referenced document.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A binary object that is attached or otherwise appended to this referenced document.
@@ -85,7 +85,7 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * A contractual clause of this referenced document.
 	 * @see https://vocabulary.uncefact.org/contractualClause
 	 */
-	contractualClause?: IUneceClause;
+	contractualClause?: IUneceClause[];
 
 	/**
 	 * The indication of whether or not this referenced document requires a control.
@@ -187,13 +187,13 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * A monetary value included in this referenced document.
 	 * @see https://vocabulary.uncefact.org/includedAmount
 	 */
-	includedAmount?: IUneceAmountType;
+	includedAmount?: IUneceAmountType[];
 
 	/**
 	 * A note included in this referenced document.
 	 * @see https://vocabulary.uncefact.org/includedNote
 	 */
-	includedNote?: IUneceNote;
+	includedNote?: IUneceNote[];
 
 	/**
 	 * Information, expressed as text, for this referenced document.
@@ -217,19 +217,19 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * The unique issuer assigned identifier for this referenced document.
 	 * @see https://vocabulary.uncefact.org/issuerAssignedId
 	 */
-	issuerAssignedId?: string;
+	issuerAssignedId: string;
 
 	/**
 	 * The trade related party that issues this referenced document.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty;
+	issuerParty?: IUneceTradeParty[];
 
 	/**
 	 * Handling instructions specified by the issuer for this referenced document.
 	 * @see https://vocabulary.uncefact.org/issuerSpecifiedInstructions
 	 */
-	issuerSpecifiedInstructions?: IUneceDocumentHandlingInstructions;
+	issuerSpecifiedInstructions?: IUneceDocumentHandlingInstructions[];
 
 	/**
 	 * The unique identifier of an item in this referenced document.
@@ -295,7 +295,7 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * An identifier for a previous revision of this referenced document.
 	 * @see https://vocabulary.uncefact.org/previousRevisionId
 	 */
-	previousRevisionId?: string;
+	previousRevisionId: string;
 
 	/**
 	 * A process condition, expressed as text, for this referenced document.
@@ -325,7 +325,7 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * A trade related party that receives this referenced document.
 	 * @see https://vocabulary.uncefact.org/recipientTradeParty
 	 */
-	recipientTradeParty?: IUneceTradeParty;
+	recipientTradeParty: IUneceTradeParty[];
 
 	/**
 	 * The reference date or date time for this referenced document.
@@ -338,7 +338,7 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * replacement of an original document.
 	 * @see https://vocabulary.uncefact.org/referenceRelationshipTypeCode
 	 */
-	referenceRelationshipTypeCode?: UneceReferenceCodeList;
+	referenceRelationshipTypeCode: UneceReferenceCodeList;
 
 	/**
 	 * The code specifying the reference type of this referenced document.
@@ -392,13 +392,13 @@ export interface IUneceDocument extends IJsonLdNodeObject {
 	 * A signatory authentication for this referenced document.
 	 * @see https://vocabulary.uncefact.org/signatoryAuthentication
 	 */
-	signatoryAuthentication?: IUneceAuthentication;
+	signatoryAuthentication: IUneceAuthentication[];
 
 	/**
 	 * Status information specified for this referenced document.
 	 * @see https://vocabulary.uncefact.org/specifiedDocumentStatus
 	 */
-	specifiedDocumentStatus?: IUneceDocumentStatus;
+	specifiedDocumentStatus?: IUneceDocumentStatus[];
 
 	/**
 	 * A status, expressed as text, for this referenced document.

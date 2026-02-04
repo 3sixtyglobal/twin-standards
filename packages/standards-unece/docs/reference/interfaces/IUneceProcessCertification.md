@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this process certification.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/assertionCode
 
 ### relatedLocation?
 
-> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location related to this process certification.
 

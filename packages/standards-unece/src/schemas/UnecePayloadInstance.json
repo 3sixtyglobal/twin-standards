@@ -156,7 +156,10 @@
 			"description": "The profile identifier for this XHE payload instance."
 		},
 		"relevantReference": {
-			"$ref": "https://schema.twindev.org/unece/UneceXHEReference",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceXHEReference"
+			},
 			"description": "A reference relevant to this XHE payload instance."
 		},
 		"validationTypeCode": {
@@ -169,7 +172,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"encryptedIndicator"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate specified for this transportation waste recovery disposal process.
 

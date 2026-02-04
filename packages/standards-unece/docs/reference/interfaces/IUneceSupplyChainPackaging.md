@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/additionalInstructionIndicator
 
 ### applicableDisposalInstructions?
 
-> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
+> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
 Disposal instructions for this supply chain packaging.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableDisposalInstructions
 
 ### applicableGoodsCharacteristic?
 
-> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
+> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
 Material goods characteristic applicable to this supply chain packaging.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ### applicablePackagingInstructions?
 
-> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)
+> `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)[]
 
 Packaging instructions applicable to this supply chain packaging.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicablePackagingInstructions
 
 ### applicableReturnableAssetInstructions?
 
-> `optional` **applicableReturnableAssetInstructions**: [`IUneceReturnableAssetInstructions`](IUneceReturnableAssetInstructions.md)
+> `optional` **applicableReturnableAssetInstructions**: [`IUneceReturnableAssetInstructions`](IUneceReturnableAssetInstructions.md)[]
 
 Returnable asset instructions for this supply chain packaging.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ### maximumLinearDimension?
 
-> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 The maximum linear spatial dimensions of this supply chain packaging.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightMeasure
 
 ### minimumLinearDimension?
 
-> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 The minimum linear spatial dimensions of this supply chain packaging.
 
@@ -352,7 +352,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedMarking?
 
-> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)
+> `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)[]
 
 A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership,
 quality, manufacture or origin.

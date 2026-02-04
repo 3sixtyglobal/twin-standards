@@ -96,15 +96,24 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableLineTradeAgreement": {
-			"$ref": "https://schema.twindev.org/unece/UneceLineTradeAgreement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLineTradeAgreement"
+			},
 			"description": "A trade agreement applicable to this line trade transaction, such as payment or delivery terms."
 		},
 		"applicableLineTradeDelivery": {
-			"$ref": "https://schema.twindev.org/unece/UneceLineTradeDelivery",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLineTradeDelivery"
+			},
 			"description": "A trade delivery applicable to this line trade transaction."
 		},
 		"includedTradeProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "A trade product included in this line trade transaction."
 		}
 	},

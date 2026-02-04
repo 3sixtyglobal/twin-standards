@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/parentObjectId
 
 ### quantitySpecifiedEventElement?
 
-> `optional` **quantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)
+> `optional` **quantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
 
 A quantity event element specified for this TT transaction event.
 
@@ -169,9 +169,9 @@ https://vocabulary.uncefact.org/readPointRelatedLocation
 
 ***
 
-### recordedDateTime?
+### recordedDateTime
 
-> `optional` **recordedDateTime**: `string`
+> **recordedDateTime**: `string`
 
 The date, time, date time, or other date time value at which this TT transaction event was recorded.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/recordedDateTime
 
 ### relatedCertification?
 
-> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)
+> `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)[]
 
 A certification related to this TT transaction event.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/sourceRelatedParty
 
 ### specifiedError?
 
-> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)
+> `optional` **specifiedError**: [`IUneceError`](IUneceError.md)[]
 
 A declared error specified for this TT transaction event.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/specifiedError
 
 ### specifiedTradeTransaction?
 
-> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)
+> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
 
 A trade transaction specified for this TT transaction event.
 

@@ -28,13 +28,13 @@ export interface IUneceProductFinishingTreatment extends IJsonLdNodeObject {
 	 * A process certificate applicable to this specified product finishing treatment.
 	 * @see https://vocabulary.uncefact.org/applicableProcessCertificate
 	 */
-	applicableProcessCertificate?: IUneceProcessCertificate;
+	applicableProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * A sustainability characteristic applicable to this specified product finishing treatment.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A textual description of this specified product finishing treatment.
@@ -58,5 +58,5 @@ export interface IUneceProductFinishingTreatment extends IJsonLdNodeObject {
 	 * Material used for this specified product finishing treatment.
 	 * @see https://vocabulary.uncefact.org/usedMaterial
 	 */
-	usedMaterial?: IUneceSpecifiedMaterial;
+	usedMaterial?: IUneceSpecifiedMaterial[];
 }

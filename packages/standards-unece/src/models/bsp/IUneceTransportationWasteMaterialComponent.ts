@@ -29,13 +29,13 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * A product certificate applicable to this transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableProductCertificate
 	 */
-	applicableProductCertificate?: IUneceProductCertificate;
+	applicableProductCertificate?: IUneceProductCertificate[];
 
 	/**
 	 * A sustainability characteristic applicable to this transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A textual description for this transportation waste material component.
@@ -65,7 +65,7 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * A delivery event for this remaining transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/remainingDeliveryEvent
 	 */
-	remainingDeliveryEvent?: IUneceTransportEvent;
+	remainingDeliveryEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A code specifying a type of transportation waste material component.

@@ -100,7 +100,10 @@
 			"description": "The actual quantity for this work item quantity analysis."
 		},
 		"actualQuantityDimension": {
-			"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceWorkItemDimension"
+			},
 			"description": "A work item dimension of the actual quantity in this work item quantity analysis."
 		},
 		"actualQuantityPercent": {
@@ -112,11 +115,17 @@
 			"description": "A code specifying an alternative classification value for this work item quantity analysis."
 		},
 		"breakdownQuantityAnalysis": {
-			"$ref": "https://schema.twindev.org/unece/UneceQuantityAnalysis",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceQuantityAnalysis"
+			},
 			"description": "A quantity analysis breakdown of this work item quantity analysis."
 		},
 		"changedStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceRecordedStatus"
+			},
 			"description": "A changed recorded status for this work item quantity analysis."
 		},
 		"contractualLanguageCode": {

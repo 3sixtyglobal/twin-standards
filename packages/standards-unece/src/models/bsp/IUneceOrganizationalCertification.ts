@@ -28,7 +28,7 @@ export interface IUneceOrganizationalCertification extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this organizational certification.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * An assertion, expressed as text, for this organizational certification.
@@ -47,7 +47,7 @@ export interface IUneceOrganizationalCertification extends IJsonLdNodeObject {
 	 * A referenced location related to this organizational certification.
 	 * @see https://vocabulary.uncefact.org/relatedLocation
 	 */
-	relatedLocation?: IUneceLocation;
+	relatedLocation?: IUneceLocation[];
 
 	/**
 	 * An agency, expressed as text, responsible for this organizational certification.

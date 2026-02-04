@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/appliedFromLocation
 
 ### appliedTax?
 
-> `optional` **appliedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
+> `optional` **appliedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A tax that is applied to this logistics service charge.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/calculationBasisPrice
 
 ### calculationBasisQuantity?
 
-> `optional` **calculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **calculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number used as a basis in a calculation of this logistics service charge.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/chargeCategoryCode
 
 ### chargeCurrencyCode?
 
-> `optional` **chargeCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
+> `optional` **chargeCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
 
 A code specifying a charge currency for this logistics service charge.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/description
 
 ### disbursementAmount?
 
-> `optional` **disbursementAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **disbursementAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a disbursement for this logistics service charge.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/paymentPlaceLocation
 
 ### postTranshipmentCalculationBasisQuantity?
 
-> `optional` **postTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **postTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number used as a basis in a post-transhipment calculation of this logistics service charge.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/postTranshipmentCalculationBasisQuantity
 
 ### preTranshipmentCalculationBasisQuantity?
 
-> `optional` **preTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **preTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number used as a basis in a pre-transhipment calculation of this logistics service charge.
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/serviceTypeCode
 
 ### specifiedPaymentMeans?
 
-> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
+> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)[]
 
 The trade settlement payment means specified for this logistics service charge.
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/specifiedPaymentMeans
 
 ### tariffCurrencyCode?
 
-> `optional` **tariffCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
+> `optional` **tariffCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
 
 A code specifying a tariff currency for this logistics service charge.
 

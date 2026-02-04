@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/faultType
 
 ### operationalApplicableTolerance?
 
-> `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)
+> `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 An applicable operational tolerance of this specified fault.
 

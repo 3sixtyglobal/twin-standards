@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/changeableIndicator
 
 ### definedRange?
 
-> `optional` **definedRange**: [`IUneceRange`](IUneceRange.md)
+> `optional` **definedRange**: [`IUneceRange`](IUneceRange.md)[]
 
 A defined range specified for this operational parameter.
 

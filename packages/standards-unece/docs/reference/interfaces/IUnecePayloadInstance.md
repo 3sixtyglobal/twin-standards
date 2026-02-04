@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ***
 
-### encryptedIndicator?
+### encryptedIndicator
 
-> `optional` **encryptedIndicator**: `boolean`
+> **encryptedIndicator**: `boolean`
 
 The indication of whether or not this XHE payload instance is encrypted.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/profileId
 
 ### relevantReference?
 
-> `optional` **relevantReference**: [`IUneceXHEReference`](IUneceXHEReference.md)
+> `optional` **relevantReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
 
 A reference relevant to this XHE payload instance.
 

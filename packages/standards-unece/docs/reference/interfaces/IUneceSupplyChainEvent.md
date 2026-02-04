@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualStatus
 
 ### associatedReference?
 
-> `optional` **associatedReference**: [`IUneceSupplyChainReference`](IUneceSupplyChainReference.md)
+> `optional` **associatedReference**: [`IUneceSupplyChainReference`](IUneceSupplyChainReference.md)[]
 
 A reference associated with this supply chain event.
 
@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### earliestOccurrenceDateTime?
+### earliestOccurrenceDateTime
 
-> `optional` **earliestOccurrenceDateTime**: `string`
+> **earliestOccurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the earliest occurrence of this supply chain event.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latestOccurrenceDateTime?
+### latestOccurrenceDateTime
 
-> `optional` **latestOccurrenceDateTime**: `string`
+> **latestOccurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the latest occurrence of this supply chain event.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ### occurrencePeriod?
 
-> `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period of time during which this supply chain event occurs.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/occurrencePeriod
 
 ### relatedSustainabilityCharacteristic?
 
-> `optional` **relatedSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **relatedSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic related to this supply chain event.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/relatedSustainabilityCharacteristic
 
 ### relatedTechnicalCharacteristic?
 
-> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
+> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic related to this supply chain event.
 
@@ -228,9 +228,9 @@ https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 
 ***
 
-### timeOccurrenceDateTime?
+### timeOccurrenceDateTime
 
-> `optional` **timeOccurrenceDateTime**: `string`
+> **timeOccurrenceDateTime**: `string`
 
 A time value of an occurrence of this supply chain event.
 

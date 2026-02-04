@@ -38,7 +38,7 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * A trade contact defined for this location party.
 	 * @see https://vocabulary.uncefact.org/definedContact
 	 */
-	definedContact?: IUneceTradeContact;
+	definedContact?: IUneceTradeContact[];
 
 	/**
 	 * A textual description of this location party.
@@ -50,7 +50,7 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * Fax communication information for this location party.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication;
+	faxCommunication?: IUneceCommunication[];
 
 	/**
 	 * A unique identifier of this location party.
@@ -74,13 +74,13 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * A postal address for this location party.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress;
+	postalAddress?: IUneceTradeAddress[];
 
 	/**
 	 * A transport service provided by this location party.
 	 * @see https://vocabulary.uncefact.org/providedService
 	 */
-	providedService?: IUneceService;
+	providedService?: IUneceService[];
 
 	/**
 	 * A logistics location or place specified for this party.

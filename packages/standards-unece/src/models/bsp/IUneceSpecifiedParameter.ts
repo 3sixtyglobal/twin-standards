@@ -57,7 +57,7 @@ export interface IUneceSpecifiedParameter extends IJsonLdNodeObject {
 	 * A measure of a value of the status for this specified parameter.
 	 * @see https://vocabulary.uncefact.org/statusValueMeasure
 	 */
-	statusValueMeasure?: IUneceMeasureType;
+	statusValueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The code specifying the type of parameter.
@@ -87,5 +87,5 @@ export interface IUneceSpecifiedParameter extends IJsonLdNodeObject {
 	 * A tolerance specified for the value of this parameter.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

@@ -105,7 +105,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"associatedGeographicalObjectCharacteristic"
 	],
 	"additionalProperties": {
 		"anyOf": [

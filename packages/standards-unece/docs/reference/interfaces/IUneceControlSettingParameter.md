@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### requestedRange?
 
-> `optional` **requestedRange**: [`IUneceRange`](IUneceRange.md)
+> `optional` **requestedRange**: [`IUneceRange`](IUneceRange.md)[]
 
 A requested range specified for this control setting parameter.
 

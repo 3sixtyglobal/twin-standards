@@ -27,13 +27,13 @@ export interface IUneceProduce extends IJsonLdNodeObject {
 	 * A measure of the calculated yield, such as weight per surface area unit, of this crop produce.
 	 * @see https://vocabulary.uncefact.org/calculatedYieldMeasure
 	 */
-	calculatedYieldMeasure?: IUneceMeasureType;
+	calculatedYieldMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the estimated yield, such as weight per surface area unit, of this crop produce.
 	 * @see https://vocabulary.uncefact.org/estimatedYieldMeasure
 	 */
-	estimatedYieldMeasure?: IUneceMeasureType;
+	estimatedYieldMeasure?: IUneceMeasureType[];
 
 	/**
 	 * An identifier for this crop produce.
@@ -45,7 +45,7 @@ export interface IUneceProduce extends IJsonLdNodeObject {
 	 * An input batch crop produce, such as seed or fertilizer, specified for this crop produce.
 	 * @see https://vocabulary.uncefact.org/inputSpecifiedBatch
 	 */
-	inputSpecifiedBatch?: IUneceCropProduceBatch;
+	inputSpecifiedBatch: IUneceCropProduceBatch[];
 
 	/**
 	 * The name, expressed as text, for this crop produce.
@@ -57,7 +57,7 @@ export interface IUneceProduce extends IJsonLdNodeObject {
 	 * An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce.
 	 * @see https://vocabulary.uncefact.org/outputSpecifiedBatch
 	 */
-	outputSpecifiedBatch?: IUneceCropProduceBatch;
+	outputSpecifiedBatch: IUneceCropProduceBatch[];
 
 	/**
 	 * The code specifying the subordinate type of crop produce, such as product or by-product.

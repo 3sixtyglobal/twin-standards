@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"additionalStatementNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "An additional statement note for this exchanged declaration."
 		},
 		"applicableCustomsValuation": {
@@ -104,7 +107,10 @@
 			"description": "Customs valuation information applicable to this exchanged declaration."
 		},
 		"associatedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document associated with this exchanged declaration."
 		},
 		"currencyExchangeRate": {
@@ -144,11 +150,17 @@
 			"description": "The date, time, date time or other date time value when the items which are a subject of this exchanged declaration enter a jurisdiction, such as the actual date of arrival of a means of transport."
 		},
 		"previousDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A previous document referenced for this exchanged declaration."
 		},
 		"principalAssociatedParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A principal trade party associated with this exchanged declaration."
 		},
 		"procedureCode": {

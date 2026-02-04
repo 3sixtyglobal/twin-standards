@@ -27,29 +27,29 @@ export interface IUneceSubordinateLineTradeAgreement extends IJsonLdNodeObject {
 	 * An additional document referenced in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/additionalDocument
 	 */
-	additionalDocument?: IUneceDocument;
+	additionalDocument?: IUneceDocument[];
 
 	/**
 	 * A buyer generated order document referenced in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDocument
 	 */
-	buyerOrderDocument?: IUneceDocument;
+	buyerOrderDocument?: IUneceDocument[];
 
 	/**
 	 * A gross product price in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/grossPriceProductPrice
 	 */
-	grossPriceProductPrice?: IUneceTradePrice;
+	grossPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * A net product price in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/netPriceProductPrice
 	 */
-	netPriceProductPrice?: IUneceTradePrice;
+	netPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * The seller generated order document referenced in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerOrderDocument
 	 */
-	sellerOrderDocument?: IUneceDocument;
+	sellerOrderDocument?: IUneceDocument[];
 }

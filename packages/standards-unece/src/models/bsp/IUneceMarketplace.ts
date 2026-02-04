@@ -39,7 +39,7 @@ export interface IUneceMarketplace extends IJsonLdNodeObject {
 	 * An available ordering period for this specified marketplace.
 	 * @see https://vocabulary.uncefact.org/orderingAvailablePeriod
 	 */
-	orderingAvailablePeriod?: IUneceAvailablePeriod;
+	orderingAvailablePeriod?: IUneceAvailablePeriod[];
 
 	/**
 	 * The code specifying a sales method, such as an auction clock or mediation, for this specified marketplace.

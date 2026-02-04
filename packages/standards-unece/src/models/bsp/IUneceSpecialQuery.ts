@@ -61,7 +61,7 @@ export interface IUneceSpecialQuery extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value when this special query was submitted.
 	 * @see https://vocabulary.uncefact.org/submittedDateTime
 	 */
-	submittedDateTime?: string;
+	submittedDateTime: string;
 
 	/**
 	 * A name, expressed as text, of the person submitting this special query.

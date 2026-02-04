@@ -129,7 +129,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"receiverSpecifiedParty",
+		"senderSpecifiedParty"
 	],
 	"additionalProperties": {
 		"anyOf": [

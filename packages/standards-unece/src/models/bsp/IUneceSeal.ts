@@ -59,7 +59,7 @@ export interface IUneceSeal extends IJsonLdNodeObject {
 	 * A code specifying a condition of this logistics seal.
 	 * @see https://vocabulary.uncefact.org/sealConditionCode
 	 */
-	sealConditionCode?: UneceSealConditionCodeList;
+	sealConditionCode?: UneceSealConditionCodeList[];
 
 	/**
 	 * The role, expressed as text, of the party responsible for the sealing of this logistics seal.

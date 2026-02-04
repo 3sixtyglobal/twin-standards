@@ -112,11 +112,17 @@
 			"description": "The identifier of the session for this electronic negotiation exchange."
 		},
 		"specifiedContext": {
-			"$ref": "https://schema.twindev.org/unece/UneceNegotiationContext",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNegotiationContext"
+			},
 			"description": "A context specified for this electronic negotiation exchange."
 		},
 		"specifiedIssue": {
-			"$ref": "https://schema.twindev.org/unece/UneceIssue",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceIssue"
+			},
 			"description": "A target issue specified for this electronic negotiation exchange."
 		},
 		"typeCode": {
@@ -125,7 +131,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"sessionId"
 	],
 	"additionalProperties": {
 		"anyOf": [

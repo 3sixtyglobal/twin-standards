@@ -27,7 +27,7 @@ export interface IUneceRadioactiveMaterial extends IJsonLdNodeObject {
 	 * An isotope applicable to this radioactive material.
 	 * @see https://vocabulary.uncefact.org/applicableRadioactiveIsotope
 	 */
-	applicableRadioactiveIsotope?: IUneceRadioactiveIsotope;
+	applicableRadioactiveIsotope?: IUneceRadioactiveIsotope[];
 
 	/**
 	 * The textual description of the composition of this radioactive material.

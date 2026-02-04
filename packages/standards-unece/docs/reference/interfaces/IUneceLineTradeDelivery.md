@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/acceptanceEvent
 
 ### actualDeliveryEvent?
 
-> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An actual delivery event, at line level, for this trade delivery.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ### actualDespatchEvent?
 
-> `optional` **actualDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **actualDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An actual despatch event, at line level, for this trade delivery.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/actualUnloadingEvent
 
 ### additionalDocument?
 
-> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An additional document, at line level, referenced for this trade delivery.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/applicableDangerousGoods
 
 ### availableInventory?
 
-> `optional` **availableInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)
+> `optional` **availableInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
 Inventory available, at line level, for this trade delivery.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/availableInventory
 
 ### availableQuantity?
 
-> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The quantity, at line level, available for this trade delivery.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/buyerOrderDateTime
 
 ### cancelledQuantity?
 
-> `optional` **cancelledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **cancelledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The quantity, at line level, cancelled for this trade delivery.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/classificationDocument
 
 ### confirmedDeliveryEvent?
 
-> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The confirmed delivery event, at line level, for this trade delivery.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/confirmedDeliveryEvent
 
 ### confirmedDespatchEvent?
 
-> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The despatch event, at line level, confirmed for this trade delivery.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/confirmedReleaseEvent
 
 ### consignmentInventory?
 
-> `optional` **consignmentInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)
+> `optional` **consignmentInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
 Supply chain consignment inventory, at line level, for this trade delivery.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/consumptionReportDocument
 
 ### consumptionSchedule?
 
-> `optional` **consumptionSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **consumptionSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain consumption schedule, at line level, for this trade delivery.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/consumptionSchedule
 
 ### customerInventory?
 
-> `optional` **customerInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)
+> `optional` **customerInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
 Supply chain customer inventory, at line level, for this trade delivery.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/customerInventory
 
 ### deliveryNoteDocument?
 
-> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 The delivery note document, at line level, referenced for this trade delivery.
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/deliveryNoteDocument
 
 ### deliverySchedule?
 
-> `optional` **deliverySchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **deliverySchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain delivery schedule, at line level, for this trade delivery.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/despatchAdviceDocument
 
 ### despatchSchedule?
 
-> `optional` **despatchSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **despatchSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain despatch schedule, at line level, for this trade delivery.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/destroyedQuantity
 
 ### disposalParty?
 
-> `optional` **disposalParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **disposalParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A disposal party, at line level, for this trade delivery.
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/disposalParty
 
 ### dueInAvailableQuantity?
 
-> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The due in available quantity, at line level, for this trade delivery.
 
@@ -567,7 +567,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedPackaging?
 
-> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
+> `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
 Packaging included, at line level, in this trade delivery.
 
@@ -591,7 +591,7 @@ https://vocabulary.uncefact.org/individualPackageQuantity
 
 ### informationNote?
 
-> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note with information, at line level, for this trade delivery.
 
@@ -603,7 +603,7 @@ https://vocabulary.uncefact.org/informationNote
 
 ### inventoryManagerParty?
 
-> `optional` **inventoryManagerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **inventoryManagerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 An inventory manager party, at line level, for this trade delivery.
 
@@ -651,7 +651,7 @@ https://vocabulary.uncefact.org/lineTradeDeliveryQuantityVariationTypeCode
 
 ### logisticsPackage?
 
-> `optional` **logisticsPackage**: [`IUnecePackage`](IUnecePackage.md)
+> `optional` **logisticsPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
 A referenced logistics package, at line level, for this trade delivery.
 
@@ -663,7 +663,7 @@ https://vocabulary.uncefact.org/logisticsPackage
 
 ### logisticsServiceProviderParty?
 
-> `optional` **logisticsServiceProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **logisticsServiceProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A logistics service provider party, at line level, for this trade delivery.
 
@@ -699,7 +699,7 @@ https://vocabulary.uncefact.org/orderQuantity
 
 ### orderSchedule?
 
-> `optional` **orderSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **orderSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain order schedule, at line level, for this trade delivery.
 
@@ -759,7 +759,7 @@ https://vocabulary.uncefact.org/partialDeliveryAllowedIndicator
 
 ### perPackageUnitQuantity?
 
-> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The number of units per package, at line level, in this trade delivery.
 
@@ -784,7 +784,7 @@ https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
 
 ### plannedConsignment?
 
-> `optional` **plannedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
+> `optional` **plannedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
 A consignment, at line level, planned for this trade delivery.
 
@@ -796,7 +796,7 @@ https://vocabulary.uncefact.org/plannedConsignment
 
 ### plannedDeliveryEvent?
 
-> `optional` **plannedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A delivery event, at line level, planned for this trade delivery.
 
@@ -808,7 +808,7 @@ https://vocabulary.uncefact.org/plannedDeliveryEvent
 
 ### plannedDespatchEvent?
 
-> `optional` **plannedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A despatch event, at line level, planned for this trade delivery.
 
@@ -832,7 +832,7 @@ https://vocabulary.uncefact.org/plannedPickUpEvent
 
 ### plannedShipToDeliveryEvent?
 
-> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 The planned ship to delivery event, at line level, for this trade delivery.
 
@@ -856,7 +856,7 @@ https://vocabulary.uncefact.org/productUnitQuantity
 
 ### projectedSupplyPlan?
 
-> `optional` **projectedSupplyPlan**: [`IUneceSupplyPlan`](IUneceSupplyPlan.md)
+> `optional` **projectedSupplyPlan**: [`IUneceSupplyPlan`](IUneceSupplyPlan.md)[]
 
 A supply plan, at line level, projected for this trade delivery.
 
@@ -904,7 +904,7 @@ https://vocabulary.uncefact.org/quantityVariationReasonCode
 
 ### receiptSchedule?
 
-> `optional` **receiptSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **receiptSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain receipt schedule, at line level, for this trade delivery.
 
@@ -928,7 +928,7 @@ https://vocabulary.uncefact.org/receivedQuantity
 
 ### receivingAdviceDocument?
 
-> `optional` **receivingAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **receivingAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A receiving advice document, at line level, referenced for this trade delivery.
 
@@ -952,7 +952,7 @@ https://vocabulary.uncefact.org/rejectedQuantity
 
 ### relatedConsignment?
 
-> `optional` **relatedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)
+> `optional` **relatedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
 A consignment, at line level, related to this line trade delivery.
 
@@ -976,7 +976,7 @@ https://vocabulary.uncefact.org/remainingRequestedQuantity
 
 ### requestedDeliveryEvent?
 
-> `optional` **requestedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **requestedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A delivery event, at line level, requested for this trade delivery.
 
@@ -988,7 +988,7 @@ https://vocabulary.uncefact.org/requestedDeliveryEvent
 
 ### requestedDespatchEvent?
 
-> `optional` **requestedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **requestedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A despatch event, at line level, requested for this trade delivery.
 
@@ -1036,7 +1036,7 @@ https://vocabulary.uncefact.org/reverseBilledQuantity
 
 ### shipFromParty?
 
-> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ship from party, at line level, for this trade delivery.
 
@@ -1048,7 +1048,7 @@ https://vocabulary.uncefact.org/shipFromParty
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ship to party, at line level, for this trade delivery.
 
@@ -1072,7 +1072,7 @@ https://vocabulary.uncefact.org/shipmentScheduleDocument
 
 ### specifiedDeliveryAdjustment?
 
-> `optional` **specifiedDeliveryAdjustment**: [`IUneceDeliveryAdjustment`](IUneceDeliveryAdjustment.md)
+> `optional` **specifiedDeliveryAdjustment**: [`IUneceDeliveryAdjustment`](IUneceDeliveryAdjustment.md)[]
 
 A delivery adjustment, at line level, specified for this trade delivery.
 
@@ -1084,7 +1084,7 @@ https://vocabulary.uncefact.org/specifiedDeliveryAdjustment
 
 ### specifiedDeliveryInstructions?
 
-> `optional` **specifiedDeliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)
+> `optional` **specifiedDeliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)[]
 
 Delivery instructions, at line level, specified for this trade delivery.
 
@@ -1096,7 +1096,7 @@ https://vocabulary.uncefact.org/specifiedDeliveryInstructions
 
 ### specifiedHandlingInstructions?
 
-> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions, at line level, specified for this trade delivery.
 
@@ -1108,7 +1108,7 @@ https://vocabulary.uncefact.org/specifiedHandlingInstructions
 
 ### specifiedPackage?
 
-> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)
+> `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
 A logistics package, at line level, specified for this trade delivery.
 
@@ -1120,7 +1120,7 @@ https://vocabulary.uncefact.org/specifiedPackage
 
 ### specifiedSchedule?
 
-> `optional` **specifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **specifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply chain schedule, specified at line level, for this trade delivery.
 
@@ -1132,7 +1132,7 @@ https://vocabulary.uncefact.org/specifiedSchedule
 
 ### splitQuantity?
 
-> `optional` **splitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **splitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A split quantity for this line trade delivery.
 
@@ -1168,7 +1168,7 @@ https://vocabulary.uncefact.org/subordinateId
 
 ### supplySpecifiedSchedule?
 
-> `optional` **supplySpecifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)
+> `optional` **supplySpecifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
 A supply (replenishment) schedule, specified at line level, for this trade delivery.
 
@@ -1205,7 +1205,7 @@ https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
 
 ### ultimateShipToParty?
 
-> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ultimate ship to party, at line level, for this trade delivery.
 
@@ -1217,7 +1217,7 @@ https://vocabulary.uncefact.org/ultimateShipToParty
 
 ### unavailableQuantity?
 
-> `optional` **unavailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **unavailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 The quantity, at line level, unavailable for this trade delivery.
 
@@ -1229,7 +1229,7 @@ https://vocabulary.uncefact.org/unavailableQuantity
 
 ### usedLabel?
 
-> `optional` **usedLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)
+> `optional` **usedLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 A logistics label, at line level, used for this trade delivery.
 
@@ -1241,7 +1241,7 @@ https://vocabulary.uncefact.org/usedLabel
 
 ### utilizedTransportEquipment?
 
-> `optional` **utilizedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)
+> `optional` **utilizedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
 
 A piece of logistics transport equipment, at line level, utilized for this trade delivery.
 
@@ -1265,7 +1265,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ### volumeUnitNetVolumeMeasure?
 
-> `optional` **volumeUnitNetVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
+> `optional` **volumeUnitNetVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
 The measure, at line level, of the net volume of this line trade delivery.
 
@@ -1301,7 +1301,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 The measure, at line level, of the net weight (mass) of this trade delivery.
 

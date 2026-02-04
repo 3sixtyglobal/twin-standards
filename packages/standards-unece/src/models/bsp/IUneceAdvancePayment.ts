@@ -41,7 +41,7 @@ export interface IUneceAdvancePayment extends IJsonLdNodeObject {
 	 * A tax included in this advance payment.
 	 * @see https://vocabulary.uncefact.org/includedTax
 	 */
-	includedTax?: IUneceTradeTax;
+	includedTax?: IUneceTradeTax[];
 
 	/**
 	 * An invoice document referenced by this advance payment.

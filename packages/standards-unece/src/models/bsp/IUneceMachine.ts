@@ -34,13 +34,13 @@ export interface IUneceMachine extends IJsonLdNodeObject {
 	 * A production machine combined with this production machine.
 	 * @see https://vocabulary.uncefact.org/combinedMachine
 	 */
-	combinedMachine?: IUneceMachine;
+	combinedMachine?: IUneceMachine[];
 
 	/**
 	 * A production device combined with this production machine.
 	 * @see https://vocabulary.uncefact.org/combinedProductionDevice
 	 */
-	combinedProductionDevice?: IUneceProductionDevice;
+	combinedProductionDevice?: IUneceProductionDevice[];
 
 	/**
 	 * A textual description of the function of this production machine.
@@ -58,25 +58,25 @@ export interface IUneceMachine extends IJsonLdNodeObject {
 	 * An input batch applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/inputApplicableBatch
 	 */
-	inputApplicableBatch?: IUneceProductBatch;
+	inputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Input material applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/inputApplicableMaterial
 	 */
-	inputApplicableMaterial?: IUneceSpecifiedMaterial;
+	inputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An input product applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/inputApplicableProduct
 	 */
-	inputApplicableProduct?: IUneceTradeProduct;
+	inputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A measure of the input capacity of this production machine.
 	 * @see https://vocabulary.uncefact.org/inputCapacityMeasure
 	 */
-	inputCapacityMeasure?: IUneceMeasureType;
+	inputCapacityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A type, expressed as text, for this production machine.
@@ -88,55 +88,55 @@ export interface IUneceMachine extends IJsonLdNodeObject {
 	 * An operational parameter applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/operationalApplicableParameter
 	 */
-	operationalApplicableParameter?: IUneceSpecifiedParameter;
+	operationalApplicableParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * An output product batch applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/outputApplicableBatch
 	 */
-	outputApplicableBatch?: IUneceProductBatch;
+	outputApplicableBatch?: IUneceProductBatch[];
 
 	/**
 	 * Output material applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/outputApplicableMaterial
 	 */
-	outputApplicableMaterial?: IUneceSpecifiedMaterial;
+	outputApplicableMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * An output product applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/outputApplicableProduct
 	 */
-	outputApplicableProduct?: IUneceTradeProduct;
+	outputApplicableProduct?: IUneceTradeProduct[];
 
 	/**
 	 * A measure of the output capacity of this production machine.
 	 * @see https://vocabulary.uncefact.org/outputCapacityMeasure
 	 */
-	outputCapacityMeasure?: IUneceMeasureType;
+	outputCapacityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * An IOT (Internet of Things) device or scanning device reporting event for this production machine.
 	 * @see https://vocabulary.uncefact.org/reportingIOTDeviceSupplyChainEvent
 	 */
-	reportingIOTDeviceSupplyChainEvent?: IUneceSupplyChainEvent;
+	reportingIOTDeviceSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A requested operational parameter applicable to this production machine.
 	 * @see https://vocabulary.uncefact.org/requestedOperationalApplicableParameter
 	 */
-	requestedOperationalApplicableParameter?: IUneceSpecifiedParameter;
+	requestedOperationalApplicableParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A referenced location specified for this production machine.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation;
+	specifiedLocation?: IUneceLocation[];
 
 	/**
 	 * A facility production unit specified for this production machine.
 	 * @see https://vocabulary.uncefact.org/specifiedProductionUnit
 	 */
-	specifiedProductionUnit?: IUneceProductionUnit;
+	specifiedProductionUnit?: IUneceProductionUnit[];
 
 	/**
 	 * The code specifying the subordinate type of this production machine.

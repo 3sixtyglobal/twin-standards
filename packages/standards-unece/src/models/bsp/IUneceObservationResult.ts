@@ -45,13 +45,13 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * A specified method applicable to this sample observation result.
 	 * @see https://vocabulary.uncefact.org/applicableMethod
 	 */
-	applicableMethod?: IUneceSpecifiedMethod;
+	applicableMethod?: IUneceSpecifiedMethod[];
 
 	/**
 	 * A note attached to the laboratory observation results with additional observations and or conclusions.
 	 * @see https://vocabulary.uncefact.org/attachedLaboratoryObservationNote
 	 */
-	attachedLaboratoryObservationNote?: IUneceLaboratoryObservationNote;
+	attachedLaboratoryObservationNote?: IUneceLaboratoryObservationNote[];
 
 	/**
 	 * The laboratory observation party who authorized this sample observation result.
@@ -70,7 +70,7 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * this sample observation result.
 	 * @see https://vocabulary.uncefact.org/expectedValueSpecifiedObservationResultCharacteristic
 	 */
-	expectedValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic;
+	expectedValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic[];
 
 	/**
 	 * The general characteristic, expressed as text, for this sample observation result, such as length, volume, density,
@@ -89,13 +89,13 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * An applicable observation objective parameter of the interpretation result for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 	 */
-	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter;
+	interpretationResultApplicableParameter?: IUneceObservationObjectiveParameter[];
 
 	/**
 	 * A laboratory observation analysis request reference specified for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/laboratoryAnalysisRequestSpecifiedReference
 	 */
-	laboratoryAnalysisRequestSpecifiedReference?: IUneceLaboratoryObservationReference;
+	laboratoryAnalysisRequestSpecifiedReference?: IUneceLaboratoryObservationReference[];
 
 	/**
 	 * The context material type of the observed sample, expressed as text, such as animal or blood.
@@ -114,14 +114,14 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/maximumStandardValueSpecifiedObservationResultCharacteristic
 	 */
-	maximumStandardValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic;
+	maximumStandardValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic[];
 
 	/**
 	 * A minimum standard value of the values for the characteristic observed or measured by using the specified type of
 	 * observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/minimumStandardValueSpecifiedObservationResultCharacteristic
 	 */
-	minimumStandardValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic;
+	minimumStandardValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic[];
 
 	/**
 	 * The observation discontinuation reason, expressed as text, for this sample observation result.
@@ -146,7 +146,7 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/observedValueSpecifiedObservationResultCharacteristic
 	 */
-	observedValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic;
+	observedValueSpecifiedObservationResultCharacteristic?: IUneceObservationResultCharacteristic[];
 
 	/**
 	 * The outsourced laboratory party who performed this sample observation result.
@@ -170,17 +170,17 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * A set of laboratory observation instructions specified for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/specifiedLaboratoryObservationInstructions
 	 */
-	specifiedLaboratoryObservationInstructions?: IUneceLaboratoryObservationInstructions;
+	specifiedLaboratoryObservationInstructions?: IUneceLaboratoryObservationInstructions[];
 
 	/**
 	 * A laboratory observation reference specified for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 	 */
-	specifiedLaboratoryObservationReference?: IUneceLaboratoryObservationReference;
+	specifiedLaboratoryObservationReference?: IUneceLaboratoryObservationReference[];
 
 	/**
 	 * A laboratory observation analysis method used for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/usedMethod
 	 */
-	usedMethod?: IUneceLaboratoryObservationAnalysisMethod;
+	usedMethod?: IUneceLaboratoryObservationAnalysisMethod[];
 }

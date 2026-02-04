@@ -36,7 +36,7 @@ export interface IUneceExperienceFacility extends IJsonLdNodeObject {
 	 * An available route specified for this experience facility.
 	 * @see https://vocabulary.uncefact.org/availableRoute
 	 */
-	availableRoute?: IUneceSpecifiedRoute;
+	availableRoute?: IUneceSpecifiedRoute[];
 
 	/**
 	 * The date of the completion of this experience facility.
@@ -90,11 +90,11 @@ export interface IUneceExperienceFacility extends IJsonLdNodeObject {
 	 * A specified universal communication for this experience facility.
 	 * @see https://vocabulary.uncefact.org/specifiedCommunication
 	 */
-	specifiedCommunication?: IUneceCommunication;
+	specifiedCommunication?: IUneceCommunication[];
 
 	/**
 	 * A water source used by this experience facility.
 	 * @see https://vocabulary.uncefact.org/usedSource
 	 */
-	usedSource?: IUneceSource;
+	usedSource?: IUneceSource[];
 }

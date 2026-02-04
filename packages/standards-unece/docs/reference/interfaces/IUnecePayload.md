@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### includedPayloadInstance?
+### includedPayloadInstance
 
-> `optional` **includedPayloadInstance**: [`IUnecePayloadInstance`](IUnecePayloadInstance.md)
+> **includedPayloadInstance**: [`IUnecePayloadInstance`](IUnecePayloadInstance.md)[]
 
 A payload instance included in this XHE payload.
 

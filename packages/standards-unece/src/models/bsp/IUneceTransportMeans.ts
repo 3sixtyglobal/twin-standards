@@ -50,5 +50,5 @@ export interface IUneceTransportMeans extends IJsonLdNodeObject {
 	 * The code specifying the type of referenced transport means [Reference UNECE Recommendation 28].
 	 * @see https://vocabulary.uncefact.org/transportMeansTypeCode
 	 */
-	transportMeansTypeCode?: UneceTransportMeansTypeCodeList;
+	transportMeansTypeCode?: UneceTransportMeansTypeCodeList[];
 }

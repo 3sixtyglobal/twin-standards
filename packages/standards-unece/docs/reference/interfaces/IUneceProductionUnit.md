@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableMachine?
 
-> `optional` **applicableMachine**: [`IUneceMachine`](IUneceMachine.md)
+> `optional` **applicableMachine**: [`IUneceMachine`](IUneceMachine.md)[]
 
 A production machine applicable to this facility production unit.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableMachine
 
 ### applicableProductionDevice?
 
-> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)
+> `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
 
 A production device applicable to this facility production unit.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableProductionDevice
 
 ### applicableProductionProcess?
 
-> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
+> `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
 
 A production process applicable to this facility production unit.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableProductionProcess
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this facility production unit.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/constructionDate
 
 ### dedicatedFacility?
 
-> `optional` **dedicatedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)
+> `optional` **dedicatedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
 A dedicated production facility for this production unit.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### inputApplicableBatch?
 
-> `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
+> `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 An input product batch applicable to this facility production unit.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/inputApplicableBatch
 
 ### inputApplicableMaterial?
 
-> `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Input material applicable to this facility production unit.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/inputApplicableMaterial
 
 ### inputApplicableProduct?
 
-> `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 An input product applicable to this facility production unit.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/inputApplicableProduct
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A manufacturer party related to this facility production unit.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/name
 
 ### outputApplicableBatch?
 
-> `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)
+> `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 An output product batch applicable to this facility production unit.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/outputApplicableBatch
 
 ### outputApplicableMaterial?
 
-> `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Output material applicable to this facility production unit.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/outputApplicableMaterial
 
 ### outputApplicableProduct?
 
-> `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 An output product applicable to this facility production unit.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/physicalLocation
 
 ### relatedParty?
 
-> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party related to this facility production unit.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/relatedParty
 
 ### specifiedOrganizationalCertificate?
 
-> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)
+> `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
 
 An organizational certificate specified for this facility production unit.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 
 ### specifiedProcessCertificate?
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)
+> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate specified for this facility production unit.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### specifiedProductBatchCertificate?
 
-> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)
+> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)[]
 
 A product batch certificate specified for this facility production unit.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 
 ### specifiedProductCertificate?
 
-> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
+> `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
 A product certificate specified for this facility production unit.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/specifiedProductCertificate
 
 ### subcontractorParty?
 
-> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A subcontractor party for this facility production unit.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/subcontractorParty
 
 ### subordinateProductionUnit?
 
-> `optional` **subordinateProductionUnit**: `IUneceProductionUnit`
+> `optional` **subordinateProductionUnit**: `IUneceProductionUnit`[]
 
 A production unit subordinate to this facility production unit.
 

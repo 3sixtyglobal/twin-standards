@@ -42,7 +42,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * The code specifying the category of this sustainability characteristic.
@@ -96,7 +96,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A supply chain event specified for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The subordinate category for this sustainability characteristic.
@@ -168,23 +168,23 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A parameter specified for the value of this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueParameter
 	 */
-	valueParameter?: IUneceSpecifiedParameter;
+	valueParameter?: IUneceSpecifiedParameter[];
 
 	/**
 	 * A period specified for the value of this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valuePeriod
 	 */
-	valuePeriod?: IUneceSpecifiedPeriod;
+	valuePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * A range specified for the value of this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueRange
 	 */
-	valueRange?: IUneceRange;
+	valueRange?: IUneceRange[];
 
 	/**
 	 * A tolerance specified for the value of this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueTolerance
 	 */
-	valueTolerance?: IUneceTolerance;
+	valueTolerance?: IUneceTolerance[];
 }

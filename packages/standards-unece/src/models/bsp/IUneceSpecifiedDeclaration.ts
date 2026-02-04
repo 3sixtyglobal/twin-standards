@@ -30,7 +30,7 @@ export interface IUneceSpecifiedDeclaration extends IJsonLdNodeObject {
 	 * A referenced standard associated with this specified declaration.
 	 * @see https://vocabulary.uncefact.org/associatedStandard
 	 */
-	associatedStandard?: IUneceStandard;
+	associatedStandard?: IUneceStandard[];
 
 	/**
 	 * A code specifying an assurance level of this specified declaration.
@@ -60,7 +60,7 @@ export interface IUneceSpecifiedDeclaration extends IJsonLdNodeObject {
 	 * A party that issues this specified declaration.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty;
+	issuerParty?: IUneceTradeParty[];
 
 	/**
 	 * A name, expressed as text, for this specified declaration.
@@ -72,7 +72,7 @@ export interface IUneceSpecifiedDeclaration extends IJsonLdNodeObject {
 	 * A code specifying a subject type for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList;
+	subjectTypeCode?: UneceSubjectCodeList[];
 
 	/**
 	 * The code specifying the type of specified declaration.
@@ -84,5 +84,5 @@ export interface IUneceSpecifiedDeclaration extends IJsonLdNodeObject {
 	 * An object verified for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/verifiedObject
 	 */
-	verifiedObject?: IUneceObject;
+	verifiedObject?: IUneceObject[];
 }

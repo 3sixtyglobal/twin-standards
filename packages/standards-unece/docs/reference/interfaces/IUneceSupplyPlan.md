@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 The period applicable for this supply chain supply plan.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### availableQuantity?
 
-> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity available for this supply chain supply plan.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/availableQuantity
 
 ### confirmedDeliveryEvent?
 
-> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A confirmed delivery event in this supply chain supply plan.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/confirmedDeliveryEvent
 
 ### contractDocument?
 
-> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced contract document for this supply chain supply plan.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/contractDocument
 
 ### deliveryNoteDocument?
 
-> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A delivery note document referenced by this supply chain supply plan.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/deliveryNoteDocument
 
 ### deliverySupplyChainEvent?
 
-> `optional` **deliverySupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **deliverySupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A delivery event for this supply chain supply plan.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/plusToleranceQuantity
 
 ### projectedSpecifiedPeriod?
 
-> `optional` **projectedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **projectedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period projected for this supply chain supply plan.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/projectedSpecifiedPeriod
 
 ### requiredQuantity?
 
-> `optional` **requiredQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **requiredQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity required for this supply chain supply plan.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/requiredQuantity
 
 ### scheduledDeliveryEvent?
 
-> `optional` **scheduledDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **scheduledDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A scheduled delivery event in this supply chain supply plan.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/scheduledDeliveryEvent
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 The ship to trade party for this supply chain supply plan.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedSpecifiedPeriod?
 
-> `optional` **specifiedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **specifiedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 The period specified for this supply chain supply plan.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/specifiedSpecifiedPeriod
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An event specified for this supply chain supply plan.
 

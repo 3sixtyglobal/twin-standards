@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### associatedMeasurement?
 
-> `optional` **associatedMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
+> `optional` **associatedMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
 
 A measurement associated with this document clause.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedMeasurement
 
 ### associatedPeriod?
 
-> `optional` **associatedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **associatedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A period of time associated with this document clause.
 

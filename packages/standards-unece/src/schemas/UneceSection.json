@@ -100,7 +100,10 @@
 			"description": "The identifier of this label section."
 		},
 		"includedSegment": {
-			"$ref": "https://schema.twindev.org/unece/UneceSegment",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSegment"
+			},
 			"description": "A segment included in this label section."
 		},
 		"patternCode": {

@@ -116,19 +116,31 @@
 			"description": "The date, time, date time, or other date time value of the calculation of this supply chain inventory."
 		},
 		"dispositionDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A disposition document referenced in this supply chain inventory."
 		},
 		"includedBatch": {
-			"$ref": "https://schema.twindev.org/unece/UneceProductBatch",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProductBatch"
+			},
 			"description": "A product batch included in this supply chain inventory."
 		},
 		"includedMaterial": {
-			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedMaterial"
+			},
 			"description": "Material included in this supply chain inventory."
 		},
 		"includedTradeProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "A product included in this supply chain inventory."
 		},
 		"maximumStockLevelMeasure": {
@@ -156,7 +168,10 @@
 			"description": "The planned stock quantity for this supply chain inventory."
 		},
 		"remarkNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note containing a remark for this supply chain inventory."
 		},
 		"specifiedLogisticsLocation": {
@@ -164,11 +179,17 @@
 			"description": "The location specified for this supply chain inventory."
 		},
 		"specifiedSupplyChainEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSupplyChainEvent"
+			},
 			"description": "A supply chain event specified for this supply chain inventory."
 		},
 		"specifiedTradeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A trade party specified for this supply chain inventory."
 		},
 		"statusCode": {

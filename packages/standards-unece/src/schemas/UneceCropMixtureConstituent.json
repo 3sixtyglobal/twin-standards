@@ -105,7 +105,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"cropProportionPercent",
+		"specifiedBotanicalCrop"
 	],
 	"additionalProperties": {
 		"anyOf": [

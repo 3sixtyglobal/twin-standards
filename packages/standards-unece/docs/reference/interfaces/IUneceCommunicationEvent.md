@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### associatedGeographicalFeature?
 
-> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)
+> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
 A geographical feature associated with this communication event.
 

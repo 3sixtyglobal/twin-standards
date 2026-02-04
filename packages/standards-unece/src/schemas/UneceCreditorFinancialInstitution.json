@@ -204,7 +204,10 @@
 			"description": "The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this creditor financial institution."
 		},
 		"specifiedProprietaryIdentity": {
-			"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProprietaryIdentity"
+			},
 			"description": "A proprietary identity specified for this creditor financial institution."
 		},
 		"subDivisionFinancialInstitution": {
@@ -221,7 +224,10 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"bICId",
+		"cHIPSUniversalId",
+		"specifiedProprietaryIdentity"
 	],
 	"additionalProperties": {
 		"anyOf": [

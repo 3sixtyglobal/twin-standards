@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableProduct": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeProduct",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeProduct"
+			},
 			"description": "A product applicable for this subordinate trade line item."
 		},
 		"categoryCode": {
@@ -116,7 +119,10 @@
 			"description": "A unique identifier for this subordinate trade line item."
 		},
 		"includedNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note included in this subordinate trade line item."
 		},
 		"requestedResponseTypeCode": {
@@ -136,11 +142,17 @@
 			"description": "The trade agreement specified for this subordinate trade line item."
 		},
 		"specifiedSubordinateLineTradeDelivery": {
-			"$ref": "https://schema.twindev.org/unece/UneceSubordinateLineTradeDelivery",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSubordinateLineTradeDelivery"
+			},
 			"description": "The delivery specified for this subordinate trade line item."
 		},
 		"specifiedSubordinateLineTradeSettlement": {
-			"$ref": "https://schema.twindev.org/unece/UneceSubordinateLineTradeSettlement",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSubordinateLineTradeSettlement"
+			},
 			"description": "A trade settlement specified for this subordinate trade line item."
 		}
 	},

@@ -69,7 +69,7 @@ export interface IUneceSpecifiedFault extends IJsonLdNodeObject {
 	 * An applicable operational tolerance of this specified fault.
 	 * @see https://vocabulary.uncefact.org/operationalApplicableTolerance
 	 */
-	operationalApplicableTolerance?: IUneceTolerance;
+	operationalApplicableTolerance?: IUneceTolerance[];
 
 	/**
 	 * The code specifying the type of fault.

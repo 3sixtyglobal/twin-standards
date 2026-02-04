@@ -38,37 +38,37 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * The period applicable for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod;
+	applicablePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * A quantity available for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/availableQuantity
 	 */
-	availableQuantity?: IUneceQuantityType;
+	availableQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A confirmed delivery event in this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/confirmedDeliveryEvent
 	 */
-	confirmedDeliveryEvent?: IUneceSupplyChainEvent;
+	confirmedDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A referenced contract document for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/contractDocument
 	 */
-	contractDocument?: IUneceDocument;
+	contractDocument?: IUneceDocument[];
 
 	/**
 	 * A delivery note document referenced by this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/deliveryNoteDocument
 	 */
-	deliveryNoteDocument?: IUneceDocument;
+	deliveryNoteDocument?: IUneceDocument[];
 
 	/**
 	 * A delivery event for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/deliverySupplyChainEvent
 	 */
-	deliverySupplyChainEvent?: IUneceSupplyChainEvent;
+	deliverySupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * A date, time, date time, or other date time value of the latest synchronization of the supply chain supply plan.
@@ -98,25 +98,25 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * A specified period projected for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/projectedSpecifiedPeriod
 	 */
-	projectedSpecifiedPeriod?: IUneceSpecifiedPeriod;
+	projectedSpecifiedPeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * A quantity required for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/requiredQuantity
 	 */
-	requiredQuantity?: IUneceQuantityType;
+	requiredQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A scheduled delivery event in this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/scheduledDeliveryEvent
 	 */
-	scheduledDeliveryEvent?: IUneceSupplyChainEvent;
+	scheduledDeliveryEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The ship to trade party for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty;
+	shipToParty?: IUneceTradeParty[];
 
 	/**
 	 * A location specified for this supply chain supply plan.
@@ -128,13 +128,13 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * The period specified for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/specifiedSpecifiedPeriod
 	 */
-	specifiedSpecifiedPeriod?: IUneceSpecifiedPeriod;
+	specifiedSpecifiedPeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * An event specified for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 	 */
-	specifiedSupplyChainEvent?: IUneceSupplyChainEvent;
+	specifiedSupplyChainEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * The code specifying the commitment level for this supply chain supply plan, such as fabrication or raw material.

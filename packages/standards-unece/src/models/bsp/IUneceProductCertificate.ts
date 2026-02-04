@@ -39,7 +39,7 @@ export interface IUneceProductCertificate extends IJsonLdNodeObject {
 	 * A sustainability assertion applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAssertion
 	 */
-	applicableAssertion?: IUneceAssertion;
+	applicableAssertion?: IUneceAssertion[];
 
 	/**
 	 * A code specifying an object, such as item, animal, person or organization applicable for this product certificate.
@@ -51,37 +51,37 @@ export interface IUneceProductCertificate extends IJsonLdNodeObject {
 	 * A product characteristic applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableProductCharacteristic
 	 */
-	applicableProductCharacteristic?: IUneceProductCharacteristic;
+	applicableProductCharacteristic?: IUneceProductCharacteristic[];
 
 	/**
 	 * A referenced standard applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A sustainability characteristic applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * The trade product certification applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification;
+	applicableTradeProductCertification?: IUneceTradeProductCertification[];
 
 	/**
 	 * A binary file attached to this product certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A code specifying the type of product certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList;
+	certificateTypeCode?: UneceCertificateTypeCodeList[];
 
 	/**
 	 * A textual description of this product certificate.

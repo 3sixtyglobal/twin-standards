@@ -100,11 +100,17 @@
 			"description": "The financed rate, expressed as a percentage, in this financing request result document."
 		},
 		"financedTotalAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the financed total amount in this financing request result document."
 		},
 		"specifiedFinancingStatus": {
-			"$ref": "https://schema.twindev.org/unece/UneceFinancingStatus",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceFinancingStatus"
+			},
 			"description": "The financing status specified in this financing request result document."
 		}
 	},

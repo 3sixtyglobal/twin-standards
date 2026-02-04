@@ -33,11 +33,11 @@ export interface IUneceCalculatedPrice extends IJsonLdNodeObject {
 	 * A monetary value of the calculated price to be charged.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType;
+	chargeAmount?: IUneceAmountType[];
 
 	/**
 	 * Applied allowance charge information related to this calculated price.
 	 * @see https://vocabulary.uncefact.org/relatedAllowanceCharge
 	 */
-	relatedAllowanceCharge?: IUneceAppliedAllowanceCharge;
+	relatedAllowanceCharge?: IUneceAppliedAllowanceCharge[];
 }

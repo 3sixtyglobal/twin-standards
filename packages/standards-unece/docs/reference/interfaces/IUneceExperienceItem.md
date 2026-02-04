@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An applicable period for this specified experience item.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableQuantityUnitTypeCode
 
 ### availablePeriod?
 
-> `optional` **availablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **availablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An available period for this specified experience item.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/availablePeriod
 
 ### availableProduct?
 
-> `optional` **availableProduct**: [`IUneceExperienceProduct`](IUneceExperienceProduct.md)
+> `optional` **availableProduct**: [`IUneceExperienceProduct`](IUneceExperienceProduct.md)[]
 
 An available product for this specified experience item.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/brandName
 
 ### calculatedPrice?
 
-> `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
+> `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 A calculated price for this specified experience item.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/instruction
 
 ### lowerPriceLimitAmount?
 
-> `optional` **lowerPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **lowerPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a lower price limit of this specified experience item.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/responseStatusCode
 
 ### specifiedExperienceEvent?
 
-> `optional` **specifiedExperienceEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)
+> `optional` **specifiedExperienceEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)[]
 
 An event for this specified experience item.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/specifiedExperienceEvent
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party specified for this specified experience item.
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ### upperPriceLimitAmount?
 
-> `optional` **upperPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **upperPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of an upper price limit of this specified experience item.
 
@@ -375,7 +375,7 @@ https://vocabulary.uncefact.org/upperPriceLimitAmount
 
 ### visitingPeriod?
 
-> `optional` **visitingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **visitingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A visiting period for this specified experience item.
 

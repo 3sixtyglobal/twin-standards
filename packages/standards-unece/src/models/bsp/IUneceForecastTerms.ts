@@ -38,7 +38,7 @@ export interface IUneceForecastTerms extends IJsonLdNodeObject {
 	 * A code specifying a commitment level in these supply chain forecast terms.
 	 * @see https://vocabulary.uncefact.org/supplyChainForecastTermsCommitmentLevelCode
 	 */
-	supplyChainForecastTermsCommitmentLevelCode?: UneceCommitmentLevelCodeList;
+	supplyChainForecastTermsCommitmentLevelCode?: UneceCommitmentLevelCodeList[];
 
 	/**
 	 * A code specifying a frequency in these supply chain forecast terms.

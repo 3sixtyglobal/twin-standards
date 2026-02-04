@@ -46,7 +46,7 @@ export interface IUneceSpecifiedCondition extends IJsonLdNodeObject {
 	 * A calibrated measurement specified for this specified condition.
 	 * @see https://vocabulary.uncefact.org/specifiedMeasurement
 	 */
-	specifiedMeasurement?: IUneceCalibratedMeasurement;
+	specifiedMeasurement?: IUneceCalibratedMeasurement[];
 
 	/**
 	 * A statement, expressed as text, for this specified condition.
@@ -64,7 +64,7 @@ export interface IUneceSpecifiedCondition extends IJsonLdNodeObject {
 	 * A code specifying a subject type for this specified condition.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList;
+	subjectTypeCode?: UneceSubjectCodeList[];
 
 	/**
 	 * A measure of a value for this specified condition.

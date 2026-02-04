@@ -51,7 +51,7 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A clause applicable to this specified certificate.
 	 * @see https://vocabulary.uncefact.org/applicableClause
 	 */
-	applicableClause?: IUneceClause;
+	applicableClause?: IUneceClause[];
 
 	/**
 	 * A geographic region, expressed as text, applicable for this specified certificate.
@@ -63,13 +63,13 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A referenced standard applicable to this specified certificate.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard;
+	applicableStandard?: IUneceStandard[];
 
 	/**
 	 * A sustainability characteristic applicable to this specified certificate.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * The code specifying the assurance level, such as certified by third party, for this specified certificate.
@@ -81,13 +81,13 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A binary file attached to this specified certificate.
 	 * @see https://vocabulary.uncefact.org/attachedBinaryFile
 	 */
-	attachedBinaryFile?: IUneceBinaryFile;
+	attachedBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * A code specifying an available language for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/availableLanguageCode
 	 */
-	availableLanguageCode?: UneceLanguageCodeList;
+	availableLanguageCode?: UneceLanguageCodeList[];
 
 	/**
 	 * A capability level, expressed as text, in this specified certificate.
@@ -105,13 +105,13 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A code specifying a type of specified certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList;
+	certificateTypeCode?: UneceCertificateTypeCodeList[];
 
 	/**
 	 * An object certified by this specified certificate.
 	 * @see https://vocabulary.uncefact.org/certifiedObject
 	 */
-	certifiedObject?: IUneceObject;
+	certifiedObject?: IUneceObject[];
 
 	/**
 	 * The certified party for this specified certificate.
@@ -159,7 +159,7 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * An issuance location for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/issuanceLocation
 	 */
-	issuanceLocation?: IUneceTradeLocation;
+	issuanceLocation?: IUneceTradeLocation[];
 
 	/**
 	 * The issue date, time, date time, or other date time value for this specified certificate.
@@ -177,7 +177,7 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * The issuer party for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty;
+	issuerParty?: IUneceTradeParty[];
 
 	/**
 	 * A latest endorsement date, time, date time or other date time value for this specified certificate.
@@ -213,13 +213,13 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A supply chain trade transaction related to this specified certificate.
 	 * @see https://vocabulary.uncefact.org/relatedTradeTransaction
 	 */
-	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction;
+	relatedTradeTransaction?: IUneceSupplyChainTradeTransaction[];
 
 	/**
 	 * A reported status for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/reportedDocumentStatus
 	 */
-	reportedDocumentStatus?: IUneceDocumentStatus;
+	reportedDocumentStatus?: IUneceDocumentStatus[];
 
 	/**
 	 * The requested effective date, time, date time or other date time value for this specified certificate.
@@ -249,7 +249,7 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * A code specifying a subject type for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList;
+	subjectTypeCode?: UneceSubjectCodeList[];
 
 	/**
 	 * The indication of whether or not this specified certificate is valid.

@@ -104,7 +104,10 @@
 			"description": "A textual description of this experience program action."
 		},
 		"specifiedTradeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "A party specified for this experience program action."
 		},
 		"statusCode": {

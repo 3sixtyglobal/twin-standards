@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic?
+### associatedGeographicalObjectCharacteristic
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical multi-surface.
 

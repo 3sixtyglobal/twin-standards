@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### adjustedBalanceOutAmount?
 
-> `optional` **adjustedBalanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **adjustedBalanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that is an adjusted amount balanced out for this trade settlement payment monetary summation.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/adjustedBalanceOutAmount
 
 ### applicablePaymentBalanceOut?
 
-> `optional` **applicablePaymentBalanceOut**: [`IUnecePaymentBalanceOut`](IUnecePaymentBalanceOut.md)
+> `optional` **applicablePaymentBalanceOut**: [`IUnecePaymentBalanceOut`](IUnecePaymentBalanceOut.md)[]
 
 A balance out applicable to this trade settlement payment monetary summation.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicablePaymentBalanceOut
 
 ### balanceOutAmount?
 
-> `optional` **balanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **balanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that is an amount balanced out for this trade settlement payment monetary summation.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/balanceOutAmount
 
 ### equivalentTransferTotalAmount?
 
-> `optional` **equivalentTransferTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **equivalentTransferTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value transferred as an equivalent amount in the credit transfer payment in this trade settlement payment
 monetary summation, such as the amount transferred between debtor and creditor, before deduction of charges, expressed
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/equivalentTransferTotalAmount
 
 ### grandTotalAmount?
 
-> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a grand total reported in this trade settlement payment monetary summation.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/grandTotalAmount
 
 ### includingTaxesLineTotalAmount?
 
-> `optional` **includingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **includingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the line total, including taxes, being reported in this trade settlement payment monetary summation.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/includingTaxesLineTotalAmount
 
 ### netLineTotalAmount?
 
-> `optional` **netLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **netLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the net total of all line amounts, including line level allowances and charges and excluding line
 level taxes, being reported in this trade settlement payment monetary summation.
@@ -125,7 +125,7 @@ https://vocabulary.uncefact.org/netLineTotalAmount
 
 ### paymentTotalAmount?
 
-> `optional` **paymentTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **paymentTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a payment total reported in this trade settlement payment monetary summation.
 
@@ -137,7 +137,7 @@ https://vocabulary.uncefact.org/paymentTotalAmount
 
 ### taxTotalAmount?
 
-> `optional` **taxTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **taxTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation.
 

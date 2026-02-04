@@ -56,7 +56,7 @@ export interface IUneceProductLabel extends IJsonLdNodeObject {
 	 * A sustainability assertion included on this product label.
 	 * @see https://vocabulary.uncefact.org/includedAssertion
 	 */
-	includedAssertion?: IUneceAssertion;
+	includedAssertion?: IUneceAssertion[];
 
 	/**
 	 * The code specifying the layout type of this product label.

@@ -31,7 +31,7 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * A technical characteristic applicable to this TT location.
 	 * @see https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 	 */
-	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic;
+	applicableTechnicalCharacteristic?: IUneceTechnicalCharacteristic[];
 
 	/**
 	 * A textual description of this TT location.
@@ -67,7 +67,7 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * An animal holding event specified for this TT location.
 	 * @see https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 	 */
-	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent;
+	specifiedAnimalHoldingEvent?: IUneceAnimalHoldingEvent[];
 
 	/**
 	 * The geographical area specified for this TT location.
@@ -79,5 +79,5 @@ export interface IUneceTTLocation extends IJsonLdNodeObject {
 	 * An animal specified for this TT location.
 	 * @see https://vocabulary.uncefact.org/specifiedTTAnimal
 	 */
-	specifiedTTAnimal?: IUneceTTAnimal;
+	specifiedTTAnimal?: IUneceTTAnimal[];
 }

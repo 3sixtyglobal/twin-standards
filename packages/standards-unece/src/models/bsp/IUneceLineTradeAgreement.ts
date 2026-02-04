@@ -36,13 +36,13 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * An additional document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/additionalDocument
 	 */
-	additionalDocument?: IUneceDocument;
+	additionalDocument?: IUneceDocument[];
 
 	/**
 	 * An agreed product price for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/agreedPriceProductPrice
 	 */
-	agreedPriceProductPrice?: IUneceTradePrice;
+	agreedPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * The terms of delivery applicable to this line trade agreement.
@@ -72,7 +72,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A buyer generated order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDocument
 	 */
-	buyerOrderDocument?: IUneceDocument;
+	buyerOrderDocument?: IUneceDocument[];
 
 	/**
 	 * The buyer party for this line trade agreement.
@@ -90,19 +90,19 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A party who is a buyer requisitioner in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerRequisitionerParty
 	 */
-	buyerRequisitionerParty?: IUneceTradeParty;
+	buyerRequisitionerParty?: IUneceTradeParty[];
 
 	/**
 	 * A carrier party for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/carrierParty
 	 */
-	carrierParty?: IUneceTradeParty;
+	carrierParty?: IUneceTradeParty[];
 
 	/**
 	 * A catalogue document referenced by this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/catalogueDocument
 	 */
-	catalogueDocument?: IUneceDocument;
+	catalogueDocument?: IUneceDocument[];
 
 	/**
 	 * The party that provides catalogue information for this line trade agreement.
@@ -114,7 +114,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A contract document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/contractDocument
 	 */
-	contractDocument?: IUneceDocument;
+	contractDocument?: IUneceDocument[];
 
 	/**
 	 * The measure of the expected time interval between the receipt of an order and its delivery fulfilment according to this
@@ -127,7 +127,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A demand forecast document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/demandForecastDocument
 	 */
-	demandForecastDocument?: IUneceDocument;
+	demandForecastDocument?: IUneceDocument[];
 
 	/**
 	 * The economic order quantity for this line trade agreement.
@@ -157,7 +157,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A gross product price in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/grossPriceProductPrice
 	 */
-	grossPriceProductPrice?: IUneceTradePrice;
+	grossPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * The guaranteed product life span specified in this line trade agreement.
@@ -193,7 +193,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A marketplace included in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/includedMarketplace
 	 */
-	includedMarketplace?: IUneceMarketplace;
+	includedMarketplace?: IUneceMarketplace[];
 
 	/**
 	 * The incremental product orderable quantity for this line trade agreement.
@@ -217,7 +217,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The item seller party for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/itemSellerParty
 	 */
-	itemSellerParty?: IUneceTradeParty;
+	itemSellerParty?: IUneceTradeParty[];
 
 	/**
 	 * The letter of credit document referenced in this line trade agreement.
@@ -229,13 +229,13 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A manufacturer party, at line level, for this trade agreement.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty;
+	manufacturerParty?: IUneceTradeParty[];
 
 	/**
 	 * The marketplace generated order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/marketplaceOrderDocument
 	 */
-	marketplaceOrderDocument?: IUneceDocument;
+	marketplaceOrderDocument?: IUneceDocument[];
 
 	/**
 	 * The maximum order quantity ordering period specified in this line trade agreement.
@@ -265,13 +265,13 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A net product price in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/netPriceProductPrice
 	 */
-	netPriceProductPrice?: IUneceTradePrice;
+	netPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * An order price for a product in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/orderPriceProductPrice
 	 */
-	orderPriceProductPrice?: IUneceTradePrice;
+	orderPriceProductPrice?: IUneceTradePrice[];
 
 	/**
 	 * The code specifying the order product unit of measure, such as kilogram or litre, for this line trade agreement.
@@ -289,7 +289,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The original order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/originalOrderDocument
 	 */
-	originalOrderDocument?: IUneceDocument;
+	originalOrderDocument?: IUneceDocument[];
 
 	/**
 	 * The measure of the expected time interval between the receipt of an order and its pick-up fulfilment according to this
@@ -302,7 +302,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The previous order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/previousOrderDocument
 	 */
-	previousOrderDocument?: IUneceDocument;
+	previousOrderDocument?: IUneceDocument[];
 
 	/**
 	 * The price list document referenced in this line trade agreement.
@@ -314,7 +314,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The seller party acting as the prime contractor for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/primeContractSellerParty
 	 */
-	primeContractSellerParty?: IUneceTradeParty;
+	primeContractSellerParty?: IUneceTradeParty[];
 
 	/**
 	 * The code specifying the priority for this line trade agreement.
@@ -411,19 +411,19 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A party relevant for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/relevantParty
 	 */
-	relevantParty?: IUneceTradeParty;
+	relevantParty?: IUneceTradeParty[];
 
 	/**
 	 * A requisition document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/requisitionDocument
 	 */
-	requisitionDocument?: IUneceDocument;
+	requisitionDocument?: IUneceDocument[];
 
 	/**
 	 * A requisitioner document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/requisitionerDocument
 	 */
-	requisitionerDocument?: IUneceDocument;
+	requisitionerDocument?: IUneceDocument[];
 
 	/**
 	 * The resale period specified in this line trade agreement.
@@ -447,7 +447,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A sales conditions document referenced by this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/salesConditionsDocument
 	 */
-	salesConditionsDocument?: IUneceDocument;
+	salesConditionsDocument?: IUneceDocument[];
 
 	/**
 	 * The sales report document referenced in this line trade agreement.
@@ -459,13 +459,13 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The seller generated order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerOrderDocument
 	 */
-	sellerOrderDocument?: IUneceDocument;
+	sellerOrderDocument?: IUneceDocument[];
 
 	/**
 	 * The seller party for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerParty
 	 */
-	sellerParty?: IUneceTradeParty;
+	sellerParty?: IUneceTradeParty[];
 
 	/**
 	 * A seller reference, expressed as text, for this line trade agreement.
@@ -477,7 +477,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A supply instruction document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/supplyInstructionDocument
 	 */
-	supplyInstructionDocument?: IUneceDocument;
+	supplyInstructionDocument?: IUneceDocument[];
 
 	/**
 	 * The support centre party for this line trade agreement.
@@ -489,11 +489,11 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * A target market country for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/targetMarketCountry
 	 */
-	targetMarketCountry?: IUneceCountry;
+	targetMarketCountry?: IUneceCountry[];
 
 	/**
 	 * An ultimate customer order document referenced for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/ultimateCustomerOrderDocument
 	 */
-	ultimateCustomerOrderDocument?: IUneceDocument;
+	ultimateCustomerOrderDocument?: IUneceDocument[];
 }

@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/associatedDirectPositionList
 
 ***
 
-### associatedGeographicalObjectCharacteristic?
+### associatedGeographicalObjectCharacteristic
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical multi-point.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### memberGeographicalPoint?
 
-> `optional` **memberGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
+> `optional` **memberGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)[]
 
 A geographical point member of this geographical multi-point feature.
 

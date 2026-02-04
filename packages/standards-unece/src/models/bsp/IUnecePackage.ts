@@ -46,7 +46,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * A referenced document associated with this logistics package.
 	 * @see https://vocabulary.uncefact.org/associatedDocument
 	 */
-	associatedDocument?: IUneceDocument;
+	associatedDocument?: IUneceDocument[];
 
 	/**
 	 * The code specifying the colour of this referenced logistics package.
@@ -64,7 +64,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * A despatch note associated with this logistics package.
 	 * @see https://vocabulary.uncefact.org/despatchNoteAssociatedDocument
 	 */
-	despatchNoteAssociatedDocument?: IUneceDocument;
+	despatchNoteAssociatedDocument?: IUneceDocument[];
 
 	/**
 	 * The unique global identifier for this logistics package.
@@ -82,7 +82,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * The measure of the gross weight (mass) of this logistics package and its contents.
 	 * @see https://vocabulary.uncefact.org/grossWeightMeasure
 	 */
-	grossWeightMeasure?: IUneceMeasureType;
+	grossWeightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The level identifier for this logistics package.
@@ -100,7 +100,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * A supply chain trade line item included in this logistics package.
 	 * @see https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 	 */
-	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem;
+	includedSupplyChainTradeLineItem?: IUneceSupplyChainTradeLineItem[];
 
 	/**
 	 * Information, expressed as text, for this logistics package.
@@ -112,7 +112,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * The number of logistics packages at this level.
 	 * @see https://vocabulary.uncefact.org/itemQuantity
 	 */
-	itemQuantity?: IUneceQuantityType;
+	itemQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The linear spatial dimensions of this logistics package.
@@ -178,7 +178,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * A number of units per package in this logistics package.
 	 * @see https://vocabulary.uncefact.org/perPackageUnitQuantity
 	 */
-	perPackageUnitQuantity?: IUneceQuantityType;
+	perPackageUnitQuantity?: IUneceQuantityType[];
 
 	/**
 	 * Physical shipping marks and barcode information for this logistics package.
@@ -220,7 +220,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * A stated condition of this logistics package.
 	 * @see https://vocabulary.uncefact.org/statedCondition
 	 */
-	statedCondition?: IUneceSpecifiedCondition;
+	statedCondition?: IUneceSpecifiedCondition[];
 
 	/**
 	 * Supply chain packaging used for this logistics package.
@@ -244,7 +244,7 @@ export interface IUnecePackage extends IJsonLdNodeObject {
 	 * The measure of the net weight (mass) of the contents of this referenced logistics package.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * The measure of the tare weight of this logistics package.

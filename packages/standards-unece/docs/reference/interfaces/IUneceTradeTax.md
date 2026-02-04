@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### allowanceChargeBasisAmount?
 
-> `optional` **allowanceChargeBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **allowanceChargeBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value used as the allowance and charge basis on which this trade related tax, levy or duty is calculated.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicablePercent
 
 ### applicableTradeLocation?
 
-> `optional` **applicableTradeLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
+> `optional` **applicableTradeLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
 A location where this trade tax is applicable.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableTradeLocation
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value used as the basis on which this trade related tax, levy or duty is calculated.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/buyerRepayableTaxSpecifiedAccountingAccount
 
 ### calculatedAmount?
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value resulting from the calculation of this trade related tax, levy or duty.
 
@@ -307,7 +307,7 @@ https://vocabulary.uncefact.org/exemptionReason
 
 ### grandTotalAmount?
 
-> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the grand total of the basis plus tax for this trade tax.
 
@@ -344,7 +344,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### informationAmount?
 
-> `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of an amount being reported for information for this trade related tax, levy or duty.
 
@@ -368,7 +368,7 @@ https://vocabulary.uncefact.org/jurisdiction
 
 ### lineTotalBasisAmount?
 
-> `optional` **lineTotalBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **lineTotalBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value used as the line total basis on which this trade related tax, levy or duty is calculated.
 
@@ -404,7 +404,7 @@ https://vocabulary.uncefact.org/paymentId
 
 ### placeApplicableLocation?
 
-> `optional` **placeApplicableLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
+> `optional` **placeApplicableLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
 A location where this trade tax is applicable.
 
@@ -550,7 +550,7 @@ https://vocabulary.uncefact.org/serviceSupplyCountry
 
 ### specifiedAccountingAccount?
 
-> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
+> `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
 
 A specified accounting account for this trade related tax, levy or duty.
 
@@ -708,7 +708,7 @@ https://vocabulary.uncefact.org/tradeTaxPaymentMethodCode
 
 ### unitBasisAmount?
 
-> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated.
 

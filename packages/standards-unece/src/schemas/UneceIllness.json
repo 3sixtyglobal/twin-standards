@@ -104,7 +104,10 @@
 			"description": "A comment, expressed as text for this MDH illness."
 		},
 		"evacuationLocation": {
-			"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceLogisticsLocation"
+			},
 			"description": "A logistics evacuation location for this MDH illness."
 		},
 		"healthStatusCode": {

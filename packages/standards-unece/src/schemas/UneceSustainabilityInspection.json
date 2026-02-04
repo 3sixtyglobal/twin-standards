@@ -100,15 +100,24 @@
 			"description": "The specified inspection result applicable to this sustainability inspection."
 		},
 		"applicableStandard": {
-			"$ref": "https://schema.twindev.org/unece/UneceStandard",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceStandard"
+			},
 			"description": "A referenced standard applicable to this sustainability inspection."
 		},
 		"applicableSustainabilityCharacteristic": {
-			"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceSustainabilityCharacteristic"
+			},
 			"description": "A characteristic applicable to this sustainability inspection."
 		},
 		"attachedBinaryFile": {
-			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
+			},
 			"description": "A binary file attached for this sustainability inspection."
 		},
 		"description": {
@@ -136,11 +145,17 @@
 			"description": "The indication of whether or not this sustainability inspection is outsourced."
 		},
 		"specifiedDocument": {
-			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
 			"description": "A referenced document specified for this sustainability inspection."
 		},
 		"specifiedInspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent"
+			},
 			"description": "A specified inspection event for this sustainability inspection."
 		},
 		"specifiedInspectionStatus": {

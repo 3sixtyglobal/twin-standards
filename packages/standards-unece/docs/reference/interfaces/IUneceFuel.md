@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### volumeUnitVolumeMeasure?
 
-> `optional` **volumeUnitVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
+> `optional` **volumeUnitVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
 A measure of a weight (mass) for this specified fuel.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/volumeUnitVolumeMeasure
 
 ### weightUnitWeightMeasure?
 
-> `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of a volume for this specified fuel.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/weightUnitWeightMeasure
 
 ### workingPressureMeasure?
 
-> `optional` **workingPressureMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
+> `optional` **workingPressureMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 
 A working pressure measure for this specified fuel.
 

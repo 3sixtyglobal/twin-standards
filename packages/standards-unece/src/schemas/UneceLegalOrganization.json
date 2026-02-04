@@ -124,7 +124,10 @@
 			"description": "A name, expressed as text, of this legally set up organization."
 		},
 		"postalAddress": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeAddress",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeAddress"
+			},
 			"description": "A postal address for this legally set up organization."
 		},
 		"tradingBusinessName": {

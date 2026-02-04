@@ -116,7 +116,10 @@
 			"description": "The monetary value of the net budget for this procuring project."
 		},
 		"specifiedInspectionEvent": {
-			"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceInspectionEvent"
+			},
 			"description": "The inspection event specified for this procuring project."
 		},
 		"subWorksTypeCode": {

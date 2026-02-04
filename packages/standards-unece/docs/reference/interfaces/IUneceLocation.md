@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
 A specified inspection applicable to this referenced location.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this referenced location.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
 A sustainability inspection applicable to this referenced location.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### appliedAgriculturalApplication?
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)
+> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 A specified agricultural application applied to this referenced location.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ### associatedGeographicalFeature?
 
-> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)
+> `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
 A geographical feature associated with this referenced location.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/physicalGeographicalPoint
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
 The postal trade address for this referenced location.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ### relatedProductionUnit?
 
-> `optional` **relatedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)
+> `optional` **relatedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
 
 A facility production unit related to this referenced location.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedFacility?
 
-> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)
+> `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
 A production facility specified for this referenced location.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ### specifiedInventory?
 
-> `optional` **specifiedInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)
+> `optional` **specifiedInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
 Supply chain inventory specified for this referenced location.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/specifiedInventory
 
 ### specifiedLaboratoryObservationReference?
 
-> `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)
+> `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
 A laboratory observation reference specified for this referenced location.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event specified for this referenced location.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ### specifiedTradeParty?
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party specified for this referenced location.
 

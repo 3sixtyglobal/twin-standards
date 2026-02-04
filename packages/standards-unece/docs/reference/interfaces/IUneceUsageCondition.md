@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/occupancy
 
 ### requiringParty?
 
-> `optional` **requiringParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **requiringParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party requiring this specified usage condition.
 

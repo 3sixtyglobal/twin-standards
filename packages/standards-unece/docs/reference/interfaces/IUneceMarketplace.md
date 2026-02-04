@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/name
 
 ### orderingAvailablePeriod?
 
-> `optional` **orderingAvailablePeriod**: [`IUneceAvailablePeriod`](IUneceAvailablePeriod.md)
+> `optional` **orderingAvailablePeriod**: [`IUneceAvailablePeriod`](IUneceAvailablePeriod.md)[]
 
 An available ordering period for this specified marketplace.
 

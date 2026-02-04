@@ -29,7 +29,7 @@ export interface IUneceSpecifiedChemicalTreatment extends IJsonLdNodeObject {
 	 * A sustainability characteristic applicable to this specified chemical treatment.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A textual description of this specified chemical treatment.
@@ -47,7 +47,7 @@ export interface IUneceSpecifiedChemicalTreatment extends IJsonLdNodeObject {
 	 * A process certificate for this specified chemical treatment.
 	 * @see https://vocabulary.uncefact.org/specifiedProcessCertificate
 	 */
-	specifiedProcessCertificate?: IUneceProcessCertificate;
+	specifiedProcessCertificate?: IUneceProcessCertificate[];
 
 	/**
 	 * The code specifying the type of chemical treatment.
@@ -59,5 +59,5 @@ export interface IUneceSpecifiedChemicalTreatment extends IJsonLdNodeObject {
 	 * A distinct chemical used for this specified chemical treatment.
 	 * @see https://vocabulary.uncefact.org/usedChemical
 	 */
-	usedChemical?: IUneceChemical;
+	usedChemical?: IUneceChemical[];
 }

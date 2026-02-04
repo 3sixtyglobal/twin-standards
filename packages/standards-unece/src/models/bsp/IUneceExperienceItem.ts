@@ -33,7 +33,7 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * An applicable period for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod;
+	applicablePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * The code specifying the type of quantity unit applicable for this specified experience item.
@@ -45,13 +45,13 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * An available period for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/availablePeriod
 	 */
-	availablePeriod?: IUneceSpecifiedPeriod;
+	availablePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * An available product for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/availableProduct
 	 */
-	availableProduct?: IUneceExperienceProduct;
+	availableProduct?: IUneceExperienceProduct[];
 
 	/**
 	 * The number of units available for this specified experience item.
@@ -69,7 +69,7 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * A calculated price for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/calculatedPrice
 	 */
-	calculatedPrice?: IUneceTradePrice;
+	calculatedPrice?: IUneceTradePrice[];
 
 	/**
 	 * A capability level, expressed as text, for this specified experience item.
@@ -123,7 +123,7 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * A monetary value of a lower price limit of this specified experience item.
 	 * @see https://vocabulary.uncefact.org/lowerPriceLimitAmount
 	 */
-	lowerPriceLimitAmount?: IUneceAmountType;
+	lowerPriceLimitAmount?: IUneceAmountType[];
 
 	/**
 	 * The maximum number of guests for this specified experience item.
@@ -159,13 +159,13 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * An event for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/specifiedExperienceEvent
 	 */
-	specifiedExperienceEvent?: IUneceExperienceEvent;
+	specifiedExperienceEvent?: IUneceExperienceEvent[];
 
 	/**
 	 * A party specified for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeParty
 	 */
-	specifiedTradeParty?: IUneceTradeParty;
+	specifiedTradeParty?: IUneceTradeParty[];
 
 	/**
 	 * The code specifying the status for this specified experience item.
@@ -195,11 +195,11 @@ export interface IUneceExperienceItem extends IJsonLdNodeObject {
 	 * A monetary value of an upper price limit of this specified experience item.
 	 * @see https://vocabulary.uncefact.org/upperPriceLimitAmount
 	 */
-	upperPriceLimitAmount?: IUneceAmountType;
+	upperPriceLimitAmount?: IUneceAmountType[];
 
 	/**
 	 * A visiting period for this specified experience item.
 	 * @see https://vocabulary.uncefact.org/visitingPeriod
 	 */
-	visitingPeriod?: IUneceSpecifiedPeriod;
+	visitingPeriod?: IUneceSpecifiedPeriod[];
 }

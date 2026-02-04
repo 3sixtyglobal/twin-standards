@@ -61,7 +61,7 @@ export interface IUneceGeographicalFeature extends IJsonLdNodeObject {
 	 * A circle included in this specified geographical feature.
 	 * @see https://vocabulary.uncefact.org/includedCircle
 	 */
-	includedCircle?: IUneceCircle;
+	includedCircle?: IUneceCircle[];
 
 	/**
 	 * The geographical grid included in this geographical feature.

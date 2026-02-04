@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableAgriculturalProcess?
 
-> `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)
+> `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
 
 An agricultural process crop production applicable for this field crop.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalProcess
 
 ### appliedAgriculturalApplication?
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)
+> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 An agricultural application applied to this field crop.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### grownPlot?
+### grownPlot
 
-> `optional` **grownPlot**: [`IUnecePlot`](IUnecePlot.md)
+> **grownPlot**: [`IUnecePlot`](IUnecePlot.md)
 
 The plot where this field crop is grown.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/grownPlot
 
 ### grownPreviousCrop?
 
-> `optional` **grownPreviousCrop**: `IUneceFieldCrop`
+> `optional` **grownPreviousCrop**: `IUneceFieldCrop`[]
 
 A field crop grown previous to this field crop.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/harvestDateTime
 
 ### harvestedProduce?
 
-> `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)
+> `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
 
 Produce harvested from this field crop.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/sowingPeriodCode
 
 ### specifiedAgriculturalCharacteristic?
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)
+> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic specified for this field crop.
 
@@ -276,9 +276,9 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ***
 
-### specifiedCropMixtureConstituent?
+### specifiedCropMixtureConstituent
 
-> `optional` **specifiedCropMixtureConstituent**: [`IUneceCropMixtureConstituent`](IUneceCropMixtureConstituent.md)
+> **specifiedCropMixtureConstituent**: [`IUneceCropMixtureConstituent`](IUneceCropMixtureConstituent.md)[]
 
 A field crop mixture constituent specified for this field crop.
 

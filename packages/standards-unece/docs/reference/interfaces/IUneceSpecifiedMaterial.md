@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
 An assessment applicable for this specified material.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableGoodsCharacteristic?
 
-> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)
+> `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
 A goods characteristic applicable to this specified material.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ### applicableProductCertificate?
 
-> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)
+> `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
 A product certificate applicable to this specified material.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ### applicableProductCharacteristic?
 
-> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)
+> `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
 A product characteristic applicable to this specified material.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableQuantity
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
 A certificate applicable to this specified material.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSustainabilityCharacteristic?
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)
+> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this specified material.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### applicableTradeProductCertification?
 
-> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)
+> `optional` **applicableTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
 
 A product certification applicable to this specified material.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableTradeProductCertification
 
 ### applicableWasteMaterialRecoveryDisposalProcess?
 
-> `optional` **applicableWasteMaterialRecoveryDisposalProcess**: [`IUneceWasteMaterialRecoveryDisposalProcess`](IUneceWasteMaterialRecoveryDisposalProcess.md)
+> `optional` **applicableWasteMaterialRecoveryDisposalProcess**: [`IUneceWasteMaterialRecoveryDisposalProcess`](IUneceWasteMaterialRecoveryDisposalProcess.md)[]
 
 A waste material recovery disposal process applicable to this specified material.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/classificationId
 
 ### componentMaterial?
 
-> `optional` **componentMaterial**: `IUneceSpecifiedMaterial`
+> `optional` **componentMaterial**: `IUneceSpecifiedMaterial`[]
 
 Component material for this specified material.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/information
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A manufacturer party for this specified material.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/massMeasure
 
 ### massRatioMeasure?
 
-> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A mass measure of this specified material expressed as a ratio to another mass, such as the total mass.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/presencePercent
 
 ### specifiedLocation?
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location specified for this material.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usedChemical?
 
-> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)
+> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)[]
 
 A distinct chemical used for this specified material.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/usedChemical
 
 ### volumeMeasure?
 
-> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the volume of this specified material.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ### volumeRatioMeasure?
 
-> `optional` **volumeRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **volumeRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the volume of this specified material expressed as a ratio to another volume, such as the total volume.
 

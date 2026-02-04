@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### depositValueSpecifiedAmount?
 
-> `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A deposit value specified in these returnable asset instructions.
 

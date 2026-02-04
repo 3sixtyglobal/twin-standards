@@ -46,19 +46,19 @@ export interface IUneceNegotiationExchange extends IJsonLdNodeObject {
 	 * The identifier of the session for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/sessionId
 	 */
-	sessionId?: string;
+	sessionId: string;
 
 	/**
 	 * A context specified for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/specifiedContext
 	 */
-	specifiedContext?: IUneceNegotiationContext;
+	specifiedContext?: IUneceNegotiationContext[];
 
 	/**
 	 * A target issue specified for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/specifiedIssue
 	 */
-	specifiedIssue?: IUneceIssue;
+	specifiedIssue?: IUneceIssue[];
 
 	/**
 	 * The code specifying the type of electronic negotiation exchange, such as prerequisite, offer, suggestion or withdrawal.

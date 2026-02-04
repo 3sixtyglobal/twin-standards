@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableNote": {
-			"$ref": "https://schema.twindev.org/unece/UneceNote",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceNote"
+			},
 			"description": "A note providing information applicable to this specified observation."
 		},
 		"description": {
@@ -108,7 +111,10 @@
 			"description": "The identifier for this specified observation."
 		},
 		"relatedBinaryFile": {
-			"$ref": "https://schema.twindev.org/unece/UneceBinaryFile",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceBinaryFile"
+			},
 			"description": "A binary file related to this specified observation."
 		}
 	},

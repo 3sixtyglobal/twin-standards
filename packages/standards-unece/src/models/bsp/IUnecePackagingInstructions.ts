@@ -31,7 +31,7 @@ export interface IUnecePackagingInstructions extends IJsonLdNodeObject {
 	 * Packaging handling instructions, expressed as text.
 	 * @see https://vocabulary.uncefact.org/handling
 	 */
-	handling?: string;
+	handling: string;
 
 	/**
 	 * A code specifying packaging handling instructions.

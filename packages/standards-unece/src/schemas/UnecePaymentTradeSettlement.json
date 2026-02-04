@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"acceptedAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value accepted for this payment trade settlement."
 		},
 		"additionalDescription": {
@@ -104,7 +107,10 @@
 			"description": "A description, expressed as text, of additional information supplied to enable the matching of an entry with the items that the payment is intended to settle."
 		},
 		"applicableTax": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeTax",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeTax"
+			},
 			"description": "The tax applicable to this payment trade settlement."
 		},
 		"creationDateTime": {
@@ -136,7 +142,10 @@
 			"description": "The due date, time, date time, or other date time value for this payment trade settlement."
 		},
 		"duePayableAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "The monetary value of the payment that is the exact amount due and payable for this trade settlement, such as the amount due to the creditor."
 		},
 		"identifiedGuarantee": {
@@ -152,11 +161,17 @@
 			"description": "The identifier of the invoice payer assigned reference of this payment trade settlement."
 		},
 		"payeeParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The payee party for this payment trade settlement."
 		},
 		"payerParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeParty"
+			},
 			"description": "The payer party for this payment trade settlement."
 		},
 		"paymentAmount": {
@@ -188,7 +203,10 @@
 			"description": "The receipt date, time, date time, or other date time value for this payment trade settlement."
 		},
 		"recordedExperienceItem": {
-			"$ref": "https://schema.twindev.org/unece/UneceExperienceItem",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceExperienceItem"
+			},
 			"description": "A specified experience item recorded for this payment trade settlement."
 		},
 		"refundAmount": {
@@ -196,15 +214,24 @@
 			"description": "A monetary value of the refund related to this payment trade settlement."
 		},
 		"requestedAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value requested for this payment trade settlement."
 		},
 		"specifiedPaymentMeans": {
-			"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UnecePaymentMeans"
+			},
 			"description": "The payment means specified for this payment trade settlement."
 		},
 		"specifiedTradeSettlementPaymentMonetarySummation": {
-			"$ref": "https://schema.twindev.org/unece/UneceTradeSettlementPaymentMonetarySummation",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradeSettlementPaymentMonetarySummation"
+			},
 			"description": "The monetary summation totals specified for this payment trade settlement."
 		},
 		"statusCode": {
@@ -212,7 +239,10 @@
 			"description": "The code specifying the status of this payment trade settlement."
 		},
 		"taxAmount": {
-			"$ref": "https://schema.twindev.org/unece/UneceAmountType",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceAmountType"
+			},
 			"description": "A monetary value of the tax related to this payment trade settlement."
 		},
 		"totalTaxAmount": {

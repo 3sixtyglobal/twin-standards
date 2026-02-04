@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/exclusiveUsageIndicator
 
 ***
 
-### handling?
+### handling
 
-> `optional` **handling**: `string`
+> **handling**: `string`
 
 A textual expression of these handling instructions.
 

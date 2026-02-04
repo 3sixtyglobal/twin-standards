@@ -96,7 +96,10 @@
 			"description": "JSON-LD Type."
 		},
 		"applicableProcessCertificate": {
-			"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceProcessCertificate"
+			},
 			"description": "A process certificate applicable to this waste material recovery disposal process."
 		},
 		"description": {

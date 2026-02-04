@@ -62,7 +62,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * Referenced transport equipment associated with the dangerous goods.
 	 * @see https://vocabulary.uncefact.org/associatedTransportEquipment
 	 */
-	associatedTransportEquipment?: IUneceLogisticsTransportEquipment;
+	associatedTransportEquipment?: IUneceLogisticsTransportEquipment[];
 
 	/**
 	 * Authorization information, expressed as text, for these transported dangerous goods.
@@ -110,7 +110,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A density measure for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/densityMeasure
 	 */
-	densityMeasure?: IUneceMeasureType;
+	densityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods.
@@ -208,7 +208,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * Gaseous fuels included in the transport of these dangerous goods.
 	 * @see https://vocabulary.uncefact.org/includedFuel
 	 */
-	includedFuel?: IUneceFuel;
+	includedFuel?: IUneceFuel[];
 
 	/**
 	 * Information, expressed as text, concerning the transport of these dangerous goods.
@@ -322,13 +322,13 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A document related to these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/relatedDocument
 	 */
-	relatedDocument?: IUneceDocument;
+	relatedDocument?: IUneceDocument[];
 
 	/**
 	 * The reportable quantity for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/reportableQuantity
 	 */
-	reportableQuantity?: IUneceQuantityType;
+	reportableQuantity?: IUneceQuantityType[];
 
 	/**
 	 * Shipper declaration information, expressed as text, for these transported dangerous goods.
@@ -346,13 +346,13 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A logistics package specified for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/specifiedPackage
 	 */
-	specifiedPackage?: IUnecePackage;
+	specifiedPackage?: IUnecePackage[];
 
 	/**
 	 * A stated condition of these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/statedCondition
 	 */
-	statedCondition?: IUneceSpecifiedCondition;
+	statedCondition?: IUneceSpecifiedCondition[];
 
 	/**
 	 * Supplementary information, expressed as text, concerning the transport of these dangerous goods.
@@ -382,7 +382,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A melting point temperature measure for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/temperatureUnitMeltingPointTemperatureMeasure
 	 */
-	temperatureUnitMeltingPointTemperatureMeasure?: IUneceTemperatureUnitMeasureType;
+	temperatureUnitMeltingPointTemperatureMeasure?: IUneceTemperatureUnitMeasureType[];
 
 	/**
 	 * The code specifying the package type for the transported dangerous goods.
@@ -413,13 +413,13 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A density measure for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/unitDensityMeasure
 	 */
-	unitDensityMeasure?: IUneceUnitMeasureType;
+	unitDensityMeasure?: IUneceUnitMeasureType[];
 
 	/**
 	 * A viscosity measure for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/unitViscosityMeasure
 	 */
-	unitViscosityMeasure?: IUneceUnitMeasureType;
+	unitViscosityMeasure?: IUneceUnitMeasureType[];
 
 	/**
 	 * The unique upper part of the orange hazard placard identifier for these transported dangerous goods.
@@ -431,7 +431,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A viscosity measure for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/viscosityMeasure
 	 */
-	viscosityMeasure?: IUneceMeasureType;
+	viscosityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of
@@ -444,7 +444,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A measure of the marine pollutant volume of these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/volumeUnitMarinePollutantVolumeMeasure
 	 */
-	volumeUnitMarinePollutantVolumeMeasure?: IUneceVolumeUnitMeasureType;
+	volumeUnitMarinePollutantVolumeMeasure?: IUneceVolumeUnitMeasureType[];
 
 	/**
 	 * The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport
@@ -457,5 +457,5 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * The measure of the net weight (mass) of these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
 }

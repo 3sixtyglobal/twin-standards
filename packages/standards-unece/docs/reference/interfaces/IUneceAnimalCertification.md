@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/assertionCode
 
 ### relatedLocation?
 
-> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location related to this animal certification.
 

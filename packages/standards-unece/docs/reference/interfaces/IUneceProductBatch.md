@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableAssessment?
 
-> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)
+> `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
 An assessment applicable to this product batch.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableDisposalInstructions?
 
-> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)
+> `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
 Disposal instructions applicable to this product batch.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableDisposalInstructions
 
 ### applicableFault?
 
-> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)
+> `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)[]
 
 A specified fault applicable to this product batch.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/applicableFault
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period applicable to this product batch.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableProductBatchCertification?
 
-> `optional` **applicableProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)
+> `optional` **applicableProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)[]
 
 A certification applicable to this product batch.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableProductBatchCertification
 
 ### applicableProductBatchCharacteristic?
 
-> `optional` **applicableProductBatchCharacteristic**: [`IUneceProductBatchCharacteristic`](IUneceProductBatchCharacteristic.md)
+> `optional` **applicableProductBatchCharacteristic**: [`IUneceProductBatchCharacteristic`](IUneceProductBatchCharacteristic.md)[]
 
 A product batch characteristic applicable to this product batch.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableProductBatchCharacteristic
 
 ### applicableSpecifiedCertificate?
 
-> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)
+> `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
 A certificate applicable to this product batch.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ### applicableSpecifiedInspection?
 
-> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)
+> `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
 A specified inspection applicable to this product batch.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ### applicableSupplyChainPackaging?
 
-> `optional` **applicableSupplyChainPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
+> `optional` **applicableSupplyChainPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
 Packaging applicable for use with this product batch.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/applicableSupplyChainPackaging
 
 ### applicableSustainabilityInspection?
 
-> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)
+> `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
 A sustainability inspection applicable to this product batch.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### appliedAgriculturalApplication?
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)
+> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 A specified agricultural application applied to this product batch.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ### appliedChemicalTreatment?
 
-> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)
+> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
 
 A chemical treatment applied to this product batch.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ### appliedProductFinishingTreatment?
 
-> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)
+> `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)[]
 
 A product finishing treatment applied to this product batch.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/buyerAssignedId
 
 ### componentBatch?
 
-> `optional` **componentBatch**: `IUneceProductBatch`
+> `optional` **componentBatch**: `IUneceProductBatch`[]
 
 A product batch component of this product batch.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/componentBatch
 
 ### componentMaterial?
 
-> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)
+> `optional` **componentMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 A specified material component of this product batch.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/componentMaterial
 
 ### componentProduct?
 
-> `optional` **componentProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)
+> `optional` **componentProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 A trade product component of this product batch.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ### grossWeightMeasure?
 
-> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the gross weight of this product batch.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/massMeasure
 
 ### massRatioMeasure?
 
-> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A mass measure of this product batch expressed as a ratio to another mass, such as the total mass.
 
@@ -494,7 +494,7 @@ https://vocabulary.uncefact.org/sizeMeasure
 
 ### specifiedAgriculturalCertificate?
 
-> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)
+> `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
 An agricultural certificate specified for this product batch.
 
@@ -506,7 +506,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ### specifiedAgriculturalCharacteristic?
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)
+> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic specified for this product batch.
 
@@ -530,7 +530,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedDocument?
 
-> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced document specified for this product batch.
 
@@ -542,7 +542,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ### specifiedLocation?
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location specified for this product batch.
 
@@ -554,7 +554,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ### specifiedNote?
 
-> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A note specified for this product batch.
 
@@ -566,7 +566,7 @@ https://vocabulary.uncefact.org/specifiedNote
 
 ### specifiedPicture?
 
-> `optional` **specifiedPicture**: [`IUnecePicture`](IUnecePicture.md)
+> `optional` **specifiedPicture**: [`IUnecePicture`](IUnecePicture.md)[]
 
 A photographic picture specified for this product batch.
 
@@ -578,7 +578,7 @@ https://vocabulary.uncefact.org/specifiedPicture
 
 ### specifiedProcess?
 
-> `optional` **specifiedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)
+> `optional` **specifiedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
 
 A production process specified for this product batch.
 
@@ -590,7 +590,7 @@ https://vocabulary.uncefact.org/specifiedProcess
 
 ### specifiedProductBatchCertificate?
 
-> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)
+> `optional` **specifiedProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)[]
 
 A certificate specified for this product batch.
 
@@ -602,7 +602,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertificate
 
 ### specifiedProductBatchCharacteristic?
 
-> `optional` **specifiedProductBatchCharacteristic**: [`IUneceProductBatchCharacteristic`](IUneceProductBatchCharacteristic.md)
+> `optional` **specifiedProductBatchCharacteristic**: [`IUneceProductBatchCharacteristic`](IUneceProductBatchCharacteristic.md)[]
 
 A product batch characteristic specified for this product batch.
 
@@ -614,7 +614,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCharacteristic
 
 ### specifiedSupplyChainEvent?
 
-> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 A supply chain event specified for this product batch.
 

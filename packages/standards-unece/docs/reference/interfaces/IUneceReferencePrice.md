@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 The monetary value of a charged reference price.
 

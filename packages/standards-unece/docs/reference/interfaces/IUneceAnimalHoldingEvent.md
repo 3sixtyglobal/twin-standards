@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ### relatedTechnicalCharacteristic?
 
-> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)
+> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic related to this animal holding event.
 

@@ -34,31 +34,31 @@ export interface IUneceAgriculturalApplication extends IJsonLdNodeObject {
 	 * A sustainability characteristic applicable to this agricultural application.
 	 * @see https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 	 */
-	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic;
+	applicableSustainabilityCharacteristic?: IUneceSustainabilityCharacteristic[];
 
 	/**
 	 * A specified agricultural application applied to this agricultural zone area.
 	 * @see https://vocabulary.uncefact.org/appliedArea
 	 */
-	appliedArea?: IUneceAgriculturalZoneArea;
+	appliedArea?: IUneceAgriculturalZoneArea[];
 
 	/**
 	 * An agricultural certificate applied to this specified agricultural application.
 	 * @see https://vocabulary.uncefact.org/appliedCertificate
 	 */
-	appliedCertificate?: IUneceAgriculturalCertificate;
+	appliedCertificate?: IUneceAgriculturalCertificate[];
 
 	/**
 	 * A specified chemical treatment applied to this agricultural application.
 	 * @see https://vocabulary.uncefact.org/appliedChemicalTreatment
 	 */
-	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment;
+	appliedChemicalTreatment?: IUneceSpecifiedChemicalTreatment[];
 
 	/**
 	 * Specified material applied to this agricultural application.
 	 * @see https://vocabulary.uncefact.org/appliedMaterial
 	 */
-	appliedMaterial?: IUneceSpecifiedMaterial;
+	appliedMaterial?: IUneceSpecifiedMaterial[];
 
 	/**
 	 * The identifier for this specified agricultural application.
@@ -70,17 +70,17 @@ export interface IUneceAgriculturalApplication extends IJsonLdNodeObject {
 	 * A referenced location specified for this specified agricultural application.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation;
+	specifiedLocation?: IUneceLocation[];
 
 	/**
 	 * A crop plot specified for this agricultural application.
 	 * @see https://vocabulary.uncefact.org/specifiedPlot
 	 */
-	specifiedPlot?: IUnecePlot;
+	specifiedPlot?: IUnecePlot[];
 
 	/**
 	 * A product batch specified for this specified agricultural application.
 	 * @see https://vocabulary.uncefact.org/specifiedProductBatch
 	 */
-	specifiedProductBatch?: IUneceProductBatch;
+	specifiedProductBatch?: IUneceProductBatch[];
 }
