@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.30](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.29...standards-unece-v0.0.3-next.30) (2026-02-04)
+
+
+### Bug Fixes
+
+* unece cardinality using incorrect properties of imported data ([#137](https://github.com/twinfoundation/standards/issues/137)) ([f236eb0](https://github.com/twinfoundation/standards/commit/f236eb04b466546a4c8aea491836da55e0cb2804))
+
 ## [0.0.3-next.29](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.28...standards-unece-v0.0.3-next.29) (2026-02-03)
 
 
