@@ -1,0 +1,137 @@
+[
+  {
+    "locationCode": "CCS",
+    "label": "Chuchungsa",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 26.966667,
+    "lng": 88.933333
+  },
+  {
+    "locationCode": "GLU",
+    "label": "Gelephu",
+    "subdivisionCode": "31",
+    "function": "346",
+    "lat": 26.85,
+    "lng": 90.483333
+  },
+  {
+    "locationCode": "JOM",
+    "label": "Jomotshangkha",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 26.883333,
+    "lng": 93.1
+  },
+  {
+    "locationCode": "LMZ",
+    "label": "Lhamoizingkha",
+    "subdivisionCode": "22",
+    "function": "36",
+    "lat": 26.7,
+    "lng": 89.833333
+  },
+  {
+    "locationCode": "NYP",
+    "label": "Nyonpaling",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 26.816667,
+    "lng": 89.216667
+  },
+  {
+    "locationCode": "PBH",
+    "label": "Paro",
+    "subdivisionCode": "11",
+    "function": "34",
+    "lat": 27.4,
+    "lng": 89.416667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasakha",
+    "subdivisionCode": "12",
+    "function": "36",
+    "lat": 26.833333,
+    "lng": 89.416667
+  },
+  {
+    "locationCode": "PZT",
+    "label": "Pelzomthang (Nganglam)",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 26.8,
+    "lng": 91.25
+  },
+  {
+    "locationCode": "PDL",
+    "label": "Pendenling",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 26.8,
+    "lng": 89.183333
+  },
+  {
+    "locationCode": "PHU",
+    "label": "Phuentsholing",
+    "subdivisionCode": "11",
+    "function": "356",
+    "lat": 26.85,
+    "lng": 89.366667
+  },
+  {
+    "locationCode": "PRL",
+    "label": "Phuntsho Raptenling",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 26.783333,
+    "lng": 91.533333
+  },
+  {
+    "locationCode": "SJR",
+    "label": "Samdrup Jongkhar",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 26.783333,
+    "lng": 91.5
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Samrang",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 26.866667,
+    "lng": 91.816667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samtse",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 26.883333,
+    "lng": 89.95
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarpang",
+    "function": "36",
+    "lat": 26.85,
+    "lng": 90.266667
+  },
+  {
+    "locationCode": "THI",
+    "label": "Thimphu",
+    "subdivisionCode": "15",
+    "function": "35",
+    "lat": 27.466667,
+    "lng": 89.633333
+  },
+  {
+    "locationCode": "YPT",
+    "label": "Yangphelthang",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 26.933333,
+    "lng": 89.216667
+  }
+]

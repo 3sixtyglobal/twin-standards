@@ -1,0 +1,32 @@
+[
+  {
+    "code": "A",
+    "label": "Ahal",
+    "type": "Region"
+  },
+  {
+    "code": "B",
+    "label": "Balkan",
+    "type": "Region"
+  },
+  {
+    "code": "D",
+    "label": "Dasoguz",
+    "type": "Region"
+  },
+  {
+    "code": "L",
+    "label": "Lebap",
+    "type": "Region"
+  },
+  {
+    "code": "M",
+    "label": "Mary",
+    "type": "Region"
+  },
+  {
+    "code": "S",
+    "label": "Asgabat",
+    "type": "City"
+  }
+]

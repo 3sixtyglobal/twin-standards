@@ -1,0 +1,66 @@
+[
+  {
+    "locationCode": "AUA",
+    "label": "Aruba",
+    "function": "14",
+    "lat": 12.5,
+    "lng": -69.966667
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barcadera",
+    "function": "1",
+    "lat": 12.483333,
+    "lng": -69.983333
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Bushiribana",
+    "function": "134",
+    "lat": 12.55,
+    "lng": -69.966667
+  },
+  {
+    "locationCode": "DEU",
+    "label": "Druif",
+    "function": "1"
+  },
+  {
+    "locationCode": "ND9",
+    "label": "Noord",
+    "function": "3",
+    "lat": 12.566667,
+    "lng": -70.016667
+  },
+  {
+    "locationCode": "ORJ",
+    "label": "Oranjestad",
+    "function": "15"
+  },
+  {
+    "locationCode": "PAB",
+    "label": "Palm Beach",
+    "function": "3",
+    "lat": 12.566667,
+    "lng": -70.033333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Paradera",
+    "function": "3",
+    "lat": 12.533333,
+    "lng": -70
+  },
+  {
+    "locationCode": "SCZ",
+    "label": "Santa Cruz",
+    "function": "3",
+    "lat": 12.5,
+    "lng": -69.983333
+  },
+  {
+    "locationCode": "SNL",
+    "label": "Sint Nicolaas",
+    "function": "1"
+  }
+]

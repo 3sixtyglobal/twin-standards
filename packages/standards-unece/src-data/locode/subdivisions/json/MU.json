@@ -1,0 +1,62 @@
+[
+  {
+    "code": "AG",
+    "label": "Agalega Islands",
+    "type": "Dependency"
+  },
+  {
+    "code": "BL",
+    "label": "Black River",
+    "type": "District"
+  },
+  {
+    "code": "CC",
+    "label": "Cargados Carajos Shoals [Saint Brandon Islands]",
+    "type": "Dependency"
+  },
+  {
+    "code": "FL",
+    "label": "Flacq",
+    "type": "District"
+  },
+  {
+    "code": "GP",
+    "label": "Grand Port",
+    "type": "District"
+  },
+  {
+    "code": "MO",
+    "label": "Moka",
+    "type": "District"
+  },
+  {
+    "code": "PA",
+    "label": "Pamplemousses",
+    "type": "District"
+  },
+  {
+    "code": "PL",
+    "label": "Port Louis",
+    "type": "District"
+  },
+  {
+    "code": "PW",
+    "label": "Plaines wilhems",
+    "type": "District"
+  },
+  {
+    "code": "RO",
+    "label": "Rodrigues Island",
+    "type": "Dependency"
+  },
+  {
+    "code": "RR",
+    "label": "Rivière du Rempart",
+    "type": "District"
+  },
+  {
+    "code": "SA",
+    "label": "Savanne",
+    "type": "District"
+  }
+]

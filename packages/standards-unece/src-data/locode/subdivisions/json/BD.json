@@ -1,0 +1,322 @@
+[
+  {
+    "code": "01",
+    "label": "Bandarban",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Barguna",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Bogura",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Brahmanbaria",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Bagerhat",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Barishal",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Bhola",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Cumilla",
+    "type": "District"
+  },
+  {
+    "code": "09",
+    "label": "Chandpur",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Chattogram",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Cox's Bazar",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Chuadanga",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Dhaka",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Dinajpur",
+    "type": "District"
+  },
+  {
+    "code": "15",
+    "label": "Faridpur",
+    "type": "District"
+  },
+  {
+    "code": "16",
+    "label": "Feni",
+    "type": "District"
+  },
+  {
+    "code": "17",
+    "label": "Gopalganj",
+    "type": "District"
+  },
+  {
+    "code": "18",
+    "label": "Gazipur",
+    "type": "District"
+  },
+  {
+    "code": "19",
+    "label": "Gaibandha",
+    "type": "District"
+  },
+  {
+    "code": "20",
+    "label": "Habiganj",
+    "type": "District"
+  },
+  {
+    "code": "21",
+    "label": "Jamalpur",
+    "type": "District"
+  },
+  {
+    "code": "22",
+    "label": "Jashore",
+    "type": "District"
+  },
+  {
+    "code": "23",
+    "label": "Jhenaidah",
+    "type": "District"
+  },
+  {
+    "code": "24",
+    "label": "Joypurhat",
+    "type": "District"
+  },
+  {
+    "code": "25",
+    "label": "Jhalakathi",
+    "type": "District"
+  },
+  {
+    "code": "26",
+    "label": "Kishoreganj",
+    "type": "District"
+  },
+  {
+    "code": "27",
+    "label": "Khulna",
+    "type": "District"
+  },
+  {
+    "code": "28",
+    "label": "Kurigram",
+    "type": "District"
+  },
+  {
+    "code": "29",
+    "label": "Khagrachhari",
+    "type": "District"
+  },
+  {
+    "code": "30",
+    "label": "Kushtia",
+    "type": "District"
+  },
+  {
+    "code": "31",
+    "label": "Lakshmipur",
+    "type": "District"
+  },
+  {
+    "code": "32",
+    "label": "Lalmonirhat",
+    "type": "District"
+  },
+  {
+    "code": "33",
+    "label": "Manikganj",
+    "type": "District"
+  },
+  {
+    "code": "34",
+    "label": "Mymensingh",
+    "type": "District"
+  },
+  {
+    "code": "35",
+    "label": "Munshiganj",
+    "type": "District"
+  },
+  {
+    "code": "36",
+    "label": "Madaripur",
+    "type": "District"
+  },
+  {
+    "code": "37",
+    "label": "Magura",
+    "type": "District"
+  },
+  {
+    "code": "38",
+    "label": "Moulvibazar",
+    "type": "District"
+  },
+  {
+    "code": "39",
+    "label": "Meherpur",
+    "type": "District"
+  },
+  {
+    "code": "40",
+    "label": "Narayanganj",
+    "type": "District"
+  },
+  {
+    "code": "41",
+    "label": "Netrakona",
+    "type": "District"
+  },
+  {
+    "code": "42",
+    "label": "Narsingdi",
+    "type": "District"
+  },
+  {
+    "code": "43",
+    "label": "Narail",
+    "type": "District"
+  },
+  {
+    "code": "44",
+    "label": "Natore",
+    "type": "District"
+  },
+  {
+    "code": "45",
+    "label": "Chapai Nawabganj",
+    "type": "District"
+  },
+  {
+    "code": "46",
+    "label": "Nilphamari",
+    "type": "District"
+  },
+  {
+    "code": "47",
+    "label": "Noakhali",
+    "type": "District"
+  },
+  {
+    "code": "48",
+    "label": "Naogaon",
+    "type": "District"
+  },
+  {
+    "code": "49",
+    "label": "Pabna",
+    "type": "District"
+  },
+  {
+    "code": "50",
+    "label": "Pirojpur",
+    "type": "District"
+  },
+  {
+    "code": "51",
+    "label": "Patuakhali",
+    "type": "District"
+  },
+  {
+    "code": "52",
+    "label": "Panchagarh",
+    "type": "District"
+  },
+  {
+    "code": "53",
+    "label": "Rajbari",
+    "type": "District"
+  },
+  {
+    "code": "54",
+    "label": "Rajshahi",
+    "type": "District"
+  },
+  {
+    "code": "55",
+    "label": "Rangpur",
+    "type": "District"
+  },
+  {
+    "code": "56",
+    "label": "Rangamati",
+    "type": "District"
+  },
+  {
+    "code": "57",
+    "label": "Sherpur",
+    "type": "District"
+  },
+  {
+    "code": "58",
+    "label": "Satkhira",
+    "type": "District"
+  },
+  {
+    "code": "59",
+    "label": "Sirajganj",
+    "type": "District"
+  },
+  {
+    "code": "60",
+    "label": "Sylhet",
+    "type": "District"
+  },
+  {
+    "code": "61",
+    "label": "Sunamganj",
+    "type": "District"
+  },
+  {
+    "code": "62",
+    "label": "Shariatpur",
+    "type": "District"
+  },
+  {
+    "code": "63",
+    "label": "Tangail",
+    "type": "District"
+  },
+  {
+    "code": "64",
+    "label": "Thakurgaon",
+    "type": "District"
+  }
+]

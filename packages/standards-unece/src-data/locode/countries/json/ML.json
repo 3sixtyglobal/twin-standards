@@ -1,0 +1,299 @@
+[
+  {
+    "locationCode": "AMB",
+    "label": "Ambidédi",
+    "labelWithDiacritics": "Ambidedi",
+    "function": "3",
+    "lat": 14.583333,
+    "lng": -11.783333
+  },
+  {
+    "locationCode": "AAO",
+    "label": "Ansongo",
+    "subdivisionCode": "7",
+    "function": "4",
+    "lat": 15.1,
+    "lng": 0.083333
+  },
+  {
+    "locationCode": "BGD",
+    "label": "Baguinéda",
+    "subdivisionCode": "2",
+    "labelWithDiacritics": "Baguineda",
+    "function": "3",
+    "lat": 12.6,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "BKO",
+    "label": "Bamako",
+    "function": "45"
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Banangoroni",
+    "subdivisionCode": "4",
+    "function": "3",
+    "lat": 13.683333,
+    "lng": -6.383333
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Bla",
+    "function": "3"
+  },
+  {
+    "locationCode": "BGI",
+    "label": "Bougouni",
+    "function": "3",
+    "lat": 11.4,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "DKB",
+    "label": "Dialakorobougou",
+    "subdivisionCode": "2",
+    "function": "23",
+    "lat": 12.8,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "DIO",
+    "label": "Dioila",
+    "function": "3",
+    "lat": 12.483333,
+    "lng": -6.8
+  },
+  {
+    "locationCode": "FAN",
+    "label": "Fana",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAQ",
+    "label": "Gao",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Goundam",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDL",
+    "label": "Kadiolo",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": 10.55,
+    "lng": -5.766667
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamalé",
+    "subdivisionCode": "2",
+    "labelWithDiacritics": "Kamale",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kati",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 12.733333,
+    "lng": -8.066667
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Katibougou",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 12.916667,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "KYS",
+    "label": "Kayes",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPR",
+    "label": "Kemparana",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNZ",
+    "label": "Kenieba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kita",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korouma",
+    "function": "36",
+    "lat": 13.483333,
+    "lng": -11.433333
+  },
+  {
+    "locationCode": "IKO",
+    "label": "Koulikoro",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koumantou",
+    "function": "3",
+    "lat": 11.416667,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "KTX",
+    "label": "Koutiala",
+    "function": "34"
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahana",
+    "function": "3",
+    "lat": 16.183333,
+    "lng": -6.7
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Mahina",
+    "function": "3",
+    "lat": 13.3,
+    "lng": -10.65
+  },
+  {
+    "locationCode": "MBG",
+    "label": "Manabougou",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 12.766667,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "MZI",
+    "label": "Mopti",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morila",
+    "function": "3",
+    "lat": 12.2,
+    "lng": -6.633333
+  },
+  {
+    "locationCode": "NRM",
+    "label": "Nara",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDE",
+    "label": "Ndébougou",
+    "labelWithDiacritics": "Ndebougou",
+    "function": "3",
+    "lat": 14.366667,
+    "lng": -5.983333
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Négala",
+    "subdivisionCode": "2",
+    "labelWithDiacritics": "Negala",
+    "function": "3",
+    "lat": 12.866667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "NIO",
+    "label": "Niono",
+    "function": "3",
+    "lat": 14.25,
+    "lng": -6
+  },
+  {
+    "locationCode": "NIX",
+    "label": "Nioro",
+    "function": "4"
+  },
+  {
+    "locationCode": "OLB",
+    "label": "Ouolossébougou",
+    "labelWithDiacritics": "Ouolossebougou",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Sadiola",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": -11.7
+  },
+  {
+    "locationCode": "SAN",
+    "label": "San",
+    "function": "3",
+    "lat": 13.283333,
+    "lng": -4.883333
+  },
+  {
+    "locationCode": "SZU",
+    "label": "Ségou",
+    "labelWithDiacritics": "Segou",
+    "function": "34",
+    "lat": 13.45,
+    "lng": -6.266667
+  },
+  {
+    "locationCode": "SEV",
+    "label": "Sévaré",
+    "labelWithDiacritics": "Sevare",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": -4.1
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Sikasso",
+    "function": "3",
+    "lat": 11.316667,
+    "lng": -5.666667
+  },
+  {
+    "locationCode": "TOM",
+    "label": "Tombouctou",
+    "function": "4",
+    "lat": 16.716667,
+    "lng": -3
+  },
+  {
+    "locationCode": "TOU",
+    "label": "Touana",
+    "function": "3",
+    "lat": 13.633333,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "YAT",
+    "label": "Yatéla",
+    "labelWithDiacritics": "Yatela",
+    "function": "3",
+    "lat": 14.1,
+    "lng": -11.766667
+  },
+  {
+    "locationCode": "EYL",
+    "label": "Yelimane",
+    "function": "4",
+    "lat": 15.133333,
+    "lng": -10.566667
+  }
+]

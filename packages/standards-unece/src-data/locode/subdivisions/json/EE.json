@@ -1,0 +1,77 @@
+[
+  {
+    "code": "37",
+    "label": "Harjumaa",
+    "type": "County"
+  },
+  {
+    "code": "39",
+    "label": "Hiiumaa",
+    "type": "County"
+  },
+  {
+    "code": "45",
+    "label": "Ida-Virumaa",
+    "type": "County"
+  },
+  {
+    "code": "50",
+    "label": "Jõgevamaa",
+    "type": "County"
+  },
+  {
+    "code": "52",
+    "label": "Järvamaa",
+    "type": "County"
+  },
+  {
+    "code": "56",
+    "label": "Läänemaa",
+    "type": "County"
+  },
+  {
+    "code": "60",
+    "label": "Lääne-Virumaa",
+    "type": "County"
+  },
+  {
+    "code": "64",
+    "label": "Põlvamaa",
+    "type": "County"
+  },
+  {
+    "code": "68",
+    "label": "Pärnumaa",
+    "type": "County"
+  },
+  {
+    "code": "71",
+    "label": "Raplamaa",
+    "type": "County"
+  },
+  {
+    "code": "74",
+    "label": "Saaremaa",
+    "type": "County"
+  },
+  {
+    "code": "79",
+    "label": "Tartumaa",
+    "type": "County"
+  },
+  {
+    "code": "81",
+    "label": "Valgamaa",
+    "type": "County"
+  },
+  {
+    "code": "84",
+    "label": "Viljandimaa",
+    "type": "County"
+  },
+  {
+    "code": "87",
+    "label": "Võrumaa",
+    "type": "County"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "locationCode": "CPK",
+    "label": "Camden Park",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 13.166667,
+    "lng": -61.233333
+  },
+  {
+    "locationCode": "CRP",
+    "label": "Campden Park",
+    "function": "13",
+    "lat": 13.166667,
+    "lng": -61.233333
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Canouan Island",
+    "function": "1",
+    "lat": 12.716667,
+    "lng": -61.316667
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Georgetown",
+    "function": "136",
+    "lat": 13.266667,
+    "lng": -61.116667
+  },
+  {
+    "locationCode": "KTN",
+    "label": "Kingstown",
+    "function": "145",
+    "lat": 13.133333,
+    "lng": -61.216667
+  },
+  {
+    "locationCode": "MQS",
+    "label": "Mustique Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "PLI",
+    "label": "Palm Island",
+    "function": "4",
+    "lat": 12.35,
+    "lng": -61.233333
+  },
+  {
+    "locationCode": "BQU",
+    "label": "Port Elizabeth, Bequia",
+    "function": "134",
+    "lat": 13,
+    "lng": -61.216667
+  },
+  {
+    "locationCode": "SVD",
+    "label": "Saint Vincent",
+    "function": "14"
+  },
+  {
+    "locationCode": "UNI",
+    "label": "Union Island",
+    "function": "14"
+  }
+]

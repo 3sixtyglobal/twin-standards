@@ -1,0 +1,14 @@
+[
+  {
+    "locationCode": "GIB",
+    "label": "Gibraltar",
+    "function": "145"
+  },
+  {
+    "locationCode": "WTP",
+    "label": "Waterport",
+    "function": "6",
+    "lat": 36.133333,
+    "lng": -5.35
+  }
+]

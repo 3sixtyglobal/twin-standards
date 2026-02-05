@@ -1,0 +1,77 @@
+[
+  {
+    "locationCode": "BAZ",
+    "label": "Balzers",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 9.5
+  },
+  {
+    "locationCode": "ESC",
+    "label": "Eschen",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Gamprin-Bendern",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Mauren",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 9.533333
+  },
+  {
+    "locationCode": "NEN",
+    "label": "Nendeln",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 9.55
+  },
+  {
+    "locationCode": "PLK",
+    "label": "Planken",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 9.533333
+  },
+  {
+    "locationCode": "RGL",
+    "label": "Ruggell",
+    "function": "3",
+    "lat": 47.233333,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "SCN",
+    "label": "Schaan",
+    "function": "23",
+    "lat": 47.166667,
+    "lng": 9.5
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Schaanwald",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 9.566667
+  },
+  {
+    "locationCode": "TES",
+    "label": "Triesen",
+    "function": "3"
+  },
+  {
+    "locationCode": "VDZ",
+    "label": "Vaduz",
+    "function": "3",
+    "lat": 47.15,
+    "lng": 9.533333
+  }
+]

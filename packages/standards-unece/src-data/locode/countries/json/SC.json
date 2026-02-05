@@ -1,0 +1,65 @@
+[
+  {
+    "locationCode": "ANS",
+    "label": "Anse Kerlan",
+    "function": "6",
+    "lat": -4.3,
+    "lng": 55.683333
+  },
+  {
+    "locationCode": "BDI",
+    "label": "Bird Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "DEI",
+    "label": "Denis Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRK",
+    "label": "Frégate",
+    "labelWithDiacritics": "Fregate",
+    "function": "4",
+    "lat": -4.583333,
+    "lng": 55.933333
+  },
+  {
+    "locationCode": "DES",
+    "label": "Ile Desroches",
+    "function": "4",
+    "lat": -5.683333,
+    "lng": 53.683333
+  },
+  {
+    "locationCode": "MAW",
+    "label": "Mahe",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEZ",
+    "label": "Mahé Island Apt",
+    "labelWithDiacritics": "Mahe Island Apt",
+    "function": "45",
+    "lat": -4.666667,
+    "lng": 55.466667
+  },
+  {
+    "locationCode": "POV",
+    "label": "Port Victoria",
+    "function": "1"
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Praslin Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Victoria",
+    "subdivisionCode": "22",
+    "function": "13",
+    "lat": -4.616667,
+    "lng": 55.45
+  }
+]

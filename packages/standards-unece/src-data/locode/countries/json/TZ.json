@@ -1,0 +1,445 @@
+[
+  {
+    "locationCode": "ICD",
+    "label": "African Inland Container Depot",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": -6.833333,
+    "lng": 39.233333
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arusha",
+    "function": "45"
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Babati",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": -4.216667,
+    "lng": 35.75
+  },
+  {
+    "locationCode": "BHO",
+    "label": "Biharamulo",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -2.616667,
+    "lng": 31.3
+  },
+  {
+    "locationCode": "BKZ",
+    "label": "Bukoba",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Dar es Salaam",
+    "function": "12345",
+    "lat": -6.8,
+    "lng": 39.283333
+  },
+  {
+    "locationCode": "DOD",
+    "label": "Dodoma",
+    "function": "4"
+  },
+  {
+    "locationCode": "GIT",
+    "label": "Geita",
+    "function": "34"
+  },
+  {
+    "locationCode": "IKW",
+    "label": "Ikwiriri",
+    "function": "13",
+    "lat": -7.983333,
+    "lng": 39.016667
+  },
+  {
+    "locationCode": "IRI",
+    "label": "Iringa",
+    "function": "4"
+  },
+  {
+    "locationCode": "ISK",
+    "label": "Isaka",
+    "function": "3",
+    "lat": -3.866667,
+    "lng": 32.933333
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Kabanga",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -2.633333,
+    "lng": 30.466667
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Kagera",
+    "function": "16",
+    "lat": -4.65,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Kahama",
+    "function": "3",
+    "lat": -3.816667,
+    "lng": 32.583333
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kasulu",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": -4.566667,
+    "lng": 30.1
+  },
+  {
+    "locationCode": "KIB",
+    "label": "Kibaha",
+    "subdivisionCode": "19",
+    "function": "36",
+    "lat": -6.766667,
+    "lng": 38.916667
+  },
+  {
+    "locationCode": "KBD",
+    "label": "Kibondo",
+    "subdivisionCode": "08",
+    "function": "6",
+    "lat": -3.583333,
+    "lng": 30.716667
+  },
+  {
+    "locationCode": "KDT",
+    "label": "Kidatu",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": -7.7,
+    "lng": 36.95
+  },
+  {
+    "locationCode": "TKQ",
+    "label": "Kigoma",
+    "function": "14"
+  },
+  {
+    "locationCode": "JRO",
+    "label": "Kilimanjaro",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIY",
+    "label": "Kilwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIK",
+    "label": "Kilwa Kivinje",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kilwa Masoko",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSS",
+    "label": "Kisesa",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": -3.083333,
+    "lng": 34.15
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kitagata",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -4.3,
+    "lng": 30.483333
+  },
+  {
+    "locationCode": "KRG",
+    "label": "Korogwe",
+    "function": "3",
+    "lat": -5.15,
+    "lng": 38.483333
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kurasini",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -6.85,
+    "lng": 39.283333
+  },
+  {
+    "locationCode": "LKY",
+    "label": "Lake Manyara",
+    "function": "4"
+  },
+  {
+    "locationCode": "LDI",
+    "label": "Lindi",
+    "function": "14"
+  },
+  {
+    "locationCode": "LUY",
+    "label": "Lushoto",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFA",
+    "label": "Mafia",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Makumbako",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": -8.85,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "MGK",
+    "label": "Malagarasi",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -5.1,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "MRN",
+    "label": "Marungu",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -3.616667,
+    "lng": 38.716667
+  },
+  {
+    "locationCode": "XMI",
+    "label": "Masasi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBI",
+    "label": "Mbeya",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIC",
+    "label": "Michiuja",
+    "function": "1"
+  },
+  {
+    "locationCode": "MIK",
+    "label": "Mikindani",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKM",
+    "label": "Mikumi",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": -7.4,
+    "lng": 36.983333
+  },
+  {
+    "locationCode": "MKO",
+    "label": "Mkokotoni, Zanzibar",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLB",
+    "label": "Mlimba",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": -8.8,
+    "lng": 35.8
+  },
+  {
+    "locationCode": "MOH",
+    "label": "Mohoro",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Morogoro",
+    "function": "3",
+    "lat": -6.816667,
+    "lng": 37.65
+  },
+  {
+    "locationCode": "MSH",
+    "label": "Moshi",
+    "subdivisionCode": "09",
+    "function": "36",
+    "lat": -3.35,
+    "lng": 37.333333
+  },
+  {
+    "locationCode": "MPA",
+    "label": "Mpanda",
+    "subdivisionCode": "28",
+    "function": "34",
+    "lat": -6.35,
+    "lng": 31.066667
+  },
+  {
+    "locationCode": "MTS",
+    "label": "Mtsora",
+    "function": "1"
+  },
+  {
+    "locationCode": "MYW",
+    "label": "Mtwara",
+    "function": "14"
+  },
+  {
+    "locationCode": "MUZ",
+    "label": "Musoma",
+    "function": "4"
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Mutukula",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -1,
+    "lng": 31.4
+  },
+  {
+    "locationCode": "MWN",
+    "label": "Mwadui",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWZ",
+    "label": "Mwanza",
+    "subdivisionCode": "18",
+    "function": "14",
+    "lat": -2.516667,
+    "lng": 32.9
+  },
+  {
+    "locationCode": "NCH",
+    "label": "Nachingwea",
+    "function": "4"
+  },
+  {
+    "locationCode": "JOM",
+    "label": "Njombe",
+    "function": "4"
+  },
+  {
+    "locationCode": "NZG",
+    "label": "Nzega",
+    "function": "3",
+    "lat": -3.616667,
+    "lng": 33.933333
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pangani",
+    "function": "1"
+  },
+  {
+    "locationCode": "PMA",
+    "label": "Pemba",
+    "function": "14"
+  },
+  {
+    "locationCode": "RIJ",
+    "label": "Rijiju",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "Sanya Juu",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": -3.183333,
+    "lng": 37.066667
+  },
+  {
+    "locationCode": "SEU",
+    "label": "Seronera",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHY",
+    "label": "Shinyanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shirati",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": -1.133333,
+    "lng": 33.983333
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Singida",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": -4.816667,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "SGX",
+    "label": "Songea",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUT",
+    "label": "Sumbawanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBO",
+    "label": "Tabora",
+    "function": "4"
+  },
+  {
+    "locationCode": "TGT",
+    "label": "Tanga",
+    "function": "14"
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunduna",
+    "function": "3"
+  },
+  {
+    "locationCode": "WHA",
+    "label": "Wesha",
+    "function": "0"
+  },
+  {
+    "locationCode": "YOB",
+    "label": "Yombo",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": -6.583333,
+    "lng": 38.833333
+  },
+  {
+    "locationCode": "ZNZ",
+    "label": "Zanzibar",
+    "function": "145"
+  }
+]

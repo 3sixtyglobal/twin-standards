@@ -1,0 +1,62 @@
+[
+  {
+    "code": "AK",
+    "label": "Atacora",
+    "type": "Department"
+  },
+  {
+    "code": "AL",
+    "label": "Alibori",
+    "type": "Department"
+  },
+  {
+    "code": "AQ",
+    "label": "Atlantique",
+    "type": "Department"
+  },
+  {
+    "code": "BO",
+    "label": "Borgou",
+    "type": "Department"
+  },
+  {
+    "code": "CO",
+    "label": "Collines",
+    "type": "Department"
+  },
+  {
+    "code": "DO",
+    "label": "Donga",
+    "type": "Department"
+  },
+  {
+    "code": "KO",
+    "label": "Couffo",
+    "type": "Department"
+  },
+  {
+    "code": "LI",
+    "label": "Littoral",
+    "type": "Department"
+  },
+  {
+    "code": "MO",
+    "label": "Mono",
+    "type": "Department"
+  },
+  {
+    "code": "OU",
+    "label": "Ouémé",
+    "type": "Department"
+  },
+  {
+    "code": "PL",
+    "label": "Plateau",
+    "type": "Department"
+  },
+  {
+    "code": "ZO",
+    "label": "Zou",
+    "type": "Department"
+  }
+]

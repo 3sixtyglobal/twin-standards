@@ -1,0 +1,101 @@
+[
+  {
+    "locationCode": "BUB",
+    "label": "Bullenbaai",
+    "function": "1",
+    "lat": 12.166667,
+    "lng": -69
+  },
+  {
+    "locationCode": "CRB",
+    "label": "Caracas Baai",
+    "function": "1",
+    "lat": 12.066667,
+    "lng": -68.85
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curaçao",
+    "labelWithDiacritics": "Curacao",
+    "function": "145",
+    "lat": 12.166667,
+    "lng": -69
+  },
+  {
+    "locationCode": "DGT",
+    "label": "Dominguito",
+    "function": "6",
+    "lat": 12.1,
+    "lng": -68.9
+  },
+  {
+    "locationCode": "EMM",
+    "label": "Emmastad",
+    "function": "3",
+    "lat": 12.133333,
+    "lng": -68.916667
+  },
+  {
+    "locationCode": "FUI",
+    "label": "Fuikbaai",
+    "function": "1",
+    "lat": 12.05,
+    "lng": -68.816667
+  },
+  {
+    "locationCode": "GBG",
+    "label": "Grote Berg",
+    "function": "6",
+    "lat": 12.183333,
+    "lng": -68.983333
+  },
+  {
+    "locationCode": "OTB",
+    "label": "Otrobanda",
+    "function": "3",
+    "lat": 12.133333,
+    "lng": -68.95
+  },
+  {
+    "locationCode": "PUN",
+    "label": "Punda",
+    "function": "3",
+    "lat": 12.1,
+    "lng": -68.916667
+  },
+  {
+    "locationCode": "STR",
+    "label": "Santa Rosa",
+    "function": "3",
+    "lat": 12.116667,
+    "lng": -68.883333
+  },
+  {
+    "locationCode": "SMB",
+    "label": "Sint Michielsbaai",
+    "function": "1",
+    "lat": 12.15,
+    "lng": -68.983333
+  },
+  {
+    "locationCode": "SFF",
+    "label": "Suffisant Dorp",
+    "function": "6",
+    "lat": 12.15,
+    "lng": -68.916667
+  },
+  {
+    "locationCode": "WIL",
+    "label": "Willemstad",
+    "function": "1",
+    "lat": 12.1,
+    "lng": -68.916667
+  },
+  {
+    "locationCode": "ZEE",
+    "label": "Zeelandia",
+    "function": "6",
+    "lat": 12.116667,
+    "lng": -68.9
+  }
+]

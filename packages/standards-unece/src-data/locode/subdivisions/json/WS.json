@@ -1,0 +1,57 @@
+[
+  {
+    "code": "AA",
+    "label": "A'ana",
+    "type": "District"
+  },
+  {
+    "code": "AL",
+    "label": "Aiga-i-le-Tai",
+    "type": "District"
+  },
+  {
+    "code": "AT",
+    "label": "Atua",
+    "type": "District"
+  },
+  {
+    "code": "FA",
+    "label": "Fa'asaleleaga",
+    "type": "District"
+  },
+  {
+    "code": "GE",
+    "label": "Gaga'emauga",
+    "type": "District"
+  },
+  {
+    "code": "GI",
+    "label": "Gagaifomauga",
+    "type": "District"
+  },
+  {
+    "code": "PA",
+    "label": "Palauli",
+    "type": "District"
+  },
+  {
+    "code": "SA",
+    "label": "Satupa 'itea",
+    "type": "District"
+  },
+  {
+    "code": "TU",
+    "label": "Tuamasaga",
+    "type": "District"
+  },
+  {
+    "code": "VF",
+    "label": "Va'a-o-Fonoti",
+    "type": "District"
+  },
+  {
+    "code": "VS",
+    "label": "Vaisigano",
+    "type": "District"
+  }
+]

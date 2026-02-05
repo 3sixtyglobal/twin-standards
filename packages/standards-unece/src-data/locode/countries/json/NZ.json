@@ -1,0 +1,2672 @@
+[
+  {
+    "locationCode": "AHU",
+    "label": "Ahuriri",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.483333,
+    "lng": 176.9
+  },
+  {
+    "locationCode": "AKA",
+    "label": "Akaroa",
+    "subdivisionCode": "CAN",
+    "function": "1",
+    "lat": -43.8,
+    "lng": 172.95
+  },
+  {
+    "locationCode": "ABY",
+    "label": "Albany",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.716667,
+    "lng": 174.683333
+  },
+  {
+    "locationCode": "ALR",
+    "label": "Alexandra",
+    "subdivisionCode": "OTA",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Amberley",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.166667,
+    "lng": 172.733333
+  },
+  {
+    "locationCode": "ANU",
+    "label": "Aranui",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.516667,
+    "lng": 172.7
+  },
+  {
+    "locationCode": "AWK",
+    "label": "Arapuni",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38.066667,
+    "lng": 175.65
+  },
+  {
+    "locationCode": "AMZ",
+    "label": "Ardmore",
+    "subdivisionCode": "AUK",
+    "function": "4"
+  },
+  {
+    "locationCode": "ART",
+    "label": "Arrowtown",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -44.933333,
+    "lng": 168.833333
+  },
+  {
+    "locationCode": "ASG",
+    "label": "Ashburton",
+    "subdivisionCode": "CAN",
+    "function": "34",
+    "lat": -43.916667,
+    "lng": 171.75
+  },
+  {
+    "locationCode": "AKL",
+    "label": "Auckland",
+    "subdivisionCode": "AUK",
+    "function": "12345",
+    "lat": -36.833333,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "AVA",
+    "label": "Avalon",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.183333,
+    "lng": 174.933333
+  },
+  {
+    "locationCode": "AVD",
+    "label": "Avondale",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.883333,
+    "lng": 174.7
+  },
+  {
+    "locationCode": "AVH",
+    "label": "Avonhead",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.516667,
+    "lng": 172.566667
+  },
+  {
+    "locationCode": "AWT",
+    "label": "Awatoto",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.55,
+    "lng": 176.9
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balclutha",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -46.233333,
+    "lng": 169.733333
+  },
+  {
+    "locationCode": "BKB",
+    "label": "Bannockburn",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.083333,
+    "lng": 169.166667
+  },
+  {
+    "locationCode": "BYW",
+    "label": "Bayswater",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.8,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belfast",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.433333,
+    "lng": 172.633333
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Belmont",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.8,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "BHE",
+    "label": "Blenheim",
+    "subdivisionCode": "MBH",
+    "function": "34",
+    "lat": -41.516667,
+    "lng": 173.966667
+  },
+  {
+    "locationCode": "BLU",
+    "label": "Bluff",
+    "subdivisionCode": "STL",
+    "function": "123",
+    "lat": -46.6,
+    "lng": 168.316667
+  },
+  {
+    "locationCode": "WBG",
+    "label": "Brightwater",
+    "subdivisionCode": "NSN",
+    "function": "3",
+    "lat": -41.383333,
+    "lng": 173.116667
+  },
+  {
+    "locationCode": "BMY",
+    "label": "Bromley",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.55,
+    "lng": 172.7
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Bulls",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.166667,
+    "lng": 175.383333
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Burnham",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.616667,
+    "lng": 172.316667
+  },
+  {
+    "locationCode": "BUW",
+    "label": "Burnham Wharf",
+    "subdivisionCode": "WGN",
+    "function": "1",
+    "lat": -41.3,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "BWD",
+    "label": "Burwood",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.5,
+    "lng": 172.7
+  },
+  {
+    "locationCode": "CGE",
+    "label": "Cambridge",
+    "subdivisionCode": "WKO",
+    "function": "3"
+  },
+  {
+    "locationCode": "CTN",
+    "label": "Carterton",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.016667,
+    "lng": 175.55
+  },
+  {
+    "locationCode": "CHT",
+    "label": "Chatham Island",
+    "subdivisionCode": "CAN",
+    "function": "4"
+  },
+  {
+    "locationCode": "CSA",
+    "label": "Chelsea",
+    "subdivisionCode": "AUK",
+    "function": "13",
+    "lat": -36.816667,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Cheviot",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -42.816667,
+    "lng": 173.266667
+  },
+  {
+    "locationCode": "CHC",
+    "label": "Christchurch",
+    "subdivisionCode": "CAN",
+    "function": "34",
+    "lat": -43.533333,
+    "lng": 172.633333
+  },
+  {
+    "locationCode": "CFT",
+    "label": "Clifton",
+    "subdivisionCode": "CAN",
+    "function": "6",
+    "lat": -43.55,
+    "lng": 172.75
+  },
+  {
+    "locationCode": "CLY",
+    "label": "Clyde",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.183333,
+    "lng": 169.316667
+  },
+  {
+    "locationCode": "CMV",
+    "label": "Coromandel",
+    "subdivisionCode": "WKO",
+    "function": "4",
+    "lat": -36.766667,
+    "lng": 175.5
+  },
+  {
+    "locationCode": "CRO",
+    "label": "Cromwell",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.05,
+    "lng": 169.233333
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Dannevirke",
+    "subdivisionCode": "NTL",
+    "function": "23",
+    "lat": -40.2,
+    "lng": 176.083333
+  },
+  {
+    "locationCode": "DGR",
+    "label": "Dargaville",
+    "subdivisionCode": "NTL",
+    "function": "34",
+    "lat": -35.933333,
+    "lng": 173.883333
+  },
+  {
+    "locationCode": "DSB",
+    "label": "Days Bay",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.266667,
+    "lng": 174.916667
+  },
+  {
+    "locationCode": "DPC",
+    "label": "Deep Cove",
+    "subdivisionCode": "STL",
+    "function": "1",
+    "lat": -45.45,
+    "lng": 167.15
+  },
+  {
+    "locationCode": "DEV",
+    "label": "Devonport",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -36.833333,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "DGO",
+    "label": "Doubtful Sound",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -45.283333,
+    "lng": 166.85
+  },
+  {
+    "locationCode": "DRR",
+    "label": "Drury",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -37.1,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "DUD",
+    "label": "Dunedin",
+    "subdivisionCode": "OTA",
+    "function": "234",
+    "lat": -45.866667,
+    "lng": 170.5
+  },
+  {
+    "locationCode": "DUS",
+    "label": "Dusky Sound",
+    "subdivisionCode": "STL",
+    "function": "0",
+    "lat": -45.783333,
+    "lng": 166.466667
+  },
+  {
+    "locationCode": "EAC",
+    "label": "Earnscleugh",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.216667,
+    "lng": 169.316667
+  },
+  {
+    "locationCode": "ETM",
+    "label": "East Tamaki",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.95,
+    "lng": 174.9
+  },
+  {
+    "locationCode": "ERH",
+    "label": "Edendale",
+    "subdivisionCode": "STL",
+    "function": "23",
+    "lat": -46.316667,
+    "lng": 168.783333
+  },
+  {
+    "locationCode": "EDC",
+    "label": "Edgecumbe",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.966667,
+    "lng": 176.816667
+  },
+  {
+    "locationCode": "ELM",
+    "label": "Eltham",
+    "subdivisionCode": "TKI",
+    "function": "3",
+    "lat": -39.433333,
+    "lng": 174.3
+  },
+  {
+    "locationCode": "FLD",
+    "label": "Feilding",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.216667,
+    "lng": 175.55
+  },
+  {
+    "locationCode": "FDT",
+    "label": "Fendalton",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.516667,
+    "lng": 172.6
+  },
+  {
+    "locationCode": "FEE",
+    "label": "Fernside",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.316667,
+    "lng": 172.533333
+  },
+  {
+    "locationCode": "FOR",
+    "label": "Fortrose",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.566667,
+    "lng": 168.8
+  },
+  {
+    "locationCode": "FGL",
+    "label": "Fox Glacier",
+    "subdivisionCode": "WTC",
+    "function": "4",
+    "lat": -43.5,
+    "lng": 170.083333
+  },
+  {
+    "locationCode": "FOX",
+    "label": "Foxton",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.466667,
+    "lng": 175.3
+  },
+  {
+    "locationCode": "FKT",
+    "label": "Frankton",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.016667,
+    "lng": 168.716667
+  },
+  {
+    "locationCode": "WHO",
+    "label": "Franz Josef",
+    "subdivisionCode": "WTC",
+    "function": "4",
+    "lat": -43.4,
+    "lng": 170.183333
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galatea",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -38.683333,
+    "lng": 176.783333
+  },
+  {
+    "locationCode": "GIS",
+    "label": "Gisborne",
+    "subdivisionCode": "GIS",
+    "function": "134",
+    "lat": -38.666667,
+    "lng": 178.033333
+  },
+  {
+    "locationCode": "GED",
+    "label": "Glen Eden",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.916667,
+    "lng": 174.65
+  },
+  {
+    "locationCode": "GLE",
+    "label": "Glenavy",
+    "subdivisionCode": "CAN",
+    "function": "1",
+    "lat": -44.916667,
+    "lng": 171.1
+  },
+  {
+    "locationCode": "GF4",
+    "label": "Glenfield",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.766667,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "GOB",
+    "label": "Golden Bay",
+    "subdivisionCode": "TAS",
+    "function": "3",
+    "lat": -40.666667,
+    "lng": 172.833333
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Gore",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.1,
+    "lng": 168.933333
+  },
+  {
+    "locationCode": "GBZ",
+    "label": "Great Barrier Is",
+    "subdivisionCode": "AUK",
+    "function": "4"
+  },
+  {
+    "locationCode": "C4W",
+    "label": "Greendale",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.583333,
+    "lng": 172.083333
+  },
+  {
+    "locationCode": "GTO",
+    "label": "Greerton",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.716667,
+    "lng": 176.133333
+  },
+  {
+    "locationCode": "GMN",
+    "label": "Greymouth",
+    "subdivisionCode": "WTC",
+    "function": "134",
+    "lat": -42.433333,
+    "lng": 171.2
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Greytown",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.066667,
+    "lng": 175.45
+  },
+  {
+    "locationCode": "HSW",
+    "label": "Halswell",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.583333,
+    "lng": 172.566667
+  },
+  {
+    "locationCode": "HLZ",
+    "label": "Hamilton",
+    "subdivisionCode": "WKO",
+    "function": "234",
+    "lat": -37.783333,
+    "lng": 175.283333
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Harewood",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.483333,
+    "lng": 172.583333
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hastings",
+    "subdivisionCode": "HKB",
+    "function": "3"
+  },
+  {
+    "locationCode": "HTT",
+    "label": "Hataitai",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.3,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "NNH",
+    "label": "Havelock",
+    "subdivisionCode": "MBH",
+    "function": "3",
+    "lat": -41.283333,
+    "lng": 173.766667
+  },
+  {
+    "locationCode": "HVN",
+    "label": "Havelock North",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.666667,
+    "lng": 176.883333
+  },
+  {
+    "locationCode": "HWD",
+    "label": "Hawarden",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -42.933333,
+    "lng": 172.633333
+  },
+  {
+    "locationCode": "HAW",
+    "label": "Hawera",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -39.583333,
+    "lng": 174.333333
+  },
+  {
+    "locationCode": "HYW",
+    "label": "Haywards",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.15,
+    "lng": 174.983333
+  },
+  {
+    "locationCode": "HCV",
+    "label": "Heathcote Valley",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.583333,
+    "lng": 172.716667
+  },
+  {
+    "locationCode": "HDS",
+    "label": "Henderson",
+    "subdivisionCode": "AUK",
+    "function": "23",
+    "lat": -36.866667,
+    "lng": 174.616667
+  },
+  {
+    "locationCode": "HB3",
+    "label": "Herne Bay",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -36.833333,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hillsborough",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.55,
+    "lng": 172.65
+  },
+  {
+    "locationCode": "HKK",
+    "label": "Hokitika",
+    "subdivisionCode": "WTC",
+    "function": "34",
+    "lat": -42.716667,
+    "lng": 170.966667
+  },
+  {
+    "locationCode": "HRB",
+    "label": "Hornby",
+    "subdivisionCode": "CAN",
+    "function": "6",
+    "lat": -43.55,
+    "lng": 172.533333
+  },
+  {
+    "locationCode": "HOU",
+    "label": "Horotiu",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.716667,
+    "lng": 175.2
+  },
+  {
+    "locationCode": "AUC",
+    "label": "Howick",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.883333,
+    "lng": 174.933333
+  },
+  {
+    "locationCode": "HLY",
+    "label": "Huntly",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.55,
+    "lng": 175.15
+  },
+  {
+    "locationCode": "ING",
+    "label": "Inglewood",
+    "subdivisionCode": "TKI",
+    "function": "3",
+    "lat": -39.15,
+    "lng": 174.2
+  },
+  {
+    "locationCode": "IVC",
+    "label": "Invercargill",
+    "subdivisionCode": "STL",
+    "function": "34",
+    "lat": -46.4,
+    "lng": 168.35
+  },
+  {
+    "locationCode": "IBY",
+    "label": "Island Bay",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.333333,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "JSV",
+    "label": "Johnsonville",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.233333,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kaiapoi",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.383333,
+    "lng": 172.666667
+  },
+  {
+    "locationCode": "KKO",
+    "label": "Kaikohe",
+    "subdivisionCode": "NTL",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBZ",
+    "label": "Kaikoura",
+    "subdivisionCode": "CAN",
+    "function": "134",
+    "lat": -42.416667,
+    "lng": 173.7
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kaitaia",
+    "subdivisionCode": "NTL",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTG",
+    "label": "Kaitangata",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -46.266667,
+    "lng": 169.85
+  },
+  {
+    "locationCode": "KWK",
+    "label": "Kaiwaka",
+    "subdivisionCode": "NTL",
+    "function": "3",
+    "lat": -36.166667,
+    "lng": 174.45
+  },
+  {
+    "locationCode": "KWW",
+    "label": "Kaiwharawhara",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.266667,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakariki",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.116667,
+    "lng": 175.45
+  },
+  {
+    "locationCode": "KR2",
+    "label": "Karori",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.283333,
+    "lng": 174.733333
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Katikati",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.533333,
+    "lng": 175.916667
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Kauri Point",
+    "subdivisionCode": "AUK",
+    "function": "13",
+    "lat": -36.816667,
+    "lng": 174.683333
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kawau Island",
+    "subdivisionCode": "AUK",
+    "function": "4",
+    "lat": -36.416667,
+    "lng": 174.85
+  },
+  {
+    "locationCode": "KAW",
+    "label": "Kawerau",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -38.083333,
+    "lng": 176.683333
+  },
+  {
+    "locationCode": "KB3",
+    "label": "Kelburn",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.283333,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "KKE",
+    "label": "Kerikeri",
+    "subdivisionCode": "AUK",
+    "function": "4",
+    "lat": -35.216667,
+    "lng": 173.966667
+  },
+  {
+    "locationCode": "KDL",
+    "label": "Khandallah",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.25,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "KBN",
+    "label": "Kilbirnie",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "KT3",
+    "label": "Kingston",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.75
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kinleith",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38.283333,
+    "lng": 175.9
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kokiri",
+    "subdivisionCode": "WTC",
+    "function": "3",
+    "lat": -42.483333,
+    "lng": 171.366667
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Kopu",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.183333,
+    "lng": 175.566667
+  },
+  {
+    "locationCode": "KUE",
+    "label": "Kumeu",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -36.766667,
+    "lng": 174.566667
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Lake Tekapo",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -44.016667,
+    "lng": 170.5
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Leeston",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.766667,
+    "lng": 172.3
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Levin",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.633333,
+    "lng": 175.283333
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lincoln",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.65,
+    "lng": 172.483333
+  },
+  {
+    "locationCode": "LGB",
+    "label": "Longburn",
+    "subdivisionCode": "MWT",
+    "function": "23",
+    "lat": -40.383333,
+    "lng": 175.55
+  },
+  {
+    "locationCode": "LRV",
+    "label": "Lorneville",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.35,
+    "lng": 168.35
+  },
+  {
+    "locationCode": "LYJ",
+    "label": "Lower Hutt",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.216667,
+    "lng": 174.916667
+  },
+  {
+    "locationCode": "LLB",
+    "label": "Lyall Bay",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "LYT",
+    "label": "Lyttelton",
+    "subdivisionCode": "CAN",
+    "function": "13",
+    "lat": -43.6,
+    "lng": 172.716667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Maari Terminal FPSO",
+    "subdivisionCode": "TKI",
+    "function": "7",
+    "lat": -39.966667,
+    "lng": 173.283333
+  },
+  {
+    "locationCode": "MFL",
+    "label": "Macraes Flat",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.383333,
+    "lng": 170.433333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahia",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.083333,
+    "lng": 177.916667
+  },
+  {
+    "locationCode": "MGB",
+    "label": "Mairangi Bay",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.733333,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "MKW",
+    "label": "Makarewa",
+    "subdivisionCode": "STL",
+    "function": "23",
+    "lat": -46.333333,
+    "lng": 168.35
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Manakau",
+    "subdivisionCode": "TAS",
+    "function": "3",
+    "lat": -40.716667,
+    "lng": 175.233333
+  },
+  {
+    "locationCode": "MNP",
+    "label": "Manapouri",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -45.566667,
+    "lng": 167.6
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Mangakino",
+    "function": "3",
+    "lat": -38.383333,
+    "lng": 175.783333
+  },
+  {
+    "locationCode": "MGW",
+    "label": "Mangawhai",
+    "subdivisionCode": "NTL",
+    "function": "3",
+    "lat": -36.116667,
+    "lng": 174.566667
+  },
+  {
+    "locationCode": "MAE",
+    "label": "Mangere",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.966667,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "KWU",
+    "label": "Mansion House",
+    "function": "4"
+  },
+  {
+    "locationCode": "MCY",
+    "label": "Manukau City",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.966667,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Marsden Point",
+    "subdivisionCode": "NTL",
+    "function": "13",
+    "lat": -35.833333,
+    "lng": 174.5
+  },
+  {
+    "locationCode": "MHL",
+    "label": "Marshland",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.483333,
+    "lng": 172.65
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Martinborough",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.233333,
+    "lng": 175.466667
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Marton",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.083333,
+    "lng": 175.383333
+  },
+  {
+    "locationCode": "MRO",
+    "label": "Masterton",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Matakana",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.35,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Matamata",
+    "subdivisionCode": "WKO",
+    "function": "34",
+    "lat": -37.816667,
+    "lng": 175.766667
+  },
+  {
+    "locationCode": "MTG",
+    "label": "Matangi",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.8,
+    "lng": 175.4
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Mataura",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.183333,
+    "lng": 168.866667
+  },
+  {
+    "locationCode": "MAB",
+    "label": "Matiatia Bay",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -36.766667,
+    "lng": 174.966667
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Maungaturoto",
+    "subdivisionCode": "NTL",
+    "function": "6",
+    "lat": -36.1,
+    "lng": 174.366667
+  },
+  {
+    "locationCode": "MKL",
+    "label": "Metroport/Auckland",
+    "subdivisionCode": "AUK",
+    "function": "23",
+    "lat": -36.916667,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "MNR",
+    "label": "Middleton/Christchurch",
+    "subdivisionCode": "CAN",
+    "function": "23"
+  },
+  {
+    "locationCode": "MFN",
+    "label": "Milford Sound",
+    "subdivisionCode": "STL",
+    "function": "13",
+    "lat": -44.666667,
+    "lng": 167.916667
+  },
+  {
+    "locationCode": "MSN",
+    "label": "Milson",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.316667,
+    "lng": 175.6
+  },
+  {
+    "locationCode": "MTN",
+    "label": "Milton",
+    "subdivisionCode": "OTA",
+    "function": "23",
+    "lat": -46.116667,
+    "lng": 169.966667
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Miramar",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "MOE",
+    "label": "Moerewa",
+    "subdivisionCode": "AUK",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morrinsville",
+    "subdivisionCode": "WKO",
+    "function": "23",
+    "lat": -37.65,
+    "lng": 175.533333
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Mosgiel",
+    "subdivisionCode": "OTA",
+    "function": "23",
+    "lat": -45.866667,
+    "lng": 170.35
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mossburn",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -45.666667,
+    "lng": 168.25
+  },
+  {
+    "locationCode": "MZP",
+    "label": "Motueka",
+    "subdivisionCode": "TAS",
+    "function": "34",
+    "lat": -41.116667,
+    "lng": 173
+  },
+  {
+    "locationCode": "MON",
+    "label": "Mount Cook",
+    "subdivisionCode": "CAN",
+    "function": "4"
+  },
+  {
+    "locationCode": "MMU",
+    "label": "Mount Maunganui",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.633333,
+    "lng": 176.183333
+  },
+  {
+    "locationCode": "MWL",
+    "label": "Mount Wellington",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.916667,
+    "lng": 174.833333
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Muritai",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.3,
+    "lng": 174.883333
+  },
+  {
+    "locationCode": "NPE",
+    "label": "Napier",
+    "subdivisionCode": "HKB",
+    "function": "14",
+    "lat": -39.466667,
+    "lng": 176.9
+  },
+  {
+    "locationCode": "NSN",
+    "label": "Nelson",
+    "subdivisionCode": "NSN",
+    "function": "134",
+    "lat": -41.25,
+    "lng": 173.266667
+  },
+  {
+    "locationCode": "NBN",
+    "label": "New Brighton",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.516667,
+    "lng": 172.733333
+  },
+  {
+    "locationCode": "NLN",
+    "label": "New Lyn",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.9,
+    "lng": 174.683333
+  },
+  {
+    "locationCode": "NPL",
+    "label": "New Plymouth",
+    "subdivisionCode": "TKI",
+    "function": "134",
+    "lat": -39.05,
+    "lng": 174.016667
+  },
+  {
+    "locationCode": "NWT",
+    "label": "Newton",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.85,
+    "lng": 174.75
+  },
+  {
+    "locationCode": "NGA",
+    "label": "Ngaio",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.25,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "NGG",
+    "label": "Ngauranga",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.25,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "NSC",
+    "label": "North Shore City",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.8,
+    "lng": 174.75
+  },
+  {
+    "locationCode": "NTC",
+    "label": "Northcote",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -36.8,
+    "lng": 174.733333
+  },
+  {
+    "locationCode": "OAM",
+    "label": "Oamaru",
+    "subdivisionCode": "OTA",
+    "function": "34",
+    "lat": -45.083333,
+    "lng": 170.966667
+  },
+  {
+    "locationCode": "OTU",
+    "label": "Offshore Tui",
+    "function": "7",
+    "lat": -39.416667,
+    "lng": 173.233333
+  },
+  {
+    "locationCode": "OHA",
+    "label": "Ohakea",
+    "subdivisionCode": "MWT",
+    "function": "4"
+  },
+  {
+    "locationCode": "OHK",
+    "label": "Ohakune",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -39.4,
+    "lng": 175.416667
+  },
+  {
+    "locationCode": "OHR",
+    "label": "Ohariu",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.2,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "OKA",
+    "label": "Okarito",
+    "subdivisionCode": "WTC",
+    "function": "3",
+    "lat": -43.233333,
+    "lng": 170.183333
+  },
+  {
+    "locationCode": "OMH",
+    "label": "Omihi",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.016667,
+    "lng": 172.85
+  },
+  {
+    "locationCode": "ONE",
+    "label": "Onehunga (Manukau Harbour)",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -37,
+    "lng": 174.666667
+  },
+  {
+    "locationCode": "BPK",
+    "label": "Opotiki",
+    "subdivisionCode": "BOP",
+    "function": "6",
+    "lat": -38.083333,
+    "lng": 177.283333
+  },
+  {
+    "locationCode": "OPX",
+    "label": "Opua",
+    "subdivisionCode": "NTL",
+    "function": "1",
+    "lat": -35.316667,
+    "lng": 174.116667
+  },
+  {
+    "locationCode": "OP5",
+    "label": "Opunake",
+    "subdivisionCode": "TKI",
+    "function": "3",
+    "lat": -39.45,
+    "lng": 173.85
+  },
+  {
+    "locationCode": "ORK",
+    "label": "Orakei",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.85,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Oratia",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.916667,
+    "lng": 174.616667
+  },
+  {
+    "locationCode": "ORW",
+    "label": "Orewa",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.566667,
+    "lng": 174.7
+  },
+  {
+    "locationCode": "ORI",
+    "label": "Orini",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.566667,
+    "lng": 175.3
+  },
+  {
+    "locationCode": "ORR",
+    "label": "Otago Harbour",
+    "subdivisionCode": "OTA",
+    "function": "1",
+    "lat": -45.8,
+    "lng": 170.616667
+  },
+  {
+    "locationCode": "OHU",
+    "label": "Otahuhu",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.933333,
+    "lng": 174.833333
+  },
+  {
+    "locationCode": "OTA",
+    "label": "Otaki",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -40.75,
+    "lng": 175.166667
+  },
+  {
+    "locationCode": "OTT",
+    "label": "Otematata",
+    "subdivisionCode": "CAN",
+    "function": "16",
+    "lat": -44.616667,
+    "lng": 170.266667
+  },
+  {
+    "locationCode": "ORH",
+    "label": "Otorohanga",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38.183333,
+    "lng": 175.183333
+  },
+  {
+    "locationCode": "PKI",
+    "label": "Paekakariki",
+    "subdivisionCode": "WGN",
+    "function": "23",
+    "lat": -40.966667,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "PAE",
+    "label": "Paeroa",
+    "subdivisionCode": "WKO",
+    "function": "23",
+    "lat": -37.383333,
+    "lng": 175.666667
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Paihia",
+    "subdivisionCode": "NTL",
+    "function": "3",
+    "lat": -35.283333,
+    "lng": 174.066667
+  },
+  {
+    "locationCode": "PKL",
+    "label": "Pakatoa Island",
+    "subdivisionCode": "AUK",
+    "function": "4",
+    "lat": -36.783333,
+    "lng": 175.2
+  },
+  {
+    "locationCode": "PKG",
+    "label": "Pakuranga",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.883333,
+    "lng": 174.916667
+  },
+  {
+    "locationCode": "PMS",
+    "label": "Palmerston",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.483333,
+    "lng": 170.716667
+  },
+  {
+    "locationCode": "PMR",
+    "label": "Palmerston North",
+    "subdivisionCode": "MWT",
+    "function": "4"
+  },
+  {
+    "locationCode": "PMU",
+    "label": "Panmure",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.883333,
+    "lng": 174.866667
+  },
+  {
+    "locationCode": "PP8",
+    "label": "Papakura",
+    "subdivisionCode": "AUK",
+    "function": "2",
+    "lat": -37.083333,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "PPU",
+    "label": "Papanui",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.5,
+    "lng": 172.616667
+  },
+  {
+    "locationCode": "PPQ",
+    "label": "Paraparaumu",
+    "subdivisionCode": "WGN",
+    "function": "4",
+    "lat": -40.916667,
+    "lng": 175.016667
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Paremata",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.116667,
+    "lng": 174.866667
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Pareora",
+    "subdivisionCode": "CAN",
+    "function": "23",
+    "lat": -44.5,
+    "lng": 171.2
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Parnell",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.866667,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "PEO",
+    "label": "Penrose",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.916667,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "PCN",
+    "label": "Picton",
+    "subdivisionCode": "MBH",
+    "function": "14",
+    "lat": -41.283333,
+    "lng": 174
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Pipitea",
+    "subdivisionCode": "WGN",
+    "function": "2",
+    "lat": -41.266667,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "PCL",
+    "label": "Point Chevalier",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.85,
+    "lng": 174.7
+  },
+  {
+    "locationCode": "POK",
+    "label": "Pokeno",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.233333,
+    "lng": 175
+  },
+  {
+    "locationCode": "PSB",
+    "label": "Ponsonby",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.85,
+    "lng": 174.733333
+  },
+  {
+    "locationCode": "PRR",
+    "label": "Porirua",
+    "subdivisionCode": "TAS",
+    "function": "3",
+    "lat": -41.15,
+    "lng": 174.85
+  },
+  {
+    "locationCode": "PRU",
+    "label": "Porirua",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.133333,
+    "lng": 174.85
+  },
+  {
+    "locationCode": "POE",
+    "label": "Port Chalmers",
+    "subdivisionCode": "OTA",
+    "function": "1",
+    "lat": -45.816667,
+    "lng": 170.6
+  },
+  {
+    "locationCode": "GBS",
+    "label": "Port Fitzroy",
+    "subdivisionCode": "AUK",
+    "function": "4",
+    "lat": -36.166667,
+    "lng": 175.35
+  },
+  {
+    "locationCode": "PON",
+    "label": "Port Nelson",
+    "function": "16",
+    "lat": -41.266667,
+    "lng": 173.266667
+  },
+  {
+    "locationCode": "POR",
+    "label": "Portland",
+    "subdivisionCode": "NTL",
+    "function": "13",
+    "lat": -35.8,
+    "lng": 174.316667
+  },
+  {
+    "locationCode": "PBB",
+    "label": "Prebbleton",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.583333,
+    "lng": 172.516667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Pukekohe",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.2,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Pukeuri Junction",
+    "subdivisionCode": "STL",
+    "function": "23",
+    "lat": -45.033333,
+    "lng": 171.033333
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Putaruru",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38.033333,
+    "lng": 175.766667
+  },
+  {
+    "locationCode": "ZQN",
+    "label": "Queenstown",
+    "subdivisionCode": "OTA",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Raglan",
+    "subdivisionCode": "WKO",
+    "function": "34",
+    "lat": -37.666667,
+    "lng": 175
+  },
+  {
+    "locationCode": "AIA",
+    "label": "Rakaia",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.75,
+    "lng": 172.016667
+  },
+  {
+    "locationCode": "RGO",
+    "label": "Rangiora",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.283333,
+    "lng": 172.6
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Rangiuru",
+    "subdivisionCode": "BOP",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAR",
+    "label": "Raroa FPSO",
+    "function": "7",
+    "lat": -39.966667,
+    "lng": 173.283333
+  },
+  {
+    "locationCode": "RAV",
+    "label": "Ravensbourne",
+    "subdivisionCode": "OTA",
+    "function": "123",
+    "lat": -45.866667,
+    "lng": 170.55
+  },
+  {
+    "locationCode": "RCF",
+    "label": "Redcliffs",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.566667,
+    "lng": 172.733333
+  },
+  {
+    "locationCode": "RNW",
+    "label": "Renwick",
+    "subdivisionCode": "MBH",
+    "function": "3",
+    "lat": -41.5,
+    "lng": 173.816667
+  },
+  {
+    "locationCode": "RMD",
+    "label": "Richmond",
+    "subdivisionCode": "NSN",
+    "function": "3",
+    "lat": -41.333333,
+    "lng": 173.183333
+  },
+  {
+    "locationCode": "ZNE",
+    "label": "Riverlands",
+    "subdivisionCode": "MBH",
+    "function": "3",
+    "lat": -33.533333,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "RIV",
+    "label": "Riverton",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.35,
+    "lng": 168.016667
+  },
+  {
+    "locationCode": "OLT",
+    "label": "Rolleston",
+    "subdivisionCode": "CAN",
+    "function": "16",
+    "lat": -43.583333,
+    "lng": 172.383333
+  },
+  {
+    "locationCode": "RGT",
+    "label": "Rongotai",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.8
+  },
+  {
+    "locationCode": "ROT",
+    "label": "Rotorua",
+    "subdivisionCode": "BOP",
+    "function": "34",
+    "lat": -38.166667,
+    "lng": 176.333333
+  },
+  {
+    "locationCode": "RXB",
+    "label": "Roxburgh",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.533333,
+    "lng": 169.3
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Russel",
+    "subdivisionCode": "NTL",
+    "function": "13",
+    "lat": -35.266667,
+    "lng": 174.116667
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Saint Heliers",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.85,
+    "lng": 174.866667
+  },
+  {
+    "locationCode": "STU",
+    "label": "Seatoun",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 174.833333
+  },
+  {
+    "locationCode": "SEA",
+    "label": "Seaview",
+    "subdivisionCode": "WGN",
+    "function": "1236",
+    "lat": -39.466667,
+    "lng": 176.916667
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Seddon",
+    "subdivisionCode": "NSN",
+    "function": "3",
+    "lat": -41.666667,
+    "lng": 174.083333
+  },
+  {
+    "locationCode": "SHN",
+    "label": "Shannon",
+    "subdivisionCode": "MWT",
+    "function": "23",
+    "lat": -40.533333,
+    "lng": 175.416667
+  },
+  {
+    "locationCode": "SHE",
+    "label": "Sheffield",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.383333,
+    "lng": 172.166667
+  },
+  {
+    "locationCode": "SHB",
+    "label": "Shelly Bay",
+    "subdivisionCode": "WGN",
+    "function": "13",
+    "lat": -41.283333,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "SDL",
+    "label": "Silverdale",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.6,
+    "lng": 174.65
+  },
+  {
+    "locationCode": "SSM",
+    "label": "Silverstream",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.15,
+    "lng": 175
+  },
+  {
+    "locationCode": "SMF",
+    "label": "Smithfield",
+    "function": "3",
+    "lat": -44.366667,
+    "lng": 171.233333
+  },
+  {
+    "locationCode": "SBN",
+    "label": "Sockburn",
+    "function": "3",
+    "lat": -43.533333,
+    "lng": 172.55
+  },
+  {
+    "locationCode": "YGC",
+    "label": "Spring Creek",
+    "subdivisionCode": "MBH",
+    "function": "3",
+    "lat": -41.466667,
+    "lng": 173.966667
+  },
+  {
+    "locationCode": "SZS",
+    "label": "Stewart Island",
+    "subdivisionCode": "STL",
+    "function": "4",
+    "lat": -47,
+    "lng": 168
+  },
+  {
+    "locationCode": "STK",
+    "label": "Stoke",
+    "subdivisionCode": "NSN",
+    "function": "3",
+    "lat": -41.316667,
+    "lng": 173.233333
+  },
+  {
+    "locationCode": "STR",
+    "label": "Stratford",
+    "function": "23",
+    "lat": -39.333333,
+    "lng": 174.283333
+  },
+  {
+    "locationCode": "WIK",
+    "label": "Surfdale",
+    "subdivisionCode": "AUK",
+    "function": "4",
+    "lat": -36.783333,
+    "lng": 175
+  },
+  {
+    "locationCode": "THH",
+    "label": "Taharoa",
+    "subdivisionCode": "WKO",
+    "function": "134",
+    "lat": -38.15,
+    "lng": 174.733333
+  },
+  {
+    "locationCode": "THP",
+    "label": "Taihape",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -39.666667,
+    "lng": 175.783333
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Taita",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.2,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "KTF",
+    "label": "Takaka",
+    "subdivisionCode": "TAS",
+    "function": "34",
+    "lat": -40.85,
+    "lng": 172.8
+  },
+  {
+    "locationCode": "TKN",
+    "label": "Takanini",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.033333,
+    "lng": 174.916667
+  },
+  {
+    "locationCode": "TKU",
+    "label": "Takapau",
+    "subdivisionCode": "HKB",
+    "function": "3"
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Takapuna",
+    "subdivisionCode": "AUK",
+    "function": "136",
+    "lat": -36.783333,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "HMB",
+    "label": "Tamaki",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -36.883333,
+    "lng": 174.9
+  },
+  {
+    "locationCode": "TAP",
+    "label": "Tapanui",
+    "subdivisionCode": "OTA",
+    "function": "3",
+    "lat": -45.95,
+    "lng": 169.266667
+  },
+  {
+    "locationCode": "TDA",
+    "label": "Taradale",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.533333,
+    "lng": 176.85
+  },
+  {
+    "locationCode": "TKH",
+    "label": "Tarakohe",
+    "subdivisionCode": "TAS",
+    "function": "1",
+    "lat": -40.833333,
+    "lng": 172.883333
+  },
+  {
+    "locationCode": "TAU",
+    "label": "Taumarunui",
+    "subdivisionCode": "TKI",
+    "function": "23",
+    "lat": -38.883333,
+    "lng": 175.25
+  },
+  {
+    "locationCode": "TUO",
+    "label": "Taupo",
+    "subdivisionCode": "WKO",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Tauranga",
+    "subdivisionCode": "BOP",
+    "function": "1234",
+    "lat": -37.683333,
+    "lng": 176.166667
+  },
+  {
+    "locationCode": "TEU",
+    "label": "Te Anau",
+    "subdivisionCode": "STL",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Te Aroha",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.533333,
+    "lng": 175.7
+  },
+  {
+    "locationCode": "TAW",
+    "label": "Te Awamutu",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38,
+    "lng": 175.3
+  },
+  {
+    "locationCode": "TEH",
+    "label": "Te Haroto",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.133333,
+    "lng": 176.6
+  },
+  {
+    "locationCode": "TEK",
+    "label": "Te Kauwhata",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.383333,
+    "lng": 175.133333
+  },
+  {
+    "locationCode": "TKI",
+    "label": "Te Kuiti",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -38.316667,
+    "lng": 175.15
+  },
+  {
+    "locationCode": "TPK",
+    "label": "Te Puke",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.783333,
+    "lng": 176.383333
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Te Puna",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.666667,
+    "lng": 176.066667
+  },
+  {
+    "locationCode": "TER",
+    "label": "Te Rapa",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.75,
+    "lng": 175.216667
+  },
+  {
+    "locationCode": "TKA",
+    "label": "Temuka",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -44.25,
+    "lng": 171.266667
+  },
+  {
+    "locationCode": "TMZ",
+    "label": "Thames",
+    "subdivisionCode": "WKO",
+    "function": "34",
+    "lat": -37.133333,
+    "lng": 175.533333
+  },
+  {
+    "locationCode": "TIU",
+    "label": "Timaru",
+    "subdivisionCode": "CAN",
+    "function": "1234",
+    "lat": -44.383333,
+    "lng": 171.25
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Titirangi",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.933333,
+    "lng": 174.816667
+  },
+  {
+    "locationCode": "TWI",
+    "label": "Tiwai Point-Bluff Port",
+    "subdivisionCode": "STL",
+    "function": "13",
+    "lat": -46.583333,
+    "lng": 168.35
+  },
+  {
+    "locationCode": "TKZ",
+    "label": "Tokoroa",
+    "subdivisionCode": "WKO",
+    "function": "4",
+    "lat": -38.233333,
+    "lng": 175.866667
+  },
+  {
+    "locationCode": "TOA",
+    "label": "Tomoana",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.616667,
+    "lng": 176.85
+  },
+  {
+    "locationCode": "TBY",
+    "label": "Torbay",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.7,
+    "lng": 174.75
+  },
+  {
+    "locationCode": "TTH",
+    "label": "Trentham",
+    "subdivisionCode": "WGN",
+    "function": "23",
+    "lat": -41.133333,
+    "lng": 175.033333
+  },
+  {
+    "locationCode": "TRY",
+    "label": "Tryphena",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -36.3,
+    "lng": 175.483333
+  },
+  {
+    "locationCode": "TWZ",
+    "label": "Twizel",
+    "subdivisionCode": "CAN",
+    "function": "23",
+    "lat": -44.25,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "UMU",
+    "label": "Umuroa FPSO",
+    "function": "7",
+    "lat": -39.483333,
+    "lng": 173.233333
+  },
+  {
+    "locationCode": "UBA",
+    "label": "Upper Hutt",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.116667,
+    "lng": 175.066667
+  },
+  {
+    "locationCode": "WDT",
+    "label": "Wadestown",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.266667,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Waharoa",
+    "subdivisionCode": "WKO",
+    "function": "3",
+    "lat": -37.766667,
+    "lng": 175.766667
+  },
+  {
+    "locationCode": "WKE",
+    "label": "Waiheke Island",
+    "subdivisionCode": "AUK",
+    "function": "136",
+    "lat": -36.8,
+    "lng": 175.1
+  },
+  {
+    "locationCode": "WHI",
+    "label": "Waihi",
+    "subdivisionCode": "BOP",
+    "function": "3",
+    "lat": -37.383333,
+    "lng": 175.833333
+  },
+  {
+    "locationCode": "WKN",
+    "label": "Waikanae",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -40.883333,
+    "lng": 175.066667
+  },
+  {
+    "locationCode": "WKI",
+    "label": "Waikari",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -42.966667,
+    "lng": 172.683333
+  },
+  {
+    "locationCode": "WKW",
+    "label": "Waikawa",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.633333,
+    "lng": 169.133333
+  },
+  {
+    "locationCode": "WUT",
+    "label": "Wainuiomata",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.266667,
+    "lng": 174.95
+  },
+  {
+    "locationCode": "WAO",
+    "label": "Waiouru",
+    "subdivisionCode": "MWT",
+    "function": "23",
+    "lat": -39.466667,
+    "lng": 175.666667
+  },
+  {
+    "locationCode": "WPR",
+    "label": "Waipara",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.066667,
+    "lng": 172.75
+  },
+  {
+    "locationCode": "WPW",
+    "label": "Waipawa",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -41.4,
+    "lng": 175.5
+  },
+  {
+    "locationCode": "WPU",
+    "label": "Waipu",
+    "subdivisionCode": "NTL",
+    "function": "3",
+    "lat": -35.983333,
+    "lng": 174.45
+  },
+  {
+    "locationCode": "WJL",
+    "label": "Waipukurau",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -40,
+    "lng": 176.566667
+  },
+  {
+    "locationCode": "WAR",
+    "label": "Wairau Valley",
+    "subdivisionCode": "MBH",
+    "function": "3",
+    "lat": -41.566667,
+    "lng": 173.533333
+  },
+  {
+    "locationCode": "WIR",
+    "label": "Wairoa",
+    "subdivisionCode": "HKB",
+    "function": "34",
+    "lat": -39.033333,
+    "lng": 177.366667
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Waitakere",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -36.85,
+    "lng": 174.55
+  },
+  {
+    "locationCode": "WTI",
+    "label": "Waitaki",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -44.933333,
+    "lng": 171.1
+  },
+  {
+    "locationCode": "WTG",
+    "label": "Waitangi",
+    "subdivisionCode": "NTL",
+    "function": "1",
+    "lat": -35.25,
+    "lng": 174.083333
+  },
+  {
+    "locationCode": "WTA",
+    "label": "Waitara",
+    "subdivisionCode": "TKI",
+    "function": "3",
+    "lat": -39,
+    "lng": 174.216667
+  },
+  {
+    "locationCode": "WAA",
+    "label": "Waitoa",
+    "subdivisionCode": "WKO",
+    "function": "3"
+  },
+  {
+    "locationCode": "WAI",
+    "label": "Waitotara",
+    "subdivisionCode": "MWT",
+    "function": "3",
+    "lat": -39.8,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "WUK",
+    "label": "Waiuku",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.233333,
+    "lng": 174.716667
+  },
+  {
+    "locationCode": "WLV",
+    "label": "Wallaceville",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -41.133333,
+    "lng": 175.05
+  },
+  {
+    "locationCode": "WKA",
+    "label": "Wanaka",
+    "subdivisionCode": "OTA",
+    "function": "4",
+    "lat": -44.7,
+    "lng": 169.15
+  },
+  {
+    "locationCode": "WAG",
+    "label": "Wanganui",
+    "subdivisionCode": "MWT",
+    "function": "134",
+    "lat": -39.933333,
+    "lng": 174.983333
+  },
+  {
+    "locationCode": "WWA",
+    "label": "Warkworth",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.4,
+    "lng": 174.666667
+  },
+  {
+    "locationCode": "WDY",
+    "label": "Washdyke",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -44.35,
+    "lng": 171.666667
+  },
+  {
+    "locationCode": "WAV",
+    "label": "Waverley",
+    "subdivisionCode": "TKI",
+    "function": "3",
+    "lat": -39.766667,
+    "lng": 174.633333
+  },
+  {
+    "locationCode": "WLG",
+    "label": "Wellington",
+    "subdivisionCode": "WGN",
+    "function": "1234",
+    "lat": -41.266667,
+    "lng": 174.783333
+  },
+  {
+    "locationCode": "WLF",
+    "label": "Wellsford",
+    "subdivisionCode": "NTL",
+    "function": "3",
+    "lat": -36.283333,
+    "lng": 174.516667
+  },
+  {
+    "locationCode": "WSP",
+    "label": "Western Springs",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -36.866667,
+    "lng": 174.733333
+  },
+  {
+    "locationCode": "WSZ",
+    "label": "Westport",
+    "subdivisionCode": "WTC",
+    "function": "134",
+    "lat": -41.733333,
+    "lng": 171.583333
+  },
+  {
+    "locationCode": "WYM",
+    "label": "Weymouth",
+    "subdivisionCode": "AUK",
+    "function": "3",
+    "lat": -37.033333,
+    "lng": 174.866667
+  },
+  {
+    "locationCode": "WHU",
+    "label": "Whakamaru",
+    "subdivisionCode": "WGN",
+    "function": "3",
+    "lat": -38.416667,
+    "lng": 175.8
+  },
+  {
+    "locationCode": "WHK",
+    "label": "Whakatane",
+    "subdivisionCode": "BOP",
+    "function": "4"
+  },
+  {
+    "locationCode": "WHA",
+    "label": "Whakatu",
+    "subdivisionCode": "HKB",
+    "function": "3",
+    "lat": -39.6,
+    "lng": 176.883333
+  },
+  {
+    "locationCode": "WGA",
+    "label": "Whangaparaoa",
+    "subdivisionCode": "AUK",
+    "function": "6",
+    "lat": -36.633333,
+    "lng": 174.766667
+  },
+  {
+    "locationCode": "WHN",
+    "label": "Whangaparapara",
+    "subdivisionCode": "AUK",
+    "function": "1",
+    "lat": -36.233333,
+    "lng": 175.383333
+  },
+  {
+    "locationCode": "WRE",
+    "label": "Whangarei",
+    "subdivisionCode": "NTL",
+    "function": "134",
+    "lat": -35.833333,
+    "lng": 174.483333
+  },
+  {
+    "locationCode": "WHR",
+    "label": "Whangaroa",
+    "subdivisionCode": "NTL",
+    "function": "13",
+    "lat": -35.033333,
+    "lng": 173.75
+  },
+  {
+    "locationCode": "WHE",
+    "label": "Whekenui",
+    "subdivisionCode": "MBH",
+    "function": "6",
+    "lat": -41.183333,
+    "lng": 174.3
+  },
+  {
+    "locationCode": "WNP",
+    "label": "Whenuapai",
+    "subdivisionCode": "AUK",
+    "function": "4"
+  },
+  {
+    "locationCode": "WHT",
+    "label": "White Island",
+    "subdivisionCode": "BOP",
+    "function": "6",
+    "lat": -37.533333,
+    "lng": 177.183333
+  },
+  {
+    "locationCode": "WTZ",
+    "label": "Whitianga",
+    "subdivisionCode": "WKO",
+    "function": "4",
+    "lat": -36.833333,
+    "lng": 175.7
+  },
+  {
+    "locationCode": "WNT",
+    "label": "Winton",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.133333,
+    "lng": 168.316667
+  },
+  {
+    "locationCode": "WII",
+    "label": "Wiri",
+    "subdivisionCode": "AUK",
+    "function": "3"
+  },
+  {
+    "locationCode": "WLS",
+    "label": "Woolston",
+    "subdivisionCode": "CAN",
+    "function": "3",
+    "lat": -43.55,
+    "lng": 172.683333
+  },
+  {
+    "locationCode": "WYH",
+    "label": "Wyndham",
+    "subdivisionCode": "STL",
+    "function": "3",
+    "lat": -46.316667,
+    "lng": 168.85
+  }
+]

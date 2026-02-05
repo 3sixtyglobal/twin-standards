@@ -1,0 +1,47 @@
+[
+  {
+    "code": "1",
+    "label": "Estuaire",
+    "type": "Province"
+  },
+  {
+    "code": "2",
+    "label": "Haut-Ogooué",
+    "type": "Province"
+  },
+  {
+    "code": "3",
+    "label": "Moyen-Ogooué",
+    "type": "Province"
+  },
+  {
+    "code": "4",
+    "label": "Ngounié",
+    "type": "Province"
+  },
+  {
+    "code": "5",
+    "label": "Nyanga",
+    "type": "Province"
+  },
+  {
+    "code": "6",
+    "label": "Ogooué-Ivindo",
+    "type": "Province"
+  },
+  {
+    "code": "7",
+    "label": "Ogooué-Lolo",
+    "type": "Province"
+  },
+  {
+    "code": "8",
+    "label": "Ogooué-Maritime",
+    "type": "Province"
+  },
+  {
+    "code": "9",
+    "label": "Woleu-Ntem",
+    "type": "Province"
+  }
+]

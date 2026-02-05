@@ -1,0 +1,22 @@
+[
+  {
+    "code": "HH",
+    "label": "Hhohho",
+    "type": "Region"
+  },
+  {
+    "code": "LU",
+    "label": "Lubombo",
+    "type": "Region"
+  },
+  {
+    "code": "MA",
+    "label": "Manzini",
+    "type": "Region"
+  },
+  {
+    "code": "SH",
+    "label": "Shiselweni",
+    "type": "Region"
+  }
+]

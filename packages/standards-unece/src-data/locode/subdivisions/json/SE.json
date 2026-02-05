@@ -1,0 +1,107 @@
+[
+  {
+    "code": "AB",
+    "label": "Stockholms län",
+    "type": "County"
+  },
+  {
+    "code": "AC",
+    "label": "Västerbottens län",
+    "type": "County"
+  },
+  {
+    "code": "BD",
+    "label": "Norrbottens län",
+    "type": "County"
+  },
+  {
+    "code": "C",
+    "label": "Uppsala län",
+    "type": "County"
+  },
+  {
+    "code": "D",
+    "label": "Södermanlands län",
+    "type": "County"
+  },
+  {
+    "code": "E",
+    "label": "Östergötlands län",
+    "type": "County"
+  },
+  {
+    "code": "F",
+    "label": "Jönköpings län",
+    "type": "County"
+  },
+  {
+    "code": "G",
+    "label": "Kronoborgs län",
+    "type": "County"
+  },
+  {
+    "code": "H",
+    "label": "Kalmar län",
+    "type": "County"
+  },
+  {
+    "code": "I",
+    "label": "Gotlands län",
+    "type": "County"
+  },
+  {
+    "code": "K",
+    "label": "Blekinge län",
+    "type": "County"
+  },
+  {
+    "code": "M",
+    "label": "Skåne län",
+    "type": "County"
+  },
+  {
+    "code": "N",
+    "label": "Hallands län",
+    "type": "County"
+  },
+  {
+    "code": "O",
+    "label": "Västra Götalands län",
+    "type": "County"
+  },
+  {
+    "code": "S",
+    "label": "Värmlands län",
+    "type": "County"
+  },
+  {
+    "code": "T",
+    "label": "Örebro län",
+    "type": "County"
+  },
+  {
+    "code": "U",
+    "label": "Västmanlands län",
+    "type": "County"
+  },
+  {
+    "code": "W",
+    "label": "Dalarnes län",
+    "type": "County"
+  },
+  {
+    "code": "X",
+    "label": "Gävleborgs län",
+    "type": "County"
+  },
+  {
+    "code": "Y",
+    "label": "Västernorrlands län",
+    "type": "County"
+  },
+  {
+    "code": "Z",
+    "label": "Jämtlands län",
+    "type": "County"
+  }
+]

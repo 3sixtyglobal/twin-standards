@@ -1,0 +1,200 @@
+[
+  {
+    "locationCode": "AUY",
+    "label": "Aneityum",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWD",
+    "label": "Aniwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Big Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "CCV",
+    "label": "Craig Cove",
+    "function": "4"
+  },
+  {
+    "locationCode": "DLY",
+    "label": "Dillon's Bay",
+    "subdivisionCode": "TAE",
+    "function": "4",
+    "lat": -18.816667,
+    "lng": 169
+  },
+  {
+    "locationCode": "EAE",
+    "label": "Émae",
+    "labelWithDiacritics": "Emae",
+    "function": "4",
+    "lat": -17.066667,
+    "lng": 168.366667
+  },
+  {
+    "locationCode": "EPI",
+    "label": "Épi",
+    "labelWithDiacritics": "Epi",
+    "function": "4",
+    "lat": -16.716667,
+    "lng": 168.25
+  },
+  {
+    "locationCode": "SON",
+    "label": "Espiritu Santo",
+    "function": "4"
+  },
+  {
+    "locationCode": "FTA",
+    "label": "Futuna Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZGU",
+    "label": "Gaua",
+    "function": "4"
+  },
+  {
+    "locationCode": "HNH",
+    "label": "Havannah Harbour",
+    "subdivisionCode": "SEE",
+    "function": "6",
+    "lat": -17.583333,
+    "lng": 168.233333
+  },
+  {
+    "locationCode": "IPA",
+    "label": "Ipota",
+    "function": "4"
+  },
+  {
+    "locationCode": "LPM",
+    "label": "Lamap",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNB",
+    "label": "Lamen Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOD",
+    "label": "Longana",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNE",
+    "label": "Lonorore",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUG",
+    "label": "Luganville",
+    "subdivisionCode": "SAM",
+    "function": "13",
+    "lat": -15.533333,
+    "lng": 167.166667
+  },
+  {
+    "locationCode": "MWF",
+    "label": "Maéwo",
+    "labelWithDiacritics": "Maewo",
+    "function": "4",
+    "lat": -15.166667,
+    "lng": 168.166667
+  },
+  {
+    "locationCode": "MTV",
+    "label": "Mota Lava",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUS",
+    "label": "Norsup",
+    "function": "4"
+  },
+  {
+    "locationCode": "OLJ",
+    "label": "Olpoi",
+    "function": "4"
+  },
+  {
+    "locationCode": "PBJ",
+    "label": "Paama",
+    "function": "4"
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Port Sandwich",
+    "function": "1"
+  },
+  {
+    "locationCode": "VLI",
+    "label": "Port Vila",
+    "function": "145"
+  },
+  {
+    "locationCode": "UIQ",
+    "label": "Quine Hill",
+    "function": "4"
+  },
+  {
+    "locationCode": "RCL",
+    "label": "Redcliffe",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Santo",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSR",
+    "label": "Sara",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLH",
+    "label": "Sola",
+    "function": "4"
+  },
+  {
+    "locationCode": "SWJ",
+    "label": "South West Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAH",
+    "label": "Tanna",
+    "function": "4"
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Tongoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOH",
+    "label": "Torres",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULB",
+    "label": "Ulei",
+    "function": "4"
+  },
+  {
+    "locationCode": "VLS",
+    "label": "Valesdir",
+    "function": "4"
+  },
+  {
+    "locationCode": "WLH",
+    "label": "Walaha",
+    "function": "4"
+  }
+]

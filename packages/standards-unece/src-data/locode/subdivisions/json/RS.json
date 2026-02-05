@@ -1,0 +1,162 @@
+[
+  {
+    "code": "00",
+    "label": "Beograd",
+    "type": "City"
+  },
+  {
+    "code": "01",
+    "label": "Severnobacki okrug",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Srednjebanatski okrug",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Severnobanatski okrug",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Junobanatski okrug",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Zapadnobacki okrug",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Junobacki okrug",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Sremski okrug",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Macvanski okrug",
+    "type": "District"
+  },
+  {
+    "code": "09",
+    "label": "Kolubarski okrug",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Podunavski okrug",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Branicevski okrug",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "umadijski okrug",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Pomoravski okrug",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Borski okrug",
+    "type": "District"
+  },
+  {
+    "code": "15",
+    "label": "Zajecarski okrug",
+    "type": "District"
+  },
+  {
+    "code": "16",
+    "label": "Zlatiborski okrug",
+    "type": "District"
+  },
+  {
+    "code": "17",
+    "label": "Moravicki okrug",
+    "type": "District"
+  },
+  {
+    "code": "18",
+    "label": "Raki okrug",
+    "type": "District"
+  },
+  {
+    "code": "19",
+    "label": "Rasinski okrug",
+    "type": "District"
+  },
+  {
+    "code": "20",
+    "label": "Niavski okrug",
+    "type": "District"
+  },
+  {
+    "code": "21",
+    "label": "Toplicki okrug",
+    "type": "District"
+  },
+  {
+    "code": "22",
+    "label": "Pirotski okrug",
+    "type": "District"
+  },
+  {
+    "code": "23",
+    "label": "Jablanicki okrug",
+    "type": "District"
+  },
+  {
+    "code": "24",
+    "label": "Pcinjski okrug",
+    "type": "District"
+  },
+  {
+    "code": "25",
+    "label": "Kosovski okrug",
+    "type": "District"
+  },
+  {
+    "code": "26",
+    "label": "Pecki okrug",
+    "type": "District"
+  },
+  {
+    "code": "27",
+    "label": "Prizrenski okrug",
+    "type": "District"
+  },
+  {
+    "code": "28",
+    "label": "Kosovsko-Mitrovacki okrug",
+    "type": "District"
+  },
+  {
+    "code": "29",
+    "label": "Kosovsko-Pomoravski okrug",
+    "type": "District"
+  },
+  {
+    "code": "KM",
+    "label": "Kosovo-Metohija",
+    "type": "Autonomous province"
+  },
+  {
+    "code": "VO",
+    "label": "Vojvodina",
+    "type": "Autonomous province"
+  }
+]

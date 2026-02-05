@@ -1,0 +1,42 @@
+[
+  {
+    "code": "FUN",
+    "label": "Funafuti",
+    "type": "Town council"
+  },
+  {
+    "code": "NIT",
+    "label": "Niutao",
+    "type": "Island council"
+  },
+  {
+    "code": "NIU",
+    "label": "Nui",
+    "type": "Island council"
+  },
+  {
+    "code": "NKF",
+    "label": "Nukufetau",
+    "type": "Island council"
+  },
+  {
+    "code": "NKL",
+    "label": "Nukulaelae",
+    "type": "Island council"
+  },
+  {
+    "code": "NMA",
+    "label": "Nanumea",
+    "type": "Island council"
+  },
+  {
+    "code": "NMG",
+    "label": "Nanumaga",
+    "type": "Island council"
+  },
+  {
+    "code": "VAI",
+    "label": "Vaitupu",
+    "type": "Island council"
+  }
+]

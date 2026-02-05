@@ -1,0 +1,112 @@
+[
+  {
+    "code": "01",
+    "label": "Guatemala",
+    "type": "Department"
+  },
+  {
+    "code": "02",
+    "label": "El Progreso",
+    "type": "Department"
+  },
+  {
+    "code": "03",
+    "label": "Sacatepéquez",
+    "type": "Department"
+  },
+  {
+    "code": "04",
+    "label": "Chimaltenango",
+    "type": "Department"
+  },
+  {
+    "code": "05",
+    "label": "Escuintla",
+    "type": "Department"
+  },
+  {
+    "code": "06",
+    "label": "Santa Rosa",
+    "type": "Department"
+  },
+  {
+    "code": "07",
+    "label": "Sololá",
+    "type": "Department"
+  },
+  {
+    "code": "08",
+    "label": "Totonicapán",
+    "type": "Department"
+  },
+  {
+    "code": "09",
+    "label": "Quetzaltenango",
+    "type": "Department"
+  },
+  {
+    "code": "10",
+    "label": "Suchitepéquez",
+    "type": "Department"
+  },
+  {
+    "code": "11",
+    "label": "Retalhuleu",
+    "type": "Department"
+  },
+  {
+    "code": "12",
+    "label": "San Marcos",
+    "type": "Department"
+  },
+  {
+    "code": "13",
+    "label": "Huehuetenango",
+    "type": "Department"
+  },
+  {
+    "code": "14",
+    "label": "Quiché",
+    "type": "Department"
+  },
+  {
+    "code": "15",
+    "label": "Baja Verapaz",
+    "type": "Department"
+  },
+  {
+    "code": "16",
+    "label": "Alta Verapaz",
+    "type": "Department"
+  },
+  {
+    "code": "17",
+    "label": "Petén",
+    "type": "Department"
+  },
+  {
+    "code": "18",
+    "label": "Izabal",
+    "type": "Department"
+  },
+  {
+    "code": "19",
+    "label": "Zacapa",
+    "type": "Department"
+  },
+  {
+    "code": "20",
+    "label": "Chiquimula",
+    "type": "Department"
+  },
+  {
+    "code": "21",
+    "label": "Jalapa",
+    "type": "Department"
+  },
+  {
+    "code": "22",
+    "label": "Jutiapa",
+    "type": "Department"
+  }
+]

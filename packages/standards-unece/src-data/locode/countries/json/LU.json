@@ -1,0 +1,1442 @@
+[
+  {
+    "locationCode": "ABW",
+    "label": "Abweiler",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 49.533333,
+    "lng": 64.85
+  },
+  {
+    "locationCode": "AZN",
+    "label": "Alzingen",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASP",
+    "label": "Aspelt",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "DEH",
+    "label": "Asselborn",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.9,
+    "lng": 6.05
+  },
+  {
+    "locationCode": "BSC",
+    "label": "Bascharage",
+    "function": "3",
+    "lat": 49.566667,
+    "lng": 5.916667
+  },
+  {
+    "locationCode": "BEE",
+    "label": "Beaufort (Beefort)",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 49.833333,
+    "lng": 6.283333
+  },
+  {
+    "locationCode": "BCH",
+    "label": "Bech",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 49.733333,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "BKM",
+    "label": "Bech-Kleinmacher",
+    "function": "13",
+    "lat": 49.533333,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "BKE",
+    "label": "Beckerich",
+    "subdivisionCode": "D",
+    "function": "36",
+    "lat": 49.716667,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "BDW",
+    "label": "Beidweiler",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 6.3
+  },
+  {
+    "locationCode": "DK4",
+    "label": "Beiler",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 50.15,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "BDF",
+    "label": "Berdorf (Bäerdref)",
+    "subdivisionCode": "GR",
+    "labelWithDiacritics": "Berdorf (Baerdref)",
+    "function": "3",
+    "lat": 49.8,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Béreldange",
+    "subdivisionCode": "L",
+    "labelWithDiacritics": "Bereldange",
+    "function": "3",
+    "lat": 49.633333,
+    "lng": 6.116667
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Berg-sur-Syre",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.666667,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bertrange",
+    "function": "3",
+    "lat": 49.6,
+    "lng": 6.033333
+  },
+  {
+    "locationCode": "BSM",
+    "label": "Bettange-sur-Mess",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 49.566667,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "BTB",
+    "label": "Bettborn",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 5.933333
+  },
+  {
+    "locationCode": "BET",
+    "label": "Bettembourg",
+    "function": "3"
+  },
+  {
+    "locationCode": "BTF",
+    "label": "Bettendorf (Bettenduerf)",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.866667,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "BZF",
+    "label": "Betzdorf",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "BGL",
+    "label": "Bigonville",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.85,
+    "lng": 5.783333
+  },
+  {
+    "locationCode": "BSN",
+    "label": "Bissen",
+    "function": "3"
+  },
+  {
+    "locationCode": "BIW",
+    "label": "Biwer",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 6.366667
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bockholtz",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.916667,
+    "lng": 6
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Boevange-sur-Attert (Béiwen-Atert)",
+    "subdivisionCode": "ME",
+    "labelWithDiacritics": "Boevange-sur-Attert (Beiwen-Atert)",
+    "function": "3",
+    "lat": 49.766667,
+    "lng": 6
+  },
+  {
+    "locationCode": "BDB",
+    "label": "Boudler",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 6.333333
+  },
+  {
+    "locationCode": "BAU",
+    "label": "Boulaide (Bauschelt)",
+    "subdivisionCode": "WI",
+    "function": "3",
+    "lat": 49.883333,
+    "lng": 5.8
+  },
+  {
+    "locationCode": "BUU",
+    "label": "Bourscheid (Buurschent)",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.9,
+    "lng": 6.066667
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Bous( Bus)",
+    "subdivisionCode": "RM",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 6.316667
+  },
+  {
+    "locationCode": "BDL",
+    "label": "Bridel",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6.066667
+  },
+  {
+    "locationCode": "CPL",
+    "label": "Capellen",
+    "function": "3"
+  },
+  {
+    "locationCode": "CMY",
+    "label": "Clemency",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.6,
+    "lng": 5.866667
+  },
+  {
+    "locationCode": "CEL",
+    "label": "Clervaux",
+    "function": "3"
+  },
+  {
+    "locationCode": "COL",
+    "label": "Colmar",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 49.8,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "CNS",
+    "label": "Consdorf (Konsdref)",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 49.766667,
+    "lng": 6.333333
+  },
+  {
+    "locationCode": "CTN",
+    "label": "Contern",
+    "function": "3"
+  },
+  {
+    "locationCode": "CRA",
+    "label": "Crauthem",
+    "function": "6",
+    "lat": 49.533333,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "DLM",
+    "label": "Dalheim (Duelem)",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 6.25
+  },
+  {
+    "locationCode": "DIE",
+    "label": "Diekirch",
+    "function": "3"
+  },
+  {
+    "locationCode": "DDE",
+    "label": "Differdange",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "DIP",
+    "label": "Dippach (Dippech)",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 49.583333,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "DMM",
+    "label": "Dommeldange",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 49.616667,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "DLS",
+    "label": "Doncols",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 49.966667,
+    "lng": 5.833333
+  },
+  {
+    "locationCode": "DUD",
+    "label": "Dudelange",
+    "function": "3"
+  },
+  {
+    "locationCode": "ECH",
+    "label": "Echternach",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.8,
+    "lng": 6.416667
+  },
+  {
+    "locationCode": "EHL",
+    "label": "Ehlerange",
+    "subdivisionCode": "L",
+    "function": "36",
+    "lat": 49.516667,
+    "lng": 5.95
+  },
+  {
+    "locationCode": "E7N",
+    "label": "Eischen",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 5.866667
+  },
+  {
+    "locationCode": "LEL",
+    "label": "Ell",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.75,
+    "lng": 5.85
+  },
+  {
+    "locationCode": "ELL",
+    "label": "Ellange",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 6.3
+  },
+  {
+    "locationCode": "ESR",
+    "label": "Ernster",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.666667,
+    "lng": 6.233333
+  },
+  {
+    "locationCode": "EDE",
+    "label": "Erpeldange",
+    "function": "3"
+  },
+  {
+    "locationCode": "EZT",
+    "label": "Esch-sur-Alzette",
+    "function": "13",
+    "lat": 49.5,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "ESS",
+    "label": "Esch-sur-Sûre (Esch-Sauer)",
+    "subdivisionCode": "WI",
+    "labelWithDiacritics": "Esch-sur-Sure (Esch-Sauer)",
+    "function": "3",
+    "lat": 49.9,
+    "lng": 5.933333
+  },
+  {
+    "locationCode": "EBN",
+    "label": "Eselborn",
+    "function": "3"
+  },
+  {
+    "locationCode": "ETT",
+    "label": "Ettelbruck",
+    "function": "3"
+  },
+  {
+    "locationCode": "FEN",
+    "label": "Fentange",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 49.55,
+    "lng": 6.15
+  },
+  {
+    "locationCode": "FEE",
+    "label": "Feulen (Feelen)",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.85,
+    "lng": 6.05
+  },
+  {
+    "locationCode": "FDL",
+    "label": "Findel",
+    "function": "36",
+    "lat": 49.616667,
+    "lng": 6.2
+  },
+  {
+    "locationCode": "FSB",
+    "label": "Fischbach (Fëschbech)",
+    "subdivisionCode": "ME",
+    "labelWithDiacritics": "Fischbach (Feschbech)",
+    "function": "3",
+    "lat": 49.733333,
+    "lng": 6.183333
+  },
+  {
+    "locationCode": "FLW",
+    "label": "Flaxweiler (Fluessweiler)",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6.333333
+  },
+  {
+    "locationCode": "FOZ",
+    "label": "Foetz",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 6
+  },
+  {
+    "locationCode": "FHN",
+    "label": "Fouhren",
+    "subdivisionCode": "VD",
+    "function": "3",
+    "lat": 49.916667,
+    "lng": 6.2
+  },
+  {
+    "locationCode": "FRS",
+    "label": "Frisange (Fréiseng)",
+    "subdivisionCode": "ES",
+    "labelWithDiacritics": "Frisange (Freiseng)",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6.183333
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Garnich (Garnech)",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 49.616667,
+    "lng": 5.95
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Godbrange",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "GSD",
+    "label": "Goesdorf (Géisdref)",
+    "subdivisionCode": "DI",
+    "labelWithDiacritics": "Goesdorf (Geisdref)",
+    "function": "3",
+    "lat": 49.916667,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "R9G",
+    "label": "Gonderange",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 6.233333
+  },
+  {
+    "locationCode": "GVC",
+    "label": "Grevenmacher",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 6.45
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Grosbous (Groussbus)",
+    "subdivisionCode": "RD",
+    "function": "3",
+    "lat": 49.816667,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "ZXC",
+    "label": "Grundhof",
+    "subdivisionCode": "G",
+    "function": "13",
+    "lat": 49.833333,
+    "lng": 6.316667
+  },
+  {
+    "locationCode": "LHC",
+    "label": "Hagen",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 49.633333,
+    "lng": 5.916667
+  },
+  {
+    "locationCode": "HTB",
+    "label": "Hautbellain",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 50.15,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hautcharage",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.566667,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "HFN",
+    "label": "Heffingen (Hiefenech)",
+    "subdivisionCode": "ME",
+    "function": "3",
+    "lat": 49.75,
+    "lng": 6.233333
+  },
+  {
+    "locationCode": "HDH",
+    "label": "Heiderscheid",
+    "subdivisionCode": "WI",
+    "function": "3",
+    "lat": 49.883333,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Hellange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6.033333
+  },
+  {
+    "locationCode": "HSG",
+    "label": "Helmsange",
+    "function": "3"
+  },
+  {
+    "locationCode": "HES",
+    "label": "Hesperange",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 49.566667,
+    "lng": 6.15
+  },
+  {
+    "locationCode": "HTL",
+    "label": "Hettermillen",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.583333,
+    "lng": 6.366667
+  },
+  {
+    "locationCode": "HOB",
+    "label": "Hobscheid",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "HLZ",
+    "label": "Holzem",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.6,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Hosingen",
+    "function": "3"
+  },
+  {
+    "locationCode": "HVG",
+    "label": "Hovelange",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "HOW",
+    "label": "Howald",
+    "function": "6",
+    "lat": 49.583333,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "HDK",
+    "label": "Huldange",
+    "subdivisionCode": "D",
+    "function": "13",
+    "lat": 50.15,
+    "lng": 6
+  },
+  {
+    "locationCode": "HDF",
+    "label": "Hünsdorf",
+    "labelWithDiacritics": "Hunsdorf",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "LD8",
+    "label": "Ingeldorf",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.85,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "IZG",
+    "label": "Itzig",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.583333,
+    "lng": 6.166667
+  },
+  {
+    "locationCode": "JGG",
+    "label": "Junglinster",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 6.25
+  },
+  {
+    "locationCode": "KRJ",
+    "label": "Käerjeng",
+    "subdivisionCode": "CA",
+    "labelWithDiacritics": "Kaerjeng",
+    "function": "3",
+    "lat": 49.583333,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Kayl",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 49.483333,
+    "lng": 6.033333
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Kehlen",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.666667,
+    "lng": 6.033333
+  },
+  {
+    "locationCode": "KII",
+    "label": "Kiischpelt",
+    "subdivisionCode": "WI",
+    "function": "3",
+    "lat": 49.983333,
+    "lng": 6
+  },
+  {
+    "locationCode": "KNA",
+    "label": "Knaphoscheid",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 50,
+    "lng": 5.95
+  },
+  {
+    "locationCode": "KKR",
+    "label": "Kockelscheuer",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 6.1
+  },
+  {
+    "locationCode": "KRH",
+    "label": "Koerich",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.666667,
+    "lng": 5.95
+  },
+  {
+    "locationCode": "KOE",
+    "label": "Koetschette",
+    "function": "3",
+    "lat": 49.833333,
+    "lng": 5.85
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Kopstal (Koplescht)",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6.066667
+  },
+  {
+    "locationCode": "SSG",
+    "label": "Lac de la Haute-Sûre (Stauséigemeng)",
+    "subdivisionCode": "WI",
+    "labelWithDiacritics": "Lac de la Haute-Sure (Stauseigemeng)",
+    "function": "3",
+    "lat": 49.9,
+    "lng": 5.866667
+  },
+  {
+    "locationCode": "LDE",
+    "label": "Lamadelaine",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 5.85
+  },
+  {
+    "locationCode": "FLS",
+    "label": "Larochette (Fiels)",
+    "subdivisionCode": "ME",
+    "function": "3",
+    "lat": 49.766667,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "LNG",
+    "label": "Lenningen",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.583333,
+    "lng": 6.366667
+  },
+  {
+    "locationCode": "LTZ",
+    "label": "Lentzweiler",
+    "subdivisionCode": "D",
+    "function": "36",
+    "lat": 50.066667,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "LDL",
+    "label": "Leudelange",
+    "function": "3"
+  },
+  {
+    "locationCode": "8LX",
+    "label": "Linger",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lintgen",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 49.716667,
+    "lng": 6.116667
+  },
+  {
+    "locationCode": "LRS",
+    "label": "Lipperscheid",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.916667,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "LVG",
+    "label": "Livange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 6.116667
+  },
+  {
+    "locationCode": "LWR",
+    "label": "Lorentzweiler",
+    "function": "23",
+    "lat": 49.7,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "LUX",
+    "label": "Luxembourg",
+    "function": "1345"
+  },
+  {
+    "locationCode": "MME",
+    "label": "Mamer",
+    "function": "236",
+    "lat": 49.633333,
+    "lng": 6.016667
+  },
+  {
+    "locationCode": "MTN",
+    "label": "Manternach",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 6.416667
+  },
+  {
+    "locationCode": "MCH",
+    "label": "Medernach",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.8,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "JEU",
+    "label": "Mersch",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.75,
+    "lng": 6.1
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Mertert",
+    "function": "1",
+    "lat": 49.7,
+    "lng": 6.483333
+  },
+  {
+    "locationCode": "MRZ",
+    "label": "Mertzig (Mäerzeg)",
+    "subdivisionCode": "DI",
+    "labelWithDiacritics": "Mertzig (Maerzeg)",
+    "function": "3",
+    "lat": 49.833333,
+    "lng": 6
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Mompach (Mompech)",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 49.733333,
+    "lng": 6.45
+  },
+  {
+    "locationCode": "ME6",
+    "label": "Mondercange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "MBS",
+    "label": "Mondorf-les-Bains",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6.266667
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mosingen",
+    "function": "0"
+  },
+  {
+    "locationCode": "MFT",
+    "label": "Moutfort",
+    "function": "23",
+    "lat": 49.583333,
+    "lng": 6.266667
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Münsbach",
+    "subdivisionCode": "L",
+    "labelWithDiacritics": "Munsbach",
+    "function": "23",
+    "lat": 49.633333,
+    "lng": 6.266667
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Niederanven",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6.25
+  },
+  {
+    "locationCode": "NDC",
+    "label": "Niederkorn",
+    "function": "23",
+    "lat": 49.533333,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "7NL",
+    "label": "Noertzange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6.05
+  },
+  {
+    "locationCode": "NOU",
+    "label": "Nommern (Noumer)",
+    "subdivisionCode": "ME",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.166667
+  },
+  {
+    "locationCode": "OBR",
+    "label": "Oberanven",
+    "function": "3",
+    "lat": 49.666667,
+    "lng": 6.233333
+  },
+  {
+    "locationCode": "ETG",
+    "label": "Oetrange",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 49.583333,
+    "lng": 6.25
+  },
+  {
+    "locationCode": "OLM",
+    "label": "Olm",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6
+  },
+  {
+    "locationCode": "OSP",
+    "label": "Ospern",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "PRH",
+    "label": "Parc Hosingen (Parc Housen)",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 50,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Pétange",
+    "labelWithDiacritics": "Petange",
+    "function": "23",
+    "lat": 49.55,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "PPR",
+    "label": "Pontpierre",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 6.033333
+  },
+  {
+    "locationCode": "PTZ",
+    "label": "Pratz",
+    "function": "3",
+    "lat": 49.8,
+    "lng": 5.933333
+  },
+  {
+    "locationCode": "PRZ",
+    "label": "Préizerdaul",
+    "subdivisionCode": "RD",
+    "labelWithDiacritics": "Preizerdaul",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 5.933333
+  },
+  {
+    "locationCode": "PTT",
+    "label": "Putscheid (Pëtscht)",
+    "subdivisionCode": "VD",
+    "labelWithDiacritics": "Putscheid (Petscht)",
+    "function": "3",
+    "lat": 49.95,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "RBH",
+    "label": "Rambrouch",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.816667,
+    "lng": 5.833333
+  },
+  {
+    "locationCode": "RKM",
+    "label": "Reckange-sur-Mess (Reckeng op der Mess)",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 6
+  },
+  {
+    "locationCode": "RDN",
+    "label": "Redange",
+    "function": "3",
+    "lat": 49.766667,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "REI",
+    "label": "Reisdorf (Reisduerf)",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.866667,
+    "lng": 6.266667
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Remerschen",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.483333,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "REM",
+    "label": "Remich",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 6.366667
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROD",
+    "label": "Rodange",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAC",
+    "label": "Rombach",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.833333,
+    "lng": 5.75
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Roost",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "ROR",
+    "label": "Rosport",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.5
+  },
+  {
+    "locationCode": "RSP",
+    "label": "Rosport (Rouspert)",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.5
+  },
+  {
+    "locationCode": "RST",
+    "label": "Rost",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "RUL",
+    "label": "Roullingen",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.95,
+    "lng": 5.916667
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumelange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.45,
+    "lng": 6.016667
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Saeul (Sëll)",
+    "subdivisionCode": "RD",
+    "labelWithDiacritics": "Saeul (Sell)",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 5.983333
+  },
+  {
+    "locationCode": "SWL",
+    "label": "Sandweiler",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.6,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sanem",
+    "function": "3"
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Schengen",
+    "subdivisionCode": "G",
+    "function": "35"
+  },
+  {
+    "locationCode": "SCR",
+    "label": "Schieren",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 49.816667,
+    "lng": 6.083333
+  },
+  {
+    "locationCode": "SFG",
+    "label": "Schifflange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6
+  },
+  {
+    "locationCode": "STG",
+    "label": "Schuttrange",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.616667,
+    "lng": 6.266667
+  },
+  {
+    "locationCode": "SGB",
+    "label": "Senningen",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.633333,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Senningerberg",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.633333,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Septfontaines (Simmer)",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Soleuvre",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 5.933333
+  },
+  {
+    "locationCode": "SBD",
+    "label": "Stadtbredimus (Stadbriedemes)",
+    "subdivisionCode": "RM",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Steinfort",
+    "function": "0"
+  },
+  {
+    "locationCode": "STE",
+    "label": "Steinsel",
+    "function": "3"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Strassen",
+    "function": "3",
+    "lat": 49.616667,
+    "lng": 6.05
+  },
+  {
+    "locationCode": "4ST",
+    "label": "Stuppicht",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 6.183333
+  },
+  {
+    "locationCode": "TDL",
+    "label": "Tandel",
+    "subdivisionCode": "VD",
+    "function": "3",
+    "lat": 49.883333,
+    "lng": 6.183333
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Troisvierges",
+    "function": "3"
+  },
+  {
+    "locationCode": "TTE",
+    "label": "Tuntange (Téinten)",
+    "subdivisionCode": "ME",
+    "labelWithDiacritics": "Tuntange (Teinten)",
+    "function": "3",
+    "lat": 49.716667,
+    "lng": 6
+  },
+  {
+    "locationCode": "USL",
+    "label": "Useldange",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 49.766667,
+    "lng": 5.966667
+  },
+  {
+    "locationCode": "EZD",
+    "label": "Vallée de l'Ernz (Ärenzdall)",
+    "subdivisionCode": "DI",
+    "labelWithDiacritics": "Vallee de l'Ernz (Arenzdall)",
+    "function": "3",
+    "lat": 49.816667,
+    "lng": 6.216667
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Vianden",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Vichten (Viichten)",
+    "subdivisionCode": "RD",
+    "function": "3",
+    "lat": 49.8,
+    "lng": 6
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Wahl (Wal)",
+    "subdivisionCode": "RD",
+    "function": "3",
+    "lat": 49.833333,
+    "lng": 5.9
+  },
+  {
+    "locationCode": "WLB",
+    "label": "Waldbillig (Waldbëlleg)",
+    "subdivisionCode": "EC",
+    "labelWithDiacritics": "Waldbillig (Waldbelleg)",
+    "function": "3",
+    "lat": 49.783333,
+    "lng": 6.283333
+  },
+  {
+    "locationCode": "WBD",
+    "label": "Waldbredimus (Waldbriedemes)",
+    "subdivisionCode": "RM",
+    "function": "3",
+    "lat": 49.55,
+    "lng": 6.283333
+  },
+  {
+    "locationCode": "WLF",
+    "label": "Walferdange (Walfer)",
+    "subdivisionCode": "LU",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 6.133333
+  },
+  {
+    "locationCode": "WSG",
+    "label": "Wasserbillig",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 6.516667
+  },
+  {
+    "locationCode": "WEK",
+    "label": "Wecker",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.683333,
+    "lng": 6.383333
+  },
+  {
+    "locationCode": "WET",
+    "label": "Weiler-la-Tour (Weiler zum Tuerm)",
+    "subdivisionCode": "LU",
+    "function": "3",
+    "lat": 49.533333,
+    "lng": 6.2
+  },
+  {
+    "locationCode": "WEI",
+    "label": "Weiswampach",
+    "function": "3",
+    "lat": 50.133333,
+    "lng": 6.066667
+  },
+  {
+    "locationCode": "WST",
+    "label": "Wellenstein",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 6.333333
+  },
+  {
+    "locationCode": "WEM",
+    "label": "Wemperhardt",
+    "subdivisionCode": "L",
+    "function": "6",
+    "lat": 50.15,
+    "lng": 6.05
+  },
+  {
+    "locationCode": "WIL",
+    "label": "Wiltz",
+    "function": "3"
+  },
+  {
+    "locationCode": "WNG",
+    "label": "Wincrange (Wëntger)",
+    "subdivisionCode": "CL",
+    "labelWithDiacritics": "Wincrange (Wentger)",
+    "function": "3",
+    "lat": 50.05,
+    "lng": 5.916667
+  },
+  {
+    "locationCode": "WHF",
+    "label": "Windhof",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 49.633333,
+    "lng": 5.95
+  },
+  {
+    "locationCode": "WNS",
+    "label": "Winseler (Wanseler)",
+    "subdivisionCode": "WI",
+    "function": "3",
+    "lat": 49.966667,
+    "lng": 5.883333
+  },
+  {
+    "locationCode": "WTA",
+    "label": "Wintrange",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 49.5,
+    "lng": 6.35
+  },
+  {
+    "locationCode": "WLG",
+    "label": "Wormeldange",
+    "subdivisionCode": "L",
+    "function": "16",
+    "lat": 49.6,
+    "lng": 6.4
+  }
+]

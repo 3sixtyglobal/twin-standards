@@ -1,0 +1,369 @@
+[
+  {
+    "locationCode": "ASD",
+    "label": "Andros Town, Andros Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "ATC",
+    "label": "Arthur's Town, Cat Island",
+    "subdivisionCode": "CI",
+    "function": "34",
+    "lat": 24.633333,
+    "lng": -75.7
+  },
+  {
+    "locationCode": "BIM",
+    "label": "Bimini",
+    "function": "4"
+  },
+  {
+    "locationCode": "BKC",
+    "label": "Bock Cay",
+    "subdivisionCode": "EX",
+    "function": "1",
+    "lat": 23.816667,
+    "lng": -76.166667
+  },
+  {
+    "locationCode": "CEL",
+    "label": "Cape Eleuthera",
+    "subdivisionCode": "SE",
+    "function": "14",
+    "lat": 24.816667,
+    "lng": -76.35
+  },
+  {
+    "locationCode": "CXY",
+    "label": "Cat Cays",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Cat Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "CCZ",
+    "label": "Chub Cay, Berry Islands",
+    "function": "14"
+  },
+  {
+    "locationCode": "CLP",
+    "label": "Clifton Point",
+    "function": "1",
+    "lat": 25,
+    "lng": -77.533333
+  },
+  {
+    "locationCode": "CBT",
+    "label": "Cockburn Town",
+    "subdivisionCode": "SS",
+    "function": "1",
+    "lat": 24.033333,
+    "lng": -74.516667
+  },
+  {
+    "locationCode": "COX",
+    "label": "Congo Town",
+    "subdivisionCode": "SA",
+    "function": "14",
+    "lat": 24.15,
+    "lng": -77.533333
+  },
+  {
+    "locationCode": "CRI",
+    "label": "Crooked Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "LGI",
+    "label": "Deadmans Cay",
+    "subdivisionCode": "LI",
+    "function": "4",
+    "lat": 23.166667,
+    "lng": -75.083333
+  },
+  {
+    "locationCode": "DCT",
+    "label": "Duncan Town",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELE",
+    "label": "Eleuthera Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "FPO",
+    "label": "Freeport, Grand Bahama",
+    "function": "14"
+  },
+  {
+    "locationCode": "GGT",
+    "label": "George Town, Great Exuma Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "GOC",
+    "label": "Gorda Cay",
+    "function": "1",
+    "lat": 26.083333,
+    "lng": -77.533333
+  },
+  {
+    "locationCode": "GHB",
+    "label": "Governors Harbour, Eleuthera",
+    "function": "14"
+  },
+  {
+    "locationCode": "GBI",
+    "label": "Grand Bahama",
+    "function": "4"
+  },
+  {
+    "locationCode": "EXU",
+    "label": "Great Exuma Island",
+    "subdivisionCode": "EX",
+    "function": "1",
+    "lat": 23.533333,
+    "lng": -75.833333
+  },
+  {
+    "locationCode": "GHC",
+    "label": "Great Harbour Cay",
+    "subdivisionCode": "BY",
+    "function": "14",
+    "lat": 25.75,
+    "lng": -77.833333
+  },
+  {
+    "locationCode": "GSC",
+    "label": "Great Stirrup Cay",
+    "subdivisionCode": "BY",
+    "function": "1",
+    "lat": 25.833333,
+    "lng": -77.9
+  },
+  {
+    "locationCode": "GTC",
+    "label": "Green Turtle Cay",
+    "subdivisionCode": "HT",
+    "function": "14",
+    "lat": 26.75,
+    "lng": -77.333333
+  },
+  {
+    "locationCode": "HBI",
+    "label": "Harbour Island",
+    "subdivisionCode": "HI",
+    "function": "14",
+    "lat": 25.5,
+    "lng": -76.633333
+  },
+  {
+    "locationCode": "IGA",
+    "label": "Inagua",
+    "function": "14"
+  },
+  {
+    "locationCode": "HMC",
+    "label": "Little San Salvador",
+    "function": "1",
+    "lat": 24.583333,
+    "lng": -75.916667
+  },
+  {
+    "locationCode": "COC",
+    "label": "Little Stirrup Cay",
+    "subdivisionCode": "BY",
+    "function": "1",
+    "lat": 25.816667,
+    "lng": -77.933333
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Lucaya",
+    "subdivisionCode": "FP",
+    "function": "1",
+    "lat": 26.516667,
+    "lng": -78.633333
+  },
+  {
+    "locationCode": "LYC",
+    "label": "Lyford Cay",
+    "function": "3",
+    "lat": 25.033333,
+    "lng": -77.566667
+  },
+  {
+    "locationCode": "MAY",
+    "label": "Mangrove Cay Apt",
+    "function": "34",
+    "lat": 24.283333,
+    "lng": -77.666667
+  },
+  {
+    "locationCode": "MHH",
+    "label": "Marsh Harbour",
+    "subdivisionCode": "CO",
+    "function": "14",
+    "lat": 26.533333,
+    "lng": -76.966667
+  },
+  {
+    "locationCode": "MSK",
+    "label": "Mastic Point Apt",
+    "function": "34",
+    "lat": 25.016667,
+    "lng": -78
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matthew Town",
+    "function": "1"
+  },
+  {
+    "locationCode": "MYG",
+    "label": "Mayaguana Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Nassau",
+    "function": "145",
+    "lat": 25.083333,
+    "lng": -77.35
+  },
+  {
+    "locationCode": "NET",
+    "label": "New Bight",
+    "subdivisionCode": "CI",
+    "function": "34",
+    "lat": 24.3,
+    "lng": -75.416667
+  },
+  {
+    "locationCode": "NMC",
+    "label": "Norman's Cay",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELH",
+    "label": "North Eleuthera",
+    "function": "4"
+  },
+  {
+    "locationCode": "OCE",
+    "label": "Ocean Cay",
+    "function": "1"
+  },
+  {
+    "locationCode": "PID",
+    "label": "Paradise Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "PWN",
+    "label": "Pitts Town",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPO",
+    "label": "Powell Point",
+    "function": "4"
+  },
+  {
+    "locationCode": "RSD",
+    "label": "Rock Sound",
+    "subdivisionCode": "SE",
+    "function": "14",
+    "lat": 24.9,
+    "lng": -76.2
+  },
+  {
+    "locationCode": "RCY",
+    "label": "Rum Cay",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAQ",
+    "label": "San Andros",
+    "subdivisionCode": "NS",
+    "function": "14",
+    "lat": 25.066667,
+    "lng": -78.05
+  },
+  {
+    "locationCode": "ZSA",
+    "label": "San Salvador Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "WZY",
+    "label": "Seaplane Base",
+    "function": "4"
+  },
+  {
+    "locationCode": "TZN",
+    "label": "South Andros",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRP",
+    "label": "South Riding Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "SWL",
+    "label": "Spanish Wells",
+    "subdivisionCode": "HI",
+    "function": "4",
+    "lat": 25.55,
+    "lng": -76.75
+  },
+  {
+    "locationCode": "AXP",
+    "label": "Spring Point",
+    "function": "4"
+  },
+  {
+    "locationCode": "TYM",
+    "label": "Staniel Cay",
+    "function": "4"
+  },
+  {
+    "locationCode": "SML",
+    "label": "Stella Maris",
+    "subdivisionCode": "LI",
+    "function": "14",
+    "lat": 23.6,
+    "lng": -75.3
+  },
+  {
+    "locationCode": "TBI",
+    "label": "The Bight",
+    "subdivisionCode": "CI",
+    "function": "14",
+    "lat": 24.316667,
+    "lng": -75.4
+  },
+  {
+    "locationCode": "TCB",
+    "label": "Treasure Cay, Great Abaco Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "WKR",
+    "label": "Walker's Cay",
+    "function": "14"
+  },
+  {
+    "locationCode": "WTD",
+    "label": "West End",
+    "subdivisionCode": "FP",
+    "function": "14",
+    "lat": 26.683333,
+    "lng": -78.966667
+  }
+]

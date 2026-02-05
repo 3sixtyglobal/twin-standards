@@ -1,0 +1,282 @@
+[
+  {
+    "locationCode": "BFX",
+    "label": "Bafoussam",
+    "function": "34"
+  },
+  {
+    "locationCode": "BLC",
+    "label": "Bali",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPC",
+    "label": "Bamenda",
+    "function": "4",
+    "lat": 5.933333,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "OUR",
+    "label": "Batouri",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bélabo",
+    "subdivisionCode": "ES",
+    "labelWithDiacritics": "Belabo",
+    "function": "23",
+    "lat": 4.933333,
+    "lng": 13.3
+  },
+  {
+    "locationCode": "BTA",
+    "label": "Bertoua",
+    "function": "4",
+    "lat": 4.583333,
+    "lng": 13.683333
+  },
+  {
+    "locationCode": "BNB",
+    "label": "Bonabéri",
+    "subdivisionCode": "LT",
+    "labelWithDiacritics": "Bonaberi",
+    "function": "3",
+    "lat": 4.083333,
+    "lng": 9.65
+  },
+  {
+    "locationCode": "BUA",
+    "label": "Buea",
+    "function": "3"
+  },
+  {
+    "locationCode": "CMO",
+    "label": "Campo",
+    "function": "0"
+  },
+  {
+    "locationCode": "DLA",
+    "label": "Douala",
+    "function": "145"
+  },
+  {
+    "locationCode": "DSC",
+    "label": "Dschang",
+    "function": "4"
+  },
+  {
+    "locationCode": "EBW",
+    "label": "Ebolowa",
+    "function": "4"
+  },
+  {
+    "locationCode": "EBT",
+    "label": "Ebomé Terminal",
+    "labelWithDiacritics": "Ebome Terminal",
+    "function": "23",
+    "lat": 2.8,
+    "lng": 9.816667
+  },
+  {
+    "locationCode": "EDA",
+    "label": "Edéa",
+    "labelWithDiacritics": "Edea",
+    "function": "23",
+    "lat": 3.766667,
+    "lng": 10.116667
+  },
+  {
+    "locationCode": "EKO",
+    "label": "Ekok",
+    "subdivisionCode": "SW",
+    "function": "5",
+    "lat": 5.8,
+    "lng": 8.883333
+  },
+  {
+    "locationCode": "FOM",
+    "label": "Foumban",
+    "function": "4",
+    "lat": 5.716667,
+    "lng": 10.916667
+  },
+  {
+    "locationCode": "GOU",
+    "label": "Garoua",
+    "subdivisionCode": "NO",
+    "function": "134",
+    "lat": 9.3,
+    "lng": 13.4
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Garoua Boulaï",
+    "subdivisionCode": "ES",
+    "labelWithDiacritics": "Garoua Boulai",
+    "function": "35",
+    "lat": 5.883333,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Kaele",
+    "function": "4",
+    "lat": 10.116667,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kole Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Kousséri",
+    "subdivisionCode": "EN",
+    "labelWithDiacritics": "Kousseri",
+    "function": "5",
+    "lat": 12.066667,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "KOB",
+    "label": "Koutaba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBI",
+    "label": "Kribi",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumba",
+    "subdivisionCode": "SW",
+    "function": "16",
+    "lat": 4.633333,
+    "lng": 9.433333
+  },
+  {
+    "locationCode": "KYE",
+    "label": "Kye-Ossi",
+    "subdivisionCode": "SU",
+    "function": "5",
+    "lat": 2.25,
+    "lng": 11.25
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limbe",
+    "function": "123",
+    "lat": 4.016667,
+    "lng": 9.216667
+  },
+  {
+    "locationCode": "LIT",
+    "label": "Limboh Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MMF",
+    "label": "Mamfe",
+    "function": "4"
+  },
+  {
+    "locationCode": "MVR",
+    "label": "Maroua",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSG",
+    "label": "Massongo Terminal",
+    "function": "7",
+    "lat": 4.216667,
+    "lng": 8.783333
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Mbalmayo",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 3.516667,
+    "lng": 11.5
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Meiganga",
+    "subdivisionCode": "AD",
+    "function": "3",
+    "lat": 6.516667,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mora",
+    "subdivisionCode": "EN",
+    "function": "5",
+    "lat": 11.033333,
+    "lng": 14.133333
+  },
+  {
+    "locationCode": "MOU",
+    "label": "Moudi Terminal",
+    "function": "13",
+    "lat": 4.116667,
+    "lng": 8.483333
+  },
+  {
+    "locationCode": "NDP",
+    "label": "Ndop",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": 6,
+    "lng": 10.416667
+  },
+  {
+    "locationCode": "NGE",
+    "label": "Ngaoundéré",
+    "subdivisionCode": "AD",
+    "labelWithDiacritics": "Ngaoundere",
+    "function": "23",
+    "lat": 7.316667,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "NKS",
+    "label": "Nkongsamba",
+    "function": "234",
+    "lat": 4.933333,
+    "lng": 9.933333
+  },
+  {
+    "locationCode": "TKC",
+    "label": "Tiko",
+    "function": "14"
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Victoria",
+    "subdivisionCode": "SW",
+    "function": "3",
+    "lat": 4,
+    "lng": 9.183333
+  },
+  {
+    "locationCode": "GXX",
+    "label": "Yagoua",
+    "function": "4",
+    "lat": 10.35,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "YAO",
+    "label": "Yaoundé",
+    "subdivisionCode": "CE",
+    "labelWithDiacritics": "Yaounde",
+    "function": "45",
+    "lat": 3.866667,
+    "lng": 11.516667
+  }
+]

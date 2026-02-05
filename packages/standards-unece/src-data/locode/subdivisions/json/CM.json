@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AD",
+    "label": "Adamaoua",
+    "type": "Region"
+  },
+  {
+    "code": "CE",
+    "label": "Centre",
+    "type": "Region"
+  },
+  {
+    "code": "EN",
+    "label": "Far North",
+    "type": "Region"
+  },
+  {
+    "code": "ES",
+    "label": "East",
+    "type": "Region"
+  },
+  {
+    "code": "LT",
+    "label": "Littoral",
+    "type": "Region"
+  },
+  {
+    "code": "NO",
+    "label": "North",
+    "type": "Region"
+  },
+  {
+    "code": "NW",
+    "label": "North-West",
+    "type": "Region"
+  },
+  {
+    "code": "OU",
+    "label": "West",
+    "type": "Region"
+  },
+  {
+    "code": "SU",
+    "label": "South",
+    "type": "Region"
+  },
+  {
+    "code": "SW",
+    "label": "South-West",
+    "type": "Region"
+  }
+]

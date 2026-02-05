@@ -1,0 +1,40 @@
+[
+  {
+    "locationCode": "ASC",
+    "label": "Ascension",
+    "function": "1",
+    "lat": -7.95,
+    "lng": -14.35
+  },
+  {
+    "locationCode": "ASI",
+    "label": "Georgetown",
+    "function": "14"
+  },
+  {
+    "locationCode": "SHN",
+    "label": "Jamestown",
+    "function": "1"
+  },
+  {
+    "locationCode": "LVW",
+    "label": "Levelwood",
+    "subdivisionCode": "HL",
+    "function": "3",
+    "lat": -15.133333,
+    "lng": -5.683333
+  },
+  {
+    "locationCode": "RPT",
+    "label": "Rupert's Bay",
+    "subdivisionCode": "HL",
+    "function": "1",
+    "lat": -15.916667,
+    "lng": -5.7
+  },
+  {
+    "locationCode": "TDC",
+    "label": "Tristan da Cunha",
+    "function": "15"
+  }
+]

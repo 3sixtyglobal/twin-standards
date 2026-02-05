@@ -1,0 +1,211 @@
+[
+  {
+    "locationCode": "BXE",
+    "label": "Bakel",
+    "function": "4"
+  },
+  {
+    "locationCode": "DSS",
+    "label": "Blaise Diagne International Airport",
+    "subdivisionCode": "TH",
+    "function": "34",
+    "lat": 14.633333,
+    "lng": -17.083333
+  },
+  {
+    "locationCode": "CSK",
+    "label": "Cap Skiring",
+    "subdivisionCode": "ZG",
+    "function": "4",
+    "lat": 12.383333,
+    "lng": -16.75
+  },
+  {
+    "locationCode": "DAG",
+    "label": "Dagana",
+    "function": "3",
+    "lat": 16.5,
+    "lng": -15.5
+  },
+  {
+    "locationCode": "DKR",
+    "label": "Dakar",
+    "function": "145"
+  },
+  {
+    "locationCode": "DUR",
+    "label": "Diourbel",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 14.65,
+    "lng": -16.383333
+  },
+  {
+    "locationCode": "FOU",
+    "label": "Foundiougne",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAH",
+    "label": "Kahone",
+    "subdivisionCode": "FK",
+    "function": "3",
+    "lat": 14.15,
+    "lng": -16.033333
+  },
+  {
+    "locationCode": "KLC",
+    "label": "Kaolack",
+    "function": "14"
+  },
+  {
+    "locationCode": "KKY",
+    "label": "Kayar",
+    "subdivisionCode": "TH",
+    "function": "3",
+    "lat": 14.916667,
+    "lng": -17.116667
+  },
+  {
+    "locationCode": "KGG",
+    "label": "Kedougou",
+    "function": "4"
+  },
+  {
+    "locationCode": "KID",
+    "label": "Kidira",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 14.4,
+    "lng": -12.25
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kolda",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOU",
+    "label": "Louga",
+    "function": "3",
+    "lat": 15.6,
+    "lng": -16.233333
+  },
+  {
+    "locationCode": "LYN",
+    "label": "Lyndiane",
+    "function": "1"
+  },
+  {
+    "locationCode": "MGS",
+    "label": "Madina Gounass",
+    "subdivisionCode": "KD",
+    "function": "3",
+    "lat": 13.133333,
+    "lng": -13.75
+  },
+  {
+    "locationCode": "MAX",
+    "label": "Matam",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBA",
+    "label": "M'bao Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBO",
+    "label": "Mbour",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": -16.95
+  },
+  {
+    "locationCode": "NIK",
+    "label": "Niokolo Koba",
+    "function": "4"
+  },
+  {
+    "locationCode": "POD",
+    "label": "Podor",
+    "function": "4"
+  },
+  {
+    "locationCode": "RDT",
+    "label": "Richard Toll",
+    "function": "4"
+  },
+  {
+    "locationCode": "RQ2",
+    "label": "Rufisque",
+    "subdivisionCode": "DK",
+    "function": "3",
+    "lat": 14.7,
+    "lng": -17.266667
+  },
+  {
+    "locationCode": "XLS",
+    "label": "Saint Louis",
+    "subdivisionCode": "SL",
+    "function": "14",
+    "lat": 16.033333,
+    "lng": -16.5
+  },
+  {
+    "locationCode": "SMY",
+    "label": "Simenti",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKN",
+    "label": "Sokone",
+    "subdivisionCode": "FK",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": -16.366667
+  },
+  {
+    "locationCode": "TBN",
+    "label": "Taïba Ndiaye",
+    "subdivisionCode": "TH",
+    "labelWithDiacritics": "Taiba Ndiaye",
+    "function": "3",
+    "lat": 15.05,
+    "lng": -16.883333
+  },
+  {
+    "locationCode": "TUD",
+    "label": "Tambacounda",
+    "function": "4"
+  },
+  {
+    "locationCode": "THI",
+    "label": "Thiès",
+    "labelWithDiacritics": "Thies",
+    "function": "23",
+    "lat": 14.8,
+    "lng": -16.933333
+  },
+  {
+    "locationCode": "TOU",
+    "label": "Touba",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 14.85,
+    "lng": -15.883333
+  },
+  {
+    "locationCode": "YDK",
+    "label": "Yof",
+    "subdivisionCode": "DK",
+    "function": "3",
+    "lat": 14.75,
+    "lng": -17.466667
+  },
+  {
+    "locationCode": "ZIG",
+    "label": "Ziguinchor",
+    "function": "14"
+  }
+]

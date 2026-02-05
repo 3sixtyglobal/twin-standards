@@ -1,0 +1,72 @@
+[
+  {
+    "code": "1",
+    "label": "Bocas del Toro",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Panamá Oeste",
+    "type": "Province"
+  },
+  {
+    "code": "2",
+    "label": "Coclé",
+    "type": "Province"
+  },
+  {
+    "code": "3",
+    "label": "Colón",
+    "type": "Province"
+  },
+  {
+    "code": "4",
+    "label": "Chiriquí",
+    "type": "Province"
+  },
+  {
+    "code": "5",
+    "label": "Darién",
+    "type": "Province"
+  },
+  {
+    "code": "6",
+    "label": "Herrera",
+    "type": "Province"
+  },
+  {
+    "code": "7",
+    "label": "Los Santos",
+    "type": "Province"
+  },
+  {
+    "code": "8",
+    "label": "Panamá",
+    "type": "Province"
+  },
+  {
+    "code": "9",
+    "label": "Veraguas",
+    "type": "Province"
+  },
+  {
+    "code": "EM",
+    "label": "Emberá",
+    "type": "indigenous region"
+  },
+  {
+    "code": "KY",
+    "label": "Guna Yala",
+    "type": "indigenous region"
+  },
+  {
+    "code": "NB",
+    "label": "Ngäbe-Buglé",
+    "type": "indigenous region"
+  },
+  {
+    "code": "NT",
+    "label": "Naso Tjër Di",
+    "type": "indigenous region"
+  }
+]

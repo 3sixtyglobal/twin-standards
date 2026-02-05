@@ -1,0 +1,52 @@
+[
+  {
+    "code": "BA",
+    "label": "Barima-Waini",
+    "type": "Region"
+  },
+  {
+    "code": "CU",
+    "label": "Cuyuni-Mazaruni",
+    "type": "Region"
+  },
+  {
+    "code": "DE",
+    "label": "Demerara-Mahaica",
+    "type": "Region"
+  },
+  {
+    "code": "EB",
+    "label": "East Berbice-Corentyne",
+    "type": "Region"
+  },
+  {
+    "code": "ES",
+    "label": "Essequibo Islands-West Demerara",
+    "type": "Region"
+  },
+  {
+    "code": "MA",
+    "label": "Mahaica-Berbice",
+    "type": "Region"
+  },
+  {
+    "code": "PM",
+    "label": "Pomeroon-Supenaam",
+    "type": "Region"
+  },
+  {
+    "code": "PT",
+    "label": "Potaro-Siparuni",
+    "type": "Region"
+  },
+  {
+    "code": "UD",
+    "label": "Upper Demerara-Berbice",
+    "type": "Region"
+  },
+  {
+    "code": "UT",
+    "label": "Upper Takutu-Upper Essequibo",
+    "type": "Region"
+  }
+]

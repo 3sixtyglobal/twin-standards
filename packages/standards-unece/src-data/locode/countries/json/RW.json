@@ -1,0 +1,135 @@
+[
+  {
+    "locationCode": "BGA",
+    "label": "Bugarama",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": -2.7,
+    "lng": 29
+  },
+  {
+    "locationCode": "BTQ",
+    "label": "Butare",
+    "function": "4"
+  },
+  {
+    "locationCode": "CYU",
+    "label": "Cyangugu",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": -2.483333,
+    "lng": 28.883333
+  },
+  {
+    "locationCode": "GTA",
+    "label": "Gatuna",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": -1.433333,
+    "lng": 30.016667
+  },
+  {
+    "locationCode": "GYI",
+    "label": "Gisenyi",
+    "function": "4"
+  },
+  {
+    "locationCode": "GSO",
+    "label": "Gishoma",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": -2.6,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "HUY",
+    "label": "Huye",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -2.566667,
+    "lng": 29.7
+  },
+  {
+    "locationCode": "KME",
+    "label": "Kamembe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KYZ",
+    "label": "Kayonza",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -1.933333,
+    "lng": 30.516667
+  },
+  {
+    "locationCode": "KGL",
+    "label": "Kigali",
+    "function": "345"
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Mutara",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": -1.633333,
+    "lng": 29.95
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nyagatare",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": -1.283333,
+    "lng": 30.316667
+  },
+  {
+    "locationCode": "NYA",
+    "label": "Nyamata",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -2.2,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "NYZ",
+    "label": "Nyanza",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -2.35,
+    "lng": 29.75
+  },
+  {
+    "locationCode": "RIL",
+    "label": "Rilima",
+    "function": "3",
+    "lat": -2.15,
+    "lng": 30.216667
+  },
+  {
+    "locationCode": "RUB",
+    "label": "Rubengera",
+    "function": "16"
+  },
+  {
+    "locationCode": "RHG",
+    "label": "Ruhengeri",
+    "function": "4"
+  },
+  {
+    "locationCode": "RUO",
+    "label": "Rusumo",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -2.266667,
+    "lng": 30.7
+  },
+  {
+    "locationCode": "RW4",
+    "label": "Rwamagana",
+    "subdivisionCode": "02",
+    "function": "16",
+    "lat": 1.95,
+    "lng": 30.433333
+  }
+]

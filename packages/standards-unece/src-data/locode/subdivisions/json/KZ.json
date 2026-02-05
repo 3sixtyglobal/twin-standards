@@ -1,0 +1,102 @@
+[
+  {
+    "code": "10",
+    "label": "Abay oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "Aqmola oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "15",
+    "label": "Aqtöbe oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "19",
+    "label": "Almaty oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "23",
+    "label": "Atyrau oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "27",
+    "label": "Batys Qazaqstan oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "31",
+    "label": "Zhambyl oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "33",
+    "label": "Zhetisu oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "35",
+    "label": "Qaraghandy oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "39",
+    "label": "Qostanay oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "43",
+    "label": "Qyzylorda oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "47",
+    "label": "Mangghystau oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "55",
+    "label": "Pavlodar oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "59",
+    "label": "Soltüstik Qazaqstan oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "61",
+    "label": "Türkistan oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "62",
+    "label": "Ulytau oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "63",
+    "label": "Shyghys Qazaqstan oblysy",
+    "type": "Region"
+  },
+  {
+    "code": "71",
+    "label": "Nur-Sultan",
+    "type": "City"
+  },
+  {
+    "code": "75",
+    "label": "Almaty",
+    "type": "City"
+  },
+  {
+    "code": "79",
+    "label": "imkent",
+    "type": "City"
+  }
+]

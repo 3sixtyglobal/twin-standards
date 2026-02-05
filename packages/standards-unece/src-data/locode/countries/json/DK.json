@@ -1,0 +1,5099 @@
+[
+  {
+    "locationCode": "AAF",
+    "label": "Aalbaek",
+    "subdivisionCode": "81",
+    "function": "6",
+    "lat": 57.583333,
+    "lng": 10.4
+  },
+  {
+    "locationCode": "AAL",
+    "label": "Aalborg",
+    "function": "12345"
+  },
+  {
+    "locationCode": "ROR",
+    "label": "Aalborg Portland Cementfabrikk",
+    "function": "1"
+  },
+  {
+    "locationCode": "AEY",
+    "label": "Aalestrup",
+    "function": "23"
+  },
+  {
+    "locationCode": "AAR",
+    "label": "Aarhus",
+    "subdivisionCode": "82",
+    "function": "12345",
+    "lat": 56.15,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "AAE",
+    "label": "Aarre",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.566667,
+    "lng": 8.666667
+  },
+  {
+    "locationCode": "AZS",
+    "label": "Aars",
+    "function": "3"
+  },
+  {
+    "locationCode": "AAP",
+    "label": "Aarup",
+    "function": "23"
+  },
+  {
+    "locationCode": "AAB",
+    "label": "Åbenrå",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Abenra",
+    "function": "13",
+    "lat": 55.033333,
+    "lng": 9.433333
+  },
+  {
+    "locationCode": "AYB",
+    "label": "Åbybro",
+    "labelWithDiacritics": "Abybro",
+    "function": "3",
+    "lat": 57.15,
+    "lng": 9.75
+  },
+  {
+    "locationCode": "KK4",
+    "label": "Åbybro",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Abybro",
+    "function": "13",
+    "lat": 57.15,
+    "lng": 9.75
+  },
+  {
+    "locationCode": "AHJ",
+    "label": "Åbyhøj/Århus",
+    "labelWithDiacritics": "Abyhoj/Arhus",
+    "function": "23",
+    "lat": 56.133333,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Ærøskøbing",
+    "labelWithDiacritics": "Aroskobing",
+    "function": "1"
+  },
+  {
+    "locationCode": "AED",
+    "label": "Agedrup",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.416667,
+    "lng": 10.5
+  },
+  {
+    "locationCode": "AGD",
+    "label": "Agerbæk",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Agerbak",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 8.8
+  },
+  {
+    "locationCode": "AGR",
+    "label": "Agerskov",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.416667,
+    "lng": 9.316667
+  },
+  {
+    "locationCode": "AGO",
+    "label": "Agersø",
+    "labelWithDiacritics": "Agerso",
+    "function": "1"
+  },
+  {
+    "locationCode": "AGH",
+    "label": "Agger Havn",
+    "function": "13"
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Aggersund",
+    "function": "1"
+  },
+  {
+    "locationCode": "AK3",
+    "label": "Åkirkeby",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Akirkeby",
+    "function": "13",
+    "lat": 55.066667,
+    "lng": 14.933333
+  },
+  {
+    "locationCode": "ABT",
+    "label": "Albertslund",
+    "function": "0"
+  },
+  {
+    "locationCode": "ABK",
+    "label": "Ålebæk",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Alebak",
+    "function": "3",
+    "lat": 57.016667,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "ALL",
+    "label": "Allerod",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.866667,
+    "lng": 12.383333
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Allerslev",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.083333,
+    "lng": 12.05
+  },
+  {
+    "locationCode": "ASP",
+    "label": "Allestrup",
+    "function": "3",
+    "lat": 56.45,
+    "lng": 10.4
+  },
+  {
+    "locationCode": "ALN",
+    "label": "Allingåbro",
+    "labelWithDiacritics": "Allingabro",
+    "function": "3"
+  },
+  {
+    "locationCode": "AGE",
+    "label": "Allinge",
+    "function": "13",
+    "lat": 55.266667,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Almind",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.366667,
+    "lng": 9.4
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Ålsgårde",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Alsgarde",
+    "function": "23",
+    "lat": 56.083333,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "ANH",
+    "label": "Anholt",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANB",
+    "label": "Ans by",
+    "function": "3"
+  },
+  {
+    "locationCode": "ANS",
+    "label": "Ansager",
+    "function": "3"
+  },
+  {
+    "locationCode": "ADN",
+    "label": "Arden",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARO",
+    "label": "Åro",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Aro",
+    "function": "1",
+    "lat": 55.266667,
+    "lng": 9.75
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Årosund",
+    "labelWithDiacritics": "Arosund",
+    "function": "1",
+    "lat": 55.25,
+    "lng": 9.716667
+  },
+  {
+    "locationCode": "ARR",
+    "label": "Arre",
+    "function": "6",
+    "lat": 55.566667,
+    "lng": 8.666667
+  },
+  {
+    "locationCode": "ARL",
+    "label": "Årslev",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Arslev",
+    "function": "23",
+    "lat": 55.3,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asaa",
+    "function": "13",
+    "lat": 57.15,
+    "lng": 10.416667
+  },
+  {
+    "locationCode": "ABY",
+    "label": "Askeby",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.516667,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Askø",
+    "labelWithDiacritics": "Asko",
+    "function": "1"
+  },
+  {
+    "locationCode": "ASS",
+    "label": "Asnæs",
+    "labelWithDiacritics": "Asnas",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASV",
+    "label": "Asnæsværkets Havn",
+    "labelWithDiacritics": "Asnasvarkets Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "ASE",
+    "label": "Asperup",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.483333,
+    "lng": 9.916667
+  },
+  {
+    "locationCode": "ASN",
+    "label": "Assens",
+    "function": "12"
+  },
+  {
+    "locationCode": "AUB",
+    "label": "Augustenborg",
+    "function": "1"
+  },
+  {
+    "locationCode": "ABE",
+    "label": "Auning",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.433333,
+    "lng": 10.383333
+  },
+  {
+    "locationCode": "VRE",
+    "label": "Avedore",
+    "function": "1"
+  },
+  {
+    "locationCode": "AVE",
+    "label": "Avedøreværkets Havn",
+    "labelWithDiacritics": "Avedorevarkets Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "AVK",
+    "label": "Avernak By",
+    "function": "1",
+    "lat": 55.033333,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "AVN",
+    "label": "Avernakke Havn",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.3,
+    "lng": 10.783333
+  },
+  {
+    "locationCode": "AVL",
+    "label": "Avlum",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 8.783333
+  },
+  {
+    "locationCode": "BGO",
+    "label": "Baagø",
+    "labelWithDiacritics": "Baago",
+    "function": "1"
+  },
+  {
+    "locationCode": "BKK",
+    "label": "Bække",
+    "labelWithDiacritics": "Bakke",
+    "function": "3",
+    "lat": 55.566667,
+    "lng": 9.15
+  },
+  {
+    "locationCode": "BKM",
+    "label": "Bækmarksbro",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Bakmarksbro",
+    "function": "23",
+    "lat": 56.416667,
+    "lng": 8.316667
+  },
+  {
+    "locationCode": "BLU",
+    "label": "Baelum",
+    "function": "136",
+    "lat": 56.816667,
+    "lng": 10.1
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagenkop",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGS",
+    "label": "Bagsværd",
+    "labelWithDiacritics": "Bagsvard",
+    "function": "0"
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Balle",
+    "function": "3",
+    "lat": 56.3,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "BLB",
+    "label": "Ballebro",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Ballen",
+    "function": "1",
+    "lat": 55.816667,
+    "lng": 10.65
+  },
+  {
+    "locationCode": "BLP",
+    "label": "Ballerup",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Balling",
+    "function": "3"
+  },
+  {
+    "locationCode": "BDX",
+    "label": "Bandholm",
+    "function": "1"
+  },
+  {
+    "locationCode": "AAH",
+    "label": "Barrit",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.716667,
+    "lng": 9.9
+  },
+  {
+    "locationCode": "BED",
+    "label": "Beder",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "BES",
+    "label": "Bedsted",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 56.816667,
+    "lng": 8.416667
+  },
+  {
+    "locationCode": "BDD",
+    "label": "Bedsted",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.05,
+    "lng": 9.1
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bellinge",
+    "function": "0"
+  },
+  {
+    "locationCode": "BEV",
+    "label": "Bevtoft",
+    "function": "3",
+    "lat": 55.2,
+    "lng": 9.216667
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Billum",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 8.333333
+  },
+  {
+    "locationCode": "BLL",
+    "label": "Billund",
+    "function": "4"
+  },
+  {
+    "locationCode": "BID",
+    "label": "Bindslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Birkerod",
+    "function": "3",
+    "lat": 55.833333,
+    "lng": 12.433333
+  },
+  {
+    "locationCode": "BKT",
+    "label": "Birket",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 54.9,
+    "lng": 11.35
+  },
+  {
+    "locationCode": "BRK",
+    "label": "Birkum",
+    "function": "36",
+    "lat": 55.333333,
+    "lng": 10.516667
+  },
+  {
+    "locationCode": "AAG",
+    "label": "Bjaeverskov",
+    "subdivisionCode": "85",
+    "function": "6",
+    "lat": 55.45,
+    "lng": 12.033333
+  },
+  {
+    "locationCode": "BJB",
+    "label": "Bjerringbro",
+    "function": "3"
+  },
+  {
+    "locationCode": "BJR",
+    "label": "Bjert",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.416667,
+    "lng": 9.6
+  },
+  {
+    "locationCode": "BJE",
+    "label": "Bjert Strand",
+    "function": "3",
+    "lat": 55.433333,
+    "lng": 9.6
+  },
+  {
+    "locationCode": "BLN",
+    "label": "Blans",
+    "function": "0"
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Blavand",
+    "function": "16",
+    "lat": 55.55,
+    "lng": 8.133333
+  },
+  {
+    "locationCode": "BKH",
+    "label": "Blokhus",
+    "function": "3",
+    "lat": 57.25,
+    "lng": 9.583333
+  },
+  {
+    "locationCode": "BML",
+    "label": "Blommenslyst",
+    "function": "3",
+    "lat": 55.383333,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "BOE",
+    "label": "Boeslunde",
+    "function": "3",
+    "lat": 55.3,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "BGZ",
+    "label": "Bogense",
+    "function": "13",
+    "lat": 55.566667,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogo By",
+    "function": "1",
+    "lat": 54.933333,
+    "lng": 12.05
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Bøjden",
+    "labelWithDiacritics": "Bojden",
+    "function": "13",
+    "lat": 55.1,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolderslev",
+    "function": "3",
+    "lat": 54.983333,
+    "lng": 9.3
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Bording",
+    "function": "3"
+  },
+  {
+    "locationCode": "BKP",
+    "label": "Borkop",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 9.633333
+  },
+  {
+    "locationCode": "BHL",
+    "label": "Bornholm",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.133333,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Borre",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 8.3
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Borup",
+    "function": "3"
+  },
+  {
+    "locationCode": "BTP",
+    "label": "Bostrup",
+    "function": "0"
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Bøvlingbjerg",
+    "labelWithDiacritics": "Bovlingbjerg",
+    "function": "13",
+    "lat": 56.433333,
+    "lng": 8.2
+  },
+  {
+    "locationCode": "BRB",
+    "label": "Brabrand",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSU",
+    "label": "Braedstrup",
+    "function": "3",
+    "lat": 55.966667,
+    "lng": 9.6
+  },
+  {
+    "locationCode": "BMG",
+    "label": "Bramming",
+    "function": "23"
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Brande",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRV",
+    "label": "Brandelev",
+    "function": "3",
+    "lat": 55.216667,
+    "lng": 11.883333
+  },
+  {
+    "locationCode": "BRH",
+    "label": "Branden Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRL",
+    "label": "Branderslev",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": 11.133333
+  },
+  {
+    "locationCode": "BDE",
+    "label": "Branderup",
+    "function": "3",
+    "lat": 55.116667,
+    "lng": 9.066667
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bredebro",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Bredsten",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 9.366667
+  },
+  {
+    "locationCode": "BGR",
+    "label": "Brejning",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.666667,
+    "lng": 9.683333
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Brenderup, Ejby",
+    "function": "3",
+    "lat": 55.466667,
+    "lng": 9.966667
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Broager",
+    "function": "3",
+    "lat": 54.883333,
+    "lng": 9.683333
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Broby Overdrev",
+    "function": "36",
+    "lat": 55.4,
+    "lng": 11.6
+  },
+  {
+    "locationCode": "BBY",
+    "label": "Brobyvark",
+    "subdivisionCode": "83",
+    "function": "23",
+    "lat": 55.233333,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "BUP",
+    "label": "Broderup",
+    "function": "3",
+    "lat": 54.883333,
+    "lng": 9.25
+  },
+  {
+    "locationCode": "BDY",
+    "label": "Brody",
+    "function": "0"
+  },
+  {
+    "locationCode": "BRY",
+    "label": "Brøndby",
+    "labelWithDiacritics": "Brondby",
+    "function": "0"
+  },
+  {
+    "locationCode": "BST",
+    "label": "Brondby Strand",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 12.35
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Brønderslev",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Bronderslev",
+    "function": "23",
+    "lat": 57.266667,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Bronshoj",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Brørup",
+    "labelWithDiacritics": "Brorup",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Brovst",
+    "function": "3"
+  },
+  {
+    "locationCode": "YRP",
+    "label": "Bryrup",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.016667,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Burso",
+    "subdivisionCode": "85",
+    "function": "6",
+    "lat": 54.733333,
+    "lng": 11.5
+  },
+  {
+    "locationCode": "BYL",
+    "label": "Bylderup",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Cementfabriken Dania",
+    "function": "1"
+  },
+  {
+    "locationCode": "KON",
+    "label": "Cementfabrikken Kongsdal Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "OOT",
+    "label": "Charlottenlund",
+    "function": "1"
+  },
+  {
+    "locationCode": "CSF",
+    "label": "Christiansfeld",
+    "function": "3",
+    "lat": 52.35,
+    "lng": 9.483333
+  },
+  {
+    "locationCode": "CSO",
+    "label": "Christiansø Havn",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Christianso Havn",
+    "function": "1",
+    "lat": 55.316667,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "DLB",
+    "label": "Dalby",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Dalmose",
+    "subdivisionCode": "85",
+    "function": "23",
+    "lat": 55.283333,
+    "lng": 11.416667
+  },
+  {
+    "locationCode": "DN6",
+    "label": "Dannemare",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.75,
+    "lng": 11.2
+  },
+  {
+    "locationCode": "DAS",
+    "label": "Dansk Salts Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAU",
+    "label": "Daugard",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 9.716667
+  },
+  {
+    "locationCode": "DIA",
+    "label": "Dianalund",
+    "subdivisionCode": "85",
+    "function": "23",
+    "lat": 55.516667,
+    "lng": 11.483333
+  },
+  {
+    "locationCode": "DKD",
+    "label": "Dokkedal",
+    "function": "3"
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Dragør",
+    "labelWithDiacritics": "Dragor",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRO",
+    "label": "Dronningborg",
+    "function": "3",
+    "lat": 56.483333,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "DLD",
+    "label": "Dronninglund",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.15,
+    "lng": 10.283333
+  },
+  {
+    "locationCode": "DRN",
+    "label": "Dronningmolle",
+    "function": "3",
+    "lat": 56.1,
+    "lng": 12.4
+  },
+  {
+    "locationCode": "DRS",
+    "label": "Drosby",
+    "function": "0"
+  },
+  {
+    "locationCode": "DRP",
+    "label": "Durup",
+    "function": "3"
+  },
+  {
+    "locationCode": "DYB",
+    "label": "Dybvad",
+    "function": "3",
+    "lat": 57.283333,
+    "lng": 10.366667
+  },
+  {
+    "locationCode": "DYS",
+    "label": "Dyssegard",
+    "function": "16",
+    "lat": 55.733333,
+    "lng": 12.533333
+  },
+  {
+    "locationCode": "AAJ",
+    "label": "Ebberup",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.233333,
+    "lng": 9.966667
+  },
+  {
+    "locationCode": "EBT",
+    "label": "Ebeltoft",
+    "function": "1"
+  },
+  {
+    "locationCode": "ENH",
+    "label": "Ebenhausen",
+    "function": "3"
+  },
+  {
+    "locationCode": "EGA",
+    "label": "Egå",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Ega",
+    "function": "236",
+    "lat": 56.2,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "EGN",
+    "label": "Egense",
+    "function": "1"
+  },
+  {
+    "locationCode": "END",
+    "label": "Egernsund",
+    "function": "13"
+  },
+  {
+    "locationCode": "EGV",
+    "label": "Egtved",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 9.3
+  },
+  {
+    "locationCode": "EJY",
+    "label": "Ejby",
+    "function": "3"
+  },
+  {
+    "locationCode": "EJS",
+    "label": "Ejstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "ETH",
+    "label": "Ejstrupholm",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.983333,
+    "lng": 9.283333
+  },
+  {
+    "locationCode": "EDL",
+    "label": "Endelave",
+    "function": "1"
+  },
+  {
+    "locationCode": "ENV",
+    "label": "Engesvang",
+    "function": "3"
+  },
+  {
+    "locationCode": "ENS",
+    "label": "Enstedværket Havn",
+    "labelWithDiacritics": "Enstedvarket Havn",
+    "function": "1",
+    "lat": 55.016667,
+    "lng": 9.433333
+  },
+  {
+    "locationCode": "ERR",
+    "label": "Errindlev",
+    "function": "3",
+    "lat": 54.666667,
+    "lng": 11.5
+  },
+  {
+    "locationCode": "ERS",
+    "label": "Erslev",
+    "function": "3",
+    "lat": 56.366667,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "EBJ",
+    "label": "Esbjerg",
+    "function": "1234"
+  },
+  {
+    "locationCode": "ESK",
+    "label": "Eskebjerg",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 11.316667
+  },
+  {
+    "locationCode": "EK4",
+    "label": "Eskilstrup",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.85,
+    "lng": 11.633333
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Espergærde",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Espergarde",
+    "function": "3",
+    "lat": 55.983333,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "FAA",
+    "label": "Faaborg",
+    "function": "1"
+  },
+  {
+    "locationCode": "FVJ",
+    "label": "Faarevejle",
+    "function": "3"
+  },
+  {
+    "locationCode": "FUP",
+    "label": "Faarup",
+    "function": "3"
+  },
+  {
+    "locationCode": "FVG",
+    "label": "Faarvang",
+    "function": "3"
+  },
+  {
+    "locationCode": "AAM",
+    "label": "Fakse",
+    "subdivisionCode": "85",
+    "function": "6",
+    "lat": 55.25,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "FAK",
+    "label": "Fakse Ladeplads Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "AAK",
+    "label": "Fanoe",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.433333,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "FSO",
+    "label": "Farsø",
+    "labelWithDiacritics": "Farso",
+    "function": "3"
+  },
+  {
+    "locationCode": "FRM",
+    "label": "Farum",
+    "function": "3"
+  },
+  {
+    "locationCode": "FGS",
+    "label": "Feggesund",
+    "function": "1"
+  },
+  {
+    "locationCode": "FEJ",
+    "label": "Fejø",
+    "labelWithDiacritics": "Fejo",
+    "function": "1"
+  },
+  {
+    "locationCode": "FMO",
+    "label": "Femø",
+    "labelWithDiacritics": "Femo",
+    "function": "1"
+  },
+  {
+    "locationCode": "FMK",
+    "label": "Fensmark",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.283333,
+    "lng": 11.816667
+  },
+  {
+    "locationCode": "FER",
+    "label": "Ferritslev",
+    "function": "13",
+    "lat": 55.3,
+    "lng": 10.583333
+  },
+  {
+    "locationCode": "FJE",
+    "label": "Fjenneslev",
+    "function": "3",
+    "lat": 55.433333,
+    "lng": 11.666667
+  },
+  {
+    "locationCode": "FJV",
+    "label": "Fjerritslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "FMM",
+    "label": "Flemming",
+    "function": "3",
+    "lat": 55.866667,
+    "lng": 9.666667
+  },
+  {
+    "locationCode": "FOL",
+    "label": "Follenslev",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 11.366667
+  },
+  {
+    "locationCode": "FNS",
+    "label": "Fornæs",
+    "labelWithDiacritics": "Fornas",
+    "function": "3"
+  },
+  {
+    "locationCode": "FOV",
+    "label": "Fovling",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 9.633333
+  },
+  {
+    "locationCode": "FRK",
+    "label": "Føvling",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Fovling",
+    "function": "13",
+    "lat": 55.45,
+    "lng": 8.95
+  },
+  {
+    "locationCode": "FRA",
+    "label": "Fraugde",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "FRE",
+    "label": "Fredensborg",
+    "function": "23"
+  },
+  {
+    "locationCode": "FRC",
+    "label": "Fredericia",
+    "function": "125"
+  },
+  {
+    "locationCode": "FBG",
+    "label": "Frederiksberg",
+    "function": "3"
+  },
+  {
+    "locationCode": "FDH",
+    "label": "Frederikshavn",
+    "function": "12"
+  },
+  {
+    "locationCode": "FDS",
+    "label": "Frederikssund",
+    "subdivisionCode": "84",
+    "function": "123",
+    "lat": 55.833333,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "FDV",
+    "label": "Frederiksværk",
+    "labelWithDiacritics": "Frederiksvark",
+    "function": "12"
+  },
+  {
+    "locationCode": "FRO",
+    "label": "Frorup",
+    "function": "3",
+    "lat": 55.366667,
+    "lng": 9.4
+  },
+  {
+    "locationCode": "FRS",
+    "label": "Frostrup",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 8.416667
+  },
+  {
+    "locationCode": "FUG",
+    "label": "Fuglebjerg",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.3,
+    "lng": 11.533333
+  },
+  {
+    "locationCode": "FUH",
+    "label": "Fur",
+    "function": "1"
+  },
+  {
+    "locationCode": "FYH",
+    "label": "Fynshav",
+    "function": "13",
+    "lat": 54.966667,
+    "lng": 9.966667
+  },
+  {
+    "locationCode": "GBJ",
+    "label": "Gadbjerg",
+    "function": "23",
+    "lat": 55.766667,
+    "lng": 9.316667
+  },
+  {
+    "locationCode": "DGP",
+    "label": "Gadstrup",
+    "function": "3",
+    "lat": 55.566667,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "GLT",
+    "label": "Galten",
+    "function": "3"
+  },
+  {
+    "locationCode": "GBY",
+    "label": "Gamby",
+    "function": "0"
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gandrup",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "GLO",
+    "label": "Ganløse",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Ganlose",
+    "function": "3",
+    "lat": 55.783333,
+    "lng": 12.266667
+  },
+  {
+    "locationCode": "GED",
+    "label": "Gedser",
+    "function": "12"
+  },
+  {
+    "locationCode": "GDS",
+    "label": "Gedsted",
+    "function": "3"
+  },
+  {
+    "locationCode": "GDV",
+    "label": "Gedved",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "GLD",
+    "label": "Gelsted",
+    "function": "3",
+    "lat": 55.4,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "GFE",
+    "label": "Gentofte",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.75,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "GES",
+    "label": "Gesten",
+    "function": "3",
+    "lat": 55.516667,
+    "lng": 9.2
+  },
+  {
+    "locationCode": "GLE",
+    "label": "Gilleleje",
+    "function": "3"
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gislev",
+    "function": "3",
+    "lat": 55.216667,
+    "lng": 10.616667
+  },
+  {
+    "locationCode": "GIS",
+    "label": "Gislinge",
+    "function": "23",
+    "lat": 55.733333,
+    "lng": 11.533333
+  },
+  {
+    "locationCode": "GSP",
+    "label": "Gistrup",
+    "subdivisionCode": "81",
+    "function": "36",
+    "lat": 56.983333,
+    "lng": 9.983333
+  },
+  {
+    "locationCode": "GIV",
+    "label": "Give",
+    "function": "3"
+  },
+  {
+    "locationCode": "GJR",
+    "label": "Gjerlev",
+    "function": "3"
+  },
+  {
+    "locationCode": "GJN",
+    "label": "Gjern",
+    "function": "3"
+  },
+  {
+    "locationCode": "GJS",
+    "label": "Gjessing",
+    "function": "0"
+  },
+  {
+    "locationCode": "GLX",
+    "label": "Gladsaxe",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "GLM",
+    "label": "Glamsbjerg",
+    "function": "3"
+  },
+  {
+    "locationCode": "GTS",
+    "label": "Glatved Strand",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 56.3,
+    "lng": 105.316667
+  },
+  {
+    "locationCode": "GLJ",
+    "label": "Glejbjerg",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 8.833333
+  },
+  {
+    "locationCode": "GLB",
+    "label": "Glejbjerg Stationsby",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.566667,
+    "lng": 8.833333
+  },
+  {
+    "locationCode": "AAN",
+    "label": "Glesborg",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.483333,
+    "lng": 10.733333
+  },
+  {
+    "locationCode": "GLS",
+    "label": "Glostrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "GLU",
+    "label": "Glumso",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 11.7
+  },
+  {
+    "locationCode": "GLY",
+    "label": "Glyngøre",
+    "labelWithDiacritics": "Glyngore",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Gording",
+    "function": "3",
+    "lat": 55.483333,
+    "lng": 8.8
+  },
+  {
+    "locationCode": "GLV",
+    "label": "Gørlev",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Gorlev",
+    "function": "3",
+    "lat": 55.533333,
+    "lng": 11.216667
+  },
+  {
+    "locationCode": "GRL",
+    "label": "Gørløse",
+    "labelWithDiacritics": "Gorlose",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 12.2
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Græsted",
+    "labelWithDiacritics": "Grasted",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 12.283333
+  },
+  {
+    "locationCode": "GVS",
+    "label": "Grævinge",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Gravinge",
+    "function": "23",
+    "lat": 55.8,
+    "lng": 11.55
+  },
+  {
+    "locationCode": "GRM",
+    "label": "Gram",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.283333,
+    "lng": 9.333333
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Gråsten",
+    "labelWithDiacritics": "Grasten",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Gredstedbro",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Grenaa",
+    "function": "123"
+  },
+  {
+    "locationCode": "GRV",
+    "label": "Greve",
+    "function": "3",
+    "lat": 55.583333,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Grimstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRN",
+    "label": "Grindsted",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRO",
+    "label": "Gronhoj",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.316667,
+    "lng": 9.666667
+  },
+  {
+    "locationCode": "GNN",
+    "label": "Grønninghoved",
+    "labelWithDiacritics": "Gronninghoved",
+    "function": "3",
+    "lat": 55.233333,
+    "lng": 9.933333
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Gudbjerg",
+    "function": "3"
+  },
+  {
+    "locationCode": "GDM",
+    "label": "Gudhjem",
+    "function": "13",
+    "lat": 55.216667,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gudme",
+    "function": "3",
+    "lat": 55.15,
+    "lng": 10.716667
+  },
+  {
+    "locationCode": "GDB",
+    "label": "Guldborg",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": 11.75
+  },
+  {
+    "locationCode": "GFH",
+    "label": "Gulfhavn",
+    "function": "1"
+  },
+  {
+    "locationCode": "HBY",
+    "label": "Haarby",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Haderslev",
+    "function": "1"
+  },
+  {
+    "locationCode": "HDP",
+    "label": "Haderup",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.383333,
+    "lng": 8.983333
+  },
+  {
+    "locationCode": "HDS",
+    "label": "Hadsten",
+    "function": "3"
+  },
+  {
+    "locationCode": "HSU",
+    "label": "Hadsund",
+    "subdivisionCode": "81",
+    "function": "13",
+    "lat": 56.716667,
+    "lng": 10.1
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hals",
+    "function": "1"
+  },
+  {
+    "locationCode": "HKV",
+    "label": "Halsskov",
+    "function": "3"
+  },
+  {
+    "locationCode": "HME",
+    "label": "Hammel",
+    "function": "3"
+  },
+  {
+    "locationCode": "HHV",
+    "label": "Hammerhavn",
+    "function": "1",
+    "lat": 55.283333,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "HPN",
+    "label": "Hampen",
+    "function": "6",
+    "lat": 56.016667,
+    "lng": 9.35
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hanstholm",
+    "function": "13"
+  },
+  {
+    "locationCode": "HBR",
+    "label": "Harboør",
+    "labelWithDiacritics": "Harboor",
+    "function": "23",
+    "lat": 56.616667,
+    "lng": 8.183333
+  },
+  {
+    "locationCode": "HDH",
+    "label": "Hardeshøj",
+    "labelWithDiacritics": "Hardeshoj",
+    "function": "1"
+  },
+  {
+    "locationCode": "HLV",
+    "label": "Harlev",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.133333,
+    "lng": 9.983333
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Hårlev",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Harlev",
+    "function": "23",
+    "lat": 55.333333,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Harndrup",
+    "function": "3",
+    "lat": 55.466667,
+    "lng": 10.033333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harpelunde",
+    "function": "3",
+    "lat": 54.883333,
+    "lng": 11.1
+  },
+  {
+    "locationCode": "HSL",
+    "label": "Hasle",
+    "function": "1"
+  },
+  {
+    "locationCode": "HSV",
+    "label": "Haslev",
+    "function": "23"
+  },
+  {
+    "locationCode": "HSS",
+    "label": "Hasselager",
+    "function": "0"
+  },
+  {
+    "locationCode": "HTT",
+    "label": "Hatting",
+    "function": "2"
+  },
+  {
+    "locationCode": "HAP",
+    "label": "Havdrup",
+    "subdivisionCode": "85",
+    "function": "2",
+    "lat": 55.533333,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "HAV",
+    "label": "Havndal",
+    "function": "3",
+    "lat": 56.65,
+    "lng": 10.2
+  },
+  {
+    "locationCode": "HNB",
+    "label": "Havneby",
+    "function": "1"
+  },
+  {
+    "locationCode": "HVG",
+    "label": "Havnegade",
+    "function": "0"
+  },
+  {
+    "locationCode": "HVN",
+    "label": "Havnsø",
+    "labelWithDiacritics": "Havnso",
+    "function": "1"
+  },
+  {
+    "locationCode": "HHS",
+    "label": "Hedehusene",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 121.333333
+  },
+  {
+    "locationCode": "HED",
+    "label": "Hedensted",
+    "function": "3"
+  },
+  {
+    "locationCode": "HEJ",
+    "label": "Hejls",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.383333,
+    "lng": 9.6
+  },
+  {
+    "locationCode": "HJN",
+    "label": "Hejnsvig",
+    "function": "3",
+    "lat": 55.683333,
+    "lng": 8.983333
+  },
+  {
+    "locationCode": "HVT",
+    "label": "Hellebæk",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Hellebak",
+    "function": "13",
+    "lat": 56.066667,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "HRP",
+    "label": "Hellerup",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLE",
+    "label": "Hellested",
+    "function": "3"
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helsinge",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLS",
+    "label": "Helsingør",
+    "labelWithDiacritics": "Helsingor",
+    "function": "12"
+  },
+  {
+    "locationCode": "HEM",
+    "label": "Hemmet",
+    "function": "3",
+    "lat": 55.85,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "HEN",
+    "label": "Henne",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 8.25
+  },
+  {
+    "locationCode": "HFE",
+    "label": "Herfølge",
+    "labelWithDiacritics": "Herfolge",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRV",
+    "label": "Herlev",
+    "function": "3"
+  },
+  {
+    "locationCode": "HEU",
+    "label": "Herlufmagle",
+    "function": "3",
+    "lat": 55.316667,
+    "lng": 11.766667
+  },
+  {
+    "locationCode": "HER",
+    "label": "Herning",
+    "function": "1"
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Herskind",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLG",
+    "label": "Hesselager",
+    "function": "3",
+    "lat": 55.166667,
+    "lng": 10.75
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hillerod",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "HNN",
+    "label": "Hinnerup",
+    "function": "2"
+  },
+  {
+    "locationCode": "HIR",
+    "label": "Hirtshals",
+    "function": "1"
+  },
+  {
+    "locationCode": "HJA",
+    "label": "Hjallerup",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "HJM",
+    "label": "Hjerm",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.433333,
+    "lng": 8.633333
+  },
+  {
+    "locationCode": "HJT",
+    "label": "Hjerting",
+    "function": "13",
+    "lat": 55.516667,
+    "lng": 8.366667
+  },
+  {
+    "locationCode": "HJG",
+    "label": "Hjørring",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Hjorring",
+    "function": "3",
+    "lat": 57.45,
+    "lng": 9.983333
+  },
+  {
+    "locationCode": "JOK",
+    "label": "Hjortshøj",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Hjortshoj",
+    "function": "3",
+    "lat": 56.233333,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "HBO",
+    "label": "Hobro",
+    "function": "1"
+  },
+  {
+    "locationCode": "HGL",
+    "label": "Hogelund",
+    "function": "3",
+    "lat": 55.2,
+    "lng": 9.35
+  },
+  {
+    "locationCode": "HJB",
+    "label": "Højbjerg",
+    "labelWithDiacritics": "Hojbjerg",
+    "function": "0"
+  },
+  {
+    "locationCode": "HJ3",
+    "label": "Højby",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Hojby",
+    "function": "13",
+    "lat": 55.333333,
+    "lng": 10.45
+  },
+  {
+    "locationCode": "HTP",
+    "label": "Høje Tåstrup",
+    "labelWithDiacritics": "Hoje Tastrup",
+    "function": "23",
+    "lat": 55.65,
+    "lng": 12.283333
+  },
+  {
+    "locationCode": "HJE",
+    "label": "Højer",
+    "labelWithDiacritics": "Hojer",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOJ",
+    "label": "Hojslev",
+    "function": "3",
+    "lat": 56.583333,
+    "lng": 9.15
+  },
+  {
+    "locationCode": "HBK",
+    "label": "Holbæk",
+    "labelWithDiacritics": "Holbak",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Holeby",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLM",
+    "label": "Holmegaard",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.266667,
+    "lng": 11.833333
+  },
+  {
+    "locationCode": "HOM",
+    "label": "Holmegård",
+    "labelWithDiacritics": "Holmegard",
+    "function": "3",
+    "lat": 55.25,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Holme-Olstrup",
+    "subdivisionCode": "85",
+    "function": "2",
+    "lat": 55.25,
+    "lng": 11.833333
+  },
+  {
+    "locationCode": "HSB",
+    "label": "Holstebro",
+    "function": "1"
+  },
+  {
+    "locationCode": "HST",
+    "label": "Holsted",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOE",
+    "label": "Holte",
+    "function": "3"
+  },
+  {
+    "locationCode": "HNG",
+    "label": "Høng",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Hong",
+    "function": "3",
+    "lat": 55.516667,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "HOB",
+    "label": "Horbelev",
+    "function": "3",
+    "lat": 54.816667,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "HON",
+    "label": "Hornbæk",
+    "labelWithDiacritics": "Hornbak",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Hørning",
+    "labelWithDiacritics": "Horning",
+    "function": "3"
+  },
+  {
+    "locationCode": "HNS",
+    "label": "Hornslet",
+    "function": "3",
+    "lat": 56.316667,
+    "lng": 10.333333
+  },
+  {
+    "locationCode": "HSY",
+    "label": "Hornsyld",
+    "function": "3",
+    "lat": 55.75,
+    "lng": 9.866667
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Horsens",
+    "function": "1"
+  },
+  {
+    "locationCode": "HHM",
+    "label": "Hørsholm",
+    "labelWithDiacritics": "Horsholm",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Horslunde",
+    "function": "3",
+    "lat": 54.9,
+    "lng": 11.233333
+  },
+  {
+    "locationCode": "HRU",
+    "label": "Hørup",
+    "labelWithDiacritics": "Horup",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRE",
+    "label": "Hørve",
+    "labelWithDiacritics": "Horve",
+    "function": "3",
+    "lat": 55.75,
+    "lng": 11.466667
+  },
+  {
+    "locationCode": "HOH",
+    "label": "Hou Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "HBG",
+    "label": "Houborg",
+    "function": "0"
+  },
+  {
+    "locationCode": "HWO",
+    "label": "Hov",
+    "function": "1",
+    "lat": 55.916667,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "HVB",
+    "label": "Hovborg",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 8.95
+  },
+  {
+    "locationCode": "HSD",
+    "label": "Høve Strand",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Hove Strand",
+    "function": "3",
+    "lat": 55.833333,
+    "lng": 11.483333
+  },
+  {
+    "locationCode": "HOV",
+    "label": "Hovedgård",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Hovedgard",
+    "function": "23",
+    "lat": 55.95,
+    "lng": 9.966667
+  },
+  {
+    "locationCode": "HBL",
+    "label": "Humble",
+    "function": "3",
+    "lat": 54.833333,
+    "lng": 10.7
+  },
+  {
+    "locationCode": "HBA",
+    "label": "Humlebæk",
+    "labelWithDiacritics": "Humlebak",
+    "function": "123",
+    "lat": 55.966667,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Hundested",
+    "function": "123"
+  },
+  {
+    "locationCode": "HND",
+    "label": "Hundslund",
+    "function": "3",
+    "lat": 55.916667,
+    "lng": 10.066667
+  },
+  {
+    "locationCode": "HSE",
+    "label": "Hunseby",
+    "function": "3"
+  },
+  {
+    "locationCode": "HUR",
+    "label": "Hurup",
+    "function": "3"
+  },
+  {
+    "locationCode": "AAO",
+    "label": "Hurup Thy",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.75,
+    "lng": 8.416667
+  },
+  {
+    "locationCode": "HVA",
+    "label": "Hvalpsund",
+    "function": "1"
+  },
+  {
+    "locationCode": "HVL",
+    "label": "Hvalsø",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Hvalso",
+    "function": "36",
+    "lat": 55.6,
+    "lng": 11.85
+  },
+  {
+    "locationCode": "HVS",
+    "label": "Hvide Sande",
+    "function": "13",
+    "lat": 55.983333,
+    "lng": 8.133333
+  },
+  {
+    "locationCode": "HVV",
+    "label": "Hvidovre",
+    "function": "3"
+  },
+  {
+    "locationCode": "HVI",
+    "label": "Hvims",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.483333,
+    "lng": 8.666667
+  },
+  {
+    "locationCode": "HYL",
+    "label": "Hyllinge",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.266667,
+    "lng": 11.616667
+  },
+  {
+    "locationCode": "IDE",
+    "label": "Idestrup",
+    "function": "3",
+    "lat": 54.733333,
+    "lng": 11.966667
+  },
+  {
+    "locationCode": "IKA",
+    "label": "Ikast",
+    "function": "23"
+  },
+  {
+    "locationCode": "ISJ",
+    "label": "Ishøj",
+    "labelWithDiacritics": "Ishoj",
+    "function": "0"
+  },
+  {
+    "locationCode": "JAE",
+    "label": "Jægersborg",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Jagersborg",
+    "function": "3",
+    "lat": 55.766667,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "JGP",
+    "label": "Jægerspris",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Jagerspris",
+    "function": "3",
+    "lat": 55.85,
+    "lng": 11.983333
+  },
+  {
+    "locationCode": "JAN",
+    "label": "Janderup",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "JEL",
+    "label": "Jelling",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.75,
+    "lng": 9.433333
+  },
+  {
+    "locationCode": "JSD",
+    "label": "Jersie Strand",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.516667,
+    "lng": 12.216667
+  },
+  {
+    "locationCode": "JSL",
+    "label": "Jerslev",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.283333,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "JER",
+    "label": "Jerslev",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 11.233333
+  },
+  {
+    "locationCode": "JUP",
+    "label": "Jerup",
+    "function": "3",
+    "lat": 57.533333,
+    "lng": 10.433333
+  },
+  {
+    "locationCode": "JRD",
+    "label": "Jordløse",
+    "labelWithDiacritics": "Jordlose",
+    "function": "3"
+  },
+  {
+    "locationCode": "JOR",
+    "label": "Jordrup",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 9.316667
+  },
+  {
+    "locationCode": "JUE",
+    "label": "Juelsminde",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 55.7,
+    "lng": 10.016667
+  },
+  {
+    "locationCode": "JRP",
+    "label": "Jyderup",
+    "function": "23"
+  },
+  {
+    "locationCode": "JYL",
+    "label": "Jyllinge",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.75,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "JYS",
+    "label": "Jystrup",
+    "function": "3",
+    "lat": 55.516667,
+    "lng": 11.883333
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Kagerup",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 56,
+    "lng": 12.266667
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalundborg",
+    "function": "12"
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Kalvehave",
+    "function": "3",
+    "lat": 55,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Karby",
+    "function": "3",
+    "lat": 56.75,
+    "lng": 8.566667
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Karise",
+    "function": "3",
+    "lat": 55.3,
+    "lng": 12.216667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karlslunde",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.566667,
+    "lng": 12.216667
+  },
+  {
+    "locationCode": "KBK",
+    "label": "Karrebæksminde",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Karrebaksminde",
+    "function": "13",
+    "lat": 55.183333,
+    "lng": 11.666667
+  },
+  {
+    "locationCode": "KRP",
+    "label": "Karup",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Kastrup",
+    "function": "1"
+  },
+  {
+    "locationCode": "KTD",
+    "label": "Kerteminde",
+    "function": "1"
+  },
+  {
+    "locationCode": "KT4",
+    "label": "Kettinge",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.7,
+    "lng": 11.75
+  },
+  {
+    "locationCode": "KIB",
+    "label": "Kibæk",
+    "labelWithDiacritics": "Kibak",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABJ",
+    "label": "Kirke Hyllinge",
+    "subdivisionCode": "85",
+    "function": "6",
+    "lat": 55.7,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "KSY",
+    "label": "Kirke Saby",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 11.866667
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Kirkeby",
+    "function": "3"
+  },
+  {
+    "locationCode": "KEP",
+    "label": "Kirke-Eskilstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "KJE",
+    "label": "Kjellerup",
+    "function": "3"
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klampenborg",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.766667,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Klarup",
+    "function": "3",
+    "lat": 57.016667,
+    "lng": 10.05
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Klemensker",
+    "function": "3",
+    "lat": 55.166667,
+    "lng": 14.816667
+  },
+  {
+    "locationCode": "KLP",
+    "label": "Kleppen",
+    "subdivisionCode": "82",
+    "function": "13",
+    "lat": 56.533333,
+    "lng": 8.583333
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Klintebjerg",
+    "subdivisionCode": "83",
+    "function": "13",
+    "lat": 55.483333,
+    "lng": 10.45
+  },
+  {
+    "locationCode": "KLH",
+    "label": "Klintholm Havn",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 57.95,
+    "lng": 12.466667
+  },
+  {
+    "locationCode": "KPV",
+    "label": "Kliplev",
+    "function": "3"
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Klippinge",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 12.333333
+  },
+  {
+    "locationCode": "KVB",
+    "label": "Klovborg",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNB",
+    "label": "Knebel",
+    "function": "3"
+  },
+  {
+    "locationCode": "KHV",
+    "label": "Knudshoved",
+    "function": "1"
+  },
+  {
+    "locationCode": "CPH",
+    "label": "København",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Kobenhavn",
+    "function": "12345",
+    "lat": 55.666667,
+    "lng": 12.583333
+  },
+  {
+    "locationCode": "KOG",
+    "label": "Køge",
+    "labelWithDiacritics": "Koge",
+    "function": "12"
+  },
+  {
+    "locationCode": "KKK",
+    "label": "Kokkedal",
+    "function": "3",
+    "lat": 55.9,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kolby Kås",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Kolby Kas",
+    "function": "1",
+    "lat": 55.8,
+    "lng": 10.55
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolding",
+    "function": "123"
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Kolind",
+    "function": "23",
+    "lat": 56.366667,
+    "lng": 10.583333
+  },
+  {
+    "locationCode": "KDM",
+    "label": "Kollund Mole",
+    "function": "13",
+    "lat": 54.333333,
+    "lng": 9.45
+  },
+  {
+    "locationCode": "KOY",
+    "label": "Kongens Lyngby",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.766667,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Kongerslev",
+    "function": "3",
+    "lat": 56.883333,
+    "lng": 10.116667
+  },
+  {
+    "locationCode": "KGL",
+    "label": "Kongsdal Harbour",
+    "function": "1",
+    "lat": 56.7,
+    "lng": 10.066667
+  },
+  {
+    "locationCode": "KRR",
+    "label": "Korsør",
+    "labelWithDiacritics": "Korsor",
+    "function": "12"
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kragenæs",
+    "labelWithDiacritics": "Kragenas",
+    "function": "1"
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Kruså",
+    "labelWithDiacritics": "Krusa",
+    "function": "23"
+  },
+  {
+    "locationCode": "KVR",
+    "label": "Kværndrup",
+    "labelWithDiacritics": "Kvarndrup",
+    "function": "1"
+  },
+  {
+    "locationCode": "KVG",
+    "label": "Kvistgaard",
+    "function": "3"
+  },
+  {
+    "locationCode": "KBY",
+    "label": "Kyndbyvaerkets Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "LES",
+    "label": "Laeso",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 54.783333,
+    "lng": 11.1
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Langå",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Langa",
+    "function": "23",
+    "lat": 56.383333,
+    "lng": 9.883333
+  },
+  {
+    "locationCode": "LGN",
+    "label": "Langebæk",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Langebak",
+    "function": "3",
+    "lat": 55,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "LGS",
+    "label": "Langeskov",
+    "function": "23"
+  },
+  {
+    "locationCode": "AAU",
+    "label": "Langholt",
+    "subdivisionCode": "81",
+    "function": "6",
+    "lat": 57.1,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Låsby",
+    "labelWithDiacritics": "Lasby",
+    "function": "3"
+  },
+  {
+    "locationCode": "LEJ",
+    "label": "Lejre",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 11.966667
+  },
+  {
+    "locationCode": "LEM",
+    "label": "Lem",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.016667,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "LMM",
+    "label": "Lemming",
+    "function": "3",
+    "lat": 56.233333,
+    "lng": 9.55
+  },
+  {
+    "locationCode": "LVG",
+    "label": "Lemvig",
+    "function": "1"
+  },
+  {
+    "locationCode": "LLS",
+    "label": "Lille Skensved",
+    "function": "23"
+  },
+  {
+    "locationCode": "LHH",
+    "label": "Lindholm Havn",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.283333,
+    "lng": 10.8
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lindø Havn",
+    "labelWithDiacritics": "Lindo Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIT",
+    "label": "Lintrup",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 8.95
+  },
+  {
+    "locationCode": "LIS",
+    "label": "Liseleje",
+    "function": "3",
+    "lat": 56.016667,
+    "lng": 11.983333
+  },
+  {
+    "locationCode": "LGR",
+    "label": "Løgstør",
+    "labelWithDiacritics": "Logstor",
+    "function": "1"
+  },
+  {
+    "locationCode": "LOG",
+    "label": "Løgstrup",
+    "labelWithDiacritics": "Logstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "LKO",
+    "label": "Løgumkloster",
+    "labelWithDiacritics": "Logumkloster",
+    "function": "3"
+  },
+  {
+    "locationCode": "LOH",
+    "label": "Lohals",
+    "function": "1"
+  },
+  {
+    "locationCode": "LKK",
+    "label": "Lokken",
+    "function": "3",
+    "lat": 57.366667,
+    "lng": 9.716667
+  },
+  {
+    "locationCode": "LIG",
+    "label": "Losning",
+    "function": "3",
+    "lat": 55.8,
+    "lng": 9.7
+  },
+  {
+    "locationCode": "LBY",
+    "label": "Lundby",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 10.016667
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lundeborg",
+    "subdivisionCode": "83",
+    "function": "13",
+    "lat": 55.133333,
+    "lng": 10.783333
+  },
+  {
+    "locationCode": "LND",
+    "label": "Lunderskov",
+    "function": "3"
+  },
+  {
+    "locationCode": "LDT",
+    "label": "Lundtofte",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.466667,
+    "lng": 8.883333
+  },
+  {
+    "locationCode": "LYN",
+    "label": "Lyngby",
+    "function": "3"
+  },
+  {
+    "locationCode": "LNE",
+    "label": "Lynge",
+    "function": "3"
+  },
+  {
+    "locationCode": "LYO",
+    "label": "Lyngs Odde Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "AAT",
+    "label": "Lystrup",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.5,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "MLG",
+    "label": "Malling",
+    "function": "3",
+    "lat": 56.033333,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "MLV",
+    "label": "Målov",
+    "labelWithDiacritics": "Malov",
+    "function": "23",
+    "lat": 55.75,
+    "lng": 12.333333
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Marbæk Havn",
+    "labelWithDiacritics": "Marbak Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRR",
+    "label": "Mariager",
+    "function": "123",
+    "lat": 56.65,
+    "lng": 10
+  },
+  {
+    "locationCode": "MRV",
+    "label": "Maribo",
+    "function": "34"
+  },
+  {
+    "locationCode": "MLT",
+    "label": "Marslet",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "MRS",
+    "label": "Marstal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTF",
+    "label": "Martofte",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 10.666667
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masnedø",
+    "labelWithDiacritics": "Masnedo",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKH",
+    "label": "Masnedovaerkets Havn/Vordingborg",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.966667,
+    "lng": 11.883333
+  },
+  {
+    "locationCode": "MNS",
+    "label": "Masnedsund",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55,
+    "lng": 11.866667
+  },
+  {
+    "locationCode": "UNX",
+    "label": "Masnedsund Godningshamn",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 55,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "MBY",
+    "label": "Melby",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 11.116667
+  },
+  {
+    "locationCode": "MER",
+    "label": "Mern",
+    "function": "3",
+    "lat": 55.05,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "MES",
+    "label": "Mesinge",
+    "function": "3",
+    "lat": 55.5,
+    "lng": 10.65
+  },
+  {
+    "locationCode": "MID",
+    "label": "Middelfart",
+    "function": "12"
+  },
+  {
+    "locationCode": "MLL",
+    "label": "Millinge",
+    "function": "3",
+    "lat": 55.133333,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "MUP",
+    "label": "Moldrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Mommark",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mørdrup",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Mordrup",
+    "function": "3",
+    "lat": 56,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "MKE",
+    "label": "Mørke",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Morke",
+    "function": "3",
+    "lat": 56.333333,
+    "lng": 10.383333
+  },
+  {
+    "locationCode": "MKV",
+    "label": "Morkov",
+    "function": "3",
+    "lat": 55.666667,
+    "lng": 11.516667
+  },
+  {
+    "locationCode": "MRD",
+    "label": "Morud",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.45,
+    "lng": 10.183333
+  },
+  {
+    "locationCode": "MRU",
+    "label": "Mundelstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "MBJ",
+    "label": "Munke Bjergby",
+    "function": "3",
+    "lat": 55.5,
+    "lng": 11.533333
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Munkebo",
+    "function": "3",
+    "lat": 55.45,
+    "lng": 10.55
+  },
+  {
+    "locationCode": "NRM",
+    "label": "Nærum",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Narum",
+    "function": "3",
+    "lat": 55.816667,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "NUD",
+    "label": "Næssund",
+    "labelWithDiacritics": "Nassund",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVD",
+    "label": "Næstved",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Nastved",
+    "function": "1236",
+    "lat": 55.233333,
+    "lng": 11.766667
+  },
+  {
+    "locationCode": "NGB",
+    "label": "Nagbol",
+    "function": "123",
+    "lat": 55.45,
+    "lng": 9.283333
+  },
+  {
+    "locationCode": "NAK",
+    "label": "Nakskov",
+    "function": "12"
+  },
+  {
+    "locationCode": "NEX",
+    "label": "Neksø",
+    "labelWithDiacritics": "Nekso",
+    "function": "1"
+  },
+  {
+    "locationCode": "NIB",
+    "label": "Nibe",
+    "function": "3"
+  },
+  {
+    "locationCode": "NIM",
+    "label": "Nimtofte",
+    "function": "3",
+    "lat": 56.416667,
+    "lng": 10.566667
+  },
+  {
+    "locationCode": "NIV",
+    "label": "Niva",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Nørager",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Norager",
+    "function": "3",
+    "lat": 56.7,
+    "lng": 9.633333
+  },
+  {
+    "locationCode": "NBR",
+    "label": "Nordborg",
+    "function": "3",
+    "lat": 55.033333,
+    "lng": 9.8
+  },
+  {
+    "locationCode": "NOB",
+    "label": "Nordby",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.966667,
+    "lng": 10.566667
+  },
+  {
+    "locationCode": "NDB",
+    "label": "Nordby Havn, Fanø",
+    "labelWithDiacritics": "Nordby Havn, Fano",
+    "function": "1"
+  },
+  {
+    "locationCode": "NKV",
+    "label": "Nordenskov",
+    "function": "3"
+  },
+  {
+    "locationCode": "NHN",
+    "label": "Nordhavn",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 55.7,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "VSV",
+    "label": "Norjyllandsvarkets havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "NRE",
+    "label": "Nørre Aaby",
+    "labelWithDiacritics": "Norre Aaby",
+    "function": "12"
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Norre Alslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Norre Asmindrup",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 11.633333
+  },
+  {
+    "locationCode": "NBL",
+    "label": "Norre Nebel",
+    "function": "3",
+    "lat": 55.783333,
+    "lng": 8.3
+  },
+  {
+    "locationCode": "NSD",
+    "label": "Nørre Snede",
+    "labelWithDiacritics": "Norre Snede",
+    "function": "13",
+    "lat": 55.95,
+    "lng": 9.383333
+  },
+  {
+    "locationCode": "NRV",
+    "label": "Norre Vium",
+    "function": "3",
+    "lat": 56.033333,
+    "lng": 8.716667
+  },
+  {
+    "locationCode": "NBE",
+    "label": "Nørreballe",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Norreballe",
+    "function": "23",
+    "lat": 54.8,
+    "lng": 11.433333
+  },
+  {
+    "locationCode": "NRS",
+    "label": "Nørresundby",
+    "labelWithDiacritics": "Norresundby",
+    "function": "12"
+  },
+  {
+    "locationCode": "NBG",
+    "label": "Nyborg",
+    "function": "12"
+  },
+  {
+    "locationCode": "NYB",
+    "label": "Nyborg Lystbådehavn",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Nyborg Lystbadehavn",
+    "function": "1",
+    "lat": 55.3,
+    "lng": 10.783333
+  },
+  {
+    "locationCode": "NYF",
+    "label": "Nykøbing Falster",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Nykobing Falster",
+    "function": "123",
+    "lat": 54.766667,
+    "lng": 11.883333
+  },
+  {
+    "locationCode": "NYM",
+    "label": "Nykøbing Mors",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Nykobing Mors",
+    "function": "13",
+    "lat": 56.783333,
+    "lng": 8.85
+  },
+  {
+    "locationCode": "N3S",
+    "label": "Nykobing Sjaelland",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.916667,
+    "lng": 11.666667
+  },
+  {
+    "locationCode": "NYS",
+    "label": "Nykøbing Sjælland",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Nykobing Sjalland",
+    "function": "3",
+    "lat": 55.916667,
+    "lng": 11.666667
+  },
+  {
+    "locationCode": "NR4",
+    "label": "Nyrup",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.6,
+    "lng": 11.666667
+  },
+  {
+    "locationCode": "NTD",
+    "label": "Nysted",
+    "function": "1"
+  },
+  {
+    "locationCode": "ODX",
+    "label": "Odder",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 55.966667,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "ODE",
+    "label": "Odense",
+    "function": "1234"
+  },
+  {
+    "locationCode": "AAW",
+    "label": "Oelgod",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.816667,
+    "lng": 8.616667
+  },
+  {
+    "locationCode": "AAI",
+    "label": "Oelsted",
+    "subdivisionCode": "84",
+    "function": "6",
+    "lat": 55.916667,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "OSB",
+    "label": "Oksbol",
+    "function": "6",
+    "lat": 55.633333,
+    "lng": 8.283333
+  },
+  {
+    "locationCode": "OLG",
+    "label": "Olgod",
+    "function": "3",
+    "lat": 55.816667,
+    "lng": 8.616667
+  },
+  {
+    "locationCode": "OTK",
+    "label": "Ølstykke",
+    "labelWithDiacritics": "Olstykke",
+    "function": "23",
+    "lat": 55.8,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "OEL",
+    "label": "Ølstykke Stationsby",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Olstykke Stationsby",
+    "function": "3",
+    "lat": 55.783333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "OMO",
+    "label": "Omø",
+    "labelWithDiacritics": "Omo",
+    "function": "1"
+  },
+  {
+    "locationCode": "OFQ",
+    "label": "Orbæk",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Orbak",
+    "function": "3",
+    "lat": 55.266667,
+    "lng": 10.666667
+  },
+  {
+    "locationCode": "ORE",
+    "label": "Orehoved, Falster",
+    "function": "1"
+  },
+  {
+    "locationCode": "OHJ",
+    "label": "Ornhoj",
+    "function": "3",
+    "lat": 56.2,
+    "lng": 8.583333
+  },
+  {
+    "locationCode": "ORO",
+    "label": "Orø",
+    "labelWithDiacritics": "Oro",
+    "function": "1"
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Orsted",
+    "function": "3",
+    "lat": 56.5,
+    "lng": 10.35
+  },
+  {
+    "locationCode": "ORM",
+    "label": "Orum",
+    "function": "3",
+    "lat": 56.45,
+    "lng": 10.683333
+  },
+  {
+    "locationCode": "OSX",
+    "label": "Osby",
+    "function": "3",
+    "lat": 55.233333,
+    "lng": 9.65
+  },
+  {
+    "locationCode": "OKB",
+    "label": "Østbirk",
+    "labelWithDiacritics": "Ostbirk",
+    "function": "3"
+  },
+  {
+    "locationCode": "OAS",
+    "label": "Øster Assels",
+    "labelWithDiacritics": "Oster Assels",
+    "function": "3",
+    "lat": 56.7,
+    "lng": 8.683333
+  },
+  {
+    "locationCode": "ODD",
+    "label": "Øster Doense",
+    "labelWithDiacritics": "Oster Doense",
+    "function": "3",
+    "lat": 56.7,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "OSD",
+    "label": "Øster Snede",
+    "labelWithDiacritics": "Oster Snede",
+    "function": "3"
+  },
+  {
+    "locationCode": "OTV",
+    "label": "Øster Tørslev",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Oster Torslev",
+    "function": "3",
+    "lat": 56.566667,
+    "lng": 10.2
+  },
+  {
+    "locationCode": "OUL",
+    "label": "Oster Ulslev",
+    "function": "3",
+    "lat": 54.7,
+    "lng": 11.633333
+  },
+  {
+    "locationCode": "OST",
+    "label": "Ostermarie",
+    "function": "3",
+    "lat": 55.133333,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "OVR",
+    "label": "Ostervra",
+    "function": "3",
+    "lat": 57.35,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "OTT",
+    "label": "Otterup",
+    "function": "0"
+  },
+  {
+    "locationCode": "AAV",
+    "label": "Oure",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.116667,
+    "lng": 10.733333
+  },
+  {
+    "locationCode": "OP2",
+    "label": "Outrup",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 8.333333
+  },
+  {
+    "locationCode": "OTR",
+    "label": "Ovtrup",
+    "function": "0"
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Padborg",
+    "function": "23",
+    "lat": 54.816667,
+    "lng": 9.35
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pandrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "PJE",
+    "label": "Pjedsted",
+    "subdivisionCode": "83",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Præstø",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Prasto",
+    "function": "36",
+    "lat": 55.116667,
+    "lng": 12.05
+  },
+  {
+    "locationCode": "RBL",
+    "label": "Randbol",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 9.266667
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Randers",
+    "function": "123"
+  },
+  {
+    "locationCode": "RNM",
+    "label": "Ranum",
+    "function": "3"
+  },
+  {
+    "locationCode": "RSM",
+    "label": "Rask Molle",
+    "function": "3",
+    "lat": 55.866667,
+    "lng": 9.616667
+  },
+  {
+    "locationCode": "RED",
+    "label": "Redsted",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 8.65
+  },
+  {
+    "locationCode": "AAZ",
+    "label": "Reersoe",
+    "subdivisionCode": "85",
+    "function": "6",
+    "lat": 54.783333,
+    "lng": 11.633333
+  },
+  {
+    "locationCode": "2NK",
+    "label": "Refsvindinge",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.283333,
+    "lng": 10.683333
+  },
+  {
+    "locationCode": "RGP",
+    "label": "Regstrup",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 10.766667
+  },
+  {
+    "locationCode": "RSN",
+    "label": "Resenbro",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.183333,
+    "lng": 9.65
+  },
+  {
+    "locationCode": "RIB",
+    "label": "Ribe",
+    "function": "3"
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Ringe",
+    "function": "3"
+  },
+  {
+    "locationCode": "RKG",
+    "label": "Ringkøbing",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Ringkobing",
+    "function": "23",
+    "lat": 56.083333,
+    "lng": 8.233333
+  },
+  {
+    "locationCode": "RNG",
+    "label": "Ringsted",
+    "function": "23"
+  },
+  {
+    "locationCode": "RSS",
+    "label": "Risskov",
+    "function": "3"
+  },
+  {
+    "locationCode": "ROF",
+    "label": "Rødby",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Rodby",
+    "function": "13",
+    "lat": 54.683333,
+    "lng": 11.383333
+  },
+  {
+    "locationCode": "ROD",
+    "label": "Rødbyhavn",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Rodbyhavn",
+    "function": "1236",
+    "lat": 54.65,
+    "lng": 11.35
+  },
+  {
+    "locationCode": "RDG",
+    "label": "Rødding",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Rodding",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 9.05
+  },
+  {
+    "locationCode": "RDK",
+    "label": "Rødekro",
+    "labelWithDiacritics": "Rodekro",
+    "function": "123",
+    "lat": 55.066667,
+    "lng": 9.316667
+  },
+  {
+    "locationCode": "DKA",
+    "label": "Rodkaersbro",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.35,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "RDB",
+    "label": "Rødkærsbro",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Rodkarsbro",
+    "function": "23",
+    "lat": 56.35,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "RDV",
+    "label": "Rødovre",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Rodovre",
+    "function": "23",
+    "lat": 55.683333,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "RDH",
+    "label": "Rødvig Havn",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Rodvig Havn",
+    "function": "1",
+    "lat": 55.25,
+    "lng": 12.366667
+  },
+  {
+    "locationCode": "RMO",
+    "label": "Romo",
+    "subdivisionCode": "83",
+    "function": "13",
+    "lat": 55.133333,
+    "lng": 8.516667
+  },
+  {
+    "locationCode": "RND",
+    "label": "Rønde",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Ronde",
+    "function": "3",
+    "lat": 56.3,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "RNN",
+    "label": "Rønne",
+    "labelWithDiacritics": "Ronne",
+    "function": "14"
+  },
+  {
+    "locationCode": "RON",
+    "label": "Rønnede",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Ronnede",
+    "function": "36",
+    "lat": 55.25,
+    "lng": 12
+  },
+  {
+    "locationCode": "RRV",
+    "label": "Rørvig",
+    "labelWithDiacritics": "Rorvig",
+    "function": "1"
+  },
+  {
+    "locationCode": "RKE",
+    "label": "Roskilde",
+    "function": "1234"
+  },
+  {
+    "locationCode": "RSL",
+    "label": "Roslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "RD4",
+    "label": "Rude",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 56,
+    "lng": 10.233333
+  },
+  {
+    "locationCode": "RKB",
+    "label": "Rudkøbing",
+    "labelWithDiacritics": "Rudkobing",
+    "function": "1"
+  },
+  {
+    "locationCode": "RVY",
+    "label": "Ruds-Vedby",
+    "function": "3",
+    "lat": 55.533333,
+    "lng": 11.35
+  },
+  {
+    "locationCode": "RUG",
+    "label": "Rungsted",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 12.516667
+  },
+  {
+    "locationCode": "REY",
+    "label": "Ry",
+    "function": "23",
+    "lat": 56.083333,
+    "lng": 9.75
+  },
+  {
+    "locationCode": "RYN",
+    "label": "Rynkeby",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.4,
+    "lng": 10.6
+  },
+  {
+    "locationCode": "RYM",
+    "label": "Ryomgård",
+    "labelWithDiacritics": "Ryomgard",
+    "function": "3"
+  },
+  {
+    "locationCode": "RYS",
+    "label": "Ryslinge",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.25,
+    "lng": 10.55
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sabro",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.216667,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "SAE",
+    "label": "Sæby",
+    "labelWithDiacritics": "Saby",
+    "function": "123",
+    "lat": 57.333333,
+    "lng": 10.533333
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Sælvig Havn",
+    "labelWithDiacritics": "Salvig Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "KII",
+    "label": "Saint Kilian",
+    "subdivisionCode": "81",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAX",
+    "label": "Sakskøbing",
+    "labelWithDiacritics": "Sakskobing",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Saltum",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.266667,
+    "lng": 9.683333
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sandager",
+    "function": "0"
+  },
+  {
+    "locationCode": "SD7",
+    "label": "Sandved",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.266667,
+    "lng": 11.533333
+  },
+  {
+    "locationCode": "SVG",
+    "label": "Sandvig",
+    "function": "13",
+    "lat": 55.283333,
+    "lng": 14.783333
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saunte",
+    "function": "6",
+    "lat": 56.083333,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "SEO",
+    "label": "Sejerø",
+    "labelWithDiacritics": "Sejero",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEJ",
+    "label": "Sejerslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLB",
+    "label": "Silkeborg",
+    "function": "123"
+  },
+  {
+    "locationCode": "CNL",
+    "label": "Sindal",
+    "function": "3",
+    "lat": 57.45,
+    "lng": 10.2
+  },
+  {
+    "locationCode": "SJO",
+    "label": "Sjællands Odde",
+    "labelWithDiacritics": "Sjallands Odde",
+    "function": "0"
+  },
+  {
+    "locationCode": "SJL",
+    "label": "Sjolund",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.4,
+    "lng": 9.533333
+  },
+  {
+    "locationCode": "SSK",
+    "label": "Skælskør",
+    "labelWithDiacritics": "Skalskor",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Skærbæk",
+    "labelWithDiacritics": "Skarbak",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Skævinge",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Skavinge",
+    "function": "3",
+    "lat": 55.916667,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skagen",
+    "function": "12"
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Skals",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKM",
+    "label": "Skamby",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKG",
+    "label": "Skanderborg",
+    "subdivisionCode": "82",
+    "function": "23",
+    "lat": 56.033333,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "SDO",
+    "label": "Skarø/Drejø",
+    "labelWithDiacritics": "Skaro/Drejo",
+    "function": "1"
+  },
+  {
+    "locationCode": "SJB",
+    "label": "Skejby",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKY",
+    "label": "Skibby",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Skive",
+    "function": "12"
+  },
+  {
+    "locationCode": "SKJ",
+    "label": "Skjern",
+    "function": "23"
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Skodborg",
+    "function": "3"
+  },
+  {
+    "locationCode": "SK3",
+    "label": "Skodsborg",
+    "subdivisionCode": "84",
+    "function": "13",
+    "lat": 55.816667,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Skodstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Skørping",
+    "labelWithDiacritics": "Skorping",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKD",
+    "label": "Skovlund",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 8.7
+  },
+  {
+    "locationCode": "SVL",
+    "label": "Skovlunde",
+    "function": "26",
+    "lat": 55.716667,
+    "lng": 12.4
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Skovshoved",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 55.766667,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Skrydstrup",
+    "function": "34",
+    "lat": 55.233333,
+    "lng": 9.25
+  },
+  {
+    "locationCode": "SLG",
+    "label": "Slagelse",
+    "function": "23"
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Slangerup",
+    "function": "3"
+  },
+  {
+    "locationCode": "SMG",
+    "label": "Slimminge",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.45,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "SMO",
+    "label": "Smørum",
+    "labelWithDiacritics": "Smorum",
+    "function": "0"
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Snedsted",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.883333,
+    "lng": 8.516667
+  },
+  {
+    "locationCode": "SNE",
+    "label": "Snekkersten",
+    "function": "1"
+  },
+  {
+    "locationCode": "SN2",
+    "label": "Snertinge",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.066667,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Søborg",
+    "labelWithDiacritics": "Soborg",
+    "function": "23"
+  },
+  {
+    "locationCode": "SOB",
+    "label": "Søby Havn",
+    "labelWithDiacritics": "Soby Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLS",
+    "label": "Sollested",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 54.816667,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "SL2",
+    "label": "Søllested",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Sollested",
+    "function": "13",
+    "lat": 55.3,
+    "lng": 10.05
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Solrød Strand",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Solrod Strand",
+    "function": "36",
+    "lat": 55.533333,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "SOD",
+    "label": "Sommersted",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.316667,
+    "lng": 9.316667
+  },
+  {
+    "locationCode": "SND",
+    "label": "Sønder",
+    "labelWithDiacritics": "Sonder",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABA",
+    "label": "Sønder Bjert",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Sonder Bjert",
+    "function": "6",
+    "lat": 55.25,
+    "lng": 11.4
+  },
+  {
+    "locationCode": "SFG",
+    "label": "Sønder Felding",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Sonder Felding",
+    "function": "3",
+    "lat": 55.95,
+    "lng": 8.783333
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Sønder Omme",
+    "labelWithDiacritics": "Sonder Omme",
+    "function": "3",
+    "lat": 55.833333,
+    "lng": 8.9
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Sønderborg",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Sonderborg",
+    "function": "1234",
+    "lat": 54.9,
+    "lng": 9.783333
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Søndersø",
+    "labelWithDiacritics": "Sonderso",
+    "function": "3",
+    "lat": 55.483333,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "SRO",
+    "label": "Sorø",
+    "labelWithDiacritics": "Soro",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Sorvad",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Spentrup",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.55,
+    "lng": 10.033333
+  },
+  {
+    "locationCode": "SPJ",
+    "label": "Spjald",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.116667,
+    "lng": 8.516667
+  },
+  {
+    "locationCode": "SPB",
+    "label": "Spodsbjerg Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPP",
+    "label": "Sporup",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPO",
+    "label": "Spottrup",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "SVV",
+    "label": "Stålvalseværket",
+    "labelWithDiacritics": "Stalvalsevarket",
+    "function": "1"
+  },
+  {
+    "locationCode": "STT",
+    "label": "Statoil-Havnen",
+    "function": "1"
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stavning",
+    "function": "14",
+    "lat": 55.966667,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "STE",
+    "label": "Stege",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRP",
+    "label": "Stenderup",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKI",
+    "label": "Stenkilde",
+    "function": "0"
+  },
+  {
+    "locationCode": "STL",
+    "label": "Stenlille",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 55.783333,
+    "lng": 12.2
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Stenløse",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Stenlose",
+    "function": "3",
+    "lat": 55.766667,
+    "lng": 12.2
+  },
+  {
+    "locationCode": "SNS",
+    "label": "Stenstrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "SN7",
+    "label": "Stensved",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55,
+    "lng": 12.033333
+  },
+  {
+    "locationCode": "STP",
+    "label": "Stevns Pier",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 55.316667,
+    "lng": 12.45
+  },
+  {
+    "locationCode": "STG",
+    "label": "Stignæsværkets Havn",
+    "labelWithDiacritics": "Stignasvarkets Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Stigsnæs",
+    "labelWithDiacritics": "Stigsnas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Stigsnaes Inter Terminal",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 55.2,
+    "lng": 11.233333
+  },
+  {
+    "locationCode": "ABB",
+    "label": "Stilling",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 56.066667,
+    "lng": 10
+  },
+  {
+    "locationCode": "STH",
+    "label": "Stoholm",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.483333,
+    "lng": 91
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Stokkemarke",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 54.833333,
+    "lng": 11.35
+  },
+  {
+    "locationCode": "SF2",
+    "label": "Store Fuglede",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.583333,
+    "lng": 11.25
+  },
+  {
+    "locationCode": "SH6",
+    "label": "Store Heddinge",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.316667,
+    "lng": 12.416667
+  },
+  {
+    "locationCode": "SM6",
+    "label": "Store Merløse",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Store Merlose",
+    "function": "13",
+    "lat": 55.55,
+    "lng": 11.716667
+  },
+  {
+    "locationCode": "STV",
+    "label": "Storevorde",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "STO",
+    "label": "Støvring",
+    "labelWithDiacritics": "Stovring",
+    "function": "3",
+    "lat": 56.5,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "STD",
+    "label": "Strandby",
+    "function": "3",
+    "lat": 57.5,
+    "lng": 10.5
+  },
+  {
+    "locationCode": "STY",
+    "label": "Strandby",
+    "subdivisionCode": "81",
+    "function": "6",
+    "lat": 56.783333,
+    "lng": 9.216667
+  },
+  {
+    "locationCode": "STB",
+    "label": "Strib Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SB2",
+    "label": "Strøby",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Stroby",
+    "function": "13",
+    "lat": 55.383333,
+    "lng": 12.3
+  },
+  {
+    "locationCode": "STR",
+    "label": "Struer",
+    "function": "12"
+  },
+  {
+    "locationCode": "SNO",
+    "label": "Strynø",
+    "labelWithDiacritics": "Stryno",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBK",
+    "label": "Stubbekøbing",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Stubbekobing",
+    "function": "1",
+    "lat": 54.883333,
+    "lng": 12.05
+  },
+  {
+    "locationCode": "SSV",
+    "label": "Studstrupværkets Havn",
+    "labelWithDiacritics": "Studstrupvarkets Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "EOT",
+    "label": "Styrtom",
+    "function": "1",
+    "lat": 55.016667,
+    "lng": 9.433333
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Sundby",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.383333,
+    "lng": 10.566667
+  },
+  {
+    "locationCode": "SNY",
+    "label": "Sundby/Mors",
+    "subdivisionCode": "81",
+    "function": "13",
+    "lat": 56.866667,
+    "lng": 8.666667
+  },
+  {
+    "locationCode": "SUS",
+    "label": "Sunds",
+    "function": "3"
+  },
+  {
+    "locationCode": "SUE",
+    "label": "Sundsøre",
+    "labelWithDiacritics": "Sundsore",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVA",
+    "label": "Svaneke",
+    "function": "13",
+    "lat": 55.133333,
+    "lng": 15.15
+  },
+  {
+    "locationCode": "SVB",
+    "label": "Svebølle",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Svebolle",
+    "function": "23",
+    "lat": 55.65,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "SVE",
+    "label": "Svendborg",
+    "function": "12"
+  },
+  {
+    "locationCode": "SVN",
+    "label": "Svenstrup",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "SNN",
+    "label": "Svinninge",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Sydals",
+    "function": "136",
+    "lat": 54.9,
+    "lng": 9.883333
+  },
+  {
+    "locationCode": "SYD",
+    "label": "Sydborg",
+    "function": "0"
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Taarbæk",
+    "labelWithDiacritics": "Taarbak",
+    "function": "3"
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Tappernøje",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Tappernoje",
+    "function": "3",
+    "lat": 55.15,
+    "lng": 11.966667
+  },
+  {
+    "locationCode": "TRM",
+    "label": "Tarm",
+    "function": "3"
+  },
+  {
+    "locationCode": "TBY",
+    "label": "Tårnby",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Tarnby",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Tårs",
+    "labelWithDiacritics": "Tars",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Tåstrup",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Tastrup",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "TTR",
+    "label": "Tåstrup-Valby",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Tastrup-Valby",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "TLV",
+    "label": "Taulov",
+    "function": "3"
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terndrup",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 56.816667,
+    "lng": 10.066667
+  },
+  {
+    "locationCode": "THM",
+    "label": "Them",
+    "function": "3"
+  },
+  {
+    "locationCode": "TED",
+    "label": "Thisted",
+    "function": "124"
+  },
+  {
+    "locationCode": "TSO",
+    "label": "Thorso",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.3,
+    "lng": 9.8
+  },
+  {
+    "locationCode": "THO",
+    "label": "Thurø",
+    "labelWithDiacritics": "Thuro",
+    "function": "3"
+  },
+  {
+    "locationCode": "THN",
+    "label": "Thyborøn",
+    "labelWithDiacritics": "Thyboron",
+    "function": "6",
+    "lat": 56.7,
+    "lng": 8.216667
+  },
+  {
+    "locationCode": "THY",
+    "label": "Thyholm",
+    "function": "23",
+    "lat": 56.65,
+    "lng": 8.516667
+  },
+  {
+    "locationCode": "TKB",
+    "label": "Tikøb",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Tikob",
+    "function": "13",
+    "lat": 56.016667,
+    "lng": 12.466667
+  },
+  {
+    "locationCode": "TIL",
+    "label": "Tilst",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.2,
+    "lng": 10.116667
+  },
+  {
+    "locationCode": "TIM",
+    "label": "Tim",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.2,
+    "lng": 8.316667
+  },
+  {
+    "locationCode": "TGV",
+    "label": "Tinglev",
+    "function": "3"
+  },
+  {
+    "locationCode": "TIS",
+    "label": "Tistrup",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 8.6
+  },
+  {
+    "locationCode": "TSV",
+    "label": "Tisvilde",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 56.083333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "2DH",
+    "label": "Tisvildeleje",
+    "subdivisionCode": "84",
+    "function": "23",
+    "lat": 56.05,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "TJA",
+    "label": "Tjaereborg",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.466667,
+    "lng": 8.583333
+  },
+  {
+    "locationCode": "TJL",
+    "label": "Tjele",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 56.5,
+    "lng": 9.6
+  },
+  {
+    "locationCode": "TFT",
+    "label": "Toftlund",
+    "function": "3"
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tølløse",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Tollose",
+    "function": "36",
+    "lat": 55.6,
+    "lng": 11.766667
+  },
+  {
+    "locationCode": "TOM",
+    "label": "Tommerup",
+    "function": "3"
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tønder",
+    "labelWithDiacritics": "Tonder",
+    "function": "0"
+  },
+  {
+    "locationCode": "TB4",
+    "label": "Toreby",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.75,
+    "lng": 11.8
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Torrig",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.9,
+    "lng": 11.333333
+  },
+  {
+    "locationCode": "TOE",
+    "label": "Tørring",
+    "labelWithDiacritics": "Torring",
+    "function": "3"
+  },
+  {
+    "locationCode": "TMD",
+    "label": "Torsminde",
+    "subdivisionCode": "82",
+    "function": "13",
+    "lat": 56.366667,
+    "lng": 8.116667
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torup",
+    "subdivisionCode": "82",
+    "function": "3"
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tranbjerg",
+    "subdivisionCode": "81",
+    "function": "6",
+    "lat": 56.1,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "TRN",
+    "label": "Tranebjerg",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 55.833333,
+    "lng": 10.6
+  },
+  {
+    "locationCode": "TKA",
+    "label": "Tranekaer",
+    "function": "3",
+    "lat": 55,
+    "lng": 10.85
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Trige",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Troense",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 55.033333,
+    "lng": 10.65
+  },
+  {
+    "locationCode": "TRU",
+    "label": "Trustrup",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 55.9,
+    "lng": 10.05
+  },
+  {
+    "locationCode": "TUB",
+    "label": "Tuborg",
+    "function": "12"
+  },
+  {
+    "locationCode": "TN3",
+    "label": "Tune",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.6,
+    "lng": 12.183333
+  },
+  {
+    "locationCode": "TNO",
+    "label": "Tunø",
+    "labelWithDiacritics": "Tuno",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Tureby",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.366667,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "TYB",
+    "label": "Tyborøn",
+    "labelWithDiacritics": "Tyboron",
+    "function": "12"
+  },
+  {
+    "locationCode": "TYL",
+    "label": "Tylstrup",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.183333,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "UGE",
+    "label": "Ugerløse",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Ugerlose",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 11.15
+  },
+  {
+    "locationCode": "ULD",
+    "label": "Uldum",
+    "function": "3"
+  },
+  {
+    "locationCode": "ULB",
+    "label": "Ulfborg",
+    "function": "3"
+  },
+  {
+    "locationCode": "ULL",
+    "label": "Ullerslev",
+    "function": "3"
+  },
+  {
+    "locationCode": "ULS",
+    "label": "Ulstrup",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.383333,
+    "lng": 9.783333
+  },
+  {
+    "locationCode": "VAD",
+    "label": "Vadum",
+    "function": "3"
+  },
+  {
+    "locationCode": "VG4",
+    "label": "Væggerløse",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Vaggerlose",
+    "function": "13",
+    "lat": 54.7,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "VLE",
+    "label": "Værløse",
+    "labelWithDiacritics": "Varlose",
+    "function": "34",
+    "lat": 55.266667,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valby",
+    "function": "0"
+  },
+  {
+    "locationCode": "VAE",
+    "label": "Vallensbæk",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Vallensbak",
+    "function": "123",
+    "lat": 55.633333,
+    "lng": 12.35
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Vallø",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Vallo",
+    "function": "3",
+    "lat": 55.4,
+    "lng": 12.25
+  },
+  {
+    "locationCode": "VDP",
+    "label": "Vamdrup",
+    "function": "3"
+  },
+  {
+    "locationCode": "VDL",
+    "label": "Vandel",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 9.216667
+  },
+  {
+    "locationCode": "VNG",
+    "label": "Vang Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vanløse",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Vanlose",
+    "function": "236",
+    "lat": 55.683333,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "VDE",
+    "label": "Varde",
+    "function": "3"
+  },
+  {
+    "locationCode": "VBK",
+    "label": "Vedbæk",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Vedbak",
+    "function": "3",
+    "lat": 55.85,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "VB2",
+    "label": "Vejby",
+    "subdivisionCode": "84",
+    "function": "13",
+    "lat": 56.066667,
+    "lng": 12.15
+  },
+  {
+    "locationCode": "VJN",
+    "label": "Vejen",
+    "function": "3"
+  },
+  {
+    "locationCode": "VEJ",
+    "label": "Vejle",
+    "function": "12"
+  },
+  {
+    "locationCode": "VJT",
+    "label": "Vejstrup",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.1,
+    "lng": 10.716667
+  },
+  {
+    "locationCode": "VK7",
+    "label": "Veksø",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Vekso",
+    "function": "13",
+    "lat": 55.75,
+    "lng": 12.25
+  },
+  {
+    "locationCode": "VMB",
+    "label": "Vemb",
+    "function": "23"
+  },
+  {
+    "locationCode": "VM2",
+    "label": "Vemmelev",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 55.366667,
+    "lng": 11.266667
+  },
+  {
+    "locationCode": "VEN",
+    "label": "Venø Havn",
+    "labelWithDiacritics": "Veno Havn",
+    "function": "1"
+  },
+  {
+    "locationCode": "VBJ",
+    "label": "Vestbjerg",
+    "subdivisionCode": "81",
+    "function": "36",
+    "lat": 57.116667,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "VT2",
+    "label": "Vesterborg",
+    "subdivisionCode": "85",
+    "function": "13",
+    "lat": 54.85,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "VES",
+    "label": "Vesterø Havn, Læsø",
+    "labelWithDiacritics": "Vestero Havn, Laso",
+    "function": "1"
+  },
+  {
+    "locationCode": "VSK",
+    "label": "Vester-Skerninge",
+    "function": "3",
+    "lat": 55.066667,
+    "lng": 10.45
+  },
+  {
+    "locationCode": "VIB",
+    "label": "Viborg",
+    "function": "23"
+  },
+  {
+    "locationCode": "VIY",
+    "label": "Viby",
+    "subdivisionCode": "82",
+    "function": "36",
+    "lat": 56.116667,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "VBI",
+    "label": "Viby",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 55.533333,
+    "lng": 12.016667
+  },
+  {
+    "locationCode": "VID",
+    "label": "Videbæk",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Videbak",
+    "function": "3",
+    "lat": 56.083333,
+    "lng": 8.616667
+  },
+  {
+    "locationCode": "VIG",
+    "label": "Vig",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vigsnæs",
+    "labelWithDiacritics": "Vigsnas",
+    "function": "3"
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Vildbjerg",
+    "subdivisionCode": "82",
+    "function": "3",
+    "lat": 56.2,
+    "lng": 8.766667
+  },
+  {
+    "locationCode": "VLS",
+    "label": "Vils",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 56.766667,
+    "lng": 84.666667
+  },
+  {
+    "locationCode": "VNR",
+    "label": "Vinderup",
+    "function": "23"
+  },
+  {
+    "locationCode": "VPP",
+    "label": "Vipperød",
+    "labelWithDiacritics": "Vipperod",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Virum",
+    "function": "0"
+  },
+  {
+    "locationCode": "VBG",
+    "label": "Vissenbjerg",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 55.383333,
+    "lng": 10.133333
+  },
+  {
+    "locationCode": "NVM",
+    "label": "Vium",
+    "function": "3",
+    "lat": 56.666667,
+    "lng": 8.966667
+  },
+  {
+    "locationCode": "VOK",
+    "label": "Vodskov",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKS",
+    "label": "Vojens",
+    "subdivisionCode": "83",
+    "function": "34",
+    "lat": 55.233333,
+    "lng": 9.3
+  },
+  {
+    "locationCode": "AAS",
+    "label": "Vorbasse",
+    "subdivisionCode": "83",
+    "function": "6",
+    "lat": 55.633333,
+    "lng": 9.083333
+  },
+  {
+    "locationCode": "VOR",
+    "label": "Vordingborg",
+    "subdivisionCode": "85",
+    "function": "12",
+    "lat": 55,
+    "lng": 11.9
+  },
+  {
+    "locationCode": "VBN",
+    "label": "Vordingborg Nordhavnen",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 55,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "VBS",
+    "label": "Vordingborg Sydhavnen",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 54.983333,
+    "lng": 11.883333
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Vrå",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Vra",
+    "function": "3",
+    "lat": 57.333333,
+    "lng": 9.95
+  }
+]

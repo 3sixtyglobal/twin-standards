@@ -1,0 +1,3949 @@
+[
+  {
+    "locationCode": "AYF",
+    "label": "Abbeyfeale",
+    "function": "3",
+    "lat": 52.383333,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "ABB",
+    "label": "Abbeyleix",
+    "function": "3"
+  },
+  {
+    "locationCode": "ACN",
+    "label": "Achonry",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 54.066667,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Adare",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.566667,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "AHL",
+    "label": "Aherla",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.85,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "ALQ",
+    "label": "Alexandra Quay",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARO",
+    "label": "Alexandra Road Oil",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Annacarty",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.566667,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "ATN",
+    "label": "Annacotty",
+    "subdivisionCode": "LK",
+    "function": "16",
+    "lat": 52.4,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "ANN",
+    "label": "Annagassan",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.883333,
+    "lng": -6.333333
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Ardara",
+    "function": "3"
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Ardcath",
+    "function": "3",
+    "lat": 53.6,
+    "lng": -6.383333
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Ardee",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.85,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "ART",
+    "label": "Ardfert",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 52.316667,
+    "lng": -9.783333
+  },
+  {
+    "locationCode": "ARN",
+    "label": "Ardfinnan",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.3,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Ardmore",
+    "subdivisionCode": "WD",
+    "function": "13",
+    "lat": 51.95,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arklow",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARH",
+    "label": "Arklow Head (Ie009)",
+    "subdivisionCode": "WW",
+    "function": "1"
+  },
+  {
+    "locationCode": "ATS",
+    "label": "Arthurstown",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.216667,
+    "lng": -6.566667
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Ashbourne",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASD",
+    "label": "Ashford",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53,
+    "lng": -6.116667
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Askeaton",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABY",
+    "label": "Athboy",
+    "function": "3",
+    "lat": 53.616667,
+    "lng": -6.916667
+  },
+  {
+    "locationCode": "ARY",
+    "label": "Athenry",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "ATE",
+    "label": "Athleague",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.566667,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "ATH",
+    "label": "Athlone",
+    "function": "5"
+  },
+  {
+    "locationCode": "ATY",
+    "label": "Athy",
+    "function": "23"
+  },
+  {
+    "locationCode": "AUG",
+    "label": "Aughinish Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "AUM",
+    "label": "Aughrim",
+    "function": "3",
+    "lat": 52.85,
+    "lng": -6.316667
+  },
+  {
+    "locationCode": "AVO",
+    "label": "Avoca",
+    "subdivisionCode": "WW",
+    "function": "23",
+    "lat": 52.85,
+    "lng": -6.2
+  },
+  {
+    "locationCode": "BIF",
+    "label": "B & I Ferryport",
+    "function": "1"
+  },
+  {
+    "locationCode": "BIT",
+    "label": "B & I Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagenalstown",
+    "subdivisionCode": "CW",
+    "function": "23",
+    "lat": 52.7,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bailieborough",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.9,
+    "lng": -6.966667
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Balbriggan",
+    "subdivisionCode": "D",
+    "function": "123",
+    "lat": 53.616667,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Baldonnel",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Baldoyle",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.4,
+    "lng": -6.133333
+  },
+  {
+    "locationCode": "BLH",
+    "label": "Ballagh",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.366667,
+    "lng": -9.066667
+  },
+  {
+    "locationCode": "BGD",
+    "label": "Ballaghaderreen",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.9,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "BLL",
+    "label": "Ballina",
+    "subdivisionCode": "MO",
+    "function": "13",
+    "lat": 54.116667,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Ballina",
+    "subdivisionCode": "TA",
+    "function": "13",
+    "lat": 52.8,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "BKL",
+    "label": "Ballinakill",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 52.866667,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "BAM",
+    "label": "Ballinamore",
+    "function": "3"
+  },
+  {
+    "locationCode": "BAE",
+    "label": "Ballinasloe",
+    "function": "3"
+  },
+  {
+    "locationCode": "IBG",
+    "label": "Ballincollig",
+    "subdivisionCode": "CO",
+    "function": "6",
+    "lat": 51.883333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "BAD",
+    "label": "Ballindine",
+    "subdivisionCode": "MO",
+    "function": "236",
+    "lat": 53.666667,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Ballineen",
+    "function": "3",
+    "lat": 51.733333,
+    "lng": -8.95
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Ballinrobe",
+    "subdivisionCode": "MO",
+    "function": "6"
+  },
+  {
+    "locationCode": "IBS",
+    "label": "Ballinskelligs",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 51.8,
+    "lng": -10.283333
+  },
+  {
+    "locationCode": "BAV",
+    "label": "Ballivor",
+    "function": "3",
+    "lat": 53.533333,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "BON",
+    "label": "Ballon",
+    "subdivisionCode": "CW",
+    "function": "3",
+    "lat": 52.733333,
+    "lng": -6.766667
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Ballsbridge",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 53.316667,
+    "lng": -6.216667
+  },
+  {
+    "locationCode": "BLB",
+    "label": "Ballybay",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 54.116667,
+    "lng": -6.9
+  },
+  {
+    "locationCode": "JBR",
+    "label": "Ballybin",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 54.05,
+    "lng": -6.516667
+  },
+  {
+    "locationCode": "BBY",
+    "label": "Ballybofey",
+    "function": "3",
+    "lat": 54.783333,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "BGH",
+    "label": "Ballyboghil (Ballyboughal)",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.516667,
+    "lng": -6.25
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Ballyboro",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.466667,
+    "lng": -6.733333
+  },
+  {
+    "locationCode": "BCL",
+    "label": "Ballycollin",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.15,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "IBL",
+    "label": "Ballyconnell",
+    "subdivisionCode": "CN",
+    "function": "6",
+    "lat": 54.116667,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "BLN",
+    "label": "Ballycotton",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.833333,
+    "lng": -8
+  },
+  {
+    "locationCode": "BVD",
+    "label": "Ballydavid",
+    "subdivisionCode": "KY",
+    "function": "1",
+    "lat": 52.216667,
+    "lng": -10.35
+  },
+  {
+    "locationCode": "BYH",
+    "label": "Ballydehob",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.55,
+    "lng": -9.466667
+  },
+  {
+    "locationCode": "BYD",
+    "label": "Ballydesmond",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.166667,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "BFT",
+    "label": "Ballyfermot",
+    "subdivisionCode": "D",
+    "function": "6"
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Ballygar",
+    "function": "3"
+  },
+  {
+    "locationCode": "BYY",
+    "label": "Ballyhahil",
+    "subdivisionCode": "LK",
+    "function": "6",
+    "lat": 52.55,
+    "lng": -99.183333
+  },
+  {
+    "locationCode": "BHS",
+    "label": "Ballyhaunis",
+    "function": "3"
+  },
+  {
+    "locationCode": "BYL",
+    "label": "Ballyhoolahan",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.15,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "BLF",
+    "label": "Ballyjamesduff",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.85,
+    "lng": -7.2
+  },
+  {
+    "locationCode": "BLR",
+    "label": "Ballylanders",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.366667,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "BYB",
+    "label": "Ballymacarbry",
+    "subdivisionCode": "WD",
+    "function": "3",
+    "lat": 52.25,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "BLM",
+    "label": "Ballymahon",
+    "subdivisionCode": "LD",
+    "function": "3",
+    "lat": 53.566667,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "BMY",
+    "label": "Ballymoney",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 55.033333,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "BMO",
+    "label": "Ballymote",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 54.083333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Ballymount",
+    "function": "3",
+    "lat": 53.316667,
+    "lng": -6.366667
+  },
+  {
+    "locationCode": "BRY",
+    "label": "Ballymurray",
+    "subdivisionCode": "RN",
+    "function": "23",
+    "lat": 53.583333,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "BGY",
+    "label": "Ballynacargy",
+    "function": "16",
+    "lat": 53.566667,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Ballyragget",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.783333,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "BSN",
+    "label": "Ballyshannon",
+    "function": "3"
+  },
+  {
+    "locationCode": "BYV",
+    "label": "Ballyvaughan",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 53.116667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "BVY",
+    "label": "Ballyvourney",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.933333,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "BTM",
+    "label": "Baltimore",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Baltinglass",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 52.933333,
+    "lng": -6.7
+  },
+  {
+    "locationCode": "BGR",
+    "label": "Banagher",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.183333,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "BDO",
+    "label": "Bandon",
+    "function": "3",
+    "lat": 51.75,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bangor",
+    "function": "13",
+    "lat": 54.133333,
+    "lng": -9.733333
+  },
+  {
+    "locationCode": "BES",
+    "label": "Bangor Erris",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 54.133333,
+    "lng": -9.733333
+  },
+  {
+    "locationCode": "BYT",
+    "label": "Bantry",
+    "subdivisionCode": "CO",
+    "function": "134",
+    "lat": 51.683333,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Bantry Harbour",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 51.683333,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "BWD",
+    "label": "Bawnboy",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 54.116667,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "BEF",
+    "label": "Belfast",
+    "function": "3",
+    "lat": 54.583333,
+    "lng": -5.916667
+  },
+  {
+    "locationCode": "BLY",
+    "label": "Belmullet",
+    "subdivisionCode": "MO",
+    "function": "34",
+    "lat": 54.216667,
+    "lng": -9.983333
+  },
+  {
+    "locationCode": "BTB",
+    "label": "Belturbet",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 54.1,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Bettystown",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.7,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "BIH",
+    "label": "Birdhill",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.75,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Birr",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.083333,
+    "lng": -7.9
+  },
+  {
+    "locationCode": "BVL",
+    "label": "Bishops Village",
+    "subdivisionCode": "CO",
+    "function": "6",
+    "lat": 51.566667,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Blackrock",
+    "subdivisionCode": "D",
+    "function": "23",
+    "lat": 53.3,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "BKW",
+    "label": "Blackwater",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.433333,
+    "lng": -6.333333
+  },
+  {
+    "locationCode": "BHT",
+    "label": "Blanchardstown",
+    "function": "123",
+    "lat": 53.383333,
+    "lng": -6.366667
+  },
+  {
+    "locationCode": "BNY",
+    "label": "Blarney",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.933333,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Blessington",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.166667,
+    "lng": -6.516667
+  },
+  {
+    "locationCode": "ZMY",
+    "label": "Borris",
+    "subdivisionCode": "CW",
+    "function": "3",
+    "lat": 52.6,
+    "lng": -6.916667
+  },
+  {
+    "locationCode": "BIO",
+    "label": "Borris in Ossory",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 52.933333,
+    "lng": -7.633333
+  },
+  {
+    "locationCode": "BEH",
+    "label": "Borrisoleigh",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.75,
+    "lng": -7.95
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Boyle",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.966667,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Bray",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.2,
+    "lng": -6.083333
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bree",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.433333,
+    "lng": -6.6
+  },
+  {
+    "locationCode": "BGE",
+    "label": "Bridge End",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 55.016667,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "EBF",
+    "label": "Broadford",
+    "subdivisionCode": "CW",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Bruree",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.416667,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Bunbeg",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 55.05,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "BUY",
+    "label": "Bunclody",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.65,
+    "lng": -6.65
+  },
+  {
+    "locationCode": "BUC",
+    "label": "Buncrana",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Bunratty",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.683333,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "BFO",
+    "label": "Burnfoot",
+    "function": "36",
+    "lat": 55.05,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Burtonport",
+    "function": "13",
+    "lat": 54.983333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "BUT",
+    "label": "Butlerstown",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.583333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "CHR",
+    "label": "Caher",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAI",
+    "label": "Cahir (An Chathair)",
+    "function": "3",
+    "lat": 52.366667,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Cahirciveen",
+    "function": "134",
+    "lat": 51.95,
+    "lng": -10.216667
+  },
+  {
+    "locationCode": "LLN",
+    "label": "Callan",
+    "subdivisionCode": "KK",
+    "function": "6",
+    "lat": 52.533333,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "CML",
+    "label": "Camolin",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.6,
+    "lng": -6.416667
+  },
+  {
+    "locationCode": "CAP",
+    "label": "Cappoquin",
+    "subdivisionCode": "WD",
+    "function": "3",
+    "lat": 52.133333,
+    "lng": -7.85
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carlingford",
+    "function": "13"
+  },
+  {
+    "locationCode": "CAW",
+    "label": "Carlow",
+    "function": "3"
+  },
+  {
+    "locationCode": "CRA",
+    "label": "Carn",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.566667,
+    "lng": -7.833333
+  },
+  {
+    "locationCode": "CDN",
+    "label": "Carndonagh",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 55.25,
+    "lng": -7.266667
+  },
+  {
+    "locationCode": "ICK",
+    "label": "Carrick",
+    "subdivisionCode": "DL",
+    "function": "6",
+    "lat": 54.6,
+    "lng": -8.1
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Carrickcarnan",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Carrickmacross",
+    "function": "3"
+  },
+  {
+    "locationCode": "CKM",
+    "label": "Carrickmines",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.25,
+    "lng": -6.166667
+  },
+  {
+    "locationCode": "COS",
+    "label": "Carrick-on-Shannon",
+    "subdivisionCode": "LM",
+    "function": "3",
+    "lat": 53.95,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "CRS",
+    "label": "Carrick-on-Suir",
+    "subdivisionCode": "TA",
+    "function": "123",
+    "lat": 52.333333,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "CAE",
+    "label": "Carrigaline",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.8,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "CRR",
+    "label": "Carrigans",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.95,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "CGO",
+    "label": "Carrigtohill",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.9,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "QSH",
+    "label": "Cashel",
+    "function": "3"
+  },
+  {
+    "locationCode": "CTR",
+    "label": "Casteltownroche",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.166667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "CLB",
+    "label": "Castlebar",
+    "function": "34"
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Castlebellingham",
+    "function": "3"
+  },
+  {
+    "locationCode": "CBY",
+    "label": "Castleblaney",
+    "function": "3",
+    "lat": 54.116667,
+    "lng": -6.733333
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Castlecomer",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.8,
+    "lng": -7.216667
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Castleconnell",
+    "function": "3"
+  },
+  {
+    "locationCode": "7CM",
+    "label": "Castledermot",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 52.9,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "CFI",
+    "label": "Castlefinn",
+    "function": "136",
+    "lat": 54.8,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "CAD",
+    "label": "Castleisland",
+    "subdivisionCode": "KY",
+    "function": "23",
+    "lat": 52.233333,
+    "lng": -9.466667
+  },
+  {
+    "locationCode": "CLM",
+    "label": "Castlemahon",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.416667,
+    "lng": -9
+  },
+  {
+    "locationCode": "CMA",
+    "label": "Castlemaine",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 52.166667,
+    "lng": -9.7
+  },
+  {
+    "locationCode": "TLK",
+    "label": "Castlenock",
+    "subdivisionCode": "CW",
+    "function": "1"
+  },
+  {
+    "locationCode": "CPD",
+    "label": "Castlepollard",
+    "subdivisionCode": "WH",
+    "function": "3",
+    "lat": 53.666667,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Castlerea",
+    "function": "3"
+  },
+  {
+    "locationCode": "CTN",
+    "label": "Castletown",
+    "subdivisionCode": "LS",
+    "function": "23",
+    "lat": 52.966667,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "CTB",
+    "label": "Castletown Bearhaven",
+    "subdivisionCode": "CO",
+    "function": "13",
+    "lat": 51.65,
+    "lng": -9.916667
+  },
+  {
+    "locationCode": "CAU",
+    "label": "Causeway",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAV",
+    "label": "Cavan",
+    "function": "3"
+  },
+  {
+    "locationCode": "CEL",
+    "label": "Celbridge",
+    "function": "3",
+    "lat": 53.333333,
+    "lng": -6.55
+  },
+  {
+    "locationCode": "CHT",
+    "label": "Charlestown",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 53.95,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Charleville",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.35,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "CTW",
+    "label": "Churchtown",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.266667,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "CNE",
+    "label": "Clane",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -6.683333
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Clara",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLD",
+    "label": "Clare Island",
+    "subdivisionCode": "MO",
+    "function": "13",
+    "lat": 53.8,
+    "lng": -9.95
+  },
+  {
+    "locationCode": "CLC",
+    "label": "Clarecastle",
+    "subdivisionCode": "CE",
+    "function": "13",
+    "lat": 52.816667,
+    "lng": -8.95
+  },
+  {
+    "locationCode": "CMS",
+    "label": "Claremorris",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 53.716667,
+    "lng": -9
+  },
+  {
+    "locationCode": "CLI",
+    "label": "Clifden",
+    "function": "123"
+  },
+  {
+    "locationCode": "CLG",
+    "label": "Clogherhead",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.783333,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "CHD",
+    "label": "Cloghjordan",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.933333,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "CLO",
+    "label": "Cloghore",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLR",
+    "label": "Cloghran",
+    "function": "34",
+    "lat": 53.416667,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "CKY",
+    "label": "Clonakilty",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.616667,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "CSL",
+    "label": "Clonaslee",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 53.133333,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "CFY",
+    "label": "Clonbulloge",
+    "subdivisionCode": "OY",
+    "function": "6",
+    "lat": 53.25,
+    "lng": -7.083333
+  },
+  {
+    "locationCode": "CLK",
+    "label": "Clondalkin",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLE",
+    "label": "Clonee",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLS",
+    "label": "Clones",
+    "function": "3",
+    "lat": 54.166667,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "CLL",
+    "label": "Clonmel",
+    "function": "3"
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Clonshaugh",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.383333,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "CTT",
+    "label": "Clontibret",
+    "function": "3",
+    "lat": 54.2,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "CLN",
+    "label": "Cloonlara",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.716667,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "CCT",
+    "label": "Coastal Control Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "COB",
+    "label": "Cobh",
+    "function": "1"
+  },
+  {
+    "locationCode": "COL",
+    "label": "Collinstown",
+    "function": "3"
+  },
+  {
+    "locationCode": "CON",
+    "label": "Collon",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.766667,
+    "lng": -6.483333
+  },
+  {
+    "locationCode": "CLY",
+    "label": "Collooney",
+    "function": "3",
+    "lat": 54.183333,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "COA",
+    "label": "Coolea",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.916667,
+    "lng": -9.216667
+  },
+  {
+    "locationCode": "FGY",
+    "label": "Coolock",
+    "subdivisionCode": "D",
+    "function": "16",
+    "lat": 53.383333,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "CLH",
+    "label": "Coolshannagh",
+    "subdivisionCode": "MN",
+    "function": "3"
+  },
+  {
+    "locationCode": "CBR",
+    "label": "Coomhola Bridge",
+    "function": "34",
+    "lat": 51.75,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "COO",
+    "label": "Cootehill",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 54.066667,
+    "lng": -7.083333
+  },
+  {
+    "locationCode": "ORK",
+    "label": "Cork",
+    "function": "145"
+  },
+  {
+    "locationCode": "CRN",
+    "label": "Corrin",
+    "function": "3",
+    "lat": 52.1,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "CTL",
+    "label": "Cratloe",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.683333,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "CGW",
+    "label": "Craughwell",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.2,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "CRO",
+    "label": "Crookhaven",
+    "function": "1"
+  },
+  {
+    "locationCode": "CKS",
+    "label": "Crookstown",
+    "function": "3",
+    "lat": 51.833333,
+    "lng": -8.816667
+  },
+  {
+    "locationCode": "CDY",
+    "label": "Crossdoney",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.95,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "CSG",
+    "label": "Crosserlough",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.883333,
+    "lng": -7.283333
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curracloe",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.383333,
+    "lng": -6.383333
+  },
+  {
+    "locationCode": "CUH",
+    "label": "Curragh",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 53.133333,
+    "lng": -6.816667
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Dalkey",
+    "subdivisionCode": "D",
+    "function": "23",
+    "lat": 53.266667,
+    "lng": -6.1
+  },
+  {
+    "locationCode": "DEA",
+    "label": "Deans Grange",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -6.166667
+  },
+  {
+    "locationCode": "DEL",
+    "label": "Delgany",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.116667,
+    "lng": -6.083333
+  },
+  {
+    "locationCode": "DYB",
+    "label": "Derrybeg",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 55.083333,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "DER",
+    "label": "Derryveagh",
+    "function": "0"
+  },
+  {
+    "locationCode": "DIN",
+    "label": "Dingle",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAT",
+    "label": "Donabate",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.483333,
+    "lng": -6.15
+  },
+  {
+    "locationCode": "CFN",
+    "label": "Donegal",
+    "subdivisionCode": "DL",
+    "function": "134"
+  },
+  {
+    "locationCode": "DNR",
+    "label": "Donoughmore",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.983333,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "DLN",
+    "label": "Doolin",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 53.016667,
+    "lng": -9.383333
+  },
+  {
+    "locationCode": "DBG",
+    "label": "Doonbeg",
+    "subdivisionCode": "CE",
+    "function": "236",
+    "lat": 52.733333,
+    "lng": -9.516667
+  },
+  {
+    "locationCode": "DNE",
+    "label": "Dooneen",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.5,
+    "lng": -9.216667
+  },
+  {
+    "locationCode": "DGS",
+    "label": "Douglas",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.866667,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "DRI",
+    "label": "Drinagh",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.65,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "DRO",
+    "label": "Drogheda",
+    "function": "1"
+  },
+  {
+    "locationCode": "DMF",
+    "label": "Drogheda Maxol Facility",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.716667,
+    "lng": -6.333333
+  },
+  {
+    "locationCode": "DPP",
+    "label": "Drogheda Premiere Periclase",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.716667,
+    "lng": -62.516667
+  },
+  {
+    "locationCode": "NBR",
+    "label": "Droichead Nua",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.166667,
+    "lng": -6.783333
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Dromara",
+    "function": "3",
+    "lat": 54.366667,
+    "lng": -6.016667
+  },
+  {
+    "locationCode": "DCR",
+    "label": "Dromcolliher",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.333333,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "DRM",
+    "label": "Dromod",
+    "subdivisionCode": "LM",
+    "function": "3",
+    "lat": 53.866667,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "DMN",
+    "label": "Drumone",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.716667,
+    "lng": -7.15
+  },
+  {
+    "locationCode": "DMR",
+    "label": "Drumree",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.5,
+    "lng": -6.566667
+  },
+  {
+    "locationCode": "DRU",
+    "label": "Drumshanbo",
+    "subdivisionCode": "LM",
+    "function": "3",
+    "lat": 54.15,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "DUB",
+    "label": "Dublin",
+    "function": "12345"
+  },
+  {
+    "locationCode": "DFT",
+    "label": "Dublin-Dublin Ferryport Terminals",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.316667,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "DFA",
+    "label": "Dublin-Ferryport Terminal 1",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.316667,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "DFB",
+    "label": "Dublin-Ferryport Terminal 2",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.316667,
+    "lng": -6.2
+  },
+  {
+    "locationCode": "DFC",
+    "label": "Dublin-Ferryport Terminal 3",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.316667,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Dublin-Marine Terminal",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.333333,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "DUK",
+    "label": "Duleek",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.65,
+    "lng": -6.416667
+  },
+  {
+    "locationCode": "DLG",
+    "label": "Dun Laoghaire",
+    "function": "1",
+    "lat": 53.3,
+    "lng": -6.133333
+  },
+  {
+    "locationCode": "DNB",
+    "label": "Dunboyne",
+    "function": "3"
+  },
+  {
+    "locationCode": "DCN",
+    "label": "Duncannon/Saint Helens",
+    "subdivisionCode": "WX",
+    "function": "13",
+    "lat": 52.216667,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "DDK",
+    "label": "Dundalk",
+    "function": "1"
+  },
+  {
+    "locationCode": "DFY",
+    "label": "Dunfanaghy",
+    "subdivisionCode": "DL",
+    "function": "13",
+    "lat": 55.183333,
+    "lng": -7.966667
+  },
+  {
+    "locationCode": "DGV",
+    "label": "Dungarvan",
+    "subdivisionCode": "KK",
+    "function": "13",
+    "lat": 52.583333,
+    "lng": -7.083333
+  },
+  {
+    "locationCode": "DUW",
+    "label": "Dunglow",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.95,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "DLV",
+    "label": "Dunlavin",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.05,
+    "lng": -6.7
+  },
+  {
+    "locationCode": "DNL",
+    "label": "Dunleer",
+    "function": "3",
+    "lat": 53.833333,
+    "lng": -6.383333
+  },
+  {
+    "locationCode": "DNW",
+    "label": "Dunmanway",
+    "function": "3"
+  },
+  {
+    "locationCode": "DNM",
+    "label": "Dunmore East",
+    "function": "1"
+  },
+  {
+    "locationCode": "DUN",
+    "label": "Dunshaughlin",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.5,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "DOW",
+    "label": "Durrow",
+    "function": "36",
+    "lat": 52.85,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "EKY",
+    "label": "Easkey/Rathlee",
+    "subdivisionCode": "SO",
+    "function": "13",
+    "lat": 54.283333,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "EDE",
+    "label": "Edenderry",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.333333,
+    "lng": -7.05
+  },
+  {
+    "locationCode": "EYV",
+    "label": "Emyvale",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 54.333333,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "EFD",
+    "label": "Enfield",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 53.4,
+    "lng": -6.816667
+  },
+  {
+    "locationCode": "ENI",
+    "label": "Ennis",
+    "function": "3",
+    "lat": 52.833333,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "ENN",
+    "label": "Enniscorthy",
+    "function": "3"
+  },
+  {
+    "locationCode": "ENK",
+    "label": "Enniskean",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.733333,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "DWE",
+    "label": "Ennistymon",
+    "subdivisionCode": "CE",
+    "function": "13",
+    "lat": 52.933333,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "ESB",
+    "label": "ESB Poolbeg-Dublin",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 53.333333,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "FFO",
+    "label": "Farranfore",
+    "function": "36",
+    "lat": 52.166667,
+    "lng": -9.55
+  },
+  {
+    "locationCode": "FEN",
+    "label": "Fenit",
+    "subdivisionCode": "KY",
+    "function": "13",
+    "lat": 52.266667,
+    "lng": -9.866667
+  },
+  {
+    "locationCode": "FBE",
+    "label": "Ferbane",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.266667,
+    "lng": -7.816667
+  },
+  {
+    "locationCode": "FER",
+    "label": "Fermoy",
+    "function": "3"
+  },
+  {
+    "locationCode": "FEB",
+    "label": "Ferrybank",
+    "subdivisionCode": "WD",
+    "function": "3",
+    "lat": 52.25,
+    "lng": -7.1
+  },
+  {
+    "locationCode": "FTD",
+    "label": "Fethard/Slade",
+    "subdivisionCode": "TA",
+    "function": "13",
+    "lat": 52.2,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "FID",
+    "label": "Fiddown",
+    "function": "1"
+  },
+  {
+    "locationCode": "FLS",
+    "label": "Finglas",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.383333,
+    "lng": -6.283333
+  },
+  {
+    "locationCode": "FIN",
+    "label": "Fintona",
+    "function": "16",
+    "lat": 54.5,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "FPD",
+    "label": "Flogas Products Drogheda",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.716667,
+    "lng": -6.35
+  },
+  {
+    "locationCode": "FRW",
+    "label": "Ford's Wharf (Topaz Energy Terminal)",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 51.883333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "FXD",
+    "label": "Foxford",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 53.983333,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "FOV",
+    "label": "Foynes",
+    "function": "1"
+  },
+  {
+    "locationCode": "FCW",
+    "label": "Frank Cassin Wharf",
+    "function": "1"
+  },
+  {
+    "locationCode": "CHK",
+    "label": "Frenchpark",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.866667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "FSF",
+    "label": "Freshford",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.733333,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "GMY",
+    "label": "Galmoy",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.783333,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "GWY",
+    "label": "Galway",
+    "function": "1345"
+  },
+  {
+    "locationCode": "GLG",
+    "label": "Gilloge",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.683333,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "GLM",
+    "label": "Glanmire",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.9,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "GNV",
+    "label": "Glasnevin",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.366667,
+    "lng": -6.283333
+  },
+  {
+    "locationCode": "GMD",
+    "label": "Glenamaddy",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.6,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "GBI",
+    "label": "Glenbeigh",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 52.05,
+    "lng": -9.933333
+  },
+  {
+    "locationCode": "GGA",
+    "label": "Glengarriff",
+    "subdivisionCode": "CO",
+    "function": "13",
+    "lat": 51.75,
+    "lng": -9.55
+  },
+  {
+    "locationCode": "IGE",
+    "label": "Goresbridge",
+    "subdivisionCode": "KK",
+    "function": "6",
+    "lat": 52.616667,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Gorey",
+    "subdivisionCode": "WX",
+    "function": "23",
+    "lat": 52.65,
+    "lng": -6.3
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gormanston",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 53.616667,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "GOT",
+    "label": "Gort",
+    "subdivisionCode": "G",
+    "function": "23",
+    "lat": 53.05,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Gortahork",
+    "subdivisionCode": "DL",
+    "function": "16",
+    "lat": 55.116667,
+    "lng": -8.133333
+  },
+  {
+    "locationCode": "GOW",
+    "label": "Gowran",
+    "function": "16",
+    "lat": 57.616667,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "KKG",
+    "label": "Graiguenamanagh",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.533333,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "GGG",
+    "label": "Grangegeeth",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.75,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "GNA",
+    "label": "Grannagh",
+    "subdivisionCode": "WD",
+    "function": "3",
+    "lat": 52.25,
+    "lng": -7.1
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Greencastle",
+    "subdivisionCode": "DL",
+    "function": "13",
+    "lat": 55.2,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "GRN",
+    "label": "Greenore",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRH",
+    "label": "Grenagh",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.016667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "GRY",
+    "label": "Greystones",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.133333,
+    "lng": -6.05
+  },
+  {
+    "locationCode": "GUR",
+    "label": "Gurteen",
+    "subdivisionCode": "LM",
+    "function": "3",
+    "lat": 54.316667,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Haulbowline",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOH",
+    "label": "Holly Hill",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.666667,
+    "lng": -9.833333
+  },
+  {
+    "locationCode": "HYS",
+    "label": "Hollystown",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.416667,
+    "lng": -6.366667
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Holywood",
+    "subdivisionCode": "CW",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOW",
+    "label": "Howth",
+    "function": "1"
+  },
+  {
+    "locationCode": "INS",
+    "label": "Inishannon (Inis Eonain)",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.766667,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "INQ",
+    "label": "Inisheer",
+    "function": "4"
+  },
+  {
+    "locationCode": "IIA",
+    "label": "Inishmaan",
+    "function": "4"
+  },
+  {
+    "locationCode": "IOR",
+    "label": "Inishmore",
+    "function": "4"
+  },
+  {
+    "locationCode": "INV",
+    "label": "Inveran",
+    "function": "3",
+    "lat": 53.233333,
+    "lng": -9.433333
+  },
+  {
+    "locationCode": "IRD",
+    "label": "Irish Rail Freight Depot",
+    "function": "2"
+  },
+  {
+    "locationCode": "JMT",
+    "label": "Jamestown",
+    "subdivisionCode": "LM",
+    "function": "3"
+  },
+  {
+    "locationCode": "JTD",
+    "label": "Johnstown",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.4,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "JUL",
+    "label": "Julianstown",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.666667,
+    "lng": -6.266667
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Kanturk",
+    "function": "3"
+  },
+  {
+    "locationCode": "KLL",
+    "label": "Kells",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.716667,
+    "lng": -6.866667
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kenmare",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kerry County",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLB",
+    "label": "Kilbeggan",
+    "subdivisionCode": "WH",
+    "function": "3",
+    "lat": 53.366667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "KCR",
+    "label": "Kilcar",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.616667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "KCL",
+    "label": "Kilclare",
+    "function": "0"
+  },
+  {
+    "locationCode": "KCK",
+    "label": "Kilcock",
+    "function": "3",
+    "lat": 53.4,
+    "lng": -6.666667
+  },
+  {
+    "locationCode": "KCG",
+    "label": "Kilcolgan",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.2,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "KIC",
+    "label": "Kilcoole",
+    "subdivisionCode": "WW",
+    "function": "13"
+  },
+  {
+    "locationCode": "KCM",
+    "label": "Kilcormac",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.166667,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "KKY",
+    "label": "Kildalkey",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.566667,
+    "lng": -6.9
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kildare",
+    "function": "3"
+  },
+  {
+    "locationCode": "RRR",
+    "label": "Kildorrery",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 52.233333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "KLK",
+    "label": "Kilkenny",
+    "function": "3"
+  },
+  {
+    "locationCode": "IKN",
+    "label": "Kilkieran",
+    "subdivisionCode": "G",
+    "function": "6",
+    "lat": 53.316667,
+    "lng": -9.733333
+  },
+  {
+    "locationCode": "KKS",
+    "label": "kilkishen",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.8,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "KIK",
+    "label": "Kill, Kildare",
+    "function": "3"
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Killala",
+    "function": "13"
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Killaloe",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.8,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "KLY",
+    "label": "Killarney",
+    "function": "23"
+  },
+  {
+    "locationCode": "KLV",
+    "label": "Killavullen",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.133333,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "KDY",
+    "label": "Killeedy",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.383333,
+    "lng": -9.066667
+  },
+  {
+    "locationCode": "KZL",
+    "label": "Killeenaran",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.183333,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "KID",
+    "label": "Killenard",
+    "subdivisionCode": "LS",
+    "function": "35"
+  },
+  {
+    "locationCode": "KLS",
+    "label": "Killeshandra",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 54,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "KIY",
+    "label": "Killiney",
+    "function": "3",
+    "lat": 53.25,
+    "lng": -6.1
+  },
+  {
+    "locationCode": "KGL",
+    "label": "Killorglin",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 52.1,
+    "lng": -9.783333
+  },
+  {
+    "locationCode": "KBS",
+    "label": "Killybegs",
+    "function": "1"
+  },
+  {
+    "locationCode": "KGD",
+    "label": "Killygordon",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.8,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "KMT",
+    "label": "Kilmacthomas",
+    "subdivisionCode": "WD",
+    "function": "3",
+    "lat": 52.2,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "KWD",
+    "label": "Kilmainham Wood",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.85,
+    "lng": -6.8
+  },
+  {
+    "locationCode": "KMK",
+    "label": "Kilmallock",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.4,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "KKA",
+    "label": "Kilmokea",
+    "function": "1"
+  },
+  {
+    "locationCode": "KRL",
+    "label": "Kilmore Quay",
+    "subdivisionCode": "WX",
+    "function": "3",
+    "lat": 52.166667,
+    "lng": -6.583333
+  },
+  {
+    "locationCode": "KRY",
+    "label": "Kilmurry",
+    "subdivisionCode": "CE",
+    "function": "6",
+    "lat": 52.8,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kilnaleck",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.866667,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "KRN",
+    "label": "Kilronan",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.65,
+    "lng": -9.666667
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kilronan",
+    "subdivisionCode": "G",
+    "function": "134",
+    "lat": 53.116667,
+    "lng": -9.666667
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Kilrush",
+    "function": "1"
+  },
+  {
+    "locationCode": "KHE",
+    "label": "Kilsheelan",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.35,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "IKH",
+    "label": "Kiltamagh",
+    "subdivisionCode": "MO",
+    "function": "6",
+    "lat": 53.85,
+    "lng": -9
+  },
+  {
+    "locationCode": "KTE",
+    "label": "Kilteel",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.233333,
+    "lng": -6.516667
+  },
+  {
+    "locationCode": "KTA",
+    "label": "Kilternan",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.216667,
+    "lng": -6.183333
+  },
+  {
+    "locationCode": "KWH",
+    "label": "Kilworth",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.166667,
+    "lng": -8.233333
+  },
+  {
+    "locationCode": "KCT",
+    "label": "Kingscourt",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNG",
+    "label": "Kinnegad",
+    "subdivisionCode": "WH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLN",
+    "label": "Kinsale",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kinsealy",
+    "subdivisionCode": "D",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kinvarra",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.133333,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "NOC",
+    "label": "Knock",
+    "function": "4"
+  },
+  {
+    "locationCode": "NOK",
+    "label": "Knockalough",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.7,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "KTH",
+    "label": "Knocktopher",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.483333,
+    "lng": -7.2
+  },
+  {
+    "locationCode": "LBH",
+    "label": "Lanesborough",
+    "subdivisionCode": "LD",
+    "function": "3",
+    "lat": 53.666667,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "LEI",
+    "label": "Leitrim",
+    "function": "3"
+  },
+  {
+    "locationCode": "LEX",
+    "label": "Leixlip",
+    "function": "3"
+  },
+  {
+    "locationCode": "LTR",
+    "label": "Letterkenny",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIF",
+    "label": "Lifford",
+    "function": "3"
+  },
+  {
+    "locationCode": "LMK",
+    "label": "Limerick",
+    "function": "145"
+  },
+  {
+    "locationCode": "LDV",
+    "label": "Lisdoonvarna",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 53.016667,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "LSK",
+    "label": "Lisnarick",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 54.466667,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "LST",
+    "label": "Listowel",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIC",
+    "label": "Little Island/Cork",
+    "function": "23",
+    "lat": 51.9,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "LGA",
+    "label": "Loch Gowna",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.85,
+    "lng": -7.55
+  },
+  {
+    "locationCode": "LON",
+    "label": "Longford",
+    "function": "3"
+  },
+  {
+    "locationCode": "LEH",
+    "label": "Lough Egish",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 54.066667,
+    "lng": -6.8
+  },
+  {
+    "locationCode": "LOG",
+    "label": "Loughlinstown",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.233333,
+    "lng": -6.116667
+  },
+  {
+    "locationCode": "LOU",
+    "label": "Loughrea",
+    "function": "3"
+  },
+  {
+    "locationCode": "LTH",
+    "label": "Louth",
+    "function": "3"
+  },
+  {
+    "locationCode": "LKY",
+    "label": "Lucan",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.35,
+    "lng": -6.433333
+  },
+  {
+    "locationCode": "LAR",
+    "label": "Lurganm Armagh",
+    "subdivisionCode": "CW",
+    "function": "1"
+  },
+  {
+    "locationCode": "MCR",
+    "label": "Macroom",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Maghera",
+    "function": "13"
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Magheraroarty",
+    "subdivisionCode": "DL",
+    "function": "1",
+    "lat": 55.133333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Malahide",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.45,
+    "lng": -6.133333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Mallow",
+    "function": "3"
+  },
+  {
+    "locationCode": "MHN",
+    "label": "Manorhamilton",
+    "subdivisionCode": "LM",
+    "function": "6",
+    "lat": 54.3,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Marino Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marshmeadows/New Ross",
+    "subdivisionCode": "WX",
+    "function": "1",
+    "lat": 52.383333,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "MAY",
+    "label": "Maynooth",
+    "function": "3"
+  },
+  {
+    "locationCode": "MYO",
+    "label": "Mayo",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 53.75,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "MID",
+    "label": "Midleton",
+    "function": "3"
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Millstreet",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.05,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "MTW",
+    "label": "Milltown",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.616667,
+    "lng": -8.9
+  },
+  {
+    "locationCode": "MNM",
+    "label": "Milltown Malbay",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.85,
+    "lng": -9.4
+  },
+  {
+    "locationCode": "MIT",
+    "label": "Mitchelstown",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.25,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "MOA",
+    "label": "Moate",
+    "function": "3",
+    "lat": 53.383333,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Mogeely",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.916667,
+    "lng": -8.05
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monaghan",
+    "function": "3"
+  },
+  {
+    "locationCode": "MBE",
+    "label": "Monasterboice",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.766667,
+    "lng": -6.383333
+  },
+  {
+    "locationCode": "MNV",
+    "label": "Monesterevin",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.116667,
+    "lng": -7.05
+  },
+  {
+    "locationCode": "MOT",
+    "label": "Moneypoint",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBW",
+    "label": "Mount Bellew",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.466667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "MOU",
+    "label": "Mountmellick",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 53.116667,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "MTH",
+    "label": "Mountrath",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 52.983333,
+    "lng": -7.466667
+  },
+  {
+    "locationCode": "MOV",
+    "label": "Moville",
+    "subdivisionCode": "DL",
+    "function": "13",
+    "lat": 55.183333,
+    "lng": -7.033333
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Moy Bridge",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOY",
+    "label": "Moycullen",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.333333,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "MLT",
+    "label": "Mulhurddart",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.4,
+    "lng": -6.4
+  },
+  {
+    "locationCode": "MLA",
+    "label": "Mullagh",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.8,
+    "lng": -6.933333
+  },
+  {
+    "locationCode": "MUG",
+    "label": "Mullagh",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.45,
+    "lng": -6.633333
+  },
+  {
+    "locationCode": "MLL",
+    "label": "Mulligan",
+    "function": "3"
+  },
+  {
+    "locationCode": "MUE",
+    "label": "Mullinahone",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 52.5,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Mullingar",
+    "function": "3"
+  },
+  {
+    "locationCode": "MLM",
+    "label": "Multyfarnham",
+    "subdivisionCode": "WH",
+    "function": "3",
+    "lat": 53.616667,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murroe",
+    "subdivisionCode": "LK",
+    "function": "36",
+    "lat": 52.65,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "NAA",
+    "label": "Naas",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.2,
+    "lng": -6.666667
+  },
+  {
+    "locationCode": "NUL",
+    "label": "Naul",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.583333,
+    "lng": -6.283333
+  },
+  {
+    "locationCode": "AUU",
+    "label": "Navan (An Uaimh)",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 53.65,
+    "lng": -6.666667
+  },
+  {
+    "locationCode": "NEN",
+    "label": "Nenagh",
+    "subdivisionCode": "TA",
+    "function": "23",
+    "lat": 52.866667,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "NRS",
+    "label": "New Ross",
+    "subdivisionCode": "WX",
+    "function": "1",
+    "lat": 52.383333,
+    "lng": -6.933333
+  },
+  {
+    "locationCode": "NRR",
+    "label": "New Ross-Raheen/Roberscon",
+    "subdivisionCode": "WX",
+    "function": "1",
+    "lat": 52.383333,
+    "lng": -6.95
+  },
+  {
+    "locationCode": "NBS",
+    "label": "Newbliss",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 54.15,
+    "lng": -7.133333
+  },
+  {
+    "locationCode": "NWG",
+    "label": "Newbridge",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.166667,
+    "lng": -6.8
+  },
+  {
+    "locationCode": "NWC",
+    "label": "Newcastle",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.3,
+    "lng": -6.5
+  },
+  {
+    "locationCode": "NEW",
+    "label": "Newcastle West",
+    "function": "3"
+  },
+  {
+    "locationCode": "NMR",
+    "label": "Newmarket",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.216667,
+    "lng": -9
+  },
+  {
+    "locationCode": "NOF",
+    "label": "Newmarket on Fergus",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.75,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "NET",
+    "label": "Newport",
+    "subdivisionCode": "MO",
+    "function": "13",
+    "lat": 53.883333,
+    "lng": -9.533333
+  },
+  {
+    "locationCode": "NAY",
+    "label": "Newtonabbey",
+    "function": "123",
+    "lat": 54.65,
+    "lng": -5.933333
+  },
+  {
+    "locationCode": "NEX",
+    "label": "Newtown",
+    "subdivisionCode": "WX",
+    "function": "1"
+  },
+  {
+    "locationCode": "NMK",
+    "label": "Newtown Mount Kennedy",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.083333,
+    "lng": -6.116667
+  },
+  {
+    "locationCode": "OCA",
+    "label": "Ocallaghansmills",
+    "function": "3",
+    "lat": 52.833333,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Oldcastle",
+    "function": "36",
+    "lat": 53.766667,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "ONE",
+    "label": "Oranmore",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.266667,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "OUG",
+    "label": "Oughterard",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.416667,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "OVE",
+    "label": "Ovens",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.866667,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "PMS",
+    "label": "Palmerston",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.35,
+    "lng": -6.366667
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Pandoro Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Parnell Place",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAW",
+    "label": "Passage West",
+    "subdivisionCode": "CO",
+    "function": "13",
+    "lat": 51.866667,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "PTW",
+    "label": "Piltown",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.35,
+    "lng": -7.333333
+  },
+  {
+    "locationCode": "PBE",
+    "label": "Pluckerstown Bridge",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.233333,
+    "lng": -6.866667
+  },
+  {
+    "locationCode": "POR",
+    "label": "Portarlington",
+    "subdivisionCode": "LS",
+    "function": "23",
+    "lat": 53.15,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "PGN",
+    "label": "Portglenone",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": -6.466667
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Portlaoise",
+    "subdivisionCode": "LS",
+    "function": "235",
+    "lat": 53.033333,
+    "lng": -7.266667
+  },
+  {
+    "locationCode": "POK",
+    "label": "Portmarnock",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.416667,
+    "lng": -6.133333
+  },
+  {
+    "locationCode": "PTA",
+    "label": "Portumna",
+    "function": "3",
+    "lat": 53.083333,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "RAH",
+    "label": "Raheenagh",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 52.366667,
+    "lng": -9.033333
+  },
+  {
+    "locationCode": "RTN",
+    "label": "Ramelton",
+    "subdivisionCode": "DL",
+    "function": "13",
+    "lat": 55.033333,
+    "lng": -7.633333
+  },
+  {
+    "locationCode": "RNG",
+    "label": "Rathangan",
+    "function": "3",
+    "lat": 53.216667,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "RCO",
+    "label": "Rathcoole",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.266667,
+    "lng": -6.466667
+  },
+  {
+    "locationCode": "RCC",
+    "label": "Rathcormack",
+    "function": "3",
+    "lat": 52.083333,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "RTD",
+    "label": "Rathdowney",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 52.85,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "RDM",
+    "label": "Rathdrum",
+    "subdivisionCode": "WW",
+    "function": "13",
+    "lat": 52.916667,
+    "lng": -6.233333
+  },
+  {
+    "locationCode": "RAE",
+    "label": "Rathkeale",
+    "subdivisionCode": "LK",
+    "function": "23",
+    "lat": 52.516667,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Rathmore",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAT",
+    "label": "Rathmullan",
+    "subdivisionCode": "DL",
+    "function": "13",
+    "lat": 55.1,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "RAW",
+    "label": "Rathnew",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 52.983333,
+    "lng": -6.083333
+  },
+  {
+    "locationCode": "RTW",
+    "label": "Rathowen",
+    "subdivisionCode": "WH",
+    "function": "3",
+    "lat": 53.65,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "RTT",
+    "label": "Ratoath",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.5,
+    "lng": -6.45
+  },
+  {
+    "locationCode": "RED",
+    "label": "Redhouse",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.583333,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "RHO",
+    "label": "Rhode",
+    "subdivisionCode": "OY",
+    "function": "3",
+    "lat": 53.35,
+    "lng": -7.2
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Ringaskiddy",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 51.833333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "RDT",
+    "label": "Ringaskiddy Deepwater Terminal",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 51.833333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "RPT",
+    "label": "Ringaskiddy Passenger Terminal",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": 51.833333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "RVM",
+    "label": "River Moy",
+    "function": "1"
+  },
+  {
+    "locationCode": "RVT",
+    "label": "Riverstown",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.983333,
+    "lng": -6.216667
+  },
+  {
+    "locationCode": "RCM",
+    "label": "Rockmills",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.216667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "ROO",
+    "label": "Roosky",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.833333,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "RON",
+    "label": "Roscommon",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": 53.633333,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "RSC",
+    "label": "Roscrea",
+    "function": "3"
+  },
+  {
+    "locationCode": "RNS",
+    "label": "Rosenallis",
+    "function": "3",
+    "lat": 53.133333,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "RCB",
+    "label": "Ross Carbery",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.566667,
+    "lng": -9.033333
+  },
+  {
+    "locationCode": "RAV",
+    "label": "Rossaveel",
+    "function": "1"
+  },
+  {
+    "locationCode": "RSM",
+    "label": "Rossaveel",
+    "subdivisionCode": "G",
+    "function": "1",
+    "lat": 53.266667,
+    "lng": -9.55
+  },
+  {
+    "locationCode": "RSS",
+    "label": "Rosses Point",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 54.3,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "ROE",
+    "label": "Rosslare",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosslare Harbour",
+    "function": "1"
+  },
+  {
+    "locationCode": "RDW",
+    "label": "Roundwood",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 53.05,
+    "lng": -6.216667
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Rushbrooke",
+    "function": "123",
+    "lat": 51.85,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Saggart",
+    "function": "3"
+  },
+  {
+    "locationCode": "STM",
+    "label": "Saint Margaret's",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.416667,
+    "lng": -6.3
+  },
+  {
+    "locationCode": "SLS",
+    "label": "Sallins",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 53.233333,
+    "lng": -6.65
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salt Hill",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.25,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "SDN",
+    "label": "Sandycove",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -6.1
+  },
+  {
+    "locationCode": "SYF",
+    "label": "Sandyford",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.266667,
+    "lng": -6.216667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Santry/Dublin",
+    "function": "3",
+    "lat": 53.4,
+    "lng": -6.266667
+  },
+  {
+    "locationCode": "SCF",
+    "label": "Scariff",
+    "function": "3"
+  },
+  {
+    "locationCode": "SNN",
+    "label": "Shannon",
+    "subdivisionCode": "CE",
+    "function": "145",
+    "lat": 52.7,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "SRO",
+    "label": "Shercock",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 54,
+    "lng": -6.9
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Shillelagh",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 52.75,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Shrule",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 53.516667,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "SMB",
+    "label": "Sixmilebridge",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.733333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Skerries",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.566667,
+    "lng": -6.1
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Skibbereen",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.566667,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Skreen",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 54.233333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Skryne",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.583333,
+    "lng": -6.55
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Skull",
+    "subdivisionCode": "CO",
+    "function": "13",
+    "lat": 51.516667,
+    "lng": -9.533333
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Skull (Schull)",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.533333,
+    "lng": -9.55
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Slane",
+    "function": "3",
+    "lat": 53.7,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "SVE",
+    "label": "Slieveroe",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 52.283333,
+    "lng": -7.066667
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Sligo",
+    "function": "1"
+  },
+  {
+    "locationCode": "SXL",
+    "label": "Sligo Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "SNE",
+    "label": "Sneem",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 51.85,
+    "lng": -9.916667
+  },
+  {
+    "locationCode": "NNR",
+    "label": "Spiddal",
+    "subdivisionCode": "G",
+    "function": "34",
+    "lat": 53.233333,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "SJH",
+    "label": "St Johnston",
+    "subdivisionCode": "DL",
+    "function": "3",
+    "lat": 54.933333,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Stokestown/New Ross",
+    "subdivisionCode": "WX",
+    "function": "1",
+    "lat": 52.35,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "STB",
+    "label": "Stradbally",
+    "subdivisionCode": "LS",
+    "function": "3",
+    "lat": 53,
+    "lng": -7.15
+  },
+  {
+    "locationCode": "SDO",
+    "label": "Stradone",
+    "subdivisionCode": "CN",
+    "function": "3",
+    "lat": 53.983333,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "STF",
+    "label": "Straffan",
+    "function": "3",
+    "lat": 53.3,
+    "lng": -6.6
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Summerhill",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 53.483333,
+    "lng": -6.733333
+  },
+  {
+    "locationCode": "SWO",
+    "label": "Swords",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.45,
+    "lng": -6.216667
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Tallaght",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -6.333333
+  },
+  {
+    "locationCode": "ITW",
+    "label": "Tallow",
+    "subdivisionCode": "WD",
+    "function": "6",
+    "lat": 52.083333,
+    "lng": -8
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarbert",
+    "function": "1"
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Templemore",
+    "function": "3"
+  },
+  {
+    "locationCode": "TPG",
+    "label": "Templeogue",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 53.283333,
+    "lng": -6.3
+  },
+  {
+    "locationCode": "TFK",
+    "label": "Termonfeckin",
+    "subdivisionCode": "LH",
+    "function": "3",
+    "lat": 53.75,
+    "lng": -6.266667
+  },
+  {
+    "locationCode": "THO",
+    "label": "Thomastown",
+    "function": "3"
+  },
+  {
+    "locationCode": "THR",
+    "label": "Thurles",
+    "function": "23"
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Timoleague",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.633333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tinahely",
+    "subdivisionCode": "WW",
+    "function": "3",
+    "lat": 52.8,
+    "lng": -6.466667
+  },
+  {
+    "locationCode": "TPY",
+    "label": "Tipperary",
+    "function": "3"
+  },
+  {
+    "locationCode": "TIV",
+    "label": "Tivoli",
+    "function": "1"
+  },
+  {
+    "locationCode": "TOB",
+    "label": "Tober",
+    "subdivisionCode": "OY",
+    "function": "13",
+    "lat": 53.366667,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "TOG",
+    "label": "Togher",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.866667,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Tom Roes Point Terminal/Drogheda",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.716667,
+    "lng": -6.3
+  },
+  {
+    "locationCode": "TQY",
+    "label": "Town Quays/Drogheda",
+    "subdivisionCode": "LH",
+    "function": "1",
+    "lat": 53.716667,
+    "lng": -6.333333
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Tralee",
+    "function": "1"
+  },
+  {
+    "locationCode": "TME",
+    "label": "Tramore",
+    "function": "1"
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Trim",
+    "function": "3"
+  },
+  {
+    "locationCode": "ITM",
+    "label": "Tuam",
+    "subdivisionCode": "G",
+    "function": "6",
+    "lat": 53.516667,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "TUB",
+    "label": "Tubbercurry",
+    "function": "3"
+  },
+  {
+    "locationCode": "TLA",
+    "label": "Tulla",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 52.85,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "TUL",
+    "label": "Tullamore",
+    "subdivisionCode": "OY",
+    "function": "23",
+    "lat": 53.266667,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "TUW",
+    "label": "Tullow",
+    "function": "3"
+  },
+  {
+    "locationCode": "TYL",
+    "label": "Tullylease",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52.3,
+    "lng": -8.95
+  },
+  {
+    "locationCode": "TLN",
+    "label": "Tullynamalra",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 54.05,
+    "lng": -6.816667
+  },
+  {
+    "locationCode": "TYA",
+    "label": "Tynagh",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": 53.133333,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "UHL",
+    "label": "Unionhall",
+    "subdivisionCode": "CO",
+    "function": "13",
+    "lat": 51.55,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "UTN",
+    "label": "Urlingford",
+    "function": "3",
+    "lat": 52.716667,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Virginia",
+    "function": "3"
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Walkinstown",
+    "function": "0"
+  },
+  {
+    "locationCode": "WRL",
+    "label": "Waterfall",
+    "function": "6",
+    "lat": 51.85,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Waterford",
+    "subdivisionCode": "WD",
+    "function": "1345",
+    "lat": 52.25,
+    "lng": -7.1
+  },
+  {
+    "locationCode": "WCQ",
+    "label": "Waterford City Quays",
+    "subdivisionCode": "WD",
+    "function": "1",
+    "lat": 52.25,
+    "lng": -7.1
+  },
+  {
+    "locationCode": "WGI",
+    "label": "Waterford Great Island (ESB)",
+    "subdivisionCode": "WD",
+    "function": "1",
+    "lat": 52.266667,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "WGH",
+    "label": "Watergrasshill",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 52,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "WVI",
+    "label": "Waterville",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": 51.833333,
+    "lng": -10.166667
+  },
+  {
+    "locationCode": "WES",
+    "label": "Westport",
+    "function": "1"
+  },
+  {
+    "locationCode": "WEX",
+    "label": "Wexford",
+    "function": "14"
+  },
+  {
+    "locationCode": "WHI",
+    "label": "Whitegate",
+    "function": "1"
+  },
+  {
+    "locationCode": "WHO",
+    "label": "White's Cross",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 51.933333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "WTN",
+    "label": "Whitestown",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 53.383333,
+    "lng": -6.4
+  },
+  {
+    "locationCode": "WIC",
+    "label": "Wicklow",
+    "function": "1"
+  },
+  {
+    "locationCode": "WIL",
+    "label": "Wilton",
+    "subdivisionCode": "CO",
+    "function": "16"
+  },
+  {
+    "locationCode": "YOU",
+    "label": "Youghal",
+    "function": "1"
+  }
+]

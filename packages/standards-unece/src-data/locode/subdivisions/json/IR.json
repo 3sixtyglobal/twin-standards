@@ -1,0 +1,157 @@
+[
+  {
+    "code": "00",
+    "label": "Markazi",
+    "type": "Province"
+  },
+  {
+    "code": "01",
+    "label": "Gilan",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Mazandaran",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "AZarbayjan-e Sharqi",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "AZarbayjan-e Gharbi",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Kermanshah",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Khuzestan",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Fars",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Kerman",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Khorasan-e Ra?avi",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Esfahan",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Sistan va Baluchestan",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Kordestan",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Hamadan",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Chahar Ma?al va Bakhtiari",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Lorestan",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Ilam",
+    "type": "Province"
+  },
+  {
+    "code": "17",
+    "label": "Kohgiluyeh va Bowyer A?mad",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Bushehr",
+    "type": "Province"
+  },
+  {
+    "code": "19",
+    "label": "Zanjan",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Semnan",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Yazd",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "Hormozgan",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "Tehran",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Ardabil",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Qom",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Qazvin",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Golestan",
+    "type": "Province"
+  },
+  {
+    "code": "28",
+    "label": "Khorasan-e Shomali",
+    "type": "Province"
+  },
+  {
+    "code": "29",
+    "label": "Khorasan-e Jonubi",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Alborz",
+    "type": "Province"
+  }
+]

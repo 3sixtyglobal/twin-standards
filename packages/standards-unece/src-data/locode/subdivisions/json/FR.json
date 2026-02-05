@@ -1,0 +1,497 @@
+[
+  {
+    "code": "01",
+    "label": "Ain",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "02",
+    "label": "Aisne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "03",
+    "label": "Allier",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "04",
+    "label": "Alpes-de-Haute-Provence",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "05",
+    "label": "Hautes-Alpes",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "06",
+    "label": "Alpes-Maritimes",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "07",
+    "label": "Ardèche",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "08",
+    "label": "Ardennes",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "09",
+    "label": "Ariège",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "10",
+    "label": "Aube",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "11",
+    "label": "Aude",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "12",
+    "label": "Aveyron",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "13",
+    "label": "Bouches-du-Rhône",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "14",
+    "label": "Calvados",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "15",
+    "label": "Cantal",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "16",
+    "label": "Charente",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "17",
+    "label": "Charente-Maritime",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "18",
+    "label": "Cher",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "19",
+    "label": "Corrèze",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "21",
+    "label": "Côte-d'Or",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "22",
+    "label": "Côtes-d'Armor",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "23",
+    "label": "Creuse",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "24",
+    "label": "Dordogne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "25",
+    "label": "Doubs",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "26",
+    "label": "Drôme",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "27",
+    "label": "Eure",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "28",
+    "label": "Eure-et-Loir",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "29",
+    "label": "Finistère",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "2A",
+    "label": "Corse-du-Sud",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "2B",
+    "label": "Haute-Corse",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "30",
+    "label": "Gard",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "31",
+    "label": "Haute-Garonne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "32",
+    "label": "Gers",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "33",
+    "label": "Gironde",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "34",
+    "label": "Hérault",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "35",
+    "label": "Ille-et-Vilaine",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "36",
+    "label": "Indre",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "37",
+    "label": "Indre-et-Loire",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "38",
+    "label": "Isère",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "39",
+    "label": "Jura",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "40",
+    "label": "Landes",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "41",
+    "label": "Loir-et-Cher",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "42",
+    "label": "Loire",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "43",
+    "label": "Haute-Loire",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "44",
+    "label": "Loire-Atlantique",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "45",
+    "label": "Loiret",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "46",
+    "label": "Lot",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "47",
+    "label": "Lot-et-Garonne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "48",
+    "label": "Lozère",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "49",
+    "label": "Maine-et-Loire",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "50",
+    "label": "Manche",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "51",
+    "label": "Marne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "52",
+    "label": "Haute-Marne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "53",
+    "label": "Mayenne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "54",
+    "label": "Meurthe-et-Moselle",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "55",
+    "label": "Meuse",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "56",
+    "label": "Morbihan",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "57",
+    "label": "Moselle",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "58",
+    "label": "Nièvre",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "59",
+    "label": "Nord",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "60",
+    "label": "Oise",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "61",
+    "label": "Orne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "62",
+    "label": "Pas-de-Calais",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "63",
+    "label": "Puy-de-Dôme",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "64",
+    "label": "Pyrénées-Atlantiques",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "65",
+    "label": "Hautes-Pyrénées",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "66",
+    "label": "Pyrénées-Orientales",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "67",
+    "label": "Bas-Rhin",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "68",
+    "label": "Haut-Rhin",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "69",
+    "label": "Rhône",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "69M",
+    "label": "Métropole de Lyon",
+    "type": "Metropolitan collectivity with"
+  },
+  {
+    "code": "6AE",
+    "label": "Alsace",
+    "type": "European collectivity"
+  },
+  {
+    "code": "70",
+    "label": "Haute-Saône",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "71",
+    "label": "Saône-et-Loire",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "72",
+    "label": "Sarthe",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "73",
+    "label": "Savoie",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "74",
+    "label": "Haute-Savoie",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "75C",
+    "label": "Paris",
+    "type": "Metropolitan collectivity with special status"
+  },
+  {
+    "code": "76",
+    "label": "Seine-Maritime",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "77",
+    "label": "Seine-et-Marne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "78",
+    "label": "Yvelines",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "79",
+    "label": "Deux-Sèvres",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "80",
+    "label": "Somme",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "81",
+    "label": "Tarn",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "82",
+    "label": "Tarn-et-Garonne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "83",
+    "label": "Var",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "84",
+    "label": "Vaucluse",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "85",
+    "label": "Vendée",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "86",
+    "label": "Vienne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "87",
+    "label": "Haute-Vienne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "88",
+    "label": "Vosges",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "89",
+    "label": "Yonne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "90",
+    "label": "Territoire de Belfort",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "91",
+    "label": "Essonne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "92",
+    "label": "Hauts-de-Seine",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "93",
+    "label": "Seine-Saint-Denis",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "94",
+    "label": "Val-de-Marne",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "95",
+    "label": "Val-d'Oise",
+    "type": "Metropolitan department"
+  },
+  {
+    "code": "H",
+    "label": "Corse",
+    "type": "Metropolitan region"
+  }
+]

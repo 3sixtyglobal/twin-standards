@@ -1,0 +1,200 @@
+[
+  {
+    "locationCode": "AZR",
+    "label": "Azurite",
+    "function": "7",
+    "lat": -5.633333,
+    "lng": 10.983333
+  },
+  {
+    "locationCode": "BTB",
+    "label": "Betou",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOE",
+    "label": "Boundji",
+    "function": "4"
+  },
+  {
+    "locationCode": "BZV",
+    "label": "Brazzaville",
+    "function": "45"
+  },
+  {
+    "locationCode": "DJM",
+    "label": "Djambala",
+    "function": "4"
+  },
+  {
+    "locationCode": "DJE",
+    "label": "Djeno Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dolisie",
+    "subdivisionCode": "9",
+    "function": "6",
+    "lat": -4.183333,
+    "lng": 12.666667
+  },
+  {
+    "locationCode": "EPN",
+    "label": "Epéna",
+    "labelWithDiacritics": "Epena",
+    "function": "4",
+    "lat": 1.35,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "EWO",
+    "label": "Ewo",
+    "function": "4"
+  },
+  {
+    "locationCode": "GMM",
+    "label": "Gamboma",
+    "function": "4"
+  },
+  {
+    "locationCode": "ION",
+    "label": "Impfondo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEE",
+    "label": "Kéllé",
+    "labelWithDiacritics": "Kelle",
+    "function": "4",
+    "lat": -0.066667,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "KNJ",
+    "label": "Kindamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "LCO",
+    "label": "Lague",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKC",
+    "label": "Lekana",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIS",
+    "label": "Loubomo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMK",
+    "label": "Makabana",
+    "function": "24"
+  },
+  {
+    "locationCode": "MKJ",
+    "label": "Makoua",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBI",
+    "label": "Mbinda",
+    "function": "23",
+    "lat": -2.1,
+    "lng": 12.866667
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mossaka",
+    "function": "13",
+    "lat": -1.216667,
+    "lng": 16.8
+  },
+  {
+    "locationCode": "MSX",
+    "label": "Mossendjo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUY",
+    "label": "Mouyondzi",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKY",
+    "label": "Nkayi",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKO",
+    "label": "N'Kossa Terminal",
+    "function": "1",
+    "lat": -5.233333,
+    "lng": 11.6
+  },
+  {
+    "locationCode": "OKG",
+    "label": "Okoyo",
+    "function": "4"
+  },
+  {
+    "locationCode": "OUE",
+    "label": "Ouesso",
+    "function": "14"
+  },
+  {
+    "locationCode": "FTX",
+    "label": "Owando Apt",
+    "function": "34",
+    "lat": -0.966667,
+    "lng": 16
+  },
+  {
+    "locationCode": "OYO",
+    "label": "Oyo",
+    "function": "13",
+    "lat": 1,
+    "lng": 15.9
+  },
+  {
+    "locationCode": "PNR",
+    "label": "Pointe Noire",
+    "subdivisionCode": "16",
+    "function": "145",
+    "lat": -4.8,
+    "lng": 11.85
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sibiti",
+    "subdivisionCode": "2",
+    "function": "4",
+    "lat": -3.683333,
+    "lng": 13.333333
+  },
+  {
+    "locationCode": "SOE",
+    "label": "Souanké",
+    "labelWithDiacritics": "Souanke",
+    "function": "4",
+    "lat": 2.083333,
+    "lng": 14.133333
+  },
+  {
+    "locationCode": "YOM",
+    "label": "Yombo",
+    "subdivisionCode": "9",
+    "function": "1",
+    "lat": -2.933333,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "ANJ",
+    "label": "Zanaga",
+    "function": "4"
+  }
+]

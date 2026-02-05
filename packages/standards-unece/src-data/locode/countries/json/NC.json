@@ -1,0 +1,248 @@
+[
+  {
+    "locationCode": "BDB",
+    "label": "Baie de Prony",
+    "function": "3",
+    "lat": -22.366667,
+    "lng": 166.866667
+  },
+  {
+    "locationCode": "BMY",
+    "label": "Bélep I.",
+    "labelWithDiacritics": "Belep I.",
+    "function": "4",
+    "lat": -19.716667,
+    "lng": 163.666667
+  },
+  {
+    "locationCode": "4NB",
+    "label": "Bourail",
+    "function": "6",
+    "lat": -21.566667,
+    "lng": 165.483333
+  },
+  {
+    "locationCode": "DNB",
+    "label": "Doniambo/Nouméa",
+    "labelWithDiacritics": "Doniambo/Noumea",
+    "function": "3",
+    "lat": -22.25,
+    "lng": 166.45
+  },
+  {
+    "locationCode": "DUS",
+    "label": "Ducos",
+    "function": "1",
+    "lat": -22.233333,
+    "lng": 166.45
+  },
+  {
+    "locationCode": "DUM",
+    "label": "Dumbéa",
+    "labelWithDiacritics": "Dumbea",
+    "function": "3",
+    "lat": -22.15,
+    "lng": 166.45
+  },
+  {
+    "locationCode": "HNG",
+    "label": "Hienghene",
+    "function": "3",
+    "lat": -20.666667,
+    "lng": 164.883333
+  },
+  {
+    "locationCode": "HLU",
+    "label": "Houaïlou",
+    "labelWithDiacritics": "Houailou",
+    "function": "4",
+    "lat": -21.25,
+    "lng": 165.616667
+  },
+  {
+    "locationCode": "ILP",
+    "label": "Ile des Pins",
+    "function": "4",
+    "lat": -22.583333,
+    "lng": 167.45
+  },
+  {
+    "locationCode": "IOU",
+    "label": "Ile Ouen",
+    "function": "4",
+    "lat": -22.466667,
+    "lng": 166.783333
+  },
+  {
+    "locationCode": "KNQ",
+    "label": "Koné",
+    "labelWithDiacritics": "Kone",
+    "function": "4",
+    "lat": -21.05,
+    "lng": 164.833333
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Kouaoua",
+    "function": "13",
+    "lat": -21.4,
+    "lng": 165.833333
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Koumac",
+    "function": "4",
+    "lat": -20.55,
+    "lng": 164.25
+  },
+  {
+    "locationCode": "LAF",
+    "label": "La Foa",
+    "function": "3",
+    "lat": -21.716667,
+    "lng": 165.833333
+  },
+  {
+    "locationCode": "MTD",
+    "label": "Le Mont-Dore",
+    "function": "16",
+    "lat": -22.283333,
+    "lng": 166.583333
+  },
+  {
+    "locationCode": "LIF",
+    "label": "Lifou",
+    "function": "14",
+    "lat": -20.966667,
+    "lng": 167.233333
+  },
+  {
+    "locationCode": "MEE",
+    "label": "Maré",
+    "labelWithDiacritics": "Mare",
+    "function": "14",
+    "lat": -21.5,
+    "lng": 167.983333
+  },
+  {
+    "locationCode": "PDC",
+    "label": "Muéo/Népoui",
+    "labelWithDiacritics": "Mueo/Nepoui",
+    "function": "34",
+    "lat": -21.3,
+    "lng": 165.016667
+  },
+  {
+    "locationCode": "NAK",
+    "label": "Nakéty",
+    "labelWithDiacritics": "Nakety",
+    "function": "13",
+    "lat": -21.55,
+    "lng": 166.033333
+  },
+  {
+    "locationCode": "NEP",
+    "label": "Népoui",
+    "labelWithDiacritics": "Nepoui",
+    "function": "14",
+    "lat": -21.316667,
+    "lng": 165
+  },
+  {
+    "locationCode": "NOU",
+    "label": "Nouméa",
+    "labelWithDiacritics": "Noumea",
+    "function": "145",
+    "lat": -22.266667,
+    "lng": 166.45
+  },
+  {
+    "locationCode": "GEA",
+    "label": "Nouméa Magenta Apt",
+    "labelWithDiacritics": "Noumea Magenta Apt",
+    "function": "4",
+    "lat": -22.25,
+    "lng": 166.466667
+  },
+  {
+    "locationCode": "UVE",
+    "label": "Ouvea",
+    "function": "4",
+    "lat": -20.633333,
+    "lng": 166.566667
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Paagoumène",
+    "labelWithDiacritics": "Paagoumene",
+    "function": "1",
+    "lat": -20.483333,
+    "lng": 164.2
+  },
+  {
+    "locationCode": "POR",
+    "label": "Poro",
+    "function": "13",
+    "lat": -21.3,
+    "lng": 165.716667
+  },
+  {
+    "locationCode": "PBT",
+    "label": "Pouembout",
+    "function": "3",
+    "lat": -21.133333,
+    "lng": 164.9
+  },
+  {
+    "locationCode": "PNY",
+    "label": "Prony",
+    "function": "13",
+    "lat": -22.316667,
+    "lng": 166.816667
+  },
+  {
+    "locationCode": "TUD",
+    "label": "Teoudie",
+    "function": "13",
+    "lat": -20.766667,
+    "lng": 164.4
+  },
+  {
+    "locationCode": "THI",
+    "label": "Thio",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGJ",
+    "label": "Tiga",
+    "function": "4",
+    "lat": -21.1,
+    "lng": 167.8
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tontouta Apt",
+    "function": "145"
+  },
+  {
+    "locationCode": "TOU",
+    "label": "Touho",
+    "function": "4",
+    "lat": -20.783333,
+    "lng": 165.266667
+  },
+  {
+    "locationCode": "VAV",
+    "label": "Vavouto",
+    "function": "1",
+    "lat": -21,
+    "lng": 164.666667
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Wala",
+    "function": "1",
+    "lat": -19.716667,
+    "lng": 163.65
+  }
+]

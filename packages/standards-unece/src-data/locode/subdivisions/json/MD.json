@@ -1,0 +1,182 @@
+[
+  {
+    "code": "AN",
+    "label": "Anenii Noi",
+    "type": "District"
+  },
+  {
+    "code": "BA",
+    "label": "Balti",
+    "type": "City"
+  },
+  {
+    "code": "BD",
+    "label": "Bender [Tighina]",
+    "type": "City"
+  },
+  {
+    "code": "BR",
+    "label": "Briceni",
+    "type": "District"
+  },
+  {
+    "code": "BS",
+    "label": "Basarabeasca",
+    "type": "District"
+  },
+  {
+    "code": "CA",
+    "label": "Cahul",
+    "type": "District"
+  },
+  {
+    "code": "CL",
+    "label": "Calarasi",
+    "type": "District"
+  },
+  {
+    "code": "CM",
+    "label": "Cimislia",
+    "type": "District"
+  },
+  {
+    "code": "CR",
+    "label": "Criuleni",
+    "type": "District"
+  },
+  {
+    "code": "CS",
+    "label": "Causeni",
+    "type": "District"
+  },
+  {
+    "code": "CT",
+    "label": "Cantemir",
+    "type": "District"
+  },
+  {
+    "code": "CU",
+    "label": "Chisinau",
+    "type": "City"
+  },
+  {
+    "code": "DO",
+    "label": "Donduseni",
+    "type": "District"
+  },
+  {
+    "code": "DR",
+    "label": "Drochia",
+    "type": "District"
+  },
+  {
+    "code": "DU",
+    "label": "Dubasari",
+    "type": "District"
+  },
+  {
+    "code": "ED",
+    "label": "Edinet",
+    "type": "District"
+  },
+  {
+    "code": "FA",
+    "label": "Falesti",
+    "type": "District"
+  },
+  {
+    "code": "FL",
+    "label": "Floresti",
+    "type": "District"
+  },
+  {
+    "code": "GL",
+    "label": "Glodeni",
+    "type": "District"
+  },
+  {
+    "code": "HI",
+    "label": "Hîncesti",
+    "type": "District"
+  },
+  {
+    "code": "IA",
+    "label": "Ialoveni",
+    "type": "District"
+  },
+  {
+    "code": "LE",
+    "label": "Leova",
+    "type": "District"
+  },
+  {
+    "code": "NI",
+    "label": "Nisporeni",
+    "type": "District"
+  },
+  {
+    "code": "OC",
+    "label": "Ocniþa",
+    "type": "District"
+  },
+  {
+    "code": "OR",
+    "label": "Orhei",
+    "type": "District"
+  },
+  {
+    "code": "RE",
+    "label": "Rezina",
+    "type": "District"
+  },
+  {
+    "code": "RI",
+    "label": "Rîscani",
+    "type": "District"
+  },
+  {
+    "code": "SD",
+    "label": "Soldanesti",
+    "type": "District"
+  },
+  {
+    "code": "SI",
+    "label": "Sîngerei",
+    "type": "District"
+  },
+  {
+    "code": "SN",
+    "label": "Stînga Nistrului, unitatea teritoriala din",
+    "type": "Territorial unit"
+  },
+  {
+    "code": "SO",
+    "label": "Soroca",
+    "type": "District"
+  },
+  {
+    "code": "ST",
+    "label": "Straseni",
+    "type": "District"
+  },
+  {
+    "code": "SV",
+    "label": "Stefan Voda",
+    "type": "District"
+  },
+  {
+    "code": "TA",
+    "label": "Taraclia",
+    "type": "District"
+  },
+  {
+    "code": "TE",
+    "label": "Telenesti",
+    "type": "District"
+  },
+  {
+    "code": "UN",
+    "label": "Ungheni",
+    "type": "District"
+  }
+]

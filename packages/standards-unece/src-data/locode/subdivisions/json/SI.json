@@ -1,0 +1,1057 @@
+[
+  {
+    "code": "001",
+    "label": "Ajdovcina",
+    "type": "Municipality"
+  },
+  {
+    "code": "002",
+    "label": "Beltinci",
+    "type": "Municipality"
+  },
+  {
+    "code": "003",
+    "label": "Bled",
+    "type": "Municipality"
+  },
+  {
+    "code": "004",
+    "label": "Bohinj",
+    "type": "Municipality"
+  },
+  {
+    "code": "005",
+    "label": "Borovnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "006",
+    "label": "Bovec",
+    "type": "Municipality"
+  },
+  {
+    "code": "007",
+    "label": "Brda",
+    "type": "Municipality"
+  },
+  {
+    "code": "008",
+    "label": "Brezovica",
+    "type": "Municipality"
+  },
+  {
+    "code": "009",
+    "label": "Breice",
+    "type": "Municipality"
+  },
+  {
+    "code": "010",
+    "label": "Tiina",
+    "type": "Municipality"
+  },
+  {
+    "code": "011",
+    "label": "Celje",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "012",
+    "label": "Cerklje na Gorenjskem",
+    "type": "Municipality"
+  },
+  {
+    "code": "013",
+    "label": "Cerknica",
+    "type": "Municipality"
+  },
+  {
+    "code": "014",
+    "label": "Cerkno",
+    "type": "Municipality"
+  },
+  {
+    "code": "015",
+    "label": "Crenovci",
+    "type": "Municipality"
+  },
+  {
+    "code": "016",
+    "label": "Crna na Korokem",
+    "type": "Municipality"
+  },
+  {
+    "code": "017",
+    "label": "Crnomelj",
+    "type": "Municipality"
+  },
+  {
+    "code": "018",
+    "label": "Destrnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "019",
+    "label": "Divaca",
+    "type": "Municipality"
+  },
+  {
+    "code": "020",
+    "label": "Dobrepolje",
+    "type": "Municipality"
+  },
+  {
+    "code": "021",
+    "label": "Dobrova-Polhov Gradec",
+    "type": "Municipality"
+  },
+  {
+    "code": "022",
+    "label": "Dol pri Ljubljani",
+    "type": "Municipality"
+  },
+  {
+    "code": "023",
+    "label": "Domale",
+    "type": "Municipality"
+  },
+  {
+    "code": "024",
+    "label": "Dornava",
+    "type": "Municipality"
+  },
+  {
+    "code": "025",
+    "label": "Dravograd",
+    "type": "Municipality"
+  },
+  {
+    "code": "026",
+    "label": "Duplek",
+    "type": "Municipality"
+  },
+  {
+    "code": "027",
+    "label": "Gorenja vas-Poljane",
+    "type": "Municipality"
+  },
+  {
+    "code": "028",
+    "label": "Gorinica",
+    "type": "Municipality"
+  },
+  {
+    "code": "029",
+    "label": "Gornja Radgona",
+    "type": "Municipality"
+  },
+  {
+    "code": "030",
+    "label": "Gornji Grad",
+    "type": "Municipality"
+  },
+  {
+    "code": "031",
+    "label": "Gornji Petrovci",
+    "type": "Municipality"
+  },
+  {
+    "code": "032",
+    "label": "Grosuplje",
+    "type": "Municipality"
+  },
+  {
+    "code": "033",
+    "label": "alovci",
+    "type": "Municipality"
+  },
+  {
+    "code": "034",
+    "label": "Hrastnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "035",
+    "label": "Hrpelje-Kozina",
+    "type": "Municipality"
+  },
+  {
+    "code": "036",
+    "label": "Idrija",
+    "type": "Municipality"
+  },
+  {
+    "code": "037",
+    "label": "Ig",
+    "type": "Municipality"
+  },
+  {
+    "code": "038",
+    "label": "Ilirska Bistrica",
+    "type": "Municipality"
+  },
+  {
+    "code": "039",
+    "label": "Ivancna Gorica",
+    "type": "Municipality"
+  },
+  {
+    "code": "040",
+    "label": "Izola",
+    "type": "Municipality"
+  },
+  {
+    "code": "041",
+    "label": "Jesenice",
+    "type": "Municipality"
+  },
+  {
+    "code": "042",
+    "label": "Jurinci",
+    "type": "Municipality"
+  },
+  {
+    "code": "043",
+    "label": "Kamnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "044",
+    "label": "Kanal ob Soci",
+    "type": "Municipality"
+  },
+  {
+    "code": "045",
+    "label": "Kidricevo",
+    "type": "Municipality"
+  },
+  {
+    "code": "046",
+    "label": "Kobarid",
+    "type": "Municipality"
+  },
+  {
+    "code": "047",
+    "label": "Kobilje",
+    "type": "Municipality"
+  },
+  {
+    "code": "048",
+    "label": "Kocevje",
+    "type": "Municipality"
+  },
+  {
+    "code": "049",
+    "label": "Komen",
+    "type": "Municipality"
+  },
+  {
+    "code": "050",
+    "label": "Koper",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "051",
+    "label": "Kozje",
+    "type": "Municipality"
+  },
+  {
+    "code": "052",
+    "label": "Kranj",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "053",
+    "label": "Kranjska Gora",
+    "type": "Municipality"
+  },
+  {
+    "code": "054",
+    "label": "Krko",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "055",
+    "label": "Kungota",
+    "type": "Municipality"
+  },
+  {
+    "code": "056",
+    "label": "Kuzma",
+    "type": "Municipality"
+  },
+  {
+    "code": "057",
+    "label": "Lako",
+    "type": "Municipality"
+  },
+  {
+    "code": "058",
+    "label": "Lenart",
+    "type": "Municipality"
+  },
+  {
+    "code": "059",
+    "label": "Lendava",
+    "type": "Municipality"
+  },
+  {
+    "code": "060",
+    "label": "Litija",
+    "type": "Municipality"
+  },
+  {
+    "code": "061",
+    "label": "Ljubljana",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "062",
+    "label": "Ljubno",
+    "type": "Municipality"
+  },
+  {
+    "code": "063",
+    "label": "Ljutomer",
+    "type": "Municipality"
+  },
+  {
+    "code": "064",
+    "label": "Logatec",
+    "type": "Municipality"
+  },
+  {
+    "code": "065",
+    "label": "Loka dolina",
+    "type": "Municipality"
+  },
+  {
+    "code": "066",
+    "label": "Loki Potok",
+    "type": "Municipality"
+  },
+  {
+    "code": "067",
+    "label": "Luce",
+    "type": "Municipality"
+  },
+  {
+    "code": "068",
+    "label": "Lukovica",
+    "type": "Municipality"
+  },
+  {
+    "code": "069",
+    "label": "Majperk",
+    "type": "Municipality"
+  },
+  {
+    "code": "070",
+    "label": "Maribor",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "071",
+    "label": "Medvode",
+    "type": "Municipality"
+  },
+  {
+    "code": "072",
+    "label": "Menge",
+    "type": "Municipality"
+  },
+  {
+    "code": "073",
+    "label": "Metlika",
+    "type": "Municipality"
+  },
+  {
+    "code": "074",
+    "label": "Meica",
+    "type": "Municipality"
+  },
+  {
+    "code": "075",
+    "label": "Miren-Kostanjevica",
+    "type": "Municipality"
+  },
+  {
+    "code": "076",
+    "label": "Mislinja",
+    "type": "Municipality"
+  },
+  {
+    "code": "077",
+    "label": "Moravce",
+    "type": "Municipality"
+  },
+  {
+    "code": "078",
+    "label": "Moravske Toplice",
+    "type": "Municipality"
+  },
+  {
+    "code": "079",
+    "label": "Mozirje",
+    "type": "Municipality"
+  },
+  {
+    "code": "080",
+    "label": "Murska Sobota",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "081",
+    "label": "Muta",
+    "type": "Municipality"
+  },
+  {
+    "code": "082",
+    "label": "Naklo",
+    "type": "Municipality"
+  },
+  {
+    "code": "083",
+    "label": "Nazarje",
+    "type": "Municipality"
+  },
+  {
+    "code": "084",
+    "label": "Nova Gorica",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "085",
+    "label": "Novo mesto",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "086",
+    "label": "Odranci",
+    "type": "Municipality"
+  },
+  {
+    "code": "087",
+    "label": "Ormo",
+    "type": "Municipality"
+  },
+  {
+    "code": "088",
+    "label": "Osilnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "089",
+    "label": "Pesnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "090",
+    "label": "Piran",
+    "type": "Municipality"
+  },
+  {
+    "code": "091",
+    "label": "Pivka",
+    "type": "Municipality"
+  },
+  {
+    "code": "092",
+    "label": "Podcetrtek",
+    "type": "Municipality"
+  },
+  {
+    "code": "093",
+    "label": "Podvelka",
+    "type": "Municipality"
+  },
+  {
+    "code": "094",
+    "label": "Postojna",
+    "type": "Municipality"
+  },
+  {
+    "code": "095",
+    "label": "Preddvor",
+    "type": "Municipality"
+  },
+  {
+    "code": "096",
+    "label": "Ptuj",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "097",
+    "label": "Puconci",
+    "type": "Municipality"
+  },
+  {
+    "code": "098",
+    "label": "Race-Fram",
+    "type": "Municipality"
+  },
+  {
+    "code": "099",
+    "label": "Radece",
+    "type": "Municipality"
+  },
+  {
+    "code": "100",
+    "label": "Radenci",
+    "type": "Municipality"
+  },
+  {
+    "code": "101",
+    "label": "Radlje ob Dravi",
+    "type": "Municipality"
+  },
+  {
+    "code": "102",
+    "label": "Radovljica",
+    "type": "Municipality"
+  },
+  {
+    "code": "103",
+    "label": "Ravne na Korokem",
+    "type": "Municipality"
+  },
+  {
+    "code": "104",
+    "label": "Ribnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "105",
+    "label": "Rogaovci",
+    "type": "Municipality"
+  },
+  {
+    "code": "106",
+    "label": "Rogaka Slatina",
+    "type": "Municipality"
+  },
+  {
+    "code": "107",
+    "label": "Rogatec",
+    "type": "Municipality"
+  },
+  {
+    "code": "108",
+    "label": "Rue",
+    "type": "Municipality"
+  },
+  {
+    "code": "109",
+    "label": "Semic",
+    "type": "Municipality"
+  },
+  {
+    "code": "110",
+    "label": "Sevnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "111",
+    "label": "Seana",
+    "type": "Municipality"
+  },
+  {
+    "code": "112",
+    "label": "Slovenj Gradec",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "113",
+    "label": "Slovenska Bistrica",
+    "type": "Municipality"
+  },
+  {
+    "code": "114",
+    "label": "Slovenske Konjice",
+    "type": "Municipality"
+  },
+  {
+    "code": "115",
+    "label": "Stare",
+    "type": "Municipality"
+  },
+  {
+    "code": "116",
+    "label": "Sveti Jurij ob cavnic",
+    "type": "Municipality"
+  },
+  {
+    "code": "117",
+    "label": "encur",
+    "type": "Municipality"
+  },
+  {
+    "code": "118",
+    "label": "entilj",
+    "type": "Municipality"
+  },
+  {
+    "code": "119",
+    "label": "entjernej",
+    "type": "Municipality"
+  },
+  {
+    "code": "120",
+    "label": "entjur",
+    "type": "Municipality"
+  },
+  {
+    "code": "121",
+    "label": "kocjan",
+    "type": "Municipality"
+  },
+  {
+    "code": "122",
+    "label": "kofja Loka",
+    "type": "Municipality"
+  },
+  {
+    "code": "123",
+    "label": "kofljica",
+    "type": "Municipality"
+  },
+  {
+    "code": "124",
+    "label": "marje pri Jelah",
+    "type": "Municipality"
+  },
+  {
+    "code": "125",
+    "label": "martno ob Paki",
+    "type": "Municipality"
+  },
+  {
+    "code": "126",
+    "label": "otanj",
+    "type": "Municipality"
+  },
+  {
+    "code": "127",
+    "label": "tore",
+    "type": "Municipality"
+  },
+  {
+    "code": "128",
+    "label": "Tolmin",
+    "type": "Municipality"
+  },
+  {
+    "code": "129",
+    "label": "Trbovlje",
+    "type": "Municipality"
+  },
+  {
+    "code": "130",
+    "label": "Trebnje",
+    "type": "Municipality"
+  },
+  {
+    "code": "131",
+    "label": "Tric",
+    "type": "Municipality"
+  },
+  {
+    "code": "132",
+    "label": "Turnice",
+    "type": "Municipality"
+  },
+  {
+    "code": "133",
+    "label": "Velenje",
+    "type": "Urban Municipality"
+  },
+  {
+    "code": "134",
+    "label": "Velike Lace",
+    "type": "Municipality"
+  },
+  {
+    "code": "135",
+    "label": "Videm",
+    "type": "Municipality"
+  },
+  {
+    "code": "136",
+    "label": "Vipava",
+    "type": "Municipality"
+  },
+  {
+    "code": "137",
+    "label": "Vitanje",
+    "type": "Municipality"
+  },
+  {
+    "code": "138",
+    "label": "Vodice",
+    "type": "Municipality"
+  },
+  {
+    "code": "139",
+    "label": "Vojnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "140",
+    "label": "Vrhnika",
+    "type": "Municipality"
+  },
+  {
+    "code": "141",
+    "label": "Vuzenica",
+    "type": "Municipality"
+  },
+  {
+    "code": "142",
+    "label": "Zagorje ob Savi",
+    "type": "Municipality"
+  },
+  {
+    "code": "143",
+    "label": "Zavrc",
+    "type": "Municipality"
+  },
+  {
+    "code": "144",
+    "label": "Zrece",
+    "type": "Municipality"
+  },
+  {
+    "code": "146",
+    "label": "elezniki",
+    "type": "Municipality"
+  },
+  {
+    "code": "147",
+    "label": "iri",
+    "type": "Municipality"
+  },
+  {
+    "code": "148",
+    "label": "Benedikt",
+    "type": "Municipality"
+  },
+  {
+    "code": "149",
+    "label": "Bistrica ob Sotli",
+    "type": "Municipality"
+  },
+  {
+    "code": "150",
+    "label": "Bloke",
+    "type": "Municipality"
+  },
+  {
+    "code": "151",
+    "label": "Braslovce",
+    "type": "Municipality"
+  },
+  {
+    "code": "152",
+    "label": "Cankova",
+    "type": "Municipality"
+  },
+  {
+    "code": "153",
+    "label": "Cerkvenjak",
+    "type": "Municipality"
+  },
+  {
+    "code": "154",
+    "label": "Dobje",
+    "type": "Municipality"
+  },
+  {
+    "code": "155",
+    "label": "Dobrna",
+    "type": "Municipality"
+  },
+  {
+    "code": "156",
+    "label": "Dobrovnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "157",
+    "label": "Dolenjske Toplice",
+    "type": "Municipality"
+  },
+  {
+    "code": "158",
+    "label": "Grad",
+    "type": "Municipality"
+  },
+  {
+    "code": "159",
+    "label": "Hajdina",
+    "type": "Municipality"
+  },
+  {
+    "code": "160",
+    "label": "Hoce-Slivnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "161",
+    "label": "Hodo",
+    "type": "Municipality"
+  },
+  {
+    "code": "162",
+    "label": "Horjul",
+    "type": "Municipality"
+  },
+  {
+    "code": "163",
+    "label": "Jezersko",
+    "type": "Municipality"
+  },
+  {
+    "code": "164",
+    "label": "Komenda",
+    "type": "Municipality"
+  },
+  {
+    "code": "165",
+    "label": "Kostel",
+    "type": "Municipality"
+  },
+  {
+    "code": "166",
+    "label": "Krievci",
+    "type": "Municipality"
+  },
+  {
+    "code": "167",
+    "label": "Lovrenc na Pohorju",
+    "type": "Municipality"
+  },
+  {
+    "code": "168",
+    "label": "Markovci",
+    "type": "Municipality"
+  },
+  {
+    "code": "169",
+    "label": "Miklav na Dravskem polju",
+    "type": "Municipality"
+  },
+  {
+    "code": "170",
+    "label": "Mirna Pec",
+    "type": "Municipality"
+  },
+  {
+    "code": "171",
+    "label": "Oplotnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "172",
+    "label": "Podlehnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "173",
+    "label": "Polzela",
+    "type": "Municipality"
+  },
+  {
+    "code": "174",
+    "label": "Prebold",
+    "type": "Municipality"
+  },
+  {
+    "code": "175",
+    "label": "Prevalje",
+    "type": "Municipality"
+  },
+  {
+    "code": "176",
+    "label": "Razkrije",
+    "type": "Municipality"
+  },
+  {
+    "code": "177",
+    "label": "Ribnica na Pohorju",
+    "type": "Municipality"
+  },
+  {
+    "code": "178",
+    "label": "Selnica ob Dravi",
+    "type": "Municipality"
+  },
+  {
+    "code": "179",
+    "label": "Sodraica",
+    "type": "Municipality"
+  },
+  {
+    "code": "180",
+    "label": "Solcava",
+    "type": "Municipality"
+  },
+  {
+    "code": "181",
+    "label": "Sveta Ana",
+    "type": "Municipality"
+  },
+  {
+    "code": "182",
+    "label": "Sveti Andra v Slovenskih goricah",
+    "type": "Municipality"
+  },
+  {
+    "code": "183",
+    "label": "empeter-Vrtojba",
+    "type": "Municipality"
+  },
+  {
+    "code": "184",
+    "label": "Tabor",
+    "type": "Municipality"
+  },
+  {
+    "code": "185",
+    "label": "Trnovska vas",
+    "type": "Municipality"
+  },
+  {
+    "code": "186",
+    "label": "Trzin",
+    "type": "Municipality"
+  },
+  {
+    "code": "187",
+    "label": "Velika Polana",
+    "type": "Municipality"
+  },
+  {
+    "code": "188",
+    "label": "Verej",
+    "type": "Municipality"
+  },
+  {
+    "code": "189",
+    "label": "Vransko",
+    "type": "Municipality"
+  },
+  {
+    "code": "190",
+    "label": "alec",
+    "type": "Municipality"
+  },
+  {
+    "code": "191",
+    "label": "etale",
+    "type": "Municipality"
+  },
+  {
+    "code": "192",
+    "label": "irovnica",
+    "type": "Municipality"
+  },
+  {
+    "code": "193",
+    "label": "uemberk",
+    "type": "Municipality"
+  },
+  {
+    "code": "194",
+    "label": "martno pri Litiji",
+    "type": "Municipality"
+  },
+  {
+    "code": "195",
+    "label": "Apace",
+    "type": "Municipality"
+  },
+  {
+    "code": "196",
+    "label": "Cirkulane",
+    "type": "Municipality"
+  },
+  {
+    "code": "197",
+    "label": "Kostanjevica na Krki",
+    "type": "Municipality"
+  },
+  {
+    "code": "198",
+    "label": "Makole",
+    "type": "Municipality"
+  },
+  {
+    "code": "199",
+    "label": "Mokronog-Trebelno",
+    "type": "Municipality"
+  },
+  {
+    "code": "200",
+    "label": "Poljcane",
+    "type": "Municipality"
+  },
+  {
+    "code": "201",
+    "label": "Renèe-Vogrsko",
+    "type": "Municipality"
+  },
+  {
+    "code": "202",
+    "label": "Sredice ob Dravi",
+    "type": "Municipality"
+  },
+  {
+    "code": "203",
+    "label": "Straa",
+    "type": "Municipality"
+  },
+  {
+    "code": "205",
+    "label": "Sveti Toma",
+    "type": "Municipality"
+  },
+  {
+    "code": "206",
+    "label": "marjeke Toplice",
+    "type": "Municipality"
+  },
+  {
+    "code": "207",
+    "label": "Gorje",
+    "type": "Municipality"
+  },
+  {
+    "code": "208",
+    "label": "Log-Dragomer",
+    "type": "Municipality"
+  },
+  {
+    "code": "209",
+    "label": "Recica ob Savinji",
+    "type": "Municipality"
+  },
+  {
+    "code": "210",
+    "label": "Sveti Jurij v Slovenskih goricah",
+    "type": "Municipality"
+  },
+  {
+    "code": "211",
+    "label": "entrupert",
+    "type": "Municipality"
+  },
+  {
+    "code": "212",
+    "label": "Mirna",
+    "type": "Municipality"
+  },
+  {
+    "code": "213",
+    "label": "Ankaran",
+    "type": "Municipality"
+  }
+]

@@ -1,0 +1,1086 @@
+[
+  {
+    "locationCode": "AGA",
+    "label": "Agalawatta",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.533333,
+    "lng": 80.15
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Amparai",
+    "function": "4",
+    "lat": 7.333333,
+    "lng": 81.616667
+  },
+  {
+    "locationCode": "ABA",
+    "label": "Andiambalama",
+    "function": "6",
+    "lat": 7.183333,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Angoda",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 6.933333,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "ADP",
+    "label": "Anuradhapura",
+    "function": "4"
+  },
+  {
+    "locationCode": "ATA",
+    "label": "Attanagalla",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.1,
+    "lng": 80.116667
+  },
+  {
+    "locationCode": "ATT",
+    "label": "Attidiya",
+    "function": "6",
+    "lat": 6.833333,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "AVI",
+    "label": "Avissawella",
+    "function": "237",
+    "lat": 6.95,
+    "lng": 80.216667
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Badulla",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": 6.166667,
+    "lng": 80.533333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bandaragama",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.7,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "BTW",
+    "label": "Bataduwa",
+    "function": "6",
+    "lat": 6.216667,
+    "lng": 80.1
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Battaramulla",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.9,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "BTC",
+    "label": "Batticoloa",
+    "function": "14"
+  },
+  {
+    "locationCode": "BJT",
+    "label": "Bentota River Apt",
+    "function": "4",
+    "lat": 6.416667,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "BRW",
+    "label": "Beruwala",
+    "function": "1"
+  },
+  {
+    "locationCode": "BIY",
+    "label": "Biyagama",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 6.933333,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "BWT",
+    "label": "Bogahawatta",
+    "function": "6",
+    "lat": 7.3,
+    "lng": 80.166667
+  },
+  {
+    "locationCode": "BUT",
+    "label": "Bulathsinhala",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.65,
+    "lng": 80.166667
+  },
+  {
+    "locationCode": "CMB",
+    "label": "Colombo",
+    "subdivisionCode": "11",
+    "function": "12345",
+    "lat": 6.916667,
+    "lng": 79.85
+  },
+  {
+    "locationCode": "RML",
+    "label": "Colombo/Ratmalana Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "DMB",
+    "label": "Dambadure",
+    "function": "6",
+    "lat": 7.116667,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "DBU",
+    "label": "Dambulu Oya Tank Apt",
+    "function": "4",
+    "lat": 7.85,
+    "lng": 80.65
+  },
+  {
+    "locationCode": "DMP",
+    "label": "Dampelessa",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 7.65,
+    "lng": 80.383333
+  },
+  {
+    "locationCode": "DEH",
+    "label": "Dehiwala",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.85,
+    "lng": 79.85
+  },
+  {
+    "locationCode": "DEK",
+    "label": "Dekantana",
+    "function": "3"
+  },
+  {
+    "locationCode": "AZX",
+    "label": "Dekatana",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.966667,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "DIW",
+    "label": "Dickwella Mawella Lagoon Apt",
+    "function": "4",
+    "lat": 6.966667,
+    "lng": 81
+  },
+  {
+    "locationCode": "DIV",
+    "label": "Divulapitiya",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.216667,
+    "lng": 80.083333
+  },
+  {
+    "locationCode": "DOD",
+    "label": "Dodangoda",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.533333,
+    "lng": 80.4
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Dompe",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.95,
+    "lng": 80.516667
+  },
+  {
+    "locationCode": "ENA",
+    "label": "Enderamulla",
+    "function": "6",
+    "lat": 7,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "GOY",
+    "label": "Gal Oya",
+    "function": "4"
+  },
+  {
+    "locationCode": "GKD",
+    "label": "Galkanda",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 7.65,
+    "lng": 80.366667
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galle",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Gampaha",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.883333,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "GPL",
+    "label": "Gampola",
+    "function": "6",
+    "lat": 8.05,
+    "lng": 80.183333
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Ganemulla",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 7.066667,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "GLY",
+    "label": "Gelioya",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 7.2,
+    "lng": 80.6
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Gorakana",
+    "function": "6",
+    "lat": 6.766667,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "KDY",
+    "label": "Gregory' Lake Apt (Nuwara Eliya)",
+    "function": "4",
+    "lat": 8.45,
+    "lng": 81.216667
+  },
+  {
+    "locationCode": "HBA",
+    "label": "Hambantota",
+    "function": "1",
+    "lat": 6.116667,
+    "lng": 81.116667
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hanwella",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 7.35,
+    "lng": 80.866667
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatton",
+    "function": "23",
+    "lat": 6.883333,
+    "lng": 80.583333
+  },
+  {
+    "locationCode": "HDL",
+    "label": "Hendala",
+    "function": "6",
+    "lat": 6.983333,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "HET",
+    "label": "Hettimulla",
+    "function": "6",
+    "lat": 7.266667,
+    "lng": -80.083333
+  },
+  {
+    "locationCode": "HIM",
+    "label": "Hingurakgoda",
+    "function": "4",
+    "lat": 8.016667,
+    "lng": 80.95
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Hirana",
+    "function": "6",
+    "lat": 6.733333,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "HOM",
+    "label": "Homagama",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.833333,
+    "lng": 80.083333
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Horana",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 6.716667,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "IBB",
+    "label": "Ibbawala",
+    "subdivisionCode": "31",
+    "function": "6",
+    "lat": 6,
+    "lng": 80.4
+  },
+  {
+    "locationCode": "ING",
+    "label": "Ingiriya",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.75,
+    "lng": 80.166667
+  },
+  {
+    "locationCode": "JAE",
+    "label": "Ja-Ela",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.9,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "JAF",
+    "label": "Jaffna",
+    "function": "14"
+  },
+  {
+    "locationCode": "JCT",
+    "label": "Jaya Container Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAW",
+    "label": "Kadawala",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 6.983333,
+    "lng": 80.5
+  },
+  {
+    "locationCode": "KGN",
+    "label": "Kadugannawa",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 7.25,
+    "lng": 80.516667
+  },
+  {
+    "locationCode": "KAD",
+    "label": "Kaduwela",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.916667,
+    "lng": 79.966667
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Kalagedihena",
+    "function": "6",
+    "lat": 7.116667,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalpitiya",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLT",
+    "label": "Kalutara",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamburupitiya",
+    "subdivisionCode": "32",
+    "function": "6",
+    "lat": 6.083333,
+    "lng": 80.566667
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kandana",
+    "subdivisionCode": "1",
+    "function": "6",
+    "lat": 7.033333,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kandy",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNK",
+    "label": "Kankesanturai",
+    "function": "1"
+  },
+  {
+    "locationCode": "KWE",
+    "label": "Katana West",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.25,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "KDZ",
+    "label": "Katugastota Pogolla Reservoir Apt",
+    "function": "4",
+    "lat": 7.2,
+    "lng": 80.416667
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Katukurunda",
+    "function": "3",
+    "lat": 7.033333,
+    "lng": 80.033333
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katunayake",
+    "function": "5",
+    "lat": 7.166667,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "KTW",
+    "label": "Katuwawala",
+    "function": "6",
+    "lat": 6.266667,
+    "lng": 80.683333
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Kayts",
+    "function": "1"
+  },
+  {
+    "locationCode": "KEG",
+    "label": "Kegalle",
+    "subdivisionCode": "9",
+    "function": "3",
+    "lat": 7.25,
+    "lng": 80.35
+  },
+  {
+    "locationCode": "KHT",
+    "label": "Kehelwatta",
+    "function": "6",
+    "lat": 6.75,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "KNA",
+    "label": "Kelaniya",
+    "function": "6",
+    "lat": 6.95,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "KEZ",
+    "label": "Kelaniya River Apt",
+    "function": "4",
+    "lat": 6.95,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "KES",
+    "label": "Kesbewa",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.783333,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilinochchi",
+    "function": "23",
+    "lat": 9.4,
+    "lng": 80.4
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Kiribamuna",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 7.583333,
+    "lng": 80.433333
+  },
+  {
+    "locationCode": "KCT",
+    "label": "Koggala",
+    "function": "1234",
+    "lat": 5.983333,
+    "lng": 80.333333
+  },
+  {
+    "locationCode": "KLN",
+    "label": "Kolonnawa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 6.916667,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "KON",
+    "label": "Kondavattavan",
+    "function": "13",
+    "lat": 7.283333,
+    "lng": 81.633333
+  },
+  {
+    "locationCode": "KNW",
+    "label": "Konwelana",
+    "function": "3",
+    "lat": 6.233333,
+    "lng": 81.283333
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kotugoda",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 7.116667,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kuliyapitiya",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 7.466667,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kurunegala",
+    "subdivisionCode": "61",
+    "function": "6",
+    "lat": 7.483333,
+    "lng": 80.35
+  },
+  {
+    "locationCode": "LWA",
+    "label": "Lunuwila",
+    "subdivisionCode": "62",
+    "function": "6",
+    "lat": 7.333333,
+    "lng": 79.85
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madurawala",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.633333,
+    "lng": 80.666667
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Mahara",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Maharagama",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.833333,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "MHW",
+    "label": "Mahaweli",
+    "function": "4",
+    "lat": 8.45,
+    "lng": 81.216667
+  },
+  {
+    "locationCode": "MKL",
+    "label": "Makola",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 6.966667,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malwana",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.933333,
+    "lng": 80
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mannar",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLE",
+    "label": "Matale",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 7.466667,
+    "lng": 80.616667
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Matara",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": 5.933333,
+    "lng": 80.533333
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Mattala",
+    "subdivisionCode": "33",
+    "function": "5",
+    "lat": 6.35,
+    "lng": 81.116667
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matugama",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.516667,
+    "lng": 80.1
+  },
+  {
+    "locationCode": "MAW",
+    "label": "Mawella",
+    "function": "13",
+    "lat": 5.983333,
+    "lng": 80.733333
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Millaniya",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 6.65,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "MNH",
+    "label": "Minneriya",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Minuwangoda",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.166667,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Mirigama",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.233333,
+    "lng": 80.116667
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monaragala",
+    "subdivisionCode": "8",
+    "function": "3",
+    "lat": 6.866667,
+    "lng": 81.35
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Moragala",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 6.866667,
+    "lng": 80.25
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Moratuwa",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.766667,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Mulativu",
+    "function": "1"
+  },
+  {
+    "locationCode": "JMY",
+    "label": "Mulleriyawa North",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 6.95,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "NLL",
+    "label": "Nalluruwa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 6.7,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "NMP",
+    "label": "Nambapana",
+    "subdivisionCode": "91",
+    "function": "3",
+    "lat": 6.733333,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "NAW",
+    "label": "Nawala",
+    "function": "6"
+  },
+  {
+    "locationCode": "NBD",
+    "label": "Neboda",
+    "function": "6",
+    "lat": 6.6,
+    "lng": 80.083333
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Negombo",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 7.2,
+    "lng": 79.833333
+  },
+  {
+    "locationCode": "NBW",
+    "label": "Nittambuwa",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.15,
+    "lng": 80.1
+  },
+  {
+    "locationCode": "NUW",
+    "label": "Nuwaraeliya",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 6.966667,
+    "lng": 80.766667
+  },
+  {
+    "locationCode": "OLU",
+    "label": "Oluvil",
+    "function": "1",
+    "lat": 7.283333,
+    "lng": 81.85
+  },
+  {
+    "locationCode": "OWT",
+    "label": "Orugodawatte",
+    "function": "6",
+    "lat": 6.933333,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "PDU",
+    "label": "Padukka",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.816667,
+    "lng": 80.916667
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palindanuwara",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.5,
+    "lng": 80.266667
+  },
+  {
+    "locationCode": "PAD",
+    "label": "Panadura",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 6.7,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Panagoda",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 6.966667,
+    "lng": 81.133333
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pannala",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 7.333333,
+    "lng": 80.033333
+  },
+  {
+    "locationCode": "PNY",
+    "label": "Pannipitiya",
+    "function": "6",
+    "lat": 6.85,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Pattiwila",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 6.95,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "PIK",
+    "label": "Pita Kotte",
+    "function": "6",
+    "lat": 6.883333,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "PPE",
+    "label": "Point Pedro",
+    "function": "1"
+  },
+  {
+    "locationCode": "PLW",
+    "label": "Polonnaruwa",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 7.933333,
+    "lng": 81
+  },
+  {
+    "locationCode": "PRT",
+    "label": "Porutota",
+    "function": "6",
+    "lat": 7.266667,
+    "lng": 79.85
+  },
+  {
+    "locationCode": "PUL",
+    "label": "Pulmoddai",
+    "function": "3"
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Puttalam",
+    "function": "6",
+    "lat": 8.033333,
+    "lng": 79.816667
+  },
+  {
+    "locationCode": "RAT",
+    "label": "Ratmalana",
+    "function": "23",
+    "lat": 6.816667,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "RPU",
+    "label": "Ratnapura",
+    "function": "3",
+    "lat": 6.666667,
+    "lng": 80.383333
+  },
+  {
+    "locationCode": "RWT",
+    "label": "Rawatawatta",
+    "function": "6",
+    "lat": 6.783333,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "SUW",
+    "label": "Siduwa",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 7.116667,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Sigiriya",
+    "function": "3",
+    "lat": 7.933333,
+    "lng": 80.716667
+  },
+  {
+    "locationCode": "SYD",
+    "label": "Siyambalagoda",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 6.216667,
+    "lng": 80.933333
+  },
+  {
+    "locationCode": "SGT",
+    "label": "South Asia Gateway Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRJ",
+    "label": "Sri Jayawardenapura",
+    "function": "3",
+    "lat": 6.883333,
+    "lng": 79.866667
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talaimannar",
+    "function": "1"
+  },
+  {
+    "locationCode": "TRR",
+    "label": "Trincomalee",
+    "function": "14"
+  },
+  {
+    "locationCode": "UHA",
+    "label": "Uhana",
+    "function": "3",
+    "lat": 7.366667,
+    "lng": 81.633333
+  },
+  {
+    "locationCode": "UCT",
+    "label": "Unity Container Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAV",
+    "label": "Vavuniya",
+    "subdivisionCode": "4",
+    "function": "3",
+    "lat": 8.75,
+    "lng": 80.5
+  },
+  {
+    "locationCode": "WAD",
+    "label": "Wadakada",
+    "subdivisionCode": "32",
+    "function": "3",
+    "lat": 7.4,
+    "lng": 80.25
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Wadduwa",
+    "function": "6",
+    "lat": 6.65,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Walallawita",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 6.366667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "WPL",
+    "label": "Walpola",
+    "function": "6",
+    "lat": 6.966667,
+    "lng": 80.3
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Wattala",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 6.983333,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "WLL",
+    "label": "Welisara",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 7.033333,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "WEL",
+    "label": "Weliweriya",
+    "function": "6",
+    "lat": 7.033333,
+    "lng": 80.016667
+  },
+  {
+    "locationCode": "WLP",
+    "label": "Wellampitiya",
+    "function": "6",
+    "lat": 0,
+    "lng": 0
+  },
+  {
+    "locationCode": "WRZ",
+    "label": "Wirawala",
+    "function": "4",
+    "lat": 6.25,
+    "lng": 81.233333
+  },
+  {
+    "locationCode": "YAT",
+    "label": "Yatiyantota",
+    "subdivisionCode": "92",
+    "function": "3",
+    "lat": 7.016667,
+    "lng": 80.3
+  }
+]

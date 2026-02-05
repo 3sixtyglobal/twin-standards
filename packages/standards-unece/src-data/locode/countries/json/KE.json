@@ -1,0 +1,451 @@
+[
+  {
+    "locationCode": "ASV",
+    "label": "Amboseli",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Athi River",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": -1.45,
+    "lng": 36.983333
+  },
+  {
+    "locationCode": "BMQ",
+    "label": "Bamburi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Bungoma",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 0.566667,
+    "lng": 34.566667
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Busia",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 0.466667,
+    "lng": 34.1
+  },
+  {
+    "locationCode": "DDB",
+    "label": "Dadaab",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 0.05,
+    "lng": 40.316667
+  },
+  {
+    "locationCode": "EDL",
+    "label": "Eldoret",
+    "function": "4"
+  },
+  {
+    "locationCode": "EYS",
+    "label": "Eliye Springs",
+    "function": "4"
+  },
+  {
+    "locationCode": "EMB",
+    "label": "Embakasi",
+    "function": "0"
+  },
+  {
+    "locationCode": "FER",
+    "label": "Fergusons Gulf",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAS",
+    "label": "Garissa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gilgil",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": -0.216667,
+    "lng": 36.266667
+  },
+  {
+    "locationCode": "HOA",
+    "label": "Hola",
+    "function": "4"
+  },
+  {
+    "locationCode": "ISL",
+    "label": "Isiolo",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 0.35,
+    "lng": 37.583333
+  },
+  {
+    "locationCode": "KAJ",
+    "label": "Kajiado",
+    "function": "3",
+    "lat": -1.833333,
+    "lng": 36.783333
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakamega",
+    "function": "3",
+    "lat": 0.266667,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "KKM",
+    "label": "Kakuma",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.716667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "KLK",
+    "label": "Kalokol",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapsowar",
+    "function": "3",
+    "lat": 0.983333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "KEY",
+    "label": "Kericho",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRV",
+    "label": "Kerio Valley",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kiambu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": -1.166667,
+    "lng": 36.833333
+  },
+  {
+    "locationCode": "ILU",
+    "label": "Kilaguni",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLF",
+    "label": "Kilifi",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": -3.633333,
+    "lng": 39.85
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilindini",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kisumu",
+    "function": "14"
+  },
+  {
+    "locationCode": "KTL",
+    "label": "Kitale",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kitui",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": -1.366667,
+    "lng": 38.016667
+  },
+  {
+    "locationCode": "KIU",
+    "label": "Kiunga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWY",
+    "label": "Kiwayu",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBN",
+    "label": "Lake Baringo",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKU",
+    "label": "Lake Rudolf",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Lamu",
+    "function": "14"
+  },
+  {
+    "locationCode": "LBK",
+    "label": "Liboi",
+    "function": "4"
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limuru",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": -1.1,
+    "lng": 36.65
+  },
+  {
+    "locationCode": "LOK",
+    "label": "Lodwar",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTK",
+    "label": "Loitokitok",
+    "subdivisionCode": "10",
+    "function": "5",
+    "lat": -2.916667,
+    "lng": 37.5
+  },
+  {
+    "locationCode": "LRV",
+    "label": "Lokichar",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 2.383333,
+    "lng": 35.65
+  },
+  {
+    "locationCode": "LKG",
+    "label": "Lokichoggio",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOY",
+    "label": "Loyangalani",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lunga Lunga",
+    "subdivisionCode": "19",
+    "function": "5",
+    "lat": -4.55,
+    "lng": 39.116667
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Machakos",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": -1.516667,
+    "lng": 37.266667
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malaba",
+    "function": "23",
+    "lat": 0.616667,
+    "lng": 34.266667
+  },
+  {
+    "locationCode": "MYD",
+    "label": "Malindi",
+    "function": "14"
+  },
+  {
+    "locationCode": "NDE",
+    "label": "Mandera",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRE",
+    "label": "Mara Lodges",
+    "function": "4"
+  },
+  {
+    "locationCode": "RBT",
+    "label": "Marsabit",
+    "function": "4"
+  },
+  {
+    "locationCode": "MER",
+    "label": "Meru",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 0.5,
+    "lng": 37.65
+  },
+  {
+    "locationCode": "MGI",
+    "label": "Migori",
+    "subdivisionCode": "27",
+    "function": "5",
+    "lat": -1.066667,
+    "lng": 34.283333
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Mombasa",
+    "function": "145"
+  },
+  {
+    "locationCode": "OYL",
+    "label": "Moyale",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUH",
+    "label": "Muhoroni",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": -0.15,
+    "lng": 35.183333
+  },
+  {
+    "locationCode": "MUM",
+    "label": "Mumias",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWI",
+    "label": "Mwingi",
+    "subdivisionCode": "18",
+    "function": "36",
+    "lat": -0.933333,
+    "lng": 38.066667
+  },
+  {
+    "locationCode": "NBO",
+    "label": "Nairobi",
+    "function": "2345"
+  },
+  {
+    "locationCode": "RNA",
+    "label": "Naivasha",
+    "subdivisionCode": "31",
+    "function": "6",
+    "lat": -0.716667,
+    "lng": 36.433333
+  },
+  {
+    "locationCode": "NUU",
+    "label": "Nakuru",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMA",
+    "label": "Namanga",
+    "subdivisionCode": "10",
+    "function": "5",
+    "lat": -2.533333,
+    "lng": 36.783333
+  },
+  {
+    "locationCode": "NYK",
+    "label": "Nanyuki",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Narok",
+    "function": "3",
+    "lat": -1.066667,
+    "lng": 35.85
+  },
+  {
+    "locationCode": "NYE",
+    "label": "Nyeri",
+    "function": "4"
+  },
+  {
+    "locationCode": "NZO",
+    "label": "Nzoia",
+    "function": "4"
+  },
+  {
+    "locationCode": "UAS",
+    "label": "Samburu",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMN",
+    "label": "Shimoni",
+    "subdivisionCode": "19",
+    "function": "13",
+    "lat": -4.65,
+    "lng": 39.383333
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Siaya",
+    "subdivisionCode": "38",
+    "function": "1",
+    "lat": 0.066667,
+    "lng": 34.283333
+  },
+  {
+    "locationCode": "SOT",
+    "label": "Sotik",
+    "function": "3",
+    "lat": -0.666667,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "TVA",
+    "label": "Taveta",
+    "subdivisionCode": "39",
+    "function": "5",
+    "lat": -3.4,
+    "lng": 37.666667
+  },
+  {
+    "locationCode": "THK",
+    "label": "Thika",
+    "function": "3",
+    "lat": -1.033333,
+    "lng": 37.083333
+  },
+  {
+    "locationCode": "UKA",
+    "label": "Ukunda",
+    "function": "4"
+  },
+  {
+    "locationCode": "WJR",
+    "label": "Wajir",
+    "function": "4"
+  },
+  {
+    "locationCode": "WEB",
+    "label": "Webuye",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 0.616667,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "WIL",
+    "label": "Wilson Apt/Nairobi",
+    "function": "4"
+  }
+]

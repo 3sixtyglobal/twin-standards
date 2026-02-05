@@ -1,0 +1,37 @@
+[
+  {
+    "code": "02",
+    "label": "Canillo",
+    "type": "Parish"
+  },
+  {
+    "code": "03",
+    "label": "Encamp",
+    "type": "Parish"
+  },
+  {
+    "code": "04",
+    "label": "La Massana",
+    "type": "Parish"
+  },
+  {
+    "code": "05",
+    "label": "Ordino",
+    "type": "Parish"
+  },
+  {
+    "code": "06",
+    "label": "Sant Julià de Lòria",
+    "type": "Parish"
+  },
+  {
+    "code": "07",
+    "label": "Andorra la Vella",
+    "type": "Parish"
+  },
+  {
+    "code": "08",
+    "label": "Escaldes-Engordany",
+    "type": "Parish"
+  }
+]

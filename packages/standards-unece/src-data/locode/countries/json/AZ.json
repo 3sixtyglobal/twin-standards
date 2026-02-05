@@ -1,0 +1,228 @@
+[
+  {
+    "locationCode": "ABN",
+    "label": "Agcabadi",
+    "subdivisionCode": "AGC",
+    "function": "3",
+    "lat": 40.05,
+    "lng": 47.45
+  },
+  {
+    "locationCode": "AGS",
+    "label": "Agstafa",
+    "subdivisionCode": "AGA",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": 45.45
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alat",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": 39.95,
+    "lng": 49.4
+  },
+  {
+    "locationCode": "AST",
+    "label": "Astara",
+    "function": "6",
+    "lat": 38.45,
+    "lng": 48.866667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Baku",
+    "function": "1245"
+  },
+  {
+    "locationCode": "DAM",
+    "label": "Dalimammadli",
+    "subdivisionCode": "GOR",
+    "function": "3",
+    "lat": 40.683333,
+    "lng": 46.566667
+  },
+  {
+    "locationCode": "DJU",
+    "label": "Djulfa",
+    "function": "2"
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Ganja",
+    "function": "6",
+    "lat": 40.666667,
+    "lng": 46.35
+  },
+  {
+    "locationCode": "KVD",
+    "label": "Gyandzha",
+    "function": "4"
+  },
+  {
+    "locationCode": "GYD",
+    "label": "Heydar Aliyev International Apt.",
+    "subdivisionCode": "BA",
+    "function": "4",
+    "lat": 40.466667,
+    "lng": 50.033333
+  },
+  {
+    "locationCode": "IMI",
+    "label": "Imisli",
+    "function": "3",
+    "lat": 39.866667,
+    "lng": 48.05
+  },
+  {
+    "locationCode": "KMZ",
+    "label": "Khachmaz",
+    "subdivisionCode": "XAC",
+    "function": "16",
+    "lat": 41.983333,
+    "lng": 47.583333
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khanlar",
+    "function": "3",
+    "lat": 40.333333,
+    "lng": 49.816667
+  },
+  {
+    "locationCode": "KBD",
+    "label": "Kirovabad",
+    "subdivisionCode": "GA",
+    "function": "23"
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Lankaran",
+    "function": "3",
+    "lat": 38.75,
+    "lng": 48.85
+  },
+  {
+    "locationCode": "MGC",
+    "label": "Mingechaur",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 47.05
+  },
+  {
+    "locationCode": "NAJ",
+    "label": "Naxcivan",
+    "subdivisionCode": "NX",
+    "function": "36",
+    "lat": 39.2,
+    "lng": 45.233333
+  },
+  {
+    "locationCode": "QDG",
+    "label": "Qaradag",
+    "function": "123",
+    "lat": 40.25,
+    "lng": 49.6
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Qazax",
+    "subdivisionCode": "QAZ",
+    "function": "23",
+    "lat": 41.1,
+    "lng": 45.35
+  },
+  {
+    "locationCode": "QUB",
+    "label": "Quba",
+    "function": "6",
+    "lat": 40.166667,
+    "lng": 48.416667
+  },
+  {
+    "locationCode": "QUS",
+    "label": "Qusqara",
+    "subdivisionCode": "GA",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 46.283333
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samaxi",
+    "subdivisionCode": "SMI",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 48.633333
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sangachal",
+    "subdivisionCode": "BA",
+    "function": "23",
+    "lat": 40.2,
+    "lng": 49.483333
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shirvan",
+    "subdivisionCode": "AGU",
+    "function": "13",
+    "lat": 39.916667,
+    "lng": 48.916667
+  },
+  {
+    "locationCode": "SY9",
+    "label": "Siyazan",
+    "subdivisionCode": "SIY",
+    "function": "23",
+    "lat": 41.066667,
+    "lng": 49.1
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sumgait",
+    "function": "3",
+    "lat": 40.583333,
+    "lng": 49.633333
+  },
+  {
+    "locationCode": "SUQ",
+    "label": "Sumqayit",
+    "subdivisionCode": "SM",
+    "function": "13",
+    "lat": 40.583333,
+    "lng": 49.666667
+  },
+  {
+    "locationCode": "TOV",
+    "label": "Tovuz",
+    "subdivisionCode": "TOV",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 45.616667
+  },
+  {
+    "locationCode": "XIR",
+    "label": "Xirdalan",
+    "subdivisionCode": "ABS",
+    "function": "3",
+    "lat": 40.25,
+    "lng": 49.75
+  },
+  {
+    "locationCode": "YAL",
+    "label": "Yalama",
+    "function": "23",
+    "lat": 41.75,
+    "lng": 48.566667
+  },
+  {
+    "locationCode": "ZAQ",
+    "label": "Zaqatala",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": 46.633333
+  }
+]

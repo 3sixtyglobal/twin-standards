@@ -1,0 +1,287 @@
+[
+  {
+    "code": "AK",
+    "label": "Alaska",
+    "type": "State"
+  },
+  {
+    "code": "AL",
+    "label": "Alabama",
+    "type": "State"
+  },
+  {
+    "code": "AR",
+    "label": "Arkansas",
+    "type": "State"
+  },
+  {
+    "code": "AS",
+    "label": "American Samoa (see also separate entry under AS)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "AZ",
+    "label": "Arizona",
+    "type": "State"
+  },
+  {
+    "code": "CA",
+    "label": "California",
+    "type": "State"
+  },
+  {
+    "code": "CO",
+    "label": "Colorado",
+    "type": "State"
+  },
+  {
+    "code": "CT",
+    "label": "Connecticut",
+    "type": "State"
+  },
+  {
+    "code": "DC",
+    "label": "District of Columbia",
+    "type": "District"
+  },
+  {
+    "code": "DE",
+    "label": "Delaware",
+    "type": "State"
+  },
+  {
+    "code": "FL",
+    "label": "Florida",
+    "type": "State"
+  },
+  {
+    "code": "GA",
+    "label": "Georgia",
+    "type": "State"
+  },
+  {
+    "code": "GU",
+    "label": "Guam (see also separate entry under GU)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "HI",
+    "label": "Hawaii",
+    "type": "State"
+  },
+  {
+    "code": "IA",
+    "label": "Iowa",
+    "type": "State"
+  },
+  {
+    "code": "ID",
+    "label": "Idaho",
+    "type": "State"
+  },
+  {
+    "code": "IL",
+    "label": "Illinois",
+    "type": "State"
+  },
+  {
+    "code": "IN",
+    "label": "Indiana",
+    "type": "State"
+  },
+  {
+    "code": "KS",
+    "label": "Kansas",
+    "type": "State"
+  },
+  {
+    "code": "KY",
+    "label": "Kentucky",
+    "type": "State"
+  },
+  {
+    "code": "LA",
+    "label": "Louisiana",
+    "type": "State"
+  },
+  {
+    "code": "MA",
+    "label": "Massachusetts",
+    "type": "State"
+  },
+  {
+    "code": "MD",
+    "label": "Maryland",
+    "type": "State"
+  },
+  {
+    "code": "ME",
+    "label": "Maine",
+    "type": "State"
+  },
+  {
+    "code": "MI",
+    "label": "Michigan",
+    "type": "State"
+  },
+  {
+    "code": "MN",
+    "label": "Minnesota",
+    "type": "State"
+  },
+  {
+    "code": "MO",
+    "label": "Missouri",
+    "type": "State"
+  },
+  {
+    "code": "MP",
+    "label": "Northern Mariana Islands (see also separate entry MP)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "MS",
+    "label": "Mississippi",
+    "type": "State"
+  },
+  {
+    "code": "MT",
+    "label": "Montana",
+    "type": "State"
+  },
+  {
+    "code": "NC",
+    "label": "North Carolina",
+    "type": "State"
+  },
+  {
+    "code": "ND",
+    "label": "North Dakota",
+    "type": "State"
+  },
+  {
+    "code": "NE",
+    "label": "Nebraska",
+    "type": "State"
+  },
+  {
+    "code": "NH",
+    "label": "New Hampshire",
+    "type": "State"
+  },
+  {
+    "code": "NJ",
+    "label": "New Jersey",
+    "type": "State"
+  },
+  {
+    "code": "NM",
+    "label": "New Mexico",
+    "type": "State"
+  },
+  {
+    "code": "NV",
+    "label": "Nevada",
+    "type": "State"
+  },
+  {
+    "code": "NY",
+    "label": "New York",
+    "type": "State"
+  },
+  {
+    "code": "OH",
+    "label": "Ohio",
+    "type": "State"
+  },
+  {
+    "code": "OK",
+    "label": "Oklahoma",
+    "type": "State"
+  },
+  {
+    "code": "OR",
+    "label": "Oregon",
+    "type": "State"
+  },
+  {
+    "code": "PA",
+    "label": "Pennsylvania",
+    "type": "State"
+  },
+  {
+    "code": "PR",
+    "label": "Puerto Rico (see also separate entry under PR)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "RI",
+    "label": "Rhode Island",
+    "type": "State"
+  },
+  {
+    "code": "SC",
+    "label": "South Carolina",
+    "type": "State"
+  },
+  {
+    "code": "SD",
+    "label": "South Dakota",
+    "type": "State"
+  },
+  {
+    "code": "TN",
+    "label": "Tennessee",
+    "type": "State"
+  },
+  {
+    "code": "TX",
+    "label": "Texas",
+    "type": "State"
+  },
+  {
+    "code": "UM",
+    "label": "U.S. Minor Outlying Islands (cf. separate entry UM)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "UT",
+    "label": "Utah",
+    "type": "State"
+  },
+  {
+    "code": "VA",
+    "label": "Virginia",
+    "type": "State"
+  },
+  {
+    "code": "VI",
+    "label": "Virgin Islands of the U.S. (see also separate entry VI)",
+    "type": "Outlying area"
+  },
+  {
+    "code": "VT",
+    "label": "Vermont",
+    "type": "State"
+  },
+  {
+    "code": "WA",
+    "label": "Washington",
+    "type": "State"
+  },
+  {
+    "code": "WI",
+    "label": "Wisconsin",
+    "type": "State"
+  },
+  {
+    "code": "WV",
+    "label": "West Virginia",
+    "type": "State"
+  },
+  {
+    "code": "WY",
+    "label": "Wyoming",
+    "type": "State"
+  }
+]

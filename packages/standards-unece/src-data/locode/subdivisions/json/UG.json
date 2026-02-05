@@ -1,0 +1,662 @@
+[
+  {
+    "code": "101",
+    "label": "Kalangala",
+    "type": "District"
+  },
+  {
+    "code": "102",
+    "label": "Kampala",
+    "type": "City"
+  },
+  {
+    "code": "103",
+    "label": "Kiboga",
+    "type": "District"
+  },
+  {
+    "code": "104",
+    "label": "Luwero",
+    "type": "District"
+  },
+  {
+    "code": "105",
+    "label": "Masaka",
+    "type": "District"
+  },
+  {
+    "code": "106",
+    "label": "Mpigi",
+    "type": "District"
+  },
+  {
+    "code": "107",
+    "label": "Mubende",
+    "type": "District"
+  },
+  {
+    "code": "108",
+    "label": "Mukono",
+    "type": "District"
+  },
+  {
+    "code": "109",
+    "label": "Nakasongola",
+    "type": "District"
+  },
+  {
+    "code": "110",
+    "label": "Rakai",
+    "type": "District"
+  },
+  {
+    "code": "111",
+    "label": "Sembabule",
+    "type": "District"
+  },
+  {
+    "code": "112",
+    "label": "Kayunga",
+    "type": "District"
+  },
+  {
+    "code": "113",
+    "label": "Wakiso",
+    "type": "District"
+  },
+  {
+    "code": "114",
+    "label": "Lyantonde",
+    "type": "District"
+  },
+  {
+    "code": "115",
+    "label": "Mityana",
+    "type": "District"
+  },
+  {
+    "code": "116",
+    "label": "Nakaseke",
+    "type": "District"
+  },
+  {
+    "code": "117",
+    "label": "Buikwe",
+    "type": "District"
+  },
+  {
+    "code": "118",
+    "label": "Bukomansibi",
+    "type": "District"
+  },
+  {
+    "code": "119",
+    "label": "Butambala",
+    "type": "District"
+  },
+  {
+    "code": "120",
+    "label": "Buvuma",
+    "type": "District"
+  },
+  {
+    "code": "121",
+    "label": "Gomba",
+    "type": "District"
+  },
+  {
+    "code": "122",
+    "label": "Kalungu",
+    "type": "District"
+  },
+  {
+    "code": "123",
+    "label": "Kyankwanzi",
+    "type": "District"
+  },
+  {
+    "code": "124",
+    "label": "Lwengo",
+    "type": "District"
+  },
+  {
+    "code": "125",
+    "label": "Kyotera",
+    "type": "District"
+  },
+  {
+    "code": "126",
+    "label": "Kasanda",
+    "type": "District"
+  },
+  {
+    "code": "201",
+    "label": "Bugiri",
+    "type": "District"
+  },
+  {
+    "code": "202",
+    "label": "Busia",
+    "type": "District"
+  },
+  {
+    "code": "203",
+    "label": "Iganga",
+    "type": "District"
+  },
+  {
+    "code": "204",
+    "label": "Jinja",
+    "type": "District"
+  },
+  {
+    "code": "205",
+    "label": "Kamuli",
+    "type": "District"
+  },
+  {
+    "code": "206",
+    "label": "Kapchorwa",
+    "type": "District"
+  },
+  {
+    "code": "207",
+    "label": "Katakwi",
+    "type": "District"
+  },
+  {
+    "code": "208",
+    "label": "Kumi",
+    "type": "District"
+  },
+  {
+    "code": "209",
+    "label": "Mbale",
+    "type": "District"
+  },
+  {
+    "code": "210",
+    "label": "Pallisa",
+    "type": "District"
+  },
+  {
+    "code": "211",
+    "label": "Soroti",
+    "type": "District"
+  },
+  {
+    "code": "212",
+    "label": "Tororo",
+    "type": "District"
+  },
+  {
+    "code": "213",
+    "label": "Kaberamaido",
+    "type": "District"
+  },
+  {
+    "code": "215",
+    "label": "Sironko",
+    "type": "District"
+  },
+  {
+    "code": "216",
+    "label": "Amuria",
+    "type": "District"
+  },
+  {
+    "code": "217",
+    "label": "Budaka",
+    "type": "District"
+  },
+  {
+    "code": "218",
+    "label": "Bududa",
+    "type": "District"
+  },
+  {
+    "code": "219",
+    "label": "Bukedea",
+    "type": "District"
+  },
+  {
+    "code": "220",
+    "label": "Bukwo",
+    "type": "District"
+  },
+  {
+    "code": "221",
+    "label": "Butaleja",
+    "type": "District"
+  },
+  {
+    "code": "222",
+    "label": "Kaliro",
+    "type": "District"
+  },
+  {
+    "code": "223",
+    "label": "Manafwa",
+    "type": "District"
+  },
+  {
+    "code": "224",
+    "label": "Namutumba",
+    "type": "District"
+  },
+  {
+    "code": "225",
+    "label": "Bulambuli",
+    "type": "District"
+  },
+  {
+    "code": "226",
+    "label": "Buyende",
+    "type": "District"
+  },
+  {
+    "code": "227",
+    "label": "Kibuku",
+    "type": "District"
+  },
+  {
+    "code": "228",
+    "label": "Kween",
+    "type": "District"
+  },
+  {
+    "code": "229",
+    "label": "Luuka",
+    "type": "District"
+  },
+  {
+    "code": "230",
+    "label": "Namayingo",
+    "type": "District"
+  },
+  {
+    "code": "231",
+    "label": "Ngora",
+    "type": "District"
+  },
+  {
+    "code": "232",
+    "label": "Serere",
+    "type": "District"
+  },
+  {
+    "code": "233",
+    "label": "Butebo",
+    "type": "District"
+  },
+  {
+    "code": "234",
+    "label": "Namisindwa",
+    "type": "District"
+  },
+  {
+    "code": "235",
+    "label": "Bugweri",
+    "type": "District"
+  },
+  {
+    "code": "236",
+    "label": "Kapelebyong",
+    "type": "District"
+  },
+  {
+    "code": "237",
+    "label": "Kalaki",
+    "type": "District"
+  },
+  {
+    "code": "244",
+    "label": "Mayuge",
+    "type": "District"
+  },
+  {
+    "code": "301",
+    "label": "Adjumani",
+    "type": "District"
+  },
+  {
+    "code": "302",
+    "label": "Apac",
+    "type": "District"
+  },
+  {
+    "code": "303",
+    "label": "Arua",
+    "type": "District"
+  },
+  {
+    "code": "304",
+    "label": "Gulu",
+    "type": "District"
+  },
+  {
+    "code": "305",
+    "label": "Kitgum",
+    "type": "District"
+  },
+  {
+    "code": "306",
+    "label": "Kotido",
+    "type": "District"
+  },
+  {
+    "code": "307",
+    "label": "Lira",
+    "type": "District"
+  },
+  {
+    "code": "308",
+    "label": "Moroto",
+    "type": "District"
+  },
+  {
+    "code": "309",
+    "label": "Moyo",
+    "type": "District"
+  },
+  {
+    "code": "310",
+    "label": "Nebbi",
+    "type": "District"
+  },
+  {
+    "code": "311",
+    "label": "Nakapiripirit",
+    "type": "District"
+  },
+  {
+    "code": "312",
+    "label": "Pader",
+    "type": "District"
+  },
+  {
+    "code": "313",
+    "label": "Yumbe",
+    "type": "District"
+  },
+  {
+    "code": "314",
+    "label": "Abim",
+    "type": "District"
+  },
+  {
+    "code": "315",
+    "label": "Amolatar",
+    "type": "District"
+  },
+  {
+    "code": "316",
+    "label": "Amuru",
+    "type": "District"
+  },
+  {
+    "code": "317",
+    "label": "Dokolo",
+    "type": "District"
+  },
+  {
+    "code": "318",
+    "label": "Kaabong",
+    "type": "District"
+  },
+  {
+    "code": "319",
+    "label": "Koboko",
+    "type": "District"
+  },
+  {
+    "code": "320",
+    "label": "Maracha",
+    "type": "District"
+  },
+  {
+    "code": "321",
+    "label": "Oyam",
+    "type": "District"
+  },
+  {
+    "code": "325",
+    "label": "Kole",
+    "type": "District"
+  },
+  {
+    "code": "326",
+    "label": "Lamwo",
+    "type": "District"
+  },
+  {
+    "code": "327",
+    "label": "Napak",
+    "type": "District"
+  },
+  {
+    "code": "328",
+    "label": "Nwoya",
+    "type": "District"
+  },
+  {
+    "code": "329",
+    "label": "Otuke",
+    "type": "District"
+  },
+  {
+    "code": "330",
+    "label": "Zombo",
+    "type": "District"
+  },
+  {
+    "code": "331",
+    "label": "Omoro",
+    "type": "District"
+  },
+  {
+    "code": "332",
+    "label": "Pakwach",
+    "type": "District"
+  },
+  {
+    "code": "333",
+    "label": "Kwania",
+    "type": "District"
+  },
+  {
+    "code": "334",
+    "label": "Nabilatuk",
+    "type": "District"
+  },
+  {
+    "code": "335",
+    "label": "Karenga",
+    "type": "District"
+  },
+  {
+    "code": "336",
+    "label": "Madi-Okollo",
+    "type": "District"
+  },
+  {
+    "code": "337",
+    "label": "Obongi",
+    "type": "District"
+  },
+  {
+    "code": "401",
+    "label": "Bundibugyo",
+    "type": "District"
+  },
+  {
+    "code": "402",
+    "label": "Bushenyi",
+    "type": "District"
+  },
+  {
+    "code": "403",
+    "label": "Hoima",
+    "type": "District"
+  },
+  {
+    "code": "404",
+    "label": "Kabale",
+    "type": "District"
+  },
+  {
+    "code": "405",
+    "label": "Kabarole",
+    "type": "District"
+  },
+  {
+    "code": "406",
+    "label": "Kasese",
+    "type": "District"
+  },
+  {
+    "code": "407",
+    "label": "Kibaale",
+    "type": "District"
+  },
+  {
+    "code": "408",
+    "label": "Kisoro",
+    "type": "District"
+  },
+  {
+    "code": "409",
+    "label": "Masindi",
+    "type": "District"
+  },
+  {
+    "code": "410",
+    "label": "Mbarara",
+    "type": "District"
+  },
+  {
+    "code": "411",
+    "label": "Ntungamo",
+    "type": "District"
+  },
+  {
+    "code": "412",
+    "label": "Rukungiri",
+    "type": "District"
+  },
+  {
+    "code": "413",
+    "label": "Kamwenge",
+    "type": "District"
+  },
+  {
+    "code": "414",
+    "label": "Kanungu",
+    "type": "District"
+  },
+  {
+    "code": "415",
+    "label": "Kyenjojo",
+    "type": "District"
+  },
+  {
+    "code": "416",
+    "label": "Buliisa",
+    "type": "District"
+  },
+  {
+    "code": "417",
+    "label": "Ibanda",
+    "type": "District"
+  },
+  {
+    "code": "418",
+    "label": "Isingiro",
+    "type": "District"
+  },
+  {
+    "code": "419",
+    "label": "Kiruhura",
+    "type": "District"
+  },
+  {
+    "code": "420",
+    "label": "Buhweju",
+    "type": "District"
+  },
+  {
+    "code": "421",
+    "label": "Kiryandongo",
+    "type": "District"
+  },
+  {
+    "code": "422",
+    "label": "Kyegegwa",
+    "type": "District"
+  },
+  {
+    "code": "423",
+    "label": "Mitooma",
+    "type": "District"
+  },
+  {
+    "code": "424",
+    "label": "Ntoroko",
+    "type": "District"
+  },
+  {
+    "code": "425",
+    "label": "Rubirizi",
+    "type": "District"
+  },
+  {
+    "code": "426",
+    "label": "Sheema",
+    "type": "District"
+  },
+  {
+    "code": "427",
+    "label": "Kagadi",
+    "type": "District"
+  },
+  {
+    "code": "428",
+    "label": "Kakumiro",
+    "type": "District"
+  },
+  {
+    "code": "429",
+    "label": "Rubanda",
+    "type": "District"
+  },
+  {
+    "code": "430",
+    "label": "Bunyangabu",
+    "type": "District"
+  },
+  {
+    "code": "431",
+    "label": "Rukiga",
+    "type": "District"
+  },
+  {
+    "code": "432",
+    "label": "Kikuube",
+    "type": "District"
+  },
+  {
+    "code": "433",
+    "label": "Kazo",
+    "type": "District"
+  },
+  {
+    "code": "434",
+    "label": "Kitagwenda",
+    "type": "District"
+  },
+  {
+    "code": "435",
+    "label": "Rwampara",
+    "type": "District"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "code": "BAL",
+    "label": "Balkh",
+    "type": "Province"
+  },
+  {
+    "code": "BAM",
+    "label": "Bamyan",
+    "type": "Province"
+  },
+  {
+    "code": "BDG",
+    "label": "Badghis",
+    "type": "Province"
+  },
+  {
+    "code": "BDS",
+    "label": "Badakhshan",
+    "type": "Province"
+  },
+  {
+    "code": "BGL",
+    "label": "Baghlan",
+    "type": "Province"
+  },
+  {
+    "code": "DAY",
+    "label": "Daykundi",
+    "type": "Province"
+  },
+  {
+    "code": "FRA",
+    "label": "Farah",
+    "type": "Province"
+  },
+  {
+    "code": "FYB",
+    "label": "Faryab",
+    "type": "Province"
+  },
+  {
+    "code": "GHA",
+    "label": "Ghazni",
+    "type": "Province"
+  },
+  {
+    "code": "GHO",
+    "label": "Ghor",
+    "type": "Province"
+  },
+  {
+    "code": "HEL",
+    "label": "Helmand",
+    "type": "Province"
+  },
+  {
+    "code": "HER",
+    "label": "Herat",
+    "type": "Province"
+  },
+  {
+    "code": "JOW",
+    "label": "Jowzjan",
+    "type": "Province"
+  },
+  {
+    "code": "KAB",
+    "label": "Kabul",
+    "type": "Province"
+  },
+  {
+    "code": "KAN",
+    "label": "Kandahar",
+    "type": "Province"
+  },
+  {
+    "code": "KAP",
+    "label": "Kapisa",
+    "type": "Province"
+  },
+  {
+    "code": "KDZ",
+    "label": "Kunduz",
+    "type": "Province"
+  },
+  {
+    "code": "KHO",
+    "label": "Khost",
+    "type": "Province"
+  },
+  {
+    "code": "KNR",
+    "label": "Kuna?",
+    "type": "Province"
+  },
+  {
+    "code": "LAG",
+    "label": "Laghman",
+    "type": "Province"
+  },
+  {
+    "code": "LOG",
+    "label": "Logar",
+    "type": "Province"
+  },
+  {
+    "code": "NAN",
+    "label": "Nangarhar",
+    "type": "Province"
+  },
+  {
+    "code": "NIM",
+    "label": "Nimroz",
+    "type": "Province"
+  },
+  {
+    "code": "NUR",
+    "label": "Nuristan",
+    "type": "Province"
+  },
+  {
+    "code": "PAN",
+    "label": "Panjshayr",
+    "type": "Province"
+  },
+  {
+    "code": "PAR",
+    "label": "Parwan",
+    "type": "Province"
+  },
+  {
+    "code": "PIA",
+    "label": "Paktiya",
+    "type": "Province"
+  },
+  {
+    "code": "PKA",
+    "label": "Paktika",
+    "type": "Province"
+  },
+  {
+    "code": "SAM",
+    "label": "Samangan",
+    "type": "Province"
+  },
+  {
+    "code": "SAR",
+    "label": "Sar-e Pul",
+    "type": "Province"
+  },
+  {
+    "code": "TAK",
+    "label": "Takhar",
+    "type": "Province"
+  },
+  {
+    "code": "URU",
+    "label": "Uruzgan",
+    "type": "Province"
+  },
+  {
+    "code": "WAR",
+    "label": "Wardak",
+    "type": "Province"
+  },
+  {
+    "code": "ZAB",
+    "label": "Zabul",
+    "type": "Province"
+  }
+]

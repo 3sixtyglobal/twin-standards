@@ -1,0 +1,167 @@
+[
+  {
+    "locationCode": "BYL",
+    "label": "Bella Yella",
+    "function": "4"
+  },
+  {
+    "locationCode": "UCN",
+    "label": "Buchanan",
+    "function": "14"
+  },
+  {
+    "locationCode": "CMT",
+    "label": "Cape Mount",
+    "function": "1"
+  },
+  {
+    "locationCode": "CPA",
+    "label": "Cape Palmas",
+    "function": "14"
+  },
+  {
+    "locationCode": "FIM",
+    "label": "Fimibo",
+    "function": "1"
+  },
+  {
+    "locationCode": "FOY",
+    "label": "Foya",
+    "function": "4"
+  },
+  {
+    "locationCode": "GBS",
+    "label": "Grand Bassa",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRC",
+    "label": "Grand Cess",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Greenville",
+    "function": "1"
+  },
+  {
+    "locationCode": "HBL",
+    "label": "Harbel",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 6.266667,
+    "lng": -10.333333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harper",
+    "subdivisionCode": "MY",
+    "function": "13",
+    "lat": 4.366667,
+    "lng": -7.716667
+  },
+  {
+    "locationCode": "LOB",
+    "label": "Lower Buchanan",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marshall",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLW",
+    "label": "Monrovia",
+    "subdivisionCode": "MO",
+    "function": "1345",
+    "lat": 6.3,
+    "lng": -10.8
+  },
+  {
+    "locationCode": "NIA",
+    "label": "Nimba",
+    "function": "4"
+  },
+  {
+    "locationCode": "RVC",
+    "label": "River Cess",
+    "function": "14",
+    "lat": 5.466667,
+    "lng": -9.583333
+  },
+  {
+    "locationCode": "ROB",
+    "label": "Roberts International Airport",
+    "subdivisionCode": "MO",
+    "function": "34",
+    "lat": 6.233333,
+    "lng": -10.35
+  },
+  {
+    "locationCode": "ROX",
+    "label": "Robertsport",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sagleipie",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 6.95,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sarioe Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAZ",
+    "label": "Sasstown",
+    "function": "14"
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Sinoe",
+    "function": "14"
+  },
+  {
+    "locationCode": "TPT",
+    "label": "Tapeta",
+    "function": "4"
+  },
+  {
+    "locationCode": "THC",
+    "label": "Tchien",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRT",
+    "label": "Trade Town",
+    "function": "1"
+  },
+  {
+    "locationCode": "VOI",
+    "label": "Voinjama",
+    "function": "4"
+  },
+  {
+    "locationCode": "WES",
+    "label": "Weasua",
+    "function": "4"
+  },
+  {
+    "locationCode": "WOI",
+    "label": "Wologissi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZWD",
+    "label": "Zwedru",
+    "subdivisionCode": "GG",
+    "function": "3",
+    "lat": 6.066667,
+    "lng": -8.116667
+  }
+]

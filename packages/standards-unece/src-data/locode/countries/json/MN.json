@@ -1,0 +1,166 @@
+[
+  {
+    "locationCode": "LTI",
+    "label": "Altai",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALT",
+    "label": "Altanbulag",
+    "subdivisionCode": "049",
+    "function": "3",
+    "lat": 50.3,
+    "lng": 106.483333
+  },
+  {
+    "locationCode": "AVK",
+    "label": "Arvaikheer",
+    "function": "4"
+  },
+  {
+    "locationCode": "UUN",
+    "label": "Baruun-Urt",
+    "function": "4"
+  },
+  {
+    "locationCode": "BYN",
+    "label": "Bayankhongor",
+    "function": "4"
+  },
+  {
+    "locationCode": "UGA",
+    "label": "Bulgan",
+    "function": "4"
+  },
+  {
+    "locationCode": "COQ",
+    "label": "Choibalsan",
+    "function": "4"
+  },
+  {
+    "locationCode": "DLZ",
+    "label": "Dalandzadgad",
+    "function": "4",
+    "lat": 43.616667,
+    "lng": 104.483333
+  },
+  {
+    "locationCode": "DZU",
+    "label": "Dzamïn Üüd",
+    "labelWithDiacritics": "Dzamin Uud",
+    "function": "3",
+    "lat": 44.516667,
+    "lng": 111.166667
+  },
+  {
+    "locationCode": "ERT",
+    "label": "Erdenet",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAU",
+    "label": "Gangimaodu",
+    "function": "6",
+    "lat": 42.433333,
+    "lng": 107.566667
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatgal",
+    "subdivisionCode": "041",
+    "function": "3",
+    "lat": 50.45,
+    "lng": 100.166667
+  },
+  {
+    "locationCode": "KHR",
+    "label": "Kharkhorin",
+    "function": "4"
+  },
+  {
+    "locationCode": "HVD",
+    "label": "Khovd",
+    "function": "4"
+  },
+  {
+    "locationCode": "HJT",
+    "label": "Khujirt",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXW",
+    "label": "Mandalgobi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXV",
+    "label": "Moron",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULG",
+    "label": "Ölgii",
+    "subdivisionCode": "071",
+    "labelWithDiacritics": "Olgii",
+    "function": "34",
+    "lat": 48.966667,
+    "lng": 89.95
+  },
+  {
+    "locationCode": "ORD",
+    "label": "Ordos",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": 109.833333
+  },
+  {
+    "locationCode": "TOS",
+    "label": "Tosontsengel",
+    "subdivisionCode": "057",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 98.283333
+  },
+  {
+    "locationCode": "TSZ",
+    "label": "Tsetserleg",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULN",
+    "label": "Ulaanbaatar",
+    "function": "45"
+  },
+  {
+    "locationCode": "ULO",
+    "label": "Ulaangom",
+    "function": "4"
+  },
+  {
+    "locationCode": "UQA",
+    "label": "Ulan Qab",
+    "function": "3",
+    "lat": 42.766667,
+    "lng": 114.666667
+  },
+  {
+    "locationCode": "ULZ",
+    "label": "Uliastay",
+    "function": "4",
+    "lat": 47.75,
+    "lng": 96.816667
+  },
+  {
+    "locationCode": "UNR",
+    "label": "Underkhaan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZUU",
+    "label": "Zamyn-Üüd",
+    "labelWithDiacritics": "Zamyn-Uud",
+    "function": "36",
+    "lat": 43.75,
+    "lng": 111.866667
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "code": "01",
+    "label": "Lefkosia",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Lemesos",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Larnaka",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Ammochostos",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Pafos",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Keryneia",
+    "type": "District"
+  }
+]

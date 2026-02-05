@@ -1,0 +1,122 @@
+[
+  {
+    "code": "11",
+    "label": "Tunis",
+    "type": "Governorate"
+  },
+  {
+    "code": "12",
+    "label": "L'Ariana",
+    "type": "Governorate"
+  },
+  {
+    "code": "13",
+    "label": "Ben Arous",
+    "type": "Governorate"
+  },
+  {
+    "code": "14",
+    "label": "La Manouba",
+    "type": "Governorate"
+  },
+  {
+    "code": "21",
+    "label": "Nabeul",
+    "type": "Governorate"
+  },
+  {
+    "code": "22",
+    "label": "Zaghouan",
+    "type": "Governorate"
+  },
+  {
+    "code": "23",
+    "label": "Bizerte",
+    "type": "Governorate"
+  },
+  {
+    "code": "31",
+    "label": "Béja",
+    "type": "Governorate"
+  },
+  {
+    "code": "32",
+    "label": "Jendouba",
+    "type": "Governorate"
+  },
+  {
+    "code": "33",
+    "label": "Le Kef",
+    "type": "Governorate"
+  },
+  {
+    "code": "34",
+    "label": "Siliana",
+    "type": "Governorate"
+  },
+  {
+    "code": "41",
+    "label": "Kairouan",
+    "type": "Governorate"
+  },
+  {
+    "code": "42",
+    "label": "Kasserine",
+    "type": "Governorate"
+  },
+  {
+    "code": "43",
+    "label": "Sidi Bouzid",
+    "type": "Governorate"
+  },
+  {
+    "code": "51",
+    "label": "Sousse",
+    "type": "Governorate"
+  },
+  {
+    "code": "52",
+    "label": "Monastir",
+    "type": "Governorate"
+  },
+  {
+    "code": "53",
+    "label": "Mahdia",
+    "type": "Governorate"
+  },
+  {
+    "code": "61",
+    "label": "Sfax",
+    "type": "Governorate"
+  },
+  {
+    "code": "71",
+    "label": "Gafsa",
+    "type": "Governorate"
+  },
+  {
+    "code": "72",
+    "label": "Tozeur",
+    "type": "Governorate"
+  },
+  {
+    "code": "73",
+    "label": "Kébili",
+    "type": "Governorate"
+  },
+  {
+    "code": "81",
+    "label": "Gabès",
+    "type": "Governorate"
+  },
+  {
+    "code": "82",
+    "label": "Médenine",
+    "type": "Governorate"
+  },
+  {
+    "code": "83",
+    "label": "Tataouine",
+    "type": "Governorate"
+  }
+]

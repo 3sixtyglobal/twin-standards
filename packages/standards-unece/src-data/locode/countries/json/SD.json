@@ -1,0 +1,213 @@
+[
+  {
+    "locationCode": "ABY",
+    "label": "Abyei",
+    "subdivisionCode": "KS",
+    "function": "3",
+    "lat": 9.6,
+    "lng": 28.433333
+  },
+  {
+    "locationCode": "AAD",
+    "label": "Ad Dabbah",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Ar Rank",
+    "function": "3",
+    "lat": 11.75,
+    "lng": 32.8
+  },
+  {
+    "locationCode": "ATB",
+    "label": "Atbara",
+    "function": "4"
+  },
+  {
+    "locationCode": "DNX",
+    "label": "Dinder",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOG",
+    "label": "Dongola",
+    "subdivisionCode": "NO",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELF",
+    "label": "El Fasher",
+    "subdivisionCode": "DN",
+    "function": "4",
+    "lat": 13.633333,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "EBD",
+    "label": "El Obeid",
+    "subdivisionCode": "KN",
+    "function": "4",
+    "lat": 13.183333,
+    "lng": 30.216667
+  },
+  {
+    "locationCode": "EDB",
+    "label": "Eldebba",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUD",
+    "label": "En Nahud",
+    "function": "4"
+  },
+  {
+    "locationCode": "GSU",
+    "label": "Gedaref",
+    "subdivisionCode": "GD",
+    "function": "4"
+  },
+  {
+    "locationCode": "EGN",
+    "label": "Geneina",
+    "subdivisionCode": "DW",
+    "function": "4",
+    "lat": 13.45,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "JUM",
+    "label": "Juba",
+    "subdivisionCode": "DS",
+    "function": "4",
+    "lat": 12.15,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "KDX",
+    "label": "Kadugli",
+    "subdivisionCode": "KS",
+    "function": "4",
+    "lat": 11,
+    "lng": 29.716667
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kassala",
+    "subdivisionCode": "KA",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Khartoum",
+    "subdivisionCode": "KH",
+    "function": "45"
+  },
+  {
+    "locationCode": "GBU",
+    "label": "Khashm El Girba",
+    "subdivisionCode": "GD",
+    "function": "4"
+  },
+  {
+    "locationCode": "KST",
+    "label": "Kosti",
+    "subdivisionCode": "NW",
+    "function": "4",
+    "lat": 13.166667,
+    "lng": 32.666667
+  },
+  {
+    "locationCode": "MBH",
+    "label": "Marsa Bashayer",
+    "function": "1",
+    "lat": 19.383333,
+    "lng": 37.3
+  },
+  {
+    "locationCode": "MWE",
+    "label": "Merowe",
+    "function": "4"
+  },
+  {
+    "locationCode": "NHF",
+    "label": "New Halfa",
+    "subdivisionCode": "KA",
+    "function": "4"
+  },
+  {
+    "locationCode": "UYL",
+    "label": "Nyala",
+    "subdivisionCode": "DS",
+    "function": "4",
+    "lat": 12.05,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "BTE",
+    "label": "Omdurman",
+    "subdivisionCode": "KH",
+    "function": "3",
+    "lat": 15.633333,
+    "lng": 32.433333
+  },
+  {
+    "locationCode": "PZU",
+    "label": "Port Sudan",
+    "subdivisionCode": "RS",
+    "function": "145"
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rabak",
+    "function": "36",
+    "lat": 13.15,
+    "lng": 32.733333
+  },
+  {
+    "locationCode": "RSS",
+    "label": "Roseires",
+    "function": "4"
+  },
+  {
+    "locationCode": "SSD",
+    "label": "Sawakin",
+    "function": "3",
+    "lat": 19.1,
+    "lng": 37.316667
+  },
+  {
+    "locationCode": "SWA",
+    "label": "Swakin",
+    "function": "1"
+  },
+  {
+    "locationCode": "DNI",
+    "label": "Wad Medani",
+    "subdivisionCode": "GZ",
+    "function": "4",
+    "lat": 14.4,
+    "lng": 33.483333
+  },
+  {
+    "locationCode": "WHF",
+    "label": "Wadi Halfa",
+    "subdivisionCode": "NO",
+    "function": "4"
+  },
+  {
+    "locationCode": "YEI",
+    "label": "Yei",
+    "function": "3",
+    "lat": 4.083333,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "ZLX",
+    "label": "Zalingei",
+    "subdivisionCode": "DW",
+    "function": "34",
+    "lat": 12.9,
+    "lng": 23.483333
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "locationCode": "EAB",
+    "label": "Abbse",
+    "function": "4"
+  },
+  {
+    "locationCode": "ADN",
+    "label": "'Adan",
+    "subdivisionCode": "AD",
+    "function": "6",
+    "lat": 12.766667,
+    "lng": 45.033333
+  },
+  {
+    "locationCode": "ADE",
+    "label": "Aden",
+    "function": "145"
+  },
+  {
+    "locationCode": "AHW",
+    "label": "Ahwar",
+    "function": "1"
+  },
+  {
+    "locationCode": "AAY",
+    "label": "Al Ghaydah",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAM",
+    "label": "Al Mukalla",
+    "subdivisionCode": "HD",
+    "function": "6",
+    "lat": 14.516667,
+    "lng": 49.116667
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Albuq",
+    "function": "4",
+    "lat": 15.833333,
+    "lng": 43.766667
+  },
+  {
+    "locationCode": "AJO",
+    "label": "Aljouf",
+    "subdivisionCode": "AB",
+    "function": "4",
+    "lat": 13.833333,
+    "lng": 45.833333
+  },
+  {
+    "locationCode": "ASR",
+    "label": "Ash Shihr",
+    "function": "3"
+  },
+  {
+    "locationCode": "AXK",
+    "label": "Ataq",
+    "function": "4"
+  },
+  {
+    "locationCode": "BLH",
+    "label": "Balhaf",
+    "subdivisionCode": "SH",
+    "function": "3",
+    "lat": 13.966667,
+    "lng": 48.183333
+  },
+  {
+    "locationCode": "BYD",
+    "label": "Beidah",
+    "subdivisionCode": "BA",
+    "function": "4",
+    "lat": 13.983333,
+    "lng": 45.566667
+  },
+  {
+    "locationCode": "BHN",
+    "label": "Beihan",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogoa",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAH",
+    "label": "Dathina",
+    "function": "4"
+  },
+  {
+    "locationCode": "DHL",
+    "label": "Dhala",
+    "function": "4"
+  },
+  {
+    "locationCode": "DMR",
+    "label": "Dhamar",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELK",
+    "label": "El Katieb",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harad",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Haura",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOD",
+    "label": "Hodeidah",
+    "function": "145",
+    "lat": 14.833333,
+    "lng": 42.9
+  },
+  {
+    "locationCode": "IBB",
+    "label": "Ibb",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamaran",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khokha",
+    "function": "1"
+  },
+  {
+    "locationCode": "LEH",
+    "label": "Lahj",
+    "subdivisionCode": "LA",
+    "function": "3",
+    "lat": 13.05,
+    "lng": 44.883333
+  },
+  {
+    "locationCode": "LAW",
+    "label": "Lawdar",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAD",
+    "label": "Little Aden",
+    "subdivisionCode": "AD",
+    "function": "13",
+    "lat": 12.733333,
+    "lng": 44.866667
+  },
+  {
+    "locationCode": "LDR",
+    "label": "Lodar",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOH",
+    "label": "Loheiya",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Ma'allah",
+    "subdivisionCode": "AD",
+    "function": "3",
+    "lat": 12.783333,
+    "lng": 45
+  },
+  {
+    "locationCode": "MYN",
+    "label": "Mareb",
+    "function": "134"
+  },
+  {
+    "locationCode": "MFY",
+    "label": "Mayfa'ah",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOK",
+    "label": "Mokha",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKX",
+    "label": "Mukalla",
+    "function": "14"
+  },
+  {
+    "locationCode": "UKR",
+    "label": "Mukeiras",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Nishtun",
+    "function": "0"
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Perim Island",
+    "subdivisionCode": "TA",
+    "function": "1",
+    "lat": 12.65,
+    "lng": 43.416667
+  },
+  {
+    "locationCode": "IHN",
+    "label": "Qishn",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Ras Al Kalib",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Ras Isa Terminal",
+    "function": "1",
+    "lat": 15.2,
+    "lng": 42.666667
+  },
+  {
+    "locationCode": "RXA",
+    "label": "Raudha",
+    "function": "4"
+  },
+  {
+    "locationCode": "RIY",
+    "label": "Riyan Mukalla",
+    "subdivisionCode": "HD",
+    "function": "4",
+    "lat": 14.65,
+    "lng": 49.333333
+  },
+  {
+    "locationCode": "SYE",
+    "label": "Sadah",
+    "function": "134"
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Saleef Port",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAH",
+    "label": "Sana'a",
+    "function": "4"
+  },
+  {
+    "locationCode": "GXF",
+    "label": "Seiyun",
+    "function": "4"
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Suqutrá",
+    "labelWithDiacritics": "Suqutra",
+    "function": "14",
+    "lat": 12.5,
+    "lng": 54
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Taiz",
+    "function": "4"
+  },
+  {
+    "locationCode": "WDA",
+    "label": "Wadi Ain",
+    "function": "4",
+    "lat": 14.866667,
+    "lng": 45.533333
+  }
+]

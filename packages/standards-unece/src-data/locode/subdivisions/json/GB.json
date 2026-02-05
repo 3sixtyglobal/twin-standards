@@ -1,0 +1,1087 @@
+[
+  {
+    "code": "ABC",
+    "label": "Armagh City, Banbridge and Craigavon",
+    "type": "district"
+  },
+  {
+    "code": "ABD",
+    "label": "Aberdeenshire",
+    "type": "Council area"
+  },
+  {
+    "code": "ABE",
+    "label": "Aberdeen City",
+    "type": "Council area"
+  },
+  {
+    "code": "AGB",
+    "label": "Argyll and Bute",
+    "type": "Council area"
+  },
+  {
+    "code": "AGY",
+    "label": "Isle of Anglesey [Sir Ynys Môn GB-YNM]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "AND",
+    "label": "Ards and North Down",
+    "type": "district"
+  },
+  {
+    "code": "ANN",
+    "label": "Antrim and Newtownabbey",
+    "type": "district"
+  },
+  {
+    "code": "ANS",
+    "label": "Angus",
+    "type": "Council area"
+  },
+  {
+    "code": "BAS",
+    "label": "Bath and North East Somerset",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BBD",
+    "label": "Blackburn with Darwen",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BCP",
+    "label": "Bournemouth, Christchurch and Poole",
+    "type": "unitary authority"
+  },
+  {
+    "code": "BDF",
+    "label": "Bedford",
+    "type": "Council area"
+  },
+  {
+    "code": "BDG",
+    "label": "Barking and Dagenham",
+    "type": "London borough"
+  },
+  {
+    "code": "BEN",
+    "label": "Brent",
+    "type": "Council area"
+  },
+  {
+    "code": "BEX",
+    "label": "Bexley",
+    "type": "Council area"
+  },
+  {
+    "code": "BFS",
+    "label": "Belfast City",
+    "type": "District"
+  },
+  {
+    "code": "BGE",
+    "label": "Bridgend [Pen-y-bont ar Ogwr GB-POG]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BGW",
+    "label": "Blaenau Gwent",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BIR",
+    "label": "Birmingham",
+    "type": "Council area"
+  },
+  {
+    "code": "BKM",
+    "label": "Buckinghamshire",
+    "type": "Unitary Authority"
+  },
+  {
+    "code": "BNE",
+    "label": "Barnet",
+    "type": "Council area"
+  },
+  {
+    "code": "BNH",
+    "label": "Brighton and Hove",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BNS",
+    "label": "Barnsley",
+    "type": "Council area"
+  },
+  {
+    "code": "BOL",
+    "label": "Bolton",
+    "type": "Council area"
+  },
+  {
+    "code": "BPL",
+    "label": "Blackpool",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BRC",
+    "label": "Bracknell Forest",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BRD",
+    "label": "Bradford",
+    "type": "Council area"
+  },
+  {
+    "code": "BRY",
+    "label": "Bromley",
+    "type": "Council area"
+  },
+  {
+    "code": "BST",
+    "label": "Bristol, City of",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "BUR",
+    "label": "Bury",
+    "type": "Council area"
+  },
+  {
+    "code": "CAM",
+    "label": "Cambridgeshire",
+    "type": "County"
+  },
+  {
+    "code": "CAY",
+    "label": "Caerphilly [Caerffili GB-CAF]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CBF",
+    "label": "Central Bedfordshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CCG",
+    "label": "Causeway Coast and Glens",
+    "type": "district"
+  },
+  {
+    "code": "CGN",
+    "label": "Ceredigion [Sir Ceredigion]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CHE",
+    "label": "Cheshire East",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CHW",
+    "label": "Cheshire West and Chester",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CLD",
+    "label": "Calderdale",
+    "type": "Council area"
+  },
+  {
+    "code": "CLK",
+    "label": "Clackmannanshire",
+    "type": "Council area"
+  },
+  {
+    "code": "CMA",
+    "label": "Cumbria",
+    "type": "County"
+  },
+  {
+    "code": "CMD",
+    "label": "Camden",
+    "type": "Council area"
+  },
+  {
+    "code": "CMN",
+    "label": "Carmarthenshire [Sir Gaerfyrddin GB-GFY]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CON",
+    "label": "Cornwall",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "COV",
+    "label": "Coventry",
+    "type": "Council area"
+  },
+  {
+    "code": "CRF",
+    "label": "Cardiff [Caerdydd GB-CRD]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "CRY",
+    "label": "Croydon",
+    "type": "Council area"
+  },
+  {
+    "code": "CWY",
+    "label": "Conwy",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "DAL",
+    "label": "Darlington",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "DBY",
+    "label": "Derbyshire",
+    "type": "County"
+  },
+  {
+    "code": "DEN",
+    "label": "Denbighshire [Sir Ddinbych GB-DDB]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "DER",
+    "label": "Derby",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "DEV",
+    "label": "Devon",
+    "type": "County"
+  },
+  {
+    "code": "DGY",
+    "label": "Dumfries and Galloway",
+    "type": "Council area"
+  },
+  {
+    "code": "DNC",
+    "label": "Doncaster",
+    "type": "Council area"
+  },
+  {
+    "code": "DND",
+    "label": "Dundee City",
+    "type": "Council area"
+  },
+  {
+    "code": "DOR",
+    "label": "Dorset",
+    "type": "County"
+  },
+  {
+    "code": "DRS",
+    "label": "Derry and Strabane",
+    "type": "district"
+  },
+  {
+    "code": "DUD",
+    "label": "Dudley",
+    "type": "Council area"
+  },
+  {
+    "code": "DUR",
+    "label": "Durham, County",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "EAL",
+    "label": "Ealing",
+    "type": "Council area"
+  },
+  {
+    "code": "EAY",
+    "label": "East Ayrshire",
+    "type": "Council area"
+  },
+  {
+    "code": "EDH",
+    "label": "Edinburgh, City of",
+    "type": "Council area"
+  },
+  {
+    "code": "EDU",
+    "label": "East Dunbartonshire",
+    "type": "Council area"
+  },
+  {
+    "code": "ELN",
+    "label": "East Lothian",
+    "type": "Council area"
+  },
+  {
+    "code": "ELS",
+    "label": "Eilean Siar",
+    "type": "Council area"
+  },
+  {
+    "code": "ENF",
+    "label": "Enfield",
+    "type": "Council area"
+  },
+  {
+    "code": "ERW",
+    "label": "East Renfrewshire",
+    "type": "Council area"
+  },
+  {
+    "code": "ERY",
+    "label": "East Riding of Yorkshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "ESS",
+    "label": "Essex",
+    "type": "County"
+  },
+  {
+    "code": "ESX",
+    "label": "East Sussex",
+    "type": "County"
+  },
+  {
+    "code": "FAL",
+    "label": "Falkirk",
+    "type": "Council area"
+  },
+  {
+    "code": "FIF",
+    "label": "Fife",
+    "type": "Council area"
+  },
+  {
+    "code": "FLN",
+    "label": "Flintshire [Sir y Fflint GB-FFL]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "FMO",
+    "label": "Fermanagh and Omagh",
+    "type": "district"
+  },
+  {
+    "code": "GAT",
+    "label": "Gateshead",
+    "type": "Council area"
+  },
+  {
+    "code": "GLG",
+    "label": "Glasgow City",
+    "type": "Council area"
+  },
+  {
+    "code": "GLS",
+    "label": "Gloucestershire",
+    "type": "County"
+  },
+  {
+    "code": "GRE",
+    "label": "Greenwich",
+    "type": "Council area"
+  },
+  {
+    "code": "GWN",
+    "label": "Gwynedd",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "HAL",
+    "label": "Halton",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "HAM",
+    "label": "Hampshire",
+    "type": "County"
+  },
+  {
+    "code": "HAV",
+    "label": "Havering",
+    "type": "Council area"
+  },
+  {
+    "code": "HCK",
+    "label": "Hackney",
+    "type": "Council area"
+  },
+  {
+    "code": "HEF",
+    "label": "Herefordshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "HIL",
+    "label": "Hillingdon",
+    "type": "Council area"
+  },
+  {
+    "code": "HLD",
+    "label": "Highland",
+    "type": "Council area"
+  },
+  {
+    "code": "HMF",
+    "label": "Hammersmith and Fulham",
+    "type": "Council area"
+  },
+  {
+    "code": "HNS",
+    "label": "Hounslow",
+    "type": "Council area"
+  },
+  {
+    "code": "HPL",
+    "label": "Hartlepool",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "HRT",
+    "label": "Hertfordshire",
+    "type": "County"
+  },
+  {
+    "code": "HRW",
+    "label": "Harrow",
+    "type": "Council area"
+  },
+  {
+    "code": "HRY",
+    "label": "Haringey",
+    "type": "Council area"
+  },
+  {
+    "code": "IOS",
+    "label": "Isles of Scilly",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "IOW",
+    "label": "Isle of Wight",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "ISL",
+    "label": "Islington",
+    "type": "Council area"
+  },
+  {
+    "code": "IVC",
+    "label": "Inverclyde",
+    "type": "Council area"
+  },
+  {
+    "code": "KEC",
+    "label": "Kensington and Chelsea",
+    "type": "Council area"
+  },
+  {
+    "code": "KEN",
+    "label": "Kent",
+    "type": "County"
+  },
+  {
+    "code": "KHL",
+    "label": "Kingston upon Hull",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "KIR",
+    "label": "Kirklees",
+    "type": "Council area"
+  },
+  {
+    "code": "KTT",
+    "label": "Kingston upon Thames",
+    "type": "Council area"
+  },
+  {
+    "code": "KWL",
+    "label": "Knowsley",
+    "type": "Council area"
+  },
+  {
+    "code": "LAN",
+    "label": "Lancashire",
+    "type": "County"
+  },
+  {
+    "code": "LBC",
+    "label": "Lisburn and Castlereagh",
+    "type": "district"
+  },
+  {
+    "code": "LBH",
+    "label": "Lambeth",
+    "type": "Council area"
+  },
+  {
+    "code": "LCE",
+    "label": "Leicester",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "LDS",
+    "label": "Leeds",
+    "type": "Council area"
+  },
+  {
+    "code": "LEC",
+    "label": "Leicestershire",
+    "type": "County"
+  },
+  {
+    "code": "LEW",
+    "label": "Lewisham",
+    "type": "Council area"
+  },
+  {
+    "code": "LIN",
+    "label": "Lincolnshire",
+    "type": "County"
+  },
+  {
+    "code": "LIV",
+    "label": "Liverpool",
+    "type": "Council area"
+  },
+  {
+    "code": "LND",
+    "label": "London, City of",
+    "type": "City Corporation"
+  },
+  {
+    "code": "LUT",
+    "label": "Luton",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MAN",
+    "label": "Manchester",
+    "type": "Council area"
+  },
+  {
+    "code": "MDB",
+    "label": "Middlesbrough",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MDW",
+    "label": "Medway",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MEA",
+    "label": "Mid and East Antrim",
+    "type": "district"
+  },
+  {
+    "code": "MIK",
+    "label": "Milton Keynes",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MLN",
+    "label": "Midlothian",
+    "type": "Council area"
+  },
+  {
+    "code": "MON",
+    "label": "Monmouthshire [Sir Fynwy GB-FYN]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MRT",
+    "label": "Merton",
+    "type": "Council area"
+  },
+  {
+    "code": "MRY",
+    "label": "Moray",
+    "type": "Council area"
+  },
+  {
+    "code": "MTY",
+    "label": "Merthyr Tydfil [Merthyr Tudful GB-MTU]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "MUL",
+    "label": "Mid-Ulster",
+    "type": "district"
+  },
+  {
+    "code": "NAY",
+    "label": "North Ayrshire",
+    "type": "Council area"
+  },
+  {
+    "code": "NBL",
+    "label": "Northumberland",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NEL",
+    "label": "North East Lincolnshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NET",
+    "label": "Newcastle upon Tyne",
+    "type": "Council area"
+  },
+  {
+    "code": "NFK",
+    "label": "Norfolk",
+    "type": "County"
+  },
+  {
+    "code": "NGM",
+    "label": "Nottingham",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NLK",
+    "label": "North Lanarkshire",
+    "type": "Council area"
+  },
+  {
+    "code": "NLN",
+    "label": "North Lincolnshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NMD",
+    "label": "Newry, Mourne and Down",
+    "type": "district"
+  },
+  {
+    "code": "NNH",
+    "label": "North Northamptonshire",
+    "type": "unitary authority"
+  },
+  {
+    "code": "NSM",
+    "label": "North Somerset",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NTL",
+    "label": "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NTT",
+    "label": "Nottinghamshire",
+    "type": "County"
+  },
+  {
+    "code": "NTY",
+    "label": "North Tyneside",
+    "type": "Council area"
+  },
+  {
+    "code": "NWM",
+    "label": "Newham",
+    "type": "Council area"
+  },
+  {
+    "code": "NWP",
+    "label": "Newport [Casnewydd GB-CNW]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "NYK",
+    "label": "North Yorkshire",
+    "type": "County"
+  },
+  {
+    "code": "OLD",
+    "label": "Oldham",
+    "type": "Council area"
+  },
+  {
+    "code": "ORK",
+    "label": "Orkney Islands",
+    "type": "Council area"
+  },
+  {
+    "code": "OXF",
+    "label": "Oxfordshire",
+    "type": "County"
+  },
+  {
+    "code": "PEM",
+    "label": "Pembrokeshire [Sir Benfro GB-BNF]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "PKN",
+    "label": "Perth and Kinross",
+    "type": "Council area"
+  },
+  {
+    "code": "PLY",
+    "label": "Plymouth",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "POR",
+    "label": "Portsmouth",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "POW",
+    "label": "Powys",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "PTE",
+    "label": "Peterborough",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "RCC",
+    "label": "Redcar and Cleveland",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "RCH",
+    "label": "Rochdale",
+    "type": "Council area"
+  },
+  {
+    "code": "RCT",
+    "label": "Rhondda Cynon Taff [Rhondda CynonTaf]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "RDB",
+    "label": "Redbridge",
+    "type": "Council area"
+  },
+  {
+    "code": "RDG",
+    "label": "Reading",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "RFW",
+    "label": "Renfrewshire",
+    "type": "Council area"
+  },
+  {
+    "code": "RIC",
+    "label": "Richmond upon Thames",
+    "type": "Council area"
+  },
+  {
+    "code": "ROT",
+    "label": "Rotherham",
+    "type": "Council area"
+  },
+  {
+    "code": "RUT",
+    "label": "Rutland",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SAW",
+    "label": "Sandwell",
+    "type": "Council area"
+  },
+  {
+    "code": "SAY",
+    "label": "South Ayrshire",
+    "type": "Council area"
+  },
+  {
+    "code": "SCB",
+    "label": "Scottish Borders",
+    "type": "Council area"
+  },
+  {
+    "code": "SFK",
+    "label": "Suffolk",
+    "type": "County"
+  },
+  {
+    "code": "SFT",
+    "label": "Sefton",
+    "type": "Council area"
+  },
+  {
+    "code": "SGC",
+    "label": "South Gloucestershire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SHF",
+    "label": "Sheffield",
+    "type": "Council area"
+  },
+  {
+    "code": "SHN",
+    "label": "St. Helens",
+    "type": "Council area"
+  },
+  {
+    "code": "SHR",
+    "label": "Shropshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SKP",
+    "label": "Stockport",
+    "type": "Council area"
+  },
+  {
+    "code": "SLF",
+    "label": "Salford",
+    "type": "Council area"
+  },
+  {
+    "code": "SLG",
+    "label": "Slough",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SLK",
+    "label": "South Lanarkshire",
+    "type": "Council area"
+  },
+  {
+    "code": "SND",
+    "label": "Sunderland",
+    "type": "Council area"
+  },
+  {
+    "code": "SOL",
+    "label": "Solihull",
+    "type": "Council area"
+  },
+  {
+    "code": "SOM",
+    "label": "Somerset",
+    "type": "County"
+  },
+  {
+    "code": "SOS",
+    "label": "Southend-on-Sea",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SRY",
+    "label": "Surrey",
+    "type": "County"
+  },
+  {
+    "code": "STE",
+    "label": "Stoke-on-Trent",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "STG",
+    "label": "Stirling",
+    "type": "Council area"
+  },
+  {
+    "code": "STH",
+    "label": "Southampton",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "STN",
+    "label": "Sutton",
+    "type": "Council area"
+  },
+  {
+    "code": "STS",
+    "label": "Staffordshire",
+    "type": "County"
+  },
+  {
+    "code": "STT",
+    "label": "Stockton-on-Tees",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "STY",
+    "label": "South Tyneside",
+    "type": "Council area"
+  },
+  {
+    "code": "SWA",
+    "label": "Swansea [Abertawe GB-ATA]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SWD",
+    "label": "Swindon",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "SWK",
+    "label": "Southwark",
+    "type": "Council area"
+  },
+  {
+    "code": "TAM",
+    "label": "Tameside",
+    "type": "Council area"
+  },
+  {
+    "code": "TFW",
+    "label": "Telford and Wrekin",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "THR",
+    "label": "Thurrock",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "TOB",
+    "label": "Torbay",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "TOF",
+    "label": "Torfaen [Tor-faen]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "TRF",
+    "label": "Trafford",
+    "type": "Council area"
+  },
+  {
+    "code": "TWH",
+    "label": "Tower Hamlets",
+    "type": "Council area"
+  },
+  {
+    "code": "VGL",
+    "label": "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WAR",
+    "label": "Warwickshire",
+    "type": "County"
+  },
+  {
+    "code": "WBK",
+    "label": "West Berkshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WDU",
+    "label": "West Dunbartonshire",
+    "type": "Council area"
+  },
+  {
+    "code": "WFT",
+    "label": "Waltham Forest",
+    "type": "Council area"
+  },
+  {
+    "code": "WGN",
+    "label": "Wigan",
+    "type": "Council area"
+  },
+  {
+    "code": "WIL",
+    "label": "Wiltshire",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WKF",
+    "label": "Wakefield",
+    "type": "Council area"
+  },
+  {
+    "code": "WLL",
+    "label": "Walsall",
+    "type": "Council area"
+  },
+  {
+    "code": "WLN",
+    "label": "West Lothian",
+    "type": "Council area"
+  },
+  {
+    "code": "WLV",
+    "label": "Wolverhampton",
+    "type": "Council area"
+  },
+  {
+    "code": "WND",
+    "label": "Wandsworth",
+    "type": "Council area"
+  },
+  {
+    "code": "WNH",
+    "label": "West Northamptonshire",
+    "type": "unitary authority"
+  },
+  {
+    "code": "WNM",
+    "label": "Windsor and Maidenhead",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WOK",
+    "label": "Wokingham",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WOR",
+    "label": "Worcestershire",
+    "type": "County"
+  },
+  {
+    "code": "WRL",
+    "label": "Wirral",
+    "type": "Council area"
+  },
+  {
+    "code": "WRT",
+    "label": "Warrington",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WRX",
+    "label": "Wrexham [Wrecsam GB-WRC]",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "WSM",
+    "label": "Westminster",
+    "type": "Council area"
+  },
+  {
+    "code": "WSX",
+    "label": "West Sussex",
+    "type": "County"
+  },
+  {
+    "code": "YOR",
+    "label": "York",
+    "type": "Unitary authority"
+  },
+  {
+    "code": "ZET",
+    "label": "Shetland Islands",
+    "type": "Council area"
+  }
+]

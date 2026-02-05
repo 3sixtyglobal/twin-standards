@@ -1,0 +1,32 @@
+[
+  {
+    "code": "AR",
+    "label": "Arta",
+    "type": "Region"
+  },
+  {
+    "code": "AS",
+    "label": "Ali Sabieh",
+    "type": "Region"
+  },
+  {
+    "code": "DI",
+    "label": "Dikhil",
+    "type": "Region"
+  },
+  {
+    "code": "DJ",
+    "label": "Djibouti",
+    "type": "City"
+  },
+  {
+    "code": "OB",
+    "label": "Obock",
+    "type": "Region"
+  },
+  {
+    "code": "TA",
+    "label": "Tadjourah",
+    "type": "Region"
+  }
+]

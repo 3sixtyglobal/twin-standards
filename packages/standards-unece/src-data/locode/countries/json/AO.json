@@ -1,0 +1,487 @@
+[
+  {
+    "locationCode": "AZZ",
+    "label": "Ambriz",
+    "function": "14"
+  },
+  {
+    "locationCode": "ANL",
+    "label": "Andulo",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARO",
+    "label": "Armada Olombendo FPSO",
+    "subdivisionCode": "ZAI",
+    "function": "7",
+    "lat": -6.066667,
+    "lng": 11.35
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Baba",
+    "function": "1",
+    "lat": -14.833333,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "BDT",
+    "label": "Baía dos Tigres",
+    "labelWithDiacritics": "Baia dos Tigres",
+    "function": "1",
+    "lat": -16.6,
+    "lng": 11.733333
+  },
+  {
+    "locationCode": "BDD",
+    "label": "Barra do Dande",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belas",
+    "subdivisionCode": "LUA",
+    "function": "3",
+    "lat": -8.916667,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "BUG",
+    "label": "Benguela",
+    "function": "14"
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Cabinda",
+    "function": "14"
+  },
+  {
+    "locationCode": "CFF",
+    "label": "Cafunfo",
+    "function": "4"
+  },
+  {
+    "locationCode": "CNZ",
+    "label": "Cangamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KNP",
+    "label": "Capanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "CPO",
+    "label": "Capulo",
+    "function": "1",
+    "lat": -7.983333,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "CBT",
+    "label": "Catumbela",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAV",
+    "label": "Cazombo",
+    "function": "4"
+  },
+  {
+    "locationCode": "PGI",
+    "label": "Chitato",
+    "function": "4"
+  },
+  {
+    "locationCode": "CLV",
+    "label": "CLOV FPSO",
+    "function": "7",
+    "lat": -7.45,
+    "lng": 11.566667
+  },
+  {
+    "locationCode": "CUI",
+    "label": "Cuio",
+    "function": "1",
+    "lat": -12.983333,
+    "lng": 12.983333
+  },
+  {
+    "locationCode": "CTI",
+    "label": "Cuito Cuanavale",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Dalia",
+    "function": "1",
+    "lat": -7.683333,
+    "lng": 11.783333
+  },
+  {
+    "locationCode": "DRC",
+    "label": "Dirico",
+    "function": "4"
+  },
+  {
+    "locationCode": "DGR",
+    "label": "Dombe Grande",
+    "function": "1"
+  },
+  {
+    "locationCode": "DUE",
+    "label": "Dundo",
+    "function": "4"
+  },
+  {
+    "locationCode": "ETN",
+    "label": "Essungo Terminal",
+    "function": "1",
+    "lat": -6.333333,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "FBY",
+    "label": "Farta Bay",
+    "function": "1",
+    "lat": -12.616667,
+    "lng": 13.2
+  },
+  {
+    "locationCode": "FLT",
+    "label": "Futila Terminal",
+    "function": "1",
+    "lat": -5.45,
+    "lng": 12.183333
+  },
+  {
+    "locationCode": "GIM",
+    "label": "Gimboa",
+    "function": "1",
+    "lat": -7.533333,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "GIR",
+    "label": "Girassol Terminal",
+    "function": "1",
+    "lat": -7.633333,
+    "lng": 11.683333
+  },
+  {
+    "locationCode": "GPO",
+    "label": "Greater Plutonio",
+    "function": "1",
+    "lat": -7.833333,
+    "lng": 12.116667
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Huambo",
+    "function": "4"
+  },
+  {
+    "locationCode": "JMB",
+    "label": "Jamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTI",
+    "label": "Kiame Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVP",
+    "label": "Kuito",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kuito Terminal",
+    "function": "1",
+    "lat": -5.433333,
+    "lng": 11.483333
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Landana (Cacongo)",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIE",
+    "label": "Lieura",
+    "function": "1"
+  },
+  {
+    "locationCode": "LOB",
+    "label": "Lobito",
+    "function": "15"
+  },
+  {
+    "locationCode": "LBT",
+    "label": "Lombo Terminal",
+    "function": "1",
+    "lat": -6.983333,
+    "lng": 12.35
+  },
+  {
+    "locationCode": "LAD",
+    "label": "Luanda",
+    "function": "145"
+  },
+  {
+    "locationCode": "UAL",
+    "label": "Luau",
+    "function": "4"
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Lubango",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Lucira",
+    "function": "13"
+  },
+  {
+    "locationCode": "LUO",
+    "label": "Luena",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBZ",
+    "label": "Lukapa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GGC",
+    "label": "Lumbala",
+    "function": "4"
+  },
+  {
+    "locationCode": "LZM",
+    "label": "Luzamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEG",
+    "label": "Malange",
+    "function": "4"
+  },
+  {
+    "locationCode": "MLO",
+    "label": "Malembo",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malongo",
+    "function": "0"
+  },
+  {
+    "locationCode": "MDZ",
+    "label": "Maquela Do Zombo",
+    "subdivisionCode": "UIG",
+    "function": "3",
+    "lat": -6.066667,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Matala",
+    "subdivisionCode": "HUI",
+    "function": "3",
+    "lat": -14.733333,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "SSY",
+    "label": "M'banza Congo",
+    "function": "4"
+  },
+  {
+    "locationCode": "SPP",
+    "label": "Menongue",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mocamedes",
+    "function": "3",
+    "lat": -15.166667,
+    "lng": 12.15
+  },
+  {
+    "locationCode": "MSZ",
+    "label": "Namibe",
+    "function": "14"
+  },
+  {
+    "locationCode": "NDF",
+    "label": "N'dalatando",
+    "subdivisionCode": "CNO",
+    "function": "4",
+    "lat": -9.3,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "GXG",
+    "label": "Negage",
+    "function": "4"
+  },
+  {
+    "locationCode": "NQI",
+    "label": "Nóqui",
+    "labelWithDiacritics": "Noqui",
+    "function": "123",
+    "lat": -5.85,
+    "lng": 13.433333
+  },
+  {
+    "locationCode": "NRQ",
+    "label": "N'Riquinha",
+    "function": "4"
+  },
+  {
+    "locationCode": "NZA",
+    "label": "Nzagi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARZ",
+    "label": "N'Zeto",
+    "function": "4"
+  },
+  {
+    "locationCode": "NTO",
+    "label": "N'Zeto (Ambrizete)",
+    "function": "1",
+    "lat": -7.266667,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "NGV",
+    "label": "Ondjiva",
+    "subdivisionCode": "CNN",
+    "function": "4",
+    "lat": -17.066667,
+    "lng": 15.733333
+  },
+  {
+    "locationCode": "VPE",
+    "label": "Ongiva",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Palanca Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAZ",
+    "label": "Pazflor FPSO",
+    "function": "7",
+    "lat": -8.35,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "PLE",
+    "label": "Porto Alexandre (Tombua)",
+    "function": "13"
+  },
+  {
+    "locationCode": "PBN",
+    "label": "Porto Amboim",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Porto Saco (Portosalazar)",
+    "function": "1",
+    "lat": -15.133333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "RSN",
+    "label": "River Sao Nicolau",
+    "function": "1",
+    "lat": -14.25,
+    "lng": 12.333333
+  },
+  {
+    "locationCode": "STC",
+    "label": "Santa Clara",
+    "subdivisionCode": "UIG",
+    "function": "36",
+    "lat": -7.366667,
+    "lng": 14.733333
+  },
+  {
+    "locationCode": "VHC",
+    "label": "Saurimo",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBT",
+    "label": "Saxi Batuque FPSO",
+    "function": "7",
+    "lat": -6.316667,
+    "lng": 11.216667
+  },
+  {
+    "locationCode": "STL",
+    "label": "Sazaire Terminal",
+    "function": "1",
+    "lat": -6.083333,
+    "lng": 12.383333
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Soyo",
+    "function": "14"
+  },
+  {
+    "locationCode": "SOQ",
+    "label": "Soyo-Quinfuquena Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "NDD",
+    "label": "Sumbe",
+    "function": "134"
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Takula Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "UGO",
+    "label": "Uíge",
+    "labelWithDiacritics": "Uige",
+    "function": "4",
+    "lat": -7.616667,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Viana",
+    "subdivisionCode": "LUA",
+    "function": "3",
+    "lat": -8.9,
+    "lng": 13.366667
+  },
+  {
+    "locationCode": "CEO",
+    "label": "Waku Kungo",
+    "function": "4",
+    "lat": -11.35,
+    "lng": 15.116667
+  },
+  {
+    "locationCode": "XGN",
+    "label": "Xangongo",
+    "function": "4"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "code": "AB",
+    "label": "Abyan",
+    "type": "Governorate"
+  },
+  {
+    "code": "AD",
+    "label": "Adan",
+    "type": "Governorate"
+  },
+  {
+    "code": "AM",
+    "label": "Amran",
+    "type": "Governorate"
+  },
+  {
+    "code": "BA",
+    "label": "Al Bay?a",
+    "type": "Governorate"
+  },
+  {
+    "code": "DA",
+    "label": "A? ?ali",
+    "type": "Governorate"
+  },
+  {
+    "code": "DH",
+    "label": "Dhamar",
+    "type": "Governorate"
+  },
+  {
+    "code": "HD",
+    "label": "?a?ramawt",
+    "type": "Governorate"
+  },
+  {
+    "code": "HJ",
+    "label": "?ajjah",
+    "type": "Governorate"
+  },
+  {
+    "code": "HU",
+    "label": "Al ?udaydah",
+    "type": "Governorate"
+  },
+  {
+    "code": "IB",
+    "label": "Ibb",
+    "type": "Governorate"
+  },
+  {
+    "code": "JA",
+    "label": "Al Jawf",
+    "type": "Governorate"
+  },
+  {
+    "code": "LA",
+    "label": "Lahij",
+    "type": "Governorate"
+  },
+  {
+    "code": "MA",
+    "label": "Marib",
+    "type": "Governorate"
+  },
+  {
+    "code": "MR",
+    "label": "Al Mahrah",
+    "type": "Governorate"
+  },
+  {
+    "code": "MW",
+    "label": "Al Ma?wit",
+    "type": "Governorate"
+  },
+  {
+    "code": "RA",
+    "label": "Raymah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SA",
+    "label": "Amanat al Asimah [city]",
+    "type": "Municipality"
+  },
+  {
+    "code": "SD",
+    "label": "Sa'dah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SH",
+    "label": "Shabwah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SN",
+    "label": "San?a'",
+    "type": "Governorate"
+  },
+  {
+    "code": "SU",
+    "label": "Arkhabil Suqutrá",
+    "type": "governorate"
+  },
+  {
+    "code": "TA",
+    "label": "Ta'izz",
+    "type": "Governorate"
+  }
+]

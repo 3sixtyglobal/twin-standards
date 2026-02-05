@@ -1,0 +1,42 @@
+[
+  {
+    "code": "DA",
+    "label": "Ad Dawhah",
+    "type": "Municipality"
+  },
+  {
+    "code": "KH",
+    "label": "Al Khawr wa adh Dhakhirah",
+    "type": "Municipality"
+  },
+  {
+    "code": "MS",
+    "label": "Ash Shamal",
+    "type": "Municipality"
+  },
+  {
+    "code": "RA",
+    "label": "Ar Rayyan",
+    "type": "Municipality"
+  },
+  {
+    "code": "SH",
+    "label": "Ash Shi?aniyah",
+    "type": "Municipality"
+  },
+  {
+    "code": "US",
+    "label": "Umm Salal",
+    "type": "Municipality"
+  },
+  {
+    "code": "WA",
+    "label": "Al Wakrah",
+    "type": "Municipality"
+  },
+  {
+    "code": "ZA",
+    "label": "Az¸ Z¸aayin",
+    "type": "Municipality"
+  }
+]

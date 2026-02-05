@@ -1,0 +1,163 @@
+[
+  {
+    "locationCode": "ALU",
+    "label": "Alula",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIB",
+    "label": "Baidoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSY",
+    "label": "Bardera",
+    "function": "4"
+  },
+  {
+    "locationCode": "BBO",
+    "label": "Berbera",
+    "function": "14"
+  },
+  {
+    "locationCode": "BXX",
+    "label": "Borama",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSA",
+    "label": "Bossaso",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUO",
+    "label": "Burao",
+    "function": "4"
+  },
+  {
+    "locationCode": "CXN",
+    "label": "Candala",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Dante (Ras Hafun)",
+    "function": "0"
+  },
+  {
+    "locationCode": "DH9",
+    "label": "Dhoobleey",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 2.5,
+    "lng": 42.316667
+  },
+  {
+    "locationCode": "DOW",
+    "label": "Doolow",
+    "subdivisionCode": "GE",
+    "function": "3",
+    "lat": 4.166667,
+    "lng": 42.083333
+  },
+  {
+    "locationCode": "HCM",
+    "label": "Eil",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELM",
+    "label": "El Maan",
+    "function": "13",
+    "lat": 2.166667,
+    "lng": 45.6
+  },
+  {
+    "locationCode": "ERA",
+    "label": "Erigavo",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Gaalkacyo",
+    "subdivisionCode": "MU",
+    "function": "3",
+    "lat": 6.783333,
+    "lng": 47.433333
+  },
+  {
+    "locationCode": "GLK",
+    "label": "Galcaio",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRC",
+    "label": "Garacad",
+    "subdivisionCode": "MU",
+    "function": "13",
+    "lat": 6.933333,
+    "lng": 49.316667
+  },
+  {
+    "locationCode": "GBM",
+    "label": "Garbaharey",
+    "function": "4"
+  },
+  {
+    "locationCode": "GSR",
+    "label": "Gardo",
+    "function": "4"
+  },
+  {
+    "locationCode": "GGR",
+    "label": "Garoe",
+    "function": "4"
+  },
+  {
+    "locationCode": "GHR",
+    "label": "Giohar",
+    "function": "13",
+    "lat": 2.766667,
+    "lng": 45.516667
+  },
+  {
+    "locationCode": "HGA",
+    "label": "Hargeisa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMU",
+    "label": "Kismayu",
+    "function": "14"
+  },
+  {
+    "locationCode": "LKR",
+    "label": "Las Khoreh",
+    "function": "4"
+  },
+  {
+    "locationCode": "LGX",
+    "label": "Lugh Ganane",
+    "function": "4"
+  },
+  {
+    "locationCode": "MER",
+    "label": "Merca",
+    "function": "1"
+  },
+  {
+    "locationCode": "MGQ",
+    "label": "Mogadishu",
+    "function": "145"
+  },
+  {
+    "locationCode": "CMO",
+    "label": "Obbia",
+    "function": "4"
+  },
+  {
+    "locationCode": "CMS",
+    "label": "Scusciuban",
+    "function": "4"
+  }
+]

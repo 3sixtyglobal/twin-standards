@@ -1,0 +1,120 @@
+[
+  {
+    "locationCode": "TKK",
+    "label": "Chuuk (ex Truk)",
+    "function": "14"
+  },
+  {
+    "locationCode": "EAU",
+    "label": "Eauripik Atoll",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 6.7,
+    "lng": 143.066667
+  },
+  {
+    "locationCode": "FSI",
+    "label": "Faisi",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAF",
+    "label": "Gaferut Atoll",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 9.233333,
+    "lng": 145.383333
+  },
+  {
+    "locationCode": "IFA",
+    "label": "Ifalik Atoll",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 7.233333,
+    "lng": 144.45
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kosrae (ex Kusaie)",
+    "function": "14"
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Lukunor Atoll",
+    "subdivisionCode": "TRK",
+    "function": "1",
+    "lat": 5.516667,
+    "lng": 153.766667
+  },
+  {
+    "locationCode": "NGA",
+    "label": "Ngatik",
+    "subdivisionCode": "PNI",
+    "function": "1",
+    "lat": 5.8,
+    "lng": 157.266667
+  },
+  {
+    "locationCode": "9PA",
+    "label": "Palau",
+    "subdivisionCode": "YAP",
+    "function": "3",
+    "lat": 9.566667,
+    "lng": 138.15
+  },
+  {
+    "locationCode": "PNI",
+    "label": "Pohnpei (ex Ponape)",
+    "function": "14"
+  },
+  {
+    "locationCode": "PUL",
+    "label": "Pulap Island",
+    "subdivisionCode": "TRK",
+    "function": "1",
+    "lat": 7.583333,
+    "lng": 149.416667
+  },
+  {
+    "locationCode": "PLW",
+    "label": "Puluwat",
+    "subdivisionCode": "TRK",
+    "function": "1",
+    "lat": 7.35,
+    "lng": 149.183333
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Satawal",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 7.35,
+    "lng": 147.033333
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Sorol Atoll",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 8.133333,
+    "lng": 140.383333
+  },
+  {
+    "locationCode": "ULI",
+    "label": "Ulithi",
+    "function": "0"
+  },
+  {
+    "locationCode": "WOL",
+    "label": "Woleai Atoll",
+    "subdivisionCode": "YAP",
+    "function": "1",
+    "lat": 7.35,
+    "lng": 143.866667
+  },
+  {
+    "locationCode": "YAP",
+    "label": "Yap",
+    "function": "14"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "code": "AMA",
+    "label": "Amazonas",
+    "type": "Region"
+  },
+  {
+    "code": "ANC",
+    "label": "Ancash",
+    "type": "Region"
+  },
+  {
+    "code": "APU",
+    "label": "Apurímac",
+    "type": "Region"
+  },
+  {
+    "code": "ARE",
+    "label": "Arequipa",
+    "type": "Region"
+  },
+  {
+    "code": "AYA",
+    "label": "Ayacucho",
+    "type": "Region"
+  },
+  {
+    "code": "CAJ",
+    "label": "Cajamarca",
+    "type": "Region"
+  },
+  {
+    "code": "CAL",
+    "label": "El Callao",
+    "type": "Region"
+  },
+  {
+    "code": "CUS",
+    "label": "Cuzco [Cusco]",
+    "type": "Region"
+  },
+  {
+    "code": "HUC",
+    "label": "Huánuco",
+    "type": "Region"
+  },
+  {
+    "code": "HUV",
+    "label": "Huancavelica",
+    "type": "Region"
+  },
+  {
+    "code": "ICA",
+    "label": "Ica",
+    "type": "Region"
+  },
+  {
+    "code": "JUN",
+    "label": "Junín",
+    "type": "Region"
+  },
+  {
+    "code": "LAL",
+    "label": "La Libertad",
+    "type": "Region"
+  },
+  {
+    "code": "LAM",
+    "label": "Lambayeque",
+    "type": "Region"
+  },
+  {
+    "code": "LIM",
+    "label": "Lima",
+    "type": "Region"
+  },
+  {
+    "code": "LMA",
+    "label": "Lima hatun llaqta",
+    "type": "Municipality"
+  },
+  {
+    "code": "LOR",
+    "label": "Loreto",
+    "type": "Region"
+  },
+  {
+    "code": "MDD",
+    "label": "Madre de Dios",
+    "type": "Region"
+  },
+  {
+    "code": "MOQ",
+    "label": "Moquegua",
+    "type": "Region"
+  },
+  {
+    "code": "PAS",
+    "label": "Pasco",
+    "type": "Region"
+  },
+  {
+    "code": "PIU",
+    "label": "Piura",
+    "type": "Region"
+  },
+  {
+    "code": "PUN",
+    "label": "Puno",
+    "type": "Region"
+  },
+  {
+    "code": "SAM",
+    "label": "San Martín",
+    "type": "Region"
+  },
+  {
+    "code": "TAC",
+    "label": "Tacna",
+    "type": "Region"
+  },
+  {
+    "code": "TUM",
+    "label": "Tumbes",
+    "type": "Region"
+  },
+  {
+    "code": "UCA",
+    "label": "Ucayali",
+    "type": "Region"
+  }
+]

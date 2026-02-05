@@ -1,0 +1,32 @@
+[
+  {
+    "code": "B",
+    "label": "Banjul",
+    "type": "City"
+  },
+  {
+    "code": "L",
+    "label": "Lower River",
+    "type": "Division"
+  },
+  {
+    "code": "M",
+    "label": "Central River",
+    "type": "Division"
+  },
+  {
+    "code": "N",
+    "label": "North Bank",
+    "type": "Division"
+  },
+  {
+    "code": "U",
+    "label": "Upper River",
+    "type": "Division"
+  },
+  {
+    "code": "W",
+    "label": "Western",
+    "type": "Division"
+  }
+]

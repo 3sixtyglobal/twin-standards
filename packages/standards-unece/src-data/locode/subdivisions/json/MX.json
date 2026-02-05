@@ -1,0 +1,162 @@
+[
+  {
+    "code": "AGU",
+    "label": "Aguascalientes",
+    "type": "State"
+  },
+  {
+    "code": "BCN",
+    "label": "Baja California",
+    "type": "State"
+  },
+  {
+    "code": "BCS",
+    "label": "Baja California Sur",
+    "type": "State"
+  },
+  {
+    "code": "CAM",
+    "label": "Campeche",
+    "type": "State"
+  },
+  {
+    "code": "CHH",
+    "label": "Chihuahua",
+    "type": "State"
+  },
+  {
+    "code": "CHP",
+    "label": "Chiapas",
+    "type": "State"
+  },
+  {
+    "code": "CMX",
+    "label": "Ciudad de México",
+    "type": "Federal Entity"
+  },
+  {
+    "code": "COA",
+    "label": "Coahuila de Zaragoza",
+    "type": "State"
+  },
+  {
+    "code": "COL",
+    "label": "Colima",
+    "type": "State"
+  },
+  {
+    "code": "DUR",
+    "label": "Durango",
+    "type": "State"
+  },
+  {
+    "code": "GRO",
+    "label": "Guerrero",
+    "type": "State"
+  },
+  {
+    "code": "GUA",
+    "label": "Guanajuato",
+    "type": "State"
+  },
+  {
+    "code": "HID",
+    "label": "Hidalgo",
+    "type": "State"
+  },
+  {
+    "code": "JAL",
+    "label": "Jalisco",
+    "type": "State"
+  },
+  {
+    "code": "MEX",
+    "label": "México",
+    "type": "State"
+  },
+  {
+    "code": "MIC",
+    "label": "Michoacán de Ocampo",
+    "type": "State"
+  },
+  {
+    "code": "MOR",
+    "label": "Morelos",
+    "type": "State"
+  },
+  {
+    "code": "NAY",
+    "label": "Nayarit",
+    "type": "State"
+  },
+  {
+    "code": "NLE",
+    "label": "Nuevo León",
+    "type": "State"
+  },
+  {
+    "code": "OAX",
+    "label": "Oaxaca",
+    "type": "State"
+  },
+  {
+    "code": "PUE",
+    "label": "Puebla",
+    "type": "State"
+  },
+  {
+    "code": "QUE",
+    "label": "Querétaro",
+    "type": "State"
+  },
+  {
+    "code": "ROO",
+    "label": "Quintana Roo",
+    "type": "State"
+  },
+  {
+    "code": "SIN",
+    "label": "Sinaloa",
+    "type": "State"
+  },
+  {
+    "code": "SLP",
+    "label": "San Luis Potosí",
+    "type": "State"
+  },
+  {
+    "code": "SON",
+    "label": "Sonora",
+    "type": "State"
+  },
+  {
+    "code": "TAB",
+    "label": "Tabasco",
+    "type": "State"
+  },
+  {
+    "code": "TAM",
+    "label": "Tamaulipas",
+    "type": "State"
+  },
+  {
+    "code": "TLA",
+    "label": "Tlaxcala",
+    "type": "State"
+  },
+  {
+    "code": "VER",
+    "label": "Veracruz de Ignacio de la Llave",
+    "type": "State"
+  },
+  {
+    "code": "YUC",
+    "label": "Yucatán",
+    "type": "State"
+  },
+  {
+    "code": "ZAC",
+    "label": "Zacatecas",
+    "type": "State"
+  }
+]

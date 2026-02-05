@@ -1,0 +1,62 @@
+[
+  {
+    "code": "AB",
+    "label": "Abkhazia",
+    "type": "Autonomous republic"
+  },
+  {
+    "code": "AJ",
+    "label": "Ajaria",
+    "type": "Autonomous republic"
+  },
+  {
+    "code": "GU",
+    "label": "Guria",
+    "type": "Region"
+  },
+  {
+    "code": "IM",
+    "label": "Imeret'i",
+    "type": "Region"
+  },
+  {
+    "code": "KA",
+    "label": "Kakhet'i",
+    "type": "Region"
+  },
+  {
+    "code": "KK",
+    "label": "K'vemo K'art'li",
+    "type": "Region"
+  },
+  {
+    "code": "MM",
+    "label": "Mts'khet'a-Mt'ianet'i",
+    "type": "Region"
+  },
+  {
+    "code": "RL",
+    "label": "Racha-Lechkhumi-Kvemo Svaneti",
+    "type": "Region"
+  },
+  {
+    "code": "SJ",
+    "label": "Samts'khe-Javakhet'i",
+    "type": "Region"
+  },
+  {
+    "code": "SK",
+    "label": "Shida K'art'li",
+    "type": "Region"
+  },
+  {
+    "code": "SZ",
+    "label": "Samegrelo-Zemo Svanet'i",
+    "type": "Region"
+  },
+  {
+    "code": "TB",
+    "label": "T'bilisi",
+    "type": "City"
+  }
+]

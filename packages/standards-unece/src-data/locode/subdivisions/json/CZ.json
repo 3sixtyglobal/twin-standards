@@ -1,0 +1,72 @@
+[
+  {
+    "code": "10",
+    "label": "Praha, Hlavní mesto",
+    "type": "Region"
+  },
+  {
+    "code": "20",
+    "label": "Stredoceský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "31",
+    "label": "Jihoceský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "32",
+    "label": "Plzenský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "41",
+    "label": "Karlovarský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "42",
+    "label": "Ústecký kraj",
+    "type": "Region"
+  },
+  {
+    "code": "51",
+    "label": "Liberecký kraj",
+    "type": "Region"
+  },
+  {
+    "code": "52",
+    "label": "Královéhradecký kraj",
+    "type": "Region"
+  },
+  {
+    "code": "53",
+    "label": "Pardubický kraj",
+    "type": "Region"
+  },
+  {
+    "code": "63",
+    "label": "Kraj Vysocina",
+    "type": "Region"
+  },
+  {
+    "code": "64",
+    "label": "Jihomoravský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "71",
+    "label": "Olomoucký kraj",
+    "type": "Region"
+  },
+  {
+    "code": "72",
+    "label": "Zlínský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "80",
+    "label": "Moravskoslezský kraj",
+    "type": "Region"
+  }
+]

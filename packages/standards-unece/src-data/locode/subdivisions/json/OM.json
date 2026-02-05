@@ -1,0 +1,57 @@
+[
+  {
+    "code": "BJ",
+    "label": "Janub al Batinah",
+    "type": "governorate"
+  },
+  {
+    "code": "BS",
+    "label": "Shamal al Batinah",
+    "type": "governorate"
+  },
+  {
+    "code": "BU",
+    "label": "Al Buraymi",
+    "type": "governorate"
+  },
+  {
+    "code": "DA",
+    "label": "Ad Dakhiliyah",
+    "type": "governorate"
+  },
+  {
+    "code": "MA",
+    "label": "Masqat",
+    "type": "governorate"
+  },
+  {
+    "code": "MU",
+    "label": "Musandam",
+    "type": "governorate"
+  },
+  {
+    "code": "SJ",
+    "label": "Janub ash Sharqiyah",
+    "type": "governorate"
+  },
+  {
+    "code": "SS",
+    "label": "Shamal ash Sharqiyah",
+    "type": "governorate"
+  },
+  {
+    "code": "WU",
+    "label": "AI Wusta",
+    "type": "governorate"
+  },
+  {
+    "code": "ZA",
+    "label": "Az Zahirah",
+    "type": "Region"
+  },
+  {
+    "code": "ZU",
+    "label": "Z¸ufar",
+    "type": "governorate"
+  }
+]

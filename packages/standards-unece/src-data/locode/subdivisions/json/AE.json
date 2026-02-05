@@ -1,0 +1,37 @@
+[
+  {
+    "code": "AJ",
+    "label": "'Ajman",
+    "type": "Emirate"
+  },
+  {
+    "code": "AZ",
+    "label": "Abu Z¸aby [Abu Dhabi]",
+    "type": "Emirate"
+  },
+  {
+    "code": "DU",
+    "label": "Dubayy [Dubai]",
+    "type": "Emirate"
+  },
+  {
+    "code": "FU",
+    "label": "Al Fujayrah",
+    "type": "Emirate"
+  },
+  {
+    "code": "RK",
+    "label": "Ras al Khaymah",
+    "type": "Emirate"
+  },
+  {
+    "code": "SH",
+    "label": "Ash Shariqah [Sharjah]",
+    "type": "Emirate"
+  },
+  {
+    "code": "UQ",
+    "label": "Umm al Qaywayn",
+    "type": "Emirate"
+  }
+]

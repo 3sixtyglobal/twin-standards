@@ -1,0 +1,137 @@
+[
+  {
+    "locationCode": "ASS",
+    "label": "Assomada",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 15.1,
+    "lng": -23.683333
+  },
+  {
+    "locationCode": "BVC",
+    "label": "Boa Vista",
+    "function": "4",
+    "lat": 2.833333,
+    "lng": -60.683333
+  },
+  {
+    "locationCode": "BVR",
+    "label": "Brava",
+    "function": "4",
+    "lat": -31.666667,
+    "lng": -56.583333
+  },
+  {
+    "locationCode": "SID",
+    "label": "Ilha do Sal",
+    "subdivisionCode": "SL",
+    "function": "4",
+    "lat": 16.75,
+    "lng": -22.916667
+  },
+  {
+    "locationCode": "MMO",
+    "label": "Maio",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Mindelo",
+    "subdivisionCode": "SV",
+    "function": "13",
+    "lat": 16.883333,
+    "lng": -25
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Mosteiros",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palmeira",
+    "function": "0"
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Pedra de Lume",
+    "function": "0"
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Porto Grande",
+    "subdivisionCode": "SV",
+    "function": "1",
+    "lat": 16.866667,
+    "lng": -25
+  },
+  {
+    "locationCode": "POI",
+    "label": "Porto Inglez",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 15.133333,
+    "lng": -23.216667
+  },
+  {
+    "locationCode": "PON",
+    "label": "Porto Novo",
+    "function": "0"
+  },
+  {
+    "locationCode": "POP",
+    "label": "Porto Preguica",
+    "function": "0"
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Praia",
+    "function": "14"
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sal Rei",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Santa Maria",
+    "function": "0"
+  },
+  {
+    "locationCode": "4SM",
+    "label": "Santiago",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 15.133333,
+    "lng": -23.533333
+  },
+  {
+    "locationCode": "NTO",
+    "label": "Santo Antao",
+    "function": "4"
+  },
+  {
+    "locationCode": "SFL",
+    "label": "Sao Filipe",
+    "subdivisionCode": "SF",
+    "function": "4",
+    "lat": 14.9,
+    "lng": -24.516667
+  },
+  {
+    "locationCode": "SNE",
+    "label": "Sao Nicolau",
+    "function": "4"
+  },
+  {
+    "locationCode": "VXE",
+    "label": "Sao Vicente",
+    "function": "145"
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarrafal",
+    "function": "0"
+  }
+]

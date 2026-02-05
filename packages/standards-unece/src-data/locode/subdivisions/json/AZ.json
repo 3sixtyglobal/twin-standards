@@ -1,0 +1,392 @@
+[
+  {
+    "code": "ABS",
+    "label": "Abseron",
+    "type": "Rayon"
+  },
+  {
+    "code": "AGA",
+    "label": "Agstafa",
+    "type": "Rayon"
+  },
+  {
+    "code": "AGC",
+    "label": "Agcab?di",
+    "type": "Rayon"
+  },
+  {
+    "code": "AGM",
+    "label": "Agdam",
+    "type": "Rayon"
+  },
+  {
+    "code": "AGS",
+    "label": "Agdas",
+    "type": "Rayon"
+  },
+  {
+    "code": "AGU",
+    "label": "Agsu",
+    "type": "Rayon"
+  },
+  {
+    "code": "AST",
+    "label": "Astara",
+    "type": "Rayon"
+  },
+  {
+    "code": "BA",
+    "label": "Baki",
+    "type": "Municipality"
+  },
+  {
+    "code": "BAB",
+    "label": "Bab?k",
+    "type": "Rayon"
+  },
+  {
+    "code": "BAL",
+    "label": "Balak?n",
+    "type": "Rayon"
+  },
+  {
+    "code": "BAR",
+    "label": "B?rd?",
+    "type": "Rayon"
+  },
+  {
+    "code": "BEY",
+    "label": "Beyl?qan",
+    "type": "Rayon"
+  },
+  {
+    "code": "BIL",
+    "label": "Bil?suvar",
+    "type": "Rayon"
+  },
+  {
+    "code": "CAB",
+    "label": "C?brayil",
+    "type": "Rayon"
+  },
+  {
+    "code": "CAL",
+    "label": "C?lilabad",
+    "type": "Rayon"
+  },
+  {
+    "code": "CUL",
+    "label": "Culfa",
+    "type": "Rayon"
+  },
+  {
+    "code": "DAS",
+    "label": "Dask?s?n",
+    "type": "Rayon"
+  },
+  {
+    "code": "FUZ",
+    "label": "Füzuli",
+    "type": "Rayon"
+  },
+  {
+    "code": "GA",
+    "label": "G?nc?",
+    "type": "Municipality"
+  },
+  {
+    "code": "GAD",
+    "label": "G?d?b?y",
+    "type": "Rayon"
+  },
+  {
+    "code": "GOR",
+    "label": "Goranboy",
+    "type": "Rayon"
+  },
+  {
+    "code": "GOY",
+    "label": "Göyçay",
+    "type": "Rayon"
+  },
+  {
+    "code": "GYG",
+    "label": "Göygöl",
+    "type": "Rayon"
+  },
+  {
+    "code": "HAC",
+    "label": "Haciqabul",
+    "type": "Rayon"
+  },
+  {
+    "code": "IMI",
+    "label": "Imisli",
+    "type": "Rayon"
+  },
+  {
+    "code": "ISM",
+    "label": "Ismayilli",
+    "type": "Rayon"
+  },
+  {
+    "code": "KAL",
+    "label": "K?lb?c?r",
+    "type": "Rayon"
+  },
+  {
+    "code": "KAN",
+    "label": "K?ng?rli",
+    "type": "Rayon"
+  },
+  {
+    "code": "KUR",
+    "label": "Kürd?mir",
+    "type": "Rayon"
+  },
+  {
+    "code": "LA",
+    "label": "L?nk?ran",
+    "type": "Municipality"
+  },
+  {
+    "code": "LAC",
+    "label": "Laçin",
+    "type": "Rayon"
+  },
+  {
+    "code": "LAN",
+    "label": "L?nk?ran",
+    "type": "Rayon"
+  },
+  {
+    "code": "LER",
+    "label": "Lerik",
+    "type": "Rayon"
+  },
+  {
+    "code": "MAS",
+    "label": "Masalli",
+    "type": "Rayon"
+  },
+  {
+    "code": "MI",
+    "label": "Ming?çevir",
+    "type": "Municipality"
+  },
+  {
+    "code": "NA",
+    "label": "Naftalan",
+    "type": "Municipality"
+  },
+  {
+    "code": "NEF",
+    "label": "Neftçala",
+    "type": "Rayon"
+  },
+  {
+    "code": "NV",
+    "label": "Naxçivan",
+    "type": "Municipality"
+  },
+  {
+    "code": "NX",
+    "label": "Naxçivan",
+    "type": "Autonomous republic"
+  },
+  {
+    "code": "OGU",
+    "label": "Oguz",
+    "type": "Rayon"
+  },
+  {
+    "code": "ORD",
+    "label": "Ordubad",
+    "type": "Rayon"
+  },
+  {
+    "code": "QAB",
+    "label": "Q?b?l?",
+    "type": "Rayon"
+  },
+  {
+    "code": "QAX",
+    "label": "Qax",
+    "type": "Rayon"
+  },
+  {
+    "code": "QAZ",
+    "label": "Qazax",
+    "type": "Rayon"
+  },
+  {
+    "code": "QBA",
+    "label": "Quba",
+    "type": "Rayon"
+  },
+  {
+    "code": "QBI",
+    "label": "Qubadli",
+    "type": "Rayon"
+  },
+  {
+    "code": "QOB",
+    "label": "Qobustan",
+    "type": "Rayon"
+  },
+  {
+    "code": "QUS",
+    "label": "Qusar",
+    "type": "Rayon"
+  },
+  {
+    "code": "SA",
+    "label": "S?ki",
+    "type": "Municipality"
+  },
+  {
+    "code": "SAB",
+    "label": "Sabirabad",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAD",
+    "label": "S?d?r?k",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAH",
+    "label": "Sahbuz",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAK",
+    "label": "S?ki",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAL",
+    "label": "Salyan",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAR",
+    "label": "S?rur",
+    "type": "Rayon"
+  },
+  {
+    "code": "SAT",
+    "label": "Saatli",
+    "type": "Rayon"
+  },
+  {
+    "code": "SBN",
+    "label": "Sabran",
+    "type": "Rayon"
+  },
+  {
+    "code": "SIY",
+    "label": "Siy?z?n",
+    "type": "Rayon"
+  },
+  {
+    "code": "SKR",
+    "label": "S?mkir",
+    "type": "Rayon"
+  },
+  {
+    "code": "SM",
+    "label": "Sumqayit",
+    "type": "Municipality"
+  },
+  {
+    "code": "SMI",
+    "label": "Samaxi",
+    "type": "Rayon"
+  },
+  {
+    "code": "SMX",
+    "label": "Samux",
+    "type": "Rayon"
+  },
+  {
+    "code": "SR",
+    "label": "Sirvan",
+    "type": "Municipality"
+  },
+  {
+    "code": "SUS",
+    "label": "Susa",
+    "type": "Rayon"
+  },
+  {
+    "code": "TAR",
+    "label": "T?rt?r",
+    "type": "Rayon"
+  },
+  {
+    "code": "TOV",
+    "label": "Tovuz",
+    "type": "Rayon"
+  },
+  {
+    "code": "UCA",
+    "label": "Ucar",
+    "type": "Rayon"
+  },
+  {
+    "code": "XA",
+    "label": "Xank?ndi",
+    "type": "Municipality"
+  },
+  {
+    "code": "XAC",
+    "label": "Xaçmaz",
+    "type": "Rayon"
+  },
+  {
+    "code": "XCI",
+    "label": "Xocali",
+    "type": "Rayon"
+  },
+  {
+    "code": "XIZ",
+    "label": "Xizi",
+    "type": "Rayon"
+  },
+  {
+    "code": "XVD",
+    "label": "Xocav?nd",
+    "type": "Rayon"
+  },
+  {
+    "code": "YAR",
+    "label": "Yardimli",
+    "type": "Rayon"
+  },
+  {
+    "code": "YE",
+    "label": "Yevlax",
+    "type": "Municipality"
+  },
+  {
+    "code": "YEV",
+    "label": "Yevlax",
+    "type": "Rayon"
+  },
+  {
+    "code": "ZAN",
+    "label": "Z?ngilan",
+    "type": "Rayon"
+  },
+  {
+    "code": "ZAQ",
+    "label": "Zaqatala",
+    "type": "Rayon"
+  },
+  {
+    "code": "ZAR",
+    "label": "Z?rdab",
+    "type": "Rayon"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "code": "AT",
+    "label": "Attapu [Attapeu]",
+    "type": "Province"
+  },
+  {
+    "code": "BK",
+    "label": "Bokèo",
+    "type": "Province"
+  },
+  {
+    "code": "BL",
+    "label": "Bolikhamxai [Borikhamxay]",
+    "type": "Province"
+  },
+  {
+    "code": "CH",
+    "label": "Champasak [Champasack]",
+    "type": "Province"
+  },
+  {
+    "code": "HO",
+    "label": "Houaphan [Huaphanh]",
+    "type": "Province"
+  },
+  {
+    "code": "KH",
+    "label": "Khammouan [Khammuane]",
+    "type": "Province"
+  },
+  {
+    "code": "LM",
+    "label": "Louang Namtha [Luangnamtha]",
+    "type": "Province"
+  },
+  {
+    "code": "LP",
+    "label": "Louangphabang [Luangprabang]",
+    "type": "Province"
+  },
+  {
+    "code": "OU",
+    "label": "Oudômxai [Oudomxay]",
+    "type": "Province"
+  },
+  {
+    "code": "PH",
+    "label": "Phôngsali [Phongsaly]",
+    "type": "Province"
+  },
+  {
+    "code": "SL",
+    "label": "Salavan [Saravane]",
+    "type": "Province"
+  },
+  {
+    "code": "SV",
+    "label": "Savannakhét [Savannakhet]",
+    "type": "Province"
+  },
+  {
+    "code": "VI",
+    "label": "Vientiane",
+    "type": "Province"
+  },
+  {
+    "code": "VT",
+    "label": "Vientiane",
+    "type": "Prefecture"
+  },
+  {
+    "code": "XA",
+    "label": "Xaignabouli [Xayabury]",
+    "type": "Province"
+  },
+  {
+    "code": "XE",
+    "label": "Xékong [Sekong]",
+    "type": "Province"
+  },
+  {
+    "code": "XI",
+    "label": "Xiangkhouang [Xiengkhuang]",
+    "type": "Province"
+  },
+  {
+    "code": "XS",
+    "label": "Xaisômboun [Xaysomboon]",
+    "type": "province"
+  }
+]

@@ -1,0 +1,537 @@
+[
+  {
+    "code": "23",
+    "label": "Valle d'Aosta / Vallée d'Aoste (fr)",
+    "type": "autonomous region"
+  },
+  {
+    "code": "AG",
+    "label": "Agrigento",
+    "type": "Free Communal Consortia"
+  },
+  {
+    "code": "AL",
+    "label": "Alessandria",
+    "type": "Province"
+  },
+  {
+    "code": "AN",
+    "label": "Ancona",
+    "type": "Province"
+  },
+  {
+    "code": "AP",
+    "label": "Ascoli Piceno",
+    "type": "Province"
+  },
+  {
+    "code": "AQ",
+    "label": "L'Aquila",
+    "type": "Province"
+  },
+  {
+    "code": "AR",
+    "label": "Arezzo",
+    "type": "Province"
+  },
+  {
+    "code": "AT",
+    "label": "Asti",
+    "type": "Province"
+  },
+  {
+    "code": "AV",
+    "label": "Avellino",
+    "type": "Province"
+  },
+  {
+    "code": "BA",
+    "label": "Bari",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "BG",
+    "label": "Bergamo",
+    "type": "Province"
+  },
+  {
+    "code": "BI",
+    "label": "Biella",
+    "type": "Province"
+  },
+  {
+    "code": "BL",
+    "label": "Belluno",
+    "type": "Province"
+  },
+  {
+    "code": "BN",
+    "label": "Benevento",
+    "type": "Province"
+  },
+  {
+    "code": "BO",
+    "label": "Bologna",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "BR",
+    "label": "Brindisi",
+    "type": "Province"
+  },
+  {
+    "code": "BS",
+    "label": "Brescia",
+    "type": "Province"
+  },
+  {
+    "code": "BT",
+    "label": "Barletta-Andria-Trani",
+    "type": "Province"
+  },
+  {
+    "code": "BZ",
+    "label": "Bolzano / Bozen (de)",
+    "type": "autonomous province"
+  },
+  {
+    "code": "CA",
+    "label": "Cagliari",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "CB",
+    "label": "Campobasso",
+    "type": "Province"
+  },
+  {
+    "code": "CE",
+    "label": "Caserta",
+    "type": "Province"
+  },
+  {
+    "code": "CH",
+    "label": "Chieti",
+    "type": "Province"
+  },
+  {
+    "code": "CL",
+    "label": "Caltanissetta",
+    "type": "Province"
+  },
+  {
+    "code": "CN",
+    "label": "Cuneo",
+    "type": "Province"
+  },
+  {
+    "code": "CO",
+    "label": "Como",
+    "type": "Province"
+  },
+  {
+    "code": "CR",
+    "label": "Cremona",
+    "type": "Province"
+  },
+  {
+    "code": "CS",
+    "label": "Cosenza",
+    "type": "Province"
+  },
+  {
+    "code": "CT",
+    "label": "Catania",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "CZ",
+    "label": "Catanzaro",
+    "type": "Province"
+  },
+  {
+    "code": "EN",
+    "label": "Enna",
+    "type": "Free Communal Consortia"
+  },
+  {
+    "code": "FC",
+    "label": "Forlì-Cesena",
+    "type": "Province"
+  },
+  {
+    "code": "FE",
+    "label": "Ferrara",
+    "type": "Province"
+  },
+  {
+    "code": "FG",
+    "label": "Foggia",
+    "type": "Province"
+  },
+  {
+    "code": "FI",
+    "label": "Firenze",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "FM",
+    "label": "Fermo",
+    "type": "Province"
+  },
+  {
+    "code": "FR",
+    "label": "Frosinone",
+    "type": "Province"
+  },
+  {
+    "code": "GE",
+    "label": "Genova",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "GO",
+    "label": "Gorizia",
+    "type": "Decentralized regional entity"
+  },
+  {
+    "code": "GR",
+    "label": "Grosseto",
+    "type": "Province"
+  },
+  {
+    "code": "IM",
+    "label": "Imperia",
+    "type": "Province"
+  },
+  {
+    "code": "IS",
+    "label": "Isernia",
+    "type": "Province"
+  },
+  {
+    "code": "KR",
+    "label": "Crotone",
+    "type": "Province"
+  },
+  {
+    "code": "LC",
+    "label": "Lecco",
+    "type": "Province"
+  },
+  {
+    "code": "LE",
+    "label": "Lecce",
+    "type": "Province"
+  },
+  {
+    "code": "LI",
+    "label": "Livorno",
+    "type": "Province"
+  },
+  {
+    "code": "LO",
+    "label": "Lodi",
+    "type": "Province"
+  },
+  {
+    "code": "LT",
+    "label": "Latina",
+    "type": "Province"
+  },
+  {
+    "code": "LU",
+    "label": "Lucca",
+    "type": "Province"
+  },
+  {
+    "code": "MB",
+    "label": "Monza e Brianza",
+    "type": "Province"
+  },
+  {
+    "code": "MC",
+    "label": "Macerata",
+    "type": "Province"
+  },
+  {
+    "code": "ME",
+    "label": "Messina",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "MI",
+    "label": "Milano",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "MN",
+    "label": "Mantova",
+    "type": "Province"
+  },
+  {
+    "code": "MO",
+    "label": "Modena",
+    "type": "Province"
+  },
+  {
+    "code": "MS",
+    "label": "Massa-Carrara",
+    "type": "Province"
+  },
+  {
+    "code": "MT",
+    "label": "Matera",
+    "type": "Province"
+  },
+  {
+    "code": "NA",
+    "label": "Napoli",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "NO",
+    "label": "Novara",
+    "type": "Province"
+  },
+  {
+    "code": "NU",
+    "label": "Nuoro",
+    "type": "Province"
+  },
+  {
+    "code": "OR",
+    "label": "Oristano",
+    "type": "Province"
+  },
+  {
+    "code": "PA",
+    "label": "Palermo",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "PC",
+    "label": "Piacenza",
+    "type": "Province"
+  },
+  {
+    "code": "PD",
+    "label": "Padova",
+    "type": "Province"
+  },
+  {
+    "code": "PE",
+    "label": "Pescara",
+    "type": "Province"
+  },
+  {
+    "code": "PG",
+    "label": "Perugia",
+    "type": "Province"
+  },
+  {
+    "code": "PI",
+    "label": "Pisa",
+    "type": "Province"
+  },
+  {
+    "code": "PN",
+    "label": "Pordenone",
+    "type": "Decentralized regional"
+  },
+  {
+    "code": "PO",
+    "label": "Prato",
+    "type": "Province"
+  },
+  {
+    "code": "PR",
+    "label": "Parma",
+    "type": "Province"
+  },
+  {
+    "code": "PT",
+    "label": "Pistoia",
+    "type": "Province"
+  },
+  {
+    "code": "PU",
+    "label": "Pesaro e Urbino",
+    "type": "Province"
+  },
+  {
+    "code": "PV",
+    "label": "Pavia",
+    "type": "Province"
+  },
+  {
+    "code": "PZ",
+    "label": "Potenza",
+    "type": "Province"
+  },
+  {
+    "code": "RA",
+    "label": "Ravenna",
+    "type": "Province"
+  },
+  {
+    "code": "RC",
+    "label": "Reggio Calabria",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "RE",
+    "label": "Reggio Emilia",
+    "type": "Province"
+  },
+  {
+    "code": "RG",
+    "label": "Ragusa",
+    "type": "Free Communal Consortia"
+  },
+  {
+    "code": "RI",
+    "label": "Rieti",
+    "type": "Province"
+  },
+  {
+    "code": "RM",
+    "label": "Roma",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "RN",
+    "label": "Rimini",
+    "type": "Province"
+  },
+  {
+    "code": "RO",
+    "label": "Rovigo",
+    "type": "Province"
+  },
+  {
+    "code": "SA",
+    "label": "Salerno",
+    "type": "Province"
+  },
+  {
+    "code": "SI",
+    "label": "Siena",
+    "type": "Province"
+  },
+  {
+    "code": "SO",
+    "label": "Sondrio",
+    "type": "Province"
+  },
+  {
+    "code": "SP",
+    "label": "La Spezia",
+    "type": "Province"
+  },
+  {
+    "code": "SR",
+    "label": "Siracusa",
+    "type": "Free Communal Consortia"
+  },
+  {
+    "code": "SS",
+    "label": "Sassari",
+    "type": "Province"
+  },
+  {
+    "code": "SU",
+    "label": "Sud Sardegna",
+    "type": "Province"
+  },
+  {
+    "code": "SV",
+    "label": "Savona",
+    "type": "Province"
+  },
+  {
+    "code": "TA",
+    "label": "Taranto",
+    "type": "Province"
+  },
+  {
+    "code": "TE",
+    "label": "Teramo",
+    "type": "Province"
+  },
+  {
+    "code": "TN",
+    "label": "Trento",
+    "type": "autonomous province"
+  },
+  {
+    "code": "TO",
+    "label": "Torino",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "TP",
+    "label": "Trapani",
+    "type": "Free Communal Consortia"
+  },
+  {
+    "code": "TR",
+    "label": "Terni",
+    "type": "Province"
+  },
+  {
+    "code": "TS",
+    "label": "Trieste",
+    "type": "Decentralized regional"
+  },
+  {
+    "code": "TV",
+    "label": "Treviso",
+    "type": "Province"
+  },
+  {
+    "code": "UD",
+    "label": "Udine",
+    "type": "Decentralized regional"
+  },
+  {
+    "code": "VA",
+    "label": "Varese",
+    "type": "Province"
+  },
+  {
+    "code": "VB",
+    "label": "Verbano-Cusio-Ossola",
+    "type": "Province"
+  },
+  {
+    "code": "VC",
+    "label": "Vercelli",
+    "type": "Province"
+  },
+  {
+    "code": "VE",
+    "label": "Venezia",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "VI",
+    "label": "Vicenza",
+    "type": "Province"
+  },
+  {
+    "code": "VR",
+    "label": "Verona",
+    "type": "Province"
+  },
+  {
+    "code": "VT",
+    "label": "Viterbo",
+    "type": "Province"
+  },
+  {
+    "code": "VV",
+    "label": "Vibo Valentia",
+    "type": "Province"
+  }
+]

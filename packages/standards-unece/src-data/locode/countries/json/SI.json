@@ -1,0 +1,3606 @@
+[
+  {
+    "locationCode": "8SI",
+    "label": "Adlesici",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 45.533333,
+    "lng": 15.316667
+  },
+  {
+    "locationCode": "AJD",
+    "label": "Ajdovscina",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 13.9
+  },
+  {
+    "locationCode": "ANH",
+    "label": "Anhovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "AKN",
+    "label": "Ankaran",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.566667,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "APA",
+    "label": "Apace",
+    "subdivisionCode": "029",
+    "function": "3",
+    "lat": 46.7,
+    "lng": 15.916667
+  },
+  {
+    "locationCode": "9SI",
+    "label": "Artice",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Begunje na Gorenjskem",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "LZA",
+    "label": "Begunje pri Cerknici",
+    "subdivisionCode": "013",
+    "function": "36",
+    "lat": 45.816667,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Beltinci",
+    "subdivisionCode": "002",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 16.233333
+  },
+  {
+    "locationCode": "LSI",
+    "label": "Benedikt",
+    "subdivisionCode": "058",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.883333
+  },
+  {
+    "locationCode": "BIS",
+    "label": "Bistrica ob Dravi",
+    "subdivisionCode": "108",
+    "function": "6",
+    "lat": 46.55,
+    "lng": 15.55
+  },
+  {
+    "locationCode": "PD9",
+    "label": "Bistrica Ob Sotli",
+    "subdivisionCode": "092",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 15.65
+  },
+  {
+    "locationCode": "BSI",
+    "label": "Bizeljsko",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 46,
+    "lng": 15.683333
+  },
+  {
+    "locationCode": "L68",
+    "label": "Blagovica",
+    "subdivisionCode": "068",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Bled",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "BJD",
+    "label": "Blejska Dobrava",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Bloke",
+    "subdivisionCode": "150",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "P97",
+    "label": "Bodonci",
+    "subdivisionCode": "097",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "M78",
+    "label": "Bogojina",
+    "subdivisionCode": "080",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 16.283333
+  },
+  {
+    "locationCode": "BS3",
+    "label": "Bohinjska Bela",
+    "subdivisionCode": "003",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.05
+  },
+  {
+    "locationCode": "BS4",
+    "label": "Bohinjska Bistrica",
+    "subdivisionCode": "004",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 13.95
+  },
+  {
+    "locationCode": "SI5",
+    "label": "Borovnica",
+    "subdivisionCode": "005",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 14.35
+  },
+  {
+    "locationCode": "SEV",
+    "label": "Bostanj",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": 46,
+    "lng": 15.266667
+  },
+  {
+    "locationCode": "BVC",
+    "label": "Bovec",
+    "function": "3"
+  },
+  {
+    "locationCode": "S84",
+    "label": "Branik",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Braslovce",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Brda",
+    "subdivisionCode": "007",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 13.516667
+  },
+  {
+    "locationCode": "BPK",
+    "label": "Brdo pri Kranju",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "K46",
+    "label": "Breginj",
+    "subdivisionCode": "046",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 13.416667
+  },
+  {
+    "locationCode": "S54",
+    "label": "Brestanica",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 15.483333
+  },
+  {
+    "locationCode": "BZC",
+    "label": "Brezice",
+    "subdivisionCode": "009",
+    "function": "36",
+    "lat": 45.9,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Brezje",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "BR8",
+    "label": "Brezovica",
+    "subdivisionCode": "008",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Brnik",
+    "subdivisionCode": "012",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "SK5",
+    "label": "Buce",
+    "subdivisionCode": "051",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "SK2",
+    "label": "Bucka",
+    "subdivisionCode": "121",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 15.316667
+  },
+  {
+    "locationCode": "C52",
+    "label": "Cankova",
+    "subdivisionCode": "152",
+    "function": "3",
+    "lat": 46.716667,
+    "lng": 16.016667
+  },
+  {
+    "locationCode": "BR9",
+    "label": "Catez Ob Savi",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "CJE",
+    "label": "Celje",
+    "function": "23",
+    "lat": 46.25,
+    "lng": 15.266667
+  },
+  {
+    "locationCode": "N84",
+    "label": "Cepovan",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "CNG",
+    "label": "Cerklje na Gorenjskem",
+    "subdivisionCode": "012",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "SBR",
+    "label": "Cerklje Ob Krki",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 15.516667
+  },
+  {
+    "locationCode": "CKC",
+    "label": "Cerknica",
+    "subdivisionCode": "013",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "CER",
+    "label": "Cerkno",
+    "subdivisionCode": "014",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 13.983333
+  },
+  {
+    "locationCode": "L58",
+    "label": "Cerkvenjak",
+    "subdivisionCode": "058",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 15.933333
+  },
+  {
+    "locationCode": "CSK",
+    "label": "Cersak",
+    "subdivisionCode": "118",
+    "function": "6",
+    "lat": 46.683333,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "K45",
+    "label": "Cirkovce",
+    "subdivisionCode": "045",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "CIK",
+    "label": "Cirkulane",
+    "subdivisionCode": "196",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 15.983333
+  },
+  {
+    "locationCode": "V36",
+    "label": "Col",
+    "subdivisionCode": "136",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 14
+  },
+  {
+    "locationCode": "CR5",
+    "label": "Crensovci",
+    "subdivisionCode": "015",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 16.283333
+  },
+  {
+    "locationCode": "P96",
+    "label": "Crna Na Koroskem",
+    "subdivisionCode": "096",
+    "function": "3",
+    "lat": 46.466667,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "CRK",
+    "label": "Crni Kal",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.55,
+    "lng": 13.866667
+  },
+  {
+    "locationCode": "I36",
+    "label": "Crni Vrh",
+    "subdivisionCode": "036",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "CRE",
+    "label": "Crnice",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "LZL",
+    "label": "Crnomelj",
+    "subdivisionCode": "017",
+    "function": "6",
+    "lat": 45.566667,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "SDE",
+    "label": "Dekani",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.533333,
+    "lng": 13.8
+  },
+  {
+    "locationCode": "DES",
+    "label": "Deskle",
+    "subdivisionCode": "044",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 13.616667
+  },
+  {
+    "locationCode": "DE8",
+    "label": "Destrnik",
+    "subdivisionCode": "018",
+    "function": "3",
+    "lat": 46.5,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "DVC",
+    "label": "Divaca",
+    "function": "3",
+    "lat": 45.683333,
+    "lng": 13.966667
+  },
+  {
+    "locationCode": "D23",
+    "label": "Dob",
+    "subdivisionCode": "023",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 14.616667
+  },
+  {
+    "locationCode": "DOJ",
+    "label": "Dobje (Obcina)",
+    "subdivisionCode": "154",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "SNO",
+    "label": "Dobje Pri Planini",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 15.4
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dobova",
+    "subdivisionCode": "009",
+    "function": "23",
+    "lat": 45.883333,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "T29",
+    "label": "Dobovec",
+    "subdivisionCode": "129",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "DVL",
+    "label": "Dobravlje",
+    "subdivisionCode": "111",
+    "function": "3",
+    "lat": 45.766667,
+    "lng": 13.866667
+  },
+  {
+    "locationCode": "DBJ",
+    "label": "Dobrepolje",
+    "subdivisionCode": "020",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 14.7
+  },
+  {
+    "locationCode": "DBR",
+    "label": "Dobrna",
+    "subdivisionCode": "155",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 15.216667
+  },
+  {
+    "locationCode": "TR3",
+    "label": "Dobrnic",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "DBP",
+    "label": "Dobrova-Polhov Gradec",
+    "subdivisionCode": "021",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "L59",
+    "label": "Dobrovnik",
+    "subdivisionCode": "059",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 16.35
+  },
+  {
+    "locationCode": "DBO",
+    "label": "Dobrovo",
+    "subdivisionCode": "007",
+    "function": "16",
+    "lat": 45.983333,
+    "lng": 133.25
+  },
+  {
+    "locationCode": "LZE",
+    "label": "Dol pri Hrastniku",
+    "subdivisionCode": "034",
+    "function": "6",
+    "lat": 46.133333,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "D22",
+    "label": "Dol Pri Ljubljani",
+    "subdivisionCode": "022",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 14.6
+  },
+  {
+    "locationCode": "LI6",
+    "label": "Dole Pri Litiji",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "DOV",
+    "label": "Dolenja Vas",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 45.7,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "N85",
+    "label": "Dolenjske Toplice",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.766667,
+    "lng": 15.066667
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dolnja Kosana",
+    "function": "6",
+    "lat": 45.65,
+    "lng": 14.116667
+  },
+  {
+    "locationCode": "DZE",
+    "label": "Domzale",
+    "function": "3"
+  },
+  {
+    "locationCode": "D24",
+    "label": "Dornava",
+    "subdivisionCode": "024",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 15.95
+  },
+  {
+    "locationCode": "NG8",
+    "label": "Dornberk",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "L66",
+    "label": "Draga",
+    "subdivisionCode": "066",
+    "function": "3",
+    "lat": 45.633333,
+    "lng": 14.65
+  },
+  {
+    "locationCode": "CR7",
+    "label": "Dragatus",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 45.516667,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "SPC",
+    "label": "Dramlje",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "D25",
+    "label": "Dravograd",
+    "subdivisionCode": "025",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "SZN",
+    "label": "Dutovlje",
+    "subdivisionCode": "111",
+    "function": "3",
+    "lat": 45.75,
+    "lng": 13.816667
+  },
+  {
+    "locationCode": "S85",
+    "label": "Dvor",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "RS8",
+    "label": "Fala",
+    "subdivisionCode": "108",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 15.433333
+  },
+  {
+    "locationCode": "SMT",
+    "label": "Fokovci",
+    "subdivisionCode": "078",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 16.266667
+  },
+  {
+    "locationCode": "FRA",
+    "label": "Fram",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 15.616667
+  },
+  {
+    "locationCode": "V89",
+    "label": "Frankolovo",
+    "subdivisionCode": "139",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "GL6",
+    "label": "Gabrovka",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 15
+  },
+  {
+    "locationCode": "GSH",
+    "label": "Gemerská Horka",
+    "labelWithDiacritics": "Gemerska Horka",
+    "function": "236",
+    "lat": 48.533333,
+    "lng": 20.383333
+  },
+  {
+    "locationCode": "SI3",
+    "label": "Godovic",
+    "subdivisionCode": "036",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 14.083333
+  },
+  {
+    "locationCode": "K52",
+    "label": "Golnik",
+    "subdivisionCode": "052",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.333333
+  },
+  {
+    "locationCode": "ZA9",
+    "label": "Gomilsko",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "GSZ",
+    "label": "Gorenja Straza",
+    "function": "23",
+    "lat": 45.783333,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "GVP",
+    "label": "Gorenja Vas",
+    "subdivisionCode": "027",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 14.133333
+  },
+  {
+    "locationCode": "GVJ",
+    "label": "Gorenja Vas-Poljane",
+    "subdivisionCode": "027",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 14.05
+  },
+  {
+    "locationCode": "SP2",
+    "label": "Gorica Pri Slivnici",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 15.416667
+  },
+  {
+    "locationCode": "G28",
+    "label": "Gorisnica",
+    "subdivisionCode": "028",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 16
+  },
+  {
+    "locationCode": "COJ",
+    "label": "Gorje",
+    "subdivisionCode": "207",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 13.966667
+  },
+  {
+    "locationCode": "GDN",
+    "label": "Gornja Radgona",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 15.983333
+  },
+  {
+    "locationCode": "GG3",
+    "label": "Gornji Grad",
+    "subdivisionCode": "030",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "GIP",
+    "label": "Gornji Petrovci",
+    "subdivisionCode": "031",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 16.216667
+  },
+  {
+    "locationCode": "K53",
+    "label": "Gozd Martuljek",
+    "subdivisionCode": "053",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 13.833333
+  },
+  {
+    "locationCode": "GR5",
+    "label": "Gracisce",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 13.866667
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Grad",
+    "subdivisionCode": "158",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "SC7",
+    "label": "Gradac",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 15.25
+  },
+  {
+    "locationCode": "CR3",
+    "label": "Grahovo",
+    "subdivisionCode": "013",
+    "function": "3",
+    "lat": 45.766667,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "T28",
+    "label": "Grahovo",
+    "subdivisionCode": "128",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 13.85
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Grgar",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 13.666667
+  },
+  {
+    "locationCode": "GSE",
+    "label": "Grize",
+    "subdivisionCode": "111",
+    "function": "6",
+    "lat": 45.75,
+    "lng": 13.933333
+  },
+  {
+    "locationCode": "GZA",
+    "label": "Grize",
+    "subdivisionCode": "190",
+    "function": "6",
+    "lat": 46.216667,
+    "lng": 15.15
+  },
+  {
+    "locationCode": "SPJ",
+    "label": "Grobelno",
+    "subdivisionCode": "124",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 15.433333
+  },
+  {
+    "locationCode": "GJS",
+    "label": "Grosuplje",
+    "subdivisionCode": "032",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 14.65
+  },
+  {
+    "locationCode": "GRK",
+    "label": "Gruskovje",
+    "subdivisionCode": "069",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "HAJ",
+    "label": "Hajdina",
+    "subdivisionCode": "159",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "NM8",
+    "label": "Hinje",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.75,
+    "lng": 14.866667
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Hoce-Slivnica",
+    "subdivisionCode": "160",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "HOD",
+    "label": "Hodos",
+    "subdivisionCode": "161",
+    "function": "3",
+    "lat": 46.816667,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "DHP",
+    "label": "Horjul",
+    "subdivisionCode": "021",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "LZH",
+    "label": "Hrastnik",
+    "subdivisionCode": "034",
+    "function": "36",
+    "lat": 46.15,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "HRK",
+    "label": "Hrpelje-Kozina",
+    "subdivisionCode": "035",
+    "function": "3",
+    "lat": 45.583333,
+    "lng": 13.983333
+  },
+  {
+    "locationCode": "P94",
+    "label": "Hrusevje",
+    "subdivisionCode": "094",
+    "function": "3",
+    "lat": 45.75,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "SJ4",
+    "label": "Hrusica",
+    "subdivisionCode": "041",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 14.016667
+  },
+  {
+    "locationCode": "LZI",
+    "label": "Idrija",
+    "subdivisionCode": "036",
+    "function": "36",
+    "lat": 46,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "I37",
+    "label": "Ig",
+    "subdivisionCode": "037",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "IBS",
+    "label": "Ilirska Bistrica",
+    "subdivisionCode": "038",
+    "function": "23",
+    "lat": 45.566667,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "IVG",
+    "label": "Ivancna Gorica",
+    "subdivisionCode": "039",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "OIV",
+    "label": "Ivanjkovci",
+    "subdivisionCode": "087",
+    "function": "6",
+    "lat": 46.466667,
+    "lng": 16.15
+  },
+  {
+    "locationCode": "AZX",
+    "label": "Izlake",
+    "subdivisionCode": "142",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "IZO",
+    "label": "Izola",
+    "function": "1"
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jarenina",
+    "subdivisionCode": "001",
+    "function": "1"
+  },
+  {
+    "locationCode": "JLN",
+    "label": "Jelsane",
+    "subdivisionCode": "038",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "JCE",
+    "label": "Jesenice",
+    "subdivisionCode": "041",
+    "function": "123",
+    "lat": 46.416667,
+    "lng": 14.066667
+  },
+  {
+    "locationCode": "JEZ",
+    "label": "Jezersko",
+    "subdivisionCode": "163",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "SL5",
+    "label": "Jurovski Dol",
+    "subdivisionCode": "058",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "JUR",
+    "label": "Jursinci",
+    "subdivisionCode": "042",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 15.966667
+  },
+  {
+    "locationCode": "PC2",
+    "label": "Kalobje",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "SRD",
+    "label": "Kamna Gorica",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "SM7",
+    "label": "Kamnica",
+    "subdivisionCode": "070",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "KNK",
+    "label": "Kamnik",
+    "function": "3"
+  },
+  {
+    "locationCode": "K44",
+    "label": "Kanal",
+    "subdivisionCode": "044",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 13.633333
+  },
+  {
+    "locationCode": "AEE",
+    "label": "Kapele",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 15.683333
+  },
+  {
+    "locationCode": "SZ9",
+    "label": "Kapla",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 15
+  },
+  {
+    "locationCode": "KID",
+    "label": "Kidricevo",
+    "subdivisionCode": "045",
+    "function": "23",
+    "lat": 46.4,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "IB3",
+    "label": "Knezak",
+    "subdivisionCode": "038",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "KOB",
+    "label": "Kobarid",
+    "subdivisionCode": "046",
+    "function": "6",
+    "lat": 46.25,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "K47",
+    "label": "Kobilje",
+    "subdivisionCode": "047",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 16.383333
+  },
+  {
+    "locationCode": "KCV",
+    "label": "Kocevje",
+    "function": "3"
+  },
+  {
+    "locationCode": "K48",
+    "label": "Kocevska Reka",
+    "subdivisionCode": "048",
+    "function": "3",
+    "lat": 45.566667,
+    "lng": 14.783333
+  },
+  {
+    "locationCode": "O87",
+    "label": "Kog",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 46.466667,
+    "lng": 16.25
+  },
+  {
+    "locationCode": "KJK",
+    "label": "Kojsko",
+    "subdivisionCode": "007",
+    "function": "3",
+    "lat": 46,
+    "lng": 13.566667
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komen",
+    "function": "6",
+    "lat": 45.8,
+    "lng": 134.75
+  },
+  {
+    "locationCode": "KMD",
+    "label": "Komenda",
+    "subdivisionCode": "164",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Koper",
+    "function": "1"
+  },
+  {
+    "locationCode": "M75",
+    "label": "Kostanjevica na Krasu",
+    "subdivisionCode": "075",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 13.633333
+  },
+  {
+    "locationCode": "KST",
+    "label": "Kostanjevica na Krki",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 15.416667
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kostel",
+    "subdivisionCode": "165",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 14.9
+  },
+  {
+    "locationCode": "MK3",
+    "label": "Kotlje",
+    "subdivisionCode": "103",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 14.983333
+  },
+  {
+    "locationCode": "KOZ",
+    "label": "Kozina",
+    "subdivisionCode": "035",
+    "function": "23",
+    "lat": 43.616667,
+    "lng": 13.933333
+  },
+  {
+    "locationCode": "KO5",
+    "label": "Kozje",
+    "subdivisionCode": "051",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 15.55
+  },
+  {
+    "locationCode": "KRJ",
+    "label": "Kranj",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kranjska Gora",
+    "subdivisionCode": "053",
+    "function": "6",
+    "lat": 46.483333,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "M77",
+    "label": "Kresnice",
+    "subdivisionCode": "077",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 14.783333
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Krize",
+    "subdivisionCode": "131",
+    "function": "6",
+    "lat": 46.333333,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "KRZ",
+    "label": "Krizevci",
+    "subdivisionCode": "166",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 16.133333
+  },
+  {
+    "locationCode": "L63",
+    "label": "Krizevci pri Ljutomeru",
+    "subdivisionCode": "063",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 16.133333
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Krmelj",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Kropa",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 141.333333
+  },
+  {
+    "locationCode": "BZ9",
+    "label": "Krska Vas",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 15.566667
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Krsko",
+    "subdivisionCode": "054",
+    "function": "23",
+    "lat": 45.95,
+    "lng": 15.483333
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kungota",
+    "subdivisionCode": "055",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "K56",
+    "label": "Kuzma",
+    "subdivisionCode": "056",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "LPJ",
+    "label": "Laporje",
+    "subdivisionCode": "113",
+    "function": "6",
+    "lat": 46.333333,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Lasko",
+    "subdivisionCode": "057",
+    "function": "23",
+    "lat": 46.15,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "K43",
+    "label": "Laze v Tuhinju",
+    "subdivisionCode": "043",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "LVS",
+    "label": "Lenart v Slovenskih Goricah",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 15.833333
+  },
+  {
+    "locationCode": "DAV",
+    "label": "Lendava",
+    "subdivisionCode": "059",
+    "function": "23",
+    "lat": 46.566667,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "LSE",
+    "label": "Lesce",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": 14.15
+  },
+  {
+    "locationCode": "KL5",
+    "label": "Lesicno",
+    "subdivisionCode": "051",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "SKS",
+    "label": "Leskovec pri Krskem",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 15.466667
+  },
+  {
+    "locationCode": "DR5",
+    "label": "Libelice",
+    "subdivisionCode": "025",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 14.933333
+  },
+  {
+    "locationCode": "LBU",
+    "label": "Limbus",
+    "subdivisionCode": "070",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "LZJ",
+    "label": "Litija",
+    "subdivisionCode": "060",
+    "function": "6",
+    "lat": 46.05,
+    "lng": 14.816667
+  },
+  {
+    "locationCode": "LBC",
+    "label": "Ljubecna",
+    "subdivisionCode": "011",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 15.316667
+  },
+  {
+    "locationCode": "LJU",
+    "label": "Ljubljana",
+    "function": "345"
+  },
+  {
+    "locationCode": "LJB",
+    "label": "Ljubno",
+    "subdivisionCode": "062",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 41.5
+  },
+  {
+    "locationCode": "L8L",
+    "label": "Ljubno Ob Savinji",
+    "subdivisionCode": "062",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.833333
+  },
+  {
+    "locationCode": "LJR",
+    "label": "Ljutomer",
+    "function": "3"
+  },
+  {
+    "locationCode": "LOC",
+    "label": "Loce",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "BOV",
+    "label": "Log pod Mangartom",
+    "subdivisionCode": "006",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "VR4",
+    "label": "Log pri Brezovici",
+    "subdivisionCode": "140",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "LOG",
+    "label": "Logatec",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 14.183333
+  },
+  {
+    "locationCode": "LOD",
+    "label": "Log-Dragomer",
+    "subdivisionCode": "208",
+    "function": "3",
+    "lat": 46,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "SV8",
+    "label": "Loka pri Zidanem Mostu",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 15.2
+  },
+  {
+    "locationCode": "SEZ",
+    "label": "Lokev",
+    "subdivisionCode": "111",
+    "function": "3",
+    "lat": 45.65,
+    "lng": 13.916667
+  },
+  {
+    "locationCode": "LSK",
+    "label": "Loska Dolina",
+    "subdivisionCode": "065",
+    "function": "3",
+    "lat": 45.7,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "LSP",
+    "label": "Loski Potok",
+    "subdivisionCode": "066",
+    "function": "3",
+    "lat": 45.7,
+    "lng": 14.583333
+  },
+  {
+    "locationCode": "LND",
+    "label": "Lovrenc na Dravskem Polju",
+    "subdivisionCode": "045",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 15.766667
+  },
+  {
+    "locationCode": "LNP",
+    "label": "Lovrenc na Pohorju",
+    "subdivisionCode": "108",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "L67",
+    "label": "Luce",
+    "subdivisionCode": "067",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 14.733333
+  },
+  {
+    "locationCode": "LCJ",
+    "label": "Lucija",
+    "function": "3",
+    "lat": 45.483333,
+    "lng": 13.6
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Lukovica pri Domzalah",
+    "function": "16",
+    "lat": 46.166667,
+    "lng": -144.333333
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Lukovica pri Domzalah",
+    "subdivisionCode": "068",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 14.7
+  },
+  {
+    "locationCode": "SP9",
+    "label": "Mackovci",
+    "subdivisionCode": "097",
+    "function": "3",
+    "lat": 46.766667,
+    "lng": 16.166667
+  },
+  {
+    "locationCode": "MAJ",
+    "label": "Majsperk",
+    "subdivisionCode": "069",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 51.733333
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Makole",
+    "subdivisionCode": "113",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "SML",
+    "label": "Mala Nedelja",
+    "subdivisionCode": "063",
+    "function": "13",
+    "lat": 46.516667,
+    "lng": 16.05
+  },
+  {
+    "locationCode": "MLN",
+    "label": "Malecnik",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 15.7
+  },
+  {
+    "locationCode": "KJN",
+    "label": "Marezige",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 13.8
+  },
+  {
+    "locationCode": "MBX",
+    "label": "Maribor",
+    "function": "4"
+  },
+  {
+    "locationCode": "ST5",
+    "label": "Marjeta na Dravskem Polju",
+    "subdivisionCode": "115",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 15.733333
+  },
+  {
+    "locationCode": "VCI",
+    "label": "Markovci",
+    "subdivisionCode": "161",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 16.233333
+  },
+  {
+    "locationCode": "SM8",
+    "label": "Martjanci",
+    "subdivisionCode": "078",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 16.183333
+  },
+  {
+    "locationCode": "H35",
+    "label": "Materija",
+    "subdivisionCode": "035",
+    "function": "3",
+    "lat": 45.566667,
+    "lng": 13.983333
+  },
+  {
+    "locationCode": "ME7",
+    "label": "Mavcice",
+    "subdivisionCode": "071",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "MDE",
+    "label": "Medvode",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "MGS",
+    "label": "Menges",
+    "subdivisionCode": "072",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "MET",
+    "label": "Metlika",
+    "function": "6",
+    "lat": 45.633333,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "MZA",
+    "label": "Mezica",
+    "function": "23",
+    "lat": 46.516667,
+    "lng": 14.85
+  },
+  {
+    "locationCode": "MDP",
+    "label": "Miklavz Na Dravskem Polju",
+    "subdivisionCode": "070",
+    "function": "3",
+    "lat": 46.5,
+    "lng": 15.683333
+  },
+  {
+    "locationCode": "SO8",
+    "label": "Miklavz pri Ormozu",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 16.2
+  },
+  {
+    "locationCode": "LZK",
+    "label": "Miren",
+    "subdivisionCode": "075",
+    "function": "6",
+    "lat": 45.883333,
+    "lng": 13.6
+  },
+  {
+    "locationCode": "MRN",
+    "label": "Mirna",
+    "subdivisionCode": "157",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "MIP",
+    "label": "Mirna Pec",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Mislinja",
+    "subdivisionCode": "076",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "KG5",
+    "label": "Mojstrana",
+    "subdivisionCode": "053",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 13.933333
+  },
+  {
+    "locationCode": "ST3",
+    "label": "Mokronog",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 15.133333
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Moravce",
+    "subdivisionCode": "077",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 14.733333
+  },
+  {
+    "locationCode": "MVT",
+    "label": "Moravske Toplice",
+    "subdivisionCode": "078",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 16.216667
+  },
+  {
+    "locationCode": "MNS",
+    "label": "Most na Soci",
+    "subdivisionCode": "128",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "M43",
+    "label": "Motnik",
+    "subdivisionCode": "043",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 14.883333
+  },
+  {
+    "locationCode": "M79",
+    "label": "Mozirje",
+    "subdivisionCode": "079",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "MUS",
+    "label": "Murska Sobota",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 16.166667
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Muta",
+    "subdivisionCode": "081",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.15
+  },
+  {
+    "locationCode": "NKO",
+    "label": "Naklo",
+    "function": "236",
+    "lat": 46.283333,
+    "lng": 14.316667
+  },
+  {
+    "locationCode": "NAZ",
+    "label": "Nazarje",
+    "subdivisionCode": "083",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "NGO",
+    "label": "Notranje Gorice",
+    "subdivisionCode": "008",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "NCV",
+    "label": "Nova Cerkev",
+    "subdivisionCode": "139",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 15.283333
+  },
+  {
+    "locationCode": "NOG",
+    "label": "Nova Gorica",
+    "function": "23",
+    "lat": 45.966667,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Nova Vas",
+    "function": "6",
+    "lat": 45.933333,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "NMO",
+    "label": "Novo Mesto",
+    "function": "23",
+    "lat": 45.8,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "OBR",
+    "label": "Obrezje",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "HKO",
+    "label": "Obrov",
+    "subdivisionCode": "035",
+    "function": "3",
+    "lat": 45.533333,
+    "lng": 14.083333
+  },
+  {
+    "locationCode": "O86",
+    "label": "Odranci",
+    "subdivisionCode": "086",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 16.266667
+  },
+  {
+    "locationCode": "OPN",
+    "label": "Oplotnica",
+    "subdivisionCode": "113",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 15.45
+  },
+  {
+    "locationCode": "ORZ",
+    "label": "Ormoz",
+    "function": "23",
+    "lat": 46.4,
+    "lng": 16.166667
+  },
+  {
+    "locationCode": "RIB",
+    "label": "Ortnek",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 14.683333
+  },
+  {
+    "locationCode": "OSI",
+    "label": "Osilnica",
+    "subdivisionCode": "088",
+    "function": "3",
+    "lat": 45.55,
+    "lng": 14.733333
+  },
+  {
+    "locationCode": "OTO",
+    "label": "Otocec",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 15.266667
+  },
+  {
+    "locationCode": "P93",
+    "label": "Ozbalt",
+    "subdivisionCode": "093",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "P89",
+    "label": "Pernica",
+    "subdivisionCode": "089",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 15.716667
+  },
+  {
+    "locationCode": "PPM",
+    "label": "Pesnica pri Mariboru",
+    "subdivisionCode": "089",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "PTV",
+    "label": "Petrovce",
+    "function": "23",
+    "lat": 46.233333,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Piran",
+    "function": "1"
+  },
+  {
+    "locationCode": "LZG",
+    "label": "Pivka",
+    "subdivisionCode": "091",
+    "function": "236",
+    "lat": 45.683333,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Planina",
+    "subdivisionCode": "094",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "PPS",
+    "label": "Planina pri Sevnici",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 15.4
+  },
+  {
+    "locationCode": "POB",
+    "label": "Pobegi",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.533333,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "POD",
+    "label": "Podbocje",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 15.466667
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Podbrdo",
+    "subdivisionCode": "128",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 13.95
+  },
+  {
+    "locationCode": "P92",
+    "label": "Podcetrtek",
+    "subdivisionCode": "092",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "P87",
+    "label": "Podgorci",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 16.05
+  },
+  {
+    "locationCode": "PGD",
+    "label": "Podgrad",
+    "subdivisionCode": "038",
+    "function": "6",
+    "lat": 45.516667,
+    "lng": 14.15
+  },
+  {
+    "locationCode": "ZOS",
+    "label": "Podkum",
+    "subdivisionCode": "142",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "V35",
+    "label": "Podlehnik",
+    "subdivisionCode": "135",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "POV",
+    "label": "Podnanos",
+    "subdivisionCode": "136",
+    "function": "6",
+    "lat": 45.783333,
+    "lng": 13.966667
+  },
+  {
+    "locationCode": "N82",
+    "label": "Podnart",
+    "subdivisionCode": "082",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "PDP",
+    "label": "Podplat",
+    "subdivisionCode": "106",
+    "function": "23",
+    "lat": 46.25,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "KP5",
+    "label": "Podsreda",
+    "subdivisionCode": "051",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "PDK",
+    "label": "Podvelka",
+    "subdivisionCode": "093",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 15.316667
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polensak",
+    "subdivisionCode": "024",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 16.016667
+  },
+  {
+    "locationCode": "PG2",
+    "label": "Polhov Gradec",
+    "subdivisionCode": "021",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "PNS",
+    "label": "Poljane nad Skofjo Loko",
+    "subdivisionCode": "027",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "LZM",
+    "label": "Poljcane",
+    "subdivisionCode": "113",
+    "function": "6",
+    "lat": 46.3,
+    "lng": 15.566667
+  },
+  {
+    "locationCode": "ZP9",
+    "label": "Polzela",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 15.066667
+  },
+  {
+    "locationCode": "PON",
+    "label": "Ponikva",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 15.433333
+  },
+  {
+    "locationCode": "POW",
+    "label": "Portoroz",
+    "function": "14"
+  },
+  {
+    "locationCode": "POS",
+    "label": "Postojna",
+    "subdivisionCode": "094",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Pragersko",
+    "subdivisionCode": "113",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 15.65
+  },
+  {
+    "locationCode": "PBL",
+    "label": "Prebold",
+    "subdivisionCode": "174",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "P95",
+    "label": "Preddvor",
+    "subdivisionCode": "095",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Prem",
+    "subdivisionCode": "038",
+    "function": "3",
+    "lat": 45.6,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "PPR",
+    "label": "Preserje pri Radomljah",
+    "subdivisionCode": "072",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 14.583333
+  },
+  {
+    "locationCode": "PR4",
+    "label": "Prestranek",
+    "subdivisionCode": "094",
+    "function": "3",
+    "lat": 45.716667,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Prevalje",
+    "subdivisionCode": "175",
+    "function": "6",
+    "lat": 46.533333,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Pristava pri Mestinju",
+    "subdivisionCode": "092",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Prosenjakovci",
+    "subdivisionCode": "078",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Prvacina",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "PTU",
+    "label": "Ptuj",
+    "subdivisionCode": "096",
+    "function": "23",
+    "lat": 46.416667,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "P69",
+    "label": "Ptujska Gora",
+    "subdivisionCode": "069",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "PCI",
+    "label": "Puconci",
+    "subdivisionCode": "097",
+    "function": "3",
+    "lat": 46.7,
+    "lng": 16.15
+  },
+  {
+    "locationCode": "RAC",
+    "label": "Race",
+    "subdivisionCode": "098",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "RAF",
+    "label": "Race-Fram",
+    "subdivisionCode": "098",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 15.616667
+  },
+  {
+    "locationCode": "LZO",
+    "label": "Radece",
+    "subdivisionCode": "099",
+    "function": "6",
+    "lat": 46.066667,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "RDC",
+    "label": "Radenci",
+    "subdivisionCode": "100",
+    "function": "3",
+    "lat": 46.633333,
+    "lng": 16.033333
+  },
+  {
+    "locationCode": "ROD",
+    "label": "Radlje ob Dravi",
+    "subdivisionCode": "101",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.216667
+  },
+  {
+    "locationCode": "LZN",
+    "label": "Radomlje",
+    "subdivisionCode": "023",
+    "function": "6",
+    "lat": 46.166667,
+    "lng": 14.6
+  },
+  {
+    "locationCode": "RDO",
+    "label": "Radovljica",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Raka",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "RKK",
+    "label": "Rakek",
+    "subdivisionCode": "013",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "RAT",
+    "label": "Ratece",
+    "subdivisionCode": "053",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "RNK",
+    "label": "Ravne na Koroskem",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "RAZ",
+    "label": "Razkrizje",
+    "subdivisionCode": "176",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 16.3
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Recica ob Savinji",
+    "subdivisionCode": "101",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "RNC",
+    "label": "Rence",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.883333,
+    "lng": 13.666667
+  },
+  {
+    "locationCode": "RNA",
+    "label": "Ribnica",
+    "function": "23",
+    "lat": 45.766667,
+    "lng": 14.716667
+  },
+  {
+    "locationCode": "RNP",
+    "label": "Ribnica na Pohorju",
+    "subdivisionCode": "093",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 15.266667
+  },
+  {
+    "locationCode": "RIM",
+    "label": "Rimske Toplice",
+    "subdivisionCode": "057",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 15.2
+  },
+  {
+    "locationCode": "ROB",
+    "label": "Rob",
+    "subdivisionCode": "134",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "ROC",
+    "label": "Rocinj",
+    "subdivisionCode": "044",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 13.666667
+  },
+  {
+    "locationCode": "RSA",
+    "label": "Rogaska Slatina",
+    "function": "3"
+  },
+  {
+    "locationCode": "ROG",
+    "label": "Rogasovci",
+    "subdivisionCode": "105",
+    "function": "16",
+    "lat": 46.8,
+    "lng": 16.033333
+  },
+  {
+    "locationCode": "RO3",
+    "label": "Rogatec",
+    "subdivisionCode": "107",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 15.7
+  },
+  {
+    "locationCode": "ROV",
+    "label": "Rovte",
+    "subdivisionCode": "064",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "LZF",
+    "label": "Ruse",
+    "subdivisionCode": "108",
+    "function": "6",
+    "lat": 46.533333,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salovci",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 16.216667
+  },
+  {
+    "locationCode": "SAV",
+    "label": "Sava",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 14.9
+  },
+  {
+    "locationCode": "SEC",
+    "label": "Secovlje",
+    "subdivisionCode": "090",
+    "function": "16",
+    "lat": 45.466667,
+    "lng": 13.616667
+  },
+  {
+    "locationCode": "S8L",
+    "label": "Selca",
+    "subdivisionCode": "146",
+    "function": "1",
+    "lat": 46.216667,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "SOD",
+    "label": "Selnica ob Dravi",
+    "subdivisionCode": "108",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 15.483333
+  },
+  {
+    "locationCode": "LZB",
+    "label": "Semic",
+    "subdivisionCode": "109",
+    "function": "6",
+    "lat": 45.633333,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "SPS",
+    "label": "Sempas",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "SEM",
+    "label": "Sempeter pri Gorici",
+    "subdivisionCode": "084",
+    "function": "23",
+    "lat": 45.933333,
+    "lng": 13.633333
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Sempeter v Savinjski Dolini",
+    "subdivisionCode": "190",
+    "function": "23",
+    "lat": 46.25,
+    "lng": 15.116667
+  },
+  {
+    "locationCode": "SPV",
+    "label": "Sempeter-Vrtojba",
+    "subdivisionCode": "183",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 13.65
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Sencur",
+    "subdivisionCode": "117",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "SEN",
+    "label": "Senovo",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 15.466667
+  },
+  {
+    "locationCode": "SZC",
+    "label": "Senozece",
+    "subdivisionCode": "019",
+    "function": "36",
+    "lat": 45.716667,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "SET",
+    "label": "Sentilj",
+    "subdivisionCode": "118",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 15.65
+  },
+  {
+    "locationCode": "SE3",
+    "label": "Sentjanz",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 46,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "LZQ",
+    "label": "Sentjanz pri Dravogradu",
+    "subdivisionCode": "025",
+    "function": "6",
+    "lat": 46.55,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "SEJ",
+    "label": "Sentjernej",
+    "subdivisionCode": "119",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "4SS",
+    "label": "Sentjur",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "SE9",
+    "label": "Sentrupert",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 15.066667
+  },
+  {
+    "locationCode": "SEP",
+    "label": "Sentrupert",
+    "subdivisionCode": "211",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "IVA",
+    "label": "Sentvid pri Sticni",
+    "subdivisionCode": "039",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 14.816667
+  },
+  {
+    "locationCode": "SVC",
+    "label": "Sevnica",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": 46,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Sezana",
+    "function": "3",
+    "lat": 45.733333,
+    "lng": 13.883333
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Skocjan",
+    "subdivisionCode": "121",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 15.283333
+  },
+  {
+    "locationCode": "LZP",
+    "label": "Skofja Loka",
+    "subdivisionCode": "122",
+    "function": "6",
+    "lat": 46.166667,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Skofja Vas",
+    "subdivisionCode": "011",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 15.283333
+  },
+  {
+    "locationCode": "SKF",
+    "label": "Skofljica",
+    "subdivisionCode": "123",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "VTT",
+    "label": "Sladki Vrh",
+    "subdivisionCode": "029",
+    "function": "3",
+    "lat": 46.7,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "SOI",
+    "label": "Slap ob Idrijci",
+    "subdivisionCode": "128",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 13.8
+  },
+  {
+    "locationCode": "SLG",
+    "label": "Slovenj Gradec",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Slovenska Bistrica",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Slovenske Konjice",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 15.45
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Smarje",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Smarje pri Jelsah",
+    "subdivisionCode": "124",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Smarje-Sap",
+    "subdivisionCode": "123",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 14.6
+  },
+  {
+    "locationCode": "SJT",
+    "label": "Smarjeske Toplice",
+    "subdivisionCode": "206",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 15.216667
+  },
+  {
+    "locationCode": "SNP",
+    "label": "Smartno na Pohorju",
+    "subdivisionCode": "113",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 15.533333
+  },
+  {
+    "locationCode": "N83",
+    "label": "Smartno ob Dreti",
+    "subdivisionCode": "083",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 14.883333
+  },
+  {
+    "locationCode": "SOP",
+    "label": "Smartno ob Paki",
+    "subdivisionCode": "125",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 15.033333
+  },
+  {
+    "locationCode": "SPL",
+    "label": "Smartno pri Litiji",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 14.833333
+  },
+  {
+    "locationCode": "PSG",
+    "label": "Smartno pri Slovenj Gradcu",
+    "subdivisionCode": "112",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "SVD",
+    "label": "Smartno v Rozni Dolini",
+    "subdivisionCode": "011",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "MED",
+    "label": "Smlednik",
+    "subdivisionCode": "071",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "SOC",
+    "label": "Soca",
+    "subdivisionCode": "006",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 13.65
+  },
+  {
+    "locationCode": "SZ5",
+    "label": "Sodrazica",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 45.75,
+    "lng": 14.633333
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Solcava",
+    "subdivisionCode": "067",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 14.683333
+  },
+  {
+    "locationCode": "S47",
+    "label": "Solkan",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 13.633333
+  },
+  {
+    "locationCode": "STJ",
+    "label": "Sostanj",
+    "subdivisionCode": "126",
+    "function": "23",
+    "lat": 46.383333,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Sovodenj",
+    "subdivisionCode": "027",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "SPO",
+    "label": "Spodnja Idrija",
+    "subdivisionCode": "036",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 14.016667
+  },
+  {
+    "locationCode": "SHC",
+    "label": "Spodnje Hoce",
+    "subdivisionCode": "160",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 15.633333
+  },
+  {
+    "locationCode": "DUP",
+    "label": "Spodnji Duplek",
+    "subdivisionCode": "026",
+    "function": "3",
+    "lat": 46.5,
+    "lng": 15.733333
+  },
+  {
+    "locationCode": "SGR",
+    "label": "Spodnji Ivanjci",
+    "subdivisionCode": "029",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 15.966667
+  },
+  {
+    "locationCode": "SRE",
+    "label": "Sredisce ob Dravi",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 16.266667
+  },
+  {
+    "locationCode": "SVB",
+    "label": "Srednja Vas v Bohinju",
+    "subdivisionCode": "004",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 13.916667
+  },
+  {
+    "locationCode": "SRO",
+    "label": "Sromlje",
+    "subdivisionCode": "009",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "SRP",
+    "label": "Srpenica",
+    "subdivisionCode": "006",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "KMK",
+    "label": "Stahovica",
+    "subdivisionCode": "043",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 14.6
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stanjel",
+    "subdivisionCode": "049",
+    "function": "3",
+    "lat": 45.816667,
+    "lng": 13.833333
+  },
+  {
+    "locationCode": "STC",
+    "label": "Stara Cerkev",
+    "subdivisionCode": "048",
+    "function": "3",
+    "lat": 45.666667,
+    "lng": 14.833333
+  },
+  {
+    "locationCode": "STK",
+    "label": "Stari Trg ob Kolpi",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "LZD",
+    "label": "Stari Trg pri Lozu",
+    "subdivisionCode": "057",
+    "function": "36",
+    "lat": 45.716667,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "SR5",
+    "label": "Starse",
+    "subdivisionCode": "115",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 15.766667
+  },
+  {
+    "locationCode": "STP",
+    "label": "Stoperce",
+    "subdivisionCode": "069",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 15.716667
+  },
+  {
+    "locationCode": "STO",
+    "label": "Store",
+    "function": "6",
+    "lat": 46.216667,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "SZR",
+    "label": "Stranice",
+    "subdivisionCode": "144",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "LZR",
+    "label": "Straza",
+    "subdivisionCode": "085",
+    "function": "6",
+    "lat": 45.766667,
+    "lng": 15.066667
+  },
+  {
+    "locationCode": "STR",
+    "label": "Straza na Gori",
+    "subdivisionCode": "120",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 152.5
+  },
+  {
+    "locationCode": "STU",
+    "label": "Studenec",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "SUH",
+    "label": "Suhadole",
+    "function": "6",
+    "lat": 46.183333,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "SVN",
+    "label": "Svenica",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 152.416667
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sveta Ana v Slovenskih Goricah",
+    "subdivisionCode": "058",
+    "function": "3",
+    "lat": 46.633333,
+    "lng": 15.833333
+  },
+  {
+    "locationCode": "STS",
+    "label": "Sveta Trojica v Slovenskih goricah",
+    "subdivisionCode": "204",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "SNS",
+    "label": "Sveti Andraz v Slovenskih goricah",
+    "subdivisionCode": "182",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 15.966667
+  },
+  {
+    "locationCode": "SJS",
+    "label": "Sveti Jurij ob Scavnici",
+    "subdivisionCode": "116",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 16.016667
+  },
+  {
+    "locationCode": "SJU",
+    "label": "Sveti Jurij v Slovenskih goricah",
+    "subdivisionCode": "210",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "SVT",
+    "label": "Sveti Tomaz",
+    "subdivisionCode": "205",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 16.066667
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tabor",
+    "subdivisionCode": "190",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "TEH",
+    "label": "Teharje",
+    "subdivisionCode": "011",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "TEP",
+    "label": "Tepanje",
+    "subdivisionCode": "114",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 153.383333
+  },
+  {
+    "locationCode": "TIS",
+    "label": "Tisina",
+    "subdivisionCode": "152",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tolmin",
+    "subdivisionCode": "128",
+    "function": "1",
+    "lat": 46.166667,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "TOP",
+    "label": "Topolsica",
+    "subdivisionCode": "126",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "TRD",
+    "label": "Trbonje",
+    "subdivisionCode": "025",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "TRB",
+    "label": "Trbovlje",
+    "subdivisionCode": "129",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "TRJ",
+    "label": "Trebelno",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 15.15
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Trebnje",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 151.3
+  },
+  {
+    "locationCode": "TRN",
+    "label": "Trnovo",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Trnovska Vas",
+    "subdivisionCode": "018",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 15.9
+  },
+  {
+    "locationCode": "LU6",
+    "label": "Trojane",
+    "subdivisionCode": "068",
+    "function": "13",
+    "lat": 46.183333,
+    "lng": 14.866667
+  },
+  {
+    "locationCode": "TZI",
+    "label": "Trzic",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 14.316667
+  },
+  {
+    "locationCode": "TRZ",
+    "label": "Trzin",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "T3R",
+    "label": "Trzisce",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Turjak",
+    "subdivisionCode": "134",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 14.6
+  },
+  {
+    "locationCode": "TR2",
+    "label": "Turnisce",
+    "subdivisionCode": "132",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "URS",
+    "label": "Ursna Sela",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 45.733333,
+    "lng": 15.133333
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Vace",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 14.833333
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vas",
+    "function": "3",
+    "lat": 45.466667,
+    "lng": 14.866667
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velenje",
+    "function": "3"
+  },
+  {
+    "locationCode": "VL3",
+    "label": "Velika Loka",
+    "subdivisionCode": "032",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 14.716667
+  },
+  {
+    "locationCode": "VND",
+    "label": "Velika Nedelja",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 16.1
+  },
+  {
+    "locationCode": "VLP",
+    "label": "Velika Polana",
+    "subdivisionCode": "015",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 16.333333
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Velike Brusnice",
+    "subdivisionCode": "148",
+    "function": "3",
+    "lat": 45.816667,
+    "lng": 15.25
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Velike Lasce",
+    "subdivisionCode": "134",
+    "function": "3",
+    "lat": 45.816667,
+    "lng": 14.633333
+  },
+  {
+    "locationCode": "VLG",
+    "label": "Veliki Gaber",
+    "subdivisionCode": "130",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 14.9
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verzej",
+    "subdivisionCode": "063",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 16.15
+  },
+  {
+    "locationCode": "VID",
+    "label": "Videm",
+    "subdivisionCode": "020",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 14.683333
+  },
+  {
+    "locationCode": "VPT",
+    "label": "Videm pri Ptuju",
+    "subdivisionCode": "135",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 15.9
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vinica",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 45.466667,
+    "lng": 15.25
+  },
+  {
+    "locationCode": "VPV",
+    "label": "Vipava",
+    "subdivisionCode": "136",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 13.95
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Visnja Gora",
+    "subdivisionCode": "039",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 14.733333
+  },
+  {
+    "locationCode": "VKO",
+    "label": "Visoko",
+    "subdivisionCode": "117",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "VIT",
+    "label": "Vitanje",
+    "subdivisionCode": "137",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 15.283333
+  },
+  {
+    "locationCode": "VTO",
+    "label": "Vitomarci",
+    "subdivisionCode": "018",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 15.933333
+  },
+  {
+    "locationCode": "VDC",
+    "label": "Vodice",
+    "subdivisionCode": "001",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 14.666667
+  },
+  {
+    "locationCode": "VOJ",
+    "label": "Vojnik",
+    "subdivisionCode": "139",
+    "function": "16",
+    "lat": 46.283333,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "VDR",
+    "label": "Volcja Draga",
+    "function": "6",
+    "lat": 45.9,
+    "lng": 13.666667
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Vransko",
+    "subdivisionCode": "190",
+    "function": "16",
+    "lat": 46.233333,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "VB9",
+    "label": "Vremski Britof",
+    "subdivisionCode": "019",
+    "function": "16",
+    "lat": 45.65,
+    "lng": 14.016667
+  },
+  {
+    "locationCode": "VRH",
+    "label": "Vrhnika",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "VUH",
+    "label": "Vuhred",
+    "subdivisionCode": "101",
+    "function": "16",
+    "lat": 46.583333,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "VUZ",
+    "label": "Vuzenica",
+    "subdivisionCode": "141",
+    "function": "23",
+    "lat": 46.583333,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Zabnica",
+    "subdivisionCode": "052",
+    "function": "16",
+    "lat": 46.183333,
+    "lng": 14.316667
+  },
+  {
+    "locationCode": "ZBU",
+    "label": "Zabukovje nad Sevnico",
+    "subdivisionCode": "110",
+    "function": "16",
+    "lat": 46.05,
+    "lng": 15.366667
+  },
+  {
+    "locationCode": "Z42",
+    "label": "Zagorje ob Savi",
+    "subdivisionCode": "142",
+    "function": "16",
+    "lat": 46.133333,
+    "lng": 15
+  },
+  {
+    "locationCode": "ZAG",
+    "label": "Zagradec",
+    "subdivisionCode": "039",
+    "function": "16",
+    "lat": 45.85,
+    "lng": 14.833333
+  },
+  {
+    "locationCode": "ZAL",
+    "label": "Zalec",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZAV",
+    "label": "Zavrc",
+    "subdivisionCode": "028",
+    "function": "16",
+    "lat": 46.383333,
+    "lng": 16.033333
+  },
+  {
+    "locationCode": "ZDO",
+    "label": "Zdole",
+    "subdivisionCode": "054",
+    "function": "16",
+    "lat": 45.966667,
+    "lng": 15.533333
+  },
+  {
+    "locationCode": "ZEL",
+    "label": "Zelezniki",
+    "subdivisionCode": "146",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "ZET",
+    "label": "Zetale",
+    "subdivisionCode": "069",
+    "function": "16",
+    "lat": 46.266667,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "ZGB",
+    "label": "Zgornja Besnica",
+    "subdivisionCode": "052",
+    "function": "16",
+    "lat": 46.266667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "ZGK",
+    "label": "Zgornja Korena",
+    "subdivisionCode": "026",
+    "function": "16",
+    "lat": 46.516667,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "ZGO",
+    "label": "Zgornja Kungota",
+    "subdivisionCode": "055",
+    "function": "6",
+    "lat": 46.633333,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "ZGL",
+    "label": "Zgornja Loznica",
+    "subdivisionCode": "113",
+    "function": "16",
+    "lat": 46.333333,
+    "lng": 15.65
+  },
+  {
+    "locationCode": "ZGP",
+    "label": "Zgornja Polskava",
+    "subdivisionCode": "113",
+    "function": "16",
+    "lat": 46.416667,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "ZGV",
+    "label": "Zgornja Velka",
+    "subdivisionCode": "118",
+    "function": "16",
+    "lat": 46.666667,
+    "lng": 15.766667
+  },
+  {
+    "locationCode": "ZGJ",
+    "label": "Zgornje Gorje",
+    "subdivisionCode": "003",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 14.083333
+  },
+  {
+    "locationCode": "Z95",
+    "label": "Zgornje Jezersko",
+    "subdivisionCode": "095",
+    "function": "16",
+    "lat": 46.383333,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "XZA",
+    "label": "Zgornji Jakobski Dol",
+    "subdivisionCode": "089",
+    "function": "13",
+    "lat": 46.633333,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "Z35",
+    "label": "Zgornji Leskovec",
+    "subdivisionCode": "135",
+    "function": "16",
+    "lat": 46.316667,
+    "lng": 15.933333
+  },
+  {
+    "locationCode": "ZID",
+    "label": "Zidani Most",
+    "subdivisionCode": "057",
+    "function": "16",
+    "lat": 46.083333,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "LZC",
+    "label": "Ziri",
+    "subdivisionCode": "147",
+    "function": "6",
+    "lat": 46.033333,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "ZIR",
+    "label": "Zirovnica",
+    "subdivisionCode": "041",
+    "function": "16",
+    "lat": 46.4,
+    "lng": 14.133333
+  },
+  {
+    "locationCode": "ZRE",
+    "label": "Zrece",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZUZ",
+    "label": "Zuzemberk",
+    "subdivisionCode": "085",
+    "function": "16",
+    "lat": 45.833333,
+    "lng": 14.916667
+  }
+]

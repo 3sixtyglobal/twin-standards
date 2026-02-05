@@ -1,0 +1,650 @@
+[
+  {
+    "locationCode": "AZU",
+    "label": "Azua",
+    "subdivisionCode": "02",
+    "function": "136",
+    "lat": 18.45,
+    "lng": -70.733333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Baní",
+    "labelWithDiacritics": "Bani",
+    "function": "13",
+    "lat": 18.283333,
+    "lng": -70.333333
+  },
+  {
+    "locationCode": "BRX",
+    "label": "Barahona",
+    "function": "14"
+  },
+  {
+    "locationCode": "BQL",
+    "label": "Barcequillo",
+    "subdivisionCode": "21",
+    "function": "1",
+    "lat": 18.433333,
+    "lng": -70.033333
+  },
+  {
+    "locationCode": "BAV",
+    "label": "Bavaro",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": -18.716667,
+    "lng": -68.45
+  },
+  {
+    "locationCode": "BCC",
+    "label": "Boca Chica",
+    "function": "1"
+  },
+  {
+    "locationCode": "BNO",
+    "label": "Bonao",
+    "subdivisionCode": "28",
+    "function": "6",
+    "lat": 18.933333,
+    "lng": -70.4
+  },
+  {
+    "locationCode": "CBJ",
+    "label": "Cabo Rojo",
+    "function": "14"
+  },
+  {
+    "locationCode": "CDC",
+    "label": "Casa de Campo",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 18.4,
+    "lng": -68.9
+  },
+  {
+    "locationCode": "CAI",
+    "label": "Catalina Island",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 18.366667,
+    "lng": -69
+  },
+  {
+    "locationCode": "CAU",
+    "label": "Caucedo",
+    "subdivisionCode": "01",
+    "function": "136",
+    "lat": 18.416667,
+    "lng": -69.633333
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Cayo Levantado",
+    "subdivisionCode": "20",
+    "function": "1",
+    "lat": 19.2,
+    "lng": -69.316667
+  },
+  {
+    "locationCode": "LVC",
+    "label": "Constanza",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 18.916667,
+    "lng": -70.75
+  },
+  {
+    "locationCode": "CTI",
+    "label": "Cotuí",
+    "subdivisionCode": "24",
+    "labelWithDiacritics": "Cotui",
+    "function": "3",
+    "lat": 19.05,
+    "lng": -70.15
+  },
+  {
+    "locationCode": "DAJ",
+    "label": "Dajabón",
+    "labelWithDiacritics": "Dajabon",
+    "function": "3",
+    "lat": 19.55,
+    "lng": -71.7
+  },
+  {
+    "locationCode": "EPS",
+    "label": "El Portillo/Samana",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 19.333333,
+    "lng": -69.5
+  },
+  {
+    "locationCode": "EPI",
+    "label": "Ensanche Piantini",
+    "subdivisionCode": "32",
+    "function": "3",
+    "lat": 18.466667,
+    "lng": -69.95
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Esperanza",
+    "function": "7",
+    "lat": 18.566667,
+    "lng": -71.516667
+  },
+  {
+    "locationCode": "GAZ",
+    "label": "Gaspar Hernandez",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": -19.616667,
+    "lng": -70.283333
+  },
+  {
+    "locationCode": "GYB",
+    "label": "Guayubín",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Guayubin",
+    "function": "2",
+    "lat": -19.616667,
+    "lng": -71.316667
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Guerra",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 18.55,
+    "lng": -69.7
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Gurabo",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": -19.333333,
+    "lng": -70.783333
+  },
+  {
+    "locationCode": "INA",
+    "label": "Haina",
+    "function": "1",
+    "lat": 18.416667,
+    "lng": -69.983333
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Hainamosa",
+    "subdivisionCode": "32",
+    "function": "6",
+    "lat": 18.516667,
+    "lng": -69.833333
+  },
+  {
+    "locationCode": "HDY",
+    "label": "Hato del Yaque",
+    "function": "6",
+    "lat": 19.466667,
+    "lng": -70.766667
+  },
+  {
+    "locationCode": "HMR",
+    "label": "Hato Mayor del Rey",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": -18.766667,
+    "lng": -69.25
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hato Nuevo",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 18.783333,
+    "lng": -69.716667
+  },
+  {
+    "locationCode": "JQB",
+    "label": "Higuero",
+    "subdivisionCode": "01",
+    "function": "4",
+    "lat": 18.566667,
+    "lng": -69.983333
+  },
+  {
+    "locationCode": "HIG",
+    "label": "Higüey",
+    "subdivisionCode": "21",
+    "labelWithDiacritics": "Higuey",
+    "function": "1",
+    "lat": 18.45,
+    "lng": -70.266667
+  },
+  {
+    "locationCode": "JBC",
+    "label": "Jarabacoa",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 19.116667,
+    "lng": -70.633333
+  },
+  {
+    "locationCode": "JIM",
+    "label": "Jimaní",
+    "labelWithDiacritics": "Jimani",
+    "function": "3",
+    "lat": 18.483333,
+    "lng": -71.85
+  },
+  {
+    "locationCode": "JDL",
+    "label": "Juan Dolio",
+    "function": "6",
+    "lat": 18.416667,
+    "lng": -69.416667
+  },
+  {
+    "locationCode": "LRM",
+    "label": "La Romana",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAV",
+    "label": "La Vega",
+    "function": "7",
+    "lat": 19.216667,
+    "lng": -70.516667
+  },
+  {
+    "locationCode": "LCS",
+    "label": "Las Calderas",
+    "subdivisionCode": "17",
+    "function": "6",
+    "lat": 18.216667,
+    "lng": -70.5
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Las Terrenas",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 19.316667,
+    "lng": -69.533333
+  },
+  {
+    "locationCode": "LCY",
+    "label": "Licey",
+    "subdivisionCode": "25",
+    "function": "6",
+    "lat": 19.45,
+    "lng": -70.633333
+  },
+  {
+    "locationCode": "LAL",
+    "label": "Los Alcarrizos",
+    "function": "7",
+    "lat": 18.516667,
+    "lng": -70.166667
+  },
+  {
+    "locationCode": "LGY",
+    "label": "Los Guayabos",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 18.6,
+    "lng": -70.516667
+  },
+  {
+    "locationCode": "LPD",
+    "label": "Los Prados",
+    "subdivisionCode": "32",
+    "function": "3",
+    "lat": 18.466667,
+    "lng": -69.95
+  },
+  {
+    "locationCode": "LUP",
+    "label": "Luperon",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 19.9,
+    "lng": -70.95
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manzanillo",
+    "function": "123",
+    "lat": 19.7,
+    "lng": -71.75
+  },
+  {
+    "locationCode": "MAO",
+    "label": "Mao",
+    "subdivisionCode": "27",
+    "function": "6",
+    "lat": 19.566667,
+    "lng": -71.833333
+  },
+  {
+    "locationCode": "MTZ",
+    "label": "Matanza",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 19.4,
+    "lng": -70.666667
+  },
+  {
+    "locationCode": "MCA",
+    "label": "Moca",
+    "function": "6",
+    "lat": 19.383333,
+    "lng": -70.516667
+  },
+  {
+    "locationCode": "MPT",
+    "label": "Monte Plata",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 18.8,
+    "lng": -69.783333
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Nagua",
+    "function": "6",
+    "lat": 19.383333,
+    "lng": -69.833333
+  },
+  {
+    "locationCode": "NEI",
+    "label": "Neiba",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 18.483333,
+    "lng": -71.416667
+  },
+  {
+    "locationCode": "NGA",
+    "label": "Nigua",
+    "function": "6",
+    "lat": 18.366667,
+    "lng": -70.05
+  },
+  {
+    "locationCode": "OCO",
+    "label": "Ocoa Bay",
+    "function": "1",
+    "lat": 18.616667,
+    "lng": -71.083333
+  },
+  {
+    "locationCode": "PLB",
+    "label": "Palabe",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 18.483333,
+    "lng": -70.066667
+  },
+  {
+    "locationCode": "PDR",
+    "label": "Pedernales",
+    "function": "1"
+  },
+  {
+    "locationCode": "PDB",
+    "label": "Pedro Brand",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 18.533333,
+    "lng": -70.1
+  },
+  {
+    "locationCode": "PIA",
+    "label": "Piedra Blanca",
+    "subdivisionCode": "28",
+    "function": "3",
+    "lat": -18.833333,
+    "lng": -70.3
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Piloto",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 19.6,
+    "lng": -71.2
+  },
+  {
+    "locationCode": "PIM",
+    "label": "Pimentel",
+    "function": "236",
+    "lat": 19.183333,
+    "lng": -70.1
+  },
+  {
+    "locationCode": "PUD",
+    "label": "Puerto Duarte",
+    "function": "0"
+  },
+  {
+    "locationCode": "PUO",
+    "label": "Puerto Libertador",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Puerto Palenque",
+    "function": "13",
+    "lat": 18.233333,
+    "lng": -70.15
+  },
+  {
+    "locationCode": "POP",
+    "label": "Puerto Plata",
+    "function": "1"
+  },
+  {
+    "locationCode": "PVA",
+    "label": "Puerto Viejo de Azua",
+    "function": "1",
+    "lat": 18.333333,
+    "lng": -70.833333
+  },
+  {
+    "locationCode": "PCN",
+    "label": "Punta Cana",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 18.8,
+    "lng": -71.566667
+  },
+  {
+    "locationCode": "PUJ",
+    "label": "Punta Cana Apt",
+    "function": "34",
+    "lat": 18.566667,
+    "lng": -68.35
+  },
+  {
+    "locationCode": "HAI",
+    "label": "Rio Haina",
+    "function": "1"
+  },
+  {
+    "locationCode": "SNX",
+    "label": "Sabana de la Mar",
+    "function": "14",
+    "lat": 19.066667,
+    "lng": -69.383333
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salcedo",
+    "function": "3",
+    "lat": 19.416667,
+    "lng": -70.383333
+  },
+  {
+    "locationCode": "AZS",
+    "label": "Samana International Apt",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 19.266667,
+    "lng": -69.733333
+  },
+  {
+    "locationCode": "SCL",
+    "label": "San Carlos",
+    "function": "6",
+    "lat": 18.483333,
+    "lng": -69.9
+  },
+  {
+    "locationCode": "SCR",
+    "label": "San Cristobal",
+    "function": "3"
+  },
+  {
+    "locationCode": "SFP",
+    "label": "San Felipe",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 18.583333,
+    "lng": -69.916667
+  },
+  {
+    "locationCode": "MCR",
+    "label": "San Fernando de Monte Cristi",
+    "function": "3",
+    "lat": 19.85,
+    "lng": -71.65
+  },
+  {
+    "locationCode": "SFN",
+    "label": "San Francisco de Macorís",
+    "labelWithDiacritics": "San Francisco de Macoris",
+    "function": "1",
+    "lat": 19.3,
+    "lng": -70.25
+  },
+  {
+    "locationCode": "SIS",
+    "label": "San Ignacio Sabaneta",
+    "function": "3",
+    "lat": 19.466667,
+    "lng": -71.333333
+  },
+  {
+    "locationCode": "SIO",
+    "label": "San Isidro",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 18.533333,
+    "lng": -69.766667
+  },
+  {
+    "locationCode": "SJO",
+    "label": "San José de Ocoa",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "San Jose de Ocoa",
+    "function": "3",
+    "lat": 18.55,
+    "lng": -70.5
+  },
+  {
+    "locationCode": "SJM",
+    "label": "San Juan de la Maguana",
+    "function": "3",
+    "lat": 18.8,
+    "lng": -71.216667
+  },
+  {
+    "locationCode": "SPM",
+    "label": "San Pedro de Macorís",
+    "labelWithDiacritics": "San Pedro de Macoris",
+    "function": "1",
+    "lat": 18.45,
+    "lng": -69.3
+  },
+  {
+    "locationCode": "SNZ",
+    "label": "Sánchez",
+    "labelWithDiacritics": "Sanchez",
+    "function": "123",
+    "lat": 19.233333,
+    "lng": -69.616667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Santa Bárbara de Samaná",
+    "labelWithDiacritics": "Santa Barbara de Samana",
+    "function": "3",
+    "lat": 19.2,
+    "lng": -69.316667
+  },
+  {
+    "locationCode": "STI",
+    "label": "Santiago de los Caballeros",
+    "function": "13"
+  },
+  {
+    "locationCode": "SDQ",
+    "label": "Santo Domingo",
+    "subdivisionCode": "01",
+    "function": "1345",
+    "lat": 18.466667,
+    "lng": -69.9
+  },
+  {
+    "locationCode": "SSU",
+    "label": "Sosúa",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Sosua",
+    "function": "3",
+    "lat": 19.75,
+    "lng": -70.516667
+  },
+  {
+    "locationCode": "TDR",
+    "label": "Tamboril",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 19.483333,
+    "lng": -70.6
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Villa Altagracia",
+    "subdivisionCode": "21",
+    "function": "13",
+    "lat": 18.666667,
+    "lng": -70.166667
+  },
+  {
+    "locationCode": "VGZ",
+    "label": "Villa Gonzalez",
+    "subdivisionCode": "25",
+    "function": "6",
+    "lat": 19.533333,
+    "lng": -70.783333
+  },
+  {
+    "locationCode": "VML",
+    "label": "Villa Mella",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 18.55,
+    "lng": -69.9
+  },
+  {
+    "locationCode": "VVA",
+    "label": "Villa Vásquez",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Villa Vasquez",
+    "function": "3",
+    "lat": 19.75,
+    "lng": -71.45
+  }
+]

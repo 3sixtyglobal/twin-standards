@@ -1,0 +1,47 @@
+[
+  {
+    "code": "01",
+    "label": "Acquaviva",
+    "type": "Municipality"
+  },
+  {
+    "code": "02",
+    "label": "Chiesanuova",
+    "type": "Municipality"
+  },
+  {
+    "code": "03",
+    "label": "Domagnano",
+    "type": "Municipality"
+  },
+  {
+    "code": "04",
+    "label": "Faetano",
+    "type": "Municipality"
+  },
+  {
+    "code": "05",
+    "label": "Fiorentino",
+    "type": "Municipality"
+  },
+  {
+    "code": "06",
+    "label": "Borgo Maggiore",
+    "type": "Municipality"
+  },
+  {
+    "code": "07",
+    "label": "Città di SanMarino",
+    "type": "Municipality"
+  },
+  {
+    "code": "08",
+    "label": "Montegiardino",
+    "type": "Municipality"
+  },
+  {
+    "code": "09",
+    "label": "Serravalle",
+    "type": "Municipality"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "code": "01",
+    "label": "Adana",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Adiyaman",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Afyonkarahisar",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Agri",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Amasya",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Ankara",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Antalya",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Artvin",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Aydin",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Balikesir",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Bilecik",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Bingöl",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Bitlis",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Bolu",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Burdur",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Bursa",
+    "type": "Province"
+  },
+  {
+    "code": "17",
+    "label": "Canakkale",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Çankiri",
+    "type": "Province"
+  },
+  {
+    "code": "19",
+    "label": "Corum",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Denizli",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Diyarbakir",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "Edirne",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "Elazig",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Erzincan",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Erzurum",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Eskisehir",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Gaziantep",
+    "type": "Province"
+  },
+  {
+    "code": "28",
+    "label": "Giresun",
+    "type": "Province"
+  },
+  {
+    "code": "29",
+    "label": "Gümüshane",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Hakkari",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "Hatay",
+    "type": "Province"
+  },
+  {
+    "code": "32",
+    "label": "Isparta",
+    "type": "Province"
+  },
+  {
+    "code": "33",
+    "label": "Mersin",
+    "type": "Province"
+  },
+  {
+    "code": "34",
+    "label": "Istanbul",
+    "type": "Province"
+  },
+  {
+    "code": "35",
+    "label": "Izmir",
+    "type": "Province"
+  },
+  {
+    "code": "36",
+    "label": "Kars",
+    "type": "Province"
+  },
+  {
+    "code": "37",
+    "label": "Kastamonu",
+    "type": "Province"
+  },
+  {
+    "code": "38",
+    "label": "Kayseri",
+    "type": "Province"
+  },
+  {
+    "code": "39",
+    "label": "Kirklareli",
+    "type": "Province"
+  },
+  {
+    "code": "40",
+    "label": "Kirsehir",
+    "type": "Province"
+  },
+  {
+    "code": "41",
+    "label": "Kocaeli",
+    "type": "Province"
+  },
+  {
+    "code": "42",
+    "label": "Konya",
+    "type": "Province"
+  },
+  {
+    "code": "43",
+    "label": "Kütahya",
+    "type": "Province"
+  },
+  {
+    "code": "44",
+    "label": "Malatya",
+    "type": "Province"
+  },
+  {
+    "code": "45",
+    "label": "Manisa",
+    "type": "Province"
+  },
+  {
+    "code": "46",
+    "label": "Kahramanmaras",
+    "type": "Province"
+  },
+  {
+    "code": "47",
+    "label": "Mardin",
+    "type": "Province"
+  },
+  {
+    "code": "48",
+    "label": "Mugla",
+    "type": "Province"
+  },
+  {
+    "code": "49",
+    "label": "Mus",
+    "type": "Province"
+  },
+  {
+    "code": "50",
+    "label": "Nevsehir",
+    "type": "Province"
+  },
+  {
+    "code": "51",
+    "label": "Nigde",
+    "type": "Province"
+  },
+  {
+    "code": "52",
+    "label": "Ordu",
+    "type": "Province"
+  },
+  {
+    "code": "53",
+    "label": "Rize",
+    "type": "Province"
+  },
+  {
+    "code": "54",
+    "label": "Sakarya",
+    "type": "Province"
+  },
+  {
+    "code": "55",
+    "label": "Samsun",
+    "type": "Province"
+  },
+  {
+    "code": "56",
+    "label": "Siirt",
+    "type": "Province"
+  },
+  {
+    "code": "57",
+    "label": "Sinop",
+    "type": "Province"
+  },
+  {
+    "code": "58",
+    "label": "Sivas",
+    "type": "Province"
+  },
+  {
+    "code": "59",
+    "label": "Tekirdag",
+    "type": "Province"
+  },
+  {
+    "code": "60",
+    "label": "Tokat",
+    "type": "Province"
+  },
+  {
+    "code": "61",
+    "label": "Trabzon",
+    "type": "Province"
+  },
+  {
+    "code": "62",
+    "label": "Tunceli",
+    "type": "Province"
+  },
+  {
+    "code": "63",
+    "label": "Sanliurfa",
+    "type": "Province"
+  },
+  {
+    "code": "64",
+    "label": "Usak",
+    "type": "Province"
+  },
+  {
+    "code": "65",
+    "label": "Van",
+    "type": "Province"
+  },
+  {
+    "code": "66",
+    "label": "Yozgat",
+    "type": "Province"
+  },
+  {
+    "code": "67",
+    "label": "Zonguldak",
+    "type": "Province"
+  },
+  {
+    "code": "68",
+    "label": "Aksaray",
+    "type": "Province"
+  },
+  {
+    "code": "69",
+    "label": "Bayburt",
+    "type": "Province"
+  },
+  {
+    "code": "70",
+    "label": "Karaman",
+    "type": "Province"
+  },
+  {
+    "code": "71",
+    "label": "Kirikkale",
+    "type": "Province"
+  },
+  {
+    "code": "72",
+    "label": "Batman",
+    "type": "Province"
+  },
+  {
+    "code": "73",
+    "label": "Sirnak",
+    "type": "Province"
+  },
+  {
+    "code": "74",
+    "label": "Bartin",
+    "type": "Province"
+  },
+  {
+    "code": "75",
+    "label": "Ardahan",
+    "type": "Province"
+  },
+  {
+    "code": "76",
+    "label": "Igdir",
+    "type": "Province"
+  },
+  {
+    "code": "77",
+    "label": "Yalova",
+    "type": "Province"
+  },
+  {
+    "code": "78",
+    "label": "Karabuk",
+    "type": "Province"
+  },
+  {
+    "code": "79",
+    "label": "Kilis",
+    "type": "Province"
+  },
+  {
+    "code": "80",
+    "label": "Osmaniye",
+    "type": "Province"
+  },
+  {
+    "code": "81",
+    "label": "Düzce",
+    "type": "Province"
+  }
+]

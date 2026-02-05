@@ -1,0 +1,576 @@
+[
+  {
+    "locationCode": "AQJ",
+    "label": "Acajutla",
+    "function": "13"
+  },
+  {
+    "locationCode": "EZA",
+    "label": "Aguilares",
+    "subdivisionCode": "SS",
+    "function": "6",
+    "lat": 13.95,
+    "lng": -89.183333
+  },
+  {
+    "locationCode": "ACN",
+    "label": "Ahuachapán",
+    "labelWithDiacritics": "Ahuachapan",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": -89.85
+  },
+  {
+    "locationCode": "CUS",
+    "label": "Antiguo Cuscatlán",
+    "subdivisionCode": "LI",
+    "labelWithDiacritics": "Antiguo Cuscatlan",
+    "function": "36",
+    "lat": 13.666667,
+    "lng": -89.233333
+  },
+  {
+    "locationCode": "APO",
+    "label": "Apopa",
+    "subdivisionCode": "SS",
+    "function": "16",
+    "lat": 13.8,
+    "lng": -89.166667
+  },
+  {
+    "locationCode": "SSO",
+    "label": "Armenia",
+    "subdivisionCode": "SO",
+    "function": "16",
+    "lat": 13.733333,
+    "lng": 89.483333
+  },
+  {
+    "locationCode": "ATE",
+    "label": "Ateos",
+    "subdivisionCode": "LI",
+    "function": "3",
+    "lat": 13.733333,
+    "lng": -89.433333
+  },
+  {
+    "locationCode": "AYE",
+    "label": "Ayutuxtepeque",
+    "subdivisionCode": "SS",
+    "function": "23",
+    "lat": 13.733333,
+    "lng": -89.2
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belfast",
+    "subdivisionCode": "SM",
+    "function": "16"
+  },
+  {
+    "locationCode": "BER",
+    "label": "Berlin",
+    "function": "3",
+    "lat": 13.5,
+    "lng": -88.533333
+  },
+  {
+    "locationCode": "CSC",
+    "label": "Cara Sucia",
+    "function": "3",
+    "lat": 13.783333,
+    "lng": -90.033333
+  },
+  {
+    "locationCode": "CNG",
+    "label": "Chalatenango",
+    "function": "3",
+    "lat": 14.033333,
+    "lng": -88.933333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chalchuapa",
+    "subdivisionCode": "AH",
+    "function": "3",
+    "lat": 13.983333,
+    "lng": -89.666667
+  },
+  {
+    "locationCode": "CHQ",
+    "label": "Chapeltique",
+    "subdivisionCode": "SM",
+    "function": "3",
+    "lat": 13.633333,
+    "lng": -88.266667
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chinameca",
+    "subdivisionCode": "SM",
+    "function": "6",
+    "lat": 13.5,
+    "lng": -88.35
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Ciudad Arce",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 13.833333,
+    "lng": -89.433333
+  },
+  {
+    "locationCode": "CIB",
+    "label": "Ciudad Barrios",
+    "subdivisionCode": "SM",
+    "function": "3",
+    "lat": 13.766667,
+    "lng": -88.266667
+  },
+  {
+    "locationCode": "CJP",
+    "label": "Cojutepeque",
+    "subdivisionCode": "CU",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": -88.933333
+  },
+  {
+    "locationCode": "COL",
+    "label": "Colón",
+    "subdivisionCode": "LI",
+    "labelWithDiacritics": "Colon",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": -89.366667
+  },
+  {
+    "locationCode": "CPL",
+    "label": "Comalapa",
+    "subdivisionCode": "CH",
+    "function": "3",
+    "lat": 14.133333,
+    "lng": -88.95
+  },
+  {
+    "locationCode": "EZB",
+    "label": "Cutuco",
+    "function": "6",
+    "lat": 13.316667,
+    "lng": -87.816667
+  },
+  {
+    "locationCode": "DEL",
+    "label": "Delgado",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": -89.166667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "El Manzanillo",
+    "subdivisionCode": "SM",
+    "function": "16"
+  },
+  {
+    "locationCode": "EPN",
+    "label": "El Paisnal",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": 13.966667,
+    "lng": -89.216667
+  },
+  {
+    "locationCode": "EPL",
+    "label": "El Pedregal",
+    "function": "3",
+    "lat": 13.5,
+    "lng": -88.866667
+  },
+  {
+    "locationCode": "EPY",
+    "label": "El Poy",
+    "subdivisionCode": "CH",
+    "function": "3",
+    "lat": 14.366667,
+    "lng": -89.216667
+  },
+  {
+    "locationCode": "ROS",
+    "label": "El Rosario",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": 13.5,
+    "lng": -89.033333
+  },
+  {
+    "locationCode": "ELS",
+    "label": "El Salvador",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 13.2,
+    "lng": -87.7
+  },
+  {
+    "locationCode": "ILB",
+    "label": "Ilobasco",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 13.85,
+    "lng": -88.85
+  },
+  {
+    "locationCode": "EZC",
+    "label": "Ilopango",
+    "subdivisionCode": "SS",
+    "function": "6",
+    "lat": 13.7,
+    "lng": -89.1
+  },
+  {
+    "locationCode": "IZO",
+    "label": "Izalco",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 13.733333,
+    "lng": -89.666667
+  },
+  {
+    "locationCode": "LLD",
+    "label": "La Libertad",
+    "subdivisionCode": "LI",
+    "function": "13",
+    "lat": 13.483333,
+    "lng": -89.316667
+  },
+  {
+    "locationCode": "LAP",
+    "label": "La Paz",
+    "function": "7"
+  },
+  {
+    "locationCode": "LUN",
+    "label": "La Union",
+    "function": "1"
+  },
+  {
+    "locationCode": "EZD",
+    "label": "Lourdes",
+    "subdivisionCode": "LI",
+    "function": "6",
+    "lat": 13.716667,
+    "lng": -89.366667
+  },
+  {
+    "locationCode": "MJS",
+    "label": "Mejicanos",
+    "subdivisionCode": "SS",
+    "function": "23",
+    "lat": 13.733333,
+    "lng": -89.2
+  },
+  {
+    "locationCode": "MET",
+    "label": "Metapán",
+    "labelWithDiacritics": "Metapan",
+    "function": "3",
+    "lat": 14.333333,
+    "lng": -89.45
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Miramar",
+    "subdivisionCode": "AH",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUE",
+    "label": "Moncagua",
+    "subdivisionCode": "AH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NHZ",
+    "label": "Nahuizalco",
+    "subdivisionCode": "SO",
+    "function": "1"
+  },
+  {
+    "locationCode": "NEJ",
+    "label": "Nejapa",
+    "subdivisionCode": "AH",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": -89.85
+  },
+  {
+    "locationCode": "NCN",
+    "label": "Nueva Concepción",
+    "subdivisionCode": "CH",
+    "labelWithDiacritics": "Nueva Concepcion",
+    "function": "3",
+    "lat": 14.133333,
+    "lng": -89.3
+  },
+  {
+    "locationCode": "NSS",
+    "label": "Nueva San Salvador",
+    "subdivisionCode": "LI",
+    "function": "3",
+    "lat": 13.666667,
+    "lng": -89.266667
+  },
+  {
+    "locationCode": "NCU",
+    "label": "Nuevo Cuscatlan",
+    "subdivisionCode": "LI",
+    "function": "16",
+    "lat": 13.633333,
+    "lng": -89.25
+  },
+  {
+    "locationCode": "OLO",
+    "label": "Olocuilta",
+    "function": "3",
+    "lat": 13.566667,
+    "lng": -89.116667
+  },
+  {
+    "locationCode": "OSI",
+    "label": "Osicala",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 13.8,
+    "lng": -88.15
+  },
+  {
+    "locationCode": "PDC",
+    "label": "Paso de la Ceiba",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": -89.433333
+  },
+  {
+    "locationCode": "QUE",
+    "label": "Quezaltepeque",
+    "subdivisionCode": "LI",
+    "function": "3",
+    "lat": 13.833333,
+    "lng": -89.266667
+  },
+  {
+    "locationCode": "SAC",
+    "label": "Sacacoyo",
+    "subdivisionCode": "LI",
+    "function": "6",
+    "lat": 13.733333,
+    "lng": -89.466667
+  },
+  {
+    "locationCode": "SBO",
+    "label": "San Bartolo",
+    "subdivisionCode": "CH",
+    "function": "3",
+    "lat": 14.066667,
+    "lng": -89.016667
+  },
+  {
+    "locationCode": "SBA",
+    "label": "San Bartolo",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": 13.616667,
+    "lng": -88.966667
+  },
+  {
+    "locationCode": "SBT",
+    "label": "San Bartolo",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": -89.083333
+  },
+  {
+    "locationCode": "SBI",
+    "label": "San Bartolo Ichanmico",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 13.55,
+    "lng": -88.7
+  },
+  {
+    "locationCode": "ABP",
+    "label": "San Bartolome Perulapia",
+    "subdivisionCode": "CU",
+    "function": "3",
+    "lat": 13.75,
+    "lng": -13.75
+  },
+  {
+    "locationCode": "SFG",
+    "label": "San Francisco Gotera",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 13.7,
+    "lng": -88.1
+  },
+  {
+    "locationCode": "SIS",
+    "label": "San Isidro",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 13.833333,
+    "lng": -88.716667
+  },
+  {
+    "locationCode": "SJO",
+    "label": "San Juan Opico",
+    "subdivisionCode": "LI",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": -89.366667
+  },
+  {
+    "locationCode": "SLT",
+    "label": "San Luis Talpa",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": 13.466667,
+    "lng": -89.083333
+  },
+  {
+    "locationCode": "MOS",
+    "label": "San Marcos",
+    "function": "6",
+    "lat": 13.583333,
+    "lng": -89.216667
+  },
+  {
+    "locationCode": "SMG",
+    "label": "San Miguel",
+    "function": "3",
+    "lat": 13.466667,
+    "lng": -88.166667
+  },
+  {
+    "locationCode": "SPT",
+    "label": "San Pablo Tacachico",
+    "function": "3",
+    "lat": 13.966667,
+    "lng": -89.333333
+  },
+  {
+    "locationCode": "SAL",
+    "label": "San Salvador",
+    "function": "145"
+  },
+  {
+    "locationCode": "SVE",
+    "label": "San Vicente",
+    "function": "3",
+    "lat": 13.633333,
+    "lng": -88.783333
+  },
+  {
+    "locationCode": "STA",
+    "label": "Santa Ana",
+    "function": "5"
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Santa Rosa De Lima",
+    "subdivisionCode": "UN",
+    "function": "3",
+    "lat": 13.616667,
+    "lng": -87.883333
+  },
+  {
+    "locationCode": "EZE",
+    "label": "Santa Tecla",
+    "subdivisionCode": "LI",
+    "function": "6",
+    "lat": 13.566667,
+    "lng": -89.333333
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Santiago de María",
+    "labelWithDiacritics": "Santiago de Maria",
+    "function": "3",
+    "lat": 13.483333,
+    "lng": -88.45
+  },
+  {
+    "locationCode": "STO",
+    "label": "Santo Tomás",
+    "labelWithDiacritics": "Santo Tomas",
+    "function": "3",
+    "lat": 13.65,
+    "lng": -89.133333
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Sitio del Nino",
+    "subdivisionCode": "LI",
+    "function": "36",
+    "lat": 13.8,
+    "lng": -89.35
+  },
+  {
+    "locationCode": "SST",
+    "label": "Sonsonate",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": -89.716667
+  },
+  {
+    "locationCode": "SOY",
+    "label": "Soyapango",
+    "function": "23",
+    "lat": 13.7,
+    "lng": -89.15
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Suchitoto",
+    "subdivisionCode": "CU",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": -89.016667
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tenancingo",
+    "subdivisionCode": "CU",
+    "function": "3",
+    "lat": 13.833333,
+    "lng": -88.983333
+  },
+  {
+    "locationCode": "USU",
+    "label": "Usulután",
+    "labelWithDiacritics": "Usulutan",
+    "function": "3",
+    "lat": 13.333333,
+    "lng": -88.433333
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Zacatecoluca",
+    "subdivisionCode": "PA",
+    "function": "23",
+    "lat": 13.5,
+    "lng": -88.866667
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Zaragoza",
+    "subdivisionCode": "LI",
+    "function": "3",
+    "lat": 13.583333,
+    "lng": -89.283333
+  }
+]

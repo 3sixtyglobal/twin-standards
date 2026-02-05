@@ -1,0 +1,27 @@
+[
+  {
+    "code": "81",
+    "label": "Nordjylland",
+    "type": "Region"
+  },
+  {
+    "code": "82",
+    "label": "Midtjylland",
+    "type": "Region"
+  },
+  {
+    "code": "83",
+    "label": "Syddanmark",
+    "type": "Region"
+  },
+  {
+    "code": "84",
+    "label": "Hovedstaden",
+    "type": "Region"
+  },
+  {
+    "code": "85",
+    "label": "Sjælland",
+    "type": "Region"
+  }
+]

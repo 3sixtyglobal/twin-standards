@@ -1,0 +1,434 @@
+[
+  {
+    "locationCode": "ABK",
+    "label": "Abeka",
+    "subdivisionCode": "AA",
+    "function": "3",
+    "lat": 5.6,
+    "lng": -0.233333
+  },
+  {
+    "locationCode": "ABO",
+    "label": "Abor",
+    "subdivisionCode": "TV",
+    "function": "3",
+    "lat": 6.05,
+    "lng": 0.866667
+  },
+  {
+    "locationCode": "ACC",
+    "label": "Accra",
+    "function": "45"
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Achimota",
+    "function": "6",
+    "lat": 5.616667,
+    "lng": -0.233333
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Ada",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANN",
+    "label": "Ahinsan",
+    "subdivisionCode": "AH",
+    "function": "6",
+    "lat": 6.333333,
+    "lng": -1.516667
+  },
+  {
+    "locationCode": "ASB",
+    "label": "Akosombo",
+    "subdivisionCode": "EP",
+    "function": "3",
+    "lat": 6.3,
+    "lng": 0.5
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amasaman",
+    "function": "6",
+    "lat": 5.7,
+    "lng": -0.3
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asamankese",
+    "function": "3",
+    "lat": 5.866667,
+    "lng": -0.666667
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Ashaiman",
+    "subdivisionCode": "AA",
+    "function": "6",
+    "lat": 5.7,
+    "lng": -0.333333
+  },
+  {
+    "locationCode": "AUR",
+    "label": "Aura",
+    "function": "1"
+  },
+  {
+    "locationCode": "AXI",
+    "label": "Axim",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Benin",
+    "subdivisionCode": "CP",
+    "function": "3",
+    "lat": 5.6,
+    "lng": -1
+  },
+  {
+    "locationCode": "BKM",
+    "label": "Berekum",
+    "function": "3",
+    "lat": 7.45,
+    "lng": -2.566667
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogoso",
+    "subdivisionCode": "WP",
+    "function": "3",
+    "lat": 5.566667,
+    "lng": -2.016667
+  },
+  {
+    "locationCode": "BTG",
+    "label": "Bolgatanga",
+    "subdivisionCode": "UE",
+    "function": "6",
+    "lat": 10.783333,
+    "lng": -0.85
+  },
+  {
+    "locationCode": "NPU",
+    "label": "Buipe",
+    "subdivisionCode": "NP",
+    "function": "3",
+    "lat": 8.783333,
+    "lng": -1.533333
+  },
+  {
+    "locationCode": "CCT",
+    "label": "Cape Coast",
+    "function": "1"
+  },
+  {
+    "locationCode": "EJU",
+    "label": "Ejura",
+    "function": "3",
+    "lat": 7.366667,
+    "lng": -1.366667
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gumani",
+    "subdivisionCode": "NP",
+    "function": "6",
+    "lat": 9.45,
+    "lng": -0.766667
+  },
+  {
+    "locationCode": "HOV",
+    "label": "Ho",
+    "subdivisionCode": "TV",
+    "function": "3",
+    "lat": 6.6,
+    "lng": 0.466667
+  },
+  {
+    "locationCode": "JUB",
+    "label": "Jubilee FPSO",
+    "function": "7",
+    "lat": 4.616667,
+    "lng": -2.916667
+  },
+  {
+    "locationCode": "JUM",
+    "label": "Jumapo",
+    "subdivisionCode": "EP",
+    "function": "6",
+    "lat": 6.15,
+    "lng": -0.3
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kasoa",
+    "subdivisionCode": "CP",
+    "function": "3",
+    "lat": 5.516667,
+    "lng": -0.466667
+  },
+  {
+    "locationCode": "KTM",
+    "label": "Katamanso",
+    "subdivisionCode": "AA",
+    "function": "6",
+    "lat": 5.733333,
+    "lng": -0.833333
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Keta",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOF",
+    "label": "Koforidua",
+    "function": "23",
+    "lat": 6.083333,
+    "lng": -0.25
+  },
+  {
+    "locationCode": "KKL",
+    "label": "Kokomlemle",
+    "subdivisionCode": "AA",
+    "function": "6",
+    "lat": 5.566667,
+    "lng": -0.216667
+  },
+  {
+    "locationCode": "KGO",
+    "label": "Konongo",
+    "function": "3",
+    "lat": 6.616667,
+    "lng": -1.2
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Kotoka",
+    "function": "5"
+  },
+  {
+    "locationCode": "KPA",
+    "label": "Kpandu",
+    "function": "3",
+    "lat": 7,
+    "lng": 0.283333
+  },
+  {
+    "locationCode": "KPE",
+    "label": "Kpetoe",
+    "function": "3",
+    "lat": 6.55,
+    "lng": 0.683333
+  },
+  {
+    "locationCode": "KMS",
+    "label": "Kumasi",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Kumasi",
+    "subdivisionCode": "AH",
+    "function": "3",
+    "lat": 6.683333,
+    "lng": -1.616667
+  },
+  {
+    "locationCode": "KMU",
+    "label": "Kumawu",
+    "function": "3",
+    "lat": 6.9,
+    "lng": -1.266667
+  },
+  {
+    "locationCode": "KYB",
+    "label": "Kyebi",
+    "subdivisionCode": "EP",
+    "function": "23",
+    "lat": 6.166667,
+    "lng": -0.55
+  },
+  {
+    "locationCode": "LAW",
+    "label": "Lawra",
+    "subdivisionCode": "UW",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -2.866667
+  },
+  {
+    "locationCode": "LEG",
+    "label": "Legon",
+    "function": "3",
+    "lat": 5.65,
+    "lng": -0.2
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madina",
+    "subdivisionCode": "AA",
+    "function": "3",
+    "lat": 5.683333,
+    "lng": -0.166667
+  },
+  {
+    "locationCode": "MIM",
+    "label": "Mim",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": 6.9,
+    "lng": -2.566667
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Navrongo",
+    "subdivisionCode": "UE",
+    "function": "3",
+    "lat": 10.883333,
+    "lng": -0.25
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nsawam",
+    "function": "23",
+    "lat": 5.8,
+    "lng": -0.35
+  },
+  {
+    "locationCode": "OBU",
+    "label": "Obuasi",
+    "function": "23",
+    "lat": 6.2,
+    "lng": -1.666667
+  },
+  {
+    "locationCode": "ODA",
+    "label": "Oda",
+    "function": "3",
+    "lat": 5.916667,
+    "lng": -6.5
+  },
+  {
+    "locationCode": "ODK",
+    "label": "Odorko",
+    "subdivisionCode": "AA",
+    "function": "3",
+    "lat": 5.583333,
+    "lng": -0.266667
+  },
+  {
+    "locationCode": "SKM",
+    "label": "Sakumono",
+    "function": "6",
+    "lat": 5.616667,
+    "lng": -0.05
+  },
+  {
+    "locationCode": "SPD",
+    "label": "Saltpond",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEK",
+    "label": "Sekondi",
+    "function": "1"
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shama",
+    "function": "1"
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Somanya",
+    "subdivisionCode": "EP",
+    "function": "3",
+    "lat": 6.1,
+    "lng": -0.166667
+  },
+  {
+    "locationCode": "NYI",
+    "label": "Sunyani",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKD",
+    "label": "Takoradi",
+    "function": "145"
+  },
+  {
+    "locationCode": "TML",
+    "label": "Tamale",
+    "function": "4"
+  },
+  {
+    "locationCode": "TWA",
+    "label": "Tarkwa",
+    "subdivisionCode": "AH",
+    "function": "3",
+    "lat": 5.3,
+    "lng": -1.983333
+  },
+  {
+    "locationCode": "T8G",
+    "label": "Techiman",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 7.583333,
+    "lng": -1.933333
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Tema",
+    "function": "1"
+  },
+  {
+    "locationCode": "TES",
+    "label": "Tesano",
+    "subdivisionCode": "AA",
+    "function": "6",
+    "lat": 5.6,
+    "lng": -0.216667
+  },
+  {
+    "locationCode": "TSH",
+    "label": "Teshie",
+    "subdivisionCode": "AA",
+    "function": "23",
+    "lat": 5.583333,
+    "lng": -0.1
+  },
+  {
+    "locationCode": "WA2",
+    "label": "Wa",
+    "subdivisionCode": "UW",
+    "function": "3",
+    "lat": 10.066667,
+    "lng": -2.5
+  },
+  {
+    "locationCode": "WWL",
+    "label": "Walewale",
+    "subdivisionCode": "NP",
+    "function": "3",
+    "lat": 10.35,
+    "lng": -0.8
+  },
+  {
+    "locationCode": "WEI",
+    "label": "Weija",
+    "subdivisionCode": "AA",
+    "function": "3",
+    "lat": 5.566667,
+    "lng": -0.333333
+  },
+  {
+    "locationCode": "WEA",
+    "label": "Winneba",
+    "function": "1"
+  }
+]

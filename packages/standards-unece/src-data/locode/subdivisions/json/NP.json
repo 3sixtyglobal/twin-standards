@@ -1,0 +1,37 @@
+[
+  {
+    "code": "P1",
+    "label": "Pradesh 1",
+    "type": "Province"
+  },
+  {
+    "code": "P2",
+    "label": "Madhesh",
+    "type": "Province"
+  },
+  {
+    "code": "P3",
+    "label": "Bagmati",
+    "type": "Province"
+  },
+  {
+    "code": "P4",
+    "label": "Gandaki",
+    "type": "Province"
+  },
+  {
+    "code": "P5",
+    "label": "Lumbini",
+    "type": "Province"
+  },
+  {
+    "code": "P6",
+    "label": "Karnali",
+    "type": "Province"
+  },
+  {
+    "code": "P7",
+    "label": "Sudurpashchim",
+    "type": "Province"
+  }
+]

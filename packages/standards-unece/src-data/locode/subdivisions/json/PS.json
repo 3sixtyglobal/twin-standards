@@ -1,0 +1,77 @@
+[
+  {
+    "code": "BTH",
+    "label": "Bethlehem",
+    "type": "Governorate"
+  },
+  {
+    "code": "DEB",
+    "label": "Deir El Balah",
+    "type": "Governorate"
+  },
+  {
+    "code": "GZA",
+    "label": "Gaza",
+    "type": "Governorate"
+  },
+  {
+    "code": "HBN",
+    "label": "Hebron",
+    "type": "Governorate"
+  },
+  {
+    "code": "JEM",
+    "label": "Jerusalem",
+    "type": "Governorate"
+  },
+  {
+    "code": "JRH",
+    "label": "Jericho and Al Aghwar",
+    "type": "Governorate"
+  },
+  {
+    "code": "KYS",
+    "label": "Khan Yunis",
+    "type": "Governorate"
+  },
+  {
+    "code": "NBS",
+    "label": "Nablus",
+    "type": "Governorate"
+  },
+  {
+    "code": "NGZ",
+    "label": "North Gaza",
+    "type": "Governorate"
+  },
+  {
+    "code": "QQA",
+    "label": "Qalqilya",
+    "type": "Governorate"
+  },
+  {
+    "code": "RBH",
+    "label": "Ramallah",
+    "type": "Governorate"
+  },
+  {
+    "code": "RFH",
+    "label": "Rafah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SLT",
+    "label": "Salfit",
+    "type": "Governorate"
+  },
+  {
+    "code": "TBS",
+    "label": "Tubas",
+    "type": "Governorate"
+  },
+  {
+    "code": "TKM",
+    "label": "Tulkarm",
+    "type": "Governorate"
+  }
+]

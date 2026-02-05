@@ -1,0 +1,118 @@
+[
+  {
+    "locationCode": "AMV",
+    "label": "Abomey-Calavi",
+    "subdivisionCode": "AQ",
+    "function": "3",
+    "lat": 6.45,
+    "lng": 2.35
+  },
+  {
+    "locationCode": "AGT",
+    "label": "Agbanta",
+    "function": "3",
+    "lat": 6.616667,
+    "lng": 2.45
+  },
+  {
+    "locationCode": "BOH",
+    "label": "Bohicon",
+    "function": "23",
+    "lat": 7.2,
+    "lng": 2.066667
+  },
+  {
+    "locationCode": "COO",
+    "label": "Cotonou",
+    "function": "145"
+  },
+  {
+    "locationCode": "DDJ",
+    "label": "Djidja",
+    "subdivisionCode": "ZO",
+    "function": "3",
+    "lat": 7.333333,
+    "lng": 1.933333
+  },
+  {
+    "locationCode": "DJA",
+    "label": "Djougou",
+    "function": "4"
+  },
+  {
+    "locationCode": "GLA",
+    "label": "Glazoué",
+    "labelWithDiacritics": "Glazoue",
+    "function": "23",
+    "lat": 7.966667,
+    "lng": 2.3
+  },
+  {
+    "locationCode": "KDC",
+    "label": "Kandi",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKS",
+    "label": "Lokossa",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": 6.633333,
+    "lng": 1.716667
+  },
+  {
+    "locationCode": "NAE",
+    "label": "Natitingou",
+    "function": "4"
+  },
+  {
+    "locationCode": "DA3",
+    "label": "Ndali",
+    "subdivisionCode": "BO",
+    "function": "3",
+    "lat": 9.85,
+    "lng": 2.716667
+  },
+  {
+    "locationCode": "OIH",
+    "label": "Ouidah",
+    "subdivisionCode": "AQ",
+    "function": "3",
+    "lat": 6.366667,
+    "lng": 2.083333
+  },
+  {
+    "locationCode": "PKO",
+    "label": "Parakou",
+    "function": "4"
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Porto-Novo",
+    "subdivisionCode": "OU",
+    "function": "123",
+    "lat": 6.483333,
+    "lng": 2.616667
+  },
+  {
+    "locationCode": "SVF",
+    "label": "Savé",
+    "labelWithDiacritics": "Save",
+    "function": "4",
+    "lat": 8.033333,
+    "lng": 2.483333
+  },
+  {
+    "locationCode": "SEM",
+    "label": "Seme Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanguiéta",
+    "labelWithDiacritics": "Tanguieta",
+    "function": "3",
+    "lat": 10.616667,
+    "lng": 1.266667
+  }
+]

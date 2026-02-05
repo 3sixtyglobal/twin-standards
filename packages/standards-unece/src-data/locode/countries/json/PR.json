@@ -1,0 +1,615 @@
+[
+  {
+    "locationCode": "ADJ",
+    "label": "Adjuntas",
+    "function": "3"
+  },
+  {
+    "locationCode": "AGU",
+    "label": "Aguada",
+    "function": "0"
+  },
+  {
+    "locationCode": "BQN",
+    "label": "Aguadilla",
+    "function": "14"
+  },
+  {
+    "locationCode": "ABS",
+    "label": "Aguas Buenas",
+    "function": "3",
+    "lat": 18.25,
+    "lng": -66.1
+  },
+  {
+    "locationCode": "A6U",
+    "label": "Aguirre",
+    "function": "3",
+    "lat": 17.95,
+    "lng": -66.216667
+  },
+  {
+    "locationCode": "AIB",
+    "label": "Aibonito",
+    "function": "3",
+    "lat": 18.133333,
+    "lng": -66.25
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anasco",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Arecibo",
+    "function": "14"
+  },
+  {
+    "locationCode": "ARR",
+    "label": "Arroyo",
+    "function": "13",
+    "lat": 17.966667,
+    "lng": -66.066667
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barceloneta",
+    "function": "3"
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Barranquitas",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Bayamon",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOQ",
+    "label": "Boquerón",
+    "labelWithDiacritics": "Boqueron",
+    "function": "3",
+    "lat": 18.016667,
+    "lng": -67.166667
+  },
+  {
+    "locationCode": "CBJ",
+    "label": "Cabo Rojo",
+    "function": "23",
+    "lat": 18.083333,
+    "lng": -67.133333
+  },
+  {
+    "locationCode": "CAG",
+    "label": "Caguas",
+    "function": "3",
+    "lat": 18.233333,
+    "lng": -66.05
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Camuy",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Canovanas",
+    "function": "3",
+    "lat": 18.383333,
+    "lng": -65.9
+  },
+  {
+    "locationCode": "CAH",
+    "label": "Caparra Hills",
+    "function": "3",
+    "lat": 18.4,
+    "lng": -66.1
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carolina",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Catano",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAY",
+    "label": "Cayey",
+    "function": "3"
+  },
+  {
+    "locationCode": "CEI",
+    "label": "Ceiba",
+    "function": "3",
+    "lat": 18.233333,
+    "lng": -65.616667
+  },
+  {
+    "locationCode": "CLE",
+    "label": "Ciales",
+    "function": "3",
+    "lat": 18.333333,
+    "lng": -66.466667
+  },
+  {
+    "locationCode": "CID",
+    "label": "Cidra",
+    "function": "3",
+    "lat": 18.183333,
+    "lng": -66.166667
+  },
+  {
+    "locationCode": "COA",
+    "label": "Coamo",
+    "function": "3"
+  },
+  {
+    "locationCode": "COE",
+    "label": "Comerio",
+    "function": "3",
+    "lat": 18.216667,
+    "lng": -66.233333
+  },
+  {
+    "locationCode": "COR",
+    "label": "Corozal",
+    "function": "3",
+    "lat": 18.333333,
+    "lng": -66.316667
+  },
+  {
+    "locationCode": "CLL",
+    "label": "Coto Laurel",
+    "function": "3",
+    "lat": 18.033333,
+    "lng": -66.55
+  },
+  {
+    "locationCode": "CPX",
+    "label": "Culebra",
+    "function": "4"
+  },
+  {
+    "locationCode": "CUP",
+    "label": "Cupey, San Juan",
+    "function": "0"
+  },
+  {
+    "locationCode": "DDP",
+    "label": "Dorado",
+    "function": "34"
+  },
+  {
+    "locationCode": "FAJ",
+    "label": "Fajardo",
+    "function": "4"
+  },
+  {
+    "locationCode": "FLO",
+    "label": "Florida",
+    "function": "3",
+    "lat": 18.35,
+    "lng": -66.55
+  },
+  {
+    "locationCode": "FTB",
+    "label": "Fort Buchanan",
+    "function": "3",
+    "lat": 18.4,
+    "lng": -66.116667
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guabano",
+    "function": "0"
+  },
+  {
+    "locationCode": "GUX",
+    "label": "Guanica",
+    "function": "1",
+    "lat": 17.966667,
+    "lng": -66.916667
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Guayama",
+    "function": "0"
+  },
+  {
+    "locationCode": "GUY",
+    "label": "Guayanilla",
+    "function": "13",
+    "lat": 17.966667,
+    "lng": -66.816667
+  },
+  {
+    "locationCode": "GUO",
+    "label": "Guaynabo",
+    "function": "0"
+  },
+  {
+    "locationCode": "GUR",
+    "label": "Gurabo",
+    "function": "0"
+  },
+  {
+    "locationCode": "HTL",
+    "label": "Hatillo",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRE",
+    "label": "Hato Rey",
+    "function": "0"
+  },
+  {
+    "locationCode": "HDE",
+    "label": "Hato Tejas",
+    "function": "3",
+    "lat": 18.4,
+    "lng": -66.183333
+  },
+  {
+    "locationCode": "HUM",
+    "label": "Hormigueros",
+    "function": "3",
+    "lat": 18.133333,
+    "lng": -67.116667
+  },
+  {
+    "locationCode": "HUC",
+    "label": "Humacao",
+    "function": "34"
+  },
+  {
+    "locationCode": "ISB",
+    "label": "Isabela",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAY",
+    "label": "Jayuya",
+    "function": "3"
+  },
+  {
+    "locationCode": "JIC",
+    "label": "Jicome",
+    "function": "0"
+  },
+  {
+    "locationCode": "JDI",
+    "label": "Juana Diaz",
+    "function": "0"
+  },
+  {
+    "locationCode": "JUN",
+    "label": "Juncos",
+    "function": "3"
+  },
+  {
+    "locationCode": "LJS",
+    "label": "Lajas",
+    "function": "0"
+  },
+  {
+    "locationCode": "LAR",
+    "label": "Lares",
+    "function": "3",
+    "lat": 18.283333,
+    "lng": -66.866667
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Las Mareas (Guayama)",
+    "function": "1"
+  },
+  {
+    "locationCode": "LMA",
+    "label": "Las Marias",
+    "function": "3",
+    "lat": 18.25,
+    "lng": -66.983333
+  },
+  {
+    "locationCode": "LPS",
+    "label": "Las Piedras",
+    "function": "3",
+    "lat": 18.183333,
+    "lng": -65.866667
+  },
+  {
+    "locationCode": "LPN",
+    "label": "Las Pinas",
+    "function": "36",
+    "lat": 18.25,
+    "lng": -65.916667
+  },
+  {
+    "locationCode": "LOI",
+    "label": "Loíza",
+    "labelWithDiacritics": "Loiza",
+    "function": "3",
+    "lat": 18.416667,
+    "lng": -65.866667
+  },
+  {
+    "locationCode": "LUQ",
+    "label": "Luquillo",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manati",
+    "function": "3",
+    "lat": 18.433333,
+    "lng": -66.483333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Maricao",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Maunabo",
+    "function": "3",
+    "lat": 18,
+    "lng": -65.883333
+  },
+  {
+    "locationCode": "MAZ",
+    "label": "Mayagüez",
+    "labelWithDiacritics": "Mayaguez",
+    "function": "14"
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Miramar",
+    "function": "0"
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Moca",
+    "function": "3",
+    "lat": 18.4,
+    "lng": -67.116667
+  },
+  {
+    "locationCode": "MRV",
+    "label": "Morovis",
+    "function": "3",
+    "lat": 18.1,
+    "lng": -66.166667
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Naguabo",
+    "function": "3"
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Naranjito",
+    "function": "3",
+    "lat": 18.3,
+    "lng": -66.233333
+  },
+  {
+    "locationCode": "NXL",
+    "label": "Noxell",
+    "function": "0"
+  },
+  {
+    "locationCode": "OPO",
+    "label": "Orocovis",
+    "function": "3",
+    "lat": 18.216667,
+    "lng": -66.383333
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Patillas",
+    "function": "3",
+    "lat": 18,
+    "lng": -66
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Penuelas",
+    "function": "0"
+  },
+  {
+    "locationCode": "PSE",
+    "label": "Ponce",
+    "function": "14"
+  },
+  {
+    "locationCode": "PDT",
+    "label": "Puerta de Tierra",
+    "function": "3",
+    "lat": 18.45,
+    "lng": -66.083333
+  },
+  {
+    "locationCode": "PJO",
+    "label": "Puerto de Jobos",
+    "function": "1",
+    "lat": 17.95,
+    "lng": -66.183333
+  },
+  {
+    "locationCode": "PNU",
+    "label": "Puerto Nuevo",
+    "function": "0"
+  },
+  {
+    "locationCode": "PYA",
+    "label": "Puerto Yabucoa",
+    "function": "1",
+    "lat": 18.05,
+    "lng": -65.833333
+  },
+  {
+    "locationCode": "QUE",
+    "label": "Quebradillas",
+    "function": "3",
+    "lat": 18.466667,
+    "lng": -66.933333
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Rincon",
+    "function": "3",
+    "lat": 18.05,
+    "lng": -66.55
+  },
+  {
+    "locationCode": "RGD",
+    "label": "Río Grande",
+    "labelWithDiacritics": "Rio Grande",
+    "function": "36",
+    "lat": 18.366667,
+    "lng": -65.816667
+  },
+  {
+    "locationCode": "RPS",
+    "label": "Rio Piedras",
+    "function": "0"
+  },
+  {
+    "locationCode": "NRR",
+    "label": "Roosevelt Roads",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGR",
+    "label": "Sabana Grande",
+    "function": "0"
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Sabana Seca",
+    "function": "3",
+    "lat": 18.433333,
+    "lng": -66.25
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salinas",
+    "function": "1",
+    "lat": 17.966667,
+    "lng": -66.25
+  },
+  {
+    "locationCode": "SGM",
+    "label": "San Germán",
+    "labelWithDiacritics": "San German",
+    "function": "3",
+    "lat": 18.066667,
+    "lng": -67.033333
+  },
+  {
+    "locationCode": "SJU",
+    "label": "San Juan",
+    "function": "145",
+    "lat": 18.45,
+    "lng": -66.083333
+  },
+  {
+    "locationCode": "SLP",
+    "label": "San Lorenzo",
+    "function": "3",
+    "lat": 18.183333,
+    "lng": -65.966667
+  },
+  {
+    "locationCode": "SBS",
+    "label": "San Sebastián",
+    "labelWithDiacritics": "San Sebastian",
+    "function": "1",
+    "lat": 18.3,
+    "lng": -66.966667
+  },
+  {
+    "locationCode": "SIS",
+    "label": "Santa Isabel",
+    "function": "3",
+    "lat": 17.95,
+    "lng": -66.4
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Toa Alta",
+    "function": "3",
+    "lat": 18.383333,
+    "lng": -66.25
+  },
+  {
+    "locationCode": "TBJ",
+    "label": "Toa Baja",
+    "function": "0"
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Tottillas",
+    "function": "0"
+  },
+  {
+    "locationCode": "TRJ",
+    "label": "Trujillo Alto",
+    "function": "3",
+    "lat": 18.35,
+    "lng": -66
+  },
+  {
+    "locationCode": "TRU",
+    "label": "Trujillo Bajo, Carolina",
+    "function": "36",
+    "lat": 18.366667,
+    "lng": -65.95
+  },
+  {
+    "locationCode": "UTU",
+    "label": "Utuado",
+    "function": "3",
+    "lat": 18.266667,
+    "lng": -66.7
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Vega Alta",
+    "function": "3"
+  },
+  {
+    "locationCode": "VBA",
+    "label": "Vega Baja",
+    "function": "3"
+  },
+  {
+    "locationCode": "VQS",
+    "label": "Vieques",
+    "function": "4"
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Villalba",
+    "function": "3",
+    "lat": 18.116667,
+    "lng": -66.483333
+  },
+  {
+    "locationCode": "YAB",
+    "label": "Yabucoa",
+    "function": "3"
+  },
+  {
+    "locationCode": "YAU",
+    "label": "Yauco",
+    "function": "3"
+  }
+]

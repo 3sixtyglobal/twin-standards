@@ -1,0 +1,14 @@
+[
+  {
+    "locationCode": "XCH",
+    "label": "Christmas Island",
+    "function": "45"
+  },
+  {
+    "locationCode": "FFC",
+    "label": "Flying Fish Cove",
+    "function": "1",
+    "lat": -10.416667,
+    "lng": 105.716667
+  }
+]

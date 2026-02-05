@@ -1,0 +1,92 @@
+[
+  {
+    "code": "AN",
+    "label": "AI Anbar",
+    "type": "Governorate"
+  },
+  {
+    "code": "AR",
+    "label": "Arbil",
+    "type": "Governorate"
+  },
+  {
+    "code": "BA",
+    "label": "Al Basrah",
+    "type": "Governorate"
+  },
+  {
+    "code": "BB",
+    "label": "Babil",
+    "type": "Governorate"
+  },
+  {
+    "code": "BG",
+    "label": "Baghdad",
+    "type": "Governorate"
+  },
+  {
+    "code": "DA",
+    "label": "Dahuk",
+    "type": "Governorate"
+  },
+  {
+    "code": "DI",
+    "label": "Diyalá",
+    "type": "Governorate"
+  },
+  {
+    "code": "DQ",
+    "label": "Dhi Qar",
+    "type": "Governorate"
+  },
+  {
+    "code": "KA",
+    "label": "Karbala'",
+    "type": "Governorate"
+  },
+  {
+    "code": "KI",
+    "label": "Kirkuk",
+    "type": "Governorate"
+  },
+  {
+    "code": "MA",
+    "label": "Maysan",
+    "type": "Governorate"
+  },
+  {
+    "code": "MU",
+    "label": "AI Muthanná",
+    "type": "Governorate"
+  },
+  {
+    "code": "NA",
+    "label": "An Najaf",
+    "type": "Governorate"
+  },
+  {
+    "code": "NI",
+    "label": "Ninawá",
+    "type": "Governorate"
+  },
+  {
+    "code": "QA",
+    "label": "Al Qadisiyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SD",
+    "label": "Salah ad Din",
+    "type": "Governorate"
+  },
+  {
+    "code": "SU",
+    "label": "As Sulaymaniyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "WA",
+    "label": "Wasit",
+    "type": "Governorate"
+  }
+]

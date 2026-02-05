@@ -1,0 +1,262 @@
+[
+  {
+    "code": "A",
+    "label": "Alicante / Alacant",
+    "type": "Province"
+  },
+  {
+    "code": "AB",
+    "label": "Albacete",
+    "type": "Province"
+  },
+  {
+    "code": "AL",
+    "label": "Almería",
+    "type": "Province"
+  },
+  {
+    "code": "AV",
+    "label": "Ávila",
+    "type": "Province"
+  },
+  {
+    "code": "B",
+    "label": "Barcelona  [Barcelona]",
+    "type": "Province"
+  },
+  {
+    "code": "BA",
+    "label": "Badajoz",
+    "type": "Province"
+  },
+  {
+    "code": "BI",
+    "label": "Biskaia",
+    "type": "Province"
+  },
+  {
+    "code": "BU",
+    "label": "Burgos",
+    "type": "Province"
+  },
+  {
+    "code": "C",
+    "label": "A Coruña  [La Coruña]",
+    "type": "Province"
+  },
+  {
+    "code": "CA",
+    "label": "Cádiz",
+    "type": "Province"
+  },
+  {
+    "code": "CC",
+    "label": "Cáceres",
+    "type": "Province"
+  },
+  {
+    "code": "CE",
+    "label": "Ceuta",
+    "type": "Autonomous city in North Africa"
+  },
+  {
+    "code": "CO",
+    "label": "Córdoba",
+    "type": "Province"
+  },
+  {
+    "code": "CR",
+    "label": "Ciudad Real",
+    "type": "Province"
+  },
+  {
+    "code": "CS",
+    "label": "Castellón / Castelló",
+    "type": "Province"
+  },
+  {
+    "code": "CU",
+    "label": "Cuenca",
+    "type": "Province"
+  },
+  {
+    "code": "GC",
+    "label": "Las Palmas",
+    "type": "Province"
+  },
+  {
+    "code": "GI",
+    "label": "Girona  [Gerona]",
+    "type": "Province"
+  },
+  {
+    "code": "GR",
+    "label": "Granada",
+    "type": "Province"
+  },
+  {
+    "code": "GU",
+    "label": "Guadalajara",
+    "type": "Province"
+  },
+  {
+    "code": "H",
+    "label": "Huelva",
+    "type": "Province"
+  },
+  {
+    "code": "HU",
+    "label": "Huesca",
+    "type": "Province"
+  },
+  {
+    "code": "J",
+    "label": "Jaén",
+    "type": "Province"
+  },
+  {
+    "code": "L",
+    "label": "Lleida  [Lérida]",
+    "type": "Province"
+  },
+  {
+    "code": "LE",
+    "label": "León",
+    "type": "Province"
+  },
+  {
+    "code": "LO",
+    "label": "La Rioja",
+    "type": "Province"
+  },
+  {
+    "code": "LU",
+    "label": "Lugo  [Lugo]",
+    "type": "Province"
+  },
+  {
+    "code": "M",
+    "label": "Madrid",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Málaga",
+    "type": "Province"
+  },
+  {
+    "code": "ML",
+    "label": "Melilla",
+    "type": "Autonomous city in North Africa"
+  },
+  {
+    "code": "MU",
+    "label": "Murcia",
+    "type": "Province"
+  },
+  {
+    "code": "NA",
+    "label": "Navarra / Nafarroa",
+    "type": "Province"
+  },
+  {
+    "code": "O",
+    "label": "Asturias",
+    "type": "Province"
+  },
+  {
+    "code": "OR",
+    "label": "Ourense  [Orense]",
+    "type": "Province"
+  },
+  {
+    "code": "P",
+    "label": "Palencia",
+    "type": "Province"
+  },
+  {
+    "code": "PM",
+    "label": "Illes Balears [Islas Baleares]",
+    "type": "Province"
+  },
+  {
+    "code": "PO",
+    "label": "Pontevedra  [Pontevedra]",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Cantabria",
+    "type": "Province"
+  },
+  {
+    "code": "SA",
+    "label": "Salamanca",
+    "type": "Province"
+  },
+  {
+    "code": "SE",
+    "label": "Sevilla",
+    "type": "Province"
+  },
+  {
+    "code": "SG",
+    "label": "Segovia",
+    "type": "Province"
+  },
+  {
+    "code": "SO",
+    "label": "Soria",
+    "type": "Province"
+  },
+  {
+    "code": "SS",
+    "label": "Gipuzkoa",
+    "type": "Province"
+  },
+  {
+    "code": "T",
+    "label": "Tarragona  [Tarragona]",
+    "type": "Province"
+  },
+  {
+    "code": "TE",
+    "label": "Teruel",
+    "type": "Province"
+  },
+  {
+    "code": "TF",
+    "label": "Santa Cruz de Tenerife",
+    "type": "Province"
+  },
+  {
+    "code": "TO",
+    "label": "Toledo",
+    "type": "Province"
+  },
+  {
+    "code": "V",
+    "label": "Valencia / València",
+    "type": "Province"
+  },
+  {
+    "code": "VA",
+    "label": "Valladolid",
+    "type": "Province"
+  },
+  {
+    "code": "VI",
+    "label": "Álava / Araba",
+    "type": "Province"
+  },
+  {
+    "code": "Z",
+    "label": "Zaragoza",
+    "type": "Province"
+  },
+  {
+    "code": "ZA",
+    "label": "Zamora",
+    "type": "Province"
+  }
+]

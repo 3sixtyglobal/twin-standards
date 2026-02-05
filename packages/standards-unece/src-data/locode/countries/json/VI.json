@@ -1,0 +1,90 @@
+[
+  {
+    "locationCode": "ON6",
+    "label": "Altona",
+    "function": "3",
+    "lat": 18.333333,
+    "lng": -64.933333
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Anguilla",
+    "function": "3",
+    "lat": 17.7,
+    "lng": -64.766667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Charlotte Amalie, Saint Thomas",
+    "function": "1"
+  },
+  {
+    "locationCode": "CTD",
+    "label": "Christiansted, Saint Croix",
+    "function": "1",
+    "lat": 17.75,
+    "lng": -64.75
+  },
+  {
+    "locationCode": "CZB",
+    "label": "Cruz Bay, Saint John",
+    "function": "13",
+    "lat": 18.333333,
+    "lng": -64.8
+  },
+  {
+    "locationCode": "ENP",
+    "label": "Enighed Pond",
+    "function": "1"
+  },
+  {
+    "locationCode": "FRD",
+    "label": "Frederiksted, Saint Croix",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOC",
+    "label": "Hovic",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kingshill",
+    "function": "6",
+    "lat": 17.716667,
+    "lng": -64.866667
+  },
+  {
+    "locationCode": "LIB",
+    "label": "Limetree Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAX",
+    "label": "Port Alucroix",
+    "function": "136",
+    "lat": 17.7,
+    "lng": -64.766667
+  },
+  {
+    "locationCode": "STX",
+    "label": "Saint Croix",
+    "function": "34",
+    "lat": 17.75,
+    "lng": -64.733333
+  },
+  {
+    "locationCode": "SJN",
+    "label": "Saint John, Saint Croix Is",
+    "function": "3",
+    "lat": 17.75,
+    "lng": -64.733333
+  },
+  {
+    "locationCode": "STT",
+    "label": "Saint Thomas",
+    "function": "14",
+    "lat": 18.35,
+    "lng": -64.933333
+  }
+]

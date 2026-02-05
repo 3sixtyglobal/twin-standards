@@ -1,0 +1,77 @@
+[
+  {
+    "code": "01",
+    "label": "Hodh ech Chargui",
+    "type": "Region"
+  },
+  {
+    "code": "02",
+    "label": "Hodh el Gharbi",
+    "type": "Region"
+  },
+  {
+    "code": "03",
+    "label": "Assaba",
+    "type": "Region"
+  },
+  {
+    "code": "04",
+    "label": "Gorgol",
+    "type": "Region"
+  },
+  {
+    "code": "05",
+    "label": "Brakna",
+    "type": "Region"
+  },
+  {
+    "code": "06",
+    "label": "Trarza",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Adrar",
+    "type": "Region"
+  },
+  {
+    "code": "08",
+    "label": "Dakhlet Nouâdhibou",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Tagant",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Guidimaka",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "Tiris Zemmour",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "Inchiri",
+    "type": "Region"
+  },
+  {
+    "code": "13",
+    "label": "Nouakchott Ouest",
+    "type": "region"
+  },
+  {
+    "code": "14",
+    "label": "Nouakchott Nord",
+    "type": "region"
+  },
+  {
+    "code": "15",
+    "label": "Nouakchott Sud",
+    "type": "region"
+  }
+]

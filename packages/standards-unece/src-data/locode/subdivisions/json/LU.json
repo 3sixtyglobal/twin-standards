@@ -1,0 +1,62 @@
+[
+  {
+    "code": "CA",
+    "label": "Capellen",
+    "type": "canton"
+  },
+  {
+    "code": "CL",
+    "label": "Clervaux",
+    "type": "canton"
+  },
+  {
+    "code": "DI",
+    "label": "Diekirch",
+    "type": "canton"
+  },
+  {
+    "code": "EC",
+    "label": "Echternach",
+    "type": "canton"
+  },
+  {
+    "code": "ES",
+    "label": "Esch-sur-Alzette",
+    "type": "canton"
+  },
+  {
+    "code": "GR",
+    "label": "Gréivemaacher",
+    "type": "canton"
+  },
+  {
+    "code": "LU",
+    "label": "Luxembourg",
+    "type": "canton"
+  },
+  {
+    "code": "ME",
+    "label": "Mersch",
+    "type": "canton"
+  },
+  {
+    "code": "RD",
+    "label": "Redange",
+    "type": "canton"
+  },
+  {
+    "code": "RM",
+    "label": "Remich",
+    "type": "canton"
+  },
+  {
+    "code": "VD",
+    "label": "Vianden",
+    "type": "canton"
+  },
+  {
+    "code": "WI",
+    "label": "Wiltz",
+    "type": "canton"
+  }
+]

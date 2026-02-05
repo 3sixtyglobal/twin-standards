@@ -1,0 +1,599 @@
+[
+  {
+    "locationCode": "KKO",
+    "label": "Akkol'",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 51.983333,
+    "lng": 70.933333
+  },
+  {
+    "locationCode": "AKS",
+    "label": "Aksay",
+    "function": "3",
+    "lat": 36.166667,
+    "lng": 69.166667
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Aksukent",
+    "subdivisionCode": "61",
+    "function": "23",
+    "lat": 42.416667,
+    "lng": 69.833333
+  },
+  {
+    "locationCode": "AAU",
+    "label": "Aktau",
+    "subdivisionCode": "47",
+    "function": "124",
+    "lat": 43.65,
+    "lng": 51.15
+  },
+  {
+    "locationCode": "SCO",
+    "label": "Aktau Apt",
+    "subdivisionCode": "47",
+    "function": "4",
+    "lat": 43.85,
+    "lng": 51.083333
+  },
+  {
+    "locationCode": "ABE",
+    "label": "Aktobe",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Alashankou",
+    "function": "23",
+    "lat": 45.2,
+    "lng": 82.6
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Almaty",
+    "subdivisionCode": "75",
+    "function": "245",
+    "lat": 43.25,
+    "lng": 76.95
+  },
+  {
+    "locationCode": "AKX",
+    "label": "Aqtöbe (Aktyubinsk)",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Aqtobe (Aktyubinsk)",
+    "function": "234",
+    "lat": 50.283333,
+    "lng": 57.166667
+  },
+  {
+    "locationCode": "AGY",
+    "label": "Aqtoghay",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 79.666667
+  },
+  {
+    "locationCode": "AYK",
+    "label": "Arkalyk",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARY",
+    "label": "Arys",
+    "function": "23",
+    "lat": 42.433333,
+    "lng": 68.8
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Assa",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 43.016667,
+    "lng": 71.166667
+  },
+  {
+    "locationCode": "ATX",
+    "label": "Atbasar",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUW",
+    "label": "Atyrau (ex Guryev)",
+    "function": "24"
+  },
+  {
+    "locationCode": "BKZ",
+    "label": "Baikonur",
+    "subdivisionCode": "11",
+    "function": "2346"
+  },
+  {
+    "locationCode": "BXH",
+    "label": "Balhash",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Balkhash",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 74.983333
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Bautino",
+    "function": "16",
+    "lat": 44.533333,
+    "lng": 50.25
+  },
+  {
+    "locationCode": "BKL",
+    "label": "Beskol",
+    "subdivisionCode": "19",
+    "function": "23",
+    "lat": 54.766667,
+    "lng": 69.1
+  },
+  {
+    "locationCode": "BXJ",
+    "label": "Burundai",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAA",
+    "label": "Chimkent",
+    "function": "6",
+    "lat": 42.3,
+    "lng": 69.6
+  },
+  {
+    "locationCode": "DOS",
+    "label": "Dosytk",
+    "subdivisionCode": "75",
+    "function": "2",
+    "lat": 45.25,
+    "lng": 82.483333
+  },
+  {
+    "locationCode": "DZH",
+    "label": "Dzhambul",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 42.9,
+    "lng": 71.366667
+  },
+  {
+    "locationCode": "EKB",
+    "label": "Ekibastuz",
+    "function": "4"
+  },
+  {
+    "locationCode": "EMB",
+    "label": "Emba",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 48.816667,
+    "lng": 58.133333
+  },
+  {
+    "locationCode": "EIK",
+    "label": "Esik",
+    "subdivisionCode": "75",
+    "function": "3",
+    "lat": 43.35,
+    "lng": 77.45
+  },
+  {
+    "locationCode": "EIL",
+    "label": "Esil",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 51.383333,
+    "lng": 67.116667
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Horgos",
+    "function": "2356"
+  },
+  {
+    "locationCode": "KYH",
+    "label": "Kandyagash",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 49.466667,
+    "lng": 57.416667
+  },
+  {
+    "locationCode": "KPC",
+    "label": "Kapchagay",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 43.883333,
+    "lng": 77.833333
+  },
+  {
+    "locationCode": "KGF",
+    "label": "Karaganda",
+    "subdivisionCode": "35",
+    "function": "234",
+    "lat": 49.833333,
+    "lng": 73.166667
+  },
+  {
+    "locationCode": "KTO",
+    "label": "Karaton",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 53.516667
+  },
+  {
+    "locationCode": "KHR",
+    "label": "Khromtau",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 50.25,
+    "lng": 58.433333
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Kokchetav",
+    "function": "6",
+    "lat": 53.266667,
+    "lng": 69.433333
+  },
+  {
+    "locationCode": "KOV",
+    "label": "Kökshetau",
+    "labelWithDiacritics": "Kokshetau",
+    "function": "234",
+    "lat": 53.266667,
+    "lng": 69.383333
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Kordai",
+    "function": "5"
+  },
+  {
+    "locationCode": "KSN",
+    "label": "Kostanay",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kul'sary",
+    "function": "23",
+    "lat": 46.95,
+    "lng": 54.016667
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kuryk",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 43.2,
+    "lng": 51.65
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Kustanai",
+    "function": "6",
+    "lat": 53.166667,
+    "lng": 63.583333
+  },
+  {
+    "locationCode": "KZO",
+    "label": "Kzyl-Orda",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKK",
+    "label": "Lisakovsk",
+    "function": "3"
+  },
+  {
+    "locationCode": "MDT",
+    "label": "Madeniet",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 78.616667
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Mamlyutka",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 54.933333,
+    "lng": 68.533333
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mankent",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 42.416667,
+    "lng": 69.833333
+  },
+  {
+    "locationCode": "NOA",
+    "label": "Novaya Shul'ba",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 50.533333,
+    "lng": 81.316667
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Novonikolskoe",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 54.516667,
+    "lng": 68.683333
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Novoyamyshevo",
+    "function": "34",
+    "lat": 51.916667,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "AST",
+    "label": "Nur-Sultan",
+    "function": "45"
+  },
+  {
+    "locationCode": "OTE",
+    "label": "Otegen Batyr",
+    "subdivisionCode": "75",
+    "function": "3",
+    "lat": 43.333333,
+    "lng": 77.05
+  },
+  {
+    "locationCode": "PWQ",
+    "label": "Pavlodar",
+    "subdivisionCode": "55",
+    "function": "34",
+    "lat": 52,
+    "lng": 76
+  },
+  {
+    "locationCode": "PPK",
+    "label": "Petropavlovsk",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": 69.15
+  },
+  {
+    "locationCode": "QZQ",
+    "label": "Qazyqurt",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 41.75,
+    "lng": 69.383333
+  },
+  {
+    "locationCode": "QSY",
+    "label": "Qulsary",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 46.983333,
+    "lng": 54.016667
+  },
+  {
+    "locationCode": "RRK",
+    "label": "Raygorodok",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 48.7,
+    "lng": 52.883333
+  },
+  {
+    "locationCode": "LAX",
+    "label": "Ridder",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 50.35,
+    "lng": 83.5
+  },
+  {
+    "locationCode": "RNY",
+    "label": "Rudnyy",
+    "subdivisionCode": "39",
+    "function": "3",
+    "lat": 52.966667,
+    "lng": 63.116667
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Saryagach",
+    "subdivisionCode": "61",
+    "function": "23",
+    "lat": 41.45,
+    "lng": 69.166667
+  },
+  {
+    "locationCode": "PLX",
+    "label": "Semey (Semipalatinsk)",
+    "subdivisionCode": "63",
+    "function": "34",
+    "lat": 50.4,
+    "lng": 80.216667
+  },
+  {
+    "locationCode": "SGV",
+    "label": "Semiglavyy Mar",
+    "subdivisionCode": "27",
+    "function": "23",
+    "lat": 51.183333,
+    "lng": 50.05
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shakhtinsk",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 49.7,
+    "lng": 72.583333
+  },
+  {
+    "locationCode": "SCK",
+    "label": "Shchuchinsk",
+    "subdivisionCode": "59",
+    "function": "35",
+    "lat": 52.933333,
+    "lng": 70.2
+  },
+  {
+    "locationCode": "CIT",
+    "label": "Shimkent",
+    "function": "34"
+  },
+  {
+    "locationCode": "SHU",
+    "label": "Shubarkuduk",
+    "function": "23",
+    "lat": 49.133333,
+    "lng": 56.483333
+  },
+  {
+    "locationCode": "SHY",
+    "label": "Shymkent",
+    "function": "3"
+  },
+  {
+    "locationCode": "SGU",
+    "label": "Shyngyrlau",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 51.15,
+    "lng": 54.133333
+  },
+  {
+    "locationCode": "STP",
+    "label": "Stepnogorsk",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 52.183333,
+    "lng": 72.433333
+  },
+  {
+    "locationCode": "TYK",
+    "label": "Taldykorgan",
+    "function": "6"
+  },
+  {
+    "locationCode": "TDK",
+    "label": "Taldy-Kurgan",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talgar",
+    "function": "3",
+    "lat": 43.3,
+    "lng": 77.216667
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Taraz",
+    "subdivisionCode": "31",
+    "function": "23",
+    "lat": 42.9,
+    "lng": 71.366667
+  },
+  {
+    "locationCode": "TAU",
+    "label": "Temirtau",
+    "subdivisionCode": "35",
+    "function": "13",
+    "lat": 50.05,
+    "lng": 72.95
+  },
+  {
+    "locationCode": "TGZ",
+    "label": "Tengiz",
+    "function": "6",
+    "lat": 46.333333,
+    "lng": 53.466667
+  },
+  {
+    "locationCode": "URA",
+    "label": "Uralsk",
+    "function": "45"
+  },
+  {
+    "locationCode": "UKK",
+    "label": "Ust-Kamenogorsk",
+    "function": "4"
+  },
+  {
+    "locationCode": "UZE",
+    "label": "Uzen",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 53
+  },
+  {
+    "locationCode": "SZI",
+    "label": "Zaisan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZCH",
+    "label": "Zashchita",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 50,
+    "lng": 82.583333
+  },
+  {
+    "locationCode": "HRC",
+    "label": "Zhairem",
+    "function": "4"
+  },
+  {
+    "locationCode": "DMB",
+    "label": "Zhambyl",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZHA",
+    "label": "Zhana-Aul",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 51.15,
+    "lng": 74.616667
+  },
+  {
+    "locationCode": "ZRK",
+    "label": "Zharkent",
+    "subdivisionCode": "75",
+    "function": "5",
+    "lat": 44.15,
+    "lng": 80
+  },
+  {
+    "locationCode": "DZN",
+    "label": "Zhezkazgan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZYR",
+    "label": "Zyryanovsk",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 49.733333,
+    "lng": 84.266667
+  }
+]

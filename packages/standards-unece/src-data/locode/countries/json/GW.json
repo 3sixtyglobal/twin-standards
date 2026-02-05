@@ -1,0 +1,62 @@
+[
+  {
+    "locationCode": "BFT",
+    "label": "Bafatá",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Bafata",
+    "function": "6",
+    "lat": 12.166667,
+    "lng": -14.666667
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Binta",
+    "function": "1",
+    "lat": 12.416667,
+    "lng": -15.316667
+  },
+  {
+    "locationCode": "OXB",
+    "label": "Bissau",
+    "subdivisionCode": "BS",
+    "function": "1345",
+    "lat": 11.85,
+    "lng": -15.583333
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolama",
+    "function": "13",
+    "lat": 11.583333,
+    "lng": -15.466667
+  },
+  {
+    "locationCode": "BQE",
+    "label": "Bubaque",
+    "function": "134",
+    "lat": 11.283333,
+    "lng": -15.833333
+  },
+  {
+    "locationCode": "CAC",
+    "label": "Cacheu",
+    "subdivisionCode": "CA",
+    "function": "13",
+    "lat": 12.266667,
+    "lng": -16.15
+  },
+  {
+    "locationCode": "CJA",
+    "label": "Canjaja",
+    "function": "1",
+    "lat": 12.383333,
+    "lng": -15.35
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Farim",
+    "function": "1",
+    "lat": 12.483333,
+    "lng": -15.216667
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "code": "01",
+    "label": "Charlotte",
+    "type": "Parish"
+  },
+  {
+    "code": "02",
+    "label": "Saint Andrew",
+    "type": "Parish"
+  },
+  {
+    "code": "03",
+    "label": "Saint David",
+    "type": "Parish"
+  },
+  {
+    "code": "04",
+    "label": "Saint George",
+    "type": "Parish"
+  },
+  {
+    "code": "05",
+    "label": "Saint Patrick",
+    "type": "Parish"
+  },
+  {
+    "code": "06",
+    "label": "Grenadines",
+    "type": "Parish"
+  }
+]

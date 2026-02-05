@@ -1,0 +1,2416 @@
+[
+  {
+    "locationCode": "AIO",
+    "label": "Aitos",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 42.716667,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "AKH",
+    "label": "Akhtopol",
+    "function": "1",
+    "lat": 42.1,
+    "lng": 27.95
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Aksakovo",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.25,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "ATL",
+    "label": "Altimir",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 43.533333,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "API",
+    "label": "Apriltsi",
+    "function": "3",
+    "lat": 42.316667,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Ardino",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "AND",
+    "label": "Asenovgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "AYT",
+    "label": "Aytos",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.7,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balchik",
+    "function": "1",
+    "lat": 43.416667,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "BVO",
+    "label": "Banevo",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.633333,
+    "lng": 27.4
+  },
+  {
+    "locationCode": "BTE",
+    "label": "Banite",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.616667,
+    "lng": 25.016667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bankya",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 42.85,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Bankya",
+    "subdivisionCode": "23",
+    "function": "6",
+    "lat": 42.7,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Bansko",
+    "subdivisionCode": "23",
+    "function": "23",
+    "lat": 41.833333,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "BBA",
+    "label": "Bata",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 42.733333,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Batak",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 41.95,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Belene",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 43.65,
+    "lng": 25.116667
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belitsa",
+    "function": "3",
+    "lat": 41.95,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "BDK",
+    "label": "Belogradchik",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 43.616667,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "BBK",
+    "label": "Belogradchik",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 43.616667,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "BEV",
+    "label": "Beloslav",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.183333,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "BPK",
+    "label": "Belovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.216667,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "BYK",
+    "label": "Belyakovets",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 43.1,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Benkovski",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.216667,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "BRK",
+    "label": "Berkovitza",
+    "function": "23"
+  },
+  {
+    "locationCode": "VBS",
+    "label": "Bjala Slatina",
+    "subdivisionCode": "06",
+    "function": "36"
+  },
+  {
+    "locationCode": "BLN",
+    "label": "Blagoevgrad",
+    "function": "3",
+    "lat": 42.016667,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "BRV",
+    "label": "Borovo",
+    "function": "3",
+    "lat": 43.5,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "BRF",
+    "label": "Botevgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOZ",
+    "label": "Bozhurishte",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 42.75,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "VTG",
+    "label": "Bratsigovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.016667,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bregovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Brestak",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.45,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "BTV",
+    "label": "Brestovets",
+    "function": "3",
+    "lat": 43.35,
+    "lng": 24.6
+  },
+  {
+    "locationCode": "BRZ",
+    "label": "Breznik",
+    "subdivisionCode": "02",
+    "function": "3"
+  },
+  {
+    "locationCode": "BDB",
+    "label": "Bulgarevo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.4,
+    "lng": 28.416667
+  },
+  {
+    "locationCode": "BOJ",
+    "label": "Burgas",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUZ",
+    "label": "Buzovgrad",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.566667,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "BYL",
+    "label": "Byala",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "BYA",
+    "label": "Byala",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 43.45,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "VT4",
+    "label": "Byala Cherkva",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 43.2,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "BSL",
+    "label": "Byala Slatina",
+    "function": "123",
+    "lat": 43.466667,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "CHR",
+    "label": "Chakalarevo",
+    "function": "3",
+    "lat": 41.283333,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "OCH",
+    "label": "Chelopech",
+    "subdivisionCode": "23",
+    "function": "6",
+    "lat": 42.7,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Chelopechene",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.55,
+    "lng": 28.316667
+  },
+  {
+    "locationCode": "CPA",
+    "label": "Chepelare",
+    "function": "3"
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Chepintsi",
+    "function": "23",
+    "lat": 42.766667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "VCA",
+    "label": "Chernook",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.133333,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "CHV",
+    "label": "Cherven Bryag",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 43.266667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "CPW",
+    "label": "Chirpan",
+    "function": "3"
+  },
+  {
+    "locationCode": "BCP",
+    "label": "Chomakovtsi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 43.316667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Churukovo",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.85,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "DBD",
+    "label": "Damyanitsa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.516667,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "DBS",
+    "label": "Debelec",
+    "function": "3"
+  },
+  {
+    "locationCode": "DEL",
+    "label": "Debelt",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 42.4,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "DLC",
+    "label": "Delchevo",
+    "function": "3",
+    "lat": 41.55,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "DEV",
+    "label": "Devin",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.733333,
+    "lng": 24.4
+  },
+  {
+    "locationCode": "DNJ",
+    "label": "Devnya",
+    "function": "3"
+  },
+  {
+    "locationCode": "DTG",
+    "label": "Dimitrovgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "DOD",
+    "label": "Dobrich",
+    "function": "3"
+  },
+  {
+    "locationCode": "DBR",
+    "label": "Dobroslavtsi",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.816667,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "DBA",
+    "label": "Dobrotitsa",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 43.95,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dolna Banya",
+    "function": "3",
+    "lat": 42.3,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "YMP",
+    "label": "Dolna Mitropoliya",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 43.466667,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "DKC",
+    "label": "Dolna Oryakhovitsa",
+    "function": "3",
+    "lat": 43.166667,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "DOC",
+    "label": "Dolni Chiflik",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 42.983333,
+    "lng": 27.716667
+  },
+  {
+    "locationCode": "KBD",
+    "label": "Dolni Dabnik",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 43.4,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "DSP",
+    "label": "Dospat",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAO",
+    "label": "Draginovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "DMN",
+    "label": "Dragoman",
+    "function": "3"
+  },
+  {
+    "locationCode": "VRN",
+    "label": "Drenov",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 43.283333,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "DRV",
+    "label": "Drenovets",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 43.683333,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "DNV",
+    "label": "Dryanovo",
+    "function": "23",
+    "lat": 42.983333,
+    "lng": 25.483333
+  },
+  {
+    "locationCode": "DLV",
+    "label": "Dulovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "DNI",
+    "label": "Dunavtsi",
+    "subdivisionCode": "24",
+    "function": "23",
+    "lat": 42.65,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "DUP",
+    "label": "Dupnica",
+    "function": "23",
+    "lat": 42.266667,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "DKO",
+    "label": "Durankulak",
+    "function": "3",
+    "lat": 43.7,
+    "lng": 28.516667
+  },
+  {
+    "locationCode": "DBL",
+    "label": "Dzhebel",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 41.5,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "ELE",
+    "label": "Elena",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 42.933333,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "ELH",
+    "label": "Elhovo",
+    "subdivisionCode": "28",
+    "function": "3",
+    "lat": 42.166667,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "EPE",
+    "label": "Elin Pelin",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.666667,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "EHO",
+    "label": "Elkhovo",
+    "subdivisionCode": "28",
+    "function": "23",
+    "lat": 42.166667,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "ETS",
+    "label": "Etropole",
+    "function": "3"
+  },
+  {
+    "locationCode": "FOT",
+    "label": "Fotinovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.883333,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "GAV",
+    "label": "Gabrovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galabovo",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.133333,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "DA3",
+    "label": "Garmen",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.6,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "TOS",
+    "label": "General-Toshevo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.7,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "GOD",
+    "label": "Godech",
+    "subdivisionCode": "22",
+    "function": "6"
+  },
+  {
+    "locationCode": "GOL",
+    "label": "Golyamo Chochoveni",
+    "function": "3",
+    "lat": 42.666667,
+    "lng": 26.15
+  },
+  {
+    "locationCode": "GOV",
+    "label": "Gorna Oryahovica",
+    "subdivisionCode": "04",
+    "function": "3"
+  },
+  {
+    "locationCode": "GOZ",
+    "label": "Gorna Oryakhovitsa",
+    "function": "4",
+    "lat": 43.133333,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "GB4",
+    "label": "Gorublyane",
+    "subdivisionCode": "23",
+    "function": "23",
+    "lat": 42.633333,
+    "lng": 23.4
+  },
+  {
+    "locationCode": "GDU",
+    "label": "Gotse Delchev",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Grancharovo",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 43.716667,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "GRU",
+    "label": "Gruevo",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "GUR",
+    "label": "Gurkovo",
+    "subdivisionCode": "24",
+    "function": "123",
+    "lat": 42.65,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "GJE",
+    "label": "Gyueshevo",
+    "function": "23",
+    "lat": 42.233333,
+    "lng": 22.483333
+  },
+  {
+    "locationCode": "HRM",
+    "label": "Harmanli",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 41.933333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "HKV",
+    "label": "Haskovo",
+    "function": "4"
+  },
+  {
+    "locationCode": "XCR",
+    "label": "Hisarya",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.5,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "IAB",
+    "label": "Iablanitsa",
+    "function": "3",
+    "lat": 43.05,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "4IG",
+    "label": "Ignatievo",
+    "subdivisionCode": "03",
+    "function": "13",
+    "lat": 43.25,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "IHT",
+    "label": "Ikhtiman",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.433333,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "IOV",
+    "label": "Iovkovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "ISK",
+    "label": "Iskar",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.383333,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "ISP",
+    "label": "Isperih",
+    "subdivisionCode": "17",
+    "function": "6",
+    "lat": 44.183333,
+    "lng": 27.383333
+  },
+  {
+    "locationCode": "IPR",
+    "label": "Isperikh",
+    "function": "3"
+  },
+  {
+    "locationCode": "IVL",
+    "label": "Ivailovgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAM",
+    "label": "Jambol",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Kalipetrovo",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 44.083333,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalotina",
+    "function": "3"
+  },
+  {
+    "locationCode": "KMN",
+    "label": "Kameno",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.566667,
+    "lng": 27.3
+  },
+  {
+    "locationCode": "KAO",
+    "label": "Kaolinovo",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 43.616667,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kapitan-Andreevo",
+    "function": "3",
+    "lat": 41.716667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapitanovtsi",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 44.033333,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "BKR",
+    "label": "Karabunar",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.266667,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Kardam",
+    "function": "2"
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Kardzali",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "KVO",
+    "label": "Karlovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "KBT",
+    "label": "Karnobat",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "KPH",
+    "label": "Kaspichan",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katunitza",
+    "subdivisionCode": "16",
+    "function": "3"
+  },
+  {
+    "locationCode": "KVN",
+    "label": "Kavarna",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 28.333333
+  },
+  {
+    "locationCode": "ZHA",
+    "label": "Kaynardzha",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 43.983333,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "KZK",
+    "label": "Kazanlak",
+    "subdivisionCode": "24",
+    "function": "3"
+  },
+  {
+    "locationCode": "KZN",
+    "label": "Kazanluk",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Kazichene",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.666667,
+    "lng": 23.466667
+  },
+  {
+    "locationCode": "RKM",
+    "label": "Kermen",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 42.5,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "KHK",
+    "label": "Khan Krum",
+    "function": "3"
+  },
+  {
+    "locationCode": "HMI",
+    "label": "Kharmanli",
+    "function": "23",
+    "lat": 41.933333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khaskovo",
+    "function": "3",
+    "lat": 41.933333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "KJG",
+    "label": "Kjustendil",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRL",
+    "label": "Klisura",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 42.316667,
+    "lng": 23.366667
+  },
+  {
+    "locationCode": "KNE",
+    "label": "Knezha",
+    "function": "23",
+    "lat": 43.5,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "ROO",
+    "label": "Kolarovo",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 41.966667,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Koprivshtitsa",
+    "subdivisionCode": "23",
+    "function": "6",
+    "lat": 42.633333,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "K2N",
+    "label": "Korten",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 42.666667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "KSR",
+    "label": "Kosharitsa",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.75,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kostenets",
+    "subdivisionCode": "23",
+    "function": "23",
+    "lat": 42.3,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "KBR",
+    "label": "Kostinbrod",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 42.816667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kotel",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 42.883333,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "KOY",
+    "label": "Koynare",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 43.35,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "KOZ",
+    "label": "Kozloduj",
+    "subdivisionCode": "23",
+    "function": "36",
+    "lat": 43.783333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "HKM",
+    "label": "Krichim",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.05,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "VKD",
+    "label": "Krivodol",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 43.75,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Krumovgrad",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 41.466667,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "KRH",
+    "label": "Krushari",
+    "function": "3",
+    "lat": 43.816667,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "KUB",
+    "label": "Kubrat",
+    "subdivisionCode": "17",
+    "function": "36",
+    "lat": 43.8,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "KUK",
+    "label": "Kuklen",
+    "subdivisionCode": "16",
+    "function": "13",
+    "lat": 42.033333,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kula",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 43.883333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kulata",
+    "function": "23"
+  },
+  {
+    "locationCode": "KDG",
+    "label": "Kurdzhali",
+    "function": "34",
+    "lat": 41.633333,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "KYS",
+    "label": "Kyustendil",
+    "function": "23",
+    "lat": 42.283333,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "LKI",
+    "label": "Laki",
+    "function": "3",
+    "lat": 41.85,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "LED",
+    "label": "Ledenik",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 43.083333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "LES",
+    "label": "Leskovets",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 43.7,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "LNS",
+    "label": "Letnitsa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 43.3,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "LSD",
+    "label": "Levski",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIA",
+    "label": "Liaskovec",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 43.183333,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "LOK",
+    "label": "Lokorsko",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 43.3,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "LOM",
+    "label": "Lom",
+    "function": "0"
+  },
+  {
+    "locationCode": "TLI",
+    "label": "Lomci",
+    "subdivisionCode": "25",
+    "function": "6",
+    "lat": 43.716667,
+    "lng": 26.583333
+  },
+  {
+    "locationCode": "LVP",
+    "label": "Lovech",
+    "function": "3"
+  },
+  {
+    "locationCode": "LOZ",
+    "label": "Lozarevo",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.766667,
+    "lng": 26.883333
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Lukovit",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 43.2,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "LKS",
+    "label": "Lyaskovets",
+    "subdivisionCode": "04",
+    "function": "23",
+    "lat": 43.1,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "LYA",
+    "label": "Lyaskovo",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.8,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "LBC",
+    "label": "Lyubichevo",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 43.166667,
+    "lng": 26.283333
+  },
+  {
+    "locationCode": "LMC",
+    "label": "Lyubimets",
+    "function": "23",
+    "lat": 41.85,
+    "lng": 26.083333
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Lyuliakovo",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 43.383333,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madan",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.5,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Malko Tarnovo",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 41.983333,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "SHU",
+    "label": "Malomir",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 43.033333,
+    "lng": 26.716667
+  },
+  {
+    "locationCode": "PLO",
+    "label": "Manole",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.183333,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "MAB",
+    "label": "Marchevo",
+    "subdivisionCode": "01",
+    "function": "16",
+    "lat": 41.6,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Marikostinovo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "MNR",
+    "label": "Mednikarovo",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.116667,
+    "lng": 26
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Melnik",
+    "function": "0"
+  },
+  {
+    "locationCode": "MEZ",
+    "label": "Mezdra",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 43.25,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "MIH",
+    "label": "Mihalkovo",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "MIE",
+    "label": "Mikre",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 43.033333,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Mirkovo",
+    "function": "3",
+    "lat": 42.7,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "MVY",
+    "label": "Mirovyane",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.783333,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "MII",
+    "label": "Mitrovtsi",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "MIZ",
+    "label": "Miziya",
+    "function": "23",
+    "lat": 43.683333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "MOT",
+    "label": "Momchilgrad",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "OZA",
+    "label": "Montana",
+    "function": "3"
+  },
+  {
+    "locationCode": "MUC",
+    "label": "Musachevo",
+    "function": "3",
+    "lat": 42.1,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "NES",
+    "label": "Nessebar",
+    "function": "13",
+    "lat": 42.65,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "NPO",
+    "label": "Nikopol",
+    "subdivisionCode": "15",
+    "function": "123",
+    "lat": 43.683333,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "NZG",
+    "label": "Nova Zagora",
+    "function": "3"
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Novi Isar",
+    "function": "23",
+    "lat": 42.8,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "NPZ",
+    "label": "Novi Pazar",
+    "function": "3"
+  },
+  {
+    "locationCode": "NOS",
+    "label": "Novo Selo",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.1,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "OGN",
+    "label": "Ognyanovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.15,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "OLT",
+    "label": "Oltomantsi",
+    "function": "3"
+  },
+  {
+    "locationCode": "OMU",
+    "label": "Omurtag",
+    "function": "3",
+    "lat": 43.1,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "OPK",
+    "label": "Opaka",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "OPN",
+    "label": "Opanets",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.483333,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "ORE",
+    "label": "Orehovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "ORZ",
+    "label": "Orizare",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.75,
+    "lng": 27.616667
+  },
+  {
+    "locationCode": "ORI",
+    "label": "Orizovo",
+    "subdivisionCode": "24",
+    "function": "6",
+    "lat": 42.033333,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "OKH",
+    "label": "Oryakhovo",
+    "function": "123",
+    "lat": 43.733333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "OSI",
+    "label": "Osikovo",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.9,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Paisievo",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 43.783333,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "PPE",
+    "label": "Panagyurishte",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 42.083333,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "PVT",
+    "label": "Parvenets",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "PVM",
+    "label": "Parvomai",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 42.016667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "PVL",
+    "label": "Pavel",
+    "function": "3",
+    "lat": 43.466667,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "PBA",
+    "label": "Pavel Banya",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.6,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "PAV",
+    "label": "Pavlikeni",
+    "subdivisionCode": "02",
+    "function": "3"
+  },
+  {
+    "locationCode": "PIV",
+    "label": "Pavlikeni",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 43.233333,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "PZA",
+    "label": "Pazardzhik",
+    "function": "3"
+  },
+  {
+    "locationCode": "PNZ",
+    "label": "Pernik",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Perushtitsa",
+    "function": "0"
+  },
+  {
+    "locationCode": "PEC",
+    "label": "Peshtera",
+    "function": "3"
+  },
+  {
+    "locationCode": "PTH",
+    "label": "Petarch",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.833333,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "PEG",
+    "label": "Petrich",
+    "function": "3"
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Pirdop",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.7,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "PVN",
+    "label": "Pleven",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Pliska",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 43.366667,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "PDV",
+    "label": "Plovdiv",
+    "function": "4"
+  },
+  {
+    "locationCode": "POD",
+    "label": "Podayva",
+    "subdivisionCode": "17",
+    "function": "1"
+  },
+  {
+    "locationCode": "POR",
+    "label": "Pomorie",
+    "function": "3"
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Popitsa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "POK",
+    "label": "Popovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Pravets",
+    "function": "3",
+    "lat": 42.9,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Preslav",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Preslaven",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.416667,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "PDA",
+    "label": "Provadiya",
+    "function": "3"
+  },
+  {
+    "locationCode": "VDN",
+    "label": "Rabisha",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 43.716667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "RLO",
+    "label": "Radilovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 42.083333,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Radinovo",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 42.183333,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "RDV",
+    "label": "Radnevo",
+    "function": "3",
+    "lat": 42.3,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "RDI",
+    "label": "Radomir",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAK",
+    "label": "Rakitovo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.983333,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Rakovski",
+    "subdivisionCode": "16",
+    "function": "36",
+    "lat": 42.3,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "RGL",
+    "label": "Razgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAZ",
+    "label": "Razlog",
+    "subdivisionCode": "23",
+    "function": "23",
+    "lat": 41.883333,
+    "lng": 23.466667
+  },
+  {
+    "locationCode": "RNS",
+    "label": "Resen",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 43.2,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "1"
+  },
+  {
+    "locationCode": "RDZ",
+    "label": "Rudozem",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "RDU",
+    "label": "Ruse",
+    "function": "1234",
+    "lat": 43.85,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "SAD",
+    "label": "Sadovo",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.116667,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "SAE",
+    "label": "Saedinenie",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 42.266667,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samokov",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.333333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "OZD",
+    "label": "Samovodene",
+    "function": "3",
+    "lat": 43.133333,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Samuilovo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Sandanski",
+    "function": "3"
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selcha",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Seslavtsi",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.783333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Sevlievo",
+    "function": "3"
+  },
+  {
+    "locationCode": "DCB",
+    "label": "Shabla",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.533333,
+    "lng": 28.533333
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shiroka Laka",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.683333,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "SMN",
+    "label": "Shumen",
+    "function": "23",
+    "lat": 43.266667,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "SUW",
+    "label": "Shumen",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLS",
+    "label": "Silistra",
+    "function": "14"
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Skravena",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.95,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "NLS",
+    "label": "Slatina",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.683333,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Slavyanovo",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 43.266667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "SWQ",
+    "label": "Slavyantsi",
+    "function": "3",
+    "lat": 42.766667,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "SLP",
+    "label": "Sliven",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Slivnitsa",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.85,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Slivo Pole",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 43.95,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "SML",
+    "label": "Smolyan",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "SOF",
+    "label": "Sofia",
+    "subdivisionCode": "22",
+    "function": "245",
+    "lat": 42.683333,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Somovit",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBP",
+    "label": "Sopot",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOZ",
+    "label": "Sozopol",
+    "function": "13",
+    "lat": 42.416667,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "SDE",
+    "label": "Sredets",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.25,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stamboliyski",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 42.133333,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "SBV",
+    "label": "Stambolovo",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 41.766667,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "SDV",
+    "label": "Stanke Dimitrov",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Stanke Lisitchkovo",
+    "function": "3",
+    "lat": 41.983333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "SZR",
+    "label": "Stara Zagora",
+    "function": "34"
+  },
+  {
+    "locationCode": "ZSS",
+    "label": "Staro Selo",
+    "subdivisionCode": "23",
+    "function": "6",
+    "lat": 42.45,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "S8P",
+    "label": "Starosel",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.483333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "STO",
+    "label": "Stomanevo",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 41.816667,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "S3W",
+    "label": "Straldzha",
+    "subdivisionCode": "28",
+    "function": "13",
+    "lat": 42.6,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "VDV",
+    "label": "Streltsi",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.383333,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Stryama",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 42.25,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "SIE",
+    "label": "Suedinenie",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 43.316667,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "SUZ",
+    "label": "Suhindol",
+    "function": "3"
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Sungurlare",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.766667,
+    "lng": 26.783333
+  },
+  {
+    "locationCode": "SNA",
+    "label": "Surnitsa",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.733333,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "SNK",
+    "label": "Sveti Nikola",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.433333,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "SWG",
+    "label": "Svilengrad",
+    "function": "23"
+  },
+  {
+    "locationCode": "SVZ",
+    "label": "Svishtov",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 43.616667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "SVI",
+    "label": "Svistov",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVG",
+    "label": "Svoge",
+    "function": "23",
+    "lat": 42.966667,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "TGV",
+    "label": "Targovishte",
+    "subdivisionCode": "25",
+    "function": "234",
+    "lat": 43.25,
+    "lng": 26.583333
+  },
+  {
+    "locationCode": "TER",
+    "label": "Tervel",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 43.75,
+    "lng": 27.4
+  },
+  {
+    "locationCode": "TTV",
+    "label": "Teteven",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 42.916667,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tolbuhin",
+    "function": "3"
+  },
+  {
+    "locationCode": "TPL",
+    "label": "Topoli",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Topolovgrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "TRN",
+    "label": "Tran",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 42.833333,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Trastenik",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 43.516667,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "TJM",
+    "label": "Trojan",
+    "function": "3"
+  },
+  {
+    "locationCode": "TRY",
+    "label": "Troyan",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 42.883333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "TRD",
+    "label": "Trud",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.233333,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "TRU",
+    "label": "Trudovets",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 42.916667,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Tryavna",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 42.866667,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tsalapitsa",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.183333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Tsaratsovo",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.2,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Tsarevo",
+    "subdivisionCode": "02",
+    "function": "36",
+    "lat": 42.166667,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "TKV",
+    "label": "Tserkovski",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.6,
+    "lng": 26.883333
+  },
+  {
+    "locationCode": "GAB",
+    "label": "Tumbalovo",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 42.866667,
+    "lng": 25.1
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Tutrakan",
+    "function": "3"
+  },
+  {
+    "locationCode": "TAD",
+    "label": "Tvardica",
+    "subdivisionCode": "20",
+    "function": "6",
+    "lat": 42.116667,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "LCH",
+    "label": "Uglen",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 43.2,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "UST",
+    "label": "Ustren",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 41.466667,
+    "lng": 25.233333
+  },
+  {
+    "locationCode": "VDL",
+    "label": "Valchi Dol",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 43.066667,
+    "lng": 27.916667
+  },
+  {
+    "locationCode": "VDM",
+    "label": "Vardim",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 43.616667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Varna",
+    "function": "14"
+  },
+  {
+    "locationCode": "VAZ",
+    "label": "Varna-Zapad",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Varshets",
+    "subdivisionCode": "02",
+    "function": "3"
+  },
+  {
+    "locationCode": "VEP",
+    "label": "Veliki Preslav",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 43.166667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "VTT",
+    "label": "Veliko Tarnovo",
+    "function": "3"
+  },
+  {
+    "locationCode": "VLE",
+    "label": "Velingrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "VNT",
+    "label": "Venets",
+    "function": "23",
+    "lat": 42.633333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "VEO",
+    "label": "Verinsko",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 42.483333,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "QZX",
+    "label": "Vetrino",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 43.316667,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "VID",
+    "label": "Vidin",
+    "function": "1234"
+  },
+  {
+    "locationCode": "VRE",
+    "label": "Vraca",
+    "function": "3"
+  },
+  {
+    "locationCode": "VSA",
+    "label": "Vratsa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 43.2,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Vratza",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 43.35,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "QVJ",
+    "label": "Vrazhdebna",
+    "function": "3",
+    "lat": 42.683333,
+    "lng": 23.4
+  },
+  {
+    "locationCode": "VTC",
+    "label": "Vrska Cuka",
+    "function": "3",
+    "lat": 43.833333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "YGD",
+    "label": "Yagoda",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 42.55,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "YAG",
+    "label": "Yagodovo",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.1,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "YAK",
+    "label": "Yakoruda",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 42.033333,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "YAM",
+    "label": "Yambol",
+    "function": "3",
+    "lat": 42.483333,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "YKG",
+    "label": "Yoakim-Gruevo",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.116667,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Zavet",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 42.833333,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "PLV",
+    "label": "Zhitnitsa",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.383333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "ZLA",
+    "label": "Zlatarevo",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZTT",
+    "label": "Zlataritsa",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 43.05,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "ZLH",
+    "label": "Zlatograd",
+    "function": "3"
+  }
+]

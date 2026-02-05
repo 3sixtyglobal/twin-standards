@@ -1,0 +1,39 @@
+[
+  {
+    "locationCode": "BJA",
+    "label": "Beit Jala",
+    "function": "6",
+    "lat": 31.7,
+    "lng": 35.183333
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Bethlehem",
+    "subdivisionCode": "BTH",
+    "function": "3",
+    "lat": 31.716667,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "GZA",
+    "label": "Gaza",
+    "function": "3",
+    "lat": 31.5,
+    "lng": 34.466667
+  },
+  {
+    "locationCode": "JRH",
+    "label": "Jericho",
+    "subdivisionCode": "JRH",
+    "function": "5",
+    "lat": 31.85,
+    "lng": 35.45
+  },
+  {
+    "locationCode": "RMH",
+    "label": "Ramallah (Ram Allah)",
+    "function": "35",
+    "lat": 31.9,
+    "lng": 35.2
+  }
+]

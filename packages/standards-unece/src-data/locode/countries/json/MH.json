@@ -1,0 +1,227 @@
+[
+  {
+    "locationCode": "AIP",
+    "label": "Ailinglapalap Island",
+    "subdivisionCode": "ALL",
+    "function": "4",
+    "lat": 7.266667,
+    "lng": 168.816667
+  },
+  {
+    "locationCode": "AIM",
+    "label": "Ailuk Island",
+    "function": "4",
+    "lat": 10.183333,
+    "lng": 169.983333
+  },
+  {
+    "locationCode": "AIC",
+    "label": "Airok",
+    "function": "4",
+    "lat": 7.1,
+    "lng": 171.233333
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Arno",
+    "subdivisionCode": "ARN",
+    "function": "4",
+    "lat": 7.083333,
+    "lng": 171.7
+  },
+  {
+    "locationCode": "AUL",
+    "label": "Aur Island",
+    "subdivisionCode": "AUR",
+    "function": "4",
+    "lat": 8.133333,
+    "lng": 171.166667
+  },
+  {
+    "locationCode": "EBN",
+    "label": "Ebadon",
+    "subdivisionCode": "KWA",
+    "function": "4",
+    "lat": 9.333333,
+    "lng": 166.8
+  },
+  {
+    "locationCode": "QEE",
+    "label": "Ebeye",
+    "subdivisionCode": "KWA",
+    "function": "3",
+    "lat": 8.783333,
+    "lng": 167.733333
+  },
+  {
+    "locationCode": "EBO",
+    "label": "Ebon",
+    "subdivisionCode": "EBO",
+    "function": "4",
+    "lat": 4.633333,
+    "lng": 163.716667
+  },
+  {
+    "locationCode": "ENT",
+    "label": "Enewetak Island",
+    "subdivisionCode": "ENI",
+    "function": "4",
+    "lat": 11.35,
+    "lng": 162.333333
+  },
+  {
+    "locationCode": "BII",
+    "label": "Enyu Airfield, Bikini",
+    "function": "4",
+    "lat": 11.5,
+    "lng": 165.55
+  },
+  {
+    "locationCode": "IMI",
+    "label": "Ine Island",
+    "function": "4",
+    "lat": 6.983333,
+    "lng": 171.616667
+  },
+  {
+    "locationCode": "JAT",
+    "label": "Jabot",
+    "function": "4",
+    "lat": 7,
+    "lng": 168.983333
+  },
+  {
+    "locationCode": "UIT",
+    "label": "Jaluit Island",
+    "subdivisionCode": "JAL",
+    "function": "4",
+    "lat": 5.933333,
+    "lng": 169.633333
+  },
+  {
+    "locationCode": "JEJ",
+    "label": "Jeh",
+    "function": "4",
+    "lat": 7.583333,
+    "lng": 168.916667
+  },
+  {
+    "locationCode": "KBT",
+    "label": "Kaben",
+    "subdivisionCode": "MAL",
+    "function": "4",
+    "lat": 8.75,
+    "lng": 170.833333
+  },
+  {
+    "locationCode": "KIO",
+    "label": "Kili Island",
+    "subdivisionCode": "KIL",
+    "function": "4",
+    "lat": 5.616667,
+    "lng": 169.116667
+  },
+  {
+    "locationCode": "KWA",
+    "label": "Kwajalein",
+    "function": "4"
+  },
+  {
+    "locationCode": "LML",
+    "label": "Lae Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "LIK",
+    "label": "Likiep Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOF",
+    "label": "Loen",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJE",
+    "label": "Majkin",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAJ",
+    "label": "Majuro",
+    "subdivisionCode": "MAJ",
+    "function": "14",
+    "lat": 7.1,
+    "lng": 171.383333
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Maloelap Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJB",
+    "label": "Mejit Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIJ",
+    "label": "Mili Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDK",
+    "label": "Namdrik Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMU",
+    "label": "Namu",
+    "function": "4"
+  },
+  {
+    "locationCode": "RNP",
+    "label": "Rongelap Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBV",
+    "label": "Tabal",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Taroa",
+    "function": "1"
+  },
+  {
+    "locationCode": "TIC",
+    "label": "Tinak Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "UJE",
+    "label": "Ujae Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "UTK",
+    "label": "Utirik Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "WJA",
+    "label": "Woja",
+    "function": "4"
+  },
+  {
+    "locationCode": "WTO",
+    "label": "Wotho Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "WTE",
+    "label": "Wotje Island",
+    "function": "4"
+  }
+]

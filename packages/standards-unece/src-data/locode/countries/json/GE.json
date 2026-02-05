@@ -1,0 +1,449 @@
+[
+  {
+    "locationCode": "ZAI",
+    "label": "Akhalkalaki",
+    "function": "6",
+    "lat": 41.4,
+    "lng": 43.466667
+  },
+  {
+    "locationCode": "ASE",
+    "label": "Akhalts'ikhe",
+    "function": "6",
+    "lat": 41.633333,
+    "lng": 42.966667
+  },
+  {
+    "locationCode": "ZAH",
+    "label": "Akhmeta",
+    "function": "6",
+    "lat": 42.016667,
+    "lng": 45.2
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anaklia",
+    "subdivisionCode": "SZ",
+    "function": "134",
+    "lat": 42.4,
+    "lng": 41.583333
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Batumi",
+    "function": "14"
+  },
+  {
+    "locationCode": "BNS",
+    "label": "Bolnisi",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": 44.5
+  },
+  {
+    "locationCode": "ZAL",
+    "label": "Borjomi",
+    "function": "6",
+    "lat": 41.833333,
+    "lng": 43.366667
+  },
+  {
+    "locationCode": "CHT",
+    "label": "Chiat'ura",
+    "subdivisionCode": "IM",
+    "function": "3",
+    "lat": 42.283333,
+    "lng": 43.283333
+  },
+  {
+    "locationCode": "GEO",
+    "label": "Chokhatauri",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 42.016667,
+    "lng": 42.25
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Chrebalo",
+    "function": "6",
+    "lat": 42.55,
+    "lng": 42.966667
+  },
+  {
+    "locationCode": "DED",
+    "label": "Dedoplistskaro",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 41.466667,
+    "lng": 46.1
+  },
+  {
+    "locationCode": "ZAE",
+    "label": "Dmanisi",
+    "function": "6",
+    "lat": 41.316667,
+    "lng": 44.35
+  },
+  {
+    "locationCode": "GGR",
+    "label": "Gagra",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 43.316667,
+    "lng": 40.216667
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Gardabani",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 41.45,
+    "lng": 45.083333
+  },
+  {
+    "locationCode": "ZAF",
+    "label": "Gori",
+    "function": "6",
+    "lat": 41.966667,
+    "lng": 44.1
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Gudauri",
+    "subdivisionCode": "MM",
+    "function": "23",
+    "lat": 42.466667,
+    "lng": 44.466667
+  },
+  {
+    "locationCode": "GUR",
+    "label": "Gurjaani",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakheti",
+    "subdivisionCode": "TB",
+    "function": "6",
+    "lat": 41.75,
+    "lng": 45.716667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Kareli",
+    "function": "6",
+    "lat": 42.016667,
+    "lng": 43.9
+  },
+  {
+    "locationCode": "ZAG",
+    "label": "Kaspi",
+    "function": "6",
+    "lat": 41.9,
+    "lng": 44.416667
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Kazreti",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": 44.4
+  },
+  {
+    "locationCode": "IES",
+    "label": "Khashmi",
+    "subdivisionCode": "TB",
+    "function": "13",
+    "lat": 41.75,
+    "lng": 45.166667
+  },
+  {
+    "locationCode": "KHI",
+    "label": "Khashuri",
+    "subdivisionCode": "SK",
+    "function": "23",
+    "lat": 41.983333,
+    "lng": 43.583333
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Khelvach'auri",
+    "subdivisionCode": "AJ",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 41.666667
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kulevi",
+    "function": "1",
+    "lat": 42.266667,
+    "lng": 41.633333
+  },
+  {
+    "locationCode": "KUT",
+    "label": "Kutaisi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Kvareli",
+    "function": "6",
+    "lat": 41.95,
+    "lng": 45.8
+  },
+  {
+    "locationCode": "LDK",
+    "label": "Lagodekhi",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 41.816667,
+    "lng": 46.283333
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Lanch' khut' i",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 42.083333,
+    "lng": 42.033333
+  },
+  {
+    "locationCode": "LIL",
+    "label": "Lilo",
+    "function": "3",
+    "lat": 41.666667,
+    "lng": 44.966667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marneuli",
+    "function": "3",
+    "lat": 41.466667,
+    "lng": 44.816667
+  },
+  {
+    "locationCode": "ZAA",
+    "label": "Mtskheta",
+    "function": "6",
+    "lat": 41.833333,
+    "lng": 44.7
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Nabeghlavi",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 41.933333,
+    "lng": 42.35
+  },
+  {
+    "locationCode": "NAT",
+    "label": "Natakhtari",
+    "subdivisionCode": "KK",
+    "function": "3",
+    "lat": 41.916667,
+    "lng": 44.716667
+  },
+  {
+    "locationCode": "KHV",
+    "label": "Orkhevi",
+    "function": "6",
+    "lat": 41.966667,
+    "lng": 45.016667
+  },
+  {
+    "locationCode": "5OZ",
+    "label": "Ozurgeti",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 41.916667,
+    "lng": 42
+  },
+  {
+    "locationCode": "PTI",
+    "label": "Poti",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZAK",
+    "label": "Rustavi",
+    "function": "6",
+    "lat": 41.533333,
+    "lng": 45
+  },
+  {
+    "locationCode": "RTV",
+    "label": "Rust'Avi",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": 45
+  },
+  {
+    "locationCode": "SAC",
+    "label": "Sach' khere",
+    "function": "3",
+    "lat": 42.333333,
+    "lng": 43.416667
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Saguramo",
+    "subdivisionCode": "TB",
+    "function": "3",
+    "lat": 41.9,
+    "lng": 44.75
+  },
+  {
+    "locationCode": "STD",
+    "label": "Samtredia",
+    "function": "6",
+    "lat": 42.15,
+    "lng": 42.333333
+  },
+  {
+    "locationCode": "ZAJ",
+    "label": "Senaki",
+    "function": "6",
+    "lat": 42.266667,
+    "lng": 42.066667
+  },
+  {
+    "locationCode": "SHP",
+    "label": "Shorapani",
+    "function": "6",
+    "lat": 42.083333,
+    "lng": 43.1
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Sighnaghi",
+    "subdivisionCode": "TB",
+    "function": "3",
+    "lat": 41.616667,
+    "lng": 45.916667
+  },
+  {
+    "locationCode": "SUI",
+    "label": "Sokhumi",
+    "subdivisionCode": "SZ",
+    "function": "34",
+    "lat": 43,
+    "lng": 41.016667
+  },
+  {
+    "locationCode": "ABK",
+    "label": "Sukhumi",
+    "subdivisionCode": "AB",
+    "function": "13",
+    "lat": 43,
+    "lng": 41
+  },
+  {
+    "locationCode": "SPS",
+    "label": "Sup'sa",
+    "function": "1",
+    "lat": 42.033333,
+    "lng": 41.8
+  },
+  {
+    "locationCode": "TBS",
+    "label": "Tbilisi",
+    "subdivisionCode": "TB",
+    "function": "45",
+    "lat": 41.716667,
+    "lng": 44.783333
+  },
+  {
+    "locationCode": "TEL",
+    "label": "T'elavi",
+    "function": "3",
+    "lat": 41.916667,
+    "lng": 45.466667
+  },
+  {
+    "locationCode": "TRL",
+    "label": "Terjola",
+    "subdivisionCode": "IM",
+    "function": "3",
+    "lat": 42.166667,
+    "lng": 42.966667
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Tsageri",
+    "function": "3",
+    "lat": 42.633333,
+    "lng": 42.75
+  },
+  {
+    "locationCode": "TSK",
+    "label": "Tsalenjikha",
+    "function": "6",
+    "lat": 42.266667,
+    "lng": 42.066667
+  },
+  {
+    "locationCode": "TS2",
+    "label": "Tsinandali",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 41.883333,
+    "lng": 45.566667
+  },
+  {
+    "locationCode": "TSI",
+    "label": "Tsintskaro",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 44.616667
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Vachnadziani",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": 45.65
+  },
+  {
+    "locationCode": "VAZ",
+    "label": "Vaziani",
+    "subdivisionCode": "TB",
+    "function": "234",
+    "lat": 41.683333,
+    "lng": 45.05
+  },
+  {
+    "locationCode": "ZOG",
+    "label": "Zestap'oni",
+    "function": "6",
+    "lat": 42.1,
+    "lng": 43.05
+  },
+  {
+    "locationCode": "ZTP",
+    "label": "Zestap'oni",
+    "subdivisionCode": "IM",
+    "function": "3",
+    "lat": 42.1,
+    "lng": 43.05
+  },
+  {
+    "locationCode": "ZHI",
+    "label": "Zhinvali",
+    "function": "3",
+    "lat": 42.1,
+    "lng": 44.766667
+  },
+  {
+    "locationCode": "ZAD",
+    "label": "Zugdidi",
+    "function": "6",
+    "lat": 42.5,
+    "lng": 41.866667
+  }
+]

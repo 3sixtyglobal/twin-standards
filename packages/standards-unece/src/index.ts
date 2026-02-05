@@ -1,7 +1,14 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 export * from "./dataTypes/uneceDataTypes.js";
-export * from "./models/IUneceCode.js";
+export * from "./helpers/unLocodes.js";
+export * from "./models/IUnLocodeCountry.js";
+export * from "./models/IUnLocodeCountrySubdivision.js";
+export * from "./models/IUnLocodeCountrySubdivisionRecord.js";
+export * from "./models/IUnLocodeFunction.js";
+export * from "./models/IUnLocodeLocation.js";
+export * from "./models/IUnLocodeLocationRecord.js";
+export * from "./models/IUnLocodeSubdivision.js";
 export * from "./models/bsp/IUneceAcademicQualification.js";
 export * from "./models/bsp/IUneceAccountingAccount.js";
 export * from "./models/bsp/IUneceAccreditation.js";
@@ -537,6 +544,10 @@ export * from "./models/lists/uneceValidationDocumentStatusCodeList.js";
 export * from "./models/lists/uneceVolumeUnitMeasureCode.js";
 export * from "./models/lists/uneceWeightUnitMeasureCode.js";
 export * from "./models/lists/uneceWorkflowStatusCodeList.js";
+export * from "./models/locode/unLocodeCountries.js";
+export * from "./models/locode/unLocodeCountriesList.js";
+export * from "./models/locode/unLocodeFunctions.js";
+export * from "./models/locode/unLocodeFunctionsList.js";
 export * from "./models/uneceContextType.js";
 export * from "./models/uneceContexts.js";
 export * from "./models/uneceTypes.js";

@@ -1,0 +1,216 @@
+[
+  {
+    "locationCode": "HMD",
+    "label": "Ahmadi",
+    "function": "6",
+    "lat": 29.066667,
+    "lng": 48.083333
+  },
+  {
+    "locationCode": "AHJ",
+    "label": "Ahmed Al Jaber",
+    "function": "3",
+    "lat": 28.933333,
+    "lng": 47.783333
+  },
+  {
+    "locationCode": "ABD",
+    "label": "Al 'Abdaliyah",
+    "function": "3",
+    "lat": 29.05,
+    "lng": 47.733333
+  },
+  {
+    "locationCode": "ALF",
+    "label": "Al Farwaniyah",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 29.266667,
+    "lng": 47.95
+  },
+  {
+    "locationCode": "WAF",
+    "label": "Al Wafrah",
+    "function": "3",
+    "lat": 28.55,
+    "lng": 47.833333
+  },
+  {
+    "locationCode": "AIS",
+    "label": "Ali al Salem AB",
+    "function": "3",
+    "lat": 29.333333,
+    "lng": 47.516667
+  },
+  {
+    "locationCode": "SYA",
+    "label": "As Sabahiyah",
+    "function": "3",
+    "lat": 29.1,
+    "lng": 48.1
+  },
+  {
+    "locationCode": "SAL",
+    "label": "As Salimiyah",
+    "function": "13",
+    "lat": 29.333333,
+    "lng": 48.083333
+  },
+  {
+    "locationCode": "KHT",
+    "label": "As Sulaybikhat",
+    "subdivisionCode": "AH",
+    "function": "13"
+  },
+  {
+    "locationCode": "HAW",
+    "label": "Awalli",
+    "function": "6",
+    "lat": 29.316667,
+    "lng": 48.016667
+  },
+  {
+    "locationCode": "CAJ",
+    "label": "Camp Arifjan",
+    "function": "3",
+    "lat": 28.9,
+    "lng": 48.183333
+  },
+  {
+    "locationCode": "CBG",
+    "label": "Camp Buehring",
+    "subdivisionCode": "JA",
+    "function": "34",
+    "lat": 29.7,
+    "lng": 47.433333
+  },
+  {
+    "locationCode": "DOH",
+    "label": "Doha",
+    "subdivisionCode": "KU",
+    "function": "1",
+    "lat": 29.383333,
+    "lng": 47.8
+  },
+  {
+    "locationCode": "FIN",
+    "label": "Fintas",
+    "subdivisionCode": "AH",
+    "function": "3",
+    "lat": 29.166667,
+    "lng": 48.116667
+  },
+  {
+    "locationCode": "HWI",
+    "label": "Hawalli",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 29.333333,
+    "lng": 48.033333
+  },
+  {
+    "locationCode": "JBD",
+    "label": "Jebel Dhana",
+    "function": "1"
+  },
+  {
+    "locationCode": "KFZ",
+    "label": "Kaifan",
+    "function": "6",
+    "lat": 29.333333,
+    "lng": 47.966667
+  },
+  {
+    "locationCode": "KWM",
+    "label": "Khor al Mufatta",
+    "function": "1"
+  },
+  {
+    "locationCode": "KWI",
+    "label": "Kuwait",
+    "function": "145"
+  },
+  {
+    "locationCode": "MIB",
+    "label": "Mina' 'Abd Allah",
+    "function": "1",
+    "lat": 29.016667,
+    "lng": 48.166667
+  },
+  {
+    "locationCode": "MEA",
+    "label": "Mina' al Ahmadi",
+    "function": "1",
+    "lat": 29.066667,
+    "lng": 48.15
+  },
+  {
+    "locationCode": "MZR",
+    "label": "Mina Al Zour",
+    "subdivisionCode": "AH",
+    "function": "1",
+    "lat": 28.716667,
+    "lng": 48.4
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Mina Alo Manti",
+    "function": "0"
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Mina Saud",
+    "function": "1",
+    "lat": 28.766667,
+    "lng": 48.466667
+  },
+  {
+    "locationCode": "ALR",
+    "label": "Ra's al Ard",
+    "function": "6",
+    "lat": 29.35,
+    "lng": 48.083333
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumaithiya",
+    "function": "3",
+    "lat": 29.316667,
+    "lng": 48.516667
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safat",
+    "function": "0"
+  },
+  {
+    "locationCode": "SMY",
+    "label": "Salmiya",
+    "subdivisionCode": "HA",
+    "function": "1",
+    "lat": 29.333333,
+    "lng": 48.083333
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Shuaiba",
+    "function": "136",
+    "lat": 29.033333,
+    "lng": 48.133333
+  },
+  {
+    "locationCode": "SWK",
+    "label": "Shuwaikh",
+    "function": "1",
+    "lat": 29.35,
+    "lng": 47.933333
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Sulaibiya",
+    "subdivisionCode": "JA",
+    "function": "3",
+    "lat": 29.283333,
+    "lng": 47.816667
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "locationCode": "BRD",
+    "label": "Brades",
+    "function": "3",
+    "lat": 16.783333,
+    "lng": -62.2
+  },
+  {
+    "locationCode": "LTB",
+    "label": "Little Bay",
+    "function": "13",
+    "lat": 16.8,
+    "lng": -62.2
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Montserrat",
+    "function": "4"
+  },
+  {
+    "locationCode": "PLY",
+    "label": "Plymouth",
+    "function": "15"
+  }
+]

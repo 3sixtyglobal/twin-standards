@@ -1,0 +1,65 @@
+[
+  {
+    "locationCode": "AIT",
+    "label": "Aitutaki",
+    "function": "145"
+  },
+  {
+    "locationCode": "ARU",
+    "label": "Arutunga",
+    "function": "1"
+  },
+  {
+    "locationCode": "AIU",
+    "label": "Atiu",
+    "function": "14"
+  },
+  {
+    "locationCode": "AVA",
+    "label": "Avarua",
+    "function": "3",
+    "lat": -21.183333,
+    "lng": -159.766667
+  },
+  {
+    "locationCode": "MGS",
+    "label": "Mangaia",
+    "function": "14"
+  },
+  {
+    "locationCode": "MHX",
+    "label": "Manihiki Island",
+    "function": "4",
+    "lat": -10.366667,
+    "lng": -161
+  },
+  {
+    "locationCode": "MUK",
+    "label": "Mauke Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOI",
+    "label": "Mitiaro Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "PYE",
+    "label": "Penrhyn Island",
+    "function": "4",
+    "lat": -9.016667,
+    "lng": -158.033333
+  },
+  {
+    "locationCode": "PZK",
+    "label": "Puka Puka Island",
+    "function": "4",
+    "lat": 58.05,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "RAR",
+    "label": "Rarotonga",
+    "function": "145"
+  }
+]

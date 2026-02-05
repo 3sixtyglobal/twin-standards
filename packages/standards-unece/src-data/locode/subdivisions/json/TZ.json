@@ -1,0 +1,157 @@
+[
+  {
+    "code": "01",
+    "label": "Arusha",
+    "type": "Region"
+  },
+  {
+    "code": "02",
+    "label": "Dar es Salaam",
+    "type": "Region"
+  },
+  {
+    "code": "03",
+    "label": "Dodoma",
+    "type": "Region"
+  },
+  {
+    "code": "04",
+    "label": "Iringa",
+    "type": "Region"
+  },
+  {
+    "code": "05",
+    "label": "Kagera",
+    "type": "Region"
+  },
+  {
+    "code": "06",
+    "label": "Kaskazini Pemba",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Kaskazini Unguja",
+    "type": "Region"
+  },
+  {
+    "code": "08",
+    "label": "Kigoma",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Kilimanjaro",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Kusini Pemba",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "Kusini Unguja",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "Lindi",
+    "type": "Region"
+  },
+  {
+    "code": "13",
+    "label": "Mara",
+    "type": "Region"
+  },
+  {
+    "code": "14",
+    "label": "Mbeya",
+    "type": "Region"
+  },
+  {
+    "code": "15",
+    "label": "Mjini Magharibi",
+    "type": "Region"
+  },
+  {
+    "code": "16",
+    "label": "Morogoro",
+    "type": "Region"
+  },
+  {
+    "code": "17",
+    "label": "Mtwara",
+    "type": "Region"
+  },
+  {
+    "code": "18",
+    "label": "Mwanza",
+    "type": "Region"
+  },
+  {
+    "code": "19",
+    "label": "Pwani",
+    "type": "Region"
+  },
+  {
+    "code": "20",
+    "label": "Rukwa",
+    "type": "Region"
+  },
+  {
+    "code": "21",
+    "label": "Ruvuma",
+    "type": "Region"
+  },
+  {
+    "code": "22",
+    "label": "Shinyanga",
+    "type": "Region"
+  },
+  {
+    "code": "23",
+    "label": "Singida",
+    "type": "Region"
+  },
+  {
+    "code": "24",
+    "label": "Tabora",
+    "type": "Region"
+  },
+  {
+    "code": "25",
+    "label": "Tanga",
+    "type": "Region"
+  },
+  {
+    "code": "26",
+    "label": "Manyara",
+    "type": "Region"
+  },
+  {
+    "code": "27",
+    "label": "Geita",
+    "type": "Region"
+  },
+  {
+    "code": "28",
+    "label": "Katavi",
+    "type": "Region"
+  },
+  {
+    "code": "29",
+    "label": "Njombe",
+    "type": "Region"
+  },
+  {
+    "code": "30",
+    "label": "Simiyu",
+    "type": "Region"
+  },
+  {
+    "code": "31",
+    "label": "Songwe",
+    "type": "Region"
+  }
+]

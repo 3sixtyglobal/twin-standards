@@ -1,0 +1,9675 @@
+[
+  {
+    "locationCode": "NRP",
+    "label": "Aal-SEZ/Vishakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "API",
+    "label": "Aap-SEZ/Ahmedabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "ABH",
+    "label": "Abohar",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.15,
+    "lng": 74.183333
+  },
+  {
+    "locationCode": "ABU",
+    "label": "Abu Road",
+    "subdivisionCode": "RJ",
+    "function": "23",
+    "lat": 24.483333,
+    "lng": 72.783333
+  },
+  {
+    "locationCode": "ACK",
+    "label": "Acharapakkam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": 79.8
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Achra",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "APL",
+    "label": "Acpl Cfs/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "AKM",
+    "label": "Adakamaranahalli",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 13.066667,
+    "lng": 77.433333
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Adambakkam",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.983333,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "QRP",
+    "label": "Adani Icd/Kila Raipur",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.75,
+    "lng": 75.85
+  },
+  {
+    "locationCode": "ABD",
+    "label": "Adilabad",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 19.666667,
+    "lng": 78.533333
+  },
+  {
+    "locationCode": "ADL",
+    "label": "Adimali",
+    "function": "6",
+    "lat": 10,
+    "lng": 76.95
+  },
+  {
+    "locationCode": "ADP",
+    "label": "Adipur",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 34.266667,
+    "lng": 74.483333
+  },
+  {
+    "locationCode": "FMT",
+    "label": "Aditabla",
+    "subdivisionCode": "TG",
+    "function": "6",
+    "lat": 17.383333,
+    "lng": 78.9
+  },
+  {
+    "locationCode": "ADY",
+    "label": "Adyar",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13,
+    "lng": 80.25
+  },
+  {
+    "locationCode": "CJA",
+    "label": "AEIP SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "BWS",
+    "label": "Afs/Kapashera",
+    "subdivisionCode": "DL",
+    "function": "6",
+    "lat": 28.866667,
+    "lng": 77.133333
+  },
+  {
+    "locationCode": "IXA",
+    "label": "Agartala",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGX",
+    "label": "Agatti Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGR",
+    "label": "Agra",
+    "subdivisionCode": "UP",
+    "function": "46"
+  },
+  {
+    "locationCode": "AGA",
+    "label": "Agucha",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.816667,
+    "lng": 74.716667
+  },
+  {
+    "locationCode": "AMD",
+    "label": "Ahmedabad",
+    "subdivisionCode": "GJ",
+    "function": "2346",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "MUM",
+    "label": "Ahmednagar",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 19.083333,
+    "lng": 74.733333
+  },
+  {
+    "locationCode": "BPS",
+    "label": "Air Parcel Sorting Office/Mumbai",
+    "subdivisionCode": "MH",
+    "function": "5",
+    "lat": 18.916667,
+    "lng": 72.8
+  },
+  {
+    "locationCode": "AJL",
+    "label": "Aizawl",
+    "function": "4"
+  },
+  {
+    "locationCode": "AJI",
+    "label": "Ajmer",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.45,
+    "lng": 74.633333
+  },
+  {
+    "locationCode": "AKD",
+    "label": "Akola",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alang SBY",
+    "function": "12"
+  },
+  {
+    "locationCode": "AGU",
+    "label": "Alangulam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 8.866667,
+    "lng": 77.5
+  },
+  {
+    "locationCode": "ABG",
+    "label": "Alibag",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "ALG",
+    "label": "Aligarh",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.883333,
+    "lng": 78.066667
+  },
+  {
+    "locationCode": "APR",
+    "label": "Alipore",
+    "subdivisionCode": "WB",
+    "function": "23",
+    "lat": 22.516667,
+    "lng": 88.316667
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alirajpur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.3,
+    "lng": 74.35
+  },
+  {
+    "locationCode": "IXD",
+    "label": "Allahabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALF",
+    "label": "Alleppey",
+    "subdivisionCode": "KL",
+    "function": "1",
+    "lat": 9.483333,
+    "lng": 76.316667
+  },
+  {
+    "locationCode": "IXV",
+    "label": "Along Apt",
+    "subdivisionCode": "AR",
+    "function": "34",
+    "lat": 28.166667,
+    "lng": 94.766667
+  },
+  {
+    "locationCode": "ALP",
+    "label": "Alpl Cfs/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "ALW",
+    "label": "Alwar",
+    "subdivisionCode": "RJ",
+    "function": "36",
+    "lat": 27.566667,
+    "lng": 76.6
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Ambad",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.616667,
+    "lng": 75.8
+  },
+  {
+    "locationCode": "ACT",
+    "label": "Ambala Cantonment",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 30.6,
+    "lng": 77.4
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Ambatturai (Ambathurai)",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 10.266667,
+    "lng": 77.933333
+  },
+  {
+    "locationCode": "ABN",
+    "label": "Ambernath",
+    "function": "3",
+    "lat": 19.2,
+    "lng": 73.183333
+  },
+  {
+    "locationCode": "AMT",
+    "label": "Amethi",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.15,
+    "lng": 81.816667
+  },
+  {
+    "locationCode": "AMG",
+    "label": "Amingaon (Gauhati)",
+    "subdivisionCode": "AS",
+    "function": "6"
+  },
+  {
+    "locationCode": "AIS",
+    "label": "Amini Island",
+    "subdivisionCode": "LD",
+    "function": "1",
+    "lat": 11.116667,
+    "lng": 72.733333
+  },
+  {
+    "locationCode": "ATQ",
+    "label": "Amritsar",
+    "subdivisionCode": "PB",
+    "function": "46"
+  },
+  {
+    "locationCode": "NNN",
+    "label": "Amrlitcl-SEZ/Nanguneri",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.483333,
+    "lng": 77.666667
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Ana",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.283333,
+    "lng": 73.483333
+  },
+  {
+    "locationCode": "QNB",
+    "label": "Anand",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.566667,
+    "lng": 75.933333
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Anandpur Sahib",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 31.25,
+    "lng": 76.5
+  },
+  {
+    "locationCode": "APH",
+    "label": "Anantapur",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 14.683333,
+    "lng": 77.6
+  },
+  {
+    "locationCode": "APT",
+    "label": "Anaparti",
+    "subdivisionCode": "AP",
+    "function": "6"
+  },
+  {
+    "locationCode": "ADE",
+    "label": "Andheri East",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 19.116667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Andorth Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "ADI",
+    "label": "Androth Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANO",
+    "label": "Angul",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.85,
+    "lng": 85.1
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Anijengo",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "AKV",
+    "label": "Ankleshwar",
+    "subdivisionCode": "GJ",
+    "function": "236",
+    "lat": 21.6,
+    "lng": 73
+  },
+  {
+    "locationCode": "ANU",
+    "label": "Anuppur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.1,
+    "lng": 81.683333
+  },
+  {
+    "locationCode": "AKP",
+    "label": "APIICL SEZ/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "GLY",
+    "label": "APIICL-SEZ/Mahabaoobnagar",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.733333,
+    "lng": 77.983333
+  },
+  {
+    "locationCode": "MDE",
+    "label": "APIICL-SEZ/Medak",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 18.033333,
+    "lng": 78.266667
+  },
+  {
+    "locationCode": "FMA",
+    "label": "APIICL-SEZ/Ranga Reddy",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.366667,
+    "lng": 78.466667
+  },
+  {
+    "locationCode": "MEA",
+    "label": "APIIC-SEZ/Lalgadi",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.833333,
+    "lng": 78.716667
+  },
+  {
+    "locationCode": "DLH",
+    "label": "Apllp Sez/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.883333,
+    "lng": 77.616667
+  },
+  {
+    "locationCode": "GRW",
+    "label": "Apm Icd/Bhamboli-Khed",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 17.716667,
+    "lng": 73.383333
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arakkonam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.1,
+    "lng": 79.666667
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Ariyalur",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.133333,
+    "lng": 79.083333
+  },
+  {
+    "locationCode": "ANL",
+    "label": "Arnala",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARR",
+    "label": "Aroor",
+    "subdivisionCode": "KL",
+    "function": "6"
+  },
+  {
+    "locationCode": "PNV",
+    "label": "Arshiya International Ltd.-SEZ/Panvel",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.983333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Artha Sez/Greater Noida",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.816667,
+    "lng": 77.883333
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Asdipl-SEZ/Nellore",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 14.433333,
+    "lng": 79.966667
+  },
+  {
+    "locationCode": "ASL",
+    "label": "Aslali",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.916667,
+    "lng": 72.6
+  },
+  {
+    "locationCode": "ATT",
+    "label": "Attari",
+    "subdivisionCode": "PB",
+    "function": "2"
+  },
+  {
+    "locationCode": "ATR",
+    "label": "Attari Road",
+    "subdivisionCode": "PB"
+  },
+  {
+    "locationCode": "ATU",
+    "label": "Attur",
+    "subdivisionCode": "TN",
+    "function": "16",
+    "lat": 12.733333,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "AUR",
+    "label": "Auraiya",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.45,
+    "lng": 79.5
+  },
+  {
+    "locationCode": "IXU",
+    "label": "Aurangabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWM",
+    "label": "Aurangabad",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.883333,
+    "lng": 75.333333
+  },
+  {
+    "locationCode": "AZK",
+    "label": "Azhikkal",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNP",
+    "label": "Babarpur",
+    "subdivisionCode": "HR",
+    "function": "6"
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Badagara",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "BBM",
+    "label": "Badami",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 15.916667,
+    "lng": 75.683333
+  },
+  {
+    "locationCode": "BDI",
+    "label": "Baddi",
+    "subdivisionCode": "HP",
+    "function": "3"
+  },
+  {
+    "locationCode": "IXB",
+    "label": "Bagdogra",
+    "subdivisionCode": "WB",
+    "function": "4"
+  },
+  {
+    "locationCode": "BGM",
+    "label": "Baghamara",
+    "subdivisionCode": "ML",
+    "function": "3",
+    "lat": 25.2,
+    "lng": 90.633333
+  },
+  {
+    "locationCode": "BBP",
+    "label": "Bahabal Pur",
+    "subdivisionCode": "OR",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahadurgarh",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.683333,
+    "lng": 76.916667
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Baharampur",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 24.1,
+    "lng": 88.25
+  },
+  {
+    "locationCode": "BHH",
+    "label": "Bahraich",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.583333,
+    "lng": 81.6
+  },
+  {
+    "locationCode": "BDR",
+    "label": "Baindur",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGU",
+    "label": "Bairgania",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Balanagar",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.966667,
+    "lng": 78.166667
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Balangir",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.716667,
+    "lng": 83.483333
+  },
+  {
+    "locationCode": "BLS",
+    "label": "Balasore",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.483333,
+    "lng": 86.916667
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Balet",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "BGH",
+    "label": "Ballabgarh",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.35,
+    "lng": 77.3
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Balli",
+    "subdivisionCode": "GA",
+    "function": "236",
+    "lat": 15.15,
+    "lng": 74.016667
+  },
+  {
+    "locationCode": "BLL",
+    "label": "Ballia",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.2,
+    "lng": 79.366667
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balotra",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.833333,
+    "lng": 72.233333
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Balrampur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.433333,
+    "lng": 82.183333
+  },
+  {
+    "locationCode": "RGH",
+    "label": "Balurghat",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSA",
+    "label": "Banbasa",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "BND",
+    "label": "Banddar",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDA",
+    "label": "Bandra",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLR",
+    "label": "Bangalore",
+    "subdivisionCode": "KA",
+    "function": "2346",
+    "lat": 12.983333,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "BPT",
+    "label": "Bangarapet",
+    "subdivisionCode": "KA",
+    "function": "123",
+    "lat": 12.983333,
+    "lng": 78.183333
+  },
+  {
+    "locationCode": "BKT",
+    "label": "Bankot",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BKR",
+    "label": "Bankura",
+    "subdivisionCode": "WB",
+    "function": "23",
+    "lat": 23.25,
+    "lng": 87.066667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Banswara",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 23.55,
+    "lng": 74.45
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Baramati",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.15,
+    "lng": 74.583333
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Baran",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.1,
+    "lng": 76.5
+  },
+  {
+    "locationCode": "BNI",
+    "label": "Barauni",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 25.266667,
+    "lng": 85.583333
+  },
+  {
+    "locationCode": "RRA",
+    "label": "Barbil",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 22.1,
+    "lng": 85.383333
+  },
+  {
+    "locationCode": "BAE",
+    "label": "Bardhaman",
+    "subdivisionCode": "WB",
+    "function": "23",
+    "lat": 23.233333,
+    "lng": 87.866667
+  },
+  {
+    "locationCode": "BEK",
+    "label": "Bareilly",
+    "subdivisionCode": "UP",
+    "function": "4"
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Bargarh",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.333333,
+    "lng": 83.616667
+  },
+  {
+    "locationCode": "BMP",
+    "label": "Bargawan",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 25.683333,
+    "lng": 77.033333
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bari",
+    "subdivisionCode": "HR",
+    "function": "236",
+    "lat": 29.116667,
+    "lng": 77.033333
+  },
+  {
+    "locationCode": "BBH",
+    "label": "Bari Brahmana",
+    "subdivisionCode": "JK",
+    "function": "23",
+    "lat": 32.633333,
+    "lng": 74.916667
+  },
+  {
+    "locationCode": "BMR",
+    "label": "Barmer",
+    "subdivisionCode": "RJ",
+    "function": "2"
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barnala",
+    "subdivisionCode": "PB",
+    "function": "23",
+    "lat": 30.383333,
+    "lng": 75.55
+  },
+  {
+    "locationCode": "BRC",
+    "label": "Baroda",
+    "subdivisionCode": "GJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "UPH",
+    "label": "Barotiwala",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 30.433333,
+    "lng": 77.783333
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Barpeta",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.316667,
+    "lng": 91
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Barsora",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "BWL",
+    "label": "Barwala",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 30.483333,
+    "lng": 77.833333
+  },
+  {
+    "locationCode": "JUX",
+    "label": "Basni",
+    "subdivisionCode": "RJ",
+    "function": "236",
+    "lat": 26.233333,
+    "lng": 73.016667
+  },
+  {
+    "locationCode": "BSN",
+    "label": "Bassain",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Basti",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.816667,
+    "lng": 82.75
+  },
+  {
+    "locationCode": "BTD",
+    "label": "Bathinda",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.2,
+    "lng": 74.933333
+  },
+  {
+    "locationCode": "BOU",
+    "label": "Bauda",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.833333,
+    "lng": 84.316667
+  },
+  {
+    "locationCode": "BAW",
+    "label": "Bawal",
+    "subdivisionCode": "HR",
+    "function": "1"
+  },
+  {
+    "locationCode": "KJR",
+    "label": "Bbrel Sez/Kundalahalli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.05,
+    "lng": 77.683333
+  },
+  {
+    "locationCode": "KJM",
+    "label": "Bd Sez/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.85,
+    "lng": 77.633333
+  },
+  {
+    "locationCode": "BED",
+    "label": "Bedi",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEE",
+    "label": "Beed",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.966667,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "BLP",
+    "label": "Belapur",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLK",
+    "label": "Belekeri",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "IXG",
+    "label": "Belgaum",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEP",
+    "label": "Bellary",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTL",
+    "label": "Beltola",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.116667,
+    "lng": 91.8
+  },
+  {
+    "locationCode": "BNY",
+    "label": "Berhni",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "BET",
+    "label": "Betul",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Betul",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 21.916667,
+    "lng": 77.883333
+  },
+  {
+    "locationCode": "BEY",
+    "label": "Beypore",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "BYT",
+    "label": "Beyt",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAD",
+    "label": "Bhaddi",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 31.15,
+    "lng": 76.35
+  },
+  {
+    "locationCode": "BDH",
+    "label": "Bhadohi",
+    "subdivisionCode": "UP",
+    "function": "126",
+    "lat": 25.416667,
+    "lng": 82.566667
+  },
+  {
+    "locationCode": "BHK",
+    "label": "Bhadrakh",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.05,
+    "lng": 86.516667
+  },
+  {
+    "locationCode": "BGW",
+    "label": "Bhagwa",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BHP",
+    "label": "Bhagwanpur",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 30.1,
+    "lng": 77.133333
+  },
+  {
+    "locationCode": "BHA",
+    "label": "Bharatpur",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 27.216667,
+    "lng": 77.483333
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Bharuch",
+    "subdivisionCode": "GJ",
+    "function": "123",
+    "lat": 21.7,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "BUP",
+    "label": "Bhatinda",
+    "subdivisionCode": "PB",
+    "function": "46"
+  },
+  {
+    "locationCode": "BTK",
+    "label": "Bhatkal",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "BHU",
+    "label": "Bhavnagar",
+    "subdivisionCode": "GJ",
+    "function": "1234",
+    "lat": 21.766667,
+    "lng": 72.133333
+  },
+  {
+    "locationCode": "BHW",
+    "label": "Bhawanigarh",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.433333,
+    "lng": 76.05
+  },
+  {
+    "locationCode": "BYD",
+    "label": "Bhayandar",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.3,
+    "lng": 72.85
+  },
+  {
+    "locationCode": "BHM",
+    "label": "Bheemunipatnam",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTP",
+    "label": "Bhetapara",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.116667,
+    "lng": 91.783333
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Bhilad",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 20.283333,
+    "lng": 72.9
+  },
+  {
+    "locationCode": "BHI",
+    "label": "Bhilai",
+    "subdivisionCode": "MP",
+    "function": "23",
+    "lat": 21.216667,
+    "lng": 81.433333
+  },
+  {
+    "locationCode": "BHL",
+    "label": "Bhilwara",
+    "subdivisionCode": "RJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "9BH",
+    "label": "Bhimasar",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.533333,
+    "lng": 70.866667
+  },
+  {
+    "locationCode": "BMV",
+    "label": "Bhimavaram",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.533333,
+    "lng": 81.533333
+  },
+  {
+    "locationCode": "BNR",
+    "label": "Bhimnagar",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "BHN",
+    "label": "Bhind",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 26.55,
+    "lng": 78.783333
+  },
+  {
+    "locationCode": "BTM",
+    "label": "Bhithamore (Sursnad)",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "BWD",
+    "label": "Bhiwadi",
+    "subdivisionCode": "RJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "BWN",
+    "label": "Bhiwandi",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BW2",
+    "label": "Bhiwani",
+    "subdivisionCode": "HR",
+    "function": "6"
+  },
+  {
+    "locationCode": "VGR",
+    "label": "Bhojva Icd/Viramgam",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.116667,
+    "lng": 72.05
+  },
+  {
+    "locationCode": "BHO",
+    "label": "Bhopal",
+    "subdivisionCode": "MP",
+    "function": "4",
+    "lat": 23.266667,
+    "lng": 77.4
+  },
+  {
+    "locationCode": "BBI",
+    "label": "Bhubaneswar",
+    "subdivisionCode": "OR",
+    "function": "4"
+  },
+  {
+    "locationCode": "BHJ",
+    "label": "Bhuj",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSL",
+    "label": "Bhusawal",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 21.05,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "AKB",
+    "label": "BIACPL SEZ/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "BID",
+    "label": "Bidar",
+    "subdivisionCode": "KA",
+    "function": "6"
+  },
+  {
+    "locationCode": "BJP",
+    "label": "Bijapur",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 16.833333,
+    "lng": 75.7
+  },
+  {
+    "locationCode": "BKB",
+    "label": "Bikaner",
+    "function": "4"
+  },
+  {
+    "locationCode": "BRI",
+    "label": "Bikaner",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 28.016667,
+    "lng": 73.3
+  },
+  {
+    "locationCode": "BLI",
+    "label": "Bilari",
+    "subdivisionCode": "UP",
+    "function": "2",
+    "lat": 28.616667,
+    "lng": 78.8
+  },
+  {
+    "locationCode": "PAB",
+    "label": "Bilaspur",
+    "subdivisionCode": "CT",
+    "function": "34",
+    "lat": 22.083333,
+    "lng": 82.133333
+  },
+  {
+    "locationCode": "BLU",
+    "label": "Bilaspur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.883333,
+    "lng": 79.266667
+  },
+  {
+    "locationCode": "BLM",
+    "label": "Bilimora",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBC",
+    "label": "Biocon-SEZ/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.983333,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "DLO",
+    "label": "Birpara Lcs",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 26.516667,
+    "lng": 88.733333
+  },
+  {
+    "locationCode": "BPR",
+    "label": "Bistupur",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 22.783333,
+    "lng": 86.166667
+  },
+  {
+    "locationCode": "BTR",
+    "label": "Bitra Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSC",
+    "label": "Bokaro Steel City",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 23.666667,
+    "lng": 86.15
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolanganj",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "BON",
+    "label": "Bongaigaon",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.466667,
+    "lng": 90.566667
+  },
+  {
+    "locationCode": "BOP",
+    "label": "Bonthapally",
+    "subdivisionCode": "TG",
+    "function": "3",
+    "lat": 17.65,
+    "lng": 78.366667
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Boranada, Jodhpur",
+    "subdivisionCode": "RJ",
+    "function": "36",
+    "lat": 26.266667,
+    "lng": 73.166667
+  },
+  {
+    "locationCode": "BWR",
+    "label": "Borawar",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 27.016667,
+    "lng": 74.683333
+  },
+  {
+    "locationCode": "BOK",
+    "label": "Borkhedi ICD/Nagpur",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 20.85,
+    "lng": 78.95
+  },
+  {
+    "locationCode": "BRM",
+    "label": "Borliai-Mandla",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRY",
+    "label": "Borya",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRH",
+    "label": "Broach",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNB",
+    "label": "BTSL SEZ/Pune",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "BUU",
+    "label": "Budaun",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.05,
+    "lng": 79.116667
+  },
+  {
+    "locationCode": "BUD",
+    "label": "Budge-Budge",
+    "subdivisionCode": "WB",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSR",
+    "label": "Bulsar",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Bundala",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 31.533333,
+    "lng": 74.966667
+  },
+  {
+    "locationCode": "NGB",
+    "label": "Butibori ICD/Nagpur",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 21.15,
+    "lng": 79.1
+  },
+  {
+    "locationCode": "CAP",
+    "label": "Calingapatam",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Cambay",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "CBD",
+    "label": "Car Nicobar",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carijam",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNC",
+    "label": "Ccclil-SEZ/Tuticorin",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.783333,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "ADC",
+    "label": "Ccipl-SEZ/Ahmadabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "SPC",
+    "label": "Cclpil Sez/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 13.216667,
+    "lng": 79.033333
+  },
+  {
+    "locationCode": "CPC",
+    "label": "Cgml Cfs/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "ADR",
+    "label": "Cgrpl-SEZ/Ahmadabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "CKN",
+    "label": "Chakan",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.75,
+    "lng": 73.85
+  },
+  {
+    "locationCode": "CHP",
+    "label": "Champai",
+    "subdivisionCode": "MZ"
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chamurci",
+    "subdivisionCode": "SK"
+  },
+  {
+    "locationCode": "CSM",
+    "label": "Chanasma",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 23.716667,
+    "lng": 72.116667
+  },
+  {
+    "locationCode": "CBL",
+    "label": "Chandbali",
+    "subdivisionCode": "OR",
+    "function": "1"
+  },
+  {
+    "locationCode": "IXC",
+    "label": "Chandigarh",
+    "subdivisionCode": "PB",
+    "function": "4",
+    "lat": 30.733333,
+    "lng": 76.783333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chandrapur",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.95,
+    "lng": 79.3
+  },
+  {
+    "locationCode": "CHG",
+    "label": "Changanacherry",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 9.466667,
+    "lng": 76.55
+  },
+  {
+    "locationCode": "CRB",
+    "label": "Changrabandha",
+    "subdivisionCode": "WB",
+    "function": "23",
+    "lat": 26.416667,
+    "lng": 88.916667
+  },
+  {
+    "locationCode": "CHR",
+    "label": "Chapora",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "CSI",
+    "label": "Chattrapati Shivaji International Apt",
+    "subdivisionCode": "MH",
+    "function": "234",
+    "lat": 19.083333,
+    "lng": 72.866667
+  },
+  {
+    "locationCode": "CPR",
+    "label": "Chawapayal ICD/Samrala",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.833333,
+    "lng": 76.183333
+  },
+  {
+    "locationCode": "CPU",
+    "label": "Chengalpattu",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.7,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "CGN",
+    "label": "Chengannur",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 9.333333,
+    "lng": 76.633333
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Chennai (ex Madras)",
+    "subdivisionCode": "TN",
+    "function": "12345",
+    "lat": 13.083333,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "CTI",
+    "label": "Chetlat Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUZ",
+    "label": "Chetpet",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.066667,
+    "lng": 80.233333
+  },
+  {
+    "locationCode": "VTC",
+    "label": "Cheyyar-SEZ/Vellore",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.933333,
+    "lng": 79.133333
+  },
+  {
+    "locationCode": "CHN",
+    "label": "Chhani/Vadodora",
+    "subdivisionCode": "GJ",
+    "function": "36",
+    "lat": 22.3,
+    "lng": 73.183333
+  },
+  {
+    "locationCode": "CHH",
+    "label": "Chhatarpur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.9,
+    "lng": 79.583333
+  },
+  {
+    "locationCode": "CDM",
+    "label": "Chidambaram",
+    "subdivisionCode": "TN",
+    "function": "23",
+    "lat": 11.4,
+    "lng": 79.7
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chikaballur",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "CKH",
+    "label": "Chikalthana",
+    "function": "3",
+    "lat": 19.95,
+    "lng": 76.216667
+  },
+  {
+    "locationCode": "CHY",
+    "label": "Chimakurthy",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 15.5,
+    "lng": 80.033333
+  },
+  {
+    "locationCode": "CHV",
+    "label": "Chinchvad",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.616667,
+    "lng": 73.783333
+  },
+  {
+    "locationCode": "CST",
+    "label": "Chinchwad Station",
+    "subdivisionCode": "MH",
+    "function": "236",
+    "lat": 18.633333,
+    "lng": 73.783333
+  },
+  {
+    "locationCode": "CBC",
+    "label": "CHIPL SEZ/Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11.25,
+    "lng": 77.333333
+  },
+  {
+    "locationCode": "CPL",
+    "label": "Chiplun",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 17.533333,
+    "lng": 73.516667
+  },
+  {
+    "locationCode": "CLX",
+    "label": "Chirala",
+    "subdivisionCode": "AP",
+    "function": "6"
+  },
+  {
+    "locationCode": "CHW",
+    "label": "Chirawa",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 28.25,
+    "lng": 75.633333
+  },
+  {
+    "locationCode": "CKA",
+    "label": "Chirkunda",
+    "function": "6",
+    "lat": 24.233333,
+    "lng": 87.3
+  },
+  {
+    "locationCode": "CHT",
+    "label": "Chittoor",
+    "subdivisionCode": "AP",
+    "function": "23",
+    "lat": 13.2,
+    "lng": 79.1
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Chittorgarh",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 24.883333,
+    "lng": 74.616667
+  },
+  {
+    "locationCode": "GGA",
+    "label": "Choga",
+    "subdivisionCode": "GJ",
+    "function": "1",
+    "lat": 21.683333,
+    "lng": 72.266667
+  },
+  {
+    "locationCode": "CHS",
+    "label": "Cholapuram",
+    "subdivisionCode": "TN",
+    "function": "23",
+    "lat": 9.366667,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Choolai",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.083333,
+    "lng": 80.266667
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Churu",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.6,
+    "lng": 75.45
+  },
+  {
+    "locationCode": "TMX",
+    "label": "CMTL ICD/Thimmapur",
+    "subdivisionCode": "AP",
+    "function": "36",
+    "lat": 16.5,
+    "lng": 78.25
+  },
+  {
+    "locationCode": "COK",
+    "label": "Cochin",
+    "subdivisionCode": "KL",
+    "function": "12346",
+    "lat": 9.966667,
+    "lng": 76.233333
+  },
+  {
+    "locationCode": "CJB",
+    "label": "Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "46"
+  },
+  {
+    "locationCode": "COL",
+    "label": "Colochel",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Concor ICD/Balasore",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 21.483333,
+    "lng": 86.916667
+  },
+  {
+    "locationCode": "JSG",
+    "label": "Concor ICD/Jharsuguda",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 21.933333,
+    "lng": 84.05
+  },
+  {
+    "locationCode": "KPK",
+    "label": "Concor Icd/Mihan",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 21.05,
+    "lng": 79.033333
+  },
+  {
+    "locationCode": "RML",
+    "label": "Concor Icd/Nayaraipur",
+    "subdivisionCode": "CT",
+    "function": "6",
+    "lat": 21.266667,
+    "lng": 81.116667
+  },
+  {
+    "locationCode": "BVC",
+    "label": "Concor-ICD/Ballabhgarh",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.35,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "CON",
+    "label": "Contai",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 21.766667,
+    "lng": 87.75
+  },
+  {
+    "locationCode": "COH",
+    "label": "Cooch Behar",
+    "function": "4"
+  },
+  {
+    "locationCode": "COO",
+    "label": "Coondapur (Ganguly)",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "CNR",
+    "label": "Coonoor",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11.35,
+    "lng": 76.816667
+  },
+  {
+    "locationCode": "CRN",
+    "label": "Cornwallis",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "COS",
+    "label": "Cossipore",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 22.616667,
+    "lng": 88.366667
+  },
+  {
+    "locationCode": "TBC",
+    "label": "CTSI SEZ/Siruseri",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 13.083333,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "CDL",
+    "label": "Cuddalore",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "CDP",
+    "label": "Cuddapah",
+    "function": "4"
+  },
+  {
+    "locationCode": "CUT",
+    "label": "Cuttack",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.5,
+    "lng": 85.833333
+  },
+  {
+    "locationCode": "DHP",
+    "label": "Dabhol Port",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRL",
+    "label": "Dabolim",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAD",
+    "label": "Dadra",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 20.316667,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "DRI",
+    "label": "Dadri",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "DCT",
+    "label": "Dadri Container Terminal",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.533333
+  },
+  {
+    "locationCode": "DER",
+    "label": "Dadri ICD/Noida",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "DHU",
+    "label": "Dahanu",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAH",
+    "label": "Dahej",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BHD",
+    "label": "Dahez SEZ",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.7,
+    "lng": 72.583333
+  },
+  {
+    "locationCode": "DLU",
+    "label": "Dalu",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "DAM",
+    "label": "Daman",
+    "subdivisionCode": "DD",
+    "function": "14"
+  },
+  {
+    "locationCode": "DAO",
+    "label": "Damoh",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.833333,
+    "lng": 79.45
+  },
+  {
+    "locationCode": "DTW",
+    "label": "Dantiwara",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAE",
+    "label": "Daparizo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DPR",
+    "label": "Dappar",
+    "subdivisionCode": "PB",
+    "function": "36",
+    "lat": 30.516667,
+    "lng": 76.8
+  },
+  {
+    "locationCode": "DAI",
+    "label": "Darjeeling",
+    "function": "4"
+  },
+  {
+    "locationCode": "DRG",
+    "label": "Darranga",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Dashrath Puri",
+    "subdivisionCode": "DL",
+    "function": "6",
+    "lat": 28.6,
+    "lng": 77.083333
+  },
+  {
+    "locationCode": "RTR",
+    "label": "Dasrath",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.833333,
+    "lng": 86.45
+  },
+  {
+    "locationCode": "DAT",
+    "label": "Datia",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 25.65,
+    "lng": 78.45
+  },
+  {
+    "locationCode": "DLB",
+    "label": "Daulatabad",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.933333,
+    "lng": 75.233333
+  },
+  {
+    "locationCode": "DAU",
+    "label": "Dausa",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.883333,
+    "lng": 76.333333
+  },
+  {
+    "locationCode": "DWK",
+    "label": "Dawki",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "CDD",
+    "label": "DCA-I SEZ/Chandigarh",
+    "subdivisionCode": "HR",
+    "function": "36",
+    "lat": 30.733333,
+    "lng": 76.783333
+  },
+  {
+    "locationCode": "CDC",
+    "label": "DCA-II SEZ/Chandigarh",
+    "subdivisionCode": "HR",
+    "function": "36",
+    "lat": 30.733333,
+    "lng": 76.783333
+  },
+  {
+    "locationCode": "DEE",
+    "label": "Deesa (Disa)",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 24.25,
+    "lng": 72.166667
+  },
+  {
+    "locationCode": "DED",
+    "label": "Dehra Dun",
+    "subdivisionCode": "UT",
+    "function": "4",
+    "lat": 30.316667,
+    "lng": 78.033333
+  },
+  {
+    "locationCode": "HRI",
+    "label": "Dehri",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 24.866667,
+    "lng": 84.166667
+  },
+  {
+    "locationCode": "KML",
+    "label": "Deipl Sez/Kurubarapalli",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.533333,
+    "lng": 78.2
+  },
+  {
+    "locationCode": "DEL",
+    "label": "Delhi",
+    "subdivisionCode": "DL",
+    "function": "45"
+  },
+  {
+    "locationCode": "DMR",
+    "label": "Demagir",
+    "subdivisionCode": "NL"
+  },
+  {
+    "locationCode": "DEG",
+    "label": "Deogad",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "DEB",
+    "label": "Deogarh",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.533333,
+    "lng": 84.733333
+  },
+  {
+    "locationCode": "DEO",
+    "label": "Deoria",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.5,
+    "lng": 83.783333
+  },
+  {
+    "locationCode": "DEP",
+    "label": "Deparizo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBA",
+    "label": "Dera Bassi",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.583333,
+    "lng": 76.833333
+  },
+  {
+    "locationCode": "DTM",
+    "label": "Devathanam/Tiruchirappalli",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 9.383333,
+    "lng": 77.45
+  },
+  {
+    "locationCode": "DEW",
+    "label": "Dewas",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.966667,
+    "lng": 76.066667
+  },
+  {
+    "locationCode": "DHL",
+    "label": "Dhalaighat",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "DMA",
+    "label": "Dhamara",
+    "subdivisionCode": "OR",
+    "function": "123",
+    "lat": 20.8,
+    "lng": 86.9
+  },
+  {
+    "locationCode": "DMQ",
+    "label": "Dhamra Port",
+    "subdivisionCode": "OR",
+    "function": "1",
+    "lat": 20.816667,
+    "lng": 86.95
+  },
+  {
+    "locationCode": "DBD",
+    "label": "Dhanbad",
+    "function": "4"
+  },
+  {
+    "locationCode": "DHA",
+    "label": "Dhannad/Indore",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.716667,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "DSK",
+    "label": "Dhanu-shkodi",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "HRD",
+    "label": "Dhar",
+    "subdivisionCode": "HP",
+    "function": "6",
+    "lat": 31.466667,
+    "lng": 77.716667
+  },
+  {
+    "locationCode": "DHM",
+    "label": "Dharamsala",
+    "function": "4"
+  },
+  {
+    "locationCode": "DMT",
+    "label": "Dharamtar",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "DPM",
+    "label": "Dharapuram",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 10.733333,
+    "lng": 77.516667
+  },
+  {
+    "locationCode": "DLA",
+    "label": "Dharchula",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "DPI",
+    "label": "Dharmapuri",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.133333,
+    "lng": 78.166667
+  },
+  {
+    "locationCode": "DRH",
+    "label": "Dharuhera",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.216667,
+    "lng": 76.783333
+  },
+  {
+    "locationCode": "DHW",
+    "label": "Dharwad",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 15.466667,
+    "lng": 75.016667
+  },
+  {
+    "locationCode": "DHE",
+    "label": "Dhemaji",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 27.483333,
+    "lng": 94.583333
+  },
+  {
+    "locationCode": "DNK",
+    "label": "Dhenkanal",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.666667,
+    "lng": 85.6
+  },
+  {
+    "locationCode": "DHR",
+    "label": "Dholera",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "DHK",
+    "label": "Dholka",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.716667,
+    "lng": 72.466667
+  },
+  {
+    "locationCode": "DHO",
+    "label": "Dholpur",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.683333,
+    "lng": 77.866667
+  },
+  {
+    "locationCode": "DHB",
+    "label": "Dhubri Steamerghat",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "DLE",
+    "label": "Dhule",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 20.9,
+    "lng": 74.783333
+  },
+  {
+    "locationCode": "DIB",
+    "label": "Dibrugarh",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIG",
+    "label": "Dighi (Pune)",
+    "subdivisionCode": "MH",
+    "function": "136",
+    "lat": 18.25,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "DMU",
+    "label": "Dimapur",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIL",
+    "label": "Dindigul",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 10.35,
+    "lng": 77.95
+  },
+  {
+    "locationCode": "DIN",
+    "label": "Dindori",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.95,
+    "lng": 81.083333
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Dishman-Pharmaceutical-SEZ/Kalyangadh",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.85,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "DIU",
+    "label": "Diu",
+    "subdivisionCode": "DD",
+    "function": "14"
+  },
+  {
+    "locationCode": "DIV",
+    "label": "Div",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "CJD",
+    "label": "DLFC SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "VZM",
+    "label": "Dll SEZ/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "LPS",
+    "label": "DSIL SEZ/Ranga Reddy",
+    "subdivisionCode": "AP",
+    "function": "36",
+    "lat": 17.083333,
+    "lng": 78.716667
+  },
+  {
+    "locationCode": "DGP",
+    "label": "Dungapur",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 23.833333,
+    "lng": 73.7
+  },
+  {
+    "locationCode": "DUR",
+    "label": "Durgapur",
+    "subdivisionCode": "WB",
+    "function": "36"
+  },
+  {
+    "locationCode": "DWA",
+    "label": "Dwarka",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRK",
+    "label": "Dwarka (Rupen)",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "JBL",
+    "label": "E-Complex-SEZ/Amreli",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.616667,
+    "lng": 71.233333
+  },
+  {
+    "locationCode": "CEC",
+    "label": "ECTN SEZ/Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "CJE",
+    "label": "ECTN SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "HSA",
+    "label": "ECTN SEZ/Krishnagiri",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.533333,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "MEC",
+    "label": "ECTN SEZ/Madurai-I",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 9.933333,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "MDC",
+    "label": "ECTN SEZ/Madurai-II",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 9.933333,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "SXE",
+    "label": "ECTN SEZ/Salem",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11.65,
+    "lng": 78.166667
+  },
+  {
+    "locationCode": "TPJ",
+    "label": "ECTN SEZ/Tiruchirapalli",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 10.816667,
+    "lng": 78.683333
+  },
+  {
+    "locationCode": "MAE",
+    "label": "ECTNL SEZ/Gangaikondan",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.733333,
+    "lng": 77.7
+  },
+  {
+    "locationCode": "EDP",
+    "label": "Edappally",
+    "subdivisionCode": "KL",
+    "function": "23",
+    "lat": 9.966667,
+    "lng": 76.266667
+  },
+  {
+    "locationCode": "GMR",
+    "label": "Egmore",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.066667,
+    "lng": 80.25
+  },
+  {
+    "locationCode": "PEK",
+    "label": "EKIPL SEZ/Pune",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "EOR",
+    "label": "Eloor",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 10.066667,
+    "lng": 76.3
+  },
+  {
+    "locationCode": "ESH",
+    "label": "Elphinstone Harbour",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "ELU",
+    "label": "Eluru",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.7,
+    "lng": 81.1
+  },
+  {
+    "locationCode": "ENR",
+    "label": "Ennore",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUE",
+    "label": "Eon SEZ/Kharadi",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.583333,
+    "lng": 73.383333
+  },
+  {
+    "locationCode": "EKM",
+    "label": "Ernakulam",
+    "subdivisionCode": "KL",
+    "function": "13",
+    "lat": 9.983333,
+    "lng": 76.283333
+  },
+  {
+    "locationCode": "ERO",
+    "label": "Erode",
+    "subdivisionCode": "TN",
+    "function": "13",
+    "lat": 11.35,
+    "lng": 77.733333
+  },
+  {
+    "locationCode": "CGE",
+    "label": "ETA SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "ETA",
+    "label": "Etah",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.633333,
+    "lng": 78.666667
+  },
+  {
+    "locationCode": "UKL",
+    "label": "Etlisl-SEZ/Erode",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11.35,
+    "lng": 77.733333
+  },
+  {
+    "locationCode": "BCO",
+    "label": "Euro Multivision Bhachau-SEZ/Kutch",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.583333,
+    "lng": 70
+  },
+  {
+    "locationCode": "URF",
+    "label": "FAB City SPV-SEZ/Srinagar&Raviryal",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.833333,
+    "lng": 78.716667
+  },
+  {
+    "locationCode": "FLT",
+    "label": "Falta",
+    "subdivisionCode": "WB",
+    "function": "236",
+    "lat": 22.283333,
+    "lng": 88.1
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Farakka",
+    "function": "3",
+    "lat": 24.816667,
+    "lng": 87.883333
+  },
+  {
+    "locationCode": "FBD",
+    "label": "Faridabad",
+    "subdivisionCode": "HR",
+    "function": "36"
+  },
+  {
+    "locationCode": "FBE",
+    "label": "Faridabad",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.433333,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "FRD",
+    "label": "Faridkot",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.666667,
+    "lng": 74.75
+  },
+  {
+    "locationCode": "FTS",
+    "label": "Fatehgarh Sahib",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.633333,
+    "lng": 76.366667
+  },
+  {
+    "locationCode": "FTP",
+    "label": "Fatehpur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 25.933333,
+    "lng": 80.8
+  },
+  {
+    "locationCode": "CFI",
+    "label": "FIPL SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "FZD",
+    "label": "Firozabad",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.15,
+    "lng": 78.416667
+  },
+  {
+    "locationCode": "FIR",
+    "label": "Firozpur",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.916667,
+    "lng": 74.6
+  },
+  {
+    "locationCode": "GDP",
+    "label": "Fllpl-SEZ/Thirruvallur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 10.766667,
+    "lng": 79.65
+  },
+  {
+    "locationCode": "BPL",
+    "label": "FPO BHOPAL/BHOPAL",
+    "subdivisionCode": "MP",
+    "function": "7",
+    "lat": 23.266667,
+    "lng": 77.383333
+  },
+  {
+    "locationCode": "PNF",
+    "label": "FPO PATNA/PATNA",
+    "subdivisionCode": "BR",
+    "function": "7",
+    "lat": 25.6,
+    "lng": 85.116667
+  },
+  {
+    "locationCode": "RNC",
+    "label": "FPO RANCHI/RANCHI",
+    "subdivisionCode": "JH",
+    "function": "7",
+    "lat": 23.366667,
+    "lng": 85.35
+  },
+  {
+    "locationCode": "FCH",
+    "label": "Fpo(Sea)/Chennai",
+    "subdivisionCode": "TN",
+    "function": "5",
+    "lat": 13.116667,
+    "lng": 80.3
+  },
+  {
+    "locationCode": "CJF",
+    "label": "Ftil-SEZ/Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "GJP",
+    "label": "Gajapati",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 19.183333,
+    "lng": 84.183333
+  },
+  {
+    "locationCode": "GUJ",
+    "label": "Gajraula",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 28.85,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galgalia",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "GAB",
+    "label": "Ganderbal",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 34.2,
+    "lng": 74.766667
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gandhar",
+    "function": "1",
+    "lat": 21.083333,
+    "lng": 72.633333
+  },
+  {
+    "locationCode": "GIN",
+    "label": "Gandhidham",
+    "subdivisionCode": "GJ",
+    "function": "236",
+    "lat": 23.083333,
+    "lng": 70.133333
+  },
+  {
+    "locationCode": "GDH",
+    "label": "Gandhinagar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.216667,
+    "lng": 72.683333
+  },
+  {
+    "locationCode": "GGR",
+    "label": "Ganganagar",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 29.916667,
+    "lng": 73.883333
+  },
+  {
+    "locationCode": "GGV",
+    "label": "Gangavaram",
+    "subdivisionCode": "AP",
+    "function": "1",
+    "lat": 17.65,
+    "lng": 83.25
+  },
+  {
+    "locationCode": "GAT",
+    "label": "Gangtok",
+    "subdivisionCode": "SK",
+    "function": "3",
+    "lat": 27.333333,
+    "lng": 88.616667
+  },
+  {
+    "locationCode": "GAJ",
+    "label": "Ganjam",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 19.383333,
+    "lng": 85.066667
+  },
+  {
+    "locationCode": "GRR",
+    "label": "Garden Reach",
+    "subdivisionCode": "WB",
+    "function": "123",
+    "lat": 22.516667,
+    "lng": 88.3
+  },
+  {
+    "locationCode": "GHR",
+    "label": "Garhi Harsaru",
+    "subdivisionCode": "HR",
+    "function": "36",
+    "lat": 28.45,
+    "lng": 76.933333
+  },
+  {
+    "locationCode": "GWA",
+    "label": "Garhwa",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 24.183333,
+    "lng": 83.816667
+  },
+  {
+    "locationCode": "GAU",
+    "label": "Gauhati (Panidi)",
+    "subdivisionCode": "AS",
+    "function": "1234"
+  },
+  {
+    "locationCode": "GAI",
+    "label": "Gauriphanta",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "GNU",
+    "label": "Gautam Budh Nagar",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.533333,
+    "lng": 77.466667
+  },
+  {
+    "locationCode": "GAY",
+    "label": "Gaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "GED",
+    "label": "Gede",
+    "subdivisionCode": "WB",
+    "function": "2"
+  },
+  {
+    "locationCode": "GTZ",
+    "label": "Getandah",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "GHP",
+    "label": "Ghasuapara",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "GZB",
+    "label": "Ghaziabad",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 28.666667,
+    "lng": 77.433333
+  },
+  {
+    "locationCode": "UDN",
+    "label": "Ghb-SEZ/Surat",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.166667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "GHA",
+    "label": "Ghogha",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "GJX",
+    "label": "Ghojadanga",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "GNG",
+    "label": "Gidc-SEZ/Gandhinagar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.216667,
+    "lng": 72.683333
+  },
+  {
+    "locationCode": "GDB",
+    "label": "Gidderbaha",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.2,
+    "lng": 74.666667
+  },
+  {
+    "locationCode": "ADG",
+    "label": "Gipl-SEZ/Ahmadabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "GTG",
+    "label": "Gitaldah Road",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "URG",
+    "label": "GMR Hyderabad Aviation-SEZ/Mamidipally",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.833333,
+    "lng": 78.716667
+  },
+  {
+    "locationCode": "GOI",
+    "label": "Goa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOA",
+    "label": "Goalpara",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.166667,
+    "lng": 90.616667
+  },
+  {
+    "locationCode": "HEB",
+    "label": "GOCL SEZ/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.983333,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "GAH",
+    "label": "Godhra",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 22.75,
+    "lng": 73.633333
+  },
+  {
+    "locationCode": "GOL",
+    "label": "Golaghat",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.516667,
+    "lng": 93.966667
+  },
+  {
+    "locationCode": "GKJ",
+    "label": "Golakganj",
+    "subdivisionCode": "AS",
+    "function": "2"
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gonda",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.833333,
+    "lng": 77.883333
+  },
+  {
+    "locationCode": "GDA",
+    "label": "Gondia",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 21.466667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "GPP",
+    "label": "Gopalpur",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 28.45,
+    "lng": 76.95
+  },
+  {
+    "locationCode": "GPR",
+    "label": "Gopalpur",
+    "subdivisionCode": "OR",
+    "function": "1"
+  },
+  {
+    "locationCode": "GOP",
+    "label": "Gorakhpur",
+    "subdivisionCode": "UP",
+    "function": "234",
+    "lat": 26.75,
+    "lng": 83.35
+  },
+  {
+    "locationCode": "GNP",
+    "label": "GPRPL SEZ/Gurgaon",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.333333,
+    "lng": 77.15
+  },
+  {
+    "locationCode": "GND",
+    "label": "Greater Nodia",
+    "subdivisionCode": "UP",
+    "function": "123",
+    "lat": 28.816667,
+    "lng": 77.883333
+  },
+  {
+    "locationCode": "GNO",
+    "label": "Greater Noida",
+    "subdivisionCode": "UP",
+    "function": "1",
+    "lat": 28.466667,
+    "lng": 77.516667
+  },
+  {
+    "locationCode": "BFR",
+    "label": "GRFL ICD/Ballabhgarh",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.35,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "SGF",
+    "label": "GRFL ICD/Sahnwewal",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.816667,
+    "lng": 75.95
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Güdür",
+    "labelWithDiacritics": "Gudur",
+    "function": "23",
+    "lat": 14.133333,
+    "lng": 79.833333
+  },
+  {
+    "locationCode": "GUL",
+    "label": "Gulabpura",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.8,
+    "lng": 75.616667
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Gulbarga",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 17.333333,
+    "lng": 76.833333
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Gumla",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 23.033333,
+    "lng": 84.533333
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gummidipoondi",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "GMM",
+    "label": "Gummidipundi",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.4,
+    "lng": 80.15
+  },
+  {
+    "locationCode": "GUX",
+    "label": "Guna",
+    "function": "4"
+  },
+  {
+    "locationCode": "GJI",
+    "label": "Gunji",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "GTR",
+    "label": "Guntur",
+    "subdivisionCode": "AP",
+    "function": "23"
+  },
+  {
+    "locationCode": "GDR",
+    "label": "Gurdaspur",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 32.033333,
+    "lng": 75.516667
+  },
+  {
+    "locationCode": "GGN",
+    "label": "Gurgaon",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 28.466667,
+    "lng": 77.033333
+  },
+  {
+    "locationCode": "HHG",
+    "label": "Gurgaon",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.333333,
+    "lng": 77.283333
+  },
+  {
+    "locationCode": "GAW",
+    "label": "Guwahati",
+    "subdivisionCode": "AS",
+    "function": "2"
+  },
+  {
+    "locationCode": "GWL",
+    "label": "Gwalior",
+    "subdivisionCode": "MP",
+    "function": "2346",
+    "lat": 26.216667,
+    "lng": 78.166667
+  },
+  {
+    "locationCode": "HAI",
+    "label": "Hailakandi",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 24.683333,
+    "lng": 92.566667
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Haldia",
+    "subdivisionCode": "WB",
+    "function": "1"
+  },
+  {
+    "locationCode": "HLD",
+    "label": "Haldibari",
+    "subdivisionCode": "AS",
+    "function": "2"
+  },
+  {
+    "locationCode": "HLO",
+    "label": "Halol",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.833333,
+    "lng": 76.766667
+  },
+  {
+    "locationCode": "HGT",
+    "label": "Hangarkatta",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "HGH",
+    "label": "Hanumangarh",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 29.583333,
+    "lng": 74.316667
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Haora",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 22.583333,
+    "lng": 88.3
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Harda",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 77.1
+  },
+  {
+    "locationCode": "HAO",
+    "label": "Hardoi",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.416667,
+    "lng": 80.116667
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Harnai",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Haryana",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 29.616667,
+    "lng": 76.983333
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hassan",
+    "subdivisionCode": "KA",
+    "function": "36",
+    "lat": 13,
+    "lng": 76.083333
+  },
+  {
+    "locationCode": "HTS",
+    "label": "Hatisar",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "HZR",
+    "label": "Hazira",
+    "subdivisionCode": "HR",
+    "function": "36",
+    "lat": 29.316667,
+    "lng": 75.083333
+  },
+  {
+    "locationCode": "HZA",
+    "label": "Hazira Port/Surat",
+    "subdivisionCode": "GJ",
+    "function": "1",
+    "lat": 21.083333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "LCH",
+    "label": "HCL SEZ/Lucknow",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 26.833333,
+    "lng": 80.9
+  },
+  {
+    "locationCode": "HND",
+    "label": "Hemnagar Lcs",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 22.45,
+    "lng": 88.966667
+  },
+  {
+    "locationCode": "FMH",
+    "label": "Hgsezl-SEZ/Ranga Reddy",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.366667,
+    "lng": 78.466667
+  },
+  {
+    "locationCode": "HLI",
+    "label": "Hilli",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "HIP",
+    "label": "Himachal Pradesh",
+    "subdivisionCode": "AN",
+    "function": "13"
+  },
+  {
+    "locationCode": "HNG",
+    "label": "Himatnagar",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 23.6,
+    "lng": 72.95
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hindaun ICD/Karauli",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 26.5,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "HDR",
+    "label": "Hindupur",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 13.816667,
+    "lng": 77.483333
+  },
+  {
+    "locationCode": "HGL",
+    "label": "Hingalganj",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "HIN",
+    "label": "Hingoli",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.716667,
+    "lng": 77.15
+  },
+  {
+    "locationCode": "TNI",
+    "label": "Hipl SEZ/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "HPR",
+    "label": "Hirapur",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": 21.55,
+    "lng": 79.783333
+  },
+  {
+    "locationCode": "TBH",
+    "label": "HIRL SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "HSS",
+    "label": "Hissar",
+    "function": "4"
+  },
+  {
+    "locationCode": "VKH",
+    "label": "HNB SEZ/Mumbai",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.966667,
+    "lng": 72.816667
+  },
+  {
+    "locationCode": "HON",
+    "label": "Honavar",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "HWR",
+    "label": "Honawar",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Hoshiarpur",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 31.516667,
+    "lng": 75.916667
+  },
+  {
+    "locationCode": "HPT",
+    "label": "Hospet",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 15.266667,
+    "lng": 76.4
+  },
+  {
+    "locationCode": "HSR",
+    "label": "Hosur",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 12.716667,
+    "lng": 77.816667
+  },
+  {
+    "locationCode": "HSU",
+    "label": "HOSUR ICD",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.716667,
+    "lng": 77.816667
+  },
+  {
+    "locationCode": "HOW",
+    "label": "Howrah",
+    "subdivisionCode": "WB",
+    "function": "23",
+    "lat": 22.6,
+    "lng": 88.266667
+  },
+  {
+    "locationCode": "TBS",
+    "label": "HTL SEZ/Siruseri",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.083333,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "HBX",
+    "label": "Hubli",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSI",
+    "label": "HVCPL SEZ/KADAYAM",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.7,
+    "lng": 77.466667
+  },
+  {
+    "locationCode": "HYD",
+    "label": "Hyderabad",
+    "subdivisionCode": "TG",
+    "function": "346"
+  },
+  {
+    "locationCode": "AIK",
+    "label": "Ibrahimpur Icd/Khurja",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.266667,
+    "lng": 77.866667
+  },
+  {
+    "locationCode": "JJK",
+    "label": "ICD JSL/JAJPUR",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 20.833333,
+    "lng": 86.35
+  },
+  {
+    "locationCode": "IDU",
+    "label": "Idukki",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 9.85,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "CJI",
+    "label": "IG3I SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "PKD",
+    "label": "Igel Sez/Kodur-Settipali",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.716667,
+    "lng": 78.016667
+  },
+  {
+    "locationCode": "AII",
+    "label": "IGGSL SEZ/Thane",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.2,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "INI",
+    "label": "IIPL SEZ/Indore",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.716667,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "DWR",
+    "label": "Il Sez/Hubli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 15.333333,
+    "lng": 75.116667
+  },
+  {
+    "locationCode": "IMF",
+    "label": "Imphal",
+    "subdivisionCode": "MN",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDP",
+    "label": "Indapur",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.116667,
+    "lng": 75.033333
+  },
+  {
+    "locationCode": "IDR",
+    "label": "Indore",
+    "subdivisionCode": "MP",
+    "function": "346",
+    "lat": 22.716667,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "IND",
+    "label": "Indrad",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.3,
+    "lng": 72.4
+  },
+  {
+    "locationCode": "KNK",
+    "label": "INFOPARK SEZ/Koratty",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 10.483333,
+    "lng": 76.483333
+  },
+  {
+    "locationCode": "HLE",
+    "label": "Infosys Electronic City Sez/Begur Hobli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 11.933333,
+    "lng": 76.683333
+  },
+  {
+    "locationCode": "DEF",
+    "label": "Infosys Sez/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.55,
+    "lng": 77.566667
+  },
+  {
+    "locationCode": "INN",
+    "label": "INFOSYS SEZ/Indore",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.716667,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Infosys Sez/Mohali",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.983333,
+    "lng": 76.516667
+  },
+  {
+    "locationCode": "GBN",
+    "label": "Ingau",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.533333,
+    "lng": 77.466667
+  },
+  {
+    "locationCode": "IRU",
+    "label": "Irungattukottai",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 13,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "ILP",
+    "label": "Irungattukottai-Ilp-ICD",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.983333,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "ISP",
+    "label": "Islampur",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 24.15,
+    "lng": 88.466667
+  },
+  {
+    "locationCode": "ITA",
+    "label": "Itanagar",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 27.1,
+    "lng": 93.616667
+  },
+  {
+    "locationCode": "BAU",
+    "label": "IT-ITES-A-SEZ/Ulwe",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.25,
+    "lng": 73.433333
+  },
+  {
+    "locationCode": "BAI",
+    "label": "IT-ITES-B-SEZ/Ulwe",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.25,
+    "lng": 73.433333
+  },
+  {
+    "locationCode": "BAT",
+    "label": "IT-ITES-C-SEZ/Ulwe",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.75,
+    "lng": 73.333333
+  },
+  {
+    "locationCode": "KLN",
+    "label": "IT-ITES-SEZ/Kalamboli",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.033333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "PIT",
+    "label": "ITL SEZ/Pune",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "GTI",
+    "label": "ITL SEZ/Ranga Reddy",
+    "subdivisionCode": "AP",
+    "function": "36",
+    "lat": 17.083333,
+    "lng": 78.716667
+  },
+  {
+    "locationCode": "WFT",
+    "label": "Itpl Sezii/Whitefield",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 77.75
+  },
+  {
+    "locationCode": "JLR",
+    "label": "Jabalpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "JCH",
+    "label": "Jadcheria",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.75,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "JBD",
+    "label": "Jafarabad",
+    "subdivisionCode": "GJ",
+    "function": "13",
+    "lat": 20.85,
+    "lng": 71.366667
+  },
+  {
+    "locationCode": "JTD",
+    "label": "Jagatdal",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 22.85,
+    "lng": 88.383333
+  },
+  {
+    "locationCode": "JAG",
+    "label": "Jagatsinghpur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.183333,
+    "lng": 86.333333
+  },
+  {
+    "locationCode": "JGB",
+    "label": "Jagdalpur",
+    "subdivisionCode": "CT",
+    "function": "34",
+    "lat": 19.083333,
+    "lng": 82.016667
+  },
+  {
+    "locationCode": "JHD",
+    "label": "Jahanabad",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 25.05,
+    "lng": 83.8
+  },
+  {
+    "locationCode": "JGD",
+    "label": "Jaigad",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "JIG",
+    "label": "Jaigaon",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "JAI",
+    "label": "Jaipur",
+    "subdivisionCode": "RJ",
+    "function": "2346",
+    "lat": 26.916667,
+    "lng": 75.816667
+  },
+  {
+    "locationCode": "KKU",
+    "label": "Jaipur-Kanakpura",
+    "function": "13"
+  },
+  {
+    "locationCode": "JSZ",
+    "label": "Jaipur-Sitapura",
+    "subdivisionCode": "RJ",
+    "function": "36",
+    "lat": 25.283333,
+    "lng": 75.683333
+  },
+  {
+    "locationCode": "JSA",
+    "label": "Jaisalmer",
+    "function": "4"
+  },
+  {
+    "locationCode": "JTP",
+    "label": "Jaitapur",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "JAJ",
+    "label": "Jajpur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.85,
+    "lng": 86.333333
+  },
+  {
+    "locationCode": "JAK",
+    "label": "Jakhau",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "JUC",
+    "label": "Jalandhar",
+    "subdivisionCode": "PB",
+    "function": "6"
+  },
+  {
+    "locationCode": "JAL",
+    "label": "Jalgaon",
+    "subdivisionCode": "MH",
+    "function": "6"
+  },
+  {
+    "locationCode": "JAN",
+    "label": "Jalna",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.833333,
+    "lng": 75.883333
+  },
+  {
+    "locationCode": "JAO",
+    "label": "Jalore",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.333333,
+    "lng": 72.6
+  },
+  {
+    "locationCode": "JPG",
+    "label": "Jalpaiguri",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "IXJ",
+    "label": "Jammu",
+    "subdivisionCode": "JK",
+    "function": "12346",
+    "lat": 32.7,
+    "lng": 74.85
+  },
+  {
+    "locationCode": "JGA",
+    "label": "Jamnagar",
+    "function": "4"
+  },
+  {
+    "locationCode": "IXW",
+    "label": "Jamshedpur",
+    "subdivisionCode": "JH",
+    "function": "234",
+    "lat": 22.8,
+    "lng": 86.183333
+  },
+  {
+    "locationCode": "JNL",
+    "label": "Janaula",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.35,
+    "lng": 76.8
+  },
+  {
+    "locationCode": "JWA",
+    "label": "Jarwa",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jaspur",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 29.266667,
+    "lng": 78.816667
+  },
+  {
+    "locationCode": "JPR",
+    "label": "Jaunpur",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 25.733333,
+    "lng": 82.683333
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Jawaharlal Nehru (Nhava Sheva)",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "JAY",
+    "label": "Jayanagar",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "JAD",
+    "label": "Jehanabad",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 25.2,
+    "lng": 84.983333
+  },
+  {
+    "locationCode": "PYB",
+    "label": "Jeypore",
+    "function": "4"
+  },
+  {
+    "locationCode": "CJG",
+    "label": "JGHIPL SEZ/Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "JHB",
+    "label": "Jhabua",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.766667,
+    "lng": 74.6
+  },
+  {
+    "locationCode": "JHA",
+    "label": "Jhagadia",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 21.7,
+    "lng": 73.15
+  },
+  {
+    "locationCode": "JJR",
+    "label": "Jhajjar",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.616667,
+    "lng": 76.65
+  },
+  {
+    "locationCode": "JLW",
+    "label": "Jhalawar",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 24.6,
+    "lng": 76.15
+  },
+  {
+    "locationCode": "JHR",
+    "label": "Jharsuguda",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 21.85,
+    "lng": 84.033333
+  },
+  {
+    "locationCode": "JHO",
+    "label": "Jhulaghat (Pithoragarh)",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "JJN",
+    "label": "Jhunjhunu",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 28.133333,
+    "lng": 75.4
+  },
+  {
+    "locationCode": "JIN",
+    "label": "Jind",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 29.316667,
+    "lng": 76.316667
+  },
+  {
+    "locationCode": "CJJ",
+    "label": "JMFTZ-SEZ/Mannur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 10.5,
+    "lng": 77.483333
+  },
+  {
+    "locationCode": "JDG",
+    "label": "Jodhpur",
+    "subdivisionCode": "GJ",
+    "function": "16",
+    "lat": 21.883333,
+    "lng": 70.033333
+  },
+  {
+    "locationCode": "JDH",
+    "label": "Jodhpur",
+    "subdivisionCode": "RJ",
+    "function": "346",
+    "lat": 26.25,
+    "lng": 73.033333
+  },
+  {
+    "locationCode": "BGK",
+    "label": "Jodhpur-Bhagat Ki Kothi",
+    "function": "3"
+  },
+  {
+    "locationCode": "THA",
+    "label": "Jodhpur-Thar",
+    "function": "23"
+  },
+  {
+    "locationCode": "JDA",
+    "label": "Jodia",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "JBN",
+    "label": "Jogbani",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "RIC",
+    "label": "Johdpur ICD",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.283333,
+    "lng": 73.016667
+  },
+  {
+    "locationCode": "JRH",
+    "label": "Jorhat",
+    "function": "4"
+  },
+  {
+    "locationCode": "BHC",
+    "label": "Jubilant-Chemical-SEZ/Vilayat",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "QJU",
+    "label": "Jullundur",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 31.316667,
+    "lng": 75.583333
+  },
+  {
+    "locationCode": "JUN",
+    "label": "Junagadh",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.516667,
+    "lng": 70.466667
+  },
+  {
+    "locationCode": "KGM",
+    "label": "Kachigam",
+    "subdivisionCode": "DD",
+    "function": "3",
+    "lat": 20.383333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "KDI",
+    "label": "Kadmat Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Kagal",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 16.583333,
+    "lng": 74.316667
+  },
+  {
+    "locationCode": "KKL",
+    "label": "Kaikalur",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.566667,
+    "lng": 81.2
+  },
+  {
+    "locationCode": "IXH",
+    "label": "Kailashahar",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWH",
+    "label": "Kakarahawa Lcs",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 25.4,
+    "lng": 81.883333
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakinada",
+    "subdivisionCode": "AP",
+    "function": "16"
+  },
+  {
+    "locationCode": "KKK",
+    "label": "Kakkanad",
+    "function": "6",
+    "lat": 9.983333,
+    "lng": 76.333333
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kakrala",
+    "subdivisionCode": "PB",
+    "function": "23",
+    "lat": 30.366667,
+    "lng": 76.1
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Kala Amb",
+    "subdivisionCode": "HP",
+    "function": "6",
+    "lat": 30.5,
+    "lng": 77.2
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kalahandi",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.1,
+    "lng": 83.15
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Kalamboli",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.033333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kallai",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Kalol",
+    "subdivisionCode": "GJ",
+    "function": "36",
+    "lat": 23.233333,
+    "lng": 72.5
+  },
+  {
+    "locationCode": "KPI",
+    "label": "Kalpeni Island",
+    "subdivisionCode": "LD",
+    "function": "1",
+    "lat": 10.066667,
+    "lng": 73.633333
+  },
+  {
+    "locationCode": "KLY",
+    "label": "Kalyan",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "IXQ",
+    "label": "Kamalpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "PBL",
+    "label": "Kamardwisa Lcs",
+    "subdivisionCode": "AS",
+    "function": "6",
+    "lat": 26.316667,
+    "lng": 90.783333
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kampur",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.2,
+    "lng": 92.633333
+  },
+  {
+    "locationCode": "KKP",
+    "label": "Kanakapura",
+    "subdivisionCode": "KA",
+    "function": "23",
+    "lat": 12.55,
+    "lng": 77.416667
+  },
+  {
+    "locationCode": "MAB",
+    "label": "Kanara",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 14,
+    "lng": 75
+  },
+  {
+    "locationCode": "KCP",
+    "label": "Kanchipuram",
+    "subdivisionCode": "TN",
+    "function": "23",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Kandhamal",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.133333,
+    "lng": 84.016667
+  },
+  {
+    "locationCode": "IXY",
+    "label": "Kandla",
+    "subdivisionCode": "GJ",
+    "function": "12346",
+    "lat": 23.033333,
+    "lng": 70.216667
+  },
+  {
+    "locationCode": "KDL",
+    "label": "Kandla-SEZ/Gandhidham",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 70.216667
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Kanech ICD/Sahnewal",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.85,
+    "lng": 75.983333
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Kangra",
+    "subdivisionCode": "HP",
+    "function": "3",
+    "lat": 32.1,
+    "lng": 76.266667
+  },
+  {
+    "locationCode": "KND",
+    "label": "Kankudy",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "KNN",
+    "label": "Kannur",
+    "subdivisionCode": "KL",
+    "function": "34",
+    "lat": 11.85,
+    "lng": 75.366667
+  },
+  {
+    "locationCode": "KNU",
+    "label": "Kanpur",
+    "subdivisionCode": "UP",
+    "function": "46"
+  },
+  {
+    "locationCode": "KBS",
+    "label": "Kansbahal",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 22.216667,
+    "lng": 84.65
+  },
+  {
+    "locationCode": "KKM",
+    "label": "Kanyakumari",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapadra (Surat)",
+    "subdivisionCode": "GJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "KPT",
+    "label": "Kapurthala",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 31.366667,
+    "lng": 75.383333
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Karaikal",
+    "subdivisionCode": "PY",
+    "function": "1"
+  },
+  {
+    "locationCode": "UTQ",
+    "label": "Karamadi",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.266667,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "KMD",
+    "label": "Karamsad",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.55,
+    "lng": 72.9
+  },
+  {
+    "locationCode": "KRN",
+    "label": "Karanja",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Karauli",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.5,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Karbi Anglong",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 25.75,
+    "lng": 93.15
+  },
+  {
+    "locationCode": "KDD",
+    "label": "Karedu",
+    "subdivisionCode": "AP",
+    "function": "6"
+  },
+  {
+    "locationCode": "KRG",
+    "label": "Karegaon",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.566667,
+    "lng": 75.2
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Karimganj",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 24.866667,
+    "lng": 92.35
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Karimnagar",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 18.5,
+    "lng": 79.25
+  },
+  {
+    "locationCode": "KRL",
+    "label": "Karnal",
+    "function": "6",
+    "lat": 29.683333,
+    "lng": 76.983333
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karur",
+    "subdivisionCode": "TN",
+    "function": "1236",
+    "lat": 10.95,
+    "lng": 78.083333
+  },
+  {
+    "locationCode": "KRW",
+    "label": "Karwar",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSG",
+    "label": "Kasargod",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSR",
+    "label": "Kashipur",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 29.216667,
+    "lng": 78.95
+  },
+  {
+    "locationCode": "KWD",
+    "label": "Kasrawad",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.133333,
+    "lng": 75.6
+  },
+  {
+    "locationCode": "KTG",
+    "label": "Katarniyaghat",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "KTR",
+    "label": "Kathinhar",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "CML",
+    "label": "Kathuwas Icd/Alwar",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 27.55,
+    "lng": 76.583333
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Katni",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.816667,
+    "lng": 80.4
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kattupalli",
+    "subdivisionCode": "TN",
+    "function": "123",
+    "lat": 13.3,
+    "lng": 80.35
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Kattupalli Port",
+    "subdivisionCode": "TN",
+    "function": "123",
+    "lat": 13.3,
+    "lng": 80.383333
+  },
+  {
+    "locationCode": "KVT",
+    "label": "Kavaram Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "KVI",
+    "label": "Kavi",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BNC",
+    "label": "Kbits-SEZ/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.983333,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kel Sahar Subdivision",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "KSH",
+    "label": "Kelshi",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIW",
+    "label": "Kelwa",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KNP",
+    "label": "Kendrapara",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.5,
+    "lng": 86.416667
+  },
+  {
+    "locationCode": "KHR",
+    "label": "Kendujhar",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.616667,
+    "lng": 85.566667
+  },
+  {
+    "locationCode": "KEO",
+    "label": "Keonjhar",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.5,
+    "lng": 85.5
+  },
+  {
+    "locationCode": "MDU",
+    "label": "Kern Icd/Madurai",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 9.916667,
+    "lng": 78.1
+  },
+  {
+    "locationCode": "IXK",
+    "label": "Keshod",
+    "function": "4"
+  },
+  {
+    "locationCode": "HJR",
+    "label": "Khajuraho",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLP",
+    "label": "Khalapur",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.816667,
+    "lng": 73.266667
+  },
+  {
+    "locationCode": "KHI",
+    "label": "Khambhaliya",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.35,
+    "lng": 69.65
+  },
+  {
+    "locationCode": "KBT",
+    "label": "Khambhat",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "KGA",
+    "label": "Khamgaon",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.683333,
+    "lng": 76.566667
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Khammam",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 17.25,
+    "lng": 80.15
+  },
+  {
+    "locationCode": "KHS",
+    "label": "Khandsha",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.416667,
+    "lng": 77
+  },
+  {
+    "locationCode": "KGR",
+    "label": "Kharagpur",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 22.333333,
+    "lng": 87.333333
+  },
+  {
+    "locationCode": "WSI",
+    "label": "Kharsawan",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 22.766667,
+    "lng": 85.816667
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Khatauli",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 29.283333,
+    "lng": 77.716667
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khatima",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.916667,
+    "lng": 79.966667
+  },
+  {
+    "locationCode": "KHE",
+    "label": "Kheda",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.75,
+    "lng": 72.683333
+  },
+  {
+    "locationCode": "KHD",
+    "label": "Kheda/Dhar",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.6,
+    "lng": 75.3
+  },
+  {
+    "locationCode": "LAH",
+    "label": "Kheri",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.9,
+    "lng": 80.8
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khodiyar",
+    "subdivisionCode": "GJ",
+    "function": "16",
+    "lat": 23.05,
+    "lng": 72.933333
+  },
+  {
+    "locationCode": "KPL",
+    "label": "Khopoli",
+    "function": "6",
+    "lat": 18.783333,
+    "lng": 73.333333
+  },
+  {
+    "locationCode": "KHP",
+    "label": "Khopta",
+    "function": "6"
+  },
+  {
+    "locationCode": "IXN",
+    "label": "Khowai",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWG",
+    "label": "Khowaighat",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "KWA",
+    "label": "Khunwa",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "HSF",
+    "label": "Kiadbfp-SEZ/Hassan",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13,
+    "lng": 76.083333
+  },
+  {
+    "locationCode": "HSP",
+    "label": "Kiadbp-SEZ/Hassan",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13,
+    "lng": 76.083333
+  },
+  {
+    "locationCode": "HST",
+    "label": "Kiadbt-SEZ/Hassan",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13,
+    "lng": 76.083333
+  },
+  {
+    "locationCode": "KKR",
+    "label": "Kilakari",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "KTI",
+    "label": "Kiltan Is",
+    "subdivisionCode": "LD",
+    "function": "1"
+  },
+  {
+    "locationCode": "TVC",
+    "label": "Kinfraa-SEZ/Thiruvananthapuram",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 8.483333,
+    "lng": 76.916667
+  },
+  {
+    "locationCode": "CCT",
+    "label": "Kinfrafp-SEZ/Kozhikkode",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 11.25,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "PUI",
+    "label": "Kippl-Gdpl Sez/Kharadi",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 17.583333,
+    "lng": 75.283333
+  },
+  {
+    "locationCode": "KRP",
+    "label": "Kiranpani",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kishtwar",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 33.316667,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "PNK",
+    "label": "Klppl-ICD/Panki",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 26.466667,
+    "lng": 80.216667
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Kochi",
+    "subdivisionCode": "KL",
+    "function": "35",
+    "lat": 9.966667,
+    "lng": 76.266667
+  },
+  {
+    "locationCode": "KDM",
+    "label": "Kodambakkam",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.033333,
+    "lng": 80.216667
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kodarma (Koderma)",
+    "subdivisionCode": "JH",
+    "function": "6",
+    "lat": 24.466667,
+    "lng": 85.6
+  },
+  {
+    "locationCode": "KOD",
+    "label": "Kodinar",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "KDR",
+    "label": "Kodungallur",
+    "subdivisionCode": "KL",
+    "function": "5",
+    "lat": 10.216667,
+    "lng": 76.216667
+  },
+  {
+    "locationCode": "KTW",
+    "label": "Koheshwar",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOI",
+    "label": "Koilthottum",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Koka",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Kokrajhar",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.4,
+    "lng": 90.266667
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolabira",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.8,
+    "lng": 84.166667
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Kolar",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 14.333333,
+    "lng": 79.333333
+  },
+  {
+    "locationCode": "KLH",
+    "label": "Kolhåpur",
+    "subdivisionCode": "MH",
+    "labelWithDiacritics": "Kolhapur",
+    "function": "34",
+    "lat": 16.7,
+    "lng": 74.216667
+  },
+  {
+    "locationCode": "CCU",
+    "label": "Kolkata (ex Calcutta)",
+    "subdivisionCode": "WB",
+    "function": "145",
+    "lat": 22.566667,
+    "lng": 88.35
+  },
+  {
+    "locationCode": "BNK",
+    "label": "Kolkata IT Park/Bantala",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 22.566667,
+    "lng": 88.366667
+  },
+  {
+    "locationCode": "KUK",
+    "label": "Kollam",
+    "subdivisionCode": "KL",
+    "function": "36",
+    "lat": 11.45,
+    "lng": 75.683333
+  },
+  {
+    "locationCode": "KCI",
+    "label": "Konakanchi",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.316667,
+    "lng": 80.183333
+  },
+  {
+    "locationCode": "KON",
+    "label": "Konarak",
+    "subdivisionCode": "KA",
+    "function": "13"
+  },
+  {
+    "locationCode": "KDP",
+    "label": "Kondiapetnam",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Koraput",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 18.816667,
+    "lng": 82.716667
+  },
+  {
+    "locationCode": "KGN",
+    "label": "Koregaon",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.65,
+    "lng": 74.083333
+  },
+  {
+    "locationCode": "KTU",
+    "label": "Kota",
+    "subdivisionCode": "RJ",
+    "function": "46"
+  },
+  {
+    "locationCode": "MHD",
+    "label": "Kotawalighat (Mohedipur)",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "KTD",
+    "label": "Kotda",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kothagudem",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 17.55,
+    "lng": 80.633333
+  },
+  {
+    "locationCode": "KYM",
+    "label": "Kottayam",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 9.583333,
+    "lng": 76.516667
+  },
+  {
+    "locationCode": "KTT",
+    "label": "Kottivakkam",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 80.25
+  },
+  {
+    "locationCode": "KVL",
+    "label": "Kovalam",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "VPT",
+    "label": "Kovilpatti",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 9.166667,
+    "lng": 77.866667
+  },
+  {
+    "locationCode": "KYD",
+    "label": "Koyambedu",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.066667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "CCJ",
+    "label": "Kozhikode (ex Calicut)",
+    "subdivisionCode": "KL",
+    "function": "1234",
+    "lat": 11.25,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "KBC",
+    "label": "Kril ICD",
+    "subdivisionCode": "GJ",
+    "function": "236",
+    "lat": 21.183333,
+    "lng": 72.7
+  },
+  {
+    "locationCode": "PKR",
+    "label": "KRIL ICD/Pali",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.183333,
+    "lng": 76.616667
+  },
+  {
+    "locationCode": "KGI",
+    "label": "Krishnagiri",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.533333,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Krishnapatnam",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "COA",
+    "label": "Kspl-SEZ/Kakinada",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.933333,
+    "lng": 82.216667
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Kulasekarapanam",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kulgam",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 33.65,
+    "lng": 75.016667
+  },
+  {
+    "locationCode": "KMA",
+    "label": "Kulkuli Lcs",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 26.716667,
+    "lng": 88.433333
+  },
+  {
+    "locationCode": "KUU",
+    "label": "Kulu",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBM",
+    "label": "Kumbakonam",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 10.966667,
+    "lng": 79.383333
+  },
+  {
+    "locationCode": "KMB",
+    "label": "Kumbharu",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "KMH",
+    "label": "Kumhrar",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 25.583333,
+    "lng": 85.183333
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kunauli",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "KUD",
+    "label": "Kundapur",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 17.7,
+    "lng": 79.666667
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kundla",
+    "subdivisionCode": "GJ",
+    "function": "3"
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kundli",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.866667,
+    "lng": 77.116667
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kushinagar",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.733333,
+    "lng": 83.883333
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Lakhimpur",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 27.216667,
+    "lng": 94.083333
+  },
+  {
+    "locationCode": "LWP",
+    "label": "Lakshadweep",
+    "subdivisionCode": "LD",
+    "function": "3",
+    "lat": 10.333333,
+    "lng": 72.783333
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Lalakua",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "LGL",
+    "label": "Lalgola Town",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "LAL",
+    "label": "Lalru",
+    "subdivisionCode": "PB",
+    "function": "2",
+    "lat": 30.483333,
+    "lng": 76.8
+  },
+  {
+    "locationCode": "YNT",
+    "label": "Landt Cel Sezi/Bangalore North",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.016667,
+    "lng": 77.35
+  },
+  {
+    "locationCode": "YNL",
+    "label": "Landt Cel Sezii/Bangalore North",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13,
+    "lng": 77.333333
+  },
+  {
+    "locationCode": "LNG",
+    "label": "Lapanga",
+    "subdivisionCode": "OR",
+    "function": "16",
+    "lat": 21.733333,
+    "lng": 84.016667
+  },
+  {
+    "locationCode": "LTB",
+    "label": "Latu Bazar",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Latur",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.4,
+    "lng": 76.583333
+  },
+  {
+    "locationCode": "LKQ",
+    "label": "Laukaha Lcs",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 26.55,
+    "lng": 86.45
+  },
+  {
+    "locationCode": "LPR",
+    "label": "Leapuram",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "IXL",
+    "label": "Leh",
+    "function": "4"
+  },
+  {
+    "locationCode": "IXI",
+    "label": "Lilabari",
+    "function": "4"
+  },
+  {
+    "locationCode": "GNL",
+    "label": "LIPD SEZ/Navi Mumbai",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.1,
+    "lng": 72.883333
+  },
+  {
+    "locationCode": "GNR",
+    "label": "Lipl-ICD/Marripalem",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.3,
+    "lng": 80.45
+  },
+  {
+    "locationCode": "KOY",
+    "label": "Lkoyali",
+    "function": "3",
+    "lat": 22.366667,
+    "lng": 73.116667
+  },
+  {
+    "locationCode": "LOH",
+    "label": "Lohardaga",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 23.433333,
+    "lng": 84.683333
+  },
+  {
+    "locationCode": "CRX",
+    "label": "Loksan Lcs",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 26.516667,
+    "lng": 88.716667
+  },
+  {
+    "locationCode": "LNI",
+    "label": "Loni",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.566667,
+    "lng": 74.466667
+  },
+  {
+    "locationCode": "LON",
+    "label": "Loni",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 28.75,
+    "lng": 77.266667
+  },
+  {
+    "locationCode": "LKH",
+    "label": "Loni Kalbhor",
+    "subdivisionCode": "MH",
+    "function": "236",
+    "lat": 18.45,
+    "lng": 74.033333
+  },
+  {
+    "locationCode": "NOI",
+    "label": "Loni-1 LCD/Chaziabad",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.75,
+    "lng": 77.283333
+  },
+  {
+    "locationCode": "RJN",
+    "label": "LSPL SEZ/Rajnandgaon",
+    "subdivisionCode": "CH",
+    "function": "36",
+    "lat": 21.166667,
+    "lng": 81
+  },
+  {
+    "locationCode": "TLT",
+    "label": "LTSL SEZ/Tiruvallur",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 13.15,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "LKO",
+    "label": "Lucknow",
+    "subdivisionCode": "UP",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUH",
+    "label": "Ludhiana",
+    "subdivisionCode": "PB",
+    "function": "46"
+  },
+  {
+    "locationCode": "MCC",
+    "label": "Machhiwara",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.9,
+    "lng": 76.183333
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Machilipatnam",
+    "subdivisionCode": "AP",
+    "function": "123",
+    "lat": 16.183333,
+    "lng": 81.133333
+  },
+  {
+    "locationCode": "MGJ",
+    "label": "Madanganj",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.583333,
+    "lng": 74.866667
+  },
+  {
+    "locationCode": "KRM",
+    "label": "MADCL SEZ/Nagpur",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 21.15,
+    "lng": 79.1
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Madgaon",
+    "subdivisionCode": "GA",
+    "function": "26",
+    "lat": 15.3,
+    "lng": 73.95
+  },
+  {
+    "locationCode": "MSH",
+    "label": "Madho Singhana",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 29.45,
+    "lng": 74.916667
+  },
+  {
+    "locationCode": "MBS",
+    "label": "Madhosingh/Allahabad",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 25.45,
+    "lng": 81.85
+  },
+  {
+    "locationCode": "IXM",
+    "label": "Madurai",
+    "subdivisionCode": "TN",
+    "function": "1346",
+    "lat": 9.933333,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "MDT",
+    "label": "Maduranthakam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.5,
+    "lng": 79.883333
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Magadi",
+    "subdivisionCode": "KA",
+    "function": "23",
+    "lat": 12.966667,
+    "lng": 77.233333
+  },
+  {
+    "locationCode": "MDA",
+    "label": "Magdalla",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Mahad",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.083333,
+    "lng": 73.416667
+  },
+  {
+    "locationCode": "MAJ",
+    "label": "Maharajganj",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.366667,
+    "lng": 81.283333
+  },
+  {
+    "locationCode": "MHB",
+    "label": "Mahbubnagar",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.733333,
+    "lng": 77.983333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahe",
+    "subdivisionCode": "PY",
+    "function": "123",
+    "lat": 11.7,
+    "lng": 75.533333
+  },
+  {
+    "locationCode": "MGH",
+    "label": "Mahendraganj",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Mahesana",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.6,
+    "lng": 72.4
+  },
+  {
+    "locationCode": "MHN",
+    "label": "Mahisasan",
+    "subdivisionCode": "AS",
+    "function": "2"
+  },
+  {
+    "locationCode": "MHG",
+    "label": "Mahurighat",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "MHA",
+    "label": "Mahuva",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "MPI",
+    "label": "Mainpuri",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.233333,
+    "lng": 79.016667
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Makrana",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 27.05,
+    "lng": 74.716667
+  },
+  {
+    "locationCode": "MPR",
+    "label": "Malanpur",
+    "subdivisionCode": "MP",
+    "function": "36",
+    "lat": 26.416667,
+    "lng": 78.333333
+  },
+  {
+    "locationCode": "MRK",
+    "label": "Malappuram",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "LDA",
+    "label": "Malda",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWA",
+    "label": "Maliwada",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 19.916667,
+    "lng": 75.216667
+  },
+  {
+    "locationCode": "MLY",
+    "label": "Maliya",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 23.083333,
+    "lng": 70.766667
+  },
+  {
+    "locationCode": "MLP",
+    "label": "Mallipuram",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malpe",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLR",
+    "label": "Malur",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 13,
+    "lng": 77.933333
+  },
+  {
+    "locationCode": "MLW",
+    "label": "Malwan",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Manali",
+    "subdivisionCode": "HP",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 77.166667
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Manalithara",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": 76.283333
+  },
+  {
+    "locationCode": "MKK",
+    "label": "Manapakkam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.016667,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "MDP",
+    "label": "Mandapam",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNP",
+    "label": "Mandideep",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.066667,
+    "lng": 77.216667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mandsaur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.066667,
+    "lng": 75.066667
+  },
+  {
+    "locationCode": "MDV",
+    "label": "Måndvi",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Mandvi",
+    "function": "13",
+    "lat": 22.833333,
+    "lng": 69.366667
+  },
+  {
+    "locationCode": "MNW",
+    "label": "Mandwa",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "IXE",
+    "label": "Mangalore",
+    "subdivisionCode": "KA",
+    "function": "14"
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Mangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.866667,
+    "lng": 74.883333
+  },
+  {
+    "locationCode": "MAQ",
+    "label": "Mangalore SEZ",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.866667,
+    "lng": 74.883333
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Mangrol",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKC",
+    "label": "Manikarchar",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "MNR",
+    "label": "Manori",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNS",
+    "label": "Mansa",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 29.983333,
+    "lng": 75.383333
+  },
+  {
+    "locationCode": "MNU",
+    "label": "Manu",
+    "subdivisionCode": "AS",
+    "function": "3"
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Marmagao (Marmugao)",
+    "subdivisionCode": "GA",
+    "function": "123",
+    "lat": 15.4,
+    "lng": 73.783333
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Marmugao (Marmagao)",
+    "subdivisionCode": "GA",
+    "function": "123",
+    "lat": 15.4,
+    "lng": 73.783333
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Maroli",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Masulipatnam",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKM",
+    "label": "Mathilakam",
+    "subdivisionCode": "KL",
+    "function": "5",
+    "lat": 10.283333,
+    "lng": 76.166667
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Mathura",
+    "subdivisionCode": "UP",
+    "function": "23"
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Mau",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 25.966667,
+    "lng": 83.55
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Mavalli",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 12.95,
+    "lng": 77.583333
+  },
+  {
+    "locationCode": "MYB",
+    "label": "Mayabandar",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "MYD",
+    "label": "Mayiladuthurai",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.083333,
+    "lng": 79.633333
+  },
+  {
+    "locationCode": "MYN",
+    "label": "Mayurbhanj",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.916667,
+    "lng": 86.733333
+  },
+  {
+    "locationCode": "MDW",
+    "label": "Meadows",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "MED",
+    "label": "Medinipur",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 22.433333,
+    "lng": 87.333333
+  },
+  {
+    "locationCode": "MER",
+    "label": "Meerut",
+    "subdivisionCode": "UP",
+    "function": "36"
+  },
+  {
+    "locationCode": "MBZ",
+    "label": "Metia Bruz",
+    "subdivisionCode": "WB",
+    "function": "3",
+    "lat": 22.55,
+    "lng": 88.3
+  },
+  {
+    "locationCode": "MTT",
+    "label": "Mettupalayam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.3,
+    "lng": 76.933333
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Mettur",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.8,
+    "lng": 77.8
+  },
+  {
+    "locationCode": "MTW",
+    "label": "Metwad",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "MCI",
+    "label": "Minicoi I",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRJ",
+    "label": "Miraj",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 16.833333,
+    "lng": 74.633333
+  },
+  {
+    "locationCode": "MRI",
+    "label": "Mithivirdi",
+    "subdivisionCode": "GJ",
+    "function": "1",
+    "lat": 21.466667,
+    "lng": 72.233333
+  },
+  {
+    "locationCode": "YNA",
+    "label": "Modern Asset Sezi/Yelahanka Hobli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.1,
+    "lng": 77.616667
+  },
+  {
+    "locationCode": "YMA",
+    "label": "Modern Asset Sezii/Yelahanka Hobli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.1,
+    "lng": 77.6
+  },
+  {
+    "locationCode": "MUZ",
+    "label": "Modinagar Icd/Ghaziabad",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.65,
+    "lng": 77.416667
+  },
+  {
+    "locationCode": "MOG",
+    "label": "Moga",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.8,
+    "lng": 75.166667
+  },
+  {
+    "locationCode": "MHI",
+    "label": "Mohali",
+    "subdivisionCode": "MH",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOH",
+    "label": "Mohanbari",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Mora",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Moradabad",
+    "subdivisionCode": "UP",
+    "function": "236",
+    "lat": 28.833333,
+    "lng": 78.783333
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Morbi",
+    "subdivisionCode": "GJ",
+    "function": "13",
+    "lat": 22.816667,
+    "lng": 70.833333
+  },
+  {
+    "locationCode": "MRE",
+    "label": "Moreh",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "MOE",
+    "label": "Morena",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 26.483333,
+    "lng": 78
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Morigaon",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.25,
+    "lng": 92.333333
+  },
+  {
+    "locationCode": "ADM",
+    "label": "Mrpl-SEZ/Ahmadabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "PMT",
+    "label": "MTDCCL SEZ/Pune",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "MHP",
+    "label": "Muhammadpur",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 29.45,
+    "lng": 76.933333
+  },
+  {
+    "locationCode": "MDK",
+    "label": "Mul Dwårka",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Mul Dwarka",
+    "function": "1",
+    "lat": 20.75,
+    "lng": 70.666667
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Mulgund",
+    "subdivisionCode": "KA",
+    "function": "36",
+    "lat": 15.25,
+    "lng": 75.533333
+  },
+  {
+    "locationCode": "BAP",
+    "label": "Multi Services-SEZ/Dronagiri",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.166667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "KLM",
+    "label": "Multi Services-SEZ/Kalamboli",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.033333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "BAM",
+    "label": "Multi Services-SEZ/Ulwe",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.25,
+    "lng": 73.433333
+  },
+  {
+    "locationCode": "MUU",
+    "label": "Mulund",
+    "function": "6",
+    "lat": 19.283333,
+    "lng": 73.583333
+  },
+  {
+    "locationCode": "BOM",
+    "label": "Mumbai (ex Bombay)",
+    "subdivisionCode": "MH",
+    "function": "123456",
+    "lat": 18.966667,
+    "lng": 72.816667
+  },
+  {
+    "locationCode": "MNB",
+    "label": "Munabao",
+    "subdivisionCode": "RJ",
+    "function": "2"
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Mundra",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "AJM",
+    "label": "Mundra Port SEZ",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 22.85,
+    "lng": 69.733333
+  },
+  {
+    "locationCode": "MUG",
+    "label": "Munger",
+    "subdivisionCode": "BR",
+    "function": "123",
+    "lat": 25.383333,
+    "lng": 86.466667
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murad",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "MZA",
+    "label": "Muzaffarnagar",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZU",
+    "label": "Muzaffarpur",
+    "subdivisionCode": "BR",
+    "function": "4",
+    "lat": 26.116667,
+    "lng": 85.383333
+  },
+  {
+    "locationCode": "CGA",
+    "label": "MWCDL-Apparels-SEZ/Chengalpattu",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.7,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "CGL",
+    "label": "MWCDL-Auto-Ancillaries-SEZ/Chengalpattu",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.7,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "CGI",
+    "label": "MWCDL-IT-SEZ/Chengalpattu",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.7,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "MYR",
+    "label": "Mylapore",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.233333,
+    "lng": 80.266667
+  },
+  {
+    "locationCode": "MYQ",
+    "label": "Mysore",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Nabarangapur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 19.216667,
+    "lng": 82.533333
+  },
+  {
+    "locationCode": "NDD",
+    "label": "Nadiad",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.7,
+    "lng": 72.866667
+  },
+  {
+    "locationCode": "NGA",
+    "label": "Nagaon",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.35,
+    "lng": 92.683333
+  },
+  {
+    "locationCode": "NPT",
+    "label": "Nagappattinam",
+    "subdivisionCode": "TN",
+    "function": "13",
+    "lat": 10.783333,
+    "lng": 79.816667
+  },
+  {
+    "locationCode": "NPR",
+    "label": "Nagapur",
+    "subdivisionCode": "MH",
+    "function": "3"
+  },
+  {
+    "locationCode": "NGK",
+    "label": "Nagarkata Lcs",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 26.9,
+    "lng": 88.916667
+  },
+  {
+    "locationCode": "NAU",
+    "label": "Nagaur",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 27.2,
+    "lng": 73.733333
+  },
+  {
+    "locationCode": "NGD",
+    "label": "Nagda",
+    "subdivisionCode": "MP",
+    "function": "34",
+    "lat": 23.45,
+    "lng": 75.416667
+  },
+  {
+    "locationCode": "NGC",
+    "label": "Nagercoil",
+    "subdivisionCode": "TN",
+    "function": "13",
+    "lat": 8.166667,
+    "lng": 77.433333
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Nagpur",
+    "subdivisionCode": "MH",
+    "function": "46"
+  },
+  {
+    "locationCode": "NAT",
+    "label": "Nainital",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 29.383333,
+    "lng": 79.45
+  },
+  {
+    "locationCode": "NJD",
+    "label": "Najibabad",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 29.633333,
+    "lng": 78.333333
+  },
+  {
+    "locationCode": "NAA",
+    "label": "Nalagarh",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 31.05,
+    "lng": 76.716667
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Nalbari",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.683333,
+    "lng": 91.85
+  },
+  {
+    "locationCode": "TNN",
+    "label": "Namakkal",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.233333,
+    "lng": 78.166667
+  },
+  {
+    "locationCode": "NKN",
+    "label": "Namkhana",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "NMK",
+    "label": "Namkum",
+    "subdivisionCode": "JH",
+    "function": "23",
+    "lat": 23.35,
+    "lng": 85.366667
+  },
+  {
+    "locationCode": "NPG",
+    "label": "Nampong",
+    "subdivisionCode": "AP"
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nancowrie",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "NDC",
+    "label": "Nanded",
+    "function": "4"
+  },
+  {
+    "locationCode": "DID",
+    "label": "Nanded",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.15,
+    "lng": 77.333333
+  },
+  {
+    "locationCode": "NDG",
+    "label": "Nandgaon",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NPK",
+    "label": "Nandiambakkam",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.433333,
+    "lng": 80.466667
+  },
+  {
+    "locationCode": "ISK",
+    "label": "Nasik",
+    "subdivisionCode": "MH",
+    "function": "46",
+    "lat": 19.983333,
+    "lng": 73.8
+  },
+  {
+    "locationCode": "NVB",
+    "label": "Navabunder",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVP",
+    "label": "Navaspur",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "NMB",
+    "label": "Navi Mumbai",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 19.166667,
+    "lng": 73
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "NAVKAR ICD/Umbergaon",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 20.616667,
+    "lng": 72.916667
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Navlakhi",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVS",
+    "label": "Navsari",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 20.95,
+    "lng": 72.95
+  },
+  {
+    "locationCode": "QNW",
+    "label": "Nawanshahar",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 32.766667,
+    "lng": 74.533333
+  },
+  {
+    "locationCode": "NYG",
+    "label": "Nayagarh",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.133333,
+    "lng": 85.1
+  },
+  {
+    "locationCode": "CNC",
+    "label": "NCTL SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "CJC",
+    "label": "NCTL(ENGG) SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.816667,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "NMT",
+    "label": "Neamari Stemerghat",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "NER",
+    "label": "Neemrana",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 27.983333,
+    "lng": 76.383333
+  },
+  {
+    "locationCode": "NEM",
+    "label": "Neemuch",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.45,
+    "lng": 74.866667
+  },
+  {
+    "locationCode": "NEL",
+    "label": "Nellore",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "NGR",
+    "label": "Nepalgunj Road",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "ICD",
+    "label": "New Delhi",
+    "subdivisionCode": "DL",
+    "function": "1236",
+    "lat": 28.6,
+    "lng": 77.2
+  },
+  {
+    "locationCode": "NML",
+    "label": "New Mangalore",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "NTU",
+    "label": "New Tuticorin",
+    "subdivisionCode": "TN",
+    "function": "13",
+    "lat": 8.75,
+    "lng": 78.216667
+  },
+  {
+    "locationCode": "NWP",
+    "label": "Newapur",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVY",
+    "label": "Neyveli",
+    "function": "4"
+  },
+  {
+    "locationCode": "VLN",
+    "label": "NG Realty-SEZ/Bavla",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nhava Sheva (Jawaharlal Nehru)",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NHV",
+    "label": "Nhave",
+    "subdivisionCode": "MH",
+    "function": "1",
+    "lat": 18.95,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "NID",
+    "label": "Nidadavole",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.916667,
+    "lng": 81.666667
+  },
+  {
+    "locationCode": "NGI",
+    "label": "Nilgiris",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.483333,
+    "lng": 76.733333
+  },
+  {
+    "locationCode": "NKR",
+    "label": "Nilokheri",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 29.833333,
+    "lng": 76.916667
+  },
+  {
+    "locationCode": "NEE",
+    "label": "Nindakara",
+    "subdivisionCode": "KL",
+    "function": "13",
+    "lat": 8.933333,
+    "lng": 76.533333
+  },
+  {
+    "locationCode": "CJN",
+    "label": "Nipl-SEZ/Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "NVT",
+    "label": "Nivti",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NIZ",
+    "label": "Nizamabad",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 18.666667,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "NDA",
+    "label": "Noida",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.566667,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "NSI",
+    "label": "North Sikkim",
+    "subdivisionCode": "SK",
+    "function": "3",
+    "lat": 27.816667,
+    "lng": 88.55
+  },
+  {
+    "locationCode": "JNJ",
+    "label": "NPLP SEZ/Thane",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.183333,
+    "lng": 72.95
+  },
+  {
+    "locationCode": "NUA",
+    "label": "Nuapada",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.816667,
+    "lng": 82.516667
+  },
+  {
+    "locationCode": "NUH",
+    "label": "Nuh",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.116667,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "KUR",
+    "label": "OIIDC SEZ/Khurda",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.183333,
+    "lng": 85.616667
+  },
+  {
+    "locationCode": "OKH",
+    "label": "Okha",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "RGB",
+    "label": "Old Raghna Bazar",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "ONG",
+    "label": "Ongole",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 15.5,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "ONJ",
+    "label": "Onjal",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAO",
+    "label": "OPGS SEZ/Gandhidham",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.083333,
+    "lng": 70.133333
+  },
+  {
+    "locationCode": "HOI",
+    "label": "OPTO INFRA SEZ/Hassan",
+    "subdivisionCode": "KA",
+    "function": "36",
+    "lat": 13,
+    "lng": 76.083333
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Orissa",
+    "function": "16",
+    "lat": 20.233333,
+    "lng": 84.266667
+  },
+  {
+    "locationCode": "OMN",
+    "label": "Osmanabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "PDI",
+    "label": "Padi",
+    "function": "3"
+  },
+  {
+    "locationCode": "GJT",
+    "label": "Padra",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.233333,
+    "lng": 73.083333
+  },
+  {
+    "locationCode": "PDD",
+    "label": "Padubidri",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBD",
+    "label": "Pakwara (Moradabad)",
+    "subdivisionCode": "UP",
+    "function": "6"
+  },
+  {
+    "locationCode": "PAJ",
+    "label": "Pal",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.216667,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "PAD",
+    "label": "Palakkad",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 10.783333,
+    "lng": 76.65
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Palamu",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 23.916667,
+    "lng": 84.283333
+  },
+  {
+    "locationCode": "PKN",
+    "label": "Palani",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 10.45,
+    "lng": 77.5
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Palasa",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 18.766667,
+    "lng": 84.416667
+  },
+  {
+    "locationCode": "PLD",
+    "label": "Paldi",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23,
+    "lng": 72.55
+  },
+  {
+    "locationCode": "PLJ",
+    "label": "Palej",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 21.916667,
+    "lng": 73.066667
+  },
+  {
+    "locationCode": "PGR",
+    "label": "Palghar",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.683333,
+    "lng": 72.75
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palghat",
+    "subdivisionCode": "KL",
+    "function": "23",
+    "lat": 10.783333,
+    "lng": 76.65
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Pali",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.766667,
+    "lng": 73.316667
+  },
+  {
+    "locationCode": "PSH",
+    "label": "Palshet",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "PWL",
+    "label": "Palwal ICD",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 28.15,
+    "lng": 77.333333
+  },
+  {
+    "locationCode": "PMB",
+    "label": "Pamban",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Panaji Port",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNM",
+    "label": "Panambur, Va Mangalore",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNA",
+    "label": "Panchkula",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 30.683333,
+    "lng": 76.85
+  },
+  {
+    "locationCode": "MP7",
+    "label": "Pandhana",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 21.7,
+    "lng": 76.216667
+  },
+  {
+    "locationCode": "5PA",
+    "label": "Paneli",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 21.866667,
+    "lng": 70.15
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Panipat",
+    "subdivisionCode": "HR",
+    "function": "23"
+  },
+  {
+    "locationCode": "PNI",
+    "label": "Panipat",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 29.383333,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Panitankit (Nazalbari)",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "PNJ",
+    "label": "Panjim",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Panna",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.716667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "NOL",
+    "label": "Panoli",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 21.533333,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "PGH",
+    "label": "Pantnagar",
+    "function": "4"
+  },
+  {
+    "locationCode": "PVL",
+    "label": "Panvel",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.983333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Paonta Sahib",
+    "subdivisionCode": "HP",
+    "function": "3",
+    "lat": 30.45,
+    "lng": 77.616667
+  },
+  {
+    "locationCode": "PRT",
+    "label": "Paradip Garh",
+    "subdivisionCode": "OR",
+    "function": "123",
+    "lat": 20.316667,
+    "lng": 86.616667
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Paradip Port",
+    "subdivisionCode": "OR",
+    "function": "1",
+    "lat": 20.25,
+    "lng": 86.583333
+  },
+  {
+    "locationCode": "PJT",
+    "label": "Parantij",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.433333,
+    "lng": 72.85
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parbhani",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.266667,
+    "lng": 76.783333
+  },
+  {
+    "locationCode": "PWN",
+    "label": "Parwanoo",
+    "subdivisionCode": "HP",
+    "function": "6",
+    "lat": 30.833333,
+    "lng": 76.95
+  },
+  {
+    "locationCode": "IXT",
+    "label": "Pasighat",
+    "function": "4"
+  },
+  {
+    "locationCode": "PTU",
+    "label": "Patancheru",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 17.516667,
+    "lng": 78.25
+  },
+  {
+    "locationCode": "IXP",
+    "label": "Pathankot",
+    "function": "4"
+  },
+  {
+    "locationCode": "PTQ",
+    "label": "Patiala",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.333333,
+    "lng": 76.366667
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Patli",
+    "subdivisionCode": "HR",
+    "function": "6"
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Patna",
+    "subdivisionCode": "BR",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPG",
+    "label": "Patparganj",
+    "subdivisionCode": "DL",
+    "function": "36"
+  },
+  {
+    "locationCode": "PAK",
+    "label": "Payyannur",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 12.1,
+    "lng": 75.2
+  },
+  {
+    "locationCode": "PNL",
+    "label": "PDPL SEZ/Raigarh",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.866667,
+    "lng": 73.05
+  },
+  {
+    "locationCode": "PEE",
+    "label": "Peenya",
+    "function": "3"
+  },
+  {
+    "locationCode": "PPJ",
+    "label": "Pellet Plant Jetty/Shiroda",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "PBR",
+    "label": "Perambalur",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.233333,
+    "lng": 78.883333
+  },
+  {
+    "locationCode": "PLY",
+    "label": "Periyapalayam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.316667,
+    "lng": 80.05
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Pernem",
+    "subdivisionCode": "GA",
+    "function": "3",
+    "lat": 15.716667,
+    "lng": 73.8
+  },
+  {
+    "locationCode": "PER",
+    "label": "Perundurai",
+    "subdivisionCode": "TN",
+    "function": "13"
+  },
+  {
+    "locationCode": "PTP",
+    "label": "Petrapole Road",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "TBM",
+    "label": "Phpl-SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "PHB",
+    "label": "Phulbari",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "PHU",
+    "label": "Phursungi",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.466667,
+    "lng": 73.983333
+  },
+  {
+    "locationCode": "COP",
+    "label": "Picpl-SEZ/Kakinada",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 16.933333,
+    "lng": 82.216667
+  },
+  {
+    "locationCode": "PLN",
+    "label": "Pilani",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 28.366667,
+    "lng": 75.6
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Pilibhit",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.633333,
+    "lng": 79.8
+  },
+  {
+    "locationCode": "PMP",
+    "label": "Pimpri",
+    "subdivisionCode": "MH",
+    "function": "6"
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Pindhara",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAV",
+    "label": "Pipavav (Victor) Port",
+    "subdivisionCode": "GJ",
+    "function": "123",
+    "lat": 20.966667,
+    "lng": 71.55
+  },
+  {
+    "locationCode": "KJI",
+    "label": "Pipraun Lcs",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 26.333333,
+    "lng": 86.083333
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Pithampur",
+    "subdivisionCode": "MP",
+    "function": "36"
+  },
+  {
+    "locationCode": "PBH",
+    "label": "Piyala Block Hut",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 28.45,
+    "lng": 77.516667
+  },
+  {
+    "locationCode": "POL",
+    "label": "Pollachi",
+    "subdivisionCode": "TN",
+    "function": "23",
+    "lat": 10.666667,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "PNY",
+    "label": "Pondicherry",
+    "subdivisionCode": "PY",
+    "function": "1346",
+    "lat": 11.916667,
+    "lng": 79.816667
+  },
+  {
+    "locationCode": "PNN",
+    "label": "Ponnani",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "PON",
+    "label": "Ponneri",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.316667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "PBD",
+    "label": "Porbandar",
+    "subdivisionCode": "GJ",
+    "function": "14"
+  },
+  {
+    "locationCode": "IXZ",
+    "label": "Port Blair",
+    "subdivisionCode": "AN",
+    "function": "14"
+  },
+  {
+    "locationCode": "PID",
+    "label": "Port Indai",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPV",
+    "label": "Port Pipavav",
+    "subdivisionCode": "GJ",
+    "function": "1",
+    "lat": 20.933333,
+    "lng": 71.516667
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Portonovo",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "PST",
+    "label": "Positra",
+    "subdivisionCode": "GJ",
+    "function": "13",
+    "lat": 22.4,
+    "lng": 69.166667
+  },
+  {
+    "locationCode": "PRK",
+    "label": "Powarkheda ICD/Hoshangabad",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.75,
+    "lng": 77.716667
+  },
+  {
+    "locationCode": "PKM",
+    "label": "Prakasam",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 15.616667,
+    "lng": 79.5
+  },
+  {
+    "locationCode": "PTJ",
+    "label": "Prantij",
+    "function": "6",
+    "lat": 23.433333,
+    "lng": 72.85
+  },
+  {
+    "locationCode": "BPQ",
+    "label": "Pratapganj",
+    "subdivisionCode": "BR",
+    "function": "13",
+    "lat": 26.3,
+    "lng": 86.966667
+  },
+  {
+    "locationCode": "PTG",
+    "label": "Pratapgarh",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 27.266667,
+    "lng": 76.166667
+  },
+  {
+    "locationCode": "BDB",
+    "label": "Precious Cargo Customs Clearance Centre/Bandra",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.066667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "DDL",
+    "label": "PSWC ICD/Dhandari Kalan",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.85,
+    "lng": 75.866667
+  },
+  {
+    "locationCode": "PUD",
+    "label": "Puducherry",
+    "subdivisionCode": "PY",
+    "function": "3",
+    "lat": 11.916667,
+    "lng": 79.783333
+  },
+  {
+    "locationCode": "PUK",
+    "label": "Pudukkottai",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 10.383333,
+    "lng": 78.816667
+  },
+  {
+    "locationCode": "PUL",
+    "label": "Pulicat",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "PLV",
+    "label": "Pulivendula",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 14.416667,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "PNQ",
+    "label": "Pune",
+    "subdivisionCode": "MH",
+    "function": "2346"
+  },
+  {
+    "locationCode": "PRG",
+    "label": "Purangad",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Puri",
+    "subdivisionCode": "OR",
+    "function": "1"
+  },
+  {
+    "locationCode": "ERP",
+    "label": "Puthuvypeen-SEZ/Ernakulam",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 9.983333,
+    "lng": 76.283333
+  },
+  {
+    "locationCode": "PUT",
+    "label": "Puttaparthi",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEY",
+    "label": "Puzhal",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.166667,
+    "lng": 80.2
+  },
+  {
+    "locationCode": "PYL",
+    "label": "Pyala",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.433333,
+    "lng": 77.516667
+  },
+  {
+    "locationCode": "BGQ",
+    "label": "Quest-SEZ/Belgaum",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 15.866667,
+    "lng": 74.5
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Quilon",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "QUT",
+    "label": "Quthbullapur",
+    "subdivisionCode": "TG",
+    "function": "3",
+    "lat": 17.5,
+    "lng": 78.45
+  },
+  {
+    "locationCode": "RPL",
+    "label": "Raddipalam",
+    "subdivisionCode": "AP",
+    "function": "6"
+  },
+  {
+    "locationCode": "RDP",
+    "label": "Radhikapur",
+    "subdivisionCode": "WB",
+    "function": "2"
+  },
+  {
+    "locationCode": "RBL",
+    "label": "Rae Bareli",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.216667,
+    "lng": 81.233333
+  },
+  {
+    "locationCode": "RAR",
+    "label": "Raichur",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 16.2,
+    "lng": -77.366667
+  },
+  {
+    "locationCode": "HYC",
+    "label": "Raidurg",
+    "subdivisionCode": "TG",
+    "function": "6",
+    "lat": 17.683333,
+    "lng": 78.633333
+  },
+  {
+    "locationCode": "RA7",
+    "label": "Raigad",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.65,
+    "lng": 72.866667
+  },
+  {
+    "locationCode": "RGJ",
+    "label": "Raiganj Railway Station Lcs",
+    "subdivisionCode": "WB",
+    "function": "2",
+    "lat": 25.616667,
+    "lng": 88.116667
+  },
+  {
+    "locationCode": "RIG",
+    "label": "Raigarh",
+    "subdivisionCode": "CH",
+    "function": "3",
+    "lat": 30.7,
+    "lng": 76.75
+  },
+  {
+    "locationCode": "RGA",
+    "label": "Raigarh",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 21.9,
+    "lng": 83.4
+  },
+  {
+    "locationCode": "RRI",
+    "label": "Raili",
+    "subdivisionCode": "BR",
+    "function": "1"
+  },
+  {
+    "locationCode": "RPR",
+    "label": "Raipur",
+    "subdivisionCode": "CT",
+    "function": "46",
+    "lat": 21.233333,
+    "lng": 81.633333
+  },
+  {
+    "locationCode": "RGP",
+    "label": "Rairangpur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 22.266667,
+    "lng": 86.166667
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Raisen",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.333333,
+    "lng": 77.8
+  },
+  {
+    "locationCode": "RNN",
+    "label": "Raj Nandgaon",
+    "subdivisionCode": "CH",
+    "function": "3",
+    "lat": 21.1,
+    "lng": 81.016667
+  },
+  {
+    "locationCode": "RJA",
+    "label": "Rajahmundry",
+    "function": "4"
+  },
+  {
+    "locationCode": "RKG",
+    "label": "Rajakkamangalam",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAH",
+    "label": "Rajgarh",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.666667,
+    "lng": 74.95
+  },
+  {
+    "locationCode": "RIR",
+    "label": "Rajgir",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 25.033333,
+    "lng": 85.416667
+  },
+  {
+    "locationCode": "RAJ",
+    "label": "Rajkot",
+    "subdivisionCode": "GJ",
+    "function": "2346",
+    "lat": 22.283333,
+    "lng": 70.783333
+  },
+  {
+    "locationCode": "RJI",
+    "label": "Rajouri",
+    "function": "4"
+  },
+  {
+    "locationCode": "RJP",
+    "label": "Rajpara/Navabunder",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "RJR",
+    "label": "Rajpuri",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Rajsamand",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 25.066667,
+    "lng": 73.883333
+  },
+  {
+    "locationCode": "RJU",
+    "label": "Rajula",
+    "subdivisionCode": "GJ",
+    "function": "36",
+    "lat": 21.033333,
+    "lng": 71.433333
+  },
+  {
+    "locationCode": "RMD",
+    "label": "Ramagundam",
+    "function": "4"
+  },
+  {
+    "locationCode": "RMP",
+    "label": "Ramanathapuram",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 9.383333,
+    "lng": 78.833333
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Ramban",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 33.25,
+    "lng": 75.25
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Rameshwaram",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Ramgarh",
+    "subdivisionCode": "JH",
+    "function": "3",
+    "lat": 32.9,
+    "lng": 74.783333
+  },
+  {
+    "locationCode": "RAP",
+    "label": "Rampur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.8,
+    "lng": 79.016667
+  },
+  {
+    "locationCode": "RMT",
+    "label": "Ramtek",
+    "subdivisionCode": "MH",
+    "function": "23",
+    "lat": 21.4,
+    "lng": 79.333333
+  },
+  {
+    "locationCode": "RNG",
+    "label": "Ranaghat",
+    "subdivisionCode": "WB",
+    "function": "2"
+  },
+  {
+    "locationCode": "RNM",
+    "label": "Ranasthalam",
+    "subdivisionCode": "AP",
+    "function": "23",
+    "lat": 18.2,
+    "lng": 83.683333
+  },
+  {
+    "locationCode": "IXR",
+    "label": "Ranchi",
+    "subdivisionCode": "BR",
+    "function": "234",
+    "lat": 23.35,
+    "lng": 85.333333
+  },
+  {
+    "locationCode": "RGT",
+    "label": "Ranghat Bay",
+    "subdivisionCode": "AN",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Rania",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 29.533333,
+    "lng": 74.833333
+  },
+  {
+    "locationCode": "TN9",
+    "label": "Ranipet",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 12.916667,
+    "lng": 79.316667
+  },
+  {
+    "locationCode": "RNR",
+    "label": "Ranpar",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "RTM",
+    "label": "Ratlam",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 23.316667,
+    "lng": 75.083333
+  },
+  {
+    "locationCode": "RTC",
+    "label": "Ratnagiri",
+    "subdivisionCode": "MH",
+    "function": "14"
+  },
+  {
+    "locationCode": "RXL",
+    "label": "Raxaul",
+    "subdivisionCode": "BR"
+  },
+  {
+    "locationCode": "RAY",
+    "label": "Rayapalayam",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "RED",
+    "label": "Redi",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "LPJ",
+    "label": "Reliance SEZ/Jamnagar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 22.466667,
+    "lng": 70.066667
+  },
+  {
+    "locationCode": "RGN",
+    "label": "Renigunta",
+    "subdivisionCode": "AP",
+    "function": "23",
+    "lat": 13.65,
+    "lng": 79.516667
+  },
+  {
+    "locationCode": "RKO",
+    "label": "Renukoot",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 24.216667,
+    "lng": 83.033333
+  },
+  {
+    "locationCode": "RVD",
+    "label": "Revdanda",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "REW",
+    "label": "Rewa",
+    "function": "4"
+  },
+  {
+    "locationCode": "REA",
+    "label": "Rewari",
+    "subdivisionCode": "HR",
+    "function": "36",
+    "lat": 28.183333,
+    "lng": 76.616667
+  },
+  {
+    "locationCode": "CRL",
+    "label": "Rga Sez/Chikkankannelli",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.416667,
+    "lng": 76.616667
+  },
+  {
+    "locationCode": "JPI",
+    "label": "Riico SEZ-I/Sitapura",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 25.733333,
+    "lng": 75.6
+  },
+  {
+    "locationCode": "KOH",
+    "label": "Rll-SEZ/Medak",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 18.033333,
+    "lng": 78.266667
+  },
+  {
+    "locationCode": "RHA",
+    "label": "Roha",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 18.433333,
+    "lng": 73.116667
+  },
+  {
+    "locationCode": "ROH",
+    "label": "Rohtak",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 28.883333,
+    "lng": 76.583333
+  },
+  {
+    "locationCode": "ROO",
+    "label": "Roorkee",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 29.866667,
+    "lng": 77.883333
+  },
+  {
+    "locationCode": "RRK",
+    "label": "Rourkela",
+    "function": "4"
+  },
+  {
+    "locationCode": "RYP",
+    "label": "Royapuram",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.1,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "ROZ",
+    "label": "Rozi",
+    "subdivisionCode": "GJ",
+    "function": "1",
+    "lat": 22.566667,
+    "lng": 70.033333
+  },
+  {
+    "locationCode": "AKR",
+    "label": "RPCIPL SEZ/Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "MDR",
+    "label": "RTPL SEZ/Madurai",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 9.933333,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "RUD",
+    "label": "Rudrapur",
+    "subdivisionCode": "UT",
+    "function": "6",
+    "lat": 29.5,
+    "lng": 79.466667
+  },
+  {
+    "locationCode": "RPN",
+    "label": "Rupnagar",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.95,
+    "lng": 76.516667
+  },
+  {
+    "locationCode": "RUP",
+    "label": "Rupsi",
+    "function": "4"
+  },
+  {
+    "locationCode": "RGU",
+    "label": "Ryngku",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "SBT",
+    "label": "Sabarmati",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.083333,
+    "lng": 72.666667
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sabroom",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "JKA",
+    "label": "Sachana ICD/Viramgam",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.116667,
+    "lng": 72.033333
+  },
+  {
+    "locationCode": "SAC",
+    "label": "Sachin (Surat)",
+    "subdivisionCode": "GJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "SGR",
+    "label": "Sagar",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.266667,
+    "lng": 79.433333
+  },
+  {
+    "locationCode": "SRE",
+    "label": "Saharanpur",
+    "subdivisionCode": "UP",
+    "function": "6"
+  },
+  {
+    "locationCode": "SHB",
+    "label": "Sahibabad",
+    "subdivisionCode": "UP",
+    "function": "23",
+    "lat": 28.683333,
+    "lng": 77.4
+  },
+  {
+    "locationCode": "SWA",
+    "label": "Sahnewal",
+    "subdivisionCode": "PB",
+    "function": "16",
+    "lat": 30.85,
+    "lng": 75.95
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salaya",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "SXV",
+    "label": "Salem",
+    "subdivisionCode": "TN",
+    "function": "46"
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Salt Lake",
+    "subdivisionCode": "WB",
+    "function": "36"
+  },
+  {
+    "locationCode": "DWN",
+    "label": "Samalkha ICD/Panipat",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 29.233333,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samalkot",
+    "subdivisionCode": "AP",
+    "function": "1236",
+    "lat": 17.05,
+    "lng": 82.183333
+  },
+  {
+    "locationCode": "JSJ",
+    "label": "Sambalpur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 21.45,
+    "lng": 83.966667
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Sanand",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.983333,
+    "lng": 72.383333
+  },
+  {
+    "locationCode": "SAD",
+    "label": "Sanathnagar",
+    "subdivisionCode": "HR",
+    "function": "13"
+  },
+  {
+    "locationCode": "HPI",
+    "label": "Sandkhera ICD/Kashipur",
+    "subdivisionCode": "UT",
+    "function": "6",
+    "lat": 29.2,
+    "lng": 78.933333
+  },
+  {
+    "locationCode": "JPW",
+    "label": "Sanganer",
+    "subdivisionCode": "RJ",
+    "function": "6",
+    "lat": 26.816667,
+    "lng": 75.783333
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sangli",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 16.866667,
+    "lng": 74.566667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sangrur",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.233333,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "DBS",
+    "label": "Santa-SEZ/Muppireddipally",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 18.033333,
+    "lng": 78.266667
+  },
+  {
+    "locationCode": "CAS",
+    "label": "SAPL SEZ/Ganjam",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 19.383333,
+    "lng": 85.066667
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Sap-SEZ/Surat",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.166667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sardar",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Saroli",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.1,
+    "lng": 76.05
+  },
+  {
+    "locationCode": "STA",
+    "label": "Satara",
+    "subdivisionCode": "MH",
+    "function": "3"
+  },
+  {
+    "locationCode": "STM",
+    "label": "Satara",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 17.683333,
+    "lng": 73.983333
+  },
+  {
+    "locationCode": "STN",
+    "label": "Satna",
+    "subdivisionCode": "MP",
+    "function": "4",
+    "lat": 24.583333,
+    "lng": 80.833333
+  },
+  {
+    "locationCode": "STP",
+    "label": "Satpati",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "STY",
+    "label": "Satyavedu",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.433333,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "TSM",
+    "label": "Sawai Madhopur",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 26.016667,
+    "lng": 76.333333
+  },
+  {
+    "locationCode": "MUC",
+    "label": "SCPL SEZ/Mulund",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 19.2,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "HBB",
+    "label": "Sdpl Sez/Bangalore",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.9,
+    "lng": 77.566667
+  },
+  {
+    "locationCode": "CBS",
+    "label": "SE&C LTD-SEZ/Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "BRS",
+    "label": "SE&C-LTD-SEZ/Waghodia",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 22.3,
+    "lng": 73.366667
+  },
+  {
+    "locationCode": "UND",
+    "label": "Secunderabad",
+    "subdivisionCode": "AP",
+    "function": "3"
+  },
+  {
+    "locationCode": "SEH",
+    "label": "Sehore",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.2,
+    "lng": 77.083333
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Selu",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 20.85,
+    "lng": 78.7
+  },
+  {
+    "locationCode": "SHW",
+    "label": "Sendhwa",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 21.683333,
+    "lng": 75.1
+  },
+  {
+    "locationCode": "SHH",
+    "label": "Shahada",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 21.55,
+    "lng": 74.466667
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shahapur",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.45,
+    "lng": 73.333333
+  },
+  {
+    "locationCode": "SHD",
+    "label": "Shahdol",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.283333,
+    "lng": 81.35
+  },
+  {
+    "locationCode": "SJN",
+    "label": "Shahjahanpur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.883333,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "SHJ",
+    "label": "Shajapur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.433333,
+    "lng": 76.266667
+  },
+  {
+    "locationCode": "SH2",
+    "label": "Shamli",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 29.45,
+    "lng": 77.316667
+  },
+  {
+    "locationCode": "HIR",
+    "label": "SHB ICD/Surat",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.15,
+    "lng": 72.816667
+  },
+  {
+    "locationCode": "SBZ",
+    "label": "Shella Bazar",
+    "subdivisionCode": "ML"
+  },
+  {
+    "locationCode": "SHE",
+    "label": "Sheopur",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.666667,
+    "lng": 76.7
+  },
+  {
+    "locationCode": "NTL",
+    "label": "Sherathang Lcs",
+    "subdivisionCode": "SK",
+    "function": "6",
+    "lat": 27.35,
+    "lng": 88.6
+  },
+  {
+    "locationCode": "SRI",
+    "label": "Shertallai",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 9.7,
+    "lng": 76.333333
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Shillong",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMK",
+    "label": "Shimoga",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.916667,
+    "lng": 75.566667
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shirola",
+    "subdivisionCode": "KA",
+    "function": "1"
+  },
+  {
+    "locationCode": "SHU",
+    "label": "Shirur",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.383333,
+    "lng": 74.633333
+  },
+  {
+    "locationCode": "SHV",
+    "label": "Shivpuri",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 25.433333,
+    "lng": 77.65
+  },
+  {
+    "locationCode": "SSE",
+    "label": "Sholapur",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHR",
+    "label": "Sholinghur",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.116667,
+    "lng": 79.416667
+  },
+  {
+    "locationCode": "SHN",
+    "label": "Shopian",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 33.716667,
+    "lng": 74.816667
+  },
+  {
+    "locationCode": "SWD",
+    "label": "Shriwardhan",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sibsagar",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 26.983333,
+    "lng": 94.633333
+  },
+  {
+    "locationCode": "HDD",
+    "label": "Sidcul Icd/Pantnagar",
+    "subdivisionCode": "UT",
+    "function": "6",
+    "lat": 29.05,
+    "lng": 79.516667
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Siddapur",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 12.3,
+    "lng": 75.866667
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Siddharthnagar",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.25,
+    "lng": 83
+  },
+  {
+    "locationCode": "SID",
+    "label": "Sidhi",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.383333,
+    "lng": 81.866667
+  },
+  {
+    "locationCode": "SHO",
+    "label": "Sihor",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 25.683333,
+    "lng": 78.116667
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Sika",
+    "subdivisionCode": "GJ",
+    "function": "123",
+    "lat": 22.433333,
+    "lng": 69.833333
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Sikar",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 27.616667,
+    "lng": 75.15
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Sikkim",
+    "subdivisionCode": "AN",
+    "function": "13",
+    "lat": 27.316667,
+    "lng": 88.616667
+  },
+  {
+    "locationCode": "STF",
+    "label": "Sikta Lcs",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 27.05,
+    "lng": 84.1
+  },
+  {
+    "locationCode": "IXS",
+    "label": "Silchar",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Siliguri",
+    "subdivisionCode": "WB",
+    "function": "123",
+    "lat": 26.716667,
+    "lng": 88.416667
+  },
+  {
+    "locationCode": "SIV",
+    "label": "Silvassa",
+    "subdivisionCode": "DN",
+    "function": "3",
+    "lat": 20.266667,
+    "lng": 73.016667
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Sima/Navabunder",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "SHP",
+    "label": "Simbhour Port",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Simla",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Simor",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBH",
+    "label": "Sinbhour",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sindhudurg",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 16.366667,
+    "lng": 74.25
+  },
+  {
+    "locationCode": "SIR",
+    "label": "Singanallur",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11,
+    "lng": 77
+  },
+  {
+    "locationCode": "SNG",
+    "label": "Singhabad",
+    "subdivisionCode": "WB",
+    "function": "2"
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Singrauli",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 24.2,
+    "lng": 82.666667
+  },
+  {
+    "locationCode": "NKI",
+    "label": "Sinnar",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 19.85,
+    "lng": 74
+  },
+  {
+    "locationCode": "HSI",
+    "label": "SIPC SEZ/Krishnagiri",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.533333,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "VLR",
+    "label": "SIPC SEZ/Vellore",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.933333,
+    "lng": 79.133333
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Sipcot-Gangaikondan-SEZ/Tirunelveli",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.733333,
+    "lng": 77.7
+  },
+  {
+    "locationCode": "CJS",
+    "label": "Sipcot-Hi-Tech-SEZ/Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "CJO",
+    "label": "Sipcot-Hi-Tech-SEZ-Oragadam/Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.966667,
+    "lng": 79.933333
+  },
+  {
+    "locationCode": "PYS",
+    "label": "Sipcot-SEZ/Erode",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11.35,
+    "lng": 77.733333
+  },
+  {
+    "locationCode": "CSP",
+    "label": "SIPL SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "PSI",
+    "label": "SIPL SEZ/Pune",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "SIO",
+    "label": "Sirohi",
+    "subdivisionCode": "RJ",
+    "function": "3",
+    "lat": 24.883333,
+    "lng": 72.866667
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Sirpur",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "STI",
+    "label": "Sitai",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Sitapur",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.566667,
+    "lng": 80.683333
+  },
+  {
+    "locationCode": "STG",
+    "label": "Sitarganj",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.933333,
+    "lng": 79.7
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Sivakasi",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 9.45,
+    "lng": 77.816667
+  },
+  {
+    "locationCode": "PVS",
+    "label": "Snpip Sez/Tambaram",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.916667,
+    "lng": 80.1
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Sokhana",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 27.6,
+    "lng": 78.066667
+  },
+  {
+    "locationCode": "QSL",
+    "label": "Solan",
+    "function": "3",
+    "lat": 30.916667,
+    "lng": 77.116667
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Solapur",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 17.683333,
+    "lng": 75.916667
+  },
+  {
+    "locationCode": "SNB",
+    "label": "Sonabarsa",
+    "subdivisionCode": "DL"
+  },
+  {
+    "locationCode": "SNL",
+    "label": "Sonauli",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "SUB",
+    "label": "Sonepur",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 20.85,
+    "lng": 83.833333
+  },
+  {
+    "locationCode": "SON",
+    "label": "Sonipat",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 28.983333,
+    "lng": 77.016667
+  },
+  {
+    "locationCode": "SSI",
+    "label": "South Sikkim",
+    "subdivisionCode": "SK",
+    "function": "3",
+    "lat": 27.383333,
+    "lng": 88.35
+  },
+  {
+    "locationCode": "TBP",
+    "label": "SPIPL SEZ/Perungalathur",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "AIR",
+    "label": "SPPL SEZ/Thane",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 19.2,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "GNS",
+    "label": "Srehpl-SEZ/Gandhinagar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.216667,
+    "lng": 72.683333
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Sri City Pvt Ltd-SEZ/Satyavedu",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 13.433333,
+    "lng": 79.983333
+  },
+  {
+    "locationCode": "MUK",
+    "label": "Sri Muktsar Sahib",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.466667,
+    "lng": 74.5
+  },
+  {
+    "locationCode": "SMP",
+    "label": "Srimantapur",
+    "subdivisionCode": "TR"
+  },
+  {
+    "locationCode": "SXR",
+    "label": "Srinagar",
+    "subdivisionCode": "JK",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRP",
+    "label": "Sriperumbudur",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.966667,
+    "lng": 79.95
+  },
+  {
+    "locationCode": "TNS",
+    "label": "SSL SEZ/Tuticorin",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.783333,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "SKN",
+    "label": "St Kabir Nagar",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.75,
+    "lng": 83.083333
+  },
+  {
+    "locationCode": "KNM",
+    "label": "Startrack",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 28.516667,
+    "lng": 77.533333
+  },
+  {
+    "locationCode": "BHS",
+    "label": "Sterling-SEZ/Bharuch",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 21.7,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "STT",
+    "label": "Sttpl Cfs/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Sukhia Pokhari",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sunam",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 30.133333,
+    "lng": 75.8
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sundargarh",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 22.116667,
+    "lng": 84.033333
+  },
+  {
+    "locationCode": "SJP",
+    "label": "Surajpur",
+    "subdivisionCode": "UP",
+    "function": "36",
+    "lat": 28.516667,
+    "lng": 77.483333
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Surasani-Yanam",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "STV",
+    "label": "Surat",
+    "subdivisionCode": "GJ",
+    "function": "12346",
+    "lat": 21.166667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "STR",
+    "label": "Sutarkandi",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "CSV",
+    "label": "SVPL SEZ/Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "PNS",
+    "label": "SVRL SEZ/Raigad",
+    "subdivisionCode": "MH",
+    "function": "36",
+    "lat": 18.983333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "UDI",
+    "label": "Synefra-SEZ/Udupi",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.35,
+    "lng": 74.75
+  },
+  {
+    "locationCode": "TTS",
+    "label": "T.T.Shed",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "TAD",
+    "label": "Tadri",
+    "subdivisionCode": "KA",
+    "function": "13",
+    "lat": 14.516667,
+    "lng": 74.35
+  },
+  {
+    "locationCode": "TJA",
+    "label": "Talaja",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Talegaon",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.533333,
+    "lng": 73.866667
+  },
+  {
+    "locationCode": "TGD",
+    "label": "Talegaon Dabhade",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.716667,
+    "lng": 73.683333
+  },
+  {
+    "locationCode": "TLB",
+    "label": "Taliparamba",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 12.05,
+    "lng": 75.35
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Talpona",
+    "subdivisionCode": "GA",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talwara",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 31.933333,
+    "lng": 75.866667
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tamilnada",
+    "subdivisionCode": "AN",
+    "function": "3"
+  },
+  {
+    "locationCode": "TNK",
+    "label": "Tankari",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Tarapur",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "TT8",
+    "label": "Tarn Taran",
+    "subdivisionCode": "PB",
+    "function": "2",
+    "lat": 31.45,
+    "lng": 74.916667
+  },
+  {
+    "locationCode": "CAG",
+    "label": "Tata Steel SEZ/Ganjam",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 19.383333,
+    "lng": 85.066667
+  },
+  {
+    "locationCode": "INT",
+    "label": "TCS SEZ/Indore",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": 22.716667,
+    "lng": 75.833333
+  },
+  {
+    "locationCode": "TBT",
+    "label": "TCSL SEZ/Siruseri",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 13.083333,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "GNT",
+    "label": "TCS-SEZ/Gandhinagar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.216667,
+    "lng": 72.683333
+  },
+  {
+    "locationCode": "CBT",
+    "label": "TDPL SEZ/Coimbatore",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11,
+    "lng": 76.966667
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Tellicherry",
+    "subdivisionCode": "KL",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKS",
+    "label": "Tenkasi",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "TEZ",
+    "label": "Tezpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEI",
+    "label": "Tezu",
+    "function": "4"
+  },
+  {
+    "locationCode": "THL",
+    "label": "Thal",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Thana",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "THN",
+    "label": "Thane",
+    "subdivisionCode": "MH",
+    "function": "123",
+    "lat": 19.2,
+    "lng": 72.966667
+  },
+  {
+    "locationCode": "TJV",
+    "label": "Thanjavur",
+    "function": "4"
+  },
+  {
+    "locationCode": "THE",
+    "label": "Theni",
+    "subdivisionCode": "TN",
+    "function": "6"
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Thiruvananthapuram (ex Trivandrum)",
+    "subdivisionCode": "KL",
+    "function": "1234",
+    "lat": 8.483333,
+    "lng": 76.916667
+  },
+  {
+    "locationCode": "TVR",
+    "label": "Thiruvarur",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.133333,
+    "lng": 79.9
+  },
+  {
+    "locationCode": "NTV",
+    "label": "Thootibari Lcs",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 26.25,
+    "lng": 83.116667
+  },
+  {
+    "locationCode": "TPP",
+    "label": "Thoppumpady",
+    "function": "6",
+    "lat": 9.933333,
+    "lng": 76.25
+  },
+  {
+    "locationCode": "TPH",
+    "label": "Thopputhurai",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "THR",
+    "label": "Thrissur",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 10.516667,
+    "lng": 76.216667
+  },
+  {
+    "locationCode": "TCR",
+    "label": "Tics ICD/Mathilakam",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 10.516667,
+    "lng": 76.216667
+  },
+  {
+    "locationCode": "TI3",
+    "label": "Tihi",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 22.616667,
+    "lng": 75.733333
+  },
+  {
+    "locationCode": "TIK",
+    "label": "Tikamgarh",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 24.733333,
+    "lng": 78.833333
+  },
+  {
+    "locationCode": "TKN",
+    "label": "Tikonia",
+    "subdivisionCode": "UP"
+  },
+  {
+    "locationCode": "TSK",
+    "label": "Tinsukia",
+    "subdivisionCode": "AS",
+    "function": "3",
+    "lat": 27.5,
+    "lng": 95.366667
+  },
+  {
+    "locationCode": "MAS",
+    "label": "TIPL SEZ/Chennai",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 13.083333,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "TCH",
+    "label": "Tiruchengodu",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.383333,
+    "lng": 77.933333
+  },
+  {
+    "locationCode": "TRZ",
+    "label": "Tiruchirapalli",
+    "subdivisionCode": "TN",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Tiruchirappalli",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 10.783333,
+    "lng": 78.7
+  },
+  {
+    "locationCode": "TYR",
+    "label": "Tirukkadayyur",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "TIR",
+    "label": "Tirupati",
+    "function": "4"
+  },
+  {
+    "locationCode": "TUP",
+    "label": "Tiruppur",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 11.083333,
+    "lng": 77.35
+  },
+  {
+    "locationCode": "TRU",
+    "label": "Tirur",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 10.9,
+    "lng": 75.916667
+  },
+  {
+    "locationCode": "TRL",
+    "label": "Tiruvallur",
+    "subdivisionCode": "TN",
+    "function": "236",
+    "lat": 13.15,
+    "lng": 79.916667
+  },
+  {
+    "locationCode": "TVI",
+    "label": "Tiruvannamalai",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 12.216667,
+    "lng": 79.066667
+  },
+  {
+    "locationCode": "TIV",
+    "label": "Tiviri",
+    "function": "1"
+  },
+  {
+    "locationCode": "TND",
+    "label": "Tondi",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "TVT",
+    "label": "Tondiarpet",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 13.116667,
+    "lng": 80.283333
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tonk",
+    "subdivisionCode": "RJ",
+    "function": "36",
+    "lat": 26.166667,
+    "lng": 75.8
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Toranagallu",
+    "subdivisionCode": "KA",
+    "function": "16",
+    "lat": 15.2,
+    "lng": 76.683333
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Tranquebar",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "TMP",
+    "label": "Trombay",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "TTP",
+    "label": "Ttpl Cfs/Dadri",
+    "subdivisionCode": "UP",
+    "function": "6",
+    "lat": 28.566667,
+    "lng": 77.55
+  },
+  {
+    "locationCode": "TDE",
+    "label": "Tudiyalür",
+    "subdivisionCode": "TN",
+    "labelWithDiacritics": "Tudiyalur",
+    "function": "236",
+    "lat": 11.083333,
+    "lng": 76.95
+  },
+  {
+    "locationCode": "TKD",
+    "label": "Tughlakabad",
+    "subdivisionCode": "DL",
+    "function": "236",
+    "lat": 28.5,
+    "lng": 77.266667
+  },
+  {
+    "locationCode": "TUB",
+    "label": "TUMB",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 20.166667,
+    "lng": 72.75
+  },
+  {
+    "locationCode": "ZUM",
+    "label": "Tumkur",
+    "subdivisionCode": "KA",
+    "function": "13",
+    "lat": 16.5,
+    "lng": 77.083333
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tuna",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNG",
+    "label": "Tungi",
+    "subdivisionCode": "WB"
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Tuticorin",
+    "subdivisionCode": "TN",
+    "function": "1236",
+    "lat": 8.783333,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "UDR",
+    "label": "Udaipur",
+    "subdivisionCode": "RJ",
+    "function": "46"
+  },
+  {
+    "locationCode": "UDH",
+    "label": "Udhampur",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 32.933333,
+    "lng": 75.133333
+  },
+  {
+    "locationCode": "UJJ",
+    "label": "Ujjain",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.183333,
+    "lng": 75.766667
+  },
+  {
+    "locationCode": "ULP",
+    "label": "Ultapani",
+    "subdivisionCode": "AS"
+  },
+  {
+    "locationCode": "ULW",
+    "label": "Ulwa",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "UMA",
+    "label": "Umaria",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.7,
+    "lng": 78.666667
+  },
+  {
+    "locationCode": "UMR",
+    "label": "Umarsadi",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "UMG",
+    "label": "Umbergaon",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.2,
+    "lng": 72.85
+  },
+  {
+    "locationCode": "UMB",
+    "label": "Umbergoan",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "UNA",
+    "label": "Una",
+    "subdivisionCode": "HP",
+    "function": "6",
+    "lat": 31.483333,
+    "lng": 76.283333
+  },
+  {
+    "locationCode": "UNN",
+    "label": "Unnao",
+    "subdivisionCode": "UP",
+    "function": "3",
+    "lat": 26.883333,
+    "lng": 80.8
+  },
+  {
+    "locationCode": "URA",
+    "label": "Uran",
+    "subdivisionCode": "MH",
+    "function": "123",
+    "lat": 18.883333,
+    "lng": 72.933333
+  },
+  {
+    "locationCode": "UTN",
+    "label": "Uttan",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "VRU",
+    "label": "Vadarevu",
+    "subdivisionCode": "AP",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAD",
+    "label": "Vadinar",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDQ",
+    "label": "Vadodara",
+    "subdivisionCode": "GJ",
+    "function": "1234",
+    "lat": 22.3,
+    "lng": 73.2
+  },
+  {
+    "locationCode": "VVK",
+    "label": "Valasaravakkam",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 13.033333,
+    "lng": 80.166667
+  },
+  {
+    "locationCode": "VKM",
+    "label": "Valinokkam",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "ERV",
+    "label": "Vallarpadom-SEZ/Ernakulam",
+    "subdivisionCode": "KL",
+    "function": "6",
+    "lat": 9.983333,
+    "lng": 76.283333
+  },
+  {
+    "locationCode": "VSD",
+    "label": "Valsad",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 20.633333,
+    "lng": 72.933333
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valvada",
+    "subdivisionCode": "GJ",
+    "function": "6"
+  },
+  {
+    "locationCode": "VSI",
+    "label": "Vansi-Borsi",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "VPI",
+    "label": "Vapi",
+    "subdivisionCode": "GJ",
+    "function": "23",
+    "lat": 20.366667,
+    "lng": 72.9
+  },
+  {
+    "locationCode": "VNS",
+    "label": "Varanasi",
+    "subdivisionCode": "UP",
+    "function": "346",
+    "lat": 25.333333,
+    "lng": 83
+  },
+  {
+    "locationCode": "VRD",
+    "label": "Varavda",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "VSV",
+    "label": "Varsova",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "VGM",
+    "label": "Vasco da Gama",
+    "subdivisionCode": "GA",
+    "function": "3",
+    "lat": 15.4,
+    "lng": 73.816667
+  },
+  {
+    "locationCode": "VSH",
+    "label": "Vashi",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 19.116667,
+    "lng": 73
+  },
+  {
+    "locationCode": "MOV",
+    "label": "VBTL-SEZ/Medak",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 18.033333,
+    "lng": 78.266667
+  },
+  {
+    "locationCode": "JHV",
+    "label": "Vedanta SEZ/Jharsuguda",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 21.833333,
+    "lng": 84.016667
+  },
+  {
+    "locationCode": "VNG",
+    "label": "Vemgira",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "VEN",
+    "label": "Vengurla",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "VEP",
+    "label": "Veppalodai",
+    "subdivisionCode": "TN",
+    "function": "1"
+  },
+  {
+    "locationCode": "VVA",
+    "label": "Veraval",
+    "subdivisionCode": "GJ",
+    "function": "1"
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verna",
+    "subdivisionCode": "GA",
+    "function": "6",
+    "lat": 15.35,
+    "lng": 73.916667
+  },
+  {
+    "locationCode": "VHA",
+    "label": "Vidisha",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 23.533333,
+    "lng": 77.816667
+  },
+  {
+    "locationCode": "VID",
+    "label": "Vidyanagar",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.533333,
+    "lng": 72.9
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Vijapur",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.566667,
+    "lng": 72.75
+  },
+  {
+    "locationCode": "VIJ",
+    "label": "Vijayanagar",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.983333,
+    "lng": 73.266667
+  },
+  {
+    "locationCode": "VGA",
+    "label": "Vijayawada",
+    "function": "4"
+  },
+  {
+    "locationCode": "GWM",
+    "label": "Vijayawada International Airport/Gannavaram",
+    "subdivisionCode": "AP",
+    "function": "4",
+    "lat": 16.516667,
+    "lng": 80.616667
+  },
+  {
+    "locationCode": "VYD",
+    "label": "Vijaydurg",
+    "subdivisionCode": "MH",
+    "function": "1"
+  },
+  {
+    "locationCode": "NGS",
+    "label": "Village Namaya Shipkila",
+    "subdivisionCode": "MN",
+    "function": "2"
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Viluppuram",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 11.933333,
+    "lng": 79.483333
+  },
+  {
+    "locationCode": "VGH",
+    "label": "Virudhunagar",
+    "subdivisionCode": "TN",
+    "function": "3",
+    "lat": 9.583333,
+    "lng": 77.95
+  },
+  {
+    "locationCode": "VTZ",
+    "label": "Visakhapatnam",
+    "subdivisionCode": "AP",
+    "function": "12346",
+    "lat": 17.7,
+    "lng": 83.3
+  },
+  {
+    "locationCode": "VSG",
+    "label": "Visnagar",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 23.7,
+    "lng": 72.55
+  },
+  {
+    "locationCode": "VIG",
+    "label": "Vizagapatanam",
+    "subdivisionCode": "DL",
+    "function": "1"
+  },
+  {
+    "locationCode": "VZJ",
+    "label": "Vizhinjam",
+    "subdivisionCode": "KL",
+    "function": "1",
+    "lat": 8.383333,
+    "lng": 77
+  },
+  {
+    "locationCode": "CJV",
+    "label": "VTPL SEZ/Kancheepuram",
+    "subdivisionCode": "TN",
+    "function": "36",
+    "lat": 12.833333,
+    "lng": 79.716667
+  },
+  {
+    "locationCode": "TEV",
+    "label": "VVM SEZ/Tirunelveli",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 8.733333,
+    "lng": 77.7
+  },
+  {
+    "locationCode": "WAD",
+    "label": "Wada",
+    "subdivisionCode": "MH",
+    "function": "13",
+    "lat": 18.983333,
+    "lng": 73.75
+  },
+  {
+    "locationCode": "WAI",
+    "label": "Wai",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 17.933333,
+    "lng": 73.9
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Waluj (Aurangabad)",
+    "subdivisionCode": "MH",
+    "function": "6"
+  },
+  {
+    "locationCode": "WKE",
+    "label": "Wankaner",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 22.616667,
+    "lng": 70.966667
+  },
+  {
+    "locationCode": "WRA",
+    "label": "Warangal",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 18,
+    "lng": 79.583333
+  },
+  {
+    "locationCode": "WAR",
+    "label": "Warora",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.233333,
+    "lng": 79
+  },
+  {
+    "locationCode": "WGC",
+    "label": "Warrangal",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAS",
+    "label": "Washim",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.1,
+    "lng": 77.15
+  },
+  {
+    "locationCode": "AJE",
+    "label": "Welspun Anjar-SEZ/Anjar",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.133333,
+    "lng": 70.016667
+  },
+  {
+    "locationCode": "WSS",
+    "label": "West Sikkim",
+    "subdivisionCode": "SK",
+    "function": "3",
+    "lat": 27.4,
+    "lng": 88.2
+  },
+  {
+    "locationCode": "KVR",
+    "label": "WFPML-SEZ/Kovvur",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.016667,
+    "lng": 81.733333
+  },
+  {
+    "locationCode": "CCI",
+    "label": "Wipro Sez/Hinjewadi",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 18.8,
+    "lng": 73.766667
+  },
+  {
+    "locationCode": "KJW",
+    "label": "Wipro Sez/Kodathi",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 13.466667,
+    "lng": 78.183333
+  },
+  {
+    "locationCode": "BNW",
+    "label": "Wipro SEZ/Kolkata",
+    "subdivisionCode": "WB",
+    "function": "6",
+    "lat": 22.566667,
+    "lng": 88.366667
+  },
+  {
+    "locationCode": "VSP",
+    "label": "Wipro Sez/Resapuvanipalem",
+    "subdivisionCode": "AP",
+    "function": "6",
+    "lat": 17.733333,
+    "lng": 83.316667
+  },
+  {
+    "locationCode": "CHJ",
+    "label": "WWIL ICD/Wardha",
+    "subdivisionCode": "MH",
+    "function": "6",
+    "lat": 20.75,
+    "lng": 78.616667
+  },
+  {
+    "locationCode": "YAN",
+    "label": "Yanam",
+    "subdivisionCode": "AP",
+    "function": "3",
+    "lat": 16.733333,
+    "lng": 82.216667
+  },
+  {
+    "locationCode": "YVT",
+    "label": "Yavatamal",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.4,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "YAV",
+    "label": "Yavatmal",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 20.4,
+    "lng": 78.133333
+  },
+  {
+    "locationCode": "YCD",
+    "label": "Yercaud",
+    "subdivisionCode": "TN",
+    "function": "6",
+    "lat": 11.766667,
+    "lng": 78.233333
+  },
+  {
+    "locationCode": "ZHR",
+    "label": "Zahirabad",
+    "subdivisionCode": "TG",
+    "function": "3",
+    "lat": 17.666667,
+    "lng": 77.6
+  },
+  {
+    "locationCode": "ZER",
+    "label": "Zero (Ziro)",
+    "subdivisionCode": "AP",
+    "function": "4",
+    "lat": 27.633333,
+    "lng": 93.833333
+  },
+  {
+    "locationCode": "ZIP",
+    "label": "ZIPL-SEZ/Ahmedabad",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 23.033333,
+    "lng": 72.616667
+  },
+  {
+    "locationCode": "ZIR",
+    "label": "Zirakpur",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.65,
+    "lng": 76.816667
+  }
+]

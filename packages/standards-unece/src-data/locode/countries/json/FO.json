@@ -1,0 +1,186 @@
+[
+  {
+    "locationCode": "EDI",
+    "label": "Eidi",
+    "function": "1",
+    "lat": 62.3,
+    "lng": -7.083333
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Færøø Islands-Vagar Apt",
+    "labelWithDiacritics": "Faroo Islands-Vagar Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "FUG",
+    "label": "Fuglafjørdur",
+    "labelWithDiacritics": "Fuglafjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "GLY",
+    "label": "Glyvrar",
+    "function": "23",
+    "lat": 62.133333,
+    "lng": -6.716667
+  },
+  {
+    "locationCode": "HYV",
+    "label": "Hoyvik",
+    "function": "13",
+    "lat": 62.033333,
+    "lng": -6.75
+  },
+  {
+    "locationCode": "HUS",
+    "label": "Husevig",
+    "function": "1"
+  },
+  {
+    "locationCode": "KVI",
+    "label": "Klaksvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kollafjördur",
+    "labelWithDiacritics": "Kollafjordur",
+    "function": "13",
+    "lat": 62.116667,
+    "lng": -6.883333
+  },
+  {
+    "locationCode": "LOP",
+    "label": "Lopra",
+    "function": "1"
+  },
+  {
+    "locationCode": "NLS",
+    "label": "Nólsoy",
+    "labelWithDiacritics": "Nolsoy",
+    "function": "13",
+    "lat": 62.016667,
+    "lng": -6.666667
+  },
+  {
+    "locationCode": "NSK",
+    "label": "Norÿskáli",
+    "labelWithDiacritics": "Noryskali",
+    "function": "1",
+    "lat": 62.216667,
+    "lng": -7
+  },
+  {
+    "locationCode": "RVK",
+    "label": "Runavík",
+    "labelWithDiacritics": "Runavik",
+    "function": "13",
+    "lat": 62.116667,
+    "lng": -6.716667
+  },
+  {
+    "locationCode": "SJO",
+    "label": "Sjovar havn",
+    "function": "1",
+    "lat": 62.1,
+    "lng": -6.75
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skáli",
+    "labelWithDiacritics": "Skali",
+    "function": "13",
+    "lat": 62.15,
+    "lng": -6.766667
+  },
+  {
+    "locationCode": "SMJ",
+    "label": "Solmundefjord",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Sorvágur",
+    "labelWithDiacritics": "Sorvagur",
+    "function": "1",
+    "lat": 62.066667,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "STR",
+    "label": "Strendur",
+    "function": "1",
+    "lat": 62.116667,
+    "lng": -6.75
+  },
+  {
+    "locationCode": "SYN",
+    "label": "Streymnes",
+    "function": "13",
+    "lat": 62.2,
+    "lng": -7.016667
+  },
+  {
+    "locationCode": "THO",
+    "label": "Thorshavn",
+    "function": "1",
+    "lat": 62.016667,
+    "lng": -6.766667
+  },
+  {
+    "locationCode": "TOF",
+    "label": "Toftir",
+    "function": "1",
+    "lat": 62.1,
+    "lng": -6.733333
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Tórshavn",
+    "labelWithDiacritics": "Torshavn",
+    "function": "16",
+    "lat": 62.166667,
+    "lng": -65
+  },
+  {
+    "locationCode": "TVO",
+    "label": "Tvoroyri",
+    "function": "1",
+    "lat": 61.55,
+    "lng": -6.8
+  },
+  {
+    "locationCode": "VID",
+    "label": "Vadair",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAG",
+    "label": "Vágur",
+    "labelWithDiacritics": "Vagur",
+    "function": "13",
+    "lat": 61.466667,
+    "lng": -6.816667
+  },
+  {
+    "locationCode": "VAZ",
+    "label": "Vágur",
+    "labelWithDiacritics": "Vagur",
+    "function": "3",
+    "lat": 62.216667,
+    "lng": -6.583333
+  },
+  {
+    "locationCode": "VBR",
+    "label": "Velbastadur",
+    "function": "6",
+    "lat": 61.983333,
+    "lng": -6.85
+  },
+  {
+    "locationCode": "VES",
+    "label": "Vestmanhavn",
+    "function": "1"
+  }
+]

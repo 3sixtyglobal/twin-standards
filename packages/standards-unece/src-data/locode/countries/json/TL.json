@@ -1,0 +1,85 @@
+[
+  {
+    "locationCode": "AUT",
+    "label": "Atauro",
+    "subdivisionCode": "DI",
+    "function": "4",
+    "lat": -8.266667,
+    "lng": 125.6
+  },
+  {
+    "locationCode": "BCH",
+    "label": "Baucau",
+    "subdivisionCode": "BA",
+    "function": "4",
+    "lat": -8.466667,
+    "lng": 126.45
+  },
+  {
+    "locationCode": "DIL",
+    "label": "Dili",
+    "subdivisionCode": "DI",
+    "function": "134",
+    "lat": -8.55,
+    "lng": 125.566667
+  },
+  {
+    "locationCode": "KOE",
+    "label": "Kupang",
+    "function": "4",
+    "lat": -10.166667,
+    "lng": 123.666667
+  },
+  {
+    "locationCode": "LIB",
+    "label": "Liberdade",
+    "function": "7",
+    "lat": -11.033333,
+    "lng": 126.616667
+  },
+  {
+    "locationCode": "MPT",
+    "label": "Maliana",
+    "subdivisionCode": "BO",
+    "function": "4",
+    "lat": -8.983333,
+    "lng": 125.216667
+  },
+  {
+    "locationCode": "MDV",
+    "label": "Modec Venture",
+    "function": "7",
+    "lat": -10.866667,
+    "lng": 126.566667
+  },
+  {
+    "locationCode": "OEC",
+    "label": "Ocussi",
+    "subdivisionCode": "OE",
+    "function": "4",
+    "lat": -9.2,
+    "lng": 124.333333
+  },
+  {
+    "locationCode": "SVP",
+    "label": "Sevivara Point",
+    "function": "3",
+    "lat": -8.383333,
+    "lng": 127.283333
+  },
+  {
+    "locationCode": "SUA",
+    "label": "Suai",
+    "function": "3",
+    "lat": -9.3,
+    "lng": 125.25
+  },
+  {
+    "locationCode": "VIQ",
+    "label": "Viveque",
+    "subdivisionCode": "VI",
+    "function": "4",
+    "lat": -8.883333,
+    "lng": 126.366667
+  }
+]

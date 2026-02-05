@@ -1,0 +1,2220 @@
+[
+  {
+    "locationCode": "AWL",
+    "label": "Aewol",
+    "subdivisionCode": "49",
+    "function": "1",
+    "lat": 33.45,
+    "lng": 126.316667
+  },
+  {
+    "locationCode": "ADG",
+    "label": "Andong",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.55,
+    "lng": 128.716667
+  },
+  {
+    "locationCode": "ANJ",
+    "label": "Anjeong",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 34.95,
+    "lng": 128.433333
+  },
+  {
+    "locationCode": "ASN",
+    "label": "Ansan",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.316667,
+    "lng": 126.816667
+  },
+  {
+    "locationCode": "ASG",
+    "label": "Anseong",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37,
+    "lng": 127.266667
+  },
+  {
+    "locationCode": "ANY",
+    "label": "Anyang",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.383333,
+    "lng": 126.916667
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asan",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.783333,
+    "lng": 127
+  },
+  {
+    "locationCode": "BAA",
+    "label": "BALAN/Hwaseoung",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.466667,
+    "lng": 126.85
+  },
+  {
+    "locationCode": "BIN",
+    "label": "Biin",
+    "subdivisionCode": "44",
+    "function": "1",
+    "lat": 36.116667,
+    "lng": 126.483333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Boeun-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.483333,
+    "lng": 127.716667
+  },
+  {
+    "locationCode": "BDE",
+    "label": "Bongdong-eup/Wanju-gun",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 35.933333,
+    "lng": 127.15
+  },
+  {
+    "locationCode": "BHA",
+    "label": "Bonghwa-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.233333,
+    "lng": 128.716667
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Boryeong",
+    "subdivisionCode": "44",
+    "function": "123",
+    "lat": 36.316667,
+    "lng": 126.5
+  },
+  {
+    "locationCode": "BSG",
+    "label": "Boseong-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.766667,
+    "lng": 127.8
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Buan-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.716667,
+    "lng": 126.733333
+  },
+  {
+    "locationCode": "BCN",
+    "label": "Bucheon",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.5,
+    "lng": 126.75
+  },
+  {
+    "locationCode": "BJJ",
+    "label": "Bukjeju-gun",
+    "subdivisionCode": "49",
+    "function": "3",
+    "lat": 33.483333,
+    "lng": 126.5
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Bupyong/Incheon",
+    "subdivisionCode": "28",
+    "function": "123",
+    "lat": 37.5,
+    "lng": 129.133333
+  },
+  {
+    "locationCode": "PUS",
+    "label": "Busan",
+    "subdivisionCode": "26",
+    "function": "1234567",
+    "lat": 35.133333,
+    "lng": 129.05
+  },
+  {
+    "locationCode": "BNP",
+    "label": "Busan New Port",
+    "subdivisionCode": "26",
+    "function": "1",
+    "lat": 35.083333,
+    "lng": 128.816667
+  },
+  {
+    "locationCode": "BJG",
+    "label": "Busanjin-Gu",
+    "subdivisionCode": "26",
+    "function": "13",
+    "lat": 35.15,
+    "lng": 129.05
+  },
+  {
+    "locationCode": "BYO",
+    "label": "Buyeo-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.266667,
+    "lng": 126.9
+  },
+  {
+    "locationCode": "CNG",
+    "label": "Changnyeong-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.533333,
+    "lng": 128.483333
+  },
+  {
+    "locationCode": "CHW",
+    "label": "Changwon",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.216667,
+    "lng": 128.666667
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Cheonan",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.8,
+    "lng": 127.15
+  },
+  {
+    "locationCode": "CDO",
+    "label": "Cheongdo-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.633333,
+    "lng": 128.733333
+  },
+  {
+    "locationCode": "COJ",
+    "label": "Cheongju",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.633333,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "CJJ",
+    "label": "Cheongju Apt",
+    "subdivisionCode": "43",
+    "function": "34",
+    "lat": 36.7,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "CSG",
+    "label": "Cheongsong-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.433333,
+    "lng": 129.416667
+  },
+  {
+    "locationCode": "CWO",
+    "label": "Cheongwon-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.633333,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "CYG",
+    "label": "Cheongyang-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.45,
+    "lng": 126.8
+  },
+  {
+    "locationCode": "CWN",
+    "label": "Cheorwon-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 38.25,
+    "lng": 127.216667
+  },
+  {
+    "locationCode": "CGK",
+    "label": "Chilgok-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.983333,
+    "lng": 128.4
+  },
+  {
+    "locationCode": "CWR",
+    "label": "Ch'irwon",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.3,
+    "lng": 128.516667
+  },
+  {
+    "locationCode": "COG",
+    "label": "Ch'Ongdo",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 35.633333,
+    "lng": 128.733333
+  },
+  {
+    "locationCode": "CHN",
+    "label": "Chonju",
+    "subdivisionCode": "45",
+    "function": "234",
+    "lat": 35.816667,
+    "lng": 127.133333
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chonui/Yeongi-gun",
+    "subdivisionCode": "44",
+    "function": "236",
+    "lat": 36.666667,
+    "lng": 127.2
+  },
+  {
+    "locationCode": "CJA",
+    "label": "Chuja",
+    "subdivisionCode": "49",
+    "function": "1",
+    "lat": 33.95,
+    "lng": 126.3
+  },
+  {
+    "locationCode": "CHC",
+    "label": "Chuncheon",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.866667,
+    "lng": 127.75
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Chungju",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.966667,
+    "lng": 127.916667
+  },
+  {
+    "locationCode": "UGN",
+    "label": "Chungnam",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 35.016667,
+    "lng": 126.866667
+  },
+  {
+    "locationCode": "CGY",
+    "label": "Chungyang",
+    "subdivisionCode": "30",
+    "function": "1"
+  },
+  {
+    "locationCode": "DBL",
+    "label": "Daebul/Yeongam-gun",
+    "subdivisionCode": "46",
+    "function": "123",
+    "lat": 34.75,
+    "lng": 126.433333
+  },
+  {
+    "locationCode": "DCN",
+    "label": "Daecheon",
+    "subdivisionCode": "44",
+    "function": "1",
+    "lat": 36.316667,
+    "lng": 126.5
+  },
+  {
+    "locationCode": "QET",
+    "label": "Daedeok/Dawjeon",
+    "subdivisionCode": "30",
+    "function": "34",
+    "lat": 36.383333,
+    "lng": 127.366667
+  },
+  {
+    "locationCode": "TAE",
+    "label": "Daegu",
+    "subdivisionCode": "27",
+    "function": "234",
+    "lat": 35.866667,
+    "lng": 128.583333
+  },
+  {
+    "locationCode": "DHS",
+    "label": "Daeheuksando",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.683333,
+    "lng": 125.433333
+  },
+  {
+    "locationCode": "TJN",
+    "label": "Daejeon",
+    "subdivisionCode": "30",
+    "function": "23",
+    "lat": 36.316667,
+    "lng": 127.416667
+  },
+  {
+    "locationCode": "TSN",
+    "label": "Daesan/Seosan",
+    "subdivisionCode": "44",
+    "function": "1",
+    "lat": 37,
+    "lng": 126.366667
+  },
+  {
+    "locationCode": "DSG",
+    "label": "Dalseong-gun/Daegu",
+    "subdivisionCode": "27",
+    "function": "23",
+    "lat": 35.816667,
+    "lng": 128.55
+  },
+  {
+    "locationCode": "DYA",
+    "label": "Damyang-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.316667,
+    "lng": 126.983333
+  },
+  {
+    "locationCode": "TJI",
+    "label": "Dangjin",
+    "subdivisionCode": "44",
+    "function": "13",
+    "lat": 36.966667,
+    "lng": 126.783333
+  },
+  {
+    "locationCode": "DYG",
+    "label": "Danyang-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.983333,
+    "lng": 128.35
+  },
+  {
+    "locationCode": "DDO",
+    "label": "Dokdo",
+    "subdivisionCode": "47",
+    "function": "1",
+    "lat": 37.233333,
+    "lng": 131.85
+  },
+  {
+    "locationCode": "DDC",
+    "label": "Dongducheon",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.9,
+    "lng": 127.55
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Donghae",
+    "subdivisionCode": "42",
+    "function": "123",
+    "lat": 37.483333,
+    "lng": 129.116667
+  },
+  {
+    "locationCode": "DRS",
+    "label": "Dorasan/Paju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.75,
+    "lng": 126.766667
+  },
+  {
+    "locationCode": "ESG",
+    "label": "Eumseong-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.933333,
+    "lng": 127.683333
+  },
+  {
+    "locationCode": "GGH",
+    "label": "Gageohyangri",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.066667,
+    "lng": 125.083333
+  },
+  {
+    "locationCode": "GDO",
+    "label": "Galdoo",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.3,
+    "lng": 126.516667
+  },
+  {
+    "locationCode": "KCN",
+    "label": "Gamcheon/Busan",
+    "subdivisionCode": "26",
+    "function": "1",
+    "lat": 35.083333,
+    "lng": 129
+  },
+  {
+    "locationCode": "GGU",
+    "label": "Ganggu",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 36.35,
+    "lng": 129.383333
+  },
+  {
+    "locationCode": "GHA",
+    "label": "Ganghwa-gun/Incheon",
+    "subdivisionCode": "28",
+    "function": "23",
+    "lat": 37.733333,
+    "lng": 126.483333
+  },
+  {
+    "locationCode": "GJN",
+    "label": "Gangjin-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.783333,
+    "lng": 126.766667
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Gangneung",
+    "subdivisionCode": "42",
+    "function": "234",
+    "lat": 37.75,
+    "lng": 128.9
+  },
+  {
+    "locationCode": "GNO",
+    "label": "Gangseo",
+    "function": "4"
+  },
+  {
+    "locationCode": "GPG",
+    "label": "Gapyeong-gun",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.816667,
+    "lng": 127.5
+  },
+  {
+    "locationCode": "GCH",
+    "label": "Geochang-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.683333,
+    "lng": 127.9
+  },
+  {
+    "locationCode": "JGE",
+    "label": "Geoje",
+    "subdivisionCode": "48",
+    "function": "4",
+    "lat": 34.9,
+    "lng": 128.683333
+  },
+  {
+    "locationCode": "KJE",
+    "label": "Geoje",
+    "subdivisionCode": "48",
+    "function": "13",
+    "lat": 34.85,
+    "lng": 128.583333
+  },
+  {
+    "locationCode": "GMD",
+    "label": "Geomundo",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.016667,
+    "lng": 127.3
+  },
+  {
+    "locationCode": "GSA",
+    "label": "Geumsan-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.783333,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "GJG",
+    "label": "Gijang-gun/Busan",
+    "subdivisionCode": "26",
+    "function": "23",
+    "lat": 35.25,
+    "lng": 129.2
+  },
+  {
+    "locationCode": "KMC",
+    "label": "Gimcheon",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.116667,
+    "lng": 128.1
+  },
+  {
+    "locationCode": "KMH",
+    "label": "Gimhae",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.233333,
+    "lng": 128.866667
+  },
+  {
+    "locationCode": "GJE",
+    "label": "Gimje",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.8,
+    "lng": 126.866667
+  },
+  {
+    "locationCode": "GMP",
+    "label": "Gimpo",
+    "subdivisionCode": "41",
+    "function": "234",
+    "lat": 37.616667,
+    "lng": 126.683333
+  },
+  {
+    "locationCode": "GCG",
+    "label": "Gochang-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.433333,
+    "lng": 126.7
+  },
+  {
+    "locationCode": "GSN",
+    "label": "Goesan-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.8,
+    "lng": 127.783333
+  },
+  {
+    "locationCode": "GOI",
+    "label": "Gogok",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 37.7,
+    "lng": 126.85
+  },
+  {
+    "locationCode": "GHG",
+    "label": "Goheung-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.6,
+    "lng": 127.283333
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Gohyeon/Geoje",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 34.883333,
+    "lng": 128.616667
+  },
+  {
+    "locationCode": "GSE",
+    "label": "Gokseong-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.266667,
+    "lng": 127.283333
+  },
+  {
+    "locationCode": "GOJ",
+    "label": "Gongju",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.45,
+    "lng": 127.133333
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Goryeong-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.966667,
+    "lng": 128.25
+  },
+  {
+    "locationCode": "GSG",
+    "label": "Goseong-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 38.366667,
+    "lng": 128.466667
+  },
+  {
+    "locationCode": "GSO",
+    "label": "Goseong-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 34.966667,
+    "lng": 128.316667
+  },
+  {
+    "locationCode": "GYG",
+    "label": "Goyang",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.65,
+    "lng": 126.816667
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Gumi",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.116667,
+    "lng": 128.333333
+  },
+  {
+    "locationCode": "GUN",
+    "label": "Gunpo",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.333333,
+    "lng": 126.983333
+  },
+  {
+    "locationCode": "KUV",
+    "label": "Gunsan",
+    "subdivisionCode": "45",
+    "function": "1234",
+    "lat": 35.983333,
+    "lng": 126.716667
+  },
+  {
+    "locationCode": "GWI",
+    "label": "Gunwi-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.233333,
+    "lng": 128.566667
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Guri",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.583333,
+    "lng": 127.133333
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Gurye-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.2,
+    "lng": 127.45
+  },
+  {
+    "locationCode": "GRP",
+    "label": "Guryongpo",
+    "subdivisionCode": "47",
+    "function": "1",
+    "lat": 35.983333,
+    "lng": 129.55
+  },
+  {
+    "locationCode": "GCN",
+    "label": "Gwacheon",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.416667,
+    "lng": 126.983333
+  },
+  {
+    "locationCode": "KWJ",
+    "label": "Gwangju",
+    "subdivisionCode": "29",
+    "function": "234",
+    "lat": 35.15,
+    "lng": 126.9
+  },
+  {
+    "locationCode": "KWU",
+    "label": "Gwangju",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.4,
+    "lng": 127.25
+  },
+  {
+    "locationCode": "GMG",
+    "label": "Gwangmyeong",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.466667,
+    "lng": 126.85
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Gwangyang",
+    "subdivisionCode": "46",
+    "function": "123",
+    "lat": 34.933333,
+    "lng": 127.7
+  },
+  {
+    "locationCode": "GIN",
+    "label": "Gyeongin",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 37.533333,
+    "lng": 126.6
+  },
+  {
+    "locationCode": "GJU",
+    "label": "Gyeongju",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.85,
+    "lng": 129.216667
+  },
+  {
+    "locationCode": "GYS",
+    "label": "Gyeongsan",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.8,
+    "lng": 128.733333
+  },
+  {
+    "locationCode": "GYE",
+    "label": "Gyerong",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.266667,
+    "lng": 127.233333
+  },
+  {
+    "locationCode": "HDG",
+    "label": "Hadong-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.7,
+    "lng": 127.75
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Haenam-Gun",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 34.566667,
+    "lng": 126.583333
+  },
+  {
+    "locationCode": "HLM",
+    "label": "Hallim",
+    "subdivisionCode": "49",
+    "function": "1",
+    "lat": 33.416667,
+    "lng": 126.25
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Haman-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.266667,
+    "lng": 128.4
+  },
+  {
+    "locationCode": "HPG",
+    "label": "Hampyeong-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.8,
+    "lng": 126.516667
+  },
+  {
+    "locationCode": "HYG",
+    "label": "Hamyang-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.516667,
+    "lng": 127.716667
+  },
+  {
+    "locationCode": "HNM",
+    "label": "Hanam",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.533333,
+    "lng": 127.2
+  },
+  {
+    "locationCode": "HCE",
+    "label": "Hapcheon-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.55,
+    "lng": 128.95
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Haryana",
+    "subdivisionCode": "26",
+    "function": "1"
+  },
+  {
+    "locationCode": "HSG",
+    "label": "Hoengseong-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.483333,
+    "lng": 127.983333
+  },
+  {
+    "locationCode": "HES",
+    "label": "Hoengseong-Gun",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 36.6,
+    "lng": 126.666667
+  },
+  {
+    "locationCode": "HCN",
+    "label": "Hongcheon-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.683333,
+    "lng": 127.883333
+  },
+  {
+    "locationCode": "HDO",
+    "label": "Hongdo",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.65,
+    "lng": 125.183333
+  },
+  {
+    "locationCode": "HSE",
+    "label": "Hongseong-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.6,
+    "lng": 126.65
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hosan",
+    "subdivisionCode": "42",
+    "function": "1",
+    "lat": 37.166667,
+    "lng": 129.35
+  },
+  {
+    "locationCode": "HPO",
+    "label": "Hupo",
+    "subdivisionCode": "47",
+    "function": "1",
+    "lat": 36.666667,
+    "lng": 129.45
+  },
+  {
+    "locationCode": "HCH",
+    "label": "Hwacheon-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 38.1,
+    "lng": 127.7
+  },
+  {
+    "locationCode": "HHP",
+    "label": "Hwahungpo",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.3,
+    "lng": 126.666667
+  },
+  {
+    "locationCode": "HWS",
+    "label": "Hwaseong",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.183333,
+    "lng": 126.816667
+  },
+  {
+    "locationCode": "HSO",
+    "label": "Hwasong",
+    "subdivisionCode": "41",
+    "function": "3"
+  },
+  {
+    "locationCode": "HSN",
+    "label": "Hwasun",
+    "subdivisionCode": "49",
+    "function": "123",
+    "lat": 33.233333,
+    "lng": 126.333333
+  },
+  {
+    "locationCode": "ZAD",
+    "label": "Hwasun-gun",
+    "subdivisionCode": "46",
+    "function": "6",
+    "lat": 35.05,
+    "lng": 126.983333
+  },
+  {
+    "locationCode": "HDM",
+    "label": "Hyeondo-myeon/Cheongwon-gun",
+    "subdivisionCode": "43",
+    "function": "36",
+    "lat": 36.483333,
+    "lng": 127.416667
+  },
+  {
+    "locationCode": "HYP",
+    "label": "Hyeonpoong/Daegu",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 35.683333,
+    "lng": 128.433333
+  },
+  {
+    "locationCode": "ICE",
+    "label": "Icheon",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.266667,
+    "lng": 127.433333
+  },
+  {
+    "locationCode": "IKS",
+    "label": "Iksan",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.966667,
+    "lng": 127.033333
+  },
+  {
+    "locationCode": "ILS",
+    "label": "Ilsan",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.5,
+    "lng": 129.433333
+  },
+  {
+    "locationCode": "IDG",
+    "label": "Ilsan-dong",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 37.683333,
+    "lng": 126.766667
+  },
+  {
+    "locationCode": "ISL",
+    "label": "Imsil-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.6,
+    "lng": 127.266667
+  },
+  {
+    "locationCode": "INC",
+    "label": "Incheon",
+    "subdivisionCode": "28",
+    "function": "123",
+    "lat": 37.45,
+    "lng": 126.616667
+  },
+  {
+    "locationCode": "ICN",
+    "label": "Incheon Intl Apt/Seoul",
+    "subdivisionCode": "28",
+    "function": "4",
+    "lat": 37.45,
+    "lng": 126.716667
+  },
+  {
+    "locationCode": "IJE",
+    "label": "Inje-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 38.683333,
+    "lng": 128.166667
+  },
+  {
+    "locationCode": "CHG",
+    "label": "Janghang/Seocheon-gun",
+    "subdivisionCode": "44",
+    "function": "1",
+    "lat": 36,
+    "lng": 126.683333
+  },
+  {
+    "locationCode": "JHG",
+    "label": "Jangheung-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.666667,
+    "lng": 126.9
+  },
+  {
+    "locationCode": "JSN",
+    "label": "Jangseong/Jangseong-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.3,
+    "lng": 126.8
+  },
+  {
+    "locationCode": "JSU",
+    "label": "Jangsu-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.633333,
+    "lng": 127.516667
+  },
+  {
+    "locationCode": "JCH",
+    "label": "Jecheon",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 37.133333,
+    "lng": 128.216667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Jeju",
+    "subdivisionCode": "49",
+    "function": "134",
+    "lat": 33.5,
+    "lng": 126.516667
+  },
+  {
+    "locationCode": "JEO",
+    "label": "Jeongeup",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.566667,
+    "lng": 126.85
+  },
+  {
+    "locationCode": "JSE",
+    "label": "Jeongseon-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.366667,
+    "lng": 128.65
+  },
+  {
+    "locationCode": "JNJ",
+    "label": "Jeonju",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.816667,
+    "lng": 127.15
+  },
+  {
+    "locationCode": "JYG",
+    "label": "Jeungpyeung",
+    "subdivisionCode": "43",
+    "function": "236",
+    "lat": 36.783333,
+    "lng": 127.583333
+  },
+  {
+    "locationCode": "JAN",
+    "label": "Jinan-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.633333,
+    "lng": 127.416667
+  },
+  {
+    "locationCode": "JCN",
+    "label": "Jincheon-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.85,
+    "lng": 127.933333
+  },
+  {
+    "locationCode": "JDO",
+    "label": "Jindo-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.483333,
+    "lng": 126.25
+  },
+  {
+    "locationCode": "CHF",
+    "label": "Jinhae",
+    "subdivisionCode": "48",
+    "function": "1234",
+    "lat": 35.133333,
+    "lng": 128.65
+  },
+  {
+    "locationCode": "HIN",
+    "label": "Jinju",
+    "subdivisionCode": "48",
+    "function": "234",
+    "lat": 35.166667,
+    "lng": 128.083333
+  },
+  {
+    "locationCode": "JCW",
+    "label": "Jochiwon-eup/Yeongi-gun",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 36.6,
+    "lng": 127.3
+  },
+  {
+    "locationCode": "JMJ",
+    "label": "Jumunjin",
+    "subdivisionCode": "42",
+    "function": "1",
+    "lat": 37.883333,
+    "lng": 128.833333
+  },
+  {
+    "locationCode": "JHA",
+    "label": "Junghwa",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 34.783333,
+    "lng": 128.366667
+  },
+  {
+    "locationCode": "KJG",
+    "label": "Kijang",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 35.233333,
+    "lng": 129.2
+  },
+  {
+    "locationCode": "KMP",
+    "label": "Kimp'o",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.616667,
+    "lng": 126.683333
+  },
+  {
+    "locationCode": "ZAF",
+    "label": "Koje",
+    "subdivisionCode": "48",
+    "function": "6",
+    "lat": 34.85,
+    "lng": 128.583333
+  },
+  {
+    "locationCode": "ZAE",
+    "label": "Koryong",
+    "subdivisionCode": "47",
+    "function": "6",
+    "lat": 35.266667,
+    "lng": 128.783333
+  },
+  {
+    "locationCode": "KSO",
+    "label": "Kosong",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 34.966667,
+    "lng": 128.316667
+  },
+  {
+    "locationCode": "KDO",
+    "label": "Kukdo",
+    "subdivisionCode": "47",
+    "function": "1",
+    "lat": 34.533333,
+    "lng": 128.433333
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kumi",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 36.116667,
+    "lng": 128.333333
+  },
+  {
+    "locationCode": "ZAA",
+    "label": "Kunpo",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 37.366667,
+    "lng": 126.933333
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Kwachon",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.416667,
+    "lng": 126.983333
+  },
+  {
+    "locationCode": "KWA",
+    "label": "Kwangyang",
+    "subdivisionCode": "49",
+    "function": "1",
+    "lat": 33.5,
+    "lng": 126.533333
+  },
+  {
+    "locationCode": "KWG",
+    "label": "Kwaseong",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.2,
+    "lng": 126.8
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masan",
+    "subdivisionCode": "48",
+    "function": "123",
+    "lat": 35.2,
+    "lng": 128.566667
+  },
+  {
+    "locationCode": "MIP",
+    "label": "Mipo/Ulsan",
+    "subdivisionCode": "31",
+    "function": "13",
+    "lat": 35.516667,
+    "lng": 129.433333
+  },
+  {
+    "locationCode": "MYG",
+    "label": "Miryang",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.466667,
+    "lng": 128.75
+  },
+  {
+    "locationCode": "MOK",
+    "label": "Mokpo",
+    "subdivisionCode": "46",
+    "function": "123",
+    "lat": 34.8,
+    "lng": 126.383333
+  },
+  {
+    "locationCode": "MPK",
+    "label": "Mokpo Apt",
+    "subdivisionCode": "46",
+    "function": "4",
+    "lat": 34.75,
+    "lng": 126.383333
+  },
+  {
+    "locationCode": "MWX",
+    "label": "Muan International Apt",
+    "subdivisionCode": "46",
+    "function": "4",
+    "lat": 35,
+    "lng": 126.383333
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Muan-gun",
+    "subdivisionCode": "46",
+    "function": "236",
+    "lat": 34.983333,
+    "lng": 126.966667
+  },
+  {
+    "locationCode": "MJU",
+    "label": "Muju-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 36.4,
+    "lng": 127.65
+  },
+  {
+    "locationCode": "MUK",
+    "label": "Mukho/Donghae",
+    "subdivisionCode": "42",
+    "function": "123",
+    "lat": 37.533333,
+    "lng": 129.1
+  },
+  {
+    "locationCode": "MGG",
+    "label": "Mungyeong",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.583333,
+    "lng": 128.183333
+  },
+  {
+    "locationCode": "MSN",
+    "label": "Munsan/Paju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.85,
+    "lng": 126.783333
+  },
+  {
+    "locationCode": "NPO",
+    "label": "Naepo",
+    "subdivisionCode": "44",
+    "function": "36",
+    "lat": 36.866667,
+    "lng": 126.266667
+  },
+  {
+    "locationCode": "NJU",
+    "label": "Naju",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.016667,
+    "lng": 126.716667
+  },
+  {
+    "locationCode": "NHE",
+    "label": "Namhae-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 34.833333,
+    "lng": 127.883333
+  },
+  {
+    "locationCode": "NWN",
+    "label": "Namwon",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.4,
+    "lng": 127.383333
+  },
+  {
+    "locationCode": "NYJ",
+    "label": "Namyang/Goheung-gun",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 34.716667,
+    "lng": 127.333333
+  },
+  {
+    "locationCode": "NYU",
+    "label": "Namyangju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.633333,
+    "lng": 127.2
+  },
+  {
+    "locationCode": "NRD",
+    "label": "Narodo",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.383333,
+    "lng": 127.25
+  },
+  {
+    "locationCode": "NDS",
+    "label": "Nokdongsin",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.516667,
+    "lng": 127.133333
+  },
+  {
+    "locationCode": "NSN",
+    "label": "Nonsan",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.183333,
+    "lng": 127.916667
+  },
+  {
+    "locationCode": "OCH",
+    "label": "Ochang",
+    "subdivisionCode": "43",
+    "function": "23"
+  },
+  {
+    "locationCode": "OCN",
+    "label": "Okcheon-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.3,
+    "lng": 127.566667
+  },
+  {
+    "locationCode": "OKK",
+    "label": "Okgye/Gangneung",
+    "subdivisionCode": "42",
+    "function": "12",
+    "lat": 37.6,
+    "lng": 129.033333
+  },
+  {
+    "locationCode": "OKP",
+    "label": "Okpo/Geoje",
+    "subdivisionCode": "48",
+    "function": "13",
+    "lat": 34.883333,
+    "lng": 128.7
+  },
+  {
+    "locationCode": "ONS",
+    "label": "Onsan/Ulsan",
+    "subdivisionCode": "31",
+    "function": "1",
+    "lat": 35.433333,
+    "lng": 129.35
+  },
+  {
+    "locationCode": "OSN",
+    "label": "Osan",
+    "subdivisionCode": "41",
+    "function": "4",
+    "lat": 37.15,
+    "lng": 127.05
+  },
+  {
+    "locationCode": "OSG",
+    "label": "Osong",
+    "subdivisionCode": "43",
+    "function": "26",
+    "lat": 36.6,
+    "lng": 127.316667
+  },
+  {
+    "locationCode": "PJU",
+    "label": "Paju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.75,
+    "lng": 126.766667
+  },
+  {
+    "locationCode": "PMJ",
+    "label": "Panmoonjeom",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.933333,
+    "lng": 126.716667
+  },
+  {
+    "locationCode": "POC",
+    "label": "Pocheon",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.883333,
+    "lng": 127.183333
+  },
+  {
+    "locationCode": "KPO",
+    "label": "Pohang",
+    "subdivisionCode": "47",
+    "function": "1234",
+    "lat": 36.033333,
+    "lng": 129.366667
+  },
+  {
+    "locationCode": "PRY",
+    "label": "Pry",
+    "subdivisionCode": "11",
+    "function": "3"
+  },
+  {
+    "locationCode": "PCG",
+    "label": "Pyeongchang-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.366667,
+    "lng": 128.383333
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Pyeongtaek",
+    "subdivisionCode": "41",
+    "function": "1236",
+    "lat": 36.966667,
+    "lng": 127.1
+  },
+  {
+    "locationCode": "SAH",
+    "label": "Sacheon",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.083333,
+    "lng": 128.083333
+  },
+  {
+    "locationCode": "SUK",
+    "label": "Samcheok",
+    "subdivisionCode": "42",
+    "function": "1234",
+    "lat": 37.433333,
+    "lng": 129.183333
+  },
+  {
+    "locationCode": "SCP",
+    "label": "Samcheonpo/Sacheon",
+    "subdivisionCode": "48",
+    "function": "13",
+    "lat": 34.916667,
+    "lng": 128.066667
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Sancheong-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.4,
+    "lng": 127.866667
+  },
+  {
+    "locationCode": "SDG",
+    "label": "Sangam-dong",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.816667,
+    "lng": 127.733333
+  },
+  {
+    "locationCode": "SJU",
+    "label": "Sangju",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.416667,
+    "lng": 128.15
+  },
+  {
+    "locationCode": "SWD",
+    "label": "Sangwangdeungdo",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 35.65,
+    "lng": 126.133333
+  },
+  {
+    "locationCode": "SJG",
+    "label": "Sejong",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 36.616667,
+    "lng": 127.216667
+  },
+  {
+    "locationCode": "SCE",
+    "label": "Seocheon-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.8,
+    "lng": 126.683333
+  },
+  {
+    "locationCode": "SCN",
+    "label": "Seocheon-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.666667,
+    "lng": 126.833333
+  },
+  {
+    "locationCode": "SPO",
+    "label": "Seogwipo",
+    "subdivisionCode": "49",
+    "function": "13",
+    "lat": 33.233333,
+    "lng": 126.55
+  },
+  {
+    "locationCode": "SEJ",
+    "label": "Seongju-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.9,
+    "lng": 128.266667
+  },
+  {
+    "locationCode": "SGM",
+    "label": "Seongnam",
+    "subdivisionCode": "41",
+    "function": "36",
+    "lat": 37.433333,
+    "lng": 127.133333
+  },
+  {
+    "locationCode": "SSP",
+    "label": "Seongsan-po",
+    "subdivisionCode": "49",
+    "function": "13",
+    "lat": 33.45,
+    "lng": 126.916667
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Seosan",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.783333,
+    "lng": 126.45
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Seoul",
+    "subdivisionCode": "11",
+    "function": "12345",
+    "lat": 37.516667,
+    "lng": 126.933333
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Shinma",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.433333,
+    "lng": 126.85
+  },
+  {
+    "locationCode": "STJ",
+    "label": "Shintanjin",
+    "subdivisionCode": "44",
+    "function": "2",
+    "lat": 36.433333,
+    "lng": 127.416667
+  },
+  {
+    "locationCode": "SHE",
+    "label": "Siheung",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.366667,
+    "lng": 126.8
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Siheung-dong/Seoul",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 37.45,
+    "lng": 126.916667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sinan-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.783333,
+    "lng": 126.366667
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Sinhang/Pohang",
+    "subdivisionCode": "48",
+    "function": "13",
+    "lat": 36.083333,
+    "lng": 129.55
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "Sint'anjin",
+    "subdivisionCode": "43",
+    "function": "236",
+    "lat": 36.45,
+    "lng": 127.416667
+  },
+  {
+    "locationCode": "SHO",
+    "label": "Sokcho",
+    "subdivisionCode": "42",
+    "function": "13",
+    "lat": 38.2,
+    "lng": 128.583333
+  },
+  {
+    "locationCode": "SGG",
+    "label": "Songgong",
+    "subdivisionCode": "46",
+    "function": "1",
+    "lat": 34.833333,
+    "lng": 126.216667
+  },
+  {
+    "locationCode": "ZAH",
+    "label": "Songtan",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 37.066667,
+    "lng": 127.05
+  },
+  {
+    "locationCode": "SBU",
+    "label": "South Busan",
+    "subdivisionCode": "26",
+    "function": "1",
+    "lat": 35.083333,
+    "lng": 129.15
+  },
+  {
+    "locationCode": "SCG",
+    "label": "Sunchang-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.716667,
+    "lng": 127.266667
+  },
+  {
+    "locationCode": "SYS",
+    "label": "Suncheon",
+    "subdivisionCode": "46",
+    "function": "234",
+    "lat": 34.95,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "SSN",
+    "label": "Sungnam (Seoul Ab)",
+    "subdivisionCode": "41",
+    "function": "234",
+    "lat": 37.5,
+    "lng": 126.933333
+  },
+  {
+    "locationCode": "SUO",
+    "label": "Suwon",
+    "subdivisionCode": "41",
+    "function": "123",
+    "lat": 37.25,
+    "lng": 127.233333
+  },
+  {
+    "locationCode": "SWU",
+    "label": "Suwon Apt",
+    "subdivisionCode": "41",
+    "function": "4",
+    "lat": 37.233333,
+    "lng": 127
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Taean-gun",
+    "subdivisionCode": "44",
+    "function": "13",
+    "lat": 36.716667,
+    "lng": 126.266667
+  },
+  {
+    "locationCode": "TBK",
+    "label": "Taebaek",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.166667,
+    "lng": 128.983333
+  },
+  {
+    "locationCode": "DGU",
+    "label": "Tongdaemun-Gu",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -37.566667,
+    "lng": 127.033333
+  },
+  {
+    "locationCode": "TGO",
+    "label": "Tongduch'on",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.9,
+    "lng": 127.05
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Tonghae",
+    "subdivisionCode": "42",
+    "function": "13",
+    "lat": 37.533333,
+    "lng": 129.1
+  },
+  {
+    "locationCode": "TYG",
+    "label": "Tongyeong",
+    "subdivisionCode": "48",
+    "function": "13",
+    "lat": 34.833333,
+    "lng": 128.416667
+  },
+  {
+    "locationCode": "UIJ",
+    "label": "Uijeongbu",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.733333,
+    "lng": 127.05
+  },
+  {
+    "locationCode": "URG",
+    "label": "Uiryeong-gun",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 25.316667,
+    "lng": 128.25
+  },
+  {
+    "locationCode": "USG",
+    "label": "Uiseong-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.916667,
+    "lng": 129.266667
+  },
+  {
+    "locationCode": "UWN",
+    "label": "Uiwang",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.333333,
+    "lng": 126.95
+  },
+  {
+    "locationCode": "UJN",
+    "label": "Uljin-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.35,
+    "lng": 128.683333
+  },
+  {
+    "locationCode": "UJU",
+    "label": "Ulju-gun/Ulsan",
+    "subdivisionCode": "31",
+    "function": "23",
+    "lat": 32.533333,
+    "lng": 129.283333
+  },
+  {
+    "locationCode": "ULL",
+    "label": "Ulleung",
+    "subdivisionCode": "47",
+    "function": "1",
+    "lat": 37.466667,
+    "lng": 130.9
+  },
+  {
+    "locationCode": "ULG",
+    "label": "Ulleung-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 37.483333,
+    "lng": 130.9
+  },
+  {
+    "locationCode": "USN",
+    "label": "Ulsan",
+    "subdivisionCode": "31",
+    "function": "1234",
+    "lat": 35.533333,
+    "lng": 129.316667
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Waegwan",
+    "subdivisionCode": "47",
+    "function": "6",
+    "lat": 35.983333,
+    "lng": 128.383333
+  },
+  {
+    "locationCode": "WND",
+    "label": "Wando-gun",
+    "subdivisionCode": "46",
+    "function": "13",
+    "lat": 34.3,
+    "lng": 126.75
+  },
+  {
+    "locationCode": "WAJ",
+    "label": "Wanju-gun",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 35.833333,
+    "lng": 127.85
+  },
+  {
+    "locationCode": "WJU",
+    "label": "Wonju",
+    "subdivisionCode": "42",
+    "function": "234",
+    "lat": 37.333333,
+    "lng": 127.933333
+  },
+  {
+    "locationCode": "YGU",
+    "label": "Yanggu-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 38.1,
+    "lng": 127.983333
+  },
+  {
+    "locationCode": "YYU",
+    "label": "Yangju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.766667,
+    "lng": 127.033333
+  },
+  {
+    "locationCode": "YPG",
+    "label": "Yangpyeong-gun",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.65,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "YSN",
+    "label": "Yangsan",
+    "subdivisionCode": "48",
+    "function": "23",
+    "lat": 35.333333,
+    "lng": 129.033333
+  },
+  {
+    "locationCode": "YNY",
+    "label": "Yangyang-gun",
+    "subdivisionCode": "42",
+    "function": "234",
+    "lat": 38.066667,
+    "lng": 128.616667
+  },
+  {
+    "locationCode": "YEC",
+    "label": "Yecheon-gun",
+    "subdivisionCode": "47",
+    "function": "234",
+    "lat": 36.65,
+    "lng": 128.45
+  },
+  {
+    "locationCode": "YJU",
+    "label": "Yeoju",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 37.283333,
+    "lng": 127.633333
+  },
+  {
+    "locationCode": "YCN",
+    "label": "Yeoncheon-gun",
+    "subdivisionCode": "41",
+    "function": "23",
+    "lat": 38.9,
+    "lng": 127.7
+  },
+  {
+    "locationCode": "YAM",
+    "label": "Yeongam-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 34.783333,
+    "lng": 126.7
+  },
+  {
+    "locationCode": "YCH",
+    "label": "Yeongcheon",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 35.966667,
+    "lng": 128.933333
+  },
+  {
+    "locationCode": "YDK",
+    "label": "Yeongdeok-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.4,
+    "lng": 129.35
+  },
+  {
+    "locationCode": "YDG",
+    "label": "Yeongdong-gun",
+    "subdivisionCode": "43",
+    "function": "23",
+    "lat": 36.166667,
+    "lng": 127.783333
+  },
+  {
+    "locationCode": "YGG",
+    "label": "Yeonggwang-gun",
+    "subdivisionCode": "46",
+    "function": "23",
+    "lat": 35.266667,
+    "lng": 126.5
+  },
+  {
+    "locationCode": "YGI",
+    "label": "Yeongi-gun",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.583333,
+    "lng": 127.283333
+  },
+  {
+    "locationCode": "YEJ",
+    "label": "Yeongju",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.8,
+    "lng": 128.616667
+  },
+  {
+    "locationCode": "YWL",
+    "label": "Yeongwol-gun",
+    "subdivisionCode": "42",
+    "function": "23",
+    "lat": 37.183333,
+    "lng": 128.45
+  },
+  {
+    "locationCode": "YYG",
+    "label": "Yeongyang-gun",
+    "subdivisionCode": "47",
+    "function": "23",
+    "lat": 36.65,
+    "lng": 129.75
+  },
+  {
+    "locationCode": "YPD",
+    "label": "Yeonpyeongdo",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 37.65,
+    "lng": 125.7
+  },
+  {
+    "locationCode": "YOS",
+    "label": "Yeosu",
+    "subdivisionCode": "46",
+    "function": "123",
+    "lat": 34.75,
+    "lng": 127.716667
+  },
+  {
+    "locationCode": "RSU",
+    "label": "Yeosu Apt",
+    "subdivisionCode": "46",
+    "function": "4",
+    "lat": 34.833333,
+    "lng": 127.6
+  },
+  {
+    "locationCode": "YES",
+    "label": "Yesan",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 36.683333,
+    "lng": 126.833333
+  },
+  {
+    "locationCode": "YOC",
+    "label": "Yochon",
+    "subdivisionCode": "47",
+    "function": "13",
+    "lat": 36.65,
+    "lng": 128.45
+  },
+  {
+    "locationCode": "ZAI",
+    "label": "Yoju",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 37.283333,
+    "lng": 127.633333
+  },
+  {
+    "locationCode": "YCO",
+    "label": "Yonch'on",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 38.083333,
+    "lng": 127.066667
+  },
+  {
+    "locationCode": "YOG",
+    "label": "Yongdang-Dong",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 35.116667,
+    "lng": 129.083333
+  },
+  {
+    "locationCode": "YGP",
+    "label": "Yonggipo",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 37.95,
+    "lng": 124.716667
+  },
+  {
+    "locationCode": "YON",
+    "label": "Yongi",
+    "subdivisionCode": "45",
+    "function": "36",
+    "lat": 35.666667,
+    "lng": 126.966667
+  },
+  {
+    "locationCode": "YNG",
+    "label": "Yongin",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 37.266667,
+    "lng": 127.1
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Yongsan",
+    "function": "6",
+    "lat": 35.766667,
+    "lng": 128.866667
+  }
+]

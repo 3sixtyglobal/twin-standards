@@ -1,0 +1,47 @@
+[
+  {
+    "code": "B",
+    "label": "El Beni",
+    "type": "Department"
+  },
+  {
+    "code": "C",
+    "label": "Cochabamba",
+    "type": "Department"
+  },
+  {
+    "code": "H",
+    "label": "Chuquisaca",
+    "type": "Department"
+  },
+  {
+    "code": "L",
+    "label": "La Paz",
+    "type": "Department"
+  },
+  {
+    "code": "N",
+    "label": "Pando",
+    "type": "Department"
+  },
+  {
+    "code": "O",
+    "label": "Oruro",
+    "type": "Department"
+  },
+  {
+    "code": "P",
+    "label": "Potosí",
+    "type": "Department"
+  },
+  {
+    "code": "S",
+    "label": "Santa Cruz",
+    "type": "Department"
+  },
+  {
+    "code": "T",
+    "label": "Tarija",
+    "type": "Department"
+  }
+]

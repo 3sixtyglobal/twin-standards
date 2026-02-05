@@ -1,0 +1,553 @@
+[
+  {
+    "locationCode": "ABN",
+    "label": "Albion",
+    "subdivisionCode": "BL",
+    "function": "1",
+    "lat": -20.2,
+    "lng": 57.4
+  },
+  {
+    "locationCode": "ANL",
+    "label": "Arsenal",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.1,
+    "lng": 57.533333
+  },
+  {
+    "locationCode": "BTB",
+    "label": "Baie-du-Tombeau",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.1,
+    "lng": 57.5
+  },
+  {
+    "locationCode": "BAM",
+    "label": "Bambous",
+    "subdivisionCode": "AG",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEB",
+    "label": "Beau Bassin",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.45
+  },
+  {
+    "locationCode": "BPL",
+    "label": "Beau Plan",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.083333,
+    "lng": 57.566667
+  },
+  {
+    "locationCode": "BVN",
+    "label": "Beau Vallon",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -20.35,
+    "lng": 57.683333
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bel Air",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.25,
+    "lng": 57.733333
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bel Ombre",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.5,
+    "lng": 57.4
+  },
+  {
+    "locationCode": "BLM",
+    "label": "Belle Mare",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.183333,
+    "lng": 57.766667
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Belle Rose",
+    "subdivisionCode": "QB",
+    "function": "3",
+    "lat": -20.25,
+    "lng": 57.716667
+  },
+  {
+    "locationCode": "CPX",
+    "label": "Cap Malheureux",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -19.983333,
+    "lng": 57.6
+  },
+  {
+    "locationCode": "CSS",
+    "label": "Cassis",
+    "subdivisionCode": "PL",
+    "function": "3",
+    "lat": -20.15,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "CDF",
+    "label": "Centre de Flacq",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.2,
+    "lng": 57.716667
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Chamarel",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.416667,
+    "lng": 57.383333
+  },
+  {
+    "locationCode": "CGR",
+    "label": "Chemin Grenier",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.483333,
+    "lng": 57.45
+  },
+  {
+    "locationCode": "CDE",
+    "label": "Cloverdale",
+    "function": "3"
+  },
+  {
+    "locationCode": "CMD",
+    "label": "Coromandel",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": -20.166667,
+    "lng": 57.45
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curepipe",
+    "function": "13"
+  },
+  {
+    "locationCode": "EBN",
+    "label": "Ebene",
+    "function": "6",
+    "lat": -20.233333,
+    "lng": 57.783333
+  },
+  {
+    "locationCode": "FLF",
+    "label": "Flic en Flac",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": -20.266667,
+    "lng": 57.35
+  },
+  {
+    "locationCode": "FDS",
+    "label": "Fond du Sac",
+    "subdivisionCode": "PA",
+    "function": "6",
+    "lat": -20.033333,
+    "lng": 57.566667
+  },
+  {
+    "locationCode": "FSD",
+    "label": "Forest Side",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.316667,
+    "lng": 57.516667
+  },
+  {
+    "locationCode": "GOO",
+    "label": "Goodlands",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -20.033333,
+    "lng": 57.633333
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Grand Baie",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20,
+    "lng": 57.566667
+  },
+  {
+    "locationCode": "GRN",
+    "label": "Grand River North West",
+    "subdivisionCode": "PL",
+    "function": "3",
+    "lat": -20.166667,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Grande Rivière Sud Est",
+    "subdivisionCode": "FL",
+    "labelWithDiacritics": "Grande Riviere Sud Est",
+    "function": "3",
+    "lat": -20.283333,
+    "lng": 57.766667
+  },
+  {
+    "locationCode": "GBS",
+    "label": "Gros Bois",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -20.433333,
+    "lng": 57.6
+  },
+  {
+    "locationCode": "LME",
+    "label": "La Mivoie",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -20.333333,
+    "lng": 57.35
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahébourg",
+    "labelWithDiacritics": "Mahebourg",
+    "function": "3",
+    "lat": -20.4,
+    "lng": 57.683333
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Mapou",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -20.016667,
+    "lng": 57.566667
+  },
+  {
+    "locationCode": "MOK",
+    "label": "Moka",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.483333
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Morcellemont Saint André",
+    "subdivisionCode": "PU",
+    "labelWithDiacritics": "Morcellemont Saint Andre",
+    "function": "3",
+    "lat": -20.066667,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "GPO",
+    "label": "Nouvelle France",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -20.366667,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Pailles",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.183333,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "PMR",
+    "label": "Palmar",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.766667
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Pamplemousses",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.1,
+    "lng": 57.566667
+  },
+  {
+    "locationCode": "PYY",
+    "label": "Pereybèré",
+    "subdivisionCode": "RR",
+    "labelWithDiacritics": "Pereybere",
+    "function": "3",
+    "lat": -19.983333,
+    "lng": 57.583333
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Petite Rivière",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Petite Riviere",
+    "function": "3",
+    "lat": -20.183333,
+    "lng": 57.433333
+  },
+  {
+    "locationCode": "PNX",
+    "label": "Phoenix",
+    "subdivisionCode": "PW",
+    "function": "6",
+    "lat": -20.283333,
+    "lng": 57.5
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Piton",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -20.083333,
+    "lng": 57.616667
+  },
+  {
+    "locationCode": "PMG",
+    "label": "Plaine Magnien",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -20.416667,
+    "lng": 57.65
+  },
+  {
+    "locationCode": "PAC",
+    "label": "Pointe aux Canonniers",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "PSB",
+    "label": "Pointe aux Sables",
+    "subdivisionCode": "PU",
+    "function": "3",
+    "lat": -20.15,
+    "lng": 57.45
+  },
+  {
+    "locationCode": "PEY",
+    "label": "Pointe dEsny",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -20.416667,
+    "lng": 57.716667
+  },
+  {
+    "locationCode": "PLU",
+    "label": "Port Louis",
+    "function": "14"
+  },
+  {
+    "locationCode": "PMA",
+    "label": "Port Mathurin",
+    "function": "13",
+    "lat": -19.683333,
+    "lng": 63.416667
+  },
+  {
+    "locationCode": "PDF",
+    "label": "Poste de Flacq",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.15,
+    "lng": 57.716667
+  },
+  {
+    "locationCode": "QML",
+    "label": "Quartier Militaire",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -20.233333,
+    "lng": 57.583333
+  },
+  {
+    "locationCode": "QBE",
+    "label": "Quatre Bornes",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.25,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "RCT",
+    "label": "Richeterre",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.116667,
+    "lng": 57.5
+  },
+  {
+    "locationCode": "RDR",
+    "label": "Rivière du Rempart",
+    "subdivisionCode": "FL",
+    "labelWithDiacritics": "Riviere du Rempart",
+    "function": "3",
+    "lat": -20.1,
+    "lng": 57.683333
+  },
+  {
+    "locationCode": "BLR",
+    "label": "Rivière Noire",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Riviere Noire",
+    "function": "3",
+    "lat": -20.35,
+    "lng": 57.35
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Roches Brunes",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.45
+  },
+  {
+    "locationCode": "RNE",
+    "label": "Roches Noire",
+    "subdivisionCode": "RR",
+    "function": "3",
+    "lat": -20.1,
+    "lng": 57.7
+  },
+  {
+    "locationCode": "RRG",
+    "label": "Rodrigues",
+    "function": "4",
+    "lat": -19.7,
+    "lng": 63.416667
+  },
+  {
+    "locationCode": "RSH",
+    "label": "Rose Hill",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": -20.233333,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saint Aubin",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.483333,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "STP",
+    "label": "Saint Pierre",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.516667
+  },
+  {
+    "locationCode": "MRU",
+    "label": "Sir Seewoosagur Ramgoolam Int Apt",
+    "function": "45",
+    "lat": -20.433333,
+    "lng": 57.683333
+  },
+  {
+    "locationCode": "SLC",
+    "label": "Souillac",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.516667,
+    "lng": 57.516667
+  },
+  {
+    "locationCode": "SRM",
+    "label": "Surinam",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.5,
+    "lng": 57.5
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tamarin",
+    "subdivisionCode": "BL",
+    "function": "16",
+    "lat": -20.316667,
+    "lng": 57.366667
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Terre Rouge",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.116667,
+    "lng": 57.516667
+  },
+  {
+    "locationCode": "TLT",
+    "label": "Triolet",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.05,
+    "lng": 57.533333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Trou aux Biches",
+    "subdivisionCode": "PA",
+    "function": "3",
+    "lat": -20.033333,
+    "lng": 57.533333
+  },
+  {
+    "locationCode": "TDD",
+    "label": "Trou d'eau Douce",
+    "subdivisionCode": "FL",
+    "function": "3",
+    "lat": -20.233333,
+    "lng": 57.766667
+  },
+  {
+    "locationCode": "TYK",
+    "label": "Tyack",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": -20.466667,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Vacoas",
+    "subdivisionCode": "PW",
+    "function": "3",
+    "lat": -20.283333,
+    "lng": 57.466667
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verdun",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -20.216667,
+    "lng": 57.533333
+  }
+]

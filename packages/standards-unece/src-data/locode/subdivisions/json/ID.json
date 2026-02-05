@@ -1,0 +1,187 @@
+[
+  {
+    "code": "AC",
+    "label": "Aceh",
+    "type": "Province"
+  },
+  {
+    "code": "BA",
+    "label": "Bali",
+    "type": "Province"
+  },
+  {
+    "code": "BB",
+    "label": "Kepulauan Bangka Belitung",
+    "type": "Province"
+  },
+  {
+    "code": "BE",
+    "label": "Bengkulu",
+    "type": "Province"
+  },
+  {
+    "code": "BT",
+    "label": "Banten",
+    "type": "Province"
+  },
+  {
+    "code": "GO",
+    "label": "Gorontalo",
+    "type": "Province"
+  },
+  {
+    "code": "JA",
+    "label": "Jambi",
+    "type": "Province"
+  },
+  {
+    "code": "JB",
+    "label": "Jawa Barat",
+    "type": "Province"
+  },
+  {
+    "code": "JI",
+    "label": "Jawa Timur",
+    "type": "Province"
+  },
+  {
+    "code": "JK",
+    "label": "Jakarta Raya",
+    "type": "Capital district"
+  },
+  {
+    "code": "JT",
+    "label": "Jawa Tengah",
+    "type": "Province"
+  },
+  {
+    "code": "KB",
+    "label": "Kalimantan Barat",
+    "type": "Province"
+  },
+  {
+    "code": "KI",
+    "label": "Kalimantan Timur",
+    "type": "Province"
+  },
+  {
+    "code": "KR",
+    "label": "Kepulauan Riau",
+    "type": "Province"
+  },
+  {
+    "code": "KS",
+    "label": "Kalimantan Selatan",
+    "type": "Province"
+  },
+  {
+    "code": "KT",
+    "label": "Kalimantan Tengah",
+    "type": "Province"
+  },
+  {
+    "code": "KU",
+    "label": "Kalimantan Utara",
+    "type": "Province"
+  },
+  {
+    "code": "LA",
+    "label": "Lampung",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Maluku",
+    "type": "Province"
+  },
+  {
+    "code": "MU",
+    "label": "Maluku Utara",
+    "type": "Province"
+  },
+  {
+    "code": "NB",
+    "label": "Nusa Tenggara Barat",
+    "type": "Province"
+  },
+  {
+    "code": "NT",
+    "label": "Nusa Tenggara Timur",
+    "type": "Province"
+  },
+  {
+    "code": "PA",
+    "label": "Papua",
+    "type": "Province"
+  },
+  {
+    "code": "PB",
+    "label": "Papua Barat",
+    "type": "Province"
+  },
+  {
+    "code": "PE",
+    "label": "Papua Pengunungan",
+    "type": "Province"
+  },
+  {
+    "code": "PS",
+    "label": "Papua Selatan",
+    "type": "Province"
+  },
+  {
+    "code": "PT",
+    "label": "Papua Tengah",
+    "type": "Province"
+  },
+  {
+    "code": "RI",
+    "label": "Riau",
+    "type": "Province"
+  },
+  {
+    "code": "SA",
+    "label": "Sulawesi Utara",
+    "type": "Province"
+  },
+  {
+    "code": "SB",
+    "label": "Sumatera Barat",
+    "type": "Province"
+  },
+  {
+    "code": "SG",
+    "label": "Sulawesi Tenggara",
+    "type": "Province"
+  },
+  {
+    "code": "SN",
+    "label": "Sulawesi Selatan",
+    "type": "Province"
+  },
+  {
+    "code": "SR",
+    "label": "Sulawesi Barat",
+    "type": "Province"
+  },
+  {
+    "code": "SS",
+    "label": "Sumatera Selatan",
+    "type": "Province"
+  },
+  {
+    "code": "ST",
+    "label": "Sulawesi Tengah",
+    "type": "Province"
+  },
+  {
+    "code": "SU",
+    "label": "Sumatera Utara",
+    "type": "Province"
+  },
+  {
+    "code": "YO",
+    "label": "Yogyakarta",
+    "type": "Special region"
+  }
+]

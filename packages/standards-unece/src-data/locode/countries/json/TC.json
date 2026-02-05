@@ -1,0 +1,44 @@
+[
+  {
+    "locationCode": "9CB",
+    "label": "Cockburn Harbour",
+    "function": "13",
+    "lat": 21.483333,
+    "lng": -71.533333
+  },
+  {
+    "locationCode": "GDT",
+    "label": "Grand Turk Island",
+    "function": "145"
+  },
+  {
+    "locationCode": "MDS",
+    "label": "Middle Caicos",
+    "function": "4"
+  },
+  {
+    "locationCode": "NCA",
+    "label": "North Caicos",
+    "function": "14"
+  },
+  {
+    "locationCode": "PIC",
+    "label": "Pine Cay",
+    "function": "4"
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Providenciales",
+    "function": "14"
+  },
+  {
+    "locationCode": "SLX",
+    "label": "Salt Cay",
+    "function": "14"
+  },
+  {
+    "locationCode": "XSC",
+    "label": "South Caicos",
+    "function": "14"
+  }
+]

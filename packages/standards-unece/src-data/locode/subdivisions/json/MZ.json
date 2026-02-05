@@ -1,0 +1,57 @@
+[
+  {
+    "code": "A",
+    "label": "Niaosa",
+    "type": "Province"
+  },
+  {
+    "code": "B",
+    "label": "Manica",
+    "type": "Province"
+  },
+  {
+    "code": "G",
+    "label": "Gaza",
+    "type": "Province"
+  },
+  {
+    "code": "I",
+    "label": "Inhambane",
+    "type": "Province"
+  },
+  {
+    "code": "L",
+    "label": "Maputo",
+    "type": "Province"
+  },
+  {
+    "code": "MPM",
+    "label": "Maputo",
+    "type": "City"
+  },
+  {
+    "code": "N",
+    "label": "Nampula",
+    "type": "Province"
+  },
+  {
+    "code": "P",
+    "label": "Cabo Delgado",
+    "type": "Province"
+  },
+  {
+    "code": "Q",
+    "label": "Zambézia",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Sofala",
+    "type": "Province"
+  },
+  {
+    "code": "T",
+    "label": "Tete",
+    "type": "Province"
+  }
+]

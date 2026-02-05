@@ -1,0 +1,427 @@
+[
+  {
+    "locationCode": "OGO",
+    "label": "Abengourou",
+    "function": "4"
+  },
+  {
+    "locationCode": "ABJ",
+    "label": "Abidjan",
+    "subdivisionCode": "AB",
+    "function": "145",
+    "lat": 5.333333,
+    "lng": -4.016667
+  },
+  {
+    "locationCode": "ABO",
+    "label": "Aboisso",
+    "function": "4",
+    "lat": 5.466667,
+    "lng": -3.2
+  },
+  {
+    "locationCode": "ADZ",
+    "label": "Adzopé",
+    "labelWithDiacritics": "Adzope",
+    "function": "3",
+    "lat": 6.1,
+    "lng": -3.85
+  },
+  {
+    "locationCode": "AGB",
+    "label": "Agboville",
+    "function": "23",
+    "lat": 5.933333,
+    "lng": -4.216667
+  },
+  {
+    "locationCode": "AFI",
+    "label": "Amalfi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASS",
+    "label": "Assinie-Mafia",
+    "function": "13",
+    "lat": 5.116667,
+    "lng": -3.283333
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Baobab Terminal",
+    "function": "13",
+    "lat": 4.95,
+    "lng": -4.55
+  },
+  {
+    "locationCode": "BGV",
+    "label": "Bingerville",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 5.35,
+    "lng": -3.9
+  },
+  {
+    "locationCode": "BDK",
+    "label": "Bondoukou",
+    "function": "4"
+  },
+  {
+    "locationCode": "BGG",
+    "label": "Bongouanou",
+    "function": "4",
+    "lat": 6.65,
+    "lng": -4.2
+  },
+  {
+    "locationCode": "BON",
+    "label": "Bonoua",
+    "function": "3",
+    "lat": 5.266667,
+    "lng": -3.6
+  },
+  {
+    "locationCode": "BRZ",
+    "label": "Borotou",
+    "function": "4",
+    "lat": 8.733333,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "BYK",
+    "label": "Bouaké",
+    "labelWithDiacritics": "Bouake",
+    "function": "4"
+  },
+  {
+    "locationCode": "BQO",
+    "label": "Bouna",
+    "function": "4",
+    "lat": 9.266667,
+    "lng": -3
+  },
+  {
+    "locationCode": "BXI",
+    "label": "Boundiali",
+    "function": "4",
+    "lat": 9.516667,
+    "lng": -6.483333
+  },
+  {
+    "locationCode": "BUU",
+    "label": "Buyo",
+    "function": "4",
+    "lat": 6.266667,
+    "lng": -7.05
+  },
+  {
+    "locationCode": "COD",
+    "label": "Cocody",
+    "function": "6",
+    "lat": 5.35,
+    "lng": -4
+  },
+  {
+    "locationCode": "DAB",
+    "label": "Dabou",
+    "function": "13",
+    "lat": 5.316667,
+    "lng": -4.366667
+  },
+  {
+    "locationCode": "DJO",
+    "label": "Daloa",
+    "function": "4"
+  },
+  {
+    "locationCode": "DNC",
+    "label": "Danane",
+    "function": "4",
+    "lat": 7.25,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "DIM",
+    "label": "Dimbokro",
+    "function": "4",
+    "lat": 6.65,
+    "lng": -4.666667
+  },
+  {
+    "locationCode": "DIV",
+    "label": "Divo",
+    "function": "4",
+    "lat": 5.833333,
+    "lng": -5.35
+  },
+  {
+    "locationCode": "DJB",
+    "label": "Djibi",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 5.45,
+    "lng": -3.983333
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Espoir",
+    "function": "1",
+    "lat": 5.066667,
+    "lng": -4.383333
+  },
+  {
+    "locationCode": "FEK",
+    "label": "Ferkessédougou",
+    "labelWithDiacritics": "Ferkessedougou",
+    "function": "45",
+    "lat": 9.6,
+    "lng": -5.2
+  },
+  {
+    "locationCode": "FRE",
+    "label": "Fresco",
+    "function": "13",
+    "lat": 5.083333,
+    "lng": -5.566667
+  },
+  {
+    "locationCode": "GGN",
+    "label": "Gagnoa",
+    "function": "34",
+    "lat": 6.133333,
+    "lng": -5.933333
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Gbabam",
+    "function": "1",
+    "lat": 5.466667,
+    "lng": -5.583333
+  },
+  {
+    "locationCode": "GLU",
+    "label": "Grand Lahou",
+    "function": "13",
+    "lat": 5.133333,
+    "lng": -5.016667
+  },
+  {
+    "locationCode": "BBV",
+    "label": "Grand-Béréby",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Grand-Bereby",
+    "function": "4",
+    "lat": 4.666667,
+    "lng": -7.066667
+  },
+  {
+    "locationCode": "GUI",
+    "label": "Guiembé",
+    "subdivisionCode": "SV",
+    "labelWithDiacritics": "Guiembe",
+    "function": "23",
+    "lat": 9.233333,
+    "lng": -5.716667
+  },
+  {
+    "locationCode": "GGO",
+    "label": "Guiglo",
+    "function": "34",
+    "lat": 6.533333,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "JAC",
+    "label": "Jacqueville",
+    "function": "1",
+    "lat": 5.2,
+    "lng": -4.416667
+  },
+  {
+    "locationCode": "KTC",
+    "label": "Katiola",
+    "function": "4",
+    "lat": 9.65,
+    "lng": -7.616667
+  },
+  {
+    "locationCode": "HGO",
+    "label": "Korhogo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kosagi",
+    "function": "1",
+    "lat": 8.216667,
+    "lng": -8.1
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koumassi",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 5.283333,
+    "lng": -3.966667
+  },
+  {
+    "locationCode": "LKT",
+    "label": "Lakota",
+    "function": "4",
+    "lat": 5.85,
+    "lng": -5.683333
+  },
+  {
+    "locationCode": "MJC",
+    "label": "Man",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOK",
+    "label": "Mankono",
+    "function": "4",
+    "lat": 8.016667,
+    "lng": -6.15
+  },
+  {
+    "locationCode": "XMB",
+    "label": "M'Bahiakro",
+    "function": "4",
+    "lat": 7.45,
+    "lng": -4.333333
+  },
+  {
+    "locationCode": "NKL",
+    "label": "Nakala",
+    "function": "3",
+    "lat": 8.466667,
+    "lng": -4.266667
+  },
+  {
+    "locationCode": "KEO",
+    "label": "Odienné",
+    "labelWithDiacritics": "Odienne",
+    "function": "4",
+    "lat": 9.5,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "OFI",
+    "label": "Ouango Fitni",
+    "function": "4",
+    "lat": 9.6,
+    "lng": -4.016667
+  },
+  {
+    "locationCode": "PBT",
+    "label": "Port-Bouët",
+    "labelWithDiacritics": "Port-Bouet",
+    "function": "1",
+    "lat": 5.25,
+    "lng": -3.966667
+  },
+  {
+    "locationCode": "SPY",
+    "label": "San-Pédro",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "San-Pedro",
+    "function": "134",
+    "lat": 4.733333,
+    "lng": -6.616667
+  },
+  {
+    "locationCode": "ZSS",
+    "label": "Sassandra",
+    "function": "14"
+  },
+  {
+    "locationCode": "SEQ",
+    "label": "Seguela",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGL",
+    "label": "Séguéla",
+    "labelWithDiacritics": "Seguela",
+    "function": "3",
+    "lat": 7.95,
+    "lng": -6.666667
+  },
+  {
+    "locationCode": "SFR",
+    "label": "Sinfra",
+    "function": "3",
+    "lat": 6.616667,
+    "lng": -5.916667
+  },
+  {
+    "locationCode": "TBX",
+    "label": "Taabo",
+    "function": "4",
+    "lat": 6.216667,
+    "lng": -5.116667
+  },
+  {
+    "locationCode": "TXU",
+    "label": "Tabou",
+    "function": "4"
+  },
+  {
+    "locationCode": "TIA",
+    "label": "Tiassalé",
+    "labelWithDiacritics": "Tiassale",
+    "function": "3",
+    "lat": 5.883333,
+    "lng": -4.816667
+  },
+  {
+    "locationCode": "TGX",
+    "label": "Tingrela",
+    "function": "4",
+    "lat": 10.483333,
+    "lng": -6.4
+  },
+  {
+    "locationCode": "TOZ",
+    "label": "Touba",
+    "function": "4",
+    "lat": 8.266667,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "VRD",
+    "label": "Vridi",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 5.25,
+    "lng": -3.983333
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Yamoussoukro",
+    "function": "4"
+  },
+  {
+    "locationCode": "YGN",
+    "label": "Yopougon",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 5.333333,
+    "lng": -4.066667
+  },
+  {
+    "locationCode": "YOA",
+    "label": "Yopougon-Attie",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 5.35,
+    "lng": -4.066667
+  },
+  {
+    "locationCode": "ZUE",
+    "label": "Zuenoula",
+    "function": "4",
+    "lat": 7.416667,
+    "lng": -6.033333
+  }
+]

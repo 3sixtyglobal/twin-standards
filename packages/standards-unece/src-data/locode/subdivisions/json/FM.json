@@ -1,0 +1,22 @@
+[
+  {
+    "code": "KSA",
+    "label": "Kosrae",
+    "type": "State"
+  },
+  {
+    "code": "PNI",
+    "label": "Pohnpei",
+    "type": "State"
+  },
+  {
+    "code": "TRK",
+    "label": "Chuuk",
+    "type": "State"
+  },
+  {
+    "code": "YAP",
+    "label": "Yap",
+    "type": "State"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "code": "AMA",
+    "label": "Amazonas",
+    "type": "Department"
+  },
+  {
+    "code": "ANT",
+    "label": "Antioquia",
+    "type": "Department"
+  },
+  {
+    "code": "ARA",
+    "label": "Arauca",
+    "type": "Department"
+  },
+  {
+    "code": "ATL",
+    "label": "Atlántico",
+    "type": "Department"
+  },
+  {
+    "code": "BOL",
+    "label": "Bolívar",
+    "type": "Department"
+  },
+  {
+    "code": "BOY",
+    "label": "Boyacá",
+    "type": "Department"
+  },
+  {
+    "code": "CAL",
+    "label": "Caldas",
+    "type": "Department"
+  },
+  {
+    "code": "CAQ",
+    "label": "Caquetá",
+    "type": "Department"
+  },
+  {
+    "code": "CAS",
+    "label": "Casanare",
+    "type": "Department"
+  },
+  {
+    "code": "CAU",
+    "label": "Cauca",
+    "type": "Department"
+  },
+  {
+    "code": "CES",
+    "label": "Cesar",
+    "type": "Department"
+  },
+  {
+    "code": "CHO",
+    "label": "Chocó",
+    "type": "Department"
+  },
+  {
+    "code": "COR",
+    "label": "Córdoba",
+    "type": "Department"
+  },
+  {
+    "code": "CUN",
+    "label": "Cundinamarca",
+    "type": "Department"
+  },
+  {
+    "code": "DC",
+    "label": "Distrito Capital de Bogotá",
+    "type": "Capital district"
+  },
+  {
+    "code": "GUA",
+    "label": "Guainía",
+    "type": "Department"
+  },
+  {
+    "code": "GUV",
+    "label": "Guaviare",
+    "type": "Department"
+  },
+  {
+    "code": "HUI",
+    "label": "Huila",
+    "type": "Department"
+  },
+  {
+    "code": "LAG",
+    "label": "La Guajira",
+    "type": "Department"
+  },
+  {
+    "code": "MAG",
+    "label": "Magdalena",
+    "type": "Department"
+  },
+  {
+    "code": "MET",
+    "label": "Meta",
+    "type": "Department"
+  },
+  {
+    "code": "NAR",
+    "label": "Nariño",
+    "type": "Department"
+  },
+  {
+    "code": "NSA",
+    "label": "Norte de Santander",
+    "type": "Department"
+  },
+  {
+    "code": "PUT",
+    "label": "Putumayo",
+    "type": "Department"
+  },
+  {
+    "code": "QUI",
+    "label": "Quindío",
+    "type": "Department"
+  },
+  {
+    "code": "RIS",
+    "label": "Risaralda",
+    "type": "Department"
+  },
+  {
+    "code": "SAN",
+    "label": "Santander",
+    "type": "Department"
+  },
+  {
+    "code": "SAP",
+    "label": "San Andrés, Providencia y Santa Catalina",
+    "type": "Department"
+  },
+  {
+    "code": "SUC",
+    "label": "Sucre",
+    "type": "Department"
+  },
+  {
+    "code": "TOL",
+    "label": "Tolima",
+    "type": "Department"
+  },
+  {
+    "code": "VAC",
+    "label": "Valle del Cauca",
+    "type": "Department"
+  },
+  {
+    "code": "VAU",
+    "label": "Vaupés",
+    "type": "Department"
+  },
+  {
+    "code": "VID",
+    "label": "Vichada",
+    "type": "Department"
+  }
+]

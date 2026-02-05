@@ -1,0 +1,92 @@
+[
+  {
+    "code": "DC",
+    "label": "Wasat Darfur",
+    "type": "State"
+  },
+  {
+    "code": "DE",
+    "label": "Sharq Darfur",
+    "type": "State"
+  },
+  {
+    "code": "DN",
+    "label": "Shamal Darfur",
+    "type": "State"
+  },
+  {
+    "code": "DS",
+    "label": "Janub Darfur",
+    "type": "State"
+  },
+  {
+    "code": "DW",
+    "label": "Gharb Darfur",
+    "type": "State"
+  },
+  {
+    "code": "GD",
+    "label": "Al Qadarif",
+    "type": "State"
+  },
+  {
+    "code": "GK",
+    "label": "Gharb Kurdufan",
+    "type": "state"
+  },
+  {
+    "code": "GZ",
+    "label": "Al Jazirah",
+    "type": "State"
+  },
+  {
+    "code": "KA",
+    "label": "Kassala",
+    "type": "State"
+  },
+  {
+    "code": "KH",
+    "label": "Al Khartum",
+    "type": "State"
+  },
+  {
+    "code": "KN",
+    "label": "Shiamal Kurdufan",
+    "type": "State"
+  },
+  {
+    "code": "KS",
+    "label": "Janub Kurdufan",
+    "type": "State"
+  },
+  {
+    "code": "NB",
+    "label": "An Nil al Azraq",
+    "type": "State"
+  },
+  {
+    "code": "NO",
+    "label": "Ash Shamaliyah",
+    "type": "State"
+  },
+  {
+    "code": "NR",
+    "label": "Nahr an Nil",
+    "type": "State"
+  },
+  {
+    "code": "NW",
+    "label": "An Nil al Abya?",
+    "type": "State"
+  },
+  {
+    "code": "RS",
+    "label": "Al Ba?r al A?mar",
+    "type": "State"
+  },
+  {
+    "code": "SI",
+    "label": "Sinnar",
+    "type": "State"
+  }
+]

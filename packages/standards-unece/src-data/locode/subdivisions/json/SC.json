@@ -1,0 +1,137 @@
+[
+  {
+    "code": "01",
+    "label": "Anse aux Pins",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Anse Boileau",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Anse Étoile",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Au Cap",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Anse Royale",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Baie Lazare",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Baie Sainte Anne",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Beau Vallon",
+    "type": "District"
+  },
+  {
+    "code": "09",
+    "label": "Bel Air",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Bel Ombre",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Cascade",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Glacis",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Grand'Anse Mahé",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Grand'Anse Praslin",
+    "type": "District"
+  },
+  {
+    "code": "15",
+    "label": "La Digue",
+    "type": "District"
+  },
+  {
+    "code": "16",
+    "label": "La Rivière Anglaise",
+    "type": "District"
+  },
+  {
+    "code": "17",
+    "label": "Mont Buxton",
+    "type": "District"
+  },
+  {
+    "code": "18",
+    "label": "Mont Fleuri",
+    "type": "District"
+  },
+  {
+    "code": "19",
+    "label": "Plaisance",
+    "type": "District"
+  },
+  {
+    "code": "20",
+    "label": "Pointe La Rue",
+    "type": "District"
+  },
+  {
+    "code": "21",
+    "label": "Port Glaud",
+    "type": "District"
+  },
+  {
+    "code": "22",
+    "label": "Saint Louis",
+    "type": "District"
+  },
+  {
+    "code": "23",
+    "label": "Takamaka",
+    "type": "District"
+  },
+  {
+    "code": "24",
+    "label": "Lemamel",
+    "type": "District"
+  },
+  {
+    "code": "25",
+    "label": "Ros Kaiman",
+    "type": "District"
+  },
+  {
+    "code": "26",
+    "label": "Île Persévérance I",
+    "type": "District"
+  },
+  {
+    "code": "27",
+    "label": "II",
+    "type": "District"
+  }
+]

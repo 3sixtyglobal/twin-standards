@@ -1,0 +1,1620 @@
+[
+  {
+    "locationCode": "SHT",
+    "label": "Actu-lum",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 13.65,
+    "lng": 100.55
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Amnat Charoen",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 15.866667,
+    "lng": 104.633333
+  },
+  {
+    "locationCode": "ATH",
+    "label": "Ang Thong",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 14.583333,
+    "lng": 100.45
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Aranyaprathet",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 13.666667,
+    "lng": 102.55
+  },
+  {
+    "locationCode": "AYU",
+    "label": "Ayutthaya",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 14.333333,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "BND",
+    "label": "Ban Don",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 9.183333,
+    "lng": 99.366667
+  },
+  {
+    "locationCode": "BNK",
+    "label": "Ban Kantang",
+    "subdivisionCode": "92",
+    "function": "13",
+    "lat": 7.416667,
+    "lng": 99.5
+  },
+  {
+    "locationCode": "BKH",
+    "label": "Ban Khai",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 9.683333,
+    "lng": 100.05
+  },
+  {
+    "locationCode": "BNL",
+    "label": "Ban Laem",
+    "subdivisionCode": "76",
+    "function": "1",
+    "lat": 13.116667,
+    "lng": 100.116667
+  },
+  {
+    "locationCode": "BPG",
+    "label": "Ban Pong",
+    "function": "123",
+    "lat": 13.8,
+    "lng": 99.866667
+  },
+  {
+    "locationCode": "BPK",
+    "label": "Ban Prakop Customs House",
+    "subdivisionCode": "90",
+    "function": "13",
+    "lat": 6.466667,
+    "lng": 100.716667
+  },
+  {
+    "locationCode": "BTP",
+    "label": "Ban Talat Takua Pa",
+    "subdivisionCode": "82",
+    "function": "13",
+    "lat": 8.833333,
+    "lng": 98.366667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bang Khen",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.866667,
+    "lng": 100.6
+  },
+  {
+    "locationCode": "BNP",
+    "label": "Bang Nam Prieo",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 13.85,
+    "lng": 101.066667
+  },
+  {
+    "locationCode": "BPH",
+    "label": "Bang Phli",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 13.6,
+    "lng": 100.716667
+  },
+  {
+    "locationCode": "BRK",
+    "label": "Bang Rak",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 13.733333,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "BSP",
+    "label": "Bang Saphan",
+    "function": "123",
+    "lat": 11.2,
+    "lng": 99.516667
+  },
+  {
+    "locationCode": "BKK",
+    "label": "Bangkok",
+    "subdivisionCode": "10",
+    "function": "12345",
+    "lat": 13.75,
+    "lng": 100.516667
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Bangkok Modern Terminals/Bangkok",
+    "function": "13",
+    "lat": 13.6,
+    "lng": 100.583333
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bangnara",
+    "subdivisionCode": "96",
+    "function": "1",
+    "lat": 6.433333,
+    "lng": 101.833333
+  },
+  {
+    "locationCode": "BTC",
+    "label": "Bangpakong Terminal",
+    "subdivisionCode": "24",
+    "function": "1",
+    "lat": 13.466667,
+    "lng": 100.983333
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bangpoomai",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 13.533333,
+    "lng": 100.666667
+  },
+  {
+    "locationCode": "BSE",
+    "label": "Bangsu",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 13.8,
+    "lng": 100.216667
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Benchamas",
+    "function": "1",
+    "lat": 10.516667,
+    "lng": 101.316667
+  },
+  {
+    "locationCode": "BET",
+    "label": "Betong",
+    "subdivisionCode": "95",
+    "function": "3",
+    "lat": 5.766667,
+    "lng": 101.066667
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Bueng Kan Customs House",
+    "subdivisionCode": "38",
+    "function": "3",
+    "lat": 18.366667,
+    "lng": 103.616667
+  },
+  {
+    "locationCode": "BKT",
+    "label": "Buketa Customs House",
+    "subdivisionCode": "96",
+    "function": "3",
+    "lat": 5.833333,
+    "lng": 101.883333
+  },
+  {
+    "locationCode": "BFV",
+    "label": "Buri Ram Apt",
+    "subdivisionCode": "31",
+    "function": "4",
+    "lat": 15.233333,
+    "lng": 103.25
+  },
+  {
+    "locationCode": "CSD",
+    "label": "Chachoengsao",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 13.7,
+    "lng": 101.083333
+  },
+  {
+    "locationCode": "CHN",
+    "label": "Chai Nat",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 15.166667,
+    "lng": 100.116667
+  },
+  {
+    "locationCode": "CYM",
+    "label": "Chaiyaphum",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 15.783333,
+    "lng": 102.033333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chanthaburi",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 12.3,
+    "lng": 102.233333
+  },
+  {
+    "locationCode": "CHD",
+    "label": "Chiang Dao Customs House",
+    "subdivisionCode": "50",
+    "function": "3",
+    "lat": 19.383333,
+    "lng": 98.966667
+  },
+  {
+    "locationCode": "CKH",
+    "label": "Chiang Khan Customs House",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 17.9,
+    "lng": 101.666667
+  },
+  {
+    "locationCode": "CHK",
+    "label": "Chiang Khong Customs House",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 20.266667,
+    "lng": 100.366667
+  },
+  {
+    "locationCode": "CNX",
+    "label": "Chiang Mai International Apt",
+    "subdivisionCode": "50",
+    "function": "4",
+    "lat": 18.766667,
+    "lng": 98.966667
+  },
+  {
+    "locationCode": "CHS",
+    "label": "Chiang Saen Customs House",
+    "subdivisionCode": "57",
+    "function": "13",
+    "lat": 20.316667,
+    "lng": 100.066667
+  },
+  {
+    "locationCode": "CHB",
+    "label": "Chon Buri",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 13.366667,
+    "lng": 100.983333
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Chonburi",
+    "function": "6",
+    "lat": 13.366667,
+    "lng": 100.983333
+  },
+  {
+    "locationCode": "CHC",
+    "label": "Chong Chom Customs House",
+    "subdivisionCode": "32",
+    "function": "3",
+    "lat": 14.45,
+    "lng": 103.683333
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chong Mek Customs House",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 15.133333,
+    "lng": 105.466667
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Chumphon",
+    "subdivisionCode": "86",
+    "function": "13",
+    "lat": 10.433333,
+    "lng": 99.266667
+  },
+  {
+    "locationCode": "CJM",
+    "label": "Chumphon Apt",
+    "subdivisionCode": "86",
+    "function": "4",
+    "lat": 10.716667,
+    "lng": 99.366667
+  },
+  {
+    "locationCode": "DMK",
+    "label": "Don Mueang International Apt",
+    "subdivisionCode": "10",
+    "function": "4",
+    "lat": 13.916667,
+    "lng": 100.6
+  },
+  {
+    "locationCode": "ECT",
+    "label": "Ekachai Container Terminal",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 13.583333,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "ERA",
+    "label": "Erawan",
+    "function": "1",
+    "lat": 9.066667,
+    "lng": 101.4
+  },
+  {
+    "locationCode": "HDY",
+    "label": "Hat Yai International Apt",
+    "subdivisionCode": "90",
+    "function": "4",
+    "lat": 6.933333,
+    "lng": 100.4
+  },
+  {
+    "locationCode": "HOP",
+    "label": "Hoping",
+    "function": "1",
+    "lat": 24.266667,
+    "lng": 121.733333
+  },
+  {
+    "locationCode": "HHQ",
+    "label": "Hua Hin Apt",
+    "subdivisionCode": "77",
+    "function": "4",
+    "lat": 12.633333,
+    "lng": 99.95
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kabin Buri",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 13.983333,
+    "lng": 101.716667
+  },
+  {
+    "locationCode": "KLN",
+    "label": "Kalasin",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 16.416667,
+    "lng": 103.5
+  },
+  {
+    "locationCode": "KPT",
+    "label": "Kamphaeng Phet",
+    "subdivisionCode": "62",
+    "function": "13",
+    "lat": 16.466667,
+    "lng": 99.516667
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kamphaeng Saen",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 14,
+    "lng": 100
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamuting",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "KCB",
+    "label": "Kanchanaburi",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 14.016667,
+    "lng": 99.516667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kantang",
+    "subdivisionCode": "92",
+    "function": "123",
+    "lat": 7.4,
+    "lng": 99.516667
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khanom",
+    "subdivisionCode": "80",
+    "function": "1",
+    "lat": 9.2,
+    "lng": 99.883333
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Khemarat Customs House",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 16.033333,
+    "lng": 105.2
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Khlong Luang Truck Terminal",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 14.083333,
+    "lng": 100.7
+  },
+  {
+    "locationCode": "KLY",
+    "label": "Khlong Yai",
+    "subdivisionCode": "23",
+    "function": "13",
+    "lat": 11.766667,
+    "lng": 102.9
+  },
+  {
+    "locationCode": "KKM",
+    "label": "Khok Kathiam Apt",
+    "subdivisionCode": "16",
+    "function": "4",
+    "lat": 14.866667,
+    "lng": 100.666667
+  },
+  {
+    "locationCode": "KHB",
+    "label": "Khon Buri",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": 102.25
+  },
+  {
+    "locationCode": "KKC",
+    "label": "Khon Kaen",
+    "subdivisionCode": "40",
+    "function": "2346",
+    "lat": 16.433333,
+    "lng": 102.833333
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Ko Lanta",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 8.05,
+    "lng": 98.9
+  },
+  {
+    "locationCode": "KSM",
+    "label": "Ko Samui",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 9.533333,
+    "lng": 99.933333
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Ko Sichang",
+    "subdivisionCode": "20",
+    "function": "1",
+    "lat": 13.133333,
+    "lng": 100.816667
+  },
+  {
+    "locationCode": "KYO",
+    "label": "Ko Yao",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 7.9,
+    "lng": 98.6
+  },
+  {
+    "locationCode": "KRV",
+    "label": "Krabi",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 8.066667,
+    "lng": 98.733333
+  },
+  {
+    "locationCode": "KBV",
+    "label": "Krabi Apt",
+    "subdivisionCode": "81",
+    "function": "4",
+    "lat": 8.1,
+    "lng": 98.983333
+  },
+  {
+    "locationCode": "KRN",
+    "label": "Krathum Baen",
+    "subdivisionCode": "74",
+    "function": "3",
+    "lat": 13.65,
+    "lng": 100.266667
+  },
+  {
+    "locationCode": "LCH",
+    "label": "Laem Chabang",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 13.083333,
+    "lng": 100.883333
+  },
+  {
+    "locationCode": "LPT",
+    "label": "Lampang Apt",
+    "subdivisionCode": "52",
+    "function": "4",
+    "lat": 18.266667,
+    "lng": 99.5
+  },
+  {
+    "locationCode": "LPN",
+    "label": "Lamphun",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 18.583333,
+    "lng": 99.016667
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Lang Suan",
+    "subdivisionCode": "86",
+    "function": "1",
+    "lat": 9.95,
+    "lng": 99.15
+  },
+  {
+    "locationCode": "LKR",
+    "label": "Lat Krabang",
+    "subdivisionCode": "10",
+    "function": "236",
+    "lat": 13.75,
+    "lng": 100.766667
+  },
+  {
+    "locationCode": "LOE",
+    "label": "Loei Apt",
+    "subdivisionCode": "42",
+    "function": "4",
+    "lat": 17.433333,
+    "lng": 101.716667
+  },
+  {
+    "locationCode": "CEI",
+    "label": "Mae Fah Luang - Chiang Rai International Apt",
+    "subdivisionCode": "57",
+    "function": "4",
+    "lat": 19.95,
+    "lng": 99.883333
+  },
+  {
+    "locationCode": "HGN",
+    "label": "Mae Hong Son Apt",
+    "subdivisionCode": "58",
+    "function": "4",
+    "lat": 19.3,
+    "lng": 97.983333
+  },
+  {
+    "locationCode": "MEK",
+    "label": "Mae Klong",
+    "subdivisionCode": "75",
+    "function": "1",
+    "lat": 13.366667,
+    "lng": 99.983333
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Mae Sai Customs House",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 20.45,
+    "lng": 99.883333
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Mae Sariang Customs House",
+    "subdivisionCode": "58",
+    "function": "3",
+    "lat": 18.166667,
+    "lng": 97.95
+  },
+  {
+    "locationCode": "MAQ",
+    "label": "Mae Sot Apt",
+    "subdivisionCode": "63",
+    "function": "4",
+    "lat": 16.7,
+    "lng": 98.55
+  },
+  {
+    "locationCode": "MST",
+    "label": "Mae Sot Customs House",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 16.7,
+    "lng": 98.516667
+  },
+  {
+    "locationCode": "MSM",
+    "label": "Maha Sarakham",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 16.183333,
+    "lng": 103.3
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Map Ta Phut",
+    "subdivisionCode": "21",
+    "function": "13",
+    "lat": 12.65,
+    "lng": 101.3
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Min Buri",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.816667,
+    "lng": 100.733333
+  },
+  {
+    "locationCode": "MDN",
+    "label": "Mukdahan",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 16.533333,
+    "lng": 104.716667
+  },
+  {
+    "locationCode": "MDH",
+    "label": "Mukdahan Customs House",
+    "subdivisionCode": "49",
+    "function": "3",
+    "lat": 16.6,
+    "lng": 104.733333
+  },
+  {
+    "locationCode": "NNK",
+    "label": "Nakhon Nayok",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 14.2,
+    "lng": 101.2
+  },
+  {
+    "locationCode": "NPM",
+    "label": "Nakhon Pathom",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 13.816667,
+    "lng": 100.05
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Nakhon Phanom Apt",
+    "subdivisionCode": "48",
+    "function": "4",
+    "lat": 17.383333,
+    "lng": 104.65
+  },
+  {
+    "locationCode": "NAK",
+    "label": "Nakhon Ratchasima Apt",
+    "subdivisionCode": "30",
+    "function": "4",
+    "lat": 14.95,
+    "lng": 102.316667
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nakhon Sawan",
+    "subdivisionCode": "60",
+    "function": "23",
+    "lat": 15.683333,
+    "lng": 100.116667
+  },
+  {
+    "locationCode": "NKT",
+    "label": "Nakhon Si Thammarat",
+    "subdivisionCode": "80",
+    "function": "1",
+    "lat": 9.233333,
+    "lng": 99.866667
+  },
+  {
+    "locationCode": "NST",
+    "label": "Nakhon Si Thammarat Apt",
+    "subdivisionCode": "80",
+    "function": "4",
+    "lat": 8.533333,
+    "lng": 99.95
+  },
+  {
+    "locationCode": "NSH",
+    "label": "Nakhon Si Thammarat Customs House",
+    "subdivisionCode": "80",
+    "function": "3",
+    "lat": 8.533333,
+    "lng": 99.95
+  },
+  {
+    "locationCode": "NNT",
+    "label": "Nan Nakhon Apt",
+    "subdivisionCode": "55",
+    "function": "4",
+    "lat": 18.8,
+    "lng": 100.783333
+  },
+  {
+    "locationCode": "NRW",
+    "label": "Narathiwat",
+    "subdivisionCode": "96",
+    "function": "1",
+    "lat": 6.416667,
+    "lng": 101.816667
+  },
+  {
+    "locationCode": "NAW",
+    "label": "Narathiwat Apt",
+    "subdivisionCode": "96",
+    "function": "4",
+    "lat": 6.516667,
+    "lng": 101.75
+  },
+  {
+    "locationCode": "NHP",
+    "label": "NH Prosperity",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 13.183333,
+    "lng": 100.8
+  },
+  {
+    "locationCode": "NIM",
+    "label": "Nim Port",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 13.6,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "NBO",
+    "label": "Nong Bua Lamphu",
+    "subdivisionCode": "39",
+    "function": "3",
+    "lat": 17.166667,
+    "lng": 102.45
+  },
+  {
+    "locationCode": "NGK",
+    "label": "Nong Khae",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 14.333333,
+    "lng": 100.866667
+  },
+  {
+    "locationCode": "NON",
+    "label": "Nong Khaem",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.683333,
+    "lng": 100.35
+  },
+  {
+    "locationCode": "NOK",
+    "label": "Nong Khai Customs House",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 17.85,
+    "lng": 102.733333
+  },
+  {
+    "locationCode": "NTB",
+    "label": "Nonthaburi",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 13.833333,
+    "lng": 100.483333
+  },
+  {
+    "locationCode": "PDB",
+    "label": "Padang Besar, Thailand",
+    "subdivisionCode": "90",
+    "function": "23",
+    "lat": 6.65,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Pai",
+    "subdivisionCode": "58",
+    "function": "3",
+    "lat": 19.316667,
+    "lng": 98.45
+  },
+  {
+    "locationCode": "PYY",
+    "label": "Pai Apt",
+    "subdivisionCode": "58",
+    "function": "4",
+    "lat": 19.366667,
+    "lng": 98.433333
+  },
+  {
+    "locationCode": "PCH",
+    "label": "Pak Chong",
+    "function": "23",
+    "lat": 14.683333,
+    "lng": 101.416667
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Pak Kret",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": 100.5
+  },
+  {
+    "locationCode": "PKN",
+    "label": "Pak Nam",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 13.6,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "PKP",
+    "label": "Pak Phanang",
+    "subdivisionCode": "80",
+    "function": "1",
+    "lat": 9.2,
+    "lng": 99.883333
+  },
+  {
+    "locationCode": "PKB",
+    "label": "Pakbara",
+    "subdivisionCode": "91",
+    "function": "1",
+    "lat": 6.866667,
+    "lng": 99.716667
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Pat Bangkok",
+    "function": "3",
+    "lat": 13.7,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "PTH",
+    "label": "Pathum Thani",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 14.016667,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Pattani",
+    "subdivisionCode": "94",
+    "function": "1",
+    "lat": 6.883333,
+    "lng": 101.266667
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pattani Apt",
+    "subdivisionCode": "94",
+    "function": "4",
+    "lat": 6.783333,
+    "lng": 101.15
+  },
+  {
+    "locationCode": "PYX",
+    "label": "Pattaya",
+    "subdivisionCode": "20",
+    "function": "234",
+    "lat": 12.933333,
+    "lng": 100.883333
+  },
+  {
+    "locationCode": "PYT",
+    "label": "Phahon Yothin Customs House",
+    "subdivisionCode": "10",
+    "function": "12",
+    "lat": 13.8,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "PHT",
+    "label": "Phan Thong",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 13.466667,
+    "lng": 101.1
+  },
+  {
+    "locationCode": "PHA",
+    "label": "Phang-Nga",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 8.4,
+    "lng": 98.516667
+  },
+  {
+    "locationCode": "PTG",
+    "label": "Phatthalung",
+    "subdivisionCode": "93",
+    "function": "3",
+    "lat": 7.616667,
+    "lng": 100.066667
+  },
+  {
+    "locationCode": "PYO",
+    "label": "Phayao",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 19.166667,
+    "lng": 99.9
+  },
+  {
+    "locationCode": "PHE",
+    "label": "Phet Buri",
+    "subdivisionCode": "76",
+    "function": "23",
+    "lat": 13.1,
+    "lng": 99.95
+  },
+  {
+    "locationCode": "PHY",
+    "label": "Phetchabun",
+    "subdivisionCode": "67",
+    "function": "4",
+    "lat": 16.683333,
+    "lng": 101.2
+  },
+  {
+    "locationCode": "PBM",
+    "label": "Phibun Mangsahan",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 15.25,
+    "lng": 105.233333
+  },
+  {
+    "locationCode": "PHI",
+    "label": "Phichit",
+    "subdivisionCode": "66",
+    "function": "3",
+    "lat": 16.433333,
+    "lng": 100.333333
+  },
+  {
+    "locationCode": "PHS",
+    "label": "Phitsanulok Apt",
+    "subdivisionCode": "65",
+    "function": "4",
+    "lat": 16.783333,
+    "lng": 100.283333
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Photharam",
+    "subdivisionCode": "70",
+    "function": "123",
+    "lat": 13.683333,
+    "lng": 99.85
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Phra Khanong",
+    "subdivisionCode": "10",
+    "function": "13",
+    "lat": 13.7,
+    "lng": 100.6
+  },
+  {
+    "locationCode": "PNA",
+    "label": "Phra Nakhon Si Ayutthaya",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 14.35,
+    "lng": 100.583333
+  },
+  {
+    "locationCode": "PPA",
+    "label": "Phra Pradaeng",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 13.616667,
+    "lng": 100.55
+  },
+  {
+    "locationCode": "PRH",
+    "label": "Phrae Apt",
+    "subdivisionCode": "54",
+    "function": "4",
+    "lat": 18.133333,
+    "lng": 100.166667
+  },
+  {
+    "locationCode": "PHK",
+    "label": "Phuket Customs House",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 7.866667,
+    "lng": 98.4
+  },
+  {
+    "locationCode": "HKT",
+    "label": "Phuket International Apt",
+    "subdivisionCode": "83",
+    "function": "4",
+    "lat": 8.116667,
+    "lng": 98.316667
+  },
+  {
+    "locationCode": "PKT",
+    "label": "Phuket Port",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 7.816667,
+    "lng": 98.4
+  },
+  {
+    "locationCode": "PTM",
+    "label": "Phutthamonthon Truck Terminal",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 13.783333,
+    "lng": 100.283333
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Platong",
+    "function": "1",
+    "lat": 9.65,
+    "lng": 101.466667
+  },
+  {
+    "locationCode": "PDG",
+    "label": "Pluak Daeng",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 12.966667,
+    "lng": 101.216667
+  },
+  {
+    "locationCode": "PNB",
+    "label": "Prachin Buri",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 14.05,
+    "lng": 101.366667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Prachuap Khiri Khan",
+    "subdivisionCode": "77",
+    "function": "3",
+    "lat": 11.816667,
+    "lng": 99.8
+  },
+  {
+    "locationCode": "PPC",
+    "label": "Prachuap Port",
+    "subdivisionCode": "77",
+    "function": "1",
+    "lat": 11.2,
+    "lng": 99.583333
+  },
+  {
+    "locationCode": "PBR",
+    "label": "Pran Buri",
+    "subdivisionCode": "77",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": 99.916667
+  },
+  {
+    "locationCode": "RNN",
+    "label": "Ranong",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 9.966667,
+    "lng": 98.633333
+  },
+  {
+    "locationCode": "UNN",
+    "label": "Ranong Apt",
+    "subdivisionCode": "85",
+    "function": "4",
+    "lat": 9.783333,
+    "lng": 98.583333
+  },
+  {
+    "locationCode": "RAT",
+    "label": "Ratchaburi",
+    "subdivisionCode": "70",
+    "function": "23",
+    "lat": 13.533333,
+    "lng": 99.8
+  },
+  {
+    "locationCode": "RYG",
+    "label": "Rayong",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 12.683333,
+    "lng": 101.283333
+  },
+  {
+    "locationCode": "ROI",
+    "label": "Roi Et Apt",
+    "subdivisionCode": "45",
+    "function": "4",
+    "lat": 16.116667,
+    "lng": 103.766667
+  },
+  {
+    "locationCode": "RKL",
+    "label": "Rom Klao Truck Terminal",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.733333,
+    "lng": 100.766667
+  },
+  {
+    "locationCode": "SAO",
+    "label": "Sadao Customs House",
+    "subdivisionCode": "90",
+    "function": "23",
+    "lat": 6.55,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "SCS",
+    "label": "Sahathai Coastal Seaport",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 13.65,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "SNO",
+    "label": "Sakon Nakhon Apt",
+    "subdivisionCode": "47",
+    "function": "4",
+    "lat": 17.2,
+    "lng": 104.116667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sam Phran",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": 100.216667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samphanthawong",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 13.733333,
+    "lng": 100.5
+  },
+  {
+    "locationCode": "USM",
+    "label": "Samui Apt",
+    "subdivisionCode": "84",
+    "function": "4",
+    "lat": 9.55,
+    "lng": 100.066667
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Samulsakom",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Samut Prakan",
+    "subdivisionCode": "11",
+    "function": "136",
+    "lat": 13.6,
+    "lng": 100.6
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Samut Sakhon, Changwat",
+    "subdivisionCode": "74",
+    "function": "23",
+    "lat": 13.583333,
+    "lng": 100.3
+  },
+  {
+    "locationCode": "SSM",
+    "label": "Samut Songkhram",
+    "subdivisionCode": "75",
+    "function": "3",
+    "lat": 13.4,
+    "lng": 100
+  },
+  {
+    "locationCode": "SPK",
+    "label": "Samuthprakarn",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 13.6,
+    "lng": 100.6
+  },
+  {
+    "locationCode": "SBR",
+    "label": "Sangkhla Buri Customs House",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 15.183333,
+    "lng": 98.466667
+  },
+  {
+    "locationCode": "SBI",
+    "label": "Sara Buri",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 14.5,
+    "lng": 100.916667
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Sattahip",
+    "subdivisionCode": "20",
+    "function": "1",
+    "lat": 12.633333,
+    "lng": 100.916667
+  },
+  {
+    "locationCode": "SNT",
+    "label": "Satun",
+    "subdivisionCode": "91",
+    "function": "13",
+    "lat": 6.616667,
+    "lng": 100.066667
+  },
+  {
+    "locationCode": "SRI",
+    "label": "Si Racha",
+    "subdivisionCode": "20",
+    "function": "1236",
+    "lat": 13.166667,
+    "lng": 100.883333
+  },
+  {
+    "locationCode": "SBP",
+    "label": "Siam Bangkok Port",
+    "function": "13",
+    "lat": 13.65,
+    "lng": 100.55
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Siam Container Terminal",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 13.566667,
+    "lng": 100.833333
+  },
+  {
+    "locationCode": "SSW",
+    "label": "Siamgas and Petrochemicals",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 13.633333,
+    "lng": 100.55
+  },
+  {
+    "locationCode": "SIC",
+    "label": "Sichon",
+    "subdivisionCode": "80",
+    "function": "1",
+    "lat": 9.016667,
+    "lng": 99.916667
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sing Buri",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 14.883333,
+    "lng": 100.4
+  },
+  {
+    "locationCode": "SSK",
+    "label": "Sisaket",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 15.1,
+    "lng": 104.316667
+  },
+  {
+    "locationCode": "SGK",
+    "label": "Songkhla",
+    "subdivisionCode": "90",
+    "function": "13",
+    "lat": 7.233333,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "SKW",
+    "label": "Sre Kaew",
+    "function": "3"
+  },
+  {
+    "locationCode": "THS",
+    "label": "Sukhothai Apt",
+    "subdivisionCode": "64",
+    "function": "4",
+    "lat": 17.233333,
+    "lng": 99.816667
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Su-ngai Kolok Customs House",
+    "subdivisionCode": "96",
+    "function": "3",
+    "lat": 6.033333,
+    "lng": 101.966667
+  },
+  {
+    "locationCode": "SUB",
+    "label": "Suphan Buri",
+    "subdivisionCode": "72",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": 100.116667
+  },
+  {
+    "locationCode": "URT",
+    "label": "Surat Thani",
+    "subdivisionCode": "84",
+    "function": "14",
+    "lat": 9.133333,
+    "lng": 99.133333
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Surin",
+    "subdivisionCode": "32",
+    "function": "3",
+    "lat": 14.816667,
+    "lng": 103.416667
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Suvarnabhumi International Apt",
+    "subdivisionCode": "11",
+    "function": "34",
+    "lat": 13.716667,
+    "lng": 100.783333
+  },
+  {
+    "locationCode": "I6C",
+    "label": "T S Transport and Logistics",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 13.65,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "TKT",
+    "label": "Tak Apt",
+    "subdivisionCode": "63",
+    "function": "4",
+    "lat": 16.9,
+    "lng": 99.25
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tak Bai Customs House",
+    "subdivisionCode": "96",
+    "function": "13",
+    "lat": 6.25,
+    "lng": 102.05
+  },
+  {
+    "locationCode": "TKH",
+    "label": "Takhli Apt",
+    "subdivisionCode": "60",
+    "function": "4",
+    "lat": 15.283333,
+    "lng": 100.3
+  },
+  {
+    "locationCode": "TTE",
+    "label": "Tantawan Terminal",
+    "function": "7",
+    "lat": 10.083333,
+    "lng": 101.416667
+  },
+  {
+    "locationCode": "TAC",
+    "label": "Tha Chaleap",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 12.583333,
+    "lng": 101.883333
+  },
+  {
+    "locationCode": "THL",
+    "label": "Tha Li Customs House",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 17.683333,
+    "lng": 101.4
+  },
+  {
+    "locationCode": "THA",
+    "label": "Tha Sala",
+    "subdivisionCode": "80",
+    "function": "1",
+    "lat": 8.666667,
+    "lng": 99.95
+  },
+  {
+    "locationCode": "TPT",
+    "label": "Thai prosperity terminal",
+    "function": "3"
+  },
+  {
+    "locationCode": "TCH",
+    "label": "Thung Chang Customs House",
+    "subdivisionCode": "55",
+    "function": "3",
+    "lat": 19.516667,
+    "lng": 100.916667
+  },
+  {
+    "locationCode": "TSG",
+    "label": "Thung Song",
+    "subdivisionCode": "80",
+    "function": "3",
+    "lat": 8.15,
+    "lng": 99.733333
+  },
+  {
+    "locationCode": "CCP",
+    "label": "Tips Container Terminal",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.1,
+    "lng": 100.883333
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Trang",
+    "subdivisionCode": "92",
+    "function": "1",
+    "lat": 7.55,
+    "lng": 99.6
+  },
+  {
+    "locationCode": "TST",
+    "label": "Trang Apt",
+    "subdivisionCode": "92",
+    "function": "4",
+    "lat": 7.516667,
+    "lng": 99.616667
+  },
+  {
+    "locationCode": "TRT",
+    "label": "Trat",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 12.233333,
+    "lng": 102.5
+  },
+  {
+    "locationCode": "TDX",
+    "label": "Trat Apt",
+    "subdivisionCode": "23",
+    "function": "4",
+    "lat": 12.283333,
+    "lng": 102.316667
+  },
+  {
+    "locationCode": "TPP",
+    "label": "Tungprong Pt",
+    "subdivisionCode": "20",
+    "function": "1",
+    "lat": 12.7,
+    "lng": 100.833333
+  },
+  {
+    "locationCode": "UBP",
+    "label": "Ubon Ratchathani Apt",
+    "subdivisionCode": "34",
+    "function": "4",
+    "lat": 15.25,
+    "lng": 104.866667
+  },
+  {
+    "locationCode": "UTH",
+    "label": "Udon Thani Apt",
+    "subdivisionCode": "41",
+    "function": "4",
+    "lat": 17.383333,
+    "lng": 102.783333
+  },
+  {
+    "locationCode": "UCT",
+    "label": "Unithai Container Terminal",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 13.583333,
+    "lng": 100.583333
+  },
+  {
+    "locationCode": "UTP",
+    "label": "U-Tapao Rayong Pattaya International Apt",
+    "subdivisionCode": "21",
+    "function": "4",
+    "lat": 12.683333,
+    "lng": 101
+  },
+  {
+    "locationCode": "WPJ",
+    "label": "Wang Prachan Customs House",
+    "subdivisionCode": "91",
+    "function": "3",
+    "lat": 6.7,
+    "lng": 100.183333
+  },
+  {
+    "locationCode": "YAL",
+    "label": "Yala",
+    "subdivisionCode": "95",
+    "function": "3",
+    "lat": 6.55,
+    "lng": 101.283333
+  },
+  {
+    "locationCode": "YAN",
+    "label": "Yan Nawa",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.716667,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "YNT",
+    "label": "Yasothon",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 15.783333,
+    "lng": 104.133333
+  }
+]

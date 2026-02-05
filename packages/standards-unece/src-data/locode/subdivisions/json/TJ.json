@@ -1,0 +1,27 @@
+[
+  {
+    "code": "DU",
+    "label": "Dushanbe",
+    "type": "Capital territory"
+  },
+  {
+    "code": "GB",
+    "label": "Kuhistoni Badakhshon",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "KT",
+    "label": "Khatlon",
+    "type": "Region"
+  },
+  {
+    "code": "RA",
+    "label": "nohiyahoi tobei jumhurí",
+    "type": "districts under republic administration"
+  },
+  {
+    "code": "SU",
+    "label": "Sughd",
+    "type": "Region"
+  }
+]

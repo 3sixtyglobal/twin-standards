@@ -1,0 +1,112 @@
+[
+  {
+    "code": "BA",
+    "label": "Banghazi",
+    "type": "Popularate"
+  },
+  {
+    "code": "BU",
+    "label": "Al Butnan",
+    "type": "Popularate"
+  },
+  {
+    "code": "DR",
+    "label": "Darnah",
+    "type": "Popularate"
+  },
+  {
+    "code": "GT",
+    "label": "Ghat",
+    "type": "Popularate"
+  },
+  {
+    "code": "JA",
+    "label": "Al Jabal al Akh?ar",
+    "type": "Popularate"
+  },
+  {
+    "code": "JG",
+    "label": "Al Jabal al Gharbi",
+    "type": "Popularate"
+  },
+  {
+    "code": "JI",
+    "label": "Al Jafarah",
+    "type": "Popularate"
+  },
+  {
+    "code": "JU",
+    "label": "Al Jufrah",
+    "type": "Popularate"
+  },
+  {
+    "code": "KF",
+    "label": "Al Kufrah",
+    "type": "Popularate"
+  },
+  {
+    "code": "MB",
+    "label": "Al Marqab",
+    "type": "Popularate"
+  },
+  {
+    "code": "MI",
+    "label": "Misratah",
+    "type": "Popularate"
+  },
+  {
+    "code": "MJ",
+    "label": "Al Marj",
+    "type": "Popularate"
+  },
+  {
+    "code": "MQ",
+    "label": "Murzuq",
+    "type": "Popularate"
+  },
+  {
+    "code": "NL",
+    "label": "Nalut",
+    "type": "Popularate"
+  },
+  {
+    "code": "NQ",
+    "label": "An Nuqat al Khams",
+    "type": "Popularate"
+  },
+  {
+    "code": "SB",
+    "label": "Sabha",
+    "type": "Popularate"
+  },
+  {
+    "code": "SR",
+    "label": "Surt",
+    "type": "Popularate"
+  },
+  {
+    "code": "TB",
+    "label": "Tarabulus",
+    "type": "Popularate"
+  },
+  {
+    "code": "WA",
+    "label": "Al Wa?at",
+    "type": "Popularate"
+  },
+  {
+    "code": "WD",
+    "label": "Wadi al Hayat",
+    "type": "Popularate"
+  },
+  {
+    "code": "WS",
+    "label": "Wadi ash Shati?",
+    "type": "Popularate"
+  },
+  {
+    "code": "ZA",
+    "label": "Az Zawiyah",
+    "type": "Popularate"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "code": "01",
+    "label": "Ahvenanmaan maakunta",
+    "type": "Region"
+  },
+  {
+    "code": "02",
+    "label": "Etelä-Karjala",
+    "type": "Region"
+  },
+  {
+    "code": "03",
+    "label": "Etelä-Pohjanmaa",
+    "type": "Region"
+  },
+  {
+    "code": "04",
+    "label": "Etelä-Savo",
+    "type": "Region"
+  },
+  {
+    "code": "05",
+    "label": "Kainuu",
+    "type": "Region"
+  },
+  {
+    "code": "06",
+    "label": "Kanta-Häme",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Keski-Pohjanmaa",
+    "type": "Region"
+  },
+  {
+    "code": "08",
+    "label": "Keski-Suomi",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Kymenlaakso",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Lappi",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "Pirkanmaa",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "Pohjanmaa",
+    "type": "Region"
+  },
+  {
+    "code": "13",
+    "label": "Pohjois-Karjala",
+    "type": "Region"
+  },
+  {
+    "code": "14",
+    "label": "Pohjois-Pohjanmaa",
+    "type": "Region"
+  },
+  {
+    "code": "15",
+    "label": "Pohjois-Savo",
+    "type": "Region"
+  },
+  {
+    "code": "16",
+    "label": "Päijät-Häme",
+    "type": "Region"
+  },
+  {
+    "code": "17",
+    "label": "Satakunta",
+    "type": "Region"
+  },
+  {
+    "code": "18",
+    "label": "Uusimaa",
+    "type": "Region"
+  },
+  {
+    "code": "19",
+    "label": "Varsinais-Suomi",
+    "type": "Region"
+  }
+]

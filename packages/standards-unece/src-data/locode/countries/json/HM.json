@@ -1,0 +1,16 @@
+[
+  {
+    "locationCode": "HEA",
+    "label": "Heard Island",
+    "function": "1",
+    "lat": -53.083333,
+    "lng": 73.716667
+  },
+  {
+    "locationCode": "MCD",
+    "label": "McDonald Island",
+    "function": "1",
+    "lat": -53.033333,
+    "lng": 72.583333
+  }
+]

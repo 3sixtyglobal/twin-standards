@@ -1,0 +1,57 @@
+[
+  {
+    "code": "AG",
+    "label": "Aragac?otn",
+    "type": "Region"
+  },
+  {
+    "code": "AR",
+    "label": "Ararat",
+    "type": "Region"
+  },
+  {
+    "code": "AV",
+    "label": "Armavir",
+    "type": "Region"
+  },
+  {
+    "code": "ER",
+    "label": "Erevan",
+    "type": "City"
+  },
+  {
+    "code": "GR",
+    "label": "Gegark'unik'",
+    "type": "Region"
+  },
+  {
+    "code": "KT",
+    "label": "Kotayk'",
+    "type": "Region"
+  },
+  {
+    "code": "LO",
+    "label": "Lo?i",
+    "type": "Region"
+  },
+  {
+    "code": "SH",
+    "label": "irak",
+    "type": "Region"
+  },
+  {
+    "code": "SU",
+    "label": "Syunik'",
+    "type": "Region"
+  },
+  {
+    "code": "TV",
+    "label": "Tavu",
+    "type": "Region"
+  },
+  {
+    "code": "VD",
+    "label": "Vayoc Jor",
+    "type": "Region"
+  }
+]

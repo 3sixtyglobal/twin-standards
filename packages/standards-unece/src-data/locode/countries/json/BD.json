@@ -1,0 +1,287 @@
+[
+  {
+    "locationCode": "AKH",
+    "label": "Akhaura",
+    "function": "5"
+  },
+  {
+    "locationCode": "ASJ",
+    "label": "Ashuganj",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 24.033333,
+    "lng": 91.016667
+  },
+  {
+    "locationCode": "BZL",
+    "label": "Barisal",
+    "function": "14"
+  },
+  {
+    "locationCode": "BNP",
+    "label": "Benapole",
+    "function": "1",
+    "lat": 23.05,
+    "lng": 88.9
+  },
+  {
+    "locationCode": "BHL",
+    "label": "Bhola",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 23.783333,
+    "lng": 90.416667
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Bogura",
+    "function": "6",
+    "lat": 24.85,
+    "lng": 89.366667
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Chalna",
+    "function": "1"
+  },
+  {
+    "locationCode": "CGP",
+    "label": "Chattogram",
+    "subdivisionCode": "10",
+    "function": "145",
+    "lat": 22.333333,
+    "lng": 91.833333
+  },
+  {
+    "locationCode": "CDG",
+    "label": "Chuadanga",
+    "subdivisionCode": "27",
+    "function": "6",
+    "lat": 24,
+    "lng": 89.166667
+  },
+  {
+    "locationCode": "CXB",
+    "label": "Cox's Bazar",
+    "function": "4",
+    "lat": 21.433333,
+    "lng": 91.983333
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Cumilla",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAC",
+    "label": "Dhaka",
+    "subdivisionCode": "13",
+    "function": "45",
+    "lat": 24.166667,
+    "lng": 90.416667
+  },
+  {
+    "locationCode": "FNI",
+    "label": "Feni",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 23.016667,
+    "lng": 91.4
+  },
+  {
+    "locationCode": "GAZ",
+    "label": "Gazipur",
+    "function": "3",
+    "lat": 23.7,
+    "lng": 90.95
+  },
+  {
+    "locationCode": "GPG",
+    "label": "Gopalganj",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 23.216667,
+    "lng": 90.05
+  },
+  {
+    "locationCode": "IRD",
+    "label": "Ishurdi",
+    "function": "4"
+  },
+  {
+    "locationCode": "JSR",
+    "label": "Jashore",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamalapur/Dhaka",
+    "function": "3"
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Khulna",
+    "function": "1"
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kushtia",
+    "function": "6",
+    "lat": 25.75,
+    "lng": 89.833333
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Laksham",
+    "function": "5"
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Manikganj",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 23.85,
+    "lng": 90
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monella",
+    "function": "0"
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Mongla",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBB",
+    "label": "Moulvi Bazar",
+    "subdivisionCode": "60",
+    "function": "6",
+    "lat": 24.483333,
+    "lng": 91.783333
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Munshiganj",
+    "subdivisionCode": "35",
+    "function": "1",
+    "lat": 23.55,
+    "lng": 90.533333
+  },
+  {
+    "locationCode": "MYM",
+    "label": "Mymensingh",
+    "function": "5"
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Narayanganj",
+    "function": "123"
+  },
+  {
+    "locationCode": "DHA",
+    "label": "Narsingdi",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 23.916667,
+    "lng": 90.716667
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pabna",
+    "function": "3"
+  },
+  {
+    "locationCode": "PCR",
+    "label": "Panchashar",
+    "subdivisionCode": "40",
+    "function": "16",
+    "lat": 23.566667,
+    "lng": 90.5
+  },
+  {
+    "locationCode": "PGN",
+    "label": "Pangaon",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 23.65,
+    "lng": 90.45
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parbatipur",
+    "function": "5"
+  },
+  {
+    "locationCode": "PAY",
+    "label": "Payra Port",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 21.933333,
+    "lng": 90.266667
+  },
+  {
+    "locationCode": "RJH",
+    "label": "Rajshahi",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Rangpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "SPD",
+    "label": "Saidpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "SDW",
+    "label": "Sandwip",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAV",
+    "label": "Savar",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 23.833333,
+    "lng": 90.25
+  },
+  {
+    "locationCode": "ZHM",
+    "label": "Shamshernagar",
+    "function": "4"
+  },
+  {
+    "locationCode": "SSU",
+    "label": "Sherpur Sadar Upazila",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 25,
+    "lng": 90.016667
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "Sirajganj",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZYL",
+    "label": "Sylhet",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEJ",
+    "label": "Tejgaon",
+    "function": "6",
+    "lat": 23.766667,
+    "lng": 90.4
+  },
+  {
+    "locationCode": "TKR",
+    "label": "Thakurgaon",
+    "function": "4"
+  }
+]

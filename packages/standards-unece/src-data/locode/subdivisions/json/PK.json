@@ -1,0 +1,37 @@
+[
+  {
+    "code": "BA",
+    "label": "Balochistan",
+    "type": "Province"
+  },
+  {
+    "code": "GB",
+    "label": "Gilgit-Baltistan",
+    "type": "Pakistan administrered area"
+  },
+  {
+    "code": "IS",
+    "label": "Islamabad",
+    "type": "Federal capital territory"
+  },
+  {
+    "code": "JK",
+    "label": "Azad Jammu and Kashmir",
+    "type": "Pakistan administrered area"
+  },
+  {
+    "code": "KP",
+    "label": "Khyber Pakhtunkhwa",
+    "type": "Province"
+  },
+  {
+    "code": "PB",
+    "label": "Punjab",
+    "type": "Province"
+  },
+  {
+    "code": "SD",
+    "label": "Sindh",
+    "type": "Province"
+  }
+]

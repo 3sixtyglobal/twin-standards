@@ -1,0 +1,117 @@
+[
+  {
+    "code": "BA",
+    "label": "Batha",
+    "type": "Province"
+  },
+  {
+    "code": "BG",
+    "label": "Ba?r al Ghazal",
+    "type": "Province"
+  },
+  {
+    "code": "BO",
+    "label": "Burku",
+    "type": "Province"
+  },
+  {
+    "code": "CB",
+    "label": "Chari-Baguirmi",
+    "type": "Province"
+  },
+  {
+    "code": "EE",
+    "label": "Ennedi-Est",
+    "type": "Province"
+  },
+  {
+    "code": "EO",
+    "label": "Ennedi-Ouest",
+    "type": "Province"
+  },
+  {
+    "code": "GR",
+    "label": "Guéra",
+    "type": "Province"
+  },
+  {
+    "code": "HL",
+    "label": "Hadjer Lamis",
+    "type": "Province"
+  },
+  {
+    "code": "KA",
+    "label": "Kanem",
+    "type": "Province"
+  },
+  {
+    "code": "LC",
+    "label": "Lac",
+    "type": "Province"
+  },
+  {
+    "code": "LO",
+    "label": "Logone-Occidental",
+    "type": "Province"
+  },
+  {
+    "code": "LR",
+    "label": "Logone-Oriental",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Mandoul",
+    "type": "Province"
+  },
+  {
+    "code": "MC",
+    "label": "Moyen-Chari",
+    "type": "Province"
+  },
+  {
+    "code": "ME",
+    "label": "Mayo-Kebbi-Est",
+    "type": "Province"
+  },
+  {
+    "code": "MO",
+    "label": "Mayo-Kebbi-Ouest",
+    "type": "Province"
+  },
+  {
+    "code": "ND",
+    "label": "Ville de Ndjamena",
+    "type": "Province"
+  },
+  {
+    "code": "OD",
+    "label": "Ouaddaï",
+    "type": "Province"
+  },
+  {
+    "code": "SA",
+    "label": "Salamat",
+    "type": "Province"
+  },
+  {
+    "code": "SI",
+    "label": "Sila",
+    "type": "Province"
+  },
+  {
+    "code": "TA",
+    "label": "Tandjilé",
+    "type": "Province"
+  },
+  {
+    "code": "TI",
+    "label": "Tibasti",
+    "type": "Province"
+  },
+  {
+    "code": "WF",
+    "label": "Wadi Fira",
+    "type": "Province"
+  }
+]

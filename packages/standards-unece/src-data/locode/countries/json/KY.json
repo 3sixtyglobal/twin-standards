@@ -1,0 +1,28 @@
+[
+  {
+    "locationCode": "CYB",
+    "label": "Cayman Brac",
+    "function": "4",
+    "lat": 19.716667,
+    "lng": -79.816667
+  },
+  {
+    "locationCode": "GEC",
+    "label": "Georgetown, Grand Cayman",
+    "function": "134",
+    "lat": 19.3,
+    "lng": -81.383333
+  },
+  {
+    "locationCode": "GCM",
+    "label": "Grand Cayman",
+    "function": "345",
+    "lat": 19.283333,
+    "lng": -81.35
+  },
+  {
+    "locationCode": "LYB",
+    "label": "Little Cayman",
+    "function": "4"
+  }
+]

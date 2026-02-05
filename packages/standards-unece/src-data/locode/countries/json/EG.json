@@ -1,0 +1,874 @@
+[
+  {
+    "locationCode": "TRC",
+    "label": "10th of Ramadan City",
+    "function": "36",
+    "lat": 30.3,
+    "lng": 31.75
+  },
+  {
+    "locationCode": "SOC",
+    "label": "6th October",
+    "subdivisionCode": "GZ",
+    "function": "36",
+    "lat": 29.816667,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "AGN",
+    "label": "Abu Ghosoun",
+    "function": "13",
+    "lat": 24.45,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "AKI",
+    "label": "Abu Kir",
+    "function": "1"
+  },
+  {
+    "locationCode": "AUE",
+    "label": "Abu Rudeis",
+    "function": "14"
+  },
+  {
+    "locationCode": "ABS",
+    "label": "Abu Simbel",
+    "function": "4"
+  },
+  {
+    "locationCode": "AZA",
+    "label": "Abu Zenimah",
+    "subdivisionCode": "JS",
+    "function": "1",
+    "lat": 29.05,
+    "lng": 33.1
+  },
+  {
+    "locationCode": "AIS",
+    "label": "Ain Sukhna",
+    "function": "1"
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Al Adabiyah",
+    "function": "123",
+    "lat": 29.866667,
+    "lng": 32.466667
+  },
+  {
+    "locationCode": "DBB",
+    "label": "Al Alamein International Apt/Daaba City",
+    "subdivisionCode": "MT",
+    "function": "4",
+    "lat": 30.916667,
+    "lng": 28.45
+  },
+  {
+    "locationCode": "ABE",
+    "label": "Al Bahr El Ahmer",
+    "function": "6"
+  },
+  {
+    "locationCode": "YYU",
+    "label": "Al Fayyum",
+    "function": "3",
+    "lat": 29.3,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "AHM",
+    "label": "Al Haram",
+    "subdivisionCode": "GZ",
+    "function": "6",
+    "lat": 29.45,
+    "lng": 31.166667
+  },
+  {
+    "locationCode": "AGZ",
+    "label": "Al Jizah (Giza)",
+    "subdivisionCode": "GZ",
+    "function": "3",
+    "lat": 30,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Al Mansurah",
+    "subdivisionCode": "DK",
+    "function": "23",
+    "lat": 31.033333,
+    "lng": 31.366667
+  },
+  {
+    "locationCode": "QEM",
+    "label": "Al Manzilah",
+    "subdivisionCode": "DK",
+    "function": "3",
+    "lat": 31.15,
+    "lng": 31.933333
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Al Minya",
+    "subdivisionCode": "GZ",
+    "function": "6",
+    "lat": 29.733333,
+    "lng": 31.283333
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Al Monofiya",
+    "function": "6"
+  },
+  {
+    "locationCode": "ELK",
+    "label": "Al Qantarah El Sharqiyya",
+    "subdivisionCode": "SIN",
+    "function": "3",
+    "lat": 30.85,
+    "lng": 32.3
+  },
+  {
+    "locationCode": "AQU",
+    "label": "Al Qusayr",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": 26.1,
+    "lng": 34.283333
+  },
+  {
+    "locationCode": "AWE",
+    "label": "Al Wadi El Gedeed",
+    "function": "6"
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Almazah",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 30.083333,
+    "lng": 31.35
+  },
+  {
+    "locationCode": "6HB",
+    "label": "An Nubariyah",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 30.65,
+    "lng": 30.066667
+  },
+  {
+    "locationCode": "EEG",
+    "label": "An Nukhaylah",
+    "subdivisionCode": "AST",
+    "function": "0",
+    "lat": 27.016667,
+    "lng": 31.35
+  },
+  {
+    "locationCode": "SUZ",
+    "label": "As Suways (Suez)",
+    "subdivisionCode": "SUZ",
+    "function": "13",
+    "lat": 29.966667,
+    "lng": 32.516667
+  },
+  {
+    "locationCode": "ATZ",
+    "label": "Assiut",
+    "function": "4",
+    "lat": 27.183333,
+    "lng": 31.183333
+  },
+  {
+    "locationCode": "ASW",
+    "label": "Aswan",
+    "function": "4"
+  },
+  {
+    "locationCode": "AST",
+    "label": "Asyut",
+    "subdivisionCode": "AST",
+    "function": "23",
+    "lat": 27.183333,
+    "lng": 31.183333
+  },
+  {
+    "locationCode": "BGB",
+    "label": "Atakka Dry Port",
+    "subdivisionCode": "SUZ",
+    "function": "1",
+    "lat": 32.1,
+    "lng": 33
+  },
+  {
+    "locationCode": "QZZ",
+    "label": "Az Zaqaziq",
+    "subdivisionCode": "SHR",
+    "function": "3",
+    "lat": 30.583333,
+    "lng": 31.5
+  },
+  {
+    "locationCode": "BDR",
+    "label": "Badr",
+    "subdivisionCode": "C",
+    "function": "6",
+    "lat": 30.133333,
+    "lng": 31.716667
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahtim",
+    "function": "6",
+    "lat": 30.133333,
+    "lng": 31.266667
+  },
+  {
+    "locationCode": "BNH",
+    "label": "Banha",
+    "subdivisionCode": "MNF",
+    "function": "36",
+    "lat": 30.45,
+    "lng": 31.183333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Beni Suef",
+    "function": "6",
+    "lat": 29.066667,
+    "lng": 31.083333
+  },
+  {
+    "locationCode": "BBS",
+    "label": "Bilbays",
+    "subdivisionCode": "SHR",
+    "function": "3",
+    "lat": 30.416667,
+    "lng": 31.566667
+  },
+  {
+    "locationCode": "HBE",
+    "label": "Burj al Arab",
+    "function": "346",
+    "lat": 30.9,
+    "lng": 29.55
+  },
+  {
+    "locationCode": "DAK",
+    "label": "Dakhla",
+    "function": "4",
+    "lat": 25.4,
+    "lng": 29
+  },
+  {
+    "locationCode": "DMN",
+    "label": "Damanhour",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Dome Marina",
+    "subdivisionCode": "SUZ",
+    "function": "13",
+    "lat": 29.433333,
+    "lng": 32.483333
+  },
+  {
+    "locationCode": "DAM",
+    "label": "Dumyat (Damietta)",
+    "function": "1234",
+    "lat": 31.416667,
+    "lng": 31.816667
+  },
+  {
+    "locationCode": "BEH",
+    "label": "El Beheirah",
+    "function": "6",
+    "lat": 31.083333,
+    "lng": 30.466667
+  },
+  {
+    "locationCode": "EDK",
+    "label": "El Dekheila",
+    "function": "1"
+  },
+  {
+    "locationCode": "EDA",
+    "label": "El Dekhela",
+    "function": "6"
+  },
+  {
+    "locationCode": "ALY",
+    "label": "El Iskandariya (Alexandria)",
+    "subdivisionCode": "ALX",
+    "function": "145",
+    "lat": 31.183333,
+    "lng": 29.916667
+  },
+  {
+    "locationCode": "QEK",
+    "label": "El Mahalla El Kobra",
+    "subdivisionCode": "GH",
+    "function": "3",
+    "lat": 30.983333,
+    "lng": 31.166667
+  },
+  {
+    "locationCode": "MSR",
+    "label": "El Mansoura",
+    "subdivisionCode": "DK",
+    "function": "3",
+    "lat": 31.05,
+    "lng": 31.383333
+  },
+  {
+    "locationCode": "EOB",
+    "label": "El Obour",
+    "subdivisionCode": "DK",
+    "function": "0"
+  },
+  {
+    "locationCode": "CAI",
+    "label": "El Qahira (Cairo)",
+    "subdivisionCode": "C",
+    "function": "45",
+    "lat": 30.05,
+    "lng": 31.25
+  },
+  {
+    "locationCode": "TOR",
+    "label": "El Tor",
+    "subdivisionCode": "SIN",
+    "function": "1",
+    "lat": 28.233333,
+    "lng": 33.616667
+  },
+  {
+    "locationCode": "AAC",
+    "label": "El'Arish",
+    "function": "34"
+  },
+  {
+    "locationCode": "GUA",
+    "label": "El-Guna (El Gouna)",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": 27.383333,
+    "lng": 33.666667
+  },
+  {
+    "locationCode": "BHE",
+    "label": "Ezbet Osman Murtada",
+    "subdivisionCode": "BH",
+    "function": "6"
+  },
+  {
+    "locationCode": "FAD",
+    "label": "Fa'id",
+    "function": "0",
+    "lat": 30.316667,
+    "lng": 32.316667
+  },
+  {
+    "locationCode": "IYM",
+    "label": "Faiyum",
+    "subdivisionCode": "FYM",
+    "function": "3",
+    "lat": 29.3,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "FAN",
+    "label": "Fanara",
+    "function": "0"
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galala Marina",
+    "subdivisionCode": "SUZ",
+    "function": "13",
+    "lat": 29.466667,
+    "lng": 32.433333
+  },
+  {
+    "locationCode": "GEI",
+    "label": "Geisum Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "QGX",
+    "label": "Gerga",
+    "function": "3",
+    "lat": 26.55,
+    "lng": 32.466667
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halaib",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAM",
+    "label": "Hamrawein",
+    "function": "1"
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Heliopolis",
+    "subdivisionCode": "C",
+    "function": "0"
+  },
+  {
+    "locationCode": "QHW",
+    "label": "Helwan",
+    "function": "3",
+    "lat": 29.85,
+    "lng": 31.333333
+  },
+  {
+    "locationCode": "HRG",
+    "label": "Hurghada",
+    "function": "1"
+  },
+  {
+    "locationCode": "IKU",
+    "label": "Idku",
+    "function": "123",
+    "lat": 31.3,
+    "lng": 30.3
+  },
+  {
+    "locationCode": "ISM",
+    "label": "Ismailia",
+    "function": "0"
+  },
+  {
+    "locationCode": "IYB",
+    "label": "Itay Al Barud",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 30.883333,
+    "lng": 30.65
+  },
+  {
+    "locationCode": "ISA",
+    "label": "Izbat Sidi Ali Murghib",
+    "subdivisionCode": "ALX",
+    "function": "3",
+    "lat": 31.083333,
+    "lng": 29.866667
+  },
+  {
+    "locationCode": "KEZ",
+    "label": "Kafr az Zayyat",
+    "subdivisionCode": "GH",
+    "function": "3",
+    "lat": 30.816667,
+    "lng": 30.8
+  },
+  {
+    "locationCode": "KEH",
+    "label": "Kafr El Sheikh",
+    "subdivisionCode": "DK",
+    "function": "0"
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kenna",
+    "function": "6",
+    "lat": 27.15,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "LXR",
+    "label": "Luxor",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Mallawi",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 27.716667,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "RMF",
+    "label": "Marsa Alam",
+    "subdivisionCode": "BA",
+    "function": "4",
+    "lat": 25.55,
+    "lng": 34.566667
+  },
+  {
+    "locationCode": "EPP",
+    "label": "Marsa Egyptian Propylene & Polypropylene",
+    "subdivisionCode": "PTS",
+    "function": "13",
+    "lat": 31.3,
+    "lng": 32.15
+  },
+  {
+    "locationCode": "OPT",
+    "label": "Marsa Oriental Petrochemicals",
+    "subdivisionCode": "SUZ",
+    "function": "13",
+    "lat": 29.683333,
+    "lng": 32.35
+  },
+  {
+    "locationCode": "MUH",
+    "label": "Matruh",
+    "subdivisionCode": "MT",
+    "function": "4",
+    "lat": 31.366667,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "QFM",
+    "label": "Meet Ghamr",
+    "subdivisionCode": "DK",
+    "function": "3",
+    "lat": 30.716667,
+    "lng": 31.25
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mersa El Hamra",
+    "function": "1"
+  },
+  {
+    "locationCode": "MMU",
+    "label": "Mersa Matru",
+    "function": "6"
+  },
+  {
+    "locationCode": "EMY",
+    "label": "Minyat Al Hayt",
+    "subdivisionCode": "FYM",
+    "function": "4",
+    "lat": 29.216667,
+    "lng": 30.733333
+  },
+  {
+    "locationCode": "QAH",
+    "label": "Nasr City",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 30.05,
+    "lng": 31.366667
+  },
+  {
+    "locationCode": "CA7",
+    "label": "New Cairo",
+    "subdivisionCode": "C",
+    "function": "0",
+    "lat": 30.033333,
+    "lng": 31.433333
+  },
+  {
+    "locationCode": "UVL",
+    "label": "New Valley",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUB",
+    "label": "Nubaria",
+    "function": "3",
+    "lat": 30.65,
+    "lng": 30.033333
+  },
+  {
+    "locationCode": "NUW",
+    "label": "Nuwaiba",
+    "subdivisionCode": "JS",
+    "function": "1",
+    "lat": 28.966667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Obour",
+    "subdivisionCode": "KB",
+    "function": "3",
+    "lat": 30.2,
+    "lng": 31.45
+  },
+  {
+    "locationCode": "ODP",
+    "label": "October Dry Port",
+    "subdivisionCode": "GZ",
+    "function": "236",
+    "lat": 29.816667,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "GLB",
+    "label": "Port Ghalib",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": 25.533333,
+    "lng": 34.633333
+  },
+  {
+    "locationCode": "PIB",
+    "label": "Port Ibrahim",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSD",
+    "label": "Port Said",
+    "function": "14"
+  },
+  {
+    "locationCode": "PSE",
+    "label": "Port Said East",
+    "subdivisionCode": "SUZ",
+    "function": "1236",
+    "lat": 31.216667,
+    "lng": 32.35
+  },
+  {
+    "locationCode": "PSW",
+    "label": "Port Said West",
+    "subdivisionCode": "SUZ",
+    "function": "3",
+    "lat": 31.25,
+    "lng": 32.283333
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Port Tewfik",
+    "function": "1"
+  },
+  {
+    "locationCode": "MEA",
+    "label": "Porto Marina El Alamein",
+    "subdivisionCode": "MT",
+    "function": "13",
+    "lat": 30.816667,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "QUB",
+    "label": "Qalyub",
+    "subdivisionCode": "KB",
+    "function": "6",
+    "lat": 30.166667,
+    "lng": 31.2
+  },
+  {
+    "locationCode": "QSN",
+    "label": "Quesna",
+    "subdivisionCode": "MNF",
+    "function": "2",
+    "lat": 30.55,
+    "lng": 31.116667
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Ras Budran",
+    "function": "1",
+    "lat": 28.933333,
+    "lng": 33.116667
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Ras Gharib",
+    "function": "1"
+  },
+  {
+    "locationCode": "RSH",
+    "label": "Ras Shukheir",
+    "function": "1"
+  },
+  {
+    "locationCode": "RSU",
+    "label": "Ras Sudr",
+    "function": "1",
+    "lat": 29.6,
+    "lng": 32.666667
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Rashid",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 31.4,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "SAD",
+    "label": "Sadat City",
+    "subdivisionCode": "BH",
+    "function": "36",
+    "lat": 30.366667,
+    "lng": 30.5
+  },
+  {
+    "locationCode": "SGA",
+    "label": "Safaga",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Sakr Koreish",
+    "function": "3",
+    "lat": 31.3,
+    "lng": 31.133333
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Sallum",
+    "function": "23",
+    "lat": 31.566667,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "HHD",
+    "label": "Samannud",
+    "subdivisionCode": "GH",
+    "function": "26",
+    "lat": 30.95,
+    "lng": 31.233333
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Santa Katarina",
+    "function": "4",
+    "lat": 28.683333,
+    "lng": 34.05
+  },
+  {
+    "locationCode": "SSI",
+    "label": "Shamal Sinai",
+    "function": "6"
+  },
+  {
+    "locationCode": "GSQ",
+    "label": "Shark El Oweinat",
+    "function": "4",
+    "lat": 22.583333,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "SSH",
+    "label": "Sharm ash Shaykh",
+    "subdivisionCode": "JS",
+    "function": "14",
+    "lat": 27.866667,
+    "lng": 34.283333
+  },
+  {
+    "locationCode": "QUH",
+    "label": "Shebin Al Kawm",
+    "subdivisionCode": "MNF",
+    "function": "3",
+    "lat": 30.55,
+    "lng": 31
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Sidi Barrani",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Sidi Kerir Terminal",
+    "function": "3"
+  },
+  {
+    "locationCode": "SEW",
+    "label": "Siwa",
+    "function": "4",
+    "lat": 29.166667,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "XOO",
+    "label": "Sixth of October City",
+    "subdivisionCode": "C",
+    "function": "6",
+    "lat": 29.983333,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Sohag",
+    "subdivisionCode": "MT",
+    "function": "0"
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Sokhna Port",
+    "function": "1",
+    "lat": 29.65,
+    "lng": 32.35
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Soma Bay Marina",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": 26.85,
+    "lng": 33.983333
+  },
+  {
+    "locationCode": "SOS",
+    "label": "Sosdi/6th October",
+    "subdivisionCode": "GZ",
+    "function": "6"
+  },
+  {
+    "locationCode": "SIN",
+    "label": "South Sinai (Ganoub Sinai)",
+    "subdivisionCode": "SUZ",
+    "function": "16",
+    "lat": 29.866667,
+    "lng": 34
+  },
+  {
+    "locationCode": "SCN",
+    "label": "Suez Canal",
+    "function": "6",
+    "lat": 42.3,
+    "lng": 32.333333
+  },
+  {
+    "locationCode": "TCP",
+    "label": "Taba",
+    "subdivisionCode": "JS",
+    "function": "4",
+    "lat": 29.583333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanta",
+    "subdivisionCode": "GH",
+    "function": "23",
+    "lat": 30.766667,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "ELT",
+    "label": "Tour Sinai City",
+    "function": "4",
+    "lat": 28.216667,
+    "lng": 33.616667
+  },
+  {
+    "locationCode": "WAF",
+    "label": "Wadi Feiran",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZTB",
+    "label": "Zeit Bay",
+    "function": "7",
+    "lat": 27.816667,
+    "lng": 33.6
+  }
+]

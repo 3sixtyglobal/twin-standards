@@ -1,0 +1,87 @@
+[
+  {
+    "code": "11",
+    "label": "Seoul-teukbyeolsi [Seoul]",
+    "type": "Special city"
+  },
+  {
+    "code": "26",
+    "label": "Busan Gwang'yeogsi [Pusan-Kwangyokshi]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "27",
+    "label": "Daegu Gwang'yeogsi [Taegu-Kwangyokshi]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "28",
+    "label": "Incheon Gwang'yeogsi [Incheon]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "29",
+    "label": "Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "30",
+    "label": "Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "31",
+    "label": "Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]",
+    "type": "Metropolitan city"
+  },
+  {
+    "code": "41",
+    "label": "Gyeonggido [Kyonggi-do]",
+    "type": "Province"
+  },
+  {
+    "code": "42",
+    "label": "Gang'weondo [Kang-won-do]",
+    "type": "Province"
+  },
+  {
+    "code": "43",
+    "label": "Chungcheongbugdo [Ch'ungch'ongbuk-do]",
+    "type": "Province"
+  },
+  {
+    "code": "44",
+    "label": "Chungcheongnamdo [Ch'ungch'ongnam-do]",
+    "type": "Province"
+  },
+  {
+    "code": "45",
+    "label": "Jeonrabugdo [Chollabuk-do]",
+    "type": "Province"
+  },
+  {
+    "code": "46",
+    "label": "Jeonranamdo [Chollanam-do]",
+    "type": "Province"
+  },
+  {
+    "code": "47",
+    "label": "Gyeongsangbugdo [Kyongsangbuk-do]",
+    "type": "Province"
+  },
+  {
+    "code": "48",
+    "label": "Gyeongsangnamdo [Kyongsangnam-do]",
+    "type": "Province"
+  },
+  {
+    "code": "49",
+    "label": "Jeju-teukbyeoljachido [Jeju]",
+    "type": "Special self-governing province"
+  },
+  {
+    "code": "50",
+    "label": "Sejong",
+    "type": "Special self-governing city"
+  }
+]

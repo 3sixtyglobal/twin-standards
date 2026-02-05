@@ -1,0 +1,211 @@
+[
+  {
+    "locationCode": "SMC",
+    "label": "Baie de Saint-Marc",
+    "subdivisionCode": "AR",
+    "function": "1",
+    "lat": 19.116667,
+    "lng": -72.7
+  },
+  {
+    "locationCode": "CAP",
+    "label": "Cap-Haïtien",
+    "labelWithDiacritics": "Cap-Haitien",
+    "function": "14",
+    "lat": 19.75,
+    "lng": -72.2
+  },
+  {
+    "locationCode": "CRC",
+    "label": "Caracol",
+    "function": "136",
+    "lat": 19.683333,
+    "lng": -72.016667
+  },
+  {
+    "locationCode": "OOU",
+    "label": "Carrefour",
+    "subdivisionCode": "OU",
+    "function": "3",
+    "lat": 18.533333,
+    "lng": -72.4
+  },
+  {
+    "locationCode": "CDB",
+    "label": "Croix des Bouquets",
+    "subdivisionCode": "OU",
+    "function": "3",
+    "lat": 18.566667,
+    "lng": -72.216667
+  },
+  {
+    "locationCode": "FOM",
+    "label": "Fond Mombin",
+    "subdivisionCode": "OU",
+    "function": "1"
+  },
+  {
+    "locationCode": "FDB",
+    "label": "Fond-des-Blancs",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 18.283333,
+    "lng": -73.133333
+  },
+  {
+    "locationCode": "FLI",
+    "label": "Fort Liberte",
+    "subdivisionCode": "NE",
+    "function": "1"
+  },
+  {
+    "locationCode": "GVS",
+    "label": "Gonaïves",
+    "subdivisionCode": "AR",
+    "labelWithDiacritics": "Gonaives",
+    "function": "1"
+  },
+  {
+    "locationCode": "HI5",
+    "label": "Hincha",
+    "subdivisionCode": "CE",
+    "function": "3",
+    "lat": 19.15,
+    "lng": -72.016667
+  },
+  {
+    "locationCode": "JAK",
+    "label": "Jacmel",
+    "subdivisionCode": "SE",
+    "function": "14"
+  },
+  {
+    "locationCode": "JEE",
+    "label": "Jérémie",
+    "subdivisionCode": "GA",
+    "labelWithDiacritics": "Jeremie",
+    "function": "14"
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Labadie",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 19.516667,
+    "lng": -72.483333
+  },
+  {
+    "locationCode": "LFF",
+    "label": "Lafiteau",
+    "subdivisionCode": "OU",
+    "function": "13",
+    "lat": 18.683333,
+    "lng": -72.35
+  },
+  {
+    "locationCode": "PLH",
+    "label": "Lafito Port",
+    "subdivisionCode": "OU",
+    "function": "1",
+    "lat": 18.683333,
+    "lng": -72.35
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Leogane",
+    "subdivisionCode": "OU",
+    "function": "6",
+    "lat": 18.5,
+    "lng": -72.633333
+  },
+  {
+    "locationCode": "ACA",
+    "label": "Les Cayes",
+    "subdivisionCode": "SD",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Martinique",
+    "subdivisionCode": "ND",
+    "function": "3",
+    "lat": 19.816667,
+    "lng": -72.533333
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Miragoane",
+    "subdivisionCode": "NI",
+    "function": "1"
+  },
+  {
+    "locationCode": "PET",
+    "label": "Pétion-Ville",
+    "subdivisionCode": "NE",
+    "labelWithDiacritics": "Petion-Ville",
+    "function": "3",
+    "lat": 18.516667,
+    "lng": -72.283333
+  },
+  {
+    "locationCode": "PEG",
+    "label": "Petit Goâve",
+    "subdivisionCode": "OU",
+    "labelWithDiacritics": "Petit Goave",
+    "function": "1",
+    "lat": 18.433333,
+    "lng": -72.866667
+  },
+  {
+    "locationCode": "PDP",
+    "label": "Port de Paix",
+    "subdivisionCode": "NO",
+    "function": "3"
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Port-au-Prince",
+    "subdivisionCode": "OU",
+    "function": "145"
+  },
+  {
+    "locationCode": "PTY",
+    "label": "Poty",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 18.333333,
+    "lng": -74.083333
+  },
+  {
+    "locationCode": "STO",
+    "label": "Santo",
+    "subdivisionCode": "OU",
+    "function": "6",
+    "lat": 18.483333,
+    "lng": -72.483333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tabarre",
+    "subdivisionCode": "OU",
+    "function": "3",
+    "lat": 18.583333,
+    "lng": -72.266667
+  },
+  {
+    "locationCode": "TTY",
+    "label": "Ti Tanyin",
+    "subdivisionCode": "OU",
+    "function": "3",
+    "lat": 18.716667,
+    "lng": -72.35
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Turgeau",
+    "subdivisionCode": "OU",
+    "function": "6",
+    "lat": 18.533333,
+    "lng": -72.316667
+  }
+]

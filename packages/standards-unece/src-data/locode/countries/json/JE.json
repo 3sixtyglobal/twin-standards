@@ -1,0 +1,66 @@
+[
+  {
+    "locationCode": "LAF",
+    "label": "La Fosse",
+    "function": "3",
+    "lat": 49.166667,
+    "lng": -2.166667
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Saint Aubin",
+    "function": "13",
+    "lat": 49.183333,
+    "lng": -2.166667
+  },
+  {
+    "locationCode": "SCJ",
+    "label": "Saint Clement",
+    "function": "17",
+    "lat": 49.166667,
+    "lng": -2.066667
+  },
+  {
+    "locationCode": "STH",
+    "label": "Saint Hélier",
+    "labelWithDiacritics": "Saint Helier",
+    "function": "13",
+    "lat": 49.183333,
+    "lng": -2.1
+  },
+  {
+    "locationCode": "SJN",
+    "label": "Saint Johns",
+    "function": "6",
+    "lat": 49.25,
+    "lng": -2.133333
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Saint Peter",
+    "function": "3",
+    "lat": 49.216667,
+    "lng": -2.183333
+  },
+  {
+    "locationCode": "SSV",
+    "label": "Saint Saviour",
+    "function": "6",
+    "lat": 49.183333,
+    "lng": -2.066667
+  },
+  {
+    "locationCode": "JER",
+    "label": "States Apt, Jersey",
+    "function": "4",
+    "lat": 49.2,
+    "lng": -2.183333
+  },
+  {
+    "locationCode": "TTY",
+    "label": "Trinity",
+    "function": "3",
+    "lat": 49.233333,
+    "lng": -2.083333
+  }
+]

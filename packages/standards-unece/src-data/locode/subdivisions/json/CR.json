@@ -1,0 +1,37 @@
+[
+  {
+    "code": "A",
+    "label": "Alajuela",
+    "type": "Province"
+  },
+  {
+    "code": "C",
+    "label": "Cartago",
+    "type": "Province"
+  },
+  {
+    "code": "G",
+    "label": "Guanacaste",
+    "type": "Province"
+  },
+  {
+    "code": "H",
+    "label": "Heredia",
+    "type": "Province"
+  },
+  {
+    "code": "L",
+    "label": "Limón",
+    "type": "Province"
+  },
+  {
+    "code": "P",
+    "label": "Puntarenas",
+    "type": "Province"
+  },
+  {
+    "code": "SJ",
+    "label": "San José",
+    "type": "Province"
+  }
+]

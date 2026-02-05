@@ -1,0 +1,601 @@
+[
+  {
+    "locationCode": "AHB",
+    "label": "Abha",
+    "function": "4"
+  },
+  {
+    "locationCode": "ABQ",
+    "label": "Abqaiq",
+    "function": "3",
+    "lat": 25.933333,
+    "lng": 49.666667
+  },
+  {
+    "locationCode": "DMM",
+    "label": "Ad Dammam",
+    "subdivisionCode": "04",
+    "function": "12345",
+    "lat": 26.5,
+    "lng": 50.2
+  },
+  {
+    "locationCode": "DAW",
+    "label": "Ad Dawadami",
+    "function": "3",
+    "lat": 24.5,
+    "lng": 44.383333
+  },
+  {
+    "locationCode": "ABT",
+    "label": "Al Baha",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Al Bahah",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 20.016667,
+    "lng": 41.466667
+  },
+  {
+    "locationCode": "AHA",
+    "label": "Al Hada",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Al Hadithah",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 31.45,
+    "lng": 37.15
+  },
+  {
+    "locationCode": "ALH",
+    "label": "Al Hasa",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 25.416667,
+    "lng": 49.616667
+  },
+  {
+    "locationCode": "LJW",
+    "label": "Al Jawf",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 18.216667,
+    "lng": 43.183333
+  },
+  {
+    "locationCode": "JBI",
+    "label": "Al Jubayl Industrial City",
+    "function": "13",
+    "lat": 27.083333,
+    "lng": 49.7
+  },
+  {
+    "locationCode": "AKH",
+    "label": "Al Kharj",
+    "subdivisionCode": "01",
+    "function": "34",
+    "lat": 24.133333,
+    "lng": 47.3
+  },
+  {
+    "locationCode": "ALK",
+    "label": "Al Khobar",
+    "function": "1"
+  },
+  {
+    "locationCode": "AQK",
+    "label": "Al Khobar",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 26.283333,
+    "lng": 50.2
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Al Khuraibah",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 28.05,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "AMU",
+    "label": "Al Muajjiz",
+    "function": "1",
+    "lat": 23.466667,
+    "lng": 38.383333
+  },
+  {
+    "locationCode": "QAH",
+    "label": "Al Qahmah",
+    "subdivisionCode": "09",
+    "function": "1",
+    "lat": 18.016667,
+    "lng": 41.666667
+  },
+  {
+    "locationCode": "QUN",
+    "label": "Al Qunfudah",
+    "subdivisionCode": "09",
+    "function": "1",
+    "lat": 19.116667,
+    "lng": 41.066667
+  },
+  {
+    "locationCode": "QRN",
+    "label": "Al Qurainah",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 25.1,
+    "lng": 46.2
+  },
+  {
+    "locationCode": "ASQ",
+    "label": "Al Shuqaiq",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 25.483333,
+    "lng": 49.6
+  },
+  {
+    "locationCode": "AUT",
+    "label": "Al 'Uthmaniyah",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 25.183333,
+    "lng": 49.3
+  },
+  {
+    "locationCode": "ARR",
+    "label": "Ar Rass",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAE",
+    "label": "Arar",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASF",
+    "label": "Asfan",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 21.916667,
+    "lng": 39.366667
+  },
+  {
+    "locationCode": "BDN",
+    "label": "Badanah",
+    "function": "3",
+    "lat": 30.966667,
+    "lng": 41.016667
+  },
+  {
+    "locationCode": "BHH",
+    "label": "Bisha",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Buraydah",
+    "function": "16",
+    "lat": 26.316667,
+    "lng": 43.966667
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Buraydah",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 26.316667,
+    "lng": 43.966667
+  },
+  {
+    "locationCode": "DHA",
+    "label": "Dhahran",
+    "function": "14"
+  },
+  {
+    "locationCode": "FJJ",
+    "label": "Fiji",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 24.266667,
+    "lng": 38.566667
+  },
+  {
+    "locationCode": "ELQ",
+    "label": "Gassim",
+    "function": "4"
+  },
+  {
+    "locationCode": "URY",
+    "label": "Gurayat",
+    "function": "4"
+  },
+  {
+    "locationCode": "HBT",
+    "label": "Hafar al Batin",
+    "function": "34"
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hail",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Harad",
+    "function": "23",
+    "lat": 24.133333,
+    "lng": 49.05
+  },
+  {
+    "locationCode": "HZM",
+    "label": "Hazm Al Jalamid",
+    "function": "3",
+    "lat": 31.266667,
+    "lng": 40.1
+  },
+  {
+    "locationCode": "HOF",
+    "label": "Hofuf",
+    "function": "4"
+  },
+  {
+    "locationCode": "JEC",
+    "label": "Jazan Economic City",
+    "subdivisionCode": "09",
+    "function": "13",
+    "lat": 17.283333,
+    "lng": 42.333333
+  },
+  {
+    "locationCode": "JED",
+    "label": "Jeddah",
+    "subdivisionCode": "02",
+    "function": "145",
+    "lat": 21.466667,
+    "lng": 39.166667
+  },
+  {
+    "locationCode": "JIC",
+    "label": "Jeddah Industrial City 2 & 3",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 21.116667,
+    "lng": 39.283333
+  },
+  {
+    "locationCode": "JYC",
+    "label": "Jeddah Yachts Club Port",
+    "subdivisionCode": "02",
+    "function": "1",
+    "lat": 21.65,
+    "lng": 39.1
+  },
+  {
+    "locationCode": "GIZ",
+    "label": "Jizan",
+    "function": "14",
+    "lat": 16.9,
+    "lng": 42.5
+  },
+  {
+    "locationCode": "AJF",
+    "label": "Jouf",
+    "function": "4"
+  },
+  {
+    "locationCode": "JUT",
+    "label": "Juaymah Terminal",
+    "function": "1",
+    "lat": 26.916667,
+    "lng": 50.016667
+  },
+  {
+    "locationCode": "JUB",
+    "label": "Jubail",
+    "function": "1",
+    "lat": 27.016667,
+    "lng": 49.666667
+  },
+  {
+    "locationCode": "KMX",
+    "label": "Khamis Mushayt",
+    "function": "34"
+  },
+  {
+    "locationCode": "KAC",
+    "label": "King Abdullah City",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 22.4,
+    "lng": 39.083333
+  },
+  {
+    "locationCode": "KFH",
+    "label": "King Fhad",
+    "function": "0"
+  },
+  {
+    "locationCode": "KKH",
+    "label": "King Khalid",
+    "function": "0"
+  },
+  {
+    "locationCode": "LIT",
+    "label": "Lith",
+    "function": "1"
+  },
+  {
+    "locationCode": "MED",
+    "label": "Madinah",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJH",
+    "label": "Majma",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Makkah",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manailih",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUF",
+    "label": "Manfouha",
+    "function": "1"
+  },
+  {
+    "locationCode": "MHY",
+    "label": "Muhayil",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 18.533333,
+    "lng": 42.033333
+  },
+  {
+    "locationCode": "NJN",
+    "label": "Najran",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 17.5,
+    "lng": 44.183333
+  },
+  {
+    "locationCode": "EAM",
+    "label": "Nejran",
+    "function": "4"
+  },
+  {
+    "locationCode": "NEO",
+    "label": "Neom",
+    "subdivisionCode": "14",
+    "function": "123467",
+    "lat": 27.566667,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "DHU",
+    "label": "Port of NEOM",
+    "function": "1",
+    "lat": 27.566667,
+    "lng": 34.55
+  },
+  {
+    "locationCode": "AQI",
+    "label": "Qaisumah",
+    "function": "4"
+  },
+  {
+    "locationCode": "QAL",
+    "label": "Qalsn",
+    "function": "1"
+  },
+  {
+    "locationCode": "QTF",
+    "label": "Qatif",
+    "function": "4"
+  },
+  {
+    "locationCode": "QUR",
+    "label": "Qurayyah",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rabigh",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAH",
+    "label": "Rafha",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAR",
+    "label": "Ras al Khafji",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Ras al Mishab",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAZ",
+    "label": "Ras Al-Khair",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 27.55,
+    "lng": 49.2
+  },
+  {
+    "locationCode": "RTA",
+    "label": "Ras Tanura",
+    "function": "1",
+    "lat": 26.633333,
+    "lng": 50.15
+  },
+  {
+    "locationCode": "RUH",
+    "label": "Riyadh",
+    "subdivisionCode": "01",
+    "function": "45",
+    "lat": 24.633333,
+    "lng": 46.766667
+  },
+  {
+    "locationCode": "RYP",
+    "label": "Riyadh Dry Port",
+    "function": "23",
+    "lat": 24.633333,
+    "lng": 46.733333
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safaniya",
+    "function": "3"
+  },
+  {
+    "locationCode": "SUH",
+    "label": "Salboukh",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salwá",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Salwa",
+    "function": "3"
+  },
+  {
+    "locationCode": "SAY",
+    "label": "Sayhat",
+    "function": "3",
+    "lat": 26.466667,
+    "lng": 50.033333
+  },
+  {
+    "locationCode": "SHD",
+    "label": "Shadqam",
+    "subdivisionCode": "04",
+    "function": "37",
+    "lat": 25.716667,
+    "lng": 49.416667
+  },
+  {
+    "locationCode": "SHW",
+    "label": "Sharurah",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHU",
+    "label": "Shuaibah",
+    "function": "1",
+    "lat": 20.683333,
+    "lng": 39.516667
+  },
+  {
+    "locationCode": "SLF",
+    "label": "Sulayel",
+    "function": "4",
+    "lat": 20.466667,
+    "lng": 45.616667
+  },
+  {
+    "locationCode": "TUU",
+    "label": "Tabuk",
+    "function": "4"
+  },
+  {
+    "locationCode": "TIF",
+    "label": "Taif",
+    "function": "4"
+  },
+  {
+    "locationCode": "TUI",
+    "label": "Turaif",
+    "function": "4"
+  },
+  {
+    "locationCode": "TFZ",
+    "label": "Tusdeer Free Zone",
+    "function": "6",
+    "lat": 21.483333,
+    "lng": 39.15
+  },
+  {
+    "locationCode": "UDH",
+    "label": "Udhailiyah",
+    "function": "3",
+    "lat": 25.133333,
+    "lng": 49.3
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Umm Lajj",
+    "function": "13",
+    "lat": 25.016667,
+    "lng": 37.266667
+  },
+  {
+    "locationCode": "UZH",
+    "label": "Unayzah",
+    "function": "34"
+  },
+  {
+    "locationCode": "WAE",
+    "label": "Wadi ad Dawasir",
+    "function": "34"
+  },
+  {
+    "locationCode": "AWI",
+    "label": "Waisumah",
+    "function": "4"
+  },
+  {
+    "locationCode": "EJH",
+    "label": "Wedjh",
+    "function": "14"
+  },
+  {
+    "locationCode": "YNB",
+    "label": "Yanbu commercial city",
+    "subdivisionCode": "03",
+    "function": "134",
+    "lat": 24.066667,
+    "lng": 38.05
+  },
+  {
+    "locationCode": "YBI",
+    "label": "Yanbu Industrial City",
+    "subdivisionCode": "03",
+    "function": "13",
+    "lat": 23.933333,
+    "lng": 38.25
+  },
+  {
+    "locationCode": "ZUL",
+    "label": "Zilfi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZUY",
+    "label": "Zulayfayn",
+    "function": "1"
+  }
+]

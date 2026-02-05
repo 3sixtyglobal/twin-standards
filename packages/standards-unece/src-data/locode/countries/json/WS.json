@@ -1,0 +1,40 @@
+[
+  {
+    "locationCode": "APW",
+    "label": "Apia",
+    "function": "145"
+  },
+  {
+    "locationCode": "AAU",
+    "label": "Asau",
+    "function": "14"
+  },
+  {
+    "locationCode": "FGI",
+    "label": "Fagali'i Airport",
+    "subdivisionCode": "TU",
+    "function": "4",
+    "lat": -14.166667,
+    "lng": -171.666667
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Lalomalava",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXS",
+    "label": "Maota Savaii Is",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salelologa",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAV",
+    "label": "Savaii",
+    "function": "0"
+  }
+]

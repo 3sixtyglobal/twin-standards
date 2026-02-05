@@ -1,0 +1,46 @@
+[
+  {
+    "locationCode": "EUA",
+    "label": "'Eua Island",
+    "function": "4",
+    "lat": -21.366667,
+    "lng": -174.933333
+  },
+  {
+    "locationCode": "HPA",
+    "label": "Ha'apai",
+    "function": "14"
+  },
+  {
+    "locationCode": "NEI",
+    "label": "Neiafu",
+    "function": "1"
+  },
+  {
+    "locationCode": "NFO",
+    "label": "Niuafo'ou",
+    "function": "4"
+  },
+  {
+    "locationCode": "NTT",
+    "label": "Niuatoputapu",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBU",
+    "label": "Nuku'alofa",
+    "function": "145",
+    "lat": -21.133333,
+    "lng": -175.2
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pangai",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAV",
+    "label": "Vava'u",
+    "function": "4"
+  }
+]

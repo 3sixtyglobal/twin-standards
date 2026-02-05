@@ -1,0 +1,16 @@
+[
+  {
+    "locationCode": "MHQ",
+    "label": "Maarianhamina (Mariehamn)",
+    "function": "14",
+    "lat": 60.1,
+    "lng": 19.95
+  },
+  {
+    "locationCode": "MHQ",
+    "label": "Mariehamn (Maarianhamina)",
+    "function": "14",
+    "lat": 60.1,
+    "lng": 19.95
+  }
+]

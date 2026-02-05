@@ -1,0 +1,47 @@
+[
+  {
+    "code": "B",
+    "label": "Batken",
+    "type": "Region"
+  },
+  {
+    "code": "C",
+    "label": "Chüy",
+    "type": "Region"
+  },
+  {
+    "code": "GB",
+    "label": "Bishkek Shaary",
+    "type": "City"
+  },
+  {
+    "code": "GO",
+    "label": "Osh Shaary",
+    "type": "City"
+  },
+  {
+    "code": "J",
+    "label": "Jalal-Abad",
+    "type": "Region"
+  },
+  {
+    "code": "N",
+    "label": "Naryn",
+    "type": "Region"
+  },
+  {
+    "code": "O",
+    "label": "Osh",
+    "type": "Region"
+  },
+  {
+    "code": "T",
+    "label": "Talas",
+    "type": "Region"
+  },
+  {
+    "code": "Y",
+    "label": "Ysyk-Köl",
+    "type": "Region"
+  }
+]

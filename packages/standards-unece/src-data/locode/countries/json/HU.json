@@ -1,0 +1,6493 @@
+[
+  {
+    "locationCode": "ABA",
+    "label": "Aba",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.033333,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "ABK",
+    "label": "Abadszalok",
+    "subdivisionCode": "JN",
+    "function": "6",
+    "lat": 47.466667,
+    "lng": 20.616667
+  },
+  {
+    "locationCode": "ABB",
+    "label": "Abasár",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Abasar",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 20
+  },
+  {
+    "locationCode": "HAM",
+    "label": "Abaújszántó",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Abaujszanto",
+    "function": "6",
+    "lat": 48.283333,
+    "lng": 21.2
+  },
+  {
+    "locationCode": "GSA",
+    "label": "Abda",
+    "subdivisionCode": "GS",
+    "function": "6",
+    "lat": 47.7,
+    "lng": 173.5
+  },
+  {
+    "locationCode": "ABD",
+    "label": "Abod",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.383333,
+    "lng": 20.783333
+  },
+  {
+    "locationCode": "ABO",
+    "label": "Abony",
+    "subdivisionCode": "PE",
+    "function": "2",
+    "lat": 47.183333,
+    "lng": 20
+  },
+  {
+    "locationCode": "HAY",
+    "label": "Acs",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 47.7,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "ADY",
+    "label": "Adony",
+    "subdivisionCode": "FE",
+    "function": "123",
+    "lat": 47.116667,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "AGE",
+    "label": "Agerdomajor",
+    "function": "2"
+  },
+  {
+    "locationCode": "AGF",
+    "label": "Agfalva",
+    "function": "2",
+    "lat": 47.683333,
+    "lng": 16.516667
+  },
+  {
+    "locationCode": "AGG",
+    "label": "Aggtelek",
+    "function": "3"
+  },
+  {
+    "locationCode": "AJK",
+    "label": "Ajka",
+    "function": "23",
+    "lat": 47.1,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "ATO",
+    "label": "Akasztó",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Akaszto",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alattyán",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Alattyan",
+    "function": "36",
+    "lat": 47.433333,
+    "lng": 20.05
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Albertirsa",
+    "subdivisionCode": "PE",
+    "function": "2",
+    "lat": 47.233333,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "ALG",
+    "label": "Algyo",
+    "subdivisionCode": "CS",
+    "function": "3"
+  },
+  {
+    "locationCode": "AFU",
+    "label": "Almásfüzitó",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Almasfuzito",
+    "function": "123",
+    "lat": 47.7,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "AMS",
+    "label": "Alsomocsolad",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "SNM",
+    "label": "Alsónémedi",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Alsonemedi",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 19.183333
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Alsóörs",
+    "labelWithDiacritics": "Alsoors",
+    "function": "123",
+    "lat": 46.983333,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "ASZ",
+    "label": "Alsozsolca",
+    "subdivisionCode": "BZ",
+    "function": "13",
+    "lat": 48.066667,
+    "lng": 20.883333
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anarcs",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "AND",
+    "label": "Andocs",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 179.333333
+  },
+  {
+    "locationCode": "AKT",
+    "label": "Andornaktálya",
+    "labelWithDiacritics": "Andornaktalya",
+    "function": "123",
+    "lat": 47.833333,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "ADF",
+    "label": "Andrásfa",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Andrasfa",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 16.783333
+  },
+  {
+    "locationCode": "A8Y",
+    "label": "Annavolgy",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "APO",
+    "label": "Áporka",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Aporka",
+    "function": "3",
+    "lat": 47.233333,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "APG",
+    "label": "Apostag",
+    "function": "3"
+  },
+  {
+    "locationCode": "ART",
+    "label": "Artánd",
+    "labelWithDiacritics": "Artand",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Aszar",
+    "subdivisionCode": "BK",
+    "function": "1"
+  },
+  {
+    "locationCode": "AZD",
+    "label": "Aszód",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Aszod",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 19.5
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Bábolna",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Babolna",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 17.966667
+  },
+  {
+    "locationCode": "BCS",
+    "label": "Bácsalmás",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Bacsalmas",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bácsbokod",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Bacsbokod",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 19.166667
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Badacsonyörs",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Badacsonyors",
+    "function": "16",
+    "lat": 46.8,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "BGO",
+    "label": "Bagod",
+    "subdivisionCode": "ZA",
+    "function": "236",
+    "lat": 46.866667,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "KZB",
+    "label": "Baj",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Baja",
+    "subdivisionCode": "BK",
+    "function": "23",
+    "lat": 46.183333,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "BAJ",
+    "label": "Bajánsenye",
+    "labelWithDiacritics": "Bajansenye",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 16.383333
+  },
+  {
+    "locationCode": "BJA",
+    "label": "Bajna",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Bajot",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Bakonysárkány",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Bakonysarkany",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 18.1
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balassagyarmat",
+    "function": "3"
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Balaton",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 20.316667
+  },
+  {
+    "locationCode": "BAD",
+    "label": "Balatonalmadi",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.033333,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Balatonboglár",
+    "labelWithDiacritics": "Balatonboglar",
+    "function": "3",
+    "lat": 46.766667,
+    "lng": 17.666667
+  },
+  {
+    "locationCode": "BUO",
+    "label": "Balatonfuzfo",
+    "subdivisionCode": "VE",
+    "function": "6",
+    "lat": 47.066667,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Balatonfuzfo",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "BAE",
+    "label": "Balatonlelle",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.783333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "BZD",
+    "label": "Balatonoszöd",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Balatonoszod",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "BZO",
+    "label": "Balatonszárszó",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Balatonszarszo",
+    "function": "16",
+    "lat": 46.833333,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "BLF",
+    "label": "Balf",
+    "subdivisionCode": "SN",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 16.666667
+  },
+  {
+    "locationCode": "BZS",
+    "label": "Balmazújváros",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Balmazujvaros",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "BND",
+    "label": "Bank",
+    "subdivisionCode": "NO",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 19.183333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bánréve",
+    "labelWithDiacritics": "Banreve",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "QW2",
+    "label": "Baracska",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.283333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "HAQ",
+    "label": "Barand",
+    "subdivisionCode": "HB",
+    "function": "6",
+    "lat": 47.3,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Barcs",
+    "subdivisionCode": "SO",
+    "function": "6",
+    "lat": 45.95,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "RVK",
+    "label": "Bárdudvarnok",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Bardudvarnok",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bataapati",
+    "subdivisionCode": "TO",
+    "function": "6",
+    "lat": 46.216667,
+    "lng": 72.066667
+  },
+  {
+    "locationCode": "BTY",
+    "label": "Bátonyterenye",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Batonyterenye",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Battonya",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 21.016667
+  },
+  {
+    "locationCode": "BFA",
+    "label": "Becefa",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "BKS",
+    "label": "Bekecs",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "BES",
+    "label": "Békés",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Bekes",
+    "function": "2",
+    "lat": 46.75,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "BEK",
+    "label": "Békéscsaba",
+    "labelWithDiacritics": "Bekescsaba",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "HAP",
+    "label": "Bekesszentandras",
+    "subdivisionCode": "BE",
+    "function": "6",
+    "lat": 46.866667,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "BET",
+    "label": "Békésszentandrás",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Bekesszentandras",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "BPF",
+    "label": "Bélapátfalva",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Belapatfalva",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Beled",
+    "subdivisionCode": "GY",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 17.083333
+  },
+  {
+    "locationCode": "BRC",
+    "label": "Bercel",
+    "subdivisionCode": "NO",
+    "function": "23",
+    "lat": 47.866667,
+    "lng": -19.416667
+  },
+  {
+    "locationCode": "BKF",
+    "label": "Berekfürdo",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Berekfurdo",
+    "function": "3",
+    "lat": 47.383333,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "BED",
+    "label": "Beremend",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "BTF",
+    "label": "Berettyóújfalu",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Berettyoujfalu",
+    "function": "23",
+    "lat": 47.216667,
+    "lng": 21.533333
+  },
+  {
+    "locationCode": "BDA",
+    "label": "Berhida",
+    "subdivisionCode": "VE",
+    "function": "16",
+    "lat": 48.166667,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "BZE",
+    "label": "Berzence",
+    "function": "123",
+    "lat": 46.2,
+    "lng": 17.15
+  },
+  {
+    "locationCode": "BYK",
+    "label": "Besenyotelek",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 20.433333
+  },
+  {
+    "locationCode": "BEZ",
+    "label": "Bezeréd",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Bezered",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 17
+  },
+  {
+    "locationCode": "BTB",
+    "label": "Biatorbágy",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Biatorbagy",
+    "function": "23",
+    "lat": 47.466667,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "BIC",
+    "label": "Bicske",
+    "function": "23",
+    "lat": 47.466667,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "BIH",
+    "label": "Biharkeresztes",
+    "subdivisionCode": "HB",
+    "function": "23",
+    "lat": 47.133333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "BGB",
+    "label": "Biharnagybajom",
+    "subdivisionCode": "HB",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "BRI",
+    "label": "Biri",
+    "subdivisionCode": "SZ",
+    "function": "6",
+    "lat": 47.816667,
+    "lng": 21.85
+  },
+  {
+    "locationCode": "HAO",
+    "label": "Birjan",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": 45.983333,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Bocs",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 48.033333,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bocsa",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 19.5
+  },
+  {
+    "locationCode": "BJK",
+    "label": "Bodajk",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "BGZ",
+    "label": "Bodrogkeresztúr",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Bodrogkeresztur",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "RRV",
+    "label": "Bodrogkisfalud",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "HAI",
+    "label": "Bokros",
+    "subdivisionCode": "CS",
+    "function": "6",
+    "lat": 46.75,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "BCE",
+    "label": "Bölcske",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Bolcske",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bóly",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Boly",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Bony",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "BON",
+    "label": "Bonyhád",
+    "labelWithDiacritics": "Bonyhad",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "BOH",
+    "label": "Börcs",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Borcs",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "BOJ",
+    "label": "Borjad",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "BOD",
+    "label": "Borsod",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.316667,
+    "lng": 20.75
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Borsodnádasd",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Borsodnadasd",
+    "function": "3",
+    "lat": 48.116667,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "BSK",
+    "label": "Borsodszirák",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Borsodszirak",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "BOK",
+    "label": "Bosárkány",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Bosarkany",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Botykapeterd",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": 46.05,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "BUC",
+    "label": "Bucsu",
+    "function": "3"
+  },
+  {
+    "locationCode": "BKL",
+    "label": "Budakalász",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Budakalasz",
+    "function": "6",
+    "lat": 47.616667,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "ESZ",
+    "label": "Budakeszi",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.516667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "BUA",
+    "label": "Budaörs",
+    "labelWithDiacritics": "Budaors",
+    "function": "23",
+    "lat": 47.45,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "BUD",
+    "label": "Budapest",
+    "subdivisionCode": "BU",
+    "function": "12345",
+    "lat": 47.5,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Bugyi",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.216667,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "BUE",
+    "label": "Bük",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Buk",
+    "function": "3",
+    "lat": 47.383333,
+    "lng": 16.75
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Bük",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Buk",
+    "function": "3",
+    "lat": 47.383333,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "BU2",
+    "label": "Bükkösd",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Bukkosd",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "CEG",
+    "label": "Cegléd",
+    "labelWithDiacritics": "Cegled",
+    "function": "3",
+    "lat": 47.166667,
+    "lng": 19.8
+  },
+  {
+    "locationCode": "CEL",
+    "label": "Celldömölk",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Celldomolk",
+    "function": "23",
+    "lat": 47.25,
+    "lng": 17.15
+  },
+  {
+    "locationCode": "2NJ",
+    "label": "Cibakháza",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Cibakhaza",
+    "function": "3",
+    "lat": 46.966667,
+    "lng": 20.2
+  },
+  {
+    "locationCode": "CDP",
+    "label": "Csanadapaca",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 20.883333
+  },
+  {
+    "locationCode": "CSA",
+    "label": "Csaszar",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.5,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "CST",
+    "label": "Császártöltés",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Csaszartoltes",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 19.183333
+  },
+  {
+    "locationCode": "CVY",
+    "label": "Csávoly",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Csavoly",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "CDE",
+    "label": "Csegold",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 47.9,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "CSB",
+    "label": "Csehbánya",
+    "subdivisionCode": "VM",
+    "labelWithDiacritics": "Csehbanya",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Csemo",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.116667,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "CGE",
+    "label": "Csenger",
+    "function": "236",
+    "lat": 47.833333,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "CSE",
+    "label": "Csengersima",
+    "function": "3"
+  },
+  {
+    "locationCode": "CND",
+    "label": "Csengod",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.716667,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "CPE",
+    "label": "Csepel",
+    "subdivisionCode": "PE",
+    "function": "13",
+    "lat": 47.416667,
+    "lng": 19.066667
+  },
+  {
+    "locationCode": "CSP",
+    "label": "Csepreg",
+    "subdivisionCode": "VA",
+    "function": "23",
+    "lat": 47.4,
+    "lng": 16.716667
+  },
+  {
+    "locationCode": "CSD",
+    "label": "Cserszegtomaj",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 17.216667
+  },
+  {
+    "locationCode": "CSZ",
+    "label": "Csesztreg",
+    "subdivisionCode": "ZA",
+    "function": "6",
+    "lat": 47.166667,
+    "lng": 16.866667
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Csévharaszt",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Csevharaszt",
+    "function": "6",
+    "lat": 47.3,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "CKY",
+    "label": "Csokvaomany",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 20.383333
+  },
+  {
+    "locationCode": "CSY",
+    "label": "Csólyospálos",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Csolyospalos",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "CMD",
+    "label": "Csomád",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Csomad",
+    "function": "3",
+    "lat": 47.666667,
+    "lng": 19.233333
+  },
+  {
+    "locationCode": "CMR",
+    "label": "Csömör",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Csomor",
+    "function": "123",
+    "lat": 47.55,
+    "lng": 19.233333
+  },
+  {
+    "locationCode": "CGD",
+    "label": "Csongrad",
+    "function": "3"
+  },
+  {
+    "locationCode": "CSO",
+    "label": "Csorna",
+    "subdivisionCode": "GS",
+    "function": "23",
+    "lat": 47.6,
+    "lng": 17.233333
+  },
+  {
+    "locationCode": "CSV",
+    "label": "Csorvas",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 20.8
+  },
+  {
+    "locationCode": "8TW",
+    "label": "Csót",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Csot",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "C4S",
+    "label": "Csovár",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Csovar",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "CSU",
+    "label": "Csurgo",
+    "subdivisionCode": "SO",
+    "function": "23",
+    "lat": 46.266667,
+    "lng": 17.083333
+  },
+  {
+    "locationCode": "HAC",
+    "label": "Dabas",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.183333,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "DZT",
+    "label": "Dánszentmiklós",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Danszentmiklos",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 19.55
+  },
+  {
+    "locationCode": "DAY",
+    "label": "Dány",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Dany",
+    "function": "3",
+    "lat": 47.516667,
+    "lng": 19.55
+  },
+  {
+    "locationCode": "DEB",
+    "label": "Debrecen",
+    "function": "14"
+  },
+  {
+    "locationCode": "DES",
+    "label": "Decs",
+    "subdivisionCode": "TO",
+    "function": "3",
+    "lat": 46.466667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "DZK",
+    "label": "Deszk",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 20.25
+  },
+  {
+    "locationCode": "DVV",
+    "label": "Devavanya",
+    "subdivisionCode": "BE",
+    "function": "6",
+    "lat": 47.033333,
+    "lng": 20.966667
+  },
+  {
+    "locationCode": "DEV",
+    "label": "Devecser",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "DIO",
+    "label": "Diósd",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Diosd",
+    "function": "3",
+    "lat": 47.4,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dombóvár",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Dombovar",
+    "function": "23",
+    "lat": 46.366667,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "DRG",
+    "label": "Dorog",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.716667,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Drávaszabolcs",
+    "labelWithDiacritics": "Dravaszabolcs",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 18.216667
+  },
+  {
+    "locationCode": "DGP",
+    "label": "Drégelypalánk",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Dregelypalank",
+    "function": "6",
+    "lat": 48.05,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "DDA",
+    "label": "Dudar",
+    "function": "36",
+    "lat": 47.316667,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "DKE",
+    "label": "Dunaalmás",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Dunaalmas",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Dunabogdány",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Dunabogdany",
+    "function": "3",
+    "lat": 47.783333,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "DFV",
+    "label": "Dunaföldvár",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Dunafoldvar",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "DSZ",
+    "label": "Dunaharaszti",
+    "function": "0"
+  },
+  {
+    "locationCode": "DKZ",
+    "label": "Dunakeszi",
+    "function": "0"
+  },
+  {
+    "locationCode": "DKI",
+    "label": "Dunakiliti",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 17.283333
+  },
+  {
+    "locationCode": "DPA",
+    "label": "Dunapataj",
+    "subdivisionCode": "BK",
+    "function": "123",
+    "lat": 46.616667,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "DRE",
+    "label": "Dunaremete",
+    "subdivisionCode": "GS",
+    "function": "13",
+    "lat": 47.883333,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "DUS",
+    "label": "Dunaszentbenedek",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "DUZ",
+    "label": "Dunaszentmiklós",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Dunaszentmiklos",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "DUU",
+    "label": "Dunaújváros",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Dunaujvaros",
+    "function": "123",
+    "lat": 46.966667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "DUK",
+    "label": "Dunavarsány",
+    "labelWithDiacritics": "Dunavarsany",
+    "function": "23",
+    "lat": 47.283333,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "DVE",
+    "label": "Dunavecse",
+    "subdivisionCode": "BK",
+    "function": "123",
+    "lat": 46.916667,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "DUO",
+    "label": "Dusnok",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 16.95
+  },
+  {
+    "locationCode": "EBS",
+    "label": "Ebes",
+    "subdivisionCode": "HB",
+    "function": "1",
+    "lat": 47.466667,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "ECR",
+    "label": "Ecser",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "EGR",
+    "label": "Eger",
+    "function": "0"
+  },
+  {
+    "locationCode": "EGE",
+    "label": "Egerszalok",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 20.333333
+  },
+  {
+    "locationCode": "EGY",
+    "label": "Egyházasdengeleg",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Egyhazasdengeleg",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "ELK",
+    "label": "Elek",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "ENC",
+    "label": "Encs",
+    "subdivisionCode": "BZ",
+    "function": "2",
+    "lat": 48.333333,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "EDF",
+    "label": "Endrefalva",
+    "subdivisionCode": "NO",
+    "function": "23",
+    "lat": 48.133333,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "ENY",
+    "label": "Enying",
+    "subdivisionCode": "FE",
+    "function": "6",
+    "lat": 46.933333,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "EPE",
+    "label": "Eperjeske",
+    "function": "2"
+  },
+  {
+    "locationCode": "ERC",
+    "label": "Ercsi",
+    "subdivisionCode": "FE",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Erd",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.366667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "ERD",
+    "label": "Erdobenye",
+    "subdivisionCode": "BZ",
+    "function": "16",
+    "lat": 48.266667,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "RDE",
+    "label": "Erdokertes",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.666667,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "EEK",
+    "label": "Erdotelek",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 20.316667
+  },
+  {
+    "locationCode": "ESD",
+    "label": "Ersekcsanad",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 45.25,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "EXH",
+    "label": "Érsekhalma",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Ersekhalma",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 19.116667
+  },
+  {
+    "locationCode": "EST",
+    "label": "Esztergom",
+    "function": "1"
+  },
+  {
+    "locationCode": "ETY",
+    "label": "Etyek",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 18.75
+  },
+  {
+    "locationCode": "FAC",
+    "label": "Fácánkert",
+    "labelWithDiacritics": "Facankert",
+    "function": "23",
+    "lat": 46.45,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "FKY",
+    "label": "Farkaslyuk",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 20.316667
+  },
+  {
+    "locationCode": "HAV",
+    "label": "Farmos",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.366667,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "FGA",
+    "label": "Fehérgyarmat",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Fehergyarmat",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Felcsut",
+    "subdivisionCode": "FE",
+    "function": "6",
+    "lat": 47.45,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "FEL",
+    "label": "Felsolajos",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "FNY",
+    "label": "Felsönyék",
+    "labelWithDiacritics": "Felsonyek",
+    "function": "236",
+    "lat": 46.783333,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Felsopakony",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.35,
+    "lng": 19.25
+  },
+  {
+    "locationCode": "FOS",
+    "label": "Felsoszenterzsébet",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Felsoszenterzsebet",
+    "function": "3",
+    "lat": 46.75,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "FTK",
+    "label": "Felsotarkany",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "FZC",
+    "label": "Felsozsolca",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 20.866667
+  },
+  {
+    "locationCode": "FKE",
+    "label": "Fenyeslitke",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "FVS",
+    "label": "Ferencvaros",
+    "subdivisionCode": "PE",
+    "function": "13",
+    "lat": 47.466667,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "FEO",
+    "label": "Fertöd",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Fertod",
+    "function": "3",
+    "lat": 47.566667,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "FZS",
+    "label": "Fertoszentmiklós",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Fertoszentmiklos",
+    "function": "3",
+    "lat": 47.583333,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "FER",
+    "label": "Fertöújlak",
+    "labelWithDiacritics": "Fertoujlak",
+    "function": "23",
+    "lat": 47.683333,
+    "lng": 16.866667
+  },
+  {
+    "locationCode": "FEZ",
+    "label": "Fertrszentmiklós",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Fertrszentmiklos",
+    "function": "3",
+    "lat": 47.566667,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "FKT",
+    "label": "Fokto",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "FON",
+    "label": "Fonyód",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Fonyod",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 17.55
+  },
+  {
+    "locationCode": "FRR",
+    "label": "Forráskút",
+    "subdivisionCode": "CS",
+    "labelWithDiacritics": "Forraskut",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "FOT",
+    "label": "Fót",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Fot",
+    "function": "23",
+    "lat": 47.616667,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "FUY",
+    "label": "Fuezesabony",
+    "subdivisionCode": "HE",
+    "function": "6",
+    "lat": 48.25,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "FUO",
+    "label": "Fügöd",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Fugod",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Fuzesabony",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 47.75,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "FYZ",
+    "label": "Füzesgyarmat",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Fuzesgyarmat",
+    "function": "23",
+    "lat": 47.1,
+    "lng": 21.216667
+  },
+  {
+    "locationCode": "FYT",
+    "label": "Füzfögyártelep",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Fuzfogyartelep",
+    "function": "3",
+    "lat": 47.083333,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "GDY",
+    "label": "Gárdony",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Gardony",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "VCS",
+    "label": "Gávavencsello",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Gavavencsello",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "GCS",
+    "label": "Gecse",
+    "subdivisionCode": "VM",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "HAW",
+    "label": "Gelej",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 47.833333,
+    "lng": 20.783333
+  },
+  {
+    "locationCode": "GER",
+    "label": "Gerendás",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Gerendas",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRL",
+    "label": "Gerla",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.7,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "OOD",
+    "label": "Göd",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "God",
+    "function": "13",
+    "lat": 47.7,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "GDL",
+    "label": "Gödöllö",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Godollo",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 19.366667
+  },
+  {
+    "locationCode": "GOA",
+    "label": "Gógánfa",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Goganfa",
+    "function": "236",
+    "lat": 47.016667,
+    "lng": 17.183333
+  },
+  {
+    "locationCode": "GOM",
+    "label": "Gomba",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 19.533333
+  },
+  {
+    "locationCode": "GNY",
+    "label": "Gónyú",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Gonyu",
+    "function": "13",
+    "lat": 47.733333,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Görbeháza",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Gorbehaza",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Görgeteg",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Gorgeteg",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "GYL",
+    "label": "Gyál",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Gyal",
+    "function": "23",
+    "lat": 47.383333,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "GYE",
+    "label": "Gyekenyes",
+    "function": "2"
+  },
+  {
+    "locationCode": "GYH",
+    "label": "Gyomaendrod",
+    "function": "3"
+  },
+  {
+    "locationCode": "GYR",
+    "label": "Gyömrö",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Gyomro",
+    "function": "2",
+    "lat": 47.416667,
+    "lng": 19.4
+  },
+  {
+    "locationCode": "GGY",
+    "label": "Gyöngyös",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Gyongyos",
+    "function": "23",
+    "lat": 47.783333,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "GGZ",
+    "label": "Gyöngyöshalász",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Gyongyoshalasz",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "GLM",
+    "label": "Gyongyossolymos",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "GYJ",
+    "label": "Gyöngyöstárjan",
+    "labelWithDiacritics": "Gyongyostarjan",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 19.866667
+  },
+  {
+    "locationCode": "GYO",
+    "label": "Gyor",
+    "subdivisionCode": "GS",
+    "function": "12",
+    "lat": 47.683333,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "GYD",
+    "label": "Györladamér",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Gyorladamer",
+    "function": "3",
+    "lat": 47.75,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "GYZ",
+    "label": "Gyorszemere",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.55,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "GYU",
+    "label": "Gyula",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAJ",
+    "label": "Hajdúböszörmény",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Hajduboszormeny",
+    "function": "3",
+    "lat": 47.666667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "HDR",
+    "label": "Hajdúnánás",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Hajdunanas",
+    "function": "3",
+    "lat": 47.85,
+    "lng": 21.433333
+  },
+  {
+    "locationCode": "HJS",
+    "label": "Hajdúsámson",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Hajdusamson",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "HSZ",
+    "label": "Hajdúszoboszló",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Hajduszoboszlo",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "HJM",
+    "label": "Hajmáskér",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Hajmasker",
+    "function": "3",
+    "lat": 47.15,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "AJS",
+    "label": "Hajos",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 19.116667
+  },
+  {
+    "locationCode": "GHH",
+    "label": "Halászi",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Halaszi",
+    "function": "3",
+    "lat": 47.883333,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "HAB",
+    "label": "Halásztelek",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Halasztelek",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halásztelek",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Halasztelek",
+    "function": "13",
+    "lat": 47.366667,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "HKY",
+    "label": "Harkany",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "HRT",
+    "label": "Harta",
+    "subdivisionCode": "BK",
+    "function": "1",
+    "lat": 46.683333,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "HRY",
+    "label": "Hater",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatvan",
+    "function": "0"
+  },
+  {
+    "locationCode": "HEG",
+    "label": "Hegyeshalom",
+    "function": "23"
+  },
+  {
+    "locationCode": "HYF",
+    "label": "Hegyfalu",
+    "subdivisionCode": "VA",
+    "function": "16",
+    "lat": 47.35,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "HE5",
+    "label": "Hegymagas",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "HJB",
+    "label": "Hejobába",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Hejobaba",
+    "function": "3",
+    "lat": 47.9,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "HAX",
+    "label": "Hejokurt",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 47.866667,
+    "lng": 21
+  },
+  {
+    "locationCode": "HCD",
+    "label": "Hencida",
+    "subdivisionCode": "HB",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 21.7
+  },
+  {
+    "locationCode": "HGO",
+    "label": "Herceghalom",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.5,
+    "lng": 18.75
+  },
+  {
+    "locationCode": "HER",
+    "label": "Hercegszántó",
+    "labelWithDiacritics": "Hercegszanto",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "HGN",
+    "label": "Hernád",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Hernad",
+    "function": "3",
+    "lat": 47.166667,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "HEV",
+    "label": "Heves",
+    "subdivisionCode": "HE",
+    "function": "236",
+    "lat": 47.6,
+    "lng": 20.283333
+  },
+  {
+    "locationCode": "HEZ",
+    "label": "Heviz",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.783333,
+    "lng": 17.183333
+  },
+  {
+    "locationCode": "HIS",
+    "label": "Hidasnémeti",
+    "labelWithDiacritics": "Hidasnemeti",
+    "function": "2",
+    "lat": 48.5,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "HDM",
+    "label": "Hódmezovásárhely",
+    "subdivisionCode": "CS",
+    "labelWithDiacritics": "Hodmezovasarhely",
+    "function": "23",
+    "lat": 46.416667,
+    "lng": 20.333333
+  },
+  {
+    "locationCode": "HRZ",
+    "label": "Hort",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 19.783333
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Hosszúpereszteg",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Hosszupereszteg",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "BRY",
+    "label": "Ibrány",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Ibrany",
+    "function": "3",
+    "lat": 48.133333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "IGA",
+    "label": "Igal",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 17.95
+  },
+  {
+    "locationCode": "IGI",
+    "label": "Igrici",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 20.883333
+  },
+  {
+    "locationCode": "ILD",
+    "label": "Iklad",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.666667,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "IGY",
+    "label": "Imrehegy",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "INA",
+    "label": "Inárcs",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Inarcs",
+    "function": "3",
+    "lat": 47.266667,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "IPO",
+    "label": "Ipolytarnóc",
+    "labelWithDiacritics": "Ipolytarnoc",
+    "function": "23",
+    "lat": 48.233333,
+    "lng": 19.633333
+  },
+  {
+    "locationCode": "IPS",
+    "label": "Ipolytölgyes",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Ipolytolgyes",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Isaszeg",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.533333,
+    "lng": 19.4
+  },
+  {
+    "locationCode": "IZY",
+    "label": "Iszkaszentgyörgy",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Iszkaszentgyorgy",
+    "function": "6",
+    "lat": 47.233333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "IVA",
+    "label": "Ivan",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 16.916667
+  },
+  {
+    "locationCode": "IVS",
+    "label": "Iváncsa",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Ivancsa",
+    "function": "3",
+    "lat": 47.15,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "IZK",
+    "label": "Izsák",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Izsak",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "BZI",
+    "label": "Izsofalva",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 48.3,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "VJA",
+    "label": "Jákfa",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Jakfa",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 16.966667
+  },
+  {
+    "locationCode": "JAO",
+    "label": "Jánoshalma",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Janoshalma",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "JHA",
+    "label": "Jánosháza",
+    "labelWithDiacritics": "Janoshaza",
+    "function": "23",
+    "lat": 47.116667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "JAN",
+    "label": "Jánossomorja",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Janossomorja",
+    "function": "23",
+    "lat": 47.8,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "JSZ",
+    "label": "Jászapáti",
+    "labelWithDiacritics": "Jaszapati",
+    "function": "23",
+    "lat": 47.5,
+    "lng": 20.15
+  },
+  {
+    "locationCode": "JKZ",
+    "label": "Jászárokszállás",
+    "labelWithDiacritics": "Jaszarokszallas",
+    "function": "123",
+    "lat": 47.633333,
+    "lng": 19.966667
+  },
+  {
+    "locationCode": "JAS",
+    "label": "Jászberény",
+    "labelWithDiacritics": "Jaszbereny",
+    "function": "23",
+    "lat": 47.483333,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "JAF",
+    "label": "Jászfényszaru",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Jaszfenyszaru",
+    "function": "23",
+    "lat": 47.566667,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "LEK",
+    "label": "Jásztelek",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Jasztelek",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 20
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kaba",
+    "subdivisionCode": "HB",
+    "function": "23",
+    "lat": 47.35,
+    "lng": 21.283333
+  },
+  {
+    "locationCode": "KDK",
+    "label": "Kadarkut",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "KJZ",
+    "label": "Kajaszo",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kál",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Kal",
+    "function": "3",
+    "lat": 47.716667,
+    "lng": 20.25
+  },
+  {
+    "locationCode": "KCO",
+    "label": "Kalocsa",
+    "subdivisionCode": "BK",
+    "function": "123",
+    "lat": 46.516667,
+    "lng": 19
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kaposfo",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "KPK",
+    "label": "Kaposújlak",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Kaposujlak",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kaposvár",
+    "labelWithDiacritics": "Kaposvar",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "KPT",
+    "label": "Káptalantóti",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Kaptalantoti",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 17.516667
+  },
+  {
+    "locationCode": "KVP",
+    "label": "Kapuvár",
+    "labelWithDiacritics": "Kapuvar",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 17.033333
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karcag",
+    "subdivisionCode": "JN",
+    "function": "123",
+    "lat": 47.3,
+    "lng": 20.916667
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kartal",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.666667,
+    "lng": 19.55
+  },
+  {
+    "locationCode": "CSK",
+    "label": "Kaszok",
+    "subdivisionCode": "BK",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Kazincbarcika",
+    "subdivisionCode": "BZ",
+    "function": "23",
+    "lat": 48.25,
+    "lng": 20.65
+  },
+  {
+    "locationCode": "XEL",
+    "label": "Kecel",
+    "subdivisionCode": "BK",
+    "function": "16"
+  },
+  {
+    "locationCode": "CKS",
+    "label": "Kecskéd",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Kecsked",
+    "function": "3",
+    "lat": 47.516667,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "KCS",
+    "label": "Kecskemet",
+    "function": "0"
+  },
+  {
+    "locationCode": "KKU",
+    "label": "Kekkut",
+    "subdivisionCode": "VE",
+    "function": "16",
+    "lat": 46.85,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kelebia",
+    "function": "2"
+  },
+  {
+    "locationCode": "VES",
+    "label": "Kemeneshogyész",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Kemeneshogyesz",
+    "function": "3",
+    "lat": 47.35,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kemeneskápolna",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Kemeneskapolna",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "KMS",
+    "label": "Kemenessömjén",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Kemenessomjen",
+    "function": "3",
+    "lat": 47.3,
+    "lng": 17.133333
+  },
+  {
+    "locationCode": "KGY",
+    "label": "Kerekegyháza",
+    "labelWithDiacritics": "Kerekegyhaza",
+    "function": "3",
+    "lat": 46.933333,
+    "lng": 19.483333
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Kereki",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Kerepes",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.533333,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "KPE",
+    "label": "Kerepestarcsa",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.566667,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kernye",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "KEZ",
+    "label": "Keszthely",
+    "subdivisionCode": "ZA",
+    "function": "23",
+    "lat": 46.766667,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "KET",
+    "label": "Ketegyhaza",
+    "subdivisionCode": "BE",
+    "function": "13"
+  },
+  {
+    "locationCode": "KHY",
+    "label": "Kéthely",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Kethely",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "KVE",
+    "label": "Kevermes",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimle",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.833333,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Királd",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Kirald",
+    "function": "23",
+    "lat": 48.25,
+    "lng": 20.4
+  },
+  {
+    "locationCode": "KBJ",
+    "label": "Kisbajcs",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.75,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "KBO",
+    "label": "Kisbajom",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "KBR",
+    "label": "Kisber",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 47.5,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "KGD",
+    "label": "Kisigmánd",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Kisigmand",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 18.1
+  },
+  {
+    "locationCode": "KKS",
+    "label": "Kiskõrös",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Kiskoros",
+    "function": "23",
+    "lat": 46.616667,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "KPD",
+    "label": "Kiskorpád",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Kiskorpad",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kiskunfélegyháza",
+    "labelWithDiacritics": "Kiskunfelegyhaza",
+    "function": "3",
+    "lat": 46.716667,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Kiskunhalas",
+    "function": "0"
+  },
+  {
+    "locationCode": "ZHA",
+    "label": "Kiskunlacháza",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Kiskunlachaza",
+    "function": "6",
+    "lat": 47.2,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "ZHK",
+    "label": "Kiskunlacháza",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Kiskunlachaza",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "KMJ",
+    "label": "Kiskunmajsa",
+    "function": "36",
+    "lat": 46.483333,
+    "lng": 13.733333
+  },
+  {
+    "locationCode": "KSJ",
+    "label": "Kismarj",
+    "subdivisionCode": "HB",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kistarcsa",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.533333,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "KLK",
+    "label": "Kistelek",
+    "subdivisionCode": "CS",
+    "function": "23",
+    "lat": 46.466667,
+    "lng": 19.966667
+  },
+  {
+    "locationCode": "KTJ",
+    "label": "Kistokaj",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "KJA",
+    "label": "Kisújszállás",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Kisujszallas",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kisvárda",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Kisvarda",
+    "function": "123",
+    "lat": 48.216667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "KZR",
+    "label": "Kiszombor",
+    "subdivisionCode": "CS",
+    "function": "6",
+    "lat": 46.183333,
+    "lng": 20.433333
+  },
+  {
+    "locationCode": "KSR",
+    "label": "Kocsér",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Kocser",
+    "function": "6",
+    "lat": 47,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kóka",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Koka",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komárom",
+    "labelWithDiacritics": "Komarom",
+    "function": "123",
+    "lat": 47.733333,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Komló",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Komlo",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "KML",
+    "label": "Kömlo",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Komlo",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 20.45
+  },
+  {
+    "locationCode": "KLM",
+    "label": "Komlóska",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Komloska",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "KMO",
+    "label": "Komoró",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Komoro",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "KZA",
+    "label": "Kópháza",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Kophaza",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 16.65
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Körmend",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Kormend",
+    "function": "123",
+    "lat": 47.016667,
+    "lng": 16.6
+  },
+  {
+    "locationCode": "HAG",
+    "label": "Környe",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Kornye",
+    "function": "36",
+    "lat": 47.55,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Koroncó",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Koronco",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "KSD",
+    "label": "Körösladány",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Korosladany",
+    "function": "23",
+    "lat": 46.966667,
+    "lng": 21.083333
+  },
+  {
+    "locationCode": "KOZ",
+    "label": "Koszárhegy",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Koszarhegy",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Koszeg",
+    "function": "23",
+    "lat": 47.383333,
+    "lng": 16.383333
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kötegyán",
+    "labelWithDiacritics": "Kotegyan",
+    "function": "23",
+    "lat": 46.733333,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "KZL",
+    "label": "Kovagoszolos",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "KOV",
+    "label": "Köveskál",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Koveskal",
+    "function": "3",
+    "lat": 46.883333,
+    "lng": 17.6
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Kozármisleny",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Kozarmisleny",
+    "function": "3",
+    "lat": 46.033333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "KS8",
+    "label": "Kulcs",
+    "subdivisionCode": "FE",
+    "function": "6",
+    "lat": 47.05,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "KFR",
+    "label": "Kunfehértó",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Kunfeherto",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kunhegyes",
+    "subdivisionCode": "JN",
+    "function": "23",
+    "lat": 47.366667,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "KMD",
+    "label": "Kunmadaras",
+    "subdivisionCode": "JN",
+    "function": "23",
+    "lat": 47.416667,
+    "lng": 20.783333
+  },
+  {
+    "locationCode": "KSZ",
+    "label": "Kunszallas",
+    "subdivisionCode": "BK",
+    "function": "6",
+    "lat": 46.766667,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "KZT",
+    "label": "Kunszentmárton",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Kunszentmarton",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 20.283333
+  },
+  {
+    "locationCode": "KZM",
+    "label": "Kunszentmiklós",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Kunszentmiklos",
+    "function": "3",
+    "lat": 47.033333,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "HZG",
+    "label": "Kunsziget",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 17.516667
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Lábatlan",
+    "labelWithDiacritics": "Labatlan",
+    "function": "123",
+    "lat": 47.75,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Lábod",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Labod",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "LMY",
+    "label": "Lágymányos",
+    "labelWithDiacritics": "Lagymanyos",
+    "function": "123",
+    "lat": 47.466667,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "LAJ",
+    "label": "Lajosmizse",
+    "subdivisionCode": "BK",
+    "function": "2",
+    "lat": 47.016667,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Lakhegy",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.916667,
+    "lng": 16.866667
+  },
+  {
+    "locationCode": "LAI",
+    "label": "Lakihegy",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "LKK",
+    "label": "Lakitelek",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 19.983333
+  },
+  {
+    "locationCode": "LT9",
+    "label": "Látrány",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Latrany",
+    "function": "3",
+    "lat": 46.75,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "LYF",
+    "label": "Leányfalu",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Leanyfalu",
+    "function": "3",
+    "lat": 47.716667,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "LNR",
+    "label": "Leanyvar",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 48.133333,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "LBY",
+    "label": "Lebeny",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "LYI",
+    "label": "Lengyeltóti",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Lengyeltoti",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "LEN",
+    "label": "Lenti",
+    "subdivisionCode": "ZA",
+    "function": "6",
+    "lat": 46.616667,
+    "lng": 16.533333
+  },
+  {
+    "locationCode": "LES",
+    "label": "Lesencetom",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "LET",
+    "label": "Letenye",
+    "function": "3"
+  },
+  {
+    "locationCode": "LTR",
+    "label": "Litér",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Liter",
+    "function": "23",
+    "lat": 47.1,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "LOK",
+    "label": "Lokösháza",
+    "labelWithDiacritics": "Lokoshaza",
+    "function": "23",
+    "lat": 46.416667,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "LRC",
+    "label": "Lörinci",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Lorinci",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 19.683333
+  },
+  {
+    "locationCode": "FE3",
+    "label": "Lovasberény",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Lovasbereny",
+    "function": "3",
+    "lat": 47.3,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "LVA",
+    "label": "Lovászi",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Lovaszi",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 16.566667
+  },
+  {
+    "locationCode": "LZA",
+    "label": "Lovászpatona",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Lovaszpatona",
+    "function": "3",
+    "lat": 47.433333,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "LOV",
+    "label": "Lövo",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Lovo",
+    "function": "3",
+    "lat": 47.5,
+    "lng": 16.783333
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Lukácsháza",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Lukacshaza",
+    "function": "3"
+  },
+  {
+    "locationCode": "MDA",
+    "label": "Mad",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 21.283333
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madocsa",
+    "subdivisionCode": "TO",
+    "function": "23",
+    "lat": 46.683333,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "MGD",
+    "label": "Maglod",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.45,
+    "lng": 19.366667
+  },
+  {
+    "locationCode": "MGO",
+    "label": "Mágocs",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Magocs",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "MYH",
+    "label": "Magyarbánhegyes",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Magyarbanhegyes",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "MGB",
+    "label": "Magyarbóly",
+    "labelWithDiacritics": "Magyarboly",
+    "function": "2",
+    "lat": 45.85,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "MGF",
+    "label": "Magyarfalva",
+    "function": "2"
+  },
+  {
+    "locationCode": "MJA",
+    "label": "Majoshaza",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.266667,
+    "lng": 19
+  },
+  {
+    "locationCode": "MKO",
+    "label": "Mako",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "MAY",
+    "label": "Malyi",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 20.833333
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Mandok",
+    "subdivisionCode": "SZ",
+    "function": "6",
+    "lat": 48.316667,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "MNY",
+    "label": "Mány",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Many",
+    "function": "3",
+    "lat": 47.533333,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marcali",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 17.4
+  },
+  {
+    "locationCode": "2ZS",
+    "label": "Máriapócs",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Mariapocs",
+    "function": "3",
+    "lat": 47.883333,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "MTY",
+    "label": "Mártély",
+    "subdivisionCode": "CS",
+    "labelWithDiacritics": "Martely",
+    "function": "13",
+    "lat": 46.483333,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "MFE",
+    "label": "Martfü",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Martfu",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 20.266667
+  },
+  {
+    "locationCode": "MNR",
+    "label": "Martonvásár",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Martonvasar",
+    "function": "6",
+    "lat": 47.3,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Mátészalka",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Mateszalka",
+    "function": "2",
+    "lat": 47.95,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Mecseknádasd",
+    "labelWithDiacritics": "Mecseknadasd",
+    "function": "13",
+    "lat": 46.216667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "MED",
+    "label": "Medgyesegyhaza",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.5,
+    "lng": 21.033333
+  },
+  {
+    "locationCode": "MEH",
+    "label": "Méhkerék",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Mehkerek",
+    "function": "3",
+    "lat": 46.783333,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "BKR",
+    "label": "Mélykut",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Melykut",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "MND",
+    "label": "Mende",
+    "subdivisionCode": "PE",
+    "function": "23",
+    "lat": 47.416667,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "MET",
+    "label": "Mesteri",
+    "subdivisionCode": "VA",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 17.083333
+  },
+  {
+    "locationCode": "MZY",
+    "label": "Mezöberény",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Mezobereny",
+    "function": "2",
+    "lat": 46.816667,
+    "lng": 21.016667
+  },
+  {
+    "locationCode": "MZF",
+    "label": "Mezofalva",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 46.933333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "MZZ",
+    "label": "Mezokeresztes",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 20.683333
+  },
+  {
+    "locationCode": "MZK",
+    "label": "Mezokomárom",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Mezokomarom",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "MKS",
+    "label": "Mezokovácsháza",
+    "labelWithDiacritics": "Mezokovacshaza",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 20.883333
+  },
+  {
+    "locationCode": "MEZ",
+    "label": "Mezokövesd",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Mezokovesd",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 20.583333
+  },
+  {
+    "locationCode": "VEZ",
+    "label": "Mezolak",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "MZO",
+    "label": "Mezõtúr",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Mezotur",
+    "function": "3",
+    "lat": 47,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "ZZB",
+    "label": "Mezozombor",
+    "subdivisionCode": "BZ",
+    "function": "236",
+    "lat": 48.15,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "MYZ",
+    "label": "Mihályháza",
+    "labelWithDiacritics": "Mihalyhaza",
+    "function": "36",
+    "lat": 47.3,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "MPC",
+    "label": "Mikepércs",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Mikepercs",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "ZGM",
+    "label": "Mindszentgodisa",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 18.066667
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Mirelite",
+    "function": "0"
+  },
+  {
+    "locationCode": "MCQ",
+    "label": "Miskolc",
+    "function": "14"
+  },
+  {
+    "locationCode": "MCS",
+    "label": "Mocsa",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 47.666667,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "MYD",
+    "label": "Mogyoród",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Mogyorod",
+    "function": "6",
+    "lat": 47.6,
+    "lng": 19.25
+  },
+  {
+    "locationCode": "MOH",
+    "label": "Mohács",
+    "labelWithDiacritics": "Mohacs",
+    "function": "1",
+    "lat": 46,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monor",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.333333,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mór",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Mor",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 18.2
+  },
+  {
+    "locationCode": "MHO",
+    "label": "Mórahalom",
+    "subdivisionCode": "CS",
+    "labelWithDiacritics": "Morahalom",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 19.883333
+  },
+  {
+    "locationCode": "MNM",
+    "label": "Mosonmagyaróvár",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Mosonmagyarovar",
+    "function": "3",
+    "lat": 47.516667,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "MOZ",
+    "label": "Mosonszolnok",
+    "subdivisionCode": "GS",
+    "function": "23",
+    "lat": 47.85,
+    "lng": 17.183333
+  },
+  {
+    "locationCode": "MSY",
+    "label": "Mucsony",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 20.683333
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murakeresztúr",
+    "labelWithDiacritics": "Murakeresztur",
+    "function": "2",
+    "lat": 46.35,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Nádasd",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Nadasd",
+    "function": "235",
+    "lat": 46.95,
+    "lng": 16.616667
+  },
+  {
+    "locationCode": "NAD",
+    "label": "Nádudvar",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Nadudvar",
+    "function": "23",
+    "lat": 47.416667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "NGT",
+    "label": "Nagyatád",
+    "labelWithDiacritics": "Nagyatad",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "NGB",
+    "label": "Nagybajom",
+    "subdivisionCode": "SO",
+    "function": "1",
+    "lat": 46.383333,
+    "lng": 173.166667
+  },
+  {
+    "locationCode": "NGS",
+    "label": "Nagycsécs",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Nagycsecs",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "FUG",
+    "label": "Nagyfüged",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Nagyfuged",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 20.116667
+  },
+  {
+    "locationCode": "NYH",
+    "label": "Nagyharsány",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Nagyharsany",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "NAY",
+    "label": "Nagyigmánd",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Nagyigmand",
+    "function": "23",
+    "lat": 47.633333,
+    "lng": 18.083333
+  },
+  {
+    "locationCode": "NYO",
+    "label": "Nagykallo",
+    "subdivisionCode": "SZ",
+    "function": "6",
+    "lat": 47.783333,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "NKM",
+    "label": "Nagykamarás",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Nagykamaras",
+    "function": "3",
+    "lat": 46.466667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "NGY",
+    "label": "Nagykanizsa",
+    "function": "3"
+  },
+  {
+    "locationCode": "NAA",
+    "label": "Nagykata",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.416667,
+    "lng": 19.733333
+  },
+  {
+    "locationCode": "NYY",
+    "label": "Nagykökényes",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Nagykokenyes",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "NGK",
+    "label": "Nagykölked",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Nagykolked",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 16.55
+  },
+  {
+    "locationCode": "NKS",
+    "label": "Nagykörös",
+    "labelWithDiacritics": "Nagykoros",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 19.766667
+  },
+  {
+    "locationCode": "NYC",
+    "label": "Nagykovácsi",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Nagykovacsi",
+    "function": "3",
+    "lat": 47.583333,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Nagylak",
+    "function": "3"
+  },
+  {
+    "locationCode": "NG2",
+    "label": "Nagymányok",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Nagymanyok",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "NGM",
+    "label": "Nagymaros",
+    "subdivisionCode": "PE",
+    "function": "2",
+    "lat": 47.783333,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "ZAN",
+    "label": "Nagypáli",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Nagypali",
+    "function": "3",
+    "lat": 46.916667,
+    "lng": 16.85
+  },
+  {
+    "locationCode": "NGL",
+    "label": "Nagypall",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "NHB",
+    "label": "Nagyrábé",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Nagyrabe",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "NZA",
+    "label": "Nagyrada",
+    "subdivisionCode": "ZA",
+    "function": "13",
+    "lat": 46.616667,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "NAK",
+    "label": "Nagyrákos",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Nagyrakos",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 16.466667
+  },
+  {
+    "locationCode": "AEW",
+    "label": "Nagyrecse",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 17
+  },
+  {
+    "locationCode": "NGD",
+    "label": "Nagyréde",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Nagyrede",
+    "function": "3",
+    "lat": 47.766667,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "NSK",
+    "label": "Nagyszekeres",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nagytarcsa",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.533333,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "NVY",
+    "label": "Nagyvazsony",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47,
+    "lng": 17.7
+  },
+  {
+    "locationCode": "N2G",
+    "label": "Nagyvenyim",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 46.966667,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "NMS",
+    "label": "Nemessándorháza",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Nemessandorhaza",
+    "function": "6",
+    "lat": 46.783333,
+    "lng": 16.95
+  },
+  {
+    "locationCode": "NEM",
+    "label": "Nemesvámos",
+    "labelWithDiacritics": "Nemesvamos",
+    "function": "3",
+    "lat": 47.05,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "NVD",
+    "label": "Nemesvid",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "NSZ",
+    "label": "Neszmély",
+    "labelWithDiacritics": "Neszmely",
+    "function": "123",
+    "lat": 47.716667,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "NOG",
+    "label": "Nógrád",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Nograd",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "NGP",
+    "label": "Nógrádsáp",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Nogradsap",
+    "function": "3",
+    "lat": 47.833333,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "NZO",
+    "label": "Noszlop",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 17.466667
+  },
+  {
+    "locationCode": "NZJ",
+    "label": "Noszvaj",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Nova",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 16.683333
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Novaj",
+    "subdivisionCode": "HE",
+    "function": "6"
+  },
+  {
+    "locationCode": "LNC",
+    "label": "Nyarlrrinc",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 19.866667
+  },
+  {
+    "locationCode": "NKH",
+    "label": "Nyékládháza",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Nyekladhaza",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 20.833333
+  },
+  {
+    "locationCode": "NGU",
+    "label": "Nyergesújfalu",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Nyergesujfalu",
+    "function": "3",
+    "lat": 47.766667,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "NYI",
+    "label": "Nyírábrány",
+    "labelWithDiacritics": "Nyirabrany",
+    "function": "23",
+    "lat": 47.55,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "NYA",
+    "label": "Nyíracsad",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Nyiracsad",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "NYD",
+    "label": "Nyirád",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Nyirad",
+    "function": "3",
+    "lat": 47,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "NDO",
+    "label": "Nyiradony",
+    "subdivisionCode": "HB",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "NBR",
+    "label": "Nyírbátor",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirbator",
+    "function": "23",
+    "lat": 47.833333,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "NYB",
+    "label": "Nyirbogdany",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "NGH",
+    "label": "Nyíregyháza",
+    "labelWithDiacritics": "Nyiregyhaza",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "NYR",
+    "label": "Nyírgelse",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirgelse",
+    "function": "23",
+    "lat": 47.75,
+    "lng": 21.966667
+  },
+  {
+    "locationCode": "NYS",
+    "label": "Nyírlugos",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirlugos",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "STZ",
+    "label": "Nyírmada",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirmada",
+    "function": "3",
+    "lat": 48.066667,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "NY7",
+    "label": "Nyirmeggyes",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 22.266667
+  },
+  {
+    "locationCode": "NHY",
+    "label": "Nyírmihálydi",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirmihalydi",
+    "function": "3",
+    "lat": 47.733333,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "NTS",
+    "label": "Nyírtass",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirtass",
+    "function": "3",
+    "lat": 48.116667,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "NYT",
+    "label": "Nyírtelek",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Nyirtelek",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "NYL",
+    "label": "Nyúl",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Nyul",
+    "function": "6",
+    "lat": 47.583333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "OCS",
+    "label": "Ócsa",
+    "labelWithDiacritics": "Ocsa",
+    "function": "23",
+    "lat": 47.3,
+    "lng": 19.233333
+  },
+  {
+    "locationCode": "OCD",
+    "label": "Ócsárd",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Ocsard",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "OKY",
+    "label": "Oerkeny",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.116667,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "OFE",
+    "label": "Ofeherto",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "OKF",
+    "label": "Ököritófülpös",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Okoritofulpos",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "OLZ",
+    "label": "Olasz",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": 46.016667,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "OPU",
+    "label": "Opusztaszer",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 20.083333
+  },
+  {
+    "locationCode": "OER",
+    "label": "Ör",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Or",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "OTN",
+    "label": "Orbottyán",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Orbottyan",
+    "function": "6",
+    "lat": 47.683333,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "OGV",
+    "label": "Orgovány",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Orgovany",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 19.466667
+  },
+  {
+    "locationCode": "ORK",
+    "label": "Örkény",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Orkeny",
+    "function": "3",
+    "lat": 47.133333,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Orosháza",
+    "labelWithDiacritics": "Oroshaza",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "ORO",
+    "label": "Oroszlány",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Oroszlany",
+    "function": "236",
+    "lat": 47.483333,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "5OS",
+    "label": "Ostffyasszonyfa",
+    "subdivisionCode": "VA",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "HOT",
+    "label": "Ostoros",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 20.433333
+  },
+  {
+    "locationCode": "OZD",
+    "label": "Ózd",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Ozd",
+    "function": "3",
+    "lat": 48.216667,
+    "lng": 20.3
+  },
+  {
+    "locationCode": "PCS",
+    "label": "Pacsa",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.716667,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "PAH",
+    "label": "Páhi",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Pahi",
+    "function": "3",
+    "lat": 46.7,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "PKA",
+    "label": "Paka",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 16.65
+  },
+  {
+    "locationCode": "PAK",
+    "label": "Paks",
+    "subdivisionCode": "TO",
+    "function": "23",
+    "lat": 46.616667,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Pálmonostora",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Palmonostora",
+    "function": "16",
+    "lat": 46.633333,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "OOK",
+    "label": "Palotabozsok",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.133333,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "NPP",
+    "label": "Palotás",
+    "subdivisionCode": "NO",
+    "labelWithDiacritics": "Palotas",
+    "function": "3",
+    "lat": 47.783333,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pánd",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Pand",
+    "function": "3",
+    "lat": 47.35,
+    "lng": 19.633333
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Pannonhalma",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.55,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Pápa",
+    "labelWithDiacritics": "Papa",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 17.466667
+  },
+  {
+    "locationCode": "PKS",
+    "label": "Papkeszi",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.083333,
+    "lng": 18.083333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parassapuszta",
+    "function": "3"
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Paszto",
+    "subdivisionCode": "NO",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Patak",
+    "subdivisionCode": "NO",
+    "function": "3",
+    "lat": 48.033333,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "PTY",
+    "label": "Páty",
+    "labelWithDiacritics": "Paty",
+    "function": "3",
+    "lat": 47.516667,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Pécel",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Pecel",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "PEC",
+    "label": "Pécs",
+    "labelWithDiacritics": "Pecs",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "PCL",
+    "label": "Pécsely",
+    "labelWithDiacritics": "Pecsely",
+    "function": "23"
+  },
+  {
+    "locationCode": "PED",
+    "label": "Pécsvárad",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Pecsvarad",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "PGY",
+    "label": "Peremarton-Gyártelep",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Peremarton-Gyartelep",
+    "function": "3",
+    "lat": 47.133333,
+    "lng": 18.1
+  },
+  {
+    "locationCode": "PER",
+    "label": "Perkupa",
+    "function": "23",
+    "lat": 48.466667,
+    "lng": 20.7
+  },
+  {
+    "locationCode": "PFU",
+    "label": "Pétfürdö",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Petfurdo",
+    "function": "3",
+    "lat": 47.166667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "4PS",
+    "label": "Petnehaza",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.066667,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "HAF",
+    "label": "Petofibánya",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Petofibanya",
+    "function": "36",
+    "lat": 47.766667,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "PFZ",
+    "label": "Petofiszállás",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Petofiszallas",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "PTU",
+    "label": "Petrikeresztúr",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Petrikeresztur",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "PIS",
+    "label": "Pilis",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.283333,
+    "lng": 19.55
+  },
+  {
+    "locationCode": "PCA",
+    "label": "Piliscsaba",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.616667,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "SCV",
+    "label": "Piliscsév",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Piliscsev",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "PIJ",
+    "label": "Pilisjászfalu",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Pilisjaszfalu",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Pilismarot",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.783333,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "PZV",
+    "label": "Pilisszentiván",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Pilisszentivan",
+    "function": "3",
+    "lat": 47.616667,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "PLL",
+    "label": "Pilisvörösvár",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Pilisvorosvar",
+    "function": "3",
+    "lat": 47.616667,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "HBB",
+    "label": "Polgar",
+    "subdivisionCode": "HB",
+    "function": "6",
+    "lat": 47.866667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "POM",
+    "label": "Pomáz",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Pomaz",
+    "function": "23",
+    "lat": 47.65,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "PPL",
+    "label": "Püspökladány",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Puspokladany",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "PUS",
+    "label": "Püspökmolnári",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Puspokmolnari",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 16.8
+  },
+  {
+    "locationCode": "PZB",
+    "label": "Pusztaberki",
+    "subdivisionCode": "NO",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 19.166667
+  },
+  {
+    "locationCode": "PUZ",
+    "label": "Pusztamiske",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "PTT",
+    "label": "Pusztamonostor",
+    "subdivisionCode": "JN",
+    "function": "6",
+    "lat": 47.55,
+    "lng": 19.8
+  },
+  {
+    "locationCode": "PSU",
+    "label": "Pusztaszabolcs",
+    "subdivisionCode": "FE",
+    "function": "236",
+    "lat": 47.133333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "PZS",
+    "label": "Pusztaszer",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 19.983333
+  },
+  {
+    "locationCode": "RCY",
+    "label": "Rábacsécsény",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Rabacsecseny",
+    "function": "3",
+    "lat": 47.566667,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rábafüzes",
+    "labelWithDiacritics": "Rabafuzes",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "RBP",
+    "label": "Rábapatona",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Rabapatona",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "RLS",
+    "label": "Rácalmás",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Racalmas",
+    "function": "6",
+    "lat": 47.016667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Ráckeve",
+    "labelWithDiacritics": "Rackeve",
+    "function": "3",
+    "lat": 47.166667,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "RJK",
+    "label": "Rajka",
+    "function": "23"
+  },
+  {
+    "locationCode": "RJB",
+    "label": "Rajkabrany",
+    "function": "2"
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Rákóczifalva",
+    "subdivisionCode": "SK",
+    "labelWithDiacritics": "Rakoczifalva",
+    "function": "3",
+    "lat": 47.083333,
+    "lng": 20.233333
+  },
+  {
+    "locationCode": "ZZ3",
+    "label": "Ramocsahaza",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 22
+  },
+  {
+    "locationCode": "RAT",
+    "label": "Ratka",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.216667,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "RTO",
+    "label": "Ratot",
+    "subdivisionCode": "VA",
+    "function": "23",
+    "lat": 46.966667,
+    "lng": 16.433333
+  },
+  {
+    "locationCode": "REE",
+    "label": "Rede",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.433333,
+    "lng": 17.916667
+  },
+  {
+    "locationCode": "RED",
+    "label": "Rédics",
+    "labelWithDiacritics": "Redics",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "RPK",
+    "label": "Répcelak",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Repcelak",
+    "function": "3",
+    "lat": 47.416667,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "HBD",
+    "label": "Rétközberencs",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Retkozberencs",
+    "function": "36",
+    "lat": 48.2,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "RTG",
+    "label": "Rétság",
+    "labelWithDiacritics": "Retsag",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "REV",
+    "label": "Révleányvár",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Revleanyvar",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Röszke",
+    "labelWithDiacritics": "Roszke",
+    "function": "23",
+    "lat": 46.183333,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Ruzsa",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Ságvár",
+    "labelWithDiacritics": "Sagvar",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SBB",
+    "label": "Sajobabony",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 20.733333
+  },
+  {
+    "locationCode": "SJL",
+    "label": "SAJOLAD",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "SJP",
+    "label": "Sajópetri",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Sajopetri",
+    "function": "3",
+    "lat": 48.033333,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "Sajószentpéter",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Sajoszentpeter",
+    "function": "23",
+    "lat": 48.216667,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "HUY",
+    "label": "Sajószöged",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Sajoszoged",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 21
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salgótarján",
+    "labelWithDiacritics": "Salgotarjan",
+    "function": "3",
+    "lat": 48.116667,
+    "lng": 19.816667
+  },
+  {
+    "locationCode": "SLY",
+    "label": "Sály",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Saly",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "HBG",
+    "label": "Santos",
+    "subdivisionCode": "SO",
+    "function": "6",
+    "lat": 46.35,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Sáp",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Sap",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Sárbogárd",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Sarbogard",
+    "function": "23",
+    "lat": 46.883333,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "HBF",
+    "label": "Sarisap",
+    "subdivisionCode": "KE",
+    "function": "6",
+    "lat": 47.683333,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "SKD",
+    "label": "Sarkad",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 46.75,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "SKZ",
+    "label": "Sarkeresztes",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "SOB",
+    "label": "Sármellék",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Sarmellek",
+    "function": "4",
+    "lat": 46.716667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "RSP",
+    "label": "Sárospatak",
+    "labelWithDiacritics": "Sarospatak",
+    "function": "123",
+    "lat": 48.316667,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "SMI",
+    "label": "Sárszentmihály",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Sarszentmihaly",
+    "function": "236",
+    "lat": 47.15,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "SVR",
+    "label": "Sárvár",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Sarvar",
+    "function": "23",
+    "lat": 47.25,
+    "lng": 16.933333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sásd",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Sasd",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Sátoraljaújhely",
+    "labelWithDiacritics": "Satoraljaujhely",
+    "function": "23",
+    "lat": 48.4,
+    "lng": 21.666667
+  },
+  {
+    "locationCode": "SVY",
+    "label": "Savoly",
+    "function": "36",
+    "lat": 46.583333,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Segesd",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "9SE",
+    "label": "Sellye",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 45.866667,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "SGS",
+    "label": "Seregélyes",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Seregelyes",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Siklós",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Siklos",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Simontornya",
+    "subdivisionCode": "TO",
+    "function": "23",
+    "lat": 46.75,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "SIO",
+    "label": "Siófok",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Siofok",
+    "function": "23",
+    "lat": 46.9,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Sirok",
+    "subdivisionCode": "HE",
+    "function": "6",
+    "lat": 47.933333,
+    "lng": 20.2
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Solt",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 46.783333,
+    "lng": 19
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Soltvadkert",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "SLR",
+    "label": "Solymar",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.583333,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Somlójeno",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Somlojeno",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "SHY",
+    "label": "Somlovasarhely",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "SMD",
+    "label": "Somogybabod",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "SOY",
+    "label": "Somogycsicsó",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "Somogycsicso",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "SOG",
+    "label": "Somogyszentpal",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "SGZ",
+    "label": "Somogyszob",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "SMG",
+    "label": "Somogyudvarhely",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 17.2
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Somoskoújfalu",
+    "labelWithDiacritics": "Somoskoujfalu",
+    "function": "23",
+    "lat": 48.15,
+    "lng": 19.816667
+  },
+  {
+    "locationCode": "SOP",
+    "label": "Sopron",
+    "function": "23"
+  },
+  {
+    "locationCode": "SPG",
+    "label": "Sopron Gysev",
+    "function": "2"
+  },
+  {
+    "locationCode": "SND",
+    "label": "Sopronkovesd",
+    "subdivisionCode": "GS",
+    "function": "6",
+    "lat": 47.55,
+    "lng": 16.75
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Söréd",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Sored",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "ZXQ",
+    "label": "Sormas",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.45,
+    "lng": 16.916667
+  },
+  {
+    "locationCode": "KUT",
+    "label": "Soskut",
+    "subdivisionCode": "BK",
+    "function": "6",
+    "lat": 46.816667,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "SUO",
+    "label": "Sukoró",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Sukoro",
+    "function": "6",
+    "lat": 47.233333,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Sükösd",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Sukosd",
+    "function": "3",
+    "lat": 46.283333,
+    "lng": 19
+  },
+  {
+    "locationCode": "SUE",
+    "label": "Sümeg",
+    "subdivisionCode": "VM",
+    "labelWithDiacritics": "Sumeg",
+    "function": "3",
+    "lat": 46.983333,
+    "lng": 17.283333
+  },
+  {
+    "locationCode": "SUT",
+    "label": "Sütto",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Sutto",
+    "function": "3",
+    "lat": 47.75,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "HBE",
+    "label": "Szabadbattyán",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Szabadbattyan",
+    "function": "6",
+    "lat": 47.116667,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "SGY",
+    "label": "Szabadegyháza",
+    "labelWithDiacritics": "Szabadegyhaza",
+    "function": "236",
+    "lat": 47.083333,
+    "lng": 18.7
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Szabadszallas",
+    "subdivisionCode": "BK",
+    "function": "6",
+    "lat": 46.933333,
+    "lng": 19.216667
+  },
+  {
+    "locationCode": "SBS",
+    "label": "Szabolcs",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Szada",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "SZJ",
+    "label": "Szajol",
+    "subdivisionCode": "JN",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 20.283333
+  },
+  {
+    "locationCode": "SDT",
+    "label": "Szakadát",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Szakadat",
+    "function": "23",
+    "lat": 46.533333,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "ZKR",
+    "label": "Szakmár",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Szakmar",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 19.066667
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Szálanta",
+    "labelWithDiacritics": "Szalanta",
+    "function": "3",
+    "lat": 45.933333,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "AAA",
+    "label": "Szalkszentmarton",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.966667,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "SSZ",
+    "label": "Szamosszeg",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Szank",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 19.666667
+  },
+  {
+    "locationCode": "SNY",
+    "label": "Szany",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.466667,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "SZV",
+    "label": "Szárcsás",
+    "labelWithDiacritics": "Szarcsas",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "SZF",
+    "label": "Szárföld",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Szarfold",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "SVS",
+    "label": "Szarvas",
+    "function": "23",
+    "lat": 46.866667,
+    "lng": 20.55
+  },
+  {
+    "locationCode": "SBK",
+    "label": "Szászberek",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Szaszberek",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 20.1
+  },
+  {
+    "locationCode": "SZT",
+    "label": "Szatta",
+    "subdivisionCode": "VA",
+    "function": "3",
+    "lat": 46.8,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "SZZ",
+    "label": "Szatymaz",
+    "subdivisionCode": "CS",
+    "function": "6",
+    "lat": 46.35,
+    "lng": 20.05
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Szava",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "SZB",
+    "label": "Százhalombatta",
+    "labelWithDiacritics": "Szazhalombatta",
+    "function": "23",
+    "lat": 47.333333,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "SCY",
+    "label": "Szécsény",
+    "labelWithDiacritics": "Szecseny",
+    "function": "23",
+    "lat": 48.083333,
+    "lng": 19.533333
+  },
+  {
+    "locationCode": "SEY",
+    "label": "Szederkeny",
+    "subdivisionCode": "BA",
+    "function": "23",
+    "lat": 45.983333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "SZE",
+    "label": "Szeged",
+    "function": "1"
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Szeghalom",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "CSS",
+    "label": "Szegvar",
+    "subdivisionCode": "CS",
+    "function": "6"
+  },
+  {
+    "locationCode": "SZR",
+    "label": "Székesfehérvár",
+    "labelWithDiacritics": "Szekesfehervar",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "SZK",
+    "label": "Szekszárd",
+    "labelWithDiacritics": "Szekszard",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "SME",
+    "label": "Szemere",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 48.766667,
+    "lng": 21.15
+  },
+  {
+    "locationCode": "SZN",
+    "label": "Szendro",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.4,
+    "lng": 20.733333
+  },
+  {
+    "locationCode": "NW7",
+    "label": "Szenna",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "STF",
+    "label": "Szentantalfa",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 46.916667,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "SZD",
+    "label": "Szentendre",
+    "subdivisionCode": "PE",
+    "function": "13",
+    "lat": 47.7,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "SZS",
+    "label": "Szentes",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 20.266667
+  },
+  {
+    "locationCode": "SZG",
+    "label": "Szentgotthárd",
+    "labelWithDiacritics": "Szentgotthard",
+    "function": "2",
+    "lat": 46.95,
+    "lng": 16.333333
+  },
+  {
+    "locationCode": "SOA",
+    "label": "Szentlorinc",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": 46.033333,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "SNA",
+    "label": "Szentlorinckáta",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Szentlorinckata",
+    "function": "236",
+    "lat": 47.516667,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "8SZ",
+    "label": "Szentmártonkáta",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Szentmartonkata",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "SZC",
+    "label": "Szerencs",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 21.2
+  },
+  {
+    "locationCode": "PES",
+    "label": "Szigetcsép",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Szigetcsep",
+    "function": "13",
+    "lat": 47.266667,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "SGH",
+    "label": "Szigethalom",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 19
+  },
+  {
+    "locationCode": "SZM",
+    "label": "Szigetszentmiklós",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Szigetszentmiklos",
+    "function": "123",
+    "lat": 47.35,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "SZI",
+    "label": "Szigetvár",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Szigetvar",
+    "function": "23",
+    "lat": 46.033333,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "SZ2",
+    "label": "Szikszo",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 20.933333
+  },
+  {
+    "locationCode": "GYY",
+    "label": "Szil",
+    "subdivisionCode": "GS",
+    "function": "3",
+    "lat": 47.5,
+    "lng": 17.233333
+  },
+  {
+    "locationCode": "SZO",
+    "label": "Szob",
+    "function": "2"
+  },
+  {
+    "locationCode": "HBH",
+    "label": "Szodliget",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.733333,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "SZL",
+    "label": "Szolnok",
+    "function": "0"
+  },
+  {
+    "locationCode": "SZY",
+    "label": "Szombathely",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOL",
+    "label": "Szomolya",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 47.9,
+    "lng": 20.5
+  },
+  {
+    "locationCode": "SMO",
+    "label": "Szomor",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.583333,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "SMS",
+    "label": "Szorgalmatos",
+    "function": "23",
+    "lat": 47.966667,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "SYG",
+    "label": "Szügy",
+    "labelWithDiacritics": "Szugy",
+    "function": "23",
+    "lat": 48.033333,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tab",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "TDI",
+    "label": "Tabdi",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 19.3
+  },
+  {
+    "locationCode": "TAC",
+    "label": "Tác",
+    "subdivisionCode": "FE",
+    "labelWithDiacritics": "Tac",
+    "function": "1",
+    "lat": 47.083333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "THT",
+    "label": "Tahitotfalu",
+    "subdivisionCode": "PE",
+    "function": "16",
+    "lat": 47.75,
+    "lng": 19.1
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Takacsi",
+    "subdivisionCode": "VE",
+    "function": "3",
+    "lat": 47.4,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "TSY",
+    "label": "Taksony",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.333333,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "TAY",
+    "label": "Tállya",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Tallya",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "TMS",
+    "label": "Tamási",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Tamasi",
+    "function": "3",
+    "lat": 46.633333,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "5TP",
+    "label": "Tapioszecso",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "HBI",
+    "label": "Tapioszele",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.333333,
+    "lng": 19.883333
+  },
+  {
+    "locationCode": "TPZ",
+    "label": "Tapioszentmarton",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.333333,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "TAP",
+    "label": "Tapolca",
+    "subdivisionCode": "VE",
+    "function": "23",
+    "lat": 46.883333,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "T5S",
+    "label": "Tápszentmiklós",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Tapszentmiklos",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Tarany",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "TRC",
+    "label": "Tarcal",
+    "function": "23",
+    "lat": 48.133333,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tardona",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "TRN",
+    "label": "Tarján",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Tarjan",
+    "function": "3",
+    "lat": 47.616667,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "TRD",
+    "label": "Tarnabod",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "TZY",
+    "label": "Tarnaszadány",
+    "subdivisionCode": "HE",
+    "labelWithDiacritics": "Tarnaszadany",
+    "function": "3",
+    "lat": 47.683333,
+    "lng": 20.133333
+  },
+  {
+    "locationCode": "RTK",
+    "label": "Tárnok",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Tarnok",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Tarpa",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "A5A",
+    "label": "Tass",
+    "subdivisionCode": "BK",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "TAT",
+    "label": "Tata",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Tatabánya",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Tatabanya",
+    "function": "23",
+    "lat": 47.55,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "HBJ",
+    "label": "Teglas",
+    "subdivisionCode": "HB",
+    "function": "6",
+    "lat": 47.716667,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Telekgerendás",
+    "subdivisionCode": "BE",
+    "labelWithDiacritics": "Telekgerendas",
+    "function": "23",
+    "lat": 46.65,
+    "lng": 20.933333
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tenk",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.65,
+    "lng": 20.35
+  },
+  {
+    "locationCode": "TEY",
+    "label": "Tényo",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Tenyo",
+    "function": "3",
+    "lat": 47.533333,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "HBT",
+    "label": "Tépe",
+    "subdivisionCode": "HB",
+    "labelWithDiacritics": "Tepe",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 21.583333
+  },
+  {
+    "locationCode": "TPS",
+    "label": "Terpes",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 20.15
+  },
+  {
+    "locationCode": "TKD",
+    "label": "Teskánd",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Teskand",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 16.766667
+  },
+  {
+    "locationCode": "TET",
+    "label": "Tét",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Tet",
+    "function": "3",
+    "lat": 47.516667,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "TIM",
+    "label": "Timár",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Timar",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "TZD",
+    "label": "Tiszabezded",
+    "subdivisionCode": "SZ",
+    "function": "6",
+    "lat": 48.366667,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "TIA",
+    "label": "Tiszafoldvar",
+    "subdivisionCode": "JN",
+    "function": "3",
+    "lat": 49.983333,
+    "lng": 20.25
+  },
+  {
+    "locationCode": "TFD",
+    "label": "Tiszafüred",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Tiszafured",
+    "function": "6",
+    "lat": 47.616667,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "TIZ",
+    "label": "Tiszakécske",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Tiszakecske",
+    "function": "23",
+    "lat": 46.933333,
+    "lng": 20.1
+  },
+  {
+    "locationCode": "TZK",
+    "label": "Tiszalök",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Tiszalok",
+    "function": "23",
+    "lat": 48.016667,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "TIS",
+    "label": "Tiszapüspöki",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Tiszapuspoki",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 20.316667
+  },
+  {
+    "locationCode": "TSZ",
+    "label": "Tiszaszalka",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "CCC",
+    "label": "Tiszaszentmárton",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Tiszaszentmarton",
+    "function": "3",
+    "lat": 48.383333,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "TZS",
+    "label": "Tiszaújváros",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Tiszaujvaros",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "TZV",
+    "label": "Tiszavasvári",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Tiszavasvari",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "HBC",
+    "label": "Tofalu",
+    "subdivisionCode": "HE",
+    "function": "6",
+    "lat": 47.783333,
+    "lng": 20.25
+  },
+  {
+    "locationCode": "TKO",
+    "label": "Tok",
+    "subdivisionCode": "PE",
+    "function": "6",
+    "lat": 47.566667,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "TOJ",
+    "label": "Tokaj",
+    "subdivisionCode": "SZ",
+    "function": "16",
+    "lat": 48.116667,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "OKD",
+    "label": "Tokod",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 47.716667,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "EED",
+    "label": "Tokodaltaro",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "TKL",
+    "label": "Tokol",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tököl",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Tokol",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "TOS",
+    "label": "Tolcsva",
+    "function": "3",
+    "lat": 48.283333,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Tolna",
+    "subdivisionCode": "TO",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Töltéstava",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Toltestava",
+    "function": "3",
+    "lat": 47.616667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "TOM",
+    "label": "Tompa",
+    "function": "3"
+  },
+  {
+    "locationCode": "TOD",
+    "label": "Tornanádaska",
+    "labelWithDiacritics": "Tornanadaska",
+    "function": "23",
+    "lat": 48.566667,
+    "lng": 20.783333
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tornyosnémeti",
+    "labelWithDiacritics": "Tornyosnemeti",
+    "function": "3",
+    "lat": 48.516667,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "4TS",
+    "label": "Tornyospalca",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "TKB",
+    "label": "Törökbálint",
+    "labelWithDiacritics": "Torokbalint",
+    "function": "3",
+    "lat": 47.433333,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "TOK",
+    "label": "Törökszentmiklós",
+    "labelWithDiacritics": "Torokszentmiklos",
+    "function": "23",
+    "lat": 47.166667,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "TRY",
+    "label": "Torony",
+    "subdivisionCode": "VA",
+    "function": "3",
+    "lat": 47.233333,
+    "lng": 16.533333
+  },
+  {
+    "locationCode": "TO4",
+    "label": "Törtel",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Tortel",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "TZG",
+    "label": "Tószeg",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Toszeg",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 20.15
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Tótvázsony",
+    "labelWithDiacritics": "Totvazsony",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Tura",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "2AZ",
+    "label": "Türje",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Turje",
+    "function": "3",
+    "lat": 46.983333,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "TKV",
+    "label": "Turkeve",
+    "subdivisionCode": "JN",
+    "function": "3",
+    "lat": 47.1,
+    "lng": 20.75
+  },
+  {
+    "locationCode": "TSB",
+    "label": "Tuzser",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "TYO",
+    "label": "Tyukod",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 47.85,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "UDV",
+    "label": "Udvar",
+    "function": "3"
+  },
+  {
+    "locationCode": "UHO",
+    "label": "Újfehértó",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Ujfeherto",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "UJH",
+    "label": "Újhartyán",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Ujhartyan",
+    "function": "23",
+    "lat": 47.216667,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "PEU",
+    "label": "Ujlengyel",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "UPS",
+    "label": "Újpest",
+    "labelWithDiacritics": "Ujpest",
+    "function": "13",
+    "lat": 47.566667,
+    "lng": 19.083333
+  },
+  {
+    "locationCode": "UJR",
+    "label": "Újrónafo",
+    "subdivisionCode": "GS",
+    "labelWithDiacritics": "Ujronafo",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 17.2
+  },
+  {
+    "locationCode": "UZA",
+    "label": "Újszász",
+    "subdivisionCode": "JN",
+    "labelWithDiacritics": "Ujszasz",
+    "function": "3",
+    "lat": 47.3,
+    "lng": 20.083333
+  },
+  {
+    "locationCode": "UJS",
+    "label": "Ujszentivan",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 20.183333
+  },
+  {
+    "locationCode": "UJZ",
+    "label": "Ujszilvas",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.283333,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "ULS",
+    "label": "Ulles",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "ULL",
+    "label": "Üllo",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Ullo",
+    "function": "23",
+    "lat": 47.383333,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "URA",
+    "label": "Uraiújfalu",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Uraiujfalu",
+    "function": "3",
+    "lat": 47.366667,
+    "lng": 16.983333
+  },
+  {
+    "locationCode": "UOM",
+    "label": "Üröm",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Urom",
+    "function": "3",
+    "lat": 47.6,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Vác",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Vac",
+    "function": "23",
+    "lat": 47.783333,
+    "lng": 19.116667
+  },
+  {
+    "locationCode": "VAJ",
+    "label": "Vaja",
+    "subdivisionCode": "SZ",
+    "function": "3",
+    "lat": 48,
+    "lng": 22.166667
+  },
+  {
+    "locationCode": "VAM",
+    "label": "Vámosszabadi",
+    "labelWithDiacritics": "Vamosszabadi",
+    "function": "3",
+    "lat": 47.766667,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "VAO",
+    "label": "Városföld",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Varosfold",
+    "function": "3",
+    "lat": 46.816667,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Várpalota",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Varpalota",
+    "function": "23",
+    "lat": 47.2,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vasad",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 19.4
+  },
+  {
+    "locationCode": "VSY",
+    "label": "Vásárosnamény",
+    "subdivisionCode": "SZ",
+    "labelWithDiacritics": "Vasarosnameny",
+    "function": "236",
+    "lat": 48.116667,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "VKS",
+    "label": "Vaskeresztes",
+    "subdivisionCode": "VA",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "VSZ",
+    "label": "Vasszécseny",
+    "labelWithDiacritics": "Vasszecseny",
+    "function": "23",
+    "lat": 47.183333,
+    "lng": 16.766667
+  },
+  {
+    "locationCode": "VVR",
+    "label": "Vasvár",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Vasvar",
+    "function": "23",
+    "lat": 47.05,
+    "lng": 16.8
+  },
+  {
+    "locationCode": "VEC",
+    "label": "Vecsés",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Vecses",
+    "function": "23",
+    "lat": 47.4,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velence",
+    "function": "23",
+    "lat": 47.25,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "VEP",
+    "label": "Vép",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Vep",
+    "function": "3",
+    "lat": 47.233333,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "VGY",
+    "label": "Veresegyház",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Veresegyhaz",
+    "function": "236",
+    "lat": 47.65,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verocemaros",
+    "subdivisionCode": "PE",
+    "function": "23",
+    "lat": 47.833333,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "VRP",
+    "label": "Verpelét",
+    "labelWithDiacritics": "Verpelet",
+    "function": "23",
+    "lat": 47.85,
+    "lng": 20.233333
+  },
+  {
+    "locationCode": "VTL",
+    "label": "Vértestolna",
+    "subdivisionCode": "KE",
+    "labelWithDiacritics": "Vertestolna",
+    "function": "3",
+    "lat": 47.633333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "VZP",
+    "label": "Veszprém",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Veszprem",
+    "function": "23",
+    "lat": 47.083333,
+    "lng": 17.9
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Villány",
+    "subdivisionCode": "BA",
+    "labelWithDiacritics": "Villany",
+    "function": "23",
+    "lat": 45.866667,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "VIG",
+    "label": "Visegrád",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Visegrad",
+    "function": "13",
+    "lat": 47.8,
+    "lng": 18.966667
+  },
+  {
+    "locationCode": "VST",
+    "label": "Visonta",
+    "subdivisionCode": "HE",
+    "function": "3",
+    "lat": 47.783333,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Viszák",
+    "subdivisionCode": "VA",
+    "labelWithDiacritics": "Viszak",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "ZAH",
+    "label": "Záhony",
+    "labelWithDiacritics": "Zahony",
+    "function": "23",
+    "lat": 48.416667,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "ZAL",
+    "label": "Zala",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 46.733333,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "ZBR",
+    "label": "Zalaber",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.966667,
+    "lng": 17.033333
+  },
+  {
+    "locationCode": "ZCY",
+    "label": "Zalacsany",
+    "subdivisionCode": "ZA",
+    "function": "6",
+    "lat": 46.8,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "ZER",
+    "label": "Zalaegerszeg",
+    "subdivisionCode": "ZA",
+    "function": "23",
+    "lat": 46.833333,
+    "lng": 16.833333
+  },
+  {
+    "locationCode": "ZHP",
+    "label": "Zalahalap",
+    "subdivisionCode": "VM",
+    "function": "6",
+    "lat": 47.516667,
+    "lng": 17.766667
+  },
+  {
+    "locationCode": "ZAK",
+    "label": "Zalakomár",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Zalakomar",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "HZZ",
+    "label": "Zalalövo",
+    "subdivisionCode": "ZA",
+    "labelWithDiacritics": "Zalalovo",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 16.583333
+  },
+  {
+    "locationCode": "ZST",
+    "label": "Zalaszentgrot",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 17.083333
+  },
+  {
+    "locationCode": "VEM",
+    "label": "Zánka",
+    "subdivisionCode": "VE",
+    "labelWithDiacritics": "Zanka",
+    "function": "3",
+    "lat": 46.883333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "ZCF",
+    "label": "Zichyujfalu",
+    "subdivisionCode": "FE",
+    "function": "3",
+    "lat": 47.133333,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "ZRC",
+    "label": "Zirc",
+    "subdivisionCode": "VE",
+    "function": "23",
+    "lat": 47.25,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "ZTK",
+    "label": "Zlate Klasy",
+    "function": "16",
+    "lat": 48.116667,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "ZSK",
+    "label": "Zsámbék",
+    "subdivisionCode": "PE",
+    "labelWithDiacritics": "Zsambek",
+    "function": "3",
+    "lat": 47.55,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "ZSI",
+    "label": "Zsira",
+    "subdivisionCode": "GS",
+    "function": "1",
+    "lat": 47.433333,
+    "lng": 16.666667
+  },
+  {
+    "locationCode": "HBA",
+    "label": "Zsombo",
+    "subdivisionCode": "CS",
+    "function": "6",
+    "lat": 46.333333,
+    "lng": 19.983333
+  }
+]

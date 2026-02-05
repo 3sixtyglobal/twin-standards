@@ -1,0 +1,107 @@
+[
+  {
+    "code": "00",
+    "label": "Alifu Dhaalu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "01",
+    "label": "Seenu",
+    "type": "City"
+  },
+  {
+    "code": "02",
+    "label": "Alifu Alifu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "03",
+    "label": "Lhaviyani",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "04",
+    "label": "Vaavu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "05",
+    "label": "Hahdhunmathi",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "07",
+    "label": "Haa Alif",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "08",
+    "label": "Thaa",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "12",
+    "label": "Meemu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "13",
+    "label": "Raa",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "14",
+    "label": "Faafu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "17",
+    "label": "Dhaalu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "20",
+    "label": "Baa",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "23",
+    "label": "Haa Dhaalu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "24",
+    "label": "Shaviyani",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "25",
+    "label": "Noonu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "26",
+    "label": "Kaafu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "27",
+    "label": "Gaafu Alifu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "28",
+    "label": "Gaafu Dhaalu",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "29",
+    "label": "Gnaviyani",
+    "type": "Administrative atoll"
+  },
+  {
+    "code": "MLE",
+    "label": "Male",
+    "type": "City"
+  }
+]

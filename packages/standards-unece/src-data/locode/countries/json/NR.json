@@ -1,0 +1,17 @@
+[
+  {
+    "locationCode": "INU",
+    "label": "Nauru Island",
+    "function": "145",
+    "lat": -0.55,
+    "lng": 166.916667
+  },
+  {
+    "locationCode": "YRN",
+    "label": "Yaren",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": -0.533333,
+    "lng": 166.916667
+  }
+]

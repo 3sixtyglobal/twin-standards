@@ -1,0 +1,237 @@
+[
+  {
+    "code": "01",
+    "label": "Baringo",
+    "type": "County"
+  },
+  {
+    "code": "02",
+    "label": "Bomet",
+    "type": "County"
+  },
+  {
+    "code": "03",
+    "label": "Bungoma",
+    "type": "County"
+  },
+  {
+    "code": "04",
+    "label": "Busia",
+    "type": "County"
+  },
+  {
+    "code": "05",
+    "label": "Elgeyo/Marakwet",
+    "type": "County"
+  },
+  {
+    "code": "06",
+    "label": "Embu",
+    "type": "County"
+  },
+  {
+    "code": "07",
+    "label": "Garissa",
+    "type": "County"
+  },
+  {
+    "code": "08",
+    "label": "Homa Bay",
+    "type": "County"
+  },
+  {
+    "code": "09",
+    "label": "Isiolo",
+    "type": "County"
+  },
+  {
+    "code": "10",
+    "label": "Kajiado",
+    "type": "County"
+  },
+  {
+    "code": "11",
+    "label": "Kakamega",
+    "type": "County"
+  },
+  {
+    "code": "12",
+    "label": "Kericho",
+    "type": "County"
+  },
+  {
+    "code": "13",
+    "label": "Kiambu",
+    "type": "County"
+  },
+  {
+    "code": "14",
+    "label": "Kilifi",
+    "type": "County"
+  },
+  {
+    "code": "15",
+    "label": "Kirinyaga",
+    "type": "County"
+  },
+  {
+    "code": "16",
+    "label": "Kisii",
+    "type": "County"
+  },
+  {
+    "code": "17",
+    "label": "Kisumu",
+    "type": "County"
+  },
+  {
+    "code": "18",
+    "label": "Kitui",
+    "type": "County"
+  },
+  {
+    "code": "19",
+    "label": "Kwale",
+    "type": "County"
+  },
+  {
+    "code": "20",
+    "label": "Laikipia",
+    "type": "County"
+  },
+  {
+    "code": "21",
+    "label": "Lamu",
+    "type": "County"
+  },
+  {
+    "code": "22",
+    "label": "Machakos",
+    "type": "County"
+  },
+  {
+    "code": "23",
+    "label": "Makueni",
+    "type": "County"
+  },
+  {
+    "code": "24",
+    "label": "Mandera",
+    "type": "County"
+  },
+  {
+    "code": "25",
+    "label": "Marsabit",
+    "type": "County"
+  },
+  {
+    "code": "26",
+    "label": "Meru",
+    "type": "County"
+  },
+  {
+    "code": "27",
+    "label": "Migori",
+    "type": "County"
+  },
+  {
+    "code": "28",
+    "label": "Mombasa",
+    "type": "County"
+  },
+  {
+    "code": "29",
+    "label": "Murang'a",
+    "type": "County"
+  },
+  {
+    "code": "30",
+    "label": "Nairobi City",
+    "type": "County"
+  },
+  {
+    "code": "31",
+    "label": "Nakuru",
+    "type": "County"
+  },
+  {
+    "code": "32",
+    "label": "Nandi",
+    "type": "County"
+  },
+  {
+    "code": "33",
+    "label": "Narok",
+    "type": "County"
+  },
+  {
+    "code": "34",
+    "label": "Nyamira",
+    "type": "County"
+  },
+  {
+    "code": "35",
+    "label": "Nyandarua",
+    "type": "County"
+  },
+  {
+    "code": "36",
+    "label": "Nyeri",
+    "type": "County"
+  },
+  {
+    "code": "37",
+    "label": "Samburu",
+    "type": "County"
+  },
+  {
+    "code": "38",
+    "label": "Siaya",
+    "type": "County"
+  },
+  {
+    "code": "39",
+    "label": "Taita/Taveta",
+    "type": "County"
+  },
+  {
+    "code": "40",
+    "label": "Tana River",
+    "type": "County"
+  },
+  {
+    "code": "41",
+    "label": "Tharaka-Nithi",
+    "type": "County"
+  },
+  {
+    "code": "42",
+    "label": "Trans Nzoia",
+    "type": "County"
+  },
+  {
+    "code": "43",
+    "label": "Turkana",
+    "type": "County"
+  },
+  {
+    "code": "44",
+    "label": "Uasin Gishu",
+    "type": "County"
+  },
+  {
+    "code": "45",
+    "label": "Vihiga",
+    "type": "County"
+  },
+  {
+    "code": "46",
+    "label": "Wajir",
+    "type": "County"
+  },
+  {
+    "code": "47",
+    "label": "West Pokot",
+    "type": "County"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "locationCode": "MQC",
+    "label": "Miquelon",
+    "function": "4",
+    "lat": 47.1,
+    "lng": -56.383333
+  },
+  {
+    "locationCode": "FSP",
+    "label": "Saint-Pierre",
+    "function": "145",
+    "lat": 46.766667,
+    "lng": -56.166667
+  }
+]

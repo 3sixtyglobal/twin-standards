@@ -1,0 +1,165 @@
+[
+  {
+    "locationCode": "ABN",
+    "label": "Albina",
+    "function": "14"
+  },
+  {
+    "locationCode": "AAJ",
+    "label": "Awaradam",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTO",
+    "label": "Botopasie",
+    "function": "4"
+  },
+  {
+    "locationCode": "BKP",
+    "label": "Brokopondo",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": 5.066667,
+    "lng": -54.966667
+  },
+  {
+    "locationCode": "DOE",
+    "label": "Djoemoe",
+    "function": "4"
+  },
+  {
+    "locationCode": "DRJ",
+    "label": "Drietabbetje",
+    "function": "4"
+  },
+  {
+    "locationCode": "HTT",
+    "label": "Houttuin",
+    "subdivisionCode": "WA",
+    "function": "3",
+    "lat": 5.733333,
+    "lng": -55.166667
+  },
+  {
+    "locationCode": "JKB",
+    "label": "Jarikaba",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 5.783333,
+    "lng": -55.433333
+  },
+  {
+    "locationCode": "KCB",
+    "label": "Kasikasima",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kwatta",
+    "function": "6",
+    "lat": 5.816667,
+    "lng": -55.25
+  },
+  {
+    "locationCode": "LDO",
+    "label": "Ladouanie",
+    "function": "4"
+  },
+  {
+    "locationCode": "LLW",
+    "label": "Lelydorp",
+    "subdivisionCode": "WA",
+    "function": "126",
+    "lat": 5.7,
+    "lng": -55.233333
+  },
+  {
+    "locationCode": "MZG",
+    "label": "Meerzorg",
+    "subdivisionCode": "CM",
+    "function": "3",
+    "lat": 5.816667,
+    "lng": -55.15
+  },
+  {
+    "locationCode": "MOJ",
+    "label": "Moengo",
+    "function": "14"
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Nieuw Amsterdam",
+    "subdivisionCode": "CM",
+    "function": "3",
+    "lat": 5.883333,
+    "lng": -55.083333
+  },
+  {
+    "locationCode": "ICK",
+    "label": "Nieuw Nickerie",
+    "function": "14"
+  },
+  {
+    "locationCode": "OEM",
+    "label": "Paloemeu",
+    "function": "4"
+  },
+  {
+    "locationCode": "PBM",
+    "label": "Paramaribo",
+    "function": "145"
+  },
+  {
+    "locationCode": "ORG",
+    "label": "Paramaribo Zorg en Hoop Airport",
+    "subdivisionCode": "PR",
+    "function": "4",
+    "lat": 5.8,
+    "lng": -55.183333
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Paranam",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPO",
+    "label": "Saramacca Polder",
+    "subdivisionCode": "WA",
+    "function": "3",
+    "lat": 5.816667,
+    "lng": -55.25
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Smalkalden",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMZ",
+    "label": "Stoelmans Eiland",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Totness",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGI",
+    "label": "Wageningen",
+    "function": "14"
+  },
+  {
+    "locationCode": "WSO",
+    "label": "Washabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZDJ",
+    "label": "Zanderij",
+    "function": "3",
+    "lat": 5.45,
+    "lng": -55.183333
+  }
+]

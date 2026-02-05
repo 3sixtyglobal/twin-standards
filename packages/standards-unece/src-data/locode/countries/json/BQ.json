@@ -1,0 +1,67 @@
+[
+  {
+    "locationCode": "BON",
+    "label": "Bonaire",
+    "function": "145",
+    "lat": 12.116667,
+    "lng": -68.266667
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Dorp Rincón",
+    "labelWithDiacritics": "Dorp Rincon",
+    "function": "13",
+    "lat": 12.233333,
+    "lng": -68.333333
+  },
+  {
+    "locationCode": "DTK",
+    "label": "Dorp Tera Kora",
+    "function": "6",
+    "lat": 12.133333,
+    "lng": -68.266667
+  },
+  {
+    "locationCode": "GOT",
+    "label": "Goto",
+    "function": "1",
+    "lat": 12.216667,
+    "lng": -68.383333
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kralendijk",
+    "function": "1",
+    "lat": 12.15,
+    "lng": -68.266667
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Oranjestad",
+    "subdivisionCode": "SE",
+    "function": "3",
+    "lat": 17.466667,
+    "lng": -62.983333
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Saba",
+    "function": "145",
+    "lat": 17.633333,
+    "lng": -63.233333
+  },
+  {
+    "locationCode": "EUX",
+    "label": "Sint Eustatius",
+    "function": "145",
+    "lat": 17.483333,
+    "lng": -62.966667
+  },
+  {
+    "locationCode": "BOT",
+    "label": "The Bottom",
+    "function": "3",
+    "lat": 17.633333,
+    "lng": -63.233333
+  }
+]

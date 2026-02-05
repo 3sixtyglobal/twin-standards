@@ -1,0 +1,274 @@
+[
+  {
+    "locationCode": "ALA",
+    "label": "Al Azaiba",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -23.6,
+    "lng": 58.533333
+  },
+  {
+    "locationCode": "AMZ",
+    "label": "Al Mazunah",
+    "subdivisionCode": "ZU",
+    "function": "36",
+    "lat": 17.833333,
+    "lng": 52.633333
+  },
+  {
+    "locationCode": "MNH",
+    "label": "Al Mudayq",
+    "subdivisionCode": "BS",
+    "function": "134",
+    "lat": 23.816667,
+    "lng": 57.516667
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Al'Amrat",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 23.516667,
+    "lng": 58.483333
+  },
+  {
+    "locationCode": "SUW",
+    "label": "Al-Suwaiq",
+    "subdivisionCode": "BJ",
+    "function": "1",
+    "lat": 23.85,
+    "lng": 57.433333
+  },
+  {
+    "locationCode": "BKK",
+    "label": "Barka",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 23.7,
+    "lng": 57.55
+  },
+  {
+    "locationCode": "BID",
+    "label": "Bidbid",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 23.4,
+    "lng": 58.116667
+  },
+  {
+    "locationCode": "RMB",
+    "label": "Buraimi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BYB",
+    "label": "Dibaa",
+    "function": "4"
+  },
+  {
+    "locationCode": "DQM",
+    "label": "Duqm",
+    "subdivisionCode": "WU",
+    "function": "13",
+    "lat": 19.65,
+    "lng": 57.7
+  },
+  {
+    "locationCode": "FAH",
+    "label": "Fahal",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 23.683333,
+    "lng": 58.5
+  },
+  {
+    "locationCode": "R2H",
+    "label": "Ghurah",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 23.516667,
+    "lng": 57.183333
+  },
+  {
+    "locationCode": "KHS",
+    "label": "Khasab",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDP",
+    "label": "Khazaen",
+    "subdivisionCode": "BJ",
+    "function": "36",
+    "lat": 23.55,
+    "lng": 57.8
+  },
+  {
+    "locationCode": "OMM",
+    "label": "Marmul",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSH",
+    "label": "Masirah",
+    "subdivisionCode": "SH",
+    "function": "4",
+    "lat": 20.416667,
+    "lng": 58.833333
+  },
+  {
+    "locationCode": "MFH",
+    "label": "Mina' al Fahl",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 23.633333,
+    "lng": 58.516667
+  },
+  {
+    "locationCode": "MNQ",
+    "label": "Mina' Qabus",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 23.616667,
+    "lng": 58.566667
+  },
+  {
+    "locationCode": "STQ",
+    "label": "Mina Sultan Qaboos, Muscat",
+    "function": "13",
+    "lat": 23.616667,
+    "lng": 58.55
+  },
+  {
+    "locationCode": "MCT",
+    "label": "Muscat",
+    "subdivisionCode": "MA",
+    "function": "145",
+    "lat": 23.6,
+    "lng": 58.583333
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Muthra",
+    "function": "1"
+  },
+  {
+    "locationCode": "NIZ",
+    "label": "Nizwa",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 22.933333,
+    "lng": 57.533333
+  },
+  {
+    "locationCode": "OPQ",
+    "label": "Port Qaboos",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Port Sultan",
+    "function": "1",
+    "lat": 23.616667,
+    "lng": 58.633333
+  },
+  {
+    "locationCode": "QAL",
+    "label": "Qalhat",
+    "subdivisionCode": "SH",
+    "function": "13",
+    "lat": 22.7,
+    "lng": 59.366667
+  },
+  {
+    "locationCode": "QLM",
+    "label": "Qarn Alam",
+    "subdivisionCode": "WU",
+    "function": "3",
+    "lat": 21.3,
+    "lng": 57.083333
+  },
+  {
+    "locationCode": "QUO",
+    "label": "Quoin Island",
+    "function": "1",
+    "lat": 26.583333,
+    "lng": 56.516667
+  },
+  {
+    "locationCode": "QYT",
+    "label": "Qurayyat",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 23.316667,
+    "lng": 58.9
+  },
+  {
+    "locationCode": "RAY",
+    "label": "Raysut",
+    "function": "1"
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Rusayl",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 23.533333,
+    "lng": 58.183333
+  },
+  {
+    "locationCode": "RWI",
+    "label": "Ruwi",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safa",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 23.783333,
+    "lng": 56.683333
+  },
+  {
+    "locationCode": "SLL",
+    "label": "Salalah",
+    "function": "14"
+  },
+  {
+    "locationCode": "SEE",
+    "label": "Seeb",
+    "function": "3",
+    "lat": 23.583333,
+    "lng": 58.283333
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shinas",
+    "subdivisionCode": "BS",
+    "function": "1",
+    "lat": 24.733333,
+    "lng": 56.466667
+  },
+  {
+    "locationCode": "SOH",
+    "label": "Sohar",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUH",
+    "label": "Sur",
+    "function": "4"
+  },
+  {
+    "locationCode": "OFC",
+    "label": "Sur",
+    "subdivisionCode": "SJ",
+    "function": "1",
+    "lat": 22.65,
+    "lng": 59.433333
+  },
+  {
+    "locationCode": "TTH",
+    "label": "Thumrait",
+    "function": "34"
+  }
+]

@@ -1,0 +1,1185 @@
+[
+  {
+    "locationCode": "AAW",
+    "label": "Abbottabad",
+    "function": "34"
+  },
+  {
+    "locationCode": "ADP",
+    "label": "Ahmadpur",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARF",
+    "label": "Arifwala",
+    "function": "23"
+  },
+  {
+    "locationCode": "ATG",
+    "label": "Attock",
+    "function": "34"
+  },
+  {
+    "locationCode": "ATY",
+    "label": "Attock City",
+    "function": "2"
+  },
+  {
+    "locationCode": "BDN",
+    "label": "Badin",
+    "function": "234"
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagh/AJK",
+    "function": "3"
+  },
+  {
+    "locationCode": "WGB",
+    "label": "Bahawalnagar",
+    "function": "34"
+  },
+  {
+    "locationCode": "BHV",
+    "label": "Bahawalpur",
+    "subdivisionCode": "PB",
+    "function": "234"
+  },
+  {
+    "locationCode": "BNP",
+    "label": "Bannu",
+    "subdivisionCode": "KP",
+    "function": "234"
+  },
+  {
+    "locationCode": "BPR",
+    "label": "Bhai Pheru",
+    "function": "3"
+  },
+  {
+    "locationCode": "BKR",
+    "label": "Bhakkar",
+    "function": "23"
+  },
+  {
+    "locationCode": "BWL",
+    "label": "Bhalwal",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 72.866667
+  },
+  {
+    "locationCode": "BHM",
+    "label": "Bhimber",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 32.966667,
+    "lng": 74.066667
+  },
+  {
+    "locationCode": "BHC",
+    "label": "Bhurban",
+    "function": "34"
+  },
+  {
+    "locationCode": "BRW",
+    "label": "Burewala",
+    "function": "3"
+  },
+  {
+    "locationCode": "CWP",
+    "label": "Campbellpore",
+    "function": "4"
+  },
+  {
+    "locationCode": "CKW",
+    "label": "Chakwal",
+    "function": "3"
+  },
+  {
+    "locationCode": "CMN",
+    "label": "Chaman",
+    "subdivisionCode": "BA",
+    "function": "23",
+    "lat": 30.916667,
+    "lng": 66.433333
+  },
+  {
+    "locationCode": "CGM",
+    "label": "Changa Manga",
+    "function": "3"
+  },
+  {
+    "locationCode": "CSD",
+    "label": "Charsadda",
+    "function": "23"
+  },
+  {
+    "locationCode": "CCE",
+    "label": "Chichawatni",
+    "function": "23"
+  },
+  {
+    "locationCode": "CCM",
+    "label": "Chichoki Mallian",
+    "function": "23"
+  },
+  {
+    "locationCode": "CHB",
+    "label": "Chilas",
+    "function": "34"
+  },
+  {
+    "locationCode": "CSI",
+    "label": "Chishtian",
+    "function": "23"
+  },
+  {
+    "locationCode": "CJL",
+    "label": "Chitral",
+    "subdivisionCode": "KP",
+    "function": "34"
+  },
+  {
+    "locationCode": "DDU",
+    "label": "Dadu",
+    "subdivisionCode": "SD",
+    "function": "234"
+  },
+  {
+    "locationCode": "DRK",
+    "label": "Daharki",
+    "function": "23"
+  },
+  {
+    "locationCode": "DBA",
+    "label": "Dalbandin",
+    "subdivisionCode": "BA",
+    "function": "234"
+  },
+  {
+    "locationCode": "DKA",
+    "label": "Daska",
+    "function": "3"
+  },
+  {
+    "locationCode": "DEA",
+    "label": "Dera Ghazi Khan",
+    "subdivisionCode": "PB",
+    "function": "23"
+  },
+  {
+    "locationCode": "DSK",
+    "label": "Dera Ismail Khan",
+    "subdivisionCode": "KP",
+    "function": "34"
+  },
+  {
+    "locationCode": "DIR",
+    "label": "Dir",
+    "function": "3"
+  },
+  {
+    "locationCode": "LYP",
+    "label": "Faisalabad",
+    "subdivisionCode": "PB",
+    "function": "2346"
+  },
+  {
+    "locationCode": "FZB",
+    "label": "Faizabad",
+    "subdivisionCode": "KP",
+    "function": "3",
+    "lat": 34.383333,
+    "lng": 71.75
+  },
+  {
+    "locationCode": "GAD",
+    "label": "Gadoon",
+    "subdivisionCode": "IS",
+    "function": "3"
+  },
+  {
+    "locationCode": "GHB",
+    "label": "Garhi Habibullah Khan",
+    "subdivisionCode": "KP",
+    "function": "36",
+    "lat": 34.4,
+    "lng": 73.383333
+  },
+  {
+    "locationCode": "GHK",
+    "label": "Ghakhar",
+    "function": "3"
+  },
+  {
+    "locationCode": "GHT",
+    "label": "Ghotki",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 28.016667,
+    "lng": 69.316667
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gilgit",
+    "subdivisionCode": "GB",
+    "function": "34"
+  },
+  {
+    "locationCode": "GKN",
+    "label": "Gujar Khan",
+    "function": "23"
+  },
+  {
+    "locationCode": "GRW",
+    "label": "Gujranwala",
+    "function": "23"
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Gujrat",
+    "subdivisionCode": "PB",
+    "function": "234"
+  },
+  {
+    "locationCode": "GWD",
+    "label": "Gwadar",
+    "subdivisionCode": "BA",
+    "function": "134"
+  },
+  {
+    "locationCode": "HFD",
+    "label": "Hafizabad",
+    "function": "3"
+  },
+  {
+    "locationCode": "HPR",
+    "label": "Haripur",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRU",
+    "label": "Haripur Hazara",
+    "function": "2"
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hasilpur",
+    "subdivisionCode": "PB",
+    "function": "6",
+    "lat": 29.75,
+    "lng": 71.633333
+  },
+  {
+    "locationCode": "HSN",
+    "label": "Hassanabdal",
+    "function": "3"
+  },
+  {
+    "locationCode": "HVN",
+    "label": "Havelian",
+    "function": "23"
+  },
+  {
+    "locationCode": "HAY",
+    "label": "Hayatabad",
+    "subdivisionCode": "KP",
+    "function": "6",
+    "lat": 34.266667,
+    "lng": 71.683333
+  },
+  {
+    "locationCode": "HUB",
+    "label": "Hub",
+    "function": "3"
+  },
+  {
+    "locationCode": "HDD",
+    "label": "Hyderabad",
+    "subdivisionCode": "SD",
+    "function": "2346"
+  },
+  {
+    "locationCode": "ISB",
+    "label": "Islamabad",
+    "subdivisionCode": "IS",
+    "function": "345"
+  },
+  {
+    "locationCode": "JAG",
+    "label": "Jacobabad",
+    "subdivisionCode": "SD",
+    "function": "234"
+  },
+  {
+    "locationCode": "JLP",
+    "label": "Jalalpur",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAM",
+    "label": "Jam Shoro",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 25.433333,
+    "lng": 68.333333
+  },
+  {
+    "locationCode": "JRD",
+    "label": "Jamrud",
+    "function": "3"
+  },
+  {
+    "locationCode": "JNW",
+    "label": "Jaranwala",
+    "function": "23"
+  },
+  {
+    "locationCode": "JLM",
+    "label": "Jhal Magsi",
+    "function": "3"
+  },
+  {
+    "locationCode": "JNG",
+    "label": "Jhang",
+    "function": "3"
+  },
+  {
+    "locationCode": "JHC",
+    "label": "Jhang City",
+    "function": "2"
+  },
+  {
+    "locationCode": "JMR",
+    "label": "Jhelum",
+    "subdivisionCode": "PB",
+    "function": "23",
+    "lat": 32.933333,
+    "lng": 73.733333
+  },
+  {
+    "locationCode": "JIW",
+    "label": "Jiwani",
+    "subdivisionCode": "BA",
+    "function": "134"
+  },
+  {
+    "locationCode": "JGS",
+    "label": "Jungshahi",
+    "function": "2"
+  },
+  {
+    "locationCode": "KBW",
+    "label": "Kabirwala",
+    "function": "3"
+  },
+  {
+    "locationCode": "KCF",
+    "label": "Kadanwari",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBH",
+    "label": "Kalat",
+    "function": "34"
+  },
+  {
+    "locationCode": "KML",
+    "label": "Kamalia",
+    "function": "3"
+  },
+  {
+    "locationCode": "KMB",
+    "label": "Kambar",
+    "function": "3"
+  },
+  {
+    "locationCode": "KHI",
+    "label": "Karachi",
+    "subdivisionCode": "SD",
+    "function": "12345"
+  },
+  {
+    "locationCode": "KYC",
+    "label": "Karachi City",
+    "function": "2"
+  },
+  {
+    "locationCode": "KCT",
+    "label": "Karachi Container Terminal",
+    "subdivisionCode": "SD",
+    "function": "1",
+    "lat": 24.833333,
+    "lng": 66.966667
+  },
+  {
+    "locationCode": "PZK",
+    "label": "Karachi Freight Terminal",
+    "subdivisionCode": "SD",
+    "function": "6",
+    "lat": 24.866667,
+    "lng": 67.033333
+  },
+  {
+    "locationCode": "KZL",
+    "label": "Kashmor",
+    "function": "23"
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kasur",
+    "function": "3"
+  },
+  {
+    "locationCode": "KBA",
+    "label": "Keti Bandar",
+    "function": "1",
+    "lat": 24.133333,
+    "lng": 67.433333
+  },
+  {
+    "locationCode": "KBU",
+    "label": "Keti Bunder",
+    "subdivisionCode": "SD",
+    "function": "13"
+  },
+  {
+    "locationCode": "KHP",
+    "label": "Khairpur",
+    "function": "23"
+  },
+  {
+    "locationCode": "KWL",
+    "label": "Khanewal",
+    "function": "23"
+  },
+  {
+    "locationCode": "KPR",
+    "label": "Khanpur",
+    "function": "23"
+  },
+  {
+    "locationCode": "QKH",
+    "label": "Kharian",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWA",
+    "label": "Khewra",
+    "function": "2"
+  },
+  {
+    "locationCode": "KPO",
+    "label": "Khipro",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 25.833333,
+    "lng": 69.366667
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Khokhropar",
+    "subdivisionCode": "SD",
+    "function": "23",
+    "lat": 25.7,
+    "lng": 70.183333
+  },
+  {
+    "locationCode": "KHB",
+    "label": "Khushab",
+    "function": "23"
+  },
+  {
+    "locationCode": "KDD",
+    "label": "Khuzdar",
+    "subdivisionCode": "BA",
+    "function": "34"
+  },
+  {
+    "locationCode": "KHW",
+    "label": "Khwazakhela",
+    "subdivisionCode": "KP",
+    "function": "3",
+    "lat": 34.933333,
+    "lng": 72.466667
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kiamari",
+    "subdivisionCode": "SD",
+    "function": "1",
+    "lat": 24.816667,
+    "lng": 66.966667
+  },
+  {
+    "locationCode": "OHT",
+    "label": "Kohat",
+    "subdivisionCode": "KP",
+    "function": "234"
+  },
+  {
+    "locationCode": "KHC",
+    "label": "Kohat Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "KLU",
+    "label": "Kohlu",
+    "function": "3"
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Kot Addu",
+    "function": "23"
+  },
+  {
+    "locationCode": "LPK",
+    "label": "Kot Lakhpat",
+    "function": "2"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kotli/AJK",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kotri",
+    "function": "23"
+  },
+  {
+    "locationCode": "LHE",
+    "label": "Lahore",
+    "subdivisionCode": "PB",
+    "function": "23456"
+  },
+  {
+    "locationCode": "LRC",
+    "label": "Lahore Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "LKM",
+    "label": "Lakki Marwat",
+    "function": "3"
+  },
+  {
+    "locationCode": "LLM",
+    "label": "Lala Mosa",
+    "function": "23"
+  },
+  {
+    "locationCode": "LND",
+    "label": "Landhi",
+    "function": "23"
+  },
+  {
+    "locationCode": "LRK",
+    "label": "Larkana",
+    "function": "23"
+  },
+  {
+    "locationCode": "LSB",
+    "label": "Lasbela",
+    "function": "3"
+  },
+  {
+    "locationCode": "LON",
+    "label": "Lodhran",
+    "function": "23"
+  },
+  {
+    "locationCode": "LRG",
+    "label": "Lora Lai",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKD",
+    "label": "Malakand",
+    "function": "3"
+  },
+  {
+    "locationCode": "MBD",
+    "label": "Mandi Bahauddin",
+    "function": "2"
+  },
+  {
+    "locationCode": "MBW",
+    "label": "Mandi Burewala",
+    "function": "2"
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mangla",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 72.383333
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Mansehra",
+    "function": "34"
+  },
+  {
+    "locationCode": "MDX",
+    "label": "Mardan",
+    "function": "23"
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Matli",
+    "function": "3"
+  },
+  {
+    "locationCode": "MHR",
+    "label": "Mehrabpur",
+    "function": "2"
+  },
+  {
+    "locationCode": "MYH",
+    "label": "Mian Channu",
+    "function": "23"
+  },
+  {
+    "locationCode": "MWD",
+    "label": "Mianwali",
+    "subdivisionCode": "PB",
+    "function": "234"
+  },
+  {
+    "locationCode": "MNG",
+    "label": "Mingaora",
+    "function": "3"
+  },
+  {
+    "locationCode": "MPD",
+    "label": "Mirpur Khas (= Sindhri)",
+    "subdivisionCode": "SD",
+    "function": "234"
+  },
+  {
+    "locationCode": "MRP",
+    "label": "Mirpur Mathelo",
+    "function": "23"
+  },
+  {
+    "locationCode": "MPR",
+    "label": "Mirpur/AJK",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": 33.133333,
+    "lng": 73.75
+  },
+  {
+    "locationCode": "MGP",
+    "label": "Mogulpura/Lahore",
+    "subdivisionCode": "PB",
+    "function": "23"
+  },
+  {
+    "locationCode": "MJD",
+    "label": "Mohenjodaro",
+    "subdivisionCode": "SD",
+    "function": "34"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Moro",
+    "function": "3"
+  },
+  {
+    "locationCode": "BQM",
+    "label": "Muhammad Bin Qasim/Karachi",
+    "subdivisionCode": "SD",
+    "function": "1",
+    "lat": 24.766667,
+    "lng": 67.333333
+  },
+  {
+    "locationCode": "MUX",
+    "label": "Multan",
+    "subdivisionCode": "PB",
+    "function": "2346"
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Multan Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "MXC",
+    "label": "Multan City",
+    "function": "2"
+  },
+  {
+    "locationCode": "MDK",
+    "label": "Muridke",
+    "function": "23"
+  },
+  {
+    "locationCode": "MFG",
+    "label": "Muzaffarabad",
+    "subdivisionCode": "JK",
+    "function": "234"
+  },
+  {
+    "locationCode": "MZJ",
+    "label": "Muzaffargarh",
+    "subdivisionCode": "PB",
+    "function": "23"
+  },
+  {
+    "locationCode": "NNS",
+    "label": "Nankana Sahib",
+    "function": "23"
+  },
+  {
+    "locationCode": "NRW",
+    "label": "Narowal",
+    "function": "23"
+  },
+  {
+    "locationCode": "WNS",
+    "label": "Nawabshah",
+    "subdivisionCode": "SD",
+    "function": "234"
+  },
+  {
+    "locationCode": "NZB",
+    "label": "Nazimabad",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 25.9,
+    "lng": 67.016667
+  },
+  {
+    "locationCode": "NDD",
+    "label": "Nok Kundi",
+    "subdivisionCode": "BA",
+    "function": "23"
+  },
+  {
+    "locationCode": "NSR",
+    "label": "Nowshera",
+    "function": "23"
+  },
+  {
+    "locationCode": "NHS",
+    "label": "Nushki",
+    "function": "4"
+  },
+  {
+    "locationCode": "OKR",
+    "label": "Okara",
+    "function": "23"
+  },
+  {
+    "locationCode": "OKC",
+    "label": "Okara Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "ORW",
+    "label": "Ormara",
+    "subdivisionCode": "BA",
+    "function": "134"
+  },
+  {
+    "locationCode": "PBI",
+    "label": "Pabbi",
+    "function": "3"
+  },
+  {
+    "locationCode": "PCT",
+    "label": "Pakistan International Container Terminal/Karachi",
+    "function": "1"
+  },
+  {
+    "locationCode": "PJG",
+    "label": "Panjgur",
+    "subdivisionCode": "BA",
+    "function": "34"
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Pano Aqil",
+    "function": "23"
+  },
+  {
+    "locationCode": "PAJ",
+    "label": "Para Chinar",
+    "function": "34"
+  },
+  {
+    "locationCode": "PSI",
+    "label": "Pasni",
+    "subdivisionCode": "BA",
+    "function": "134"
+  },
+  {
+    "locationCode": "PTO",
+    "label": "Pattoki",
+    "function": "23"
+  },
+  {
+    "locationCode": "PEW",
+    "label": "Peshawar",
+    "subdivisionCode": "KP",
+    "function": "234"
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Peshawar Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "PSH",
+    "label": "Peshawar City",
+    "function": "2"
+  },
+  {
+    "locationCode": "PON",
+    "label": "Poonch/AJK",
+    "function": "3"
+  },
+  {
+    "locationCode": "QCT",
+    "label": "Qasim International Container Terminal/Karachi",
+    "function": "1"
+  },
+  {
+    "locationCode": "QSM",
+    "label": "Qasimabad",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 30.5,
+    "lng": 72.6
+  },
+  {
+    "locationCode": "QSP",
+    "label": "Qila Sheikhupura",
+    "function": "2"
+  },
+  {
+    "locationCode": "UET",
+    "label": "Quetta",
+    "subdivisionCode": "BA",
+    "function": "23456"
+  },
+  {
+    "locationCode": "RYK",
+    "label": "Rahim Yar Khan",
+    "subdivisionCode": "PB",
+    "function": "234"
+  },
+  {
+    "locationCode": "RND",
+    "label": "Raiwind",
+    "function": "2"
+  },
+  {
+    "locationCode": "RJP",
+    "label": "Rajanpur",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAZ",
+    "label": "Rawala Kot",
+    "subdivisionCode": "JK",
+    "function": "34"
+  },
+  {
+    "locationCode": "RWP",
+    "label": "Rawalpindi",
+    "subdivisionCode": "PB",
+    "function": "23456"
+  },
+  {
+    "locationCode": "REQ",
+    "label": "Reko Diq",
+    "subdivisionCode": "JK",
+    "function": "4",
+    "lat": 28.816667,
+    "lng": 64.7
+  },
+  {
+    "locationCode": "RCS",
+    "label": "Risalpur Cantt",
+    "function": "23"
+  },
+  {
+    "locationCode": "ROH",
+    "label": "Rohri",
+    "function": "23"
+  },
+  {
+    "locationCode": "SDK",
+    "label": "Sadikabad",
+    "function": "23"
+  },
+  {
+    "locationCode": "SWN",
+    "label": "Sahiwal",
+    "function": "234"
+  },
+  {
+    "locationCode": "SDT",
+    "label": "Saidu Sharif",
+    "subdivisionCode": "KP",
+    "function": "34"
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Samasata",
+    "function": "2"
+  },
+  {
+    "locationCode": "SMB",
+    "label": "Sambrial",
+    "function": "36"
+  },
+  {
+    "locationCode": "SMD",
+    "label": "Sammundri",
+    "function": "3"
+  },
+  {
+    "locationCode": "SNG",
+    "label": "Sanghar",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLL",
+    "label": "Sangla Hill",
+    "function": "23"
+  },
+  {
+    "locationCode": "SGI",
+    "label": "Sargodha",
+    "function": "234"
+  },
+  {
+    "locationCode": "ZEO",
+    "label": "Savi Ragha",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAW",
+    "label": "Sawan",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 24.55,
+    "lng": 67.616667
+  },
+  {
+    "locationCode": "SYW",
+    "label": "Sehwen Sharif",
+    "function": "34"
+  },
+  {
+    "locationCode": "SXG",
+    "label": "Serai Alamgir",
+    "function": "2"
+  },
+  {
+    "locationCode": "SQR",
+    "label": "Shabqadar",
+    "function": "3"
+  },
+  {
+    "locationCode": "SHK",
+    "label": "Shahdadkot",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDU",
+    "label": "Shahdadpur",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Shahdara Bagh",
+    "function": "2"
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shamsi Airfield",
+    "subdivisionCode": "BA",
+    "function": "34",
+    "lat": 27.85,
+    "lng": 65.166667
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Sheikhupura",
+    "function": "3"
+  },
+  {
+    "locationCode": "SWV",
+    "label": "Shikarpur",
+    "function": "234"
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Shorkot",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Shorkot Cantt",
+    "function": "2"
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Sialkot",
+    "subdivisionCode": "PB",
+    "function": "2346",
+    "lat": 32.5,
+    "lng": 74.516667
+  },
+  {
+    "locationCode": "SBQ",
+    "label": "Sibi",
+    "function": "234"
+  },
+  {
+    "locationCode": "KDU",
+    "label": "Skardu",
+    "subdivisionCode": "JK",
+    "function": "34"
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Sui",
+    "subdivisionCode": "BA",
+    "function": "34"
+  },
+  {
+    "locationCode": "SKZ",
+    "label": "Sukkur",
+    "subdivisionCode": "SD",
+    "function": "234"
+  },
+  {
+    "locationCode": "SWB",
+    "label": "Swabi",
+    "function": "3"
+  },
+  {
+    "locationCode": "SWT",
+    "label": "Swat",
+    "subdivisionCode": "KP",
+    "function": "3",
+    "lat": 34.1,
+    "lng": 71.7
+  },
+  {
+    "locationCode": "TFT",
+    "label": "Taftan",
+    "subdivisionCode": "BA",
+    "function": "234"
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Talagang",
+    "subdivisionCode": "PB",
+    "function": "3",
+    "lat": 32.916667,
+    "lng": 72.416667
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Tando Adam",
+    "function": "3"
+  },
+  {
+    "locationCode": "TDA",
+    "label": "Tando Allahyar",
+    "function": "23"
+  },
+  {
+    "locationCode": "TLB",
+    "label": "Tarbela",
+    "subdivisionCode": "KP",
+    "function": "34"
+  },
+  {
+    "locationCode": "TXA",
+    "label": "Taxilla",
+    "function": "23"
+  },
+  {
+    "locationCode": "THT",
+    "label": "Thatta",
+    "function": "3"
+  },
+  {
+    "locationCode": "TMG",
+    "label": "Timargara",
+    "function": "3"
+  },
+  {
+    "locationCode": "TTS",
+    "label": "Toba Tek Singh",
+    "function": "23"
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torkham",
+    "subdivisionCode": "KP",
+    "function": "23"
+  },
+  {
+    "locationCode": "TUK",
+    "label": "Turbat",
+    "subdivisionCode": "BA",
+    "function": "34"
+  },
+  {
+    "locationCode": "VHR",
+    "label": "Vehari",
+    "function": "23"
+  },
+  {
+    "locationCode": "WGH",
+    "label": "Wagah",
+    "subdivisionCode": "PB",
+    "function": "23"
+  },
+  {
+    "locationCode": "WAH",
+    "label": "Wah",
+    "function": "23"
+  },
+  {
+    "locationCode": "WAF",
+    "label": "Wana",
+    "function": "4"
+  },
+  {
+    "locationCode": "WSK",
+    "label": "Warsak",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 34.166667,
+    "lng": 71.416667
+  },
+  {
+    "locationCode": "WZA",
+    "label": "Wazirabad",
+    "function": "3"
+  },
+  {
+    "locationCode": "PZH",
+    "label": "Zhob",
+    "subdivisionCode": "BA",
+    "function": "234"
+  },
+  {
+    "locationCode": "ZRT",
+    "label": "Ziarat",
+    "function": "3"
+  }
+]

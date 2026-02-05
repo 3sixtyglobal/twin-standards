@@ -1,0 +1,217 @@
+[
+  {
+    "code": "BA",
+    "label": "Baranya",
+    "type": "County"
+  },
+  {
+    "code": "BC",
+    "label": "Békéscsaba",
+    "type": "City with county rights"
+  },
+  {
+    "code": "BE",
+    "label": "Békés",
+    "type": "County"
+  },
+  {
+    "code": "BK",
+    "label": "Bács-Kiskun",
+    "type": "County"
+  },
+  {
+    "code": "BU",
+    "label": "Budapest",
+    "type": "Capital City"
+  },
+  {
+    "code": "BZ",
+    "label": "Borsod-Abaúj-Zemplén",
+    "type": "County"
+  },
+  {
+    "code": "CS",
+    "label": "Csongrád-Csanád",
+    "type": "County"
+  },
+  {
+    "code": "DE",
+    "label": "Debrecen",
+    "type": "City with county rights"
+  },
+  {
+    "code": "DU",
+    "label": "Dunaújváros",
+    "type": "City with county rights"
+  },
+  {
+    "code": "EG",
+    "label": "Eger",
+    "type": "City with county rights"
+  },
+  {
+    "code": "ER",
+    "label": "Érd",
+    "type": "City with county rights"
+  },
+  {
+    "code": "FE",
+    "label": "Fejér",
+    "type": "County"
+  },
+  {
+    "code": "GS",
+    "label": "Gyor-Moson-Sopron",
+    "type": "County"
+  },
+  {
+    "code": "GY",
+    "label": "Gyor",
+    "type": "City with county rights"
+  },
+  {
+    "code": "HB",
+    "label": "Hajdú-Bihar",
+    "type": "County"
+  },
+  {
+    "code": "HE",
+    "label": "Heves",
+    "type": "County"
+  },
+  {
+    "code": "HV",
+    "label": "Hódmezovásárhely",
+    "type": "City with county rights"
+  },
+  {
+    "code": "JN",
+    "label": "Jász-Nagykun-Szolnok",
+    "type": "County"
+  },
+  {
+    "code": "KE",
+    "label": "Komárom-Esztergom",
+    "type": "County"
+  },
+  {
+    "code": "KM",
+    "label": "Kecskemét",
+    "type": "City with county rights"
+  },
+  {
+    "code": "KV",
+    "label": "Kaposvár",
+    "type": "City with county rights"
+  },
+  {
+    "code": "MI",
+    "label": "Miskolc",
+    "type": "City with county rights"
+  },
+  {
+    "code": "NK",
+    "label": "Nagykanizsa",
+    "type": "City with county rights"
+  },
+  {
+    "code": "NO",
+    "label": "Nógrád",
+    "type": "County"
+  },
+  {
+    "code": "NY",
+    "label": "Nyíregyháza",
+    "type": "City with county rights"
+  },
+  {
+    "code": "PE",
+    "label": "Pest",
+    "type": "County"
+  },
+  {
+    "code": "PS",
+    "label": "Pécs",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SD",
+    "label": "Szeged",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SF",
+    "label": "Székesfehérvár",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SH",
+    "label": "Szombathely",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SK",
+    "label": "Szolnok",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SN",
+    "label": "Sopron",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SO",
+    "label": "Somogy",
+    "type": "County"
+  },
+  {
+    "code": "SS",
+    "label": "Szekszárd",
+    "type": "City with county rights"
+  },
+  {
+    "code": "ST",
+    "label": "Salgótarján",
+    "type": "City with county rights"
+  },
+  {
+    "code": "SZ",
+    "label": "Szabolcs-Szatmár-Bereg",
+    "type": "County"
+  },
+  {
+    "code": "TB",
+    "label": "Tatabánya",
+    "type": "City with county rights"
+  },
+  {
+    "code": "TO",
+    "label": "Tolna",
+    "type": "County"
+  },
+  {
+    "code": "VA",
+    "label": "Vas",
+    "type": "County"
+  },
+  {
+    "code": "VE",
+    "label": "Veszprém",
+    "type": "County"
+  },
+  {
+    "code": "VM",
+    "label": "Veszprém",
+    "type": "City with county rights"
+  },
+  {
+    "code": "ZA",
+    "label": "Zala",
+    "type": "County"
+  },
+  {
+    "code": "ZE",
+    "label": "Zalaegerszeg",
+    "type": "City with county rights"
+  }
+]

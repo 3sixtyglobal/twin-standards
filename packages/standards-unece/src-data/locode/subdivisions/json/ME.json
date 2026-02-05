@@ -1,0 +1,122 @@
+[
+  {
+    "code": "01",
+    "label": "Andrijevica",
+    "type": "Municipality"
+  },
+  {
+    "code": "02",
+    "label": "Bar",
+    "type": "Municipality"
+  },
+  {
+    "code": "03",
+    "label": "Berane",
+    "type": "Municipality"
+  },
+  {
+    "code": "04",
+    "label": "Bijelo Polje",
+    "type": "Municipality"
+  },
+  {
+    "code": "05",
+    "label": "Budva",
+    "type": "Municipality"
+  },
+  {
+    "code": "06",
+    "label": "Cetinje",
+    "type": "Municipality"
+  },
+  {
+    "code": "07",
+    "label": "Danilovgrad",
+    "type": "Municipality"
+  },
+  {
+    "code": "08",
+    "label": "Herceg-Novi",
+    "type": "Municipality"
+  },
+  {
+    "code": "09",
+    "label": "Kolain",
+    "type": "Municipality"
+  },
+  {
+    "code": "10",
+    "label": "Kotor",
+    "type": "Municipality"
+  },
+  {
+    "code": "11",
+    "label": "Mojkovac",
+    "type": "Municipality"
+  },
+  {
+    "code": "12",
+    "label": "Nikic´",
+    "type": "Municipality"
+  },
+  {
+    "code": "13",
+    "label": "Plav",
+    "type": "Municipality"
+  },
+  {
+    "code": "14",
+    "label": "Pljevlja",
+    "type": "Municipality"
+  },
+  {
+    "code": "15",
+    "label": "Pluine",
+    "type": "Municipality"
+  },
+  {
+    "code": "16",
+    "label": "Podgorica",
+    "type": "Municipality"
+  },
+  {
+    "code": "17",
+    "label": "Roaje",
+    "type": "Municipality"
+  },
+  {
+    "code": "18",
+    "label": "avnik",
+    "type": "Municipality"
+  },
+  {
+    "code": "19",
+    "label": "Tivat",
+    "type": "Municipality"
+  },
+  {
+    "code": "20",
+    "label": "Ulcinj",
+    "type": "Municipality"
+  },
+  {
+    "code": "21",
+    "label": "abljak",
+    "type": "Municipality"
+  },
+  {
+    "code": "22",
+    "label": "Gusinje",
+    "type": "Municipality"
+  },
+  {
+    "code": "23",
+    "label": "Petnjica",
+    "type": "Municipality"
+  },
+  {
+    "code": "24",
+    "label": "Tuzi",
+    "type": "Municipality"
+  }
+]

@@ -1,0 +1,5051 @@
+[
+  {
+    "locationCode": "ADB",
+    "label": "Adang Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "AEG",
+    "label": "Aekgodang",
+    "subdivisionCode": "SB",
+    "function": "4",
+    "lat": 0.8,
+    "lng": 99.566667
+  },
+  {
+    "locationCode": "AKE",
+    "label": "Akeselaka",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 1.05,
+    "lng": 127.966667
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Alor Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "AHI",
+    "label": "Amahai",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amamapare, Ij",
+    "function": "1"
+  },
+  {
+    "locationCode": "AMQ",
+    "label": "Ambon, Molucas",
+    "function": "1"
+  },
+  {
+    "locationCode": "APN",
+    "label": "Ampana",
+    "subdivisionCode": "ST",
+    "function": "1",
+    "lat": -0.866667,
+    "lng": 121.583333
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Ampenan, Bali",
+    "function": "1"
+  },
+  {
+    "locationCode": "TZD",
+    "label": "Amurang",
+    "subdivisionCode": "SA",
+    "function": "16",
+    "lat": 1.166667,
+    "lng": -124.566667
+  },
+  {
+    "locationCode": "ANC",
+    "label": "Ancol",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.116667,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Angar",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -3.65,
+    "lng": 130.833333
+  },
+  {
+    "locationCode": "AGD",
+    "label": "Anggi",
+    "function": "4",
+    "lat": -1.383333,
+    "lng": 133.866667
+  },
+  {
+    "locationCode": "AGR",
+    "label": "Anggrek",
+    "subdivisionCode": "SA",
+    "function": "13",
+    "lat": 0.85,
+    "lng": 122.783333
+  },
+  {
+    "locationCode": "ANK",
+    "label": "Angke",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "ANO",
+    "label": "Anoa Natuna Pt.",
+    "function": "1",
+    "lat": 5.233333,
+    "lng": 105.6
+  },
+  {
+    "locationCode": "ANR",
+    "label": "Anyer Kidul",
+    "subdivisionCode": "JB",
+    "function": "123",
+    "lat": -6.066667,
+    "lng": 105.883333
+  },
+  {
+    "locationCode": "AAS",
+    "label": "Apalapsili",
+    "function": "4",
+    "lat": -3.916667,
+    "lng": 139.25
+  },
+  {
+    "locationCode": "API",
+    "label": "Api Api",
+    "function": "0"
+  },
+  {
+    "locationCode": "AJS",
+    "label": "Arjasa",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -6.85,
+    "lng": 115.266667
+  },
+  {
+    "locationCode": "AJN",
+    "label": "Arjuna, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARB",
+    "label": "Aroe Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARJ",
+    "label": "Arso",
+    "subdivisionCode": "PA",
+    "function": "4",
+    "lat": -2.9,
+    "lng": 140.75
+  },
+  {
+    "locationCode": "AUN",
+    "label": "Arun",
+    "function": "1"
+  },
+  {
+    "locationCode": "IAM",
+    "label": "Asam Asam",
+    "subdivisionCode": "KS",
+    "function": "6",
+    "lat": -3.9,
+    "lng": 115.1
+  },
+  {
+    "locationCode": "ASI",
+    "label": "Asike",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": -6.65,
+    "lng": 140.416667
+  },
+  {
+    "locationCode": "ABU",
+    "label": "Atambua",
+    "function": "3"
+  },
+  {
+    "locationCode": "AYW",
+    "label": "Ayawasi",
+    "function": "4",
+    "lat": -1.2,
+    "lng": 132.5
+  },
+  {
+    "locationCode": "BAD",
+    "label": "Badau",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": -2.833333,
+    "lng": 107.8
+  },
+  {
+    "locationCode": "BXD",
+    "label": "Bade",
+    "function": "4"
+  },
+  {
+    "locationCode": "BGD",
+    "label": "Bagendang",
+    "subdivisionCode": "KT",
+    "function": "1",
+    "lat": -2.733333,
+    "lng": 112.55
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahudopi",
+    "subdivisionCode": "ST",
+    "function": "3",
+    "lat": -2.783333,
+    "lng": 122.1
+  },
+  {
+    "locationCode": "BJW",
+    "label": "Bajawa",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPN",
+    "label": "Balikpapan",
+    "subdivisionCode": "KI",
+    "function": "14",
+    "lat": -1.283333,
+    "lng": 116.833333
+  },
+  {
+    "locationCode": "BLH",
+    "label": "Balohan",
+    "subdivisionCode": "AC",
+    "function": "1",
+    "lat": 5.816667,
+    "lng": 95.333333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balongan",
+    "function": "1",
+    "lat": -6.383333,
+    "lng": 108.4
+  },
+  {
+    "locationCode": "NAF",
+    "label": "Banaina",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTJ",
+    "label": "Banda Aceh",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDA",
+    "label": "Bandanaira",
+    "subdivisionCode": "MA",
+    "function": "34",
+    "lat": -4.533333,
+    "lng": 129.9
+  },
+  {
+    "locationCode": "TKG",
+    "label": "Bandar Lampung",
+    "function": "4"
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Bandengan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -6.916667,
+    "lng": 110.2
+  },
+  {
+    "locationCode": "BDO",
+    "label": "Bandung, Java",
+    "function": "45"
+  },
+  {
+    "locationCode": "BGG",
+    "label": "Banggai",
+    "function": "1"
+  },
+  {
+    "locationCode": "5AN",
+    "label": "Bangkalan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.016667,
+    "lng": 112.733333
+  },
+  {
+    "locationCode": "BJN",
+    "label": "Banjaran",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.2,
+    "lng": 108.783333
+  },
+  {
+    "locationCode": "BJB",
+    "label": "Banjarbaru",
+    "subdivisionCode": "KS",
+    "function": "3",
+    "lat": -3.416667,
+    "lng": 114.833333
+  },
+  {
+    "locationCode": "BDJ",
+    "label": "Banjarmasin",
+    "function": "14"
+  },
+  {
+    "locationCode": "BAJ",
+    "label": "Banjarnegara",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.383333,
+    "lng": 109.683333
+  },
+  {
+    "locationCode": "BJU",
+    "label": "Banjuwangi, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Banten",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTL",
+    "label": "Bantul",
+    "subdivisionCode": "KI",
+    "function": "6",
+    "lat": 4.15,
+    "lng": 116.816667
+  },
+  {
+    "locationCode": "IBL",
+    "label": "Bantul",
+    "subdivisionCode": "YO",
+    "function": "6",
+    "lat": -7.9,
+    "lng": 110.333333
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Banyumas",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.516667,
+    "lng": 109.283333
+  },
+  {
+    "locationCode": "BNI",
+    "label": "Banyuwangi",
+    "subdivisionCode": "JI",
+    "function": "23",
+    "lat": -8.2,
+    "lng": 114.35
+  },
+  {
+    "locationCode": "BA2",
+    "label": "Baralaja",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.45
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Batam (ex Batu Besar)",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTM",
+    "label": "Batam Island",
+    "subdivisionCode": "KR",
+    "function": "13",
+    "lat": 1.083333,
+    "lng": 104.033333
+  },
+  {
+    "locationCode": "BTG",
+    "label": "Batang",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -6.916667,
+    "lng": 109.75
+  },
+  {
+    "locationCode": "5TU",
+    "label": "Batu",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.866667,
+    "lng": 112.516667
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Batu Ampar",
+    "subdivisionCode": "KR",
+    "function": "13",
+    "lat": 1.166667,
+    "lng": 104.016667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Batu Kilat",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAM",
+    "label": "Batuampar",
+    "subdivisionCode": "RI",
+    "function": "13",
+    "lat": -0.966667,
+    "lng": 102.733333
+  },
+  {
+    "locationCode": "5BT",
+    "label": "Batubantar",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.35,
+    "lng": 106.033333
+  },
+  {
+    "locationCode": "BTW",
+    "label": "Batulicin",
+    "subdivisionCode": "KS",
+    "function": "134",
+    "lat": -3.45,
+    "lng": 115.983333
+  },
+  {
+    "locationCode": "BUW",
+    "label": "Baubau, Butung",
+    "function": "4"
+  },
+  {
+    "locationCode": "5BA",
+    "label": "Bayah",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.916667,
+    "lng": 106.25
+  },
+  {
+    "locationCode": "BYH",
+    "label": "Bayah",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.916667,
+    "lng": 106.25
+  },
+  {
+    "locationCode": "BEK",
+    "label": "Bekapai Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "BKA",
+    "label": "Bekasi",
+    "function": "3"
+  },
+  {
+    "locationCode": "BES",
+    "label": "Bekasi Timur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.233333,
+    "lng": 106.983333
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Belanak Terminal",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 4.166667,
+    "lng": 106.233333
+  },
+  {
+    "locationCode": "BLW",
+    "label": "Belawan, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "BET",
+    "label": "Belida Terminal",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 4.133333,
+    "lng": 105.133333
+  },
+  {
+    "locationCode": "BLV",
+    "label": "Beliling",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Belitung",
+    "subdivisionCode": "SS",
+    "function": "1",
+    "lat": -2.833333,
+    "lng": 107.916667
+  },
+  {
+    "locationCode": "NBR",
+    "label": "Bener Meriah",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 4.75,
+    "lng": 97
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Benete",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.866667,
+    "lng": 116.716667
+  },
+  {
+    "locationCode": "BKI",
+    "label": "Bengkalis, St",
+    "function": "0"
+  },
+  {
+    "locationCode": "BKY",
+    "label": "Bengkayang",
+    "subdivisionCode": "KB",
+    "function": "3",
+    "lat": -0.833333,
+    "lng": 109.483333
+  },
+  {
+    "locationCode": "BKS",
+    "label": "Bengkulu, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Benoa",
+    "subdivisionCode": "BA",
+    "function": "1",
+    "lat": -8.766667,
+    "lng": 115.216667
+  },
+  {
+    "locationCode": "BNW",
+    "label": "Benowo",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.233333,
+    "lng": 112.6
+  },
+  {
+    "locationCode": "BEJ",
+    "label": "Berau",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTO",
+    "label": "Betro",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.383333,
+    "lng": 112.75
+  },
+  {
+    "locationCode": "BIK",
+    "label": "Biak, Irian Jaya",
+    "function": "14"
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Bima Terminal, Jv",
+    "function": "1"
+  },
+  {
+    "locationCode": "BMU",
+    "label": "Bima, Sb",
+    "function": "14"
+  },
+  {
+    "locationCode": "BJI",
+    "label": "Binjai",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 3.6,
+    "lng": 98.5
+  },
+  {
+    "locationCode": "NTI",
+    "label": "Bintuni",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Biringkassi",
+    "function": "1",
+    "lat": -4.816667,
+    "lng": 119.483333
+  },
+  {
+    "locationCode": "BIT",
+    "label": "Bitung, Sulawesi",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLL",
+    "label": "Blang Lancang, St",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLI",
+    "label": "Blinju, Banka",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTR",
+    "label": "Blitar",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -8.1,
+    "lng": 112.15
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Blora",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.95,
+    "lng": 111.416667
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogor",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.583333,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "BOJ",
+    "label": "Bojonegoro",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.15,
+    "lng": 111.866667
+  },
+  {
+    "locationCode": "BUI",
+    "label": "Bokondini",
+    "function": "4"
+  },
+  {
+    "locationCode": "BJG",
+    "label": "Bolaang",
+    "function": "4"
+  },
+  {
+    "locationCode": "5BO",
+    "label": "Bondowoso",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.916667,
+    "lng": 113.816667
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bonggala",
+    "function": "1"
+  },
+  {
+    "locationCode": "BXT",
+    "label": "Bontang, Kl",
+    "function": "14"
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Boyolali",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.533333,
+    "lng": 110.583333
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Brebes",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": 6.883333,
+    "lng": 109.5
+  },
+  {
+    "locationCode": "BRB",
+    "label": "Brumbung",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7,
+    "lng": 110.516667
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Buatan",
+    "function": "0"
+  },
+  {
+    "locationCode": "BDN",
+    "label": "Buduran",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.416667,
+    "lng": 112.716667
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Bukittinggi",
+    "subdivisionCode": "SB",
+    "function": "36",
+    "lat": -0.316667,
+    "lng": 100.366667
+  },
+  {
+    "locationCode": "BUA",
+    "label": "Bula",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUG",
+    "label": "Buleleng, Bali",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUT",
+    "label": "Bunati",
+    "subdivisionCode": "KS",
+    "function": "3",
+    "lat": -3.75,
+    "lng": 115.616667
+  },
+  {
+    "locationCode": "BTK",
+    "label": "Buntok",
+    "subdivisionCode": "KT",
+    "function": "2",
+    "lat": -1.7,
+    "lng": 114.8
+  },
+  {
+    "locationCode": "BYQ",
+    "label": "Bunyu",
+    "subdivisionCode": "KI",
+    "function": "1",
+    "lat": 3.5,
+    "lng": 117.8
+  },
+  {
+    "locationCode": "UOL",
+    "label": "Buol",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAK",
+    "label": "Cakung",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.933333
+  },
+  {
+    "locationCode": "CLG",
+    "label": "Calang",
+    "function": "3",
+    "lat": 4.633333,
+    "lng": 95.583333
+  },
+  {
+    "locationCode": "CND",
+    "label": "Candi",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.4,
+    "lng": 112.616667
+  },
+  {
+    "locationCode": "CSA",
+    "label": "Cape Sago",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAW",
+    "label": "Cawang",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "CGR",
+    "label": "Ceger",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.3,
+    "lng": 106.883333
+  },
+  {
+    "locationCode": "CEB",
+    "label": "Celukan Bawang, Bl",
+    "function": "1"
+  },
+  {
+    "locationCode": "CEN",
+    "label": "Cengkareng",
+    "subdivisionCode": "JK",
+    "function": "37",
+    "lat": -6.15,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "ICU",
+    "label": "Cepu",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.15,
+    "lng": 111.583333
+  },
+  {
+    "locationCode": "CER",
+    "label": "Cereweh",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.816667,
+    "lng": 116.816667
+  },
+  {
+    "locationCode": "5CI",
+    "label": "Ciamis",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.333333,
+    "lng": 108.35
+  },
+  {
+    "locationCode": "CIJ",
+    "label": "Cianjur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.816667,
+    "lng": 107.133333
+  },
+  {
+    "locationCode": "CIA",
+    "label": "Ciawi",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.15,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "CBD",
+    "label": "Cibadak",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.883333,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "CIB",
+    "label": "Cibinong",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.383333,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "CBT",
+    "label": "Cibitung",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.983333
+  },
+  {
+    "locationCode": "CID",
+    "label": "Cibubur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "CDS",
+    "label": "Cicadas",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.433333,
+    "lng": 106.916667
+  },
+  {
+    "locationCode": "CIG",
+    "label": "Cigading",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": -6.016667,
+    "lng": 105.966667
+  },
+  {
+    "locationCode": "CGJ",
+    "label": "Ciganjur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.883333
+  },
+  {
+    "locationCode": "CJT",
+    "label": "Cijantung",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "CIK",
+    "label": "Cikampek",
+    "function": "3",
+    "lat": -6.4,
+    "lng": 107.45
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Cikande",
+    "subdivisionCode": "JB",
+    "function": "13",
+    "lat": -6.2,
+    "lng": 106.35
+  },
+  {
+    "locationCode": "CKR",
+    "label": "Cikarang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.25,
+    "lng": 107.15
+  },
+  {
+    "locationCode": "CIP",
+    "label": "Cikupa",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.516667
+  },
+  {
+    "locationCode": "CXP",
+    "label": "Cilacap (Tjilatjap)",
+    "subdivisionCode": "JT",
+    "function": "134",
+    "lat": -7.733333,
+    "lng": 109
+  },
+  {
+    "locationCode": "CDK",
+    "label": "Cilandak",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.283333,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "CGN",
+    "label": "Cilegon",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.2,
+    "lng": 106.3
+  },
+  {
+    "locationCode": "CIE",
+    "label": "Cileungsi",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.383333,
+    "lng": 106.95
+  },
+  {
+    "locationCode": "CIL",
+    "label": "Cilincing",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.083333,
+    "lng": 106.933333
+  },
+  {
+    "locationCode": "CIU",
+    "label": "Ciluar",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.4
+  },
+  {
+    "locationCode": "CMI",
+    "label": "Cimahi",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.866667,
+    "lng": 107.533333
+  },
+  {
+    "locationCode": "CIM",
+    "label": "Cimanggis",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "CGU",
+    "label": "Cimanggu",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.016667,
+    "lng": 110.516667
+  },
+  {
+    "locationCode": "CNE",
+    "label": "Cinere",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "CIN",
+    "label": "Cinta",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.15,
+    "lng": 108.05
+  },
+  {
+    "locationCode": "CII",
+    "label": "Cipinang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.35
+  },
+  {
+    "locationCode": "CTT",
+    "label": "Ciputat",
+    "function": "3"
+  },
+  {
+    "locationCode": "CRC",
+    "label": "Ciracas",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "CBN",
+    "label": "Cirebon (Tjeribon)",
+    "function": "134",
+    "lat": -6.733333,
+    "lng": 108.566667
+  },
+  {
+    "locationCode": "CIR",
+    "label": "Ciruas",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.116667,
+    "lng": 106.216667
+  },
+  {
+    "locationCode": "CIS",
+    "label": "Cisalak",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.366667,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "CTK",
+    "label": "Citangkil",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.683333,
+    "lng": 105.6
+  },
+  {
+    "locationCode": "CIC",
+    "label": "Citeureup",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.966667,
+    "lng": 107.616667
+  },
+  {
+    "locationCode": "CIW",
+    "label": "Ciwandan",
+    "subdivisionCode": "BT",
+    "function": "1",
+    "lat": -6.016667,
+    "lng": 105.95
+  },
+  {
+    "locationCode": "CLM",
+    "label": "Colomadu",
+    "function": "6",
+    "lat": 7.533333,
+    "lng": 110.75
+  },
+  {
+    "locationCode": "CRG",
+    "label": "Curug",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curug",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.366667,
+    "lng": 107.666667
+  },
+  {
+    "locationCode": "DAS",
+    "label": "Dabo, Singkep Isl",
+    "function": "13",
+    "lat": -0.5,
+    "lng": 104.55
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Daruba",
+    "subdivisionCode": "MU",
+    "function": "3",
+    "lat": 2.083333,
+    "lng": 128.233333
+  },
+  {
+    "locationCode": "DTD",
+    "label": "Datadawai",
+    "subdivisionCode": "KI",
+    "function": "4",
+    "lat": 0.116667,
+    "lng": 116.8
+  },
+  {
+    "locationCode": "JAT",
+    "label": "Demak",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -6.883333,
+    "lng": 110.633333
+  },
+  {
+    "locationCode": "DMA",
+    "label": "Demta",
+    "subdivisionCode": "PA",
+    "function": "13",
+    "lat": -2.333333,
+    "lng": 140.133333
+  },
+  {
+    "locationCode": "DPS",
+    "label": "Denpasar, Bali",
+    "subdivisionCode": "BA",
+    "function": "345",
+    "lat": -8.65,
+    "lng": 115.216667
+  },
+  {
+    "locationCode": "DEP",
+    "label": "Depok",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.4,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "DBB",
+    "label": "Desa Bambe",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.35,
+    "lng": 112.65
+  },
+  {
+    "locationCode": "DGG",
+    "label": "Desa Greges",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.35,
+    "lng": 110.166667
+  },
+  {
+    "locationCode": "DIV",
+    "label": "Diviematra",
+    "function": "1"
+  },
+  {
+    "locationCode": "DJA",
+    "label": "Djankar",
+    "function": "1"
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dobo",
+    "subdivisionCode": "MA",
+    "function": "14",
+    "lat": -5.75,
+    "lng": 134.216667
+  },
+  {
+    "locationCode": "DOG",
+    "label": "Donggi",
+    "subdivisionCode": "SN",
+    "function": "13",
+    "lat": -1.533333,
+    "lng": 122.25
+  },
+  {
+    "locationCode": "DYJ",
+    "label": "Driyorejo",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.35,
+    "lng": 112.616667
+  },
+  {
+    "locationCode": "DUM",
+    "label": "Dumai, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "DUR",
+    "label": "Duri",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.966667,
+    "lng": 106.433333
+  },
+  {
+    "locationCode": "DRI",
+    "label": "Duri",
+    "subdivisionCode": "RI",
+    "function": "3",
+    "lat": 1.45,
+    "lng": 101.25
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Durian",
+    "subdivisionCode": "KR",
+    "function": "1",
+    "lat": 1.016667,
+    "lng": 103.566667
+  },
+  {
+    "locationCode": "ELA",
+    "label": "Elat",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -5.65,
+    "lng": 133.116667
+  },
+  {
+    "locationCode": "EWI",
+    "label": "Enarotali",
+    "function": "4"
+  },
+  {
+    "locationCode": "ENE",
+    "label": "Ende, Flores",
+    "function": "4"
+  },
+  {
+    "locationCode": "ETK",
+    "label": "Entikong",
+    "subdivisionCode": "KB",
+    "function": "36",
+    "lat": 0.95,
+    "lng": 110.35
+  },
+  {
+    "locationCode": "EWE",
+    "label": "Ewer",
+    "function": "4"
+  },
+  {
+    "locationCode": "EXS",
+    "label": "Exspan",
+    "function": "1",
+    "lat": -1.8,
+    "lng": 105.133333
+  },
+  {
+    "locationCode": "FKQ",
+    "label": "Fak Fak, Irian Jaya",
+    "function": "14"
+  },
+  {
+    "locationCode": "GAG",
+    "label": "Gag Island",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Gagak Rimang Fso",
+    "subdivisionCode": "JK",
+    "function": "7",
+    "lat": -6.7,
+    "lng": 112.216667
+  },
+  {
+    "locationCode": "GLX",
+    "label": "Galela, Halmahera",
+    "function": "4"
+  },
+  {
+    "locationCode": "GMB",
+    "label": "Gambir",
+    "subdivisionCode": "JK",
+    "function": "6",
+    "lat": -6.166667,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Garut",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.216667,
+    "lng": 107.9
+  },
+  {
+    "locationCode": "GTS",
+    "label": "Gatot Subroto Permai",
+    "subdivisionCode": "BA",
+    "function": "1",
+    "lat": -8.633333,
+    "lng": 115.2
+  },
+  {
+    "locationCode": "GEB",
+    "label": "Gebe",
+    "function": "34"
+  },
+  {
+    "locationCode": "JTI",
+    "label": "Gedangan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.4,
+    "lng": 112.716667
+  },
+  {
+    "locationCode": "GEE",
+    "label": "Gee Island",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 0.833333,
+    "lng": 128.316667
+  },
+  {
+    "locationCode": "IGR",
+    "label": "Gianyar",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": -8.533333,
+    "lng": 115.333333
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gilimanuk, Bali",
+    "function": "1"
+  },
+  {
+    "locationCode": "GOM",
+    "label": "Gombong",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": 7.2,
+    "lng": 108.116667
+  },
+  {
+    "locationCode": "GTO",
+    "label": "Gorontalo, Sulawesi",
+    "function": "14"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Gresik, Java",
+    "subdivisionCode": "JI",
+    "function": "13",
+    "lat": -7.15,
+    "lng": 112.65
+  },
+  {
+    "locationCode": "GRO",
+    "label": "Grobogan",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": 7.166667,
+    "lng": 110.833333
+  },
+  {
+    "locationCode": "5GK",
+    "label": "Gunung Kidul",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.066667,
+    "lng": 106.333333
+  },
+  {
+    "locationCode": "GNS",
+    "label": "Gunung Sitoli, St",
+    "function": "14"
+  },
+  {
+    "locationCode": "GUK",
+    "label": "Gunungkidul",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": 6.733333,
+    "lng": 106.333333
+  },
+  {
+    "locationCode": "GPT",
+    "label": "Gunungputri",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.45,
+    "lng": 106.883333
+  },
+  {
+    "locationCode": "GUN",
+    "label": "Gunungsari",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.583333,
+    "lng": 108.3
+  },
+  {
+    "locationCode": "HLP",
+    "label": "Halim Perdanakusuma Airport",
+    "subdivisionCode": "JK",
+    "function": "4",
+    "lat": -6.25,
+    "lng": 106.9
+  },
+  {
+    "locationCode": "HDL",
+    "label": "Handil",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": -0.75,
+    "lng": 117.266667
+  },
+  {
+    "locationCode": "ILA",
+    "label": "Illaga",
+    "function": "4"
+  },
+  {
+    "locationCode": "INA",
+    "label": "Inanwatan",
+    "subdivisionCode": "PB",
+    "function": "14",
+    "lat": -2.133333,
+    "lng": 132.166667
+  },
+  {
+    "locationCode": "IDY",
+    "label": "Inderalaya",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": -3.25,
+    "lng": 104.666667
+  },
+  {
+    "locationCode": "IBT",
+    "label": "Indonesia Bulk Terminal",
+    "subdivisionCode": "KS",
+    "function": "1"
+  },
+  {
+    "locationCode": "JBK",
+    "label": "Jababeka",
+    "function": "1",
+    "lat": -6.25,
+    "lng": 107.15
+  },
+  {
+    "locationCode": "JBT",
+    "label": "Jabung Terminal",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": -0.883333,
+    "lng": 104.066667
+  },
+  {
+    "locationCode": "JGK",
+    "label": "Jagakarsa",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "JPU",
+    "label": "Jakarta Pusat",
+    "subdivisionCode": "JK",
+    "function": "1",
+    "lat": -6.183333,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "JUT",
+    "label": "Jakarta Utara",
+    "function": "6",
+    "lat": -6.166667,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "UTC",
+    "label": "Jakarta UTC1",
+    "subdivisionCode": "JK",
+    "function": "1"
+  },
+  {
+    "locationCode": "UTE",
+    "label": "Jakarta UTC3",
+    "subdivisionCode": "JK",
+    "function": "1"
+  },
+  {
+    "locationCode": "JKT",
+    "label": "Jakarta, Java",
+    "subdivisionCode": "JK",
+    "function": "12345",
+    "lat": -6.133333,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "DJB",
+    "label": "Jambi, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "JBG",
+    "label": "Jatibarang",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAI",
+    "label": "Jatiluhur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.55,
+    "lng": 107.416667
+  },
+  {
+    "locationCode": "JAA",
+    "label": "Jatinegara",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "JTH",
+    "label": "Jatitujuh",
+    "function": "3"
+  },
+  {
+    "locationCode": "JWA",
+    "label": "Jawa Timur",
+    "subdivisionCode": "JI",
+    "function": "1",
+    "lat": -7.733333,
+    "lng": 112.5
+  },
+  {
+    "locationCode": "DJJ",
+    "label": "Jayapura, Irian Jaya",
+    "subdivisionCode": "PA",
+    "function": "1345",
+    "lat": -2.533333,
+    "lng": 140.7
+  },
+  {
+    "locationCode": "JBN",
+    "label": "Jembatan",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.466667,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "JEM",
+    "label": "Jember",
+    "function": "3"
+  },
+  {
+    "locationCode": "JZM",
+    "label": "Jembrana",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": -8.366667,
+    "lng": 114.65
+  },
+  {
+    "locationCode": "JEP",
+    "label": "Jepara",
+    "subdivisionCode": "JT",
+    "function": "1",
+    "lat": -6.583333,
+    "lng": 110.65
+  },
+  {
+    "locationCode": "JIP",
+    "label": "Jogja Inland Port",
+    "subdivisionCode": "YO",
+    "function": "16",
+    "lat": -7.9,
+    "lng": 110.383333
+  },
+  {
+    "locationCode": "JMB",
+    "label": "Jombang",
+    "subdivisionCode": "JI",
+    "function": "6",
+    "lat": -7.55,
+    "lng": 112.233333
+  },
+  {
+    "locationCode": "JGL",
+    "label": "Jonggol",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.466667,
+    "lng": 107.033333
+  },
+  {
+    "locationCode": "JOR",
+    "label": "Jorong Anchorage",
+    "function": "1",
+    "lat": -4.183333,
+    "lng": 115.1
+  },
+  {
+    "locationCode": "JUA",
+    "label": "Juanda",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.383333,
+    "lng": 112.766667
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kabil",
+    "function": "3",
+    "lat": 1.05,
+    "lng": 104.133333
+  },
+  {
+    "locationCode": "KAH",
+    "label": "Kahayan Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "KHY",
+    "label": "Kahyangan",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.483333,
+    "lng": 116.666667
+  },
+  {
+    "locationCode": "KNG",
+    "label": "Kaimana, Irian Jaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "KJN",
+    "label": "Kajang",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Kakap Natuna Terminal",
+    "function": "1",
+    "lat": 5.016667,
+    "lng": 105.95
+  },
+  {
+    "locationCode": "KBH",
+    "label": "Kalabahi",
+    "subdivisionCode": "NT",
+    "function": "13",
+    "lat": -8.216667,
+    "lng": 124.516667
+  },
+  {
+    "locationCode": "KSO",
+    "label": "Kalbut Situbondo",
+    "subdivisionCode": "JI",
+    "function": "137",
+    "lat": -7.616667,
+    "lng": 113.883333
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalianak Barat",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.216667,
+    "lng": 112.7
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Kalianget",
+    "function": "0"
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Kaliorang",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 0.816667,
+    "lng": 117.866667
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kambunong, Celebes",
+    "function": "1"
+  },
+  {
+    "locationCode": "KPL",
+    "label": "Kampung Laut",
+    "subdivisionCode": "JA",
+    "function": "1",
+    "lat": -0.9,
+    "lng": 103.8
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kapas",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.183333,
+    "lng": 111.933333
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapuk",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "KGY",
+    "label": "Karanganyar",
+    "function": "6",
+    "lat": -7.583333,
+    "lng": 110.95
+  },
+  {
+    "locationCode": "KGT",
+    "label": "Karangjati (Kodya Salatiga)",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.266667,
+    "lng": 110.566667
+  },
+  {
+    "locationCode": "KWC",
+    "label": "Karawaci",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.616667
+  },
+  {
+    "locationCode": "KWA",
+    "label": "Karawang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.3,
+    "lng": 107.283333
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Karet",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.2,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "KRG",
+    "label": "Kariangau",
+    "function": "1",
+    "lat": -1.166667,
+    "lng": 116.783333
+  },
+  {
+    "locationCode": "OKA",
+    "label": "Karimun Besar Offshore",
+    "function": "7",
+    "lat": 1.066667,
+    "lng": 103.516667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karosa, Sulawesi",
+    "function": "1"
+  },
+  {
+    "locationCode": "KBF",
+    "label": "Karubaga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kasim, Ij",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSE",
+    "label": "Kassue",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": -6.983333,
+    "lng": 139.216667
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Kau",
+    "subdivisionCode": "MU",
+    "function": "1",
+    "lat": 1.183333,
+    "lng": 127.9
+  },
+  {
+    "locationCode": "KEQ",
+    "label": "Kebar",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEU",
+    "label": "Kebumen",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.666667,
+    "lng": 109.65
+  },
+  {
+    "locationCode": "KDR",
+    "label": "Kediri",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.8,
+    "lng": 112
+  },
+  {
+    "locationCode": "KDY",
+    "label": "Kedoya",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.166667,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "KDH",
+    "label": "Kedunghalang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.55,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "KEA",
+    "label": "Keisah",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLP",
+    "label": "Kelapa",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.1,
+    "lng": 107
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Kelapagading",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.15,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "LLN",
+    "label": "Kelila",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLQ",
+    "label": "Keluang",
+    "function": "4"
+  },
+  {
+    "locationCode": "KYR",
+    "label": "Kemayoran",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.15,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "KEB",
+    "label": "Kembangan",
+    "subdivisionCode": "JB",
+    "function": "6",
+    "lat": -6.183333,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kempo, Sb",
+    "function": "1"
+  },
+  {
+    "locationCode": "KDL",
+    "label": "Kendal",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.566667,
+    "lng": 111.266667
+  },
+  {
+    "locationCode": "KDI",
+    "label": "Kendari, Sulawesi",
+    "function": "14"
+  },
+  {
+    "locationCode": "KDW",
+    "label": "Kendawangan",
+    "subdivisionCode": "KB",
+    "function": "13",
+    "lat": -2.533333,
+    "lng": 110.2
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kenjeran",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.233333,
+    "lng": 112.783333
+  },
+  {
+    "locationCode": "KEI",
+    "label": "Kepi",
+    "function": "4"
+  },
+  {
+    "locationCode": "JBB",
+    "label": "Keragilan",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.283333
+  },
+  {
+    "locationCode": "BTT",
+    "label": "Kerawang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.3,
+    "lng": 107.283333
+  },
+  {
+    "locationCode": "KRC",
+    "label": "Kerinci",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBK",
+    "label": "Kerobokan",
+    "subdivisionCode": "ST",
+    "function": "6",
+    "lat": -1,
+    "lng": 120.416667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kertapati",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": -3.016667,
+    "lng": 104.75
+  },
+  {
+    "locationCode": "KTG",
+    "label": "Ketapang, Kl",
+    "function": "14"
+  },
+  {
+    "locationCode": "KID",
+    "label": "Kidjang, Bintan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIJ",
+    "label": "Kijang",
+    "function": "6",
+    "lat": 5.666667,
+    "lng": 104.616667
+  },
+  {
+    "locationCode": "KMM",
+    "label": "Kimam",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kisaran",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 2.983333,
+    "lng": 99.616667
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klari",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 107.366667
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Klaten",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.7,
+    "lng": 110.583333
+  },
+  {
+    "locationCode": "KL3",
+    "label": "Kletek",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": -9.583333,
+    "lng": 124.933333
+  },
+  {
+    "locationCode": "KOJ",
+    "label": "Koja",
+    "subdivisionCode": "JB",
+    "function": "136",
+    "lat": -6.3,
+    "lng": 106.383333
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kokas",
+    "subdivisionCode": "PB",
+    "function": "1",
+    "lat": -2.7,
+    "lng": 132.433333
+  },
+  {
+    "locationCode": "KOX",
+    "label": "Kokonao",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolaka",
+    "subdivisionCode": "SG",
+    "function": "1",
+    "lat": -4.05,
+    "lng": 121.566667
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kolonodale",
+    "subdivisionCode": "ST",
+    "function": "13",
+    "lat": -1.966667,
+    "lng": 121.333333
+  },
+  {
+    "locationCode": "KMD",
+    "label": "Komodo",
+    "subdivisionCode": "NT",
+    "function": "1",
+    "lat": -8.583333,
+    "lng": 119.5
+  },
+  {
+    "locationCode": "KCI",
+    "label": "Kon",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOD",
+    "label": "Kotabangun",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBU",
+    "label": "Kotabaru",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPN",
+    "label": "Kotapinang, Baru",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOT",
+    "label": "Kotatengah",
+    "subdivisionCode": "LA",
+    "function": "3",
+    "lat": -5.166667,
+    "lng": 105.5
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kragilan",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.766667,
+    "lng": 110.6
+  },
+  {
+    "locationCode": "KMJ",
+    "label": "Kramatjati",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.266667,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "KPK",
+    "label": "Krapyak",
+    "subdivisionCode": "YO",
+    "function": "23",
+    "lat": -7.733333,
+    "lng": 110.4
+  },
+  {
+    "locationCode": "KGH",
+    "label": "Krueng Geukueh",
+    "subdivisionCode": "AC",
+    "function": "1",
+    "lat": 5.25,
+    "lng": 97.033333
+  },
+  {
+    "locationCode": "ENO",
+    "label": "Kuala Enok",
+    "function": "1",
+    "lat": -0.533333,
+    "lng": 103.4
+  },
+  {
+    "locationCode": "KKA",
+    "label": "Kuala Kapuas, Kl",
+    "function": "1"
+  },
+  {
+    "locationCode": "KNO",
+    "label": "Kuala Namu Intl Apt/Medan",
+    "subdivisionCode": "SU",
+    "function": "4",
+    "lat": 3.616667,
+    "lng": 98.866667
+  },
+  {
+    "locationCode": "KUA",
+    "label": "Kualalangsa",
+    "subdivisionCode": "AC",
+    "function": "1",
+    "lat": 4.533333,
+    "lng": 98.016667
+  },
+  {
+    "locationCode": "KMA",
+    "label": "Kualamandah",
+    "subdivisionCode": "RI",
+    "function": "3",
+    "lat": -0.5,
+    "lng": 103.883333
+  },
+  {
+    "locationCode": "KTJ",
+    "label": "Kualatanjung",
+    "subdivisionCode": "SU",
+    "function": "13",
+    "lat": 3.35,
+    "lng": 99.483333
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Kualatungkal",
+    "function": "3",
+    "lat": -0.8,
+    "lng": 103.466667
+  },
+  {
+    "locationCode": "KUD",
+    "label": "Kudus",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.8,
+    "lng": 110.833333
+  },
+  {
+    "locationCode": "KUG",
+    "label": "Kulonprogo",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.233333,
+    "lng": 106.666667
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumai",
+    "subdivisionCode": "KT",
+    "function": "13",
+    "lat": -2.733333,
+    "lng": 111.716667
+  },
+  {
+    "locationCode": "KKB",
+    "label": "Kunak, Borneo",
+    "function": "1"
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kuningan",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.983333,
+    "lng": 108.483333
+  },
+  {
+    "locationCode": "KOE",
+    "label": "Kupang, Timor",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUT",
+    "label": "Kuta",
+    "subdivisionCode": "BA",
+    "function": "6",
+    "lat": -8.716667,
+    "lng": 115.183333
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Labuan",
+    "subdivisionCode": "SG",
+    "function": "3",
+    "lat": -4.416667,
+    "lng": 122.95
+  },
+  {
+    "locationCode": "LBO",
+    "label": "Labuan Bajo",
+    "subdivisionCode": "NT",
+    "function": "13",
+    "lat": -8.5,
+    "lng": 119.883333
+  },
+  {
+    "locationCode": "LBJ",
+    "label": "Labuanbajo",
+    "function": "3",
+    "lat": -0.05,
+    "lng": 120.033333
+  },
+  {
+    "locationCode": "LAH",
+    "label": "Labuha, Molucas",
+    "function": "134",
+    "lat": -0.616667,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "LAJ",
+    "label": "Labuhan",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": -6.366667,
+    "lng": 105.833333
+  },
+  {
+    "locationCode": "LHT",
+    "label": "Lahat",
+    "subdivisionCode": "SS",
+    "function": "3",
+    "lat": -3.8,
+    "lng": 103.533333
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Lalang Terminal, St",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lamongan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.116667,
+    "lng": 112.416667
+  },
+  {
+    "locationCode": "LUV",
+    "label": "Langgur",
+    "function": "4"
+  },
+  {
+    "locationCode": "LVN",
+    "label": "Langsa Venture FPSO",
+    "function": "7",
+    "lat": 5.316667,
+    "lng": 98.05
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Langsa, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Lapangan",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 1.533333,
+    "lng": 124.916667
+  },
+  {
+    "locationCode": "LKA",
+    "label": "Larantuka",
+    "function": "4"
+  },
+  {
+    "locationCode": "LRT",
+    "label": "Larat",
+    "function": "3"
+  },
+  {
+    "locationCode": "LWG",
+    "label": "Lawang",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.816667,
+    "lng": 112.7
+  },
+  {
+    "locationCode": "LLA",
+    "label": "Lawe-Lawe, Kl",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Lemah Abang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 107.233333
+  },
+  {
+    "locationCode": "5LE",
+    "label": "Lembang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.8,
+    "lng": 107.616667
+  },
+  {
+    "locationCode": "LBR",
+    "label": "Lembar",
+    "subdivisionCode": "NB",
+    "function": "13",
+    "lat": -8.733333,
+    "lng": 116.066667
+  },
+  {
+    "locationCode": "LHI",
+    "label": "Lereh",
+    "function": "4"
+  },
+  {
+    "locationCode": "LEU",
+    "label": "Leuwiliang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": 6.583333,
+    "lng": 106.616667
+  },
+  {
+    "locationCode": "LWE",
+    "label": "Lewoleba",
+    "function": "4"
+  },
+  {
+    "locationCode": "LSX",
+    "label": "Lhok Sukon",
+    "function": "4"
+  },
+  {
+    "locationCode": "LHK",
+    "label": "Lhoknga",
+    "function": "3"
+  },
+  {
+    "locationCode": "LSW",
+    "label": "Lhokseumawe",
+    "subdivisionCode": "AC",
+    "function": "134",
+    "lat": 5.166667,
+    "lng": 97.133333
+  },
+  {
+    "locationCode": "LIF",
+    "label": "Lifamatola",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limo",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.35,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "LGG",
+    "label": "Limusnunggal",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.366667,
+    "lng": 106.966667
+  },
+  {
+    "locationCode": "LBM",
+    "label": "Lobam",
+    "function": "13",
+    "lat": 1,
+    "lng": 104.266667
+  },
+  {
+    "locationCode": "LKI",
+    "label": "Loki",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -3.3,
+    "lng": 128.05
+  },
+  {
+    "locationCode": "LOL",
+    "label": "Loli",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": -9.666667,
+    "lng": 124.516667
+  },
+  {
+    "locationCode": "LOM",
+    "label": "Lombok",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.5,
+    "lng": 116.666667
+  },
+  {
+    "locationCode": "LMB",
+    "label": "Lombok Strait",
+    "function": "0"
+  },
+  {
+    "locationCode": "LPU",
+    "label": "Long Apung",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBW",
+    "label": "Long Bawan",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTT",
+    "label": "Lubuk Tutung",
+    "subdivisionCode": "KI",
+    "function": "13",
+    "lat": 0.766667,
+    "lng": 117.733333
+  },
+  {
+    "locationCode": "LMJ",
+    "label": "Lumajang",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -8.133333,
+    "lng": 113.216667
+  },
+  {
+    "locationCode": "LYK",
+    "label": "Lunyuk",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUW",
+    "label": "Luwuk",
+    "function": "14"
+  },
+  {
+    "locationCode": "MDI",
+    "label": "Madiun",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.616667,
+    "lng": 111.516667
+  },
+  {
+    "locationCode": "MDR",
+    "label": "Madura Terminal",
+    "function": "1",
+    "lat": -6.85,
+    "lng": 112.95
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Magelang",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.466667,
+    "lng": 110.216667
+  },
+  {
+    "locationCode": "5MT",
+    "label": "Magetan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.65,
+    "lng": 111.333333
+  },
+  {
+    "locationCode": "5MA",
+    "label": "Majalengka",
+    "subdivisionCode": "KB",
+    "function": "3",
+    "lat": -6.833333,
+    "lng": 108.216667
+  },
+  {
+    "locationCode": "MAJ",
+    "label": "Majene, Sv",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Makassar",
+    "subdivisionCode": "SN",
+    "function": "13",
+    "lat": -5.116667,
+    "lng": 119.4
+  },
+  {
+    "locationCode": "MLH",
+    "label": "Malahayati",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": -0.133333,
+    "lng": 99.733333
+  },
+  {
+    "locationCode": "MLG",
+    "label": "Malang",
+    "function": "34"
+  },
+  {
+    "locationCode": "MPT",
+    "label": "Maliana",
+    "function": "4"
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Malili, Sulawesi",
+    "function": "1"
+  },
+  {
+    "locationCode": "MJU",
+    "label": "Mamuju",
+    "function": "14"
+  },
+  {
+    "locationCode": "MDC",
+    "label": "Manado",
+    "function": "145"
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Manggadua",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manggar",
+    "function": "0"
+  },
+  {
+    "locationCode": "MGB",
+    "label": "Manggis",
+    "subdivisionCode": "BA",
+    "function": "13",
+    "lat": -8.483333,
+    "lng": 115.516667
+  },
+  {
+    "locationCode": "MKJ",
+    "label": "Mangkajang",
+    "subdivisionCode": "KI",
+    "function": "1",
+    "lat": 2.133333,
+    "lng": 117.733333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Mangole",
+    "function": "14"
+  },
+  {
+    "locationCode": "MJY",
+    "label": "Mangunjaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKW",
+    "label": "Manokwari, Irian Jaya",
+    "function": "14"
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Mantang, Riau",
+    "function": "1"
+  },
+  {
+    "locationCode": "MYR",
+    "label": "Manyar",
+    "subdivisionCode": "JI",
+    "function": "6",
+    "lat": -7.116667,
+    "lng": 112.6
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Mapia Island",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": 0.883333,
+    "lng": 134.316667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marabahan",
+    "subdivisionCode": "KS",
+    "function": "1",
+    "lat": -2.983333,
+    "lng": 114.766667
+  },
+  {
+    "locationCode": "MGO",
+    "label": "Margomulyo",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 0.533333,
+    "lng": 121.75
+  },
+  {
+    "locationCode": "MSI",
+    "label": "Masalembo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXB",
+    "label": "Masamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWK",
+    "label": "Matak",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Mataram",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Mauk",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.05,
+    "lng": 106.5
+  },
+  {
+    "locationCode": "MOF",
+    "label": "Maumere, Flores",
+    "function": "14"
+  },
+  {
+    "locationCode": "MES",
+    "label": "Medan, Sumatra",
+    "function": "145"
+  },
+  {
+    "locationCode": "MNA",
+    "label": "Melonguanne",
+    "function": "34",
+    "lat": 4,
+    "lng": 126.683333
+  },
+  {
+    "locationCode": "MTG",
+    "label": "Menteng",
+    "subdivisionCode": "JK",
+    "function": "2",
+    "lat": -6.183333,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "MRK",
+    "label": "Merak, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Merantibunting, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKQ",
+    "label": "Merauke, Irian Jaya",
+    "function": "14"
+  },
+  {
+    "locationCode": "RDE",
+    "label": "Merdey",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEQ",
+    "label": "Meulaboh, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "MDP",
+    "label": "Mindiptana",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIT",
+    "label": "Misool Terminal",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": -1.566667,
+    "lng": 130.516667
+  },
+  {
+    "locationCode": "ONI",
+    "label": "Moanamani",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJT",
+    "label": "Mojokerto",
+    "subdivisionCode": "JI",
+    "function": "36",
+    "lat": -7.466667,
+    "lng": 112.433333
+  },
+  {
+    "locationCode": "MJI",
+    "label": "Mojosari",
+    "subdivisionCode": "JI",
+    "function": "23",
+    "lat": -7.516667,
+    "lng": 112.55
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mornopo",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 0.783333,
+    "lng": 128.216667
+  },
+  {
+    "locationCode": "OZI",
+    "label": "Morotai I",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOW",
+    "label": "Morowali",
+    "subdivisionCode": "ST",
+    "function": "1",
+    "lat": -1.866667,
+    "lng": 121.5
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Muara Bangkong",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 0.4,
+    "lng": 103.783333
+  },
+  {
+    "locationCode": "MUB",
+    "label": "Muara Berau",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUD",
+    "label": "Muara Djawa",
+    "function": "1"
+  },
+  {
+    "locationCode": "MPN",
+    "label": "Muara Pantai",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUP",
+    "label": "Muara Pegah",
+    "function": "1"
+  },
+  {
+    "locationCode": "MSK",
+    "label": "Muara Sabak",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": -0.8,
+    "lng": 103.916667
+  },
+  {
+    "locationCode": "MSB",
+    "label": "Muara Siberut",
+    "subdivisionCode": "SB",
+    "function": "1",
+    "lat": -1.583333,
+    "lng": 99.2
+  },
+  {
+    "locationCode": "MUW",
+    "label": "Muara Teweh",
+    "subdivisionCode": "KT",
+    "function": "13",
+    "lat": -56.966667,
+    "lng": 114.9
+  },
+  {
+    "locationCode": "MU9",
+    "label": "Muarabungo",
+    "subdivisionCode": "JA",
+    "function": "2",
+    "lat": -1.466667,
+    "lng": 102.116667
+  },
+  {
+    "locationCode": "MPC",
+    "label": "Muko-Muko",
+    "function": "4"
+  },
+  {
+    "locationCode": "LII",
+    "label": "Mulia",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUO",
+    "label": "Muntok, Banka",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRI",
+    "label": "Musi River, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUF",
+    "label": "Muting",
+    "function": "4"
+  },
+  {
+    "locationCode": "MTU",
+    "label": "Muturi",
+    "function": "1"
+  },
+  {
+    "locationCode": "NBX",
+    "label": "Nabire",
+    "function": "4"
+  },
+  {
+    "locationCode": "NGK",
+    "label": "Nagrak",
+    "subdivisionCode": "JB",
+    "function": "6",
+    "lat": -7.066667,
+    "lng": 107.533333
+  },
+  {
+    "locationCode": "NAH",
+    "label": "Naha",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Namlea",
+    "subdivisionCode": "MA",
+    "function": "4",
+    "lat": -3.3,
+    "lng": 127.1
+  },
+  {
+    "locationCode": "NRE",
+    "label": "Namrole",
+    "function": "4"
+  },
+  {
+    "locationCode": "NBF",
+    "label": "Nanga Badau",
+    "subdivisionCode": "KB",
+    "function": "3",
+    "lat": 1.016667,
+    "lng": 111.866667
+  },
+  {
+    "locationCode": "NPO",
+    "label": "Nangapinoh",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Narogong",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.433333,
+    "lng": 106.916667
+  },
+  {
+    "locationCode": "NTX",
+    "label": "Natuna Ranai",
+    "function": "4"
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Negara",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": -8.366667,
+    "lng": 114.616667
+  },
+  {
+    "locationCode": "CTO",
+    "label": "New Priok Port",
+    "subdivisionCode": "JK",
+    "function": "16",
+    "lat": -6.083333,
+    "lng": 106.916667
+  },
+  {
+    "locationCode": "5NG",
+    "label": "Nganjuk",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.6,
+    "lng": 111.916667
+  },
+  {
+    "locationCode": "NGW",
+    "label": "Ngawi",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.4,
+    "lng": 111.433333
+  },
+  {
+    "locationCode": "NIP",
+    "label": "Nipah",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 1.116667,
+    "lng": 103.55
+  },
+  {
+    "locationCode": "NPL",
+    "label": "North Pulau Laut",
+    "function": "1",
+    "lat": -3.216667,
+    "lng": 116.266667
+  },
+  {
+    "locationCode": "FOO",
+    "label": "Numfoor",
+    "function": "4"
+  },
+  {
+    "locationCode": "NNX",
+    "label": "Nunukan",
+    "function": "14"
+  },
+  {
+    "locationCode": "NYA",
+    "label": "Nyamplungan",
+    "subdivisionCode": "YO",
+    "function": "3",
+    "lat": -7.816667,
+    "lng": 110.383333
+  },
+  {
+    "locationCode": "OBD",
+    "label": "Obano",
+    "function": "4"
+  },
+  {
+    "locationCode": "OBI",
+    "label": "Obi Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "OKQ",
+    "label": "Okaba, Irian Jaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "OKL",
+    "label": "Oksibil",
+    "function": "4"
+  },
+  {
+    "locationCode": "OJA",
+    "label": "Olah Jasa Andal/Jakarta",
+    "subdivisionCode": "JK",
+    "function": "1"
+  },
+  {
+    "locationCode": "OLO",
+    "label": "Olee Lheue",
+    "function": "1"
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Oransbari",
+    "subdivisionCode": "PB",
+    "function": "23",
+    "lat": -1.35,
+    "lng": 134.266667
+  },
+  {
+    "locationCode": "OYO",
+    "label": "Oyong",
+    "function": "7",
+    "lat": -7.283333,
+    "lng": 112.733333
+  },
+  {
+    "locationCode": "PBR",
+    "label": "Pabuaran",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 107.033333
+  },
+  {
+    "locationCode": "PAC",
+    "label": "Paciran",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -6.866667,
+    "lng": 112.333333
+  },
+  {
+    "locationCode": "5PP",
+    "label": "Pacitan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -8.2,
+    "lng": 111.116667
+  },
+  {
+    "locationCode": "PDL",
+    "label": "Padalarang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.833333,
+    "lng": 107.483333
+  },
+  {
+    "locationCode": "PDG",
+    "label": "Padang",
+    "subdivisionCode": "SB",
+    "function": "1234",
+    "lat": -0.95,
+    "lng": 100.35
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Padang Tikar",
+    "subdivisionCode": "KB",
+    "function": "13",
+    "lat": -0.666667,
+    "lng": 109.266667
+  },
+  {
+    "locationCode": "PAG",
+    "label": "Pagatan, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "PGA",
+    "label": "Pagerungan",
+    "function": "17",
+    "lat": -6.916667,
+    "lng": 115.916667
+  },
+  {
+    "locationCode": "PGM",
+    "label": "Pagimana",
+    "subdivisionCode": "ST",
+    "function": "1",
+    "lat": -0.8,
+    "lng": 122.616667
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Paiton",
+    "function": "3",
+    "lat": -7.716667,
+    "lng": 113.5
+  },
+  {
+    "locationCode": "PLG",
+    "label": "Palang",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.9,
+    "lng": 112.133333
+  },
+  {
+    "locationCode": "PKY",
+    "label": "Palangkaraya",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPO",
+    "label": "Palapo, Sulawesi",
+    "function": "1",
+    "lat": -3.083333,
+    "lng": 120.233333
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Palembang, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "PBW",
+    "label": "Palibelo",
+    "function": "4"
+  },
+  {
+    "locationCode": "PMH",
+    "label": "Palmerah",
+    "subdivisionCode": "JK",
+    "function": "6",
+    "lat": -6.183333,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palu",
+    "function": "13",
+    "lat": -0.883333,
+    "lng": 119.85
+  },
+  {
+    "locationCode": "PNN",
+    "label": "Pamanukan, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "5SS",
+    "label": "Pamekasan",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.166667,
+    "lng": 113.466667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Panakukang",
+    "subdivisionCode": "SN",
+    "function": "6",
+    "lat": -5.183333,
+    "lng": 119.383333
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Panarukan, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "PJM",
+    "label": "Pandjung Mani",
+    "function": "1"
+  },
+  {
+    "locationCode": "5PN",
+    "label": "Pangandaran",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.683333,
+    "lng": 108.65
+  },
+  {
+    "locationCode": "PGX",
+    "label": "Pangkal Balam, Banka",
+    "function": "1"
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Pangkalan Brandan, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "PKS",
+    "label": "Pangkalan Susu, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "PKN",
+    "label": "Pangkalanbuun",
+    "function": "14"
+  },
+  {
+    "locationCode": "PGK",
+    "label": "Pangkalpinang, Banka",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNJ",
+    "label": "Panjang",
+    "function": "1"
+  },
+  {
+    "locationCode": "PJG",
+    "label": "Panjang (Lampung, Sumatra)",
+    "function": "2"
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Pantoloan, Sv",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Pare Pare",
+    "function": "0"
+  },
+  {
+    "locationCode": "PRG",
+    "label": "Parung",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.966667
+  },
+  {
+    "locationCode": "PGD",
+    "label": "Parungkuda",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.85,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "PKM",
+    "label": "Pasar Kemis",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.166667,
+    "lng": 106.516667
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Pasar Minggu",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.283333,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "PRB",
+    "label": "Pasar Rebo",
+    "subdivisionCode": "JB",
+    "function": "6",
+    "lat": -6.4,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "PSG",
+    "label": "Pasarminggu",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "PSR",
+    "label": "Pasarrebo",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.3,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "PPR",
+    "label": "Pasir Pangarayan",
+    "function": "4",
+    "lat": 0.816667,
+    "lng": 100.366667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasir Panjang",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAZ",
+    "label": "Pasuruan, Java",
+    "function": "123",
+    "lat": -7.633333,
+    "lng": 112.9
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Pati",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.75,
+    "lng": 111.016667
+  },
+  {
+    "locationCode": "PJL",
+    "label": "Pejagalan",
+    "function": "6",
+    "lat": -6.133333,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "PEX",
+    "label": "Pekalongan, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "PKU",
+    "label": "Pekanbaru, Sumatra",
+    "function": "4"
+  },
+  {
+    "locationCode": "PBB",
+    "label": "Pelabuhan Badas",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.45,
+    "lng": 117.366667
+  },
+  {
+    "locationCode": "FTG",
+    "label": "Pelabuhan Futong Terminal",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 0.816667,
+    "lng": 102.4
+  },
+  {
+    "locationCode": "PLN",
+    "label": "Pelawan",
+    "subdivisionCode": "SS",
+    "function": "6",
+    "lat": -2.366667,
+    "lng": 102.683333
+  },
+  {
+    "locationCode": "PML",
+    "label": "Pemalang",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.9,
+    "lng": 109.366667
+  },
+  {
+    "locationCode": "PEM",
+    "label": "Pemangkat, Kl",
+    "function": "0"
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Pematangsiantar",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 2.95,
+    "lng": 99.05
+  },
+  {
+    "locationCode": "PJA",
+    "label": "Penajam",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": -1.25,
+    "lng": 116.766667
+  },
+  {
+    "locationCode": "PDO",
+    "label": "Pendopo",
+    "function": "4"
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Penjaringan",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.116667,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Penuba",
+    "function": "1"
+  },
+  {
+    "locationCode": "PWG",
+    "label": "Perawang",
+    "subdivisionCode": "RI",
+    "function": "13",
+    "lat": 0.633333,
+    "lng": 101.616667
+  },
+  {
+    "locationCode": "PER",
+    "label": "Perawang",
+    "subdivisionCode": "RI",
+    "function": "13",
+    "lat": 1.066667,
+    "lng": 102.866667
+  },
+  {
+    "locationCode": "PBG",
+    "label": "Perbaungan",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 3.566667,
+    "lng": 98.95
+  },
+  {
+    "locationCode": "5PE",
+    "label": "Petamburan",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Piru",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -3.066667,
+    "lng": 128.183333
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Plaju, Sumatra",
+    "function": "13",
+    "lat": -2.983333,
+    "lng": 104.8
+  },
+  {
+    "locationCode": "PED",
+    "label": "Plered",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.7
+  },
+  {
+    "locationCode": "PLP",
+    "label": "Plumpang",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.016667,
+    "lng": 112.083333
+  },
+  {
+    "locationCode": "PMD",
+    "label": "Podomoro",
+    "subdivisionCode": "SN",
+    "function": "3",
+    "lat": -2.583333,
+    "lng": 121
+  },
+  {
+    "locationCode": "POL",
+    "label": "Poleng",
+    "function": "7",
+    "lat": -6.65,
+    "lng": 112.916667
+  },
+  {
+    "locationCode": "PMK",
+    "label": "Pomako",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": -4.8,
+    "lng": 136.766667
+  },
+  {
+    "locationCode": "PUM",
+    "label": "Pomalaa, Sulawesi",
+    "function": "134",
+    "lat": -4.033333,
+    "lng": 121.583333
+  },
+  {
+    "locationCode": "PST",
+    "label": "Pomposa",
+    "subdivisionCode": "ST",
+    "function": "3",
+    "lat": -1.4,
+    "lng": 120.7
+  },
+  {
+    "locationCode": "PCB",
+    "label": "Pondok Cabe",
+    "function": "4"
+  },
+  {
+    "locationCode": "PON",
+    "label": "Ponorogo",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.866667,
+    "lng": 111.45
+  },
+  {
+    "locationCode": "PNK",
+    "label": "Pontianak, Kalimantan",
+    "function": "145"
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Porsea",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 2.45,
+    "lng": 99.15
+  },
+  {
+    "locationCode": "PMG",
+    "label": "Port Meneng",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTO",
+    "label": "Port Okha",
+    "function": "0"
+  },
+  {
+    "locationCode": "SGO",
+    "label": "Port Segoro Fajar Satryo/Jakarta",
+    "subdivisionCode": "JK",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSJ",
+    "label": "Poso, Sulawesi",
+    "function": "14"
+  },
+  {
+    "locationCode": "POT",
+    "label": "Poto Tano",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.516667,
+    "lng": 116.833333
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Probolinggo, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Prointal, Jv",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPS",
+    "label": "Pulangpisau",
+    "function": "1"
+  },
+  {
+    "locationCode": "PBJ",
+    "label": "Pulau Bunyu",
+    "function": "13",
+    "lat": -0.3,
+    "lng": 115.866667
+  },
+  {
+    "locationCode": "PUT",
+    "label": "Pulau Laut",
+    "function": "1",
+    "lat": -3.283333,
+    "lng": 116.15
+  },
+  {
+    "locationCode": "NIA",
+    "label": "Pulau Nias",
+    "function": "3",
+    "lat": 1.1,
+    "lng": 97.533333
+  },
+  {
+    "locationCode": "PPJ",
+    "label": "Pulau Panjang",
+    "function": "4"
+  },
+  {
+    "locationCode": "PSS",
+    "label": "Pulau Sambu, Riau",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUG",
+    "label": "Pulo Gadung",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.9
+  },
+  {
+    "locationCode": "PUB",
+    "label": "Purbalingga",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -6.9,
+    "lng": 109.366667
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Purwakarta",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.55,
+    "lng": 107.433333
+  },
+  {
+    "locationCode": "PWL",
+    "label": "Purwokerto",
+    "function": "4"
+  },
+  {
+    "locationCode": "PUW",
+    "label": "Purworejo",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.716667,
+    "lng": 110.016667
+  },
+  {
+    "locationCode": "PWI",
+    "label": "Purwosari",
+    "subdivisionCode": "JI",
+    "function": "6",
+    "lat": -7.766667,
+    "lng": 112.733333
+  },
+  {
+    "locationCode": "PSU",
+    "label": "Putussibau",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAQ",
+    "label": "Raha",
+    "function": "4"
+  },
+  {
+    "locationCode": "RJL",
+    "label": "Rajawali",
+    "subdivisionCode": "SG",
+    "function": "3",
+    "lat": -4.116667,
+    "lng": 122.5
+  },
+  {
+    "locationCode": "RNI",
+    "label": "Ranai",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 3.916667,
+    "lng": 108.383333
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Rancaekek",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.95,
+    "lng": 107.766667
+  },
+  {
+    "locationCode": "RGG",
+    "label": "Rangkasbitung",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.35,
+    "lng": 106.233333
+  },
+  {
+    "locationCode": "RSK",
+    "label": "Ransiki",
+    "function": "4"
+  },
+  {
+    "locationCode": "REM",
+    "label": "Rembang",
+    "function": "0"
+  },
+  {
+    "locationCode": "RDK",
+    "label": "Rengasdengklok",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 107.266667
+  },
+  {
+    "locationCode": "RGT",
+    "label": "Rengat, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "REO",
+    "label": "Reo",
+    "subdivisionCode": "NT",
+    "function": "1",
+    "lat": -8.316667,
+    "lng": 120.5
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Riau",
+    "subdivisionCode": "RI",
+    "function": "3",
+    "lat": 0.783333,
+    "lng": 104.55
+  },
+  {
+    "locationCode": "RKI",
+    "label": "Rokot",
+    "function": "4"
+  },
+  {
+    "locationCode": "RTI",
+    "label": "Roti",
+    "function": "4"
+  },
+  {
+    "locationCode": "RUN",
+    "label": "Rungkut",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.316667,
+    "lng": 112.766667
+  },
+  {
+    "locationCode": "RTG",
+    "label": "Ruteng, Flores",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Sabang, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SDG",
+    "label": "Sadang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -7.183333,
+    "lng": 107.966667
+  },
+  {
+    "locationCode": "SAD",
+    "label": "Sadau, Borneo",
+    "function": "1"
+  },
+  {
+    "locationCode": "STG",
+    "label": "Salatiga",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.316667,
+    "lng": 110.483333
+  },
+  {
+    "locationCode": "SWT",
+    "label": "Salawati Terminal",
+    "subdivisionCode": "PB",
+    "function": "1",
+    "lat": -1.35,
+    "lng": 131
+  },
+  {
+    "locationCode": "5SA",
+    "label": "Salemba",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "SRI",
+    "label": "Samarinda, Kalimantan",
+    "function": "14"
+  },
+  {
+    "locationCode": "SBS",
+    "label": "Sambas, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "5SP",
+    "label": "Sampang",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.2,
+    "lng": 113.233333
+  },
+  {
+    "locationCode": "SMQ",
+    "label": "Sampit, Kalimantan",
+    "function": "14"
+  },
+  {
+    "locationCode": "SQN",
+    "label": "Sanana",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sanang, Celebes",
+    "function": "1"
+  },
+  {
+    "locationCode": "SGQ",
+    "label": "Sanggata",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGU",
+    "label": "Sanggau",
+    "subdivisionCode": "KB",
+    "function": "1",
+    "lat": 0.116667,
+    "lng": 110.6
+  },
+  {
+    "locationCode": "SAE",
+    "label": "Sangir",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKI",
+    "label": "Sangkulirang, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Santan Terminal, Kl",
+    "function": "1"
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Sanur",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": -8.683333,
+    "lng": 115.266667
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Sape",
+    "subdivisionCode": "NB",
+    "function": "13",
+    "lat": -8.566667,
+    "lng": 118.983333
+  },
+  {
+    "locationCode": "ZRM",
+    "label": "Sarmi",
+    "function": "4",
+    "lat": -1.25,
+    "lng": 138.75
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sasayap",
+    "function": "1"
+  },
+  {
+    "locationCode": "STU",
+    "label": "Satui",
+    "function": "1"
+  },
+  {
+    "locationCode": "SXK",
+    "label": "Saumlaki",
+    "function": "4"
+  },
+  {
+    "locationCode": "ISO",
+    "label": "Sawahlunto",
+    "subdivisionCode": "SB",
+    "function": "6",
+    "lat": -0.666667,
+    "lng": 100.783333
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Sawu",
+    "function": "4"
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sebangan Bay, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Sebuku Island",
+    "subdivisionCode": "KS",
+    "function": "6",
+    "lat": -3.5,
+    "lng": 116.366667
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Sekupang",
+    "subdivisionCode": "RI",
+    "function": "13",
+    "lat": 1.133333,
+    "lng": 103.933333
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Selat Pandjang, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMB",
+    "label": "Semangka Bay, St",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRG",
+    "label": "Semarang",
+    "subdivisionCode": "JT",
+    "function": "1345",
+    "lat": -6.966667,
+    "lng": 110.483333
+  },
+  {
+    "locationCode": "SMP",
+    "label": "Semper",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -6.116667,
+    "lng": 106.916667
+  },
+  {
+    "locationCode": "SEY",
+    "label": "Senayan",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.216667,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "SEH",
+    "label": "Senggeh",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGG",
+    "label": "Senggigi",
+    "subdivisionCode": "NB",
+    "function": "13",
+    "lat": -8.5,
+    "lng": 116.05
+  },
+  {
+    "locationCode": "ZEG",
+    "label": "Senggo",
+    "function": "4"
+  },
+  {
+    "locationCode": "SZH",
+    "label": "Senipah",
+    "subdivisionCode": "KI",
+    "function": "15",
+    "lat": -0.95,
+    "lng": 117.15
+  },
+  {
+    "locationCode": "SPH",
+    "label": "Senipah Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEN",
+    "label": "Sentul",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.383333,
+    "lng": 106.933333
+  },
+  {
+    "locationCode": "SEP",
+    "label": "Sepanjang Terminal",
+    "function": "1",
+    "lat": -7.183333,
+    "lng": 115.783333
+  },
+  {
+    "locationCode": "SER",
+    "label": "Serang",
+    "function": "3"
+  },
+  {
+    "locationCode": "SSN",
+    "label": "Serdang",
+    "subdivisionCode": "SS",
+    "function": "6",
+    "lat": -2.833333,
+    "lng": 106.45
+  },
+  {
+    "locationCode": "SPG",
+    "label": "Serpong",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.316667,
+    "lng": 106.65
+  },
+  {
+    "locationCode": "ZRI",
+    "label": "Serui, Irian Jaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Setagin",
+    "function": "1",
+    "lat": -3.283333,
+    "lng": 116.166667
+  },
+  {
+    "locationCode": "STD",
+    "label": "Setiabudi",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.2,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "SSI",
+    "label": "Siak Sri Indrapura",
+    "function": "3",
+    "lat": 0.766667,
+    "lng": 102.066667
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Siak Yechil, Riau",
+    "function": "1"
+  },
+  {
+    "locationCode": "STR",
+    "label": "Siantar",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 1.966667,
+    "lng": 98.783333
+  },
+  {
+    "locationCode": "SIW",
+    "label": "Sibisa",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLG",
+    "label": "Sibolga, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SID",
+    "label": "Sidangoli",
+    "subdivisionCode": "MU",
+    "function": "13",
+    "lat": 0.9,
+    "lng": 127.483333
+  },
+  {
+    "locationCode": "SDK",
+    "label": "Sidikalang",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 2.75,
+    "lng": 98.316667
+  },
+  {
+    "locationCode": "SDJ",
+    "label": "Sidoarjo",
+    "subdivisionCode": "JI",
+    "function": "1"
+  },
+  {
+    "locationCode": "SNG",
+    "label": "Sinabang",
+    "function": "13"
+  },
+  {
+    "locationCode": "NKD",
+    "label": "Sinak",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKW",
+    "label": "Singkawang, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIQ",
+    "label": "Singkep Isl Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Singosari",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.883333,
+    "lng": 112.683333
+  },
+  {
+    "locationCode": "SQG",
+    "label": "Sintang",
+    "function": "4"
+  },
+  {
+    "locationCode": "RKO",
+    "label": "Sipora",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Sleman",
+    "subdivisionCode": "YO",
+    "function": "3",
+    "lat": -7.7,
+    "lng": 110.333333
+  },
+  {
+    "locationCode": "SLP",
+    "label": "Slipi",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": 6.183333,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "CGK",
+    "label": "Soekarno-Hatta Apt/Jakarta",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Soengei Kolak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SOC",
+    "label": "Solo City",
+    "function": "4"
+  },
+  {
+    "locationCode": "SQR",
+    "label": "Soroako",
+    "function": "4"
+  },
+  {
+    "locationCode": "SOQ",
+    "label": "Sorong",
+    "function": "14"
+  },
+  {
+    "locationCode": "SRN",
+    "label": "Sragen",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.433333,
+    "lng": 111.033333
+  },
+  {
+    "locationCode": "ZKL",
+    "label": "Steenkool",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUA",
+    "label": "Suaran",
+    "subdivisionCode": "KI",
+    "function": "1",
+    "lat": 2.05,
+    "lng": 117.7
+  },
+  {
+    "locationCode": "SBM",
+    "label": "Subaim",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 1.116667,
+    "lng": 128.166667
+  },
+  {
+    "locationCode": "SBN",
+    "label": "Subang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.55,
+    "lng": 107.75
+  },
+  {
+    "locationCode": "SUK",
+    "label": "Sukabumi",
+    "function": "1",
+    "lat": -65.85,
+    "lng": 106.916667
+  },
+  {
+    "locationCode": "SKN",
+    "label": "Sukatani",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.4,
+    "lng": 107.85
+  },
+  {
+    "locationCode": "SKD",
+    "label": "Sukodono",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -8.1,
+    "lng": 113.233333
+  },
+  {
+    "locationCode": "SUO",
+    "label": "Sukoharjo",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.683333,
+    "lng": 110.833333
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Sukolilo",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.95,
+    "lng": 112.75
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Sumatra",
+    "function": "6",
+    "lat": 0,
+    "lng": 102
+  },
+  {
+    "locationCode": "SWQ",
+    "label": "Sumbawa",
+    "function": "14"
+  },
+  {
+    "locationCode": "5SU",
+    "label": "Sumedang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.85,
+    "lng": 107.9
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sumenep",
+    "subdivisionCode": "JI",
+    "function": "1",
+    "lat": -7.05,
+    "lng": 113.95
+  },
+  {
+    "locationCode": "SUP",
+    "label": "Sumenep, Madura",
+    "function": "14"
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Sundakelapa",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.1,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "SUG",
+    "label": "Sungai Gerong, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUQ",
+    "label": "Sungai Guntung, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEQ",
+    "label": "Sungai Pakning, Sumatra",
+    "function": "14"
+  },
+  {
+    "locationCode": "SUT",
+    "label": "Sunter",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sunut",
+    "subdivisionCode": "NB",
+    "function": "1",
+    "lat": -8.866667,
+    "lng": 116.55
+  },
+  {
+    "locationCode": "SUB",
+    "label": "Surabaya",
+    "subdivisionCode": "JI",
+    "function": "123456",
+    "lat": -7.233333,
+    "lng": 112.75
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Surakarta",
+    "function": "3",
+    "lat": -7.566667,
+    "lng": 110.816667
+  },
+  {
+    "locationCode": "SUS",
+    "label": "Susoh, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSO",
+    "label": "Susu",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Taboneo",
+    "subdivisionCode": "KS",
+    "function": "1",
+    "lat": -3.683333,
+    "lng": 114.416667
+  },
+  {
+    "locationCode": "TKN",
+    "label": "Takengon",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 4.633333,
+    "lng": 96.833333
+  },
+  {
+    "locationCode": "TAX",
+    "label": "Taliabu Island Apt, Moluccas",
+    "function": "14"
+  },
+  {
+    "locationCode": "TMC",
+    "label": "Tambolaka",
+    "function": "4"
+  },
+  {
+    "locationCode": "TMB",
+    "label": "Tambora",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.133333,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tambun",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.233333,
+    "lng": 106.933333
+  },
+  {
+    "locationCode": "TTR",
+    "label": "Tana Toraja",
+    "function": "4"
+  },
+  {
+    "locationCode": "TNB",
+    "label": "Tanah Grogot",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Tanah Laut",
+    "subdivisionCode": "KS",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNN",
+    "label": "Tanahabang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "TNK",
+    "label": "Tanahkuning",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 2.616667,
+    "lng": 117.783333
+  },
+  {
+    "locationCode": "TMH",
+    "label": "Tanahmerah, Kalimantan",
+    "function": "4"
+  },
+  {
+    "locationCode": "TND",
+    "label": "Tandes",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.133333,
+    "lng": 112.916667
+  },
+  {
+    "locationCode": "PDJ",
+    "label": "Tandjang",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBT",
+    "label": "Tandjung Batu, Riau",
+    "function": "1"
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Tangerang",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": -6.166667,
+    "lng": 106.616667
+  },
+  {
+    "locationCode": "TGK",
+    "label": "Tangkiang",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": -1.2,
+    "lng": 122.633333
+  },
+  {
+    "locationCode": "TJU",
+    "label": "Tanjung Balai",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 2.966667,
+    "lng": 99.8
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tanjung Bara, Kl",
+    "function": "0"
+  },
+  {
+    "locationCode": "TBU",
+    "label": "Tanjung Buli",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 0.833333,
+    "lng": 128.25
+  },
+  {
+    "locationCode": "TME",
+    "label": "Tanjung Merangas",
+    "subdivisionCode": "KI",
+    "function": "1",
+    "lat": 0.033333,
+    "lng": 117.516667
+  },
+  {
+    "locationCode": "TJQ",
+    "label": "Tanjung Pandan",
+    "subdivisionCode": "SS",
+    "function": "134",
+    "lat": -2.75,
+    "lng": 107.65
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Tanjung Pemancingan",
+    "subdivisionCode": "KS",
+    "function": "1",
+    "lat": -3.183333,
+    "lng": 116.266667
+  },
+  {
+    "locationCode": "TPP",
+    "label": "Tanjung Priok",
+    "subdivisionCode": "JK",
+    "function": "3",
+    "lat": -6.1,
+    "lng": 106.883333
+  },
+  {
+    "locationCode": "TSX",
+    "label": "Tanjung Santan",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSE",
+    "label": "Tanjung Sekong, Jv",
+    "function": "1"
+  },
+  {
+    "locationCode": "TJS",
+    "label": "Tanjung Selor",
+    "function": "4"
+  },
+  {
+    "locationCode": "ITN",
+    "label": "Tanjung Uban",
+    "subdivisionCode": "RI",
+    "function": "6",
+    "lat": -1.05,
+    "lng": 104.233333
+  },
+  {
+    "locationCode": "TJG",
+    "label": "Tanjung Warukin",
+    "function": "4"
+  },
+  {
+    "locationCode": "TJB",
+    "label": "Tanjungbalai",
+    "subdivisionCode": "KR",
+    "function": "145",
+    "lat": 1,
+    "lng": 103.433333
+  },
+  {
+    "locationCode": "TJT",
+    "label": "Tanjungbatu",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 2.283333,
+    "lng": 118.083333
+  },
+  {
+    "locationCode": "TMJ",
+    "label": "Tanjungmorawa",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 3.516667,
+    "lng": 98.816667
+  },
+  {
+    "locationCode": "TNJ",
+    "label": "Tanjungpinang",
+    "subdivisionCode": "KR",
+    "function": "14",
+    "lat": 0.916667,
+    "lng": 104.45
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanjunguban",
+    "function": "13",
+    "lat": 1.05,
+    "lng": 104.233333
+  },
+  {
+    "locationCode": "TPK",
+    "label": "Tapaktuan, Sumatra",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRH",
+    "label": "Tarahan",
+    "subdivisionCode": "LA",
+    "function": "13",
+    "lat": -5.566667,
+    "lng": 105.366667
+  },
+  {
+    "locationCode": "TRK",
+    "label": "Tarakan, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarjun",
+    "subdivisionCode": "KS",
+    "function": "1",
+    "lat": -3.266667,
+    "lng": 116.083333
+  },
+  {
+    "locationCode": "TRT",
+    "label": "Tarutung",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 2.016667,
+    "lng": 98.966667
+  },
+  {
+    "locationCode": "TSY",
+    "label": "Tasikmalaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "TWG",
+    "label": "Tawangsari",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.283333,
+    "lng": 110.55
+  },
+  {
+    "locationCode": "TTI",
+    "label": "Tebingtinggi",
+    "function": "3"
+  },
+  {
+    "locationCode": "TEG",
+    "label": "Tegal, Java",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Tegalalur",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.1,
+    "lng": 106.7
+  },
+  {
+    "locationCode": "TKA",
+    "label": "Telok Ayer, Kalimantan",
+    "function": "1"
+  },
+  {
+    "locationCode": "TMO",
+    "label": "Telok Melano",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBG",
+    "label": "Teluk Betung, Sumatra",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBR",
+    "label": "Telukbayur",
+    "subdivisionCode": "SB",
+    "function": "13",
+    "lat": -1,
+    "lng": 100.366667
+  },
+  {
+    "locationCode": "MGG",
+    "label": "Temanggung",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.3,
+    "lng": 110.166667
+  },
+  {
+    "locationCode": "TIM",
+    "label": "Tembagapura",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBH",
+    "label": "Tembilahan",
+    "subdivisionCode": "RI",
+    "function": "3",
+    "lat": -0.316667,
+    "lng": 103.15
+  },
+  {
+    "locationCode": "TXM",
+    "label": "Teminabuan",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Teras",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.533333,
+    "lng": 110.65
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terempa",
+    "subdivisionCode": "RI",
+    "function": "1",
+    "lat": 3.216667,
+    "lng": 106.216667
+  },
+  {
+    "locationCode": "TTE",
+    "label": "Ternate, Halmahera",
+    "function": "14"
+  },
+  {
+    "locationCode": "TMK",
+    "label": "Timika",
+    "subdivisionCode": "PA",
+    "function": "1",
+    "lat": -4.75,
+    "lng": 136.55
+  },
+  {
+    "locationCode": "TMY",
+    "label": "Tiom",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBO",
+    "label": "Tobelo",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBL",
+    "label": "Toboali",
+    "subdivisionCode": "SS",
+    "function": "1",
+    "lat": -3,
+    "lng": 106.5
+  },
+  {
+    "locationCode": "TLI",
+    "label": "Tolitoli",
+    "function": "14"
+  },
+  {
+    "locationCode": "5TR",
+    "label": "Trenggalek",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -8.05,
+    "lng": 111.716667
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Trosobo",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.366667,
+    "lng": 112.633333
+  },
+  {
+    "locationCode": "TUA",
+    "label": "Tual",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -5.633333,
+    "lng": 132.733333
+  },
+  {
+    "locationCode": "TBN",
+    "label": "Tuban, Jv",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLU",
+    "label": "Tulungagung",
+    "subdivisionCode": "JI",
+    "function": "23",
+    "lat": -8.666667,
+    "lng": 111.9
+  },
+  {
+    "locationCode": "TBM",
+    "label": "Tumbang Samba",
+    "function": "4"
+  },
+  {
+    "locationCode": "UBR",
+    "label": "Ubrub",
+    "function": "4"
+  },
+  {
+    "locationCode": "UBG",
+    "label": "Ubrug",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.95,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "UDG",
+    "label": "Udang Natuna Terminal",
+    "function": "1",
+    "lat": 4.016667,
+    "lng": 106.466667
+  },
+  {
+    "locationCode": "UPG",
+    "label": "Ujung Pandang, Sulawesi",
+    "function": "145"
+  },
+  {
+    "locationCode": "WET",
+    "label": "Wagethe",
+    "function": "4"
+  },
+  {
+    "locationCode": "WBA",
+    "label": "Wahai",
+    "function": "4"
+  },
+  {
+    "locationCode": "WGP",
+    "label": "Waingapu, Sumba",
+    "subdivisionCode": "NT",
+    "function": "14",
+    "lat": -9.65,
+    "lng": 120.266667
+  },
+  {
+    "locationCode": "WAI",
+    "label": "Wainibe",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -3.066667,
+    "lng": 126.533333
+  },
+  {
+    "locationCode": "6DI",
+    "label": "Wajo",
+    "subdivisionCode": "SN",
+    "function": "3",
+    "lat": -4.1,
+    "lng": 120.116667
+  },
+  {
+    "locationCode": "WMX",
+    "label": "Wamena",
+    "function": "4"
+  },
+  {
+    "locationCode": "WSS",
+    "label": "Wamsasi",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": -3.566667,
+    "lng": 126.166667
+  },
+  {
+    "locationCode": "WAH",
+    "label": "Wanaherang",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.416667,
+    "lng": 106.933333
+  },
+  {
+    "locationCode": "WAN",
+    "label": "Wanam",
+    "subdivisionCode": "PB",
+    "function": "1",
+    "lat": -7.55,
+    "lng": 139.1
+  },
+  {
+    "locationCode": "WAR",
+    "label": "Waris",
+    "function": "4"
+  },
+  {
+    "locationCode": "WRU",
+    "label": "Waru",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.183333,
+    "lng": 106.4
+  },
+  {
+    "locationCode": "WNG",
+    "label": "Warunggunung",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.333333,
+    "lng": 106.183333
+  },
+  {
+    "locationCode": "WJB",
+    "label": "Warungjambu",
+    "subdivisionCode": "JB",
+    "function": "3",
+    "lat": -6.466667,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "WSR",
+    "label": "Wasior",
+    "function": "4"
+  },
+  {
+    "locationCode": "WED",
+    "label": "Weda",
+    "subdivisionCode": "MA",
+    "function": "1",
+    "lat": 0.333333,
+    "lng": 127.883333
+  },
+  {
+    "locationCode": "WID",
+    "label": "Widuri",
+    "function": "7",
+    "lat": -4.666667,
+    "lng": 106.65
+  },
+  {
+    "locationCode": "WNR",
+    "label": "Wonogiri",
+    "subdivisionCode": "JT",
+    "function": "3",
+    "lat": -7.816667,
+    "lng": 110.916667
+  },
+  {
+    "locationCode": "WON",
+    "label": "Wonosari",
+    "function": "3"
+  },
+  {
+    "locationCode": "WNB",
+    "label": "Wonosobo",
+    "subdivisionCode": "JT",
+    "function": "6",
+    "lat": -7.366667,
+    "lng": 109.9
+  },
+  {
+    "locationCode": "WRI",
+    "label": "Wringinanom",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": -7.383333,
+    "lng": 112.516667
+  },
+  {
+    "locationCode": "JOG",
+    "label": "Yogyakarta",
+    "subdivisionCode": "YO",
+    "function": "2346",
+    "lat": -7.8,
+    "lng": 110.366667
+  },
+  {
+    "locationCode": "RUF",
+    "label": "Yuruf",
+    "function": "4"
+  },
+  {
+    "locationCode": "UGU",
+    "label": "Zugapa",
+    "function": "4"
+  }
+]

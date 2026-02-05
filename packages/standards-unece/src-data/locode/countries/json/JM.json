@@ -1,0 +1,467 @@
+[
+  {
+    "locationCode": "ALP",
+    "label": "Alligator Pond",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Annotto Bay",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 18.266667,
+    "lng": -76.766667
+  },
+  {
+    "locationCode": "BMB",
+    "label": "Bamboo",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 18.433333,
+    "lng": -78.033333
+  },
+  {
+    "locationCode": "BLR",
+    "label": "Black River",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOK",
+    "label": "Bog Walk",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 18.1,
+    "lng": -77.016667
+  },
+  {
+    "locationCode": "BWN",
+    "label": "Bowden",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Browns Town",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 18.4,
+    "lng": -77.366667
+  },
+  {
+    "locationCode": "BSV",
+    "label": "Bull Savanna",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 17.883333,
+    "lng": -77.6
+  },
+  {
+    "locationCode": "CST",
+    "label": "Charles Town",
+    "subdivisionCode": "04",
+    "function": "36",
+    "lat": 18.216667,
+    "lng": -76.666667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Christiana",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 18.166667,
+    "lng": -77.483333
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Clarendon Park",
+    "function": "3",
+    "lat": 17.966667,
+    "lng": -77.383333
+  },
+  {
+    "locationCode": "DLT",
+    "label": "Darliston",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 18.233333,
+    "lng": -77.966667
+  },
+  {
+    "locationCode": "DIY",
+    "label": "Discovery Bay",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 18.466667,
+    "lng": -77.4
+  },
+  {
+    "locationCode": "EWN",
+    "label": "Ewarton",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 18.183333,
+    "lng": -77.083333
+  },
+  {
+    "locationCode": "FHP",
+    "label": "Fairy Hill",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 18.15,
+    "lng": -76.616667
+  },
+  {
+    "locationCode": "FMH",
+    "label": "Falmouth",
+    "function": "1"
+  },
+  {
+    "locationCode": "FRF",
+    "label": "Frankfield",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 18.15,
+    "lng": -77.366667
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halse Hall",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 17.916667,
+    "lng": -77.25
+  },
+  {
+    "locationCode": "HMP",
+    "label": "Hampden",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 18.433333,
+    "lng": -77.75
+  },
+  {
+    "locationCode": "HIE",
+    "label": "Highgate",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 18.266667,
+    "lng": -76.883333
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kingston",
+    "function": "145"
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Kingston Tinson Airport",
+    "subdivisionCode": "01",
+    "function": "4",
+    "lat": 18.016667,
+    "lng": -76.816667
+  },
+  {
+    "locationCode": "KNK",
+    "label": "Knockpatrick",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 18,
+    "lng": -77.516667
+  },
+  {
+    "locationCode": "LID",
+    "label": "Linstead",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 18.133333,
+    "lng": -77.033333
+  },
+  {
+    "locationCode": "LOP",
+    "label": "Long Pond",
+    "function": "6",
+    "lat": 18.433333,
+    "lng": -77.55
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Lucea",
+    "function": "3"
+  },
+  {
+    "locationCode": "MGT",
+    "label": "Maggotty",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 18.15,
+    "lng": -77.766667
+  },
+  {
+    "locationCode": "MVJ",
+    "label": "Mandeville",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPE",
+    "label": "May Pen",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 17.966667,
+    "lng": -77.233333
+  },
+  {
+    "locationCode": "MNG",
+    "label": "Moneague",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 18.266667,
+    "lng": -77.116667
+  },
+  {
+    "locationCode": "MBJ",
+    "label": "Montego Bay",
+    "function": "14"
+  },
+  {
+    "locationCode": "8MM",
+    "label": "Monymusk",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 17.816667,
+    "lng": -77.216667
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Morant Bay",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 17.883333,
+    "lng": -76.416667
+  },
+  {
+    "locationCode": "NAI",
+    "label": "Nain",
+    "function": "3",
+    "lat": 17.95,
+    "lng": -77.6
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Negril",
+    "function": "4"
+  },
+  {
+    "locationCode": "NYM",
+    "label": "New Yarmouth",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 17.883333,
+    "lng": -77.266667
+  },
+  {
+    "locationCode": "NET",
+    "label": "Newport",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 17.966667,
+    "lng": -77.5
+  },
+  {
+    "locationCode": "OCJ",
+    "label": "Ocho Rios",
+    "function": "14"
+  },
+  {
+    "locationCode": "OLR",
+    "label": "Old Harbour",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 17.933333,
+    "lng": -77.116667
+  },
+  {
+    "locationCode": "ORC",
+    "label": "Oracabessa",
+    "function": "1",
+    "lat": 18.4,
+    "lng": -76.95
+  },
+  {
+    "locationCode": "POT",
+    "label": "Port Antonio",
+    "function": "14"
+  },
+  {
+    "locationCode": "PEV",
+    "label": "Port Esquivel",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHE",
+    "label": "Port Henderson",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 17.95,
+    "lng": -76.883333
+  },
+  {
+    "locationCode": "PKS",
+    "label": "Port Kaiser",
+    "function": "1"
+  },
+  {
+    "locationCode": "POA",
+    "label": "Port Maria",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 18.366667,
+    "lng": -76.9
+  },
+  {
+    "locationCode": "PMO",
+    "label": "Port Morant",
+    "function": "1"
+  },
+  {
+    "locationCode": "PRH",
+    "label": "Port Rhoades",
+    "function": "1"
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Port Royal",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTM",
+    "label": "Portmore",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 17.966667,
+    "lng": -76.866667
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Priory",
+    "function": "6",
+    "lat": 18.45,
+    "lng": -77.216667
+  },
+  {
+    "locationCode": "RIB",
+    "label": "Rio Bueno",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROP",
+    "label": "Rocky Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROH",
+    "label": "Rose Hall",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 17.933333,
+    "lng": -77.65
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Saint Andrew Parish",
+    "function": "35"
+  },
+  {
+    "locationCode": "SAW",
+    "label": "Saint Ann's Bay",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 18.433333,
+    "lng": -77.2
+  },
+  {
+    "locationCode": "STH",
+    "label": "Saint Thomas",
+    "function": "3",
+    "lat": 17.9,
+    "lng": -76.433333
+  },
+  {
+    "locationCode": "SRI",
+    "label": "Salt River",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandy Bay",
+    "function": "3",
+    "lat": 18.45,
+    "lng": -78.083333
+  },
+  {
+    "locationCode": "STC",
+    "label": "Santa Cruz",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 18.05,
+    "lng": -77.7
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Savanna-la-Mar",
+    "function": "1",
+    "lat": 18.216667,
+    "lng": -78.133333
+  },
+  {
+    "locationCode": "SED",
+    "label": "Serge Island",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 17.95,
+    "lng": -76.483333
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Spanish Town",
+    "function": "3"
+  },
+  {
+    "locationCode": "TR9",
+    "label": "Trelawny",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 18.383333,
+    "lng": -77.633333
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vineyard",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 17.966667,
+    "lng": -76.766667
+  },
+  {
+    "locationCode": "WKF",
+    "label": "Wakefield",
+    "subdivisionCode": "07",
+    "function": "36",
+    "lat": 18.416667,
+    "lng": -77.716667
+  },
+  {
+    "locationCode": "WPK",
+    "label": "Worthy Park",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 18.15,
+    "lng": -77.15
+  },
+  {
+    "locationCode": "YAS",
+    "label": "Yallahs",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 17.866667,
+    "lng": -76.566667
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "locationCode": "BRP",
+    "label": "Bras Panon",
+    "function": "3",
+    "lat": -21,
+    "lng": 55.683333
+  },
+  {
+    "locationCode": "CAF",
+    "label": "la Plaine des Cafres",
+    "function": "3",
+    "lat": -21.166667,
+    "lng": 55.583333
+  },
+  {
+    "locationCode": "SLH",
+    "label": "La Saline les Hauts",
+    "function": "3",
+    "lat": -21.083333,
+    "lng": 55.266667
+  },
+  {
+    "locationCode": "LPT",
+    "label": "Le Port",
+    "function": "135",
+    "lat": -20.933333,
+    "lng": 55.316667
+  },
+  {
+    "locationCode": "LTM",
+    "label": "Le Tampon",
+    "function": "3",
+    "lat": -21.266667,
+    "lng": 55.516667
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Les Avirons",
+    "function": "3",
+    "lat": -21.233333,
+    "lng": 55.333333
+  },
+  {
+    "locationCode": "X3R",
+    "label": "les Trois Bassins",
+    "function": "3",
+    "lat": -21.1,
+    "lng": 55.3
+  },
+  {
+    "locationCode": "LES",
+    "label": "L'Étang-Salé",
+    "labelWithDiacritics": "L'Etang-Sale",
+    "function": "3",
+    "lat": -21.266667,
+    "lng": 55.366667
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Plaine des Palmistes",
+    "function": "3",
+    "lat": -21.133333,
+    "lng": 55.633333
+  },
+  {
+    "locationCode": "PD2",
+    "label": "Pointe des Galets",
+    "function": "3",
+    "lat": -20.916667,
+    "lng": 55.283333
+  },
+  {
+    "locationCode": "POS",
+    "label": "Possession",
+    "function": "1",
+    "lat": -20.933333,
+    "lng": 55.333333
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Saint-André",
+    "labelWithDiacritics": "Saint-Andre",
+    "function": "35",
+    "lat": -20.933333,
+    "lng": 55.65
+  },
+  {
+    "locationCode": "SVB",
+    "label": "Saint-Benoît",
+    "labelWithDiacritics": "Saint-Benoit",
+    "function": "6",
+    "lat": -21.033333,
+    "lng": 55.716667
+  },
+  {
+    "locationCode": "RUN",
+    "label": "Saint-Denis",
+    "function": "134",
+    "lat": -20.9,
+    "lng": 55.516667
+  },
+  {
+    "locationCode": "CLO",
+    "label": "Sainte Clotilde",
+    "function": "3",
+    "lat": -20.9,
+    "lng": 55.483333
+  },
+  {
+    "locationCode": "ANN",
+    "label": "Sainte-Anne",
+    "function": "3",
+    "lat": -21.083333,
+    "lng": 55.75
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Sainte-Marie",
+    "function": "3",
+    "lat": -20.883333,
+    "lng": 55.55
+  },
+  {
+    "locationCode": "RSE",
+    "label": "Sainte-Rose",
+    "function": "13",
+    "lat": -21.133333,
+    "lng": 55.8
+  },
+  {
+    "locationCode": "SSZ",
+    "label": "Sainte-Suzanne",
+    "function": "1",
+    "lat": -20.9,
+    "lng": 55.6
+  },
+  {
+    "locationCode": "SGL",
+    "label": "Saint-Gilles",
+    "function": "3",
+    "lat": -21.033333,
+    "lng": 55.233333
+  },
+  {
+    "locationCode": "GUL",
+    "label": "Saint-Gilles-Les Hauts",
+    "function": "3",
+    "lat": -21.033333,
+    "lng": 55.25
+  },
+  {
+    "locationCode": "SJH",
+    "label": "Saint-Joseph",
+    "function": "3",
+    "lat": -21.366667,
+    "lng": 55.616667
+  },
+  {
+    "locationCode": "LEU",
+    "label": "Saint-Leu",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Saint-Louis",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPL",
+    "label": "Saint-Paul",
+    "function": "1235",
+    "lat": -20.983333,
+    "lng": 55.266667
+  },
+  {
+    "locationCode": "SPH",
+    "label": "Saint-Philippe",
+    "function": "3",
+    "lat": -21.366667,
+    "lng": 55.766667
+  },
+  {
+    "locationCode": "ZSE",
+    "label": "Saint-Pierre",
+    "function": "4",
+    "lat": -21.333333,
+    "lng": 55.466667
+  }
+]

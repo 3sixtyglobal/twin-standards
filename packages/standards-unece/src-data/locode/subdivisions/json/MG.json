@@ -1,0 +1,32 @@
+[
+  {
+    "code": "A",
+    "label": "Toamasina",
+    "type": "Province"
+  },
+  {
+    "code": "D",
+    "label": "Antsiranana",
+    "type": "Province"
+  },
+  {
+    "code": "F",
+    "label": "Fianarantsoa",
+    "type": "Province"
+  },
+  {
+    "code": "M",
+    "label": "Mahajanga",
+    "type": "Province"
+  },
+  {
+    "code": "T",
+    "label": "Antananarivo",
+    "type": "Province"
+  },
+  {
+    "code": "U",
+    "label": "Toliara",
+    "type": "Province"
+  }
+]

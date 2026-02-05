@@ -1,0 +1,157 @@
+[
+  {
+    "code": "BA",
+    "label": "Balaka",
+    "type": "District"
+  },
+  {
+    "code": "BL",
+    "label": "Blantyre",
+    "type": "District"
+  },
+  {
+    "code": "C",
+    "label": "Central",
+    "type": "Region"
+  },
+  {
+    "code": "CK",
+    "label": "Chikwawa",
+    "type": "District"
+  },
+  {
+    "code": "CR",
+    "label": "Chiradzulu",
+    "type": "District"
+  },
+  {
+    "code": "CT",
+    "label": "Chitipa",
+    "type": "District"
+  },
+  {
+    "code": "DE",
+    "label": "Dedza",
+    "type": "District"
+  },
+  {
+    "code": "DO",
+    "label": "Dowa",
+    "type": "District"
+  },
+  {
+    "code": "KR",
+    "label": "Karonga",
+    "type": "District"
+  },
+  {
+    "code": "KS",
+    "label": "Kasungu",
+    "type": "District"
+  },
+  {
+    "code": "LI",
+    "label": "Lilongwe",
+    "type": "District"
+  },
+  {
+    "code": "LK",
+    "label": "Likoma",
+    "type": "District"
+  },
+  {
+    "code": "MC",
+    "label": "Mchinji",
+    "type": "District"
+  },
+  {
+    "code": "MG",
+    "label": "Mangochi",
+    "type": "District"
+  },
+  {
+    "code": "MH",
+    "label": "Machinga",
+    "type": "District"
+  },
+  {
+    "code": "MU",
+    "label": "Mulanje",
+    "type": "District"
+  },
+  {
+    "code": "MW",
+    "label": "Mwanza",
+    "type": "District"
+  },
+  {
+    "code": "MZ",
+    "label": "Mzimba",
+    "type": "District"
+  },
+  {
+    "code": "N",
+    "label": "Northern",
+    "type": "Region"
+  },
+  {
+    "code": "NB",
+    "label": "Nkhata Bay",
+    "type": "District"
+  },
+  {
+    "code": "NE",
+    "label": "Neno",
+    "type": "District"
+  },
+  {
+    "code": "NI",
+    "label": "Ntchisi",
+    "type": "District"
+  },
+  {
+    "code": "NK",
+    "label": "Nkhotakota",
+    "type": "District"
+  },
+  {
+    "code": "NS",
+    "label": "Nsanje",
+    "type": "District"
+  },
+  {
+    "code": "NU",
+    "label": "Ntcheu",
+    "type": "District"
+  },
+  {
+    "code": "PH",
+    "label": "Phalombe",
+    "type": "District"
+  },
+  {
+    "code": "RU",
+    "label": "Rumphi",
+    "type": "District"
+  },
+  {
+    "code": "S",
+    "label": "Southern",
+    "type": "Region"
+  },
+  {
+    "code": "SA",
+    "label": "Salima",
+    "type": "District"
+  },
+  {
+    "code": "TH",
+    "label": "Thyolo",
+    "type": "District"
+  },
+  {
+    "code": "ZO",
+    "label": "Zomba",
+    "type": "District"
+  }
+]

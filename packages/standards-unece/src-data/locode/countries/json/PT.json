@@ -1,0 +1,7669 @@
+[
+  {
+    "locationCode": "TZA",
+    "label": "A dos Cunhados",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 39.15,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "AVM",
+    "label": "Abade de Vermoim",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "ABO",
+    "label": "Aboboda",
+    "subdivisionCode": "11",
+    "function": "236",
+    "lat": 38.716667,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "AA4",
+    "label": "Abraã",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Abraa",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "AGO",
+    "label": "Abragão",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Abragao",
+    "function": "3",
+    "lat": 41.15,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "ABT",
+    "label": "Abrantes",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.466667,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "ABS",
+    "label": "Abraveses",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 40.666667,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "ABG",
+    "label": "Abrigada",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.15,
+    "lng": -9.016667
+  },
+  {
+    "locationCode": "ABR",
+    "label": "Abrunheira",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.116667,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "AHA",
+    "label": "Abrunheira",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.766667,
+    "lng": -9.366667
+  },
+  {
+    "locationCode": "ASD",
+    "label": "Adães",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Adaes",
+    "function": "23",
+    "lat": 41.516667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "B4R",
+    "label": "Adaufe",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "ADF",
+    "label": "Adaúfe",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Adaufe",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "AGE",
+    "label": "Agrela",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "GLZ",
+    "label": "Água Longa",
+    "labelWithDiacritics": "Agua Longa",
+    "function": "6",
+    "lat": 41.25,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "ADB",
+    "label": "Aguada de Baixo",
+    "function": "2",
+    "lat": 40.5,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "AGA",
+    "label": "Aguada de Cima",
+    "subdivisionCode": "01",
+    "function": "3"
+  },
+  {
+    "locationCode": "AGV",
+    "label": "Agualva",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 40.833333,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "UGV",
+    "label": "Agualva",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.75,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "AGM",
+    "label": "Águas de Moura",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Aguas de Moura",
+    "function": "23",
+    "lat": 38.583333,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "GST",
+    "label": "Águas Santas",
+    "labelWithDiacritics": "Aguas Santas",
+    "function": "6",
+    "lat": 41.616667,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "AGC",
+    "label": "Aguçadoura",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Agucadoura",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "AGD",
+    "label": "Aguda",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 41.05,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "AGU",
+    "label": "Águeda",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Agueda",
+    "function": "23",
+    "lat": 40.566667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "AGB",
+    "label": "Aguiar da Beira",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.816667,
+    "lng": -7.55
+  },
+  {
+    "locationCode": "AIO",
+    "label": "Aião",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Aiao",
+    "function": "23",
+    "lat": 41.3,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "ALG",
+    "label": "Alagoa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.3,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "AOD",
+    "label": "Alandroal",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 38.7,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "ABQ",
+    "label": "Albarraque",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.766667,
+    "lng": -9.35
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Albergaria",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.75,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "BDZ",
+    "label": "Albergaria dos Doze",
+    "function": "6",
+    "lat": 39.783333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "ABV",
+    "label": "Albergaria-a-Velha",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.7,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "ANO",
+    "label": "Albernoa",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.866667,
+    "lng": -7.966667
+  },
+  {
+    "locationCode": "ABF",
+    "label": "Albufeira",
+    "subdivisionCode": "08",
+    "function": "123",
+    "lat": 37.083333,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "ACB",
+    "label": "Alcabideche",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.733333,
+    "lng": -9.416667
+  },
+  {
+    "locationCode": "ADS",
+    "label": "Alcácer do Sal",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Alcacer do Sal",
+    "function": "23",
+    "lat": 38.366667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Alcains",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 39.916667,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "ACD",
+    "label": "Alcanede",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -8.816667
+  },
+  {
+    "locationCode": "ALC",
+    "label": "Alcanena",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.45,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "ATH",
+    "label": "Alcantarilha",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.133333,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "ALO",
+    "label": "Alcobaça",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Alcobaca",
+    "function": "3",
+    "lat": 39.55,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "ALE",
+    "label": "Alcochete",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.75,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "ACR",
+    "label": "Alcoentre",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.2,
+    "lng": -8.95
+  },
+  {
+    "locationCode": "ACT",
+    "label": "Alcoutim",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.466667,
+    "lng": -7.466667
+  },
+  {
+    "locationCode": "APP",
+    "label": "Aldeia de Paio Pires",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.616667,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "OAS",
+    "label": "Aldeia Galega da Merceana",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.066667,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "AER",
+    "label": "Além da Ribeira",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Alem da Ribeira",
+    "function": "3",
+    "lat": 41.616667,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "ALN",
+    "label": "Alenquer",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.05,
+    "lng": -9
+  },
+  {
+    "locationCode": "AFE",
+    "label": "Alfândega da Fé",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Alfandega da Fe",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -6.966667
+  },
+  {
+    "locationCode": "AFZ",
+    "label": "Alfeizerão",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Alfeizerao",
+    "function": "3",
+    "lat": 39.5,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "AFA",
+    "label": "Alfena",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Alferrarede",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.483333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "ALF",
+    "label": "Alfragide",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 38.733333,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "AGS",
+    "label": "Algés",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Alges",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "AL8",
+    "label": "Algoz",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 37.166667,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "ARO",
+    "label": "Algueirão",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Algueirao",
+    "function": "3",
+    "lat": 38.8,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "AHD",
+    "label": "Alhandra",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": -9
+  },
+  {
+    "locationCode": "ALJ",
+    "label": "Alijo",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.616667,
+    "lng": -7.75
+  },
+  {
+    "locationCode": "AJZ",
+    "label": "Aljezur",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.316667,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "AJB",
+    "label": "Aljubarrota",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.566667,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "AJT",
+    "label": "Aljustrel",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 37.866667,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Almada",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.683333,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "AMG",
+    "label": "Almagreira",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.983333,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "AML",
+    "label": "Almancil",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 37.083333,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Almargem",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.85,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "ALD",
+    "label": "Almeida",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": -6.9
+  },
+  {
+    "locationCode": "ALR",
+    "label": "Almeirim",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Almendra",
+    "function": "6",
+    "lat": 41,
+    "lng": -7.05
+  },
+  {
+    "locationCode": "ADV",
+    "label": "Almodôvar",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Almodovar",
+    "function": "3",
+    "lat": 37.516667,
+    "lng": -8.066667
+  },
+  {
+    "locationCode": "AGR",
+    "label": "Almograve",
+    "function": "1",
+    "lat": 37.65,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "HAO",
+    "label": "Alpalhão",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Alpalhao",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -7.616667
+  },
+  {
+    "locationCode": "AEM",
+    "label": "Alpendurada e Matos",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "APC",
+    "label": "Alpiarça",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Alpiarca",
+    "function": "3",
+    "lat": 39.25,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "AQB",
+    "label": "Alquerubim",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "ALT",
+    "label": "Alter do Chão",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Alter do Chao",
+    "function": "3",
+    "lat": 39.2,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "AVZ",
+    "label": "Alvaiázere",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Alvaiazere",
+    "function": "3",
+    "lat": 39.816667,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "ADO",
+    "label": "Alvaredo",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 42.1,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "AVL",
+    "label": "Alvarelhos",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.3,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Alverca",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.9,
+    "lng": -9.033333
+  },
+  {
+    "locationCode": "ARJ",
+    "label": "Alverca do Ribatejo",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.883333,
+    "lng": -9.033333
+  },
+  {
+    "locationCode": "AVT",
+    "label": "Alvito",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 38.25,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "AVR",
+    "label": "Alvor",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.133333,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "AVA",
+    "label": "Alvorninha",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.383333,
+    "lng": -9.033333
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amadora",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.75,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "AMT",
+    "label": "Amarante",
+    "subdivisionCode": "13",
+    "function": "236",
+    "lat": 41.266667,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "AMJ",
+    "label": "Amareleja",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 38.2,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Amares",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "AMC",
+    "label": "Amiães de Cima",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Amiaes de Cima",
+    "function": "3",
+    "lat": 39.45,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Amiais de Baixo",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.45,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "AME",
+    "label": "Amieirinha",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.883333,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "AMO",
+    "label": "Amora",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.616667,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "ADG",
+    "label": "Amoreira da Gândara",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Amoreira da Gandara",
+    "function": "16",
+    "lat": 40.483333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Amorim",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.4,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anadia",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "ANI",
+    "label": "Anais",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.7,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "AC6",
+    "label": "Ançã",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Anca",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "ANC",
+    "label": "Ancora",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.783333,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Angeiras",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 41.266667,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "ADH",
+    "label": "Angra do Heroísmo",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Angra do Heroismo",
+    "function": "13",
+    "lat": 38.65,
+    "lng": -27.216667
+  },
+  {
+    "locationCode": "ANS",
+    "label": "Ansião",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Ansiao",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "AAR",
+    "label": "Arada",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "AZD",
+    "label": "Arazede",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "ACS",
+    "label": "Arcos",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.75,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "AVV",
+    "label": "Arcos de Valdevez",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.85,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "AOR",
+    "label": "Arcossó",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Arcosso",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "ACZ",
+    "label": "Arcozelo",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.75,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Ardido",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.483333,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Areosa",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.7,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "AGN",
+    "label": "Arganil",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -8.05
+  },
+  {
+    "locationCode": "GER",
+    "label": "Argeriz",
+    "subdivisionCode": "17",
+    "function": "13",
+    "lat": 41.583333,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Argoncilhe",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.016667,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "AGZ",
+    "label": "Argozelo",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -6.6
+  },
+  {
+    "locationCode": "ARZ",
+    "label": "Ariz",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.1,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "ARP",
+    "label": "Armação de Pêra",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Armacao de Pera",
+    "function": "13",
+    "lat": 37.1,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "ARM",
+    "label": "Armamar",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 41.1,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "ARC",
+    "label": "Arouca",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "ARL",
+    "label": "Arraiolos",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.716667,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "ARG",
+    "label": "Arreigada",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.25,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "AFN",
+    "label": "Arrifana",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "ARF",
+    "label": "Arrifana",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "ARR",
+    "label": "Arronches",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.116667,
+    "lng": -7.283333
+  },
+  {
+    "locationCode": "ARV",
+    "label": "Arruda dos Vinhos",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.983333,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "RVR",
+    "label": "Árvore",
+    "labelWithDiacritics": "Arvore",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "ATC",
+    "label": "Atalaia do Campo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.05,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "ATB",
+    "label": "Atouguia da Baleia",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.333333,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "AVC",
+    "label": "Avanca",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.8,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "AVB",
+    "label": "Aveiras De Baixo",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.116667,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "ADC",
+    "label": "Aveiras de Cima",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.133333,
+    "lng": -8.9
+  },
+  {
+    "locationCode": "AVE",
+    "label": "Aveiro",
+    "subdivisionCode": "01",
+    "function": "123",
+    "lat": 40.633333,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Avelãs de Caminho",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Avelas de Caminho",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "AVD",
+    "label": "Aveleda",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.283333,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "AES",
+    "label": "Aves",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "AVO",
+    "label": "Avidos",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "AVI",
+    "label": "Avintes",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.116667,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "AVS",
+    "label": "Avis",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.05,
+    "lng": -7.883333
+  },
+  {
+    "locationCode": "AZA",
+    "label": "Azambuja",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 39.066667,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "ABA",
+    "label": "Azambujeira",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.266667,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "AZJ",
+    "label": "Azaruja",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "AZT",
+    "label": "Azeitão",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Azeitao",
+    "function": "3",
+    "lat": 38.516667,
+    "lng": -9.016667
+  },
+  {
+    "locationCode": "AZM",
+    "label": "Azenhas do Mar",
+    "function": "1",
+    "lat": 38.833333,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "AZU",
+    "label": "Azueira",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Baião",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Baiao",
+    "function": "3",
+    "lat": 41.15,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "BBN",
+    "label": "Baixa da Banheira",
+    "subdivisionCode": "15",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLZ",
+    "label": "Balazar",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.4,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "BTR",
+    "label": "Baltar",
+    "subdivisionCode": "13",
+    "function": "16",
+    "lat": 41.183333,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Banatica",
+    "subdivisionCode": "15",
+    "function": "123",
+    "lat": 38.666667,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "BHC",
+    "label": "Banho e Carvalhosa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Barcarena",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.733333,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barcelos",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 41.533333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "BQS",
+    "label": "Barqueiros",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Barrancos",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": -6.983333
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Barreiro",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.666667,
+    "lng": -9.066667
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Barro",
+    "subdivisionCode": "01",
+    "function": "13"
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Barroselas",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Batalha",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.65,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "BEC",
+    "label": "Beça",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Beca",
+    "function": "3",
+    "lat": 41.7,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "BEI",
+    "label": "Beijos",
+    "subdivisionCode": "18",
+    "function": "13"
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Beire",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 41.25,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "BEJ",
+    "label": "Beja",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 38.016667,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bela Salema",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.066667,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "BLS",
+    "label": "Belas",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 38.766667,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "BML",
+    "label": "Belém",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Belem",
+    "function": "3",
+    "lat": 37.316667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Belmonte",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.35,
+    "lng": -7.35
+  },
+  {
+    "locationCode": "BPA",
+    "label": "Bemposta",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.316667,
+    "lng": -6.5
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Benagil",
+    "function": "1",
+    "lat": 37.083333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "BNV",
+    "label": "Benavente",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 38.983333,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Benedita",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "BDM",
+    "label": "Benfica do Ribatejo",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.15,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "BBL",
+    "label": "Bobadela",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.816667,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "BIM",
+    "label": "Boim",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Boliqueime",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 37.116667,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "BOM",
+    "label": "Bombarral",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.266667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "BBA",
+    "label": "Borba",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.8,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Boticas",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.683333,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bouça",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Bouca",
+    "function": "13",
+    "lat": 41.65,
+    "lng": -7.216667
+  },
+  {
+    "locationCode": "BGZ",
+    "label": "Braga",
+    "subdivisionCode": "03",
+    "function": "34",
+    "lat": 41.55,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "BGC",
+    "label": "Bragança",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Braganca",
+    "function": "234",
+    "lat": 41.816667,
+    "lng": -6.75
+  },
+  {
+    "locationCode": "BCA",
+    "label": "Branca",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.766667,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "BUC",
+    "label": "Bucelas",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.9,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "BGL",
+    "label": "Bugalhos",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 39.45,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Burgau",
+    "function": "1",
+    "lat": 37.066667,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Bustos",
+    "function": "16",
+    "lat": 40.5,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "CBV",
+    "label": "Cabanas de Tavira",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.133333,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "CEV",
+    "label": "Cabanas de Viriato",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 40.466667,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "CBS",
+    "label": "Cabeceiras de Basto",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.55,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Cabeço de Vide",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Cabeco de Vide",
+    "function": "23",
+    "lat": 39.133333,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "CBL",
+    "label": "Cabrela",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 38.6,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "CAC",
+    "label": "Cacém",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Cacem",
+    "function": "13",
+    "lat": 38.766667,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Cacia",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 40.683333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "CDV",
+    "label": "Cadaval",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.233333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "CDP",
+    "label": "Cais do Pico",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.516667,
+    "lng": -28.316667
+  },
+  {
+    "locationCode": "CDR",
+    "label": "Caldas da Rainha",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.4,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "CTP",
+    "label": "Caldas das Taipas",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "CSJ",
+    "label": "Caldas de São Jorge",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Caldas de Sao Jorge",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "CVZ",
+    "label": "Caldas de Vizela",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "CDA",
+    "label": "Caldas do Moledo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.15,
+    "lng": -7.833333
+  },
+  {
+    "locationCode": "CLH",
+    "label": "Calheta, Island Madeira",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": -17.183333
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Calheta, Island São Jorge",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Calheta, Island Sao Jorge",
+    "function": "13",
+    "lat": 38.6,
+    "lng": -28.016667
+  },
+  {
+    "locationCode": "CDW",
+    "label": "Calvária de Cima",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Calvaria de Cima",
+    "function": "3",
+    "lat": 39.633333,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "CMH",
+    "label": "Camacha",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 33.083333,
+    "lng": -16.333333
+  },
+  {
+    "locationCode": "CML",
+    "label": "Câmara de Lobos",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Camara de Lobos",
+    "function": "13",
+    "lat": 32.633333,
+    "lng": -16.966667
+  },
+  {
+    "locationCode": "CMT",
+    "label": "Camarate",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.8,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "CES",
+    "label": "Cambres",
+    "subdivisionCode": "18",
+    "function": "16",
+    "lat": 41.133333,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Caminha",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 41.866667,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "CMO",
+    "label": "Campelos",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.2,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "CPB",
+    "label": "Campo de Besteiros",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.55,
+    "lng": -8.133333
+  },
+  {
+    "locationCode": "CMR",
+    "label": "Campo Maior",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.016667,
+    "lng": -7.066667
+  },
+  {
+    "locationCode": "SCM",
+    "label": "Canas de Santa Maria",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.533333,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "CNI",
+    "label": "Canas de Senhorim",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.5,
+    "lng": -7.9
+  },
+  {
+    "locationCode": "CNC",
+    "label": "Caneças",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Canecas",
+    "function": "3",
+    "lat": 38.8,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "CEO",
+    "label": "Canedo",
+    "subdivisionCode": "01",
+    "function": "3"
+  },
+  {
+    "locationCode": "CNS",
+    "label": "Canelas",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.066667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Canha",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.766667,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "CNL",
+    "label": "Caniçal",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Canical",
+    "function": "13",
+    "lat": 32.733333,
+    "lng": -16.733333
+  },
+  {
+    "locationCode": "CNO",
+    "label": "Caniço",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Canico",
+    "function": "3",
+    "lat": 32.633333,
+    "lng": -16.85
+  },
+  {
+    "locationCode": "CTH",
+    "label": "Cantanhede",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.35,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "CPC",
+    "label": "Caparica",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.666667,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "CPL",
+    "label": "Capelo",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.583333,
+    "lng": -28.783333
+  },
+  {
+    "locationCode": "CRO",
+    "label": "Caramulo",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.566667,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "CLE",
+    "label": "Caranguejeira",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 39.733333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "CPH",
+    "label": "Carapelhos",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "CRH",
+    "label": "Carapinha",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": -8.1
+  },
+  {
+    "locationCode": "CCS",
+    "label": "Carcavelos",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.683333,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "CDS",
+    "label": "Cardigos",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.7,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "CNX",
+    "label": "Carnaxide",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.716667,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "CRC",
+    "label": "Carrasqueira",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 38.483333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "CZZ",
+    "label": "Carrazeda de Anciães",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Carrazeda de Anciaes",
+    "function": "3",
+    "lat": 41.25,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "CRG",
+    "label": "Carrazedo de Montenegro",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "REO",
+    "label": "Carreço",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Carreco",
+    "function": "23",
+    "lat": 41.75,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "CRR",
+    "label": "Carregado",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.016667,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "CRA",
+    "label": "Carregal do Sal",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.433333,
+    "lng": -8
+  },
+  {
+    "locationCode": "CGO",
+    "label": "Carregosa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.883333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "CGS",
+    "label": "Carregosa",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.666667,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "CXO",
+    "label": "Cartaxo",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.15,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "TZE",
+    "label": "Carvalhais",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 41.516667,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carvalhos",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 41.466667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "CR2",
+    "label": "Carvalhosa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.3,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "CVA",
+    "label": "Carvoeira",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.083333,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "CAO",
+    "label": "Carvoeiro",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.1,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "CRB",
+    "label": "Casa Branca",
+    "function": "16",
+    "lat": 38.5,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "CCB",
+    "label": "Casal Comba",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.366667,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "CCM",
+    "label": "Casal De Cima",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.7,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "CLV",
+    "label": "Casal de Loivos",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.2,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "CSM",
+    "label": "Casal do Marco",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 38.6,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "CBN",
+    "label": "Casal dos Bernardos",
+    "subdivisionCode": "14",
+    "function": "3"
+  },
+  {
+    "locationCode": "CV5",
+    "label": "Casal Velho",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.933333,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Cascais",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 38.7,
+    "lng": -9.416667
+  },
+  {
+    "locationCode": "CPR",
+    "label": "Castanheira de Pêra",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Castanheira de Pera",
+    "function": "3",
+    "lat": 40,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "CRI",
+    "label": "Castanheira do Ribatejo",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.983333,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "CBR",
+    "label": "Castelo Branco",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 39.816667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "CMA",
+    "label": "Castêlo da Maia",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Castelo da Maia",
+    "function": "23",
+    "lat": 41.25,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "CPV",
+    "label": "Castelo de Paiva",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "CVD",
+    "label": "Castelo de Vide",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 39.416667,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "CNV",
+    "label": "Castelo do Neiva",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": 41.633333,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "CTD",
+    "label": "Castro Daire",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.9,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "CMM",
+    "label": "Castro Marim",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 37.216667,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "CVR",
+    "label": "Castro Verde",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.7,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "CAV",
+    "label": "Cavalos",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.316667,
+    "lng": -7.95
+  },
+  {
+    "locationCode": "PTC",
+    "label": "Caxarias",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 39.7,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "CAX",
+    "label": "Caxias",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "CDM",
+    "label": "Cedovim",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "CLB",
+    "label": "Celorico da Beira",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 40.633333,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "CBT",
+    "label": "Celorico de Basto",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8
+  },
+  {
+    "locationCode": "CLJ",
+    "label": "Cercal do Alentejo",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 37.8,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "CER",
+    "label": "Cernache",
+    "subdivisionCode": "06",
+    "function": "36",
+    "lat": 40.133333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "CDB",
+    "label": "Cernache do Bonjardim",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.8,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "CSR",
+    "label": "César",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Cesar",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chamusca",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.35,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "CCC",
+    "label": "Chao de Couce",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.883333,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "CXP",
+    "label": "Charneca da Caparica",
+    "subdivisionCode": "15",
+    "function": "23"
+  },
+  {
+    "locationCode": "CHV",
+    "label": "Chaves",
+    "subdivisionCode": "17",
+    "function": "234",
+    "lat": 41.733333,
+    "lng": -7.466667
+  },
+  {
+    "locationCode": "CNF",
+    "label": "Cinfães",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Cinfaes",
+    "function": "23",
+    "lat": 41.066667,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "CBP",
+    "label": "Coimbra",
+    "subdivisionCode": "06",
+    "function": "234",
+    "lat": 40.2,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "CDC",
+    "label": "Coimbra CDP",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 39.9,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "COI",
+    "label": "Coimbrão",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Coimbrao",
+    "function": "3",
+    "lat": 39.9,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "CNA",
+    "label": "Coina",
+    "subdivisionCode": "15",
+    "function": "13",
+    "lat": 38.6,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "COJ",
+    "label": "Coja",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "CLR",
+    "label": "Colares",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.8,
+    "lng": -9.45
+  },
+  {
+    "locationCode": "COL",
+    "label": "Colmeias",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.8,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "CLS",
+    "label": "Colos",
+    "function": "16",
+    "lat": 37.733333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "CMP",
+    "label": "Comporta",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.383333,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Condeixa a Nova",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.116667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "CON",
+    "label": "Constância",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Constancia",
+    "function": "3",
+    "lat": 39.466667,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "COR",
+    "label": "Coronado-Sao Mamede",
+    "function": "3"
+  },
+  {
+    "locationCode": "CTL",
+    "label": "Corotelo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.133333,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "CRS",
+    "label": "Corroios",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.633333,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "ZGA",
+    "label": "Cortegaca",
+    "function": "6"
+  },
+  {
+    "locationCode": "TZD",
+    "label": "Cortegaca",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.833333,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "CO5",
+    "label": "Cortes",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "CRE",
+    "label": "Coruche",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 38.95,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "CVU",
+    "label": "Corvo Island Apt",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 39.7,
+    "lng": -31.1
+  },
+  {
+    "locationCode": "CAP",
+    "label": "Costa da Caparica",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 38.633333,
+    "lng": -9.216667
+  },
+  {
+    "locationCode": "CVP",
+    "label": "Cova da Piedade",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.666667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "CDD",
+    "label": "Covas do Douro",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "CVO",
+    "label": "Covelo",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.316667,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "COV",
+    "label": "Covilhã",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Covilha",
+    "function": "234",
+    "lat": 40.283333,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "CRT",
+    "label": "Crato",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 39.3,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "CST",
+    "label": "Crestuma",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "CUB",
+    "label": "Cuba",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 38.166667,
+    "lng": -7.883333
+  },
+  {
+    "locationCode": "CUC",
+    "label": "Cucujães",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Cucujaes",
+    "function": "3",
+    "lat": 40.866667,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "CUS",
+    "label": "Custoias",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -86.55
+  },
+  {
+    "locationCode": "DAF",
+    "label": "Dafundo",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.7,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Darque",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.683333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "DNM",
+    "label": "Donim",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "DOU",
+    "label": "Douro",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 39.883333,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "EIX",
+    "label": "Eixo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "ELV",
+    "label": "Elvas",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 38.883333,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "EOR",
+    "label": "Entre-os-Rios",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "ENT",
+    "label": "Entroncamento",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.466667,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "VJT",
+    "label": "Envendos",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.566667,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "ERC",
+    "label": "Ericeira",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.983333,
+    "lng": -9.416667
+  },
+  {
+    "locationCode": "ERM",
+    "label": "Ermesinde",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.216667,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "ERS",
+    "label": "Ermidas",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "EDD",
+    "label": "Ervedosa do Douro",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.166667,
+    "lng": -7.466667
+  },
+  {
+    "locationCode": "ERA",
+    "label": "Ervosa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "ESC",
+    "label": "Escandarao",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.666667,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "PAE",
+    "label": "Escapães",
+    "labelWithDiacritics": "Escapaes",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "XZX",
+    "label": "Escariz",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 40.933333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "EM3",
+    "label": "Esmeriz",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "EMZ",
+    "label": "Esmoriz",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.95,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "EPG",
+    "label": "Espargo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "ESN",
+    "label": "Espinho",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 41,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Espinho",
+    "subdivisionCode": "18",
+    "function": "3"
+  },
+  {
+    "locationCode": "EPS",
+    "label": "Esposende",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "ETR",
+    "label": "Estarreja",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.75,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "ETB",
+    "label": "Estombar",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.15,
+    "lng": 8.483333
+  },
+  {
+    "locationCode": "EST",
+    "label": "Estoril",
+    "subdivisionCode": "11",
+    "function": "123",
+    "lat": 38.7,
+    "lng": -9.4
+  },
+  {
+    "locationCode": "ECL",
+    "label": "Estreito de Câmara de Lobos",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Estreito de Camara de Lobos",
+    "function": "3",
+    "lat": 32.666667,
+    "lng": -16.983333
+  },
+  {
+    "locationCode": "ESZ",
+    "label": "Estremoz",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.85,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "EVR",
+    "label": "Évora",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Evora",
+    "function": "23",
+    "lat": 38.566667,
+    "lng": -7.9
+  },
+  {
+    "locationCode": "FFE",
+    "label": "Fafe",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.45,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "FIL",
+    "label": "Faial",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.783333,
+    "lng": -16.85
+  },
+  {
+    "locationCode": "FJS",
+    "label": "Fajoes",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 40.916667,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "FAJ",
+    "label": "Fajozes",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.316667,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "FAM",
+    "label": "Famalicão",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Famalicao",
+    "function": "3",
+    "lat": 40.45,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "OES",
+    "label": "Famões",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Famoes",
+    "function": "3",
+    "lat": 38.783333,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "FNZ",
+    "label": "Fânzeres",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Fanzeres",
+    "function": "23",
+    "lat": 41.166667,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Fão",
+    "labelWithDiacritics": "Fao",
+    "function": "1",
+    "lat": 41.516667,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "FAO",
+    "label": "Faro",
+    "subdivisionCode": "08",
+    "function": "1234",
+    "lat": 37.016667,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "FTM",
+    "label": "Fátima",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Fatima",
+    "function": "23",
+    "lat": 39.616667,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "FAV",
+    "label": "Favaios",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "FEI",
+    "label": "Feijo",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.15,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "FVD",
+    "label": "Feira",
+    "subdivisionCode": "16",
+    "function": "6"
+  },
+  {
+    "locationCode": "FEL",
+    "label": "Felgueiras",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "FNF",
+    "label": "Fernão Ferro",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Fernao Ferro",
+    "function": "3"
+  },
+  {
+    "locationCode": "FER",
+    "label": "Ferragudo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.116667,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "FAL",
+    "label": "Ferreira do Alentejo",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 38.05,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "FZZ",
+    "label": "Ferreira do Zêzere",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Ferreira do Zezere",
+    "function": "3",
+    "lat": 39.7,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "FAN",
+    "label": "Ferreira-a-Nova",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.233333,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "RMR",
+    "label": "Ferreirim",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.95,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "FIA",
+    "label": "Fiaes",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 40.983333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "FDF",
+    "label": "Figueira da Foz",
+    "subdivisionCode": "06",
+    "function": "123",
+    "lat": 40.15,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "FCR",
+    "label": "Figueira de Castelo Rodrigo",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.9,
+    "lng": -6.966667
+  },
+  {
+    "locationCode": "FDL",
+    "label": "Figueira de Lorvão",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Figueira de Lorvao",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "FIG",
+    "label": "Figueiró",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Figueiro",
+    "function": "3",
+    "lat": 41.3,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "FGV",
+    "label": "Figueiró dos Vinhos",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Figueiro dos Vinhos",
+    "function": "3",
+    "lat": 39.9,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "FLW",
+    "label": "Flores Island Apt",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 39.433333,
+    "lng": -31.216667
+  },
+  {
+    "locationCode": "FOL",
+    "label": "Folgosa",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.25,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "FDT",
+    "label": "Fonte da Telha",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 38.566667,
+    "lng": -9.183333
+  },
+  {
+    "locationCode": "FAG",
+    "label": "Fornos de Algodres",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 40.616667,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "FTC",
+    "label": "Forte da Casa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.866667,
+    "lng": 9.05
+  },
+  {
+    "locationCode": "FDR",
+    "label": "Foz de Arouce",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.15,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "FOZ",
+    "label": "Foz do Arelho",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 39.433333,
+    "lng": -9.216667
+  },
+  {
+    "locationCode": "FRD",
+    "label": "Fradelos",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "FGO",
+    "label": "Fragoso",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.6,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "FRZ",
+    "label": "Frazão",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Frazao",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "FRE",
+    "label": "Freamunde",
+    "function": "3",
+    "lat": 41.283333,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "TZF",
+    "label": "Freixeira",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 38.233333,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "FXO",
+    "label": "Freixieiro",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.116667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "FEC",
+    "label": "Freixo de Espada à Cinta",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Freixo de Espada a Cinta",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": -6.816667
+  },
+  {
+    "locationCode": "FRL",
+    "label": "Frielas",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.816667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "FTR",
+    "label": "Fronteira",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 39.05,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "FNC",
+    "label": "Funchal, Madeira",
+    "subdivisionCode": "30",
+    "function": "1345",
+    "lat": 32.633333,
+    "lng": -16.9
+  },
+  {
+    "locationCode": "FUA",
+    "label": "Fundão",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Fundao",
+    "function": "23",
+    "lat": 40.133333,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "FRS",
+    "label": "Furnas",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 37.766667,
+    "lng": -25.316667
+  },
+  {
+    "locationCode": "FUZ",
+    "label": "Fuzeta",
+    "function": "1",
+    "lat": 37.05,
+    "lng": -7.75
+  },
+  {
+    "locationCode": "GAE",
+    "label": "Gaeiras",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.366667,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "GHE",
+    "label": "Gafanha da Encarnaçao",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Gafanha da Encarnacao",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "GDN",
+    "label": "Gafanha da Nazaré",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Gafanha da Nazare",
+    "function": "36",
+    "lat": 40.633333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "G7A",
+    "label": "Gaia",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 40.4,
+    "lng": -7.333333
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Galafura",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "GAV",
+    "label": "Gavião",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Gaviao",
+    "function": "3",
+    "lat": 39.466667,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "GEM",
+    "label": "Gemieira",
+    "function": "6",
+    "lat": 41.766667,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "TZH",
+    "label": "Gemunde",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 41.266667,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Gerês",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Geres",
+    "function": "3",
+    "lat": 41.733333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "GIN",
+    "label": "Ginetes",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 37.85,
+    "lng": -25.833333
+  },
+  {
+    "locationCode": "GOI",
+    "label": "Góis",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Gois",
+    "function": "3",
+    "lat": 40.15,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "GLG",
+    "label": "Golegã",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Golega",
+    "function": "3",
+    "lat": 39.4,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "GLP",
+    "label": "Golpilheira",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 39.683333,
+    "lng": -8.816667
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gondomar",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.75,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "GVI",
+    "label": "Gouveia",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.5,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "GCS",
+    "label": "Graciosa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "GRW",
+    "label": "Graciosa Island Apt",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 39.066667,
+    "lng": -28
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Gradil",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.983333,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "GDL",
+    "label": "Grândola",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Grandola",
+    "function": "3",
+    "lat": 38.166667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Grijó",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Grijo",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "GDA",
+    "label": "Guarda",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 40.533333,
+    "lng": -7.266667
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guardizela",
+    "subdivisionCode": "03",
+    "function": "13"
+  },
+  {
+    "locationCode": "GUE",
+    "label": "Gueifães",
+    "labelWithDiacritics": "Gueifaes",
+    "function": "16",
+    "lat": 41.2,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "GIA",
+    "label": "Guia",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.116667,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "GIF",
+    "label": "Guifões",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Guifoes",
+    "function": "123",
+    "lat": 41.2,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "GHB",
+    "label": "Guilhabreu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.3,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "HUF",
+    "label": "Guilhufe",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "GUI",
+    "label": "Guimarães",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Guimaraes",
+    "function": "23",
+    "lat": 41.45,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "HER",
+    "label": "Herdade",
+    "function": "6",
+    "lat": 39.85,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Horta",
+    "subdivisionCode": "20",
+    "function": "134",
+    "lat": 38.533333,
+    "lng": -28.633333
+  },
+  {
+    "locationCode": "IDN",
+    "label": "Idanha-a-Nova",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "IGH",
+    "label": "Igrejinha",
+    "function": "6",
+    "lat": 38.7,
+    "lng": -7.9
+  },
+  {
+    "locationCode": "ILH",
+    "label": "Ílhavo",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Ilhavo",
+    "function": "3",
+    "lat": 40.6,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "JES",
+    "label": "Jesufrei",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.45,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Joane",
+    "subdivisionCode": "03",
+    "function": "13"
+  },
+  {
+    "locationCode": "JUN",
+    "label": "Juncal",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "JOA",
+    "label": "Juromenha",
+    "function": "6",
+    "lat": 38.733333,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "LAG",
+    "label": "Lago",
+    "function": "6",
+    "lat": 41.616667,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "LGA",
+    "label": "Lagoa, Algarve",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.166667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "LGP",
+    "label": "Lagoa, Island São Miguel",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Lagoa, Island Sao Miguel",
+    "function": "3",
+    "lat": 39.05,
+    "lng": -27.983333
+  },
+  {
+    "locationCode": "LOS",
+    "label": "Lagos",
+    "subdivisionCode": "08",
+    "function": "123",
+    "lat": 37.1,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "LDP",
+    "label": "Lajes",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.383333,
+    "lng": -28.266667
+  },
+  {
+    "locationCode": "LAJ",
+    "label": "Lajes das Flores",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 39.383333,
+    "lng": -31.166667
+  },
+  {
+    "locationCode": "LMG",
+    "label": "Lamego",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 41.1,
+    "lng": -7.816667
+  },
+  {
+    "locationCode": "LCD",
+    "label": "Lancada",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.683333,
+    "lng": -8.95
+  },
+  {
+    "locationCode": "LDI",
+    "label": "Landim",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "LNS",
+    "label": "Lanheses",
+    "subdivisionCode": "16",
+    "function": "16",
+    "lat": 41.05,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "8PS",
+    "label": "Lanhezes",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.733333,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "DOS",
+    "label": "Laundos",
+    "subdivisionCode": "13",
+    "function": "36",
+    "lat": 41.433333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "LVR",
+    "label": "Lavra",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.25,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "VRO",
+    "label": "Lavradio",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.666667,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "LEP",
+    "label": "Leça da Palmeira",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Leca da Palmeira",
+    "function": "123",
+    "lat": 41.2,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "LDB",
+    "label": "Leça do Bailio",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Leca do Bailio",
+    "function": "23",
+    "lat": 41.2,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "LEA",
+    "label": "Leiria",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.75,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "LER",
+    "label": "Leiros",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "TZJ",
+    "label": "Leirosa",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 40.033333,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "LEI",
+    "label": "Leixões",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Leixoes",
+    "function": "123",
+    "lat": 41.183333,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Linda-a-Velha",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.716667,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "LSI",
+    "label": "Linhó",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Linho",
+    "function": "3",
+    "lat": 38.766667,
+    "lng": -9.383333
+  },
+  {
+    "locationCode": "LIS",
+    "label": "Lisboa",
+    "subdivisionCode": "11",
+    "function": "12345",
+    "lat": 38.716667,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "CDL",
+    "label": "Lisboa CDP",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "EXP",
+    "label": "Lisboa-EXPO",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.716667,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "LXA",
+    "label": "Lixa",
+    "subdivisionCode": "13",
+    "function": "3"
+  },
+  {
+    "locationCode": "LOV",
+    "label": "Loivos",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.616667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "LDR",
+    "label": "Lordelo",
+    "subdivisionCode": "03",
+    "function": "123",
+    "lat": 41.366667,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "LDO",
+    "label": "Lordelo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "LUL",
+    "label": "Loulé",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Loule",
+    "function": "23",
+    "lat": 37.133333,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "LRS",
+    "label": "Loures",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.833333,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "LBP",
+    "label": "Loures Business Park",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.85,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "MRL",
+    "label": "Loures-MARL",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.833333,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "LRC",
+    "label": "Louriçal",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Lourical",
+    "function": "3",
+    "lat": 40,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "LNH",
+    "label": "Lourinhã",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Lourinha",
+    "function": "3",
+    "lat": 39.233333,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "LRO",
+    "label": "Louro",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "LOU",
+    "label": "Lourosa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Lousã",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Lousa",
+    "function": "236",
+    "lat": 40.116667,
+    "lng": -8.233333
+  },
+  {
+    "locationCode": "LOA",
+    "label": "Lousada",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.3,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "LSD",
+    "label": "Lousado",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "LDM",
+    "label": "Lugar do Monte",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "LSO",
+    "label": "Luso",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.383333,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "LUS",
+    "label": "Lustosa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "DDM",
+    "label": "Maçãs de Dona Maria",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Macas de Dona Maria",
+    "function": "3",
+    "lat": 39.883333,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Maceda",
+    "subdivisionCode": "13",
+    "function": "234",
+    "lat": 41.166667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "MCD",
+    "label": "Macedo de Cavaleiros",
+    "subdivisionCode": "04",
+    "function": "23",
+    "lat": 41.533333,
+    "lng": -6.966667
+  },
+  {
+    "locationCode": "LE2",
+    "label": "Maceira",
+    "subdivisionCode": "10",
+    "function": "16",
+    "lat": 39.683333,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Maceira Lis",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "MCH",
+    "label": "Machico",
+    "subdivisionCode": "30",
+    "function": "13",
+    "lat": 32.7,
+    "lng": -16.766667
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Macieira da Lixa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "MDE",
+    "label": "Madalena",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 39.566667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madalena (Madalena do Pico)",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.533333,
+    "lng": -28.533333
+  },
+  {
+    "locationCode": "MDM",
+    "label": "Madalena do Mar",
+    "subdivisionCode": "30",
+    "function": "1",
+    "lat": 32.683333,
+    "lng": -17.133333
+  },
+  {
+    "locationCode": "M6E",
+    "label": "Madeira",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 40.233333,
+    "lng": -7.466667
+  },
+  {
+    "locationCode": "MFR",
+    "label": "Mafra",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.933333,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Maia",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.233333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Maia, Island São Miguel",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Maia, Island Sao Miguel",
+    "function": "3",
+    "lat": 37.833333,
+    "lng": -25.383333
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Maiorga",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.583333,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "MHU",
+    "label": "Malhou",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "MLV",
+    "label": "Malveira",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.933333,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Mangualde",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.6,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "MNG",
+    "label": "Manteigas",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.4,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "MRC",
+    "label": "Marco de Canavezes",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.183333,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Marinha Grande",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.75,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "MRN",
+    "label": "Marinhais",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.05,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marteleira",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.216667,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Martinganca",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 39.683333,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "MRV",
+    "label": "Marvão",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Marvao",
+    "function": "23",
+    "lat": 39.4,
+    "lng": -7.383333
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Massamá",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Massama",
+    "function": "3",
+    "lat": 38.75,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matosinhos",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 41.183333,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "MLD",
+    "label": "Mealhada",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.366667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "MDA",
+    "label": "Meda",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": -7.266667
+  },
+  {
+    "locationCode": "MRH",
+    "label": "Meirinhas",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.833333,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "MLG",
+    "label": "Melgaço",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Melgaco",
+    "function": "3",
+    "lat": 42.116667,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "MMA",
+    "label": "Mem Martins",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.783333,
+    "lng": -9.35
+  },
+  {
+    "locationCode": "MEM",
+    "label": "Memória",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Memoria",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "MER",
+    "label": "Merceana",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.1,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Mértola",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Mertola",
+    "function": "3",
+    "lat": 37.633333,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "MSF",
+    "label": "Mesão Frio",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Mesao Frio",
+    "function": "23",
+    "lat": 41.15,
+    "lng": -7.883333
+  },
+  {
+    "locationCode": "MLR",
+    "label": "Milharado",
+    "subdivisionCode": "11",
+    "function": "1"
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Minde",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.516667,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "MID",
+    "label": "Mindelo",
+    "subdivisionCode": "13",
+    "function": "236",
+    "lat": 41.316667,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Mira",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "MIE",
+    "label": "Mira d'Aire",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.533333,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "MCV",
+    "label": "Miranda do Corvo",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.1,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "MDR",
+    "label": "Miranda do Douro",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.5,
+    "lng": -6.266667
+  },
+  {
+    "locationCode": "MDL",
+    "label": "Mirandela",
+    "subdivisionCode": "04",
+    "function": "23",
+    "lat": 41.483333,
+    "lng": -7.183333
+  },
+  {
+    "locationCode": "MOD",
+    "label": "Modivas",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.3,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "MGD",
+    "label": "Mogadouro",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.333333,
+    "lng": -6.716667
+  },
+  {
+    "locationCode": "MOG",
+    "label": "Mogege",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "MBR",
+    "label": "Moimenta da Beira",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": -7.616667
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Moita",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.65,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "PI3",
+    "label": "Moitalina",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "MNO",
+    "label": "Monção",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Moncao",
+    "function": "23",
+    "lat": 42.083333,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "MCP",
+    "label": "Moncarapacho",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.083333,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "MCQ",
+    "label": "Monchique",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.316667,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "MDB",
+    "label": "Mondim de Basto",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.416667,
+    "lng": -7.966667
+  },
+  {
+    "locationCode": "MFT",
+    "label": "Monforte",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.05,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Montalegre",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.816667,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "MTV",
+    "label": "Montalvão",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Montalvao",
+    "function": "3",
+    "lat": 39.6,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "MTG",
+    "label": "Montargil",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.083333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "MTC",
+    "label": "Monte da Caparica",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.666667,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "MRE",
+    "label": "Monte Real",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.85,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "MRD",
+    "label": "Monte Redondo",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.9,
+    "lng": -8.816667
+  },
+  {
+    "locationCode": "TGO",
+    "label": "Monte Trigo",
+    "subdivisionCode": "01",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNV",
+    "label": "Montelavar",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.866667,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "MMN",
+    "label": "Montemor-o-Novo",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.65,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "MMV",
+    "label": "Montemor-o-Velho",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.166667,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "MON",
+    "label": "Montijo",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -8.966667
+  },
+  {
+    "locationCode": "MOA",
+    "label": "Mora",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.933333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "MRR",
+    "label": "Moreira",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Mortágua",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Mortagua",
+    "function": "236",
+    "lat": 40.4,
+    "lng": -8.233333
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mortena",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.85,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "MSV",
+    "label": "Moscavide",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.766667,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mosteiro",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 39.933333,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Moura",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 38.133333,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Moura",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -7.9
+  },
+  {
+    "locationCode": "MOU",
+    "label": "Mourão",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Mourao",
+    "function": "3",
+    "lat": 38.383333,
+    "lng": -7.35
+  },
+  {
+    "locationCode": "MZL",
+    "label": "Mozelos",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.866667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "TZI",
+    "label": "Muge",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 39.1,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murça",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Murca",
+    "function": "3",
+    "lat": 41.4,
+    "lng": -7.45
+  },
+  {
+    "locationCode": "MUS",
+    "label": "Murches",
+    "subdivisionCode": "11",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRO",
+    "label": "Muro",
+    "subdivisionCode": "13",
+    "function": "2",
+    "lat": 41.5,
+    "lng": -7.966667
+  },
+  {
+    "locationCode": "MTE",
+    "label": "Murtede",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.35,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Murtosa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "MCC",
+    "label": "Mutsamudu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Nariz",
+    "subdivisionCode": "01",
+    "function": "16",
+    "lat": 40.533333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "NZR",
+    "label": "Nazaré",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Nazare",
+    "function": "23",
+    "lat": 39.6,
+    "lng": -9.066667
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Negrais",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.883333,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "NEL",
+    "label": "Nelas",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.533333,
+    "lng": -7.85
+  },
+  {
+    "locationCode": "NES",
+    "label": "Nespereira",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.4,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "NNE",
+    "label": "Nine",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 41.45,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Nisa",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.516667,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "NOG",
+    "label": "Nogueira Da Maia",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "NOR",
+    "label": "Nogueira da Regedoura",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "NDC",
+    "label": "Nogueira do Cravo",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.333333,
+    "lng": -7.883333
+  },
+  {
+    "locationCode": "NRD",
+    "label": "Nordeste",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 37.833333,
+    "lng": -25.166667
+  },
+  {
+    "locationCode": "OBD",
+    "label": "Óbidos",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Obidos",
+    "function": "23",
+    "lat": 39.366667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "OCX",
+    "label": "Odeceixe",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.433333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "ODE",
+    "label": "Odemira",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.6,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "8DA",
+    "label": "Odiáxere",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Odiaxere",
+    "function": "3",
+    "lat": 37.15,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "ODI",
+    "label": "Odivelas",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.783333,
+    "lng": -9.183333
+  },
+  {
+    "locationCode": "OEI",
+    "label": "Oeiras",
+    "subdivisionCode": "11",
+    "function": "123",
+    "lat": 38.683333,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "OIA",
+    "label": "Oia",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.533333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "OLR",
+    "label": "Oleiros",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "OLH",
+    "label": "Olhão",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Olhao",
+    "function": "123",
+    "lat": 37.033333,
+    "lng": -7.833333
+  },
+  {
+    "locationCode": "OLA",
+    "label": "Olhos de Água",
+    "labelWithDiacritics": "Olhos de Agua",
+    "function": "1",
+    "lat": 37.083333,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "OLB",
+    "label": "Olival do Basto",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.783333,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "ODA",
+    "label": "Oliveira de Azemeis",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.833333,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "OFR",
+    "label": "Oliveira de Frades",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.733333,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "OLI",
+    "label": "Oliveira do Bairro",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.516667,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "ODO",
+    "label": "Oliveira do Douro",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "OHP",
+    "label": "Oliveira do Hospital",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.35,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "QGT",
+    "label": "Ortigosa",
+    "function": "3",
+    "lat": 39.833333,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "ORV",
+    "label": "Orvalho",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.016667,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "OSS",
+    "label": "Ossela",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.816667,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "OUR",
+    "label": "Ourém",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Ourem",
+    "function": "3",
+    "lat": 39.633333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "ORQ",
+    "label": "Ourique",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.65,
+    "lng": -8.216667
+  },
+  {
+    "locationCode": "OUT",
+    "label": "Outeiro",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "OVA",
+    "label": "Ovar",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 40.866667,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "PCS",
+    "label": "Paço de Arcos",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Paco de Arcos",
+    "function": "23",
+    "lat": 38.683333,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "PDB",
+    "label": "Pacos de Brandado",
+    "subdivisionCode": "01",
+    "function": "3"
+  },
+  {
+    "locationCode": "PAC",
+    "label": "Paços de Brandão",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Pacos de Brandao",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "PFR",
+    "label": "Paços de Ferreira",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Pacos de Ferreira",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Painho",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.3,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "PAH",
+    "label": "Palhaça",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Palhaca",
+    "function": "3",
+    "lat": 40.533333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "PLH",
+    "label": "Palhais",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 38.616667,
+    "lng": -9.05
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palmela",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.566667,
+    "lng": -8.9
+  },
+  {
+    "locationCode": "PPS",
+    "label": "Pampilhosa da Serra",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.05,
+    "lng": -7.95
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Pampilhosa do Botão",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Pampilhosa do Botao",
+    "function": "3",
+    "lat": 40.333333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "MPQ",
+    "label": "Panasqueira",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.166667,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "PDT",
+    "label": "Parada de Tibães",
+    "labelWithDiacritics": "Parada de Tibaes",
+    "function": "6",
+    "lat": 41.566667,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Paramos",
+    "function": "6",
+    "lat": 40.966667,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Parede",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.683333,
+    "lng": -9.35
+  },
+  {
+    "locationCode": "PRD",
+    "label": "Paredes",
+    "function": "6",
+    "lat": 41.2,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Paredes",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "PER",
+    "label": "Paredes de Coura",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.9,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "PTS",
+    "label": "Pataias",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.666667,
+    "lng": -9
+  },
+  {
+    "locationCode": "PDO",
+    "label": "Pedome",
+    "function": "6",
+    "lat": 41.416667,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "PEA",
+    "label": "Pedorido",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "PED",
+    "label": "Pedreiras",
+    "function": "3",
+    "lat": 38.45,
+    "lng": -90.716667
+  },
+  {
+    "locationCode": "PEM",
+    "label": "Pedro Miguel",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 38.566667,
+    "lng": -28.616667
+  },
+  {
+    "locationCode": "OGO",
+    "label": "Pedrógão",
+    "labelWithDiacritics": "Pedrogao",
+    "function": "6",
+    "lat": 38.116667,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "PGR",
+    "label": "Pedrógão Grande",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Pedrogao Grande",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Pedroso",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "UCO",
+    "label": "Pedroucos",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "PGO",
+    "label": "Pego",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.466667,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "PEG",
+    "label": "Pegões",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Pegoes",
+    "function": "3",
+    "lat": 38.666667,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "PVH",
+    "label": "Pegoes Velhos",
+    "subdivisionCode": "11",
+    "function": "16",
+    "lat": 38.683333,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "PLG",
+    "label": "Pelariga",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 39.966667,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "PCV",
+    "label": "Penacova",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.266667,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "PFL",
+    "label": "Penafiel",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.2,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "PCT",
+    "label": "Penalva do Castelo",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.666667,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "PNC",
+    "label": "Penamacor",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.166667,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "IOR",
+    "label": "Penamaior",
+    "subdivisionCode": "13",
+    "function": "1"
+  },
+  {
+    "locationCode": "PND",
+    "label": "Penedono",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Penela",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.033333,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Penelas",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Peniche",
+    "subdivisionCode": "10",
+    "function": "13",
+    "lat": 39.35,
+    "lng": -9.383333
+  },
+  {
+    "locationCode": "PFT",
+    "label": "Perafita",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 41.216667,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "PPH",
+    "label": "Pero Pinheiro",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.85,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "PGA",
+    "label": "Peso da Régua",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Peso da Regua",
+    "function": "23",
+    "lat": 41.166667,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "REV",
+    "label": "Pevidem",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "PIC",
+    "label": "Pico",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.683333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "PID",
+    "label": "Piedade",
+    "function": "3"
+  },
+  {
+    "locationCode": "AVP",
+    "label": "Pindelo",
+    "subdivisionCode": "01",
+    "function": "136",
+    "lat": 40.866667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "PNV",
+    "label": "Pinhal Novo",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.633333,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "PIS",
+    "label": "Pinhanços",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Pinhancos",
+    "function": "3",
+    "lat": 40.466667,
+    "lng": -7.683333
+  },
+  {
+    "locationCode": "PNO",
+    "label": "Pinhão",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Pinhao",
+    "function": "23",
+    "lat": 41.183333,
+    "lng": -7.55
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Pinhel",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": -7.066667
+  },
+  {
+    "locationCode": "PIH",
+    "label": "Pinhel",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 39.65,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "PR8",
+    "label": "Poceirao",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.833333,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Poiares",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "POM",
+    "label": "Pomarão",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Pomarao",
+    "function": "13",
+    "lat": 37.55,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "POB",
+    "label": "Pombal",
+    "function": "3"
+  },
+  {
+    "locationCode": "PLO",
+    "label": "Pombal",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.916667,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "PDL",
+    "label": "Ponta Delgada",
+    "subdivisionCode": "20",
+    "function": "1345",
+    "lat": 37.733333,
+    "lng": -25.666667
+  },
+  {
+    "locationCode": "PTG",
+    "label": "Ponta do Pargo",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.8,
+    "lng": -17.25
+  },
+  {
+    "locationCode": "PSL",
+    "label": "Ponta do Sol",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.666667,
+    "lng": -17.1
+  },
+  {
+    "locationCode": "PTB",
+    "label": "Ponte da Barca",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.8,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "PDS",
+    "label": "Ponte de Sor",
+    "subdivisionCode": "12",
+    "function": "123",
+    "lat": 39.25,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Ponte do Lima",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.766667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "PDR",
+    "label": "Ponte do Rol",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.083333,
+    "lng": -9.316667
+  },
+  {
+    "locationCode": "PTV",
+    "label": "Pontével",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pontevel",
+    "function": "3",
+    "lat": 39.15,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Pontinha",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.766667,
+    "lng": -9.2
+  },
+  {
+    "locationCode": "POC",
+    "label": "Porches",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.116667,
+    "lng": -8.4
+  },
+  {
+    "locationCode": "POR",
+    "label": "Portalegre",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.283333,
+    "lng": -7.433333
+  },
+  {
+    "locationCode": "PRL",
+    "label": "Portel",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 38.3,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Portimao",
+    "subdivisionCode": "08",
+    "function": "123",
+    "lat": 37.133333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "OPO",
+    "label": "Porto",
+    "subdivisionCode": "13",
+    "function": "12345",
+    "lat": 41.15,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "POA",
+    "label": "Porto Alto",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": -8.883333
+  },
+  {
+    "locationCode": "CDO",
+    "label": "Porto CDP",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.1,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "PCZ",
+    "label": "Porto da Cruz",
+    "subdivisionCode": "30",
+    "function": "13",
+    "lat": 32.766667,
+    "lng": -16.833333
+  },
+  {
+    "locationCode": "PDM",
+    "label": "Porto de Mós",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Porto de Mos",
+    "function": "3",
+    "lat": 39.6,
+    "lng": -8.816667
+  },
+  {
+    "locationCode": "PMZ",
+    "label": "Porto Moniz",
+    "subdivisionCode": "30",
+    "function": "13",
+    "lat": 32.85,
+    "lng": -17.166667
+  },
+  {
+    "locationCode": "PSV",
+    "label": "Porto Salvo",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.716667,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "PXO",
+    "label": "Porto Santo Island",
+    "subdivisionCode": "30",
+    "function": "14",
+    "lat": 33.066667,
+    "lng": -16.333333
+  },
+  {
+    "locationCode": "PVL",
+    "label": "Póvoa de Lanhoso",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Povoa de Lanhoso",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "PSI",
+    "label": "Póvoa de Santa Iria",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Povoa de Santa Iria",
+    "function": "23",
+    "lat": 38.85,
+    "lng": -9.066667
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Póvoa de Santo Adrião",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Povoa de Santo Adriao",
+    "function": "3",
+    "lat": 38.8,
+    "lng": -9.166667
+  },
+  {
+    "locationCode": "PDV",
+    "label": "Póvoa de Varzim",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Povoa de Varzim",
+    "function": "23",
+    "lat": 41.383333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "PVC",
+    "label": "Povoação",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Povoacao",
+    "function": "13",
+    "lat": 37.75,
+    "lng": -25.25
+  },
+  {
+    "locationCode": "PRG",
+    "label": "Praia da Graciosa",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 39.05,
+    "lng": -27.966667
+  },
+  {
+    "locationCode": "AIA",
+    "label": "Praia da Victoria",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 38.816667,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Praia da Vitória",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Praia da Vitoria",
+    "function": "13",
+    "lat": 38.733333,
+    "lng": -27.066667
+  },
+  {
+    "locationCode": "PMI",
+    "label": "Praia de Mira",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.45,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "PEH",
+    "label": "Prior Velho",
+    "function": "6",
+    "lat": 38.783333,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Proença-a-Nova",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Proenca-a-Nova",
+    "function": "3",
+    "lat": 39.75,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "VND",
+    "label": "Provesende",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.216667,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "QRT",
+    "label": "Quarteira",
+    "subdivisionCode": "08",
+    "function": "123",
+    "lat": 37.066667,
+    "lng": -8.1
+  },
+  {
+    "locationCode": "QDB",
+    "label": "Queluz",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.75,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "TZK",
+    "label": "Queluz de Baixo",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.75,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "QUR",
+    "label": "Querença",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Querenca",
+    "function": "3",
+    "lat": 37.183333,
+    "lng": -7.983333
+  },
+  {
+    "locationCode": "QDS",
+    "label": "Quinta Da Sardinha",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.683333,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "QDA",
+    "label": "Quinta do Anjo",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.566667,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "QCD",
+    "label": "Quinta do Conde",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.116667,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "RPX",
+    "label": "Rabo de Peixe",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 37.8,
+    "lng": -25.583333
+  },
+  {
+    "locationCode": "RML",
+    "label": "Ramalde",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": -41.166667,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "PPR",
+    "label": "Rates",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.416667,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "RBD",
+    "label": "Rebordelo",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.733333,
+    "lng": -7.166667
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rebordoes",
+    "function": "6",
+    "lat": 41.35,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "REB",
+    "label": "Rebordosa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.25,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "RHD",
+    "label": "Reboreda",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 41.95,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "REC",
+    "label": "Recarei",
+    "function": "3",
+    "lat": 41.2,
+    "lng": -84.333333
+  },
+  {
+    "locationCode": "RDD",
+    "label": "Redondo",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 38.65,
+    "lng": -7.55
+  },
+  {
+    "locationCode": "RDP",
+    "label": "Regueira de Pontes",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.8,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "RPE",
+    "label": "Reguengo Pequeno",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.283333,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "RMZ",
+    "label": "Reguengos de Monsaraz",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.416667,
+    "lng": -7.533333
+  },
+  {
+    "locationCode": "RQU",
+    "label": "Requião",
+    "labelWithDiacritics": "Requiao",
+    "function": "16",
+    "lat": 41.4,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "RSD",
+    "label": "Resende",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 41.1,
+    "lng": -7.966667
+  },
+  {
+    "locationCode": "RVH",
+    "label": "Revinhade",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "RIA",
+    "label": "Riachos",
+    "subdivisionCode": "14",
+    "function": "236",
+    "lat": 39.433333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "RDV",
+    "label": "Riba de Ave",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.4,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "RBR",
+    "label": "Ribeira Brava",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.65,
+    "lng": -17.066667
+  },
+  {
+    "locationCode": "RIB",
+    "label": "Ribeira de Frades",
+    "function": "3",
+    "lat": 40.2,
+    "lng": -83.5
+  },
+  {
+    "locationCode": "RPN",
+    "label": "Ribeira de Pena",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.516667,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "QEG",
+    "label": "Ribeira Grande",
+    "subdivisionCode": "20",
+    "function": "34",
+    "lat": 37.816667,
+    "lng": -25.516667
+  },
+  {
+    "locationCode": "RHS",
+    "label": "Ribolhos",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.883333,
+    "lng": -7.933333
+  },
+  {
+    "locationCode": "RBM",
+    "label": "Rio Bom",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 41.566667,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "RCV",
+    "label": "Rio Covos",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "RDM",
+    "label": "Rio de Mouro",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.766667,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "RFB",
+    "label": "Rio Frio",
+    "subdivisionCode": "04",
+    "function": "36",
+    "lat": 41.733333,
+    "lng": -6.633333
+  },
+  {
+    "locationCode": "RMA",
+    "label": "Rio Maior",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.333333,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "RIO",
+    "label": "Rio Meão",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Rio Meao",
+    "function": "3",
+    "lat": 40.95,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "RTI",
+    "label": "Rio Tinto",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.183333,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "ROL",
+    "label": "Roliça",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Rolica",
+    "function": "3",
+    "lat": 39.316667,
+    "lng": -9.183333
+  },
+  {
+    "locationCode": "RIZ",
+    "label": "Romariz",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "ZEM",
+    "label": "Rozem",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.15,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "RUN",
+    "label": "Runa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.066667,
+    "lng": -9.216667
+  },
+  {
+    "locationCode": "SBR",
+    "label": "Sabrosa",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -7.583333
+  },
+  {
+    "locationCode": "SBS",
+    "label": "Sabroso",
+    "subdivisionCode": "17",
+    "function": "6",
+    "lat": 41.583333,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "SBL",
+    "label": "Sabugal",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 40.516667,
+    "lng": -7.233333
+  },
+  {
+    "locationCode": "TZN",
+    "label": "Sabugo",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.816667,
+    "lng": -9.3
+  },
+  {
+    "locationCode": "SAC",
+    "label": "Sacavém",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sacavem",
+    "function": "23",
+    "lat": 38.783333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "SFR",
+    "label": "Safara",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 38.1,
+    "lng": -7.216667
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sagres",
+    "function": "1",
+    "lat": 37,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "SGU",
+    "label": "Salgueiro",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.233333,
+    "lng": -7.3
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Salir de Matos",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 39.433333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "SMG",
+    "label": "Salvaterra de Magos",
+    "subdivisionCode": "14",
+    "function": "36",
+    "lat": 39.016667,
+    "lng": -8.8
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Samora Correia",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 38.933333,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samouco",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.716667,
+    "lng": -9
+  },
+  {
+    "locationCode": "SNH",
+    "label": "Sanchequias",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Sandiães",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sandiaes",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "DFZ",
+    "label": "Sandim",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 41.033333,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "SSF",
+    "label": "Sanfins",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Sanfins do Douro",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.3,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sangalhos",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.5,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "SGA",
+    "label": "Sanguedo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41,
+    "lng": -8.516667
+  },
+  {
+    "locationCode": "SCS",
+    "label": "Santa Catarina da Serra",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.666667,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Santa Clara-a-Velha",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.516667,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "SCD",
+    "label": "Santa Comba Dão",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Santa Comba Dao",
+    "function": "3",
+    "lat": 40.4,
+    "lng": -8.133333
+  },
+  {
+    "locationCode": "SCZ",
+    "label": "Santa Cruz",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": -16.8
+  },
+  {
+    "locationCode": "SCG",
+    "label": "Santa Cruz da Graciosa",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 39.083333,
+    "lng": -28.016667
+  },
+  {
+    "locationCode": "SCF",
+    "label": "Santa Cruz das Flores",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 39.45,
+    "lng": -31.116667
+  },
+  {
+    "locationCode": "SCB",
+    "label": "Santa Cruz Do Bispo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.216667,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "SEP",
+    "label": "Santa Eufémia de Prazins",
+    "labelWithDiacritics": "Santa Eufemia de Prazins",
+    "function": "3",
+    "lat": 41.466667,
+    "lng": -8.316667
+  },
+  {
+    "locationCode": "EAS",
+    "label": "Santa Eulalia de Arnoso",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Santa Iria de Azoia",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.85,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "SLZ",
+    "label": "Santa Luzia",
+    "function": "1",
+    "lat": 37.1,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "SMF",
+    "label": "Santa Maria da Feira",
+    "subdivisionCode": "01",
+    "function": "36"
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Santa Maria de Avioso",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "SMV",
+    "label": "Santa Maria de Avioso",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 41.266667,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "SML",
+    "label": "Santa Maria de Lamas",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "SMS",
+    "label": "Santa Maria de Sardoura",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 41.05,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Santa Maria Island Apt",
+    "subdivisionCode": "20",
+    "function": "4",
+    "lat": 36.966667,
+    "lng": -25.166667
+  },
+  {
+    "locationCode": "SMP",
+    "label": "Santa Marta de Penaguião",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Santa Marta de Penaguiao",
+    "function": "23",
+    "lat": 41.2,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "SVT",
+    "label": "Santa Vitória",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Santa Vitoria",
+    "function": "3",
+    "lat": 37.966667,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "STN",
+    "label": "Santana",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 32.8,
+    "lng": -16.883333
+  },
+  {
+    "locationCode": "SNT",
+    "label": "Santarém",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Santarem",
+    "function": "23",
+    "lat": 39.233333,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "SDB",
+    "label": "Santiago de Besteiros",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.583333,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "SRU",
+    "label": "Santiago de Riba-Ul",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.85,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "STC",
+    "label": "Santiago do Cacém",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Santiago do Cacem",
+    "function": "23",
+    "lat": 38.016667,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "DTO",
+    "label": "Santo Antão do Tojal",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Santo Antao do Tojal",
+    "function": "3",
+    "lat": 38.85,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "SEO",
+    "label": "Santo Estevao",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.866667,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "SEG",
+    "label": "Santo Estêvão das Galés",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Santo Estevao das Gales",
+    "function": "3",
+    "lat": 38.9,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "SDP",
+    "label": "Santo Isidro de Pegoes",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.683333,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "STI",
+    "label": "Santo Tirso",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "SVO",
+    "label": "Santo Varão",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Santo Varao",
+    "function": "3",
+    "lat": 40.183333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "SBM",
+    "label": "São Bartolomeu de Messines",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Sao Bartolomeu de Messines",
+    "function": "23",
+    "lat": 37.25,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "BDG",
+    "label": "São Bartolomeu dos Galegos",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sao Bartolomeu dos Galegos",
+    "function": "3",
+    "lat": 39.266667,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "SBA",
+    "label": "São Brás de Alportel",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Sao Bras de Alportel",
+    "function": "3",
+    "lat": 37.15,
+    "lng": -7.883333
+  },
+  {
+    "locationCode": "VAQ",
+    "label": "São Cosme do Vale",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Sao Cosme do Vale",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "SDR",
+    "label": "São Domingos de Rana",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sao Domingos de Rana",
+    "function": "23",
+    "lat": 38.7,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "IAO",
+    "label": "São Gião",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Sao Giao",
+    "function": "3",
+    "lat": 40.333333,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "SGO",
+    "label": "São Gonçalo",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Sao Goncalo",
+    "function": "6",
+    "lat": 41.183333,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "SJM",
+    "label": "São João da Madeira",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Sao Joao da Madeira",
+    "function": "236",
+    "lat": 40.9,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "SJP",
+    "label": "São João da Pesqueira",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Sao Joao da Pesqueira",
+    "function": "3",
+    "lat": 41.15,
+    "lng": -7.4
+  },
+  {
+    "locationCode": "SJR",
+    "label": "São João da Ribeira",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Sao Joao da Ribeira",
+    "function": "36",
+    "lat": 39.283333,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "SJT",
+    "label": "São João da Talha",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sao Joao da Talha",
+    "function": "3",
+    "lat": 38.816667,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "SJL",
+    "label": "Sao Joao das Lampas",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.866667,
+    "lng": -9.4
+  },
+  {
+    "locationCode": "SJA",
+    "label": "São João de Areias",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Sao Joao de Areias",
+    "function": "3",
+    "lat": 40.383333,
+    "lng": -8.066667
+  },
+  {
+    "locationCode": "SJV",
+    "label": "São João de Ver",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Sao Joao de Ver",
+    "function": "3",
+    "lat": 40.95,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "SJO",
+    "label": "São Jorge",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Sao Jorge",
+    "function": "3",
+    "lat": 39.633333,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "SJZ",
+    "label": "São Jorge Island Apt",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Sao Jorge Island Apt",
+    "function": "4",
+    "lat": 38.65,
+    "lng": -28.166667
+  },
+  {
+    "locationCode": "TZG",
+    "label": "Sao Juliao do Tojal",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.85,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "SLD",
+    "label": "São Lourenço do Douro",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Sao Lourenco do Douro",
+    "function": "3",
+    "lat": 41.1,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "MAM",
+    "label": "São Mamede",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Sao Mamede",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "SMD",
+    "label": "São Mamede de Infesta",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Sao Mamede de Infesta",
+    "function": "23",
+    "lat": 41.2,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "SMO",
+    "label": "São Martinho do Porto",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Sao Martinho do Porto",
+    "function": "1",
+    "lat": 39.516667,
+    "lng": -9.133333
+  },
+  {
+    "locationCode": "SMT",
+    "label": "São Mateus",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Sao Mateus",
+    "function": "1",
+    "lat": 38.65,
+    "lng": -27.266667
+  },
+  {
+    "locationCode": "SMI",
+    "label": "São Miguel",
+    "labelWithDiacritics": "Sao Miguel",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPG",
+    "label": "São Paio de Gramaços",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Sao Paio de Gramacos",
+    "function": "3",
+    "lat": 40.35,
+    "lng": -7.833333
+  },
+  {
+    "locationCode": "TZC",
+    "label": "Sao Paio de Oleiros",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 40.983333,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "AFR",
+    "label": "São Pedro da Afurada",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Sao Pedro da Afurada",
+    "function": "1",
+    "lat": 41.133333,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "SAO",
+    "label": "Sao Pedro de Avioso",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "SPS",
+    "label": "São Pedro do Sul",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Sao Pedro do Sul",
+    "function": "23",
+    "lat": 40.75,
+    "lng": -8.066667
+  },
+  {
+    "locationCode": "RNV",
+    "label": "São Romão de Neiva",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Sao Romao de Neiva",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "SRP",
+    "label": "São Roque do Pico",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Sao Roque do Pico",
+    "function": "3",
+    "lat": 38.516667,
+    "lng": -28.316667
+  },
+  {
+    "locationCode": "SVC",
+    "label": "São Vicente",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Sao Vicente",
+    "function": "3",
+    "lat": 32.8,
+    "lng": -17.05
+  },
+  {
+    "locationCode": "SVB",
+    "label": "São Vicente da Beira",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Sao Vicente da Beira",
+    "function": "3",
+    "lat": 40.033333,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "SRD",
+    "label": "Sardoal",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.533333,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Sátão",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Satao",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": -7.733333
+  },
+  {
+    "locationCode": "SEE",
+    "label": "Seia",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.416667,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "SCA",
+    "label": "Seica",
+    "function": "3",
+    "lat": 40.05,
+    "lng": -50
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Seixal",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 38.633333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "SXZ",
+    "label": "Seixezelo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "SND",
+    "label": "Sendim",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Senhora da Hora",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 41.183333,
+    "lng": -8.65
+  },
+  {
+    "locationCode": "SDF",
+    "label": "Senhora das Febres",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 40.4,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "SEQ",
+    "label": "Sequeira",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Sernancelhe",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.9,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Seroa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.266667,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Serpa",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": -7.6
+  },
+  {
+    "locationCode": "SRT",
+    "label": "Sertã",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Serta",
+    "function": "3",
+    "lat": 39.8,
+    "lng": -8.1
+  },
+  {
+    "locationCode": "SER",
+    "label": "Serzedo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.05,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "SSB",
+    "label": "Sesimbra",
+    "subdivisionCode": "15",
+    "function": "13",
+    "lat": 38.433333,
+    "lng": -9.1
+  },
+  {
+    "locationCode": "SET",
+    "label": "Setúbal",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Setubal",
+    "function": "123",
+    "lat": 38.533333,
+    "lng": -8.9
+  },
+  {
+    "locationCode": "SVV",
+    "label": "Sever do Vouga",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": -8.366667
+  },
+  {
+    "locationCode": "SVD",
+    "label": "Silvalde",
+    "subdivisionCode": "01",
+    "function": "2",
+    "lat": 40.983333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "TZM",
+    "label": "Silveira",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 39.116667,
+    "lng": -9.366667
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Silves",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 37.183333,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sinde",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.316667,
+    "lng": -8.05
+  },
+  {
+    "locationCode": "SIE",
+    "label": "Sines",
+    "subdivisionCode": "15",
+    "function": "1234",
+    "lat": 37.95,
+    "lng": -8.866667
+  },
+  {
+    "locationCode": "STA",
+    "label": "Sintra",
+    "subdivisionCode": "11",
+    "function": "236",
+    "lat": 38.8,
+    "lng": -9.383333
+  },
+  {
+    "locationCode": "SLH",
+    "label": "Soalheira",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 40.033333,
+    "lng": -7.483333
+  },
+  {
+    "locationCode": "SOG",
+    "label": "Sobradelo da Goma",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": -81.166667
+  },
+  {
+    "locationCode": "SBO",
+    "label": "Sobrado",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.216667,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Sobral",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.25,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Sobral de Monte Agraço",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sobral de Monte Agraco",
+    "function": "3",
+    "lat": 39.016667,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "SDO",
+    "label": "Sobral do Parelhão",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sobral do Parelhao",
+    "function": "3",
+    "lat": 39.283333,
+    "lng": -9.15
+  },
+  {
+    "locationCode": "SOB",
+    "label": "Sobralinho",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 38.916667,
+    "lng": -9.016667
+  },
+  {
+    "locationCode": "SBD",
+    "label": "Sobreda",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 38.65,
+    "lng": -9.183333
+  },
+  {
+    "locationCode": "SSO",
+    "label": "Sosa",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 40.55,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "SOU",
+    "label": "Soure",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 40.05,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "SOS",
+    "label": "Sousa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "ELA",
+    "label": "Souselas",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "SSL",
+    "label": "Souzel",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 38.95,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "SZL",
+    "label": "Souzelas",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.1,
+    "lng": -8.716667
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tábua",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Tabua",
+    "function": "3",
+    "lat": 40.35,
+    "lng": -8.033333
+  },
+  {
+    "locationCode": "TBC",
+    "label": "Tabuaço",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Tabuaco",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tagilde",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": -8.283333
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tamel",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.55,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "TRC",
+    "label": "Tarouca",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 41.016667,
+    "lng": -7.783333
+  },
+  {
+    "locationCode": "TVO",
+    "label": "Taveiro",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.2,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "TVR",
+    "label": "Tavira",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 37.116667,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Telhado",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.45,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "TG2",
+    "label": "Telhados Grandes",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 39.516667,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tentúgal",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Tentugal",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terceira Island Apt",
+    "subdivisionCode": "20",
+    "function": "145",
+    "lat": 38.716667,
+    "lng": -27.216667
+  },
+  {
+    "locationCode": "TBR",
+    "label": "Terras de Bouro",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.716667,
+    "lng": -8.3
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Terroso",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.416667,
+    "lng": -8.733333
+  },
+  {
+    "locationCode": "TRR",
+    "label": "Terrugem",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 38.7,
+    "lng": -9.283333
+  },
+  {
+    "locationCode": "TOC",
+    "label": "Tocha",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 40.316667,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "TMR",
+    "label": "Tomar",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.6,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tondela",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.516667,
+    "lng": -8.083333
+  },
+  {
+    "locationCode": "TPO",
+    "label": "Topo",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.55,
+    "lng": -27.783333
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torrão",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Torrao",
+    "function": "23",
+    "lat": 38.666667,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "TDH",
+    "label": "Torre de Dona Chama",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -7.133333
+  },
+  {
+    "locationCode": "TMC",
+    "label": "Torre de Moncorvo",
+    "subdivisionCode": "04",
+    "function": "23",
+    "lat": 41.166667,
+    "lng": -7.05
+  },
+  {
+    "locationCode": "TOA",
+    "label": "Torreira",
+    "function": "1",
+    "lat": 40.75,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "TNV",
+    "label": "Torres Novas",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.483333,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "TVE",
+    "label": "Torres Vedras",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 39.1,
+    "lng": -9.266667
+  },
+  {
+    "locationCode": "TSO",
+    "label": "Tortosendo",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.233333,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "TOU",
+    "label": "Touguinho",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "TRF",
+    "label": "Trafaria",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 38.666667,
+    "lng": -9.233333
+  },
+  {
+    "locationCode": "TRJ",
+    "label": "Trajouce",
+    "subdivisionCode": "11",
+    "function": "36",
+    "lat": 38.666667,
+    "lng": -9.333333
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Tramagal",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 39.45,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "TCS",
+    "label": "Trancoso",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": -7.35
+  },
+  {
+    "locationCode": "TRD",
+    "label": "Trandeiras",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": -8.416667
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Travanca",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.8,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "TMS",
+    "label": "Tremes",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.35,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Trofa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.6,
+    "lng": -8.483333
+  },
+  {
+    "locationCode": "TVH",
+    "label": "Trofa Velha",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 41.316667,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "TVS",
+    "label": "Troviscal",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.866667,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunes",
+    "subdivisionCode": "01",
+    "function": "1"
+  },
+  {
+    "locationCode": "CVL",
+    "label": "Unhais da Serra",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": -7.616667
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Urqueira",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.733333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "VGS",
+    "label": "Vagos",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.55,
+    "lng": -8.683333
+  },
+  {
+    "locationCode": "VAG",
+    "label": "Vagueira",
+    "function": "1",
+    "lat": 40.55,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vaiamonte",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 39.1,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "TZP",
+    "label": "Valada",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 39.066667,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "VDR",
+    "label": "Valadares",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": -8.35
+  },
+  {
+    "locationCode": "VAB",
+    "label": "Valbom",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 41.133333,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "SCV",
+    "label": "Vale",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.45,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "VCA",
+    "label": "Vale de Cambra",
+    "subdivisionCode": "01",
+    "function": "236",
+    "lat": 40.85,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "VLN",
+    "label": "Valença",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Valenca",
+    "function": "23",
+    "lat": 42.033333,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valongo",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 39.166667,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "NGV",
+    "label": "Valongo",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 41.183333,
+    "lng": -8.5
+  },
+  {
+    "locationCode": "VLP",
+    "label": "Valpaços",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Valpacos",
+    "function": "3",
+    "lat": 41.6,
+    "lng": -7.316667
+  },
+  {
+    "locationCode": "VL9",
+    "label": "Valverde",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 38.533333,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vandoma",
+    "function": "3",
+    "lat": 41.2,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "VAE",
+    "label": "Varzea",
+    "function": "6",
+    "lat": 37.866667,
+    "lng": -25.833333
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Várzea do Douro",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Varzea do Douro",
+    "function": "13",
+    "lat": 41.116667,
+    "lng": -8.466667
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velas",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 38.683333,
+    "lng": -28.216667
+  },
+  {
+    "locationCode": "VDV",
+    "label": "Venda do Pinheiro",
+    "subdivisionCode": "11",
+    "function": "1"
+  },
+  {
+    "locationCode": "VDN",
+    "label": "Vendas Novas",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.683333,
+    "lng": -8.45
+  },
+  {
+    "locationCode": "VEA",
+    "label": "Vendinha",
+    "function": "6",
+    "lat": 38.45,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "VVN",
+    "label": "Ventosa",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 39.566667,
+    "lng": -8.016667
+  },
+  {
+    "locationCode": "VOM",
+    "label": "Vermoim",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": -8.6
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Vialonga",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 38.866667,
+    "lng": -9.083333
+  },
+  {
+    "locationCode": "VNT",
+    "label": "Viana do Alentejo",
+    "subdivisionCode": "07",
+    "function": "23",
+    "lat": 38.333333,
+    "lng": -8
+  },
+  {
+    "locationCode": "VDC",
+    "label": "Viana do Castelo",
+    "subdivisionCode": "16",
+    "function": "123",
+    "lat": 41.7,
+    "lng": -8.833333
+  },
+  {
+    "locationCode": "VTD",
+    "label": "Viatodos",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.45,
+    "lng": -8.566667
+  },
+  {
+    "locationCode": "VDG",
+    "label": "Vidago",
+    "subdivisionCode": "17",
+    "function": "23",
+    "lat": 41.633333,
+    "lng": -7.566667
+  },
+  {
+    "locationCode": "VDE",
+    "label": "Vide",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": -7.766667
+  },
+  {
+    "locationCode": "VGA",
+    "label": "Vidigueira",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 38.216667,
+    "lng": -7.8
+  },
+  {
+    "locationCode": "VRM",
+    "label": "Vieira do Minho",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.633333,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "BDB",
+    "label": "Vila Boa do Bispo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": -8.2
+  },
+  {
+    "locationCode": "VLC",
+    "label": "Vila Chã",
+    "labelWithDiacritics": "Vila Cha",
+    "function": "1",
+    "lat": 40.85,
+    "lng": -8.383333
+  },
+  {
+    "locationCode": "VCO",
+    "label": "Vila Cha de Ourique",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 39.166667,
+    "lng": -8.766667
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Vila da Ponte",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": -7.5
+  },
+  {
+    "locationCode": "VFD",
+    "label": "Vila de Frades",
+    "subdivisionCode": "02",
+    "function": "16",
+    "lat": 38.216667,
+    "lng": -7.816667
+  },
+  {
+    "locationCode": "VLR",
+    "label": "Vila de Rei",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.666667,
+    "lng": -8.15
+  },
+  {
+    "locationCode": "VBP",
+    "label": "Vila do Bispo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 37.083333,
+    "lng": -8.916667
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Vila do Conde",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 41.35,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "VDP",
+    "label": "Vila do Porto",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 36.933333,
+    "lng": -25.15
+  },
+  {
+    "locationCode": "VFL",
+    "label": "Vila Flor",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 39.133333,
+    "lng": -7.15
+  },
+  {
+    "locationCode": "VFX",
+    "label": "Vila Franca de Xira",
+    "subdivisionCode": "11",
+    "function": "123",
+    "lat": 38.95,
+    "lng": -8.983333
+  },
+  {
+    "locationCode": "VFC",
+    "label": "Vila Franca do Campo",
+    "subdivisionCode": "20",
+    "function": "13",
+    "lat": 37.716667,
+    "lng": -25.433333
+  },
+  {
+    "locationCode": "VFR",
+    "label": "Vila Franca do Rosário",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Vila Franca do Rosario",
+    "function": "3",
+    "lat": 38.966667,
+    "lng": -9.25
+  },
+  {
+    "locationCode": "VMA",
+    "label": "Vila Meã",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Vila Mea",
+    "function": "23",
+    "lat": 41.25,
+    "lng": -8.183333
+  },
+  {
+    "locationCode": "VIF",
+    "label": "Vila Moura",
+    "subdivisionCode": "08",
+    "function": "3"
+  },
+  {
+    "locationCode": "TZO",
+    "label": "Vila Nogueira de Azeitao",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 38.516667,
+    "lng": -9.016667
+  },
+  {
+    "locationCode": "VNB",
+    "label": "Vila Nova da Barquinha",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 39.45,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Vila Nova da Cerveira",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 41.933333,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "VNR",
+    "label": "Vila Nova da Rainha",
+    "subdivisionCode": "11",
+    "function": "16",
+    "lat": 39.033333,
+    "lng": -8.933333
+  },
+  {
+    "locationCode": "VNE",
+    "label": "Vila Nova da Telha",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.25,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "VNF",
+    "label": "Vila Nova de Famalicao",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 41.416667,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "VNZ",
+    "label": "Vila Nova de Fozcoa",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 41.083333,
+    "lng": -7.2
+  },
+  {
+    "locationCode": "VNG",
+    "label": "Vila Nova de Gaia",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.133333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "VNM",
+    "label": "Vila Nova de Milfontes",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 37.716667,
+    "lng": -8.783333
+  },
+  {
+    "locationCode": "VNO",
+    "label": "Vila Nova de Ourém",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Vila Nova de Ourem",
+    "function": "3",
+    "lat": 39.65,
+    "lng": -8.583333
+  },
+  {
+    "locationCode": "VOP",
+    "label": "Vila Nova de Paiva",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 40.85,
+    "lng": -7.733333
+  },
+  {
+    "locationCode": "VNP",
+    "label": "Vila Nova de Poiares",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "VSA",
+    "label": "Vila Nova de Santo André",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Vila Nova de Santo Andre",
+    "function": "3",
+    "lat": 38.05,
+    "lng": -8.75
+  },
+  {
+    "locationCode": "VNC",
+    "label": "Vila Nova do Corvo",
+    "subdivisionCode": "20",
+    "function": "1",
+    "lat": 39.666667,
+    "lng": -31.1
+  },
+  {
+    "locationCode": "VPB",
+    "label": "Vila Pouca da Beira",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.3,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "VPA",
+    "label": "Vila Pouca de Aguiar",
+    "subdivisionCode": "17",
+    "function": "23",
+    "lat": 41.5,
+    "lng": -7.65
+  },
+  {
+    "locationCode": "TZB",
+    "label": "Vila Praia de Ancora",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 41.816667,
+    "lng": -8.85
+  },
+  {
+    "locationCode": "VRL",
+    "label": "Vila Real",
+    "subdivisionCode": "17",
+    "function": "234",
+    "lat": 41.3,
+    "lng": -7.75
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Vila Real de San António",
+    "labelWithDiacritics": "Vila Real de San Antonio",
+    "function": "3",
+    "lat": 37.2,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "VRE",
+    "label": "Vila Real de Santo António",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Vila Real de Santo Antonio",
+    "function": "123",
+    "lat": 37.2,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "VRU",
+    "label": "Vila Ruiva",
+    "function": "6",
+    "lat": 40.566667,
+    "lng": -7.516667
+  },
+  {
+    "locationCode": "VLS",
+    "label": "Vila Seca",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": -7.666667
+  },
+  {
+    "locationCode": "VVR",
+    "label": "Vila Velha de Ródão",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Vila Velha de Rodao",
+    "function": "23",
+    "lat": 39.666667,
+    "lng": -7.7
+  },
+  {
+    "locationCode": "VVD",
+    "label": "Vila Verde",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.65,
+    "lng": -8.433333
+  },
+  {
+    "locationCode": "VIV",
+    "label": "Vila Viçosa",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Vila Vicosa",
+    "function": "23",
+    "lat": 38.783333,
+    "lng": -7.416667
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Vilar",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 39.183333,
+    "lng": -9.116667
+  },
+  {
+    "locationCode": "VMP",
+    "label": "Vilar do Paraíso",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Vilar do Paraiso",
+    "function": "6",
+    "lat": 41.083333,
+    "lng": -8.616667
+  },
+  {
+    "locationCode": "VPO",
+    "label": "Vilar do Pinheiro",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 41.266667,
+    "lng": -8.666667
+  },
+  {
+    "locationCode": "VLF",
+    "label": "Vilar Formoso",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": -6.833333
+  },
+  {
+    "locationCode": "VSP",
+    "label": "Vilar Seco",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 40.55,
+    "lng": -7.866667
+  },
+  {
+    "locationCode": "VIH",
+    "label": "Vilarinho",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.6,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "VLH",
+    "label": "Vilarinho",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.35,
+    "lng": -8.333333
+  },
+  {
+    "locationCode": "DCS",
+    "label": "Vilarinho das Cambas",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.55
+  },
+  {
+    "locationCode": "VDB",
+    "label": "Vilarinho do Bairro",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.416667,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "VDF",
+    "label": "Vilarinho dos Freires",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.166667,
+    "lng": -7.75
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Vilela",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 41.55,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "VMS",
+    "label": "Vimioso",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": -6.533333
+  },
+  {
+    "locationCode": "VNH",
+    "label": "Vinhais",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": -7
+  },
+  {
+    "locationCode": "VSE",
+    "label": "Viseu",
+    "subdivisionCode": "18",
+    "function": "234",
+    "lat": 40.65,
+    "lng": -7.916667
+  },
+  {
+    "locationCode": "ZVI",
+    "label": "Vizela",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": -8.266667
+  },
+  {
+    "locationCode": "VZL",
+    "label": "Vouzela",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 40.716667,
+    "lng": -8.116667
+  },
+  {
+    "locationCode": "ZIB",
+    "label": "Zibreira",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 39.85,
+    "lng": -7.066667
+  },
+  {
+    "locationCode": "ZFM",
+    "label": "Zona Franca da Madeira",
+    "subdivisionCode": "30",
+    "function": "13",
+    "lat": 32.666667,
+    "lng": -16.75
+  }
+]

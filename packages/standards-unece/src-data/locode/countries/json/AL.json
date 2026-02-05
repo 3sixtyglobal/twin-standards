@@ -1,0 +1,199 @@
+[
+  {
+    "locationCode": "ARG",
+    "label": "Argyrokastro",
+    "function": "3",
+    "lat": 40.116667,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Berat",
+    "subdivisionCode": "BR",
+    "function": "36",
+    "lat": 40.716667,
+    "lng": 19.95
+  },
+  {
+    "locationCode": "BQE",
+    "label": "Bulqizë",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Bulqize",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "BUT",
+    "label": "Butrint",
+    "subdivisionCode": "SR",
+    "function": "1",
+    "lat": 39.75,
+    "lng": 20.016667
+  },
+  {
+    "locationCode": "DRZ",
+    "label": "Durrës",
+    "labelWithDiacritics": "Durres",
+    "function": "1"
+  },
+  {
+    "locationCode": "NPP",
+    "label": "Elbasan",
+    "subdivisionCode": "EL",
+    "function": "23",
+    "lat": 41.1,
+    "lng": 20.066667
+  },
+  {
+    "locationCode": "FIE",
+    "label": "Fier",
+    "function": "23",
+    "lat": 40.733333,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "FUS",
+    "label": "Fushe Arrez",
+    "subdivisionCode": "SH",
+    "function": "6",
+    "lat": 42.05,
+    "lng": 20.016667
+  },
+  {
+    "locationCode": "GOK",
+    "label": "Gjirokastër",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Gjirokaster",
+    "function": "36",
+    "lat": 40.083333,
+    "lng": 20.15
+  },
+  {
+    "locationCode": "HMR",
+    "label": "Himare",
+    "subdivisionCode": "SR",
+    "function": "1",
+    "lat": 40.133333,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "KRC",
+    "label": "Korçë",
+    "subdivisionCode": "KO",
+    "labelWithDiacritics": "Korce",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "KKU",
+    "label": "Kukës",
+    "subdivisionCode": "KU",
+    "labelWithDiacritics": "Kukes",
+    "function": "36",
+    "lat": 42.083333,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "LZE",
+    "label": "Lezhe",
+    "subdivisionCode": "LE",
+    "function": "3",
+    "lat": 41.783333,
+    "lng": 19.633333
+  },
+  {
+    "locationCode": "LUS",
+    "label": "Lushnjë",
+    "subdivisionCode": "LU",
+    "labelWithDiacritics": "Lushnje",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "MBR",
+    "label": "Mbreshtan",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 40.7,
+    "lng": 19.866667
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Milot",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 41.666667,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "ROM",
+    "label": "Romano Port",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 41.366667,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarandë",
+    "subdivisionCode": "SR",
+    "labelWithDiacritics": "Sarande",
+    "function": "1",
+    "lat": 39.883333,
+    "lng": 20
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Shëngjin",
+    "subdivisionCode": "LE",
+    "labelWithDiacritics": "Shengjin",
+    "function": "1",
+    "lat": 41.8,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "SHK",
+    "label": "Shkoder",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "SHZ",
+    "label": "Shkozet",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 42.033333,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tenes",
+    "function": "0"
+  },
+  {
+    "locationCode": "TIA",
+    "label": "Tirana",
+    "function": "45"
+  },
+  {
+    "locationCode": "VOA",
+    "label": "Vlorë",
+    "subdivisionCode": "VL",
+    "labelWithDiacritics": "Vlore",
+    "function": "1",
+    "lat": 40.466667,
+    "lng": 19.483333
+  },
+  {
+    "locationCode": "VOR",
+    "label": "Vore",
+    "subdivisionCode": "TR",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": 19.65
+  }
+]

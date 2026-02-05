@@ -1,0 +1,56 @@
+[
+  {
+    "locationCode": "BAK",
+    "label": "Baker Island",
+    "subdivisionCode": "81",
+    "function": "0"
+  },
+  {
+    "locationCode": "HOW",
+    "label": "Howland Island",
+    "subdivisionCode": "84",
+    "function": "0"
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jarvis Island",
+    "subdivisionCode": "86",
+    "function": "0"
+  },
+  {
+    "locationCode": "JON",
+    "label": "Johnston Atoll",
+    "subdivisionCode": "67",
+    "function": "14"
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kingman Reef",
+    "subdivisionCode": "89",
+    "function": "0"
+  },
+  {
+    "locationCode": "MDY",
+    "label": "Midway Islands",
+    "subdivisionCode": "71",
+    "function": "14"
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Navassa Island",
+    "subdivisionCode": "76",
+    "function": "0"
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palmyra Atoll",
+    "subdivisionCode": "95",
+    "function": "0"
+  },
+  {
+    "locationCode": "AWK",
+    "label": "Wake Island",
+    "subdivisionCode": "79",
+    "function": "14"
+  }
+]

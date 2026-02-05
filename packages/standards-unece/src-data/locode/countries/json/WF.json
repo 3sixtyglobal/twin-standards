@@ -1,0 +1,46 @@
+[
+  {
+    "locationCode": "HLO",
+    "label": "Halalo",
+    "function": "13",
+    "lat": -13.333333,
+    "lng": -176.216667
+  },
+  {
+    "locationCode": "LEA",
+    "label": "Leava",
+    "function": "3",
+    "lat": -14.3,
+    "lng": -178.15
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Matâ'utu",
+    "labelWithDiacritics": "Mata'utu",
+    "function": "135",
+    "lat": -13.283333,
+    "lng": -176.183333
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Sigavé",
+    "labelWithDiacritics": "Sigave",
+    "function": "13",
+    "lat": -14.283333,
+    "lng": -178.166667
+  },
+  {
+    "locationCode": "FUT",
+    "label": "Vele Futuna I. Apt",
+    "function": "4",
+    "lat": -14.316667,
+    "lng": -178.083333
+  },
+  {
+    "locationCode": "WLS",
+    "label": "Wallis I. Apt",
+    "function": "4",
+    "lat": -13.25,
+    "lng": -176.2
+  }
+]

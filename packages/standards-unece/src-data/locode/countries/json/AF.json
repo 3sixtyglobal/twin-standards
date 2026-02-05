@@ -1,0 +1,432 @@
+[
+  {
+    "locationCode": "ASH",
+    "label": "Ali Shirzayi",
+    "subdivisionCode": "URU",
+    "function": "3",
+    "lat": 32.866667,
+    "lng": 66.05
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagram",
+    "subdivisionCode": "PAR",
+    "function": "3",
+    "lat": 34.95,
+    "lng": 69.25
+  },
+  {
+    "locationCode": "BIN",
+    "label": "Bamian",
+    "function": "34"
+  },
+  {
+    "locationCode": "BEP",
+    "label": "Bazar-E-Panjwai",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31.55,
+    "lng": 65.45
+  },
+  {
+    "locationCode": "BST",
+    "label": "Bost",
+    "function": "4"
+  },
+  {
+    "locationCode": "CBN",
+    "label": "Camp Bastion",
+    "subdivisionCode": "HEL",
+    "function": "34",
+    "lat": 31.85,
+    "lng": 64.216667
+  },
+  {
+    "locationCode": "CDW",
+    "label": "Camp Dwyer",
+    "subdivisionCode": "HEL",
+    "function": "3",
+    "lat": 31.116667,
+    "lng": 64.183333
+  },
+  {
+    "locationCode": "CLN",
+    "label": "Camp Leatherneck",
+    "subdivisionCode": "HEL",
+    "function": "3",
+    "lat": 31.883333,
+    "lng": 64.183333
+  },
+  {
+    "locationCode": "CSO",
+    "label": "Camp Salerno",
+    "subdivisionCode": "KHO",
+    "function": "3",
+    "lat": 33.4,
+    "lng": 70.066667
+  },
+  {
+    "locationCode": "CWO",
+    "label": "Camp Wolverine",
+    "subdivisionCode": "ZAB",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 67.2
+  },
+  {
+    "locationCode": "CCN",
+    "label": "Chaghcharan",
+    "function": "4",
+    "lat": 34.516667,
+    "lng": 65.25
+  },
+  {
+    "locationCode": "DAZ",
+    "label": "Darwaz",
+    "function": "4"
+  },
+  {
+    "locationCode": "DHD",
+    "label": "Dehdadi",
+    "subdivisionCode": "BAL",
+    "function": "16",
+    "lat": 36.65,
+    "lng": 66.983333
+  },
+  {
+    "locationCode": "ISQ",
+    "label": "Eslam Qal'eh",
+    "function": "3",
+    "lat": 34.666667,
+    "lng": 61.066667
+  },
+  {
+    "locationCode": "FBD",
+    "label": "Faizabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "FAH",
+    "label": "Farah",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRO",
+    "label": "FOB Frontenac",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31.616667,
+    "lng": 65.65
+  },
+  {
+    "locationCode": "RMD",
+    "label": "FOB Ramrod",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31.75,
+    "lng": 65.116667
+  },
+  {
+    "locationCode": "SHK",
+    "label": "FOB Shank",
+    "subdivisionCode": "LOG",
+    "function": "3",
+    "lat": 34,
+    "lng": 69.283333
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Gardez",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Gardiz",
+    "subdivisionCode": "PIA",
+    "function": "3",
+    "lat": 33.583333,
+    "lng": 69.216667
+  },
+  {
+    "locationCode": "GZI",
+    "label": "Ghazni",
+    "function": "4"
+  },
+  {
+    "locationCode": "HRT",
+    "label": "Hairatan",
+    "function": "0"
+  },
+  {
+    "locationCode": "HEA",
+    "label": "Herat",
+    "function": "4"
+  },
+  {
+    "locationCode": "JAA",
+    "label": "Jalalabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBL",
+    "label": "Kabul",
+    "function": "345"
+  },
+  {
+    "locationCode": "KMU",
+    "label": "Kamu",
+    "subdivisionCode": "KNR",
+    "function": "3",
+    "lat": 35.4,
+    "lng": 71.416667
+  },
+  {
+    "locationCode": "KDH",
+    "label": "Kandahar",
+    "function": "34"
+  },
+  {
+    "locationCode": "KHT",
+    "label": "Khost",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khowst",
+    "subdivisionCode": "KNR",
+    "function": "3",
+    "lat": 35.2,
+    "lng": 70.833333
+  },
+  {
+    "locationCode": "KWT",
+    "label": "Khowst",
+    "subdivisionCode": "PIA",
+    "function": "3",
+    "lat": 33.333333,
+    "lng": 69.916667
+  },
+  {
+    "locationCode": "KWH",
+    "label": "Khwahan",
+    "function": "4"
+  },
+  {
+    "locationCode": "UND",
+    "label": "Kunduz",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kuran-O-Munjan",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAG",
+    "label": "Lashkar Gah",
+    "subdivisionCode": "HEL",
+    "function": "3",
+    "lat": 31.583333,
+    "lng": 64.35
+  },
+  {
+    "locationCode": "MMZ",
+    "label": "Maimana",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWD",
+    "label": "Maiwand",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31.733333,
+    "lng": 65.133333
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Mashad",
+    "function": "0"
+  },
+  {
+    "locationCode": "MZR",
+    "label": "Mazar-i-Sharif",
+    "function": "4",
+    "lat": 36.7,
+    "lng": 67.1
+  },
+  {
+    "locationCode": "MEH",
+    "label": "Mehtar Lam",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 34.666667,
+    "lng": 70.2
+  },
+  {
+    "locationCode": "MEY",
+    "label": "Meydan",
+    "subdivisionCode": "BAL",
+    "function": "3",
+    "lat": 36.9,
+    "lng": 66.916667
+  },
+  {
+    "locationCode": "IMZ",
+    "label": "Nimroz",
+    "function": "4"
+  },
+  {
+    "locationCode": "ORG",
+    "label": "Orgun-E Kalan",
+    "subdivisionCode": "PKA",
+    "function": "3",
+    "lat": 32.9,
+    "lng": 69.216667
+  },
+  {
+    "locationCode": "PSD",
+    "label": "Pasaband",
+    "subdivisionCode": "GHO",
+    "function": "3",
+    "lat": 33.683333,
+    "lng": 64.85
+  },
+  {
+    "locationCode": "PEC",
+    "label": "Pol-e Charkhi",
+    "subdivisionCode": "KAB",
+    "function": "3",
+    "lat": 34.533333,
+    "lng": 69.333333
+  },
+  {
+    "locationCode": "LQN",
+    "label": "Qala Nau",
+    "function": "4"
+  },
+  {
+    "locationCode": "QLT",
+    "label": "Qalat",
+    "function": "13",
+    "lat": 32.1,
+    "lng": 66.883333
+  },
+  {
+    "locationCode": "QYN",
+    "label": "Qal'Eh-Ye Now",
+    "subdivisionCode": "BDG",
+    "function": "3",
+    "lat": 34.983333,
+    "lng": 63.116667
+  },
+  {
+    "locationCode": "QAM",
+    "label": "Qasim",
+    "function": "6",
+    "lat": 35.033333,
+    "lng": 71.533333
+  },
+  {
+    "locationCode": "SBF",
+    "label": "Sardeh Band",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRO",
+    "label": "Sharona",
+    "subdivisionCode": "PKA",
+    "function": "6",
+    "lat": 33.216667,
+    "lng": 69.383333
+  },
+  {
+    "locationCode": "SGA",
+    "label": "Sheghnan",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHE",
+    "label": "Sherhan-Bandar",
+    "function": "3",
+    "lat": 37.2,
+    "lng": 69.083333
+  },
+  {
+    "locationCode": "SDD",
+    "label": "Shindand",
+    "subdivisionCode": "HER",
+    "function": "3",
+    "lat": 33.3,
+    "lng": 62.133333
+  },
+  {
+    "locationCode": "SBK",
+    "label": "Spin Boldak",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31,
+    "lng": 66.4
+  },
+  {
+    "locationCode": "TQN",
+    "label": "Taluqan",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKO",
+    "label": "Tarin Kowt",
+    "subdivisionCode": "URU",
+    "function": "3",
+    "lat": 32.616667,
+    "lng": 65.866667
+  },
+  {
+    "locationCode": "TII",
+    "label": "Tirinkot",
+    "function": "4"
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Torghundi",
+    "function": "0"
+  },
+  {
+    "locationCode": "RKH",
+    "label": "Torkham",
+    "subdivisionCode": "NAN",
+    "function": "1",
+    "lat": 34.883333,
+    "lng": 71.916667
+  },
+  {
+    "locationCode": "TOW",
+    "label": "Towraghondi",
+    "subdivisionCode": "HER",
+    "function": "3",
+    "lat": 35.25,
+    "lng": 62.283333
+  },
+  {
+    "locationCode": "URN",
+    "label": "Urgoon",
+    "function": "4"
+  },
+  {
+    "locationCode": "URZ",
+    "label": "Uruzgan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAJ",
+    "label": "Zaranj",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZHA",
+    "label": "Zhari Dasht",
+    "subdivisionCode": "KAN",
+    "function": "3",
+    "lat": 31.633333,
+    "lng": 65.516667
+  }
+]

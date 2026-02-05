@@ -1,0 +1,186 @@
+[
+  {
+    "locationCode": "ABO",
+    "label": "Abovyan",
+    "function": "2",
+    "lat": 40.266667,
+    "lng": 44.783333
+  },
+  {
+    "locationCode": "AHU",
+    "label": "Akhuryan",
+    "function": "2"
+  },
+  {
+    "locationCode": "A3A",
+    "label": "Aparan",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 40.583333,
+    "lng": 44.35
+  },
+  {
+    "locationCode": "ARG",
+    "label": "Aragatsotn",
+    "function": "6",
+    "lat": 40.25,
+    "lng": 44.166667
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Ararat",
+    "function": "2",
+    "lat": 39.833333,
+    "lng": 44.683333
+  },
+  {
+    "locationCode": "ARV",
+    "label": "Armavir",
+    "function": "6",
+    "lat": 40.15,
+    "lng": 44.016667
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Ashtarak",
+    "subdivisionCode": "ER",
+    "function": "3",
+    "lat": 40.3,
+    "lng": 44.35
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Berd",
+    "function": "6",
+    "lat": 40.866667,
+    "lng": 45.383333
+  },
+  {
+    "locationCode": "BYU",
+    "label": "Byureghavan",
+    "subdivisionCode": "KT",
+    "function": "3",
+    "lat": 40.3,
+    "lng": 44.583333
+  },
+  {
+    "locationCode": "DIL",
+    "label": "Dilijan",
+    "function": "6",
+    "lat": 40.733333,
+    "lng": 44.866667
+  },
+  {
+    "locationCode": "EZN",
+    "label": "Ecmiadzin",
+    "function": "3",
+    "lat": 40.15,
+    "lng": 44.283333
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Goris",
+    "function": "6",
+    "lat": 39.5,
+    "lng": 46.333333
+  },
+  {
+    "locationCode": "LWN",
+    "label": "Gyumri",
+    "function": "4",
+    "lat": 40.8,
+    "lng": 43.833333
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Hrazdan",
+    "subdivisionCode": "KT",
+    "function": "23",
+    "lat": 40.533333,
+    "lng": 44.766667
+  },
+  {
+    "locationCode": "JER",
+    "label": "Jermuk",
+    "subdivisionCode": "VD",
+    "function": "16"
+  },
+  {
+    "locationCode": "KJN",
+    "label": "Kajaran",
+    "function": "23",
+    "lat": 39.15,
+    "lng": 46.15
+  },
+  {
+    "locationCode": "KPN",
+    "label": "Kapan",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 39.2,
+    "lng": 46.4
+  },
+  {
+    "locationCode": "ARM",
+    "label": "Masis",
+    "subdivisionCode": "AR",
+    "function": "236",
+    "lat": 40.016667,
+    "lng": 44.483333
+  },
+  {
+    "locationCode": "MMA",
+    "label": "Mets Masrik",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": 45.766667
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Metsamor",
+    "subdivisionCode": "ER",
+    "function": "6",
+    "lat": 40.066667,
+    "lng": 44.283333
+  },
+  {
+    "locationCode": "RN4",
+    "label": "Rind",
+    "subdivisionCode": "VD",
+    "function": "3",
+    "lat": 39.75,
+    "lng": 45.166667
+  },
+  {
+    "locationCode": "SPI",
+    "label": "Spitak",
+    "subdivisionCode": "LO",
+    "function": "3",
+    "lat": 40.833333,
+    "lng": 44.266667
+  },
+  {
+    "locationCode": "VZR",
+    "label": "Vanadzor",
+    "function": "3",
+    "lat": 40.8,
+    "lng": 44.466667
+  },
+  {
+    "locationCode": "VED",
+    "label": "Vedi",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 39.9,
+    "lng": 44.716667
+  },
+  {
+    "locationCode": "EVN",
+    "label": "Yerevan",
+    "subdivisionCode": "ER",
+    "function": "2345",
+    "lat": 40.183333,
+    "lng": 44.516667
+  }
+]

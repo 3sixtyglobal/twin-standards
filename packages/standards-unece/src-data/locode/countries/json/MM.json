@@ -1,0 +1,416 @@
+[
+  {
+    "locationCode": "AKY",
+    "label": "Akyab (Sittwe)",
+    "function": "14"
+  },
+  {
+    "locationCode": "BPE",
+    "label": "Bagan",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSX",
+    "label": "Bassein",
+    "function": "14"
+  },
+  {
+    "locationCode": "BMO",
+    "label": "Bhamo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Bilin",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogale",
+    "function": "1"
+  },
+  {
+    "locationCode": "TVY",
+    "label": "Dawe",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAW",
+    "label": "Gangaw",
+    "function": "4"
+  },
+  {
+    "locationCode": "GWA",
+    "label": "Gwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "HEN",
+    "label": "Heho",
+    "function": "4"
+  },
+  {
+    "locationCode": "HEB",
+    "label": "Henzada",
+    "function": "14"
+  },
+  {
+    "locationCode": "HOX",
+    "label": "Homalin",
+    "function": "4"
+  },
+  {
+    "locationCode": "HTL",
+    "label": "Htan Tlang",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 22.666667,
+    "lng": 93.4
+  },
+  {
+    "locationCode": "INS",
+    "label": "Insein",
+    "function": "1"
+  },
+  {
+    "locationCode": "KMV",
+    "label": "Kalemyo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKR",
+    "label": "Kawkareik",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 16.55,
+    "lng": 98.233333
+  },
+  {
+    "locationCode": "KAW",
+    "label": "Kawthaung",
+    "function": "4"
+  },
+  {
+    "locationCode": "KET",
+    "label": "Keng Tung",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Khamti",
+    "function": "4"
+  },
+  {
+    "locationCode": "KYA",
+    "label": "Kyaiklat",
+    "subdivisionCode": "07",
+    "function": "13",
+    "lat": 16.566667,
+    "lng": 95.783333
+  },
+  {
+    "locationCode": "KYP",
+    "label": "Kyaukpyu",
+    "function": "14"
+  },
+  {
+    "locationCode": "KYT",
+    "label": "Kyauktaw",
+    "function": "4"
+  },
+  {
+    "locationCode": "LSH",
+    "label": "Lashio",
+    "function": "4"
+  },
+  {
+    "locationCode": "LPT",
+    "label": "Latputta",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 16.15,
+    "lng": 94.766667
+  },
+  {
+    "locationCode": "LIW",
+    "label": "Loikaw",
+    "function": "4"
+  },
+  {
+    "locationCode": "LWJ",
+    "label": "Lweje",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 24.2,
+    "lng": 97.716667
+  },
+  {
+    "locationCode": "MWQ",
+    "label": "Magwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXE",
+    "label": "Male",
+    "function": "13"
+  },
+  {
+    "locationCode": "MGU",
+    "label": "Manaung",
+    "function": "4"
+  },
+  {
+    "locationCode": "MDL",
+    "label": "Mandalay",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Martaban",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNU",
+    "label": "Mawlamyine (Moulmein)",
+    "function": "14"
+  },
+  {
+    "locationCode": "MER",
+    "label": "Mergui",
+    "function": "1"
+  },
+  {
+    "locationCode": "MES",
+    "label": "Mese",
+    "subdivisionCode": "12",
+    "function": "36",
+    "lat": 18.633333,
+    "lng": 97.666667
+  },
+  {
+    "locationCode": "MOE",
+    "label": "Momeik",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOG",
+    "label": "Mong Hsat",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGK",
+    "label": "Mong Ton",
+    "function": "4"
+  },
+  {
+    "locationCode": "MYA",
+    "label": "Monywa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 22.116667,
+    "lng": 95.133333
+  },
+  {
+    "locationCode": "MSE",
+    "label": "Mu Se",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 23.983333,
+    "lng": 97.9
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murdon",
+    "function": "1"
+  },
+  {
+    "locationCode": "MWD",
+    "label": "Myawadi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 16.683333,
+    "lng": 98.516667
+  },
+  {
+    "locationCode": "MGZ",
+    "label": "Myeik",
+    "function": "4"
+  },
+  {
+    "locationCode": "MNE",
+    "label": "Myit Nge",
+    "subdivisionCode": "04",
+    "function": "236",
+    "lat": 21.866667,
+    "lng": 96.083333
+  },
+  {
+    "locationCode": "MYT",
+    "label": "Myitkyina",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMS",
+    "label": "Namsang",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMT",
+    "label": "Namtu",
+    "function": "4"
+  },
+  {
+    "locationCode": "NPD",
+    "label": "Naypyidaw",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 19.75,
+    "lng": 96.1
+  },
+  {
+    "locationCode": "NYU",
+    "label": "Nyaung-U",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Pa-An",
+    "function": "4"
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Pakokku",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPU",
+    "label": "Papun",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAU",
+    "label": "Pauk",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAZ",
+    "label": "Pazundaung",
+    "function": "6",
+    "lat": 16.783333,
+    "lng": 96.166667
+  },
+  {
+    "locationCode": "PEG",
+    "label": "Pegu",
+    "function": "1"
+  },
+  {
+    "locationCode": "PRU",
+    "label": "Prome",
+    "function": "4",
+    "lat": 18.816667,
+    "lng": 95.266667
+  },
+  {
+    "locationCode": "PBU",
+    "label": "Putao",
+    "function": "4"
+  },
+  {
+    "locationCode": "PYA",
+    "label": "Pyapon",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 16.283333,
+    "lng": 95.666667
+  },
+  {
+    "locationCode": "TMU",
+    "label": "Ta Mu",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 24.216667,
+    "lng": 94.316667
+  },
+  {
+    "locationCode": "THL",
+    "label": "Tachilek",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tah Sala",
+    "function": "1"
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tanintharyi",
+    "function": "1",
+    "lat": 12.083333,
+    "lng": 99.016667
+  },
+  {
+    "locationCode": "TGI",
+    "label": "Taunggyi",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 20.783333,
+    "lng": 97.033333
+  },
+  {
+    "locationCode": "TAV",
+    "label": "Tavoy",
+    "function": "1"
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terutao Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "SNW",
+    "label": "Thandwe (ex Sandoway)",
+    "function": "14"
+  },
+  {
+    "locationCode": "YHN",
+    "label": "Thanhlyin",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 16.783333,
+    "lng": 96.266667
+  },
+  {
+    "locationCode": "THA",
+    "label": "Thaton",
+    "function": "14"
+  },
+  {
+    "locationCode": "TLA",
+    "label": "Thilawa",
+    "subdivisionCode": "06",
+    "function": "123",
+    "lat": 16.65,
+    "lng": 96.25
+  },
+  {
+    "locationCode": "TIO",
+    "label": "Tilin",
+    "function": "4"
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Victoria Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "RGN",
+    "label": "Yangon",
+    "function": "145"
+  },
+  {
+    "locationCode": "XYE",
+    "label": "Ye",
+    "function": "14"
+  }
+]

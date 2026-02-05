@@ -1,0 +1,244 @@
+[
+  {
+    "locationCode": "BFJ",
+    "label": "Ba",
+    "function": "4"
+  },
+  {
+    "locationCode": "BXL",
+    "label": "Blue Lagoon",
+    "function": "4"
+  },
+  {
+    "locationCode": "BVF",
+    "label": "Bua",
+    "function": "4"
+  },
+  {
+    "locationCode": "CST",
+    "label": "Castaway",
+    "function": "4"
+  },
+  {
+    "locationCode": "ICI",
+    "label": "Cicia",
+    "function": "4"
+  },
+  {
+    "locationCode": "DEN",
+    "label": "Denarau",
+    "subdivisionCode": "11",
+    "function": "136",
+    "lat": -17.766667,
+    "lng": 177.383333
+  },
+  {
+    "locationCode": "ELL",
+    "label": "Ellington Wharf",
+    "function": "1",
+    "lat": -17.35,
+    "lng": 178.216667
+  },
+  {
+    "locationCode": "KDV",
+    "label": "Kandavu",
+    "function": "0"
+  },
+  {
+    "locationCode": "KXF",
+    "label": "Koro Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "KVU",
+    "label": "Korolevu",
+    "function": "0"
+  },
+  {
+    "locationCode": "LBS",
+    "label": "Labasa",
+    "subdivisionCode": "07",
+    "function": "14",
+    "lat": -16.416667,
+    "lng": 179.383333
+  },
+  {
+    "locationCode": "LKB",
+    "label": "Lakeba",
+    "function": "0"
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Laucala Is",
+    "function": "0"
+  },
+  {
+    "locationCode": "LTK",
+    "label": "Lautoka",
+    "subdivisionCode": "01",
+    "function": "123",
+    "lat": -17.616667,
+    "lng": 177.45
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malau (Labasa)",
+    "function": "13",
+    "lat": -16.366667,
+    "lng": 179.383333
+  },
+  {
+    "locationCode": "PTF",
+    "label": "Malolo Lailai Island",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": -17.783333,
+    "lng": 177.2
+  },
+  {
+    "locationCode": "MNF",
+    "label": "Mana Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "MFJ",
+    "label": "Moala",
+    "function": "0"
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Momi",
+    "function": "123",
+    "lat": -17.916667,
+    "lng": 177.283333
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nadi",
+    "function": "45"
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Nambouwalu",
+    "function": "13",
+    "lat": -16.983333,
+    "lng": 178.7
+  },
+  {
+    "locationCode": "NTA",
+    "label": "Natadola",
+    "function": "0"
+  },
+  {
+    "locationCode": "NGI",
+    "label": "Ngau Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "ONU",
+    "label": "Ono-i-Lau",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": -20.666667,
+    "lng": -178.716667
+  },
+  {
+    "locationCode": "PHR",
+    "label": "Pacific Harbor",
+    "function": "0"
+  },
+  {
+    "locationCode": "RBI",
+    "label": "Rabi",
+    "function": "0"
+  },
+  {
+    "locationCode": "RTA",
+    "label": "Rotuma",
+    "function": "14"
+  },
+  {
+    "locationCode": "AQS",
+    "label": "Saqani",
+    "function": "0"
+  },
+  {
+    "locationCode": "SVU",
+    "label": "Savusavu",
+    "function": "14"
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Singatoka",
+    "function": "13",
+    "lat": -18.166667,
+    "lng": 177.516667
+  },
+  {
+    "locationCode": "SUV",
+    "label": "Suva",
+    "subdivisionCode": "12",
+    "function": "145",
+    "lat": -18.133333,
+    "lng": 178.45
+  },
+  {
+    "locationCode": "TVU",
+    "label": "Taveuni",
+    "function": "0"
+  },
+  {
+    "locationCode": "TTL",
+    "label": "Turtle Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "VBV",
+    "label": "Vanua Mbalavu",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": -17.233333,
+    "lng": -178.95
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vatia Wharf",
+    "function": "13",
+    "lat": -17.4,
+    "lng": 177.766667
+  },
+  {
+    "locationCode": "VAU",
+    "label": "Vatukoula",
+    "function": "0"
+  },
+  {
+    "locationCode": "VTF",
+    "label": "Vatulele",
+    "function": "0"
+  },
+  {
+    "locationCode": "VUD",
+    "label": "Vuda",
+    "function": "1",
+    "lat": -17.6,
+    "lng": 177.5
+  },
+  {
+    "locationCode": "WAI",
+    "label": "Wairiki",
+    "function": "1",
+    "lat": -16.916667,
+    "lng": 178.666667
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Wakaya Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "YAS",
+    "label": "Yasawa Island",
+    "function": "0"
+  }
+]

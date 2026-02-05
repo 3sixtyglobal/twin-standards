@@ -1,0 +1,223 @@
+[
+  {
+    "locationCode": "ABH",
+    "label": "Abu Hamur",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 25.233333,
+    "lng": 51.483333
+  },
+  {
+    "locationCode": "ABS",
+    "label": "Abu Samra",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 24.733333,
+    "lng": 50.816667
+  },
+  {
+    "locationCode": "ALK",
+    "label": "Al Karaana",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 25,
+    "lng": 51.033333
+  },
+  {
+    "locationCode": "KHR",
+    "label": "Al Khor",
+    "subdivisionCode": "KH",
+    "function": "3",
+    "lat": 25.683333,
+    "lng": 51.5
+  },
+  {
+    "locationCode": "RYN",
+    "label": "Al Rayyan",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 25.316667,
+    "lng": 51.366667
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Al Ruwais Qatar",
+    "subdivisionCode": "MS",
+    "function": "1",
+    "lat": 26.233333,
+    "lng": 51.333333
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Al Shahaniya",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 25.366667,
+    "lng": 51.2
+  },
+  {
+    "locationCode": "ASN",
+    "label": "Al Shaheen",
+    "function": "17",
+    "lat": 26.55,
+    "lng": 52.066667
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Al Shamal City",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 26.116667,
+    "lng": 51.216667
+  },
+  {
+    "locationCode": "ALU",
+    "label": "Al Udeid",
+    "function": "34",
+    "lat": 25.1,
+    "lng": 51.3
+  },
+  {
+    "locationCode": "ALW",
+    "label": "Al Wa'b",
+    "subdivisionCode": "KH",
+    "function": "3",
+    "lat": 25.833333,
+    "lng": 51.45
+  },
+  {
+    "locationCode": "WAK",
+    "label": "Al Wakrah",
+    "subdivisionCode": "WA",
+    "function": "3",
+    "lat": 25.166667,
+    "lng": 51.6
+  },
+  {
+    "locationCode": "ALZ",
+    "label": "Al Zubarah",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 25.966667,
+    "lng": 51.016667
+  },
+  {
+    "locationCode": "SLW",
+    "label": "As Salwa",
+    "subdivisionCode": "RA",
+    "function": "1",
+    "lat": 24.733333,
+    "lng": 50.75
+  },
+  {
+    "locationCode": "ASL",
+    "label": "As Sayliyah",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 25.2,
+    "lng": 51.366667
+  },
+  {
+    "locationCode": "HMD",
+    "label": "BGN/PCGN1956 - HAMAD",
+    "subdivisionCode": "WA",
+    "function": "1",
+    "lat": 25,
+    "lng": 51.616667
+  },
+  {
+    "locationCode": "DOH",
+    "label": "Doha",
+    "subdivisionCode": "DA",
+    "function": "145"
+  },
+  {
+    "locationCode": "DHN",
+    "label": "Dukhan",
+    "function": "3",
+    "lat": 25.416667,
+    "lng": 50.783333
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halul",
+    "function": "17"
+  },
+  {
+    "locationCode": "HNA",
+    "label": "Hanna",
+    "function": "1"
+  },
+  {
+    "locationCode": "LSL",
+    "label": "Lusail",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 25.5,
+    "lng": 51.483333
+  },
+  {
+    "locationCode": "QAP",
+    "label": "Qapco",
+    "subdivisionCode": "US",
+    "function": "1",
+    "lat": 24.916667,
+    "lng": 51.566667
+  },
+  {
+    "locationCode": "QCH",
+    "label": "Qchem",
+    "subdivisionCode": "US",
+    "function": "1",
+    "lat": 24.85,
+    "lng": 51.533333
+  },
+  {
+    "locationCode": "RLF",
+    "label": "Ras Laffan",
+    "subdivisionCode": "KH",
+    "function": "1",
+    "lat": 25.933333,
+    "lng": 51.533333
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Simaisma",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 25.583333,
+    "lng": 51.483333
+  },
+  {
+    "locationCode": "TPQ",
+    "label": "The Pearl-Qatar",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 25.366667,
+    "lng": 51.55
+  },
+  {
+    "locationCode": "MBB",
+    "label": "Umm Bab",
+    "subdivisionCode": "RA",
+    "function": "3",
+    "lat": 25.216667,
+    "lng": 50.8
+  },
+  {
+    "locationCode": "UMQ",
+    "label": "Umm Qarn",
+    "subdivisionCode": "ZA",
+    "function": "6",
+    "lat": 25.533333,
+    "lng": 51.416667
+  },
+  {
+    "locationCode": "UMS",
+    "label": "Umm Sa'id (Mesaieed)",
+    "subdivisionCode": "WA",
+    "function": "13",
+    "lat": 24.983333,
+    "lng": 51.533333
+  }
+]

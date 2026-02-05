@@ -1,0 +1,17 @@
+[
+  {
+    "code": "BIH",
+    "label": "Federacija Bosne i Hercegovine",
+    "type": "Entity"
+  },
+  {
+    "code": "BRC",
+    "label": "Brcko distrikt",
+    "type": "District with special"
+  },
+  {
+    "code": "SRP",
+    "label": "Republika Srpska",
+    "type": "Entity"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "locationCode": "REM",
+    "label": "Bumpyo (Rempo)",
+    "function": "0"
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Chongjin",
+    "subdivisionCode": "09",
+    "function": "1"
+  },
+  {
+    "locationCode": "GEN",
+    "label": "Gensan",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Haeju",
+    "subdivisionCode": "05",
+    "function": "1"
+  },
+  {
+    "locationCode": "HGM",
+    "label": "Hungnam",
+    "subdivisionCode": "08",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSN",
+    "label": "Kaesong",
+    "function": "23"
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Nampo",
+    "subdivisionCode": "14",
+    "function": "123"
+  },
+  {
+    "locationCode": "ODA",
+    "label": "Odaejin",
+    "function": "1",
+    "lat": 41.383333,
+    "lng": 129.75
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Panjang",
+    "function": "23",
+    "lat": 38.5,
+    "lng": 125.083333
+  },
+  {
+    "locationCode": "FNJ",
+    "label": "Pyongyang",
+    "function": "45"
+  },
+  {
+    "locationCode": "RJN",
+    "label": "Rajin (Najin)",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 42.216667,
+    "lng": 130.283333
+  },
+  {
+    "locationCode": "RIW",
+    "label": "Riwon",
+    "function": "1",
+    "lat": 40.316667,
+    "lng": 128.633333
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samcha do",
+    "function": "1",
+    "lat": 39.4,
+    "lng": 124.716667
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sinpo",
+    "function": "1",
+    "lat": 40.066667,
+    "lng": 128.266667
+  },
+  {
+    "locationCode": "SII",
+    "label": "Sinuiju",
+    "function": "23"
+  },
+  {
+    "locationCode": "SGO",
+    "label": "Songdo",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 38.383333,
+    "lng": 125.6
+  },
+  {
+    "locationCode": "SON",
+    "label": "Songjin",
+    "function": "1"
+  },
+  {
+    "locationCode": "SGN",
+    "label": "Songnim",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 38.766667,
+    "lng": 125.583333
+  },
+  {
+    "locationCode": "TCH",
+    "label": "Tanchon",
+    "subdivisionCode": "08",
+    "function": "1",
+    "lat": 40.416667,
+    "lng": 128.933333
+  },
+  {
+    "locationCode": "CCD",
+    "label": "Tanyang",
+    "function": "6",
+    "lat": 36.983333,
+    "lng": 128.35
+  },
+  {
+    "locationCode": "WON",
+    "label": "Wonsan",
+    "subdivisionCode": "07",
+    "function": "1"
+  }
+]

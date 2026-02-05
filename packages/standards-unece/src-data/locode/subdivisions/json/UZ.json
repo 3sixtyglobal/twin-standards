@@ -1,0 +1,77 @@
+[
+  {
+    "code": "AN",
+    "label": "Andijon",
+    "type": "Region"
+  },
+  {
+    "code": "BU",
+    "label": "Bukhoro",
+    "type": "Region"
+  },
+  {
+    "code": "FA",
+    "label": "Fargona",
+    "type": "Region"
+  },
+  {
+    "code": "JI",
+    "label": "Jizzax",
+    "type": "Region"
+  },
+  {
+    "code": "KH",
+    "label": "Khorazm",
+    "type": "Region"
+  },
+  {
+    "code": "NG",
+    "label": "Namangan",
+    "type": "Region"
+  },
+  {
+    "code": "NW",
+    "label": "Nawoiy",
+    "type": "Region"
+  },
+  {
+    "code": "QA",
+    "label": "Qashqadaryo",
+    "type": "Region"
+  },
+  {
+    "code": "QR",
+    "label": "Qoraqalpogiston Respublikasi",
+    "type": "Republic"
+  },
+  {
+    "code": "SA",
+    "label": "Samarqand",
+    "type": "Region"
+  },
+  {
+    "code": "SI",
+    "label": "Sirdaryo",
+    "type": "Region"
+  },
+  {
+    "code": "SU",
+    "label": "Surkhondaryo",
+    "type": "Region"
+  },
+  {
+    "code": "TK",
+    "label": "Toshkent",
+    "type": "City"
+  },
+  {
+    "code": "TO",
+    "label": "Toshkent",
+    "type": "Region"
+  },
+  {
+    "code": "XO",
+    "label": "Xorazm",
+    "type": "Region"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "code": "BZ",
+    "label": "Belize",
+    "type": "District"
+  },
+  {
+    "code": "CY",
+    "label": "Cayo",
+    "type": "District"
+  },
+  {
+    "code": "CZL",
+    "label": "Corozal",
+    "type": "District"
+  },
+  {
+    "code": "OW",
+    "label": "Orange Walk",
+    "type": "District"
+  },
+  {
+    "code": "SC",
+    "label": "Stann Creek",
+    "type": "District"
+  },
+  {
+    "code": "TOL",
+    "label": "Toledo",
+    "type": "District"
+  }
+]

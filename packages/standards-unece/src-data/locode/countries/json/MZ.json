@@ -1,0 +1,359 @@
+[
+  {
+    "locationCode": "AME",
+    "label": "Alto Molocue",
+    "function": "4"
+  },
+  {
+    "locationCode": "ANO",
+    "label": "Angoche",
+    "function": "14"
+  },
+  {
+    "locationCode": "AEN",
+    "label": "António Enes",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Antonio Enes",
+    "function": "3",
+    "lat": -16.216667,
+    "lng": 39.9
+  },
+  {
+    "locationCode": "BJN",
+    "label": "Bajone",
+    "function": "4"
+  },
+  {
+    "locationCode": "BZB",
+    "label": "Bazaruto Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEW",
+    "label": "Beira",
+    "function": "145"
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bela Vista",
+    "function": "1"
+  },
+  {
+    "locationCode": "BCW",
+    "label": "Benguera Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Boane",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": -26.033333,
+    "lng": 32.316667
+  },
+  {
+    "locationCode": "CMZ",
+    "label": "Caia",
+    "function": "4"
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chicamba Real",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": -19.183333,
+    "lng": 33.15
+  },
+  {
+    "locationCode": "VPY",
+    "label": "Chimoio",
+    "function": "4"
+  },
+  {
+    "locationCode": "INE",
+    "label": "Chinde",
+    "function": "14"
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chiúre",
+    "subdivisionCode": "P",
+    "labelWithDiacritics": "Chiure",
+    "function": "3",
+    "lat": -13.366667,
+    "lng": 39.766667
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Chokwé",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Chokwe",
+    "function": "23",
+    "lat": -24.533333,
+    "lng": 32.983333
+  },
+  {
+    "locationCode": "COR",
+    "label": "Coropoa",
+    "subdivisionCode": "N",
+    "function": "13",
+    "lat": -16.533333,
+    "lng": 39.683333
+  },
+  {
+    "locationCode": "FXO",
+    "label": "Cuamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "VJQ",
+    "label": "Gurue",
+    "function": "4"
+  },
+  {
+    "locationCode": "IBO",
+    "label": "Ibo",
+    "function": "14"
+  },
+  {
+    "locationCode": "INH",
+    "label": "Inhambane",
+    "function": "14"
+  },
+  {
+    "locationCode": "IMG",
+    "label": "Inhaminga",
+    "function": "4"
+  },
+  {
+    "locationCode": "INS",
+    "label": "Inhassoro",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": -21.533333,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "VXC",
+    "label": "Lichinga",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBM",
+    "label": "Luabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "LMO",
+    "label": "Lumbo",
+    "function": "3"
+  },
+  {
+    "locationCode": "MCU",
+    "label": "Macuse",
+    "function": "1"
+  },
+  {
+    "locationCode": "MJS",
+    "label": "Maganja Da Costa",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFW",
+    "label": "Magaruque",
+    "function": "4"
+  },
+  {
+    "locationCode": "MCA",
+    "label": "Manica",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": -18.933333,
+    "lng": 32.866667
+  },
+  {
+    "locationCode": "MPM",
+    "label": "Maputo",
+    "function": "145"
+  },
+  {
+    "locationCode": "RRM",
+    "label": "Marromeu",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSG",
+    "label": "Massinga",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matola",
+    "function": "1"
+  },
+  {
+    "locationCode": "MVI",
+    "label": "Mavuzi",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": -19.516667,
+    "lng": 33.433333
+  },
+  {
+    "locationCode": "MAX",
+    "label": "Maxixe",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": -23.85,
+    "lng": 35.333333
+  },
+  {
+    "locationCode": "MEC",
+    "label": "Meconta",
+    "subdivisionCode": "N",
+    "function": "6",
+    "lat": -14.983333,
+    "lng": 39.833333
+  },
+  {
+    "locationCode": "MEM",
+    "label": "Memba",
+    "function": "1"
+  },
+  {
+    "locationCode": "MZQ",
+    "label": "Mocambique",
+    "function": "1"
+  },
+  {
+    "locationCode": "MZB",
+    "label": "Mocímboa da Praia",
+    "subdivisionCode": "P",
+    "labelWithDiacritics": "Mocimboa da Praia",
+    "function": "134",
+    "lat": -11.333333,
+    "lng": 40.35
+  },
+  {
+    "locationCode": "MMW",
+    "label": "Moma",
+    "function": "14"
+  },
+  {
+    "locationCode": "MTU",
+    "label": "Montepuez",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morrumbene",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mossuril",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": -14.966667,
+    "lng": 40.65
+  },
+  {
+    "locationCode": "M7E",
+    "label": "Muecate",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": -14.883333,
+    "lng": 39.616667
+  },
+  {
+    "locationCode": "MUD",
+    "label": "Mueda",
+    "function": "4"
+  },
+  {
+    "locationCode": "MNC",
+    "label": "Nacala",
+    "function": "14"
+  },
+  {
+    "locationCode": "MZN",
+    "label": "Nacaroa",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": -14.366667,
+    "lng": 39.916667
+  },
+  {
+    "locationCode": "APL",
+    "label": "Nampula",
+    "function": "4"
+  },
+  {
+    "locationCode": "NND",
+    "label": "Nangade",
+    "function": "4"
+  },
+  {
+    "locationCode": "NSO",
+    "label": "Nova Sofala",
+    "function": "1"
+  },
+  {
+    "locationCode": "LMZ",
+    "label": "Palma",
+    "function": "4"
+  },
+  {
+    "locationCode": "PEB",
+    "label": "Pebane",
+    "function": "14"
+  },
+  {
+    "locationCode": "POL",
+    "label": "Pemba",
+    "function": "14"
+  },
+  {
+    "locationCode": "PBE",
+    "label": "Porto Belo",
+    "function": "1"
+  },
+  {
+    "locationCode": "UEL",
+    "label": "Quelimane",
+    "function": "14"
+  },
+  {
+    "locationCode": "NTC",
+    "label": "Santa Carolina",
+    "function": "4"
+  },
+  {
+    "locationCode": "TET",
+    "label": "Tete",
+    "function": "4"
+  },
+  {
+    "locationCode": "VNX",
+    "label": "Vilanculos",
+    "function": "4",
+    "lat": -22,
+    "lng": 35.266667
+  },
+  {
+    "locationCode": "VJB",
+    "label": "Xai-Xai",
+    "subdivisionCode": "G",
+    "function": "4",
+    "lat": -25.05,
+    "lng": 33.65
+  },
+  {
+    "locationCode": "ZBZ",
+    "label": "Zambezia",
+    "subdivisionCode": "P",
+    "function": "36",
+    "lat": -12.9,
+    "lng": 39.7
+  }
+]

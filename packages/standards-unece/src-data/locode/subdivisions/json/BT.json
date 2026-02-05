@@ -1,0 +1,102 @@
+[
+  {
+    "code": "11",
+    "label": "Paro",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Chhukha",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Haa",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Samtse",
+    "type": "District"
+  },
+  {
+    "code": "15",
+    "label": "Thimphu",
+    "type": "District"
+  },
+  {
+    "code": "21",
+    "label": "Tsirang",
+    "type": "District"
+  },
+  {
+    "code": "22",
+    "label": "Dagana",
+    "type": "District"
+  },
+  {
+    "code": "23",
+    "label": "Punakha",
+    "type": "District"
+  },
+  {
+    "code": "24",
+    "label": "Wangdue Phodrang",
+    "type": "District"
+  },
+  {
+    "code": "31",
+    "label": "Sarpang",
+    "type": "District"
+  },
+  {
+    "code": "32",
+    "label": "Trongsa",
+    "type": "District"
+  },
+  {
+    "code": "33",
+    "label": "Bumthang",
+    "type": "District"
+  },
+  {
+    "code": "34",
+    "label": "Zhemgang",
+    "type": "District"
+  },
+  {
+    "code": "41",
+    "label": "Trashigang",
+    "type": "District"
+  },
+  {
+    "code": "42",
+    "label": "Monggar",
+    "type": "District"
+  },
+  {
+    "code": "43",
+    "label": "Pema Gatshel",
+    "type": "District"
+  },
+  {
+    "code": "44",
+    "label": "Lhuentse",
+    "type": "District"
+  },
+  {
+    "code": "45",
+    "label": "Samdrup Jongkhar",
+    "type": "District"
+  },
+  {
+    "code": "GA",
+    "label": "Gasa",
+    "type": "District"
+  },
+  {
+    "code": "TY",
+    "label": "Trashi Yangtse",
+    "type": "District"
+  }
+]

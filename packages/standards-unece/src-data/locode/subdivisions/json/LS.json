@@ -1,0 +1,52 @@
+[
+  {
+    "code": "A",
+    "label": "Maseru",
+    "type": "District"
+  },
+  {
+    "code": "B",
+    "label": "Botha-Bothe",
+    "type": "District"
+  },
+  {
+    "code": "C",
+    "label": "Leribe",
+    "type": "District"
+  },
+  {
+    "code": "D",
+    "label": "Berea",
+    "type": "District"
+  },
+  {
+    "code": "E",
+    "label": "Mafeteng",
+    "type": "District"
+  },
+  {
+    "code": "F",
+    "label": "Mohale's Hoek",
+    "type": "District"
+  },
+  {
+    "code": "G",
+    "label": "Quthing",
+    "type": "District"
+  },
+  {
+    "code": "H",
+    "label": "Qacha's Nek",
+    "type": "District"
+  },
+  {
+    "code": "J",
+    "label": "Mokhotlong",
+    "type": "District"
+  },
+  {
+    "code": "K",
+    "label": "Thaba-Tseka",
+    "type": "District"
+  }
+]

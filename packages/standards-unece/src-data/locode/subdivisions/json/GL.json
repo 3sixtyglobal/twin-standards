@@ -1,0 +1,27 @@
+[
+  {
+    "code": "AV",
+    "label": "Avannaata Kommunia",
+    "type": "Municipality"
+  },
+  {
+    "code": "KU",
+    "label": "Kommune Kujalleq",
+    "type": "Municipality"
+  },
+  {
+    "code": "QE",
+    "label": "Qeqqata Kommunia",
+    "type": "Municipality"
+  },
+  {
+    "code": "QT",
+    "label": "Kommune Qeqertalik",
+    "type": "Municipality"
+  },
+  {
+    "code": "SM",
+    "label": "Kommuneqarfik Sermersooq",
+    "type": "Municipality"
+  }
+]

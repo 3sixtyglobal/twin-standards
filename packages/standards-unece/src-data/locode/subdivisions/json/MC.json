@@ -1,0 +1,87 @@
+[
+  {
+    "code": "CL",
+    "label": "La Colle",
+    "type": "Quarter"
+  },
+  {
+    "code": "CO",
+    "label": "La Condamine",
+    "type": "Quarter"
+  },
+  {
+    "code": "FO",
+    "label": "Fontvieille",
+    "type": "Quarter"
+  },
+  {
+    "code": "GA",
+    "label": "La Gare",
+    "type": "Quarter"
+  },
+  {
+    "code": "JE",
+    "label": "Jardin Exotique",
+    "type": "Quarter"
+  },
+  {
+    "code": "LA",
+    "label": "Larvotto",
+    "type": "Quarter"
+  },
+  {
+    "code": "MA",
+    "label": "Malbousquet",
+    "type": "Quarter"
+  },
+  {
+    "code": "MC",
+    "label": "Monte-Carlo",
+    "type": "Quarter"
+  },
+  {
+    "code": "MG",
+    "label": "Moneghetti",
+    "type": "Quarter"
+  },
+  {
+    "code": "MO",
+    "label": "Monaco-Ville",
+    "type": "Quarter"
+  },
+  {
+    "code": "MU",
+    "label": "Moulins",
+    "type": "Quarter"
+  },
+  {
+    "code": "PH",
+    "label": "Port-Hercule",
+    "type": "Quarter"
+  },
+  {
+    "code": "SD",
+    "label": "Sainte-Dévote",
+    "type": "Quarter"
+  },
+  {
+    "code": "SO",
+    "label": "La Source",
+    "type": "Quarter"
+  },
+  {
+    "code": "SP",
+    "label": "Spélugues",
+    "type": "Quarter"
+  },
+  {
+    "code": "SR",
+    "label": "Saint-Roman",
+    "type": "Quarter"
+  },
+  {
+    "code": "VR",
+    "label": "Vallon de la Rousse",
+    "type": "Quarter"
+  }
+]

@@ -1,0 +1,499 @@
+[
+  {
+    "locationCode": "ALF",
+    "label": "Abu Al Fulus",
+    "function": "1"
+  },
+  {
+    "locationCode": "ALK",
+    "label": "Abu Al Khasib",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABG",
+    "label": "Abu Gharib",
+    "subdivisionCode": "DQ",
+    "function": "3",
+    "lat": 31.1,
+    "lng": 46.033333
+  },
+  {
+    "locationCode": "ABU",
+    "label": "Abu Ghraib",
+    "subdivisionCode": "BG",
+    "function": "3",
+    "lat": 33.283333,
+    "lng": 44.05
+  },
+  {
+    "locationCode": "ADW",
+    "label": "Ad Dawrah",
+    "subdivisionCode": "BG",
+    "function": "3",
+    "lat": 33.25,
+    "lng": 44.383333
+  },
+  {
+    "locationCode": "ASD",
+    "label": "Al Asad",
+    "function": "13",
+    "lat": 33.783333,
+    "lng": 42.433333
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Al Hillah",
+    "subdivisionCode": "BB",
+    "function": "1",
+    "lat": 32.483333,
+    "lng": 44.433333
+  },
+  {
+    "locationCode": "KUT",
+    "label": "Al Kut",
+    "function": "0"
+  },
+  {
+    "locationCode": "AQY",
+    "label": "Al Qayyarah",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 35.8,
+    "lng": 43.283333
+  },
+  {
+    "locationCode": "TQD",
+    "label": "Al Taqaddum",
+    "function": "13",
+    "lat": 33.333333,
+    "lng": 43.583333
+  },
+  {
+    "locationCode": "UZA",
+    "label": "Al 'Uzayr",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 31.333333,
+    "lng": 47.416667
+  },
+  {
+    "locationCode": "ZUB",
+    "label": "Al Zuwayr",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 31.816667,
+    "lng": 44.9
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Ali Air Base",
+    "function": "34",
+    "lat": 30.933333,
+    "lng": 46.083333
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amara (Al-Amarah)",
+    "function": "0"
+  },
+  {
+    "locationCode": "ANJ",
+    "label": "An Najaf",
+    "function": "3",
+    "lat": 31.983333,
+    "lng": 44.333333
+  },
+  {
+    "locationCode": "NRH",
+    "label": "An Nasiriyah",
+    "subdivisionCode": "DQ",
+    "function": "3",
+    "lat": 31.033333,
+    "lng": 46.266667
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arak",
+    "function": "0"
+  },
+  {
+    "locationCode": "ABL",
+    "label": "Arbil",
+    "subdivisionCode": "AR",
+    "function": "6",
+    "lat": 36.183333,
+    "lng": 44
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Ash Shu'aybah",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 30.4,
+    "lng": 47.6
+  },
+  {
+    "locationCode": "BBB",
+    "label": "Babil",
+    "subdivisionCode": "BB",
+    "function": "3",
+    "lat": 32.533333,
+    "lng": 44.416667
+  },
+  {
+    "locationCode": "BGW",
+    "label": "Baghdåd",
+    "subdivisionCode": "BG",
+    "labelWithDiacritics": "Baghdad",
+    "function": "12345",
+    "lat": 33.333333,
+    "lng": 44.383333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balad",
+    "subdivisionCode": "SD",
+    "function": "23",
+    "lat": 34,
+    "lng": 44.133333
+  },
+  {
+    "locationCode": "BMN",
+    "label": "Bamerny",
+    "function": "4",
+    "lat": 37.1,
+    "lng": 43.266667
+  },
+  {
+    "locationCode": "BAQ",
+    "label": "Ba'qubah",
+    "subdivisionCode": "DI",
+    "function": "23",
+    "lat": 33.75,
+    "lng": 44.633333
+  },
+  {
+    "locationCode": "BSH",
+    "label": "Bashur Airfield",
+    "function": "34",
+    "lat": 36.533333,
+    "lng": 44.35
+  },
+  {
+    "locationCode": "BSR",
+    "label": "Basra",
+    "subdivisionCode": "BA",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAB",
+    "label": "Basrah Oil Terminal",
+    "subdivisionCode": "BA",
+    "function": "1",
+    "lat": 29.75,
+    "lng": 48.833333
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bayji",
+    "subdivisionCode": "SD",
+    "function": "3",
+    "lat": 34.916667,
+    "lng": 43.483333
+  },
+  {
+    "locationCode": "CBC",
+    "label": "Camp Bucca",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 30.066667,
+    "lng": 47.883333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chamchamal",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 35.533333,
+    "lng": 44.816667
+  },
+  {
+    "locationCode": "DQR",
+    "label": "Dhi Qar",
+    "subdivisionCode": "MU",
+    "function": "6",
+    "lat": 31.45,
+    "lng": 45.1
+  },
+  {
+    "locationCode": "DIW",
+    "label": "Diwaniyah",
+    "function": "0"
+  },
+  {
+    "locationCode": "DOK",
+    "label": "Dohuk",
+    "function": "0"
+  },
+  {
+    "locationCode": "DHK",
+    "label": "Duhok",
+    "subdivisionCode": "DA",
+    "function": "3",
+    "lat": 37.1,
+    "lng": 43.816667
+  },
+  {
+    "locationCode": "EBL",
+    "label": "Erbil International Apt",
+    "function": "345",
+    "lat": 36.233333,
+    "lng": 43.95
+  },
+  {
+    "locationCode": "FAL",
+    "label": "Falluja",
+    "function": "0"
+  },
+  {
+    "locationCode": "FAO",
+    "label": "Fao",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAF",
+    "label": "H1 Airfield",
+    "function": "34",
+    "lat": 33.816667,
+    "lng": 41.433333
+  },
+  {
+    "locationCode": "IDQ",
+    "label": "Hasan Al Baghdadi",
+    "subdivisionCode": "DQ",
+    "function": "3",
+    "lat": 31.283333,
+    "lng": 46.1
+  },
+  {
+    "locationCode": "HND",
+    "label": "Hindiya",
+    "function": "0"
+  },
+  {
+    "locationCode": "HIT",
+    "label": "Hit",
+    "function": "0"
+  },
+  {
+    "locationCode": "IRB",
+    "label": "Irbil",
+    "function": "23",
+    "lat": 36.166667,
+    "lng": 44
+  },
+  {
+    "locationCode": "IKD",
+    "label": "Iskandariyha",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karbala",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Khan al Baghdadi",
+    "function": "23",
+    "lat": 33.833333,
+    "lng": 42.55
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khor Al Amaya",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Khor al Zubair",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIK",
+    "label": "Kirkuk",
+    "function": "1"
+  },
+  {
+    "locationCode": "KFA",
+    "label": "Kufa",
+    "function": "0"
+  },
+  {
+    "locationCode": "BA4",
+    "label": "Mafraq Ash Shuaybah",
+    "subdivisionCode": "BA",
+    "function": "23",
+    "lat": 30.466667,
+    "lng": 47.65
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mandali",
+    "function": "1"
+  },
+  {
+    "locationCode": "OSM",
+    "label": "Mosul (Ak Mawsil)",
+    "subdivisionCode": "NI",
+    "function": "13",
+    "lat": 36.166667,
+    "lng": 42.583333
+  },
+  {
+    "locationCode": "B9T",
+    "label": "Musayyib",
+    "subdivisionCode": "BB",
+    "function": "3",
+    "lat": 32.766667,
+    "lng": 44.283333
+  },
+  {
+    "locationCode": "NMA",
+    "label": "Nahr an Nu'maniyah",
+    "subdivisionCode": "DQ",
+    "function": "3",
+    "lat": 30.966667,
+    "lng": 46.266667
+  },
+  {
+    "locationCode": "NJF",
+    "label": "Najaf",
+    "subdivisionCode": "NA",
+    "function": "134",
+    "lat": 31.983333,
+    "lng": 44.3
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Najat",
+    "function": "1"
+  },
+  {
+    "locationCode": "NSR",
+    "label": "Nasiriyah",
+    "function": "13",
+    "lat": 31.05,
+    "lng": 46.25
+  },
+  {
+    "locationCode": "NAM",
+    "label": "New Al Muthana Air Base",
+    "subdivisionCode": "BG",
+    "function": "34",
+    "lat": 33.266667,
+    "lng": 44.233333
+  },
+  {
+    "locationCode": "RMD",
+    "label": "Ramadi",
+    "function": "0"
+  },
+  {
+    "locationCode": "RTM",
+    "label": "Ratawi",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safwan",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 30.1,
+    "lng": 47.716667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samarra'",
+    "subdivisionCode": "SD",
+    "function": "1",
+    "lat": 34.2,
+    "lng": 43.866667
+  },
+  {
+    "locationCode": "SMW",
+    "label": "Samawa (As-Samawah)",
+    "function": "0"
+  },
+  {
+    "locationCode": "SHT",
+    "label": "Shaykh Hantush",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 32.333333,
+    "lng": 44.916667
+  },
+  {
+    "locationCode": "SYH",
+    "label": "Sulaymaniyah",
+    "function": "3"
+  },
+  {
+    "locationCode": "ISU",
+    "label": "Sulaymaniyah International Airport",
+    "subdivisionCode": "SU",
+    "function": "4",
+    "lat": 35.55,
+    "lng": 45.3
+  },
+  {
+    "locationCode": "TJI",
+    "label": "Taji",
+    "function": "13",
+    "lat": 33.516667,
+    "lng": 44.266667
+  },
+  {
+    "locationCode": "TAF",
+    "label": "Tal Afar",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 36.366667,
+    "lng": 42.45
+  },
+  {
+    "locationCode": "TLL",
+    "label": "Tallil",
+    "function": "34",
+    "lat": 30.933333,
+    "lng": 46.083333
+  },
+  {
+    "locationCode": "TKT",
+    "label": "Tikrit",
+    "function": "0"
+  },
+  {
+    "locationCode": "UQR",
+    "label": "Umm Qasr Port",
+    "subdivisionCode": "BA",
+    "function": "123",
+    "lat": 30.033333,
+    "lng": 47.933333
+  },
+  {
+    "locationCode": "WST",
+    "label": "Wasit",
+    "subdivisionCode": "QA",
+    "function": "6",
+    "lat": 32.383333,
+    "lng": 45.216667
+  },
+  {
+    "locationCode": "ZAO",
+    "label": "Zakho",
+    "function": "13",
+    "lat": 37.133333,
+    "lng": 42.7
+  }
+]

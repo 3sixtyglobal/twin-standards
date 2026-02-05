@@ -1,0 +1,231 @@
+[
+  {
+    "locationCode": "FPI",
+    "label": "Anse-Bertrand",
+    "function": "13",
+    "lat": 16.466667,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "BMH",
+    "label": "Baie-Mahault",
+    "function": "13",
+    "lat": 16.266667,
+    "lng": -61.583333
+  },
+  {
+    "locationCode": "AIF",
+    "label": "Baillif",
+    "function": "13",
+    "lat": 16.033333,
+    "lng": -61.733333
+  },
+  {
+    "locationCode": "BBR",
+    "label": "Basse-Terre",
+    "function": "145",
+    "lat": 16,
+    "lng": -61.716667
+  },
+  {
+    "locationCode": "BOU",
+    "label": "Bouillante",
+    "function": "13",
+    "lat": 16.133333,
+    "lng": -61.766667
+  },
+  {
+    "locationCode": "CBE",
+    "label": "Capesterre-Belle-Eau",
+    "function": "16",
+    "lat": 16.05,
+    "lng": -61.55
+  },
+  {
+    "locationCode": "DHR",
+    "label": "Deshaies",
+    "function": "13",
+    "lat": 16.3,
+    "lng": -61.783333
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Folle-Anse",
+    "function": "13",
+    "lat": 15.95,
+    "lng": -61.333333
+  },
+  {
+    "locationCode": "GOU",
+    "label": "Gourbeyre",
+    "function": "3",
+    "lat": 16,
+    "lng": -61.7
+  },
+  {
+    "locationCode": "GOY",
+    "label": "Goyave",
+    "function": "3",
+    "lat": 16.133333,
+    "lng": -61.566667
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Grand-Bourg",
+    "function": "1",
+    "lat": 15.883333,
+    "lng": -61.3
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jarry",
+    "function": "1",
+    "lat": 16.233333,
+    "lng": -61.55
+  },
+  {
+    "locationCode": "DSD",
+    "label": "La Désirade",
+    "labelWithDiacritics": "La Desirade",
+    "function": "4",
+    "lat": 16.3,
+    "lng": -61.083333
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lamentin",
+    "function": "3",
+    "lat": 16.266667,
+    "lng": -61.616667
+  },
+  {
+    "locationCode": "GOS",
+    "label": "Le Gosier",
+    "function": "13",
+    "lat": 16.2,
+    "lng": -61.483333
+  },
+  {
+    "locationCode": "LEM",
+    "label": "Le Moule",
+    "function": "3",
+    "lat": 16.333333,
+    "lng": -61.333333
+  },
+  {
+    "locationCode": "BYM",
+    "label": "Les Abymes",
+    "function": "6",
+    "lat": 16.283333,
+    "lng": -61.5
+  },
+  {
+    "locationCode": "GBJ",
+    "label": "Marie-Galante",
+    "function": "4",
+    "lat": 15.866667,
+    "lng": -61.266667
+  },
+  {
+    "locationCode": "MSB",
+    "label": "Marigot",
+    "function": "134",
+    "lat": 18.066667,
+    "lng": -63.083333
+  },
+  {
+    "locationCode": "PBG",
+    "label": "Petit-Bourg",
+    "function": "13",
+    "lat": 16.183333,
+    "lng": -61.583333
+  },
+  {
+    "locationCode": "PTC",
+    "label": "Petit-Canal",
+    "function": "3",
+    "lat": 16.383333,
+    "lng": -61.483333
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Pointe-à-Pitre",
+    "labelWithDiacritics": "Pointe-a-Pitre",
+    "function": "3",
+    "lat": 16.233333,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "PTP",
+    "label": "Pointe-à-Pitre",
+    "labelWithDiacritics": "Pointe-a-Pitre",
+    "function": "1345",
+    "lat": 16.233333,
+    "lng": -61.533333
+  },
+  {
+    "locationCode": "ZAA",
+    "label": "Pointe-Noire",
+    "function": "36",
+    "lat": 16.233333,
+    "lng": -61.783333
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Port-Louis",
+    "function": "136",
+    "lat": 16.416667,
+    "lng": -61.533333
+  },
+  {
+    "locationCode": "SCL",
+    "label": "Saint-Claude",
+    "function": "3",
+    "lat": 16.016667,
+    "lng": -61.683333
+  },
+  {
+    "locationCode": "STA",
+    "label": "Sainte-Anne",
+    "function": "3",
+    "lat": 16.233333,
+    "lng": -61.366667
+  },
+  {
+    "locationCode": "STR",
+    "label": "Sainte-Rose",
+    "function": "3",
+    "lat": 16.333333,
+    "lng": -61.7
+  },
+  {
+    "locationCode": "SFC",
+    "label": "Saint-François",
+    "labelWithDiacritics": "Saint-Francois",
+    "function": "13",
+    "lat": 16.25,
+    "lng": -61.266667
+  },
+  {
+    "locationCode": "HTB",
+    "label": "Terre-de-Bas",
+    "function": "4",
+    "lat": 15.85,
+    "lng": -61.633333
+  },
+  {
+    "locationCode": "LSS",
+    "label": "Terre-de-Haut",
+    "function": "4",
+    "lat": 15.866667,
+    "lng": -61.583333
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Trois-Rivières",
+    "labelWithDiacritics": "Trois-Rivieres",
+    "function": "6",
+    "lat": 15.966667,
+    "lng": -61.633333
+  }
+]

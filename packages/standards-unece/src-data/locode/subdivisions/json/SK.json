@@ -1,0 +1,42 @@
+[
+  {
+    "code": "BC",
+    "label": "Banskobystrický kraj",
+    "type": "Region"
+  },
+  {
+    "code": "BL",
+    "label": "Bratislavský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "KI",
+    "label": "Koický kraj",
+    "type": "Region"
+  },
+  {
+    "code": "NI",
+    "label": "Nitriansky kraj",
+    "type": "Region"
+  },
+  {
+    "code": "PV",
+    "label": "Preovský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "TA",
+    "label": "Trnavský kraj",
+    "type": "Region"
+  },
+  {
+    "code": "TC",
+    "label": "Trenciansky kraj",
+    "type": "Region"
+  },
+  {
+    "code": "ZI",
+    "label": "ilinský kraj",
+    "type": "Region"
+  }
+]

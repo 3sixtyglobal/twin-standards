@@ -1,0 +1,27 @@
+[
+  {
+    "code": "E",
+    "label": "Eastern",
+    "type": "Province"
+  },
+  {
+    "code": "N",
+    "label": "Northern",
+    "type": "Province"
+  },
+  {
+    "code": "NW",
+    "label": "North Western",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Southern",
+    "type": "Province"
+  },
+  {
+    "code": "W",
+    "label": "Western Area (Freetown)",
+    "type": "Area"
+  }
+]

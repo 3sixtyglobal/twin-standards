@@ -1,0 +1,67 @@
+[
+  {
+    "locationCode": "AII",
+    "label": "Ali Sabieh",
+    "subdivisionCode": "AS",
+    "function": "4",
+    "lat": 11.15,
+    "lng": 42.7
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Camp Lemonier",
+    "function": "6",
+    "lat": 11.533333,
+    "lng": 43.133333
+  },
+  {
+    "locationCode": "DMJ",
+    "label": "Damerjog",
+    "subdivisionCode": "AR",
+    "function": "13",
+    "lat": 11.483333,
+    "lng": 43.183333
+  },
+  {
+    "locationCode": "JIB",
+    "label": "Djibouti",
+    "function": "145"
+  },
+  {
+    "locationCode": "POD",
+    "label": "Djibouti",
+    "subdivisionCode": "DJ",
+    "function": "123",
+    "lat": 11.583333,
+    "lng": 43.133333
+  },
+  {
+    "locationCode": "DCT",
+    "label": "Doraleh Container Terminal",
+    "subdivisionCode": "DJ",
+    "function": "13",
+    "lat": 11.6,
+    "lng": 44.6
+  },
+  {
+    "locationCode": "MHI",
+    "label": "Musha",
+    "function": "34",
+    "lat": 11.333333,
+    "lng": 43.016667
+  },
+  {
+    "locationCode": "OBC",
+    "label": "Obock",
+    "function": "4",
+    "lat": 11.966667,
+    "lng": 43.25
+  },
+  {
+    "locationCode": "TDJ",
+    "label": "Tadjoura",
+    "function": "4",
+    "lat": 11.766667,
+    "lng": 42.9
+  }
+]

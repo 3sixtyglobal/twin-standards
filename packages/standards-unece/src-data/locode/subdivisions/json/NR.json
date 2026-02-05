@@ -1,0 +1,72 @@
+[
+  {
+    "code": "01",
+    "label": "Aiwo",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Anabar",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Anetan",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Anibare",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Baitsi",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Boe",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Buada",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Denigomodu",
+    "type": "District"
+  },
+  {
+    "code": "09",
+    "label": "Ewa",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Ijuw",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Meneng",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Nibok",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Uaboe",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Yaren",
+    "type": "District"
+  }
+]

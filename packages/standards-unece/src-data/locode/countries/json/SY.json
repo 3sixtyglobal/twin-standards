@@ -1,0 +1,121 @@
+[
+  {
+    "locationCode": "ALD",
+    "label": "Al Ladhiqiyah",
+    "function": "123",
+    "lat": 35.516667,
+    "lng": 35.783333
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Al Thaurah",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALP",
+    "label": "Aleppo (Alep)",
+    "function": "45"
+  },
+  {
+    "locationCode": "ARW",
+    "label": "Arwad",
+    "subdivisionCode": "TA",
+    "function": "13",
+    "lat": 34.85,
+    "lng": 35.85
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Banghazi",
+    "function": "13",
+    "lat": 32.116667,
+    "lng": 20.066667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Baniyas",
+    "subdivisionCode": "TA",
+    "function": "13",
+    "lat": 35.183333,
+    "lng": 35.95
+  },
+  {
+    "locationCode": "DAM",
+    "label": "Damascus (Damas)",
+    "function": "145"
+  },
+  {
+    "locationCode": "DEZ",
+    "label": "Deirezzor",
+    "function": "4"
+  },
+  {
+    "locationCode": "QDR",
+    "label": "Dera'a",
+    "function": "45"
+  },
+  {
+    "locationCode": "QHM",
+    "label": "Hama",
+    "function": "0"
+  },
+  {
+    "locationCode": "HMS",
+    "label": "Homs",
+    "subdivisionCode": "HI",
+    "function": "23",
+    "lat": 34.733333,
+    "lng": 36.716667
+  },
+  {
+    "locationCode": "KAC",
+    "label": "Kameshli",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTK",
+    "label": "Latakia",
+    "function": "14",
+    "lat": 35.516667,
+    "lng": 35.783333
+  },
+  {
+    "locationCode": "PMS",
+    "label": "Palmyra",
+    "function": "4"
+  },
+  {
+    "locationCode": "QSW",
+    "label": "Sweida",
+    "function": "4"
+  },
+  {
+    "locationCode": "TTS",
+    "label": "Tartus",
+    "subdivisionCode": "TA",
+    "function": "13",
+    "lat": 34.9,
+    "lng": 35.9
+  },
+  {
+    "locationCode": "TAO",
+    "label": "Tartus Oil Terminal",
+    "subdivisionCode": "TA",
+    "function": "1",
+    "lat": 34.966667,
+    "lng": 35.883333
+  },
+  {
+    "locationCode": "WST",
+    "label": "Wasit",
+    "function": "0"
+  },
+  {
+    "locationCode": "YBD",
+    "label": "Yabrud",
+    "subdivisionCode": "RD",
+    "function": "3",
+    "lat": 33.966667,
+    "lng": 36.65
+  }
+]

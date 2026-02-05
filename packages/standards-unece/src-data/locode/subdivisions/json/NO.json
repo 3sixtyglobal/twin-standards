@@ -1,0 +1,57 @@
+[
+  {
+    "code": "03",
+    "label": "Oslo",
+    "type": "County"
+  },
+  {
+    "code": "11",
+    "label": "Rogaland",
+    "type": "County"
+  },
+  {
+    "code": "15",
+    "label": "Møre og Romsdal",
+    "type": "County"
+  },
+  {
+    "code": "18",
+    "label": "Nordland",
+    "type": "County"
+  },
+  {
+    "code": "30",
+    "label": "Viken",
+    "type": "County"
+  },
+  {
+    "code": "34",
+    "label": "Innlandet",
+    "type": "County"
+  },
+  {
+    "code": "38",
+    "label": "Vestfold og Telemark",
+    "type": "County"
+  },
+  {
+    "code": "42",
+    "label": "Agder",
+    "type": "County"
+  },
+  {
+    "code": "46",
+    "label": "Vestland",
+    "type": "County"
+  },
+  {
+    "code": "50",
+    "label": "Trøndelag",
+    "type": "County"
+  },
+  {
+    "code": "54",
+    "label": "Troms og Finnmark",
+    "type": "County"
+  }
+]

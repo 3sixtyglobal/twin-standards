@@ -1,0 +1,17 @@
+[
+  {
+    "locationCode": "ROP",
+    "label": "Rota",
+    "function": "4"
+  },
+  {
+    "locationCode": "SPN",
+    "label": "Saipan",
+    "function": "14"
+  },
+  {
+    "locationCode": "TIQ",
+    "label": "Tinian",
+    "function": "4"
+  }
+]

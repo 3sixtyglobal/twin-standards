@@ -1,0 +1,77 @@
+[
+  {
+    "code": "01",
+    "label": "Ba",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Bua",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Cakaudrove",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Kadavu",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Lau",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Lomaiviti",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Macuata",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Nadroga and Navosa",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Naitasiri",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Namosi",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Ra",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Rewa",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Serua",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Tailevu",
+    "type": "Province"
+  },
+  {
+    "code": "R",
+    "label": "Rotuma",
+    "type": "Dependency"
+  }
+]

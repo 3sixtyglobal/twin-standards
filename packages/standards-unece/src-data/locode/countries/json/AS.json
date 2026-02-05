@@ -1,0 +1,31 @@
+[
+  {
+    "locationCode": "API",
+    "label": "Apia",
+    "function": "3",
+    "lat": -13.833333,
+    "lng": -171.733333
+  },
+  {
+    "locationCode": "FTI",
+    "label": "Fitiuta",
+    "function": "4"
+  },
+  {
+    "locationCode": "OFU",
+    "label": "Ofu",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPG",
+    "label": "Pago Pago",
+    "function": "145",
+    "lat": 14.266667,
+    "lng": -170.7
+  },
+  {
+    "locationCode": "TAV",
+    "label": "Tau",
+    "function": "4"
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "locationCode": "ABD",
+    "label": "Aribinda",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARL",
+    "label": "Arly",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNR",
+    "label": "Banfora",
+    "function": "4"
+  },
+  {
+    "locationCode": "BER",
+    "label": "Bérégadougou",
+    "labelWithDiacritics": "Beregadougou",
+    "function": "23",
+    "lat": 10.766667,
+    "lng": -4.75
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Bobo-Dioulasso",
+    "subdivisionCode": "HOU",
+    "function": "4",
+    "lat": 11.2,
+    "lng": -4.3
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogandé",
+    "labelWithDiacritics": "Bogande",
+    "function": "4",
+    "lat": 12.983333,
+    "lng": -0.133333
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Boromo",
+    "subdivisionCode": "BAL",
+    "function": "3",
+    "lat": 11.75,
+    "lng": -2.933333
+  },
+  {
+    "locationCode": "BOU",
+    "label": "Boulsa",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Bousse",
+    "subdivisionCode": "OUB",
+    "function": "3",
+    "lat": 12.65,
+    "lng": -1.883333
+  },
+  {
+    "locationCode": "DGU",
+    "label": "Dédougou",
+    "labelWithDiacritics": "Dedougou",
+    "function": "4",
+    "lat": 12.466667,
+    "lng": -3.466667
+  },
+  {
+    "locationCode": "DIP",
+    "label": "Diapaga",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBG",
+    "label": "Diébougou",
+    "labelWithDiacritics": "Diebougou",
+    "function": "4",
+    "lat": 10.966667,
+    "lng": -3.25
+  },
+  {
+    "locationCode": "DJI",
+    "label": "Djibo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOR",
+    "label": "Dori",
+    "function": "4"
+  },
+  {
+    "locationCode": "FNG",
+    "label": "Fada-Ngourma",
+    "function": "4",
+    "lat": 12.066667,
+    "lng": 0.35
+  },
+  {
+    "locationCode": "GAO",
+    "label": "Gaoua",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOG",
+    "label": "Gorom-Gorom",
+    "function": "4"
+  },
+  {
+    "locationCode": "HOU",
+    "label": "Houndé",
+    "subdivisionCode": "TUI",
+    "labelWithDiacritics": "Hounde",
+    "function": "3",
+    "lat": 11.5,
+    "lng": -3.516667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kantchari",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Kaya",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kossodo",
+    "function": "3",
+    "lat": 12.416667,
+    "lng": -1.466667
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koudougou",
+    "function": "23",
+    "lat": 12.233333,
+    "lng": -2.366667
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Kourouma",
+    "function": "3",
+    "lat": 11.616667,
+    "lng": -4.8
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Léo",
+    "labelWithDiacritics": "Leo",
+    "function": "4",
+    "lat": 11.1,
+    "lng": -2.1
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mana",
+    "subdivisionCode": "BAL",
+    "function": "3",
+    "lat": 11.866667,
+    "lng": -3.366667
+  },
+  {
+    "locationCode": "NAT",
+    "label": "Natougou",
+    "subdivisionCode": "TAP",
+    "function": "3",
+    "lat": 12.616667,
+    "lng": 1.683333
+  },
+  {
+    "locationCode": "NOU",
+    "label": "Nouna",
+    "function": "4"
+  },
+  {
+    "locationCode": "ORO",
+    "label": "Orodara",
+    "subdivisionCode": "KEN",
+    "function": "3",
+    "lat": 10.983333,
+    "lng": -4.916667
+  },
+  {
+    "locationCode": "OUA",
+    "label": "Ouagadougou",
+    "function": "45"
+  },
+  {
+    "locationCode": "OUG",
+    "label": "Ouahigouya",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Pama",
+    "function": "4"
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Péni",
+    "subdivisionCode": "HOU",
+    "labelWithDiacritics": "Peni",
+    "function": "3",
+    "lat": 10.95,
+    "lng": -4.483333
+  },
+  {
+    "locationCode": "PUP",
+    "label": "Po",
+    "function": "4"
+  },
+  {
+    "locationCode": "POU",
+    "label": "Poura",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -3.083333
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Saponé",
+    "subdivisionCode": "BAZ",
+    "labelWithDiacritics": "Sapone",
+    "function": "3",
+    "lat": 12.1,
+    "lng": -1.55
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sebba",
+    "function": "4"
+  },
+  {
+    "locationCode": "TMQ",
+    "label": "Tambao",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Tema",
+    "subdivisionCode": "PAS",
+    "function": "3",
+    "lat": 13.083333,
+    "lng": -1.783333
+  },
+  {
+    "locationCode": "TEG",
+    "label": "Tenkodogo",
+    "function": "4"
+  },
+  {
+    "locationCode": "TUQ",
+    "label": "Tougan",
+    "function": "4"
+  },
+  {
+    "locationCode": "WON",
+    "label": "Wona (Ouona)",
+    "subdivisionCode": "TUI",
+    "function": "3",
+    "lat": 11.966667,
+    "lng": -3.416667
+  },
+  {
+    "locationCode": "YKP",
+    "label": "Yako",
+    "subdivisionCode": "PAS",
+    "function": "3",
+    "lat": 12.966667,
+    "lng": -2.266667
+  },
+  {
+    "locationCode": "LIG",
+    "label": "Yaramoko",
+    "subdivisionCode": "MOU",
+    "function": "3",
+    "lat": 11.8,
+    "lng": -3.283333
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Zabré",
+    "labelWithDiacritics": "Zabre",
+    "function": "4",
+    "lat": 11.166667,
+    "lng": -0.633333
+  },
+  {
+    "locationCode": "ZIG",
+    "label": "Ziga",
+    "function": "3",
+    "lat": 12.616667,
+    "lng": -0.816667
+  },
+  {
+    "locationCode": "OB2",
+    "label": "Ziniaré",
+    "subdivisionCode": "OUB",
+    "labelWithDiacritics": "Ziniare",
+    "function": "13",
+    "lat": 12.583333,
+    "lng": -1.3
+  }
+]

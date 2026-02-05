@@ -1,0 +1,237 @@
+[
+  {
+    "code": "01",
+    "label": "Hokkaidô [Hokkaido]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "02",
+    "label": "Aomori",
+    "type": "Prefecture"
+  },
+  {
+    "code": "03",
+    "label": "Iwate",
+    "type": "Prefecture"
+  },
+  {
+    "code": "04",
+    "label": "Miyagi",
+    "type": "Prefecture"
+  },
+  {
+    "code": "05",
+    "label": "Akita",
+    "type": "Prefecture"
+  },
+  {
+    "code": "06",
+    "label": "Yamagata",
+    "type": "Prefecture"
+  },
+  {
+    "code": "07",
+    "label": "Hukusima [Fukushima]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "08",
+    "label": "Ibaraki",
+    "type": "Prefecture"
+  },
+  {
+    "code": "09",
+    "label": "Totigi [Tochigi]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "10",
+    "label": "Gunma",
+    "type": "Prefecture"
+  },
+  {
+    "code": "11",
+    "label": "Saitama",
+    "type": "Prefecture"
+  },
+  {
+    "code": "12",
+    "label": "Tiba [Chiba]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "13",
+    "label": "Tôkyô [Tokyo]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "14",
+    "label": "Kanagawa",
+    "type": "Prefecture"
+  },
+  {
+    "code": "15",
+    "label": "Niigata",
+    "type": "Prefecture"
+  },
+  {
+    "code": "16",
+    "label": "Toyama",
+    "type": "Prefecture"
+  },
+  {
+    "code": "17",
+    "label": "Isikawa [Ishikawa]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "18",
+    "label": "Hukui [Fukui]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "19",
+    "label": "Yamanasi [Yamanashi]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "20",
+    "label": "Nagano",
+    "type": "Prefecture"
+  },
+  {
+    "code": "21",
+    "label": "Gihu [Gifu]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "22",
+    "label": "Sizuoka [Shizuoka]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "23",
+    "label": "Aiti [Aichi]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "24",
+    "label": "Mie",
+    "type": "Prefecture"
+  },
+  {
+    "code": "25",
+    "label": "Siga [Shiga]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "26",
+    "label": "Hyôgo [Kyoto]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "27",
+    "label": "Ôsaka [Osaka]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "28",
+    "label": "Hyôgo[Hyogo]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "29",
+    "label": "Nara",
+    "type": "Prefecture"
+  },
+  {
+    "code": "30",
+    "label": "Wakayama",
+    "type": "Prefecture"
+  },
+  {
+    "code": "31",
+    "label": "Tottori",
+    "type": "Prefecture"
+  },
+  {
+    "code": "32",
+    "label": "Simane [Shimane]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "33",
+    "label": "Okayama",
+    "type": "Prefecture"
+  },
+  {
+    "code": "34",
+    "label": "Hirosima [Hiroshima]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "35",
+    "label": "Yamaguti [Yamaguchi]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "36",
+    "label": "Tokusima [Tokushima]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "37",
+    "label": "Kagawa",
+    "type": "Prefecture"
+  },
+  {
+    "code": "38",
+    "label": "Ehime",
+    "type": "Prefecture"
+  },
+  {
+    "code": "39",
+    "label": "Kôti [Kochi]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "40",
+    "label": "Hukuoka [Fukuoka]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "41",
+    "label": "Saga",
+    "type": "Prefecture"
+  },
+  {
+    "code": "42",
+    "label": "Nagasaki",
+    "type": "Prefecture"
+  },
+  {
+    "code": "43",
+    "label": "Kumamoto",
+    "type": "Prefecture"
+  },
+  {
+    "code": "44",
+    "label": "Ôita [Oita]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "45",
+    "label": "Miyazaki",
+    "type": "Prefecture"
+  },
+  {
+    "code": "46",
+    "label": "Kagosima [Kagoshima]",
+    "type": "Prefecture"
+  },
+  {
+    "code": "47",
+    "label": "Okinawa",
+    "type": "Prefecture"
+  }
+]

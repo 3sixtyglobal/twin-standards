@@ -1,0 +1,132 @@
+[
+  {
+    "code": "BC",
+    "label": "Kongo Central",
+    "type": "Province"
+  },
+  {
+    "code": "BU",
+    "label": "Bas-Uélé",
+    "type": "Province"
+  },
+  {
+    "code": "EQ",
+    "label": "Équateur",
+    "type": "Province"
+  },
+  {
+    "code": "HK",
+    "label": "Haut-Katanga",
+    "type": "Province"
+  },
+  {
+    "code": "HL",
+    "label": "Haut-Lomami",
+    "type": "Province"
+  },
+  {
+    "code": "HU",
+    "label": "Haut-Uélé",
+    "type": "Province"
+  },
+  {
+    "code": "IT",
+    "label": "Ituri",
+    "type": "Province"
+  },
+  {
+    "code": "KC",
+    "label": "Kasaï Central",
+    "type": "Province"
+  },
+  {
+    "code": "KE",
+    "label": "Kasaï Oriental",
+    "type": "Province"
+  },
+  {
+    "code": "KG",
+    "label": "Kwango",
+    "type": "Province"
+  },
+  {
+    "code": "KL",
+    "label": "Kwilu",
+    "type": "Province"
+  },
+  {
+    "code": "KN",
+    "label": "Kinshasa",
+    "type": "City"
+  },
+  {
+    "code": "KS",
+    "label": "Kasaï",
+    "type": "Province"
+  },
+  {
+    "code": "LO",
+    "label": "Lomami",
+    "type": "Province"
+  },
+  {
+    "code": "LU",
+    "label": "Lualaba",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Maniema",
+    "type": "Province"
+  },
+  {
+    "code": "MN",
+    "label": "Mai-Ndombe",
+    "type": "Province"
+  },
+  {
+    "code": "MO",
+    "label": "Mongala",
+    "type": "Province"
+  },
+  {
+    "code": "NK",
+    "label": "Nord-Kivu",
+    "type": "Province"
+  },
+  {
+    "code": "NU",
+    "label": "Nord-Ubangi",
+    "type": "Province"
+  },
+  {
+    "code": "SA",
+    "label": "Sankuru",
+    "type": "Province"
+  },
+  {
+    "code": "SK",
+    "label": "Sud-Kivu",
+    "type": "Province"
+  },
+  {
+    "code": "SU",
+    "label": "Sud-Ubangi",
+    "type": "Province"
+  },
+  {
+    "code": "TA",
+    "label": "Tanganyika",
+    "type": "Province"
+  },
+  {
+    "code": "TO",
+    "label": "Tshopo",
+    "type": "Province"
+  },
+  {
+    "code": "TU",
+    "label": "Tshuapa",
+    "type": "Province"
+  }
+]

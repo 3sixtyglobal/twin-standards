@@ -1,0 +1,421 @@
+[
+  {
+    "locationCode": "AHE",
+    "label": "Ahe",
+    "function": "4",
+    "lat": -14.433333,
+    "lng": -146.25
+  },
+  {
+    "locationCode": "AHU",
+    "label": "Ahurei",
+    "function": "1",
+    "lat": -27.616667,
+    "lng": -144.35
+  },
+  {
+    "locationCode": "AAA",
+    "label": "Anaa",
+    "function": "4",
+    "lat": -17.35,
+    "lng": -145.516667
+  },
+  {
+    "locationCode": "APK",
+    "label": "Apataki",
+    "function": "4",
+    "lat": -15.583333,
+    "lng": -146.416667
+  },
+  {
+    "locationCode": "AUE",
+    "label": "Arue",
+    "function": "3",
+    "lat": -17.533333,
+    "lng": -149.516667
+  },
+  {
+    "locationCode": "AXR",
+    "label": "Arutua",
+    "function": "4",
+    "lat": -15.25,
+    "lng": -146.616667
+  },
+  {
+    "locationCode": "AUQ",
+    "label": "Atuona",
+    "function": "4",
+    "lat": -9.8,
+    "lng": -139.033333
+  },
+  {
+    "locationCode": "AUT",
+    "label": "Auti",
+    "function": "1",
+    "lat": -22.483333,
+    "lng": -151.333333
+  },
+  {
+    "locationCode": "BOB",
+    "label": "Bora Bora",
+    "function": "14",
+    "lat": -16.45,
+    "lng": -151.75
+  },
+  {
+    "locationCode": "FAC",
+    "label": "Faaite",
+    "function": "4",
+    "lat": -16.683333,
+    "lng": -145.333333
+  },
+  {
+    "locationCode": "FHZ",
+    "label": "Fakahina",
+    "function": "4",
+    "lat": -16,
+    "lng": -140.166667
+  },
+  {
+    "locationCode": "FAV",
+    "label": "Fakarava",
+    "function": "4",
+    "lat": -16.05,
+    "lng": -145.666667
+  },
+  {
+    "locationCode": "FGU",
+    "label": "Fangatau",
+    "function": "4",
+    "lat": -15.816667,
+    "lng": -140.883333
+  },
+  {
+    "locationCode": "FAT",
+    "label": "Fatu Hiva",
+    "function": "1",
+    "lat": -10.483333,
+    "lng": -138.65
+  },
+  {
+    "locationCode": "HOI",
+    "label": "Hao",
+    "function": "4",
+    "lat": -18.066667,
+    "lng": -140.966667
+  },
+  {
+    "locationCode": "HHT",
+    "label": "Hereheretue",
+    "function": "1",
+    "lat": -19.866667,
+    "lng": -145
+  },
+  {
+    "locationCode": "HHZ",
+    "label": "Hikueru",
+    "function": "4",
+    "lat": -17.55,
+    "lng": -142.6
+  },
+  {
+    "locationCode": "HIX",
+    "label": "Hiva'Oa",
+    "function": "4",
+    "lat": -9.766667,
+    "lng": -139
+  },
+  {
+    "locationCode": "HUH",
+    "label": "Huahine/Fare",
+    "function": "34",
+    "lat": -16.683333,
+    "lng": -151.016667
+  },
+  {
+    "locationCode": "IKI",
+    "label": "Ikitake",
+    "function": "1",
+    "lat": -17.833333,
+    "lng": -140.85
+  },
+  {
+    "locationCode": "KKR",
+    "label": "Kaukura",
+    "function": "4",
+    "lat": -15.666667,
+    "lng": -146.883333
+  },
+  {
+    "locationCode": "MKP",
+    "label": "Makemo",
+    "function": "4",
+    "lat": -16.566667,
+    "lng": -143.683333
+  },
+  {
+    "locationCode": "RIK",
+    "label": "Mangareva",
+    "function": "3",
+    "lat": -23.116667,
+    "lng": -134.966667
+  },
+  {
+    "locationCode": "MEE",
+    "label": "Maroe",
+    "function": "3",
+    "lat": -16.766667,
+    "lng": -150.983333
+  },
+  {
+    "locationCode": "MVT",
+    "label": "Mataiva",
+    "function": "4",
+    "lat": -14.866667,
+    "lng": -148.716667
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Maupiti",
+    "function": "4",
+    "lat": -16.433333,
+    "lng": -152.25
+  },
+  {
+    "locationCode": "MOE",
+    "label": "Moerai",
+    "function": "1",
+    "lat": -22.45,
+    "lng": -151.35
+  },
+  {
+    "locationCode": "MOZ",
+    "label": "Mo'orea",
+    "function": "4",
+    "lat": -17.5,
+    "lng": -149.766667
+  },
+  {
+    "locationCode": "XMH",
+    "label": "Nanihi",
+    "function": "4",
+    "lat": -14.433333,
+    "lng": -146.066667
+  },
+  {
+    "locationCode": "NAU",
+    "label": "Napuka",
+    "function": "4",
+    "lat": -14.183333,
+    "lng": -141.266667
+  },
+  {
+    "locationCode": "TUP",
+    "label": "Niau",
+    "function": "1",
+    "lat": -16.116667,
+    "lng": -146.366667
+  },
+  {
+    "locationCode": "NHV",
+    "label": "Nuku Hiva",
+    "function": "14",
+    "lat": -8.866667,
+    "lng": -140.133333
+  },
+  {
+    "locationCode": "NUK",
+    "label": "Nukutavake",
+    "function": "4",
+    "lat": -19.283333,
+    "lng": -138.766667
+  },
+  {
+    "locationCode": "OTP",
+    "label": "Otepa",
+    "function": "1",
+    "lat": -18.116667,
+    "lng": -140.9
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Papara",
+    "function": "3",
+    "lat": -17.75,
+    "lng": -149.55
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Papeete",
+    "function": "1345",
+    "lat": -17.533333,
+    "lng": -149.566667
+  },
+  {
+    "locationCode": "PKP",
+    "label": "Pukapuka",
+    "function": "4",
+    "lat": -14.816667,
+    "lng": -138.8
+  },
+  {
+    "locationCode": "PUK",
+    "label": "Pukaruha",
+    "function": "4",
+    "lat": -18.3,
+    "lng": -137.016667
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Punaauia",
+    "function": "3",
+    "lat": -17.633333,
+    "lng": -149.6
+  },
+  {
+    "locationCode": "RFP",
+    "label": "Raiatea",
+    "function": "14",
+    "lat": -16.733333,
+    "lng": -151.466667
+  },
+  {
+    "locationCode": "RVV",
+    "label": "Raivavae",
+    "function": "1",
+    "lat": -23.883333,
+    "lng": -147.666667
+  },
+  {
+    "locationCode": "RGI",
+    "label": "Rangiroa",
+    "function": "4",
+    "lat": -14.95,
+    "lng": -147.666667
+  },
+  {
+    "locationCode": "REA",
+    "label": "Reao",
+    "function": "4",
+    "lat": -18.466667,
+    "lng": -136.433333
+  },
+  {
+    "locationCode": "RUR",
+    "label": "Rurutu",
+    "function": "4",
+    "lat": -22.433333,
+    "lng": -151.366667
+  },
+  {
+    "locationCode": "FAA",
+    "label": "Tahiti Fa'a'à",
+    "labelWithDiacritics": "Tahiti Fa'a'a",
+    "function": "345",
+    "lat": -17.55,
+    "lng": -149.6
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Taiohae",
+    "function": "13",
+    "lat": -8.9,
+    "lng": -140.1
+  },
+  {
+    "locationCode": "TKP",
+    "label": "Takapoto",
+    "function": "4",
+    "lat": -14.716667,
+    "lng": -145.25
+  },
+  {
+    "locationCode": "TKX",
+    "label": "Takaroa",
+    "function": "4",
+    "lat": -14.45,
+    "lng": -145.016667
+  },
+  {
+    "locationCode": "TJN",
+    "label": "Takume",
+    "function": "4",
+    "lat": -15.85,
+    "lng": -142.266667
+  },
+  {
+    "locationCode": "TKV",
+    "label": "Tatakoto",
+    "function": "4",
+    "lat": -17.35,
+    "lng": -138.45
+  },
+  {
+    "locationCode": "TTI",
+    "label": "Tertiaroa",
+    "function": "4",
+    "lat": -17.016667,
+    "lng": -149.583333
+  },
+  {
+    "locationCode": "TIH",
+    "label": "Tikehau",
+    "function": "4",
+    "lat": -15.116667,
+    "lng": -148.233333
+  },
+  {
+    "locationCode": "GMR",
+    "label": "Totegegie",
+    "function": "4",
+    "lat": -23.083333,
+    "lng": -134.883333
+  },
+  {
+    "locationCode": "TUB",
+    "label": "Tubuai",
+    "function": "4",
+    "lat": -23.366667,
+    "lng": -149.516667
+  },
+  {
+    "locationCode": "ZTA",
+    "label": "Tureia",
+    "function": "4",
+    "lat": -20.783333,
+    "lng": -138.566667
+  },
+  {
+    "locationCode": "UAH",
+    "label": "Ua Huka",
+    "function": "4",
+    "lat": -8.916667,
+    "lng": -139.55
+  },
+  {
+    "locationCode": "UAP",
+    "label": "Ua Pou",
+    "function": "4",
+    "lat": -9.35,
+    "lng": -140.083333
+  },
+  {
+    "locationCode": "UTU",
+    "label": "Uturoa",
+    "function": "1",
+    "lat": -16.733333,
+    "lng": -151.45
+  },
+  {
+    "locationCode": "VHZ",
+    "label": "Vahitahi",
+    "function": "4",
+    "lat": -18.783333,
+    "lng": -138.85
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vaitape",
+    "function": "1"
+  }
+]

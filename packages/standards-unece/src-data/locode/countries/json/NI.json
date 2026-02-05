@@ -1,0 +1,645 @@
+[
+  {
+    "locationCode": "ACO",
+    "label": "Acoyapa",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 11.966667,
+    "lng": -85.166667
+  },
+  {
+    "locationCode": "BEF",
+    "label": "Bluefields",
+    "function": "14"
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Boaco",
+    "subdivisionCode": "BO",
+    "function": "36",
+    "lat": 12.466667,
+    "lng": -85.666667
+  },
+  {
+    "locationCode": "BZA",
+    "label": "Bonanza",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAP",
+    "label": "Camoapa",
+    "subdivisionCode": "BO",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": -85.516667
+  },
+  {
+    "locationCode": "CCG",
+    "label": "Chichigalpa",
+    "subdivisionCode": "CI",
+    "function": "3",
+    "lat": 12.566667,
+    "lng": -87.033333
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chinandega",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDC",
+    "label": "Ciudad Sandino",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 12.15,
+    "lng": -86.333333
+  },
+  {
+    "locationCode": "CDG",
+    "label": "Condega",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 13.35,
+    "lng": -86.4
+  },
+  {
+    "locationCode": "CIO",
+    "label": "Corinto",
+    "function": "15"
+  },
+  {
+    "locationCode": "RNI",
+    "label": "Corn Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIR",
+    "label": "Diriamba",
+    "subdivisionCode": "CA",
+    "function": "36",
+    "lat": 11.85,
+    "lng": -86.233333
+  },
+  {
+    "locationCode": "DIM",
+    "label": "Diriomo",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 11.866667,
+    "lng": -86.05
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dolores",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 11.85,
+    "lng": -86.216667
+  },
+  {
+    "locationCode": "ELB",
+    "label": "El Bluff",
+    "function": "1"
+  },
+  {
+    "locationCode": "EJC",
+    "label": "El Jicaral",
+    "subdivisionCode": "LE",
+    "function": "6",
+    "lat": 12.716667,
+    "lng": -86.366667
+  },
+  {
+    "locationCode": "ELL",
+    "label": "El Sauce",
+    "subdivisionCode": "LE",
+    "function": "6",
+    "lat": 12.883333,
+    "lng": -86.533333
+  },
+  {
+    "locationCode": "ETU",
+    "label": "El Tuma",
+    "subdivisionCode": "MT",
+    "function": "6",
+    "lat": 13.066667,
+    "lng": -85.75
+  },
+  {
+    "locationCode": "ZEO",
+    "label": "El Viejo",
+    "subdivisionCode": "CI",
+    "function": "6",
+    "lat": 12.666667,
+    "lng": -87.166667
+  },
+  {
+    "locationCode": "EST",
+    "label": "Estelí",
+    "subdivisionCode": "ES",
+    "labelWithDiacritics": "Esteli",
+    "function": "3",
+    "lat": 13.083333,
+    "lng": -86.35
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Granada",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 11.933333,
+    "lng": -85.95
+  },
+  {
+    "locationCode": "JPA",
+    "label": "Jalapa",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": -86.133333
+  },
+  {
+    "locationCode": "JNO",
+    "label": "Jinotega",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": 13.1,
+    "lng": -86
+  },
+  {
+    "locationCode": "JIN",
+    "label": "Jinotepe",
+    "function": "23",
+    "lat": 11.85,
+    "lng": -86.2
+  },
+  {
+    "locationCode": "JGP",
+    "label": "Juigalpa",
+    "subdivisionCode": "CO",
+    "function": "36",
+    "lat": 12.083333,
+    "lng": -85.4
+  },
+  {
+    "locationCode": "GAT",
+    "label": "La Gateada",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 12,
+    "lng": -84.783333
+  },
+  {
+    "locationCode": "LIB",
+    "label": "La Libertad",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 12.216667,
+    "lng": -85.166667
+  },
+  {
+    "locationCode": "LPC",
+    "label": "La Paz Centro",
+    "subdivisionCode": "LE",
+    "function": "3",
+    "lat": 12.333333,
+    "lng": -86.666667
+  },
+  {
+    "locationCode": "LTD",
+    "label": "La Trinidad",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 12.55,
+    "lng": -86.183333
+  },
+  {
+    "locationCode": "LM8",
+    "label": "Las Maderas",
+    "subdivisionCode": "MN",
+    "function": "16",
+    "lat": 12.433333,
+    "lng": -86.033333
+  },
+  {
+    "locationCode": "LEO",
+    "label": "León",
+    "labelWithDiacritics": "Leon",
+    "function": "3",
+    "lat": 12.433333,
+    "lng": -86.883333
+  },
+  {
+    "locationCode": "ZLI",
+    "label": "Libertad-Chontales",
+    "subdivisionCode": "CO",
+    "function": "6",
+    "lat": 12.216667,
+    "lng": -85.166667
+  },
+  {
+    "locationCode": "ZLS",
+    "label": "Los Brasiles",
+    "subdivisionCode": "MN",
+    "function": "6",
+    "lat": 12.266667,
+    "lng": -85.933333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malacatoya",
+    "subdivisionCode": "GR",
+    "function": "36",
+    "lat": 12.15,
+    "lng": -85.833333
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Managua",
+    "function": "45"
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Masachapa",
+    "subdivisionCode": "MN",
+    "function": "1",
+    "lat": 11.783333,
+    "lng": -86.516667
+  },
+  {
+    "locationCode": "MSP",
+    "label": "Masatepe",
+    "function": "7",
+    "lat": 11.916667,
+    "lng": -87.5
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masaya",
+    "function": "3"
+  },
+  {
+    "locationCode": "MTG",
+    "label": "Matagalpa",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAE",
+    "label": "Mateare",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 12.233333,
+    "lng": -86.416667
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matiguás",
+    "subdivisionCode": "MT",
+    "labelWithDiacritics": "Matiguas",
+    "function": "3",
+    "lat": 12.833333,
+    "lng": -85.466667
+  },
+  {
+    "locationCode": "ZMN",
+    "label": "Mina el Limon",
+    "subdivisionCode": "CI",
+    "function": "6",
+    "lat": 12.75,
+    "lng": -86.733333
+  },
+  {
+    "locationCode": "MR3",
+    "label": "Miramar",
+    "subdivisionCode": "LE",
+    "function": "3",
+    "lat": 12.4,
+    "lng": -87.033333
+  },
+  {
+    "locationCode": "MR2",
+    "label": "Miramar/Nagarote",
+    "subdivisionCode": "LE",
+    "function": "3",
+    "lat": 12.15,
+    "lng": -86.75
+  },
+  {
+    "locationCode": "MTE",
+    "label": "Montelimar",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 11.816667,
+    "lng": -86.516667
+  },
+  {
+    "locationCode": "NGE",
+    "label": "Nagarote",
+    "subdivisionCode": "LE",
+    "function": "3",
+    "lat": 12.266667,
+    "lng": -86.566667
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nandaime",
+    "function": "3",
+    "lat": 11.75,
+    "lng": -86.05
+  },
+  {
+    "locationCode": "NII",
+    "label": "Nindiri",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 12,
+    "lng": -86.116667
+  },
+  {
+    "locationCode": "NQO",
+    "label": "Niquinohomo",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 11.9,
+    "lng": -86.1
+  },
+  {
+    "locationCode": "NUG",
+    "label": "Nueva Guinea",
+    "function": "3",
+    "lat": 11.666667,
+    "lng": -84.45
+  },
+  {
+    "locationCode": "OCO",
+    "label": "Ocotal",
+    "subdivisionCode": "NS",
+    "function": "36",
+    "lat": 13.633333,
+    "lng": -86.483333
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palacagüina",
+    "subdivisionCode": "MD",
+    "labelWithDiacritics": "Palacaguina",
+    "function": "3",
+    "lat": 13.45,
+    "lng": -86.4
+  },
+  {
+    "locationCode": "PTI",
+    "label": "Potosí",
+    "subdivisionCode": "CI",
+    "labelWithDiacritics": "Potosi",
+    "function": "1",
+    "lat": 13,
+    "lng": -87.5
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Prinzapolca",
+    "function": "1"
+  },
+  {
+    "locationCode": "PON",
+    "label": "Pueblo Nuevo",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 13.383333,
+    "lng": -86.483333
+  },
+  {
+    "locationCode": "PUZ",
+    "label": "Puerto Cabezas",
+    "function": "1"
+  },
+  {
+    "locationCode": "PIB",
+    "label": "Puerto Isabel",
+    "function": "13",
+    "lat": 13.366667,
+    "lng": -83.566667
+  },
+  {
+    "locationCode": "PSN",
+    "label": "Puerto Sandino",
+    "function": "1",
+    "lat": 12.183333,
+    "lng": -86.75
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Quilali",
+    "subdivisionCode": "NS",
+    "function": "3",
+    "lat": 13.566667,
+    "lng": -86.033333
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Rama",
+    "subdivisionCode": "AS",
+    "function": "136",
+    "lat": 12.15,
+    "lng": -84.216667
+  },
+  {
+    "locationCode": "RIB",
+    "label": "Río Blanco",
+    "labelWithDiacritics": "Rio Blanco",
+    "function": "3",
+    "lat": 12.933333,
+    "lng": -85.216667
+  },
+  {
+    "locationCode": "RVV",
+    "label": "Rivas",
+    "function": "3",
+    "lat": 11.433333,
+    "lng": -85.816667
+  },
+  {
+    "locationCode": "RFS",
+    "label": "Rosita",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBS",
+    "label": "San Benito (San Francisco Libre)",
+    "subdivisionCode": "MN",
+    "function": "6",
+    "lat": 12.566667,
+    "lng": -86.283333
+  },
+  {
+    "locationCode": "SBT",
+    "label": "San Benito (Tipitapa)",
+    "subdivisionCode": "MN",
+    "function": "6",
+    "lat": 12.316667,
+    "lng": -86.066667
+  },
+  {
+    "locationCode": "NCR",
+    "label": "San Carlos",
+    "function": "4"
+  },
+  {
+    "locationCode": "SFL",
+    "label": "San Francisco Libre",
+    "subdivisionCode": "MN",
+    "function": "36",
+    "lat": 12.5,
+    "lng": -16.3
+  },
+  {
+    "locationCode": "SJO",
+    "label": "San Juan de Oriente",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 11.9,
+    "lng": -86.083333
+  },
+  {
+    "locationCode": "SJS",
+    "label": "San Juan del Sur",
+    "function": "1"
+  },
+  {
+    "locationCode": "SJC",
+    "label": "San Juan Rio Coco",
+    "subdivisionCode": "MD",
+    "function": "3",
+    "lat": 13.55,
+    "lng": -86.166667
+  },
+  {
+    "locationCode": "SLO",
+    "label": "San Lorenzo",
+    "subdivisionCode": "BO",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": -85.666667
+  },
+  {
+    "locationCode": "SMR",
+    "label": "San Marcos",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": 11.916667,
+    "lng": -86.2
+  },
+  {
+    "locationCode": "SRN",
+    "label": "San Rafael del Norte",
+    "subdivisionCode": "JI",
+    "function": "3",
+    "lat": 13.216667,
+    "lng": -86.116667
+  },
+  {
+    "locationCode": "SRS",
+    "label": "San Rafael del Sur",
+    "subdivisionCode": "MN",
+    "function": "6",
+    "lat": 11.85,
+    "lng": -86.45
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sébaco",
+    "subdivisionCode": "MT",
+    "labelWithDiacritics": "Sebaco",
+    "function": "3",
+    "lat": 12.85,
+    "lng": -86.083333
+  },
+  {
+    "locationCode": "SIU",
+    "label": "Siuna",
+    "function": "4"
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Somoto",
+    "subdivisionCode": "MD",
+    "function": "3",
+    "lat": 13.483333,
+    "lng": -86.583333
+  },
+  {
+    "locationCode": "TEU",
+    "label": "Teustepe",
+    "function": "3",
+    "lat": 12.383333,
+    "lng": -85.783333
+  },
+  {
+    "locationCode": "TPA",
+    "label": "Tipitapa",
+    "subdivisionCode": "MN",
+    "function": "13",
+    "lat": 12.2,
+    "lng": -86.1
+  },
+  {
+    "locationCode": "TIM",
+    "label": "Tisma",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 12.083333,
+    "lng": -86.016667
+  },
+  {
+    "locationCode": "TLN",
+    "label": "Tola",
+    "function": "6",
+    "lat": 11.433333,
+    "lng": -85.933333
+  },
+  {
+    "locationCode": "8LG",
+    "label": "Totogalpa",
+    "subdivisionCode": "MD",
+    "function": "16",
+    "lat": 13.566667,
+    "lng": -86.5
+  },
+  {
+    "locationCode": "VER",
+    "label": "Veracruz",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 12.083333,
+    "lng": -86.166667
+  },
+  {
+    "locationCode": "VEC",
+    "label": "Villa El Carmen",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 11.983333,
+    "lng": -86.516667
+  },
+  {
+    "locationCode": "VSA",
+    "label": "Villa Sandino",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 12.05,
+    "lng": -84.983333
+  },
+  {
+    "locationCode": "WAS",
+    "label": "Waslala",
+    "subdivisionCode": "AN",
+    "function": "3",
+    "lat": 13.233333,
+    "lng": -85.383333
+  },
+  {
+    "locationCode": "WSP",
+    "label": "Waspam",
+    "function": "4"
+  }
+]

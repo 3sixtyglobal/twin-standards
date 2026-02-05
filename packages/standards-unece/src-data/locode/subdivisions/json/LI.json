@@ -1,0 +1,57 @@
+[
+  {
+    "code": "01",
+    "label": "Balzers",
+    "type": "Commune"
+  },
+  {
+    "code": "02",
+    "label": "Eschen",
+    "type": "Commune"
+  },
+  {
+    "code": "03",
+    "label": "Gamprin",
+    "type": "Commune"
+  },
+  {
+    "code": "04",
+    "label": "Mauren",
+    "type": "Commune"
+  },
+  {
+    "code": "05",
+    "label": "Planken",
+    "type": "Commune"
+  },
+  {
+    "code": "06",
+    "label": "Ruggell",
+    "type": "Commune"
+  },
+  {
+    "code": "07",
+    "label": "Schaan",
+    "type": "Commune"
+  },
+  {
+    "code": "08",
+    "label": "Schellenberg",
+    "type": "Commune"
+  },
+  {
+    "code": "09",
+    "label": "Triesen",
+    "type": "Commune"
+  },
+  {
+    "code": "10",
+    "label": "Triesenberg",
+    "type": "Commune"
+  },
+  {
+    "code": "11",
+    "label": "Vaduz",
+    "type": "Commune"
+  }
+]

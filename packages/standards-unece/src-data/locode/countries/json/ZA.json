@@ -1,0 +1,5826 @@
+[
+  {
+    "locationCode": "ANL",
+    "label": "Addington",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.85,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "ADO",
+    "label": "Addo",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.566667,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Adelaide",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -32.7,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "AET",
+    "label": "Aeroton",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.25,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "AGZ",
+    "label": "Aggeneys",
+    "function": "4",
+    "lat": -29.2,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "ABT",
+    "label": "Alberton",
+    "function": "3",
+    "lat": -26.25,
+    "lng": 28.116667
+  },
+  {
+    "locationCode": "ALJ",
+    "label": "Alexander Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZBW",
+    "label": "Alexandria",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.65,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "AOB",
+    "label": "Algoa Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "AGP",
+    "label": "Algoapark",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.9,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alice",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.783333,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "AWN",
+    "label": "Aliwal North",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.7,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "ADY",
+    "label": "Alldays",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALR",
+    "label": "Alrode",
+    "function": "3",
+    "lat": -26.283333,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "ALN",
+    "label": "Alton",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -28.766667,
+    "lng": 32.016667
+  },
+  {
+    "locationCode": "ZFP",
+    "label": "Amalgam",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.35,
+    "lng": 28
+  },
+  {
+    "locationCode": "ZAD",
+    "label": "Amalinda",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.966667,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "AMZ",
+    "label": "Amanzimtoti",
+    "function": "3",
+    "lat": -30.083333,
+    "lng": 30.85
+  },
+  {
+    "locationCode": "AMU",
+    "label": "Amatikulu",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.05,
+    "lng": 31.533333
+  },
+  {
+    "locationCode": "AME",
+    "label": "Amersfoort",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -27.016667,
+    "lng": 29.866667
+  },
+  {
+    "locationCode": "ZAE",
+    "label": "Amsterdam",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -31.616667,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "THR",
+    "label": "Arcadia",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZAF",
+    "label": "Ashton",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.816667,
+    "lng": 20.05
+  },
+  {
+    "locationCode": "ASG",
+    "label": "Assagay",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.783333,
+    "lng": 30.733333
+  },
+  {
+    "locationCode": "ATN",
+    "label": "Athlone",
+    "subdivisionCode": "WC",
+    "function": "36",
+    "lat": -33.966667,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "ATL",
+    "label": "Atlantis",
+    "function": "3",
+    "lat": -33.55,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "AUG",
+    "label": "Augrabies",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.65,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "HBL",
+    "label": "Babelegi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BA4",
+    "label": "Balfour",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 26.65,
+    "lng": 28.583333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Ballito Bay",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.533333,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "ZAN",
+    "label": "Bapsfontein",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.016667,
+    "lng": 28.416667
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Barberton",
+    "subdivisionCode": "MP",
+    "function": "2",
+    "lat": -25.783333,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barrydale",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "BHD",
+    "label": "Bayhead",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.883333,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "BNF",
+    "label": "Baynesfield",
+    "function": "3",
+    "lat": -29.766667,
+    "lng": 30.35
+  },
+  {
+    "locationCode": "ZAG",
+    "label": "Beacon Bay",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.966667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Beaconsfield",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.75,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "BEW",
+    "label": "Beaufort West",
+    "function": "3",
+    "lat": -32.35,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "BDF",
+    "label": "Bedford",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.683333,
+    "lng": 26.083333
+  },
+  {
+    "locationCode": "BFV",
+    "label": "Bedfordview",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -26.166667,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "BBR",
+    "label": "Beit Bridge",
+    "function": "0"
+  },
+  {
+    "locationCode": "ZCD",
+    "label": "Belfast",
+    "subdivisionCode": "LP",
+    "function": "6",
+    "lat": -24.916667,
+    "lng": 31.366667
+  },
+  {
+    "locationCode": "BKN",
+    "label": "Bellair",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.883333,
+    "lng": 30.95
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Bellville",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "ZAQ",
+    "label": "Ben Schoeman Dock",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.916667,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "BNI",
+    "label": "Benoni",
+    "function": "3",
+    "lat": -26.166667,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "ZFO",
+    "label": "Benrose",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.183333,
+    "lng": 28.116667
+  },
+  {
+    "locationCode": "ZFQ",
+    "label": "Berea",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.3,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "BNL",
+    "label": "Berea",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.933333,
+    "lng": 31
+  },
+  {
+    "locationCode": "BVL",
+    "label": "Bergville",
+    "function": "36",
+    "lat": -28.733333,
+    "lng": 29.366667
+  },
+  {
+    "locationCode": "BRL",
+    "label": "Berlin",
+    "function": "3",
+    "lat": -32.866667,
+    "lng": 27.566667
+  },
+  {
+    "locationCode": "BET",
+    "label": "Bethal",
+    "subdivisionCode": "GP",
+    "function": "3"
+  },
+  {
+    "locationCode": "BED",
+    "label": "Bethelsdorp",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Bethlehem",
+    "function": "3",
+    "lat": -28.216667,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "BTY",
+    "label": "Betty's Bay",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.366667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "BIY",
+    "label": "Bisho",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSX",
+    "label": "Bishopscourt",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.983333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "ZAK",
+    "label": "Blackheath",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.95,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "BFN",
+    "label": "Bloemfontein",
+    "subdivisionCode": "FS",
+    "function": "2345",
+    "lat": -29.133333,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "ZAL",
+    "label": "Bloemfontein Industria",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -29.116667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Blouberg",
+    "subdivisionCode": "NC",
+    "function": "6",
+    "lat": -23.116667,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "ZAI",
+    "label": "Bloubergstrand",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.8,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "BWB",
+    "label": "Bluewater Bay",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.85,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bochum",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -23.283333,
+    "lng": 29.116667
+  },
+  {
+    "locationCode": "BKP",
+    "label": "Bokpoort",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.783333,
+    "lng": 28
+  },
+  {
+    "locationCode": "BOK",
+    "label": "Boksburg",
+    "function": "3",
+    "lat": -26.183333,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "ZAM",
+    "label": "Bonaero Park",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "BNN",
+    "label": "Bonnievale",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 20.1
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Booysens",
+    "function": "3"
+  },
+  {
+    "locationCode": "BTA",
+    "label": "Botha's Hill",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.716667,
+    "lng": 30.733333
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Bothasig",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.85,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "BTV",
+    "label": "Bothaville",
+    "function": "3",
+    "lat": -27.383333,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "BOT",
+    "label": "BotrivIer",
+    "function": "3",
+    "lat": -34.216667,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Botshabelo",
+    "subdivisionCode": "FS",
+    "function": "36",
+    "lat": -26.833333,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "BWA",
+    "label": "Botswana",
+    "subdivisionCode": "EC",
+    "function": "13"
+  },
+  {
+    "locationCode": "8GT",
+    "label": "Bottelary",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.133333,
+    "lng": 18.1
+  },
+  {
+    "locationCode": "BGH",
+    "label": "Boughton",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.6,
+    "lng": 30.316667
+  },
+  {
+    "locationCode": "ZAO",
+    "label": "Braamfontein",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "ZAJ",
+    "label": "Brackenfell",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.866667,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "BRK",
+    "label": "Brakpan",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRM",
+    "label": "Bramley",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.116667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "ZFR",
+    "label": "Bramley View",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.016667,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "ZCS",
+    "label": "Bredasdorp",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.533333,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "BRV",
+    "label": "Breërivier",
+    "subdivisionCode": "WC",
+    "labelWithDiacritics": "Breerivier",
+    "function": "3",
+    "lat": -33.533333,
+    "lng": 19.216667
+  },
+  {
+    "locationCode": "ZAH",
+    "label": "Briardene",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.766667,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Brits",
+    "function": "3",
+    "lat": -25.616667,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "BDS",
+    "label": "Broederstroom",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -25.8,
+    "lng": 27.866667
+  },
+  {
+    "locationCode": "BHT",
+    "label": "Bronkhorstspruit",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -25.816667,
+    "lng": 28.733333
+  },
+  {
+    "locationCode": "BMA",
+    "label": "Bruma",
+    "function": "3",
+    "lat": -26.166667,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "ZFT",
+    "label": "Brummeria",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.733333,
+    "lng": 28.283333
+  },
+  {
+    "locationCode": "BSN",
+    "label": "Bryanston",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.05,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "BLW",
+    "label": "Bulwer",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.8,
+    "lng": 29.75
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Burgersdorp",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -30.983333,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Burgersfort",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.666667,
+    "lng": 30.316667
+  },
+  {
+    "locationCode": "UTE",
+    "label": "Butterworth",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAD",
+    "label": "Caledon",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.216667,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "CZP",
+    "label": "Calitzdorp",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.533333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "ZAU",
+    "label": "Cambridge",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.966667,
+    "lng": 27.883333
+  },
+  {
+    "locationCode": "CMN",
+    "label": "Camperdown",
+    "function": "3",
+    "lat": -29.716667,
+    "lng": 30.516667
+  },
+  {
+    "locationCode": "CPB",
+    "label": "Camps Bay",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.95,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "ZAS",
+    "label": "Canelands",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.616667,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Cape Agulhas",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.833333,
+    "lng": 20
+  },
+  {
+    "locationCode": "CSF",
+    "label": "Cape St. Francis",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -34.183333,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "CPT",
+    "label": "Cape Town",
+    "subdivisionCode": "WC",
+    "function": "12345",
+    "lat": -33.916667,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "ZAT",
+    "label": "Capital Park",
+    "subdivisionCode": "GT",
+    "function": "236",
+    "lat": -25.733333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "CTV",
+    "label": "Carletonville",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.366667,
+    "lng": 27.4
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carolina",
+    "subdivisionCode": "MP",
+    "function": "3"
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Cato Ridge",
+    "function": "3",
+    "lat": -29.716667,
+    "lng": 30.583333
+  },
+  {
+    "locationCode": "ZAY",
+    "label": "Centurion",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.866667,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "CCT",
+    "label": "Century City",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "CRS",
+    "label": "Ceres",
+    "function": "3",
+    "lat": -33.35,
+    "lng": 19.3
+  },
+  {
+    "locationCode": "ZFS",
+    "label": "Chamdor",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "CTH",
+    "label": "Chatsworth",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.9,
+    "lng": 30.883333
+  },
+  {
+    "locationCode": "ZAV",
+    "label": "Chiselhurst",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.966667,
+    "lng": 27.866667
+  },
+  {
+    "locationCode": "CHP",
+    "label": "Chloorkop",
+    "function": "3",
+    "lat": -28.05,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "CHR",
+    "label": "Christiana",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -27.916667,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "CIT",
+    "label": "Citrusdal",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -32.583333,
+    "lng": 19
+  },
+  {
+    "locationCode": "CTT",
+    "label": "City Centre",
+    "subdivisionCode": "EC",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZFU",
+    "label": "City Centre",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.583333,
+    "lng": 30.366667
+  },
+  {
+    "locationCode": "CTD",
+    "label": "City Deep",
+    "function": "0"
+  },
+  {
+    "locationCode": "ZBD",
+    "label": "Clairwood",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.916667,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "ZCT",
+    "label": "Clanwilliam",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -32.166667,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "ZAX",
+    "label": "Claremont",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.966667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "CLV",
+    "label": "Clayville",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25.95,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "ZBA",
+    "label": "Coega",
+    "subdivisionCode": "EC",
+    "function": "16",
+    "lat": -33.766667,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "ZFV",
+    "label": "Colleen Glen",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.966667,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "ZFX",
+    "label": "Collondale",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.016667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "CMT",
+    "label": "Compensation",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.5,
+    "lng": 31.183333
+  },
+  {
+    "locationCode": "CGN",
+    "label": "Congella",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.866667,
+    "lng": 31
+  },
+  {
+    "locationCode": "ZBC",
+    "label": "Constantia",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.016667,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Cordon's Bay",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.166667,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "COT",
+    "label": "Cotswold",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "CDO",
+    "label": "Cradock",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZBB",
+    "label": "Craighall",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Craighall Park",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.133333,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "CRM",
+    "label": "Cramond",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.4,
+    "lng": 30.416667
+  },
+  {
+    "locationCode": "CGH",
+    "label": "Creighton",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -30.033333,
+    "lng": 29.833333
+  },
+  {
+    "locationCode": "ZAW",
+    "label": "Crown Mines",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.216667,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "ZFW",
+    "label": "Culemborg",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.9,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "CNA",
+    "label": "Cullinan",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -25.666667,
+    "lng": 28.516667
+  },
+  {
+    "locationCode": "ZGE",
+    "label": "Dainfern",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.966667,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "DON",
+    "label": "Dalton",
+    "function": "3",
+    "lat": -29.316667,
+    "lng": 30.616667
+  },
+  {
+    "locationCode": "ZBG",
+    "label": "Dan Pienaar",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -29.083333,
+    "lng": 26.216667
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Danielskuil",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.183333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "DNH",
+    "label": "Dannhauser",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -28,
+    "lng": 30.05
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Darling",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.383333,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "DSS",
+    "label": "Dassenberg",
+    "subdivisionCode": "WC",
+    "function": "36",
+    "lat": -33.533333,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "ZBI",
+    "label": "Dawn",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.966667,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "DAC",
+    "label": "De Aar",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -30.65,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "DDR",
+    "label": "De Deur",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.533333,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "DRU",
+    "label": "De Rust",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.483333,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "DWK",
+    "label": "De Waterkant",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.9,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "DEA",
+    "label": "Deal Party",
+    "function": "3",
+    "lat": -33.9,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "DLM",
+    "label": "Delmas",
+    "function": "3",
+    "lat": -26.133333,
+    "lng": 28.666667
+  },
+  {
+    "locationCode": "DNV",
+    "label": "Deneysville",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -26.883333,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "ZBE",
+    "label": "Denver",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.216667,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "DES",
+    "label": "Despatch",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.8,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "ZBH",
+    "label": "Dieprivier",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.033333,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "DIU",
+    "label": "Dimbaza",
+    "function": "3",
+    "lat": -32.816667,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "ZBF",
+    "label": "Doornfontein",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.4,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "DOU",
+    "label": "Douglas",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -29.066667,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "DFS",
+    "label": "Duff's Road",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.75,
+    "lng": 31
+  },
+  {
+    "locationCode": "DUK",
+    "label": "Dukuduk",
+    "function": "4"
+  },
+  {
+    "locationCode": "DCV",
+    "label": "Duncanville/Vereeniging",
+    "function": "23",
+    "lat": -26.65,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "DND",
+    "label": "Dundee",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -28.166667,
+    "lng": 30.216667
+  },
+  {
+    "locationCode": "DNN",
+    "label": "Dunnottar",
+    "function": "3",
+    "lat": -26.333333,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "DUN",
+    "label": "Dunswart/Boksburg",
+    "function": "23",
+    "lat": -26.2,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "DUR",
+    "label": "Durban",
+    "subdivisionCode": "KZN",
+    "function": "12345",
+    "lat": -29.85,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "B6D",
+    "label": "Durban North",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.8,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "DVI",
+    "label": "Durbanville",
+    "function": "3",
+    "lat": -33.816667,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "DWA",
+    "label": "Dwaalboom",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.716667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "DZA",
+    "label": "Dzanani",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -22.883333,
+    "lng": 30.166667
+  },
+  {
+    "locationCode": "ZBK",
+    "label": "East End",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "ELS",
+    "label": "East London",
+    "function": "1234"
+  },
+  {
+    "locationCode": "CTP",
+    "label": "Eastern Cape",
+    "subdivisionCode": "EC",
+    "function": "16",
+    "lat": -32.283333,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "EGL",
+    "label": "Edenglen",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.133333,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "EDE",
+    "label": "Edenvale",
+    "function": "3",
+    "lat": -26.116667,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "EDM",
+    "label": "Edgemead",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "EEK",
+    "label": "Eendekuil",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -32.683333,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "EER",
+    "label": "Eersterivier",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.016667,
+    "lng": 18.7
+  },
+  {
+    "locationCode": "ZBL",
+    "label": "Eikenhof",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.333333,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "ZBJ",
+    "label": "Ekandustria",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.7,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "EBY",
+    "label": "Elands Bay",
+    "subdivisionCode": "WC",
+    "function": "1",
+    "lat": -32.3,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "ELA",
+    "label": "Elandsfontein",
+    "function": "3"
+  },
+  {
+    "locationCode": "EPK",
+    "label": "Elarduspark",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -22.833333,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "EDK",
+    "label": "Eldoradopark",
+    "function": "3",
+    "lat": -26.3,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "ELG",
+    "label": "Elgin",
+    "function": "3",
+    "lat": -27.733333,
+    "lng": 32.033333
+  },
+  {
+    "locationCode": "ELM",
+    "label": "Elim",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.583333,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "ELT",
+    "label": "Elliot",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -31.333333,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "ELL",
+    "label": "Ellisras",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELB",
+    "label": "Elsburg",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.233333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "ESB",
+    "label": "Elsenburg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.85,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "ZBM",
+    "label": "Elsiesriver",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.916667,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "EMG",
+    "label": "Empangeni",
+    "function": "4"
+  },
+  {
+    "locationCode": "EPP",
+    "label": "Epping",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "ERM",
+    "label": "Ermelo",
+    "subdivisionCode": "MP",
+    "function": "235",
+    "lat": -26.533333,
+    "lng": 29.983333
+  },
+  {
+    "locationCode": "ECE",
+    "label": "Escombe",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.866667,
+    "lng": 30.9
+  },
+  {
+    "locationCode": "EHW",
+    "label": "Eshowe",
+    "function": "3",
+    "lat": -28.883333,
+    "lng": 31.466667
+  },
+  {
+    "locationCode": "EST",
+    "label": "Estcourt",
+    "function": "3",
+    "lat": -29,
+    "lng": 29.883333
+  },
+  {
+    "locationCode": "EZK",
+    "label": "Ezakheni",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": 28.6,
+    "lng": 29.916667
+  },
+  {
+    "locationCode": "FRG",
+    "label": "Faerie Glen",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -30.85,
+    "lng": 30.333333
+  },
+  {
+    "locationCode": "FVW",
+    "label": "Fairview",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -34,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "FAU",
+    "label": "Faure",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.033333,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "ZBR",
+    "label": "Felixton",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -28.816667,
+    "lng": 31.883333
+  },
+  {
+    "locationCode": "FCB",
+    "label": "Ficksburg",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZBN",
+    "label": "Firgrove",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.033333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "FHK",
+    "label": "Fish Hoek",
+    "subdivisionCode": "WC",
+    "function": "13"
+  },
+  {
+    "locationCode": "FGF",
+    "label": "Flagstaff",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -31.083333,
+    "lng": 29.483333
+  },
+  {
+    "locationCode": "ZBP",
+    "label": "Florida",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 27.916667
+  },
+  {
+    "locationCode": "FCH",
+    "label": "Fochville",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -26.483333,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "FBG",
+    "label": "Fordsburg",
+    "function": "3"
+  },
+  {
+    "locationCode": "FBE",
+    "label": "Fort Beaufort",
+    "function": "3",
+    "lat": -32.766667,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "ZBO",
+    "label": "Fort Jackson",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.883333,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "ZBQ",
+    "label": "Four Ways",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.033333,
+    "lng": 27.983333
+  },
+  {
+    "locationCode": "OFG",
+    "label": "Fouriesburg",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -28.616667,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "FRH",
+    "label": "Franschhoek",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "ZCI",
+    "label": "Franschoek",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.916667,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "FFE",
+    "label": "Fresnaye",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "GNB",
+    "label": "Gans Bay",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Gansbaai",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.583333,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "ZBS",
+    "label": "Garankuwa",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.583333,
+    "lng": 28
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Gardens",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "GSF",
+    "label": "Garsfontein",
+    "subdivisionCode": "GP",
+    "function": "1",
+    "lat": -25.783333,
+    "lng": 28.283333
+  },
+  {
+    "locationCode": "GTY",
+    "label": "Gately",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAU",
+    "label": "Gauteng",
+    "subdivisionCode": "GT",
+    "function": "23"
+  },
+  {
+    "locationCode": "GRJ",
+    "label": "George",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRM",
+    "label": "Germiston",
+    "function": "23"
+  },
+  {
+    "locationCode": "GZN",
+    "label": "Gezina",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -25.7,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "GNL",
+    "label": "Gillitts",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.8,
+    "lng": 30.8
+  },
+  {
+    "locationCode": "GIV",
+    "label": "Gingindlovu",
+    "function": "3",
+    "lat": -29.016667,
+    "lng": 31.583333
+  },
+  {
+    "locationCode": "GIY",
+    "label": "Giyani",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAY",
+    "label": "Glenashley",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.75,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "GLC",
+    "label": "Glencoe",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -28.183333,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "GLH",
+    "label": "Glenhurd",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.95,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "GWD",
+    "label": "Glenwood",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.866667,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "GLE",
+    "label": "Golela",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -27.316667,
+    "lng": 31.866667
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gonubie",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.933333,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "ZBU",
+    "label": "Goodwood",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.9,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "GBY",
+    "label": "Gordon's Bay",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.166667,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "ZCJ",
+    "label": "Gouda",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.3,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "3WC",
+    "label": "Goudiniweg",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -34.6,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "ZCB",
+    "label": "Graaff Reinet",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.25,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "GRW",
+    "label": "Graafwater",
+    "function": "3",
+    "lat": -32.25,
+    "lng": 19
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Grabouw",
+    "function": "3",
+    "lat": -34.15,
+    "lng": 19
+  },
+  {
+    "locationCode": "GRH",
+    "label": "Grahamstown",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "GPT",
+    "label": "Green Point",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Greenacres",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.666667,
+    "lng": 27.8
+  },
+  {
+    "locationCode": "GEB",
+    "label": "Greenbushes",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "GHN",
+    "label": "Greenhaven",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.033333,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "GSI",
+    "label": "Greenside",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "GRP",
+    "label": "Greenwood Park",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.783333,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "GYT",
+    "label": "Greyton",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.05,
+    "lng": 19.616667
+  },
+  {
+    "locationCode": "GRY",
+    "label": "Greytown",
+    "function": "3",
+    "lat": -29.05,
+    "lng": 30.583333
+  },
+  {
+    "locationCode": "GRV",
+    "label": "Greyville",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.833333,
+    "lng": 31
+  },
+  {
+    "locationCode": "ZBT",
+    "label": "Groblersdal",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": -25.15,
+    "lng": 29.383333
+  },
+  {
+    "locationCode": "GBU",
+    "label": "Groenbult",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -23.583333,
+    "lng": 29.933333
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Groot-Brakrivier",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.033333,
+    "lng": 22.216667
+  },
+  {
+    "locationCode": "GTV",
+    "label": "Grootvlei",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": 26.766667,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "GLU",
+    "label": "Guguletu",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.983333,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "HNB",
+    "label": "Haenertsburg",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -23.933333,
+    "lng": 29.95
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halfway House",
+    "function": "3",
+    "lat": -25.966667,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "HAM",
+    "label": "Hamilton",
+    "subdivisionCode": "FS",
+    "function": "3"
+  },
+  {
+    "locationCode": "HSL",
+    "label": "Hammanskraal",
+    "function": "3",
+    "lat": -25.4,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "HMM",
+    "label": "Hammarsdale",
+    "function": "3",
+    "lat": -29.783333,
+    "lng": 30.633333
+  },
+  {
+    "locationCode": "HNK",
+    "label": "Hankey",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.833333,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "HOK",
+    "label": "Hanover Park",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.983333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Harding",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.583333,
+    "lng": 29.883333
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Harrismith",
+    "function": "4"
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hartbeesfontein",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -26.766667,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "HBP",
+    "label": "Hartbeespoort",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -25.733333,
+    "lng": 27.883333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Hartebeespoort",
+    "subdivisionCode": "GT",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZCH",
+    "label": "Hartswater",
+    "subdivisionCode": "NC",
+    "function": "6",
+    "lat": -27.766667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "HTF",
+    "label": "Hatfield",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25.733333,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "HAI",
+    "label": "Hattingspruit",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -28.083333,
+    "lng": 30.133333
+  },
+  {
+    "locationCode": "HZV",
+    "label": "Hazyview",
+    "function": "4"
+  },
+  {
+    "locationCode": "HEI",
+    "label": "Heidelberg",
+    "function": "3"
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helderberg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.033333,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "HNP",
+    "label": "Hennopspark",
+    "subdivisionCode": "GT",
+    "function": "3",
+    "lat": -25.833333,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "HBA",
+    "label": "Herbertsdale",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.016667,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "HDL",
+    "label": "Heriotdale/Johannesburg",
+    "function": "23",
+    "lat": -26.2,
+    "lng": 28.116667
+  },
+  {
+    "locationCode": "HMB",
+    "label": "Hermannsburg",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.016667,
+    "lng": 30.766667
+  },
+  {
+    "locationCode": "ZGF",
+    "label": "Hermanstad",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.7,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "HMS",
+    "label": "Hermanus",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZCR",
+    "label": "Hex River",
+    "subdivisionCode": "NC",
+    "function": "6",
+    "lat": -30.966667,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "HXR",
+    "label": "Hexrivier",
+    "subdivisionCode": "WC",
+    "function": "236",
+    "lat": -33.483333,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "HI9",
+    "label": "Hibberdene",
+    "subdivisionCode": "KZN",
+    "function": "2",
+    "lat": -30.583333,
+    "lng": 30.583333
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hillcrest",
+    "function": "3",
+    "lat": -29.75,
+    "lng": 30.75
+  },
+  {
+    "locationCode": "HLW",
+    "label": "Hluhluwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "HDS",
+    "label": "Hoedspruit",
+    "function": "4"
+  },
+  {
+    "locationCode": "HDW",
+    "label": "Honeydew",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.066667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Hoopstad",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -27.833333,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "HPF",
+    "label": "Hopefield",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.066667,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "HPT",
+    "label": "Hopetown",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -29.616667,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "HST",
+    "label": "Houghton Estate",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.15,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "ZCF",
+    "label": "Hout Bay",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.033333,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "HOW",
+    "label": "Howick",
+    "function": "3",
+    "lat": -29.483333,
+    "lng": 30.216667
+  },
+  {
+    "locationCode": "HGT",
+    "label": "Huguenot",
+    "function": "3",
+    "lat": -31.083333,
+    "lng": 26.6
+  },
+  {
+    "locationCode": "ZCG",
+    "label": "Humansdorp",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -34.033333,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "HUM",
+    "label": "Humewood",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.966667,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "HYD",
+    "label": "Hyde Park",
+    "subdivisionCode": "GT",
+    "function": "3"
+  },
+  {
+    "locationCode": "ILV",
+    "label": "Illovo",
+    "subdivisionCode": "GT",
+    "function": "3"
+  },
+  {
+    "locationCode": "IMP",
+    "label": "Impendle",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.6,
+    "lng": 29.866667
+  },
+  {
+    "locationCode": "IDW",
+    "label": "Indwe",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -31.466667,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "INY",
+    "label": "Inyati",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZCN",
+    "label": "Irene",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.866667,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "ISD",
+    "label": "Isando",
+    "function": "3",
+    "lat": -26.133333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "ISP",
+    "label": "Isipingo Beach",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.983333,
+    "lng": 30.95
+  },
+  {
+    "locationCode": "ISB",
+    "label": "Isithebe",
+    "function": "23",
+    "lat": -29.1,
+    "lng": 31.416667
+  },
+  {
+    "locationCode": "IVI",
+    "label": "Island View",
+    "subdivisionCode": "KZN",
+    "function": "1",
+    "lat": -29.883333,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "IXO",
+    "label": "Ixopo",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.15,
+    "lng": 30.083333
+  },
+  {
+    "locationCode": "RSS",
+    "label": "Izmit",
+    "subdivisionCode": "NL",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZCP",
+    "label": "Jacobs",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.933333,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "JSV",
+    "label": "Jansenville",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.933333,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "JEF",
+    "label": "Jeffreys Bay",
+    "function": "3",
+    "lat": -34.05,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "ZFY",
+    "label": "Jeppestown",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.183333,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "JTP",
+    "label": "Jet Park",
+    "subdivisionCode": "GT",
+    "function": "1",
+    "lat": -26.166667,
+    "lng": 28.233333
+  },
+  {
+    "locationCode": "JNB",
+    "label": "Johannesburg",
+    "subdivisionCode": "GP",
+    "function": "2345",
+    "lat": -26.2,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "JBT",
+    "label": "Joubertina",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.816667,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "JUP",
+    "label": "Jupiter",
+    "subdivisionCode": "NC",
+    "function": "6",
+    "lat": -23.866667,
+    "lng": 29.033333
+  },
+  {
+    "locationCode": "KPM",
+    "label": "Kaapmuiden",
+    "function": "3",
+    "lat": -25.516667,
+    "lng": 31.3
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakamas",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.75,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Kanoneiland",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.65,
+    "lng": 21.083333
+  },
+  {
+    "locationCode": "KDW",
+    "label": "Kareedouw",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.95,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "ZCY",
+    "label": "Kaserne",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.216667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "KUU",
+    "label": "Kasulu",
+    "function": "16",
+    "lat": -4.566667,
+    "lng": 30.1
+  },
+  {
+    "locationCode": "KTU",
+    "label": "Kathu",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -27.7,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "ZAA",
+    "label": "Kayalami",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -29.016667,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "KEI",
+    "label": "Keimoes",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.7,
+    "lng": 20.966667
+  },
+  {
+    "locationCode": "KLV",
+    "label": "Kelvin",
+    "function": "3",
+    "lat": -26.95,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "KMP",
+    "label": "Kempton Park",
+    "function": "3"
+  },
+  {
+    "locationCode": "KHT",
+    "label": "Kenhardt",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -29.333333,
+    "lng": 21.15
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kenmore",
+    "subdivisionCode": "EC",
+    "function": "36",
+    "lat": -31.183333,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "ZCU",
+    "label": "Kensington",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.2,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kenton-on-Sea",
+    "subdivisionCode": "EC",
+    "function": "1",
+    "lat": -33.666667,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "KEW",
+    "label": "Kew",
+    "function": "3",
+    "lat": -26.116667,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "KKA",
+    "label": "Khayelitsha",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.05,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khoka Moya",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Khuma",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -26.85,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "KDB",
+    "label": "Kidd's Beach",
+    "function": "3",
+    "lat": -33.133333,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "ZCV",
+    "label": "Kiepersol",
+    "subdivisionCode": "MP",
+    "function": "6",
+    "lat": -25.066667,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Killarney Gardens",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimberley",
+    "function": "234"
+  },
+  {
+    "locationCode": "KWT",
+    "label": "King William's Town",
+    "function": "3",
+    "lat": -32.866667,
+    "lng": 27.383333
+  },
+  {
+    "locationCode": "BGR",
+    "label": "Kingsford",
+    "function": "16"
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirkwood",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.4,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "KTH",
+    "label": "Kirstenhof (Kirstenbosch)",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.066667,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "KLX",
+    "label": "Klapmuts",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.8,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "KSR",
+    "label": "Klaserie",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.55,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klawer",
+    "subdivisionCode": "WC",
+    "function": "23",
+    "lat": -31.766667,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "KMD",
+    "label": "Kleinmond",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.35,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "KLZ",
+    "label": "Kleinzee",
+    "function": "4"
+  },
+  {
+    "locationCode": "KXE",
+    "label": "Klerksdorp",
+    "function": "4"
+  },
+  {
+    "locationCode": "2WC",
+    "label": "Klipheuwel",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.7,
+    "lng": 18.7
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Kliprivier",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.583333,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "NLK",
+    "label": "Kloof",
+    "subdivisionCode": "KZN",
+    "function": "6"
+  },
+  {
+    "locationCode": "KNY",
+    "label": "Knysna",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.033333,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "KOB",
+    "label": "Koeberg",
+    "function": "3",
+    "lat": -29.766667,
+    "lng": 21.15
+  },
+  {
+    "locationCode": "KIG",
+    "label": "Koiingnaas",
+    "subdivisionCode": "NC",
+    "function": "34",
+    "lat": -30.2,
+    "lng": 17.283333
+  },
+  {
+    "locationCode": "KKD",
+    "label": "Kokstad",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -30.55,
+    "lng": 29.416667
+  },
+  {
+    "locationCode": "KOF",
+    "label": "Komatipoort",
+    "function": "234"
+  },
+  {
+    "locationCode": "KMG",
+    "label": "Komga",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.583333,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "KKN",
+    "label": "Komkans",
+    "subdivisionCode": "WC",
+    "function": "1",
+    "lat": -31.216667,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Kommetjie",
+    "subdivisionCode": "WC",
+    "function": "13",
+    "lat": -34.133333,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Koringberg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.033333,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "KTN",
+    "label": "Korsten",
+    "subdivisionCode": "EC",
+    "function": "36",
+    "lat": -33.916667,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "KST",
+    "label": "Koster",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZCW",
+    "label": "Kraaifontein",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.85,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Kragga Kamma",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -31.333333,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Kriel",
+    "subdivisionCode": "MP",
+    "function": "36",
+    "lat": -26.266667,
+    "lng": 29.233333
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Kroonstad",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -27.65,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "KDP",
+    "label": "Krugersdorp",
+    "function": "3"
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kuils River",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "KMH",
+    "label": "Kuruman",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDZ",
+    "label": "Kwadukuza",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.333333,
+    "lng": 31.283333
+  },
+  {
+    "locationCode": "KWF",
+    "label": "Kwaggafontein",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -25.283333,
+    "lng": 28.95
+  },
+  {
+    "locationCode": "KWM",
+    "label": "Kwamashu",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.75,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "ZKS",
+    "label": "Kya Sands",
+    "function": "6",
+    "lat": -26.016667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "KYA",
+    "label": "Kyalami",
+    "subdivisionCode": "GP",
+    "function": "13"
+  },
+  {
+    "locationCode": "LUC",
+    "label": "La Lucia",
+    "subdivisionCode": "KZN",
+    "function": "36",
+    "lat": -29.75,
+    "lng": 31.066667
+  },
+  {
+    "locationCode": "LAM",
+    "label": "La Mercy",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.633333,
+    "lng": 31.133333
+  },
+  {
+    "locationCode": "ZDG",
+    "label": "Laaiplek",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -32.766667,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "LAD",
+    "label": "Ladismith",
+    "subdivisionCode": "WC",
+    "function": "23",
+    "lat": -33.483333,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Ladybrand",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -29.2,
+    "lng": 27.45
+  },
+  {
+    "locationCode": "LAY",
+    "label": "Ladysmith",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKD",
+    "label": "Lakeside",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.083333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "L7A",
+    "label": "Langebaan",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.1,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "KOO",
+    "label": "Langkloof",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZDE",
+    "label": "Langlaagte",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.366667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "LDE",
+    "label": "Lansdowne",
+    "function": "23",
+    "lat": -33.983333,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "HLA",
+    "label": "Lanseria",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZDF",
+    "label": "Lenasia",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.316667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "HLE",
+    "label": "Lephalale",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -23.666667,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "LER",
+    "label": "Lerato",
+    "subdivisionCode": "NC",
+    "function": "13",
+    "lat": -29.566667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "ZDH",
+    "label": "Letsitele",
+    "function": "6",
+    "lat": -23.883333,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "LEB",
+    "label": "Levubu",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -23.083333,
+    "lng": 30.283333
+  },
+  {
+    "locationCode": "LIC",
+    "label": "Lichtenburg",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -26.15,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "LDG",
+    "label": "Lidgetton",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.45,
+    "lng": 30.1
+  },
+  {
+    "locationCode": "LMR",
+    "label": "Lime Acres",
+    "function": "4"
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limpopo",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24,
+    "lng": 29.5
+  },
+  {
+    "locationCode": "ION",
+    "label": "Lions River",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.466667,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "LDZ",
+    "label": "Londolozi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZDA",
+    "label": "Longmeadow East",
+    "function": "6",
+    "lat": -25.716667,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "LOR",
+    "label": "Lorraine",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.966667,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "ALH",
+    "label": "Lothair",
+    "subdivisionCode": "MP",
+    "function": "36",
+    "lat": -26.383333,
+    "lng": 30.433333
+  },
+  {
+    "locationCode": "LCD",
+    "label": "Louis Trichardt",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZCA",
+    "label": "Louterwater",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.8,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "LUJ",
+    "label": "Lusikisiki",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTZ",
+    "label": "Lutzville",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -31.55,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "LYD",
+    "label": "Lydenburg",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -25.1,
+    "lng": 30.45
+  },
+  {
+    "locationCode": "ZDI",
+    "label": "Lyndhurst",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.133333,
+    "lng": 28.116667
+  },
+  {
+    "locationCode": "ZDJ",
+    "label": "Lynnwood",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.75,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "ZDK",
+    "label": "Lyttelton",
+    "subdivisionCode": "GT",
+    "function": "6"
+  },
+  {
+    "locationCode": "MD3",
+    "label": "Madantsane",
+    "subdivisionCode": "EC",
+    "function": "13",
+    "lat": -32.95,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "MFK",
+    "label": "Mafikeng",
+    "function": "234"
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Magaliesburg",
+    "function": "3",
+    "lat": -25.983333,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Maidstone",
+    "function": "3",
+    "lat": -29.55,
+    "lng": 31.133333
+  },
+  {
+    "locationCode": "MLD",
+    "label": "Maitland",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "AAM",
+    "label": "Mala Mala",
+    "function": "4"
+  },
+  {
+    "locationCode": "LLE",
+    "label": "Malelane",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZCO",
+    "label": "Malmesbury",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.45,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "ZDO",
+    "label": "Malvern East",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.183333,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Mandeni",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.15,
+    "lng": 31.4
+  },
+  {
+    "locationCode": "MND",
+    "label": "Mandileni",
+    "function": "3",
+    "lat": -30.8,
+    "lng": 28.683333
+  },
+  {
+    "locationCode": "ZDN",
+    "label": "Maraisburg",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Marble Hall",
+    "subdivisionCode": "MP",
+    "function": "23",
+    "lat": -24.95,
+    "lng": 29.3
+  },
+  {
+    "locationCode": "MRC",
+    "label": "Marchand",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.716667,
+    "lng": 20.5
+  },
+  {
+    "locationCode": "MGH",
+    "label": "Margate",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRH",
+    "label": "Mariannhill",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.85,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "MKM",
+    "label": "Markman",
+    "function": "7",
+    "lat": -33.8,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "LBR",
+    "label": "Marlboro",
+    "subdivisionCode": "EC",
+    "function": "3"
+  },
+  {
+    "locationCode": "MQD",
+    "label": "Marquard",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -28.666667,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "MST",
+    "label": "Marshalltown",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.2,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "MDL",
+    "label": "Martindale",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -31.666667,
+    "lng": 26.55
+  },
+  {
+    "locationCode": "MSU",
+    "label": "Maseru",
+    "subdivisionCode": "NW",
+    "function": "36",
+    "lat": -26.416667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matroosfontein",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "MHW",
+    "label": "Matshewe",
+    "subdivisionCode": "EC",
+    "function": "23"
+  },
+  {
+    "locationCode": "MWT",
+    "label": "Maydon Whart",
+    "subdivisionCode": "NL",
+    "function": "13"
+  },
+  {
+    "locationCode": "MGR",
+    "label": "McGregor",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.95,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "AS3",
+    "label": "Mdantsane",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -32.95,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "MDE",
+    "label": "Meadowdale",
+    "subdivisionCode": "GT",
+    "function": "13"
+  },
+  {
+    "locationCode": "MKD",
+    "label": "Melkbosstrand",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.733333,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "MEM",
+    "label": "Memel",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -27.683333,
+    "lng": 29.566667
+  },
+  {
+    "locationCode": "MPA",
+    "label": "Menlo Park",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -25.766667,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Merebank",
+    "function": "3",
+    "lat": 29.966667,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "ZDL",
+    "label": "Merebank East",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.916667,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "MRV",
+    "label": "Merrivale",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.516667,
+    "lng": 30.233333
+  },
+  {
+    "locationCode": "MEZ",
+    "label": "Messina",
+    "function": "234"
+  },
+  {
+    "locationCode": "MEY",
+    "label": "Meyerton",
+    "function": "3",
+    "lat": -26.566667,
+    "lng": 28
+  },
+  {
+    "locationCode": "MDB",
+    "label": "Middelburg",
+    "function": "3",
+    "lat": -25.766667,
+    "lng": 29.466667
+  },
+  {
+    "locationCode": "MID",
+    "label": "Middelkraal",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -33.233333,
+    "lng": 19.1
+  },
+  {
+    "locationCode": "MRD",
+    "label": "Midrand",
+    "function": "3",
+    "lat": -26,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "MDV",
+    "label": "Midvaal",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.566667,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "ZDQ",
+    "label": "Milnerton",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.866667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "MTP",
+    "label": "Mitchells Plain",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.05,
+    "lng": 18.616667
+  },
+  {
+    "locationCode": "MBM",
+    "label": "Mkambati",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZQ",
+    "label": "Mkuze",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBD",
+    "label": "Mmabatho",
+    "function": "34"
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Mobeni",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.95,
+    "lng": 30.95
+  },
+  {
+    "locationCode": "ZDM",
+    "label": "Modderfontein",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.1,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "MOD",
+    "label": "Modimolle",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.7,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "MON",
+    "label": "Montagu",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.783333,
+    "lng": 20.1
+  },
+  {
+    "locationCode": "ZDP",
+    "label": "Montague Gardens",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.866667,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "MOO",
+    "label": "Mooi River",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.183333,
+    "lng": 30
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Mookgophong",
+    "subdivisionCode": "LP",
+    "function": "6",
+    "lat": -24.516667,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Moorreesburg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.5,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "MGZ",
+    "label": "Morgenzon",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -26.733333,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "MNG",
+    "label": "Morningside",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": 26.066667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "MSE",
+    "label": "Morningside",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.816667,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "MZY",
+    "label": "Mossel Bay",
+    "function": "14"
+  },
+  {
+    "locationCode": "MWR",
+    "label": "Motswari",
+    "function": "4"
+  },
+  {
+    "locationCode": "EDG",
+    "label": "Mount Edgecombe",
+    "subdivisionCode": "NL",
+    "function": "1"
+  },
+  {
+    "locationCode": "MPL",
+    "label": "Mount Pleasant",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -34,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "MBY",
+    "label": "Mowbray",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "MPM",
+    "label": "Mpumalanga",
+    "subdivisionCode": "KZN",
+    "function": "3"
+  },
+  {
+    "locationCode": "MTZ",
+    "label": "Mtunzini",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -28.95,
+    "lng": 31.75
+  },
+  {
+    "locationCode": "MTW",
+    "label": "Mtwalume",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.483333,
+    "lng": 30.633333
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Muldersdrif",
+    "subdivisionCode": "GT",
+    "function": "3",
+    "lat": 26.033333,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murraysburg",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -31.95,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "MGE",
+    "label": "Musgrave",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.85,
+    "lng": 31
+  },
+  {
+    "locationCode": "MZF",
+    "label": "Mzamba(Wild Coast Sun)",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZCC",
+    "label": "Naboomspruit",
+    "subdivisionCode": "LP",
+    "function": "6",
+    "lat": -24.516667,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "NPR",
+    "label": "Napier",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.466667,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Natala",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -30.75,
+    "lng": 29.216667
+  },
+  {
+    "locationCode": "NDB",
+    "label": "Ndabeni",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -26.933333,
+    "lng": 32.016667
+  },
+  {
+    "locationCode": "NNB",
+    "label": "Ndabeni",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "NEA",
+    "label": "Neave",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "NLP",
+    "label": "Nelspruit",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAP",
+    "label": "New Brighton West",
+    "function": "6",
+    "lat": -33.883333,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "ZGA",
+    "label": "New Centre",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.2,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "NGG",
+    "label": "New Germany",
+    "subdivisionCode": "NL",
+    "function": "136",
+    "lat": -29.8,
+    "lng": 30.883333
+  },
+  {
+    "locationCode": "NCS",
+    "label": "Newcastle",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZDT",
+    "label": "Newlands",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "LWD",
+    "label": "Newlands",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.966667,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "ZDU",
+    "label": "Newton Park",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.95,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "NGL",
+    "label": "Ngala",
+    "function": "4"
+  },
+  {
+    "locationCode": "NGW",
+    "label": "Ngodwana",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -25.566667,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "ZDS",
+    "label": "Nigel",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.416667,
+    "lng": 28.466667
+  },
+  {
+    "locationCode": "NCC",
+    "label": "Noblesfontein",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -31.783333,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "NON",
+    "label": "Nongoma",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -27.9,
+    "lng": 31.65
+  },
+  {
+    "locationCode": "NDW",
+    "label": "Noordheuwel",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.083333,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "NOO",
+    "label": "Noordhoek",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.1,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "ZDR",
+    "label": "North End",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.933333,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "ZDV",
+    "label": "North Riding",
+    "function": "6",
+    "lat": -26.35,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "NCF",
+    "label": "Northcliff",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -26.133333,
+    "lng": 27.95
+  },
+  {
+    "locationCode": "NTD",
+    "label": "Northdene",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.866667,
+    "lng": 30.883333
+  },
+  {
+    "locationCode": "NNL",
+    "label": "Nottingham Road",
+    "subdivisionCode": "KZN",
+    "function": "16",
+    "lat": -29.35,
+    "lng": 30
+  },
+  {
+    "locationCode": "NUF",
+    "label": "Nuffield Springs",
+    "function": "1"
+  },
+  {
+    "locationCode": "NYB",
+    "label": "Nyimba",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -14.55,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "NYL",
+    "label": "Nylstroom",
+    "function": "23",
+    "lat": -24.683333,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "OBS",
+    "label": "Observatory",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "ODS",
+    "label": "Odendaalsrus",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -27.866667,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "OGS",
+    "label": "Ogies",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -26.05,
+    "lng": 29.066667
+  },
+  {
+    "locationCode": "OLI",
+    "label": "Olifantsfontein",
+    "function": "3",
+    "lat": -25.95,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "NDR",
+    "label": "Onderstepoort",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -25.65,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "ZDY",
+    "label": "Ongelegen",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.733333,
+    "lng": 23.4
+  },
+  {
+    "locationCode": "OUS",
+    "label": "Onrus",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.4,
+    "lng": 19.183333
+  },
+  {
+    "locationCode": "ZDW",
+    "label": "Op-die-Berg",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.016667,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "ZGB",
+    "label": "Ophirton",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.2,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "ZEA",
+    "label": "Orange Grove",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "ZDX",
+    "label": "Oranjezicht",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.933333,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "ORK",
+    "label": "Orkney",
+    "subdivisionCode": "NW",
+    "function": "3"
+  },
+  {
+    "locationCode": "OSH",
+    "label": "Oshoek",
+    "function": "0"
+  },
+  {
+    "locationCode": "OTT",
+    "label": "Ottawa",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.666667,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "ZED",
+    "label": "Ottery",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.016667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "OUH",
+    "label": "Oudtshoorn",
+    "function": "4"
+  },
+  {
+    "locationCode": "RPT",
+    "label": "Overport",
+    "function": "3",
+    "lat": 29.833333,
+    "lng": 31
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Paardeneiland",
+    "function": "13",
+    "lat": -33.916667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Paarl",
+    "function": "3",
+    "lat": -33.716667,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "ZGC",
+    "label": "Paarl Wpk",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.716667,
+    "lng": 19
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Park Rynie",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.316667,
+    "lng": 30.733333
+  },
+  {
+    "locationCode": "ZEG",
+    "label": "Parktown",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "PRW",
+    "label": "Parow",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": 18.616667
+  },
+  {
+    "locationCode": "ZEE",
+    "label": "Parys",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -26.9,
+    "lng": 27.45
+  },
+  {
+    "locationCode": "ZBV",
+    "label": "Patensie",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.75,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "PLP",
+    "label": "Paulpietersburg",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -27.416667,
+    "lng": 30.816667
+  },
+  {
+    "locationCode": "PAU",
+    "label": "Paulshof",
+    "subdivisionCode": "GT",
+    "function": "3"
+  },
+  {
+    "locationCode": "PLD",
+    "label": "Pelindaba",
+    "subdivisionCode": "NC",
+    "function": "36",
+    "lat": -29,
+    "lng": 24
+  },
+  {
+    "locationCode": "PDE",
+    "label": "Pelindaba East",
+    "subdivisionCode": "NW",
+    "function": "6"
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Pennington",
+    "subdivisionCode": "KZN",
+    "function": "16",
+    "lat": -30.383333,
+    "lng": 30.7
+  },
+  {
+    "locationCode": "ZEF",
+    "label": "Perseverance",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.816667,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "PHW",
+    "label": "Phalaborwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "PHD",
+    "label": "Philadelphia",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.666667,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "PDZ",
+    "label": "Philidelphia",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.65,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "PH4",
+    "label": "Philippi",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.016667,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "PHX",
+    "label": "Phoenix",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHU",
+    "label": "Phuthaditjhaba",
+    "function": "3",
+    "lat": -28.516667,
+    "lng": 28.8
+  },
+  {
+    "locationCode": "PRF",
+    "label": "Piet Retief",
+    "subdivisionCode": "MP",
+    "function": "235",
+    "lat": -27,
+    "lng": 30.8
+  },
+  {
+    "locationCode": "PZB",
+    "label": "Pietermaritzburg",
+    "function": "45"
+  },
+  {
+    "locationCode": "PTG",
+    "label": "Pietersburg",
+    "function": "4"
+  },
+  {
+    "locationCode": "PIK",
+    "label": "Piketberg",
+    "subdivisionCode": "WC",
+    "function": "23",
+    "lat": -32.9,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "PIB",
+    "label": "Pilanesberg",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -25.25,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "PLN",
+    "label": "Pinelands",
+    "subdivisionCode": "WC",
+    "function": "5",
+    "lat": 33.916667,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Pinetown",
+    "function": "3"
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Plessislaer",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.633333,
+    "lng": 30.35
+  },
+  {
+    "locationCode": "PBZ",
+    "label": "Plettenberg Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "PTD",
+    "label": "Plumstead",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.016667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "POF",
+    "label": "Pofadder",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -29.133333,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Point",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polokwane",
+    "function": "3"
+  },
+  {
+    "locationCode": "PON",
+    "label": "Pongola",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -27.366667,
+    "lng": 31.6
+  },
+  {
+    "locationCode": "AFD",
+    "label": "Port Alfred",
+    "function": "4"
+  },
+  {
+    "locationCode": "PED",
+    "label": "Port Edward",
+    "function": "1356",
+    "lat": -31.05,
+    "lng": 30.216667
+  },
+  {
+    "locationCode": "PLZ",
+    "label": "Port Elizabeth",
+    "function": "145"
+  },
+  {
+    "locationCode": "NOL",
+    "label": "Port Nolloth",
+    "function": "1"
+  },
+  {
+    "locationCode": "NGQ",
+    "label": "Port of Ngqura",
+    "subdivisionCode": "EC",
+    "function": "16",
+    "lat": -33.766667,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "JOH",
+    "label": "Port Saint John's",
+    "subdivisionCode": "EC",
+    "function": "134",
+    "lat": -31.633333,
+    "lng": 29.533333
+  },
+  {
+    "locationCode": "ZCK",
+    "label": "Port Shepstone",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.75,
+    "lng": 30.45
+  },
+  {
+    "locationCode": "POR",
+    "label": "Porterville",
+    "subdivisionCode": "WC",
+    "function": "23",
+    "lat": -33,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "PMB",
+    "label": "Postmasburg",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.316667,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "ZEH",
+    "label": "Potchefstroom",
+    "subdivisionCode": "NW",
+    "function": "6",
+    "lat": -26.716667,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "ZCE",
+    "label": "Potgietersrus",
+    "subdivisionCode": "LP",
+    "function": "6",
+    "lat": -24.166667,
+    "lng": 29.016667
+  },
+  {
+    "locationCode": "PRY",
+    "label": "Pretoria",
+    "subdivisionCode": "GP",
+    "function": "23456",
+    "lat": -25.7,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "PRK",
+    "label": "Prieska",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZEI",
+    "label": "Primrose",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.183333,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Prince Albert",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.216667,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Prospecton",
+    "function": "3"
+  },
+  {
+    "locationCode": "PUT",
+    "label": "Putfontein",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.116667,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "QBG",
+    "label": "Queensburgh",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.866667,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "UTW",
+    "label": "Queenstown",
+    "function": "4"
+  },
+  {
+    "locationCode": "QGN",
+    "label": "Quigney",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.016667,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "QWA",
+    "label": "QwaQwa",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -28.516667,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "RMB",
+    "label": "Ramatlhabama",
+    "function": "0"
+  },
+  {
+    "locationCode": "RGE",
+    "label": "Ramsgate",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.9,
+    "lng": 30.333333
+  },
+  {
+    "locationCode": "RDB",
+    "label": "Randburg",
+    "function": "3",
+    "lat": -26.083333,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "RFT",
+    "label": "Randfontein",
+    "function": "3",
+    "lat": -26.15,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Randjesfontein",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25.95,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "ZEJ",
+    "label": "Randvaal",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.483333,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "RTD",
+    "label": "Ratanda",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.55,
+    "lng": 28.333333
+  },
+  {
+    "locationCode": "RAW",
+    "label": "Rawsonville",
+    "subdivisionCode": "WC",
+    "function": "36",
+    "lat": -33.683333,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "ZEK",
+    "label": "Red Hill",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.333333,
+    "lng": 28.233333
+  },
+  {
+    "locationCode": "RHL",
+    "label": "Red Hill",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.766667,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "RDH",
+    "label": "Redhouse",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.833333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "RTZ",
+    "label": "Reitz",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -27.8,
+    "lng": 28.433333
+  },
+  {
+    "locationCode": "RVO",
+    "label": "Reivilo",
+    "function": "4"
+  },
+  {
+    "locationCode": "RVH",
+    "label": "Reservoir Hills",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.8,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "RTT",
+    "label": "Retreat",
+    "subdivisionCode": "NL",
+    "function": "3",
+    "lat": -31.916667,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "ZEM",
+    "label": "Retreat",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.05,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "REU",
+    "label": "Reunion",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.966667,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "RHS",
+    "label": "Rhodes",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -30.783333,
+    "lng": 27.95
+  },
+  {
+    "locationCode": "RCB",
+    "label": "Richards Bay",
+    "function": "14"
+  },
+  {
+    "locationCode": "RCM",
+    "label": "Richmond",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.866667,
+    "lng": 30.266667
+  },
+  {
+    "locationCode": "RBD",
+    "label": "Riebeeckstad",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -27.916667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "RWC",
+    "label": "Riebeek West",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.35,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "RKL",
+    "label": "Riebeek-Kasteel",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.383333,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "RDL",
+    "label": "Riversdale",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.1,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "7WC",
+    "label": "Riviersonderend",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -34.15,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "RVA",
+    "label": "Rivonia",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.05,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "SHM",
+    "label": "Robertsham",
+    "subdivisionCode": "EC",
+    "function": "13",
+    "lat": 26.25,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "ROD",
+    "label": "Robertson",
+    "function": "4"
+  },
+  {
+    "locationCode": "RBT",
+    "label": "Robertville",
+    "function": "36",
+    "lat": -26.85,
+    "lng": 28.95
+  },
+  {
+    "locationCode": "RKD",
+    "label": "Rocky's Drift",
+    "subdivisionCode": "MP",
+    "function": "3"
+  },
+  {
+    "locationCode": "RDK",
+    "label": "Roodekop",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -29.183333,
+    "lng": 26.766667
+  },
+  {
+    "locationCode": "RDP",
+    "label": "Roodepoort",
+    "function": "3",
+    "lat": -26.133333,
+    "lng": 27.866667
+  },
+  {
+    "locationCode": "ZEL",
+    "label": "Rooihuiskraal",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.9,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "RBK",
+    "label": "Rosebank",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.95,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "ZEN",
+    "label": "Rosettenville",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.25,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "ZEO",
+    "label": "Rosherville",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.166667,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "RSH",
+    "label": "Rossburgh",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.9,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosslyn",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25.616667,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "RDW",
+    "label": "Rust De Winter",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -25.2,
+    "lng": 28.6
+  },
+  {
+    "locationCode": "RSB",
+    "label": "Rustenburg",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -25.65,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Rustenburg, Thabazimbi",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.916667,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "GSS",
+    "label": "Sabi Sabi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Saint Albans",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "SFB",
+    "label": "Saint Francis Bay",
+    "function": "3",
+    "lat": -34.183333,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "ZER",
+    "label": "Saint Helena Bay",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -32.766667,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "SDB",
+    "label": "Saldanha Bay",
+    "function": "14"
+  },
+  {
+    "locationCode": "ZEP",
+    "label": "Salt River",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.916667,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandhurst",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "SDT",
+    "label": "Sandton",
+    "function": "3",
+    "lat": -26.066667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "ZCQ",
+    "label": "Saron",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.166667,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sasolburg",
+    "function": "3",
+    "lat": -26.816667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "ZGD",
+    "label": "Saxonwold",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.15,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Scottburgh",
+    "function": "3",
+    "lat": -30.266667,
+    "lng": 30.75
+  },
+  {
+    "locationCode": "ZEW",
+    "label": "Sea Point",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.916667,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "SVW",
+    "label": "Sea View",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.9,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "ZEC",
+    "label": "Secunda",
+    "function": "4"
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selby",
+    "subdivisionCode": "GT",
+    "function": "6"
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Seshego",
+    "subdivisionCode": "NC",
+    "function": "6",
+    "lat": 23.85,
+    "lng": 29.383333
+  },
+  {
+    "locationCode": "ZE4",
+    "label": "Sezela",
+    "subdivisionCode": "KZN",
+    "function": "13",
+    "lat": -30.416667,
+    "lng": 30.683333
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Shaka's Rock",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -29.5,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "SHR",
+    "label": "Shaka's Rock",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.5,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "SHS",
+    "label": "Shakaskraal",
+    "function": "3",
+    "lat": -29.433333,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "SHO",
+    "label": "Shongweni",
+    "subdivisionCode": "NL",
+    "function": "3"
+  },
+  {
+    "locationCode": "SID",
+    "label": "Sidwell",
+    "subdivisionCode": "EC",
+    "function": "13"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Silverton",
+    "function": "3",
+    "lat": 25.716667,
+    "lng": 28.283333
+  },
+  {
+    "locationCode": "ZES",
+    "label": "Simondium",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.816667,
+    "lng": 18.933333
+  },
+  {
+    "locationCode": "SMN",
+    "label": "Simon's Town",
+    "subdivisionCode": "WC",
+    "function": "13",
+    "lat": -34.183333,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "SLW",
+    "label": "Sir Lowry's Pass Village",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.116667,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "SIS",
+    "label": "Sishen",
+    "function": "4"
+  },
+  {
+    "locationCode": "SZK",
+    "label": "Skukuza",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Slurry",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -25.816667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "ZBX",
+    "label": "Somerset East",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -32.716667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Somerset West",
+    "function": "3",
+    "lat": -34.066667,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "SNL",
+    "label": "Southbroom",
+    "subdivisionCode": "KZN",
+    "function": "16",
+    "lat": -30.916667,
+    "lng": 30.316667
+  },
+  {
+    "locationCode": "SD7",
+    "label": "Southdale",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.233333,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "SPO",
+    "label": "Southport",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.683333,
+    "lng": 30.5
+  },
+  {
+    "locationCode": "ZEV",
+    "label": "Soweto",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.266667,
+    "lng": 27.866667
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Sparks",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.833333,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "SBU",
+    "label": "Springbok",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZEQ",
+    "label": "Springfield",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.983333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Springs",
+    "function": "23"
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Stamford Hill",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.816667,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "STC",
+    "label": "Standerton",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -26.95,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "SFD",
+    "label": "Stanford",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.433333,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "SGR",
+    "label": "Stanger",
+    "function": "3",
+    "lat": -29.333333,
+    "lng": 31.283333
+  },
+  {
+    "locationCode": "STP",
+    "label": "Steelpoort",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -24.716667,
+    "lng": 30.2
+  },
+  {
+    "locationCode": "SNG",
+    "label": "Steenberg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.066667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "SLB",
+    "label": "Stellenberg",
+    "subdivisionCode": "WC",
+    "function": "36",
+    "lat": -33.866667,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "STH",
+    "label": "Stellenbosch",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "ZET",
+    "label": "Stikland",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.883333,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "SBI",
+    "label": "Stilbaai",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.366667,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "SFT",
+    "label": "Stilfontein",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26.833333,
+    "lng": 26.766667
+  },
+  {
+    "locationCode": "ZEX",
+    "label": "Stompneus",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -31.366667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "STD",
+    "label": "Strand",
+    "subdivisionCode": "WC",
+    "function": "123",
+    "lat": -34.116667,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "STR",
+    "label": "Struandale",
+    "subdivisionCode": "EC",
+    "function": "1"
+  },
+  {
+    "locationCode": "AVL",
+    "label": "Strubenvale",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.416667,
+    "lng": 28.766667
+  },
+  {
+    "locationCode": "STU",
+    "label": "Stutterheim",
+    "function": "3",
+    "lat": -32.55,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "SPL",
+    "label": "Suider-Paarl",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.766667,
+    "lng": 18.95
+  },
+  {
+    "locationCode": "ZEU",
+    "label": "Summerstrand",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -33.983333,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "NTY",
+    "label": "Sun City",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sun Valley",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Sunningdale",
+    "function": "6",
+    "lat": -24.333333,
+    "lng": 29.283333
+  },
+  {
+    "locationCode": "SNN",
+    "label": "Sunninghill",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.033333,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "SYD",
+    "label": "Sunnyridge",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.033333,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "ZEY",
+    "label": "Suurbekom",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.3,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "SWK",
+    "label": "Swartklip",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.933333,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "SWS",
+    "label": "Swartkops",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.85,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "SWG",
+    "label": "Swartruggens",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -25.65,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "SWE",
+    "label": "Swellendam",
+    "function": "0"
+  },
+  {
+    "locationCode": "SDH",
+    "label": "Sydenham",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "SYH",
+    "label": "Sydenham",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.816667,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "TVW",
+    "label": "Table View",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.816667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "TDT",
+    "label": "Tanda Tula",
+    "function": "4"
+  },
+  {
+    "locationCode": "TLT",
+    "label": "Tarlton",
+    "subdivisionCode": "GT",
+    "function": "3"
+  },
+  {
+    "locationCode": "TMB",
+    "label": "Tembisa",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -26,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "TCU",
+    "label": "Thaba Nchu",
+    "function": "4"
+  },
+  {
+    "locationCode": "THY",
+    "label": "Thohoyandou",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZFA",
+    "label": "Tokai",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.066667,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "TNT",
+    "label": "Tongaat",
+    "function": "3",
+    "lat": -29.566667,
+    "lng": 31.116667
+  },
+  {
+    "locationCode": "TWR",
+    "label": "Touws River",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.333333,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "TDD",
+    "label": "Trichardt",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -26.483333,
+    "lng": 29.233333
+  },
+  {
+    "locationCode": "TSD",
+    "label": "Tshipise",
+    "function": "4"
+  },
+  {
+    "locationCode": "TUL",
+    "label": "Tulbagh",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.266667,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "ZFB",
+    "label": "Tulisa Park",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.25,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "ZFC",
+    "label": "Turffontein",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.25,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "LTA",
+    "label": "Tzaneen",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZFD",
+    "label": "Ugie Ec",
+    "subdivisionCode": "EC",
+    "function": "6",
+    "lat": -31.183333,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "UHG",
+    "label": "Uitenhage",
+    "function": "23"
+  },
+  {
+    "locationCode": "ULC",
+    "label": "Ulco",
+    "subdivisionCode": "NC",
+    "function": "3",
+    "lat": -28.316667,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "ULD",
+    "label": "Ulundi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULX",
+    "label": "Ulusaba",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZFE",
+    "label": "Umbilo",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.9,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "UMB",
+    "label": "Umbogintwini",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -30.016667,
+    "lng": 30.916667
+  },
+  {
+    "locationCode": "UDI",
+    "label": "Umdloti",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.65,
+    "lng": 31.116667
+  },
+  {
+    "locationCode": "ZFF",
+    "label": "Umgeni Dam",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.583333,
+    "lng": 30.616667
+  },
+  {
+    "locationCode": "UHL",
+    "label": "Umhlali",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.766667,
+    "lng": 312.316667
+  },
+  {
+    "locationCode": "UMR",
+    "label": "Umhlanga Rocks",
+    "subdivisionCode": "KZN",
+    "function": "23",
+    "lat": -29.716667,
+    "lng": 31.083333
+  },
+  {
+    "locationCode": "UMH",
+    "label": "Umhlatuzana",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.883333,
+    "lng": 31
+  },
+  {
+    "locationCode": "UMK",
+    "label": "Umkomaas",
+    "function": "3",
+    "lat": -30.183333,
+    "lng": 30.783333
+  },
+  {
+    "locationCode": "ULZ",
+    "label": "Umlazi",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.966667,
+    "lng": 30.883333
+  },
+  {
+    "locationCode": "UTT",
+    "label": "Umtata",
+    "function": "4"
+  },
+  {
+    "locationCode": "UZK",
+    "label": "Umzimkulu",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.266667,
+    "lng": 29.933333
+  },
+  {
+    "locationCode": "UMZ",
+    "label": "Umzinto",
+    "function": "3",
+    "lat": -30.3,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "UTN",
+    "label": "Upington",
+    "function": "4"
+  },
+  {
+    "locationCode": "UTR",
+    "label": "Utrecht",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -27.65,
+    "lng": 30.333333
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Vaal",
+    "function": "3",
+    "lat": -26.766667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Vaalcon",
+    "subdivisionCode": "FS",
+    "function": "123"
+  },
+  {
+    "locationCode": "LMP",
+    "label": "Vaalwater",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.283333,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "VDP",
+    "label": "Vanderbijlpark",
+    "function": "3",
+    "lat": -26.683333,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Velddrif",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -32.783333,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "FVS",
+    "label": "Ventersburg",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -28.083333,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "VEN",
+    "label": "Ventersdorp",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -26.316667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "VGG",
+    "label": "Vereeniging",
+    "function": "3",
+    "lat": -26.65,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "VRG",
+    "label": "Vereeniging",
+    "function": "3",
+    "lat": -31.516667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "VER",
+    "label": "Vergenoeg",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -28.733333,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "VRM",
+    "label": "Vermont",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.416667,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "VEU",
+    "label": "Verulam",
+    "function": "3",
+    "lat": -29.633333,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "VXD",
+    "label": "Viljoensdrif",
+    "function": "3",
+    "lat": -26.716667,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Viljoenskroon",
+    "subdivisionCode": "FS",
+    "function": "6",
+    "lat": -27.216667,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "ZFH",
+    "label": "Villiersdorp",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.983333,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Virginia",
+    "subdivisionCode": "FS",
+    "function": "3",
+    "lat": -28.116667,
+    "lng": 26.9
+  },
+  {
+    "locationCode": "VOL",
+    "label": "Volksrust",
+    "subdivisionCode": "MP",
+    "function": "3",
+    "lat": -27.366667,
+    "lng": 29.883333
+  },
+  {
+    "locationCode": "VDB",
+    "label": "Vredenburg",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -32.9,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "VRE",
+    "label": "Vredendal",
+    "function": "4"
+  },
+  {
+    "locationCode": "VRU",
+    "label": "Vryburg",
+    "function": "4"
+  },
+  {
+    "locationCode": "VYD",
+    "label": "Vryheid",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZFG",
+    "label": "Vyeboom",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -34.066667,
+    "lng": 19.116667
+  },
+  {
+    "locationCode": "WDV",
+    "label": "Wadeville",
+    "function": "3",
+    "lat": -26.25,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "WKB",
+    "label": "Walker Bay",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "WLM",
+    "label": "Walmer",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.983333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "ZFK",
+    "label": "Waltloo",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.716667,
+    "lng": 28.333333
+  },
+  {
+    "locationCode": "WBK",
+    "label": "Wandsbeck",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -28.566667,
+    "lng": 31.416667
+  },
+  {
+    "locationCode": "WAM",
+    "label": "Warmbaths",
+    "subdivisionCode": "LP",
+    "function": "3",
+    "lat": -24.883333,
+    "lng": 28.283333
+  },
+  {
+    "locationCode": "WRB",
+    "label": "Warner Beach",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.083333,
+    "lng": 30.866667
+  },
+  {
+    "locationCode": "ZCL",
+    "label": "Wartburg",
+    "subdivisionCode": "NL",
+    "function": "6",
+    "lat": -29.433333,
+    "lng": 30.583333
+  },
+  {
+    "locationCode": "WFL",
+    "label": "Water Fall",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -30.4,
+    "lng": 29.333333
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Waterfront",
+    "subdivisionCode": "WC",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZFI",
+    "label": "Waterkloof",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -25.766667,
+    "lng": 28.233333
+  },
+  {
+    "locationCode": "WKG",
+    "label": "Waterkloof Glen",
+    "subdivisionCode": "GP",
+    "function": "3",
+    "lat": -25.783333,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "ZFM",
+    "label": "Waterkloof Ridge",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -30.3,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "WGD",
+    "label": "Welgemoed",
+    "subdivisionCode": "WC",
+    "function": "6",
+    "lat": -33.866667,
+    "lng": 18.616667
+  },
+  {
+    "locationCode": "WEL",
+    "label": "Welkom",
+    "function": "4"
+  },
+  {
+    "locationCode": "WLT",
+    "label": "Wellington",
+    "function": "3",
+    "lat": -33.633333,
+    "lng": 18.983333
+  },
+  {
+    "locationCode": "ZFJ",
+    "label": "Weltevredenpark",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.116667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "WWC",
+    "label": "Wemmershoek",
+    "subdivisionCode": "WC",
+    "function": "16",
+    "lat": -33.866667,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "WNW",
+    "label": "Wentworth",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.916667,
+    "lng": 31
+  },
+  {
+    "locationCode": "WBN",
+    "label": "West Bank",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.033333,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "WES",
+    "label": "Westering",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": -33.933333,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "U7S",
+    "label": "Westlake",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -34.083333,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "WMD",
+    "label": "Westmead",
+    "subdivisionCode": "NL",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZFN",
+    "label": "Westonaria",
+    "subdivisionCode": "GP",
+    "function": "6",
+    "lat": -26.316667,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "WRD",
+    "label": "Westridge",
+    "subdivisionCode": "KZN",
+    "function": "3",
+    "lat": -29.85,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "WVE",
+    "label": "Westville",
+    "subdivisionCode": "KZN",
+    "function": "6",
+    "lat": -29.833333,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "WHR",
+    "label": "White River",
+    "function": "3",
+    "lat": -25.316667,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "WDM",
+    "label": "Windermere",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": -18.516667
+  },
+  {
+    "locationCode": "WML",
+    "label": "Windmeul",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.65,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "WTN",
+    "label": "Winterton",
+    "subdivisionCode": "NL",
+    "function": "1"
+  },
+  {
+    "locationCode": "WIT",
+    "label": "Witbank",
+    "function": "3",
+    "lat": -25.85,
+    "lng": 29.2
+  },
+  {
+    "locationCode": "WFD",
+    "label": "Witfield",
+    "subdivisionCode": "GP",
+    "function": "23",
+    "lat": -26.183333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "WOL",
+    "label": "Wolmaransstad",
+    "subdivisionCode": "NW",
+    "function": "3",
+    "lat": -27.2,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "WSY",
+    "label": "Wolseley",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.416667,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "WBR",
+    "label": "Woodbrook",
+    "subdivisionCode": "EC",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZFL",
+    "label": "Woodmead",
+    "subdivisionCode": "GT",
+    "function": "6",
+    "lat": -26.016667,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "WDS",
+    "label": "Woodstock",
+    "subdivisionCode": "WC",
+    "function": "3"
+  },
+  {
+    "locationCode": "WOR",
+    "label": "Worcester",
+    "function": "3",
+    "lat": -33.633333,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "WNB",
+    "label": "Wynberg",
+    "function": "3",
+    "lat": -33.983333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "WYN",
+    "label": "Wynberg",
+    "subdivisionCode": "GT",
+    "function": "3",
+    "lat": -28.133333,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "YFT",
+    "label": "Yzerfontein",
+    "subdivisionCode": "WC",
+    "function": "3",
+    "lat": -33.333333,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "ZEB",
+    "label": "Zebediela",
+    "function": "3",
+    "lat": -24.283333,
+    "lng": 29.233333
+  },
+  {
+    "locationCode": "EUS",
+    "label": "Zeerust",
+    "subdivisionCode": "NW",
+    "function": "6",
+    "lat": -25.533333,
+    "lng": 26.083333
+  }
+]
