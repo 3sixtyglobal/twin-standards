@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-gs1",
-	"version": "0.0.3-next.30",
+	"version": "0.0.3-next.31",
 	"description": "Models which define the structure of GS1 Standard",
 	"repository": {
 		"type": "git",

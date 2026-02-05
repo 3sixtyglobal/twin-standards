@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.31](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.30...standards-unece-v0.0.3-next.31) (2026-02-05)
+
+
+### Features
+
+* add unlocode ([#140](https://github.com/twinfoundation/standards/issues/140)) ([4832edd](https://github.com/twinfoundation/standards/commit/4832edd24134f4027fbce257e9e80f12b216acf9))
+
 ## [0.0.3-next.30](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.29...standards-unece-v0.0.3-next.30) (2026-02-04)
 
 

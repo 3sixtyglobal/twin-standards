@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.31](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.30...standards-w3c-did-v0.0.3-next.31) (2026-02-05)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-did:** Synchronize repo versions
+
 ## [0.0.3-next.30](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.29...standards-w3c-did-v0.0.3-next.30) (2026-02-04)
 
 
