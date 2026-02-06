@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.31...standards-w3c-odrl-v0.0.3-next.32) (2026-02-06)
+
+
+### Features
+
+* align ODRL models with specification ([#142](https://github.com/twinfoundation/standards/issues/142)) ([e57088c](https://github.com/twinfoundation/standards/commit/e57088c6296d95cf5956f8e6d8104aa97a7e5fc1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.31 to 0.0.3-next.32
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.31 to 0.0.3-next.32
+
 ## [0.0.3-next.31](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.30...standards-w3c-odrl-v0.0.3-next.31) (2026-02-05)
 
 

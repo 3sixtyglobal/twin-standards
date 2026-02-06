@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.31...standards-foaf-v0.0.3-next.32) (2026-02-06)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
 ## [0.0.3-next.31](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.30...standards-foaf-v0.0.3-next.31) (2026-02-05)
 
 

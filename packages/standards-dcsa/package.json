@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-dcsa",
-	"version": "0.0.3-next.31",
+	"version": "0.0.3-next.32",
 	"description": "Models which define the structure of DCSA",
 	"repository": {
 		"type": "git",
