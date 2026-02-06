@@ -1,5 +1,53 @@
 # Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.32...standards-dataspace-protocol-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/twinfoundation/standards/issues/64)) ([e68bb87](https://github.com/twinfoundation/standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add dataspace protocol dataset ([06b2180](https://github.com/twinfoundation/standards/commit/06b21803551bef6c4c9fba488d672323b22ee54e))
+* add dataspace protocol dataset ([26d9031](https://github.com/twinfoundation/standards/commit/26d9031e18667b6e6c4395323522e4b56fcc0356))
+* add ds protocol catalog dataset ([#86](https://github.com/twinfoundation/standards/issues/86)) ([45600e6](https://github.com/twinfoundation/standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+* add missing const modifiers for enum const ([0f40483](https://github.com/twinfoundation/standards/commit/0f40483395b5d214ae7a80ff0f17991ee11acdea))
+* add missing const modifiers for enum const ([7e66eaf](https://github.com/twinfoundation/standards/commit/7e66eaff416654c6f71efd86c65557f7dcb55de1))
+* adding twin protocol endpoins constants ([#133](https://github.com/twinfoundation/standards/issues/133)) ([3592c81](https://github.com/twinfoundation/standards/commit/3592c811c368b23046ef8b60f6cca0eb8356ad87))
+* ds protocol - data transfer ([#77](https://github.com/twinfoundation/standards/issues/77)) ([1bf0375](https://github.com/twinfoundation/standards/commit/1bf03750c74daaa0eb133b03927a0f40eb27a1e3))
+* implement Dataspace Protocol Objects ([#73](https://github.com/twinfoundation/standards/issues/73)) ([2505495](https://github.com/twinfoundation/standards/commit/2505495c03b54a6606a775d7f2211308372c7cc6))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* naming fixing and usage ([#98](https://github.com/twinfoundation/standards/issues/98)) ([9e95344](https://github.com/twinfoundation/standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+* update schemas ([c3c11e0](https://github.com/twinfoundation/standards/commit/c3c11e07da6c0d3eac5ea4a68e3ad57f022b2351))
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* w3id endpoints constants added ([#131](https://github.com/twinfoundation/standards/issues/131)) ([5fe981a](https://github.com/twinfoundation/standards/commit/5fe981a6508bbf19886436cedb88c7044619e295))
+
+
+### Bug Fixes
+
+* adapting regex to fix the bad behavior ([#107](https://github.com/twinfoundation/standards/issues/107)) ([17ba814](https://github.com/twinfoundation/standards/commit/17ba8140b6356a1c4d5923c91a28a996f22af484))
+* context doc name ([e994ebc](https://github.com/twinfoundation/standards/commit/e994ebcd5d3b296b21a678716bf740c91e5899c3))
+* correct registration type for DS DCAT3 type ([04703df](https://github.com/twinfoundation/standards/commit/04703df048f56f6315bbd0bb73b7b6b62eb858a1))
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/twinfoundation/standards/issues/85)) ([4546167](https://github.com/twinfoundation/standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+* documentation. ds protocol LD Context updated ([6e5203d](https://github.com/twinfoundation/standards/commit/6e5203d3115a257653181a5f0cddb9f380cf9a39))
+* DS Protocol LDContext ([931679d](https://github.com/twinfoundation/standards/commit/931679d6736acbe55efee5d1f542b923ac3875eb))
+* dspace protocol context ([769c758](https://github.com/twinfoundation/standards/commit/769c7583b11db681c1fde66713976112b7f12de8))
+* filter is array in catalog request (please merge after [#77](https://github.com/twinfoundation/standards/issues/77)) ([#78](https://github.com/twinfoundation/standards/issues/78)) ([72a234c](https://github.com/twinfoundation/standards/commit/72a234c6620466ac4a5aded677af7590ccf94077))
+* omit context for dcat objects in dspace protocol ([#104](https://github.com/twinfoundation/standards/issues/104)) ([05004d4](https://github.com/twinfoundation/standards/commit/05004d40734a1e87473cb99c67e6c1c217cdf0c0))
+* removing typeof in the state of the IDataspaceProtocolTransferProcess model ([#94](https://github.com/twinfoundation/standards/issues/94)) ([2b9814e](https://github.com/twinfoundation/standards/commit/2b9814e4882a505a087455271782cd6d4ba5305d))
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/twinfoundation/standards/issues/119)) ([110cc50](https://github.com/twinfoundation/standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.32 to 0.0.3-next.33
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.32 to 0.0.3-next.33
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.32 to 0.0.3-next.33
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.31...standards-dataspace-protocol-v0.0.3-next.32) (2026-02-06)
 
 

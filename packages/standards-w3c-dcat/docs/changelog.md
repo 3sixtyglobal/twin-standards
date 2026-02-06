@@ -1,5 +1,34 @@
 # @twin.org/standards-w3c-dcat - Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.32...standards-w3c-dcat-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add ds protocol catalog dataset ([#86](https://github.com/twinfoundation/standards/issues/86)) ([45600e6](https://github.com/twinfoundation/standards/commit/45600e6cba212d85e250cb12cbdcb712d8db0e52))
+* add w3c dcat standards package ([#68](https://github.com/twinfoundation/standards/issues/68)) ([85746c6](https://github.com/twinfoundation/standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* naming fixing and usage ([#98](https://github.com/twinfoundation/standards/issues/98)) ([9e95344](https://github.com/twinfoundation/standards/commit/9e953440963c9bc028399be9cbea25d92922bd01))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+
+
+### Bug Fixes
+
+* dcat LD Context fix and aligned with DCAT prefixed models ([#85](https://github.com/twinfoundation/standards/issues/85)) ([4546167](https://github.com/twinfoundation/standards/commit/4546167b1f61dba85206a64a8b2535f468d74845))
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/twinfoundation/standards/issues/119)) ([110cc50](https://github.com/twinfoundation/standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.32 to 0.0.3-next.33
+    * @twin.org/standards-foaf bumped from 0.0.3-next.32 to 0.0.3-next.33
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.32 to 0.0.3-next.33
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.32 to 0.0.3-next.33
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.31...standards-w3c-dcat-v0.0.3-next.32) (2026-02-06)
 
 

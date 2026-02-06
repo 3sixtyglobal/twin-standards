@@ -1,5 +1,34 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.32...standards-unece-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/twinfoundation/standards/issues/64)) ([e68bb87](https://github.com/twinfoundation/standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add unlocode ([#140](https://github.com/twinfoundation/standards/issues/140)) ([4832edd](https://github.com/twinfoundation/standards/commit/4832edd24134f4027fbce257e9e80f12b216acf9))
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* data types registered with full qualified names ([d64bd08](https://github.com/twinfoundation/standards/commit/d64bd082084172da543e9bfaffb78cdc34e6641d))
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* export unece schemas ([ef9af8d](https://github.com/twinfoundation/standards/commit/ef9af8db9931d1b7ca3a77c15b17bba6a3e7badc))
+* generate unece types from JSON schema ([#71](https://github.com/twinfoundation/standards/issues/71)) ([5a596e7](https://github.com/twinfoundation/standards/commit/5a596e7a79c1a0b213560f5fb8b9ec5019d598d7))
+* improve the cardinality information in UNECE definitions ([03c6511](https://github.com/twinfoundation/standards/commit/03c6511fe5d009cfc861fa7ed091ea3cf4829359))
+* improve the cardinality information in UNECE definitions ([82e4ca3](https://github.com/twinfoundation/standards/commit/82e4ca30fc0073210e9d8aff2c8087baeb4ee3c6))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* update framework core ([58c0c3d](https://github.com/twinfoundation/standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update to latest JSON schema spec ([7a23930](https://github.com/twinfoundation/standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* update unece context property ([6ff8f20](https://github.com/twinfoundation/standards/commit/6ff8f2050beb5aef11c388605fae5b44d644b804))
+* use inline import for unece types ([ccf61f4](https://github.com/twinfoundation/standards/commit/ccf61f4e99da1ff1ca20eda6acff5059b5e103c1))
+* use shared store mechanism ([#11](https://github.com/twinfoundation/standards/issues/11)) ([96fa237](https://github.com/twinfoundation/standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* unece cardinality using incorrect properties of imported data ([#137](https://github.com/twinfoundation/standards/issues/137)) ([f236eb0](https://github.com/twinfoundation/standards/commit/f236eb04b466546a4c8aea491836da55e0cb2804))
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.31...standards-unece-v0.0.3-next.32) (2026-02-06)
 
 

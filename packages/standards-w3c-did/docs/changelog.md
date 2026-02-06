@@ -1,5 +1,33 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.32...standards-w3c-did-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* Add additional properties to the verifiable credential data model ([#8](https://github.com/twinfoundation/standards/issues/8)) ([4b7af9c](https://github.com/twinfoundation/standards/commit/4b7af9cf892e071eb348f30737c035c0f94591b5))
+* add context id features ([#64](https://github.com/twinfoundation/standards/issues/64)) ([e68bb87](https://github.com/twinfoundation/standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* alg usage ([#19](https://github.com/twinfoundation/standards/issues/19)) ([3946fb2](https://github.com/twinfoundation/standards/commit/3946fb2e8bd9a486ad186765d1d09361fa75786b))
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* export additional schemas ([4201127](https://github.com/twinfoundation/standards/commit/42011276a0b9110b75557c555f859db4d7382aca))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* normalise type outputs ([0b3aed7](https://github.com/twinfoundation/standards/commit/0b3aed7df0802cd609423bbd7fda6bde601d3ceb))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* separate DID VC v1 and v2 properties ([935cf0a](https://github.com/twinfoundation/standards/commit/935cf0a9cdee28c6f2d5480f1f2de126c838caf5))
+* separate DID VP v1 and v2 properties ([335a3c2](https://github.com/twinfoundation/standards/commit/335a3c2543ca5dbaae785568617ea85c0a8269ad))
+* update framework core ([58c0c3d](https://github.com/twinfoundation/standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update schemas ([c3c11e0](https://github.com/twinfoundation/standards/commit/c3c11e07da6c0d3eac5ea4a68e3ad57f022b2351))
+* update to latest JSON schema spec ([7a23930](https://github.com/twinfoundation/standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update ts-to-schema generation ([ba4e76d](https://github.com/twinfoundation/standards/commit/ba4e76d677556a1817092f8079d4cce67dee94bc))
+* update ts-to-schema generation ([0905daa](https://github.com/twinfoundation/standards/commit/0905daa4a344ed35fc37b7f12fcf9ce9d34e4bd6))
+* use shared store mechanism ([#11](https://github.com/twinfoundation/standards/issues/11)) ([96fa237](https://github.com/twinfoundation/standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.31...standards-w3c-did-v0.0.3-next.32) (2026-02-06)
 
 

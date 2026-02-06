@@ -1,5 +1,43 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.32...standards-gaia-x-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add context id features ([#64](https://github.com/twinfoundation/standards/issues/64)) ([e68bb87](https://github.com/twinfoundation/standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add gaia-x schemas ([54c48df](https://github.com/twinfoundation/standards/commit/54c48df8c3eb0ce74d9b9a887ea81c10110fce76))
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* align Data Resource and Service Offering definition (ODRL polic… ([#27](https://github.com/twinfoundation/standards/issues/27)) ([20797be](https://github.com/twinfoundation/standards/commit/20797beff059c6fb253401d49b654cd7a57762d5))
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* Extend Gaia-X types to support Participant specification variants ([#9](https://github.com/twinfoundation/standards/issues/9)) ([2df9641](https://github.com/twinfoundation/standards/commit/2df9641946fe27f916721978ca807002398c4199))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* inline context types in schemas ([11f8377](https://github.com/twinfoundation/standards/commit/11f8377b129d459a4596ff30a86651beacd7f743))
+* normalise type outputs ([0b3aed7](https://github.com/twinfoundation/standards/commit/0b3aed7df0802cd609423bbd7fda6bde601d3ceb))
+* update framework core ([58c0c3d](https://github.com/twinfoundation/standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update registrations ([dd3c92f](https://github.com/twinfoundation/standards/commit/dd3c92f52ff44679f61ff2a84b9fbc98bdc574d5))
+* update schemas ([c3c11e0](https://github.com/twinfoundation/standards/commit/c3c11e07da6c0d3eac5ea4a68e3ad57f022b2351))
+* update to latest JSON schema spec ([7a23930](https://github.com/twinfoundation/standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* use full ODRL objects in gaia-x ([5d532cf](https://github.com/twinfoundation/standards/commit/5d532cf519810251407c755efd41385a6f348825))
+* use shared store mechanism ([#11](https://github.com/twinfoundation/standards/issues/11)) ([96fa237](https://github.com/twinfoundation/standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* gaia-X Legal Person. Removal of Participant ([#42](https://github.com/twinfoundation/standards/issues/42)) ([71e3b48](https://github.com/twinfoundation/standards/commit/71e3b48be2917ad58b55eb25c86cdcfa17d1291f))
+* gaia-x pinned LD Context ([#59](https://github.com/twinfoundation/standards/issues/59)) ([7572616](https://github.com/twinfoundation/standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
+* refine the LD Context of Gaia-X entities ([#24](https://github.com/twinfoundation/standards/issues/24)) ([151c7f9](https://github.com/twinfoundation/standards/commit/151c7f940c900daac6c98a6f89ea5f708b25a1bd))
+* service offering endpoint is optional ([#56](https://github.com/twinfoundation/standards/issues/56)) ([788ae71](https://github.com/twinfoundation/standards/commit/788ae716052782f1e5361ba9e81c326b1b982494))
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.32 to 0.0.3-next.33
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.31...standards-gaia-x-v0.0.3-next.32) (2026-02-06)
 
 

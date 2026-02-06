@@ -1,5 +1,31 @@
 # @twin.org/standards-dublin-core - Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.32...standards-dublin-core-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add Collection and hasPart to Dublin Core ([#13](https://github.com/twinfoundation/standards/issues/13)) ([867ddbc](https://github.com/twinfoundation/standards/commit/867ddbcad0c4afec3c112b113eb97ab431cf84b1))
+* add context id features ([#64](https://github.com/twinfoundation/standards/issues/64)) ([e68bb87](https://github.com/twinfoundation/standards/commit/e68bb87a215f3c3956cfd6400a5e1e2a16256085))
+* add validate-locales ([838389c](https://github.com/twinfoundation/standards/commit/838389c1daf62ed42397d5758d267c3d1a37fa4d))
+* add w3c dcat standards package ([#68](https://github.com/twinfoundation/standards/issues/68)) ([85746c6](https://github.com/twinfoundation/standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* dublin core refactor ([548db75](https://github.com/twinfoundation/standards/commit/548db75600d44a0ab8f7bff2f07261552dc2b0b1))
+* eslint migration to flat config ([648c1a1](https://github.com/twinfoundation/standards/commit/648c1a1e69d99b6b0cf69358ec6bdeecdbe3a5ea))
+* export unece schemas ([ef9af8d](https://github.com/twinfoundation/standards/commit/ef9af8db9931d1b7ca3a77c15b17bba6a3e7badc))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* update framework core ([58c0c3d](https://github.com/twinfoundation/standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
+* update to latest JSON schema spec ([7a23930](https://github.com/twinfoundation/standards/commit/7a2393032d7f48bfb20d3a484f981fb6dd83a92c))
+* update ts-to-schema generation ([ba4e76d](https://github.com/twinfoundation/standards/commit/ba4e76d677556a1817092f8079d4cce67dee94bc))
+* update ts-to-schema generation ([0905daa](https://github.com/twinfoundation/standards/commit/0905daa4a344ed35fc37b7f12fcf9ce9d34e4bd6))
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+* use shared store mechanism ([#11](https://github.com/twinfoundation/standards/issues/11)) ([96fa237](https://github.com/twinfoundation/standards/commit/96fa23735f69c1fc7e3d0019b527634fa0a042d9))
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+* when a prefix is declared in an [@context](https://github.com/context) it should be Namespace and not Context ([#119](https://github.com/twinfoundation/standards/issues/119)) ([110cc50](https://github.com/twinfoundation/standards/commit/110cc5039394c7fcfada0e3ca001013cb503f31a))
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.31...standards-dublin-core-v0.0.3-next.32) (2026-02-06)
 
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.32...standards-foaf-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add w3c dcat standards package ([#68](https://github.com/twinfoundation/standards/issues/68)) ([85746c6](https://github.com/twinfoundation/standards/commit/85746c673464498a52e9c30ce498fd88b81a7434))
+* improved namespaces and contexts ([#102](https://github.com/twinfoundation/standards/issues/102)) ([c74c370](https://github.com/twinfoundation/standards/commit/c74c370cd8145d6166ca4454353f3774c302ac3b))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+* update type names ([#89](https://github.com/twinfoundation/standards/issues/89)) ([6fdef47](https://github.com/twinfoundation/standards/commit/6fdef4792151f89d1a95a07da8309d05a7b6de3d))
+
+
+### Bug Fixes
+
+* updating the missing packages ([#114](https://github.com/twinfoundation/standards/issues/114)) ([90b03f8](https://github.com/twinfoundation/standards/commit/90b03f8bdcd81506284d74a445840386c2da2d35))
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-foaf-v0.0.3-next.31...standards-foaf-v0.0.3-next.32) (2026-02-06)
 
 

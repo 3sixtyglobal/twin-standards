@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.32...standards-dcsa-v0.0.3-next.33) (2026-02-06)
+
+
+### Features
+
+* add dcsa package ([#124](https://github.com/twinfoundation/standards/issues/124)) ([ac443f5](https://github.com/twinfoundation/standards/commit/ac443f5a8ac55a8e28e699c44686eb7470624444))
+* register schemas at hosted location ([#128](https://github.com/twinfoundation/standards/issues/128)) ([ab35298](https://github.com/twinfoundation/standards/commit/ab35298c812d69f043f69c35ab5aa1ac4a6aaa90))
+
 ## [0.0.3-next.32](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.31...standards-dcsa-v0.0.3-next.32) (2026-02-06)
 
 
