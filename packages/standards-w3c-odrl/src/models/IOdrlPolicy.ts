@@ -3,8 +3,10 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IOdrlAction } from "./IOdrlAction.js";
 import type { IOdrlAsset } from "./IOdrlAsset.js";
+import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
 import type { IOdrlDuty } from "./IOdrlDuty.js";
 import type { IOdrlParty } from "./IOdrlParty.js";
+import type { IOdrlPartyCollection } from "./IOdrlPartyCollection.js";
 import type { IOdrlPermission } from "./IOdrlPermission.js";
 import type { IOdrlProhibition } from "./IOdrlProhibition.js";
 import type { OdrlContextType } from "./odrlContextType.js";
@@ -45,18 +47,30 @@ export interface IOdrlPolicy extends IJsonLdNodeObject {
 	 * The assigner of the policy.
 	 * Applies to all rules unless overridden at rule level.
 	 */
-	assigner?: string | IOdrlParty;
+	assigner?:
+		| string
+		| IOdrlParty
+		| IOdrlPartyCollection
+		| (string | IOdrlParty | IOdrlPartyCollection)[];
 
 	/**
 	 * The assignee of the policy.
 	 * Applies to all rules unless overridden at rule level.
 	 */
-	assignee?: string | IOdrlParty;
+	assignee?:
+		| string
+		| IOdrlParty
+		| IOdrlPartyCollection
+		| (string | IOdrlParty | IOdrlPartyCollection)[];
 
 	/**
 	 * The target asset for the rule.
 	 */
-	target?: string | IOdrlAsset | (string | IOdrlAsset)[];
+	target?:
+		| string
+		| IOdrlAsset
+		| IOdrlAssetCollection
+		| (string | IOdrlAsset | IOdrlAssetCollection)[];
 
 	/**
 	 * The action associated with the rule.
@@ -81,17 +95,17 @@ export interface IOdrlPolicy extends IJsonLdNodeObject {
 	 * The permissions in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	permission?: IOdrlPermission[];
+	permission?: IOdrlPermission | IOdrlPermission[];
 
 	/**
 	 * The prohibitions in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	prohibition?: IOdrlProhibition[];
+	prohibition?: IOdrlProhibition | IOdrlProhibition[];
 
 	/**
 	 * The obligations in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	obligation?: IOdrlDuty[];
+	obligation?: IOdrlDuty | IOdrlDuty[];
 }

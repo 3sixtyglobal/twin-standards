@@ -52,6 +52,7 @@ value with optional
 
 Reference to the right operand.
 Can be used to reference external resources or policies using an IRI.
+Mutually exclusive with rightOperand.
 
 ***
 

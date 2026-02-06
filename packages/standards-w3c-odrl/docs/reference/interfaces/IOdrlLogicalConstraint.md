@@ -26,46 +26,34 @@ Must be an IRI.
 
 ### and?
 
-> `optional` **and**: `object`
+> `optional` **and**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 AND operator - all constraints must be satisfied.
-
-#### @list
-
-> **@list**: `object`[]
+Exactly one logical operator must be present.
 
 ***
 
 ### or?
 
-> `optional` **or**: `object`
+> `optional` **or**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 OR operator - at least one constraint must be satisfied.
-
-#### @list
-
-> **@list**: `object`[]
+Exactly one logical operator must be present.
 
 ***
 
 ### xone?
 
-> `optional` **xone**: `object`
+> `optional` **xone**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 XOR operator - exactly one constraint must be satisfied.
-
-#### @list
-
-> **@list**: `object`[]
+Exactly one logical operator must be present.
 
 ***
 
 ### andSequence?
 
-> `optional` **andSequence**: `object`
+> `optional` **andSequence**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 AND Sequence operator - all constraints must be satisfied in order.
-
-#### @list
-
-> **@list**: `object`[]
+Exactly one logical operator must be present.

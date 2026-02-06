@@ -13,6 +13,7 @@
 - [IOdrlConstraint](interfaces/IOdrlConstraint.md)
 - [IOdrlDuty](interfaces/IOdrlDuty.md)
 - [IOdrlLogicalConstraint](interfaces/IOdrlLogicalConstraint.md)
+- [IOdrlLogicalConstraintOperand](interfaces/IOdrlLogicalConstraintOperand.md)
 - [IOdrlOffer](interfaces/IOdrlOffer.md)
 - [IOdrlParty](interfaces/IOdrlParty.md)
 - [IOdrlPartyCollection](interfaces/IOdrlPartyCollection.md)

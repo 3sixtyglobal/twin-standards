@@ -11,5 +11,5 @@ export interface IOdrlProhibition extends IOdrlRule {
 	/**
 	 * The remedies that must be fulfilled if prohibition is violated.
 	 */
-	remedy?: IOdrlDuty[];
+	remedy?: IOdrlDuty | IOdrlDuty[];
 }

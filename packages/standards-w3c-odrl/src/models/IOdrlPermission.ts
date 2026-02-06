@@ -14,5 +14,5 @@ export interface IOdrlPermission extends IOdrlRule {
 	 * The duties that must be fulfilled before the permission can be exercised.
 	 * A Permission MAY have none, one, or more duty property values.
 	 */
-	duty?: IOdrlDuty[];
+	duty?: IOdrlDuty | IOdrlDuty[];
 }

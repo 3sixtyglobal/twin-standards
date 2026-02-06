@@ -30,6 +30,7 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 	 * The right operand of the constraint.
 	 * value with optional @type is used for literal values (like "5.00" with type "xsd:decimal")
 	 * id is used when referencing a URI/identifier (like odrl:policyUsage)
+	 * Mutually exclusive with rightOperandReference.
 	 */
 	rightOperand?: ObjectOrArray<
 		| string
@@ -45,6 +46,7 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 	/**
 	 * Reference to the right operand.
 	 * Can be used to reference external resources or policies using an IRI.
+	 * Mutually exclusive with rightOperand.
 	 */
 	rightOperandReference?: ObjectOrArray<string>;
 

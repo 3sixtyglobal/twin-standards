@@ -55,7 +55,7 @@ IRIs identifying the ODRL Profile(s).
 
 ### assigner?
 
-> `optional` **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assigner**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
 The assigner of the policy.
 Applies to all rules unless overridden at rule level.
@@ -68,7 +68,7 @@ Applies to all rules unless overridden at rule level.
 
 ### assignee?
 
-> `optional` **assignee**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assignee**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
 The assignee of the policy.
 Applies to all rules unless overridden at rule level.
@@ -81,7 +81,7 @@ Applies to all rules unless overridden at rule level.
 
 ### target?
 
-> `optional` **target**: `string` \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAsset`](IOdrlAsset.md))[]
+> `optional` **target**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md))[]
 
 The target asset for the rule.
 
@@ -133,7 +133,7 @@ The conflict resolution strategy.
 
 ### permission?
 
-> `optional` **permission**: [`IOdrlPermission`](IOdrlPermission.md)[]
+> `optional` **permission**: [`IOdrlPermission`](IOdrlPermission.md) \| [`IOdrlPermission`](IOdrlPermission.md)[]
 
 The permissions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -146,7 +146,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### prohibition?
 
-> `optional` **prohibition**: [`IOdrlProhibition`](IOdrlProhibition.md)[]
+> `optional` **prohibition**: [`IOdrlProhibition`](IOdrlProhibition.md) \| [`IOdrlProhibition`](IOdrlProhibition.md)[]
 
 The prohibitions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -159,7 +159,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### obligation?
 
-> `optional` **obligation**: [`IOdrlDuty`](IOdrlDuty.md)[]
+> `optional` **obligation**: [`IOdrlDuty`](IOdrlDuty.md) \| [`IOdrlDuty`](IOdrlDuty.md)[]
 
 The obligations in the policy.
 At least one of permission, prohibition, or obligation must be present.

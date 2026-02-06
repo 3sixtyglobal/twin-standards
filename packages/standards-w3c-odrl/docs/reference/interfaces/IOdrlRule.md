@@ -37,7 +37,7 @@ The action associated with the rule.
 
 ### target?
 
-> `optional` **target**: `string` \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAsset`](IOdrlAsset.md))[]
+> `optional` **target**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md))[]
 
 The target asset for the rule.
 
@@ -45,7 +45,7 @@ The target asset for the rule.
 
 ### assigner?
 
-> `optional` **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assigner**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
 The assigner of the rule.
 
@@ -53,7 +53,7 @@ The assigner of the rule.
 
 ### assignee?
 
-> `optional` **assignee**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assignee**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
 The assignee of the rule.
 
@@ -61,7 +61,7 @@ The assignee of the rule.
 
 ### constraint?
 
-> `optional` **constraint**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **constraint**: [`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md) \| ([`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md))[]
 
 Constraints applied to the rule.
 

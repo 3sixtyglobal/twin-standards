@@ -25,19 +25,19 @@ export interface IOdrlParty extends IJsonLdNodeObject {
 	 * Reference to the party collection this party is part of.
 	 * Used to identify a PartyCollection that a Party entity is a member of.
 	 */
-	partOf?: string | IOdrlPartyCollection;
+	partOf?: string | IOdrlPartyCollection | (string | IOdrlPartyCollection)[];
 
 	/**
 	 * Reference to a policy where this party is an assignee.
 	 * When assigneeOf is asserted, the Party MUST be inferred to undertake
 	 * the assignee functional role of all the Rules of that Policy.
 	 */
-	assigneeOf?: string;
+	assigneeOf?: string | string[];
 
 	/**
 	 * Reference to a policy where this party is an assigner.
 	 * When assignerOf is asserted, the Party MUST be inferred to undertake
 	 * the assigner functional role of all the Rules of that Policy.
 	 */
-	assignerOf?: string;
+	assignerOf?: string | string[];
 }

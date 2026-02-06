@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { IOdrlAsset } from "./IOdrlAsset.js";
 import type { IOdrlConstraint } from "./IOdrlConstraint.js";
+import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
 
 /**
  * Interface for ODRL Asset Collections.
@@ -22,5 +23,8 @@ export interface IOdrlAssetCollection extends IOdrlAsset {
 	 * of the complete collection. The refinement applies to the characteristics of each
 	 * member of the collection (not the resource as a whole).
 	 */
-	refinement?: IOdrlConstraint[];
+	refinement?:
+		| IOdrlConstraint
+		| IOdrlLogicalConstraint
+		| (IOdrlConstraint | IOdrlLogicalConstraint)[];
 }

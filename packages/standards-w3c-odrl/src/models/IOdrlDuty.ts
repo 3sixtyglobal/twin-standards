@@ -25,12 +25,7 @@ export interface IOdrlDuty extends IOdrlRule {
 	 * Only applicable when the Duty is referenced by a Rule with duty or obligation
 	 * properties.
 	 */
-	consequence?: IOdrlDuty[];
-
-	/**
-	 * The remedies that may be fulfilled to cure the violation.
-	 */
-	remedy?: IOdrlDuty[];
+	consequence?: IOdrlDuty | IOdrlDuty[];
 
 	/**
 	 * The party to be compensated

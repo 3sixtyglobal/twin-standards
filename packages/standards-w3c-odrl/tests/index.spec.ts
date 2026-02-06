@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import { ArrayHelper } from "@twin.org/core";
 import { DataTypeHandlerFactory, type IJsonSchema, JsonSchemaHelper } from "@twin.org/data-core";
 import { JsonLdDataTypes } from "@twin.org/data-json-ld";
 import { DublinCoreContexts, DublinCorePropertyType } from "@twin.org/standards-dublin-core";
@@ -13,7 +14,9 @@ import type { IOdrlDuty } from "../src/models/IOdrlDuty.js";
 import type { IOdrlLogicalConstraint } from "../src/models/IOdrlLogicalConstraint.js";
 import type { IOdrlParty } from "../src/models/IOdrlParty.js";
 import type { IOdrlPartyCollection } from "../src/models/IOdrlPartyCollection.js";
+import type { IOdrlPermission } from "../src/models/IOdrlPermission.js";
 import type { IOdrlPolicy } from "../src/models/IOdrlPolicy.js";
+import type { IOdrlRule } from "../src/models/IOdrlRule.js";
 import { OdrlContexts } from "../src/models/odrlContexts.js";
 import { ActionType } from "../src/models/types/actionType.js";
 import { ConflictStrategyType } from "../src/models/types/conflictStrategyType.js";
@@ -38,8 +41,9 @@ describe("ODRL Examples from Specification", () => {
 		};
 
 		expect(policy["@type"]).toBe(PolicyType.Set);
-		expect(policy.permission?.[0].action).toBe(ActionType.Use);
-		expect(policy.permission?.[0].target).toBe("http://example.com/asset:9898.movie");
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
+		expect(permission?.action).toBe(ActionType.Use);
+		expect(permission?.target).toBe("http://example.com/asset:9898.movie");
 	});
 
 	it("Example 2: Offer Policy with play permission and assigner", () => {
@@ -59,8 +63,9 @@ describe("ODRL Examples from Specification", () => {
 
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:01");
-		expect(policy.permission?.[0].action).toBe(ActionType.Play);
-		expect(policy.permission?.[0].assigner).toBe("http://example.com/party:org:abc");
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
+		expect(permission?.action).toBe(ActionType.Play);
+		expect(permission?.assigner).toBe("http://example.com/party:org:abc");
 	});
 
 	it("Example 3: Agreement Policy with play permission and both parties", () => {
@@ -82,7 +87,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:01");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.action).toBe(ActionType.Play);
 		expect(permission?.assigner).toBe("http://example.com/party:org:abc");
@@ -107,7 +112,8 @@ describe("ODRL Examples from Specification", () => {
 
 		expect(policy["@type"]).toBe(PolicyType.Offer);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:02");
-		expect(policy.permission?.[0]).toEqual({
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
+		expect(permission).toEqual({
 			target: "http://example.com/asset:3333",
 			action: ActionType.Display,
 			assigner: "http://example.com/party:0001"
@@ -135,7 +141,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy["@type"]).toBe(PolicyType.Policy);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:03");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission?.target).toEqual({
 			"@type": OdrlTypes.AssetCollection,
 			uid: "http://example.com/archive1011"
@@ -189,7 +195,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.uid).toBe("http://example.com/policy:8888");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:04");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/music/1999.mp3");
 		expect(permission?.assigner).toBe("http://example.com/org/sony-music");
@@ -227,7 +233,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy["@type"]).toBe(PolicyType.Agreement);
 		expect(policy.profile).toBe("http://example.com/odrl:profile:05");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/looking-glass.ebook");
 		expect(permission?.action).toBe(ActionType.Use);
@@ -306,7 +312,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.uid).toBe("http://example.com/policy:1012");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:06");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/music:1012");
 		expect(permission?.assigner).toBe("http://example.com/org:abc");
@@ -346,13 +352,15 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.uid).toBe("http://example.com/policy:6163");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/document:1234");
 		expect(permission?.assigner).toBe("http://example.com/org:616");
 		expect(permission?.action).toBe(ActionType.Distribute);
 
-		const constraint = permission?.constraint?.[0] as IOdrlConstraint;
+		const constraint = ArrayHelper.fromObjectOrArray(
+			permission?.constraint
+		)?.[0] as IOdrlConstraint;
 		expect(constraint).toBeDefined();
 		expect(constraint.leftOperand).toBe(LeftOperandType.DateTime);
 		expect(constraint.operator).toBe(OperatorType.Lt);
@@ -399,7 +407,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
 
 		// Test the permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/document:1234");
 		expect(permission?.assigner).toBe("http://example.com/org:616");
@@ -475,7 +483,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.uid).toBe("http://example.com/policy:88");
 		expect(policy.profile).toBe("http://example.com/odrl:profile:10");
 
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/book/1999");
 		expect(permission?.assigner).toBe("http://example.com/org/paisley-park");
@@ -530,7 +538,7 @@ describe("ODRL Examples from Specification", () => {
 								unit: "http://qudt.org/vocab/unit/MinuteTime"
 							}
 						]
-					} as IOdrlAssetCollection,
+					},
 					action: ActionType.Play
 				}
 			]
@@ -543,7 +551,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:11");
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.assigner).toBe("http://example.com/org88");
 		expect(permission?.action).toBe(ActionType.Play);
@@ -554,7 +562,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(target.source).toBe("http://example.com/media-catalogue");
 
 		// Test refinement
-		const refinement = target.refinement?.[0];
+		const refinement = ArrayHelper.fromObjectOrArray(target.refinement)?.[0];
 		expect(refinement).toBeDefined();
 		expect(refinement?.leftOperand).toBe("runningTime");
 		expect(refinement?.operator).toBe(OperatorType.Lt);
@@ -588,7 +596,7 @@ describe("ODRL Examples from Specification", () => {
 								}
 							}
 						]
-					} as IOdrlPartyCollection,
+					},
 					action: { "@id": "ex:view" }
 				}
 			]
@@ -601,7 +609,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:12");
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/myPhotos:BdayParty");
 		expect(permission?.assigner).toBe("http://example.com/user44");
@@ -612,7 +620,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(assignee.source).toBe("http://example.com/user44/friends");
 
 		// Test refinement
-		const refinement = assignee.refinement?.[0] as IOdrlConstraint;
+		const refinement = ArrayHelper.fromObjectOrArray(assignee.refinement)?.[0] as IOdrlConstraint;
 		expect(refinement).toBeDefined();
 		expect(refinement.leftOperand).toBe("foaf:age");
 		expect(refinement.operator).toBe(OperatorType.Gt);
@@ -657,14 +665,16 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:07");
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/game:9090");
 		expect(permission?.assigner).toBe("http://example.com/org:xyz");
 		expect(permission?.action).toBe(ActionType.Play);
 
 		// Test constraint
-		const constraint = permission?.constraint?.[0] as IOdrlConstraint;
+		const constraint = ArrayHelper.fromObjectOrArray(
+			permission?.constraint
+		)?.[0] as IOdrlConstraint;
 		expect(constraint).toBeDefined();
 		expect(constraint.leftOperand).toBe(LeftOperandType.DateTime);
 		expect(constraint.operator).toBe(OperatorType.Lteq);
@@ -707,7 +717,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.conflict).toBe(ConflictStrategyType.Perm);
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/photoAlbum:55");
 		expect(permission?.action).toBe(ActionType.Display);
@@ -715,7 +725,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(permission?.assignee).toBe("http://example.com/assignee:55");
 
 		// Test prohibition
-		const prohibition = policy.prohibition?.[0];
+		const prohibition = ArrayHelper.fromObjectOrArray(policy.prohibition)?.[0];
 		expect(prohibition).toBeDefined();
 		expect(prohibition?.target).toBe("http://example.com/photoAlbum:55");
 		expect(prohibition?.action).toBe(ActionType.Archive);
@@ -762,7 +772,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
 
 		// Test obligation
-		const obligation = policy.obligation?.[0];
+		const obligation = ArrayHelper.fromObjectOrArray(policy.obligation)?.[0];
 		expect(obligation).toBeDefined();
 		expect(obligation?.assigner).toBe("http://example.com/org:43");
 		expect(obligation?.assignee).toBe("http://example.com/person:44");
@@ -832,17 +842,18 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.assignee).toBe("http://example.com/person:44");
 
 		// Test obligation
-		const obligation = policy.obligation?.[0];
+		const obligation = ArrayHelper.fromObjectOrArray(policy.obligation)?.[0];
 		expect(obligation).toBeDefined();
 		expect(obligation?.action).toBe(ActionType.Delete);
 		expect(obligation?.target).toBe("http://example.com/document:XZY");
 
 		// Test consequence
-		const consequence = obligation?.consequence?.[0] as IOdrlDuty;
+		const consequence = ArrayHelper.fromObjectOrArray(obligation?.consequence)?.[0];
 		expect(consequence).toBeDefined();
 
 		// Test consequence action
-		const actions = consequence.action as (ActionType | IOdrlAction)[];
+		const consequenceValue = consequence as IOdrlDuty;
+		const actions = consequenceValue.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
 		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Compensate}` });
@@ -860,7 +871,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(refinement.unit).toBe("http://dbpedia.org/resource/Euro");
 
 		// Test compensated party
-		expect(consequence.compensatedParty).toBe("http://wwf.org");
+		expect(consequenceValue.compensatedParty).toBe("http://wwf.org");
 	});
 
 	it("Example 22: Offer Policy with permission duty", () => {
@@ -912,18 +923,19 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.assigner).toBe("http://example.com/assigner:sony");
 		expect(permission?.target).toBe("http://example.com/music/1999.mp3");
 		expect(permission?.action).toBe(ActionType.Play);
 
 		// Test duty
-		const duty = permission?.duty?.[0] as IOdrlDuty;
+		const duty = ArrayHelper.fromObjectOrArray(permission?.duty)?.[0];
 		expect(duty).toBeDefined();
 
 		// Test duty action
-		const actions = duty.action as (ActionType | IOdrlAction)[];
+		const dutyValue = duty as IOdrlDuty;
+		const actions = dutyValue.action as (ActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
 		expect(action["rdf:value"]).toEqual({ "@id": `odrl:${ActionType.Compensate}` });
@@ -941,7 +953,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(refinement.unit).toBe("http://dbpedia.org/resource/Euro");
 
 		// Test duty constraint
-		const constraint = duty.constraint?.[0] as IOdrlConstraint;
+		const constraint = ArrayHelper.fromObjectOrArray(dutyValue.constraint)?.[0] as IOdrlConstraint;
 		expect(constraint).toBeDefined();
 		expect(constraint.leftOperand).toBe(LeftOperandType.Event);
 		expect(constraint.operator).toBe(OperatorType.Lt);
@@ -983,7 +995,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/data:77");
 		expect(permission?.assigner).toBe("http://example.com/org:99");
@@ -991,13 +1003,13 @@ describe("ODRL Examples from Specification", () => {
 		expect(permission?.action).toBe(ActionType.Distribute);
 
 		// Test duty
-		const duty = permission?.duty?.[0];
+		const duty = ArrayHelper.fromObjectOrArray(permission?.duty)?.[0];
 		expect(duty).toBeDefined();
 		expect(duty?.action).toBe(ActionType.Attribute);
 		expect(duty?.attributedParty).toBe("http://australia.gov.au/");
 
 		// Test consequence
-		const consequence = duty?.consequence?.[0];
+		const consequence = ArrayHelper.fromObjectOrArray(duty?.consequence)?.[0];
 		expect(consequence).toBeDefined();
 		expect(consequence?.action).toBe(ActionType.AcceptTracking);
 		expect(consequence?.trackingParty).toBe("http://example.com/dept:100");
@@ -1032,7 +1044,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:09");
 
 		// Test prohibition
-		const prohibition = policy.prohibition?.[0];
+		const prohibition = ArrayHelper.fromObjectOrArray(policy.prohibition)?.[0];
 		expect(prohibition).toBeDefined();
 		expect(prohibition?.target).toBe("http://example.com/data:77");
 		expect(prohibition?.assigner).toBe("http://example.com/person:88");
@@ -1040,7 +1052,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(prohibition?.action).toBe(ActionType.Index);
 
 		// Test remedy
-		const remedy = prohibition?.remedy?.[0];
+		const remedy = ArrayHelper.fromObjectOrArray(prohibition?.remedy)?.[0];
 		expect(remedy).toBeDefined();
 		expect(remedy?.action).toBe(ActionType.Anonymize);
 		expect(remedy?.target).toBe("http://example.com/data:77");
@@ -1068,7 +1080,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
 
 		// Test atomic permission rule
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/music/1999.mp3");
 		expect(permission?.assigner).toBe("http://example.com/org/sony-music");
@@ -1103,7 +1115,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
 
 		// Test compound permission rule
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 
 		// Test multiple targets
@@ -1161,17 +1173,19 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
 
 		// Test that we have four atomic permissions
-		expect(policy.permission).toHaveLength(4);
+		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
+			[]) as IOdrlPermission[];
+		expect(permissions).toHaveLength(4);
 
 		// Test each permission is atomic (single target and action)
-		for (const permission of policy.permission ?? []) {
+		for (const permission of permissions) {
 			expect(permission.assigner).toBe("http://example.com/org/sony-music");
 			expect(typeof permission.target).toBe("string");
 			expect(typeof permission.action).toBe("string");
 		}
 
 		// Test specific combinations
-		const permissions = policy.permission ?? [];
+		// permissions already normalized above
 
 		// First permission: 1999.mp3 + play
 		expect(permissions[0].target).toBe("http://example.com/music/1999.mp3");
@@ -1221,7 +1235,8 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.action).toBe(ActionType.Play);
 
 		// Test individual permissions
-		const permissions = policy.permission ?? [];
+		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
+			[]) as IOdrlPermission[];
 		expect(permissions).toHaveLength(2);
 		expect(permissions[0].assignee).toBe("http://example.com/people/billie");
 		expect(permissions[1].assignee).toBe("http://example.com/people/murphy");
@@ -1256,7 +1271,8 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:21");
 
 		// Test expanded permissions
-		const permissions = policy.permission ?? [];
+		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
+			[]) as IOdrlPermission[];
 		expect(permissions).toHaveLength(2);
 
 		// Test that each permission has all properties expanded
@@ -1337,7 +1353,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.assigner).toBe("http://example.com/org-01");
 
 		// Test obligation
-		const obligation = policy.obligation?.[0];
+		const obligation = ArrayHelper.fromObjectOrArray(policy.obligation)?.[0];
 		expect(obligation).toBeDefined();
 		expect(obligation?.target).toBe("http://example.com/asset:terms-and-conditions");
 		expect(obligation?.action).toBe(ActionType.ReviewPolicy);
@@ -1372,7 +1388,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(childPolicy.assignee).toBe("http://example.com/user:0001");
 
 		// Test permission
-		const permission = childPolicy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(childPolicy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/asset:5555");
 		expect(permission?.action).toBe(ActionType.Display);
@@ -1411,7 +1427,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(expandedPolicy.inheritFrom).toBe("http://example.com/policy:default");
 
 		// Test expanded permission
-		const permission = expandedPolicy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(expandedPolicy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/asset:5555");
 		expect(permission?.action).toBe(ActionType.Display);
@@ -1419,7 +1435,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(permission?.assignee).toBe("http://example.com/user:0001");
 
 		// Test inherited and expanded obligation
-		const obligation = expandedPolicy.obligation?.[0];
+		const obligation = ArrayHelper.fromObjectOrArray(expandedPolicy.obligation)?.[0];
 		expect(obligation).toBeDefined();
 		expect(obligation?.target).toBe("http://example.com/asset:terms-and-conditions");
 		expect(obligation?.action).toBe(ActionType.ReviewPolicy);
@@ -1427,7 +1443,10 @@ describe("ODRL Examples from Specification", () => {
 		expect(obligation?.assignee).toBe("http://example.com/user:0001");
 
 		// Verify all rules have both assigner and assignee
-		const allRules = [...(expandedPolicy.permission ?? []), ...(expandedPolicy.obligation ?? [])];
+		const allRules = [
+			...(ArrayHelper.fromObjectOrArray(expandedPolicy.permission) ?? []),
+			...(ArrayHelper.fromObjectOrArray(expandedPolicy.obligation) ?? [])
+		] as IOdrlRule[];
 		for (const rule of allRules) {
 			expect(rule.assigner).toBe("http://example.com/org-01");
 			expect(rule.assignee).toBe("http://example.com/user:0001");
@@ -1460,7 +1479,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.conflict).toBe(ConflictStrategyType.Perm);
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/asset:1212");
 		expect(permission?.action).toBe(ActionType.Use);
@@ -1499,14 +1518,14 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.conflict).toBe(ConflictStrategyType.Perm);
 
 		// Test permission
-		const permission = policy.permission?.[0];
+		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/asset:1212");
 		expect(permission?.action).toBe(ActionType.Display);
 		expect(permission?.assigner).toBe("http://example.com/owner:182");
 
 		// Test prohibition
-		const prohibition = policy.prohibition?.[0];
+		const prohibition = ArrayHelper.fromObjectOrArray(policy.prohibition)?.[0];
 		expect(prohibition).toBeDefined();
 		expect(prohibition?.target).toBe("http://example.com/asset:1212");
 		expect(prohibition?.action).toBe(ActionType.Print);

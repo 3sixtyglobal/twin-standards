@@ -42,7 +42,7 @@ Can be used to specify additional type information (e.g., "Party",
 
 ### partOf?
 
-> `optional` **partOf**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md)
+> `optional` **partOf**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md))[]
 
 Reference to the party collection this party is part of.
 Used to identify a PartyCollection that a Party entity is a member of.
@@ -51,7 +51,7 @@ Used to identify a PartyCollection that a Party entity is a member of.
 
 ### assigneeOf?
 
-> `optional` **assigneeOf**: `string`
+> `optional` **assigneeOf**: `string` \| `string`[]
 
 Reference to a policy where this party is an assignee.
 When assigneeOf is asserted, the Party MUST be inferred to undertake
@@ -61,7 +61,7 @@ the assignee functional role of all the Rules of that Policy.
 
 ### assignerOf?
 
-> `optional` **assignerOf**: `string`
+> `optional` **assignerOf**: `string` \| `string`[]
 
 Reference to a policy where this party is an assigner.
 When assignerOf is asserted, the Party MUST be inferred to undertake

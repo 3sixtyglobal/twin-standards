@@ -8,6 +8,7 @@ export * from "./models/IOdrlAssetCollection.js";
 export * from "./models/IOdrlConstraint.js";
 export * from "./models/IOdrlDuty.js";
 export * from "./models/IOdrlLogicalConstraint.js";
+export * from "./models/IOdrlLogicalConstraintOperand.js";
 export * from "./models/IOdrlOffer.js";
 export * from "./models/IOdrlParty.js";
 export * from "./models/IOdrlPartyCollection.js";

@@ -1,6 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { IOdrlLogicalConstraintOperand } from "./IOdrlLogicalConstraintOperand.js";
 
 /**
  * Interface for ODRL Logical Constraints.
@@ -17,29 +18,25 @@ export interface IOdrlLogicalConstraint extends IJsonLdNodeObject {
 
 	/**
 	 * AND operator - all constraints must be satisfied.
+	 * Exactly one logical operator must be present.
 	 */
-	and?: {
-		"@list": { "@id": string }[];
-	};
+	and?: IOdrlLogicalConstraintOperand;
 
 	/**
 	 * OR operator - at least one constraint must be satisfied.
+	 * Exactly one logical operator must be present.
 	 */
-	or?: {
-		"@list": { "@id": string }[];
-	};
+	or?: IOdrlLogicalConstraintOperand;
 
 	/**
 	 * XOR operator - exactly one constraint must be satisfied.
+	 * Exactly one logical operator must be present.
 	 */
-	xone?: {
-		"@list": { "@id": string }[];
-	};
+	xone?: IOdrlLogicalConstraintOperand;
 
 	/**
 	 * AND Sequence operator - all constraints must be satisfied in order.
+	 * Exactly one logical operator must be present.
 	 */
-	andSequence?: {
-		"@list": { "@id": string }[];
-	};
+	andSequence?: IOdrlLogicalConstraintOperand;
 }

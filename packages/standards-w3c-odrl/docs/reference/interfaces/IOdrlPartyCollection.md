@@ -43,7 +43,7 @@ Can be used to specify additional type information (e.g., "Party",
 
 ### partOf?
 
-> `optional` **partOf**: `string` \| `IOdrlPartyCollection`
+> `optional` **partOf**: `string` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlPartyCollection`)[]
 
 Reference to the party collection this party is part of.
 Used to identify a PartyCollection that a Party entity is a member of.
@@ -56,7 +56,7 @@ Used to identify a PartyCollection that a Party entity is a member of.
 
 ### assigneeOf?
 
-> `optional` **assigneeOf**: `string`
+> `optional` **assigneeOf**: `string` \| `string`[]
 
 Reference to a policy where this party is an assignee.
 When assigneeOf is asserted, the Party MUST be inferred to undertake
@@ -70,7 +70,7 @@ the assignee functional role of all the Rules of that Policy.
 
 ### assignerOf?
 
-> `optional` **assignerOf**: `string`
+> `optional` **assignerOf**: `string` \| `string`[]
 
 Reference to a policy where this party is an assigner.
 When assignerOf is asserted, the Party MUST be inferred to undertake
@@ -93,7 +93,7 @@ Used to identify the origin or location of the collection.
 
 ### refinement?
 
-> `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md) \| ([`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md))[]
 
 Refinements applied to the party collection.
 Used to specify constraints that apply to all members of the collection.
