@@ -8,6 +8,7 @@
 		"./src/models/IOdrlConstraint.ts",
 		"./src/models/IOdrlDuty.ts",
 		"./src/models/IOdrlLogicalConstraint.ts",
+		"./src/models/IOdrlLogicalConstraintOperand.ts",
 		"./src/models/IOdrlOffer.ts",
 		"./src/models/IOdrlParty.ts",
 		"./src/models/IOdrlPartyCollection.ts",

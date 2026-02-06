@@ -11,6 +11,7 @@ import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json" with
 import OdrlConstraintSchema from "../schemas/OdrlConstraint.json" with { type: "json" };
 import OdrlDutySchema from "../schemas/OdrlDuty.json" with { type: "json" };
 import OdrlLogicalConstraintSchema from "../schemas/OdrlLogicalConstraint.json" with { type: "json" };
+import OdrlLogicalConstraintOperandSchema from "../schemas/OdrlLogicalConstraintOperand.json" with { type: "json" };
 import OdrlOfferSchema from "../schemas/OdrlOffer.json" with { type: "json" };
 import OdrlPartySchema from "../schemas/OdrlParty.json" with { type: "json" };
 import OdrlPartyCollectionSchema from "../schemas/OdrlPartyCollection.json" with { type: "json" };
@@ -79,6 +80,10 @@ export class OdrlDataTypes {
 			{
 				type: OdrlTypes.LogicalConstraint,
 				schema: OdrlLogicalConstraintSchema
+			},
+						{
+				type: OdrlTypes.LogicalConstraintOperand,
+				schema: OdrlLogicalConstraintOperandSchema
 			},
 			{
 				type: OdrlTypes.Set,

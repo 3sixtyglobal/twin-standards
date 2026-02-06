@@ -79,7 +79,12 @@ export const OdrlTypes = {
 	/**
 	 * LogicalConstraint type.
 	 */
-	LogicalConstraint: "LogicalConstraint"
+	LogicalConstraint: "LogicalConstraint",
+
+	/**
+	 * LogicalConstraintOperand type.
+	 */
+	LogicalConstraintOperand: "LogicalConstraintOperand"
 } as const;
 
 /**

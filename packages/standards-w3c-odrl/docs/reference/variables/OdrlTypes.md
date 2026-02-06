@@ -95,3 +95,9 @@ Constraint type.
 > `readonly` **LogicalConstraint**: `"LogicalConstraint"` = `"LogicalConstraint"`
 
 LogicalConstraint type.
+
+### LogicalConstraintOperand
+
+> `readonly` **LogicalConstraintOperand**: `"LogicalConstraintOperand"` = `"LogicalConstraintOperand"`
+
+LogicalConstraintOperand type.
