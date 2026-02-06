@@ -4,6 +4,7 @@ node_modules
 **/dist/es
 **/dist/types
 **/dist/locales
+**/dist/data
 coverage
 *.tgz
 **/.tmp
