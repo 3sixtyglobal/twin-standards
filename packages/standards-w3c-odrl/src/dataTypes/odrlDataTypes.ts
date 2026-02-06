@@ -81,7 +81,7 @@ export class OdrlDataTypes {
 				type: OdrlTypes.LogicalConstraint,
 				schema: OdrlLogicalConstraintSchema
 			},
-						{
+			{
 				type: OdrlTypes.LogicalConstraintOperand,
 				schema: OdrlLogicalConstraintOperandSchema
 			},
