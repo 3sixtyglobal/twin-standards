@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.35](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.34...standards-w3c-did-v0.0.3-next.35) (2026-02-10)
+
+
+### Features
+
+* vc helper methods ([#148](https://github.com/twinfoundation/standards/issues/148)) ([c07ddf8](https://github.com/twinfoundation/standards/commit/c07ddf84ed4926ce38cdffbfa3a01cac7d0ee01d))
+
 ## [0.0.3-next.34](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.33...standards-w3c-did-v0.0.3-next.34) (2026-02-10)
 
 
