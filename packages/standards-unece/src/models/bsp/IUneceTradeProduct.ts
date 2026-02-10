@@ -57,6 +57,7 @@ import type { IUneceTradePrice } from "./IUneceTradePrice.js";
 import type { IUneceTradeProductCertification } from "./IUneceTradeProductCertification.js";
 import type { IUneceTradeProductFeature } from "./IUneceTradeProductFeature.js";
 import type { IUneceTTAnimal } from "./IUneceTTAnimal.js";
+import type { UneceTradeProductTypeCodeList } from "../typeCodes/uneceTradeProductTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -1175,7 +1176,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A code specifying the type of trade product.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceTradeProductTypeCodeList | string;
 
 	/**
 	 * A textual description of the type for this trade product.

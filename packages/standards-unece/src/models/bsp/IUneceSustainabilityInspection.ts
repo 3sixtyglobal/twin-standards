@@ -12,6 +12,7 @@ import type { IUneceInspectionStatus } from "./IUneceInspectionStatus.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceSustainabilityInspectionTypeCodeList } from "../typeCodes/uneceSustainabilityInspectionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -113,5 +114,5 @@ export interface IUneceSustainabilityInspection extends IJsonLdNodeObject {
 	 * The code specifying the type of sustainability inspection.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSustainabilityInspectionTypeCodeList | string;
 }

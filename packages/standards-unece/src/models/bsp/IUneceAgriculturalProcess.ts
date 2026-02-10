@@ -8,6 +8,7 @@ import type { IUneceCropProduceBatch } from "./IUneceCropProduceBatch.js";
 import type { IUneceDisposalInstructions } from "./IUneceDisposalInstructions.js";
 import type { IUneceFieldCrop } from "./IUneceFieldCrop.js";
 import type { IUneceProductionWasteMaterial } from "./IUneceProductionWasteMaterial.js";
+import type { UneceAgriculturalProcessTypeCodeList } from "../typeCodes/uneceAgriculturalProcessTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -106,5 +107,5 @@ export interface IUneceAgriculturalProcess extends IJsonLdNodeObject {
 	 * The code specifying the type of agricultural process for this crop production.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceAgriculturalProcessTypeCodeList | string;
 }

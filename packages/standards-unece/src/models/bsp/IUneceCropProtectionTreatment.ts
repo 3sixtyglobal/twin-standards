@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProcessCertificate } from "./IUneceProcessCertificate.js";
 import type { IUneceSpecifiedMaterial } from "./IUneceSpecifiedMaterial.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceCropProtectionTreatmentTypeCodeList } from "../typeCodes/uneceCropProtectionTreatmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -53,7 +54,7 @@ export interface IUneceCropProtectionTreatment extends IJsonLdNodeObject {
 	 * The code specifying the type of crop protection treatment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCropProtectionTreatmentTypeCodeList | string;
 
 	/**
 	 * Material used for this specified crop protection treatment.

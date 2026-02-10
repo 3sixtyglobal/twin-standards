@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
+import type { UneceGoodsCharacteristicTypeCodeList } from "../typeCodes/uneceGoodsCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -50,5 +51,5 @@ export interface IUneceGoodsCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of material goods characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceGoodsCharacteristicTypeCodeList | string;
 }

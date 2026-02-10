@@ -12,6 +12,7 @@ import type { IUneceSpecifiedMaterial } from "./IUneceSpecifiedMaterial.js";
 import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceProductionDeviceTypeCodeList } from "../typeCodes/uneceProductionDeviceTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -149,5 +150,5 @@ export interface IUneceProductionDevice extends IJsonLdNodeObject {
 	 * The code specifying the type of production device.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductionDeviceTypeCodeList | string;
 }

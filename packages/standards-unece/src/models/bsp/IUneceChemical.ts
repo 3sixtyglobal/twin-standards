@@ -9,6 +9,7 @@ import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceChemicalTypeCodeList } from "../typeCodes/uneceChemicalTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -121,7 +122,7 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * The code specifying the type of distinct chemical.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceChemicalTypeCodeList | string;
 
 	/**
 	 * A measure of the volume of this distinct chemical.

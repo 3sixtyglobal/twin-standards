@@ -14,6 +14,7 @@ import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceProductCharacteristicTypeCodeList } from "../typeCodes/uneceProductCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -96,7 +97,7 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * A code specifying a type of product characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this product characteristic.

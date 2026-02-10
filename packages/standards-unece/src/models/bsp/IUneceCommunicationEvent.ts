@@ -8,6 +8,7 @@ import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceCommunicationEventTypeCodeList } from "../typeCodes/uneceCommunicationEventTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -73,7 +74,7 @@ export interface IUneceCommunicationEvent extends IJsonLdNodeObject {
 	 * The code specifying the type of communication event.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCommunicationEventTypeCodeList | string;
 
 	/**
 	 * The number of units for this communication event.

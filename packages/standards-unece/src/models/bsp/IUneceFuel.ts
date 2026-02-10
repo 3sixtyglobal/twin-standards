@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceUnitMeasureType } from "./IUneceUnitMeasureType.js";
 import type { IUneceVolumeUnitMeasureType } from "./IUneceVolumeUnitMeasureType.js";
 import type { IUneceWeightUnitMeasureType } from "./IUneceWeightUnitMeasureType.js";
+import type { UneceFuelTypeCodeList } from "../typeCodes/uneceFuelTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -28,7 +29,7 @@ export interface IUneceFuel extends IJsonLdNodeObject {
 	 * The code specifying the type of specified fuel.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceFuelTypeCodeList | string;
 
 	/**
 	 * A measure of a weight (mass) for this specified fuel.

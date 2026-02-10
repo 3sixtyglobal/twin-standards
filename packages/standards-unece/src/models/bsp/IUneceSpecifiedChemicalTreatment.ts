@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceProcessCertificate } from "./IUneceProcessCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceSpecifiedChemicalTreatmentTypeCodeList } from "../typeCodes/uneceSpecifiedChemicalTreatmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -53,7 +54,7 @@ export interface IUneceSpecifiedChemicalTreatment extends IJsonLdNodeObject {
 	 * The code specifying the type of chemical treatment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedChemicalTreatmentTypeCodeList | string;
 
 	/**
 	 * A distinct chemical used for this specified chemical treatment.

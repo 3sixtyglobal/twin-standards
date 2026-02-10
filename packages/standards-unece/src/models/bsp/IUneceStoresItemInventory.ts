@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UneceStoresItemInventoryTypeCodeList } from "../typeCodes/uneceStoresItemInventoryTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -51,5 +52,5 @@ export interface IUneceStoresItemInventory extends IJsonLdNodeObject {
 	 * A code specifying the type of stores inventory item.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceStoresItemInventoryTypeCodeList | string;
 }

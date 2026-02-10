@@ -8,6 +8,7 @@ import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceProductionWasteMaterialComponent } from "./IUneceProductionWasteMaterialComponent.js";
 import type { IUneceProductionWasteRecoveryDisposalProcess } from "./IUneceProductionWasteRecoveryDisposalProcess.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceProductionWasteMaterialTypeCodeList } from "../typeCodes/uneceProductionWasteMaterialTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -54,7 +55,7 @@ export interface IUneceProductionWasteMaterial extends IJsonLdNodeObject {
 	 * The code specifying the type of production waste material.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductionWasteMaterialTypeCodeList | string;
 
 	/**
 	 * A measure of the volume of this production waste material.

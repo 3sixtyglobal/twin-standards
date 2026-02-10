@@ -84,13 +84,13 @@ The jws-2020 JSON-LD context URL format does not include a trailing slash.
 
 ### NamespaceDataIntegrity
 
-> `readonly` **NamespaceDataIntegrity**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
+> `readonly` **NamespaceDataIntegrity**: `"https://w3id.org/security/data-integrity/v2"` = `"https://w3id.org/security/data-integrity/v2"`
 
 The canonical RDF namespace URI for VC Data Integrity.
 
 ### ContextDataIntegrity
 
-> `readonly` **ContextDataIntegrity**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
+> `readonly` **ContextDataIntegrity**: `"https://w3id.org/security/data-integrity/v2"` = `"https://w3id.org/security/data-integrity/v2"`
 
 The value to use in JSON-LD context for VC Data Integrity.
 Note: ContextDataIntegrity matches NamespaceDataIntegrity (no trailing slash) as per W3C Data Integrity specification.

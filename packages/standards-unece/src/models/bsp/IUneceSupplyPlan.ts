@@ -10,6 +10,7 @@ import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceCommitmentLevelCodeList } from "../lists/uneceCommitmentLevelCodeList.js";
+import type { UneceSupplyPlanTypeCodeList } from "../typeCodes/uneceSupplyPlanTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -176,5 +177,5 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * A code specifying a type for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSupplyPlanTypeCodeList | string;
 }

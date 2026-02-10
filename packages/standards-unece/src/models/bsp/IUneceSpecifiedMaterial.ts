@@ -16,6 +16,7 @@ import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityC
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { IUneceTradeProductCertification } from "./IUneceTradeProductCertification.js";
 import type { IUneceWasteMaterialRecoveryDisposalProcess } from "./IUneceWasteMaterialRecoveryDisposalProcess.js";
+import type { UneceSpecifiedMaterialTypeCodeList } from "../typeCodes/uneceSpecifiedMaterialTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -170,7 +171,7 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * The code specifying the type of material.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedMaterialTypeCodeList | string;
 
 	/**
 	 * A distinct chemical used for this specified material.

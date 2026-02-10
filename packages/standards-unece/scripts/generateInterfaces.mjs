@@ -21,6 +21,7 @@ const SOURCE_DATA_DIR = path.join(__dirname, '..', 'src-data', 'D23B');
 const BASE_OUTPUT_DIR = path.join(__dirname, '..', 'src', 'models');
 const CLASS_OUTPUT_DIR = 'bsp';
 const LIST_OUTPUT_DIR = 'lists';
+const TYPE_CODE_OUTPUT_DIR = 'typeCodes';
 const MAX_LINE_LENGTH = 120;
 
 /**
@@ -48,20 +49,35 @@ async function loadJsonLdMapping() {
 				if (isClass || isProperty) {
 					const existingValues = jsonLdMapping[id]?.values;
 					const existingProperties = jsonLdMapping[id]?.properties;
+					const existingRangeIncludes = jsonLdMapping[id]?.rangeIncludes;
 
 					jsonLdMapping[id] = jsonLdItem;
 					jsonLdMapping[id].values = existingValues;
 					jsonLdMapping[id].properties = existingProperties;
+					jsonLdMapping[id].rangeIncludes = existingRangeIncludes;
 
-					if (isProperty && jsonLdItem['schema:domainIncludes']) {
-						const domainIncludes = Array.isArray(jsonLdItem['schema:domainIncludes'])
-							? jsonLdItem['schema:domainIncludes'].map(di => di['@id'])
-							: [jsonLdItem['schema:domainIncludes']['@id']];
+					if (isProperty) {
+						if (jsonLdItem['schema:domainIncludes']) {
+							const domainIncludes = Array.isArray(jsonLdItem['schema:domainIncludes'])
+								? jsonLdItem['schema:domainIncludes'].map(di => di['@id'])
+								: [jsonLdItem['schema:domainIncludes']['@id']];
 
-						for (const domainInclude of domainIncludes) {
-							jsonLdMapping[domainInclude] ??= {};
-							jsonLdMapping[domainInclude].properties ??= [];
-							jsonLdMapping[domainInclude].properties.push(jsonLdItem);
+							for (const domainInclude of domainIncludes) {
+								jsonLdMapping[domainInclude] ??= {};
+								jsonLdMapping[domainInclude].properties ??= [];
+								jsonLdMapping[domainInclude].properties.push(jsonLdItem);
+							}
+						}
+						if (jsonLdItem['schema:rangeIncludes']) {
+							const rangeIncludes = Array.isArray(jsonLdItem['schema:rangeIncludes'])
+								? jsonLdItem['schema:rangeIncludes'].map(di => di['@id'])
+								: [jsonLdItem['schema:rangeIncludes']['@id']];
+
+							for (const rangeInclude of rangeIncludes) {
+								jsonLdMapping[rangeInclude] ??= {};
+								jsonLdMapping[rangeInclude].rangeIncludes ??= [];
+								jsonLdMapping[rangeInclude].rangeIncludes.push(jsonLdItem);
+							}
 						}
 					}
 
@@ -278,7 +294,6 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 		let csvMappingProp;
 
 		for (const title of titles) {
-			// let cleanTitle = title.replace(/[^\d.A-Za-z]/g, '');
 			const titleParts = title.split('.').map(t => t.trim());
 			const objectClassTermParts = titleParts[0].split('_');
 			const objectClassTerm = objectClassTermParts[objectClassTermParts.length - 1];
@@ -353,6 +368,15 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 			propType = typeMap[propType];
 		}
 
+		// Perform custom substitutions for typeCodes
+		if (propKey === 'typeCode' && (item.rangeIncludes ?? []).length > 0) {
+			propType = `Unece${typeName}TypeCodeList | string`;
+			imports.push({
+				type: `Unece${typeName}TypeCodeList`,
+				outputDir: TYPE_CODE_OUTPUT_DIR
+			});
+		}
+
 		props.push({
 			key: propKey,
 			description: propDescription,
@@ -405,7 +429,7 @@ function getCCTSTitles(jsonLdItem) {
 /**
  * Process a list class from the JSON-LD mapping.
  */
-async function processList(jsonLdMapping, jsonSchemaMapping, id, item, generatedTypes) {
+async function processList(id, item, generatedTypes) {
 	const description = item['rdfs:comment'] ?? 'No description available.';
 
 	if (!Array.isArray(item.values)) {
@@ -493,6 +517,78 @@ async function processList(jsonLdMapping, jsonSchemaMapping, id, item, generated
 			description
 		});
 	}
+}
+
+/**
+ * Process a range include list from the JSON-LD mapping.
+ */
+async function processRangeList(rangeIncludeTypeName, item, generatedTypes) {
+	const baseTypeName = stripUnece(item['@id']);
+	const rangeTypeName = rangeIncludeTypeName;
+
+	const description = `Values for Unece${baseTypeName} typeCode property.`;
+	process.stdout.write(`  Processing range include list: ${rangeTypeName}`);
+
+	const typeLines = [];
+
+	const listIdDeprecated = isItemDeprecated(item);
+
+	typeLines.push('');
+	typeLines.push(
+		...createComment(
+			description,
+			'',
+			`https://vocabulary.uncefact.org/${baseTypeName}`,
+			listIdDeprecated
+		)
+	);
+	typeLines.push('// eslint-disable-next-line @typescript-eslint/naming-convention');
+	typeLines.push(`export const Unece${rangeTypeName} = {`);
+
+	for (let i = 0; i < (item.rangeIncludes ?? []).length; i++) {
+		const valueItem = (item.rangeIncludes ?? [])[i];
+		const itemId = valueItem['@id'];
+		const label = valueItem['rdfs:label'];
+		const commentParts = Array.isArray(valueItem['rdfs:comment'])
+			? valueItem['rdfs:comment']
+			: [valueItem['rdfs:comment']];
+		const mainComment = commentParts[0];
+		typeLines.push(
+			...createComment(
+				[mainComment ? mainComment : itemId].concat(commentParts.slice(1)),
+				'\t',
+				`https://vocabulary.uncefact.org/${label}`,
+				commentParts.join('').toLowerCase().includes('deprecated')
+			)
+		);
+		if (i < (item.rangeIncludes ?? []).length - 1) {
+			typeLines.push(`\t${pascalCase(label)}: "${itemId}",`);
+			typeLines.push('');
+		} else {
+			typeLines.push(`\t${pascalCase(label)}: "${itemId}"`);
+		}
+	}
+	typeLines.push('} as const;');
+	typeLines.push('');
+	typeLines.push(
+		...createComment(
+			description,
+			'',
+			`https://vocabulary.uncefact.org/${baseTypeName}`,
+			listIdDeprecated
+		)
+	);
+	const exportText = `export type Unece${rangeTypeName} = (typeof Unece${rangeTypeName})[keyof typeof Unece${rangeTypeName}];`;
+	typeLines.push(exportText);
+
+	await writeCodeFile(TYPE_CODE_OUTPUT_DIR, `unece${rangeTypeName}`, [], typeLines);
+
+	generatedTypes.push({
+		typeName: rangeTypeName,
+		fileName: `unece${rangeTypeName}`,
+		outputDir: TYPE_CODE_OUTPUT_DIR,
+		description
+	});
 }
 
 /**
@@ -784,8 +880,15 @@ async function main() {
 		if (isJsonLdClass(item)) {
 			if (!isList) {
 				await processClass(jsonLdMapping, csvMapping, id, item, generatedTypes);
+
+				if (
+					item.properties?.find(p => p['@id'] === 'unece:typeCode') &&
+					(item.rangeIncludes ?? []).length > 0
+				) {
+					await processRangeList(`${stripUnece(id)}TypeCodeList`, item, generatedTypes);
+				}
 			} else if (isList) {
-				await processList(jsonLdMapping, csvMapping, id, item, generatedTypes);
+				await processList(id, item, generatedTypes);
 			}
 		}
 	}

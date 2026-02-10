@@ -13,6 +13,7 @@ import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceSustainabilityCharacteristicTypeCodeList } from "../typeCodes/uneceSustainabilityCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -120,7 +121,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSustainabilityCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this sustainability characteristic.

@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UneceDocumentCharacteristicTypeCodeList } from "../typeCodes/uneceDocumentCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -58,7 +59,7 @@ export interface IUneceDocumentCharacteristic extends IJsonLdNodeObject {
 	 * A code specifying a type of document characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceDocumentCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this document characteristic.

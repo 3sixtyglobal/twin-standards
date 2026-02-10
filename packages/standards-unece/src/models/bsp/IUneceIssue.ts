@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMetricCharacteristic } from "./IUneceMetricCharacteristic.js";
+import type { UneceIssueTypeCodeList } from "../typeCodes/uneceIssueTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -50,5 +51,5 @@ export interface IUneceIssue extends IJsonLdNodeObject {
 	 * The code specifying the type of target issue, such as a value or a range.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceIssueTypeCodeList | string;
 }

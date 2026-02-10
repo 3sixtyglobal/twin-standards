@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UnecePreventiveActionTypeCodeList } from "../typeCodes/unecePreventiveActionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -38,5 +39,5 @@ export interface IUnecePreventiveAction extends IJsonLdNodeObject {
 	 * The code specifying the type of preventive action.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UnecePreventiveActionTypeCodeList | string;
 }

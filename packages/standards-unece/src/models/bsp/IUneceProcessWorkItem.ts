@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UneceProcessWorkItemTypeCodeList } from "../typeCodes/uneceProcessWorkItemTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -56,5 +57,5 @@ export interface IUneceProcessWorkItem extends IJsonLdNodeObject {
 	 * The code specifying the type of process work item.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProcessWorkItemTypeCodeList | string;
 }

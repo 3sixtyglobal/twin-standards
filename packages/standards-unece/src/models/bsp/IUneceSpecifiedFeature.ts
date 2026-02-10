@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceSpecifiedFeatureTypeCodeList } from "../typeCodes/uneceSpecifiedFeatureTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -49,7 +50,7 @@ export interface IUneceSpecifiedFeature extends IJsonLdNodeObject {
 	 * The code specifying the type of feature.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedFeatureTypeCodeList | string;
 
 	/**
 	 * The code specifying the usage for this specified feature.

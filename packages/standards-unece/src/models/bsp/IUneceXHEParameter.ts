@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceXHEParameterTypeCodeList } from "../typeCodes/uneceXHEParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -25,7 +26,7 @@ export interface IUneceXHEParameter extends IJsonLdNodeObject {
 	 * The code specifying the type of XHE parameter.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceXHEParameterTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, of this XHE parameter.

@@ -10,6 +10,7 @@ import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
 import type { IUneceTradeContact } from "./IUneceTradeContact.js";
 import type { IUneceTransportPerson } from "./IUneceTransportPerson.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
+import type { UneceLocationPartyTypeCodeList } from "../typeCodes/uneceLocationPartyTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -104,7 +105,7 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * A code specifying the type of location party that is independent of its role.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceLocationPartyTypeCodeList | string;
 
 	/**
 	 * Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.

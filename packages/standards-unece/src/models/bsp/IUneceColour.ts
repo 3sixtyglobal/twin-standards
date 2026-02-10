@@ -11,6 +11,7 @@ import type { IUneceSpecifiedMethod } from "./IUneceSpecifiedMethod.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceColourTypeCodeList } from "../typeCodes/uneceColourTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -111,7 +112,7 @@ export interface IUneceColour extends IJsonLdNodeObject {
 	 * The code specifying the type of product colour.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceColourTypeCodeList | string;
 
 	/**
 	 * The code specifying the light source used for this product colour.

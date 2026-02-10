@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
+import type { UneceGeopoliticalRegionTypeCodeList } from "../typeCodes/uneceGeopoliticalRegionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -44,5 +45,5 @@ export interface IUneceGeopoliticalRegion extends IJsonLdNodeObject {
 	 * The code specifying the type of trade geopolitical region.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceGeopoliticalRegionTypeCodeList | string;
 }

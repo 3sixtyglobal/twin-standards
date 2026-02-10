@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceSanitaryMeasureTypeCodeList } from "../typeCodes/uneceSanitaryMeasureTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -43,5 +44,5 @@ export interface IUneceSanitaryMeasure extends IJsonLdNodeObject {
 	 * A code specifying a type of MDH sanitary measure.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSanitaryMeasureTypeCodeList | string;
 }

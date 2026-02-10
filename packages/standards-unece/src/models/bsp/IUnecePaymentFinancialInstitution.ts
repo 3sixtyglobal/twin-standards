@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUnecePaymentFinancialAccount } from "./IUnecePaymentFinancialAccount.js";
+import type { UnecePaymentFinancialInstitutionTypeCodeList } from "../typeCodes/unecePaymentFinancialInstitutionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -93,5 +94,5 @@ export interface IUnecePaymentFinancialInstitution extends IJsonLdNodeObject {
 	 * The code specifying the type of payment financial institution.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UnecePaymentFinancialInstitutionTypeCodeList | string;
 }

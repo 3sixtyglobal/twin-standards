@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLegalRegistration } from "./IUneceLegalRegistration.js";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
+import type { UneceLegalOrganizationTypeCodeList } from "../typeCodes/uneceLegalOrganizationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -83,5 +84,5 @@ export interface IUneceLegalOrganization extends IJsonLdNodeObject {
 	 * A code specifying a type of legally set up organization.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceLegalOrganizationTypeCodeList | string;
 }

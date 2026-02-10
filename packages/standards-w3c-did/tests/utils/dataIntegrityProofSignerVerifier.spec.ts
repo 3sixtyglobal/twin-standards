@@ -43,7 +43,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 
 		const unsignedProof: IDataIntegrityProof = {
 			"@context": [
-				"https://www.w3.org/ns/credentials/v2",
+				"https://w3id.org/security/data-integrity/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
 			],
 			type: "DataIntegrityProof",
@@ -60,7 +60,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		);
 
 		expect(Converter.bytesToHex(hash)).toEqual(
-			"66ab154f5c2890a140cb8388a22a160454f80575f6eae09e5a097cabe539a1db59b7cb6251b8991add1ce0bc83107e3db9dbbab5bd2c28f687db1a03abc92f19"
+			"c324fcd0e6e75b471d89d91dcbf1d948e68f5cd471992b171b108d92ddb235df879ddc62dc1dac7a9888ac5c19465fe3fba6e89acdd163f26c91f01c63d511ed"
 		);
 	});
 
@@ -106,7 +106,8 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		expect(signedProof).toEqual({
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
-				"https://www.w3.org/ns/credentials/examples/v2"
+				"https://www.w3.org/ns/credentials/examples/v2",
+				"https://w3id.org/security/data-integrity/v2"
 			],
 			type: "DataIntegrityProof",
 			cryptosuite: "eddsa-jcs-2022",
@@ -115,7 +116,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 				"did:key:z6MkrJVnaZkeFzdQyMZu1cgjg7k1pZZ6pvBQ7XJPt4swbTQ2#z6MkrJVnaZkeFzdQyMZu1cgjg7k1pZZ6pvBQ7XJPt4swbTQ2",
 			proofPurpose: "assertionMethod",
 			proofValue:
-				"z2HnFSSPPBzR36zdDgK8PbEHeXbR56YF24jwMpt3R1eHXQzJDMWS93FCzpvJpwTWd3GAVFuUfjoJdcnTMuVor51aX"
+				"z51o7LRzWyV3pbQRwenn6FvFo8wMMkG3WPdZyxXVtG2ANQ1PnWDgnT43bTxBAu9kUEt5yn42rWGR9Ry86j1U9s6Ev"
 		});
 
 		const verified = await new DataIntegrityProofSignerVerifier().verifyProof(

@@ -10,6 +10,7 @@ import type { IUnecePackagingInstructions } from "./IUnecePackagingInstructions.
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceSpatialDimension } from "./IUneceSpatialDimension.js";
 import type { IUneceWeightUnitMeasureType } from "./IUneceWeightUnitMeasureType.js";
+import type { UneceLogisticsPackagingTypeCodeList } from "../typeCodes/uneceLogisticsPackagingTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -164,7 +165,7 @@ export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
 	 * A code specifying a type of logistics packaging.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceLogisticsPackagingTypeCodeList | string;
 
 	/**
 	 * A measure of a weight (mass) of this logistics packaging.

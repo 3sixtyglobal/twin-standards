@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceInspectionEvent } from "./IUneceInspectionEvent.js";
+import type { UneceProjectTypeCodeList } from "../typeCodes/uneceProjectTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -78,7 +79,7 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * The code specifying the type of procuring project, such as goods, works and service.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProjectTypeCodeList | string;
 
 	/**
 	 * A code specifying the type of work, such as surveying or consulting, for this procuring project.

@@ -74,14 +74,14 @@ export const DidContexts = {
 	/**
 	 * The canonical RDF namespace URI for VC Data Integrity.
 	 */
-	NamespaceDataIntegrity: "https://www.w3.org/ns/credentials/v2",
+	NamespaceDataIntegrity: "https://w3id.org/security/data-integrity/v2",
 
 	/**
 	 * The value to use in JSON-LD context for VC Data Integrity.
 	 * Note: ContextDataIntegrity matches NamespaceDataIntegrity (no trailing slash) as per W3C Data Integrity specification.
 	 * The Data Integrity JSON-LD context URL format does not include a trailing slash.
 	 */
-	ContextDataIntegrity: "https://www.w3.org/ns/credentials/v2",
+	ContextDataIntegrity: "https://w3id.org/security/data-integrity/v2",
 
 	/**
 	 * The canonical RDF namespace URI for controller identifiers.

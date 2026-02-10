@@ -151,6 +151,12 @@ A character string used to represent a medium containing an accounting voucher.
 A certified recognition that provides evidence of a level of competency in a given area, such as certifying a level of
 skill in a trade.
 
+### AccreditationTypeCodeList
+
+> `readonly` **AccreditationTypeCodeList**: `"AccreditationTypeCodeList"` = `"AccreditationTypeCodeList"`
+
+Values for UneceAccreditation typeCode property.
+
 ### AcknowledgementCodeList
 
 > `readonly` **AcknowledgementCodeList**: `"AcknowledgementCodeList"` = `"AcknowledgementCodeList"`
@@ -212,11 +218,23 @@ A legal proof of ownership, worthiness or qualification to operate an agricultur
 
 A prominent attribute or aspect of an agricultural object.
 
+### AgriculturalCharacteristicTypeCodeList
+
+> `readonly` **AgriculturalCharacteristicTypeCodeList**: `"AgriculturalCharacteristicTypeCodeList"` = `"AgriculturalCharacteristicTypeCodeList"`
+
+Values for UneceAgriculturalCharacteristic typeCode property.
+
 ### AgriculturalProcess
 
 > `readonly` **AgriculturalProcess**: `"AgriculturalProcess"` = `"AgriculturalProcess"`
 
 A practice of cultivating land, raising crops, or treatment of the agricultural produce.
+
+### AgriculturalProcessTypeCodeList
+
+> `readonly` **AgriculturalProcessTypeCodeList**: `"AgriculturalProcessTypeCodeList"` = `"AgriculturalProcessTypeCodeList"`
+
+Values for UneceAgriculturalProcess typeCode property.
 
 ### AgriculturalZoneArea
 
@@ -243,6 +261,12 @@ The numeric value determined by a measurement of air flow.
 
 A guest condition of the abnormal reaction of the body to a previously encountered substance introduced by inhalation,
 ingestion, injection, or skin contact.
+
+### AllergyTypeCodeList
+
+> `readonly` **AllergyTypeCodeList**: `"AllergyTypeCodeList"` = `"AllergyTypeCodeList"`
+
+Values for UneceAllergy typeCode property.
 
 ### AllowanceChargeIdCodeList
 
@@ -312,6 +336,12 @@ requirements as stipulated in regulations.
 
 The keeping of an animal in a particular location.
 
+### AnimalHoldingEventTypeCodeList
+
+> `readonly` **AnimalHoldingEventTypeCodeList**: `"AnimalHoldingEventTypeCodeList"` = `"AnimalHoldingEventTypeCodeList"`
+
+Values for UneceAnimalHoldingEvent typeCode property.
+
 ### AnimalIdentity
 
 > `readonly` **AnimalIdentity**: `"AnimalIdentity"` = `"AnimalIdentity"`
@@ -358,6 +388,12 @@ A statement that user needs of the present are met without compromising the need
 The evaluation of an object, such as a product, process, or organization, with respect to the object's worth or
 condition.
 
+### AssessmentTypeCodeList
+
+> `readonly` **AssessmentTypeCodeList**: `"AssessmentTypeCodeList"` = `"AssessmentTypeCodeList"`
+
+Values for UneceAssessment typeCode property.
+
 ### AssociatedTransportEquipment
 
 > `readonly` **AssociatedTransportEquipment**: `"AssociatedTransportEquipment"` = `"AssociatedTransportEquipment"`
@@ -401,6 +437,12 @@ up to an end date for which something is available.
 > `readonly` **BasicWorkItem**: `"BasicWorkItem"` = `"BasicWorkItem"`
 
 A basic item of work.
+
+### BasicWorkItemTypeCodeList
+
+> `readonly` **BasicWorkItemTypeCodeList**: `"BasicWorkItemTypeCodeList"` = `"BasicWorkItemTypeCodeList"`
+
+Values for UneceBasicWorkItem typeCode property.
 
 ### BillingDocumentCodeList
 
@@ -469,6 +511,12 @@ Information related to a calculated price.
 
 A measurement established by a device which is tested to a calibration standard of known accuracy.
 
+### CalibratedMeasurementTypeCodeList
+
+> `readonly` **CalibratedMeasurementTypeCodeList**: `"CalibratedMeasurementTypeCodeList"` = `"CalibratedMeasurementTypeCodeList"`
+
+Values for UneceCalibratedMeasurement typeCode property.
+
 ### CancellationStatus
 
 > `readonly` **CancellationStatus**: `"CancellationStatus"` = `"CancellationStatus"`
@@ -517,11 +565,23 @@ A character string used to represent a cargo type classification.
 
 A tool or device carried by a guest for an activity.
 
+### CarriedEquipmentTypeCodeList
+
+> `readonly` **CarriedEquipmentTypeCodeList**: `"CarriedEquipmentTypeCodeList"` = `"CarriedEquipmentTypeCodeList"`
+
+Values for UneceCarriedEquipment typeCode property.
+
 ### Cash
 
 > `readonly` **Cash**: `"Cash"` = `"Cash"`
 
 Coins, banknotes paid by the recipient of goods or services to the provider.
+
+### CashTypeCodeList
+
+> `readonly` **CashTypeCodeList**: `"CashTypeCodeList"` = `"CashTypeCodeList"`
+
+Values for UneceCash typeCode property.
 
 ### CertificateTypeCodeList
 
@@ -541,11 +601,23 @@ A character string used to represent the charge paying party role.
 
 Any clearly defined substance having a defined molecular composition.
 
+### ChemicalTypeCodeList
+
+> `readonly` **ChemicalTypeCodeList**: `"ChemicalTypeCodeList"` = `"ChemicalTypeCodeList"`
+
+Values for UneceChemical typeCode property.
+
 ### Cheque
 
 > `readonly` **Cheque**: `"Cheque"` = `"Cheque"`
 
 A written payment order to a bank to pay the stated sum from the drawer's account.
+
+### ChequeTypeCodeList
+
+> `readonly` **ChequeTypeCodeList**: `"ChequeTypeCodeList"` = `"ChequeTypeCodeList"`
+
+Values for UneceCheque typeCode property.
 
 ### Circle
 
@@ -558,6 +630,12 @@ A planar surface specified as one completely round flat shape in the mathematica
 > `readonly` **Classification**: `"Classification"` = `"Classification"`
 
 A systematic arrangement of products in classes or categories according to established criteria.
+
+### ClassificationTypeCodeList
+
+> `readonly` **ClassificationTypeCodeList**: `"ClassificationTypeCodeList"` = `"ClassificationTypeCodeList"`
+
+Values for UneceClassification typeCode property.
 
 ### Clause
 
@@ -576,6 +654,12 @@ A code specifying the organization responsible for a code or identifier list.
 > `readonly` **Colour**: `"Colour"` = `"Colour"`
 
 A colour of a product.
+
+### ColourTypeCodeList
+
+> `readonly` **ColourTypeCodeList**: `"ColourTypeCodeList"` = `"ColourTypeCodeList"`
+
+Values for UneceColour typeCode property.
 
 ### CommitmentLevelCodeList
 
@@ -602,6 +686,12 @@ A character string used to represent a communication channel.
 
 A significant occurrence or happening communicated by means of sending or receiving information, such as transmitting
 digital data by using the internet.
+
+### CommunicationEventTypeCodeList
+
+> `readonly` **CommunicationEventTypeCodeList**: `"CommunicationEventTypeCodeList"` = `"CommunicationEventTypeCodeList"`
+
+Values for UneceCommunicationEvent typeCode property.
 
 ### ComplexDescription
 
@@ -659,6 +749,12 @@ An agreement between two or more parties for trade purposes.
 
 A set of measurable factors that specifies the conditions of its operation within a specific context.
 
+### ControlSettingParameterTypeCodeList
+
+> `readonly` **ControlSettingParameterTypeCodeList**: `"ControlSettingParameterTypeCodeList"` = `"ControlSettingParameterTypeCodeList"`
+
+Values for UneceControlSettingParameter typeCode property.
+
 ### Convoy
 
 > `readonly` **Convoy**: `"Convoy"` = `"Convoy"`
@@ -693,6 +789,12 @@ locations on the earth.
 Improvements taken to eliminate causes of non-conformities or other undesirable situations, such as to an organization's
 processes or products.
 
+### CorrectiveActionTypeCodeList
+
+> `readonly` **CorrectiveActionTypeCodeList**: `"CorrectiveActionTypeCodeList"` = `"CorrectiveActionTypeCodeList"`
+
+Values for UneceCorrectiveAction typeCode property.
+
 ### CorrectiveEvent
 
 > `readonly` **CorrectiveEvent**: `"CorrectiveEvent"` = `"CorrectiveEvent"`
@@ -720,6 +822,12 @@ other objects within the same scheme.
 A political or physical area or region within the political boundaries of a country used or referenced for trade
 purposes.
 
+### CountrySubDivisionTypeCodeList
+
+> `readonly` **CountrySubDivisionTypeCodeList**: `"CountrySubDivisionTypeCodeList"` = `"CountrySubDivisionTypeCodeList"`
+
+Values for UneceCountrySubDivision typeCode property.
+
 ### CreditorFinancialAccount
 
 > `readonly` **CreditorFinancialAccount**: `"CreditorFinancialAccount"` = `"CreditorFinancialAccount"`
@@ -744,12 +852,24 @@ A plant species or variety constituting part of a field crop mixture.
 
 A group of crop produce considered or dealt with together.
 
+### CropProduceBatchTypeCodeList
+
+> `readonly` **CropProduceBatchTypeCodeList**: `"CropProduceBatchTypeCodeList"` = `"CropProduceBatchTypeCodeList"`
+
+Values for UneceCropProduceBatch typeCode property.
+
 ### CropProtectionTreatment
 
 > `readonly` **CropProtectionTreatment**: `"CropProtectionTreatment"` = `"CropProtectionTreatment"`
 
 A method or substance, such as chemical fertilizers and crop protection products, applied to plant growth whilst
 managing and controlling diseases and pests.
+
+### CropProtectionTreatmentTypeCodeList
+
+> `readonly` **CropProtectionTreatmentTypeCodeList**: `"CropProtectionTreatmentTypeCodeList"` = `"CropProtectionTreatmentTypeCodeList"`
+
+Values for UneceCropProtectionTreatment typeCode property.
 
 ### CurrencyCodeList
 
@@ -786,6 +906,12 @@ A character string used to represent a customs procedure guarantee.
 > `readonly` **CustomsValuation**: `"CustomsValuation"` = `"CustomsValuation"`
 
 A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
+
+### CustomsValuationTypeCodeList
+
+> `readonly` **CustomsValuationTypeCodeList**: `"CustomsValuationTypeCodeList"` = `"CustomsValuationTypeCodeList"`
+
+Values for UneceCustomsValuation typeCode property.
 
 ### DangerousGoods
 
@@ -872,6 +998,12 @@ A character string used to represent a function for delivery terms.
 
 The use of online and digital technologies to collect monetary payment amounts.
 
+### DigitalMethodTypeCodeList
+
+> `readonly` **DigitalMethodTypeCodeList**: `"DigitalMethodTypeCodeList"` = `"DigitalMethodTypeCodeList"`
+
+Values for UneceDigitalMethod typeCode property.
+
 ### DimensionTypeCodeList
 
 > `readonly` **DimensionTypeCodeList**: `"DimensionTypeCodeList"` = `"DimensionTypeCodeList"`
@@ -890,6 +1022,12 @@ A specified physical location described within a coordinate reference system.
 
 A physical or mental condition that limits a guest's movements, senses, or activities.
 
+### DisabilityTypeCodeList
+
+> `readonly` **DisabilityTypeCodeList**: `"DisabilityTypeCodeList"` = `"DisabilityTypeCodeList"`
+
+Values for UneceDisability typeCode property.
+
 ### DisposalInstructions
 
 > `readonly` **DisposalInstructions**: `"DisposalInstructions"` = `"DisposalInstructions"`
@@ -907,6 +1045,12 @@ Written, printed or electronic matter that is referenced.
 > `readonly` **DocumentCharacteristic**: `"DocumentCharacteristic"` = `"DocumentCharacteristic"`
 
 A prominent attribute or aspect of a document.
+
+### DocumentCharacteristicTypeCodeList
+
+> `readonly` **DocumentCharacteristicTypeCodeList**: `"DocumentCharacteristicTypeCodeList"` = `"DocumentCharacteristicTypeCodeList"`
+
+Values for UneceDocumentCharacteristic typeCode property.
 
 ### DocumentCodeList
 
@@ -964,6 +1108,12 @@ A numeric value determined by measuring a duration of time.
 A calculation of the pollution (including noise, heat, and radiation etc.) discharged into the environment by a
 residential, commercial, or industrial facility or by a means of transport, such as a vessel, aircraft or truck.
 
+### EmissionTypeCodeList
+
+> `readonly` **EmissionTypeCodeList**: `"EmissionTypeCodeList"` = `"EmissionTypeCodeList"`
+
+Values for UneceEmission typeCode property.
+
 ### EmployerIdentity
 
 > `readonly` **EmployerIdentity**: `"EmployerIdentity"` = `"EmployerIdentity"`
@@ -981,6 +1131,12 @@ A structure providing XHE (Exchange Header Envelope) information.
 > `readonly` **Equipment**: `"Equipment"` = `"Equipment"`
 
 Hardware or software typically marketed by a company other than the original manufacturer.
+
+### EquipmentTypeCodeList
+
+> `readonly` **EquipmentTypeCodeList**: `"EquipmentTypeCodeList"` = `"EquipmentTypeCodeList"`
+
+Values for UneceEquipment typeCode property.
 
 ### Error
 
@@ -1092,6 +1248,12 @@ A character string used to represent a financial adjustment reason.
 
 A card used to represent a financial account for a trade settlement.
 
+### FinancialCardTypeCodeList
+
+> `readonly` **FinancialCardTypeCodeList**: `"FinancialCardTypeCodeList"` = `"FinancialCardTypeCodeList"`
+
+Values for UneceFinancialCard typeCode property.
+
 ### FinancialIdentity
 
 > `readonly` **FinancialIdentity**: `"FinancialIdentity"` = `"FinancialIdentity"`
@@ -1146,6 +1308,12 @@ A collection of financing related data that provides an overview of key points.
 
 A guest's decision which food to buy or eat.
 
+### FoodChoiceTypeCodeList
+
+> `readonly` **FoodChoiceTypeCodeList**: `"FoodChoiceTypeCodeList"` = `"FoodChoiceTypeCodeList"`
+
+Values for UneceFoodChoice typeCode property.
+
 ### ForecastTerms
 
 > `readonly` **ForecastTerms**: `"ForecastTerms"` = `"ForecastTerms"`
@@ -1169,6 +1337,12 @@ A character string used to represent the freight charge type.
 > `readonly` **Fuel**: `"Fuel"` = `"Fuel"`
 
 Any specified material that is burnt or altered in order to obtain energy.
+
+### FuelTypeCodeList
+
+> `readonly` **FuelTypeCodeList**: `"FuelTypeCodeList"` = `"FuelTypeCodeList"`
+
+Values for UneceFuel typeCode property.
 
 ### GeographicalArea
 
@@ -1244,11 +1418,23 @@ A figure on the Earth having only two dimensions (reference ISO 19136).
 
 A collection of countries and/or economies united for trade purposes.
 
+### GeopoliticalRegionTypeCodeList
+
+> `readonly` **GeopoliticalRegionTypeCodeList**: `"GeopoliticalRegionTypeCodeList"` = `"GeopoliticalRegionTypeCodeList"`
+
+Values for UneceGeopoliticalRegion typeCode property.
+
 ### GoodsCharacteristic
 
 > `readonly` **GoodsCharacteristic**: `"GoodsCharacteristic"` = `"GoodsCharacteristic"`
 
 A distinctive feature of a material contained within physical goods.
+
+### GoodsCharacteristicTypeCodeList
+
+> `readonly` **GoodsCharacteristicTypeCodeList**: `"GoodsCharacteristicTypeCodeList"` = `"GoodsCharacteristicTypeCodeList"`
+
+Values for UneceGoodsCharacteristic typeCode property.
 
 ### GoodsTypeCodeList
 
@@ -1274,11 +1460,23 @@ A character string used to replace or represent a government action.
 
 The recording of items or details for a governmental purpose.
 
+### GovernmentRegistrationTypeCodeList
+
+> `readonly` **GovernmentRegistrationTypeCodeList**: `"GovernmentRegistrationTypeCodeList"` = `"GovernmentRegistrationTypeCodeList"`
+
+Values for UneceGovernmentRegistration typeCode property.
+
 ### GroupedWorkItem
 
 > `readonly` **GroupedWorkItem**: `"GroupedWorkItem"` = `"GroupedWorkItem"`
 
 A grouping of related work items.
+
+### GroupedWorkItemTypeCodeList
+
+> `readonly` **GroupedWorkItemTypeCodeList**: `"GroupedWorkItemTypeCodeList"` = `"GroupedWorkItemTypeCodeList"`
+
+Values for UneceGroupedWorkItem typeCode property.
 
 ### Guarantee
 
@@ -1297,6 +1495,12 @@ The act of coming to or reaching a place by a specified guest.
 > `readonly` **GuestHealthIndication**: `"GuestHealthIndication"` = `"GuestHealthIndication"`
 
 A guest's physical or mental condition.
+
+### GuestHealthIndicationTypeCodeList
+
+> `readonly` **GuestHealthIndicationTypeCodeList**: `"GuestHealthIndicationTypeCodeList"` = `"GuestHealthIndicationTypeCodeList"`
+
+Values for UneceGuestHealthIndication typeCode property.
 
 ### GuestPerson
 
@@ -1383,6 +1587,12 @@ A measurement of the variation limits of an ingredient.
 
 A significant occurrence or happening related to an inspection.
 
+### InspectionEventTypeCodeList
+
+> `readonly` **InspectionEventTypeCodeList**: `"InspectionEventTypeCodeList"` = `"InspectionEventTypeCodeList"`
+
+Values for UneceInspectionEvent typeCode property.
+
 ### InspectionInstructions
 
 > `readonly` **InspectionInstructions**: `"InspectionInstructions"` = `"InspectionInstructions"`
@@ -1458,11 +1668,23 @@ Deprecated since version D23B.
 An IOT (Internet of Things) piece of mechanical or electronic equipment which can collect, report and autonomously
 transmit digital data.
 
+### IOTDeviceTypeCodeList
+
+> `readonly` **IOTDeviceTypeCodeList**: `"IOTDeviceTypeCodeList"` = `"IOTDeviceTypeCodeList"`
+
+Values for UneceIOTDevice typeCode property.
+
 ### Issue
 
 > `readonly` **Issue**: `"Issue"` = `"Issue"`
 
 A targeted topic for debate or resolution.
+
+### IssueTypeCodeList
+
+> `readonly` **IssueTypeCodeList**: `"IssueTypeCodeList"` = `"IssueTypeCodeList"`
+
+Values for UneceIssue typeCode property.
 
 ### Keyword
 
@@ -1532,17 +1754,35 @@ conveyed by speech, writing, or gesture.
 
 An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
 
+### LegalOrganizationTypeCodeList
+
+> `readonly` **LegalOrganizationTypeCodeList**: `"LegalOrganizationTypeCodeList"` = `"LegalOrganizationTypeCodeList"`
+
+Values for UneceLegalOrganization typeCode property.
+
 ### LegalRegistration
 
 > `readonly` **LegalRegistration**: `"LegalRegistration"` = `"LegalRegistration"`
 
 The recording of items or details for a specific legal purpose.
 
+### LegalRegistrationTypeCodeList
+
+> `readonly` **LegalRegistrationTypeCodeList**: `"LegalRegistrationTypeCodeList"` = `"LegalRegistrationTypeCodeList"`
+
+Values for UneceLegalRegistration typeCode property.
+
 ### Licence
 
 > `readonly` **Licence**: `"Licence"` = `"Licence"`
 
 A permit from an authority to own or use something, do a particular thing, or to conduct a trade.
+
+### LicenceTypeCodeList
+
+> `readonly` **LicenceTypeCodeList**: `"LicenceTypeCodeList"` = `"LicenceTypeCodeList"`
+
+Values for UneceLicence typeCode property.
 
 ### LifetimeEndCostCodeList
 
@@ -1617,6 +1857,12 @@ A character string used to replace or represent a location function.
 
 An individual, a group, or a body having a role related to a location.
 
+### LocationPartyTypeCodeList
+
+> `readonly` **LocationPartyTypeCodeList**: `"LocationPartyTypeCodeList"` = `"LocationPartyTypeCodeList"`
+
+Values for UneceLocationParty typeCode property.
+
 ### LogisticsChargeCalculationBasisCodeList
 
 > `readonly` **LogisticsChargeCalculationBasisCodeList**: `"LogisticsChargeCalculationBasisCodeList"` = `"LogisticsChargeCalculationBasisCodeList"`
@@ -1641,6 +1887,12 @@ A logistics related physical location or place.
 > `readonly` **LogisticsPackaging**: `"LogisticsPackaging"` = `"LogisticsPackaging"`
 
 Any wrapping or containment, such as a box or a barrel, whether or not any goods are contained within.
+
+### LogisticsPackagingTypeCodeList
+
+> `readonly` **LogisticsPackagingTypeCodeList**: `"LogisticsPackagingTypeCodeList"` = `"LogisticsPackagingTypeCodeList"`
+
+Values for UneceLogisticsPackaging typeCode property.
 
 ### LogisticsStatus
 
@@ -1673,6 +1925,12 @@ The devices used to convey goods or other objects from place to place during log
 
 An apparatus specified to be used to perform an activity to produce something.
 
+### MachineTypeCodeList
+
+> `readonly` **MachineTypeCodeList**: `"MachineTypeCodeList"` = `"MachineTypeCodeList"`
+
+Values for UneceMachine typeCode property.
+
 ### Marketplace
 
 > `readonly` **Marketplace**: `"Marketplace"` = `"Marketplace"`
@@ -1699,6 +1957,12 @@ A character string used to represent the marking instruction.
 Information related to a specific transportation indication to be reported on a WHO MDH (Maritime Declaration of
 Health).
 
+### MDHHealthIndicationTypeCodeList
+
+> `readonly` **MDHHealthIndicationTypeCodeList**: `"MDHHealthIndicationTypeCodeList"` = `"MDHHealthIndicationTypeCodeList"`
+
+Values for UneceMDHHealthIndication typeCode property.
+
 ### MeasureCode
 
 > `readonly` **MeasureCode**: `"MeasureCode"` = `"MeasureCode"`
@@ -1716,6 +1980,12 @@ A character string used to replace or represent a measured attribute.
 > `readonly` **Measurement**: `"Measurement"` = `"Measurement"`
 
 An amount, size, or extent as established by measuring.
+
+### MeasurementTypeCodeList
+
+> `readonly` **MeasurementTypeCodeList**: `"MeasurementTypeCodeList"` = `"MeasurementTypeCodeList"`
+
+Values for UneceMeasurement typeCode property.
 
 ### MeasureType
 
@@ -1741,11 +2011,23 @@ A character string used to represent a message function.
 
 A prominent attribute or aspect of a metric (a standard of measurement).
 
+### MetricCharacteristicTypeCodeList
+
+> `readonly` **MetricCharacteristicTypeCodeList**: `"MetricCharacteristicTypeCodeList"` = `"MetricCharacteristicTypeCodeList"`
+
+Values for UneceMetricCharacteristic typeCode property.
+
 ### NegotiationContext
 
 > `readonly` **NegotiationContext**: `"NegotiationContext"` = `"NegotiationContext"`
 
 The protocol and setting of a negotiation.
+
+### NegotiationContextTypeCodeList
+
+> `readonly` **NegotiationContextTypeCodeList**: `"NegotiationContextTypeCodeList"` = `"NegotiationContextTypeCodeList"`
+
+Values for UneceNegotiationContext typeCode property.
 
 ### NegotiationExchange
 
@@ -1765,6 +2047,12 @@ A textual or coded description, such as a remark or additional information.
 
 Anything that is visible or tangible, such as a product, process, or organization.
 
+### ObjectTypeCodeList
+
+> `readonly` **ObjectTypeCodeList**: `"ObjectTypeCodeList"` = `"ObjectTypeCodeList"`
+
+Values for UneceObject typeCode property.
+
 ### Observation
 
 > `readonly` **Observation**: `"Observation"` = `"Observation"`
@@ -1776,6 +2064,12 @@ A specified act or instance of viewing or noting a fact or occurrence for some s
 > `readonly` **ObservationObjectiveParameter**: `"ObservationObjectiveParameter"` = `"ObservationObjectiveParameter"`
 
 A feature that is fixed for the case in question but may be different in other cases for this observation objective.
+
+### ObservationObjectiveParameterTypeCodeList
+
+> `readonly` **ObservationObjectiveParameterTypeCodeList**: `"ObservationObjectiveParameterTypeCodeList"` = `"ObservationObjectiveParameterTypeCodeList"`
+
+Values for UneceObservationObjectiveParameter typeCode property.
 
 ### ObservationResult
 
@@ -1795,6 +2089,12 @@ Specifies the type of the performed observation and the acquired values of this 
 
 A set of measurable factors that specifies the conditions within which an entity operates correctly.
 
+### OperationalParameterTypeCodeList
+
+> `readonly` **OperationalParameterTypeCodeList**: `"OperationalParameterTypeCodeList"` = `"OperationalParameterTypeCodeList"`
+
+Values for UneceOperationalParameter typeCode property.
+
 ### OrganizationalCertificate
 
 > `readonly` **OrganizationalCertificate**: `"OrganizationalCertificate"` = `"OrganizationalCertificate"`
@@ -1813,6 +2113,12 @@ The process of certifying organizational performance or qualification requiremen
 > `readonly` **OrganizationCharacteristic**: `"OrganizationCharacteristic"` = `"OrganizationCharacteristic"`
 
 A prominent attribute or aspect of an organization.
+
+### OrganizationCharacteristicTypeCodeList
+
+> `readonly` **OrganizationCharacteristicTypeCodeList**: `"OrganizationCharacteristicTypeCodeList"` = `"OrganizationCharacteristicTypeCodeList"`
+
+Values for UneceOrganizationCharacteristic typeCode property.
 
 ### OrganizationFunctionTypeCodeList
 
@@ -1900,11 +2206,23 @@ Trade terms and conditions by which a discount is or can be applied to a payable
 
 A specific business arrangement whereby monetary values pertaining to payment, collected or paid, are recorded.
 
+### PaymentFinancialAccountTypeCodeList
+
+> `readonly` **PaymentFinancialAccountTypeCodeList**: `"PaymentFinancialAccountTypeCodeList"` = `"PaymentFinancialAccountTypeCodeList"`
+
+Values for UnecePaymentFinancialAccount typeCode property.
+
 ### PaymentFinancialInstitution
 
 > `readonly` **PaymentFinancialInstitution**: `"PaymentFinancialInstitution"` = `"PaymentFinancialInstitution"`
 
 An institution that provides financial services and financial transactions for payment.
+
+### PaymentFinancialInstitutionTypeCodeList
+
+> `readonly` **PaymentFinancialInstitutionTypeCodeList**: `"PaymentFinancialInstitutionTypeCodeList"` = `"PaymentFinancialInstitutionTypeCodeList"`
+
+Values for UnecePaymentFinancialInstitution typeCode property.
 
 ### PaymentGuaranteeMeansCodeList
 
@@ -1974,11 +2292,23 @@ A character string used to represent the payment terms type.
 The information that enables the reconciliation of a payment with the item(s) that the payment is intended to settle,
 for example a commercial invoice.
 
+### PaymentTradeSettlementTypeCodeList
+
+> `readonly` **PaymentTradeSettlementTypeCodeList**: `"PaymentTradeSettlementTypeCodeList"` = `"PaymentTradeSettlementTypeCodeList"`
+
+Values for UnecePaymentTradeSettlement typeCode property.
+
 ### PersonalEffects
 
 > `readonly` **PersonalEffects**: `"PersonalEffects"` = `"PersonalEffects"`
 
 Specified privately owned articles for personal use by an individual.
+
+### PersonalEffectsTypeCodeList
+
+> `readonly` **PersonalEffectsTypeCodeList**: `"PersonalEffectsTypeCodeList"` = `"PersonalEffectsTypeCodeList"`
+
+Values for UnecePersonalEffects typeCode property.
 
 ### PersonIdentity
 
@@ -2037,6 +2367,12 @@ An involvement in a happening, such as a theme park, a guided tour that is liked
 An adjustment, such as a change to an organization's processes or products, taken to prevent non-conformities or other
 undesirable situations, possibly as a result of a risk analysis.
 
+### PreventiveActionTypeCodeList
+
+> `readonly` **PreventiveActionTypeCodeList**: `"PreventiveActionTypeCodeList"` = `"PreventiveActionTypeCodeList"`
+
+Values for UnecePreventiveAction typeCode property.
+
 ### PriceTypeCodeList
 
 > `readonly` **PriceTypeCodeList**: `"PriceTypeCodeList"` = `"PriceTypeCodeList"`
@@ -2048,6 +2384,12 @@ A character string used to represent or replace a type of price.
 > `readonly` **Print**: `"Print"` = `"Print"`
 
 Any text or pattern put on the surface of a product using a specific material such as dye.
+
+### PrintTypeCodeList
+
+> `readonly` **PrintTypeCodeList**: `"PrintTypeCodeList"` = `"PrintTypeCodeList"`
+
+Values for UnecePrint typeCode property.
 
 ### PriorityDescriptionCodeList
 
@@ -2086,11 +2428,23 @@ A character string used to replace or represent a type of process.
 
 A distinct operation or task that is part of a process.
 
+### ProcessWorkItemTypeCodeList
+
+> `readonly` **ProcessWorkItemTypeCodeList**: `"ProcessWorkItemTypeCodeList"` = `"ProcessWorkItemTypeCodeList"`
+
+Values for UneceProcessWorkItem typeCode property.
+
 ### Produce
 
 > `readonly` **Produce**: `"Produce"` = `"Produce"`
 
 Agricultural plants or plant products grown and harvested, such as grain, fruit, vegetables, silage.
+
+### ProduceTypeCodeList
+
+> `readonly` **ProduceTypeCodeList**: `"ProduceTypeCodeList"` = `"ProduceTypeCodeList"`
+
+Values for UneceProduce typeCode property.
 
 ### Product
 
@@ -2124,6 +2478,18 @@ qualification requirements stipulated in regulations.
 
 A prominent attribute or aspect of a group of products considered or dealt with together.
 
+### ProductBatchCharacteristicTypeCodeList
+
+> `readonly` **ProductBatchCharacteristicTypeCodeList**: `"ProductBatchCharacteristicTypeCodeList"` = `"ProductBatchCharacteristicTypeCodeList"`
+
+Values for UneceProductBatchCharacteristic typeCode property.
+
+### ProductBatchTypeCodeList
+
+> `readonly` **ProductBatchTypeCodeList**: `"ProductBatchTypeCodeList"` = `"ProductBatchTypeCodeList"`
+
+Values for UneceProductBatch typeCode property.
+
 ### ProductCertificate
 
 > `readonly` **ProductCertificate**: `"ProductCertificate"` = `"ProductCertificate"`
@@ -2143,11 +2509,29 @@ A prominent attribute or aspect of a product.
 
 A state that applies to a product characteristic.
 
+### ProductCharacteristicConditionTypeCodeList
+
+> `readonly` **ProductCharacteristicConditionTypeCodeList**: `"ProductCharacteristicConditionTypeCodeList"` = `"ProductCharacteristicConditionTypeCodeList"`
+
+Values for UneceProductCharacteristicCondition typeCode property.
+
+### ProductCharacteristicTypeCodeList
+
+> `readonly` **ProductCharacteristicTypeCodeList**: `"ProductCharacteristicTypeCodeList"` = `"ProductCharacteristicTypeCodeList"`
+
+Values for UneceProductCharacteristic typeCode property.
+
 ### ProductFinishingTreatment
 
 > `readonly` **ProductFinishingTreatment**: `"ProductFinishingTreatment"` = `"ProductFinishingTreatment"`
 
 Improving measures for manufactured components or products to meet end use requirements.
+
+### ProductFinishingTreatmentTypeCodeList
+
+> `readonly` **ProductFinishingTreatmentTypeCodeList**: `"ProductFinishingTreatmentTypeCodeList"` = `"ProductFinishingTreatmentTypeCodeList"`
+
+Values for UneceProductFinishingTreatment typeCode property.
 
 ### ProductGroup
 
@@ -2188,6 +2572,12 @@ A series of activities associated with the processing of a product.
 An object, especially a piece of mechanical or electronic equipment, made or adapted in order to perform a production
 activity.
 
+### ProductionDeviceTypeCodeList
+
+> `readonly` **ProductionDeviceTypeCodeList**: `"ProductionDeviceTypeCodeList"` = `"ProductionDeviceTypeCodeList"`
+
+Values for UneceProductionDevice typeCode property.
+
 ### ProductionFacility
 
 > `readonly` **ProductionFacility**: `"ProductionFacility"` = `"ProductionFacility"`
@@ -2206,6 +2596,12 @@ A naturally occurring or designed sequence of operations or events in order to p
 
 A defined set of production processes under the single management of a facility.
 
+### ProductionUnitTypeCodeList
+
+> `readonly` **ProductionUnitTypeCodeList**: `"ProductionUnitTypeCodeList"` = `"ProductionUnitTypeCodeList"`
+
+Values for UneceProductionUnit typeCode property.
+
 ### ProductionWasteMaterial
 
 > `readonly` **ProductionWasteMaterial**: `"ProductionWasteMaterial"` = `"ProductionWasteMaterial"`
@@ -2217,6 +2613,18 @@ Any materials unused and rejected as unwanted during a production process.
 > `readonly` **ProductionWasteMaterialComponent**: `"ProductionWasteMaterialComponent"` = `"ProductionWasteMaterialComponent"`
 
 A production material component that is unused and rejected as unwanted.
+
+### ProductionWasteMaterialComponentTypeCodeList
+
+> `readonly` **ProductionWasteMaterialComponentTypeCodeList**: `"ProductionWasteMaterialComponentTypeCodeList"` = `"ProductionWasteMaterialComponentTypeCodeList"`
+
+Values for UneceProductionWasteMaterialComponent typeCode property.
+
+### ProductionWasteMaterialTypeCodeList
+
+> `readonly` **ProductionWasteMaterialTypeCodeList**: `"ProductionWasteMaterialTypeCodeList"` = `"ProductionWasteMaterialTypeCodeList"`
+
+Values for UneceProductionWasteMaterial typeCode property.
 
 ### ProductionWasteRecoveryDisposalProcess
 
@@ -2237,6 +2645,12 @@ A label, such as a garment label or a radio frequency tag, used for identifying 
 
 An endeavour carefully planned to achieve a procurement of goods, works and service.
 
+### ProjectTypeCodeList
+
+> `readonly` **ProjectTypeCodeList**: `"ProjectTypeCodeList"` = `"ProjectTypeCodeList"`
+
+Values for UneceProject typeCode property.
+
 ### ProprietaryIdentity
 
 > `readonly` **ProprietaryIdentity**: `"ProprietaryIdentity"` = `"ProprietaryIdentity"`
@@ -2254,6 +2668,12 @@ A way to protect something, such as human beings, animals or environment, from g
 > `readonly` **QuantityAnalysis**: `"QuantityAnalysis"` = `"QuantityAnalysis"`
 
 The quantity analysis for this work item.
+
+### QuantityAnalysisTypeCodeList
+
+> `readonly` **QuantityAnalysisTypeCodeList**: `"QuantityAnalysisTypeCodeList"` = `"QuantityAnalysisTypeCodeList"`
+
+Values for UneceQuantityAnalysis typeCode property.
 
 ### QuantityCode
 
@@ -2293,6 +2713,12 @@ energy by spontaneously emitting radiation in the form of alpha, beta, or gamma 
 Material capable of undergoing spontaneous nuclear decay involving emission of ionizing radiation in the form of
 particles or gamma rays.
 
+### RadioactiveMaterialTypeCodeList
+
+> `readonly` **RadioactiveMaterialTypeCodeList**: `"RadioactiveMaterialTypeCodeList"` = `"RadioactiveMaterialTypeCodeList"`
+
+Values for UneceRadioactiveMaterial typeCode property.
+
 ### Radionuclide
 
 > `readonly` **Radionuclide**: `"Radionuclide"` = `"Radionuclide"`
@@ -2304,6 +2730,12 @@ A radionuclide atom that has excess nuclear energy, making it unstable.
 > `readonly` **Range**: `"Range"` = `"Range"`
 
 A row, line or series, commonly used to express the difference between lowest and highest values.
+
+### RangeTypeCodeList
+
+> `readonly` **RangeTypeCodeList**: `"RangeTypeCodeList"` = `"RangeTypeCodeList"`
+
+Values for UneceRange typeCode property.
 
 ### RecordedStatus
 
@@ -2372,6 +2804,12 @@ An individual, a group, or a body having a role as a requestor.
 
 Common conditions contained in a contract or agreement applicable between trading partners.
 
+### RequirementTypeCodeList
+
+> `readonly` **RequirementTypeCodeList**: `"RequirementTypeCodeList"` = `"RequirementTypeCodeList"`
+
+Values for UneceRequirement typeCode property.
+
 ### Response
 
 > `readonly` **Response**: `"Response"` = `"Response"`
@@ -2414,6 +2852,12 @@ The result of a logistics risk analysis calculation.
 
 Sanitary measures as reported for a WHO MDH (Maritime Declaration of Health).
 
+### SanitaryMeasureTypeCodeList
+
+> `readonly` **SanitaryMeasureTypeCodeList**: `"SanitaryMeasureTypeCodeList"` = `"SanitaryMeasureTypeCodeList"`
+
+Values for UneceSanitaryMeasure typeCode property.
+
 ### ScenarioTypeCodeList
 
 > `readonly` **ScenarioTypeCodeList**: `"ScenarioTypeCodeList"` = `"ScenarioTypeCodeList"`
@@ -2425,6 +2869,12 @@ A character string used to represent the type of scenario.
 > `readonly` **Schedule**: `"Schedule"` = `"Schedule"`
 
 A series of planned activities or things to be done in this supply chain.
+
+### ScheduleTypeCodeList
+
+> `readonly` **ScheduleTypeCodeList**: `"ScheduleTypeCodeList"` = `"ScheduleTypeCodeList"`
+
+Values for UneceSchedule typeCode property.
 
 ### SchedulingDocumentCodeList
 
@@ -2463,11 +2913,23 @@ The parts into which a label is or may be divided.
 
 A product tag device to provide protection from a peril such as theft.
 
+### SecurityTagTypeCodeList
+
+> `readonly` **SecurityTagTypeCodeList**: `"SecurityTagTypeCodeList"` = `"SecurityTagTypeCodeList"`
+
+Values for UneceSecurityTag typeCode property.
+
 ### Segment
 
 > `readonly` **Segment**: `"Segment"` = `"Segment"`
 
 The parts into which a segment is or may be divided.
+
+### SegmentTypeCodeList
+
+> `readonly` **SegmentTypeCodeList**: `"SegmentTypeCodeList"` = `"SegmentTypeCodeList"`
+
+Values for UneceSegment typeCode property.
 
 ### Sensor
 
@@ -2475,6 +2937,12 @@ The parts into which a segment is or may be divided.
 
 An object which can detect and measure physical properties and which can record, indicate and transmit such
 measurements.
+
+### SensorTypeCodeList
+
+> `readonly` **SensorTypeCodeList**: `"SensorTypeCodeList"` = `"SensorTypeCodeList"`
+
+Values for UneceSensor typeCode property.
 
 ### Service
 
@@ -2532,11 +3000,23 @@ The species of a Track and Trace (TT) animal or batch of animals.
 
 A formally raised question or request for information about this specification.
 
+### SpecificationQueryTypeCodeList
+
+> `readonly` **SpecificationQueryTypeCodeList**: `"SpecificationQueryTypeCodeList"` = `"SpecificationQueryTypeCodeList"`
+
+Values for UneceSpecificationQuery typeCode property.
+
 ### SpecifiedAction
 
 > `readonly` **SpecifiedAction**: `"SpecifiedAction"` = `"SpecifiedAction"`
 
 The process of doing something in order to make something happen or to deal with a situation.
+
+### SpecifiedActionTypeCodeList
+
+> `readonly` **SpecifiedActionTypeCodeList**: `"SpecifiedActionTypeCodeList"` = `"SpecifiedActionTypeCodeList"`
+
+Values for UneceSpecifiedAction typeCode property.
 
 ### SpecifiedCertificate
 
@@ -2559,6 +3039,12 @@ requirements stipulated in a standard or regulation.
 Any substance such as dyestuffs, chrome oxide, acids, sulphate, surfactant or other chemicals applied to an agricultural
 field, substrate, plant, animal product, material or product.
 
+### SpecifiedChemicalTreatmentTypeCodeList
+
+> `readonly` **SpecifiedChemicalTreatmentTypeCodeList**: `"SpecifiedChemicalTreatmentTypeCodeList"` = `"SpecifiedChemicalTreatmentTypeCodeList"`
+
+Values for UneceSpecifiedChemicalTreatment typeCode property.
+
 ### SpecifiedCondition
 
 > `readonly` **SpecifiedCondition**: `"SpecifiedCondition"` = `"SpecifiedCondition"`
@@ -2572,11 +3058,23 @@ A state, such as of a specified person or thing.
 An act of notification by formal documentation or action, in any form prescribed or accepted, such as a
 self-declaration.
 
+### SpecifiedDeclarationTypeCodeList
+
+> `readonly` **SpecifiedDeclarationTypeCodeList**: `"SpecifiedDeclarationTypeCodeList"` = `"SpecifiedDeclarationTypeCodeList"`
+
+Values for UneceSpecifiedDeclaration typeCode property.
+
 ### SpecifiedFault
 
 > `readonly` **SpecifiedFault**: `"SpecifiedFault"` = `"SpecifiedFault"`
 
 An unattractive or unsatisfactory characteristic.
+
+### SpecifiedFaultTypeCodeList
+
+> `readonly` **SpecifiedFaultTypeCodeList**: `"SpecifiedFaultTypeCodeList"` = `"SpecifiedFaultTypeCodeList"`
+
+Values for UneceSpecifiedFault typeCode property.
 
 ### SpecifiedFeature
 
@@ -2584,12 +3082,24 @@ An unattractive or unsatisfactory characteristic.
 
 A distinctive or characteristic part of something.
 
+### SpecifiedFeatureTypeCodeList
+
+> `readonly` **SpecifiedFeatureTypeCodeList**: `"SpecifiedFeatureTypeCodeList"` = `"SpecifiedFeatureTypeCodeList"`
+
+Values for UneceSpecifiedFeature typeCode property.
+
 ### SpecifiedInspection
 
 > `readonly` **SpecifiedInspection**: `"SpecifiedInspection"` = `"SpecifiedInspection"`
 
 The process of performing documented checks, such as on materials or processes, with a focus on discovering deviations,
 errors or faults related to documented requirements.
+
+### SpecifiedInspectionTypeCodeList
+
+> `readonly` **SpecifiedInspectionTypeCodeList**: `"SpecifiedInspectionTypeCodeList"` = `"SpecifiedInspectionTypeCodeList"`
+
+Values for UneceSpecifiedInspection typeCode property.
 
 ### SpecifiedLocation
 
@@ -2602,6 +3112,12 @@ A specified physical location or place.
 > `readonly` **SpecifiedMaterial**: `"SpecifiedMaterial"` = `"SpecifiedMaterial"`
 
 A substance from which something is or could be made.
+
+### SpecifiedMaterialTypeCodeList
+
+> `readonly` **SpecifiedMaterialTypeCodeList**: `"SpecifiedMaterialTypeCodeList"` = `"SpecifiedMaterialTypeCodeList"`
+
+Values for UneceSpecifiedMaterial typeCode property.
 
 ### SpecifiedMethod
 
@@ -2621,11 +3137,23 @@ A specified textual or coded description, such as a remark or additional informa
 
 A specified feature that is fixed for the case in question but may be different in other cases.
 
+### SpecifiedParameterTypeCodeList
+
+> `readonly` **SpecifiedParameterTypeCodeList**: `"SpecifiedParameterTypeCodeList"` = `"SpecifiedParameterTypeCodeList"`
+
+Values for UneceSpecifiedParameter typeCode property.
+
 ### SpecifiedPeriod
 
 > `readonly` **SpecifiedPeriod**: `"SpecifiedPeriod"` = `"SpecifiedPeriod"`
 
 A specified period of time.
+
+### SpecifiedPeriodTypeCodeList
+
+> `readonly` **SpecifiedPeriodTypeCodeList**: `"SpecifiedPeriodTypeCodeList"` = `"SpecifiedPeriodTypeCodeList"`
+
+Values for UneceSpecifiedPeriod typeCode property.
 
 ### SpecifiedQualification
 
@@ -2652,6 +3180,12 @@ A specified temperature value or range of values.
 A referenced norm or requirement that establishes uniform criteria, methods, processes and practices, such as in
 engineering or technical areas.
 
+### StandardTypeCodeList
+
+> `readonly` **StandardTypeCodeList**: `"StandardTypeCodeList"` = `"StandardTypeCodeList"`
+
+Values for UneceStandard typeCode property.
+
 ### StatusCodeList
 
 > `readonly` **StatusCodeList**: `"StatusCodeList"` = `"StatusCodeList"`
@@ -2663,6 +3197,12 @@ A character string used to represent a status.
 > `readonly` **StoresItemInventory**: `"StoresItemInventory"` = `"StoresItemInventory"`
 
 A stores item, such as for onboard use during a journey.
+
+### StoresItemInventoryTypeCodeList
+
+> `readonly` **StoresItemInventoryTypeCodeList**: `"StoresItemInventoryTypeCodeList"` = `"StoresItemInventoryTypeCodeList"`
+
+Values for UneceStoresItemInventory typeCode property.
 
 ### Stowaway
 
@@ -2720,6 +3260,12 @@ A collection of information specific to a subordinate item being used or reporte
 
 A significant occurrence or happening in a supply chain.
 
+### SupplyChainEventTypeCodeList
+
+> `readonly` **SupplyChainEventTypeCodeList**: `"SupplyChainEventTypeCodeList"` = `"SupplyChainEventTypeCodeList"`
+
+Values for UneceSupplyChainEvent typeCode property.
+
 ### SupplyChainInventory
 
 > `readonly` **SupplyChainInventory**: `"SupplyChainInventory"` = `"SupplyChainInventory"`
@@ -2738,11 +3284,23 @@ Any material with which supply chain goods are packaged, such as a box or bubble
 
 The identification of related information in a supply chain context.
 
+### SupplyChainReferenceTypeCodeList
+
+> `readonly` **SupplyChainReferenceTypeCodeList**: `"SupplyChainReferenceTypeCodeList"` = `"SupplyChainReferenceTypeCodeList"`
+
+Values for UneceSupplyChainReference typeCode property.
+
 ### SupplyChainTradeLineItem
 
 > `readonly` **SupplyChainTradeLineItem**: `"SupplyChainTradeLineItem"` = `"SupplyChainTradeLineItem"`
 
 A collection of information specific to an item being used or reported on for supply chain trade purposes.
+
+### SupplyChainTradeLineItemTypeCodeList
+
+> `readonly` **SupplyChainTradeLineItemTypeCodeList**: `"SupplyChainTradeLineItemTypeCodeList"` = `"SupplyChainTradeLineItemTypeCodeList"`
+
+Values for UneceSupplyChainTradeLineItem typeCode property.
 
 ### SupplyChainTradeTransaction
 
@@ -2750,11 +3308,23 @@ A collection of information specific to an item being used or reported on for su
 
 A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
 
+### SupplyChainTradeTransactionTypeCodeList
+
+> `readonly` **SupplyChainTradeTransactionTypeCodeList**: `"SupplyChainTradeTransactionTypeCodeList"` = `"SupplyChainTradeTransactionTypeCodeList"`
+
+Values for UneceSupplyChainTradeTransaction typeCode property.
+
 ### SupplyPlan
 
 > `readonly` **SupplyPlan**: `"SupplyPlan"` = `"SupplyPlan"`
 
 Specification of the delivery quantities and date/time values in a supply schedule.
+
+### SupplyPlanTypeCodeList
+
+> `readonly` **SupplyPlanTypeCodeList**: `"SupplyPlanTypeCodeList"` = `"SupplyPlanTypeCodeList"`
+
+Values for UneceSupplyPlan typeCode property.
 
 ### SustainabilityCharacteristic
 
@@ -2763,12 +3333,24 @@ Specification of the delivery quantities and date/time values in a supply schedu
 A prominent attribute or aspect of an object, such as recyclability of a product, which can meet customer needs without
 compromising the ability of future generations to meet their own needs.
 
+### SustainabilityCharacteristicTypeCodeList
+
+> `readonly` **SustainabilityCharacteristicTypeCodeList**: `"SustainabilityCharacteristicTypeCodeList"` = `"SustainabilityCharacteristicTypeCodeList"`
+
+Values for UneceSustainabilityCharacteristic typeCode property.
+
 ### SustainabilityInspection
 
 > `readonly` **SustainabilityInspection**: `"SustainabilityInspection"` = `"SustainabilityInspection"`
 
 The process of performing documented checks of sustainability characteristics, with a focus on discovering deviations,
 related to documented sustainability requirements.
+
+### SustainabilityInspectionTypeCodeList
+
+> `readonly` **SustainabilityInspectionTypeCodeList**: `"SustainabilityInspectionTypeCodeList"` = `"SustainabilityInspectionTypeCodeList"`
+
+Values for UneceSustainabilityInspection typeCode property.
 
 ### TaxCategoryCodeList
 
@@ -2799,6 +3381,12 @@ A character string used to represent or replace a tax type.
 > `readonly` **TechnicalCharacteristic**: `"TechnicalCharacteristic"` = `"TechnicalCharacteristic"`
 
 A prominent technical attribute or aspect.
+
+### TechnicalCharacteristicTypeCodeList
+
+> `readonly` **TechnicalCharacteristicTypeCodeList**: `"TechnicalCharacteristicTypeCodeList"` = `"TechnicalCharacteristicTypeCodeList"`
+
+Values for UneceTechnicalCharacteristic typeCode property.
 
 ### TemperatureSettingInstructions
 
@@ -2897,6 +3485,18 @@ requirements stipulated in regulations.
 
 Distinctive or characteristic parts of a trade product.
 
+### TradeProductFeatureTypeCodeList
+
+> `readonly` **TradeProductFeatureTypeCodeList**: `"TradeProductFeatureTypeCodeList"` = `"TradeProductFeatureTypeCodeList"`
+
+Values for UneceTradeProductFeature typeCode property.
+
+### TradeProductTypeCodeList
+
+> `readonly` **TradeProductTypeCodeList**: `"TradeProductTypeCodeList"` = `"TradeProductTypeCodeList"`
+
+Values for UneceTradeProduct typeCode property.
+
 ### TradeSettlementHeaderMonetarySummation
 
 > `readonly` **TradeSettlementHeaderMonetarySummation**: `"TradeSettlementHeaderMonetarySummation"` = `"TradeSettlementHeaderMonetarySummation"`
@@ -2951,6 +3551,18 @@ Any materials unused and rejected as unwanted resulting from transportation.
 > `readonly` **TransportationWasteMaterialComponent**: `"TransportationWasteMaterialComponent"` = `"TransportationWasteMaterialComponent"`
 
 An unused and rejected as unwanted component of transport material resulting from transportation.
+
+### TransportationWasteMaterialComponentTypeCodeList
+
+> `readonly` **TransportationWasteMaterialComponentTypeCodeList**: `"TransportationWasteMaterialComponentTypeCodeList"` = `"TransportationWasteMaterialComponentTypeCodeList"`
+
+Values for UneceTransportationWasteMaterialComponent typeCode property.
+
+### TransportationWasteMaterialTypeCodeList
+
+> `readonly` **TransportationWasteMaterialTypeCodeList**: `"TransportationWasteMaterialTypeCodeList"` = `"TransportationWasteMaterialTypeCodeList"`
+
+Values for UneceTransportationWasteMaterial typeCode property.
 
 ### TransportationWasteRecoveryDisposalProcess
 
@@ -3018,6 +3630,12 @@ A character string used to represent the transport equipment supplier party role
 
 A significant occurrence or happening during transport.
 A referenced significant occurrence or happening during transport.
+
+### TransportEventTypeCodeList
+
+> `readonly` **TransportEventTypeCodeList**: `"TransportEventTypeCodeList"` = `"TransportEventTypeCodeList"`
+
+Values for UneceTransportEvent typeCode property.
 
 ### TransportInstructions
 
@@ -3237,6 +3855,12 @@ The numeric value determined by volume measuring.
 A printed piece of paper or an electronic document that can be used instead of money to pay for an experience, such as a
 tour, a trip or a meal in a restaurant.
 
+### VoucherTypeCodeList
+
+> `readonly` **VoucherTypeCodeList**: `"VoucherTypeCodeList"` = `"VoucherTypeCodeList"`
+
+Values for UneceVoucher typeCode property.
+
 ### WasteMaterialRecoveryDisposalProcess
 
 > `readonly` **WasteMaterialRecoveryDisposalProcess**: `"WasteMaterialRecoveryDisposalProcess"` = `"WasteMaterialRecoveryDisposalProcess"`
@@ -3303,6 +3927,12 @@ Information which uniquely identifies an XHE (Exchange Header Envelope) object.
 > `readonly` **XHEParameter**: `"XHEParameter"` = `"XHEParameter"`
 
 A feature that is fixed for an XHE (Exchange Header Envelope) but may be different in other cases.
+
+### XHEParameterTypeCodeList
+
+> `readonly` **XHEParameterTypeCodeList**: `"XHEParameterTypeCodeList"` = `"XHEParameterTypeCodeList"`
+
+Values for UneceXHEParameter typeCode property.
 
 ### XHEParty
 

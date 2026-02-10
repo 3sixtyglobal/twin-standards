@@ -9,6 +9,7 @@ import type { IUneceRange } from "./IUneceRange.js";
 import type { IUneceSpecifiedMethod } from "./IUneceSpecifiedMethod.js";
 import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceAgriculturalCharacteristicTypeCodeList } from "../typeCodes/uneceAgriculturalCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -49,7 +50,7 @@ export interface IUneceAgriculturalCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of agricultural characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceAgriculturalCharacteristicTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, for this agricultural characteristic.

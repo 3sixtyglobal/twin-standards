@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUnecePaymentTradeSettlement } from "./IUnecePaymentTradeSettlement.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceRequirementTypeCodeList } from "../typeCodes/uneceRequirementTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -51,5 +52,5 @@ export interface IUneceRequirement extends IJsonLdNodeObject {
 	 * The code specifying the type of specified requirement.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceRequirementTypeCodeList | string;
 }

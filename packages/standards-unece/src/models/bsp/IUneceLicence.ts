@@ -7,6 +7,7 @@ import type { IUneceObject } from "./IUneceObject.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceSubjectCodeList } from "../lists/uneceSubjectCodeList.js";
+import type { UneceLicenceTypeCodeList } from "../typeCodes/uneceLicenceTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -89,7 +90,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * A code specifying a type of licence.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceLicenceTypeCodeList | string;
 
 	/**
 	 * The indication of whether or not this specified licence is valid.

@@ -11,6 +11,7 @@ import type { IUneceSpecifiedMethod } from "./IUneceSpecifiedMethod.js";
 import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceProductBatchCharacteristicTypeCodeList } from "../typeCodes/uneceProductBatchCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -69,7 +70,7 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductBatchCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this product batch characteristic.

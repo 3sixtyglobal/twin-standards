@@ -8,6 +8,7 @@ import type { IUneceAgriculturalCharacteristic } from "./IUneceAgriculturalChara
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceProduce } from "./IUneceProduce.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UneceCropProduceBatchTypeCodeList } from "../typeCodes/uneceCropProduceBatchTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -96,7 +97,7 @@ export interface IUneceCropProduceBatch extends IJsonLdNodeObject {
 	 * The code specifying the type of crop produce batch.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCropProduceBatchTypeCodeList | string;
 
 	/**
 	 * The number of units, expressed as a quantity, for this crop produce batch.

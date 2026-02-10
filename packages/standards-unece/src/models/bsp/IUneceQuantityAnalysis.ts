@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceRecordedStatus } from "./IUneceRecordedStatus.js";
 import type { IUneceWorkItemDimension } from "./IUneceWorkItemDimension.js";
+import type { UneceQuantityAnalysisTypeCodeList } from "../typeCodes/uneceQuantityAnalysisTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -88,5 +89,5 @@ export interface IUneceQuantityAnalysis extends IJsonLdNodeObject {
 	 * The code specifying the type of work item quantity analysis.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceQuantityAnalysisTypeCodeList | string;
 }

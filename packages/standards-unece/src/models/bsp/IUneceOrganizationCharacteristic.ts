@@ -11,6 +11,7 @@ import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceOrganizationCharacteristicTypeCodeList } from "../typeCodes/uneceOrganizationCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -69,7 +70,7 @@ export interface IUneceOrganizationCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of organization characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceOrganizationCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this organization characteristic.

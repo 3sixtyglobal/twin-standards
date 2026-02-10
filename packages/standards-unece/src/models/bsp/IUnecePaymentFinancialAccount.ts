@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCurrencyCodeList } from "../lists/uneceCurrencyCodeList.js";
+import type { UnecePaymentFinancialAccountTypeCodeList } from "../typeCodes/unecePaymentFinancialAccountTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -50,5 +51,5 @@ export interface IUnecePaymentFinancialAccount extends IJsonLdNodeObject {
 	 * The code specifying the type of payment financial account.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UnecePaymentFinancialAccountTypeCodeList | string;
 }

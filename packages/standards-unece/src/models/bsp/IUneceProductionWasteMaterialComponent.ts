@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceProductionWasteMaterialComponentTypeCodeList } from "../typeCodes/uneceProductionWasteMaterialComponentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -45,5 +46,5 @@ export interface IUneceProductionWasteMaterialComponent extends IJsonLdNodeObjec
 	 * The code specifying the type of production waste material component.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductionWasteMaterialComponentTypeCodeList | string;
 }

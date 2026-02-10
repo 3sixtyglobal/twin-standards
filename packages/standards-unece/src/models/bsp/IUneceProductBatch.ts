@@ -30,6 +30,7 @@ import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
 import type { IUneceSupplyChainPackaging } from "./IUneceSupplyChainPackaging.js";
 import type { IUneceSustainabilityInspection } from "./IUneceSustainabilityInspection.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceProductBatchTypeCodeList } from "../typeCodes/uneceProductBatchTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -352,7 +353,7 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * The code specifying the type of product batch.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductBatchTypeCodeList | string;
 
 	/**
 	 * The number of units, expressed as a quantity, for this product batch.

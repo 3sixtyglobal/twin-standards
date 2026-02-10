@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceLocationFunctionCodeList } from "../lists/uneceLocationFunctionCodeList.js";
+import type { UneceCountrySubDivisionTypeCodeList } from "../typeCodes/uneceCountrySubDivisionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -70,5 +71,5 @@ export interface IUneceCountrySubDivision extends IJsonLdNodeObject {
 	 * A code specifying a type of country sub-division for trade purposes.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCountrySubDivisionTypeCodeList | string;
 }

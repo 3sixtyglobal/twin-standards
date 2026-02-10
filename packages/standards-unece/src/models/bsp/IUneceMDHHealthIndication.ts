@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceSanitaryMeasure } from "./IUneceSanitaryMeasure.js";
+import type { UneceMDHHealthIndicationTypeCodeList } from "../typeCodes/uneceMDHHealthIndicationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -70,5 +71,5 @@ export interface IUneceMDHHealthIndication extends IJsonLdNodeObject {
 	 * A code specifying a type of MDH health indication.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceMDHHealthIndicationTypeCodeList | string;
 }

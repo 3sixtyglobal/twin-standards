@@ -9,6 +9,7 @@ import type { IUneceComplexDescription } from "./IUneceComplexDescription.js";
 import type { IUneceQuantityAnalysis } from "./IUneceQuantityAnalysis.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceRecordedStatus } from "./IUneceRecordedStatus.js";
+import type { UneceBasicWorkItemTypeCodeList } from "../typeCodes/uneceBasicWorkItemTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -133,7 +134,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * A code specifying the type of basic work item.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceBasicWorkItemTypeCodeList | string;
 
 	/**
 	 * A unit calculated price for this basic work item.

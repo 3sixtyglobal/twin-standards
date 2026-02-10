@@ -9,6 +9,7 @@ import type { IUneceCalculatedPrice } from "./IUneceCalculatedPrice.js";
 import type { IUneceComplexDescription } from "./IUneceComplexDescription.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceRecordedStatus } from "./IUneceRecordedStatus.js";
+import type { UneceGroupedWorkItemTypeCodeList } from "../typeCodes/uneceGroupedWorkItemTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -121,5 +122,5 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * A code specifying the type of this work item group.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceGroupedWorkItemTypeCodeList | string;
 }

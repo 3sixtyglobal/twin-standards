@@ -17,6 +17,7 @@ import type { IUneceSpecifiedMaterial } from "./IUneceSpecifiedMaterial.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceProductionUnitTypeCodeList } from "../typeCodes/uneceProductionUnitTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -195,5 +196,5 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * The code specifying the type of facility production unit.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductionUnitTypeCodeList | string;
 }

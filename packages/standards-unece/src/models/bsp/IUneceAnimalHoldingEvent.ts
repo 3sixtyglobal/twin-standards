@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTTLocation } from "./IUneceTTLocation.js";
+import type { UneceAnimalHoldingEventTypeCodeList } from "../typeCodes/uneceAnimalHoldingEventTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -51,5 +52,5 @@ export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
 	 * The code specifying the type of animal holding event.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceAnimalHoldingEventTypeCodeList | string;
 }

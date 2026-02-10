@@ -129,6 +129,11 @@ export const UneceTypes = {
 	Accreditation: "Accreditation",
 
 	/**
+	 * Values for UneceAccreditation typeCode property.
+	 */
+	AccreditationTypeCodeList: "AccreditationTypeCodeList",
+
+	/**
 	 * A character string used to represent a type of acknowledgment.
 	 */
 	AcknowledgementCodeList: "AcknowledgementCodeList",
@@ -180,9 +185,19 @@ export const UneceTypes = {
 	AgriculturalCharacteristic: "AgriculturalCharacteristic",
 
 	/**
+	 * Values for UneceAgriculturalCharacteristic typeCode property.
+	 */
+	AgriculturalCharacteristicTypeCodeList: "AgriculturalCharacteristicTypeCodeList",
+
+	/**
 	 * A practice of cultivating land, raising crops, or treatment of the agricultural produce.
 	 */
 	AgriculturalProcess: "AgriculturalProcess",
+
+	/**
+	 * Values for UneceAgriculturalProcess typeCode property.
+	 */
+	AgriculturalProcessTypeCodeList: "AgriculturalProcessTypeCodeList",
 
 	/**
 	 * A named, delimited and identified part of a land and or water surface of the globe subject to dedicated uniform
@@ -205,6 +220,11 @@ export const UneceTypes = {
 	 * ingestion, injection, or skin contact.
 	 */
 	Allergy: "Allergy",
+
+	/**
+	 * Values for UneceAllergy typeCode property.
+	 */
+	AllergyTypeCodeList: "AllergyTypeCodeList",
 
 	/**
 	 * A character string used to identify a type of allowance or charge.
@@ -264,6 +284,11 @@ export const UneceTypes = {
 	AnimalHoldingEvent: "AnimalHoldingEvent",
 
 	/**
+	 * Values for UneceAnimalHoldingEvent typeCode property.
+	 */
+	AnimalHoldingEventTypeCodeList: "AnimalHoldingEventTypeCodeList",
+
+	/**
 	 * Information about an animal which uniquely identifies it.
 	 */
 	AnimalIdentity: "AnimalIdentity",
@@ -303,6 +328,11 @@ export const UneceTypes = {
 	Assessment: "Assessment",
 
 	/**
+	 * Values for UneceAssessment typeCode property.
+	 */
+	AssessmentTypeCodeList: "AssessmentTypeCodeList",
+
+	/**
 	 * A piece of transport equipment that is associated with another piece of transport equipment, such as a maritime
 	 * container placed on a rail wagon for transportation.
 	 */
@@ -338,6 +368,11 @@ export const UneceTypes = {
 	 * A basic item of work.
 	 */
 	BasicWorkItem: "BasicWorkItem",
+
+	/**
+	 * Values for UneceBasicWorkItem typeCode property.
+	 */
+	BasicWorkItemTypeCodeList: "BasicWorkItemTypeCodeList",
 
 	/**
 	 * A character string used to represent a type of billing document.
@@ -396,6 +431,11 @@ export const UneceTypes = {
 	CalibratedMeasurement: "CalibratedMeasurement",
 
 	/**
+	 * Values for UneceCalibratedMeasurement typeCode property.
+	 */
+	CalibratedMeasurementTypeCodeList: "CalibratedMeasurementTypeCodeList",
+
+	/**
 	 * Information relevant to a condition of a cancellation.
 	 */
 	CancellationStatus: "CancellationStatus",
@@ -436,9 +476,19 @@ export const UneceTypes = {
 	CarriedEquipment: "CarriedEquipment",
 
 	/**
+	 * Values for UneceCarriedEquipment typeCode property.
+	 */
+	CarriedEquipmentTypeCodeList: "CarriedEquipmentTypeCodeList",
+
+	/**
 	 * Coins, banknotes paid by the recipient of goods or services to the provider.
 	 */
 	Cash: "Cash",
+
+	/**
+	 * Values for UneceCash typeCode property.
+	 */
+	CashTypeCodeList: "CashTypeCodeList",
 
 	/**
 	 * A character string used to represent the type of a certificate.
@@ -456,9 +506,19 @@ export const UneceTypes = {
 	Chemical: "Chemical",
 
 	/**
+	 * Values for UneceChemical typeCode property.
+	 */
+	ChemicalTypeCodeList: "ChemicalTypeCodeList",
+
+	/**
 	 * A written payment order to a bank to pay the stated sum from the drawer's account.
 	 */
 	Cheque: "Cheque",
+
+	/**
+	 * Values for UneceCheque typeCode property.
+	 */
+	ChequeTypeCodeList: "ChequeTypeCodeList",
 
 	/**
 	 * A planar surface specified as one completely round flat shape in the mathematical sense.
@@ -469,6 +529,11 @@ export const UneceTypes = {
 	 * A systematic arrangement of products in classes or categories according to established criteria.
 	 */
 	Classification: "Classification",
+
+	/**
+	 * Values for UneceClassification typeCode property.
+	 */
+	ClassificationTypeCodeList: "ClassificationTypeCodeList",
 
 	/**
 	 * A distinct article or provision in a document, which requires compliance.
@@ -484,6 +549,11 @@ export const UneceTypes = {
 	 * A colour of a product.
 	 */
 	Colour: "Colour",
+
+	/**
+	 * Values for UneceColour typeCode property.
+	 */
+	ColourTypeCodeList: "ColourTypeCodeList",
 
 	/**
 	 * A character string used to represent a commitment level.
@@ -506,6 +576,11 @@ export const UneceTypes = {
 	 * digital data by using the internet.
 	 */
 	CommunicationEvent: "CommunicationEvent",
+
+	/**
+	 * Values for UneceCommunicationEvent typeCode property.
+	 */
+	CommunicationEventTypeCodeList: "CommunicationEventTypeCodeList",
 
 	/**
 	 * An aggregation of descriptive information consisting of different but related characteristics that together constitute a
@@ -556,6 +631,11 @@ export const UneceTypes = {
 	ControlSettingParameter: "ControlSettingParameter",
 
 	/**
+	 * Values for UneceControlSettingParameter typeCode property.
+	 */
+	ControlSettingParameterTypeCodeList: "ControlSettingParameterTypeCodeList",
+
+	/**
 	 * A number of means of transport following each other with a common logistics purpose.
 	 */
 	Convoy: "Convoy",
@@ -585,6 +665,11 @@ export const UneceTypes = {
 	CorrectiveAction: "CorrectiveAction",
 
 	/**
+	 * Values for UneceCorrectiveAction typeCode property.
+	 */
+	CorrectiveActionTypeCodeList: "CorrectiveActionTypeCodeList",
+
+	/**
 	 * An occurrence or happening related to an object or process that is subject to a correction.
 	 */
 	CorrectiveEvent: "CorrectiveEvent",
@@ -608,6 +693,11 @@ export const UneceTypes = {
 	CountrySubDivision: "CountrySubDivision",
 
 	/**
+	 * Values for UneceCountrySubDivision typeCode property.
+	 */
+	CountrySubDivisionTypeCodeList: "CountrySubDivisionTypeCodeList",
+
+	/**
 	 * A specific business arrangement whereby credits arising from transactions are recorded.
 	 */
 	CreditorFinancialAccount: "CreditorFinancialAccount",
@@ -628,10 +718,20 @@ export const UneceTypes = {
 	CropProduceBatch: "CropProduceBatch",
 
 	/**
+	 * Values for UneceCropProduceBatch typeCode property.
+	 */
+	CropProduceBatchTypeCodeList: "CropProduceBatchTypeCodeList",
+
+	/**
 	 * A method or substance, such as chemical fertilizers and crop protection products, applied to plant growth whilst
 	 * managing and controlling diseases and pests.
 	 */
 	CropProtectionTreatment: "CropProtectionTreatment",
+
+	/**
+	 * Values for UneceCropProtectionTreatment typeCode property.
+	 */
+	CropProtectionTreatmentTypeCodeList: "CropProtectionTreatmentTypeCodeList",
 
 	/**
 	 * A character string used to represent a currency.
@@ -662,6 +762,11 @@ export const UneceTypes = {
 	 * A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
 	 */
 	CustomsValuation: "CustomsValuation",
+
+	/**
+	 * Values for UneceCustomsValuation typeCode property.
+	 */
+	CustomsValuationTypeCodeList: "CustomsValuationTypeCodeList",
 
 	/**
 	 * Goods which may contain a substance which poses risks to people and/or the environment during transportation which is
@@ -735,6 +840,11 @@ export const UneceTypes = {
 	DigitalMethod: "DigitalMethod",
 
 	/**
+	 * Values for UneceDigitalMethod typeCode property.
+	 */
+	DigitalMethodTypeCodeList: "DigitalMethodTypeCodeList",
+
+	/**
 	 * A character string used to represent the dimension type.
 	 */
 	DimensionTypeCodeList: "DimensionTypeCodeList",
@@ -750,6 +860,11 @@ export const UneceTypes = {
 	Disability: "Disability",
 
 	/**
+	 * Values for UneceDisability typeCode property.
+	 */
+	DisabilityTypeCodeList: "DisabilityTypeCodeList",
+
+	/**
 	 * A set of instructions detailing how to properly dispose of a material.
 	 */
 	DisposalInstructions: "DisposalInstructions",
@@ -763,6 +878,11 @@ export const UneceTypes = {
 	 * A prominent attribute or aspect of a document.
 	 */
 	DocumentCharacteristic: "DocumentCharacteristic",
+
+	/**
+	 * Values for UneceDocumentCharacteristic typeCode property.
+	 */
+	DocumentCharacteristicTypeCodeList: "DocumentCharacteristicTypeCodeList",
 
 	/**
 	 * A character string denoting the type of a document. [Reference United Nations Code List (UNCL) 1001].
@@ -812,6 +932,11 @@ export const UneceTypes = {
 	Emission: "Emission",
 
 	/**
+	 * Values for UneceEmission typeCode property.
+	 */
+	EmissionTypeCodeList: "EmissionTypeCodeList",
+
+	/**
 	 * Identification of a party who pays someone to do work on a regular or contractual basis.
 	 */
 	EmployerIdentity: "EmployerIdentity",
@@ -825,6 +950,11 @@ export const UneceTypes = {
 	 * Hardware or software typically marketed by a company other than the original manufacturer.
 	 */
 	Equipment: "Equipment",
+
+	/**
+	 * Values for UneceEquipment typeCode property.
+	 */
+	EquipmentTypeCodeList: "EquipmentTypeCodeList",
 
 	/**
 	 * A notification that an error has occurred.
@@ -920,6 +1050,11 @@ export const UneceTypes = {
 	FinancialCard: "FinancialCard",
 
 	/**
+	 * Values for UneceFinancialCard typeCode property.
+	 */
+	FinancialCardTypeCodeList: "FinancialCardTypeCodeList",
+
+	/**
 	 * A financial identification for an organization.
 	 */
 	FinancialIdentity: "FinancialIdentity",
@@ -965,6 +1100,11 @@ export const UneceTypes = {
 	FoodChoice: "FoodChoice",
 
 	/**
+	 * Values for UneceFoodChoice typeCode property.
+	 */
+	FoodChoiceTypeCodeList: "FoodChoiceTypeCodeList",
+
+	/**
 	 * A set of terms and conditions by which a supply chain forecast has been or will be made.
 	 */
 	ForecastTerms: "ForecastTerms",
@@ -983,6 +1123,11 @@ export const UneceTypes = {
 	 * Any specified material that is burnt or altered in order to obtain energy.
 	 */
 	Fuel: "Fuel",
+
+	/**
+	 * Values for UneceFuel typeCode property.
+	 */
+	FuelTypeCodeList: "FuelTypeCodeList",
 
 	/**
 	 * A named, delimited and identified part of a land and or water surface of the globe.
@@ -1047,9 +1192,19 @@ export const UneceTypes = {
 	GeopoliticalRegion: "GeopoliticalRegion",
 
 	/**
+	 * Values for UneceGeopoliticalRegion typeCode property.
+	 */
+	GeopoliticalRegionTypeCodeList: "GeopoliticalRegionTypeCodeList",
+
+	/**
 	 * A distinctive feature of a material contained within physical goods.
 	 */
 	GoodsCharacteristic: "GoodsCharacteristic",
+
+	/**
+	 * Values for UneceGoodsCharacteristic typeCode property.
+	 */
+	GoodsCharacteristicTypeCodeList: "GoodsCharacteristicTypeCodeList",
 
 	/**
 	 * A character string used to represent a type of goods.
@@ -1072,9 +1227,19 @@ export const UneceTypes = {
 	GovernmentRegistration: "GovernmentRegistration",
 
 	/**
+	 * Values for UneceGovernmentRegistration typeCode property.
+	 */
+	GovernmentRegistrationTypeCodeList: "GovernmentRegistrationTypeCodeList",
+
+	/**
 	 * A grouping of related work items.
 	 */
 	GroupedWorkItem: "GroupedWorkItem",
+
+	/**
+	 * Values for UneceGroupedWorkItem typeCode property.
+	 */
+	GroupedWorkItemTypeCodeList: "GroupedWorkItemTypeCodeList",
 
 	/**
 	 * An official promise or assurance to fulfil a financial obligation.
@@ -1090,6 +1255,11 @@ export const UneceTypes = {
 	 * A guest's physical or mental condition.
 	 */
 	GuestHealthIndication: "GuestHealthIndication",
+
+	/**
+	 * Values for UneceGuestHealthIndication typeCode property.
+	 */
+	GuestHealthIndicationTypeCodeList: "GuestHealthIndicationTypeCodeList",
 
 	/**
 	 * An individual guest.
@@ -1163,6 +1333,11 @@ export const UneceTypes = {
 	InspectionEvent: "InspectionEvent",
 
 	/**
+	 * Values for UneceInspectionEvent typeCode property.
+	 */
+	InspectionEventTypeCodeList: "InspectionEventTypeCodeList",
+
+	/**
 	 * Information of an instructive nature that describes how to conduct an inspection.
 	 */
 	InspectionInstructions: "InspectionInstructions",
@@ -1226,9 +1401,19 @@ export const UneceTypes = {
 	IOTDevice: "IOTDevice",
 
 	/**
+	 * Values for UneceIOTDevice typeCode property.
+	 */
+	IOTDeviceTypeCodeList: "IOTDeviceTypeCodeList",
+
+	/**
 	 * A targeted topic for debate or resolution.
 	 */
 	Issue: "Issue",
+
+	/**
+	 * Values for UneceIssue typeCode property.
+	 */
+	IssueTypeCodeList: "IssueTypeCodeList",
 
 	/**
 	 * A significant word, part of word or phrase that is used to enable indexing of or searching within a textual repository,
@@ -1288,14 +1473,29 @@ export const UneceTypes = {
 	LegalOrganization: "LegalOrganization",
 
 	/**
+	 * Values for UneceLegalOrganization typeCode property.
+	 */
+	LegalOrganizationTypeCodeList: "LegalOrganizationTypeCodeList",
+
+	/**
 	 * The recording of items or details for a specific legal purpose.
 	 */
 	LegalRegistration: "LegalRegistration",
 
 	/**
+	 * Values for UneceLegalRegistration typeCode property.
+	 */
+	LegalRegistrationTypeCodeList: "LegalRegistrationTypeCodeList",
+
+	/**
 	 * A permit from an authority to own or use something, do a particular thing, or to conduct a trade.
 	 */
 	Licence: "Licence",
+
+	/**
+	 * Values for UneceLicence typeCode property.
+	 */
+	LicenceTypeCodeList: "LicenceTypeCodeList",
 
 	/**
 	 * A character string used to represent the type of a lifetime end cost.
@@ -1359,6 +1559,11 @@ export const UneceTypes = {
 	LocationParty: "LocationParty",
 
 	/**
+	 * Values for UneceLocationParty typeCode property.
+	 */
+	LocationPartyTypeCodeList: "LocationPartyTypeCodeList",
+
+	/**
 	 * A character string used to represent the type of basis on which logistic charges are to be calculated.
 	 */
 	LogisticsChargeCalculationBasisCodeList: "LogisticsChargeCalculationBasisCodeList",
@@ -1378,6 +1583,11 @@ export const UneceTypes = {
 	 * Any wrapping or containment, such as a box or a barrel, whether or not any goods are contained within.
 	 */
 	LogisticsPackaging: "LogisticsPackaging",
+
+	/**
+	 * Values for UneceLogisticsPackaging typeCode property.
+	 */
+	LogisticsPackagingTypeCodeList: "LogisticsPackagingTypeCodeList",
 
 	/**
 	 * The information relevant to a condition or a position related to logistics.
@@ -1406,6 +1616,11 @@ export const UneceTypes = {
 	Machine: "Machine",
 
 	/**
+	 * Values for UneceMachine typeCode property.
+	 */
+	MachineTypeCodeList: "MachineTypeCodeList",
+
+	/**
 	 * An actual or virtual place where buyers and sellers interact, directly or through intermediaries, to trade goods or
 	 * services.
 	 */
@@ -1428,6 +1643,11 @@ export const UneceTypes = {
 	MDHHealthIndication: "MDHHealthIndication",
 
 	/**
+	 * Values for UneceMDHHealthIndication typeCode property.
+	 */
+	MDHHealthIndicationTypeCodeList: "MDHHealthIndicationTypeCodeList",
+
+	/**
 	 * RDF Class for MeasureType unit code type to define unit code values.
 	 */
 	MeasureCode: "MeasureCode",
@@ -1441,6 +1661,11 @@ export const UneceTypes = {
 	 * An amount, size, or extent as established by measuring.
 	 */
 	Measurement: "Measurement",
+
+	/**
+	 * Values for UneceMeasurement typeCode property.
+	 */
+	MeasurementTypeCodeList: "MeasurementTypeCodeList",
 
 	/**
 	 * Missing description.
@@ -1463,9 +1688,19 @@ export const UneceTypes = {
 	MetricCharacteristic: "MetricCharacteristic",
 
 	/**
+	 * Values for UneceMetricCharacteristic typeCode property.
+	 */
+	MetricCharacteristicTypeCodeList: "MetricCharacteristicTypeCodeList",
+
+	/**
 	 * The protocol and setting of a negotiation.
 	 */
 	NegotiationContext: "NegotiationContext",
+
+	/**
+	 * Values for UneceNegotiationContext typeCode property.
+	 */
+	NegotiationContextTypeCodeList: "NegotiationContextTypeCodeList",
 
 	/**
 	 * An offer exchanged between parties for an electronic negotiation.
@@ -1483,6 +1718,11 @@ export const UneceTypes = {
 	Object: "Object",
 
 	/**
+	 * Values for UneceObject typeCode property.
+	 */
+	ObjectTypeCodeList: "ObjectTypeCodeList",
+
+	/**
 	 * A specified act or instance of viewing or noting a fact or occurrence for some scientific or other special purpose.
 	 */
 	Observation: "Observation",
@@ -1491,6 +1731,11 @@ export const UneceTypes = {
 	 * A feature that is fixed for the case in question but may be different in other cases for this observation objective.
 	 */
 	ObservationObjectiveParameter: "ObservationObjectiveParameter",
+
+	/**
+	 * Values for UneceObservationObjectiveParameter typeCode property.
+	 */
+	ObservationObjectiveParameterTypeCodeList: "ObservationObjectiveParameterTypeCodeList",
 
 	/**
 	 * A collection of diagnostic data, visual or technical, and processing data, performed on a sample.
@@ -1508,6 +1753,11 @@ export const UneceTypes = {
 	OperationalParameter: "OperationalParameter",
 
 	/**
+	 * Values for UneceOperationalParameter typeCode property.
+	 */
+	OperationalParameterTypeCodeList: "OperationalParameterTypeCodeList",
+
+	/**
 	 * A piece of written, printed or electronic matter that provides information or evidence that an organization has met
 	 * required organizational criteria.
 	 */
@@ -1522,6 +1772,11 @@ export const UneceTypes = {
 	 * A prominent attribute or aspect of an organization.
 	 */
 	OrganizationCharacteristic: "OrganizationCharacteristic",
+
+	/**
+	 * Values for UneceOrganizationCharacteristic typeCode property.
+	 */
+	OrganizationCharacteristicTypeCodeList: "OrganizationCharacteristicTypeCodeList",
 
 	/**
 	 * A character string used to represent the type of an organization function.
@@ -1596,9 +1851,19 @@ export const UneceTypes = {
 	PaymentFinancialAccount: "PaymentFinancialAccount",
 
 	/**
+	 * Values for UnecePaymentFinancialAccount typeCode property.
+	 */
+	PaymentFinancialAccountTypeCodeList: "PaymentFinancialAccountTypeCodeList",
+
+	/**
 	 * An institution that provides financial services and financial transactions for payment.
 	 */
 	PaymentFinancialInstitution: "PaymentFinancialInstitution",
+
+	/**
+	 * Values for UnecePaymentFinancialInstitution typeCode property.
+	 */
+	PaymentFinancialInstitutionTypeCodeList: "PaymentFinancialInstitutionTypeCodeList",
 
 	/**
 	 * A character string used to represent a payment guarantee means.
@@ -1658,9 +1923,19 @@ export const UneceTypes = {
 	PaymentTradeSettlement: "PaymentTradeSettlement",
 
 	/**
+	 * Values for UnecePaymentTradeSettlement typeCode property.
+	 */
+	PaymentTradeSettlementTypeCodeList: "PaymentTradeSettlementTypeCodeList",
+
+	/**
 	 * Specified privately owned articles for personal use by an individual.
 	 */
 	PersonalEffects: "PersonalEffects",
+
+	/**
+	 * Values for UnecePersonalEffects typeCode property.
+	 */
+	PersonalEffectsTypeCodeList: "PersonalEffectsTypeCodeList",
 
 	/**
 	 * Identification of a person.
@@ -1711,6 +1986,11 @@ export const UneceTypes = {
 	PreventiveAction: "PreventiveAction",
 
 	/**
+	 * Values for UnecePreventiveAction typeCode property.
+	 */
+	PreventiveActionTypeCodeList: "PreventiveActionTypeCodeList",
+
+	/**
 	 * A character string used to represent or replace a type of price.
 	 */
 	PriceTypeCodeList: "PriceTypeCodeList",
@@ -1719,6 +1999,11 @@ export const UneceTypes = {
 	 * Any text or pattern put on the surface of a product using a specific material such as dye.
 	 */
 	Print: "Print",
+
+	/**
+	 * Values for UnecePrint typeCode property.
+	 */
+	PrintTypeCodeList: "PrintTypeCodeList",
 
 	/**
 	 * A character string used to represent a priority.
@@ -1752,9 +2037,19 @@ export const UneceTypes = {
 	ProcessWorkItem: "ProcessWorkItem",
 
 	/**
+	 * Values for UneceProcessWorkItem typeCode property.
+	 */
+	ProcessWorkItemTypeCodeList: "ProcessWorkItemTypeCodeList",
+
+	/**
 	 * Agricultural plants or plant products grown and harvested, such as grain, fruit, vegetables, silage.
 	 */
 	Produce: "Produce",
+
+	/**
+	 * Values for UneceProduce typeCode property.
+	 */
+	ProduceTypeCodeList: "ProduceTypeCodeList",
 
 	/**
 	 * A reference to a product or service produced by human or mechanical effort or by a natural process for trading purposes.
@@ -1784,6 +2079,16 @@ export const UneceTypes = {
 	ProductBatchCharacteristic: "ProductBatchCharacteristic",
 
 	/**
+	 * Values for UneceProductBatchCharacteristic typeCode property.
+	 */
+	ProductBatchCharacteristicTypeCodeList: "ProductBatchCharacteristicTypeCodeList",
+
+	/**
+	 * Values for UneceProductBatch typeCode property.
+	 */
+	ProductBatchTypeCodeList: "ProductBatchTypeCodeList",
+
+	/**
 	 * A collection of data for a piece of written, printed or electronic matter that provides information or evidence about
 	 * the product.
 	 */
@@ -1800,9 +2105,24 @@ export const UneceTypes = {
 	ProductCharacteristicCondition: "ProductCharacteristicCondition",
 
 	/**
+	 * Values for UneceProductCharacteristicCondition typeCode property.
+	 */
+	ProductCharacteristicConditionTypeCodeList: "ProductCharacteristicConditionTypeCodeList",
+
+	/**
+	 * Values for UneceProductCharacteristic typeCode property.
+	 */
+	ProductCharacteristicTypeCodeList: "ProductCharacteristicTypeCodeList",
+
+	/**
 	 * Improving measures for manufactured components or products to meet end use requirements.
 	 */
 	ProductFinishingTreatment: "ProductFinishingTreatment",
+
+	/**
+	 * Values for UneceProductFinishingTreatment typeCode property.
+	 */
+	ProductFinishingTreatmentTypeCodeList: "ProductFinishingTreatmentTypeCodeList",
 
 	/**
 	 * A grouping of trade products.
@@ -1838,6 +2158,11 @@ export const UneceTypes = {
 	ProductionDevice: "ProductionDevice",
 
 	/**
+	 * Values for UneceProductionDevice typeCode property.
+	 */
+	ProductionDeviceTypeCodeList: "ProductionDeviceTypeCodeList",
+
+	/**
 	 * A man made physical structure, such as a building, in which something is produced.
 	 */
 	ProductionFacility: "ProductionFacility",
@@ -1853,6 +2178,11 @@ export const UneceTypes = {
 	ProductionUnit: "ProductionUnit",
 
 	/**
+	 * Values for UneceProductionUnit typeCode property.
+	 */
+	ProductionUnitTypeCodeList: "ProductionUnitTypeCodeList",
+
+	/**
 	 * Any materials unused and rejected as unwanted during a production process.
 	 */
 	ProductionWasteMaterial: "ProductionWasteMaterial",
@@ -1861,6 +2191,16 @@ export const UneceTypes = {
 	 * A production material component that is unused and rejected as unwanted.
 	 */
 	ProductionWasteMaterialComponent: "ProductionWasteMaterialComponent",
+
+	/**
+	 * Values for UneceProductionWasteMaterialComponent typeCode property.
+	 */
+	ProductionWasteMaterialComponentTypeCodeList: "ProductionWasteMaterialComponentTypeCodeList",
+
+	/**
+	 * Values for UneceProductionWasteMaterial typeCode property.
+	 */
+	ProductionWasteMaterialTypeCodeList: "ProductionWasteMaterialTypeCodeList",
 
 	/**
 	 * A process of either regaining waste substances in usable form, or of getting rid of waste substances resulting from
@@ -1879,6 +2219,11 @@ export const UneceTypes = {
 	Project: "Project",
 
 	/**
+	 * Values for UneceProject typeCode property.
+	 */
+	ProjectTypeCodeList: "ProjectTypeCodeList",
+
+	/**
 	 * Proprietary information which uniquely identifies a person or organization.
 	 */
 	ProprietaryIdentity: "ProprietaryIdentity",
@@ -1892,6 +2237,11 @@ export const UneceTypes = {
 	 * The quantity analysis for this work item.
 	 */
 	QuantityAnalysis: "QuantityAnalysis",
+
+	/**
+	 * Values for UneceQuantityAnalysis typeCode property.
+	 */
+	QuantityAnalysisTypeCodeList: "QuantityAnalysisTypeCodeList",
 
 	/**
 	 * RDF Class for QuantityType unit code type to define unit code values.
@@ -1926,6 +2276,11 @@ export const UneceTypes = {
 	RadioactiveMaterial: "RadioactiveMaterial",
 
 	/**
+	 * Values for UneceRadioactiveMaterial typeCode property.
+	 */
+	RadioactiveMaterialTypeCodeList: "RadioactiveMaterialTypeCodeList",
+
+	/**
 	 * A radionuclide atom that has excess nuclear energy, making it unstable.
 	 */
 	Radionuclide: "Radionuclide",
@@ -1934,6 +2289,11 @@ export const UneceTypes = {
 	 * A row, line or series, commonly used to express the difference between lowest and highest values.
 	 */
 	Range: "Range",
+
+	/**
+	 * Values for UneceRange typeCode property.
+	 */
+	RangeTypeCodeList: "RangeTypeCodeList",
 
 	/**
 	 * Recorded information relevant to a condition or a position of an object.
@@ -1992,6 +2352,11 @@ export const UneceTypes = {
 	Requirement: "Requirement",
 
 	/**
+	 * Values for UneceRequirement typeCode property.
+	 */
+	RequirementTypeCodeList: "RequirementTypeCodeList",
+
+	/**
 	 * A response to a specification query.
 	 */
 	Response: "Response",
@@ -2027,6 +2392,11 @@ export const UneceTypes = {
 	SanitaryMeasure: "SanitaryMeasure",
 
 	/**
+	 * Values for UneceSanitaryMeasure typeCode property.
+	 */
+	SanitaryMeasureTypeCodeList: "SanitaryMeasureTypeCodeList",
+
+	/**
 	 * A character string used to represent the type of scenario.
 	 */
 	ScenarioTypeCodeList: "ScenarioTypeCodeList",
@@ -2035,6 +2405,11 @@ export const UneceTypes = {
 	 * A series of planned activities or things to be done in this supply chain.
 	 */
 	Schedule: "Schedule",
+
+	/**
+	 * Values for UneceSchedule typeCode property.
+	 */
+	ScheduleTypeCodeList: "ScheduleTypeCodeList",
 
 	/**
 	 * A character string used to represent a scheduling document type.
@@ -2068,15 +2443,30 @@ export const UneceTypes = {
 	SecurityTag: "SecurityTag",
 
 	/**
+	 * Values for UneceSecurityTag typeCode property.
+	 */
+	SecurityTagTypeCodeList: "SecurityTagTypeCodeList",
+
+	/**
 	 * The parts into which a segment is or may be divided.
 	 */
 	Segment: "Segment",
+
+	/**
+	 * Values for UneceSegment typeCode property.
+	 */
+	SegmentTypeCodeList: "SegmentTypeCodeList",
 
 	/**
 	 * An object which can detect and measure physical properties and which can record, indicate and transmit such
 	 * measurements.
 	 */
 	Sensor: "Sensor",
+
+	/**
+	 * Values for UneceSensor typeCode property.
+	 */
+	SensorTypeCodeList: "SensorTypeCodeList",
 
 	/**
 	 * A service associated with a transport movement.
@@ -2126,9 +2516,19 @@ export const UneceTypes = {
 	SpecificationQuery: "SpecificationQuery",
 
 	/**
+	 * Values for UneceSpecificationQuery typeCode property.
+	 */
+	SpecificationQueryTypeCodeList: "SpecificationQueryTypeCodeList",
+
+	/**
 	 * The process of doing something in order to make something happen or to deal with a situation.
 	 */
 	SpecifiedAction: "SpecifiedAction",
+
+	/**
+	 * Values for UneceSpecifiedAction typeCode property.
+	 */
+	SpecifiedActionTypeCodeList: "SpecifiedActionTypeCodeList",
 
 	/**
 	 * A document issued by a government, public organization or association to certify a property of a person, entity, process
@@ -2149,6 +2549,11 @@ export const UneceTypes = {
 	SpecifiedChemicalTreatment: "SpecifiedChemicalTreatment",
 
 	/**
+	 * Values for UneceSpecifiedChemicalTreatment typeCode property.
+	 */
+	SpecifiedChemicalTreatmentTypeCodeList: "SpecifiedChemicalTreatmentTypeCodeList",
+
+	/**
 	 * A state, such as of a specified person or thing.
 	 */
 	SpecifiedCondition: "SpecifiedCondition",
@@ -2160,9 +2565,19 @@ export const UneceTypes = {
 	SpecifiedDeclaration: "SpecifiedDeclaration",
 
 	/**
+	 * Values for UneceSpecifiedDeclaration typeCode property.
+	 */
+	SpecifiedDeclarationTypeCodeList: "SpecifiedDeclarationTypeCodeList",
+
+	/**
 	 * An unattractive or unsatisfactory characteristic.
 	 */
 	SpecifiedFault: "SpecifiedFault",
+
+	/**
+	 * Values for UneceSpecifiedFault typeCode property.
+	 */
+	SpecifiedFaultTypeCodeList: "SpecifiedFaultTypeCodeList",
 
 	/**
 	 * A distinctive or characteristic part of something.
@@ -2170,10 +2585,20 @@ export const UneceTypes = {
 	SpecifiedFeature: "SpecifiedFeature",
 
 	/**
+	 * Values for UneceSpecifiedFeature typeCode property.
+	 */
+	SpecifiedFeatureTypeCodeList: "SpecifiedFeatureTypeCodeList",
+
+	/**
 	 * The process of performing documented checks, such as on materials or processes, with a focus on discovering deviations,
 	 * errors or faults related to documented requirements.
 	 */
 	SpecifiedInspection: "SpecifiedInspection",
+
+	/**
+	 * Values for UneceSpecifiedInspection typeCode property.
+	 */
+	SpecifiedInspectionTypeCodeList: "SpecifiedInspectionTypeCodeList",
 
 	/**
 	 * A specified physical location or place.
@@ -2184,6 +2609,11 @@ export const UneceTypes = {
 	 * A substance from which something is or could be made.
 	 */
 	SpecifiedMaterial: "SpecifiedMaterial",
+
+	/**
+	 * Values for UneceSpecifiedMaterial typeCode property.
+	 */
+	SpecifiedMaterialTypeCodeList: "SpecifiedMaterialTypeCodeList",
 
 	/**
 	 * A defined way of performing something.
@@ -2201,9 +2631,19 @@ export const UneceTypes = {
 	SpecifiedParameter: "SpecifiedParameter",
 
 	/**
+	 * Values for UneceSpecifiedParameter typeCode property.
+	 */
+	SpecifiedParameterTypeCodeList: "SpecifiedParameterTypeCodeList",
+
+	/**
 	 * A specified period of time.
 	 */
 	SpecifiedPeriod: "SpecifiedPeriod",
+
+	/**
+	 * Values for UneceSpecifiedPeriod typeCode property.
+	 */
+	SpecifiedPeriodTypeCodeList: "SpecifiedPeriodTypeCodeList",
 
 	/**
 	 * A specified condition that must be fulfilled.
@@ -2227,6 +2667,11 @@ export const UneceTypes = {
 	Standard: "Standard",
 
 	/**
+	 * Values for UneceStandard typeCode property.
+	 */
+	StandardTypeCodeList: "StandardTypeCodeList",
+
+	/**
 	 * A character string used to represent a status.
 	 */
 	StatusCodeList: "StatusCodeList",
@@ -2235,6 +2680,11 @@ export const UneceTypes = {
 	 * A stores item, such as for onboard use during a journey.
 	 */
 	StoresItemInventory: "StoresItemInventory",
+
+	/**
+	 * Values for UneceStoresItemInventory typeCode property.
+	 */
+	StoresItemInventoryTypeCodeList: "StoresItemInventoryTypeCodeList",
 
 	/**
 	 * A person who is found hiding aboard a ship or other conveyance, such as in order to obtain free passage or elude
@@ -2284,6 +2734,11 @@ export const UneceTypes = {
 	SupplyChainEvent: "SupplyChainEvent",
 
 	/**
+	 * Values for UneceSupplyChainEvent typeCode property.
+	 */
+	SupplyChainEventTypeCodeList: "SupplyChainEventTypeCodeList",
+
+	/**
 	 * Supply chain goods and materials held in stock.
 	 */
 	SupplyChainInventory: "SupplyChainInventory",
@@ -2299,9 +2754,19 @@ export const UneceTypes = {
 	SupplyChainReference: "SupplyChainReference",
 
 	/**
+	 * Values for UneceSupplyChainReference typeCode property.
+	 */
+	SupplyChainReferenceTypeCodeList: "SupplyChainReferenceTypeCodeList",
+
+	/**
 	 * A collection of information specific to an item being used or reported on for supply chain trade purposes.
 	 */
 	SupplyChainTradeLineItem: "SupplyChainTradeLineItem",
+
+	/**
+	 * Values for UneceSupplyChainTradeLineItem typeCode property.
+	 */
+	SupplyChainTradeLineItemTypeCodeList: "SupplyChainTradeLineItemTypeCodeList",
 
 	/**
 	 * A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
@@ -2309,9 +2774,19 @@ export const UneceTypes = {
 	SupplyChainTradeTransaction: "SupplyChainTradeTransaction",
 
 	/**
+	 * Values for UneceSupplyChainTradeTransaction typeCode property.
+	 */
+	SupplyChainTradeTransactionTypeCodeList: "SupplyChainTradeTransactionTypeCodeList",
+
+	/**
 	 * Specification of the delivery quantities and date/time values in a supply schedule.
 	 */
 	SupplyPlan: "SupplyPlan",
+
+	/**
+	 * Values for UneceSupplyPlan typeCode property.
+	 */
+	SupplyPlanTypeCodeList: "SupplyPlanTypeCodeList",
 
 	/**
 	 * A prominent attribute or aspect of an object, such as recyclability of a product, which can meet customer needs without
@@ -2320,10 +2795,20 @@ export const UneceTypes = {
 	SustainabilityCharacteristic: "SustainabilityCharacteristic",
 
 	/**
+	 * Values for UneceSustainabilityCharacteristic typeCode property.
+	 */
+	SustainabilityCharacteristicTypeCodeList: "SustainabilityCharacteristicTypeCodeList",
+
+	/**
 	 * The process of performing documented checks of sustainability characteristics, with a focus on discovering deviations,
 	 * related to documented sustainability requirements.
 	 */
 	SustainabilityInspection: "SustainabilityInspection",
+
+	/**
+	 * Values for UneceSustainabilityInspection typeCode property.
+	 */
+	SustainabilityInspectionTypeCodeList: "SustainabilityInspectionTypeCodeList",
 
 	/**
 	 * A character string used to represent a duty or tax category.
@@ -2349,6 +2834,11 @@ export const UneceTypes = {
 	 * A prominent technical attribute or aspect.
 	 */
 	TechnicalCharacteristic: "TechnicalCharacteristic",
+
+	/**
+	 * Values for UneceTechnicalCharacteristic typeCode property.
+	 */
+	TechnicalCharacteristicTypeCodeList: "TechnicalCharacteristicTypeCodeList",
 
 	/**
 	 * Temperature setting related information of an instructive nature.
@@ -2432,6 +2922,16 @@ export const UneceTypes = {
 	TradeProductFeature: "TradeProductFeature",
 
 	/**
+	 * Values for UneceTradeProductFeature typeCode property.
+	 */
+	TradeProductFeatureTypeCodeList: "TradeProductFeatureTypeCodeList",
+
+	/**
+	 * Values for UneceTradeProduct typeCode property.
+	 */
+	TradeProductTypeCodeList: "TradeProductTypeCodeList",
+
+	/**
 	 * A collection of monetary amount totals, specified at header level, for a trade settlement.
 	 */
 	TradeSettlementHeaderMonetarySummation: "TradeSettlementHeaderMonetarySummation",
@@ -2476,6 +2976,16 @@ export const UneceTypes = {
 	 * An unused and rejected as unwanted component of transport material resulting from transportation.
 	 */
 	TransportationWasteMaterialComponent: "TransportationWasteMaterialComponent",
+
+	/**
+	 * Values for UneceTransportationWasteMaterialComponent typeCode property.
+	 */
+	TransportationWasteMaterialComponentTypeCodeList: "TransportationWasteMaterialComponentTypeCodeList",
+
+	/**
+	 * Values for UneceTransportationWasteMaterial typeCode property.
+	 */
+	TransportationWasteMaterialTypeCodeList: "TransportationWasteMaterialTypeCodeList",
 
 	/**
 	 * A process of either regaining substances in usable form, or of getting rid of substances resulting from transportation.
@@ -2532,6 +3042,11 @@ export const UneceTypes = {
 	 * A referenced significant occurrence or happening during transport.
 	 */
 	TransportEvent: "TransportEvent",
+
+	/**
+	 * Values for UneceTransportEvent typeCode property.
+	 */
+	TransportEventTypeCodeList: "TransportEventTypeCodeList",
 
 	/**
 	 * Transport information of an instructive nature.
@@ -2717,6 +3232,11 @@ export const UneceTypes = {
 	Voucher: "Voucher",
 
 	/**
+	 * Values for UneceVoucher typeCode property.
+	 */
+	VoucherTypeCodeList: "VoucherTypeCodeList",
+
+	/**
 	 * A process of either regaining substances in usable form, or of getting rid of substances regarding waste material, such
 	 * as production waste.
 	 */
@@ -2771,6 +3291,11 @@ export const UneceTypes = {
 	 * A feature that is fixed for an XHE (Exchange Header Envelope) but may be different in other cases.
 	 */
 	XHEParameter: "XHEParameter",
+
+	/**
+	 * Values for UneceXHEParameter typeCode property.
+	 */
+	XHEParameterTypeCodeList: "XHEParameterTypeCodeList",
 
 	/**
 	 * An individual, a group, or a body having a role in an XHE (Exchange Header Envelope).

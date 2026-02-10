@@ -21,6 +21,7 @@ import type { IUneceProduction } from "./IUneceProduction.js";
 import type { IUneceSpecifiedMaterial } from "./IUneceSpecifiedMaterial.js";
 import type { IUneceSubordinateTradeLineItem } from "./IUneceSubordinateTradeLineItem.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceSupplyChainTradeLineItemTypeCodeList } from "../typeCodes/uneceSupplyChainTradeLineItemTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -283,7 +284,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * The code specifying the type of supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSupplyChainTradeLineItemTypeCodeList | string;
 
 	/**
 	 * The code used as an extension to the type code for further specifying a type of supply chain trade line item.

@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UnecePersonalEffectsTypeCodeList } from "../typeCodes/unecePersonalEffectsTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -44,5 +45,5 @@ export interface IUnecePersonalEffects extends IJsonLdNodeObject {
 	 * A code specifying a type of specified personal effects.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UnecePersonalEffectsTypeCodeList | string;
 }

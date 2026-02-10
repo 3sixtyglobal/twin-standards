@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceSpecifiedParameterTypeCodeList } from "../typeCodes/uneceSpecifiedParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -63,7 +64,7 @@ export interface IUneceSpecifiedParameter extends IJsonLdNodeObject {
 	 * The code specifying the type of parameter.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedParameterTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, for this specified parameter.

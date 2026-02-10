@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedNote } from "./IUneceSpecifiedNote.js";
+import type { UneceCarriedEquipmentTypeCodeList } from "../typeCodes/uneceCarriedEquipmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -50,5 +51,5 @@ export interface IUneceCarriedEquipment extends IJsonLdNodeObject {
 	 * The code specifying the type of guest carried equipment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCarriedEquipmentTypeCodeList | string;
 }

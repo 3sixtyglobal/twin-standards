@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
+import type { UneceOperationalParameterTypeCodeList } from "../typeCodes/uneceOperationalParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -63,7 +64,7 @@ export interface IUneceOperationalParameter extends IJsonLdNodeObject {
 	 * The code specifying the type of this operational parameter.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceOperationalParameterTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, of this operational parameter.

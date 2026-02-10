@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProcessCertificate } from "./IUneceProcessCertificate.js";
 import type { IUneceSpecifiedMaterial } from "./IUneceSpecifiedMaterial.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
+import type { UneceProductFinishingTreatmentTypeCodeList } from "../typeCodes/uneceProductFinishingTreatmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -52,7 +53,7 @@ export interface IUneceProductFinishingTreatment extends IJsonLdNodeObject {
 	 * The code specifying the type of product finishing treatment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductFinishingTreatmentTypeCodeList | string;
 
 	/**
 	 * Material used for this specified product finishing treatment.

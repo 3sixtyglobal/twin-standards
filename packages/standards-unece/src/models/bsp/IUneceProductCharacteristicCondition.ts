@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
+import type { UneceProductCharacteristicConditionTypeCodeList } from "../typeCodes/uneceProductCharacteristicConditionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -32,7 +33,7 @@ export interface IUneceProductCharacteristicCondition extends IJsonLdNodeObject 
 	 * The code specifying the type of product characteristic condition.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceProductCharacteristicConditionTypeCodeList | string;
 
 	/**
 	 * The measure of the value for this product characteristic condition.

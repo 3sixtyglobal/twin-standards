@@ -11,6 +11,7 @@ import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceSensor } from "./IUneceSensor.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { IUneceTransportEvent } from "./IUneceTransportEvent.js";
+import type { UneceIOTDeviceTypeCodeList } from "../typeCodes/uneceIOTDeviceTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -161,5 +162,5 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * The code specifying the type of monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceIOTDeviceTypeCodeList | string;
 }

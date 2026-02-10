@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceDigitalMethodTypeCodeList } from "../typeCodes/uneceDigitalMethodTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -67,7 +68,7 @@ export interface IUneceDigitalMethod extends IJsonLdNodeObject {
 	 * The code specifying the type of digital method used for payment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceDigitalMethodTypeCodeList | string;
 
 	/**
 	 * The date or date time from when this digital method used for payment is valid.

@@ -12,6 +12,7 @@ import type { IUneceLicence } from "./IUneceLicence.js";
 import type { IUneceMetricCharacteristic } from "./IUneceMetricCharacteristic.js";
 import type { IUneceSpecifiedCertificate } from "./IUneceSpecifiedCertificate.js";
 import type { IUneceSpecifiedDeclaration } from "./IUneceSpecifiedDeclaration.js";
+import type { UneceStandardTypeCodeList } from "../typeCodes/uneceStandardTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -126,7 +127,7 @@ export interface IUneceStandard extends IJsonLdNodeObject {
 	 * The code specifying the type of referenced standard.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceStandardTypeCodeList | string;
 
 	/**
 	 * The Uniform Resource Identifier (URI) for this referenced standard.

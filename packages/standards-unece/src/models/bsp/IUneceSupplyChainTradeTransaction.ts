@@ -18,6 +18,7 @@ import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSupplyChainTradeLineItem } from "./IUneceSupplyChainTradeLineItem.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceSupplyChainTradeTransactionTypeCodeList } from "../typeCodes/uneceSupplyChainTradeTransactionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -174,5 +175,5 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * The code specifying the type of supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSupplyChainTradeTransactionTypeCodeList | string;
 }

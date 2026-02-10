@@ -7,6 +7,7 @@ import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTransportEvent } from "./IUneceTransportEvent.js";
 import type { IUneceVolumeUnitMeasureType } from "./IUneceVolumeUnitMeasureType.js";
+import type { UneceTransportationWasteMaterialComponentTypeCodeList } from "../typeCodes/uneceTransportationWasteMaterialComponentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -71,7 +72,7 @@ export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeO
 	 * A code specifying a type of transportation waste material component.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceTransportationWasteMaterialComponentTypeCodeList | string;
 
 	/**
 	 * The measure of this received transportation waste material component.

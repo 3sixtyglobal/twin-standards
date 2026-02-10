@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceCorrectiveActionTypeCodeList } from "../typeCodes/uneceCorrectiveActionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -38,5 +39,5 @@ export interface IUneceCorrectiveAction extends IJsonLdNodeObject {
 	 * The code specifying the type of corrective action.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCorrectiveActionTypeCodeList | string;
 }

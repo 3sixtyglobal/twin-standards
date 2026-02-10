@@ -11,6 +11,7 @@ import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceSupplyChainReference } from "./IUneceSupplyChainReference.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
+import type { UneceSupplyChainEventTypeCodeList } from "../typeCodes/uneceSupplyChainEventTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -135,7 +136,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A code specifying the type of supply chain event.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSupplyChainEventTypeCodeList | string;
 
 	/**
 	 * A number of units for this supply chain event.

@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceEquipmentTypeCodeList } from "../typeCodes/uneceEquipmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -51,5 +52,5 @@ export interface IUneceEquipment extends IJsonLdNodeObject {
 	 * A code specifying a type of OEM equipment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceEquipmentTypeCodeList | string;
 }

@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
+import type { UneceFinancialCardTypeCodeList } from "../typeCodes/uneceFinancialCardTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -93,7 +94,7 @@ export interface IUneceFinancialCard extends IJsonLdNodeObject {
 	 * The code specifying the type of this trade settlement financial card, such as debit or credit.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceFinancialCardTypeCodeList | string;
 
 	/**
 	 * The date from which this trade settlement financial card is valid.

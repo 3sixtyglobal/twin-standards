@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
+import type { UneceClassificationTypeCodeList } from "../typeCodes/uneceClassificationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -87,5 +88,5 @@ export interface IUneceClassification extends IJsonLdNodeObject {
 	 * The code specifying the type of product classification.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceClassificationTypeCodeList | string;
 }

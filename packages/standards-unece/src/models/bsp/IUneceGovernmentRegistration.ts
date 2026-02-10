@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
+import type { UneceGovernmentRegistrationTypeCodeList } from "../typeCodes/uneceGovernmentRegistrationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -69,7 +70,7 @@ export interface IUneceGovernmentRegistration extends IJsonLdNodeObject {
 	 * A code specifying a type of government registration.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceGovernmentRegistrationTypeCodeList | string;
 
 	/**
 	 * The period of time during which this government registration is valid.

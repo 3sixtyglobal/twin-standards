@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
+import type { UneceControlSettingParameterTypeCodeList } from "../typeCodes/uneceControlSettingParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -63,7 +64,7 @@ export interface IUneceControlSettingParameter extends IJsonLdNodeObject {
 	 * The code specifying a type of parameter for this control setting parameter.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceControlSettingParameterTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, of this control setting parameter.

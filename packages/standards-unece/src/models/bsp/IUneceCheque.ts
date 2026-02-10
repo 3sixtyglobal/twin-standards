@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceChequeTypeCodeList } from "../typeCodes/uneceChequeTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -99,5 +100,5 @@ export interface IUneceCheque extends IJsonLdNodeObject {
 	 * The code specifying the type of payment cheque.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceChequeTypeCodeList | string;
 }

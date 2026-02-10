@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceAccreditationTypeCodeList } from "../typeCodes/uneceAccreditationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -68,5 +69,5 @@ export interface IUneceAccreditation extends IJsonLdNodeObject {
 	 * The code specifying the type of this certified accreditation, such as a type of driving license.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceAccreditationTypeCodeList | string;
 }

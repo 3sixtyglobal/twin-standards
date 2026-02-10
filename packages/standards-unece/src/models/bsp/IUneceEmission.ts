@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceWeightUnitMeasureType } from "./IUneceWeightUnitMeasureType.js";
+import type { UneceEmissionTypeCodeList } from "../typeCodes/uneceEmissionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -41,7 +42,7 @@ export interface IUneceEmission extends IJsonLdNodeObject {
 	 * The code specifying the type of this calculated emission.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceEmissionTypeCodeList | string;
 
 	/**
 	 * A weight for which this calculated emission is measured.

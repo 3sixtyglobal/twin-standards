@@ -10,6 +10,7 @@ import type { IUneceRange } from "./IUneceRange.js";
 import type { IUneceSpecifiedMethod } from "./IUneceSpecifiedMethod.js";
 import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceMetricCharacteristicTypeCodeList } from "../typeCodes/uneceMetricCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -56,7 +57,7 @@ export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
 	 * The code specifying the type of metric characteristic.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceMetricCharacteristicTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this metric characteristic.

@@ -7,6 +7,7 @@ import type { IUneceObject } from "./IUneceObject.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceSubjectCodeList } from "../lists/uneceSubjectCodeList.js";
+import type { UneceSpecifiedDeclarationTypeCodeList } from "../typeCodes/uneceSpecifiedDeclarationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -78,7 +79,7 @@ export interface IUneceSpecifiedDeclaration extends IJsonLdNodeObject {
 	 * The code specifying the type of specified declaration.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedDeclarationTypeCodeList | string;
 
 	/**
 	 * An object verified for this specified declaration.

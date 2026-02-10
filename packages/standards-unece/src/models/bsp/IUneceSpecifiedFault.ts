@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
+import type { UneceSpecifiedFaultTypeCodeList } from "../typeCodes/uneceSpecifiedFaultTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -75,5 +76,5 @@ export interface IUneceSpecifiedFault extends IJsonLdNodeObject {
 	 * The code specifying the type of fault.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedFaultTypeCodeList | string;
 }

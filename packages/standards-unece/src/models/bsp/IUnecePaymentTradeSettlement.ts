@@ -12,6 +12,7 @@ import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { IUneceTradeSettlementPaymentMonetarySummation } from "./IUneceTradeSettlementPaymentMonetarySummation.js";
 import type { IUneceTradeTax } from "./IUneceTradeTax.js";
 import type { UneceCurrencyCodeList } from "../lists/uneceCurrencyCodeList.js";
+import type { UnecePaymentTradeSettlementTypeCodeList } from "../typeCodes/unecePaymentTradeSettlementTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -231,7 +232,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The code specifying the type of this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UnecePaymentTradeSettlementTypeCodeList | string;
 
 	/**
 	 * An unstructured description, expressed as text, for this payment trade settlement.

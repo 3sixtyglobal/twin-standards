@@ -10,6 +10,7 @@ import type { IUneceInspectionPerson } from "./IUneceInspectionPerson.js";
 import type { IUneceInspectionResult } from "./IUneceInspectionResult.js";
 import type { IUneceInspectionStatus } from "./IUneceInspectionStatus.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceSpecifiedInspectionTypeCodeList } from "../typeCodes/uneceSpecifiedInspectionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -99,5 +100,5 @@ export interface IUneceSpecifiedInspection extends IJsonLdNodeObject {
 	 * The code specifying the type of inspection.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedInspectionTypeCodeList | string;
 }

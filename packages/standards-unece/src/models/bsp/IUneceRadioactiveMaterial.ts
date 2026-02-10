@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceRadioactiveIsotope } from "./IUneceRadioactiveIsotope.js";
+import type { UneceRadioactiveMaterialTypeCodeList } from "../typeCodes/uneceRadioactiveMaterialTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -89,5 +90,5 @@ export interface IUneceRadioactiveMaterial extends IJsonLdNodeObject {
 	 * The code specifying the type of this radioactive material.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceRadioactiveMaterialTypeCodeList | string;
 }

@@ -3,6 +3,7 @@
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { UneceSupplyChainReferenceTypeCodeList } from "../typeCodes/uneceSupplyChainReferenceTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -61,7 +62,7 @@ export interface IUneceSupplyChainReference extends IJsonLdNodeObject {
 	 * A code specifying a type of supply chain reference.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSupplyChainReferenceTypeCodeList | string;
 
 	/**
 	 * A value, expressed as text, for this supply chain reference.

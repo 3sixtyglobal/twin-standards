@@ -9,6 +9,7 @@ import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceOperationalParameter } from "./IUneceOperationalParameter.js";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceSensorTypeCodeList } from "../typeCodes/uneceSensorTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -98,7 +99,7 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * The code specifying a type of monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSensorTypeCodeList | string;
 
 	/**
 	 * The measure of the value for this monitoring sensor.

@@ -16,6 +16,7 @@ import type { IUneceTransportInstructions } from "./IUneceTransportInstructions.
 import type { IUneceTransportRoute } from "./IUneceTransportRoute.js";
 import type { IUneceUnitMeasureType } from "./IUneceUnitMeasureType.js";
 import type { UneceLogisticsStatusCodeList } from "../lists/uneceLogisticsStatusCodeList.js";
+import type { UneceTransportEventTypeCodeList } from "../typeCodes/uneceTransportEventTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -312,7 +313,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The code specifying the type of transport event.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceTransportEventTypeCodeList | string;
 
 	/**
 	 * The number of units for this transport event.

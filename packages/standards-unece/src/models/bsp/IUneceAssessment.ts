@@ -9,6 +9,7 @@ import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSupplyChainTradeTransaction } from "./IUneceSupplyChainTradeTransaction.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
+import type { UneceAssessmentTypeCodeList } from "../typeCodes/uneceAssessmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -122,7 +123,7 @@ export interface IUneceAssessment extends IJsonLdNodeObject {
 	 * The code specifying the type of specified assessment.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceAssessmentTypeCodeList | string;
 
 	/**
 	 * The indication of whether or not this specified assessment is verified.

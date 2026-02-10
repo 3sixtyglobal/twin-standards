@@ -4,6 +4,7 @@
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
+import type { UneceCalibratedMeasurementTypeCodeList } from "../typeCodes/uneceCalibratedMeasurementTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -50,7 +51,7 @@ export interface IUneceCalibratedMeasurement extends IJsonLdNodeObject {
 	 * A code specifying a type of calibrated measurement.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCalibratedMeasurementTypeCodeList | string;
 
 	/**
 	 * The code specifying a value for this calibrated measurement.

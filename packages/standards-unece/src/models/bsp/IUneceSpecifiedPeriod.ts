@@ -6,6 +6,7 @@ import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDurationUnitMeasureType } from "./IUneceDurationUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
+import type { UneceSpecifiedPeriodTypeCodeList } from "../typeCodes/uneceSpecifiedPeriodTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -155,5 +156,5 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * The code specifying the type of specified period.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceSpecifiedPeriodTypeCodeList | string;
 }

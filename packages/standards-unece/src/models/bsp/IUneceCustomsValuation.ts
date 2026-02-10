@@ -5,6 +5,7 @@
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
+import type { UneceCustomsValuationTypeCodeList } from "../typeCodes/uneceCustomsValuationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -117,7 +118,7 @@ export interface IUneceCustomsValuation extends IJsonLdNodeObject {
 	 * The code specifying the type of cross-border customs valuation.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: string;
+	typeCode?: UneceCustomsValuationTypeCodeList | string;
 
 	/**
 	 * The code specifying any additions necessary under the World Trade Organization (WTO) Valuation Agreement used for the
