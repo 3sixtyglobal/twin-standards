@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.34](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.33...standards-w3c-did-v0.0.3-next.34) (2026-02-10)
+
+
+### Features
+
+* unece type codes ([#146](https://github.com/twinfoundation/standards/issues/146)) ([7fb94cd](https://github.com/twinfoundation/standards/commit/7fb94cd5c920c7371782dd9d4d52faa7d1aa51ca))
+
 ## [0.0.3-next.33](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.32...standards-w3c-did-v0.0.3-next.33) (2026-02-06)
 
 
