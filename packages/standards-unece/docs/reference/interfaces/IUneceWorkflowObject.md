@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier of this trade workflow object.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/previousStatusCode
 
 ***
 
-### workflowStatusCode?
+### workflowStatusCode
 
-> `optional` **workflowStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
+> **workflowStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 
 The code specifying the status of this trade workflow object.
 

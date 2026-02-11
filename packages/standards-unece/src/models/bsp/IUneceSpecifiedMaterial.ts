@@ -135,7 +135,7 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * A measure of the mass of this specified material.
 	 * @see https://vocabulary.uncefact.org/massMeasure
 	 */
-	massMeasure?: IUneceMeasureType;
+	massMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A mass measure of this specified material expressed as a ratio to another mass, such as the total mass.
@@ -195,5 +195,5 @@ export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
 	 * A measure of the weight of this specified material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType;
+	weightMeasure?: IUneceMeasureType[];
 }

@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalSpecifiedLocation?
 
-> `optional` **physicalSpecifiedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)
+> `optional` **physicalSpecifiedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
 A physical location specified for this experience facility.
 

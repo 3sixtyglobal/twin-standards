@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableFinancialCard?
 
-> `optional` **applicableFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)
+> `optional` **applicableFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)[]
 
 A financial card applicable to this trade settlement payment means.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/payeePartyFinancialAccount
 
 ### payeeSpecifiedFinancialInstitution?
 
-> `optional` **payeeSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)[]
+> `optional` **payeeSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
 The creditor financial institution of the payee party specified for this trade settlement payment means.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/payeeSpecifiedFinancialInstitution
 
 ### payerPartyFinancialAccount?
 
-> `optional` **payerPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)[]
+> `optional` **payerPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)
 
 The debtor financial account of the payer party for this trade settlement payment means.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/payerPartyFinancialAccount
 
 ### payerSpecifiedFinancialInstitution?
 
-> `optional` **payerSpecifiedFinancialInstitution**: [`IUneceDebtorFinancialInstitution`](IUneceDebtorFinancialInstitution.md)[]
+> `optional` **payerSpecifiedFinancialInstitution**: [`IUneceDebtorFinancialInstitution`](IUneceDebtorFinancialInstitution.md)
 
 The debtor financial institution of the payer party specified for this trade settlement payment means.
 

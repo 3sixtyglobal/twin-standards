@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/netPriceProductPrice
 
 ### sellerOrderDocument?
 
-> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The seller generated order document referenced in this subordinate line trade agreement.
 

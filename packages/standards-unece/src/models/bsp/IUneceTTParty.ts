@@ -29,7 +29,7 @@ export interface IUneceTTParty extends IJsonLdNodeObject {
 	 * An identifier for this TT party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * A technical characteristic managed by this TT party.

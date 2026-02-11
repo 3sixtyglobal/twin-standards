@@ -86,9 +86,9 @@ https://vocabulary.uncefact.org/austrianBankleitzahlId
 
 ***
 
-### bICId
+### bICId?
 
-> **bICId**: `string`
+> `optional` **bICId**: `string`
 
 The unique Bank Identification Code (BIC) as defined in ISO 9362 for this creditor financial institution.
 
@@ -111,9 +111,9 @@ https://vocabulary.uncefact.org/cHIPSParticipantId
 
 ***
 
-### cHIPSUniversalId
+### cHIPSUniversalId?
 
-> **cHIPSUniversalId**: `string`
+> `optional` **cHIPSUniversalId**: `string`
 
 The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned
 by the New York Clearing House for this creditor financial institution.
@@ -371,9 +371,9 @@ https://vocabulary.uncefact.org/spanishDomesticInterbankingId
 
 ***
 
-### specifiedProprietaryIdentity
+### specifiedProprietaryIdentity?
 
-> **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
 A proprietary identity specified for this creditor financial institution.
 

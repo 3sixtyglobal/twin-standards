@@ -25,11 +25,11 @@ export interface IUneceGeographicalArea extends IJsonLdNodeObject {
 	 * The identifier for this geographical area.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The name, expressed as text, for this geographical area.
 	 * @see https://vocabulary.uncefact.org/name
 	 */
-	name?: string;
+	name: string;
 }

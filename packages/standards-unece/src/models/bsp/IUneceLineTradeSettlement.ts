@@ -119,7 +119,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * The payer party for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty[];
+	payerParty?: IUneceTradeParty;
 
 	/**
 	 * The payer reference, expressed as text, for this line trade settlement.
@@ -131,7 +131,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of a payment for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/paymentAmount
 	 */
-	paymentAmount?: IUneceAmountType;
+	paymentAmount?: IUneceAmountType[];
 
 	/**
 	 * A payment reference, expressed as text, for this line trade settlement.
@@ -203,7 +203,7 @@ export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
 	 * The monetary summation totals specified for this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementLineMonetarySummation
 	 */
-	specifiedTradeSettlementLineMonetarySummation?: IUneceTradeSettlementLineMonetarySummation[];
+	specifiedTradeSettlementLineMonetarySummation?: IUneceTradeSettlementLineMonetarySummation;
 
 	/**
 	 * The code specifying the status of this line trade settlement.

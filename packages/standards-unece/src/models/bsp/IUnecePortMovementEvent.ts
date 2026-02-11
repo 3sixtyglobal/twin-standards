@@ -26,13 +26,13 @@ export interface IUnecePortMovementEvent extends IJsonLdNodeObject {
 	 * An actual date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
 	 */
-	actualOccurrenceDateTime: string;
+	actualOccurrenceDateTime?: string;
 
 	/**
 	 * An arrival location related to this port movement event.
 	 * @see https://vocabulary.uncefact.org/arrivalRelatedLocation
 	 */
-	arrivalRelatedLocation?: IUneceLogisticsLocation;
+	arrivalRelatedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A textual description of this port movement event.
@@ -44,7 +44,7 @@ export interface IUnecePortMovementEvent extends IJsonLdNodeObject {
 	 * An estimated date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 	 */
-	estimatedOccurrenceDateTime: string;
+	estimatedOccurrenceDateTime?: string;
 
 	/**
 	 * An identifier for this port movement event.
@@ -68,13 +68,13 @@ export interface IUnecePortMovementEvent extends IJsonLdNodeObject {
 	 * A requested date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
 	 */
-	requestedOccurrenceDateTime: string;
+	requestedOccurrenceDateTime?: string;
 
 	/**
 	 * A scheduled date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
 	 */
-	scheduledOccurrenceDateTime: string;
+	scheduledOccurrenceDateTime?: string;
 
 	/**
 	 * The sequence number for this port movement event.

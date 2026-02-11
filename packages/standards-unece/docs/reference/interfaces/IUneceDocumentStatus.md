@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/validInformation
 
 ### validityPeriod?
 
-> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified validity period for this document status.
 

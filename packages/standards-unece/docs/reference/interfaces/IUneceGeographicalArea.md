@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this geographical area.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name
 
-> `optional` **name**: `string`
+> **name**: `string`
 
 The name, expressed as text, for this geographical area.
 

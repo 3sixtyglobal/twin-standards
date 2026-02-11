@@ -157,9 +157,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"latitudeMeasure",
-		"longitudeMeasure"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

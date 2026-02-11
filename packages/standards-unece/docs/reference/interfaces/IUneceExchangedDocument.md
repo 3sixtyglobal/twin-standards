@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/acceptanceDateTime
 
 ***
 
-### additionalId
+### additionalId?
 
-> **additionalId**: `string`
+> `optional` **additionalId**: `string`
 
 An additional identifier of this exchanged document.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/additionalId
 
 ### agentParty?
 
-> `optional` **agentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **agentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party representing another party for this exchanged document.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/amendmentPurpose
 
 ***
 
-### approverSignatoryAuthentication
+### approverSignatoryAuthentication?
 
-> **approverSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **approverSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The approver signature that authenticates this exchanged document.
 
@@ -120,9 +120,9 @@ https://vocabulary.uncefact.org/attachmentBinaryObject
 
 ***
 
-### buyerSignatoryAuthentication
+### buyerSignatoryAuthentication?
 
-> **buyerSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **buyerSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The buyer signature that authenticates this exchanged document.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/disposition
 
 ### documentResponseDocumentTypeCode?
 
-> `optional` **documentResponseDocumentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
+> `optional` **documentResponseDocumentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
 
 A code specifying a type of response document for this exchanged document, such as a requested or required response
 document type.
@@ -349,9 +349,9 @@ https://vocabulary.uncefact.org/exchangedDocumentResponseTypeCode
 
 ***
 
-### firstSignatoryAuthentication
+### firstSignatoryAuthentication?
 
-> **firstSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **firstSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The first or primary signature that authenticates this exchanged document.
 
@@ -373,9 +373,9 @@ https://vocabulary.uncefact.org/firstVersionIssueDateTime
 
 ***
 
-### fourthSignatoryAuthentication
+### fourthSignatoryAuthentication?
 
-> **fourthSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **fourthSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The fourth signature, also known as the third counter signature, that has been authenticated on this exchanged document
 indicating where appropriate the authentication party.
@@ -472,7 +472,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party that issues this exchanged document.
 
@@ -544,7 +544,7 @@ https://vocabulary.uncefact.org/lodgementLocation
 
 ### messageFunctionPurposeCode?
 
-> `optional` **messageFunctionPurposeCode**: [`UneceMessageFunctionCodeList`](../type-aliases/UneceMessageFunctionCodeList.md)
+> `optional` **messageFunctionPurposeCode**: [`UneceMessageFunctionCodeList`](../type-aliases/UneceMessageFunctionCodeList.md)[]
 
 A code specifying the purpose of this exchanged document, such as request or reminder.
 
@@ -605,7 +605,7 @@ https://vocabulary.uncefact.org/originalRequiredQuantity
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party that owns this exchanged document.
 
@@ -639,9 +639,9 @@ https://vocabulary.uncefact.org/platformProviderParty
 
 ***
 
-### previousRevisionId
+### previousRevisionId?
 
-> **previousRevisionId**: `string`
+> `optional` **previousRevisionId**: `string`
 
 The unique identifier of the previous revision of this exchanged document.
 
@@ -663,9 +663,9 @@ https://vocabulary.uncefact.org/purpose
 
 ***
 
-### recipientAssignedId
+### recipientAssignedId?
 
-> **recipientAssignedId**: `string`
+> `optional` **recipientAssignedId**: `string`
 
 A unique recipient assigned identifier for this exchanged document.
 
@@ -675,9 +675,9 @@ https://vocabulary.uncefact.org/recipientAssignedId
 
 ***
 
-### recipientTradeParty
+### recipientTradeParty?
 
-> **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party that receives this exchanged document.
 
@@ -771,9 +771,9 @@ https://vocabulary.uncefact.org/revisionId
 
 ***
 
-### secondSignatoryAuthentication
+### secondSignatoryAuthentication?
 
-> **secondSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **secondSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The second signature, also known as the first counter signature, that has been authenticated on this exchanged document
 indicating where appropriate the authentication party.
@@ -784,9 +784,9 @@ https://vocabulary.uncefact.org/secondSignatoryAuthentication
 
 ***
 
-### senderAssignedId
+### senderAssignedId?
 
-> **senderAssignedId**: `string`
+> `optional` **senderAssignedId**: `string`
 
 A unique sender assigned identifier for this exchanged document.
 
@@ -808,9 +808,9 @@ https://vocabulary.uncefact.org/senderTradeParty
 
 ***
 
-### signatoryAuthentication
+### signatoryAuthentication?
 
-> **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
 
 A signatory document authentication for this exchanged document.
 
@@ -845,9 +845,9 @@ https://vocabulary.uncefact.org/subtypeCode
 
 ***
 
-### suffixId
+### suffixId?
 
-> **suffixId**: `string`
+> `optional` **suffixId**: `string`
 
 A unique suffix identifier for this exchanged document.
 
@@ -869,9 +869,9 @@ https://vocabulary.uncefact.org/summaryInformation
 
 ***
 
-### thirdSignatoryAuthentication
+### thirdSignatoryAuthentication?
 
-> **thirdSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **thirdSignatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)
 
 The third signature, also known as the second counter signature, that has been authenticated on this exchanged document
 indicating where appropriate the authentication party.
@@ -894,9 +894,9 @@ https://vocabulary.uncefact.org/totalPageQuantity
 
 ***
 
-### traderAssignedId
+### traderAssignedId?
 
-> **traderAssignedId**: `string`
+> `optional` **traderAssignedId**: `string`
 
 A unique trader assigned identifier for this exchanged document.
 

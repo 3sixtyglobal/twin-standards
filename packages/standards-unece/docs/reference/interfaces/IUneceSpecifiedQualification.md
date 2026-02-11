@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### name?
+### name
 
-> `optional` **name**: `string`
+> **name**: `string`
 
 The name, expressed as text, of this specified qualification.
 

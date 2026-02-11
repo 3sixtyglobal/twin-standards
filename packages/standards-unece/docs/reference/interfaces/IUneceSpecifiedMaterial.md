@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### massMeasure?
 
-> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the mass of this specified material.
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/volumeRatioMeasure
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the weight of this specified material.
 

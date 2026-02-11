@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/payableSpecifiedAccountingAccount
 
 ### payerParty?
 
-> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payer party for this line trade settlement.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/payerReference
 
 ### paymentAmount?
 
-> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a payment for this line trade settlement.
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/specifiedServiceCharge
 
 ### specifiedTradeSettlementLineMonetarySummation?
 
-> `optional` **specifiedTradeSettlementLineMonetarySummation**: [`IUneceTradeSettlementLineMonetarySummation`](IUneceTradeSettlementLineMonetarySummation.md)[]
+> `optional` **specifiedTradeSettlementLineMonetarySummation**: [`IUneceTradeSettlementLineMonetarySummation`](IUneceTradeSettlementLineMonetarySummation.md)
 
 The monetary summation totals specified for this line trade settlement.
 

@@ -149,5 +149,5 @@ export interface IUneceDocumentStatus extends IJsonLdNodeObject {
 	 * A specified validity period for this document status.
 	 * @see https://vocabulary.uncefact.org/validityPeriod
 	 */
-	validityPeriod?: IUneceSpecifiedPeriod;
+	validityPeriod?: IUneceSpecifiedPeriod[];
 }

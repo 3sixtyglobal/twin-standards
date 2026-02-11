@@ -136,7 +136,7 @@ export interface IUneceExperienceEvent extends IJsonLdNodeObject {
 	 * The specified usage condition required for this experience event.
 	 * @see https://vocabulary.uncefact.org/requiredUsageCondition
 	 */
-	requiredUsageCondition?: IUneceUsageCondition[];
+	requiredUsageCondition?: IUneceUsageCondition;
 
 	/**
 	 * A reservation guarantee, expressed as text, for this experience event.

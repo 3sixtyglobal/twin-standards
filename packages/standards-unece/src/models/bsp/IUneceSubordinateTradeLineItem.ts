@@ -51,7 +51,7 @@ export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
 	 * A code used as an extension to the type code for further specifying this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 	 */
-	goodsTypeExtensionTypeExtensionCode?: UneceGoodsTypeExtensionCodeList;
+	goodsTypeExtensionTypeExtensionCode?: UneceGoodsTypeExtensionCodeList[];
 
 	/**
 	 * A unique identifier for this subordinate trade line item.
@@ -93,7 +93,7 @@ export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
 	 * The delivery specified for this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedSubordinateLineTradeDelivery
 	 */
-	specifiedSubordinateLineTradeDelivery?: IUneceSubordinateLineTradeDelivery[];
+	specifiedSubordinateLineTradeDelivery?: IUneceSubordinateLineTradeDelivery;
 
 	/**
 	 * A trade settlement specified for this subordinate trade line item.

@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/claimRelatedParty
 
 ### financialAdjustmentReasonCode?
 
-> `optional` **financialAdjustmentReasonCode**: [`UneceFinancialAdjustmentReasonCodeList`](../type-aliases/UneceFinancialAdjustmentReasonCodeList.md)
+> `optional` **financialAdjustmentReasonCode**: [`UneceFinancialAdjustmentReasonCodeList`](../type-aliases/UneceFinancialAdjustmentReasonCodeList.md)[]
 
 A code specifying a reason for this financial adjustment.
 

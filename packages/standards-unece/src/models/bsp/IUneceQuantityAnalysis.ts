@@ -77,7 +77,7 @@ export interface IUneceQuantityAnalysis extends IJsonLdNodeObject {
 	 * The unique identifier for this work item quantity analysis.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * A code specifying a primary classification value for this work item quantity analysis.

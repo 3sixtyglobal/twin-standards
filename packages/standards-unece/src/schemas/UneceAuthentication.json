@@ -164,8 +164,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"includedClause"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

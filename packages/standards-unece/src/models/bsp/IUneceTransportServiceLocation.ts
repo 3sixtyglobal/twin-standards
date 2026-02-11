@@ -34,7 +34,7 @@ export interface IUneceTransportServiceLocation extends IJsonLdNodeObject {
 	 * A code specifying the type of transport service location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
 
 	/**
 	 * A name, expressed as text, of this transport service location.
@@ -46,5 +46,5 @@ export interface IUneceTransportServiceLocation extends IJsonLdNodeObject {
 	 * Geographical coordinate information for this physical transport service location.
 	 * @see https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 	 */
-	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate;
+	physicalGeographicalCoordinate?: IUneceGeographicalCoordinate[];
 }

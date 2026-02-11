@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ### associatedDocumentLineDocument?
 
-> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)[]
+> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)
 
 The document line associated with this supply chain trade transaction.
 

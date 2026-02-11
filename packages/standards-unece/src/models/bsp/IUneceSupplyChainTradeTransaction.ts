@@ -72,7 +72,7 @@ export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
 	 * The document line associated with this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/associatedDocumentLineDocument
 	 */
-	associatedDocumentLineDocument?: IUneceDocumentLineDocument[];
+	associatedDocumentLineDocument?: IUneceDocumentLineDocument;
 
 	/**
 	 * The financing request result document associated with this supply chain trade transaction.

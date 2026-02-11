@@ -27,13 +27,13 @@ export interface IUneceXHEDocument extends IJsonLdNodeObject {
 	 * The date, time, date time or other date time value of the creation of this XHE document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
 	 */
-	creationDateTime?: string;
+	creationDateTime: string;
 
 	/**
 	 * The identifier for this XHE document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * A recipient party for this XHE document.

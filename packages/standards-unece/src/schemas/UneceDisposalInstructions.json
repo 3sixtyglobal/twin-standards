@@ -121,9 +121,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"handling",
-		"rCRAHandling"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

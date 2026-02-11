@@ -73,7 +73,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * The email URI communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication[];
+	emailURICommunication?: IUneceCommunication;
 
 	/**
 	 * Fax communication information for this trade contact.
@@ -146,7 +146,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Telephone communication information for this trade contact.
 	 * @see https://vocabulary.uncefact.org/telephoneCommunication
 	 */
-	telephoneCommunication?: IUneceCommunication;
+	telephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * Telegraphy (Telex) communication information for this trade contact.
@@ -158,7 +158,7 @@ export interface IUneceTradeContact extends IJsonLdNodeObject {
 	 * Uniform Resource Identifier (URI) communication information for this trade contact, such as a web or an email address.
 	 * @see https://vocabulary.uncefact.org/uRICommunication
 	 */
-	uRICommunication?: IUneceCommunication;
+	uRICommunication?: IUneceCommunication[];
 
 	/**
 	 * A communication used by this trade contact.

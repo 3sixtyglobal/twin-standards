@@ -108,7 +108,10 @@
 			"description": "The code specifying the business step for this TT object event."
 		},
 		"destinationRelatedParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
+			},
 			"description": "A destination related party for this TT object event."
 		},
 		"dispositionCode": {
@@ -150,7 +153,10 @@
 			"description": "A certification related to this TT object event."
 		},
 		"sourceRelatedParty": {
-			"$ref": "https://schema.twindev.org/unece/UneceTTParty",
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTTParty"
+			},
 			"description": "A source related party for this TT object event."
 		},
 		"specifiedError": {
@@ -170,6 +176,8 @@
 	},
 	"required": [
 		"type",
+		"actionCode",
+		"occurrenceDateTime",
 		"recordedDateTime"
 	],
 	"additionalProperties": {

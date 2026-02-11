@@ -41,13 +41,13 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * The unique identifier of this procuring project.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The name, expressed as text, of this procuring project.
 	 * @see https://vocabulary.uncefact.org/name
 	 */
-	name?: string;
+	name: string;
 
 	/**
 	 * The monetary value of the net budget for this procuring project.
@@ -59,7 +59,7 @@ export interface IUneceProject extends IJsonLdNodeObject {
 	 * The inspection event specified for this procuring project.
 	 * @see https://vocabulary.uncefact.org/specifiedInspectionEvent
 	 */
-	specifiedInspectionEvent?: IUneceInspectionEvent[];
+	specifiedInspectionEvent?: IUneceInspectionEvent;
 
 	/**
 	 * A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring

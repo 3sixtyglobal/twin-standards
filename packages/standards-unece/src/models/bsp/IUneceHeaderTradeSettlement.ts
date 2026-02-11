@@ -61,7 +61,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of the credit note for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/creditNoteAmount
 	 */
-	creditNoteAmount?: IUneceAmountType;
+	creditNoteAmount?: IUneceAmountType[];
 
 	/**
 	 * A textual description of the reason for a credit being given in this header trade settlement.
@@ -207,7 +207,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * The monetary summation totals outstanding for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/outstandingSpecifiedMonetarySummation
 	 */
-	outstandingSpecifiedMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation[];
+	outstandingSpecifiedMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation;
 
 	/**
 	 * A payable accounting account specified for this header trade settlement.
@@ -225,7 +225,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * The payer party for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty[];
+	payerParty?: IUneceTradeParty;
 
 	/**
 	 * The payer reference, expressed as text, for this header trade settlement.
@@ -237,7 +237,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of a payment for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/paymentAmount
 	 */
-	paymentAmount?: IUneceAmountType;
+	paymentAmount?: IUneceAmountType[];
 
 	/**
 	 * The currency exchange applicable to the payment in this header trade settlement.
@@ -381,7 +381,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * The monetary summation totals specified for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementHeaderMonetarySummation
 	 */
-	specifiedTradeSettlementHeaderMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation[];
+	specifiedTradeSettlementHeaderMonetarySummation?: IUneceTradeSettlementHeaderMonetarySummation;
 
 	/**
 	 * A tax subtotal calculated for this header trade settlement.
@@ -393,7 +393,7 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A currency exchange applicable to a tax in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/taxApplicableCurrencyExchange
 	 */
-	taxApplicableCurrencyExchange?: IUneceCurrencyExchange;
+	taxApplicableCurrencyExchange?: IUneceCurrencyExchange[];
 
 	/**
 	 * The code specifying the tax currency for this header trade settlement.
@@ -405,13 +405,13 @@ export interface IUneceHeaderTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of the total adjustment for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/totalAdjustmentAmount
 	 */
-	totalAdjustmentAmount?: IUneceAmountType;
+	totalAdjustmentAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value of the total invoice on which this header trade settlement is calculated.
 	 * @see https://vocabulary.uncefact.org/totalInvoiceAmount
 	 */
-	totalInvoiceAmount?: IUneceAmountType;
+	totalInvoiceAmount?: IUneceAmountType[];
 
 	/**
 	 * An ultimate payee party in this header trade settlement.

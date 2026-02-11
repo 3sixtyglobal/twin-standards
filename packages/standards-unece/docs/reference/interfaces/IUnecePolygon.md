@@ -37,9 +37,9 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic
+### associatedGeographicalObjectCharacteristic?
 
-> **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this specified polygon.
 

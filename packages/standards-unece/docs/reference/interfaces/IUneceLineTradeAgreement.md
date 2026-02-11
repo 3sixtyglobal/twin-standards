@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/itemBuyerParty
 
 ### itemSellerParty?
 
-> `optional` **itemSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **itemSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The item seller party for this line trade agreement.
 
@@ -435,7 +435,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### marketplaceOrderDocument?
 
-> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The marketplace generated order document referenced in this line trade agreement.
 
@@ -543,7 +543,7 @@ https://vocabulary.uncefact.org/orderingSpecifiedPeriod
 
 ### originalOrderDocument?
 
-> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The original order document referenced in this line trade agreement.
 
@@ -568,7 +568,7 @@ https://vocabulary.uncefact.org/pickUpOrderFulfilmentLeadTimeMeasure
 
 ### previousOrderDocument?
 
-> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The previous order document referenced in this line trade agreement.
 
@@ -592,7 +592,7 @@ https://vocabulary.uncefact.org/priceListDocument
 
 ### primeContractSellerParty?
 
-> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The seller party acting as the prime contractor for this line trade agreement.
 
@@ -881,7 +881,7 @@ https://vocabulary.uncefact.org/salesReportDocument
 
 ### sellerOrderDocument?
 
-> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The seller generated order document referenced in this line trade agreement.
 
@@ -893,7 +893,7 @@ https://vocabulary.uncefact.org/sellerOrderDocument
 
 ### sellerParty?
 
-> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The seller party for this line trade agreement.
 

@@ -70,5 +70,5 @@ export interface IUneceSpecifiedCondition extends IJsonLdNodeObject {
 	 * A measure of a value for this specified condition.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 }

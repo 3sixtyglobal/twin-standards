@@ -49,9 +49,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this TT exchanged document.
 

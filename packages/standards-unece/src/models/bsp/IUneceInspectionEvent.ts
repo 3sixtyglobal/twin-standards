@@ -33,13 +33,13 @@ export interface IUneceInspectionEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the occurrence of this inspection event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
 	 */
-	occurrenceDateTime?: string;
+	occurrenceDateTime: string;
 
 	/**
 	 * The referenced location where this inspection event will occur or has occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceLocation
 	 */
-	occurrenceLocation?: IUneceLocation;
+	occurrenceLocation: IUneceLocation;
 
 	/**
 	 * The code specifying the type of inspection for this event.

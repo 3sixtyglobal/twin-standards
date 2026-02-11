@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/locationId
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime
 
-> `optional` **occurrenceDateTime**: `string`
+> **occurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the occurrence of this animal holding event.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### relatedTTLocation?
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
+> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A Track and Trace (TT) location related to this animal holding event.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 
 ***
 
-### typeCode?
+### typeCode
 
-> `optional` **typeCode**: `string`
+> **typeCode**: `string`
 
 The code specifying the type of animal holding event.
 

@@ -27,7 +27,7 @@ export interface IUneceIssue extends IJsonLdNodeObject {
 	 * The identifier of this target issue.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The maximum metric characteristic specified for this target issue.

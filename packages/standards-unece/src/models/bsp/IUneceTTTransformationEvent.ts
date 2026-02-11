@@ -45,7 +45,7 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * A destination related party for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/destinationRelatedParty
 	 */
-	destinationRelatedParty?: IUneceTTParty;
+	destinationRelatedParty?: IUneceTTParty[];
 
 	/**
 	 * The code specifying the disposition related to this TT transformation event.
@@ -75,7 +75,7 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value at which this TT transformation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
 	 */
-	occurrenceDateTime?: string;
+	occurrenceDateTime: string;
 
 	/**
 	 * An instance identifier for an output object of this TT transformation event.
@@ -111,7 +111,7 @@ export interface IUneceTTTransformationEvent extends IJsonLdNodeObject {
 	 * A source related party for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/sourceRelatedParty
 	 */
-	sourceRelatedParty?: IUneceTTParty;
+	sourceRelatedParty?: IUneceTTParty[];
 
 	/**
 	 * A declared error specified for this TT transformation event.

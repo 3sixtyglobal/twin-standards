@@ -26,7 +26,7 @@ export interface IUneceResponse extends IJsonLdNodeObject {
 	 * The content, expressed as text, of this specification response.
 	 * @see https://vocabulary.uncefact.org/content
 	 */
-	content?: string;
+	content: string;
 
 	/**
 	 * The code specifying the contractual language for this specification response.
@@ -38,7 +38,7 @@ export interface IUneceResponse extends IJsonLdNodeObject {
 	 * The unique identifier for this specification response.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The unique identifier for the query to which this response refers.

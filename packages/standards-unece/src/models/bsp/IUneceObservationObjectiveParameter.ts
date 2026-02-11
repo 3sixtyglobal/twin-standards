@@ -57,7 +57,7 @@ export interface IUneceObservationObjectiveParameter extends IJsonLdNodeObject {
 	 * The measure of the status value for this observation objective parameter.
 	 * @see https://vocabulary.uncefact.org/statusValueMeasure
 	 */
-	statusValueMeasure?: IUneceMeasureType[];
+	statusValueMeasure?: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of observation objective parameter, such as retailer, country, toxic standard or

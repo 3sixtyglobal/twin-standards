@@ -58,7 +58,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A discrete period specified for this supply chain event.
 	 * @see https://vocabulary.uncefact.org/discretePeriod
 	 */
-	discretePeriod?: IUneceSpecifiedPeriod;
+	discretePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * The due date, time, date time, or other date time value of this supply chain event.
@@ -70,7 +70,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the earliest occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/earliestOccurrenceDateTime
 	 */
-	earliestOccurrenceDateTime: string;
+	earliestOccurrenceDateTime?: string;
 
 	/**
 	 * The code specifying a frequency for this supply chain event.
@@ -88,7 +88,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the latest occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/latestOccurrenceDateTime
 	 */
-	latestOccurrenceDateTime: string;
+	latestOccurrenceDateTime?: string;
 
 	/**
 	 * A date, time, date time, or other date time value of an occurrence of this supply chain event.
@@ -106,7 +106,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A logistics location where this supply chain event occurs.
 	 * @see https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 	 */
-	occurrenceLogisticsLocation?: IUneceLogisticsLocation;
+	occurrenceLogisticsLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A specified period of time during which this supply chain event occurs.
@@ -130,7 +130,7 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A time value of an occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/timeOccurrenceDateTime
 	 */
-	timeOccurrenceDateTime: string;
+	timeOccurrenceDateTime?: string;
 
 	/**
 	 * A code specifying the type of supply chain event.
@@ -142,5 +142,5 @@ export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
 	 * A number of units for this supply chain event.
 	 * @see https://vocabulary.uncefact.org/unitQuantity
 	 */
-	unitQuantity?: IUneceQuantityType;
+	unitQuantity?: IUneceQuantityType[];
 }

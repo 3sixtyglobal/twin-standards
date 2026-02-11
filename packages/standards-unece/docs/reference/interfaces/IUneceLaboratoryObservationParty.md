@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier of this laboratory observation party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/officeAddress
 
 ### personDefinedContact?
 
-> `optional` **personDefinedContact**: [`IUneceLaboratoryObservationContact`](IUneceLaboratoryObservationContact.md)[]
+> `optional` **personDefinedContact**: [`IUneceLaboratoryObservationContact`](IUneceLaboratoryObservationContact.md)
 
 The person defined as the contact for this laboratory observation party.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/personDefinedContact
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 The postal address of this laboratory observation party.
 
@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### thirdPartyIssuedId
+### thirdPartyIssuedId?
 
-> **thirdPartyIssuedId**: `string`
+> `optional` **thirdPartyIssuedId**: `string`
 
 An alternate identifier issued by a third party for this laboratory observation party.
 

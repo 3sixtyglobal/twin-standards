@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/measuredValue
 
 ### measuredValueMeasure?
 
-> `optional` **measuredValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **measuredValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measured value for this inspection result characteristic.
 

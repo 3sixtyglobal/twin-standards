@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ### specifiedEmployerIdentity?
 
-> `optional` **specifiedEmployerIdentity**: [`IUneceEmployerIdentity`](IUneceEmployerIdentity.md)
+> `optional` **specifiedEmployerIdentity**: [`IUneceEmployerIdentity`](IUneceEmployerIdentity.md)[]
 
 An employer identity specified for this contact person.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/specifiedTaxRegistration
 
 ### telephoneCommunication?
 
-> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Telephone communication information for this contact person.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/title
 
 ### websiteURICommunication?
 
-> `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A website Uniform Resource Identifier (URI) communication for this contact person.
 

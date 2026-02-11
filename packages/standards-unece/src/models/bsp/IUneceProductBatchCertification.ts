@@ -61,7 +61,7 @@ export interface IUneceProductBatchCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this product batch certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A standard, expressed as text, used for this product batch certification.

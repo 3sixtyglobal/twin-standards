@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### typeCode?
+### typeCode
 
-> `optional` **typeCode**: `string`
+> **typeCode**: `string`
 
 The code specifying the type of XHE parameter.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value
 
-> `optional` **value**: `string`
+> **value**: `string`
 
 The value, expressed as text, of this XHE parameter.
 

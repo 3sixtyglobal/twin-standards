@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### birthDateTime?
+### birthDateTime
 
-> `optional` **birthDateTime**: `string`
+> **birthDateTime**: `string`
 
 The birth date for this individual TT animal.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ***
 
-### deathDateTime?
+### deathDateTime
 
-> `optional` **deathDateTime**: `string`
+> **deathDateTime**: `string`
 
 The death date for this individual TT animal.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/deathDateTime
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this TT animal, such as the number appearing on an animal ear tag.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedDelimitedPeriod?
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this individual TT animal.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod?
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this individual TT animal.
 

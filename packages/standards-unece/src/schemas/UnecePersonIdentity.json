@@ -124,13 +124,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"alienRegistrationId",
-		"driversLicenceId",
-		"identityCardId",
-		"passportId",
-		"socialSecurityId",
-		"specifiedProprietaryIdentity"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

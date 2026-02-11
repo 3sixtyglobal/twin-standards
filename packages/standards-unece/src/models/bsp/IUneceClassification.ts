@@ -28,7 +28,7 @@ export interface IUneceClassification extends IJsonLdNodeObject {
 	 * The referenced standard that is applicable to this product classification.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A product class characteristic for this product classification.

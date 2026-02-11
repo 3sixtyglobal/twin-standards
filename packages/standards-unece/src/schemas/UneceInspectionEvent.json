@@ -120,7 +120,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"occurrenceDateTime",
+		"occurrenceLocation"
 	],
 	"additionalProperties": {
 		"anyOf": [

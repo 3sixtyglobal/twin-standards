@@ -47,13 +47,13 @@ export interface IUneceAdvancePayment extends IJsonLdNodeObject {
 	 * An invoice document referenced by this advance payment.
 	 * @see https://vocabulary.uncefact.org/invoiceSpecifiedDocument
 	 */
-	invoiceSpecifiedDocument?: IUneceDocument;
+	invoiceSpecifiedDocument?: IUneceDocument[];
 
 	/**
 	 * The monetary value of the funds or securities paid in this advance payment.
 	 * @see https://vocabulary.uncefact.org/paidAmount
 	 */
-	paidAmount?: IUneceAmountType;
+	paidAmount: IUneceAmountType;
 
 	/**
 	 * The formatted date or date time value when an advance payment has been received.

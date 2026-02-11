@@ -118,7 +118,10 @@
 	},
 	"required": [
 		"type",
-		"issuerPartyName"
+		"identifier",
+		"identifierLengthNumeric",
+		"issuerPartyName",
+		"legalBasis"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -127,7 +127,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * The maximum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/maximumLinearDimension
 	 */
-	maximumLinearDimension?: IUneceSpatialDimension[];
+	maximumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The number of units of this type of supply chain packaging which can be stacked on top of each other.
@@ -145,7 +145,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * The minimum linear spatial dimensions of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/minimumLinearDimension
 	 */
-	minimumLinearDimension?: IUneceSpatialDimension[];
+	minimumLinearDimension?: IUneceSpatialDimension;
 
 	/**
 	 * The code specifying the type of supply chain packaging.
@@ -206,7 +206,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * A total number of units contained in this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/totalUnitQuantity
 	 */
-	totalUnitQuantity?: IUneceQuantityType;
+	totalUnitQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The number of units of this type of supply chain packaging which can be stacked vertically for transport operations.
@@ -218,7 +218,7 @@ export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
 	 * A measure of the weight of this supply chain packaging.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType;
+	weightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The load bearing capability measure for this supply chain packaging.

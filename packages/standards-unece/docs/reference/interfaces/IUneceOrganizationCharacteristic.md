@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value for this organization characteristic.
 

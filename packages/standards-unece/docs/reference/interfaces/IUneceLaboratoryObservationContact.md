@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/emailCommunication
 
 ### faxCommunication?
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The fax number of this laboratory observation contact.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier of this laboratory observation contact.
 

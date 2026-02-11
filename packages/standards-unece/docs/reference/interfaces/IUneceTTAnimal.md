@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/holderResponsibleParty
 
 ### relatedTTLocation?
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
+> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A location related to this TT animal.
 
@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/specifiedAnimalCertificate
 
 ***
 
-### specifiedAnimalHoldingEvent?
+### specifiedAnimalHoldingEvent
 
-> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
+> **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
 
 An animal holding event specified for this TT animal.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedIndividualTTAnimal?
 
-> `optional` **specifiedIndividualTTAnimal**: [`IUneceIndividualTTAnimal`](IUneceIndividualTTAnimal.md)[]
+> `optional` **specifiedIndividualTTAnimal**: [`IUneceIndividualTTAnimal`](IUneceIndividualTTAnimal.md)
 
 The individual tracking animal specified for this TT animal.
 

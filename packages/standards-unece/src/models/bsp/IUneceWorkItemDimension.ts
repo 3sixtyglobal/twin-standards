@@ -56,7 +56,7 @@ export interface IUneceWorkItemDimension extends IJsonLdNodeObject {
 	 * The measured value for this work item dimension.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure: IUneceMeasureType;
 
 	/**
 	 * The code specifying the type of this work item dimension.

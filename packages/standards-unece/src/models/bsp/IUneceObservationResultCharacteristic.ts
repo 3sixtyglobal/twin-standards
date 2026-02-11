@@ -47,7 +47,7 @@ export interface IUneceObservationResultCharacteristic extends IJsonLdNodeObject
 	 * Accuracy, expressed as a measure, of the measurement for this sample observation result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredAccuracyMeasure
 	 */
-	measuredAccuracyMeasure?: IUneceMeasureType[];
+	measuredAccuracyMeasure?: IUneceMeasureType;
 
 	/**
 	 * The measured value, expressed as text, for this sample observation result characteristic.

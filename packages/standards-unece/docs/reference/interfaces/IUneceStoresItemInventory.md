@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location specified for this stores inventory item.
 

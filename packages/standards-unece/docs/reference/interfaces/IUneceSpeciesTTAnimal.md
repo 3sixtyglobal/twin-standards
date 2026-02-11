@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### regulationSpeciesNameTypeCode
+### regulationSpeciesNameTypeCode?
 
-> **regulationSpeciesNameTypeCode**: `string`
+> `optional` **regulationSpeciesNameTypeCode**: `string`
 
 A code specifying the type of regulation species name for this TT animal.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/regulationSpeciesNameTypeCode
 
 ***
 
-### scientificSpeciesNameTypeCode
+### scientificSpeciesNameTypeCode?
 
-> **scientificSpeciesNameTypeCode**: `string`
+> `optional` **scientificSpeciesNameTypeCode**: `string`
 
 A code specifying the type of scientific species name for this TT animal.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/speciesTypeCode
 
 ***
 
-### tradeSpeciesNameTypeCode
+### tradeSpeciesNameTypeCode?
 
-> **tradeSpeciesNameTypeCode**: `string`
+> `optional` **tradeSpeciesNameTypeCode**: `string`
 
 A code specifying the type of trade species name for this TT animal.
 

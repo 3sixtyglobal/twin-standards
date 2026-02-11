@@ -40,7 +40,7 @@ export interface IUneceVoucher extends IJsonLdNodeObject {
 	 * A monetary value shown on the face of this experience item voucher.
 	 * @see https://vocabulary.uncefact.org/faceAmount
 	 */
-	faceAmount?: IUneceAmountType;
+	faceAmount?: IUneceAmountType[];
 
 	/**
 	 * The identifier for this experience item voucher.

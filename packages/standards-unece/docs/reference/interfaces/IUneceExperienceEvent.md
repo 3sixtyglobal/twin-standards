@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/providedRequirement
 
 ### requiredUsageCondition?
 
-> `optional` **requiredUsageCondition**: [`IUneceUsageCondition`](IUneceUsageCondition.md)[]
+> `optional` **requiredUsageCondition**: [`IUneceUsageCondition`](IUneceUsageCondition.md)
 
 The specified usage condition required for this experience event.
 

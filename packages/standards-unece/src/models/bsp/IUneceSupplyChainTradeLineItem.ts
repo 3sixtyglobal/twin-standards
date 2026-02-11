@@ -56,7 +56,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * An additional unique identifier for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/additionalId
 	 */
-	additionalId: string;
+	additionalId?: string;
 
 	/**
 	 * A note providing additional information for this supply chain trade line item.
@@ -92,7 +92,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * The document line associated with this trade line item.
 	 * @see https://vocabulary.uncefact.org/associatedDocumentLineDocument
 	 */
-	associatedDocumentLineDocument?: IUneceDocumentLineDocument[];
+	associatedDocumentLineDocument?: IUneceDocumentLineDocument;
 
 	/**
 	 * A piece of transport equipment associated with this supply chain trade line item.
@@ -206,7 +206,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A line trade delivery specified for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/specifiedLineTradeDelivery
 	 */
-	specifiedLineTradeDelivery?: IUneceLineTradeDelivery;
+	specifiedLineTradeDelivery?: IUneceLineTradeDelivery[];
 
 	/**
 	 * A line trade settlement specified for this supply chain trade line item.
@@ -272,7 +272,7 @@ export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
 	 * A referenced product substituted for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/substitutedProduct
 	 */
-	substitutedProduct?: IUneceProduct;
+	substitutedProduct?: IUneceProduct[];
 
 	/**
 	 * A code specifying a special condition for this supply chain trade line item.

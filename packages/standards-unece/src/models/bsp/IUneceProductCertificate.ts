@@ -69,7 +69,7 @@ export interface IUneceProductCertificate extends IJsonLdNodeObject {
 	 * The trade product certification applicable to this product certificate.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification[];
+	applicableTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A binary file attached to this product certificate.

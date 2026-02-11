@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualPerformancePeriod
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the charge for this transport service.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/responsibleTradeParty
 
 ### specifiedRoute?
 
-> `optional` **specifiedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
+> `optional` **specifiedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
 A transport route specified for this transport service.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/transportServiceCategoryTypeCode
 
 ### transportServiceConditionTypeCode?
 
-> `optional` **transportServiceConditionTypeCode**: [`UneceTransportServiceConditionCodeList`](../type-aliases/UneceTransportServiceConditionCodeList.md)
+> `optional` **transportServiceConditionTypeCode**: [`UneceTransportServiceConditionCodeList`](../type-aliases/UneceTransportServiceConditionCodeList.md)[]
 
 A code specifying a type of condition for this transport service, such as a contract or carriage condition.
 

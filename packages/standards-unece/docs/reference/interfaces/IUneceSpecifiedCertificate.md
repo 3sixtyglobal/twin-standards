@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The issuer party for this specified certificate.
 

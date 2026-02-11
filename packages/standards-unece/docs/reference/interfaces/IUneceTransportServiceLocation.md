@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode?
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
 
 A code specifying the type of transport service location.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalGeographicalCoordinate?
 
-> `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
+> `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)[]
 
 Geographical coordinate information for this physical transport service location.
 

@@ -34,13 +34,13 @@ export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the occurrence of this animal holding event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
 	 */
-	occurrenceDateTime?: string;
+	occurrenceDateTime: string;
 
 	/**
 	 * A Track and Trace (TT) location related to this animal holding event.
 	 * @see https://vocabulary.uncefact.org/relatedTTLocation
 	 */
-	relatedTTLocation?: IUneceTTLocation;
+	relatedTTLocation?: IUneceTTLocation[];
 
 	/**
 	 * A technical characteristic related to this animal holding event.
@@ -52,5 +52,5 @@ export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
 	 * The code specifying the type of animal holding event.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: UneceAnimalHoldingEventTypeCodeList | string;
+	typeCode: UneceAnimalHoldingEventTypeCodeList | string;
 }

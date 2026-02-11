@@ -52,13 +52,13 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The actual date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
 	 */
-	actualOccurrenceDateTime: string;
+	actualOccurrenceDateTime?: string;
 
 	/**
 	 * The actual period of time during which this transport event occurred.
 	 * @see https://vocabulary.uncefact.org/actualOccurrencePeriod
 	 */
-	actualOccurrencePeriod?: IUneceSpecifiedPeriod[];
+	actualOccurrencePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A note providing additional security measures applicable to this transport event.
@@ -112,7 +112,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * A location of a conveyance facility related to this transport event.
 	 * @see https://vocabulary.uncefact.org/conveyanceFacilityRelatedLocation
 	 */
-	conveyanceFacilityRelatedLocation?: IUneceLogisticsLocation;
+	conveyanceFacilityRelatedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A specified period of time during which this transport event is delayed.
@@ -142,14 +142,14 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The estimated date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 	 */
-	estimatedOccurrenceDateTime: string;
+	estimatedOccurrenceDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value when the arrival of a means of transport at the location of this
 	 * transport event is estimated to occur.
 	 * @see https://vocabulary.uncefact.org/estimatedTransportMeansArrivalOccurrenceDateTime
 	 */
-	estimatedTransportMeansArrivalOccurrenceDateTime: string;
+	estimatedTransportMeansArrivalOccurrenceDateTime?: string;
 
 	/**
 	 * The indication of whether or not this transport event is or was expected.
@@ -167,7 +167,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The specified period of laycan time during which this transport event occurs.
 	 * @see https://vocabulary.uncefact.org/laycanOccurrencePeriod
 	 */
-	laycanOccurrencePeriod?: IUneceSpecifiedPeriod[];
+	laycanOccurrencePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The indication of whether or not this transport event is a maritime anchorage.
@@ -209,7 +209,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The code specifying the reason type for this referenced transport event.
 	 * @see https://vocabulary.uncefact.org/reasonTypeCode
 	 */
-	reasonTypeCode: string;
+	reasonTypeCode?: string;
 
 	/**
 	 * The date, time, date time, or other date time value when information related to this transport event was received, from
@@ -234,7 +234,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The code specifying the type of reported condition for this transport event.
 	 * @see https://vocabulary.uncefact.org/reportedConditionTypeCode
 	 */
-	reportedConditionTypeCode: UneceLogisticsStatusCodeList;
+	reportedConditionTypeCode?: UneceLogisticsStatusCodeList;
 
 	/**
 	 * An IOT device for this transport reporting event.
@@ -246,7 +246,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The requested date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
 	 */
-	requestedOccurrenceDateTime: string;
+	requestedOccurrenceDateTime?: string;
 
 	/**
 	 * A requested service related to this transport event.
@@ -271,13 +271,13 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The scheduled date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
 	 */
-	scheduledOccurrenceDateTime: string;
+	scheduledOccurrenceDateTime?: string;
 
 	/**
 	 * The scheduled period of time specified for the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrencePeriod
 	 */
-	scheduledOccurrencePeriod?: IUneceSpecifiedPeriod[];
+	scheduledOccurrencePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A security level code for this transport event.
@@ -307,7 +307,7 @@ export interface IUneceTransportEvent extends IJsonLdNodeObject {
 	 * The specified period during which the transport means is held at a location.
 	 * @see https://vocabulary.uncefact.org/transportMeansStayOccurrencePeriod
 	 */
-	transportMeansStayOccurrencePeriod?: IUneceSpecifiedPeriod[];
+	transportMeansStayOccurrencePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * The code specifying the type of transport event.

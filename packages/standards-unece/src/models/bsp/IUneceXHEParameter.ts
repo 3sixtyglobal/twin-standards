@@ -26,11 +26,11 @@ export interface IUneceXHEParameter extends IJsonLdNodeObject {
 	 * The code specifying the type of XHE parameter.
 	 * @see https://vocabulary.uncefact.org/typeCode
 	 */
-	typeCode?: UneceXHEParameterTypeCodeList | string;
+	typeCode: UneceXHEParameterTypeCodeList | string;
 
 	/**
 	 * The value, expressed as text, of this XHE parameter.
 	 * @see https://vocabulary.uncefact.org/value
 	 */
-	value?: string;
+	value: string;
 }

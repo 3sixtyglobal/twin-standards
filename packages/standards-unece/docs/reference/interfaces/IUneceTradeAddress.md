@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalStreetName
 
 ### addressTypeCode?
 
-> `optional` **addressTypeCode**: [`UneceAddressTypeCodeList`](../type-aliases/UneceAddressTypeCodeList.md)
+> `optional` **addressTypeCode**: [`UneceAddressTypeCodeList`](../type-aliases/UneceAddressTypeCodeList.md)[]
 
 A code specifying the type of this trade address, such as business address or home address.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/freeForm
 
 ### geoCoordinateIdentificationGeographicalCoordinate?
 
-> `optional` **geoCoordinateIdentificationGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
+> `optional` **geoCoordinateIdentificationGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)[]
 
 An identification of a set of geographical coordinates for this trade address.
 

@@ -85,7 +85,7 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * A code specifying the type of this logistics related location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
 
 	/**
 	 * The unique identifier of a country for this logistics location.
@@ -109,7 +109,7 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * The postal trade address information for this logistics related location.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress[];
+	postalAddress?: IUneceTradeAddress;
 
 	/**
 	 * A geographical feature previously associated with this logistics location.
@@ -145,7 +145,7 @@ export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
 	 * A location subordinate to this logistics related location.
 	 * @see https://vocabulary.uncefact.org/subordinateSubordinateLocation
 	 */
-	subordinateSubordinateLocation?: IUneceSubordinateLocation;
+	subordinateSubordinateLocation?: IUneceSubordinateLocation[];
 
 	/**
 	 * The time offset value from the Universal Time Coordinate (UTC) for this logistics related location.

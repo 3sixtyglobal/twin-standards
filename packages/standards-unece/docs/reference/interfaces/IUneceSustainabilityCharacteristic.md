@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableInspectionResult?
 
-> `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)
+> `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)[]
 
 A specified inspection result applicable to this sustainability characteristic.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maximumValueMeasure?
 
-> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a maximum value for this sustainability characteristic.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/measurementMethodCode
 
 ### minimumValueMeasure?
 
-> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a minimum value for this sustainability characteristic.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ### valueBinaryFile?
 
-> `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
+> `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A value, expressed in a binary file, for this sustainability characteristic.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value for this sustainability characteristic.
 

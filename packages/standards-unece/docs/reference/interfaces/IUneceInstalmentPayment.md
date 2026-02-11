@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ### paidAmount?
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value paid or to be paid for this instalment payment.
 

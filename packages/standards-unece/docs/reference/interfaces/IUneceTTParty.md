@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 An identifier for this TT party.
 

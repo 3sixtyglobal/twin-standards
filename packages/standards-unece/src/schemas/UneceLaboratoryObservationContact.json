@@ -104,10 +104,7 @@
 			"description": "The email address of this laboratory observation contact."
 		},
 		"faxCommunication": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceCommunication"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceCommunication",
 			"description": "The fax number of this laboratory observation contact."
 		},
 		"identifier": {
@@ -128,7 +125,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"identifier"
 	],
 	"additionalProperties": {
 		"anyOf": [

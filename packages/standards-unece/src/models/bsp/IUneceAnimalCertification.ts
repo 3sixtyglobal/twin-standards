@@ -53,7 +53,7 @@ export interface IUneceAnimalCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this animal certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A standard, expressed as text, used for this animal certification.

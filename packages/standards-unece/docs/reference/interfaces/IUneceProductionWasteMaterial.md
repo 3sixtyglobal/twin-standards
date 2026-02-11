@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the weight of this production waste material.
 

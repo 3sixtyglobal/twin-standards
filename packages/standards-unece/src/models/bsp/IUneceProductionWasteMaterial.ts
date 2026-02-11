@@ -67,5 +67,5 @@ export interface IUneceProductionWasteMaterial extends IJsonLdNodeObject {
 	 * A measure of the weight of this production waste material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType;
+	weightMeasure?: IUneceMeasureType[];
 }

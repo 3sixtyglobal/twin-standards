@@ -33,7 +33,7 @@ export interface IUneceLegalRegistration extends IJsonLdNodeObject {
 	 * An identifier of the country in which this legal registration is valid.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId;
+	countryId?: UneceCountryId[];
 
 	/**
 	 * A unique identifier of the country sub-division for this legal registration.

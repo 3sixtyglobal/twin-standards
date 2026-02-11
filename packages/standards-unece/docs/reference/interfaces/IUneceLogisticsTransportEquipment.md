@@ -209,9 +209,9 @@ https://vocabulary.uncefact.org/carriedTransportEquipment
 
 ***
 
-### carrierAssignedBookingId
+### carrierAssignedBookingId?
 
-> **carrierAssignedBookingId**: `string`
+> `optional` **carrierAssignedBookingId**: `string`
 
 A carrier assigned booking identifier for this piece of logistics transport equipment.
 
@@ -246,9 +246,9 @@ https://vocabulary.uncefact.org/characteristic
 
 ***
 
-### consigneeAssignedConsignmentId
+### consigneeAssignedConsignmentId?
 
-> **consigneeAssignedConsignmentId**: `string`
+> `optional` **consigneeAssignedConsignmentId**: `string`
 
 The consignee assigned consignment identifier for this piece of logistics transport equipment.
 
@@ -260,7 +260,7 @@ https://vocabulary.uncefact.org/consigneeAssignedConsignmentId
 
 ### consolidationEvent?
 
-> `optional` **consolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **consolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A consolidation event specifying when and where this piece of logistics transport equipment will be, or has been,
 stuffed.
@@ -393,7 +393,7 @@ https://vocabulary.uncefact.org/grossGoodsWeightMeasure
 
 ### handlingInstructions?
 
-> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions for this piece of logistics transport equipment.
 
@@ -610,7 +610,7 @@ https://vocabulary.uncefact.org/mainCarriageTransportMovement
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party specified for this piece of logistics transport equipment.
 
@@ -719,7 +719,7 @@ https://vocabulary.uncefact.org/pickUpEvent
 
 ### positioningEvent?
 
-> `optional` **positioningEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **positioningEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A positioning event specifying when and where this piece of logistics transport equipment will be, or has been,
 positioned, i.e. delivered and available for pick-up.
@@ -1000,7 +1000,7 @@ https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 
 ### specifiedTransportMeans?
 
-> `optional` **specifiedTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)
+> `optional` **specifiedTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
 A transport means specified for this piece of logistics transport equipment.
 
@@ -1185,7 +1185,7 @@ https://vocabulary.uncefact.org/unloadingEvent
 
 ### unloadingInstructions?
 
-> `optional` **unloadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
+> `optional` **unloadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
 Unloading instructions for this piece of logistics transport equipment.
 
@@ -1209,7 +1209,7 @@ https://vocabulary.uncefact.org/unloadingSequenceNumeric
 
 ### verifiedGrossWeightMeasure?
 
-> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the verified gross weight (mass) of this piece of logistics transport equipment which is the weight (mass)
 including loaded goods, packing and transport equipment.

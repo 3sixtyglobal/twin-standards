@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/closingBookDueDateTime
 
 ### creditNoteAmount?
 
-> `optional` **creditNoteAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **creditNoteAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the credit note for this header trade settlement.
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/orderCurrencyCode
 
 ### outstandingSpecifiedMonetarySummation?
 
-> `optional` **outstandingSpecifiedMonetarySummation**: [`IUneceTradeSettlementHeaderMonetarySummation`](IUneceTradeSettlementHeaderMonetarySummation.md)[]
+> `optional` **outstandingSpecifiedMonetarySummation**: [`IUneceTradeSettlementHeaderMonetarySummation`](IUneceTradeSettlementHeaderMonetarySummation.md)
 
 The monetary summation totals outstanding for this header trade settlement.
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/payeeParty
 
 ### payerParty?
 
-> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payer party for this header trade settlement.
 
@@ -425,7 +425,7 @@ https://vocabulary.uncefact.org/payerReference
 
 ### paymentAmount?
 
-> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a payment for this header trade settlement.
 
@@ -713,7 +713,7 @@ https://vocabulary.uncefact.org/specifiedServiceCharge
 
 ### specifiedTradeSettlementHeaderMonetarySummation?
 
-> `optional` **specifiedTradeSettlementHeaderMonetarySummation**: [`IUneceTradeSettlementHeaderMonetarySummation`](IUneceTradeSettlementHeaderMonetarySummation.md)[]
+> `optional` **specifiedTradeSettlementHeaderMonetarySummation**: [`IUneceTradeSettlementHeaderMonetarySummation`](IUneceTradeSettlementHeaderMonetarySummation.md)
 
 The monetary summation totals specified for this header trade settlement.
 
@@ -737,7 +737,7 @@ https://vocabulary.uncefact.org/subtotalCalculatedTax
 
 ### taxApplicableCurrencyExchange?
 
-> `optional` **taxApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
+> `optional` **taxApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
 
 A currency exchange applicable to a tax in this header trade settlement.
 
@@ -761,7 +761,7 @@ https://vocabulary.uncefact.org/taxCurrencyCode
 
 ### totalAdjustmentAmount?
 
-> `optional` **totalAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **totalAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total adjustment for this header trade settlement.
 
@@ -773,7 +773,7 @@ https://vocabulary.uncefact.org/totalAdjustmentAmount
 
 ### totalInvoiceAmount?
 
-> `optional` **totalInvoiceAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **totalInvoiceAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total invoice on which this header trade settlement is calculated.
 

@@ -30,7 +30,7 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * A transport related temperature setting applicable to these handling instructions.
 	 * @see https://vocabulary.uncefact.org/applicableTransportSettingTemperature
 	 */
-	applicableTransportSettingTemperature?: IUneceTransportSettingTemperature;
+	applicableTransportSettingTemperature?: IUneceTransportSettingTemperature[];
 
 	/**
 	 * The instructed temperature for delivery applicable to these handling instructions.
@@ -54,7 +54,7 @@ export interface IUneceHandlingInstructions extends IJsonLdNodeObject {
 	 * A textual expression of these handling instructions.
 	 * @see https://vocabulary.uncefact.org/handling
 	 */
-	handling: string;
+	handling?: string;
 
 	/**
 	 * A code specifying these handling instructions.

@@ -49,11 +49,11 @@ export interface IUneceProductHandlingProcess extends IJsonLdNodeObject {
 	 * A trade party who is an operator of this product handling process.
 	 * @see https://vocabulary.uncefact.org/operatorParty
 	 */
-	operatorParty?: IUneceTradeParty;
+	operatorParty?: IUneceTradeParty[];
 
 	/**
 	 * The code specifying the type of product handling process.
 	 * @see https://vocabulary.uncefact.org/processTypeCode
 	 */
-	processTypeCode?: UneceProcessTypeCodeList[];
+	processTypeCode?: UneceProcessTypeCodeList;
 }

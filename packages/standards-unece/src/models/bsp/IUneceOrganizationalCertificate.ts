@@ -81,7 +81,7 @@ export interface IUneceOrganizationalCertificate extends IJsonLdNodeObject {
 	 * The code specifying the type of organizational certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * A textual description of this organizational certificate.

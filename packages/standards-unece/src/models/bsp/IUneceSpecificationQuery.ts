@@ -26,7 +26,7 @@ export interface IUneceSpecificationQuery extends IJsonLdNodeObject {
 	 * The content, expressed as text, of this specification query.
 	 * @see https://vocabulary.uncefact.org/content
 	 */
-	content?: string;
+	content: string;
 
 	/**
 	 * The code specifying the contractual language for this specification query.
@@ -38,7 +38,7 @@ export interface IUneceSpecificationQuery extends IJsonLdNodeObject {
 	 * The unique identifier for this specification query.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The code specifying the type of specification query.

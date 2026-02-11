@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/explosiveLabelStatementInformation
 
 ### flashpointTemperatureMeasurement?
 
-> `optional` **flashpointTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
+> `optional` **flashpointTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
 
 A measurement of the flashpoint temperature of these transported dangerous goods.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/flashpointTemperatureMeasurement
 
 ### handlingInstructions?
 
-> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions for the transported dangerous goods.
 
@@ -605,7 +605,7 @@ https://vocabulary.uncefact.org/relatedDocument
 
 ### reportableQuantity?
 
-> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The reportable quantity for these transported dangerous goods.
 
@@ -860,7 +860,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of the net weight (mass) of these transported dangerous goods.
 

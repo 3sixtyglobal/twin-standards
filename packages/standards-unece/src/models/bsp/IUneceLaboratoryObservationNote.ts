@@ -25,11 +25,11 @@ export interface IUneceLaboratoryObservationNote extends IJsonLdNodeObject {
 	 * The content, expressed as text, of this laboratory observation note.
 	 * @see https://vocabulary.uncefact.org/content
 	 */
-	content?: string;
+	content: string;
 
 	/**
 	 * The date, time, date time, or other date time value for the creation of this laboratory observation note.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
 	 */
-	creationDateTime?: string;
+	creationDateTime: string;
 }

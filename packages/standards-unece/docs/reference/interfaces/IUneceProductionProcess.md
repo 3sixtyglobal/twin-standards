@@ -578,7 +578,7 @@ https://vocabulary.uncefact.org/specificationDocument
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this production process.
 

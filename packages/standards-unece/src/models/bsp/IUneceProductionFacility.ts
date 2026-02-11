@@ -81,7 +81,7 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * A measure of the capacity of this production facility.
 	 * @see https://vocabulary.uncefact.org/capacityMeasure
 	 */
-	capacityMeasure?: IUneceMeasureType;
+	capacityMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The completion date of this production facility.
@@ -153,7 +153,7 @@ export interface IUneceProductionFacility extends IJsonLdNodeObject {
 	 * A physical location referenced for this production facility.
 	 * @see https://vocabulary.uncefact.org/physicalLocation
 	 */
-	physicalLocation?: IUneceLocation;
+	physicalLocation?: IUneceLocation[];
 
 	/**
 	 * The code specifying the type of certification for this production facility.

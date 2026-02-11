@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### applicableAnimalCertification?
 
-> `optional` **applicableAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)
+> `optional` **applicableAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)[]
 
 An animal certification applicable to this animal certificate.
 
@@ -85,9 +85,9 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### certificateTypeCode?
+### certificateTypeCode
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
+> **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of animal certificate.
 
@@ -97,9 +97,9 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this animal certificate.
 

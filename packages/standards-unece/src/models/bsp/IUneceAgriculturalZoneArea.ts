@@ -55,13 +55,13 @@ export interface IUneceAgriculturalZoneArea extends IJsonLdNodeObject {
 	 * The identifier for this agricultural zone area.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The code specifying the multi-surface type for this agricultural zone area.
 	 * @see https://vocabulary.uncefact.org/multiSurfaceTypeCode
 	 */
-	multiSurfaceTypeCode: string;
+	multiSurfaceTypeCode?: string;
 
 	/**
 	 * The name, expressed as text, for this agricultural zone area.
@@ -73,7 +73,7 @@ export interface IUneceAgriculturalZoneArea extends IJsonLdNodeObject {
 	 * The referenced location specified for this agricultural zone area.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation[];
+	specifiedLocation?: IUneceLocation;
 
 	/**
 	 * A crop plot specified for this agricultural zone area.
@@ -91,5 +91,5 @@ export interface IUneceAgriculturalZoneArea extends IJsonLdNodeObject {
 	 * An identifier issued by a third party for this agricultural zone area.
 	 * @see https://vocabulary.uncefact.org/thirdPartyIssuedId
 	 */
-	thirdPartyIssuedId: string;
+	thirdPartyIssuedId?: string;
 }

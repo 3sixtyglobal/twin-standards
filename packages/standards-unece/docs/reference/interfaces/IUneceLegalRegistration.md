@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
 
 An identifier of the country in which this legal registration is valid.
 

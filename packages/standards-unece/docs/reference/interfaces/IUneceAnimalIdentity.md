@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this animal identity.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### identifierLengthNumeric?
+### identifierLengthNumeric
 
-> `optional` **identifierLengthNumeric**: `string`
+> **identifierLengthNumeric**: `string`
 
 The length, expressed as the number of characters, of the identifier in this animal identity.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/issuerPartyName
 
 ***
 
-### legalBasis?
+### legalBasis
 
-> `optional` **legalBasis**: `string`
+> **legalBasis**: `string`
 
 The legal basis, expressed as text, for this animal identity.
 

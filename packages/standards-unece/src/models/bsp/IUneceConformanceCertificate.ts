@@ -26,7 +26,7 @@ export interface IUneceConformanceCertificate extends IJsonLdNodeObject {
 	 * The code specifying the type of conformance certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * The unique identifier of this conformance certificate.

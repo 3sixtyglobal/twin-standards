@@ -109,7 +109,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"identifier",
+		"workflowStatusCode"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -27,7 +27,7 @@ export interface IUneceMeasurement extends IJsonLdNodeObject {
 	 * An actual measure for this measurement.
 	 * @see https://vocabulary.uncefact.org/actualMeasure
 	 */
-	actualMeasure?: IUneceMeasureType;
+	actualMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A code specifying the operator, such as, less than, greater than or equal to, for comparing two actual measures.
@@ -39,7 +39,7 @@ export interface IUneceMeasurement extends IJsonLdNodeObject {
 	 * A measure of a condition for this measurement.
 	 * @see https://vocabulary.uncefact.org/conditionMeasure
 	 */
-	conditionMeasure?: IUneceMeasureType;
+	conditionMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A textual description of this measurement.

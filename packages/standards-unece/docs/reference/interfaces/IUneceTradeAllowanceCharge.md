@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/chargeIndicator
 
 ### deductionAmount?
 
-> `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value to be deducted from this trade allowance charge.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ### unitBasisAmount?
 
-> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the unit basis on which the allowance or charge is calculated.
 

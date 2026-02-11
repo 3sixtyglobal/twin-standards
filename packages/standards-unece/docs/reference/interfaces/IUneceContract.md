@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier of this trade contract.
 

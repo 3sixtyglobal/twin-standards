@@ -164,13 +164,13 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * A measurement of the flashpoint temperature of these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/flashpointTemperatureMeasurement
 	 */
-	flashpointTemperatureMeasurement?: IUneceMeasurement;
+	flashpointTemperatureMeasurement?: IUneceMeasurement[];
 
 	/**
 	 * Handling instructions for the transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/handlingInstructions
 	 */
-	handlingInstructions?: IUneceHandlingInstructions;
+	handlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * The code specifying the hazard category for these transported dangerous goods.
@@ -328,7 +328,7 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * The reportable quantity for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/reportableQuantity
 	 */
-	reportableQuantity?: IUneceQuantityType[];
+	reportableQuantity?: IUneceQuantityType;
 
 	/**
 	 * Shipper declaration information, expressed as text, for these transported dangerous goods.
@@ -457,5 +457,5 @@ export interface IUneceDangerousGoods extends IJsonLdNodeObject {
 	 * The measure of the net weight (mass) of these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
 }

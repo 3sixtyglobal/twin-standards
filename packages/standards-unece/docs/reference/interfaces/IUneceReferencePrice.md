@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### basisQuantity?
 
-> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity on which the reference price is based.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ### chargeAmount?
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of a charged reference price.
 

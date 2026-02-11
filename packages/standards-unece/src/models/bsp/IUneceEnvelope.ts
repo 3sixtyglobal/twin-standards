@@ -63,5 +63,5 @@ export interface IUneceEnvelope extends IJsonLdNodeObject {
 	 * The version identifier for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId: string;
 }

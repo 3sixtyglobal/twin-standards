@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/name
 
 ### partyTypeCode?
 
-> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
+> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)
 
 The code specifying the type of requesting party.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ### specifiedCreditorFinancialAccount?
 
-> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 The creditor financial account, used for crediting, specified for this requesting party.
 
@@ -145,9 +145,9 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 
 ***
 
-### specifiedProprietaryIdentity
+### specifiedProprietaryIdentity?
 
-> **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
 A proprietary identity specified for this requesting party.
 

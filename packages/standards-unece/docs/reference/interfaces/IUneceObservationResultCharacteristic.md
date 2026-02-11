@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ### measuredAccuracyMeasure?
 
-> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 Accuracy, expressed as a measure, of the measurement for this sample observation result characteristic.
 

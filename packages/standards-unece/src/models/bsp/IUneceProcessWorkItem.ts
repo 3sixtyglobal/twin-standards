@@ -39,7 +39,7 @@ export interface IUneceProcessWorkItem extends IJsonLdNodeObject {
 	 * The identifier of this process work item.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The code specifying the primary classification for this process work item.

@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/logisticsStatusConditionCode
 
 ### logisticsStatusReasonCode?
 
-> `optional` **logisticsStatusReasonCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
+> `optional` **logisticsStatusReasonCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)[]
 
 A code specifying a reason for this logistics status [UNECE Recommendation 24].
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location specified for this logistics status.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/unloadingReportedEvent
 
 ### validityPeriod?
 
-> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specific validity period for this logistics status.
 

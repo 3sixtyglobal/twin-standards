@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### applicableTransportSettingTemperature?
 
-> `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)
+> `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
 
 A transport related temperature setting applicable to these handling instructions.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/exclusiveUsageIndicator
 
 ***
 
-### handling
+### handling?
 
-> **handling**: `string`
+> `optional` **handling**: `string`
 
 A textual expression of these handling instructions.
 

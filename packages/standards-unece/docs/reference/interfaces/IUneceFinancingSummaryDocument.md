@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/relatedBooking
 
 ### specifiedCreditorFinancialAccount?
 
-> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
+> `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
 The creditor financial account, used for crediting, specified for this financing summary document.
 

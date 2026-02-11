@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/additionalDescription
 
 ### applicableTax?
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
 The tax applicable to this payment trade settlement.
 
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ### duePayableAmount?
 
-> `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the payment that is the exact amount due and payable for this trade settlement, such as the amount
 due to the creditor.
@@ -211,7 +211,7 @@ https://vocabulary.uncefact.org/invoicePayerAssignedReferenceId
 
 ### payeeParty?
 
-> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payee party for this payment trade settlement.
 
@@ -223,7 +223,7 @@ https://vocabulary.uncefact.org/payeeParty
 
 ### payerParty?
 
-> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The payer party for this payment trade settlement.
 
@@ -235,7 +235,7 @@ https://vocabulary.uncefact.org/payerParty
 
 ### paymentAmount?
 
-> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the payment for this trade settlement payment.
 
@@ -331,7 +331,7 @@ https://vocabulary.uncefact.org/recordedExperienceItem
 
 ### refundAmount?
 
-> `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the refund related to this payment trade settlement.
 
@@ -355,7 +355,7 @@ https://vocabulary.uncefact.org/requestedAmount
 
 ### specifiedPaymentMeans?
 
-> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)[]
+> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
 The payment means specified for this payment trade settlement.
 
@@ -365,9 +365,9 @@ https://vocabulary.uncefact.org/specifiedPaymentMeans
 
 ***
 
-### specifiedTradeSettlementPaymentMonetarySummation?
+### specifiedTradeSettlementPaymentMonetarySummation
 
-> `optional` **specifiedTradeSettlementPaymentMonetarySummation**: [`IUneceTradeSettlementPaymentMonetarySummation`](IUneceTradeSettlementPaymentMonetarySummation.md)[]
+> **specifiedTradeSettlementPaymentMonetarySummation**: [`IUneceTradeSettlementPaymentMonetarySummation`](IUneceTradeSettlementPaymentMonetarySummation.md)
 
 The monetary summation totals specified for this payment trade settlement.
 

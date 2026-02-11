@@ -25,7 +25,7 @@ export interface IUneceFinancialIdentity extends IJsonLdNodeObject {
 	 * The agent assigned customer identifier for this financial identity.
 	 * @see https://vocabulary.uncefact.org/agentAssignedCustomerId
 	 */
-	agentAssignedCustomerId: string;
+	agentAssignedCustomerId?: string;
 
 	/**
 	 * The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes)
@@ -39,24 +39,24 @@ export interface IUneceFinancialIdentity extends IJsonLdNodeObject {
 	 * this financial identity.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId: string;
+	bICId?: string;
 
 	/**
 	 * The bank assigned identifier for this financial identity.
 	 * @see https://vocabulary.uncefact.org/bankAssignedId
 	 */
-	bankAssignedId: string;
+	bankAssignedId?: string;
 
 	/**
 	 * The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the
 	 * New York Clearing House for this financial identity.
 	 * @see https://vocabulary.uncefact.org/cHIPSUniversalId
 	 */
-	cHIPSUniversalId: string;
+	cHIPSUniversalId?: string;
 
 	/**
 	 * The International Business Entity Identifier (IBEI) for this financial identity.
 	 * @see https://vocabulary.uncefact.org/iBEIId
 	 */
-	iBEIId: string;
+	iBEIId?: string;
 }

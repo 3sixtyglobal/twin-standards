@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### grossVolumeMeasure?
 
-> `optional` **grossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **grossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the gross volume of this product batch.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/manufacturerAssignedId
 
 ### massMeasure?
 
-> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the mass of this product batch.
 
@@ -386,7 +386,7 @@ https://vocabulary.uncefact.org/massRatioMeasure
 
 ### maximumSizeMeasure?
 
-> `optional` **maximumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **maximumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the maximum size of this product batch.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/maximumSizeMeasure
 
 ### minimumSizeMeasure?
 
-> `optional` **minimumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **minimumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the minimum size of this product batch.
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/name
 
 ### netVolumeMeasure?
 
-> `optional` **netVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **netVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the net volume of this product batch.
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/netVolumeMeasure
 
 ### netWeightMeasure?
 
-> `optional` **netWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **netWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the net weight of this product batch.
 
@@ -518,7 +518,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this product batch.
 

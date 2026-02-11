@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party for this monitoring sensor.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The owner party of this monitoring sensor.
 

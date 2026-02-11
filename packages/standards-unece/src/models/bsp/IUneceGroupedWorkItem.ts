@@ -68,7 +68,7 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * The unique identifier for this work item group.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The index, expressed as text, to be used for this grouped work item.
@@ -92,7 +92,7 @@ export interface IUneceGroupedWorkItem extends IJsonLdNodeObject {
 	 * The identifier of a price list item for this grouped work item.
 	 * @see https://vocabulary.uncefact.org/priceListItemId
 	 */
-	priceListItemId: string;
+	priceListItemId?: string;
 
 	/**
 	 * A code specifying the primary classification for this work item group.

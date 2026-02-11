@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### applicablePeriod?
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The period applicable for this supply chain supply plan.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/scheduledDeliveryEvent
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ship to trade party for this supply chain supply plan.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location specified for this supply chain supply plan.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### specifiedSpecifiedPeriod?
 
-> `optional` **specifiedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **specifiedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The period specified for this supply chain supply plan.
 

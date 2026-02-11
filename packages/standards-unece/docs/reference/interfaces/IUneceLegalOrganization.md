@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### authorizedRegistration?
 
-> `optional` **authorizedRegistration**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)
+> `optional` **authorizedRegistration**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)[]
 
 A legal registration authorized for this legally set up organization.
 

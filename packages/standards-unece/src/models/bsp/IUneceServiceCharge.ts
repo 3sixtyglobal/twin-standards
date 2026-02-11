@@ -47,7 +47,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * A monetary value applied to this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/appliedAmount
 	 */
-	appliedAmount?: IUneceAmountType;
+	appliedAmount?: IUneceAmountType[];
 
 	/**
 	 * The start location from which this logistics service charge should be applied.
@@ -216,7 +216,7 @@ export interface IUneceServiceCharge extends IJsonLdNodeObject {
 	 * The trade settlement payment means specified for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans[];
+	specifiedPaymentMeans?: IUnecePaymentMeans;
 
 	/**
 	 * A code specifying a tariff currency for this logistics service charge.

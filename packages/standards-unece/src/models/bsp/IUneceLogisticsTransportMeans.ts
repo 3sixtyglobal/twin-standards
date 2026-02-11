@@ -44,7 +44,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The draught level measured at the aft end of this transport means.
 	 * @see https://vocabulary.uncefact.org/aftDraughtLevelMeasure
 	 */
-	aftDraughtLevelMeasure?: IUneceMeasureType[];
+	aftDraughtLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * An air draught level measure for this logistics transport means.
@@ -86,7 +86,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * A call sign identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/callSignId
 	 */
-	callSignId: string;
+	callSignId?: string;
 
 	/**
 	 * A certified level of pollution calculated for an emission from this logistics transport means.
@@ -110,7 +110,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The measure of the draught level of this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/draughtLevelMeasure
 	 */
-	draughtLevelMeasure?: IUneceMeasureType[];
+	draughtLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * The indication of whether or not this logistics means of transport is accompanied by a driver.
@@ -122,7 +122,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The draught level measured at the fore end of this transport means.
 	 * @see https://vocabulary.uncefact.org/forwardDraughtLevelMeasure
 	 */
-	forwardDraughtLevelMeasure?: IUneceMeasureType[];
+	forwardDraughtLevelMeasure?: IUneceMeasureType;
 
 	/**
 	 * The indication of whether or not there is a helipad on this logistics means of transport.
@@ -134,7 +134,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The IMO (International Maritime Organization) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/iMOId
 	 */
-	iMOId: string;
+	iMOId?: string;
 
 	/**
 	 * The code specifying the International Ship and Port facility Security (ISPS) level assigned to this logistics means of
@@ -197,7 +197,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The MMSI (Maritime Mobile Service Identity) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/mMSIId
 	 */
-	mMSIId: string;
+	mMSIId?: string;
 
 	/**
 	 * The manoeuvring speed measured for this logistics means of transport.
@@ -209,7 +209,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The manufacturer party for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this logistics means of transport.
@@ -251,7 +251,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The party owning this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty[];
+	ownerParty?: IUneceTradeParty;
 
 	/**
 	 * The country of registration of this logistics means of transport.
@@ -330,7 +330,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28).
 	 * @see https://vocabulary.uncefact.org/transportMeansTypeCode
 	 */
-	transportMeansTypeCode?: UneceTransportMeansTypeCodeList[];
+	transportMeansTypeCode?: UneceTransportMeansTypeCodeList;
 
 	/**
 	 * The indication of whether or not there is a valid Sanitation Control Exemption or Certificate onboard this logistics
@@ -371,7 +371,7 @@ export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
 	 * determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
 
 	/**
 	 * The measure of the tare weight (mass) of this logistics means of transport which is the weight (mass) including

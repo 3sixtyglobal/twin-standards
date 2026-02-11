@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/deliveryTermsDeliveryTypeCode
 
 ### deliveryTermsFunctionCode?
 
-> `optional` **deliveryTermsFunctionCode**: [`UneceDeliveryTermsFunctionCodeList`](../type-aliases/UneceDeliveryTermsFunctionCodeList.md)
+> `optional` **deliveryTermsFunctionCode**: [`UneceDeliveryTermsFunctionCodeList`](../type-aliases/UneceDeliveryTermsFunctionCodeList.md)[]
 
 A code specifying a function of these trade delivery terms.
 

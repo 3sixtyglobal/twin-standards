@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/paymentTermsEventTimeReferenceFromEventCode
 
 ### paymentTermsId?
 
-> `optional` **paymentTermsId**: [`UnecePaymentTermsId`](../type-aliases/UnecePaymentTermsId.md)[]
+> `optional` **paymentTermsId**: [`UnecePaymentTermsId`](../type-aliases/UnecePaymentTermsId.md)
 
 The unique identifier of these trade payment terms.
 
@@ -222,7 +222,7 @@ https://vocabulary.uncefact.org/paymentTermsId
 
 ### paymentTermsTypeCode?
 
-> `optional` **paymentTermsTypeCode**: [`UnecePaymentTermsTypeCodeList`](../type-aliases/UnecePaymentTermsTypeCodeList.md)
+> `optional` **paymentTermsTypeCode**: [`UnecePaymentTermsTypeCodeList`](../type-aliases/UnecePaymentTermsTypeCodeList.md)[]
 
 A code specifying the type of trade payment terms.
 

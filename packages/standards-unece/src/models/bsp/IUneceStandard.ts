@@ -115,7 +115,7 @@ export interface IUneceStandard extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this referenced standard.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A referenced document specified for this referenced standard.

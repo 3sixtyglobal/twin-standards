@@ -34,7 +34,7 @@ export interface IUneceInstalmentPayment extends IJsonLdNodeObject {
 	 * A monetary value paid or to be paid for this instalment payment.
 	 * @see https://vocabulary.uncefact.org/paidAmount
 	 */
-	paidAmount?: IUneceAmountType;
+	paidAmount?: IUneceAmountType[];
 
 	/**
 	 * The sequence identifier for this instalment payment.

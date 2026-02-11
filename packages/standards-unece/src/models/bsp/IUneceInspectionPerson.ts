@@ -26,11 +26,11 @@ export interface IUneceInspectionPerson extends IJsonLdNodeObject {
 	 * The specified qualification attained by this inspection person.
 	 * @see https://vocabulary.uncefact.org/attainedSpecifiedQualification
 	 */
-	attainedSpecifiedQualification?: IUneceSpecifiedQualification[];
+	attainedSpecifiedQualification: IUneceSpecifiedQualification;
 
 	/**
 	 * The name or set of names, expressed as text, by which this inspection person is known.
 	 * @see https://vocabulary.uncefact.org/inspectionPersonName
 	 */
-	inspectionPersonName?: string;
+	inspectionPersonName: string;
 }

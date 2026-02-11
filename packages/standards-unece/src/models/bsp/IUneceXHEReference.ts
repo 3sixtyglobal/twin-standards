@@ -31,7 +31,7 @@ export interface IUneceXHEReference extends IJsonLdNodeObject {
 	 * The identifier for this XHE reference.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The login, expressed as text, for this XHE reference.

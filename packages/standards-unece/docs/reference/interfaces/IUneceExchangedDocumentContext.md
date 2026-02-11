@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/guidelineSpecifiedParameter
 
 ### messageStandardSpecifiedParameter?
 
-> `optional` **messageStandardSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
+> `optional` **messageStandardSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
 
 The message standard document context parameter specified for this exchanged document context.
 

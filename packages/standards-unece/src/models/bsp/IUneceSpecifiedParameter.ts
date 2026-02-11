@@ -82,7 +82,7 @@ export interface IUneceSpecifiedParameter extends IJsonLdNodeObject {
 	 * A measure of a value for this specified parameter.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A tolerance specified for the value of this parameter.

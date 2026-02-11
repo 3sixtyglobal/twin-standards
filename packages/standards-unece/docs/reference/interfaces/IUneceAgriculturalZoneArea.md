@@ -85,9 +85,9 @@ https://vocabulary.uncefact.org/harvestedProduce
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this agricultural zone area.
 
@@ -97,9 +97,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### multiSurfaceTypeCode
+### multiSurfaceTypeCode?
 
-> **multiSurfaceTypeCode**: `string`
+> `optional` **multiSurfaceTypeCode**: `string`
 
 The code specifying the multi-surface type for this agricultural zone area.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedLocation?
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location specified for this agricultural zone area.
 
@@ -157,9 +157,9 @@ https://vocabulary.uncefact.org/subordinateArea
 
 ***
 
-### thirdPartyIssuedId
+### thirdPartyIssuedId?
 
-> **thirdPartyIssuedId**: `string`
+> `optional` **thirdPartyIssuedId**: `string`
 
 An identifier issued by a third party for this agricultural zone area.
 

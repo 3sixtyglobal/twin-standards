@@ -217,7 +217,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The item seller party for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/itemSellerParty
 	 */
-	itemSellerParty?: IUneceTradeParty[];
+	itemSellerParty?: IUneceTradeParty;
 
 	/**
 	 * The letter of credit document referenced in this line trade agreement.
@@ -235,7 +235,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The marketplace generated order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/marketplaceOrderDocument
 	 */
-	marketplaceOrderDocument?: IUneceDocument[];
+	marketplaceOrderDocument?: IUneceDocument;
 
 	/**
 	 * The maximum order quantity ordering period specified in this line trade agreement.
@@ -289,7 +289,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The original order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/originalOrderDocument
 	 */
-	originalOrderDocument?: IUneceDocument[];
+	originalOrderDocument?: IUneceDocument;
 
 	/**
 	 * The measure of the expected time interval between the receipt of an order and its pick-up fulfilment according to this
@@ -302,7 +302,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The previous order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/previousOrderDocument
 	 */
-	previousOrderDocument?: IUneceDocument[];
+	previousOrderDocument?: IUneceDocument;
 
 	/**
 	 * The price list document referenced in this line trade agreement.
@@ -314,7 +314,7 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The seller party acting as the prime contractor for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/primeContractSellerParty
 	 */
-	primeContractSellerParty?: IUneceTradeParty[];
+	primeContractSellerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the priority for this line trade agreement.
@@ -459,13 +459,13 @@ export interface IUneceLineTradeAgreement extends IJsonLdNodeObject {
 	 * The seller generated order document referenced in this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerOrderDocument
 	 */
-	sellerOrderDocument?: IUneceDocument[];
+	sellerOrderDocument?: IUneceDocument;
 
 	/**
 	 * The seller party for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerParty
 	 */
-	sellerParty?: IUneceTradeParty[];
+	sellerParty?: IUneceTradeParty;
 
 	/**
 	 * A seller reference, expressed as text, for this line trade agreement.

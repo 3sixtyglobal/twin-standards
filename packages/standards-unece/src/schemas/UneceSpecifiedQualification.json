@@ -101,7 +101,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"name"
 	],
 	"additionalProperties": {
 		"anyOf": [

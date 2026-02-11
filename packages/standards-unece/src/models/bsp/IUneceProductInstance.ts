@@ -169,7 +169,7 @@ export interface IUneceProductInstance extends IJsonLdNodeObject {
 	 * The inspection event for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/inspectionEvent
 	 */
-	inspectionEvent?: IUneceSupplyChainEvent[];
+	inspectionEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * An intended use, expressed as text, for this trade product instance.

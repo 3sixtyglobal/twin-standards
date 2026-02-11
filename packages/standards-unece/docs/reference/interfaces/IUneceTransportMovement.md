@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ### arrivalEvent?
 
-> `optional` **arrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **arrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 An arrival event for this logistics transport movement.
 
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/consignmentQuantity
 
 ### consortiumCarrierParty?
 
-> `optional` **consortiumCarrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **consortiumCarrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A consortium carrier party for this logistics transport movement.
 
@@ -400,7 +400,7 @@ https://vocabulary.uncefact.org/dangerousGoodsIndicator
 
 ### departureEvent?
 
-> `optional` **departureEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
+> `optional` **departureEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 A departure event during this logistics transport movement.
 
@@ -436,7 +436,7 @@ https://vocabulary.uncefact.org/excessTransportService
 
 ### firstArrivalEvent?
 
-> `optional` **firstArrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **firstArrivalEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 The first arrival event for this logistics transport movement.
 
@@ -496,7 +496,7 @@ https://vocabulary.uncefact.org/inspectionParty
 
 ### itineraryRoute?
 
-> `optional` **itineraryRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
+> `optional` **itineraryRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
 A route in the itinerary of this logistics transport movement.
 
@@ -508,7 +508,7 @@ https://vocabulary.uncefact.org/itineraryRoute
 
 ### liftingInstructionsRelatedDocument?
 
-> `optional` **liftingInstructionsRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **liftingInstructionsRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced lifting instructions document related to this logistics transport movement.
 
@@ -545,7 +545,7 @@ https://vocabulary.uncefact.org/loadingInspectionParty
 
 ### loadingInspectionSpecifiedInstructions?
 
-> `optional` **loadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
+> `optional` **loadingInspectionSpecifiedInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)
 
 Loading inspection instructions specified for this logistics transport movement.
 
@@ -581,7 +581,7 @@ https://vocabulary.uncefact.org/manifestOnboardIndicator
 
 ### manifestRelatedDocument?
 
-> `optional` **manifestRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **manifestRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced manifest document related to this transport movement.
 
@@ -617,7 +617,7 @@ https://vocabulary.uncefact.org/mode
 
 ### nVOCCCarrierParty?
 
-> `optional` **nVOCCCarrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **nVOCCCarrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A Non-Vessel Operating Common Carrier (NVOCC) carrier party for this logistics transport movement.
 
@@ -1098,7 +1098,7 @@ https://vocabulary.uncefact.org/trainedMedicalPersonnelOnboardQuantity
 
 ### transportContractRelatedDocument?
 
-> `optional` **transportContractRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **transportContractRelatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A transport contract document related to this logistics transport movement.
 

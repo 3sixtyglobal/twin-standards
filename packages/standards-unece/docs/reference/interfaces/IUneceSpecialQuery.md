@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/subject
 
 ***
 
-### submittedDateTime
+### submittedDateTime?
 
-> **submittedDateTime**: `string`
+> `optional` **submittedDateTime**: `string`
 
 The date, time, date time, or other date time value when this special query was submitted.
 

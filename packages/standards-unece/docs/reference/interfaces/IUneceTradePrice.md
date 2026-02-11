@@ -554,7 +554,7 @@ https://vocabulary.uncefact.org/tradePriceCategoryTypeCode
 
 ### unitAmount?
 
-> `optional` **unitAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **unitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the unit of this trade price.
 
@@ -566,7 +566,7 @@ https://vocabulary.uncefact.org/unitAmount
 
 ### validityPeriod?
 
-> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period for which this trade price is valid.
 

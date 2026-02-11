@@ -280,7 +280,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * The email communication for this trade party.
 	 * @see https://vocabulary.uncefact.org/emailURICommunication
 	 */
-	emailURICommunication?: IUneceCommunication[];
+	emailURICommunication?: IUneceCommunication;
 
 	/**
 	 * The communication address of the end point URI for this trade party.
@@ -316,7 +316,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A referenced notification document issued to this trade party.
 	 * @see https://vocabulary.uncefact.org/issuedNotificationReferencedDocument
 	 */
-	issuedNotificationReferencedDocument?: IUneceDocument;
+	issuedNotificationReferencedDocument?: IUneceDocument[];
 
 	/**
 	 * A file containing a specified binary representation of a logo associated with this trade party.
@@ -358,7 +358,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * The postal address for this trade party.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress[];
+	postalAddress?: IUneceTradeAddress;
 
 	/**
 	 * A production process provided by this trade party.
@@ -412,7 +412,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A referenced notification document requested by this trade party.
 	 * @see https://vocabulary.uncefact.org/requestedNotificationReferencedDocument
 	 */
-	requestedNotificationReferencedDocument?: IUneceDocument;
+	requestedNotificationReferencedDocument?: IUneceDocument[];
 
 	/**
 	 * An experience item reserved for or by this trade party.
@@ -448,19 +448,19 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A person specified to sign on behalf of this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedAuthoritativeSignatoryPerson
 	 */
-	specifiedAuthoritativeSignatoryPerson?: IUneceAuthoritativeSignatoryPerson;
+	specifiedAuthoritativeSignatoryPerson?: IUneceAuthoritativeSignatoryPerson[];
 
 	/**
 	 * A contact person specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedContactPerson
 	 */
-	specifiedContactPerson?: IUneceContactPerson;
+	specifiedContactPerson?: IUneceContactPerson[];
 
 	/**
 	 * A cooperating organization specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedCooperatingOrganization
 	 */
-	specifiedCooperatingOrganization?: IUneceCooperatingOrganization;
+	specifiedCooperatingOrganization?: IUneceCooperatingOrganization[];
 
 	/**
 	 * A creditor financial institution specified for this trade party.
@@ -478,7 +478,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * The financial identity specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancialIdentity
 	 */
-	specifiedFinancialIdentity: IUneceFinancialIdentity[];
+	specifiedFinancialIdentity?: IUneceFinancialIdentity;
 
 	/**
 	 * A governmental registration specified for this trade party.
@@ -490,7 +490,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A guest person specified by this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedGuestPerson
 	 */
-	specifiedGuestPerson?: IUneceGuestPerson;
+	specifiedGuestPerson?: IUneceGuestPerson[];
 
 	/**
 	 * The legally constituted organization specified for this trade party.
@@ -502,13 +502,13 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A logistics related location or place specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation;
+	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A proprietary identity specified for this trade party.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity: IUneceProprietaryIdentity[];
+	specifiedProprietaryIdentity?: IUneceProprietaryIdentity[];
 
 	/**
 	 * A result of a logistics risk analysis calculation specified for this trade party.
@@ -538,7 +538,7 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A telephone communication for this trade party.
 	 * @see https://vocabulary.uncefact.org/telephoneCommunication
 	 */
-	telephoneCommunication?: IUneceCommunication;
+	telephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * A code specifying a language for this trade party.
@@ -550,5 +550,5 @@ export interface IUneceTradeParty extends IJsonLdNodeObject {
 	 * A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.
 	 * @see https://vocabulary.uncefact.org/uRICommunication
 	 */
-	uRICommunication?: IUneceCommunication;
+	uRICommunication?: IUneceCommunication[];
 }

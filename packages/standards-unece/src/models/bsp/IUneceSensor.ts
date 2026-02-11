@@ -63,13 +63,13 @@ export interface IUneceSensor extends IJsonLdNodeObject {
 	 * The manufacturer party for this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The owner party of this monitoring sensor.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty[];
+	ownerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying a position of this monitoring sensor.

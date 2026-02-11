@@ -39,5 +39,5 @@ export interface IUneceFinancingRequestResultDocument extends IJsonLdNodeObject 
 	 * The financing status specified in this financing request result document.
 	 * @see https://vocabulary.uncefact.org/specifiedFinancingStatus
 	 */
-	specifiedFinancingStatus?: IUneceFinancingStatus[];
+	specifiedFinancingStatus?: IUneceFinancingStatus;
 }

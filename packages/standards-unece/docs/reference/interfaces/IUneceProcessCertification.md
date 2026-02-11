@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/responsibleAgency
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this process certification.
 

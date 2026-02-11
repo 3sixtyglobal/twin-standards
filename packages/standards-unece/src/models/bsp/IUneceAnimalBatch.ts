@@ -34,7 +34,7 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the creation of this animal batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
 	 */
-	creationDateTime?: string;
+	creationDateTime: string;
 
 	/**
 	 * A Fisheries Language for Universal eXchange (FLUX) identifier for this animal batch.
@@ -46,7 +46,7 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The identifier for this animal batch.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The maximum size, expressed as a measure, of the animals for this animal batch.
@@ -76,13 +76,13 @@ export interface IUneceAnimalBatch extends IJsonLdNodeObject {
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The delimited period specified for this animal batch.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod[];
+	specifiedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The number of units, expressed as a quantity, for this animal batch.

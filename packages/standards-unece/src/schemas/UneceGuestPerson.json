@@ -257,8 +257,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"passportId"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

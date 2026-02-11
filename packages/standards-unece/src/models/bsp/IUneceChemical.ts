@@ -74,7 +74,7 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A measure of the mass of this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/massMeasure
 	 */
-	massMeasure?: IUneceMeasureType;
+	massMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A mass measure of this distinct chemical expressed as a ratio to another mass, such as the total mass.
@@ -86,7 +86,7 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * The measure of the molecular weight (in grams) for this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/molecularWeightMeasure
 	 */
-	molecularWeightMeasure?: IUneceMeasureType[];
+	molecularWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * A measurement of the range of the presence of an ingredient in this distinct chemical.
@@ -140,5 +140,5 @@ export interface IUneceChemical extends IJsonLdNodeObject {
 	 * A measure of the weight of this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType;
+	weightMeasure?: IUneceMeasureType[];
 }

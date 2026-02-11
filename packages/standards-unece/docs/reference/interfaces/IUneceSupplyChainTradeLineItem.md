@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/additionalApplicableProduct
 
 ***
 
-### additionalId
+### additionalId?
 
-> **additionalId**: `string`
+> `optional` **additionalId**: `string`
 
 An additional unique identifier for this supply chain trade line item.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/assertedAuthentication
 
 ### associatedDocumentLineDocument?
 
-> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)[]
+> `optional` **associatedDocumentLineDocument**: [`IUneceDocumentLineDocument`](IUneceDocumentLineDocument.md)
 
 The document line associated with this trade line item.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/specifiedLineTradeAgreement
 
 ### specifiedLineTradeDelivery?
 
-> `optional` **specifiedLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)
+> `optional` **specifiedLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)[]
 
 A line trade delivery specified for this supply chain trade line item.
 
@@ -494,7 +494,7 @@ https://vocabulary.uncefact.org/substitutedApplicableMaterial
 
 ### substitutedProduct?
 
-> `optional` **substitutedProduct**: [`IUneceProduct`](IUneceProduct.md)
+> `optional` **substitutedProduct**: [`IUneceProduct`](IUneceProduct.md)[]
 
 A referenced product substituted for this supply chain trade line item.
 

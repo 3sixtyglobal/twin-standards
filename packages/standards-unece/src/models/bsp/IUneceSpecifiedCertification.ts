@@ -78,7 +78,7 @@ export interface IUneceSpecifiedCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion for this specified certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A standard, expressed as text, for this specified certification.

@@ -41,13 +41,13 @@ export interface IUneceAcknowledgementDocument extends IJsonLdNodeObject {
 	 * A code specifying a status for this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/acknowledgementDocumentStatusCode
 	 */
-	acknowledgementDocumentStatusCode?: UneceStatusCodeList;
+	acknowledgementDocumentStatusCode?: UneceStatusCodeList[];
 
 	/**
 	 * A code specifying an acknowledgment status for this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/acknowledgementStatusCode
 	 */
-	acknowledgementStatusCode?: UneceAcknowledgementCodeList;
+	acknowledgementStatusCode?: UneceAcknowledgementCodeList[];
 
 	/**
 	 * The code specifying the channel by which this acknowledgement document is sent, such as mail, email, fax.
@@ -71,7 +71,7 @@ export interface IUneceAcknowledgementDocument extends IJsonLdNodeObject {
 	 * A code specifying a type of acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/documentTypeCode
 	 */
-	documentTypeCode?: UneceDocumentCodeList;
+	documentTypeCode?: UneceDocumentCodeList[];
 
 	/**
 	 * The unique identifier of this acknowledgement document.

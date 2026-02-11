@@ -37,7 +37,7 @@ export interface IUneceDisposalInstructions extends IJsonLdNodeObject {
 	 * The handling, expressed as text, in this set of disposal instructions.
 	 * @see https://vocabulary.uncefact.org/handling
 	 */
-	handling: string;
+	handling?: string;
 
 	/**
 	 * The identifier of the material to which these disposal instructions apply.
@@ -49,7 +49,7 @@ export interface IUneceDisposalInstructions extends IJsonLdNodeObject {
 	 * The Resource Conservation and Recovery Act (RCRA) handling, expressed as text, in this set of disposal instructions.
 	 * @see https://vocabulary.uncefact.org/rCRAHandling
 	 */
-	rCRAHandling: string;
+	rCRAHandling?: string;
 
 	/**
 	 * A recycling procedure, expressed as text, for these disposal instructions.

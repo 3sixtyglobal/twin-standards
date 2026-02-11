@@ -191,7 +191,7 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the gross volume of this product batch.
 	 * @see https://vocabulary.uncefact.org/grossVolumeMeasure
 	 */
-	grossVolumeMeasure?: IUneceMeasureType;
+	grossVolumeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the gross weight of this product batch.
@@ -215,7 +215,7 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the mass of this product batch.
 	 * @see https://vocabulary.uncefact.org/massMeasure
 	 */
-	massMeasure?: IUneceMeasureType;
+	massMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A mass measure of this product batch expressed as a ratio to another mass, such as the total mass.
@@ -227,13 +227,13 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the maximum size of this product batch.
 	 * @see https://vocabulary.uncefact.org/maximumSizeMeasure
 	 */
-	maximumSizeMeasure?: IUneceMeasureType;
+	maximumSizeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the minimum size of this product batch.
 	 * @see https://vocabulary.uncefact.org/minimumSizeMeasure
 	 */
-	minimumSizeMeasure?: IUneceMeasureType;
+	minimumSizeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The name, expressed as text, of this product batch.
@@ -245,13 +245,13 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A measure of the net volume of this product batch.
 	 * @see https://vocabulary.uncefact.org/netVolumeMeasure
 	 */
-	netVolumeMeasure?: IUneceMeasureType;
+	netVolumeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the net weight of this product batch.
 	 * @see https://vocabulary.uncefact.org/netWeightMeasure
 	 */
-	netWeightMeasure?: IUneceMeasureType;
+	netWeightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The product name, expressed as text, for this product batch.
@@ -293,7 +293,7 @@ export interface IUneceProductBatch extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this product batch.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A referenced document specified for this product batch.

@@ -114,10 +114,7 @@
 	},
 	"required": [
 		"type",
-		"regulationSpeciesNameTypeCode",
-		"scientificSpeciesNameTypeCode",
-		"speciesTypeCode",
-		"tradeSpeciesNameTypeCode"
+		"speciesTypeCode"
 	],
 	"additionalProperties": {
 		"anyOf": [

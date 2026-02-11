@@ -132,6 +132,8 @@
 	},
 	"required": [
 		"type",
+		"creationDateTime",
+		"identifier",
 		"recipientXHEParty"
 	],
 	"additionalProperties": {

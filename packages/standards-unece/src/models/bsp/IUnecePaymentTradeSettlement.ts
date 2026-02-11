@@ -49,7 +49,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The tax applicable to this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/applicableTax
 	 */
-	applicableTax?: IUneceTradeTax[];
+	applicableTax?: IUneceTradeTax;
 
 	/**
 	 * The creation date, time, date time, or other date time value for this payment trade settlement.
@@ -100,7 +100,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * due to the creditor.
 	 * @see https://vocabulary.uncefact.org/duePayableAmount
 	 */
-	duePayableAmount?: IUneceAmountType[];
+	duePayableAmount?: IUneceAmountType;
 
 	/**
 	 * The financial guarantee identified for this payment trade settlement.
@@ -124,19 +124,19 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The payee party for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/payeeParty
 	 */
-	payeeParty?: IUneceTradeParty[];
+	payeeParty?: IUneceTradeParty;
 
 	/**
 	 * The payer party for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/payerParty
 	 */
-	payerParty?: IUneceTradeParty[];
+	payerParty?: IUneceTradeParty;
 
 	/**
 	 * A monetary value of the payment for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/paymentAmount
 	 */
-	paymentAmount?: IUneceAmountType;
+	paymentAmount?: IUneceAmountType[];
 
 	/**
 	 * The currency exchange applicable to this payment trade settlement.
@@ -184,7 +184,7 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * A monetary value of the refund related to this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/refundAmount
 	 */
-	refundAmount?: IUneceAmountType;
+	refundAmount?: IUneceAmountType[];
 
 	/**
 	 * A monetary value requested for this payment trade settlement.
@@ -196,13 +196,13 @@ export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
 	 * The payment means specified for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedPaymentMeans
 	 */
-	specifiedPaymentMeans?: IUnecePaymentMeans[];
+	specifiedPaymentMeans?: IUnecePaymentMeans;
 
 	/**
 	 * The monetary summation totals specified for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/specifiedTradeSettlementPaymentMonetarySummation
 	 */
-	specifiedTradeSettlementPaymentMonetarySummation?: IUneceTradeSettlementPaymentMonetarySummation[];
+	specifiedTradeSettlementPaymentMonetarySummation: IUneceTradeSettlementPaymentMonetarySummation;
 
 	/**
 	 * The code specifying the status of this payment trade settlement.

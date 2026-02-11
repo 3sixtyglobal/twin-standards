@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### creationDateTime?
+### creationDateTime
 
-> `optional` **creationDateTime**: `string`
+> **creationDateTime**: `string`
 
 The date, time, date time or other date time value of the creation of this XHE document.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this XHE document.
 

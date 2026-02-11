@@ -46,7 +46,7 @@ export interface IUneceProduce extends IJsonLdNodeObject {
 	 * An input batch crop produce, such as seed or fertilizer, specified for this crop produce.
 	 * @see https://vocabulary.uncefact.org/inputSpecifiedBatch
 	 */
-	inputSpecifiedBatch: IUneceCropProduceBatch[];
+	inputSpecifiedBatch?: IUneceCropProduceBatch[];
 
 	/**
 	 * The name, expressed as text, for this crop produce.

@@ -132,9 +132,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier for this work item quantity analysis.
 

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicablePackagingInstructions
 
 ### capacityMeasure?
 
-> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a capacity of this logistics packaging.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/containedPackage
 
 ### contentLayerQuantity?
 
-> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number of content layers in this logistics packaging.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/instructionIndicator
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 A linear dimension or a set of linear dimensions of this logistics packaging.
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/specifiedMarking
 
 ### totalUnitQuantity?
 
-> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A total number of units contained in this logistics packaging.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a weight (mass) of this logistics packaging.
 

@@ -177,7 +177,7 @@ export interface IUneceSpecifiedCertificate extends IJsonLdNodeObject {
 	 * The issuer party for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty[];
+	issuerParty?: IUneceTradeParty;
 
 	/**
 	 * A latest endorsement date, time, date time or other date time value for this specified certificate.

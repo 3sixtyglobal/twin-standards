@@ -134,9 +134,9 @@ https://vocabulary.uncefact.org/generalCharacteristic
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this sample observation result.
 

@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/endAvailabilityDateTime
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this XHE reference.
 

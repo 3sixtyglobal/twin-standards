@@ -25,13 +25,13 @@ export interface IUneceSpeciesTTAnimal extends IJsonLdNodeObject {
 	 * A code specifying the type of regulation species name for this TT animal.
 	 * @see https://vocabulary.uncefact.org/regulationSpeciesNameTypeCode
 	 */
-	regulationSpeciesNameTypeCode: string;
+	regulationSpeciesNameTypeCode?: string;
 
 	/**
 	 * A code specifying the type of scientific species name for this TT animal.
 	 * @see https://vocabulary.uncefact.org/scientificSpeciesNameTypeCode
 	 */
-	scientificSpeciesNameTypeCode: string;
+	scientificSpeciesNameTypeCode?: string;
 
 	/**
 	 * A code specifying the species type of this TT animal.
@@ -43,5 +43,5 @@ export interface IUneceSpeciesTTAnimal extends IJsonLdNodeObject {
 	 * A code specifying the type of trade species name for this TT animal.
 	 * @see https://vocabulary.uncefact.org/tradeSpeciesNameTypeCode
 	 */
-	tradeSpeciesNameTypeCode: string;
+	tradeSpeciesNameTypeCode?: string;
 }

@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ### maximumLinearDimension?
 
-> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 The maximum linear spatial dimensions of this supply chain packaging.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightMeasure
 
 ### minimumLinearDimension?
 
-> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
+> `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
 The minimum linear spatial dimensions of this supply chain packaging.
 
@@ -377,7 +377,7 @@ https://vocabulary.uncefact.org/supplyChainPackagingLevelCode
 
 ### totalUnitQuantity?
 
-> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A total number of units contained in this supply chain packaging.
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/transportMaximumStackabilityQuantity
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the weight of this supply chain packaging.
 

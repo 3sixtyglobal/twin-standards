@@ -39,7 +39,7 @@ JSON-LD Type.
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
 
 A unique identifier for this trade country.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedQuantity?
 
-> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity specified for this trade country.
 

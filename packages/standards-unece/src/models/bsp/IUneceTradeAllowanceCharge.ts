@@ -93,7 +93,7 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * A monetary value to be deducted from this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/deductionAmount
 	 */
-	deductionAmount?: IUneceAmountType;
+	deductionAmount?: IUneceAmountType[];
 
 	/**
 	 * A textual description of this trade allowance charge.
@@ -135,7 +135,7 @@ export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
 	 * The monetary value of the unit basis on which the allowance or charge is calculated.
 	 * @see https://vocabulary.uncefact.org/unitBasisAmount
 	 */
-	unitBasisAmount?: IUneceAmountType[];
+	unitBasisAmount?: IUneceAmountType;
 
 	/**
 	 * The specified period for which this trade allowance charge is valid.

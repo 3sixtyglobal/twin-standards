@@ -26,7 +26,7 @@ export interface IUneceTTTradeTransaction extends IJsonLdNodeObject {
 	 * The identifier for this TT trade transaction.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The identifier for the type of TT trade transaction.

@@ -202,8 +202,7 @@
 	},
 	"required": [
 		"type",
-		"priceListItemId",
-		"referenceId"
+		"identifier"
 	],
 	"additionalProperties": {
 		"anyOf": [

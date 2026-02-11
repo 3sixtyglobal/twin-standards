@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### valueMeasure?
+### valueMeasure
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measured value for this work item dimension.
 

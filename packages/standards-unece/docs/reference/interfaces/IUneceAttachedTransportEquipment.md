@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### transportEquipmentCategoryCode?
 
-> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)
+> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
 
 A code specifying a category of this piece of attached transport equipment.
 

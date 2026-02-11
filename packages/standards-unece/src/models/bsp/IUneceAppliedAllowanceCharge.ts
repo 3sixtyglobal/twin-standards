@@ -27,7 +27,7 @@ export interface IUneceAppliedAllowanceCharge extends IJsonLdNodeObject {
 	 * The actual monetary value of the applied allowance charge.
 	 * @see https://vocabulary.uncefact.org/actualAmount
 	 */
-	actualAmount?: IUneceAmountType[];
+	actualAmount?: IUneceAmountType;
 
 	/**
 	 * The code specifying the reason for this applied allowance charge.
@@ -39,7 +39,7 @@ export interface IUneceAppliedAllowanceCharge extends IJsonLdNodeObject {
 	 * The monetary value that is the basis on which the applied allowance charge is calculated.
 	 * @see https://vocabulary.uncefact.org/basisAmount
 	 */
-	basisAmount?: IUneceAmountType[];
+	basisAmount?: IUneceAmountType;
 
 	/**
 	 * The percentage used to calculate the applied allowance charge.
@@ -51,13 +51,13 @@ export interface IUneceAppliedAllowanceCharge extends IJsonLdNodeObject {
 	 * The applied tax category of this applied allowance charge.
 	 * @see https://vocabulary.uncefact.org/categoryAppliedTax
 	 */
-	categoryAppliedTax?: IUneceAppliedTax[];
+	categoryAppliedTax?: IUneceAppliedTax;
 
 	/**
 	 * The indication of whether or not the applied allowance charge is a charge.
 	 * @see https://vocabulary.uncefact.org/chargeIndicator
 	 */
-	chargeIndicator?: boolean;
+	chargeIndicator: boolean;
 
 	/**
 	 * The textual description of the applied allowance charge.

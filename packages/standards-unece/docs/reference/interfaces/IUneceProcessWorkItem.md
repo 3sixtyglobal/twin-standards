@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier of this process work item.
 

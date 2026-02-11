@@ -33,5 +33,5 @@ export interface IUneceGeographicalMultiSurface extends IJsonLdNodeObject {
 	 * A polygon included in this geographical multi-surface.
 	 * @see https://vocabulary.uncefact.org/includedPolygon
 	 */
-	includedPolygon?: IUnecePolygon;
+	includedPolygon?: IUnecePolygon[];
 }

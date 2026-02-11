@@ -331,7 +331,7 @@ export interface IUneceProductionProcess extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this production process.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A referenced document specified for this production process.

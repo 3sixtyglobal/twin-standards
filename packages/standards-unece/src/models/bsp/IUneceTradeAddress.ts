@@ -35,7 +35,7 @@ export interface IUneceTradeAddress extends IJsonLdNodeObject {
 	 * A code specifying the type of this trade address, such as business address or home address.
 	 * @see https://vocabulary.uncefact.org/addressTypeCode
 	 */
-	addressTypeCode?: UneceAddressTypeCodeList;
+	addressTypeCode?: UneceAddressTypeCodeList[];
 
 	/**
 	 * The name, expressed as text, of a person or department in the organization to whom incoming mail is marked with words
@@ -127,7 +127,7 @@ export interface IUneceTradeAddress extends IJsonLdNodeObject {
 	 * An identification of a set of geographical coordinates for this trade address.
 	 * @see https://vocabulary.uncefact.org/geoCoordinateIdentificationGeographicalCoordinate
 	 */
-	geoCoordinateIdentificationGeographicalCoordinate?: IUneceGeographicalCoordinate;
+	geoCoordinateIdentificationGeographicalCoordinate?: IUneceGeographicalCoordinate[];
 
 	/**
 	 * A unique identifier for this trade address.

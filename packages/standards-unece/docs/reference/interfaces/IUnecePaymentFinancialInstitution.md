@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### bICId
+### bICId?
 
-> **bICId**: `string`
+> `optional` **bICId**: `string`
 
 The unique Bank Identification Code (BIC) as defined in ISO 9362 for this payment financial institution.
 

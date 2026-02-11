@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ### applicableStandard?
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
 The referenced standard that is applicable to this product characteristic.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value for this product characteristic.
 

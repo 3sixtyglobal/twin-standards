@@ -93,7 +93,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * including loaded goods, packing and transport equipment.
 	 * @see https://vocabulary.uncefact.org/grossWeightMeasure
 	 */
-	grossWeightMeasure?: IUneceMeasureType[];
+	grossWeightMeasure?: IUneceMeasureType;
 
 	/**
 	 * A unique number, mark or name which identifies this associated piece of transport equipment.
@@ -129,7 +129,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A registration country for this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/registrationCountry
 	 */
-	registrationCountry?: IUneceCountry;
+	registrationCountry?: IUneceCountry[];
 
 	/**
 	 * A reportable quantity for this associated transport equipment.
@@ -141,7 +141,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A quantity of seals for this associated piece of transport equipment.
 	 * @see https://vocabulary.uncefact.org/sealQuantity
 	 */
-	sealQuantity?: IUneceQuantityType;
+	sealQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The indication of whether or not this associated piece of transport equipment is sealed.
@@ -180,7 +180,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * A code specifying a category of this piece of associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/transportEquipmentCategoryCode
 	 */
-	transportEquipmentCategoryCode?: UneceTransportEquipmentCategoryCodeList;
+	transportEquipmentCategoryCode?: UneceTransportEquipmentCategoryCodeList[];
 
 	/**
 	 * The code specifying the characteristics, i.e. size and type, of this piece of associated transport equipment.
@@ -205,7 +205,7 @@ export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
 	 * including loaded goods, packing and transport equipment.
 	 * @see https://vocabulary.uncefact.org/verifiedGrossWeightMeasure
 	 */
-	verifiedGrossWeightMeasure?: IUneceWeightUnitMeasureType;
+	verifiedGrossWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * A measure of the net weight of this associated transport equipment.

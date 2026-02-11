@@ -94,7 +94,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * An arrival event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/arrivalEvent
 	 */
-	arrivalEvent?: IUneceTransportEvent;
+	arrivalEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The convoy associated with this logistics transport movement.
@@ -186,7 +186,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A consortium carrier party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/consortiumCarrierParty
 	 */
-	consortiumCarrierParty?: IUneceTradeParty;
+	consortiumCarrierParty?: IUneceTradeParty[];
 
 	/**
 	 * The crew list document related to this logistics transport movement.
@@ -240,7 +240,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A departure event during this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/departureEvent
 	 */
-	departureEvent?: IUneceTransportEvent;
+	departureEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A party to be notified of the documentary instructions for this logistics transport movement.
@@ -258,7 +258,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * The first arrival event for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/firstArrivalEvent
 	 */
-	firstArrivalEvent?: IUneceTransportEvent[];
+	firstArrivalEvent?: IUneceTransportEvent;
 
 	/**
 	 * The International Ship and Port facility Security code (ISPS) document related to this transport movement.
@@ -288,13 +288,13 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A route in the itinerary of this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/itineraryRoute
 	 */
-	itineraryRoute?: IUneceTransportRoute;
+	itineraryRoute?: IUneceTransportRoute[];
 
 	/**
 	 * A referenced lifting instructions document related to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/liftingInstructionsRelatedDocument
 	 */
-	liftingInstructionsRelatedDocument?: IUneceDocument;
+	liftingInstructionsRelatedDocument?: IUneceDocument[];
 
 	/**
 	 * The loading event during which goods will be or have been loaded into or onto the means of transport used for this
@@ -313,7 +313,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * Loading inspection instructions specified for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/loadingInspectionSpecifiedInstructions
 	 */
-	loadingInspectionSpecifiedInstructions?: IUneceTransportInstructions[];
+	loadingInspectionSpecifiedInstructions?: IUneceTransportInstructions;
 
 	/**
 	 * The code specifying a status for the logistics transport movement, such as estimated or final.
@@ -331,7 +331,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A referenced manifest document related to this transport movement.
 	 * @see https://vocabulary.uncefact.org/manifestRelatedDocument
 	 */
-	manifestRelatedDocument?: IUneceDocument;
+	manifestRelatedDocument?: IUneceDocument[];
 
 	/**
 	 * The person legally responsible for the operation of the means of transport used for this logistics transport movement.
@@ -349,7 +349,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A Non-Vessel Operating Common Carrier (NVOCC) carrier party for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/nVOCCCarrierParty
 	 */
-	nVOCCCarrierParty?: IUneceTradeParty;
+	nVOCCCarrierParty?: IUneceTradeParty[];
 
 	/**
 	 * The name, expressed as text, for this logistics transport movement.
@@ -590,7 +590,7 @@ export interface IUneceTransportMovement extends IJsonLdNodeObject {
 	 * A transport contract document related to this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/transportContractRelatedDocument
 	 */
-	transportContractRelatedDocument?: IUneceDocument;
+	transportContractRelatedDocument?: IUneceDocument[];
 
 	/**
 	 * The number of pieces of transport equipment for this logistics transport movement.

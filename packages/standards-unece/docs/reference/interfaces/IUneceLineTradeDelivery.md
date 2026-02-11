@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### acceptanceEvent?
 
-> `optional` **acceptanceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
+> `optional` **acceptanceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An acceptance delivery event, at line level, for this trade delivery.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/availableInventory
 
 ### availableQuantity?
 
-> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity, at line level, available for this trade delivery.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/buyerOrderDateTime
 
 ### cancelledQuantity?
 
-> `optional` **cancelledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **cancelledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity, at line level, cancelled for this trade delivery.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/classificationDocument
 
 ### confirmedDeliveryEvent?
 
-> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The confirmed delivery event, at line level, for this trade delivery.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/confirmedDeliveryEvent
 
 ### confirmedDespatchEvent?
 
-> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The despatch event, at line level, confirmed for this trade delivery.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/customerInventory
 
 ### deliveryNoteDocument?
 
-> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
 
 The delivery note document, at line level, referenced for this trade delivery.
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/disposalParty
 
 ### dueInAvailableQuantity?
 
-> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The due in available quantity, at line level, for this trade delivery.
 
@@ -759,7 +759,7 @@ https://vocabulary.uncefact.org/partialDeliveryAllowedIndicator
 
 ### perPackageUnitQuantity?
 
-> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units per package, at line level, in this trade delivery.
 
@@ -832,7 +832,7 @@ https://vocabulary.uncefact.org/plannedPickUpEvent
 
 ### plannedShipToDeliveryEvent?
 
-> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The planned ship to delivery event, at line level, for this trade delivery.
 
@@ -1036,7 +1036,7 @@ https://vocabulary.uncefact.org/reverseBilledQuantity
 
 ### shipFromParty?
 
-> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ship from party, at line level, for this trade delivery.
 
@@ -1048,7 +1048,7 @@ https://vocabulary.uncefact.org/shipFromParty
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ship to party, at line level, for this trade delivery.
 
@@ -1205,7 +1205,7 @@ https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
 
 ### ultimateShipToParty?
 
-> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ultimate ship to party, at line level, for this trade delivery.
 
@@ -1217,7 +1217,7 @@ https://vocabulary.uncefact.org/ultimateShipToParty
 
 ### unavailableQuantity?
 
-> `optional` **unavailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **unavailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The quantity, at line level, unavailable for this trade delivery.
 
@@ -1265,7 +1265,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ### volumeUnitNetVolumeMeasure?
 
-> `optional` **volumeUnitNetVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
+> `optional` **volumeUnitNetVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
 The measure, at line level, of the net volume of this line trade delivery.
 
@@ -1301,7 +1301,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure, at line level, of the net weight (mass) of this trade delivery.
 

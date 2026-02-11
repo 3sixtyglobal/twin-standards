@@ -38,7 +38,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * An acceptance delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/acceptanceEvent
 	 */
-	acceptanceEvent?: IUneceSupplyChainEvent;
+	acceptanceEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * An actual delivery event, at header level, for this trade delivery.
@@ -104,7 +104,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The despatch event, at header level, confirmed for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/confirmedDespatchEvent
 	 */
-	confirmedDespatchEvent?: IUneceSupplyChainEvent[];
+	confirmedDespatchEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The pick-up event, at header level, confirmed for this trade delivery.
@@ -128,7 +128,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The delivery note document, at header level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/deliveryNoteDocument
 	 */
-	deliveryNoteDocument?: IUneceDocument[];
+	deliveryNoteDocument?: IUneceDocument;
 
 	/**
 	 * The despatch advice document, at header level, referenced for this trade delivery.
@@ -152,7 +152,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The due in available quantity, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/dueInAvailableQuantity
 	 */
-	dueInAvailableQuantity?: IUneceQuantityType[];
+	dueInAvailableQuantity?: IUneceQuantityType;
 
 	/**
 	 * The due in forecasted quantity, at header level, for this trade delivery.
@@ -213,7 +213,7 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * A goods receipt note document, at header level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/goodsReceiptNoteDocument
 	 */
-	goodsReceiptNoteDocument?: IUneceDocument;
+	goodsReceiptNoteDocument?: IUneceDocument[];
 
 	/**
 	 * A textual description for the physical state of the goods, at header level, for this trade delivery.
@@ -328,13 +328,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The event of the planned ship from delivery, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedShipFromDeliveryEvent
 	 */
-	plannedShipFromDeliveryEvent?: IUneceSupplyChainEvent[];
+	plannedShipFromDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The planned ship to delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedShipToDeliveryEvent
 	 */
-	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent[];
+	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * A previous delivery event, at header level, for this trade delivery.
@@ -394,13 +394,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The ship from party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipFromParty
 	 */
-	shipFromParty?: IUneceTradeParty[];
+	shipFromParty?: IUneceTradeParty;
 
 	/**
 	 * The ship to party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty[];
+	shipToParty?: IUneceTradeParty;
 
 	/**
 	 * The shipment schedule document, referenced at header level, for this trade delivery.
@@ -455,13 +455,13 @@ export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
 	 * The ultimate ship to delivery event, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryEvent
 	 */
-	ultimateShipToDeliveryEvent?: IUneceSupplyChainEvent[];
+	ultimateShipToDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The ultimate ship to party, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToParty
 	 */
-	ultimateShipToParty?: IUneceTradeParty[];
+	ultimateShipToParty?: IUneceTradeParty;
 
 	/**
 	 * Logistics transport equipment utilized for this header trade delivery.

@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/includedTax
 
 ### invoiceSpecifiedDocument?
 
-> `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An invoice document referenced by this advance payment.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/invoiceSpecifiedDocument
 
 ***
 
-### paidAmount?
+### paidAmount
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the funds or securities paid in this advance payment.
 

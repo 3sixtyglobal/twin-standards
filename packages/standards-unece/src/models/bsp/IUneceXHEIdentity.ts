@@ -25,5 +25,5 @@ export interface IUneceXHEIdentity extends IJsonLdNodeObject {
 	 * The identifier of this XHE identity.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 }

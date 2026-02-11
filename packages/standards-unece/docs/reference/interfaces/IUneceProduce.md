@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inputSpecifiedBatch
+### inputSpecifiedBatch?
 
-> **inputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
+> `optional` **inputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
 An input batch crop produce, such as seed or fertilizer, specified for this crop produce.
 

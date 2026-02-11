@@ -61,9 +61,9 @@ https://vocabulary.uncefact.org/actualDepartureRelatedDateTime
 
 ***
 
-### actualOccurrenceDateTime
+### actualOccurrenceDateTime?
 
-> **actualOccurrenceDateTime**: `string`
+> `optional` **actualOccurrenceDateTime**: `string`
 
 The actual date, time, date time, or other date time value of the occurrence of this transport event.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/actualOccurrenceDateTime
 
 ### actualOccurrencePeriod?
 
-> `optional` **actualOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **actualOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The actual period of time during which this transport event occurred.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/certifyingParty
 
 ### conveyanceFacilityRelatedLocation?
 
-> `optional` **conveyanceFacilityRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **conveyanceFacilityRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location of a conveyance facility related to this transport event.
 
@@ -241,9 +241,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### estimatedOccurrenceDateTime
+### estimatedOccurrenceDateTime?
 
-> **estimatedOccurrenceDateTime**: `string`
+> `optional` **estimatedOccurrenceDateTime**: `string`
 
 The estimated date, time, date time, or other date time value of the occurrence of this transport event.
 
@@ -253,9 +253,9 @@ https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 
 ***
 
-### estimatedTransportMeansArrivalOccurrenceDateTime
+### estimatedTransportMeansArrivalOccurrenceDateTime?
 
-> **estimatedTransportMeansArrivalOccurrenceDateTime**: `string`
+> `optional` **estimatedTransportMeansArrivalOccurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value when the arrival of a means of transport at the location of this
 transport event is estimated to occur.
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### laycanOccurrencePeriod?
 
-> `optional` **laycanOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **laycanOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period of laycan time during which this transport event occurs.
 
@@ -374,9 +374,9 @@ https://vocabulary.uncefact.org/previousAssociatedGeographicalFeature
 
 ***
 
-### reasonTypeCode
+### reasonTypeCode?
 
-> **reasonTypeCode**: `string`
+> `optional` **reasonTypeCode**: `string`
 
 The code specifying the reason type for this referenced transport event.
 
@@ -423,9 +423,9 @@ https://vocabulary.uncefact.org/relatedRoute
 
 ***
 
-### reportedConditionTypeCode
+### reportedConditionTypeCode?
 
-> **reportedConditionTypeCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
+> `optional` **reportedConditionTypeCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
 
 The code specifying the type of reported condition for this transport event.
 
@@ -447,9 +447,9 @@ https://vocabulary.uncefact.org/reportingIOTDevice
 
 ***
 
-### requestedOccurrenceDateTime
+### requestedOccurrenceDateTime?
 
-> **requestedOccurrenceDateTime**: `string`
+> `optional` **requestedOccurrenceDateTime**: `string`
 
 The requested date, time, date time, or other date time value of the occurrence of this transport event.
 
@@ -496,9 +496,9 @@ https://vocabulary.uncefact.org/scheduledDepartureRelatedDateTime
 
 ***
 
-### scheduledOccurrenceDateTime
+### scheduledOccurrenceDateTime?
 
-> **scheduledOccurrenceDateTime**: `string`
+> `optional` **scheduledOccurrenceDateTime**: `string`
 
 The scheduled date, time, date time, or other date time value of the occurrence of this transport event.
 
@@ -510,7 +510,7 @@ https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
 
 ### scheduledOccurrencePeriod?
 
-> `optional` **scheduledOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **scheduledOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The scheduled period of time specified for the occurrence of this transport event.
 
@@ -570,7 +570,7 @@ https://vocabulary.uncefact.org/transportInformationApplicableNote
 
 ### transportMeansStayOccurrencePeriod?
 
-> `optional` **transportMeansStayOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **transportMeansStayOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period during which the transport means is held at a location.
 

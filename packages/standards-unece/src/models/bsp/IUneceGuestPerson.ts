@@ -149,7 +149,7 @@ export interface IUneceGuestPerson extends IJsonLdNodeObject {
 	 * The identifier of the passport of this guest.
 	 * @see https://vocabulary.uncefact.org/passportId
 	 */
-	passportId: string;
+	passportId?: string;
 
 	/**
 	 * A special query raised for this guest person.

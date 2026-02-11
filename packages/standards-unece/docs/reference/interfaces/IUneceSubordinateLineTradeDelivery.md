@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ### billedQuantity?
 
-> `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A billed quantity of this subordinate line trade delivery.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/packageQuantity
 
 ### perPackageUnitQuantity?
 
-> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units per package in this subordinate line trade delivery.
 

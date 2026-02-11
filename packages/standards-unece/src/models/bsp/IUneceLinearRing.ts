@@ -27,7 +27,7 @@ export interface IUneceLinearRing extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this linear ring.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A coordinate, expressed as text, for this specified linear ring.

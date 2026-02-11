@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A destination related party for this TT transformation event.
 
@@ -122,9 +122,9 @@ https://vocabulary.uncefact.org/inputQuantitySpecifiedEventElement
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime
 
-> `optional` **occurrenceDateTime**: `string`
+> **occurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value at which this TT transformation event occurred.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A source related party for this TT transformation event.
 

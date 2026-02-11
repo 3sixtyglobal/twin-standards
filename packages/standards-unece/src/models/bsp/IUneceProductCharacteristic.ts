@@ -49,7 +49,7 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * The referenced standard that is applicable to this product characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableStandard
 	 */
-	applicableStandard?: IUneceStandard[];
+	applicableStandard?: IUneceStandard;
 
 	/**
 	 * A sustainability characteristic applicable to this product characteristic.
@@ -133,7 +133,7 @@ export interface IUneceProductCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this product characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A method specified for a value of this product characteristic.

@@ -115,7 +115,7 @@ export interface IUneceDocumentLineDocument extends IJsonLdNodeObject {
 	 * The acknowledgement document referenced in this document line.
 	 * @see https://vocabulary.uncefact.org/referenceAcknowledgementDocument
 	 */
-	referenceAcknowledgementDocument?: IUneceAcknowledgementDocument[];
+	referenceAcknowledgementDocument?: IUneceAcknowledgementDocument;
 
 	/**
 	 * A document referenced from this document line.

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### aftDraughtLevelMeasure?
 
-> `optional` **aftDraughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **aftDraughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The draught level measured at the aft end of this transport means.
 
@@ -120,9 +120,9 @@ https://vocabulary.uncefact.org/attachedLogisticsTransportEquipment
 
 ***
 
-### callSignId
+### callSignId?
 
-> **callSignId**: `string`
+> `optional` **callSignId**: `string`
 
 A call sign identifier for this logistics transport means.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/conferenceCode
 
 ### draughtLevelMeasure?
 
-> `optional` **draughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **draughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the draught level of this logistics means of transport.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/driverAccompaniedIndicator
 
 ### forwardDraughtLevelMeasure?
 
-> `optional` **forwardDraughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **forwardDraughtLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The draught level measured at the fore end of this transport means.
 
@@ -216,9 +216,9 @@ https://vocabulary.uncefact.org/helipadIndicator
 
 ***
 
-### iMOId
+### iMOId?
 
-> **iMOId**: `string`
+> `optional` **iMOId**: `string`
 
 The IMO (International Maritime Organization) identifier for this logistics transport means.
 
@@ -339,9 +339,9 @@ https://vocabulary.uncefact.org/logisticsTransportMeansPowerTypeCode
 
 ***
 
-### mMSIId
+### mMSIId?
 
-> **mMSIId**: `string`
+> `optional` **mMSIId**: `string`
 
 The MMSI (Maritime Mobile Service Identity) identifier for this logistics transport means.
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/manoeuvringSpeedMeasure
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party for this logistics means of transport.
 
@@ -449,7 +449,7 @@ https://vocabulary.uncefact.org/ownerAgentParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party owning this logistics means of transport.
 
@@ -606,7 +606,7 @@ https://vocabulary.uncefact.org/transportMeansType
 
 ### transportMeansTypeCode?
 
-> `optional` **transportMeansTypeCode**: [`UneceTransportMeansTypeCodeList`](../type-aliases/UneceTransportMeansTypeCodeList.md)[]
+> `optional` **transportMeansTypeCode**: [`UneceTransportMeansTypeCodeList`](../type-aliases/UneceTransportMeansTypeCodeList.md)
 
 The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28).
 
@@ -682,7 +682,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ### weightUnitNetWeightMeasure?
 
-> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
+> `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel
 determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.

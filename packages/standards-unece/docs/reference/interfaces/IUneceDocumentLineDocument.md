@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/publicationDateTime
 
 ### referenceAcknowledgementDocument?
 
-> `optional` **referenceAcknowledgementDocument**: [`IUneceAcknowledgementDocument`](IUneceAcknowledgementDocument.md)[]
+> `optional` **referenceAcknowledgementDocument**: [`IUneceAcknowledgementDocument`](IUneceAcknowledgementDocument.md)
 
 The acknowledgement document referenced in this document line.
 

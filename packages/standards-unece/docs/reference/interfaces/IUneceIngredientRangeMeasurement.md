@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### lowerLimitActualMeasure?
+### lowerLimitActualMeasure
 
-> `optional` **lowerLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> **lowerLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The actual lower limit measure of this ingredient range measurement.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/lowerLimitActualMeasure
 
 ***
 
-### lowerLimitComparisonOperatorCode?
+### lowerLimitComparisonOperatorCode
 
-> `optional` **lowerLimitComparisonOperatorCode**: `string`
+> **lowerLimitComparisonOperatorCode**: `string`
 
 The code specifying the comparison operator for the lower limit of this ingredient range measurement.
 

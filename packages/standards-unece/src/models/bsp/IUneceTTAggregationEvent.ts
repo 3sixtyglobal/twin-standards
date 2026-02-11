@@ -31,7 +31,7 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * The code specifying the action for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/actionCode
 	 */
-	actionCode?: string;
+	actionCode: string;
 
 	/**
 	 * The code specifying the business step for this TT aggregation event.
@@ -55,7 +55,7 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * A destination related party for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/destinationRelatedParty
 	 */
-	destinationRelatedParty?: IUneceTTParty;
+	destinationRelatedParty?: IUneceTTParty[];
 
 	/**
 	 * The code specifying the disposition related to this TT aggregation event.
@@ -73,7 +73,7 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value at which this TT aggregation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
 	 */
-	occurrenceDateTime?: string;
+	occurrenceDateTime: string;
 
 	/**
 	 * The identifier of the parent object for this TT aggregation event.
@@ -109,7 +109,7 @@ export interface IUneceTTAggregationEvent extends IJsonLdNodeObject {
 	 * A source related party for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/sourceRelatedParty
 	 */
-	sourceRelatedParty?: IUneceTTParty;
+	sourceRelatedParty?: IUneceTTParty[];
 
 	/**
 	 * A declared error specified for this TT aggregation event.

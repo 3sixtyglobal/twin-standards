@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ### grossWeightMeasure?
 
-> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the gross weight (mass) of this piece of associated transport equipment which is the weight (mass)
 including loaded goods, packing and transport equipment.
@@ -221,7 +221,7 @@ https://vocabulary.uncefact.org/netGoodsWeightMeasure
 
 ### registrationCountry?
 
-> `optional` **registrationCountry**: [`IUneceCountry`](IUneceCountry.md)
+> `optional` **registrationCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
 A registration country for this associated transport equipment.
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/reportableQuantity
 
 ### sealQuantity?
 
-> `optional` **sealQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **sealQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity of seals for this associated piece of transport equipment.
 
@@ -320,7 +320,7 @@ https://vocabulary.uncefact.org/tareWeightMeasure
 
 ### transportEquipmentCategoryCode?
 
-> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)
+> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
 
 A code specifying a category of this piece of associated transport equipment.
 
@@ -368,7 +368,7 @@ https://vocabulary.uncefact.org/usedCapacityCode
 
 ### verifiedGrossWeightMeasure?
 
-> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the verified gross weight (mass) of this piece of associated transport equipment which is the weight (mass)
 including loaded goods, packing and transport equipment.

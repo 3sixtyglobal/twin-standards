@@ -33,7 +33,7 @@ export interface IUneceTTExchangedDocument extends IJsonLdNodeObject {
 	 * The identifier for this TT exchanged document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the issuance of this TT exchanged document.

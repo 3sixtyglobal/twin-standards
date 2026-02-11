@@ -88,7 +88,7 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * The group identifier in this financing request document.
 	 * @see https://vocabulary.uncefact.org/groupId
 	 */
-	groupId: string;
+	groupId?: string;
 
 	/**
 	 * The number of grouped transactions specified in this financing request document.
@@ -118,11 +118,11 @@ export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
 	 * The requesting party specified in this financing request document.
 	 * @see https://vocabulary.uncefact.org/specifiedRequestingParty
 	 */
-	specifiedRequestingParty: IUneceRequestingParty;
+	specifiedRequestingParty?: IUneceRequestingParty;
 
 	/**
 	 * The status of the validation specified for this financing request document, such as error.
 	 * @see https://vocabulary.uncefact.org/specifiedValidationStatus
 	 */
-	specifiedValidationStatus?: IUneceValidationStatus[];
+	specifiedValidationStatus?: IUneceValidationStatus;
 }

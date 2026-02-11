@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/rule
 
 ### specifiedPaymentTradeSettlement?
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
+> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
 
 The payment trade settlement for this specified requirement.
 

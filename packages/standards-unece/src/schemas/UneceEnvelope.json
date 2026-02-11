@@ -126,7 +126,8 @@
 	},
 	"required": [
 		"type",
-		"metadataDocument"
+		"metadataDocument",
+		"versionId"
 	],
 	"additionalProperties": {
 		"anyOf": [

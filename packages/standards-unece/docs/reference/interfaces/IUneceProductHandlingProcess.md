@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/operationCountry
 
 ### operatorParty?
 
-> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade party who is an operator of this product handling process.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### processTypeCode?
 
-> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)[]
+> `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)
 
 The code specifying the type of product handling process.
 

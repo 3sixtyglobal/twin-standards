@@ -87,7 +87,7 @@ export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this metric characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A method specified for a value of this metric characteristic.

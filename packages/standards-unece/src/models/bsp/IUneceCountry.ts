@@ -29,7 +29,7 @@ export interface IUneceCountry extends IJsonLdNodeObject {
 	 * A unique identifier for this trade country.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId;
+	countryId?: UneceCountryId[];
 
 	/**
 	 * A name, expressed as text, of this trade country.
@@ -41,7 +41,7 @@ export interface IUneceCountry extends IJsonLdNodeObject {
 	 * A quantity specified for this trade country.
 	 * @see https://vocabulary.uncefact.org/specifiedQuantity
 	 */
-	specifiedQuantity?: IUneceQuantityType;
+	specifiedQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.

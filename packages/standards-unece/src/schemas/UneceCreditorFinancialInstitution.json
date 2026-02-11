@@ -224,10 +224,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"bICId",
-		"cHIPSUniversalId",
-		"specifiedProprietaryIdentity"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

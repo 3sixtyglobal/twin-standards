@@ -59,7 +59,7 @@ export interface IUneceProcessCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this process certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A standard, expressed as text, used for this process certification.

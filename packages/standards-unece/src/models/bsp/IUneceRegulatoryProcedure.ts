@@ -101,7 +101,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * A consignment destination location specified for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/consignmentDestinationSpecifiedLocation
 	 */
-	consignmentDestinationSpecifiedLocation?: IUneceLogisticsLocation;
+	consignmentDestinationSpecifiedLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The indication of whether or not a control is required for this cross-border regulatory procedure.
@@ -158,7 +158,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/deferredPayableTotalChargeAmount
 	 */
-	deferredPayableTotalChargeAmount?: IUneceAmountType;
+	deferredPayableTotalChargeAmount?: IUneceAmountType[];
 
 	/**
 	 * The indication of whether or not the deferred payment method is applicable to this cross-border regulatory procedure.
@@ -177,7 +177,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * the customs territory of entry.
 	 * @see https://vocabulary.uncefact.org/entryCustomsOfficeSpecifiedLocation
 	 */
-	entryCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation[];
+	entryCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * An examination event for this cross-border regulatory procedure.
@@ -189,21 +189,21 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * A party who claims an exemption from this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/exemptionClaimantParty
 	 */
-	exemptionClaimantParty?: IUneceTradeParty;
+	exemptionClaimantParty?: IUneceTradeParty[];
 
 	/**
 	 * The location of the specified customs office at which the goods which are subject to this cross-border regulatory
 	 * procedure leave the customs territory of destination.
 	 * @see https://vocabulary.uncefact.org/exitCustomsOfficeSpecifiedLocation
 	 */
-	exitCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation[];
+	exitCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The location of the specified customs office which is responsible for export formalities for the goods which are subject
 	 * to this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/exportCustomsOfficeSpecifiedLocation
 	 */
-	exportCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation[];
+	exportCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The identifier of the export licence classification for control purposes relevant to this cross-border regulatory
@@ -228,7 +228,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * A code specifying an action for a responsible agency in this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/governmentActionResponsibleAgencyActionCode
 	 */
-	governmentActionResponsibleAgencyActionCode?: UneceGovernmentActionCodeList;
+	governmentActionResponsibleAgencyActionCode?: UneceGovernmentActionCodeList[];
 
 	/**
 	 * The undertaking, expressed as text, given in cash, bond or as a written guarantee to ensure that an obligation will be
@@ -242,20 +242,20 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/immediatePayableTotalChargeAmount
 	 */
-	immediatePayableTotalChargeAmount?: IUneceAmountType;
+	immediatePayableTotalChargeAmount?: IUneceAmountType[];
 
 	/**
 	 * The location of the specified customs office which is responsible for import formalities for the goods which are subject
 	 * to this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/importCustomsOfficeSpecifiedLocation
 	 */
-	importCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation[];
+	importCustomsOfficeSpecifiedLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * A monetary value of all non-tariff charges for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/nonTariffChargeAmount
 	 */
-	nonTariffChargeAmount?: IUneceAmountType;
+	nonTariffChargeAmount?: IUneceAmountType[];
 
 	/**
 	 * The origin criteria, expressed as text, for this cross-border regulatory procedure.
@@ -341,7 +341,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * A code specifying a responsible agency involved in this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode
 	 */
-	responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode?: UneceResponsibleGovernmentAgencyInvolvementCodeList;
+	responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode?: UneceResponsibleGovernmentAgencyInvolvementCodeList[];
 
 	/**
 	 * The code specifying the agency responsible for this cross-border regulatory procedure.
@@ -365,19 +365,19 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * A monetary value of a tariff for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/tariffAmount
 	 */
-	tariffAmount?: IUneceAmountType;
+	tariffAmount?: IUneceAmountType[];
 
 	/**
 	 * A quantity to be deducted from the tariff quantity for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/tariffDeductionQuantity
 	 */
-	tariffDeductionQuantity?: IUneceQuantityType;
+	tariffDeductionQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A tariff quantity for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/tariffQuantity
 	 */
-	tariffQuantity?: IUneceQuantityType;
+	tariffQuantity?: IUneceQuantityType[];
 
 	/**
 	 * A monetary value of the total charges, including tariff and non-tariff charges, for this cross-border regulatory
@@ -417,7 +417,7 @@ export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
 	 * procedure.
 	 * @see https://vocabulary.uncefact.org/transportMovementTypeCode
 	 */
-	transportMovementTypeCode?: UneceTransportMovementTypeCodeList;
+	transportMovementTypeCode?: UneceTransportMovementTypeCodeList[];
 
 	/**
 	 * A treatment event for this cross-border regulatory procedure.

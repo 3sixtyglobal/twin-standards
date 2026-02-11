@@ -131,6 +131,7 @@
 	},
 	"required": [
 		"type",
+		"identifier",
 		"level"
 	],
 	"additionalProperties": {

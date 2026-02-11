@@ -235,7 +235,7 @@ https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 
 ### deductionAmount?
 
-> `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the deduction from this trade related tax, levy or duty.
 
@@ -452,7 +452,7 @@ https://vocabulary.uncefact.org/rateCode
 
 ### refundAmount?
 
-> `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the refund of this trade related tax, levy or duty.
 
@@ -477,7 +477,7 @@ https://vocabulary.uncefact.org/regimeType
 
 ### selfAssessedBasisAmount?
 
-> `optional` **selfAssessedBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **selfAssessedBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the amount on which this trade related tax, levy or duty has been calculated on a self-assessment
 basis.
@@ -502,7 +502,7 @@ https://vocabulary.uncefact.org/selfAssessedBasisQuantity
 
 ### selfAssessedCalculatedAmount?
 
-> `optional` **selfAssessedCalculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **selfAssessedCalculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the self-assessed calculated amount of this trade related tax, levy or duty.
 
@@ -562,7 +562,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ### tariffDeductionQuantity?
 
-> `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity to be deducted from the tariff quantity for the calculation of this trade related tax, duty or levy.
 
@@ -611,7 +611,7 @@ https://vocabulary.uncefact.org/taxExemptionAuthorityId
 
 ### taxExemptionReasonExemptionReasonCode?
 
-> `optional` **taxExemptionReasonExemptionReasonCode**: [`UneceTaxExemptionReasonCodeList`](../type-aliases/UneceTaxExemptionReasonCodeList.md)
+> `optional` **taxExemptionReasonExemptionReasonCode**: [`UneceTaxExemptionReasonCodeList`](../type-aliases/UneceTaxExemptionReasonCodeList.md)[]
 
 A code specifying a reason for exemption from this trade related tax, levy or duty.
 

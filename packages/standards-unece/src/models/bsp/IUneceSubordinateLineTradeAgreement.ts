@@ -51,5 +51,5 @@ export interface IUneceSubordinateLineTradeAgreement extends IJsonLdNodeObject {
 	 * The seller generated order document referenced in this subordinate line trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerOrderDocument
 	 */
-	sellerOrderDocument?: IUneceDocument[];
+	sellerOrderDocument?: IUneceDocument;
 }

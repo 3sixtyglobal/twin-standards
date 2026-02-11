@@ -84,7 +84,7 @@ export interface IUneceExperienceFacility extends IJsonLdNodeObject {
 	 * A physical location specified for this experience facility.
 	 * @see https://vocabulary.uncefact.org/physicalSpecifiedLocation
 	 */
-	physicalSpecifiedLocation?: IUneceSpecifiedLocation;
+	physicalSpecifiedLocation?: IUneceSpecifiedLocation[];
 
 	/**
 	 * A specified universal communication for this experience facility.

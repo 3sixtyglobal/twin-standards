@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### frequencyEffectivePeriod?
 
-> `optional` **frequencyEffectivePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **frequencyEffectivePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period of time for which a frequency is effective for this transport route.
 

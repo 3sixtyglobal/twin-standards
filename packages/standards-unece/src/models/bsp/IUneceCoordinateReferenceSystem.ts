@@ -27,7 +27,7 @@ export interface IUneceCoordinateReferenceSystem extends IJsonLdNodeObject {
 	 * The identifier for this CS engineering coordinate reference system.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The level, expressed as text, of this CS engineering coordinate reference system.

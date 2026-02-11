@@ -295,11 +295,11 @@ export interface IUneceTradePrice extends IJsonLdNodeObject {
 	 * A monetary value of the unit of this trade price.
 	 * @see https://vocabulary.uncefact.org/unitAmount
 	 */
-	unitAmount?: IUneceAmountType;
+	unitAmount?: IUneceAmountType[];
 
 	/**
 	 * A specified period for which this trade price is valid.
 	 * @see https://vocabulary.uncefact.org/validityPeriod
 	 */
-	validityPeriod?: IUneceSpecifiedPeriod;
+	validityPeriod?: IUneceSpecifiedPeriod[];
 }

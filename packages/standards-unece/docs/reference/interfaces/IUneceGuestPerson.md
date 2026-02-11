@@ -252,9 +252,9 @@ https://vocabulary.uncefact.org/notifiedProtectionMeans
 
 ***
 
-### passportId
+### passportId?
 
-> **passportId**: `string`
+> `optional` **passportId**: `string`
 
 The identifier of the passport of this guest.
 

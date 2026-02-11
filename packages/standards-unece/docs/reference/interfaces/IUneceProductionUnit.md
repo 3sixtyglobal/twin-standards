@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/outputApplicableProduct
 
 ### physicalLocation?
 
-> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A physical location referenced for this facility production unit.
 

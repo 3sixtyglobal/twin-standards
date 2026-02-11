@@ -121,12 +121,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"agentAssignedCustomerId",
-		"bICId",
-		"bankAssignedId",
-		"cHIPSUniversalId",
-		"iBEIId"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

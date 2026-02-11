@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### includedPolygon?
 
-> `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)
+> `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)[]
 
 A polygon included in this geographical multi-surface.
 

@@ -112,7 +112,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"typeCode",
+		"value"
 	],
 	"additionalProperties": {
 		"anyOf": [

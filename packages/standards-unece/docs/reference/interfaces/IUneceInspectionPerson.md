@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### attainedSpecifiedQualification?
+### attainedSpecifiedQualification
 
-> `optional` **attainedSpecifiedQualification**: [`IUneceSpecifiedQualification`](IUneceSpecifiedQualification.md)[]
+> **attainedSpecifiedQualification**: [`IUneceSpecifiedQualification`](IUneceSpecifiedQualification.md)
 
 The specified qualification attained by this inspection person.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/attainedSpecifiedQualification
 
 ***
 
-### inspectionPersonName?
+### inspectionPersonName
 
-> `optional` **inspectionPersonName**: `string`
+> **inspectionPersonName**: `string`
 
 The name or set of names, expressed as text, by which this inspection person is known.
 

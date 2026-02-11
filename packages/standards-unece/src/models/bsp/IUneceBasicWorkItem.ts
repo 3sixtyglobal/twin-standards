@@ -68,7 +68,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * The unique identifier for this basic work item.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The index, expressed as text, to be used for this basic work item.
@@ -86,7 +86,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * The unique identifier of a price list item for this basic work item.
 	 * @see https://vocabulary.uncefact.org/priceListItemId
 	 */
-	priceListItemId: string;
+	priceListItemId?: string;
 
 	/**
 	 * A code specifying the primary classification for this basic work item.
@@ -98,7 +98,7 @@ export interface IUneceBasicWorkItem extends IJsonLdNodeObject {
 	 * The unique identifier of another work item referenced by this basic work item.
 	 * @see https://vocabulary.uncefact.org/referenceId
 	 */
-	referenceId: string;
+	referenceId?: string;
 
 	/**
 	 * A code specifying a requested action for this basic work item.

@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/certificationBasis
 
 ### consignmentDestinationSpecifiedLocation?
 
-> `optional` **consignmentDestinationSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **consignmentDestinationSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A consignment destination location specified for this cross-border regulatory procedure.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/declarationLodgementLocation
 
 ### deferredPayableTotalChargeAmount?
 
-> `optional` **deferredPayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **deferredPayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total charges, including tariff and non-tariff charges, deferred for this cross-border
 regulatory procedure.
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/document
 
 ### entryCustomsOfficeSpecifiedLocation?
 
-> `optional` **entryCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **entryCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office at which the goods subject to this cross-border regulatory procedure, enter
 the customs territory of entry.
@@ -318,7 +318,7 @@ https://vocabulary.uncefact.org/examinationEvent
 
 ### exemptionClaimantParty?
 
-> `optional` **exemptionClaimantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **exemptionClaimantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party who claims an exemption from this cross-border regulatory procedure.
 
@@ -330,7 +330,7 @@ https://vocabulary.uncefact.org/exemptionClaimantParty
 
 ### exitCustomsOfficeSpecifiedLocation?
 
-> `optional` **exitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **exitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office at which the goods which are subject to this cross-border regulatory
 procedure leave the customs territory of destination.
@@ -343,7 +343,7 @@ https://vocabulary.uncefact.org/exitCustomsOfficeSpecifiedLocation
 
 ### exportCustomsOfficeSpecifiedLocation?
 
-> `optional` **exportCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **exportCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office which is responsible for export formalities for the goods which are subject
 to this cross-border regulatory procedure.
@@ -393,7 +393,7 @@ https://vocabulary.uncefact.org/goodsStatusCode
 
 ### governmentActionResponsibleAgencyActionCode?
 
-> `optional` **governmentActionResponsibleAgencyActionCode**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)
+> `optional` **governmentActionResponsibleAgencyActionCode**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)[]
 
 A code specifying an action for a responsible agency in this cross-border regulatory procedure.
 
@@ -418,7 +418,7 @@ https://vocabulary.uncefact.org/guarantee
 
 ### immediatePayableTotalChargeAmount?
 
-> `optional` **immediatePayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **immediatePayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the total charges, including tariff and non-tariff charges, immediately payable for this
 cross-border regulatory procedure.
@@ -431,7 +431,7 @@ https://vocabulary.uncefact.org/immediatePayableTotalChargeAmount
 
 ### importCustomsOfficeSpecifiedLocation?
 
-> `optional` **importCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **importCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The location of the specified customs office which is responsible for import formalities for the goods which are subject
 to this cross-border regulatory procedure.
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/importCustomsOfficeSpecifiedLocation
 
 ### nonTariffChargeAmount?
 
-> `optional` **nonTariffChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **nonTariffChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of all non-tariff charges for this cross-border regulatory procedure.
 
@@ -614,7 +614,7 @@ https://vocabulary.uncefact.org/requiredTestSpecificationReport
 
 ### responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode?
 
-> `optional` **responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode**: [`UneceResponsibleGovernmentAgencyInvolvementCodeList`](../type-aliases/UneceResponsibleGovernmentAgencyInvolvementCodeList.md)
+> `optional` **responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode**: [`UneceResponsibleGovernmentAgencyInvolvementCodeList`](../type-aliases/UneceResponsibleGovernmentAgencyInvolvementCodeList.md)[]
 
 A code specifying a responsible agency involved in this cross-border regulatory procedure.
 
@@ -662,7 +662,7 @@ https://vocabulary.uncefact.org/statementNote
 
 ### tariffAmount?
 
-> `optional` **tariffAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **tariffAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a tariff for this cross-border regulatory procedure.
 
@@ -674,7 +674,7 @@ https://vocabulary.uncefact.org/tariffAmount
 
 ### tariffDeductionQuantity?
 
-> `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity to be deducted from the tariff quantity for this cross-border regulatory procedure.
 
@@ -686,7 +686,7 @@ https://vocabulary.uncefact.org/tariffDeductionQuantity
 
 ### tariffQuantity?
 
-> `optional` **tariffQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **tariffQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A tariff quantity for this cross-border regulatory procedure.
 
@@ -761,7 +761,7 @@ https://vocabulary.uncefact.org/transitReleaseCustomsOfficeSpecifiedLocation
 
 ### transportMovementTypeCode?
 
-> `optional` **transportMovementTypeCode**: [`UneceTransportMovementTypeCodeList`](../type-aliases/UneceTransportMovementTypeCodeList.md)
+> `optional` **transportMovementTypeCode**: [`UneceTransportMovementTypeCodeList`](../type-aliases/UneceTransportMovementTypeCodeList.md)[]
 
 A code specifying the transport movement type, such as import, export, transit, for this cross-border regulatory
 procedure.

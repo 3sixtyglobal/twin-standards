@@ -120,7 +120,6 @@
 	},
 	"required": [
 		"type",
-		"associatedGeographicalObjectCharacteristic",
 		"exteriorLinearRing"
 	],
 	"additionalProperties": {

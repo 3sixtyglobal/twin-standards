@@ -45,7 +45,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * An acceptance delivery event, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/acceptanceEvent
 	 */
-	acceptanceEvent?: IUneceSupplyChainEvent;
+	acceptanceEvent?: IUneceSupplyChainEvent[];
 
 	/**
 	 * An actual delivery event, at line level, for this trade delivery.
@@ -111,7 +111,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The quantity, at line level, available for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/availableQuantity
 	 */
-	availableQuantity?: IUneceQuantityType[];
+	availableQuantity?: IUneceQuantityType;
 
 	/**
 	 * The quantity, at line level, billed for in this trade delivery.
@@ -129,7 +129,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The quantity, at line level, cancelled for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/cancelledQuantity
 	 */
-	cancelledQuantity?: IUneceQuantityType[];
+	cancelledQuantity?: IUneceQuantityType;
 
 	/**
 	 * The quantity, at line level, free of charge, in this trade delivery.
@@ -147,13 +147,13 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The confirmed delivery event, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/confirmedDeliveryEvent
 	 */
-	confirmedDeliveryEvent?: IUneceSupplyChainEvent[];
+	confirmedDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The despatch event, at line level, confirmed for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/confirmedDespatchEvent
 	 */
-	confirmedDespatchEvent?: IUneceSupplyChainEvent[];
+	confirmedDespatchEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The pick-up event, at line level, confirmed for this trade delivery.
@@ -195,7 +195,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The delivery note document, at line level, referenced for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/deliveryNoteDocument
 	 */
-	deliveryNoteDocument?: IUneceDocument[];
+	deliveryNoteDocument?: IUneceDocument;
 
 	/**
 	 * A supply chain delivery schedule, at line level, for this trade delivery.
@@ -237,7 +237,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The due in available quantity, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/dueInAvailableQuantity
 	 */
-	dueInAvailableQuantity?: IUneceQuantityType[];
+	dueInAvailableQuantity?: IUneceQuantityType;
 
 	/**
 	 * The due in forecasted quantity, at line level, for this trade delivery.
@@ -406,7 +406,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The number of units per package, at line level, in this trade delivery.
 	 * @see https://vocabulary.uncefact.org/perPackageUnitQuantity
 	 */
-	perPackageUnitQuantity?: IUneceQuantityType[];
+	perPackageUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The formatted date, time, date time, or other date time value, at line level, when this delivery is available for
@@ -443,7 +443,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The planned ship to delivery event, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/plannedShipToDeliveryEvent
 	 */
-	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent[];
+	plannedShipToDeliveryEvent?: IUneceSupplyChainEvent;
 
 	/**
 	 * The number of product units, at line level, in this trade delivery.
@@ -545,13 +545,13 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The ship from party, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipFromParty
 	 */
-	shipFromParty?: IUneceTradeParty[];
+	shipFromParty?: IUneceTradeParty;
 
 	/**
 	 * The ship to party, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty[];
+	shipToParty?: IUneceTradeParty;
 
 	/**
 	 * The shipment schedule document referenced, at line level, for this trade delivery.
@@ -630,13 +630,13 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The ultimate ship to party, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToParty
 	 */
-	ultimateShipToParty?: IUneceTradeParty[];
+	ultimateShipToParty?: IUneceTradeParty;
 
 	/**
 	 * The quantity, at line level, unavailable for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/unavailableQuantity
 	 */
-	unavailableQuantity?: IUneceQuantityType[];
+	unavailableQuantity?: IUneceQuantityType;
 
 	/**
 	 * A logistics label, at line level, used for this trade delivery.
@@ -660,7 +660,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The measure, at line level, of the net volume of this line trade delivery.
 	 * @see https://vocabulary.uncefact.org/volumeUnitNetVolumeMeasure
 	 */
-	volumeUnitNetVolumeMeasure?: IUneceVolumeUnitMeasureType[];
+	volumeUnitNetVolumeMeasure?: IUneceVolumeUnitMeasureType;
 
 	/**
 	 * The measure of the chargeable weight, at line level, for this trade delivery.
@@ -678,7 +678,7 @@ export interface IUneceLineTradeDelivery extends IJsonLdNodeObject {
 	 * The measure, at line level, of the net weight (mass) of this trade delivery.
 	 * @see https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 	 */
-	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType[];
+	weightUnitNetWeightMeasure?: IUneceWeightUnitMeasureType;
 
 	/**
 	 * The measure, at line level, of the theoretical weight of this trade delivery.

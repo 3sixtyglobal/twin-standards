@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### alienRegistrationId
+### alienRegistrationId?
 
-> **alienRegistrationId**: `string`
+> `optional` **alienRegistrationId**: `string`
 
 The alien registration identifier for this person.
 
@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/alienRegistrationId
 
 ***
 
-### driversLicenceId
+### driversLicenceId?
 
-> **driversLicenceId**: `string`
+> `optional` **driversLicenceId**: `string`
 
 The drivers licence identifier for this person.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/driversLicenceId
 
 ***
 
-### identityCardId
+### identityCardId?
 
-> **identityCardId**: `string`
+> `optional` **identityCardId**: `string`
 
 The identity card identifier for this person.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/identityCardId
 
 ***
 
-### passportId
+### passportId?
 
-> **passportId**: `string`
+> `optional` **passportId**: `string`
 
 The passport identifier for this person.
 
@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/passportId
 
 ***
 
-### socialSecurityId
+### socialSecurityId?
 
-> **socialSecurityId**: `string`
+> `optional` **socialSecurityId**: `string`
 
 The social security identifier for this person.
 
@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/socialSecurityId
 
 ***
 
-### specifiedProprietaryIdentity
+### specifiedProprietaryIdentity?
 
-> **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
 A proprietary Identity specified for this person.
 

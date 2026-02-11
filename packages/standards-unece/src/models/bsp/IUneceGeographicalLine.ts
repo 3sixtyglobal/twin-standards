@@ -27,7 +27,7 @@ export interface IUneceGeographicalLine extends IJsonLdNodeObject {
 	 * The direct position list associated with this geographical line.
 	 * @see https://vocabulary.uncefact.org/associatedDirectPositionList
 	 */
-	associatedDirectPositionList?: string;
+	associatedDirectPositionList: string;
 
 	/**
 	 * The geographical object characteristic associated with this geographical line.

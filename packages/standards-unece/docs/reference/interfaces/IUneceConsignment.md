@@ -67,7 +67,7 @@ https://vocabulary.uncefact.org/applicableCargoInsurance
 
 ### applicableCurrencyExchange?
 
-> `optional` **applicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
+> `optional` **applicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
 
 A currency exchange applicable to this supply chain consignment.
 
@@ -79,7 +79,7 @@ https://vocabulary.uncefact.org/applicableCurrencyExchange
 
 ### applicableCustomsValuation?
 
-> `optional` **applicableCustomsValuation**: [`IUneceCustomsValuation`](IUneceCustomsValuation.md)
+> `optional` **applicableCustomsValuation**: [`IUneceCustomsValuation`](IUneceCustomsValuation.md)[]
 
 A cross-border customs valuation applicable to this supply chain consignment.
 
@@ -152,7 +152,7 @@ https://vocabulary.uncefact.org/associatedInvoiceAmount
 
 ### associatedInvoiceDiscountAmount?
 
-> `optional` **associatedInvoiceDiscountAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **associatedInvoiceDiscountAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the discount on an invoice associated with this supply chain consignment.
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/carrierAssignedId
 
 ### carrierParty?
 
-> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The carrier party for this supply chain consignment.
 
@@ -692,7 +692,7 @@ https://vocabulary.uncefact.org/declaredValueForCarriageAmount
 
 ### declaredValueForCustomsAmount?
 
-> `optional` **declaredValueForCustomsAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **declaredValueForCustomsAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value declared for customs purposes for this supply chain consignment.
 
@@ -752,7 +752,7 @@ https://vocabulary.uncefact.org/deliveryParty
 
 ### deliveryTransportEvent?
 
-> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 The delivery event for this supply chain consignment.
 
@@ -935,7 +935,7 @@ https://vocabulary.uncefact.org/freightForwarderAssignedId
 
 ### freightForwarderParty?
 
-> `optional` **freightForwarderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **freightForwarderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The freight forwarder party for this supply chain consignment.
 
@@ -983,7 +983,7 @@ https://vocabulary.uncefact.org/groupingCentreParty
 
 ### handlingInstructions?
 
-> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)
+> `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
 Handling instructions for this supply chain consignment, such as where or how specified packages or containers are to be
 loaded on a means of transport.
@@ -1092,7 +1092,7 @@ https://vocabulary.uncefact.org/information
 
 ### insuranceApplicableCurrencyExchange?
 
-> `optional` **insuranceApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
+> `optional` **insuranceApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
 
 A currency exchange applicable to an insurance charge for this supply chain consignment.
 
@@ -1140,7 +1140,7 @@ https://vocabulary.uncefact.org/intermediateConsigneeParty
 
 ### invoiceApplicableCurrencyExchange?
 
-> `optional` **invoiceApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
+> `optional` **invoiceApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
 
 A currency exchange applicable to the invoice for this supply chain consignment.
 
@@ -1164,7 +1164,7 @@ https://vocabulary.uncefact.org/invoiceeAssociatedParty
 
 ### linearUnitLoadingLengthMeasure?
 
-> `optional` **linearUnitLoadingLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
+> `optional` **linearUnitLoadingLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)[]
 
 A measure of the loading length which is the length along a means of transport over which the complete width and height
 is needed for loading all the goods items in this supply chain consignment.
@@ -1274,7 +1274,7 @@ https://vocabulary.uncefact.org/mainCarriageTransportMovement
 
 ### manifestAssociatedDocument?
 
-> `optional` **manifestAssociatedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **manifestAssociatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced manifest document associated to this supply chain consignment.
 
@@ -1286,7 +1286,7 @@ https://vocabulary.uncefact.org/manifestAssociatedDocument
 
 ### natureIdentificationCargo?
 
-> `optional` **natureIdentificationCargo**: [`IUneceCargo`](IUneceCargo.md)[]
+> `optional` **natureIdentificationCargo**: [`IUneceCargo`](IUneceCargo.md)
 
 Transport cargo details of this supply chain consignment sufficient to identify its nature for customs, statistical or
 transport purposes.
@@ -1431,7 +1431,7 @@ https://vocabulary.uncefact.org/packageType
 
 ### physicalShippingMarks?
 
-> `optional` **physicalShippingMarks**: [`IUneceShippingMarks`](IUneceShippingMarks.md)
+> `optional` **physicalShippingMarks**: [`IUneceShippingMarks`](IUneceShippingMarks.md)[]
 
 Physical logistics shipping marks and barcoding information related to this supply chain consignment.
 
@@ -1443,7 +1443,7 @@ https://vocabulary.uncefact.org/physicalShippingMarks
 
 ### pickUpEvent?
 
-> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
 The pick-up event for this supply chain consignment.
 
@@ -1563,7 +1563,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### serviceChargeApplicableCurrencyExchange?
 
-> `optional` **serviceChargeApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
+> `optional` **serviceChargeApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)[]
 
 A currency exchange applicable to a service charge for this supply chain consignment.
 
@@ -1575,7 +1575,7 @@ https://vocabulary.uncefact.org/serviceChargeApplicableCurrencyExchange
 
 ### shipFromParty?
 
-> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ship from party for this supply chain consignment.
 
@@ -1600,7 +1600,7 @@ https://vocabulary.uncefact.org/shipStoresIndicator
 
 ### shipToParty?
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The ship to party for this supply chain consignment.
 
@@ -1624,7 +1624,7 @@ https://vocabulary.uncefact.org/shippedOnboardDateTime
 
 ### specifiedDeliveryTerms?
 
-> `optional` **specifiedDeliveryTerms**: [`IUneceDeliveryTerms`](IUneceDeliveryTerms.md)
+> `optional` **specifiedDeliveryTerms**: [`IUneceDeliveryTerms`](IUneceDeliveryTerms.md)[]
 
 Delivery terms specified for this supply chain consignment.
 
@@ -1684,7 +1684,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainReference
 
 ### specifiedTransportMovement?
 
-> `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
+> `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
 A logistics transport movement specified for this supply chain consignment.
 
@@ -1732,7 +1732,7 @@ https://vocabulary.uncefact.org/summaryDescription
 
 ### totalAllowanceChargeAmount?
 
-> `optional` **totalAllowanceChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalAllowanceChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The total monetary value of all allowances and charges for this supply chain consignment.
 
@@ -1744,7 +1744,7 @@ https://vocabulary.uncefact.org/totalAllowanceChargeAmount
 
 ### totalChargeAmount?
 
-> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The total monetary value of all freight and other service charges for this supply chain consignment.
 
@@ -1868,7 +1868,7 @@ https://vocabulary.uncefact.org/transportContractDocument
 
 ### transportEquipmentQuantity?
 
-> `optional` **transportEquipmentQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **transportEquipmentQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number of pieces of transport equipment, such as containers or similar unit load devices, in this supply chain
 consignment.
@@ -2053,7 +2053,7 @@ https://vocabulary.uncefact.org/vanningEvent
 
 ### volumeUnitGrossVolumeMeasure?
 
-> `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
+> `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
 A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply
 chain consignment.
@@ -2138,7 +2138,7 @@ https://vocabulary.uncefact.org/warehouseStorageEvent
 
 ### weightUnitChargeableWeightMeasure?
 
-> `optional` **weightUnitChargeableWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitChargeableWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of a chargeable weight of this supply chain consignment.
 
@@ -2150,7 +2150,7 @@ https://vocabulary.uncefact.org/weightUnitChargeableWeightMeasure
 
 ### weightUnitGrossWeightMeasure?
 
-> `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
 A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which
 excludes the weight of any transport equipment.

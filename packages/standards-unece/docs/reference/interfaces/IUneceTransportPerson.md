@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/landlineTelephoneCommunication
 
 ### mobileTelephoneCommunication?
 
-> `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Mobile telephone communication information for this transport person.
 

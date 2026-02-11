@@ -60,7 +60,7 @@ export interface IUneceSpecifiedPeriod extends IJsonLdNodeObject {
 	 * A measure of the length of time for this specified time period such as hours, days, weeks, months, years.
 	 * @see https://vocabulary.uncefact.org/durationMeasure
 	 */
-	durationMeasure?: IUneceMeasureType;
+	durationMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The date, time, date time or other date time value for the end of this specified period of time.

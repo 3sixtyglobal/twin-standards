@@ -25,5 +25,5 @@ export interface IUneceSpecifiedQualification extends IJsonLdNodeObject {
 	 * The name, expressed as text, of this specified qualification.
 	 * @see https://vocabulary.uncefact.org/name
 	 */
-	name?: string;
+	name: string;
 }

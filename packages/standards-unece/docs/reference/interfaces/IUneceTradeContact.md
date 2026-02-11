@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/eDICommunication
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The email URI communication information for this trade contact.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/specifiedNote
 
 ### telephoneCommunication?
 
-> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Telephone communication information for this trade contact.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/telexCommunication
 
 ### uRICommunication?
 
-> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 Uniform Resource Identifier (URI) communication information for this trade contact, such as a web or an email address.
 

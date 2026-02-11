@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### handling
+### handling?
 
-> **handling**: `string`
+> `optional` **handling**: `string`
 
 Delivery handling instructions expressed as text.
 

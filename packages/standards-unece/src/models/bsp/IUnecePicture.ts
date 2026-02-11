@@ -82,7 +82,7 @@ export interface IUnecePicture extends IJsonLdNodeObject {
 	 * Linear spatial dimensions of this photographic picture.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension;
+	linearDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * The type, expressed as text, of this photographic picture.

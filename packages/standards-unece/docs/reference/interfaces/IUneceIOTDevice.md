@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/latestReceivedSignalDateTime
 
 ### manufacturerParty?
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party of this monitoring IOT device.
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### ownerParty?
 
-> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The owner party of this monitoring IOT device.
 

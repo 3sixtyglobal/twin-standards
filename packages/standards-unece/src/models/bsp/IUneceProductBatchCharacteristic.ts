@@ -100,7 +100,7 @@ export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this product batch characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A method specified for a value of this product batch characteristic.

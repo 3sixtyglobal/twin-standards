@@ -121,13 +121,13 @@ export interface IUnecePaymentTerms extends IJsonLdNodeObject {
 	 * The unique identifier of these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsId
 	 */
-	paymentTermsId?: UnecePaymentTermsId[];
+	paymentTermsId?: UnecePaymentTermsId;
 
 	/**
 	 * A code specifying the type of trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsTypeCode
 	 */
-	paymentTermsTypeCode?: UnecePaymentTermsTypeCodeList;
+	paymentTermsTypeCode?: UnecePaymentTermsTypeCodeList[];
 
 	/**
 	 * The measure of the number of settlement periods from this trade payment term time reference to the latest payment date,

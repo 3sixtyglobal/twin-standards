@@ -84,9 +84,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedClause
+### includedClause?
 
-> **includedClause**: [`IUneceClause`](IUneceClause.md)[]
+> `optional` **includedClause**: [`IUneceClause`](IUneceClause.md)[]
 
 A document clause included in this document authentication.
 

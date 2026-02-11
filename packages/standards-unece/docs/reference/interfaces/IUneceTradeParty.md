@@ -447,7 +447,7 @@ https://vocabulary.uncefact.org/disclosureLevelCode
 
 ### emailURICommunication?
 
-> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The email communication for this trade party.
 
@@ -519,7 +519,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issuedNotificationReferencedDocument?
 
-> `optional` **issuedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **issuedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced notification document issued to this trade party.
 
@@ -603,7 +603,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 The postal address for this trade party.
 
@@ -711,7 +711,7 @@ https://vocabulary.uncefact.org/requestedExperienceItem
 
 ### requestedNotificationReferencedDocument?
 
-> `optional` **requestedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
+> `optional` **requestedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
 A referenced notification document requested by this trade party.
 
@@ -783,7 +783,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### specifiedAuthoritativeSignatoryPerson?
 
-> `optional` **specifiedAuthoritativeSignatoryPerson**: [`IUneceAuthoritativeSignatoryPerson`](IUneceAuthoritativeSignatoryPerson.md)
+> `optional` **specifiedAuthoritativeSignatoryPerson**: [`IUneceAuthoritativeSignatoryPerson`](IUneceAuthoritativeSignatoryPerson.md)[]
 
 A person specified to sign on behalf of this trade party.
 
@@ -795,7 +795,7 @@ https://vocabulary.uncefact.org/specifiedAuthoritativeSignatoryPerson
 
 ### specifiedContactPerson?
 
-> `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)
+> `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)[]
 
 A contact person specified for this trade party.
 
@@ -807,7 +807,7 @@ https://vocabulary.uncefact.org/specifiedContactPerson
 
 ### specifiedCooperatingOrganization?
 
-> `optional` **specifiedCooperatingOrganization**: [`IUneceCooperatingOrganization`](IUneceCooperatingOrganization.md)
+> `optional` **specifiedCooperatingOrganization**: [`IUneceCooperatingOrganization`](IUneceCooperatingOrganization.md)[]
 
 A cooperating organization specified for this trade party.
 
@@ -841,9 +841,9 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ***
 
-### specifiedFinancialIdentity
+### specifiedFinancialIdentity?
 
-> **specifiedFinancialIdentity**: [`IUneceFinancialIdentity`](IUneceFinancialIdentity.md)[]
+> `optional` **specifiedFinancialIdentity**: [`IUneceFinancialIdentity`](IUneceFinancialIdentity.md)
 
 The financial identity specified for this trade party.
 
@@ -867,7 +867,7 @@ https://vocabulary.uncefact.org/specifiedGovernmentRegistration
 
 ### specifiedGuestPerson?
 
-> `optional` **specifiedGuestPerson**: [`IUneceGuestPerson`](IUneceGuestPerson.md)
+> `optional` **specifiedGuestPerson**: [`IUneceGuestPerson`](IUneceGuestPerson.md)[]
 
 A guest person specified by this trade party.
 
@@ -891,7 +891,7 @@ https://vocabulary.uncefact.org/specifiedLegalOrganization
 
 ### specifiedLogisticsLocation?
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics related location or place specified for this trade party.
 
@@ -901,9 +901,9 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### specifiedProprietaryIdentity
+### specifiedProprietaryIdentity?
 
-> **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
 A proprietary identity specified for this trade party.
 
@@ -963,7 +963,7 @@ https://vocabulary.uncefact.org/subcontractorParty
 
 ### telephoneCommunication?
 
-> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A telephone communication for this trade party.
 
@@ -987,7 +987,7 @@ https://vocabulary.uncefact.org/tradePartyLanguageCode
 
 ### uRICommunication?
 
-> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A Uniform Resource Identifier (URI) communication for this trade party, such as a web or email address.
 

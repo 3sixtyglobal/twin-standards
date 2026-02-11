@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/creationBinaryFile
 
 ***
 
-### creationDateTime?
+### creationDateTime
 
-> `optional` **creationDateTime**: `string`
+> **creationDateTime**: `string`
 
 The date, time, date time, or other date time value of the creation of this valuation breakdown statement.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier for this valuation breakdown statement.
 
@@ -192,9 +192,9 @@ https://vocabulary.uncefact.org/measurementMethodId
 
 ***
 
-### name?
+### name
 
-> `optional` **name**: `string`
+> **name**: `string`
 
 The name, expressed as text, for this valuation breakdown statement.
 

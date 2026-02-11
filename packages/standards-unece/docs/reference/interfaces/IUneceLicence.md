@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party that issues this specified licence.
 

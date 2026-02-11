@@ -156,7 +156,7 @@ export interface IUneceTransportPerson extends IJsonLdNodeObject {
 	 * Mobile telephone communication information for this transport person.
 	 * @see https://vocabulary.uncefact.org/mobileTelephoneCommunication
 	 */
-	mobileTelephoneCommunication?: IUneceCommunication;
+	mobileTelephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * A country that constitutes a nationality by origin, birth, or naturalization for this transport person.

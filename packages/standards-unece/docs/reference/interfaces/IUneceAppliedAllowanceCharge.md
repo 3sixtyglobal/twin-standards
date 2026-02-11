@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### actualAmount?
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The actual monetary value of the applied allowance charge.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/appliedAllowanceChargeReasonCode
 
 ### basisAmount?
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value that is the basis on which the applied allowance charge is calculated.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ### categoryAppliedTax?
 
-> `optional` **categoryAppliedTax**: [`IUneceAppliedTax`](IUneceAppliedTax.md)[]
+> `optional` **categoryAppliedTax**: [`IUneceAppliedTax`](IUneceAppliedTax.md)
 
 The applied tax category of this applied allowance charge.
 
@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/categoryAppliedTax
 
 ***
 
-### chargeIndicator?
+### chargeIndicator
 
-> `optional` **chargeIndicator**: `boolean`
+> **chargeIndicator**: `boolean`
 
 The indication of whether or not the applied allowance charge is a charge.
 

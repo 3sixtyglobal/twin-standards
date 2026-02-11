@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/profileId
 
 ***
 
-### versionId?
+### versionId
 
-> `optional` **versionId**: `string`
+> **versionId**: `string`
 
 The version identifier for this XHE envelope.
 

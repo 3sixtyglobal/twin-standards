@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/allowanceCharge
 
 ### appliedAmount?
 
-> `optional` **appliedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **appliedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value applied to this logistics service charge.
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/serviceTypeCode
 
 ### specifiedPaymentMeans?
 
-> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)[]
+> `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
 The trade settlement payment means specified for this logistics service charge.
 

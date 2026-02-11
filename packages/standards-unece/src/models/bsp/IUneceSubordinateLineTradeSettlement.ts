@@ -45,7 +45,7 @@ export interface IUneceSubordinateLineTradeSettlement extends IJsonLdNodeObject 
 	 * The billing period specified for the subordinate line of this trade settlement.
 	 * @see https://vocabulary.uncefact.org/billingPeriod
 	 */
-	billingPeriod?: IUneceSpecifiedPeriod[];
+	billingPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * An invoice document referenced for this subordinate line trade settlement.

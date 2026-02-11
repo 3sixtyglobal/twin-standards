@@ -26,29 +26,29 @@ export interface IUneceIndividualTTAnimal extends IJsonLdNodeObject {
 	 * The birth date for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
 	 */
-	birthDateTime?: string;
+	birthDateTime: string;
 
 	/**
 	 * The death date for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/deathDateTime
 	 */
-	deathDateTime?: string;
+	deathDateTime: string;
 
 	/**
 	 * The identifier for this TT animal, such as the number appearing on an animal ear tag.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The delimited period specified for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 	 */
-	specifiedDelimitedPeriod?: IUneceDelimitedPeriod[];
+	specifiedDelimitedPeriod?: IUneceDelimitedPeriod;
 
 	/**
 	 * The delimited period specified for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/specifiedPeriod
 	 */
-	specifiedPeriod?: IUneceDelimitedPeriod[];
+	specifiedPeriod?: IUneceDelimitedPeriod;
 }

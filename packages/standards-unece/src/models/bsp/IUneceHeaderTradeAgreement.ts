@@ -85,7 +85,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The buyer agent party for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerAgentParty
 	 */
-	buyerAgentParty?: IUneceTradeParty[];
+	buyerAgentParty?: IUneceTradeParty;
 
 	/**
 	 * The date, time, date time, or other date time value of approval by the buyer for this header trade agreement.
@@ -103,7 +103,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The buyer generated order document referenced in this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDocument
 	 */
-	buyerOrderDocument?: IUneceDocument[];
+	buyerOrderDocument?: IUneceDocument;
 
 	/**
 	 * The buyer party for this header trade agreement.
@@ -133,7 +133,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The carrier party, at header level, for this trade agreement.
 	 * @see https://vocabulary.uncefact.org/carrierParty
 	 */
-	carrierParty?: IUneceTradeParty[];
+	carrierParty?: IUneceTradeParty;
 
 	/**
 	 * A catalogue document referenced in this header trade agreement.
@@ -217,7 +217,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The marketplace generated order document referenced in this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/marketplaceOrderDocument
 	 */
-	marketplaceOrderDocument?: IUneceDocument[];
+	marketplaceOrderDocument?: IUneceDocument;
 
 	/**
 	 * The order response document referenced in this header trade agreement.
@@ -229,7 +229,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The original order document referenced in this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/originalOrderDocument
 	 */
-	originalOrderDocument?: IUneceDocument[];
+	originalOrderDocument?: IUneceDocument;
 
 	/**
 	 * The previous order change document referenced in this header trade agreement.
@@ -241,7 +241,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The previous order document referenced in this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/previousOrderDocument
 	 */
-	previousOrderDocument?: IUneceDocument[];
+	previousOrderDocument?: IUneceDocument;
 
 	/**
 	 * The previous order response document referenced in this header trade agreement.
@@ -259,13 +259,13 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The logistics location applicable to the pricing base for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/pricingBaseApplicableLocation
 	 */
-	pricingBaseApplicableLocation?: IUneceLogisticsLocation[];
+	pricingBaseApplicableLocation?: IUneceLogisticsLocation;
 
 	/**
 	 * The seller party acting as the prime contractor for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/primeContractSellerParty
 	 */
-	primeContractSellerParty?: IUneceTradeParty[];
+	primeContractSellerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the priority for this header trade agreement.
@@ -397,13 +397,13 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The seller generated order document referenced in this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerOrderDocument
 	 */
-	sellerOrderDocument?: IUneceDocument[];
+	sellerOrderDocument?: IUneceDocument;
 
 	/**
 	 * The seller party for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/sellerParty
 	 */
-	sellerParty?: IUneceTradeParty[];
+	sellerParty?: IUneceTradeParty;
 
 	/**
 	 * A seller reference, expressed as text, for this header trade agreement.
@@ -427,7 +427,7 @@ export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
 	 * The procuring project specified for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/specifiedProject
 	 */
-	specifiedProject?: IUneceProject[];
+	specifiedProject?: IUneceProject;
 
 	/**
 	 * A supply instruction document referenced in this header trade agreement.

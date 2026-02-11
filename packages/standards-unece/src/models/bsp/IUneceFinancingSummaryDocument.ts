@@ -66,5 +66,5 @@ export interface IUneceFinancingSummaryDocument extends IJsonLdNodeObject {
 	 * The creditor financial account, used for crediting, specified for this financing summary document.
 	 * @see https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 	 */
-	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount[];
+	specifiedCreditorFinancialAccount?: IUneceCreditorFinancialAccount;
 }

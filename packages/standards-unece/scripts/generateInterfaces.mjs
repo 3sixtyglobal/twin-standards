@@ -107,75 +107,34 @@ async function loadJsonLdMapping() {
 }
 
 /**
- * Load JSON-Schema mapping.
- */
-async function loadJsonSchemaMapping(jsonLdMapping) {
-	const jsonSchema = await loadJSON(path.join(SOURCE_DATA_DIR, 'UNECE-BSPContextCCL.json'));
-
-	for (const schema of Object.values(jsonSchema.$defs)) {
-		if (schema.title && schema.properties) {
-			const title = `unece:${schema.title.replace(/ /g, '')}`;
-			let jsonLd = jsonLdMapping[title];
-
-			// Not a top level mapping, try aliases
-			if (!jsonLd) {
-				for (const key of Object.keys(jsonLdMapping)) {
-					const item = jsonLdMapping[key];
-					if (item.aliases?.includes(title)) {
-						jsonLd = item;
-						break;
-					}
-				}
-			}
-
-			if (!jsonLd) {
-				throw new Error(`No JSON-LD mapping found for JSON-Schema title: ${title}`);
-			}
-
-			if (!jsonLd.properties) {
-				throw new Error(`No JSON-LD properties found for JSON-Schema title: ${title}`);
-			}
-
-			for (const propKey of Object.keys(schema.properties)) {
-				const propSchema = schema.properties[propKey];
-				const schemaCCts = `unece:${propSchema.title.replace(/ /g, '')}`;
-
-				const jsonLdProperty = jsonLd.properties?.find(p => p.aliases.includes(schemaCCts));
-
-				if (jsonLdProperty) {
-					// The cardinality from the CSV alone is not sufficient, we need to also check the JSON-Schema
-					jsonLdProperty.maxItems = propSchema.maxItems === 1 ? 1 : 0;
-				} else {
-					throw new Error(
-						`No JSON-LD property found for JSON-Schema property: ${propKey} in title: ${title}`
-					);
-				}
-			}
-		}
-	}
-}
-
-/**
  * Load csv mapping.
  */
 async function loadCsvData() {
 	const content = await fs.readFile(path.join(SOURCE_DATA_DIR, 'unece-reduced.csv'), 'utf8');
 	const lines = content.split(/\r?\n/).filter(Boolean);
 
-	const headers = lines[0].split(',').map(h => camelCase(h.trim()));
-	const result = [];
-	for (let i = 1; i < lines.length; i++) {
+	const csvMapping = {};
+
+	const headers = ['dictionaryEntryName', 'occurrenceMin', 'occurrenceMax'];
+	for (let i = 0; i < lines.length; i++) {
 		const values = lines[i].split(',');
 		const obj = {};
 		if (values.length === headers.length) {
 			for (let j = 0; j < headers.length; j++) {
 				obj[headers[j]] = values[j] !== undefined ? values[j].trim() : '';
 			}
-			result.push(obj);
+
+			// dictionaryEntryName have spaces and some have hyphens followed by lowercase letters
+			// we need to convert them to match the JSON-LD labels which are used as keys in the mapping
+			obj.dictionaryEntryName = obj.dictionaryEntryName
+				.replace(/ /g, '')
+				.replace(/-([a-z])/g, (_, ch) => `-${ch.toUpperCase()}`);
+
+			csvMapping[obj.dictionaryEntryName] = obj;
 		}
 	}
 
-	return result;
+	return csvMapping;
 }
 
 /**
@@ -290,27 +249,10 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 
 		let propType = propItem['schema:rangeIncludes']['@id'];
 
-		const titles = getCCTSTitles(propItem);
+		const title = getCCTSTitle(typeName, propItem, propKey);
 		let csvMappingProp;
-
-		for (const title of titles) {
-			const titleParts = title.split('.').map(t => t.trim());
-			const objectClassTermParts = titleParts[0].split('_');
-			const objectClassTerm = objectClassTermParts[objectClassTermParts.length - 1];
-			const propertyTermParts = titleParts[1].split('_');
-			const propertyTerm = propertyTermParts[propertyTermParts.length - 1];
-			const representationTermParts = titleParts[2].split('_');
-			const representationTerm = representationTermParts[representationTermParts.length - 1];
-			const cleanTitle = [objectClassTerm, propertyTerm, representationTerm]
-				.filter(t => t.trim().length > 0)
-				.join('.')
-				.replace(/[ -]/g, '');
-
-			if (csvMapping[cleanTitle]) {
-				csvMappingProp = csvMapping[cleanTitle];
-			} else {
-				throw new Error(`No CSV mapping found for CCTS title: ${cleanTitle} in type ${typeName}`);
-			}
+		if (csvMapping[title]) {
+			csvMappingProp = csvMapping[title];
 		}
 
 		const isRequired = csvMappingProp?.occurrenceMin === '1';
@@ -411,19 +353,15 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 /**
  * Get CCTS titles from JSON-LD item.
  */
-function getCCTSTitles(jsonLdItem) {
-	const metaData = jsonLdItem['unece:cefactElementMetadata'];
-	const titles = [];
-
-	if (Array.isArray(metaData)) {
-		for (const metaDataItem of metaData) {
-			if (metaDataItem['@id']) {
-				titles.push(metaDataItem['@id'].replace('cefact:', ''));
-			}
+function getCCTSTitle(typeName, jsonLdItem) {
+	if (Array.isArray(jsonLdItem['unece:cefactElementMetadata'])) {
+		const metaElement = jsonLdItem['unece:cefactElementMetadata'].find(
+			me => me['unece:domainName'] === typeName
+		);
+		if (metaElement) {
+			return metaElement['@id'].replace('cefact:', '');
 		}
 	}
-
-	return titles;
 }
 
 /**
@@ -527,7 +465,7 @@ async function processRangeList(rangeIncludeTypeName, item, generatedTypes) {
 	const rangeTypeName = rangeIncludeTypeName;
 
 	const description = `Values for Unece${baseTypeName} typeCode property.`;
-	process.stdout.write(`  Processing range include list: ${rangeTypeName}`);
+	process.stdout.write(`  Processing range include list: ${rangeTypeName}\n`);
 
 	const typeLines = [];
 
@@ -851,26 +789,8 @@ function wordsSplit(input) {
  */
 async function main() {
 	const jsonLdMapping = await loadJsonLdMapping();
-	await loadJsonSchemaMapping(jsonLdMapping);
 
-	const csvData = await loadCsvData();
-
-	const csvMapping = {};
-
-	for (const row of csvData) {
-		const cctsKey = [
-			row.objectClassTerm,
-			row.propertyTerm,
-			row.representationTerm,
-			row.associatedObjectClass
-		]
-			.filter(t => t.trim().length > 0)
-			.join('.')
-			.replace(/ /g, '')
-			.replace(/-([a-z])/gi, (_, char) => char.toUpperCase());
-
-		csvMapping[cctsKey] = row;
-	}
+	const csvMapping = await loadCsvData();
 
 	const generatedTypes = [];
 	for (const id of Object.keys(jsonLdMapping)) {

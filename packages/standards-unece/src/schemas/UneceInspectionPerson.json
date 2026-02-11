@@ -96,10 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"attainedSpecifiedQualification": {
-			"type": "array",
-			"items": {
-				"$ref": "https://schema.twindev.org/unece/UneceSpecifiedQualification"
-			},
+			"$ref": "https://schema.twindev.org/unece/UneceSpecifiedQualification",
 			"description": "The specified qualification attained by this inspection person."
 		},
 		"inspectionPersonName": {
@@ -108,7 +105,9 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"attainedSpecifiedQualification",
+		"inspectionPersonName"
 	],
 	"additionalProperties": {
 		"anyOf": [

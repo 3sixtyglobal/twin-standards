@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/goodsTypeCode
 
 ### goodsTypeExtensionTypeExtensionCode?
 
-> `optional` **goodsTypeExtensionTypeExtensionCode**: `"unece:GoodsTypeExtensionCodeList#ZZZ"`
+> `optional` **goodsTypeExtensionTypeExtensionCode**: `"unece:GoodsTypeExtensionCodeList#ZZZ"`[]
 
 A code used as an extension to the type code for further specifying this subordinate trade line item.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedSubordinateLineTradeAgreement
 
 ### specifiedSubordinateLineTradeDelivery?
 
-> `optional` **specifiedSubordinateLineTradeDelivery**: [`IUneceSubordinateLineTradeDelivery`](IUneceSubordinateLineTradeDelivery.md)[]
+> `optional` **specifiedSubordinateLineTradeDelivery**: [`IUneceSubordinateLineTradeDelivery`](IUneceSubordinateLineTradeDelivery.md)
 
 The delivery specified for this subordinate trade line item.
 

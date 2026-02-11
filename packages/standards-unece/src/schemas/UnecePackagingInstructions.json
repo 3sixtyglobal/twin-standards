@@ -129,8 +129,7 @@
 		}
 	},
 	"required": [
-		"type",
-		"handling"
+		"type"
 	],
 	"additionalProperties": {
 		"anyOf": [

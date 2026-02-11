@@ -96,9 +96,9 @@ https://vocabulary.uncefact.org/grownCrop
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this crop plot.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedPlot?
 
-> `optional` **includedPlot**: `IUnecePlot`
+> `optional` **includedPlot**: `IUnecePlot`[]
 
 A crop plot included in this crop plot.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/specifiedArea
 
 ### specifiedLocation?
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location specified for this crop plot.
 

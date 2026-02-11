@@ -38,13 +38,13 @@ export interface IUneceLaboratoryObservationContact extends IJsonLdNodeObject {
 	 * The fax number of this laboratory observation contact.
 	 * @see https://vocabulary.uncefact.org/faxCommunication
 	 */
-	faxCommunication?: IUneceCommunication[];
+	faxCommunication?: IUneceCommunication;
 
 	/**
 	 * The identifier of this laboratory observation contact.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The mobile phone number of this laboratory observation contact.

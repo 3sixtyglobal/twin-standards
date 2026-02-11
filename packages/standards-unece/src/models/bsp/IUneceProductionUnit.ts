@@ -148,7 +148,7 @@ export interface IUneceProductionUnit extends IJsonLdNodeObject {
 	 * A physical location referenced for this facility production unit.
 	 * @see https://vocabulary.uncefact.org/physicalLocation
 	 */
-	physicalLocation?: IUneceLocation;
+	physicalLocation?: IUneceLocation[];
 
 	/**
 	 * A trade party related to this facility production unit.

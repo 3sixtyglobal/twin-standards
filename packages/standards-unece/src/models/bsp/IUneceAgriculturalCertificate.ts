@@ -66,7 +66,7 @@ export interface IUneceAgriculturalCertificate extends IJsonLdNodeObject {
 	 * The code specifying the type of agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * The textual description of this agricultural certificate.

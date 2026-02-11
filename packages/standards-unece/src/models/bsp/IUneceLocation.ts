@@ -151,7 +151,7 @@ export interface IUneceLocation extends IJsonLdNodeObject {
 	 * The postal trade address for this referenced location.
 	 * @see https://vocabulary.uncefact.org/postalAddress
 	 */
-	postalAddress?: IUneceTradeAddress[];
+	postalAddress?: IUneceTradeAddress;
 
 	/**
 	 * A facility production unit related to this referenced location.
@@ -163,7 +163,7 @@ export interface IUneceLocation extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this referenced location.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A production facility specified for this referenced location.

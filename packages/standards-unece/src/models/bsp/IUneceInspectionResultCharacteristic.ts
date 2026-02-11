@@ -59,7 +59,7 @@ export interface IUneceInspectionResultCharacteristic extends IJsonLdNodeObject 
 	 * A measured value for this inspection result characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredValueMeasure
 	 */
-	measuredValueMeasure?: IUneceMeasureType;
+	measuredValueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The code specifying the quality of the result for this inspection result characteristic.

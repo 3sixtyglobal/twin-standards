@@ -140,7 +140,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value of the deduction from this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/deductionAmount
 	 */
-	deductionAmount?: IUneceAmountType;
+	deductionAmount?: IUneceAmountType[];
 
 	/**
 	 * The debtor financial account of the party with deferred status for this trade related tax, levy or duty.
@@ -249,7 +249,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value of the refund of this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/refundAmount
 	 */
-	refundAmount?: IUneceAmountType;
+	refundAmount?: IUneceAmountType[];
 
 	/**
 	 * The type of regime, expressed as text, applicable to the assessment or calculation of this trade related tax, levy or
@@ -263,7 +263,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * basis.
 	 * @see https://vocabulary.uncefact.org/selfAssessedBasisAmount
 	 */
-	selfAssessedBasisAmount?: IUneceAmountType;
+	selfAssessedBasisAmount?: IUneceAmountType[];
 
 	/**
 	 * The quantity on which this trade related tax, levy or duty has been calculated on a self-assessment basis.
@@ -275,7 +275,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A monetary value of the self-assessed calculated amount of this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/selfAssessedCalculatedAmount
 	 */
-	selfAssessedCalculatedAmount?: IUneceAmountType;
+	selfAssessedCalculatedAmount?: IUneceAmountType[];
 
 	/**
 	 * The seller payable tax specified accounting account for this trade related tax, levy or duty.
@@ -305,7 +305,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A quantity to be deducted from the tariff quantity for the calculation of this trade related tax, duty or levy.
 	 * @see https://vocabulary.uncefact.org/tariffDeductionQuantity
 	 */
-	tariffDeductionQuantity?: IUneceQuantityType;
+	tariffDeductionQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The rate of the tax basis allowance (deduction or discount) used to calculate the trade related tax, levy or duty.
@@ -330,7 +330,7 @@ export interface IUneceTradeTax extends IJsonLdNodeObject {
 	 * A code specifying a reason for exemption from this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/taxExemptionReasonExemptionReasonCode
 	 */
-	taxExemptionReasonExemptionReasonCode?: UneceTaxExemptionReasonCodeList;
+	taxExemptionReasonExemptionReasonCode?: UneceTaxExemptionReasonCodeList[];
 
 	/**
 	 * The date of the tax point when this trade related tax, levy or duty becomes applicable.

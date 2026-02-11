@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime
 
-> `optional` **occurrenceDateTime**: `string`
+> **occurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the occurrence of this inspection event.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### occurrenceLocation?
+### occurrenceLocation
 
-> `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
+> **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location where this inspection event will occur or has occurred.
 

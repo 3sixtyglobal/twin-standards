@@ -39,7 +39,7 @@ export interface IUnecePaymentMeans extends IJsonLdNodeObject {
 	 * A financial card applicable to this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/applicableFinancialCard
 	 */
-	applicableFinancialCard?: IUneceFinancialCard;
+	applicableFinancialCard?: IUneceFinancialCard[];
 
 	/**
 	 * A creditor financial institution specified for this trade settlement payment means.
@@ -105,19 +105,19 @@ export interface IUnecePaymentMeans extends IJsonLdNodeObject {
 	 * The creditor financial institution of the payee party specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payeeSpecifiedFinancialInstitution
 	 */
-	payeeSpecifiedFinancialInstitution?: IUneceCreditorFinancialInstitution[];
+	payeeSpecifiedFinancialInstitution?: IUneceCreditorFinancialInstitution;
 
 	/**
 	 * The debtor financial account of the payer party for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payerPartyFinancialAccount
 	 */
-	payerPartyFinancialAccount?: IUneceDebtorFinancialAccount[];
+	payerPartyFinancialAccount?: IUneceDebtorFinancialAccount;
 
 	/**
 	 * The debtor financial institution of the payer party specified for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/payerSpecifiedFinancialInstitution
 	 */
-	payerSpecifiedFinancialInstitution?: IUneceDebtorFinancialInstitution[];
+	payerSpecifiedFinancialInstitution?: IUneceDebtorFinancialInstitution;
 
 	/**
 	 * The code specifying the method of guarantee for this trade settlement payment means.

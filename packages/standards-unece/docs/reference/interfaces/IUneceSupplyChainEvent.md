@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/descriptionBinaryObject
 
 ### discretePeriod?
 
-> `optional` **discretePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **discretePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A discrete period specified for this supply chain event.
 
@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### earliestOccurrenceDateTime
+### earliestOccurrenceDateTime?
 
-> **earliestOccurrenceDateTime**: `string`
+> `optional` **earliestOccurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the earliest occurrence of this supply chain event.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latestOccurrenceDateTime
+### latestOccurrenceDateTime?
 
-> **latestOccurrenceDateTime**: `string`
+> `optional` **latestOccurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value of the latest occurrence of this supply chain event.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/occurrenceLocation
 
 ### occurrenceLogisticsLocation?
 
-> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location where this supply chain event occurs.
 
@@ -228,9 +228,9 @@ https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 
 ***
 
-### timeOccurrenceDateTime
+### timeOccurrenceDateTime?
 
-> **timeOccurrenceDateTime**: `string`
+> `optional` **timeOccurrenceDateTime**: `string`
 
 A time value of an occurrence of this supply chain event.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### unitQuantity?
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A number of units for this supply chain event.
 

@@ -61,7 +61,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * The date, time, date time, or other date time value of the creation of this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
 	 */
-	creationDateTime?: string;
+	creationDateTime: string;
 
 	/**
 	 * The code specifying the default currency for this valuation breakdown statement.
@@ -85,7 +85,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * The unique identifier for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * A basic work item in this valuation breakdown statement.
@@ -109,7 +109,7 @@ export interface IUneceBreakdownStatement extends IJsonLdNodeObject {
 	 * The name, expressed as text, for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/name
 	 */
-	name?: string;
+	name: string;
 
 	/**
 	 * The identifier of a price list for this valuation breakdown statement.

@@ -39,7 +39,7 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * The period applicable for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/applicablePeriod
 	 */
-	applicablePeriod?: IUneceSpecifiedPeriod[];
+	applicablePeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * A quantity available for this supply chain supply plan.
@@ -117,19 +117,19 @@ export interface IUneceSupplyPlan extends IJsonLdNodeObject {
 	 * The ship to trade party for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/shipToParty
 	 */
-	shipToParty?: IUneceTradeParty[];
+	shipToParty?: IUneceTradeParty;
 
 	/**
 	 * A location specified for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation;
+	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * The period specified for this supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/specifiedSpecifiedPeriod
 	 */
-	specifiedSpecifiedPeriod?: IUneceSpecifiedPeriod[];
+	specifiedSpecifiedPeriod?: IUneceSpecifiedPeriod;
 
 	/**
 	 * An event specified for this supply chain supply plan.

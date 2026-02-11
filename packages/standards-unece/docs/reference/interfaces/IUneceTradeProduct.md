@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ### applicableDangerousGoods?
 
-> `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)
+> `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
 
 Transport dangerous goods information applicable for this trade product.
 
@@ -1036,7 +1036,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### grossVolumeMeasure?
 
-> `optional` **grossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **grossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the gross volume for this trade product.
 
@@ -1241,7 +1241,7 @@ https://vocabulary.uncefact.org/line
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 Linear spatial dimensions of this trade product.
 
@@ -1445,7 +1445,7 @@ https://vocabulary.uncefact.org/name
 
 ### netVolumeMeasure?
 
-> `optional` **netVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **netVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a net volume for this trade product.
 
@@ -1457,7 +1457,7 @@ https://vocabulary.uncefact.org/netVolumeMeasure
 
 ### netWeightMeasure?
 
-> `optional` **netWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **netWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the net weight (mass) of this trade product.
 
@@ -1890,7 +1890,7 @@ https://vocabulary.uncefact.org/sectionCode
 
 ### securityInformationNote?
 
-> `optional` **securityInformationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **securityInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A security information note for this trade product.
 
@@ -1950,7 +1950,7 @@ https://vocabulary.uncefact.org/speciesCode
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this trade product.
 
@@ -2094,7 +2094,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### storageInformationNote?
 
-> `optional` **storageInformationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **storageInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A storage information note for this trade product.
 
@@ -2166,7 +2166,7 @@ https://vocabulary.uncefact.org/substituteProduct
 
 ### substitutedProduct?
 
-> `optional` **substitutedProduct**: [`IUneceProduct`](IUneceProduct.md)
+> `optional` **substitutedProduct**: [`IUneceProduct`](IUneceProduct.md)[]
 
 A referenced product that is substituted by this trade product.
 
@@ -2214,7 +2214,7 @@ https://vocabulary.uncefact.org/tradeName
 
 ### transportInformationNote?
 
-> `optional` **transportInformationNote**: [`IUneceNote`](IUneceNote.md)
+> `optional` **transportInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
 A transport information note for this trade product.
 

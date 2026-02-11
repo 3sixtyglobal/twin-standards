@@ -84,7 +84,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * The manufacturer party of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * A model identifier for this monitoring IOT device.
@@ -108,7 +108,7 @@ export interface IUneceIOTDevice extends IJsonLdNodeObject {
 	 * The owner party of this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/ownerParty
 	 */
-	ownerParty?: IUneceTradeParty[];
+	ownerParty?: IUneceTradeParty;
 
 	/**
 	 * The code specifying the position of this monitoring IOT device.

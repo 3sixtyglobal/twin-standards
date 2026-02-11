@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/changerName
 
 ***
 
-### recordedStatusConditionCode?
+### recordedStatusConditionCode
 
-> `optional` **recordedStatusConditionCode**: `string`
+> **recordedStatusConditionCode**: `string`
 
 The code specifying the condition for this recorded status.
 

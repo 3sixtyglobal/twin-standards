@@ -44,7 +44,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * The monetary value of the charge for this transport service.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType[];
+	chargeAmount?: IUneceAmountType;
 
 	/**
 	 * The contract identifier of this referenced transport service.
@@ -152,7 +152,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A transport route specified for this transport service.
 	 * @see https://vocabulary.uncefact.org/specifiedRoute
 	 */
-	specifiedRoute?: IUneceTransportRoute;
+	specifiedRoute?: IUneceTransportRoute[];
 
 	/**
 	 * A code specifying a contract movement type of this transport service.
@@ -170,7 +170,7 @@ export interface IUneceService extends IJsonLdNodeObject {
 	 * A code specifying a type of condition for this transport service, such as a contract or carriage condition.
 	 * @see https://vocabulary.uncefact.org/transportServiceConditionTypeCode
 	 */
-	transportServiceConditionTypeCode?: UneceTransportServiceConditionCodeList;
+	transportServiceConditionTypeCode?: UneceTransportServiceConditionCodeList[];
 
 	/**
 	 * The code specifying the payment arrangement for this transport service.

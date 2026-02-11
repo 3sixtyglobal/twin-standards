@@ -61,9 +61,9 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier of this procuring project.
 
@@ -73,9 +73,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name
 
-> `optional` **name**: `string`
+> **name**: `string`
 
 The name, expressed as text, of this procuring project.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/netBudgetAmount
 
 ### specifiedInspectionEvent?
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
+> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
 The inspection event specified for this procuring project.
 

@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/inspectionEvent
 
 ### locationFunctionTypeCode?
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
 
 A code specifying the type of this logistics related location.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 The postal trade address information for this logistics related location.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/subordinateRelatedLocation
 
 ### subordinateSubordinateLocation?
 
-> `optional` **subordinateSubordinateLocation**: [`IUneceSubordinateLocation`](IUneceSubordinateLocation.md)
+> `optional` **subordinateSubordinateLocation**: [`IUneceSubordinateLocation`](IUneceSubordinateLocation.md)[]
 
 A location subordinate to this logistics related location.
 

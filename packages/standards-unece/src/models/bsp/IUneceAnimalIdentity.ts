@@ -25,13 +25,13 @@ export interface IUneceAnimalIdentity extends IJsonLdNodeObject {
 	 * The identifier for this animal identity.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The length, expressed as the number of characters, of the identifier in this animal identity.
 	 * @see https://vocabulary.uncefact.org/identifierLengthNumeric
 	 */
-	identifierLengthNumeric?: string;
+	identifierLengthNumeric: string;
 
 	/**
 	 * The name, expressed as text, of the party issuing this animal identity.
@@ -43,7 +43,7 @@ export interface IUneceAnimalIdentity extends IJsonLdNodeObject {
 	 * The legal basis, expressed as text, for this animal identity.
 	 * @see https://vocabulary.uncefact.org/legalBasis
 	 */
-	legalBasis?: string;
+	legalBasis: string;
 
 	/**
 	 * The identifier of the version of this animal identity.

@@ -34,7 +34,7 @@ export interface IUnecePaymentFinancialInstitution extends IJsonLdNodeObject {
 	 * The unique Bank Identification Code (BIC) as defined in ISO 9362 for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId: string;
+	bICId?: string;
 
 	/**
 	 * A branch name, expressed as text, for this payment financial institution.

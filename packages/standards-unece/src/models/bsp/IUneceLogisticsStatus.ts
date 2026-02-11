@@ -73,7 +73,7 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A code specifying a reason for this logistics status [UNECE Recommendation 24].
 	 * @see https://vocabulary.uncefact.org/logisticsStatusReasonCode
 	 */
-	logisticsStatusReasonCode?: UneceLogisticsStatusCodeList;
+	logisticsStatusReasonCode?: UneceLogisticsStatusCodeList[];
 
 	/**
 	 * A reason, expressed as text, for this logistics status.
@@ -103,7 +103,7 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A location specified for this logistics status.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation;
+	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A transport unloading event reported for this logistics status.
@@ -115,5 +115,5 @@ export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
 	 * A specific validity period for this logistics status.
 	 * @see https://vocabulary.uncefact.org/validityPeriod
 	 */
-	validityPeriod?: IUneceSpecifiedPeriod;
+	validityPeriod?: IUneceSpecifiedPeriod[];
 }

@@ -50,7 +50,7 @@ export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
 	 * The message standard document context parameter specified for this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/messageStandardSpecifiedParameter
 	 */
-	messageStandardSpecifiedParameter?: IUneceDocumentContextParameter[];
+	messageStandardSpecifiedParameter?: IUneceDocumentContextParameter;
 
 	/**
 	 * The date, time, date time, or other date time value of the processing of a transaction for this exchanged document

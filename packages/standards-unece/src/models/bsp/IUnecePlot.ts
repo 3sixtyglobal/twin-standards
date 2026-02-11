@@ -64,13 +64,13 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * The identifier for this crop plot.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * A crop plot included in this crop plot.
 	 * @see https://vocabulary.uncefact.org/includedPlot
 	 */
-	includedPlot?: IUnecePlot;
+	includedPlot?: IUnecePlot[];
 
 	/**
 	 * The indication of whether or not this crop plot is certified as regulatory organic.
@@ -113,7 +113,7 @@ export interface IUnecePlot extends IJsonLdNodeObject {
 	 * The referenced location specified for this crop plot.
 	 * @see https://vocabulary.uncefact.org/specifiedLocation
 	 */
-	specifiedLocation?: IUneceLocation[];
+	specifiedLocation?: IUneceLocation;
 
 	/**
 	 * The date, time, date time, or other date time value for the start of this crop plot.

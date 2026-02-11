@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### statusValueMeasure?
 
-> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the status value for this observation objective parameter.
 

@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/firstAgentSpecifiedFinancialInstitution
 
 ***
 
-### groupId
+### groupId?
 
-> **groupId**: `string`
+> `optional` **groupId**: `string`
 
 The group identifier in this financing request document.
 
@@ -204,9 +204,9 @@ https://vocabulary.uncefact.org/specifiedCancellationStatus
 
 ***
 
-### specifiedRequestingParty
+### specifiedRequestingParty?
 
-> **specifiedRequestingParty**: [`IUneceRequestingParty`](IUneceRequestingParty.md)
+> `optional` **specifiedRequestingParty**: [`IUneceRequestingParty`](IUneceRequestingParty.md)
 
 The requesting party specified in this financing request document.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/specifiedRequestingParty
 
 ### specifiedValidationStatus?
 
-> `optional` **specifiedValidationStatus**: [`IUneceValidationStatus`](IUneceValidationStatus.md)[]
+> `optional` **specifiedValidationStatus**: [`IUneceValidationStatus`](IUneceValidationStatus.md)
 
 The status of the validation specified for this financing request document, such as error.
 

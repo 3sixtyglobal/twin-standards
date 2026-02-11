@@ -59,13 +59,13 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * A customs valuation applicable to this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/applicableCustomsValuation
 	 */
-	applicableCustomsValuation?: IUneceCustomsValuation;
+	applicableCustomsValuation?: IUneceCustomsValuation[];
 
 	/**
 	 * Dangerous goods transport details applicable to this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/applicableDangerousGoods
 	 */
-	applicableDangerousGoods?: IUneceDangerousGoods;
+	applicableDangerousGoods?: IUneceDangerousGoods[];
 
 	/**
 	 * A note providing information applicable to this supply chain consignment item.
@@ -145,7 +145,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * The monetary value of this supply chain consignment item as declared for customs purposes.
 	 * @see https://vocabulary.uncefact.org/declaredValueForCustomsAmount
 	 */
-	declaredValueForCustomsAmount?: IUneceAmountType[];
+	declaredValueForCustomsAmount?: IUneceAmountType;
 
 	/**
 	 * The monetary value of this supply chain consignment item as declared for statistical purposes.
@@ -169,7 +169,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * The delivery event for this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/deliveryTransportEvent
 	 */
-	deliveryTransportEvent?: IUneceTransportEvent[];
+	deliveryTransportEvent?: IUneceTransportEvent;
 
 	/**
 	 * The party from whom this supply chain consignment item will be or has been despatched.
@@ -248,7 +248,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * Handling instructions for this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/handlingInstructions
 	 */
-	handlingInstructions?: IUneceHandlingInstructions;
+	handlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * A unique identifier for this supply chain consignment item.
@@ -308,7 +308,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * The party which manufactured this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The code used as a national extension to the type code for further specifying the type of supply chain consignment item.
@@ -327,7 +327,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * The country of origin where this supply chain consignment item has been produced.
 	 * @see https://vocabulary.uncefact.org/originCountry
 	 */
-	originCountry?: IUneceCountry[];
+	originCountry?: IUneceCountry;
 
 	/**
 	 * The geopolitical region of origin for this supply chain consignment item.
@@ -351,7 +351,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * Physical logistics shipping marks and barcode information for this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/physicalShippingMarks
 	 */
-	physicalShippingMarks?: IUneceShippingMarks;
+	physicalShippingMarks?: IUneceShippingMarks[];
 
 	/**
 	 * A pick-up transport event for this supply chain consignment item.
@@ -417,7 +417,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * The monetary value of all freight and other service charges for this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/totalChargeAmount
 	 */
-	totalChargeAmount?: IUneceAmountType[];
+	totalChargeAmount?: IUneceAmountType;
 
 	/**
 	 * The monetary value of the total charge or charges of freight, insurance and other services for this supply chain
@@ -442,7 +442,7 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * A transport contract document for this supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/transportContractDocument
 	 */
-	transportContractDocument?: IUneceDocument;
+	transportContractDocument?: IUneceDocument[];
 
 	/**
 	 * A transport package for this supply chain consignment item.
@@ -468,20 +468,20 @@ export interface IUneceConsignmentItem extends IJsonLdNodeObject {
 	 * chain consignment item.
 	 * @see https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 	 */
-	volumeUnitGrossVolumeMeasure?: IUneceVolumeUnitMeasureType;
+	volumeUnitGrossVolumeMeasure?: IUneceVolumeUnitMeasureType[];
 
 	/**
 	 * A measure of the supply chain consignment item weight on which charges are to be based.
 	 * @see https://vocabulary.uncefact.org/weightUnitChargeableWeightMeasure
 	 */
-	weightUnitChargeableWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitChargeableWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any
 	 * transport equipment.
 	 * @see https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 	 */
-	weightUnitGrossWeightMeasure?: IUneceWeightUnitMeasureType;
+	weightUnitGrossWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging.

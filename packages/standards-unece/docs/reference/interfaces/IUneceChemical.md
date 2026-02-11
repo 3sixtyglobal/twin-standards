@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### massMeasure?
 
-> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the mass of this distinct chemical.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/massRatioMeasure
 
 ### molecularWeightMeasure?
 
-> `optional` **molecularWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **molecularWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the molecular weight (in grams) for this distinct chemical.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/volumeRatioMeasure
 
 ### weightMeasure?
 
-> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the weight of this distinct chemical.
 

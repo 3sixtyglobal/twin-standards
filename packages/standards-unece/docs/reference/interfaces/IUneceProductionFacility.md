@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/bufferCapacityMeasure
 
 ### capacityMeasure?
 
-> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the capacity of this production facility.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/outputCapacityMeasure
 
 ### physicalLocation?
 
-> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **physicalLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A physical location referenced for this production facility.
 

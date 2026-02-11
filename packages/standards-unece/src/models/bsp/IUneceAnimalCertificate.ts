@@ -31,7 +31,7 @@ export interface IUneceAnimalCertificate extends IJsonLdNodeObject {
 	 * An animal certification applicable to this animal certificate.
 	 * @see https://vocabulary.uncefact.org/applicableAnimalCertification
 	 */
-	applicableAnimalCertification?: IUneceAnimalCertification;
+	applicableAnimalCertification?: IUneceAnimalCertification[];
 
 	/**
 	 * A sustainability assertion applicable to this animal certificate.
@@ -55,11 +55,11 @@ export interface IUneceAnimalCertificate extends IJsonLdNodeObject {
 	 * The code specifying the type of animal certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode: UneceCertificateTypeCodeList;
 
 	/**
 	 * The identifier for this animal certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 }

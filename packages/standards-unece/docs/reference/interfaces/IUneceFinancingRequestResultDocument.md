@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ### specifiedFinancingStatus?
 
-> `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)[]
+> `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)
 
 The financing status specified in this financing request result document.
 

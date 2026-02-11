@@ -37,7 +37,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A specified inspection result applicable to this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/applicableInspectionResult
 	 */
-	applicableInspectionResult?: IUneceInspectionResult;
+	applicableInspectionResult?: IUneceInspectionResult[];
 
 	/**
 	 * A referenced standard applicable to this sustainability characteristic.
@@ -73,7 +73,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a maximum value for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/maximumValueMeasure
 	 */
-	maximumValueMeasure?: IUneceMeasureType;
+	maximumValueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The code specifying the measurement method for this sustainability characteristic.
@@ -85,7 +85,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a minimum value for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/minimumValueMeasure
 	 */
-	minimumValueMeasure?: IUneceMeasureType;
+	minimumValueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The indication of whether or not this sustainability characteristic is shareable.
@@ -139,7 +139,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A value, expressed in a binary file, for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueBinaryFile
 	 */
-	valueBinaryFile?: IUneceBinaryFile;
+	valueBinaryFile?: IUneceBinaryFile[];
 
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, for this sustainability characteristic.
@@ -157,7 +157,7 @@ export interface IUneceSustainabilityCharacteristic extends IJsonLdNodeObject {
 	 * A measure of a value for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueMeasure
 	 */
-	valueMeasure?: IUneceMeasureType;
+	valueMeasure?: IUneceMeasureType[];
 
 	/**
 	 * The value, expressed as a number, for this sustainability characteristic.

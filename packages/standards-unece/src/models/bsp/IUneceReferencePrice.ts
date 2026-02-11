@@ -27,13 +27,13 @@ export interface IUneceReferencePrice extends IJsonLdNodeObject {
 	 * A quantity on which the reference price is based.
 	 * @see https://vocabulary.uncefact.org/basisQuantity
 	 */
-	basisQuantity?: IUneceQuantityType;
+	basisQuantity?: IUneceQuantityType[];
 
 	/**
 	 * The monetary value of a charged reference price.
 	 * @see https://vocabulary.uncefact.org/chargeAmount
 	 */
-	chargeAmount?: IUneceAmountType[];
+	chargeAmount?: IUneceAmountType;
 
 	/**
 	 * The code specifying the comparison method for this reference price.

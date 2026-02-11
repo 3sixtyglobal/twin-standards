@@ -45,7 +45,7 @@ export interface IUneceContract extends IJsonLdNodeObject {
 	 * The unique identifier of this trade contract.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * The date, date time, or other date time value for the issuance of this trade contract.

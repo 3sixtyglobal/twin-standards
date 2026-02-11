@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/specifiedLocationTypeCode
 
 ### specifiedTradeAddress?
 
-> `optional` **specifiedTradeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
+> `optional` **specifiedTradeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
 A address specified for this location.
 

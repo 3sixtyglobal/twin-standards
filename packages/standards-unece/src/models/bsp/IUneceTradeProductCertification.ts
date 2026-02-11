@@ -59,7 +59,7 @@ export interface IUneceTradeProductCertification extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this trade product certification.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * The standard, expressed as text, for this trade product certification.

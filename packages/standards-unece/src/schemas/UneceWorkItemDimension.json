@@ -132,6 +132,7 @@
 	},
 	"required": [
 		"type",
+		"valueMeasure",
 		"workItemDimensionTypeCode"
 	],
 	"additionalProperties": {

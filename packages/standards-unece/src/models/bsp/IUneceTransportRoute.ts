@@ -41,7 +41,7 @@ export interface IUneceTransportRoute extends IJsonLdNodeObject {
 	 * A specified period of time for which a frequency is effective for this transport route.
 	 * @see https://vocabulary.uncefact.org/frequencyEffectivePeriod
 	 */
-	frequencyEffectivePeriod?: IUneceSpecifiedPeriod;
+	frequencyEffectivePeriod?: IUneceSpecifiedPeriod[];
 
 	/**
 	 * The code specifying the type of frequency for this transport route, such as weekly, bi-monthly or daily.

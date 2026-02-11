@@ -83,7 +83,7 @@ export interface IUneceObservationResult extends IJsonLdNodeObject {
 	 * The identifier for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier: string;
 
 	/**
 	 * An applicable observation objective parameter of the interpretation result for this sample observation result.

@@ -28,7 +28,7 @@ export interface IUneceLegalOrganization extends IJsonLdNodeObject {
 	 * A legal registration authorized for this legally set up organization.
 	 * @see https://vocabulary.uncefact.org/authorizedRegistration
 	 */
-	authorizedRegistration?: IUneceLegalRegistration;
+	authorizedRegistration?: IUneceLegalRegistration[];
 
 	/**
 	 * A code specifying the type of business of this legally set up organization.

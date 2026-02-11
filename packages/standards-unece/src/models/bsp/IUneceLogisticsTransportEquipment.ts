@@ -154,7 +154,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * A carrier assigned booking identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/carrierAssignedBookingId
 	 */
-	carrierAssignedBookingId: string;
+	carrierAssignedBookingId?: string;
 
 	/**
 	 * A carrier party for this piece of logistics transport equipment.
@@ -173,14 +173,14 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * The consignee assigned consignment identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/consigneeAssignedConsignmentId
 	 */
-	consigneeAssignedConsignmentId: string;
+	consigneeAssignedConsignmentId?: string;
 
 	/**
 	 * A consolidation event specifying when and where this piece of logistics transport equipment will be, or has been,
 	 * stuffed.
 	 * @see https://vocabulary.uncefact.org/consolidationEvent
 	 */
-	consolidationEvent?: IUneceTransportEvent;
+	consolidationEvent?: IUneceTransportEvent[];
 
 	/**
 	 * A consignment contained in this piece of logistics transport equipment.
@@ -246,7 +246,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * Handling instructions for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/handlingInstructions
 	 */
-	handlingInstructions?: IUneceHandlingInstructions;
+	handlingInstructions?: IUneceHandlingInstructions[];
 
 	/**
 	 * The percent of the humidity (moisture content) within this piece of logistics transport equipment.
@@ -355,7 +355,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * The manufacturer party specified for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/manufacturerParty
 	 */
-	manufacturerParty?: IUneceTradeParty[];
+	manufacturerParty?: IUneceTradeParty;
 
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this piece of logistics transport equipment.
@@ -411,7 +411,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * positioned, i.e. delivered and available for pick-up.
 	 * @see https://vocabulary.uncefact.org/positioningEvent
 	 */
-	positioningEvent?: IUneceTransportEvent;
+	positioningEvent?: IUneceTransportEvent[];
 
 	/**
 	 * The number of power supply connectors for this piece of logistics transport equipment.
@@ -553,7 +553,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * A transport means specified for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/specifiedTransportMeans
 	 */
-	specifiedTransportMeans?: IUneceLogisticsTransportMeans;
+	specifiedTransportMeans?: IUneceLogisticsTransportMeans[];
 
 	/**
 	 * A storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.
@@ -648,7 +648,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * Unloading instructions for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/unloadingInstructions
 	 */
-	unloadingInstructions?: IUneceTransportInstructions;
+	unloadingInstructions?: IUneceTransportInstructions[];
 
 	/**
 	 * The sequence number differentiating this piece of logistics transport equipment from others during unloading.
@@ -661,7 +661,7 @@ export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
 	 * including loaded goods, packing and transport equipment.
 	 * @see https://vocabulary.uncefact.org/verifiedGrossWeightMeasure
 	 */
-	verifiedGrossWeightMeasure?: IUneceWeightUnitMeasureType;
+	verifiedGrossWeightMeasure?: IUneceWeightUnitMeasureType[];
 
 	/**
 	 * The measure of the gross volume of this piece of logistics transport equipment.

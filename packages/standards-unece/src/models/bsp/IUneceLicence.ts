@@ -72,7 +72,7 @@ export interface IUneceLicence extends IJsonLdNodeObject {
 	 * The party that issues this specified licence.
 	 * @see https://vocabulary.uncefact.org/issuerParty
 	 */
-	issuerParty?: IUneceTradeParty[];
+	issuerParty?: IUneceTradeParty;
 
 	/**
 	 * A name, expressed as text, for this specified licence.

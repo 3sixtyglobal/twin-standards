@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ### applicableAssertion?
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
 The sustainability assertion applicable to this process certificate.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ### applicableProcessCertification?
 
-> `optional` **applicableProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)
+> `optional` **applicableProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)[]
 
 A process certification applicable to this process certificate.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ### certificateTypeCode?
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
+> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of process certificate.
 

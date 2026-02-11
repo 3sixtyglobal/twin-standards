@@ -104,7 +104,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * Transport dangerous goods information applicable for this trade product.
 	 * @see https://vocabulary.uncefact.org/applicableDangerousGoods
 	 */
-	applicableDangerousGoods?: IUneceDangerousGoods;
+	applicableDangerousGoods?: IUneceDangerousGoods[];
 
 	/**
 	 * A specified declaration applicable to this trade product.
@@ -580,7 +580,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A measure of the gross volume for this trade product.
 	 * @see https://vocabulary.uncefact.org/grossVolumeMeasure
 	 */
-	grossVolumeMeasure?: IUneceMeasureType;
+	grossVolumeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the gross weight (mass) of this trade product.
@@ -683,7 +683,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * Linear spatial dimensions of this trade product.
 	 * @see https://vocabulary.uncefact.org/linearDimension
 	 */
-	linearDimension?: IUneceSpatialDimension;
+	linearDimension?: IUneceSpatialDimension[];
 
 	/**
 	 * A Material Safety Data Sheet (MSDS) document referenced for this product.
@@ -785,13 +785,13 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A measure of a net volume for this trade product.
 	 * @see https://vocabulary.uncefact.org/netVolumeMeasure
 	 */
-	netVolumeMeasure?: IUneceMeasureType;
+	netVolumeMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A measure of the net weight (mass) of this trade product.
 	 * @see https://vocabulary.uncefact.org/netWeightMeasure
 	 */
-	netWeightMeasure?: IUneceMeasureType;
+	netWeightMeasure?: IUneceMeasureType[];
 
 	/**
 	 * A country of origin for this trade product.
@@ -1008,7 +1008,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A security information note for this trade product.
 	 * @see https://vocabulary.uncefact.org/securityInformationNote
 	 */
-	securityInformationNote?: IUneceNote;
+	securityInformationNote?: IUneceNote[];
 
 	/**
 	 * The unique seller assigned identifier for this trade product.
@@ -1038,7 +1038,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A sustainability assertion specified for this trade product.
 	 * @see https://vocabulary.uncefact.org/specifiedAssertion
 	 */
-	specifiedAssertion?: IUneceAssertion;
+	specifiedAssertion?: IUneceAssertion[];
 
 	/**
 	 * A colour specified for this trade product.
@@ -1110,7 +1110,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A storage information note for this trade product.
 	 * @see https://vocabulary.uncefact.org/storageInformationNote
 	 */
-	storageInformationNote?: IUneceNote;
+	storageInformationNote?: IUneceNote[];
 
 	/**
 	 * The sub-brand name, expressed as text, for this trade product.
@@ -1146,7 +1146,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A referenced product that is substituted by this trade product.
 	 * @see https://vocabulary.uncefact.org/substitutedProduct
 	 */
-	substitutedProduct?: IUneceProduct;
+	substitutedProduct?: IUneceProduct[];
 
 	/**
 	 * A country of supply for this trade product.
@@ -1170,7 +1170,7 @@ export interface IUneceTradeProduct extends IJsonLdNodeObject {
 	 * A transport information note for this trade product.
 	 * @see https://vocabulary.uncefact.org/transportInformationNote
 	 */
-	transportInformationNote?: IUneceNote;
+	transportInformationNote?: IUneceNote[];
 
 	/**
 	 * A code specifying the type of trade product.

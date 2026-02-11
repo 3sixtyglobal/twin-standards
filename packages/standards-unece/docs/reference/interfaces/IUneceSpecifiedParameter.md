@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure?
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value for this specified parameter.
 

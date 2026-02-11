@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### content?
+### content
 
-> `optional` **content**: `string`
+> **content**: `string`
 
 The content, expressed as text, of this specification query.
 
@@ -60,9 +60,9 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier for this specification query.
 

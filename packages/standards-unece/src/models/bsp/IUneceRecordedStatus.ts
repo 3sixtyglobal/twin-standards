@@ -37,5 +37,5 @@ export interface IUneceRecordedStatus extends IJsonLdNodeObject {
 	 * The code specifying the condition for this recorded status.
 	 * @see https://vocabulary.uncefact.org/recordedStatusConditionCode
 	 */
-	recordedStatusConditionCode?: string;
+	recordedStatusConditionCode: string;
 }

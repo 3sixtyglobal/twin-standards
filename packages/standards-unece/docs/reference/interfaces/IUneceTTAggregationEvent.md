@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### actionCode?
+### actionCode
 
-> `optional` **actionCode**: `string`
+> **actionCode**: `string`
 
 The code specifying the action for this TT aggregation event.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/childQuantitySpecifiedEventElement
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A destination related party for this TT aggregation event.
 
@@ -120,9 +120,9 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime
 
-> `optional` **occurrenceDateTime**: `string`
+> **occurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value at which this TT aggregation event occurred.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A source related party for this TT aggregation event.
 

@@ -37,9 +37,9 @@ JSON-LD Type.
 
 ***
 
-### actionCode?
+### actionCode
 
-> `optional` **actionCode**: `string`
+> **actionCode**: `string`
 
 The code specifying the action for this TT transaction event.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ### destinationRelatedParty?
 
-> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A destination related party for this TT transaction event.
 
@@ -121,9 +121,9 @@ https://vocabulary.uncefact.org/objectInstanceId
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime
 
-> `optional` **occurrenceDateTime**: `string`
+> **occurrenceDateTime**: `string`
 
 The date, time, date time, or other date time value at which this TT transaction event occurred.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ### sourceRelatedParty?
 
-> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
 A source related party for this TT transaction event.
 
@@ -217,9 +217,9 @@ https://vocabulary.uncefact.org/specifiedError
 
 ***
 
-### specifiedTradeTransaction?
+### specifiedTradeTransaction
 
-> `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
+> **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
 
 A trade transaction specified for this TT transaction event.
 

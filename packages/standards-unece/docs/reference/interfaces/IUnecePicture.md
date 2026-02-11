@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/intendedUseCode
 
 ### linearDimension?
 
-> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
+> `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
 Linear spatial dimensions of this photographic picture.
 

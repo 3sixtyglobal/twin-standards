@@ -26,35 +26,35 @@ export interface IUnecePersonIdentity extends IJsonLdNodeObject {
 	 * The alien registration identifier for this person.
 	 * @see https://vocabulary.uncefact.org/alienRegistrationId
 	 */
-	alienRegistrationId: string;
+	alienRegistrationId?: string;
 
 	/**
 	 * The drivers licence identifier for this person.
 	 * @see https://vocabulary.uncefact.org/driversLicenceId
 	 */
-	driversLicenceId: string;
+	driversLicenceId?: string;
 
 	/**
 	 * The identity card identifier for this person.
 	 * @see https://vocabulary.uncefact.org/identityCardId
 	 */
-	identityCardId: string;
+	identityCardId?: string;
 
 	/**
 	 * The passport identifier for this person.
 	 * @see https://vocabulary.uncefact.org/passportId
 	 */
-	passportId: string;
+	passportId?: string;
 
 	/**
 	 * The social security identifier for this person.
 	 * @see https://vocabulary.uncefact.org/socialSecurityId
 	 */
-	socialSecurityId: string;
+	socialSecurityId?: string;
 
 	/**
 	 * A proprietary Identity specified for this person.
 	 * @see https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 	 */
-	specifiedProprietaryIdentity: IUneceProprietaryIdentity[];
+	specifiedProprietaryIdentity?: IUneceProprietaryIdentity[];
 }

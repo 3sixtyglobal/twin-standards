@@ -48,9 +48,9 @@ https://vocabulary.uncefact.org/breakUpDateTime
 
 ***
 
-### creationDateTime?
+### creationDateTime
 
-> `optional` **creationDateTime**: `string`
+> **creationDateTime**: `string`
 
 The date, time, date time, or other date time value of the creation of this animal batch.
 
@@ -72,9 +72,9 @@ https://vocabulary.uncefact.org/fLUXId
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The identifier for this animal batch.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/salesNoteId
 
 ### specifiedDelimitedPeriod?
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this animal batch.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod?
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this animal batch.
 

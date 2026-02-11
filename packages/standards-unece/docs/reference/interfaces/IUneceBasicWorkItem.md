@@ -108,9 +108,9 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### identifier?
+### identifier
 
-> `optional` **identifier**: `string`
+> **identifier**: `string`
 
 The unique identifier for this basic work item.
 
@@ -144,9 +144,9 @@ https://vocabulary.uncefact.org/itemBasicWorkItem
 
 ***
 
-### priceListItemId
+### priceListItemId?
 
-> **priceListItemId**: `string`
+> `optional` **priceListItemId**: `string`
 
 The unique identifier of a price list item for this basic work item.
 
@@ -168,9 +168,9 @@ https://vocabulary.uncefact.org/primaryClassificationCode
 
 ***
 
-### referenceId
+### referenceId?
 
-> **referenceId**: `string`
+> `optional` **referenceId**: `string`
 
 The unique identifier of another work item referenced by this basic work item.
 

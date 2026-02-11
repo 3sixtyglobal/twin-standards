@@ -33,7 +33,7 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * A unique country identifier for this location party.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId;
+	countryId?: UneceCountryId[];
 
 	/**
 	 * A trade contact defined for this location party.
@@ -87,19 +87,19 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * A logistics location or place specified for this party.
 	 * @see https://vocabulary.uncefact.org/specifiedLogisticsLocation
 	 */
-	specifiedLogisticsLocation?: IUneceLogisticsLocation;
+	specifiedLogisticsLocation?: IUneceLogisticsLocation[];
 
 	/**
 	 * A transport related person specified for this location party.
 	 * @see https://vocabulary.uncefact.org/specifiedTransportPerson
 	 */
-	specifiedTransportPerson?: IUneceTransportPerson;
+	specifiedTransportPerson?: IUneceTransportPerson[];
 
 	/**
 	 * Telephone communication information for this location party.
 	 * @see https://vocabulary.uncefact.org/telephoneCommunication
 	 */
-	telephoneCommunication?: IUneceCommunication;
+	telephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * A code specifying the type of location party that is independent of its role.
@@ -111,5 +111,5 @@ export interface IUneceLocationParty extends IJsonLdNodeObject {
 	 * Uniform Resource Identifier (URI) communication information for this location party, such as a web or email address.
 	 * @see https://vocabulary.uncefact.org/uRICommunication
 	 */
-	uRICommunication?: IUneceCommunication;
+	uRICommunication?: IUneceCommunication[];
 }

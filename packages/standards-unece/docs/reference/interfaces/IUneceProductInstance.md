@@ -304,7 +304,7 @@ https://vocabulary.uncefact.org/inspectionDocument
 
 ### inspectionEvent?
 
-> `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
 The inspection event for this trade product instance.
 

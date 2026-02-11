@@ -29,7 +29,7 @@ export interface IUnecePolygon extends IJsonLdNodeObject {
 	 * The geographical object characteristic associated with this specified polygon.
 	 * @see https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 	 */
-	associatedGeographicalObjectCharacteristic: IUneceGeographicalObjectCharacteristic;
+	associatedGeographicalObjectCharacteristic?: IUneceGeographicalObjectCharacteristic;
 
 	/**
 	 * A logistics location associated with this specified polygon.

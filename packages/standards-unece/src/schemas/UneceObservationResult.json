@@ -230,7 +230,8 @@
 		}
 	},
 	"required": [
-		"type"
+		"type",
+		"identifier"
 	],
 	"additionalProperties": {
 		"anyOf": [

@@ -69,7 +69,7 @@ export interface IUneceProductBatchCertificate extends IJsonLdNodeObject {
 	 * The trade product certification applicable to this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/applicableTradeProductCertification
 	 */
-	applicableTradeProductCertification?: IUneceTradeProductCertification[];
+	applicableTradeProductCertification?: IUneceTradeProductCertification;
 
 	/**
 	 * A binary file attached to this product batch certificate.
@@ -81,7 +81,7 @@ export interface IUneceProductBatchCertificate extends IJsonLdNodeObject {
 	 * The code specifying the type of product batch certificate.
 	 * @see https://vocabulary.uncefact.org/certificateTypeCode
 	 */
-	certificateTypeCode?: UneceCertificateTypeCodeList[];
+	certificateTypeCode?: UneceCertificateTypeCodeList;
 
 	/**
 	 * A textual description of this product batch certificate.

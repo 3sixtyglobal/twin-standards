@@ -130,6 +130,7 @@
 	},
 	"required": [
 		"type",
+		"identifier",
 		"receiverSpecifiedParty",
 		"senderSpecifiedParty"
 	],

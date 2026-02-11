@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ### billingPeriod?
 
-> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The billing period specified for the subordinate line of this trade settlement.
 

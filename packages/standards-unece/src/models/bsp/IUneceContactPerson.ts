@@ -134,7 +134,7 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * An employer identity specified for this contact person.
 	 * @see https://vocabulary.uncefact.org/specifiedEmployerIdentity
 	 */
-	specifiedEmployerIdentity?: IUneceEmployerIdentity;
+	specifiedEmployerIdentity?: IUneceEmployerIdentity[];
 
 	/**
 	 * The person identity specified for this contact person.
@@ -152,7 +152,7 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * Telephone communication information for this contact person.
 	 * @see https://vocabulary.uncefact.org/telephoneCommunication
 	 */
-	telephoneCommunication?: IUneceCommunication;
+	telephoneCommunication?: IUneceCommunication[];
 
 	/**
 	 * The textual expression of the title associated with this contact person, such as Doctor.
@@ -164,5 +164,5 @@ export interface IUneceContactPerson extends IJsonLdNodeObject {
 	 * A website Uniform Resource Identifier (URI) communication for this contact person.
 	 * @see https://vocabulary.uncefact.org/websiteURICommunication
 	 */
-	websiteURICommunication?: IUneceCommunication;
+	websiteURICommunication?: IUneceCommunication[];
 }

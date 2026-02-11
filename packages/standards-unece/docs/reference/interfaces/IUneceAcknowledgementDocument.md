@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/acknowledgementDocumentReasonInformation
 
 ### acknowledgementDocumentStatusCode?
 
-> `optional` **acknowledgementDocumentStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)
+> `optional` **acknowledgementDocumentStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)[]
 
 A code specifying a status for this acknowledgement document.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/acknowledgementDocumentStatusCode
 
 ### acknowledgementStatusCode?
 
-> `optional` **acknowledgementStatusCode**: [`UneceAcknowledgementCodeList`](../type-aliases/UneceAcknowledgementCodeList.md)
+> `optional` **acknowledgementStatusCode**: [`UneceAcknowledgementCodeList`](../type-aliases/UneceAcknowledgementCodeList.md)[]
 
 A code specifying an acknowledgment status for this acknowledgement document.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### documentTypeCode?
 
-> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
+> `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
 
 A code specifying a type of acknowledgement document.
 

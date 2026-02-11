@@ -106,5 +106,5 @@ export interface IUneceTransportationWasteMaterial extends IJsonLdNodeObject {
 	 * A measure of the weight of this transportation waste material.
 	 * @see https://vocabulary.uncefact.org/weightMeasure
 	 */
-	weightMeasure?: IUneceMeasureType;
+	weightMeasure?: IUneceMeasureType[];
 }

@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/duration
 
 ### durationMeasure?
 
-> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the length of time for this specified time period such as hours, days, weeks, months, years.
 

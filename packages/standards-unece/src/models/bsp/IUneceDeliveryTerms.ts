@@ -47,7 +47,7 @@ export interface IUneceDeliveryTerms extends IJsonLdNodeObject {
 	 * A code specifying a function of these trade delivery terms.
 	 * @see https://vocabulary.uncefact.org/deliveryTermsFunctionCode
 	 */
-	deliveryTermsFunctionCode?: UneceDeliveryTermsFunctionCodeList;
+	deliveryTermsFunctionCode?: UneceDeliveryTermsFunctionCodeList[];
 
 	/**
 	 * A textual description of these trade delivery terms.

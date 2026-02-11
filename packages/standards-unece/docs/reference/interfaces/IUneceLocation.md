@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/physicalGeographicalPoint
 
 ### postalAddress?
 
-> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+> `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
 The postal trade address for this referenced location.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/relatedProductionUnit
 
 ### specifiedAssertion?
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
+> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this referenced location.
 

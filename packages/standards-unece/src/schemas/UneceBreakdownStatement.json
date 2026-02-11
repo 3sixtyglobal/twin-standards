@@ -195,8 +195,11 @@
 	},
 	"required": [
 		"type",
+		"creationDateTime",
 		"defaultCurrencyCode",
-		"defaultLanguageCode"
+		"defaultLanguageCode",
+		"identifier",
+		"name"
 	],
 	"additionalProperties": {
 		"anyOf": [

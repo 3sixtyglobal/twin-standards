@@ -34,7 +34,7 @@ export interface IUneceSubordinateLineTradeDelivery extends IJsonLdNodeObject {
 	 * A billed quantity of this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/billedQuantity
 	 */
-	billedQuantity?: IUneceQuantityType;
+	billedQuantity?: IUneceQuantityType[];
 
 	/**
 	 * Packaging included in this subordinate line trade delivery.
@@ -52,7 +52,7 @@ export interface IUneceSubordinateLineTradeDelivery extends IJsonLdNodeObject {
 	 * The number of units per package in this subordinate line trade delivery.
 	 * @see https://vocabulary.uncefact.org/perPackageUnitQuantity
 	 */
-	perPackageUnitQuantity?: IUneceQuantityType[];
+	perPackageUnitQuantity?: IUneceQuantityType;
 
 	/**
 	 * The number of product units in this subordinate line trade delivery.

@@ -36,9 +36,9 @@ JSON-LD Type.
 
 ***
 
-### associatedDirectPositionList?
+### associatedDirectPositionList
 
-> `optional` **associatedDirectPositionList**: `string`
+> **associatedDirectPositionList**: `string`
 
 The direct position list associated with this geographical point.
 

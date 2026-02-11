@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/documentAmendmentPurposeCode
 
 ### documentLanguageId?
 
-> `optional` **documentLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)
+> `optional` **documentLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)[]
 
 An identifier for a language used in this referenced document.
 
@@ -384,9 +384,9 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ***
 
-### issuerAssignedId
+### issuerAssignedId?
 
-> **issuerAssignedId**: `string`
+> `optional` **issuerAssignedId**: `string`
 
 The unique issuer assigned identifier for this referenced document.
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/issuerAssignedId
 
 ### issuerParty?
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade related party that issues this referenced document.
 
@@ -540,9 +540,9 @@ https://vocabulary.uncefact.org/pageId
 
 ***
 
-### previousRevisionId
+### previousRevisionId?
 
-> **previousRevisionId**: `string`
+> `optional` **previousRevisionId**: `string`
 
 An identifier for a previous revision of this referenced document.
 
@@ -600,9 +600,9 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ***
 
-### recipientTradeParty
+### recipientTradeParty?
 
-> **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A trade related party that receives this referenced document.
 
@@ -624,9 +624,9 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ***
 
-### referenceRelationshipTypeCode
+### referenceRelationshipTypeCode?
 
-> **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
+> `optional` **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
 The code specifying the type of relationship between this referenced document and another artefact, such as a
 replacement of an original document.
@@ -733,9 +733,9 @@ https://vocabulary.uncefact.org/senderTradeParty
 
 ***
 
-### signatoryAuthentication
+### signatoryAuthentication?
 
-> **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
+> `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
 
 A signatory authentication for this referenced document.
 
@@ -819,7 +819,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ### validityPeriod?
 
-> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A period of validity specified for this referenced document.
 
