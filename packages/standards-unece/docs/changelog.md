@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.36](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.35...standards-unece-v0.0.3-next.36) (2026-02-11)
+
+
+### Features
+
+* improve unece cardinality ([#151](https://github.com/twinfoundation/standards/issues/151)) ([e37d696](https://github.com/twinfoundation/standards/commit/e37d696d949e2f4853ddc7193a991a883ccf6ee5))
+
 ## [0.0.3-next.35](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.34...standards-unece-v0.0.3-next.35) (2026-02-10)
 
 
