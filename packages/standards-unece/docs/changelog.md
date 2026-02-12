@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.37](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.36...standards-unece-v0.0.3-next.37) (2026-02-12)
+
+
+### Bug Fixes
+
+* map decimal to number and update numeric property types in UNECE model generation ([#153](https://github.com/twinfoundation/standards/issues/153)) ([e3e3c1b](https://github.com/twinfoundation/standards/commit/e3e3c1b5226c053bb4eb7d43510bb1b8a0e3cdfd))
+
 ## [0.0.3-next.36](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.35...standards-unece-v0.0.3-next.36) (2026-02-11)
 
 

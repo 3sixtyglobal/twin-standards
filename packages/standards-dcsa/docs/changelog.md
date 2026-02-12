@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.37](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.36...standards-dcsa-v0.0.3-next.37) (2026-02-12)
+
+
+### Miscellaneous Chores
+
+* **standards-dcsa:** Synchronize repo versions
+
 ## [0.0.3-next.36](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.35...standards-dcsa-v0.0.3-next.36) (2026-02-11)
 
 
