@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### DurationUnitMeasureTypeValue?
 
-> `optional` **DurationUnitMeasureTypeValue**: `string`
+> `optional` **DurationUnitMeasureTypeValue**: `number`
 
 The numeric value.
 

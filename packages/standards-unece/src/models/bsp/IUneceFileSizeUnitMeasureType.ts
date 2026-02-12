@@ -26,7 +26,7 @@ export interface IUneceFileSizeUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/FileSizeUnitMeasureTypeValue
 	 */
-	FileSizeUnitMeasureTypeValue?: string;
+	FileSizeUnitMeasureTypeValue?: number;
 
 	/**
 	 * The unit code.

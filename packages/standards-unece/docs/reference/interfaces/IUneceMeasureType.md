@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### MeasureTypeValue?
 
-> `optional` **MeasureTypeValue**: `string`
+> `optional` **MeasureTypeValue**: `number`
 
 The numeric value.
 

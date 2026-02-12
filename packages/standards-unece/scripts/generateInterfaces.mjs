@@ -296,7 +296,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				'xsd:string': 'string',
 				'xsd:dateTime': 'string',
 				'xsd:date': 'string',
-				'xsd:decimal': 'string',
+				'xsd:decimal': 'number',
 				'xsd:boolean': 'boolean',
 				'xsd:base64Binary': 'string'
 			};

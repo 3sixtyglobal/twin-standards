@@ -26,7 +26,7 @@ export interface IUneceMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/MeasureTypeValue
 	 */
-	MeasureTypeValue?: string;
+	MeasureTypeValue?: number;
 
 	/**
 	 * The unit code.

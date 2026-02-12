@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"AmountTypeValue": {
-			"type": "string",
+			"type": "number",
 			"description": "A number of monetary units."
 		},
 		"AmountTypeCurrency": {

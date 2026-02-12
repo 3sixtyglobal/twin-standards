@@ -26,7 +26,7 @@ export interface IUneceTemperatureUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/TemperatureUnitMeasureTypeValue
 	 */
-	TemperatureUnitMeasureTypeValue?: string;
+	TemperatureUnitMeasureTypeValue?: number;
 
 	/**
 	 * The unit code.

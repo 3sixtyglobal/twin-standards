@@ -26,7 +26,7 @@ export interface IUneceAmountType extends IJsonLdNodeObject {
 	 * A number of monetary units.
 	 * @see https://vocabulary.uncefact.org/AmountTypeValue
 	 */
-	AmountTypeValue?: string;
+	AmountTypeValue?: number;
 
 	/**
 	 * An amount currency code.

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### TemperatureUnitMeasureTypeValue?
 
-> `optional` **TemperatureUnitMeasureTypeValue**: `string`
+> `optional` **TemperatureUnitMeasureTypeValue**: `number`
 
 The numeric value.
 

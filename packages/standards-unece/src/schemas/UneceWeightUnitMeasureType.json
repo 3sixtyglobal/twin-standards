@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"WeightUnitMeasureTypeValue": {
-			"type": "string",
+			"type": "number",
 			"description": "The numeric value."
 		},
 		"WeightUnitMeasureTypeCode": {

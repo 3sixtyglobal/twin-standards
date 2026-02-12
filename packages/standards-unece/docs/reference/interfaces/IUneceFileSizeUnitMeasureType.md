@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### FileSizeUnitMeasureTypeValue?
 
-> `optional` **FileSizeUnitMeasureTypeValue**: `string`
+> `optional` **FileSizeUnitMeasureTypeValue**: `number`
 
 The numeric value.
 

@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### VolumeUnitMeasureTypeValue?
 
-> `optional` **VolumeUnitMeasureTypeValue**: `string`
+> `optional` **VolumeUnitMeasureTypeValue**: `number`
 
 The numeric value.
 
