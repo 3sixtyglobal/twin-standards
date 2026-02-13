@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.38](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.37...standards-unece-v0.0.3-next.38) (2026-02-13)
+
+
+### Features
+
+* revert unece decimal changes ([#156](https://github.com/twinfoundation/standards/issues/156)) ([0e054d3](https://github.com/twinfoundation/standards/commit/0e054d3abf9cea5eacae5b973a821895b0eb61d8))
+
 ## [0.0.3-next.37](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.36...standards-unece-v0.0.3-next.37) (2026-02-12)
 
 
