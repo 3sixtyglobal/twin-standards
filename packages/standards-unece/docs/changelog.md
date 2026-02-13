@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.39](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.38...standards-unece-v0.0.3-next.39) (2026-02-13)
+
+
+### Features
+
+* un code list descriptions ([#158](https://github.com/twinfoundation/standards/issues/158)) ([ad685ab](https://github.com/twinfoundation/standards/commit/ad685ab46f237e724388af6d2822007502b5b232))
+
 ## [0.0.3-next.38](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.37...standards-unece-v0.0.3-next.38) (2026-02-13)
 
 
