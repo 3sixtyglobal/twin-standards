@@ -23,10 +23,10 @@ export class UnCodeLists {
 	private static readonly _cache: { [key: string]: { [key: string]: string } } = {};
 
 	/**
-	 * Get the all the translations for a specific list type.
+	 * Get all the translations for a specific list type.
 	 * @param codeList The code list to get the translations for.
 	 * @param locale The locale to get the translations for. If not provided, the default locale will be used. Falls back to 'en' if the locale doesn't exist.
-	 * @returns The list translations for the code list.
+	 * @returns The translations for the code list.
 	 */
 	public static async getDescriptions(
 		codeList: UneceCodeLists,
@@ -93,7 +93,7 @@ export class UnCodeLists {
 	 * @param codeList The code list to get the translations for.
 	 * @param key The key to get the translation for.
 	 * @param locale The locale to get the translations for. If not provided, the default locale will be used.
-	 * @returns The list translations for the code list.
+	 * @returns The translation for the specified key in the code list.
 	 */
 	public static async getDescription(
 		codeList: UneceCodeLists,

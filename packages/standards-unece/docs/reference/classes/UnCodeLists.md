@@ -22,7 +22,7 @@ https://vocabulary.uncefact.org/code-lists
 
 > `static` **getDescriptions**(`codeList`, `locale?`): `Promise`\<\{\[`key`: `string`\]: `string`; \}\>
 
-Get the all the translations for a specific list type.
+Get all the translations for a specific list type.
 
 #### Parameters
 
@@ -42,7 +42,7 @@ The locale to get the translations for. If not provided, the default locale will
 
 `Promise`\<\{\[`key`: `string`\]: `string`; \}\>
 
-The list translations for the code list.
+The translations for the code list.
 
 ***
 
@@ -76,4 +76,4 @@ The locale to get the translations for. If not provided, the default locale will
 
 `Promise`\<`string` \| `undefined`\>
 
-The list translations for the code list.
+The translation for the specified key in the code list.
