@@ -26,7 +26,7 @@ export interface IUneceDurationUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/DurationUnitMeasureTypeValue
 	 */
-	DurationUnitMeasureTypeValue?: number;
+	DurationUnitMeasureTypeValue?: string;
 
 	/**
 	 * The unit code.

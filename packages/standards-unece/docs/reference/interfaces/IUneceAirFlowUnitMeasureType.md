@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### AirFlowUnitMeasureTypeValue?
 
-> `optional` **AirFlowUnitMeasureTypeValue**: `number`
+> `optional` **AirFlowUnitMeasureTypeValue**: `string`
 
 The numeric value.
 

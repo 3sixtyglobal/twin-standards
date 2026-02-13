@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"LinearUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"LinearUnitMeasureTypeCode": {

@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"VolumeUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"VolumeUnitMeasureTypeCode": {

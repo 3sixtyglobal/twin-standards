@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### QuantityTypeValue?
 
-> `optional` **QuantityTypeValue**: `number`
+> `optional` **QuantityTypeValue**: `string`
 
 The numeric value.
 

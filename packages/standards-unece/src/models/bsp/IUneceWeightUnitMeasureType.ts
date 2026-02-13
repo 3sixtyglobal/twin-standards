@@ -26,7 +26,7 @@ export interface IUneceWeightUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/WeightUnitMeasureTypeValue
 	 */
-	WeightUnitMeasureTypeValue?: number;
+	WeightUnitMeasureTypeValue?: string;
 
 	/**
 	 * The unit code.

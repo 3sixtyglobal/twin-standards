@@ -296,7 +296,10 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				'xsd:string': 'string',
 				'xsd:dateTime': 'string',
 				'xsd:date': 'string',
-				'xsd:decimal': 'number',
+				// Decimal type to string mapping is deliberate to avoid precision issues in JavaScript
+				// See https://unece.org/sites/default/files/2023-11/API-TECH-SPEC_JSON_Schema_NDR_version1p0.pdf
+				// section 3.5.1 Primitive Data Type
+				'xsd:decimal': 'string',
 				'xsd:boolean': 'boolean',
 				'xsd:base64Binary': 'string'
 			};

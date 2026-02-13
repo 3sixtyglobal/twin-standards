@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### AmountTypeValue?
 
-> `optional` **AmountTypeValue**: `number`
+> `optional` **AmountTypeValue**: `string`
 
 A number of monetary units.
 

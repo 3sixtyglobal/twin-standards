@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"AirFlowUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"AirFlowUnitMeasureTypeCode": {

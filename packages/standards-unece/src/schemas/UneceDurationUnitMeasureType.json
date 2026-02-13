@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"DurationUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"DurationUnitMeasureTypeCode": {

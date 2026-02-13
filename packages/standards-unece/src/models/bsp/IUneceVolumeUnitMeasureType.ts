@@ -26,7 +26,7 @@ export interface IUneceVolumeUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/VolumeUnitMeasureTypeValue
 	 */
-	VolumeUnitMeasureTypeValue?: number;
+	VolumeUnitMeasureTypeValue?: string;
 
 	/**
 	 * The unit code.

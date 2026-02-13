@@ -38,7 +38,7 @@ JSON-LD Type.
 
 ### WeightUnitMeasureTypeValue?
 
-> `optional` **WeightUnitMeasureTypeValue**: `number`
+> `optional` **WeightUnitMeasureTypeValue**: `string`
 
 The numeric value.
 

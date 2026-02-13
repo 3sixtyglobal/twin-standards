@@ -26,7 +26,7 @@ export interface IUneceAirFlowUnitMeasureType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/AirFlowUnitMeasureTypeValue
 	 */
-	AirFlowUnitMeasureTypeValue?: number;
+	AirFlowUnitMeasureTypeValue?: string;
 
 	/**
 	 * The unit code.

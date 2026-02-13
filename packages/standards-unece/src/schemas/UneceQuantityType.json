@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"QuantityTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"QuantityTypeCode": {

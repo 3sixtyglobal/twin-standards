@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"TemperatureUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"TemperatureUnitMeasureTypeCode": {

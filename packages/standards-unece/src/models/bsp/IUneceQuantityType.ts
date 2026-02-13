@@ -26,7 +26,7 @@ export interface IUneceQuantityType extends IJsonLdNodeObject {
 	 * The numeric value.
 	 * @see https://vocabulary.uncefact.org/QuantityTypeValue
 	 */
-	QuantityTypeValue?: number;
+	QuantityTypeValue?: string;
 
 	/**
 	 * The unit code.

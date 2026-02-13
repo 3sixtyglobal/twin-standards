@@ -96,7 +96,7 @@
 			"description": "JSON-LD Type."
 		},
 		"FileSizeUnitMeasureTypeValue": {
-			"type": "number",
+			"type": "string",
 			"description": "The numeric value."
 		},
 		"FileSizeUnitMeasureTypeCode": {
