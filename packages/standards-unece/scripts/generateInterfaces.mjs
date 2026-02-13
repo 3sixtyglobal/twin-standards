@@ -370,13 +370,15 @@ function getCCTSTitle(typeName, jsonLdItem) {
 /**
  * Process a list class from the JSON-LD mapping.
  */
-async function processList(id, item, generatedTypes) {
+async function processList(id, item, generatedTypes, locales) {
 	const description = item['rdfs:comment'] ?? 'No description available.';
 
 	if (!Array.isArray(item.values)) {
 		process.stdout.write(`  Skipping list with no values: ${id}\n`);
 	} else {
 		const typeName = stripUnece(id);
+
+		const itemLocales = {};
 
 		const typeLines = [];
 
@@ -435,6 +437,8 @@ async function processList(id, item, generatedTypes) {
 			} else {
 				typeLines.push(`\t${label}: "unece:${typeName}#${value}"`);
 			}
+
+			itemLocales[`unece:${typeName}#${value}`] = mainComment;
 		}
 		typeLines.push('} as const;');
 		typeLines.push('');
@@ -448,6 +452,8 @@ async function processList(id, item, generatedTypes) {
 		);
 		const exportText = `export type Unece${typeName} = (typeof Unece${typeName})[keyof typeof Unece${typeName}];`;
 		typeLines.push(exportText);
+
+		locales[typeName] = itemLocales;
 
 		await writeCodeFile(LIST_OUTPUT_DIR, `unece${typeName}`, [], typeLines);
 
@@ -637,7 +643,54 @@ async function generateTsToSchemaJson(generatedTypes) {
 	existingContent.externalReferences = {};
 	existingContent.autoExpandTypes = ['UneceContextType'];
 
-	await writeFile(tsToSchemaPath, `${JSON.stringify(existingContent, undefined, '\t')}\n`, 'utf8');
+	await saveJSON(tsToSchemaPath, existingContent);
+}
+
+/**
+ * Update the locales
+ */
+async function generateLocales(locales) {
+	const localesPath = path.join(__dirname, '..', 'locales', 'en.json');
+
+	const existingContent = await loadJSON(localesPath);
+
+	existingContent.codeLists = {};
+	const codeListKeys = Object.keys(locales);
+	const sortedKeys = codeListKeys.sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'case' }));
+	for (const codeListKey of sortedKeys) {
+		existingContent.codeLists[camelCase(codeListKey)] = locales[codeListKey];
+	}
+
+	await saveJSON(localesPath, existingContent);
+
+	const lines = fileHeaderLines();
+	lines.push('/**');
+	lines.push(' * The types of UNECE code lists.');
+	lines.push(' * @see https://vocabulary.uncefact.org/code-lists');
+	lines.push(' */');
+	lines.push('// eslint-disable-next-line @typescript-eslint/naming-convention');
+	lines.push('export const UneceCodeLists = {');
+
+	for (let i = 0; i < sortedKeys.length; i++) {
+		const t = sortedKeys[i];
+		lines.push(...createComment(t, '\t', `https://vocabulary.uncefact.org/${t}`));
+		const comma = i < sortedKeys.length - 1 ? ',' : '';
+		lines.push(`\t${t}: "unece:${t}"${comma}`);
+		if (i < sortedKeys.length - 1) {
+			lines.push('');
+		}
+	}
+
+	lines.push('} as const;');
+	lines.push('');
+	lines.push('/**');
+	lines.push(' * The types of UNECE code lists.');
+	lines.push(' * @see https://vocabulary.uncefact.org/code-lists');
+	lines.push(' */');
+	lines.push('export type UneceCodeLists = (typeof UneceCodeLists)[keyof typeof UneceCodeLists];');
+	lines.push('');
+
+	await writeFile(path.join(BASE_OUTPUT_DIR, 'uneceCodeLists.ts'), lines.join('\n'));
 }
 
 /**
@@ -647,6 +700,13 @@ async function loadJSON(filePath) {
 	const content = await fs.readFile(filePath, 'utf8');
 
 	return JSON.parse(content);
+}
+
+/**
+ * Save JSON file with pretty formatting.
+ */
+async function saveJSON(filePath, data) {
+	await writeFile(filePath, `${JSON.stringify(data, undefined, '\t')}\n`, 'utf8');
 }
 
 /**
@@ -795,6 +855,8 @@ async function main() {
 
 	const csvMapping = await loadCsvData();
 
+	const locales = {};
+
 	const generatedTypes = [];
 	for (const id of Object.keys(jsonLdMapping)) {
 		const item = jsonLdMapping[id];
@@ -811,7 +873,7 @@ async function main() {
 					await processRangeList(`${stripUnece(id)}TypeCodeList`, item, generatedTypes);
 				}
 			} else if (isList) {
-				await processList(id, item, generatedTypes);
+				await processList(id, item, generatedTypes, locales);
 			}
 		}
 	}
@@ -824,6 +886,9 @@ async function main() {
 
 	process.stdout.write('✅ Update ts-to-schema.json with generated model exports\n');
 	await generateTsToSchemaJson(generatedTypes);
+
+	process.stdout.write('✅ Update locales\n');
+	await generateLocales(locales);
 
 	process.stdout.write('\n✅ Interface generation complete!\n');
 }

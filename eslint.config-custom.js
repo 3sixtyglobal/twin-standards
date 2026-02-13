@@ -5,6 +5,7 @@ export function extendConfig(allRules, config) {
 		config[0].ignores.push('./packages/standards-unece/src/models/bsp/**/*');
 		config[0].ignores.push('./packages/standards-unece/src/models/lists/**/*');
 		config[0].ignores.push('./packages/standards-unece/src/models/typeCodes/**/*');
+		config[0].ignores.push('./packages/standards-unece/src/models/uneceCodeLists.ts');
 		config[0].ignores.push('./packages/standards-unece/src-data/**/*');
 	}
 }
