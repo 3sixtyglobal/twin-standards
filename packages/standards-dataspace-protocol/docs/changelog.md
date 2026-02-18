@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.40](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.39...standards-dataspace-protocol-v0.0.3-next.40) (2026-02-18)
+
+
+### Miscellaneous Chores
+
+* **standards-dataspace-protocol:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.39 to 0.0.3-next.40
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.39 to 0.0.3-next.40
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.39 to 0.0.3-next.40
+
 ## [0.0.3-next.39](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.38...standards-dataspace-protocol-v0.0.3-next.39) (2026-02-13)
 
 

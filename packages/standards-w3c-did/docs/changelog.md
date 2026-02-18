@@ -1,5 +1,12 @@
 # @twin.org/standards-w3c-did - Changelog
 
+## [0.0.3-next.40](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.39...standards-w3c-did-v0.0.3-next.40) (2026-02-18)
+
+
+### Features
+
+* add async proof signing with callback support ([#162](https://github.com/twinfoundation/standards/issues/162)) ([d1d8559](https://github.com/twinfoundation/standards/commit/d1d8559cf75e98cebd460ed7bb4c8a41094b2468))
+
 ## [0.0.3-next.39](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.38...standards-w3c-did-v0.0.3-next.39) (2026-02-13)
 
 

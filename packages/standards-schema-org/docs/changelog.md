@@ -1,5 +1,12 @@
 # @twin.org/standards-schema-org - Changelog
 
+## [0.0.3-next.40](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.39...standards-schema-org-v0.0.3-next.40) (2026-02-18)
+
+
+### Miscellaneous Chores
+
+* **standards-schema-org:** Synchronize repo versions
+
 ## [0.0.3-next.39](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.38...standards-schema-org-v0.0.3-next.39) (2026-02-13)
 
 
