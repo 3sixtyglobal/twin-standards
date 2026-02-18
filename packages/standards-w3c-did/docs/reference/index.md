@@ -3,7 +3,9 @@
 ## Classes
 
 - [DidDataTypes](classes/DidDataTypes.md)
+- [DataIntegrityProofAsyncSignerVerifier](classes/DataIntegrityProofAsyncSignerVerifier.md)
 - [DataIntegrityProofSignerVerifier](classes/DataIntegrityProofSignerVerifier.md)
+- [JsonWebSignature2020AsyncSignerVerifier](classes/JsonWebSignature2020AsyncSignerVerifier.md)
 - [JsonWebSignature2020SignerVerifier](classes/JsonWebSignature2020SignerVerifier.md)
 - [MultikeyHelper](classes/MultikeyHelper.md)
 - [ProofHelper](classes/ProofHelper.md)
@@ -28,6 +30,7 @@
 - [IJsonWebSignature2020Proof](interfaces/IJsonWebSignature2020Proof.md)
 - [IMultikey](interfaces/IMultikey.md)
 - [IProofSignerVerifier](interfaces/IProofSignerVerifier.md)
+- [IProofSignerVerifierAsync](interfaces/IProofSignerVerifierAsync.md)
 
 ## Type Aliases
 
@@ -38,6 +41,7 @@
 - [DidCryptoSuites](type-aliases/DidCryptoSuites.md)
 - [DidTypes](type-aliases/DidTypes.md)
 - [DidVerificationMethodType](type-aliases/DidVerificationMethodType.md)
+- [JwsAlgorithms](type-aliases/JwsAlgorithms.md)
 - [ProofTypes](type-aliases/ProofTypes.md)
 
 ## Variables
@@ -46,4 +50,5 @@
 - [DidCryptoSuites](variables/DidCryptoSuites.md)
 - [DidTypes](variables/DidTypes.md)
 - [DidVerificationMethodType](variables/DidVerificationMethodType.md)
+- [JwsAlgorithms](variables/JwsAlgorithms.md)
 - [ProofTypes](variables/ProofTypes.md)

@@ -48,6 +48,33 @@ GeneralError if the proof type is not supported.
 
 ***
 
+### createAsyncSignerVerifier()
+
+> `static` **createAsyncSignerVerifier**(`proofType`): [`IProofSignerVerifierAsync`](../interfaces/IProofSignerVerifierAsync.md)
+
+Create an async signer verifier that supports signing with callbacks.
+This enables signing without exposing private keys.
+
+#### Parameters
+
+##### proofType
+
+[`ProofTypes`](../type-aliases/ProofTypes.md)
+
+The type of proof to create.
+
+#### Returns
+
+[`IProofSignerVerifierAsync`](../interfaces/IProofSignerVerifierAsync.md)
+
+The created async signer verifier.
+
+#### Throws
+
+GeneralError if the proof type is not supported.
+
+***
+
 ### createProof()
 
 > `static` **createProof**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
@@ -79,6 +106,47 @@ The proof options.
 `JWK`
 
 The key to sign the proof with.
+
+#### Returns
+
+`Promise`\<[`IProof`](../type-aliases/IProof.md)\>
+
+The created proof.
+
+***
+
+### createProofWithSigner()
+
+> `static` **createProofWithSigner**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
+
+Create a proof with an async signing callback.
+This method prevents private key exposure by delegating signing to a secure callback.
+
+#### Parameters
+
+##### proofType
+
+[`ProofTypes`](../type-aliases/ProofTypes.md)
+
+The type of proof to create.
+
+##### unsecuredDocument
+
+`IJsonLdNodeObject`
+
+The data to create the proof for.
+
+##### unsignedProof
+
+[`IProof`](../type-aliases/IProof.md)
+
+The proof options.
+
+##### signCallback
+
+(`data`, `algorithm`) => `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
+
+Async callback that signs data with a private key from secure storage. The algorithm parameter indicates the expected signing algorithm (e.g., "EdDSA") to enable validation.
 
 #### Returns
 

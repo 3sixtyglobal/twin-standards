@@ -8,8 +8,11 @@ import { DidContexts } from "../models/didContexts.js";
 import { DidCryptoSuites } from "../models/didCryptoSuites.js";
 import type { IProof } from "../models/IProof.js";
 import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
+import type { IProofSignerVerifierAsync } from "../models/IProofSignerVerifierAsync.js";
 import { ProofTypes } from "../models/proofTypes.js";
+import { DataIntegrityProofAsyncSignerVerifier } from "../signerVerifiers/dataIntegrityProofAsyncSignerVerifier.js";
 import { DataIntegrityProofSignerVerifier } from "../signerVerifiers/dataIntegrityProofSignerVerifier.js";
+import { JsonWebSignature2020AsyncSignerVerifier } from "../signerVerifiers/jsonWebSignature2020AsyncSignerVerifier.js";
 import { JsonWebSignature2020SignerVerifier } from "../signerVerifiers/jsonWebSignature2020SignerVerifier.js";
 
 /**
@@ -49,6 +52,34 @@ export class ProofHelper {
 	}
 
 	/**
+	 * Create an async signer verifier that supports signing with callbacks.
+	 * This enables signing without exposing private keys.
+	 * @param proofType The type of proof to create.
+	 * @returns The created async signer verifier.
+	 * @throws GeneralError if the proof type is not supported.
+	 */
+	public static createAsyncSignerVerifier(proofType: ProofTypes): IProofSignerVerifierAsync {
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+
+		let signerVerifier: IProofSignerVerifierAsync | undefined;
+		if (proofType === ProofTypes.DataIntegrityProof) {
+			signerVerifier = new DataIntegrityProofAsyncSignerVerifier();
+		} else if (proofType === ProofTypes.JsonWebSignature2020) {
+			signerVerifier = new JsonWebSignature2020AsyncSignerVerifier();
+		}
+
+		if (Is.empty(signerVerifier)) {
+			throw new GeneralError(ProofHelper.CLASS_NAME, "unsupportedProofType", { proofType });
+		}
+		return signerVerifier;
+	}
+
+	/**
 	 * Create a proof for the given data.
 	 * @param proofType The type of proof to create.
 	 * @param unsecuredDocument The data to create the proof for.
@@ -79,6 +110,42 @@ export class ProofHelper {
 			unsecuredDocument as unknown as IJsonLdNodeObject,
 			unsignedProof,
 			signKey
+		);
+	}
+
+	/**
+	 * Create a proof with an async signing callback.
+	 * This method prevents private key exposure by delegating signing to a secure callback.
+	 * @param proofType The type of proof to create.
+	 * @param unsecuredDocument The data to create the proof for.
+	 * @param unsignedProof The proof options.
+	 * @param signCallback Async callback that signs data with a private key from secure storage. The algorithm parameter indicates the expected signing algorithm (e.g., "EdDSA") to enable validation.
+	 * @returns The created proof.
+	 */
+	public static async createProofWithSigner(
+		proofType: ProofTypes,
+		unsecuredDocument: IJsonLdNodeObject,
+		unsignedProof: IProof,
+		signCallback: (data: Uint8Array, algorithm: string) => Promise<Uint8Array>
+	): Promise<IProof> {
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(unsignedProof), unsignedProof);
+		Guards.function(ProofHelper.CLASS_NAME, nameof(signCallback), signCallback);
+
+		return ProofHelper.createAsyncSignerVerifier(proofType).createProofWithSigner(
+			unsecuredDocument as unknown as IJsonLdNodeObject,
+			unsignedProof,
+			signCallback
 		);
 	}
 
