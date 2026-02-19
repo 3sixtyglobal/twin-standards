@@ -135,6 +135,12 @@ export const UneceCodeLists = {
 	AccountingVoucherMediumCodeList: "unece:AccountingVoucherMediumCodeList",
 
 	/**
+	 * AccreditationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AccreditationTypeCodeList
+	 */
+	AccreditationTypeCodeList: "unece:AccreditationTypeCodeList",
+
+	/**
 	 * AcknowledgementCodeList.
 	 * @see https://vocabulary.uncefact.org/AcknowledgementCodeList
 	 */
@@ -165,10 +171,28 @@ export const UneceCodeLists = {
 	AdjustmentReasonCodeList: "unece:AdjustmentReasonCodeList",
 
 	/**
+	 * AgriculturalCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AgriculturalCharacteristicTypeCodeList
+	 */
+	AgriculturalCharacteristicTypeCodeList: "unece:AgriculturalCharacteristicTypeCodeList",
+
+	/**
+	 * AgriculturalProcessTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AgriculturalProcessTypeCodeList
+	 */
+	AgriculturalProcessTypeCodeList: "unece:AgriculturalProcessTypeCodeList",
+
+	/**
 	 * AirFlowUnitMeasureCode.
 	 * @see https://vocabulary.uncefact.org/AirFlowUnitMeasureCode
 	 */
 	AirFlowUnitMeasureCode: "unece:AirFlowUnitMeasureCode",
+
+	/**
+	 * AllergyTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AllergyTypeCodeList
+	 */
+	AllergyTypeCodeList: "unece:AllergyTypeCodeList",
 
 	/**
 	 * AllowanceChargeIdCodeList.
@@ -207,10 +231,28 @@ export const UneceCodeLists = {
 	AmountWeightTypeCodeList: "unece:AmountWeightTypeCodeList",
 
 	/**
+	 * AnimalHoldingEventTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AnimalHoldingEventTypeCodeList
+	 */
+	AnimalHoldingEventTypeCodeList: "unece:AnimalHoldingEventTypeCodeList",
+
+	/**
+	 * AssessmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/AssessmentTypeCodeList
+	 */
+	AssessmentTypeCodeList: "unece:AssessmentTypeCodeList",
+
+	/**
 	 * AutomaticDataCaptureMethodCodeList.
 	 * @see https://vocabulary.uncefact.org/AutomaticDataCaptureMethodCodeList
 	 */
 	AutomaticDataCaptureMethodCodeList: "unece:AutomaticDataCaptureMethodCodeList",
+
+	/**
+	 * BasicWorkItemTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/BasicWorkItemTypeCodeList
+	 */
+	BasicWorkItemTypeCodeList: "unece:BasicWorkItemTypeCodeList",
 
 	/**
 	 * BillingDocumentCodeList.
@@ -229,6 +271,12 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/BinaryObjectEncodingCodeList
 	 */
 	BinaryObjectEncodingCodeList: "unece:BinaryObjectEncodingCodeList",
+
+	/**
+	 * CalibratedMeasurementTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CalibratedMeasurementTypeCodeList
+	 */
+	CalibratedMeasurementTypeCodeList: "unece:CalibratedMeasurementTypeCodeList",
 
 	/**
 	 * CargoCategoryCodeList.
@@ -255,6 +303,18 @@ export const UneceCodeLists = {
 	CargoTypeClassificationCodeList: "unece:CargoTypeClassificationCodeList",
 
 	/**
+	 * CarriedEquipmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CarriedEquipmentTypeCodeList
+	 */
+	CarriedEquipmentTypeCodeList: "unece:CarriedEquipmentTypeCodeList",
+
+	/**
+	 * CashTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CashTypeCodeList
+	 */
+	CashTypeCodeList: "unece:CashTypeCodeList",
+
+	/**
 	 * CertificateTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/CertificateTypeCodeList
 	 */
@@ -267,10 +327,34 @@ export const UneceCodeLists = {
 	ChargePayingPartyRoleCodeList: "unece:ChargePayingPartyRoleCodeList",
 
 	/**
+	 * ChemicalTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ChemicalTypeCodeList
+	 */
+	ChemicalTypeCodeList: "unece:ChemicalTypeCodeList",
+
+	/**
+	 * ChequeTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ChequeTypeCodeList
+	 */
+	ChequeTypeCodeList: "unece:ChequeTypeCodeList",
+
+	/**
+	 * ClassificationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ClassificationTypeCodeList
+	 */
+	ClassificationTypeCodeList: "unece:ClassificationTypeCodeList",
+
+	/**
 	 * CodeListResponsibleAgencyCodeList.
 	 * @see https://vocabulary.uncefact.org/CodeListResponsibleAgencyCodeList
 	 */
 	CodeListResponsibleAgencyCodeList: "unece:CodeListResponsibleAgencyCodeList",
+
+	/**
+	 * ColourTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ColourTypeCodeList
+	 */
+	ColourTypeCodeList: "unece:ColourTypeCodeList",
 
 	/**
 	 * CommitmentLevelCodeList.
@@ -285,16 +369,52 @@ export const UneceCodeLists = {
 	CommunicationChannelCodeList: "unece:CommunicationChannelCodeList",
 
 	/**
+	 * CommunicationEventTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CommunicationEventTypeCodeList
+	 */
+	CommunicationEventTypeCodeList: "unece:CommunicationEventTypeCodeList",
+
+	/**
 	 * ContactTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/ContactTypeCodeList
 	 */
 	ContactTypeCodeList: "unece:ContactTypeCodeList",
 
 	/**
+	 * ControlSettingParameterTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ControlSettingParameterTypeCodeList
+	 */
+	ControlSettingParameterTypeCodeList: "unece:ControlSettingParameterTypeCodeList",
+
+	/**
+	 * CorrectiveActionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CorrectiveActionTypeCodeList
+	 */
+	CorrectiveActionTypeCodeList: "unece:CorrectiveActionTypeCodeList",
+
+	/**
 	 * CountryId.
 	 * @see https://vocabulary.uncefact.org/CountryId
 	 */
 	CountryId: "unece:CountryId",
+
+	/**
+	 * CountrySubDivisionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CountrySubDivisionTypeCodeList
+	 */
+	CountrySubDivisionTypeCodeList: "unece:CountrySubDivisionTypeCodeList",
+
+	/**
+	 * CropProduceBatchTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CropProduceBatchTypeCodeList
+	 */
+	CropProduceBatchTypeCodeList: "unece:CropProduceBatchTypeCodeList",
+
+	/**
+	 * CropProtectionTreatmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CropProtectionTreatmentTypeCodeList
+	 */
+	CropProtectionTreatmentTypeCodeList: "unece:CropProtectionTreatmentTypeCodeList",
 
 	/**
 	 * CurrencyCodeList.
@@ -313,6 +433,12 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/CustomsProcedureGuaranteeCodeList
 	 */
 	CustomsProcedureGuaranteeCodeList: "unece:CustomsProcedureGuaranteeCodeList",
+
+	/**
+	 * CustomsValuationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/CustomsValuationTypeCodeList
+	 */
+	CustomsValuationTypeCodeList: "unece:CustomsValuationTypeCodeList",
 
 	/**
 	 * DangerousGoodsPackagingLevelCodeList.
@@ -345,10 +471,28 @@ export const UneceCodeLists = {
 	DeliveryTermsFunctionCodeList: "unece:DeliveryTermsFunctionCodeList",
 
 	/**
+	 * DigitalMethodTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/DigitalMethodTypeCodeList
+	 */
+	DigitalMethodTypeCodeList: "unece:DigitalMethodTypeCodeList",
+
+	/**
 	 * DimensionTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/DimensionTypeCodeList
 	 */
 	DimensionTypeCodeList: "unece:DimensionTypeCodeList",
+
+	/**
+	 * DisabilityTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/DisabilityTypeCodeList
+	 */
+	DisabilityTypeCodeList: "unece:DisabilityTypeCodeList",
+
+	/**
+	 * DocumentCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/DocumentCharacteristicTypeCodeList
+	 */
+	DocumentCharacteristicTypeCodeList: "unece:DocumentCharacteristicTypeCodeList",
 
 	/**
 	 * DocumentCodeList.
@@ -369,6 +513,18 @@ export const UneceCodeLists = {
 	DurationUnitMeasureCode: "unece:DurationUnitMeasureCode",
 
 	/**
+	 * EmissionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/EmissionTypeCodeList
+	 */
+	EmissionTypeCodeList: "unece:EmissionTypeCodeList",
+
+	/**
+	 * EquipmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/EquipmentTypeCodeList
+	 */
+	EquipmentTypeCodeList: "unece:EquipmentTypeCodeList",
+
+	/**
 	 * FileSizeUnitMeasureCode.
 	 * @see https://vocabulary.uncefact.org/FileSizeUnitMeasureCode
 	 */
@@ -387,10 +543,22 @@ export const UneceCodeLists = {
 	FinancialAdjustmentReasonCodeList: "unece:FinancialAdjustmentReasonCodeList",
 
 	/**
+	 * FinancialCardTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/FinancialCardTypeCodeList
+	 */
+	FinancialCardTypeCodeList: "unece:FinancialCardTypeCodeList",
+
+	/**
 	 * FinancialInstitutionRoleCodeList.
 	 * @see https://vocabulary.uncefact.org/FinancialInstitutionRoleCodeList
 	 */
 	FinancialInstitutionRoleCodeList: "unece:FinancialInstitutionRoleCodeList",
+
+	/**
+	 * FoodChoiceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/FoodChoiceTypeCodeList
+	 */
+	FoodChoiceTypeCodeList: "unece:FoodChoiceTypeCodeList",
 
 	/**
 	 * FreightChargeTariffClassCodeList.
@@ -403,6 +571,24 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/FreightChargeTypeId
 	 */
 	FreightChargeTypeId: "unece:FreightChargeTypeId",
+
+	/**
+	 * FuelTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/FuelTypeCodeList
+	 */
+	FuelTypeCodeList: "unece:FuelTypeCodeList",
+
+	/**
+	 * GeopoliticalRegionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/GeopoliticalRegionTypeCodeList
+	 */
+	GeopoliticalRegionTypeCodeList: "unece:GeopoliticalRegionTypeCodeList",
+
+	/**
+	 * GoodsCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/GoodsCharacteristicTypeCodeList
+	 */
+	GoodsCharacteristicTypeCodeList: "unece:GoodsCharacteristicTypeCodeList",
 
 	/**
 	 * GoodsTypeCodeList.
@@ -423,10 +609,46 @@ export const UneceCodeLists = {
 	GovernmentActionCodeList: "unece:GovernmentActionCodeList",
 
 	/**
+	 * GovernmentRegistrationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/GovernmentRegistrationTypeCodeList
+	 */
+	GovernmentRegistrationTypeCodeList: "unece:GovernmentRegistrationTypeCodeList",
+
+	/**
+	 * GroupedWorkItemTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/GroupedWorkItemTypeCodeList
+	 */
+	GroupedWorkItemTypeCodeList: "unece:GroupedWorkItemTypeCodeList",
+
+	/**
+	 * GuestHealthIndicationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/GuestHealthIndicationTypeCodeList
+	 */
+	GuestHealthIndicationTypeCodeList: "unece:GuestHealthIndicationTypeCodeList",
+
+	/**
+	 * InspectionEventTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/InspectionEventTypeCodeList
+	 */
+	InspectionEventTypeCodeList: "unece:InspectionEventTypeCodeList",
+
+	/**
 	 * InvoiceDocumentCodeList.
 	 * @see https://vocabulary.uncefact.org/InvoiceDocumentCodeList
 	 */
 	InvoiceDocumentCodeList: "unece:InvoiceDocumentCodeList",
+
+	/**
+	 * IOTDeviceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/IOTDeviceTypeCodeList
+	 */
+	IOTDeviceTypeCodeList: "unece:IOTDeviceTypeCodeList",
+
+	/**
+	 * IssueTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/IssueTypeCodeList
+	 */
+	IssueTypeCodeList: "unece:IssueTypeCodeList",
 
 	/**
 	 * LanguageCodeList.
@@ -439,6 +661,24 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/LanguageId
 	 */
 	LanguageId: "unece:LanguageId",
+
+	/**
+	 * LegalOrganizationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/LegalOrganizationTypeCodeList
+	 */
+	LegalOrganizationTypeCodeList: "unece:LegalOrganizationTypeCodeList",
+
+	/**
+	 * LegalRegistrationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/LegalRegistrationTypeCodeList
+	 */
+	LegalRegistrationTypeCodeList: "unece:LegalRegistrationTypeCodeList",
+
+	/**
+	 * LicenceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/LicenceTypeCodeList
+	 */
+	LicenceTypeCodeList: "unece:LicenceTypeCodeList",
 
 	/**
 	 * LifetimeEndCostCodeList.
@@ -465,10 +705,22 @@ export const UneceCodeLists = {
 	LocationFunctionCodeList: "unece:LocationFunctionCodeList",
 
 	/**
+	 * LocationPartyTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/LocationPartyTypeCodeList
+	 */
+	LocationPartyTypeCodeList: "unece:LocationPartyTypeCodeList",
+
+	/**
 	 * LogisticsChargeCalculationBasisCodeList.
 	 * @see https://vocabulary.uncefact.org/LogisticsChargeCalculationBasisCodeList
 	 */
 	LogisticsChargeCalculationBasisCodeList: "unece:LogisticsChargeCalculationBasisCodeList",
+
+	/**
+	 * LogisticsPackagingTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/LogisticsPackagingTypeCodeList
+	 */
+	LogisticsPackagingTypeCodeList: "unece:LogisticsPackagingTypeCodeList",
 
 	/**
 	 * LogisticsStatusCodeList.
@@ -477,10 +729,22 @@ export const UneceCodeLists = {
 	LogisticsStatusCodeList: "unece:LogisticsStatusCodeList",
 
 	/**
+	 * MachineTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/MachineTypeCodeList
+	 */
+	MachineTypeCodeList: "unece:MachineTypeCodeList",
+
+	/**
 	 * MarkingInstructionCodeList.
 	 * @see https://vocabulary.uncefact.org/MarkingInstructionCodeList
 	 */
 	MarkingInstructionCodeList: "unece:MarkingInstructionCodeList",
+
+	/**
+	 * MDHHealthIndicationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/MDHHealthIndicationTypeCodeList
+	 */
+	MDHHealthIndicationTypeCodeList: "unece:MDHHealthIndicationTypeCodeList",
 
 	/**
 	 * MeasuredAttributeCodeList.
@@ -489,10 +753,52 @@ export const UneceCodeLists = {
 	MeasuredAttributeCodeList: "unece:MeasuredAttributeCodeList",
 
 	/**
+	 * MeasurementTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/MeasurementTypeCodeList
+	 */
+	MeasurementTypeCodeList: "unece:MeasurementTypeCodeList",
+
+	/**
 	 * MessageFunctionCodeList.
 	 * @see https://vocabulary.uncefact.org/MessageFunctionCodeList
 	 */
 	MessageFunctionCodeList: "unece:MessageFunctionCodeList",
+
+	/**
+	 * MetricCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/MetricCharacteristicTypeCodeList
+	 */
+	MetricCharacteristicTypeCodeList: "unece:MetricCharacteristicTypeCodeList",
+
+	/**
+	 * NegotiationContextTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/NegotiationContextTypeCodeList
+	 */
+	NegotiationContextTypeCodeList: "unece:NegotiationContextTypeCodeList",
+
+	/**
+	 * ObjectTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ObjectTypeCodeList
+	 */
+	ObjectTypeCodeList: "unece:ObjectTypeCodeList",
+
+	/**
+	 * ObservationObjectiveParameterTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ObservationObjectiveParameterTypeCodeList
+	 */
+	ObservationObjectiveParameterTypeCodeList: "unece:ObservationObjectiveParameterTypeCodeList",
+
+	/**
+	 * OperationalParameterTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/OperationalParameterTypeCodeList
+	 */
+	OperationalParameterTypeCodeList: "unece:OperationalParameterTypeCodeList",
+
+	/**
+	 * OrganizationCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/OrganizationCharacteristicTypeCodeList
+	 */
+	OrganizationCharacteristicTypeCodeList: "unece:OrganizationCharacteristicTypeCodeList",
 
 	/**
 	 * OrganizationFunctionTypeCodeList.
@@ -529,6 +835,18 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/PartyTypeCodeList
 	 */
 	PartyTypeCodeList: "unece:PartyTypeCodeList",
+
+	/**
+	 * PaymentFinancialAccountTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PaymentFinancialAccountTypeCodeList
+	 */
+	PaymentFinancialAccountTypeCodeList: "unece:PaymentFinancialAccountTypeCodeList",
+
+	/**
+	 * PaymentFinancialInstitutionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PaymentFinancialInstitutionTypeCodeList
+	 */
+	PaymentFinancialInstitutionTypeCodeList: "unece:PaymentFinancialInstitutionTypeCodeList",
 
 	/**
 	 * PaymentGuaranteeMeansCodeList.
@@ -573,10 +891,34 @@ export const UneceCodeLists = {
 	PaymentTermsTypeCodeList: "unece:PaymentTermsTypeCodeList",
 
 	/**
+	 * PaymentTradeSettlementTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PaymentTradeSettlementTypeCodeList
+	 */
+	PaymentTradeSettlementTypeCodeList: "unece:PaymentTradeSettlementTypeCodeList",
+
+	/**
+	 * PersonalEffectsTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PersonalEffectsTypeCodeList
+	 */
+	PersonalEffectsTypeCodeList: "unece:PersonalEffectsTypeCodeList",
+
+	/**
+	 * PreventiveActionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PreventiveActionTypeCodeList
+	 */
+	PreventiveActionTypeCodeList: "unece:PreventiveActionTypeCodeList",
+
+	/**
 	 * PriceTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/PriceTypeCodeList
 	 */
 	PriceTypeCodeList: "unece:PriceTypeCodeList",
+
+	/**
+	 * PrintTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/PrintTypeCodeList
+	 */
+	PrintTypeCodeList: "unece:PrintTypeCodeList",
 
 	/**
 	 * PriorityDescriptionCodeList.
@@ -591,10 +933,100 @@ export const UneceCodeLists = {
 	ProcessTypeCodeList: "unece:ProcessTypeCodeList",
 
 	/**
+	 * ProcessWorkItemTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProcessWorkItemTypeCodeList
+	 */
+	ProcessWorkItemTypeCodeList: "unece:ProcessWorkItemTypeCodeList",
+
+	/**
+	 * ProduceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProduceTypeCodeList
+	 */
+	ProduceTypeCodeList: "unece:ProduceTypeCodeList",
+
+	/**
+	 * ProductBatchCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductBatchCharacteristicTypeCodeList
+	 */
+	ProductBatchCharacteristicTypeCodeList: "unece:ProductBatchCharacteristicTypeCodeList",
+
+	/**
+	 * ProductBatchTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductBatchTypeCodeList
+	 */
+	ProductBatchTypeCodeList: "unece:ProductBatchTypeCodeList",
+
+	/**
+	 * ProductCharacteristicConditionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductCharacteristicConditionTypeCodeList
+	 */
+	ProductCharacteristicConditionTypeCodeList: "unece:ProductCharacteristicConditionTypeCodeList",
+
+	/**
+	 * ProductCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductCharacteristicTypeCodeList
+	 */
+	ProductCharacteristicTypeCodeList: "unece:ProductCharacteristicTypeCodeList",
+
+	/**
+	 * ProductFinishingTreatmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductFinishingTreatmentTypeCodeList
+	 */
+	ProductFinishingTreatmentTypeCodeList: "unece:ProductFinishingTreatmentTypeCodeList",
+
+	/**
+	 * ProductionDeviceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductionDeviceTypeCodeList
+	 */
+	ProductionDeviceTypeCodeList: "unece:ProductionDeviceTypeCodeList",
+
+	/**
+	 * ProductionUnitTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductionUnitTypeCodeList
+	 */
+	ProductionUnitTypeCodeList: "unece:ProductionUnitTypeCodeList",
+
+	/**
+	 * ProductionWasteMaterialComponentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductionWasteMaterialComponentTypeCodeList
+	 */
+	ProductionWasteMaterialComponentTypeCodeList: "unece:ProductionWasteMaterialComponentTypeCodeList",
+
+	/**
+	 * ProductionWasteMaterialTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProductionWasteMaterialTypeCodeList
+	 */
+	ProductionWasteMaterialTypeCodeList: "unece:ProductionWasteMaterialTypeCodeList",
+
+	/**
+	 * ProjectTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ProjectTypeCodeList
+	 */
+	ProjectTypeCodeList: "unece:ProjectTypeCodeList",
+
+	/**
+	 * QuantityAnalysisTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/QuantityAnalysisTypeCodeList
+	 */
+	QuantityAnalysisTypeCodeList: "unece:QuantityAnalysisTypeCodeList",
+
+	/**
 	 * QuotationDocumentCodeList.
 	 * @see https://vocabulary.uncefact.org/QuotationDocumentCodeList
 	 */
 	QuotationDocumentCodeList: "unece:QuotationDocumentCodeList",
+
+	/**
+	 * RadioactiveMaterialTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/RadioactiveMaterialTypeCodeList
+	 */
+	RadioactiveMaterialTypeCodeList: "unece:RadioactiveMaterialTypeCodeList",
+
+	/**
+	 * RangeTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/RangeTypeCodeList
+	 */
+	RangeTypeCodeList: "unece:RangeTypeCodeList",
 
 	/**
 	 * ReferenceCodeList.
@@ -615,6 +1047,12 @@ export const UneceCodeLists = {
 	RemittanceDocumentCodeList: "unece:RemittanceDocumentCodeList",
 
 	/**
+	 * RequirementTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/RequirementTypeCodeList
+	 */
+	RequirementTypeCodeList: "unece:RequirementTypeCodeList",
+
+	/**
 	 * ResponseTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/ResponseTypeCodeList
 	 */
@@ -633,10 +1071,22 @@ export const UneceCodeLists = {
 	ResponsibleGovernmentAgencyInvolvementCodeList: "unece:ResponsibleGovernmentAgencyInvolvementCodeList",
 
 	/**
+	 * SanitaryMeasureTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SanitaryMeasureTypeCodeList
+	 */
+	SanitaryMeasureTypeCodeList: "unece:SanitaryMeasureTypeCodeList",
+
+	/**
 	 * ScenarioTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/ScenarioTypeCodeList
 	 */
 	ScenarioTypeCodeList: "unece:ScenarioTypeCodeList",
+
+	/**
+	 * ScheduleTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/ScheduleTypeCodeList
+	 */
+	ScheduleTypeCodeList: "unece:ScheduleTypeCodeList",
 
 	/**
 	 * SchedulingDocumentCodeList.
@@ -657,10 +1107,94 @@ export const UneceCodeLists = {
 	SealingPartyRoleCodeList: "unece:SealingPartyRoleCodeList",
 
 	/**
+	 * SecurityTagTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SecurityTagTypeCodeList
+	 */
+	SecurityTagTypeCodeList: "unece:SecurityTagTypeCodeList",
+
+	/**
+	 * SegmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SegmentTypeCodeList
+	 */
+	SegmentTypeCodeList: "unece:SegmentTypeCodeList",
+
+	/**
+	 * SensorTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SensorTypeCodeList
+	 */
+	SensorTypeCodeList: "unece:SensorTypeCodeList",
+
+	/**
 	 * SoftwareUserTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/SoftwareUserTypeCodeList
 	 */
 	SoftwareUserTypeCodeList: "unece:SoftwareUserTypeCodeList",
+
+	/**
+	 * SpecificationQueryTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecificationQueryTypeCodeList
+	 */
+	SpecificationQueryTypeCodeList: "unece:SpecificationQueryTypeCodeList",
+
+	/**
+	 * SpecifiedActionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedActionTypeCodeList
+	 */
+	SpecifiedActionTypeCodeList: "unece:SpecifiedActionTypeCodeList",
+
+	/**
+	 * SpecifiedChemicalTreatmentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedChemicalTreatmentTypeCodeList
+	 */
+	SpecifiedChemicalTreatmentTypeCodeList: "unece:SpecifiedChemicalTreatmentTypeCodeList",
+
+	/**
+	 * SpecifiedDeclarationTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedDeclarationTypeCodeList
+	 */
+	SpecifiedDeclarationTypeCodeList: "unece:SpecifiedDeclarationTypeCodeList",
+
+	/**
+	 * SpecifiedFaultTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedFaultTypeCodeList
+	 */
+	SpecifiedFaultTypeCodeList: "unece:SpecifiedFaultTypeCodeList",
+
+	/**
+	 * SpecifiedFeatureTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedFeatureTypeCodeList
+	 */
+	SpecifiedFeatureTypeCodeList: "unece:SpecifiedFeatureTypeCodeList",
+
+	/**
+	 * SpecifiedInspectionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedInspectionTypeCodeList
+	 */
+	SpecifiedInspectionTypeCodeList: "unece:SpecifiedInspectionTypeCodeList",
+
+	/**
+	 * SpecifiedMaterialTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedMaterialTypeCodeList
+	 */
+	SpecifiedMaterialTypeCodeList: "unece:SpecifiedMaterialTypeCodeList",
+
+	/**
+	 * SpecifiedParameterTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedParameterTypeCodeList
+	 */
+	SpecifiedParameterTypeCodeList: "unece:SpecifiedParameterTypeCodeList",
+
+	/**
+	 * SpecifiedPeriodTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SpecifiedPeriodTypeCodeList
+	 */
+	SpecifiedPeriodTypeCodeList: "unece:SpecifiedPeriodTypeCodeList",
+
+	/**
+	 * StandardTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/StandardTypeCodeList
+	 */
+	StandardTypeCodeList: "unece:StandardTypeCodeList",
 
 	/**
 	 * StatusCodeList.
@@ -669,10 +1203,58 @@ export const UneceCodeLists = {
 	StatusCodeList: "unece:StatusCodeList",
 
 	/**
+	 * StoresItemInventoryTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/StoresItemInventoryTypeCodeList
+	 */
+	StoresItemInventoryTypeCodeList: "unece:StoresItemInventoryTypeCodeList",
+
+	/**
 	 * SubjectCodeList.
 	 * @see https://vocabulary.uncefact.org/SubjectCodeList
 	 */
 	SubjectCodeList: "unece:SubjectCodeList",
+
+	/**
+	 * SupplyChainEventTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SupplyChainEventTypeCodeList
+	 */
+	SupplyChainEventTypeCodeList: "unece:SupplyChainEventTypeCodeList",
+
+	/**
+	 * SupplyChainReferenceTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SupplyChainReferenceTypeCodeList
+	 */
+	SupplyChainReferenceTypeCodeList: "unece:SupplyChainReferenceTypeCodeList",
+
+	/**
+	 * SupplyChainTradeLineItemTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SupplyChainTradeLineItemTypeCodeList
+	 */
+	SupplyChainTradeLineItemTypeCodeList: "unece:SupplyChainTradeLineItemTypeCodeList",
+
+	/**
+	 * SupplyChainTradeTransactionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SupplyChainTradeTransactionTypeCodeList
+	 */
+	SupplyChainTradeTransactionTypeCodeList: "unece:SupplyChainTradeTransactionTypeCodeList",
+
+	/**
+	 * SupplyPlanTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SupplyPlanTypeCodeList
+	 */
+	SupplyPlanTypeCodeList: "unece:SupplyPlanTypeCodeList",
+
+	/**
+	 * SustainabilityCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SustainabilityCharacteristicTypeCodeList
+	 */
+	SustainabilityCharacteristicTypeCodeList: "unece:SustainabilityCharacteristicTypeCodeList",
+
+	/**
+	 * SustainabilityInspectionTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/SustainabilityInspectionTypeCodeList
+	 */
+	SustainabilityInspectionTypeCodeList: "unece:SustainabilityInspectionTypeCodeList",
 
 	/**
 	 * TaxCategoryCodeList.
@@ -693,6 +1275,12 @@ export const UneceCodeLists = {
 	TaxTypeCodeList: "unece:TaxTypeCodeList",
 
 	/**
+	 * TechnicalCharacteristicTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TechnicalCharacteristicTypeCodeList
+	 */
+	TechnicalCharacteristicTypeCodeList: "unece:TechnicalCharacteristicTypeCodeList",
+
+	/**
 	 * TemperatureTypeCodeList.
 	 * @see https://vocabulary.uncefact.org/TemperatureTypeCodeList
 	 */
@@ -709,6 +1297,30 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/TimeReferenceCodeList
 	 */
 	TimeReferenceCodeList: "unece:TimeReferenceCodeList",
+
+	/**
+	 * TradeProductFeatureTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TradeProductFeatureTypeCodeList
+	 */
+	TradeProductFeatureTypeCodeList: "unece:TradeProductFeatureTypeCodeList",
+
+	/**
+	 * TradeProductTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TradeProductTypeCodeList
+	 */
+	TradeProductTypeCodeList: "unece:TradeProductTypeCodeList",
+
+	/**
+	 * TransportationWasteMaterialComponentTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TransportationWasteMaterialComponentTypeCodeList
+	 */
+	TransportationWasteMaterialComponentTypeCodeList: "unece:TransportationWasteMaterialComponentTypeCodeList",
+
+	/**
+	 * TransportationWasteMaterialTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TransportationWasteMaterialTypeCodeList
+	 */
+	TransportationWasteMaterialTypeCodeList: "unece:TransportationWasteMaterialTypeCodeList",
 
 	/**
 	 * TransportContractMovementCodeList.
@@ -763,6 +1375,12 @@ export const UneceCodeLists = {
 	 * @see https://vocabulary.uncefact.org/TransportEquipmentSupplierPartyRoleCodeList
 	 */
 	TransportEquipmentSupplierPartyRoleCodeList: "unece:TransportEquipmentSupplierPartyRoleCodeList",
+
+	/**
+	 * TransportEventTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/TransportEventTypeCodeList
+	 */
+	TransportEventTypeCodeList: "unece:TransportEventTypeCodeList",
 
 	/**
 	 * TransportMeansDirectionCodeList.
@@ -843,6 +1461,12 @@ export const UneceCodeLists = {
 	VolumeUnitMeasureCode: "unece:VolumeUnitMeasureCode",
 
 	/**
+	 * VoucherTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/VoucherTypeCodeList
+	 */
+	VoucherTypeCodeList: "unece:VoucherTypeCodeList",
+
+	/**
 	 * WeightUnitMeasureCode.
 	 * @see https://vocabulary.uncefact.org/WeightUnitMeasureCode
 	 */
@@ -852,7 +1476,13 @@ export const UneceCodeLists = {
 	 * WorkflowStatusCodeList.
 	 * @see https://vocabulary.uncefact.org/WorkflowStatusCodeList
 	 */
-	WorkflowStatusCodeList: "unece:WorkflowStatusCodeList"
+	WorkflowStatusCodeList: "unece:WorkflowStatusCodeList",
+
+	/**
+	 * XHEParameterTypeCodeList.
+	 * @see https://vocabulary.uncefact.org/XHEParameterTypeCodeList
+	 */
+	XHEParameterTypeCodeList: "unece:XHEParameterTypeCodeList"
 } as const;
 
 /**

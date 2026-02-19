@@ -89,6 +89,28 @@ describe("UnCodeLists", () => {
 		});
 	});
 
+	test("Can get descriptions for type code lists (SupplyChainEventTypeCodeList, TransportEventTypeCodeList)", async () => {
+		const supplyChainDesc = await UnCodeLists.getDescription(
+			UneceCodeLists.SupplyChainEventTypeCodeList,
+			"unece:acceptanceEvent"
+		);
+		expect(supplyChainDesc).toBe(
+			"An acceptance delivery event, at header level, for this trade delivery."
+		);
+
+		const transportDesc = await UnCodeLists.getDescription(
+			UneceCodeLists.TransportEventTypeCodeList,
+			"unece:arrivalEvent"
+		);
+		expect(transportDesc).toBe("An arrival event for this logistics transport movement.");
+
+		const transportAll = await UnCodeLists.getDescriptions(
+			UneceCodeLists.TransportEventTypeCodeList
+		);
+		expect(transportAll["unece:arrivalEvent"]).toBeDefined();
+		expect(transportAll["unece:deliveryTransportEvent"]).toBeDefined();
+	});
+
 	test("Caches fallback translations under the actual locale used, not the requested locale", async () => {
 		// First request with a locale that doesn't have translations (falls back to 'en')
 		const codesFromFr = await UnCodeLists.getDescriptions(

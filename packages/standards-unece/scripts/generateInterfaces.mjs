@@ -469,9 +469,11 @@ async function processList(id, item, generatedTypes, locales) {
 /**
  * Process a range include list from the JSON-LD mapping.
  */
-async function processRangeList(rangeIncludeTypeName, item, generatedTypes) {
+async function processRangeList(rangeIncludeTypeName, item, generatedTypes, locales) {
 	const baseTypeName = stripUnece(item['@id']);
 	const rangeTypeName = rangeIncludeTypeName;
+
+	const itemLocales = {};
 
 	const description = `Values for Unece${baseTypeName} typeCode property.`;
 	process.stdout.write(`  Processing range include list: ${rangeTypeName}\n`);
@@ -500,6 +502,7 @@ async function processRangeList(rangeIncludeTypeName, item, generatedTypes) {
 			? valueItem['rdfs:comment']
 			: [valueItem['rdfs:comment']];
 		const mainComment = commentParts[0];
+		itemLocales[itemId] = mainComment ?? itemId;
 		typeLines.push(
 			...createComment(
 				[mainComment ? mainComment : itemId].concat(commentParts.slice(1)),
@@ -527,6 +530,8 @@ async function processRangeList(rangeIncludeTypeName, item, generatedTypes) {
 	);
 	const exportText = `export type Unece${rangeTypeName} = (typeof Unece${rangeTypeName})[keyof typeof Unece${rangeTypeName}];`;
 	typeLines.push(exportText);
+
+	locales[rangeTypeName] = itemLocales;
 
 	await writeCodeFile(TYPE_CODE_OUTPUT_DIR, `unece${rangeTypeName}`, [], typeLines);
 
@@ -870,7 +875,7 @@ async function main() {
 					item.properties?.find(p => p['@id'] === 'unece:typeCode') &&
 					(item.rangeIncludes ?? []).length > 0
 				) {
-					await processRangeList(`${stripUnece(id)}TypeCodeList`, item, generatedTypes);
+					await processRangeList(`${stripUnece(id)}TypeCodeList`, item, generatedTypes, locales);
 				}
 			} else if (isList) {
 				await processList(id, item, generatedTypes, locales);
