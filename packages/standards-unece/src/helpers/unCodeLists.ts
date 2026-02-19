@@ -23,6 +23,13 @@ export class UnCodeLists {
 	private static readonly _cache: { [key: string]: { [key: string]: string } } = {};
 
 	/**
+	 * Static cache for code list labels per locale.
+	 * Key format: `${locale}:${camelCaseCodeListName}:labels`
+	 * @internal
+	 */
+	private static readonly _labelsCache: { [key: string]: { [key: string]: string } } = {};
+
+	/**
 	 * Get all the translations for a specific list type.
 	 * @param codeList The code list to get the translations for.
 	 * @param locale The locale to get the translations for. If not provided, the default locale will be used. Falls back to 'en' if the locale doesn't exist.
@@ -70,7 +77,7 @@ export class UnCodeLists {
 
 		const translations: { [key: string]: string } = {};
 		for (const key in dictionary) {
-			if (key.startsWith(codeListPrefix)) {
+			if (key.startsWith(codeListPrefix) && !key.endsWith("_label")) {
 				const codeKey = key.slice(codeListPrefix.length);
 				translations[codeKey] = dictionary[key];
 			}
@@ -104,6 +111,91 @@ export class UnCodeLists {
 
 		if (Is.object(descriptions) && Is.string(descriptions[key])) {
 			return descriptions[key];
+		}
+
+		return undefined;
+	}
+
+	/**
+	 * Get all the short description labels for a specific list type.
+	 * Labels are stored in locale files with a `_label` suffix (e.g. `unece:arrivalEvent_label`).
+	 * @param codeList The code list to get the labels for.
+	 * @param locale The locale to get the labels for. If not provided, the default locale will be used. Falls back to 'en' if the locale doesn't exist.
+	 * @returns The labels for the code list, keyed by the original code (without `_label` suffix).
+	 */
+	public static async getLabels(
+		codeList: UneceCodeLists,
+		locale?: string
+	): Promise<{
+		[key: string]: string;
+	}> {
+		Guards.stringValue(UnCodeLists.CLASS_NAME, nameof(codeList), codeList);
+
+		const parts = codeList.split(":");
+		if (parts.length !== 2 || parts[0] !== "unece") {
+			throw new GeneralError(UnCodeLists.CLASS_NAME, "invalidCodeList", { codeList });
+		}
+
+		const finalLocale = locale ?? I18n.getLocale();
+		const camelCaseCodeList = StringHelper.camelCase(parts[1]);
+		const cacheKey = `${finalLocale}:${camelCaseCodeList}:labels`;
+
+		if (cacheKey in UnCodeLists._labelsCache) {
+			return UnCodeLists._labelsCache[cacheKey];
+		}
+
+		let dictionary = I18n.getDictionary(finalLocale);
+		let actualLocale = finalLocale;
+		const labelSuffix = "_label";
+		const codeListPrefix = `codeLists.${camelCaseCodeList}.`;
+
+		let hasTranslations = false;
+		for (const key in dictionary) {
+			if (key.startsWith(codeListPrefix) && key.endsWith(labelSuffix)) {
+				hasTranslations = true;
+				break;
+			}
+		}
+
+		if (!hasTranslations && finalLocale !== "en") {
+			dictionary = I18n.getDictionary("en");
+			actualLocale = "en";
+		}
+
+		const labels: { [key: string]: string } = {};
+		for (const key in dictionary) {
+			if (key.startsWith(codeListPrefix) && key.endsWith(labelSuffix)) {
+				const codeKey = key.slice(codeListPrefix.length, -labelSuffix.length);
+				labels[codeKey] = dictionary[key];
+			}
+		}
+
+		const actualCacheKey = `${actualLocale}:${camelCaseCodeList}:labels`;
+		UnCodeLists._labelsCache[actualCacheKey] = labels;
+
+		if (actualLocale !== finalLocale) {
+			UnCodeLists._labelsCache[cacheKey] = labels;
+		}
+
+		return labels;
+	}
+
+	/**
+	 * Get a short description label for a specific code in a list type.
+	 * @param codeList The code list to get the label for.
+	 * @param key The key to get the label for.
+	 * @param locale The locale to get the label for. If not provided, the default locale will be used.
+	 * @returns The label for the specified key in the code list.
+	 */
+	public static async getLabel(
+		codeList: UneceCodeLists,
+		key: string,
+		locale?: string
+	): Promise<string | undefined> {
+		const labels = await UnCodeLists.getLabels(codeList, locale);
+
+		if (Is.object(labels) && Is.string(labels[key])) {
+			return labels[key];
 		}
 
 		return undefined;

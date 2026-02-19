@@ -503,6 +503,7 @@ async function processRangeList(rangeIncludeTypeName, item, generatedTypes, loca
 			: [valueItem['rdfs:comment']];
 		const mainComment = commentParts[0];
 		itemLocales[itemId] = mainComment ?? itemId;
+		itemLocales[`${itemId}_label`] = generateLabel(label);
 		typeLines.push(
 			...createComment(
 				[mainComment ? mainComment : itemId].concat(commentParts.slice(1)),
@@ -836,6 +837,42 @@ function pascalCase(input) {
 	return wordsSplit(output)
 		.map(w => `${w[0].toUpperCase()}${w.slice(1).toLowerCase()}`)
 		.join('');
+}
+
+/**
+ * Generate a human-friendly label from a camelCase code.
+ * Extends the heuristic from FormatHelper.formatString() in supply-chain-service
+ * with acronym-boundary splitting so that e.g. "IOTDevice" becomes "IOT Device".
+ * e.g. "arrivalEvent" -> "Arrival Event", "attachedIOTDevice" -> "Attached IOT Device"
+ * @param value The camelCase code value (e.g. from rdfs:label).
+ * @returns The formatted label string.
+ */
+function generateLabel(value) {
+	if (!value) {
+		return '';
+	}
+
+	let s = value.trim();
+	if (s.includes(':')) {
+		s = s.split(':').pop() ?? s;
+	}
+
+	s = s
+		.replace(/[_-]+/g, ' ')
+		.replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
+		.replace(/([\da-z])([A-Z])/g, '$1 $2')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+	return s
+		.split(' ')
+		.map(w => {
+			if (w.length > 1 && w === w.toUpperCase()) {
+				return w;
+			}
+			return w.length ? w.charAt(0).toUpperCase() + w.slice(1).toLowerCase() : w;
+		})
+		.join(' ');
 }
 
 /**

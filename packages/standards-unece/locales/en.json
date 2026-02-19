@@ -192,7 +192,8 @@
 			"unece:AccountingVoucherMediumCodeList#9": "FDD 8\""
 		},
 		"accreditationTypeCodeList": {
-			"unece:specificAccreditation": "A certified accreditation specific to this transport person."
+			"unece:specificAccreditation": "A certified accreditation specific to this transport person.",
+			"unece:specificAccreditation_label": "Specific Accreditation"
 		},
 		"acknowledgementCodeList": {
 			"unece:AcknowledgementCodeList#18": "Reissue",
@@ -436,10 +437,13 @@
 		},
 		"agriculturalCharacteristicTypeCodeList": {
 			"unece:applicableAgriculturalCharacteristic": "An agricultural characteristic applicable to this agricultural zone area.",
-			"unece:specifiedAgriculturalCharacteristic": "An agricultural characteristic specified for this crop plot."
+			"unece:applicableAgriculturalCharacteristic_label": "Applicable Agricultural Characteristic",
+			"unece:specifiedAgriculturalCharacteristic": "An agricultural characteristic specified for this crop plot.",
+			"unece:specifiedAgriculturalCharacteristic_label": "Specified Agricultural Characteristic"
 		},
 		"agriculturalProcessTypeCodeList": {
-			"unece:applicableAgriculturalProcess": "An agricultural process crop production applicable for this field crop."
+			"unece:applicableAgriculturalProcess": "An agricultural process crop production applicable for this field crop.",
+			"unece:applicableAgriculturalProcess_label": "Applicable Agricultural Process"
 		},
 		"airFlowUnitMeasureCode": {
 			"unece:AirFlowUnitMeasureCode#35": "millilitre per square centimetre second",
@@ -461,7 +465,8 @@
 			"unece:AirFlowUnitMeasureCode#GB": "gallon (US) per day"
 		},
 		"allergyTypeCodeList": {
-			"unece:notifiedAllergy": "An allergy notified for this guest person."
+			"unece:notifiedAllergy": "An allergy notified for this guest person.",
+			"unece:notifiedAllergy_label": "Notified Allergy"
 		},
 		"allowanceChargeIdCodeList": {
 			"unece:AllowanceChargeIdCodeList#1": "Handling commission",
@@ -892,11 +897,14 @@
 			"unece:AmountWeightTypeCodeList#TC": "Thousand currency amount"
 		},
 		"animalHoldingEventTypeCodeList": {
-			"unece:specifiedAnimalHoldingEvent": "An animal holding event specified for this TT animal."
+			"unece:specifiedAnimalHoldingEvent": "An animal holding event specified for this TT animal.",
+			"unece:specifiedAnimalHoldingEvent_label": "Specified Animal Holding Event"
 		},
 		"assessmentTypeCodeList": {
 			"unece:applicableAssessment": "A specified assessment applicable to this referenced standard.",
-			"unece:relatedAssessment": "An assessment related to this specified inspection result."
+			"unece:applicableAssessment_label": "Applicable Assessment",
+			"unece:relatedAssessment": "An assessment related to this specified inspection result.",
+			"unece:relatedAssessment_label": "Related Assessment"
 		},
 		"automaticDataCaptureMethodCodeList": {
 			"unece:AutomaticDataCaptureMethodCodeList#50": "Package barcoded EAN-13 or EAN-8",
@@ -911,7 +919,8 @@
 			"unece:AutomaticDataCaptureMethodCodeList#82": "Package marked with fixed measure barcode."
 		},
 		"basicWorkItemTypeCodeList": {
-			"unece:itemBasicWorkItem": "A basic work item in this basic work item."
+			"unece:itemBasicWorkItem": "A basic work item in this basic work item.",
+			"unece:itemBasicWorkItem_label": "Item Basic Work Item"
 		},
 		"billingDocumentCodeList": {
 			"unece:BillingDocumentCodeList#261": "Self billed credit note",
@@ -1199,9 +1208,13 @@
 		},
 		"calibratedMeasurementTypeCodeList": {
 			"unece:actualReportedMeasurement": "An actual calibrated measurement reported for this monitoring sensor.",
+			"unece:actualReportedMeasurement_label": "Actual Reported Measurement",
 			"unece:precisionMeasurement": "A calibrated measurement of precision for this monitoring sensor.",
+			"unece:precisionMeasurement_label": "Precision Measurement",
 			"unece:scheduledReportedMeasurement": "A scheduled calibrated measurement reported for this monitoring sensor.",
-			"unece:specifiedMeasurement": "A calibrated measurement specified for this specified condition."
+			"unece:scheduledReportedMeasurement_label": "Scheduled Reported Measurement",
+			"unece:specifiedMeasurement": "A calibrated measurement specified for this specified condition.",
+			"unece:specifiedMeasurement_label": "Specified Measurement"
 		},
 		"cargoCategoryCodeList": {
 			"unece:CargoCategoryCodeList#0": "Liquid Bulk",
@@ -1272,10 +1285,12 @@
 			"unece:CargoTypeClassificationCodeList#9": "Containerized"
 		},
 		"carriedEquipmentTypeCodeList": {
-			"unece:specifiedCarriedEquipment": "Carried equipment specified for this guest person."
+			"unece:specifiedCarriedEquipment": "Carried equipment specified for this guest person.",
+			"unece:specifiedCarriedEquipment_label": "Specified Carried Equipment"
 		},
 		"cashTypeCodeList": {
-			"unece:identifiedCash": "A cash payment identified for this trade settlement payment means."
+			"unece:identifiedCash": "A cash payment identified for this trade settlement payment means.",
+			"unece:identifiedCash_label": "Identified Cash"
 		},
 		"certificateTypeCodeList": {
 			"unece:CertificateTypeCodeList#1": "Mark",
@@ -1306,14 +1321,18 @@
 			"unece:ChargePayingPartyRoleCodeList#PE": "Payee"
 		},
 		"chemicalTypeCodeList": {
-			"unece:usedChemical": "A chemical used during this applied chemical treatment."
+			"unece:usedChemical": "A chemical used during this applied chemical treatment.",
+			"unece:usedChemical_label": "Used Chemical"
 		},
 		"chequeTypeCodeList": {
-			"unece:identifiedCheque": "A cheque payment identified for this trade settlement payment means."
+			"unece:identifiedCheque": "A cheque payment identified for this trade settlement payment means.",
+			"unece:identifiedCheque_label": "Identified Cheque"
 		},
 		"classificationTypeCodeList": {
 			"unece:applicableClassification": "A product classification applicable to this trade product instance.",
-			"unece:designatedClassification": "A product classification designated for this trade product."
+			"unece:applicableClassification_label": "Applicable Classification",
+			"unece:designatedClassification": "A product classification designated for this trade product.",
+			"unece:designatedClassification_label": "Designated Classification"
 		},
 		"codeListResponsibleAgencyCodeList": {
 			"unece:CodeListResponsibleAgencyCodeList#1": "CCC (Customs Co-operation Council)",
@@ -1728,7 +1747,8 @@
 			"unece:CodeListResponsibleAgencyCodeList#ZZZ": "Mutually defined"
 		},
 		"colourTypeCodeList": {
-			"unece:specifiedColour": "A colour specified for this trade product."
+			"unece:specifiedColour": "A colour specified for this trade product.",
+			"unece:specifiedColour_label": "Specified Colour"
 		},
 		"commitmentLevelCodeList": {
 			"unece:CommitmentLevelCodeList#1": "Firm",
@@ -1808,7 +1828,9 @@
 		},
 		"communicationEventTypeCodeList": {
 			"unece:matchingEvent": "A matching event for this communication pairing.",
-			"unece:relatedEvent": "A communication event related to this monitoring IOT device."
+			"unece:matchingEvent_label": "Matching Event",
+			"unece:relatedEvent": "A communication event related to this monitoring IOT device.",
+			"unece:relatedEvent_label": "Related Event"
 		},
 		"contactTypeCodeList": {
 			"unece:ContactTypeCodeList#AA": "Insurance contact",
@@ -1917,10 +1939,12 @@
 			"unece:ContactTypeCodeList#ZZZ": "Mutually defined"
 		},
 		"controlSettingParameterTypeCodeList": {
-			"unece:definedControlSettingParameter": "A control setting parameter defined for this monitoring sensor."
+			"unece:definedControlSettingParameter": "A control setting parameter defined for this monitoring sensor.",
+			"unece:definedControlSettingParameter_label": "Defined Control Setting Parameter"
 		},
 		"correctiveActionTypeCodeList": {
-			"unece:applicableCorrectiveAction": "A corrective action applicable to this specified inspection result."
+			"unece:applicableCorrectiveAction": "A corrective action applicable to this specified inspection result.",
+			"unece:applicableCorrectiveAction_label": "Applicable Corrective Action"
 		},
 		"countryId": {
 			"unece:CountryId#AD": "ANDORRA",
@@ -2175,15 +2199,21 @@
 		},
 		"countrySubDivisionTypeCodeList": {
 			"unece:subordinateCountrySubDivision": "A subordinate country sub-division within this trade country sub-division.",
-			"unece:superordinateCountrySubDivision": "A superordinate country sub-division for this trade country sub-division."
+			"unece:subordinateCountrySubDivision_label": "Subordinate Country Sub Division",
+			"unece:superordinateCountrySubDivision": "A superordinate country sub-division for this trade country sub-division.",
+			"unece:superordinateCountrySubDivision_label": "Superordinate Country Sub Division"
 		},
 		"cropProduceBatchTypeCodeList": {
 			"unece:harvestedBatch": "A crop produce batch harvested in the crop production for this agricultural process.",
+			"unece:harvestedBatch_label": "Harvested Batch",
 			"unece:inputSpecifiedBatch": "An input batch crop produce, such as seed or fertilizer, specified for this crop produce.",
-			"unece:outputSpecifiedBatch": "An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce."
+			"unece:inputSpecifiedBatch_label": "Input Specified Batch",
+			"unece:outputSpecifiedBatch": "An output batch crop produce, such as potatoes, grain, straw, specified for this crop produce.",
+			"unece:outputSpecifiedBatch_label": "Output Specified Batch"
 		},
 		"cropProtectionTreatmentTypeCodeList": {
-			"unece:appliedCropProtectionTreatment": "A crop protection treatment applied during this production process."
+			"unece:appliedCropProtectionTreatment": "A crop protection treatment applied during this production process.",
+			"unece:appliedCropProtectionTreatment_label": "Applied Crop Protection Treatment"
 		},
 		"currencyCodeList": {
 			"unece:CurrencyCodeList#AED": "Dirham",
@@ -2377,7 +2407,8 @@
 			"unece:CustomsProcedureGuaranteeCodeList#ZZZ": "Mutually defined"
 		},
 		"customsValuationTypeCodeList": {
-			"unece:applicableCustomsValuation": "A cross-border customs valuation applicable to this supply chain consignment."
+			"unece:applicableCustomsValuation": "A cross-border customs valuation applicable to this supply chain consignment.",
+			"unece:applicableCustomsValuation_label": "Applicable Customs Valuation"
 		},
 		"dangerousGoodsPackagingLevelCodeList": {
 			"unece:DangerousGoodsPackagingLevelCodeList#1": "Great danger",
@@ -3255,7 +3286,8 @@
 			"unece:DeliveryTermsFunctionCodeList#8": "Delivery arranged by logistic service provider"
 		},
 		"digitalMethodTypeCodeList": {
-			"unece:identifiedDigitalMethod": "A digital payment method identified for this trade settlement payment means."
+			"unece:identifiedDigitalMethod": "A digital payment method identified for this trade settlement payment means.",
+			"unece:identifiedDigitalMethod_label": "Identified Digital Method"
 		},
 		"dimensionTypeCodeList": {
 			"unece:DimensionTypeCodeList#1": "Gross dimensions",
@@ -3284,10 +3316,12 @@
 			"unece:DimensionTypeCodeList#9": "Off-standard dimension general"
 		},
 		"disabilityTypeCodeList": {
-			"unece:notifiedDisability": "A disability notified for this guest person."
+			"unece:notifiedDisability": "A disability notified for this guest person.",
+			"unece:notifiedDisability_label": "Notified Disability"
 		},
 		"documentCharacteristicTypeCodeList": {
-			"unece:specifiedDocumentCharacteristic": "A document characteristic specified for this document status."
+			"unece:specifiedDocumentCharacteristic": "A document characteristic specified for this document status.",
+			"unece:specifiedDocumentCharacteristic_label": "Specified Document Characteristic"
 		},
 		"documentCodeList": {
 			"unece:DocumentCodeList#1": "Certificate of analysis",
@@ -4177,10 +4211,13 @@
 		},
 		"emissionTypeCodeList": {
 			"unece:certifiedEmission": "A certified level of pollution calculated for an emission from this logistics transport means.",
-			"unece:specifiedEmission": "A calculated emission specified for this logistics transport means."
+			"unece:certifiedEmission_label": "Certified Emission",
+			"unece:specifiedEmission": "A calculated emission specified for this logistics transport means.",
+			"unece:specifiedEmission_label": "Specified Emission"
 		},
 		"equipmentTypeCodeList": {
-			"unece:interfaceEquipment": "An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device."
+			"unece:interfaceEquipment": "An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device.",
+			"unece:interfaceEquipment_label": "Interface Equipment"
 		},
 		"fileSizeUnitMeasureCode": {
 			"unece:FileSizeUnitMeasureCode#4L": "megabyte",
@@ -4276,15 +4313,19 @@
 		},
 		"financialCardTypeCodeList": {
 			"unece:applicableFinancialCard": "A financial card applicable to this trade settlement payment means.",
+			"unece:applicableFinancialCard_label": "Applicable Financial Card",
 			"unece:identifiedFinancialCard": "A financial card identified for this trade settlement payment means.",
-			"unece:specifiedFinancialCard": "A financial card specified in this header trade settlement."
+			"unece:identifiedFinancialCard_label": "Identified Financial Card",
+			"unece:specifiedFinancialCard": "A financial card specified in this header trade settlement.",
+			"unece:specifiedFinancialCard_label": "Specified Financial Card"
 		},
 		"financialInstitutionRoleCodeList": {
 			"unece:FinancialInstitutionRoleCodeList#I": "Intermediary",
 			"unece:FinancialInstitutionRoleCodeList#S": "Settlement agent"
 		},
 		"foodChoiceTypeCodeList": {
-			"unece:notifiedFoodChoice": "A food choice notified for this guest person."
+			"unece:notifiedFoodChoice": "A food choice notified for this guest person.",
+			"unece:notifiedFoodChoice_label": "Notified Food Choice"
 		},
 		"freightChargeTariffClassCodeList": {
 			"unece:FreightChargeTariffClassCodeList#A": "Senior person rate",
@@ -5906,15 +5947,20 @@
 			"unece:FreightChargeTypeId#609145": "Waiting time at Customs X-Ray Station"
 		},
 		"fuelTypeCodeList": {
-			"unece:includedFuel": "Gaseous fuels included in the transport of these dangerous goods."
+			"unece:includedFuel": "Gaseous fuels included in the transport of these dangerous goods.",
+			"unece:includedFuel_label": "Included Fuel"
 		},
 		"geopoliticalRegionTypeCodeList": {
 			"unece:exportGeopoliticalRegion": "The geopolitical region of export for this supply chain consignment item.",
-			"unece:originGeopoliticalRegion": "The geopolitical region of origin for this supply chain consignment item."
+			"unece:exportGeopoliticalRegion_label": "Export Geopolitical Region",
+			"unece:originGeopoliticalRegion": "The geopolitical region of origin for this supply chain consignment item.",
+			"unece:originGeopoliticalRegion_label": "Origin Geopolitical Region"
 		},
 		"goodsCharacteristicTypeCodeList": {
 			"unece:applicableGoodsCharacteristic": "A distinguishing material feature applicable to this trade product instance.",
-			"unece:carriedGoodsCharacteristic": "Material characteristics of goods carried during this logistics transport movement."
+			"unece:applicableGoodsCharacteristic_label": "Applicable Goods Characteristic",
+			"unece:carriedGoodsCharacteristic": "Material characteristics of goods carried during this logistics transport movement.",
+			"unece:carriedGoodsCharacteristic_label": "Carried Goods Characteristic"
 		},
 		"goodsTypeCodeList": {
 			"unece:GoodsTypeCodeList#ZZZ": "Mutually defined"
@@ -5935,16 +5981,20 @@
 			"unece:GovernmentActionCodeList#9": "Cargo packaging inspection"
 		},
 		"governmentRegistrationTypeCodeList": {
-			"unece:specifiedGovernmentRegistration": "A governmental registration specified for this trade party."
+			"unece:specifiedGovernmentRegistration": "A governmental registration specified for this trade party.",
+			"unece:specifiedGovernmentRegistration_label": "Specified Government Registration"
 		},
 		"groupedWorkItemTypeCodeList": {
-			"unece:itemGroupedWorkItem": "A grouped work item in this valuation breakdown statement."
+			"unece:itemGroupedWorkItem": "A grouped work item in this valuation breakdown statement.",
+			"unece:itemGroupedWorkItem_label": "Item Grouped Work Item"
 		},
 		"guestHealthIndicationTypeCodeList": {
-			"unece:notifiedHealthIndication": "A health indication notified for this guest person."
+			"unece:notifiedHealthIndication": "A health indication notified for this guest person.",
+			"unece:notifiedHealthIndication_label": "Notified Health Indication"
 		},
 		"inspectionEventTypeCodeList": {
-			"unece:specifiedInspectionEvent": "A specified inspection event for this sustainability inspection."
+			"unece:specifiedInspectionEvent": "A specified inspection event for this sustainability inspection.",
+			"unece:specifiedInspectionEvent_label": "Specified Inspection Event"
 		},
 		"invoiceDocumentCodeList": {
 			"unece:InvoiceDocumentCodeList#261": "Self billed credit note",
@@ -5967,10 +6017,13 @@
 		},
 		"iOTDeviceTypeCodeList": {
 			"unece:attachedIOTDevice": "An IOT device attached to this logistics transport means.",
-			"unece:reportingIOTDevice": "An IOT device for this transport reporting event."
+			"unece:attachedIOTDevice_label": "Attached IOT Device",
+			"unece:reportingIOTDevice": "An IOT device for this transport reporting event.",
+			"unece:reportingIOTDevice_label": "Reporting IOT Device"
 		},
 		"issueTypeCodeList": {
-			"unece:specifiedIssue": "A target issue specified for this electronic negotiation exchange."
+			"unece:specifiedIssue": "A target issue specified for this electronic negotiation exchange.",
+			"unece:specifiedIssue_label": "Specified Issue"
 		},
 		"languageCodeList": {
 			"unece:LanguageCodeList#AA": "Afar",
@@ -6717,13 +6770,16 @@
 			"unece:LanguageId#zu": "Zulu"
 		},
 		"legalOrganizationTypeCodeList": {
-			"unece:specifiedLegalOrganization": "The legally constituted organization specified for this trade party."
+			"unece:specifiedLegalOrganization": "The legally constituted organization specified for this trade party.",
+			"unece:specifiedLegalOrganization_label": "Specified Legal Organization"
 		},
 		"legalRegistrationTypeCodeList": {
-			"unece:authorizedRegistration": "A legal registration authorized for this legally set up organization."
+			"unece:authorizedRegistration": "A legal registration authorized for this legally set up organization.",
+			"unece:authorizedRegistration_label": "Authorized Registration"
 		},
 		"licenceTypeCodeList": {
-			"unece:applicableLicence": "A specified licence applicable to this production process."
+			"unece:applicableLicence": "A specified licence applicable to this production process.",
+			"unece:applicableLicence_label": "Applicable Licence"
 		},
 		"lifetimeEndCostCodeList": {
 			"unece:LifetimeEndCostCodeList#1": "Cost of restoration of site",
@@ -7184,13 +7240,15 @@
 			"unece:LocationFunctionCodeList#ZZZ": "Mutually defined"
 		},
 		"locationPartyTypeCodeList": {
-			"unece:servicingSpecifiedParty": "A servicing party specified for this logistics related location."
+			"unece:servicingSpecifiedParty": "A servicing party specified for this logistics related location.",
+			"unece:servicingSpecifiedParty_label": "Servicing Specified Party"
 		},
 		"logisticsChargeCalculationBasisCodeList": {
 			"unece:LogisticsChargeCalculationBasisCodeList#ZZZ": "Mutually defined"
 		},
 		"logisticsPackagingTypeCodeList": {
-			"unece:applicableLogisticsPackaging": "Logistics packaging applicable to this trade product."
+			"unece:applicableLogisticsPackaging": "Logistics packaging applicable to this trade product.",
+			"unece:applicableLogisticsPackaging_label": "Applicable Logistics Packaging"
 		},
 		"logisticsStatusCodeList": {
 			"unece:LogisticsStatusCodeList#1": "Arrival, completed",
@@ -7532,9 +7590,13 @@
 		},
 		"machineTypeCodeList": {
 			"unece:allocatedMachine": "A machine allocated to this production process.",
+			"unece:allocatedMachine_label": "Allocated Machine",
 			"unece:applicableMachine": "A production machine applicable to this facility production unit.",
+			"unece:applicableMachine_label": "Applicable Machine",
 			"unece:combinedMachine": "A production machine combined with this production machine.",
-			"unece:specifiedMachine": "A production machine specified for this product print."
+			"unece:combinedMachine_label": "Combined Machine",
+			"unece:specifiedMachine": "A production machine specified for this product print.",
+			"unece:specifiedMachine_label": "Specified Machine"
 		},
 		"markingInstructionCodeList": {
 			"unece:MarkingInstructionCodeList#1": "Do not mark suppliers company name",
@@ -7590,14 +7652,23 @@
 		},
 		"mDHHealthIndicationTypeCodeList": {
 			"unece:diedOnboardHealthIndication": "A died onboard indication for this MDH transportation health.",
+			"unece:diedOnboardHealthIndication_label": "Died Onboard Health Indication",
 			"unece:diseaseOnboardHealthIndication": "A disease onboard indication for this MDH transportation health.",
+			"unece:diseaseOnboardHealthIndication_label": "Disease Onboard Health Indication",
 			"unece:illPersonNowOnboardHealthIndication": "An ill person or persons now onboard indication for this MDH transportation health.",
+			"unece:illPersonNowOnboardHealthIndication_label": "Ill Person Now Onboard Health Indication",
 			"unece:medicalPractitionerConsultedHealthIndication": "A medical practitioner consulted indication for this MDH transportation health.",
+			"unece:medicalPractitionerConsultedHealthIndication_label": "Medical Practitioner Consulted Health Indication",
 			"unece:moreIllOnboardHealthIndication": "A more ill onboard indication for this MDH transportation health.",
+			"unece:moreIllOnboardHealthIndication_label": "More Ill Onboard Health Indication",
 			"unece:onboardInfectionConditionHealthIndication": "An onboard infection condition indication for this MDH transportation health.",
+			"unece:onboardInfectionConditionHealthIndication_label": "Onboard Infection Condition Health Indication",
 			"unece:sanitaryMeasureAppliedHealthIndication": "An applied sanitary measure indication for this MDH transportation health.",
+			"unece:sanitaryMeasureAppliedHealthIndication_label": "Sanitary Measure Applied Health Indication",
 			"unece:sickAnimalOnboardHealthIndication": "A sick animal or animals onboard indication for this MDH transportation health.",
-			"unece:stowawayFoundOnboardHealthIndication": "A stowaway or stowaways found onboard indication for this MDH transportation health."
+			"unece:sickAnimalOnboardHealthIndication_label": "Sick Animal Onboard Health Indication",
+			"unece:stowawayFoundOnboardHealthIndication": "A stowaway or stowaways found onboard indication for this MDH transportation health.",
+			"unece:stowawayFoundOnboardHealthIndication_label": "Stowaway Found Onboard Health Indication"
 		},
 		"measuredAttributeCodeList": {
 			"unece:MeasuredAttributeCodeList#A": "Consolidated weight",
@@ -7895,9 +7966,13 @@
 		},
 		"measurementTypeCodeList": {
 			"unece:associatedMeasurement": "A measurement associated with this document clause.",
+			"unece:associatedMeasurement_label": "Associated Measurement",
 			"unece:controlTemperatureMeasurement": "The measurement of the control temperature of these transported dangerous goods.",
+			"unece:controlTemperatureMeasurement_label": "Control Temperature Measurement",
 			"unece:emergencyTemperatureMeasurement": "The measurement of the emergency temperature of these transported dangerous goods.",
-			"unece:flashpointTemperatureMeasurement": "A measurement of the flashpoint temperature of these transported dangerous goods."
+			"unece:emergencyTemperatureMeasurement_label": "Emergency Temperature Measurement",
+			"unece:flashpointTemperatureMeasurement": "A measurement of the flashpoint temperature of these transported dangerous goods.",
+			"unece:flashpointTemperatureMeasurement_label": "Flashpoint Temperature Measurement"
 		},
 		"messageFunctionCodeList": {
 			"unece:MessageFunctionCodeList#1": "Cancellation",
@@ -7976,26 +8051,37 @@
 		},
 		"metricCharacteristicTypeCodeList": {
 			"unece:applicableMetricCharacteristic": "A metric characteristic applicable to this referenced standard.",
+			"unece:applicableMetricCharacteristic_label": "Applicable Metric Characteristic",
 			"unece:maximumSpecifiedCharacteristic": "The maximum metric characteristic specified for this target issue.",
+			"unece:maximumSpecifiedCharacteristic_label": "Maximum Specified Characteristic",
 			"unece:minimumSpecifiedCharacteristic": "The minimum metric characteristic specified for this target issue.",
-			"unece:specifiedMetricCharacteristic": "The metric characteristic specified for this target issue."
+			"unece:minimumSpecifiedCharacteristic_label": "Minimum Specified Characteristic",
+			"unece:specifiedMetricCharacteristic": "The metric characteristic specified for this target issue.",
+			"unece:specifiedMetricCharacteristic_label": "Specified Metric Characteristic"
 		},
 		"negotiationContextTypeCodeList": {
-			"unece:specifiedContext": "A context specified for this electronic negotiation exchange."
+			"unece:specifiedContext": "A context specified for this electronic negotiation exchange.",
+			"unece:specifiedContext_label": "Specified Context"
 		},
 		"objectTypeCodeList": {
 			"unece:assessedObject": "An object assessed for this specified assessment.",
+			"unece:assessedObject_label": "Assessed Object",
 			"unece:certifiedObject": "An object certified by this specified certificate.",
-			"unece:verifiedObject": "An object verified for this specified declaration."
+			"unece:certifiedObject_label": "Certified Object",
+			"unece:verifiedObject": "An object verified for this specified declaration.",
+			"unece:verifiedObject_label": "Verified Object"
 		},
 		"observationObjectiveParameterTypeCodeList": {
-			"unece:interpretationResultApplicableParameter": "An applicable objective observation parameter of the interpretation result for this inspection result characteristic."
+			"unece:interpretationResultApplicableParameter": "An applicable objective observation parameter of the interpretation result for this inspection result characteristic.",
+			"unece:interpretationResultApplicableParameter_label": "Interpretation Result Applicable Parameter"
 		},
 		"operationalParameterTypeCodeList": {
-			"unece:definedOperationalParameter": "An operational parameter defined for this monitoring sensor."
+			"unece:definedOperationalParameter": "An operational parameter defined for this monitoring sensor.",
+			"unece:definedOperationalParameter_label": "Defined Operational Parameter"
 		},
 		"organizationCharacteristicTypeCodeList": {
-			"unece:applicableOrganizationCharacteristic": "A characteristic applicable to this organization certificate."
+			"unece:applicableOrganizationCharacteristic": "A characteristic applicable to this organization certificate.",
+			"unece:applicableOrganizationCharacteristic_label": "Applicable Organization Characteristic"
 		},
 		"organizationFunctionTypeCodeList": {
 			"unece:OrganizationFunctionTypeCodeList#5": "Management Chartered Centre",
@@ -9109,12 +9195,16 @@
 			"unece:PartyTypeCodeList#SER": "Service"
 		},
 		"paymentFinancialAccountTypeCodeList": {
-			"unece:specifiedPaymentFinancialAccount": "A payment financial account specified for this payment financial institution."
+			"unece:specifiedPaymentFinancialAccount": "A payment financial account specified for this payment financial institution.",
+			"unece:specifiedPaymentFinancialAccount_label": "Specified Payment Financial Account"
 		},
 		"paymentFinancialInstitutionTypeCodeList": {
 			"unece:creditorSpecifiedFinancialInstitution": "A creditor financial institution specified for this trade settlement payment means.",
+			"unece:creditorSpecifiedFinancialInstitution_label": "Creditor Specified Financial Institution",
 			"unece:debtorSpecifiedFinancialInstitution": "A debtor financial institution specified for this trade settlement payment means.",
-			"unece:specifiedPaymentFinancialInstitution": "A financial institution specified for this trade settlement payment means."
+			"unece:debtorSpecifiedFinancialInstitution_label": "Debtor Specified Financial Institution",
+			"unece:specifiedPaymentFinancialInstitution": "A financial institution specified for this trade settlement payment means.",
+			"unece:specifiedPaymentFinancialInstitution_label": "Specified Payment Financial Institution"
 		},
 		"paymentGuaranteeMeansCodeList": {
 			"unece:PaymentGuaranteeMeansCodeList#1": "Factor guarantee",
@@ -9386,14 +9476,18 @@
 			"unece:PaymentTermsTypeCodeList#ZZZ": "Mutually defined"
 		},
 		"paymentTradeSettlementTypeCodeList": {
-			"unece:specifiedPaymentTradeSettlement": "A payment trade settlement specified for this trade price."
+			"unece:specifiedPaymentTradeSettlement": "A payment trade settlement specified for this trade price.",
+			"unece:specifiedPaymentTradeSettlement_label": "Specified Payment Trade Settlement"
 		},
 		"personalEffectsTypeCodeList": {
 			"unece:crewPersonalEffects": "Personal effects of an individual member of the crew for this logistics transport movement.",
-			"unece:declaredPersonalEffects": "Personal effects use declared by a transport person."
+			"unece:crewPersonalEffects_label": "Crew Personal Effects",
+			"unece:declaredPersonalEffects": "Personal effects use declared by a transport person.",
+			"unece:declaredPersonalEffects_label": "Declared Personal Effects"
 		},
 		"preventiveActionTypeCodeList": {
-			"unece:applicablePreventiveAction": "A preventive action applicable to this specified inspection result."
+			"unece:applicablePreventiveAction": "A preventive action applicable to this specified inspection result.",
+			"unece:applicablePreventiveAction_label": "Applicable Preventive Action"
 		},
 		"priceTypeCodeList": {
 			"unece:PriceTypeCodeList#AA": "Cancellation price",
@@ -9437,7 +9531,8 @@
 			"unece:PriceTypeCodeList#WI": "Gross volume"
 		},
 		"printTypeCodeList": {
-			"unece:specifiedPrint": "A product print specified for this trade product."
+			"unece:specifiedPrint": "A product print specified for this trade product.",
+			"unece:specifiedPrint_label": "Specified Print"
 		},
 		"priorityDescriptionCodeList": {
 			"unece:PriorityDescriptionCodeList#1": "Immediate",
@@ -9610,60 +9705,90 @@
 			"unece:ProcessTypeCodeList#ZZZ": "Mutually defined"
 		},
 		"processWorkItemTypeCodeList": {
-			"unece:performedWorkItem": "A work item performed for this production process."
+			"unece:performedWorkItem": "A work item performed for this production process.",
+			"unece:performedWorkItem_label": "Performed Work Item"
 		},
 		"produceTypeCodeList": {
 			"unece:harvestedProduce": "Crop produce harvested from this agricultural zone area.",
-			"unece:specifiedProduce": "A crop produce specified for this crop produce batch."
+			"unece:harvestedProduce_label": "Harvested Produce",
+			"unece:specifiedProduce": "A crop produce specified for this crop produce batch.",
+			"unece:specifiedProduce_label": "Specified Produce"
 		},
 		"productBatchCharacteristicTypeCodeList": {
 			"unece:applicableProductBatchCharacteristic": "A product batch characteristic applicable to this product batch.",
-			"unece:specifiedProductBatchCharacteristic": "A product batch characteristic specified for this product batch."
+			"unece:applicableProductBatchCharacteristic_label": "Applicable Product Batch Characteristic",
+			"unece:specifiedProductBatchCharacteristic": "A product batch characteristic specified for this product batch.",
+			"unece:specifiedProductBatchCharacteristic_label": "Specified Product Batch Characteristic"
 		},
 		"productBatchTypeCodeList": {
 			"unece:applicableBatch": "A product batch applicable to this supply chain trade line item.",
+			"unece:applicableBatch_label": "Applicable Batch",
 			"unece:componentBatch": "A product batch component of this product batch.",
+			"unece:componentBatch_label": "Component Batch",
 			"unece:includedBatch": "A product batch included in this supply chain inventory.",
+			"unece:includedBatch_label": "Included Batch",
 			"unece:inputApplicableBatch": "An input batch applicable to this production machine.",
+			"unece:inputApplicableBatch_label": "Input Applicable Batch",
 			"unece:outputApplicableBatch": "An output batch applicable to this specified production device.",
+			"unece:outputApplicableBatch_label": "Output Applicable Batch",
 			"unece:relatedBatch": "A product batch related to this trade party.",
+			"unece:relatedBatch_label": "Related Batch",
 			"unece:specifiedProductBatch": "A product batch specified for this specified agricultural application.",
+			"unece:specifiedProductBatch_label": "Specified Product Batch",
 			"unece:substituteApplicableBatch": "A substitute product batch applicable to this supply chain trade line item.",
-			"unece:substitutedApplicableBatch": "A substituted product batch applicable to this supply chain trade line item."
+			"unece:substituteApplicableBatch_label": "Substitute Applicable Batch",
+			"unece:substitutedApplicableBatch": "A substituted product batch applicable to this supply chain trade line item.",
+			"unece:substitutedApplicableBatch_label": "Substituted Applicable Batch"
 		},
 		"productCharacteristicConditionTypeCodeList": {
-			"unece:applicableCondition": "A condition applicable to this product characteristic."
+			"unece:applicableCondition": "A condition applicable to this product characteristic.",
+			"unece:applicableCondition_label": "Applicable Condition"
 		},
 		"productCharacteristicTypeCodeList": {
 			"unece:applicableProductCharacteristic": "A characteristic applicable to this trade product.",
+			"unece:applicableProductCharacteristic_label": "Applicable Product Characteristic",
 			"unece:classCharacteristic": "A product class characteristic for this product classification.",
-			"unece:productCharacteristic": "A product characteristic for this trade product instance."
+			"unece:classCharacteristic_label": "Class Characteristic",
+			"unece:productCharacteristic": "A product characteristic for this trade product instance.",
+			"unece:productCharacteristic_label": "Product Characteristic"
 		},
 		"productFinishingTreatmentTypeCodeList": {
-			"unece:appliedProductFinishingTreatment": "A product finishing treatment applied during this production process."
+			"unece:appliedProductFinishingTreatment": "A product finishing treatment applied during this production process.",
+			"unece:appliedProductFinishingTreatment_label": "Applied Product Finishing Treatment"
 		},
 		"productionDeviceTypeCodeList": {
 			"unece:allocatedProductionDevice": "A production device allocated to this production process.",
+			"unece:allocatedProductionDevice_label": "Allocated Production Device",
 			"unece:applicableProductionDevice": "A production device applicable to this facility production unit.",
-			"unece:combinedProductionDevice": "A production device combined with this production machine."
+			"unece:applicableProductionDevice_label": "Applicable Production Device",
+			"unece:combinedProductionDevice": "A production device combined with this production machine.",
+			"unece:combinedProductionDevice_label": "Combined Production Device"
 		},
 		"productionUnitTypeCodeList": {
 			"unece:relatedProductionUnit": "A facility production unit related to this referenced location.",
+			"unece:relatedProductionUnit_label": "Related Production Unit",
 			"unece:specifiedProductionUnit": "A facility production unit for this specified production device.",
-			"unece:subordinateProductionUnit": "A production unit subordinate to this facility production unit."
+			"unece:specifiedProductionUnit_label": "Specified Production Unit",
+			"unece:subordinateProductionUnit": "A production unit subordinate to this facility production unit.",
+			"unece:subordinateProductionUnit_label": "Subordinate Production Unit"
 		},
 		"productionWasteMaterialComponentTypeCodeList": {
-			"unece:includedProductionWasteMaterialComponent": "A production waste material component included in this production waste material."
+			"unece:includedProductionWasteMaterialComponent": "A production waste material component included in this production waste material.",
+			"unece:includedProductionWasteMaterialComponent_label": "Included Production Waste Material Component"
 		},
 		"productionWasteMaterialTypeCodeList": {
-			"unece:reportedProductionWasteMaterial": "Production waste material reported for this agricultural crop production process."
+			"unece:reportedProductionWasteMaterial": "Production waste material reported for this agricultural crop production process.",
+			"unece:reportedProductionWasteMaterial_label": "Reported Production Waste Material"
 		},
 		"projectTypeCodeList": {
-			"unece:specifiedProject": "The procuring project specified for this header trade agreement."
+			"unece:specifiedProject": "The procuring project specified for this header trade agreement.",
+			"unece:specifiedProject_label": "Specified Project"
 		},
 		"quantityAnalysisTypeCodeList": {
 			"unece:breakdownQuantityAnalysis": "A quantity analysis breakdown of this work item quantity analysis.",
-			"unece:totalQuantityAnalysis": "An analysis of the total quantity for this basic work item."
+			"unece:breakdownQuantityAnalysis_label": "Breakdown Quantity Analysis",
+			"unece:totalQuantityAnalysis": "An analysis of the total quantity for this basic work item.",
+			"unece:totalQuantityAnalysis_label": "Total Quantity Analysis"
 		},
 		"quotationDocumentCodeList": {
 			"unece:QuotationDocumentCodeList#310": "Offer / quotation",
@@ -9686,12 +9811,16 @@
 			"unece:QuotationDocumentCodeList#446": "Request for price quote, specified end-customer"
 		},
 		"radioactiveMaterialTypeCodeList": {
-			"unece:radioactiveMaterial": "The radioactive material (Class 7) transported as dangerous goods."
+			"unece:radioactiveMaterial": "The radioactive material (Class 7) transported as dangerous goods.",
+			"unece:radioactiveMaterial_label": "Radioactive Material"
 		},
 		"rangeTypeCodeList": {
 			"unece:definedRange": "A defined range specified for this operational parameter.",
+			"unece:definedRange_label": "Defined Range",
 			"unece:requestedRange": "A requested range specified for this control setting parameter.",
-			"unece:valueRange": "A range specified for a value of this metric characteristic."
+			"unece:requestedRange_label": "Requested Range",
+			"unece:valueRange": "A range specified for a value of this metric characteristic.",
+			"unece:valueRange_label": "Value Range"
 		},
 		"referenceCodeList": {
 			"unece:ReferenceCodeList#AAA": "Order acknowledgement document identifier",
@@ -10521,7 +10650,8 @@
 			"unece:RemittanceDocumentCodeList#481": "Remittance advice"
 		},
 		"requirementTypeCodeList": {
-			"unece:providedRequirement": "A requirement provided for this experience product."
+			"unece:providedRequirement": "A requirement provided for this experience product.",
+			"unece:providedRequirement_label": "Provided Requirement"
 		},
 		"responseTypeCodeList": {
 			"unece:ResponseTypeCodeList#AA": "Debit advice",
@@ -10584,7 +10714,8 @@
 			"unece:ResponsibleGovernmentAgencyInvolvementCodeList#8": "Export certificate required"
 		},
 		"sanitaryMeasureTypeCodeList": {
-			"unece:appliedSanitaryMeasure": "A sanitary measure applied for this MDH health indication."
+			"unece:appliedSanitaryMeasure": "A sanitary measure applied for this MDH health indication.",
+			"unece:appliedSanitaryMeasure_label": "Applied Sanitary Measure"
 		},
 		"scenarioTypeCodeList": {
 			"unece:ScenarioTypeCodeList#1": "Initial scenario",
@@ -10593,12 +10724,19 @@
 		},
 		"scheduleTypeCodeList": {
 			"unece:consumptionSchedule": "A supply chain consumption schedule, at line level, for this trade delivery.",
+			"unece:consumptionSchedule_label": "Consumption Schedule",
 			"unece:deliverySchedule": "A supply chain delivery schedule, at line level, for this trade delivery.",
+			"unece:deliverySchedule_label": "Delivery Schedule",
 			"unece:despatchSchedule": "A supply chain despatch schedule, at line level, for this trade delivery.",
+			"unece:despatchSchedule_label": "Despatch Schedule",
 			"unece:orderSchedule": "A supply chain order schedule, at line level, for this trade delivery.",
+			"unece:orderSchedule_label": "Order Schedule",
 			"unece:receiptSchedule": "A supply chain receipt schedule, at line level, for this trade delivery.",
+			"unece:receiptSchedule_label": "Receipt Schedule",
 			"unece:specifiedSchedule": "A supply chain schedule, at header level, specified for this trade delivery.",
-			"unece:supplySpecifiedSchedule": "A supply (replenishment) schedule, specified at line level, for this trade delivery."
+			"unece:specifiedSchedule_label": "Specified Schedule",
+			"unece:supplySpecifiedSchedule": "A supply (replenishment) schedule, specified at line level, for this trade delivery.",
+			"unece:supplySpecifiedSchedule_label": "Supply Specified Schedule"
 		},
 		"schedulingDocumentCodeList": {
 			"unece:SchedulingDocumentCodeList#240": "Delivery instructions",
@@ -10625,14 +10763,18 @@
 			"unece:SealingPartyRoleCodeList#TO": "Terminal operator"
 		},
 		"securityTagTypeCodeList": {
-			"unece:attachedSecurityTag": "A tag device attached to this trade product to provide protection from a peril such as theft."
+			"unece:attachedSecurityTag": "A tag device attached to this trade product to provide protection from a peril such as theft.",
+			"unece:attachedSecurityTag_label": "Attached Security Tag"
 		},
 		"segmentTypeCodeList": {
-			"unece:includedSegment": "A segment included in this label section."
+			"unece:includedSegment": "A segment included in this label section.",
+			"unece:includedSegment_label": "Included Segment"
 		},
 		"sensorTypeCodeList": {
 			"unece:embeddedSensor": "An embedded sensor of this monitoring IOT device.",
-			"unece:remoteSensor": "A remote sensor of this monitoring IOT device."
+			"unece:embeddedSensor_label": "Embedded Sensor",
+			"unece:remoteSensor": "A remote sensor of this monitoring IOT device.",
+			"unece:remoteSensor_label": "Remote Sensor"
 		},
 		"softwareUserTypeCodeList": {
 			"unece:SoftwareUserTypeCodeList#I": "Intermediate",
@@ -10640,91 +10782,156 @@
 			"unece:SoftwareUserTypeCodeList#S": "Sender"
 		},
 		"specificationQueryTypeCodeList": {
-			"unece:requestingQuery": "A requesting specification query for this work item complex description."
+			"unece:requestingQuery": "A requesting specification query for this work item complex description.",
+			"unece:requestingQuery_label": "Requesting Query"
 		},
 		"specifiedActionTypeCodeList": {
-			"unece:applicableSpecifiedAction": "An action applicable to this specified inspection result."
+			"unece:applicableSpecifiedAction": "An action applicable to this specified inspection result.",
+			"unece:applicableSpecifiedAction_label": "Applicable Specified Action"
 		},
 		"specifiedChemicalTreatmentTypeCodeList": {
-			"unece:appliedChemicalTreatment": "A chemical treatment applied during this production process."
+			"unece:appliedChemicalTreatment": "A chemical treatment applied during this production process.",
+			"unece:appliedChemicalTreatment_label": "Applied Chemical Treatment"
 		},
 		"specifiedDeclarationTypeCodeList": {
-			"unece:applicableDeclaration": "A specified declaration applicable to this production process."
+			"unece:applicableDeclaration": "A specified declaration applicable to this production process.",
+			"unece:applicableDeclaration_label": "Applicable Declaration"
 		},
 		"specifiedFaultTypeCodeList": {
-			"unece:applicableFault": "A fault applicable to this trade product."
+			"unece:applicableFault": "A fault applicable to this trade product.",
+			"unece:applicableFault_label": "Applicable Fault"
 		},
 		"specifiedFeatureTypeCodeList": {
-			"unece:distinctiveFeature": "A distinctive feature of this experience product."
+			"unece:distinctiveFeature": "A distinctive feature of this experience product.",
+			"unece:distinctiveFeature_label": "Distinctive Feature"
 		},
 		"specifiedInspectionTypeCodeList": {
-			"unece:applicableSpecifiedInspection": "A specified inspection applicable to this logistics transport movement."
+			"unece:applicableSpecifiedInspection": "A specified inspection applicable to this logistics transport movement.",
+			"unece:applicableSpecifiedInspection_label": "Applicable Specified Inspection"
 		},
 		"specifiedMaterialTypeCodeList": {
 			"unece:applicableMaterial": "Material applicable for this supply chain trade line item.",
+			"unece:applicableMaterial_label": "Applicable Material",
 			"unece:appliedMaterial": "Specified material applied to this agricultural application.",
+			"unece:appliedMaterial_label": "Applied Material",
 			"unece:componentMaterial": "A material component of this trade product.",
+			"unece:componentMaterial_label": "Component Material",
 			"unece:includedMaterial": "Material included in this supply chain inventory.",
+			"unece:includedMaterial_label": "Included Material",
 			"unece:inputApplicableMaterial": "Input material applicable to this facility production unit.",
+			"unece:inputApplicableMaterial_label": "Input Applicable Material",
 			"unece:outputApplicableMaterial": "Output material applicable to this facility production unit.",
+			"unece:outputApplicableMaterial_label": "Output Applicable Material",
 			"unece:relatedMaterial": "Material related to this trade party.",
+			"unece:relatedMaterial_label": "Related Material",
 			"unece:substituteApplicableMaterial": "Substitute material applicable for this supply chain trade line item.",
+			"unece:substituteApplicableMaterial_label": "Substitute Applicable Material",
 			"unece:substitutedApplicableMaterial": "Substituted material applicable for this supply chain trade line item.",
-			"unece:usedMaterial": "Material used for this specified crop protection treatment."
+			"unece:substitutedApplicableMaterial_label": "Substituted Applicable Material",
+			"unece:usedMaterial": "Material used for this specified crop protection treatment.",
+			"unece:usedMaterial_label": "Used Material"
 		},
 		"specifiedParameterTypeCodeList": {
 			"unece:applicableParameter": "A parameter applicable to this specified method.",
+			"unece:applicableParameter_label": "Applicable Parameter",
 			"unece:operationalApplicableParameter": "An operational parameter applicable to this production machine.",
+			"unece:operationalApplicableParameter_label": "Operational Applicable Parameter",
 			"unece:qualityParameter": "A quality parameter specified for this trade product.",
+			"unece:qualityParameter_label": "Quality Parameter",
 			"unece:requestedOperationalApplicableParameter": "A requested operational parameter applicable to this production machine.",
-			"unece:valueParameter": "A parameter specified for a value for this metric characteristic."
+			"unece:requestedOperationalApplicableParameter_label": "Requested Operational Applicable Parameter",
+			"unece:valueParameter": "A parameter specified for a value for this metric characteristic.",
+			"unece:valueParameter_label": "Value Parameter"
 		},
 		"specifiedPeriodTypeCodeList": {
 			"unece:acceptablePeriod": "The specified period within which this referenced document may be accepted.",
+			"unece:acceptablePeriod_label": "Acceptable Period",
 			"unece:accessAvailabilityPeriod": "The specified period when access to this binary file is available.",
+			"unece:accessAvailabilityPeriod_label": "Access Availability Period",
 			"unece:actualOccurrencePeriod": "The actual period of time during which this transport event occurred.",
+			"unece:actualOccurrencePeriod_label": "Actual Occurrence Period",
 			"unece:actualPerformancePeriod": "An actual period of performance for this referenced transport service.",
+			"unece:actualPerformancePeriod_label": "Actual Performance Period",
 			"unece:applicablePeriod": "A period applicable to this cross-border regulatory procedure.",
+			"unece:applicablePeriod_label": "Applicable Period",
 			"unece:appliedPeriod": "A period during which this chemical treatment is applied.",
+			"unece:appliedPeriod_label": "Applied Period",
 			"unece:associatedPeriod": "A period of time associated with this document clause.",
+			"unece:associatedPeriod_label": "Associated Period",
 			"unece:availablePeriod": "An available period for this specified experience item.",
+			"unece:availablePeriod_label": "Available Period",
 			"unece:billingPeriod": "A billing period specified for this header trade settlement.",
+			"unece:billingPeriod_label": "Billing Period",
 			"unece:completionPeriod": "The specified period of completion for this product handling process.",
+			"unece:completionPeriod_label": "Completion Period",
 			"unece:delayOccurrencePeriod": "A specified period of time during which this transport event is delayed.",
+			"unece:delayOccurrencePeriod_label": "Delay Occurrence Period",
 			"unece:depositValueValidityPeriod": "The specified period during which the deposit value specified in these returnable asset instructions is valid.",
+			"unece:depositValueValidityPeriod_label": "Deposit Value Validity Period",
 			"unece:discretePeriod": "A discrete period specified for this supply chain event.",
+			"unece:discretePeriod_label": "Discrete Period",
 			"unece:effectiveSpecifiedPeriod": "The period within which this document line is effective.",
+			"unece:effectiveSpecifiedPeriod_label": "Effective Specified Period",
 			"unece:estimatedPerformancePeriod": "An estimated period of performance for this referenced transport service.",
+			"unece:estimatedPerformancePeriod_label": "Estimated Performance Period",
 			"unece:exclusivityPeriod": "The exclusivity period specified in this line trade agreement.",
+			"unece:exclusivityPeriod_label": "Exclusivity Period",
 			"unece:frequencyEffectivePeriod": "A specified period of time for which a frequency is effective for this transport route.",
+			"unece:frequencyEffectivePeriod_label": "Frequency Effective Period",
 			"unece:guaranteedProductLifeSpanPeriod": "The guaranteed product life span specified in this line trade agreement.",
+			"unece:guaranteedProductLifeSpanPeriod_label": "Guaranteed Product Life Span Period",
 			"unece:laycanOccurrencePeriod": "The specified period of laycan time during which this transport event occurs.",
+			"unece:laycanOccurrencePeriod_label": "Laycan Occurrence Period",
 			"unece:maximumOrderQuantityOrderingPeriod": "The maximum order quantity ordering period specified in this line trade agreement.",
+			"unece:maximumOrderQuantityOrderingPeriod_label": "Maximum Order Quantity Ordering Period",
 			"unece:minimumOrderQuantityOrderingPeriod": "The minimum order quantity ordering period specified in this line trade agreement.",
+			"unece:minimumOrderQuantityOrderingPeriod_label": "Minimum Order Quantity Ordering Period",
 			"unece:occurrencePeriod": "A specified period of time during which this supply chain event occurs.",
+			"unece:occurrencePeriod_label": "Occurrence Period",
 			"unece:operationalApplicablePeriod": "An operational period applicable for this trade price.",
+			"unece:operationalApplicablePeriod_label": "Operational Applicable Period",
 			"unece:operationalPeriod": "A operational period for this experience product.",
+			"unece:operationalPeriod_label": "Operational Period",
 			"unece:orderingSpecifiedPeriod": "The ordering period specified in this line trade agreement.",
+			"unece:orderingSpecifiedPeriod_label": "Ordering Specified Period",
 			"unece:plannedPerformancePeriod": "A planned period of performance for this referenced transport service.",
+			"unece:plannedPerformancePeriod_label": "Planned Performance Period",
 			"unece:projectedSpecifiedPeriod": "A specified period projected for this supply chain supply plan.",
+			"unece:projectedSpecifiedPeriod_label": "Projected Specified Period",
 			"unece:requestedPerformancePeriod": "A requested period of performance for this referenced transport service.",
+			"unece:requestedPerformancePeriod_label": "Requested Performance Period",
 			"unece:resalePeriod": "The resale period specified in this line trade agreement.",
+			"unece:resalePeriod_label": "Resale Period",
 			"unece:scheduledOccurrencePeriod": "The scheduled period of time specified for the occurrence of this transport event.",
+			"unece:scheduledOccurrencePeriod_label": "Scheduled Occurrence Period",
 			"unece:scheduledPeriod": "The specified period during which this transport route is scheduled.",
+			"unece:scheduledPeriod_label": "Scheduled Period",
 			"unece:seasonalApplicablePeriod": "A seasonal period applicable for this trade price.",
+			"unece:seasonalApplicablePeriod_label": "Seasonal Applicable Period",
 			"unece:shippingPeriod": "The shipping period specified in this header trade agreement.",
+			"unece:shippingPeriod_label": "Shipping Period",
 			"unece:specifiedSpecifiedPeriod": "The period specified for this supply chain supply plan.",
+			"unece:specifiedSpecifiedPeriod_label": "Specified Specified Period",
 			"unece:stayPeriod": "A period of stay at this logistics location.",
+			"unece:stayPeriod_label": "Stay Period",
 			"unece:transportMeansStayOccurrencePeriod": "The specified period during which the transport means is held at a location.",
+			"unece:transportMeansStayOccurrencePeriod_label": "Transport Means Stay Occurrence Period",
 			"unece:validityPeriod": "A period of validity specified for this referenced document.",
+			"unece:validityPeriod_label": "Validity Period",
 			"unece:valuePeriod": "A period specified for the value of this sustainability characteristic.",
-			"unece:visitingPeriod": "A visiting period for this specified experience item."
+			"unece:valuePeriod_label": "Value Period",
+			"unece:visitingPeriod": "A visiting period for this specified experience item.",
+			"unece:visitingPeriod_label": "Visiting Period"
 		},
 		"standardTypeCodeList": {
 			"unece:applicableStandard": "A referenced standard applicable to this agricultural certificate.",
+			"unece:applicableStandard_label": "Applicable Standard",
 			"unece:associatedStandard": "A referenced standard associated to this specified licence.",
+			"unece:associatedStandard_label": "Associated Standard",
 			"unece:inspectionStandard": "A referenced inspection standard for this specified inspection result.",
-			"unece:relatedStandard": "A referenced standard related to this specified certification."
+			"unece:inspectionStandard_label": "Inspection Standard",
+			"unece:relatedStandard": "A referenced standard related to this specified certification.",
+			"unece:relatedStandard_label": "Related Standard"
 		},
 		"statusCodeList": {
 			"unece:StatusCodeList#1": "To be done",
@@ -11081,7 +11288,8 @@
 			"unece:StatusCodeList#99": "Law suit filed"
 		},
 		"storesItemInventoryTypeCodeList": {
-			"unece:onboardInventory": "A stores inventory item held onboard for this logistics transport movement."
+			"unece:onboardInventory": "A stores inventory item held onboard for this logistics transport movement.",
+			"unece:onboardInventory_label": "Onboard Inventory"
 		},
 		"subjectCodeList": {
 			"unece:SubjectCodeList#AAA": "Goods item description",
@@ -11488,61 +11696,105 @@
 		},
 		"supplyChainEventTypeCodeList": {
 			"unece:acceptanceEvent": "An acceptance delivery event, at header level, for this trade delivery.",
+			"unece:acceptanceEvent_label": "Acceptance Event",
 			"unece:actualDeliveryEvent": "An actual delivery event for this subordinate line trade delivery.",
+			"unece:actualDeliveryEvent_label": "Actual Delivery Event",
 			"unece:actualDespatchEvent": "An actual despatch event, at header level, for this trade delivery.",
+			"unece:actualDespatchEvent_label": "Actual Despatch Event",
 			"unece:actualLoadingEvent": "The actual loading event, at header level, for this trade delivery.",
+			"unece:actualLoadingEvent_label": "Actual Loading Event",
 			"unece:actualPickUpEvent": "The actual pick-up event, at header level, for this trade delivery.",
+			"unece:actualPickUpEvent_label": "Actual Pick Up Event",
 			"unece:actualReceiptEvent": "The actual receipt event, at header level, for this trade delivery.",
+			"unece:actualReceiptEvent_label": "Actual Receipt Event",
 			"unece:actualUnloadingEvent": "The actual unloading event, at header level, for this trade delivery.",
+			"unece:actualUnloadingEvent_label": "Actual Unloading Event",
 			"unece:confirmedDeliveryEvent": "A confirmed delivery event in this supply chain supply plan.",
+			"unece:confirmedDeliveryEvent_label": "Confirmed Delivery Event",
 			"unece:confirmedDespatchEvent": "The despatch event, at header level, confirmed for this trade delivery.",
+			"unece:confirmedDespatchEvent_label": "Confirmed Despatch Event",
 			"unece:confirmedPickUpEvent": "The pick-up event, at header level, confirmed for this trade delivery.",
+			"unece:confirmedPickUpEvent_label": "Confirmed Pick Up Event",
 			"unece:confirmedReleaseEvent": "The confirmed release event, at header level, for this trade delivery.",
+			"unece:confirmedReleaseEvent_label": "Confirmed Release Event",
 			"unece:deliverySupplyChainEvent": "A delivery event for this supply chain supply plan.",
+			"unece:deliverySupplyChainEvent_label": "Delivery Supply Chain Event",
 			"unece:estimatedDeliveryEvent": "An estimated delivery event for this trade delivery header.",
+			"unece:estimatedDeliveryEvent_label": "Estimated Delivery Event",
 			"unece:inspectionEvent": "A supply chain inspection event at this logistics location.",
+			"unece:inspectionEvent_label": "Inspection Event",
 			"unece:occurrenceEvent": "An occurrence of an event for this production process.",
+			"unece:occurrenceEvent_label": "Occurrence Event",
 			"unece:packagingEvent": "The packaging event for this trade product instance.",
+			"unece:packagingEvent_label": "Packaging Event",
 			"unece:plannedDeliveryEvent": "A delivery event, at header level, planned for this trade delivery.",
+			"unece:plannedDeliveryEvent_label": "Planned Delivery Event",
 			"unece:plannedDespatchEvent": "A despatch event, at header level, planned for this trade delivery.",
+			"unece:plannedDespatchEvent_label": "Planned Despatch Event",
 			"unece:plannedPickUpEvent": "The pick-up event, at header level, planned for this trade delivery.",
+			"unece:plannedPickUpEvent_label": "Planned Pick Up Event",
 			"unece:plannedReleaseEvent": "The release event, at header level, planned for this trade delivery.",
+			"unece:plannedReleaseEvent_label": "Planned Release Event",
 			"unece:plannedShipFromDeliveryEvent": "The event of the planned ship from delivery, at header level, for this trade delivery.",
+			"unece:plannedShipFromDeliveryEvent_label": "Planned Ship From Delivery Event",
 			"unece:plannedShipToDeliveryEvent": "The planned ship to delivery event, at header level, for this trade delivery.",
+			"unece:plannedShipToDeliveryEvent_label": "Planned Ship To Delivery Event",
 			"unece:previousDeliverySupplyChainEvent": "A previous delivery event, at header level, for this trade delivery.",
+			"unece:previousDeliverySupplyChainEvent_label": "Previous Delivery Supply Chain Event",
 			"unece:processingEvent": "The processing event for this trade product instance.",
+			"unece:processingEvent_label": "Processing Event",
 			"unece:productionEvent": "The production event for this trade product instance.",
+			"unece:productionEvent_label": "Production Event",
 			"unece:reclassificationEvent": "A reclassification supply chain event for this trade product instance.",
+			"unece:reclassificationEvent_label": "Reclassification Event",
 			"unece:reportedSupplyChainEvent": "A supply chain event reported for this logistics status.",
+			"unece:reportedSupplyChainEvent_label": "Reported Supply Chain Event",
 			"unece:reportingIOTDeviceSupplyChainEvent": "An IOT (Internet of Things) device or scanning device reporting event for this production machine.",
+			"unece:reportingIOTDeviceSupplyChainEvent_label": "Reporting IOT Device Supply Chain Event",
 			"unece:requestedDeliveryEvent": "A delivery event, at header level, requested for this trade delivery.",
+			"unece:requestedDeliveryEvent_label": "Requested Delivery Event",
 			"unece:requestedDespatchEvent": "A despatch event, at header level, requested for this trade delivery.",
+			"unece:requestedDespatchEvent_label": "Requested Despatch Event",
 			"unece:scheduledDeliveryEvent": "A scheduled delivery event in this supply chain supply plan.",
+			"unece:scheduledDeliveryEvent_label": "Scheduled Delivery Event",
 			"unece:specifiedSupplyChainEvent": "A supply chain event specified for this product batch.",
-			"unece:ultimateShipToDeliveryEvent": "The ultimate ship to delivery event, at header level, for this trade delivery."
+			"unece:specifiedSupplyChainEvent_label": "Specified Supply Chain Event",
+			"unece:ultimateShipToDeliveryEvent": "The ultimate ship to delivery event, at header level, for this trade delivery.",
+			"unece:ultimateShipToDeliveryEvent_label": "Ultimate Ship To Delivery Event"
 		},
 		"supplyChainReferenceTypeCodeList": {
 			"unece:associatedReference": "A reference associated with this supply chain event.",
-			"unece:specifiedSupplyChainReference": "A reference specified for this supply chain consignment."
+			"unece:associatedReference_label": "Associated Reference",
+			"unece:specifiedSupplyChainReference": "A reference specified for this supply chain consignment.",
+			"unece:specifiedSupplyChainReference_label": "Specified Supply Chain Reference"
 		},
 		"supplyChainTradeLineItemTypeCodeList": {
 			"unece:includedSupplyChainTradeLineItem": "A supply chain trade line item included in this logistics package.",
-			"unece:specifiedTradeLineItem": "A trade line item specified for this forecast delivery schedule."
+			"unece:includedSupplyChainTradeLineItem_label": "Included Supply Chain Trade Line Item",
+			"unece:specifiedTradeLineItem": "A trade line item specified for this forecast delivery schedule.",
+			"unece:specifiedTradeLineItem_label": "Specified Trade Line Item"
 		},
 		"supplyChainTradeTransactionTypeCodeList": {
-			"unece:relatedTradeTransaction": "A supply chain trade transaction related to this specified assessment."
+			"unece:relatedTradeTransaction": "A supply chain trade transaction related to this specified assessment.",
+			"unece:relatedTradeTransaction_label": "Related Trade Transaction"
 		},
 		"supplyPlanTypeCodeList": {
 			"unece:projectedSupplyPlan": "A supply plan, at line level, projected for this trade delivery.",
-			"unece:specifiedSupplyPlan": "The specification of the delivery quantities and delivery date/time values in a supply plan for this trade product."
+			"unece:projectedSupplyPlan_label": "Projected Supply Plan",
+			"unece:specifiedSupplyPlan": "The specification of the delivery quantities and delivery date/time values in a supply plan for this trade product.",
+			"unece:specifiedSupplyPlan_label": "Specified Supply Plan"
 		},
 		"sustainabilityCharacteristicTypeCodeList": {
 			"unece:applicableSustainabilityCharacteristic": "A characteristic applicable to this sustainability inspection.",
+			"unece:applicableSustainabilityCharacteristic_label": "Applicable Sustainability Characteristic",
 			"unece:includedCharacteristic": "A sustainability characteristic included in this sustainability assertion.",
-			"unece:relatedSustainabilityCharacteristic": "A sustainability characteristic related to this supply chain event."
+			"unece:includedCharacteristic_label": "Included Characteristic",
+			"unece:relatedSustainabilityCharacteristic": "A sustainability characteristic related to this supply chain event.",
+			"unece:relatedSustainabilityCharacteristic_label": "Related Sustainability Characteristic"
 		},
 		"sustainabilityInspectionTypeCodeList": {
-			"unece:applicableSustainabilityInspection": "A sustainability inspection applicable to this logistics transport movement."
+			"unece:applicableSustainabilityInspection": "A sustainability inspection applicable to this logistics transport movement.",
+			"unece:applicableSustainabilityInspection_label": "Applicable Sustainability Inspection"
 		},
 		"taxCategoryCodeList": {
 			"unece:TaxCategoryCodeList#A": "Mixed tax rate",
@@ -11662,8 +11914,11 @@
 		},
 		"technicalCharacteristicTypeCodeList": {
 			"unece:applicableTechnicalCharacteristic": "A technical characteristic applicable to this TT location.",
+			"unece:applicableTechnicalCharacteristic_label": "Applicable Technical Characteristic",
 			"unece:managedCharacteristic": "A technical characteristic managed by this TT party.",
-			"unece:relatedTechnicalCharacteristic": "A technical characteristic related to this animal holding event."
+			"unece:managedCharacteristic_label": "Managed Characteristic",
+			"unece:relatedTechnicalCharacteristic": "A technical characteristic related to this animal holding event.",
+			"unece:relatedTechnicalCharacteristic_label": "Related Technical Characteristic"
 		},
 		"temperatureTypeCodeList": {
 			"unece:TemperatureTypeCodeList#1": "Storage temperature",
@@ -11748,22 +12003,32 @@
 			"unece:TimeReferenceCodeList#ZZZ": "Other reference date agreed upon between the parties"
 		},
 		"tradeProductFeatureTypeCodeList": {
-			"unece:marketingFeature": "A marketing feature of this trade product."
+			"unece:marketingFeature": "A marketing feature of this trade product.",
+			"unece:marketingFeature_label": "Marketing Feature"
 		},
 		"tradeProductTypeCodeList": {
 			"unece:applicableProduct": "A product applicable for this subordinate trade line item.",
+			"unece:applicableProduct_label": "Applicable Product",
 			"unece:componentProduct": "A trade product component of this product batch.",
+			"unece:componentProduct_label": "Component Product",
 			"unece:includedTradeProduct": "A product included in this supply chain inventory.",
+			"unece:includedTradeProduct_label": "Included Trade Product",
 			"unece:inputApplicableProduct": "An input product applicable to this facility production unit.",
+			"unece:inputApplicableProduct_label": "Input Applicable Product",
 			"unece:outputApplicableProduct": "An output product applicable to this facility production unit.",
+			"unece:outputApplicableProduct_label": "Output Applicable Product",
 			"unece:requisitionerSpecifiedProduct": "The product specified by the requisitioner for this supply chain trade line item.",
-			"unece:specifiedTradeProduct": "A product specified for this supply chain trade line item."
+			"unece:requisitionerSpecifiedProduct_label": "Requisitioner Specified Product",
+			"unece:specifiedTradeProduct": "A product specified for this supply chain trade line item.",
+			"unece:specifiedTradeProduct_label": "Specified Trade Product"
 		},
 		"transportationWasteMaterialComponentTypeCodeList": {
-			"unece:includedTransportationWasteMaterialComponent": "A material component included in this transportation waste."
+			"unece:includedTransportationWasteMaterialComponent": "A material component included in this transportation waste.",
+			"unece:includedTransportationWasteMaterialComponent_label": "Included Transportation Waste Material Component"
 		},
 		"transportationWasteMaterialTypeCodeList": {
-			"unece:reportedTransportationWasteMaterial": "Transportation waste material reported for this logistics transport movement."
+			"unece:reportedTransportationWasteMaterial": "Transportation waste material reported for this logistics transport movement.",
+			"unece:reportedTransportationWasteMaterial_label": "Reported Transportation Waste Material"
 		},
 		"transportContractMovementCodeList": {
 			"unece:TransportContractMovementCodeList#1": "Breakbulk",
@@ -12009,42 +12274,79 @@
 		},
 		"transportEventTypeCodeList": {
 			"unece:arrivalEvent": "An arrival event for this logistics transport movement.",
+			"unece:arrivalEvent_label": "Arrival Event",
 			"unece:arrivalReportedEvent": "A transport arrival event reported for this logistics status.",
+			"unece:arrivalReportedEvent_label": "Arrival Reported Event",
 			"unece:bondedWarehouseStorageEvent": "A bonded warehouse storage event for this supply chain consignment.",
+			"unece:bondedWarehouseStorageEvent_label": "Bonded Warehouse Storage Event",
 			"unece:borderCrossingEvent": "A border crossing event for this logistics transport movement.",
+			"unece:borderCrossingEvent_label": "Border Crossing Event",
 			"unece:callEvent": "A call event for this logistics transport movement.",
+			"unece:callEvent_label": "Call Event",
 			"unece:consolidationEvent": "A consolidation event specifying when and where this piece of logistics transport equipment will be, or has been, stuffed.",
+			"unece:consolidationEvent_label": "Consolidation Event",
 			"unece:damageEvent": "A damage event for this logistics transport movement.",
+			"unece:damageEvent_label": "Damage Event",
 			"unece:deconsolidationEvent": "A deconsolidation event for this piece of logistics transport equipment.",
+			"unece:deconsolidationEvent_label": "Deconsolidation Event",
 			"unece:delaySpecifiedEvent": "A delay specified for this referenced transport event.",
+			"unece:delaySpecifiedEvent_label": "Delay Specified Event",
 			"unece:deliveryTransportEvent": "A delivery event for this piece of logistics transport equipment.",
+			"unece:deliveryTransportEvent_label": "Delivery Transport Event",
 			"unece:departureEvent": "A departure event during this logistics transport movement.",
+			"unece:departureEvent_label": "Departure Event",
 			"unece:departureReportedEvent": "A transport departure event reported for this logistics status.",
+			"unece:departureReportedEvent_label": "Departure Reported Event",
 			"unece:devanningEvent": "A transport devanning event for this referenced supply chain consignment, i.e. the unloading of this consignment at the place of delivery.",
+			"unece:devanningEvent_label": "Devanning Event",
 			"unece:examinationEvent": "An examination event for this cross-border regulatory procedure.",
+			"unece:examinationEvent_label": "Examination Event",
 			"unece:firstArrivalEvent": "The first arrival event for this logistics transport movement.",
+			"unece:firstArrivalEvent_label": "First Arrival Event",
 			"unece:itineraryStopEvent": "An itinerary stop event for this transport route, such as a port call in a vessel schedule.",
+			"unece:itineraryStopEvent_label": "Itinerary Stop Event",
 			"unece:loadingEvent": "The loading event during which goods will be or have been loaded into or onto the means of transport used for this logistics transport movement.",
+			"unece:loadingEvent_label": "Loading Event",
 			"unece:loadingReportedEvent": "A transport loading event reported for this logistics status.",
+			"unece:loadingReportedEvent_label": "Loading Reported Event",
 			"unece:nextDeliveryEvent": "A next delivery event for this transportation waste material.",
+			"unece:nextDeliveryEvent_label": "Next Delivery Event",
 			"unece:pickUpEvent": "A pick-up event specifying when and where this piece of logistics transport equipment will be, or has been, collected, i.e. picked-up by the carrier.",
+			"unece:pickUpEvent_label": "Pick Up Event",
 			"unece:positioningEvent": "A positioning event specifying when and where this piece of logistics transport equipment will be, or has been, positioned, i.e. delivered and available for pick-up.",
+			"unece:positioningEvent_label": "Positioning Event",
 			"unece:previousDeliveryTransportEvent": "A previous delivery event for this transportation waste material.",
+			"unece:previousDeliveryTransportEvent_label": "Previous Delivery Transport Event",
 			"unece:registrationEvent": "A registration event of this logistics transport means.",
+			"unece:registrationEvent_label": "Registration Event",
 			"unece:remainingDeliveryEvent": "A delivery event for this remaining transportation waste material component.",
+			"unece:remainingDeliveryEvent_label": "Remaining Delivery Event",
 			"unece:reportedTransportEvent": "A transport event reported by this monitoring IOT device.",
+			"unece:reportedTransportEvent_label": "Reported Transport Event",
 			"unece:reportingIOTDeviceTransportEvent": "An IOT device reported transport event for this piece of logistics transport equipment.",
+			"unece:reportingIOTDeviceTransportEvent_label": "Reporting IOT Device Transport Event",
 			"unece:shipToShipEvent": "A ship to ship event for this logistics transport movement.",
+			"unece:shipToShipEvent_label": "Ship To Ship Event",
 			"unece:specifiedTransportEvent": "A transport event specified for this logistics transport movement.",
+			"unece:specifiedTransportEvent_label": "Specified Transport Event",
 			"unece:staySpecifiedEvent": "A stay specified for this referenced transport event.",
+			"unece:staySpecifiedEvent_label": "Stay Specified Event",
 			"unece:storageEvent": "A storage event for this supply chain consignment.",
+			"unece:storageEvent_label": "Storage Event",
 			"unece:transportEvent": "An event occurring during the transport of this supply chain consignment.",
+			"unece:transportEvent_label": "Transport Event",
 			"unece:transshipmentIntermediateEvent": "A transshipment intermediate event during this logistics transport movement.",
+			"unece:transshipmentIntermediateEvent_label": "Transshipment Intermediate Event",
 			"unece:treatmentEvent": "A treatment event for this cross-border regulatory procedure.",
+			"unece:treatmentEvent_label": "Treatment Event",
 			"unece:unloadingEvent": "The unloading event during which goods will be or have been unloaded from the means of transport used for this logistics transport movement.",
+			"unece:unloadingEvent_label": "Unloading Event",
 			"unece:unloadingReportedEvent": "A transport unloading event reported for this logistics status.",
+			"unece:unloadingReportedEvent_label": "Unloading Reported Event",
 			"unece:vanningEvent": "The vanning event (the loading of this consignment at the place of its original despatch) for this referenced supply chain consignment.",
-			"unece:warehouseStorageEvent": "A warehouse storage event for this referenced supply chain consignment."
+			"unece:vanningEvent_label": "Vanning Event",
+			"unece:warehouseStorageEvent": "A warehouse storage event for this referenced supply chain consignment.",
+			"unece:warehouseStorageEvent_label": "Warehouse Storage Event"
 		},
 		"transportMeansDirectionCodeList": {
 			"unece:TransportMeansDirectionCodeList#BS": "Buyer to seller",
@@ -14232,7 +14534,8 @@
 			"unece:VolumeUnitMeasureCode#MTQ": "cubic metre"
 		},
 		"voucherTypeCodeList": {
-			"unece:identifiedVoucher": "An experience item voucher identified for this trade settlement payment means."
+			"unece:identifiedVoucher": "An experience item voucher identified for this trade settlement payment means.",
+			"unece:identifiedVoucher_label": "Identified Voucher"
 		},
 		"weightUnitMeasureCode": {
 			"unece:WeightUnitMeasureCode#GRM": "gram",
@@ -14266,7 +14569,8 @@
 			"unece:WorkflowStatusCodeList#97": "Pending"
 		},
 		"xHEParameterTypeCodeList": {
-			"unece:specifiedParameter": "A parameter specified for this XHE context."
+			"unece:specifiedParameter": "A parameter specified for this XHE context.",
+			"unece:specifiedParameter_label": "Specified Parameter"
 		}
 	}
 }

@@ -111,6 +111,43 @@ describe("UnCodeLists", () => {
 		expect(transportAll["unece:deliveryTransportEvent"]).toBeDefined();
 	});
 
+	test("Can get all labels for a type code list", async () => {
+		const labels = await UnCodeLists.getLabels(UneceCodeLists.SupplyChainEventTypeCodeList);
+
+		expect(labels["unece:acceptanceEvent"]).toBe("Acceptance Event");
+		expect(labels["unece:actualDeliveryEvent"]).toBe("Actual Delivery Event");
+	});
+
+	test("Can get a single label for a specific code", async () => {
+		const label = await UnCodeLists.getLabel(
+			UneceCodeLists.TransportEventTypeCodeList,
+			"unece:arrivalEvent"
+		);
+
+		expect(label).toBe("Arrival Event");
+	});
+
+	test("Returns undefined when label key does not exist", async () => {
+		const label = await UnCodeLists.getLabel(
+			UneceCodeLists.SupplyChainEventTypeCodeList,
+			"unece:nonExistentEvent"
+		);
+
+		expect(label).toBeUndefined();
+	});
+
+	test("Returns empty object when no labels exist for a non-type code list", async () => {
+		const labels = await UnCodeLists.getLabels(UneceCodeLists.AccessRightsTypeCodeList);
+
+		expect(labels).toEqual({});
+	});
+
+	test("Falls back to en when requested locale does not have labels", async () => {
+		const labels = await UnCodeLists.getLabels(UneceCodeLists.TransportEventTypeCodeList, "fr");
+
+		expect(labels["unece:arrivalEvent"]).toBe("Arrival Event");
+	});
+
 	test("Caches fallback translations under the actual locale used, not the requested locale", async () => {
 		// First request with a locale that doesn't have translations (falls back to 'en')
 		const codesFromFr = await UnCodeLists.getDescriptions(
