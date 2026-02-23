@@ -1,5 +1,13 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.41](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.40...standards-unece-v0.0.3-next.41) (2026-02-23)
+
+
+### Features
+
+* adding the typecode unece descriptions in locales ([#165](https://github.com/twinfoundation/standards/issues/165)) ([c3af882](https://github.com/twinfoundation/standards/commit/c3af8827d3543a84df97c8b1a396f91a9e5275d6))
+* unece code list labels ([#167](https://github.com/twinfoundation/standards/issues/167)) ([41d411e](https://github.com/twinfoundation/standards/commit/41d411eb269c01bf44de6c9f9028dafe63682380))
+
 ## [0.0.3-next.40](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.39...standards-unece-v0.0.3-next.40) (2026-02-18)
 
 

@@ -1,5 +1,12 @@
 # @twin.org/standards-ld-contexts - Changelog
 
+## [0.0.3-next.41](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.40...standards-ld-contexts-v0.0.3-next.41) (2026-02-23)
+
+
+### Features
+
+* update ld context cache ([#169](https://github.com/twinfoundation/standards/issues/169)) ([5fb59af](https://github.com/twinfoundation/standards/commit/5fb59af25526f040bbd4bb5dbe1a7574158c500a))
+
 ## [0.0.3-next.40](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.39...standards-ld-contexts-v0.0.3-next.40) (2026-02-18)
 
 
