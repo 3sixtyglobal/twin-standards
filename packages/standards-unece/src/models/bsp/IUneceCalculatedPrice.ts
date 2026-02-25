@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAppliedAllowanceCharge } from "./IUneceAppliedAllowanceCharge.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Information related to a calculated price.
  * @see https://vocabulary.uncefact.org/CalculatedPrice
  */
-export interface IUneceCalculatedPrice extends IJsonLdNodeObject {
+export interface IUneceCalculatedPrice {
 	/**
 	 * JSON-LD Context.
 	 */

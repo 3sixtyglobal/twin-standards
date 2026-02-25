@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
@@ -26,7 +25,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * financial transaction is intended to settle, for example a commercial invoice.
  * @see https://vocabulary.uncefact.org/LineTradeSettlement
  */
-export interface IUneceLineTradeSettlement extends IJsonLdNodeObject {
+export interface IUneceLineTradeSettlement {
 	/**
 	 * JSON-LD Context.
 	 */

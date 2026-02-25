@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceInspectionStatus } from "./IUneceInspectionStatus.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A significant occurrence or happening in a supply chain.
  * @see https://vocabulary.uncefact.org/SupplyChainEvent
  */
-export interface IUneceSupplyChainEvent extends IJsonLdNodeObject {
+export interface IUneceSupplyChainEvent {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A specified way or course taken from one location to another.
  * @see https://vocabulary.uncefact.org/SpecifiedRoute
  */
-export interface IUneceSpecifiedRoute extends IJsonLdNodeObject {
+export interface IUneceSpecifiedRoute {
 	/**
 	 * JSON-LD Context.
 	 */

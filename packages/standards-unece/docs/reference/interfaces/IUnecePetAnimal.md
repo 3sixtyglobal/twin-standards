@@ -6,14 +6,6 @@ A domestic or tamed animal that is kept for companionship or pleasure.
 
 https://vocabulary.uncefact.org/PetAnimal
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -21,10 +13,6 @@ https://vocabulary.uncefact.org/PetAnimal
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

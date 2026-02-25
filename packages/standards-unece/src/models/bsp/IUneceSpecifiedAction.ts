@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceSpecifiedActionTypeCodeList } from "../typeCodes/uneceSpecifiedActionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The process of doing something in order to make something happen or to deal with a situation.
  * @see https://vocabulary.uncefact.org/SpecifiedAction
  */
-export interface IUneceSpecifiedAction extends IJsonLdNodeObject {
+export interface IUneceSpecifiedAction {
 	/**
 	 * JSON-LD Context.
 	 */

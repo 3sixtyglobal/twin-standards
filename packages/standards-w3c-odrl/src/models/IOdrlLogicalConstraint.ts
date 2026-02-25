@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IOdrlLogicalConstraintOperand } from "./IOdrlLogicalConstraintOperand.js";
 
 /**
@@ -9,7 +8,7 @@ import type { IOdrlLogicalConstraintOperand } from "./IOdrlLogicalConstraintOper
  * If the comparison returns a logical match, then the Logical Constraint is satisfied.
  * https://www.w3.org/TR/odrl-model/#constraint-logical
  */
-export interface IOdrlLogicalConstraint extends IJsonLdNodeObject {
+export interface IOdrlLogicalConstraint {
 	/**
 	 * Optional unique identifier for the logical constraint.
 	 * Must be an IRI.

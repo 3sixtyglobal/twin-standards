@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IFoafAgent } from "@twin.org/standards-foaf";
+import type { IFoafAgentWithAliases } from "@twin.org/standards-foaf";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
@@ -14,7 +14,7 @@ import type { DcatDateTimeType, DcatLiteralType } from "./types/dcatPropertyType
  * This is the parent class of dcat:Dataset, dcat:DataService, and dcat:Catalog.
  * @see https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
  */
-export interface IDcatResource extends IJsonLdNodeObject {
+export interface IDcatResource {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
@@ -30,6 +30,11 @@ export interface IDcatResource extends IJsonLdNodeObject {
 		| typeof DcatClasses.DataService
 		| typeof DcatClasses.Catalog
 		| typeof DcatClasses.DatasetSeries;
+
+	/**
+	 * The unique identifier for the resource.
+	 */
+	"@id"?: string;
 
 	/**
 	 * A name given to the resource.
@@ -71,13 +76,13 @@ export interface IDcatResource extends IJsonLdNodeObject {
 	 * An entity responsible for making the resource available.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 	 */
-	"dcterms:publisher"?: IFoafAgent | string;
+	"dcterms:publisher"?: IFoafAgentWithAliases | string;
 
 	/**
 	 * An entity responsible for producing the resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 	 */
-	"dcterms:creator"?: IFoafAgent;
+	"dcterms:creator"?: IFoafAgentWithAliases | string;
 
 	/**
 	 * Information about who can access the resource or an indication of its security status.

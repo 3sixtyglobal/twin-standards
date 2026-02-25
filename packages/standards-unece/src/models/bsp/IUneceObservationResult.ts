@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLaboratoryObservationAnalysisMethod } from "./IUneceLaboratoryObservationAnalysisMethod.js";
 import type { IUneceLaboratoryObservationInstructions } from "./IUneceLaboratoryObservationInstructions.js";
 import type { IUneceLaboratoryObservationNote } from "./IUneceLaboratoryObservationNote.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of diagnostic data, visual or technical, and processing data, performed on a sample.
  * @see https://vocabulary.uncefact.org/ObservationResult
  */
-export interface IUneceObservationResult extends IJsonLdNodeObject {
+export interface IUneceObservationResult {
 	/**
 	 * JSON-LD Context.
 	 */

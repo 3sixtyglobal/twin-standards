@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceWeightUnitMeasureType } from "./IUneceWeightUnitMeasureType.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * residential, commercial, or industrial facility or by a means of transport, such as a vessel, aircraft or truck.
  * @see https://vocabulary.uncefact.org/Emission
  */
-export interface IUneceEmission extends IJsonLdNodeObject {
+export interface IUneceEmission {
 	/**
 	 * JSON-LD Context.
 	 */

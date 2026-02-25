@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalObjectCharacteristic } from "./IUneceGeographicalObjectCharacteristic.js";
 import type { IUneceLinearRing } from "./IUneceLinearRing.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * a hole in the polygon.
  * @see https://vocabulary.uncefact.org/Polygon
  */
-export interface IUnecePolygon extends IJsonLdNodeObject {
+export interface IUnecePolygon {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceUnitMeasureType } from "./IUneceUnitMeasureType.js";
 import type { IUneceVolumeUnitMeasureType } from "./IUneceVolumeUnitMeasureType.js";
 import type { IUneceWeightUnitMeasureType } from "./IUneceWeightUnitMeasureType.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any specified material that is burnt or altered in order to obtain energy.
  * @see https://vocabulary.uncefact.org/Fuel
  */
-export interface IUneceFuel extends IJsonLdNodeObject {
+export interface IUneceFuel {
 	/**
 	 * JSON-LD Context.
 	 */

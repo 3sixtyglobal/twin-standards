@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceInformationSource } from "./IUneceInformationSource.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * financial institution that is working together with another organization, business, or person.
  * @see https://vocabulary.uncefact.org/CooperatingOrganization
  */
-export interface IUneceCooperatingOrganization extends IJsonLdNodeObject {
+export interface IUneceCooperatingOrganization {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -10,7 +9,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The conditions and requirements of the type of person who may use or purchase a product or service.
  * @see https://vocabulary.uncefact.org/CustomerClass
  */
-export interface IUneceCustomerClass extends IJsonLdNodeObject {
+export interface IUneceCustomerClass {
 	/**
 	 * JSON-LD Context.
 	 */

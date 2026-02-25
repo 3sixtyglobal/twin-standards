@@ -9,10 +9,6 @@ values (e.g. `name`, `summary`, `content`) as either plain strings or language m
 
 https://www.w3.org/TR/activitystreams-core/#object
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IActivityStreamsActivity`](IActivityStreamsActivity.md)
@@ -28,10 +24,6 @@ https://www.w3.org/TR/activitystreams-core/#object
 - [`IActivityStreamsRelationship`](IActivityStreamsRelationship.md)
 - [`IActivityStreamsTombstone`](IActivityStreamsTombstone.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -39,10 +31,6 @@ https://www.w3.org/TR/activitystreams-core/#object
 > **@context**: [`ActivityStreamsContextType`](../type-aliases/ActivityStreamsContextType.md)
 
 The LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 
@@ -409,3 +397,15 @@ BCC.
 #### See
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
+
+***
+
+### mediaType?
+
+> `optional` **mediaType**: `string`
+
+MIME media type of the referenced resource.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype

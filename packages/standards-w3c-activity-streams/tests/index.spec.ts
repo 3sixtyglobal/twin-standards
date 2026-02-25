@@ -9,6 +9,7 @@ import type { IActivityStreamsMention } from "../src/models/IActivityStreamsMent
 import type { IActivityStreamsObject } from "../src/models/IActivityStreamsObject.js";
 import type { IActivityStreamsOrderedCollection } from "../src/models/IActivityStreamsOrderedCollection.js";
 import type { IActivityStreamsOrderedCollectionPage } from "../src/models/IActivityStreamsOrderedCollectionPage.js";
+import type { IActivityStreamsPlace } from "../src/models/IActivityStreamsPlace.js";
 import type { IActivityStreamsProfile } from "../src/models/IActivityStreamsProfile.js";
 import type { IActivityStreamsQuestion } from "../src/models/IActivityStreamsQuestion.js";
 import type { IActivityStreamsRelationship } from "../src/models/IActivityStreamsRelationship.js";
@@ -733,7 +734,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 57", () => {
-		const example57: IActivityStreamsObject = {
+		const example57: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -748,7 +749,9 @@ describe("standards-w3c-activity-streams", () => {
 	test("Can construct Vocabulary Example 58", () => {
 		const example58: IActivityStreamsMention = {
 			"@context": "https://www.w3.org/ns/activitystreams",
-			summary: "Mention of Joe by Carrie in her note",
+			// The example 58 https://www.w3.org/TR/activitystreams-vocabulary
+			// includes a summary property, but Link types do not have a summary property.
+			// summary: "Mention of Joe by Carrie in her note",
 			type: "Mention",
 			href: "http://example.org/joe",
 			name: "Joe"
@@ -1602,7 +1605,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 112", () => {
-		const example112: IActivityStreamsObject = {
+		const example112: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			name: "Liu Gu Lu Cun, Pingdu, Qingdao, Shandong, China",
 			type: "Place",
@@ -1614,7 +1617,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 113", () => {
-		const example113: IActivityStreamsObject = {
+		const example113: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -1750,7 +1753,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 124", () => {
-		const example124: IActivityStreamsObject = {
+		const example124: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -1763,7 +1766,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 125", () => {
-		const example125: IActivityStreamsObject = {
+		const example125: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -1821,7 +1824,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 130", () => {
-		const example130: IActivityStreamsObject = {
+		const example130: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -1911,7 +1914,7 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 136", () => {
-		const example136: IActivityStreamsObject = {
+		const example136: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "Fresno Area",
@@ -2214,12 +2217,12 @@ describe("standards-w3c-activity-streams", () => {
 	});
 
 	test("Can construct Vocabulary Example 150", () => {
-		const example150: IActivityStreamsObject = {
+		const example150: IActivityStreamsPlace = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Place",
 			name: "San Francisco, CA",
-			longitude: "122.4167",
-			latitude: "37.7833"
+			longitude: 122.4167,
+			latitude: 37.7833
 		};
 		expect(example150).toBeDefined();
 	});

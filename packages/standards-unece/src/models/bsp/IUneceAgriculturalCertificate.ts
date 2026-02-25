@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A legal proof of ownership, worthiness or qualification to operate an agricultural item.
  * @see https://vocabulary.uncefact.org/AgriculturalCertificate
  */
-export interface IUneceAgriculturalCertificate extends IJsonLdNodeObject {
+export interface IUneceAgriculturalCertificate {
 	/**
 	 * JSON-LD Context.
 	 */

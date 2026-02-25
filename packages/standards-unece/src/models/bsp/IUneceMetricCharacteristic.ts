@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A prominent attribute or aspect of a metric (a standard of measurement).
  * @see https://vocabulary.uncefact.org/MetricCharacteristic
  */
-export interface IUneceMetricCharacteristic extends IJsonLdNodeObject {
+export interface IUneceMetricCharacteristic {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -14,11 +14,19 @@ http://xmlns.com/foaf/0.1/
 
 - [`IFoafImage`](IFoafImage.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
+
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the FOAF object.
+
+#### Inherited from
+
+[`IFoafBaseObject`](IFoafBaseObject.md).[`@id`](IFoafBaseObject.md#id)
+
+***
 
 ### name?
 
@@ -117,10 +125,6 @@ The LD Context.
 > **@type**: `"Document"` \| `"Image"`
 
 Type.
-
-#### Overrides
-
-`IFoafBaseObject.@type`
 
 ***
 

@@ -1,7 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { ArrayHelper, ObjectHelper, type IValidationFailure } from "@twin.org/core";
-import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import { JsonLdProcessor, type IJsonLdNodeObject, JsonLdHelper } from "@twin.org/data-json-ld";
 import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
 import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
 import {
@@ -132,7 +132,7 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid Dataset as per the DS Protocol", async () => {
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				dataset,
+				JsonLdHelper.toNodeObject(dataset),
 				validationFailures
 			);
 
@@ -140,7 +140,7 @@ describe("Dataspace Protocol", () => {
 		});
 
 		test("should determine as conformant valid Catalog as per the DS Protocol", async () => {
-			const catalog: IDcatCatalog = {
+			const catalog: IDcatCatalog & { participantId: string } = {
 				"@context": {
 					dcat: DcatContexts.Namespace,
 					odrl: OdrlContexts.Namespace,
@@ -160,7 +160,7 @@ describe("Dataspace Protocol", () => {
 
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				catalog,
+				JsonLdHelper.toNodeObject(catalog),
 				validationFailures
 			);
 
@@ -182,7 +182,7 @@ describe("Dataspace Protocol", () => {
 
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				distribution,
+				JsonLdHelper.toNodeObject(distribution),
 				validationFailures
 			);
 			expect(isConformant).toBe(true);
@@ -191,7 +191,7 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant valid DataService as per the DS Protocol", async () => {
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				dataService,
+				JsonLdHelper.toNodeObject(dataService),
 				validationFailures
 			);
 			expect(isConformant).toBe(true);
@@ -200,7 +200,7 @@ describe("Dataspace Protocol", () => {
 		test("should determine as conformant a standard object of the DS Protocol", async () => {
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				transferRequest,
+				JsonLdHelper.toNodeObject(transferRequest),
 				validationFailures
 			);
 			expect(isConformant).toBe(true);
@@ -221,7 +221,7 @@ describe("Dataspace Protocol", () => {
 
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				dataset2,
+				JsonLdHelper.toNodeObject(dataset2),
 				validationFailures
 			);
 			expect(isConformant).toBe(false);
@@ -233,7 +233,7 @@ describe("Dataspace Protocol", () => {
 
 			const validationFailures: IValidationFailure[] = [];
 			const isConformant = await DataspaceProtocolHelper.checkConformance(
-				datasService2,
+				JsonLdHelper.toNodeObject(datasService2),
 				validationFailures
 			);
 			expect(isConformant).toBe(false);

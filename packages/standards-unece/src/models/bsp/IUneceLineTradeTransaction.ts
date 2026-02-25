@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLineTradeAgreement } from "./IUneceLineTradeAgreement.js";
 import type { IUneceLineTradeDelivery } from "./IUneceLineTradeDelivery.js";
 import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
  * @see https://vocabulary.uncefact.org/LineTradeTransaction
  */
-export interface IUneceLineTradeTransaction extends IJsonLdNodeObject {
+export interface IUneceLineTradeTransaction {
 	/**
 	 * JSON-LD Context.
 	 */

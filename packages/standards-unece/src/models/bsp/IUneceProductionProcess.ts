@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
@@ -46,7 +45,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A naturally occurring or designed sequence of operations or events in order to produce something.
  * @see https://vocabulary.uncefact.org/ProductionProcess
  */
-export interface IUneceProductionProcess extends IJsonLdNodeObject {
+export interface IUneceProductionProcess {
 	/**
 	 * JSON-LD Context.
 	 */

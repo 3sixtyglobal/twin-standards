@@ -9,17 +9,9 @@ optional presentation metadata such as `name`, `mediaType`, `height`, and `width
 
 https://www.w3.org/TR/activitystreams-core/#link
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IActivityStreamsMention`](IActivityStreamsMention.md)
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
 
 ## Properties
 
@@ -28,10 +20,6 @@ https://www.w3.org/TR/activitystreams-core/#link
 > **@context**: [`ActivityStreamsContextType`](../type-aliases/ActivityStreamsContextType.md)
 
 The LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

@@ -12,7 +12,7 @@ import type { ActivityStreamsObjectTypes } from "./activityStreamsObjectTypes.js
  * values (e.g. `name`, `summary`, `content`) as either plain strings or language maps.
  * @see https://www.w3.org/TR/activitystreams-core/#object
  */
-export interface IActivityStreamsObject extends IJsonLdNodeObject {
+export interface IActivityStreamsObject {
 	/**
 	 * The LD Context.
 	 */
@@ -206,4 +206,10 @@ export interface IActivityStreamsObject extends IJsonLdNodeObject {
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 	 */
 	bcc?: ObjectOrArray<string | IJsonLdNodeObject>;
+
+	/**
+	 * MIME media type of the referenced resource.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
+	 */
+	mediaType?: string;
 }

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceDisabilityTypeCodeList } from "../typeCodes/uneceDisabilityTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A physical or mental condition that limits a guest's movements, senses, or activities.
  * @see https://vocabulary.uncefact.org/Disability
  */
-export interface IUneceDisability extends IJsonLdNodeObject {
+export interface IUneceDisability {
 	/**
 	 * JSON-LD Context.
 	 */

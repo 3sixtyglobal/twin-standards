@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceCropProduceBatch } from "./IUneceCropProduceBatch.js";
 import type { IUneceDisposalInstructions } from "./IUneceDisposalInstructions.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A practice of cultivating land, raising crops, or treatment of the agricultural produce.
  * @see https://vocabulary.uncefact.org/AgriculturalProcess
  */
-export interface IUneceAgriculturalProcess extends IJsonLdNodeObject {
+export interface IUneceAgriculturalProcess {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceProductionWasteMaterialComponent } from "./IUneceProductionWasteMaterialComponent.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any materials unused and rejected as unwanted during a production process.
  * @see https://vocabulary.uncefact.org/ProductionWasteMaterial
  */
-export interface IUneceProductionWasteMaterial extends IJsonLdNodeObject {
+export interface IUneceProductionWasteMaterial {
 	/**
 	 * JSON-LD Context.
 	 */

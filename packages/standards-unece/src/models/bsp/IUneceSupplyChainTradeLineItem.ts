@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
 import type { IUneceConsignmentItem } from "./IUneceConsignmentItem.js";
@@ -29,7 +28,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of information specific to an item being used or reported on for supply chain trade purposes.
  * @see https://vocabulary.uncefact.org/SupplyChainTradeLineItem
  */
-export interface IUneceSupplyChainTradeLineItem extends IJsonLdNodeObject {
+export interface IUneceSupplyChainTradeLineItem {
 	/**
 	 * JSON-LD Context.
 	 */

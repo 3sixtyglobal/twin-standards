@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -10,7 +9,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Plants or produce cultivated from a single botanical species or variety.
  * @see https://vocabulary.uncefact.org/BotanicalCrop
  */
-export interface IUneceBotanicalCrop extends IJsonLdNodeObject {
+export interface IUneceBotanicalCrop {
 	/**
 	 * JSON-LD Context.
 	 */

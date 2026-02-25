@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceGoodsCharacteristicTypeCodeList } from "../typeCodes/uneceGoodsCharacteristicTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A distinctive feature of a material contained within physical goods.
  * @see https://vocabulary.uncefact.org/GoodsCharacteristic
  */
-export interface IUneceGoodsCharacteristic extends IJsonLdNodeObject {
+export interface IUneceGoodsCharacteristic {
 	/**
 	 * JSON-LD Context.
 	 */

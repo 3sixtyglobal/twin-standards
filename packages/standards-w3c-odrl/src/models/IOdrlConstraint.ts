@@ -1,7 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { LeftOperandType } from "./types/leftOperandType.js";
 import type { OperatorType } from "./types/operatorType.js";
 import type { StatusType } from "./types/statusType.js";
@@ -10,7 +9,7 @@ import type { StatusType } from "./types/statusType.js";
  * Interface for ODRL Constraints.
  * https://www.w3.org/TR/odrl-model/#constraint
  */
-export interface IOdrlConstraint extends IJsonLdNodeObject {
+export interface IOdrlConstraint {
 	/**
 	 * Optional unique identifier for the constraint.
 	 */

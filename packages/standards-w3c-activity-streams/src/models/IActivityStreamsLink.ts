@@ -12,7 +12,7 @@ import type { ActivityStreamsLinkTypes } from "./activityStreamsLinkTypes.js";
  * optional presentation metadata such as `name`, `mediaType`, `height`, and `width`.
  * @see https://www.w3.org/TR/activitystreams-core/#link
  */
-export interface IActivityStreamsLink extends IJsonLdNodeObject {
+export interface IActivityStreamsLink {
 	/**
 	 * The LD Context.
 	 */

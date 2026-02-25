@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceProcessCharacteristic } from "./IUneceProcessCharacteristic.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * manufacturing, treating, packaging, and storing.
  * @see https://vocabulary.uncefact.org/ProductHandlingProcess
  */
-export interface IUneceProductHandlingProcess extends IJsonLdNodeObject {
+export interface IUneceProductHandlingProcess {
 	/**
 	 * JSON-LD Context.
 	 */

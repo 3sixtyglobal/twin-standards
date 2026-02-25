@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceLanguageProficiency } from "./IUneceLanguageProficiency.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -17,7 +16,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * detection.
  * @see https://vocabulary.uncefact.org/Stowaway
  */
-export interface IUneceStowaway extends IJsonLdNodeObject {
+export interface IUneceStowaway {
 	/**
 	 * JSON-LD Context.
 	 */

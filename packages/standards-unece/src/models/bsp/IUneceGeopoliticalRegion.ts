@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { UneceGeopoliticalRegionTypeCodeList } from "../typeCodes/uneceGeopoliticalRegionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of countries and/or economies united for trade purposes.
  * @see https://vocabulary.uncefact.org/GeopoliticalRegion
  */
-export interface IUneceGeopoliticalRegion extends IJsonLdNodeObject {
+export interface IUneceGeopoliticalRegion {
 	/**
 	 * JSON-LD Context.
 	 */

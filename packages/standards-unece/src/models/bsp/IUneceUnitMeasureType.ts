@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceUnitMeasureCode } from "../lists/uneceUnitMeasureCode.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A numeric value determined by measuring an object along with the specified unit of measure.
  * @see https://vocabulary.uncefact.org/UnitMeasureType
  */
-export interface IUneceUnitMeasureType extends IJsonLdNodeObject {
+export interface IUneceUnitMeasureType {
 	/**
 	 * JSON-LD Context.
 	 */

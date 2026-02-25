@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceSecurityTagTypeCodeList } from "../typeCodes/uneceSecurityTagTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A product tag device to provide protection from a peril such as theft.
  * @see https://vocabulary.uncefact.org/SecurityTag
  */
-export interface IUneceSecurityTag extends IJsonLdNodeObject {
+export interface IUneceSecurityTag {
 	/**
 	 * JSON-LD Context.
 	 */

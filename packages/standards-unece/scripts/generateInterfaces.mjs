@@ -200,8 +200,6 @@ async function generateClass(
 		propertyLines.push(propString);
 	}
 
-	imports.push({ type: 'IJsonLdNodeObject', package: '@twin.org/data-json-ld' });
-
 	generateImportLines(
 		CLASS_OUTPUT_DIR,
 		imports.filter(i => i.type !== interfaceName),
@@ -215,7 +213,7 @@ async function generateClass(
 	typeLines.push(
 		...createComment(description, '', `https://vocabulary.uncefact.org/${typeName}`, isDeprecated)
 	);
-	typeLines.push(`export interface ${interfaceName} extends IJsonLdNodeObject {`);
+	typeLines.push(`export interface ${interfaceName} {`);
 	typeLines.push(...propertyLines);
 	typeLines.push('}');
 }

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceLogisticsTransportMeans } from "./IUneceLogisticsTransportMeans.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A number of means of transport following each other with a common logistics purpose.
  * @see https://vocabulary.uncefact.org/Convoy
  */
-export interface IUneceConvoy extends IJsonLdNodeObject {
+export interface IUneceConvoy {
 	/**
 	 * JSON-LD Context.
 	 */

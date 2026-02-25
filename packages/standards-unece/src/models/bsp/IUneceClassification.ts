@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { UneceClassificationTypeCodeList } from "../typeCodes/uneceClassificationTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A systematic arrangement of products in classes or categories according to established criteria.
  * @see https://vocabulary.uncefact.org/Classification
  */
-export interface IUneceClassification extends IJsonLdNodeObject {
+export interface IUneceClassification {
 	/**
 	 * JSON-LD Context.
 	 */

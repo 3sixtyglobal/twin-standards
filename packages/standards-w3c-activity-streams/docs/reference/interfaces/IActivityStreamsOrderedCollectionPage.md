@@ -14,10 +14,6 @@ https://www.w3.org/TR/activitystreams-core/#collections
 
 - [`IActivityStreamsCollectionPage`](IActivityStreamsCollectionPage.md).[`IActivityStreamsOrderedCollection`](IActivityStreamsOrderedCollection.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### totalItems?
@@ -629,6 +625,22 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 #### Inherited from
 
 [`IActivityStreamsCollectionPage`](IActivityStreamsCollectionPage.md).[`bcc`](IActivityStreamsCollectionPage.md#bcc)
+
+***
+
+### mediaType?
+
+> `optional` **mediaType**: `string`
+
+MIME media type of the referenced resource.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
+
+#### Inherited from
+
+[`IActivityStreamsCollectionPage`](IActivityStreamsCollectionPage.md).[`mediaType`](IActivityStreamsCollectionPage.md#mediatype)
 
 ***
 

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAcademicQualification } from "./IUneceAcademicQualification.js";
 import type { IUneceAccreditation } from "./IUneceAccreditation.js";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
@@ -21,7 +20,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A transport related person, such as a member of a crew or a passenger.
  * @see https://vocabulary.uncefact.org/TransportPerson
  */
-export interface IUneceTransportPerson extends IJsonLdNodeObject {
+export interface IUneceTransportPerson {
 	/**
 	 * JSON-LD Context.
 	 */

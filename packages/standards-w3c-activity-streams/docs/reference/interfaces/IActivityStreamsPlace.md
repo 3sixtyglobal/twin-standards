@@ -10,10 +10,6 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place
 
 - [`IActivityStreamsObject`](IActivityStreamsObject.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -500,6 +496,22 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 
 ***
 
+### mediaType?
+
+> `optional` **mediaType**: `string`
+
+MIME media type of the referenced resource.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
+
+#### Inherited from
+
+[`IActivityStreamsObject`](IActivityStreamsObject.md).[`mediaType`](IActivityStreamsObject.md#mediatype)
+
+***
+
 ### type
 
 > **type**: `ObjectOrArray`\<`string`\>
@@ -552,6 +564,21 @@ the default is assumed to be "m" (meters).
 #### See
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-altitude
+
+***
+
+### accuracy?
+
+> `optional` **accuracy**: `number`
+
+The accuracy of the Place.
+
+Indicates the accuracy of position coordinates on a Place objects.
+Expressed in properties of percentage. e.g. "94.0" means "94.0% accurate".
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accuracy
 
 ***
 

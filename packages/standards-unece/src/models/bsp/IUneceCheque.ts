@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceChequeTypeCodeList } from "../typeCodes/uneceChequeTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A written payment order to a bank to pay the stated sum from the drawer's account.
  * @see https://vocabulary.uncefact.org/Cheque
  */
-export interface IUneceCheque extends IJsonLdNodeObject {
+export interface IUneceCheque {
 	/**
 	 * JSON-LD Context.
 	 */

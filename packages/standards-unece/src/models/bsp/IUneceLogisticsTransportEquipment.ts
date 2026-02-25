@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAirFlowUnitMeasureType } from "./IUneceAirFlowUnitMeasureType.js";
 import type { IUneceAssociatedTransportEquipment } from "./IUneceAssociatedTransportEquipment.js";
 import type { IUneceAttachedTransportEquipment } from "./IUneceAttachedTransportEquipment.js";
@@ -51,7 +50,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.
  * @see https://vocabulary.uncefact.org/LogisticsTransportEquipment
  */
-export interface IUneceLogisticsTransportEquipment extends IJsonLdNodeObject {
+export interface IUneceLogisticsTransportEquipment {
 	/**
 	 * JSON-LD Context.
 	 */

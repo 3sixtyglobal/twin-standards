@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IEpcisSensorMetadata } from "./IEpcisSensorMetadata.js";
 import type { IEpcisSensorReport } from "./IEpcisSensorReport.js";
 
@@ -9,7 +8,7 @@ import type { IEpcisSensorReport } from "./IEpcisSensorReport.js";
  * entries.
  * @see https://ref.gs1.org/epcis/SensorElement
  */
-export interface IEpcisSensorElement extends IJsonLdNodeObject {
+export interface IEpcisSensorElement {
 	/**
 	 * (Optional) Element containing metadata attributes applicable to all
 	 * sensorReport entries within this sensorElement.

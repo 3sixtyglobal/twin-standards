@@ -21,10 +21,6 @@ https://www.w3.org/TR/activitystreams-core/#actors
 - [`IActivityStreamsPerson`](IActivityStreamsPerson.md)
 - [`IActivityStreamsService`](IActivityStreamsService.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### type?
@@ -520,3 +516,19 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 #### Inherited from
 
 [`IActivityStreamsObject`](IActivityStreamsObject.md).[`bcc`](IActivityStreamsObject.md#bcc)
+
+***
+
+### mediaType?
+
+> `optional` **mediaType**: `string`
+
+MIME media type of the referenced resource.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
+
+#### Inherited from
+
+[`IActivityStreamsObject`](IActivityStreamsObject.md).[`mediaType`](IActivityStreamsObject.md#mediatype)

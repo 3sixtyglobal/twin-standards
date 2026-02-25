@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { Converter } from "@twin.org/core";
 import { Ed25519 } from "@twin.org/crypto";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import { JsonLdHelper } from "@twin.org/data-json-ld";
 import { type IJwk, Jwk } from "@twin.org/web";
 import type { IDidVerifiableCredential } from "../../src/models/IDidVerifiableCredential.js";
 import type { IJsonWebSignature2020Proof } from "../../src/models/IJsonWebSignature2020Proof.js";
@@ -21,7 +21,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		const privateKey = Converter.base64UrlToBytes("m5N7gTItgWz6udWjuqzJsqX-vksUnxJrNjD5OilScBc");
 		const publicKey = Ed25519.publicKeyFromPrivateKey(privateKey);
 
-		const vc: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const vc: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/2018/credentials/v1",
 				"https://www.w3.org/2018/credentials/examples/v1",
@@ -55,7 +55,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		};
 
 		const proof = await new JsonWebSignature2020AsyncSignerVerifier().createProofWithSigner(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			unsignedProof as IJsonWebSignature2020Proof,
 			signCallback
 		);
@@ -69,7 +69,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		// Verify with async verifier
 		const publicCryptoKey = await Jwk.fromEd25519Public(publicKey);
 		const verified = await new JsonWebSignature2020AsyncSignerVerifier().verifyProof(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			proof,
 			publicCryptoKey
 		);
@@ -92,7 +92,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 			alg: "EdDSA"
 		};
 
-		const vc: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const vc: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/2018/credentials/v1",
 				"https://www.w3.org/2018/credentials/examples/v1",
@@ -127,21 +127,21 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		};
 
 		const asyncProof = await new JsonWebSignature2020AsyncSignerVerifier().createProofWithSigner(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			unsignedProof as IJsonWebSignature2020Proof,
 			signCallback
 		);
 
 		// Verify with both sync and async verifiers
 		const verifiedByAsync = await new JsonWebSignature2020AsyncSignerVerifier().verifyProof(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			asyncProof,
 			publicKey
 		);
 		expect(verifiedByAsync).toEqual(true);
 
 		const verifiedBySync = await new JsonWebSignature2020SignerVerifier().verifyProof(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			asyncProof,
 			publicKey
 		);
@@ -157,7 +157,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 			alg: "EdDSA"
 		};
 
-		const vc: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const vc: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/2018/credentials/v1",
 				"https://www.w3.org/2018/credentials/examples/v1",
@@ -193,7 +193,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 
 		const signedProof = (await ProofHelper.createProofWithSigner(
 			ProofTypes.JsonWebSignature2020,
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			unsignedProof,
 			signCallback
 		)) as IJsonWebSignature2020Proof;
@@ -203,7 +203,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 	});
 
 	test("Can create hash using async signer verifier", async () => {
-		const vc: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const vc: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/2018/credentials/v1",
 				"https://www.w3.org/2018/credentials/examples/v1"
@@ -228,7 +228,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		);
 
 		const proof = await new JsonWebSignature2020AsyncSignerVerifier().createHash(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			unsignedProof as IJsonWebSignature2020Proof
 		);
 
@@ -245,7 +245,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 	test("Async proof JWS format is correct (manual RFC 7515 implementation)", async () => {
 		const privateKey = Converter.base64UrlToBytes("m5N7gTItgWz6udWjuqzJsqX-vksUnxJrNjD5OilScBc");
 
-		const vc: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const vc: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/2018/credentials/v1",
 				"https://www.w3.org/2018/credentials/examples/v1",
@@ -278,7 +278,7 @@ describe("JsonWebSignature2020AsyncSignerVerifier", () => {
 		};
 
 		const proof = await new JsonWebSignature2020AsyncSignerVerifier().createProofWithSigner(
-			vc,
+			JsonLdHelper.toNodeObject(vc),
 			unsignedProof as IJsonWebSignature2020Proof,
 			signCallback
 		);

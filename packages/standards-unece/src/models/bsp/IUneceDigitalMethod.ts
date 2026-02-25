@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceDigitalMethodTypeCodeList } from "../typeCodes/uneceDigitalMethodTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The use of online and digital technologies to collect monetary payment amounts.
  * @see https://vocabulary.uncefact.org/DigitalMethod
  */
-export interface IUneceDigitalMethod extends IJsonLdNodeObject {
+export interface IUneceDigitalMethod {
 	/**
 	 * JSON-LD Context.
 	 */

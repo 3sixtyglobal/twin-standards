@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTradeLocation } from "./IUneceTradeLocation.js";
 import type { UneceDeliveryTermsCodeList } from "../lists/uneceDeliveryTermsCodeList.js";
 import type { UneceDeliveryTermsFunctionCodeList } from "../lists/uneceDeliveryTermsFunctionCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Conditions agreed upon between the parties with regard to the delivery of goods and or services for trade purposes.
  * @see https://vocabulary.uncefact.org/DeliveryTerms
  */
-export interface IUneceDeliveryTerms extends IJsonLdNodeObject {
+export interface IUneceDeliveryTerms {
 	/**
 	 * JSON-LD Context.
 	 */

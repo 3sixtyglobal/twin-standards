@@ -3,6 +3,7 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { IDcatDataset } from "./IDcatDataset.js";
+import type { DatasetOptionalContext } from "./types/dcatContextFreeTypes.js";
 
 /**
  * Interface for DCAT Dataset Series.
@@ -33,4 +34,10 @@ export interface IDcatDatasetSeries extends IDcatDataset {
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_member
 	 */
 	"dcat:seriesMember"?: ObjectOrArray<string>;
+
+	/**
+	 * A dataset that is part of this dataset series.
+	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
+	 */
+	"dcat:dataset"?: ObjectOrArray<DatasetOptionalContext>;
 }

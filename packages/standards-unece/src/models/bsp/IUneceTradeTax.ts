@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
@@ -24,7 +23,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A trade related fiscal levy or duty.
  * @see https://vocabulary.uncefact.org/TradeTax
  */
-export interface IUneceTradeTax extends IJsonLdNodeObject {
+export interface IUneceTradeTax {
 	/**
 	 * JSON-LD Context.
 	 */

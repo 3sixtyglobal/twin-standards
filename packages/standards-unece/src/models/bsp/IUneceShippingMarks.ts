@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLabel } from "./IUneceLogisticsLabel.js";
 import type { UneceMarkingInstructionCodeList } from "../lists/uneceMarkingInstructionCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Physical markings or labels on individual packages or transport units for logistics purposes.
  * @see https://vocabulary.uncefact.org/ShippingMarks
  */
-export interface IUneceShippingMarks extends IJsonLdNodeObject {
+export interface IUneceShippingMarks {
 	/**
 	 * JSON-LD Context.
 	 */

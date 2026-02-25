@@ -12,10 +12,6 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series
 
 - [`IDcatDataset`](IDcatDataset.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### dcat:distribution?
@@ -194,6 +190,18 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_member
 
 ***
 
+### dcat:dataset?
+
+> `optional` **dcat:dataset**: `ObjectOrArray`\<[`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)\>
+
+A dataset that is part of this dataset series.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
+
+***
+
 ### @context
 
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
@@ -203,6 +211,18 @@ The JSON-LD context for the resource.
 #### Inherited from
 
 [`IDcatDataset`](IDcatDataset.md).[`@context`](IDcatDataset.md#context)
+
+***
+
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the resource.
+
+#### Inherited from
+
+[`IDcatDataset`](IDcatDataset.md).[`@id`](IDcatDataset.md#id)
 
 ***
 
@@ -304,7 +324,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher?
 
-> `optional` **dcterms:publisher**: `string` \| `IFoafAgent`
+> `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for making the resource available.
 
@@ -320,7 +340,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator?
 
-> `optional` **dcterms:creator**: `IFoafAgent`
+> `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for producing the resource.
 

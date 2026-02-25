@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The procedures to follow for returnable assets, such as reusable packaging (pallets, crates).
  * @see https://vocabulary.uncefact.org/ReturnableAssetInstructions
  */
-export interface IUneceReturnableAssetInstructions extends IJsonLdNodeObject {
+export interface IUneceReturnableAssetInstructions {
 	/**
 	 * JSON-LD Context.
 	 */

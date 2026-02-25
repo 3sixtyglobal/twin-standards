@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Offset information to ensure that debits and credits are equal for a transaction.
  * @see https://vocabulary.uncefact.org/PaymentBalanceOut
  */
-export interface IUnecePaymentBalanceOut extends IJsonLdNodeObject {
+export interface IUnecePaymentBalanceOut {
 	/**
 	 * JSON-LD Context.
 	 */

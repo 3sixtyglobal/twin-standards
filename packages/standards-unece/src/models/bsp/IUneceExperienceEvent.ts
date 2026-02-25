@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceRequirement } from "./IUneceRequirement.js";
 import type { IUneceSpecifiedCertificate } from "./IUneceSpecifiedCertificate.js";
 import type { IUneceSpecifiedFeature } from "./IUneceSpecifiedFeature.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * meditation, holiday trip, dinner, theme park visit, could be experienced.
  * @see https://vocabulary.uncefact.org/ExperienceEvent
  */
-export interface IUneceExperienceEvent extends IJsonLdNodeObject {
+export interface IUneceExperienceEvent {
 	/**
 	 * JSON-LD Context.
 	 */

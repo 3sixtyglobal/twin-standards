@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceObject } from "./IUneceObject.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A permit from an authority to own or use something, do a particular thing, or to conduct a trade.
  * @see https://vocabulary.uncefact.org/Licence
  */
-export interface IUneceLicence extends IJsonLdNodeObject {
+export interface IUneceLicence {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Material which exhibits adverse effects on living organisms.
  * @see https://vocabulary.uncefact.org/HazardousMaterial
  */
-export interface IUneceHazardousMaterial extends IJsonLdNodeObject {
+export interface IUneceHazardousMaterial {
 	/**
 	 * JSON-LD Context.
 	 */

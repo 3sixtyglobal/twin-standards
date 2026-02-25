@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
 import type { UneceControlSettingParameterTypeCodeList } from "../typeCodes/uneceControlSettingParameterTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A set of measurable factors that specifies the conditions of its operation within a specific context.
  * @see https://vocabulary.uncefact.org/ControlSettingParameter
  */
-export interface IUneceControlSettingParameter extends IJsonLdNodeObject {
+export interface IUneceControlSettingParameter {
 	/**
 	 * JSON-LD Context.
 	 */

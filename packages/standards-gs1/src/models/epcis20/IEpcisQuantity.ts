@@ -1,12 +1,11 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 
 /**
  * EPCIS 2.0 QuantityElement defining class-level identifiers and amounts.
  * @see https://ref.gs1.org/epcis/QuantityElement
  */
-export interface IEpcisQuantity extends IJsonLdNodeObject {
+export interface IEpcisQuantity {
 	/**
 	 * A class-level identifier for the class to which the specified quantity of
 	 * objects belongs.

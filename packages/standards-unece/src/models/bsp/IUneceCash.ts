@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCashTypeCodeList } from "../typeCodes/uneceCashTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Coins, banknotes paid by the recipient of goods or services to the provider.
  * @see https://vocabulary.uncefact.org/Cash
  */
-export interface IUneceCash extends IJsonLdNodeObject {
+export interface IUneceCash {
 	/**
 	 * JSON-LD Context.
 	 */

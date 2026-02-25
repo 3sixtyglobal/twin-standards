@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The process of certifying that a process has met performance and quality assurance tests, or qualification requirements.
  * @see https://vocabulary.uncefact.org/ProcessCertification
  */
-export interface IUneceProcessCertification extends IJsonLdNodeObject {
+export interface IUneceProcessCertification {
 	/**
 	 * JSON-LD Context.
 	 */

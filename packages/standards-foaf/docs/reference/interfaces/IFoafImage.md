@@ -10,11 +10,19 @@ http://xmlns.com/foaf/0.1/
 
 - [`IFoafDocument`](IFoafDocument.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
+
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the FOAF object.
+
+#### Inherited from
+
+[`IFoafDocument`](IFoafDocument.md).[`@id`](IFoafDocument.md#id)
+
+***
 
 ### name?
 

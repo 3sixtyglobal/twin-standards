@@ -1,13 +1,12 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 
 /**
  * EPCIS 2.0 SensorMetadata describing timing, device, and processing details for
  * sensor observations.
  * @see https://ref.gs1.org/epcis/SensorMetadata
  */
-export interface IEpcisSensorMetadata extends IJsonLdNodeObject {
+export interface IEpcisSensorMetadata {
 	/**
 	 * (Optional) The actual point in time of an observation as transmitted by a
 	 * sensor device.

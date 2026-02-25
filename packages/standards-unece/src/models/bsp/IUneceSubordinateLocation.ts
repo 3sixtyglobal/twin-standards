@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { IUneceSubordinateSubordinateLocation } from "./IUneceSubordinateSubordinateLocation.js";
 import type { UneceLocationFunctionCodeList } from "../lists/uneceLocationFunctionCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A physical location or place which is a subordinate location of a location.
  * @see https://vocabulary.uncefact.org/SubordinateLocation
  */
-export interface IUneceSubordinateLocation extends IJsonLdNodeObject {
+export interface IUneceSubordinateLocation {
 	/**
 	 * JSON-LD Context.
 	 */

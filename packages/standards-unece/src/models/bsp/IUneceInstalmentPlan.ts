@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceInstalmentPayment } from "./IUneceInstalmentPayment.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A plan for paying a total sum of money by several payments made over a period of time.
  * @see https://vocabulary.uncefact.org/InstalmentPlan
  */
-export interface IUneceInstalmentPlan extends IJsonLdNodeObject {
+export interface IUneceInstalmentPlan {
 	/**
 	 * JSON-LD Context.
 	 */

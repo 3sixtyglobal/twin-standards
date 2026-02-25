@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceTransportEquipmentCategoryCodeList } from "../lists/uneceTransportEquipmentCategoryCodeList.js";
 import type { UneceTransportEquipmentSizeTypeCodeList } from "../lists/uneceTransportEquipmentSizeTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A piece of attached transport equipment, such as a chain or a tarpaulin.
  * @see https://vocabulary.uncefact.org/AttachedTransportEquipment
  */
-export interface IUneceAttachedTransportEquipment extends IJsonLdNodeObject {
+export interface IUneceAttachedTransportEquipment {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Temperature settings instructed for storage or movement of goods.
  * @see https://vocabulary.uncefact.org/InstructedTemperature
  */
-export interface IUneceInstructedTemperature extends IJsonLdNodeObject {
+export interface IUneceInstructedTemperature {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { ArrayHelper } from "@twin.org/core";
 import { DataTypeHandlerFactory, type IJsonSchema, JsonSchemaHelper } from "@twin.org/data-core";
-import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import { JsonLdDataTypes, JsonLdHelper } from "@twin.org/data-json-ld";
 import { DublinCoreContexts, DublinCorePropertyType } from "@twin.org/standards-dublin-core";
 import { VCardContexts, VCardPropertyType } from "@twin.org/standards-w3c-vcard";
 import { OdrlDataTypes } from "../src/dataTypes/odrlDataTypes.js";
@@ -239,14 +239,14 @@ describe("ODRL Examples from Specification", () => {
 		expect(permission?.action).toBe(ActionType.Use);
 
 		// Test assigner Party
-		const assigner = permission?.assigner as IOdrlParty;
+		const assigner = JsonLdHelper.toNodeObject(permission?.assigner);
 		expect(assigner["@type"]).toEqual([OdrlTypes.Party, `vcard:${VCardPropertyType.Organization}`]);
 		expect(assigner.uid).toBe("http://example.com/org/sony-books");
 		expect(assigner[`vcard:${VCardPropertyType.FormattedName}`]).toBe("Sony Books LCC");
 		expect(assigner[`vcard:${VCardPropertyType.Email}`]).toBe("sony-contact@example.com");
 
 		// Test assignee PartyCollection
-		const assignee = permission?.assignee as IOdrlParty;
+		const assignee = JsonLdHelper.toNodeObject(permission?.assignee);
 		expect(assignee["@type"]).toEqual([
 			OdrlTypes.PartyCollection,
 			`vcard:${VCardPropertyType.Group}`
@@ -267,8 +267,13 @@ describe("ODRL Examples from Specification", () => {
 
 		expect(party["@type"]).toBe(`vcard:${VCardPropertyType.Individual}`);
 		expect(party.uid).toBe("http://example.com/person/murphy");
-		expect(party[`vcard:${VCardPropertyType.FormattedName}`]).toBe("Murphy");
-		expect(party[`vcard:${VCardPropertyType.Email}`]).toBe("murphy@example.com");
+
+		expect(JsonLdHelper.toNodeObject(party)[`vcard:${VCardPropertyType.FormattedName}`]).toBe(
+			"Murphy"
+		);
+		expect(JsonLdHelper.toNodeObject(party)[`vcard:${VCardPropertyType.Email}`]).toBe(
+			"murphy@example.com"
+		);
 		expect(party.partOf).toBe("http://example.com/team/A");
 
 		// Verify this party is part of the team from Example 9
@@ -287,8 +292,12 @@ describe("ODRL Examples from Specification", () => {
 
 		expect(party["@type"]).toBe(`vcard:${VCardPropertyType.Individual}`);
 		expect(party.uid).toBe("http://example.com/person/billie");
-		expect(party[`vcard:${VCardPropertyType.FormattedName}`]).toBe("Billie");
-		expect(party[`vcard:${VCardPropertyType.Email}`]).toBe("billie@example.com");
+		expect(JsonLdHelper.toNodeObject(party)[`vcard:${VCardPropertyType.FormattedName}`]).toBe(
+			"Billie"
+		);
+		expect(JsonLdHelper.toNodeObject(party)[`vcard:${VCardPropertyType.Email}`]).toBe(
+			"billie@example.com"
+		);
 		expect(party.assigneeOf).toBe("http://example.com/policy:1011");
 	});
 
@@ -562,7 +571,9 @@ describe("ODRL Examples from Specification", () => {
 		expect(target.source).toBe("http://example.com/media-catalogue");
 
 		// Test refinement
-		const refinement = ArrayHelper.fromObjectOrArray(target.refinement)?.[0];
+		const refinement = JsonLdHelper.toNodeObject(
+			ArrayHelper.fromObjectOrArray(target.refinement)?.[0]
+		);
 		expect(refinement).toBeDefined();
 		expect(refinement?.leftOperand).toBe("runningTime");
 		expect(refinement?.operator).toBe(OperatorType.Lt);
@@ -1080,14 +1091,15 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
 
 		// Test atomic permission rule
-		const permission = ArrayHelper.fromObjectOrArray(policy.permission)?.[0];
+		const permissionArray = ArrayHelper.fromObjectOrArray(policy.permission);
+		const permission = JsonLdHelper.toNodeObject(permissionArray?.[0]);
 		expect(permission).toBeDefined();
 		expect(permission?.target).toBe("http://example.com/music/1999.mp3");
 		expect(permission?.assigner).toBe("http://example.com/org/sony-music");
 		expect(permission?.action).toBe(ActionType.Play);
 
 		// Verify rule is atomic (single target, assigner, and action)
-		expect(policy.permission?.length).toBe(1);
+		expect(permissionArray.length).toBe(1);
 		expect(Array.isArray(permission?.target)).toBeFalsy();
 		expect(Array.isArray(permission?.assigner)).toBeFalsy();
 		expect(Array.isArray(permission?.action)).toBeFalsy();
@@ -1313,13 +1325,19 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:22");
 
 		// Test Dublin Core metadata
-		expect(policy[`dc:${DublinCorePropertyType.Creator}`]).toBe("Billie Enterprises LLC");
-		expect(policy[`dc:${DublinCorePropertyType.Description}`]).toBe("This policy covers...");
-		expect(policy[`dc:${DublinCorePropertyType.Issued}`]).toBe("2017-01-01T12:00");
-		expect(policy[`dc:${DublinCorePropertyType.Coverage}`]).toEqual({
+		expect(JsonLdHelper.toNodeObject(policy)[`dc:${DublinCorePropertyType.Creator}`]).toBe(
+			"Billie Enterprises LLC"
+		);
+		expect(JsonLdHelper.toNodeObject(policy)[`dc:${DublinCorePropertyType.Description}`]).toBe(
+			"This policy covers..."
+		);
+		expect(JsonLdHelper.toNodeObject(policy)[`dc:${DublinCorePropertyType.Issued}`]).toBe(
+			"2017-01-01T12:00"
+		);
+		expect(JsonLdHelper.toNodeObject(policy)[`dc:${DublinCorePropertyType.Coverage}`]).toEqual({
 			"@id": "https://www.iso.org/obp/ui/#iso:code:3166:AU-QLD"
 		});
-		expect(policy[`dc:${DublinCorePropertyType.Replaces}`]).toEqual({
+		expect(JsonLdHelper.toNodeObject(policy)[`dc:${DublinCorePropertyType.Replaces}`]).toEqual({
 			"@id": "http://example.com/policy:8887"
 		});
 

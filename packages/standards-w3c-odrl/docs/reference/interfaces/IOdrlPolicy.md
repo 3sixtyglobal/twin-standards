@@ -3,19 +3,11 @@
 Interface representing an ODRL Policy.
 https://www.w3.org/TR/odrl-model/#policy
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IOdrlAgreement`](IOdrlAgreement.md)
 - [`IOdrlOffer`](IOdrlOffer.md)
 - [`IOdrlSet`](IOdrlSet.md)
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
 
 ## Properties
 
@@ -26,10 +18,6 @@ https://www.w3.org/TR/odrl-model/#policy
 The context for the policy.
 Must include "https://www.w3.org/ns/odrl.jsonld"
 
-#### Overrides
-
-`IJsonLdNodeObject.@context`
-
 ***
 
 ### @type
@@ -38,10 +26,6 @@ Must include "https://www.w3.org/ns/odrl.jsonld"
 
 The type of policy.
 Must be one of: "Set", "Offer", "Agreement"
-
-#### Overrides
-
-`IJsonLdNodeObject.@type`
 
 ***
 

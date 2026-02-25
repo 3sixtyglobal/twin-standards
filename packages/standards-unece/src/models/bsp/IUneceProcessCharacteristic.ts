@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A prominent attribute or aspect of a process.
  * @see https://vocabulary.uncefact.org/ProcessCharacteristic
  */
-export interface IUneceProcessCharacteristic extends IJsonLdNodeObject {
+export interface IUneceProcessCharacteristic {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -1,7 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
@@ -19,7 +18,7 @@ import type {
  * serializations that may differ in various ways.
  * @see https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution
  */
-export interface IDcatDistribution extends IJsonLdNodeObject {
+export interface IDcatDistribution {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
@@ -29,6 +28,11 @@ export interface IDcatDistribution extends IJsonLdNodeObject {
 	 * The type identifier, typically "Distribution".
 	 */
 	"@type": typeof DcatClasses.Distribution;
+
+	/**
+	 * The unique identifier for the distribution object.
+	 */
+	"@id"?: string;
 
 	/**
 	 * A name given to the distribution.

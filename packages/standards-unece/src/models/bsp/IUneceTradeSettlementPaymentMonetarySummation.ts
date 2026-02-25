@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUnecePaymentBalanceOut } from "./IUnecePaymentBalanceOut.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of monetary amount totals specified for a trade settlement payment.
  * @see https://vocabulary.uncefact.org/TradeSettlementPaymentMonetarySummation
  */
-export interface IUneceTradeSettlementPaymentMonetarySummation extends IJsonLdNodeObject {
+export interface IUneceTradeSettlementPaymentMonetarySummation {
 	/**
 	 * JSON-LD Context.
 	 */

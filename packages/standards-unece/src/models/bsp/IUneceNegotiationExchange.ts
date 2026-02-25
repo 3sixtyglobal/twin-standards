@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceIssue } from "./IUneceIssue.js";
 import type { IUneceNegotiationContext } from "./IUneceNegotiationContext.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An offer exchanged between parties for an electronic negotiation.
  * @see https://vocabulary.uncefact.org/NegotiationExchange
  */
-export interface IUneceNegotiationExchange extends IJsonLdNodeObject {
+export interface IUneceNegotiationExchange {
 	/**
 	 * JSON-LD Context.
 	 */

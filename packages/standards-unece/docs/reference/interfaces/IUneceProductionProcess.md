@@ -6,14 +6,6 @@ A naturally occurring or designed sequence of operations or events in order to p
 
 https://vocabulary.uncefact.org/ProductionProcess
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -21,10 +13,6 @@ https://vocabulary.uncefact.org/ProductionProcess
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

@@ -6,14 +6,6 @@ A structure providing XHE (Exchange Header Envelope) information.
 
 https://vocabulary.uncefact.org/Envelope
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -21,10 +13,6 @@ https://vocabulary.uncefact.org/Envelope
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceXHEParameterTypeCodeList } from "../typeCodes/uneceXHEParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A feature that is fixed for an XHE (Exchange Header Envelope) but may be different in other cases.
  * @see https://vocabulary.uncefact.org/XHEParameter
  */
-export interface IUneceXHEParameter extends IJsonLdNodeObject {
+export interface IUneceXHEParameter {
 	/**
 	 * JSON-LD Context.
 	 */

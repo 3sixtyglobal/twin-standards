@@ -6,14 +6,6 @@ A set of geographical coordinates of a specific point such as the longitude, lat
 
 https://vocabulary.uncefact.org/GeographicalCoordinate
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -21,10 +13,6 @@ https://vocabulary.uncefact.org/GeographicalCoordinate
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUnecePolicy } from "./IUnecePolicy.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A statement that user needs of the present are met without compromising the needs of future generations.
  * @see https://vocabulary.uncefact.org/Assertion
  */
-export interface IUneceAssertion extends IJsonLdNodeObject {
+export interface IUneceAssertion {
 	/**
 	 * JSON-LD Context.
 	 */

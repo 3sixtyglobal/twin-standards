@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { UneceVoucherTypeCodeList } from "../typeCodes/uneceVoucherTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * tour, a trip or a meal in a restaurant.
  * @see https://vocabulary.uncefact.org/Voucher
  */
-export interface IUneceVoucher extends IJsonLdNodeObject {
+export interface IUneceVoucher {
 	/**
 	 * JSON-LD Context.
 	 */

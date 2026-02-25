@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Trade terms and conditions by which a discount is or can be applied to a payable amount.
  * @see https://vocabulary.uncefact.org/PaymentDiscountTerms
  */
-export interface IUnecePaymentDiscountTerms extends IJsonLdNodeObject {
+export interface IUnecePaymentDiscountTerms {
 	/**
 	 * JSON-LD Context.
 	 */

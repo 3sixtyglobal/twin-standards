@@ -6,14 +6,6 @@ A distinctive feature of a material contained within physical goods.
 
 https://vocabulary.uncefact.org/GoodsCharacteristic
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -21,10 +13,6 @@ https://vocabulary.uncefact.org/GoodsCharacteristic
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

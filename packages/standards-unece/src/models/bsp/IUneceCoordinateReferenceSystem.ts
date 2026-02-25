@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDelimitedPeriod } from "./IUneceDelimitedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * in which coordinates of points are recorded in a Coordinate System (CS) (reference ISO 19111).
  * @see https://vocabulary.uncefact.org/CoordinateReferenceSystem
  */
-export interface IUneceCoordinateReferenceSystem extends IJsonLdNodeObject {
+export interface IUneceCoordinateReferenceSystem {
 	/**
 	 * JSON-LD Context.
 	 */

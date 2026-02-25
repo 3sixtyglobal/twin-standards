@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
@@ -27,7 +26,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A reference to a physical location or place.
  * @see https://vocabulary.uncefact.org/Location
  */
-export interface IUneceLocation extends IJsonLdNodeObject {
+export interface IUneceLocation {
 	/**
 	 * JSON-LD Context.
 	 */

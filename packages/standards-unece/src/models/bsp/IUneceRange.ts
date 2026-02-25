@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceRangeTypeCodeList } from "../typeCodes/uneceRangeTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A row, line or series, commonly used to express the difference between lowest and highest values.
  * @see https://vocabulary.uncefact.org/Range
  */
-export interface IUneceRange extends IJsonLdNodeObject {
+export interface IUneceRange {
 	/**
 	 * JSON-LD Context.
 	 */

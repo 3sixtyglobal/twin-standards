@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceConsignment } from "./IUneceConsignment.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDeliveryInstructions } from "./IUneceDeliveryInstructions.js";
@@ -23,7 +22,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Shipping arrangements and movement of products and or services including despatch and delivery at a header level.
  * @see https://vocabulary.uncefact.org/HeaderTradeDelivery
  */
-export interface IUneceHeaderTradeDelivery extends IJsonLdNodeObject {
+export interface IUneceHeaderTradeDelivery {
 	/**
 	 * JSON-LD Context.
 	 */

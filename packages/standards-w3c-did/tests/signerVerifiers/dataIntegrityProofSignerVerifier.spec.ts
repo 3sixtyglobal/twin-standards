@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import { Converter, JsonHelper } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import { JsonLdHelper } from "@twin.org/data-json-ld";
 import { DidContexts } from "../../src/models/didContexts.js";
 import { DidTypes } from "../../src/models/didTypes.js";
 import type { IDataIntegrityProof } from "../../src/models/IDataIntegrityProof.js";
@@ -19,7 +19,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 	});
 
 	test("Can create hash", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -55,7 +55,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		};
 
 		const hash = await new DataIntegrityProofSignerVerifier().createHash(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof
 		);
 
@@ -65,7 +65,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 	});
 
 	test("Can create and verify a proof", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -98,7 +98,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		const jwk = MultikeyHelper.toJwk(multikey);
 
 		const signedProof = await new DataIntegrityProofSignerVerifier().createProof(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof as IDataIntegrityProof,
 			jwk
 		);
@@ -120,7 +120,7 @@ describe("DataIntegrityProofSignerVerifier", () => {
 		});
 
 		const verified = await new DataIntegrityProofSignerVerifier().verifyProof(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			signedProof as IDataIntegrityProof,
 			jwk
 		);

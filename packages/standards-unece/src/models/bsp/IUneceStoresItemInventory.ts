@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceStoresItemInventoryTypeCodeList } from "../typeCodes/uneceStoresItemInventoryTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A stores item, such as for onboard use during a journey.
  * @see https://vocabulary.uncefact.org/StoresItemInventory
  */
-export interface IUneceStoresItemInventory extends IJsonLdNodeObject {
+export interface IUneceStoresItemInventory {
 	/**
 	 * JSON-LD Context.
 	 */

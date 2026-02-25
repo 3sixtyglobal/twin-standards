@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDocumentContextParameter } from "./IUneceDocumentContextParameter.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The scenario or setting of an exchanged document, such as its business process application context.
  * @see https://vocabulary.uncefact.org/ExchangedDocumentContext
  */
-export interface IUneceExchangedDocumentContext extends IJsonLdNodeObject {
+export interface IUneceExchangedDocumentContext {
 	/**
 	 * JSON-LD Context.
 	 */

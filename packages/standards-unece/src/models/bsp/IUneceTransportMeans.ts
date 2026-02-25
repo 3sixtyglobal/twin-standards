@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceTransportMeansTypeCodeList } from "../lists/uneceTransportMeansTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Reference to a device or method used to convey people, goods, or other objects from place to place.
  * @see https://vocabulary.uncefact.org/TransportMeans
  */
-export interface IUneceTransportMeans extends IJsonLdNodeObject {
+export interface IUneceTransportMeans {
 	/**
 	 * JSON-LD Context.
 	 */

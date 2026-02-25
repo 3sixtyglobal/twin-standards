@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalObjectCharacteristic } from "./IUneceGeographicalObjectCharacteristic.js";
 import type { IUneceGeographicalPoint } from "./IUneceGeographicalPoint.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A planar surface specified as one completely round flat shape in the mathematical sense.
  * @see https://vocabulary.uncefact.org/Circle
  */
-export interface IUneceCircle extends IJsonLdNodeObject {
+export interface IUneceCircle {
 	/**
 	 * JSON-LD Context.
 	 */

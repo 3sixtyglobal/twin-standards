@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceLogisticsLabel } from "./IUneceLogisticsLabel.js";
 import type { UneceAutomaticDataCaptureMethodCodeList } from "../lists/uneceAutomaticDataCaptureMethodCodeList.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An inscription, stamp or label on packaging, such as to indicate date, ownership, quality, manufacture or origin.
  * @see https://vocabulary.uncefact.org/Marking
  */
-export interface IUneceMarking extends IJsonLdNodeObject {
+export interface IUneceMarking {
 	/**
 	 * JSON-LD Context.
 	 */

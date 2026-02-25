@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceMachine } from "./IUneceMachine.js";
 import type { IUneceProductionDevice } from "./IUneceProductionDevice.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any text or pattern put on the surface of a product using a specific material such as dye.
  * @see https://vocabulary.uncefact.org/Print
  */
-export interface IUnecePrint extends IJsonLdNodeObject {
+export interface IUnecePrint {
 	/**
 	 * JSON-LD Context.
 	 */

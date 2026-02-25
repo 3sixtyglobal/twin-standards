@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { EpcisContextType } from "./epcisContextType.js";
 import type { EpcisTypes } from "./epcisTypes.js";
 import type { IEpcisQueryDocumentBody } from "./IEpcisQueryDocumentBody.js";
@@ -9,7 +8,7 @@ import type { IEpcisQueryDocumentBody } from "./IEpcisQueryDocumentBody.js";
  * EPCIS 2.0 QueryDocument used to submit queries to an EPCIS repository.
  * @see https://ref.gs1.org/epcis/EPCISQueryDocument
  */
-export interface IEpcisQueryDocument extends IJsonLdNodeObject {
+export interface IEpcisQueryDocument {
 	/**
 	 * The @context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceObservationObjectiveParameter } from "./IUneceObservationObjectiveParameter.js";
 import type { IUneceSpecifiedMethod } from "./IUneceSpecifiedMethod.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A property of a collection of diagnostic data, visual or technical data, obtained by a performed inspection.
  * @see https://vocabulary.uncefact.org/InspectionResultCharacteristic
  */
-export interface IUneceInspectionResultCharacteristic extends IJsonLdNodeObject {
+export interface IUneceInspectionResultCharacteristic {
 	/**
 	 * JSON-LD Context.
 	 */

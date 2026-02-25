@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The particular state of something, affected by use, that should be respected.
  * @see https://vocabulary.uncefact.org/UsageCondition
  */
-export interface IUneceUsageCondition extends IJsonLdNodeObject {
+export interface IUneceUsageCondition {
 	/**
 	 * JSON-LD Context.
 	 */

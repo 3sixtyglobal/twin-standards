@@ -8,14 +8,6 @@ between DCAT Resources.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Relationship
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -23,10 +15,6 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Relationship
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 
@@ -36,15 +24,11 @@ The JSON-LD context for the resource.
 
 The type identifier, typically "Relationship".
 
-#### Overrides
-
-`IJsonLdNodeObject.@type`
-
 ***
 
 ### dcterms:relation?
 
-> `optional` **dcterms:relation**: `string`
+> `optional` **dcterms:relation**: `string` \| `IJsonLdNodeObject`
 
 The link to a related resource.
 

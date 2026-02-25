@@ -6,10 +6,6 @@ Base EPCIS 2.0 Event carrying shared fields across all event types.
 
 https://ref.gs1.org/epcis/Event
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IEpcisAggregationEvent`](IEpcisAggregationEvent.md)
@@ -18,10 +14,6 @@ https://ref.gs1.org/epcis/Event
 - [`IEpcisTransactionEvent`](IEpcisTransactionEvent.md)
 - [`IEpcisTransformationEvent`](IEpcisTransformationEvent.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -29,10 +21,6 @@ https://ref.gs1.org/epcis/Event
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
 JSON-LD @context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

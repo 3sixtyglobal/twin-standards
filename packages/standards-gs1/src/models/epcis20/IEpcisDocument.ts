@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { EpcisContextType } from "./epcisContextType.js";
 import type { EpcisEvents } from "./epcisEvents.js";
 import type { EpcisTypes } from "./epcisTypes.js";
@@ -10,7 +9,7 @@ import type { IEpcisHeader } from "./IEpcisHeader.js";
  * EPCIS 2.0 capture document containing header metadata and an event list.
  * @see https://ref.gs1.org/epcis/EPCISDocument
  */
-export interface IEpcisDocument extends IJsonLdNodeObject {
+export interface IEpcisDocument {
 	/**
 	 * The @context.
 	 */

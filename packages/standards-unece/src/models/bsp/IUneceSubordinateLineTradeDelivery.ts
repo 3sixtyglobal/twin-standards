@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
 import type { IUneceSupplyChainPackaging } from "./IUneceSupplyChainPackaging.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Supply chain shipping arrangements and movement of products and or services including despatch and delivery.
  * @see https://vocabulary.uncefact.org/SubordinateLineTradeDelivery
  */
-export interface IUneceSubordinateLineTradeDelivery extends IJsonLdNodeObject {
+export interface IUneceSubordinateLineTradeDelivery {
 	/**
 	 * JSON-LD Context.
 	 */

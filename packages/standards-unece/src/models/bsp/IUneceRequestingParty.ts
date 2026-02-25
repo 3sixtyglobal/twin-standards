@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCreditorFinancialAccount } from "./IUneceCreditorFinancialAccount.js";
 import type { IUneceFinancingFinancialAccount } from "./IUneceFinancingFinancialAccount.js";
 import type { IUneceProprietaryIdentity } from "./IUneceProprietaryIdentity.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual, a group, or a body having a role as a requestor.
  * @see https://vocabulary.uncefact.org/RequestingParty
  */
-export interface IUneceRequestingParty extends IJsonLdNodeObject {
+export interface IUneceRequestingParty {
 	/**
 	 * JSON-LD Context.
 	 */

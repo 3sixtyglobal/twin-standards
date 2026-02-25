@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCropProduceBatch } from "./IUneceCropProduceBatch.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceProduceTypeCodeList } from "../typeCodes/uneceProduceTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Agricultural plants or plant products grown and harvested, such as grain, fruit, vegetables, silage.
  * @see https://vocabulary.uncefact.org/Produce
  */
-export interface IUneceProduce extends IJsonLdNodeObject {
+export interface IUneceProduce {
 	/**
 	 * JSON-LD Context.
 	 */

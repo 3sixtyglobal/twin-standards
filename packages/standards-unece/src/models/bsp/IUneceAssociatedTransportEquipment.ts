@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceConsignment } from "./IUneceConsignment.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDangerousGoods } from "./IUneceDangerousGoods.js";
@@ -22,7 +21,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * container placed on a rail wagon for transportation.
  * @see https://vocabulary.uncefact.org/AssociatedTransportEquipment
  */
-export interface IUneceAssociatedTransportEquipment extends IJsonLdNodeObject {
+export interface IUneceAssociatedTransportEquipment {
 	/**
 	 * JSON-LD Context.
 	 */

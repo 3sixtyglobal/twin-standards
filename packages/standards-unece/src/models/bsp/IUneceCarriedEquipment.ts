@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedNote } from "./IUneceSpecifiedNote.js";
 import type { UneceCarriedEquipmentTypeCodeList } from "../typeCodes/uneceCarriedEquipmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A tool or device carried by a guest for an activity.
  * @see https://vocabulary.uncefact.org/CarriedEquipment
  */
-export interface IUneceCarriedEquipment extends IJsonLdNodeObject {
+export interface IUneceCarriedEquipment {
 	/**
 	 * JSON-LD Context.
 	 */

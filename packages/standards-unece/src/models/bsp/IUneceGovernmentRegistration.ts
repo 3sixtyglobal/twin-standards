@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceGovernmentRegistrationTypeCodeList } from "../typeCodes/uneceGovernmentRegistrationTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The recording of items or details for a governmental purpose.
  * @see https://vocabulary.uncefact.org/GovernmentRegistration
  */
-export interface IUneceGovernmentRegistration extends IJsonLdNodeObject {
+export interface IUneceGovernmentRegistration {
 	/**
 	 * JSON-LD Context.
 	 */

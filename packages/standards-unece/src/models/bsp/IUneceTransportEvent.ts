@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalFeature } from "./IUneceGeographicalFeature.js";
 import type { IUneceIOTDevice } from "./IUneceIOTDevice.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -25,7 +24,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A referenced significant occurrence or happening during transport.
  * @see https://vocabulary.uncefact.org/TransportEvent
  */
-export interface IUneceTransportEvent extends IJsonLdNodeObject {
+export interface IUneceTransportEvent {
 	/**
 	 * JSON-LD Context.
 	 */

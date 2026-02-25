@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAppliedChemicalTreatment } from "./IUneceAppliedChemicalTreatment.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
@@ -32,7 +31,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A set of formal steps to satisfy a cross-border regulation, law or convention.
  * @see https://vocabulary.uncefact.org/RegulatoryProcedure
  */
-export interface IUneceRegulatoryProcedure extends IJsonLdNodeObject {
+export interface IUneceRegulatoryProcedure {
 	/**
 	 * JSON-LD Context.
 	 */

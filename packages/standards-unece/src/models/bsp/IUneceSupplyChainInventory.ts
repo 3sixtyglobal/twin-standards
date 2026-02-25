@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -20,7 +19,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Supply chain goods and materials held in stock.
  * @see https://vocabulary.uncefact.org/SupplyChainInventory
  */
-export interface IUneceSupplyChainInventory extends IJsonLdNodeObject {
+export interface IUneceSupplyChainInventory {
 	/**
 	 * JSON-LD Context.
 	 */

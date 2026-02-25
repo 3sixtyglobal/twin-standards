@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { IUneceGeographicalFeature } from "./IUneceGeographicalFeature.js";
 import type { IUneceInspectionEvent } from "./IUneceInspectionEvent.js";
@@ -21,7 +20,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A logistics related physical location or place.
  * @see https://vocabulary.uncefact.org/LogisticsLocation
  */
-export interface IUneceLogisticsLocation extends IJsonLdNodeObject {
+export interface IUneceLogisticsLocation {
 	/**
 	 * JSON-LD Context.
 	 */

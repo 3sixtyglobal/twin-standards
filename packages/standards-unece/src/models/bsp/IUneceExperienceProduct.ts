@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceExperienceEvent } from "./IUneceExperienceEvent.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceRequirement } from "./IUneceRequirement.js";
@@ -21,7 +20,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * activity experience.
  * @see https://vocabulary.uncefact.org/ExperienceProduct
  */
-export interface IUneceExperienceProduct extends IJsonLdNodeObject {
+export interface IUneceExperienceProduct {
 	/**
 	 * JSON-LD Context.
 	 */

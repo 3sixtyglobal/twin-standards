@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceRecordedStatus } from "./IUneceRecordedStatus.js";
 import type { IUneceWorkItemDimension } from "./IUneceWorkItemDimension.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The quantity analysis for this work item.
  * @see https://vocabulary.uncefact.org/QuantityAnalysis
  */
-export interface IUneceQuantityAnalysis extends IJsonLdNodeObject {
+export interface IUneceQuantityAnalysis {
 	/**
 	 * JSON-LD Context.
 	 */

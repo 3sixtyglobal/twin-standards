@@ -3,17 +3,9 @@
 Interface for ODRL Parties.
 https://www.w3.org/TR/odrl-model/#party
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IOdrlPartyCollection`](IOdrlPartyCollection.md)
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
 
 ## Properties
 
@@ -33,10 +25,6 @@ Must be an IRI.
 The type of the party.
 Can be used to specify additional type information (e.g., "Party",
 "vcard:Organization", "vcard:Individual").
-
-#### Overrides
-
-`IJsonLdNodeObject.@type`
 
 ***
 

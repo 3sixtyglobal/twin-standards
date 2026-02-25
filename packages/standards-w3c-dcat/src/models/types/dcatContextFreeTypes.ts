@@ -1,7 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 
-import type { DcatContextType } from "../dcatContextType.js";
+import type { JsonLdObjectWithOptionalContext } from "@twin.org/data-json-ld";
 import type { IDcatCatalog } from "../IDcatCatalog.js";
 import type { IDcatCatalogRecord } from "../IDcatCatalogRecord.js";
 import type { IDcatDataService } from "../IDcatDataService.js";
@@ -16,34 +16,24 @@ import type { IDcatDistribution } from "../IDcatDistribution.js";
 /**
  * Dataset omitting LD Context
  */
-export type DatasetOptionalContext = Omit<IDcatDataset, "@context"> & {
-	"@context"?: DcatContextType;
-};
+export type DatasetOptionalContext = JsonLdObjectWithOptionalContext<IDcatDataset>;
 
 /**
  * DataService omitting LD Context
  */
-export type DataServiceOptionalContext = Omit<IDcatDataService, "@context"> & {
-	"@context"?: DcatContextType;
-};
+export type DataServiceOptionalContext = JsonLdObjectWithOptionalContext<IDcatDataService>;
 
 /**
  * Catalog omitting LD Context
  */
-export type CatalogOptionalContext = Omit<IDcatCatalog, "@context"> & {
-	"@context"?: DcatContextType;
-};
+export type CatalogOptionalContext = JsonLdObjectWithOptionalContext<IDcatCatalog>;
 
 /**
  * Record omitting LD Context
  */
-export type CatalogRecordOptionalContext = Omit<IDcatCatalogRecord, "@context"> & {
-	"@context"?: DcatContextType;
-};
+export type CatalogRecordOptionalContext = JsonLdObjectWithOptionalContext<IDcatCatalogRecord>;
 
 /**
  * Distribution omitting LD Context
  */
-export type DistributionOptionalContext = Omit<IDcatDistribution, "@context"> & {
-	"@context"?: DcatContextType;
-};
+export type DistributionOptionalContext = JsonLdObjectWithOptionalContext<IDcatDistribution>;

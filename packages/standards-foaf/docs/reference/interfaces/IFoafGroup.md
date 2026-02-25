@@ -10,10 +10,6 @@ http://xmlns.com/foaf/0.1/
 
 - [`IFoafAgent`](IFoafAgent.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### age?
@@ -109,6 +105,18 @@ http://xmlns.com/foaf/spec/#term_topic_interest
 #### Inherited from
 
 [`IFoafAgent`](IFoafAgent.md).[`topic_interest`](IFoafAgent.md#topic_interest)
+
+***
+
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the FOAF object.
+
+#### Inherited from
+
+[`IFoafAgent`](IFoafAgent.md).[`@id`](IFoafAgent.md#id)
 
 ***
 

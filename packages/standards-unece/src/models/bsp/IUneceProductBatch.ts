@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceAgriculturalCertificate } from "./IUneceAgriculturalCertificate.js";
 import type { IUneceAgriculturalCharacteristic } from "./IUneceAgriculturalCharacteristic.js";
@@ -38,7 +37,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A group of products considered or dealt with together.
  * @see https://vocabulary.uncefact.org/ProductBatch
  */
-export interface IUneceProductBatch extends IJsonLdNodeObject {
+export interface IUneceProductBatch {
 	/**
 	 * JSON-LD Context.
 	 */

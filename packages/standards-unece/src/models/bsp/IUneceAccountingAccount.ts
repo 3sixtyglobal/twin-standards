@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceAccountingAccountTypeCodeList } from "../lists/uneceAccountingAccountTypeCodeList.js";
 import type { UneceAccountingAmountTypeCodeList } from "../lists/uneceAccountingAmountTypeCodeList.js";
 import type { UneceAccountingDocumentCodeList } from "../lists/uneceAccountingDocumentCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A specific trade account for recording debits and credits to general accounting, cost accounting or budget accounting.
  * @see https://vocabulary.uncefact.org/AccountingAccount
  */
-export interface IUneceAccountingAccount extends IJsonLdNodeObject {
+export interface IUneceAccountingAccount {
 	/**
 	 * JSON-LD Context.
 	 */

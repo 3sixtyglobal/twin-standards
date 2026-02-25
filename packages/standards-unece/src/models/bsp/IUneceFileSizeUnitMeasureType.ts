@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceFileSizeUnitMeasureCode } from "../lists/uneceFileSizeUnitMeasureCode.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A numeric value determined by measuring a file size.
  * @see https://vocabulary.uncefact.org/FileSizeUnitMeasureType
  */
-export interface IUneceFileSizeUnitMeasureType extends IJsonLdNodeObject {
+export interface IUneceFileSizeUnitMeasureType {
 	/**
 	 * JSON-LD Context.
 	 */

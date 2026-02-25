@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceSupplyChainEvent } from "./IUneceSupplyChainEvent.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The information relevant to a condition or a position related to logistics.
  * @see https://vocabulary.uncefact.org/LogisticsStatus
  */
-export interface IUneceLogisticsStatus extends IJsonLdNodeObject {
+export interface IUneceLogisticsStatus {
 	/**
 	 * JSON-LD Context.
 	 */

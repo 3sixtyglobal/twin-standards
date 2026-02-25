@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCertificate } from "./IUneceProductCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
 import type { IUneceTransportEvent } from "./IUneceTransportEvent.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An unused and rejected as unwanted component of transport material resulting from transportation.
  * @see https://vocabulary.uncefact.org/TransportationWasteMaterialComponent
  */
-export interface IUneceTransportationWasteMaterialComponent extends IJsonLdNodeObject {
+export interface IUneceTransportationWasteMaterialComponent {
 	/**
 	 * JSON-LD Context.
 	 */

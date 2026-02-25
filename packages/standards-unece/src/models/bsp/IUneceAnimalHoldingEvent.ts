@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTTLocation } from "./IUneceTTLocation.js";
 import type { UneceAnimalHoldingEventTypeCodeList } from "../typeCodes/uneceAnimalHoldingEventTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The keeping of an animal in a particular location.
  * @see https://vocabulary.uncefact.org/AnimalHoldingEvent
  */
-export interface IUneceAnimalHoldingEvent extends IJsonLdNodeObject {
+export interface IUneceAnimalHoldingEvent {
 	/**
 	 * JSON-LD Context.
 	 */

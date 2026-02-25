@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceLaboratoryObservationContact } from "./IUneceLaboratoryObservationContact.js";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual, group, or body having a role in laboratory observations.
  * @see https://vocabulary.uncefact.org/LaboratoryObservationParty
  */
-export interface IUneceLaboratoryObservationParty extends IJsonLdNodeObject {
+export interface IUneceLaboratoryObservationParty {
 	/**
 	 * JSON-LD Context.
 	 */

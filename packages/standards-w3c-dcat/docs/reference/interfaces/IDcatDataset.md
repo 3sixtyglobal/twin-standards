@@ -17,10 +17,6 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset
 - [`IDcatCatalog`](IDcatCatalog.md)
 - [`IDcatDatasetSeries`](IDcatDatasetSeries.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @type
@@ -144,6 +140,18 @@ The JSON-LD context for the resource.
 
 ***
 
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the resource.
+
+#### Inherited from
+
+[`IDcatResource`](IDcatResource.md).[`@id`](IDcatResource.md#id)
+
+***
+
 ### dcterms:title?
 
 > `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
@@ -242,7 +250,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher?
 
-> `optional` **dcterms:publisher**: `string` \| `IFoafAgent`
+> `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for making the resource available.
 
@@ -258,7 +266,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator?
 
-> `optional` **dcterms:creator**: `IFoafAgent`
+> `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for producing the resource.
 

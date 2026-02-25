@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceEquipmentTypeCodeList } from "../typeCodes/uneceEquipmentTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Hardware or software typically marketed by a company other than the original manufacturer.
  * @see https://vocabulary.uncefact.org/Equipment
  */
-export interface IUneceEquipment extends IJsonLdNodeObject {
+export interface IUneceEquipment {
 	/**
 	 * JSON-LD Context.
 	 */

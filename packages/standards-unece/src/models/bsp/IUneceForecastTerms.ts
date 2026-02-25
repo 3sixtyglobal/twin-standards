@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCommitmentLevelCodeList } from "../lists/uneceCommitmentLevelCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A set of terms and conditions by which a supply chain forecast has been or will be made.
  * @see https://vocabulary.uncefact.org/ForecastTerms
  */
-export interface IUneceForecastTerms extends IJsonLdNodeObject {
+export interface IUneceForecastTerms {
 	/**
 	 * JSON-LD Context.
 	 */

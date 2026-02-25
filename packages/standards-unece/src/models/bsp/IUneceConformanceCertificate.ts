@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCertificateTypeCodeList } from "../lists/uneceCertificateTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The label delivered by a trusted third party to assess the compliance of a product or a service with an agreed standard.
  * @see https://vocabulary.uncefact.org/ConformanceCertificate
  */
-export interface IUneceConformanceCertificate extends IJsonLdNodeObject {
+export interface IUneceConformanceCertificate {
 	/**
 	 * JSON-LD Context.
 	 */

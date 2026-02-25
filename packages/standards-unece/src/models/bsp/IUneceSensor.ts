@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCalibratedMeasurement } from "./IUneceCalibratedMeasurement.js";
 import type { IUneceControlSettingParameter } from "./IUneceControlSettingParameter.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * measurements.
  * @see https://vocabulary.uncefact.org/Sensor
  */
-export interface IUneceSensor extends IJsonLdNodeObject {
+export interface IUneceSensor {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceService } from "./IUneceService.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual, a group, or a body having a role related to a location.
  * @see https://vocabulary.uncefact.org/LocationParty
  */
-export interface IUneceLocationParty extends IJsonLdNodeObject {
+export interface IUneceLocationParty {
 	/**
 	 * JSON-LD Context.
 	 */

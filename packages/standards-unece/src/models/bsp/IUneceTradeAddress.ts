@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { UneceAddressTypeCodeList } from "../lists/uneceAddressTypeCodeList.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The location at which a particular trade related organization or person may be found or reached.
  * @see https://vocabulary.uncefact.org/TradeAddress
  */
-export interface IUneceTradeAddress extends IJsonLdNodeObject {
+export interface IUneceTradeAddress {
 	/**
 	 * JSON-LD Context.
 	 */

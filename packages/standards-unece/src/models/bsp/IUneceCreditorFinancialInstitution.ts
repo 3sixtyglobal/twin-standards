@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceBranchFinancialInstitution } from "./IUneceBranchFinancialInstitution.js";
 import type { IUneceFinancialInstitutionAddress } from "./IUneceFinancialInstitutionAddress.js";
 import type { IUneceProprietaryIdentity } from "./IUneceProprietaryIdentity.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A bank, building society, credit union, stock brokerage, or similar business of the party that receives money.
  * @see https://vocabulary.uncefact.org/CreditorFinancialInstitution
  */
-export interface IUneceCreditorFinancialInstitution extends IJsonLdNodeObject {
+export interface IUneceCreditorFinancialInstitution {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceSegmentTypeCodeList } from "../typeCodes/uneceSegmentTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The parts into which a segment is or may be divided.
  * @see https://vocabulary.uncefact.org/Segment
  */
-export interface IUneceSegment extends IJsonLdNodeObject {
+export interface IUneceSegment {
 	/**
 	 * JSON-LD Context.
 	 */

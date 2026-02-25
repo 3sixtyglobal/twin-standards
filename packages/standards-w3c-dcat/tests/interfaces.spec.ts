@@ -12,9 +12,9 @@ import {
 	type IDcatCatalog,
 	type IDcatCatalogRecord,
 	type IDcatDataService,
+	type IDcatDataset,
 	type IDcatDatasetSeries,
 	type IDcatDistribution,
-	type IDcatDataset,
 	type IDcatRelationship,
 	type IDcatRole
 } from "../src/index.js";
@@ -127,13 +127,13 @@ describe("DCAT Interfaces and Schemas", () => {
 			"dcat:distribution": [
 				{
 					"@id": "http://example.org/dataset/energy-stats/csv",
-					"@type": "Distribution",
+					"@type": "dcat:Distribution",
 					"dcterms:format": "text/csv",
 					"dcat:accessURL": "http://data.example.org/energy-stats.csv"
 				},
 				{
 					"@id": "http://example.org/dataset/energy-stats/json",
-					"@type": "Distribution",
+					"@type": "dcat:Distribution",
 					"dcterms:format": "application/json",
 					"dcat:accessURL": "http://data.example.org/energy-stats.json"
 				}
@@ -189,27 +189,27 @@ describe("DCAT Interfaces and Schemas", () => {
 			"dcat:dataset": [
 				{
 					"@id": "http://example.org/dataset/energy-stats",
-					"@type": "Dataset",
+					"@type": "dcat:Dataset",
 					"dcterms:title": "National Energy Statistics 2025",
 					"dcterms:description":
 						"Annual dataset of national energy production and consumption figures.",
 					"dcat:landingPage": "http://data.example.org/energy-stats",
 					"dcat:distribution": {
 						"@id": "http://example.org/dataset/energy-stats/csv",
-						"@type": "Distribution",
+						"@type": "dcat:Distribution",
 						"dcterms:format": "text/csv",
 						"dcat:accessURL": "http://data.example.org/energy-stats.csv"
 					}
 				},
 				{
 					"@id": "http://example.org/dataset/renewables",
-					"@type": "Dataset",
+					"@type": "dcat:Dataset",
 					"dcterms:title": "Renewable Energy Installations",
 					"dcterms:description": "Dataset of renewable energy installations across the country.",
 					"dcat:landingPage": "http://data.example.org/renewables",
 					"dcat:distribution": {
 						"@id": "http://example.org/dataset/renewables/json",
-						"@type": "Distribution",
+						"@type": "dcat:Distribution",
 						"dcterms:format": "application/json",
 						"dcat:accessURL": "http://data.example.org/renewables.json"
 					}
@@ -490,7 +490,7 @@ describe("IDcatRelationship Interface", () => {
 			dcterms: DublinCoreContexts.NamespaceTerms
 		},
 		"@type": "dcat:Relationship",
-		"dcat:relation": {
+		"dcterms:relation": {
 			"@id": "http://example.org/publication/energy-report-2025",
 			"@type": "foaf:Document",
 			"dcterms:title": "Annual Energy Report 2025"

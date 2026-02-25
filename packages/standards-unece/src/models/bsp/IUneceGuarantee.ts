@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDelimitedPeriod } from "./IUneceDelimitedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An official promise or assurance to fulfil a financial obligation.
  * @see https://vocabulary.uncefact.org/Guarantee
  */
-export interface IUneceGuarantee extends IJsonLdNodeObject {
+export interface IUneceGuarantee {
 	/**
 	 * JSON-LD Context.
 	 */

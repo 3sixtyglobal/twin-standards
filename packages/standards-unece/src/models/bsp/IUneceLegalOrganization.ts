@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLegalRegistration } from "./IUneceLegalRegistration.js";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
 import type { UneceLegalOrganizationTypeCodeList } from "../typeCodes/uneceLegalOrganizationTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
  * @see https://vocabulary.uncefact.org/LegalOrganization
  */
-export interface IUneceLegalOrganization extends IJsonLdNodeObject {
+export interface IUneceLegalOrganization {
 	/**
 	 * JSON-LD Context.
 	 */

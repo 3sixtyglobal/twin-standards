@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IEpcisAttribute } from "./IEpcisAttribute.js";
 
 /**
@@ -8,7 +7,7 @@ import type { IEpcisAttribute } from "./IEpcisAttribute.js";
  * attributes and optional children.
  * @see https://ref.gs1.org/epcis/VocabularyElement
  */
-export interface IEpcisVocabularyElement extends IJsonLdNodeObject {
+export interface IEpcisVocabularyElement {
 	/**
 	 * Element id.
 	 */

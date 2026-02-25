@@ -6,7 +6,7 @@ import type { IJwk } from "@twin.org/web";
 /**
  * Interface describing a DID document verification method.
  */
-export interface IDidDocumentVerificationMethod extends IJsonLdNodeObject {
+export interface IDidDocumentVerificationMethod {
 	/**
 	 * The id of the entry.
 	 */

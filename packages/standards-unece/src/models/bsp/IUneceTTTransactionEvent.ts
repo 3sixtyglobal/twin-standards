@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceError } from "./IUneceError.js";
 import type { IUneceEventElement } from "./IUneceEventElement.js";
 import type { IUneceSpecifiedCertification } from "./IUneceSpecifiedCertification.js";
@@ -17,7 +16,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * and Trace (TT) trade transactions.
  * @see https://vocabulary.uncefact.org/TTTransactionEvent
  */
-export interface IUneceTTTransactionEvent extends IJsonLdNodeObject {
+export interface IUneceTTTransactionEvent {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
@@ -65,7 +64,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any tangible output or service produced by human or mechanical effort or by a natural process for trade purposes.
  * @see https://vocabulary.uncefact.org/TradeProduct
  */
-export interface IUneceTradeProduct extends IJsonLdNodeObject {
+export interface IUneceTradeProduct {
 	/**
 	 * JSON-LD Context.
 	 */

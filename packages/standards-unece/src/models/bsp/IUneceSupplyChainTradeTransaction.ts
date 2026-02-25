@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDeliverySchedule } from "./IUneceDeliverySchedule.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceDocumentLineDocument } from "./IUneceDocumentLineDocument.js";
@@ -26,7 +25,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A group of supply chain trade line items, trade agreement, trade delivery and trade settlement details.
  * @see https://vocabulary.uncefact.org/SupplyChainTradeTransaction
  */
-export interface IUneceSupplyChainTradeTransaction extends IJsonLdNodeObject {
+export interface IUneceSupplyChainTradeTransaction {
 	/**
 	 * JSON-LD Context.
 	 */

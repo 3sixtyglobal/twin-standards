@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCircle } from "./IUneceCircle.js";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
 import type { IUneceCoordinateSourceSystem } from "./IUneceCoordinateSourceSystem.js";
@@ -22,7 +21,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * roads, rivers, forests and lakes.
  * @see https://vocabulary.uncefact.org/GeographicalFeature
  */
-export interface IUneceGeographicalFeature extends IJsonLdNodeObject {
+export interface IUneceGeographicalFeature {
 	/**
 	 * JSON-LD Context.
 	 */

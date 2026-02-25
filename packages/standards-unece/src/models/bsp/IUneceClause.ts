@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasurement } from "./IUneceMeasurement.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A distinct article or provision in a document, which requires compliance.
  * @see https://vocabulary.uncefact.org/Clause
  */
-export interface IUneceClause extends IJsonLdNodeObject {
+export interface IUneceClause {
 	/**
 	 * JSON-LD Context.
 	 */

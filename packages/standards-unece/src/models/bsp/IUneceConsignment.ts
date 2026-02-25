@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCargo } from "./IUneceCargo.js";
 import type { IUneceCargoInsurance } from "./IUneceCargoInsurance.js";
@@ -54,7 +53,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * transport contract.
  * @see https://vocabulary.uncefact.org/Consignment
  */
-export interface IUneceConsignment extends IJsonLdNodeObject {
+export interface IUneceConsignment {
 	/**
 	 * JSON-LD Context.
 	 */

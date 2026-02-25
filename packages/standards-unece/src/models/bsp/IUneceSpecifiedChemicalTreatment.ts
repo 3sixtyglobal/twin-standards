@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceProcessCertificate } from "./IUneceProcessCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * field, substrate, plant, animal product, material or product.
  * @see https://vocabulary.uncefact.org/SpecifiedChemicalTreatment
  */
-export interface IUneceSpecifiedChemicalTreatment extends IJsonLdNodeObject {
+export interface IUneceSpecifiedChemicalTreatment {
 	/**
 	 * JSON-LD Context.
 	 */

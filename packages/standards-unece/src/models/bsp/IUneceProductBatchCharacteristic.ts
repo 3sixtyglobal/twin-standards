@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A prominent attribute or aspect of a group of products considered or dealt with together.
  * @see https://vocabulary.uncefact.org/ProductBatchCharacteristic
  */
-export interface IUneceProductBatchCharacteristic extends IJsonLdNodeObject {
+export interface IUneceProductBatchCharacteristic {
 	/**
 	 * JSON-LD Context.
 	 */

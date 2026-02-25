@@ -14,10 +14,6 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
 
 - [`IActivityStreamsIntransitiveActivity`](IActivityStreamsIntransitiveActivity.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### actor?
@@ -581,6 +577,22 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 #### Inherited from
 
 [`IActivityStreamsIntransitiveActivity`](IActivityStreamsIntransitiveActivity.md).[`bcc`](IActivityStreamsIntransitiveActivity.md#bcc)
+
+***
+
+### mediaType?
+
+> `optional` **mediaType**: `string`
+
+MIME media type of the referenced resource.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
+
+#### Inherited from
+
+[`IActivityStreamsIntransitiveActivity`](IActivityStreamsIntransitiveActivity.md).[`mediaType`](IActivityStreamsIntransitiveActivity.md#mediatype)
 
 ***
 

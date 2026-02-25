@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAnimalBatch } from "./IUneceAnimalBatch.js";
 import type { IUneceAnimalCertificate } from "./IUneceAnimalCertificate.js";
 import type { IUneceAnimalHoldingEvent } from "./IUneceAnimalHoldingEvent.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A Track and Trace (TT) animal or a group of animals, such as those kept or raised on a farm, ranch.
  * @see https://vocabulary.uncefact.org/TTAnimal
  */
-export interface IUneceTTAnimal extends IJsonLdNodeObject {
+export interface IUneceTTAnimal {
 	/**
 	 * JSON-LD Context.
 	 */

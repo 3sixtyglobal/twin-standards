@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceSanitaryMeasureTypeCodeList } from "../typeCodes/uneceSanitaryMeasureTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Sanitary measures as reported for a WHO MDH (Maritime Declaration of Health).
  * @see https://vocabulary.uncefact.org/SanitaryMeasure
  */
-export interface IUneceSanitaryMeasure extends IJsonLdNodeObject {
+export interface IUneceSanitaryMeasure {
 	/**
 	 * JSON-LD Context.
 	 */

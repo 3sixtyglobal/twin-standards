@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCurrencyCodeList } from "../lists/uneceCurrencyCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A financial account used internally by a bank to manage the line of credit granted to financing requesting party.
  * @see https://vocabulary.uncefact.org/FinancingFinancialAccount
  */
-export interface IUneceFinancingFinancialAccount extends IJsonLdNodeObject {
+export interface IUneceFinancingFinancialAccount {
 	/**
 	 * JSON-LD Context.
 	 */

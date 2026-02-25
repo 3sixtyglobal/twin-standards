@@ -6,10 +6,6 @@ A Service offering
 
 - `IGaiaXEntity`
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -86,7 +82,7 @@ ODRL policy associated to the service offering
 
 ### aggregationOfResources?
 
-> `optional` **aggregationOfResources**: `string`[] \| [`IGaiaXDataResource`](IGaiaXDataResource.md)[] \| `IJsonLdNodeObject` & `object`
+> `optional` **aggregationOfResources**: `string`[] \| `IJsonLdNodeObject` & `object` \| [`IGaiaXDataResource`](IGaiaXDataResource.md)[]
 
 Resources aggregated
 It is supported different representations, inline,

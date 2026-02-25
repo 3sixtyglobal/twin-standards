@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceConvoy } from "./IUneceConvoy.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDisposalInstructions } from "./IUneceDisposalInstructions.js";
@@ -43,7 +42,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The conveyance (physical carriage) of goods or other objects used for logistics transport purposes.
  * @see https://vocabulary.uncefact.org/TransportMovement
  */
-export interface IUneceTransportMovement extends IJsonLdNodeObject {
+export interface IUneceTransportMovement {
 	/**
 	 * JSON-LD Context.
 	 */

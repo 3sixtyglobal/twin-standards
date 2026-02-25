@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { EpcisSourceDestTypes } from "./epcisSourceDestTypes.js";
 
 /**
@@ -8,7 +7,7 @@ import type { EpcisSourceDestTypes } from "./epcisSourceDestTypes.js";
  * business transfer.
  * @see https://ref.gs1.org/epcis/SourceOrDestination
  */
-export interface IEpcisDestination extends IJsonLdNodeObject {
+export interface IEpcisDestination {
 	/**
 	 * Identifier indicating the role of SourceOrDestination in a transfer (Owning
 	 * Party, Possessing Party, or Location).

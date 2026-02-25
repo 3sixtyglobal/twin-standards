@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
 import type { UneceSpecifiedParameterTypeCodeList } from "../typeCodes/uneceSpecifiedParameterTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A specified feature that is fixed for the case in question but may be different in other cases.
  * @see https://vocabulary.uncefact.org/SpecifiedParameter
  */
-export interface IUneceSpecifiedParameter extends IJsonLdNodeObject {
+export interface IUneceSpecifiedParameter {
 	/**
 	 * JSON-LD Context.
 	 */

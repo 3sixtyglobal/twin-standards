@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
@@ -15,7 +14,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A measure of spatial extent of an object, such as the length, breadth or height of a shipping container.
  * @see https://vocabulary.uncefact.org/SpatialDimension
  */
-export interface IUneceSpatialDimension extends IJsonLdNodeObject {
+export interface IUneceSpatialDimension {
 	/**
 	 * JSON-LD Context.
 	 */

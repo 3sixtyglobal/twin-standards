@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDeliveryTerms } from "./IUneceDeliveryTerms.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
@@ -22,7 +21,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The contractual terms of a header trade agreement.
  * @see https://vocabulary.uncefact.org/HeaderTradeAgreement
  */
-export interface IUneceHeaderTradeAgreement extends IJsonLdNodeObject {
+export interface IUneceHeaderTradeAgreement {
 	/**
 	 * JSON-LD Context.
 	 */

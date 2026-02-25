@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceTolerance } from "./IUneceTolerance.js";
 import type { UneceSpecifiedFaultTypeCodeList } from "../typeCodes/uneceSpecifiedFaultTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An unattractive or unsatisfactory characteristic.
  * @see https://vocabulary.uncefact.org/SpecifiedFault
  */
-export interface IUneceSpecifiedFault extends IJsonLdNodeObject {
+export interface IUneceSpecifiedFault {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
@@ -60,7 +59,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual, a group, or a body having a role in a trade business function.
  * @see https://vocabulary.uncefact.org/TradeParty
  */
-export interface IUneceTradeParty extends IJsonLdNodeObject {
+export interface IUneceTradeParty {
 	/**
 	 * JSON-LD Context.
 	 */

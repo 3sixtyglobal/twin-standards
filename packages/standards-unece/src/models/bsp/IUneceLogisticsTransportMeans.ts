@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceEmission } from "./IUneceEmission.js";
@@ -29,7 +28,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The devices used to convey goods or other objects from place to place during logistics cargo movements.
  * @see https://vocabulary.uncefact.org/LogisticsTransportMeans
  */
-export interface IUneceLogisticsTransportMeans extends IJsonLdNodeObject {
+export interface IUneceLogisticsTransportMeans {
 	/**
 	 * JSON-LD Context.
 	 */

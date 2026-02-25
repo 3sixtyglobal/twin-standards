@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
 import type { IUneceCoordinateSourceSystem } from "./IUneceCoordinateSourceSystem.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A set of geographical coordinates of a specific point such as the longitude, latitude and altitude.
  * @see https://vocabulary.uncefact.org/GeographicalCoordinate
  */
-export interface IUneceGeographicalCoordinate extends IJsonLdNodeObject {
+export interface IUneceGeographicalCoordinate {
 	/**
 	 * JSON-LD Context.
 	 */

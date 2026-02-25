@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAnimalCertificate } from "./IUneceAnimalCertificate.js";
 import type { IUneceAnimalCertification } from "./IUneceAnimalCertification.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
@@ -30,7 +29,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A man made physical structure, such as a building, in which something is produced.
  * @see https://vocabulary.uncefact.org/ProductionFacility
  */
-export interface IUneceProductionFacility extends IJsonLdNodeObject {
+export interface IUneceProductionFacility {
 	/**
 	 * JSON-LD Context.
 	 */

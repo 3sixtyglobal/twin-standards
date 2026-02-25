@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMarking } from "./IUneceMarking.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUnecePackage } from "./IUnecePackage.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any wrapping or containment, such as a box or a barrel, whether or not any goods are contained within.
  * @see https://vocabulary.uncefact.org/LogisticsPackaging
  */
-export interface IUneceLogisticsPackaging extends IJsonLdNodeObject {
+export interface IUneceLogisticsPackaging {
 	/**
 	 * JSON-LD Context.
 	 */

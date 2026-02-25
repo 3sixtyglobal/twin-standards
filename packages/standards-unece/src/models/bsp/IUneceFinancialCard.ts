@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { UneceFinancialCardTypeCodeList } from "../typeCodes/uneceFinancialCardTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A card used to represent a financial account for a trade settlement.
  * @see https://vocabulary.uncefact.org/FinancialCard
  */
-export interface IUneceFinancialCard extends IJsonLdNodeObject {
+export interface IUneceFinancialCard {
 	/**
 	 * JSON-LD Context.
 	 */

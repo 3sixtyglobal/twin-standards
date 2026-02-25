@@ -1,6 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import type { IJsonLdNodeObject, JsonLdObjectWithAliases } from "@twin.org/data-json-ld";
 import type { FoafContextType } from "./foafContextType.js";
 import type { FoafTypes } from "./foafTypes.js";
 import type { IFoafDocument } from "./IFoafDocument.js";
@@ -33,3 +33,12 @@ export interface IFoafImage extends IFoafDocument {
 	 */
 	thumbnail?: IFoafImage;
 }
+
+/**
+ * A FOAF Image with FOAF-prefixed aliases for non-JSON-LD keys.
+ * This allows using either prefixed aliases (e.g., "foaf:name") when defining a FOAF Image.
+ */
+export type IFoafImageWithAliases<T extends string = "foaf"> = JsonLdObjectWithAliases<
+	IFoafImage,
+	T
+>;

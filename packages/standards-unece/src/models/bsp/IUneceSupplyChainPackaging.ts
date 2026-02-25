@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDisposalInstructions } from "./IUneceDisposalInstructions.js";
 import type { IUneceGoodsCharacteristic } from "./IUneceGoodsCharacteristic.js";
 import type { IUneceMarking } from "./IUneceMarking.js";
@@ -20,7 +19,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any material with which supply chain goods are packaged, such as a box or bubble wrap.
  * @see https://vocabulary.uncefact.org/SupplyChainPackaging
  */
-export interface IUneceSupplyChainPackaging extends IJsonLdNodeObject {
+export interface IUneceSupplyChainPackaging {
 	/**
 	 * JSON-LD Context.
 	 */

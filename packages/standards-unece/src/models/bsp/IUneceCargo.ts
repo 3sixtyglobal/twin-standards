@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceCargoCategoryCodeList } from "../lists/uneceCargoCategoryCodeList.js";
 import type { UneceCargoCommodityCategoryCodeList } from "../lists/uneceCargoCommodityCategoryCodeList.js";
 import type { UneceCargoOperationalCategoryCodeList } from "../lists/uneceCargoOperationalCategoryCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Information about goods being transported identifying their nature for customs, statistical or transport purposes.
  * @see https://vocabulary.uncefact.org/Cargo
  */
-export interface IUneceCargo extends IJsonLdNodeObject {
+export interface IUneceCargo {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceNote } from "./IUneceNote.js";
 import type { IUneceSpatialDimension } from "./IUneceSpatialDimension.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A photograph or video still represented as a digital image for electronic sharing.
  * @see https://vocabulary.uncefact.org/Picture
  */
-export interface IUnecePicture extends IJsonLdNodeObject {
+export interface IUnecePicture {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
 import type { UneceCustomsValuationTypeCodeList } from "../typeCodes/uneceCustomsValuationTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A cross-border trade related assessment of the worth of an object, such as its monetary value, for customs purposes.
  * @see https://vocabulary.uncefact.org/CustomsValuation
  */
-export interface IUneceCustomsValuation extends IJsonLdNodeObject {
+export interface IUneceCustomsValuation {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -1,7 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
 import type { IDcatResource } from "./IDcatResource.js";
@@ -13,7 +12,7 @@ import type { DcatDateTimeType, DcatLiteralType } from "./types/dcatPropertyType
  * service.
  * @see https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record
  */
-export interface IDcatCatalogRecord extends IJsonLdNodeObject {
+export interface IDcatCatalogRecord {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
@@ -23,6 +22,11 @@ export interface IDcatCatalogRecord extends IJsonLdNodeObject {
 	 * The type identifier, typically "CatalogRecord".
 	 */
 	"@type": typeof DcatClasses.CatalogRecord;
+
+	/**
+	 * The unique identifier for the catalog record.
+	 */
+	"@id"?: string;
 
 	/**
 	 * A name given to the catalog record.

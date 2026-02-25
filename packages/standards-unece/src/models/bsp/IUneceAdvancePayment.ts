@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUnecePaymentTerms } from "./IUnecePaymentTerms.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A prepaid discharge of obligations in respect of funds or securities transferred between two or more parties.
  * @see https://vocabulary.uncefact.org/AdvancePayment
  */
-export interface IUneceAdvancePayment extends IJsonLdNodeObject {
+export interface IUneceAdvancePayment {
 	/**
 	 * JSON-LD Context.
 	 */

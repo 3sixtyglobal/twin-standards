@@ -7,7 +7,7 @@ import type { GaiaXTypes } from "./gaiaXTypes.js";
  * Endpoint as defined by the Gaia-X ontology.
  * https://docs.gaia-x.eu/ontology/development/classes/Endpoint
  */
-export interface IGaiaXEndpoint extends IJsonLdNodeObject {
+export interface IGaiaXEndpoint {
 	/**
 	 * The type of JSON-LD node. In this case it is allowed to be omitted as it is usually a child node.
 	 */

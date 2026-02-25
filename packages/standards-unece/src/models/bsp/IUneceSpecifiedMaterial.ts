@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceGoodsCharacteristic } from "./IUneceGoodsCharacteristic.js";
@@ -24,7 +23,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A substance from which something is or could be made.
  * @see https://vocabulary.uncefact.org/SpecifiedMaterial
  */
-export interface IUneceSpecifiedMaterial extends IJsonLdNodeObject {
+export interface IUneceSpecifiedMaterial {
 	/**
 	 * JSON-LD Context.
 	 */

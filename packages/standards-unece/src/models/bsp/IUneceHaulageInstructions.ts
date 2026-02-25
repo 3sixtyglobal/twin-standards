@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -10,7 +9,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Instructions related to the action or process of conveyance.
  * @see https://vocabulary.uncefact.org/HaulageInstructions
  */
-export interface IUneceHaulageInstructions extends IJsonLdNodeObject {
+export interface IUneceHaulageInstructions {
 	/**
 	 * JSON-LD Context.
 	 */

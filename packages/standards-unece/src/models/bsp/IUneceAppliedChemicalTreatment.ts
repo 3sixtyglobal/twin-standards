@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -17,7 +16,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A process of applying a chemical, physical, or biological agent to an object.
  * @see https://vocabulary.uncefact.org/AppliedChemicalTreatment
  */
-export interface IUneceAppliedChemicalTreatment extends IJsonLdNodeObject {
+export interface IUneceAppliedChemicalTreatment {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDurationUnitMeasureType } from "./IUneceDurationUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Terms and conditions by which payment has been or will be made for trade purposes.
  * @see https://vocabulary.uncefact.org/PaymentTerms
  */
-export interface IUnecePaymentTerms extends IJsonLdNodeObject {
+export interface IUnecePaymentTerms {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceTransportEvent } from "./IUneceTransportEvent.js";
 import type { IUneceTransportMovement } from "./IUneceTransportMovement.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A way or course taken from one location to another for the purpose of transporting cargo and or passengers.
  * @see https://vocabulary.uncefact.org/TransportRoute
  */
-export interface IUneceTransportRoute extends IJsonLdNodeObject {
+export interface IUneceTransportRoute {
 	/**
 	 * JSON-LD Context.
 	 */

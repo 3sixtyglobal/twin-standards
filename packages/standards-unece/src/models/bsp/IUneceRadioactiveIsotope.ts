@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRadionuclide } from "./IUneceRadionuclide.js";
 import type { IUneceUnitMeasureType } from "./IUneceUnitMeasureType.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * energy by spontaneously emitting radiation in the form of alpha, beta, or gamma rays.
  * @see https://vocabulary.uncefact.org/RadioactiveIsotope
  */
-export interface IUneceRadioactiveIsotope extends IJsonLdNodeObject {
+export interface IUneceRadioactiveIsotope {
 	/**
 	 * JSON-LD Context.
 	 */

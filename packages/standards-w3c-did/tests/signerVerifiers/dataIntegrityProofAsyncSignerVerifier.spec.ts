@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import { Converter } from "@twin.org/core";
 import { Ed25519 } from "@twin.org/crypto";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
+import { JsonLdHelper } from "@twin.org/data-json-ld";
 import { Jwk } from "@twin.org/web";
 import { DidContexts } from "../../src/models/didContexts.js";
 import { DidTypes } from "../../src/models/didTypes.js";
@@ -22,7 +22,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 	});
 
 	test("Can create and verify a proof with async signing callback", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -62,7 +62,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 		};
 
 		const signedProof = await new DataIntegrityProofAsyncSignerVerifier().createProofWithSigner(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof as IDataIntegrityProof,
 			signCallback
 		);
@@ -85,7 +85,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 
 		// Verify with async verifier
 		const verified = await new DataIntegrityProofAsyncSignerVerifier().verifyProof(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			signedProof as IDataIntegrityProof,
 			jwk
 		);
@@ -94,7 +94,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 	});
 
 	test("Async proof is equivalent to sync proof", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -129,7 +129,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 
 		// Create sync proof
 		const syncProof = await new DataIntegrityProofSignerVerifier().createProof(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof as IDataIntegrityProof,
 			jwk
 		);
@@ -141,7 +141,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 		};
 
 		const asyncProof = await new DataIntegrityProofAsyncSignerVerifier().createProofWithSigner(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof as IDataIntegrityProof,
 			signCallback
 		);
@@ -151,7 +151,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 	});
 
 	test("ProofHelper.createProofWithSigner works correctly", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -191,7 +191,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 
 		const signedProof = (await ProofHelper.createProofWithSigner(
 			ProofTypes.DataIntegrityProof,
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof,
 			signCallback
 		)) as IDataIntegrityProof;
@@ -203,7 +203,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 	});
 
 	test("Can create hash using async signer verifier", async () => {
-		const unsecuredDocument: IDidVerifiableCredential & IJsonLdNodeObject = {
+		const unsecuredDocument: IDidVerifiableCredential = {
 			"@context": [
 				"https://www.w3.org/ns/credentials/v2",
 				"https://www.w3.org/ns/credentials/examples/v2"
@@ -234,7 +234,7 @@ describe("DataIntegrityProofAsyncSignerVerifier", () => {
 		};
 
 		const hash = await new DataIntegrityProofAsyncSignerVerifier().createHash(
-			unsecuredDocument,
+			JsonLdHelper.toNodeObject(unsecuredDocument),
 			unsignedProof
 		);
 

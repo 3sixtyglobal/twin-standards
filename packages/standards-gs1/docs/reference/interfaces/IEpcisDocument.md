@@ -6,14 +6,6 @@ EPCIS 2.0 capture document containing header metadata and an event list.
 
 https://ref.gs1.org/epcis/EPCISDocument
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -21,10 +13,6 @@ https://ref.gs1.org/epcis/EPCISDocument
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
 The @context.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 

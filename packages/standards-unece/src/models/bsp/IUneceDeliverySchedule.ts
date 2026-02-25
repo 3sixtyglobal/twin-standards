@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceSupplyChainTradeLineItem } from "./IUneceSupplyChainTradeLineItem.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Specification of the forecasted delivery quantities and date/time values for a delivery schedule.
  * @see https://vocabulary.uncefact.org/DeliverySchedule
  */
-export interface IUneceDeliverySchedule extends IJsonLdNodeObject {
+export interface IUneceDeliverySchedule {
 	/**
 	 * JSON-LD Context.
 	 */

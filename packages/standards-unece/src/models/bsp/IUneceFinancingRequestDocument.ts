@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCancellationStatus } from "./IUneceCancellationStatus.js";
 import type { IUneceClause } from "./IUneceClause.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The set of characteristics shared by all individual transactions grouped for this financing request document.
  * @see https://vocabulary.uncefact.org/FinancingRequestDocument
  */
-export interface IUneceFinancingRequestDocument extends IJsonLdNodeObject {
+export interface IUneceFinancingRequestDocument {
 	/**
 	 * JSON-LD Context.
 	 */

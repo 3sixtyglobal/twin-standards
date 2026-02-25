@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A measurement of the variation limits of an ingredient.
  * @see https://vocabulary.uncefact.org/IngredientRangeMeasurement
  */
-export interface IUneceIngredientRangeMeasurement extends IJsonLdNodeObject {
+export interface IUneceIngredientRangeMeasurement {
 	/**
 	 * JSON-LD Context.
 	 */

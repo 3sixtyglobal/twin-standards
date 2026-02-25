@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceXHEReference } from "./IUneceXHEReference.js";
 import type { UneceDocumentCodeList } from "../lists/uneceDocumentCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual set of transmitted data in an XHE (Exchange Header Envelope).
  * @see https://vocabulary.uncefact.org/PayloadInstance
  */
-export interface IUnecePayloadInstance extends IJsonLdNodeObject {
+export interface IUnecePayloadInstance {
 	/**
 	 * JSON-LD Context.
 	 */

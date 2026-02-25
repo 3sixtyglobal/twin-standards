@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceCalibratedMeasurementTypeCodeList } from "../typeCodes/uneceCalibratedMeasurementTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A measurement established by a device which is tested to a calibration standard of known accuracy.
  * @see https://vocabulary.uncefact.org/CalibratedMeasurement
  */
-export interface IUneceCalibratedMeasurement extends IJsonLdNodeObject {
+export interface IUneceCalibratedMeasurement {
 	/**
 	 * JSON-LD Context.
 	 */

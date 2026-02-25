@@ -16,10 +16,6 @@ http://xmlns.com/foaf/0.1/
 - [`IFoafOrganization`](IFoafOrganization.md)
 - [`IFoafPerson`](IFoafPerson.md)
 
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context?
@@ -39,10 +35,6 @@ The LD Context.
 > **@type**: `string`
 
 Type.
-
-#### Overrides
-
-`IFoafBaseObject.@type`
 
 ***
 
@@ -115,6 +107,18 @@ A thing of interest to this person.
 #### See
 
 http://xmlns.com/foaf/spec/#term_topic_interest
+
+***
+
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the FOAF object.
+
+#### Inherited from
+
+[`IFoafBaseObject`](IFoafBaseObject.md).[`@id`](IFoafBaseObject.md#id)
 
 ***
 

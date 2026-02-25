@@ -7,18 +7,10 @@ This is the parent class of dcat:Dataset, dcat:DataService, and dcat:Catalog.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
 
-## Extends
-
-- `IJsonLdNodeObject`
-
 ## Extended by
 
 - [`IDcatDataService`](IDcatDataService.md)
 - [`IDcatDataset`](IDcatDataset.md)
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
 
 ## Properties
 
@@ -27,10 +19,6 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 
@@ -41,9 +29,13 @@ The JSON-LD context for the resource.
 The type of the resource.
 Typically "Catalog", "Dataset", "DataService", "DatasetSeries", or the base "Resource".
 
-#### Overrides
+***
 
-`IJsonLdNodeObject.@type`
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the resource.
 
 ***
 
@@ -121,7 +113,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher?
 
-> `optional` **dcterms:publisher**: `string` \| `IFoafAgent`
+> `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for making the resource available.
 
@@ -133,7 +125,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator?
 
-> `optional` **dcterms:creator**: `IFoafAgent`
+> `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for producing the resource.
 

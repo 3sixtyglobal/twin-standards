@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceProductBatch } from "./IUneceProductBatch.js";
@@ -20,7 +19,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An apparatus specified to be used to perform an activity to produce something.
  * @see https://vocabulary.uncefact.org/Machine
  */
-export interface IUneceMachine extends IJsonLdNodeObject {
+export interface IUneceMachine {
 	/**
 	 * JSON-LD Context.
 	 */

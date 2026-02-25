@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { EpcisErrorReasonTypes } from "./epcisErrorReasonTypes.js";
 
 /**
@@ -8,7 +7,7 @@ import type { EpcisErrorReasonTypes } from "./epcisErrorReasonTypes.js";
  * events.
  * @see https://ref.gs1.org/epcis/ErrorDeclaration
  */
-export interface IEpcisErrorDeclaration extends IJsonLdNodeObject {
+export interface IEpcisErrorDeclaration {
 	/**
 	 * The date and time at which the declaration of error is made.
 	 */

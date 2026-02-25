@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
 import type { UneceOperationalParameterTypeCodeList } from "../typeCodes/uneceOperationalParameterTypeCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A set of measurable factors that specifies the conditions within which an entity operates correctly.
  * @see https://vocabulary.uncefact.org/OperationalParameter
  */
-export interface IUneceOperationalParameter extends IJsonLdNodeObject {
+export interface IUneceOperationalParameter {
 	/**
 	 * JSON-LD Context.
 	 */

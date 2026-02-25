@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { DublinCoreClasses } from "./dublinCoreClasses.js";
 
 /**
@@ -8,7 +7,7 @@ import type { DublinCoreClasses } from "./dublinCoreClasses.js";
  * An interval of time that is named or defined by its start and end dates.
  * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/PeriodOfTime
  */
-export interface IDublinCorePeriodOfTime extends IJsonLdNodeObject {
+export interface IDublinCorePeriodOfTime {
 	/**
 	 * The type identifier for PeriodOfTime.
 	 */

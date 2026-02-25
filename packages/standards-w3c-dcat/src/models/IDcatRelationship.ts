@@ -11,7 +11,7 @@ import type { IDcatRole } from "./IDcatRole.js";
  * between DCAT Resources.
  * @see https://www.w3.org/TR/vocab-dcat-3/#Class:Relationship
  */
-export interface IDcatRelationship extends IJsonLdNodeObject {
+export interface IDcatRelationship {
 	/**
 	 * The JSON-LD context for the resource.
 	 */
@@ -26,7 +26,7 @@ export interface IDcatRelationship extends IJsonLdNodeObject {
 	 * The link to a related resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_relation
 	 */
-	"dcterms:relation"?: string;
+	"dcterms:relation"?: IJsonLdNodeObject | string;
 
 	/**
 	 * The function of an entity or agent with respect to another resource.

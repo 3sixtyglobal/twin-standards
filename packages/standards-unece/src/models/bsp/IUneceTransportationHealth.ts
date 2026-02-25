@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMDHHealthIndication } from "./IUneceMDHHealthIndication.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Health indications to be reported on a WHO MDH (Maritime Declaration of Health).
  * @see https://vocabulary.uncefact.org/TransportationHealth
  */
-export interface IUneceTransportationHealth extends IJsonLdNodeObject {
+export interface IUneceTransportationHealth {
 	/**
 	 * JSON-LD Context.
 	 */

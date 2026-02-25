@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { FoafContextType } from "./foafContextType.js";
 import type { IFoafImage } from "./IFoafImage.js";
 
@@ -8,11 +7,16 @@ import type { IFoafImage } from "./IFoafImage.js";
  * Core FOAF Properties
  * @see http://xmlns.com/foaf/0.1/
  */
-export interface IFoafBaseObject extends IJsonLdNodeObject {
+export interface IFoafBaseObject {
 	/**
 	 * The LD Context.
 	 */
 	"@context"?: FoafContextType;
+
+	/**
+	 * The unique identifier for the FOAF object.
+	 */
+	"@id"?: string;
 
 	/**
 	 * A name for some thing.

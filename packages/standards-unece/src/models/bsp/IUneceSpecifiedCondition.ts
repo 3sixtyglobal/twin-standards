@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCalibratedMeasurement } from "./IUneceCalibratedMeasurement.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceSubjectCodeList } from "../lists/uneceSubjectCodeList.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A state, such as of a specified person or thing.
  * @see https://vocabulary.uncefact.org/SpecifiedCondition
  */
-export interface IUneceSpecifiedCondition extends IJsonLdNodeObject {
+export interface IUneceSpecifiedCondition {
 	/**
 	 * JSON-LD Context.
 	 */

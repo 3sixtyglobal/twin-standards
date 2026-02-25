@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A component of pricing, such as an allowance or charge for trade purposes.
  * @see https://vocabulary.uncefact.org/TradeAllowanceCharge
  */
-export interface IUneceTradeAllowanceCharge extends IJsonLdNodeObject {
+export interface IUneceTradeAllowanceCharge {
 	/**
 	 * JSON-LD Context.
 	 */

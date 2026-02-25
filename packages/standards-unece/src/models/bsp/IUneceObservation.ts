@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceNote } from "./IUneceNote.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A specified act or instance of viewing or noting a fact or occurrence for some scientific or other special purpose.
  * @see https://vocabulary.uncefact.org/Observation
  */
-export interface IUneceObservation extends IJsonLdNodeObject {
+export interface IUneceObservation {
 	/**
 	 * JSON-LD Context.
 	 */

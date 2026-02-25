@@ -8,14 +8,6 @@ in the context of resource attribution or resource relationships.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Role
 
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdContextDefinition` \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{\[`key`: `string`\]: `string`; \} \| `null` \| `undefined`
-
 ## Properties
 
 ### @context
@@ -23,10 +15,6 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Role
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
 The JSON-LD context for the resource.
-
-#### Overrides
-
-`IJsonLdNodeObject.@context`
 
 ***
 
@@ -36,9 +24,13 @@ The JSON-LD context for the resource.
 
 The type identifier, typically "Role".
 
-#### Overrides
+***
 
-`IJsonLdNodeObject.@type`
+### @id?
+
+> `optional` **@id**: `string`
+
+The unique identifier for the role object.
 
 ***
 
@@ -46,7 +38,7 @@ The type identifier, typically "Role".
 
 > `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
-A name given to the distribution.
+A name given to the role.
 
 #### See
 

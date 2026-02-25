@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAcademicQualification } from "./IUneceAcademicQualification.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A person who is authorized to sign a document, such as a customs officer or other government official.
  * @see https://vocabulary.uncefact.org/AuthoritativeSignatoryPerson
  */
-export interface IUneceAuthoritativeSignatoryPerson extends IJsonLdNodeObject {
+export interface IUneceAuthoritativeSignatoryPerson {
 	/**
 	 * JSON-LD Context.
 	 */

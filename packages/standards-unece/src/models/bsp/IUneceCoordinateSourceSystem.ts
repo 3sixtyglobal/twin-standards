@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -13,7 +12,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * locations on the earth.
  * @see https://vocabulary.uncefact.org/CoordinateSourceSystem
  */
-export interface IUneceCoordinateSourceSystem extends IJsonLdNodeObject {
+export interface IUneceCoordinateSourceSystem {
 	/**
 	 * JSON-LD Context.
 	 */

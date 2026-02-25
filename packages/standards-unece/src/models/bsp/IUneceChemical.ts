@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceHazardousMaterial } from "./IUneceHazardousMaterial.js";
 import type { IUneceIngredientRangeMeasurement } from "./IUneceIngredientRangeMeasurement.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -17,7 +16,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Any clearly defined substance having a defined molecular composition.
  * @see https://vocabulary.uncefact.org/Chemical
  */
-export interface IUneceChemical extends IJsonLdNodeObject {
+export interface IUneceChemical {
 	/**
 	 * JSON-LD Context.
 	 */

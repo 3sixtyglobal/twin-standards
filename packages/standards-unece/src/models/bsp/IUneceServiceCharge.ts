@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -26,7 +25,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A charge made for a logistics related service.
  * @see https://vocabulary.uncefact.org/ServiceCharge
  */
-export interface IUneceServiceCharge extends IJsonLdNodeObject {
+export interface IUneceServiceCharge {
 	/**
 	 * JSON-LD Context.
 	 */

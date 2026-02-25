@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceSupplyChainReferenceTypeCodeList } from "../typeCodes/uneceSupplyChainReferenceTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The identification of related information in a supply chain context.
  * @see https://vocabulary.uncefact.org/SupplyChainReference
  */
-export interface IUneceSupplyChainReference extends IJsonLdNodeObject {
+export interface IUneceSupplyChainReference {
 	/**
 	 * JSON-LD Context.
 	 */

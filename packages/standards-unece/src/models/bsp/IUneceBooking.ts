@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -10,7 +9,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A result of a financial transaction recorded within a financial account.
  * @see https://vocabulary.uncefact.org/Booking
  */
-export interface IUneceBooking extends IJsonLdNodeObject {
+export interface IUneceBooking {
 	/**
 	 * JSON-LD Context.
 	 */

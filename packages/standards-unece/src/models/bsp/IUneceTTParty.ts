@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTTAnimal } from "./IUneceTTAnimal.js";
 import type { IUneceTTLocation } from "./IUneceTTLocation.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An individual, group, or body related to a Track and Trace (TT) process.
  * @see https://vocabulary.uncefact.org/TTParty
  */
-export interface IUneceTTParty extends IJsonLdNodeObject {
+export interface IUneceTTParty {
 	/**
 	 * JSON-LD Context.
 	 */

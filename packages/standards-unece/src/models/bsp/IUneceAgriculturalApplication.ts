@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalCertificate } from "./IUneceAgriculturalCertificate.js";
 import type { IUneceAgriculturalZoneArea } from "./IUneceAgriculturalZoneArea.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
@@ -19,7 +18,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * construction, plant, animal or product.
  * @see https://vocabulary.uncefact.org/AgriculturalApplication
  */
-export interface IUneceAgriculturalApplication extends IJsonLdNodeObject {
+export interface IUneceAgriculturalApplication {
 	/**
 	 * JSON-LD Context.
 	 */

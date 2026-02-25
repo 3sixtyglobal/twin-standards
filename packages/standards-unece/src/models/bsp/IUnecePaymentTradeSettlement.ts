@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
 import type { IUneceExperienceItem } from "./IUneceExperienceItem.js";
@@ -21,7 +20,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * for example a commercial invoice.
  * @see https://vocabulary.uncefact.org/PaymentTradeSettlement
  */
-export interface IUnecePaymentTradeSettlement extends IJsonLdNodeObject {
+export interface IUnecePaymentTradeSettlement {
 	/**
 	 * JSON-LD Context.
 	 */

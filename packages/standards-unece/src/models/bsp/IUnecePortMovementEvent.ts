@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -11,7 +10,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A movement of a vessel during a port call.
  * @see https://vocabulary.uncefact.org/PortMovementEvent
  */
-export interface IUnecePortMovementEvent extends IJsonLdNodeObject {
+export interface IUnecePortMovementEvent {
 	/**
 	 * JSON-LD Context.
 	 */

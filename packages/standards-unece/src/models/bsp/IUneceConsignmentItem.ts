@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCargo } from "./IUneceCargo.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
@@ -44,7 +43,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * An item within a supply chain consignment of goods separately identified for transport and customs purposes.
  * @see https://vocabulary.uncefact.org/ConsignmentItem
  */
-export interface IUneceConsignmentItem extends IJsonLdNodeObject {
+export interface IUneceConsignmentItem {
 	/**
 	 * JSON-LD Context.
 	 */

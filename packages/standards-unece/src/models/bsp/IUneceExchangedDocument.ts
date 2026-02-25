@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceClause } from "./IUneceClause.js";
@@ -23,7 +22,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of data for a piece of written, printed or electronic matter that is exchanged between two or more parties.
  * @see https://vocabulary.uncefact.org/ExchangedDocument
  */
-export interface IUneceExchangedDocument extends IJsonLdNodeObject {
+export interface IUneceExchangedDocument {
 	/**
 	 * JSON-LD Context.
 	 */

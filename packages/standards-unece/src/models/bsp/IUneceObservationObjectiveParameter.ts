@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceObservationObjectiveParameterTypeCodeList } from "../typeCodes/uneceObservationObjectiveParameterTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A feature that is fixed for the case in question but may be different in other cases for this observation objective.
  * @see https://vocabulary.uncefact.org/ObservationObjectiveParameter
  */
-export interface IUneceObservationObjectiveParameter extends IJsonLdNodeObject {
+export interface IUneceObservationObjectiveParameter {
 	/**
 	 * JSON-LD Context.
 	 */

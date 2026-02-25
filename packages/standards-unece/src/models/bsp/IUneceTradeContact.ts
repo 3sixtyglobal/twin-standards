@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceContactPerson } from "./IUneceContactPerson.js";
 import type { IUneceNote } from "./IUneceNote.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A person or a department that acts as a point of contact with another person or department in a trading relationship.
  * @see https://vocabulary.uncefact.org/TradeContact
  */
-export interface IUneceTradeContact extends IJsonLdNodeObject {
+export interface IUneceTradeContact {
 	/**
 	 * JSON-LD Context.
 	 */

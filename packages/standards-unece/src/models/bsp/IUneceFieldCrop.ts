@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceAgriculturalCharacteristic } from "./IUneceAgriculturalCharacteristic.js";
 import type { IUneceAgriculturalProcess } from "./IUneceAgriculturalProcess.js";
@@ -16,7 +15,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A field with one or more cultivated plants or produce from one or more botanical species or varieties.
  * @see https://vocabulary.uncefact.org/FieldCrop
  */
-export interface IUneceFieldCrop extends IJsonLdNodeObject {
+export interface IUneceFieldCrop {
 	/**
 	 * JSON-LD Context.
 	 */

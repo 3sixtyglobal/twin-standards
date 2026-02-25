@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { UneceCurrencyCodeList } from "../lists/uneceCurrencyCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * The conversion of one currency to another for trade purposes.
  * @see https://vocabulary.uncefact.org/CurrencyExchange
  */
-export interface IUneceCurrencyExchange extends IJsonLdNodeObject {
+export interface IUneceCurrencyExchange {
 	/**
 	 * JSON-LD Context.
 	 */

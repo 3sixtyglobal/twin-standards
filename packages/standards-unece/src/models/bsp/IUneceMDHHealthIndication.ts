@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceSanitaryMeasure } from "./IUneceSanitaryMeasure.js";
 import type { UneceMDHHealthIndicationTypeCodeList } from "../typeCodes/uneceMDHHealthIndicationTypeCodeList.js";
@@ -14,7 +13,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * Health).
  * @see https://vocabulary.uncefact.org/MDHHealthIndication
  */
-export interface IUneceMDHHealthIndication extends IJsonLdNodeObject {
+export interface IUneceMDHHealthIndication {
 	/**
 	 * JSON-LD Context.
 	 */

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceAvailablePeriod } from "./IUneceAvailablePeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -12,7 +11,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * services.
  * @see https://vocabulary.uncefact.org/Marketplace
  */
-export interface IUneceMarketplace extends IJsonLdNodeObject {
+export interface IUneceMarketplace {
 	/**
 	 * JSON-LD Context.
 	 */

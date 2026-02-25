@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { EpcisComponentTypes } from "./epcisComponentTypes.js";
 import type { EpcisMeasurementTypes } from "./epcisMeasurementTypes.js";
 import type { EpcisSensorAlertTypes } from "./epcisSensorAlertTypes.js";
@@ -10,7 +9,7 @@ import type { EpcisSensorAlertTypes } from "./epcisSensorAlertTypes.js";
  * observation details.
  * @see https://ref.gs1.org/epcis/SensorReport
  */
-export interface IEpcisSensorReport extends IJsonLdNodeObject {
+export interface IEpcisSensorReport {
 	/**
 	 * Identifier indicating what kind of measurement the SensorReport pertains to
 	 * (e.g. Length, Mass, Temperature).

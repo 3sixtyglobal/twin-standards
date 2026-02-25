@@ -40,6 +40,15 @@ export interface IActivityStreamsPlace extends IActivityStreamsObject {
 	altitude?: number;
 
 	/**
+	 * The accuracy of the Place.
+	 *
+	 * Indicates the accuracy of position coordinates on a Place objects.
+	 * Expressed in properties of percentage. e.g. "94.0" means "94.0% accurate".
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-accuracy
+	 */
+	accuracy?: number;
+
+	/**
 	 * The radius from the given `latitude` and `longitude`.
 	 *
 	 * Measurement units are specified using the `units` property. If `units` is not specified,

@@ -1,11 +1,5 @@
 # Type Alias: DatasetOptionalContext
 
-> **DatasetOptionalContext** = `Omit`\<[`IDcatDataset`](../interfaces/IDcatDataset.md), `"@context"`\> & `object`
+> **DatasetOptionalContext** = `JsonLdObjectWithOptionalContext`\<[`IDcatDataset`](../interfaces/IDcatDataset.md)\>
 
 Dataset omitting LD Context
-
-## Type Declaration
-
-### @context?
-
-> `optional` **@context**: [`DcatContextType`](DcatContextType.md)

@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IUneceNote } from "./IUneceNote.js";
 import type { IUneceProduct } from "./IUneceProduct.js";
 import type { IUneceSubordinateLineTradeAgreement } from "./IUneceSubordinateLineTradeAgreement.js";
@@ -18,7 +17,7 @@ import type { UneceTypes } from "../uneceTypes.js";
  * A collection of information specific to a subordinate item being used or reported on for trade purposes.
  * @see https://vocabulary.uncefact.org/SubordinateTradeLineItem
  */
-export interface IUneceSubordinateTradeLineItem extends IJsonLdNodeObject {
+export interface IUneceSubordinateTradeLineItem {
 	/**
 	 * JSON-LD Context.
 	 */

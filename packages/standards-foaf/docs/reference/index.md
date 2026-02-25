@@ -16,6 +16,12 @@
 
 ## Type Aliases
 
+- [IFoafAgentWithAliases](type-aliases/IFoafAgentWithAliases.md)
+- [IFoafDocumentWithAliases](type-aliases/IFoafDocumentWithAliases.md)
+- [IFoafGroupWithAliases](type-aliases/IFoafGroupWithAliases.md)
+- [IFoafImageWithAliases](type-aliases/IFoafImageWithAliases.md)
+- [IFoafOrganizationWithAliases](type-aliases/IFoafOrganizationWithAliases.md)
+- [IFoafPersonWithAliases](type-aliases/IFoafPersonWithAliases.md)
 - [FoafContextType](type-aliases/FoafContextType.md)
 - [FoafContexts](type-aliases/FoafContexts.md)
 - [FoafTypes](type-aliases/FoafTypes.md)

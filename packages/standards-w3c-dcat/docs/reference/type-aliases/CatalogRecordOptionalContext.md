@@ -1,11 +1,5 @@
 # Type Alias: CatalogRecordOptionalContext
 
-> **CatalogRecordOptionalContext** = `Omit`\<[`IDcatCatalogRecord`](../interfaces/IDcatCatalogRecord.md), `"@context"`\> & `object`
+> **CatalogRecordOptionalContext** = `JsonLdObjectWithOptionalContext`\<[`IDcatCatalogRecord`](../interfaces/IDcatCatalogRecord.md)\>
 
 Record omitting LD Context
-
-## Type Declaration
-
-### @context?
-
-> `optional` **@context**: [`DcatContextType`](DcatContextType.md)
