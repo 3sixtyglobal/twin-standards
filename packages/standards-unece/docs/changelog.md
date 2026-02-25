@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.42](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.41...standards-unece-v0.0.3-next.42) (2026-02-25)
+
+
+### Features
+
+* remove IJsonLdNodeObject base interfaces ([#172](https://github.com/twinfoundation/standards/issues/172)) ([8ff8d7a](https://github.com/twinfoundation/standards/commit/8ff8d7a2892d626879b76ba5da912469ff899954))
+
 ## [0.0.3-next.41](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.40...standards-unece-v0.0.3-next.41) (2026-02-23)
 
 
