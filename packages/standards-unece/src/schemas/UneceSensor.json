@@ -111,6 +111,5 @@
 	},
 	"required": [
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

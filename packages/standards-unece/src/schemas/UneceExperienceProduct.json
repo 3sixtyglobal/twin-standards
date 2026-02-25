@@ -172,6 +172,5 @@
 	},
 	"required": [
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

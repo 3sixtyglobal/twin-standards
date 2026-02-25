@@ -81,6 +81,5 @@
 	},
 	"required": [
 		"source"
-	],
-	"additionalProperties": false
+	]
 }

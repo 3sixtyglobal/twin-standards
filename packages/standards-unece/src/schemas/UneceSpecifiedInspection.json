@@ -98,6 +98,5 @@
 	},
 	"required": [
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

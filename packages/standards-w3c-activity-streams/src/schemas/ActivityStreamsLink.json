@@ -146,6 +146,5 @@
 		"@context",
 		"type",
 		"href"
-	],
-	"additionalProperties": false
+	]
 }

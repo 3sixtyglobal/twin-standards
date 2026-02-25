@@ -45,6 +45,5 @@
 		"eventClassifierCode",
 		"reeferEventTypeCode",
 		"equipmentReference"
-	],
-	"additionalProperties": false
+	]
 }

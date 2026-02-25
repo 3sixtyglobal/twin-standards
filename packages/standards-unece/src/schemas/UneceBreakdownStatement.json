@@ -136,6 +136,5 @@
 		"defaultLanguageCode",
 		"identifier",
 		"name"
-	],
-	"additionalProperties": false
+	]
 }

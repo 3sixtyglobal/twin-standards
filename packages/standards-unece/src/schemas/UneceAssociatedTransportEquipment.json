@@ -195,6 +195,5 @@
 	},
 	"required": [
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

@@ -84,6 +84,5 @@
 		"type",
 		"creationDateTime",
 		"identifier"
-	],
-	"additionalProperties": false
+	]
 }

@@ -44,6 +44,5 @@
 		"type",
 		"identifier",
 		"name"
-	],
-	"additionalProperties": false
+	]
 }

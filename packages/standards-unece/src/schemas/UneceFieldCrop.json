@@ -138,6 +138,5 @@
 		"type",
 		"grownPlot",
 		"specifiedCropMixtureConstituent"
-	],
-	"additionalProperties": false
+	]
 }

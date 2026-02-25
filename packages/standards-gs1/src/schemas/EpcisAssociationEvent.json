@@ -181,6 +181,5 @@
 		"eventTimeZoneOffset",
 		"parentID",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

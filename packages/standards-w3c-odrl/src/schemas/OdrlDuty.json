@@ -182,6 +182,5 @@
 			"type": "string",
 			"description": "The party to be compensated Used when the duty involves compensation"
 		}
-	},
-	"additionalProperties": false
+	}
 }

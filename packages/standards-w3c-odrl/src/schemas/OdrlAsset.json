@@ -50,6 +50,5 @@
 			],
 			"description": "Reference to the policy that governs this asset. Used to identify the Policy that governs this Asset."
 		}
-	},
-	"additionalProperties": false
+	}
 }

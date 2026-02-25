@@ -109,6 +109,5 @@
 			},
 			"description": "EPCIS master data."
 		}
-	},
-	"additionalProperties": false
+	}
 }

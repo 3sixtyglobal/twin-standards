@@ -54,6 +54,5 @@
 	"required": [
 		"type",
 		"associatedGeographicalObjectCharacteristic"
-	],
-	"additionalProperties": false
+	]
 }

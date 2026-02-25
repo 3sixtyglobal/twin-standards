@@ -2,6 +2,5 @@
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"$id": "https://schema.twindev.org/gs1-epcis/EpcisIlmd",
 	"description": "EPCIS 2.0 Instance/Lot Master Data (ILMD) container for event-level master data extensions.",
-	"type": "object",
-	"additionalProperties": false
+	"type": "object"
 }

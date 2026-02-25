@@ -536,6 +536,5 @@
 	},
 	"required": [
 		"@context"
-	],
-	"additionalProperties": false
+	]
 }

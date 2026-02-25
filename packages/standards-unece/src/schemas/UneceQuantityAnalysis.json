@@ -95,6 +95,5 @@
 	"required": [
 		"type",
 		"identifier"
-	],
-	"additionalProperties": false
+	]
 }

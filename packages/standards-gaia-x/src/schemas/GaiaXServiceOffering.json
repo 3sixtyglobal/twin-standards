@@ -332,6 +332,5 @@
 		"providedBy",
 		"servicePolicy",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

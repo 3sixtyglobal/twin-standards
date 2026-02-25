@@ -69,6 +69,5 @@
 		"type",
 		"occurrenceDateTime",
 		"typeCode"
-	],
-	"additionalProperties": false
+	]
 }

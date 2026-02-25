@@ -78,6 +78,5 @@
 		"consumerPid",
 		"providerPid",
 		"state"
-	],
-	"additionalProperties": false
+	]
 }

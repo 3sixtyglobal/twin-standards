@@ -97,6 +97,5 @@
 	},
 	"required": [
 		"@type"
-	],
-	"additionalProperties": false
+	]
 }

@@ -232,6 +232,5 @@
 		"producedBy",
 		"resourcePolicy",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

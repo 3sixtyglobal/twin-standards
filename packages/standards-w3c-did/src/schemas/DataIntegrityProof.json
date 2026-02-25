@@ -107,6 +107,5 @@
 		"type",
 		"cryptosuite",
 		"proofPurpose"
-	],
-	"additionalProperties": false
+	]
 }

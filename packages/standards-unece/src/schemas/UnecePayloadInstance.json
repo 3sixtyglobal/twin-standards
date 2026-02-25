@@ -110,6 +110,5 @@
 	"required": [
 		"type",
 		"encryptedIndicator"
-	],
-	"additionalProperties": false
+	]
 }

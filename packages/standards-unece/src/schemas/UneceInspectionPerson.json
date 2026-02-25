@@ -44,6 +44,5 @@
 		"type",
 		"attainedSpecifiedQualification",
 		"inspectionPersonName"
-	],
-	"additionalProperties": false
+	]
 }

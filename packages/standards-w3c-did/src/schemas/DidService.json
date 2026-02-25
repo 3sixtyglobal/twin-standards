@@ -41,6 +41,5 @@
 		"id",
 		"type",
 		"serviceEndpoint"
-	],
-	"additionalProperties": false
+	]
 }

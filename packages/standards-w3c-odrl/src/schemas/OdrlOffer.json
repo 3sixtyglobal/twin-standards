@@ -244,6 +244,5 @@
 		"@type",
 		"assigner",
 		"uid"
-	],
-	"additionalProperties": false
+	]
 }

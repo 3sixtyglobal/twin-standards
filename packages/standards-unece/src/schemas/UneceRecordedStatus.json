@@ -48,6 +48,5 @@
 		"type",
 		"changedDateTime",
 		"recordedStatusConditionCode"
-	],
-	"additionalProperties": false
+	]
 }

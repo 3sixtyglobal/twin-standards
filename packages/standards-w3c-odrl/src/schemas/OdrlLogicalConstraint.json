@@ -24,6 +24,5 @@
 			"$ref": "https://schema.twindev.org/w3c-odrl/OdrlLogicalConstraintOperand",
 			"description": "AND Sequence operator - all constraints must be satisfied in order. Exactly one logical operator must be present."
 		}
-	},
-	"additionalProperties": false
+	}
 }

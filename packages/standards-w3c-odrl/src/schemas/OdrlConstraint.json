@@ -41,8 +41,7 @@
 					},
 					"required": [
 						"@value"
-					],
-					"additionalProperties": false
+					]
 				},
 				{
 					"type": "object",
@@ -53,8 +52,7 @@
 					},
 					"required": [
 						"@id"
-					],
-					"additionalProperties": false
+					]
 				},
 				{
 					"type": "array",
@@ -75,8 +73,7 @@
 								},
 								"required": [
 									"@value"
-								],
-								"additionalProperties": false
+								]
 							},
 							{
 								"type": "object",
@@ -87,8 +84,7 @@
 								},
 								"required": [
 									"@id"
-								],
-								"additionalProperties": false
+								]
 							}
 						]
 					}
@@ -125,6 +121,5 @@
 	"required": [
 		"leftOperand",
 		"operator"
-	],
-	"additionalProperties": false
+	]
 }

@@ -125,6 +125,5 @@
 		"type",
 		"occurrenceDateTime",
 		"recordedDateTime"
-	],
-	"additionalProperties": false
+	]
 }

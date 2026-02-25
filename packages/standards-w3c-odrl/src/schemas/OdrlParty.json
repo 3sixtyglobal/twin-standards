@@ -74,6 +74,5 @@
 			],
 			"description": "Reference to a policy where this party is an assigner. When assignerOf is asserted, the Party MUST be inferred to undertake the assigner functional role of all the Rules of that Policy."
 		}
-	},
-	"additionalProperties": false
+	}
 }

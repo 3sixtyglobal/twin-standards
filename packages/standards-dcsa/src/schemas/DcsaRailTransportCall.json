@@ -40,6 +40,5 @@
 	"required": [
 		"modeOfTransport",
 		"transportCallReference"
-	],
-	"additionalProperties": false
+	]
 }

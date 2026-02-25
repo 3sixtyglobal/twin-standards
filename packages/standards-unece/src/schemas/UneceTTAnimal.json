@@ -103,6 +103,5 @@
 		"speciesTypeCode",
 		"specifiedAnimalHoldingEvent",
 		"specifiedAnimalIdentity"
-	],
-	"additionalProperties": false
+	]
 }

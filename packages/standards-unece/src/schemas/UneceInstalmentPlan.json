@@ -42,6 +42,5 @@
 	"required": [
 		"type",
 		"specifiedInstalmentPayment"
-	],
-	"additionalProperties": false
+	]
 }

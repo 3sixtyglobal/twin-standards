@@ -72,6 +72,5 @@
 		"type",
 		"certificateTypeCode",
 		"identifier"
-	],
-	"additionalProperties": false
+	]
 }

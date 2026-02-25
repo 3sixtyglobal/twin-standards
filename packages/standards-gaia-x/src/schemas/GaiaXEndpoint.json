@@ -24,6 +24,5 @@
 	},
 	"required": [
 		"endpointURL"
-	],
-	"additionalProperties": false
+	]
 }

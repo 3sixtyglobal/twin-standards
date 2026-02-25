@@ -611,6 +611,5 @@
 	"required": [
 		"@context",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

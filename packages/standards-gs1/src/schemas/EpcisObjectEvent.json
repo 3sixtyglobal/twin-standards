@@ -184,6 +184,5 @@
 		"eventTime",
 		"eventTimeZoneOffset",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

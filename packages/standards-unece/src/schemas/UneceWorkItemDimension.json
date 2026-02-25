@@ -70,6 +70,5 @@
 		"type",
 		"valueMeasure",
 		"workItemDimensionTypeCode"
-	],
-	"additionalProperties": false
+	]
 }

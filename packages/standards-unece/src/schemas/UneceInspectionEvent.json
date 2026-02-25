@@ -59,6 +59,5 @@
 		"type",
 		"occurrenceDateTime",
 		"occurrenceLocation"
-	],
-	"additionalProperties": false
+	]
 }

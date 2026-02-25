@@ -32,6 +32,5 @@
 			},
 			"description": "(Optional) List of persistentDisposition URI values to be unset (revoked)."
 		}
-	},
-	"additionalProperties": false
+	}
 }

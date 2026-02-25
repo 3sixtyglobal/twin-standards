@@ -71,6 +71,5 @@
 		"creationDateTime",
 		"identifier",
 		"recipientXHEParty"
-	],
-	"additionalProperties": false
+	]
 }

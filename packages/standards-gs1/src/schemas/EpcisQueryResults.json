@@ -20,6 +20,5 @@
 	"required": [
 		"queryName",
 		"resultsBody"
-	],
-	"additionalProperties": false
+	]
 }

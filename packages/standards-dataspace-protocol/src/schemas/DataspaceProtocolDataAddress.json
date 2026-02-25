@@ -28,6 +28,5 @@
 	"required": [
 		"@type",
 		"endpointType"
-	],
-	"additionalProperties": false
+	]
 }

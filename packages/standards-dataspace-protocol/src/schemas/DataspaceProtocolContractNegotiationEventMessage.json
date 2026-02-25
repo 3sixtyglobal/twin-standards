@@ -78,6 +78,5 @@
 		"providerPid",
 		"consumerPid",
 		"event"
-	],
-	"additionalProperties": false
+	]
 }

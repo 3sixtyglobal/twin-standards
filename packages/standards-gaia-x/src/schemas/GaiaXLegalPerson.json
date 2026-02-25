@@ -310,6 +310,5 @@
 		"legalName",
 		"registrationNumber",
 		"type"
-	],
-	"additionalProperties": false
+	]
 }

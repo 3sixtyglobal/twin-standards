@@ -31,6 +31,5 @@
 	},
 	"required": [
 		"vesselIMONumber"
-	],
-	"additionalProperties": false
+	]
 }

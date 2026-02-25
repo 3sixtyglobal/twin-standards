@@ -57,6 +57,5 @@
 		"birthDateTime",
 		"deathDateTime",
 		"identifier"
-	],
-	"additionalProperties": false
+	]
 }

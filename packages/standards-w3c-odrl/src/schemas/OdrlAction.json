@@ -14,7 +14,6 @@
 			"required": [
 				"@id"
 			],
-			"additionalProperties": false,
 			"description": "The value/identifier of the action. Used in complex action definitions."
 		},
 		"@id": {
@@ -70,6 +69,5 @@
 			},
 			"description": "References to actions this action implies."
 		}
-	},
-	"additionalProperties": false
+	}
 }

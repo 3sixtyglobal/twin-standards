@@ -36,6 +36,5 @@
 		"publisher",
 		"publisherRole",
 		"eventType"
-	],
-	"additionalProperties": false
+	]
 }

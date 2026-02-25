@@ -90,6 +90,5 @@
 		"highLimit",
 		"lowLimit",
 		"originAssociatedDirectPositionList"
-	],
-	"additionalProperties": false
+	]
 }

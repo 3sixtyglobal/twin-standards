@@ -101,7 +101,6 @@
 			"required": [
 				"eventList"
 			],
-			"additionalProperties": false,
 			"description": "The EPCIS Body."
 		}
 	},
@@ -111,6 +110,5 @@
 		"schemaVersion",
 		"creationDate",
 		"epcisBody"
-	],
-	"additionalProperties": false
+	]
 }

@@ -58,6 +58,5 @@
 		"identifierLengthNumeric",
 		"issuerPartyName",
 		"legalBasis"
-	],
-	"additionalProperties": false
+	]
 }

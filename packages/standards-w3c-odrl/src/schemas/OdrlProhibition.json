@@ -170,6 +170,5 @@
 			],
 			"description": "The remedies that must be fulfilled if prohibition is violated."
 		}
-	},
-	"additionalProperties": false
+	}
 }

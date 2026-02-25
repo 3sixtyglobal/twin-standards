@@ -16,6 +16,5 @@
 	"required": [
 		"eventClassifierCode",
 		"eventDateTime"
-	],
-	"additionalProperties": false
+	]
 }

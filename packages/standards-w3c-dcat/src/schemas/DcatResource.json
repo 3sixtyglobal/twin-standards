@@ -63,8 +63,7 @@
 					},
 					"required": [
 						"@container"
-					],
-					"additionalProperties": false
+					]
 				},
 				"@version": {
 					"type": "string",
@@ -282,6 +281,5 @@
 	"required": [
 		"@context",
 		"@type"
-	],
-	"additionalProperties": false
+	]
 }

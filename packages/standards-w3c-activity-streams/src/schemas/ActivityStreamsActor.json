@@ -514,7 +514,6 @@
 			"description": "MIME media type of the referenced resource."
 		}
 	},
-	"additionalProperties": false,
 	"required": [
 		"@context"
 	]

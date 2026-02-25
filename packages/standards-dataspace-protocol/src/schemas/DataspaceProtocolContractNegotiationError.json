@@ -82,6 +82,5 @@
 		"@type",
 		"providerPid",
 		"consumerPid"
-	],
-	"additionalProperties": false
+	]
 }

@@ -87,6 +87,5 @@
 		"callbackAddress",
 		"consumerPid",
 		"format"
-	],
-	"additionalProperties": false
+	]
 }

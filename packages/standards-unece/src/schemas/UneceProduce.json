@@ -86,6 +86,5 @@
 	"required": [
 		"type",
 		"outputSpecifiedBatch"
-	],
-	"additionalProperties": false
+	]
 }

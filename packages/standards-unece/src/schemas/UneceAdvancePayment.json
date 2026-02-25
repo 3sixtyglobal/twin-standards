@@ -65,6 +65,5 @@
 	"required": [
 		"type",
 		"paidAmount"
-	],
-	"additionalProperties": false
+	]
 }

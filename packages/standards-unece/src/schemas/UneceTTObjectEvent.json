@@ -115,6 +115,5 @@
 		"actionCode",
 		"occurrenceDateTime",
 		"recordedDateTime"
-	],
-	"additionalProperties": false
+	]
 }

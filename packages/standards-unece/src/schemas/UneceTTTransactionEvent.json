@@ -120,6 +120,5 @@
 		"occurrenceDateTime",
 		"recordedDateTime",
 		"specifiedTradeTransaction"
-	],
-	"additionalProperties": false
+	]
 }

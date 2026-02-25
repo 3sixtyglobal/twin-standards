@@ -29,6 +29,5 @@
 	},
 	"required": [
 		"declarationTime"
-	],
-	"additionalProperties": false
+	]
 }

@@ -226,6 +226,5 @@
 		"assignee",
 		"assigner",
 		"uid"
-	],
-	"additionalProperties": false
+	]
 }

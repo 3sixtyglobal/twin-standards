@@ -16,6 +16,5 @@
 	"required": [
 		"type",
 		"value"
-	],
-	"additionalProperties": false
+	]
 }

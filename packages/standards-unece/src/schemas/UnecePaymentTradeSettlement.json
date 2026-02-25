@@ -196,6 +196,5 @@
 	"required": [
 		"type",
 		"specifiedTradeSettlementPaymentMonetarySummation"
-	],
-	"additionalProperties": false
+	]
 }

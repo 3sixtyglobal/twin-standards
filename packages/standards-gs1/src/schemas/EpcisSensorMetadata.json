@@ -36,6 +36,5 @@
 			"type": "string",
 			"description": "(Optional) Storage location of an electronic document accommodating product- or application-specific business rules on which basis the EPCIS event was triggered."
 		}
-	},
-	"additionalProperties": false
+	}
 }
