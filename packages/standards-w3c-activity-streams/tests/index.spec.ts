@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IActivityStreamsActivity } from "../src/models/IActivityStreamsActivity.js";
 import type { IActivityStreamsCollection } from "../src/models/IActivityStreamsCollection.js";
 import type { IActivityStreamsCollectionPage } from "../src/models/IActivityStreamsCollectionPage.js";
@@ -2444,5 +2445,59 @@ describe("standards-w3c-activity-streams", () => {
 			}
 		};
 		expect(example159).toBeDefined();
+	});
+
+	test("Can construct parameterized Activity - object", () => {
+		const paramExample1: IActivityStreamsActivity<IActivityStreamsLink> = {
+			"@context": "https://www.w3.org/ns/activitystreams",
+			type: "Create",
+			summary: "Sally creates a link",
+			actor: { type: "Person", name: "Sally" },
+			object: {
+				"@context": "https://www.w3.org/ns/activitystreams",
+				type: "Link",
+				href: "notes/note1"
+			}
+		};
+		expect(paramExample1).toBeDefined();
+	});
+
+	test("Can construct parameterized Activity - target", () => {
+		const paramExample2: IActivityStreamsActivity<IJsonLdNodeObject, IActivityStreamsObject> = {
+			"@context": "https://www.w3.org/ns/activitystreams",
+			type: "Add",
+			summary: "Sally adds a schema.org `Note' to an object",
+			actor: { type: "Person", name: "Sally" },
+			object: {
+				"@type": "http://schema.org/Note",
+				"http://schema.org/contentUrl": "data:text/plain,Hello%20World!"
+			},
+			target: {
+				"@context": "https://www.w3.org/ns/activitystreams",
+				type: "Object",
+				name: "note1"
+			}
+		};
+		expect(paramExample2).toBeDefined();
+	});
+
+	test("Can construct parameterized Activity - object, target", () => {
+		const paramExample2: IActivityStreamsActivity<IActivityStreamsLink, IActivityStreamsObject> = {
+			"@context": "https://www.w3.org/ns/activitystreams",
+			type: "Add",
+			summary: "Sally adds a Link to an object",
+			actor: { type: "Person", name: "Sally" },
+			object: {
+				"@context": "https://www.w3.org/ns/activitystreams",
+				type: "Link",
+				href: "note/comment"
+			},
+			target: {
+				"@context": "https://www.w3.org/ns/activitystreams",
+				type: "Object",
+				name: "note1"
+			}
+		};
+		expect(paramExample2).toBeDefined();
 	});
 });

@@ -13,7 +13,8 @@ import type { IActivityStreamsObject } from "./IActivityStreamsObject.js";
  * can optionally include a `target`, `result`, `origin`, or `instrument`.
  * @see https://www.w3.org/TR/activitystreams-core/#activities
  */
-export interface IActivityStreamsActivity extends IActivityStreamsObject {
+export interface IActivityStreamsActivity<O = IJsonLdNodeObject, T = IJsonLdNodeObject>
+	extends IActivityStreamsObject {
 	/**
 	 * The LD Context.
 	 */
@@ -40,13 +41,13 @@ export interface IActivityStreamsActivity extends IActivityStreamsObject {
 	 * The object affected by the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-object
 	 */
-	object?: ObjectOrArray<string | IJsonLdNodeObject>;
+	object?: ObjectOrArray<string | O>;
 
 	/**
 	 * The target of the Activity.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target
 	 */
-	target?: ObjectOrArray<string | IJsonLdNodeObject>;
+	target?: ObjectOrArray<string | T>;
 
 	/**
 	 * Summary of the Activity.
