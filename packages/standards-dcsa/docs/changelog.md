@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.43](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.42...standards-dcsa-v0.0.3-next.43) (2026-02-25)
+
+
+### Features
+
+* update schemas to support additional properties ([4679e21](https://github.com/twinfoundation/standards/commit/4679e21728a54cb587f120874841c3d1ed3771de))
+
 ## [0.0.3-next.42](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.41...standards-dcsa-v0.0.3-next.42) (2026-02-25)
 
 
