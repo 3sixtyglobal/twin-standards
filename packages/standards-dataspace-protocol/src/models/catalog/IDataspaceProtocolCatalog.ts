@@ -28,11 +28,10 @@ import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistrib
  * @see https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
  *
  */
-export interface IDataspaceProtocolCatalog
-	extends Omit<
-		IDcatCatalog,
-		"@type" | "@context" | "dcat:catalog" | "dcat:dataset" | "dcat:distribution" | "dcat:service"
-	> {
+export interface IDataspaceProtocolCatalog extends Omit<
+	IDcatCatalog,
+	"@type" | "@context" | "dcat:catalog" | "dcat:dataset" | "dcat:distribution" | "dcat:service"
+> {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */

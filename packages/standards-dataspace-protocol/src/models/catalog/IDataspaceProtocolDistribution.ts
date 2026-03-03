@@ -36,8 +36,10 @@ import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataServ
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl
  * @see IResource.odrl:hasPolicy from @twin.org/standards-w3c-dcat
  */
-export interface IDataspaceProtocolDistribution
-	extends Omit<IDcatDistribution, "odrl:hasPolicy" | "@type" | "@context" | "dcterms:format"> {
+export interface IDataspaceProtocolDistribution extends Omit<
+	IDcatDistribution,
+	"odrl:hasPolicy" | "@type" | "@context" | "dcterms:format"
+> {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */

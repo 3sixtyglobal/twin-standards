@@ -26,8 +26,10 @@ import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
  * @see https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
  *
  */
-export interface IDataspaceProtocolDataService
-	extends Omit<IDcatDataService, "@type" | "@context" | "dcat:servesDataset" | "dcat:endpointURL"> {
+export interface IDataspaceProtocolDataService extends Omit<
+	IDcatDataService,
+	"@type" | "@context" | "dcat:servesDataset" | "dcat:endpointURL"
+> {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */

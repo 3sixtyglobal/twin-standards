@@ -14,8 +14,7 @@ import type { IActivityStreamsOrderedCollection } from "./IActivityStreamsOrdere
  * @see https://www.w3.org/TR/activitystreams-core/#collections
  */
 export interface IActivityStreamsOrderedCollectionPage
-	extends IActivityStreamsCollectionPage,
-		IActivityStreamsOrderedCollection {
+	extends IActivityStreamsCollectionPage, IActivityStreamsOrderedCollection {
 	/**
 	 * OrderedCollectionPage type.
 	 */
