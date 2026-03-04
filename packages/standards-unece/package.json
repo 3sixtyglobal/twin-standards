@@ -14,7 +14,7 @@
 		"node": ">=20.0.0"
 	},
 	"scripts": {
-		"clean": "rimraf dist coverage docs/reference",
+		"clean": "rimraf dist coverage",
 		"build:country-to-json-compressed": "node ./scripts/countryToJsonCompressed.mjs",
 		"build:generate-interfaces": "node ./scripts/generateInterfaces.mjs",
 		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas",
@@ -29,8 +29,8 @@
 		"docs:generate": "typedoc",
 		"copy-data": "copyfiles -u 1 \"src/data/**/*\" \"dist/\"",
 		"docs": "npm run docs:clean && npm run docs:generate",
-		"dist": "npm run clean && npm run build && npm run validate-locales && npm run copy-data && npm run test:build && npm run test && npm run docs",
-		"dist:no-test": "npm run clean && npm run build && npm run copy-data && npm run test:build && npm run docs"
+		"dist": "npm run clean && npm run build && npm run validate-locales && npm run copy-data && npm run test:build && npm run test",
+		"dist:no-test": "npm run clean && npm run build && npm run copy-data && npm run test:build"
 	},
 	"dependencies": {
 		"@twin.org/core": "next",
