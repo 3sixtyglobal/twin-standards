@@ -13,6 +13,7 @@ export * from "./models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
 export * from "./models/catalog/IDataspaceProtocolDataset.js";
 export * from "./models/catalog/IDataspaceProtocolCatalog.js";
 export * from "./models/catalog/IDataspaceProtocolDistribution.js";
+export * from "./models/catalog/IDataspaceProtocolOffer.js";
 export * from "./models/catalog/IDataspaceProtocolDataService.js";
 
 export * from "./dataTypes/catalogDataTypes.js";

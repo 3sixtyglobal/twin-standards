@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatDistribution } from "@twin.org/standards-w3c-dcat";
-import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
 import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
+import type { IDataspaceProtocolOffer } from "./IDataspaceProtocolOffer.js";
 
 /**
  * Distribution interface compliant with Eclipse Data Space Protocol.
@@ -65,7 +65,7 @@ export interface IDataspaceProtocolDistribution extends Omit<
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy?: ObjectOrArray<Omit<IOdrlOffer, "@context">>;
+	hasPolicy?: ObjectOrArray<IDataspaceProtocolOffer>;
 
 	/**
 	 * Access service.
