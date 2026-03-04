@@ -69,7 +69,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### hasPolicy
 
-> **hasPolicy**: `ObjectOrArray`\<`Omit`\<`IOdrlOffer`, `"@context"`\>\>
+> **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOffer`](IDataspaceProtocolOffer.md)\>
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 

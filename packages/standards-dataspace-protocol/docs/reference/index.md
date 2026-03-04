@@ -17,6 +17,7 @@
 - [IDataspaceProtocolDataset](interfaces/IDataspaceProtocolDataset.md)
 - [IDataspaceProtocolDatasetRequestMessage](interfaces/IDataspaceProtocolDatasetRequestMessage.md)
 - [IDataspaceProtocolDistribution](interfaces/IDataspaceProtocolDistribution.md)
+- [IDataspaceProtocolOffer](interfaces/IDataspaceProtocolOffer.md)
 - [IDataspaceProtocolContractAgreementMessage](interfaces/IDataspaceProtocolContractAgreementMessage.md)
 - [IDataspaceProtocolContractAgreementVerificationMessage](interfaces/IDataspaceProtocolContractAgreementVerificationMessage.md)
 - [IDataspaceProtocolContractNegotiation](interfaces/IDataspaceProtocolContractNegotiation.md)
