@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.45](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.44...standards-dataspace-protocol-v0.0.3-next.45) (2026-03-04)
+
+
+### Features
+
+* restore [@id](https://github.com/id) on hasPolicy Offer type ([#177](https://github.com/twinfoundation/standards/issues/177)) ([4b0e4f0](https://github.com/twinfoundation/standards/commit/4b0e4f08ec931584e559ed0b2c04b1daec73a872))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.44 to 0.0.3-next.45
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.44 to 0.0.3-next.45
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.44 to 0.0.3-next.45
+
 ## [0.0.3-next.44](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.43...standards-dataspace-protocol-v0.0.3-next.44) (2026-03-04)
 
 
