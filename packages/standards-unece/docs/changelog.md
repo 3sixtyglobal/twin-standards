@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.44](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.43...standards-unece-v0.0.3-next.44) (2026-03-04)
+
+
+### Bug Fixes
+
+* replace fileURLToPath usage as not available in UI ([5557dab](https://github.com/twinfoundation/standards/commit/5557dabeacf0432fd28e84d44bbff480e0d99b65))
+
 ## [0.0.3-next.43](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.42...standards-unece-v0.0.3-next.43) (2026-02-25)
 
 
