@@ -1,8 +1,6 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { Compression, CompressionType, Guards, Is, ObjectHelper } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
 import type { IUnLocodeCountry } from "../models/IUnLocodeCountry.js";
@@ -345,10 +343,8 @@ export class UnLocodes {
 		}
 
 		try {
-			const thisFilename = fileURLToPath(import.meta.url);
-			const thisDirname = path.dirname(thisFilename);
-			const filePath = path.join(thisDirname, `../data/${folder}/`, `${normalized}.json.gz`);
-			const compressed = await fs.readFile(filePath);
+			const fileUrl = new URL(`../data/${folder}/${normalized}.json.gz`, import.meta.url);
+			const compressed = await fs.readFile(fileUrl);
 			const jsonBuffer = await Compression.decompress(compressed, CompressionType.Gzip);
 			const records = ObjectHelper.fromBytes<R[]>(jsonBuffer);
 			cache[normalized] = records.map(record => mapMethod(normalized, record));
