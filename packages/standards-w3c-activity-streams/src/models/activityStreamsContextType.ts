@@ -9,5 +9,13 @@ import type { ActivityStreamsContexts } from "./activityStreamsContexts.js";
 export type ActivityStreamsContextType =
 	| typeof ActivityStreamsContexts.Context
 	| [typeof ActivityStreamsContexts.Context]
-	| [typeof ActivityStreamsContexts.Context, ...IJsonLdContextDefinitionElement[]]
-	| [...IJsonLdContextDefinitionElement[], typeof ActivityStreamsContexts.Context];
+	| [
+			IJsonLdContextDefinitionElement,
+			typeof ActivityStreamsContexts.Context,
+			...IJsonLdContextDefinitionElement[]
+	  ]
+	| [
+			...IJsonLdContextDefinitionElement[],
+			typeof ActivityStreamsContexts.Context,
+			IJsonLdContextDefinitionElement
+	  ];

@@ -22,6 +22,7 @@ import LinkSchema from "../schemas/ActivityStreamsLink.json" with { type: "json"
 import MentionSchema from "../schemas/ActivityStreamsMention.json" with { type: "json" };
 import NoteSchema from "../schemas/ActivityStreamsNote.json" with { type: "json" };
 import ObjectSchema from "../schemas/ActivityStreamsObject.json" with { type: "json" };
+import ActivityStreamsObjectTypesSchema from "../schemas/ActivityStreamsObjectTypes.json" with { type: "json" };
 import OrderedCollectionSchema from "../schemas/ActivityStreamsOrderedCollection.json" with { type: "json" };
 import OrderedCollectionPageSchema from "../schemas/ActivityStreamsOrderedCollectionPage.json" with { type: "json" };
 import OrganizationSchema from "../schemas/ActivityStreamsOrganization.json" with { type: "json" };
@@ -272,6 +273,10 @@ export abstract class ActivityStreamsDataTypes {
 			{
 				type: ActivityStreamsObjectTypes.Video,
 				schema: VideoSchema
+			},
+			{
+				type: "ActivityStreamsObjectTypes",
+				schema: ActivityStreamsObjectTypesSchema
 			}
 		];
 

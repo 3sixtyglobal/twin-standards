@@ -1,5 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import { Is } from "@twin.org/core";
+import { DataTypeHelper, JsonSchemaHelper } from "@twin.org/data-core";
+import { JsonLdDataTypes } from "@twin.org/data-json-ld";
+import { ActivityStreamsDataTypes } from "../src/dataTypes/activityStreamsDataTypes.js";
+import { ActivityStreamsContexts } from "../src/models/activityStreamsContexts.js";
 import type { IActivityStreamsActivity } from "../src/models/IActivityStreamsActivity.js";
 import type { IActivityStreamsCollection } from "../src/models/IActivityStreamsCollection.js";
 import type { IActivityStreamsCollectionPage } from "../src/models/IActivityStreamsCollectionPage.js";
@@ -16,7 +21,12 @@ import type { IActivityStreamsRelationship } from "../src/models/IActivityStream
 import type { IActivityStreamsTombstone } from "../src/models/IActivityStreamsTombstone.js";
 
 describe("standards-w3c-activity-streams", () => {
-	test("Can construct Vocabulary Example 1", () => {
+	beforeAll(() => {
+		ActivityStreamsDataTypes.registerTypes();
+		JsonLdDataTypes.registerTypes();
+	});
+
+	test("Can construct Vocabulary Example 1", async () => {
 		const example1: IActivityStreamsObject = {
 			"@context": "https://www.w3.org/ns/activitystreams",
 			type: "Object",
@@ -24,6 +34,13 @@ describe("standards-w3c-activity-streams", () => {
 			name: "A Simple, non-specific object"
 		};
 		expect(example1).toBeDefined();
+
+		const schema = await DataTypeHelper.getSchemaForType(
+			`${ActivityStreamsContexts.Namespace}Object`
+		);
+		expect(Is.objectValue(schema)).toBeTruthy();
+		const verified = await JsonSchemaHelper.validate(schema ?? {}, example1);
+		expect(verified.result).toBeTruthy();
 	});
 
 	test("Can construct Vocabulary Example 2", () => {
@@ -2444,5 +2461,36 @@ describe("standards-w3c-activity-streams", () => {
 			}
 		};
 		expect(example159).toBeDefined();
+	});
+
+	test("Can construct and validate an activity with reverse order context", async () => {
+		const example1: IActivityStreamsActivity = {
+			"@context": [
+				{
+					MyCreate: "https://twin.example.org/MyCreate"
+				},
+				ActivityStreamsContexts.Context
+			],
+			type: ["Create", "MyCreate"],
+			actor: {
+				id: "did:iota:testnet:0x123456"
+			},
+			object: {
+				"@context": "https://vocabulary.uncefact.org/unece-context-D23B.jsonld",
+				"@type": "Consignment",
+				globalId: "24KEP051219453I002610796"
+			},
+			updated: new Date().toISOString()
+		};
+
+		const schema = await DataTypeHelper.getSchemaForType(
+			`${ActivityStreamsContexts.Namespace}Activity`
+		);
+		expect(Is.objectValue(schema)).toBeTruthy();
+		const verified = await JsonSchemaHelper.validate(schema ?? {}, example1);
+		if (!verified.result) {
+			console.error(JSON.stringify(verified.error, null, 2));
+		}
+		expect(verified.result).toBeTruthy();
 	});
 });
