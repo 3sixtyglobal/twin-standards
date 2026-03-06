@@ -8,5 +8,12 @@ describe("standards-unece", () => {
 		UneceDataTypes.registerTypes();
 
 		expect(DataTypeHandlerFactory.names().length).toBeGreaterThan(0);
+
+		expect(
+			DataTypeHandlerFactory.hasName("https://vocabulary.uncefact.org/AcademicQualification")
+		).toBe(true);
+		expect(
+			DataTypeHandlerFactory.hasName("https://schema.twindev.org/unece/UneceAcademicQualification")
+		).toBe(true);
 	});
 });

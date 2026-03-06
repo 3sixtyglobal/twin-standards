@@ -2705,7 +2705,7 @@ export class UneceDataTypes {
 		DataTypeHelper.registerTypes(
 			UneceContexts.JsonSchemaNamespace,
 			UneceContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `Unece${t.type}`, schema: t.schema }))
 		);
 	}
 }
