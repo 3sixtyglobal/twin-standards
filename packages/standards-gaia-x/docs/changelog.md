@@ -1,5 +1,19 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.3-next.48](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.47...standards-gaia-x-v0.0.3-next.48) (2026-03-06)
+
+
+### Miscellaneous Chores
+
+* **standards-gaia-x:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.47 to 0.0.3-next.48
+
 ## [0.0.3-next.47](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.46...standards-gaia-x-v0.0.3-next.47) (2026-03-06)
 
 
