@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.47](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.46...standards-unece-v0.0.3-next.47) (2026-03-06)
+
+
+### Bug Fixes
+
+* add prefix to unece schema urls ([9e82037](https://github.com/twinfoundation/standards/commit/9e82037c3444a2200b181a4718080ce4c9a8ad0b))
+
 ## [0.0.3-next.46](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.45...standards-unece-v0.0.3-next.46) (2026-03-05)
 
 

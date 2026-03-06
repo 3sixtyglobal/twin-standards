@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.47](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.46...standards-dataspace-protocol-v0.0.3-next.47) (2026-03-06)
+
+
+### Bug Fixes
+
+* remove uid from ds protocol offer ([ebd3ef8](https://github.com/twinfoundation/standards/commit/ebd3ef88aa0f90eaf8f826f84784db59d1f55da0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.46 to 0.0.3-next.47
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.46 to 0.0.3-next.47
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.46 to 0.0.3-next.47
+
 ## [0.0.3-next.46](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.45...standards-dataspace-protocol-v0.0.3-next.46) (2026-03-05)
 
 
