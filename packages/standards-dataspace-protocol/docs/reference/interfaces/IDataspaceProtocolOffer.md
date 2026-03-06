@@ -26,14 +26,6 @@ Unique identifier for the offer.
 
 ***
 
-### uid?
-
-> `optional` **uid**: `string`
-
-Unique identifier for the offer.
-
-***
-
 ### @type
 
 > **@type**: `"Offer"`
