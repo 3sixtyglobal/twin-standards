@@ -16,7 +16,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Article type.
 

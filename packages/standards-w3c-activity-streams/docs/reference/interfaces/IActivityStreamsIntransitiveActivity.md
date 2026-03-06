@@ -20,7 +20,7 @@ https://www.w3.org/TR/activitystreams-core/#intransitiveactivities
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Intransitive activity type.
 

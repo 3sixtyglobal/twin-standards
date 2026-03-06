@@ -54,11 +54,23 @@ Base shipment event.
 
 Base transport event.
 
+### DocumentTypeCodes
+
+> `readonly` **DocumentTypeCodes**: `"DocumentTypeCodes"` = `"DocumentTypeCodes"`
+
+Document type codes.
+
 ### EquipmentEvent
 
 > `readonly` **EquipmentEvent**: `"EquipmentEvent"` = `"EquipmentEvent"`
 
 Equipment event.
+
+### EquipmentEventTypeCodes
+
+> `readonly` **EquipmentEventTypeCodes**: `"EquipmentEventTypeCodes"` = `"EquipmentEventTypeCodes"`
+
+Equipment event type codes.
 
 ### EquipmentPayload
 
@@ -77,6 +89,18 @@ Equipment subscription body.
 > `readonly` **Event**: `"Event"` = `"Event"`
 
 Event.
+
+### EventClassifierCode
+
+> `readonly` **EventClassifierCode**: `"EventClassifierCode"` = `"EventClassifierCode"`
+
+Event classifier code.
+
+### EventClassifierCodeNoReq
+
+> `readonly` **EventClassifierCodeNoReq**: `"EventClassifierCodeNoReq"` = `"EventClassifierCodeNoReq"`
+
+Event classifier code excluding REQ.
 
 ### EventMetadataActive
 
@@ -114,11 +138,23 @@ Event retraction.
 
 Event with payload.
 
+### EventTypes
+
+> `readonly` **EventTypes**: `"EventTypes"` = `"EventTypes"`
+
+Event types.
+
 ### IotEvent
 
 > `readonly` **IotEvent**: `"IotEvent"` = `"IotEvent"`
 
 IoT event.
+
+### IotEventCode
+
+> `readonly` **IotEventCode**: `"IotEventCode"` = `"IotEventCode"`
+
+IoT event code.
 
 ### IotEventMetadataActive
 
@@ -132,6 +168,12 @@ IoT event metadata (active).
 
 IoT event metadata (retraction).
 
+### IotEventTypeCodes
+
+> `readonly` **IotEventTypeCodes**: `"IotEventTypeCodes"` = `"IotEventTypeCodes"`
+
+IoT event type code.
+
 ### IotPayload
 
 > `readonly` **IotPayload**: `"IotPayload"` = `"IotPayload"`
@@ -144,11 +186,41 @@ IoT payload.
 
 IoT subscription body.
 
+### ModeOfTransport
+
+> `readonly` **ModeOfTransport**: `"ModeOfTransport"` = `"ModeOfTransport"`
+
+Mode of transport.
+
+### OperationsEventTypeCodes
+
+> `readonly` **OperationsEventTypeCodes**: `"OperationsEventTypeCodes"` = `"OperationsEventTypeCodes"`
+
+Operations event type codes.
+
+### PortCallPhaseTypeCodes
+
+> `readonly` **PortCallPhaseTypeCodes**: `"PortCallPhaseTypeCodes"` = `"PortCallPhaseTypeCodes"`
+
+Port call phase type codes.
+
+### PortCallServiceTypeCodes
+
+> `readonly` **PortCallServiceTypeCodes**: `"PortCallServiceTypeCodes"` = `"PortCallServiceTypeCodes"`
+
+Port call service type codes.
+
 ### Publisher
 
 > `readonly` **Publisher**: `"Publisher"` = `"Publisher"`
 
 Publisher.
+
+### PublisherRole
+
+> `readonly` **PublisherRole**: `"PublisherRole"` = `"PublisherRole"`
+
+Publisher role.
 
 ### RailTransportCall
 
@@ -173,6 +245,12 @@ Reefer event metadata (active).
 > `readonly` **ReeferEventMetadataRetraction**: `"ReeferEventMetadataRetraction"` = `"ReeferEventMetadataRetraction"`
 
 Reefer event metadata (retraction).
+
+### ReeferEventTypeCodes
+
+> `readonly` **ReeferEventTypeCodes**: `"ReeferEventTypeCodes"` = `"ReeferEventTypeCodes"`
+
+Reefer event type codes.
 
 ### ReeferMeasurements
 
@@ -216,6 +294,12 @@ Related document reference.
 
 Shipment event.
 
+### ShipmentEventTypeCodes
+
+> `readonly` **ShipmentEventTypeCodes**: `"ShipmentEventTypeCodes"` = `"ShipmentEventTypeCodes"`
+
+Shipment event type codes.
+
 ### ShipmentPayload
 
 > `readonly` **ShipmentPayload**: `"ShipmentPayload"` = `"ShipmentPayload"`
@@ -228,11 +312,23 @@ Shipment payload.
 
 Shipment subscription body.
 
+### TntPublisherRole
+
+> `readonly` **TntPublisherRole**: `"TntPublisherRole"` = `"TntPublisherRole"`
+
+TNT publisher role.
+
 ### TransportCall
 
 > `readonly` **TransportCall**: `"TransportCall"` = `"TransportCall"`
 
 Transport call.
+
+### TransportCallFacilityTypeCodes
+
+> `readonly` **TransportCallFacilityTypeCodes**: `"TransportCallFacilityTypeCodes"` = `"TransportCallFacilityTypeCodes"`
+
+Transport call facility type codes.
 
 ### TransportCallBase
 
@@ -251,6 +347,12 @@ Transport call subscription body.
 > `readonly` **TransportEvent**: `"TransportEvent"` = `"TransportEvent"`
 
 Transport event.
+
+### TransportEventTypeCodes
+
+> `readonly` **TransportEventTypeCodes**: `"TransportEventTypeCodes"` = `"TransportEventTypeCodes"`
+
+Transport event type codes.
 
 ### TransportPayload
 

@@ -16,7 +16,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Note type.
 

@@ -31,11 +31,23 @@ Catalog Error.
 
 Dataset.
 
+### DatasetNoContext
+
+> `readonly` **DatasetNoContext**: `"DatasetNoContext"` = `"DatasetNoContext"`
+
+Dataset without JSON-LD context.
+
 ### DataService
 
 > `readonly` **DataService**: `"DataService"` = `"DataService"`
 
 Data Service.
+
+### DataServiceNoContext
+
+> `readonly` **DataServiceNoContext**: `"DataServiceNoContext"` = `"DataServiceNoContext"`
+
+Data Service without JSON-LD context.
 
 ### Distribution
 
@@ -43,11 +55,35 @@ Data Service.
 
 Distribution.
 
+### DistributionNoContext
+
+> `readonly` **DistributionNoContext**: `"DistributionNoContext"` = `"DistributionNoContext"`
+
+Distribution without JSON-LD context.
+
 ### Catalog
 
 > `readonly` **Catalog**: `"Catalog"` = `"Catalog"`
 
 Catalog.
+
+### CatalogNoContext
+
+> `readonly` **CatalogNoContext**: `"CatalogNoContext"` = `"CatalogNoContext"`
+
+Catalog without JSON-LD context.
+
+### Policy
+
+> `readonly` **Policy**: `"Policy"` = `"Policy"`
+
+Policy.
+
+### PolicyNoContext
+
+> `readonly` **PolicyNoContext**: `"PolicyNoContext"` = `"PolicyNoContext"`
+
+Policy without JSON-LD context.
 
 ### Offer
 
@@ -55,8 +91,32 @@ Catalog.
 
 Offer.
 
+### OfferNoContext
+
+> `readonly` **OfferNoContext**: `"OfferNoContext"` = `"OfferNoContext"`
+
+Offer without JSON-LD context.
+
 ### Agreement
 
 > `readonly` **Agreement**: `"Agreement"` = `"Agreement"`
 
 Agreement.
+
+### AgreementNoContext
+
+> `readonly` **AgreementNoContext**: `"AgreementNoContext"` = `"AgreementNoContext"`
+
+Agreement without JSON-LD context.
+
+### Set
+
+> `readonly` **Set**: `"Set"` = `"Set"`
+
+Set.
+
+### SetNoContext
+
+> `readonly` **SetNoContext**: `"SetNoContext"` = `"SetNoContext"`
+
+Set without JSON-LD context.

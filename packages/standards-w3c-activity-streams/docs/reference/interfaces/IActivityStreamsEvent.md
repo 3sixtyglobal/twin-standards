@@ -16,7 +16,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Event type.
 

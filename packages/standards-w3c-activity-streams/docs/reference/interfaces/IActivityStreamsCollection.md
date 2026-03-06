@@ -22,7 +22,7 @@ https://www.w3.org/TR/activitystreams-core/#collections
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Collection type.
 

@@ -29,7 +29,7 @@ Format: ISO 8601 date-time.
 
 ### eventClassifierCode
 
-> **eventClassifierCode**: `"ACT"` \| `"PLN"` \| `"EST"`
+> **eventClassifierCode**: [`DcsaEventClassifierCodeNoReq`](../type-aliases/DcsaEventClassifierCodeNoReq.md)
 
 Event classifier code.
 

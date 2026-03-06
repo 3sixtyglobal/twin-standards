@@ -65,7 +65,7 @@ Participant Id
 
 ### catalog?
 
-> `optional` **catalog**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<`IDataspaceProtocolCatalog`\>\>
+> `optional` **catalog**: [`IDataspaceProtocolCatalogNoContext`](../type-aliases/IDataspaceProtocolCatalogNoContext.md) \| [`IDataspaceProtocolCatalogNoContext`](../type-aliases/IDataspaceProtocolCatalogNoContext.md)[]
 
 Other concerned catalogs
 
@@ -73,7 +73,7 @@ Other concerned catalogs
 
 ### dataset?
 
-> `optional` **dataset**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDataset`](IDataspaceProtocolDataset.md)\>\>
+> `optional` **dataset**: [`IDataspaceProtocolDatasetNoContext`](../type-aliases/IDataspaceProtocolDatasetNoContext.md) \| [`IDataspaceProtocolDatasetNoContext`](../type-aliases/IDataspaceProtocolDatasetNoContext.md)[]
 
 Datasets registered
 
@@ -81,7 +81,7 @@ Datasets registered
 
 ### distribution?
 
-> `optional` **distribution**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDistribution`](IDataspaceProtocolDistribution.md)\>\>
+> `optional` **distribution**: [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md) \| [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md)[]
 
 Catalog's distributions
 
@@ -89,7 +89,7 @@ Catalog's distributions
 
 ### service?
 
-> `optional` **service**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md)\>\>
+> `optional` **service**: [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md) \| [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md)[]
 
 Data services registered-
 

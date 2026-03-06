@@ -13,7 +13,7 @@ Extends IOdrlAgreement with DS Protocol-specific constraints:
 
 ## Extends
 
-- `Omit`\<`IOdrlAgreement`, `"@context"` \| `"uid"`\>
+- `Omit`\<`IOdrlAgreement`, `"uid"`\>
 
 ## Properties
 
@@ -60,6 +60,19 @@ Required for Agreement policies.
 #### Inherited from
 
 `Omit.assignee`
+
+***
+
+### @context
+
+> **@context**: `OdrlContextType`
+
+The context for the policy.
+Must include "https://www.w3.org/ns/odrl.jsonld"
+
+#### Inherited from
+
+`Omit.@context`
 
 ***
 

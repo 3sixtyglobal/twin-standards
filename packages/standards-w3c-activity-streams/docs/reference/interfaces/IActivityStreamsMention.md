@@ -157,7 +157,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Mention type.
 

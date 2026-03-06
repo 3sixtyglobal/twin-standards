@@ -10,7 +10,7 @@ by overriding properties with more specific types and constraints.
 - `odrl:hasPolicy` MUST be present as an array of ODRL Offers (REQUIRED)
 - Array MUST contain at least one IOdrlOffer
 - Each Offer MUST have `@type`: "Offer"
-- Each Offer MUST have `@id` or `uid` for identification
+- Each Offer MUST have `@id`
 - `dcat:distribution` MUST be present (REQUIRED)
 
 **Type System Design:**
@@ -69,7 +69,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### hasPolicy
 
-> **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOffer`](IDataspaceProtocolOffer.md)\>
+> **hasPolicy**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md) \| [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)[]
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -82,7 +82,7 @@ allows for future multi-offer support.
 
 ### distribution
 
-> **distribution**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDistribution`](IDataspaceProtocolDistribution.md)\>\>
+> **distribution**: [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md) \| [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md)[]
 
 Distribution of the dataset.
 REQUIRED per Eclipse Data Space Protocol.

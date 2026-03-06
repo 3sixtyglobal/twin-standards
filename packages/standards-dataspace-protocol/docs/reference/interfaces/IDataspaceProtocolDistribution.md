@@ -68,7 +68,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### hasPolicy?
 
-> `optional` **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOffer`](IDataspaceProtocolOffer.md)\>
+> `optional` **hasPolicy**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md) \| [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)[]
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -81,7 +81,7 @@ allows for future multi-offer support.
 
 ### accessService
 
-> **accessService**: `string` \| `JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md)\>
+> **accessService**: `string` \| [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md)
 
 Access service.
 It can be a URI pointing to an access service or inline the access service itself

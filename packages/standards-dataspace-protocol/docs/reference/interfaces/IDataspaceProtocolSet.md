@@ -1,19 +1,19 @@
-# Interface: IDataspaceProtocolOffer
+# Interface: IDataspaceProtocolSet
 
-Offer interface compliant with Eclipse Data Space Protocol.
+Set interface compliant with Eclipse Data Space Protocol.
 
-Extends IOdrlOffer with DS Protocol-specific constraints:
-- `@id` is REQUIRED (used as the primary offer identifier in DS Protocol)
+Extends IOdrlSet with DS Protocol-specific constraints:
+- `@id` is REQUIRED (used as the primary set identifier in DS Protocol)
 - `@context` is omitted (inherited from the parent Dataset/Distribution)
 
 ## See
 
  - https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
- - IOdrlOffer from @twin.org/standards-w3c-odrl
+ - IOdrlSet from @twin.org/standards-w3c-odrl
 
 ## Extends
 
-- `Omit`\<`IOdrlOffer`, `"uid"`\>
+- `Omit`\<`IOdrlSet`, `"uid"`\>
 
 ## Properties
 
@@ -21,32 +21,7 @@ Extends IOdrlOffer with DS Protocol-specific constraints:
 
 > **@id**: `string`
 
-Unique identifier for the offer.
-
-***
-
-### @type
-
-> **@type**: `"Offer"`
-
-The type must be "Offer".
-
-#### Inherited from
-
-`Omit.@type`
-
-***
-
-### assigner
-
-> **assigner**: `string` \| `IOdrlParty`
-
-The assigner of the offer.
-Required for Offer policies.
-
-#### Inherited from
-
-`Omit.assigner`
+Unique identifier for the set.
 
 ***
 
@@ -73,6 +48,19 @@ IRIs identifying the ODRL Profile(s).
 #### Inherited from
 
 `Omit.profile`
+
+***
+
+### assigner?
+
+> `optional` **assigner**: `string` \| `IOdrlParty` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlParty` \| `IOdrlPartyCollection`)[]
+
+The assigner of the policy.
+Applies to all rules unless overridden at rule level.
+
+#### Inherited from
+
+`Omit.assigner`
 
 ***
 
@@ -177,3 +165,15 @@ At least one of permission, prohibition, or obligation must be present.
 #### Inherited from
 
 `Omit.obligation`
+
+***
+
+### @type
+
+> **@type**: `"Set"`
+
+The type must be "Set".
+
+#### Inherited from
+
+`Omit.@type`

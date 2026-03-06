@@ -25,7 +25,7 @@ https://www.w3.org/TR/activitystreams-core/#actors
 
 ### type?
 
-> `optional` **type**: `ObjectOrArray`\<`string`\>
+> `optional` **type**: `string` \| `string`[]
 
 Actor type.
 

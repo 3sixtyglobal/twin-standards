@@ -662,7 +662,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-ordereditems
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 OrderedCollectionPage type.
 

@@ -101,7 +101,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-current
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 CollectionPage type.
 

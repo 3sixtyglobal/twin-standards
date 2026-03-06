@@ -39,7 +39,7 @@ The consumer id for the contract.
 
 ### offer
 
-> **offer**: [`IDataspaceProtocolOffer`](IDataspaceProtocolOffer.md)
+> **offer**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)
 
 The offer being requested.
 

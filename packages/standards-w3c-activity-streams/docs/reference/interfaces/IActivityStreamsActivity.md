@@ -29,7 +29,7 @@ The LD Context.
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Activity Type.
 

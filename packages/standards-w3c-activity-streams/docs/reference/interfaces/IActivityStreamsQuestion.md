@@ -598,7 +598,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Question type.
 

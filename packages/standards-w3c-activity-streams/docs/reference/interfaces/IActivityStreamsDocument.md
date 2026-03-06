@@ -23,7 +23,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document
 
 ### type
 
-> **type**: `ObjectOrArray`\<`string`\>
+> **type**: `string` \| `string`[]
 
 Document type.
 

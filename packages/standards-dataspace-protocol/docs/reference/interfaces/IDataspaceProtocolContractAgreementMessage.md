@@ -39,7 +39,7 @@ The consumer id for the contract.
 
 ### agreement
 
-> **agreement**: [`IDataspaceProtocolAgreement`](IDataspaceProtocolAgreement.md)
+> **agreement**: [`IDataspaceProtocolAgreementNoContext`](../type-aliases/IDataspaceProtocolAgreementNoContext.md)
 
 The agreement being sent.
 

@@ -36,7 +36,7 @@ The LD Context.
 
 ### type?
 
-> `optional` **type**: `ObjectOrArray`\<`string`\>
+> `optional` **type**: `string` \| `string`[]
 
 Object type.
 
