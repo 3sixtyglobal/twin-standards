@@ -1,9 +1,10 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
+import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
 import type { IDcatCatalog } from "@twin.org/standards-w3c-dcat";
+import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
 import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
 import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
@@ -57,20 +58,20 @@ export interface IDataspaceProtocolCatalog extends Omit<
 	/**
 	 * Other concerned catalogs
 	 */
-	catalog?: ObjectOrArray<Omit<IDataspaceProtocolCatalog, "@context">>;
+	catalog?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolCatalog>>;
 
 	/**
 	 * Datasets registered
 	 */
-	dataset?: ObjectOrArray<Omit<IDataspaceProtocolDataset, "@context">>;
+	dataset?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDataset>>;
 
 	/**
 	 * Catalog's distributions
 	 */
-	distribution?: ObjectOrArray<Omit<IDataspaceProtocolDistribution, "@context">>;
+	distribution?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDistribution>>;
 
 	/**
 	 * Data services registered-
 	 */
-	service?: ObjectOrArray<Omit<IDataspaceProtocolDataService, "@context">>;
+	service?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDataService>>;
 }

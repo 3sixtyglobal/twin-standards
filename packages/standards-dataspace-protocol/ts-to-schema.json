@@ -11,9 +11,15 @@
 		"./src/models/contractNegotiation/IDataspaceProtocolContractRequestMessage.ts",
 		"./src/models/contractNegotiation/types/dataspaceProtocolContractNegotiationEventType.ts",
 		"./src/models/contractNegotiation/types/dataspaceProtocolContractNegotiationStateType.ts",
+		"./src/models/catalog/IDataspaceProtocolCatalogError.ts",
 		"./src/models/catalog/IDataspaceProtocolCatalogRequestMessage.ts",
 		"./src/models/catalog/IDataspaceProtocolDatasetRequestMessage.ts",
-		"./src/models/catalog/IDataspaceProtocolCatalogError.ts",
+		"./src/models/dcat3/IDataspaceProtocolCatalog.ts",
+		"./src/models/dcat3/IDataspaceProtocolDataService.ts",
+		"./src/models/dcat3/IDataspaceProtocolDataset.ts",
+		"./src/models/dcat3/IDataspaceProtocolDistribution.ts",
+		"./src/models/odrl/IDataspaceProtocolAgreement.ts",
+		"./src/models/odrl/IDataspaceProtocolOffer.ts",
 		"./src/models/transferProcess/IDataspaceProtocolDataAddress.ts",
 		"./src/models/transferProcess/IDataspaceProtocolEndpointProperty.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferCompletionMessage.ts",
@@ -23,9 +29,7 @@
 		"./src/models/transferProcess/IDataspaceProtocolTransferStartMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferSuspensionMessage.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferTerminationMessage.ts",
-		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts",
-		"./src/models/catalog/IDataspaceProtocolDataset.ts",
-		"./src/models/catalog/IDataspaceProtocolCatalog.ts"
+		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts"
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"

@@ -40,7 +40,17 @@ export const DataspaceProtocolCatalogTypes = {
 	/**
 	 * Catalog.
 	 */
-	Catalog: "Catalog"
+	Catalog: "Catalog",
+
+	/**
+	 * Offer.
+	 */
+	Offer: "Offer",
+
+	/**
+	 * Agreement.
+	 */
+	Agreement: "Agreement"
 } as const;
 
 /**

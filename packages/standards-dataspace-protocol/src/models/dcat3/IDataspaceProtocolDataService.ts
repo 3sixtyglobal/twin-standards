@@ -1,11 +1,11 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
+import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
 import type { IDcatDataService } from "@twin.org/standards-w3c-dcat";
+import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
-
 /**
  * Data Service interface compliant with Eclipse Data Space Protocol.
  *
@@ -55,5 +55,5 @@ export interface IDataspaceProtocolDataService extends Omit<
 	/**
 	 * Datasets served.
 	 */
-	servesDataset?: ObjectOrArray<Omit<IDataspaceProtocolDataset, "@context">>;
+	servesDataset?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDataset>>;
 }

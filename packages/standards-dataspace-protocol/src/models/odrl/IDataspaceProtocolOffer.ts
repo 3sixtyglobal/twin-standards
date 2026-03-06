@@ -8,7 +8,6 @@ import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
  * Extends IOdrlOffer with DS Protocol-specific constraints:
  * - `@id` is REQUIRED (used as the primary offer identifier in DS Protocol)
  * - `@context` is omitted (inherited from the parent Dataset/Distribution)
- * - `uid` is optional (DS Protocol uses `@id` instead of ODRL `uid`)
  *
  * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl

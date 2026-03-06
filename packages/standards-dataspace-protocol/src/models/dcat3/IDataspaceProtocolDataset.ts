@@ -1,24 +1,26 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IDcatDistribution } from "@twin.org/standards-w3c-dcat";
+import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
+import type { IDcatDataset } from "@twin.org/standards-w3c-dcat";
+import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
-import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
-import type { IDataspaceProtocolOffer } from "./IDataspaceProtocolOffer.js";
+import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
+import type { IDataspaceProtocolOffer } from "../odrl/IDataspaceProtocolOffer.js";
 
 /**
- * Distribution interface compliant with Eclipse Data Space Protocol.
+ * Dataset interface compliant with Eclipse Data Space Protocol.
  *
- * This interface extends IDistribution  and enforces DS Protocol-specific requirements
+ * This interface extends IDataset and enforces DS Protocol-specific requirements
  * by overriding properties with more specific types and constraints.
  *
  * **Requirements per DS Protocol:**
  * - `@id` MUST be present for dataset identification (REQUIRED)
- * - `odrl:hasPolicy` MIGHT be present as an array of ODRL Offers (OPTIONAL)
+ * - `odrl:hasPolicy` MUST be present as an array of ODRL Offers (REQUIRED)
  * - Array MUST contain at least one IOdrlOffer
  * - Each Offer MUST have `@type`: "Offer"
- * - `format` is REQUIRED.
+ * - Each Offer MUST have `@id` or `uid` for identification
+ * - `dcat:distribution` MUST be present (REQUIRED)
  *
  * **Type System Design:**
  * - W3C DCAT spec defines `odrl:hasPolicy` as optional singular `IOdrlPolicy`
@@ -36,9 +38,9 @@ import type { IDataspaceProtocolOffer } from "./IDataspaceProtocolOffer.js";
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl
  * @see IResource.odrl:hasPolicy from @twin.org/standards-w3c-dcat
  */
-export interface IDataspaceProtocolDistribution extends Omit<
-	IDcatDistribution,
-	"odrl:hasPolicy" | "@type" | "@context" | "dcterms:format"
+export interface IDataspaceProtocolDataset extends Omit<
+	IDcatDataset,
+	"odrl:hasPolicy" | "dcat:distribution" | "@type" | "@context"
 > {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
@@ -46,10 +48,10 @@ export interface IDataspaceProtocolDistribution extends Omit<
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * The type identifier for the Distribution.
+	 * The type identifier for the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	"@type": typeof DataspaceProtocolCatalogTypes.Distribution;
+	"@type": typeof DataspaceProtocolCatalogTypes.Dataset;
 
 	/**
 	 * Unique identifier for the dataset.
@@ -65,17 +67,11 @@ export interface IDataspaceProtocolDistribution extends Omit<
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy?: ObjectOrArray<IDataspaceProtocolOffer>;
+	hasPolicy: ObjectOrArray<IDataspaceProtocolOffer>;
 
 	/**
-	 * Access service.
-	 * It can be a URI pointing to an access service or inline the access service itself
-	 */
-	accessService: string | Omit<IDataspaceProtocolDataService, "@context">;
-
-	/**
-	 * Distribution format.
+	 * Distribution of the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	format: string;
+	distribution: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDistribution>>;
 }

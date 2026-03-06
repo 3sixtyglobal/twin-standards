@@ -3,6 +3,7 @@
 export * from "./models/dataspaceProtocolContexts.js";
 export * from "./models/dataspaceProtocolContextType.js";
 export * from "./dataTypes/dataspaceProtocolDataTypes.js";
+export * from "./dataTypes/catalogDataTypes.js";
 
 // Catalog Protocol
 export * from "./models/catalog/dataspaceProtocolCatalogTypes.js";
@@ -10,13 +11,15 @@ export * from "./models/catalog/IDataspaceProtocolCatalogError.js";
 export * from "./models/catalog/IDataspaceProtocolCatalogRequestMessage.js";
 export * from "./models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
 
-export * from "./models/catalog/IDataspaceProtocolDataset.js";
-export * from "./models/catalog/IDataspaceProtocolCatalog.js";
-export * from "./models/catalog/IDataspaceProtocolDistribution.js";
-export * from "./models/catalog/IDataspaceProtocolOffer.js";
-export * from "./models/catalog/IDataspaceProtocolDataService.js";
+// DCAT3 Variants
+export * from "./models/dcat3/IDataspaceProtocolDataset.js";
+export * from "./models/dcat3/IDataspaceProtocolCatalog.js";
+export * from "./models/dcat3/IDataspaceProtocolDistribution.js";
+export * from "./models/dcat3/IDataspaceProtocolDataService.js";
 
-export * from "./dataTypes/catalogDataTypes.js";
+// ODRL Variants
+export * from "./models/odrl/IDataspaceProtocolAgreement.js";
+export * from "./models/odrl/IDataspaceProtocolOffer.js";
 
 // Contract Negotiation Protocol
 export * from "./models/contractNegotiation/dataspaceProtocolContractNegotiationTypes.js";
