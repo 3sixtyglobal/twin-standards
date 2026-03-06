@@ -1,8 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IDataspaceProtocolAgreement } from "../odrl/IDataspaceProtocolAgreement.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
 import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProtocolContractNegotiationTypes.js";
+import type { IDataspaceProtocolAgreement } from "../odrl/IDataspaceProtocolAgreement.js";
 
 /**
  * Interface for Dataspace Protocol Contract Agreement Messages.
