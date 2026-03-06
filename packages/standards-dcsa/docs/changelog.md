@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.49](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.48...standards-dcsa-v0.0.3-next.49) (2026-03-06)
+
+
+### Bug Fixes
+
+* json schemas for dcsa and activity streams ([26aec73](https://github.com/twinfoundation/standards/commit/26aec73cb431326db4bf61f3b0e01b458e288983))
+
 ## [0.0.3-next.48](https://github.com/twinfoundation/standards/compare/standards-dcsa-v0.0.3-next.47...standards-dcsa-v0.0.3-next.48) (2026-03-06)
 
 

@@ -1,5 +1,12 @@
 # @twin.org/standards-gs1 - Changelog
 
+## [0.0.3-next.49](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.48...standards-gs1-v0.0.3-next.49) (2026-03-06)
+
+
+### Miscellaneous Chores
+
+* **standards-gs1:** Synchronize repo versions
+
 ## [0.0.3-next.48](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.47...standards-gs1-v0.0.3-next.48) (2026-03-06)
 
 

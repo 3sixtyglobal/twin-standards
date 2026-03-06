@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.49](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.48...standards-dataspace-protocol-v0.0.3-next.49) (2026-03-06)
+
+
+### Features
+
+* improved ds protocol schemas ([ed0abe0](https://github.com/twinfoundation/standards/commit/ed0abe0eb5c25da0c837bc39061419c1f3ccbb6d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.48 to 0.0.3-next.49
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.48 to 0.0.3-next.49
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.48 to 0.0.3-next.49
+
 ## [0.0.3-next.48](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.47...standards-dataspace-protocol-v0.0.3-next.48) (2026-03-06)
 
 
