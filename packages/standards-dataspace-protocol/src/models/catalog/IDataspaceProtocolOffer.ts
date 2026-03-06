@@ -18,9 +18,4 @@ export interface IDataspaceProtocolOffer extends Omit<IOdrlOffer, "@context" | "
 	 * Unique identifier for the offer.
 	 */
 	"@id": string;
-
-	/**
-	 * Unique identifier for the offer.
-	 */
-	uid?: string;
 }
