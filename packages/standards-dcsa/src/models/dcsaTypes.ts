@@ -39,9 +39,17 @@ export const DcsaTypes = {
 	 */
 	BaseTransportEvent: "BaseTransportEvent",
 	/**
+	 * Document type codes.
+	 */
+	DocumentTypeCodes: "DocumentTypeCodes",
+	/**
 	 * Equipment event.
 	 */
 	EquipmentEvent: "EquipmentEvent",
+	/**
+	 * Equipment event type codes.
+	 */
+	EquipmentEventTypeCodes: "EquipmentEventTypeCodes",
 	/**
 	 * Equipment payload.
 	 */
@@ -54,6 +62,14 @@ export const DcsaTypes = {
 	 * Event.
 	 */
 	Event: "Event",
+	/**
+	 * Event classifier code.
+	 */
+	EventClassifierCode: "EventClassifierCode",
+	/**
+	 * Event classifier code excluding REQ.
+	 */
+	EventClassifierCodeNoReq: "EventClassifierCodeNoReq",
 	/**
 	 * Event metadata (active).
 	 */
@@ -79,9 +95,17 @@ export const DcsaTypes = {
 	 */
 	EventWithPayload: "EventWithPayload",
 	/**
+	 * Event types.
+	 */
+	EventTypes: "EventTypes",
+	/**
 	 * IoT event.
 	 */
 	IotEvent: "IotEvent",
+	/**
+	 * IoT event code.
+	 */
+	IotEventCode: "IotEventCode",
 	/**
 	 * IoT event metadata (active).
 	 */
@@ -91,6 +115,10 @@ export const DcsaTypes = {
 	 */
 	IotEventMetadataRetraction: "IotEventMetadataRetraction",
 	/**
+	 * IoT event type code.
+	 */
+	IotEventTypeCodes: "IotEventTypeCodes",
+	/**
 	 * IoT payload.
 	 */
 	IotPayload: "IotPayload",
@@ -99,9 +127,29 @@ export const DcsaTypes = {
 	 */
 	IotSubscriptionBody: "IotSubscriptionBody",
 	/**
+	 * Mode of transport.
+	 */
+	ModeOfTransport: "ModeOfTransport",
+	/**
+	 * Operations event type codes.
+	 */
+	OperationsEventTypeCodes: "OperationsEventTypeCodes",
+	/**
+	 * Port call phase type codes.
+	 */
+	PortCallPhaseTypeCodes: "PortCallPhaseTypeCodes",
+	/**
+	 * Port call service type codes.
+	 */
+	PortCallServiceTypeCodes: "PortCallServiceTypeCodes",
+	/**
 	 * Publisher.
 	 */
 	Publisher: "Publisher",
+	/**
+	 * Publisher role.
+	 */
+	PublisherRole: "PublisherRole",
 	/**
 	 * Rail transport call.
 	 */
@@ -118,6 +166,10 @@ export const DcsaTypes = {
 	 * Reefer event metadata (retraction).
 	 */
 	ReeferEventMetadataRetraction: "ReeferEventMetadataRetraction",
+	/**
+	 * Reefer event type codes.
+	 */
+	ReeferEventTypeCodes: "ReeferEventTypeCodes",
 	/**
 	 * Reefer measurements.
 	 */
@@ -147,6 +199,10 @@ export const DcsaTypes = {
 	 */
 	ShipmentEvent: "ShipmentEvent",
 	/**
+	 * Shipment event type codes.
+	 */
+	ShipmentEventTypeCodes: "ShipmentEventTypeCodes",
+	/**
 	 * Shipment payload.
 	 */
 	ShipmentPayload: "ShipmentPayload",
@@ -155,9 +211,17 @@ export const DcsaTypes = {
 	 */
 	ShipmentSubscriptionBody: "ShipmentSubscriptionBody",
 	/**
+	 * TNT publisher role.
+	 */
+	TntPublisherRole: "TntPublisherRole",
+	/**
 	 * Transport call.
 	 */
 	TransportCall: "TransportCall",
+	/**
+	 * Transport call facility type codes.
+	 */
+	TransportCallFacilityTypeCodes: "TransportCallFacilityTypeCodes",
 	/**
 	 * Transport call base.
 	 */
@@ -170,6 +234,10 @@ export const DcsaTypes = {
 	 * Transport event.
 	 */
 	TransportEvent: "TransportEvent",
+	/**
+	 * Transport event type codes.
+	 */
+	TransportEventTypeCodes: "TransportEventTypeCodes",
 	/**
 	 * Transport payload.
 	 */

@@ -22,7 +22,7 @@ export interface IActivityStreamsActivity extends IActivityStreamsObject {
 	/**
 	 * Activity Type.
 	 */
-	type: ObjectOrArray<ActivityStreamsTypes | string>;
+	type: (ActivityStreamsTypes | string) | (ActivityStreamsTypes | string)[];
 
 	/**
 	 * The generator of the Activity.

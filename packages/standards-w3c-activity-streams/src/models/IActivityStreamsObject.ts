@@ -23,7 +23,7 @@ export interface IActivityStreamsObject {
 	 *
 	 * The value can be a single type or an array of types.
 	 */
-	type?: ObjectOrArray<ActivityStreamsObjectTypes | string>;
+	type?: (ActivityStreamsObjectTypes | string) | (ActivityStreamsObjectTypes | string)[];
 
 	/**
 	 * Global identifier.

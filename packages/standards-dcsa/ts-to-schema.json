@@ -4,6 +4,7 @@
 		"./src/models/dcsaDocumentTypeCodes.ts",
 		"./src/models/dcsaEquipmentEventTypeCodes.ts",
 		"./src/models/dcsaEventClassifierCode.ts",
+		"./src/models/dcsaEventClassifierCodeNoReq.ts",
 		"./src/models/dcsaEventTypes.ts",
 		"./src/models/dcsaIotEventCode.ts",
 		"./src/models/dcsaIotEventTypeCodes.ts",

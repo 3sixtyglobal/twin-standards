@@ -16,9 +16,9 @@ export interface IActivityStreamsIntransitiveActivity extends IActivityStreamsOb
 	/**
 	 * Intransitive activity type.
 	 */
-	type: ObjectOrArray<
-		typeof ActivityStreamsObjectTypes.IntransitiveActivity | ActivityStreamsTypes | string
-	>;
+	type:
+		| (typeof ActivityStreamsObjectTypes.IntransitiveActivity | ActivityStreamsTypes | string)
+		| (typeof ActivityStreamsObjectTypes.IntransitiveActivity | ActivityStreamsTypes | string)[];
 
 	/**
 	 * The Actor behind the Activity.

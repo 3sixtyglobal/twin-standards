@@ -1,6 +1,6 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { DcsaEventClassifierCode } from "./dcsaEventClassifierCode.js";
+import type { DcsaEventClassifierCodeNoReq } from "./dcsaEventClassifierCodeNoReq.js";
 import type { DcsaTransportEventTypeCodes } from "./dcsaTransportEventTypeCodes.js";
 import type { IDcsaBaseEvent } from "./IDcsaBaseEvent.js";
 import type { IDcsaReference } from "./IDcsaReference.js";
@@ -17,7 +17,7 @@ export interface IDcsaTransportPayload extends IDcsaBaseEvent {
 	/**
 	 * Event classifier code.
 	 */
-	eventClassifierCode: Exclude<DcsaEventClassifierCode, "REQ">;
+	eventClassifierCode: DcsaEventClassifierCodeNoReq;
 	/**
 	 * Transport event type code.
 	 */

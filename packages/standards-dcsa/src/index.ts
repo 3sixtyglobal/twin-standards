@@ -5,6 +5,7 @@ export * from "./models/dcsaContexts.js";
 export * from "./models/dcsaDocumentTypeCodes.js";
 export * from "./models/dcsaEquipmentEventTypeCodes.js";
 export * from "./models/dcsaEventClassifierCode.js";
+export * from "./models/dcsaEventClassifierCodeNoReq.js";
 export * from "./models/dcsaEventTypes.js";
 export * from "./models/dcsaIotEventCode.js";
 export * from "./models/dcsaIotEventTypeCodes.js";

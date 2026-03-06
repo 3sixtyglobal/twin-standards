@@ -17,7 +17,9 @@ export interface IActivityStreamsQuestion extends IActivityStreamsIntransitiveAc
 	/**
 	 * Question type.
 	 */
-	type: ObjectOrArray<typeof ActivityStreamsTypes.Question | string>;
+	type:
+		| (typeof ActivityStreamsTypes.Question | string)
+		| (typeof ActivityStreamsTypes.Question | string)[];
 
 	/**
 	 * Specifies an inclusive list of possible answers.

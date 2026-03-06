@@ -15,7 +15,9 @@ export interface IActivityStreamsTombstone extends IActivityStreamsObject {
 	/**
 	 * Tombstone type.
 	 */
-	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.Tombstone | string>;
+	type:
+		| (typeof ActivityStreamsObjectTypes.Tombstone | string)
+		| (typeof ActivityStreamsObjectTypes.Tombstone | string)[];
 
 	/**
 	 * The date and time at which the object was deleted.

@@ -15,7 +15,9 @@ export interface IActivityStreamsOrderedCollection extends IActivityStreamsColle
 	/**
 	 * OrderedCollection type.
 	 */
-	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.OrderedCollection | string>;
+	type:
+		| (typeof ActivityStreamsObjectTypes.OrderedCollection | string)
+		| (typeof ActivityStreamsObjectTypes.OrderedCollection | string)[];
 
 	/**
 	 * The ordered items of the collection.

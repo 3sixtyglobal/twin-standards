@@ -21,7 +21,7 @@ export interface IActivityStreamsLink {
 	/**
 	 * Link type.
 	 */
-	type: ObjectOrArray<ActivityStreamsLinkTypes | string>;
+	type: (ActivityStreamsLinkTypes | string) | (ActivityStreamsLinkTypes | string)[];
 
 	/**
 	 * The target URI of the Link.
