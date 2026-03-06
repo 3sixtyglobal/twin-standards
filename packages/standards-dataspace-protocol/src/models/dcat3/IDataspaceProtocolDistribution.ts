@@ -1,12 +1,10 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
-import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
 import type { IDcatDistribution } from "@twin.org/standards-w3c-dcat";
 import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
-import type { IDataspaceProtocolOffer } from "../odrl/IDataspaceProtocolOffer.js";
+import type { IDataspaceProtocolDataServiceNoContext } from "./IDataspaceProtocolDataServiceNoContext.js";
+import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtocolOfferNoContext.js";
 
 /**
  * Distribution interface compliant with Eclipse Data Space Protocol.
@@ -66,13 +64,13 @@ export interface IDataspaceProtocolDistribution extends Omit<
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy?: ObjectOrArray<IDataspaceProtocolOffer>;
+	hasPolicy?: IDataspaceProtocolOfferNoContext | IDataspaceProtocolOfferNoContext[];
 
 	/**
 	 * Access service.
 	 * It can be a URI pointing to an access service or inline the access service itself
 	 */
-	accessService: string | JsonLdObjectWithNoContext<IDataspaceProtocolDataService>;
+	accessService: string | IDataspaceProtocolDataServiceNoContext;
 
 	/**
 	 * Distribution format.

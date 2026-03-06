@@ -12,7 +12,7 @@ import type { IOdrlAgreement } from "@twin.org/standards-w3c-odrl";
  * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
  * @see IOdrlAgreement from @twin.org/standards-w3c-odrl
  */
-export interface IDataspaceProtocolAgreement extends Omit<IOdrlAgreement, "@context" | "uid"> {
+export interface IDataspaceProtocolAgreement extends Omit<IOdrlAgreement, "uid"> {
 	/**
 	 * Unique identifier for the agreement.
 	 */

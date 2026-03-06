@@ -12,7 +12,7 @@ import type { IOdrlOffer } from "@twin.org/standards-w3c-odrl";
  * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl
  */
-export interface IDataspaceProtocolOffer extends Omit<IOdrlOffer, "@context" | "uid"> {
+export interface IDataspaceProtocolOffer extends Omit<IOdrlOffer, "uid"> {
 	/**
 	 * Unique identifier for the offer.
 	 */

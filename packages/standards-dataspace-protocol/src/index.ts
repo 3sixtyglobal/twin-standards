@@ -13,13 +13,23 @@ export * from "./models/catalog/IDataspaceProtocolDatasetRequestMessage.js";
 
 // DCAT3 Variants
 export * from "./models/dcat3/IDataspaceProtocolDataset.js";
+export * from "./models/dcat3/IDataspaceProtocolDatasetNoContext.js";
 export * from "./models/dcat3/IDataspaceProtocolCatalog.js";
+export * from "./models/dcat3/IDataspaceProtocolCatalogNoContext.js";
 export * from "./models/dcat3/IDataspaceProtocolDistribution.js";
+export * from "./models/dcat3/IDataspaceProtocolDistributionNoContext.js";
 export * from "./models/dcat3/IDataspaceProtocolDataService.js";
+export * from "./models/dcat3/IDataspaceProtocolDataServiceNoContext.js";
 
 // ODRL Variants
 export * from "./models/odrl/IDataspaceProtocolAgreement.js";
+export * from "./models/odrl/IDataspaceProtocolAgreementNoContext.js";
 export * from "./models/odrl/IDataspaceProtocolOffer.js";
+export * from "./models/odrl/IDataspaceProtocolOfferNoContext.js";
+export * from "./models/odrl/IDataspaceProtocolPolicy.js";
+export * from "./models/odrl/IDataspaceProtocolPolicyNoContext.js";
+export * from "./models/odrl/IDataspaceProtocolSet.js";
+export * from "./models/odrl/IDataspaceProtocolSetNoContext.js";
 
 // Contract Negotiation Protocol
 export * from "./models/contractNegotiation/dataspaceProtocolContractNegotiationTypes.js";

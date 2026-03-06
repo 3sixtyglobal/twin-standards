@@ -1,12 +1,10 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
-import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
 import type { IDcatDataset } from "@twin.org/standards-w3c-dcat";
 import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
-import type { IDataspaceProtocolOffer } from "../odrl/IDataspaceProtocolOffer.js";
+import type { IDataspaceProtocolDistributionNoContext } from "./IDataspaceProtocolDistributionNoContext.js";
+import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtocolOfferNoContext.js";
 
 /**
  * Dataset interface compliant with Eclipse Data Space Protocol.
@@ -19,7 +17,7 @@ import type { IDataspaceProtocolOffer } from "../odrl/IDataspaceProtocolOffer.js
  * - `odrl:hasPolicy` MUST be present as an array of ODRL Offers (REQUIRED)
  * - Array MUST contain at least one IOdrlOffer
  * - Each Offer MUST have `@type`: "Offer"
- * - Each Offer MUST have `@id` or `uid` for identification
+ * - Each Offer MUST have `@id`
  * - `dcat:distribution` MUST be present (REQUIRED)
  *
  * **Type System Design:**
@@ -67,11 +65,11 @@ export interface IDataspaceProtocolDataset extends Omit<
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
 	 */
-	hasPolicy: ObjectOrArray<IDataspaceProtocolOffer>;
+	hasPolicy: IDataspaceProtocolOfferNoContext | IDataspaceProtocolOfferNoContext[];
 
 	/**
 	 * Distribution of the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
 	 */
-	distribution: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDistribution>>;
+	distribution: IDataspaceProtocolDistributionNoContext | IDataspaceProtocolDistributionNoContext[];
 }

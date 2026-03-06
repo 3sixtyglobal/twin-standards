@@ -1,13 +1,12 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
-import type { JsonLdObjectWithNoContext } from "@twin.org/data-json-ld";
 import type { IDcatCatalog } from "@twin.org/standards-w3c-dcat";
 import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDataService } from "./IDataspaceProtocolDataService.js";
-import type { IDataspaceProtocolDataset } from "./IDataspaceProtocolDataset.js";
-import type { IDataspaceProtocolDistribution } from "./IDataspaceProtocolDistribution.js";
+import type { IDataspaceProtocolCatalogNoContext } from "./IDataspaceProtocolCatalogNoContext.js";
+import type { IDataspaceProtocolDataServiceNoContext } from "./IDataspaceProtocolDataServiceNoContext.js";
+import type { IDataspaceProtocolDatasetNoContext } from "./IDataspaceProtocolDatasetNoContext.js";
+import type { IDataspaceProtocolDistributionNoContext } from "./IDataspaceProtocolDistributionNoContext.js";
 
 /**
  * Catalog interface compliant with Eclipse Data Space Protocol.
@@ -58,20 +57,22 @@ export interface IDataspaceProtocolCatalog extends Omit<
 	/**
 	 * Other concerned catalogs
 	 */
-	catalog?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolCatalog>>;
+	catalog?: IDataspaceProtocolCatalogNoContext | IDataspaceProtocolCatalogNoContext[];
 
 	/**
 	 * Datasets registered
 	 */
-	dataset?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDataset>>;
+	dataset?: IDataspaceProtocolDatasetNoContext | IDataspaceProtocolDatasetNoContext[];
 
 	/**
 	 * Catalog's distributions
 	 */
-	distribution?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDistribution>>;
+	distribution?:
+		| IDataspaceProtocolDistributionNoContext
+		| IDataspaceProtocolDistributionNoContext[];
 
 	/**
 	 * Data services registered-
 	 */
-	service?: ObjectOrArray<JsonLdObjectWithNoContext<IDataspaceProtocolDataService>>;
+	service?: IDataspaceProtocolDataServiceNoContext | IDataspaceProtocolDataServiceNoContext[];
 }

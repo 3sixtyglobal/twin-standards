@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
 import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProtocolContractNegotiationTypes.js";
-import type { IDataspaceProtocolOffer } from "../odrl/IDataspaceProtocolOffer.js";
+import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtocolOfferNoContext.js";
 
 /**
  * Interface for Dataspace Protocol Contract Offer Messages.
@@ -32,7 +32,7 @@ export interface IDataspaceProtocolContractOfferMessage {
 	/**
 	 * The offer being requested.
 	 */
-	offer: IDataspaceProtocolOffer;
+	offer: IDataspaceProtocolOfferNoContext;
 
 	/**
 	 * The base callback address for the provider to update the consumer on the state of the negotiation.
