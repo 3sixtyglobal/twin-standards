@@ -81,7 +81,7 @@ allows for future multi-offer support.
 
 ### accessService
 
-> **accessService**: `string` \| `Omit`\<[`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md), `"@context"`\>
+> **accessService**: `string` \| `JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDataService`](IDataspaceProtocolDataService.md)\>
 
 Access service.
 It can be a URI pointing to an access service or inline the access service itself

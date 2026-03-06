@@ -39,7 +39,7 @@ The consumer id for the contract.
 
 ### offer
 
-> **offer**: `IOdrlOffer`
+> **offer**: [`IDataspaceProtocolOffer`](IDataspaceProtocolOffer.md)
 
 The offer being requested.
 

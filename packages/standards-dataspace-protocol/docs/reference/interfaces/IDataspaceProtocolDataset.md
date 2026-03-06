@@ -82,7 +82,7 @@ allows for future multi-offer support.
 
 ### distribution
 
-> **distribution**: `ObjectOrArray`\<`Omit`\<[`IDataspaceProtocolDistribution`](IDataspaceProtocolDistribution.md), `"@context"`\>\>
+> **distribution**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDistribution`](IDataspaceProtocolDistribution.md)\>\>
 
 Distribution of the dataset.
 REQUIRED per Eclipse Data Space Protocol.

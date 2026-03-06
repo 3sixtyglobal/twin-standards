@@ -65,7 +65,7 @@ Endpoint URL
 
 ### servesDataset?
 
-> `optional` **servesDataset**: `ObjectOrArray`\<`Omit`\<[`IDataspaceProtocolDataset`](IDataspaceProtocolDataset.md), `"@context"`\>\>
+> `optional` **servesDataset**: `ObjectOrArray`\<`JsonLdObjectWithNoContext`\<[`IDataspaceProtocolDataset`](IDataspaceProtocolDataset.md)\>\>
 
 Datasets served.
 

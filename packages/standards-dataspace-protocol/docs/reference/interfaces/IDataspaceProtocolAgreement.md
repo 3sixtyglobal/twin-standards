@@ -1,19 +1,19 @@
-# Interface: IDataspaceProtocolOffer
+# Interface: IDataspaceProtocolAgreement
 
-Offer interface compliant with Eclipse Data Space Protocol.
+Agreement interface compliant with Eclipse Data Space Protocol.
 
-Extends IOdrlOffer with DS Protocol-specific constraints:
-- `@id` is REQUIRED (used as the primary offer identifier in DS Protocol)
+Extends IOdrlAgreement with DS Protocol-specific constraints:
+- `@id` is REQUIRED (used as the primary agreement identifier in DS Protocol)
 - `@context` is omitted (inherited from the parent Dataset/Distribution)
 
 ## See
 
  - https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
- - IOdrlOffer from @twin.org/standards-w3c-odrl
+ - IOdrlAgreement from @twin.org/standards-w3c-odrl
 
 ## Extends
 
-- `Omit`\<`IOdrlOffer`, `"@context"` \| `"uid"`\>
+- `Omit`\<`IOdrlAgreement`, `"@context"` \| `"uid"`\>
 
 ## Properties
 
@@ -21,15 +21,15 @@ Extends IOdrlOffer with DS Protocol-specific constraints:
 
 > **@id**: `string`
 
-Unique identifier for the offer.
+Unique identifier for the agreement.
 
 ***
 
 ### @type
 
-> **@type**: `"Offer"`
+> **@type**: `"Agreement"`
 
-The type must be "Offer".
+The type must be "Agreement".
 
 #### Inherited from
 
@@ -41,12 +41,25 @@ The type must be "Offer".
 
 > **assigner**: `string` \| `IOdrlParty`
 
-The assigner of the offer.
-Required for Offer policies.
+The assigner of the agreement.
+Required for Agreement policies.
 
 #### Inherited from
 
 `Omit.assigner`
+
+***
+
+### assignee
+
+> **assignee**: `string` \| `IOdrlParty`
+
+The assignee of the agreement.
+Required for Agreement policies.
+
+#### Inherited from
+
+`Omit.assignee`
 
 ***
 
@@ -60,19 +73,6 @@ IRIs identifying the ODRL Profile(s).
 #### Inherited from
 
 `Omit.profile`
-
-***
-
-### assignee?
-
-> `optional` **assignee**: `string` \| `IOdrlParty` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlParty` \| `IOdrlPartyCollection`)[]
-
-The assignee of the policy.
-Applies to all rules unless overridden at rule level.
-
-#### Inherited from
-
-`Omit.assignee`
 
 ***
 

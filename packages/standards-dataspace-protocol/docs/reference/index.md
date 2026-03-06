@@ -10,14 +10,9 @@
 
 ## Interfaces
 
-- [IDataspaceProtocolCatalog](interfaces/IDataspaceProtocolCatalog.md)
 - [IDataspaceProtocolCatalogError](interfaces/IDataspaceProtocolCatalogError.md)
 - [IDataspaceProtocolCatalogRequestMessage](interfaces/IDataspaceProtocolCatalogRequestMessage.md)
-- [IDataspaceProtocolDataService](interfaces/IDataspaceProtocolDataService.md)
-- [IDataspaceProtocolDataset](interfaces/IDataspaceProtocolDataset.md)
 - [IDataspaceProtocolDatasetRequestMessage](interfaces/IDataspaceProtocolDatasetRequestMessage.md)
-- [IDataspaceProtocolDistribution](interfaces/IDataspaceProtocolDistribution.md)
-- [IDataspaceProtocolOffer](interfaces/IDataspaceProtocolOffer.md)
 - [IDataspaceProtocolContractAgreementMessage](interfaces/IDataspaceProtocolContractAgreementMessage.md)
 - [IDataspaceProtocolContractAgreementVerificationMessage](interfaces/IDataspaceProtocolContractAgreementVerificationMessage.md)
 - [IDataspaceProtocolContractNegotiation](interfaces/IDataspaceProtocolContractNegotiation.md)
@@ -26,6 +21,12 @@
 - [IDataspaceProtocolContractNegotiationTerminationMessage](interfaces/IDataspaceProtocolContractNegotiationTerminationMessage.md)
 - [IDataspaceProtocolContractOfferMessage](interfaces/IDataspaceProtocolContractOfferMessage.md)
 - [IDataspaceProtocolContractRequestMessage](interfaces/IDataspaceProtocolContractRequestMessage.md)
+- [IDataspaceProtocolCatalog](interfaces/IDataspaceProtocolCatalog.md)
+- [IDataspaceProtocolDataService](interfaces/IDataspaceProtocolDataService.md)
+- [IDataspaceProtocolDataset](interfaces/IDataspaceProtocolDataset.md)
+- [IDataspaceProtocolDistribution](interfaces/IDataspaceProtocolDistribution.md)
+- [IDataspaceProtocolAgreement](interfaces/IDataspaceProtocolAgreement.md)
+- [IDataspaceProtocolOffer](interfaces/IDataspaceProtocolOffer.md)
 - [IDataspaceProtocolDataAddress](interfaces/IDataspaceProtocolDataAddress.md)
 - [IDataspaceProtocolEndpointProperty](interfaces/IDataspaceProtocolEndpointProperty.md)
 - [IDataspaceProtocolTransferCompletionMessage](interfaces/IDataspaceProtocolTransferCompletionMessage.md)

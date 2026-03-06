@@ -48,3 +48,15 @@ Distribution.
 > `readonly` **Catalog**: `"Catalog"` = `"Catalog"`
 
 Catalog.
+
+### Offer
+
+> `readonly` **Offer**: `"Offer"` = `"Offer"`
+
+Offer.
+
+### Agreement
+
+> `readonly` **Agreement**: `"Agreement"` = `"Agreement"`
+
+Agreement.
