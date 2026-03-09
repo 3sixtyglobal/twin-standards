@@ -71,10 +71,4 @@ export interface IActivityStreamsActivity extends IActivityStreamsObject {
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-instrument
 	 */
 	instrument?: ObjectOrArray<string | IJsonLdNodeObject>;
-
-	/**
-	 * The date and time at which the object was updated.
-	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
-	 */
-	updated?: string;
 }

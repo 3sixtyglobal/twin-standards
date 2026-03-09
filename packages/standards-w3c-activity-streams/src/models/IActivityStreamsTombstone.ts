@@ -22,6 +22,7 @@ export interface IActivityStreamsTombstone extends IActivityStreamsObject {
 	/**
 	 * The date and time at which the object was deleted.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted
+	 * @format date-time
 	 */
 	deleted?: string;
 
