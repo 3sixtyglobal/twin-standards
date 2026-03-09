@@ -31,7 +31,7 @@ The operator of the constraint.
 
 ### rightOperand?
 
-> `optional` **rightOperand**: `ObjectOrArray`\<`string` \| \{ `@value`: `string`; `@type?`: `string`; \} \| \{ `@id`: `string`; \}\>
+> `optional` **rightOperand**: `string` \| \{ `@value`: `string`; `@type?`: `string`; \} \| \{ `@id`: `string`; \} \| (`string` \| \{ `@value`: `string`; `@type?`: `string`; \} \| \{ `@id`: `string`; \})[]
 
 The right operand of the constraint.
 value with optional
@@ -40,7 +40,7 @@ value with optional
 
 ### rightOperandReference?
 
-> `optional` **rightOperandReference**: `ObjectOrArray`\<`string`\>
+> `optional` **rightOperandReference**: `string` \| `string`[]
 
 Reference to the right operand.
 Can be used to reference external resources or policies using an IRI.

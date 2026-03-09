@@ -34,7 +34,7 @@ Can also be "Catalog" or "DatasetSeries" for subclasses.
 
 ### dcat:distribution?
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)\>
+> `optional` **dcat:distribution**: [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md) \| [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)[]
 
 An available distribution of the dataset.
 
@@ -70,7 +70,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 ### dcterms:spatial?
 
-> `optional` **dcterms:spatial**: `IJsonLdNodeObject` \| `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:spatial**: `string` \| `string`[] \| `IJsonLdNodeObject`
 
 The geographical area covered by the dataset.
 
@@ -234,7 +234,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language?
 
-> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:language**: `string` \| `string`[]
 
 A language of the resource.
 
@@ -330,7 +330,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo?
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
 An established standard to which the resource conforms.
 
@@ -394,7 +394,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme?
 
-> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:theme**: `string` \| `string`[]
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -410,7 +410,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage?
 
-> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:landingPage**: `string` \| `string`[]
 
 A Web page that can be navigated to gain access to the resource.
 

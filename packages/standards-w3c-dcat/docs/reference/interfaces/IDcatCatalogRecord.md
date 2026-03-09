@@ -84,7 +84,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date
 
 ### dcterms:conformsTo?
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
 An established standard to which the catalog record conforms.
 

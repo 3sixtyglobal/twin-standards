@@ -307,7 +307,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 ### dcterms:conformsTo?
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
 An established standard to which the distribution conforms.
 

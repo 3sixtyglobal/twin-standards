@@ -74,7 +74,7 @@ Participant that provides the offering
 
 ### servicePolicy
 
-> **servicePolicy**: `ObjectOrArray`\<`IOdrlPolicy`\>
+> **servicePolicy**: `IOdrlPolicy` \| `IOdrlPolicy`[]
 
 ODRL policy associated to the service offering
 

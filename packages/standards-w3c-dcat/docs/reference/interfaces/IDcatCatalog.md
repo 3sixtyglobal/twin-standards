@@ -40,7 +40,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage
 
 ### dcat:themeTaxonomy?
 
-> `optional` **dcat:themeTaxonomy**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
+> `optional` **dcat:themeTaxonomy**: [`IDcatResource`](IDcatResource.md) \| [`IDcatResource`](IDcatResource.md)[]
 
 A knowledge organization system (KOS) used to classify the resources in the catalog.
 
@@ -52,7 +52,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes
 
 ### dcat:resource?
 
-> `optional` **dcat:resource**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
+> `optional` **dcat:resource**: [`IDcatResource`](IDcatResource.md) \| [`IDcatResource`](IDcatResource.md)[]
 
 A resource that is listed in the catalog.
 
@@ -64,7 +64,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
 
 ### dcat:dataset?
 
-> `optional` **dcat:dataset**: `ObjectOrArray`\<[`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)\>
+> `optional` **dcat:dataset**: [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md) \| [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)[]
 
 A dataset that is listed in the catalog.
 
@@ -76,7 +76,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 
 ### dcat:service?
 
-> `optional` **dcat:service**: `ObjectOrArray`\<[`DataServiceOptionalContext`](../type-aliases/DataServiceOptionalContext.md)\>
+> `optional` **dcat:service**: [`DataServiceOptionalContext`](../type-aliases/DataServiceOptionalContext.md) \| [`DataServiceOptionalContext`](../type-aliases/DataServiceOptionalContext.md)[]
 
 A data service that is listed in the catalog.
 
@@ -88,7 +88,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
 
 ### dcat:catalog?
 
-> `optional` **dcat:catalog**: `ObjectOrArray`\<[`CatalogOptionalContext`](../type-aliases/CatalogOptionalContext.md)\>
+> `optional` **dcat:catalog**: [`CatalogOptionalContext`](../type-aliases/CatalogOptionalContext.md) \| [`CatalogOptionalContext`](../type-aliases/CatalogOptionalContext.md)[]
 
 A catalog that is listed in the catalog.
 
@@ -100,7 +100,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
 
 ### dcat:record?
 
-> `optional` **dcat:record**: `ObjectOrArray`\<[`CatalogRecordOptionalContext`](../type-aliases/CatalogRecordOptionalContext.md)\>
+> `optional` **dcat:record**: [`CatalogRecordOptionalContext`](../type-aliases/CatalogRecordOptionalContext.md) \| [`CatalogRecordOptionalContext`](../type-aliases/CatalogRecordOptionalContext.md)[]
 
 A record describing the registration of a single resource in the catalog.
 
@@ -112,7 +112,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 
 ### dcat:distribution?
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)\>
+> `optional` **dcat:distribution**: [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md) \| [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)[]
 
 An available distribution of the dataset.
 
@@ -160,7 +160,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 ### dcterms:spatial?
 
-> `optional` **dcterms:spatial**: `IJsonLdNodeObject` \| `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:spatial**: `string` \| `string`[] \| `IJsonLdNodeObject`
 
 The geographical area covered by the dataset.
 
@@ -344,7 +344,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language?
 
-> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:language**: `string` \| `string`[]
 
 A language of the resource.
 
@@ -440,7 +440,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo?
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
 An established standard to which the resource conforms.
 
@@ -504,7 +504,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme?
 
-> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:theme**: `string` \| `string`[]
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -520,7 +520,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage?
 
-> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:landingPage**: `string` \| `string`[]
 
 A Web page that can be navigated to gain access to the resource.
 
