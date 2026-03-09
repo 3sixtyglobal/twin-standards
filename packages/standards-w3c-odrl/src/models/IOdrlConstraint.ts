@@ -1,6 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { LeftOperandType } from "./types/leftOperandType.js";
 import type { OperatorType } from "./types/operatorType.js";
 import type { StatusType } from "./types/statusType.js";
@@ -31,7 +30,7 @@ export interface IOdrlConstraint {
 	 * id is used when referencing a URI/identifier (like odrl:policyUsage)
 	 * Mutually exclusive with rightOperandReference.
 	 */
-	rightOperand?: ObjectOrArray<
+	rightOperand?:
 		| string
 		| {
 				"@value": string;
@@ -40,14 +39,23 @@ export interface IOdrlConstraint {
 		| {
 				"@id": string;
 		  }
-	>;
+		| (
+				| string
+				| {
+						"@value": string;
+						"@type"?: string;
+				  }
+				| {
+						"@id": string;
+				  }
+		  )[];
 
 	/**
 	 * Reference to the right operand.
 	 * Can be used to reference external resources or policies using an IRI.
 	 * Mutually exclusive with rightOperand.
 	 */
-	rightOperandReference?: ObjectOrArray<string>;
+	rightOperandReference?: string | string[];
 
 	/**
 	 * The data type of the right operand.

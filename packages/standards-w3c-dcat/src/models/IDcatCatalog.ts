@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { IDcatDataset } from "./IDcatDataset.js";
 import type { IDcatResource } from "./IDcatResource.js";
@@ -33,35 +32,35 @@ export interface IDcatCatalog extends IDcatDataset {
 	 * A knowledge organization system (KOS) used to classify the resources in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes
 	 */
-	"dcat:themeTaxonomy"?: ObjectOrArray<IDcatResource>;
+	"dcat:themeTaxonomy"?: IDcatResource | IDcatResource[];
 
 	/**
 	 * A resource that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
 	 */
-	"dcat:resource"?: ObjectOrArray<IDcatResource>;
+	"dcat:resource"?: IDcatResource | IDcatResource[];
 
 	/**
 	 * A dataset that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 	 */
-	"dcat:dataset"?: ObjectOrArray<DatasetOptionalContext>;
+	"dcat:dataset"?: DatasetOptionalContext | DatasetOptionalContext[];
 
 	/**
 	 * A data service that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
 	 */
-	"dcat:service"?: ObjectOrArray<DataServiceOptionalContext>;
+	"dcat:service"?: DataServiceOptionalContext | DataServiceOptionalContext[];
 
 	/**
 	 * A catalog that is listed in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
 	 */
-	"dcat:catalog"?: ObjectOrArray<CatalogOptionalContext>;
+	"dcat:catalog"?: CatalogOptionalContext | CatalogOptionalContext[];
 
 	/**
 	 * A record describing the registration of a single resource in the catalog.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 	 */
-	"dcat:record"?: ObjectOrArray<CatalogRecordOptionalContext>;
+	"dcat:record"?: CatalogRecordOptionalContext | CatalogRecordOptionalContext[];
 }

@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IFoafAgentWithAliases } from "@twin.org/standards-foaf";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
@@ -70,7 +69,7 @@ export interface IDcatResource {
 	 * A language of the resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 	 */
-	"dcterms:language"?: ObjectOrArray<string>;
+	"dcterms:language"?: string | string[];
 
 	/**
 	 * An entity responsible for making the resource available.
@@ -106,7 +105,7 @@ export interface IDcatResource {
 	 * An established standard to which the resource conforms.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 	 */
-	"dcterms:conformsTo"?: ObjectOrArray<string>;
+	"dcterms:conformsTo"?: string | string[];
 
 	/**
 	 * The nature or genre of the resource.
@@ -130,13 +129,13 @@ export interface IDcatResource {
 	 * A main category of the resource. A resource can have multiple themes.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 	 */
-	"dcat:theme"?: ObjectOrArray<string>;
+	"dcat:theme"?: string | string[];
 
 	/**
 	 * A Web page that can be navigated to gain access to the resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 	 */
-	"dcat:landingPage"?: ObjectOrArray<string>;
+	"dcat:landingPage"?: string | string[];
 
 	/**
 	 * Link to a description of a relationship with another resource.

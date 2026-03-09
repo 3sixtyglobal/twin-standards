@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IDublinCorePeriodOfTime } from "@twin.org/standards-dublin-core";
 import type { DcatClasses } from "./dcatClasses.js";
@@ -28,7 +27,7 @@ export interface IDcatDataset extends IDcatResource {
 	 * An available distribution of the dataset.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution
 	 */
-	"dcat:distribution"?: ObjectOrArray<DistributionOptionalContext>;
+	"dcat:distribution"?: DistributionOptionalContext | DistributionOptionalContext[];
 
 	/**
 	 * The frequency at which the dataset is published.
@@ -46,7 +45,7 @@ export interface IDcatDataset extends IDcatResource {
 	 * The geographical area covered by the dataset.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial
 	 */
-	"dcterms:spatial"?: IJsonLdNodeObject | ObjectOrArray<string>;
+	"dcterms:spatial"?: IJsonLdNodeObject | string | string[];
 
 	/**
 	 * Minimum spatial separation resolvable in a dataset, measured in meters.

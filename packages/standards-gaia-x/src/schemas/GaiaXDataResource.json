@@ -208,7 +208,6 @@
 			"description": "Copyright owner"
 		},
 		"resourcePolicy": {
-			"description": "Object or array data type",
 			"anyOf": [
 				{
 					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlPolicy"
@@ -219,7 +218,8 @@
 						"$ref": "https://schema.twindev.org/w3c-odrl/OdrlPolicy"
 					}
 				}
-			]
+			],
+			"description": "ODRL Policy"
 		}
 	},
 	"required": [

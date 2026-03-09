@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
@@ -116,7 +115,7 @@ export interface IDcatDistribution {
 	 * An established standard to which the distribution conforms.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
 	 */
-	"dcterms:conformsTo"?: ObjectOrArray<string>;
+	"dcterms:conformsTo"?: string | string[];
 
 	/**
 	 * The media type of the distribution as defined by IANA.

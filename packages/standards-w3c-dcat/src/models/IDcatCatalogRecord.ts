@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
 import type { IDcatResource } from "./IDcatResource.js";
@@ -56,7 +55,7 @@ export interface IDcatCatalogRecord {
 	 * An established standard to which the catalog record conforms.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to
 	 */
-	"dcterms:conformsTo"?: ObjectOrArray<string>;
+	"dcterms:conformsTo"?: string | string[];
 
 	/**
 	 * The dataset or data service described in the catalog record.
