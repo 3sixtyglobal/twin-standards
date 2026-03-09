@@ -1,6 +1,6 @@
 # TWIN Standards DCSA
 
-Models which define the structure of [DCSA](https://dcsa.org/standards/track-and-trace/standard-documentation-track-and-trace).
+This package provides data models aligned with the [DCSA Track and Trace standard](https://dcsa.org/standards/track-and-trace/standard-documentation-track-and-trace), supporting interoperable maritime logistics events and references.
 
 ## Installation
 

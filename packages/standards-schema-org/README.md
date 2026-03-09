@@ -1,6 +1,6 @@
-# TWIN Schema.org Data
+# TWIN Standards Schema.org
 
-Models which define the structure of [Schema.org Standard](https://schema.org/).
+This package provides data models for [Schema.org vocabularies](https://schema.org/), supporting a common semantic layer for entities, events, and relationships across domains.
 
 ## Installation
 

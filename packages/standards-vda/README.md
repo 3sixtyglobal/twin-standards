@@ -1,6 +1,6 @@
-# TWIN VDA JAIF Data
+# TWIN Standards VDA
 
-Models which define the structure of [VDA JAIF Standard](https://www.vda.de/).
+This package provides data models for [VDA JAIF semantics](https://www.vda.de/en/topics/digitalization/data-ecosystem-catena-x), helping automotive ecosystem participants align shared data definitions.
 
 ## Installation
 

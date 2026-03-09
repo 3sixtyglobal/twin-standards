@@ -1,6 +1,6 @@
 # TWIN Standards W3C DCAT
 
-Models which define the structure of [W3C Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/) Version 3.
+This package provides data models for the [W3C Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-3/), supporting consistent publication and discovery of data assets.
 
 ## Installation
 

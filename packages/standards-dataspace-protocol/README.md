@@ -1,6 +1,6 @@
 # TWIN Standards Dataspace Protocol
 
-Models which define the structure of [Dataspace Protocol](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/).
+This package provides data models for the [Dataspace Protocol specification](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/), helping participants exchange catalogue and agreement information consistently.
 
 ## Installation
 

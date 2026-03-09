@@ -1,7 +1,7 @@
 {
 	"name": "@twin.org/standards-schema-org",
 	"version": "0.0.3-next.50",
-	"description": "Models which define the structure of schema.org Standard",
+	"description": "Data models for Schema.org vocabularies.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/twinfoundation/standards.git",

@@ -1,6 +1,6 @@
-# TWIN UN/CEFACT Data
+# TWIN Standards UNECE
 
-Models which define the structure of [UN/CEFACT Standard](https://vocabulary.uncefact.org/).
+This package provides data models for [UN/CEFACT semantic vocabularies](https://vocabulary.uncefact.org/), supporting interoperable trade and logistics information exchange.
 
 ## Installation
 

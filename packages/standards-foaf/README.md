@@ -1,6 +1,6 @@
 # TWIN Standards FOAF
 
-Models which define the structure of [FOAF](http://xmlns.com/foaf/0.1/).
+This package provides data models for the [FOAF vocabulary](https://xmlns.com/foaf/spec/), supporting interoperable descriptions of people, organisations, and social relationships.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # TWIN Standards Dublin Core
 
-Models which define the structure of [Dublin Core](https://www.dublincore.org/).
+This package provides data models aligned with the [Dublin Core metadata terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), making metadata descriptions easier to share and validate across systems.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # TWIN Standards W3C Activity Streams
 
-Models which define the structure of [W3C Activity Streams Standard](https://www.w3.org/TR/activitystreams-core/).
+This package provides data models for the [W3C Activity Streams vocabulary](https://www.w3.org/TR/activitystreams-core/), making activity and event data easier to exchange with shared semantics.
 
 ## Installation
 

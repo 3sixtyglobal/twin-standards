@@ -1,6 +1,6 @@
 # TWIN Standards W3C DID
 
-Models which define the structure of [W3C DID Standard](https://www.w3.org/TR/did-core/).
+This package provides data models for the [W3C DID Core specification](https://www.w3.org/TR/did-core/), helping teams represent decentralised identifiers with consistent, interoperable structures.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
 	"name": "@twin.org/standards-w3c-vcard",
 	"version": "0.0.3-next.50",
-	"description": "Models which define the structure of W3C VCard Standard",
+	"description": "Data models for the W3C vCard RDF vocabulary.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/twinfoundation/standards.git",

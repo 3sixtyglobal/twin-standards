@@ -1,6 +1,6 @@
-# TWIN Standards Gaia-x
+# TWIN Standards Gaia-X
 
-Models which define the structure of [Gaia-x](https://docs.gaia-x.eu/ontology/development/).
+This package provides data models for [Gaia-X ontology concepts](https://docs.gaia-x.eu/ontology/development/), enabling interoperable representation of federated data space concepts.
 
 ## Installation
 

@@ -1,7 +1,7 @@
 {
 	"name": "@twin.org/standards-w3c-dcat",
 	"version": "0.0.3-next.50",
-	"description": "Models which define the structure of W3C DCAT Standard",
+	"description": "Data models for the W3C Data Catalog Vocabulary.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/twinfoundation/standards.git",

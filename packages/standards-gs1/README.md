@@ -1,6 +1,6 @@
-# TWIN GS1 Data
+# TWIN Standards GS1
 
-Models which define the structure of [GS1 Standard](https://www.gs1.org/).
+This package provides data models aligned with [GS1 standards](https://www.gs1.org/standards), helping supply chain and product data remain semantically consistent between participants.
 
 ## Installation
 

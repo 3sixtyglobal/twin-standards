@@ -1,7 +1,7 @@
 {
 	"name": "@twin.org/standards-dataspace-protocol",
 	"version": "0.0.3-next.50",
-	"description": "Models which define the structure of Dataspace Protocol",
+	"description": "Data models for the Dataspace Protocol specification.",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/twinfoundation/standards.git",
