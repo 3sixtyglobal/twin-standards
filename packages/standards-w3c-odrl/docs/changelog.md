@@ -1,5 +1,20 @@
 # @twin.org/standards-w3c-odrl - Changelog
 
+## [0.0.3-next.50](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.49...standards-w3c-odrl-v0.0.3-next.50) (2026-03-09)
+
+
+### Features
+
+* remove ObjectOrArray usage ([61fd52d](https://github.com/twinfoundation/standards/commit/61fd52da035356bbe5bcc315367089405b4d1386))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.49 to 0.0.3-next.50
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.49 to 0.0.3-next.50
+
 ## [0.0.3-next.49](https://github.com/twinfoundation/standards/compare/standards-w3c-odrl-v0.0.3-next.48...standards-w3c-odrl-v0.0.3-next.49) (2026-03-06)
 
 

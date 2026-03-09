@@ -1,5 +1,19 @@
 # @twin.org/standards-gaia-x - Changelog
 
+## [0.0.3-next.50](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.49...standards-gaia-x-v0.0.3-next.50) (2026-03-09)
+
+
+### Features
+
+* remove ObjectOrArray usage ([61fd52d](https://github.com/twinfoundation/standards/commit/61fd52da035356bbe5bcc315367089405b4d1386))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.49 to 0.0.3-next.50
+
 ## [0.0.3-next.49](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.48...standards-gaia-x-v0.0.3-next.49) (2026-03-06)
 
 
