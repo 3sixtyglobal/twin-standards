@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.51](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.50...standards-w3c-activity-streams-v0.0.3-next.51) (2026-03-10)
+
+
+### Features
+
+* format set on strings for json-schema - W3C AS ([#191](https://github.com/twinfoundation/standards/issues/191)) ([d3c8d22](https://github.com/twinfoundation/standards/commit/d3c8d226fa5691bf7689a40b6b099ae00fa24c02))
+
 ## [0.0.3-next.50](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.49...standards-w3c-activity-streams-v0.0.3-next.50) (2026-03-09)
 
 
