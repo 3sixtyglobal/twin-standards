@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/facilityType
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this experience facility.
 

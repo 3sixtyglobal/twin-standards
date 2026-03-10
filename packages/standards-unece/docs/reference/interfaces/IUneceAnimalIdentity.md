@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this animal identity.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/legalBasis
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of this animal identity.
 

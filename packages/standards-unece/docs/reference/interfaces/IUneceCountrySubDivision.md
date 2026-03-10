@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/hierarchicalLevelCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade country sub-division.
 

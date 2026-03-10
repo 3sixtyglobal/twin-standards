@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/grossWeightSpecifiedMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this exchanged declaration.
 
@@ -268,7 +268,7 @@ https://vocabulary.uncefact.org/totalPackageSpecifiedQuantity
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the version of this exchanged declaration.
 

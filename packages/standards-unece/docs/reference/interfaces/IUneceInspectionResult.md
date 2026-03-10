@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/generalCharacteristic
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified inspection result.
 

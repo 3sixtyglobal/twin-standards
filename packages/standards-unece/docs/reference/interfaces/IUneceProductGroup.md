@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this trade product group.
 

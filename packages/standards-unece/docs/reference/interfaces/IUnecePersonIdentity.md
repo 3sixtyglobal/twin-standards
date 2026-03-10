@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### alienRegistrationId?
 
-> `optional` **alienRegistrationId**: `string`
+> `optional` **alienRegistrationId**: `string` \| `IJsonLdValueObject`
 
 The alien registration identifier for this person.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/alienRegistrationId
 
 ### driversLicenceId?
 
-> `optional` **driversLicenceId**: `string`
+> `optional` **driversLicenceId**: `string` \| `IJsonLdValueObject`
 
 The drivers licence identifier for this person.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/driversLicenceId
 
 ### identityCardId?
 
-> `optional` **identityCardId**: `string`
+> `optional` **identityCardId**: `string` \| `IJsonLdValueObject`
 
 The identity card identifier for this person.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identityCardId
 
 ### passportId?
 
-> `optional` **passportId**: `string`
+> `optional` **passportId**: `string` \| `IJsonLdValueObject`
 
 The passport identifier for this person.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/passportId
 
 ### socialSecurityId?
 
-> `optional` **socialSecurityId**: `string`
+> `optional` **socialSecurityId**: `string` \| `IJsonLdValueObject`
 
 The social security identifier for this person.
 

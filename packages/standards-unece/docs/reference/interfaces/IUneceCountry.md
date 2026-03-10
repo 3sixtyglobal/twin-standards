@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
+> `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade country.
 

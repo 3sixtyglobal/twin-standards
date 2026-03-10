@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/grantedCertificate
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this monitoring sensor.
 

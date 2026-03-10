@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/heightMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this spatial dimension.
 

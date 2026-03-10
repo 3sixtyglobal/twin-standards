@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/description
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier of this facility production unit.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this facility production unit.
 

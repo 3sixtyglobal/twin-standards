@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this subordinate trade line item.
 

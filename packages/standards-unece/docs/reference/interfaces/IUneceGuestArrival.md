@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### carrierId?
 
-> `optional` **carrierId**: `string`
+> `optional` **carrierId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the carrier for this specified guest arrival.
 

@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedTax
 
 ### iOSSId?
 
-> `optional` **iOSSId**: `string`
+> `optional` **iOSSId**: `string` \| `IJsonLdValueObject`
 
 The Import One Stop Shop (IOSS) identifier for this tax registration.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/iOSSId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this tax registration.
 

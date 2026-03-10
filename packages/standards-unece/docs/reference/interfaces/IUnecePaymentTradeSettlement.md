@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/creditNoteAmount
 
 ### creditorReferenceId?
 
-> `optional` **creditorReferenceId**: `string`
+> `optional` **creditorReferenceId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the creditor reference for this payment trade settlement, such as a specific identifier
 assigned by the creditor to reference the financial transaction.
@@ -101,7 +101,7 @@ https://vocabulary.uncefact.org/creditorReferenceId
 
 ### creditorReferenceIssuerId?
 
-> `optional` **creditorReferenceIssuerId**: `string`
+> `optional` **creditorReferenceIssuerId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the issuer of the creditor reference for this payment trade settlement.
 
@@ -187,7 +187,7 @@ https://vocabulary.uncefact.org/instruction
 
 ### invoicePayerAssignedReferenceId?
 
-> `optional` **invoicePayerAssignedReferenceId**: `string`
+> `optional` **invoicePayerAssignedReferenceId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the invoice payer assigned reference of this payment trade settlement.
 

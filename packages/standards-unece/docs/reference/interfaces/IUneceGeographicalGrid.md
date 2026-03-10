@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/highLimit
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this geographical grid.
 

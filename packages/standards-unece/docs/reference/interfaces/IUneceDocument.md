@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/documentAmendmentPurposeCode
 
 ### documentLanguageId?
 
-> `optional` **documentLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)[]
+> `optional` **documentLanguageId**: `string` \| `IJsonLdValueObject`
 
 An identifier for a language used in this referenced document.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/electronicPresentationIndicator
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A unique global identifier for this referenced document.
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this referenced document.
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ### issuerAssignedId?
 
-> `optional` **issuerAssignedId**: `string`
+> `optional` **issuerAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique issuer assigned identifier for this referenced document.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/issuerSpecifiedInstructions
 
 ### itemIdentificationId?
 
-> `optional` **itemIdentificationId**: `string`
+> `optional` **itemIdentificationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of an item in this referenced document.
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/lineCountNumeric
 
 ### lineId?
 
-> `optional` **lineId**: `string`
+> `optional` **lineId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a line in this referenced document.
 
@@ -518,7 +518,7 @@ https://vocabulary.uncefact.org/originalRequiredQuantity
 
 ### pageId?
 
-> `optional` **pageId**: `string`
+> `optional` **pageId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the page for this referenced document.
 
@@ -530,7 +530,7 @@ https://vocabulary.uncefact.org/pageId
 
 ### previousRevisionId?
 
-> `optional` **previousRevisionId**: `string`
+> `optional` **previousRevisionId**: `string` \| `IJsonLdValueObject`
 
 An identifier for a previous revision of this referenced document.
 
@@ -687,7 +687,7 @@ https://vocabulary.uncefact.org/revisionDateTime
 
 ### revisionId?
 
-> `optional` **revisionId**: `string`
+> `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for a revision of this referenced document.
 
@@ -759,7 +759,7 @@ https://vocabulary.uncefact.org/status
 
 ### subordinateLineId?
 
-> `optional` **subordinateLineId**: `string`
+> `optional` **subordinateLineId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the subordinate line of this referenced document.
 
@@ -795,7 +795,7 @@ https://vocabulary.uncefact.org/totalIssueCountNumeric
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The unique Uniform Resource Identifier (URI) for this referenced document.
 
@@ -819,7 +819,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the version of this referenced document.
 

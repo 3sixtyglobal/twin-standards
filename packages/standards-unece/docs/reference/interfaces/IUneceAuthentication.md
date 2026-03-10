@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/governmentActionTypeCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this document authentication.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/statementCode
 
 ### transportMeansId?
 
-> `optional` **transportMeansId**: `string`
+> `optional` **transportMeansId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a transport means for this document authentication.
 

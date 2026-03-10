@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this certified accreditation.
 

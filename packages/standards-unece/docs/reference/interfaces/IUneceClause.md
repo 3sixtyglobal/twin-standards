@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/content
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this document clause.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### uRLId?
 
-> `optional` **uRLId**: `string`
+> `optional` **uRLId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Locator (URL) for this document clause.
 

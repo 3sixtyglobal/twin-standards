@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/driverAccompaniedIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.
 

@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/freightChargeTariffClassCode
 
 ### freightChargeTypeId?
 
-> `optional` **freightChargeTypeId**: [`UneceFreightChargeTypeId`](../type-aliases/UneceFreightChargeTypeId.md)
+> `optional` **freightChargeTypeId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this logistics service charge.
 

@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/geopoliticalRegionName
 
 ### mapURIId?
 
-> `optional` **mapURIId**: `string`
+> `optional` **mapURIId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a URI (Uniform Resource Identifier) for a map of this specified location.
 

@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/endDayOfWeekCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this specified period.
 

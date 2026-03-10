@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this logistics seal.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/logisticsSealingPartyRoleCode
 
 ### maximumId?
 
-> `optional` **maximumId**: `string`
+> `optional` **maximumId**: `string` \| `IJsonLdValueObject`
 
 The maximum unique identifier used for these logistics seals.
 

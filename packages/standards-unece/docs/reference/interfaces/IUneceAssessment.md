@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/reportDateTime
 
 ### reportId?
 
-> `optional` **reportId**: `string`
+> `optional` **reportId**: `string` \| `IJsonLdValueObject`
 
 The report identifier for this specified assessment.
 

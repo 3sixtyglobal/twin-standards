@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this note.
 

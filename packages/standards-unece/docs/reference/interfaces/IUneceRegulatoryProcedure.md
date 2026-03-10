@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 
 ### declarantAssignedDeclarationId?
 
-> `optional` **declarantAssignedDeclarationId**: `string`
+> `optional` **declarantAssignedDeclarationId**: `string` \| `IJsonLdValueObject`
 
 The declarant assigned identifier of a declaration for this cross-border regulatory procedure.
 
@@ -344,7 +344,7 @@ https://vocabulary.uncefact.org/exportCustomsOfficeSpecifiedLocation
 
 ### exportLicenceControlClassificationId?
 
-> `optional` **exportLicenceControlClassificationId**: `string`
+> `optional` **exportLicenceControlClassificationId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the export licence classification for control purposes relevant to this cross-border regulatory
 procedure, such as per the Wassenaar agreement concerning trade in weapons and dual-use goods and technologies.
@@ -505,7 +505,7 @@ https://vocabulary.uncefact.org/previousProcedureTypeCode
 
 ### quotaId?
 
-> `optional` **quotaId**: `string`
+> `optional` **quotaId**: `string` \| `IJsonLdValueObject`
 
 A quota identifier for this cross-border regulatory procedure.
 
@@ -517,7 +517,7 @@ https://vocabulary.uncefact.org/quotaId
 
 ### registeredDeferredPaymentPayerId?
 
-> `optional` **registeredDeferredPaymentPayerId**: `string`
+> `optional` **registeredDeferredPaymentPayerId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the registered deferred payment payer for this cross-border regulatory procedure.
 

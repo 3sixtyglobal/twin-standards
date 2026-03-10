@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/finalIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this production process.
 

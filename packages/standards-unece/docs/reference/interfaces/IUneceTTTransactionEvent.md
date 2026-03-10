@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/dispositionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT transaction event.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### objectInstanceId?
 
-> `optional` **objectInstanceId**: `string`
+> `optional` **objectInstanceId**: `string` \| `IJsonLdValueObject`
 
 An instance identifier for an object of this TT transaction event.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### parentObjectId?
 
-> `optional` **parentObjectId**: `string`
+> `optional` **parentObjectId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the parent object for this TT transaction event.
 

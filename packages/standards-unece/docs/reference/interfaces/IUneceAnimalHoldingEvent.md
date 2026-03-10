@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### locationId?
 
-> `optional` **locationId**: `string`
+> `optional` **locationId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the location for this animal holding event.
 

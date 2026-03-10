@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/accessRightsTypeAccessRightsCode
 
 ### bEIId?
 
-> `optional` **bEIId**: `string`
+> `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
 The unique Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier
 Codes) for this requesting party.
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this requesting party.
 

@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/endAvailabilityDateTime
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this XHE reference.
 

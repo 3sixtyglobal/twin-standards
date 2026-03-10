@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### bEIId?
 
-> `optional` **bEIId**: `string`
+> `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
 The unique Business Entity Identifier (BEI) as defined in ISO 9362 for this payment financial institution.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/bEIId
 
 ### bICId?
 
-> `optional` **bICId**: `string`
+> `optional` **bICId**: `string` \| `IJsonLdValueObject`
 
 The unique Bank Identification Code (BIC) as defined in ISO 9362 for this payment financial institution.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/branchName
 
 ### branchNameId?
 
-> `optional` **branchNameId**: `string`
+> `optional` **branchNameId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the branch name for this payment financial institution.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/branchNameId
 
 ### gLNId?
 
-> `optional` **gLNId**: `string`
+> `optional` **gLNId**: `string` \| `IJsonLdValueObject`
 
 The unique Global Location Number (GLN) as defined by GS1 for this payment financial institution.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/gLNId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this payment financial institution.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/name
 
 ### nameId?
 
-> `optional` **nameId**: `string`
+> `optional` **nameId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the name for this payment financial institution.
 

@@ -198,7 +198,7 @@ https://vocabulary.uncefact.org/paymentTermsEventTimeReferenceFromEventCode
 
 ### paymentTermsId?
 
-> `optional` **paymentTermsId**: [`UnecePaymentTermsId`](../type-aliases/UnecePaymentTermsId.md)
+> `optional` **paymentTermsId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of these trade payment terms.
 
@@ -235,7 +235,7 @@ https://vocabulary.uncefact.org/settlementPeriodMeasure
 
 ### tradePaymentTermsDirectDebitMandateId?
 
-> `optional` **tradePaymentTermsDirectDebitMandateId**: `string`
+> `optional` **tradePaymentTermsDirectDebitMandateId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a direct debit mandate in these trade payment terms.
 
@@ -259,7 +259,7 @@ https://vocabulary.uncefact.org/tradePaymentTermsInstructionTypeCode
 
 ### tradePaymentTermsPaymentMeansId?
 
-> `optional` **tradePaymentTermsPaymentMeansId**: `string`
+> `optional` **tradePaymentTermsPaymentMeansId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a payment means in these trade payment terms.
 

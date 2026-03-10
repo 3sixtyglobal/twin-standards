@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/businessTypeCode
 
 ### districtId?
 
-> `optional` **districtId**: `string`
+> `optional` **districtId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of the district area regarded as a geographic or administrative unit within which this legally set
 up organization operates.
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/establishedDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this legally set up organization.
 

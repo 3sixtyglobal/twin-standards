@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of the digital method used for payment.
 

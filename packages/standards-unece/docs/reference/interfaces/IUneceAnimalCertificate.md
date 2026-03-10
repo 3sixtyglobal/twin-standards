@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this animal certificate.
 

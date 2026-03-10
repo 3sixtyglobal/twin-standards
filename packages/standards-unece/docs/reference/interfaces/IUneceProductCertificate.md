@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this product certificate.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ### issuingPartyId?
 
-> `optional` **issuingPartyId**: `string`
+> `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the party issuing this product certificate.
 

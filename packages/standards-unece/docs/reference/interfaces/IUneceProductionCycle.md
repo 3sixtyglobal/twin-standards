@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified production cycle.
 

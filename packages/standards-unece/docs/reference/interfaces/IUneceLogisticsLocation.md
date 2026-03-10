@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryName
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country sub-division for this logistics related location.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/healthAffectedAreaIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global
 Location Number (GLN).
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ### logisticsLocationCountryId?
 
-> `optional` **logisticsLocationCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **logisticsLocationCountryId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a country for this logistics location.
 

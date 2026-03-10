@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/botanicalGenusCode
 
 ### botanicalIdentificationId?
 
-> `optional` **botanicalIdentificationId**: `string`
+> `optional` **botanicalIdentificationId**: `string` \| `IJsonLdValueObject`
 
 The identifier for this botanical crop.
 

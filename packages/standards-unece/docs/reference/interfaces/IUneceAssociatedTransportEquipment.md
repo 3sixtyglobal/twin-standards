@@ -149,7 +149,7 @@ https://vocabulary.uncefact.org/grossWeightMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique number, mark or name which identifies this associated piece of transport equipment.
 
@@ -283,7 +283,7 @@ https://vocabulary.uncefact.org/settingTemperature
 
 ### stowagePositionId?
 
-> `optional` **stowagePositionId**: `string`
+> `optional` **stowagePositionId**: `string` \| `IJsonLdValueObject`
 
 The stowage position identifier for this associated transport equipment.
 

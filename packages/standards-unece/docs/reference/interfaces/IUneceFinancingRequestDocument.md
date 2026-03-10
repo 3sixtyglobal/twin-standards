@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/firstAgentSpecifiedFinancialInstitution
 
 ### groupId?
 
-> `optional` **groupId**: `string`
+> `optional` **groupId**: `string` \| `IJsonLdValueObject`
 
 The group identifier in this financing request document.
 

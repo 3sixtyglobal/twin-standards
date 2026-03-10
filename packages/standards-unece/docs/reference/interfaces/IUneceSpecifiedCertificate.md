@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified certificate.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/name
 
 ### partyId?
 
-> `optional` **partyId**: `string`
+> `optional` **partyId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a party for this specified certificate.
 

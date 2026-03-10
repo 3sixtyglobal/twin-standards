@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/exportLicenceDocument
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this header trade agreement.
 
@@ -686,7 +686,7 @@ https://vocabulary.uncefact.org/requisitionerDocument
 
 ### revisionId?
 
-> `optional` **revisionId**: `string`
+> `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
 An identifier for the revision of this header trade agreement.
 

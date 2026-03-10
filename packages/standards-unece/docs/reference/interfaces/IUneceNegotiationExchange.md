@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### sessionId
 
-> **sessionId**: `string`
+> **sessionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the session for this electronic negotiation exchange.
 

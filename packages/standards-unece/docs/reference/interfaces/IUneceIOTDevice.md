@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### attachedAssetId?
 
-> `optional` **attachedAssetId**: `string`
+> `optional` **attachedAssetId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the asset, such as a container, to which this monitoring IOT device is attached.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/grantedCertificate
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this monitoring IOT device.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### modelId?
 
-> `optional` **modelId**: `string`
+> `optional` **modelId**: `string` \| `IJsonLdValueObject`
 
 A model identifier for this monitoring IOT device.
 

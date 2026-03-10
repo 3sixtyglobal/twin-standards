@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/generalCharacteristic
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this sample observation result.
 

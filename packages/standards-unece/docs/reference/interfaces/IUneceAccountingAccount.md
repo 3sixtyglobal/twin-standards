@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/costReferenceDimensionPattern
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade accounting account.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### mainAccountsChartId?
 
-> `optional` **mainAccountsChartId**: `string`
+> `optional` **mainAccountsChartId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the main accounts chart for this trade accounting account.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/mainAccountsChartId
 
 ### mainAccountsChartReferenceId?
 
-> `optional` **mainAccountsChartReferenceId**: `string`
+> `optional` **mainAccountsChartReferenceId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the main accounts chart reference for this trade accounting account.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/name
 
 ### subAccountId?
 
-> `optional` **subAccountId**: `string`
+> `optional` **subAccountId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the sub account for this trade accounting account.
 

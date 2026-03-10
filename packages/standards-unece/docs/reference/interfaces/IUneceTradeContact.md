@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade contact.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/mobileTelephoneCommunication
 
 ### personId?
 
-> `optional` **personId**: `string`
+> `optional` **personId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade contact person.
 

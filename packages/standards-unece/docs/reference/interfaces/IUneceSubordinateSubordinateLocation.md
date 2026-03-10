@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE)
 or GS1 Global Location Number (GLN).

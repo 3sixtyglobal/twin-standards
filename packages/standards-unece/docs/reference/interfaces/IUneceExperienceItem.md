@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/guestSpecialCareIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified experience item.
 

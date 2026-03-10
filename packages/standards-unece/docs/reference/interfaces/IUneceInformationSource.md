@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/securityInformation
 
 ### websiteURIId?
 
-> `optional` **websiteURIId**: `string`
+> `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the website URI (Uniform Resource Identifier) of this specified information source.
 

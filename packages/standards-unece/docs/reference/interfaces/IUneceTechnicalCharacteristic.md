@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this technical characteristic.
 

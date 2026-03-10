@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/frequencyCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this supply chain event.
 

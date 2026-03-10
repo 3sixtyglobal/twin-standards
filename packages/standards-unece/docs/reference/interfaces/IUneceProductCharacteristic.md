@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this product characteristic.
 

@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### customizationId?
 
-> `optional` **customizationId**: `string`
+> `optional` **customizationId**: `string` \| `IJsonLdValueObject`
 
 The customization identifier for this XHE envelope.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/payloadIncludedIndicator
 
 ### profileExecutionId?
 
-> `optional` **profileExecutionId**: `string`
+> `optional` **profileExecutionId**: `string` \| `IJsonLdValueObject`
 
 The profile execution identifier for this XHE envelope.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/profileExecutionId
 
 ### profileId?
 
-> `optional` **profileId**: `string`
+> `optional` **profileId**: `string` \| `IJsonLdValueObject`
 
 The profile identifier for this XHE envelope.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/profileId
 
 ### versionId
 
-> **versionId**: `string`
+> **versionId**: `string` \| `IJsonLdValueObject`
 
 The version identifier for this XHE envelope.
 

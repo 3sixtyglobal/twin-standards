@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/description
 
 ### digitalPlatformAssignedId?
 
-> `optional` **digitalPlatformAssignedId**: `string`
+> `optional` **digitalPlatformAssignedId**: `string` \| `IJsonLdValueObject`
 
 The digital platform assigned identifier for this production facility.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/functionCode
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier of this production facility.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this production facility.
 

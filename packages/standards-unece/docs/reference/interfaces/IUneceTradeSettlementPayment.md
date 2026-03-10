@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/closingBookDueDateTime
 
 ### endToEndId?
 
-> `optional` **endToEndId**: `string`
+> `optional` **endToEndId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for the end-to-end processing of this trade settlement payment, such as an identifier assigned by
 an initiating party to unambiguously identify the transaction.
@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/endToEndId
 
 ### instructionId?
 
-> `optional` **instructionId**: `string`
+> `optional` **instructionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the instruction for this trade settlement payment.
 

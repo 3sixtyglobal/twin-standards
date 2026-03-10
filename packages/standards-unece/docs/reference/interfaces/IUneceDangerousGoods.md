@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### additionalHazardClassificationId?
 
-> `optional` **additionalHazardClassificationId**: `string`
+> `optional` **additionalHazardClassificationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of an additional hazard class applicable to these transported dangerous goods.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/densityMeasure
 
 ### eMSId?
 
-> `optional` **eMSId**: `string`
+> `optional` **eMSId**: `string` \| `IJsonLdValueObject`
 
 The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/hazardCategoryCode
 
 ### hazardClassVersionId?
 
-> `optional` **hazardClassVersionId**: `string`
+> `optional` **hazardClassVersionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the version of a hazard class for these transported dangerous goods.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/hazardClassVersionId
 
 ### hazardClassificationId?
 
-> `optional` **hazardClassificationId**: `string`
+> `optional` **hazardClassificationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant
 governing regulation authority.
@@ -389,7 +389,7 @@ https://vocabulary.uncefact.org/limitedQuantityCode
 
 ### lowerPartOrangeHazardPlacardId?
 
-> `optional` **lowerPartOrangeHazardPlacardId**: `string`
+> `optional` **lowerPartOrangeHazardPlacardId**: `string` \| `IJsonLdValueObject`
 
 The unique lower part of the orange hazard placard identifier for these transported dangerous goods.
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/lowerPartOrangeHazardPlacardId
 
 ### mFAGId?
 
-> `optional` **mFAGId**: `string`
+> `optional` **mFAGId**: `string` \| `IJsonLdValueObject`
 
 The unique Medical First Aid Guide (MFAG) identifier for these transported dangerous goods.
 
@@ -617,7 +617,7 @@ https://vocabulary.uncefact.org/shipperDeclarationInformation
 
 ### specialProvisionId?
 
-> `optional` **specialProvisionId**: `string`
+> `optional` **specialProvisionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the special provision for these transported dangerous goods.
 
@@ -665,7 +665,7 @@ https://vocabulary.uncefact.org/supplementaryInformation
 
 ### tREMId?
 
-> `optional` **tREMId**: `string`
+> `optional` **tREMId**: `string` \| `IJsonLdValueObject`
 
 The unique TRansport EMergency (TREM) card identifier for these transported dangerous goods.
 
@@ -786,7 +786,7 @@ https://vocabulary.uncefact.org/unitViscosityMeasure
 
 ### upperPartOrangeHazardPlacardId?
 
-> `optional` **upperPartOrangeHazardPlacardId**: `string`
+> `optional` **upperPartOrangeHazardPlacardId**: `string` \| `IJsonLdValueObject`
 
 The unique upper part of the orange hazard placard identifier for these transported dangerous goods.
 

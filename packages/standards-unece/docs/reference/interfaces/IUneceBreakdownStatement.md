@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this valuation breakdown statement.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/itemGroupedWorkItem
 
 ### measurementMethodId?
 
-> `optional` **measurementMethodId**: `string`
+> `optional` **measurementMethodId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of a method of measurement for this valuation breakdown statement.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/name
 
 ### priceListId?
 
-> `optional` **priceListId**: `string`
+> `optional` **priceListId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a price list for this valuation breakdown statement.
 

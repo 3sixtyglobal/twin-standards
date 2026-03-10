@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/attainedAcademicQualification
 
 ### birthCountryId?
 
-> `optional` **birthCountryId**: `string`
+> `optional` **birthCountryId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the birth country of this transport person.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/birthplaceName
 
 ### bookingId?
 
-> `optional` **bookingId**: `string`
+> `optional` **bookingId**: `string` \| `IJsonLdValueObject`
 
 A booking identifier for this transport person.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/bookingId
 
 ### cabinId?
 
-> `optional` **cabinId**: `string`
+> `optional` **cabinId**: `string` \| `IJsonLdValueObject`
 
 A cabin identifier for this transport person.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/identifiedStowaway
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this transport person.
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/partyRoleCode
 
 ### passengerId?
 
-> `optional` **passengerId**: `string`
+> `optional` **passengerId**: `string` \| `IJsonLdValueObject`
 
 A passenger identifier for this transport person.
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/specificAccreditation
 
 ### transportPersonLanguageId?
 
-> `optional` **transportPersonLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)[]
+> `optional` **transportPersonLanguageId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 

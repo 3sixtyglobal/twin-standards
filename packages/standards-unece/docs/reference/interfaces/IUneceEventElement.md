@@ -28,7 +28,7 @@ JSON-LD Type.
 
 ### objectClassId
 
-> **objectClassId**: `string`
+> **objectClassId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the object class for this TT event element.
 

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified membership.
 

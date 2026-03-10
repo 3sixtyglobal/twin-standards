@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/distinctiveFeature
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this experience product.
 

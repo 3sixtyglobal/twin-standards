@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this specification query.
 

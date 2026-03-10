@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this XHE document.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ### uUIDId?
 
-> `optional` **uUIDId**: `string`
+> `optional` **uUIDId**: `string` \| `IJsonLdValueObject`
 
 The UUID (Universally Unique IDentifier) of this XHE document.
 

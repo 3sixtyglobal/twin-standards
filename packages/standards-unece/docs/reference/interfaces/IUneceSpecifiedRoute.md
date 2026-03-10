@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/linearUnitDistanceMeasure
 
 ### mapURIId?
 
-> `optional` **mapURIId**: `string`
+> `optional` **mapURIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the map of this specified route.
 

@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/genderCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this guest.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### languageId?
 
-> `optional` **languageId**: `string`
+> `optional` **languageId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the language of this guest.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/notifiedProtectionMeans
 
 ### passportId?
 
-> `optional` **passportId**: `string`
+> `optional` **passportId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the passport of this guest.
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/raisedQuery
 
 ### residenceCountryId?
 
-> `optional` **residenceCountryId**: `string`
+> `optional` **residenceCountryId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the residence country of this guest person.
 

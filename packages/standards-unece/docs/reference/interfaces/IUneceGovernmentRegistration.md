@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country for this government registration.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country sub-division for this registration.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this government registration.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lastRegisteredYearDateTime
 
 ### licenceId?
 
-> `optional` **licenceId**: `string`
+> `optional` **licenceId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a licence for this government registration.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of this government registration.
 

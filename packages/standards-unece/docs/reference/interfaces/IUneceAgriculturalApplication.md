@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/appliedMaterial
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified agricultural application.
 

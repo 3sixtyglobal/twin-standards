@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/faceAmount
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this experience item voucher.
 

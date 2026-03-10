@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/subClassCode
 
 ### systemId?
 
-> `optional` **systemId**: `string`
+> `optional` **systemId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the classification system for this product classification.
 

@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/dispositionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT transformation event.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### inputObjectInstanceId?
 
-> `optional` **inputObjectInstanceId**: `string`
+> `optional` **inputObjectInstanceId**: `string` \| `IJsonLdValueObject`
 
 An instance identifier for an input object of this TT transformation event.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### outputObjectInstanceId?
 
-> `optional` **outputObjectInstanceId**: `string`
+> `optional` **outputObjectInstanceId**: `string` \| `IJsonLdValueObject`
 
 An instance identifier for an output object of this TT transformation event.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/specifiedTradeTransaction
 
 ### transformationId?
 
-> `optional` **transformationId**: `string`
+> `optional` **transformationId**: `string` \| `IJsonLdValueObject`
 
 The transformation identifier for this TT transformation event.
 

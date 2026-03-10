@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### buyerAssignedId?
 
-> `optional` **buyerAssignedId**: `string`
+> `optional` **buyerAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique buyer assigned identifier for this referenced product.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A unique global identifier for this referenced product.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this referenced product.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### industryAssignedId?
 
-> `optional` **industryAssignedId**: `string`
+> `optional` **industryAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique industry assigned identifier for this referenced product.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/industryAssignedId
 
 ### manufacturerAssignedId?
 
-> `optional` **manufacturerAssignedId**: `string`
+> `optional` **manufacturerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique manufacturer assigned identifier for this referenced product.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/relationshipTypeCode
 
 ### sellerAssignedId?
 
-> `optional` **sellerAssignedId**: `string`
+> `optional` **sellerAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique seller assigned identifier for this referenced product.
 

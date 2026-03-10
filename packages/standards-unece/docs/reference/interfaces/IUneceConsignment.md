@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/carrierAgentParty
 
 ### carrierAssignedId?
 
-> `optional` **carrierAssignedId**: `string`
+> `optional` **carrierAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference
 number when cargo space is reserved prior to loading.
@@ -397,7 +397,7 @@ https://vocabulary.uncefact.org/consigneeAgentParty
 
 ### consigneeAssignedId?
 
-> `optional` **consigneeAssignedId**: `string`
+> `optional` **consigneeAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier assigned by the consignee to this referenced supply chain consignment.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/consignorAgentParty
 
 ### consignorAssignedId?
 
-> `optional` **consignorAssignedId**: `string`
+> `optional` **consignorAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier assigned by the consignor to this referenced supply chain consignment.
 
@@ -530,7 +530,7 @@ https://vocabulary.uncefact.org/containerizationIndicator
 
 ### contractId?
 
-> `optional` **contractId**: `string`
+> `optional` **contractId**: `string` \| `IJsonLdValueObject`
 
 A contract identifier for this supply chain consignment.
 
@@ -591,7 +591,7 @@ https://vocabulary.uncefact.org/customsExportAgentParty
 
 ### customsId?
 
-> `optional` **customsId**: `string`
+> `optional` **customsId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier, for customs purposes, for this consignment.
 
@@ -911,7 +911,7 @@ https://vocabulary.uncefact.org/finalDestinationLocation
 
 ### freightForwarderAssignedId?
 
-> `optional` **freightForwarderAssignedId**: `string`
+> `optional` **freightForwarderAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier assigned by the freight forwarder to this referenced supply chain consignment.
 
@@ -935,7 +935,7 @@ https://vocabulary.uncefact.org/freightForwarderParty
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier of this supply chain consignment.
 
@@ -996,7 +996,7 @@ https://vocabulary.uncefact.org/haulageInstructions
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this referenced supply chain consignment.
 
@@ -1808,7 +1808,7 @@ https://vocabulary.uncefact.org/totalTareWeightMeasure
 
 ### tradedParcelId?
 
-> `optional` **tradedParcelId**: `string`
+> `optional` **tradedParcelId**: `string` \| `IJsonLdValueObject`
 
 A traded parcel identifier for this supply chain consignment.
 

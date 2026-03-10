@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/executionPerson
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified inspection.
 

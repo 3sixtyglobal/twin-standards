@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/documentCharacteristicValueCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this document characteristic.
 

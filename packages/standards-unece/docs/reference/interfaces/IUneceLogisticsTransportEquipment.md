@@ -199,7 +199,7 @@ https://vocabulary.uncefact.org/carriedTransportEquipment
 
 ### carrierAssignedBookingId?
 
-> `optional` **carrierAssignedBookingId**: `string`
+> `optional` **carrierAssignedBookingId**: `string` \| `IJsonLdValueObject`
 
 A carrier assigned booking identifier for this piece of logistics transport equipment.
 
@@ -236,7 +236,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ### consigneeAssignedConsignmentId?
 
-> `optional` **consigneeAssignedConsignmentId**: `string`
+> `optional` **consigneeAssignedConsignmentId**: `string` \| `IJsonLdValueObject`
 
 The consignee assigned consignment identifier for this piece of logistics transport equipment.
 
@@ -405,7 +405,7 @@ https://vocabulary.uncefact.org/humidityPercent
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this piece of logistics transport equipment.
 
@@ -806,7 +806,7 @@ https://vocabulary.uncefact.org/relatedEvent
 
 ### releaseId?
 
-> `optional` **releaseId**: `string`
+> `optional` **releaseId**: `string` \| `IJsonLdValueObject`
 
 The release identifier for this piece of logistics transport equipment.
 
@@ -1012,7 +1012,7 @@ https://vocabulary.uncefact.org/storageEvent
 
 ### stowagePositionId?
 
-> `optional` **stowagePositionId**: `string`
+> `optional` **stowagePositionId**: `string` \| `IJsonLdValueObject`
 
 The stowage position identifier for this piece of logistics transport equipment.
 

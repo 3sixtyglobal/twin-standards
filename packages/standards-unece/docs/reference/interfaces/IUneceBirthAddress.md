@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### birthAddressCountryId?
 
-> `optional` **birthAddressCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **birthAddressCountryId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a country for this birth address.
 

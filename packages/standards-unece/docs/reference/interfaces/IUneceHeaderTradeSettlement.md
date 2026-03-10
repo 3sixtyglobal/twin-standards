@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/creditReasonCode
 
 ### creditorReferenceId?
 
-> `optional` **creditorReferenceId**: `string`
+> `optional` **creditorReferenceId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the creditor reference for this header trade settlement, such as a specific identifier assigned by the
 creditor to reference the financial transaction.
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/creditorReferenceId
 
 ### creditorReferenceIssuerId?
 
-> `optional` **creditorReferenceIssuerId**: `string`
+> `optional` **creditorReferenceIssuerId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the creditor reference issuer for this header trade settlement.
 

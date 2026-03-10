@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/grantedParty
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified licence.
 

@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this sustainability assertion.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/includedCharacteristic
 
 ### issuingPartyId?
 
-> `optional` **issuingPartyId**: `string`
+> `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a party issuing this sustainability assertion.
 

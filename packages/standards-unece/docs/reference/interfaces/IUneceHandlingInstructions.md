@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/handlingInstructionsDescriptionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this handling instructions.
 

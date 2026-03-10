@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/content
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this special query.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/submittingPersonName
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version for this special query.
 

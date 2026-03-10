@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### certificationId?
 
-> `optional` **certificationId**: `string`
+> `optional` **certificationId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the certificate granted to a party for this laboratory observation analysis method.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/externalReference
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this laboratory observation analysis method.
 

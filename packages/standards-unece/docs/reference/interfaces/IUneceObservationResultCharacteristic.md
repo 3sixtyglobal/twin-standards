@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/measuredValueMeasure
 
 ### methodParameterId?
 
-> `optional` **methodParameterId**: `string`
+> `optional` **methodParameterId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the method parameter for this sample observation result characteristic.
 

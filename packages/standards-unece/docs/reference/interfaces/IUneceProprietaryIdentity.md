@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identificationType
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A proprietary identifier.
 

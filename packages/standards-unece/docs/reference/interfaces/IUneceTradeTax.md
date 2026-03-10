@@ -259,7 +259,7 @@ https://vocabulary.uncefact.org/description
 
 ### exemptionAuthorizationId?
 
-> `optional` **exemptionAuthorizationId**: `string`
+> `optional` **exemptionAuthorizationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the exemption authorization for this trade tax.
 
@@ -320,7 +320,7 @@ https://vocabulary.uncefact.org/guarantee
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this trade tax.
 
@@ -368,7 +368,7 @@ https://vocabulary.uncefact.org/lineTotalBasisAmount
 
 ### localTaxSystemId?
 
-> `optional` **localTaxSystemId**: `string`
+> `optional` **localTaxSystemId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the local tax system for this trade tax.
 
@@ -380,7 +380,7 @@ https://vocabulary.uncefact.org/localTaxSystemId
 
 ### paymentId?
 
-> `optional` **paymentId**: `string`
+> `optional` **paymentId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the payment of this trade related tax, levy or duty.
 
@@ -587,7 +587,7 @@ https://vocabulary.uncefact.org/taxCategoryCode
 
 ### taxExemptionAuthorityId?
 
-> `optional` **taxExemptionAuthorityId**: `string`
+> `optional` **taxExemptionAuthorityId**: `string` \| `IJsonLdValueObject`
 
 The unique tax exemption authority identifier for this trade tax.
 

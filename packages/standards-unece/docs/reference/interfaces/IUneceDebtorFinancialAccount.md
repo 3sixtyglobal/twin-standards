@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/accountName
 
 ### bBANId?
 
-> `optional` **bBANId**: `string`
+> `optional` **bBANId**: `string` \| `IJsonLdValueObject`
 
 The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme(s) for this
 debtor financial account.
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/debtorFinancialAccountTypeCode
 
 ### iBANId?
 
-> `optional` **iBANId**: `string`
+> `optional` **iBANId**: `string` \| `IJsonLdValueObject`
 
 The unique International Bank Account Number (IBAN) identifier for this debtor financial account.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/iBANId
 
 ### proprietaryId?
 
-> `optional` **proprietaryId**: `string`
+> `optional` **proprietaryId**: `string` \| `IJsonLdValueObject`
 
 The unique proprietary identifier for this debtor financial account.
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/proprietaryType
 
 ### uPICId?
 
-> `optional` **uPICId**: `string`
+> `optional` **uPICId**: `string` \| `IJsonLdValueObject`
 
 The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this debtor
 financial account.

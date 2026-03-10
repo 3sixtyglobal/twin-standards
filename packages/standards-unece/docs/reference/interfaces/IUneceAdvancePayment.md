@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifiedPaymentTerms
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this advance payment.
 

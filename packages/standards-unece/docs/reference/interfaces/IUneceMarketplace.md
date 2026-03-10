@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified marketplace.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/virtualIndicator
 
 ### websiteURIId?
 
-> `optional` **websiteURIId**: `string`
+> `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 
 A website Uniform Resource Identifier (URI) for this specified marketplace.
 

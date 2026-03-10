@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this specified certification.
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/startDateTime
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 A Uniform Resource Identifier (URI) for this specified certification.
 

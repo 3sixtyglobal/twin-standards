@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this representative person.
 

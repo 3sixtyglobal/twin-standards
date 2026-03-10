@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/scenarioSpecifiedParameter
 
 ### specifiedTransactionId?
 
-> `optional` **specifiedTransactionId**: `string`
+> `optional` **specifiedTransactionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a specified transaction in this exchanged document context.
 

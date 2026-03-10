@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/depositValueValidityPeriod
 
 ### materialId?
 
-> `optional` **materialId**: `string`
+> `optional` **materialId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the material to which these returnable asset instructions apply.
 

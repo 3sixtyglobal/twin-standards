@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/fileName
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this specified binary file.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/title
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The unique Uniform Resource Identifier (URI) for this specified binary file.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The unique version identifier for this specified binary file.
 

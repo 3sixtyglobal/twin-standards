@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this calibrated measurement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a version of this calibrated measurement.
 

@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
+> `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
 A unique country identifier for this location party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of this location party.
 

@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/guaranteedProductLifeSpanPeriod
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this line trade agreement.
 
@@ -833,7 +833,7 @@ https://vocabulary.uncefact.org/resaleProductUnitMeasureCode
 
 ### revisionId?
 
-> `optional` **revisionId**: `string`
+> `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
 An identifier for the revision of this line trade agreement.
 

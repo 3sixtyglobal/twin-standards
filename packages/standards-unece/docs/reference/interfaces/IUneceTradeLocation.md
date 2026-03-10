@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/countryName
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the country sub-division for this trade location.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countrySubDivisionName
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this location used or referenced in trade.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/name
 
 ### tradeLocationCountryId?
 
-> `optional` **tradeLocationCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **tradeLocationCountryId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a country location used or referenced in trade.
 

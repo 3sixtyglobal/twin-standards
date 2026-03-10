@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### fLUXId?
 
-> `optional` **fLUXId**: `string`
+> `optional` **fLUXId**: `string` \| `IJsonLdValueObject`
 
 A Fisheries Language for Universal eXchange (FLUX) identifier for this animal batch.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/fLUXId
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this animal batch.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/saleDateTime
 
 ### salesNoteId?
 
-> `optional` **salesNoteId**: `string`
+> `optional` **salesNoteId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the sales note for this animal batch.
 

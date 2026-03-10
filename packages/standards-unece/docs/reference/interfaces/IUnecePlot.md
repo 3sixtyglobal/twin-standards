@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/grownCrop
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this crop plot.
 

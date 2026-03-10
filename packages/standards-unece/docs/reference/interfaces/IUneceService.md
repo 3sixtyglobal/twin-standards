@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ### contractId?
 
-> `optional` **contractId**: `string`
+> `optional` **contractId**: `string` \| `IJsonLdValueObject`
 
 The contract identifier of this referenced transport service.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/estimatedPerformancePeriod
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this transport service.
 

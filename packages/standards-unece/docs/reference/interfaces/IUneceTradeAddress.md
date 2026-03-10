@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/careOf
 
 ### cityId?
 
-> `optional` **cityId**: `string`
+> `optional` **cityId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the city for this trade address, such as United Nations Location Code (UNLOCODE).
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/countryName
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of the country sub-division for this trade address.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/geoCoordinateIdentificationGeographicalCoordinat
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade address.
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/streetName
 
 ### tradeAddressCountryId?
 
-> `optional` **tradeAddressCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **tradeAddressCountryId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a country for this trade address.
 

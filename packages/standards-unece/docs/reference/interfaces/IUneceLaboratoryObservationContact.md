@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this laboratory observation contact.
 

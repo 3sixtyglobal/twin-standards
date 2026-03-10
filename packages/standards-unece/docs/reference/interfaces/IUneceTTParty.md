@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this TT party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ### residenceCountryId?
 
-> `optional` **residenceCountryId**: `string`
+> `optional` **residenceCountryId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the country of residence for this TT party, such as the country in which a person lives or in which a
 corporation has its place of incorporation.
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/tTPartyRoleCode
 
 ### typeId?
 
-> `optional` **typeId**: `string`
+> `optional` **typeId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the type for this TT party.
 

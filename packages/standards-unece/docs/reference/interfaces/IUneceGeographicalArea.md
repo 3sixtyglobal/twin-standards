@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this geographical area.
 

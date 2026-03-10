@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/appliedTreatment
 
 ### buyerAssignedId?
 
-> `optional` **buyerAssignedId**: `string`
+> `optional` **buyerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A buyer assigned identifier of this product batch.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### dNAMarkerId?
 
-> `optional` **dNAMarkerId**: `string`
+> `optional` **dNAMarkerId**: `string` \| `IJsonLdValueObject`
 
 The DNA marker identifier of this product batch.
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier of this product batch.
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/grossWeightMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this product batch.
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerAssignedId?
 
-> `optional` **manufacturerAssignedId**: `string`
+> `optional` **manufacturerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A manufacturer assigned identifier of this product batch.
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/productionModeCode
 
 ### sellerAssignedId?
 
-> `optional` **sellerAssignedId**: `string`
+> `optional` **sellerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A seller assigned identifier of this product batch.
 

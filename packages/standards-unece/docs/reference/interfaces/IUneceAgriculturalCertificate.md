@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this agricultural certificate.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ### issuingPartyId?
 
-> `optional` **issuingPartyId**: `string`
+> `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the issuing party of this agricultural certificate.
 

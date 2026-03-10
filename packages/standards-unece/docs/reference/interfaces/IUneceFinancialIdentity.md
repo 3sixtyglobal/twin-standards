@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### agentAssignedCustomerId?
 
-> `optional` **agentAssignedCustomerId**: `string`
+> `optional` **agentAssignedCustomerId**: `string` \| `IJsonLdValueObject`
 
 The agent assigned customer identifier for this financial identity.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/agentAssignedCustomerId
 
 ### bEIId?
 
-> `optional` **bEIId**: `string`
+> `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
 The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes)
 for this financial identity.
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/bEIId
 
 ### bICId?
 
-> `optional` **bICId**: `string`
+> `optional` **bICId**: `string` \| `IJsonLdValueObject`
 
 The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for
 this financial identity.
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/bICId
 
 ### bankAssignedId?
 
-> `optional` **bankAssignedId**: `string`
+> `optional` **bankAssignedId**: `string` \| `IJsonLdValueObject`
 
 The bank assigned identifier for this financial identity.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/bankAssignedId
 
 ### cHIPSUniversalId?
 
-> `optional` **cHIPSUniversalId**: `string`
+> `optional` **cHIPSUniversalId**: `string` \| `IJsonLdValueObject`
 
 The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the
 New York Clearing House for this financial identity.
@@ -89,7 +89,7 @@ https://vocabulary.uncefact.org/cHIPSUniversalId
 
 ### iBEIId?
 
-> `optional` **iBEIId**: `string`
+> `optional` **iBEIId**: `string` \| `IJsonLdValueObject`
 
 The International Business Entity Identifier (IBEI) for this financial identity.
 

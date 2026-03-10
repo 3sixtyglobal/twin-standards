@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/deathDateTime
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT animal, such as the number appearing on an animal ear tag.
 

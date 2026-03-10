@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/buildingNumber
 
 ### cityId?
 
-> `optional` **cityId**: `string`
+> `optional` **cityId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the city for this financial institution address, such as United Nations Location Code
 (UNLOCODE).
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/cityName
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/countryName
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a country sub-division for this financial institution address (Reference ISO 3166 and UN/ECE
 Rec 3).

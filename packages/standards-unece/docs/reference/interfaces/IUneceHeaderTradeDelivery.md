@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/fullyDeliveredIndicator
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier, at header level, for this trade delivery.
 
@@ -435,7 +435,7 @@ https://vocabulary.uncefact.org/headerTradeDeliveryGoodsPhysicalStateTypeCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier, at header level, for this trade delivery.
 
@@ -832,7 +832,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### subordinateId?
 
-> `optional` **subordinateId**: `string`
+> `optional` **subordinateId**: `string` \| `IJsonLdValueObject`
 
 A subordinate identifier, at header level, for this trade delivery.
 

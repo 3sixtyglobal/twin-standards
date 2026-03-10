@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade product feature.
 

@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/attachmentDateTime
 
 ### barcodeId?
 
-> `optional` **barcodeId**: `string`
+> `optional` **barcodeId**: `string` \| `IJsonLdValueObject`
 
 The barcode identifier of this product label.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this product label.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/name
 
 ### seriesEndId?
 
-> `optional` **seriesEndId**: `string`
+> `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the end of a series of product labels.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ### seriesStartId?
 
-> `optional` **seriesStartId**: `string`
+> `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the start of a series of product labels.
 

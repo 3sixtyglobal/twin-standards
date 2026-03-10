@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/executionPerson
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this sustainability inspection.
 

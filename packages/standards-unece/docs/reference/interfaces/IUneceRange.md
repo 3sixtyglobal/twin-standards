@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### endId?
 
-> `optional` **endId**: `string`
+> `optional` **endId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the end of this specified range.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ### startId?
 
-> `optional` **startId**: `string`
+> `optional` **startId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the start of this specified range.
 

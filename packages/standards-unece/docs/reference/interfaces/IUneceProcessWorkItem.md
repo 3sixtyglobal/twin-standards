@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this process work item.
 

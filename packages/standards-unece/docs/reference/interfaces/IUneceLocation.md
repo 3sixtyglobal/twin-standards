@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/countryName
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country sub-division for this referenced location.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/description
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier of this referenced location.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this referenced location such as a United Nations Blue Number (UNBN) or GS1 Global Location Number
 (GLN).
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/includedPolygon
 
 ### locationCountryId?
 
-> `optional` **locationCountryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)
+> `optional` **locationCountryId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country for this referenced location.
 

@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this work item group.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/itemGroupedWorkItem
 
 ### priceListItemId?
 
-> `optional` **priceListItemId**: `string`
+> `optional` **priceListItemId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a price list item for this grouped work item.
 

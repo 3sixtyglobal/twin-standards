@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/contentTypeCode
 
 ### customizationId?
 
-> `optional` **customizationId**: `string`
+> `optional` **customizationId**: `string` \| `IJsonLdValueObject`
 
 The customization identifier for this XHE payload instance.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/encryptionMethodCode
 
 ### handlingServiceId?
 
-> `optional` **handlingServiceId**: `string`
+> `optional` **handlingServiceId**: `string` \| `IJsonLdValueObject`
 
 The handling service identifier for this XHE payload instance.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/handlingServiceId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this XHE payload instance.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/payloadReference
 
 ### profileExecutionId?
 
-> `optional` **profileExecutionId**: `string`
+> `optional` **profileExecutionId**: `string` \| `IJsonLdValueObject`
 
 The profile execution identifier for this XHE payload instance.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/profileExecutionId
 
 ### profileId?
 
-> `optional` **profileId**: `string`
+> `optional` **profileId**: `string` \| `IJsonLdValueObject`
 
 The profile identifier for this XHE payload instance.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/validationTypeCode
 
 ### validationVersionId?
 
-> `optional` **validationVersionId**: `string`
+> `optional` **validationVersionId**: `string` \| `IJsonLdValueObject`
 
 The validation version identifier for this XHE payload instance.
 

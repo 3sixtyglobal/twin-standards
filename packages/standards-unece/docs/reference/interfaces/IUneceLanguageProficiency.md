@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageCode
 
 ### personalLanguageProficiencyLanguageId?
 
-> `optional` **personalLanguageProficiencyLanguageId**: [`UneceLanguageId`](../type-aliases/UneceLanguageId.md)
+> `optional` **personalLanguageProficiencyLanguageId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the language for which this personal language proficiency is defined.
 

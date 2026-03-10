@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this document line document.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/latestRevisionDateTime
 
 ### lineId?
 
-> `optional` **lineId**: `string`
+> `optional` **lineId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this document line.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/lineStatusReasonCode
 
 ### parentLineId?
 
-> `optional` **parentLineId**: `string`
+> `optional` **parentLineId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the parent line to this document line.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/responseReasonCode
 
 ### subordinateLineId?
 
-> `optional` **subordinateLineId**: `string`
+> `optional` **subordinateLineId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a subordinate line of this document line.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/subordinateLineId
 
 ### uUIDLineId?
 
-> `optional` **uUIDLineId**: `string`
+> `optional` **uUIDLineId**: `string` \| `IJsonLdValueObject`
 
 The universally unique identifier (UUID) of this document line.
 

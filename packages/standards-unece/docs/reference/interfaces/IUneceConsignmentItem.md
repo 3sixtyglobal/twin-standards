@@ -354,7 +354,7 @@ https://vocabulary.uncefact.org/firstTypeExtensionCode
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A global identifier for this supply chain consignment item.
 
@@ -415,7 +415,7 @@ https://vocabulary.uncefact.org/handlingInstructions
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this supply chain consignment item.
 

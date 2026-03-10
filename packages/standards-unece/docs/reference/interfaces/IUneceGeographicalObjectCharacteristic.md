@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/geometryCollectionIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this geographical object characteristic.
 

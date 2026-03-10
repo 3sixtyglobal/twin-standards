@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/pairedIndicator
 
 ### targetEntityId?
 
-> `optional` **targetEntityId**: `string`
+> `optional` **targetEntityId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the target entity for this communication pairing.
 

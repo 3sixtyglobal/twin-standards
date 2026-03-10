@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this logistics label.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/markingIndicator
 
 ### seriesEndId?
 
-> `optional` **seriesEndId**: `string`
+> `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the end of a series of logistics labels.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ### seriesStartId?
 
-> `optional` **seriesStartId**: `string`
+> `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the start of a series of logistics labels.
 

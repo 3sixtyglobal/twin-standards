@@ -543,7 +543,7 @@ https://vocabulary.uncefact.org/goodsReceiptNoteDocument
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier, at line level, for this trade delivery.
 
@@ -1144,7 +1144,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### subordinateId?
 
-> `optional` **subordinateId**: `string`
+> `optional` **subordinateId**: `string` \| `IJsonLdValueObject`
 
 A subordinate identifier, at line level, for this trade delivery.
 

@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/associatedStandard
 
 ### documentURLId?
 
-> `optional` **documentURLId**: `string`
+> `optional` **documentURLId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Locator (URL) of the web location of the document for this supply chain trade transaction.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/documentURLId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this supply chain trade transaction.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/lineItemQuantity
 
 ### salesAgentAssignedId?
 
-> `optional` **salesAgentAssignedId**: `string`
+> `optional` **salesAgentAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier assigned by the sales agent to identify this supply chain trade transaction.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/salesAgentAssignedId
 
 ### senderRecipientSequenceId?
 
-> `optional` **senderRecipientSequenceId**: `string`
+> `optional` **senderRecipientSequenceId**: `string` \| `IJsonLdValueObject`
 
 The sender-recipient sequence identifier for this supply chain trade transaction.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/senderRecipientSequenceId
 
 ### shipmentId?
 
-> `optional` **shipmentId**: `string`
+> `optional` **shipmentId**: `string` \| `IJsonLdValueObject`
 
 An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply
 chain trade transaction.

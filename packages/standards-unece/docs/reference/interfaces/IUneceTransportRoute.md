@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/frequencyTypeCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this transport route.
 

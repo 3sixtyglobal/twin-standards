@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### ammunitionId?
 
-> `optional` **ammunitionId**: `string`
+> `optional` **ammunitionId**: `string` \| `IJsonLdValueObject`
 
 A unique ammunition identifier for this trade product instance.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/appliedProcess
 
 ### batchId?
 
-> `optional` **batchId**: `string`
+> `optional` **batchId**: `string` \| `IJsonLdValueObject`
 
 The unique batch identifier for this trade product instance.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/brandNameAdditionalInformationNote
 
 ### ceramicCapacitorId?
 
-> `optional` **ceramicCapacitorId**: `string`
+> `optional` **ceramicCapacitorId**: `string` \| `IJsonLdValueObject`
 
 The ceramic capacitor identifier of this trade product instance.
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/commonName
 
 ### dNAMarkerId?
 
-> `optional` **dNAMarkerId**: `string`
+> `optional` **dNAMarkerId**: `string` \| `IJsonLdValueObject`
 
 The DNA marker identifier of this trade product instance.
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/disposalReasonCode
 
 ### ePCId?
 
-> `optional` **ePCId**: `string`
+> `optional` **ePCId**: `string` \| `IJsonLdValueObject`
 
 The EPC (Electronic Product Code) identifier of this trade product instance.
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/ePCId
 
 ### equipmentId?
 
-> `optional` **equipmentId**: `string`
+> `optional` **equipmentId**: `string` \| `IJsonLdValueObject`
 
 A unique equipment identifier for this trade product instance.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### globalSerialId?
 
-> `optional` **globalSerialId**: `string`
+> `optional` **globalSerialId**: `string` \| `IJsonLdValueObject`
 
 The unique global serial identifier for this trade product instance.
 
@@ -244,7 +244,7 @@ https://vocabulary.uncefact.org/globalSerialId
 
 ### iUIDId?
 
-> `optional` **iUIDId**: `string`
+> `optional` **iUIDId**: `string` \| `IJsonLdValueObject`
 
 A unique Department of Defense Item Unique Identifier (IUID) for this trade product instance.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/iUIDId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade product instance.
 
@@ -316,7 +316,7 @@ https://vocabulary.uncefact.org/intendedUse
 
 ### kanbanId?
 
-> `optional` **kanbanId**: `string`
+> `optional` **kanbanId**: `string` \| `IJsonLdValueObject`
 
 The unique kanban identifier for this trade product instance.
 
@@ -328,7 +328,7 @@ https://vocabulary.uncefact.org/kanbanId
 
 ### lotId?
 
-> `optional` **lotId**: `string`
+> `optional` **lotId**: `string` \| `IJsonLdValueObject`
 
 The unique lot identifier for this trade product instance.
 
@@ -340,7 +340,7 @@ https://vocabulary.uncefact.org/lotId
 
 ### manufacturerAssignedSerialId?
 
-> `optional` **manufacturerAssignedSerialId**: `string`
+> `optional` **manufacturerAssignedSerialId**: `string` \| `IJsonLdValueObject`
 
 The unique manufacturer assigned serial identifier for this trade product instance.
 
@@ -436,7 +436,7 @@ https://vocabulary.uncefact.org/reclassificationEvent
 
 ### registrationId?
 
-> `optional` **registrationId**: `string`
+> `optional` **registrationId**: `string` \| `IJsonLdValueObject`
 
 A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance.
 
@@ -473,7 +473,7 @@ https://vocabulary.uncefact.org/sellByDateTime
 
 ### serialId?
 
-> `optional` **serialId**: `string`
+> `optional` **serialId**: `string` \| `IJsonLdValueObject`
 
 A unique serial identifier for this trade product instance.
 
@@ -485,7 +485,7 @@ https://vocabulary.uncefact.org/serialId
 
 ### supplierAssignedSerialId?
 
-> `optional` **supplierAssignedSerialId**: `string`
+> `optional` **supplierAssignedSerialId**: `string` \| `IJsonLdValueObject`
 
 The unique supplier assigned serial identifier for this trade product instance.
 

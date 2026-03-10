@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of this piece of attached transport equipment.
 

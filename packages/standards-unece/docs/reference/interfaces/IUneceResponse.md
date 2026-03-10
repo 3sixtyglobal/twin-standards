@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this specification response.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### queryId?
 
-> `optional` **queryId**: `string`
+> `optional` **queryId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for the query to which this response refers.
 

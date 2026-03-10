@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT trade transaction.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### typeId?
 
-> `optional` **typeId**: `string`
+> `optional` **typeId**: `string` \| `IJsonLdValueObject`
 
 The identifier for the type of TT trade transaction.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/typeId
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) for this TT trade transaction.
 

@@ -268,7 +268,7 @@ https://vocabulary.uncefact.org/expectedIndicator
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this transport event.
 

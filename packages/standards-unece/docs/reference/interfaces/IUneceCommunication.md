@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/description
 
 ### emailURIId?
 
-> `optional` **emailURIId**: `string`
+> `optional` **emailURIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the email for this universal communication.
 
@@ -161,7 +161,7 @@ https://vocabulary.uncefact.org/localNumber
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/useCode
 
 ### websiteURIId?
 
-> `optional` **websiteURIId**: `string`
+> `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the website for this universal communication.
 

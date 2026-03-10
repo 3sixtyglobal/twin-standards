@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/harvestedProduce
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this agricultural zone area.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/subordinateArea
 
 ### thirdPartyIssuedId?
 
-> `optional` **thirdPartyIssuedId**: `string`
+> `optional` **thirdPartyIssuedId**: `string` \| `IJsonLdValueObject`
 
 An identifier issued by a third party for this agricultural zone area.
 

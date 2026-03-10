@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/accountName
 
 ### iBANId?
 
-> `optional` **iBANId**: `string`
+> `optional` **iBANId**: `string` \| `IJsonLdValueObject`
 
 The unique International Bank Account Number (IBAN) identifier for this payment financial account.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/iBANId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this payment financial account.
 

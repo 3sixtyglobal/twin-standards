@@ -448,7 +448,7 @@ https://vocabulary.uncefact.org/iSPSRelatedDocument
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.
 
@@ -725,7 +725,7 @@ https://vocabulary.uncefact.org/passengerQuantity
 
 ### pilotageExemptionId?
 
-> `optional` **pilotageExemptionId**: `string`
+> `optional` **pilotageExemptionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a pilotage exemption for this logistics transport movement.
 
@@ -821,7 +821,7 @@ https://vocabulary.uncefact.org/sailingAdviceNotifiedParty
 
 ### scheduledId?
 
-> `optional` **scheduledId**: `string`
+> `optional` **scheduledId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as
 stated in a schedule.
@@ -990,7 +990,7 @@ https://vocabulary.uncefact.org/stage
 
 ### stayId?
 
-> `optional` **stayId**: `string`
+> `optional` **stayId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a stay in a port, airport or other place of service for this logistics transport movement.
 
@@ -1014,7 +1014,7 @@ https://vocabulary.uncefact.org/stevedoreParty
 
 ### terminalOperatorAssignedId?
 
-> `optional` **terminalOperatorAssignedId**: `string`
+> `optional` **terminalOperatorAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this logistics transport movement as assigned by a terminal operator.
 
@@ -1062,7 +1062,7 @@ https://vocabulary.uncefact.org/tradedParcelQuantity
 
 ### tradingConsolidatorAssignedId?
 
-> `optional` **tradingConsolidatorAssignedId**: `string`
+> `optional` **tradingConsolidatorAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this logistics transport movement as assigned by the trading consolidator.
 

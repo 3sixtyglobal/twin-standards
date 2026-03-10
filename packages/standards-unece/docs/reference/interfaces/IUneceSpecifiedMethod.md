@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ### certificationId?
 
-> `optional` **certificationId**: `string`
+> `optional` **certificationId**: `string` \| `IJsonLdValueObject`
 
 A certification identifier of this specified method.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/externalReference
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified method.
 

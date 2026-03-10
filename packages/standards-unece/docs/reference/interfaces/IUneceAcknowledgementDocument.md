@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this acknowledgement document.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### itemIdentificationId?
 
-> `optional` **itemIdentificationId**: `string`
+> `optional` **itemIdentificationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of an item in this acknowledgement document.
 

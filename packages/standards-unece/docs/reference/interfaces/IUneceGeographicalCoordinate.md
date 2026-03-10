@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/acquisitionDateTime
 
 ### alternativeSourceSystemId?
 
-> `optional` **alternativeSourceSystemId**: `string`
+> `optional` **alternativeSourceSystemId**: `string` \| `IJsonLdValueObject`
 
 An alternative source system identifier for this geographical coordinate.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/alternativeSourceSystemId
 
 ### altimetricSystemId?
 
-> `optional` **altimetricSystemId**: `string`
+> `optional` **altimetricSystemId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the system used for measuring the altitude.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/altitudeMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this geographical coordinate.
 
@@ -139,7 +139,7 @@ https://vocabulary.uncefact.org/longitudeMeasure
 
 ### systemId?
 
-> `optional` **systemId**: `string`
+> `optional` **systemId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the reference system used for measuring a geographical coordinate.
 

@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/acceptanceDateTime
 
 ### additionalId?
 
-> `optional` **additionalId**: `string`
+> `optional` **additionalId**: `string` \| `IJsonLdValueObject`
 
 An additional identifier of this exchanged document.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### customsId?
 
-> `optional` **customsId**: `string`
+> `optional` **customsId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier, for customs purposes, for this exchanged document.
 
@@ -376,7 +376,7 @@ https://vocabulary.uncefact.org/fourthSignatoryAuthentication
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 The unique global identifier for this exchanged document.
 
@@ -400,7 +400,7 @@ https://vocabulary.uncefact.org/headerInformation
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this exchanged document.
 
@@ -472,7 +472,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ### itemIdentificationId?
 
-> `optional` **itemIdentificationId**: `string`
+> `optional` **itemIdentificationId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a specific item in this exchanged document.
 
@@ -484,7 +484,7 @@ https://vocabulary.uncefact.org/itemIdentificationId
 
 ### languageId?
 
-> `optional` **languageId**: `string`
+> `optional` **languageId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for a language used in this exchanged document.
 
@@ -605,7 +605,7 @@ https://vocabulary.uncefact.org/ownerParty
 
 ### pageId?
 
-> `optional` **pageId**: `string`
+> `optional` **pageId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a specific page of this exchanged document.
 
@@ -629,7 +629,7 @@ https://vocabulary.uncefact.org/platformProviderParty
 
 ### previousRevisionId?
 
-> `optional` **previousRevisionId**: `string`
+> `optional` **previousRevisionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the previous revision of this exchanged document.
 
@@ -653,7 +653,7 @@ https://vocabulary.uncefact.org/purpose
 
 ### recipientAssignedId?
 
-> `optional` **recipientAssignedId**: `string`
+> `optional` **recipientAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique recipient assigned identifier for this exchanged document.
 
@@ -749,7 +749,7 @@ https://vocabulary.uncefact.org/revisionDateTime
 
 ### revisionId?
 
-> `optional` **revisionId**: `string`
+> `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the revision of this exchanged document.
 
@@ -774,7 +774,7 @@ https://vocabulary.uncefact.org/secondSignatoryAuthentication
 
 ### senderAssignedId?
 
-> `optional` **senderAssignedId**: `string`
+> `optional` **senderAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique sender assigned identifier for this exchanged document.
 
@@ -835,7 +835,7 @@ https://vocabulary.uncefact.org/subtypeCode
 
 ### suffixId?
 
-> `optional` **suffixId**: `string`
+> `optional` **suffixId**: `string` \| `IJsonLdValueObject`
 
 A unique suffix identifier for this exchanged document.
 
@@ -884,7 +884,7 @@ https://vocabulary.uncefact.org/totalPageQuantity
 
 ### traderAssignedId?
 
-> `optional` **traderAssignedId**: `string`
+> `optional` **traderAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique trader assigned identifier for this exchanged document.
 
@@ -920,7 +920,7 @@ https://vocabulary.uncefact.org/urgencyCode
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for the version of this exchanged document.
 

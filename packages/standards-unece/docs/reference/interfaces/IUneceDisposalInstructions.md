@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/handling
 
 ### materialId?
 
-> `optional` **materialId**: `string`
+> `optional` **materialId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the material to which these disposal instructions apply.
 

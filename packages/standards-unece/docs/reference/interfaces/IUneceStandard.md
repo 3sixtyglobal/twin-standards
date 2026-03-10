@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### agencyId?
 
-> `optional` **agencyId**: `string`
+> `optional` **agencyId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the agency for this referenced standard.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/description
 
 ### elementVersionId?
 
-> `optional` **elementVersionId**: `string`
+> `optional` **elementVersionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of a specific element within the referenced standard, such as the version of a data
 element.
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/elementVersionId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this referenced standard.
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/name
 
 ### partId?
 
-> `optional` **partId**: `string`
+> `optional` **partId**: `string` \| `IJsonLdValueObject`
 
 The identifier of a part of this referenced standard, such as a section or topic.
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) for this referenced standard.
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ### versionId?
 
-> `optional` **versionId**: `string`
+> `optional` **versionId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of this referenced standard.
 

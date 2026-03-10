@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/estimatedYieldMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this crop produce.
 

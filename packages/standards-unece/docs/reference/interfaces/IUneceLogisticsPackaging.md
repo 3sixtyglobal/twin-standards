@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/disposalMethodCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this logistics packaging.
 

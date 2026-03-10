@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ### sequenceId?
 
-> `optional` **sequenceId**: `string`
+> `optional` **sequenceId**: `string` \| `IJsonLdValueObject`
 
 The sequence identifier for this instalment payment.
 

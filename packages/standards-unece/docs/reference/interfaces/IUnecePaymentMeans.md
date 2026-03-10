@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/specifiedPaymentFinancialInstitution
 
 ### tradeSettlementPaymentMeansId?
 
-> `optional` **tradeSettlementPaymentMeansId**: `string`
+> `optional` **tradeSettlementPaymentMeansId**: `string` \| `IJsonLdValueObject`
 
 An identifier for this trade settlement payment means.
 

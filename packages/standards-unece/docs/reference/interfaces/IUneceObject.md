@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified object.
 

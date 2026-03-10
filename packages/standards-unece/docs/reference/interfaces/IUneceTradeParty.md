@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/businessTypeCode
 
 ### cAGEId?
 
-> `optional` **cAGEId**: `string`
+> `optional` **cAGEId**: `string` \| `IJsonLdValueObject`
 
 The unique Commercial And Government Entity (CAGE) identifier for this trade party.
 
@@ -375,7 +375,7 @@ https://vocabulary.uncefact.org/cooperativeInformationSource
 
 ### dODAACId?
 
-> `optional` **dODAACId**: `string`
+> `optional` **dODAACId**: `string` \| `IJsonLdValueObject`
 
 The unique Department Of Defense Activity Address Code (DODAAC) identifier for this trade party.
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/dODAACId
 
 ### dUNSId?
 
-> `optional` **dUNSId**: `string`
+> `optional` **dUNSId**: `string` \| `IJsonLdValueObject`
 
 The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party.
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ### gLNId?
 
-> `optional` **gLNId**: `string`
+> `optional` **gLNId**: `string` \| `IJsonLdValueObject`
 
 A Global Location Number (GLN) identifier for this trade party.
 
@@ -483,7 +483,7 @@ https://vocabulary.uncefact.org/gLNId
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A globally unique identifier of this trade party.
 
@@ -495,7 +495,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of this trade party.
 
@@ -639,7 +639,7 @@ https://vocabulary.uncefact.org/qualityAssuranceIndicator
 
 ### rICId?
 
-> `optional` **rICId**: `string`
+> `optional` **rICId**: `string` \| `IJsonLdValueObject`
 
 The unique Routing Identifier Code (RIC) identifier for this trade party.
 
@@ -651,7 +651,7 @@ https://vocabulary.uncefact.org/rICId
 
 ### registeredId?
 
-> `optional` **registeredId**: `string`
+> `optional` **registeredId**: `string` \| `IJsonLdValueObject`
 
 A registered identifier of this trade party.
 

@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this work item quantity analysis.
 

@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalApplicableProduct
 
 ### additionalId?
 
-> `optional` **additionalId**: `string`
+> `optional` **additionalId**: `string` \| `IJsonLdValueObject`
 
 An additional unique identifier for this supply chain trade line item.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/associatedTransportEquipment
 
 ### barcodeId?
 
-> `optional` **barcodeId**: `string`
+> `optional` **barcodeId**: `string` \| `IJsonLdValueObject`
 
 A unique barcode identifier for this supply chain trade line item.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/generalInformationDescription
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this supply chain trade line item.
 

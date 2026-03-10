@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/attachedLogisticsTransportEquipment
 
 ### callSignId?
 
-> `optional` **callSignId**: `string`
+> `optional` **callSignId**: `string` \| `IJsonLdValueObject`
 
 A call sign identifier for this logistics transport means.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/helipadIndicator
 
 ### iMOId?
 
-> `optional` **iMOId**: `string`
+> `optional` **iMOId**: `string` \| `IJsonLdValueObject`
 
 The IMO (International Maritime Organization) identifier for this logistics transport means.
 
@@ -256,7 +256,7 @@ https://vocabulary.uncefact.org/iSSCIssuingAuthorityParty
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.
 
@@ -329,7 +329,7 @@ https://vocabulary.uncefact.org/logisticsTransportMeansPowerTypeCode
 
 ### mMSIId?
 
-> `optional` **mMSIId**: `string`
+> `optional` **mMSIId**: `string` \| `IJsonLdValueObject`
 
 The MMSI (Maritime Mobile Service Identity) identifier for this logistics transport means.
 

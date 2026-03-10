@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this crop produce batch.
 

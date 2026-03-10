@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/collectionIndicator
 
 ### coordinateReferenceSystemId?
 
-> `optional` **coordinateReferenceSystemId**: `string`
+> `optional` **coordinateReferenceSystemId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the coordinate reference system for this geographical feature.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified geographical feature.
 

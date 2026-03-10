@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/digitalImageBinaryObject
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this photographic picture.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/titleName
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The URI (Uniform Resource Identifier) for this photographic picture.
 

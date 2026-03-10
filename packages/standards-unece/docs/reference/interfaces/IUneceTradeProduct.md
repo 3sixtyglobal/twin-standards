@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/availableMeasurementCode
 
 ### batchId?
 
-> `optional` **batchId**: `string`
+> `optional` **batchId**: `string` \| `IJsonLdValueObject`
 
 A batch identifier for this trade product.
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/brandRangeName
 
 ### buyerAssignedId?
 
-> `optional` **buyerAssignedId**: `string`
+> `optional` **buyerAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique buyer assigned identifier for this trade product.
 
@@ -495,7 +495,7 @@ https://vocabulary.uncefact.org/classificationCode
 
 ### collectionId?
 
-> `optional` **collectionId**: `string`
+> `optional` **collectionId**: `string` \| `IJsonLdValueObject`
 
 A collection identifier of this trade product.
 
@@ -555,7 +555,7 @@ https://vocabulary.uncefact.org/colourMatchingLightSourceCode
 
 ### colourMatchingSampleId?
 
-> `optional` **colourMatchingSampleId**: `string`
+> `optional` **colourMatchingSampleId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the colour matching sample for this trade product.
 
@@ -688,7 +688,7 @@ https://vocabulary.uncefact.org/criticalityTypeCode
 
 ### customerAssignedId?
 
-> `optional` **customerAssignedId**: `string`
+> `optional` **customerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique customer assigned identifier for this trade product.
 
@@ -712,7 +712,7 @@ https://vocabulary.uncefact.org/customsStatisticalClassificationCode
 
 ### dNAMarkerId?
 
-> `optional` **dNAMarkerId**: `string`
+> `optional` **dNAMarkerId**: `string` \| `IJsonLdValueObject`
 
 The DNA marker identifier of this trade product.
 
@@ -772,7 +772,7 @@ https://vocabulary.uncefact.org/designation
 
 ### digitalPlatformAssignedId?
 
-> `optional` **digitalPlatformAssignedId**: `string`
+> `optional` **digitalPlatformAssignedId**: `string` \| `IJsonLdValueObject`
 
 The digital platform assigned identifier for this trade product.
 
@@ -808,7 +808,7 @@ https://vocabulary.uncefact.org/drainedNetWeightMeasure
 
 ### ePCId?
 
-> `optional` **ePCId**: `string`
+> `optional` **ePCId**: `string` \| `IJsonLdValueObject`
 
 The EPC (Electronic Product Code) identifier of this trade product.
 
@@ -892,7 +892,7 @@ https://vocabulary.uncefact.org/fIIGCriticalityTypeCode
 
 ### fSCId?
 
-> `optional` **fSCId**: `string`
+> `optional` **fSCId**: `string` \| `IJsonLdValueObject`
 
 A unique Federal Supply Class (FSC) identifier for this trade product.
 
@@ -976,7 +976,7 @@ https://vocabulary.uncefact.org/functionTypeCode
 
 ### gTINId?
 
-> `optional` **gTINId**: `string`
+> `optional` **gTINId**: `string` \| `IJsonLdValueObject`
 
 A Global Trade Item Number (GTIN) identifier for this trade product.
 
@@ -1000,7 +1000,7 @@ https://vocabulary.uncefact.org/geneticModificationExtentCode
 
 ### globalExtensionId?
 
-> `optional` **globalExtensionId**: `string`
+> `optional` **globalExtensionId**: `string` \| `IJsonLdValueObject`
 
 A global extension identifier for this trade product, such as a prefix or a suffix.
 
@@ -1012,7 +1012,7 @@ https://vocabulary.uncefact.org/globalExtensionId
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 A unique global identifier for this trade product.
 
@@ -1048,7 +1048,7 @@ https://vocabulary.uncefact.org/grossWeightMeasure
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade product.
 
@@ -1108,7 +1108,7 @@ https://vocabulary.uncefact.org/individualProductInstance
 
 ### industryAssignedId?
 
-> `optional` **industryAssignedId**: `string`
+> `optional` **industryAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique industry assigned identifier for this product.
 
@@ -1277,7 +1277,7 @@ https://vocabulary.uncefact.org/manufactureCountry
 
 ### manufacturerAssignedId?
 
-> `optional` **manufacturerAssignedId**: `string`
+> `optional` **manufacturerAssignedId**: `string` \| `IJsonLdValueObject`
 
 A unique manufacturer assigned identifier for this trade product.
 
@@ -1373,7 +1373,7 @@ https://vocabulary.uncefact.org/minimumLinearDimension
 
 ### modelId?
 
-> `optional` **modelId**: `string`
+> `optional` **modelId**: `string` \| `IJsonLdValueObject`
 
 A unique model identifier for this trade product.
 
@@ -1397,7 +1397,7 @@ https://vocabulary.uncefact.org/modelName
 
 ### nIINId?
 
-> `optional` **nIINId**: `string`
+> `optional` **nIINId**: `string` \| `IJsonLdValueObject`
 
 A unique National Item Identification Number (NIIN) identifier for this trade product.
 
@@ -1409,7 +1409,7 @@ https://vocabulary.uncefact.org/nIINId
 
 ### nSNId?
 
-> `optional` **nSNId**: `string`
+> `optional` **nSNId**: `string` \| `IJsonLdValueObject`
 
 A unique National Stock Number (NSN) identifier for this trade product.
 
@@ -1553,7 +1553,7 @@ https://vocabulary.uncefact.org/printDesignDescription
 
 ### printDesignId?
 
-> `optional` **printDesignId**: `string`
+> `optional` **printDesignId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the print design for this trade product.
 
@@ -1577,7 +1577,7 @@ https://vocabulary.uncefact.org/priorityCode
 
 ### productGroupId?
 
-> `optional` **productGroupId**: `string`
+> `optional` **productGroupId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for a product group for this trade product.
 
@@ -1613,7 +1613,7 @@ https://vocabulary.uncefact.org/productionLeadTimeMeasure
 
 ### promotionalVariantId?
 
-> `optional` **promotionalVariantId**: `string`
+> `optional` **promotionalVariantId**: `string` \| `IJsonLdValueObject`
 
 The promotional variant identifier for this trade product.
 
@@ -1697,7 +1697,7 @@ https://vocabulary.uncefact.org/recyclingTypeCode
 
 ### regulationConformityId?
 
-> `optional` **regulationConformityId**: `string`
+> `optional` **regulationConformityId**: `string` \| `IJsonLdValueObject`
 
 An identifier assigned to indicate conformity with a regulation or standard for this trade product, such as "CE" which
 declares that the product conforms with the essential requirements of the applicable EC directives.
@@ -1890,7 +1890,7 @@ https://vocabulary.uncefact.org/securityInformationNote
 
 ### sellerAssignedId?
 
-> `optional` **sellerAssignedId**: `string`
+> `optional` **sellerAssignedId**: `string` \| `IJsonLdValueObject`
 
 The unique seller assigned identifier for this trade product.
 
@@ -2178,7 +2178,7 @@ https://vocabulary.uncefact.org/suppliedFromCountry
 
 ### trackingSystemId?
 
-> `optional` **trackingSystemId**: `string`
+> `optional` **trackingSystemId**: `string` \| `IJsonLdValueObject`
 
 An identifier for a tracking system of this trade product.
 
@@ -2238,7 +2238,7 @@ https://vocabulary.uncefact.org/typeDescription
 
 ### uRIId?
 
-> `optional` **uRIId**: `string`
+> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
 The URI (Uniform Resource Identifier), such as a web or an email address, for this trade product.
 
@@ -2250,7 +2250,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ### ultimateCustomerAssignedExtensionId?
 
-> `optional` **ultimateCustomerAssignedExtensionId**: `string`
+> `optional` **ultimateCustomerAssignedExtensionId**: `string` \| `IJsonLdValueObject`
 
 An ultimate customer assigned extension identifier for this trade product.
 
@@ -2323,7 +2323,7 @@ https://vocabulary.uncefact.org/variantDescription
 
 ### variantId?
 
-> `optional` **variantId**: `string`
+> `optional` **variantId**: `string` \| `IJsonLdValueObject`
 
 A variant identifier of this trade product.
 

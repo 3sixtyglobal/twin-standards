@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/functionDescription
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this production machine.
 

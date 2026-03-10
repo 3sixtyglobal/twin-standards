@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ### childObjectInstanceId?
 
-> `optional` **childObjectInstanceId**: `string`
+> `optional` **childObjectInstanceId**: `string` \| `IJsonLdValueObject`
 
 An instance identifier for a child object of this TT aggregation event.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/dispositionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT aggregation event.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### parentObjectId?
 
-> `optional` **parentObjectId**: `string`
+> `optional` **parentObjectId**: `string` \| `IJsonLdValueObject`
 
 The identifier of the parent object for this TT aggregation event.
 

@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier for this payment cheque.
 

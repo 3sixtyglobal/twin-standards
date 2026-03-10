@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId?
 
-> `optional` **countryId**: [`UneceCountryId`](../type-aliases/UneceCountryId.md)[]
+> `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the country in which this legal registration is valid.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### countrySubDivisionId?
 
-> `optional` **countrySubDivisionId**: `string`
+> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of the country sub-division for this legal registration.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this legal registration.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lastRegisteredYearDateTime
 
 ### licenceId?
 
-> `optional` **licenceId**: `string`
+> `optional` **licenceId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a licence for this legal registration.
 

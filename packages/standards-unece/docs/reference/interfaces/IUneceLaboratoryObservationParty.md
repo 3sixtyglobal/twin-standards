@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier
 
-> **identifier**: `string`
+> **identifier**: `string` \| `IJsonLdValueObject`
 
 The identifier of this laboratory observation party.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ### thirdPartyIssuedId?
 
-> `optional` **thirdPartyIssuedId**: `string`
+> `optional` **thirdPartyIssuedId**: `string` \| `IJsonLdValueObject`
 
 An alternate identifier issued by a third party for this laboratory observation party.
 

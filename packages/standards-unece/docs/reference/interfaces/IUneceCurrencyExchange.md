@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/targetUnitBaseNumeric
 
 ### tradeCurrencyExchangeMarketId?
 
-> `optional` **tradeCurrencyExchangeMarketId**: `string`
+> `optional` **tradeCurrencyExchangeMarketId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the currency exchange market from which the exchange rate is taken for trade purposes.
 

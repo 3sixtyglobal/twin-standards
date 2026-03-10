@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### locationId?
 
-> `optional` **locationId**: `string`
+> `optional` **locationId**: `string` \| `IJsonLdValueObject`
 
 An identifier of a location for this MDH health indication.
 

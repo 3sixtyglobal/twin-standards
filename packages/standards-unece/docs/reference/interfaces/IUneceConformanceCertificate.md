@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this conformance certificate.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuingPartyId?
 
-> `optional` **issuingPartyId**: `string`
+> `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the issuing party of this conformance certificate.
 

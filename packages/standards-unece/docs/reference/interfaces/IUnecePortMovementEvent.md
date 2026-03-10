@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier for this port movement event.
 

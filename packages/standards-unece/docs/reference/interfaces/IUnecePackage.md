@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/despatchNoteAssociatedDocument
 
 ### globalId?
 
-> `optional` **globalId**: `string`
+> `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
 The unique global identifier for this logistics package.
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/grossWeightMeasure
 
 ### hierarchicalLevelId?
 
-> `optional` **hierarchicalLevelId**: `string`
+> `optional` **hierarchicalLevelId**: `string` \| `IJsonLdValueObject`
 
 The level identifier for this logistics package.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/hierarchicalLevelId
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this logistics package.
 
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/packagingLevelCode
 
 ### parentId?
 
-> `optional` **parentId**: `string`
+> `optional` **parentId**: `string` \| `IJsonLdValueObject`
 
 The unique parent identifier for this logistics package.
 
@@ -352,7 +352,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### seriesEndId?
 
-> `optional` **seriesEndId**: `string`
+> `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the end of a series of packages within this logistics package.
 
@@ -364,7 +364,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ### seriesStartId?
 
-> `optional` **seriesStartId**: `string`
+> `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
 The unique start identifier of a series of packages within this logistics package.
 

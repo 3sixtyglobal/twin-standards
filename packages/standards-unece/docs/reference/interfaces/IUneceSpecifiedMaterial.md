@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/applicableWasteMaterialRecoveryDisposalProcess
 
 ### classificationId?
 
-> `optional` **classificationId**: `string`
+> `optional` **classificationId**: `string` \| `IJsonLdValueObject`
 
 An identifier of the classification of this specified material.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ### identifier?
 
-> `optional` **identifier**: `string`
+> `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified material.
 
