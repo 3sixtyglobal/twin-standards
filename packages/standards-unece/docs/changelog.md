@@ -1,5 +1,12 @@
 # @twin.org/standards-unece - Changelog
 
+## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.51...standards-unece-v0.0.3-next.52) (2026-03-10)
+
+
+### Features
+
+* unece add support for identifier objects and date-time formatting ([8de5075](https://github.com/twinfoundation/standards/commit/8de507574b54f1ee8eeba7bb980f05fdd2e22981))
+
 ## [0.0.3-next.51](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.50...standards-unece-v0.0.3-next.51) (2026-03-10)
 
 
