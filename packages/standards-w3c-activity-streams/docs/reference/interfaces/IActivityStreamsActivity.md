@@ -143,22 +143,6 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-instrument
 
 ***
 
-### updated?
-
-> `optional` **updated**: `string`
-
-The date and time at which the object was updated.
-
-#### See
-
-https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
-
-#### Overrides
-
-[`IActivityStreamsObject`](IActivityStreamsObject.md).[`updated`](IActivityStreamsObject.md#updated)
-
-***
-
 ### id?
 
 > `optional` **id**: `string`
@@ -322,6 +306,22 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published
 #### Inherited from
 
 [`IActivityStreamsObject`](IActivityStreamsObject.md).[`published`](IActivityStreamsObject.md#published)
+
+***
+
+### updated?
+
+> `optional` **updated**: `string`
+
+Updated date-time.
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
+
+#### Inherited from
+
+[`IActivityStreamsObject`](IActivityStreamsObject.md).[`updated`](IActivityStreamsObject.md#updated)
 
 ***
 
