@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceInspectionStatus } from "./IUneceInspectionStatus.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -62,12 +63,14 @@ export interface IUneceSupplyChainEvent {
 	/**
 	 * The due date, time, date time, or other date time value of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
+	 * @format date-time
 	 */
 	dueDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the earliest occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/earliestOccurrenceDateTime
+	 * @format date-time
 	 */
 	earliestOccurrenceDateTime?: string;
 
@@ -81,17 +84,19 @@ export interface IUneceSupplyChainEvent {
 	 * The unique identifier for this supply chain event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of the latest occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/latestOccurrenceDateTime
+	 * @format date-time
 	 */
 	latestOccurrenceDateTime?: string;
 
 	/**
 	 * A date, time, date time, or other date time value of an occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime?: string;
 
@@ -128,6 +133,7 @@ export interface IUneceSupplyChainEvent {
 	/**
 	 * A time value of an occurrence of this supply chain event.
 	 * @see https://vocabulary.uncefact.org/timeOccurrenceDateTime
+	 * @format date-time
 	 */
 	timeOccurrenceDateTime?: string;
 

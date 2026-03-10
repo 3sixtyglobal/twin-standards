@@ -60,6 +60,7 @@ export interface IUneceIllness {
 	/**
 	 * A symptom onset date, time, date time or other date time value for this MDH illness.
 	 * @see https://vocabulary.uncefact.org/symptomOnsetDateTime
+	 * @format date-time
 	 */
 	symptomOnsetDateTime?: string;
 

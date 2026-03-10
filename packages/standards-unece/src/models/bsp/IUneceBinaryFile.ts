@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -68,7 +69,7 @@ export interface IUneceBinaryFile {
 	 * A unique identifier for this specified binary file.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A binary object included in this specified binary file.
@@ -98,7 +99,7 @@ export interface IUneceBinaryFile {
 	 * The unique Uniform Resource Identifier (URI) for this specified binary file.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The validity period specified of this binary file.
@@ -110,5 +111,5 @@ export interface IUneceBinaryFile {
 	 * The unique version identifier for this specified binary file.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

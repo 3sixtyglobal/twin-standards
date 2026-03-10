@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -27,7 +28,7 @@ export interface IUneceEventElement {
 	 * The identifier of the object class for this TT event element.
 	 * @see https://vocabulary.uncefact.org/objectClassId
 	 */
-	objectClassId: string;
+	objectClassId: string | IJsonLdValueObject;
 
 	/**
 	 * The number of units of this TT event element.

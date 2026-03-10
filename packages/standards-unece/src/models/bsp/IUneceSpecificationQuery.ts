@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceSpecificationQueryTypeCodeList } from "../typeCodes/uneceSpecificationQueryTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -37,7 +38,7 @@ export interface IUneceSpecificationQuery {
 	 * The unique identifier for this specification query.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type of specification query.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { IUneceTransportEvent } from "./IUneceTransportEvent.js";
 import type { IUneceTransportMovement } from "./IUneceTransportMovement.js";
@@ -52,7 +53,7 @@ export interface IUneceTransportRoute {
 	 * The unique identifier of this transport route.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An itinerary stop event for this transport route, such as a port call in a vessel schedule.

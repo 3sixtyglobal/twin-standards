@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDeliverySchedule } from "./IUneceDeliverySchedule.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceDocumentLineDocument } from "./IUneceDocumentLineDocument.js";
@@ -89,13 +90,13 @@ export interface IUneceSupplyChainTradeTransaction {
 	 * The Uniform Resource Locator (URL) of the web location of the document for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/documentURLId
 	 */
-	documentURLId?: string;
+	documentURLId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique identifier for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Delivery scheduling details included in a defined forecast period for this supply chain trade transaction.
@@ -136,6 +137,7 @@ export interface IUneceSupplyChainTradeTransaction {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -149,20 +151,20 @@ export interface IUneceSupplyChainTradeTransaction {
 	 * The unique identifier assigned by the sales agent to identify this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/salesAgentAssignedId
 	 */
-	salesAgentAssignedId?: string;
+	salesAgentAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The sender-recipient sequence identifier for this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/senderRecipientSequenceId
 	 */
-	senderRecipientSequenceId?: string;
+	senderRecipientSequenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply
 	 * chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/shipmentId
 	 */
-	shipmentId?: string;
+	shipmentId?: string | IJsonLdValueObject;
 
 	/**
 	 * A logistics package specified for this supply chain trade transaction.

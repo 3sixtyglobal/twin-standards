@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -24,7 +25,7 @@ export interface IUneceAnimalIdentity {
 	 * The identifier for this animal identity.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The length, expressed as the number of characters, of the identifier in this animal identity.
@@ -48,5 +49,5 @@ export interface IUneceAnimalIdentity {
 	 * The identifier of the version of this animal identity.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

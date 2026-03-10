@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDelimitedPeriod } from "./IUneceDelimitedPeriod.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
@@ -26,12 +27,14 @@ export interface IUneceAnimalBatch {
 	/**
 	 * The date, time, date time, or other date time value of the break up of this animal batch.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
+	 * @format date-time
 	 */
 	breakUpDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the creation of this animal batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime: string;
 
@@ -39,13 +42,13 @@ export interface IUneceAnimalBatch {
 	 * A Fisheries Language for Universal eXchange (FLUX) identifier for this animal batch.
 	 * @see https://vocabulary.uncefact.org/fLUXId
 	 */
-	fLUXId?: string;
+	fLUXId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier for this animal batch.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The maximum size, expressed as a measure, of the animals for this animal batch.
@@ -62,6 +65,7 @@ export interface IUneceAnimalBatch {
 	/**
 	 * The date, time, date time, or other date time value of the sale for this animal batch.
 	 * @see https://vocabulary.uncefact.org/saleDateTime
+	 * @format date-time
 	 */
 	saleDateTime?: string;
 
@@ -69,7 +73,7 @@ export interface IUneceAnimalBatch {
 	 * The identifier for the sales note for this animal batch.
 	 * @see https://vocabulary.uncefact.org/salesNoteId
 	 */
-	salesNoteId?: string;
+	salesNoteId?: string | IJsonLdValueObject;
 
 	/**
 	 * The delimited period specified for this animal batch.

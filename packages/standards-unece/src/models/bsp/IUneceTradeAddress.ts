@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { UneceAddressTypeCodeList } from "../lists/uneceAddressTypeCodeList.js";
@@ -66,7 +67,7 @@ export interface IUneceTradeAddress {
 	 * The identifier of the city for this trade address, such as United Nations Location Code (UNLOCODE).
 	 * @see https://vocabulary.uncefact.org/cityId
 	 */
-	cityId?: string;
+	cityId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of the city, town or village of this trade address.
@@ -96,7 +97,7 @@ export interface IUneceTradeAddress {
 	 * A unique identifier of the country sub-division for this trade address.
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of the sub-division of a country for this trade address.
@@ -132,7 +133,7 @@ export interface IUneceTradeAddress {
 	 * A unique identifier for this trade address.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this trade address is invalid.
@@ -199,5 +200,5 @@ export interface IUneceTradeAddress {
 	 * The unique identifier of a country for this trade address.
 	 * @see https://vocabulary.uncefact.org/tradeAddressCountryId
 	 */
-	tradeAddressCountryId?: UneceCountryId;
+	tradeAddressCountryId?: string | IJsonLdValueObject;
 }

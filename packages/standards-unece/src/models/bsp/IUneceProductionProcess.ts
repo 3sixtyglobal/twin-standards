@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
@@ -192,7 +193,7 @@ export interface IUneceProductionProcess {
 	 * An identifier of this production process.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An input product batch applicable to this production process.
@@ -233,6 +234,7 @@ export interface IUneceProductionProcess {
 	/**
 	 * The date, time, date time or other date time value of the occurrence of this production process.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime?: string;
 

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceLaboratoryObservationAnalysisMethod } from "./IUneceLaboratoryObservationAnalysisMethod.js";
 import type { IUneceLaboratoryObservationInstructions } from "./IUneceLaboratoryObservationInstructions.js";
 import type { IUneceLaboratoryObservationNote } from "./IUneceLaboratoryObservationNote.js";
@@ -31,12 +32,14 @@ export interface IUneceObservationResult {
 	/**
 	 * The date, time, date time, or other date time value for the end of the observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/actualObservationEndDateTime
+	 * @format date-time
 	 */
 	actualObservationEndDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value for the start of the observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/actualObservationStartDateTime
+	 * @format date-time
 	 */
 	actualObservationStartDateTime?: string;
 
@@ -82,7 +85,7 @@ export interface IUneceObservationResult {
 	 * The identifier for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * An applicable observation objective parameter of the interpretation result for this sample observation result.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { IUneceGeographicalFeature } from "./IUneceGeographicalFeature.js";
 import type { IUneceInspectionEvent } from "./IUneceInspectionEvent.js";
@@ -47,7 +48,7 @@ export interface IUneceLogisticsLocation {
 	 * The identifier of the country sub-division for this logistics related location.
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A textual description of this logistics related location.
@@ -72,7 +73,7 @@ export interface IUneceLogisticsLocation {
 	 * Location Number (GLN).
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A supply chain inspection event at this logistics location.
@@ -90,7 +91,7 @@ export interface IUneceLogisticsLocation {
 	 * The unique identifier of a country for this logistics location.
 	 * @see https://vocabulary.uncefact.org/logisticsLocationCountryId
 	 */
-	logisticsLocationCountryId?: UneceCountryId;
+	logisticsLocationCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of this logistics related location.

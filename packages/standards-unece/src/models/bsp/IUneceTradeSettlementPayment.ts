@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUnecePaymentTradeSettlement } from "./IUnecePaymentTradeSettlement.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,6 +26,7 @@ export interface IUneceTradeSettlementPayment {
 	/**
 	 * A date, time, date time or other date time value of a closing book due date for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/closingBookDueDateTime
+	 * @format date-time
 	 */
 	closingBookDueDateTime?: string;
 
@@ -33,17 +35,18 @@ export interface IUneceTradeSettlementPayment {
 	 * an initiating party to unambiguously identify the transaction.
 	 * @see https://vocabulary.uncefact.org/endToEndId
 	 */
-	endToEndId?: string;
+	endToEndId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the instruction for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/instructionId
 	 */
-	instructionId?: string;
+	instructionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time or other date time value of the requested execution of this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/requestedExecutionDateTime
+	 * @format date-time
 	 */
 	requestedExecutionDateTime?: string;
 

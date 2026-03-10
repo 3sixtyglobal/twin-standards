@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceTransportMeansTypeCodeList } from "../lists/uneceTransportMeansTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -31,7 +32,7 @@ export interface IUneceTransportMeans {
 	 * An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of this referenced transport means, such as the vessel name.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUneceService } from "./IUneceService.js";
@@ -32,7 +33,7 @@ export interface IUneceLocationParty {
 	 * A unique country identifier for this location party.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId[];
+	countryId?: string | IJsonLdValueObject;
 
 	/**
 	 * A trade contact defined for this location party.
@@ -56,7 +57,7 @@ export interface IUneceLocationParty {
 	 * A unique identifier of this location party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a role of this location party.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceProcessCertificate } from "./IUneceProcessCertificate.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
@@ -41,7 +42,7 @@ export interface IUneceSpecifiedChemicalTreatment {
 	 * An identifier of this specified chemical treatment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A process certificate for this specified chemical treatment.

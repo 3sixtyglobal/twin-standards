@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAcademicQualification } from "./IUneceAcademicQualification.js";
 import type { IUneceAccreditation } from "./IUneceAccreditation.js";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
@@ -41,11 +42,12 @@ export interface IUneceTransportPerson {
 	 * The identifier of the birth country of this transport person.
 	 * @see https://vocabulary.uncefact.org/birthCountryId
 	 */
-	birthCountryId?: string;
+	birthCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The birth date of this transport person.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
+	 * @format date-time
 	 */
 	birthDateTime?: string;
 
@@ -59,13 +61,13 @@ export interface IUneceTransportPerson {
 	 * A booking identifier for this transport person.
 	 * @see https://vocabulary.uncefact.org/bookingId
 	 */
-	bookingId?: string;
+	bookingId?: string | IJsonLdValueObject;
 
 	/**
 	 * A cabin identifier for this transport person.
 	 * @see https://vocabulary.uncefact.org/cabinId
 	 */
-	cabinId?: string;
+	cabinId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a category for this transport person, such as a member of crew or passenger.
@@ -82,6 +84,7 @@ export interface IUneceTransportPerson {
 	/**
 	 * A date, time, date time, or other date time value that this person disembarked from a means of transport.
 	 * @see https://vocabulary.uncefact.org/disembarkationDateTime
+	 * @format date-time
 	 */
 	disembarkationDateTime?: string;
 
@@ -100,6 +103,7 @@ export interface IUneceTransportPerson {
 	/**
 	 * A date, time, date time, or other date time value that this person embarked upon a means of transport.
 	 * @see https://vocabulary.uncefact.org/embarkationDateTime
+	 * @format date-time
 	 */
 	embarkationDateTime?: string;
 
@@ -137,7 +141,7 @@ export interface IUneceTransportPerson {
 	 * The unique identifier for this transport person.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this transport person is in transit.
@@ -179,7 +183,7 @@ export interface IUneceTransportPerson {
 	 * A passenger identifier for this transport person.
 	 * @see https://vocabulary.uncefact.org/passengerId
 	 */
-	passengerId?: string;
+	passengerId?: string | IJsonLdValueObject;
 
 	/**
 	 * An MDH (Maritime Declaration of Health) reported illness or disease for this transport person.
@@ -203,7 +207,7 @@ export interface IUneceTransportPerson {
 	 * A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 	 * @see https://vocabulary.uncefact.org/transportPersonLanguageId
 	 */
-	transportPersonLanguageId?: UneceLanguageId[];
+	transportPersonLanguageId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name or set of names, expressed as text, by which this transport person is known.

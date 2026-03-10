@@ -87,6 +87,7 @@ export interface IUneceLineTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value of the invoice in this line trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceDateTime
+	 * @format date-time
 	 */
 	invoiceDateTime?: string;
 

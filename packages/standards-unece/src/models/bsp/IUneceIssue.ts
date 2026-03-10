@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMetricCharacteristic } from "./IUneceMetricCharacteristic.js";
 import type { UneceIssueTypeCodeList } from "../typeCodes/uneceIssueTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -26,7 +27,7 @@ export interface IUneceIssue {
 	 * The identifier of this target issue.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The maximum metric characteristic specified for this target issue.

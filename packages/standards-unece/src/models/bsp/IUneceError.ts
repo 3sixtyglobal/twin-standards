@@ -30,6 +30,7 @@ export interface IUneceError {
 	/**
 	 * An issue date, time, date time or other date time value for this declared error.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 

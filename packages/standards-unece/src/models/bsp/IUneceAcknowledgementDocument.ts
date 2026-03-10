@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { UneceAcknowledgementCodeList } from "../lists/uneceAcknowledgementCodeList.js";
 import type { UneceDocumentCodeList } from "../lists/uneceDocumentCodeList.js";
@@ -63,6 +64,7 @@ export interface IUneceAcknowledgementDocument {
 	/**
 	 * The date or date time value of the creation of this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -76,11 +78,12 @@ export interface IUneceAcknowledgementDocument {
 	 * The unique identifier of this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time or other date time value for the issuance of this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -88,7 +91,7 @@ export interface IUneceAcknowledgementDocument {
 	 * The unique identifier of an item in this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/itemIdentificationId
 	 */
-	itemIdentificationId?: string;
+	itemIdentificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this acknowledgement document has multiple references.
@@ -124,6 +127,7 @@ export interface IUneceAcknowledgementDocument {
 	 * The date, time, date time or other date time value of the receipt of the report being acknowledged by this
 	 * acknowledgment document.
 	 * @see https://vocabulary.uncefact.org/reportReceiptDateTime
+	 * @format date-time
 	 */
 	reportReceiptDateTime?: string;
 
@@ -131,6 +135,7 @@ export interface IUneceAcknowledgementDocument {
 	 * The date, time, date time or other date time value of the submission of the report being acknowledged by this
 	 * acknowledgment document.
 	 * @see https://vocabulary.uncefact.org/reportSubmissionDateTime
+	 * @format date-time
 	 */
 	reportSubmissionDateTime?: string;
 

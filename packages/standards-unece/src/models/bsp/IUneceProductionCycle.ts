@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceProductionProcess } from "./IUneceProductionProcess.js";
@@ -32,6 +33,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The date, time, date time, or other date time value of the end of this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
@@ -39,7 +41,7 @@ export interface IUneceProductionCycle {
 	 * An identifier of this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of this specified production cycle.
@@ -56,6 +58,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The production year for this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/productionYearDateTime
+	 * @format date-time
 	 */
 	productionYearDateTime?: string;
 
@@ -74,6 +77,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The date, time, date time, or other date time value of the start of this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 }

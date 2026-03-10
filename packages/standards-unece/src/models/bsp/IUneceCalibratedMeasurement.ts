@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceCalibratedMeasurementTypeCodeList } from "../typeCodes/uneceCalibratedMeasurementTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -26,7 +27,7 @@ export interface IUneceCalibratedMeasurement {
 	 * The identifier for this calibrated measurement.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying a quantification type for this calibrated measurement, such as measured, calculated, or estimated.
@@ -68,5 +69,5 @@ export interface IUneceCalibratedMeasurement {
 	 * The identifier of a version of this calibrated measurement.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

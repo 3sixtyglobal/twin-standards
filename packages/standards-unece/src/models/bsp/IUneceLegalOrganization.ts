@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceLegalRegistration } from "./IUneceLegalRegistration.js";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
 import type { UneceLegalOrganizationTypeCodeList } from "../typeCodes/uneceLegalOrganizationTypeCodeList.js";
@@ -40,11 +41,12 @@ export interface IUneceLegalOrganization {
 	 * up organization operates.
 	 * @see https://vocabulary.uncefact.org/districtId
 	 */
-	districtId?: string;
+	districtId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value when this legally set up organization was established.
 	 * @see https://vocabulary.uncefact.org/establishedDateTime
+	 * @format date-time
 	 */
 	establishedDateTime?: string;
 
@@ -52,7 +54,7 @@ export interface IUneceLegalOrganization {
 	 * A unique identifier for this legally set up organization.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the legal classification of this organization, such as Incorporated (Inc), Limited Liability

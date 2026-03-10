@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { UneceClassificationTypeCodeList } from "../typeCodes/uneceClassificationTypeCodeList.js";
@@ -75,7 +76,7 @@ export interface IUneceClassification {
 	 * The unique identifier of the classification system for this product classification.
 	 * @see https://vocabulary.uncefact.org/systemId
 	 */
-	systemId?: string;
+	systemId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of the classification system for this product classification.

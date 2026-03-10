@@ -32,6 +32,7 @@ export interface IUneceDeliveryAdjustment {
 	/**
 	 * The actual date, time, date time, or other date time value of this delivery adjustment.
 	 * @see https://vocabulary.uncefact.org/actualDateTime
+	 * @format date-time
 	 */
 	actualDateTime?: string;
 

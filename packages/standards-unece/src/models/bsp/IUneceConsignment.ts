@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCargo } from "./IUneceCargo.js";
 import type { IUneceCargoInsurance } from "./IUneceCargoInsurance.js";
@@ -154,6 +155,7 @@ export interface IUneceConsignment {
 	/**
 	 * The date, time, date time or other date time value when this supply chain consignment is due to be available.
 	 * @see https://vocabulary.uncefact.org/availabilityDueDateTime
+	 * @format date-time
 	 */
 	availabilityDueDateTime?: string;
 
@@ -192,6 +194,7 @@ export interface IUneceConsignment {
 	 * The date, time, date time or other date time value when this supply chain consignment will be, or has been, accepted by
 	 * the carrier.
 	 * @see https://vocabulary.uncefact.org/carrierAcceptanceDateTime
+	 * @format date-time
 	 */
 	carrierAcceptanceDateTime?: string;
 
@@ -212,7 +215,7 @@ export interface IUneceConsignment {
 	 * number when cargo space is reserved prior to loading.
 	 * @see https://vocabulary.uncefact.org/carrierAssignedId
 	 */
-	carrierAssignedId?: string;
+	carrierAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The carrier party for this supply chain consignment.
@@ -254,7 +257,7 @@ export interface IUneceConsignment {
 	 * The unique identifier assigned by the consignee to this referenced supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/consigneeAssignedId
 	 */
-	consigneeAssignedId?: string;
+	consigneeAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The consignee party for this supply chain consignment.
@@ -285,7 +288,7 @@ export interface IUneceConsignment {
 	 * The unique identifier assigned by the consignor to this referenced supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/consignorAssignedId
 	 */
-	consignorAssignedId?: string;
+	consignorAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The consignor party for this supply chain consignment.
@@ -321,7 +324,7 @@ export interface IUneceConsignment {
 	 * A contract identifier for this supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/contractId
 	 */
-	contractId?: string;
+	contractId?: string | IJsonLdValueObject;
 
 	/**
 	 * Information related to contract terms and conditions, expressed as text, for this supply chain consignment.
@@ -352,7 +355,7 @@ export interface IUneceConsignment {
 	 * A unique identifier, for customs purposes, for this consignment.
 	 * @see https://vocabulary.uncefact.org/customsId
 	 */
-	customsId?: string;
+	customsId?: string | IJsonLdValueObject;
 
 	/**
 	 * The party acting as an agent for, or on behalf of, the consignee with respect to the customs import procedures for this
@@ -478,6 +481,7 @@ export interface IUneceConsignment {
 	 * The date, time, date time or other date time value when this supply chain consignment will exit, or has exited from the
 	 * last port, airport, or border post of the country of export.
 	 * @see https://vocabulary.uncefact.org/exportExitDateTime
+	 * @format date-time
 	 */
 	exportExitDateTime?: string;
 
@@ -516,7 +520,7 @@ export interface IUneceConsignment {
 	 * The unique identifier assigned by the freight forwarder to this referenced supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/freightForwarderAssignedId
 	 */
-	freightForwarderAssignedId?: string;
+	freightForwarderAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The freight forwarder party for this supply chain consignment.
@@ -528,7 +532,7 @@ export interface IUneceConsignment {
 	 * A global identifier of this supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A goods release restriction, expressed as text, for this supply chain consignment.
@@ -559,7 +563,7 @@ export interface IUneceConsignment {
 	 * A unique identifier for this referenced supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The import country for this supply chain consignment.
@@ -862,6 +866,7 @@ export interface IUneceConsignment {
 	/**
 	 * A date, time, date time, or other date time value when this supply chain consignment is shipped onboard.
 	 * @see https://vocabulary.uncefact.org/shippedOnboardDateTime
+	 * @format date-time
 	 */
 	shippedOnboardDateTime?: string;
 
@@ -969,7 +974,7 @@ export interface IUneceConsignment {
 	 * A traded parcel identifier for this supply chain consignment.
 	 * @see https://vocabulary.uncefact.org/tradedParcelId
 	 */
-	tradedParcelId?: string;
+	tradedParcelId?: string | IJsonLdValueObject;
 
 	/**
 	 * A transit country for this supply chain consignment.
@@ -1100,6 +1105,7 @@ export interface IUneceConsignment {
 	/**
 	 * The date, time, date time or other date time value of the arrival of this supply chain consignment at a warehouse.
 	 * @see https://vocabulary.uncefact.org/warehouseArrivalDateTime
+	 * @format date-time
 	 */
 	warehouseArrivalDateTime?: string;
 

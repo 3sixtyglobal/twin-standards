@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTTLocation } from "./IUneceTTLocation.js";
 import type { UneceAnimalHoldingEventTypeCodeList } from "../typeCodes/uneceAnimalHoldingEventTypeCodeList.js";
@@ -27,11 +28,12 @@ export interface IUneceAnimalHoldingEvent {
 	 * The identifier of the location for this animal holding event.
 	 * @see https://vocabulary.uncefact.org/locationId
 	 */
-	locationId?: string;
+	locationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of the occurrence of this animal holding event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime: string;
 

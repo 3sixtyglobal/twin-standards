@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
@@ -241,7 +242,7 @@ export interface IUneceTradeProduct {
 	 * A batch identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/batchId
 	 */
-	batchId?: string;
+	batchId?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this trade product is biologically based.
@@ -271,7 +272,7 @@ export interface IUneceTradeProduct {
 	 * The unique buyer assigned identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/buyerAssignedId
 	 */
-	buyerAssignedId?: string;
+	buyerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A buyer supplier parts document referenced for this trade product.
@@ -289,6 +290,7 @@ export interface IUneceTradeProduct {
 	 * The formatted date, time, date time, or other date time value of the cancellation of the announced launch of this trade
 	 * product.
 	 * @see https://vocabulary.uncefact.org/cancellationAnnouncedLaunchDateTime
+	 * @format date-time
 	 */
 	cancellationAnnouncedLaunchDateTime?: string;
 
@@ -314,7 +316,7 @@ export interface IUneceTradeProduct {
 	 * A collection identifier of this trade product.
 	 * @see https://vocabulary.uncefact.org/collectionId
 	 */
-	collectionId?: string;
+	collectionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the collection status of this trade product.
@@ -344,7 +346,7 @@ export interface IUneceTradeProduct {
 	 * An identifier of the colour matching sample for this trade product.
 	 * @see https://vocabulary.uncefact.org/colourMatchingSampleId
 	 */
-	colourMatchingSampleId?: string;
+	colourMatchingSampleId?: string | IJsonLdValueObject;
 
 	/**
 	 * A common name, expressed as text, for this trade product.
@@ -411,7 +413,7 @@ export interface IUneceTradeProduct {
 	 * A unique customer assigned identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/customerAssignedId
 	 */
-	customerAssignedId?: string;
+	customerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the customs statistical classification for this trade product.
@@ -423,7 +425,7 @@ export interface IUneceTradeProduct {
 	 * The DNA marker identifier of this trade product.
 	 * @see https://vocabulary.uncefact.org/dNAMarkerId
 	 */
-	dNAMarkerId?: string;
+	dNAMarkerId?: string | IJsonLdValueObject;
 
 	/**
 	 * A textual description for this trade product.
@@ -453,7 +455,7 @@ export interface IUneceTradeProduct {
 	 * The digital platform assigned identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/digitalPlatformAssignedId
 	 */
-	digitalPlatformAssignedId?: string;
+	digitalPlatformAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A distributor trade party for this trade product.
@@ -471,7 +473,7 @@ export interface IUneceTradeProduct {
 	 * The EPC (Electronic Product Code) identifier of this trade product.
 	 * @see https://vocabulary.uncefact.org/ePCId
 	 */
-	ePCId?: string;
+	ePCId?: string | IJsonLdValueObject;
 
 	/**
 	 * An end item name, expressed as text, for this trade product.
@@ -513,7 +515,7 @@ export interface IUneceTradeProduct {
 	 * A unique Federal Supply Class (FSC) identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/fSCId
 	 */
-	fSCId?: string;
+	fSCId?: string | IJsonLdValueObject;
 
 	/**
 	 * A final assembly country for this trade product.
@@ -555,7 +557,7 @@ export interface IUneceTradeProduct {
 	 * A Global Trade Item Number (GTIN) identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/gTINId
 	 */
-	gTINId?: string;
+	gTINId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the extent of a genetic modification to this trade product.
@@ -567,13 +569,13 @@ export interface IUneceTradeProduct {
 	 * A global extension identifier for this trade product, such as a prefix or a suffix.
 	 * @see https://vocabulary.uncefact.org/globalExtensionId
 	 */
-	globalExtensionId?: string;
+	globalExtensionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique global identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of the gross volume for this trade product.
@@ -591,7 +593,7 @@ export interface IUneceTradeProduct {
 	 * A unique identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An included product referenced from this trade product.
@@ -621,7 +623,7 @@ export interface IUneceTradeProduct {
 	 * A unique industry assigned identifier for this product.
 	 * @see https://vocabulary.uncefact.org/industryAssignedId
 	 */
-	industryAssignedId?: string;
+	industryAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * An information note for this trade product.
@@ -657,6 +659,7 @@ export interface IUneceTradeProduct {
 	 * The formatted date, time, date time, or other date time value of the latest change in the product data for this trade
 	 * product.
 	 * @see https://vocabulary.uncefact.org/latestProductDataChangeDateTime
+	 * @format date-time
 	 */
 	latestProductDataChangeDateTime?: string;
 
@@ -706,7 +709,7 @@ export interface IUneceTradeProduct {
 	 * A unique manufacturer assigned identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/manufacturerAssignedId
 	 */
-	manufacturerAssignedId?: string;
+	manufacturerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A manufacturer party for this trade product.
@@ -754,7 +757,7 @@ export interface IUneceTradeProduct {
 	 * A unique model identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/modelId
 	 */
-	modelId?: string;
+	modelId?: string | IJsonLdValueObject;
 
 	/**
 	 * The model name, expressed as text, for this trade product.
@@ -766,13 +769,13 @@ export interface IUneceTradeProduct {
 	 * A unique National Item Identification Number (NIIN) identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/nIINId
 	 */
-	nIINId?: string;
+	nIINId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique National Stock Number (NSN) identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/nSNId
 	 */
-	nSNId?: string;
+	nSNId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, for this trade product.
@@ -844,7 +847,7 @@ export interface IUneceTradeProduct {
 	 * An identifier of the print design for this trade product.
 	 * @see https://vocabulary.uncefact.org/printDesignId
 	 */
-	printDesignId?: string;
+	printDesignId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a priority for this trade product.
@@ -856,11 +859,12 @@ export interface IUneceTradeProduct {
 	 * A unique identifier for a product group for this trade product.
 	 * @see https://vocabulary.uncefact.org/productGroupId
 	 */
-	productGroupId?: string;
+	productGroupId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of the discontinuation of the production of this trade product.
 	 * @see https://vocabulary.uncefact.org/productionDiscontinuedDateTime
+	 * @format date-time
 	 */
 	productionDiscontinuedDateTime?: string;
 
@@ -874,7 +878,7 @@ export interface IUneceTradeProduct {
 	 * The promotional variant identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/promotionalVariantId
 	 */
-	promotionalVariantId?: string;
+	promotionalVariantId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the quality level for this trade product.
@@ -917,7 +921,7 @@ export interface IUneceTradeProduct {
 	 * declares that the product conforms with the essential requirements of the applicable EC directives.
 	 * @see https://vocabulary.uncefact.org/regulationConformityId
 	 */
-	regulationConformityId?: string;
+	regulationConformityId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a rejection reason for this trade product.
@@ -1013,7 +1017,7 @@ export interface IUneceTradeProduct {
 	 * The unique seller assigned identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/sellerAssignedId
 	 */
-	sellerAssignedId?: string;
+	sellerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the size of this trade product.
@@ -1157,7 +1161,7 @@ export interface IUneceTradeProduct {
 	 * An identifier for a tracking system of this trade product.
 	 * @see https://vocabulary.uncefact.org/trackingSystemId
 	 */
-	trackingSystemId?: string;
+	trackingSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * A trade name, expressed as text, for this trade product.
@@ -1187,13 +1191,13 @@ export interface IUneceTradeProduct {
 	 * The URI (Uniform Resource Identifier), such as a web or an email address, for this trade product.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 
 	/**
 	 * An ultimate customer assigned extension identifier for this trade product.
 	 * @see https://vocabulary.uncefact.org/ultimateCustomerAssignedExtensionId
 	 */
-	ultimateCustomerAssignedExtensionId?: string;
+	ultimateCustomerAssignedExtensionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a type of unit for this trade product.
@@ -1230,5 +1234,5 @@ export interface IUneceTradeProduct {
 	 * A variant identifier of this trade product.
 	 * @see https://vocabulary.uncefact.org/variantId
 	 */
-	variantId?: string;
+	variantId?: string | IJsonLdValueObject;
 }

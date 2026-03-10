@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAnimalCertificate } from "./IUneceAnimalCertificate.js";
 import type { IUneceAnimalCertification } from "./IUneceAnimalCertification.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
@@ -104,7 +105,7 @@ export interface IUneceProductionFacility {
 	 * The digital platform assigned identifier for this production facility.
 	 * @see https://vocabulary.uncefact.org/digitalPlatformAssignedId
 	 */
-	digitalPlatformAssignedId?: string;
+	digitalPlatformAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the function of this production facility.
@@ -116,13 +117,13 @@ export interface IUneceProductionFacility {
 	 * A global identifier of this production facility.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier of this production facility.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of the input capacity for this production facility.

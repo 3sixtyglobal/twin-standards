@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceTransportModeCodeList } from "../lists/uneceTransportModeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,7 +26,7 @@ export interface IUneceGuestArrival {
 	 * The identifier of the carrier for this specified guest arrival.
 	 * @see https://vocabulary.uncefact.org/carrierId
 	 */
-	carrierId?: string;
+	carrierId?: string | IJsonLdValueObject;
 
 	/**
 	 * A carrier's name, expressed as text, related to this specified guest arrival.
@@ -36,6 +37,7 @@ export interface IUneceGuestArrival {
 	/**
 	 * The date, time, date time, or other date time value when this specified guest arrival is expected.
 	 * @see https://vocabulary.uncefact.org/expectedDateTime
+	 * @format date-time
 	 */
 	expectedDateTime?: string;
 

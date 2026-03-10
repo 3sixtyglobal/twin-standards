@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceSource } from "./IUneceSource.js";
 import type { IUneceSpecifiedLocation } from "./IUneceSpecifiedLocation.js";
@@ -40,6 +41,7 @@ export interface IUneceExperienceFacility {
 	/**
 	 * The date of the completion of this experience facility.
 	 * @see https://vocabulary.uncefact.org/completionDateTime
+	 * @format date-time
 	 */
 	completionDateTime?: string;
 
@@ -65,11 +67,12 @@ export interface IUneceExperienceFacility {
 	 * The identifier of this experience facility.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date of the latest renovation of this experience facility.
 	 * @see https://vocabulary.uncefact.org/latestRenovationDateTime
+	 * @format date-time
 	 */
 	latestRenovationDateTime?: string;
 

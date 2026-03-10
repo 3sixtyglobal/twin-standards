@@ -29,6 +29,7 @@ export interface IUneceInspectionNote {
 	/**
 	 * The date, time, date time, or other date time value for the creation of this inspection note.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 }

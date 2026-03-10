@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceLaboratoryObservationContact } from "./IUneceLaboratoryObservationContact.js";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
@@ -27,7 +28,7 @@ export interface IUneceLaboratoryObservationParty {
 	 * The identifier of this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of this laboratory observation party.
@@ -57,7 +58,7 @@ export interface IUneceLaboratoryObservationParty {
 	 * An alternate identifier issued by a third party for this laboratory observation party.
 	 * @see https://vocabulary.uncefact.org/thirdPartyIssuedId
 	 */
-	thirdPartyIssuedId?: string;
+	thirdPartyIssuedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A third party issued identifier, expressed as text, for this laboratory observation party.

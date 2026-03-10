@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
@@ -35,7 +36,7 @@ export interface IUneceStandard {
 	 * The identifier of the agency for this referenced standard.
 	 * @see https://vocabulary.uncefact.org/agencyId
 	 */
-	agencyId?: string;
+	agencyId?: string | IJsonLdValueObject;
 
 	/**
 	 * A specified assessment applicable to this referenced standard.
@@ -90,13 +91,13 @@ export interface IUneceStandard {
 	 * element.
 	 * @see https://vocabulary.uncefact.org/elementVersionId
 	 */
-	elementVersionId?: string;
+	elementVersionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of this referenced standard.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, for this referenced standard.
@@ -108,7 +109,7 @@ export interface IUneceStandard {
 	 * The identifier of a part of this referenced standard, such as a section or topic.
 	 * @see https://vocabulary.uncefact.org/partId
 	 */
-	partId?: string;
+	partId?: string | IJsonLdValueObject;
 
 	/**
 	 * A sustainability assertion specified for this referenced standard.
@@ -132,11 +133,11 @@ export interface IUneceStandard {
 	 * The Uniform Resource Identifier (URI) for this referenced standard.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the version of this referenced standard.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

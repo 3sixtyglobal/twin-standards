@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceContactPerson } from "./IUneceContactPerson.js";
 import type { IUneceNote } from "./IUneceNote.js";
@@ -84,7 +85,7 @@ export interface IUneceTradeContact {
 	 * The unique identifier for this trade contact.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Instant messaging communication information for this trade contact.
@@ -109,7 +110,7 @@ export interface IUneceTradeContact {
 	 * A unique identifier for this trade contact person.
 	 * @see https://vocabulary.uncefact.org/personId
 	 */
-	personId?: string;
+	personId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of this trade contact person.

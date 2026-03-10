@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalCertificate } from "./IUneceAgriculturalCertificate.js";
 import type { IUneceAgriculturalCharacteristic } from "./IUneceAgriculturalCharacteristic.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -35,12 +36,14 @@ export interface IUneceCropProduceBatch {
 	/**
 	 * The date, time, date time, or other date time value of the break up of this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
+	 * @format date-time
 	 */
 	breakUpDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the creation of this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -48,7 +51,7 @@ export interface IUneceCropProduceBatch {
 	 * The identifier for this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The value of the nominal size for this crop produce batch.

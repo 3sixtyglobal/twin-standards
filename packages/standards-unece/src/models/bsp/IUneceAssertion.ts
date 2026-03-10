@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUnecePolicy } from "./IUnecePolicy.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceSustainabilityCharacteristic } from "./IUneceSustainabilityCharacteristic.js";
@@ -45,7 +46,7 @@ export interface IUneceAssertion {
 	 * An identifier of this sustainability assertion.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A sustainability characteristic included in this sustainability assertion.
@@ -57,7 +58,7 @@ export interface IUneceAssertion {
 	 * An identifier of a party issuing this sustainability assertion.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * A compliance policy related to this sustainability assertion.

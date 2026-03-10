@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCash } from "./IUneceCash.js";
 import type { IUneceCheque } from "./IUneceCheque.js";
@@ -165,5 +166,5 @@ export interface IUnecePaymentMeans {
 	 * An identifier for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/tradeSettlementPaymentMeansId
 	 */
-	tradeSettlementPaymentMeansId?: string;
+	tradeSettlementPaymentMeansId?: string | IJsonLdValueObject;
 }

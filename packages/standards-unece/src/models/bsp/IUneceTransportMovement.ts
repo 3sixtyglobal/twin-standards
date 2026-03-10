@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceConvoy } from "./IUneceConvoy.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDisposalInstructions } from "./IUneceDisposalInstructions.js";
@@ -104,6 +105,7 @@ export interface IUneceTransportMovement {
 	/**
 	 * A date, time, date time or other date time value when this logistics transport movement crosses a border.
 	 * @see https://vocabulary.uncefact.org/borderCrossingDateTime
+	 * @format date-time
 	 */
 	borderCrossingDateTime?: string;
 
@@ -160,6 +162,7 @@ export interface IUneceTransportMovement {
 	 * The date, time, date time, or other date time value by which cargo should be loaded onto the means of transport for the
 	 * departure of this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/closingDateTime
+	 * @format date-time
 	 */
 	closingDateTime?: string;
 
@@ -269,7 +272,7 @@ export interface IUneceTransportMovement {
 	 * The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this logistics transport movement.
@@ -408,7 +411,7 @@ export interface IUneceTransportMovement {
 	 * The identifier of a pilotage exemption for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/pilotageExemptionId
 	 */
-	pilotageExemptionId?: string;
+	pilotageExemptionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The number of professional medical personnel onboard this logistics transport movement.
@@ -457,7 +460,7 @@ export interface IUneceTransportMovement {
 	 * stated in a schedule.
 	 * @see https://vocabulary.uncefact.org/scheduledId
 	 */
-	scheduledId?: string;
+	scheduledId?: string | IJsonLdValueObject;
 
 	/**
 	 * A sequence number differentiating this logistics transport movement from others in a set of transport movements.
@@ -541,7 +544,7 @@ export interface IUneceTransportMovement {
 	 * The unique identifier of a stay in a port, airport or other place of service for this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/stayId
 	 */
-	stayId?: string;
+	stayId?: string | IJsonLdValueObject;
 
 	/**
 	 * A stevedore party for this logistics transport movement.
@@ -553,7 +556,7 @@ export interface IUneceTransportMovement {
 	 * A unique identifier for this logistics transport movement as assigned by a terminal operator.
 	 * @see https://vocabulary.uncefact.org/terminalOperatorAssignedId
 	 */
-	terminalOperatorAssignedId?: string;
+	terminalOperatorAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A terminal operator party for this logistics transport movement.
@@ -577,7 +580,7 @@ export interface IUneceTransportMovement {
 	 * The unique identifier for this logistics transport movement as assigned by the trading consolidator.
 	 * @see https://vocabulary.uncefact.org/tradingConsolidatorAssignedId
 	 */
-	tradingConsolidatorAssignedId?: string;
+	tradingConsolidatorAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The number of trained medical personnel onboard this logistics transport movement.

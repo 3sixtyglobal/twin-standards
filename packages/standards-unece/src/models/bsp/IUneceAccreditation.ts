@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceAccreditationTypeCodeList } from "../typeCodes/uneceAccreditationTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -49,6 +50,7 @@ export interface IUneceAccreditation {
 	/**
 	 * The date, time, date time or other date time value when this certified accreditation expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -56,11 +58,12 @@ export interface IUneceAccreditation {
 	 * An identifier for this certified accreditation.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time or other date time value when this certified accreditation was obtained.
 	 * @see https://vocabulary.uncefact.org/obtainedDateTime
+	 * @format date-time
 	 */
 	obtainedDateTime?: string;
 

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
 import type { IUneceCoordinateSourceSystem } from "./IUneceCoordinateSourceSystem.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -26,6 +27,7 @@ export interface IUneceGeographicalCoordinate {
 	/**
 	 * The date, time, date time or other date time value of the acquisition of this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/acquisitionDateTime
+	 * @format date-time
 	 */
 	acquisitionDateTime?: string;
 
@@ -33,13 +35,13 @@ export interface IUneceGeographicalCoordinate {
 	 * An alternative source system identifier for this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/alternativeSourceSystemId
 	 */
-	alternativeSourceSystemId?: string;
+	alternativeSourceSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the system used for measuring the altitude.
 	 * @see https://vocabulary.uncefact.org/altimetricSystemId
 	 */
-	altimetricSystemId?: string;
+	altimetricSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the altitude that reflects the vertical elevation of an object above a surface for this geographical
@@ -52,7 +54,7 @@ export interface IUneceGeographicalCoordinate {
 	 * The unique identifier for this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether the latitude compass direction from the Equator meridian to the meridian of a specific place
@@ -86,7 +88,7 @@ export interface IUneceGeographicalCoordinate {
 	 * The unique identifier of the reference system used for measuring a geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/systemId
 	 */
-	systemId?: string;
+	systemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The time zone, expressed as text, for this geographical coordinate.
@@ -103,6 +105,7 @@ export interface IUneceGeographicalCoordinate {
 	/**
 	 * The date, time, date time, or other date time value for the time zone of this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/timeZoneDateTime
+	 * @format date-time
 	 */
 	timeZoneDateTime?: string;
 

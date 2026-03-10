@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBirthAddress } from "./IUneceBirthAddress.js";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceEmployerIdentity } from "./IUneceEmployerIdentity.js";
@@ -36,6 +37,7 @@ export interface IUneceContactPerson {
 	/**
 	 * The date, time, date time or other date time value which specifies the birth date for this contact person.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
+	 * @format date-time
 	 */
 	birthDateTime?: string;
 
@@ -55,7 +57,7 @@ export interface IUneceContactPerson {
 	 * The identifier of the residence country of this contact person.
 	 * @see https://vocabulary.uncefact.org/countryResidenceCountryId
 	 */
-	countryResidenceCountryId?: UneceCountryId;
+	countryResidenceCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * An email Uniform Resource Identifier (URI) communication for this contact person.

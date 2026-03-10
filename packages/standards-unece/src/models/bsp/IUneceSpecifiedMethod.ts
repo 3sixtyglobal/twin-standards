@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedParameter } from "./IUneceSpecifiedParameter.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -31,7 +32,7 @@ export interface IUneceSpecifiedMethod {
 	 * A certification identifier of this specified method.
 	 * @see https://vocabulary.uncefact.org/certificationId
 	 */
-	certificationId?: string;
+	certificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the certification type of this method.
@@ -49,7 +50,7 @@ export interface IUneceSpecifiedMethod {
 	 * An identifier of this specified method.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this specified method.

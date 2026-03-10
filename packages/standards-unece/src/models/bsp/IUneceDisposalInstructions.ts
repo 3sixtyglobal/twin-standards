@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -42,7 +43,7 @@ export interface IUneceDisposalInstructions {
 	 * The identifier of the material to which these disposal instructions apply.
 	 * @see https://vocabulary.uncefact.org/materialId
 	 */
-	materialId?: string;
+	materialId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Resource Conservation and Recovery Act (RCRA) handling, expressed as text, in this set of disposal instructions.

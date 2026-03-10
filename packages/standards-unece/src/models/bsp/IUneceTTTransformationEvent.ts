@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceError } from "./IUneceError.js";
 import type { IUneceEventElement } from "./IUneceEventElement.js";
 import type { IUneceSpecifiedCertification } from "./IUneceSpecifiedCertification.js";
@@ -56,13 +57,13 @@ export interface IUneceTTTransformationEvent {
 	 * The identifier for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An instance identifier for an input object of this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/inputObjectInstanceId
 	 */
-	inputObjectInstanceId?: string;
+	inputObjectInstanceId?: string | IJsonLdValueObject;
 
 	/**
 	 * A quantity event element specified for an input of this TT transformation event.
@@ -73,6 +74,7 @@ export interface IUneceTTTransformationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT transformation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -80,7 +82,7 @@ export interface IUneceTTTransformationEvent {
 	 * An instance identifier for an output object of this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/outputObjectInstanceId
 	 */
-	outputObjectInstanceId?: string;
+	outputObjectInstanceId?: string | IJsonLdValueObject;
 
 	/**
 	 * A quantity event element specified for an output of this TT transformation event.
@@ -97,6 +99,7 @@ export interface IUneceTTTransformationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT transformation event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
+	 * @format date-time
 	 */
 	recordedDateTime: string;
 
@@ -128,5 +131,5 @@ export interface IUneceTTTransformationEvent {
 	 * The transformation identifier for this TT transformation event.
 	 * @see https://vocabulary.uncefact.org/transformationId
 	 */
-	transformationId?: string;
+	transformationId?: string | IJsonLdValueObject;
 }

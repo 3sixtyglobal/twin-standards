@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceIssue } from "./IUneceIssue.js";
 import type { IUneceNegotiationContext } from "./IUneceNegotiationContext.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -32,6 +33,7 @@ export interface IUneceNegotiationExchange {
 	/**
 	 * The date or date time value when the response is due for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/responseDueDateTime
+	 * @format date-time
 	 */
 	responseDueDateTime?: string;
 
@@ -45,7 +47,7 @@ export interface IUneceNegotiationExchange {
 	 * The identifier of the session for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/sessionId
 	 */
-	sessionId: string;
+	sessionId: string | IJsonLdValueObject;
 
 	/**
 	 * A context specified for this electronic negotiation exchange.

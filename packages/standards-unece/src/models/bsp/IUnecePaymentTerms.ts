@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDurationUnitMeasureType } from "./IUneceDurationUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -43,6 +44,7 @@ export interface IUnecePaymentTerms {
 	/**
 	 * The date, time, date time, or other date time value of the bill start specified by these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/billStartDateTime
+	 * @format date-time
 	 */
 	billStartDateTime?: string;
 
@@ -55,6 +57,7 @@ export interface IUnecePaymentTerms {
 	/**
 	 * The date, time, date time, or other date time value of the due date specified by these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
+	 * @format date-time
 	 */
 	dueDateTime?: string;
 
@@ -120,7 +123,7 @@ export interface IUnecePaymentTerms {
 	 * The unique identifier of these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsId
 	 */
-	paymentTermsId?: UnecePaymentTermsId;
+	paymentTermsId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the type of trade payment terms.
@@ -139,7 +142,7 @@ export interface IUnecePaymentTerms {
 	 * An identifier of a direct debit mandate in these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/tradePaymentTermsDirectDebitMandateId
 	 */
-	tradePaymentTermsDirectDebitMandateId?: string;
+	tradePaymentTermsDirectDebitMandateId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a type of instruction for these trade payment terms.
@@ -151,5 +154,5 @@ export interface IUnecePaymentTerms {
 	 * An identifier of a payment means in these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/tradePaymentTermsPaymentMeansId
 	 */
-	tradePaymentTermsPaymentMeansId?: string;
+	tradePaymentTermsPaymentMeansId?: string | IJsonLdValueObject;
 }

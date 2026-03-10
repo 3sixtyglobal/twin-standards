@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
@@ -31,6 +32,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
+	 * @format date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -91,6 +93,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this product batch certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -98,11 +101,12 @@ export interface IUneceProductBatchCertificate {
 	 * The identifier of this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value when this product batch certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -116,7 +120,7 @@ export interface IUneceProductBatchCertificate {
 	 * The identifier of the party issuing this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a purpose of this product batch certificate.
@@ -127,6 +131,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
+	 * @format date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

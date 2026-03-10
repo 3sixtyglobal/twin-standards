@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceNegotiationContextTypeCodeList } from "../typeCodes/uneceNegotiationContextTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,7 +26,7 @@ export interface IUneceNegotiationContext {
 	 * The identifier of the negotiation context.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type for this negotiation context, such as chain negotiation, item negotiation or counterpart

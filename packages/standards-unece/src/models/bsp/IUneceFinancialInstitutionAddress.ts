@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -32,7 +33,7 @@ export interface IUneceFinancialInstitutionAddress {
 	 * (UNLOCODE).
 	 * @see https://vocabulary.uncefact.org/cityId
 	 */
-	cityId?: string;
+	cityId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of the city, town or village of this financial institution address.
@@ -44,7 +45,7 @@ export interface IUneceFinancialInstitutionAddress {
 	 * The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId;
+	countryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of the country within this financial institution address.
@@ -57,7 +58,7 @@ export interface IUneceFinancialInstitutionAddress {
 	 * Rec 3).
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of a country sub-division within this financial institution address.

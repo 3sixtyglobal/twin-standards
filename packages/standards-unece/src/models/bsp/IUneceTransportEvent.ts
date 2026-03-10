@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalFeature } from "./IUneceGeographicalFeature.js";
 import type { IUneceIOTDevice } from "./IUneceIOTDevice.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -38,18 +39,21 @@ export interface IUneceTransportEvent {
 	/**
 	 * The date, time, date time or other date time value of the actual arrival related to this transport event.
 	 * @see https://vocabulary.uncefact.org/actualArrivalRelatedDateTime
+	 * @format date-time
 	 */
 	actualArrivalRelatedDateTime?: string;
 
 	/**
 	 * The date, time, date time or other date time value of the actual departure related to this transport event.
 	 * @see https://vocabulary.uncefact.org/actualDepartureRelatedDateTime
+	 * @format date-time
 	 */
 	actualDepartureRelatedDateTime?: string;
 
 	/**
 	 * The actual date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
+	 * @format date-time
 	 */
 	actualOccurrenceDateTime?: string;
 
@@ -86,6 +90,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * An arrival date, time, date time, or other date time value related to this transport event.
 	 * @see https://vocabulary.uncefact.org/arrivalRelatedDateTime
+	 * @format date-time
 	 */
 	arrivalRelatedDateTime?: string;
 
@@ -128,6 +133,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * A departure date, time, date time, or other date time value related to this transport event.
 	 * @see https://vocabulary.uncefact.org/departureRelatedDateTime
+	 * @format date-time
 	 */
 	departureRelatedDateTime?: string;
 
@@ -140,6 +146,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The estimated date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
+	 * @format date-time
 	 */
 	estimatedOccurrenceDateTime?: string;
 
@@ -147,6 +154,7 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time, or other date time value when the arrival of a means of transport at the location of this
 	 * transport event is estimated to occur.
 	 * @see https://vocabulary.uncefact.org/estimatedTransportMeansArrivalOccurrenceDateTime
+	 * @format date-time
 	 */
 	estimatedTransportMeansArrivalOccurrenceDateTime?: string;
 
@@ -160,7 +168,7 @@ export interface IUneceTransportEvent {
 	 * The unique identifier for this transport event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The specified period of laycan time during which this transport event occurs.
@@ -214,6 +222,7 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time, or other date time value when information related to this transport event was received, from
 	 * the perspective of the receiver.
 	 * @see https://vocabulary.uncefact.org/receivedDateTime
+	 * @format date-time
 	 */
 	receivedDateTime?: string;
 
@@ -244,6 +253,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The requested date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
+	 * @format date-time
 	 */
 	requestedOccurrenceDateTime?: string;
 
@@ -256,6 +266,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledArrivalRelatedDateTime
+	 * @format date-time
 	 */
 	scheduledArrivalRelatedDateTime?: string;
 
@@ -263,12 +274,14 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time or other date time value of the scheduled departure related to this referenced transport
 	 * event.
 	 * @see https://vocabulary.uncefact.org/scheduledDepartureRelatedDateTime
+	 * @format date-time
 	 */
 	scheduledDepartureRelatedDateTime?: string;
 
 	/**
 	 * The scheduled date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
+	 * @format date-time
 	 */
 	scheduledOccurrenceDateTime?: string;
 

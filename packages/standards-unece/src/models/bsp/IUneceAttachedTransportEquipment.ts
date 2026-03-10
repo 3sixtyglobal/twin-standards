@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceTransportEquipmentCategoryCodeList } from "../lists/uneceTransportEquipmentCategoryCodeList.js";
 import type { UneceTransportEquipmentSizeTypeCodeList } from "../lists/uneceTransportEquipmentSizeTypeCodeList.js";
@@ -33,7 +34,7 @@ export interface IUneceAttachedTransportEquipment {
 	 * A unique identifier of this piece of attached transport equipment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a category of this piece of attached transport equipment.

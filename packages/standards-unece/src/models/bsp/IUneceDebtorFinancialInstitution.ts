@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBranchFinancialInstitution } from "./IUneceBranchFinancialInstitution.js";
 import type { IUneceFinancialInstitutionAddress } from "./IUneceFinancialInstitutionAddress.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -27,39 +28,39 @@ export interface IUneceDebtorFinancialInstitution {
 	 * Association (APCA) for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/australianBSBId
 	 */
-	australianBSBId?: string;
+	australianBSBId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Austrian Bankleitzahl identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/austrianBankleitzahlId
 	 */
-	austrianBankleitzahlId?: string;
+	austrianBankleitzahlId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Bank Identification Code (BIC) as defined in ISO 9362 for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId?: string;
+	bICId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by
 	 * the New York Clearing House for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/cHIPSParticipantId
 	 */
-	cHIPSParticipantId?: string;
+	cHIPSParticipantId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned
 	 * by the New York Clearing House for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/cHIPSUniversalId
 	 */
-	cHIPSUniversalId?: string;
+	cHIPSUniversalId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Canadian Payments Association Routing Number identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/canadianPaymentsAssociationId
 	 */
-	canadianPaymentsAssociationId?: string;
+	canadianPaymentsAssociationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The clearing system name, expressed as text, for this debtor financial institution.
@@ -72,52 +73,52 @@ export interface IUneceDebtorFinancialInstitution {
 	 * financial institution.
 	 * @see https://vocabulary.uncefact.org/fedwireRoutingNumberId
 	 */
-	fedwireRoutingNumberId?: string;
+	fedwireRoutingNumberId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique German Bankleitzahl identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/germanBankleitzahlId
 	 */
-	germanBankleitzahlId?: string;
+	germanBankleitzahlId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Hellenic Bank Identification Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/hellenicBankId
 	 */
-	hellenicBankId?: string;
+	hellenicBankId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Hong Kong Bank Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/hongKongBankId
 	 */
-	hongKongBankId?: string;
+	hongKongBankId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Indian Financial System Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/indianFinancialSystemId
 	 */
-	indianFinancialSystemId?: string;
+	indianFinancialSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Irish National Sorting Code (NSC) identifier as assigned by the Irish Payments Services Organisation (IPSO)
 	 * for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/irishNSCId
 	 */
-	irishNSCId?: string;
+	irishNSCId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for
 	 * this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/italianDomesticId
 	 */
-	italianDomesticId?: string;
+	italianDomesticId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Japan Financial Institution Common identifier as assigned by the Japanese Bankers Association for this debtor
 	 * financial institution.
 	 * @see https://vocabulary.uncefact.org/japanFinancialInstitutionCommonId
 	 */
-	japanFinancialInstitutionCommonId?: string;
+	japanFinancialInstitutionCommonId?: string | IJsonLdValueObject;
 
 	/**
 	 * The location address for this debtor financial institution.
@@ -136,45 +137,45 @@ export interface IUneceDebtorFinancialInstitution {
 	 * (NZBA) for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/newZealandNCCId
 	 */
-	newZealandNCCId?: string;
+	newZealandNCCId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Polish National Clearing Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/polishNationalClearingId
 	 */
-	polishNationalClearingId?: string;
+	polishNationalClearingId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Portuguese National Clearing Code (NCC) identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/portugueseNCCId
 	 */
-	portugueseNCCId?: string;
+	portugueseNCCId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Russian Central Bank Identification Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/russianCentralBankId
 	 */
-	russianCentralBankId?: string;
+	russianCentralBankId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Swiss Interbank Clearing (SIC) Code identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/sICId
 	 */
-	sICId?: string;
+	sICId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique South African National Clearing Code (NCC) identifier as assigned by the South African Bankers Services
 	 * Company Ltd. (BankServ) for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/southAfricanNCCId
 	 */
-	southAfricanNCCId?: string;
+	southAfricanNCCId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI)
 	 * for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/spanishDomesticInterbankingId
 	 */
-	spanishDomesticInterbankingId?: string;
+	spanishDomesticInterbankingId?: string | IJsonLdValueObject;
 
 	/**
 	 * The branch financial institution for this debtor financial institution.
@@ -186,12 +187,12 @@ export interface IUneceDebtorFinancialInstitution {
 	 * The unique Swiss Bank Code (BC) identifier for this debtor financial institution.
 	 * @see https://vocabulary.uncefact.org/swissBCId
 	 */
-	swissBCId?: string;
+	swissBCId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique United Kingdom (UK) Sort Code identifier as assigned by the UK Payment Association (APACS) for this debtor
 	 * financial institution.
 	 * @see https://vocabulary.uncefact.org/uKSortCodeId
 	 */
-	uKSortCodeId?: string;
+	uKSortCodeId?: string | IJsonLdValueObject;
 }

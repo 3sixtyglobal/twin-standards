@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceGovernmentRegistrationTypeCodeList } from "../typeCodes/uneceGovernmentRegistrationTypeCodeList.js";
@@ -33,23 +34,24 @@ export interface IUneceGovernmentRegistration {
 	 * The identifier of the country for this government registration.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId;
+	countryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the country sub-division for this registration.
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier for this government registration.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The last registered year of this government registration.
 	 * @see https://vocabulary.uncefact.org/lastRegisteredYearDateTime
+	 * @format date-time
 	 */
 	lastRegisteredYearDateTime?: string;
 
@@ -57,7 +59,7 @@ export interface IUneceGovernmentRegistration {
 	 * The identifier of a licence for this government registration.
 	 * @see https://vocabulary.uncefact.org/licenceId
 	 */
-	licenceId?: string;
+	licenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date that this government registration was recorded.
@@ -81,5 +83,5 @@ export interface IUneceGovernmentRegistration {
 	 * The identifier of the version of this government registration.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

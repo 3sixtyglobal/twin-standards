@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { IUneceSanitaryMeasure } from "./IUneceSanitaryMeasure.js";
 import type { UneceMDHHealthIndicationTypeCodeList } from "../typeCodes/uneceMDHHealthIndicationTypeCodeList.js";
@@ -40,7 +41,7 @@ export interface IUneceMDHHealthIndication {
 	 * An identifier of a location for this MDH health indication.
 	 * @see https://vocabulary.uncefact.org/locationId
 	 */
-	locationId?: string;
+	locationId?: string | IJsonLdValueObject;
 
 	/**
 	 * A location name, expressed as text, of a location for this MDH health indication.
@@ -51,6 +52,7 @@ export interface IUneceMDHHealthIndication {
 	/**
 	 * A reported date, time, date time or other date time value for this MDH health indication.
 	 * @see https://vocabulary.uncefact.org/reportedDateTime
+	 * @format date-time
 	 */
 	reportedDateTime?: string;
 

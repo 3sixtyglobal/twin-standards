@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUnecePaymentFinancialAccount } from "./IUnecePaymentFinancialAccount.js";
 import type { UnecePaymentFinancialInstitutionTypeCodeList } from "../typeCodes/unecePaymentFinancialInstitutionTypeCodeList.js";
@@ -27,13 +28,13 @@ export interface IUnecePaymentFinancialInstitution {
 	 * The unique Business Entity Identifier (BEI) as defined in ISO 9362 for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/bEIId
 	 */
-	bEIId?: string;
+	bEIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Bank Identification Code (BIC) as defined in ISO 9362 for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId?: string;
+	bICId?: string | IJsonLdValueObject;
 
 	/**
 	 * A branch name, expressed as text, for this payment financial institution.
@@ -45,19 +46,19 @@ export interface IUnecePaymentFinancialInstitution {
 	 * The identifier of the branch name for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/branchNameId
 	 */
-	branchNameId?: string;
+	branchNameId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Global Location Number (GLN) as defined by GS1 for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/gLNId
 	 */
-	gLNId?: string;
+	gLNId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, for this payment financial institution.
@@ -69,7 +70,7 @@ export interface IUnecePaymentFinancialInstitution {
 	 * The identifier of the name for this payment financial institution.
 	 * @see https://vocabulary.uncefact.org/nameId
 	 */
-	nameId?: string;
+	nameId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the role for this payment financial institution, such as intermediary or settlement agent.

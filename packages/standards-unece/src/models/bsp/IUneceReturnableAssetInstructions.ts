@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceSpecifiedPeriod } from "./IUneceSpecifiedPeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -38,7 +39,7 @@ export interface IUneceReturnableAssetInstructions {
 	 * An identifier of the material to which these returnable asset instructions apply.
 	 * @see https://vocabulary.uncefact.org/materialId
 	 */
-	materialId?: string;
+	materialId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the description of the terms and conditions for these returnable asset instructions.

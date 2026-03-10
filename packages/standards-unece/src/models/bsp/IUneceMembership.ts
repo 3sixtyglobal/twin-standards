@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -29,6 +30,7 @@ export interface IUneceMembership {
 	/**
 	 * The date, time, date time, or other date time value of the end of this specified membership.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
@@ -36,7 +38,7 @@ export interface IUneceMembership {
 	 * The identifier of this specified membership.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, for this specified membership.
@@ -47,6 +49,7 @@ export interface IUneceMembership {
 	/**
 	 * The date, time, date time, or other date time value of the start of this specified membership.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 }

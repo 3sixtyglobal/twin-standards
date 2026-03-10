@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDocumentContextParameter } from "./IUneceDocumentContextParameter.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -55,6 +56,7 @@ export interface IUneceExchangedDocumentContext {
 	 * The date, time, date time, or other date time value of the processing of a transaction for this exchanged document
 	 * context.
 	 * @see https://vocabulary.uncefact.org/processingTransactionDateTime
+	 * @format date-time
 	 */
 	processingTransactionDateTime?: string;
 
@@ -68,7 +70,7 @@ export interface IUneceExchangedDocumentContext {
 	 * The identifier of a specified transaction in this exchanged document context.
 	 * @see https://vocabulary.uncefact.org/specifiedTransactionId
 	 */
-	specifiedTransactionId?: string;
+	specifiedTransactionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A subset context parameter specified for this exchanged document context.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDeliveryTerms } from "./IUneceDeliveryTerms.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
@@ -89,6 +90,7 @@ export interface IUneceHeaderTradeAgreement {
 	/**
 	 * The date, time, date time, or other date time value of approval by the buyer for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerApprovedDateTime
+	 * @format date-time
 	 */
 	buyerApprovedDateTime?: string;
 
@@ -192,7 +194,7 @@ export interface IUneceHeaderTradeAgreement {
 	 * An identifier for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the impact for this header trade agreement.
@@ -366,7 +368,7 @@ export interface IUneceHeaderTradeAgreement {
 	 * An identifier for the revision of this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/revisionId
 	 */
-	revisionId?: string;
+	revisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The agent party representing the seller for this header trade agreement.

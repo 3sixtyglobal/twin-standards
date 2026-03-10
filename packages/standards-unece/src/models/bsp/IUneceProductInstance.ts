@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceClassification } from "./IUneceClassification.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceGoodsCharacteristic } from "./IUneceGoodsCharacteristic.js";
@@ -41,7 +42,7 @@ export interface IUneceProductInstance {
 	 * A unique ammunition identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/ammunitionId
 	 */
-	ammunitionId?: string;
+	ammunitionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A product classification applicable to this trade product instance.
@@ -71,12 +72,13 @@ export interface IUneceProductInstance {
 	 * The unique batch identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/batchId
 	 */
-	batchId?: string;
+	batchId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value before which it is best to consume the items contained in this trade
 	 * product instance.
 	 * @see https://vocabulary.uncefact.org/bestBeforeDateTime
+	 * @format date-time
 	 */
 	bestBeforeDateTime?: string;
 
@@ -90,7 +92,7 @@ export interface IUneceProductInstance {
 	 * The ceramic capacitor identifier of this trade product instance.
 	 * @see https://vocabulary.uncefact.org/ceramicCapacitorId
 	 */
-	ceramicCapacitorId?: string;
+	ceramicCapacitorId?: string | IJsonLdValueObject;
 
 	/**
 	 * A referenced document providing evidence of certification for this trade product instance.
@@ -108,7 +110,7 @@ export interface IUneceProductInstance {
 	 * The DNA marker identifier of this trade product instance.
 	 * @see https://vocabulary.uncefact.org/dNAMarkerId
 	 */
-	dNAMarkerId?: string;
+	dNAMarkerId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a disposal reason for this trade product instance.
@@ -120,17 +122,18 @@ export interface IUneceProductInstance {
 	 * The EPC (Electronic Product Code) identifier of this trade product instance.
 	 * @see https://vocabulary.uncefact.org/ePCId
 	 */
-	ePCId?: string;
+	ePCId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique equipment identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/equipmentId
 	 */
-	equipmentId?: string;
+	equipmentId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of expiry of the items contained in the trade product instance.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -138,19 +141,19 @@ export interface IUneceProductInstance {
 	 * The unique global serial identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/globalSerialId
 	 */
-	globalSerialId?: string;
+	globalSerialId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique Department of Defense Item Unique Identifier (IUID) for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/iUIDId
 	 */
-	iUIDId?: string;
+	iUIDId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A note providing additional ingredient information for this trade product instance.
@@ -180,19 +183,19 @@ export interface IUneceProductInstance {
 	 * The unique kanban identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/kanbanId
 	 */
-	kanbanId?: string;
+	kanbanId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique lot identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/lotId
 	 */
-	lotId?: string;
+	lotId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique manufacturer assigned serial identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/manufacturerAssignedSerialId
 	 */
-	manufacturerAssignedSerialId?: string;
+	manufacturerAssignedSerialId?: string | IJsonLdValueObject;
 
 	/**
 	 * A location of origin for this supply chain product instance.
@@ -240,7 +243,7 @@ export interface IUneceProductInstance {
 	 * A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/registrationId
 	 */
-	registrationId?: string;
+	registrationId?: string | IJsonLdValueObject;
 
 	/**
 	 * A scientific name, expressed as text, for this trade product instance.
@@ -252,6 +255,7 @@ export interface IUneceProductInstance {
 	 * The date, time, date time, or other date time value by after which the items contained in the trade product instance
 	 * should not be sold.
 	 * @see https://vocabulary.uncefact.org/sellByDateTime
+	 * @format date-time
 	 */
 	sellByDateTime?: string;
 
@@ -259,13 +263,13 @@ export interface IUneceProductInstance {
 	 * A unique serial identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/serialId
 	 */
-	serialId?: string;
+	serialId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique supplier assigned serial identifier for this trade product instance.
 	 * @see https://vocabulary.uncefact.org/supplierAssignedSerialId
 	 */
-	supplierAssignedSerialId?: string;
+	supplierAssignedSerialId?: string | IJsonLdValueObject;
 
 	/**
 	 * Packaging used for this trade product instance.

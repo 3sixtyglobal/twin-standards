@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceNote } from "./IUneceNote.js";
 import type { IUneceSpatialDimension } from "./IUneceSpatialDimension.js";
@@ -63,7 +64,7 @@ export interface IUnecePicture {
 	 * An identifier for this photographic picture.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An intended use, expressed as text, for this photographic picture.
@@ -128,6 +129,7 @@ export interface IUnecePicture {
 	/**
 	 * The date, time, date time, or other date value of when this photographic picture was created.
 	 * @see https://vocabulary.uncefact.org/takenDateTime
+	 * @format date-time
 	 */
 	takenDateTime?: string;
 
@@ -141,5 +143,5 @@ export interface IUnecePicture {
 	 * The URI (Uniform Resource Identifier) for this photographic picture.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 }

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAppliedChemicalTreatment } from "./IUneceAppliedChemicalTreatment.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
@@ -45,6 +46,7 @@ export interface IUneceRegulatoryProcedure {
 	/**
 	 * The date, time, date time, or other date time value of an acquisition for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/acquisitionDateTime
+	 * @format date-time
 	 */
 	acquisitionDateTime?: string;
 
@@ -144,7 +146,7 @@ export interface IUneceRegulatoryProcedure {
 	 * The declarant assigned identifier of a declaration for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/declarantAssignedDeclarationId
 	 */
-	declarantAssignedDeclarationId?: string;
+	declarantAssignedDeclarationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The location at which a declaration has been lodged for this cross-border regulatory procedure.
@@ -209,7 +211,7 @@ export interface IUneceRegulatoryProcedure {
 	 * procedure, such as per the Wassenaar agreement concerning trade in weapons and dual-use goods and technologies.
 	 * @see https://vocabulary.uncefact.org/exportLicenceControlClassificationId
 	 */
-	exportLicenceControlClassificationId?: string;
+	exportLicenceControlClassificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name of a free trade agreement, expressed as text, for this cross-border regulatory procedure.
@@ -272,6 +274,7 @@ export interface IUneceRegulatoryProcedure {
 	 * A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be,
 	 * performed.
 	 * @see https://vocabulary.uncefact.org/performanceDateTime
+	 * @format date-time
 	 */
 	performanceDateTime?: string;
 
@@ -291,13 +294,13 @@ export interface IUneceRegulatoryProcedure {
 	 * A quota identifier for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/quotaId
 	 */
-	quotaId?: string;
+	quotaId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the registered deferred payment payer for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/registeredDeferredPaymentPayerId
 	 */
-	registeredDeferredPaymentPayerId?: string;
+	registeredDeferredPaymentPayerId?: string | IJsonLdValueObject;
 
 	/**
 	 * A remark, expressed as text, for this cross-border regulatory procedure.

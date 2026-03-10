@@ -111,6 +111,7 @@ export interface IUneceDocumentStatus {
 	/**
 	 * The reference date, time, date time or other date time value for this document status.
 	 * @see https://vocabulary.uncefact.org/referenceDateTime
+	 * @format date-time
 	 */
 	referenceDateTime?: string;
 

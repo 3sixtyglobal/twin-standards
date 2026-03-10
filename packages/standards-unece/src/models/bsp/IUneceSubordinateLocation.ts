@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
 import type { IUneceSubordinateSubordinateLocation } from "./IUneceSubordinateSubordinateLocation.js";
 import type { UneceLocationFunctionCodeList } from "../lists/uneceLocationFunctionCodeList.js";
@@ -28,7 +29,7 @@ export interface IUneceSubordinateLocation {
 	 * Location Number (GLN).
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type of subordinate location.

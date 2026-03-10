@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceGeographicalObjectCharacteristic } from "./IUneceGeographicalObjectCharacteristic.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { IUnecePlot } from "./IUnecePlot.js";
@@ -65,7 +66,7 @@ export interface IUneceGeographicalGrid {
 	 * An identifier for this geographical grid.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The tuple of elements, expressed as text, indicating the low limit of this geographical grid specifying the offset of

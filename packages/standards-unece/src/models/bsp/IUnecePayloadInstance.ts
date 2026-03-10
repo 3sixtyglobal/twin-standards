@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceXHEReference } from "./IUneceXHEReference.js";
 import type { UneceDocumentCodeList } from "../lists/uneceDocumentCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -32,7 +33,7 @@ export interface IUnecePayloadInstance {
 	 * The customization identifier for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/customizationId
 	 */
-	customizationId?: string;
+	customizationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The reference to the decryption key for this XHE payload instance.
@@ -86,13 +87,13 @@ export interface IUnecePayloadInstance {
 	 * The handling service identifier for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/handlingServiceId
 	 */
-	handlingServiceId?: string;
+	handlingServiceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The reference to the payload for this XHE payload instance.
@@ -104,13 +105,13 @@ export interface IUnecePayloadInstance {
 	 * The profile execution identifier for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/profileExecutionId
 	 */
-	profileExecutionId?: string;
+	profileExecutionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The profile identifier for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/profileId
 	 */
-	profileId?: string;
+	profileId?: string | IJsonLdValueObject;
 
 	/**
 	 * A reference relevant to this XHE payload instance.
@@ -128,5 +129,5 @@ export interface IUnecePayloadInstance {
 	 * The validation version identifier for this XHE payload instance.
 	 * @see https://vocabulary.uncefact.org/validationVersionId
 	 */
-	validationVersionId?: string;
+	validationVersionId?: string | IJsonLdValueObject;
 }

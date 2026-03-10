@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceError } from "./IUneceError.js";
 import type { IUneceEventElement } from "./IUneceEventElement.js";
 import type { IUneceSpecifiedCertification } from "./IUneceSpecifiedCertification.js";
@@ -42,7 +43,7 @@ export interface IUneceTTAggregationEvent {
 	 * An instance identifier for a child object of this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/childObjectInstanceId
 	 */
-	childObjectInstanceId?: string;
+	childObjectInstanceId?: string | IJsonLdValueObject;
 
 	/**
 	 * A quantity event element specified for a child of this TT aggregation event.
@@ -66,11 +67,12 @@ export interface IUneceTTAggregationEvent {
 	 * The identifier for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value at which this TT aggregation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -78,7 +80,7 @@ export interface IUneceTTAggregationEvent {
 	 * The identifier of the parent object for this TT aggregation event.
 	 * @see https://vocabulary.uncefact.org/parentObjectId
 	 */
-	parentObjectId?: string;
+	parentObjectId?: string | IJsonLdValueObject;
 
 	/**
 	 * The read point related location of this TT aggregation event.
@@ -89,6 +91,7 @@ export interface IUneceTTAggregationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT aggregation event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
+	 * @format date-time
 	 */
 	recordedDateTime: string;
 

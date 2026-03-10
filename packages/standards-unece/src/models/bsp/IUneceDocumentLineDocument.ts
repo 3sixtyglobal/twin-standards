@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAcknowledgementDocument } from "./IUneceAcknowledgementDocument.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceNote } from "./IUneceNote.js";
@@ -60,7 +61,7 @@ export interface IUneceDocumentLineDocument {
 	 * The identifier of this document line document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A note included in this document line.
@@ -71,12 +72,14 @@ export interface IUneceDocumentLineDocument {
 	/**
 	 * The date, time, date time, or other date time value for the issuance of this document line.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value for the latest revision of this document line.
 	 * @see https://vocabulary.uncefact.org/latestRevisionDateTime
+	 * @format date-time
 	 */
 	latestRevisionDateTime?: string;
 
@@ -84,7 +87,7 @@ export interface IUneceDocumentLineDocument {
 	 * The unique identifier of this document line.
 	 * @see https://vocabulary.uncefact.org/lineId
 	 */
-	lineId?: string;
+	lineId?: string | IJsonLdValueObject;
 
 	/**
 	 * A reason, expressed as text, for the line status in this document line.
@@ -102,11 +105,12 @@ export interface IUneceDocumentLineDocument {
 	 * The unique identifier of the parent line to this document line.
 	 * @see https://vocabulary.uncefact.org/parentLineId
 	 */
-	parentLineId?: string;
+	parentLineId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of the publication of this document line.
 	 * @see https://vocabulary.uncefact.org/publicationDateTime
+	 * @format date-time
 	 */
 	publicationDateTime?: string;
 
@@ -132,11 +136,11 @@ export interface IUneceDocumentLineDocument {
 	 * An identifier of a subordinate line of this document line.
 	 * @see https://vocabulary.uncefact.org/subordinateLineId
 	 */
-	subordinateLineId?: string;
+	subordinateLineId?: string | IJsonLdValueObject;
 
 	/**
 	 * The universally unique identifier (UUID) of this document line.
 	 * @see https://vocabulary.uncefact.org/uUIDLineId
 	 */
-	uUIDLineId?: string;
+	uUIDLineId?: string | IJsonLdValueObject;
 }

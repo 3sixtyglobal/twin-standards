@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
@@ -77,7 +78,7 @@ export interface IUneceLocation {
 	 * The identifier of the country sub-division for this referenced location.
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Coordinate System (CS) engineering coordinate reference system defined for this referenced location.
@@ -95,14 +96,14 @@ export interface IUneceLocation {
 	 * A global identifier of this referenced location.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier for this referenced location such as a United Nations Blue Number (UNBN) or GS1 Global Location Number
 	 * (GLN).
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The polygon included for this referenced location.
@@ -114,7 +115,7 @@ export interface IUneceLocation {
 	 * The identifier of the country for this referenced location.
 	 * @see https://vocabulary.uncefact.org/locationCountryId
 	 */
-	locationCountryId?: UneceCountryId;
+	locationCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the reference type of this referenced location.

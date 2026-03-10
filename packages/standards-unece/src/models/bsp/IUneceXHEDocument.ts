@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceXHEContext } from "./IUneceXHEContext.js";
 import type { IUneceXHEParty } from "./IUneceXHEParty.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -25,6 +26,7 @@ export interface IUneceXHEDocument {
 	/**
 	 * The date, time, date time or other date time value of the creation of this XHE document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime: string;
 
@@ -32,7 +34,7 @@ export interface IUneceXHEDocument {
 	 * The identifier for this XHE document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * A recipient party for this XHE document.
@@ -62,5 +64,5 @@ export interface IUneceXHEDocument {
 	 * The UUID (Universally Unique IDentifier) of this XHE document.
 	 * @see https://vocabulary.uncefact.org/uUIDId
 	 */
-	uUIDId?: string;
+	uUIDId?: string | IJsonLdValueObject;
 }

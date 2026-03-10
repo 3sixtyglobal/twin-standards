@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUnecePaymentTerms } from "./IUnecePaymentTerms.js";
@@ -34,7 +35,7 @@ export interface IUneceAdvancePayment {
 	 * The identifier for this advance payment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A tax included in this advance payment.
@@ -57,6 +58,7 @@ export interface IUneceAdvancePayment {
 	/**
 	 * The formatted date or date time value when an advance payment has been received.
 	 * @see https://vocabulary.uncefact.org/receivedDateTime
+	 * @format date-time
 	 */
 	receivedDateTime?: string;
 }

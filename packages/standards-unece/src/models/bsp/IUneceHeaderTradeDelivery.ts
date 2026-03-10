@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceConsignment } from "./IUneceConsignment.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDeliveryInstructions } from "./IUneceDeliveryInstructions.js";
@@ -90,6 +91,7 @@ export interface IUneceHeaderTradeDelivery {
 	/**
 	 * The date, time, date time, or other date time value, at header level, for the buyer order for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDateTime
+	 * @format date-time
 	 */
 	buyerOrderDateTime?: string;
 
@@ -199,12 +201,13 @@ export interface IUneceHeaderTradeDelivery {
 	 * A global identifier, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value, at header level, when the goods ownership of this trade delivery
 	 * changed.
 	 * @see https://vocabulary.uncefact.org/goodsOwnershipChangeDateTime
+	 * @format date-time
 	 */
 	goodsOwnershipChangeDateTime?: string;
 
@@ -242,7 +245,7 @@ export interface IUneceHeaderTradeDelivery {
 	 * The identifier, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Packaging, at header level, included in this trade delivery.
@@ -290,6 +293,7 @@ export interface IUneceHeaderTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at header level, when this trade delivery is available
 	 * for pick-up.
 	 * @see https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
+	 * @format date-time
 	 */
 	pickUpAvailabilityDateTime?: string;
 
@@ -441,12 +445,13 @@ export interface IUneceHeaderTradeDelivery {
 	 * A subordinate identifier, at header level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/subordinateId
 	 */
-	subordinateId?: string;
+	subordinateId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value, at header level, when this trade delivery is delivered to the
 	 * ultimate ship to party.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
+	 * @format date-time
 	 */
 	ultimateShipToDeliveryDateTime?: string;
 

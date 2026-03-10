@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -24,6 +25,7 @@ export interface IUneceRepresentativePerson {
 	/**
 	 * The date, time, date time or other date time value which specifies the birth date for this representative person.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
+	 * @format date-time
 	 */
 	birthDateTime?: string;
 
@@ -31,7 +33,7 @@ export interface IUneceRepresentativePerson {
 	 * The unique identifier for this representative person.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A country that constitutes a nationality by origin, birth, or naturalization for this representative person.

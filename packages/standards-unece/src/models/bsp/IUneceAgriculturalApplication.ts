@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalCertificate } from "./IUneceAgriculturalCertificate.js";
 import type { IUneceAgriculturalZoneArea } from "./IUneceAgriculturalZoneArea.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
@@ -63,7 +64,7 @@ export interface IUneceAgriculturalApplication {
 	 * The identifier for this specified agricultural application.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A referenced location specified for this specified agricultural application.

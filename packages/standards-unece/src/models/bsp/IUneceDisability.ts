@@ -36,6 +36,7 @@ export interface IUneceDisability {
 	/**
 	 * The date, time, date time, or other date time value when this guest disability has been registered.
 	 * @see https://vocabulary.uncefact.org/registeredDateTime
+	 * @format date-time
 	 */
 	registeredDateTime?: string;
 

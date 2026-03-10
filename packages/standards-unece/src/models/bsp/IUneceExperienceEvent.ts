@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceRequirement } from "./IUneceRequirement.js";
 import type { IUneceSpecifiedCertificate } from "./IUneceSpecifiedCertificate.js";
 import type { IUneceSpecifiedFeature } from "./IUneceSpecifiedFeature.js";
@@ -44,6 +45,7 @@ export interface IUneceExperienceEvent {
 	/**
 	 * The break up date, time, date time, or other date time value for this experience event.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
+	 * @format date-time
 	 */
 	breakUpDateTime?: string;
 
@@ -81,7 +83,7 @@ export interface IUneceExperienceEvent {
 	 * The identifier of this experience event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An indemnity clause, expressed as text, for this experience event.
@@ -104,6 +106,7 @@ export interface IUneceExperienceEvent {
 	/**
 	 * The meeting date, time, date time, or other date time value for this experience event.
 	 * @see https://vocabulary.uncefact.org/meetingDateTime
+	 * @format date-time
 	 */
 	meetingDateTime?: string;
 

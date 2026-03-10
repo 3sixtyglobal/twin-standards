@@ -30,12 +30,14 @@ export interface IUneceDelimitedPeriod {
 	/**
 	 * The date, time, date time or other date time value for the end of this delimited period.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
 	/**
 	 * The date, time, date time or other date time value for the start of this delimited period.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 }

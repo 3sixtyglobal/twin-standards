@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceClause } from "./IUneceClause.js";
 import type { IUneceDocumentStatus } from "./IUneceDocumentStatus.js";
@@ -37,6 +38,7 @@ export interface IUneceSpecifiedCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
+	 * @format date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -133,18 +135,21 @@ export interface IUneceSpecifiedCertificate {
 	/**
 	 * The date, time, date time, or other date time value from which this specified certificate is effective.
 	 * @see https://vocabulary.uncefact.org/effectiveFromDateTime
+	 * @format date-time
 	 */
 	effectiveFromDateTime?: string;
 
 	/**
 	 * An endorsement date, time, date time or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/endorsementDateTime
+	 * @format date-time
 	 */
 	endorsementDateTime?: string;
 
 	/**
 	 * The expiry date, time, date time, or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -152,7 +157,7 @@ export interface IUneceSpecifiedCertificate {
 	 * The identifier for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An issuance location for this specified certificate.
@@ -163,6 +168,7 @@ export interface IUneceSpecifiedCertificate {
 	/**
 	 * The issue date, time, date time, or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -181,6 +187,7 @@ export interface IUneceSpecifiedCertificate {
 	/**
 	 * A latest endorsement date, time, date time or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/latestEndorsementDateTime
+	 * @format date-time
 	 */
 	latestEndorsementDateTime?: string;
 
@@ -194,7 +201,7 @@ export interface IUneceSpecifiedCertificate {
 	 * An identifier of a party for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/partyId
 	 */
-	partyId?: string;
+	partyId?: string | IJsonLdValueObject;
 
 	/**
 	 * The party, other than the issuer, providing this specified certificate.
@@ -223,6 +230,7 @@ export interface IUneceSpecifiedCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
+	 * @format date-time
 	 */
 	requestedEffectiveDateTime?: string;
 
@@ -260,6 +268,7 @@ export interface IUneceSpecifiedCertificate {
 	 * A date, time, date time or other date time value until which this specified certificate will remain valid under the
 	 * terms of an approved extension period.
 	 * @see https://vocabulary.uncefact.org/validityExtendedUntilDateTime
+	 * @format date-time
 	 */
 	validityExtendedUntilDateTime?: string;
 

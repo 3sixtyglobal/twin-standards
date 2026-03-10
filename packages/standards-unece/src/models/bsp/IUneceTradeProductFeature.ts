@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceTradeProductFeatureTypeCodeList } from "../typeCodes/uneceTradeProductFeatureTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -32,7 +33,7 @@ export interface IUneceTradeProductFeature {
 	 * The unique identifier for this trade product feature.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A marketing measure for this trade product feature.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceObject } from "./IUneceObject.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
@@ -48,11 +49,12 @@ export interface IUneceSpecifiedDeclaration {
 	 * An identifier for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The issue date, time, date time or other date time value for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 

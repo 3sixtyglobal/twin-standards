@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBasicWorkItem } from "./IUneceBasicWorkItem.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceCalculatedPrice } from "./IUneceCalculatedPrice.js";
@@ -59,6 +60,7 @@ export interface IUneceBreakdownStatement {
 	/**
 	 * The date, time, date time, or other date time value of the creation of this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime: string;
 
@@ -84,7 +86,7 @@ export interface IUneceBreakdownStatement {
 	 * The unique identifier for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * A basic work item in this valuation breakdown statement.
@@ -102,7 +104,7 @@ export interface IUneceBreakdownStatement {
 	 * A unique identifier of a method of measurement for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/measurementMethodId
 	 */
-	measurementMethodId?: string;
+	measurementMethodId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, for this valuation breakdown statement.
@@ -114,7 +116,7 @@ export interface IUneceBreakdownStatement {
 	 * The identifier of a price list for this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/priceListId
 	 */
-	priceListId?: string;
+	priceListId?: string | IJsonLdValueObject;
 
 	/**
 	 * A specified binary file used to read this valuation breakdown statement.

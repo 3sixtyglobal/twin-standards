@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -24,6 +25,7 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * An actual date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
+	 * @format date-time
 	 */
 	actualOccurrenceDateTime?: string;
 
@@ -42,6 +44,7 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * An estimated date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
+	 * @format date-time
 	 */
 	estimatedOccurrenceDateTime?: string;
 
@@ -49,7 +52,7 @@ export interface IUnecePortMovementEvent {
 	 * An identifier for this port movement event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this port movement event involves a maritime anchorage.
@@ -66,12 +69,14 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * A requested date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
+	 * @format date-time
 	 */
 	requestedOccurrenceDateTime?: string;
 
 	/**
 	 * A scheduled date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
+	 * @format date-time
 	 */
 	scheduledOccurrenceDateTime?: string;
 

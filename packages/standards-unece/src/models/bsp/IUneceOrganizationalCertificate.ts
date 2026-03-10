@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceOrganizationalCertification } from "./IUneceOrganizationalCertification.js";
@@ -31,6 +32,7 @@ export interface IUneceOrganizationalCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
+	 * @format date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -91,6 +93,7 @@ export interface IUneceOrganizationalCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this organizational certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -98,11 +101,12 @@ export interface IUneceOrganizationalCertificate {
 	 * The identifier of this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value for the issuance of this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -116,7 +120,7 @@ export interface IUneceOrganizationalCertificate {
 	 * An identifier of the party issuing this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the purpose of this organizational certificate.
@@ -127,6 +131,7 @@ export interface IUneceOrganizationalCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this organizational certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
+	 * @format date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

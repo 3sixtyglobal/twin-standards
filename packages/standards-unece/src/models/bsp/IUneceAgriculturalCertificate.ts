@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
@@ -28,6 +29,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
+	 * @format date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -76,6 +78,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this agricultural certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -83,11 +86,12 @@ export interface IUneceAgriculturalCertificate {
 	 * The identifier for this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value when this agricultural certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -101,7 +105,7 @@ export interface IUneceAgriculturalCertificate {
 	 * The identifier for the issuing party of this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the purpose of this agricultural certificate.
@@ -112,6 +116,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
+	 * @format date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

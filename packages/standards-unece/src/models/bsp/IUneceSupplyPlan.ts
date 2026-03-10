@@ -73,6 +73,7 @@ export interface IUneceSupplyPlan {
 	/**
 	 * A date, time, date time, or other date time value of the latest synchronization of the supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/latestSynchronizationDateTime
+	 * @format date-time
 	 */
 	latestSynchronizationDateTime?: string;
 
@@ -157,6 +158,7 @@ export interface IUneceSupplyPlan {
 	/**
 	 * A date, time, date time, or other date time value of a synchronization of the supply chain supply plan.
 	 * @see https://vocabulary.uncefact.org/synchronizationDateTime
+	 * @format date-time
 	 */
 	synchronizationDateTime?: string;
 

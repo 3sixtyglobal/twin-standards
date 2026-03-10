@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceLanguageCodeList } from "../lists/uneceLanguageCodeList.js";
 import type { UneceLanguageId } from "../lists/uneceLanguageId.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -39,7 +40,7 @@ export interface IUneceLanguageProficiency {
 	 * The identifier of the language for which this personal language proficiency is defined.
 	 * @see https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageId
 	 */
-	personalLanguageProficiencyLanguageId?: UneceLanguageId;
+	personalLanguageProficiencyLanguageId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the personal reading proficiency level in this language.

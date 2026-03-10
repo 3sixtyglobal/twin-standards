@@ -642,7 +642,9 @@
 		"./src/models/typeCodes/uneceVoucherTypeCodeList.ts",
 		"./src/models/typeCodes/uneceXHEParameterTypeCodeList.ts"
 	],
-	"externalReferences": {},
+	"externalReferences": {
+		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+	},
 	"autoExpandTypes": [
 		"UneceContextType"
 	]

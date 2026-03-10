@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceFuel } from "./IUneceFuel.js";
 import type { IUneceHandlingInstructions } from "./IUneceHandlingInstructions.js";
@@ -43,7 +44,7 @@ export interface IUneceDangerousGoods {
 	 * The unique identifier of an additional hazard class applicable to these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/additionalHazardClassificationId
 	 */
-	additionalHazardClassificationId?: string;
+	additionalHazardClassificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * Aircraft limitation information, expressed as text, for these transported dangerous goods.
@@ -115,7 +116,7 @@ export interface IUneceDangerousGoods {
 	 * The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/eMSId
 	 */
-	eMSId?: string;
+	eMSId?: string | IJsonLdValueObject;
 
 	/**
 	 * The person or department to be contacted in the event of any emergency related to these transported dangerous goods.
@@ -181,14 +182,14 @@ export interface IUneceDangerousGoods {
 	 * The unique identifier of the version of a hazard class for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/hazardClassVersionId
 	 */
-	hazardClassVersionId?: string;
+	hazardClassVersionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant
 	 * governing regulation authority.
 	 * @see https://vocabulary.uncefact.org/hazardClassificationId
 	 */
-	hazardClassificationId?: string;
+	hazardClassificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the type of hazard for these transported dangerous goods.
@@ -225,13 +226,13 @@ export interface IUneceDangerousGoods {
 	 * The unique lower part of the orange hazard placard identifier for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/lowerPartOrangeHazardPlacardId
 	 */
-	lowerPartOrangeHazardPlacardId?: string;
+	lowerPartOrangeHazardPlacardId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique Medical First Aid Guide (MFAG) identifier for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/mFAGId
 	 */
-	mFAGId?: string;
+	mFAGId?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not these transported dangerous goods have a marine pollutant content.
@@ -339,7 +340,7 @@ export interface IUneceDangerousGoods {
 	 * The unique identifier of the special provision for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/specialProvisionId
 	 */
-	specialProvisionId?: string;
+	specialProvisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A logistics package specified for these transported dangerous goods.
@@ -363,7 +364,7 @@ export interface IUneceDangerousGoods {
 	 * The unique TRansport EMergency (TREM) card identifier for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/tREMId
 	 */
-	tREMId?: string;
+	tREMId?: string | IJsonLdValueObject;
 
 	/**
 	 * Tank type certificate information, expressed as text, concerning the transport of these dangerous goods.
@@ -424,7 +425,7 @@ export interface IUneceDangerousGoods {
 	 * The unique upper part of the orange hazard placard identifier for these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/upperPartOrangeHazardPlacardId
 	 */
-	upperPartOrangeHazardPlacardId?: string;
+	upperPartOrangeHazardPlacardId?: string | IJsonLdValueObject;
 
 	/**
 	 * A viscosity measure for these transported dangerous goods.

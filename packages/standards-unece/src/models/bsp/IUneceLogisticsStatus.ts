@@ -83,6 +83,7 @@ export interface IUneceLogisticsStatus {
 	/**
 	 * The reference date, time, date time or other date time value for this logistics status.
 	 * @see https://vocabulary.uncefact.org/referenceDateTime
+	 * @format date-time
 	 */
 	referenceDateTime?: string;
 

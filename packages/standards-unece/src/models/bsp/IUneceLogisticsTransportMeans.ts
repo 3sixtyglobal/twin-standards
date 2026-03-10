@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceEmission } from "./IUneceEmission.js";
@@ -85,7 +86,7 @@ export interface IUneceLogisticsTransportMeans {
 	 * A call sign identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/callSignId
 	 */
-	callSignId?: string;
+	callSignId?: string | IJsonLdValueObject;
 
 	/**
 	 * A certified level of pollution calculated for an emission from this logistics transport means.
@@ -133,7 +134,7 @@ export interface IUneceLogisticsTransportMeans {
 	 * The IMO (International Maritime Organization) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/iMOId
 	 */
-	iMOId?: string;
+	iMOId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the International Ship and Port facility Security (ISPS) level assigned to this logistics means of
@@ -159,7 +160,7 @@ export interface IUneceLogisticsTransportMeans {
 	 * An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the length of this logistics means of transport.
@@ -196,7 +197,7 @@ export interface IUneceLogisticsTransportMeans {
 	 * The MMSI (Maritime Mobile Service Identity) identifier for this logistics transport means.
 	 * @see https://vocabulary.uncefact.org/mMSIId
 	 */
-	mMSIId?: string;
+	mMSIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The manoeuvring speed measured for this logistics means of transport.
@@ -213,6 +214,7 @@ export interface IUneceLogisticsTransportMeans {
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/manufacturingDateTime
+	 * @format date-time
 	 */
 	manufacturingDateTime?: string;
 

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceInspectionResult } from "./IUneceInspectionResult.js";
@@ -66,7 +67,7 @@ export interface IUneceSustainabilityCharacteristic {
 	 * An identifier of this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of a maximum value for this sustainability characteristic.
@@ -143,6 +144,7 @@ export interface IUneceSustainabilityCharacteristic {
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, for this sustainability characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
+	 * @format date-time
 	 */
 	valueDateTime?: string;
 

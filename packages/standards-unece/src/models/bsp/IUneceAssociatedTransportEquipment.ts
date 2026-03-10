@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceConsignment } from "./IUneceConsignment.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDangerousGoods } from "./IUneceDangerousGoods.js";
@@ -98,7 +99,7 @@ export interface IUneceAssociatedTransportEquipment {
 	 * A unique number, mark or name which identifies this associated piece of transport equipment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Dangerous goods loaded into or onto this piece of associated transport equipment.
@@ -166,7 +167,7 @@ export interface IUneceAssociatedTransportEquipment {
 	 * The stowage position identifier for this associated transport equipment.
 	 * @see https://vocabulary.uncefact.org/stowagePositionId
 	 */
-	stowagePositionId?: string;
+	stowagePositionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the tare weight (mass) of this piece of associated transport equipment which is the weight (mass)

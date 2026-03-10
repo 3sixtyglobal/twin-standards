@@ -42,6 +42,7 @@ export interface IUneceFinancialAdjustment {
 	/**
 	 * The actual date, time, date time, or other date time value of this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/actualDateTime
+	 * @format date-time
 	 */
 	actualDateTime?: string;
 

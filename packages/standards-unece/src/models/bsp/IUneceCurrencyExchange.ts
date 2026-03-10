@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { UneceCurrencyCodeList } from "../lists/uneceCurrencyCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -37,6 +38,7 @@ export interface IUneceCurrencyExchange {
 	/**
 	 * The date, time, date time or other date time value of the conversion rate for this trade related currency exchange.
 	 * @see https://vocabulary.uncefact.org/conversionRateDateTime
+	 * @format date-time
 	 */
 	conversionRateDateTime?: string;
 
@@ -74,5 +76,5 @@ export interface IUneceCurrencyExchange {
 	 * The unique identifier of the currency exchange market from which the exchange rate is taken for trade purposes.
 	 * @see https://vocabulary.uncefact.org/tradeCurrencyExchangeMarketId
 	 */
-	tradeCurrencyExchangeMarketId?: string;
+	tradeCurrencyExchangeMarketId?: string | IJsonLdValueObject;
 }

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAllergy } from "./IUneceAllergy.js";
 import type { IUneceCarriedEquipment } from "./IUneceCarriedEquipment.js";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
@@ -51,6 +52,7 @@ export interface IUneceGuestPerson {
 	/**
 	 * The date, time, date time, or other date time value which specifies the birth date for this guest.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
+	 * @format date-time
 	 */
 	birthDateTime?: string;
 
@@ -88,13 +90,13 @@ export interface IUneceGuestPerson {
 	 * The identifier for this guest.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the language of this guest.
 	 * @see https://vocabulary.uncefact.org/languageId
 	 */
-	languageId?: string;
+	languageId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, by which this guest person is known.
@@ -148,7 +150,7 @@ export interface IUneceGuestPerson {
 	 * The identifier of the passport of this guest.
 	 * @see https://vocabulary.uncefact.org/passportId
 	 */
-	passportId?: string;
+	passportId?: string | IJsonLdValueObject;
 
 	/**
 	 * A special query raised for this guest person.
@@ -160,7 +162,7 @@ export interface IUneceGuestPerson {
 	 * The identifier of the residence country of this guest person.
 	 * @see https://vocabulary.uncefact.org/residenceCountryId
 	 */
-	residenceCountryId?: string;
+	residenceCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the role of this guest person.

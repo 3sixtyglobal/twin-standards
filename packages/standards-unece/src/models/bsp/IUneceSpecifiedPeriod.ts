@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDurationUnitMeasureType } from "./IUneceDurationUnitMeasureType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
@@ -28,6 +29,7 @@ export interface IUneceSpecifiedPeriod {
 	 * The date, time, date time or other date time value for a complete specified period of time expressed as a specific
 	 * month, a specific week, etc.
 	 * @see https://vocabulary.uncefact.org/completeDateTime
+	 * @format date-time
 	 */
 	completeDateTime?: string;
 
@@ -64,6 +66,7 @@ export interface IUneceSpecifiedPeriod {
 	/**
 	 * The date, time, date time or other date time value for the end of this specified period of time.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
@@ -77,7 +80,7 @@ export interface IUneceSpecifiedPeriod {
 	 * The unique identifier of this specified period.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not the start and end dates are included in this specified period.
@@ -142,6 +145,7 @@ export interface IUneceSpecifiedPeriod {
 	/**
 	 * The date, time, date time or other date time value for the start of this specified period of time.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 

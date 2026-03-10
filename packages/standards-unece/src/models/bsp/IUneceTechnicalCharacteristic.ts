@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAnimalHoldingEvent } from "./IUneceAnimalHoldingEvent.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -58,6 +59,7 @@ export interface IUneceTechnicalCharacteristic {
 	/**
 	 * The date, time, date time, or other date time value of the construction of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/constructionDateTime
+	 * @format date-time
 	 */
 	constructionDateTime?: string;
 
@@ -77,11 +79,12 @@ export interface IUneceTechnicalCharacteristic {
 	 * The identifier for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value of the latest renovation of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/latestRenovationDateTime
+	 * @format date-time
 	 */
 	latestRenovationDateTime?: string;
 
@@ -142,6 +145,7 @@ export interface IUneceTechnicalCharacteristic {
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value. for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
+	 * @format date-time
 	 */
 	valueDateTime?: string;
 

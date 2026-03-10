@@ -30,12 +30,14 @@ export interface IUneceAvailablePeriod {
 	/**
 	 * The date, time, date time or other date time value for the end of this available period of time.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
 	/**
 	 * The date, time, date time or other date time value for the start of this available period of time.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 }

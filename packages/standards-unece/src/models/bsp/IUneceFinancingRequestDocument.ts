@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCancellationStatus } from "./IUneceCancellationStatus.js";
 import type { IUneceClause } from "./IUneceClause.js";
@@ -68,6 +69,7 @@ export interface IUneceFinancingRequestDocument {
 	/**
 	 * The date, time, date time or other date time value for the creation of this financing request document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -87,7 +89,7 @@ export interface IUneceFinancingRequestDocument {
 	 * The group identifier in this financing request document.
 	 * @see https://vocabulary.uncefact.org/groupId
 	 */
-	groupId?: string;
+	groupId?: string | IJsonLdValueObject;
 
 	/**
 	 * The number of grouped transactions specified in this financing request document.

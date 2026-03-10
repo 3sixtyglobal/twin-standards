@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceCertificateTypeCodeList } from "../lists/uneceCertificateTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -31,11 +32,12 @@ export interface IUneceConformanceCertificate {
 	 * The unique identifier of this conformance certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value when this conformance certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -43,7 +45,7 @@ export interface IUneceConformanceCertificate {
 	 * An identifier of the issuing party of this conformance certificate.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * The software operating system, expressed as text, for which this conformance certificate is produced.

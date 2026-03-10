@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceProprietaryIdentity } from "./IUneceProprietaryIdentity.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,31 +26,31 @@ export interface IUnecePersonIdentity {
 	 * The alien registration identifier for this person.
 	 * @see https://vocabulary.uncefact.org/alienRegistrationId
 	 */
-	alienRegistrationId?: string;
+	alienRegistrationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The drivers licence identifier for this person.
 	 * @see https://vocabulary.uncefact.org/driversLicenceId
 	 */
-	driversLicenceId?: string;
+	driversLicenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identity card identifier for this person.
 	 * @see https://vocabulary.uncefact.org/identityCardId
 	 */
-	identityCardId?: string;
+	identityCardId?: string | IJsonLdValueObject;
 
 	/**
 	 * The passport identifier for this person.
 	 * @see https://vocabulary.uncefact.org/passportId
 	 */
-	passportId?: string;
+	passportId?: string | IJsonLdValueObject;
 
 	/**
 	 * The social security identifier for this person.
 	 * @see https://vocabulary.uncefact.org/socialSecurityId
 	 */
-	socialSecurityId?: string;
+	socialSecurityId?: string | IJsonLdValueObject;
 
 	/**
 	 * A proprietary Identity specified for this person.

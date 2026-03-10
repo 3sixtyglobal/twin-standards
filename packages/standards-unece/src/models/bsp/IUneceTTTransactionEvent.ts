@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceError } from "./IUneceError.js";
 import type { IUneceEventElement } from "./IUneceEventElement.js";
 import type { IUneceSpecifiedCertification } from "./IUneceSpecifiedCertification.js";
@@ -61,17 +62,18 @@ export interface IUneceTTTransactionEvent {
 	 * The identifier for this TT transaction event.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An instance identifier for an object of this TT transaction event.
 	 * @see https://vocabulary.uncefact.org/objectInstanceId
 	 */
-	objectInstanceId?: string;
+	objectInstanceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value at which this TT transaction event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
+	 * @format date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -79,7 +81,7 @@ export interface IUneceTTTransactionEvent {
 	 * The identifier of the parent object for this TT transaction event.
 	 * @see https://vocabulary.uncefact.org/parentObjectId
 	 */
-	parentObjectId?: string;
+	parentObjectId?: string | IJsonLdValueObject;
 
 	/**
 	 * A quantity event element specified for this TT transaction event.
@@ -96,6 +98,7 @@ export interface IUneceTTTransactionEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT transaction event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
+	 * @format date-time
 	 */
 	recordedDateTime: string;
 

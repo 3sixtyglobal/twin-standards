@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceObject } from "./IUneceObject.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
@@ -73,6 +74,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value for the end of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
@@ -91,6 +93,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value of the report of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/reportDateTime
+	 * @format date-time
 	 */
 	reportDateTime?: string;
 
@@ -98,7 +101,7 @@ export interface IUneceAssessment {
 	 * The report identifier for this specified assessment.
 	 * @see https://vocabulary.uncefact.org/reportId
 	 */
-	reportId?: string;
+	reportId?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this specified assessment is self assessed.
@@ -109,6 +112,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value for the start of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 

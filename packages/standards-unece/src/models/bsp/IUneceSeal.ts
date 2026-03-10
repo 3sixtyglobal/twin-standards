@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceTradeParty } from "./IUneceTradeParty.js";
 import type { UneceSealConditionCodeList } from "../lists/uneceSealConditionCodeList.js";
 import type { UneceSealingPartyRoleCodeList } from "../lists/uneceSealingPartyRoleCodeList.js";
@@ -28,7 +29,7 @@ export interface IUneceSeal {
 	 * A unique identifier for this logistics seal.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The party issuing this logistics seal.
@@ -52,7 +53,7 @@ export interface IUneceSeal {
 	 * The maximum unique identifier used for these logistics seals.
 	 * @see https://vocabulary.uncefact.org/maximumId
 	 */
-	maximumId?: string;
+	maximumId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a condition of this logistics seal.

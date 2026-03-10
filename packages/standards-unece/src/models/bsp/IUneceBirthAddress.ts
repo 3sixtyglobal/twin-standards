@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,7 +26,7 @@ export interface IUneceBirthAddress {
 	 * The identifier of a country for this birth address.
 	 * @see https://vocabulary.uncefact.org/birthAddressCountryId
 	 */
-	birthAddressCountryId?: UneceCountryId;
+	birthAddressCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of the city, town or village of this birth address.

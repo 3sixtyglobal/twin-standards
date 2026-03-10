@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { UneceFinancialCardTypeCodeList } from "../typeCodes/uneceFinancialCardTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -62,6 +63,7 @@ export interface IUneceFinancialCard {
 	/**
 	 * The date of expiry up to which this trade settlement financial card is valid.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -69,7 +71,7 @@ export interface IUneceFinancialCard {
 	 * The unique identifier, commonly known as the card number, of this trade settlement financial card.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The interest rate expressed as a percentage for this trade settlement financial card.
@@ -98,6 +100,7 @@ export interface IUneceFinancialCard {
 	/**
 	 * The date from which this trade settlement financial card is valid.
 	 * @see https://vocabulary.uncefact.org/validFromDateTime
+	 * @format date-time
 	 */
 	validFromDateTime?: string;
 

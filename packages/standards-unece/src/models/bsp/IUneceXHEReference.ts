@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -23,6 +24,7 @@ export interface IUneceXHEReference {
 	/**
 	 * The end date, time, date time, or other date time value for the availability of this XHE reference.
 	 * @see https://vocabulary.uncefact.org/endAvailabilityDateTime
+	 * @format date-time
 	 */
 	endAvailabilityDateTime?: string;
 
@@ -30,7 +32,7 @@ export interface IUneceXHEReference {
 	 * The identifier for this XHE reference.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The login, expressed as text, for this XHE reference.
@@ -47,6 +49,7 @@ export interface IUneceXHEReference {
 	/**
 	 * The start date, time, date time, or other date time value for the availability of this XHE reference.
 	 * @see https://vocabulary.uncefact.org/startAvailabilityDateTime
+	 * @format date-time
 	 */
 	startAvailabilityDateTime?: string;
 }

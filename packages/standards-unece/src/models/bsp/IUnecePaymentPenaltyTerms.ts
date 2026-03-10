@@ -37,6 +37,7 @@ export interface IUnecePaymentPenaltyTerms {
 	/**
 	 * The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms.
 	 * @see https://vocabulary.uncefact.org/basisDateTime
+	 * @format date-time
 	 */
 	basisDateTime?: string;
 

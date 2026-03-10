@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { UneceVoucherTypeCodeList } from "../typeCodes/uneceVoucherTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -45,11 +46,12 @@ export interface IUneceVoucher {
 	 * The identifier for this experience item voucher.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date or date time of the issuance of this experience item voucher.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 

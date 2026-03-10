@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
 import type { IUneceExperienceItem } from "./IUneceExperienceItem.js";
@@ -53,6 +54,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The creation date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -67,13 +69,13 @@ export interface IUnecePaymentTradeSettlement {
 	 * assigned by the creditor to reference the financial transaction.
 	 * @see https://vocabulary.uncefact.org/creditorReferenceId
 	 */
-	creditorReferenceId?: string;
+	creditorReferenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the issuer of the creditor reference for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/creditorReferenceIssuerId
 	 */
-	creditorReferenceIssuerId?: string;
+	creditorReferenceIssuerId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type of creditor reference for this payment trade settlement.
@@ -91,6 +93,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The due date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
+	 * @format date-time
 	 */
 	dueDateTime?: string;
 
@@ -117,7 +120,7 @@ export interface IUnecePaymentTradeSettlement {
 	 * The identifier of the invoice payer assigned reference of this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoicePayerAssignedReferenceId
 	 */
-	invoicePayerAssignedReferenceId?: string;
+	invoicePayerAssignedReferenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The payee party for this payment trade settlement.
@@ -170,6 +173,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The receipt date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/receiptDateTime
+	 * @format date-time
 	 */
 	receiptDateTime?: string;
 

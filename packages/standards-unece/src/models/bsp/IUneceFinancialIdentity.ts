@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -24,38 +25,38 @@ export interface IUneceFinancialIdentity {
 	 * The agent assigned customer identifier for this financial identity.
 	 * @see https://vocabulary.uncefact.org/agentAssignedCustomerId
 	 */
-	agentAssignedCustomerId?: string;
+	agentAssignedCustomerId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes)
 	 * for this financial identity.
 	 * @see https://vocabulary.uncefact.org/bEIId
 	 */
-	bEIId?: string;
+	bEIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for
 	 * this financial identity.
 	 * @see https://vocabulary.uncefact.org/bICId
 	 */
-	bICId?: string;
+	bICId?: string | IJsonLdValueObject;
 
 	/**
 	 * The bank assigned identifier for this financial identity.
 	 * @see https://vocabulary.uncefact.org/bankAssignedId
 	 */
-	bankAssignedId?: string;
+	bankAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the
 	 * New York Clearing House for this financial identity.
 	 * @see https://vocabulary.uncefact.org/cHIPSUniversalId
 	 */
-	cHIPSUniversalId?: string;
+	cHIPSUniversalId?: string | IJsonLdValueObject;
 
 	/**
 	 * The International Business Entity Identifier (IBEI) for this financial identity.
 	 * @see https://vocabulary.uncefact.org/iBEIId
 	 */
-	iBEIId?: string;
+	iBEIId?: string | IJsonLdValueObject;
 }

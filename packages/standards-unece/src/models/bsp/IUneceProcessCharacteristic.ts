@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
@@ -57,7 +58,7 @@ export interface IUneceProcessCharacteristic {
 	 * An identifier of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the maximum value for this process characteristic.
@@ -98,6 +99,7 @@ export interface IUneceProcessCharacteristic {
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, for this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
+	 * @format date-time
 	 */
 	valueDateTime?: string;
 

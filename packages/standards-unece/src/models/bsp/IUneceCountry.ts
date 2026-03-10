@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountrySubDivision } from "./IUneceCountrySubDivision.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
@@ -28,7 +29,7 @@ export interface IUneceCountry {
 	 * A unique identifier for this trade country.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: UneceCountryId[];
+	countryId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of this trade country.

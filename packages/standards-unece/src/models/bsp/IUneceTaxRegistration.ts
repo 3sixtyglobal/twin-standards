@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceRegisteredTax } from "./IUneceRegisteredTax.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -31,11 +32,11 @@ export interface IUneceTaxRegistration {
 	 * The Import One Stop Shop (IOSS) identifier for this tax registration.
 	 * @see https://vocabulary.uncefact.org/iOSSId
 	 */
-	iOSSId?: string;
+	iOSSId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier for this tax registration.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 }

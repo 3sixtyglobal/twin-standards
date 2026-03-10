@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceInspectionEvent } from "./IUneceInspectionEvent.js";
@@ -57,7 +58,7 @@ export interface IUneceSpecifiedInspection {
 	 * The identifier of this specified inspection.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, for this specified inspection.

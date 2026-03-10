@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceClause } from "./IUneceClause.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -28,6 +29,7 @@ export interface IUneceAuthentication {
 	/**
 	 * The actual date, time, date time, or other date time value of this document authentication.
 	 * @see https://vocabulary.uncefact.org/actualDateTime
+	 * @format date-time
 	 */
 	actualDateTime?: string;
 
@@ -47,7 +49,7 @@ export interface IUneceAuthentication {
 	 * A unique identifier for this document authentication.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A document clause included in this document authentication.
@@ -119,5 +121,5 @@ export interface IUneceAuthentication {
 	 * The unique identifier of a transport means for this document authentication.
 	 * @see https://vocabulary.uncefact.org/transportMeansId
 	 */
-	transportMeansId?: string;
+	transportMeansId?: string | IJsonLdValueObject;
 }

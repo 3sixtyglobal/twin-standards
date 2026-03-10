@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceDocument } from "./IUneceDocument.js";
 import type { IUneceLineTradeDelivery } from "./IUneceLineTradeDelivery.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -69,7 +70,7 @@ export interface IUnecePackage {
 	 * The unique global identifier for this logistics package.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the gross volume of this logistics package.
@@ -87,13 +88,13 @@ export interface IUnecePackage {
 	 * The level identifier for this logistics package.
 	 * @see https://vocabulary.uncefact.org/hierarchicalLevelId
 	 */
-	hierarchicalLevelId?: string;
+	hierarchicalLevelId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier for this logistics package.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A supply chain trade line item included in this logistics package.
@@ -171,7 +172,7 @@ export interface IUnecePackage {
 	 * The unique parent identifier for this logistics package.
 	 * @see https://vocabulary.uncefact.org/parentId
 	 */
-	parentId?: string;
+	parentId?: string | IJsonLdValueObject;
 
 	/**
 	 * A number of units per package in this logistics package.
@@ -201,13 +202,13 @@ export interface IUnecePackage {
 	 * The unique identifier of the end of a series of packages within this logistics package.
 	 * @see https://vocabulary.uncefact.org/seriesEndId
 	 */
-	seriesEndId?: string;
+	seriesEndId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique start identifier of a series of packages within this logistics package.
 	 * @see https://vocabulary.uncefact.org/seriesStartId
 	 */
-	seriesStartId?: string;
+	seriesStartId?: string | IJsonLdValueObject;
 
 	/**
 	 * The line trade delivery specified for this logistics package.

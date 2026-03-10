@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceLinearUnitMeasureType } from "./IUneceLinearUnitMeasureType.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -137,7 +138,7 @@ export interface IUneceServiceCharge {
 	 * The unique identifier for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/freightChargeTypeId
 	 */
-	freightChargeTypeId?: UneceFreightChargeTypeId;
+	freightChargeTypeId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a type of freight invoice of this logistics service charge.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceChequeTypeCodeList } from "../typeCodes/uneceChequeTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -55,7 +56,7 @@ export interface IUneceCheque {
 	 * The identifier for this payment cheque.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the instruction priority for this payment cheque, such as the urgency or order of importance for the
@@ -74,6 +75,7 @@ export interface IUneceCheque {
 	/**
 	 * The date, time, date time, or other date time value when this payment cheque reaches maturity.
 	 * @see https://vocabulary.uncefact.org/maturityDateTime
+	 * @format date-time
 	 */
 	maturityDateTime?: string;
 

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -25,7 +26,7 @@ export interface IUneceLaboratoryObservationAnalysisMethod {
 	 * The identifier for the certificate granted to a party for this laboratory observation analysis method.
 	 * @see https://vocabulary.uncefact.org/certificationId
 	 */
-	certificationId?: string;
+	certificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type of certification for this laboratory observation analysis method.
@@ -43,7 +44,7 @@ export interface IUneceLaboratoryObservationAnalysisMethod {
 	 * The identifier for this laboratory observation analysis method.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this laboratory observation analysis method.

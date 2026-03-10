@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
 import type { IUneceConsignmentItem } from "./IUneceConsignmentItem.js";
@@ -55,7 +56,7 @@ export interface IUneceSupplyChainTradeLineItem {
 	 * An additional unique identifier for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/additionalId
 	 */
-	additionalId?: string;
+	additionalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A note providing additional information for this supply chain trade line item.
@@ -103,7 +104,7 @@ export interface IUneceSupplyChainTradeLineItem {
 	 * A unique barcode identifier for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/barcodeId
 	 */
-	barcodeId?: string;
+	barcodeId?: string | IJsonLdValueObject;
 
 	/**
 	 * A referenced complementary product applicable for this supply chain trade line item.
@@ -139,7 +140,7 @@ export interface IUneceSupplyChainTradeLineItem {
 	 * The unique identifier for this supply chain trade line item.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A subordinate trade line item included in this supply chain trade line item.

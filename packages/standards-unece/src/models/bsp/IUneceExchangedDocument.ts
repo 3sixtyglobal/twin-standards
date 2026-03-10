@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceClause } from "./IUneceClause.js";
@@ -36,6 +37,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value for the acceptance of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/acceptanceDateTime
+	 * @format date-time
 	 */
 	acceptanceDateTime?: string;
 
@@ -43,7 +45,7 @@ export interface IUneceExchangedDocument {
 	 * An additional identifier of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/additionalId
 	 */
-	additionalId?: string;
+	additionalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A party representing another party for this exchanged document.
@@ -84,6 +86,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value of a cancellation of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/cancellationDateTime
+	 * @format date-time
 	 */
 	cancellationDateTime?: string;
 
@@ -126,6 +129,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value of a creation of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -133,7 +137,7 @@ export interface IUneceExchangedDocument {
 	 * A unique identifier, for customs purposes, for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/customsId
 	 */
-	customsId?: string;
+	customsId?: string | IJsonLdValueObject;
 
 	/**
 	 * A textual description of this exchanged document.
@@ -199,6 +203,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value when the first version of this exchanged document was issued.
 	 * @see https://vocabulary.uncefact.org/firstVersionIssueDateTime
+	 * @format date-time
 	 */
 	firstVersionIssueDateTime?: string;
 
@@ -213,7 +218,7 @@ export interface IUneceExchangedDocument {
 	 * The unique global identifier for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * Header information, expressed as text, for this exchanged document.
@@ -225,7 +230,7 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A note included in this exchanged document.
@@ -242,6 +247,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -261,13 +267,13 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier of a specific item in this exchanged document.
 	 * @see https://vocabulary.uncefact.org/itemIdentificationId
 	 */
-	itemIdentificationId?: string;
+	itemIdentificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique identifier for a language used in this exchanged document.
 	 * @see https://vocabulary.uncefact.org/languageId
 	 */
-	languageId?: string;
+	languageId?: string | IJsonLdValueObject;
 
 	/**
 	 * The count of the number of lines in this exchanged document.
@@ -328,7 +334,7 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier of a specific page of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/pageId
 	 */
-	pageId?: string;
+	pageId?: string | IJsonLdValueObject;
 
 	/**
 	 * A platform provider party specified for this exchanged document.
@@ -340,7 +346,7 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier of the previous revision of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/previousRevisionId
 	 */
-	previousRevisionId?: string;
+	previousRevisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The purpose, expressed as text, of this exchanged document.
@@ -352,7 +358,7 @@ export interface IUneceExchangedDocument {
 	 * A unique recipient assigned identifier for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/recipientAssignedId
 	 */
-	recipientAssignedId?: string;
+	recipientAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A trade party that receives this exchanged document.
@@ -369,6 +375,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * A date, time, date time, or other date time value of a rejection response of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/rejectionResponseDateTime
+	 * @format date-time
 	 */
 	rejectionResponseDateTime?: string;
 
@@ -381,6 +388,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * A date, time, date time, or other date time value of a response of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/responseDateTime
+	 * @format date-time
 	 */
 	responseDateTime?: string;
 
@@ -393,6 +401,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value for the revision of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/revisionDateTime
+	 * @format date-time
 	 */
 	revisionDateTime?: string;
 
@@ -400,7 +409,7 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier of the revision of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/revisionId
 	 */
-	revisionId?: string;
+	revisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The second signature, also known as the first counter signature, that has been authenticated on this exchanged document
@@ -413,7 +422,7 @@ export interface IUneceExchangedDocument {
 	 * A unique sender assigned identifier for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/senderAssignedId
 	 */
-	senderAssignedId?: string;
+	senderAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The party that sends this exchanged document.
@@ -431,6 +440,7 @@ export interface IUneceExchangedDocument {
 	 * The date, time, date time or other date time value for the formal submission of this exchanged document to a receiver by
 	 * a sender.
 	 * @see https://vocabulary.uncefact.org/submissionDateTime
+	 * @format date-time
 	 */
 	submissionDateTime?: string;
 
@@ -444,7 +454,7 @@ export interface IUneceExchangedDocument {
 	 * A unique suffix identifier for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/suffixId
 	 */
-	suffixId?: string;
+	suffixId?: string | IJsonLdValueObject;
 
 	/**
 	 * Summary information, expressed as text, for this exchanged document.
@@ -469,7 +479,7 @@ export interface IUneceExchangedDocument {
 	 * A unique trader assigned identifier for this exchanged document.
 	 * @see https://vocabulary.uncefact.org/traderAssignedId
 	 */
-	traderAssignedId?: string;
+	traderAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * An urgency, expressed as text, of this exchanged document.
@@ -487,5 +497,5 @@ export interface IUneceExchangedDocument {
 	 * The unique identifier for the version of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

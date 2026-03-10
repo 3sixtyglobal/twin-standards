@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
@@ -72,7 +73,7 @@ export interface IUneceProductCharacteristic {
 	 * A unique identifier for this product characteristic.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a measurement method for this product characteristic.
@@ -119,6 +120,7 @@ export interface IUneceProductCharacteristic {
 	/**
 	 * The value for this product characteristic expressed as a date, time, date time, or other date time value.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
+	 * @format date-time
 	 */
 	valueDateTime?: string;
 

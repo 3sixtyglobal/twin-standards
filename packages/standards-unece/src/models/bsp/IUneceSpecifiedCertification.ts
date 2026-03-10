@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceStandard } from "./IUneceStandard.js";
@@ -40,12 +41,14 @@ export interface IUneceSpecifiedCertification {
 	/**
 	 * An audit date, time, date time or other date time value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/auditDateTime
+	 * @format date-time
 	 */
 	auditDateTime?: string;
 
 	/**
 	 * The end date value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/endDateTime
+	 * @format date-time
 	 */
 	endDateTime?: string;
 
@@ -53,7 +56,7 @@ export interface IUneceSpecifiedCertification {
 	 * An identifier for this specified certification.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A referenced location related to this specified certification.
@@ -88,6 +91,7 @@ export interface IUneceSpecifiedCertification {
 	/**
 	 * The start date value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/startDateTime
+	 * @format date-time
 	 */
 	startDateTime?: string;
 
@@ -95,5 +99,5 @@ export interface IUneceSpecifiedCertification {
 	 * A Uniform Resource Identifier (URI) for this specified certification.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 }

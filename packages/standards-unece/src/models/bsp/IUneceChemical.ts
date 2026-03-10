@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceHazardousMaterial } from "./IUneceHazardousMaterial.js";
 import type { IUneceIngredientRangeMeasurement } from "./IUneceIngredientRangeMeasurement.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
@@ -67,7 +68,7 @@ export interface IUneceChemical {
 	 * An identifier of this distinct chemical.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of the mass of this distinct chemical.

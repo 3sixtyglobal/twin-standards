@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAgriculturalApplication } from "./IUneceAgriculturalApplication.js";
 import type { IUneceAgriculturalCertificate } from "./IUneceAgriculturalCertificate.js";
 import type { IUneceAgriculturalCharacteristic } from "./IUneceAgriculturalCharacteristic.js";
@@ -136,7 +137,7 @@ export interface IUneceProductBatch {
 	 * A buyer assigned identifier of this product batch.
 	 * @see https://vocabulary.uncefact.org/buyerAssignedId
 	 */
-	buyerAssignedId?: string;
+	buyerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A product batch component of this product batch.
@@ -159,6 +160,7 @@ export interface IUneceProductBatch {
 	/**
 	 * The date, time, date time or other date time value of the creation of this product batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
+	 * @format date-time
 	 */
 	creationDateTime?: string;
 
@@ -166,7 +168,7 @@ export interface IUneceProductBatch {
 	 * The DNA marker identifier of this product batch.
 	 * @see https://vocabulary.uncefact.org/dNAMarkerId
 	 */
-	dNAMarkerId?: string;
+	dNAMarkerId?: string | IJsonLdValueObject;
 
 	/**
 	 * A textual description of this product batch.
@@ -184,7 +186,7 @@ export interface IUneceProductBatch {
 	 * A global identifier of this product batch.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of the gross volume of this product batch.
@@ -202,13 +204,13 @@ export interface IUneceProductBatch {
 	 * The identifier for this product batch.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A manufacturer assigned identifier of this product batch.
 	 * @see https://vocabulary.uncefact.org/manufacturerAssignedId
 	 */
-	manufacturerAssignedId?: string;
+	manufacturerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * A measure of the mass of this product batch.
@@ -268,7 +270,7 @@ export interface IUneceProductBatch {
 	 * A seller assigned identifier of this product batch.
 	 * @see https://vocabulary.uncefact.org/sellerAssignedId
 	 */
-	sellerAssignedId?: string;
+	sellerAssignedId?: string | IJsonLdValueObject;
 
 	/**
 	 * The size, expressed as a measure, for this product batch.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { UneceGeopoliticalRegionTypeCodeList } from "../typeCodes/uneceGeopoliticalRegionTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -26,7 +27,7 @@ export interface IUneceGeopoliticalRegion {
 	 * The unique identifier for this trade geopolitical region.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A country included in this trade geopolitical region.

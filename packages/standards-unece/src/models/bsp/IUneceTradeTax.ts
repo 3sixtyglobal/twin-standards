@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
@@ -157,7 +158,7 @@ export interface IUneceTradeTax {
 	 * The unique identifier of the exemption authorization for this trade tax.
 	 * @see https://vocabulary.uncefact.org/exemptionAuthorizationId
 	 */
-	exemptionAuthorizationId?: string;
+	exemptionAuthorizationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not there is an exemption from this trade tax.
@@ -188,7 +189,7 @@ export interface IUneceTradeTax {
 	 * The identifier of this trade tax.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A monetary value of an amount being reported for information for this trade related tax, levy or duty.
@@ -212,13 +213,13 @@ export interface IUneceTradeTax {
 	 * The identifier of the local tax system for this trade tax.
 	 * @see https://vocabulary.uncefact.org/localTaxSystemId
 	 */
-	localTaxSystemId?: string;
+	localTaxSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the payment of this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/paymentId
 	 */
-	paymentId?: string;
+	paymentId?: string | IJsonLdValueObject;
 
 	/**
 	 * A location where this trade tax is applicable.
@@ -323,7 +324,7 @@ export interface IUneceTradeTax {
 	 * The unique tax exemption authority identifier for this trade tax.
 	 * @see https://vocabulary.uncefact.org/taxExemptionAuthorityId
 	 */
-	taxExemptionAuthorityId?: string;
+	taxExemptionAuthorityId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a reason for exemption from this trade related tax, levy or duty.

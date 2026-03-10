@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceCountryId } from "../lists/uneceCountryId.js";
 import type { UneceLocationFunctionCodeList } from "../lists/uneceLocationFunctionCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -32,7 +33,7 @@ export interface IUneceTradeLocation {
 	 * The unique identifier of the country sub-division for this trade location.
 	 * @see https://vocabulary.uncefact.org/countrySubDivisionId
 	 */
-	countrySubDivisionId?: string;
+	countrySubDivisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of a sub-division of a country location used or referenced in trade.
@@ -44,7 +45,7 @@ export interface IUneceTradeLocation {
 	 * The unique identifier for this location used or referenced in trade.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the type of trade location.
@@ -62,5 +63,5 @@ export interface IUneceTradeLocation {
 	 * The unique identifier of a country location used or referenced in trade.
 	 * @see https://vocabulary.uncefact.org/tradeLocationCountryId
 	 */
-	tradeLocationCountryId?: UneceCountryId;
+	tradeLocationCountryId?: string | IJsonLdValueObject;
 }

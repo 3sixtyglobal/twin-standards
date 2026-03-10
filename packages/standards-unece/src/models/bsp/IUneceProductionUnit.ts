@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceLocation } from "./IUneceLocation.js";
 import type { IUneceMachine } from "./IUneceMachine.js";
 import type { IUneceOrganizationalCertificate } from "./IUneceOrganizationalCertificate.js";
@@ -87,13 +88,13 @@ export interface IUneceProductionUnit {
 	 * A global identifier of this facility production unit.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier of this facility production unit.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An input product batch applicable to this facility production unit.

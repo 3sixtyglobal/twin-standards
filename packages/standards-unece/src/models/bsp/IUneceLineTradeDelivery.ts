@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceConsignment } from "./IUneceConsignment.js";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDangerousGoods } from "./IUneceDangerousGoods.js";
@@ -121,6 +122,7 @@ export interface IUneceLineTradeDelivery {
 	/**
 	 * The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDateTime
+	 * @format date-time
 	 */
 	buyerOrderDateTime?: string;
 
@@ -290,6 +292,7 @@ export interface IUneceLineTradeDelivery {
 	 * The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade
 	 * delivery.
 	 * @see https://vocabulary.uncefact.org/goodsOwnershipChangeDateTime
+	 * @format date-time
 	 */
 	goodsOwnershipChangeDateTime?: string;
 
@@ -303,7 +306,7 @@ export interface IUneceLineTradeDelivery {
 	 * An identifier, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Packaging included, at line level, in this trade delivery.
@@ -411,6 +414,7 @@ export interface IUneceLineTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at line level, when this delivery is available for
 	 * pick-up.
 	 * @see https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
+	 * @format date-time
 	 */
 	pickUpAvailabilityDateTime?: string;
 
@@ -604,7 +608,7 @@ export interface IUneceLineTradeDelivery {
 	 * A subordinate identifier, at line level, for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/subordinateId
 	 */
-	subordinateId?: string;
+	subordinateId?: string | IJsonLdValueObject;
 
 	/**
 	 * A supply (replenishment) schedule, specified at line level, for this trade delivery.
@@ -622,6 +626,7 @@ export interface IUneceLineTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at line level, when this trade delivery is delivered to
 	 * the ultimate ship to party.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
+	 * @format date-time
 	 */
 	ultimateShipToDeliveryDateTime?: string;
 

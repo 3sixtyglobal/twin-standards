@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceCalculatedPrice } from "./IUneceCalculatedPrice.js";
 import type { IUneceComplexDescription } from "./IUneceComplexDescription.js";
@@ -67,7 +68,7 @@ export interface IUneceBasicWorkItem {
 	 * The unique identifier for this basic work item.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The index, expressed as text, to be used for this basic work item.
@@ -85,7 +86,7 @@ export interface IUneceBasicWorkItem {
 	 * The unique identifier of a price list item for this basic work item.
 	 * @see https://vocabulary.uncefact.org/priceListItemId
 	 */
-	priceListItemId?: string;
+	priceListItemId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the primary classification for this basic work item.
@@ -97,7 +98,7 @@ export interface IUneceBasicWorkItem {
 	 * The unique identifier of another work item referenced by this basic work item.
 	 * @see https://vocabulary.uncefact.org/referenceId
 	 */
-	referenceId?: string;
+	referenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a requested action for this basic work item.

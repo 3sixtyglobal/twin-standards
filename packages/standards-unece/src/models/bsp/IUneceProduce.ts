@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCropProduceBatch } from "./IUneceCropProduceBatch.js";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { UneceProduceTypeCodeList } from "../typeCodes/uneceProduceTypeCodeList.js";
@@ -39,7 +40,7 @@ export interface IUneceProduce {
 	 * An identifier for this crop produce.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An input batch crop produce, such as seed or fertilizer, specified for this crop produce.

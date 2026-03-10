@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCircle } from "./IUneceCircle.js";
 import type { IUneceCoordinateReferenceSystem } from "./IUneceCoordinateReferenceSystem.js";
 import type { IUneceCoordinateSourceSystem } from "./IUneceCoordinateSourceSystem.js";
@@ -42,7 +43,7 @@ export interface IUneceGeographicalFeature {
 	 * The identifier of the coordinate reference system for this geographical feature.
 	 * @see https://vocabulary.uncefact.org/coordinateReferenceSystemId
 	 */
-	coordinateReferenceSystemId?: string;
+	coordinateReferenceSystemId?: string | IJsonLdValueObject;
 
 	/**
 	 * The textual description of this specified geographical feature.
@@ -54,7 +55,7 @@ export interface IUneceGeographicalFeature {
 	 * The identifier for this specified geographical feature.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A circle included in this specified geographical feature.

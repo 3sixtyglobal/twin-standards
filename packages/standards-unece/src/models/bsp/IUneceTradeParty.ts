@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceAuthentication } from "./IUneceAuthentication.js";
@@ -213,7 +214,7 @@ export interface IUneceTradeParty {
 	 * The unique Commercial And Government Entity (CAGE) identifier for this trade party.
 	 * @see https://vocabulary.uncefact.org/cAGEId
 	 */
-	cAGEId?: string;
+	cAGEId?: string | IJsonLdValueObject;
 
 	/**
 	 * A chain name, expressed as text, for this trade party.
@@ -249,13 +250,13 @@ export interface IUneceTradeParty {
 	 * The unique Department Of Defense Activity Address Code (DODAAC) identifier for this trade party.
 	 * @see https://vocabulary.uncefact.org/dODAACId
 	 */
-	dODAACId?: string;
+	dODAACId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party.
 	 * @see https://vocabulary.uncefact.org/dUNSId
 	 */
-	dUNSId?: string;
+	dUNSId?: string | IJsonLdValueObject;
 
 	/**
 	 * A trade contact defined for this trade party.
@@ -297,19 +298,19 @@ export interface IUneceTradeParty {
 	 * A Global Location Number (GLN) identifier for this trade party.
 	 * @see https://vocabulary.uncefact.org/gLNId
 	 */
-	gLNId?: string;
+	gLNId?: string | IJsonLdValueObject;
 
 	/**
 	 * A globally unique identifier of this trade party.
 	 * @see https://vocabulary.uncefact.org/globalId
 	 */
-	globalId?: string;
+	globalId?: string | IJsonLdValueObject;
 
 	/**
 	 * A unique identifier of this trade party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A referenced notification document issued to this trade party.
@@ -381,13 +382,13 @@ export interface IUneceTradeParty {
 	 * The unique Routing Identifier Code (RIC) identifier for this trade party.
 	 * @see https://vocabulary.uncefact.org/rICId
 	 */
-	rICId?: string;
+	rICId?: string | IJsonLdValueObject;
 
 	/**
 	 * A registered identifier of this trade party.
 	 * @see https://vocabulary.uncefact.org/registeredId
 	 */
-	registeredId?: string;
+	registeredId?: string | IJsonLdValueObject;
 
 	/**
 	 * A product batch related to this trade party.

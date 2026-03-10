@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceProcessWorkItemTypeCodeList } from "../typeCodes/uneceProcessWorkItemTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -38,7 +39,7 @@ export interface IUneceProcessWorkItem {
 	 * The identifier of this process work item.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the primary classification for this process work item.

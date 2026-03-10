@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceSection } from "./IUneceSection.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -26,7 +27,7 @@ export interface IUneceLogisticsLabel {
 	 * The unique identifier of this logistics label.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A section included in this logistics label.
@@ -50,13 +51,13 @@ export interface IUneceLogisticsLabel {
 	 * The unique identifier of the end of a series of logistics labels.
 	 * @see https://vocabulary.uncefact.org/seriesEndId
 	 */
-	seriesEndId?: string;
+	seriesEndId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the start of a series of logistics labels.
 	 * @see https://vocabulary.uncefact.org/seriesStartId
 	 */
-	seriesStartId?: string;
+	seriesStartId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the size of this logistics label.

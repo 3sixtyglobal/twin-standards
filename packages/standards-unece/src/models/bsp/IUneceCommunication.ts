@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceCommunicationChannelCodeList } from "../lists/uneceCommunicationChannelCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -62,7 +63,7 @@ export interface IUneceCommunication {
 	 * The Uniform Resource Identifier (URI) of the email for this universal communication.
 	 * @see https://vocabulary.uncefact.org/emailURIId
 	 */
-	emailURIId?: string;
+	emailURIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The extension number, expressed as text, assigned to this universal communication number to enable a caller to reach a
@@ -94,7 +95,7 @@ export interface IUneceCommunication {
 	 * The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the use of this universal communication such as for business purposes or private.
@@ -106,5 +107,5 @@ export interface IUneceCommunication {
 	 * The Uniform Resource Identifier (URI) of the website for this universal communication.
 	 * @see https://vocabulary.uncefact.org/websiteURIId
 	 */
-	websiteURIId?: string;
+	websiteURIId?: string | IJsonLdValueObject;
 }

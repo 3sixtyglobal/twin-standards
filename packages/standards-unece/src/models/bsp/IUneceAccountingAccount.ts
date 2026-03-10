@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceAccountingAccountTypeCodeList } from "../lists/uneceAccountingAccountTypeCodeList.js";
 import type { UneceAccountingAmountTypeCodeList } from "../lists/uneceAccountingAmountTypeCodeList.js";
 import type { UneceAccountingDocumentCodeList } from "../lists/uneceAccountingDocumentCodeList.js";
@@ -59,19 +60,19 @@ export interface IUneceAccountingAccount {
 	 * The unique identifier for this trade accounting account.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the main accounts chart for this trade accounting account.
 	 * @see https://vocabulary.uncefact.org/mainAccountsChartId
 	 */
-	mainAccountsChartId?: string;
+	mainAccountsChartId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique identifier of the main accounts chart reference for this trade accounting account.
 	 * @see https://vocabulary.uncefact.org/mainAccountsChartReferenceId
 	 */
-	mainAccountsChartReferenceId?: string;
+	mainAccountsChartReferenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of this trade accounting account.
@@ -83,5 +84,5 @@ export interface IUneceAccountingAccount {
 	 * The unique identifier of the sub account for this trade accounting account.
 	 * @see https://vocabulary.uncefact.org/subAccountId
 	 */
-	subAccountId?: string;
+	subAccountId?: string | IJsonLdValueObject;
 }

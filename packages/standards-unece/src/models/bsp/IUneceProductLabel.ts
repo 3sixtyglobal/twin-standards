@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -24,6 +25,7 @@ export interface IUneceProductLabel {
 	/**
 	 * The date, time, date time, or other date time value, for the attachment of this product label.
 	 * @see https://vocabulary.uncefact.org/attachmentDateTime
+	 * @format date-time
 	 */
 	attachmentDateTime?: string;
 
@@ -31,7 +33,7 @@ export interface IUneceProductLabel {
 	 * The barcode identifier of this product label.
 	 * @see https://vocabulary.uncefact.org/barcodeId
 	 */
-	barcodeId?: string;
+	barcodeId?: string | IJsonLdValueObject;
 
 	/**
 	 * The brand name, expressed as text, on this product label.
@@ -49,7 +51,7 @@ export interface IUneceProductLabel {
 	 * An identifier of this product label.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A sustainability assertion included on this product label.
@@ -73,13 +75,13 @@ export interface IUneceProductLabel {
 	 * The identifier of the end of a series of product labels.
 	 * @see https://vocabulary.uncefact.org/seriesEndId
 	 */
-	seriesEndId?: string;
+	seriesEndId?: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the start of a series of product labels.
 	 * @see https://vocabulary.uncefact.org/seriesStartId
 	 */
-	seriesStartId?: string;
+	seriesStartId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the size of this product label.

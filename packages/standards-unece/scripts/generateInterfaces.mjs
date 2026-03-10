@@ -195,7 +195,9 @@ async function generateClass(
 
 	for (const prop of propData) {
 		propertyLines.push('');
-		propertyLines.push(...createComment(`${prop.description}`, '\t', prop.see, prop.isDeprecated));
+		propertyLines.push(
+			...createComment(`${prop.description}`, '\t', prop.see, prop.isDeprecated, prop.format)
+		);
 		const propString = `\t${prop.key}${prop.required ? '' : '?'}: ${prop.type};`;
 		propertyLines.push(propString);
 	}
@@ -247,11 +249,14 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 
 		let propType = propItem['schema:rangeIncludes']['@id'];
 
-		const title = getCCTSTitle(typeName, propItem, propKey);
+		const cctsTitle = getCCTSTitle(typeName, propItem, propKey);
 		let csvMappingProp;
-		if (csvMapping[title]) {
-			csvMappingProp = csvMapping[title];
+		if (csvMapping[cctsTitle]) {
+			csvMappingProp = csvMapping[cctsTitle];
 		}
+
+		const isIdentifier = cctsTitle?.endsWith('.Identifier');
+		const isDateTime = cctsTitle?.endsWith('.DateTime');
 
 		const isRequired = csvMappingProp?.occurrenceMin === '1';
 		const isArray = csvMappingProp?.occurrenceMax === 'unbounded';
@@ -320,13 +325,22 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 			});
 		}
 
+		if (isIdentifier) {
+			propType = 'string | IJsonLdValueObject';
+			imports.push({
+				type: 'IJsonLdValueObject',
+				package: '@twin.org/data-json-ld'
+			});
+		}
+
 		props.push({
 			key: propKey,
 			description: propDescription,
 			type: propType,
 			required: isRequired ?? false,
 			see: `https://vocabulary.uncefact.org/${propKey}`,
-			isDeprecated: isPropDeprecated
+			isDeprecated: isPropDeprecated,
+			format: isDateTime ? 'date-time' : ''
 		});
 	}
 
@@ -644,7 +658,9 @@ async function generateTsToSchemaJson(generatedTypes) {
 
 	existingContent.baseUrl = 'https://schema.twindev.org/unece/';
 	existingContent.types = types;
-	existingContent.externalReferences = {};
+	existingContent.externalReferences = {
+		'IJsonLd(.*)': 'https://schema.twindev.org/json-ld/JsonLd$1'
+	};
 	existingContent.autoExpandTypes = ['UneceContextType'];
 
 	await saveJSON(tsToSchemaPath, existingContent);
@@ -749,7 +765,7 @@ async function writeCodeFile(outputDir, typeName, importLines, typeLines) {
 /**
  * Create a comment with word wrapping.
  */
-function createComment(text, prefix = '', url = '', isDeprecated = false) {
+function createComment(text, prefix = '', url = '', isDeprecated = false, format = '') {
 	const commentLines = [];
 	commentLines.push(`${prefix}/**`);
 	if (Array.isArray(text)) {
@@ -764,6 +780,9 @@ function createComment(text, prefix = '', url = '', isDeprecated = false) {
 	}
 	if (isDeprecated) {
 		commentLines.push(`${prefix} * @deprecated`);
+	}
+	if (format?.length) {
+		commentLines.push(`${prefix} * @format ${format}`);
 	}
 	commentLines.push(`${prefix} */`);
 	return commentLines;

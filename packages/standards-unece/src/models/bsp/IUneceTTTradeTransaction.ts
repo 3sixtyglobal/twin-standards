@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -25,17 +26,17 @@ export interface IUneceTTTradeTransaction {
 	 * The identifier for this TT trade transaction.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * The identifier for the type of TT trade transaction.
 	 * @see https://vocabulary.uncefact.org/typeId
 	 */
-	typeId?: string;
+	typeId?: string | IJsonLdValueObject;
 
 	/**
 	 * The Uniform Resource Identifier (URI) for this TT trade transaction.
 	 * @see https://vocabulary.uncefact.org/uRIId
 	 */
-	uRIId?: string;
+	uRIId?: string | IJsonLdValueObject;
 }

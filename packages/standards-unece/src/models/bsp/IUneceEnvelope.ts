@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUnecePayload } from "./IUnecePayload.js";
 import type { IUneceXHEDocument } from "./IUneceXHEDocument.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -26,7 +27,7 @@ export interface IUneceEnvelope {
 	 * The customization identifier for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/customizationId
 	 */
-	customizationId?: string;
+	customizationId?: string | IJsonLdValueObject;
 
 	/**
 	 * The payload included in this XHE envelope.
@@ -50,17 +51,17 @@ export interface IUneceEnvelope {
 	 * The profile execution identifier for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/profileExecutionId
 	 */
-	profileExecutionId?: string;
+	profileExecutionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The profile identifier for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/profileId
 	 */
-	profileId?: string;
+	profileId?: string | IJsonLdValueObject;
 
 	/**
 	 * The version identifier for this XHE envelope.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId: string;
+	versionId: string | IJsonLdValueObject;
 }

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAvailablePeriod } from "./IUneceAvailablePeriod.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -26,7 +27,7 @@ export interface IUneceMarketplace {
 	 * The identifier for this specified marketplace.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, for this specified marketplace.
@@ -56,5 +57,5 @@ export interface IUneceMarketplace {
 	 * A website Uniform Resource Identifier (URI) for this specified marketplace.
 	 * @see https://vocabulary.uncefact.org/websiteURIId
 	 */
-	websiteURIId?: string;
+	websiteURIId?: string | IJsonLdValueObject;
 }

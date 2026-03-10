@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCustomsValuation } from "./IUneceCustomsValuation.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
@@ -88,11 +89,12 @@ export interface IUneceExchangedDeclaration {
 	 * An identifier for this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time or other date time value for the issuance of this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -100,6 +102,7 @@ export interface IUneceExchangedDeclaration {
 	 * The date, time, date time or other date time value when the items which are a subject of this exchanged declaration
 	 * enter a jurisdiction, such as the actual date of arrival of a means of transport.
 	 * @see https://vocabulary.uncefact.org/jurisdictionEntryDateTime
+	 * @format date-time
 	 */
 	jurisdictionEntryDateTime?: string;
 
@@ -155,5 +158,5 @@ export interface IUneceExchangedDeclaration {
 	 * The identifier for the version of this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/versionId
 	 */
-	versionId?: string;
+	versionId?: string | IJsonLdValueObject;
 }

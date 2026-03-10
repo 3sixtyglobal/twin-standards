@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceRange } from "./IUneceRange.js";
 import type { UneceOperationalParameterTypeCodeList } from "../typeCodes/uneceOperationalParameterTypeCodeList.js";
@@ -45,7 +46,7 @@ export interface IUneceOperationalParameter {
 	 * The identifier of this operational parameter.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of this operational parameter.

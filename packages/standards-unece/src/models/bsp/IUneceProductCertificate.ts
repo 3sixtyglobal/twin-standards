@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssertion } from "./IUneceAssertion.js";
 import type { IUneceBinaryFile } from "./IUneceBinaryFile.js";
 import type { IUneceProductCharacteristic } from "./IUneceProductCharacteristic.js";
@@ -31,6 +32,7 @@ export interface IUneceProductCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this product certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
+	 * @format date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -91,6 +93,7 @@ export interface IUneceProductCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this product certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -98,11 +101,12 @@ export interface IUneceProductCertificate {
 	 * The identifier for this product certificate.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The date, time, date time, or other date time value when this product certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
+	 * @format date-time
 	 */
 	issueDateTime?: string;
 
@@ -116,7 +120,7 @@ export interface IUneceProductCertificate {
 	 * The identifier for the party issuing this product certificate.
 	 * @see https://vocabulary.uncefact.org/issuingPartyId
 	 */
-	issuingPartyId?: string;
+	issuingPartyId?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the purpose of this product certificate.
@@ -127,6 +131,7 @@ export interface IUneceProductCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this product certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
+	 * @format date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

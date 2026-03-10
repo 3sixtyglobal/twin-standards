@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceTradeAddress } from "./IUneceTradeAddress.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -49,7 +50,7 @@ export interface IUneceSpecifiedLocation {
 	 * The identifier of a URI (Uniform Resource Identifier) for a map of this specified location.
 	 * @see https://vocabulary.uncefact.org/mapURIId
 	 */
-	mapURIId?: string;
+	mapURIId?: string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, for this specified location.

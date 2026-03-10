@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceTechnicalCharacteristic } from "./IUneceTechnicalCharacteristic.js";
 import type { IUneceTTAnimal } from "./IUneceTTAnimal.js";
 import type { IUneceTTLocation } from "./IUneceTTLocation.js";
@@ -28,7 +29,7 @@ export interface IUneceTTParty {
 	 * An identifier for this TT party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier: string;
+	identifier: string | IJsonLdValueObject;
 
 	/**
 	 * A technical characteristic managed by this TT party.
@@ -53,7 +54,7 @@ export interface IUneceTTParty {
 	 * corporation has its place of incorporation.
 	 * @see https://vocabulary.uncefact.org/residenceCountryId
 	 */
-	residenceCountryId?: string;
+	residenceCountryId?: string | IJsonLdValueObject;
 
 	/**
 	 * A tracking animal specified for this TT party.
@@ -77,5 +78,5 @@ export interface IUneceTTParty {
 	 * An identifier of the type for this TT party.
 	 * @see https://vocabulary.uncefact.org/typeId
 	 */
-	typeId?: string;
+	typeId?: string | IJsonLdValueObject;
 }

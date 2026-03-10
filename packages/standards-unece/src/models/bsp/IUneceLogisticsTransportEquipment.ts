@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAirFlowUnitMeasureType } from "./IUneceAirFlowUnitMeasureType.js";
 import type { IUneceAssociatedTransportEquipment } from "./IUneceAssociatedTransportEquipment.js";
 import type { IUneceAttachedTransportEquipment } from "./IUneceAttachedTransportEquipment.js";
@@ -153,7 +154,7 @@ export interface IUneceLogisticsTransportEquipment {
 	 * A carrier assigned booking identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/carrierAssignedBookingId
 	 */
-	carrierAssignedBookingId?: string;
+	carrierAssignedBookingId?: string | IJsonLdValueObject;
 
 	/**
 	 * A carrier party for this piece of logistics transport equipment.
@@ -172,7 +173,7 @@ export interface IUneceLogisticsTransportEquipment {
 	 * The consignee assigned consignment identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/consigneeAssignedConsignmentId
 	 */
-	consigneeAssignedConsignmentId?: string;
+	consigneeAssignedConsignmentId?: string | IJsonLdValueObject;
 
 	/**
 	 * A consolidation event specifying when and where this piece of logistics transport equipment will be, or has been,
@@ -257,7 +258,7 @@ export interface IUneceLogisticsTransportEquipment {
 	 * The unique identifier of this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this piece of logistics transport equipment.
@@ -359,6 +360,7 @@ export interface IUneceLogisticsTransportEquipment {
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/manufacturingDateTime
+	 * @format date-time
 	 */
 	manufacturingDateTime?: string;
 
@@ -460,7 +462,7 @@ export interface IUneceLogisticsTransportEquipment {
 	 * The release identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/releaseId
 	 */
-	releaseId?: string;
+	releaseId?: string | IJsonLdValueObject;
 
 	/**
 	 * The release restriction, expressed as text, for this piece of logistics transport equipment.
@@ -564,7 +566,7 @@ export interface IUneceLogisticsTransportEquipment {
 	 * The stowage position identifier for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/stowagePositionId
 	 */
-	stowagePositionId?: string;
+	stowagePositionId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the category for this piece of logistics transport equipment, such as container or trailer.

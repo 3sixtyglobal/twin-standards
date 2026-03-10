@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceMeasureType } from "./IUneceMeasureType.js";
 import type { IUneceQuantityType } from "./IUneceQuantityType.js";
 import type { UneceRangeTypeCodeList } from "../typeCodes/uneceRangeTypeCodeList.js";
@@ -27,7 +28,7 @@ export interface IUneceRange {
 	 * The identifier of the end of this specified range.
 	 * @see https://vocabulary.uncefact.org/endId
 	 */
-	endId?: string;
+	endId?: string | IJsonLdValueObject;
 
 	/**
 	 * The measure of the maximum value for this specified range.
@@ -45,7 +46,7 @@ export interface IUneceRange {
 	 * The identifier of the start of this specified range.
 	 * @see https://vocabulary.uncefact.org/startId
 	 */
-	startId?: string;
+	startId?: string | IJsonLdValueObject;
 
 	/**
 	 * The total number of items in this specified range.

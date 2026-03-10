@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCommunicationEvent } from "./IUneceCommunicationEvent.js";
 import type { IUneceEquipment } from "./IUneceEquipment.js";
 import type { IUneceGeographicalCoordinate } from "./IUneceGeographicalCoordinate.js";
@@ -34,7 +35,7 @@ export interface IUneceIOTDevice {
 	 * The identifier for the asset, such as a container, to which this monitoring IOT device is attached.
 	 * @see https://vocabulary.uncefact.org/attachedAssetId
 	 */
-	attachedAssetId?: string;
+	attachedAssetId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the communication capability of this monitoring IOT device.
@@ -58,7 +59,7 @@ export interface IUneceIOTDevice {
 	 * An identifier for this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device.
@@ -76,6 +77,7 @@ export interface IUneceIOTDevice {
 	 * The date, time, date time or other date time value of the latest received signal for this monitoring IOT device, from
 	 * the perspective of the receiver.
 	 * @see https://vocabulary.uncefact.org/latestReceivedSignalDateTime
+	 * @format date-time
 	 */
 	latestReceivedSignalDateTime?: string;
 
@@ -89,7 +91,7 @@ export interface IUneceIOTDevice {
 	 * A model identifier for this monitoring IOT device.
 	 * @see https://vocabulary.uncefact.org/modelId
 	 */
-	modelId?: string;
+	modelId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the operational status, such as broken, stolen, unpaired, inactive of this monitoring IOT device.

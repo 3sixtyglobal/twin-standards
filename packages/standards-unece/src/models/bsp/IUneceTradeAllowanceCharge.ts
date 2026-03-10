@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCurrencyExchange } from "./IUneceCurrencyExchange.js";
@@ -55,6 +56,7 @@ export interface IUneceTradeAllowanceCharge {
 	/**
 	 * A date, time, date time, or other date time value applied to the trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/appliedDateTime
+	 * @format date-time
 	 */
 	appliedDateTime?: string;
 
@@ -104,7 +106,7 @@ export interface IUneceTradeAllowanceCharge {
 	 * The unique identifier for this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The indication of whether or not this trade allowance charge is prepaid.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCreditorFinancialAccount } from "./IUneceCreditorFinancialAccount.js";
 import type { IUneceFinancingFinancialAccount } from "./IUneceFinancingFinancialAccount.js";
 import type { IUneceProprietaryIdentity } from "./IUneceProprietaryIdentity.js";
@@ -36,7 +37,7 @@ export interface IUneceRequestingParty {
 	 * Codes) for this requesting party.
 	 * @see https://vocabulary.uncefact.org/bEIId
 	 */
-	bEIId?: string;
+	bEIId?: string | IJsonLdValueObject;
 
 	/**
 	 * The textual description of this requesting party.
@@ -48,7 +49,7 @@ export interface IUneceRequestingParty {
 	 * The unique identifier for this requesting party.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a language for this requesting party.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceDigitalMethodTypeCodeList } from "../typeCodes/uneceDigitalMethodTypeCodeList.js";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
@@ -48,6 +49,7 @@ export interface IUneceDigitalMethod {
 	/**
 	 * The expiry date or date time of this digital method used for payment.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
+	 * @format date-time
 	 */
 	expiryDateTime?: string;
 
@@ -55,7 +57,7 @@ export interface IUneceDigitalMethod {
 	 * The identifier of the digital method used for payment.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * An issuing company name, expressed as text, for this digital method used for payment.
@@ -72,6 +74,7 @@ export interface IUneceDigitalMethod {
 	/**
 	 * The date or date time from when this digital method used for payment is valid.
 	 * @see https://vocabulary.uncefact.org/validFromDateTime
+	 * @format date-time
 	 */
 	validFromDateTime?: string;
 

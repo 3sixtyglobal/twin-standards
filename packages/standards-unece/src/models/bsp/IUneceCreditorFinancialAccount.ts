@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { UneceContextType } from "../uneceContextType.js";
 import type { UneceTypes } from "../uneceTypes.js";
 
@@ -31,7 +32,7 @@ export interface IUneceCreditorFinancialAccount {
 	 * creditor financial account.
 	 * @see https://vocabulary.uncefact.org/bBANId
 	 */
-	bBANId?: string;
+	bBANId?: string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the type of creditor financial account.
@@ -49,13 +50,13 @@ export interface IUneceCreditorFinancialAccount {
 	 * The unique International Bank Account Number (IBAN) identifier for this creditor financial account.
 	 * @see https://vocabulary.uncefact.org/iBANId
 	 */
-	iBANId?: string;
+	iBANId?: string | IJsonLdValueObject;
 
 	/**
 	 * The unique proprietary identifier for this creditor financial account.
 	 * @see https://vocabulary.uncefact.org/proprietaryId
 	 */
-	proprietaryId?: string;
+	proprietaryId?: string | IJsonLdValueObject;
 
 	/**
 	 * The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor
@@ -69,5 +70,5 @@ export interface IUneceCreditorFinancialAccount {
 	 * financial account.
 	 * @see https://vocabulary.uncefact.org/uPICId
 	 */
-	uPICId?: string;
+	uPICId?: string | IJsonLdValueObject;
 }

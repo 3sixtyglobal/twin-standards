@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceCommunication } from "./IUneceCommunication.js";
 import type { IUneceLogisticsLocation } from "./IUneceLogisticsLocation.js";
@@ -49,7 +50,7 @@ export interface IUneceService {
 	 * The contract identifier of this referenced transport service.
 	 * @see https://vocabulary.uncefact.org/contractId
 	 */
-	contractId?: string;
+	contractId?: string | IJsonLdValueObject;
 
 	/**
 	 * A logistics location specified for a delivery by this referenced transport service.
@@ -79,7 +80,7 @@ export interface IUneceService {
 	 * The unique identifier of this transport service.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this transport service.

@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAccountingAccount } from "./IUneceAccountingAccount.js";
 import type { IUneceAdvancePayment } from "./IUneceAdvancePayment.js";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
@@ -53,6 +54,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value when the book closing is due for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/closingBookDueDateTime
+	 * @format date-time
 	 */
 	closingBookDueDateTime?: string;
 
@@ -79,13 +81,13 @@ export interface IUneceHeaderTradeSettlement {
 	 * creditor to reference the financial transaction.
 	 * @see https://vocabulary.uncefact.org/creditorReferenceId
 	 */
-	creditorReferenceId?: string;
+	creditorReferenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * An identifier of the creditor reference issuer for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/creditorReferenceIssuerId
 	 */
-	creditorReferenceIssuerId?: string;
+	creditorReferenceIssuerId?: string | IJsonLdValueObject;
 
 	/**
 	 * A creditor reference type, expressed as text, for this header trade settlement.
@@ -151,6 +153,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value of the invoice in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceDateTime
+	 * @format date-time
 	 */
 	invoiceDateTime?: string;
 
@@ -187,6 +190,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/nextInvoiceDateTime
+	 * @format date-time
 	 */
 	nextInvoiceDateTime?: string;
 
@@ -325,6 +329,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value of the scheduled payment of this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/scheduledPaymentDateTime
+	 * @format date-time
 	 */
 	scheduledPaymentDateTime?: string;
 

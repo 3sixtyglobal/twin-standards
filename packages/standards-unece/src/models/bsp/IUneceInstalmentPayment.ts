@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAmountType } from "./IUneceAmountType.js";
 import type { IUneceFinancingRequestResultDocument } from "./IUneceFinancingRequestResultDocument.js";
 import type { UneceContextType } from "../uneceContextType.js";
@@ -26,6 +27,7 @@ export interface IUneceInstalmentPayment {
 	/**
 	 * The due date for this instalment payment.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
+	 * @format date-time
 	 */
 	dueDateTime?: string;
 
@@ -39,7 +41,7 @@ export interface IUneceInstalmentPayment {
 	 * The sequence identifier for this instalment payment.
 	 * @see https://vocabulary.uncefact.org/sequenceId
 	 */
-	sequenceId?: string;
+	sequenceId?: string | IJsonLdValueObject;
 
 	/**
 	 * The financing request result document specified for this instalment payment.

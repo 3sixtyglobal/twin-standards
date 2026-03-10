@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceAssessment } from "./IUneceAssessment.js";
 import type { IUneceChemical } from "./IUneceChemical.js";
 import type { IUneceGoodsCharacteristic } from "./IUneceGoodsCharacteristic.js";
@@ -92,7 +93,7 @@ export interface IUneceSpecifiedMaterial {
 	 * An identifier of the classification of this specified material.
 	 * @see https://vocabulary.uncefact.org/classificationId
 	 */
-	classificationId?: string;
+	classificationId?: string | IJsonLdValueObject;
 
 	/**
 	 * Component material for this specified material.
@@ -116,7 +117,7 @@ export interface IUneceSpecifiedMaterial {
 	 * An identifier of this specified material.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * Information, expressed as text, for this specified material.

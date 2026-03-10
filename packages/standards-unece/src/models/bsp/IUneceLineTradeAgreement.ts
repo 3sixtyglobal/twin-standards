@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 /* cSpell:disable */
 /* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IJsonLdValueObject } from "@twin.org/data-json-ld";
 import type { IUneceCountry } from "./IUneceCountry.js";
 import type { IUneceDeliveryTerms } from "./IUneceDeliveryTerms.js";
 import type { IUneceDocument } from "./IUneceDocument.js";
@@ -64,6 +65,7 @@ export interface IUneceLineTradeAgreement {
 	/**
 	 * The date, time, date time, or other date time value of approval by the buyer for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerApprovedDateTime
+	 * @format date-time
 	 */
 	buyerApprovedDateTime?: string;
 
@@ -168,7 +170,7 @@ export interface IUneceLineTradeAgreement {
 	 * An identifier for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/identifier
 	 */
-	identifier?: string;
+	identifier?: string | IJsonLdValueObject;
 
 	/**
 	 * The immediate previous price list document referenced in this line trade agreement.
@@ -440,7 +442,7 @@ export interface IUneceLineTradeAgreement {
 	 * An identifier for the revision of this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/revisionId
 	 */
-	revisionId?: string;
+	revisionId?: string | IJsonLdValueObject;
 
 	/**
 	 * A sales conditions document referenced by this line trade agreement.
