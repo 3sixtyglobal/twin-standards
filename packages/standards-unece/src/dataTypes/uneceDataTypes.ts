@@ -1,5 +1,7 @@
-// Copyright 2024 IOTA Stiftung.
+// Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+/* cSpell:disable */
+/* This file is auto-generated with the generateInterfaces script, do not edit manually. */
 import { DataTypeHelper } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { UneceContexts } from "../models/uneceContexts.js";
@@ -28,6 +30,7 @@ import UneceAccountingPeriodFunctionCodeListSchema from "../schemas/UneceAccount
 import UneceAccountingPerquisiteCodeListSchema from "../schemas/UneceAccountingPerquisiteCodeList.json" with { type: "json" };
 import UneceAccountingVoucherMediumCodeListSchema from "../schemas/UneceAccountingVoucherMediumCodeList.json" with { type: "json" };
 import UneceAccreditationSchema from "../schemas/UneceAccreditation.json" with { type: "json" };
+import UneceAccreditationTypeCodeListSchema from "../schemas/UneceAccreditationTypeCodeList.json" with { type: "json" };
 import UneceAcknowledgementCodeListSchema from "../schemas/UneceAcknowledgementCodeList.json" with { type: "json" };
 import UneceAcknowledgementDocumentSchema from "../schemas/UneceAcknowledgementDocument.json" with { type: "json" };
 import UneceAdditionalPostponementCodeListSchema from "../schemas/UneceAdditionalPostponementCodeList.json" with { type: "json" };
@@ -38,11 +41,14 @@ import UneceAdvancePaymentSchema from "../schemas/UneceAdvancePayment.json" with
 import UneceAgriculturalApplicationSchema from "../schemas/UneceAgriculturalApplication.json" with { type: "json" };
 import UneceAgriculturalCertificateSchema from "../schemas/UneceAgriculturalCertificate.json" with { type: "json" };
 import UneceAgriculturalCharacteristicSchema from "../schemas/UneceAgriculturalCharacteristic.json" with { type: "json" };
+import UneceAgriculturalCharacteristicTypeCodeListSchema from "../schemas/UneceAgriculturalCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceAgriculturalProcessSchema from "../schemas/UneceAgriculturalProcess.json" with { type: "json" };
+import UneceAgriculturalProcessTypeCodeListSchema from "../schemas/UneceAgriculturalProcessTypeCodeList.json" with { type: "json" };
 import UneceAgriculturalZoneAreaSchema from "../schemas/UneceAgriculturalZoneArea.json" with { type: "json" };
 import UneceAirFlowUnitMeasureCodeSchema from "../schemas/UneceAirFlowUnitMeasureCode.json" with { type: "json" };
 import UneceAirFlowUnitMeasureTypeSchema from "../schemas/UneceAirFlowUnitMeasureType.json" with { type: "json" };
 import UneceAllergySchema from "../schemas/UneceAllergy.json" with { type: "json" };
+import UneceAllergyTypeCodeListSchema from "../schemas/UneceAllergyTypeCodeList.json" with { type: "json" };
 import UneceAllowanceChargeIdCodeListSchema from "../schemas/UneceAllowanceChargeIdCodeList.json" with { type: "json" };
 import UneceAllowanceChargeReasonCodeListSchema from "../schemas/UneceAllowanceChargeReasonCodeList.json" with { type: "json" };
 import UneceAlternateCurrencyAmountTypeCodeListSchema from "../schemas/UneceAlternateCurrencyAmountTypeCodeList.json" with { type: "json" };
@@ -54,6 +60,7 @@ import UneceAnimalBatchSchema from "../schemas/UneceAnimalBatch.json" with { typ
 import UneceAnimalCertificateSchema from "../schemas/UneceAnimalCertificate.json" with { type: "json" };
 import UneceAnimalCertificationSchema from "../schemas/UneceAnimalCertification.json" with { type: "json" };
 import UneceAnimalHoldingEventSchema from "../schemas/UneceAnimalHoldingEvent.json" with { type: "json" };
+import UneceAnimalHoldingEventTypeCodeListSchema from "../schemas/UneceAnimalHoldingEventTypeCodeList.json" with { type: "json" };
 import UneceAnimalIdentitySchema from "../schemas/UneceAnimalIdentity.json" with { type: "json" };
 import UneceAppliedAllowanceChargeSchema from "../schemas/UneceAppliedAllowanceCharge.json" with { type: "json" };
 import UneceAppliedChemicalTreatmentSchema from "../schemas/UneceAppliedChemicalTreatment.json" with { type: "json" };
@@ -61,6 +68,7 @@ import UneceAppliedTaxSchema from "../schemas/UneceAppliedTax.json" with { type:
 import UneceAreaSchema from "../schemas/UneceArea.json" with { type: "json" };
 import UneceAssertionSchema from "../schemas/UneceAssertion.json" with { type: "json" };
 import UneceAssessmentSchema from "../schemas/UneceAssessment.json" with { type: "json" };
+import UneceAssessmentTypeCodeListSchema from "../schemas/UneceAssessmentTypeCodeList.json" with { type: "json" };
 import UneceAssociatedTransportEquipmentSchema from "../schemas/UneceAssociatedTransportEquipment.json" with { type: "json" };
 import UneceAttachedTransportEquipmentSchema from "../schemas/UneceAttachedTransportEquipment.json" with { type: "json" };
 import UneceAuthenticationSchema from "../schemas/UneceAuthentication.json" with { type: "json" };
@@ -68,6 +76,7 @@ import UneceAuthoritativeSignatoryPersonSchema from "../schemas/UneceAuthoritati
 import UneceAutomaticDataCaptureMethodCodeListSchema from "../schemas/UneceAutomaticDataCaptureMethodCodeList.json" with { type: "json" };
 import UneceAvailablePeriodSchema from "../schemas/UneceAvailablePeriod.json" with { type: "json" };
 import UneceBasicWorkItemSchema from "../schemas/UneceBasicWorkItem.json" with { type: "json" };
+import UneceBasicWorkItemTypeCodeListSchema from "../schemas/UneceBasicWorkItemTypeCodeList.json" with { type: "json" };
 import UneceBillingDocumentCodeListSchema from "../schemas/UneceBillingDocumentCodeList.json" with { type: "json" };
 import UneceBinaryFileSchema from "../schemas/UneceBinaryFile.json" with { type: "json" };
 import UneceBinaryObjectCharacterSetCodeListSchema from "../schemas/UneceBinaryObjectCharacterSetCodeList.json" with { type: "json" };
@@ -79,6 +88,7 @@ import UneceBranchFinancialInstitutionSchema from "../schemas/UneceBranchFinanci
 import UneceBreakdownStatementSchema from "../schemas/UneceBreakdownStatement.json" with { type: "json" };
 import UneceCalculatedPriceSchema from "../schemas/UneceCalculatedPrice.json" with { type: "json" };
 import UneceCalibratedMeasurementSchema from "../schemas/UneceCalibratedMeasurement.json" with { type: "json" };
+import UneceCalibratedMeasurementTypeCodeListSchema from "../schemas/UneceCalibratedMeasurementTypeCodeList.json" with { type: "json" };
 import UneceCancellationStatusSchema from "../schemas/UneceCancellationStatus.json" with { type: "json" };
 import UneceCargoSchema from "../schemas/UneceCargo.json" with { type: "json" };
 import UneceCargoCategoryCodeListSchema from "../schemas/UneceCargoCategoryCodeList.json" with { type: "json" };
@@ -87,20 +97,27 @@ import UneceCargoInsuranceSchema from "../schemas/UneceCargoInsurance.json" with
 import UneceCargoOperationalCategoryCodeListSchema from "../schemas/UneceCargoOperationalCategoryCodeList.json" with { type: "json" };
 import UneceCargoTypeClassificationCodeListSchema from "../schemas/UneceCargoTypeClassificationCodeList.json" with { type: "json" };
 import UneceCarriedEquipmentSchema from "../schemas/UneceCarriedEquipment.json" with { type: "json" };
+import UneceCarriedEquipmentTypeCodeListSchema from "../schemas/UneceCarriedEquipmentTypeCodeList.json" with { type: "json" };
 import UneceCashSchema from "../schemas/UneceCash.json" with { type: "json" };
+import UneceCashTypeCodeListSchema from "../schemas/UneceCashTypeCodeList.json" with { type: "json" };
 import UneceCertificateTypeCodeListSchema from "../schemas/UneceCertificateTypeCodeList.json" with { type: "json" };
 import UneceChargePayingPartyRoleCodeListSchema from "../schemas/UneceChargePayingPartyRoleCodeList.json" with { type: "json" };
 import UneceChemicalSchema from "../schemas/UneceChemical.json" with { type: "json" };
+import UneceChemicalTypeCodeListSchema from "../schemas/UneceChemicalTypeCodeList.json" with { type: "json" };
 import UneceChequeSchema from "../schemas/UneceCheque.json" with { type: "json" };
+import UneceChequeTypeCodeListSchema from "../schemas/UneceChequeTypeCodeList.json" with { type: "json" };
 import UneceCircleSchema from "../schemas/UneceCircle.json" with { type: "json" };
 import UneceClassificationSchema from "../schemas/UneceClassification.json" with { type: "json" };
+import UneceClassificationTypeCodeListSchema from "../schemas/UneceClassificationTypeCodeList.json" with { type: "json" };
 import UneceClauseSchema from "../schemas/UneceClause.json" with { type: "json" };
 import UneceCodeListResponsibleAgencyCodeListSchema from "../schemas/UneceCodeListResponsibleAgencyCodeList.json" with { type: "json" };
 import UneceColourSchema from "../schemas/UneceColour.json" with { type: "json" };
+import UneceColourTypeCodeListSchema from "../schemas/UneceColourTypeCodeList.json" with { type: "json" };
 import UneceCommitmentLevelCodeListSchema from "../schemas/UneceCommitmentLevelCodeList.json" with { type: "json" };
 import UneceCommunicationSchema from "../schemas/UneceCommunication.json" with { type: "json" };
 import UneceCommunicationChannelCodeListSchema from "../schemas/UneceCommunicationChannelCodeList.json" with { type: "json" };
 import UneceCommunicationEventSchema from "../schemas/UneceCommunicationEvent.json" with { type: "json" };
+import UneceCommunicationEventTypeCodeListSchema from "../schemas/UneceCommunicationEventTypeCodeList.json" with { type: "json" };
 import UneceComplexDescriptionSchema from "../schemas/UneceComplexDescription.json" with { type: "json" };
 import UneceConformanceCertificateSchema from "../schemas/UneceConformanceCertificate.json" with { type: "json" };
 import UneceConsignmentSchema from "../schemas/UneceConsignment.json" with { type: "json" };
@@ -109,26 +126,32 @@ import UneceContactPersonSchema from "../schemas/UneceContactPerson.json" with {
 import UneceContactTypeCodeListSchema from "../schemas/UneceContactTypeCodeList.json" with { type: "json" };
 import UneceContractSchema from "../schemas/UneceContract.json" with { type: "json" };
 import UneceControlSettingParameterSchema from "../schemas/UneceControlSettingParameter.json" with { type: "json" };
+import UneceControlSettingParameterTypeCodeListSchema from "../schemas/UneceControlSettingParameterTypeCodeList.json" with { type: "json" };
 import UneceConvoySchema from "../schemas/UneceConvoy.json" with { type: "json" };
 import UneceCooperatingOrganizationSchema from "../schemas/UneceCooperatingOrganization.json" with { type: "json" };
 import UneceCoordinateReferenceSystemSchema from "../schemas/UneceCoordinateReferenceSystem.json" with { type: "json" };
 import UneceCoordinateSourceSystemSchema from "../schemas/UneceCoordinateSourceSystem.json" with { type: "json" };
 import UneceCorrectiveActionSchema from "../schemas/UneceCorrectiveAction.json" with { type: "json" };
+import UneceCorrectiveActionTypeCodeListSchema from "../schemas/UneceCorrectiveActionTypeCodeList.json" with { type: "json" };
 import UneceCorrectiveEventSchema from "../schemas/UneceCorrectiveEvent.json" with { type: "json" };
 import UneceCountrySchema from "../schemas/UneceCountry.json" with { type: "json" };
 import UneceCountryIdSchema from "../schemas/UneceCountryId.json" with { type: "json" };
 import UneceCountrySubDivisionSchema from "../schemas/UneceCountrySubDivision.json" with { type: "json" };
+import UneceCountrySubDivisionTypeCodeListSchema from "../schemas/UneceCountrySubDivisionTypeCodeList.json" with { type: "json" };
 import UneceCreditorFinancialAccountSchema from "../schemas/UneceCreditorFinancialAccount.json" with { type: "json" };
 import UneceCreditorFinancialInstitutionSchema from "../schemas/UneceCreditorFinancialInstitution.json" with { type: "json" };
 import UneceCropMixtureConstituentSchema from "../schemas/UneceCropMixtureConstituent.json" with { type: "json" };
 import UneceCropProduceBatchSchema from "../schemas/UneceCropProduceBatch.json" with { type: "json" };
+import UneceCropProduceBatchTypeCodeListSchema from "../schemas/UneceCropProduceBatchTypeCodeList.json" with { type: "json" };
 import UneceCropProtectionTreatmentSchema from "../schemas/UneceCropProtectionTreatment.json" with { type: "json" };
+import UneceCropProtectionTreatmentTypeCodeListSchema from "../schemas/UneceCropProtectionTreatmentTypeCodeList.json" with { type: "json" };
 import UneceCurrencyCodeListSchema from "../schemas/UneceCurrencyCodeList.json" with { type: "json" };
 import UneceCurrencyExchangeSchema from "../schemas/UneceCurrencyExchange.json" with { type: "json" };
 import UneceCustomerClassSchema from "../schemas/UneceCustomerClass.json" with { type: "json" };
 import UneceCustomsDutyRegimeTypeCodeListSchema from "../schemas/UneceCustomsDutyRegimeTypeCodeList.json" with { type: "json" };
 import UneceCustomsProcedureGuaranteeCodeListSchema from "../schemas/UneceCustomsProcedureGuaranteeCodeList.json" with { type: "json" };
 import UneceCustomsValuationSchema from "../schemas/UneceCustomsValuation.json" with { type: "json" };
+import UneceCustomsValuationTypeCodeListSchema from "../schemas/UneceCustomsValuationTypeCodeList.json" with { type: "json" };
 import UneceDangerousGoodsSchema from "../schemas/UneceDangerousGoods.json" with { type: "json" };
 import UneceDangerousGoodsPackagingLevelCodeListSchema from "../schemas/UneceDangerousGoodsPackagingLevelCodeList.json" with { type: "json" };
 import UneceDangerousGoodsRegulationCodeListSchema from "../schemas/UneceDangerousGoodsRegulationCodeList.json" with { type: "json" };
@@ -143,12 +166,15 @@ import UneceDeliveryTermsSchema from "../schemas/UneceDeliveryTerms.json" with {
 import UneceDeliveryTermsCodeListSchema from "../schemas/UneceDeliveryTermsCodeList.json" with { type: "json" };
 import UneceDeliveryTermsFunctionCodeListSchema from "../schemas/UneceDeliveryTermsFunctionCodeList.json" with { type: "json" };
 import UneceDigitalMethodSchema from "../schemas/UneceDigitalMethod.json" with { type: "json" };
+import UneceDigitalMethodTypeCodeListSchema from "../schemas/UneceDigitalMethodTypeCodeList.json" with { type: "json" };
 import UneceDimensionTypeCodeListSchema from "../schemas/UneceDimensionTypeCodeList.json" with { type: "json" };
 import UneceDirectPositionSchema from "../schemas/UneceDirectPosition.json" with { type: "json" };
 import UneceDisabilitySchema from "../schemas/UneceDisability.json" with { type: "json" };
+import UneceDisabilityTypeCodeListSchema from "../schemas/UneceDisabilityTypeCodeList.json" with { type: "json" };
 import UneceDisposalInstructionsSchema from "../schemas/UneceDisposalInstructions.json" with { type: "json" };
 import UneceDocumentSchema from "../schemas/UneceDocument.json" with { type: "json" };
 import UneceDocumentCharacteristicSchema from "../schemas/UneceDocumentCharacteristic.json" with { type: "json" };
+import UneceDocumentCharacteristicTypeCodeListSchema from "../schemas/UneceDocumentCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceDocumentCodeListSchema from "../schemas/UneceDocumentCodeList.json" with { type: "json" };
 import UneceDocumentContextParameterSchema from "../schemas/UneceDocumentContextParameter.json" with { type: "json" };
 import UneceDocumentHandlingInstructionsSchema from "../schemas/UneceDocumentHandlingInstructions.json" with { type: "json" };
@@ -158,9 +184,11 @@ import UneceDocumentStatusCodeListSchema from "../schemas/UneceDocumentStatusCod
 import UneceDurationUnitMeasureCodeSchema from "../schemas/UneceDurationUnitMeasureCode.json" with { type: "json" };
 import UneceDurationUnitMeasureTypeSchema from "../schemas/UneceDurationUnitMeasureType.json" with { type: "json" };
 import UneceEmissionSchema from "../schemas/UneceEmission.json" with { type: "json" };
+import UneceEmissionTypeCodeListSchema from "../schemas/UneceEmissionTypeCodeList.json" with { type: "json" };
 import UneceEmployerIdentitySchema from "../schemas/UneceEmployerIdentity.json" with { type: "json" };
 import UneceEnvelopeSchema from "../schemas/UneceEnvelope.json" with { type: "json" };
 import UneceEquipmentSchema from "../schemas/UneceEquipment.json" with { type: "json" };
+import UneceEquipmentTypeCodeListSchema from "../schemas/UneceEquipmentTypeCodeList.json" with { type: "json" };
 import UneceErrorSchema from "../schemas/UneceError.json" with { type: "json" };
 import UneceEventElementSchema from "../schemas/UneceEventElement.json" with { type: "json" };
 import UneceExchangedDeclarationSchema from "../schemas/UneceExchangedDeclaration.json" with { type: "json" };
@@ -178,6 +206,7 @@ import UneceFinancialAccountTypeCodeListSchema from "../schemas/UneceFinancialAc
 import UneceFinancialAdjustmentSchema from "../schemas/UneceFinancialAdjustment.json" with { type: "json" };
 import UneceFinancialAdjustmentReasonCodeListSchema from "../schemas/UneceFinancialAdjustmentReasonCodeList.json" with { type: "json" };
 import UneceFinancialCardSchema from "../schemas/UneceFinancialCard.json" with { type: "json" };
+import UneceFinancialCardTypeCodeListSchema from "../schemas/UneceFinancialCardTypeCodeList.json" with { type: "json" };
 import UneceFinancialIdentitySchema from "../schemas/UneceFinancialIdentity.json" with { type: "json" };
 import UneceFinancialInstitutionAddressSchema from "../schemas/UneceFinancialInstitutionAddress.json" with { type: "json" };
 import UneceFinancialInstitutionRoleCodeListSchema from "../schemas/UneceFinancialInstitutionRoleCodeList.json" with { type: "json" };
@@ -187,10 +216,12 @@ import UneceFinancingRequestResultDocumentSchema from "../schemas/UneceFinancing
 import UneceFinancingStatusSchema from "../schemas/UneceFinancingStatus.json" with { type: "json" };
 import UneceFinancingSummaryDocumentSchema from "../schemas/UneceFinancingSummaryDocument.json" with { type: "json" };
 import UneceFoodChoiceSchema from "../schemas/UneceFoodChoice.json" with { type: "json" };
+import UneceFoodChoiceTypeCodeListSchema from "../schemas/UneceFoodChoiceTypeCodeList.json" with { type: "json" };
 import UneceForecastTermsSchema from "../schemas/UneceForecastTerms.json" with { type: "json" };
 import UneceFreightChargeTariffClassCodeListSchema from "../schemas/UneceFreightChargeTariffClassCodeList.json" with { type: "json" };
 import UneceFreightChargeTypeIdSchema from "../schemas/UneceFreightChargeTypeId.json" with { type: "json" };
 import UneceFuelSchema from "../schemas/UneceFuel.json" with { type: "json" };
+import UneceFuelTypeCodeListSchema from "../schemas/UneceFuelTypeCodeList.json" with { type: "json" };
 import UneceGeographicalAreaSchema from "../schemas/UneceGeographicalArea.json" with { type: "json" };
 import UneceGeographicalCoordinateSchema from "../schemas/UneceGeographicalCoordinate.json" with { type: "json" };
 import UneceGeographicalFeatureSchema from "../schemas/UneceGeographicalFeature.json" with { type: "json" };
@@ -203,15 +234,20 @@ import UneceGeographicalObjectCharacteristicSchema from "../schemas/UneceGeograp
 import UneceGeographicalPointSchema from "../schemas/UneceGeographicalPoint.json" with { type: "json" };
 import UneceGeographicalSurfaceSchema from "../schemas/UneceGeographicalSurface.json" with { type: "json" };
 import UneceGeopoliticalRegionSchema from "../schemas/UneceGeopoliticalRegion.json" with { type: "json" };
+import UneceGeopoliticalRegionTypeCodeListSchema from "../schemas/UneceGeopoliticalRegionTypeCodeList.json" with { type: "json" };
 import UneceGoodsCharacteristicSchema from "../schemas/UneceGoodsCharacteristic.json" with { type: "json" };
+import UneceGoodsCharacteristicTypeCodeListSchema from "../schemas/UneceGoodsCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceGoodsTypeCodeListSchema from "../schemas/UneceGoodsTypeCodeList.json" with { type: "json" };
 import UneceGoodsTypeExtensionCodeListSchema from "../schemas/UneceGoodsTypeExtensionCodeList.json" with { type: "json" };
 import UneceGovernmentActionCodeListSchema from "../schemas/UneceGovernmentActionCodeList.json" with { type: "json" };
 import UneceGovernmentRegistrationSchema from "../schemas/UneceGovernmentRegistration.json" with { type: "json" };
+import UneceGovernmentRegistrationTypeCodeListSchema from "../schemas/UneceGovernmentRegistrationTypeCodeList.json" with { type: "json" };
 import UneceGroupedWorkItemSchema from "../schemas/UneceGroupedWorkItem.json" with { type: "json" };
+import UneceGroupedWorkItemTypeCodeListSchema from "../schemas/UneceGroupedWorkItemTypeCodeList.json" with { type: "json" };
 import UneceGuaranteeSchema from "../schemas/UneceGuarantee.json" with { type: "json" };
 import UneceGuestArrivalSchema from "../schemas/UneceGuestArrival.json" with { type: "json" };
 import UneceGuestHealthIndicationSchema from "../schemas/UneceGuestHealthIndication.json" with { type: "json" };
+import UneceGuestHealthIndicationTypeCodeListSchema from "../schemas/UneceGuestHealthIndicationTypeCodeList.json" with { type: "json" };
 import UneceGuestPersonSchema from "../schemas/UneceGuestPerson.json" with { type: "json" };
 import UneceHandlingInstructionsSchema from "../schemas/UneceHandlingInstructions.json" with { type: "json" };
 import UneceHaulageInstructionsSchema from "../schemas/UneceHaulageInstructions.json" with { type: "json" };
@@ -226,6 +262,7 @@ import UneceIndividualTTAnimalSchema from "../schemas/UneceIndividualTTAnimal.js
 import UneceInformationSourceSchema from "../schemas/UneceInformationSource.json" with { type: "json" };
 import UneceIngredientRangeMeasurementSchema from "../schemas/UneceIngredientRangeMeasurement.json" with { type: "json" };
 import UneceInspectionEventSchema from "../schemas/UneceInspectionEvent.json" with { type: "json" };
+import UneceInspectionEventTypeCodeListSchema from "../schemas/UneceInspectionEventTypeCodeList.json" with { type: "json" };
 import UneceInspectionInstructionsSchema from "../schemas/UneceInspectionInstructions.json" with { type: "json" };
 import UneceInspectionNoteSchema from "../schemas/UneceInspectionNote.json" with { type: "json" };
 import UneceInspectionPersonSchema from "../schemas/UneceInspectionPerson.json" with { type: "json" };
@@ -238,7 +275,9 @@ import UneceInstalmentPlanSchema from "../schemas/UneceInstalmentPlan.json" with
 import UneceInstructedTemperatureSchema from "../schemas/UneceInstructedTemperature.json" with { type: "json" };
 import UneceInvoiceDocumentCodeListSchema from "../schemas/UneceInvoiceDocumentCodeList.json" with { type: "json" };
 import UneceIOTDeviceSchema from "../schemas/UneceIOTDevice.json" with { type: "json" };
+import UneceIOTDeviceTypeCodeListSchema from "../schemas/UneceIOTDeviceTypeCodeList.json" with { type: "json" };
 import UneceIssueSchema from "../schemas/UneceIssue.json" with { type: "json" };
+import UneceIssueTypeCodeListSchema from "../schemas/UneceIssueTypeCodeList.json" with { type: "json" };
 import UneceKeywordSchema from "../schemas/UneceKeyword.json" with { type: "json" };
 import UneceLaboratoryObservationAnalysisMethodSchema from "../schemas/UneceLaboratoryObservationAnalysisMethod.json" with { type: "json" };
 import UneceLaboratoryObservationContactSchema from "../schemas/UneceLaboratoryObservationContact.json" with { type: "json" };
@@ -250,8 +289,11 @@ import UneceLanguageCodeListSchema from "../schemas/UneceLanguageCodeList.json" 
 import UneceLanguageIdSchema from "../schemas/UneceLanguageId.json" with { type: "json" };
 import UneceLanguageProficiencySchema from "../schemas/UneceLanguageProficiency.json" with { type: "json" };
 import UneceLegalOrganizationSchema from "../schemas/UneceLegalOrganization.json" with { type: "json" };
+import UneceLegalOrganizationTypeCodeListSchema from "../schemas/UneceLegalOrganizationTypeCodeList.json" with { type: "json" };
 import UneceLegalRegistrationSchema from "../schemas/UneceLegalRegistration.json" with { type: "json" };
+import UneceLegalRegistrationTypeCodeListSchema from "../schemas/UneceLegalRegistrationTypeCodeList.json" with { type: "json" };
 import UneceLicenceSchema from "../schemas/UneceLicence.json" with { type: "json" };
+import UneceLicenceTypeCodeListSchema from "../schemas/UneceLicenceTypeCodeList.json" with { type: "json" };
 import UneceLifetimeEndCostCodeListSchema from "../schemas/UneceLifetimeEndCostCodeList.json" with { type: "json" };
 import UneceLinearRingSchema from "../schemas/UneceLinearRing.json" with { type: "json" };
 import UneceLinearUnitMeasureCodeSchema from "../schemas/UneceLinearUnitMeasureCode.json" with { type: "json" };
@@ -264,38 +306,49 @@ import UneceLineTradeTransactionSchema from "../schemas/UneceLineTradeTransactio
 import UneceLocationSchema from "../schemas/UneceLocation.json" with { type: "json" };
 import UneceLocationFunctionCodeListSchema from "../schemas/UneceLocationFunctionCodeList.json" with { type: "json" };
 import UneceLocationPartySchema from "../schemas/UneceLocationParty.json" with { type: "json" };
+import UneceLocationPartyTypeCodeListSchema from "../schemas/UneceLocationPartyTypeCodeList.json" with { type: "json" };
 import UneceLogisticsChargeCalculationBasisCodeListSchema from "../schemas/UneceLogisticsChargeCalculationBasisCodeList.json" with { type: "json" };
 import UneceLogisticsLabelSchema from "../schemas/UneceLogisticsLabel.json" with { type: "json" };
 import UneceLogisticsLocationSchema from "../schemas/UneceLogisticsLocation.json" with { type: "json" };
 import UneceLogisticsPackagingSchema from "../schemas/UneceLogisticsPackaging.json" with { type: "json" };
+import UneceLogisticsPackagingTypeCodeListSchema from "../schemas/UneceLogisticsPackagingTypeCodeList.json" with { type: "json" };
 import UneceLogisticsStatusSchema from "../schemas/UneceLogisticsStatus.json" with { type: "json" };
 import UneceLogisticsStatusCodeListSchema from "../schemas/UneceLogisticsStatusCodeList.json" with { type: "json" };
 import UneceLogisticsTransportEquipmentSchema from "../schemas/UneceLogisticsTransportEquipment.json" with { type: "json" };
 import UneceLogisticsTransportMeansSchema from "../schemas/UneceLogisticsTransportMeans.json" with { type: "json" };
 import UneceMachineSchema from "../schemas/UneceMachine.json" with { type: "json" };
+import UneceMachineTypeCodeListSchema from "../schemas/UneceMachineTypeCodeList.json" with { type: "json" };
 import UneceMarketplaceSchema from "../schemas/UneceMarketplace.json" with { type: "json" };
 import UneceMarkingSchema from "../schemas/UneceMarking.json" with { type: "json" };
 import UneceMarkingInstructionCodeListSchema from "../schemas/UneceMarkingInstructionCodeList.json" with { type: "json" };
 import UneceMDHHealthIndicationSchema from "../schemas/UneceMDHHealthIndication.json" with { type: "json" };
+import UneceMDHHealthIndicationTypeCodeListSchema from "../schemas/UneceMDHHealthIndicationTypeCodeList.json" with { type: "json" };
 import UneceMeasureCodeSchema from "../schemas/UneceMeasureCode.json" with { type: "json" };
 import UneceMeasuredAttributeCodeListSchema from "../schemas/UneceMeasuredAttributeCodeList.json" with { type: "json" };
 import UneceMeasurementSchema from "../schemas/UneceMeasurement.json" with { type: "json" };
+import UneceMeasurementTypeCodeListSchema from "../schemas/UneceMeasurementTypeCodeList.json" with { type: "json" };
 import UneceMeasureTypeSchema from "../schemas/UneceMeasureType.json" with { type: "json" };
 import UneceMembershipSchema from "../schemas/UneceMembership.json" with { type: "json" };
 import UneceMessageFunctionCodeListSchema from "../schemas/UneceMessageFunctionCodeList.json" with { type: "json" };
 import UneceMetricCharacteristicSchema from "../schemas/UneceMetricCharacteristic.json" with { type: "json" };
+import UneceMetricCharacteristicTypeCodeListSchema from "../schemas/UneceMetricCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceNegotiationContextSchema from "../schemas/UneceNegotiationContext.json" with { type: "json" };
+import UneceNegotiationContextTypeCodeListSchema from "../schemas/UneceNegotiationContextTypeCodeList.json" with { type: "json" };
 import UneceNegotiationExchangeSchema from "../schemas/UneceNegotiationExchange.json" with { type: "json" };
 import UneceNoteSchema from "../schemas/UneceNote.json" with { type: "json" };
 import UneceObjectSchema from "../schemas/UneceObject.json" with { type: "json" };
+import UneceObjectTypeCodeListSchema from "../schemas/UneceObjectTypeCodeList.json" with { type: "json" };
 import UneceObservationSchema from "../schemas/UneceObservation.json" with { type: "json" };
 import UneceObservationObjectiveParameterSchema from "../schemas/UneceObservationObjectiveParameter.json" with { type: "json" };
+import UneceObservationObjectiveParameterTypeCodeListSchema from "../schemas/UneceObservationObjectiveParameterTypeCodeList.json" with { type: "json" };
 import UneceObservationResultSchema from "../schemas/UneceObservationResult.json" with { type: "json" };
 import UneceObservationResultCharacteristicSchema from "../schemas/UneceObservationResultCharacteristic.json" with { type: "json" };
 import UneceOperationalParameterSchema from "../schemas/UneceOperationalParameter.json" with { type: "json" };
+import UneceOperationalParameterTypeCodeListSchema from "../schemas/UneceOperationalParameterTypeCodeList.json" with { type: "json" };
 import UneceOrganizationalCertificateSchema from "../schemas/UneceOrganizationalCertificate.json" with { type: "json" };
 import UneceOrganizationalCertificationSchema from "../schemas/UneceOrganizationalCertification.json" with { type: "json" };
 import UneceOrganizationCharacteristicSchema from "../schemas/UneceOrganizationCharacteristic.json" with { type: "json" };
+import UneceOrganizationCharacteristicTypeCodeListSchema from "../schemas/UneceOrganizationCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceOrganizationFunctionTypeCodeListSchema from "../schemas/UneceOrganizationFunctionTypeCodeList.json" with { type: "json" };
 import UnecePackageSchema from "../schemas/UnecePackage.json" with { type: "json" };
 import UnecePackageTypeCodeListSchema from "../schemas/UnecePackageTypeCodeList.json" with { type: "json" };
@@ -310,7 +363,9 @@ import UnecePayloadInstanceSchema from "../schemas/UnecePayloadInstance.json" wi
 import UnecePaymentBalanceOutSchema from "../schemas/UnecePaymentBalanceOut.json" with { type: "json" };
 import UnecePaymentDiscountTermsSchema from "../schemas/UnecePaymentDiscountTerms.json" with { type: "json" };
 import UnecePaymentFinancialAccountSchema from "../schemas/UnecePaymentFinancialAccount.json" with { type: "json" };
+import UnecePaymentFinancialAccountTypeCodeListSchema from "../schemas/UnecePaymentFinancialAccountTypeCodeList.json" with { type: "json" };
 import UnecePaymentFinancialInstitutionSchema from "../schemas/UnecePaymentFinancialInstitution.json" with { type: "json" };
+import UnecePaymentFinancialInstitutionTypeCodeListSchema from "../schemas/UnecePaymentFinancialInstitutionTypeCodeList.json" with { type: "json" };
 import UnecePaymentGuaranteeMeansCodeListSchema from "../schemas/UnecePaymentGuaranteeMeansCodeList.json" with { type: "json" };
 import UnecePaymentMeansSchema from "../schemas/UnecePaymentMeans.json" with { type: "json" };
 import UnecePaymentMeansChannelCodeListSchema from "../schemas/UnecePaymentMeansChannelCodeList.json" with { type: "json" };
@@ -322,7 +377,9 @@ import UnecePaymentTermsEventTimeReferenceCodeListSchema from "../schemas/UneceP
 import UnecePaymentTermsIdSchema from "../schemas/UnecePaymentTermsId.json" with { type: "json" };
 import UnecePaymentTermsTypeCodeListSchema from "../schemas/UnecePaymentTermsTypeCodeList.json" with { type: "json" };
 import UnecePaymentTradeSettlementSchema from "../schemas/UnecePaymentTradeSettlement.json" with { type: "json" };
+import UnecePaymentTradeSettlementTypeCodeListSchema from "../schemas/UnecePaymentTradeSettlementTypeCodeList.json" with { type: "json" };
 import UnecePersonalEffectsSchema from "../schemas/UnecePersonalEffects.json" with { type: "json" };
+import UnecePersonalEffectsTypeCodeListSchema from "../schemas/UnecePersonalEffectsTypeCodeList.json" with { type: "json" };
 import UnecePersonIdentitySchema from "../schemas/UnecePersonIdentity.json" with { type: "json" };
 import UnecePetAnimalSchema from "../schemas/UnecePetAnimal.json" with { type: "json" };
 import UnecePictureSchema from "../schemas/UnecePicture.json" with { type: "json" };
@@ -332,49 +389,66 @@ import UnecePolygonSchema from "../schemas/UnecePolygon.json" with { type: "json
 import UnecePortMovementEventSchema from "../schemas/UnecePortMovementEvent.json" with { type: "json" };
 import UnecePreferenceSchema from "../schemas/UnecePreference.json" with { type: "json" };
 import UnecePreventiveActionSchema from "../schemas/UnecePreventiveAction.json" with { type: "json" };
+import UnecePreventiveActionTypeCodeListSchema from "../schemas/UnecePreventiveActionTypeCodeList.json" with { type: "json" };
 import UnecePriceTypeCodeListSchema from "../schemas/UnecePriceTypeCodeList.json" with { type: "json" };
 import UnecePrintSchema from "../schemas/UnecePrint.json" with { type: "json" };
+import UnecePrintTypeCodeListSchema from "../schemas/UnecePrintTypeCodeList.json" with { type: "json" };
 import UnecePriorityDescriptionCodeListSchema from "../schemas/UnecePriorityDescriptionCodeList.json" with { type: "json" };
 import UneceProcessCertificateSchema from "../schemas/UneceProcessCertificate.json" with { type: "json" };
 import UneceProcessCertificationSchema from "../schemas/UneceProcessCertification.json" with { type: "json" };
 import UneceProcessCharacteristicSchema from "../schemas/UneceProcessCharacteristic.json" with { type: "json" };
 import UneceProcessTypeCodeListSchema from "../schemas/UneceProcessTypeCodeList.json" with { type: "json" };
 import UneceProcessWorkItemSchema from "../schemas/UneceProcessWorkItem.json" with { type: "json" };
+import UneceProcessWorkItemTypeCodeListSchema from "../schemas/UneceProcessWorkItemTypeCodeList.json" with { type: "json" };
 import UneceProduceSchema from "../schemas/UneceProduce.json" with { type: "json" };
+import UneceProduceTypeCodeListSchema from "../schemas/UneceProduceTypeCodeList.json" with { type: "json" };
 import UneceProductSchema from "../schemas/UneceProduct.json" with { type: "json" };
 import UneceProductBatchSchema from "../schemas/UneceProductBatch.json" with { type: "json" };
 import UneceProductBatchCertificateSchema from "../schemas/UneceProductBatchCertificate.json" with { type: "json" };
 import UneceProductBatchCertificationSchema from "../schemas/UneceProductBatchCertification.json" with { type: "json" };
 import UneceProductBatchCharacteristicSchema from "../schemas/UneceProductBatchCharacteristic.json" with { type: "json" };
+import UneceProductBatchCharacteristicTypeCodeListSchema from "../schemas/UneceProductBatchCharacteristicTypeCodeList.json" with { type: "json" };
+import UneceProductBatchTypeCodeListSchema from "../schemas/UneceProductBatchTypeCodeList.json" with { type: "json" };
 import UneceProductCertificateSchema from "../schemas/UneceProductCertificate.json" with { type: "json" };
 import UneceProductCharacteristicSchema from "../schemas/UneceProductCharacteristic.json" with { type: "json" };
 import UneceProductCharacteristicConditionSchema from "../schemas/UneceProductCharacteristicCondition.json" with { type: "json" };
+import UneceProductCharacteristicConditionTypeCodeListSchema from "../schemas/UneceProductCharacteristicConditionTypeCodeList.json" with { type: "json" };
+import UneceProductCharacteristicTypeCodeListSchema from "../schemas/UneceProductCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceProductFinishingTreatmentSchema from "../schemas/UneceProductFinishingTreatment.json" with { type: "json" };
+import UneceProductFinishingTreatmentTypeCodeListSchema from "../schemas/UneceProductFinishingTreatmentTypeCodeList.json" with { type: "json" };
 import UneceProductGroupSchema from "../schemas/UneceProductGroup.json" with { type: "json" };
 import UneceProductHandlingProcessSchema from "../schemas/UneceProductHandlingProcess.json" with { type: "json" };
 import UneceProductInstanceSchema from "../schemas/UneceProductInstance.json" with { type: "json" };
 import UneceProductionSchema from "../schemas/UneceProduction.json" with { type: "json" };
 import UneceProductionCycleSchema from "../schemas/UneceProductionCycle.json" with { type: "json" };
 import UneceProductionDeviceSchema from "../schemas/UneceProductionDevice.json" with { type: "json" };
+import UneceProductionDeviceTypeCodeListSchema from "../schemas/UneceProductionDeviceTypeCodeList.json" with { type: "json" };
 import UneceProductionFacilitySchema from "../schemas/UneceProductionFacility.json" with { type: "json" };
 import UneceProductionProcessSchema from "../schemas/UneceProductionProcess.json" with { type: "json" };
 import UneceProductionUnitSchema from "../schemas/UneceProductionUnit.json" with { type: "json" };
+import UneceProductionUnitTypeCodeListSchema from "../schemas/UneceProductionUnitTypeCodeList.json" with { type: "json" };
 import UneceProductionWasteMaterialSchema from "../schemas/UneceProductionWasteMaterial.json" with { type: "json" };
 import UneceProductionWasteMaterialComponentSchema from "../schemas/UneceProductionWasteMaterialComponent.json" with { type: "json" };
+import UneceProductionWasteMaterialComponentTypeCodeListSchema from "../schemas/UneceProductionWasteMaterialComponentTypeCodeList.json" with { type: "json" };
+import UneceProductionWasteMaterialTypeCodeListSchema from "../schemas/UneceProductionWasteMaterialTypeCodeList.json" with { type: "json" };
 import UneceProductionWasteRecoveryDisposalProcessSchema from "../schemas/UneceProductionWasteRecoveryDisposalProcess.json" with { type: "json" };
 import UneceProductLabelSchema from "../schemas/UneceProductLabel.json" with { type: "json" };
 import UneceProjectSchema from "../schemas/UneceProject.json" with { type: "json" };
+import UneceProjectTypeCodeListSchema from "../schemas/UneceProjectTypeCodeList.json" with { type: "json" };
 import UneceProprietaryIdentitySchema from "../schemas/UneceProprietaryIdentity.json" with { type: "json" };
 import UneceProtectionMeansSchema from "../schemas/UneceProtectionMeans.json" with { type: "json" };
 import UneceQuantityAnalysisSchema from "../schemas/UneceQuantityAnalysis.json" with { type: "json" };
+import UneceQuantityAnalysisTypeCodeListSchema from "../schemas/UneceQuantityAnalysisTypeCodeList.json" with { type: "json" };
 import UneceQuantityCodeSchema from "../schemas/UneceQuantityCode.json" with { type: "json" };
 import UneceQuantityTypeSchema from "../schemas/UneceQuantityType.json" with { type: "json" };
 import UneceQuarantineInstructionsSchema from "../schemas/UneceQuarantineInstructions.json" with { type: "json" };
 import UneceQuotationDocumentCodeListSchema from "../schemas/UneceQuotationDocumentCodeList.json" with { type: "json" };
 import UneceRadioactiveIsotopeSchema from "../schemas/UneceRadioactiveIsotope.json" with { type: "json" };
 import UneceRadioactiveMaterialSchema from "../schemas/UneceRadioactiveMaterial.json" with { type: "json" };
+import UneceRadioactiveMaterialTypeCodeListSchema from "../schemas/UneceRadioactiveMaterialTypeCodeList.json" with { type: "json" };
 import UneceRadionuclideSchema from "../schemas/UneceRadionuclide.json" with { type: "json" };
 import UneceRangeSchema from "../schemas/UneceRange.json" with { type: "json" };
+import UneceRangeTypeCodeListSchema from "../schemas/UneceRangeTypeCodeList.json" with { type: "json" };
 import UneceRecordedStatusSchema from "../schemas/UneceRecordedStatus.json" with { type: "json" };
 import UneceReferenceCodeListSchema from "../schemas/UneceReferenceCodeList.json" with { type: "json" };
 import UneceReferencePriceSchema from "../schemas/UneceReferencePrice.json" with { type: "json" };
@@ -386,6 +460,7 @@ import UneceRemittanceDocumentCodeListSchema from "../schemas/UneceRemittanceDoc
 import UneceRepresentativePersonSchema from "../schemas/UneceRepresentativePerson.json" with { type: "json" };
 import UneceRequestingPartySchema from "../schemas/UneceRequestingParty.json" with { type: "json" };
 import UneceRequirementSchema from "../schemas/UneceRequirement.json" with { type: "json" };
+import UneceRequirementTypeCodeListSchema from "../schemas/UneceRequirementTypeCodeList.json" with { type: "json" };
 import UneceResponseSchema from "../schemas/UneceResponse.json" with { type: "json" };
 import UneceResponseTypeCodeListSchema from "../schemas/UneceResponseTypeCodeList.json" with { type: "json" };
 import UneceResponsibleGovernmentAgencyCodeListSchema from "../schemas/UneceResponsibleGovernmentAgencyCodeList.json" with { type: "json" };
@@ -393,16 +468,21 @@ import UneceResponsibleGovernmentAgencyInvolvementCodeListSchema from "../schema
 import UneceReturnableAssetInstructionsSchema from "../schemas/UneceReturnableAssetInstructions.json" with { type: "json" };
 import UneceRiskAnalysisResultSchema from "../schemas/UneceRiskAnalysisResult.json" with { type: "json" };
 import UneceSanitaryMeasureSchema from "../schemas/UneceSanitaryMeasure.json" with { type: "json" };
+import UneceSanitaryMeasureTypeCodeListSchema from "../schemas/UneceSanitaryMeasureTypeCodeList.json" with { type: "json" };
 import UneceScenarioTypeCodeListSchema from "../schemas/UneceScenarioTypeCodeList.json" with { type: "json" };
 import UneceScheduleSchema from "../schemas/UneceSchedule.json" with { type: "json" };
+import UneceScheduleTypeCodeListSchema from "../schemas/UneceScheduleTypeCodeList.json" with { type: "json" };
 import UneceSchedulingDocumentCodeListSchema from "../schemas/UneceSchedulingDocumentCodeList.json" with { type: "json" };
 import UneceSealSchema from "../schemas/UneceSeal.json" with { type: "json" };
 import UneceSealConditionCodeListSchema from "../schemas/UneceSealConditionCodeList.json" with { type: "json" };
 import UneceSealingPartyRoleCodeListSchema from "../schemas/UneceSealingPartyRoleCodeList.json" with { type: "json" };
 import UneceSectionSchema from "../schemas/UneceSection.json" with { type: "json" };
 import UneceSecurityTagSchema from "../schemas/UneceSecurityTag.json" with { type: "json" };
+import UneceSecurityTagTypeCodeListSchema from "../schemas/UneceSecurityTagTypeCodeList.json" with { type: "json" };
 import UneceSegmentSchema from "../schemas/UneceSegment.json" with { type: "json" };
+import UneceSegmentTypeCodeListSchema from "../schemas/UneceSegmentTypeCodeList.json" with { type: "json" };
 import UneceSensorSchema from "../schemas/UneceSensor.json" with { type: "json" };
+import UneceSensorTypeCodeListSchema from "../schemas/UneceSensorTypeCodeList.json" with { type: "json" };
 import UneceServiceSchema from "../schemas/UneceService.json" with { type: "json" };
 import UneceServiceChargeSchema from "../schemas/UneceServiceCharge.json" with { type: "json" };
 import UneceShippingMarksSchema from "../schemas/UneceShippingMarks.json" with { type: "json" };
@@ -412,27 +492,39 @@ import UneceSpatialDimensionSchema from "../schemas/UneceSpatialDimension.json" 
 import UneceSpecialQuerySchema from "../schemas/UneceSpecialQuery.json" with { type: "json" };
 import UneceSpeciesTTAnimalSchema from "../schemas/UneceSpeciesTTAnimal.json" with { type: "json" };
 import UneceSpecificationQuerySchema from "../schemas/UneceSpecificationQuery.json" with { type: "json" };
+import UneceSpecificationQueryTypeCodeListSchema from "../schemas/UneceSpecificationQueryTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedActionSchema from "../schemas/UneceSpecifiedAction.json" with { type: "json" };
+import UneceSpecifiedActionTypeCodeListSchema from "../schemas/UneceSpecifiedActionTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedCertificateSchema from "../schemas/UneceSpecifiedCertificate.json" with { type: "json" };
 import UneceSpecifiedCertificationSchema from "../schemas/UneceSpecifiedCertification.json" with { type: "json" };
 import UneceSpecifiedChemicalTreatmentSchema from "../schemas/UneceSpecifiedChemicalTreatment.json" with { type: "json" };
+import UneceSpecifiedChemicalTreatmentTypeCodeListSchema from "../schemas/UneceSpecifiedChemicalTreatmentTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedConditionSchema from "../schemas/UneceSpecifiedCondition.json" with { type: "json" };
 import UneceSpecifiedDeclarationSchema from "../schemas/UneceSpecifiedDeclaration.json" with { type: "json" };
+import UneceSpecifiedDeclarationTypeCodeListSchema from "../schemas/UneceSpecifiedDeclarationTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedFaultSchema from "../schemas/UneceSpecifiedFault.json" with { type: "json" };
+import UneceSpecifiedFaultTypeCodeListSchema from "../schemas/UneceSpecifiedFaultTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedFeatureSchema from "../schemas/UneceSpecifiedFeature.json" with { type: "json" };
+import UneceSpecifiedFeatureTypeCodeListSchema from "../schemas/UneceSpecifiedFeatureTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedInspectionSchema from "../schemas/UneceSpecifiedInspection.json" with { type: "json" };
+import UneceSpecifiedInspectionTypeCodeListSchema from "../schemas/UneceSpecifiedInspectionTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedLocationSchema from "../schemas/UneceSpecifiedLocation.json" with { type: "json" };
 import UneceSpecifiedMaterialSchema from "../schemas/UneceSpecifiedMaterial.json" with { type: "json" };
+import UneceSpecifiedMaterialTypeCodeListSchema from "../schemas/UneceSpecifiedMaterialTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedMethodSchema from "../schemas/UneceSpecifiedMethod.json" with { type: "json" };
 import UneceSpecifiedNoteSchema from "../schemas/UneceSpecifiedNote.json" with { type: "json" };
 import UneceSpecifiedParameterSchema from "../schemas/UneceSpecifiedParameter.json" with { type: "json" };
+import UneceSpecifiedParameterTypeCodeListSchema from "../schemas/UneceSpecifiedParameterTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedPeriodSchema from "../schemas/UneceSpecifiedPeriod.json" with { type: "json" };
+import UneceSpecifiedPeriodTypeCodeListSchema from "../schemas/UneceSpecifiedPeriodTypeCodeList.json" with { type: "json" };
 import UneceSpecifiedQualificationSchema from "../schemas/UneceSpecifiedQualification.json" with { type: "json" };
 import UneceSpecifiedRouteSchema from "../schemas/UneceSpecifiedRoute.json" with { type: "json" };
 import UneceSpecifiedTemperatureSchema from "../schemas/UneceSpecifiedTemperature.json" with { type: "json" };
 import UneceStandardSchema from "../schemas/UneceStandard.json" with { type: "json" };
+import UneceStandardTypeCodeListSchema from "../schemas/UneceStandardTypeCodeList.json" with { type: "json" };
 import UneceStatusCodeListSchema from "../schemas/UneceStatusCodeList.json" with { type: "json" };
 import UneceStoresItemInventorySchema from "../schemas/UneceStoresItemInventory.json" with { type: "json" };
+import UneceStoresItemInventoryTypeCodeListSchema from "../schemas/UneceStoresItemInventoryTypeCodeList.json" with { type: "json" };
 import UneceStowawaySchema from "../schemas/UneceStowaway.json" with { type: "json" };
 import UneceSubjectCodeListSchema from "../schemas/UneceSubjectCodeList.json" with { type: "json" };
 import UneceSubordinateLineTradeAgreementSchema from "../schemas/UneceSubordinateLineTradeAgreement.json" with { type: "json" };
@@ -442,19 +534,27 @@ import UneceSubordinateLocationSchema from "../schemas/UneceSubordinateLocation.
 import UneceSubordinateSubordinateLocationSchema from "../schemas/UneceSubordinateSubordinateLocation.json" with { type: "json" };
 import UneceSubordinateTradeLineItemSchema from "../schemas/UneceSubordinateTradeLineItem.json" with { type: "json" };
 import UneceSupplyChainEventSchema from "../schemas/UneceSupplyChainEvent.json" with { type: "json" };
+import UneceSupplyChainEventTypeCodeListSchema from "../schemas/UneceSupplyChainEventTypeCodeList.json" with { type: "json" };
 import UneceSupplyChainInventorySchema from "../schemas/UneceSupplyChainInventory.json" with { type: "json" };
 import UneceSupplyChainPackagingSchema from "../schemas/UneceSupplyChainPackaging.json" with { type: "json" };
 import UneceSupplyChainReferenceSchema from "../schemas/UneceSupplyChainReference.json" with { type: "json" };
+import UneceSupplyChainReferenceTypeCodeListSchema from "../schemas/UneceSupplyChainReferenceTypeCodeList.json" with { type: "json" };
 import UneceSupplyChainTradeLineItemSchema from "../schemas/UneceSupplyChainTradeLineItem.json" with { type: "json" };
+import UneceSupplyChainTradeLineItemTypeCodeListSchema from "../schemas/UneceSupplyChainTradeLineItemTypeCodeList.json" with { type: "json" };
 import UneceSupplyChainTradeTransactionSchema from "../schemas/UneceSupplyChainTradeTransaction.json" with { type: "json" };
+import UneceSupplyChainTradeTransactionTypeCodeListSchema from "../schemas/UneceSupplyChainTradeTransactionTypeCodeList.json" with { type: "json" };
 import UneceSupplyPlanSchema from "../schemas/UneceSupplyPlan.json" with { type: "json" };
+import UneceSupplyPlanTypeCodeListSchema from "../schemas/UneceSupplyPlanTypeCodeList.json" with { type: "json" };
 import UneceSustainabilityCharacteristicSchema from "../schemas/UneceSustainabilityCharacteristic.json" with { type: "json" };
+import UneceSustainabilityCharacteristicTypeCodeListSchema from "../schemas/UneceSustainabilityCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceSustainabilityInspectionSchema from "../schemas/UneceSustainabilityInspection.json" with { type: "json" };
+import UneceSustainabilityInspectionTypeCodeListSchema from "../schemas/UneceSustainabilityInspectionTypeCodeList.json" with { type: "json" };
 import UneceTaxCategoryCodeListSchema from "../schemas/UneceTaxCategoryCodeList.json" with { type: "json" };
 import UneceTaxExemptionReasonCodeListSchema from "../schemas/UneceTaxExemptionReasonCodeList.json" with { type: "json" };
 import UneceTaxRegistrationSchema from "../schemas/UneceTaxRegistration.json" with { type: "json" };
 import UneceTaxTypeCodeListSchema from "../schemas/UneceTaxTypeCodeList.json" with { type: "json" };
 import UneceTechnicalCharacteristicSchema from "../schemas/UneceTechnicalCharacteristic.json" with { type: "json" };
+import UneceTechnicalCharacteristicTypeCodeListSchema from "../schemas/UneceTechnicalCharacteristicTypeCodeList.json" with { type: "json" };
 import UneceTemperatureSettingInstructionsSchema from "../schemas/UneceTemperatureSettingInstructions.json" with { type: "json" };
 import UneceTemperatureTypeCodeListSchema from "../schemas/UneceTemperatureTypeCodeList.json" with { type: "json" };
 import UneceTemperatureUnitMeasureCodeSchema from "../schemas/UneceTemperatureUnitMeasureCode.json" with { type: "json" };
@@ -471,6 +571,8 @@ import UneceTradePriceSchema from "../schemas/UneceTradePrice.json" with { type:
 import UneceTradeProductSchema from "../schemas/UneceTradeProduct.json" with { type: "json" };
 import UneceTradeProductCertificationSchema from "../schemas/UneceTradeProductCertification.json" with { type: "json" };
 import UneceTradeProductFeatureSchema from "../schemas/UneceTradeProductFeature.json" with { type: "json" };
+import UneceTradeProductFeatureTypeCodeListSchema from "../schemas/UneceTradeProductFeatureTypeCodeList.json" with { type: "json" };
+import UneceTradeProductTypeCodeListSchema from "../schemas/UneceTradeProductTypeCodeList.json" with { type: "json" };
 import UneceTradeSettlementHeaderMonetarySummationSchema from "../schemas/UneceTradeSettlementHeaderMonetarySummation.json" with { type: "json" };
 import UneceTradeSettlementLineMonetarySummationSchema from "../schemas/UneceTradeSettlementLineMonetarySummation.json" with { type: "json" };
 import UneceTradeSettlementMonetarySummationSchema from "../schemas/UneceTradeSettlementMonetarySummation.json" with { type: "json" };
@@ -480,6 +582,8 @@ import UneceTradeTaxSchema from "../schemas/UneceTradeTax.json" with { type: "js
 import UneceTransportationHealthSchema from "../schemas/UneceTransportationHealth.json" with { type: "json" };
 import UneceTransportationWasteMaterialSchema from "../schemas/UneceTransportationWasteMaterial.json" with { type: "json" };
 import UneceTransportationWasteMaterialComponentSchema from "../schemas/UneceTransportationWasteMaterialComponent.json" with { type: "json" };
+import UneceTransportationWasteMaterialComponentTypeCodeListSchema from "../schemas/UneceTransportationWasteMaterialComponentTypeCodeList.json" with { type: "json" };
+import UneceTransportationWasteMaterialTypeCodeListSchema from "../schemas/UneceTransportationWasteMaterialTypeCodeList.json" with { type: "json" };
 import UneceTransportationWasteRecoveryDisposalProcessSchema from "../schemas/UneceTransportationWasteRecoveryDisposalProcess.json" with { type: "json" };
 import UneceTransportContractMovementCodeListSchema from "../schemas/UneceTransportContractMovementCodeList.json" with { type: "json" };
 import UneceTransportEquipmentCategoryCodeListSchema from "../schemas/UneceTransportEquipmentCategoryCodeList.json" with { type: "json" };
@@ -491,6 +595,7 @@ import UneceTransportEquipmentOperationalStatusCodeListSchema from "../schemas/U
 import UneceTransportEquipmentSizeTypeCodeListSchema from "../schemas/UneceTransportEquipmentSizeTypeCodeList.json" with { type: "json" };
 import UneceTransportEquipmentSupplierPartyRoleCodeListSchema from "../schemas/UneceTransportEquipmentSupplierPartyRoleCodeList.json" with { type: "json" };
 import UneceTransportEventSchema from "../schemas/UneceTransportEvent.json" with { type: "json" };
+import UneceTransportEventTypeCodeListSchema from "../schemas/UneceTransportEventTypeCodeList.json" with { type: "json" };
 import UneceTransportInstructionsSchema from "../schemas/UneceTransportInstructions.json" with { type: "json" };
 import UneceTransportMeansSchema from "../schemas/UneceTransportMeans.json" with { type: "json" };
 import UneceTransportMeansDirectionCodeListSchema from "../schemas/UneceTransportMeansDirectionCodeList.json" with { type: "json" };
@@ -526,6 +631,7 @@ import UneceVersionSchema from "../schemas/UneceVersion.json" with { type: "json
 import UneceVolumeUnitMeasureCodeSchema from "../schemas/UneceVolumeUnitMeasureCode.json" with { type: "json" };
 import UneceVolumeUnitMeasureTypeSchema from "../schemas/UneceVolumeUnitMeasureType.json" with { type: "json" };
 import UneceVoucherSchema from "../schemas/UneceVoucher.json" with { type: "json" };
+import UneceVoucherTypeCodeListSchema from "../schemas/UneceVoucherTypeCodeList.json" with { type: "json" };
 import UneceWasteMaterialRecoveryDisposalProcessSchema from "../schemas/UneceWasteMaterialRecoveryDisposalProcess.json" with { type: "json" };
 import UneceWasteOriginProcessSchema from "../schemas/UneceWasteOriginProcess.json" with { type: "json" };
 import UneceWeightUnitMeasureCodeSchema from "../schemas/UneceWeightUnitMeasureCode.json" with { type: "json" };
@@ -537,6 +643,7 @@ import UneceXHEContextSchema from "../schemas/UneceXHEContext.json" with { type:
 import UneceXHEDocumentSchema from "../schemas/UneceXHEDocument.json" with { type: "json" };
 import UneceXHEIdentitySchema from "../schemas/UneceXHEIdentity.json" with { type: "json" };
 import UneceXHEParameterSchema from "../schemas/UneceXHEParameter.json" with { type: "json" };
+import UneceXHEParameterTypeCodeListSchema from "../schemas/UneceXHEParameterTypeCodeList.json" with { type: "json" };
 import UneceXHEPartySchema from "../schemas/UneceXHEParty.json" with { type: "json" };
 import UneceXHEReferenceSchema from "../schemas/UneceXHEReference.json" with { type: "json" };
 
@@ -656,6 +763,10 @@ export class UneceDataTypes {
 				schema: UneceAccreditationSchema
 			},
 			{
+				type: UneceTypes.AccreditationTypeCodeList,
+				schema: UneceAccreditationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.AcknowledgementCodeList,
 				schema: UneceAcknowledgementCodeListSchema
 			},
@@ -696,8 +807,16 @@ export class UneceDataTypes {
 				schema: UneceAgriculturalCharacteristicSchema
 			},
 			{
+				type: UneceTypes.AgriculturalCharacteristicTypeCodeList,
+				schema: UneceAgriculturalCharacteristicTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.AgriculturalProcess,
 				schema: UneceAgriculturalProcessSchema
+			},
+			{
+				type: UneceTypes.AgriculturalProcessTypeCodeList,
+				schema: UneceAgriculturalProcessTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.AgriculturalZoneArea,
@@ -714,6 +833,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Allergy,
 				schema: UneceAllergySchema
+			},
+			{
+				type: UneceTypes.AllergyTypeCodeList,
+				schema: UneceAllergyTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.AllowanceChargeIdCodeList,
@@ -760,6 +883,10 @@ export class UneceDataTypes {
 				schema: UneceAnimalHoldingEventSchema
 			},
 			{
+				type: UneceTypes.AnimalHoldingEventTypeCodeList,
+				schema: UneceAnimalHoldingEventTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.AnimalIdentity,
 				schema: UneceAnimalIdentitySchema
 			},
@@ -788,6 +915,10 @@ export class UneceDataTypes {
 				schema: UneceAssessmentSchema
 			},
 			{
+				type: UneceTypes.AssessmentTypeCodeList,
+				schema: UneceAssessmentTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.AssociatedTransportEquipment,
 				schema: UneceAssociatedTransportEquipmentSchema
 			},
@@ -814,6 +945,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.BasicWorkItem,
 				schema: UneceBasicWorkItemSchema
+			},
+			{
+				type: UneceTypes.BasicWorkItemTypeCodeList,
+				schema: UneceBasicWorkItemTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.BillingDocumentCodeList,
@@ -860,6 +995,10 @@ export class UneceDataTypes {
 				schema: UneceCalibratedMeasurementSchema
 			},
 			{
+				type: UneceTypes.CalibratedMeasurementTypeCodeList,
+				schema: UneceCalibratedMeasurementTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.CancellationStatus,
 				schema: UneceCancellationStatusSchema
 			},
@@ -892,8 +1031,16 @@ export class UneceDataTypes {
 				schema: UneceCarriedEquipmentSchema
 			},
 			{
+				type: UneceTypes.CarriedEquipmentTypeCodeList,
+				schema: UneceCarriedEquipmentTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Cash,
 				schema: UneceCashSchema
+			},
+			{
+				type: UneceTypes.CashTypeCodeList,
+				schema: UneceCashTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.CertificateTypeCodeList,
@@ -908,8 +1055,16 @@ export class UneceDataTypes {
 				schema: UneceChemicalSchema
 			},
 			{
+				type: UneceTypes.ChemicalTypeCodeList,
+				schema: UneceChemicalTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Cheque,
 				schema: UneceChequeSchema
+			},
+			{
+				type: UneceTypes.ChequeTypeCodeList,
+				schema: UneceChequeTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Circle,
@@ -918,6 +1073,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Classification,
 				schema: UneceClassificationSchema
+			},
+			{
+				type: UneceTypes.ClassificationTypeCodeList,
+				schema: UneceClassificationTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Clause,
@@ -930,6 +1089,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Colour,
 				schema: UneceColourSchema
+			},
+			{
+				type: UneceTypes.ColourTypeCodeList,
+				schema: UneceColourTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.CommitmentLevelCodeList,
@@ -946,6 +1109,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.CommunicationEvent,
 				schema: UneceCommunicationEventSchema
+			},
+			{
+				type: UneceTypes.CommunicationEventTypeCodeList,
+				schema: UneceCommunicationEventTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.ComplexDescription,
@@ -980,6 +1147,10 @@ export class UneceDataTypes {
 				schema: UneceControlSettingParameterSchema
 			},
 			{
+				type: UneceTypes.ControlSettingParameterTypeCodeList,
+				schema: UneceControlSettingParameterTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Convoy,
 				schema: UneceConvoySchema
 			},
@@ -1000,6 +1171,10 @@ export class UneceDataTypes {
 				schema: UneceCorrectiveActionSchema
 			},
 			{
+				type: UneceTypes.CorrectiveActionTypeCodeList,
+				schema: UneceCorrectiveActionTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.CorrectiveEvent,
 				schema: UneceCorrectiveEventSchema
 			},
@@ -1014,6 +1189,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.CountrySubDivision,
 				schema: UneceCountrySubDivisionSchema
+			},
+			{
+				type: UneceTypes.CountrySubDivisionTypeCodeList,
+				schema: UneceCountrySubDivisionTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.CreditorFinancialAccount,
@@ -1032,8 +1211,16 @@ export class UneceDataTypes {
 				schema: UneceCropProduceBatchSchema
 			},
 			{
+				type: UneceTypes.CropProduceBatchTypeCodeList,
+				schema: UneceCropProduceBatchTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.CropProtectionTreatment,
 				schema: UneceCropProtectionTreatmentSchema
+			},
+			{
+				type: UneceTypes.CropProtectionTreatmentTypeCodeList,
+				schema: UneceCropProtectionTreatmentTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.CurrencyCodeList,
@@ -1058,6 +1245,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.CustomsValuation,
 				schema: UneceCustomsValuationSchema
+			},
+			{
+				type: UneceTypes.CustomsValuationTypeCodeList,
+				schema: UneceCustomsValuationTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.DangerousGoods,
@@ -1116,6 +1307,10 @@ export class UneceDataTypes {
 				schema: UneceDigitalMethodSchema
 			},
 			{
+				type: UneceTypes.DigitalMethodTypeCodeList,
+				schema: UneceDigitalMethodTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.DimensionTypeCodeList,
 				schema: UneceDimensionTypeCodeListSchema
 			},
@@ -1128,6 +1323,10 @@ export class UneceDataTypes {
 				schema: UneceDisabilitySchema
 			},
 			{
+				type: UneceTypes.DisabilityTypeCodeList,
+				schema: UneceDisabilityTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.DisposalInstructions,
 				schema: UneceDisposalInstructionsSchema
 			},
@@ -1138,6 +1337,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.DocumentCharacteristic,
 				schema: UneceDocumentCharacteristicSchema
+			},
+			{
+				type: UneceTypes.DocumentCharacteristicTypeCodeList,
+				schema: UneceDocumentCharacteristicTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.DocumentCodeList,
@@ -1176,6 +1379,10 @@ export class UneceDataTypes {
 				schema: UneceEmissionSchema
 			},
 			{
+				type: UneceTypes.EmissionTypeCodeList,
+				schema: UneceEmissionTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.EmployerIdentity,
 				schema: UneceEmployerIdentitySchema
 			},
@@ -1186,6 +1393,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Equipment,
 				schema: UneceEquipmentSchema
+			},
+			{
+				type: UneceTypes.EquipmentTypeCodeList,
+				schema: UneceEquipmentTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Error,
@@ -1256,6 +1467,10 @@ export class UneceDataTypes {
 				schema: UneceFinancialCardSchema
 			},
 			{
+				type: UneceTypes.FinancialCardTypeCodeList,
+				schema: UneceFinancialCardTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.FinancialIdentity,
 				schema: UneceFinancialIdentitySchema
 			},
@@ -1292,6 +1507,10 @@ export class UneceDataTypes {
 				schema: UneceFoodChoiceSchema
 			},
 			{
+				type: UneceTypes.FoodChoiceTypeCodeList,
+				schema: UneceFoodChoiceTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ForecastTerms,
 				schema: UneceForecastTermsSchema
 			},
@@ -1306,6 +1525,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Fuel,
 				schema: UneceFuelSchema
+			},
+			{
+				type: UneceTypes.FuelTypeCodeList,
+				schema: UneceFuelTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.GeographicalArea,
@@ -1356,8 +1579,16 @@ export class UneceDataTypes {
 				schema: UneceGeopoliticalRegionSchema
 			},
 			{
+				type: UneceTypes.GeopoliticalRegionTypeCodeList,
+				schema: UneceGeopoliticalRegionTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.GoodsCharacteristic,
 				schema: UneceGoodsCharacteristicSchema
+			},
+			{
+				type: UneceTypes.GoodsCharacteristicTypeCodeList,
+				schema: UneceGoodsCharacteristicTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.GoodsTypeCodeList,
@@ -1376,8 +1607,16 @@ export class UneceDataTypes {
 				schema: UneceGovernmentRegistrationSchema
 			},
 			{
+				type: UneceTypes.GovernmentRegistrationTypeCodeList,
+				schema: UneceGovernmentRegistrationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.GroupedWorkItem,
 				schema: UneceGroupedWorkItemSchema
+			},
+			{
+				type: UneceTypes.GroupedWorkItemTypeCodeList,
+				schema: UneceGroupedWorkItemTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Guarantee,
@@ -1390,6 +1629,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.GuestHealthIndication,
 				schema: UneceGuestHealthIndicationSchema
+			},
+			{
+				type: UneceTypes.GuestHealthIndicationTypeCodeList,
+				schema: UneceGuestHealthIndicationTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.GuestPerson,
@@ -1448,6 +1691,10 @@ export class UneceDataTypes {
 				schema: UneceInspectionEventSchema
 			},
 			{
+				type: UneceTypes.InspectionEventTypeCodeList,
+				schema: UneceInspectionEventTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.InspectionInstructions,
 				schema: UneceInspectionInstructionsSchema
 			},
@@ -1496,8 +1743,16 @@ export class UneceDataTypes {
 				schema: UneceIOTDeviceSchema
 			},
 			{
+				type: UneceTypes.IOTDeviceTypeCodeList,
+				schema: UneceIOTDeviceTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Issue,
 				schema: UneceIssueSchema
+			},
+			{
+				type: UneceTypes.IssueTypeCodeList,
+				schema: UneceIssueTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Keyword,
@@ -1544,12 +1799,24 @@ export class UneceDataTypes {
 				schema: UneceLegalOrganizationSchema
 			},
 			{
+				type: UneceTypes.LegalOrganizationTypeCodeList,
+				schema: UneceLegalOrganizationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.LegalRegistration,
 				schema: UneceLegalRegistrationSchema
 			},
 			{
+				type: UneceTypes.LegalRegistrationTypeCodeList,
+				schema: UneceLegalRegistrationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Licence,
 				schema: UneceLicenceSchema
+			},
+			{
+				type: UneceTypes.LicenceTypeCodeList,
+				schema: UneceLicenceTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.LifetimeEndCostCodeList,
@@ -1600,6 +1867,10 @@ export class UneceDataTypes {
 				schema: UneceLocationPartySchema
 			},
 			{
+				type: UneceTypes.LocationPartyTypeCodeList,
+				schema: UneceLocationPartyTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.LogisticsChargeCalculationBasisCodeList,
 				schema: UneceLogisticsChargeCalculationBasisCodeListSchema
 			},
@@ -1614,6 +1885,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.LogisticsPackaging,
 				schema: UneceLogisticsPackagingSchema
+			},
+			{
+				type: UneceTypes.LogisticsPackagingTypeCodeList,
+				schema: UneceLogisticsPackagingTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.LogisticsStatus,
@@ -1636,6 +1911,10 @@ export class UneceDataTypes {
 				schema: UneceMachineSchema
 			},
 			{
+				type: UneceTypes.MachineTypeCodeList,
+				schema: UneceMachineTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Marketplace,
 				schema: UneceMarketplaceSchema
 			},
@@ -1652,6 +1931,10 @@ export class UneceDataTypes {
 				schema: UneceMDHHealthIndicationSchema
 			},
 			{
+				type: UneceTypes.MDHHealthIndicationTypeCodeList,
+				schema: UneceMDHHealthIndicationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.MeasureCode,
 				schema: UneceMeasureCodeSchema
 			},
@@ -1662,6 +1945,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.Measurement,
 				schema: UneceMeasurementSchema
+			},
+			{
+				type: UneceTypes.MeasurementTypeCodeList,
+				schema: UneceMeasurementTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.MeasureType,
@@ -1680,8 +1967,16 @@ export class UneceDataTypes {
 				schema: UneceMetricCharacteristicSchema
 			},
 			{
+				type: UneceTypes.MetricCharacteristicTypeCodeList,
+				schema: UneceMetricCharacteristicTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.NegotiationContext,
 				schema: UneceNegotiationContextSchema
+			},
+			{
+				type: UneceTypes.NegotiationContextTypeCodeList,
+				schema: UneceNegotiationContextTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.NegotiationExchange,
@@ -1696,12 +1991,20 @@ export class UneceDataTypes {
 				schema: UneceObjectSchema
 			},
 			{
+				type: UneceTypes.ObjectTypeCodeList,
+				schema: UneceObjectTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Observation,
 				schema: UneceObservationSchema
 			},
 			{
 				type: UneceTypes.ObservationObjectiveParameter,
 				schema: UneceObservationObjectiveParameterSchema
+			},
+			{
+				type: UneceTypes.ObservationObjectiveParameterTypeCodeList,
+				schema: UneceObservationObjectiveParameterTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.ObservationResult,
@@ -1716,6 +2019,10 @@ export class UneceDataTypes {
 				schema: UneceOperationalParameterSchema
 			},
 			{
+				type: UneceTypes.OperationalParameterTypeCodeList,
+				schema: UneceOperationalParameterTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.OrganizationalCertificate,
 				schema: UneceOrganizationalCertificateSchema
 			},
@@ -1726,6 +2033,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.OrganizationCharacteristic,
 				schema: UneceOrganizationCharacteristicSchema
+			},
+			{
+				type: UneceTypes.OrganizationCharacteristicTypeCodeList,
+				schema: UneceOrganizationCharacteristicTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.OrganizationFunctionTypeCodeList,
@@ -1784,8 +2095,16 @@ export class UneceDataTypes {
 				schema: UnecePaymentFinancialAccountSchema
 			},
 			{
+				type: UneceTypes.PaymentFinancialAccountTypeCodeList,
+				schema: UnecePaymentFinancialAccountTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.PaymentFinancialInstitution,
 				schema: UnecePaymentFinancialInstitutionSchema
+			},
+			{
+				type: UneceTypes.PaymentFinancialInstitutionTypeCodeList,
+				schema: UnecePaymentFinancialInstitutionTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.PaymentGuaranteeMeansCodeList,
@@ -1832,8 +2151,16 @@ export class UneceDataTypes {
 				schema: UnecePaymentTradeSettlementSchema
 			},
 			{
+				type: UneceTypes.PaymentTradeSettlementTypeCodeList,
+				schema: UnecePaymentTradeSettlementTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.PersonalEffects,
 				schema: UnecePersonalEffectsSchema
+			},
+			{
+				type: UneceTypes.PersonalEffectsTypeCodeList,
+				schema: UnecePersonalEffectsTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.PersonIdentity,
@@ -1872,12 +2199,20 @@ export class UneceDataTypes {
 				schema: UnecePreventiveActionSchema
 			},
 			{
+				type: UneceTypes.PreventiveActionTypeCodeList,
+				schema: UnecePreventiveActionTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.PriceTypeCodeList,
 				schema: UnecePriceTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Print,
 				schema: UnecePrintSchema
+			},
+			{
+				type: UneceTypes.PrintTypeCodeList,
+				schema: UnecePrintTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.PriorityDescriptionCodeList,
@@ -1904,8 +2239,16 @@ export class UneceDataTypes {
 				schema: UneceProcessWorkItemSchema
 			},
 			{
+				type: UneceTypes.ProcessWorkItemTypeCodeList,
+				schema: UneceProcessWorkItemTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Produce,
 				schema: UneceProduceSchema
+			},
+			{
+				type: UneceTypes.ProduceTypeCodeList,
+				schema: UneceProduceTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Product,
@@ -1928,6 +2271,14 @@ export class UneceDataTypes {
 				schema: UneceProductBatchCharacteristicSchema
 			},
 			{
+				type: UneceTypes.ProductBatchCharacteristicTypeCodeList,
+				schema: UneceProductBatchCharacteristicTypeCodeListSchema
+			},
+			{
+				type: UneceTypes.ProductBatchTypeCodeList,
+				schema: UneceProductBatchTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ProductCertificate,
 				schema: UneceProductCertificateSchema
 			},
@@ -1940,8 +2291,20 @@ export class UneceDataTypes {
 				schema: UneceProductCharacteristicConditionSchema
 			},
 			{
+				type: UneceTypes.ProductCharacteristicConditionTypeCodeList,
+				schema: UneceProductCharacteristicConditionTypeCodeListSchema
+			},
+			{
+				type: UneceTypes.ProductCharacteristicTypeCodeList,
+				schema: UneceProductCharacteristicTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ProductFinishingTreatment,
 				schema: UneceProductFinishingTreatmentSchema
+			},
+			{
+				type: UneceTypes.ProductFinishingTreatmentTypeCodeList,
+				schema: UneceProductFinishingTreatmentTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.ProductGroup,
@@ -1968,6 +2331,10 @@ export class UneceDataTypes {
 				schema: UneceProductionDeviceSchema
 			},
 			{
+				type: UneceTypes.ProductionDeviceTypeCodeList,
+				schema: UneceProductionDeviceTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ProductionFacility,
 				schema: UneceProductionFacilitySchema
 			},
@@ -1980,12 +2347,24 @@ export class UneceDataTypes {
 				schema: UneceProductionUnitSchema
 			},
 			{
+				type: UneceTypes.ProductionUnitTypeCodeList,
+				schema: UneceProductionUnitTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ProductionWasteMaterial,
 				schema: UneceProductionWasteMaterialSchema
 			},
 			{
 				type: UneceTypes.ProductionWasteMaterialComponent,
 				schema: UneceProductionWasteMaterialComponentSchema
+			},
+			{
+				type: UneceTypes.ProductionWasteMaterialComponentTypeCodeList,
+				schema: UneceProductionWasteMaterialComponentTypeCodeListSchema
+			},
+			{
+				type: UneceTypes.ProductionWasteMaterialTypeCodeList,
+				schema: UneceProductionWasteMaterialTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.ProductionWasteRecoveryDisposalProcess,
@@ -2000,6 +2379,10 @@ export class UneceDataTypes {
 				schema: UneceProjectSchema
 			},
 			{
+				type: UneceTypes.ProjectTypeCodeList,
+				schema: UneceProjectTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ProprietaryIdentity,
 				schema: UneceProprietaryIdentitySchema
 			},
@@ -2010,6 +2393,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.QuantityAnalysis,
 				schema: UneceQuantityAnalysisSchema
+			},
+			{
+				type: UneceTypes.QuantityAnalysisTypeCodeList,
+				schema: UneceQuantityAnalysisTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.QuantityCode,
@@ -2036,12 +2423,20 @@ export class UneceDataTypes {
 				schema: UneceRadioactiveMaterialSchema
 			},
 			{
+				type: UneceTypes.RadioactiveMaterialTypeCodeList,
+				schema: UneceRadioactiveMaterialTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Radionuclide,
 				schema: UneceRadionuclideSchema
 			},
 			{
 				type: UneceTypes.Range,
 				schema: UneceRangeSchema
+			},
+			{
+				type: UneceTypes.RangeTypeCodeList,
+				schema: UneceRangeTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.RecordedStatus,
@@ -2088,6 +2483,10 @@ export class UneceDataTypes {
 				schema: UneceRequirementSchema
 			},
 			{
+				type: UneceTypes.RequirementTypeCodeList,
+				schema: UneceRequirementTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Response,
 				schema: UneceResponseSchema
 			},
@@ -2116,12 +2515,20 @@ export class UneceDataTypes {
 				schema: UneceSanitaryMeasureSchema
 			},
 			{
+				type: UneceTypes.SanitaryMeasureTypeCodeList,
+				schema: UneceSanitaryMeasureTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.ScenarioTypeCodeList,
 				schema: UneceScenarioTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Schedule,
 				schema: UneceScheduleSchema
+			},
+			{
+				type: UneceTypes.ScheduleTypeCodeList,
+				schema: UneceScheduleTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SchedulingDocumentCodeList,
@@ -2148,12 +2555,24 @@ export class UneceDataTypes {
 				schema: UneceSecurityTagSchema
 			},
 			{
+				type: UneceTypes.SecurityTagTypeCodeList,
+				schema: UneceSecurityTagTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Segment,
 				schema: UneceSegmentSchema
 			},
 			{
+				type: UneceTypes.SegmentTypeCodeList,
+				schema: UneceSegmentTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.Sensor,
 				schema: UneceSensorSchema
+			},
+			{
+				type: UneceTypes.SensorTypeCodeList,
+				schema: UneceSensorTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Service,
@@ -2192,8 +2611,16 @@ export class UneceDataTypes {
 				schema: UneceSpecificationQuerySchema
 			},
 			{
+				type: UneceTypes.SpecificationQueryTypeCodeList,
+				schema: UneceSpecificationQueryTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SpecifiedAction,
 				schema: UneceSpecifiedActionSchema
+			},
+			{
+				type: UneceTypes.SpecifiedActionTypeCodeList,
+				schema: UneceSpecifiedActionTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SpecifiedCertificate,
@@ -2208,6 +2635,10 @@ export class UneceDataTypes {
 				schema: UneceSpecifiedChemicalTreatmentSchema
 			},
 			{
+				type: UneceTypes.SpecifiedChemicalTreatmentTypeCodeList,
+				schema: UneceSpecifiedChemicalTreatmentTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SpecifiedCondition,
 				schema: UneceSpecifiedConditionSchema
 			},
@@ -2216,16 +2647,32 @@ export class UneceDataTypes {
 				schema: UneceSpecifiedDeclarationSchema
 			},
 			{
+				type: UneceTypes.SpecifiedDeclarationTypeCodeList,
+				schema: UneceSpecifiedDeclarationTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SpecifiedFault,
 				schema: UneceSpecifiedFaultSchema
+			},
+			{
+				type: UneceTypes.SpecifiedFaultTypeCodeList,
+				schema: UneceSpecifiedFaultTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SpecifiedFeature,
 				schema: UneceSpecifiedFeatureSchema
 			},
 			{
+				type: UneceTypes.SpecifiedFeatureTypeCodeList,
+				schema: UneceSpecifiedFeatureTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SpecifiedInspection,
 				schema: UneceSpecifiedInspectionSchema
+			},
+			{
+				type: UneceTypes.SpecifiedInspectionTypeCodeList,
+				schema: UneceSpecifiedInspectionTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SpecifiedLocation,
@@ -2234,6 +2681,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.SpecifiedMaterial,
 				schema: UneceSpecifiedMaterialSchema
+			},
+			{
+				type: UneceTypes.SpecifiedMaterialTypeCodeList,
+				schema: UneceSpecifiedMaterialTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SpecifiedMethod,
@@ -2248,8 +2699,16 @@ export class UneceDataTypes {
 				schema: UneceSpecifiedParameterSchema
 			},
 			{
+				type: UneceTypes.SpecifiedParameterTypeCodeList,
+				schema: UneceSpecifiedParameterTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SpecifiedPeriod,
 				schema: UneceSpecifiedPeriodSchema
+			},
+			{
+				type: UneceTypes.SpecifiedPeriodTypeCodeList,
+				schema: UneceSpecifiedPeriodTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SpecifiedQualification,
@@ -2268,12 +2727,20 @@ export class UneceDataTypes {
 				schema: UneceStandardSchema
 			},
 			{
+				type: UneceTypes.StandardTypeCodeList,
+				schema: UneceStandardTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.StatusCodeList,
 				schema: UneceStatusCodeListSchema
 			},
 			{
 				type: UneceTypes.StoresItemInventory,
 				schema: UneceStoresItemInventorySchema
+			},
+			{
+				type: UneceTypes.StoresItemInventoryTypeCodeList,
+				schema: UneceStoresItemInventoryTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.Stowaway,
@@ -2312,6 +2779,10 @@ export class UneceDataTypes {
 				schema: UneceSupplyChainEventSchema
 			},
 			{
+				type: UneceTypes.SupplyChainEventTypeCodeList,
+				schema: UneceSupplyChainEventTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SupplyChainInventory,
 				schema: UneceSupplyChainInventorySchema
 			},
@@ -2324,24 +2795,48 @@ export class UneceDataTypes {
 				schema: UneceSupplyChainReferenceSchema
 			},
 			{
+				type: UneceTypes.SupplyChainReferenceTypeCodeList,
+				schema: UneceSupplyChainReferenceTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SupplyChainTradeLineItem,
 				schema: UneceSupplyChainTradeLineItemSchema
+			},
+			{
+				type: UneceTypes.SupplyChainTradeLineItemTypeCodeList,
+				schema: UneceSupplyChainTradeLineItemTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SupplyChainTradeTransaction,
 				schema: UneceSupplyChainTradeTransactionSchema
 			},
 			{
+				type: UneceTypes.SupplyChainTradeTransactionTypeCodeList,
+				schema: UneceSupplyChainTradeTransactionTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SupplyPlan,
 				schema: UneceSupplyPlanSchema
+			},
+			{
+				type: UneceTypes.SupplyPlanTypeCodeList,
+				schema: UneceSupplyPlanTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.SustainabilityCharacteristic,
 				schema: UneceSustainabilityCharacteristicSchema
 			},
 			{
+				type: UneceTypes.SustainabilityCharacteristicTypeCodeList,
+				schema: UneceSustainabilityCharacteristicTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.SustainabilityInspection,
 				schema: UneceSustainabilityInspectionSchema
+			},
+			{
+				type: UneceTypes.SustainabilityInspectionTypeCodeList,
+				schema: UneceSustainabilityInspectionTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.TaxCategoryCodeList,
@@ -2362,6 +2857,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TechnicalCharacteristic,
 				schema: UneceTechnicalCharacteristicSchema
+			},
+			{
+				type: UneceTypes.TechnicalCharacteristicTypeCodeList,
+				schema: UneceTechnicalCharacteristicTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.TemperatureSettingInstructions,
@@ -2428,6 +2927,14 @@ export class UneceDataTypes {
 				schema: UneceTradeProductFeatureSchema
 			},
 			{
+				type: UneceTypes.TradeProductFeatureTypeCodeList,
+				schema: UneceTradeProductFeatureTypeCodeListSchema
+			},
+			{
+				type: UneceTypes.TradeProductTypeCodeList,
+				schema: UneceTradeProductTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.TradeSettlementHeaderMonetarySummation,
 				schema: UneceTradeSettlementHeaderMonetarySummationSchema
 			},
@@ -2462,6 +2969,14 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportationWasteMaterialComponent,
 				schema: UneceTransportationWasteMaterialComponentSchema
+			},
+			{
+				type: UneceTypes.TransportationWasteMaterialComponentTypeCodeList,
+				schema: UneceTransportationWasteMaterialComponentTypeCodeListSchema
+			},
+			{
+				type: UneceTypes.TransportationWasteMaterialTypeCodeList,
+				schema: UneceTransportationWasteMaterialTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.TransportationWasteRecoveryDisposalProcess,
@@ -2506,6 +3021,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.TransportEvent,
 				schema: UneceTransportEventSchema
+			},
+			{
+				type: UneceTypes.TransportEventTypeCodeList,
+				schema: UneceTransportEventTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.TransportInstructions,
@@ -2648,6 +3167,10 @@ export class UneceDataTypes {
 				schema: UneceVoucherSchema
 			},
 			{
+				type: UneceTypes.VoucherTypeCodeList,
+				schema: UneceVoucherTypeCodeListSchema
+			},
+			{
 				type: UneceTypes.WasteMaterialRecoveryDisposalProcess,
 				schema: UneceWasteMaterialRecoveryDisposalProcessSchema
 			},
@@ -2690,6 +3213,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.XHEParameter,
 				schema: UneceXHEParameterSchema
+			},
+			{
+				type: UneceTypes.XHEParameterTypeCodeList,
+				schema: UneceXHEParameterTypeCodeListSchema
 			},
 			{
 				type: UneceTypes.XHEParty,

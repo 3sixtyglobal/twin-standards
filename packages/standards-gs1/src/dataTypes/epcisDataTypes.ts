@@ -64,7 +64,7 @@ export class EpcisDataTypes {
 		DataTypeHelper.registerTypes(
 			EpcisContexts.JsonSchemaNamespace,
 			EpcisContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `Epcis${t.type}`, schema: t.schema }))
 		);
 	}
 }

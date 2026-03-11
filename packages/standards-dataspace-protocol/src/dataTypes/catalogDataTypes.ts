@@ -56,7 +56,7 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
 		);
 
 		// These are the custom version of the DCAT3 classes with DS Protocol constraints
@@ -104,7 +104,7 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			typesDcat3
+			typesDcat3.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
 		);
 
 		// These are the custom version of the odrl classes with DS Protocol constraints
@@ -152,7 +152,7 @@ export class CatalogDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			typesOdrl
+			typesOdrl.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
 		);
 	}
 }

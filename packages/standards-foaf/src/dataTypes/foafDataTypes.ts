@@ -57,7 +57,7 @@ export abstract class FoafDataTypes {
 		DataTypeHelper.registerTypes(
 			FoafContexts.JsonSchemaNamespace,
 			FoafContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `Foaf${t.type}`, schema: t.schema }))
 		);
 	}
 }

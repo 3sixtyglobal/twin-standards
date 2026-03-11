@@ -23,7 +23,11 @@ export abstract class DidDataTypes {
 		];
 
 		DataTypeHelper.registerTypes(DidContexts.Namespace, undefined, types);
-		DataTypeHelper.registerTypes(DidContexts.JsonSchemaNamespace, undefined, types);
+		DataTypeHelper.registerTypes(
+			DidContexts.JsonSchemaNamespace,
+			undefined,
+			types.map(t => ({ type: `Did${t.type}`, schema: t.schema }))
+		);
 
 		const typesCredentials = [
 			{
@@ -38,6 +42,10 @@ export abstract class DidDataTypes {
 
 		DataTypeHelper.registerTypes(DidContexts.NamespaceVCv1, undefined, typesCredentials);
 		DataTypeHelper.registerTypes(DidContexts.NamespaceVCv2, undefined, typesCredentials);
-		DataTypeHelper.registerTypes(DidContexts.JsonSchemaNamespace, undefined, typesCredentials);
+		DataTypeHelper.registerTypes(
+			DidContexts.JsonSchemaNamespace,
+			undefined,
+			typesCredentials.map(t => ({ type: `Did${t.type}`, schema: t.schema }))
+		);
 	}
 }

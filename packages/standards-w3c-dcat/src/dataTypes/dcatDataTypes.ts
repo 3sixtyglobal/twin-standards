@@ -78,7 +78,7 @@ export class DcatDataTypes {
 		DataTypeHelper.registerTypes(
 			DcatContexts.JsonSchemaNamespace,
 			DcatContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `Dcat${t.type}`, schema: t.schema }))
 		);
 	}
 }

@@ -74,7 +74,7 @@ export class ContractNegotiationDataTypes {
 		DataTypeHelper.registerTypes(
 			DataspaceProtocolContexts.JsonSchemaNamespace,
 			DataspaceProtocolContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `DataspaceProtocol${t.type}`, schema: t.schema }))
 		);
 	}
 }

@@ -33,6 +33,7 @@ import ProfileSchema from "../schemas/ActivityStreamsProfile.json" with { type: 
 import RelationshipSchema from "../schemas/ActivityStreamsRelationship.json" with { type: "json" };
 import ServiceSchema from "../schemas/ActivityStreamsService.json" with { type: "json" };
 import TombstoneSchema from "../schemas/ActivityStreamsTombstone.json" with { type: "json" };
+import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json" with { type: "json" };
 import VideoSchema from "../schemas/ActivityStreamsVideo.json" with { type: "json" };
 
 /**
@@ -275,8 +276,12 @@ export abstract class ActivityStreamsDataTypes {
 				schema: VideoSchema
 			},
 			{
-				type: "ActivityStreamsObjectTypes",
+				type: "ObjectTypes",
 				schema: ActivityStreamsObjectTypesSchema
+			},
+			{
+				type: "Types",
+				schema: ActivityStreamsTypesSchema
 			}
 		];
 
@@ -289,7 +294,7 @@ export abstract class ActivityStreamsDataTypes {
 		DataTypeHelper.registerTypes(
 			ActivityStreamsContexts.JsonSchemaNamespace,
 			ActivityStreamsContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `ActivityStreams${t.type}`, schema: t.schema }))
 		);
 	}
 }

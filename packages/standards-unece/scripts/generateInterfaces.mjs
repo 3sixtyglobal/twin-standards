@@ -610,6 +610,79 @@ function generateImportLines(outputDir, imports, importLines) {
 }
 
 /**
+ * Generate UneceDataTypes file
+ */
+async function generateUneceDataTypes(generatedTypes) {
+	const outputPath = path.join(__dirname, '..', 'src', 'dataTypes', 'uneceDataTypes.ts');
+
+	const sortedTypes = [...generatedTypes].sort((a, b) => a.typeName.localeCompare(b.typeName));
+
+	const lines = fileHeaderLines();
+
+	lines.push('import { DataTypeHelper } from "@twin.org/data-core";');
+	lines.push('import { JsonLdProcessor } from "@twin.org/data-json-ld";');
+	lines.push('import { UneceContexts } from "../models/uneceContexts.js";');
+	lines.push('import { UneceTypes } from "../models/uneceTypes.js";');
+
+	for (const t of sortedTypes) {
+		lines.push(
+			`import Unece${t.typeName}Schema from "../schemas/Unece${t.typeName}.json" with { type: "json" };`
+		);
+	}
+
+	lines.push('');
+	lines.push('/**');
+	lines.push(' * Handle all the data types for UN/CEFACT.');
+	lines.push(' */');
+	lines.push('export class UneceDataTypes {');
+	lines.push('\t/**');
+	lines.push('\t * Register the JSON-LD Redirects.');
+	lines.push('\t */');
+	lines.push('\tpublic static registerRedirects(): void {');
+	lines.push('\t\tJsonLdProcessor.addRedirect(');
+	lines.push('\t\t\t/https:\\/\\/vocabulary\\.uncefact\\.org\\/?/,');
+	lines.push('\t\t\tUneceContexts.JsonLdContext');
+	lines.push('\t\t);');
+	lines.push('\t}');
+	lines.push('');
+	lines.push('\t/**');
+	lines.push('\t * Register all the data types.');
+	lines.push('\t */');
+	lines.push('\tpublic static registerTypes(): void {');
+	lines.push('\t\tconst types = [');
+
+	for (let i = 0; i < sortedTypes.length; i++) {
+		const t = sortedTypes[i];
+		lines.push('\t\t\t{');
+		lines.push(`\t\t\t\ttype: UneceTypes.${t.typeName},`);
+		lines.push(`\t\t\t\tschema: Unece${t.typeName}Schema`);
+		if (i < sortedTypes.length - 1) {
+			lines.push('\t\t\t},');
+		} else {
+			lines.push('\t\t\t}');
+		}
+	}
+
+	lines.push('\t\t];');
+	lines.push('');
+	lines.push(
+		'\t\tDataTypeHelper.registerTypes(UneceContexts.Namespace, UneceContexts.JsonLdContext, types);'
+	);
+	lines.push('\t\tDataTypeHelper.registerTypes(');
+	lines.push('\t\t\tUneceContexts.JsonSchemaNamespace,');
+	lines.push('\t\t\tUneceContexts.JsonLdContext,');
+	// False positive
+	// eslint-disable-next-line no-template-curly-in-string
+	lines.push('\t\t\ttypes.map(t => ({ type: `Unece${t.type}`, schema: t.schema }))');
+	lines.push('\t\t);');
+	lines.push('\t}');
+	lines.push('}');
+	lines.push('');
+
+	await writeFile(outputPath, lines.join('\n'), 'utf8');
+}
+
+/**
  * Generate UneceTypes constant file
  */
 async function generateUneceTypes(generatedTypes) {
@@ -939,6 +1012,9 @@ async function main() {
 
 	process.stdout.write('✅ Update src/models/uneceTypes\n');
 	await generateUneceTypes(generatedTypes);
+
+	process.stdout.write('✅ Update src/dataTypes/uneceDataTypes\n');
+	await generateUneceDataTypes(generatedTypes);
 
 	process.stdout.write('✅ Update src/index.ts with generated model exports\n');
 	await generateIndexFile();

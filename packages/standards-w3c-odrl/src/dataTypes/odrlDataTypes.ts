@@ -107,7 +107,7 @@ export class OdrlDataTypes {
 		DataTypeHelper.registerTypes(
 			OdrlContexts.JsonSchemaNamespace,
 			OdrlContexts.JsonLdContext,
-			types
+			types.map(t => ({ type: `Odrl${t.type}`, schema: t.schema }))
 		);
 	}
 }
