@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.53](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.52...standards-w3c-activity-streams-v0.0.3-next.53) (2026-03-11)
+
+
+### Features
+
+* improve caching ([#196](https://github.com/twinfoundation/standards/issues/196)) ([968e61a](https://github.com/twinfoundation/standards/commit/968e61a04156a22cf5ffc3ba237a42a81ec2e0c1))
+
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.51...standards-w3c-activity-streams-v0.0.3-next.52) (2026-03-10)
 
 
