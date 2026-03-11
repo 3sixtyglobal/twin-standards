@@ -489,4 +489,4 @@
 * update framework core ([58c0c3d](https://github.com/twinfoundation/standards/commit/58c0c3dd6cea0e4c2393dc0e3e1eb33a6d06f617))
 * w3c activity streams ([#41](https://github.com/twinfoundation/standards/issues/41)) ([0a4c2cc](https://github.com/twinfoundation/standards/commit/0a4c2cc86c134db60d98fbc50350817c2e6f44eb))
 
-## @twin.org/standards-w3c-activity-streams - Changelog
+## Changelog

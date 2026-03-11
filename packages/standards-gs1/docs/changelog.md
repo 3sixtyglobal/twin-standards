@@ -1,4 +1,4 @@
-# @twin.org/standards-gs1 - Changelog
+# Changelog
 
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-gs1-v0.0.3-next.51...standards-gs1-v0.0.3-next.52) (2026-03-10)
 

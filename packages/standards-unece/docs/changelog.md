@@ -1,4 +1,4 @@
-# @twin.org/standards-unece - Changelog
+# Changelog
 
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.51...standards-unece-v0.0.3-next.52) (2026-03-10)
 

@@ -1,4 +1,4 @@
-# @twin.org/standards-dublin-core - Changelog
+# Changelog
 
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-dublin-core-v0.0.3-next.51...standards-dublin-core-v0.0.3-next.52) (2026-03-10)
 

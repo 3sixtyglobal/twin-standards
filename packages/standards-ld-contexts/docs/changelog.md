@@ -1,4 +1,4 @@
-# @twin.org/standards-ld-contexts - Changelog
+# Changelog
 
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-ld-contexts-v0.0.3-next.51...standards-ld-contexts-v0.0.3-next.52) (2026-03-10)
 

@@ -1,4 +1,4 @@
-# @twin.org/standards-schema-org - Changelog
+# Changelog
 
 ## [0.0.3-next.52](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.51...standards-schema-org-v0.0.3-next.52) (2026-03-10)
 
