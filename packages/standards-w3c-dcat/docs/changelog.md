@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.54](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.53...standards-w3c-dcat-v0.0.3-next.54) (2026-03-12)
+
+
+### Features
+
+* update JsonSchemaHelper.validate usage ([fe08315](https://github.com/twinfoundation/standards/commit/fe0831571cc618465a4510b52c3032a750e6e149))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.53 to 0.0.3-next.54
+    * @twin.org/standards-foaf bumped from 0.0.3-next.53 to 0.0.3-next.54
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.53 to 0.0.3-next.54
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.53 to 0.0.3-next.54
+
 ## [0.0.3-next.53](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.52...standards-w3c-dcat-v0.0.3-next.53) (2026-03-11)
 
 
