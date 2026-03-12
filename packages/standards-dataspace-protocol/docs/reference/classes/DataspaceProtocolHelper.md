@@ -14,9 +14,9 @@ Dataspace protocol helper.
 
 ## Methods
 
-### checkConformance()
+### validate()
 
-> `static` **checkConformance**(`object`, `validationFailures`): `Promise`\<`boolean`\>
+> `static` **validate**(`object`): `Promise`\<`IValidationFailure`[]\>
 
 Checks whether the object passed as parameter is conformant to the DS Protocol definitions.
 
@@ -28,17 +28,11 @@ Checks whether the object passed as parameter is conformant to the DS Protocol d
 
 The object to check
 
-##### validationFailures
-
-`IValidationFailure`[]
-
-the Validation failures obtained during the conformance checking.
-
 #### Returns
 
-`Promise`\<`boolean`\>
+`Promise`\<`IValidationFailure`[]\>
 
-true or false depending whether the object is conformant or not
+An array of validation failures, empty if the object is conformant
 
 ***
 
