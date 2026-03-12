@@ -39,8 +39,8 @@ describe("standards-w3c-activity-streams", () => {
 			`${ActivityStreamsContexts.Namespace}Object`
 		);
 		expect(Is.objectValue(schema)).toBeTruthy();
-		const verified = await JsonSchemaHelper.validate(schema ?? {}, example1);
-		expect(verified.result).toBeTruthy();
+		const failures = await JsonSchemaHelper.validate(schema ?? {}, example1);
+		expect(failures.length).toEqual(0);
 	});
 
 	test("Can construct Vocabulary Example 2", () => {
@@ -2487,10 +2487,10 @@ describe("standards-w3c-activity-streams", () => {
 			`${ActivityStreamsContexts.Namespace}Activity`
 		);
 		expect(Is.objectValue(schema)).toBeTruthy();
-		const verified = await JsonSchemaHelper.validate(schema ?? {}, example1);
-		if (!verified.result) {
-			console.error(JSON.stringify(verified.error, null, 2));
+		const failures = await JsonSchemaHelper.validate(schema ?? {}, example1);
+		if (failures.length > 0) {
+			console.error(JSON.stringify(failures, null, 2));
 		}
-		expect(verified.result).toBeTruthy();
+		expect(failures.length).toEqual(0);
 	});
 });

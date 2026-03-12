@@ -2,6 +2,9 @@
 	"error": {
 		"dataspaceProtocolHelper": {
 			"schemaNotRegistered": "JSON Schema \"{schemaId}\" is not registered in DataTypeHandlerFactory"
+		},
+		"validation": {
+			"missingType": "The object must include at least one @type value"
 		}
 	}
 }

@@ -81,7 +81,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				expect(schema).toBeDefined();
 
 				const result = await JsonSchemaHelper.validate(schema as IJsonSchema, resourceExample);
-				expect(result.result).toEqual(true);
+				expect(result.length).toEqual(0);
 			}
 		});
 
@@ -149,7 +149,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				expect(schema).toBeDefined();
 
 				const result = await JsonSchemaHelper.validate(schema as IJsonSchema, datasetExample);
-				expect(result.result).toEqual(true);
+				expect(result.length).toEqual(0);
 			}
 		});
 
@@ -226,7 +226,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				expect(schema).toBeDefined();
 
 				const result = await JsonSchemaHelper.validate(schema as IJsonSchema, catalogExample);
-				expect(result.result).toEqual(true);
+				expect(result.length).toEqual(0);
 			}
 		});
 
@@ -267,7 +267,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				expect(schema).toBeDefined();
 
 				const result = await JsonSchemaHelper.validate(schema as IJsonSchema, distributionExample);
-				expect(result.result).toEqual(true);
+				expect(result.length).toEqual(0);
 			}
 		});
 
@@ -324,7 +324,7 @@ describe("IDcatDataService Interface", () => {
 			expect(schema).toBeDefined();
 
 			const result = await JsonSchemaHelper.validate(schema as IJsonSchema, dataServiceExample);
-			expect(result.result).toEqual(true);
+			expect(result.length).toEqual(0);
 		}
 	});
 
@@ -403,7 +403,7 @@ describe("IDcatDatasetSeries Interface", () => {
 			expect(schema).toBeDefined();
 
 			const result = await JsonSchemaHelper.validate(schema as IJsonSchema, datasetSeriesExample);
-			expect(result.result).toEqual(true);
+			expect(result.length).toEqual(0);
 		}
 	});
 
@@ -462,7 +462,7 @@ describe("IDcatCatalogRecord Interface", () => {
 			expect(schema).toBeDefined();
 
 			const result = await JsonSchemaHelper.validate(schema as IJsonSchema, catalogRecordExample);
-			expect(result.result).toEqual(true);
+			expect(result.length).toEqual(0);
 		}
 	});
 
@@ -517,7 +517,7 @@ describe("IDcatRelationship Interface", () => {
 			expect(schema).toBeDefined();
 
 			const result = await JsonSchemaHelper.validate(schema as IJsonSchema, relationship);
-			expect(result.result).toEqual(true);
+			expect(result.length).toEqual(0);
 		}
 	});
 

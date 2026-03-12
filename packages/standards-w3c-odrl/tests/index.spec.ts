@@ -1699,51 +1699,51 @@ describe("OdrlDataTypes Validation", () => {
 		const testCases = [
 			{
 				data: OdrlContexts.Context,
-				expect: true
+				expect: 0
 			},
 			{
 				data: "https://foo",
-				expect: false
+				expect: 3
 			},
 			{
 				data: [OdrlContexts.Context],
-				expect: true
+				expect: 0
 			},
 			{
 				data: ["https://foo"],
-				expect: false
+				expect: 5
 			},
 			{
 				data: [OdrlContexts.Context, OdrlContexts.Context],
-				expect: false
+				expect: 5
 			},
 			{
 				data: ["https://foo", OdrlContexts.Context, OdrlContexts.Context],
-				expect: false
+				expect: 6
 			},
 			{
 				data: ["https://foo", "https://foo"],
-				expect: false
+				expect: 7
 			},
 			{
 				data: ["https://foo", "https://foo2"],
-				expect: false
+				expect: 6
 			},
 			{
 				data: ["https://foo", OdrlContexts.Context],
-				expect: true
+				expect: 0
 			},
 			{
 				data: ["https://foo", "https://foo", OdrlContexts.Context],
-				expect: false
+				expect: 4
 			},
 			{
 				data: ["https://foo", OdrlContexts.Context, "https://foo"],
-				expect: false
+				expect: 4
 			},
 			{
 				data: ["https://foo", OdrlContexts.Context, "https://foo2"],
-				expect: true
+				expect: 0
 			}
 		];
 
@@ -1779,7 +1779,7 @@ describe("OdrlDataTypes Validation", () => {
 
 		for (const testCase of testCases) {
 			const result = await JsonSchemaHelper.validate(schema, { "@context": testCase.data });
-			expect(result.result).toBe(testCase.expect);
+			expect(result.length).toBe(testCase.expect);
 		}
 	});
 });

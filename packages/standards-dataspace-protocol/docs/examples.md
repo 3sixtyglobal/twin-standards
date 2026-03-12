@@ -18,12 +18,10 @@ const payload: IJsonLdNodeObject = {
   state: 'STARTED'
 };
 
-const failures: IValidationFailure[] = [];
 const normalised = await DataspaceProtocolHelper.normalize(payload);
-const isConformant = await DataspaceProtocolHelper.checkConformance(normalised, failures);
+const validationFailures = await DataspaceProtocolHelper.validate(normalised);
 
-console.log(isConformant); // true
-console.log(failures.length); // 0
+console.log(validationFailures.length); // 0
 ```
 
 ## Data Types

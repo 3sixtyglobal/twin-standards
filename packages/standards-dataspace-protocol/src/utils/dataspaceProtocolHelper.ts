@@ -27,52 +27,44 @@ export abstract class DataspaceProtocolHelper {
 	/**
 	 * Checks whether the object passed as parameter is conformant to the DS Protocol definitions.
 	 * @param object The object to check
-	 * @param validationFailures the Validation failures obtained during the conformance checking.
-	 * @returns true or false depending whether the object is conformant or not
+	 * @returns An array of validation failures, empty if the object is conformant
 	 */
-	public static async checkConformance(
-		object: IJsonLdNodeObject,
-		validationFailures: IValidationFailure[]
-	): Promise<boolean> {
-		let result = false;
-
+	public static async validate(object: IJsonLdNodeObject): Promise<IValidationFailure[]> {
 		const dcatNamespace = DcatContexts.Namespace;
+		const validationFailures: IValidationFailure[] = [];
 
 		const objectTypes = await JsonLdHelper.getType(object);
+		if (objectTypes.length === 0) {
+			validationFailures.push({
+				property: "@type",
+				reason: "validation.missingType"
+			});
+		} else {
+			for (const type of objectTypes) {
+				let dataTypeIdentifier = type;
 
-		for (const type of objectTypes) {
-			let dataTypeIdentifier = type;
-
-			// If the DCAT3 types are used, convert to the DS Protocol equivalent
-			// which have the enhancements and constraints defined by the DS Protocol
-			if (type.startsWith(dcatNamespace)) {
-				const nonQualifiedType = type.replace(dcatNamespace, "");
-				dataTypeIdentifier = `${DataspaceProtocolContexts.Namespace}${nonQualifiedType}`;
-			}
-
-			const schema = await DataTypeHelper.getSchemaForType(dataTypeIdentifier);
-			if (!schema) {
-				throw new GeneralError(DataspaceProtocolHelper.CLASS_NAME, "schemaNotRegistered", {
-					schemaId: dataTypeIdentifier
-				});
-			}
-
-			const normalizedObject = await DataspaceProtocolHelper.normalize(object);
-
-			const validationResult = await JsonSchemaHelper.validate(schema, normalizedObject);
-			result = validationResult.result;
-
-			if (!result && Is.array(validationResult.error)) {
-				for (const aError of validationResult.error) {
-					const validationFailure: IValidationFailure = {
-						property: aError.instancePath,
-						reason: aError.message as string
-					};
-					validationFailures.push(validationFailure);
+				// If the DCAT3 types are used, convert to the DS Protocol equivalent
+				// which have the enhancements and constraints defined by the DS Protocol
+				if (type.startsWith(dcatNamespace)) {
+					const nonQualifiedType = type.replace(dcatNamespace, "");
+					dataTypeIdentifier = `${DataspaceProtocolContexts.Namespace}${nonQualifiedType}`;
 				}
+
+				const schema = await DataTypeHelper.getSchemaForType(dataTypeIdentifier);
+				if (!schema) {
+					throw new GeneralError(DataspaceProtocolHelper.CLASS_NAME, "schemaNotRegistered", {
+						schemaId: dataTypeIdentifier
+					});
+				}
+
+				const normalizedObject = await DataspaceProtocolHelper.normalize(object);
+
+				const validationResult = await JsonSchemaHelper.validate(schema, normalizedObject);
+				validationFailures.push(...validationResult);
 			}
 		}
-		return result;
+
+		return validationFailures;
 	}
 
 	/**
