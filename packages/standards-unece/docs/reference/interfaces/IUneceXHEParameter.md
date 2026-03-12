@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/XHEParameter
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"XHEParameter"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### typeCode
+### typeCode {#typecode}
 
 > **typeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value
+### value {#value}
 
 > **value**: `string`
 

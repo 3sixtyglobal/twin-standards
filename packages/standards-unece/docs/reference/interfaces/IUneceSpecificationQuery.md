@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecificationQuery
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecificationQuery"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### content
+### content {#content}
 
 > **content**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

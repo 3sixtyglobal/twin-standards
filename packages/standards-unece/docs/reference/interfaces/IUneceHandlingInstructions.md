@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/HandlingInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"HandlingInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableTransportSettingTemperature?
+### applicableTransportSettingTemperature? {#applicabletransportsettingtemperature}
 
 > `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableTransportSettingTemperature
 
 ***
 
-### deliveryApplicableTemperature?
+### deliveryApplicableTemperature? {#deliveryapplicabletemperature}
 
 > `optional` **deliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/deliveryApplicableTemperature
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### exclusiveUsageIndicator?
+### exclusiveUsageIndicator? {#exclusiveusageindicator}
 
 > `optional` **exclusiveUsageIndicator**: `boolean`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/exclusiveUsageIndicator
 
 ***
 
-### handling?
+### handling? {#handling}
 
 > `optional` **handling**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/handling
 
 ***
 
-### handlingCode?
+### handlingCode? {#handlingcode}
 
 > `optional` **handlingCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/handlingCode
 
 ***
 
-### handlingInstructionsDescriptionCode?
+### handlingInstructionsDescriptionCode? {#handlinginstructionsdescriptioncode}
 
 > `optional` **handlingInstructionsDescriptionCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/handlingInstructionsDescriptionCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### instructionsType?
+### instructionsType? {#instructionstype}
 
 > `optional` **instructionsType**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ***
 
-### itemName?
+### itemName? {#itemname}
 
 > `optional` **itemName**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/itemName
 
 ***
 
-### marketDeliveryApplicableTemperature?
+### marketDeliveryApplicableTemperature? {#marketdeliveryapplicabletemperature}
 
 > `optional` **marketDeliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/marketDeliveryApplicableTemperature
 
 ***
 
-### maximumStackabilityApplicableQuantity?
+### maximumStackabilityApplicableQuantity? {#maximumstackabilityapplicablequantity}
 
 > `optional` **maximumStackabilityApplicableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/maximumStackabilityApplicableQuantity
 
 ***
 
-### maximumStackabilityWeightApplicableMeasure?
+### maximumStackabilityWeightApplicableMeasure? {#maximumstackabilityweightapplicablemeasure}
 
 > `optional` **maximumStackabilityWeightApplicableMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightApplicableMeasure
 
 ***
 
-### maximumStorageHumidityApplicableMeasure?
+### maximumStorageHumidityApplicableMeasure? {#maximumstoragehumidityapplicablemeasure}
 
 > `optional` **maximumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/maximumStorageHumidityApplicableMeasure
 
 ***
 
-### minimumStorageHumidityApplicableMeasure?
+### minimumStorageHumidityApplicableMeasure? {#minimumstoragehumidityapplicablemeasure}
 
 > `optional` **minimumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/minimumStorageHumidityApplicableMeasure
 
 ***
 
-### procedure?
+### procedure? {#procedure}
 
 > `optional` **procedure**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/procedure
 
 ***
 
-### requirementIndicator?
+### requirementIndicator? {#requirementindicator}
 
 > `optional` **requirementIndicator**: `boolean`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/requirementIndicator
 
 ***
 
-### storageApplicableTemperature?
+### storageApplicableTemperature? {#storageapplicabletemperature}
 
 > `optional` **storageApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 

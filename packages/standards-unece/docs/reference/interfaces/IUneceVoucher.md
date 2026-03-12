@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Voucher
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Voucher"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableIndicator?
+### applicableIndicator? {#applicableindicator}
 
 > `optional` **applicableIndicator**: `boolean`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### faceAmount?
+### faceAmount? {#faceamount}
 
 > `optional` **faceAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/faceAmount
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issuingCompanyName?
+### issuingCompanyName? {#issuingcompanyname}
 
 > `optional` **issuingCompanyName**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/issuingCompanyName
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

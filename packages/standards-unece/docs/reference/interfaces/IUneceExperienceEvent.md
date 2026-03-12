@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ExperienceEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ExperienceEvent"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableSpecifiedNote?
+### applicableSpecifiedNote? {#applicablespecifiednote}
 
 > `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedNote
 
 ***
 
-### basicObjective?
+### basicObjective? {#basicobjective}
 
 > `optional` **basicObjective**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/basicObjective
 
 ***
 
-### breakUpDateTime?
+### breakUpDateTime? {#breakupdatetime}
 
 > `optional` **breakUpDateTime**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/breakUpDateTime
 
 ***
 
-### calculatedPrice?
+### calculatedPrice? {#calculatedprice}
 
 > `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/calculatedPrice
 
 ***
 
-### choiceAllowedIndicator?
+### choiceAllowedIndicator? {#choiceallowedindicator}
 
 > `optional` **choiceAllowedIndicator**: `boolean`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/choiceAllowedIndicator
 
 ***
 
-### dateSequenceNumeric?
+### dateSequenceNumeric? {#datesequencenumeric}
 
 > `optional` **dateSequenceNumeric**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/dateSequenceNumeric
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### distinctiveFeature?
+### distinctiveFeature? {#distinctivefeature}
 
 > `optional` **distinctiveFeature**: [`IUneceSpecifiedFeature`](IUneceSpecifiedFeature.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/distinctiveFeature
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### indemnityClause?
+### indemnityClause? {#indemnityclause}
 
 > `optional` **indemnityClause**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/indemnityClause
 
 ***
 
-### instruction?
+### instruction? {#instruction}
 
 > `optional` **instruction**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/instruction
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/location
 
 ***
 
-### meetingDateTime?
+### meetingDateTime? {#meetingdatetime}
 
 > `optional` **meetingDateTime**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/meetingDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### operationalPeriod?
+### operationalPeriod? {#operationalperiod}
 
 > `optional` **operationalPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/operationalPeriod
 
 ***
 
-### providedCertificate?
+### providedCertificate? {#providedcertificate}
 
 > `optional` **providedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/providedCertificate
 
 ***
 
-### providedRequirement?
+### providedRequirement? {#providedrequirement}
 
 > `optional` **providedRequirement**: [`IUneceRequirement`](IUneceRequirement.md)[]
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/providedRequirement
 
 ***
 
-### requiredUsageCondition?
+### requiredUsageCondition? {#requiredusagecondition}
 
 > `optional` **requiredUsageCondition**: [`IUneceUsageCondition`](IUneceUsageCondition.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/requiredUsageCondition
 
 ***
 
-### reservationGuarantee?
+### reservationGuarantee? {#reservationguarantee}
 
 > `optional` **reservationGuarantee**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/reservationGuarantee
 
 ***
 
-### reservationRequiredIndicator?
+### reservationRequiredIndicator? {#reservationrequiredindicator}
 
 > `optional` **reservationRequiredIndicator**: `boolean`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/reservationRequiredIndicator
 
 ***
 
-### specifiedTradeParty?
+### specifiedTradeParty? {#specifiedtradeparty}
 
 > `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 

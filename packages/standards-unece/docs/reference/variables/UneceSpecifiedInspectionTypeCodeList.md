@@ -6,7 +6,7 @@ Values for UneceSpecifiedInspection typeCode property.
 
 ## Type Declaration
 
-### ApplicableSpecifiedInspection
+### ApplicableSpecifiedInspection {#applicablespecifiedinspection}
 
 > `readonly` **ApplicableSpecifiedInspection**: `"unece:applicableSpecifiedInspection"` = `"unece:applicableSpecifiedInspection"`
 

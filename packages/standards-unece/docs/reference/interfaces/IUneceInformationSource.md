@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InformationSource
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InformationSource"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### securityInformation?
+### securityInformation? {#securityinformation}
 
 > `optional` **securityInformation**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/securityInformation
 
 ***
 
-### websiteURIId?
+### websiteURIId? {#websiteuriid}
 
 > `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 

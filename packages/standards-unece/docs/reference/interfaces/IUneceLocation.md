@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Location
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Location"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableSpecifiedInspection?
+### applicableSpecifiedInspection? {#applicablespecifiedinspection}
 
 > `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### applicableSustainabilityInspection?
+### applicableSustainabilityInspection? {#applicablesustainabilityinspection}
 
 > `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ***
 
-### appliedAgriculturalApplication?
+### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
 > `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ***
 
-### associatedGeographicalFeature?
+### associatedGeographicalFeature? {#associatedgeographicalfeature}
 
 > `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/associatedGeographicalFeature
 
 ***
 
-### countryName?
+### countryName? {#countryname}
 
 > `optional` **countryName**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/countryName
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### definedCoordinateReferenceSystem?
+### definedCoordinateReferenceSystem? {#definedcoordinatereferencesystem}
 
 > `optional` **definedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/definedCoordinateReferenceSystem
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### globalId?
+### globalId? {#globalid}
 
 > `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/globalId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedPolygon?
+### includedPolygon? {#includedpolygon}
 
 > `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/includedPolygon
 
 ***
 
-### locationCountryId?
+### locationCountryId? {#locationcountryid}
 
 > `optional` **locationCountryId**: `string` \| `IJsonLdValueObject`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/locationCountryId
 
 ***
 
-### locationReferenceTypeCode?
+### locationReferenceTypeCode? {#locationreferencetypecode}
 
 > `optional` **locationReferenceTypeCode**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/locationReferenceTypeCode
 
 ***
 
-### locationTypeCode?
+### locationTypeCode? {#locationtypecode}
 
 > `optional` **locationTypeCode**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/locationTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### physicalGeographicalFeature?
+### physicalGeographicalFeature? {#physicalgeographicalfeature}
 
 > `optional` **physicalGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/physicalGeographicalFeature
 
 ***
 
-### physicalGeographicalPoint?
+### physicalGeographicalPoint? {#physicalgeographicalpoint}
 
 > `optional` **physicalGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/physicalGeographicalPoint
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### relatedProductionUnit?
+### relatedProductionUnit? {#relatedproductionunit}
 
 > `optional` **relatedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/relatedProductionUnit
 
 ***
 
-### specifiedAssertion?
+### specifiedAssertion? {#specifiedassertion}
 
 > `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ***
 
-### specifiedFacility?
+### specifiedFacility? {#specifiedfacility}
 
 > `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ***
 
-### specifiedInventory?
+### specifiedInventory? {#specifiedinventory}
 
 > `optional` **specifiedInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/specifiedInventory
 
 ***
 
-### specifiedLaboratoryObservationReference?
+### specifiedLaboratoryObservationReference? {#specifiedlaboratoryobservationreference}
 
 > `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 
 ***
 
-### specifiedSupplyChainEvent?
+### specifiedSupplyChainEvent? {#specifiedsupplychainevent}
 
 > `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ***
 
-### specifiedTradeParty?
+### specifiedTradeParty? {#specifiedtradeparty}
 
 > `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/specifiedTradeParty
 
 ***
 
-### uTCOffsetNumeric?
+### uTCOffsetNumeric? {#utcoffsetnumeric}
 
 > `optional` **uTCOffsetNumeric**: `string`
 

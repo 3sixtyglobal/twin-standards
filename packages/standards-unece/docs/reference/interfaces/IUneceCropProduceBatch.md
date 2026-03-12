@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CropProduceBatch
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CropProduceBatch"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### appliedTreatment?
+### appliedTreatment? {#appliedtreatment}
 
 > `optional` **appliedTreatment**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/appliedTreatment
 
 ***
 
-### breakUpDateTime?
+### breakUpDateTime? {#breakupdatetime}
 
 > `optional` **breakUpDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/breakUpDateTime
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### nominalSizeNumeric?
+### nominalSizeNumeric? {#nominalsizenumeric}
 
 > `optional` **nominalSizeNumeric**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/nominalSizeNumeric
 
 ***
 
-### productName?
+### productName? {#productname}
 
 > `optional` **productName**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/productName
 
 ***
 
-### sizeMeasure?
+### sizeMeasure? {#sizemeasure}
 
 > `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/sizeMeasure
 
 ***
 
-### specifiedAgriculturalCertificate?
+### specifiedAgriculturalCertificate? {#specifiedagriculturalcertificate}
 
 > `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ***
 
-### specifiedAgriculturalCharacteristic?
+### specifiedAgriculturalCharacteristic? {#specifiedagriculturalcharacteristic}
 
 > `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ***
 
-### specifiedProduce?
+### specifiedProduce? {#specifiedproduce}
 
 > `optional` **specifiedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedProduce
 
 ***
 
-### specifiedQuantity?
+### specifiedQuantity? {#specifiedquantity}
 
 > `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedQuantity
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

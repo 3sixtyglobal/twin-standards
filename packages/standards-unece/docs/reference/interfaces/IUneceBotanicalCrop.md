@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/BotanicalCrop
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"BotanicalCrop"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### botanicalGenusCode?
+### botanicalGenusCode? {#botanicalgenuscode}
 
 > `optional` **botanicalGenusCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/botanicalGenusCode
 
 ***
 
-### botanicalIdentificationId?
+### botanicalIdentificationId? {#botanicalidentificationid}
 
 > `optional` **botanicalIdentificationId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/botanicalIdentificationId
 
 ***
 
-### botanicalName?
+### botanicalName? {#botanicalname}
 
 > `optional` **botanicalName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/botanicalName
 
 ***
 
-### botanicalSpeciesCode?
+### botanicalSpeciesCode? {#botanicalspeciescode}
 
 > `optional` **botanicalSpeciesCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/botanicalSpeciesCode
 
 ***
 
-### purposeCode?
+### purposeCode? {#purposecode}
 
 > `optional` **purposeCode**: `string`
 

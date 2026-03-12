@@ -14,7 +14,7 @@ Is checks for GS1 data.
 
 ## Methods
 
-### isEpcHex()
+### isEpcHex() {#isepchex}
 
 > `static` **isEpcHex**(`value`): `boolean`
 
@@ -36,7 +36,7 @@ True if the value is an epc.
 
 ***
 
-### isGeoUri()
+### isGeoUri() {#isgeouri}
 
 > `static` **isGeoUri**(`value`): `boolean`
 

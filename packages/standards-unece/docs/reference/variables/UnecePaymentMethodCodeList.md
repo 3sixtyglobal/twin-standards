@@ -6,313 +6,313 @@ A character string used to represent a payment method.
 
 ## Type Declaration
 
-### DirectPayment
+### DirectPayment {#directpayment}
 
 > `readonly` **DirectPayment**: `"unece:PaymentMethodCodeList#1"` = `"unece:PaymentMethodCodeList#1"`
 
 Direct payment: 1.
 
-### IrrevocableDocumentaryCredit
+### IrrevocableDocumentaryCredit {#irrevocabledocumentarycredit}
 
 > `readonly` **IrrevocableDocumentaryCredit**: `"unece:PaymentMethodCodeList#10"` = `"unece:PaymentMethodCodeList#10"`
 
 Irrevocable documentary credit: 10.
 
-### TransferableIrrevocableDocumentaryCredit
+### TransferableIrrevocableDocumentaryCredit {#transferableirrevocabledocumentarycredit}
 
 > `readonly` **TransferableIrrevocableDocumentaryCredit**: `"unece:PaymentMethodCodeList#11"` = `"unece:PaymentMethodCodeList#11"`
 
 Transferable irrevocable documentary credit: 11.
 
-### ConfirmedIrrevocableDocumentaryCredit
+### ConfirmedIrrevocableDocumentaryCredit {#confirmedirrevocabledocumentarycredit}
 
 > `readonly` **ConfirmedIrrevocableDocumentaryCredit**: `"unece:PaymentMethodCodeList#12"` = `"unece:PaymentMethodCodeList#12"`
 
 Confirmed irrevocable documentary credit: 12.
 
-### TransferableConfirmedIrrevocableDocumentaryCredit
+### TransferableConfirmedIrrevocableDocumentaryCredit {#transferableconfirmedirrevocabledocumentarycredit}
 
 > `readonly` **TransferableConfirmedIrrevocableDocumentaryCredit**: `"unece:PaymentMethodCodeList#13"` = `"unece:PaymentMethodCodeList#13"`
 
 Transferable confirmed irrevocable documentary credit: 13.
 
-### RevocableDocumentaryCredit
+### RevocableDocumentaryCredit {#revocabledocumentarycredit}
 
 > `readonly` **RevocableDocumentaryCredit**: `"unece:PaymentMethodCodeList#14"` = `"unece:PaymentMethodCodeList#14"`
 
 Revocable documentary credit: 14.
 
-### IrrevocableLetterOfCreditConfirmed
+### IrrevocableLetterOfCreditConfirmed {#irrevocableletterofcreditconfirmed}
 
 > `readonly` **IrrevocableLetterOfCreditConfirmed**: `"unece:PaymentMethodCodeList#15"` = `"unece:PaymentMethodCodeList#15"`
 
 Irrevocable letter of credit-confirmed: 15.
 
-### LetterOfGuarantee
+### LetterOfGuarantee {#letterofguarantee}
 
 > `readonly` **LetterOfGuarantee**: `"unece:PaymentMethodCodeList#16"` = `"unece:PaymentMethodCodeList#16"`
 
 Letter of guarantee: 16.
 
-### RevocableLetterOfCredit
+### RevocableLetterOfCredit {#revocableletterofcredit}
 
 > `readonly` **RevocableLetterOfCredit**: `"unece:PaymentMethodCodeList#17"` = `"unece:PaymentMethodCodeList#17"`
 
 Revocable letter of credit: 17.
 
-### StandbyLetterOfCredit
+### StandbyLetterOfCredit {#standbyletterofcredit}
 
 > `readonly` **StandbyLetterOfCredit**: `"unece:PaymentMethodCodeList#18"` = `"unece:PaymentMethodCodeList#18"`
 
 Standby letter of credit: 18.
 
-### IrrevocableLetterOfCreditUnconfirmed
+### IrrevocableLetterOfCreditUnconfirmed {#irrevocableletterofcreditunconfirmed}
 
 > `readonly` **IrrevocableLetterOfCreditUnconfirmed**: `"unece:PaymentMethodCodeList#19"` = `"unece:PaymentMethodCodeList#19"`
 
 Irrevocable letter of credit unconfirmed: 19.
 
-### AutomaticClearingHouseCredit
+### AutomaticClearingHouseCredit {#automaticclearinghousecredit}
 
 > `readonly` **AutomaticClearingHouseCredit**: `"unece:PaymentMethodCodeList#2"` = `"unece:PaymentMethodCodeList#2"`
 
 Automatic clearing house credit: 2.
 
-### CleanCollection
+### CleanCollection {#cleancollection}
 
 > `readonly` **CleanCollection**: `"unece:PaymentMethodCodeList#20"` = `"unece:PaymentMethodCodeList#20"`
 
 Clean collection (ICC): 20.
 
-### DocumentaryCollection
+### DocumentaryCollection {#documentarycollection}
 
 > `readonly` **DocumentaryCollection**: `"unece:PaymentMethodCodeList#21"` = `"unece:PaymentMethodCodeList#21"`
 
 Documentary collection (ICC): 21.
 
-### DocumentarySightCollection
+### DocumentarySightCollection {#documentarysightcollection}
 
 > `readonly` **DocumentarySightCollection**: `"unece:PaymentMethodCodeList#22"` = `"unece:PaymentMethodCodeList#22"`
 
 Documentary sight collection (ICC): 22.
 
-### DocumentaryCollectionWithDateOfExpiry
+### DocumentaryCollectionWithDateOfExpiry {#documentarycollectionwithdateofexpiry}
 
 > `readonly` **DocumentaryCollectionWithDateOfExpiry**: `"unece:PaymentMethodCodeList#23"` = `"unece:PaymentMethodCodeList#23"`
 
 Documentary collection with date of expiry (ICC): 23.
 
-### DocumentaryCollectionBillOfExchangeAgainstAcceptance
+### DocumentaryCollectionBillOfExchangeAgainstAcceptance {#documentarycollectionbillofexchangeagainstacceptance}
 
 > `readonly` **DocumentaryCollectionBillOfExchangeAgainstAcceptance**: `"unece:PaymentMethodCodeList#24"` = `"unece:PaymentMethodCodeList#24"`
 
 Documentary collection: bill of exchange against acceptance: 24.
 
-### DocumentaryCollectionBillOfExchangeAgainstPayment
+### DocumentaryCollectionBillOfExchangeAgainstPayment {#documentarycollectionbillofexchangeagainstpayment}
 
 > `readonly` **DocumentaryCollectionBillOfExchangeAgainstPayment**: `"unece:PaymentMethodCodeList#25"` = `"unece:PaymentMethodCodeList#25"`
 
 Documentary collection: bill of exchange against payment: 25.
 
-### CollectionSubjectToBuyerSApproval
+### CollectionSubjectToBuyerSApproval {#collectionsubjecttobuyersapproval}
 
 > `readonly` **CollectionSubjectToBuyerSApproval**: `"unece:PaymentMethodCodeList#26"` = `"unece:PaymentMethodCodeList#26"`
 
 Collection subject to buyer's approval (ICC): 26.
 
-### CollectionByABankConsigneeForTheGoods
+### CollectionByABankConsigneeForTheGoods {#collectionbyabankconsigneeforthegoods}
 
 > `readonly` **CollectionByABankConsigneeForTheGoods**: `"unece:PaymentMethodCodeList#27"` = `"unece:PaymentMethodCodeList#27"`
 
 Collection by a bank consignee for the goods (ICC): 27.
 
-### AutomaticClearingHouseDebit
+### AutomaticClearingHouseDebit {#automaticclearinghousedebit}
 
 > `readonly` **AutomaticClearingHouseDebit**: `"unece:PaymentMethodCodeList#3"` = `"unece:PaymentMethodCodeList#3"`
 
 Automatic clearing house debit: 3.
 
-### SellerToAdviseBuyer
+### SellerToAdviseBuyer {#sellertoadvisebuyer}
 
 > `readonly` **SellerToAdviseBuyer**: `"unece:PaymentMethodCodeList#34"` = `"unece:PaymentMethodCodeList#34"`
 
 Seller to advise buyer: 34.
 
-### DocumentsThroughBanks
+### DocumentsThroughBanks {#documentsthroughbanks}
 
 > `readonly` **DocumentsThroughBanks**: `"unece:PaymentMethodCodeList#35"` = `"unece:PaymentMethodCodeList#35"`
 
 Documents through banks: 35.
 
-### Charging
+### Charging {#charging}
 
 > `readonly` **Charging**: `"unece:PaymentMethodCodeList#36"` = `"unece:PaymentMethodCodeList#36"`
 
 Charging (to account): 36.
 
-### AvailableWithIssuingBank
+### AvailableWithIssuingBank {#availablewithissuingbank}
 
 > `readonly` **AvailableWithIssuingBank**: `"unece:PaymentMethodCodeList#37"` = `"unece:PaymentMethodCodeList#37"`
 
 Available with issuing bank: 37.
 
-### AvailableWithAdvisingBank
+### AvailableWithAdvisingBank {#availablewithadvisingbank}
 
 > `readonly` **AvailableWithAdvisingBank**: `"unece:PaymentMethodCodeList#38"` = `"unece:PaymentMethodCodeList#38"`
 
 Available with advising bank: 38.
 
-### AvailableWithNamedBank
+### AvailableWithNamedBank {#availablewithnamedbank}
 
 > `readonly` **AvailableWithNamedBank**: `"unece:PaymentMethodCodeList#39"` = `"unece:PaymentMethodCodeList#39"`
 
 Available with named bank: 39.
 
-### AutomaticClearingHouseCreditSavingsAccount
+### AutomaticClearingHouseCreditSavingsAccount {#automaticclearinghousecreditsavingsaccount}
 
 > `readonly` **AutomaticClearingHouseCreditSavingsAccount**: `"unece:PaymentMethodCodeList#4"` = `"unece:PaymentMethodCodeList#4"`
 
 Automatic clearing house credit-savings account: 4.
 
-### AvailableWithAnyBank
+### AvailableWithAnyBank {#availablewithanybank}
 
 > `readonly` **AvailableWithAnyBank**: `"unece:PaymentMethodCodeList#40"` = `"unece:PaymentMethodCodeList#40"`
 
 Available with any bank: 40.
 
-### AvailableWithAnyBankIn
+### AvailableWithAnyBankIn {#availablewithanybankin}
 
 > `readonly` **AvailableWithAnyBankIn**: `"unece:PaymentMethodCodeList#41"` = `"unece:PaymentMethodCodeList#41"`
 
 Available with any bank in ...: 41.
 
-### IndirectPayment
+### IndirectPayment {#indirectpayment}
 
 > `readonly` **IndirectPayment**: `"unece:PaymentMethodCodeList#42"` = `"unece:PaymentMethodCodeList#42"`
 
 Indirect payment: 42.
 
-### Reassignment
+### Reassignment {#reassignment}
 
 > `readonly` **Reassignment**: `"unece:PaymentMethodCodeList#43"` = `"unece:PaymentMethodCodeList#43"`
 
 Reassignment: 43.
 
-### Offset
+### Offset {#offset}
 
 > `readonly` **Offset**: `"unece:PaymentMethodCodeList#44"` = `"unece:PaymentMethodCodeList#44"`
 
 Offset: 44.
 
-### SpecialEntries
+### SpecialEntries {#specialentries}
 
 > `readonly` **SpecialEntries**: `"unece:PaymentMethodCodeList#45"` = `"unece:PaymentMethodCodeList#45"`
 
 Special entries: 45.
 
-### InstalmentPayment
+### InstalmentPayment {#instalmentpayment}
 
 > `readonly` **InstalmentPayment**: `"unece:PaymentMethodCodeList#46"` = `"unece:PaymentMethodCodeList#46"`
 
 Instalment payment: 46.
 
-### InstalmentPaymentWithDraft
+### InstalmentPaymentWithDraft {#instalmentpaymentwithdraft}
 
 > `readonly` **InstalmentPaymentWithDraft**: `"unece:PaymentMethodCodeList#47"` = `"unece:PaymentMethodCodeList#47"`
 
 Instalment payment with draft: 47.
 
-### AvailableWithAdviseThroughBank
+### AvailableWithAdviseThroughBank {#availablewithadvisethroughbank}
 
 > `readonly` **AvailableWithAdviseThroughBank**: `"unece:PaymentMethodCodeList#48"` = `"unece:PaymentMethodCodeList#48"`
 
 Available with advise through bank: 48.
 
-### GeneralConditionsOfSale
+### GeneralConditionsOfSale {#generalconditionsofsale}
 
 > `readonly` **GeneralConditionsOfSale**: `"unece:PaymentMethodCodeList#49"` = `"unece:PaymentMethodCodeList#49"`
 
 General conditions of sale: 49.
 
-### AutomaticClearingHouseDebitDemandAccount
+### AutomaticClearingHouseDebitDemandAccount {#automaticclearinghousedebitdemandaccount}
 
 > `readonly` **AutomaticClearingHouseDebitDemandAccount**: `"unece:PaymentMethodCodeList#5"` = `"unece:PaymentMethodCodeList#5"`
 
 Automatic clearing house debit-demand account: 5.
 
-### SpecialPayment
+### SpecialPayment {#specialpayment}
 
 > `readonly` **SpecialPayment**: `"unece:PaymentMethodCodeList#50"` = `"unece:PaymentMethodCodeList#50"`
 
 Special payment: 50.
 
-### BankBookTransfer
+### BankBookTransfer {#bankbooktransfer}
 
 > `readonly` **BankBookTransfer**: `"unece:PaymentMethodCodeList#6"` = `"unece:PaymentMethodCodeList#6"`
 
 Bank book transfer (credit): 6.
 
-### SetOffByExchangeOfDocuments
+### SetOffByExchangeOfDocuments {#setoffbyexchangeofdocuments}
 
 > `readonly` **SetOffByExchangeOfDocuments**: `"unece:PaymentMethodCodeList#61"` = `"unece:PaymentMethodCodeList#61"`
 
 Set-off by exchange of documents: 61.
 
-### SetOffByReciprocalCredits
+### SetOffByReciprocalCredits {#setoffbyreciprocalcredits}
 
 > `readonly` **SetOffByReciprocalCredits**: `"unece:PaymentMethodCodeList#62"` = `"unece:PaymentMethodCodeList#62"`
 
 Set-off by reciprocal credits: 62.
 
-### SetOffByExchangeOfGoods
+### SetOffByExchangeOfGoods {#setoffbyexchangeofgoods}
 
 > `readonly` **SetOffByExchangeOfGoods**: `"unece:PaymentMethodCodeList#64"` = `"unece:PaymentMethodCodeList#64"`
 
 Set-off by exchange of goods: 64.
 
-### ReverseFactoring
+### ReverseFactoring {#reversefactoring}
 
 > `readonly` **ReverseFactoring**: `"unece:PaymentMethodCodeList#65"` = `"unece:PaymentMethodCodeList#65"`
 
 Reverse factoring: 65.
 
-### OtherSetOff
+### OtherSetOff {#othersetoff}
 
 > `readonly` **OtherSetOff**: `"unece:PaymentMethodCodeList#69"` = `"unece:PaymentMethodCodeList#69"`
 
 Other set-off: 69.
 
-### BankBookTransfer7
+### BankBookTransfer7 {#bankbooktransfer7}
 
 > `readonly` **BankBookTransfer7**: `"unece:PaymentMethodCodeList#7"` = `"unece:PaymentMethodCodeList#7"`
 
 Bank book transfer (debit): 7.
 
-### SupplierToInvoice
+### SupplierToInvoice {#suppliertoinvoice}
 
 > `readonly` **SupplierToInvoice**: `"unece:PaymentMethodCodeList#70"` = `"unece:PaymentMethodCodeList#70"`
 
 Supplier to invoice: 70.
 
-### RecipientToSelfBill
+### RecipientToSelfBill {#recipienttoselfbill}
 
 > `readonly` **RecipientToSelfBill**: `"unece:PaymentMethodCodeList#71"` = `"unece:PaymentMethodCodeList#71"`
 
 Recipient to self bill: 71.
 
-### DocCollectionVia3rdPartyWithBillOfEX
+### DocCollectionVia3rdPartyWithBillOfEX {#doccollectionvia3rdpartywithbillofex}
 
 > `readonly` **DocCollectionVia3rdPartyWithBillOfEX**: `"unece:PaymentMethodCodeList#8"` = `"unece:PaymentMethodCodeList#8"`
 
 Doc collection via 3rd party with bill of EX: 8.
 
-### DocCollectionVia3rdPartyNoBillOfEX
+### DocCollectionVia3rdPartyNoBillOfEX {#doccollectionvia3rdpartynobillofex}
 
 > `readonly` **DocCollectionVia3rdPartyNoBillOfEX**: `"unece:PaymentMethodCodeList#9"` = `"unece:PaymentMethodCodeList#9"`
 
 Doc collection via 3rd party no bill of EX: 9.
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:PaymentMethodCodeList#ZZZ"` = `"unece:PaymentMethodCodeList#ZZZ"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InspectionResultCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InspectionResultCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableMethod?
+### applicableMethod? {#applicablemethod}
 
 > `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ***
 
-### comparisonOperatorCode?
+### comparisonOperatorCode? {#comparisonoperatorcode}
 
 > `optional` **comparisonOperatorCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ***
 
-### interpretationResultApplicableParameter?
+### interpretationResultApplicableParameter? {#interpretationresultapplicableparameter}
 
 > `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ***
 
-### measuredAccuracyMeasure?
+### measuredAccuracyMeasure? {#measuredaccuracymeasure}
 
 > `optional` **measuredAccuracyMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/measuredAccuracyMeasure
 
 ***
 
-### measuredValue?
+### measuredValue? {#measuredvalue}
 
 > `optional` **measuredValue**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/measuredValue
 
 ***
 
-### measuredValueMeasure?
+### measuredValueMeasure? {#measuredvaluemeasure}
 
 > `optional` **measuredValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/measuredValueMeasure
 
 ***
 
-### qualityResultCode?
+### qualityResultCode? {#qualityresultcode}
 
 > `optional` **qualityResultCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/qualityResultCode
 
 ***
 
-### qualityResultDescription?
+### qualityResultDescription? {#qualityresultdescription}
 
 > `optional` **qualityResultDescription**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/qualityResultDescription
 
 ***
 
-### qualityResultReferenceLevelDescription?
+### qualityResultReferenceLevelDescription? {#qualityresultreferenceleveldescription}
 
 > `optional` **qualityResultReferenceLevelDescription**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/qualityResultReferenceLevelDescription
 
 ***
 
-### range?
+### range? {#range}
 
 > `optional` **range**: `string`
 

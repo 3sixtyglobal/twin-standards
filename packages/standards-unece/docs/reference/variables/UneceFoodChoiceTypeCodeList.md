@@ -6,7 +6,7 @@ Values for UneceFoodChoice typeCode property.
 
 ## Type Declaration
 
-### NotifiedFoodChoice
+### NotifiedFoodChoice {#notifiedfoodchoice}
 
 > `readonly` **NotifiedFoodChoice**: `"unece:notifiedFoodChoice"` = `"unece:notifiedFoodChoice"`
 

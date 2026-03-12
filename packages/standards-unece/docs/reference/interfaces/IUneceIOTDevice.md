@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/IOTDevice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"IOTDevice"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### attachedAssetId?
+### attachedAssetId? {#attachedassetid}
 
 > `optional` **attachedAssetId**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/attachedAssetId
 
 ***
 
-### communicationCapabilityCode?
+### communicationCapabilityCode? {#communicationcapabilitycode}
 
 > `optional` **communicationCapabilityCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/communicationCapabilityCode
 
 ***
 
-### embeddedSensor?
+### embeddedSensor? {#embeddedsensor}
 
 > `optional` **embeddedSensor**: [`IUneceSensor`](IUneceSensor.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/embeddedSensor
 
 ***
 
-### grantedCertificate?
+### grantedCertificate? {#grantedcertificate}
 
 > `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/grantedCertificate
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### interfaceEquipment?
+### interfaceEquipment? {#interfaceequipment}
 
 > `optional` **interfaceEquipment**: [`IUneceEquipment`](IUneceEquipment.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/interfaceEquipment
 
 ***
 
-### latestReceivedGeographicalCoordinate?
+### latestReceivedGeographicalCoordinate? {#latestreceivedgeographicalcoordinate}
 
 > `optional` **latestReceivedGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/latestReceivedGeographicalCoordinate
 
 ***
 
-### latestReceivedSignalDateTime?
+### latestReceivedSignalDateTime? {#latestreceivedsignaldatetime}
 
 > `optional` **latestReceivedSignalDateTime**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/latestReceivedSignalDateTime
 
 ***
 
-### manufacturerParty?
+### manufacturerParty? {#manufacturerparty}
 
 > `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ***
 
-### modelId?
+### modelId? {#modelid}
 
 > `optional` **modelId**: `string` \| `IJsonLdValueObject`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/modelId
 
 ***
 
-### operationalStatusCode?
+### operationalStatusCode? {#operationalstatuscode}
 
 > `optional` **operationalStatusCode**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/operationalStatusCode
 
 ***
 
-### operatorParty?
+### operatorParty? {#operatorparty}
 
 > `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ***
 
-### ownerParty?
+### ownerParty? {#ownerparty}
 
 > `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/ownerParty
 
 ***
 
-### positionCode?
+### positionCode? {#positioncode}
 
 > `optional` **positionCode**: `string`
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/positionCode
 
 ***
 
-### powerSourceTypeCode?
+### powerSourceTypeCode? {#powersourcetypecode}
 
 > `optional` **powerSourceTypeCode**: `string`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/powerSourceTypeCode
 
 ***
 
-### providerParty?
+### providerParty? {#providerparty}
 
 > `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/providerParty
 
 ***
 
-### relatedEvent?
+### relatedEvent? {#relatedevent}
 
 > `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/relatedEvent
 
 ***
 
-### remainingBatteryChargePercent?
+### remainingBatteryChargePercent? {#remainingbatterychargepercent}
 
 > `optional` **remainingBatteryChargePercent**: `string`
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/remainingBatteryChargePercent
 
 ***
 
-### remoteSensor?
+### remoteSensor? {#remotesensor}
 
 > `optional` **remoteSensor**: [`IUneceSensor`](IUneceSensor.md)[]
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/remoteSensor
 
 ***
 
-### reportedTransportEvent?
+### reportedTransportEvent? {#reportedtransportevent}
 
 > `optional` **reportedTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/reportedTransportEvent
 
 ***
 
-### reportingSensorPairing?
+### reportingSensorPairing? {#reportingsensorpairing}
 
 > `optional` **reportingSensorPairing**: [`IUnecePairing`](IUnecePairing.md)[]
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/reportingSensorPairing
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

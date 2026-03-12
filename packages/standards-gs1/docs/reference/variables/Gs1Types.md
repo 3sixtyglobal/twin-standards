@@ -6,7 +6,7 @@ The types of GS1 data.
 
 ## Type Declaration
 
-### LocationMasterData
+### LocationMasterData {#locationmasterdata}
 
 > `readonly` **LocationMasterData**: `"gs1_location_masterdata"` = `"gs1_location_masterdata"`
 

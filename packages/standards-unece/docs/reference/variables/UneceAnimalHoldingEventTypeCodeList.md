@@ -6,7 +6,7 @@ Values for UneceAnimalHoldingEvent typeCode property.
 
 ## Type Declaration
 
-### SpecifiedAnimalHoldingEvent
+### SpecifiedAnimalHoldingEvent {#specifiedanimalholdingevent}
 
 > `readonly` **SpecifiedAnimalHoldingEvent**: `"unece:specifiedAnimalHoldingEvent"` = `"unece:specifiedAnimalHoldingEvent"`
 

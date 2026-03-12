@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CalculatedPrice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CalculatedPrice"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### calculatedPriceTypeCode?
+### calculatedPriceTypeCode? {#calculatedpricetypecode}
 
 > `optional` **calculatedPriceTypeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/calculatedPriceTypeCode
 
 ***
 
-### chargeAmount?
+### chargeAmount? {#chargeamount}
 
 > `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ***
 
-### relatedAllowanceCharge?
+### relatedAllowanceCharge? {#relatedallowancecharge}
 
 > `optional` **relatedAllowanceCharge**: [`IUneceAppliedAllowanceCharge`](IUneceAppliedAllowanceCharge.md)[]
 

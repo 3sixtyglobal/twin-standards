@@ -9,7 +9,7 @@ https://www.w3.org/TR/odrl-model/#asset
 
 ## Properties
 
-### uid?
+### uid? {#uid}
 
 > `optional` **uid**: `string`
 
@@ -18,7 +18,7 @@ Should be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
 > `optional` **@type**: `string`
 
@@ -27,7 +27,7 @@ Can be used to specify additional type information.
 
 ***
 
-### partOf?
+### partOf? {#partof}
 
 > `optional` **partOf**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| (`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md))[]
 
@@ -36,7 +36,7 @@ Used to identify an AssetCollection that this Asset is a member of.
 
 ***
 
-### hasPolicy?
+### hasPolicy? {#haspolicy}
 
 > `optional` **hasPolicy**: `string` \| `string`[]
 

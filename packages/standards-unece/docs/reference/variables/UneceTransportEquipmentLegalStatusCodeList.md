@@ -6,13 +6,13 @@ A character string used to represent the transport equipment legal status.
 
 ## Type Declaration
 
-### Shortlanded
+### Shortlanded {#shortlanded}
 
 > `readonly` **Shortlanded**: `"unece:TransportEquipmentLegalStatusCodeList#7"` = `"unece:TransportEquipmentLegalStatusCodeList#7"`
 
 Shortlanded: 7.
 
-### Overlanded
+### Overlanded {#overlanded}
 
 > `readonly` **Overlanded**: `"unece:TransportEquipmentLegalStatusCodeList#8"` = `"unece:TransportEquipmentLegalStatusCodeList#8"`
 

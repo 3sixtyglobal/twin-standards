@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### shipmentEventTypeCodes?
+### shipmentEventTypeCodes? {#shipmenteventtypecodes}
 
 > `optional` **shipmentEventTypeCodes**: [`DcsaShipmentEventTypeCodes`](../type-aliases/DcsaShipmentEventTypeCodes.md)[]
 
@@ -18,7 +18,7 @@ Shipment event type codes to filter by.
 
 ***
 
-### documentTypeCodes?
+### documentTypeCodes? {#documenttypecodes}
 
 > `optional` **documentTypeCodes**: [`DcsaDocumentTypeCodes`](../type-aliases/DcsaDocumentTypeCodes.md)[]
 
@@ -26,7 +26,7 @@ Document type codes to filter by.
 
 ***
 
-### documentReference?
+### documentReference? {#documentreference}
 
 > `optional` **documentReference**: `string`
 
@@ -34,7 +34,7 @@ Document reference to filter by.
 
 ***
 
-### equipmentReference?
+### equipmentReference? {#equipmentreference}
 
 > `optional` **equipmentReference**: `string`
 

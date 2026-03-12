@@ -7,20 +7,20 @@ removes associations.
 
 ## Type Declaration
 
-### Add
+### Add {#add}
 
 > `readonly` **Add**: `"ADD"` = `"ADD"`
 
 Indicates that associations described by the event are created as of
 eventTime.
 
-### Observe
+### Observe {#observe}
 
 > `readonly` **Observe**: `"OBSERVE"` = `"OBSERVE"`
 
 Reports an observation of existing associations without changing them.
 
-### Delete
+### Delete {#delete}
 
 > `readonly` **Delete**: `"DELETE"` = `"DELETE"`
 

@@ -9,7 +9,7 @@ https://www.w3.org/TR/vc-data-model-1.1
 
 ## Properties
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -21,7 +21,7 @@ The identifier for the verifiable credential.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string` \| `string`[]
 
@@ -33,7 +33,7 @@ The types of the data stored in the verifiable credential.
 
 ***
 
-### credentialSubject?
+### credentialSubject? {#credentialsubject}
 
 > `optional` **credentialSubject**: `IJsonLdNodeObject` \| `IJsonLdNodeObject`[]
 
@@ -45,7 +45,7 @@ The data for the verifiable credential.
 
 ***
 
-### credentialStatus?
+### credentialStatus? {#credentialstatus}
 
 > `optional` **credentialStatus**: [`IDidCredentialStatus`](IDidCredentialStatus.md) \| [`IDidCredentialStatus`](IDidCredentialStatus.md)[]
 
@@ -58,7 +58,7 @@ verifiable credential, such as whether it is suspended or revoked.
 
 ***
 
-### credentialSchema?
+### credentialSchema? {#credentialschema}
 
 > `optional` **credentialSchema**: [`IDidCredentialSchema`](IDidCredentialSchema.md) \| [`IDidCredentialSchema`](IDidCredentialSchema.md)[]
 
@@ -70,7 +70,7 @@ Annotate type definitions or lock them to specific versions of the vocabulary.
 
 ***
 
-### issuer?
+### issuer? {#issuer}
 
 > `optional` **issuer**: `string` \| \{ `id`: `string`; `name?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; `description?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; \}
 
@@ -82,7 +82,7 @@ The issuing identity.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string` \| [`IDidLabel`](IDidLabel.md)[]
 
@@ -94,7 +94,7 @@ The name of the credential.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string` \| [`IDidLabel`](IDidLabel.md)[]
 
@@ -106,7 +106,7 @@ The description of the credential.
 
 ***
 
-### evidence?
+### evidence? {#evidence}
 
 > `optional` **evidence**: `IJsonLdNodeObject` \| `IJsonLdNodeObject`[]
 
@@ -118,7 +118,7 @@ Evidence associated with the Credential.
 
 ***
 
-### proof?
+### proof? {#proof}
 
 > `optional` **proof**: [`IProof`](../type-aliases/IProof.md) \| [`IProof`](../type-aliases/IProof.md)[]
 
@@ -131,7 +131,7 @@ Optional if a different proof method is used, such as JWT.
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: `"https://www.w3.org/2018/credentials/v1"` \| \[`"https://www.w3.org/2018/credentials/v1"`, `...IJsonLdContextDefinitionElement[]`\]
 
@@ -139,7 +139,7 @@ The context for the verifiable credential.
 
 ***
 
-### issuanceDate?
+### issuanceDate? {#issuancedate}
 
 > `optional` **issuanceDate**: `string`
 
@@ -147,7 +147,7 @@ The date the verifiable credential was issued, depending on version validFrom mi
 
 ***
 
-### expirationDate?
+### expirationDate? {#expirationdate}
 
 > `optional` **expirationDate**: `string`
 

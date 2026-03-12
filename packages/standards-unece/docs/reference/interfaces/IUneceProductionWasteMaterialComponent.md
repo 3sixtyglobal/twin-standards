@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductionWasteMaterialComponent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductionWasteMaterialComponent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProductCertificate?
+### applicableProductCertificate? {#applicableproductcertificate}
 
 > `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -6,7 +6,7 @@ Values for UneceGoodsCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableGoodsCharacteristic
+### ApplicableGoodsCharacteristic {#applicablegoodscharacteristic}
 
 > `readonly` **ApplicableGoodsCharacteristic**: `"unece:applicableGoodsCharacteristic"` = `"unece:applicableGoodsCharacteristic"`
 
@@ -19,7 +19,7 @@ Material goods characteristic applicable to this supply chain packaging.
 
 https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
-### CarriedGoodsCharacteristic
+### CarriedGoodsCharacteristic {#carriedgoodscharacteristic}
 
 > `readonly` **CarriedGoodsCharacteristic**: `"unece:carriedGoodsCharacteristic"` = `"unece:carriedGoodsCharacteristic"`
 

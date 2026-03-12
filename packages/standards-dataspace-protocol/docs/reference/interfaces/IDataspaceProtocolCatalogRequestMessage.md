@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cata
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ The JSON-LD context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"CatalogRequestMessage"`
 
@@ -21,7 +21,7 @@ The type of the message.
 
 ***
 
-### filter?
+### filter? {#filter}
 
 > `optional` **filter**: `unknown`[]
 

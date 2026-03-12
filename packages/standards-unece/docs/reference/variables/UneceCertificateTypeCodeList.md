@@ -6,19 +6,19 @@ A character string used to represent the type of a certificate.
 
 ## Type Declaration
 
-### Mark
+### Mark {#mark}
 
 > `readonly` **Mark**: `"unece:CertificateTypeCodeList#1"` = `"unece:CertificateTypeCodeList#1"`
 
 Mark: 1.
 
-### Certificate
+### Certificate {#certificate}
 
 > `readonly` **Certificate**: `"unece:CertificateTypeCodeList#2"` = `"unece:CertificateTypeCodeList#2"`
 
 Certificate: 2.
 
-### Label
+### Label {#label}
 
 > `readonly` **Label**: `"unece:CertificateTypeCodeList#3"` = `"unece:CertificateTypeCodeList#3"`
 

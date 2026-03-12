@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Sensor
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Sensor"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actualReportedMeasurement?
+### actualReportedMeasurement? {#actualreportedmeasurement}
 
 > `optional` **actualReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualReportedMeasurement
 
 ***
 
-### definedControlSettingParameter?
+### definedControlSettingParameter? {#definedcontrolsettingparameter}
 
 > `optional` **definedControlSettingParameter**: [`IUneceControlSettingParameter`](IUneceControlSettingParameter.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/definedControlSettingParameter
 
 ***
 
-### definedOperationalParameter?
+### definedOperationalParameter? {#definedoperationalparameter}
 
 > `optional` **definedOperationalParameter**: [`IUneceOperationalParameter`](IUneceOperationalParameter.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/definedOperationalParameter
 
 ***
 
-### grantedCertificate?
+### grantedCertificate? {#grantedcertificate}
 
 > `optional` **grantedCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/grantedCertificate
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### manufacturerParty?
+### manufacturerParty? {#manufacturerparty}
 
 > `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ***
 
-### ownerParty?
+### ownerParty? {#ownerparty}
 
 > `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/ownerParty
 
 ***
 
-### positionCode?
+### positionCode? {#positioncode}
 
 > `optional` **positionCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/positionCode
 
 ***
 
-### precisionMeasurement?
+### precisionMeasurement? {#precisionmeasurement}
 
 > `optional` **precisionMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/precisionMeasurement
 
 ***
 
-### remainingBatteryChargePercent?
+### remainingBatteryChargePercent? {#remainingbatterychargepercent}
 
 > `optional` **remainingBatteryChargePercent**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/remainingBatteryChargePercent
 
 ***
 
-### scheduledReportedMeasurement?
+### scheduledReportedMeasurement? {#scheduledreportedmeasurement}
 
 > `optional` **scheduledReportedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/scheduledReportedMeasurement
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

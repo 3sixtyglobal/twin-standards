@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GeopoliticalRegion
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeopoliticalRegion"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedCountry?
+### includedCountry? {#includedcountry}
 
 > `optional` **includedCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/includedCountry
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

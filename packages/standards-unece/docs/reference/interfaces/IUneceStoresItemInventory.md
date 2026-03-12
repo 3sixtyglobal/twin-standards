@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/StoresItemInventory
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"StoresItemInventory"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### onboardQuantity?
+### onboardQuantity? {#onboardquantity}
 
 > `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/onboardQuantity
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

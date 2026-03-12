@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancingStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancingStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### financingStatusConditionCode?
+### financingStatusConditionCode? {#financingstatusconditioncode}
 
 > `optional` **financingStatusConditionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/financingStatusConditionCode
 
 ***
 
-### financingStatusReasonCode?
+### financingStatusReasonCode? {#financingstatusreasoncode}
 
 > `optional` **financingStatusReasonCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/financingStatusReasonCode
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### reasonInformation?
+### reasonInformation? {#reasoninformation}
 
 > `optional` **reasonInformation**: `string`
 

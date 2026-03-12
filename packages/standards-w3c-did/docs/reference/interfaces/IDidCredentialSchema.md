@@ -4,7 +4,7 @@ Interface describing a DID credential schema.
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -12,7 +12,7 @@ The URI id.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string`
 

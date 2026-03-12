@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/QueryResults
 
 ## Properties
 
-### subscriptionID?
+### subscriptionID? {#subscriptionid}
 
 > `optional` **subscriptionID**: `string`
 
@@ -16,7 +16,7 @@ The concerned subscription.
 
 ***
 
-### queryName
+### queryName {#queryname}
 
 > **queryName**: `string`
 
@@ -24,7 +24,7 @@ The concerned query.
 
 ***
 
-### resultsBody
+### resultsBody {#resultsbody}
 
 > **resultsBody**: [`IEpcisQueryResultsBody`](IEpcisQueryResultsBody.md)
 

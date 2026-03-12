@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableCondition?
+### applicableCondition? {#applicablecondition}
 
 > `optional` **applicableCondition**: [`IUneceProductCharacteristicCondition`](IUneceProductCharacteristicCondition.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableCondition
 
 ***
 
-### applicableCountry?
+### applicableCountry? {#applicablecountry}
 
 > `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### contentTypeCode?
+### contentTypeCode? {#contenttypecode}
 
 > `optional` **contentTypeCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/contentTypeCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### measurementMethodCode?
+### measurementMethodCode? {#measurementmethodcode}
 
 > `optional` **measurementMethodCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/measurementMethodCode
 
 ***
 
-### productCharacteristicValueCode?
+### productCharacteristicValueCode? {#productcharacteristicvaluecode}
 
 > `optional` **productCharacteristicValueCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/productCharacteristicValueCode
 
 ***
 
-### targetMarketDescription?
+### targetMarketDescription? {#targetmarketdescription}
 
 > `optional` **targetMarketDescription**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/targetMarketDescription
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAmount?
+### valueAmount? {#valueamount}
 
 > `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ***
 
-### valueBinaryFile?
+### valueBinaryFile? {#valuebinaryfile}
 
 > `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/valueBinaryFile
 
 ***
 
-### valueDateTime?
+### valueDateTime? {#valuedatetime}
 
 > `optional` **valueDateTime**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/valueDateTime
 
 ***
 
-### valueIndicator?
+### valueIndicator? {#valueindicator}
 
 > `optional` **valueIndicator**: `boolean`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### valueMethod?
+### valueMethod? {#valuemethod}
 
 > `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/valueMethod
 
 ***
 
-### valueNumeric?
+### valueNumeric? {#valuenumeric}
 
 > `optional` **valueNumeric**: `string`
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ***
 
-### valueParameter?
+### valueParameter? {#valueparameter}
 
 > `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ***
 
-### valueRange?
+### valueRange? {#valuerange}
 
 > `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ***
 
-### valueTolerance?
+### valueTolerance? {#valuetolerance}
 
 > `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 

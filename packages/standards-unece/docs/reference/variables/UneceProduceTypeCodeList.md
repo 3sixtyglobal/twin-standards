@@ -6,7 +6,7 @@ Values for UneceProduce typeCode property.
 
 ## Type Declaration
 
-### HarvestedProduce
+### HarvestedProduce {#harvestedproduce}
 
 > `readonly` **HarvestedProduce**: `"unece:harvestedProduce"` = `"unece:harvestedProduce"`
 
@@ -17,7 +17,7 @@ Produce harvested from this field crop.
 
 https://vocabulary.uncefact.org/harvestedProduce
 
-### SpecifiedProduce
+### SpecifiedProduce {#specifiedproduce}
 
 > `readonly` **SpecifiedProduce**: `"unece:specifiedProduce"` = `"unece:specifiedProduce"`
 

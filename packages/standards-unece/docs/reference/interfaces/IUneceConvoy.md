@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Convoy
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Convoy"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### maximumWidthMeasure?
+### maximumWidthMeasure? {#maximumwidthmeasure}
 
 > `optional` **maximumWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/maximumWidthMeasure
 
 ***
 
-### overallLengthMeasure?
+### overallLengthMeasure? {#overalllengthmeasure}
 
 > `optional` **overallLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/overallLengthMeasure
 
 ***
 
-### powerActiveTransportMeans?
+### powerActiveTransportMeans? {#poweractivetransportmeans}
 
 > `optional` **powerActiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/powerActiveTransportMeans
 
 ***
 
-### powerInactiveTransportMeans?
+### powerInactiveTransportMeans? {#powerinactivetransportmeans}
 
 > `optional` **powerInactiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/powerInactiveTransportMeans
 
 ***
 
-### transportMeansQuantity?
+### transportMeansQuantity? {#transportmeansquantity}
 
 > `optional` **transportMeansQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

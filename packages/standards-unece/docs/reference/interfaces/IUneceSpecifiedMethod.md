@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedMethod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedMethod"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableParameter?
+### applicableParameter? {#applicableparameter}
 
 > `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ***
 
-### certificationId?
+### certificationId? {#certificationid}
 
 > `optional` **certificationId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/certificationId
 
 ***
 
-### certificationTypeCode?
+### certificationTypeCode? {#certificationtypecode}
 
 > `optional` **certificationTypeCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/certificationTypeCode
 
 ***
 
-### externalReference?
+### externalReference? {#externalreference}
 
 > `optional` **externalReference**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/externalReference
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### localTypeCode?
+### localTypeCode? {#localtypecode}
 
 > `optional` **localTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/localTypeCode
 
 ***
 
-### measurementCode?
+### measurementCode? {#measurementcode}
 
 > `optional` **measurementCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/measurementCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### obligatoryTypeCode?
+### obligatoryTypeCode? {#obligatorytypecode}
 
 > `optional` **obligatoryTypeCode**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/obligatoryTypeCode
 
 ***
 
-### standardTypeCode?
+### standardTypeCode? {#standardtypecode}
 
 > `optional` **standardTypeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/standardTypeCode
 
 ***
 
-### usedTechnologyCode?
+### usedTechnologyCode? {#usedtechnologycode}
 
 > `optional` **usedTechnologyCode**: `string`
 

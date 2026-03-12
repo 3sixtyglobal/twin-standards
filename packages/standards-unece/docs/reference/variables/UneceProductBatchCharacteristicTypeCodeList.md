@@ -6,7 +6,7 @@ Values for UneceProductBatchCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableProductBatchCharacteristic
+### ApplicableProductBatchCharacteristic {#applicableproductbatchcharacteristic}
 
 > `readonly` **ApplicableProductBatchCharacteristic**: `"unece:applicableProductBatchCharacteristic"` = `"unece:applicableProductBatchCharacteristic"`
 
@@ -16,7 +16,7 @@ A product batch characteristic applicable to this product batch.
 
 https://vocabulary.uncefact.org/applicableProductBatchCharacteristic
 
-### SpecifiedProductBatchCharacteristic
+### SpecifiedProductBatchCharacteristic {#specifiedproductbatchcharacteristic}
 
 > `readonly` **SpecifiedProductBatchCharacteristic**: `"unece:specifiedProductBatchCharacteristic"` = `"unece:specifiedProductBatchCharacteristic"`
 

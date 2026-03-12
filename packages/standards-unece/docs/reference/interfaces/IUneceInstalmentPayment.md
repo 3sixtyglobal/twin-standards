@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/InstalmentPayment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InstalmentPayment"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### dueDateTime?
+### dueDateTime? {#duedatetime}
 
 > `optional` **dueDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### paidAmount?
+### paidAmount? {#paidamount}
 
 > `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ***
 
-### sequenceId?
+### sequenceId? {#sequenceid}
 
 > `optional` **sequenceId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/sequenceId
 
 ***
 
-### specifiedFinancingRequestResultDocument?
+### specifiedFinancingRequestResultDocument? {#specifiedfinancingrequestresultdocument}
 
 > `optional` **specifiedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)
 

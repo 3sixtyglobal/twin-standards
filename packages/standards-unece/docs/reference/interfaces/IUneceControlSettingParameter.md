@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ControlSettingParameter
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ControlSettingParameter"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### changeableIndicator?
+### changeableIndicator? {#changeableindicator}
 
 > `optional` **changeableIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/changeableIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### requestedRange?
+### requestedRange? {#requestedrange}
 
 > `optional` **requestedRange**: [`IUneceRange`](IUneceRange.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/requestedRange
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAllowedIndicator?
+### valueAllowedIndicator? {#valueallowedindicator}
 
 > `optional` **valueAllowedIndicator**: `boolean`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

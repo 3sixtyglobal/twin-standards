@@ -6,7 +6,7 @@ Values for UneceProductCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableProductCharacteristic
+### ApplicableProductCharacteristic {#applicableproductcharacteristic}
 
 > `readonly` **ApplicableProductCharacteristic**: `"unece:applicableProductCharacteristic"` = `"unece:applicableProductCharacteristic"`
 
@@ -22,7 +22,7 @@ A product characteristic applicable to this trade product instance.
 
 https://vocabulary.uncefact.org/applicableProductCharacteristic
 
-### ClassCharacteristic
+### ClassCharacteristic {#classcharacteristic}
 
 > `readonly` **ClassCharacteristic**: `"unece:classCharacteristic"` = `"unece:classCharacteristic"`
 
@@ -32,7 +32,7 @@ A product class characteristic for this product classification.
 
 https://vocabulary.uncefact.org/classCharacteristic
 
-### ProductCharacteristic
+### ProductCharacteristic {#productcharacteristic}
 
 > `readonly` **ProductCharacteristic**: `"unece:productCharacteristic"` = `"unece:productCharacteristic"`
 

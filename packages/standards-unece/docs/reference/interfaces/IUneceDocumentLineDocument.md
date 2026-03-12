@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/DocumentLineDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DocumentLineDocument"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### buyerAssignedCategoryCode?
+### buyerAssignedCategoryCode? {#buyerassignedcategorycode}
 
 > `optional` **buyerAssignedCategoryCode**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/buyerAssignedCategoryCode
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### documentLineDocumentRequestedResponseTypeCode?
+### documentLineDocumentRequestedResponseTypeCode? {#documentlinedocumentrequestedresponsetypecode}
 
 > `optional` **documentLineDocumentRequestedResponseTypeCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/documentLineDocumentRequestedResponseTypeCode
 
 ***
 
-### documentLineStatusCode?
+### documentLineStatusCode? {#documentlinestatuscode}
 
 > `optional` **documentLineStatusCode**: [`UneceLineStatusCodeList`](../type-aliases/UneceLineStatusCodeList.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/documentLineStatusCode
 
 ***
 
-### effectiveSpecifiedPeriod?
+### effectiveSpecifiedPeriod? {#effectivespecifiedperiod}
 
 > `optional` **effectiveSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedNote?
+### includedNote? {#includednote}
 
 > `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/includedNote
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### latestRevisionDateTime?
+### latestRevisionDateTime? {#latestrevisiondatetime}
 
 > `optional` **latestRevisionDateTime**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/latestRevisionDateTime
 
 ***
 
-### lineId?
+### lineId? {#lineid}
 
 > `optional` **lineId**: `string` \| `IJsonLdValueObject`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/lineId
 
 ***
 
-### lineStatusReason?
+### lineStatusReason? {#linestatusreason}
 
 > `optional` **lineStatusReason**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/lineStatusReason
 
 ***
 
-### lineStatusReasonCode?
+### lineStatusReasonCode? {#linestatusreasoncode}
 
 > `optional` **lineStatusReasonCode**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/lineStatusReasonCode
 
 ***
 
-### parentLineId?
+### parentLineId? {#parentlineid}
 
 > `optional` **parentLineId**: `string` \| `IJsonLdValueObject`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/parentLineId
 
 ***
 
-### publicationDateTime?
+### publicationDateTime? {#publicationdatetime}
 
 > `optional` **publicationDateTime**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/publicationDateTime
 
 ***
 
-### referenceAcknowledgementDocument?
+### referenceAcknowledgementDocument? {#referenceacknowledgementdocument}
 
 > `optional` **referenceAcknowledgementDocument**: [`IUneceAcknowledgementDocument`](IUneceAcknowledgementDocument.md)
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/referenceAcknowledgementDocument
 
 ***
 
-### referenceDocument?
+### referenceDocument? {#referencedocument}
 
 > `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/referenceDocument
 
 ***
 
-### responseReasonCode?
+### responseReasonCode? {#responsereasoncode}
 
 > `optional` **responseReasonCode**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/responseReasonCode
 
 ***
 
-### subordinateLineId?
+### subordinateLineId? {#subordinatelineid}
 
 > `optional` **subordinateLineId**: `string` \| `IJsonLdValueObject`
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/subordinateLineId
 
 ***
 
-### uUIDLineId?
+### uUIDLineId? {#uuidlineid}
 
 > `optional` **uUIDLineId**: `string` \| `IJsonLdValueObject`
 

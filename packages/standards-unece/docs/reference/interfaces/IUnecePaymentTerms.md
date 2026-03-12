@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentTerms
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentTerms"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicablePaymentDiscountTerms?
+### applicablePaymentDiscountTerms? {#applicablepaymentdiscountterms}
 
 > `optional` **applicablePaymentDiscountTerms**: [`IUnecePaymentDiscountTerms`](IUnecePaymentDiscountTerms.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicablePaymentDiscountTerms
 
 ***
 
-### applicablePaymentPenaltyTerms?
+### applicablePaymentPenaltyTerms? {#applicablepaymentpenaltyterms}
 
 > `optional` **applicablePaymentPenaltyTerms**: [`IUnecePaymentPenaltyTerms`](IUnecePaymentPenaltyTerms.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicablePaymentPenaltyTerms
 
 ***
 
-### billStartDateTime?
+### billStartDateTime? {#billstartdatetime}
 
 > `optional` **billStartDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/billStartDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### dueDateTime?
+### dueDateTime? {#duedatetime}
 
 > `optional` **dueDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### durationUnitDurationMeasure?
+### durationUnitDurationMeasure? {#durationunitdurationmeasure}
 
 > `optional` **durationUnitDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/durationUnitDurationMeasure
 
 ***
 
-### equivalentAmount?
+### equivalentAmount? {#equivalentamount}
 
 > `optional` **equivalentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/equivalentAmount
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### instructedAmount?
+### instructedAmount? {#instructedamount}
 
 > `optional` **instructedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/instructedAmount
 
 ***
 
-### instructionCode?
+### instructionCode? {#instructioncode}
 
 > `optional` **instructionCode**: `string`
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/instructionCode
 
 ***
 
-### partialPaymentAmount?
+### partialPaymentAmount? {#partialpaymentamount}
 
 > `optional` **partialPaymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/partialPaymentAmount
 
 ***
 
-### partialPaymentPercent?
+### partialPaymentPercent? {#partialpaymentpercent}
 
 > `optional` **partialPaymentPercent**: `string`
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/partialPaymentPercent
 
 ***
 
-### payeeParty?
+### payeeParty? {#payeeparty}
 
 > `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/payeeParty
 
 ***
 
-### paymentTermsEventTimeReferenceFromEventCode?
+### paymentTermsEventTimeReferenceFromEventCode? {#paymenttermseventtimereferencefromeventcode}
 
 > `optional` **paymentTermsEventTimeReferenceFromEventCode**: `string`
 
@@ -196,7 +196,7 @@ https://vocabulary.uncefact.org/paymentTermsEventTimeReferenceFromEventCode
 
 ***
 
-### paymentTermsId?
+### paymentTermsId? {#paymenttermsid}
 
 > `optional` **paymentTermsId**: `string` \| `IJsonLdValueObject`
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/paymentTermsId
 
 ***
 
-### paymentTermsTypeCode?
+### paymentTermsTypeCode? {#paymenttermstypecode}
 
 > `optional` **paymentTermsTypeCode**: [`UnecePaymentTermsTypeCodeList`](../type-aliases/UnecePaymentTermsTypeCodeList.md)[]
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/paymentTermsTypeCode
 
 ***
 
-### settlementPeriodMeasure?
+### settlementPeriodMeasure? {#settlementperiodmeasure}
 
 > `optional` **settlementPeriodMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -233,7 +233,7 @@ https://vocabulary.uncefact.org/settlementPeriodMeasure
 
 ***
 
-### tradePaymentTermsDirectDebitMandateId?
+### tradePaymentTermsDirectDebitMandateId? {#tradepaymenttermsdirectdebitmandateid}
 
 > `optional` **tradePaymentTermsDirectDebitMandateId**: `string` \| `IJsonLdValueObject`
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/tradePaymentTermsDirectDebitMandateId
 
 ***
 
-### tradePaymentTermsInstructionTypeCode?
+### tradePaymentTermsInstructionTypeCode? {#tradepaymenttermsinstructiontypecode}
 
 > `optional` **tradePaymentTermsInstructionTypeCode**: `string`
 
@@ -257,7 +257,7 @@ https://vocabulary.uncefact.org/tradePaymentTermsInstructionTypeCode
 
 ***
 
-### tradePaymentTermsPaymentMeansId?
+### tradePaymentTermsPaymentMeansId? {#tradepaymenttermspaymentmeansid}
 
 > `optional` **tradePaymentTermsPaymentMeansId**: `string` \| `IJsonLdValueObject`
 

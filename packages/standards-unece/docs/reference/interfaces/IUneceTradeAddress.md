@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeAddress
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeAddress"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalStreetName?
+### additionalStreetName? {#additionalstreetname}
 
 > `optional` **additionalStreetName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalStreetName
 
 ***
 
-### addressTypeCode?
+### addressTypeCode? {#addresstypecode}
 
 > `optional` **addressTypeCode**: [`UneceAddressTypeCodeList`](../type-aliases/UneceAddressTypeCodeList.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/addressTypeCode
 
 ***
 
-### attentionOf?
+### attentionOf? {#attentionof}
 
 > `optional` **attentionOf**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/attentionOf
 
 ***
 
-### buildingName?
+### buildingName? {#buildingname}
 
 > `optional` **buildingName**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/buildingName
 
 ***
 
-### buildingNumber?
+### buildingNumber? {#buildingnumber}
 
 > `optional` **buildingNumber**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/buildingNumber
 
 ***
 
-### careOf?
+### careOf? {#careof}
 
 > `optional` **careOf**: `string`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/careOf
 
 ***
 
-### cityId?
+### cityId? {#cityid}
 
 > `optional` **cityId**: `string` \| `IJsonLdValueObject`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/cityId
 
 ***
 
-### cityName?
+### cityName? {#cityname}
 
 > `optional` **cityName**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/cityName
 
 ***
 
-### citySubDivisionName?
+### citySubDivisionName? {#citysubdivisionname}
 
 > `optional` **citySubDivisionName**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/citySubDivisionName
 
 ***
 
-### countryIdentificationCountry?
+### countryIdentificationCountry? {#countryidentificationcountry}
 
 > `optional` **countryIdentificationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/countryIdentificationCountry
 
 ***
 
-### countryName?
+### countryName? {#countryname}
 
 > `optional` **countryName**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/countryName
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### countrySubDivisionName?
+### countrySubDivisionName? {#countrysubdivisionname}
 
 > `optional` **countrySubDivisionName**: `string`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/countrySubDivisionName
 
 ***
 
-### departmentName?
+### departmentName? {#departmentname}
 
 > `optional` **departmentName**: `string`
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### freeForm?
+### freeForm? {#freeform}
 
 > `optional` **freeForm**: `string`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/freeForm
 
 ***
 
-### geoCoordinateIdentificationGeographicalCoordinate?
+### geoCoordinateIdentificationGeographicalCoordinate? {#geocoordinateidentificationgeographicalcoordinate}
 
 > `optional` **geoCoordinateIdentificationGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)[]
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/geoCoordinateIdentificationGeographicalCoordinat
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### invalidIndicator?
+### invalidIndicator? {#invalidindicator}
 
 > `optional` **invalidIndicator**: `boolean`
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/invalidIndicator
 
 ***
 
-### lineFive?
+### lineFive? {#linefive}
 
 > `optional` **lineFive**: `string`
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/lineFive
 
 ***
 
-### lineFour?
+### lineFour? {#linefour}
 
 > `optional` **lineFour**: `string`
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/lineFour
 
 ***
 
-### lineOne?
+### lineOne? {#lineone}
 
 > `optional` **lineOne**: `string`
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/lineOne
 
 ***
 
-### lineThree?
+### lineThree? {#linethree}
 
 > `optional` **lineThree**: `string`
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/lineThree
 
 ***
 
-### lineTwo?
+### lineTwo? {#linetwo}
 
 > `optional` **lineTwo**: `string`
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/lineTwo
 
 ***
 
-### postOfficeBox?
+### postOfficeBox? {#postofficebox}
 
 > `optional` **postOfficeBox**: `string`
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/postOfficeBox
 
 ***
 
-### postcodeCode?
+### postcodeCode? {#postcodecode}
 
 > `optional` **postcodeCode**: `string`
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/postcodeCode
 
 ***
 
-### secondaryPostcodeCode?
+### secondaryPostcodeCode? {#secondarypostcodecode}
 
 > `optional` **secondaryPostcodeCode**: `string`
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/secondaryPostcodeCode
 
 ***
 
-### streetName?
+### streetName? {#streetname}
 
 > `optional` **streetName**: `string`
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/streetName
 
 ***
 
-### tradeAddressCountryId?
+### tradeAddressCountryId? {#tradeaddresscountryid}
 
 > `optional` **tradeAddressCountryId**: `string` \| `IJsonLdValueObject`
 

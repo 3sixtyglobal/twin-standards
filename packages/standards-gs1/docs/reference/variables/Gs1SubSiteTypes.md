@@ -8,97 +8,97 @@ Section 10.3.1 .
 
 ## Type Declaration
 
-### Backroom
+### Backroom {#backroom}
 
 > `readonly` **Backroom**: `"201"` = `"201"`
 
 The Backroom.
 
-### StorageArea
+### StorageArea {#storagearea}
 
 > `readonly` **StorageArea**: `"202"` = `"202"`
 
 The Storage Area.
 
-### SalesFloor
+### SalesFloor {#salesfloor}
 
 > `readonly` **SalesFloor**: `"203"` = `"203"`
 
 The Sales Floor.
 
-### ReturnsArea
+### ReturnsArea {#returnsarea}
 
 > `readonly` **ReturnsArea**: `"207"` = `"207"`
 
 The Returns Area.
 
-### ProductionArea
+### ProductionArea {#productionarea}
 
 > `readonly` **ProductionArea**: `"208"` = `"208"`
 
 The Production Area.
 
-### ReceivingArea
+### ReceivingArea {#receivingarea}
 
 > `readonly` **ReceivingArea**: `"209"` = `"209"`
 
 The Receiving Area.
 
-### ShippingArea
+### ShippingArea {#shippingarea}
 
 > `readonly` **ShippingArea**: `"210"` = `"210"`
 
 The Shipping Area.
 
-### SalesFloorTransitionArea
+### SalesFloorTransitionArea {#salesfloortransitionarea}
 
 > `readonly` **SalesFloorTransitionArea**: `"211"` = `"211"`
 
 The Sales Floor Transition Area.
 
-### CustomerPickupArea
+### CustomerPickupArea {#customerpickuparea}
 
 > `readonly` **CustomerPickupArea**: `"212"` = `"212"`
 
 The Customer Pick-Up Area.
 
-### Yard
+### Yard {#yard}
 
 > `readonly` **Yard**: `"213"` = `"213"`
 
 The Yard.
 
-### ContainerDeck
+### ContainerDeck {#containerdeck}
 
 > `readonly` **ContainerDeck**: `"214"` = `"214"`
 
 The Container Deck.
 
-### CargoTerminal
+### CargoTerminal {#cargoterminal}
 
 > `readonly` **CargoTerminal**: `"215"` = `"215"`
 
 The Cargo Terminal.
 
-### PackagingArea
+### PackagingArea {#packagingarea}
 
 > `readonly` **PackagingArea**: `"251"` = `"251"`
 
 The Packaging Area.
 
-### PickingArea
+### PickingArea {#pickingarea}
 
 > `readonly` **PickingArea**: `"252"` = `"252"`
 
 The Picking Area.
 
-### PharmacyArea
+### PharmacyArea {#pharmacyarea}
 
 > `readonly` **PharmacyArea**: `"253"` = `"253"`
 
 The Pharmacy Area.
 
-### Undefined
+### Undefined {#undefined}
 
 > `readonly` **Undefined**: `"299"` = `"299"`
 

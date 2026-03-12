@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Picture
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Picture"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalDescription?
+### additionalDescription? {#additionaldescription}
 
 > `optional` **additionalDescription**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalDescription
 
 ***
 
-### areaIncluded?
+### areaIncluded? {#areaincluded}
 
 > `optional` **areaIncluded**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/areaIncluded
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### copyrightOwnerName?
+### copyrightOwnerName? {#copyrightownername}
 
 > `optional` **copyrightOwnerName**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/copyrightOwnerName
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### digitalImageBinaryObject?
+### digitalImageBinaryObject? {#digitalimagebinaryobject}
 
 > `optional` **digitalImageBinaryObject**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/digitalImageBinaryObject
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### intendedUse?
+### intendedUse? {#intendeduse}
 
 > `optional` **intendedUse**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/intendedUse
 
 ***
 
-### intendedUseCode?
+### intendedUseCode? {#intendedusecode}
 
 > `optional` **intendedUseCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/intendedUseCode
 
 ***
 
-### linearDimension?
+### linearDimension? {#lineardimension}
 
 > `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ***
 
-### pictureType?
+### pictureType? {#picturetype}
 
 > `optional` **pictureType**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/pictureType
 
 ***
 
-### reference?
+### reference? {#reference}
 
 > `optional` **reference**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/reference
 
 ***
 
-### renderingInformation?
+### renderingInformation? {#renderinginformation}
 
 > `optional` **renderingInformation**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/renderingInformation
 
 ***
 
-### resolutionTypeCode?
+### resolutionTypeCode? {#resolutiontypecode}
 
 > `optional` **resolutionTypeCode**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/resolutionTypeCode
 
 ***
 
-### resolutionValueNumeric?
+### resolutionValueNumeric? {#resolutionvaluenumeric}
 
 > `optional` **resolutionValueNumeric**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/resolutionValueNumeric
 
 ***
 
-### specifiedNote?
+### specifiedNote? {#specifiednote}
 
 > `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/specifiedNote
 
 ***
 
-### subject?
+### subject? {#subject}
 
 > `optional` **subject**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/subject
 
 ***
 
-### takenDateTime?
+### takenDateTime? {#takendatetime}
 
 > `optional` **takenDateTime**: `string`
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/takenDateTime
 
 ***
 
-### titleName?
+### titleName? {#titlename}
 
 > `optional` **titleName**: `string`
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/titleName
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 

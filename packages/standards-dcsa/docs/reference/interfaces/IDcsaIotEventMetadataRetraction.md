@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventID
+### eventID {#eventid}
 
 > **eventID**: `string`
 
@@ -18,7 +18,7 @@ Unique identifier of this event.
 
 ***
 
-### eventCreatedDateTime
+### eventCreatedDateTime {#eventcreateddatetime}
 
 > **eventCreatedDateTime**: `string`
 
@@ -26,7 +26,7 @@ Date-time when the event was created by the publisher.
 
 ***
 
-### publisher
+### publisher {#publisher}
 
 > **publisher**: [`IDcsaPublisher`](IDcsaPublisher.md)
 
@@ -34,7 +34,7 @@ The party publishing this event.
 
 ***
 
-### publisherRole
+### publisherRole {#publisherrole}
 
 > **publisherRole**: [`DcsaTntPublisherRole`](../type-aliases/DcsaTntPublisherRole.md)
 
@@ -42,7 +42,7 @@ Publisher role (context of the publisher).
 
 ***
 
-### eventType
+### eventType {#eventtype}
 
 > **eventType**: `"IOT"`
 
@@ -50,7 +50,7 @@ Event type discriminator.
 
 ***
 
-### retractedEventID
+### retractedEventID {#retractedeventid}
 
 > **retractedEventID**: `string`
 

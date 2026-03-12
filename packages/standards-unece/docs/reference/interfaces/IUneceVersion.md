@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Version
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Version"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

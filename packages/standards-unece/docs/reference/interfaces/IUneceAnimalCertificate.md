@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AnimalCertificate
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AnimalCertificate"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableAnimalCertification?
+### applicableAnimalCertification? {#applicableanimalcertification}
 
 > `optional` **applicableAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableAnimalCertification
 
 ***
 
-### applicableAssertion?
+### applicableAssertion? {#applicableassertion}
 
 > `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableAssertion
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### certificateTypeCode
+### certificateTypeCode {#certificatetypecode}
 
 > **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 

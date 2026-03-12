@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AnimalHoldingEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AnimalHoldingEvent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### locationId?
+### locationId? {#locationid}
 
 > `optional` **locationId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/locationId
 
 ***
 
-### occurrenceDateTime
+### occurrenceDateTime {#occurrencedatetime}
 
 > **occurrenceDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### relatedTTLocation?
+### relatedTTLocation? {#relatedttlocation}
 
 > `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ***
 
-### relatedTechnicalCharacteristic?
+### relatedTechnicalCharacteristic? {#relatedtechnicalcharacteristic}
 
 > `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 
 ***
 
-### typeCode
+### typeCode {#typecode}
 
 > **typeCode**: `string`
 

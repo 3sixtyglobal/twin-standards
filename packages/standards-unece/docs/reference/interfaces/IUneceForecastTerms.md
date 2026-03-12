@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ForecastTerms
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ForecastTerms"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### dateTypeCode?
+### dateTypeCode? {#datetypecode}
 
 > `optional` **dateTypeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/dateTypeCode
 
 ***
 
-### forecastTypeCode?
+### forecastTypeCode? {#forecasttypecode}
 
 > `optional` **forecastTypeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/forecastTypeCode
 
 ***
 
-### supplyChainForecastTermsCommitmentLevelCode?
+### supplyChainForecastTermsCommitmentLevelCode? {#supplychainforecasttermscommitmentlevelcode}
 
 > `optional` **supplyChainForecastTermsCommitmentLevelCode**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/supplyChainForecastTermsCommitmentLevelCode
 
 ***
 
-### supplyChainForecastTermsFrequencyCode?
+### supplyChainForecastTermsFrequencyCode? {#supplychainforecasttermsfrequencycode}
 
 > `optional` **supplyChainForecastTermsFrequencyCode**: `string`
 

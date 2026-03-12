@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AdvancePayment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AdvancePayment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifiedPaymentTerms?
+### identifiedPaymentTerms? {#identifiedpaymentterms}
 
 > `optional` **identifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifiedPaymentTerms
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedTax?
+### includedTax? {#includedtax}
 
 > `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/includedTax
 
 ***
 
-### invoiceSpecifiedDocument?
+### invoiceSpecifiedDocument? {#invoicespecifieddocument}
 
 > `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/invoiceSpecifiedDocument
 
 ***
 
-### paidAmount
+### paidAmount {#paidamount}
 
 > **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ***
 
-### receivedDateTime?
+### receivedDateTime? {#receiveddatetime}
 
 > `optional` **receivedDateTime**: `string`
 

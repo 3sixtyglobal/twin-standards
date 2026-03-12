@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/TTExchangedDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTExchangedDocument"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### receiverSpecifiedParty
+### receiverSpecifiedParty {#receiverspecifiedparty}
 
 > **receiverSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/receiverSpecifiedParty
 
 ***
 
-### senderSpecifiedParty
+### senderSpecifiedParty {#senderspecifiedparty}
 
 > **senderSpecifiedParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/senderSpecifiedParty
 
 ***
 
-### tTExchangedDocumentPurposeCode?
+### tTExchangedDocumentPurposeCode? {#ttexchangeddocumentpurposecode}
 
 > `optional` **tTExchangedDocumentPurposeCode**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/tTExchangedDocumentPurposeCode
 
 ***
 
-### tTExchangedDocumentStatusCode?
+### tTExchangedDocumentStatusCode? {#ttexchangeddocumentstatuscode}
 
 > `optional` **tTExchangedDocumentStatusCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/tTExchangedDocumentStatusCode
 
 ***
 
-### tTExchangedDocumentTypeCode?
+### tTExchangedDocumentTypeCode? {#ttexchangeddocumenttypecode}
 
 > `optional` **tTExchangedDocumentTypeCode**: `string`
 

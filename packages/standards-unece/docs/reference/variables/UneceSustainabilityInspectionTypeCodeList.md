@@ -6,7 +6,7 @@ Values for UneceSustainabilityInspection typeCode property.
 
 ## Type Declaration
 
-### ApplicableSustainabilityInspection
+### ApplicableSustainabilityInspection {#applicablesustainabilityinspection}
 
 > `readonly` **ApplicableSustainabilityInspection**: `"unece:applicableSustainabilityInspection"` = `"unece:applicableSustainabilityInspection"`
 

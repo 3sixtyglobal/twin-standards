@@ -6,25 +6,25 @@ The types for ODRL Policies.
 
 ## Type Declaration
 
-### Policy
+### Policy {#policy}
 
 > `readonly` **Policy**: `"Policy"` = `"Policy"`
 
 Policy type.
 
-### Set
+### Set {#set}
 
 > `readonly` **Set**: `"Set"` = `"Set"`
 
 Set type.
 
-### Offer
+### Offer {#offer}
 
 > `readonly` **Offer**: `"Offer"` = `"Offer"`
 
 Offer type.
 
-### Agreement
+### Agreement {#agreement}
 
 > `readonly` **Agreement**: `"Agreement"` = `"Agreement"`
 

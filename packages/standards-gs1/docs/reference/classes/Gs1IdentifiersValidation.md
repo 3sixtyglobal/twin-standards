@@ -14,7 +14,7 @@ Validation for GS1 identifiers.
 
 ## Methods
 
-### epcId()
+### epcId() {#epcid}
 
 > `static` **epcId**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -48,7 +48,7 @@ True if the value is valid epc.
 
 ***
 
-### epcIdGtin()
+### epcIdGtin() {#epcidgtin}
 
 > `static` **epcIdGtin**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -82,7 +82,7 @@ True if the value is valid epc.
 
 ***
 
-### epcIdGln()
+### epcIdGln() {#epcidgln}
 
 > `static` **epcIdGln**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -116,7 +116,7 @@ True if the value is valid epc.
 
 ***
 
-### epcClass()
+### epcClass() {#epcclass}
 
 > `static` **epcClass**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -150,7 +150,7 @@ True if the value is valid epc.
 
 ***
 
-### extractEpcIdGtin()
+### extractEpcIdGtin() {#extractepcidgtin}
 
 > `static` **extractEpcIdGtin**(`epc`): `string` \| `undefined`
 
@@ -172,7 +172,7 @@ The extracted data or undefined.
 
 ***
 
-### extractEpcIdGln()
+### extractEpcIdGln() {#extractepcidgln}
 
 > `static` **extractEpcIdGln**(`epc`): `string` \| `undefined`
 
@@ -194,7 +194,7 @@ The extracted data or undefined.
 
 ***
 
-### extractEpcClassUri()
+### extractEpcClassUri() {#extractepcclassuri}
 
 > `static` **extractEpcClassUri**(`epc`): [`IEPCClassUri`](../interfaces/IEPCClassUri.md) \| `undefined`
 

@@ -6,7 +6,7 @@ Values for UnecePaymentTradeSettlement typeCode property.
 
 ## Type Declaration
 
-### SpecifiedPaymentTradeSettlement
+### SpecifiedPaymentTradeSettlement {#specifiedpaymenttradesettlement}
 
 > `readonly` **SpecifiedPaymentTradeSettlement**: `"unece:specifiedPaymentTradeSettlement"` = `"unece:specifiedPaymentTradeSettlement"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LineTradeDelivery
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LineTradeDelivery"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acceptanceEvent?
+### acceptanceEvent? {#acceptanceevent}
 
 > `optional` **acceptanceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acceptanceEvent
 
 ***
 
-### actualDeliveryEvent?
+### actualDeliveryEvent? {#actualdeliveryevent}
 
 > `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ***
 
-### actualDespatchEvent?
+### actualDespatchEvent? {#actualdespatchevent}
 
 > `optional` **actualDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/actualDespatchEvent
 
 ***
 
-### actualLoadingEvent?
+### actualLoadingEvent? {#actualloadingevent}
 
 > `optional` **actualLoadingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/actualLoadingEvent
 
 ***
 
-### actualPickUpEvent?
+### actualPickUpEvent? {#actualpickupevent}
 
 > `optional` **actualPickUpEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/actualPickUpEvent
 
 ***
 
-### actualReceiptEvent?
+### actualReceiptEvent? {#actualreceiptevent}
 
 > `optional` **actualReceiptEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/actualReceiptEvent
 
 ***
 
-### actualUnloadingEvent?
+### actualUnloadingEvent? {#actualunloadingevent}
 
 > `optional` **actualUnloadingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/actualUnloadingEvent
 
 ***
 
-### additionalDocument?
+### additionalDocument? {#additionaldocument}
 
 > `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/additionalDocument
 
 ***
 
-### agreedQuantity?
+### agreedQuantity? {#agreedquantity}
 
 > `optional` **agreedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/agreedQuantity
 
 ***
 
-### applicableDangerousGoods?
+### applicableDangerousGoods? {#applicabledangerousgoods}
 
 > `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/applicableDangerousGoods
 
 ***
 
-### availableInventory?
+### availableInventory? {#availableinventory}
 
 > `optional` **availableInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/availableInventory
 
 ***
 
-### availableQuantity?
+### availableQuantity? {#availablequantity}
 
 > `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/availableQuantity
 
 ***
 
-### billedQuantity?
+### billedQuantity? {#billedquantity}
 
 > `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/billedQuantity
 
 ***
 
-### buyerOrderDateTime?
+### buyerOrderDateTime? {#buyerorderdatetime}
 
 > `optional` **buyerOrderDateTime**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/buyerOrderDateTime
 
 ***
 
-### cancelledQuantity?
+### cancelledQuantity? {#cancelledquantity}
 
 > `optional` **cancelledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/cancelledQuantity
 
 ***
 
-### chargeFreeQuantity?
+### chargeFreeQuantity? {#chargefreequantity}
 
 > `optional` **chargeFreeQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/chargeFreeQuantity
 
 ***
 
-### classificationDocument?
+### classificationDocument? {#classificationdocument}
 
 > `optional` **classificationDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/classificationDocument
 
 ***
 
-### confirmedDeliveryEvent?
+### confirmedDeliveryEvent? {#confirmeddeliveryevent}
 
 > `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/confirmedDeliveryEvent
 
 ***
 
-### confirmedDespatchEvent?
+### confirmedDespatchEvent? {#confirmeddespatchevent}
 
 > `optional` **confirmedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/confirmedDespatchEvent
 
 ***
 
-### confirmedPickUpEvent?
+### confirmedPickUpEvent? {#confirmedpickupevent}
 
 > `optional` **confirmedPickUpEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/confirmedPickUpEvent
 
 ***
 
-### confirmedReleaseEvent?
+### confirmedReleaseEvent? {#confirmedreleaseevent}
 
 > `optional` **confirmedReleaseEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/confirmedReleaseEvent
 
 ***
 
-### consignmentInventory?
+### consignmentInventory? {#consignmentinventory}
 
 > `optional` **consignmentInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/consignmentInventory
 
 ***
 
-### consumptionReportDocument?
+### consumptionReportDocument? {#consumptionreportdocument}
 
 > `optional` **consumptionReportDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/consumptionReportDocument
 
 ***
 
-### consumptionSchedule?
+### consumptionSchedule? {#consumptionschedule}
 
 > `optional` **consumptionSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/consumptionSchedule
 
 ***
 
-### customerInventory?
+### customerInventory? {#customerinventory}
 
 > `optional` **customerInventory**: [`IUneceSupplyChainInventory`](IUneceSupplyChainInventory.md)[]
 
@@ -324,7 +324,7 @@ https://vocabulary.uncefact.org/customerInventory
 
 ***
 
-### deliveryNoteDocument?
+### deliveryNoteDocument? {#deliverynotedocument}
 
 > `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/deliveryNoteDocument
 
 ***
 
-### deliverySchedule?
+### deliverySchedule? {#deliveryschedule}
 
 > `optional` **deliverySchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/deliverySchedule
 
 ***
 
-### despatchAdviceDocument?
+### despatchAdviceDocument? {#despatchadvicedocument}
 
 > `optional` **despatchAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/despatchAdviceDocument
 
 ***
 
-### despatchSchedule?
+### despatchSchedule? {#despatchschedule}
 
 > `optional` **despatchSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/despatchSchedule
 
 ***
 
-### despatchedQuantity?
+### despatchedQuantity? {#despatchedquantity}
 
 > `optional` **despatchedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -384,7 +384,7 @@ https://vocabulary.uncefact.org/despatchedQuantity
 
 ***
 
-### destroyedQuantity?
+### destroyedQuantity? {#destroyedquantity}
 
 > `optional` **destroyedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -396,7 +396,7 @@ https://vocabulary.uncefact.org/destroyedQuantity
 
 ***
 
-### disposalParty?
+### disposalParty? {#disposalparty}
 
 > `optional` **disposalParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -408,7 +408,7 @@ https://vocabulary.uncefact.org/disposalParty
 
 ***
 
-### dueInAvailableQuantity?
+### dueInAvailableQuantity? {#dueinavailablequantity}
 
 > `optional` **dueInAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -420,7 +420,7 @@ https://vocabulary.uncefact.org/dueInAvailableQuantity
 
 ***
 
-### dueInForecastedQuantity?
+### dueInForecastedQuantity? {#dueinforecastedquantity}
 
 > `optional` **dueInForecastedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -432,7 +432,7 @@ https://vocabulary.uncefact.org/dueInForecastedQuantity
 
 ***
 
-### dueInRequestedQuantity?
+### dueInRequestedQuantity? {#dueinrequestedquantity}
 
 > `optional` **dueInRequestedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/dueInRequestedQuantity
 
 ***
 
-### dueInReturnedQuantity?
+### dueInReturnedQuantity? {#dueinreturnedquantity}
 
 > `optional` **dueInReturnedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -456,7 +456,7 @@ https://vocabulary.uncefact.org/dueInReturnedQuantity
 
 ***
 
-### economicOrderQuantity?
+### economicOrderQuantity? {#economicorderquantity}
 
 > `optional` **economicOrderQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -468,7 +468,7 @@ https://vocabulary.uncefact.org/economicOrderQuantity
 
 ***
 
-### finalDeliveryIndicator?
+### finalDeliveryIndicator? {#finaldeliveryindicator}
 
 > `optional` **finalDeliveryIndicator**: `boolean`
 
@@ -480,7 +480,7 @@ https://vocabulary.uncefact.org/finalDeliveryIndicator
 
 ***
 
-### finalDestinationCountry?
+### finalDestinationCountry? {#finaldestinationcountry}
 
 > `optional` **finalDestinationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
@@ -492,7 +492,7 @@ https://vocabulary.uncefact.org/finalDestinationCountry
 
 ***
 
-### fullyDeliveredIndicator?
+### fullyDeliveredIndicator? {#fullydeliveredindicator}
 
 > `optional` **fullyDeliveredIndicator**: `boolean`
 
@@ -504,7 +504,7 @@ https://vocabulary.uncefact.org/fullyDeliveredIndicator
 
 ***
 
-### gFMTransferRejectedQuantity?
+### gFMTransferRejectedQuantity? {#gfmtransferrejectedquantity}
 
 > `optional` **gFMTransferRejectedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -516,7 +516,7 @@ https://vocabulary.uncefact.org/gFMTransferRejectedQuantity
 
 ***
 
-### goodsOwnershipChangeDateTime?
+### goodsOwnershipChangeDateTime? {#goodsownershipchangedatetime}
 
 > `optional` **goodsOwnershipChangeDateTime**: `string`
 
@@ -529,7 +529,7 @@ https://vocabulary.uncefact.org/goodsOwnershipChangeDateTime
 
 ***
 
-### goodsReceiptNoteDocument?
+### goodsReceiptNoteDocument? {#goodsreceiptnotedocument}
 
 > `optional` **goodsReceiptNoteDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -541,7 +541,7 @@ https://vocabulary.uncefact.org/goodsReceiptNoteDocument
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -553,7 +553,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedPackaging?
+### includedPackaging? {#includedpackaging}
 
 > `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
@@ -565,7 +565,7 @@ https://vocabulary.uncefact.org/includedPackaging
 
 ***
 
-### individualPackageQuantity?
+### individualPackageQuantity? {#individualpackagequantity}
 
 > `optional` **individualPackageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -577,7 +577,7 @@ https://vocabulary.uncefact.org/individualPackageQuantity
 
 ***
 
-### informationNote?
+### informationNote? {#informationnote}
 
 > `optional` **informationNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -589,7 +589,7 @@ https://vocabulary.uncefact.org/informationNote
 
 ***
 
-### inventoryManagerParty?
+### inventoryManagerParty? {#inventorymanagerparty}
 
 > `optional` **inventoryManagerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -601,7 +601,7 @@ https://vocabulary.uncefact.org/inventoryManagerParty
 
 ***
 
-### latestDespatchedQuantity?
+### latestDespatchedQuantity? {#latestdespatchedquantity}
 
 > `optional` **latestDespatchedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -613,7 +613,7 @@ https://vocabulary.uncefact.org/latestDespatchedQuantity
 
 ***
 
-### lineTradeDeliveryQuantityDiscrepancyNatureCode?
+### lineTradeDeliveryQuantityDiscrepancyNatureCode? {#linetradedeliveryquantitydiscrepancynaturecode}
 
 > `optional` **lineTradeDeliveryQuantityDiscrepancyNatureCode**: `string`
 
@@ -625,7 +625,7 @@ https://vocabulary.uncefact.org/lineTradeDeliveryQuantityDiscrepancyNatureCode
 
 ***
 
-### lineTradeDeliveryQuantityVariationTypeCode?
+### lineTradeDeliveryQuantityVariationTypeCode? {#linetradedeliveryquantityvariationtypecode}
 
 > `optional` **lineTradeDeliveryQuantityVariationTypeCode**: `string`
 
@@ -637,7 +637,7 @@ https://vocabulary.uncefact.org/lineTradeDeliveryQuantityVariationTypeCode
 
 ***
 
-### logisticsPackage?
+### logisticsPackage? {#logisticspackage}
 
 > `optional` **logisticsPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
@@ -649,7 +649,7 @@ https://vocabulary.uncefact.org/logisticsPackage
 
 ***
 
-### logisticsServiceProviderParty?
+### logisticsServiceProviderParty? {#logisticsserviceproviderparty}
 
 > `optional` **logisticsServiceProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -661,7 +661,7 @@ https://vocabulary.uncefact.org/logisticsServiceProviderParty
 
 ***
 
-### modificationForecastedQuantity?
+### modificationForecastedQuantity? {#modificationforecastedquantity}
 
 > `optional` **modificationForecastedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -673,7 +673,7 @@ https://vocabulary.uncefact.org/modificationForecastedQuantity
 
 ***
 
-### orderQuantity?
+### orderQuantity? {#orderquantity}
 
 > `optional` **orderQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -685,7 +685,7 @@ https://vocabulary.uncefact.org/orderQuantity
 
 ***
 
-### orderSchedule?
+### orderSchedule? {#orderschedule}
 
 > `optional` **orderSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -697,7 +697,7 @@ https://vocabulary.uncefact.org/orderSchedule
 
 ***
 
-### overDeliveryAllowedIndicator?
+### overDeliveryAllowedIndicator? {#overdeliveryallowedindicator}
 
 > `optional` **overDeliveryAllowedIndicator**: `boolean`
 
@@ -709,7 +709,7 @@ https://vocabulary.uncefact.org/overDeliveryAllowedIndicator
 
 ***
 
-### packageQuantity?
+### packageQuantity? {#packagequantity}
 
 > `optional` **packageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -721,7 +721,7 @@ https://vocabulary.uncefact.org/packageQuantity
 
 ***
 
-### packingListDocument?
+### packingListDocument? {#packinglistdocument}
 
 > `optional` **packingListDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -733,7 +733,7 @@ https://vocabulary.uncefact.org/packingListDocument
 
 ***
 
-### partialDeliveryAllowedIndicator?
+### partialDeliveryAllowedIndicator? {#partialdeliveryallowedindicator}
 
 > `optional` **partialDeliveryAllowedIndicator**: `boolean`
 
@@ -745,7 +745,7 @@ https://vocabulary.uncefact.org/partialDeliveryAllowedIndicator
 
 ***
 
-### perPackageUnitQuantity?
+### perPackageUnitQuantity? {#perpackageunitquantity}
 
 > `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -757,7 +757,7 @@ https://vocabulary.uncefact.org/perPackageUnitQuantity
 
 ***
 
-### pickUpAvailabilityDateTime?
+### pickUpAvailabilityDateTime? {#pickupavailabilitydatetime}
 
 > `optional` **pickUpAvailabilityDateTime**: `string`
 
@@ -770,7 +770,7 @@ https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
 
 ***
 
-### plannedConsignment?
+### plannedConsignment? {#plannedconsignment}
 
 > `optional` **plannedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
@@ -782,7 +782,7 @@ https://vocabulary.uncefact.org/plannedConsignment
 
 ***
 
-### plannedDeliveryEvent?
+### plannedDeliveryEvent? {#planneddeliveryevent}
 
 > `optional` **plannedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -794,7 +794,7 @@ https://vocabulary.uncefact.org/plannedDeliveryEvent
 
 ***
 
-### plannedDespatchEvent?
+### plannedDespatchEvent? {#planneddespatchevent}
 
 > `optional` **plannedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -806,7 +806,7 @@ https://vocabulary.uncefact.org/plannedDespatchEvent
 
 ***
 
-### plannedPickUpEvent?
+### plannedPickUpEvent? {#plannedpickupevent}
 
 > `optional` **plannedPickUpEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -818,7 +818,7 @@ https://vocabulary.uncefact.org/plannedPickUpEvent
 
 ***
 
-### plannedShipToDeliveryEvent?
+### plannedShipToDeliveryEvent? {#plannedshiptodeliveryevent}
 
 > `optional` **plannedShipToDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -830,7 +830,7 @@ https://vocabulary.uncefact.org/plannedShipToDeliveryEvent
 
 ***
 
-### productUnitQuantity?
+### productUnitQuantity? {#productunitquantity}
 
 > `optional` **productUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -842,7 +842,7 @@ https://vocabulary.uncefact.org/productUnitQuantity
 
 ***
 
-### projectedSupplyPlan?
+### projectedSupplyPlan? {#projectedsupplyplan}
 
 > `optional` **projectedSupplyPlan**: [`IUneceSupplyPlan`](IUneceSupplyPlan.md)[]
 
@@ -854,7 +854,7 @@ https://vocabulary.uncefact.org/projectedSupplyPlan
 
 ***
 
-### quantityCalculationMethodCode?
+### quantityCalculationMethodCode? {#quantitycalculationmethodcode}
 
 > `optional` **quantityCalculationMethodCode**: `string`
 
@@ -866,7 +866,7 @@ https://vocabulary.uncefact.org/quantityCalculationMethodCode
 
 ***
 
-### quantityVariationReason?
+### quantityVariationReason? {#quantityvariationreason}
 
 > `optional` **quantityVariationReason**: `string`
 
@@ -878,7 +878,7 @@ https://vocabulary.uncefact.org/quantityVariationReason
 
 ***
 
-### quantityVariationReasonCode?
+### quantityVariationReasonCode? {#quantityvariationreasoncode}
 
 > `optional` **quantityVariationReasonCode**: `string`
 
@@ -890,7 +890,7 @@ https://vocabulary.uncefact.org/quantityVariationReasonCode
 
 ***
 
-### receiptSchedule?
+### receiptSchedule? {#receiptschedule}
 
 > `optional` **receiptSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -902,7 +902,7 @@ https://vocabulary.uncefact.org/receiptSchedule
 
 ***
 
-### receivedQuantity?
+### receivedQuantity? {#receivedquantity}
 
 > `optional` **receivedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -914,7 +914,7 @@ https://vocabulary.uncefact.org/receivedQuantity
 
 ***
 
-### receivingAdviceDocument?
+### receivingAdviceDocument? {#receivingadvicedocument}
 
 > `optional` **receivingAdviceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -926,7 +926,7 @@ https://vocabulary.uncefact.org/receivingAdviceDocument
 
 ***
 
-### rejectedQuantity?
+### rejectedQuantity? {#rejectedquantity}
 
 > `optional` **rejectedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -938,7 +938,7 @@ https://vocabulary.uncefact.org/rejectedQuantity
 
 ***
 
-### relatedConsignment?
+### relatedConsignment? {#relatedconsignment}
 
 > `optional` **relatedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
@@ -950,7 +950,7 @@ https://vocabulary.uncefact.org/relatedConsignment
 
 ***
 
-### remainingRequestedQuantity?
+### remainingRequestedQuantity? {#remainingrequestedquantity}
 
 > `optional` **remainingRequestedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -962,7 +962,7 @@ https://vocabulary.uncefact.org/remainingRequestedQuantity
 
 ***
 
-### requestedDeliveryEvent?
+### requestedDeliveryEvent? {#requesteddeliveryevent}
 
 > `optional` **requestedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -974,7 +974,7 @@ https://vocabulary.uncefact.org/requestedDeliveryEvent
 
 ***
 
-### requestedDespatchEvent?
+### requestedDespatchEvent? {#requesteddespatchevent}
 
 > `optional` **requestedDespatchEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -986,7 +986,7 @@ https://vocabulary.uncefact.org/requestedDespatchEvent
 
 ***
 
-### requestedQuantity?
+### requestedQuantity? {#requestedquantity}
 
 > `optional` **requestedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -998,7 +998,7 @@ https://vocabulary.uncefact.org/requestedQuantity
 
 ***
 
-### returnedQuantity?
+### returnedQuantity? {#returnedquantity}
 
 > `optional` **returnedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -1010,7 +1010,7 @@ https://vocabulary.uncefact.org/returnedQuantity
 
 ***
 
-### reverseBilledQuantity?
+### reverseBilledQuantity? {#reversebilledquantity}
 
 > `optional` **reverseBilledQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -1022,7 +1022,7 @@ https://vocabulary.uncefact.org/reverseBilledQuantity
 
 ***
 
-### shipFromParty?
+### shipFromParty? {#shipfromparty}
 
 > `optional` **shipFromParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -1034,7 +1034,7 @@ https://vocabulary.uncefact.org/shipFromParty
 
 ***
 
-### shipToParty?
+### shipToParty? {#shiptoparty}
 
 > `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -1046,7 +1046,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ***
 
-### shipmentScheduleDocument?
+### shipmentScheduleDocument? {#shipmentscheduledocument}
 
 > `optional` **shipmentScheduleDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -1058,7 +1058,7 @@ https://vocabulary.uncefact.org/shipmentScheduleDocument
 
 ***
 
-### specifiedDeliveryAdjustment?
+### specifiedDeliveryAdjustment? {#specifieddeliveryadjustment}
 
 > `optional` **specifiedDeliveryAdjustment**: [`IUneceDeliveryAdjustment`](IUneceDeliveryAdjustment.md)[]
 
@@ -1070,7 +1070,7 @@ https://vocabulary.uncefact.org/specifiedDeliveryAdjustment
 
 ***
 
-### specifiedDeliveryInstructions?
+### specifiedDeliveryInstructions? {#specifieddeliveryinstructions}
 
 > `optional` **specifiedDeliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)[]
 
@@ -1082,7 +1082,7 @@ https://vocabulary.uncefact.org/specifiedDeliveryInstructions
 
 ***
 
-### specifiedHandlingInstructions?
+### specifiedHandlingInstructions? {#specifiedhandlinginstructions}
 
 > `optional` **specifiedHandlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
@@ -1094,7 +1094,7 @@ https://vocabulary.uncefact.org/specifiedHandlingInstructions
 
 ***
 
-### specifiedPackage?
+### specifiedPackage? {#specifiedpackage}
 
 > `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
@@ -1106,7 +1106,7 @@ https://vocabulary.uncefact.org/specifiedPackage
 
 ***
 
-### specifiedSchedule?
+### specifiedSchedule? {#specifiedschedule}
 
 > `optional` **specifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -1118,7 +1118,7 @@ https://vocabulary.uncefact.org/specifiedSchedule
 
 ***
 
-### splitQuantity?
+### splitQuantity? {#splitquantity}
 
 > `optional` **splitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -1130,7 +1130,7 @@ https://vocabulary.uncefact.org/splitQuantity
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -1142,7 +1142,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### subordinateId?
+### subordinateId? {#subordinateid}
 
 > `optional` **subordinateId**: `string` \| `IJsonLdValueObject`
 
@@ -1154,7 +1154,7 @@ https://vocabulary.uncefact.org/subordinateId
 
 ***
 
-### supplySpecifiedSchedule?
+### supplySpecifiedSchedule? {#supplyspecifiedschedule}
 
 > `optional` **supplySpecifiedSchedule**: [`IUneceSchedule`](IUneceSchedule.md)[]
 
@@ -1166,7 +1166,7 @@ https://vocabulary.uncefact.org/supplySpecifiedSchedule
 
 ***
 
-### turnInReceivedQuantity?
+### turnInReceivedQuantity? {#turninreceivedquantity}
 
 > `optional` **turnInReceivedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -1178,7 +1178,7 @@ https://vocabulary.uncefact.org/turnInReceivedQuantity
 
 ***
 
-### ultimateShipToDeliveryDateTime?
+### ultimateShipToDeliveryDateTime? {#ultimateshiptodeliverydatetime}
 
 > `optional` **ultimateShipToDeliveryDateTime**: `string`
 
@@ -1191,7 +1191,7 @@ https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
 
 ***
 
-### ultimateShipToParty?
+### ultimateShipToParty? {#ultimateshiptoparty}
 
 > `optional` **ultimateShipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -1203,7 +1203,7 @@ https://vocabulary.uncefact.org/ultimateShipToParty
 
 ***
 
-### unavailableQuantity?
+### unavailableQuantity? {#unavailablequantity}
 
 > `optional` **unavailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -1215,7 +1215,7 @@ https://vocabulary.uncefact.org/unavailableQuantity
 
 ***
 
-### usedLabel?
+### usedLabel? {#usedlabel}
 
 > `optional` **usedLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
@@ -1227,7 +1227,7 @@ https://vocabulary.uncefact.org/usedLabel
 
 ***
 
-### utilizedTransportEquipment?
+### utilizedTransportEquipment? {#utilizedtransportequipment}
 
 > `optional` **utilizedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
 
@@ -1239,7 +1239,7 @@ https://vocabulary.uncefact.org/utilizedTransportEquipment
 
 ***
 
-### volumeUnitGrossVolumeMeasure?
+### volumeUnitGrossVolumeMeasure? {#volumeunitgrossvolumemeasure}
 
 > `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -1251,7 +1251,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ***
 
-### volumeUnitNetVolumeMeasure?
+### volumeUnitNetVolumeMeasure? {#volumeunitnetvolumemeasure}
 
 > `optional` **volumeUnitNetVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -1263,7 +1263,7 @@ https://vocabulary.uncefact.org/volumeUnitNetVolumeMeasure
 
 ***
 
-### weightUnitChargeableWeightMeasure?
+### weightUnitChargeableWeightMeasure? {#weightunitchargeableweightmeasure}
 
 > `optional` **weightUnitChargeableWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -1275,7 +1275,7 @@ https://vocabulary.uncefact.org/weightUnitChargeableWeightMeasure
 
 ***
 
-### weightUnitGrossWeightMeasure?
+### weightUnitGrossWeightMeasure? {#weightunitgrossweightmeasure}
 
 > `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -1287,7 +1287,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ***
 
-### weightUnitNetWeightMeasure?
+### weightUnitNetWeightMeasure? {#weightunitnetweightmeasure}
 
 > `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -1299,7 +1299,7 @@ https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 
 ***
 
-### weightUnitTheoreticalWeightMeasure?
+### weightUnitTheoreticalWeightMeasure? {#weightunittheoreticalweightmeasure}
 
 > `optional` **weightUnitTheoreticalWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 

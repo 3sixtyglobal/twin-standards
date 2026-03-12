@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AppliedAllowanceCharge
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AppliedAllowanceCharge"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualAmount?
+### actualAmount? {#actualamount}
 
 > `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ***
 
-### appliedAllowanceChargeReasonCode?
+### appliedAllowanceChargeReasonCode? {#appliedallowancechargereasoncode}
 
 > `optional` **appliedAllowanceChargeReasonCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/appliedAllowanceChargeReasonCode
 
 ***
 
-### basisAmount?
+### basisAmount? {#basisamount}
 
 > `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ***
 
-### calculationPercent?
+### calculationPercent? {#calculationpercent}
 
 > `optional` **calculationPercent**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ***
 
-### categoryAppliedTax?
+### categoryAppliedTax? {#categoryappliedtax}
 
 > `optional` **categoryAppliedTax**: [`IUneceAppliedTax`](IUneceAppliedTax.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/categoryAppliedTax
 
 ***
 
-### chargeIndicator
+### chargeIndicator {#chargeindicator}
 
 > **chargeIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/chargeIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 

@@ -6,13 +6,13 @@ A character string used to represent the transport equipment haulage arrangement
 
 ## Type Declaration
 
-### Carrier
+### Carrier {#carrier}
 
 > `readonly` **Carrier**: `"unece:TransportEquipmentHaulageArrangementsCodeList#1"` = `"unece:TransportEquipmentHaulageArrangementsCodeList#1"`
 
 Carrier: 1.
 
-### Merchant
+### Merchant {#merchant}
 
 > `readonly` **Merchant**: `"unece:TransportEquipmentHaulageArrangementsCodeList#2"` = `"unece:TransportEquipmentHaulageArrangementsCodeList#2"`
 

@@ -6,7 +6,7 @@ Values for UneceDocumentCharacteristic typeCode property.
 
 ## Type Declaration
 
-### SpecifiedDocumentCharacteristic
+### SpecifiedDocumentCharacteristic {#specifieddocumentcharacteristic}
 
 > `readonly` **SpecifiedDocumentCharacteristic**: `"unece:specifiedDocumentCharacteristic"` = `"unece:specifiedDocumentCharacteristic"`
 

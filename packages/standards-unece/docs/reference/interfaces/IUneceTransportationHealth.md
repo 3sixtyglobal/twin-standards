@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportationHealth
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportationHealth"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### diedOnboardHealthIndication?
+### diedOnboardHealthIndication? {#diedonboardhealthindication}
 
 > `optional` **diedOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/diedOnboardHealthIndication
 
 ***
 
-### diseaseOnboardHealthIndication?
+### diseaseOnboardHealthIndication? {#diseaseonboardhealthindication}
 
 > `optional` **diseaseOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/diseaseOnboardHealthIndication
 
 ***
 
-### illPersonNowOnboardHealthIndication?
+### illPersonNowOnboardHealthIndication? {#illpersonnowonboardhealthindication}
 
 > `optional` **illPersonNowOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/illPersonNowOnboardHealthIndication
 
 ***
 
-### medicalPractitionerConsultedHealthIndication?
+### medicalPractitionerConsultedHealthIndication? {#medicalpractitionerconsultedhealthindication}
 
 > `optional` **medicalPractitionerConsultedHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/medicalPractitionerConsultedHealthIndication
 
 ***
 
-### moreIllOnboardHealthIndication?
+### moreIllOnboardHealthIndication? {#moreillonboardhealthindication}
 
 > `optional` **moreIllOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/moreIllOnboardHealthIndication
 
 ***
 
-### onboardInfectionConditionHealthIndication?
+### onboardInfectionConditionHealthIndication? {#onboardinfectionconditionhealthindication}
 
 > `optional` **onboardInfectionConditionHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/onboardInfectionConditionHealthIndication
 
 ***
 
-### sanitaryMeasureAppliedHealthIndication?
+### sanitaryMeasureAppliedHealthIndication? {#sanitarymeasureappliedhealthindication}
 
 > `optional` **sanitaryMeasureAppliedHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/sanitaryMeasureAppliedHealthIndication
 
 ***
 
-### sickAnimalOnboardHealthIndication?
+### sickAnimalOnboardHealthIndication? {#sickanimalonboardhealthindication}
 
 > `optional` **sickAnimalOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/sickAnimalOnboardHealthIndication
 
 ***
 
-### stowawayFoundOnboardHealthIndication?
+### stowawayFoundOnboardHealthIndication? {#stowawayfoundonboardhealthindication}
 
 > `optional` **stowawayFoundOnboardHealthIndication**: [`IUneceMDHHealthIndication`](IUneceMDHHealthIndication.md)[]
 

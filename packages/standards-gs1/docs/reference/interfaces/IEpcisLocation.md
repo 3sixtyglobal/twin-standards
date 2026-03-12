@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/ReadPoint
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 

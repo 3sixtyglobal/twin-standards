@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AgriculturalZoneArea
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AgriculturalZoneArea"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableAgriculturalCharacteristic?
+### applicableAgriculturalCharacteristic? {#applicableagriculturalcharacteristic}
 
 > `optional` **applicableAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalCharacteristic
 
 ***
 
-### appliedAgriculturalApplication?
+### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
 > `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ***
 
-### designatedSection?
+### designatedSection? {#designatedsection}
 
 > `optional` **designatedSection**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/designatedSection
 
 ***
 
-### harvestedProduce?
+### harvestedProduce? {#harvestedproduce}
 
 > `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/harvestedProduce
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### multiSurfaceTypeCode?
+### multiSurfaceTypeCode? {#multisurfacetypecode}
 
 > `optional` **multiSurfaceTypeCode**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/multiSurfaceTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedLocation?
+### specifiedLocation? {#specifiedlocation}
 
 > `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ***
 
-### specifiedPlot?
+### specifiedPlot? {#specifiedplot}
 
 > `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/specifiedPlot
 
 ***
 
-### subordinateArea?
+### subordinateArea? {#subordinatearea}
 
 > `optional` **subordinateArea**: `IUneceAgriculturalZoneArea`[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/subordinateArea
 
 ***
 
-### thirdPartyIssuedId?
+### thirdPartyIssuedId? {#thirdpartyissuedid}
 
 > `optional` **thirdPartyIssuedId**: `string` \| `IJsonLdValueObject`
 

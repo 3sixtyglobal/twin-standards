@@ -10,31 +10,31 @@ schemas which constrain the discriminator to IOT and REEFER respectively.
 
 ## Type Declaration
 
-### SHIPMENT
+### SHIPMENT {#shipment}
 
 > `readonly` **SHIPMENT**: `"SHIPMENT"` = `"SHIPMENT"`
 
 Shipment event.
 
-### TRANSPORT
+### TRANSPORT {#transport}
 
 > `readonly` **TRANSPORT**: `"TRANSPORT"` = `"TRANSPORT"`
 
 Transport event.
 
-### EQUIPMENT
+### EQUIPMENT {#equipment}
 
 > `readonly` **EQUIPMENT**: `"EQUIPMENT"` = `"EQUIPMENT"`
 
 Equipment event.
 
-### IOT
+### IOT {#iot}
 
 > `readonly` **IOT**: `"IOT"` = `"IOT"`
 
 IOT event.
 
-### REEFER
+### REEFER {#reefer}
 
 > `readonly` **REEFER**: `"REEFER"` = `"REEFER"`
 

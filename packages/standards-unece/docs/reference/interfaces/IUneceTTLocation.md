@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TTLocation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTLocation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableTechnicalCharacteristic?
+### applicableTechnicalCharacteristic? {#applicabletechnicalcharacteristic}
 
 > `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationFunctionTypeCode?
+### locationFunctionTypeCode? {#locationfunctiontypecode}
 
 > `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### responsibleTTParty?
+### responsibleTTParty? {#responsiblettparty}
 
 > `optional` **responsibleTTParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/responsibleTTParty
 
 ***
 
-### specifiedAnimalHoldingEvent?
+### specifiedAnimalHoldingEvent? {#specifiedanimalholdingevent}
 
 > `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 
 ***
 
-### specifiedGeographicalArea?
+### specifiedGeographicalArea? {#specifiedgeographicalarea}
 
 > `optional` **specifiedGeographicalArea**: [`IUneceGeographicalArea`](IUneceGeographicalArea.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/specifiedGeographicalArea
 
 ***
 
-### specifiedTTAnimal?
+### specifiedTTAnimal? {#specifiedttanimal}
 
 > `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 

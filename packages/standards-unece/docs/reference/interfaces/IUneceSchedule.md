@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Schedule
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Schedule"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime? {#occurrencedatetime}
 
 > `optional` **occurrenceDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

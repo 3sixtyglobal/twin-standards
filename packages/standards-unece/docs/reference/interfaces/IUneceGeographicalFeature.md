@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/GeographicalFeature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalFeature"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### collectionIndicator?
+### collectionIndicator? {#collectionindicator}
 
 > `optional` **collectionIndicator**: `boolean`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/collectionIndicator
 
 ***
 
-### coordinateReferenceSystemId?
+### coordinateReferenceSystemId? {#coordinatereferencesystemid}
 
 > `optional` **coordinateReferenceSystemId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/coordinateReferenceSystemId
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedCircle?
+### includedCircle? {#includedcircle}
 
 > `optional` **includedCircle**: [`IUneceCircle`](IUneceCircle.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/includedCircle
 
 ***
 
-### includedGeographicalGrid?
+### includedGeographicalGrid? {#includedgeographicalgrid}
 
 > `optional` **includedGeographicalGrid**: [`IUneceGeographicalGrid`](IUneceGeographicalGrid.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/includedGeographicalGrid
 
 ***
 
-### includedGeographicalLine?
+### includedGeographicalLine? {#includedgeographicalline}
 
 > `optional` **includedGeographicalLine**: [`IUneceGeographicalLine`](IUneceGeographicalLine.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/includedGeographicalLine
 
 ***
 
-### includedGeographicalMultiCurve?
+### includedGeographicalMultiCurve? {#includedgeographicalmulticurve}
 
 > `optional` **includedGeographicalMultiCurve**: [`IUneceGeographicalMultiCurve`](IUneceGeographicalMultiCurve.md)
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiCurve
 
 ***
 
-### includedGeographicalMultiPoint?
+### includedGeographicalMultiPoint? {#includedgeographicalmultipoint}
 
 > `optional` **includedGeographicalMultiPoint**: [`IUneceGeographicalMultiPoint`](IUneceGeographicalMultiPoint.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiPoint
 
 ***
 
-### includedGeographicalMultiSurface?
+### includedGeographicalMultiSurface? {#includedgeographicalmultisurface}
 
 > `optional` **includedGeographicalMultiSurface**: [`IUneceGeographicalMultiSurface`](IUneceGeographicalMultiSurface.md)
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/includedGeographicalMultiSurface
 
 ***
 
-### includedGeographicalPoint?
+### includedGeographicalPoint? {#includedgeographicalpoint}
 
 > `optional` **includedGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/includedGeographicalPoint
 
 ***
 
-### includedGeographicalSurface?
+### includedGeographicalSurface? {#includedgeographicalsurface}
 
 > `optional` **includedGeographicalSurface**: [`IUneceGeographicalSurface`](IUneceGeographicalSurface.md)
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/includedGeographicalSurface
 
 ***
 
-### includedPolygon?
+### includedPolygon? {#includedpolygon}
 
 > `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/includedPolygon
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### usedCoordinateReferenceSystem?
+### usedCoordinateReferenceSystem? {#usedcoordinatereferencesystem}
 
 > `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 
 ***
 
-### usedCoordinateSourceSystem?
+### usedCoordinateSourceSystem? {#usedcoordinatesourcesystem}
 
 > `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)
 

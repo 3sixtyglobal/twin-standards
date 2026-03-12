@@ -6,7 +6,7 @@ Values for UneceAllergy typeCode property.
 
 ## Type Declaration
 
-### NotifiedAllergy
+### NotifiedAllergy {#notifiedallergy}
 
 > `readonly` **NotifiedAllergy**: `"unece:notifiedAllergy"` = `"unece:notifiedAllergy"`
 

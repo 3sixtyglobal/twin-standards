@@ -6,7 +6,7 @@ Values for UneceCropProduceBatch typeCode property.
 
 ## Type Declaration
 
-### HarvestedBatch
+### HarvestedBatch {#harvestedbatch}
 
 > `readonly` **HarvestedBatch**: `"unece:harvestedBatch"` = `"unece:harvestedBatch"`
 
@@ -16,7 +16,7 @@ A crop produce batch harvested in the crop production for this agricultural proc
 
 https://vocabulary.uncefact.org/harvestedBatch
 
-### InputSpecifiedBatch
+### InputSpecifiedBatch {#inputspecifiedbatch}
 
 > `readonly` **InputSpecifiedBatch**: `"unece:inputSpecifiedBatch"` = `"unece:inputSpecifiedBatch"`
 
@@ -26,7 +26,7 @@ An input batch crop produce, such as seed or fertilizer, specified for this crop
 
 https://vocabulary.uncefact.org/inputSpecifiedBatch
 
-### OutputSpecifiedBatch
+### OutputSpecifiedBatch {#outputspecifiedbatch}
 
 > `readonly` **OutputSpecifiedBatch**: `"unece:outputSpecifiedBatch"` = `"unece:outputSpecifiedBatch"`
 

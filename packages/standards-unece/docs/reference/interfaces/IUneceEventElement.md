@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/EventElement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -18,7 +18,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"EventElement"`
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ***
 
-### objectClassId
+### objectClassId {#objectclassid}
 
 > **objectClassId**: `string` \| `IJsonLdValueObject`
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/objectClassId
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

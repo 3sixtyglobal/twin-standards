@@ -18,7 +18,7 @@ https://vocabulary.uncefact.org/code-lists
 
 ## Methods
 
-### getDescriptions()
+### getDescriptions() {#getdescriptions}
 
 > `static` **getDescriptions**(`codeList`, `locale?`): `Promise`\<\{\[`key`: `string`\]: `string`; \}\>
 
@@ -46,7 +46,7 @@ The translations for the code list.
 
 ***
 
-### getDescription()
+### getDescription() {#getdescription}
 
 > `static` **getDescription**(`codeList`, `key`, `locale?`): `Promise`\<`string` \| `undefined`\>
 
@@ -80,7 +80,7 @@ The translation for the specified key in the code list.
 
 ***
 
-### getLabels()
+### getLabels() {#getlabels}
 
 > `static` **getLabels**(`codeList`, `locale?`): `Promise`\<\{\[`key`: `string`\]: `string`; \}\>
 
@@ -109,7 +109,7 @@ The labels for the code list, keyed by the original code (without `_label` suffi
 
 ***
 
-### getLabel()
+### getLabel() {#getlabel}
 
 > `static` **getLabel**(`codeList`, `key`, `locale?`): `Promise`\<`string` \| `undefined`\>
 

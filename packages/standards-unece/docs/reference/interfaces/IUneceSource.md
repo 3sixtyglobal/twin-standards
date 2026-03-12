@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Source
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Source"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### bathingProhibitionCaution?
+### bathingProhibitionCaution? {#bathingprohibitioncaution}
 
 > `optional` **bathingProhibitionCaution**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/bathingProhibitionCaution
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### characteristic?
+### characteristic? {#characteristic}
 
 > `optional` **characteristic**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ***
 
-### characteristicCode?
+### characteristicCode? {#characteristiccode}
 
 > `optional` **characteristicCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/characteristicCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### drinkingProhibitionCaution?
+### drinkingProhibitionCaution? {#drinkingprohibitioncaution}
 
 > `optional` **drinkingProhibitionCaution**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/drinkingProhibitionCaution
 
 ***
 
-### healthBenefit?
+### healthBenefit? {#healthbenefit}
 
 > `optional` **healthBenefit**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/healthBenefit
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### marketingPhrase?
+### marketingPhrase? {#marketingphrase}
 
 > `optional` **marketingPhrase**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

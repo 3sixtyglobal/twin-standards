@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InspectionResult
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InspectionResult"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableCorrectiveAction?
+### applicableCorrectiveAction? {#applicablecorrectiveaction}
 
 > `optional` **applicableCorrectiveAction**: [`IUneceCorrectiveAction`](IUneceCorrectiveAction.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableCorrectiveAction
 
 ***
 
-### applicableInspectionResultCharacteristic?
+### applicableInspectionResultCharacteristic? {#applicableinspectionresultcharacteristic}
 
 > `optional` **applicableInspectionResultCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableInspectionResultCharacteristic
 
 ***
 
-### applicableMethod?
+### applicableMethod? {#applicablemethod}
 
 > `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ***
 
-### applicablePreventiveAction?
+### applicablePreventiveAction? {#applicablepreventiveaction}
 
 > `optional` **applicablePreventiveAction**: [`IUnecePreventiveAction`](IUnecePreventiveAction.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicablePreventiveAction
 
 ***
 
-### applicableSpecifiedAction?
+### applicableSpecifiedAction? {#applicablespecifiedaction}
 
 > `optional` **applicableSpecifiedAction**: [`IUneceSpecifiedAction`](IUneceSpecifiedAction.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedAction
 
 ***
 
-### approvalDateTime?
+### approvalDateTime? {#approvaldatetime}
 
 > `optional` **approvalDateTime**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/approvalDateTime
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### attachedInspectionNote?
+### attachedInspectionNote? {#attachedinspectionnote}
 
 > `optional` **attachedInspectionNote**: [`IUneceInspectionNote`](IUneceInspectionNote.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/attachedInspectionNote
 
 ***
 
-### expectedValueApplicableCharacteristic?
+### expectedValueApplicableCharacteristic? {#expectedvalueapplicablecharacteristic}
 
 > `optional` **expectedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/expectedValueApplicableCharacteristic
 
 ***
 
-### generalCharacteristic?
+### generalCharacteristic? {#generalcharacteristic}
 
 > `optional` **generalCharacteristic**: `string`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/generalCharacteristic
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inspectionDateTime?
+### inspectionDateTime? {#inspectiondatetime}
 
 > `optional` **inspectionDateTime**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/inspectionDateTime
 
 ***
 
-### inspectionParty?
+### inspectionParty? {#inspectionparty}
 
 > `optional` **inspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/inspectionParty
 
 ***
 
-### inspectionStandard?
+### inspectionStandard? {#inspectionstandard}
 
 > `optional` **inspectionStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/inspectionStandard
 
 ***
 
-### laboratoryObservationResult?
+### laboratoryObservationResult? {#laboratoryobservationresult}
 
 > `optional` **laboratoryObservationResult**: [`IUneceObservationResult`](IUneceObservationResult.md)[]
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/laboratoryObservationResult
 
 ***
 
-### maximumStandardValueApplicableCharacteristic?
+### maximumStandardValueApplicableCharacteristic? {#maximumstandardvalueapplicablecharacteristic}
 
 > `optional` **maximumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/maximumStandardValueApplicableCharacteristic
 
 ***
 
-### minimumStandardValueApplicableCharacteristic?
+### minimumStandardValueApplicableCharacteristic? {#minimumstandardvalueapplicablecharacteristic}
 
 > `optional` **minimumStandardValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/minimumStandardValueApplicableCharacteristic
 
 ***
 
-### observedValueApplicableCharacteristic?
+### observedValueApplicableCharacteristic? {#observedvalueapplicablecharacteristic}
 
 > `optional` **observedValueApplicableCharacteristic**: [`IUneceInspectionResultCharacteristic`](IUneceInspectionResultCharacteristic.md)[]
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/observedValueApplicableCharacteristic
 
 ***
 
-### obtainedAssertion?
+### obtainedAssertion? {#obtainedassertion}
 
 > `optional` **obtainedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -257,7 +257,7 @@ https://vocabulary.uncefact.org/obtainedAssertion
 
 ***
 
-### obtainedConformanceCertificate?
+### obtainedConformanceCertificate? {#obtainedconformancecertificate}
 
 > `optional` **obtainedConformanceCertificate**: [`IUneceConformanceCertificate`](IUneceConformanceCertificate.md)[]
 
@@ -269,7 +269,7 @@ https://vocabulary.uncefact.org/obtainedConformanceCertificate
 
 ***
 
-### obtainedOrganizationalCertificate?
+### obtainedOrganizationalCertificate? {#obtainedorganizationalcertificate}
 
 > `optional` **obtainedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
 
@@ -281,7 +281,7 @@ https://vocabulary.uncefact.org/obtainedOrganizationalCertificate
 
 ***
 
-### obtainedProcessCertificate?
+### obtainedProcessCertificate? {#obtainedprocesscertificate}
 
 > `optional` **obtainedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/obtainedProcessCertificate
 
 ***
 
-### obtainedProductCertificate?
+### obtainedProductCertificate? {#obtainedproductcertificate}
 
 > `optional` **obtainedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -305,7 +305,7 @@ https://vocabulary.uncefact.org/obtainedProductCertificate
 
 ***
 
-### obtainedSpecifiedCertificate?
+### obtainedSpecifiedCertificate? {#obtainedspecifiedcertificate}
 
 > `optional` **obtainedSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
@@ -317,7 +317,7 @@ https://vocabulary.uncefact.org/obtainedSpecifiedCertificate
 
 ***
 
-### outsourcedInspectionParty?
+### outsourcedInspectionParty? {#outsourcedinspectionparty}
 
 > `optional` **outsourcedInspectionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -329,7 +329,7 @@ https://vocabulary.uncefact.org/outsourcedInspectionParty
 
 ***
 
-### relatedAssessment?
+### relatedAssessment? {#relatedassessment}
 
 > `optional` **relatedAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
@@ -341,7 +341,7 @@ https://vocabulary.uncefact.org/relatedAssessment
 
 ***
 
-### relatedInstructions?
+### relatedInstructions? {#relatedinstructions}
 
 > `optional` **relatedInstructions**: [`IUneceInspectionInstructions`](IUneceInspectionInstructions.md)[]
 
@@ -353,7 +353,7 @@ https://vocabulary.uncefact.org/relatedInstructions
 
 ***
 
-### relatedMaterialType?
+### relatedMaterialType? {#relatedmaterialtype}
 
 > `optional` **relatedMaterialType**: `string`
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/relatedMaterialType
 
 ***
 
-### relatedProductType?
+### relatedProductType? {#relatedproducttype}
 
 > `optional` **relatedProductType**: `string`
 
@@ -377,7 +377,7 @@ https://vocabulary.uncefact.org/relatedProductType
 
 ***
 
-### shareableIndicator?
+### shareableIndicator? {#shareableindicator}
 
 > `optional` **shareableIndicator**: `boolean`
 
@@ -389,7 +389,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ***
 
-### specifiedInspectionReference?
+### specifiedInspectionReference? {#specifiedinspectionreference}
 
 > `optional` **specifiedInspectionReference**: [`IUneceInspectionReference`](IUneceInspectionReference.md)[]
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/specifiedInspectionReference
 
 ***
 
-### statement?
+### statement? {#statement}
 
 > `optional` **statement**: `string`
 
@@ -413,7 +413,7 @@ https://vocabulary.uncefact.org/statement
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 

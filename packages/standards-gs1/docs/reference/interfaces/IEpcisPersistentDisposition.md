@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/PersistentDisposition
 
 ## Properties
 
-### set?
+### set? {#set}
 
 > `optional` **set**: `string`[]
 
@@ -17,7 +17,7 @@ https://ref.gs1.org/epcis/PersistentDisposition
 
 ***
 
-### unset?
+### unset? {#unset}
 
 > `optional` **unset**: `string`[]
 

@@ -6,7 +6,7 @@ Values for UneceSpecifiedParameter typeCode property.
 
 ## Type Declaration
 
-### ApplicableParameter
+### ApplicableParameter {#applicableparameter}
 
 > `readonly` **ApplicableParameter**: `"unece:applicableParameter"` = `"unece:applicableParameter"`
 
@@ -18,7 +18,7 @@ A specified parameter applicable to this production process.
 
 https://vocabulary.uncefact.org/applicableParameter
 
-### OperationalApplicableParameter
+### OperationalApplicableParameter {#operationalapplicableparameter}
 
 > `readonly` **OperationalApplicableParameter**: `"unece:operationalApplicableParameter"` = `"unece:operationalApplicableParameter"`
 
@@ -28,7 +28,7 @@ An operational parameter applicable to this production machine.
 
 https://vocabulary.uncefact.org/operationalApplicableParameter
 
-### QualityParameter
+### QualityParameter {#qualityparameter}
 
 > `readonly` **QualityParameter**: `"unece:qualityParameter"` = `"unece:qualityParameter"`
 
@@ -38,7 +38,7 @@ A quality parameter specified for this trade product.
 
 https://vocabulary.uncefact.org/qualityParameter
 
-### RequestedOperationalApplicableParameter
+### RequestedOperationalApplicableParameter {#requestedoperationalapplicableparameter}
 
 > `readonly` **RequestedOperationalApplicableParameter**: `"unece:requestedOperationalApplicableParameter"` = `"unece:requestedOperationalApplicableParameter"`
 
@@ -49,7 +49,7 @@ An operational parameter requested for this specified production device.
 
 https://vocabulary.uncefact.org/requestedOperationalApplicableParameter
 
-### ValueParameter
+### ValueParameter {#valueparameter}
 
 > `readonly` **ValueParameter**: `"unece:valueParameter"` = `"unece:valueParameter"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FieldCrop
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FieldCrop"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableAgriculturalProcess?
+### applicableAgriculturalProcess? {#applicableagriculturalprocess}
 
 > `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalProcess
 
 ***
 
-### appliedAgriculturalApplication?
+### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
 > `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ***
 
-### className?
+### className? {#classname}
 
 > `optional` **className**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/className
 
 ***
 
-### classificationCode?
+### classificationCode? {#classificationcode}
 
 > `optional` **classificationCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/classificationCode
 
 ***
 
-### cultivationContainerCode?
+### cultivationContainerCode? {#cultivationcontainercode}
 
 > `optional` **cultivationContainerCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/cultivationContainerCode
 
 ***
 
-### cultivationCoverageCode?
+### cultivationCoverageCode? {#cultivationcoveragecode}
 
 > `optional` **cultivationCoverageCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/cultivationCoverageCode
 
 ***
 
-### cultivationMediumCode?
+### cultivationMediumCode? {#cultivationmediumcode}
 
 > `optional` **cultivationMediumCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/cultivationMediumCode
 
 ***
 
-### cultivationTypeCode?
+### cultivationTypeCode? {#cultivationtypecode}
 
 > `optional` **cultivationTypeCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/cultivationTypeCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### grownPlot
+### grownPlot {#grownplot}
 
 > **grownPlot**: [`IUnecePlot`](IUnecePlot.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/grownPlot
 
 ***
 
-### grownPreviousCrop?
+### grownPreviousCrop? {#grownpreviouscrop}
 
 > `optional` **grownPreviousCrop**: `IUneceFieldCrop`[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/grownPreviousCrop
 
 ***
 
-### harvestDateTime?
+### harvestDateTime? {#harvestdatetime}
 
 > `optional` **harvestDateTime**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/harvestDateTime
 
 ***
 
-### harvestedProduce?
+### harvestedProduce? {#harvestedproduce}
 
 > `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/harvestedProduce
 
 ***
 
-### plantingReasonCode?
+### plantingReasonCode? {#plantingreasoncode}
 
 > `optional` **plantingReasonCode**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/plantingReasonCode
 
 ***
 
-### productionEnvironmentCode?
+### productionEnvironmentCode? {#productionenvironmentcode}
 
 > `optional` **productionEnvironmentCode**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/productionEnvironmentCode
 
 ***
 
-### productionPeriodCode?
+### productionPeriodCode? {#productionperiodcode}
 
 > `optional` **productionPeriodCode**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/productionPeriodCode
 
 ***
 
-### propagationMaterialIndicator?
+### propagationMaterialIndicator? {#propagationmaterialindicator}
 
 > `optional` **propagationMaterialIndicator**: `boolean`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/propagationMaterialIndicator
 
 ***
 
-### purposeCode?
+### purposeCode? {#purposecode}
 
 > `optional` **purposeCode**: `string`
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ***
 
-### sowingPeriodCode?
+### sowingPeriodCode? {#sowingperiodcode}
 
 > `optional` **sowingPeriodCode**: `string`
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/sowingPeriodCode
 
 ***
 
-### specifiedAgriculturalCharacteristic?
+### specifiedAgriculturalCharacteristic? {#specifiedagriculturalcharacteristic}
 
 > `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ***
 
-### specifiedCropMixtureConstituent
+### specifiedCropMixtureConstituent {#specifiedcropmixtureconstituent}
 
 > **specifiedCropMixtureConstituent**: [`IUneceCropMixtureConstituent`](IUneceCropMixtureConstituent.md)[]
 

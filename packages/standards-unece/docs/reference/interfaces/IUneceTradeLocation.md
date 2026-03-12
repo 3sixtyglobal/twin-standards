@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeLocation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeLocation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### countryName?
+### countryName? {#countryname}
 
 > `optional` **countryName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/countryName
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### countrySubDivisionName?
+### countrySubDivisionName? {#countrysubdivisionname}
 
 > `optional` **countrySubDivisionName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/countrySubDivisionName
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationFunctionTypeCode?
+### locationFunctionTypeCode? {#locationfunctiontypecode}
 
 > `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### tradeLocationCountryId?
+### tradeLocationCountryId? {#tradelocationcountryid}
 
 > `optional` **tradeLocationCountryId**: `string` \| `IJsonLdValueObject`
 

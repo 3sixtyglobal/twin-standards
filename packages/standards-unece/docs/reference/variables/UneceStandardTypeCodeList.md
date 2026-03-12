@@ -6,7 +6,7 @@ Values for UneceStandard typeCode property.
 
 ## Type Declaration
 
-### ApplicableStandard
+### ApplicableStandard {#applicablestandard}
 
 > `readonly` **ApplicableStandard**: `"unece:applicableStandard"` = `"unece:applicableStandard"`
 
@@ -38,7 +38,7 @@ The referenced standard that is applicable to this product classification.
 
 https://vocabulary.uncefact.org/applicableStandard
 
-### AssociatedStandard
+### AssociatedStandard {#associatedstandard}
 
 > `readonly` **AssociatedStandard**: `"unece:associatedStandard"` = `"unece:associatedStandard"`
 
@@ -51,7 +51,7 @@ A referenced standard associated with this supply chain trade transaction.
 
 https://vocabulary.uncefact.org/associatedStandard
 
-### InspectionStandard
+### InspectionStandard {#inspectionstandard}
 
 > `readonly` **InspectionStandard**: `"unece:inspectionStandard"` = `"unece:inspectionStandard"`
 
@@ -61,7 +61,7 @@ A referenced inspection standard for this specified inspection result.
 
 https://vocabulary.uncefact.org/inspectionStandard
 
-### RelatedStandard
+### RelatedStandard {#relatedstandard}
 
 > `readonly` **RelatedStandard**: `"unece:relatedStandard"` = `"unece:relatedStandard"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AccountingAccount
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AccountingAccount"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### abbreviatedName?
+### abbreviatedName? {#abbreviatedname}
 
 > `optional` **abbreviatedName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/abbreviatedName
 
 ***
 
-### accountingAccountTypeCode?
+### accountingAccountTypeCode? {#accountingaccounttypecode}
 
 > `optional` **accountingAccountTypeCode**: [`UneceAccountingAccountTypeCodeList`](../type-aliases/UneceAccountingAccountTypeCodeList.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/accountingAccountTypeCode
 
 ***
 
-### accountingAmountTypeAmountTypeCode?
+### accountingAmountTypeAmountTypeCode? {#accountingamounttypeamounttypecode}
 
 > `optional` **accountingAmountTypeAmountTypeCode**: [`UneceAccountingAmountTypeCodeList`](../type-aliases/UneceAccountingAmountTypeCodeList.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/accountingAmountTypeAmountTypeCode
 
 ***
 
-### accountingDocumentSetTriggerCode?
+### accountingDocumentSetTriggerCode? {#accountingdocumentsettriggercode}
 
 > `optional` **accountingDocumentSetTriggerCode**: [`UneceAccountingDocumentCodeList`](../type-aliases/UneceAccountingDocumentCodeList.md)[]
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/accountingDocumentSetTriggerCode
 
 ***
 
-### costReferenceDimensionPattern?
+### costReferenceDimensionPattern? {#costreferencedimensionpattern}
 
 > `optional` **costReferenceDimensionPattern**: `string`
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/costReferenceDimensionPattern
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### mainAccountsChartId?
+### mainAccountsChartId? {#mainaccountschartid}
 
 > `optional` **mainAccountsChartId**: `string` \| `IJsonLdValueObject`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/mainAccountsChartId
 
 ***
 
-### mainAccountsChartReferenceId?
+### mainAccountsChartReferenceId? {#mainaccountschartreferenceid}
 
 > `optional` **mainAccountsChartReferenceId**: `string` \| `IJsonLdValueObject`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/mainAccountsChartReferenceId
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### subAccountId?
+### subAccountId? {#subaccountid}
 
 > `optional` **subAccountId**: `string` \| `IJsonLdValueObject`
 

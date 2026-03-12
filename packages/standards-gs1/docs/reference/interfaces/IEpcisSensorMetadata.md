@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/SensorMetadata
 
 ## Properties
 
-### time?
+### time? {#time}
 
 > `optional` **time**: `string`
 
@@ -18,7 +18,7 @@ sensor device.
 
 ***
 
-### deviceID?
+### deviceID? {#deviceid}
 
 > `optional` **deviceID**: `string`
 
@@ -26,7 +26,7 @@ sensor device.
 
 ***
 
-### deviceMetadata?
+### deviceMetadata? {#devicemetadata}
 
 > `optional` **deviceMetadata**: `string`
 
@@ -35,7 +35,7 @@ of the device from which the sensor data originates.
 
 ***
 
-### rawData?
+### rawData? {#rawdata}
 
 > `optional` **rawData**: `string`
 
@@ -44,7 +44,7 @@ aggregated/business-oriented data contained in the sensorElement is based.
 
 ***
 
-### startTime?
+### startTime? {#starttime}
 
 > `optional` **startTime**: `string`
 
@@ -53,7 +53,7 @@ transmitted by a sensor device.
 
 ***
 
-### endTime?
+### endTime? {#endtime}
 
 > `optional` **endTime**: `string`
 
@@ -62,7 +62,7 @@ transmitted by a sensor device.
 
 ***
 
-### dataProcessingMethod?
+### dataProcessingMethod? {#dataprocessingmethod}
 
 > `optional` **dataProcessingMethod**: `string`
 
@@ -71,7 +71,7 @@ processing method of the contained sensor data, if applicable.
 
 ***
 
-### bizRules?
+### bizRules? {#bizrules}
 
 > `optional` **bizRules**: `string`
 

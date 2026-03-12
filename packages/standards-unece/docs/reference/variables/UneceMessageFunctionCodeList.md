@@ -6,439 +6,439 @@ A character string used to represent a message function.
 
 ## Type Declaration
 
-### Cancellation
+### Cancellation {#cancellation}
 
 > `readonly` **Cancellation**: `"unece:MessageFunctionCodeList#1"` = `"unece:MessageFunctionCodeList#1"`
 
 Cancellation: 1.
 
-### NotFound
+### NotFound {#notfound}
 
 > `readonly` **NotFound**: `"unece:MessageFunctionCodeList#10"` = `"unece:MessageFunctionCodeList#10"`
 
 Not found: 10.
 
-### Response
+### Response {#response}
 
 > `readonly` **Response**: `"unece:MessageFunctionCodeList#11"` = `"unece:MessageFunctionCodeList#11"`
 
 Response: 11.
 
-### NotProcessed
+### NotProcessed {#notprocessed}
 
 > `readonly` **NotProcessed**: `"unece:MessageFunctionCodeList#12"` = `"unece:MessageFunctionCodeList#12"`
 
 Not processed: 12.
 
-### Request
+### Request {#request}
 
 > `readonly` **Request**: `"unece:MessageFunctionCodeList#13"` = `"unece:MessageFunctionCodeList#13"`
 
 Request: 13.
 
-### AdvanceNotification
+### AdvanceNotification {#advancenotification}
 
 > `readonly` **AdvanceNotification**: `"unece:MessageFunctionCodeList#14"` = `"unece:MessageFunctionCodeList#14"`
 
 Advance notification: 14.
 
-### Reminder
+### Reminder {#reminder}
 
 > `readonly` **Reminder**: `"unece:MessageFunctionCodeList#15"` = `"unece:MessageFunctionCodeList#15"`
 
 Reminder: 15.
 
-### Proposal
+### Proposal {#proposal}
 
 > `readonly` **Proposal**: `"unece:MessageFunctionCodeList#16"` = `"unece:MessageFunctionCodeList#16"`
 
 Proposal: 16.
 
-### CancelToBeReissued
+### CancelToBeReissued {#canceltobereissued}
 
 > `readonly` **CancelToBeReissued**: `"unece:MessageFunctionCodeList#17"` = `"unece:MessageFunctionCodeList#17"`
 
 Cancel, to be reissued: 17.
 
-### Reissue
+### Reissue {#reissue}
 
 > `readonly` **Reissue**: `"unece:MessageFunctionCodeList#18"` = `"unece:MessageFunctionCodeList#18"`
 
 Reissue: 18.
 
-### SellerInitiatedChange
+### SellerInitiatedChange {#sellerinitiatedchange}
 
 > `readonly` **SellerInitiatedChange**: `"unece:MessageFunctionCodeList#19"` = `"unece:MessageFunctionCodeList#19"`
 
 Seller initiated change: 19.
 
-### Addition
+### Addition {#addition}
 
 > `readonly` **Addition**: `"unece:MessageFunctionCodeList#2"` = `"unece:MessageFunctionCodeList#2"`
 
 Addition: 2.
 
-### ReplaceHeadingSectionOnly
+### ReplaceHeadingSectionOnly {#replaceheadingsectiononly}
 
 > `readonly` **ReplaceHeadingSectionOnly**: `"unece:MessageFunctionCodeList#20"` = `"unece:MessageFunctionCodeList#20"`
 
 Replace heading section only: 20.
 
-### ReplaceItemDetailAndSummaryOnly
+### ReplaceItemDetailAndSummaryOnly {#replaceitemdetailandsummaryonly}
 
 > `readonly` **ReplaceItemDetailAndSummaryOnly**: `"unece:MessageFunctionCodeList#21"` = `"unece:MessageFunctionCodeList#21"`
 
 Replace item detail and summary only: 21.
 
-### FinalTransmission
+### FinalTransmission {#finaltransmission}
 
 > `readonly` **FinalTransmission**: `"unece:MessageFunctionCodeList#22"` = `"unece:MessageFunctionCodeList#22"`
 
 Final transmission: 22.
 
-### TransactionOnHold
+### TransactionOnHold {#transactiononhold}
 
 > `readonly` **TransactionOnHold**: `"unece:MessageFunctionCodeList#23"` = `"unece:MessageFunctionCodeList#23"`
 
 Transaction on hold: 23.
 
-### DeliveryInstruction
+### DeliveryInstruction {#deliveryinstruction}
 
 > `readonly` **DeliveryInstruction**: `"unece:MessageFunctionCodeList#24"` = `"unece:MessageFunctionCodeList#24"`
 
 Delivery instruction: 24.
 
-### Forecast
+### Forecast {#forecast}
 
 > `readonly` **Forecast**: `"unece:MessageFunctionCodeList#25"` = `"unece:MessageFunctionCodeList#25"`
 
 Forecast: 25.
 
-### DeliveryInstructionAndForecast
+### DeliveryInstructionAndForecast {#deliveryinstructionandforecast}
 
 > `readonly` **DeliveryInstructionAndForecast**: `"unece:MessageFunctionCodeList#26"` = `"unece:MessageFunctionCodeList#26"`
 
 Delivery instruction and forecast: 26.
 
-### NotAccepted
+### NotAccepted {#notaccepted}
 
 > `readonly` **NotAccepted**: `"unece:MessageFunctionCodeList#27"` = `"unece:MessageFunctionCodeList#27"`
 
 Not accepted: 27.
 
-### AcceptedWithAmendmentInHeadingSection
+### AcceptedWithAmendmentInHeadingSection {#acceptedwithamendmentinheadingsection}
 
 > `readonly` **AcceptedWithAmendmentInHeadingSection**: `"unece:MessageFunctionCodeList#28"` = `"unece:MessageFunctionCodeList#28"`
 
 Accepted, with amendment in heading section: 28.
 
-### AcceptedWithoutAmendment
+### AcceptedWithoutAmendment {#acceptedwithoutamendment}
 
 > `readonly` **AcceptedWithoutAmendment**: `"unece:MessageFunctionCodeList#29"` = `"unece:MessageFunctionCodeList#29"`
 
 Accepted without amendment: 29.
 
-### Deletion
+### Deletion {#deletion}
 
 > `readonly` **Deletion**: `"unece:MessageFunctionCodeList#3"` = `"unece:MessageFunctionCodeList#3"`
 
 Deletion: 3.
 
-### AcceptedWithAmendmentInDetailSection
+### AcceptedWithAmendmentInDetailSection {#acceptedwithamendmentindetailsection}
 
 > `readonly` **AcceptedWithAmendmentInDetailSection**: `"unece:MessageFunctionCodeList#30"` = `"unece:MessageFunctionCodeList#30"`
 
 Accepted, with amendment in detail section: 30.
 
-### Copy
+### Copy {#copy}
 
 > `readonly` **Copy**: `"unece:MessageFunctionCodeList#31"` = `"unece:MessageFunctionCodeList#31"`
 
 Copy: 31.
 
-### Approval
+### Approval {#approval}
 
 > `readonly` **Approval**: `"unece:MessageFunctionCodeList#32"` = `"unece:MessageFunctionCodeList#32"`
 
 Approval: 32.
 
-### ChangeInHeadingSection
+### ChangeInHeadingSection {#changeinheadingsection}
 
 > `readonly` **ChangeInHeadingSection**: `"unece:MessageFunctionCodeList#33"` = `"unece:MessageFunctionCodeList#33"`
 
 Change in heading section: 33.
 
-### AcceptedWithAmendment
+### AcceptedWithAmendment {#acceptedwithamendment}
 
 > `readonly` **AcceptedWithAmendment**: `"unece:MessageFunctionCodeList#34"` = `"unece:MessageFunctionCodeList#34"`
 
 Accepted with amendment: 34.
 
-### Retransmission
+### Retransmission {#retransmission}
 
 > `readonly` **Retransmission**: `"unece:MessageFunctionCodeList#35"` = `"unece:MessageFunctionCodeList#35"`
 
 Retransmission: 35.
 
-### ChangeInDetailSection
+### ChangeInDetailSection {#changeindetailsection}
 
 > `readonly` **ChangeInDetailSection**: `"unece:MessageFunctionCodeList#36"` = `"unece:MessageFunctionCodeList#36"`
 
 Change in detail section: 36.
 
-### ReversalOfADebit
+### ReversalOfADebit {#reversalofadebit}
 
 > `readonly` **ReversalOfADebit**: `"unece:MessageFunctionCodeList#37"` = `"unece:MessageFunctionCodeList#37"`
 
 Reversal of a debit: 37.
 
-### ReversalOfACredit
+### ReversalOfACredit {#reversalofacredit}
 
 > `readonly` **ReversalOfACredit**: `"unece:MessageFunctionCodeList#38"` = `"unece:MessageFunctionCodeList#38"`
 
 Reversal of a credit: 38.
 
-### ReversalForCancellation
+### ReversalForCancellation {#reversalforcancellation}
 
 > `readonly` **ReversalForCancellation**: `"unece:MessageFunctionCodeList#39"` = `"unece:MessageFunctionCodeList#39"`
 
 Reversal for cancellation: 39.
 
-### Change
+### Change {#change}
 
 > `readonly` **Change**: `"unece:MessageFunctionCodeList#4"` = `"unece:MessageFunctionCodeList#4"`
 
 Change: 4.
 
-### RequestForDeletion
+### RequestForDeletion {#requestfordeletion}
 
 > `readonly` **RequestForDeletion**: `"unece:MessageFunctionCodeList#40"` = `"unece:MessageFunctionCodeList#40"`
 
 Request for deletion: 40.
 
-### FinishingClosingOrder
+### FinishingClosingOrder {#finishingclosingorder}
 
 > `readonly` **FinishingClosingOrder**: `"unece:MessageFunctionCodeList#41"` = `"unece:MessageFunctionCodeList#41"`
 
 Finishing/closing order: 41.
 
-### ConfirmationViaSpecificMeans
+### ConfirmationViaSpecificMeans {#confirmationviaspecificmeans}
 
 > `readonly` **ConfirmationViaSpecificMeans**: `"unece:MessageFunctionCodeList#42"` = `"unece:MessageFunctionCodeList#42"`
 
 Confirmation via specific means: 42.
 
-### AdditionalTransmission
+### AdditionalTransmission {#additionaltransmission}
 
 > `readonly` **AdditionalTransmission**: `"unece:MessageFunctionCodeList#43"` = `"unece:MessageFunctionCodeList#43"`
 
 Additional transmission: 43.
 
-### AcceptedWithoutReserves
+### AcceptedWithoutReserves {#acceptedwithoutreserves}
 
 > `readonly` **AcceptedWithoutReserves**: `"unece:MessageFunctionCodeList#44"` = `"unece:MessageFunctionCodeList#44"`
 
 Accepted without reserves: 44.
 
-### AcceptedWithReserves
+### AcceptedWithReserves {#acceptedwithreserves}
 
 > `readonly` **AcceptedWithReserves**: `"unece:MessageFunctionCodeList#45"` = `"unece:MessageFunctionCodeList#45"`
 
 Accepted with reserves: 45.
 
-### Provisional
+### Provisional {#provisional}
 
 > `readonly` **Provisional**: `"unece:MessageFunctionCodeList#46"` = `"unece:MessageFunctionCodeList#46"`
 
 Provisional: 46.
 
-### Definitive
+### Definitive {#definitive}
 
 > `readonly` **Definitive**: `"unece:MessageFunctionCodeList#47"` = `"unece:MessageFunctionCodeList#47"`
 
 Definitive: 47.
 
-### AcceptedContentsRejected
+### AcceptedContentsRejected {#acceptedcontentsrejected}
 
 > `readonly` **AcceptedContentsRejected**: `"unece:MessageFunctionCodeList#48"` = `"unece:MessageFunctionCodeList#48"`
 
 Accepted, contents rejected: 48.
 
-### SettledDispute
+### SettledDispute {#settleddispute}
 
 > `readonly` **SettledDispute**: `"unece:MessageFunctionCodeList#49"` = `"unece:MessageFunctionCodeList#49"`
 
 Settled dispute: 49.
 
-### Replace
+### Replace {#replace}
 
 > `readonly` **Replace**: `"unece:MessageFunctionCodeList#5"` = `"unece:MessageFunctionCodeList#5"`
 
 Replace: 5.
 
-### Withdraw
+### Withdraw {#withdraw}
 
 > `readonly` **Withdraw**: `"unece:MessageFunctionCodeList#50"` = `"unece:MessageFunctionCodeList#50"`
 
 Withdraw: 50.
 
-### Authorisation
+### Authorisation {#authorisation}
 
 > `readonly` **Authorisation**: `"unece:MessageFunctionCodeList#51"` = `"unece:MessageFunctionCodeList#51"`
 
 Authorisation: 51.
 
-### ProposedAmendment
+### ProposedAmendment {#proposedamendment}
 
 > `readonly` **ProposedAmendment**: `"unece:MessageFunctionCodeList#52"` = `"unece:MessageFunctionCodeList#52"`
 
 Proposed amendment: 52.
 
-### Test
+### Test {#test}
 
 > `readonly` **Test**: `"unece:MessageFunctionCodeList#53"` = `"unece:MessageFunctionCodeList#53"`
 
 Test: 53.
 
-### Extract
+### Extract {#extract}
 
 > `readonly` **Extract**: `"unece:MessageFunctionCodeList#54"` = `"unece:MessageFunctionCodeList#54"`
 
 Extract: 54.
 
-### NotificationOnly
+### NotificationOnly {#notificationonly}
 
 > `readonly` **NotificationOnly**: `"unece:MessageFunctionCodeList#55"` = `"unece:MessageFunctionCodeList#55"`
 
 Notification only: 55.
 
-### AdviceOfLedgerBookedItems
+### AdviceOfLedgerBookedItems {#adviceofledgerbookeditems}
 
 > `readonly` **AdviceOfLedgerBookedItems**: `"unece:MessageFunctionCodeList#56"` = `"unece:MessageFunctionCodeList#56"`
 
 Advice of ledger booked items: 56.
 
-### AdviceOfItemsPendingToBeBookedInTheLedger
+### AdviceOfItemsPendingToBeBookedInTheLedger {#adviceofitemspendingtobebookedintheledger}
 
 > `readonly` **AdviceOfItemsPendingToBeBookedInTheLedger**: `"unece:MessageFunctionCodeList#57"` = `"unece:MessageFunctionCodeList#57"`
 
 Advice of items pending to be booked in the ledger: 57.
 
-### PreAdviceOfItemsRequiringFurtherInformation
+### PreAdviceOfItemsRequiringFurtherInformation {#preadviceofitemsrequiringfurtherinformation}
 
 > `readonly` **PreAdviceOfItemsRequiringFurtherInformation**: `"unece:MessageFunctionCodeList#58"` = `"unece:MessageFunctionCodeList#58"`
 
 Pre-advice of items requiring further information: 58.
 
-### PreAdvicedItems
+### PreAdvicedItems {#preadviceditems}
 
 > `readonly` **PreAdvicedItems**: `"unece:MessageFunctionCodeList#59"` = `"unece:MessageFunctionCodeList#59"`
 
 Pre-adviced items: 59.
 
-### Confirmation
+### Confirmation {#confirmation}
 
 > `readonly` **Confirmation**: `"unece:MessageFunctionCodeList#6"` = `"unece:MessageFunctionCodeList#6"`
 
 Confirmation: 6.
 
-### NoActionSinceLastMessage
+### NoActionSinceLastMessage {#noactionsincelastmessage}
 
 > `readonly` **NoActionSinceLastMessage**: `"unece:MessageFunctionCodeList#60"` = `"unece:MessageFunctionCodeList#60"`
 
 No action since last message: 60.
 
-### CompleteSchedule
+### CompleteSchedule {#completeschedule}
 
 > `readonly` **CompleteSchedule**: `"unece:MessageFunctionCodeList#61"` = `"unece:MessageFunctionCodeList#61"`
 
 Complete schedule: 61.
 
-### UpdateSchedule
+### UpdateSchedule {#updateschedule}
 
 > `readonly` **UpdateSchedule**: `"unece:MessageFunctionCodeList#62"` = `"unece:MessageFunctionCodeList#62"`
 
 Update schedule: 62.
 
-### NotAcceptedProvisional
+### NotAcceptedProvisional {#notacceptedprovisional}
 
 > `readonly` **NotAcceptedProvisional**: `"unece:MessageFunctionCodeList#63"` = `"unece:MessageFunctionCodeList#63"`
 
 Not accepted, provisional: 63.
 
-### Verification
+### Verification {#verification}
 
 > `readonly` **Verification**: `"unece:MessageFunctionCodeList#64"` = `"unece:MessageFunctionCodeList#64"`
 
 Verification: 64.
 
-### UnsettledDispute
+### UnsettledDispute {#unsettleddispute}
 
 > `readonly` **UnsettledDispute**: `"unece:MessageFunctionCodeList#65"` = `"unece:MessageFunctionCodeList#65"`
 
 Unsettled dispute: 65.
 
-### DischargeOfOperationGuarantee
+### DischargeOfOperationGuarantee {#dischargeofoperationguarantee}
 
 > `readonly` **DischargeOfOperationGuarantee**: `"unece:MessageFunctionCodeList#66"` = `"unece:MessageFunctionCodeList#66"`
 
 Discharge of operation guarantee: 66.
 
-### TerminationOfOperationGuarantee
+### TerminationOfOperationGuarantee {#terminationofoperationguarantee}
 
 > `readonly` **TerminationOfOperationGuarantee**: `"unece:MessageFunctionCodeList#67"` = `"unece:MessageFunctionCodeList#67"`
 
 Termination of operation guarantee: 67.
 
-### StartOfOperationGuarantee
+### StartOfOperationGuarantee {#startofoperationguarantee}
 
 > `readonly` **StartOfOperationGuarantee**: `"unece:MessageFunctionCodeList#68"` = `"unece:MessageFunctionCodeList#68"`
 
 Start of operation guarantee: 68.
 
-### NewDeclarationData
+### NewDeclarationData {#newdeclarationdata}
 
 > `readonly` **NewDeclarationData**: `"unece:MessageFunctionCodeList#69"` = `"unece:MessageFunctionCodeList#69"`
 
 New declaration data: 69.
 
-### Duplicate
+### Duplicate {#duplicate}
 
 > `readonly` **Duplicate**: `"unece:MessageFunctionCodeList#7"` = `"unece:MessageFunctionCodeList#7"`
 
 Duplicate: 7.
 
-### AmendedDeclarationData
+### AmendedDeclarationData {#amendeddeclarationdata}
 
 > `readonly` **AmendedDeclarationData**: `"unece:MessageFunctionCodeList#70"` = `"unece:MessageFunctionCodeList#70"`
 
 Amended declaration data: 70.
 
-### RefusalToStartOperationGuarantee
+### RefusalToStartOperationGuarantee {#refusaltostartoperationguarantee}
 
 > `readonly` **RefusalToStartOperationGuarantee**: `"unece:MessageFunctionCodeList#71"` = `"unece:MessageFunctionCodeList#71"`
 
 Refusal to start operation guarantee: 71.
 
-### SealsInformation
+### SealsInformation {#sealsinformation}
 
 > `readonly` **SealsInformation**: `"unece:MessageFunctionCodeList#72"` = `"unece:MessageFunctionCodeList#72"`
 
 Seals information (Start): 72.
 
-### SealsInformation73
+### SealsInformation73 {#sealsinformation73}
 
 > `readonly` **SealsInformation73**: `"unece:MessageFunctionCodeList#73"` = `"unece:MessageFunctionCodeList#73"`
 
 Seals information (Terminate): 73.
 
-### Status
+### Status {#status}
 
 > `readonly` **Status**: `"unece:MessageFunctionCodeList#8"` = `"unece:MessageFunctionCodeList#8"`
 
 Status: 8.
 
-### Original
+### Original {#original}
 
 > `readonly` **Original**: `"unece:MessageFunctionCodeList#9"` = `"unece:MessageFunctionCodeList#9"`
 

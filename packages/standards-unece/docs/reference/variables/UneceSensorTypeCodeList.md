@@ -6,7 +6,7 @@ Values for UneceSensor typeCode property.
 
 ## Type Declaration
 
-### EmbeddedSensor
+### EmbeddedSensor {#embeddedsensor}
 
 > `readonly` **EmbeddedSensor**: `"unece:embeddedSensor"` = `"unece:embeddedSensor"`
 
@@ -16,7 +16,7 @@ An embedded sensor of this monitoring IOT device.
 
 https://vocabulary.uncefact.org/embeddedSensor
 
-### RemoteSensor
+### RemoteSensor {#remotesensor}
 
 > `readonly` **RemoteSensor**: `"unece:remoteSensor"` = `"unece:remoteSensor"`
 

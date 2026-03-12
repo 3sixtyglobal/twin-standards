@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/BreakdownStatement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"BreakdownStatement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### binaryFile?
+### binaryFile? {#binaryfile}
 
 > `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/binaryFile
 
 ***
 
-### changedStatus?
+### changedStatus? {#changedstatus}
 
 > `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/changedStatus
 
 ***
 
-### comment?
+### comment? {#comment}
 
 > `optional` **comment**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/comment
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### creationBinaryFile?
+### creationBinaryFile? {#creationbinaryfile}
 
 > `optional` **creationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/creationBinaryFile
 
 ***
 
-### creationDateTime
+### creationDateTime {#creationdatetime}
 
 > **creationDateTime**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### defaultCurrencyCode
+### defaultCurrencyCode {#defaultcurrencycode}
 
 > **defaultCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/defaultCurrencyCode
 
 ***
 
-### defaultLanguageCode
+### defaultLanguageCode {#defaultlanguagecode}
 
 > **defaultLanguageCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/defaultLanguageCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### itemBasicWorkItem?
+### itemBasicWorkItem? {#itembasicworkitem}
 
 > `optional` **itemBasicWorkItem**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/itemBasicWorkItem
 
 ***
 
-### itemGroupedWorkItem?
+### itemGroupedWorkItem? {#itemgroupedworkitem}
 
 > `optional` **itemGroupedWorkItem**: [`IUneceGroupedWorkItem`](IUneceGroupedWorkItem.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/itemGroupedWorkItem
 
 ***
 
-### measurementMethodId?
+### measurementMethodId? {#measurementmethodid}
 
 > `optional` **measurementMethodId**: `string` \| `IJsonLdValueObject`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/measurementMethodId
 
 ***
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### priceListId?
+### priceListId? {#pricelistid}
 
 > `optional` **priceListId**: `string` \| `IJsonLdValueObject`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/priceListId
 
 ***
 
-### readerBinaryFile?
+### readerBinaryFile? {#readerbinaryfile}
 
 > `optional` **readerBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/readerBinaryFile
 
 ***
 
-### requestedActionCode?
+### requestedActionCode? {#requestedactioncode}
 
 > `optional` **requestedActionCode**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ***
 
-### totalPrice?
+### totalPrice? {#totalprice}
 
 > `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/totalPrice
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

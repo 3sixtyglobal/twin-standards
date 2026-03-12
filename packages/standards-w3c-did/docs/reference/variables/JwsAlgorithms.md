@@ -7,7 +7,7 @@ Based on RFC 7518 (JSON Web Algorithms) and W3C DID standards.
 
 ## Type Declaration
 
-### EdDSA
+### EdDSA {#eddsa}
 
 > `readonly` **EdDSA**: `"EdDSA"` = `"EdDSA"`
 

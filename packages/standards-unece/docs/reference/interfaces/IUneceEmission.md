@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Emission
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Emission"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### affectedDistanceMeasure?
+### affectedDistanceMeasure? {#affecteddistancemeasure}
 
 > `optional` **affectedDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/affectedDistanceMeasure
 
 ***
 
-### pollutionMeasure?
+### pollutionMeasure? {#pollutionmeasure}
 
 > `optional` **pollutionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/pollutionMeasure
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### weightUnitWeightMeasure?
+### weightUnitWeightMeasure? {#weightunitweightmeasure}
 
 > `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 

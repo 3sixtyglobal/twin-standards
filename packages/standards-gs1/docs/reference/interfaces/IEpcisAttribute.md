@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/Attribute
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -16,7 +16,7 @@ Attribute id.
 
 ***
 
-### attribute?
+### attribute? {#attribute}
 
 > `optional` **attribute**: `IJsonLdNodePrimitive`
 

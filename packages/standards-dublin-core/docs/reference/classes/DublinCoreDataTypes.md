@@ -14,7 +14,7 @@ Handle all the data types for Dublin Core.
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 

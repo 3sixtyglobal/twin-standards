@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpatialDimension
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpatialDimension"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### componentSpatialDimension?
+### componentSpatialDimension? {#componentspatialdimension}
 
 > `optional` **componentSpatialDimension**: `IUneceSpatialDimension`[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/componentSpatialDimension
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### dimensionTypeCode?
+### dimensionTypeCode? {#dimensiontypecode}
 
 > `optional` **dimensionTypeCode**: [`UneceDimensionTypeCodeList`](../type-aliases/UneceDimensionTypeCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/dimensionTypeCode
 
 ***
 
-### heightMeasure?
+### heightMeasure? {#heightmeasure}
 
 > `optional` **heightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/heightMeasure
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### lengthMeasure?
+### lengthMeasure? {#lengthmeasure}
 
 > `optional` **lengthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/lengthMeasure
 
 ***
 
-### linearUnitDiameterMeasure?
+### linearUnitDiameterMeasure? {#linearunitdiametermeasure}
 
 > `optional` **linearUnitDiameterMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/linearUnitDiameterMeasure
 
 ***
 
-### linearUnitHeightMeasure?
+### linearUnitHeightMeasure? {#linearunitheightmeasure}
 
 > `optional` **linearUnitHeightMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/linearUnitHeightMeasure
 
 ***
 
-### linearUnitLengthMeasure?
+### linearUnitLengthMeasure? {#linearunitlengthmeasure}
 
 > `optional` **linearUnitLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/linearUnitLengthMeasure
 
 ***
 
-### linearUnitWidthMeasure?
+### linearUnitWidthMeasure? {#linearunitwidthmeasure}
 
 > `optional` **linearUnitWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/linearUnitWidthMeasure
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### unitValueMeasure?
+### unitValueMeasure? {#unitvaluemeasure}
 
 > `optional` **unitValueMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/unitValueMeasure
 
 ***
 
-### widthMeasure?
+### widthMeasure? {#widthmeasure}
 
 > `optional` **widthMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

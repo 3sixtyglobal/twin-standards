@@ -7,55 +7,55 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/
 
 ## Type Declaration
 
-### TransferRequestMessage
+### TransferRequestMessage {#transferrequestmessage}
 
 > `readonly` **TransferRequestMessage**: `"TransferRequestMessage"` = `"TransferRequestMessage"`
 
 Transfer Request Message.
 
-### TransferStartMessage
+### TransferStartMessage {#transferstartmessage}
 
 > `readonly` **TransferStartMessage**: `"TransferStartMessage"` = `"TransferStartMessage"`
 
 Transfer Start Message.
 
-### TransferSuspensionMessage
+### TransferSuspensionMessage {#transfersuspensionmessage}
 
 > `readonly` **TransferSuspensionMessage**: `"TransferSuspensionMessage"` = `"TransferSuspensionMessage"`
 
 Transfer Suspension Message.
 
-### TransferCompletionMessage
+### TransferCompletionMessage {#transfercompletionmessage}
 
 > `readonly` **TransferCompletionMessage**: `"TransferCompletionMessage"` = `"TransferCompletionMessage"`
 
 Transfer Completion Message.
 
-### TransferTerminationMessage
+### TransferTerminationMessage {#transferterminationmessage}
 
 > `readonly` **TransferTerminationMessage**: `"TransferTerminationMessage"` = `"TransferTerminationMessage"`
 
 Transfer Termination Message.
 
-### DataAddress
+### DataAddress {#dataaddress}
 
 > `readonly` **DataAddress**: `"DataAddress"` = `"DataAddress"`
 
 Data Address
 
-### EndpointProperty
+### EndpointProperty {#endpointproperty}
 
 > `readonly` **EndpointProperty**: `"EndpointProperty"` = `"EndpointProperty"`
 
 Endpoint property.
 
-### TransferProcess
+### TransferProcess {#transferprocess}
 
 > `readonly` **TransferProcess**: `"TransferProcess"` = `"TransferProcess"`
 
 Transfer Process
 
-### TransferError
+### TransferError {#transfererror}
 
 > `readonly` **TransferError**: `"TransferError"` = `"TransferError"`
 

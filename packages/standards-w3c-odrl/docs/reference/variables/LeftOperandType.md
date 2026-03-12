@@ -6,193 +6,193 @@ The types for ODRL Data Types.
 
 ## Type Declaration
 
-### AbsolutePosition
+### AbsolutePosition {#absoluteposition}
 
 > `readonly` **AbsolutePosition**: `"absolutePosition"` = `"absolutePosition"`
 
 Absolute Position type.
 
-### AbsoluteSpatialPosition
+### AbsoluteSpatialPosition {#absolutespatialposition}
 
 > `readonly` **AbsoluteSpatialPosition**: `"absoluteSpatialPosition"` = `"absoluteSpatialPosition"`
 
 Absolute Spatial Position type.
 
-### AbsoluteTemporalPosition
+### AbsoluteTemporalPosition {#absolutetemporalposition}
 
 > `readonly` **AbsoluteTemporalPosition**: `"absoluteTemporalPosition"` = `"absoluteTemporalPosition"`
 
 Absolute Temporal Position type.
 
-### AbsoluteSize
+### AbsoluteSize {#absolutesize}
 
 > `readonly` **AbsoluteSize**: `"absoluteSize"` = `"absoluteSize"`
 
 Absolute Size type.
 
-### Count
+### Count {#count}
 
 > `readonly` **Count**: `"count"` = `"count"`
 
 Count type.
 
-### DateTime
+### DateTime {#datetime}
 
 > `readonly` **DateTime**: `"dateTime"` = `"dateTime"`
 
 DateTime type.
 
-### DelayPeriod
+### DelayPeriod {#delayperiod}
 
 > `readonly` **DelayPeriod**: `"delayPeriod"` = `"delayPeriod"`
 
 Delay Period type.
 
-### DeliveryChannel
+### DeliveryChannel {#deliverychannel}
 
 > `readonly` **DeliveryChannel**: `"deliveryChannel"` = `"deliveryChannel"`
 
 Delivery Channel type.
 
-### ElapsedTime
+### ElapsedTime {#elapsedtime}
 
 > `readonly` **ElapsedTime**: `"elapsedTime"` = `"elapsedTime"`
 
 Elapsed Time type.
 
-### Event
+### Event {#event}
 
 > `readonly` **Event**: `"event"` = `"event"`
 
 Event type.
 
-### FileFormat
+### FileFormat {#fileformat}
 
 > `readonly` **FileFormat**: `"fileFormat"` = `"fileFormat"`
 
 File Format type.
 
-### Industry
+### Industry {#industry}
 
 > `readonly` **Industry**: `"industry"` = `"industry"`
 
 Industry type.
 
-### Language
+### Language {#language}
 
 > `readonly` **Language**: `"language"` = `"language"`
 
 Language type.
 
-### Media
+### Media {#media}
 
 > `readonly` **Media**: `"media"` = `"media"`
 
 Media type.
 
-### MeteredTime
+### MeteredTime {#meteredtime}
 
 > `readonly` **MeteredTime**: `"meteredTime"` = `"meteredTime"`
 
 Metered Time type.
 
-### PayAmount
+### PayAmount {#payamount}
 
 > `readonly` **PayAmount**: `"payAmount"` = `"payAmount"`
 
 Pay Amount type.
 
-### Percentage
+### Percentage {#percentage}
 
 > `readonly` **Percentage**: `"percentage"` = `"percentage"`
 
 Percentage type.
 
-### Product
+### Product {#product}
 
 > `readonly` **Product**: `"product"` = `"product"`
 
 Product type.
 
-### Purpose
+### Purpose {#purpose}
 
 > `readonly` **Purpose**: `"purpose"` = `"purpose"`
 
 Purpose type.
 
-### Recipient
+### Recipient {#recipient}
 
 > `readonly` **Recipient**: `"recipient"` = `"recipient"`
 
 Recipient type.
 
-### RelativePosition
+### RelativePosition {#relativeposition}
 
 > `readonly` **RelativePosition**: `"relativePosition"` = `"relativePosition"`
 
 Relative Position type.
 
-### RelativeSpatialPosition
+### RelativeSpatialPosition {#relativespatialposition}
 
 > `readonly` **RelativeSpatialPosition**: `"relativeSpatialPosition"` = `"relativeSpatialPosition"`
 
 Relative Spatial Position type.
 
-### RelativeTemporalPosition
+### RelativeTemporalPosition {#relativetemporalposition}
 
 > `readonly` **RelativeTemporalPosition**: `"relativeTemporalPosition"` = `"relativeTemporalPosition"`
 
 Relative Temporal Position type.
 
-### RelativeSize
+### RelativeSize {#relativesize}
 
 > `readonly` **RelativeSize**: `"relativeSize"` = `"relativeSize"`
 
 Relative Size type.
 
-### Resolution
+### Resolution {#resolution}
 
 > `readonly` **Resolution**: `"resolution"` = `"resolution"`
 
 Resolution type.
 
-### Spatial
+### Spatial {#spatial}
 
 > `readonly` **Spatial**: `"spatial"` = `"spatial"`
 
 Spatial type.
 
-### SpatialCoordinates
+### SpatialCoordinates {#spatialcoordinates}
 
 > `readonly` **SpatialCoordinates**: `"spatialCoordinates"` = `"spatialCoordinates"`
 
 Spatial Coordinates type.
 
-### SystemDevice
+### SystemDevice {#systemdevice}
 
 > `readonly` **SystemDevice**: `"systemDevice"` = `"systemDevice"`
 
 System Device type.
 
-### TimeInterval
+### TimeInterval {#timeinterval}
 
 > `readonly` **TimeInterval**: `"timeInterval"` = `"timeInterval"`
 
 Time Interval type.
 
-### UnitOfCount
+### UnitOfCount {#unitofcount}
 
 > `readonly` **UnitOfCount**: `"unitOfCount"` = `"unitOfCount"`
 
 Unit of Count type.
 
-### Version
+### Version {#version}
 
 > `readonly` **Version**: `"version"` = `"version"`
 
 Version type.
 
-### VirtualLocation
+### VirtualLocation {#virtuallocation}
 
 > `readonly` **VirtualLocation**: `"virtualLocation"` = `"virtualLocation"`
 

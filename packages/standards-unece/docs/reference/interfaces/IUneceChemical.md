@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Chemical
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Chemical"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableHazardousMaterial?
+### applicableHazardousMaterial? {#applicablehazardousmaterial}
 
 > `optional` **applicableHazardousMaterial**: [`IUneceHazardousMaterial`](IUneceHazardousMaterial.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableHazardousMaterial
 
 ***
 
-### applicableProductCharacteristic?
+### applicableProductCharacteristic? {#applicableproductcharacteristic}
 
 > `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### commonName?
+### commonName? {#commonname}
 
 > `optional` **commonName**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/commonName
 
 ***
 
-### familyName?
+### familyName? {#familyname}
 
 > `optional` **familyName**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/familyName
 
 ***
 
-### formulaDescription?
+### formulaDescription? {#formuladescription}
 
 > `optional` **formulaDescription**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/formulaDescription
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### massMeasure?
+### massMeasure? {#massmeasure}
 
 > `optional` **massMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/massMeasure
 
 ***
 
-### massRatioMeasure?
+### massRatioMeasure? {#massratiomeasure}
 
 > `optional` **massRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/massRatioMeasure
 
 ***
 
-### molecularWeightMeasure?
+### molecularWeightMeasure? {#molecularweightmeasure}
 
 > `optional` **molecularWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/molecularWeightMeasure
 
 ***
 
-### presenceMeasurement?
+### presenceMeasurement? {#presencemeasurement}
 
 > `optional` **presenceMeasurement**: [`IUneceIngredientRangeMeasurement`](IUneceIngredientRangeMeasurement.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/presenceMeasurement
 
 ***
 
-### presencePercent?
+### presencePercent? {#presencepercent}
 
 > `optional` **presencePercent**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/presencePercent
 
 ***
 
-### scientificName?
+### scientificName? {#scientificname}
 
 > `optional` **scientificName**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/scientificName
 
 ***
 
-### specifiedProductCertificate?
+### specifiedProductCertificate? {#specifiedproductcertificate}
 
 > `optional` **specifiedProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/specifiedProductCertificate
 
 ***
 
-### synonymName?
+### synonymName? {#synonymname}
 
 > `optional` **synonymName**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/synonymName
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### volumeMeasure?
+### volumeMeasure? {#volumemeasure}
 
 > `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ***
 
-### volumeRatioMeasure?
+### volumeRatioMeasure? {#volumeratiomeasure}
 
 > `optional` **volumeRatioMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/volumeRatioMeasure
 
 ***
 
-### weightMeasure?
+### weightMeasure? {#weightmeasure}
 
 > `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/unlocode-functions
 
 ## Properties
 
-### uri
+### uri {#uri}
 
 > **uri**: [`UnLocodeFunctionsList`](../type-aliases/UnLocodeFunctionsList.md)
 
@@ -16,7 +16,7 @@ The uri of the UN/LOCODE country.
 
 ***
 
-### label
+### label {#label}
 
 > **label**: `string`
 
@@ -24,7 +24,7 @@ The label of the UN/LOCODE country.
 
 ***
 
-### comment
+### comment {#comment}
 
 > **comment**: `string`
 
@@ -32,7 +32,7 @@ The comment of the UN/LOCODE country.
 
 ***
 
-### value
+### value {#value}
 
 > **value**: `string`
 

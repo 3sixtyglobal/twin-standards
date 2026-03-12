@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancialIdentity
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancialIdentity"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### agentAssignedCustomerId?
+### agentAssignedCustomerId? {#agentassignedcustomerid}
 
 > `optional` **agentAssignedCustomerId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/agentAssignedCustomerId
 
 ***
 
-### bEIId?
+### bEIId? {#beiid}
 
 > `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### bICId?
+### bICId? {#bicid}
 
 > `optional` **bICId**: `string` \| `IJsonLdValueObject`
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/bICId
 
 ***
 
-### bankAssignedId?
+### bankAssignedId? {#bankassignedid}
 
 > `optional` **bankAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/bankAssignedId
 
 ***
 
-### cHIPSUniversalId?
+### cHIPSUniversalId? {#chipsuniversalid}
 
 > `optional` **cHIPSUniversalId**: `string` \| `IJsonLdValueObject`
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/cHIPSUniversalId
 
 ***
 
-### iBEIId?
+### iBEIId? {#ibeiid}
 
 > `optional` **iBEIId**: `string` \| `IJsonLdValueObject`
 

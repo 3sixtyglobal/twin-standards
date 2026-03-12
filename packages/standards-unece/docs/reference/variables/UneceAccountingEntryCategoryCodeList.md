@@ -6,43 +6,43 @@ A character string used to represent the category of an accounting entry.
 
 ## Type Declaration
 
-### Financial
+### Financial {#financial}
 
 > `readonly` **Financial**: `"unece:AccountingEntryCategoryCodeList#1"` = `"unece:AccountingEntryCategoryCodeList#1"`
 
 Financial: 1.
 
-### Budget
+### Budget {#budget}
 
 > `readonly` **Budget**: `"unece:AccountingEntryCategoryCodeList#2"` = `"unece:AccountingEntryCategoryCodeList#2"`
 
 Budget: 2.
 
-### Comparison
+### Comparison {#comparison}
 
 > `readonly` **Comparison**: `"unece:AccountingEntryCategoryCodeList#3"` = `"unece:AccountingEntryCategoryCodeList#3"`
 
 Comparison: 3.
 
-### Standard
+### Standard {#standard}
 
 > `readonly` **Standard**: `"unece:AccountingEntryCategoryCodeList#4"` = `"unece:AccountingEntryCategoryCodeList#4"`
 
 Standard: 4.
 
-### Recurrent
+### Recurrent {#recurrent}
 
 > `readonly` **Recurrent**: `"unece:AccountingEntryCategoryCodeList#5"` = `"unece:AccountingEntryCategoryCodeList#5"`
 
 Recurrent: 5.
 
-### Reordered
+### Reordered {#reordered}
 
 > `readonly` **Reordered**: `"unece:AccountingEntryCategoryCodeList#6"` = `"unece:AccountingEntryCategoryCodeList#6"`
 
 Reordered: 6.
 
-### DefinedByUser
+### DefinedByUser {#definedbyuser}
 
 > `readonly` **DefinedByUser**: `"unece:AccountingEntryCategoryCodeList#7"` = `"unece:AccountingEntryCategoryCodeList#7"`
 

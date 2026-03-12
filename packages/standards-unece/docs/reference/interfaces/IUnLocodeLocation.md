@@ -4,7 +4,7 @@ UN/LOCODE Location information.
 
 ## Properties
 
-### locode
+### locode {#locode}
 
 > **locode**: `string`
 
@@ -12,7 +12,7 @@ The locode of the UN/LOCODE.
 
 ***
 
-### locodeUri
+### locodeUri {#locodeuri}
 
 > **locodeUri**: `string`
 
@@ -20,7 +20,7 @@ The locodeUri of the UN/LOCODE.
 
 ***
 
-### label
+### label {#label}
 
 > **label**: `string`
 
@@ -28,7 +28,7 @@ The label of the UN/LOCODE.
 
 ***
 
-### labelWithDiacritics
+### labelWithDiacritics {#labelwithdiacritics}
 
 > **labelWithDiacritics**: `string`
 
@@ -36,7 +36,7 @@ The label of the UN/LOCODE with diacritics.
 
 ***
 
-### geoCoordinates?
+### geoCoordinates? {#geocoordinates}
 
 > `optional` **geoCoordinates**: `object`
 
@@ -52,7 +52,7 @@ The coordinates of the UN/LOCODE.
 
 ***
 
-### countryCodeUri
+### countryCodeUri {#countrycodeuri}
 
 > **countryCodeUri**: [`UnLocodeCountriesList`](../type-aliases/UnLocodeCountriesList.md)
 
@@ -60,7 +60,7 @@ The country code uri of the UN/LOCODE.
 
 ***
 
-### countrySubdivisionUri
+### countrySubdivisionUri {#countrysubdivisionuri}
 
 > **countrySubdivisionUri**: `string`
 
@@ -68,7 +68,7 @@ The country subdivision uri of the UN/LOCODE.
 
 ***
 
-### functions
+### functions {#functions}
 
 > **functions**: [`UnLocodeFunctionsList`](../type-aliases/UnLocodeFunctionsList.md)[]
 

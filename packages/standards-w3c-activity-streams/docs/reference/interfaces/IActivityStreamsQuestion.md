@@ -16,7 +16,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
 
 ## Properties
 
-### actor?
+### actor? {#actor}
 
 > `optional` **actor**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -32,7 +32,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-actor
 
 ***
 
-### target?
+### target? {#target}
 
 > `optional` **target**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -48,7 +48,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-target
 
 ***
 
-### result?
+### result? {#result}
 
 > `optional` **result**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -64,7 +64,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-result
 
 ***
 
-### origin?
+### origin? {#origin}
 
 > `optional` **origin**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -80,7 +80,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-origin
 
 ***
 
-### instrument?
+### instrument? {#instrument}
 
 > `optional` **instrument**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -96,7 +96,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-instrument
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: [`ActivityStreamsContextType`](../type-aliases/ActivityStreamsContextType.md)
 
@@ -108,7 +108,7 @@ The LD Context.
 
 ***
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -124,7 +124,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-id
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string` \| `IJsonLdLanguageMap`
 
@@ -140,7 +140,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-name
 
 ***
 
-### nameMap?
+### nameMap? {#namemap}
 
 > `optional` **nameMap**: `IJsonLdLanguageMap`
 
@@ -156,7 +156,7 @@ https://www.w3.org/TR/activitystreams-core/#naturalLanguageValues
 
 ***
 
-### summary?
+### summary? {#summary}
 
 > `optional` **summary**: `string` \| `IJsonLdLanguageMap`
 
@@ -172,7 +172,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-summary
 
 ***
 
-### summaryMap?
+### summaryMap? {#summarymap}
 
 > `optional` **summaryMap**: `IJsonLdLanguageMap`
 
@@ -188,7 +188,7 @@ https://www.w3.org/TR/activitystreams-core/#naturalLanguageValues
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string` \| `IJsonLdLanguageMap`
 
@@ -204,7 +204,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-content
 
 ***
 
-### contentMap?
+### contentMap? {#contentmap}
 
 > `optional` **contentMap**: `IJsonLdLanguageMap`
 
@@ -220,7 +220,7 @@ https://www.w3.org/TR/activitystreams-core/#naturalLanguageValues
 
 ***
 
-### url?
+### url? {#url}
 
 > `optional` **url**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -238,7 +238,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-url
 
 ***
 
-### image?
+### image? {#image}
 
 > `optional` **image**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -256,7 +256,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image-term
 
 ***
 
-### icon?
+### icon? {#icon}
 
 > `optional` **icon**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -274,7 +274,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-icon
 
 ***
 
-### published?
+### published? {#published}
 
 > `optional` **published**: `string`
 
@@ -290,7 +290,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published
 
 ***
 
-### updated?
+### updated? {#updated}
 
 > `optional` **updated**: `string`
 
@@ -306,7 +306,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
 
 ***
 
-### startTime?
+### startTime? {#starttime}
 
 > `optional` **startTime**: `string`
 
@@ -322,7 +322,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime
 
 ***
 
-### endTime?
+### endTime? {#endtime}
 
 > `optional` **endTime**: `string`
 
@@ -338,7 +338,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime
 
 ***
 
-### duration?
+### duration? {#duration}
 
 > `optional` **duration**: `string`
 
@@ -354,7 +354,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration
 
 ***
 
-### generator?
+### generator? {#generator}
 
 > `optional` **generator**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -370,7 +370,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-generator
 
 ***
 
-### attachment?
+### attachment? {#attachment}
 
 > `optional` **attachment**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -386,7 +386,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attachment
 
 ***
 
-### attributedTo?
+### attributedTo? {#attributedto}
 
 > `optional` **attributedTo**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -402,7 +402,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-attributedto
 
 ***
 
-### audience?
+### audience? {#audience}
 
 > `optional` **audience**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -418,7 +418,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audience
 
 ***
 
-### context?
+### context? {#context-1}
 
 > `optional` **context**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -434,7 +434,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-context
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -450,7 +450,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-location
 
 ***
 
-### tag?
+### tag? {#tag}
 
 > `optional` **tag**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -466,7 +466,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tag
 
 ***
 
-### inReplyTo?
+### inReplyTo? {#inreplyto}
 
 > `optional` **inReplyTo**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -482,7 +482,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-inreplyto
 
 ***
 
-### replies?
+### replies? {#replies}
 
 > `optional` **replies**: `IJsonLdNodeObject`
 
@@ -500,7 +500,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-replies
 
 ***
 
-### preview?
+### preview? {#preview}
 
 > `optional` **preview**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -516,7 +516,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview
 
 ***
 
-### to?
+### to? {#to}
 
 > `optional` **to**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -532,7 +532,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-to
 
 ***
 
-### bto?
+### bto? {#bto}
 
 > `optional` **bto**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -548,7 +548,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bto
 
 ***
 
-### cc?
+### cc? {#cc}
 
 > `optional` **cc**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -564,7 +564,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-cc
 
 ***
 
-### bcc?
+### bcc? {#bcc}
 
 > `optional` **bcc**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -580,7 +580,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-bcc
 
 ***
 
-### mediaType?
+### mediaType? {#mediatype}
 
 > `optional` **mediaType**: `string`
 
@@ -596,7 +596,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string` \| `string`[]
 
@@ -608,7 +608,7 @@ Question type.
 
 ***
 
-### anyOf?
+### anyOf? {#anyof}
 
 > `optional` **anyOf**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
@@ -620,7 +620,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
 
 ***
 
-### oneOf?
+### oneOf? {#oneof}
 
 > `optional` **oneOf**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
@@ -632,7 +632,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-oneof
 
 ***
 
-### closed?
+### closed? {#closed}
 
 > `optional` **closed**: `string` \| `boolean`
 

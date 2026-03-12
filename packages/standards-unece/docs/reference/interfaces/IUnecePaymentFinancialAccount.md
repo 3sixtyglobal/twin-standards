@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentFinancialAccount
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentFinancialAccount"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accountName?
+### accountName? {#accountname}
 
 > `optional` **accountName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accountName
 
 ***
 
-### iBANId?
+### iBANId? {#ibanid}
 
 > `optional` **iBANId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/iBANId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### paymentFinancialAccountCurrencyCode?
+### paymentFinancialAccountCurrencyCode? {#paymentfinancialaccountcurrencycode}
 
 > `optional` **paymentFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/paymentFinancialAccountCurrencyCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

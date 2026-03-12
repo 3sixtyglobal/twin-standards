@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradePrice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradePrice"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableCustomerClass?
+### applicableCustomerClass? {#applicablecustomerclass}
 
 > `optional` **applicableCustomerClass**: [`IUneceCustomerClass`](IUneceCustomerClass.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableCustomerClass
 
 ***
 
-### applicableSpecifiedNote?
+### applicableSpecifiedNote? {#applicablespecifiednote}
 
 > `optional` **applicableSpecifiedNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedNote
 
 ***
 
-### appliedAllowanceCharge?
+### appliedAllowanceCharge? {#appliedallowancecharge}
 
 > `optional` **appliedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/appliedAllowanceCharge
 
 ***
 
-### associatedDocument?
+### associatedDocument? {#associateddocument}
 
 > `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ***
 
-### basisDateTime?
+### basisDateTime? {#basisdatetime}
 
 > `optional` **basisDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/basisDateTime
 
 ***
 
-### basisQuantity?
+### basisQuantity? {#basisquantity}
 
 > `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ***
 
-### bracketTypeCode?
+### bracketTypeCode? {#brackettypecode}
 
 > `optional` **bracketTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/bracketTypeCode
 
 ***
 
-### calculationPercent?
+### calculationPercent? {#calculationpercent}
 
 > `optional` **calculationPercent**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ***
 
-### cancellationPercent?
+### cancellationPercent? {#cancellationpercent}
 
 > `optional` **cancellationPercent**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/cancellationPercent
 
 ***
 
-### categoryTypeCode?
+### categoryTypeCode? {#categorytypecode}
 
 > `optional` **categoryTypeCode**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/categoryTypeCode
 
 ***
 
-### changeReason?
+### changeReason? {#changereason}
 
 > `optional` **changeReason**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/changeReason
 
 ***
 
-### chargeAmount?
+### chargeAmount? {#chargeamount}
 
 > `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ***
 
-### comparisonPrice?
+### comparisonPrice? {#comparisonprice}
 
 > `optional` **comparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/comparisonPrice
 
 ***
 
-### customerServicePointQuantity?
+### customerServicePointQuantity? {#customerservicepointquantity}
 
 > `optional` **customerServicePointQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/customerServicePointQuantity
 
 ***
 
-### dayQuantity?
+### dayQuantity? {#dayquantity}
 
 > `optional` **dayQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/dayQuantity
 
 ***
 
-### deliveryLocation?
+### deliveryLocation? {#deliverylocation}
 
 > `optional` **deliveryLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/deliveryLocation
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### determinationCode?
+### determinationCode? {#determinationcode}
 
 > `optional` **determinationCode**: `string`
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/determinationCode
 
 ***
 
-### document?
+### document? {#document}
 
 > `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/document
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### grandTotalChargeAmount?
+### grandTotalChargeAmount? {#grandtotalchargeamount}
 
 > `optional` **grandTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/grandTotalChargeAmount
 
 ***
 
-### includedTax?
+### includedTax? {#includedtax}
 
 > `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/includedTax
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### maximumChargeAmount?
+### maximumChargeAmount? {#maximumchargeamount}
 
 > `optional` **maximumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/maximumChargeAmount
 
 ***
 
-### maximumQuantity?
+### maximumQuantity? {#maximumquantity}
 
 > `optional` **maximumQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -324,7 +324,7 @@ https://vocabulary.uncefact.org/maximumQuantity
 
 ***
 
-### minimumChargeAmount?
+### minimumChargeAmount? {#minimumchargeamount}
 
 > `optional` **minimumChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/minimumChargeAmount
 
 ***
 
-### minimumQuantity?
+### minimumQuantity? {#minimumquantity}
 
 > `optional` **minimumQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/minimumQuantity
 
 ***
 
-### multipleReasonIndicator?
+### multipleReasonIndicator? {#multiplereasonindicator}
 
 > `optional` **multipleReasonIndicator**: `boolean`
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/multipleReasonIndicator
 
 ***
 
-### netPriceIndicator?
+### netPriceIndicator? {#netpriceindicator}
 
 > `optional` **netPriceIndicator**: `boolean`
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/netPriceIndicator
 
 ***
 
-### operationalApplicablePeriod?
+### operationalApplicablePeriod? {#operationalapplicableperiod}
 
 > `optional` **operationalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -384,7 +384,7 @@ https://vocabulary.uncefact.org/operationalApplicablePeriod
 
 ***
 
-### orderUnitConversionFactorNumeric?
+### orderUnitConversionFactorNumeric? {#orderunitconversionfactornumeric}
 
 > `optional` **orderUnitConversionFactorNumeric**: `string`
 
@@ -396,7 +396,7 @@ https://vocabulary.uncefact.org/orderUnitConversionFactorNumeric
 
 ***
 
-### priceType?
+### priceType? {#pricetype}
 
 > `optional` **priceType**: `string`
 
@@ -408,7 +408,7 @@ https://vocabulary.uncefact.org/priceType
 
 ***
 
-### priceTypeCode?
+### priceTypeCode? {#pricetypecode}
 
 > `optional` **priceTypeCode**: [`UnecePriceTypeCodeList`](../type-aliases/UnecePriceTypeCodeList.md)
 
@@ -420,7 +420,7 @@ https://vocabulary.uncefact.org/priceTypeCode
 
 ***
 
-### reasonCode?
+### reasonCode? {#reasoncode}
 
 > `optional` **reasonCode**: `string`
 
@@ -432,7 +432,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ***
 
-### repackagingChargeAmount?
+### repackagingChargeAmount? {#repackagingchargeamount}
 
 > `optional` **repackagingChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/repackagingChargeAmount
 
 ***
 
-### repairChargeAmount?
+### repairChargeAmount? {#repairchargeamount}
 
 > `optional` **repairChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -456,7 +456,7 @@ https://vocabulary.uncefact.org/repairChargeAmount
 
 ***
 
-### seasonalApplicablePeriod?
+### seasonalApplicablePeriod? {#seasonalapplicableperiod}
 
 > `optional` **seasonalApplicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -468,7 +468,7 @@ https://vocabulary.uncefact.org/seasonalApplicablePeriod
 
 ***
 
-### seasonalRankCode?
+### seasonalRankCode? {#seasonalrankcode}
 
 > `optional` **seasonalRankCode**: `string`
 
@@ -480,7 +480,7 @@ https://vocabulary.uncefact.org/seasonalRankCode
 
 ***
 
-### specifiedPaymentTradeSettlement?
+### specifiedPaymentTradeSettlement? {#specifiedpaymenttradesettlement}
 
 > `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
 
@@ -492,7 +492,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 
 ***
 
-### totalChargeAmount?
+### totalChargeAmount? {#totalchargeamount}
 
 > `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -504,7 +504,7 @@ https://vocabulary.uncefact.org/totalChargeAmount
 
 ***
 
-### tradeComparisonPrice?
+### tradeComparisonPrice? {#tradecomparisonprice}
 
 > `optional` **tradeComparisonPrice**: [`IUneceReferencePrice`](IUneceReferencePrice.md)[]
 
@@ -516,7 +516,7 @@ https://vocabulary.uncefact.org/tradeComparisonPrice
 
 ***
 
-### tradePriceBracketTypeCode?
+### tradePriceBracketTypeCode? {#tradepricebrackettypecode}
 
 > `optional` **tradePriceBracketTypeCode**: `string`
 
@@ -528,7 +528,7 @@ https://vocabulary.uncefact.org/tradePriceBracketTypeCode
 
 ***
 
-### tradePriceCategoryTypeCode?
+### tradePriceCategoryTypeCode? {#tradepricecategorytypecode}
 
 > `optional` **tradePriceCategoryTypeCode**: `string`
 
@@ -540,7 +540,7 @@ https://vocabulary.uncefact.org/tradePriceCategoryTypeCode
 
 ***
 
-### unitAmount?
+### unitAmount? {#unitamount}
 
 > `optional` **unitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -552,7 +552,7 @@ https://vocabulary.uncefact.org/unitAmount
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 

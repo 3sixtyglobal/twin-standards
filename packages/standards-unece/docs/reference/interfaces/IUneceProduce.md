@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Produce
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Produce"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### calculatedYieldMeasure?
+### calculatedYieldMeasure? {#calculatedyieldmeasure}
 
 > `optional` **calculatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/calculatedYieldMeasure
 
 ***
 
-### estimatedYieldMeasure?
+### estimatedYieldMeasure? {#estimatedyieldmeasure}
 
 > `optional` **estimatedYieldMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/estimatedYieldMeasure
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inputSpecifiedBatch?
+### inputSpecifiedBatch? {#inputspecifiedbatch}
 
 > `optional` **inputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/inputSpecifiedBatch
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### outputSpecifiedBatch
+### outputSpecifiedBatch {#outputspecifiedbatch}
 
 > **outputSpecifiedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/outputSpecifiedBatch
 
 ***
 
-### subordinateTypeCode?
+### subordinateTypeCode? {#subordinatetypecode}
 
 > `optional` **subordinateTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/subordinateTypeCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

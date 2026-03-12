@@ -6,7 +6,7 @@ Values for UneceProductBatch typeCode property.
 
 ## Type Declaration
 
-### ApplicableBatch
+### ApplicableBatch {#applicablebatch}
 
 > `readonly` **ApplicableBatch**: `"unece:applicableBatch"` = `"unece:applicableBatch"`
 
@@ -16,7 +16,7 @@ A product batch applicable to this supply chain trade line item.
 
 https://vocabulary.uncefact.org/applicableBatch
 
-### ComponentBatch
+### ComponentBatch {#componentbatch}
 
 > `readonly` **ComponentBatch**: `"unece:componentBatch"` = `"unece:componentBatch"`
 
@@ -26,7 +26,7 @@ A product batch component of this product batch.
 
 https://vocabulary.uncefact.org/componentBatch
 
-### IncludedBatch
+### IncludedBatch {#includedbatch}
 
 > `readonly` **IncludedBatch**: `"unece:includedBatch"` = `"unece:includedBatch"`
 
@@ -36,7 +36,7 @@ A product batch included in this supply chain inventory.
 
 https://vocabulary.uncefact.org/includedBatch
 
-### InputApplicableBatch
+### InputApplicableBatch {#inputapplicablebatch}
 
 > `readonly` **InputApplicableBatch**: `"unece:inputApplicableBatch"` = `"unece:inputApplicableBatch"`
 
@@ -49,7 +49,7 @@ An input product batch applicable to this production process.
 
 https://vocabulary.uncefact.org/inputApplicableBatch
 
-### OutputApplicableBatch
+### OutputApplicableBatch {#outputapplicablebatch}
 
 > `readonly` **OutputApplicableBatch**: `"unece:outputApplicableBatch"` = `"unece:outputApplicableBatch"`
 
@@ -62,7 +62,7 @@ An output product batch applicable to this production process.
 
 https://vocabulary.uncefact.org/outputApplicableBatch
 
-### RelatedBatch
+### RelatedBatch {#relatedbatch}
 
 > `readonly` **RelatedBatch**: `"unece:relatedBatch"` = `"unece:relatedBatch"`
 
@@ -72,7 +72,7 @@ A product batch related to this trade party.
 
 https://vocabulary.uncefact.org/relatedBatch
 
-### SpecifiedProductBatch
+### SpecifiedProductBatch {#specifiedproductbatch}
 
 > `readonly` **SpecifiedProductBatch**: `"unece:specifiedProductBatch"` = `"unece:specifiedProductBatch"`
 
@@ -82,7 +82,7 @@ A product batch specified for this specified agricultural application.
 
 https://vocabulary.uncefact.org/specifiedProductBatch
 
-### SubstituteApplicableBatch
+### SubstituteApplicableBatch {#substituteapplicablebatch}
 
 > `readonly` **SubstituteApplicableBatch**: `"unece:substituteApplicableBatch"` = `"unece:substituteApplicableBatch"`
 
@@ -92,7 +92,7 @@ A substitute product batch applicable to this supply chain trade line item.
 
 https://vocabulary.uncefact.org/substituteApplicableBatch
 
-### SubstitutedApplicableBatch
+### SubstitutedApplicableBatch {#substitutedapplicablebatch}
 
 > `readonly` **SubstitutedApplicableBatch**: `"unece:substitutedApplicableBatch"` = `"unece:substitutedApplicableBatch"`
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ExperienceFacility
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ExperienceFacility"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### architecturalStyle?
+### architecturalStyle? {#architecturalstyle}
 
 > `optional` **architecturalStyle**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/architecturalStyle
 
 ***
 
-### availableRoute?
+### availableRoute? {#availableroute}
 
 > `optional` **availableRoute**: [`IUneceSpecifiedRoute`](IUneceSpecifiedRoute.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/availableRoute
 
 ***
 
-### completionDateTime?
+### completionDateTime? {#completiondatetime}
 
 > `optional` **completionDateTime**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/completionDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### experienceFacilityTypeCode?
+### experienceFacilityTypeCode? {#experiencefacilitytypecode}
 
 > `optional` **experienceFacilityTypeCode**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/experienceFacilityTypeCode
 
 ***
 
-### facilityType?
+### facilityType? {#facilitytype}
 
 > `optional` **facilityType**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/facilityType
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latestRenovationDateTime?
+### latestRenovationDateTime? {#latestrenovationdatetime}
 
 > `optional` **latestRenovationDateTime**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/latestRenovationDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### physicalSpecifiedLocation?
+### physicalSpecifiedLocation? {#physicalspecifiedlocation}
 
 > `optional` **physicalSpecifiedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/physicalSpecifiedLocation
 
 ***
 
-### specifiedCommunication?
+### specifiedCommunication? {#specifiedcommunication}
 
 > `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ***
 
-### usedSource?
+### usedSource? {#usedsource}
 
 > `optional` **usedSource**: [`IUneceSource`](IUneceSource.md)[]
 

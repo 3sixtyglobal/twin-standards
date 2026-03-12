@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancialAdjustment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancialAdjustment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accountingDebitCreditStatusDirectionCode?
+### accountingDebitCreditStatusDirectionCode? {#accountingdebitcreditstatusdirectioncode}
 
 > `optional` **accountingDebitCreditStatusDirectionCode**: [`UneceAccountingDebitCreditStatusCodeList`](../type-aliases/UneceAccountingDebitCreditStatusCodeList.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accountingDebitCreditStatusDirectionCode
 
 ***
 
-### actualAmount?
+### actualAmount? {#actualamount}
 
 > `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ***
 
-### actualDateTime?
+### actualDateTime? {#actualdatetime}
 
 > `optional` **actualDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ***
 
-### actualQuantity?
+### actualQuantity? {#actualquantity}
 
 > `optional` **actualQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ***
 
-### claimRelatedParty?
+### claimRelatedParty? {#claimrelatedparty}
 
 > `optional` **claimRelatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/claimRelatedParty
 
 ***
 
-### financialAdjustmentReasonCode?
+### financialAdjustmentReasonCode? {#financialadjustmentreasoncode}
 
 > `optional` **financialAdjustmentReasonCode**: [`UneceFinancialAdjustmentReasonCodeList`](../type-aliases/UneceFinancialAdjustmentReasonCodeList.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/financialAdjustmentReasonCode
 
 ***
 
-### invoiceReferenceDocument?
+### invoiceReferenceDocument? {#invoicereferencedocument}
 
 > `optional` **invoiceReferenceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/invoiceReferenceDocument
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### relatedTax?
+### relatedTax? {#relatedtax}
 
 > `optional` **relatedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 

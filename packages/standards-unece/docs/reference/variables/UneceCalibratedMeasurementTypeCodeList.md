@@ -6,7 +6,7 @@ Values for UneceCalibratedMeasurement typeCode property.
 
 ## Type Declaration
 
-### ActualReportedMeasurement
+### ActualReportedMeasurement {#actualreportedmeasurement}
 
 > `readonly` **ActualReportedMeasurement**: `"unece:actualReportedMeasurement"` = `"unece:actualReportedMeasurement"`
 
@@ -16,7 +16,7 @@ An actual calibrated measurement reported for this monitoring sensor.
 
 https://vocabulary.uncefact.org/actualReportedMeasurement
 
-### PrecisionMeasurement
+### PrecisionMeasurement {#precisionmeasurement}
 
 > `readonly` **PrecisionMeasurement**: `"unece:precisionMeasurement"` = `"unece:precisionMeasurement"`
 
@@ -26,7 +26,7 @@ A calibrated measurement of precision for this monitoring sensor.
 
 https://vocabulary.uncefact.org/precisionMeasurement
 
-### ScheduledReportedMeasurement
+### ScheduledReportedMeasurement {#scheduledreportedmeasurement}
 
 > `readonly` **ScheduledReportedMeasurement**: `"unece:scheduledReportedMeasurement"` = `"unece:scheduledReportedMeasurement"`
 
@@ -36,7 +36,7 @@ A scheduled calibrated measurement reported for this monitoring sensor.
 
 https://vocabulary.uncefact.org/scheduledReportedMeasurement
 
-### SpecifiedMeasurement
+### SpecifiedMeasurement {#specifiedmeasurement}
 
 > `readonly` **SpecifiedMeasurement**: `"unece:specifiedMeasurement"` = `"unece:specifiedMeasurement"`
 

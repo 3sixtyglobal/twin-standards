@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### agreedContract?
+### agreedContract? {#agreedcontract}
 
 > `optional` **agreedContract**: [`IUneceContract`](IUneceContract.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/agreedContract
 
 ***
 
-### allianceName?
+### allianceName? {#alliancename}
 
 > `optional` **allianceName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/allianceName
 
 ***
 
-### applicableAssessment?
+### applicableAssessment? {#applicableassessment}
 
 > `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ***
 
-### applicableDeclaration?
+### applicableDeclaration? {#applicabledeclaration}
 
 > `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ***
 
-### applicableLicence?
+### applicableLicence? {#applicablelicence}
 
 > `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ***
 
-### applicableOrganizationalCertificate?
+### applicableOrganizationalCertificate? {#applicableorganizationalcertificate}
 
 > `optional` **applicableOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/applicableOrganizationalCertificate
 
 ***
 
-### applicableOrganizationalCertification?
+### applicableOrganizationalCertification? {#applicableorganizationalcertification}
 
 > `optional` **applicableOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/applicableOrganizationalCertification
 
 ***
 
-### applicableProcessCertificate?
+### applicableProcessCertificate? {#applicableprocesscertificate}
 
 > `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ***
 
-### applicableProductBatchCertificate?
+### applicableProductBatchCertificate? {#applicableproductbatchcertificate}
 
 > `optional` **applicableProductBatchCertificate**: [`IUneceProductBatchCertificate`](IUneceProductBatchCertificate.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/applicableProductBatchCertificate
 
 ***
 
-### applicableProductCertificate?
+### applicableProductCertificate? {#applicableproductcertificate}
 
 > `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ***
 
-### applicableServiceCharge?
+### applicableServiceCharge? {#applicableservicecharge}
 
 > `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/applicableServiceCharge
 
 ***
 
-### applicableSpecifiedCertificate?
+### applicableSpecifiedCertificate? {#applicablespecifiedcertificate}
 
 > `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ***
 
-### applicableSpecifiedInspection?
+### applicableSpecifiedInspection? {#applicablespecifiedinspection}
 
 > `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### applicableSustainabilityInspection?
+### applicableSustainabilityInspection? {#applicablesustainabilityinspection}
 
 > `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ***
 
-### applicableTechnicalCharacteristic?
+### applicableTechnicalCharacteristic? {#applicabletechnicalcharacteristic}
 
 > `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ***
 
-### associatedMembership?
+### associatedMembership? {#associatedmembership}
 
 > `optional` **associatedMembership**: [`IUneceMembership`](IUneceMembership.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/associatedMembership
 
 ***
 
-### associatedParty?
+### associatedParty? {#associatedparty}
 
 > `optional` **associatedParty**: `IUneceTradeParty`[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/associatedParty
 
 ***
 
-### attentionOfAssociatedParty?
+### attentionOfAssociatedParty? {#attentionofassociatedparty}
 
 > `optional` **attentionOfAssociatedParty**: `IUneceTradeParty`[]
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/attentionOfAssociatedParty
 
 ***
 
-### availableExperienceItem?
+### availableExperienceItem? {#availableexperienceitem}
 
 > `optional` **availableExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/availableExperienceItem
 
 ***
 
-### availableFacility?
+### availableFacility? {#availablefacility}
 
 > `optional` **availableFacility**: [`IUneceExperienceFacility`](IUneceExperienceFacility.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/availableFacility
 
 ***
 
-### brandName?
+### brandName? {#brandname}
 
 > `optional` **brandName**: `string`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/brandName
 
 ***
 
-### businessTypeCode?
+### businessTypeCode? {#businesstypecode}
 
 > `optional` **businessTypeCode**: `string`
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/businessTypeCode
 
 ***
 
-### cAGEId?
+### cAGEId? {#cageid}
 
 > `optional` **cAGEId**: `string` \| `IJsonLdValueObject`
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/cAGEId
 
 ***
 
-### chainName?
+### chainName? {#chainname}
 
 > `optional` **chainName**: `string`
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/chainName
 
 ***
 
-### claimedLanguageProficiency?
+### claimedLanguageProficiency? {#claimedlanguageproficiency}
 
 > `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)[]
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/claimedLanguageProficiency
 
 ***
 
-### commentedReviewNote?
+### commentedReviewNote? {#commentedreviewnote}
 
 > `optional` **commentedReviewNote**: [`IUneceSpecifiedNote`](IUneceSpecifiedNote.md)[]
 
@@ -349,7 +349,7 @@ https://vocabulary.uncefact.org/commentedReviewNote
 
 ***
 
-### confirmedAuthentication?
+### confirmedAuthentication? {#confirmedauthentication}
 
 > `optional` **confirmedAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
 
@@ -361,7 +361,7 @@ https://vocabulary.uncefact.org/confirmedAuthentication
 
 ***
 
-### cooperativeInformationSource?
+### cooperativeInformationSource? {#cooperativeinformationsource}
 
 > `optional` **cooperativeInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)[]
 
@@ -373,7 +373,7 @@ https://vocabulary.uncefact.org/cooperativeInformationSource
 
 ***
 
-### dODAACId?
+### dODAACId? {#dodaacid}
 
 > `optional` **dODAACId**: `string` \| `IJsonLdValueObject`
 
@@ -385,7 +385,7 @@ https://vocabulary.uncefact.org/dODAACId
 
 ***
 
-### dUNSId?
+### dUNSId? {#dunsid}
 
 > `optional` **dUNSId**: `string` \| `IJsonLdValueObject`
 
@@ -397,7 +397,7 @@ https://vocabulary.uncefact.org/dUNSId
 
 ***
 
-### definedContact?
+### definedContact? {#definedcontact}
 
 > `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
 
@@ -409,7 +409,7 @@ https://vocabulary.uncefact.org/definedContact
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -421,7 +421,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### disclosureLevelCode?
+### disclosureLevelCode? {#disclosurelevelcode}
 
 > `optional` **disclosureLevelCode**: `string`
 
@@ -433,7 +433,7 @@ https://vocabulary.uncefact.org/disclosureLevelCode
 
 ***
 
-### emailURICommunication?
+### emailURICommunication? {#emailuricommunication}
 
 > `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -445,7 +445,7 @@ https://vocabulary.uncefact.org/emailURICommunication
 
 ***
 
-### endPointURICommunication?
+### endPointURICommunication? {#endpointuricommunication}
 
 > `optional` **endPointURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -457,7 +457,7 @@ https://vocabulary.uncefact.org/endPointURICommunication
 
 ***
 
-### faxCommunication?
+### faxCommunication? {#faxcommunication}
 
 > `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -469,7 +469,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### gLNId?
+### gLNId? {#glnid}
 
 > `optional` **gLNId**: `string` \| `IJsonLdValueObject`
 
@@ -481,7 +481,7 @@ https://vocabulary.uncefact.org/gLNId
 
 ***
 
-### globalId?
+### globalId? {#globalid}
 
 > `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
@@ -493,7 +493,7 @@ https://vocabulary.uncefact.org/globalId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -505,7 +505,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issuedNotificationReferencedDocument?
+### issuedNotificationReferencedDocument? {#issuednotificationreferenceddocument}
 
 > `optional` **issuedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -517,7 +517,7 @@ https://vocabulary.uncefact.org/issuedNotificationReferencedDocument
 
 ***
 
-### logoAssociatedBinaryFile?
+### logoAssociatedBinaryFile? {#logoassociatedbinaryfile}
 
 > `optional` **logoAssociatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -529,7 +529,7 @@ https://vocabulary.uncefact.org/logoAssociatedBinaryFile
 
 ***
 
-### logoReferencedDocument?
+### logoReferencedDocument? {#logoreferenceddocument}
 
 > `optional` **logoReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -541,7 +541,7 @@ https://vocabulary.uncefact.org/logoReferencedDocument
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -553,7 +553,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### ownedFinancialAccount?
+### ownedFinancialAccount? {#ownedfinancialaccount}
 
 > `optional` **ownedFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
@@ -565,7 +565,7 @@ https://vocabulary.uncefact.org/ownedFinancialAccount
 
 ***
 
-### partyRoleCode?
+### partyRoleCode? {#partyrolecode}
 
 > `optional` **partyRoleCode**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)[]
 
@@ -577,7 +577,7 @@ https://vocabulary.uncefact.org/partyRoleCode
 
 ***
 
-### partyTypeCode?
+### partyTypeCode? {#partytypecode}
 
 > `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
 
@@ -589,7 +589,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
@@ -601,7 +601,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### providedProcess?
+### providedProcess? {#providedprocess}
 
 > `optional` **providedProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
 
@@ -613,7 +613,7 @@ https://vocabulary.uncefact.org/providedProcess
 
 ***
 
-### providedService?
+### providedService? {#providedservice}
 
 > `optional` **providedService**: [`IUneceService`](IUneceService.md)[]
 
@@ -625,7 +625,7 @@ https://vocabulary.uncefact.org/providedService
 
 ***
 
-### qualityAssuranceIndicator?
+### qualityAssuranceIndicator? {#qualityassuranceindicator}
 
 > `optional` **qualityAssuranceIndicator**: `boolean`
 
@@ -637,7 +637,7 @@ https://vocabulary.uncefact.org/qualityAssuranceIndicator
 
 ***
 
-### rICId?
+### rICId? {#ricid}
 
 > `optional` **rICId**: `string` \| `IJsonLdValueObject`
 
@@ -649,7 +649,7 @@ https://vocabulary.uncefact.org/rICId
 
 ***
 
-### registeredId?
+### registeredId? {#registeredid}
 
 > `optional` **registeredId**: `string` \| `IJsonLdValueObject`
 
@@ -661,7 +661,7 @@ https://vocabulary.uncefact.org/registeredId
 
 ***
 
-### relatedBatch?
+### relatedBatch? {#relatedbatch}
 
 > `optional` **relatedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -673,7 +673,7 @@ https://vocabulary.uncefact.org/relatedBatch
 
 ***
 
-### relatedMaterial?
+### relatedMaterial? {#relatedmaterial}
 
 > `optional` **relatedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -685,7 +685,7 @@ https://vocabulary.uncefact.org/relatedMaterial
 
 ***
 
-### requestedExperienceItem?
+### requestedExperienceItem? {#requestedexperienceitem}
 
 > `optional` **requestedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
 
@@ -697,7 +697,7 @@ https://vocabulary.uncefact.org/requestedExperienceItem
 
 ***
 
-### requestedNotificationReferencedDocument?
+### requestedNotificationReferencedDocument? {#requestednotificationreferenceddocument}
 
 > `optional` **requestedNotificationReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -709,7 +709,7 @@ https://vocabulary.uncefact.org/requestedNotificationReferencedDocument
 
 ***
 
-### reservedExperienceItem?
+### reservedExperienceItem? {#reservedexperienceitem}
 
 > `optional` **reservedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
 
@@ -721,7 +721,7 @@ https://vocabulary.uncefact.org/reservedExperienceItem
 
 ***
 
-### role?
+### role? {#role}
 
 > `optional` **role**: `string`
 
@@ -733,7 +733,7 @@ https://vocabulary.uncefact.org/role
 
 ***
 
-### salesManagerName?
+### salesManagerName? {#salesmanagername}
 
 > `optional` **salesManagerName**: `string`
 
@@ -745,7 +745,7 @@ https://vocabulary.uncefact.org/salesManagerName
 
 ***
 
-### searchedWishListExperienceItem?
+### searchedWishListExperienceItem? {#searchedwishlistexperienceitem}
 
 > `optional` **searchedWishListExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
 
@@ -757,7 +757,7 @@ https://vocabulary.uncefact.org/searchedWishListExperienceItem
 
 ***
 
-### specifiedAssertion?
+### specifiedAssertion? {#specifiedassertion}
 
 > `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)
 
@@ -769,7 +769,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ***
 
-### specifiedAuthoritativeSignatoryPerson?
+### specifiedAuthoritativeSignatoryPerson? {#specifiedauthoritativesignatoryperson}
 
 > `optional` **specifiedAuthoritativeSignatoryPerson**: [`IUneceAuthoritativeSignatoryPerson`](IUneceAuthoritativeSignatoryPerson.md)[]
 
@@ -781,7 +781,7 @@ https://vocabulary.uncefact.org/specifiedAuthoritativeSignatoryPerson
 
 ***
 
-### specifiedContactPerson?
+### specifiedContactPerson? {#specifiedcontactperson}
 
 > `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)[]
 
@@ -793,7 +793,7 @@ https://vocabulary.uncefact.org/specifiedContactPerson
 
 ***
 
-### specifiedCooperatingOrganization?
+### specifiedCooperatingOrganization? {#specifiedcooperatingorganization}
 
 > `optional` **specifiedCooperatingOrganization**: [`IUneceCooperatingOrganization`](IUneceCooperatingOrganization.md)[]
 
@@ -805,7 +805,7 @@ https://vocabulary.uncefact.org/specifiedCooperatingOrganization
 
 ***
 
-### specifiedCreditorFinancialInstitution?
+### specifiedCreditorFinancialInstitution? {#specifiedcreditorfinancialinstitution}
 
 > `optional` **specifiedCreditorFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)[]
 
@@ -817,7 +817,7 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialInstitution
 
 ***
 
-### specifiedFacility?
+### specifiedFacility? {#specifiedfacility}
 
 > `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
@@ -829,7 +829,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ***
 
-### specifiedFinancialIdentity?
+### specifiedFinancialIdentity? {#specifiedfinancialidentity}
 
 > `optional` **specifiedFinancialIdentity**: [`IUneceFinancialIdentity`](IUneceFinancialIdentity.md)
 
@@ -841,7 +841,7 @@ https://vocabulary.uncefact.org/specifiedFinancialIdentity
 
 ***
 
-### specifiedGovernmentRegistration?
+### specifiedGovernmentRegistration? {#specifiedgovernmentregistration}
 
 > `optional` **specifiedGovernmentRegistration**: [`IUneceGovernmentRegistration`](IUneceGovernmentRegistration.md)[]
 
@@ -853,7 +853,7 @@ https://vocabulary.uncefact.org/specifiedGovernmentRegistration
 
 ***
 
-### specifiedGuestPerson?
+### specifiedGuestPerson? {#specifiedguestperson}
 
 > `optional` **specifiedGuestPerson**: [`IUneceGuestPerson`](IUneceGuestPerson.md)[]
 
@@ -865,7 +865,7 @@ https://vocabulary.uncefact.org/specifiedGuestPerson
 
 ***
 
-### specifiedLegalOrganization?
+### specifiedLegalOrganization? {#specifiedlegalorganization}
 
 > `optional` **specifiedLegalOrganization**: [`IUneceLegalOrganization`](IUneceLegalOrganization.md)
 
@@ -877,7 +877,7 @@ https://vocabulary.uncefact.org/specifiedLegalOrganization
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -889,7 +889,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### specifiedProprietaryIdentity?
+### specifiedProprietaryIdentity? {#specifiedproprietaryidentity}
 
 > `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
@@ -901,7 +901,7 @@ https://vocabulary.uncefact.org/specifiedProprietaryIdentity
 
 ***
 
-### specifiedRiskAnalysisResult?
+### specifiedRiskAnalysisResult? {#specifiedriskanalysisresult}
 
 > `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
 
@@ -913,7 +913,7 @@ https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 
 ***
 
-### specifiedTaxRegistration?
+### specifiedTaxRegistration? {#specifiedtaxregistration}
 
 > `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)[]
 
@@ -925,7 +925,7 @@ https://vocabulary.uncefact.org/specifiedTaxRegistration
 
 ***
 
-### specifiedTradeProduct?
+### specifiedTradeProduct? {#specifiedtradeproduct}
 
 > `optional` **specifiedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -937,7 +937,7 @@ https://vocabulary.uncefact.org/specifiedTradeProduct
 
 ***
 
-### subcontractorParty?
+### subcontractorParty? {#subcontractorparty}
 
 > `optional` **subcontractorParty**: `IUneceTradeParty`[]
 
@@ -949,7 +949,7 @@ https://vocabulary.uncefact.org/subcontractorParty
 
 ***
 
-### telephoneCommunication?
+### telephoneCommunication? {#telephonecommunication}
 
 > `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -961,7 +961,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ***
 
-### tradePartyLanguageCode?
+### tradePartyLanguageCode? {#tradepartylanguagecode}
 
 > `optional` **tradePartyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)[]
 
@@ -973,7 +973,7 @@ https://vocabulary.uncefact.org/tradePartyLanguageCode
 
 ***
 
-### uRICommunication?
+### uRICommunication? {#uricommunication}
 
 > `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 

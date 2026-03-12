@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AppliedTax
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AppliedTax"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### appliedTaxTypeCode?
+### appliedTaxTypeCode? {#appliedtaxtypecode}
 
 > `optional` **appliedTaxTypeCode**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/appliedTaxTypeCode
 
 ***
 
-### basisAmount?
+### basisAmount? {#basisamount}
 
 > `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ***
 
-### calculatedAmount?
+### calculatedAmount? {#calculatedamount}
 
 > `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/calculatedAmount
 
 ***
 
-### calculatedRate?
+### calculatedRate? {#calculatedrate}
 
 > `optional` **calculatedRate**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/calculatedRate
 
 ***
 
-### taxPointDate?
+### taxPointDate? {#taxpointdate}
 
 > `optional` **taxPointDate**: `string`
 

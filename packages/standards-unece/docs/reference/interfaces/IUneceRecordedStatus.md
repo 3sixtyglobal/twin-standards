@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RecordedStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RecordedStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### changedDateTime
+### changedDateTime {#changeddatetime}
 
 > **changedDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/changedDateTime
 
 ***
 
-### changerName?
+### changerName? {#changername}
 
 > `optional` **changerName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/changerName
 
 ***
 
-### recordedStatusConditionCode
+### recordedStatusConditionCode {#recordedstatusconditioncode}
 
 > **recordedStatusConditionCode**: `string`
 

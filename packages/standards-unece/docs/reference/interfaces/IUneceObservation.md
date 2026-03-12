@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Observation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Observation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableNote?
+### applicableNote? {#applicablenote}
 
 > `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### relatedBinaryFile?
+### relatedBinaryFile? {#relatedbinaryfile}
 
 > `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 

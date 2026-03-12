@@ -7,7 +7,7 @@ These are used with the dcat:qualifiedRelation property.
 
 ## Type Declaration
 
-### HadRole
+### HadRole {#hadrole}
 
 > `readonly` **HadRole**: `"hadRole"` = `"hadRole"`
 
@@ -18,7 +18,7 @@ Used in qualified relationships to specify the role.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_had_role
 
-### Replaces
+### Replaces {#replaces}
 
 > `readonly` **Replaces**: `"replaces"` = `"replaces"`
 
@@ -28,7 +28,7 @@ A related resource that is supplanted, displaced, or superseded by the described
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_replaces
 
-### IsReplacedBy
+### IsReplacedBy {#isreplacedby}
 
 > `readonly` **IsReplacedBy**: `"isReplacedBy"` = `"isReplacedBy"`
 
@@ -38,7 +38,7 @@ A related resource that supplants, displaces, or supersedes the described resour
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_replaced_by
 
-### HasVersion
+### HasVersion {#hasversion}
 
 > `readonly` **HasVersion**: `"hasVersion"` = `"hasVersion"`
 
@@ -48,7 +48,7 @@ A related resource that is a version, edition, or adaptation of the described re
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_version
 
-### IsVersionOf
+### IsVersionOf {#isversionof}
 
 > `readonly` **IsVersionOf**: `"isVersionOf"` = `"isVersionOf"`
 
@@ -58,7 +58,7 @@ A related resource of which the described resource is a version, edition, or ada
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_version_of
 
-### IsReferencedBy
+### IsReferencedBy {#isreferencedby}
 
 > `readonly` **IsReferencedBy**: `"isReferencedBy"` = `"isReferencedBy"`
 
@@ -68,7 +68,7 @@ A related resource that references, cites, or otherwise points to the described 
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_is_referenced_by
 
-### References
+### References {#references}
 
 > `readonly` **References**: `"references"` = `"references"`
 
@@ -78,7 +78,7 @@ A related resource that is referenced, cited, or otherwise pointed to by the des
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_references
 
-### Requires
+### Requires {#requires}
 
 > `readonly` **Requires**: `"requires"` = `"requires"`
 
@@ -88,7 +88,7 @@ A related resource that requires the described resource to support its function,
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:resource_requires
 
-### IsRequiredBy
+### IsRequiredBy {#isrequiredby}
 
 > `readonly` **IsRequiredBy**: `"isRequiredBy"` = `"isRequiredBy"`
 

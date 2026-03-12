@@ -6,19 +6,19 @@ A character string used to represent the type of accounting account classificati
 
 ## Type Declaration
 
-### GeneralChartOfAccounts
+### GeneralChartOfAccounts {#generalchartofaccounts}
 
 > `readonly` **GeneralChartOfAccounts**: `"unece:AccountingAccountClassificationCodeList#1"` = `"unece:AccountingAccountClassificationCodeList#1"`
 
 General Chart of accounts: 1.
 
-### CostChartOfAccounts
+### CostChartOfAccounts {#costchartofaccounts}
 
 > `readonly` **CostChartOfAccounts**: `"unece:AccountingAccountClassificationCodeList#2"` = `"unece:AccountingAccountClassificationCodeList#2"`
 
 Cost Chart of accounts: 2.
 
-### BudgetChartOfAccounts
+### BudgetChartOfAccounts {#budgetchartofaccounts}
 
 > `readonly` **BudgetChartOfAccounts**: `"unece:AccountingAccountClassificationCodeList#3"` = `"unece:AccountingAccountClassificationCodeList#3"`
 

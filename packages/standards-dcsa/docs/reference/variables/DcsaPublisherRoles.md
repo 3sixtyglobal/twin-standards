@@ -8,73 +8,73 @@ Source: `publisherRole` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### CA
+### CA {#ca}
 
 > `readonly` **CA**: `"CA"` = `"CA"`
 
 Carrier.
 
-### AG
+### AG {#ag}
 
 > `readonly` **AG**: `"AG"` = `"AG"`
 
 Carrier local agent.
 
-### VSL
+### VSL {#vsl}
 
 > `readonly` **VSL**: `"VSL"` = `"VSL"`
 
 Vessel.
 
-### ATH
+### ATH {#ath}
 
 > `readonly` **ATH**: `"ATH"` = `"ATH"`
 
 Port authorities.
 
-### PLT
+### PLT {#plt}
 
 > `readonly` **PLT**: `"PLT"` = `"PLT"`
 
 Port pilot.
 
-### TWG
+### TWG {#twg}
 
 > `readonly` **TWG**: `"TWG"` = `"TWG"`
 
 Towage service provider.
 
-### MOR
+### MOR {#mor}
 
 > `readonly` **MOR**: `"MOR"` = `"MOR"`
 
 Mooring service provider.
 
-### TR
+### TR {#tr}
 
 > `readonly` **TR**: `"TR"` = `"TR"`
 
 Terminal.
 
-### LSH
+### LSH {#lsh}
 
 > `readonly` **LSH**: `"LSH"` = `"LSH"`
 
 Lashing service provider.
 
-### BUK
+### BUK {#buk}
 
 > `readonly` **BUK**: `"BUK"` = `"BUK"`
 
 Bunker service provider.
 
-### SLU
+### SLU {#slu}
 
 > `readonly` **SLU**: `"SLU"` = `"SLU"`
 
 Sludge service provider.
 
-### SVP
+### SVP {#svp}
 
 > `readonly` **SVP**: `"SVP"` = `"SVP"`
 

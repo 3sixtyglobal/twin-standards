@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/SustainabilityInspection
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SustainabilityInspection"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableInspectionResult?
+### applicableInspectionResult? {#applicableinspectionresult}
 
 > `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableInspectionResult
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### executionParty?
+### executionParty? {#executionparty}
 
 > `optional` **executionParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/executionParty
 
 ***
 
-### executionPerson?
+### executionPerson? {#executionperson}
 
 > `optional` **executionPerson**: [`IUneceInspectionPerson`](IUneceInspectionPerson.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/executionPerson
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### outsourcedIndicator?
+### outsourcedIndicator? {#outsourcedindicator}
 
 > `optional` **outsourcedIndicator**: `boolean`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/outsourcedIndicator
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### specifiedInspectionEvent?
+### specifiedInspectionEvent? {#specifiedinspectionevent}
 
 > `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ***
 
-### specifiedInspectionStatus?
+### specifiedInspectionStatus? {#specifiedinspectionstatus}
 
 > `optional` **specifiedInspectionStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/specifiedInspectionStatus
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

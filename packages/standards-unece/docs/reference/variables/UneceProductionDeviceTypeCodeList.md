@@ -6,7 +6,7 @@ Values for UneceProductionDevice typeCode property.
 
 ## Type Declaration
 
-### AllocatedProductionDevice
+### AllocatedProductionDevice {#allocatedproductiondevice}
 
 > `readonly` **AllocatedProductionDevice**: `"unece:allocatedProductionDevice"` = `"unece:allocatedProductionDevice"`
 
@@ -16,7 +16,7 @@ A production device allocated to this production process.
 
 https://vocabulary.uncefact.org/allocatedProductionDevice
 
-### ApplicableProductionDevice
+### ApplicableProductionDevice {#applicableproductiondevice}
 
 > `readonly` **ApplicableProductionDevice**: `"unece:applicableProductionDevice"` = `"unece:applicableProductionDevice"`
 
@@ -28,7 +28,7 @@ A production device applicable to this product print.
 
 https://vocabulary.uncefact.org/applicableProductionDevice
 
-### CombinedProductionDevice
+### CombinedProductionDevice {#combinedproductiondevice}
 
 > `readonly` **CombinedProductionDevice**: `"unece:combinedProductionDevice"` = `"unece:combinedProductionDevice"`
 

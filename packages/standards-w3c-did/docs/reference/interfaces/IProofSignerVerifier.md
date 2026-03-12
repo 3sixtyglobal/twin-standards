@@ -4,7 +4,7 @@ Interface describing a proof signer and verifier.
 
 ## Methods
 
-### createProof()
+### createProof() {#createproof}
 
 > **createProof**(`unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -38,7 +38,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -72,7 +72,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

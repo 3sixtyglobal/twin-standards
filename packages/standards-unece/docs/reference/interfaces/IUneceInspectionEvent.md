@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InspectionEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InspectionEvent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### occurrenceDateTime
+### occurrenceDateTime {#occurrencedatetime}
 
 > **occurrenceDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### occurrenceLocation
+### occurrenceLocation {#occurrencelocation}
 
 > **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/occurrenceLocation
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

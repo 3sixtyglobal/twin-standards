@@ -6,7 +6,7 @@ Values for UneceClassification typeCode property.
 
 ## Type Declaration
 
-### ApplicableClassification
+### ApplicableClassification {#applicableclassification}
 
 > `readonly` **ApplicableClassification**: `"unece:applicableClassification"` = `"unece:applicableClassification"`
 
@@ -16,7 +16,7 @@ A product classification applicable to this trade product instance.
 
 https://vocabulary.uncefact.org/applicableClassification
 
-### DesignatedClassification
+### DesignatedClassification {#designatedclassification}
 
 > `readonly` **DesignatedClassification**: `"unece:designatedClassification"` = `"unece:designatedClassification"`
 

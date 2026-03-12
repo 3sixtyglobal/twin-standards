@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/BranchFinancialInstitution
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"BranchFinancialInstitution"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationAddress?
+### locationAddress? {#locationaddress}
 
 > `optional` **locationAddress**: [`IUneceFinancialInstitutionAddress`](IUneceFinancialInstitutionAddress.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/locationAddress
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

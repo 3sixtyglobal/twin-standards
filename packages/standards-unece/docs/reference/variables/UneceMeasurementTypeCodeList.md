@@ -6,7 +6,7 @@ Values for UneceMeasurement typeCode property.
 
 ## Type Declaration
 
-### AssociatedMeasurement
+### AssociatedMeasurement {#associatedmeasurement}
 
 > `readonly` **AssociatedMeasurement**: `"unece:associatedMeasurement"` = `"unece:associatedMeasurement"`
 
@@ -16,7 +16,7 @@ A measurement associated with this document clause.
 
 https://vocabulary.uncefact.org/associatedMeasurement
 
-### ControlTemperatureMeasurement
+### ControlTemperatureMeasurement {#controltemperaturemeasurement}
 
 > `readonly` **ControlTemperatureMeasurement**: `"unece:controlTemperatureMeasurement"` = `"unece:controlTemperatureMeasurement"`
 
@@ -26,7 +26,7 @@ The measurement of the control temperature of these transported dangerous goods.
 
 https://vocabulary.uncefact.org/controlTemperatureMeasurement
 
-### EmergencyTemperatureMeasurement
+### EmergencyTemperatureMeasurement {#emergencytemperaturemeasurement}
 
 > `readonly` **EmergencyTemperatureMeasurement**: `"unece:emergencyTemperatureMeasurement"` = `"unece:emergencyTemperatureMeasurement"`
 
@@ -36,7 +36,7 @@ The measurement of the emergency temperature of these transported dangerous good
 
 https://vocabulary.uncefact.org/emergencyTemperatureMeasurement
 
-### FlashpointTemperatureMeasurement
+### FlashpointTemperatureMeasurement {#flashpointtemperaturemeasurement}
 
 > `readonly` **FlashpointTemperatureMeasurement**: `"unece:flashpointTemperatureMeasurement"` = `"unece:flashpointTemperatureMeasurement"`
 

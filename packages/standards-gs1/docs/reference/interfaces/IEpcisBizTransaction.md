@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/BizTransaction
 
 ## Properties
 
-### type?
+### type? {#type}
 
 > `optional` **type**: `string`
 
@@ -19,7 +19,7 @@ Use [EpcisBizTransactionTypes](../variables/EpcisBizTransactionTypes.md) for kno
 
 ***
 
-### bizTransaction
+### bizTransaction {#biztransaction}
 
 > **bizTransaction**: `string`
 

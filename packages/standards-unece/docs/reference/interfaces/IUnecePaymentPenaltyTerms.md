@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentPenaltyTerms
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentPenaltyTerms"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualPenaltyAmount?
+### actualPenaltyAmount? {#actualpenaltyamount}
 
 > `optional` **actualPenaltyAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualPenaltyAmount
 
 ***
 
-### basisAmount?
+### basisAmount? {#basisamount}
 
 > `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ***
 
-### basisDateTime?
+### basisDateTime? {#basisdatetime}
 
 > `optional` **basisDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/basisDateTime
 
 ***
 
-### basisPeriodMeasure?
+### basisPeriodMeasure? {#basisperiodmeasure}
 
 > `optional` **basisPeriodMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/basisPeriodMeasure
 
 ***
 
-### calculationPercent?
+### calculationPercent? {#calculationpercent}
 
 > `optional` **calculationPercent**: `string`
 

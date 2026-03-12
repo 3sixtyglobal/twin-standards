@@ -6,97 +6,97 @@ The types for ODRL.
 
 ## Type Declaration
 
-### Policy
+### Policy {#policy}
 
 > `readonly` **Policy**: `"Policy"` = `"Policy"`
 
 Policy type.
 
-### Set
+### Set {#set}
 
 > `readonly` **Set**: `"Set"` = `"Set"`
 
 Set type (subclass of Policy).
 
-### Offer
+### Offer {#offer}
 
 > `readonly` **Offer**: `"Offer"` = `"Offer"`
 
 Offer type (subclass of Policy).
 
-### Agreement
+### Agreement {#agreement}
 
 > `readonly` **Agreement**: `"Agreement"` = `"Agreement"`
 
 Agreement type (subclass of Policy).
 
-### Asset
+### Asset {#asset}
 
 > `readonly` **Asset**: `"Asset"` = `"Asset"`
 
 Asset type.
 
-### AssetCollection
+### AssetCollection {#assetcollection}
 
 > `readonly` **AssetCollection**: `"AssetCollection"` = `"AssetCollection"`
 
 AssetCollection type.
 
-### Party
+### Party {#party}
 
 > `readonly` **Party**: `"Party"` = `"Party"`
 
 Party type.
 
-### PartyCollection
+### PartyCollection {#partycollection}
 
 > `readonly` **PartyCollection**: `"PartyCollection"` = `"PartyCollection"`
 
 PartyCollection type.
 
-### Action
+### Action {#action}
 
 > `readonly` **Action**: `"Action"` = `"Action"`
 
 Action type.
 
-### Rule
+### Rule {#rule}
 
 > `readonly` **Rule**: `"Rule"` = `"Rule"`
 
 Rule type.
 
-### Permission
+### Permission {#permission}
 
 > `readonly` **Permission**: `"Permission"` = `"Permission"`
 
 Permission type (subclass of Rule).
 
-### Prohibition
+### Prohibition {#prohibition}
 
 > `readonly` **Prohibition**: `"Prohibition"` = `"Prohibition"`
 
 Prohibition type (subclass of Rule).
 
-### Duty
+### Duty {#duty}
 
 > `readonly` **Duty**: `"Duty"` = `"Duty"`
 
 Duty type (subclass of Rule).
 
-### Constraint
+### Constraint {#constraint}
 
 > `readonly` **Constraint**: `"Constraint"` = `"Constraint"`
 
 Constraint type.
 
-### LogicalConstraint
+### LogicalConstraint {#logicalconstraint}
 
 > `readonly` **LogicalConstraint**: `"LogicalConstraint"` = `"LogicalConstraint"`
 
 LogicalConstraint type.
 
-### LogicalConstraintOperand
+### LogicalConstraintOperand {#logicalconstraintoperand}
 
 > `readonly` **LogicalConstraintOperand**: `"LogicalConstraintOperand"` = `"LogicalConstraintOperand"`
 

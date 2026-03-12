@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Document
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Document"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acceptablePeriod?
+### acceptablePeriod? {#acceptableperiod}
 
 > `optional` **acceptablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acceptablePeriod
 
 ***
 
-### acceptanceDateTime?
+### acceptanceDateTime? {#acceptancedatetime}
 
 > `optional` **acceptanceDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/acceptanceDateTime
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### attachmentBinaryObject?
+### attachmentBinaryObject? {#attachmentbinaryobject}
 
 > `optional` **attachmentBinaryObject**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/attachmentBinaryObject
 
 ***
 
-### authenticatedOriginalIndicator?
+### authenticatedOriginalIndicator? {#authenticatedoriginalindicator}
 
 > `optional` **authenticatedOriginalIndicator**: `boolean`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/authenticatedOriginalIndicator
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### communicationChannelCode?
+### communicationChannelCode? {#communicationchannelcode}
 
 > `optional` **communicationChannelCode**: [`UneceCommunicationChannelCodeList`](../type-aliases/UneceCommunicationChannelCodeList.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/communicationChannelCode
 
 ***
 
-### contractualClause?
+### contractualClause? {#contractualclause}
 
 > `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/contractualClause
 
 ***
 
-### controlRequirementIndicator?
+### controlRequirementIndicator? {#controlrequirementindicator}
 
 > `optional` **controlRequirementIndicator**: `boolean`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/controlRequirementIndicator
 
 ***
 
-### copyIndicator?
+### copyIndicator? {#copyindicator}
 
 > `optional` **copyIndicator**: `boolean`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/copyIndicator
 
 ***
 
-### copyIssuedQuantity?
+### copyIssuedQuantity? {#copyissuedquantity}
 
 > `optional` **copyIssuedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/copyIssuedQuantity
 
 ***
 
-### copyRequiredQuantity?
+### copyRequiredQuantity? {#copyrequiredquantity}
 
 > `optional` **copyRequiredQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/copyRequiredQuantity
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### documentAmendmentPurposeCode?
+### documentAmendmentPurposeCode? {#documentamendmentpurposecode}
 
 > `optional` **documentAmendmentPurposeCode**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/documentAmendmentPurposeCode
 
 ***
 
-### documentLanguageId?
+### documentLanguageId? {#documentlanguageid}
 
 > `optional` **documentLanguageId**: `string` \| `IJsonLdValueObject`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/documentLanguageId
 
 ***
 
-### documentLineStatusCode?
+### documentLineStatusCode? {#documentlinestatuscode}
 
 > `optional` **documentLineStatusCode**: [`UneceLineStatusCodeList`](../type-aliases/UneceLineStatusCodeList.md)
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/documentLineStatusCode
 
 ***
 
-### documentStatusCode?
+### documentStatusCode? {#documentstatuscode}
 
 > `optional` **documentStatusCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/documentStatusCode
 
 ***
 
-### documentType?
+### documentType? {#documenttype}
 
 > `optional` **documentType**: `string`
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/documentType
 
 ***
 
-### documentTypeCode?
+### documentTypeCode? {#documenttypecode}
 
 > `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ***
 
-### effectiveSpecifiedPeriod?
+### effectiveSpecifiedPeriod? {#effectivespecifiedperiod}
 
 > `optional` **effectiveSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
 ***
 
-### electronicPresentationIndicator?
+### electronicPresentationIndicator? {#electronicpresentationindicator}
 
 > `optional` **electronicPresentationIndicator**: `boolean`
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/electronicPresentationIndicator
 
 ***
 
-### globalId?
+### globalId? {#globalid}
 
 > `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/globalId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedAmount?
+### includedAmount? {#includedamount}
 
 > `optional` **includedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -324,7 +324,7 @@ https://vocabulary.uncefact.org/includedAmount
 
 ***
 
-### includedNote?
+### includedNote? {#includednote}
 
 > `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/includedNote
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issueLogisticsLocation?
+### issueLogisticsLocation? {#issuelogisticslocation}
 
 > `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ***
 
-### issuerAssignedId?
+### issuerAssignedId? {#issuerassignedid}
 
 > `optional` **issuerAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -384,7 +384,7 @@ https://vocabulary.uncefact.org/issuerAssignedId
 
 ***
 
-### issuerParty?
+### issuerParty? {#issuerparty}
 
 > `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -396,7 +396,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ***
 
-### issuerSpecifiedInstructions?
+### issuerSpecifiedInstructions? {#issuerspecifiedinstructions}
 
 > `optional` **issuerSpecifiedInstructions**: [`IUneceDocumentHandlingInstructions`](IUneceDocumentHandlingInstructions.md)[]
 
@@ -408,7 +408,7 @@ https://vocabulary.uncefact.org/issuerSpecifiedInstructions
 
 ***
 
-### itemIdentificationId?
+### itemIdentificationId? {#itemidentificationid}
 
 > `optional` **itemIdentificationId**: `string` \| `IJsonLdValueObject`
 
@@ -420,7 +420,7 @@ https://vocabulary.uncefact.org/itemIdentificationId
 
 ***
 
-### lineCountNumeric?
+### lineCountNumeric? {#linecountnumeric}
 
 > `optional` **lineCountNumeric**: `string`
 
@@ -432,7 +432,7 @@ https://vocabulary.uncefact.org/lineCountNumeric
 
 ***
 
-### lineId?
+### lineId? {#lineid}
 
 > `optional` **lineId**: `string` \| `IJsonLdValueObject`
 
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/lineId
 
 ***
 
-### lineItemQuantity?
+### lineItemQuantity? {#lineitemquantity}
 
 > `optional` **lineItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -456,7 +456,7 @@ https://vocabulary.uncefact.org/lineItemQuantity
 
 ***
 
-### lodgementLocation?
+### lodgementLocation? {#lodgementlocation}
 
 > `optional` **lodgementLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -468,7 +468,7 @@ https://vocabulary.uncefact.org/lodgementLocation
 
 ***
 
-### messageFunctionPurposeCode?
+### messageFunctionPurposeCode? {#messagefunctionpurposecode}
 
 > `optional` **messageFunctionPurposeCode**: [`UneceMessageFunctionCodeList`](../type-aliases/UneceMessageFunctionCodeList.md)
 
@@ -480,7 +480,7 @@ https://vocabulary.uncefact.org/messageFunctionPurposeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -492,7 +492,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### originalIssuedQuantity?
+### originalIssuedQuantity? {#originalissuedquantity}
 
 > `optional` **originalIssuedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -504,7 +504,7 @@ https://vocabulary.uncefact.org/originalIssuedQuantity
 
 ***
 
-### originalRequiredQuantity?
+### originalRequiredQuantity? {#originalrequiredquantity}
 
 > `optional` **originalRequiredQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -516,7 +516,7 @@ https://vocabulary.uncefact.org/originalRequiredQuantity
 
 ***
 
-### pageId?
+### pageId? {#pageid}
 
 > `optional` **pageId**: `string` \| `IJsonLdValueObject`
 
@@ -528,7 +528,7 @@ https://vocabulary.uncefact.org/pageId
 
 ***
 
-### previousRevisionId?
+### previousRevisionId? {#previousrevisionid}
 
 > `optional` **previousRevisionId**: `string` \| `IJsonLdValueObject`
 
@@ -540,7 +540,7 @@ https://vocabulary.uncefact.org/previousRevisionId
 
 ***
 
-### processCondition?
+### processCondition? {#processcondition}
 
 > `optional` **processCondition**: `string`
 
@@ -552,7 +552,7 @@ https://vocabulary.uncefact.org/processCondition
 
 ***
 
-### processConditionCode?
+### processConditionCode? {#processconditioncode}
 
 > `optional` **processConditionCode**: `string`
 
@@ -564,7 +564,7 @@ https://vocabulary.uncefact.org/processConditionCode
 
 ***
 
-### proprietaryType?
+### proprietaryType? {#proprietarytype}
 
 > `optional` **proprietaryType**: `string`
 
@@ -576,7 +576,7 @@ https://vocabulary.uncefact.org/proprietaryType
 
 ***
 
-### receiptDateTime?
+### receiptDateTime? {#receiptdatetime}
 
 > `optional` **receiptDateTime**: `string`
 
@@ -588,7 +588,7 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ***
 
-### recipientTradeParty?
+### recipientTradeParty? {#recipienttradeparty}
 
 > `optional` **recipientTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -600,7 +600,7 @@ https://vocabulary.uncefact.org/recipientTradeParty
 
 ***
 
-### referenceDateTime?
+### referenceDateTime? {#referencedatetime}
 
 > `optional` **referenceDateTime**: `string`
 
@@ -612,7 +612,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ***
 
-### referenceRelationshipTypeCode?
+### referenceRelationshipTypeCode? {#referencerelationshiptypecode}
 
 > `optional` **referenceRelationshipTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
@@ -625,7 +625,7 @@ https://vocabulary.uncefact.org/referenceRelationshipTypeCode
 
 ***
 
-### referenceTypeCode?
+### referenceTypeCode? {#referencetypecode}
 
 > `optional` **referenceTypeCode**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
 
@@ -637,7 +637,7 @@ https://vocabulary.uncefact.org/referenceTypeCode
 
 ***
 
-### remarks?
+### remarks? {#remarks}
 
 > `optional` **remarks**: `string`
 
@@ -649,7 +649,7 @@ https://vocabulary.uncefact.org/remarks
 
 ***
 
-### reportCountNumeric?
+### reportCountNumeric? {#reportcountnumeric}
 
 > `optional` **reportCountNumeric**: `string`
 
@@ -661,7 +661,7 @@ https://vocabulary.uncefact.org/reportCountNumeric
 
 ***
 
-### revision?
+### revision? {#revision}
 
 > `optional` **revision**: `string`
 
@@ -673,7 +673,7 @@ https://vocabulary.uncefact.org/revision
 
 ***
 
-### revisionDateTime?
+### revisionDateTime? {#revisiondatetime}
 
 > `optional` **revisionDateTime**: `string`
 
@@ -685,7 +685,7 @@ https://vocabulary.uncefact.org/revisionDateTime
 
 ***
 
-### revisionId?
+### revisionId? {#revisionid}
 
 > `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
@@ -697,7 +697,7 @@ https://vocabulary.uncefact.org/revisionId
 
 ***
 
-### sectionName?
+### sectionName? {#sectionname}
 
 > `optional` **sectionName**: `string`
 
@@ -709,7 +709,7 @@ https://vocabulary.uncefact.org/sectionName
 
 ***
 
-### senderTradeParty?
+### senderTradeParty? {#sendertradeparty}
 
 > `optional` **senderTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -721,7 +721,7 @@ https://vocabulary.uncefact.org/senderTradeParty
 
 ***
 
-### signatoryAuthentication?
+### signatoryAuthentication? {#signatoryauthentication}
 
 > `optional` **signatoryAuthentication**: [`IUneceAuthentication`](IUneceAuthentication.md)[]
 
@@ -733,7 +733,7 @@ https://vocabulary.uncefact.org/signatoryAuthentication
 
 ***
 
-### specifiedDocumentStatus?
+### specifiedDocumentStatus? {#specifieddocumentstatus}
 
 > `optional` **specifiedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)[]
 
@@ -745,7 +745,7 @@ https://vocabulary.uncefact.org/specifiedDocumentStatus
 
 ***
 
-### status?
+### status? {#status}
 
 > `optional` **status**: `string`
 
@@ -757,7 +757,7 @@ https://vocabulary.uncefact.org/status
 
 ***
 
-### subordinateLineId?
+### subordinateLineId? {#subordinatelineid}
 
 > `optional` **subordinateLineId**: `string` \| `IJsonLdValueObject`
 
@@ -769,7 +769,7 @@ https://vocabulary.uncefact.org/subordinateLineId
 
 ***
 
-### subtypeCode?
+### subtypeCode? {#subtypecode}
 
 > `optional` **subtypeCode**: `string`
 
@@ -781,7 +781,7 @@ https://vocabulary.uncefact.org/subtypeCode
 
 ***
 
-### totalIssueCountNumeric?
+### totalIssueCountNumeric? {#totalissuecountnumeric}
 
 > `optional` **totalIssueCountNumeric**: `string`
 
@@ -793,7 +793,7 @@ https://vocabulary.uncefact.org/totalIssueCountNumeric
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
@@ -805,7 +805,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -817,7 +817,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

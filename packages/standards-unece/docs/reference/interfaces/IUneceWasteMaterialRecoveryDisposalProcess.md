@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/WasteMaterialRecoveryDisposalProcess
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"WasteMaterialRecoveryDisposalProcess"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProcessCertificate?
+### applicableProcessCertificate? {#applicableprocesscertificate}
 
 > `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### wasteMaterialRecoveryDisposalProcessTypeCode?
+### wasteMaterialRecoveryDisposalProcessTypeCode? {#wastematerialrecoverydisposalprocesstypecode}
 
 > `optional` **wasteMaterialRecoveryDisposalProcessTypeCode**: `string`
 

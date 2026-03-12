@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 
@@ -18,7 +18,7 @@ Local date-time when the event happened.
 
 ***
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: `"ACT"`
 
@@ -26,7 +26,7 @@ IoT events are always "ACT".
 
 ***
 
-### iotEventTypeCode
+### iotEventTypeCode {#ioteventtypecode}
 
 > **iotEventTypeCode**: `"DETC"`
 
@@ -34,7 +34,7 @@ IoT event type code.
 
 ***
 
-### iotEventCode
+### iotEventCode {#ioteventcode}
 
 > **iotEventCode**: `"DRO"`
 
@@ -42,7 +42,7 @@ IoT event code.
 
 ***
 
-### geoLocation?
+### geoLocation? {#geolocation}
 
 > `optional` **geoLocation**: `unknown`
 
@@ -52,7 +52,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ***
 
-### equipmentReference
+### equipmentReference {#equipmentreference}
 
 > **equipmentReference**: `string`
 
@@ -60,7 +60,7 @@ Equipment reference.
 
 ***
 
-### relatedDocumentReferences?
+### relatedDocumentReferences? {#relateddocumentreferences}
 
 > `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 

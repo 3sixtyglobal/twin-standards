@@ -6,7 +6,7 @@ Values for UneceMachine typeCode property.
 
 ## Type Declaration
 
-### AllocatedMachine
+### AllocatedMachine {#allocatedmachine}
 
 > `readonly` **AllocatedMachine**: `"unece:allocatedMachine"` = `"unece:allocatedMachine"`
 
@@ -16,7 +16,7 @@ A machine allocated to this production process.
 
 https://vocabulary.uncefact.org/allocatedMachine
 
-### ApplicableMachine
+### ApplicableMachine {#applicablemachine}
 
 > `readonly` **ApplicableMachine**: `"unece:applicableMachine"` = `"unece:applicableMachine"`
 
@@ -27,7 +27,7 @@ A production machine applicable to this product colour.
 
 https://vocabulary.uncefact.org/applicableMachine
 
-### CombinedMachine
+### CombinedMachine {#combinedmachine}
 
 > `readonly` **CombinedMachine**: `"unece:combinedMachine"` = `"unece:combinedMachine"`
 
@@ -38,7 +38,7 @@ A production machine combined with this specified production device.
 
 https://vocabulary.uncefact.org/combinedMachine
 
-### SpecifiedMachine
+### SpecifiedMachine {#specifiedmachine}
 
 > `readonly` **SpecifiedMachine**: `"unece:specifiedMachine"` = `"unece:specifiedMachine"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InspectionInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InspectionInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inspectionInstructionsDescriptionCode?
+### inspectionInstructionsDescriptionCode? {#inspectioninstructionsdescriptioncode}
 
 > `optional` **inspectionInstructionsDescriptionCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/inspectionInstructionsDescriptionCode
 
 ***
 
-### instructionsType?
+### instructionsType? {#instructionstype}
 
 > `optional` **instructionsType**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ***
 
-### interpretationCode?
+### interpretationCode? {#interpretationcode}
 
 > `optional` **interpretationCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/interpretationCode
 
 ***
 
-### latestUpdateDateTime?
+### latestUpdateDateTime? {#latestupdatedatetime}
 
 > `optional` **latestUpdateDateTime**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/latestUpdateDateTime
 
 ***
 
-### procedure?
+### procedure? {#procedure}
 
 > `optional` **procedure**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/procedure
 
 ***
 
-### propertyReferenceCode?
+### propertyReferenceCode? {#propertyreferencecode}
 
 > `optional` **propertyReferenceCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/propertyReferenceCode
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 

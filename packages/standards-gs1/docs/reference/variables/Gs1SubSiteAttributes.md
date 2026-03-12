@@ -8,199 +8,199 @@ Section 10.3.2 .
 
 ## Type Declaration
 
-### Electronics
+### Electronics {#electronics}
 
 > `readonly` **Electronics**: `"401"` = `"401"`
 
 Electronics.
 
-### ColdStorage
+### ColdStorage {#coldstorage}
 
 > `readonly` **ColdStorage**: `"402"` = `"402"`
 
 Cold Storage.
 
-### Shelf
+### Shelf {#shelf}
 
 > `readonly` **Shelf**: `"403"` = `"403"`
 
 Shelf.
 
-### Frozen
+### Frozen {#frozen}
 
 > `readonly` **Frozen**: `"404"` = `"404"`
 
 Frozen.
 
-### Fresh
+### Fresh {#fresh}
 
 > `readonly` **Fresh**: `"405"` = `"405"`
 
 Fresh.
 
-### Promotion
+### Promotion {#promotion}
 
 > `readonly` **Promotion**: `"406"` = `"406"`
 
 Promotion.
 
-### EndCap
+### EndCap {#endcap}
 
 > `readonly` **EndCap**: `"407"` = `"407"`
 
 End Cap.
 
-### PointOfSale
+### PointOfSale {#pointofsale}
 
 > `readonly` **PointOfSale**: `"408"` = `"408"`
 
 Point of Sale.
 
-### Security
+### Security {#security}
 
 > `readonly` **Security**: `"409"` = `"409"`
 
 Security.
 
-### GeneralMdse
+### GeneralMdse {#generalmdse}
 
 > `readonly` **GeneralMdse**: `"411"` = `"411"`
 
 General Mdse.
 
-### Grocery
+### Grocery {#grocery}
 
 > `readonly` **Grocery**: `"412"` = `"412"`
 
 Grocery.
 
-### BoxCrusher
+### BoxCrusher {#boxcrusher}
 
 > `readonly` **BoxCrusher**: `"413"` = `"413"`
 
 Box crusher.
 
-### DockDoor
+### DockDoor {#dockdoor}
 
 > `readonly` **DockDoor**: `"414"` = `"414"`
 
 Dock/Door.
 
-### ConveyorBelt
+### ConveyorBelt {#conveyorbelt}
 
 > `readonly` **ConveyorBelt**: `"415"` = `"415"`
 
 Conveyor Belt.
 
-### PalletWrapper
+### PalletWrapper {#palletwrapper}
 
 > `readonly` **PalletWrapper**: `"416"` = `"416"`
 
 Pallet Wrapper.
 
-### FixedReader
+### FixedReader {#fixedreader}
 
 > `readonly` **FixedReader**: `"417"` = `"417"`
 
 Fixed Reader.
 
-### MobileReader
+### MobileReader {#mobilereader}
 
 > `readonly` **MobileReader**: `"418"` = `"418"`
 
 Mobile Reader.
 
-### ShelfStorage
+### ShelfStorage {#shelfstorage}
 
 > `readonly` **ShelfStorage**: `"419"` = `"419"`
 
 Shelf Storage.
 
-### Returns
+### Returns {#returns}
 
 > `readonly` **Returns**: `"420"` = `"420"`
 
 Returns.
 
-### Staging
+### Staging {#staging}
 
 > `readonly` **Staging**: `"421"` = `"421"`
 
 Staging.
 
-### Assembly
+### Assembly {#assembly}
 
 > `readonly` **Assembly**: `"422"` = `"422"`
 
 Assembly.
 
-### LayAway
+### LayAway {#layaway}
 
 > `readonly` **LayAway**: `"423"` = `"423"`
 
 Lay-Away.
 
-### Dispenser
+### Dispenser {#dispenser}
 
 > `readonly` **Dispenser**: `"424"` = `"424"`
 
 Dispenser.
 
-### Quarantine
+### Quarantine {#quarantine}
 
 > `readonly` **Quarantine**: `"425"` = `"425"`
 
 Quarantine.
 
-### ControlledSubstance
+### ControlledSubstance {#controlledsubstance}
 
 > `readonly` **ControlledSubstance**: `"426"` = `"426"`
 
 Controlled Substance.
 
-### RecalledProduct
+### RecalledProduct {#recalledproduct}
 
 > `readonly` **RecalledProduct**: `"427"` = `"427"`
 
 Recalled Product.
 
-### QualityControl
+### QualityControl {#qualitycontrol}
 
 > `readonly` **QualityControl**: `"428"` = `"428"`
 
 Quality Control.
 
-### PrintingRoom
+### PrintingRoom {#printingroom}
 
 > `readonly` **PrintingRoom**: `"429"` = `"429"`
 
 Printing Room.
 
-### LoadingDock
+### LoadingDock {#loadingdock}
 
 > `readonly` **LoadingDock**: `"420"` = `"420"`
 
 Loading Dock.
 
-### EntranceGate
+### EntranceGate {#entrancegate}
 
 > `readonly` **EntranceGate**: `"431"` = `"431"`
 
 Entrance Gate.
 
-### ExitGate
+### ExitGate {#exitgate}
 
 > `readonly` **ExitGate**: `"432"` = `"432"`
 
 Exit Gate.
 
-### Gate
+### Gate {#gate}
 
 > `readonly` **Gate**: `"433"` = `"433"`
 
 Gate.
 
-### ReadPointVerificationSpot
+### ReadPointVerificationSpot {#readpointverificationspot}
 
 > `readonly` **ReadPointVerificationSpot**: `"434"` = `"434"`
 

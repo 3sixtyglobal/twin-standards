@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/WorkItemDimension
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"WorkItemDimension"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### componentDimension?
+### componentDimension? {#componentdimension}
 
 > `optional` **componentDimension**: `IUneceWorkItemDimension`[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/componentDimension
 
 ***
 
-### componentWorkItemDimension?
+### componentWorkItemDimension? {#componentworkitemdimension}
 
 > `optional` **componentWorkItemDimension**: `IUneceWorkItemDimension`[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/componentWorkItemDimension
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### valueMeasure
+### valueMeasure {#valuemeasure}
 
 > **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### workItemDimensionTypeCode
+### workItemDimensionTypeCode {#workitemdimensiontypecode}
 
 > **workItemDimensionTypeCode**: `string`
 

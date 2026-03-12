@@ -12,7 +12,7 @@ http://xmlns.com/foaf/0.1/
 
 ## Properties
 
-### age?
+### age? {#age}
 
 > `optional` **age**: `number`
 
@@ -28,7 +28,7 @@ http://xmlns.com/foaf/spec/#term_age
 
 ***
 
-### made?
+### made? {#made}
 
 > `optional` **made**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
@@ -44,7 +44,7 @@ http://xmlns.com/foaf/spec/#term_made
 
 ***
 
-### weblog?
+### weblog? {#weblog}
 
 > `optional` **weblog**: [`IFoafDocument`](IFoafDocument.md)
 
@@ -60,7 +60,7 @@ http://xmlns.com/foaf/spec/#term_weblog
 
 ***
 
-### openid?
+### openid? {#openid}
 
 > `optional` **openid**: [`IFoafDocument`](IFoafDocument.md)
 
@@ -76,7 +76,7 @@ http://xmlns.com/foaf/spec/#term_openid
 
 ***
 
-### interest?
+### interest? {#interest}
 
 > `optional` **interest**: [`IFoafDocument`](IFoafDocument.md)
 
@@ -92,7 +92,7 @@ http://xmlns.com/foaf/spec/#term_interest
 
 ***
 
-### topic\_interest?
+### topic\_interest? {#topic_interest}
 
 > `optional` **topic\_interest**: `IJsonLdNodeObject`
 
@@ -108,7 +108,7 @@ http://xmlns.com/foaf/spec/#term_topic_interest
 
 ***
 
-### @id?
+### @id? {#id}
 
 > `optional` **@id**: `string`
 
@@ -120,7 +120,7 @@ The unique identifier for the FOAF object.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -136,7 +136,7 @@ http://xmlns.com/foaf/spec/#term_name
 
 ***
 
-### title?
+### title? {#title}
 
 > `optional` **title**: `string`
 
@@ -152,7 +152,7 @@ http://xmlns.com/foaf/spec/#term_title
 
 ***
 
-### mbox?
+### mbox? {#mbox}
 
 > `optional` **mbox**: `string`
 
@@ -168,7 +168,7 @@ http://xmlns.com/foaf/spec/#term_mbox
 
 ***
 
-### homepage?
+### homepage? {#homepage}
 
 > `optional` **homepage**: `string`
 
@@ -184,7 +184,7 @@ http://xmlns.com/foaf/spec/#term_homepage
 
 ***
 
-### depiction?
+### depiction? {#depiction}
 
 > `optional` **depiction**: [`IFoafImage`](IFoafImage.md)
 
@@ -200,7 +200,7 @@ http://xmlns.com/foaf/spec/#term_depiction
 
 ***
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`FoafContextType`](../type-aliases/FoafContextType.md)
 
@@ -212,7 +212,7 @@ The LD Context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"Person"`
 
@@ -224,7 +224,7 @@ Type.
 
 ***
 
-### familyName?
+### familyName? {#familyname}
 
 > `optional` **familyName**: `string`
 
@@ -236,7 +236,7 @@ http://xmlns.com/foaf/spec/#term_familyName
 
 ***
 
-### givenName?
+### givenName? {#givenname}
 
 > `optional` **givenName**: `string`
 
@@ -248,7 +248,7 @@ http://xmlns.com/foaf/spec/#term_givenName
 
 ***
 
-### knows?
+### knows? {#knows}
 
 > `optional` **knows**: `ObjectOrArray`\<[`IFoafAgent`](IFoafAgent.md)\>
 
@@ -260,7 +260,7 @@ http://xmlns.com/foaf/spec/#term_knows
 
 ***
 
-### img?
+### img? {#img}
 
 > `optional` **img**: [`IFoafImage`](IFoafImage.md)
 
@@ -272,7 +272,7 @@ http://xmlns.com/foaf/spec/#term_img
 
 ***
 
-### nick?
+### nick? {#nick}
 
 > `optional` **nick**: `string`
 

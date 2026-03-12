@@ -6,7 +6,7 @@ Values for UneceSpecifiedDeclaration typeCode property.
 
 ## Type Declaration
 
-### ApplicableDeclaration
+### ApplicableDeclaration {#applicabledeclaration}
 
 > `readonly` **ApplicableDeclaration**: `"unece:applicableDeclaration"` = `"unece:applicableDeclaration"`
 

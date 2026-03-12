@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/SensorElement
 
 ## Properties
 
-### sensorMetadata?
+### sensorMetadata? {#sensormetadata}
 
 > `optional` **sensorMetadata**: [`IEpcisSensorMetadata`](IEpcisSensorMetadata.md)
 
@@ -18,7 +18,7 @@ sensorReport entries within this sensorElement.
 
 ***
 
-### sensorReport
+### sensorReport {#sensorreport}
 
 > **sensorReport**: [`IEpcisSensorReport`](IEpcisSensorReport.md)[]
 

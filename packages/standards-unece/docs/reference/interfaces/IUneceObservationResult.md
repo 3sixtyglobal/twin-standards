@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ObservationResult
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ObservationResult"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualObservationEndDateTime?
+### actualObservationEndDateTime? {#actualobservationenddatetime}
 
 > `optional` **actualObservationEndDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualObservationEndDateTime
 
 ***
 
-### actualObservationStartDateTime?
+### actualObservationStartDateTime? {#actualobservationstartdatetime}
 
 > `optional` **actualObservationStartDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualObservationStartDateTime
 
 ***
 
-### applicableMethod?
+### applicableMethod? {#applicablemethod}
 
 > `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ***
 
-### attachedLaboratoryObservationNote?
+### attachedLaboratoryObservationNote? {#attachedlaboratoryobservationnote}
 
 > `optional` **attachedLaboratoryObservationNote**: [`IUneceLaboratoryObservationNote`](IUneceLaboratoryObservationNote.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/attachedLaboratoryObservationNote
 
 ***
 
-### authorizationParty?
+### authorizationParty? {#authorizationparty}
 
 > `optional` **authorizationParty**: [`IUneceLaboratoryObservationParty`](IUneceLaboratoryObservationParty.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/authorizationParty
 
 ***
 
-### emergencyObservationIndicator?
+### emergencyObservationIndicator? {#emergencyobservationindicator}
 
 > `optional` **emergencyObservationIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/emergencyObservationIndicator
 
 ***
 
-### expectedValueSpecifiedObservationResultCharacteristic?
+### expectedValueSpecifiedObservationResultCharacteristic? {#expectedvaluespecifiedobservationresultcharacteristic}
 
 > `optional` **expectedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/expectedValueSpecifiedObservationResultCharacter
 
 ***
 
-### generalCharacteristic?
+### generalCharacteristic? {#generalcharacteristic}
 
 > `optional` **generalCharacteristic**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/generalCharacteristic
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### interpretationResultApplicableParameter?
+### interpretationResultApplicableParameter? {#interpretationresultapplicableparameter}
 
 > `optional` **interpretationResultApplicableParameter**: [`IUneceObservationObjectiveParameter`](IUneceObservationObjectiveParameter.md)[]
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/interpretationResultApplicableParameter
 
 ***
 
-### laboratoryAnalysisRequestSpecifiedReference?
+### laboratoryAnalysisRequestSpecifiedReference? {#laboratoryanalysisrequestspecifiedreference}
 
 > `optional` **laboratoryAnalysisRequestSpecifiedReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/laboratoryAnalysisRequestSpecifiedReference
 
 ***
 
-### materialType?
+### materialType? {#materialtype}
 
 > `optional` **materialType**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/materialType
 
 ***
 
-### materialTypeCode?
+### materialTypeCode? {#materialtypecode}
 
 > `optional` **materialTypeCode**: `string`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/materialTypeCode
 
 ***
 
-### maximumStandardValueSpecifiedObservationResultCharacteristic?
+### maximumStandardValueSpecifiedObservationResultCharacteristic? {#maximumstandardvaluespecifiedobservationresultcharacteristic}
 
 > `optional` **maximumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/maximumStandardValueSpecifiedObservationResultCh
 
 ***
 
-### minimumStandardValueSpecifiedObservationResultCharacteristic?
+### minimumStandardValueSpecifiedObservationResultCharacteristic? {#minimumstandardvaluespecifiedobservationresultcharacteristic}
 
 > `optional` **minimumStandardValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/minimumStandardValueSpecifiedObservationResultCh
 
 ***
 
-### observationDiscontinuationReason?
+### observationDiscontinuationReason? {#observationdiscontinuationreason}
 
 > `optional` **observationDiscontinuationReason**: `string`
 
@@ -220,7 +220,7 @@ https://vocabulary.uncefact.org/observationDiscontinuationReason
 
 ***
 
-### observationDiscontinuationReasonCode?
+### observationDiscontinuationReasonCode? {#observationdiscontinuationreasoncode}
 
 > `optional` **observationDiscontinuationReasonCode**: `string`
 
@@ -232,7 +232,7 @@ https://vocabulary.uncefact.org/observationDiscontinuationReasonCode
 
 ***
 
-### observationTimeFrame?
+### observationTimeFrame? {#observationtimeframe}
 
 > `optional` **observationTimeFrame**: `string`
 
@@ -244,7 +244,7 @@ https://vocabulary.uncefact.org/observationTimeFrame
 
 ***
 
-### observedValueSpecifiedObservationResultCharacteristic?
+### observedValueSpecifiedObservationResultCharacteristic? {#observedvaluespecifiedobservationresultcharacteristic}
 
 > `optional` **observedValueSpecifiedObservationResultCharacteristic**: [`IUneceObservationResultCharacteristic`](IUneceObservationResultCharacteristic.md)[]
 
@@ -257,7 +257,7 @@ https://vocabulary.uncefact.org/observedValueSpecifiedObservationResultCharacter
 
 ***
 
-### outsourcedLaboratoryParty?
+### outsourcedLaboratoryParty? {#outsourcedlaboratoryparty}
 
 > `optional` **outsourcedLaboratoryParty**: [`IUneceLaboratoryObservationParty`](IUneceLaboratoryObservationParty.md)
 
@@ -269,7 +269,7 @@ https://vocabulary.uncefact.org/outsourcedLaboratoryParty
 
 ***
 
-### outsourcedObservationIndicator?
+### outsourcedObservationIndicator? {#outsourcedobservationindicator}
 
 > `optional` **outsourcedObservationIndicator**: `boolean`
 
@@ -281,7 +281,7 @@ https://vocabulary.uncefact.org/outsourcedObservationIndicator
 
 ***
 
-### shareableIndicator?
+### shareableIndicator? {#shareableindicator}
 
 > `optional` **shareableIndicator**: `boolean`
 
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ***
 
-### specifiedLaboratoryObservationInstructions?
+### specifiedLaboratoryObservationInstructions? {#specifiedlaboratoryobservationinstructions}
 
 > `optional` **specifiedLaboratoryObservationInstructions**: [`IUneceLaboratoryObservationInstructions`](IUneceLaboratoryObservationInstructions.md)[]
 
@@ -305,7 +305,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationInstructions
 
 ***
 
-### specifiedLaboratoryObservationReference?
+### specifiedLaboratoryObservationReference? {#specifiedlaboratoryobservationreference}
 
 > `optional` **specifiedLaboratoryObservationReference**: [`IUneceLaboratoryObservationReference`](IUneceLaboratoryObservationReference.md)[]
 
@@ -317,7 +317,7 @@ https://vocabulary.uncefact.org/specifiedLaboratoryObservationReference
 
 ***
 
-### usedMethod?
+### usedMethod? {#usedmethod}
 
 > `optional` **usedMethod**: [`IUneceLaboratoryObservationAnalysisMethod`](IUneceLaboratoryObservationAnalysisMethod.md)[]
 

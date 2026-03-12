@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CustomerClass
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CustomerClass"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### categoryName?
+### categoryName? {#categoryname}
 
 > `optional` **categoryName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryName
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### genderCode?
+### genderCode? {#gendercode}
 
 > `optional` **genderCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/genderCode
 
 ***
 
-### lowerAgeLimitNumeric?
+### lowerAgeLimitNumeric? {#loweragelimitnumeric}
 
 > `optional` **lowerAgeLimitNumeric**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/lowerAgeLimitNumeric
 
 ***
 
-### mealServiceCategoryCode?
+### mealServiceCategoryCode? {#mealservicecategorycode}
 
 > `optional` **mealServiceCategoryCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/mealServiceCategoryCode
 
 ***
 
-### specialBeddingServiceOfferedIndicator?
+### specialBeddingServiceOfferedIndicator? {#specialbeddingserviceofferedindicator}
 
 > `optional` **specialBeddingServiceOfferedIndicator**: `boolean`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/specialBeddingServiceOfferedIndicator
 
 ***
 
-### upperAgeLimitNumeric?
+### upperAgeLimitNumeric? {#upperagelimitnumeric}
 
 > `optional` **upperAgeLimitNumeric**: `string`
 

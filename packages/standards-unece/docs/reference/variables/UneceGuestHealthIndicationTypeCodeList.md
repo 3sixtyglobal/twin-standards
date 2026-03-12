@@ -6,7 +6,7 @@ Values for UneceGuestHealthIndication typeCode property.
 
 ## Type Declaration
 
-### NotifiedHealthIndication
+### NotifiedHealthIndication {#notifiedhealthindication}
 
 > `readonly` **NotifiedHealthIndication**: `"unece:notifiedHealthIndication"` = `"unece:notifiedHealthIndication"`
 

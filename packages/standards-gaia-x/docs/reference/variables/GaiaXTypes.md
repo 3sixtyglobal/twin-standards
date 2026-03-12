@@ -6,79 +6,79 @@ The types concerning Gaia-X.
 
 ## Type Declaration
 
-### DataResource
+### DataResource {#dataresource}
 
 > `readonly` **DataResource**: `"DataResource"` = `"DataResource"`
 
 Data Resource
 
-### ServiceOffering
+### ServiceOffering {#serviceoffering}
 
 > `readonly` **ServiceOffering**: `"ServiceOffering"` = `"ServiceOffering"`
 
 Service Offering Type
 
-### LegalPerson
+### LegalPerson {#legalperson}
 
 > `readonly` **LegalPerson**: `"LegalPerson"` = `"LegalPerson"`
 
 Legal Person
 
-### DataExchangeComponent
+### DataExchangeComponent {#dataexchangecomponent}
 
 > `readonly` **DataExchangeComponent**: `"DataExchangeComponent"` = `"DataExchangeComponent"`
 
 Data Exchange Component
 
-### Address
+### Address {#address}
 
 > `readonly` **Address**: `"Address"` = `"Address"`
 
 Address
 
-### Endpoint
+### Endpoint {#endpoint}
 
 > `readonly` **Endpoint**: `"Endpoint"` = `"Endpoint"`
 
 Endpoint
 
-### RegistrationNumber
+### RegistrationNumber {#registrationnumber}
 
 > `readonly` **RegistrationNumber**: `"RegistrationNumber"` = `"RegistrationNumber"`
 
 Registration number
 
-### LocalRegistrationNumber
+### LocalRegistrationNumber {#localregistrationnumber}
 
 > `readonly` **LocalRegistrationNumber**: `"LocalRegistrationNumber"` = `"LocalRegistrationNumber"`
 
 Local Registration number
 
-### EORI
+### EORI {#eori}
 
 > `readonly` **EORI**: `"EORI"` = `"EORI"`
 
 EORI
 
-### VatID
+### VatID {#vatid}
 
 > `readonly` **VatID**: `"VatID"` = `"VatID"`
 
 VAT ID
 
-### EUID
+### EUID {#euid}
 
 > `readonly` **EUID**: `"EUID"` = `"EUID"`
 
 EU ID
 
-### LeiCode
+### LeiCode {#leicode}
 
 > `readonly` **LeiCode**: `"LeiCode"` = `"LeiCode"`
 
 GLEIF LEI code.
 
-### TaxID
+### TaxID {#taxid}
 
 > `readonly` **TaxID**: `"TaxID"` = `"TaxID"`
 

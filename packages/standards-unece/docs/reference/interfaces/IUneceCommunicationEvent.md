@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CommunicationEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CommunicationEvent"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalFeature?
+### associatedGeographicalFeature? {#associatedgeographicalfeature}
 
 > `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/associatedGeographicalFeature
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime? {#occurrencedatetime}
 
 > `optional` **occurrenceDateTime**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### occurrenceLogisticsLocation?
+### occurrenceLogisticsLocation? {#occurrencelogisticslocation}
 
 > `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ***
 
-### operationalResponsibleParty?
+### operationalResponsibleParty? {#operationalresponsibleparty}
 
 > `optional` **operationalResponsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/operationalResponsibleParty
 
 ***
 
-### reasonCode?
+### reasonCode? {#reasoncode}
 
 > `optional` **reasonCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

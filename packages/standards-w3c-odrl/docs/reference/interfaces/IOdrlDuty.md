@@ -11,7 +11,7 @@ https://www.w3.org/TR/odrl-model/#duty
 
 ## Properties
 
-### attributedParty?
+### attributedParty? {#attributedparty}
 
 > `optional` **attributedParty**: `string`
 
@@ -20,7 +20,7 @@ Used when the duty involves attribution
 
 ***
 
-### trackingParty?
+### trackingParty? {#trackingparty}
 
 > `optional` **trackingParty**: `string`
 
@@ -29,7 +29,7 @@ Used when the duty involves tracking
 
 ***
 
-### consequence?
+### consequence? {#consequence}
 
 > `optional` **consequence**: `IOdrlDuty` \| `IOdrlDuty`[]
 
@@ -39,7 +39,7 @@ properties.
 
 ***
 
-### compensatedParty?
+### compensatedParty? {#compensatedparty}
 
 > `optional` **compensatedParty**: `string`
 
@@ -48,7 +48,7 @@ Used when the duty involves compensation
 
 ***
 
-### uid?
+### uid? {#uid}
 
 > `optional` **uid**: `string`
 
@@ -60,7 +60,7 @@ Optional unique identifier for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
 > `optional` **action**: `string` \| [`IOdrlAction`](IOdrlAction.md) \| (`string` \| [`IOdrlAction`](IOdrlAction.md))[]
 
@@ -72,7 +72,7 @@ The action associated with the rule.
 
 ***
 
-### target?
+### target? {#target}
 
 > `optional` **target**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md))[]
 
@@ -84,7 +84,7 @@ The target asset for the rule.
 
 ***
 
-### assigner?
+### assigner? {#assigner}
 
 > `optional` **assigner**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
@@ -96,7 +96,7 @@ The assigner of the rule.
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
 > `optional` **assignee**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
@@ -108,7 +108,7 @@ The assignee of the rule.
 
 ***
 
-### constraint?
+### constraint? {#constraint}
 
 > `optional` **constraint**: [`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md) \| ([`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md))[]
 
@@ -120,7 +120,7 @@ Constraints applied to the rule.
 
 ***
 
-### summary?
+### summary? {#summary}
 
 > `optional` **summary**: `string`
 

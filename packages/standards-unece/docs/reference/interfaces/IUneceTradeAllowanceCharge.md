@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeAllowanceCharge
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeAllowanceCharge"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualAmount?
+### actualAmount? {#actualamount}
 
 > `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ***
 
-### actualCurrencyExchange?
+### actualCurrencyExchange? {#actualcurrencyexchange}
 
 > `optional` **actualCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualCurrencyExchange
 
 ***
 
-### allowanceChargeIdTypeCode?
+### allowanceChargeIdTypeCode? {#allowancechargeidtypecode}
 
 > `optional` **allowanceChargeIdTypeCode**: [`UneceAllowanceChargeIdCodeList`](../type-aliases/UneceAllowanceChargeIdCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/allowanceChargeIdTypeCode
 
 ***
 
-### allowanceChargeReasonCode?
+### allowanceChargeReasonCode? {#allowancechargereasoncode}
 
 > `optional` **allowanceChargeReasonCode**: [`UneceAllowanceChargeReasonCodeList`](../type-aliases/UneceAllowanceChargeReasonCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/allowanceChargeReasonCode
 
 ***
 
-### appliedDateTime?
+### appliedDateTime? {#applieddatetime}
 
 > `optional` **appliedDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/appliedDateTime
 
 ***
 
-### basisAmount?
+### basisAmount? {#basisamount}
 
 > `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ***
 
-### basisQuantity?
+### basisQuantity? {#basisquantity}
 
 > `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ***
 
-### calculationPercent?
+### calculationPercent? {#calculationpercent}
 
 > `optional` **calculationPercent**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ***
 
-### categoryTradeTax?
+### categoryTradeTax? {#categorytradetax}
 
 > `optional` **categoryTradeTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/categoryTradeTax
 
 ***
 
-### chargeIndicator?
+### chargeIndicator? {#chargeindicator}
 
 > `optional` **chargeIndicator**: `boolean`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/chargeIndicator
 
 ***
 
-### deductionAmount?
+### deductionAmount? {#deductionamount}
 
 > `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/deductionAmount
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### prepaidIndicator?
+### prepaidIndicator? {#prepaidindicator}
 
 > `optional` **prepaidIndicator**: `boolean`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/prepaidIndicator
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### specifiedAccountingAccount?
+### specifiedAccountingAccount? {#specifiedaccountingaccount}
 
 > `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ***
 
-### unitBasisAmount?
+### unitBasisAmount? {#unitbasisamount}
 
 > `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/unitBasisAmount
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 

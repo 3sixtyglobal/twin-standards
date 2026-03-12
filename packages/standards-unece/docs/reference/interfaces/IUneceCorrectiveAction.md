@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CorrectiveAction
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CorrectiveAction"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actionType?
+### actionType? {#actiontype}
 
 > `optional` **actionType**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actionType
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

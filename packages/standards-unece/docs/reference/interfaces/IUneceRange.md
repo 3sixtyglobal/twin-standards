@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Range
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Range"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### endId?
+### endId? {#endid}
 
 > `optional` **endId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/endId
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ***
 
-### startId?
+### startId? {#startid}
 
 > `optional` **startId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/startId
 
 ***
 
-### totalItemQuantity?
+### totalItemQuantity? {#totalitemquantity}
 
 > `optional` **totalItemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/totalItemQuantity
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueBaseSystemCode?
+### valueBaseSystemCode? {#valuebasesystemcode}
 
 > `optional` **valueBaseSystemCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/valueBaseSystemCode
 
 ***
 
-### valueCode?
+### valueCode? {#valuecode}
 
 > `optional` **valueCode**: `string`
 

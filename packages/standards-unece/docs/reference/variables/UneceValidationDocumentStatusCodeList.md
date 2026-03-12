@@ -7,7 +7,7 @@ Deprecated since version D23B.
 
 ## Type Declaration
 
-### ~~Accepted~~
+### ~~Accepted~~ {#accepted}
 
 > `readonly` **Accepted**: `"unece:ValidationDocumentStatusCodeList#1"` = `"unece:ValidationDocumentStatusCodeList#1"`
 
@@ -16,7 +16,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~InError~~
+### ~~InError~~ {#inerror}
 
 > `readonly` **InError**: `"unece:ValidationDocumentStatusCodeList#42"` = `"unece:ValidationDocumentStatusCodeList#42"`
 

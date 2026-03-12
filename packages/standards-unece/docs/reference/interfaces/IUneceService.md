@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Service
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Service"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actualPerformancePeriod?
+### actualPerformancePeriod? {#actualperformanceperiod}
 
 > `optional` **actualPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualPerformancePeriod
 
 ***
 
-### chargeAmount?
+### chargeAmount? {#chargeamount}
 
 > `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ***
 
-### contractId?
+### contractId? {#contractid}
 
 > `optional` **contractId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/contractId
 
 ***
 
-### deliverySpecifiedLocation?
+### deliverySpecifiedLocation? {#deliveryspecifiedlocation}
 
 > `optional` **deliverySpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/deliverySpecifiedLocation
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### effectiveSpecifiedPeriod?
+### effectiveSpecifiedPeriod? {#effectivespecifiedperiod}
 
 > `optional` **effectiveSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
 ***
 
-### estimatedPerformancePeriod?
+### estimatedPerformancePeriod? {#estimatedperformanceperiod}
 
 > `optional` **estimatedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/estimatedPerformancePeriod
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### itemQuantity?
+### itemQuantity? {#itemquantity}
 
 > `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/itemQuantity
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### plannedPerformancePeriod?
+### plannedPerformancePeriod? {#plannedperformanceperiod}
 
 > `optional` **plannedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/plannedPerformancePeriod
 
 ***
 
-### preplannedIndicator?
+### preplannedIndicator? {#preplannedindicator}
 
 > `optional` **preplannedIndicator**: `boolean`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/preplannedIndicator
 
 ***
 
-### reasonCode?
+### reasonCode? {#reasoncode}
 
 > `optional` **reasonCode**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ***
 
-### relatedSpecifiedLocation?
+### relatedSpecifiedLocation? {#relatedspecifiedlocation}
 
 > `optional` **relatedSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/relatedSpecifiedLocation
 
 ***
 
-### requestedPerformancePeriod?
+### requestedPerformancePeriod? {#requestedperformanceperiod}
 
 > `optional` **requestedPerformancePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/requestedPerformancePeriod
 
 ***
 
-### requesterParty?
+### requesterParty? {#requesterparty}
 
 > `optional` **requesterParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/requesterParty
 
 ***
 
-### responsibleParty?
+### responsibleParty? {#responsibleparty}
 
 > `optional` **responsibleParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/responsibleParty
 
 ***
 
-### responsibleTradeParty?
+### responsibleTradeParty? {#responsibletradeparty}
 
 > `optional` **responsibleTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/responsibleTradeParty
 
 ***
 
-### specifiedRoute?
+### specifiedRoute? {#specifiedroute}
 
 > `optional` **specifiedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/specifiedRoute
 
 ***
 
-### transportContractMovementContractMovementTypeCode?
+### transportContractMovementContractMovementTypeCode? {#transportcontractmovementcontractmovementtypecode}
 
 > `optional` **transportContractMovementContractMovementTypeCode**: [`UneceTransportContractMovementCodeList`](../type-aliases/UneceTransportContractMovementCodeList.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/transportContractMovementContractMovementTypeCod
 
 ***
 
-### transportServiceCategoryTypeCode?
+### transportServiceCategoryTypeCode? {#transportservicecategorytypecode}
 
 > `optional` **transportServiceCategoryTypeCode**: `string`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/transportServiceCategoryTypeCode
 
 ***
 
-### transportServiceConditionTypeCode?
+### transportServiceConditionTypeCode? {#transportserviceconditiontypecode}
 
 > `optional` **transportServiceConditionTypeCode**: [`UneceTransportServiceConditionCodeList`](../type-aliases/UneceTransportServiceConditionCodeList.md)[]
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/transportServiceConditionTypeCode
 
 ***
 
-### transportServicePaymentArrangementCode?
+### transportServicePaymentArrangementCode? {#transportservicepaymentarrangementcode}
 
 > `optional` **transportServicePaymentArrangementCode**: [`UneceTransportServicePaymentArrangementCodeList`](../type-aliases/UneceTransportServicePaymentArrangementCodeList.md)
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/transportServicePaymentArrangementCode
 
 ***
 
-### transportServicePriorityCode?
+### transportServicePriorityCode? {#transportserviceprioritycode}
 
 > `optional` **transportServicePriorityCode**: [`UneceTransportServicePriorityCodeList`](../type-aliases/UneceTransportServicePriorityCodeList.md)
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/transportServicePriorityCode
 
 ***
 
-### transportServiceRequirementCode?
+### transportServiceRequirementCode? {#transportservicerequirementcode}
 
 > `optional` **transportServiceRequirementCode**: [`UneceTransportServiceRequirementCodeList`](../type-aliases/UneceTransportServiceRequirementCodeList.md)[]
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/transportServiceRequirementCode
 
 ***
 
-### uRICommunication?
+### uRICommunication? {#uricommunication}
 
 > `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 

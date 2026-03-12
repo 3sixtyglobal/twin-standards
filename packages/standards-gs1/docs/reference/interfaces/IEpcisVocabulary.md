@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/Vocabulary
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -16,7 +16,7 @@ Vocabulary type.
 
 ***
 
-### vocabularyElementList?
+### vocabularyElementList? {#vocabularyelementlist}
 
 > `optional` **vocabularyElementList**: [`IEpcisVocabularyElement`](IEpcisVocabularyElement.md)[]
 

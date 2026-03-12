@@ -15,7 +15,7 @@ Vocabulary https://www.gs1.org/voc .
 
 ## Methods
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

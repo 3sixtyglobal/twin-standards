@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GeographicalObjectCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalObjectCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### descriptionReference?
+### descriptionReference? {#descriptionreference}
 
 > `optional` **descriptionReference**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/descriptionReference
 
 ***
 
-### geometryCollectionIndicator?
+### geometryCollectionIndicator? {#geometrycollectionindicator}
 
 > `optional` **geometryCollectionIndicator**: `boolean`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/geometryCollectionIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### physicalIndicator?
+### physicalIndicator? {#physicalindicator}
 
 > `optional` **physicalIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/physicalIndicator
 
 ***
 
-### relevantGeometryType?
+### relevantGeometryType? {#relevantgeometrytype}
 
 > `optional` **relevantGeometryType**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/relevantGeometryType
 
 ***
 
-### shapeType?
+### shapeType? {#shapetype}
 
 > `optional` **shapeType**: `string`
 

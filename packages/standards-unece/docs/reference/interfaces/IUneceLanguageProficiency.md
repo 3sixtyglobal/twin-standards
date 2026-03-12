@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/LanguageProficiency
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LanguageProficiency"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### languageName?
+### languageName? {#languagename}
 
 > `optional` **languageName**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/languageName
 
 ***
 
-### personalLanguageProficiencyLanguageCode?
+### personalLanguageProficiencyLanguageCode? {#personallanguageproficiencylanguagecode}
 
 > `optional` **personalLanguageProficiencyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageCode
 
 ***
 
-### personalLanguageProficiencyLanguageId?
+### personalLanguageProficiencyLanguageId? {#personallanguageproficiencylanguageid}
 
 > `optional` **personalLanguageProficiencyLanguageId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageId
 
 ***
 
-### readingLevelCode?
+### readingLevelCode? {#readinglevelcode}
 
 > `optional` **readingLevelCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/readingLevelCode
 
 ***
 
-### speakingLevelCode?
+### speakingLevelCode? {#speakinglevelcode}
 
 > `optional` **speakingLevelCode**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/speakingLevelCode
 
 ***
 
-### writingLevelCode?
+### writingLevelCode? {#writinglevelcode}
 
 > `optional` **writingLevelCode**: `string`
 

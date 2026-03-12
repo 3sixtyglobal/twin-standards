@@ -14,7 +14,7 @@ Data Type registration for the Data Space Connector
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -26,7 +26,7 @@ Register the JSON-LD Redirects.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

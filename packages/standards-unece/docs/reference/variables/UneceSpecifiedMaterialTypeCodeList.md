@@ -6,7 +6,7 @@ Values for UneceSpecifiedMaterial typeCode property.
 
 ## Type Declaration
 
-### ApplicableMaterial
+### ApplicableMaterial {#applicablematerial}
 
 > `readonly` **ApplicableMaterial**: `"unece:applicableMaterial"` = `"unece:applicableMaterial"`
 
@@ -18,7 +18,7 @@ Specified material applicable to this product colour.
 
 https://vocabulary.uncefact.org/applicableMaterial
 
-### AppliedMaterial
+### AppliedMaterial {#appliedmaterial}
 
 > `readonly` **AppliedMaterial**: `"unece:appliedMaterial"` = `"unece:appliedMaterial"`
 
@@ -28,7 +28,7 @@ Specified material applied to this agricultural application.
 
 https://vocabulary.uncefact.org/appliedMaterial
 
-### ComponentMaterial
+### ComponentMaterial {#componentmaterial}
 
 > `readonly` **ComponentMaterial**: `"unece:componentMaterial"` = `"unece:componentMaterial"`
 
@@ -41,7 +41,7 @@ Component material for this specified material.
 
 https://vocabulary.uncefact.org/componentMaterial
 
-### IncludedMaterial
+### IncludedMaterial {#includedmaterial}
 
 > `readonly` **IncludedMaterial**: `"unece:includedMaterial"` = `"unece:includedMaterial"`
 
@@ -51,7 +51,7 @@ Material included in this supply chain inventory.
 
 https://vocabulary.uncefact.org/includedMaterial
 
-### InputApplicableMaterial
+### InputApplicableMaterial {#inputapplicablematerial}
 
 > `readonly` **InputApplicableMaterial**: `"unece:inputApplicableMaterial"` = `"unece:inputApplicableMaterial"`
 
@@ -64,7 +64,7 @@ Input material applicable to this specified production device.
 
 https://vocabulary.uncefact.org/inputApplicableMaterial
 
-### OutputApplicableMaterial
+### OutputApplicableMaterial {#outputapplicablematerial}
 
 > `readonly` **OutputApplicableMaterial**: `"unece:outputApplicableMaterial"` = `"unece:outputApplicableMaterial"`
 
@@ -77,7 +77,7 @@ Output material applicable to this specified production device.
 
 https://vocabulary.uncefact.org/outputApplicableMaterial
 
-### RelatedMaterial
+### RelatedMaterial {#relatedmaterial}
 
 > `readonly` **RelatedMaterial**: `"unece:relatedMaterial"` = `"unece:relatedMaterial"`
 
@@ -87,7 +87,7 @@ Material related to this trade party.
 
 https://vocabulary.uncefact.org/relatedMaterial
 
-### SubstituteApplicableMaterial
+### SubstituteApplicableMaterial {#substituteapplicablematerial}
 
 > `readonly` **SubstituteApplicableMaterial**: `"unece:substituteApplicableMaterial"` = `"unece:substituteApplicableMaterial"`
 
@@ -97,7 +97,7 @@ Substitute material applicable for this supply chain trade line item.
 
 https://vocabulary.uncefact.org/substituteApplicableMaterial
 
-### SubstitutedApplicableMaterial
+### SubstitutedApplicableMaterial {#substitutedapplicablematerial}
 
 > `readonly` **SubstitutedApplicableMaterial**: `"unece:substitutedApplicableMaterial"` = `"unece:substitutedApplicableMaterial"`
 
@@ -107,7 +107,7 @@ Substituted material applicable for this supply chain trade line item.
 
 https://vocabulary.uncefact.org/substitutedApplicableMaterial
 
-### UsedMaterial
+### UsedMaterial {#usedmaterial}
 
 > `readonly` **UsedMaterial**: `"unece:usedMaterial"` = `"unece:usedMaterial"`
 

@@ -8,25 +8,25 @@ Source: discriminator `modeOfTransport` used by `transportCall` (v3.1.0).
 
 ## Type Declaration
 
-### VESSEL
+### VESSEL {#vessel}
 
 > `readonly` **VESSEL**: `"VESSEL"` = `"VESSEL"`
 
 Vessel.
 
-### BARGE
+### BARGE {#barge}
 
 > `readonly` **BARGE**: `"BARGE"` = `"BARGE"`
 
 Barge.
 
-### RAIL
+### RAIL {#rail}
 
 > `readonly` **RAIL**: `"RAIL"` = `"RAIL"`
 
 Rail.
 
-### TRUCK
+### TRUCK {#truck}
 
 > `readonly` **TRUCK**: `"TRUCK"` = `"TRUCK"`
 

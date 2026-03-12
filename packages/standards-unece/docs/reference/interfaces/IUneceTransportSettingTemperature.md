@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportSettingTemperature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportSettingTemperature"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### informationInstructions?
+### informationInstructions? {#informationinstructions}
 
 > `optional` **informationInstructions**: [`IUneceTemperatureSettingInstructions`](IUneceTemperatureSettingInstructions.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/informationInstructions
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ***
 
-### temperatureTypeCode?
+### temperatureTypeCode? {#temperaturetypecode}
 
 > `optional` **temperatureTypeCode**: [`UneceTemperatureTypeCodeList`](../type-aliases/UneceTemperatureTypeCodeList.md)
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/temperatureTypeCode
 
 ***
 
-### temperatureUnitValueMeasure?
+### temperatureUnitValueMeasure? {#temperatureunitvaluemeasure}
 
 > `optional` **temperatureUnitValueMeasure**: [`IUneceTemperatureUnitMeasureType`](IUneceTemperatureUnitMeasureType.md)
 

@@ -6,1075 +6,1075 @@ RDF Class for AmountType amount type to define currency codes.
 
 ## Type Declaration
 
-### Dirham
+### Dirham {#dirham}
 
 > `readonly` **Dirham**: `"unece:AmountCurrency#AED"` = `"unece:AmountCurrency#AED"`
 
 Dirham: AED.
 
-### Afghani
+### Afghani {#afghani}
 
 > `readonly` **Afghani**: `"unece:AmountCurrency#AFN"` = `"unece:AmountCurrency#AFN"`
 
 Afghani: AFN.
 
-### Lek
+### Lek {#lek}
 
 > `readonly` **Lek**: `"unece:AmountCurrency#ALL"` = `"unece:AmountCurrency#ALL"`
 
 Lek: ALL.
 
-### Dram
+### Dram {#dram}
 
 > `readonly` **Dram**: `"unece:AmountCurrency#AMD"` = `"unece:AmountCurrency#AMD"`
 
 Dram: AMD.
 
-### NetherlandsAntillianGuilder
+### NetherlandsAntillianGuilder {#netherlandsantillianguilder}
 
 > `readonly` **NetherlandsAntillianGuilder**: `"unece:AmountCurrency#ANG"` = `"unece:AmountCurrency#ANG"`
 
 Netherlands Antillian Guilder: ANG.
 
-### Kwanza
+### Kwanza {#kwanza}
 
 > `readonly` **Kwanza**: `"unece:AmountCurrency#AOA"` = `"unece:AmountCurrency#AOA"`
 
 Kwanza: AOA.
 
-### ArgentinePeso
+### ArgentinePeso {#argentinepeso}
 
 > `readonly` **ArgentinePeso**: `"unece:AmountCurrency#ARS"` = `"unece:AmountCurrency#ARS"`
 
 Argentine Peso: ARS.
 
-### AustralianDollar
+### AustralianDollar {#australiandollar}
 
 > `readonly` **AustralianDollar**: `"unece:AmountCurrency#AUD"` = `"unece:AmountCurrency#AUD"`
 
 Australian Dollar: AUD.
 
-### ArubanFlorin
+### ArubanFlorin {#arubanflorin}
 
 > `readonly` **ArubanFlorin**: `"unece:AmountCurrency#AWG"` = `"unece:AmountCurrency#AWG"`
 
 Aruban Florin: AWG.
 
-### AzerbaijanManat
+### AzerbaijanManat {#azerbaijanmanat}
 
 > `readonly` **AzerbaijanManat**: `"unece:AmountCurrency#AZN"` = `"unece:AmountCurrency#AZN"`
 
 Azerbaijan Manat: AZN.
 
-### ConvertibleMark
+### ConvertibleMark {#convertiblemark}
 
 > `readonly` **ConvertibleMark**: `"unece:AmountCurrency#BAM"` = `"unece:AmountCurrency#BAM"`
 
 Convertible Mark: BAM.
 
-### BarbadosDollar
+### BarbadosDollar {#barbadosdollar}
 
 > `readonly` **BarbadosDollar**: `"unece:AmountCurrency#BBD"` = `"unece:AmountCurrency#BBD"`
 
 Barbados Dollar: BBD.
 
-### Taka
+### Taka {#taka}
 
 > `readonly` **Taka**: `"unece:AmountCurrency#BDT"` = `"unece:AmountCurrency#BDT"`
 
 Taka: BDT.
 
-### BulgarianLev
+### BulgarianLev {#bulgarianlev}
 
 > `readonly` **BulgarianLev**: `"unece:AmountCurrency#BGN"` = `"unece:AmountCurrency#BGN"`
 
 Bulgarian Lev: BGN.
 
-### BahrainiDinar
+### BahrainiDinar {#bahrainidinar}
 
 > `readonly` **BahrainiDinar**: `"unece:AmountCurrency#BHD"` = `"unece:AmountCurrency#BHD"`
 
 Bahraini Dinar: BHD.
 
-### BurundiFranc
+### BurundiFranc {#burundifranc}
 
 > `readonly` **BurundiFranc**: `"unece:AmountCurrency#BIF"` = `"unece:AmountCurrency#BIF"`
 
 Burundi Franc: BIF.
 
-### BermudianDollar
+### BermudianDollar {#bermudiandollar}
 
 > `readonly` **BermudianDollar**: `"unece:AmountCurrency#BMD"` = `"unece:AmountCurrency#BMD"`
 
 Bermudian Dollar (customarily: Bermuda Dollar): BMD.
 
-### BruneiDollar
+### BruneiDollar {#bruneidollar}
 
 > `readonly` **BruneiDollar**: `"unece:AmountCurrency#BND"` = `"unece:AmountCurrency#BND"`
 
 Brunei Dollar: BND.
 
-### Boliviano
+### Boliviano {#boliviano}
 
 > `readonly` **Boliviano**: `"unece:AmountCurrency#BOB"` = `"unece:AmountCurrency#BOB"`
 
 Boliviano: BOB.
 
-### Mvdol
+### Mvdol {#mvdol}
 
 > `readonly` **Mvdol**: `"unece:AmountCurrency#BOV"` = `"unece:AmountCurrency#BOV"`
 
 Mvdol: BOV.
 
-### BrazilianReal
+### BrazilianReal {#brazilianreal}
 
 > `readonly` **BrazilianReal**: `"unece:AmountCurrency#BRL"` = `"unece:AmountCurrency#BRL"`
 
 Brazilian Real: BRL.
 
-### BahamianDollar
+### BahamianDollar {#bahamiandollar}
 
 > `readonly` **BahamianDollar**: `"unece:AmountCurrency#BSD"` = `"unece:AmountCurrency#BSD"`
 
 Bahamian Dollar: BSD.
 
-### Ngultrum
+### Ngultrum {#ngultrum}
 
 > `readonly` **Ngultrum**: `"unece:AmountCurrency#BTN"` = `"unece:AmountCurrency#BTN"`
 
 Ngultrum: BTN.
 
-### Pula
+### Pula {#pula}
 
 > `readonly` **Pula**: `"unece:AmountCurrency#BWP"` = `"unece:AmountCurrency#BWP"`
 
 Pula: BWP.
 
-### BelarussianRuble
+### BelarussianRuble {#belarussianruble}
 
 > `readonly` **BelarussianRuble**: `"unece:AmountCurrency#BYN"` = `"unece:AmountCurrency#BYN"`
 
 Belarussian Ruble: BYN.
 
-### BelizeDollar
+### BelizeDollar {#belizedollar}
 
 > `readonly` **BelizeDollar**: `"unece:AmountCurrency#BZD"` = `"unece:AmountCurrency#BZD"`
 
 Belize Dollar: BZD.
 
-### CanadianDollar
+### CanadianDollar {#canadiandollar}
 
 > `readonly` **CanadianDollar**: `"unece:AmountCurrency#CAD"` = `"unece:AmountCurrency#CAD"`
 
 Canadian Dollar: CAD.
 
-### FrancCongolais
+### FrancCongolais {#franccongolais}
 
 > `readonly` **FrancCongolais**: `"unece:AmountCurrency#CDF"` = `"unece:AmountCurrency#CDF"`
 
 Franc Congolais: CDF.
 
-### WIREuro
+### WIREuro {#wireuro}
 
 > `readonly` **WIREuro**: `"unece:AmountCurrency#CHE"` = `"unece:AmountCurrency#CHE"`
 
 WIR Euro: CHE.
 
-### SwissFranc
+### SwissFranc {#swissfranc}
 
 > `readonly` **SwissFranc**: `"unece:AmountCurrency#CHF"` = `"unece:AmountCurrency#CHF"`
 
 Swiss Franc: CHF.
 
-### WIRFranc
+### WIRFranc {#wirfranc}
 
 > `readonly` **WIRFranc**: `"unece:AmountCurrency#CHW"` = `"unece:AmountCurrency#CHW"`
 
 WIR Franc: CHW.
 
-### UnidadDeFomento
+### UnidadDeFomento {#unidaddefomento}
 
 > `readonly` **UnidadDeFomento**: `"unece:AmountCurrency#CLF"` = `"unece:AmountCurrency#CLF"`
 
 Unidad de Fomento: CLF.
 
-### ChileanPeso
+### ChileanPeso {#chileanpeso}
 
 > `readonly` **ChileanPeso**: `"unece:AmountCurrency#CLP"` = `"unece:AmountCurrency#CLP"`
 
 Chilean Peso: CLP.
 
-### YuanRenminbi
+### YuanRenminbi {#yuanrenminbi}
 
 > `readonly` **YuanRenminbi**: `"unece:AmountCurrency#CNY"` = `"unece:AmountCurrency#CNY"`
 
 Yuan Renminbi: CNY.
 
-### ColombianPeso
+### ColombianPeso {#colombianpeso}
 
 > `readonly` **ColombianPeso**: `"unece:AmountCurrency#COP"` = `"unece:AmountCurrency#COP"`
 
 Colombian Peso: COP.
 
-### UnidadDeValorReal
+### UnidadDeValorReal {#unidaddevalorreal}
 
 > `readonly` **UnidadDeValorReal**: `"unece:AmountCurrency#COU"` = `"unece:AmountCurrency#COU"`
 
 Unidad de Valor Real: COU.
 
-### CostaRicanColon
+### CostaRicanColon {#costaricancolon}
 
 > `readonly` **CostaRicanColon**: `"unece:AmountCurrency#CRC"` = `"unece:AmountCurrency#CRC"`
 
 Costa Rican Colon: CRC.
 
-### PesoConvertible
+### PesoConvertible {#pesoconvertible}
 
 > `readonly` **PesoConvertible**: `"unece:AmountCurrency#CUC"` = `"unece:AmountCurrency#CUC"`
 
 Peso Convertible: CUC.
 
-### CubanPeso
+### CubanPeso {#cubanpeso}
 
 > `readonly` **CubanPeso**: `"unece:AmountCurrency#CUP"` = `"unece:AmountCurrency#CUP"`
 
 Cuban Peso: CUP.
 
-### CaboVerdeEscudo
+### CaboVerdeEscudo {#caboverdeescudo}
 
 > `readonly` **CaboVerdeEscudo**: `"unece:AmountCurrency#CVE"` = `"unece:AmountCurrency#CVE"`
 
 Cabo Verde Escudo: CVE.
 
-### CzechKoruna
+### CzechKoruna {#czechkoruna}
 
 > `readonly` **CzechKoruna**: `"unece:AmountCurrency#CZK"` = `"unece:AmountCurrency#CZK"`
 
 Czech Koruna: CZK.
 
-### DjiboutiFranc
+### DjiboutiFranc {#djiboutifranc}
 
 > `readonly` **DjiboutiFranc**: `"unece:AmountCurrency#DJF"` = `"unece:AmountCurrency#DJF"`
 
 Djibouti Franc: DJF.
 
-### DanishKrone
+### DanishKrone {#danishkrone}
 
 > `readonly` **DanishKrone**: `"unece:AmountCurrency#DKK"` = `"unece:AmountCurrency#DKK"`
 
 Danish Krone: DKK.
 
-### DominicanPeso
+### DominicanPeso {#dominicanpeso}
 
 > `readonly` **DominicanPeso**: `"unece:AmountCurrency#DOP"` = `"unece:AmountCurrency#DOP"`
 
 Dominican Peso: DOP.
 
-### AlgerianDinar
+### AlgerianDinar {#algeriandinar}
 
 > `readonly` **AlgerianDinar**: `"unece:AmountCurrency#DZD"` = `"unece:AmountCurrency#DZD"`
 
 Algerian Dinar: DZD.
 
-### EgyptianPound
+### EgyptianPound {#egyptianpound}
 
 > `readonly` **EgyptianPound**: `"unece:AmountCurrency#EGP"` = `"unece:AmountCurrency#EGP"`
 
 Egyptian Pound: EGP.
 
-### Nakfa
+### Nakfa {#nakfa}
 
 > `readonly` **Nakfa**: `"unece:AmountCurrency#ERN"` = `"unece:AmountCurrency#ERN"`
 
 Nakfa: ERN.
 
-### EthopianBirr
+### EthopianBirr {#ethopianbirr}
 
 > `readonly` **EthopianBirr**: `"unece:AmountCurrency#ETB"` = `"unece:AmountCurrency#ETB"`
 
 Ethopian Birr: ETB.
 
-### Euro
+### Euro {#euro}
 
 > `readonly` **Euro**: `"unece:AmountCurrency#EUR"` = `"unece:AmountCurrency#EUR"`
 
 Euro: EUR.
 
-### FijiDollar
+### FijiDollar {#fijidollar}
 
 > `readonly` **FijiDollar**: `"unece:AmountCurrency#FJD"` = `"unece:AmountCurrency#FJD"`
 
 Fiji Dollar: FJD.
 
-### FalklandIslandsPound
+### FalklandIslandsPound {#falklandislandspound}
 
 > `readonly` **FalklandIslandsPound**: `"unece:AmountCurrency#FKP"` = `"unece:AmountCurrency#FKP"`
 
 Falkland Islands Pound: FKP.
 
-### PoundSterling
+### PoundSterling {#poundsterling}
 
 > `readonly` **PoundSterling**: `"unece:AmountCurrency#GBP"` = `"unece:AmountCurrency#GBP"`
 
 Pound Sterling: GBP.
 
-### Lari
+### Lari {#lari}
 
 > `readonly` **Lari**: `"unece:AmountCurrency#GEL"` = `"unece:AmountCurrency#GEL"`
 
 Lari: GEL.
 
-### GhanaCedi
+### GhanaCedi {#ghanacedi}
 
 > `readonly` **GhanaCedi**: `"unece:AmountCurrency#GHS"` = `"unece:AmountCurrency#GHS"`
 
 Ghana Cedi: GHS.
 
-### GibraltarPound
+### GibraltarPound {#gibraltarpound}
 
 > `readonly` **GibraltarPound**: `"unece:AmountCurrency#GIP"` = `"unece:AmountCurrency#GIP"`
 
 Gibraltar Pound: GIP.
 
-### Dalasi
+### Dalasi {#dalasi}
 
 > `readonly` **Dalasi**: `"unece:AmountCurrency#GMD"` = `"unece:AmountCurrency#GMD"`
 
 Dalasi: GMD.
 
-### GuineanFranc
+### GuineanFranc {#guineanfranc}
 
 > `readonly` **GuineanFranc**: `"unece:AmountCurrency#GNF"` = `"unece:AmountCurrency#GNF"`
 
 Guinean Franc: GNF.
 
-### Quetzal
+### Quetzal {#quetzal}
 
 > `readonly` **Quetzal**: `"unece:AmountCurrency#GTQ"` = `"unece:AmountCurrency#GTQ"`
 
 Quetzal: GTQ.
 
-### GuyanaDollar
+### GuyanaDollar {#guyanadollar}
 
 > `readonly` **GuyanaDollar**: `"unece:AmountCurrency#GYD"` = `"unece:AmountCurrency#GYD"`
 
 Guyana Dollar: GYD.
 
-### HonkKongDollar
+### HonkKongDollar {#honkkongdollar}
 
 > `readonly` **HonkKongDollar**: `"unece:AmountCurrency#HKD"` = `"unece:AmountCurrency#HKD"`
 
 Honk Kong Dollar: HKD.
 
-### Lempira
+### Lempira {#lempira}
 
 > `readonly` **Lempira**: `"unece:AmountCurrency#HNL"` = `"unece:AmountCurrency#HNL"`
 
 Lempira: HNL.
 
-### Gourde
+### Gourde {#gourde}
 
 > `readonly` **Gourde**: `"unece:AmountCurrency#HTG"` = `"unece:AmountCurrency#HTG"`
 
 Gourde: HTG.
 
-### Forint
+### Forint {#forint}
 
 > `readonly` **Forint**: `"unece:AmountCurrency#HUF"` = `"unece:AmountCurrency#HUF"`
 
 Forint: HUF.
 
-### Rupiah
+### Rupiah {#rupiah}
 
 > `readonly` **Rupiah**: `"unece:AmountCurrency#IDR"` = `"unece:AmountCurrency#IDR"`
 
 Rupiah: IDR.
 
-### NewIsraeliSheqel
+### NewIsraeliSheqel {#newisraelisheqel}
 
 > `readonly` **NewIsraeliSheqel**: `"unece:AmountCurrency#ILS"` = `"unece:AmountCurrency#ILS"`
 
 New Israeli Sheqel: ILS.
 
-### IndianRupee
+### IndianRupee {#indianrupee}
 
 > `readonly` **IndianRupee**: `"unece:AmountCurrency#INR"` = `"unece:AmountCurrency#INR"`
 
 Indian Rupee: INR.
 
-### IraqiDinar
+### IraqiDinar {#iraqidinar}
 
 > `readonly` **IraqiDinar**: `"unece:AmountCurrency#IQD"` = `"unece:AmountCurrency#IQD"`
 
 Iraqi Dinar: IQD.
 
-### IranianRial
+### IranianRial {#iranianrial}
 
 > `readonly` **IranianRial**: `"unece:AmountCurrency#IRR"` = `"unece:AmountCurrency#IRR"`
 
 Iranian Rial: IRR.
 
-### IcelandKrona
+### IcelandKrona {#icelandkrona}
 
 > `readonly` **IcelandKrona**: `"unece:AmountCurrency#ISK"` = `"unece:AmountCurrency#ISK"`
 
 Iceland Krona: ISK.
 
-### JamaicanDollar
+### JamaicanDollar {#jamaicandollar}
 
 > `readonly` **JamaicanDollar**: `"unece:AmountCurrency#JMD"` = `"unece:AmountCurrency#JMD"`
 
 Jamaican Dollar: JMD.
 
-### JordanianDinar
+### JordanianDinar {#jordaniandinar}
 
 > `readonly` **JordanianDinar**: `"unece:AmountCurrency#JOD"` = `"unece:AmountCurrency#JOD"`
 
 Jordanian Dinar: JOD.
 
-### Yen
+### Yen {#yen}
 
 > `readonly` **Yen**: `"unece:AmountCurrency#JPY"` = `"unece:AmountCurrency#JPY"`
 
 Yen: JPY.
 
-### KenyanShilling
+### KenyanShilling {#kenyanshilling}
 
 > `readonly` **KenyanShilling**: `"unece:AmountCurrency#KES"` = `"unece:AmountCurrency#KES"`
 
 Kenyan Shilling: KES.
 
-### Som
+### Som {#som}
 
 > `readonly` **Som**: `"unece:AmountCurrency#KGS"` = `"unece:AmountCurrency#KGS"`
 
 Som: KGS.
 
-### Riel
+### Riel {#riel}
 
 > `readonly` **Riel**: `"unece:AmountCurrency#KHR"` = `"unece:AmountCurrency#KHR"`
 
 Riel: KHR.
 
-### ComorianFranc
+### ComorianFranc {#comorianfranc}
 
 > `readonly` **ComorianFranc**: `"unece:AmountCurrency#KMF"` = `"unece:AmountCurrency#KMF"`
 
 Comorian Franc: KMF.
 
-### NorthKoreanWon
+### NorthKoreanWon {#northkoreanwon}
 
 > `readonly` **NorthKoreanWon**: `"unece:AmountCurrency#KPW"` = `"unece:AmountCurrency#KPW"`
 
 North Korean Won: KPW.
 
-### Won
+### Won {#won}
 
 > `readonly` **Won**: `"unece:AmountCurrency#KRW"` = `"unece:AmountCurrency#KRW"`
 
 Won: KRW.
 
-### KuwaitiDinar
+### KuwaitiDinar {#kuwaitidinar}
 
 > `readonly` **KuwaitiDinar**: `"unece:AmountCurrency#KWD"` = `"unece:AmountCurrency#KWD"`
 
 Kuwaiti Dinar: KWD.
 
-### CaymanIslandsDollar
+### CaymanIslandsDollar {#caymanislandsdollar}
 
 > `readonly` **CaymanIslandsDollar**: `"unece:AmountCurrency#KYD"` = `"unece:AmountCurrency#KYD"`
 
 Cayman Islands Dollar: KYD.
 
-### Tenge
+### Tenge {#tenge}
 
 > `readonly` **Tenge**: `"unece:AmountCurrency#KZT"` = `"unece:AmountCurrency#KZT"`
 
 Tenge: KZT.
 
-### LaoKip
+### LaoKip {#laokip}
 
 > `readonly` **LaoKip**: `"unece:AmountCurrency#LAK"` = `"unece:AmountCurrency#LAK"`
 
 Lao Kip: LAK.
 
-### LebanesePound
+### LebanesePound {#lebanesepound}
 
 > `readonly` **LebanesePound**: `"unece:AmountCurrency#LBP"` = `"unece:AmountCurrency#LBP"`
 
 Lebanese Pound: LBP.
 
-### SriLankaRupee
+### SriLankaRupee {#srilankarupee}
 
 > `readonly` **SriLankaRupee**: `"unece:AmountCurrency#LKR"` = `"unece:AmountCurrency#LKR"`
 
 Sri Lanka Rupee: LKR.
 
-### LiberianDollar
+### LiberianDollar {#liberiandollar}
 
 > `readonly` **LiberianDollar**: `"unece:AmountCurrency#LRD"` = `"unece:AmountCurrency#LRD"`
 
 Liberian Dollar: LRD.
 
-### Loti
+### Loti {#loti}
 
 > `readonly` **Loti**: `"unece:AmountCurrency#LSL"` = `"unece:AmountCurrency#LSL"`
 
 Loti: LSL.
 
-### LibyanDinar
+### LibyanDinar {#libyandinar}
 
 > `readonly` **LibyanDinar**: `"unece:AmountCurrency#LYD"` = `"unece:AmountCurrency#LYD"`
 
 Libyan Dinar: LYD.
 
-### MorrocanDirham
+### MorrocanDirham {#morrocandirham}
 
 > `readonly` **MorrocanDirham**: `"unece:AmountCurrency#MAD"` = `"unece:AmountCurrency#MAD"`
 
 Morrocan Dirham: MAD.
 
-### MoldovanLeu
+### MoldovanLeu {#moldovanleu}
 
 > `readonly` **MoldovanLeu**: `"unece:AmountCurrency#MDL"` = `"unece:AmountCurrency#MDL"`
 
 Moldovan Leu: MDL.
 
-### Ariary
+### Ariary {#ariary}
 
 > `readonly` **Ariary**: `"unece:AmountCurrency#MGA"` = `"unece:AmountCurrency#MGA"`
 
 Ariary: MGA.
 
-### Denar
+### Denar {#denar}
 
 > `readonly` **Denar**: `"unece:AmountCurrency#MKD"` = `"unece:AmountCurrency#MKD"`
 
 Denar: MKD.
 
-### Kyat
+### Kyat {#kyat}
 
 > `readonly` **Kyat**: `"unece:AmountCurrency#MMK"` = `"unece:AmountCurrency#MMK"`
 
 Kyat: MMK.
 
-### Tugrik
+### Tugrik {#tugrik}
 
 > `readonly` **Tugrik**: `"unece:AmountCurrency#MNT"` = `"unece:AmountCurrency#MNT"`
 
 Tugrik: MNT.
 
-### Pataca
+### Pataca {#pataca}
 
 > `readonly` **Pataca**: `"unece:AmountCurrency#MOP"` = `"unece:AmountCurrency#MOP"`
 
 Pataca: MOP.
 
-### Ouguiya
+### Ouguiya {#ouguiya}
 
 > `readonly` **Ouguiya**: `"unece:AmountCurrency#MRU"` = `"unece:AmountCurrency#MRU"`
 
 Ouguiya: MRU.
 
-### MauritiusRupee
+### MauritiusRupee {#mauritiusrupee}
 
 > `readonly` **MauritiusRupee**: `"unece:AmountCurrency#MUR"` = `"unece:AmountCurrency#MUR"`
 
 Mauritius Rupee: MUR.
 
-### Rufiyaa
+### Rufiyaa {#rufiyaa}
 
 > `readonly` **Rufiyaa**: `"unece:AmountCurrency#MVR"` = `"unece:AmountCurrency#MVR"`
 
 Rufiyaa: MVR.
 
-### MalawiKwacha
+### MalawiKwacha {#malawikwacha}
 
 > `readonly` **MalawiKwacha**: `"unece:AmountCurrency#MWK"` = `"unece:AmountCurrency#MWK"`
 
 Malawi Kwacha: MWK.
 
-### MexicanPeso
+### MexicanPeso {#mexicanpeso}
 
 > `readonly` **MexicanPeso**: `"unece:AmountCurrency#MXN"` = `"unece:AmountCurrency#MXN"`
 
 Mexican Peso: MXN.
 
-### MexicanUnidadDeInversion
+### MexicanUnidadDeInversion {#mexicanunidaddeinversion}
 
 > `readonly` **MexicanUnidadDeInversion**: `"unece:AmountCurrency#MXV"` = `"unece:AmountCurrency#MXV"`
 
 Mexican Unidad de Inversion (UDI): MXV.
 
-### MalaysianRinggit
+### MalaysianRinggit {#malaysianringgit}
 
 > `readonly` **MalaysianRinggit**: `"unece:AmountCurrency#MYR"` = `"unece:AmountCurrency#MYR"`
 
 Malaysian Ringgit: MYR.
 
-### MozambiqueMetical
+### MozambiqueMetical {#mozambiquemetical}
 
 > `readonly` **MozambiqueMetical**: `"unece:AmountCurrency#MZN"` = `"unece:AmountCurrency#MZN"`
 
 Mozambique Metical: MZN.
 
-### NamibiaDollar
+### NamibiaDollar {#namibiadollar}
 
 > `readonly` **NamibiaDollar**: `"unece:AmountCurrency#NAD"` = `"unece:AmountCurrency#NAD"`
 
 Namibia Dollar: NAD.
 
-### Naira
+### Naira {#naira}
 
 > `readonly` **Naira**: `"unece:AmountCurrency#NGN"` = `"unece:AmountCurrency#NGN"`
 
 Naira: NGN.
 
-### CordobaOro
+### CordobaOro {#cordobaoro}
 
 > `readonly` **CordobaOro**: `"unece:AmountCurrency#NIO"` = `"unece:AmountCurrency#NIO"`
 
 Cordoba Oro: NIO.
 
-### NorwegianKrone
+### NorwegianKrone {#norwegiankrone}
 
 > `readonly` **NorwegianKrone**: `"unece:AmountCurrency#NOK"` = `"unece:AmountCurrency#NOK"`
 
 Norwegian Krone: NOK.
 
-### NepaleseRupee
+### NepaleseRupee {#nepaleserupee}
 
 > `readonly` **NepaleseRupee**: `"unece:AmountCurrency#NPR"` = `"unece:AmountCurrency#NPR"`
 
 Nepalese Rupee: NPR.
 
-### NewZealandDollar
+### NewZealandDollar {#newzealanddollar}
 
 > `readonly` **NewZealandDollar**: `"unece:AmountCurrency#NZD"` = `"unece:AmountCurrency#NZD"`
 
 New Zealand Dollar: NZD.
 
-### RialOmani
+### RialOmani {#rialomani}
 
 > `readonly` **RialOmani**: `"unece:AmountCurrency#OMR"` = `"unece:AmountCurrency#OMR"`
 
 Rial Omani: OMR.
 
-### Balboa
+### Balboa {#balboa}
 
 > `readonly` **Balboa**: `"unece:AmountCurrency#PAB"` = `"unece:AmountCurrency#PAB"`
 
 Balboa: PAB.
 
-### Sol
+### Sol {#sol}
 
 > `readonly` **Sol**: `"unece:AmountCurrency#PEN"` = `"unece:AmountCurrency#PEN"`
 
 Sol: PEN.
 
-### Kina
+### Kina {#kina}
 
 > `readonly` **Kina**: `"unece:AmountCurrency#PGK"` = `"unece:AmountCurrency#PGK"`
 
 Kina: PGK.
 
-### PhilippinePiso
+### PhilippinePiso {#philippinepiso}
 
 > `readonly` **PhilippinePiso**: `"unece:AmountCurrency#PHP"` = `"unece:AmountCurrency#PHP"`
 
 Philippine Piso: PHP.
 
-### PakistanRupee
+### PakistanRupee {#pakistanrupee}
 
 > `readonly` **PakistanRupee**: `"unece:AmountCurrency#PKR"` = `"unece:AmountCurrency#PKR"`
 
 Pakistan Rupee: PKR.
 
-### Zloty
+### Zloty {#zloty}
 
 > `readonly` **Zloty**: `"unece:AmountCurrency#PLN"` = `"unece:AmountCurrency#PLN"`
 
 Zloty: PLN.
 
-### Guarani
+### Guarani {#guarani}
 
 > `readonly` **Guarani**: `"unece:AmountCurrency#PYG"` = `"unece:AmountCurrency#PYG"`
 
 Guarani: PYG.
 
-### QatariRial
+### QatariRial {#qataririal}
 
 > `readonly` **QatariRial**: `"unece:AmountCurrency#QAR"` = `"unece:AmountCurrency#QAR"`
 
 Qatari Rial: QAR.
 
-### RomanianLeu
+### RomanianLeu {#romanianleu}
 
 > `readonly` **RomanianLeu**: `"unece:AmountCurrency#RON"` = `"unece:AmountCurrency#RON"`
 
 Romanian Leu: RON.
 
-### SerbianDinar
+### SerbianDinar {#serbiandinar}
 
 > `readonly` **SerbianDinar**: `"unece:AmountCurrency#RSD"` = `"unece:AmountCurrency#RSD"`
 
 Serbian Dinar: RSD.
 
-### RussianRuble
+### RussianRuble {#russianruble}
 
 > `readonly` **RussianRuble**: `"unece:AmountCurrency#RUB"` = `"unece:AmountCurrency#RUB"`
 
 Russian Ruble: RUB.
 
-### RwandaFranc
+### RwandaFranc {#rwandafranc}
 
 > `readonly` **RwandaFranc**: `"unece:AmountCurrency#RWF"` = `"unece:AmountCurrency#RWF"`
 
 Rwanda Franc: RWF.
 
-### SaudiRiyal
+### SaudiRiyal {#saudiriyal}
 
 > `readonly` **SaudiRiyal**: `"unece:AmountCurrency#SAR"` = `"unece:AmountCurrency#SAR"`
 
 Saudi Riyal: SAR.
 
-### SolomonIslandsDollar
+### SolomonIslandsDollar {#solomonislandsdollar}
 
 > `readonly` **SolomonIslandsDollar**: `"unece:AmountCurrency#SBD"` = `"unece:AmountCurrency#SBD"`
 
 Solomon Islands Dollar: SBD.
 
-### SeychellesRupee
+### SeychellesRupee {#seychellesrupee}
 
 > `readonly` **SeychellesRupee**: `"unece:AmountCurrency#SCR"` = `"unece:AmountCurrency#SCR"`
 
 Seychelles Rupee: SCR.
 
-### SudanesePound
+### SudanesePound {#sudanesepound}
 
 > `readonly` **SudanesePound**: `"unece:AmountCurrency#SDG"` = `"unece:AmountCurrency#SDG"`
 
 Sudanese Pound: SDG.
 
-### SwedishKrona
+### SwedishKrona {#swedishkrona}
 
 > `readonly` **SwedishKrona**: `"unece:AmountCurrency#SEK"` = `"unece:AmountCurrency#SEK"`
 
 Swedish Krona: SEK.
 
-### SingaporeDollar
+### SingaporeDollar {#singaporedollar}
 
 > `readonly` **SingaporeDollar**: `"unece:AmountCurrency#SGD"` = `"unece:AmountCurrency#SGD"`
 
 Singapore Dollar: SGD.
 
-### StHelenaPound
+### StHelenaPound {#sthelenapound}
 
 > `readonly` **StHelenaPound**: `"unece:AmountCurrency#SHP"` = `"unece:AmountCurrency#SHP"`
 
 St. Helena Pound: SHP.
 
-### Leone
+### Leone {#leone}
 
 > `readonly` **Leone**: `"unece:AmountCurrency#SLE"` = `"unece:AmountCurrency#SLE"`
 
 Leone: SLE.
 
-### SomaliShilling
+### SomaliShilling {#somalishilling}
 
 > `readonly` **SomaliShilling**: `"unece:AmountCurrency#SOS"` = `"unece:AmountCurrency#SOS"`
 
 Somali Shilling: SOS.
 
-### SurinameDollar
+### SurinameDollar {#surinamedollar}
 
 > `readonly` **SurinameDollar**: `"unece:AmountCurrency#SRD"` = `"unece:AmountCurrency#SRD"`
 
 Suriname Dollar: SRD.
 
-### SouthSudanesePound
+### SouthSudanesePound {#southsudanesepound}
 
 > `readonly` **SouthSudanesePound**: `"unece:AmountCurrency#SSP"` = `"unece:AmountCurrency#SSP"`
 
 South Sudanese Pound: SSP.
 
-### Dobra
+### Dobra {#dobra}
 
 > `readonly` **Dobra**: `"unece:AmountCurrency#STN"` = `"unece:AmountCurrency#STN"`
 
 Dobra: STN.
 
-### ElSalvadorColon
+### ElSalvadorColon {#elsalvadorcolon}
 
 > `readonly` **ElSalvadorColon**: `"unece:AmountCurrency#SVC"` = `"unece:AmountCurrency#SVC"`
 
 El Salvador Colon: SVC.
 
-### SyrianPound
+### SyrianPound {#syrianpound}
 
 > `readonly` **SyrianPound**: `"unece:AmountCurrency#SYP"` = `"unece:AmountCurrency#SYP"`
 
 Syrian Pound: SYP.
 
-### Lilangeni
+### Lilangeni {#lilangeni}
 
 > `readonly` **Lilangeni**: `"unece:AmountCurrency#SZL"` = `"unece:AmountCurrency#SZL"`
 
 Lilangeni: SZL.
 
-### Baht
+### Baht {#baht}
 
 > `readonly` **Baht**: `"unece:AmountCurrency#THB"` = `"unece:AmountCurrency#THB"`
 
 Baht: THB.
 
-### Somoni
+### Somoni {#somoni}
 
 > `readonly` **Somoni**: `"unece:AmountCurrency#TJS"` = `"unece:AmountCurrency#TJS"`
 
 Somoni: TJS.
 
-### TurkmenistanNewManat
+### TurkmenistanNewManat {#turkmenistannewmanat}
 
 > `readonly` **TurkmenistanNewManat**: `"unece:AmountCurrency#TMT"` = `"unece:AmountCurrency#TMT"`
 
 Turkmenistan New Manat: TMT.
 
-### TunisianDinar
+### TunisianDinar {#tunisiandinar}
 
 > `readonly` **TunisianDinar**: `"unece:AmountCurrency#TND"` = `"unece:AmountCurrency#TND"`
 
 Tunisian Dinar: TND.
 
-### PaAnga
+### PaAnga {#paanga}
 
 > `readonly` **PaAnga**: `"unece:AmountCurrency#TOP"` = `"unece:AmountCurrency#TOP"`
 
 Pa'anga: TOP.
 
-### TurkishLira
+### TurkishLira {#turkishlira}
 
 > `readonly` **TurkishLira**: `"unece:AmountCurrency#TRY"` = `"unece:AmountCurrency#TRY"`
 
 Turkish Lira: TRY.
 
-### TrinidadAndTobagoDollar
+### TrinidadAndTobagoDollar {#trinidadandtobagodollar}
 
 > `readonly` **TrinidadAndTobagoDollar**: `"unece:AmountCurrency#TTD"` = `"unece:AmountCurrency#TTD"`
 
 Trinidad and Tobago Dollar: TTD.
 
-### NewTaiwanDollar
+### NewTaiwanDollar {#newtaiwandollar}
 
 > `readonly` **NewTaiwanDollar**: `"unece:AmountCurrency#TWD"` = `"unece:AmountCurrency#TWD"`
 
 New Taiwan Dollar: TWD.
 
-### TanzanianShilling
+### TanzanianShilling {#tanzanianshilling}
 
 > `readonly` **TanzanianShilling**: `"unece:AmountCurrency#TZS"` = `"unece:AmountCurrency#TZS"`
 
 Tanzanian Shilling: TZS.
 
-### Hryvnia
+### Hryvnia {#hryvnia}
 
 > `readonly` **Hryvnia**: `"unece:AmountCurrency#UAH"` = `"unece:AmountCurrency#UAH"`
 
 Hryvnia: UAH.
 
-### UgandaShilling
+### UgandaShilling {#ugandashilling}
 
 > `readonly` **UgandaShilling**: `"unece:AmountCurrency#UGX"` = `"unece:AmountCurrency#UGX"`
 
 Uganda Shilling: UGX.
 
-### USDollar
+### USDollar {#usdollar}
 
 > `readonly` **USDollar**: `"unece:AmountCurrency#USD"` = `"unece:AmountCurrency#USD"`
 
 US Dollar: USD.
 
-### USDollarUSN
+### USDollarUSN {#usdollarusn}
 
 > `readonly` **USDollarUSN**: `"unece:AmountCurrency#USN"` = `"unece:AmountCurrency#USN"`
 
 US Dollar (Next day): USN.
 
-### UruguayoPesoEnUnidades
+### UruguayoPesoEnUnidades {#uruguayopesoenunidades}
 
 > `readonly` **UruguayoPesoEnUnidades**: `"unece:AmountCurrency#UYI"` = `"unece:AmountCurrency#UYI"`
 
 Uruguayo Peso en Unidades: UYI.
 
-### PesoUruguayo
+### PesoUruguayo {#pesouruguayo}
 
 > `readonly` **PesoUruguayo**: `"unece:AmountCurrency#UYU"` = `"unece:AmountCurrency#UYU"`
 
 Peso Uruguayo: UYU.
 
-### UnidadPrevisional
+### UnidadPrevisional {#unidadprevisional}
 
 > `readonly` **UnidadPrevisional**: `"unece:AmountCurrency#UYW"` = `"unece:AmountCurrency#UYW"`
 
 Unidad Previsional: UYW.
 
-### UzbekistanSum
+### UzbekistanSum {#uzbekistansum}
 
 > `readonly` **UzbekistanSum**: `"unece:AmountCurrency#UZS"` = `"unece:AmountCurrency#UZS"`
 
 Uzbekistan Sum: UZS.
 
-### BolvarSoberano
+### BolvarSoberano {#bolvarsoberano}
 
 > `readonly` **BolvarSoberano**: `"unece:AmountCurrency#VED"` = `"unece:AmountCurrency#VED"`
 
 Bolívar Soberano: VED.
 
-### BolvarSoberanoVES
+### BolvarSoberanoVES {#bolvarsoberanoves}
 
 > `readonly` **BolvarSoberanoVES**: `"unece:AmountCurrency#VES"` = `"unece:AmountCurrency#VES"`
 
 Bolívar Soberano: VES.
 
-### Dong
+### Dong {#dong}
 
 > `readonly` **Dong**: `"unece:AmountCurrency#VND"` = `"unece:AmountCurrency#VND"`
 
 Dong: VND.
 
-### Vatu
+### Vatu {#vatu}
 
 > `readonly` **Vatu**: `"unece:AmountCurrency#VUV"` = `"unece:AmountCurrency#VUV"`
 
 Vatu: VUV.
 
-### Tala
+### Tala {#tala}
 
 > `readonly` **Tala**: `"unece:AmountCurrency#WST"` = `"unece:AmountCurrency#WST"`
 
 Tala: WST.
 
-### CFAFranc
+### CFAFranc {#cfafranc}
 
 > `readonly` **CFAFranc**: `"unece:AmountCurrency#XAF"` = `"unece:AmountCurrency#XAF"`
 
 CFA Franc: XAF.
 
-### Silver
+### Silver {#silver}
 
 > `readonly` **Silver**: `"unece:AmountCurrency#XAG"` = `"unece:AmountCurrency#XAG"`
 
 Silver: XAG.
 
-### Gold
+### Gold {#gold}
 
 > `readonly` **Gold**: `"unece:AmountCurrency#XAU"` = `"unece:AmountCurrency#XAU"`
 
 Gold: XAU.
 
-### BondMarketsUnitsEuropeanCompositeUnit
+### BondMarketsUnitsEuropeanCompositeUnit {#bondmarketsunitseuropeancompositeunit}
 
 > `readonly` **BondMarketsUnitsEuropeanCompositeUnit**: `"unece:AmountCurrency#XBA"` = `"unece:AmountCurrency#XBA"`
 
 Bond Markets Units European Composite Unit (EURCO): XBA.
 
-### EuropeanMonetaryUnit
+### EuropeanMonetaryUnit {#europeanmonetaryunit}
 
 > `readonly` **EuropeanMonetaryUnit**: `"unece:AmountCurrency#XBB"` = `"unece:AmountCurrency#XBB"`
 
 European Monetary Unit (E.M.U.-6): XBB.
 
-### EuropeanUnitOfAccount9
+### EuropeanUnitOfAccount9 {#europeanunitofaccount9}
 
 > `readonly` **EuropeanUnitOfAccount9**: `"unece:AmountCurrency#XBC"` = `"unece:AmountCurrency#XBC"`
 
 European Unit of Account 9 (E.U.A.-9): XBC.
 
-### EuropeanUnitOfAccount17
+### EuropeanUnitOfAccount17 {#europeanunitofaccount17}
 
 > `readonly` **EuropeanUnitOfAccount17**: `"unece:AmountCurrency#XBD"` = `"unece:AmountCurrency#XBD"`
 
 European Unit of Account 17 (E.U.A.-17): XBD.
 
-### EastCarribeanDollar
+### EastCarribeanDollar {#eastcarribeandollar}
 
 > `readonly` **EastCarribeanDollar**: `"unece:AmountCurrency#XCD"` = `"unece:AmountCurrency#XCD"`
 
 East Carribean Dollar: XCD.
 
-### SDR
+### SDR {#sdr}
 
 > `readonly` **SDR**: `"unece:AmountCurrency#XDR"` = `"unece:AmountCurrency#XDR"`
 
 SDR: XDR.
 
-### CFAFrancXOF
+### CFAFrancXOF {#cfafrancxof}
 
 > `readonly` **CFAFrancXOF**: `"unece:AmountCurrency#XOF"` = `"unece:AmountCurrency#XOF"`
 
 CFA Franc: XOF.
 
-### Palladium
+### Palladium {#palladium}
 
 > `readonly` **Palladium**: `"unece:AmountCurrency#XPD"` = `"unece:AmountCurrency#XPD"`
 
 Palladium: XPD.
 
-### CFPFranc
+### CFPFranc {#cfpfranc}
 
 > `readonly` **CFPFranc**: `"unece:AmountCurrency#XPF"` = `"unece:AmountCurrency#XPF"`
 
 CFP Franc: XPF.
 
-### Platinum
+### Platinum {#platinum}
 
 > `readonly` **Platinum**: `"unece:AmountCurrency#XPT"` = `"unece:AmountCurrency#XPT"`
 
 Platinum: XPT.
 
-### Sucre
+### Sucre {#sucre}
 
 > `readonly` **Sucre**: `"unece:AmountCurrency#XSU"` = `"unece:AmountCurrency#XSU"`
 
 Sucre: XSU.
 
-### CodesSpecificallyReservedForTestingPurposes
+### CodesSpecificallyReservedForTestingPurposes {#codesspecificallyreservedfortestingpurposes}
 
 > `readonly` **CodesSpecificallyReservedForTestingPurposes**: `"unece:AmountCurrency#XTS"` = `"unece:AmountCurrency#XTS"`
 
 Codes specifically reserved for testing purposes: XTS.
 
-### ADBUnitOfAccount
+### ADBUnitOfAccount {#adbunitofaccount}
 
 > `readonly` **ADBUnitOfAccount**: `"unece:AmountCurrency#XUA"` = `"unece:AmountCurrency#XUA"`
 
 ADB Unit of Account: XUA.
 
-### TheCodesAssignedForTransactionsWhereNoCurrencyIsInvolved
+### TheCodesAssignedForTransactionsWhereNoCurrencyIsInvolved {#thecodesassignedfortransactionswherenocurrencyisinvolved}
 
 > `readonly` **TheCodesAssignedForTransactionsWhereNoCurrencyIsInvolved**: `"unece:AmountCurrency#XXX"` = `"unece:AmountCurrency#XXX"`
 
 The codes assigned for transactions where no currency is involved: XXX.
 
-### YemeniRial
+### YemeniRial {#yemenirial}
 
 > `readonly` **YemeniRial**: `"unece:AmountCurrency#YER"` = `"unece:AmountCurrency#YER"`
 
 Yemeni Rial: YER.
 
-### Rand
+### Rand {#rand}
 
 > `readonly` **Rand**: `"unece:AmountCurrency#ZAR"` = `"unece:AmountCurrency#ZAR"`
 
 Rand: ZAR.
 
-### ZambianKwacha
+### ZambianKwacha {#zambiankwacha}
 
 > `readonly` **ZambianKwacha**: `"unece:AmountCurrency#ZMW"` = `"unece:AmountCurrency#ZMW"`
 
 Zambian Kwacha: ZMW.
 
-### ZimbabweDollar
+### ZimbabweDollar {#zimbabwedollar}
 
 > `readonly` **ZimbabweDollar**: `"unece:AmountCurrency#ZWL"` = `"unece:AmountCurrency#ZWL"`
 

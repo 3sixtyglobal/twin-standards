@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Segment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Segment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### imageBinaryObject?
+### imageBinaryObject? {#imagebinaryobject}
 
 > `optional` **imageBinaryObject**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/imageBinaryObject
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

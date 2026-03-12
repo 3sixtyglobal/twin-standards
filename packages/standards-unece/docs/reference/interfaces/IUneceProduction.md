@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Production
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Production"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### manufacturingProcessDescription?
+### manufacturingProcessDescription? {#manufacturingprocessdescription}
 
 > `optional` **manufacturingProcessDescription**: `string`
 

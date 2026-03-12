@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FileSizeUnitMeasureType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FileSizeUnitMeasureType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### FileSizeUnitMeasureTypeValue?
+### FileSizeUnitMeasureTypeValue? {#filesizeunitmeasuretypevalue}
 
 > `optional` **FileSizeUnitMeasureTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/FileSizeUnitMeasureTypeValue
 
 ***
 
-### FileSizeUnitMeasureTypeCode?
+### FileSizeUnitMeasureTypeCode? {#filesizeunitmeasuretypecode}
 
 > `optional` **FileSizeUnitMeasureTypeCode**: [`UneceFileSizeUnitMeasureCode`](../type-aliases/UneceFileSizeUnitMeasureCode.md)
 

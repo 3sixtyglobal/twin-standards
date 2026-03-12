@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeProductFeature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeProductFeature"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### marketingMeasure?
+### marketingMeasure? {#marketingmeasure}
 
 > `optional` **marketingMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/marketingMeasure
 
 ***
 
-### marketingPhrase?
+### marketingPhrase? {#marketingphrase}
 
 > `optional` **marketingPhrase**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

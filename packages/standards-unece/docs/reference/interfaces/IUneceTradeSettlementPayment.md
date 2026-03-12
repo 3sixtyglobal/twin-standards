@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/TradeSettlementPayment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeSettlementPayment"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### closingBookDueDateTime?
+### closingBookDueDateTime? {#closingbookduedatetime}
 
 > `optional` **closingBookDueDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/closingBookDueDateTime
 
 ***
 
-### endToEndId?
+### endToEndId? {#endtoendid}
 
 > `optional` **endToEndId**: `string` \| `IJsonLdValueObject`
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endToEndId
 
 ***
 
-### instructionId?
+### instructionId? {#instructionid}
 
 > `optional` **instructionId**: `string` \| `IJsonLdValueObject`
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/instructionId
 
 ***
 
-### requestedExecutionDateTime?
+### requestedExecutionDateTime? {#requestedexecutiondatetime}
 
 > `optional` **requestedExecutionDateTime**: `string`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/requestedExecutionDateTime
 
 ***
 
-### specifiedPaymentTradeSettlement?
+### specifiedPaymentTradeSettlement? {#specifiedpaymenttradesettlement}
 
 > `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
 

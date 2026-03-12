@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CurrencyExchange
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CurrencyExchange"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedDocument?
+### associatedDocument? {#associateddocument}
 
 > `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ***
 
-### conversionRate?
+### conversionRate? {#conversionrate}
 
 > `optional` **conversionRate**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/conversionRate
 
 ***
 
-### conversionRateDateTime?
+### conversionRateDateTime? {#conversionratedatetime}
 
 > `optional` **conversionRateDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/conversionRateDateTime
 
 ***
 
-### currencySourceCurrencyCode?
+### currencySourceCurrencyCode? {#currencysourcecurrencycode}
 
 > `optional` **currencySourceCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/currencySourceCurrencyCode
 
 ***
 
-### currencyTargetCurrencyCode?
+### currencyTargetCurrencyCode? {#currencytargetcurrencycode}
 
 > `optional` **currencyTargetCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/currencyTargetCurrencyCode
 
 ***
 
-### document?
+### document? {#document}
 
 > `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/document
 
 ***
 
-### sourceUnitBasisNumeric?
+### sourceUnitBasisNumeric? {#sourceunitbasisnumeric}
 
 > `optional` **sourceUnitBasisNumeric**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/sourceUnitBasisNumeric
 
 ***
 
-### targetUnitBaseNumeric?
+### targetUnitBaseNumeric? {#targetunitbasenumeric}
 
 > `optional` **targetUnitBaseNumeric**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/targetUnitBaseNumeric
 
 ***
 
-### tradeCurrencyExchangeMarketId?
+### tradeCurrencyExchangeMarketId? {#tradecurrencyexchangemarketid}
 
 > `optional` **tradeCurrencyExchangeMarketId**: `string` \| `IJsonLdValueObject`
 

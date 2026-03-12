@@ -6,7 +6,7 @@ Values for UneceControlSettingParameter typeCode property.
 
 ## Type Declaration
 
-### DefinedControlSettingParameter
+### DefinedControlSettingParameter {#definedcontrolsettingparameter}
 
 > `readonly` **DefinedControlSettingParameter**: `"unece:definedControlSettingParameter"` = `"unece:definedControlSettingParameter"`
 

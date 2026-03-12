@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DeliveryAdjustment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DeliveryAdjustment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualAmount?
+### actualAmount? {#actualamount}
 
 > `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ***
 
-### actualDateTime?
+### actualDateTime? {#actualdatetime}
 
 > `optional` **actualDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ***
 
-### actualQuantity?
+### actualQuantity? {#actualquantity}
 
 > `optional` **actualQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ***
 
-### adjustmentReasonCode?
+### adjustmentReasonCode? {#adjustmentreasoncode}
 
 > `optional` **adjustmentReasonCode**: [`UneceAdjustmentReasonCodeList`](../type-aliases/UneceAdjustmentReasonCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/adjustmentReasonCode
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 

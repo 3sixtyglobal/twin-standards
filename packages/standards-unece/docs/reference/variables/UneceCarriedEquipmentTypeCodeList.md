@@ -6,7 +6,7 @@ Values for UneceCarriedEquipment typeCode property.
 
 ## Type Declaration
 
-### SpecifiedCarriedEquipment
+### SpecifiedCarriedEquipment {#specifiedcarriedequipment}
 
 > `readonly` **SpecifiedCarriedEquipment**: `"unece:specifiedCarriedEquipment"` = `"unece:specifiedCarriedEquipment"`
 

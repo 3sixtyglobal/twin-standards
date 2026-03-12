@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationAnalysisMethod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LaboratoryObservationAnalysisMethod"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### certificationId?
+### certificationId? {#certificationid}
 
 > `optional` **certificationId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/certificationId
 
 ***
 
-### certificationTypeCode?
+### certificationTypeCode? {#certificationtypecode}
 
 > `optional` **certificationTypeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/certificationTypeCode
 
 ***
 
-### externalReference?
+### externalReference? {#externalreference}
 
 > `optional` **externalReference**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/externalReference
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### localTypeCode?
+### localTypeCode? {#localtypecode}
 
 > `optional` **localTypeCode**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/localTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### obligatoryTypeCode?
+### obligatoryTypeCode? {#obligatorytypecode}
 
 > `optional` **obligatoryTypeCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/obligatoryTypeCode
 
 ***
 
-### sampledObjectMinimumRequiredObjectSizeMeasure?
+### sampledObjectMinimumRequiredObjectSizeMeasure? {#sampledobjectminimumrequiredobjectsizemeasure}
 
 > `optional` **sampledObjectMinimumRequiredObjectSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/sampledObjectMinimumRequiredObjectSizeMeasure
 
 ***
 
-### standardTypeCode?
+### standardTypeCode? {#standardtypecode}
 
 > `optional` **standardTypeCode**: `string`
 

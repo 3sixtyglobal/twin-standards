@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/PaymentTradeSettlement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentTradeSettlement"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### acceptedAmount?
+### acceptedAmount? {#acceptedamount}
 
 > `optional` **acceptedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/acceptedAmount
 
 ***
 
-### additionalDescription?
+### additionalDescription? {#additionaldescription}
 
 > `optional` **additionalDescription**: `string`
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/additionalDescription
 
 ***
 
-### applicableTax?
+### applicableTax? {#applicabletax}
 
 > `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### creditNoteAmount?
+### creditNoteAmount? {#creditnoteamount}
 
 > `optional` **creditNoteAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/creditNoteAmount
 
 ***
 
-### creditorReferenceId?
+### creditorReferenceId? {#creditorreferenceid}
 
 > `optional` **creditorReferenceId**: `string` \| `IJsonLdValueObject`
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/creditorReferenceId
 
 ***
 
-### creditorReferenceIssuerId?
+### creditorReferenceIssuerId? {#creditorreferenceissuerid}
 
 > `optional` **creditorReferenceIssuerId**: `string` \| `IJsonLdValueObject`
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/creditorReferenceIssuerId
 
 ***
 
-### creditorReferenceTypeCode?
+### creditorReferenceTypeCode? {#creditorreferencetypecode}
 
 > `optional` **creditorReferenceTypeCode**: `string`
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/creditorReferenceTypeCode
 
 ***
 
-### discountAmount?
+### discountAmount? {#discountamount}
 
 > `optional` **discountAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/discountAmount
 
 ***
 
-### dueDateTime?
+### dueDateTime? {#duedatetime}
 
 > `optional` **dueDateTime**: `string`
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### duePayableAmount?
+### duePayableAmount? {#duepayableamount}
 
 > `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -161,7 +161,7 @@ https://vocabulary.uncefact.org/duePayableAmount
 
 ***
 
-### identifiedGuarantee?
+### identifiedGuarantee? {#identifiedguarantee}
 
 > `optional` **identifiedGuarantee**: [`IUneceGuarantee`](IUneceGuarantee.md)
 
@@ -173,7 +173,7 @@ https://vocabulary.uncefact.org/identifiedGuarantee
 
 ***
 
-### instruction?
+### instruction? {#instruction}
 
 > `optional` **instruction**: `string`
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/instruction
 
 ***
 
-### invoicePayerAssignedReferenceId?
+### invoicePayerAssignedReferenceId? {#invoicepayerassignedreferenceid}
 
 > `optional` **invoicePayerAssignedReferenceId**: `string` \| `IJsonLdValueObject`
 
@@ -197,7 +197,7 @@ https://vocabulary.uncefact.org/invoicePayerAssignedReferenceId
 
 ***
 
-### payeeParty?
+### payeeParty? {#payeeparty}
 
 > `optional` **payeeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -209,7 +209,7 @@ https://vocabulary.uncefact.org/payeeParty
 
 ***
 
-### payerParty?
+### payerParty? {#payerparty}
 
 > `optional` **payerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -221,7 +221,7 @@ https://vocabulary.uncefact.org/payerParty
 
 ***
 
-### paymentAmount?
+### paymentAmount? {#paymentamount}
 
 > `optional` **paymentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -233,7 +233,7 @@ https://vocabulary.uncefact.org/paymentAmount
 
 ***
 
-### paymentApplicableCurrencyExchange?
+### paymentApplicableCurrencyExchange? {#paymentapplicablecurrencyexchange}
 
 > `optional` **paymentApplicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/paymentApplicableCurrencyExchange
 
 ***
 
-### paymentCurrencyCode?
+### paymentCurrencyCode? {#paymentcurrencycode}
 
 > `optional` **paymentCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -257,7 +257,7 @@ https://vocabulary.uncefact.org/paymentCurrencyCode
 
 ***
 
-### penaltyPercent?
+### penaltyPercent? {#penaltypercent}
 
 > `optional` **penaltyPercent**: `string`
 
@@ -269,7 +269,7 @@ https://vocabulary.uncefact.org/penaltyPercent
 
 ***
 
-### priorityCode?
+### priorityCode? {#prioritycode}
 
 > `optional` **priorityCode**: `string`
 
@@ -281,7 +281,7 @@ https://vocabulary.uncefact.org/priorityCode
 
 ***
 
-### proprietaryCreditorReferenceType?
+### proprietaryCreditorReferenceType? {#proprietarycreditorreferencetype}
 
 > `optional` **proprietaryCreditorReferenceType**: `string`
 
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/proprietaryCreditorReferenceType
 
 ***
 
-### receiptDateTime?
+### receiptDateTime? {#receiptdatetime}
 
 > `optional` **receiptDateTime**: `string`
 
@@ -305,7 +305,7 @@ https://vocabulary.uncefact.org/receiptDateTime
 
 ***
 
-### recordedExperienceItem?
+### recordedExperienceItem? {#recordedexperienceitem}
 
 > `optional` **recordedExperienceItem**: [`IUneceExperienceItem`](IUneceExperienceItem.md)[]
 
@@ -317,7 +317,7 @@ https://vocabulary.uncefact.org/recordedExperienceItem
 
 ***
 
-### refundAmount?
+### refundAmount? {#refundamount}
 
 > `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -329,7 +329,7 @@ https://vocabulary.uncefact.org/refundAmount
 
 ***
 
-### requestedAmount?
+### requestedAmount? {#requestedamount}
 
 > `optional` **requestedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -341,7 +341,7 @@ https://vocabulary.uncefact.org/requestedAmount
 
 ***
 
-### specifiedPaymentMeans?
+### specifiedPaymentMeans? {#specifiedpaymentmeans}
 
 > `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
@@ -353,7 +353,7 @@ https://vocabulary.uncefact.org/specifiedPaymentMeans
 
 ***
 
-### specifiedTradeSettlementPaymentMonetarySummation
+### specifiedTradeSettlementPaymentMonetarySummation {#specifiedtradesettlementpaymentmonetarysummation}
 
 > **specifiedTradeSettlementPaymentMonetarySummation**: [`IUneceTradeSettlementPaymentMonetarySummation`](IUneceTradeSettlementPaymentMonetarySummation.md)
 
@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/specifiedTradeSettlementPaymentMonetarySummation
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -377,7 +377,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### taxAmount?
+### taxAmount? {#taxamount}
 
 > `optional` **taxAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -389,7 +389,7 @@ https://vocabulary.uncefact.org/taxAmount
 
 ***
 
-### totalTaxAmount?
+### totalTaxAmount? {#totaltaxamount}
 
 > `optional` **totalTaxAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -401,7 +401,7 @@ https://vocabulary.uncefact.org/totalTaxAmount
 
 ***
 
-### transferFeeInclusiveIndicator?
+### transferFeeInclusiveIndicator? {#transferfeeinclusiveindicator}
 
 > `optional` **transferFeeInclusiveIndicator**: `boolean`
 
@@ -413,7 +413,7 @@ https://vocabulary.uncefact.org/transferFeeInclusiveIndicator
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -425,7 +425,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### unstructuredDescription?
+### unstructuredDescription? {#unstructureddescription}
 
 > `optional` **unstructuredDescription**: `string`
 

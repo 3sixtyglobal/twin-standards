@@ -6,26 +6,26 @@ The contexts for ODRL.
 
 ## Type Declaration
 
-### Namespace
+### Namespace {#namespace}
 
 > `readonly` **Namespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
 
 The canonical RDF namespace URI.
 
-### Context
+### Context {#context}
 
 > `readonly` **Context**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
 The value to use in @context.
 Note: Context points to the JSON-LD url as per ODRL 2.2 specification.
 
-### JsonLdContext
+### JsonLdContext {#jsonldcontext}
 
 > `readonly` **JsonLdContext**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
 The JSON-LD Context URL.
 
-### JsonSchemaNamespace
+### JsonSchemaNamespace {#jsonschemanamespace}
 
 > `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-odrl/"` = `"https://schema.twindev.org/w3c-odrl/"`
 

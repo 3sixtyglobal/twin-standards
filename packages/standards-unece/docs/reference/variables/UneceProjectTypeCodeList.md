@@ -6,7 +6,7 @@ Values for UneceProject typeCode property.
 
 ## Type Declaration
 
-### SpecifiedProject
+### SpecifiedProject {#specifiedproject}
 
 > `readonly` **SpecifiedProject**: `"unece:specifiedProject"` = `"unece:specifiedProject"`
 

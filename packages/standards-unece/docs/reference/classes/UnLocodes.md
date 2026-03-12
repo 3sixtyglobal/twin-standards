@@ -18,7 +18,7 @@ https://vocabulary.uncefact.org/unlocode-about
 
 ## Methods
 
-### getCountries()
+### getCountries() {#getcountries}
 
 > `static` **getCountries**(): `Promise`\<[`IUnLocodeCountry`](../interfaces/IUnLocodeCountry.md)[]\>
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/unlocode-countries
 
 ***
 
-### getCountryByUri()
+### getCountryByUri() {#getcountrybyuri}
 
 > `static` **getCountryByUri**(`countryUri`): `Promise`\<[`IUnLocodeCountry`](../interfaces/IUnLocodeCountry.md) \| `undefined`\>
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/unlocode-countries
 
 ***
 
-### getCountryByValue()
+### getCountryByValue() {#getcountrybyvalue}
 
 > `static` **getCountryByValue**(`countryValue`): `Promise`\<[`IUnLocodeCountry`](../interfaces/IUnLocodeCountry.md) \| `undefined`\>
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/unlocode-countries
 
 ***
 
-### getFunctions()
+### getFunctions() {#getfunctions}
 
 > `static` **getFunctions**(): `Promise`\<[`IUnLocodeFunction`](../interfaces/IUnLocodeFunction.md)[]\>
 
@@ -106,7 +106,7 @@ https://vocabulary.uncefact.org/unlocode-functions
 
 ***
 
-### getFunctionByUri()
+### getFunctionByUri() {#getfunctionbyuri}
 
 > `static` **getFunctionByUri**(`functionUri`): `Promise`\<[`IUnLocodeFunction`](../interfaces/IUnLocodeFunction.md) \| `undefined`\>
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/unlocode-functions
 
 ***
 
-### getFunctionByValue()
+### getFunctionByValue() {#getfunctionbyvalue}
 
 > `static` **getFunctionByValue**(`functionValue`): `Promise`\<[`IUnLocodeFunction`](../interfaces/IUnLocodeFunction.md) \| `undefined`\>
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/unlocode-functions
 
 ***
 
-### getLocationByCode()
+### getLocationByCode() {#getlocationbycode}
 
 > `static` **getLocationByCode**(`unLocode`): `Promise`\<[`IUnLocodeLocation`](../interfaces/IUnLocodeLocation.md) \| `undefined`\>
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/unlocode-about
 
 ***
 
-### getLocationByUri()
+### getLocationByUri() {#getlocationbyuri}
 
 > `static` **getLocationByUri**(`unLocodeUri`): `Promise`\<[`IUnLocodeLocation`](../interfaces/IUnLocodeLocation.md) \| `undefined`\>
 
@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/unlocode-about
 
 ***
 
-### getLocationByLabel()
+### getLocationByLabel() {#getlocationbylabel}
 
 > `static` **getLocationByLabel**(`label`): `Promise`\<[`IUnLocodeLocation`](../interfaces/IUnLocodeLocation.md) \| `undefined`\>
 
@@ -236,7 +236,7 @@ https://vocabulary.uncefact.org/unlocode-about
 
 ***
 
-### getSubdivisionByCode()
+### getSubdivisionByCode() {#getsubdivisionbycode}
 
 > `static` **getSubdivisionByCode**(`subdivisionCode`): `Promise`\<[`IUnLocodeSubdivision`](../interfaces/IUnLocodeSubdivision.md) \| `undefined`\>
 
@@ -258,7 +258,7 @@ The subdivision information or undefined if not found.
 
 ***
 
-### getSubdivisionByUri()
+### getSubdivisionByUri() {#getsubdivisionbyuri}
 
 > `static` **getSubdivisionByUri**(`subdivisionUri`): `Promise`\<[`IUnLocodeSubdivision`](../interfaces/IUnLocodeSubdivision.md) \| `undefined`\>
 
@@ -280,7 +280,7 @@ The subdivision information or undefined if not found.
 
 ***
 
-### getLocations()
+### getLocations() {#getlocations}
 
 > `static` **getLocations**(`countryCode`): `Promise`\<[`IUnLocodeLocation`](../interfaces/IUnLocodeLocation.md)[]\>
 
@@ -306,7 +306,7 @@ Error if the country code is invalid or if the data file cannot be loaded.
 
 ***
 
-### getSubdivisions()
+### getSubdivisions() {#getsubdivisions}
 
 > `static` **getSubdivisions**(`countryCode`): `Promise`\<[`IUnLocodeSubdivision`](../interfaces/IUnLocodeSubdivision.md)[]\>
 

@@ -6,7 +6,7 @@ Values for UneceIOTDevice typeCode property.
 
 ## Type Declaration
 
-### AttachedIOTDevice
+### AttachedIOTDevice {#attachediotdevice}
 
 > `readonly` **AttachedIOTDevice**: `"unece:attachedIOTDevice"` = `"unece:attachedIOTDevice"`
 
@@ -17,7 +17,7 @@ An IOT device attached to this piece of logistics transport equipment.
 
 https://vocabulary.uncefact.org/attachedIOTDevice
 
-### ReportingIOTDevice
+### ReportingIOTDevice {#reportingiotdevice}
 
 > `readonly` **ReportingIOTDevice**: `"unece:reportingIOTDevice"` = `"unece:reportingIOTDevice"`
 

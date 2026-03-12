@@ -10,7 +10,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Role
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
@@ -18,7 +18,7 @@ The JSON-LD context for the resource.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"dcat:Role"`
 
@@ -26,7 +26,7 @@ The type identifier, typically "Role".
 
 ***
 
-### @id?
+### @id? {#id}
 
 > `optional` **@id**: `string`
 
@@ -34,7 +34,7 @@ The unique identifier for the role object.
 
 ***
 
-### dcterms:title?
+### dcterms:title? {#dctermstitle}
 
 > `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 

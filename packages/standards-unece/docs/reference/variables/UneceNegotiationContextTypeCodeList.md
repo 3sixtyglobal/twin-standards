@@ -6,7 +6,7 @@ Values for UneceNegotiationContext typeCode property.
 
 ## Type Declaration
 
-### SpecifiedContext
+### SpecifiedContext {#specifiedcontext}
 
 > `readonly` **SpecifiedContext**: `"unece:specifiedContext"` = `"unece:specifiedContext"`
 

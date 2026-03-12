@@ -6,7 +6,7 @@ Values for UneceOrganizationCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableOrganizationCharacteristic
+### ApplicableOrganizationCharacteristic {#applicableorganizationcharacteristic}
 
 > `readonly` **ApplicableOrganizationCharacteristic**: `"unece:applicableOrganizationCharacteristic"` = `"unece:applicableOrganizationCharacteristic"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GeographicalMultiSurface
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalMultiSurface"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic
+### associatedGeographicalObjectCharacteristic {#associatedgeographicalobjectcharacteristic}
 
 > **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### includedPolygon?
+### includedPolygon? {#includedpolygon}
 
 > `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)[]
 

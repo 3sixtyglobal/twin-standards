@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RegulatoryProcedure
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RegulatoryProcedure"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acquisitionDateTime?
+### acquisitionDateTime? {#acquisitiondatetime}
 
 > `optional` **acquisitionDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acquisitionDateTime
 
 ***
 
-### amendmentReasonCode?
+### amendmentReasonCode? {#amendmentreasoncode}
 
 > `optional` **amendmentReasonCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/amendmentReasonCode
 
 ***
 
-### annualQuotaQuantity?
+### annualQuotaQuantity? {#annualquotaquantity}
 
 > `optional` **annualQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/annualQuotaQuantity
 
 ***
 
-### applicableCurrencyExchange?
+### applicableCurrencyExchange? {#applicablecurrencyexchange}
 
 > `optional` **applicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableCurrencyExchange
 
 ***
 
-### applicablePeriod?
+### applicablePeriod? {#applicableperiod}
 
 > `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ***
 
-### applicableTax?
+### applicableTax? {#applicabletax}
 
 > `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ***
 
-### borderClearanceInstructions?
+### borderClearanceInstructions? {#borderclearanceinstructions}
 
 > `optional` **borderClearanceInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/borderClearanceInstructions
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### certificationBasis?
+### certificationBasis? {#certificationbasis}
 
 > `optional` **certificationBasis**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/certificationBasis
 
 ***
 
-### consignmentDestinationSpecifiedLocation?
+### consignmentDestinationSpecifiedLocation? {#consignmentdestinationspecifiedlocation}
 
 > `optional` **consignmentDestinationSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/consignmentDestinationSpecifiedLocation
 
 ***
 
-### controlRequirementIndicator?
+### controlRequirementIndicator? {#controlrequirementindicator}
 
 > `optional` **controlRequirementIndicator**: `boolean`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/controlRequirementIndicator
 
 ***
 
-### controlResult?
+### controlResult? {#controlresult}
 
 > `optional` **controlResult**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/controlResult
 
 ***
 
-### controlStartDateConfirmationIndicator?
+### controlStartDateConfirmationIndicator? {#controlstartdateconfirmationindicator}
 
 > `optional` **controlStartDateConfirmationIndicator**: `boolean`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/controlStartDateConfirmationIndicator
 
 ***
 
-### crossBorderRegulatoryProcedurePaymentMethodCode?
+### crossBorderRegulatoryProcedurePaymentMethodCode? {#crossborderregulatoryprocedurepaymentmethodcode}
 
 > `optional` **crossBorderRegulatoryProcedurePaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/crossBorderRegulatoryProcedurePaymentMethodCode
 
 ***
 
-### crossBorderRegulatoryProcedureTypeCode?
+### crossBorderRegulatoryProcedureTypeCode? {#crossborderregulatoryproceduretypecode}
 
 > `optional` **crossBorderRegulatoryProcedureTypeCode**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/crossBorderRegulatoryProcedureTypeCode
 
 ***
 
-### customsProcedureGuaranteeCode?
+### customsProcedureGuaranteeCode? {#customsprocedureguaranteecode}
 
 > `optional` **customsProcedureGuaranteeCode**: `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 
 ***
 
-### declarantAssignedDeclarationId?
+### declarantAssignedDeclarationId? {#declarantassigneddeclarationid}
 
 > `optional` **declarantAssignedDeclarationId**: `string` \| `IJsonLdValueObject`
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/declarantAssignedDeclarationId
 
 ***
 
-### declarationLodgementLocation?
+### declarationLodgementLocation? {#declarationlodgementlocation}
 
 > `optional` **declarationLodgementLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/declarationLodgementLocation
 
 ***
 
-### deferredPayableTotalChargeAmount?
+### deferredPayableTotalChargeAmount? {#deferredpayabletotalchargeamount}
 
 > `optional` **deferredPayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/deferredPayableTotalChargeAmount
 
 ***
 
-### deferredPaymentMethodIndicator?
+### deferredPaymentMethodIndicator? {#deferredpaymentmethodindicator}
 
 > `optional` **deferredPaymentMethodIndicator**: `boolean`
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/deferredPaymentMethodIndicator
 
 ***
 
-### document?
+### document? {#document}
 
 > `optional` **document**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/document
 
 ***
 
-### entryCustomsOfficeSpecifiedLocation?
+### entryCustomsOfficeSpecifiedLocation? {#entrycustomsofficespecifiedlocation}
 
 > `optional` **entryCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -292,7 +292,7 @@ https://vocabulary.uncefact.org/entryCustomsOfficeSpecifiedLocation
 
 ***
 
-### examinationEvent?
+### examinationEvent? {#examinationevent}
 
 > `optional` **examinationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -304,7 +304,7 @@ https://vocabulary.uncefact.org/examinationEvent
 
 ***
 
-### exemptionClaimantParty?
+### exemptionClaimantParty? {#exemptionclaimantparty}
 
 > `optional` **exemptionClaimantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -316,7 +316,7 @@ https://vocabulary.uncefact.org/exemptionClaimantParty
 
 ***
 
-### exitCustomsOfficeSpecifiedLocation?
+### exitCustomsOfficeSpecifiedLocation? {#exitcustomsofficespecifiedlocation}
 
 > `optional` **exitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -329,7 +329,7 @@ https://vocabulary.uncefact.org/exitCustomsOfficeSpecifiedLocation
 
 ***
 
-### exportCustomsOfficeSpecifiedLocation?
+### exportCustomsOfficeSpecifiedLocation? {#exportcustomsofficespecifiedlocation}
 
 > `optional` **exportCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -342,7 +342,7 @@ https://vocabulary.uncefact.org/exportCustomsOfficeSpecifiedLocation
 
 ***
 
-### exportLicenceControlClassificationId?
+### exportLicenceControlClassificationId? {#exportlicencecontrolclassificationid}
 
 > `optional` **exportLicenceControlClassificationId**: `string` \| `IJsonLdValueObject`
 
@@ -355,7 +355,7 @@ https://vocabulary.uncefact.org/exportLicenceControlClassificationId
 
 ***
 
-### freeTradeAgreementName?
+### freeTradeAgreementName? {#freetradeagreementname}
 
 > `optional` **freeTradeAgreementName**: `string`
 
@@ -367,7 +367,7 @@ https://vocabulary.uncefact.org/freeTradeAgreementName
 
 ***
 
-### goodsStatusCode?
+### goodsStatusCode? {#goodsstatuscode}
 
 > `optional` **goodsStatusCode**: `string`
 
@@ -379,7 +379,7 @@ https://vocabulary.uncefact.org/goodsStatusCode
 
 ***
 
-### governmentActionResponsibleAgencyActionCode?
+### governmentActionResponsibleAgencyActionCode? {#governmentactionresponsibleagencyactioncode}
 
 > `optional` **governmentActionResponsibleAgencyActionCode**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)[]
 
@@ -391,7 +391,7 @@ https://vocabulary.uncefact.org/governmentActionResponsibleAgencyActionCode
 
 ***
 
-### guarantee?
+### guarantee? {#guarantee}
 
 > `optional` **guarantee**: `string`
 
@@ -404,7 +404,7 @@ https://vocabulary.uncefact.org/guarantee
 
 ***
 
-### immediatePayableTotalChargeAmount?
+### immediatePayableTotalChargeAmount? {#immediatepayabletotalchargeamount}
 
 > `optional` **immediatePayableTotalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -417,7 +417,7 @@ https://vocabulary.uncefact.org/immediatePayableTotalChargeAmount
 
 ***
 
-### importCustomsOfficeSpecifiedLocation?
+### importCustomsOfficeSpecifiedLocation? {#importcustomsofficespecifiedlocation}
 
 > `optional` **importCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -430,7 +430,7 @@ https://vocabulary.uncefact.org/importCustomsOfficeSpecifiedLocation
 
 ***
 
-### nonTariffChargeAmount?
+### nonTariffChargeAmount? {#nontariffchargeamount}
 
 > `optional` **nonTariffChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -442,7 +442,7 @@ https://vocabulary.uncefact.org/nonTariffChargeAmount
 
 ***
 
-### originCriteria?
+### originCriteria? {#origincriteria}
 
 > `optional` **originCriteria**: `string`
 
@@ -454,7 +454,7 @@ https://vocabulary.uncefact.org/originCriteria
 
 ***
 
-### paymentOfficeLocation?
+### paymentOfficeLocation? {#paymentofficelocation}
 
 > `optional` **paymentOfficeLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -466,7 +466,7 @@ https://vocabulary.uncefact.org/paymentOfficeLocation
 
 ***
 
-### performanceDateTime?
+### performanceDateTime? {#performancedatetime}
 
 > `optional` **performanceDateTime**: `string`
 
@@ -479,7 +479,7 @@ https://vocabulary.uncefact.org/performanceDateTime
 
 ***
 
-### previousDocument?
+### previousDocument? {#previousdocument}
 
 > `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -491,7 +491,7 @@ https://vocabulary.uncefact.org/previousDocument
 
 ***
 
-### previousProcedureTypeCode?
+### previousProcedureTypeCode? {#previousproceduretypecode}
 
 > `optional` **previousProcedureTypeCode**: `string`
 
@@ -503,7 +503,7 @@ https://vocabulary.uncefact.org/previousProcedureTypeCode
 
 ***
 
-### quotaId?
+### quotaId? {#quotaid}
 
 > `optional` **quotaId**: `string` \| `IJsonLdValueObject`
 
@@ -515,7 +515,7 @@ https://vocabulary.uncefact.org/quotaId
 
 ***
 
-### registeredDeferredPaymentPayerId?
+### registeredDeferredPaymentPayerId? {#registereddeferredpaymentpayerid}
 
 > `optional` **registeredDeferredPaymentPayerId**: `string` \| `IJsonLdValueObject`
 
@@ -527,7 +527,7 @@ https://vocabulary.uncefact.org/registeredDeferredPaymentPayerId
 
 ***
 
-### remark?
+### remark? {#remark}
 
 > `optional` **remark**: `string`
 
@@ -539,7 +539,7 @@ https://vocabulary.uncefact.org/remark
 
 ***
 
-### reportedLogisticsStatus?
+### reportedLogisticsStatus? {#reportedlogisticsstatus}
 
 > `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
 
@@ -551,7 +551,7 @@ https://vocabulary.uncefact.org/reportedLogisticsStatus
 
 ***
 
-### requestOverrideCode?
+### requestOverrideCode? {#requestoverridecode}
 
 > `optional` **requestOverrideCode**: `string`
 
@@ -564,7 +564,7 @@ https://vocabulary.uncefact.org/requestOverrideCode
 
 ***
 
-### requiredChemicalTreatment?
+### requiredChemicalTreatment? {#requiredchemicaltreatment}
 
 > `optional` **requiredChemicalTreatment**: [`IUneceAppliedChemicalTreatment`](IUneceAppliedChemicalTreatment.md)[]
 
@@ -576,7 +576,7 @@ https://vocabulary.uncefact.org/requiredChemicalTreatment
 
 ***
 
-### requiredSeal?
+### requiredSeal? {#requiredseal}
 
 > `optional` **requiredSeal**: [`IUneceSeal`](IUneceSeal.md)[]
 
@@ -588,7 +588,7 @@ https://vocabulary.uncefact.org/requiredSeal
 
 ***
 
-### requiredTestSpecificationReport?
+### requiredTestSpecificationReport? {#requiredtestspecificationreport}
 
 > `optional` **requiredTestSpecificationReport**: [`IUneceTestSpecificationReport`](IUneceTestSpecificationReport.md)[]
 
@@ -600,7 +600,7 @@ https://vocabulary.uncefact.org/requiredTestSpecificationReport
 
 ***
 
-### responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode?
+### responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode? {#responsiblegovernmentagencyinvolvementresponsibleagencyinvolvementcode}
 
 > `optional` **responsibleGovernmentAgencyInvolvementResponsibleAgencyInvolvementCode**: [`UneceResponsibleGovernmentAgencyInvolvementCodeList`](../type-aliases/UneceResponsibleGovernmentAgencyInvolvementCodeList.md)[]
 
@@ -612,7 +612,7 @@ https://vocabulary.uncefact.org/responsibleGovernmentAgencyInvolvementResponsibl
 
 ***
 
-### responsibleGovernmentAgencyResponsibleAgencyCode?
+### responsibleGovernmentAgencyResponsibleAgencyCode? {#responsiblegovernmentagencyresponsibleagencycode}
 
 > `optional` **responsibleGovernmentAgencyResponsibleAgencyCode**: [`UneceResponsibleGovernmentAgencyCodeList`](../type-aliases/UneceResponsibleGovernmentAgencyCodeList.md)
 
@@ -624,7 +624,7 @@ https://vocabulary.uncefact.org/responsibleGovernmentAgencyResponsibleAgencyCode
 
 ***
 
-### specifiedDebtorFinancialAccount?
+### specifiedDebtorFinancialAccount? {#specifieddebtorfinancialaccount}
 
 > `optional` **specifiedDebtorFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)[]
 
@@ -636,7 +636,7 @@ https://vocabulary.uncefact.org/specifiedDebtorFinancialAccount
 
 ***
 
-### statementNote?
+### statementNote? {#statementnote}
 
 > `optional` **statementNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -648,7 +648,7 @@ https://vocabulary.uncefact.org/statementNote
 
 ***
 
-### tariffAmount?
+### tariffAmount? {#tariffamount}
 
 > `optional` **tariffAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -660,7 +660,7 @@ https://vocabulary.uncefact.org/tariffAmount
 
 ***
 
-### tariffDeductionQuantity?
+### tariffDeductionQuantity? {#tariffdeductionquantity}
 
 > `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -672,7 +672,7 @@ https://vocabulary.uncefact.org/tariffDeductionQuantity
 
 ***
 
-### tariffQuantity?
+### tariffQuantity? {#tariffquantity}
 
 > `optional` **tariffQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -684,7 +684,7 @@ https://vocabulary.uncefact.org/tariffQuantity
 
 ***
 
-### totalChargeAmount?
+### totalChargeAmount? {#totalchargeamount}
 
 > `optional` **totalChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -697,7 +697,7 @@ https://vocabulary.uncefact.org/totalChargeAmount
 
 ***
 
-### totalConsignmentValueAmount?
+### totalConsignmentValueAmount? {#totalconsignmentvalueamount}
 
 > `optional` **totalConsignmentValueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -709,7 +709,7 @@ https://vocabulary.uncefact.org/totalConsignmentValueAmount
 
 ***
 
-### transactionNatureCode?
+### transactionNatureCode? {#transactionnaturecode}
 
 > `optional` **transactionNatureCode**: `string`
 
@@ -721,7 +721,7 @@ https://vocabulary.uncefact.org/transactionNatureCode
 
 ***
 
-### transitCustomsOfficeSpecifiedLocation?
+### transitCustomsOfficeSpecifiedLocation? {#transitcustomsofficespecifiedlocation}
 
 > `optional` **transitCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -734,7 +734,7 @@ https://vocabulary.uncefact.org/transitCustomsOfficeSpecifiedLocation
 
 ***
 
-### transitReleaseCustomsOfficeSpecifiedLocation?
+### transitReleaseCustomsOfficeSpecifiedLocation? {#transitreleasecustomsofficespecifiedlocation}
 
 > `optional` **transitReleaseCustomsOfficeSpecifiedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -747,7 +747,7 @@ https://vocabulary.uncefact.org/transitReleaseCustomsOfficeSpecifiedLocation
 
 ***
 
-### transportMovementTypeCode?
+### transportMovementTypeCode? {#transportmovementtypecode}
 
 > `optional` **transportMovementTypeCode**: [`UneceTransportMovementTypeCodeList`](../type-aliases/UneceTransportMovementTypeCodeList.md)[]
 
@@ -760,7 +760,7 @@ https://vocabulary.uncefact.org/transportMovementTypeCode
 
 ***
 
-### treatmentEvent?
+### treatmentEvent? {#treatmentevent}
 
 > `optional` **treatmentEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -772,7 +772,7 @@ https://vocabulary.uncefact.org/treatmentEvent
 
 ***
 
-### usedToDateQuotaQuantity?
+### usedToDateQuotaQuantity? {#usedtodatequotaquantity}
 
 > `optional` **usedToDateQuotaQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -784,7 +784,7 @@ https://vocabulary.uncefact.org/usedToDateQuotaQuantity
 
 ***
 
-### valuationBasisAmount?
+### valuationBasisAmount? {#valuationbasisamount}
 
 > `optional` **valuationBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 

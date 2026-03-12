@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/IndividualTTAnimal
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"IndividualTTAnimal"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### birthDateTime
+### birthDateTime {#birthdatetime}
 
 > **birthDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ***
 
-### deathDateTime
+### deathDateTime {#deathdatetime}
 
 > **deathDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/deathDateTime
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### specifiedDelimitedPeriod?
+### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
 > `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ***
 
-### specifiedPeriod?
+### specifiedPeriod? {#specifiedperiod}
 
 > `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 

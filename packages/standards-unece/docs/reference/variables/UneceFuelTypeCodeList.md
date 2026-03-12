@@ -6,7 +6,7 @@ Values for UneceFuel typeCode property.
 
 ## Type Declaration
 
-### IncludedFuel
+### IncludedFuel {#includedfuel}
 
 > `readonly` **IncludedFuel**: `"unece:includedFuel"` = `"unece:includedFuel"`
 

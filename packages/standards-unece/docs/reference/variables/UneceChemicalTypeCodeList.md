@@ -6,7 +6,7 @@ Values for UneceChemical typeCode property.
 
 ## Type Declaration
 
-### UsedChemical
+### UsedChemical {#usedchemical}
 
 > `readonly` **UsedChemical**: `"unece:usedChemical"` = `"unece:usedChemical"`
 

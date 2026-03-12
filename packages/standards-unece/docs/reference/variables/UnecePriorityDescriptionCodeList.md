@@ -6,37 +6,37 @@ A character string used to represent a priority.
 
 ## Type Declaration
 
-### Immediate
+### Immediate {#immediate}
 
 > `readonly` **Immediate**: `"unece:PriorityDescriptionCodeList#1"` = `"unece:PriorityDescriptionCodeList#1"`
 
 Immediate: 1.
 
-### Urgent
+### Urgent {#urgent}
 
 > `readonly` **Urgent**: `"unece:PriorityDescriptionCodeList#2"` = `"unece:PriorityDescriptionCodeList#2"`
 
 Urgent: 2.
 
-### Normal
+### Normal {#normal}
 
 > `readonly` **Normal**: `"unece:PriorityDescriptionCodeList#3"` = `"unece:PriorityDescriptionCodeList#3"`
 
 Normal: 3.
 
-### Scheduled
+### Scheduled {#scheduled}
 
 > `readonly` **Scheduled**: `"unece:PriorityDescriptionCodeList#4"` = `"unece:PriorityDescriptionCodeList#4"`
 
 Scheduled: 4.
 
-### CategoryA
+### CategoryA {#categorya}
 
 > `readonly` **CategoryA**: `"unece:PriorityDescriptionCodeList#5"` = `"unece:PriorityDescriptionCodeList#5"`
 
 Category A: 5.
 
-### CategoryB
+### CategoryB {#categoryb}
 
 > `readonly` **CategoryB**: `"unece:PriorityDescriptionCodeList#6"` = `"unece:PriorityDescriptionCodeList#6"`
 

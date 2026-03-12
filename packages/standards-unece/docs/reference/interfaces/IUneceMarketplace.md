@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Marketplace
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Marketplace"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### orderingAvailablePeriod?
+### orderingAvailablePeriod? {#orderingavailableperiod}
 
 > `optional` **orderingAvailablePeriod**: [`IUneceAvailablePeriod`](IUneceAvailablePeriod.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/orderingAvailablePeriod
 
 ***
 
-### salesMethodCode?
+### salesMethodCode? {#salesmethodcode}
 
 > `optional` **salesMethodCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/salesMethodCode
 
 ***
 
-### virtualIndicator?
+### virtualIndicator? {#virtualindicator}
 
 > `optional` **virtualIndicator**: `boolean`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/virtualIndicator
 
 ***
 
-### websiteURIId?
+### websiteURIId? {#websiteuriid}
 
 > `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 

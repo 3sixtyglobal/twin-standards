@@ -6,7 +6,7 @@ Values for UneceLegalOrganization typeCode property.
 
 ## Type Declaration
 
-### SpecifiedLegalOrganization
+### SpecifiedLegalOrganization {#specifiedlegalorganization}
 
 > `readonly` **SpecifiedLegalOrganization**: `"unece:specifiedLegalOrganization"` = `"unece:specifiedLegalOrganization"`
 

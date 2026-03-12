@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/VolumeUnitMeasureType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"VolumeUnitMeasureType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### VolumeUnitMeasureTypeValue?
+### VolumeUnitMeasureTypeValue? {#volumeunitmeasuretypevalue}
 
 > `optional` **VolumeUnitMeasureTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/VolumeUnitMeasureTypeValue
 
 ***
 
-### VolumeUnitMeasureTypeCode?
+### VolumeUnitMeasureTypeCode? {#volumeunitmeasuretypecode}
 
 > `optional` **VolumeUnitMeasureTypeCode**: [`UneceVolumeUnitMeasureCode`](../type-aliases/UneceVolumeUnitMeasureCode.md)
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SubordinateLineTradeAgreement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SubordinateLineTradeAgreement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalDocument?
+### additionalDocument? {#additionaldocument}
 
 > `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalDocument
 
 ***
 
-### buyerOrderDocument?
+### buyerOrderDocument? {#buyerorderdocument}
 
 > `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/buyerOrderDocument
 
 ***
 
-### grossPriceProductPrice?
+### grossPriceProductPrice? {#grosspriceproductprice}
 
 > `optional` **grossPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/grossPriceProductPrice
 
 ***
 
-### netPriceProductPrice?
+### netPriceProductPrice? {#netpriceproductprice}
 
 > `optional` **netPriceProductPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/netPriceProductPrice
 
 ***
 
-### sellerOrderDocument?
+### sellerOrderDocument? {#sellerorderdocument}
 
 > `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/GeographicalGrid
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalGrid"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic
+### associatedGeographicalObjectCharacteristic {#associatedgeographicalobjectcharacteristic}
 
 > **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### associatedLocation?
+### associatedLocation? {#associatedlocation}
 
 > `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/associatedLocation
 
 ***
 
-### axisName
+### axisName {#axisname}
 
 > **axisName**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/axisName
 
 ***
 
-### cell
+### cell {#cell}
 
 > **cell**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/cell
 
 ***
 
-### dimensionNumeric?
+### dimensionNumeric? {#dimensionnumeric}
 
 > `optional` **dimensionNumeric**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/dimensionNumeric
 
 ***
 
-### highLimit
+### highLimit {#highlimit}
 
 > **highLimit**: `string`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/highLimit
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### lowLimit
+### lowLimit {#lowlimit}
 
 > **lowLimit**: `string`
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/lowLimit
 
 ***
 
-### offsetVectorNumeric?
+### offsetVectorNumeric? {#offsetvectornumeric}
 
 > `optional` **offsetVectorNumeric**: `string`
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/offsetVectorNumeric
 
 ***
 
-### originAssociatedDirectPositionList
+### originAssociatedDirectPositionList {#originassociateddirectpositionlist}
 
 > **originAssociatedDirectPositionList**: `string`
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/originAssociatedDirectPositionList
 
 ***
 
-### specifiedPlot?
+### specifiedPlot? {#specifiedplot}
 
 > `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
 

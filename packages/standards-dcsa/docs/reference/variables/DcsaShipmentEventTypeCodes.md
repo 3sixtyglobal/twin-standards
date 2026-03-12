@@ -8,103 +8,103 @@ Source: `shipmentEventTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### RECE
+### RECE {#rece}
 
 > `readonly` **RECE**: `"RECE"` = `"RECE"`
 
 Received.
 
-### DRFT
+### DRFT {#drft}
 
 > `readonly` **DRFT**: `"DRFT"` = `"DRFT"`
 
 Drafted.
 
-### PENA
+### PENA {#pena}
 
 > `readonly` **PENA**: `"PENA"` = `"PENA"`
 
 Pending Approval.
 
-### PENU
+### PENU {#penu}
 
 > `readonly` **PENU**: `"PENU"` = `"PENU"`
 
 Pending Update.
 
-### PENC
+### PENC {#penc}
 
 > `readonly` **PENC**: `"PENC"` = `"PENC"`
 
 Pending Confirmation.
 
-### CONF
+### CONF {#conf}
 
 > `readonly` **CONF**: `"CONF"` = `"CONF"`
 
 Confirmed.
 
-### REJE
+### REJE {#reje}
 
 > `readonly` **REJE**: `"REJE"` = `"REJE"`
 
 Rejected.
 
-### APPR
+### APPR {#appr}
 
 > `readonly` **APPR**: `"APPR"` = `"APPR"`
 
 Approved.
 
-### ISSU
+### ISSU {#issu}
 
 > `readonly` **ISSU**: `"ISSU"` = `"ISSU"`
 
 Issued.
 
-### SURR
+### SURR {#surr}
 
 > `readonly` **SURR**: `"SURR"` = `"SURR"`
 
 Surrendered.
 
-### SUBM
+### SUBM {#subm}
 
 > `readonly` **SUBM**: `"SUBM"` = `"SUBM"`
 
 Submitted.
 
-### VOID
+### VOID {#void}
 
 > `readonly` **VOID**: `"VOID"` = `"VOID"`
 
 Void.
 
-### REQS
+### REQS {#reqs}
 
 > `readonly` **REQS**: `"REQS"` = `"REQS"`
 
 Requested.
 
-### CMPL
+### CMPL {#cmpl}
 
 > `readonly` **CMPL**: `"CMPL"` = `"CMPL"`
 
 Completed.
 
-### HOLD
+### HOLD {#hold}
 
 > `readonly` **HOLD**: `"HOLD"` = `"HOLD"`
 
 On Hold.
 
-### RELS
+### RELS {#rels}
 
 > `readonly` **RELS**: `"RELS"` = `"RELS"`
 
 Released.
 
-### CANC
+### CANC {#canc}
 
 > `readonly` **CANC**: `"CANC"` = `"CANC"`
 

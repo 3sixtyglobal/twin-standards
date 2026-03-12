@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AnimalCertification
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AnimalCertification"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### assertion?
+### assertion? {#assertion}
 
 > `optional` **assertion**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/assertion
 
 ***
 
-### assertionCode?
+### assertionCode? {#assertioncode}
 
 > `optional` **assertionCode**: `string`
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/assertionCode
 
 ***
 
-### relatedLocation?
+### relatedLocation? {#relatedlocation}
 
 > `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/relatedLocation
 
 ***
 
-### responsibleAgency?
+### responsibleAgency? {#responsibleagency}
 
 > `optional` **responsibleAgency**: `string`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/responsibleAgency
 
 ***
 
-### specifiedAssertion?
+### specifiedAssertion? {#specifiedassertion}
 
 > `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ***
 
-### standard?
+### standard? {#standard}
 
 > `optional` **standard**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ShippingMarks
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ShippingMarks"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### barcodeLabel?
+### barcodeLabel? {#barcodelabel}
 
 > `optional` **barcodeLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/barcodeLabel
 
 ***
 
-### logisticsShippingMarksMarkingInstructionCode?
+### logisticsShippingMarksMarkingInstructionCode? {#logisticsshippingmarksmarkinginstructioncode}
 
 > `optional` **logisticsShippingMarksMarkingInstructionCode**: [`UneceMarkingInstructionCodeList`](../type-aliases/UneceMarkingInstructionCodeList.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/logisticsShippingMarksMarkingInstructionCode
 
 ***
 
-### logisticsShippingMarksPackageCategoryCode?
+### logisticsShippingMarksPackageCategoryCode? {#logisticsshippingmarkspackagecategorycode}
 
 > `optional` **logisticsShippingMarksPackageCategoryCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/logisticsShippingMarksPackageCategoryCode
 
 ***
 
-### marking?
+### marking? {#marking}
 
 > `optional` **marking**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/marking
 
 ***
 
-### rFIDLabel?
+### rFIDLabel? {#rfidlabel}
 
 > `optional` **rFIDLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/rFIDLabel
 
 ***
 
-### radioactiveLabel?
+### radioactiveLabel? {#radioactivelabel}
 
 > `optional` **radioactiveLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/radioactiveLabel
 
 ***
 
-### vINLabel?
+### vINLabel? {#vinlabel}
 
 > `optional` **vINLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 

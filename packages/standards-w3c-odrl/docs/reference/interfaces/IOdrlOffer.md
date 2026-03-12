@@ -10,7 +10,7 @@ https://www.w3.org/TR/odrl-model/#policy-offer
 
 ## Properties
 
-### @type
+### @type {#type}
 
 > **@type**: `"Offer"`
 
@@ -22,7 +22,7 @@ The type must be "Offer".
 
 ***
 
-### assigner
+### assigner {#assigner}
 
 > **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
 
@@ -35,7 +35,7 @@ Required for Offer policies.
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: [`OdrlContextType`](../type-aliases/OdrlContextType.md)
 
@@ -48,7 +48,7 @@ Must include "https://www.w3.org/ns/odrl.jsonld"
 
 ***
 
-### uid
+### uid {#uid}
 
 > **uid**: `string`
 
@@ -61,7 +61,7 @@ Must be an IRI.
 
 ***
 
-### profile?
+### profile? {#profile}
 
 > `optional` **profile**: `string` \| `string`[]
 
@@ -74,7 +74,7 @@ IRIs identifying the ODRL Profile(s).
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
 > `optional` **assignee**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md))[]
 
@@ -87,7 +87,7 @@ Applies to all rules unless overridden at rule level.
 
 ***
 
-### target?
+### target? {#target}
 
 > `optional` **target**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md))[]
 
@@ -99,7 +99,7 @@ The target asset for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
 > `optional` **action**: `string` \| [`IOdrlAction`](IOdrlAction.md) \| (`string` \| [`IOdrlAction`](IOdrlAction.md))[]
 
@@ -111,7 +111,7 @@ The action associated with the rule.
 
 ***
 
-### inheritFrom?
+### inheritFrom? {#inheritfrom}
 
 > `optional` **inheritFrom**: `string` \| `string`[]
 
@@ -124,7 +124,7 @@ IRIs identifying the parent Policy(ies).
 
 ***
 
-### conflict?
+### conflict? {#conflict}
 
 > `optional` **conflict**: [`ConflictStrategyType`](../type-aliases/ConflictStrategyType.md)
 
@@ -139,7 +139,7 @@ The conflict resolution strategy.
 
 ***
 
-### permission?
+### permission? {#permission}
 
 > `optional` **permission**: [`IOdrlPermission`](IOdrlPermission.md) \| [`IOdrlPermission`](IOdrlPermission.md)[]
 
@@ -152,7 +152,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### prohibition?
+### prohibition? {#prohibition}
 
 > `optional` **prohibition**: [`IOdrlProhibition`](IOdrlProhibition.md) \| [`IOdrlProhibition`](IOdrlProhibition.md)[]
 
@@ -165,7 +165,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### obligation?
+### obligation? {#obligation}
 
 > `optional` **obligation**: [`IOdrlDuty`](IOdrlDuty.md) \| [`IOdrlDuty`](IOdrlDuty.md)[]
 

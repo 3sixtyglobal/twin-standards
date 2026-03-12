@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SubordinateTradeLineItem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SubordinateTradeLineItem"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProduct?
+### applicableProduct? {#applicableproduct}
 
 > `optional` **applicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProduct
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### goodsTypeCode?
+### goodsTypeCode? {#goodstypecode}
 
 > `optional` **goodsTypeCode**: `"unece:GoodsTypeCodeList#ZZZ"`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/goodsTypeCode
 
 ***
 
-### goodsTypeExtensionTypeExtensionCode?
+### goodsTypeExtensionTypeExtensionCode? {#goodstypeextensiontypeextensioncode}
 
 > `optional` **goodsTypeExtensionTypeExtensionCode**: `"unece:GoodsTypeExtensionCodeList#ZZZ"`[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedNote?
+### includedNote? {#includednote}
 
 > `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/includedNote
 
 ***
 
-### requestedResponseTypeCode?
+### requestedResponseTypeCode? {#requestedresponsetypecode}
 
 > `optional` **requestedResponseTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/requestedResponseTypeCode
 
 ***
 
-### responseReasonCode?
+### responseReasonCode? {#responsereasoncode}
 
 > `optional` **responseReasonCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/responseReasonCode
 
 ***
 
-### specifiedProduct?
+### specifiedProduct? {#specifiedproduct}
 
 > `optional` **specifiedProduct**: [`IUneceProduct`](IUneceProduct.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/specifiedProduct
 
 ***
 
-### specifiedSubordinateLineTradeAgreement?
+### specifiedSubordinateLineTradeAgreement? {#specifiedsubordinatelinetradeagreement}
 
 > `optional` **specifiedSubordinateLineTradeAgreement**: [`IUneceSubordinateLineTradeAgreement`](IUneceSubordinateLineTradeAgreement.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedSubordinateLineTradeAgreement
 
 ***
 
-### specifiedSubordinateLineTradeDelivery?
+### specifiedSubordinateLineTradeDelivery? {#specifiedsubordinatelinetradedelivery}
 
 > `optional` **specifiedSubordinateLineTradeDelivery**: [`IUneceSubordinateLineTradeDelivery`](IUneceSubordinateLineTradeDelivery.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedSubordinateLineTradeDelivery
 
 ***
 
-### specifiedSubordinateLineTradeSettlement?
+### specifiedSubordinateLineTradeSettlement? {#specifiedsubordinatelinetradesettlement}
 
 > `optional` **specifiedSubordinateLineTradeSettlement**: [`IUneceSubordinateLineTradeSettlement`](IUneceSubordinateLineTradeSettlement.md)[]
 

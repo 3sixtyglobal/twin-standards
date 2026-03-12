@@ -8,25 +8,25 @@ Source: `portCallPhaseTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### INBD
+### INBD {#inbd}
 
 > `readonly` **INBD**: `"INBD"` = `"INBD"`
 
 Inbound.
 
-### ALGS
+### ALGS {#algs}
 
 > `readonly` **ALGS**: `"ALGS"` = `"ALGS"`
 
 Alongside.
 
-### SHIF
+### SHIF {#shif}
 
 > `readonly` **SHIF**: `"SHIF"` = `"SHIF"`
 
 Shifting.
 
-### OUTB
+### OUTB {#outb}
 
 > `readonly` **OUTB**: `"OUTB"` = `"OUTB"`
 

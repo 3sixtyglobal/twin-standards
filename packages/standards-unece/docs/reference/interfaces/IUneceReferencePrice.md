@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ReferencePrice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ReferencePrice"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### basisQuantity?
+### basisQuantity? {#basisquantity}
 
 > `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ***
 
-### chargeAmount?
+### chargeAmount? {#chargeamount}
 
 > `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ***
 
-### comparisonMethodCode?
+### comparisonMethodCode? {#comparisonmethodcode}
 
 > `optional` **comparisonMethodCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/comparisonMethodCode
 
 ***
 
-### netPriceIndicator?
+### netPriceIndicator? {#netpriceindicator}
 
 > `optional` **netPriceIndicator**: `boolean`
 

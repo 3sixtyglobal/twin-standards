@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/QuantityType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"QuantityType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### QuantityTypeValue?
+### QuantityTypeValue? {#quantitytypevalue}
 
 > `optional` **QuantityTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/QuantityTypeValue
 
 ***
 
-### QuantityTypeCode?
+### QuantityTypeCode? {#quantitytypecode}
 
 > `optional` **QuantityTypeCode**: [`IUneceQuantityCode`](IUneceQuantityCode.md)
 

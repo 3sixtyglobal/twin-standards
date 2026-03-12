@@ -6,7 +6,7 @@ Values for UneceSpecifiedFeature typeCode property.
 
 ## Type Declaration
 
-### DistinctiveFeature
+### DistinctiveFeature {#distinctivefeature}
 
 > `readonly` **DistinctiveFeature**: `"unece:distinctiveFeature"` = `"unece:distinctiveFeature"`
 

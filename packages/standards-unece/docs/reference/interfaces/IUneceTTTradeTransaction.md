@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/TTTradeTransaction
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTTradeTransaction"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### typeId?
+### typeId? {#typeid}
 
 > `optional` **typeId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/typeId
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 

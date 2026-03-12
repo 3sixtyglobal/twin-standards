@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/QuantityAnalysis
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"QuantityAnalysis"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualQuantity?
+### actualQuantity? {#actualquantity}
 
 > `optional` **actualQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ***
 
-### actualQuantityDimension?
+### actualQuantityDimension? {#actualquantitydimension}
 
 > `optional` **actualQuantityDimension**: [`IUneceWorkItemDimension`](IUneceWorkItemDimension.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualQuantityDimension
 
 ***
 
-### actualQuantityPercent?
+### actualQuantityPercent? {#actualquantitypercent}
 
 > `optional` **actualQuantityPercent**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/actualQuantityPercent
 
 ***
 
-### alternativeClassificationCode?
+### alternativeClassificationCode? {#alternativeclassificationcode}
 
 > `optional` **alternativeClassificationCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ***
 
-### breakdownQuantityAnalysis?
+### breakdownQuantityAnalysis? {#breakdownquantityanalysis}
 
 > `optional` **breakdownQuantityAnalysis**: `IUneceQuantityAnalysis`[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/breakdownQuantityAnalysis
 
 ***
 
-### changedStatus?
+### changedStatus? {#changedstatus}
 
 > `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/changedStatus
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### primaryClassificationCode?
+### primaryClassificationCode? {#primaryclassificationcode}
 
 > `optional` **primaryClassificationCode**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/primaryClassificationCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -6,25 +6,25 @@ The types for ODRL Status.
 
 ## Type Declaration
 
-### Active
+### Active {#active}
 
 > `readonly` **Active**: `"active"` = `"active"`
 
 Active type.
 
-### Inactive
+### Inactive {#inactive}
 
 > `readonly` **Inactive**: `"inactive"` = `"inactive"`
 
 Inactive type.
 
-### Pending
+### Pending {#pending}
 
 > `readonly` **Pending**: `"pending"` = `"pending"`
 
 Pending type.
 
-### Revoked
+### Revoked {#revoked}
 
 > `readonly` **Revoked**: `"revoked"` = `"revoked"`
 

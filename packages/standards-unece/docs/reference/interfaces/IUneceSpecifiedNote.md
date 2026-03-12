@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedNote
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedNote"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedNoteSubjectCode?
+### specifiedNoteSubjectCode? {#specifiednotesubjectcode}
 
 > `optional` **specifiedNoteSubjectCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/specifiedNoteSubjectCode
 
 ***
 
-### subject?
+### subject? {#subject}
 
 > `optional` **subject**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/subject
 
 ***
 
-### subjectCode?
+### subjectCode? {#subjectcode}
 
 > `optional` **subjectCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Envelope
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Envelope"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### customizationId?
+### customizationId? {#customizationid}
 
 > `optional` **customizationId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/customizationId
 
 ***
 
-### includedPayload?
+### includedPayload? {#includedpayload}
 
 > `optional` **includedPayload**: [`IUnecePayload`](IUnecePayload.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/includedPayload
 
 ***
 
-### metadataDocument
+### metadataDocument {#metadatadocument}
 
 > **metadataDocument**: [`IUneceXHEDocument`](IUneceXHEDocument.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/metadataDocument
 
 ***
 
-### payloadIncludedIndicator?
+### payloadIncludedIndicator? {#payloadincludedindicator}
 
 > `optional` **payloadIncludedIndicator**: `boolean`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/payloadIncludedIndicator
 
 ***
 
-### profileExecutionId?
+### profileExecutionId? {#profileexecutionid}
 
 > `optional` **profileExecutionId**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/profileExecutionId
 
 ***
 
-### profileId?
+### profileId? {#profileid}
 
 > `optional` **profileId**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/profileId
 
 ***
 
-### versionId
+### versionId {#versionid}
 
 > **versionId**: `string` \| `IJsonLdValueObject`
 

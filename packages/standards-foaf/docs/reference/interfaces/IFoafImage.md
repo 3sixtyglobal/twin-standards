@@ -12,7 +12,7 @@ http://xmlns.com/foaf/0.1/
 
 ## Properties
 
-### @id?
+### @id? {#id}
 
 > `optional` **@id**: `string`
 
@@ -24,7 +24,7 @@ The unique identifier for the FOAF object.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -40,7 +40,7 @@ http://xmlns.com/foaf/spec/#term_name
 
 ***
 
-### title?
+### title? {#title}
 
 > `optional` **title**: `string`
 
@@ -56,7 +56,7 @@ http://xmlns.com/foaf/spec/#term_title
 
 ***
 
-### mbox?
+### mbox? {#mbox}
 
 > `optional` **mbox**: `string`
 
@@ -72,7 +72,7 @@ http://xmlns.com/foaf/spec/#term_mbox
 
 ***
 
-### homepage?
+### homepage? {#homepage}
 
 > `optional` **homepage**: `string`
 
@@ -88,7 +88,7 @@ http://xmlns.com/foaf/spec/#term_homepage
 
 ***
 
-### depiction?
+### depiction? {#depiction}
 
 > `optional` **depiction**: `IFoafImage`
 
@@ -104,7 +104,7 @@ http://xmlns.com/foaf/spec/#term_depiction
 
 ***
 
-### topic?
+### topic? {#topic}
 
 > `optional` **topic**: `string`
 
@@ -120,7 +120,7 @@ http://xmlns.com/foaf/spec/#term_topic
 
 ***
 
-### primaryTopic?
+### primaryTopic? {#primarytopic}
 
 > `optional` **primaryTopic**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
@@ -136,7 +136,7 @@ http://xmlns.com/foaf/spec/#term_primaryTopic
 
 ***
 
-### sha1?
+### sha1? {#sha1}
 
 > `optional` **sha1**: `string`
 
@@ -152,7 +152,7 @@ http://xmlns.com/foaf/spec/#term_sha1sum
 
 ***
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`FoafContextType`](../type-aliases/FoafContextType.md)
 
@@ -164,7 +164,7 @@ The LD Context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"Image"`
 
@@ -176,7 +176,7 @@ Type.
 
 ***
 
-### depicts?
+### depicts? {#depicts}
 
 > `optional` **depicts**: `IJsonLdNodeObject`
 
@@ -188,7 +188,7 @@ http://xmlns.com/foaf/spec/#term_depicts
 
 ***
 
-### thumbnail?
+### thumbnail? {#thumbnail}
 
 > `optional` **thumbnail**: `IFoafImage`
 

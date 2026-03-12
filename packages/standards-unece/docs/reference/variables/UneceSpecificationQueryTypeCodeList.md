@@ -6,7 +6,7 @@ Values for UneceSpecificationQuery typeCode property.
 
 ## Type Declaration
 
-### RequestingQuery
+### RequestingQuery {#requestingquery}
 
 > `readonly` **RequestingQuery**: `"unece:requestingQuery"` = `"unece:requestingQuery"`
 

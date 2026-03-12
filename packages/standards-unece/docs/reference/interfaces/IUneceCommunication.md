@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Communication
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Communication"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### access?
+### access? {#access}
 
 > `optional` **access**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/access
 
 ***
 
-### areaNumberCode?
+### areaNumberCode? {#areanumbercode}
 
 > `optional` **areaNumberCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/areaNumberCode
 
 ***
 
-### communicationChannelCode?
+### communicationChannelCode? {#communicationchannelcode}
 
 > `optional` **communicationChannelCode**: [`UneceCommunicationChannelCodeList`](../type-aliases/UneceCommunicationChannelCodeList.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/communicationChannelCode
 
 ***
 
-### completeNumber?
+### completeNumber? {#completenumber}
 
 > `optional` **completeNumber**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/completeNumber
 
 ***
 
-### countryNumberCode?
+### countryNumberCode? {#countrynumbercode}
 
 > `optional` **countryNumberCode**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/countryNumberCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### emailURIId?
+### emailURIId? {#emailuriid}
 
 > `optional` **emailURIId**: `string` \| `IJsonLdValueObject`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/emailURIId
 
 ***
 
-### extensionNumber?
+### extensionNumber? {#extensionnumber}
 
 > `optional` **extensionNumber**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/extensionNumber
 
 ***
 
-### hTMLPreferredIndicator?
+### hTMLPreferredIndicator? {#htmlpreferredindicator}
 
 > `optional` **hTMLPreferredIndicator**: `boolean`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/hTMLPreferredIndicator
 
 ***
 
-### invalidIndicator?
+### invalidIndicator? {#invalidindicator}
 
 > `optional` **invalidIndicator**: `boolean`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/invalidIndicator
 
 ***
 
-### localNumber?
+### localNumber? {#localnumber}
 
 > `optional` **localNumber**: `string`
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/localNumber
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ***
 
-### useCode?
+### useCode? {#usecode}
 
 > `optional` **useCode**: `string`
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/useCode
 
 ***
 
-### websiteURIId?
+### websiteURIId? {#websiteuriid}
 
 > `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
 

@@ -8,7 +8,7 @@ Interface describing a verifiable presentation.
 
 ## Properties
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -20,7 +20,7 @@ Provide a unique identifier for the presentation.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string` \| `string`[]
 
@@ -32,7 +32,7 @@ The types of the data stored in the verifiable credential.
 
 ***
 
-### holder?
+### holder? {#holder}
 
 > `optional` **holder**: `string`
 
@@ -44,7 +44,7 @@ The entity generating the presentation.
 
 ***
 
-### proof?
+### proof? {#proof}
 
 > `optional` **proof**: [`IProof`](../type-aliases/IProof.md) \| [`IProof`](../type-aliases/IProof.md)[]
 
@@ -57,7 +57,7 @@ Optional if a different proof method is used, such as JWT.
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: `"https://www.w3.org/ns/credentials/v2"` \| \[`"https://www.w3.org/ns/credentials/v2"`, `...IJsonLdContextDefinitionElement[]`\]
 
@@ -65,7 +65,7 @@ The context for the verifiable presentation.
 
 ***
 
-### verifiableCredential?
+### verifiableCredential? {#verifiablecredential}
 
 > `optional` **verifiableCredential**: (`string` \| [`IDidVerifiableCredentialV2`](IDidVerifiableCredentialV2.md))[]
 

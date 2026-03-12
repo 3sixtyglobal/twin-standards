@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ConformanceCertificate
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ConformanceCertificate"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### certificateTypeCode?
+### certificateTypeCode? {#certificatetypecode}
 
 > `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issuingPartyId?
+### issuingPartyId? {#issuingpartyid}
 
 > `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/issuingPartyId
 
 ***
 
-### softwareOperatingSystem?
+### softwareOperatingSystem? {#softwareoperatingsystem}
 
 > `optional` **softwareOperatingSystem**: `string`
 

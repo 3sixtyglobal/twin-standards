@@ -6,7 +6,7 @@ Values for UnecePreventiveAction typeCode property.
 
 ## Type Declaration
 
-### ApplicablePreventiveAction
+### ApplicablePreventiveAction {#applicablepreventiveaction}
 
 > `readonly` **ApplicablePreventiveAction**: `"unece:applicablePreventiveAction"` = `"unece:applicablePreventiveAction"`
 

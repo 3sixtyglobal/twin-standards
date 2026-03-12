@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ProductionDevice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductionDevice"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableParameter?
+### applicableParameter? {#applicableparameter}
 
 > `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ***
 
-### combinedMachine?
+### combinedMachine? {#combinedmachine}
 
 > `optional` **combinedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/combinedMachine
 
 ***
 
-### combinedProductionDevice?
+### combinedProductionDevice? {#combinedproductiondevice}
 
 > `optional` **combinedProductionDevice**: `IUneceProductionDevice`[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/combinedProductionDevice
 
 ***
 
-### functionDescription?
+### functionDescription? {#functiondescription}
 
 > `optional` **functionDescription**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/functionDescription
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inputApplicableBatch?
+### inputApplicableBatch? {#inputapplicablebatch}
 
 > `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/inputApplicableBatch
 
 ***
 
-### inputApplicableMaterial?
+### inputApplicableMaterial? {#inputapplicablematerial}
 
 > `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/inputApplicableMaterial
 
 ***
 
-### inputApplicableProduct?
+### inputApplicableProduct? {#inputapplicableproduct}
 
 > `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/inputApplicableProduct
 
 ***
 
-### inputCapacityMeasure?
+### inputCapacityMeasure? {#inputcapacitymeasure}
 
 > `optional` **inputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/inputCapacityMeasure
 
 ***
 
-### outputApplicableBatch?
+### outputApplicableBatch? {#outputapplicablebatch}
 
 > `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/outputApplicableBatch
 
 ***
 
-### outputApplicableMaterial?
+### outputApplicableMaterial? {#outputapplicablematerial}
 
 > `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/outputApplicableMaterial
 
 ***
 
-### outputApplicableProduct?
+### outputApplicableProduct? {#outputapplicableproduct}
 
 > `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/outputApplicableProduct
 
 ***
 
-### outputCapacityMeasure?
+### outputCapacityMeasure? {#outputcapacitymeasure}
 
 > `optional` **outputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/outputCapacityMeasure
 
 ***
 
-### productionDeviceType?
+### productionDeviceType? {#productiondevicetype}
 
 > `optional` **productionDeviceType**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/productionDeviceType
 
 ***
 
-### reportingIOTDeviceSupplyChainEvent?
+### reportingIOTDeviceSupplyChainEvent? {#reportingiotdevicesupplychainevent}
 
 > `optional` **reportingIOTDeviceSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/reportingIOTDeviceSupplyChainEvent
 
 ***
 
-### requestedOperationalApplicableParameter?
+### requestedOperationalApplicableParameter? {#requestedoperationalapplicableparameter}
 
 > `optional` **requestedOperationalApplicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/requestedOperationalApplicableParameter
 
 ***
 
-### specifiedLocation?
+### specifiedLocation? {#specifiedlocation}
 
 > `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ***
 
-### specifiedProductionUnit?
+### specifiedProductionUnit? {#specifiedproductionunit}
 
 > `optional` **specifiedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/specifiedProductionUnit
 
 ***
 
-### subordinateTypeCode?
+### subordinateTypeCode? {#subordinatetypecode}
 
 > `optional` **subordinateTypeCode**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/subordinateTypeCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Cargo
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Cargo"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### cargoCategoryTypeCode?
+### cargoCategoryTypeCode? {#cargocategorytypecode}
 
 > `optional` **cargoCategoryTypeCode**: [`UneceCargoCategoryCodeList`](../type-aliases/UneceCargoCategoryCodeList.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/cargoCategoryTypeCode
 
 ***
 
-### cargoCommodityCategoryStatisticalClassificationCode?
+### cargoCommodityCategoryStatisticalClassificationCode? {#cargocommoditycategorystatisticalclassificationcode}
 
 > `optional` **cargoCommodityCategoryStatisticalClassificationCode**: `"unece:CargoCommodityCategoryCodeList#ZZZ"`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/cargoCommodityCategoryStatisticalClassificationC
 
 ***
 
-### cargoOperationalCategoryCode?
+### cargoOperationalCategoryCode? {#cargooperationalcategorycode}
 
 > `optional` **cargoOperationalCategoryCode**: [`UneceCargoOperationalCategoryCodeList`](../type-aliases/UneceCargoOperationalCategoryCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/cargoOperationalCategoryCode
 
 ***
 
-### identification?
+### identification? {#identification}
 
 > `optional` **identification**: `string`
 

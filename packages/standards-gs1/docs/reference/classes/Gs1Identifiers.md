@@ -14,7 +14,7 @@ Handle all identifier types for GS1.
 
 ## Methods
 
-### registerIdentifiers()
+### registerIdentifiers() {#registeridentifiers}
 
 > `static` **registerIdentifiers**(): `void`
 

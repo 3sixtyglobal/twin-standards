@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DocumentStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DocumentStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### condition?
+### condition? {#condition}
 
 > `optional` **condition**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/condition
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### documentStatusConditionCode?
+### documentStatusConditionCode? {#documentstatusconditioncode}
 
 > `optional` **documentStatusConditionCode**: [`UneceDocumentStatusCodeList`](../type-aliases/UneceDocumentStatusCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/documentStatusConditionCode
 
 ***
 
-### documentStatusProcessConditionCode?
+### documentStatusProcessConditionCode? {#documentstatusprocessconditioncode}
 
 > `optional` **documentStatusProcessConditionCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/documentStatusProcessConditionCode
 
 ***
 
-### documentStatusReasonCode?
+### documentStatusReasonCode? {#documentstatusreasoncode}
 
 > `optional` **documentStatusReasonCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/documentStatusReasonCode
 
 ***
 
-### includedNote?
+### includedNote? {#includednote}
 
 > `optional` **includedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/includedNote
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### invalidInformation?
+### invalidInformation? {#invalidinformation}
 
 > `optional` **invalidInformation**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/invalidInformation
 
 ***
 
-### processCondition?
+### processCondition? {#processcondition}
 
 > `optional` **processCondition**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/processCondition
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### reasonClassification?
+### reasonClassification? {#reasonclassification}
 
 > `optional` **reasonClassification**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/reasonClassification
 
 ***
 
-### reasonClassificationCode?
+### reasonClassificationCode? {#reasonclassificationcode}
 
 > `optional` **reasonClassificationCode**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/reasonClassificationCode
 
 ***
 
-### reasonInformation?
+### reasonInformation? {#reasoninformation}
 
 > `optional` **reasonInformation**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/reasonInformation
 
 ***
 
-### reasonInformationCode?
+### reasonInformationCode? {#reasoninformationcode}
 
 > `optional` **reasonInformationCode**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/reasonInformationCode
 
 ***
 
-### referenceDateTime?
+### referenceDateTime? {#referencedatetime}
 
 > `optional` **referenceDateTime**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ***
 
-### requestedAction?
+### requestedAction? {#requestedaction}
 
 > `optional` **requestedAction**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/requestedAction
 
 ***
 
-### requestedActionCode?
+### requestedActionCode? {#requestedactioncode}
 
 > `optional` **requestedActionCode**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### specifiedDocumentCharacteristic?
+### specifiedDocumentCharacteristic? {#specifieddocumentcharacteristic}
 
 > `optional` **specifiedDocumentCharacteristic**: [`IUneceDocumentCharacteristic`](IUneceDocumentCharacteristic.md)[]
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/specifiedDocumentCharacteristic
 
 ***
 
-### validInformation?
+### validInformation? {#validinformation}
 
 > `optional` **validInformation**: `string`
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/validInformation
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 

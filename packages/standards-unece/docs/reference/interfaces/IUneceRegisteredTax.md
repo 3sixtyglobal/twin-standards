@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RegisteredTax
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RegisteredTax"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### currencyCode?
+### currencyCode? {#currencycode}
 
 > `optional` **currencyCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/currencyCode
 
 ***
 
-### customsDutyIndicator?
+### customsDutyIndicator? {#customsdutyindicator}
 
 > `optional` **customsDutyIndicator**: `boolean`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/customsDutyIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### exemptionReason?
+### exemptionReason? {#exemptionreason}
 
 > `optional` **exemptionReason**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/exemptionReason
 
 ***
 
-### exemptionReasonCode?
+### exemptionReasonCode? {#exemptionreasoncode}
 
 > `optional` **exemptionReasonCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/exemptionReasonCode
 
 ***
 
-### jurisdiction?
+### jurisdiction? {#jurisdiction}
 
 > `optional` **jurisdiction**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/jurisdiction
 
 ***
 
-### registeredTaxTypeCode?
+### registeredTaxTypeCode? {#registeredtaxtypecode}
 
 > `optional` **registeredTaxTypeCode**: `string`
 

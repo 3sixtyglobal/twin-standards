@@ -6,37 +6,37 @@ The types for FOAF.
 
 ## Type Declaration
 
-### Document
+### Document {#document}
 
 > `readonly` **Document**: `"Document"` = `"Document"`
 
 Document.
 
-### Image
+### Image {#image}
 
 > `readonly` **Image**: `"Image"` = `"Image"`
 
 Image.
 
-### Agent
+### Agent {#agent}
 
 > `readonly` **Agent**: `"Agent"` = `"Agent"`
 
 Agent.
 
-### Person
+### Person {#person}
 
 > `readonly` **Person**: `"Person"` = `"Person"`
 
 Person.
 
-### Organization
+### Organization {#organization}
 
 > `readonly` **Organization**: `"Organization"` = `"Organization"`
 
 Organization.
 
-### Group
+### Group {#group}
 
 > `readonly` **Group**: `"Group"` = `"Group"`
 

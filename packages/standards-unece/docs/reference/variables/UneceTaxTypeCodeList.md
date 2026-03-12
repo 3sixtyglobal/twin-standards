@@ -6,337 +6,337 @@ A character string used to represent or replace a tax type.
 
 ## Type Declaration
 
-### PetroleumTax
+### PetroleumTax {#petroleumtax}
 
 > `readonly` **PetroleumTax**: `"unece:TaxTypeCodeList#AAA"` = `"unece:TaxTypeCodeList#AAA"`
 
 Petroleum tax: AAA.
 
-### ProvisionalCountervailingDutyCash
+### ProvisionalCountervailingDutyCash {#provisionalcountervailingdutycash}
 
 > `readonly` **ProvisionalCountervailingDutyCash**: `"unece:TaxTypeCodeList#AAB"` = `"unece:TaxTypeCodeList#AAB"`
 
 Provisional countervailing duty cash: AAB.
 
-### ProvisionalCountervailingDutyBond
+### ProvisionalCountervailingDutyBond {#provisionalcountervailingdutybond}
 
 > `readonly` **ProvisionalCountervailingDutyBond**: `"unece:TaxTypeCodeList#AAC"` = `"unece:TaxTypeCodeList#AAC"`
 
 Provisional countervailing duty bond: AAC.
 
-### TobaccoTax
+### TobaccoTax {#tobaccotax}
 
 > `readonly` **TobaccoTax**: `"unece:TaxTypeCodeList#AAD"` = `"unece:TaxTypeCodeList#AAD"`
 
 Tobacco tax: AAD.
 
-### EnergyFee
+### EnergyFee {#energyfee}
 
 > `readonly` **EnergyFee**: `"unece:TaxTypeCodeList#AAE"` = `"unece:TaxTypeCodeList#AAE"`
 
 Energy fee: AAE.
 
-### CoffeeTax
+### CoffeeTax {#coffeetax}
 
 > `readonly` **CoffeeTax**: `"unece:TaxTypeCodeList#AAF"` = `"unece:TaxTypeCodeList#AAF"`
 
 Coffee tax: AAF.
 
-### HarmonisedSalesTaxCanadian
+### HarmonisedSalesTaxCanadian {#harmonisedsalestaxcanadian}
 
 > `readonly` **HarmonisedSalesTaxCanadian**: `"unece:TaxTypeCodeList#AAG"` = `"unece:TaxTypeCodeList#AAG"`
 
 Harmonised sales tax, Canadian: AAG.
 
-### QuebecSalesTax
+### QuebecSalesTax {#quebecsalestax}
 
 > `readonly` **QuebecSalesTax**: `"unece:TaxTypeCodeList#AAH"` = `"unece:TaxTypeCodeList#AAH"`
 
 Quebec sales tax: AAH.
 
-### CanadianProvincialSalesTax
+### CanadianProvincialSalesTax {#canadianprovincialsalestax}
 
 > `readonly` **CanadianProvincialSalesTax**: `"unece:TaxTypeCodeList#AAI"` = `"unece:TaxTypeCodeList#AAI"`
 
 Canadian provincial sales tax: AAI.
 
-### TaxOnReplacementPart
+### TaxOnReplacementPart {#taxonreplacementpart}
 
 > `readonly` **TaxOnReplacementPart**: `"unece:TaxTypeCodeList#AAJ"` = `"unece:TaxTypeCodeList#AAJ"`
 
 Tax on replacement part: AAJ.
 
-### MineralOilTax
+### MineralOilTax {#mineraloiltax}
 
 > `readonly` **MineralOilTax**: `"unece:TaxTypeCodeList#AAK"` = `"unece:TaxTypeCodeList#AAK"`
 
 Mineral oil tax: AAK.
 
-### SpecialTax
+### SpecialTax {#specialtax}
 
 > `readonly` **SpecialTax**: `"unece:TaxTypeCodeList#AAL"` = `"unece:TaxTypeCodeList#AAL"`
 
 Special tax: AAL.
 
-### InsuranceTax
+### InsuranceTax {#insurancetax}
 
 > `readonly` **InsuranceTax**: `"unece:TaxTypeCodeList#AAM"` = `"unece:TaxTypeCodeList#AAM"`
 
 Insurance tax: AAM.
 
-### ProvincialCannabisTax
+### ProvincialCannabisTax {#provincialcannabistax}
 
 > `readonly` **ProvincialCannabisTax**: `"unece:TaxTypeCodeList#AAO"` = `"unece:TaxTypeCodeList#AAO"`
 
 Provincial Cannabis Tax: AAO.
 
-### OutstandingDutyInterest
+### OutstandingDutyInterest {#outstandingdutyinterest}
 
 > `readonly` **OutstandingDutyInterest**: `"unece:TaxTypeCodeList#AAP"` = `"unece:TaxTypeCodeList#AAP"`
 
 Outstanding duty interest: AAP.
 
-### AntiDumpingDuty
+### AntiDumpingDuty {#antidumpingduty}
 
 > `readonly` **AntiDumpingDuty**: `"unece:TaxTypeCodeList#ADD"` = `"unece:TaxTypeCodeList#ADD"`
 
 Anti-dumping duty: ADD.
 
-### StampDuty
+### StampDuty {#stampduty}
 
 > `readonly` **StampDuty**: `"unece:TaxTypeCodeList#BOL"` = `"unece:TaxTypeCodeList#BOL"`
 
 Stamp duty (Imposta di Bollo): BOL.
 
-### AgriculturalLevy
+### AgriculturalLevy {#agriculturallevy}
 
 > `readonly` **AgriculturalLevy**: `"unece:TaxTypeCodeList#CAP"` = `"unece:TaxTypeCodeList#CAP"`
 
 Agricultural levy: CAP.
 
-### CarTax
+### CarTax {#cartax}
 
 > `readonly` **CarTax**: `"unece:TaxTypeCodeList#CAR"` = `"unece:TaxTypeCodeList#CAR"`
 
 Car tax: CAR.
 
-### PaperConsortiumTax
+### PaperConsortiumTax {#paperconsortiumtax}
 
 > `readonly` **PaperConsortiumTax**: `"unece:TaxTypeCodeList#COC"` = `"unece:TaxTypeCodeList#COC"`
 
 Paper consortium tax (Italy): COC.
 
-### CommoditySpecificTax
+### CommoditySpecificTax {#commodityspecifictax}
 
 > `readonly` **CommoditySpecificTax**: `"unece:TaxTypeCodeList#CST"` = `"unece:TaxTypeCodeList#CST"`
 
 Commodity specific tax: CST.
 
-### CustomsDuty
+### CustomsDuty {#customsduty}
 
 > `readonly` **CustomsDuty**: `"unece:TaxTypeCodeList#CUD"` = `"unece:TaxTypeCodeList#CUD"`
 
 Customs duty: CUD.
 
-### CountervailingDuty
+### CountervailingDuty {#countervailingduty}
 
 > `readonly` **CountervailingDuty**: `"unece:TaxTypeCodeList#CVD"` = `"unece:TaxTypeCodeList#CVD"`
 
 Countervailing duty: CVD.
 
-### EnvironmentalTax
+### EnvironmentalTax {#environmentaltax}
 
 > `readonly` **EnvironmentalTax**: `"unece:TaxTypeCodeList#ENV"` = `"unece:TaxTypeCodeList#ENV"`
 
 Environmental tax: ENV.
 
-### ExciseDuty
+### ExciseDuty {#exciseduty}
 
 > `readonly` **ExciseDuty**: `"unece:TaxTypeCodeList#EXC"` = `"unece:TaxTypeCodeList#EXC"`
 
 Excise duty: EXC.
 
-### AgriculturalExportRebate
+### AgriculturalExportRebate {#agriculturalexportrebate}
 
 > `readonly` **AgriculturalExportRebate**: `"unece:TaxTypeCodeList#EXP"` = `"unece:TaxTypeCodeList#EXP"`
 
 Agricultural export rebate: EXP.
 
-### FederalExciseTax
+### FederalExciseTax {#federalexcisetax}
 
 > `readonly` **FederalExciseTax**: `"unece:TaxTypeCodeList#FET"` = `"unece:TaxTypeCodeList#FET"`
 
 Federal excise tax: FET.
 
-### Free
+### Free {#free}
 
 > `readonly` **Free**: `"unece:TaxTypeCodeList#FRE"` = `"unece:TaxTypeCodeList#FRE"`
 
 Free: FRE.
 
-### GeneralConstructionTax
+### GeneralConstructionTax {#generalconstructiontax}
 
 > `readonly` **GeneralConstructionTax**: `"unece:TaxTypeCodeList#GCN"` = `"unece:TaxTypeCodeList#GCN"`
 
 General construction tax: GCN.
 
-### GoodsAndServicesTax
+### GoodsAndServicesTax {#goodsandservicestax}
 
 > `readonly` **GoodsAndServicesTax**: `"unece:TaxTypeCodeList#GST"` = `"unece:TaxTypeCodeList#GST"`
 
 Goods and services tax: GST.
 
-### IlluminantsTax
+### IlluminantsTax {#illuminantstax}
 
 > `readonly` **IlluminantsTax**: `"unece:TaxTypeCodeList#ILL"` = `"unece:TaxTypeCodeList#ILL"`
 
 Illuminants tax: ILL.
 
-### ImportTax
+### ImportTax {#importtax}
 
 > `readonly` **ImportTax**: `"unece:TaxTypeCodeList#IMP"` = `"unece:TaxTypeCodeList#IMP"`
 
 Import tax: IMP.
 
-### IndividualTax
+### IndividualTax {#individualtax}
 
 > `readonly` **IndividualTax**: `"unece:TaxTypeCodeList#IND"` = `"unece:TaxTypeCodeList#IND"`
 
 Individual tax: IND.
 
-### BusinessLicenseFee
+### BusinessLicenseFee {#businesslicensefee}
 
 > `readonly` **BusinessLicenseFee**: `"unece:TaxTypeCodeList#LAC"` = `"unece:TaxTypeCodeList#LAC"`
 
 Business license fee: LAC.
 
-### LocalConstructionTax
+### LocalConstructionTax {#localconstructiontax}
 
 > `readonly` **LocalConstructionTax**: `"unece:TaxTypeCodeList#LCN"` = `"unece:TaxTypeCodeList#LCN"`
 
 Local construction tax: LCN.
 
-### LightDuesPayable
+### LightDuesPayable {#lightduespayable}
 
 > `readonly` **LightDuesPayable**: `"unece:TaxTypeCodeList#LDP"` = `"unece:TaxTypeCodeList#LDP"`
 
 Light dues payable: LDP.
 
-### LocalSalesTax
+### LocalSalesTax {#localsalestax}
 
 > `readonly` **LocalSalesTax**: `"unece:TaxTypeCodeList#LOC"` = `"unece:TaxTypeCodeList#LOC"`
 
 Local sales tax: LOC.
 
-### LustTax
+### LustTax {#lusttax}
 
 > `readonly` **LustTax**: `"unece:TaxTypeCodeList#LST"` = `"unece:TaxTypeCodeList#LST"`
 
 Lust tax: LST.
 
-### MonetaryCompensatoryAmount
+### MonetaryCompensatoryAmount {#monetarycompensatoryamount}
 
 > `readonly` **MonetaryCompensatoryAmount**: `"unece:TaxTypeCodeList#MCA"` = `"unece:TaxTypeCodeList#MCA"`
 
 Monetary compensatory amount: MCA.
 
-### MiscellaneousCashDeposit
+### MiscellaneousCashDeposit {#miscellaneouscashdeposit}
 
 > `readonly` **MiscellaneousCashDeposit**: `"unece:TaxTypeCodeList#MCD"` = `"unece:TaxTypeCodeList#MCD"`
 
 Miscellaneous cash deposit: MCD.
 
-### OtherTaxes
+### OtherTaxes {#othertaxes}
 
 > `readonly` **OtherTaxes**: `"unece:TaxTypeCodeList#OTH"` = `"unece:TaxTypeCodeList#OTH"`
 
 Other taxes: OTH.
 
-### ProvisionalDutyBond
+### ProvisionalDutyBond {#provisionaldutybond}
 
 > `readonly` **ProvisionalDutyBond**: `"unece:TaxTypeCodeList#PDB"` = `"unece:TaxTypeCodeList#PDB"`
 
 Provisional duty bond: PDB.
 
-### ProvisionalDutyCash
+### ProvisionalDutyCash {#provisionaldutycash}
 
 > `readonly` **ProvisionalDutyCash**: `"unece:TaxTypeCodeList#PDC"` = `"unece:TaxTypeCodeList#PDC"`
 
 Provisional duty cash: PDC.
 
-### PreferenceDuty
+### PreferenceDuty {#preferenceduty}
 
 > `readonly` **PreferenceDuty**: `"unece:TaxTypeCodeList#PRF"` = `"unece:TaxTypeCodeList#PRF"`
 
 Preference duty: PRF.
 
-### SpecialConstructionTax
+### SpecialConstructionTax {#specialconstructiontax}
 
 > `readonly` **SpecialConstructionTax**: `"unece:TaxTypeCodeList#SCN"` = `"unece:TaxTypeCodeList#SCN"`
 
 Special construction tax: SCN.
 
-### ShiftedSocialSecurities
+### ShiftedSocialSecurities {#shiftedsocialsecurities}
 
 > `readonly` **ShiftedSocialSecurities**: `"unece:TaxTypeCodeList#SSS"` = `"unece:TaxTypeCodeList#SSS"`
 
 Shifted social securities: SSS.
 
-### StateProvincialSalesTax
+### StateProvincialSalesTax {#stateprovincialsalestax}
 
 > `readonly` **StateProvincialSalesTax**: `"unece:TaxTypeCodeList#STT"` = `"unece:TaxTypeCodeList#STT"`
 
 State/provincial sales tax: STT.
 
-### SuspendedDuty
+### SuspendedDuty {#suspendedduty}
 
 > `readonly` **SuspendedDuty**: `"unece:TaxTypeCodeList#SUP"` = `"unece:TaxTypeCodeList#SUP"`
 
 Suspended duty: SUP.
 
-### Surtax
+### Surtax {#surtax}
 
 > `readonly` **Surtax**: `"unece:TaxTypeCodeList#SUR"` = `"unece:TaxTypeCodeList#SUR"`
 
 Surtax: SUR.
 
-### ShiftedWageTax
+### ShiftedWageTax {#shiftedwagetax}
 
 > `readonly` **ShiftedWageTax**: `"unece:TaxTypeCodeList#SWT"` = `"unece:TaxTypeCodeList#SWT"`
 
 Shifted wage tax: SWT.
 
-### AlcoholMarkTax
+### AlcoholMarkTax {#alcoholmarktax}
 
 > `readonly` **AlcoholMarkTax**: `"unece:TaxTypeCodeList#TAC"` = `"unece:TaxTypeCodeList#TAC"`
 
 Alcohol mark tax: TAC.
 
-### Total
+### Total {#total}
 
 > `readonly` **Total**: `"unece:TaxTypeCodeList#TOT"` = `"unece:TaxTypeCodeList#TOT"`
 
 Total: TOT.
 
-### TurnoverTax
+### TurnoverTax {#turnovertax}
 
 > `readonly` **TurnoverTax**: `"unece:TaxTypeCodeList#TOX"` = `"unece:TaxTypeCodeList#TOX"`
 
 Turnover tax: TOX.
 
-### TonnageTaxes
+### TonnageTaxes {#tonnagetaxes}
 
 > `readonly` **TonnageTaxes**: `"unece:TaxTypeCodeList#TTA"` = `"unece:TaxTypeCodeList#TTA"`
 
 Tonnage taxes: TTA.
 
-### ValuationDeposit
+### ValuationDeposit {#valuationdeposit}
 
 > `readonly` **ValuationDeposit**: `"unece:TaxTypeCodeList#VAD"` = `"unece:TaxTypeCodeList#VAD"`
 
 Valuation deposit: VAD.
 
-### ValueAddedTax
+### ValueAddedTax {#valueaddedtax}
 
 > `readonly` **ValueAddedTax**: `"unece:TaxTypeCodeList#VAT"` = `"unece:TaxTypeCodeList#VAT"`
 

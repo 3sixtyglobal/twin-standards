@@ -6,19 +6,19 @@ A character string used to qualify an accounting amount.
 
 ## Type Declaration
 
-### Entries
+### Entries {#entries}
 
 > `readonly` **Entries**: `"unece:AccountingAmountQualifierCodeList#EN"` = `"unece:AccountingAmountQualifierCodeList#EN"`
 
 Entries: EN.
 
-### OpenBalance
+### OpenBalance {#openbalance}
 
 > `readonly` **OpenBalance**: `"unece:AccountingAmountQualifierCodeList#SB"` = `"unece:AccountingAmountQualifierCodeList#SB"`
 
 Open balance: SB.
 
-### EndBalance
+### EndBalance {#endbalance}
 
 > `readonly` **EndBalance**: `"unece:AccountingAmountQualifierCodeList#SE"` = `"unece:AccountingAmountQualifierCodeList#SE"`
 

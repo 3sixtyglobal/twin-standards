@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Project
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Project"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### constraintIndicator?
+### constraintIndicator? {#constraintindicator}
 
 > `optional` **constraintIndicator**: `boolean`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/constraintIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### netBudgetAmount?
+### netBudgetAmount? {#netbudgetamount}
 
 > `optional` **netBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/netBudgetAmount
 
 ***
 
-### specifiedInspectionEvent?
+### specifiedInspectionEvent? {#specifiedinspectionevent}
 
 > `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ***
 
-### subWorksTypeCode?
+### subWorksTypeCode? {#subworkstypecode}
 
 > `optional` **subWorksTypeCode**: `string`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/subWorksTypeCode
 
 ***
 
-### totalBudgetAmount?
+### totalBudgetAmount? {#totalbudgetamount}
 
 > `optional` **totalBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/totalBudgetAmount
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### worksTypeCode?
+### worksTypeCode? {#workstypecode}
 
 > `optional` **worksTypeCode**: `string`
 

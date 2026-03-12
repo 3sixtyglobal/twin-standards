@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportRoute
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportRoute"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### departurePoint?
+### departurePoint? {#departurepoint}
 
 > `optional` **departurePoint**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/departurePoint
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### frequencyEffectivePeriod?
+### frequencyEffectivePeriod? {#frequencyeffectiveperiod}
 
 > `optional` **frequencyEffectivePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/frequencyEffectivePeriod
 
 ***
 
-### frequencyTypeCode?
+### frequencyTypeCode? {#frequencytypecode}
 
 > `optional` **frequencyTypeCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/frequencyTypeCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### itineraryStopEvent?
+### itineraryStopEvent? {#itinerarystopevent}
 
 > `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/itineraryStopEvent
 
 ***
 
-### mapBinaryObject?
+### mapBinaryObject? {#mapbinaryobject}
 
 > `optional` **mapBinaryObject**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/mapBinaryObject
 
 ***
 
-### routeType?
+### routeType? {#routetype}
 
 > `optional` **routeType**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/routeType
 
 ***
 
-### scheduledPeriod?
+### scheduledPeriod? {#scheduledperiod}
 
 > `optional` **scheduledPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/scheduledPeriod
 
 ***
 
-### securityLevelCode?
+### securityLevelCode? {#securitylevelcode}
 
 > `optional` **securityLevelCode**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ***
 
-### specifiedTransportMovement?
+### specifiedTransportMovement? {#specifiedtransportmovement}
 
 > `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedTransportMovement
 
 ***
 
-### transportMeans?
+### transportMeans? {#transportmeans}
 
 > `optional` **transportMeans**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/transportMeans
 
 ***
 
-### transportRouteStatusCode?
+### transportRouteStatusCode? {#transportroutestatuscode}
 
 > `optional` **transportRouteStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)
 

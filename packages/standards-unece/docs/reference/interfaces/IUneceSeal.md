@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Seal
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Seal"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issuingParty?
+### issuingParty? {#issuingparty}
 
 > `optional` **issuingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/issuingParty
 
 ***
 
-### logisticsSealTypeCode?
+### logisticsSealTypeCode? {#logisticssealtypecode}
 
 > `optional` **logisticsSealTypeCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/logisticsSealTypeCode
 
 ***
 
-### logisticsSealingPartyRoleCode?
+### logisticsSealingPartyRoleCode? {#logisticssealingpartyrolecode}
 
 > `optional` **logisticsSealingPartyRoleCode**: [`UneceSealingPartyRoleCodeList`](../type-aliases/UneceSealingPartyRoleCodeList.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/logisticsSealingPartyRoleCode
 
 ***
 
-### maximumId?
+### maximumId? {#maximumid}
 
 > `optional` **maximumId**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/maximumId
 
 ***
 
-### sealConditionCode?
+### sealConditionCode? {#sealconditioncode}
 
 > `optional` **sealConditionCode**: [`UneceSealConditionCodeList`](../type-aliases/UneceSealConditionCodeList.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/sealConditionCode
 
 ***
 
-### sealingPartyRole?
+### sealingPartyRole? {#sealingpartyrole}
 
 > `optional` **sealingPartyRole**: `string`
 

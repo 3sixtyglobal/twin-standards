@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/SensorReport
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -20,7 +20,7 @@ Use [EpcisMeasurementTypes](../variables/EpcisMeasurementTypes.md) for known val
 
 ***
 
-### exception?
+### exception? {#exception}
 
 > `optional` **exception**: `string`
 
@@ -31,7 +31,7 @@ Use [EpcisSensorAlertTypes](../variables/EpcisSensorAlertTypes.md) for known val
 
 ***
 
-### deviceID?
+### deviceID? {#deviceid}
 
 > `optional` **deviceID**: `string`
 
@@ -39,7 +39,7 @@ Use [EpcisSensorAlertTypes](../variables/EpcisSensorAlertTypes.md) for known val
 
 ***
 
-### deviceMetadata?
+### deviceMetadata? {#devicemetadata}
 
 > `optional` **deviceMetadata**: `string`
 
@@ -48,7 +48,7 @@ of the device from which the sensor data originates.
 
 ***
 
-### rawData?
+### rawData? {#rawdata}
 
 > `optional` **rawData**: `string`
 
@@ -57,7 +57,7 @@ aggregated/business-oriented data contained in the sensorElement is based.
 
 ***
 
-### dataProcessingMethod?
+### dataProcessingMethod? {#dataprocessingmethod}
 
 > `optional` **dataProcessingMethod**: `string`
 
@@ -66,7 +66,7 @@ processing method of the contained sensor data, if applicable.
 
 ***
 
-### bizRules?
+### bizRules? {#bizrules}
 
 > `optional` **bizRules**: `string`
 
@@ -76,7 +76,7 @@ triggered.
 
 ***
 
-### time?
+### time? {#time}
 
 > `optional` **time**: `string`
 
@@ -85,7 +85,7 @@ sensor device.
 
 ***
 
-### microorganism?
+### microorganism? {#microorganism}
 
 > `optional` **microorganism**: `string`
 
@@ -94,7 +94,7 @@ if chemicalSubstance is included.
 
 ***
 
-### chemicalSubstance?
+### chemicalSubstance? {#chemicalsubstance}
 
 > `optional` **chemicalSubstance**: `string`
 
@@ -103,7 +103,7 @@ together with microorganism.
 
 ***
 
-### coordinateReferenceSystem?
+### coordinateReferenceSystem? {#coordinatereferencesystem}
 
 > `optional` **coordinateReferenceSystem**: `string`
 
@@ -112,7 +112,7 @@ WGS-84 is assumed.
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `number`
 
@@ -121,7 +121,7 @@ present, it pertains to that time, otherwise to the eventTime.
 
 ***
 
-### component?
+### component? {#component}
 
 > `optional` **component**: `string`
 
@@ -130,7 +130,7 @@ direction (e.g. force, pressure); repeat SensorReport per component.
 
 ***
 
-### stringValue?
+### stringValue? {#stringvalue}
 
 > `optional` **stringValue**: `string`
 
@@ -139,7 +139,7 @@ the sensorReport element.
 
 ***
 
-### booleanValue?
+### booleanValue? {#booleanvalue}
 
 > `optional` **booleanValue**: `boolean`
 
@@ -147,7 +147,7 @@ the sensorReport element.
 
 ***
 
-### hexBinaryValue?
+### hexBinaryValue? {#hexbinaryvalue}
 
 > `optional` **hexBinaryValue**: `string`
 
@@ -155,7 +155,7 @@ the sensorReport element.
 
 ***
 
-### uriValue?
+### uriValue? {#urivalue}
 
 > `optional` **uriValue**: `string`
 
@@ -163,7 +163,7 @@ the sensorReport element.
 
 ***
 
-### minValue?
+### minValue? {#minvalue}
 
 > `optional` **minValue**: `number`
 
@@ -172,7 +172,7 @@ part of the sensorReport element.
 
 ***
 
-### maxValue?
+### maxValue? {#maxvalue}
 
 > `optional` **maxValue**: `number`
 
@@ -180,7 +180,7 @@ part of the sensorReport element.
 
 ***
 
-### meanValue?
+### meanValue? {#meanvalue}
 
 > `optional` **meanValue**: `number`
 
@@ -189,7 +189,7 @@ type as part of the sensorReport element.
 
 ***
 
-### sDev?
+### sDev? {#sdev}
 
 > `optional` **sDev**: `number`
 
@@ -198,7 +198,7 @@ as part of the sensorReport element.
 
 ***
 
-### percRank?
+### percRank? {#percrank}
 
 > `optional` **percRank**: `number`
 
@@ -207,7 +207,7 @@ frequency distribution that are equal to or lower than it.
 
 ***
 
-### percValue?
+### percValue? {#percvalue}
 
 > `optional` **percValue**: `number`
 
@@ -216,7 +216,7 @@ observations may be found.
 
 ***
 
-### uom?
+### uom? {#uom}
 
 > `optional` **uom**: `string`
 

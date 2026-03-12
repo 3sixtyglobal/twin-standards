@@ -6,7 +6,7 @@ Values for UneceStoresItemInventory typeCode property.
 
 ## Type Declaration
 
-### OnboardInventory
+### OnboardInventory {#onboardinventory}
 
 > `readonly` **OnboardInventory**: `"unece:onboardInventory"` = `"unece:onboardInventory"`
 

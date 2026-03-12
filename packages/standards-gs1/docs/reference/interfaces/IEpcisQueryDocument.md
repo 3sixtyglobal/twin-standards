@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/EPCISQueryDocument
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
@@ -16,7 +16,7 @@ The @context.
 
 ***
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -24,7 +24,7 @@ The JSON-LD document id.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"EPCISQueryDocument"`
 
@@ -32,7 +32,7 @@ JSON-LD Type.
 
 ***
 
-### schemaVersion?
+### schemaVersion? {#schemaversion}
 
 > `optional` **schemaVersion**: `string`
 
@@ -40,7 +40,7 @@ Schema version.
 
 ***
 
-### creationDate?
+### creationDate? {#creationdate}
 
 > `optional` **creationDate**: `string`
 
@@ -48,7 +48,7 @@ Creation Date.
 
 ***
 
-### epcisBody
+### epcisBody {#epcisbody}
 
 > **epcisBody**: [`IEpcisQueryDocumentBody`](IEpcisQueryDocumentBody.md)
 

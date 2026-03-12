@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 
@@ -18,7 +18,7 @@ Local date-time when the event happened.
 
 ***
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: `"ACT"`
 
@@ -26,7 +26,7 @@ Reefer events are always "ACT".
 
 ***
 
-### reeferEventTypeCode
+### reeferEventTypeCode {#reefereventtypecode}
 
 > **reeferEventTypeCode**: [`DcsaReeferEventTypeCodes`](../type-aliases/DcsaReeferEventTypeCodes.md)
 
@@ -34,7 +34,7 @@ Reefer event type code.
 
 ***
 
-### measurements?
+### measurements? {#measurements}
 
 > `optional` **measurements**: [`IDcsaReeferMeasurements`](IDcsaReeferMeasurements.md)
 
@@ -42,7 +42,7 @@ Measured reefer values (conditioned by event type).
 
 ***
 
-### setpoints?
+### setpoints? {#setpoints}
 
 > `optional` **setpoints**: [`IDcsaReeferSetpoint`](IDcsaReeferSetpoint.md)
 
@@ -50,7 +50,7 @@ Reefer setpoint values (conditioned by event type).
 
 ***
 
-### geoLocation?
+### geoLocation? {#geolocation}
 
 > `optional` **geoLocation**: `unknown`
 
@@ -60,7 +60,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ***
 
-### equipmentReference
+### equipmentReference {#equipmentreference}
 
 > **equipmentReference**: `string`
 
@@ -68,7 +68,7 @@ Equipment reference.
 
 ***
 
-### relatedDocumentReferences?
+### relatedDocumentReferences? {#relateddocumentreferences}
 
 > `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 

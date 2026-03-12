@@ -6,49 +6,49 @@ A character string used to represent a function for delivery terms.
 
 ## Type Declaration
 
-### PriceCondition
+### PriceCondition {#pricecondition}
 
 > `readonly` **PriceCondition**: `"unece:DeliveryTermsFunctionCodeList#1"` = `"unece:DeliveryTermsFunctionCodeList#1"`
 
 Price condition: 1.
 
-### DespatchCondition
+### DespatchCondition {#despatchcondition}
 
 > `readonly` **DespatchCondition**: `"unece:DeliveryTermsFunctionCodeList#2"` = `"unece:DeliveryTermsFunctionCodeList#2"`
 
 Despatch condition: 2.
 
-### PriceAndDespatchCondition
+### PriceAndDespatchCondition {#priceanddespatchcondition}
 
 > `readonly` **PriceAndDespatchCondition**: `"unece:DeliveryTermsFunctionCodeList#3"` = `"unece:DeliveryTermsFunctionCodeList#3"`
 
 Price and despatch condition: 3.
 
-### CollectedByCustomer
+### CollectedByCustomer {#collectedbycustomer}
 
 > `readonly` **CollectedByCustomer**: `"unece:DeliveryTermsFunctionCodeList#4"` = `"unece:DeliveryTermsFunctionCodeList#4"`
 
 Collected by customer: 4.
 
-### TransportCondition
+### TransportCondition {#transportcondition}
 
 > `readonly` **TransportCondition**: `"unece:DeliveryTermsFunctionCodeList#5"` = `"unece:DeliveryTermsFunctionCodeList#5"`
 
 Transport condition: 5.
 
-### DeliveryCondition
+### DeliveryCondition {#deliverycondition}
 
 > `readonly` **DeliveryCondition**: `"unece:DeliveryTermsFunctionCodeList#6"` = `"unece:DeliveryTermsFunctionCodeList#6"`
 
 Delivery condition: 6.
 
-### DeliveredBySupplier
+### DeliveredBySupplier {#deliveredbysupplier}
 
 > `readonly` **DeliveredBySupplier**: `"unece:DeliveryTermsFunctionCodeList#7"` = `"unece:DeliveryTermsFunctionCodeList#7"`
 
 Delivered by supplier: 7.
 
-### DeliveryArrangedByLogisticServiceProvider
+### DeliveryArrangedByLogisticServiceProvider {#deliveryarrangedbylogisticserviceprovider}
 
 > `readonly` **DeliveryArrangedByLogisticServiceProvider**: `"unece:DeliveryTermsFunctionCodeList#8"` = `"unece:DeliveryTermsFunctionCodeList#8"`
 

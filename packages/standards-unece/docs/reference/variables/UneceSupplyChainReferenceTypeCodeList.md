@@ -6,7 +6,7 @@ Values for UneceSupplyChainReference typeCode property.
 
 ## Type Declaration
 
-### AssociatedReference
+### AssociatedReference {#associatedreference}
 
 > `readonly` **AssociatedReference**: `"unece:associatedReference"` = `"unece:associatedReference"`
 
@@ -16,7 +16,7 @@ A reference associated with this supply chain event.
 
 https://vocabulary.uncefact.org/associatedReference
 
-### SpecifiedSupplyChainReference
+### SpecifiedSupplyChainReference {#specifiedsupplychainreference}
 
 > `readonly` **SpecifiedSupplyChainReference**: `"unece:specifiedSupplyChainReference"` = `"unece:specifiedSupplyChainReference"`
 

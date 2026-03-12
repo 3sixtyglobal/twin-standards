@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AuthoritativeSignatoryPerson
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AuthoritativeSignatoryPerson"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### attainedAcademicQualification?
+### attainedAcademicQualification? {#attainedacademicqualification}
 
 > `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/attainedAcademicQualification
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

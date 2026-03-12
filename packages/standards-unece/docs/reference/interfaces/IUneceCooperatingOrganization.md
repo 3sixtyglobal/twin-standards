@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CooperatingOrganization
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CooperatingOrganization"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### roleCode?
+### roleCode? {#rolecode}
 
 > `optional` **roleCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/roleCode
 
 ***
 
-### usedInformationSource?
+### usedInformationSource? {#usedinformationsource}
 
 > `optional` **usedInformationSource**: [`IUneceInformationSource`](IUneceInformationSource.md)[]
 

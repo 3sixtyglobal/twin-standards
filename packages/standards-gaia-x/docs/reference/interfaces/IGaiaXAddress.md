@@ -5,7 +5,7 @@ https://docs.gaia-x.eu/ontology/development/classes/Address/
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `"Address"` \| `undefined`
 
@@ -13,7 +13,7 @@ JSON-LD @ type. In this case it is allowed to be omitted as it is usually a chil
 
 ***
 
-### countryCode
+### countryCode {#countrycode}
 
 > **countryCode**: `string` \| `number`
 

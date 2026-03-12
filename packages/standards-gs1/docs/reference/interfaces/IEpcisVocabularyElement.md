@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/VocabularyElement
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -17,7 +17,7 @@ Element id.
 
 ***
 
-### attributes?
+### attributes? {#attributes}
 
 > `optional` **attributes**: [`IEpcisAttribute`](IEpcisAttribute.md)[]
 
@@ -25,7 +25,7 @@ Attributes.
 
 ***
 
-### children?
+### children? {#children}
 
 > `optional` **children**: `string`[]
 

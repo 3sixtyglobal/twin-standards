@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/UsageCondition
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"UsageCondition"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### ageLimitation?
+### ageLimitation? {#agelimitation}
 
 > `optional` **ageLimitation**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/ageLimitation
 
 ***
 
-### appropriateClothing?
+### appropriateClothing? {#appropriateclothing}
 
 > `optional` **appropriateClothing**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/appropriateClothing
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### duration?
+### duration? {#duration}
 
 > `optional` **duration**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/duration
 
 ***
 
-### genderLimitation?
+### genderLimitation? {#genderlimitation}
 
 > `optional` **genderLimitation**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/genderLimitation
 
 ***
 
-### occupancy?
+### occupancy? {#occupancy}
 
 > `optional` **occupancy**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/occupancy
 
 ***
 
-### requiringParty?
+### requiringParty? {#requiringparty}
 
 > `optional` **requiringParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 

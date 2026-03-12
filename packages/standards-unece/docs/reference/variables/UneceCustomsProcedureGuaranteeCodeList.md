@@ -6,7 +6,7 @@ A character string used to represent a customs procedure guarantee.
 
 ## Type Declaration
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"` = `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"`
 

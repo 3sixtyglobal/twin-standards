@@ -5,7 +5,7 @@ Uses JSON-LD list to preserve order for andSequence.
 
 ## Properties
 
-### @list
+### @list {#list}
 
 > **@list**: `object`[]
 

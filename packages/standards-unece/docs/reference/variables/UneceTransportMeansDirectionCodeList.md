@@ -6,55 +6,55 @@ A character string used to represent the transport means direction.
 
 ## Type Declaration
 
-### BuyerToSeller
+### BuyerToSeller {#buyertoseller}
 
 > `readonly` **BuyerToSeller**: `"unece:TransportMeansDirectionCodeList#BS"` = `"unece:TransportMeansDirectionCodeList#BS"`
 
 Buyer to seller: BS.
 
-### SellerToBuyer
+### SellerToBuyer {#sellertobuyer}
 
 > `readonly` **SellerToBuyer**: `"unece:TransportMeansDirectionCodeList#SB"` = `"unece:TransportMeansDirectionCodeList#SB"`
 
 Seller to buyer: SB.
 
-### SubcontractorToSeller
+### SubcontractorToSeller {#subcontractortoseller}
 
 > `readonly` **SubcontractorToSeller**: `"unece:TransportMeansDirectionCodeList#SC"` = `"unece:TransportMeansDirectionCodeList#SC"`
 
 Subcontractor to seller: SC.
 
-### SellerToDropShipDesignatedLocation
+### SellerToDropShipDesignatedLocation {#sellertodropshipdesignatedlocation}
 
 > `readonly` **SellerToDropShipDesignatedLocation**: `"unece:TransportMeansDirectionCodeList#SD"` = `"unece:TransportMeansDirectionCodeList#SD"`
 
 Seller to drop ship designated location: SD.
 
-### SellerToFreightForwarder
+### SellerToFreightForwarder {#sellertofreightforwarder}
 
 > `readonly` **SellerToFreightForwarder**: `"unece:TransportMeansDirectionCodeList#SF"` = `"unece:TransportMeansDirectionCodeList#SF"`
 
 Seller to freight forwarder: SF.
 
-### SellerToSubcontractor
+### SellerToSubcontractor {#sellertosubcontractor}
 
 > `readonly` **SellerToSubcontractor**: `"unece:TransportMeansDirectionCodeList#SS"` = `"unece:TransportMeansDirectionCodeList#SS"`
 
 Seller to subcontractor: SS.
 
-### MotherVesselToLighter
+### MotherVesselToLighter {#mothervesseltolighter}
 
 > `readonly` **MotherVesselToLighter**: `"unece:TransportMeansDirectionCodeList#ST"` = `"unece:TransportMeansDirectionCodeList#ST"`
 
 Mother vessel to lighter: ST.
 
-### LighterToMotherVessel
+### LighterToMotherVessel {#lightertomothervessel}
 
 > `readonly` **LighterToMotherVessel**: `"unece:TransportMeansDirectionCodeList#SU"` = `"unece:TransportMeansDirectionCodeList#SU"`
 
 Lighter to mother vessel: SU.
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:TransportMeansDirectionCodeList#ZZZ"` = `"unece:TransportMeansDirectionCodeList#ZZZ"`
 

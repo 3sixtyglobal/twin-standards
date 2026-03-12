@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FoodChoice
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FoodChoice"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### restriction?
+### restriction? {#restriction}
 
 > `optional` **restriction**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/restriction
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

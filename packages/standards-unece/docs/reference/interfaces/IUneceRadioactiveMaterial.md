@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/RadioactiveMaterial
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RadioactiveMaterial"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableRadioactiveIsotope?
+### applicableRadioactiveIsotope? {#applicableradioactiveisotope}
 
 > `optional` **applicableRadioactiveIsotope**: [`IUneceRadioactiveIsotope`](IUneceRadioactiveIsotope.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableRadioactiveIsotope
 
 ***
 
-### compositionDescription?
+### compositionDescription? {#compositiondescription}
 
 > `optional` **compositionDescription**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/compositionDescription
 
 ***
 
-### criticalitySafetyIndexNumeric?
+### criticalitySafetyIndexNumeric? {#criticalitysafetyindexnumeric}
 
 > `optional` **criticalitySafetyIndexNumeric**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/criticalitySafetyIndexNumeric
 
 ***
 
-### fissileCriticalitySafetyIndexNumeric?
+### fissileCriticalitySafetyIndexNumeric? {#fissilecriticalitysafetyindexnumeric}
 
 > `optional` **fissileCriticalitySafetyIndexNumeric**: `string`
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/fissileCriticalitySafetyIndexNumeric
 
 ***
 
-### fissileExceptionIndicator?
+### fissileExceptionIndicator? {#fissileexceptionindicator}
 
 > `optional` **fissileExceptionIndicator**: `boolean`
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/fissileExceptionIndicator
 
 ***
 
-### lowDispersibleInformation?
+### lowDispersibleInformation? {#lowdispersibleinformation}
 
 > `optional` **lowDispersibleInformation**: `string`
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/lowDispersibleInformation
 
 ***
 
-### radioactivePackageTransportIndexCode?
+### radioactivePackageTransportIndexCode? {#radioactivepackagetransportindexcode}
 
 > `optional` **radioactivePackageTransportIndexCode**: `string`
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/radioactivePackageTransportIndexCode
 
 ***
 
-### radionuclideName?
+### radionuclideName? {#radionuclidename}
 
 > `optional` **radionuclideName**: `string`
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/radionuclideName
 
 ***
 
-### specialFormInformation?
+### specialFormInformation? {#specialforminformation}
 
 > `optional` **specialFormInformation**: `string`
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/specialFormInformation
 
 ***
 
-### transportIndexNumeric?
+### transportIndexNumeric? {#transportindexnumeric}
 
 > `optional` **transportIndexNumeric**: `string`
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/transportIndexNumeric
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AvailablePeriod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AvailablePeriod"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 

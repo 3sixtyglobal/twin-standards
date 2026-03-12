@@ -6,235 +6,235 @@ A character string used to represent or replace a type of price.
 
 ## Type Declaration
 
-### CancellationPrice
+### CancellationPrice {#cancellationprice}
 
 > `readonly` **CancellationPrice**: `"unece:PriceTypeCodeList#AA"` = `"unece:PriceTypeCodeList#AA"`
 
 Cancellation price: AA.
 
-### PerTon
+### PerTon {#perton}
 
 > `readonly` **PerTon**: `"unece:PriceTypeCodeList#AB"` = `"unece:PriceTypeCodeList#AB"`
 
 Per ton: AB.
 
-### MinimumOrderPrice
+### MinimumOrderPrice {#minimumorderprice}
 
 > `readonly` **MinimumOrderPrice**: `"unece:PriceTypeCodeList#AC"` = `"unece:PriceTypeCodeList#AC"`
 
 Minimum order price: AC.
 
-### ExportPrice
+### ExportPrice {#exportprice}
 
 > `readonly` **ExportPrice**: `"unece:PriceTypeCodeList#AD"` = `"unece:PriceTypeCodeList#AD"`
 
 Export price: AD.
 
-### RangeDependentPrice
+### RangeDependentPrice {#rangedependentprice}
 
 > `readonly` **RangeDependentPrice**: `"unece:PriceTypeCodeList#AE"` = `"unece:PriceTypeCodeList#AE"`
 
 Range dependent price: AE.
 
-### CompetitorPrice
+### CompetitorPrice {#competitorprice}
 
 > `readonly` **CompetitorPrice**: `"unece:PriceTypeCodeList#AF"` = `"unece:PriceTypeCodeList#AF"`
 
 Competitor price: AF.
 
-### DailyPrice
+### DailyPrice {#dailyprice}
 
 > `readonly` **DailyPrice**: `"unece:PriceTypeCodeList#AG"` = `"unece:PriceTypeCodeList#AG"`
 
 Daily Price: AG.
 
-### ServicePrice
+### ServicePrice {#serviceprice}
 
 > `readonly` **ServicePrice**: `"unece:PriceTypeCodeList#AH"` = `"unece:PriceTypeCodeList#AH"`
 
 Service Price: AH.
 
-### ActiveIngredient
+### ActiveIngredient {#activeingredient}
 
 > `readonly` **ActiveIngredient**: `"unece:PriceTypeCodeList#AI"` = `"unece:PriceTypeCodeList#AI"`
 
 Active ingredient: AI.
 
-### DynamicPrice
+### DynamicPrice {#dynamicprice}
 
 > `readonly` **DynamicPrice**: `"unece:PriceTypeCodeList#AJ"` = `"unece:PriceTypeCodeList#AJ"`
 
 Dynamic Price: AJ.
 
-### BasicPrice
+### BasicPrice {#basicprice}
 
 > `readonly` **BasicPrice**: `"unece:PriceTypeCodeList#AK"` = `"unece:PriceTypeCodeList#AK"`
 
 Basic Price: AK.
 
-### ExtraPrice
+### ExtraPrice {#extraprice}
 
 > `readonly` **ExtraPrice**: `"unece:PriceTypeCodeList#AL"` = `"unece:PriceTypeCodeList#AL"`
 
 Extra Price: AL.
 
-### DiscountPrice
+### DiscountPrice {#discountprice}
 
 > `readonly` **DiscountPrice**: `"unece:PriceTypeCodeList#AM"` = `"unece:PriceTypeCodeList#AM"`
 
 Discount Price: AM.
 
-### CancellationPriceAN
+### CancellationPriceAN {#cancellationpricean}
 
 > `readonly` **CancellationPriceAN**: `"unece:PriceTypeCodeList#AN"` = `"unece:PriceTypeCodeList#AN"`
 
 Cancellation Price: AN.
 
-### RefundPrice
+### RefundPrice {#refundprice}
 
 > `readonly` **RefundPrice**: `"unece:PriceTypeCodeList#AO"` = `"unece:PriceTypeCodeList#AO"`
 
 Refund Price: AO.
 
-### CommissionPrice
+### CommissionPrice {#commissionprice}
 
 > `readonly` **CommissionPrice**: `"unece:PriceTypeCodeList#AP"` = `"unece:PriceTypeCodeList#AP"`
 
 Commission Price: AP.
 
-### AsIsQuantity
+### AsIsQuantity {#asisquantity}
 
 > `readonly` **AsIsQuantity**: `"unece:PriceTypeCodeList#AQ"` = `"unece:PriceTypeCodeList#AQ"`
 
 As is quantity: AQ.
 
-### PenaltyPrice
+### PenaltyPrice {#penaltyprice}
 
 > `readonly` **PenaltyPrice**: `"unece:PriceTypeCodeList#AR"` = `"unece:PriceTypeCodeList#AR"`
 
 Penalty Price: AR.
 
-### Catalogue
+### Catalogue {#catalogue}
 
 > `readonly` **Catalogue**: `"unece:PriceTypeCodeList#CA"` = `"unece:PriceTypeCodeList#CA"`
 
 Catalogue: CA.
 
-### Contract
+### Contract {#contract}
 
 > `readonly` **Contract**: `"unece:PriceTypeCodeList#CT"` = `"unece:PriceTypeCodeList#CT"`
 
 Contract: CT.
 
-### ConsumerUnit
+### ConsumerUnit {#consumerunit}
 
 > `readonly` **ConsumerUnit**: `"unece:PriceTypeCodeList#CU"` = `"unece:PriceTypeCodeList#CU"`
 
 Consumer unit: CU.
 
-### Distributor
+### Distributor {#distributor}
 
 > `readonly` **Distributor**: `"unece:PriceTypeCodeList#DI"` = `"unece:PriceTypeCodeList#DI"`
 
 Distributor: DI.
 
-### ECSCPrice
+### ECSCPrice {#ecscprice}
 
 > `readonly` **ECSCPrice**: `"unece:PriceTypeCodeList#EC"` = `"unece:PriceTypeCodeList#EC"`
 
 ECSC price: EC.
 
-### NetWeight
+### NetWeight {#netweight}
 
 > `readonly` **NetWeight**: `"unece:PriceTypeCodeList#NW"` = `"unece:PriceTypeCodeList#NW"`
 
 Net weight: NW.
 
-### PriceCatalogue
+### PriceCatalogue {#pricecatalogue}
 
 > `readonly` **PriceCatalogue**: `"unece:PriceTypeCodeList#PC"` = `"unece:PriceTypeCodeList#PC"`
 
 Price catalogue: PC.
 
-### PerEach
+### PerEach {#pereach}
 
 > `readonly` **PerEach**: `"unece:PriceTypeCodeList#PE"` = `"unece:PriceTypeCodeList#PE"`
 
 Per each: PE.
 
-### PerKilogram
+### PerKilogram {#perkilogram}
 
 > `readonly` **PerKilogram**: `"unece:PriceTypeCodeList#PK"` = `"unece:PriceTypeCodeList#PK"`
 
 Per kilogram: PK.
 
-### PerLitre
+### PerLitre {#perlitre}
 
 > `readonly` **PerLitre**: `"unece:PriceTypeCodeList#PL"` = `"unece:PriceTypeCodeList#PL"`
 
 Per litre: PL.
 
-### PerTonne
+### PerTonne {#pertonne}
 
 > `readonly` **PerTonne**: `"unece:PriceTypeCodeList#PT"` = `"unece:PriceTypeCodeList#PT"`
 
 Per tonne: PT.
 
-### SpecifiedUnit
+### SpecifiedUnit {#specifiedunit}
 
 > `readonly` **SpecifiedUnit**: `"unece:PriceTypeCodeList#PU"` = `"unece:PriceTypeCodeList#PU"`
 
 Specified unit: PU.
 
-### ProvisionalPrice
+### ProvisionalPrice {#provisionalprice}
 
 > `readonly` **ProvisionalPrice**: `"unece:PriceTypeCodeList#PV"` = `"unece:PriceTypeCodeList#PV"`
 
 Provisional price: PV.
 
-### GrossWeight
+### GrossWeight {#grossweight}
 
 > `readonly` **GrossWeight**: `"unece:PriceTypeCodeList#PW"` = `"unece:PriceTypeCodeList#PW"`
 
 Gross weight: PW.
 
-### Quoted
+### Quoted {#quoted}
 
 > `readonly` **Quoted**: `"unece:PriceTypeCodeList#QT"` = `"unece:PriceTypeCodeList#QT"`
 
 Quoted: QT.
 
-### SuggestedRetail
+### SuggestedRetail {#suggestedretail}
 
 > `readonly` **SuggestedRetail**: `"unece:PriceTypeCodeList#SR"` = `"unece:PriceTypeCodeList#SR"`
 
 Suggested retail: SR.
 
-### ToBeNegotiated
+### ToBeNegotiated {#tobenegotiated}
 
 > `readonly` **ToBeNegotiated**: `"unece:PriceTypeCodeList#TB"` = `"unece:PriceTypeCodeList#TB"`
 
 To be negotiated: TB.
 
-### TradedUnit
+### TradedUnit {#tradedunit}
 
 > `readonly` **TradedUnit**: `"unece:PriceTypeCodeList#TU"` = `"unece:PriceTypeCodeList#TU"`
 
 Traded unit: TU.
 
-### TheoreticalWeight
+### TheoreticalWeight {#theoreticalweight}
 
 > `readonly` **TheoreticalWeight**: `"unece:PriceTypeCodeList#TW"` = `"unece:PriceTypeCodeList#TW"`
 
 Theoretical weight: TW.
 
-### Wholesale
+### Wholesale {#wholesale}
 
 > `readonly` **Wholesale**: `"unece:PriceTypeCodeList#WH"` = `"unece:PriceTypeCodeList#WH"`
 
 Wholesale: WH.
 
-### GrossVolume
+### GrossVolume {#grossvolume}
 
 > `readonly` **GrossVolume**: `"unece:PriceTypeCodeList#WI"` = `"unece:PriceTypeCodeList#WI"`
 

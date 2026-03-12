@@ -10,7 +10,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
@@ -18,7 +18,7 @@ The JSON-LD context for the resource.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"dcat:CatalogRecord"`
 
@@ -26,7 +26,7 @@ The type identifier, typically "CatalogRecord".
 
 ***
 
-### @id?
+### @id? {#id}
 
 > `optional` **@id**: `string`
 
@@ -34,7 +34,7 @@ The unique identifier for the catalog record.
 
 ***
 
-### dcterms:title?
+### dcterms:title? {#dctermstitle}
 
 > `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -46,7 +46,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_title
 
 ***
 
-### dcterms:description?
+### dcterms:description? {#dctermsdescription}
 
 > `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -58,7 +58,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_description
 
 ***
 
-### dcterms:issued?
+### dcterms:issued? {#dctermsissued}
 
 > `optional` **dcterms:issued**: `string`
 
@@ -70,7 +70,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date
 
 ***
 
-### dcterms:modified?
+### dcterms:modified? {#dctermsmodified}
 
 > `optional` **dcterms:modified**: `string`
 
@@ -82,7 +82,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date
 
 ***
 
-### dcterms:conformsTo?
+### dcterms:conformsTo? {#dctermsconformsto}
 
 > `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
@@ -94,7 +94,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to
 
 ***
 
-### foaf:primaryTopic?
+### foaf:primaryTopic? {#foafprimarytopic}
 
 > `optional` **foaf:primaryTopic**: [`IDcatResource`](IDcatResource.md)
 

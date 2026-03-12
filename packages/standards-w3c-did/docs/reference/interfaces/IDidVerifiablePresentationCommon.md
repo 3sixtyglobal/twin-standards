@@ -9,7 +9,7 @@ Interface describing a verifiable presentation.
 
 ## Properties
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -17,7 +17,7 @@ Provide a unique identifier for the presentation.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string` \| `string`[]
 
@@ -25,7 +25,7 @@ The types of the data stored in the verifiable credential.
 
 ***
 
-### holder?
+### holder? {#holder}
 
 > `optional` **holder**: `string`
 
@@ -33,7 +33,7 @@ The entity generating the presentation.
 
 ***
 
-### proof?
+### proof? {#proof}
 
 > `optional` **proof**: [`IProof`](../type-aliases/IProof.md) \| [`IProof`](../type-aliases/IProof.md)[]
 

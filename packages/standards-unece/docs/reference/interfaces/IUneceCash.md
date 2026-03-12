@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Cash
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Cash"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableIndicator?
+### applicableIndicator? {#applicableindicator}
 
 > `optional` **applicableIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ***
 
-### currencyCode?
+### currencyCode? {#currencycode}
 
 > `optional` **currencyCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/currencyCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

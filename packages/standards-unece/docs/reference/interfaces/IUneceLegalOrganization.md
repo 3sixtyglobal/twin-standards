@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LegalOrganization
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LegalOrganization"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### authorizedRegistration?
+### authorizedRegistration? {#authorizedregistration}
 
 > `optional` **authorizedRegistration**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/authorizedRegistration
 
 ***
 
-### businessTypeCode?
+### businessTypeCode? {#businesstypecode}
 
 > `optional` **businessTypeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/businessTypeCode
 
 ***
 
-### districtId?
+### districtId? {#districtid}
 
 > `optional` **districtId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/districtId
 
 ***
 
-### establishedDateTime?
+### establishedDateTime? {#establisheddatetime}
 
 > `optional` **establishedDateTime**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/establishedDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### legalClassificationCode?
+### legalClassificationCode? {#legalclassificationcode}
 
 > `optional` **legalClassificationCode**: `string`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/legalClassificationCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### tradingBusinessName?
+### tradingBusinessName? {#tradingbusinessname}
 
 > `optional` **tradingBusinessName**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/tradingBusinessName
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

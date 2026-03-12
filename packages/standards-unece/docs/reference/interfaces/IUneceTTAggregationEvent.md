@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TTAggregationEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTAggregationEvent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actionCode
+### actionCode {#actioncode}
 
 > **actionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actionCode
 
 ***
 
-### businessStepCode?
+### businessStepCode? {#businessstepcode}
 
 > `optional` **businessStepCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/businessStepCode
 
 ***
 
-### childObjectInstanceId?
+### childObjectInstanceId? {#childobjectinstanceid}
 
 > `optional` **childObjectInstanceId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/childObjectInstanceId
 
 ***
 
-### childQuantitySpecifiedEventElement?
+### childQuantitySpecifiedEventElement? {#childquantityspecifiedeventelement}
 
 > `optional` **childQuantitySpecifiedEventElement**: [`IUneceEventElement`](IUneceEventElement.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/childQuantitySpecifiedEventElement
 
 ***
 
-### destinationRelatedParty?
+### destinationRelatedParty? {#destinationrelatedparty}
 
 > `optional` **destinationRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/destinationRelatedParty
 
 ***
 
-### dispositionCode?
+### dispositionCode? {#dispositioncode}
 
 > `optional` **dispositionCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/dispositionCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### occurrenceDateTime
+### occurrenceDateTime {#occurrencedatetime}
 
 > **occurrenceDateTime**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### parentObjectId?
+### parentObjectId? {#parentobjectid}
 
 > `optional` **parentObjectId**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/parentObjectId
 
 ***
 
-### readPointRelatedLocation?
+### readPointRelatedLocation? {#readpointrelatedlocation}
 
 > `optional` **readPointRelatedLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/readPointRelatedLocation
 
 ***
 
-### recordedDateTime
+### recordedDateTime {#recordeddatetime}
 
 > **recordedDateTime**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/recordedDateTime
 
 ***
 
-### relatedCertification?
+### relatedCertification? {#relatedcertification}
 
 > `optional` **relatedCertification**: [`IUneceSpecifiedCertification`](IUneceSpecifiedCertification.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/relatedCertification
 
 ***
 
-### relatedTTLocation?
+### relatedTTLocation? {#relatedttlocation}
 
 > `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ***
 
-### sourceRelatedParty?
+### sourceRelatedParty? {#sourcerelatedparty}
 
 > `optional` **sourceRelatedParty**: [`IUneceTTParty`](IUneceTTParty.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/sourceRelatedParty
 
 ***
 
-### specifiedError?
+### specifiedError? {#specifiederror}
 
 > `optional` **specifiedError**: [`IUneceError`](IUneceError.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/specifiedError
 
 ***
 
-### specifiedTradeTransaction?
+### specifiedTradeTransaction? {#specifiedtradetransaction}
 
 > `optional` **specifiedTradeTransaction**: [`IUneceTTTradeTransaction`](IUneceTTTradeTransaction.md)[]
 

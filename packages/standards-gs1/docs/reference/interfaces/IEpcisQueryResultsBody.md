@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/QueryResultsBody
 
 ## Properties
 
-### eventList
+### eventList {#eventlist}
 
 > **eventList**: [`EpcisEvents`](../type-aliases/EpcisEvents.md)[]
 
@@ -16,7 +16,7 @@ The list of events.
 
 ***
 
-### vocabularyList?
+### vocabularyList? {#vocabularylist}
 
 > `optional` **vocabularyList**: [`IEpcisVocabulary`](IEpcisVocabulary.md)[]
 

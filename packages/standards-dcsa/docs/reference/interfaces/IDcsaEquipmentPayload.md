@@ -14,7 +14,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 
@@ -27,7 +27,7 @@ Format: ISO 8601 date-time.
 
 ***
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: [`DcsaEventClassifierCodeNoReq`](../type-aliases/DcsaEventClassifierCodeNoReq.md)
 
@@ -39,7 +39,7 @@ Event classifier code.
 
 ***
 
-### equipmentEventTypeCode
+### equipmentEventTypeCode {#equipmenteventtypecode}
 
 > **equipmentEventTypeCode**: [`DcsaEquipmentEventTypeCodes`](../type-aliases/DcsaEquipmentEventTypeCodes.md)
 
@@ -47,7 +47,7 @@ Equipment event type code.
 
 ***
 
-### emptyIndicatorCode
+### emptyIndicatorCode {#emptyindicatorcode}
 
 > **emptyIndicatorCode**: `string`
 
@@ -56,7 +56,7 @@ The authoritative schema references the shared `emptyIndicatorCode` from DCSA_DO
 
 ***
 
-### equipmentReference?
+### equipmentReference? {#equipmentreference}
 
 > `optional` **equipmentReference**: `string`
 
@@ -65,7 +65,7 @@ Typically the BIC ISO Container Identification Number where possible.
 
 ***
 
-### ISOEquipmentCode?
+### ISOEquipmentCode? {#isoequipmentcode}
 
 > `optional` **ISOEquipmentCode**: `string`
 
@@ -73,7 +73,7 @@ ISO equipment code.
 
 ***
 
-### isTransshipmentMove?
+### isTransshipmentMove? {#istransshipmentmove}
 
 > `optional` **isTransshipmentMove**: `boolean`
 
@@ -81,7 +81,7 @@ Indicates transshipment move.
 
 ***
 
-### eventLocation?
+### eventLocation? {#eventlocation}
 
 > `optional` **eventLocation**: `unknown`
 
@@ -90,7 +90,7 @@ Kept as unknown since the schema references LOCATION_DOMAIN types.
 
 ***
 
-### facilityTypeCode?
+### facilityTypeCode? {#facilitytypecode}
 
 > `optional` **facilityTypeCode**: `string`
 
@@ -100,7 +100,7 @@ with a TransportCall (e.g. stuffing/stripping contexts).
 
 ***
 
-### relatedDocumentReferences?
+### relatedDocumentReferences? {#relateddocumentreferences}
 
 > `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
@@ -108,7 +108,7 @@ Related documents.
 
 ***
 
-### references?
+### references? {#references}
 
 > `optional` **references**: [`IDcsaReference`](IDcsaReference.md)[]
 

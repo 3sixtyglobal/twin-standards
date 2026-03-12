@@ -6,7 +6,7 @@ Values for UneceEmission typeCode property.
 
 ## Type Declaration
 
-### CertifiedEmission
+### CertifiedEmission {#certifiedemission}
 
 > `readonly` **CertifiedEmission**: `"unece:certifiedEmission"` = `"unece:certifiedEmission"`
 
@@ -16,7 +16,7 @@ A certified level of pollution calculated for an emission from this logistics tr
 
 https://vocabulary.uncefact.org/certifiedEmission
 
-### SpecifiedEmission
+### SpecifiedEmission {#specifiedemission}
 
 > `readonly` **SpecifiedEmission**: `"unece:specifiedEmission"` = `"unece:specifiedEmission"`
 

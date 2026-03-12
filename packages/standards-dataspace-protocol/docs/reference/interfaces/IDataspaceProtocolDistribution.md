@@ -36,7 +36,7 @@ by overriding properties with more specific types and constraints.
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -44,7 +44,7 @@ LD Context. Required per Eclipse Data Space Protocol.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"Distribution"`
 
@@ -53,7 +53,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ***
 
-### @id
+### @id {#id}
 
 > **@id**: `string`
 
@@ -66,7 +66,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ***
 
-### hasPolicy?
+### hasPolicy? {#haspolicy}
 
 > `optional` **hasPolicy**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md) \| [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)[]
 
@@ -79,7 +79,7 @@ allows for future multi-offer support.
 
 ***
 
-### accessService
+### accessService {#accessservice}
 
 > **accessService**: `string` \| [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md)
 
@@ -88,7 +88,7 @@ It can be a URI pointing to an access service or inline the access service itsel
 
 ***
 
-### format
+### format {#format}
 
 > **format**: `string`
 
@@ -97,7 +97,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ***
 
-### dcterms:title?
+### dcterms:title? {#dctermstitle}
 
 > `optional` **dcterms:title**: `DcatLiteralType`
 
@@ -113,7 +113,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
 ***
 
-### dcterms:description?
+### dcterms:description? {#dctermsdescription}
 
 > `optional` **dcterms:description**: `DcatLiteralType`
 
@@ -129,7 +129,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description
 
 ***
 
-### dcterms:issued?
+### dcterms:issued? {#dctermsissued}
 
 > `optional` **dcterms:issued**: `string`
 
@@ -145,7 +145,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date
 
 ***
 
-### dcterms:modified?
+### dcterms:modified? {#dctermsmodified}
 
 > `optional` **dcterms:modified**: `string`
 
@@ -161,7 +161,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date
 
 ***
 
-### dcterms:license?
+### dcterms:license? {#dctermslicense}
 
 > `optional` **dcterms:license**: `string`
 
@@ -177,7 +177,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license
 
 ***
 
-### dcterms:accessRights?
+### dcterms:accessRights? {#dctermsaccessrights}
 
 > `optional` **dcterms:accessRights**: `string`
 
@@ -193,7 +193,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights
 
 ***
 
-### dcterms:rights?
+### dcterms:rights? {#dctermsrights}
 
 > `optional` **dcterms:rights**: `string`
 
@@ -209,7 +209,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights
 
 ***
 
-### dcat:accessURL?
+### dcat:accessURL? {#dcataccessurl}
 
 > `optional` **dcat:accessURL**: `string`
 
@@ -225,7 +225,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url
 
 ***
 
-### dcat:accessService?
+### dcat:accessService? {#dcataccessservice}
 
 > `optional` **dcat:accessService**: `string`
 
@@ -241,7 +241,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service
 
 ***
 
-### dcat:downloadURL?
+### dcat:downloadURL? {#dcatdownloadurl}
 
 > `optional` **dcat:downloadURL**: `string`
 
@@ -257,7 +257,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url
 
 ***
 
-### dcat:byteSize?
+### dcat:byteSize? {#dcatbytesize}
 
 > `optional` **dcat:byteSize**: `number`
 
@@ -273,7 +273,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_byte_size
 
 ***
 
-### dcat:spatialResolutionInMeters?
+### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
 
 > `optional` **dcat:spatialResolutionInMeters**: `number`
 
@@ -289,7 +289,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution
 
 ***
 
-### dcat:temporalResolution?
+### dcat:temporalResolution? {#dcattemporalresolution}
 
 > `optional` **dcat:temporalResolution**: `string`
 
@@ -305,7 +305,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 ***
 
-### dcterms:conformsTo?
+### dcterms:conformsTo? {#dctermsconformsto}
 
 > `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
@@ -321,7 +321,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
 
 ***
 
-### dcat:mediaType?
+### dcat:mediaType? {#dcatmediatype}
 
 > `optional` **dcat:mediaType**: `string`
 
@@ -337,7 +337,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type
 
 ***
 
-### dcat:compressFormat?
+### dcat:compressFormat? {#dcatcompressformat}
 
 > `optional` **dcat:compressFormat**: `string`
 
@@ -353,7 +353,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format
 
 ***
 
-### dcat:packageFormat?
+### dcat:packageFormat? {#dcatpackageformat}
 
 > `optional` **dcat:packageFormat**: `string`
 
@@ -369,7 +369,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format
 
 ***
 
-### spdx:checksum?
+### spdx:checksum? {#spdxchecksum}
 
 > `optional` **spdx:checksum**: `string`
 

@@ -14,7 +14,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 
@@ -27,7 +27,7 @@ Format: ISO 8601 date-time.
 
 ***
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: [`DcsaEventClassifierCodeNoReq`](../type-aliases/DcsaEventClassifierCodeNoReq.md)
 
@@ -39,7 +39,7 @@ Event classifier code.
 
 ***
 
-### transportEventTypeCode
+### transportEventTypeCode {#transporteventtypecode}
 
 > **transportEventTypeCode**: [`DcsaTransportEventTypeCodes`](../type-aliases/DcsaTransportEventTypeCodes.md)
 
@@ -47,7 +47,7 @@ Transport event type code.
 
 ***
 
-### transportCall
+### transportCall {#transportcall}
 
 > **transportCall**: [`IDcsaTransportCall`](../type-aliases/IDcsaTransportCall.md)
 
@@ -55,7 +55,7 @@ Transport call context.
 
 ***
 
-### delayReasonCode?
+### delayReasonCode? {#delayreasoncode}
 
 > `optional` **delayReasonCode**: `string`
 
@@ -64,7 +64,7 @@ The authoritative schema references the shared `delayReasonCode` from DCSA_DOMAI
 
 ***
 
-### changeRemark?
+### changeRemark? {#changeremark}
 
 > `optional` **changeRemark**: `string`
 
@@ -72,7 +72,7 @@ Free-text field to provide information as to why the TransportEvent was sent.
 
 ***
 
-### relatedDocumentReferences?
+### relatedDocumentReferences? {#relateddocumentreferences}
 
 > `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
@@ -80,7 +80,7 @@ Related documents.
 
 ***
 
-### references?
+### references? {#references}
 
 > `optional` **references**: [`IDcsaReference`](IDcsaReference.md)[]
 

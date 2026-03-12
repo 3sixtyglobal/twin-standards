@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancialInstitutionAddress
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancialInstitutionAddress"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### buildingNumber?
+### buildingNumber? {#buildingnumber}
 
 > `optional` **buildingNumber**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/buildingNumber
 
 ***
 
-### cityId?
+### cityId? {#cityid}
 
 > `optional` **cityId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/cityId
 
 ***
 
-### cityName?
+### cityName? {#cityname}
 
 > `optional` **cityName**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/cityName
 
 ***
 
-### countryId?
+### countryId? {#countryid}
 
 > `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/countryId
 
 ***
 
-### countryName?
+### countryName? {#countryname}
 
 > `optional` **countryName**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/countryName
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### countrySubDivisionName?
+### countrySubDivisionName? {#countrysubdivisionname}
 
 > `optional` **countrySubDivisionName**: `string`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/countrySubDivisionName
 
 ***
 
-### departmentName?
+### departmentName? {#departmentname}
 
 > `optional` **departmentName**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ***
 
-### financialInstitutionAddressTypeCode?
+### financialInstitutionAddressTypeCode? {#financialinstitutionaddresstypecode}
 
 > `optional` **financialInstitutionAddressTypeCode**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/financialInstitutionAddressTypeCode
 
 ***
 
-### lineFive?
+### lineFive? {#linefive}
 
 > `optional` **lineFive**: `string`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/lineFive
 
 ***
 
-### lineFour?
+### lineFour? {#linefour}
 
 > `optional` **lineFour**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/lineFour
 
 ***
 
-### lineOne?
+### lineOne? {#lineone}
 
 > `optional` **lineOne**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/lineOne
 
 ***
 
-### lineThree?
+### lineThree? {#linethree}
 
 > `optional` **lineThree**: `string`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/lineThree
 
 ***
 
-### lineTwo?
+### lineTwo? {#linetwo}
 
 > `optional` **lineTwo**: `string`
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/lineTwo
 
 ***
 
-### postOfficeBox?
+### postOfficeBox? {#postofficebox}
 
 > `optional` **postOfficeBox**: `string`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/postOfficeBox
 
 ***
 
-### postcodeCode?
+### postcodeCode? {#postcodecode}
 
 > `optional` **postcodeCode**: `string`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/postcodeCode
 
 ***
 
-### streetName?
+### streetName? {#streetname}
 
 > `optional` **streetName**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportMeans
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportMeans"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### driverAccompaniedIndicator?
+### driverAccompaniedIndicator? {#driveraccompaniedindicator}
 
 > `optional` **driverAccompaniedIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/driverAccompaniedIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### transportMeansType?
+### transportMeansType? {#transportmeanstype}
 
 > `optional` **transportMeansType**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/transportMeansType
 
 ***
 
-### transportMeansTypeCode?
+### transportMeansTypeCode? {#transportmeanstypecode}
 
 > `optional` **transportMeansTypeCode**: [`UneceTransportMeansTypeCodeList`](../type-aliases/UneceTransportMeansTypeCodeList.md)
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LineTradeTransaction
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LineTradeTransaction"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableLineTradeAgreement?
+### applicableLineTradeAgreement? {#applicablelinetradeagreement}
 
 > `optional` **applicableLineTradeAgreement**: [`IUneceLineTradeAgreement`](IUneceLineTradeAgreement.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableLineTradeAgreement
 
 ***
 
-### applicableLineTradeDelivery?
+### applicableLineTradeDelivery? {#applicablelinetradedelivery}
 
 > `optional` **applicableLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableLineTradeDelivery
 
 ***
 
-### includedTradeProduct?
+### includedTradeProduct? {#includedtradeproduct}
 
 > `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 

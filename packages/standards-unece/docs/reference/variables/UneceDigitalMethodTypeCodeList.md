@@ -6,7 +6,7 @@ Values for UneceDigitalMethod typeCode property.
 
 ## Type Declaration
 
-### IdentifiedDigitalMethod
+### IdentifiedDigitalMethod {#identifieddigitalmethod}
 
 > `readonly` **IdentifiedDigitalMethod**: `"unece:identifiedDigitalMethod"` = `"unece:identifiedDigitalMethod"`
 

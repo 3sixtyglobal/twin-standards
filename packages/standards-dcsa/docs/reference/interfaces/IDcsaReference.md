@@ -7,7 +7,7 @@ package does not model it yet, so `type` is left as a string.
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -15,7 +15,7 @@ Reference type.
 
 ***
 
-### value
+### value {#value}
 
 > **value**: `string`
 

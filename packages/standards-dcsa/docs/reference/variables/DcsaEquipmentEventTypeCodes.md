@@ -8,103 +8,103 @@ Source: `equipmentEventTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### LOAD
+### LOAD {#load}
 
 > `readonly` **LOAD**: `"LOAD"` = `"LOAD"`
 
 Loaded.
 
-### DISC
+### DISC {#disc}
 
 > `readonly` **DISC**: `"DISC"` = `"DISC"`
 
 Discharged.
 
-### GTIN
+### GTIN {#gtin}
 
 > `readonly` **GTIN**: `"GTIN"` = `"GTIN"`
 
 Gated in.
 
-### GTOT
+### GTOT {#gtot}
 
 > `readonly` **GTOT**: `"GTOT"` = `"GTOT"`
 
 Gated out.
 
-### STUF
+### STUF {#stuf}
 
 > `readonly` **STUF**: `"STUF"` = `"STUF"`
 
 Stuffed.
 
-### STRP
+### STRP {#strp}
 
 > `readonly` **STRP**: `"STRP"` = `"STRP"`
 
 Stripped.
 
-### PICK
+### PICK {#pick}
 
 > `readonly` **PICK**: `"PICK"` = `"PICK"`
 
 Pick-up.
 
-### AVPU
+### AVPU {#avpu}
 
 > `readonly` **AVPU**: `"AVPU"` = `"AVPU"`
 
 Available for pick-up.
 
-### DROP
+### DROP {#drop}
 
 > `readonly` **DROP**: `"DROP"` = `"DROP"`
 
 Drop-off.
 
-### AVDO
+### AVDO {#avdo}
 
 > `readonly` **AVDO**: `"AVDO"` = `"AVDO"`
 
 Available for drop-off.
 
-### INSP
+### INSP {#insp}
 
 > `readonly` **INSP**: `"INSP"` = `"INSP"`
 
 Inspected.
 
-### RSEA
+### RSEA {#rsea}
 
 > `readonly` **RSEA**: `"RSEA"` = `"RSEA"`
 
 Resealed.
 
-### RMVD
+### RMVD {#rmvd}
 
 > `readonly` **RMVD**: `"RMVD"` = `"RMVD"`
 
 Removed.
 
-### CUSS
+### CUSS {#cuss}
 
 > `readonly` **CUSS**: `"CUSS"` = `"CUSS"`
 
 Customs selected for scan.
 
-### CUSI
+### CUSI {#cusi}
 
 > `readonly` **CUSI**: `"CUSI"` = `"CUSI"`
 
 Customs selected for inspection.
 
-### CUSR
+### CUSR {#cusr}
 
 > `readonly` **CUSR**: `"CUSR"` = `"CUSR"`
 
 Customs released.
 
-### CROS
+### CROS {#cros}
 
 > `readonly` **CROS**: `"CROS"` = `"CROS"`
 

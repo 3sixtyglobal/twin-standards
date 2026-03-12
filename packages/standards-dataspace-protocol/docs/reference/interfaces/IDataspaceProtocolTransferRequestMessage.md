@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-re
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ LD Context
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"TransferRequestMessage"`
 
@@ -21,7 +21,7 @@ LD Type
 
 ***
 
-### agreementId
+### agreementId {#agreementid}
 
 > **agreementId**: `string`
 
@@ -29,7 +29,7 @@ MUST refer to an existing Agreement between the Consumer and Provider.
 
 ***
 
-### callbackAddress
+### callbackAddress {#callbackaddress}
 
 > **callbackAddress**: `string`
 
@@ -37,7 +37,7 @@ MUST be a URI indicating where messages to the Consumer SHOULD be sent.
 
 ***
 
-### consumerPid
+### consumerPid {#consumerpid}
 
 > **consumerPid**: `string`
 
@@ -45,7 +45,7 @@ MUST refer to the transfer identifier of the Consumer side.
 
 ***
 
-### format
+### format {#format}
 
 > **format**: `string`
 
@@ -54,7 +54,7 @@ This is generally obtained from the Provider's Catalog.
 
 ***
 
-### dataAddress?
+### dataAddress? {#dataaddress}
 
 > `optional` **dataAddress**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DebtorFinancialAccount
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DebtorFinancialAccount"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accountName?
+### accountName? {#accountname}
 
 > `optional` **accountName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accountName
 
 ***
 
-### bBANId?
+### bBANId? {#bbanid}
 
 > `optional` **bBANId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/bBANId
 
 ***
 
-### currencyCode?
+### currencyCode? {#currencycode}
 
 > `optional` **currencyCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/currencyCode
 
 ***
 
-### debtorFinancialAccountTypeCode?
+### debtorFinancialAccountTypeCode? {#debtorfinancialaccounttypecode}
 
 > `optional` **debtorFinancialAccountTypeCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/debtorFinancialAccountTypeCode
 
 ***
 
-### iBANId?
+### iBANId? {#ibanid}
 
 > `optional` **iBANId**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/iBANId
 
 ***
 
-### proprietaryId?
+### proprietaryId? {#proprietaryid}
 
 > `optional` **proprietaryId**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/proprietaryId
 
 ***
 
-### proprietaryType?
+### proprietaryType? {#proprietarytype}
 
 > `optional` **proprietaryType**: `string`
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/proprietaryType
 
 ***
 
-### uPICId?
+### uPICId? {#upicid}
 
 > `optional` **uPICId**: `string` \| `IJsonLdValueObject`
 

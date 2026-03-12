@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DocumentContextParameter
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DocumentContextParameter"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### specifiedVersion?
+### specifiedVersion? {#specifiedversion}
 
 > `optional` **specifiedVersion**: [`IUneceVersion`](IUneceVersion.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/specifiedVersion
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 

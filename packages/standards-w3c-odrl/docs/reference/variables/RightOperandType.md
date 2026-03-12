@@ -6,7 +6,7 @@ Right operand types for ODRL constraints
 
 ## Type Declaration
 
-### PolicyUsage
+### PolicyUsage {#policyusage}
 
 > `readonly` **PolicyUsage**: `"odrl:policyUsage"` = `"odrl:policyUsage"`
 

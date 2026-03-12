@@ -6,7 +6,7 @@ Values for UnecePaymentFinancialInstitution typeCode property.
 
 ## Type Declaration
 
-### CreditorSpecifiedFinancialInstitution
+### CreditorSpecifiedFinancialInstitution {#creditorspecifiedfinancialinstitution}
 
 > `readonly` **CreditorSpecifiedFinancialInstitution**: `"unece:creditorSpecifiedFinancialInstitution"` = `"unece:creditorSpecifiedFinancialInstitution"`
 
@@ -16,7 +16,7 @@ A creditor financial institution specified for this trade settlement payment mea
 
 https://vocabulary.uncefact.org/creditorSpecifiedFinancialInstitution
 
-### DebtorSpecifiedFinancialInstitution
+### DebtorSpecifiedFinancialInstitution {#debtorspecifiedfinancialinstitution}
 
 > `readonly` **DebtorSpecifiedFinancialInstitution**: `"unece:debtorSpecifiedFinancialInstitution"` = `"unece:debtorSpecifiedFinancialInstitution"`
 
@@ -26,7 +26,7 @@ A debtor financial institution specified for this trade settlement payment means
 
 https://vocabulary.uncefact.org/debtorSpecifiedFinancialInstitution
 
-### SpecifiedPaymentFinancialInstitution
+### SpecifiedPaymentFinancialInstitution {#specifiedpaymentfinancialinstitution}
 
 > `readonly` **SpecifiedPaymentFinancialInstitution**: `"unece:specifiedPaymentFinancialInstitution"` = `"unece:specifiedPaymentFinancialInstitution"`
 

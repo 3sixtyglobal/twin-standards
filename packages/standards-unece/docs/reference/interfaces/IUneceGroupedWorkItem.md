@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GroupedWorkItem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GroupedWorkItem"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualComplexDescription?
+### actualComplexDescription? {#actualcomplexdescription}
 
 > `optional` **actualComplexDescription**: [`IUneceComplexDescription`](IUneceComplexDescription.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualComplexDescription
 
 ***
 
-### alternativeClassificationCode?
+### alternativeClassificationCode? {#alternativeclassificationcode}
 
 > `optional` **alternativeClassificationCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ***
 
-### binaryFile?
+### binaryFile? {#binaryfile}
 
 > `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/binaryFile
 
 ***
 
-### changedStatus?
+### changedStatus? {#changedstatus}
 
 > `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/changedStatus
 
 ***
 
-### comment?
+### comment? {#comment}
 
 > `optional` **comment**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/comment
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### index?
+### index? {#index}
 
 > `optional` **index**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/index
 
 ***
 
-### itemBasicWorkItem?
+### itemBasicWorkItem? {#itembasicworkitem}
 
 > `optional` **itemBasicWorkItem**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/itemBasicWorkItem
 
 ***
 
-### itemGroupedWorkItem?
+### itemGroupedWorkItem? {#itemgroupedworkitem}
 
 > `optional` **itemGroupedWorkItem**: `IUneceGroupedWorkItem`[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/itemGroupedWorkItem
 
 ***
 
-### priceListItemId?
+### priceListItemId? {#pricelistitemid}
 
 > `optional` **priceListItemId**: `string` \| `IJsonLdValueObject`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/priceListItemId
 
 ***
 
-### primaryClassificationCode?
+### primaryClassificationCode? {#primaryclassificationcode}
 
 > `optional` **primaryClassificationCode**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/primaryClassificationCode
 
 ***
 
-### requestedActionCode?
+### requestedActionCode? {#requestedactioncode}
 
 > `optional` **requestedActionCode**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ***
 
-### totalPrice?
+### totalPrice? {#totalprice}
 
 > `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/totalPrice
 
 ***
 
-### totalQuantity?
+### totalQuantity? {#totalquantity}
 
 > `optional` **totalQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/totalQuantity
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Plot
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Plot"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableAgriculturalProcess?
+### applicableAgriculturalProcess? {#applicableagriculturalprocess}
 
 > `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalProcess
 
 ***
 
-### appliedAgriculturalApplication?
+### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
 > `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ***
 
-### areaMeasure?
+### areaMeasure? {#areameasure}
 
 > `optional` **areaMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/areaMeasure
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### grownCrop?
+### grownCrop? {#growncrop}
 
 > `optional` **grownCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/grownCrop
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedPlot?
+### includedPlot? {#includedplot}
 
 > `optional` **includedPlot**: `IUnecePlot`[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/includedPlot
 
 ***
 
-### regulatoryOrganicIndicator?
+### regulatoryOrganicIndicator? {#regulatoryorganicindicator}
 
 > `optional` **regulatoryOrganicIndicator**: `boolean`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/regulatoryOrganicIndicator
 
 ***
 
-### regulatorySoilTypeCode?
+### regulatorySoilTypeCode? {#regulatorysoiltypecode}
 
 > `optional` **regulatorySoilTypeCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/regulatorySoilTypeCode
 
 ***
 
-### specifiedAgriculturalCertificate?
+### specifiedAgriculturalCertificate? {#specifiedagriculturalcertificate}
 
 > `optional` **specifiedAgriculturalCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCertificate
 
 ***
 
-### specifiedAgriculturalCharacteristic?
+### specifiedAgriculturalCharacteristic? {#specifiedagriculturalcharacteristic}
 
 > `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalCharacteristic
 
 ***
 
-### specifiedAgriculturalZoneArea?
+### specifiedAgriculturalZoneArea? {#specifiedagriculturalzonearea}
 
 > `optional` **specifiedAgriculturalZoneArea**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/specifiedAgriculturalZoneArea
 
 ***
 
-### ~~specifiedArea?~~
+### ~~specifiedArea?~~ {#specifiedarea}
 
 > `optional` **specifiedArea**: [`IUneceArea`](IUneceArea.md)[]
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/specifiedArea
 
 ***
 
-### specifiedLocation?
+### specifiedLocation? {#specifiedlocation}
 
 > `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 

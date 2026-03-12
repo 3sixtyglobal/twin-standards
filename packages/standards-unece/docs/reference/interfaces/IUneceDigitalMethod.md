@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DigitalMethod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DigitalMethod"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accountHolderName?
+### accountHolderName? {#accountholdername}
 
 > `optional` **accountHolderName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accountHolderName
 
 ***
 
-### applicableIndicator?
+### applicableIndicator? {#applicableindicator}
 
 > `optional` **applicableIndicator**: `boolean`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ***
 
-### cardholderName?
+### cardholderName? {#cardholdername}
 
 > `optional` **cardholderName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/cardholderName
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issuingCompanyName?
+### issuingCompanyName? {#issuingcompanyname}
 
 > `optional` **issuingCompanyName**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/issuingCompanyName
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### validFromDateTime?
+### validFromDateTime? {#validfromdatetime}
 
 > `optional` **validFromDateTime**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/validFromDateTime
 
 ***
 
-### verificationNumeric?
+### verificationNumeric? {#verificationnumeric}
 
 > `optional` **verificationNumeric**: `string`
 

@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventID
+### eventID {#eventid}
 
 > **eventID**: `string`
 
@@ -18,7 +18,7 @@ Unique identifier of this event.
 
 ***
 
-### eventCreatedDateTime
+### eventCreatedDateTime {#eventcreateddatetime}
 
 > **eventCreatedDateTime**: `string`
 
@@ -27,7 +27,7 @@ Format: ISO 8601 date-time.
 
 ***
 
-### publisher
+### publisher {#publisher}
 
 > **publisher**: [`IDcsaPublisher`](IDcsaPublisher.md)
 
@@ -35,7 +35,7 @@ The party publishing this event.
 
 ***
 
-### publisherRole
+### publisherRole {#publisherrole}
 
 > **publisherRole**: [`DcsaTntPublisherRole`](../type-aliases/DcsaTntPublisherRole.md)
 
@@ -43,7 +43,7 @@ Publisher role (context of the publisher).
 
 ***
 
-### eventType
+### eventType {#eventtype}
 
 > **eventType**: `"REEFER"`
 
@@ -51,7 +51,7 @@ Event type discriminator.
 
 ***
 
-### retractedEventID?
+### retractedEventID? {#retractedeventid}
 
 > `optional` **retractedEventID**: `null`
 

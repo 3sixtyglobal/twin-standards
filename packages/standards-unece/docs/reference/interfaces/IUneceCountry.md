@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Country
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Country"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### countryId?
+### countryId? {#countryid}
 
 > `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/countryId
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedQuantity?
+### specifiedQuantity? {#specifiedquantity}
 
 > `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/specifiedQuantity
 
 ***
 
-### subordinateCountrySubDivision?
+### subordinateCountrySubDivision? {#subordinatecountrysubdivision}
 
 > `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)[]
 

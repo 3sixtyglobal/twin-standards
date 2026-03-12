@@ -19,7 +19,7 @@ https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -27,7 +27,7 @@ Runtime name for the class.
 
 ## Methods
 
-### createProof()
+### createProof() {#createproof}
 
 > **createProof**(`unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -65,7 +65,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -103,7 +103,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

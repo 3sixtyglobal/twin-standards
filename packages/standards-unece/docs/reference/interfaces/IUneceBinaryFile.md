@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/BinaryFile
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"BinaryFile"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### access?
+### access? {#access}
 
 > `optional` **access**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/access
 
 ***
 
-### accessAvailabilityPeriod?
+### accessAvailabilityPeriod? {#accessavailabilityperiod}
 
 > `optional` **accessAvailabilityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/accessAvailabilityPeriod
 
 ***
 
-### authorName?
+### authorName? {#authorname}
 
 > `optional` **authorName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/authorName
 
 ***
 
-### characterSetCode?
+### characterSetCode? {#charactersetcode}
 
 > `optional` **characterSetCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/characterSetCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### encodingCode?
+### encodingCode? {#encodingcode}
 
 > `optional` **encodingCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/encodingCode
 
 ***
 
-### fileName?
+### fileName? {#filename}
 
 > `optional` **fileName**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/fileName
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedBinaryObject?
+### includedBinaryObject? {#includedbinaryobject}
 
 > `optional` **includedBinaryObject**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/includedBinaryObject
 
 ***
 
-### mIMECode?
+### mIMECode? {#mimecode}
 
 > `optional` **mIMECode**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/mIMECode
 
 ***
 
-### sizeMeasure?
+### sizeMeasure? {#sizemeasure}
 
 > `optional` **sizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/sizeMeasure
 
 ***
 
-### title?
+### title? {#title}
 
 > `optional` **title**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/title
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

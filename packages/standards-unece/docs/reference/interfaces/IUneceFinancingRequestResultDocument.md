@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancingRequestResultDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancingRequestResultDocument"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### financedRatePercent?
+### financedRatePercent? {#financedratepercent}
 
 > `optional` **financedRatePercent**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/financedRatePercent
 
 ***
 
-### financedTotalAmount?
+### financedTotalAmount? {#financedtotalamount}
 
 > `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ***
 
-### specifiedFinancingStatus?
+### specifiedFinancingStatus? {#specifiedfinancingstatus}
 
 > `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)
 

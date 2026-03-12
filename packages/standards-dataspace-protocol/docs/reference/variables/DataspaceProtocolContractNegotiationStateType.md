@@ -7,43 +7,43 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cont
 
 ## Type Declaration
 
-### REQUESTED
+### REQUESTED {#requested}
 
 > `readonly` **REQUESTED**: `"REQUESTED"` = `"REQUESTED"`
 
 Requested.
 
-### OFFERED
+### OFFERED {#offered}
 
 > `readonly` **OFFERED**: `"OFFERED"` = `"OFFERED"`
 
 Offered.
 
-### ACCEPTED
+### ACCEPTED {#accepted}
 
 > `readonly` **ACCEPTED**: `"ACCEPTED"` = `"ACCEPTED"`
 
 Accepted.
 
-### AGREED
+### AGREED {#agreed}
 
 > `readonly` **AGREED**: `"AGREED"` = `"AGREED"`
 
 Agreed.
 
-### VERIFIED
+### VERIFIED {#verified}
 
 > `readonly` **VERIFIED**: `"VERIFIED"` = `"VERIFIED"`
 
 Verified.
 
-### FINALIZED
+### FINALIZED {#finalized}
 
 > `readonly` **FINALIZED**: `"FINALIZED"` = `"FINALIZED"`
 
 Finalized.
 
-### TERMINATED
+### TERMINATED {#terminated}
 
 > `readonly` **TERMINATED**: `"TERMINATED"` = `"TERMINATED"`
 

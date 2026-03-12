@@ -14,7 +14,7 @@ Helper methods for multikey.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -22,7 +22,7 @@ Runtime name for the class.
 
 ## Methods
 
-### toJwk()
+### toJwk() {#tojwk}
 
 > `static` **toJwk**(`multikey`): `JWK`
 
@@ -48,7 +48,7 @@ GeneralError if the multikey is invalid.
 
 ***
 
-### fromJwk()
+### fromJwk() {#fromjwk}
 
 > `static` **fromJwk**(`controller`, `id`, `jwk`): [`IMultikey`](../interfaces/IMultikey.md)
 
@@ -86,7 +86,7 @@ GeneralError if the jwk is invalid.
 
 ***
 
-### toRaw()
+### toRaw() {#toraw}
 
 > `static` **toRaw**(`multikey`): `object`
 

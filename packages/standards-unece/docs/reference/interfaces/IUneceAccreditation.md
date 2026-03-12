@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Accreditation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Accreditation"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### accreditingBodyName?
+### accreditingBodyName? {#accreditingbodyname}
 
 > `optional` **accreditingBodyName**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/accreditingBodyName
 
 ***
 
-### authenticationMethodCode?
+### authenticationMethodCode? {#authenticationmethodcode}
 
 > `optional` **authenticationMethodCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/authenticationMethodCode
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### obtainedDateTime?
+### obtainedDateTime? {#obtaineddatetime}
 
 > `optional` **obtainedDateTime**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/obtainedDateTime
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

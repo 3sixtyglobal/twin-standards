@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Booking
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Booking"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualDateTime?
+### actualDateTime? {#actualdatetime}
 
 > `optional` **actualDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ***
 
-### creditDateTime?
+### creditDateTime? {#creditdatetime}
 
 > `optional` **creditDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/creditDateTime
 
 ***
 
-### debitDateTime?
+### debitDateTime? {#debitdatetime}
 
 > `optional` **debitDateTime**: `string`
 

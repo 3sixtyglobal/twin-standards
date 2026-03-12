@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: [`DcsaDocumentTypeCodes`](../type-aliases/DcsaDocumentTypeCodes.md)
 
@@ -18,7 +18,7 @@ Document type code.
 
 ***
 
-### value
+### value {#value}
 
 > **value**: `string`
 

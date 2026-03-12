@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SupplyChainPackaging
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SupplyChainPackaging"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalInstructionCode?
+### additionalInstructionCode? {#additionalinstructioncode}
 
 > `optional` **additionalInstructionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalInstructionCode
 
 ***
 
-### additionalInstructionIndicator?
+### additionalInstructionIndicator? {#additionalinstructionindicator}
 
 > `optional` **additionalInstructionIndicator**: `boolean`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/additionalInstructionIndicator
 
 ***
 
-### applicableDisposalInstructions?
+### applicableDisposalInstructions? {#applicabledisposalinstructions}
 
 > `optional` **applicableDisposalInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableDisposalInstructions
 
 ***
 
-### applicableGoodsCharacteristic?
+### applicableGoodsCharacteristic? {#applicablegoodscharacteristic}
 
 > `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ***
 
-### applicablePackagingInstructions?
+### applicablePackagingInstructions? {#applicablepackaginginstructions}
 
 > `optional` **applicablePackagingInstructions**: [`IUnecePackagingInstructions`](IUnecePackagingInstructions.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicablePackagingInstructions
 
 ***
 
-### applicableReturnableAssetInstructions?
+### applicableReturnableAssetInstructions? {#applicablereturnableassetinstructions}
 
 > `optional` **applicableReturnableAssetInstructions**: [`IUneceReturnableAssetInstructions`](IUneceReturnableAssetInstructions.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/applicableReturnableAssetInstructions
 
 ***
 
-### capacityMeasure?
+### capacityMeasure? {#capacitymeasure}
 
 > `optional` **capacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/capacityMeasure
 
 ***
 
-### conditionCode?
+### conditionCode? {#conditioncode}
 
 > `optional` **conditionCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/conditionCode
 
 ***
 
-### contentLayerQuantity?
+### contentLayerQuantity? {#contentlayerquantity}
 
 > `optional` **contentLayerQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/contentLayerQuantity
 
 ***
 
-### customerFacingTotalUnitQuantity?
+### customerFacingTotalUnitQuantity? {#customerfacingtotalunitquantity}
 
 > `optional` **customerFacingTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/customerFacingTotalUnitQuantity
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### disposalMethodCode?
+### disposalMethodCode? {#disposalmethodcode}
 
 > `optional` **disposalMethodCode**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/disposalMethodCode
 
 ***
 
-### instructionCode?
+### instructionCode? {#instructioncode}
 
 > `optional` **instructionCode**: `string`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/instructionCode
 
 ***
 
-### layerTotalUnitQuantity?
+### layerTotalUnitQuantity? {#layertotalunitquantity}
 
 > `optional` **layerTotalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/layerTotalUnitQuantity
 
 ***
 
-### linearDimension?
+### linearDimension? {#lineardimension}
 
 > `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ***
 
-### maximumLinearDimension?
+### maximumLinearDimension? {#maximumlineardimension}
 
 > `optional` **maximumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/maximumLinearDimension
 
 ***
 
-### maximumStackabilityQuantity?
+### maximumStackabilityQuantity? {#maximumstackabilityquantity}
 
 > `optional` **maximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/maximumStackabilityQuantity
 
 ***
 
-### maximumStackabilityWeightMeasure?
+### maximumStackabilityWeightMeasure? {#maximumstackabilityweightmeasure}
 
 > `optional` **maximumStackabilityWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightMeasure
 
 ***
 
-### minimumLinearDimension?
+### minimumLinearDimension? {#minimumlineardimension}
 
 > `optional` **minimumLinearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/minimumLinearDimension
 
 ***
 
-### packageTypeCode?
+### packageTypeCode? {#packagetypecode}
 
 > `optional` **packageTypeCode**: [`UnecePackageTypeCodeList`](../type-aliases/UnecePackageTypeCodeList.md)
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/packageTypeCode
 
 ***
 
-### packagingType?
+### packagingType? {#packagingtype}
 
 > `optional` **packagingType**: `string`
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/packagingType
 
 ***
 
-### recyclableIndicator?
+### recyclableIndicator? {#recyclableindicator}
 
 > `optional` **recyclableIndicator**: `boolean`
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/recyclableIndicator
 
 ***
 
-### recycledMaterialIndicator?
+### recycledMaterialIndicator? {#recycledmaterialindicator}
 
 > `optional` **recycledMaterialIndicator**: `boolean`
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/recycledMaterialIndicator
 
 ***
 
-### recycledMaterialPercent?
+### recycledMaterialPercent? {#recycledmaterialpercent}
 
 > `optional` **recycledMaterialPercent**: `string`
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/recycledMaterialPercent
 
 ***
 
-### returnableIndicator?
+### returnableIndicator? {#returnableindicator}
 
 > `optional` **returnableIndicator**: `boolean`
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/returnableIndicator
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### specifiedMarking?
+### specifiedMarking? {#specifiedmarking}
 
 > `optional` **specifiedMarking**: [`IUneceMarking`](IUneceMarking.md)[]
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/specifiedMarking
 
 ***
 
-### supplyChainPackagingLevelCode?
+### supplyChainPackagingLevelCode? {#supplychainpackaginglevelcode}
 
 > `optional` **supplyChainPackagingLevelCode**: `string`
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/supplyChainPackagingLevelCode
 
 ***
 
-### totalUnitQuantity?
+### totalUnitQuantity? {#totalunitquantity}
 
 > `optional` **totalUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -375,7 +375,7 @@ https://vocabulary.uncefact.org/totalUnitQuantity
 
 ***
 
-### transportMaximumStackabilityQuantity?
+### transportMaximumStackabilityQuantity? {#transportmaximumstackabilityquantity}
 
 > `optional` **transportMaximumStackabilityQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/transportMaximumStackabilityQuantity
 
 ***
 
-### weightMeasure?
+### weightMeasure? {#weightmeasure}
 
 > `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/weightMeasure
 
 ***
 
-### weightUnitLoadBearingCapabilityMeasure?
+### weightUnitLoadBearingCapabilityMeasure? {#weightunitloadbearingcapabilitymeasure}
 
 > `optional` **weightUnitLoadBearingCapabilityMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 

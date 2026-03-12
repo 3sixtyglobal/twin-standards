@@ -6,43 +6,43 @@ A character string used to represent the sealing party role.
 
 ## Type Declaration
 
-### Consolidator
+### Consolidator {#consolidator}
 
 > `readonly` **Consolidator**: `"unece:SealingPartyRoleCodeList#AA"` = `"unece:SealingPartyRoleCodeList#AA"`
 
 Consolidator: AA.
 
-### Unknown
+### Unknown {#unknown}
 
 > `readonly` **Unknown**: `"unece:SealingPartyRoleCodeList#AB"` = `"unece:SealingPartyRoleCodeList#AB"`
 
 Unknown: AB.
 
-### QuarantineAgency
+### QuarantineAgency {#quarantineagency}
 
 > `readonly` **QuarantineAgency**: `"unece:SealingPartyRoleCodeList#AC"` = `"unece:SealingPartyRoleCodeList#AC"`
 
 Quarantine agency: AC.
 
-### Carrier
+### Carrier {#carrier}
 
 > `readonly` **Carrier**: `"unece:SealingPartyRoleCodeList#CA"` = `"unece:SealingPartyRoleCodeList#CA"`
 
 Carrier: CA.
 
-### Customs
+### Customs {#customs}
 
 > `readonly` **Customs**: `"unece:SealingPartyRoleCodeList#CU"` = `"unece:SealingPartyRoleCodeList#CU"`
 
 Customs: CU.
 
-### Shipper
+### Shipper {#shipper}
 
 > `readonly` **Shipper**: `"unece:SealingPartyRoleCodeList#SH"` = `"unece:SealingPartyRoleCodeList#SH"`
 
 Shipper: SH.
 
-### TerminalOperator
+### TerminalOperator {#terminaloperator}
 
 > `readonly` **TerminalOperator**: `"unece:SealingPartyRoleCodeList#TO"` = `"unece:SealingPartyRoleCodeList#TO"`
 

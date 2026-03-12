@@ -6,13 +6,13 @@ RDF Class for TemperatureUnitMeasureType unit code type to define unit code valu
 
 ## Type Declaration
 
-### DegreeCelsius
+### DegreeCelsius {#degreecelsius}
 
 > `readonly` **DegreeCelsius**: `"unece:TemperatureUnitMeasureCode#CEL"` = `"unece:TemperatureUnitMeasureCode#CEL"`
 
 degree Celsius: CEL.
 
-### DegreeFahrenheit
+### DegreeFahrenheit {#degreefahrenheit}
 
 > `readonly` **DegreeFahrenheit**: `"unece:TemperatureUnitMeasureCode#FAH"` = `"unece:TemperatureUnitMeasureCode#FAH"`
 

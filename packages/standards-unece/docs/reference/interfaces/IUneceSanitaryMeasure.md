@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SanitaryMeasure
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SanitaryMeasure"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicationDateTime?
+### applicationDateTime? {#applicationdatetime}
 
 > `optional` **applicationDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicationDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/location
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

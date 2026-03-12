@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SubordinateSubordinateLocation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SubordinateSubordinateLocation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationFunctionTypeCode?
+### locationFunctionTypeCode? {#locationfunctiontypecode}
 
 > `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### physicalGeographicalCoordinate?
+### physicalGeographicalCoordinate? {#physicalgeographicalcoordinate}
 
 > `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 

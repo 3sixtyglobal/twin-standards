@@ -4,7 +4,7 @@ Interface describing the result of checking verifiable presentation.
 
 ## Properties
 
-### isVerified
+### isVerified {#isverified}
 
 > **isVerified**: `boolean`
 
@@ -12,7 +12,7 @@ Is the whole presentation verified.
 
 ***
 
-### holder?
+### holder? {#holder}
 
 > `optional` **holder**: `object`
 

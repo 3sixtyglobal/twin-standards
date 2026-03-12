@@ -6,7 +6,7 @@ Values for UneceTransportEvent typeCode property.
 
 ## Type Declaration
 
-### ArrivalEvent
+### ArrivalEvent {#arrivalevent}
 
 > `readonly` **ArrivalEvent**: `"unece:arrivalEvent"` = `"unece:arrivalEvent"`
 
@@ -16,7 +16,7 @@ An arrival event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/arrivalEvent
 
-### ArrivalReportedEvent
+### ArrivalReportedEvent {#arrivalreportedevent}
 
 > `readonly` **ArrivalReportedEvent**: `"unece:arrivalReportedEvent"` = `"unece:arrivalReportedEvent"`
 
@@ -26,7 +26,7 @@ A transport arrival event reported for this logistics status.
 
 https://vocabulary.uncefact.org/arrivalReportedEvent
 
-### BondedWarehouseStorageEvent
+### BondedWarehouseStorageEvent {#bondedwarehousestorageevent}
 
 > `readonly` **BondedWarehouseStorageEvent**: `"unece:bondedWarehouseStorageEvent"` = `"unece:bondedWarehouseStorageEvent"`
 
@@ -38,7 +38,7 @@ been, stored.
 
 https://vocabulary.uncefact.org/bondedWarehouseStorageEvent
 
-### BorderCrossingEvent
+### BorderCrossingEvent {#bordercrossingevent}
 
 > `readonly` **BorderCrossingEvent**: `"unece:borderCrossingEvent"` = `"unece:borderCrossingEvent"`
 
@@ -48,7 +48,7 @@ A border crossing event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/borderCrossingEvent
 
-### CallEvent
+### CallEvent {#callevent}
 
 > `readonly` **CallEvent**: `"unece:callEvent"` = `"unece:callEvent"`
 
@@ -58,7 +58,7 @@ A call event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/callEvent
 
-### ConsolidationEvent
+### ConsolidationEvent {#consolidationevent}
 
 > `readonly` **ConsolidationEvent**: `"unece:consolidationEvent"` = `"unece:consolidationEvent"`
 
@@ -69,7 +69,7 @@ stuffed.
 
 https://vocabulary.uncefact.org/consolidationEvent
 
-### DamageEvent
+### DamageEvent {#damageevent}
 
 > `readonly` **DamageEvent**: `"unece:damageEvent"` = `"unece:damageEvent"`
 
@@ -79,7 +79,7 @@ A damage event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/damageEvent
 
-### DeconsolidationEvent
+### DeconsolidationEvent {#deconsolidationevent}
 
 > `readonly` **DeconsolidationEvent**: `"unece:deconsolidationEvent"` = `"unece:deconsolidationEvent"`
 
@@ -89,7 +89,7 @@ A deconsolidation event for this piece of logistics transport equipment.
 
 https://vocabulary.uncefact.org/deconsolidationEvent
 
-### DelaySpecifiedEvent
+### DelaySpecifiedEvent {#delayspecifiedevent}
 
 > `readonly` **DelaySpecifiedEvent**: `"unece:delaySpecifiedEvent"` = `"unece:delaySpecifiedEvent"`
 
@@ -99,7 +99,7 @@ A delay specified for this referenced transport event.
 
 https://vocabulary.uncefact.org/delaySpecifiedEvent
 
-### DeliveryTransportEvent
+### DeliveryTransportEvent {#deliverytransportevent}
 
 > `readonly` **DeliveryTransportEvent**: `"unece:deliveryTransportEvent"` = `"unece:deliveryTransportEvent"`
 
@@ -111,7 +111,7 @@ The delivery event for this supply chain consignment.
 
 https://vocabulary.uncefact.org/deliveryTransportEvent
 
-### DepartureEvent
+### DepartureEvent {#departureevent}
 
 > `readonly` **DepartureEvent**: `"unece:departureEvent"` = `"unece:departureEvent"`
 
@@ -121,7 +121,7 @@ A departure event during this logistics transport movement.
 
 https://vocabulary.uncefact.org/departureEvent
 
-### DepartureReportedEvent
+### DepartureReportedEvent {#departurereportedevent}
 
 > `readonly` **DepartureReportedEvent**: `"unece:departureReportedEvent"` = `"unece:departureReportedEvent"`
 
@@ -131,7 +131,7 @@ A transport departure event reported for this logistics status.
 
 https://vocabulary.uncefact.org/departureReportedEvent
 
-### DevanningEvent
+### DevanningEvent {#devanningevent}
 
 > `readonly` **DevanningEvent**: `"unece:devanningEvent"` = `"unece:devanningEvent"`
 
@@ -144,7 +144,7 @@ delivery.
 
 https://vocabulary.uncefact.org/devanningEvent
 
-### ExaminationEvent
+### ExaminationEvent {#examinationevent}
 
 > `readonly` **ExaminationEvent**: `"unece:examinationEvent"` = `"unece:examinationEvent"`
 
@@ -156,7 +156,7 @@ An examination event for this supply chain consignment.
 
 https://vocabulary.uncefact.org/examinationEvent
 
-### FirstArrivalEvent
+### FirstArrivalEvent {#firstarrivalevent}
 
 > `readonly` **FirstArrivalEvent**: `"unece:firstArrivalEvent"` = `"unece:firstArrivalEvent"`
 
@@ -166,7 +166,7 @@ The first arrival event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/firstArrivalEvent
 
-### ItineraryStopEvent
+### ItineraryStopEvent {#itinerarystopevent}
 
 > `readonly` **ItineraryStopEvent**: `"unece:itineraryStopEvent"` = `"unece:itineraryStopEvent"`
 
@@ -176,7 +176,7 @@ An itinerary stop event for this transport route, such as a port call in a vesse
 
 https://vocabulary.uncefact.org/itineraryStopEvent
 
-### LoadingEvent
+### LoadingEvent {#loadingevent}
 
 > `readonly` **LoadingEvent**: `"unece:loadingEvent"` = `"unece:loadingEvent"`
 
@@ -188,7 +188,7 @@ The loading event for this piece of logistics transport equipment.
 
 https://vocabulary.uncefact.org/loadingEvent
 
-### LoadingReportedEvent
+### LoadingReportedEvent {#loadingreportedevent}
 
 > `readonly` **LoadingReportedEvent**: `"unece:loadingReportedEvent"` = `"unece:loadingReportedEvent"`
 
@@ -198,7 +198,7 @@ A transport loading event reported for this logistics status.
 
 https://vocabulary.uncefact.org/loadingReportedEvent
 
-### NextDeliveryEvent
+### NextDeliveryEvent {#nextdeliveryevent}
 
 > `readonly` **NextDeliveryEvent**: `"unece:nextDeliveryEvent"` = `"unece:nextDeliveryEvent"`
 
@@ -208,7 +208,7 @@ A next delivery event for this transportation waste material.
 
 https://vocabulary.uncefact.org/nextDeliveryEvent
 
-### PickUpEvent
+### PickUpEvent {#pickupevent}
 
 > `readonly` **PickUpEvent**: `"unece:pickUpEvent"` = `"unece:pickUpEvent"`
 
@@ -221,7 +221,7 @@ The pick-up event for this supply chain consignment.
 
 https://vocabulary.uncefact.org/pickUpEvent
 
-### PositioningEvent
+### PositioningEvent {#positioningevent}
 
 > `readonly` **PositioningEvent**: `"unece:positioningEvent"` = `"unece:positioningEvent"`
 
@@ -232,7 +232,7 @@ positioned, i.e. delivered and available for pick-up.
 
 https://vocabulary.uncefact.org/positioningEvent
 
-### PreviousDeliveryTransportEvent
+### PreviousDeliveryTransportEvent {#previousdeliverytransportevent}
 
 > `readonly` **PreviousDeliveryTransportEvent**: `"unece:previousDeliveryTransportEvent"` = `"unece:previousDeliveryTransportEvent"`
 
@@ -242,7 +242,7 @@ A previous delivery event for this transportation waste material.
 
 https://vocabulary.uncefact.org/previousDeliveryTransportEvent
 
-### RegistrationEvent
+### RegistrationEvent {#registrationevent}
 
 > `readonly` **RegistrationEvent**: `"unece:registrationEvent"` = `"unece:registrationEvent"`
 
@@ -252,7 +252,7 @@ A registration event of this logistics transport means.
 
 https://vocabulary.uncefact.org/registrationEvent
 
-### RemainingDeliveryEvent
+### RemainingDeliveryEvent {#remainingdeliveryevent}
 
 > `readonly` **RemainingDeliveryEvent**: `"unece:remainingDeliveryEvent"` = `"unece:remainingDeliveryEvent"`
 
@@ -262,7 +262,7 @@ A delivery event for this remaining transportation waste material component.
 
 https://vocabulary.uncefact.org/remainingDeliveryEvent
 
-### ReportedTransportEvent
+### ReportedTransportEvent {#reportedtransportevent}
 
 > `readonly` **ReportedTransportEvent**: `"unece:reportedTransportEvent"` = `"unece:reportedTransportEvent"`
 
@@ -272,7 +272,7 @@ A transport event reported by this monitoring IOT device.
 
 https://vocabulary.uncefact.org/reportedTransportEvent
 
-### ReportingIOTDeviceTransportEvent
+### ReportingIOTDeviceTransportEvent {#reportingiotdevicetransportevent}
 
 > `readonly` **ReportingIOTDeviceTransportEvent**: `"unece:reportingIOTDeviceTransportEvent"` = `"unece:reportingIOTDeviceTransportEvent"`
 
@@ -282,7 +282,7 @@ An IOT device reported transport event for this piece of logistics transport equ
 
 https://vocabulary.uncefact.org/reportingIOTDeviceTransportEvent
 
-### ShipToShipEvent
+### ShipToShipEvent {#shiptoshipevent}
 
 > `readonly` **ShipToShipEvent**: `"unece:shipToShipEvent"` = `"unece:shipToShipEvent"`
 
@@ -292,7 +292,7 @@ A ship to ship event for this logistics transport movement.
 
 https://vocabulary.uncefact.org/shipToShipEvent
 
-### SpecifiedTransportEvent
+### SpecifiedTransportEvent {#specifiedtransportevent}
 
 > `readonly` **SpecifiedTransportEvent**: `"unece:specifiedTransportEvent"` = `"unece:specifiedTransportEvent"`
 
@@ -302,7 +302,7 @@ A transport event specified for this logistics transport movement.
 
 https://vocabulary.uncefact.org/specifiedTransportEvent
 
-### StaySpecifiedEvent
+### StaySpecifiedEvent {#stayspecifiedevent}
 
 > `readonly` **StaySpecifiedEvent**: `"unece:staySpecifiedEvent"` = `"unece:staySpecifiedEvent"`
 
@@ -312,7 +312,7 @@ A stay specified for this referenced transport event.
 
 https://vocabulary.uncefact.org/staySpecifiedEvent
 
-### StorageEvent
+### StorageEvent {#storageevent}
 
 > `readonly` **StorageEvent**: `"unece:storageEvent"` = `"unece:storageEvent"`
 
@@ -323,7 +323,7 @@ A storage event specifying when and where this piece of logistics transport equi
 
 https://vocabulary.uncefact.org/storageEvent
 
-### TransportEvent
+### TransportEvent {#transportevent}
 
 > `readonly` **TransportEvent**: `"unece:transportEvent"` = `"unece:transportEvent"`
 
@@ -333,7 +333,7 @@ An event occurring during the transport of this supply chain consignment.
 
 https://vocabulary.uncefact.org/transportEvent
 
-### TransshipmentIntermediateEvent
+### TransshipmentIntermediateEvent {#transshipmentintermediateevent}
 
 > `readonly` **TransshipmentIntermediateEvent**: `"unece:transshipmentIntermediateEvent"` = `"unece:transshipmentIntermediateEvent"`
 
@@ -343,7 +343,7 @@ A transshipment intermediate event during this logistics transport movement.
 
 https://vocabulary.uncefact.org/transshipmentIntermediateEvent
 
-### TreatmentEvent
+### TreatmentEvent {#treatmentevent}
 
 > `readonly` **TreatmentEvent**: `"unece:treatmentEvent"` = `"unece:treatmentEvent"`
 
@@ -353,7 +353,7 @@ A treatment event for this cross-border regulatory procedure.
 
 https://vocabulary.uncefact.org/treatmentEvent
 
-### UnloadingEvent
+### UnloadingEvent {#unloadingevent}
 
 > `readonly` **UnloadingEvent**: `"unece:unloadingEvent"` = `"unece:unloadingEvent"`
 
@@ -365,7 +365,7 @@ The unloading event for this piece of logistics transport equipment.
 
 https://vocabulary.uncefact.org/unloadingEvent
 
-### UnloadingReportedEvent
+### UnloadingReportedEvent {#unloadingreportedevent}
 
 > `readonly` **UnloadingReportedEvent**: `"unece:unloadingReportedEvent"` = `"unece:unloadingReportedEvent"`
 
@@ -375,7 +375,7 @@ A transport unloading event reported for this logistics status.
 
 https://vocabulary.uncefact.org/unloadingReportedEvent
 
-### VanningEvent
+### VanningEvent {#vanningevent}
 
 > `readonly` **VanningEvent**: `"unece:vanningEvent"` = `"unece:vanningEvent"`
 
@@ -390,7 +390,7 @@ despatch.
 
 https://vocabulary.uncefact.org/vanningEvent
 
-### WarehouseStorageEvent
+### WarehouseStorageEvent {#warehousestorageevent}
 
 > `readonly` **WarehouseStorageEvent**: `"unece:warehouseStorageEvent"` = `"unece:warehouseStorageEvent"`
 

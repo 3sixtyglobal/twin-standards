@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Measurement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Measurement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualMeasure?
+### actualMeasure? {#actualmeasure}
 
 > `optional` **actualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualMeasure
 
 ***
 
-### comparisonOperatorCode?
+### comparisonOperatorCode? {#comparisonoperatorcode}
 
 > `optional` **comparisonOperatorCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ***
 
-### conditionMeasure?
+### conditionMeasure? {#conditionmeasure}
 
 > `optional` **conditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/conditionMeasure
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### method?
+### method? {#method}
 
 > `optional` **method**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/method
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DisposalInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DisposalInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### disposalInstructionsRecyclingDescriptionCode?
+### disposalInstructionsRecyclingDescriptionCode? {#disposalinstructionsrecyclingdescriptioncode}
 
 > `optional` **disposalInstructionsRecyclingDescriptionCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/disposalInstructionsRecyclingDescriptionCode
 
 ***
 
-### handling?
+### handling? {#handling}
 
 > `optional` **handling**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/handling
 
 ***
 
-### materialId?
+### materialId? {#materialid}
 
 > `optional` **materialId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/materialId
 
 ***
 
-### rCRAHandling?
+### rCRAHandling? {#rcrahandling}
 
 > `optional` **rCRAHandling**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/rCRAHandling
 
 ***
 
-### recyclingProcedure?
+### recyclingProcedure? {#recyclingprocedure}
 
 > `optional` **recyclingProcedure**: `string`
 

@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/EPCISHeader
 
 ## Properties
 
-### epcisMasterData?
+### epcisMasterData? {#epcismasterdata}
 
 > `optional` **epcisMasterData**: `IJsonLdNodeObject` & `object`
 

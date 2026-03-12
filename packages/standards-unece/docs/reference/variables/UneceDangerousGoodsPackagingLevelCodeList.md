@@ -6,25 +6,25 @@ A character string used to represent the dangerous goods packaging level.
 
 ## Type Declaration
 
-### GreatDanger
+### GreatDanger {#greatdanger}
 
 > `readonly` **GreatDanger**: `"unece:DangerousGoodsPackagingLevelCodeList#1"` = `"unece:DangerousGoodsPackagingLevelCodeList#1"`
 
 Great danger: 1.
 
-### MediumDanger
+### MediumDanger {#mediumdanger}
 
 > `readonly` **MediumDanger**: `"unece:DangerousGoodsPackagingLevelCodeList#2"` = `"unece:DangerousGoodsPackagingLevelCodeList#2"`
 
 Medium danger: 2.
 
-### MinorDanger
+### MinorDanger {#minordanger}
 
 > `readonly` **MinorDanger**: `"unece:DangerousGoodsPackagingLevelCodeList#3"` = `"unece:DangerousGoodsPackagingLevelCodeList#3"`
 
 Minor danger: 3.
 
-### NotAssigned
+### NotAssigned {#notassigned}
 
 > `readonly` **NotAssigned**: `"unece:DangerousGoodsPackagingLevelCodeList#4"` = `"unece:DangerousGoodsPackagingLevelCodeList#4"`
 

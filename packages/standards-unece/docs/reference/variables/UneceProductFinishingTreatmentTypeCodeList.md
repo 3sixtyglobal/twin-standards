@@ -6,7 +6,7 @@ Values for UneceProductFinishingTreatment typeCode property.
 
 ## Type Declaration
 
-### AppliedProductFinishingTreatment
+### AppliedProductFinishingTreatment {#appliedproductfinishingtreatment}
 
 > `readonly` **AppliedProductFinishingTreatment**: `"unece:appliedProductFinishingTreatment"` = `"unece:appliedProductFinishingTreatment"`
 

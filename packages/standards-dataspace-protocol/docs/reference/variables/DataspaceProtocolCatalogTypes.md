@@ -7,115 +7,115 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cata
 
 ## Type Declaration
 
-### CatalogRequestMessage
+### CatalogRequestMessage {#catalogrequestmessage}
 
 > `readonly` **CatalogRequestMessage**: `"CatalogRequestMessage"` = `"CatalogRequestMessage"`
 
 Catalog Request Message.
 
-### DatasetRequestMessage
+### DatasetRequestMessage {#datasetrequestmessage}
 
 > `readonly` **DatasetRequestMessage**: `"DatasetRequestMessage"` = `"DatasetRequestMessage"`
 
 Dataset Request Message.
 
-### CatalogError
+### CatalogError {#catalogerror}
 
 > `readonly` **CatalogError**: `"CatalogError"` = `"CatalogError"`
 
 Catalog Error.
 
-### Dataset
+### Dataset {#dataset}
 
 > `readonly` **Dataset**: `"Dataset"` = `"Dataset"`
 
 Dataset.
 
-### DatasetNoContext
+### DatasetNoContext {#datasetnocontext}
 
 > `readonly` **DatasetNoContext**: `"DatasetNoContext"` = `"DatasetNoContext"`
 
 Dataset without JSON-LD context.
 
-### DataService
+### DataService {#dataservice}
 
 > `readonly` **DataService**: `"DataService"` = `"DataService"`
 
 Data Service.
 
-### DataServiceNoContext
+### DataServiceNoContext {#dataservicenocontext}
 
 > `readonly` **DataServiceNoContext**: `"DataServiceNoContext"` = `"DataServiceNoContext"`
 
 Data Service without JSON-LD context.
 
-### Distribution
+### Distribution {#distribution}
 
 > `readonly` **Distribution**: `"Distribution"` = `"Distribution"`
 
 Distribution.
 
-### DistributionNoContext
+### DistributionNoContext {#distributionnocontext}
 
 > `readonly` **DistributionNoContext**: `"DistributionNoContext"` = `"DistributionNoContext"`
 
 Distribution without JSON-LD context.
 
-### Catalog
+### Catalog {#catalog}
 
 > `readonly` **Catalog**: `"Catalog"` = `"Catalog"`
 
 Catalog.
 
-### CatalogNoContext
+### CatalogNoContext {#catalognocontext}
 
 > `readonly` **CatalogNoContext**: `"CatalogNoContext"` = `"CatalogNoContext"`
 
 Catalog without JSON-LD context.
 
-### Policy
+### Policy {#policy}
 
 > `readonly` **Policy**: `"Policy"` = `"Policy"`
 
 Policy.
 
-### PolicyNoContext
+### PolicyNoContext {#policynocontext}
 
 > `readonly` **PolicyNoContext**: `"PolicyNoContext"` = `"PolicyNoContext"`
 
 Policy without JSON-LD context.
 
-### Offer
+### Offer {#offer}
 
 > `readonly` **Offer**: `"Offer"` = `"Offer"`
 
 Offer.
 
-### OfferNoContext
+### OfferNoContext {#offernocontext}
 
 > `readonly` **OfferNoContext**: `"OfferNoContext"` = `"OfferNoContext"`
 
 Offer without JSON-LD context.
 
-### Agreement
+### Agreement {#agreement}
 
 > `readonly` **Agreement**: `"Agreement"` = `"Agreement"`
 
 Agreement.
 
-### AgreementNoContext
+### AgreementNoContext {#agreementnocontext}
 
 > `readonly` **AgreementNoContext**: `"AgreementNoContext"` = `"AgreementNoContext"`
 
 Agreement without JSON-LD context.
 
-### Set
+### Set {#set}
 
 > `readonly` **Set**: `"Set"` = `"Set"`
 
 Set.
 
-### SetNoContext
+### SetNoContext {#setnocontext}
 
 > `readonly` **SetNoContext**: `"SetNoContext"` = `"SetNoContext"`
 

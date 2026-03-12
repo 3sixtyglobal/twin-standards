@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/AgriculturalApplication
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AgriculturalApplication"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### appliedArea?
+### appliedArea? {#appliedarea}
 
 > `optional` **appliedArea**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/appliedArea
 
 ***
 
-### appliedCertificate?
+### appliedCertificate? {#appliedcertificate}
 
 > `optional` **appliedCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/appliedCertificate
 
 ***
 
-### appliedChemicalTreatment?
+### appliedChemicalTreatment? {#appliedchemicaltreatment}
 
 > `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ***
 
-### appliedMaterial?
+### appliedMaterial? {#appliedmaterial}
 
 > `optional` **appliedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/appliedMaterial
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### specifiedLocation?
+### specifiedLocation? {#specifiedlocation}
 
 > `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ***
 
-### specifiedPlot?
+### specifiedPlot? {#specifiedplot}
 
 > `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/specifiedPlot
 
 ***
 
-### specifiedProductBatch?
+### specifiedProductBatch? {#specifiedproductbatch}
 
 > `optional` **specifiedProductBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 

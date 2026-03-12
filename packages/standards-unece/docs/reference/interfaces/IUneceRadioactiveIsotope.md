@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/RadioactiveIsotope
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RadioactiveIsotope"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### activityLevelMeasure?
+### activityLevelMeasure? {#activitylevelmeasure}
 
 > `optional` **activityLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/activityLevelMeasure
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### note?
+### note? {#note}
 
 > `optional` **note**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/note
 
 ***
 
-### specifiedRadionuclide?
+### specifiedRadionuclide? {#specifiedradionuclide}
 
 > `optional` **specifiedRadionuclide**: [`IUneceRadionuclide`](IUneceRadionuclide.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/specifiedRadionuclide
 
 ***
 
-### unitActivityLevelMeasure?
+### unitActivityLevelMeasure? {#unitactivitylevelmeasure}
 
 > `optional` **unitActivityLevelMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 

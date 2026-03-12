@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ProductHandlingProcess
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductHandlingProcess"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProcessCharacteristic?
+### applicableProcessCharacteristic? {#applicableprocesscharacteristic}
 
 > `optional` **applicableProcessCharacteristic**: [`IUneceProcessCharacteristic`](IUneceProcessCharacteristic.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableProcessCharacteristic
 
 ***
 
-### completionPeriod?
+### completionPeriod? {#completionperiod}
 
 > `optional` **completionPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/completionPeriod
 
 ***
 
-### operationCountry?
+### operationCountry? {#operationcountry}
 
 > `optional` **operationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/operationCountry
 
 ***
 
-### operatorParty?
+### operatorParty? {#operatorparty}
 
 > `optional` **operatorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ***
 
-### processTypeCode?
+### processTypeCode? {#processtypecode}
 
 > `optional` **processTypeCode**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)
 

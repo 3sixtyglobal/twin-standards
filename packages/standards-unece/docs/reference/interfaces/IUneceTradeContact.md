@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeContact
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeContact"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accessibleLocation?
+### accessibleLocation? {#accessiblelocation}
 
 > `optional` **accessibleLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accessibleLocation
 
 ***
 
-### authorizedPersonName?
+### authorizedPersonName? {#authorizedpersonname}
 
 > `optional` **authorizedPersonName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/authorizedPersonName
 
 ***
 
-### contactTypeCode?
+### contactTypeCode? {#contacttypecode}
 
 > `optional` **contactTypeCode**: [`UneceContactTypeCodeList`](../type-aliases/UneceContactTypeCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/contactTypeCode
 
 ***
 
-### departmentName?
+### departmentName? {#departmentname}
 
 > `optional` **departmentName**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### directTelephoneCommunication?
+### directTelephoneCommunication? {#directtelephonecommunication}
 
 > `optional` **directTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/directTelephoneCommunication
 
 ***
 
-### eDICommunication?
+### eDICommunication? {#edicommunication}
 
 > `optional` **eDICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/eDICommunication
 
 ***
 
-### emailURICommunication?
+### emailURICommunication? {#emailuricommunication}
 
 > `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/emailURICommunication
 
 ***
 
-### faxCommunication?
+### faxCommunication? {#faxcommunication}
 
 > `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### instantMessagingCommunication?
+### instantMessagingCommunication? {#instantmessagingcommunication}
 
 > `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/instantMessagingCommunication
 
 ***
 
-### jobTitle?
+### jobTitle? {#jobtitle}
 
 > `optional` **jobTitle**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/jobTitle
 
 ***
 
-### mobileTelephoneCommunication?
+### mobileTelephoneCommunication? {#mobiletelephonecommunication}
 
 > `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/mobileTelephoneCommunication
 
 ***
 
-### personId?
+### personId? {#personid}
 
 > `optional` **personId**: `string` \| `IJsonLdValueObject`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/personId
 
 ***
 
-### personName?
+### personName? {#personname}
 
 > `optional` **personName**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/personName
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### responsibility?
+### responsibility? {#responsibility}
 
 > `optional` **responsibility**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/responsibility
 
 ***
 
-### specifiedContactPerson?
+### specifiedContactPerson? {#specifiedcontactperson}
 
 > `optional` **specifiedContactPerson**: [`IUneceContactPerson`](IUneceContactPerson.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/specifiedContactPerson
 
 ***
 
-### specifiedNote?
+### specifiedNote? {#specifiednote}
 
 > `optional` **specifiedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/specifiedNote
 
 ***
 
-### telephoneCommunication?
+### telephoneCommunication? {#telephonecommunication}
 
 > `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ***
 
-### telexCommunication?
+### telexCommunication? {#telexcommunication}
 
 > `optional` **telexCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/telexCommunication
 
 ***
 
-### uRICommunication?
+### uRICommunication? {#uricommunication}
 
 > `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/uRICommunication
 
 ***
 
-### usedCommunication?
+### usedCommunication? {#usedcommunication}
 
 > `optional` **usedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/usedCommunication
 
 ***
 
-### vOIPCommunication?
+### vOIPCommunication? {#voipcommunication}
 
 > `optional` **vOIPCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 

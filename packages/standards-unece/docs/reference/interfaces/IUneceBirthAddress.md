@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/BirthAddress
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"BirthAddress"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### birthAddressCountryId?
+### birthAddressCountryId? {#birthaddresscountryid}
 
 > `optional` **birthAddressCountryId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/birthAddressCountryId
 
 ***
 
-### cityName?
+### cityName? {#cityname}
 
 > `optional` **cityName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/cityName
 
 ***
 
-### countrySubDivisionName?
+### countrySubDivisionName? {#countrysubdivisionname}
 
 > `optional` **countrySubDivisionName**: `string`
 

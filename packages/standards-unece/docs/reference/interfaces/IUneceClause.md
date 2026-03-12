@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Clause
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Clause"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedMeasurement?
+### associatedMeasurement? {#associatedmeasurement}
 
 > `optional` **associatedMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedMeasurement
 
 ***
 
-### associatedPeriod?
+### associatedPeriod? {#associatedperiod}
 
 > `optional` **associatedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/associatedPeriod
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### uRLId?
+### uRLId? {#urlid}
 
 > `optional` **uRLId**: `string` \| `IJsonLdValueObject`
 

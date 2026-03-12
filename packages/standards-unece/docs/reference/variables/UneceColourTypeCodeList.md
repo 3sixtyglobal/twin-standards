@@ -6,7 +6,7 @@ Values for UneceColour typeCode property.
 
 ## Type Declaration
 
-### SpecifiedColour
+### SpecifiedColour {#specifiedcolour}
 
 > `readonly` **SpecifiedColour**: `"unece:specifiedColour"` = `"unece:specifiedColour"`
 

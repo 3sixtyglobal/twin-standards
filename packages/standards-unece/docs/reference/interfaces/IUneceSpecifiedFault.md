@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedFault
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedFault"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualSpecifiedPercent?
+### actualSpecifiedPercent? {#actualspecifiedpercent}
 
 > `optional` **actualSpecifiedPercent**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualSpecifiedPercent
 
 ***
 
-### actualSpecifiedQuantity?
+### actualSpecifiedQuantity? {#actualspecifiedquantity}
 
 > `optional` **actualSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actualSpecifiedQuantity
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### classificationCode?
+### classificationCode? {#classificationcode}
 
 > `optional` **classificationCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/classificationCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### estimatedSpecifiedPercent?
+### estimatedSpecifiedPercent? {#estimatedspecifiedpercent}
 
 > `optional` **estimatedSpecifiedPercent**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/estimatedSpecifiedPercent
 
 ***
 
-### faultType?
+### faultType? {#faulttype}
 
 > `optional` **faultType**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/faultType
 
 ***
 
-### operationalApplicableTolerance?
+### operationalApplicableTolerance? {#operationalapplicabletolerance}
 
 > `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/operationalApplicableTolerance
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

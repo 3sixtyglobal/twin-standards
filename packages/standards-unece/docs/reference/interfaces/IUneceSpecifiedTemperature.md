@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedTemperature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedTemperature"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ***
 
-### temperatureUnitValueMeasure?
+### temperatureUnitValueMeasure? {#temperatureunitvaluemeasure}
 
 > `optional` **temperatureUnitValueMeasure**: [`IUneceTemperatureUnitMeasureType`](IUneceTemperatureUnitMeasureType.md)
 

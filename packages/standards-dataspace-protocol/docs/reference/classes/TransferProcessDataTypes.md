@@ -14,7 +14,7 @@ Handle all the transfer process data types for Dataspace Protocol.
 
 ## Methods
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

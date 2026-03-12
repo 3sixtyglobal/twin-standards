@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Marking
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Marking"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### automaticDataCaptureMethodTypeCode?
+### automaticDataCaptureMethodTypeCode? {#automaticdatacapturemethodtypecode}
 
 > `optional` **automaticDataCaptureMethodTypeCode**: [`UneceAutomaticDataCaptureMethodCodeList`](../type-aliases/UneceAutomaticDataCaptureMethodCodeList.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/automaticDataCaptureMethodTypeCode
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### contentAmount?
+### contentAmount? {#contentamount}
 
 > `optional` **contentAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/contentAmount
 
 ***
 
-### contentCode?
+### contentCode? {#contentcode}
 
 > `optional` **contentCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/contentCode
 
 ***
 
-### contentDateTime?
+### contentDateTime? {#contentdatetime}
 
 > `optional` **contentDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/contentDateTime
 
 ***
 
-### packagingMarkingBarcodeTypeCode?
+### packagingMarkingBarcodeTypeCode? {#packagingmarkingbarcodetypecode}
 
 > `optional` **packagingMarkingBarcodeTypeCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/packagingMarkingBarcodeTypeCode
 
 ***
 
-### packagingMarkingTypeCode?
+### packagingMarkingTypeCode? {#packagingmarkingtypecode}
 
 > `optional` **packagingMarkingTypeCode**: [`UnecePackagingMarkingCodeList`](../type-aliases/UnecePackagingMarkingCodeList.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/packagingMarkingTypeCode
 
 ***
 
-### specifiedLogisticsLabel?
+### specifiedLogisticsLabel? {#specifiedlogisticslabel}
 
 > `optional` **specifiedLogisticsLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 

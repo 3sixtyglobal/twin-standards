@@ -7,13 +7,13 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cont
 
 ## Type Declaration
 
-### ACCEPTED
+### ACCEPTED {#accepted}
 
 > `readonly` **ACCEPTED**: `"ACCEPTED"` = `"ACCEPTED"`
 
 Accepted.
 
-### FINALIZED
+### FINALIZED {#finalized}
 
 > `readonly` **FINALIZED**: `"FINALIZED"` = `"FINALIZED"`
 

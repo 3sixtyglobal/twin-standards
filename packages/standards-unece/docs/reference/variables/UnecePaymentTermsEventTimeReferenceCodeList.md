@@ -7,7 +7,7 @@ Deprecated since version D23B.
 
 ## Type Declaration
 
-### ~~DateExWorks~~
+### ~~DateExWorks~~ {#dateexworks}
 
 > `readonly` **DateExWorks**: `"unece:PaymentTermsEventTimeReferenceCodeList#24"` = `"unece:PaymentTermsEventTimeReferenceCodeList#24"`
 
@@ -16,7 +16,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DateOfDeliveryOfGoodsToEstablishmentsDomicileSite~~
+### ~~DateOfDeliveryOfGoodsToEstablishmentsDomicileSite~~ {#dateofdeliveryofgoodstoestablishmentsdomicilesite}
 
 > `readonly` **DateOfDeliveryOfGoodsToEstablishmentsDomicileSite**: `"unece:PaymentTermsEventTimeReferenceCodeList#29"` = `"unece:PaymentTermsEventTimeReferenceCodeList#29"`
 
@@ -25,7 +25,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DateOfBillOfLadingConsignmentNoteOrOtherTransportDocument~~
+### ~~DateOfBillOfLadingConsignmentNoteOrOtherTransportDocument~~ {#dateofbillofladingconsignmentnoteorothertransportdocument}
 
 > `readonly` **DateOfBillOfLadingConsignmentNoteOrOtherTransportDocument**: `"unece:PaymentTermsEventTimeReferenceCodeList#45"` = `"unece:PaymentTermsEventTimeReferenceCodeList#45"`
 
@@ -34,7 +34,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DateOfInvoice~~
+### ~~DateOfInvoice~~ {#dateofinvoice}
 
 > `readonly` **DateOfInvoice**: `"unece:PaymentTermsEventTimeReferenceCodeList#5"` = `"unece:PaymentTermsEventTimeReferenceCodeList#5"`
 
@@ -43,7 +43,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DateOfPresentationOfDocuments~~
+### ~~DateOfPresentationOfDocuments~~ {#dateofpresentationofdocuments}
 
 > `readonly` **DateOfPresentationOfDocuments**: `"unece:PaymentTermsEventTimeReferenceCodeList#71"` = `"unece:PaymentTermsEventTimeReferenceCodeList#71"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/InstructedTemperature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"InstructedTemperature"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### controlCode?
+### controlCode? {#controlcode}
 
 > `optional` **controlCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/controlCode
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

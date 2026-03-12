@@ -6,25 +6,25 @@ The types for ODRL Logical Constraints.
 
 ## Type Declaration
 
-### And
+### And {#and}
 
 > `readonly` **And**: `"and"` = `"and"`
 
 And type.
 
-### Or
+### Or {#or}
 
 > `readonly` **Or**: `"or"` = `"or"`
 
 Or type.
 
-### Xone
+### Xone {#xone}
 
 > `readonly` **Xone**: `"xone"` = `"xone"`
 
 Xone type.
 
-### AndSequence
+### AndSequence {#andsequence}
 
 > `readonly` **AndSequence**: `"andSequence"` = `"andSequence"`
 

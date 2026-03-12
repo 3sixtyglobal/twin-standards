@@ -6,7 +6,7 @@ A character string used to represent a remittance document type.
 
 ## Type Declaration
 
-### RemittanceAdvice
+### RemittanceAdvice {#remittanceadvice}
 
 > `readonly` **RemittanceAdvice**: `"unece:RemittanceDocumentCodeList#481"` = `"unece:RemittanceDocumentCodeList#481"`
 

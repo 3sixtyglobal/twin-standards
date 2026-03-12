@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ExchangedDocumentContext
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ExchangedDocumentContext"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicationSpecifiedParameter?
+### applicationSpecifiedParameter? {#applicationspecifiedparameter}
 
 > `optional` **applicationSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicationSpecifiedParameter
 
 ***
 
-### bIMSpecifiedParameter?
+### bIMSpecifiedParameter? {#bimspecifiedparameter}
 
 > `optional` **bIMSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/bIMSpecifiedParameter
 
 ***
 
-### businessProcessSpecifiedParameter?
+### businessProcessSpecifiedParameter? {#businessprocessspecifiedparameter}
 
 > `optional` **businessProcessSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/businessProcessSpecifiedParameter
 
 ***
 
-### guidelineSpecifiedParameter?
+### guidelineSpecifiedParameter? {#guidelinespecifiedparameter}
 
 > `optional` **guidelineSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/guidelineSpecifiedParameter
 
 ***
 
-### messageStandardSpecifiedParameter?
+### messageStandardSpecifiedParameter? {#messagestandardspecifiedparameter}
 
 > `optional` **messageStandardSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/messageStandardSpecifiedParameter
 
 ***
 
-### processingTransactionDateTime?
+### processingTransactionDateTime? {#processingtransactiondatetime}
 
 > `optional` **processingTransactionDateTime**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/processingTransactionDateTime
 
 ***
 
-### scenarioSpecifiedParameter?
+### scenarioSpecifiedParameter? {#scenariospecifiedparameter}
 
 > `optional` **scenarioSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/scenarioSpecifiedParameter
 
 ***
 
-### specifiedTransactionId?
+### specifiedTransactionId? {#specifiedtransactionid}
 
 > `optional` **specifiedTransactionId**: `string` \| `IJsonLdValueObject`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/specifiedTransactionId
 
 ***
 
-### subsetSpecifiedParameter?
+### subsetSpecifiedParameter? {#subsetspecifiedparameter}
 
 > `optional` **subsetSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/subsetSpecifiedParameter
 
 ***
 
-### testIndicator?
+### testIndicator? {#testindicator}
 
 > `optional` **testIndicator**: `boolean`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ***
 
-### userSpecifiedParameter?
+### userSpecifiedParameter? {#userspecifiedparameter}
 
 > `optional` **userSpecifiedParameter**: [`IUneceDocumentContextParameter`](IUneceDocumentContextParameter.md)[]
 

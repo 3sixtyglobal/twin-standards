@@ -6,19 +6,19 @@ A character string used to represent the type of a refund method.
 
 ## Type Declaration
 
-### ContractualAllowance
+### ContractualAllowance {#contractualallowance}
 
 > `readonly` **ContractualAllowance**: `"unece:RefundMethodCodeList#1"` = `"unece:RefundMethodCodeList#1"`
 
 Contractual allowance: 1.
 
-### Refunding
+### Refunding {#refunding}
 
 > `readonly` **Refunding**: `"unece:RefundMethodCodeList#2"` = `"unece:RefundMethodCodeList#2"`
 
 Refunding: 2.
 
-### EntityReimbursement
+### EntityReimbursement {#entityreimbursement}
 
 > `readonly` **EntityReimbursement**: `"unece:RefundMethodCodeList#3"` = `"unece:RefundMethodCodeList#3"`
 

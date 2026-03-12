@@ -7,21 +7,21 @@ or location in a transfer.
 
 ## Type Declaration
 
-### OwningParty
+### OwningParty {#owningparty}
 
 > `readonly` **OwningParty**: `"owning_party"` = `"owning_party"`
 
 Identifier denotes the party who owns (or will own) the objects at the
 business transfer endpoint.
 
-### PossessingParty
+### PossessingParty {#possessingparty}
 
 > `readonly` **PossessingParty**: `"possessing_party"` = `"possessing_party"`
 
 Identifier denotes the party who has (or will have) physical possession of
 the objects at the endpoint.
 
-### Location
+### Location {#location}
 
 > `readonly` **Location**: `"location"` = `"location"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TemperatureSettingInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TemperatureSettingInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### procedure?
+### procedure? {#procedure}
 
 > `optional` **procedure**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/procedure
 
 ***
 
-### temperatureSettingInstructionsDescriptionCode?
+### temperatureSettingInstructionsDescriptionCode? {#temperaturesettinginstructionsdescriptioncode}
 
 > `optional` **temperatureSettingInstructionsDescriptionCode**: `string`
 

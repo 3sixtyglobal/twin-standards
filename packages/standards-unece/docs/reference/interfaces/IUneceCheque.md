@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Cheque
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Cheque"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableIndicator?
+### applicableIndicator? {#applicableindicator}
 
 > `optional` **applicableIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ***
 
-### clearingRegion?
+### clearingRegion? {#clearingregion}
 
 > `optional` **clearingRegion**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/clearingRegion
 
 ***
 
-### deliveryMethod?
+### deliveryMethod? {#deliverymethod}
 
 > `optional` **deliveryMethod**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/deliveryMethod
 
 ***
 
-### deliveryMethodCode?
+### deliveryMethodCode? {#deliverymethodcode}
 
 > `optional` **deliveryMethodCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/deliveryMethodCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### instructionPriorityCode?
+### instructionPriorityCode? {#instructionprioritycode}
 
 > `optional` **instructionPriorityCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/instructionPriorityCode
 
 ***
 
-### layoutDescription?
+### layoutDescription? {#layoutdescription}
 
 > `optional` **layoutDescription**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/layoutDescription
 
 ***
 
-### maturityDateTime?
+### maturityDateTime? {#maturitydatetime}
 
 > `optional` **maturityDateTime**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/maturityDateTime
 
 ***
 
-### memoField?
+### memoField? {#memofield}
 
 > `optional` **memoField**: `string`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/memoField
 
 ***
 
-### number?
+### number? {#number}
 
 > `optional` **number**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/number
 
 ***
 
-### printLocation?
+### printLocation? {#printlocation}
 
 > `optional` **printLocation**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/printLocation
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

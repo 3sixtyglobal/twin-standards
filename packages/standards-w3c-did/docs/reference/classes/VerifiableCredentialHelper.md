@@ -14,7 +14,7 @@ Helper methods for creating and verifying proofs.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -22,7 +22,7 @@ Runtime name for the class.
 
 ## Methods
 
-### getContext()
+### getContext() {#getcontext}
 
 > `static` **getContext**(`verifiableCredential`): `"https://www.w3.org/2018/credentials/v1"` \| `"https://www.w3.org/ns/credentials/v2"` \| `undefined`
 
@@ -44,7 +44,7 @@ The context.
 
 ***
 
-### getContextVersion()
+### getContextVersion() {#getcontextversion}
 
 > `static` **getContextVersion**(`verifiableCredential`): `"v1"` \| `"v2"` \| `undefined`
 
@@ -66,7 +66,7 @@ The context version.
 
 ***
 
-### getValidUntil()
+### getValidUntil() {#getvaliduntil}
 
 > `static` **getValidUntil**(`verifiableCredential`): `string` \| `undefined`
 
@@ -88,7 +88,7 @@ The expiration date, if available.
 
 ***
 
-### setValidUntil()
+### setValidUntil() {#setvaliduntil}
 
 > `static` **setValidUntil**(`verifiableCredential`, `validUntil`): `void`
 
@@ -114,7 +114,7 @@ The expiration date to set.
 
 ***
 
-### getValidFrom()
+### getValidFrom() {#getvalidfrom}
 
 > `static` **getValidFrom**(`verifiableCredential`): `string` \| `undefined`
 
@@ -136,7 +136,7 @@ The issuance date, if available.
 
 ***
 
-### setValidFrom()
+### setValidFrom() {#setvalidfrom}
 
 > `static` **setValidFrom**(`verifiableCredential`, `validFrom`): `void`
 

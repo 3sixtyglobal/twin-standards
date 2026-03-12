@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProcessCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProcessCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### condition?
+### condition? {#condition}
 
 > `optional` **condition**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/condition
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### measuredAttributeTypeCode?
+### measuredAttributeTypeCode? {#measuredattributetypecode}
 
 > `optional` **measuredAttributeTypeCode**: [`UneceMeasuredAttributeCodeList`](../type-aliases/UneceMeasuredAttributeCodeList.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/measuredAttributeTypeCode
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ***
 
-### processCharacteristicValueCode?
+### processCharacteristicValueCode? {#processcharacteristicvaluecode}
 
 > `optional` **processCharacteristicValueCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/processCharacteristicValueCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAmount?
+### valueAmount? {#valueamount}
 
 > `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ***
 
-### valueDateTime?
+### valueDateTime? {#valuedatetime}
 
 > `optional` **valueDateTime**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/valueDateTime
 
 ***
 
-### valueIndicator?
+### valueIndicator? {#valueindicator}
 
 > `optional` **valueIndicator**: `boolean`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### valueMethod?
+### valueMethod? {#valuemethod}
 
 > `optional` **valueMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/valueMethod
 
 ***
 
-### valueNumeric?
+### valueNumeric? {#valuenumeric}
 
 > `optional` **valueNumeric**: `string`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ***
 
-### valueParameter?
+### valueParameter? {#valueparameter}
 
 > `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ***
 
-### valueRange?
+### valueRange? {#valuerange}
 
 > `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ***
 
-### valueTolerance?
+### valueTolerance? {#valuetolerance}
 
 > `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 

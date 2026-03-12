@@ -6,7 +6,7 @@ Values for UneceGroupedWorkItem typeCode property.
 
 ## Type Declaration
 
-### ItemGroupedWorkItem
+### ItemGroupedWorkItem {#itemgroupedworkitem}
 
 > `readonly` **ItemGroupedWorkItem**: `"unece:itemGroupedWorkItem"` = `"unece:itemGroupedWorkItem"`
 

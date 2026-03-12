@@ -8,37 +8,37 @@ Source: `operationsEventTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### STRT
+### STRT {#strt}
 
 > `readonly` **STRT**: `"STRT"` = `"STRT"`
 
 Started.
 
-### CMPL
+### CMPL {#cmpl}
 
 > `readonly` **CMPL**: `"CMPL"` = `"CMPL"`
 
 Completed.
 
-### ARRI
+### ARRI {#arri}
 
 > `readonly` **ARRI**: `"ARRI"` = `"ARRI"`
 
 Arrived.
 
-### DEPA
+### DEPA {#depa}
 
 > `readonly` **DEPA**: `"DEPA"` = `"DEPA"`
 
 Departed.
 
-### OMIT
+### OMIT {#omit}
 
 > `readonly` **OMIT**: `"OMIT"` = `"OMIT"`
 
 Omitted.
 
-### CANC
+### CANC {#canc}
 
 > `readonly` **CANC**: `"CANC"` = `"CANC"`
 

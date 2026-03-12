@@ -6,7 +6,7 @@ The object types concerning Activity Streams.
 
 ## Type Declaration
 
-### Object
+### Object {#object}
 
 > `readonly` **Object**: `"Object"` = `"Object"`
 
@@ -16,7 +16,7 @@ Object
 
 https://www.w3.org/TR/activitystreams-core/#object
 
-### Activity
+### Activity {#activity}
 
 > `readonly` **Activity**: `"Activity"` = `"Activity"`
 
@@ -26,7 +26,7 @@ Activity
 
 https://www.w3.org/TR/activitystreams-core/#activities
 
-### IntransitiveActivity
+### IntransitiveActivity {#intransitiveactivity}
 
 > `readonly` **IntransitiveActivity**: `"IntransitiveActivity"` = `"IntransitiveActivity"`
 
@@ -36,7 +36,7 @@ IntransitiveActivity
 
 https://www.w3.org/TR/activitystreams-core/#intransitiveactivities
 
-### Collection
+### Collection {#collection}
 
 > `readonly` **Collection**: `"Collection"` = `"Collection"`
 
@@ -46,7 +46,7 @@ Collection
 
 https://www.w3.org/TR/activitystreams-core/#collections
 
-### OrderedCollection
+### OrderedCollection {#orderedcollection}
 
 > `readonly` **OrderedCollection**: `"OrderedCollection"` = `"OrderedCollection"`
 
@@ -56,7 +56,7 @@ OrderedCollection
 
 https://www.w3.org/TR/activitystreams-core/#collections
 
-### CollectionPage
+### CollectionPage {#collectionpage}
 
 > `readonly` **CollectionPage**: `"CollectionPage"` = `"CollectionPage"`
 
@@ -66,7 +66,7 @@ CollectionPage
 
 https://www.w3.org/TR/activitystreams-core/#collections
 
-### OrderedCollectionPage
+### OrderedCollectionPage {#orderedcollectionpage}
 
 > `readonly` **OrderedCollectionPage**: `"OrderedCollectionPage"` = `"OrderedCollectionPage"`
 
@@ -76,7 +76,7 @@ OrderedCollectionPage
 
 https://www.w3.org/TR/activitystreams-core/#collections
 
-### Actor
+### Actor {#actor}
 
 > `readonly` **Actor**: `"Actor"` = `"Actor"`
 
@@ -86,7 +86,7 @@ Actor
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Application
+### Application {#application}
 
 > `readonly` **Application**: `"Application"` = `"Application"`
 
@@ -96,7 +96,7 @@ Application
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Group
+### Group {#group}
 
 > `readonly` **Group**: `"Group"` = `"Group"`
 
@@ -106,7 +106,7 @@ Group
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Organization
+### Organization {#organization}
 
 > `readonly` **Organization**: `"Organization"` = `"Organization"`
 
@@ -116,7 +116,7 @@ Organization
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Person
+### Person {#person}
 
 > `readonly` **Person**: `"Person"` = `"Person"`
 
@@ -126,7 +126,7 @@ Person
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Service
+### Service {#service}
 
 > `readonly` **Service**: `"Service"` = `"Service"`
 
@@ -136,7 +136,7 @@ Service
 
 https://www.w3.org/TR/activitystreams-core/#actors
 
-### Article
+### Article {#article}
 
 > `readonly` **Article**: `"Article"` = `"Article"`
 
@@ -146,7 +146,7 @@ Article
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-article
 
-### Audio
+### Audio {#audio}
 
 > `readonly` **Audio**: `"Audio"` = `"Audio"`
 
@@ -156,7 +156,7 @@ Audio
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-audio
 
-### Document
+### Document {#document}
 
 > `readonly` **Document**: `"Document"` = `"Document"`
 
@@ -166,7 +166,7 @@ Document
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-document
 
-### Event
+### Event {#event}
 
 > `readonly` **Event**: `"Event"` = `"Event"`
 
@@ -176,7 +176,7 @@ Event
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-event
 
-### Image
+### Image {#image}
 
 > `readonly` **Image**: `"Image"` = `"Image"`
 
@@ -186,7 +186,7 @@ Image
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-image
 
-### Note
+### Note {#note}
 
 > `readonly` **Note**: `"Note"` = `"Note"`
 
@@ -196,7 +196,7 @@ Note
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-note
 
-### Page
+### Page {#page}
 
 > `readonly` **Page**: `"Page"` = `"Page"`
 
@@ -206,7 +206,7 @@ Page
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page
 
-### Place
+### Place {#place}
 
 > `readonly` **Place**: `"Place"` = `"Place"`
 
@@ -216,7 +216,7 @@ Place
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place
 
-### Profile
+### Profile {#profile}
 
 > `readonly` **Profile**: `"Profile"` = `"Profile"`
 
@@ -226,7 +226,7 @@ Profile
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-profile
 
-### Relationship
+### Relationship {#relationship}
 
 > `readonly` **Relationship**: `"Relationship"` = `"Relationship"`
 
@@ -236,7 +236,7 @@ Relationship
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-relationship
 
-### Tombstone
+### Tombstone {#tombstone}
 
 > `readonly` **Tombstone**: `"Tombstone"` = `"Tombstone"`
 
@@ -246,7 +246,7 @@ Tombstone
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-tombstone
 
-### Video
+### Video {#video}
 
 > `readonly` **Video**: `"Video"` = `"Video"`
 

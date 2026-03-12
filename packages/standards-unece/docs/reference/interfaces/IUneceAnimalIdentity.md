@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AnimalIdentity
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AnimalIdentity"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### identifierLengthNumeric
+### identifierLengthNumeric {#identifierlengthnumeric}
 
 > **identifierLengthNumeric**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifierLengthNumeric
 
 ***
 
-### issuerPartyName
+### issuerPartyName {#issuerpartyname}
 
 > **issuerPartyName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/issuerPartyName
 
 ***
 
-### legalBasis
+### legalBasis {#legalbasis}
 
 > **legalBasis**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/legalBasis
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

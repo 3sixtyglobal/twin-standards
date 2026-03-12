@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LaboratoryObservationParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### officeAddress?
+### officeAddress? {#officeaddress}
 
 > `optional` **officeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/officeAddress
 
 ***
 
-### personDefinedContact?
+### personDefinedContact? {#persondefinedcontact}
 
 > `optional` **personDefinedContact**: [`IUneceLaboratoryObservationContact`](IUneceLaboratoryObservationContact.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/personDefinedContact
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### thirdPartyIssuedId?
+### thirdPartyIssuedId? {#thirdpartyissuedid}
 
 > `optional` **thirdPartyIssuedId**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/thirdPartyIssuedId
 
 ***
 
-### thirdPartyIssuedIdentification?
+### thirdPartyIssuedIdentification? {#thirdpartyissuedidentification}
 
 > `optional` **thirdPartyIssuedIdentification**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/thirdPartyIssuedIdentification
 
 ***
 
-### websiteURICommunication?
+### websiteURICommunication? {#websiteuricommunication}
 
 > `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 

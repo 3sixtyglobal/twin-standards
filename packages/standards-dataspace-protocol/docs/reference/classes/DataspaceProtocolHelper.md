@@ -14,7 +14,7 @@ Dataspace protocol helper.
 
 ## Methods
 
-### validate()
+### validate() {#validate}
 
 > `static` **validate**(`object`): `Promise`\<`IValidationFailure`[]\>
 
@@ -36,7 +36,7 @@ An array of validation failures, empty if the object is conformant
 
 ***
 
-### normalize()
+### normalize() {#normalize}
 
 > `static` **normalize**(`object`): `Promise`\<`IJsonLdNodeObject`\>
 

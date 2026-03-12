@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GuestArrival
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GuestArrival"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### carrierId?
+### carrierId? {#carrierid}
 
 > `optional` **carrierId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/carrierId
 
 ***
 
-### carrierName?
+### carrierName? {#carriername}
 
 > `optional` **carrierName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/carrierName
 
 ***
 
-### expectedDateTime?
+### expectedDateTime? {#expecteddatetime}
 
 > `optional` **expectedDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/expectedDateTime
 
 ***
 
-### transportModeCode?
+### transportModeCode? {#transportmodecode}
 
 > `optional` **transportModeCode**: [`UneceTransportModeCodeList`](../type-aliases/UneceTransportModeCodeList.md)
 

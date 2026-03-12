@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/XHEContext
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"XHEContext"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### scopeReference?
+### scopeReference? {#scopereference}
 
 > `optional` **scopeReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/scopeReference
 
 ***
 
-### specifiedParameter?
+### specifiedParameter? {#specifiedparameter}
 
 > `optional` **specifiedParameter**: [`IUneceXHEParameter`](IUneceXHEParameter.md)[]
 

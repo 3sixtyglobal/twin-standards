@@ -6,13 +6,13 @@ The contexts of GS1.
 
 ## Type Declaration
 
-### Namespace
+### Namespace {#namespace}
 
 > `readonly` **Namespace**: `"https://gs1.org/voc/"` = `"https://gs1.org/voc/"`
 
 The canonical RDF namespace URI.
 
-### Context
+### Context {#context}
 
 > `readonly` **Context**: `"https://gs1.org/voc"` = `"https://gs1.org/voc"`
 

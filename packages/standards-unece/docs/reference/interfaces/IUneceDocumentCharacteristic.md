@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DocumentCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DocumentCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### documentCharacteristicValueCode?
+### documentCharacteristicValueCode? {#documentcharacteristicvaluecode}
 
 > `optional` **documentCharacteristicValueCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/documentCharacteristicValueCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/location
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAdjustmentDirectionCode?
+### valueAdjustmentDirectionCode? {#valueadjustmentdirectioncode}
 
 > `optional` **valueAdjustmentDirectionCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/valueAdjustmentDirectionCode
 
 ***
 
-### valueAmount?
+### valueAmount? {#valueamount}
 
 > `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ***
 
-### valueChangedIndicator?
+### valueChangedIndicator? {#valuechangedindicator}
 
 > `optional` **valueChangedIndicator**: `boolean`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/valueChangedIndicator
 
 ***
 
-### valueDateTime?
+### valueDateTime? {#valuedatetime}
 
 > `optional` **valueDateTime**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/valueDateTime
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### valueNumeric?
+### valueNumeric? {#valuenumeric}
 
 > `optional` **valueNumeric**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ***
 
-### valuePercent?
+### valuePercent? {#valuepercent}
 
 > `optional` **valuePercent**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/valuePercent
 
 ***
 
-### valueQuantity?
+### valueQuantity? {#valuequantity}
 
 > `optional` **valueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 

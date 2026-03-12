@@ -7,13 +7,13 @@ errors.
 
 ## Type Declaration
 
-### AlarmCondition
+### AlarmCondition {#alarmcondition}
 
 > `readonly` **AlarmCondition**: `"ALARM_CONDITION"` = `"ALARM_CONDITION"`
 
 Sensor alert indicating an alarm condition.
 
-### ErrorCondition
+### ErrorCondition {#errorcondition}
 
 > `readonly` **ErrorCondition**: `"ERROR_CONDITION"` = `"ERROR_CONDITION"`
 

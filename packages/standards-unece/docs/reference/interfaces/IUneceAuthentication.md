@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Authentication
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Authentication"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualDateTime?
+### actualDateTime? {#actualdatetime}
 
 > `optional` **actualDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### governmentActionTypeCode?
+### governmentActionTypeCode? {#governmentactiontypecode}
 
 > `optional` **governmentActionTypeCode**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/governmentActionTypeCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedClause?
+### includedClause? {#includedclause}
 
 > `optional` **includedClause**: [`IUneceClause`](IUneceClause.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/includedClause
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### issueLocation?
+### issueLocation? {#issuelocation}
 
 > `optional` **issueLocation**: [`IUneceLocation`](IUneceLocation.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/issueLocation
 
 ***
 
-### issueLogisticsLocation?
+### issueLogisticsLocation? {#issuelogisticslocation}
 
 > `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ***
 
-### locationProviderParty?
+### locationProviderParty? {#locationproviderparty}
 
 > `optional` **locationProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/locationProviderParty
 
 ***
 
-### providerParty?
+### providerParty? {#providerparty}
 
 > `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/providerParty
 
 ***
 
-### representationTypeCode?
+### representationTypeCode? {#representationtypecode}
 
 > `optional` **representationTypeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/representationTypeCode
 
 ***
 
-### signatory?
+### signatory? {#signatory}
 
 > `optional` **signatory**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/signatory
 
 ***
 
-### signatoryImageBinaryObject?
+### signatoryImageBinaryObject? {#signatoryimagebinaryobject}
 
 > `optional` **signatoryImageBinaryObject**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/signatoryImageBinaryObject
 
 ***
 
-### statement?
+### statement? {#statement}
 
 > `optional` **statement**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/statement
 
 ***
 
-### statementCode?
+### statementCode? {#statementcode}
 
 > `optional` **statementCode**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/statementCode
 
 ***
 
-### transportMeansId?
+### transportMeansId? {#transportmeansid}
 
 > `optional` **transportMeansId**: `string` \| `IJsonLdValueObject`
 

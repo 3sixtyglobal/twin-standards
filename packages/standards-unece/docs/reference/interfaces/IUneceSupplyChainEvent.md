@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SupplyChainEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SupplyChainEvent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualStatus?
+### actualStatus? {#actualstatus}
 
 > `optional` **actualStatus**: [`IUneceInspectionStatus`](IUneceInspectionStatus.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualStatus
 
 ***
 
-### associatedReference?
+### associatedReference? {#associatedreference}
 
 > `optional` **associatedReference**: [`IUneceSupplyChainReference`](IUneceSupplyChainReference.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/associatedReference
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### descriptionBinaryObject?
+### descriptionBinaryObject? {#descriptionbinaryobject}
 
 > `optional` **descriptionBinaryObject**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/descriptionBinaryObject
 
 ***
 
-### discretePeriod?
+### discretePeriod? {#discreteperiod}
 
 > `optional` **discretePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/discretePeriod
 
 ***
 
-### dueDateTime?
+### dueDateTime? {#duedatetime}
 
 > `optional` **dueDateTime**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ***
 
-### earliestOccurrenceDateTime?
+### earliestOccurrenceDateTime? {#earliestoccurrencedatetime}
 
 > `optional` **earliestOccurrenceDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/earliestOccurrenceDateTime
 
 ***
 
-### frequencyCode?
+### frequencyCode? {#frequencycode}
 
 > `optional` **frequencyCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/frequencyCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latestOccurrenceDateTime?
+### latestOccurrenceDateTime? {#latestoccurrencedatetime}
 
 > `optional` **latestOccurrenceDateTime**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/latestOccurrenceDateTime
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime? {#occurrencedatetime}
 
 > `optional` **occurrenceDateTime**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### occurrenceLocation?
+### occurrenceLocation? {#occurrencelocation}
 
 > `optional` **occurrenceLocation**: [`IUneceLocation`](IUneceLocation.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/occurrenceLocation
 
 ***
 
-### occurrenceLogisticsLocation?
+### occurrenceLogisticsLocation? {#occurrencelogisticslocation}
 
 > `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ***
 
-### occurrencePeriod?
+### occurrencePeriod? {#occurrenceperiod}
 
 > `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/occurrencePeriod
 
 ***
 
-### relatedSustainabilityCharacteristic?
+### relatedSustainabilityCharacteristic? {#relatedsustainabilitycharacteristic}
 
 > `optional` **relatedSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/relatedSustainabilityCharacteristic
 
 ***
 
-### relatedTechnicalCharacteristic?
+### relatedTechnicalCharacteristic? {#relatedtechnicalcharacteristic}
 
 > `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/relatedTechnicalCharacteristic
 
 ***
 
-### timeOccurrenceDateTime?
+### timeOccurrenceDateTime? {#timeoccurrencedatetime}
 
 > `optional` **timeOccurrenceDateTime**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/timeOccurrenceDateTime
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 

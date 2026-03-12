@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/QueryDocumentBody
 
 ## Properties
 
-### queryResults
+### queryResults {#queryresults}
 
 > **queryResults**: [`IEpcisQueryResults`](IEpcisQueryResults.md)
 

@@ -6,7 +6,7 @@ Values for UneceCorrectiveAction typeCode property.
 
 ## Type Declaration
 
-### ApplicableCorrectiveAction
+### ApplicableCorrectiveAction {#applicablecorrectiveaction}
 
 > `readonly` **ApplicableCorrectiveAction**: `"unece:applicableCorrectiveAction"` = `"unece:applicableCorrectiveAction"`
 

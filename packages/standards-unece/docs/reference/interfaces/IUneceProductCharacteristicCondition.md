@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductCharacteristicCondition
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductCharacteristicCondition"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

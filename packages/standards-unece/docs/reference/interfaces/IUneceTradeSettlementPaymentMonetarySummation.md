@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeSettlementPaymentMonetarySummation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeSettlementPaymentMonetarySummation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### adjustedBalanceOutAmount?
+### adjustedBalanceOutAmount? {#adjustedbalanceoutamount}
 
 > `optional` **adjustedBalanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/adjustedBalanceOutAmount
 
 ***
 
-### applicablePaymentBalanceOut?
+### applicablePaymentBalanceOut? {#applicablepaymentbalanceout}
 
 > `optional` **applicablePaymentBalanceOut**: [`IUnecePaymentBalanceOut`](IUnecePaymentBalanceOut.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicablePaymentBalanceOut
 
 ***
 
-### balanceOutAmount?
+### balanceOutAmount? {#balanceoutamount}
 
 > `optional` **balanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/balanceOutAmount
 
 ***
 
-### equivalentTransferTotalAmount?
+### equivalentTransferTotalAmount? {#equivalenttransfertotalamount}
 
 > `optional` **equivalentTransferTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/equivalentTransferTotalAmount
 
 ***
 
-### grandTotalAmount?
+### grandTotalAmount? {#grandtotalamount}
 
 > `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/grandTotalAmount
 
 ***
 
-### includingTaxesLineTotalAmount?
+### includingTaxesLineTotalAmount? {#includingtaxeslinetotalamount}
 
 > `optional` **includingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/includingTaxesLineTotalAmount
 
 ***
 
-### netLineTotalAmount?
+### netLineTotalAmount? {#netlinetotalamount}
 
 > `optional` **netLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/netLineTotalAmount
 
 ***
 
-### paymentTotalAmount?
+### paymentTotalAmount? {#paymenttotalamount}
 
 > `optional` **paymentTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/paymentTotalAmount
 
 ***
 
-### taxTotalAmount?
+### taxTotalAmount? {#taxtotalamount}
 
 > `optional` **taxTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DeliveryTerms
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DeliveryTerms"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### declarationCountryRelationshipCode?
+### declarationCountryRelationshipCode? {#declarationcountryrelationshipcode}
 
 > `optional` **declarationCountryRelationshipCode**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/declarationCountryRelationshipCode
 
 ***
 
-### deliveryDiscontinuationCode?
+### deliveryDiscontinuationCode? {#deliverydiscontinuationcode}
 
 > `optional` **deliveryDiscontinuationCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/deliveryDiscontinuationCode
 
 ***
 
-### deliveryTermsDeliveryTypeCode?
+### deliveryTermsDeliveryTypeCode? {#deliverytermsdeliverytypecode}
 
 > `optional` **deliveryTermsDeliveryTypeCode**: [`UneceDeliveryTermsCodeList`](../type-aliases/UneceDeliveryTermsCodeList.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/deliveryTermsDeliveryTypeCode
 
 ***
 
-### deliveryTermsFunctionCode?
+### deliveryTermsFunctionCode? {#deliverytermsfunctioncode}
 
 > `optional` **deliveryTermsFunctionCode**: [`UneceDeliveryTermsFunctionCodeList`](../type-aliases/UneceDeliveryTermsFunctionCodeList.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/deliveryTermsFunctionCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### partialDeliveryAllowedIndicator?
+### partialDeliveryAllowedIndicator? {#partialdeliveryallowedindicator}
 
 > `optional` **partialDeliveryAllowedIndicator**: `boolean`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/partialDeliveryAllowedIndicator
 
 ***
 
-### relevantLocation?
+### relevantLocation? {#relevantlocation}
 
 > `optional` **relevantLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/relevantLocation
 
 ***
 
-### riskResponsibilityCode?
+### riskResponsibilityCode? {#riskresponsibilitycode}
 
 > `optional` **riskResponsibilityCode**: `string`
 

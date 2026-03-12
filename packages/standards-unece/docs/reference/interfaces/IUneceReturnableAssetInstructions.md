@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ReturnableAssetInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ReturnableAssetInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### depositValueSpecifiedAmount?
+### depositValueSpecifiedAmount? {#depositvaluespecifiedamount}
 
 > `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/depositValueSpecifiedAmount
 
 ***
 
-### depositValueValidityPeriod?
+### depositValueValidityPeriod? {#depositvaluevalidityperiod}
 
 > `optional` **depositValueValidityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/depositValueValidityPeriod
 
 ***
 
-### materialId?
+### materialId? {#materialid}
 
 > `optional` **materialId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/materialId
 
 ***
 
-### returnableAssetInstructionsTermsAndConditionsDescriptionCode?
+### returnableAssetInstructionsTermsAndConditionsDescriptionCode? {#returnableassetinstructionstermsandconditionsdescriptioncode}
 
 > `optional` **returnableAssetInstructionsTermsAndConditionsDescriptionCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/returnableAssetInstructionsTermsAndConditionsDes
 
 ***
 
-### termsAndConditionsDescription?
+### termsAndConditionsDescription? {#termsandconditionsdescription}
 
 > `optional` **termsAndConditionsDescription**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentFinancialInstitution
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentFinancialInstitution"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### bEIId?
+### bEIId? {#beiid}
 
 > `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### bICId?
+### bICId? {#bicid}
 
 > `optional` **bICId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/bICId
 
 ***
 
-### branchName?
+### branchName? {#branchname}
 
 > `optional` **branchName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/branchName
 
 ***
 
-### branchNameId?
+### branchNameId? {#branchnameid}
 
 > `optional` **branchNameId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/branchNameId
 
 ***
 
-### gLNId?
+### gLNId? {#glnid}
 
 > `optional` **gLNId**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/gLNId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### nameId?
+### nameId? {#nameid}
 
 > `optional` **nameId**: `string` \| `IJsonLdValueObject`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/nameId
 
 ***
 
-### roleCode?
+### roleCode? {#rolecode}
 
 > `optional` **roleCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/roleCode
 
 ***
 
-### specifiedCommunication?
+### specifiedCommunication? {#specifiedcommunication}
 
 > `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ***
 
-### specifiedPaymentFinancialAccount?
+### specifiedPaymentFinancialAccount? {#specifiedpaymentfinancialaccount}
 
 > `optional` **specifiedPaymentFinancialAccount**: [`IUnecePaymentFinancialAccount`](IUnecePaymentFinancialAccount.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedPaymentFinancialAccount
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

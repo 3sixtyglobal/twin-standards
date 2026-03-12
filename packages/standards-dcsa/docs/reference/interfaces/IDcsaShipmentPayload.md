@@ -14,7 +14,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 
@@ -27,7 +27,7 @@ Format: ISO 8601 date-time.
 
 ***
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: `"ACT"`
 
@@ -39,7 +39,7 @@ Shipment events are always "ACT".
 
 ***
 
-### shipmentEventTypeCode
+### shipmentEventTypeCode {#shipmenteventtypecode}
 
 > **shipmentEventTypeCode**: [`DcsaShipmentEventTypeCodes`](../type-aliases/DcsaShipmentEventTypeCodes.md)
 
@@ -47,7 +47,7 @@ Shipment event type code.
 
 ***
 
-### documentTypeCode
+### documentTypeCode {#documenttypecode}
 
 > **documentTypeCode**: [`DcsaDocumentTypeCodes`](../type-aliases/DcsaDocumentTypeCodes.md)
 
@@ -56,7 +56,7 @@ Identifies what kind of document `documentReference` points to.
 
 ***
 
-### documentReference
+### documentReference {#documentreference}
 
 > **documentReference**: `string`
 
@@ -65,7 +65,7 @@ Note: `documentReference` is not necessarily globally unique without `documentTy
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -73,7 +73,7 @@ Free-text field that can be used to explain why a specific ShipmentEvent was sen
 
 ***
 
-### relatedDocumentReferences?
+### relatedDocumentReferences? {#relateddocumentreferences}
 
 > `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
@@ -81,7 +81,7 @@ Related documents.
 
 ***
 
-### references?
+### references? {#references}
 
 > `optional` **references**: [`IDcsaReference`](IDcsaReference.md)[]
 

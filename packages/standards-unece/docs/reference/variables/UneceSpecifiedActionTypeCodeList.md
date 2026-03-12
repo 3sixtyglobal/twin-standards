@@ -6,7 +6,7 @@ Values for UneceSpecifiedAction typeCode property.
 
 ## Type Declaration
 
-### ApplicableSpecifiedAction
+### ApplicableSpecifiedAction {#applicablespecifiedaction}
 
 > `readonly` **ApplicableSpecifiedAction**: `"unece:applicableSpecifiedAction"` = `"unece:applicableSpecifiedAction"`
 

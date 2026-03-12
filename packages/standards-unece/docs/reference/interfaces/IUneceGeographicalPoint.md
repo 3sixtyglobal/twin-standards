@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GeographicalPoint
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalPoint"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedDirectPositionList
+### associatedDirectPositionList {#associateddirectpositionlist}
 
 > **associatedDirectPositionList**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedDirectPositionList
 
 ***
 
-### associatedGeographicalObjectCharacteristic
+### associatedGeographicalObjectCharacteristic {#associatedgeographicalobjectcharacteristic}
 
 > **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### associatedLocation?
+### associatedLocation? {#associatedlocation}
 
 > `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 

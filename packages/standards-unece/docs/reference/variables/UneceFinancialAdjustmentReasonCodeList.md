@@ -6,487 +6,487 @@ A character string used to represent a financial adjustment reason.
 
 ## Type Declaration
 
-### AgreedSettlement
+### AgreedSettlement {#agreedsettlement}
 
 > `readonly` **AgreedSettlement**: `"unece:FinancialAdjustmentReasonCodeList#1"` = `"unece:FinancialAdjustmentReasonCodeList#1"`
 
 Agreed settlement: 1.
 
-### CostsForDraft
+### CostsForDraft {#costsfordraft}
 
 > `readonly` **CostsForDraft**: `"unece:FinancialAdjustmentReasonCodeList#10"` = `"unece:FinancialAdjustmentReasonCodeList#10"`
 
 Costs for draft: 10.
 
-### IncorrectProductIdentification
+### IncorrectProductIdentification {#incorrectproductidentification}
 
 > `readonly` **IncorrectProductIdentification**: `"unece:FinancialAdjustmentReasonCodeList#100"` = `"unece:FinancialAdjustmentReasonCodeList#100"`
 
 Incorrect product identification: 100.
 
-### BankCharges
+### BankCharges {#bankcharges}
 
 > `readonly` **BankCharges**: `"unece:FinancialAdjustmentReasonCodeList#11"` = `"unece:FinancialAdjustmentReasonCodeList#11"`
 
 Bank charges: 11.
 
-### AgentCommission
+### AgentCommission {#agentcommission}
 
 > `readonly` **AgentCommission**: `"unece:FinancialAdjustmentReasonCodeList#12"` = `"unece:FinancialAdjustmentReasonCodeList#12"`
 
 Agent commission: 12.
 
-### CounterClaim
+### CounterClaim {#counterclaim}
 
 > `readonly` **CounterClaim**: `"unece:FinancialAdjustmentReasonCodeList#13"` = `"unece:FinancialAdjustmentReasonCodeList#13"`
 
 Counter claim: 13.
 
-### TradeDiscount
+### TradeDiscount {#tradediscount}
 
 > `readonly` **TradeDiscount**: `"unece:FinancialAdjustmentReasonCodeList#19"` = `"unece:FinancialAdjustmentReasonCodeList#19"`
 
 Trade discount: 19.
 
-### DeductionForLateDelivery
+### DeductionForLateDelivery {#deductionforlatedelivery}
 
 > `readonly` **DeductionForLateDelivery**: `"unece:FinancialAdjustmentReasonCodeList#20"` = `"unece:FinancialAdjustmentReasonCodeList#20"`
 
 Deduction for late delivery: 20.
 
-### AdvertisingCosts
+### AdvertisingCosts {#advertisingcosts}
 
 > `readonly` **AdvertisingCosts**: `"unece:FinancialAdjustmentReasonCodeList#21"` = `"unece:FinancialAdjustmentReasonCodeList#21"`
 
 Advertising costs: 21.
 
-### CustomsDuties
+### CustomsDuties {#customsduties}
 
 > `readonly` **CustomsDuties**: `"unece:FinancialAdjustmentReasonCodeList#22"` = `"unece:FinancialAdjustmentReasonCodeList#22"`
 
 Customs duties: 22.
 
-### TelephoneAndPostalCosts
+### TelephoneAndPostalCosts {#telephoneandpostalcosts}
 
 > `readonly` **TelephoneAndPostalCosts**: `"unece:FinancialAdjustmentReasonCodeList#23"` = `"unece:FinancialAdjustmentReasonCodeList#23"`
 
 Telephone and postal costs: 23.
 
-### RepairCosts
+### RepairCosts {#repaircosts}
 
 > `readonly` **RepairCosts**: `"unece:FinancialAdjustmentReasonCodeList#24"` = `"unece:FinancialAdjustmentReasonCodeList#24"`
 
 Repair costs: 24.
 
-### AttorneyFees
+### AttorneyFees {#attorneyfees}
 
 > `readonly` **AttorneyFees**: `"unece:FinancialAdjustmentReasonCodeList#25"` = `"unece:FinancialAdjustmentReasonCodeList#25"`
 
 Attorney fees: 25.
 
-### Taxes
+### Taxes {#taxes}
 
 > `readonly` **Taxes**: `"unece:FinancialAdjustmentReasonCodeList#26"` = `"unece:FinancialAdjustmentReasonCodeList#26"`
 
 Taxes: 26.
 
-### ReclaimedDeduction
+### ReclaimedDeduction {#reclaimeddeduction}
 
 > `readonly` **ReclaimedDeduction**: `"unece:FinancialAdjustmentReasonCodeList#27"` = `"unece:FinancialAdjustmentReasonCodeList#27"`
 
 Reclaimed deduction: 27.
 
-### DirectPaymentToSeller
+### DirectPaymentToSeller {#directpaymenttoseller}
 
 > `readonly` **DirectPaymentToSeller**: `"unece:FinancialAdjustmentReasonCodeList#30"` = `"unece:FinancialAdjustmentReasonCodeList#30"`
 
 Direct payment to seller: 30.
 
-### QuotedAsPaidToYou
+### QuotedAsPaidToYou {#quotedaspaidtoyou}
 
 > `readonly` **QuotedAsPaidToYou**: `"unece:FinancialAdjustmentReasonCodeList#34"` = `"unece:FinancialAdjustmentReasonCodeList#34"`
 
 Quoted as paid to you: 34.
 
-### InvoiceNotReceived
+### InvoiceNotReceived {#invoicenotreceived}
 
 > `readonly` **InvoiceNotReceived**: `"unece:FinancialAdjustmentReasonCodeList#36"` = `"unece:FinancialAdjustmentReasonCodeList#36"`
 
 Invoice not received: 36.
 
-### CreditNoteToDebtorNotToUs
+### CreditNoteToDebtorNotToUs {#creditnotetodebtornottous}
 
 > `readonly` **CreditNoteToDebtorNotToUs**: `"unece:FinancialAdjustmentReasonCodeList#37"` = `"unece:FinancialAdjustmentReasonCodeList#37"`
 
 Credit note to debtor/not to us: 37.
 
-### DeductedBonus
+### DeductedBonus {#deductedbonus}
 
 > `readonly` **DeductedBonus**: `"unece:FinancialAdjustmentReasonCodeList#38"` = `"unece:FinancialAdjustmentReasonCodeList#38"`
 
 Deducted bonus: 38.
 
-### DeductedDiscount
+### DeductedDiscount {#deducteddiscount}
 
 > `readonly` **DeductedDiscount**: `"unece:FinancialAdjustmentReasonCodeList#39"` = `"unece:FinancialAdjustmentReasonCodeList#39"`
 
 Deducted discount: 39.
 
-### DeductedFreightCosts
+### DeductedFreightCosts {#deductedfreightcosts}
 
 > `readonly` **DeductedFreightCosts**: `"unece:FinancialAdjustmentReasonCodeList#40"` = `"unece:FinancialAdjustmentReasonCodeList#40"`
 
 Deducted freight costs: 40.
 
-### DeductionAgainstOtherInvoices
+### DeductionAgainstOtherInvoices {#deductionagainstotherinvoices}
 
 > `readonly` **DeductionAgainstOtherInvoices**: `"unece:FinancialAdjustmentReasonCodeList#41"` = `"unece:FinancialAdjustmentReasonCodeList#41"`
 
 Deduction against other invoices: 41.
 
-### CreditBalance
+### CreditBalance {#creditbalance}
 
 > `readonly` **CreditBalance**: `"unece:FinancialAdjustmentReasonCodeList#42"` = `"unece:FinancialAdjustmentReasonCodeList#42"`
 
 Credit balance(s): 42.
 
-### ReasonUnknown
+### ReasonUnknown {#reasonunknown}
 
 > `readonly` **ReasonUnknown**: `"unece:FinancialAdjustmentReasonCodeList#43"` = `"unece:FinancialAdjustmentReasonCodeList#43"`
 
 Reason unknown: 43.
 
-### AwaitingMessageFromSeller
+### AwaitingMessageFromSeller {#awaitingmessagefromseller}
 
 > `readonly` **AwaitingMessageFromSeller**: `"unece:FinancialAdjustmentReasonCodeList#44"` = `"unece:FinancialAdjustmentReasonCodeList#44"`
 
 Awaiting message from seller: 44.
 
-### DebitNoteToSeller
+### DebitNoteToSeller {#debitnotetoseller}
 
 > `readonly` **DebitNoteToSeller**: `"unece:FinancialAdjustmentReasonCodeList#45"` = `"unece:FinancialAdjustmentReasonCodeList#45"`
 
 Debit note to seller: 45.
 
-### DiscountBeyondTerms
+### DiscountBeyondTerms {#discountbeyondterms}
 
 > `readonly` **DiscountBeyondTerms**: `"unece:FinancialAdjustmentReasonCodeList#46"` = `"unece:FinancialAdjustmentReasonCodeList#46"`
 
 Discount beyond terms: 46.
 
-### SeeBuyerSLetter
+### SeeBuyerSLetter {#seebuyersletter}
 
 > `readonly` **SeeBuyerSLetter**: `"unece:FinancialAdjustmentReasonCodeList#47"` = `"unece:FinancialAdjustmentReasonCodeList#47"`
 
 See buyer's letter: 47.
 
-### AllowanceChargeError
+### AllowanceChargeError {#allowancechargeerror}
 
 > `readonly` **AllowanceChargeError**: `"unece:FinancialAdjustmentReasonCodeList#48"` = `"unece:FinancialAdjustmentReasonCodeList#48"`
 
 Allowance/charge error: 48.
 
-### PriceQuery
+### PriceQuery {#pricequery}
 
 > `readonly` **PriceQuery**: `"unece:FinancialAdjustmentReasonCodeList#5"` = `"unece:FinancialAdjustmentReasonCodeList#5"`
 
 Price query: 5.
 
-### TermsOfSaleError
+### TermsOfSaleError {#termsofsaleerror}
 
 > `readonly` **TermsOfSaleError**: `"unece:FinancialAdjustmentReasonCodeList#50"` = `"unece:FinancialAdjustmentReasonCodeList#50"`
 
 Terms of sale error: 50.
 
-### WrongInvoice
+### WrongInvoice {#wronginvoice}
 
 > `readonly` **WrongInvoice**: `"unece:FinancialAdjustmentReasonCodeList#52"` = `"unece:FinancialAdjustmentReasonCodeList#52"`
 
 Wrong invoice: 52.
 
-### DuplicateInvoice
+### DuplicateInvoice {#duplicateinvoice}
 
 > `readonly` **DuplicateInvoice**: `"unece:FinancialAdjustmentReasonCodeList#53"` = `"unece:FinancialAdjustmentReasonCodeList#53"`
 
 Duplicate invoice: 53.
 
-### WeightError
+### WeightError {#weighterror}
 
 > `readonly` **WeightError**: `"unece:FinancialAdjustmentReasonCodeList#54"` = `"unece:FinancialAdjustmentReasonCodeList#54"`
 
 Weight error: 54.
 
-### AdditionalChargeNotAuthorized
+### AdditionalChargeNotAuthorized {#additionalchargenotauthorized}
 
 > `readonly` **AdditionalChargeNotAuthorized**: `"unece:FinancialAdjustmentReasonCodeList#55"` = `"unece:FinancialAdjustmentReasonCodeList#55"`
 
 Additional charge not authorized: 55.
 
-### IncorrectDiscount
+### IncorrectDiscount {#incorrectdiscount}
 
 > `readonly` **IncorrectDiscount**: `"unece:FinancialAdjustmentReasonCodeList#56"` = `"unece:FinancialAdjustmentReasonCodeList#56"`
 
 Incorrect discount: 56.
 
-### PriceChange
+### PriceChange {#pricechange}
 
 > `readonly` **PriceChange**: `"unece:FinancialAdjustmentReasonCodeList#57"` = `"unece:FinancialAdjustmentReasonCodeList#57"`
 
 Price change: 57.
 
-### Variation
+### Variation {#variation}
 
 > `readonly` **Variation**: `"unece:FinancialAdjustmentReasonCodeList#58"` = `"unece:FinancialAdjustmentReasonCodeList#58"`
 
 Variation: 58.
 
-### Chargeback
+### Chargeback {#chargeback}
 
 > `readonly` **Chargeback**: `"unece:FinancialAdjustmentReasonCodeList#59"` = `"unece:FinancialAdjustmentReasonCodeList#59"`
 
 Chargeback: 59.
 
-### Offset
+### Offset {#offset}
 
 > `readonly` **Offset**: `"unece:FinancialAdjustmentReasonCodeList#60"` = `"unece:FinancialAdjustmentReasonCodeList#60"`
 
 Offset: 60.
 
-### IndirectPayment
+### IndirectPayment {#indirectpayment}
 
 > `readonly` **IndirectPayment**: `"unece:FinancialAdjustmentReasonCodeList#61"` = `"unece:FinancialAdjustmentReasonCodeList#61"`
 
 Indirect payment: 61.
 
-### FinancialReassignment
+### FinancialReassignment {#financialreassignment}
 
 > `readonly` **FinancialReassignment**: `"unece:FinancialAdjustmentReasonCodeList#62"` = `"unece:FinancialAdjustmentReasonCodeList#62"`
 
 Financial reassignment: 62.
 
-### ReinstatementOfChargebackOffset
+### ReinstatementOfChargebackOffset {#reinstatementofchargebackoffset}
 
 > `readonly` **ReinstatementOfChargebackOffset**: `"unece:FinancialAdjustmentReasonCodeList#63"` = `"unece:FinancialAdjustmentReasonCodeList#63"`
 
 Reinstatement of chargeback/offset: 63.
 
-### ExpectingNewTerms
+### ExpectingNewTerms {#expectingnewterms}
 
 > `readonly` **ExpectingNewTerms**: `"unece:FinancialAdjustmentReasonCodeList#64"` = `"unece:FinancialAdjustmentReasonCodeList#64"`
 
 Expecting new terms: 64.
 
-### SettlementToAgent
+### SettlementToAgent {#settlementtoagent}
 
 > `readonly` **SettlementToAgent**: `"unece:FinancialAdjustmentReasonCodeList#65"` = `"unece:FinancialAdjustmentReasonCodeList#65"`
 
 Settlement to agent: 65.
 
-### CashDiscount
+### CashDiscount {#cashdiscount}
 
 > `readonly` **CashDiscount**: `"unece:FinancialAdjustmentReasonCodeList#66"` = `"unece:FinancialAdjustmentReasonCodeList#66"`
 
 Cash discount: 66.
 
-### DelcredereCosts
+### DelcredereCosts {#delcrederecosts}
 
 > `readonly` **DelcredereCosts**: `"unece:FinancialAdjustmentReasonCodeList#67"` = `"unece:FinancialAdjustmentReasonCodeList#67"`
 
 Delcredere costs: 67.
 
-### EarlyPaymentAllowanceAdjustment
+### EarlyPaymentAllowanceAdjustment {#earlypaymentallowanceadjustment}
 
 > `readonly` **EarlyPaymentAllowanceAdjustment**: `"unece:FinancialAdjustmentReasonCodeList#68"` = `"unece:FinancialAdjustmentReasonCodeList#68"`
 
 Early payment allowance adjustment: 68.
 
-### IncorrectDueDateForMonetaryAmount
+### IncorrectDueDateForMonetaryAmount {#incorrectduedateformonetaryamount}
 
 > `readonly` **IncorrectDueDateForMonetaryAmount**: `"unece:FinancialAdjustmentReasonCodeList#69"` = `"unece:FinancialAdjustmentReasonCodeList#69"`
 
 Incorrect due date for monetary amount: 69.
 
-### PaymentOnAccount
+### PaymentOnAccount {#paymentonaccount}
 
 > `readonly` **PaymentOnAccount**: `"unece:FinancialAdjustmentReasonCodeList#7"` = `"unece:FinancialAdjustmentReasonCodeList#7"`
 
 Payment on account: 7.
 
-### WrongMonetaryAmountResultingFromIncorrectFreeGoodsQuantity
+### WrongMonetaryAmountResultingFromIncorrectFreeGoodsQuantity {#wrongmonetaryamountresultingfromincorrectfreegoodsquantity}
 
 > `readonly` **WrongMonetaryAmountResultingFromIncorrectFreeGoodsQuantity**: `"unece:FinancialAdjustmentReasonCodeList#70"` = `"unece:FinancialAdjustmentReasonCodeList#70"`
 
 Wrong monetary amount resulting from incorrect free goods quantity: 70.
 
-### DifferenceInTaxRate
+### DifferenceInTaxRate {#differenceintaxrate}
 
 > `readonly` **DifferenceInTaxRate**: `"unece:FinancialAdjustmentReasonCodeList#73"` = `"unece:FinancialAdjustmentReasonCodeList#73"`
 
 Difference in tax rate: 73.
 
-### QuantityDiscount
+### QuantityDiscount {#quantitydiscount}
 
 > `readonly` **QuantityDiscount**: `"unece:FinancialAdjustmentReasonCodeList#74"` = `"unece:FinancialAdjustmentReasonCodeList#74"`
 
 Quantity discount: 74.
 
-### PromotionDiscount
+### PromotionDiscount {#promotiondiscount}
 
 > `readonly` **PromotionDiscount**: `"unece:FinancialAdjustmentReasonCodeList#75"` = `"unece:FinancialAdjustmentReasonCodeList#75"`
 
 Promotion discount: 75.
 
-### PricingDiscount
+### PricingDiscount {#pricingdiscount}
 
 > `readonly` **PricingDiscount**: `"unece:FinancialAdjustmentReasonCodeList#77"` = `"unece:FinancialAdjustmentReasonCodeList#77"`
 
 Pricing discount: 77.
 
-### VolumeDiscount
+### VolumeDiscount {#volumediscount}
 
 > `readonly` **VolumeDiscount**: `"unece:FinancialAdjustmentReasonCodeList#78"` = `"unece:FinancialAdjustmentReasonCodeList#78"`
 
 Volume discount: 78.
 
-### SundryDiscount
+### SundryDiscount {#sundrydiscount}
 
 > `readonly` **SundryDiscount**: `"unece:FinancialAdjustmentReasonCodeList#79"` = `"unece:FinancialAdjustmentReasonCodeList#79"`
 
 Sundry discount: 79.
 
-### ReturnableContainerChargeIncluded
+### ReturnableContainerChargeIncluded {#returnablecontainerchargeincluded}
 
 > `readonly` **ReturnableContainerChargeIncluded**: `"unece:FinancialAdjustmentReasonCodeList#8"` = `"unece:FinancialAdjustmentReasonCodeList#8"`
 
 Returnable container charge included: 8.
 
-### CardHolderSignatureMissing
+### CardHolderSignatureMissing {#cardholdersignaturemissing}
 
 > `readonly` **CardHolderSignatureMissing**: `"unece:FinancialAdjustmentReasonCodeList#80"` = `"unece:FinancialAdjustmentReasonCodeList#80"`
 
 Card holder signature missing: 80.
 
-### CardExpiryDateMissing
+### CardExpiryDateMissing {#cardexpirydatemissing}
 
 > `readonly` **CardExpiryDateMissing**: `"unece:FinancialAdjustmentReasonCodeList#81"` = `"unece:FinancialAdjustmentReasonCodeList#81"`
 
 Card expiry date missing: 81.
 
-### CardNumberError
+### CardNumberError {#cardnumbererror}
 
 > `readonly` **CardNumberError**: `"unece:FinancialAdjustmentReasonCodeList#82"` = `"unece:FinancialAdjustmentReasonCodeList#82"`
 
 Card number error: 82.
 
-### CardExpired
+### CardExpired {#cardexpired}
 
 > `readonly` **CardExpired**: `"unece:FinancialAdjustmentReasonCodeList#83"` = `"unece:FinancialAdjustmentReasonCodeList#83"`
 
 Card expired: 83.
 
-### TestCardTransaction
+### TestCardTransaction {#testcardtransaction}
 
 > `readonly` **TestCardTransaction**: `"unece:FinancialAdjustmentReasonCodeList#84"` = `"unece:FinancialAdjustmentReasonCodeList#84"`
 
 Test card transaction: 84.
 
-### PermissionLimitExceeded
+### PermissionLimitExceeded {#permissionlimitexceeded}
 
 > `readonly` **PermissionLimitExceeded**: `"unece:FinancialAdjustmentReasonCodeList#85"` = `"unece:FinancialAdjustmentReasonCodeList#85"`
 
 Permission limit exceeded: 85.
 
-### WrongAuthorisationCode
+### WrongAuthorisationCode {#wrongauthorisationcode}
 
 > `readonly` **WrongAuthorisationCode**: `"unece:FinancialAdjustmentReasonCodeList#86"` = `"unece:FinancialAdjustmentReasonCodeList#86"`
 
 Wrong authorisation code: 86.
 
-### WrongAuthorisedAmount
+### WrongAuthorisedAmount {#wrongauthorisedamount}
 
 > `readonly` **WrongAuthorisedAmount**: `"unece:FinancialAdjustmentReasonCodeList#87"` = `"unece:FinancialAdjustmentReasonCodeList#87"`
 
 Wrong authorised amount: 87.
 
-### AuthorisationFailed
+### AuthorisationFailed {#authorisationfailed}
 
 > `readonly` **AuthorisationFailed**: `"unece:FinancialAdjustmentReasonCodeList#88"` = `"unece:FinancialAdjustmentReasonCodeList#88"`
 
 Authorisation failed: 88.
 
-### CardAcceptorDataError
+### CardAcceptorDataError {#cardacceptordataerror}
 
 > `readonly` **CardAcceptorDataError**: `"unece:FinancialAdjustmentReasonCodeList#89"` = `"unece:FinancialAdjustmentReasonCodeList#89"`
 
 Card acceptor data error: 89.
 
-### InvoiceError
+### InvoiceError {#invoiceerror}
 
 > `readonly` **InvoiceError**: `"unece:FinancialAdjustmentReasonCodeList#9"` = `"unece:FinancialAdjustmentReasonCodeList#9"`
 
 Invoice error: 9.
 
-### TreasuryManagementServiceCharge
+### TreasuryManagementServiceCharge {#treasurymanagementservicecharge}
 
 > `readonly` **TreasuryManagementServiceCharge**: `"unece:FinancialAdjustmentReasonCodeList#90"` = `"unece:FinancialAdjustmentReasonCodeList#90"`
 
 Treasury management service charge: 90.
 
-### AgreedDiscount
+### AgreedDiscount {#agreeddiscount}
 
 > `readonly` **AgreedDiscount**: `"unece:FinancialAdjustmentReasonCodeList#91"` = `"unece:FinancialAdjustmentReasonCodeList#91"`
 
 Agreed discount: 91.
 
-### ExpeditingFee
+### ExpeditingFee {#expeditingfee}
 
 > `readonly` **ExpeditingFee**: `"unece:FinancialAdjustmentReasonCodeList#92"` = `"unece:FinancialAdjustmentReasonCodeList#92"`
 
 Expediting fee: 92.
 
-### InvoicingFee
+### InvoicingFee {#invoicingfee}
 
 > `readonly` **InvoicingFee**: `"unece:FinancialAdjustmentReasonCodeList#93"` = `"unece:FinancialAdjustmentReasonCodeList#93"`
 
 Invoicing fee: 93.
 
-### FreightCharge
+### FreightCharge {#freightcharge}
 
 > `readonly` **FreightCharge**: `"unece:FinancialAdjustmentReasonCodeList#94"` = `"unece:FinancialAdjustmentReasonCodeList#94"`
 
 Freight charge: 94.
 
-### SmallOrderProcessingServiceCharge
+### SmallOrderProcessingServiceCharge {#smallorderprocessingservicecharge}
 
 > `readonly` **SmallOrderProcessingServiceCharge**: `"unece:FinancialAdjustmentReasonCodeList#95"` = `"unece:FinancialAdjustmentReasonCodeList#95"`
 
 Small order processing service charge: 95.
 
-### CurrencyExchangeDifferences
+### CurrencyExchangeDifferences {#currencyexchangedifferences}
 
 > `readonly` **CurrencyExchangeDifferences**: `"unece:FinancialAdjustmentReasonCodeList#96"` = `"unece:FinancialAdjustmentReasonCodeList#96"`
 
 Currency exchange differences: 96.
 
-### Insolvency
+### Insolvency {#insolvency}
 
 > `readonly` **Insolvency**: `"unece:FinancialAdjustmentReasonCodeList#97"` = `"unece:FinancialAdjustmentReasonCodeList#97"`
 
 Insolvency: 97.
 
-### IncorrectReferences
+### IncorrectReferences {#incorrectreferences}
 
 > `readonly` **IncorrectReferences**: `"unece:FinancialAdjustmentReasonCodeList#98"` = `"unece:FinancialAdjustmentReasonCodeList#98"`
 
 Incorrect references: 98.
 
-### IncorrectIdentificationOfTheBuyer
+### IncorrectIdentificationOfTheBuyer {#incorrectidentificationofthebuyer}
 
 > `readonly` **IncorrectIdentificationOfTheBuyer**: `"unece:FinancialAdjustmentReasonCodeList#99"` = `"unece:FinancialAdjustmentReasonCodeList#99"`
 
 Incorrect identification of the buyer: 99.
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:FinancialAdjustmentReasonCodeList#ZZZ"` = `"unece:FinancialAdjustmentReasonCodeList#ZZZ"`
 

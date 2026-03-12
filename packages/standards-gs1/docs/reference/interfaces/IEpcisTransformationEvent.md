@@ -13,7 +13,7 @@ https://ref.gs1.org/epcis/TransformationEvent
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
@@ -25,7 +25,7 @@ JSON-LD @context.
 
 ***
 
-### eventID?
+### eventID? {#eventid}
 
 > `optional` **eventID**: `string`
 
@@ -37,7 +37,7 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ***
 
-### certificationInfo?
+### certificationInfo? {#certificationinfo}
 
 > `optional` **certificationInfo**: `string` \| `string`[]
 
@@ -50,7 +50,7 @@ Organizations mentioned in this Event.
 
 ***
 
-### errorDeclaration?
+### errorDeclaration? {#errordeclaration}
 
 > `optional` **errorDeclaration**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
 
@@ -62,7 +62,7 @@ Error declaration.
 
 ***
 
-### eventTime
+### eventTime {#eventtime}
 
 > **eventTime**: `string`
 
@@ -75,7 +75,7 @@ occurred.
 
 ***
 
-### eventTimeZoneOffset
+### eventTimeZoneOffset {#eventtimezoneoffset}
 
 > **eventTimeZoneOffset**: `string`
 
@@ -88,7 +88,7 @@ expressed as an offset from UTC.
 
 ***
 
-### recordTime?
+### recordTime? {#recordtime}
 
 > `optional` **recordTime**: `string`
 
@@ -101,7 +101,7 @@ Repository; ignored at capture and present on query results.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransformationEvent"`
 
@@ -113,7 +113,7 @@ Fixed to TransformationEvent.
 
 ***
 
-### inputEPCList?
+### inputEPCList? {#inputepclist}
 
 > `optional` **inputEPCList**: `string`[]
 
@@ -122,7 +122,7 @@ level) objects that were inputs to the transformation.
 
 ***
 
-### inputQuantityList?
+### inputQuantityList? {#inputquantitylist}
 
 > `optional` **inputQuantityList**: [`IEpcisQuantity`](IEpcisQuantity.md)[]
 
@@ -132,7 +132,7 @@ constraints.
 
 ***
 
-### outputEPCList?
+### outputEPCList? {#outputepclist}
 
 > `optional` **outputEPCList**: `string`[]
 
@@ -141,7 +141,7 @@ objects that were outputs from the transformation.
 
 ***
 
-### outputQuantityList?
+### outputQuantityList? {#outputquantitylist}
 
 > `optional` **outputQuantityList**: [`IEpcisQuantity`](IEpcisQuantity.md)[]
 
@@ -151,7 +151,7 @@ constraints.
 
 ***
 
-### transformationID?
+### transformationID? {#transformationid}
 
 > `optional` **transformationID**: `string`
 
@@ -160,7 +160,7 @@ and outputs across those events.
 
 ***
 
-### bizStep?
+### bizStep? {#bizstep}
 
 > `optional` **bizStep**: `string`
 
@@ -168,7 +168,7 @@ and outputs across those events.
 
 ***
 
-### disposition?
+### disposition? {#disposition}
 
 > `optional` **disposition**: `string`
 
@@ -177,7 +177,7 @@ presumed to hold true until contradicted by a subsequent event.
 
 ***
 
-### persistentDisposition?
+### persistentDisposition? {#persistentdisposition}
 
 > `optional` **persistentDisposition**: [`IEpcisPersistentDisposition`](IEpcisPersistentDisposition.md)
 
@@ -185,7 +185,7 @@ Persistent disposition.
 
 ***
 
-### readPoint?
+### readPoint? {#readpoint}
 
 > `optional` **readPoint**: [`IEpcisLocation`](IEpcisLocation.md)
 
@@ -193,7 +193,7 @@ Persistent disposition.
 
 ***
 
-### bizLocation?
+### bizLocation? {#bizlocation}
 
 > `optional` **bizLocation**: [`IEpcisLocation`](IEpcisLocation.md)
 
@@ -202,7 +202,7 @@ may be found, until contradicted by a subsequent event.
 
 ***
 
-### bizTransactionList?
+### bizTransactionList? {#biztransactionlist}
 
 > `optional` **bizTransactionList**: [`IEpcisBizTransaction`](IEpcisBizTransaction.md)[]
 
@@ -211,7 +211,7 @@ event.
 
 ***
 
-### sourceList?
+### sourceList? {#sourcelist}
 
 > `optional` **sourceList**: [`IEpcisSource`](IEpcisSource.md)[]
 
@@ -220,7 +220,7 @@ originating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### destinationList?
+### destinationList? {#destinationlist}
 
 > `optional` **destinationList**: [`IEpcisDestination`](IEpcisDestination.md)[]
 
@@ -229,7 +229,7 @@ the terminating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### sensorElementList?
+### sensorElementList? {#sensorelementlist}
 
 > `optional` **sensorElementList**: [`IEpcisSensorElement`](IEpcisSensorElement.md)[]
 
@@ -237,7 +237,7 @@ the terminating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### ilmd?
+### ilmd? {#ilmd}
 
 > `optional` **ilmd**: [`IEpcisIlmd`](IEpcisIlmd.md)
 

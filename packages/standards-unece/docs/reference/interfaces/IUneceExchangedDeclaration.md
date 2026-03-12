@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ExchangedDeclaration
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ExchangedDeclaration"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### additionalStatementNote?
+### additionalStatementNote? {#additionalstatementnote}
 
 > `optional` **additionalStatementNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/additionalStatementNote
 
 ***
 
-### applicableCustomsValuation?
+### applicableCustomsValuation? {#applicablecustomsvaluation}
 
 > `optional` **applicableCustomsValuation**: [`IUneceCustomsValuation`](IUneceCustomsValuation.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableCustomsValuation
 
 ***
 
-### associatedDocument?
+### associatedDocument? {#associateddocument}
 
 > `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ***
 
-### currencyExchangeRate?
+### currencyExchangeRate? {#currencyexchangerate}
 
 > `optional` **currencyExchangeRate**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/currencyExchangeRate
 
 ***
 
-### customsValueSpecifiedAmount?
+### customsValueSpecifiedAmount? {#customsvaluespecifiedamount}
 
 > `optional` **customsValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/customsValueSpecifiedAmount
 
 ***
 
-### declarantAgentParty?
+### declarantAgentParty? {#declarantagentparty}
 
 > `optional` **declarantAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/declarantAgentParty
 
 ***
 
-### declarantParty?
+### declarantParty? {#declarantparty}
 
 > `optional` **declarantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/declarantParty
 
 ***
 
-### documentTypeCode?
+### documentTypeCode? {#documenttypecode}
 
 > `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ***
 
-### grossWeightSpecifiedMeasure?
+### grossWeightSpecifiedMeasure? {#grossweightspecifiedmeasure}
 
 > `optional` **grossWeightSpecifiedMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/grossWeightSpecifiedMeasure
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### jurisdictionEntryDateTime?
+### jurisdictionEntryDateTime? {#jurisdictionentrydatetime}
 
 > `optional` **jurisdictionEntryDateTime**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/jurisdictionEntryDateTime
 
 ***
 
-### previousDocument?
+### previousDocument? {#previousdocument}
 
 > `optional` **previousDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/previousDocument
 
 ***
 
-### principalAssociatedParty?
+### principalAssociatedParty? {#principalassociatedparty}
 
 > `optional` **principalAssociatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/principalAssociatedParty
 
 ***
 
-### procedureCode?
+### procedureCode? {#procedurecode}
 
 > `optional` **procedureCode**: `string`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/procedureCode
 
 ***
 
-### specificCircumstanceCode?
+### specificCircumstanceCode? {#specificcircumstancecode}
 
 > `optional` **specificCircumstanceCode**: `string`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/specificCircumstanceCode
 
 ***
 
-### statisticalValueSpecifiedAmount?
+### statisticalValueSpecifiedAmount? {#statisticalvaluespecifiedamount}
 
 > `optional` **statisticalValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/statisticalValueSpecifiedAmount
 
 ***
 
-### submissionLocation?
+### submissionLocation? {#submissionlocation}
 
 > `optional` **submissionLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/submissionLocation
 
 ***
 
-### totalInvoiceSpecifiedAmount?
+### totalInvoiceSpecifiedAmount? {#totalinvoicespecifiedamount}
 
 > `optional` **totalInvoiceSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/totalInvoiceSpecifiedAmount
 
 ***
 
-### totalPackageSpecifiedQuantity?
+### totalPackageSpecifiedQuantity? {#totalpackagespecifiedquantity}
 
 > `optional` **totalPackageSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/totalPackageSpecifiedQuantity
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

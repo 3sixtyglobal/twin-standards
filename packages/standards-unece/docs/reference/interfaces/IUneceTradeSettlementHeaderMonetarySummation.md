@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeSettlementHeaderMonetarySummation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeSettlementHeaderMonetarySummation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### adjustedBalanceOutAmount?
+### adjustedBalanceOutAmount? {#adjustedbalanceoutamount}
 
 > `optional` **adjustedBalanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/adjustedBalanceOutAmount
 
 ***
 
-### allowanceTotalAmount?
+### allowanceTotalAmount? {#allowancetotalamount}
 
 > `optional` **allowanceTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/allowanceTotalAmount
 
 ***
 
-### applicableHeaderBalanceOut?
+### applicableHeaderBalanceOut? {#applicableheaderbalanceout}
 
 > `optional` **applicableHeaderBalanceOut**: [`IUneceHeaderBalanceOut`](IUneceHeaderBalanceOut.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableHeaderBalanceOut
 
 ***
 
-### balanceOutAmount?
+### balanceOutAmount? {#balanceoutamount}
 
 > `optional` **balanceOutAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/balanceOutAmount
 
 ***
 
-### chargeTotalAmount?
+### chargeTotalAmount? {#chargetotalamount}
 
 > `optional` **chargeTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/chargeTotalAmount
 
 ***
 
-### duePayableAmount?
+### duePayableAmount? {#duepayableamount}
 
 > `optional` **duePayableAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/duePayableAmount
 
 ***
 
-### excludingTaxesLineTotalAmount?
+### excludingTaxesLineTotalAmount? {#excludingtaxeslinetotalamount}
 
 > `optional` **excludingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/excludingTaxesLineTotalAmount
 
 ***
 
-### grandTotalAmount?
+### grandTotalAmount? {#grandtotalamount}
 
 > `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/grandTotalAmount
 
 ***
 
-### grandTotalSpecifiedAdjustment?
+### grandTotalSpecifiedAdjustment? {#grandtotalspecifiedadjustment}
 
 > `optional` **grandTotalSpecifiedAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/grandTotalSpecifiedAdjustment
 
 ***
 
-### grossLineTotalAmount?
+### grossLineTotalAmount? {#grosslinetotalamount}
 
 > `optional` **grossLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -149,7 +149,7 @@ https://vocabulary.uncefact.org/grossLineTotalAmount
 
 ***
 
-### includingTaxesLineTotalAmount?
+### includingTaxesLineTotalAmount? {#includingtaxeslinetotalamount}
 
 > `optional` **includingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -162,7 +162,7 @@ https://vocabulary.uncefact.org/includingTaxesLineTotalAmount
 
 ***
 
-### informationAmount?
+### informationAmount? {#informationamount}
 
 > `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -174,7 +174,7 @@ https://vocabulary.uncefact.org/informationAmount
 
 ***
 
-### insuranceChargeTotalAmount?
+### insuranceChargeTotalAmount? {#insurancechargetotalamount}
 
 > `optional` **insuranceChargeTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -187,7 +187,7 @@ https://vocabulary.uncefact.org/insuranceChargeTotalAmount
 
 ***
 
-### lineTotalAmount?
+### lineTotalAmount? {#linetotalamount}
 
 > `optional` **lineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -199,7 +199,7 @@ https://vocabulary.uncefact.org/lineTotalAmount
 
 ***
 
-### netIncludingTaxesLineTotalAmount?
+### netIncludingTaxesLineTotalAmount? {#netincludingtaxeslinetotalamount}
 
 > `optional` **netIncludingTaxesLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -212,7 +212,7 @@ https://vocabulary.uncefact.org/netIncludingTaxesLineTotalAmount
 
 ***
 
-### netLineTotalAmount?
+### netLineTotalAmount? {#netlinetotalamount}
 
 > `optional` **netLineTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -225,7 +225,7 @@ https://vocabulary.uncefact.org/netLineTotalAmount
 
 ***
 
-### paymentTotalAmount?
+### paymentTotalAmount? {#paymenttotalamount}
 
 > `optional` **paymentTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -237,7 +237,7 @@ https://vocabulary.uncefact.org/paymentTotalAmount
 
 ***
 
-### productValueExcludingTobaccoTaxInformationAmount?
+### productValueExcludingTobaccoTaxInformationAmount? {#productvalueexcludingtobaccotaxinformationamount}
 
 > `optional` **productValueExcludingTobaccoTaxInformationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -250,7 +250,7 @@ https://vocabulary.uncefact.org/productValueExcludingTobaccoTaxInformationAmount
 
 ***
 
-### retailValueExcludingTaxInformationAmount?
+### retailValueExcludingTaxInformationAmount? {#retailvalueexcludingtaxinformationamount}
 
 > `optional` **retailValueExcludingTaxInformationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -263,7 +263,7 @@ https://vocabulary.uncefact.org/retailValueExcludingTaxInformationAmount
 
 ***
 
-### roundingAmount?
+### roundingAmount? {#roundingamount}
 
 > `optional` **roundingAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -275,7 +275,7 @@ https://vocabulary.uncefact.org/roundingAmount
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -287,7 +287,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### taxBasisTotalAmount?
+### taxBasisTotalAmount? {#taxbasistotalamount}
 
 > `optional` **taxBasisTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -299,7 +299,7 @@ https://vocabulary.uncefact.org/taxBasisTotalAmount
 
 ***
 
-### taxTotalAmount?
+### taxTotalAmount? {#taxtotalamount}
 
 > `optional` **taxTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -311,7 +311,7 @@ https://vocabulary.uncefact.org/taxTotalAmount
 
 ***
 
-### totalAllowanceChargeAmount?
+### totalAllowanceChargeAmount? {#totalallowancechargeamount}
 
 > `optional` **totalAllowanceChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -323,7 +323,7 @@ https://vocabulary.uncefact.org/totalAllowanceChargeAmount
 
 ***
 
-### totalDepositFeeInformationAmount?
+### totalDepositFeeInformationAmount? {#totaldepositfeeinformationamount}
 
 > `optional` **totalDepositFeeInformationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/totalDepositFeeInformationAmount
 
 ***
 
-### totalDiscountAmount?
+### totalDiscountAmount? {#totaldiscountamount}
 
 > `optional` **totalDiscountAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/totalDiscountAmount
 
 ***
 
-### totalDiscountBasisAmount?
+### totalDiscountBasisAmount? {#totaldiscountbasisamount}
 
 > `optional` **totalDiscountBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/totalDiscountBasisAmount
 
 ***
 
-### totalPrepaidAmount?
+### totalPrepaidAmount? {#totalprepaidamount}
 
 > `optional` **totalPrepaidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/totalPrepaidAmount
 
 ***
 
-### totalRetailValueInformationAmount?
+### totalRetailValueInformationAmount? {#totalretailvalueinformationamount}
 
 > `optional` **totalRetailValueInformationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 

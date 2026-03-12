@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ComplexDescription
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ComplexDescription"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### abstract?
+### abstract? {#abstract}
 
 > `optional` **abstract**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/abstract
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### contractualLanguageCode?
+### contractualLanguageCode? {#contractuallanguagecode}
 
 > `optional` **contractualLanguageCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ***
 
-### requestingQuery?
+### requestingQuery? {#requestingquery}
 
 > `optional` **requestingQuery**: [`IUneceSpecificationQuery`](IUneceSpecificationQuery.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/requestingQuery
 
 ***
 
-### respondingResponse?
+### respondingResponse? {#respondingresponse}
 
 > `optional` **respondingResponse**: [`IUneceResponse`](IUneceResponse.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/respondingResponse
 
 ***
 
-### subsetComplexDescription?
+### subsetComplexDescription? {#subsetcomplexdescription}
 
 > `optional` **subsetComplexDescription**: `IUneceComplexDescription`
 

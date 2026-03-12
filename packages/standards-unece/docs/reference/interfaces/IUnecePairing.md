@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Pairing
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Pairing"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### matchingEvent?
+### matchingEvent? {#matchingevent}
 
 > `optional` **matchingEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/matchingEvent
 
 ***
 
-### methodCode?
+### methodCode? {#methodcode}
 
 > `optional` **methodCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/methodCode
 
 ***
 
-### pairedIndicator?
+### pairedIndicator? {#pairedindicator}
 
 > `optional` **pairedIndicator**: `boolean`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/pairedIndicator
 
 ***
 
-### targetEntityId?
+### targetEntityId? {#targetentityid}
 
 > `optional` **targetEntityId**: `string` \| `IJsonLdValueObject`
 

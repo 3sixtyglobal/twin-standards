@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Circle
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Circle"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic
+### associatedGeographicalObjectCharacteristic {#associatedgeographicalobjectcharacteristic}
 
 > **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### associatedLocation?
+### associatedLocation? {#associatedlocation}
 
 > `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/associatedLocation
 
 ***
 
-### centreGeographicalPoint?
+### centreGeographicalPoint? {#centregeographicalpoint}
 
 > `optional` **centreGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/centreGeographicalPoint
 
 ***
 
-### radiusMeasure?
+### radiusMeasure? {#radiusmeasure}
 
 > `optional` **radiusMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

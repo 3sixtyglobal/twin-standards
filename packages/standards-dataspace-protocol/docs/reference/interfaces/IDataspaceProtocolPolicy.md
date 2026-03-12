@@ -17,7 +17,7 @@ Extends IOdrlPolicy with DS Protocol-specific constraints:
 
 ## Properties
 
-### @id
+### @id {#id}
 
 > **@id**: `string`
 
@@ -25,7 +25,7 @@ Unique identifier for the policy.
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: `OdrlContextType`
 
@@ -38,7 +38,7 @@ Must include "https://www.w3.org/ns/odrl.jsonld"
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `PolicyType`
 
@@ -51,7 +51,7 @@ Must be one of: "Set", "Offer", "Agreement"
 
 ***
 
-### profile?
+### profile? {#profile}
 
 > `optional` **profile**: `string` \| `string`[]
 
@@ -64,7 +64,7 @@ IRIs identifying the ODRL Profile(s).
 
 ***
 
-### assigner?
+### assigner? {#assigner}
 
 > `optional` **assigner**: `string` \| `IOdrlParty` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlParty` \| `IOdrlPartyCollection`)[]
 
@@ -77,7 +77,7 @@ Applies to all rules unless overridden at rule level.
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
 > `optional` **assignee**: `string` \| `IOdrlParty` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlParty` \| `IOdrlPartyCollection`)[]
 
@@ -90,7 +90,7 @@ Applies to all rules unless overridden at rule level.
 
 ***
 
-### target?
+### target? {#target}
 
 > `optional` **target**: `string` \| `IOdrlAsset` \| `IOdrlAssetCollection` \| (`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`)[]
 
@@ -102,7 +102,7 @@ The target asset for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
 > `optional` **action**: `string` \| `IOdrlAction` \| (`string` \| `IOdrlAction`)[]
 
@@ -114,7 +114,7 @@ The action associated with the rule.
 
 ***
 
-### inheritFrom?
+### inheritFrom? {#inheritfrom}
 
 > `optional` **inheritFrom**: `string` \| `string`[]
 
@@ -127,7 +127,7 @@ IRIs identifying the parent Policy(ies).
 
 ***
 
-### conflict?
+### conflict? {#conflict}
 
 > `optional` **conflict**: `ConflictStrategyType`
 
@@ -142,7 +142,7 @@ The conflict resolution strategy.
 
 ***
 
-### permission?
+### permission? {#permission}
 
 > `optional` **permission**: `IOdrlPermission` \| `IOdrlPermission`[]
 
@@ -155,7 +155,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### prohibition?
+### prohibition? {#prohibition}
 
 > `optional` **prohibition**: `IOdrlProhibition` \| `IOdrlProhibition`[]
 
@@ -168,7 +168,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### obligation?
+### obligation? {#obligation}
 
 > `optional` **obligation**: `IOdrlDuty` \| `IOdrlDuty`[]
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LegalRegistration
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LegalRegistration"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### countryId?
+### countryId? {#countryid}
 
 > `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/countryId
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### lastRegisteredYearDateTime?
+### lastRegisteredYearDateTime? {#lastregisteredyeardatetime}
 
 > `optional` **lastRegisteredYearDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/lastRegisteredYearDateTime
 
 ***
 
-### licenceId?
+### licenceId? {#licenceid}
 
 > `optional` **licenceId**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/licenceId
 
 ***
 
-### recordedDate?
+### recordedDate? {#recordeddate}
 
 > `optional` **recordedDate**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/recordedDate
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -6,19 +6,19 @@ The types for ODRL Conflict Resolution Strategies.
 
 ## Type Declaration
 
-### Perm
+### Perm {#perm}
 
 > `readonly` **Perm**: `"perm"` = `"perm"`
 
 Permission type.
 
-### Prohibit
+### Prohibit {#prohibit}
 
 > `readonly` **Prohibit**: `"prohibit"` = `"prohibit"`
 
 Prohibition type.
 
-### Invalid
+### Invalid {#invalid}
 
 > `readonly` **Invalid**: `"invalid"` = `"invalid"`
 

@@ -6,25 +6,25 @@ A character string used to represent a transport service priority.
 
 ## Type Declaration
 
-### Express
+### Express {#express}
 
 > `readonly` **Express**: `"unece:TransportServicePriorityCodeList#1"` = `"unece:TransportServicePriorityCodeList#1"`
 
 Express: 1.
 
-### HighSpeed
+### HighSpeed {#highspeed}
 
 > `readonly` **HighSpeed**: `"unece:TransportServicePriorityCodeList#2"` = `"unece:TransportServicePriorityCodeList#2"`
 
 High speed: 2.
 
-### NormalSpeed
+### NormalSpeed {#normalspeed}
 
 > `readonly` **NormalSpeed**: `"unece:TransportServicePriorityCodeList#3"` = `"unece:TransportServicePriorityCodeList#3"`
 
 Normal speed: 3.
 
-### PostService
+### PostService {#postservice}
 
 > `readonly` **PostService**: `"unece:TransportServicePriorityCodeList#4"` = `"unece:TransportServicePriorityCodeList#4"`
 

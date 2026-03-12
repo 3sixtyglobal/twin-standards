@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RequestingParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RequestingParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### accessRightsTypeAccessRightsCode?
+### accessRightsTypeAccessRightsCode? {#accessrightstypeaccessrightscode}
 
 > `optional` **accessRightsTypeAccessRightsCode**: [`UneceAccessRightsTypeCodeList`](../type-aliases/UneceAccessRightsTypeCodeList.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/accessRightsTypeAccessRightsCode
 
 ***
 
-### bEIId?
+### bEIId? {#beiid}
 
 > `optional` **bEIId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/bEIId
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### languageCode?
+### languageCode? {#languagecode}
 
 > `optional` **languageCode**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/languageCode
 
 ***
 
-### lineOfCreditSpecifiedFinancialAccount?
+### lineOfCreditSpecifiedFinancialAccount? {#lineofcreditspecifiedfinancialaccount}
 
 > `optional` **lineOfCreditSpecifiedFinancialAccount**: [`IUneceFinancingFinancialAccount`](IUneceFinancingFinancialAccount.md)
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/lineOfCreditSpecifiedFinancialAccount
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### partyTypeCode?
+### partyTypeCode? {#partytypecode}
 
 > `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ***
 
-### specifiedCreditorFinancialAccount?
+### specifiedCreditorFinancialAccount? {#specifiedcreditorfinancialaccount}
 
 > `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 
 ***
 
-### specifiedProprietaryIdentity?
+### specifiedProprietaryIdentity? {#specifiedproprietaryidentity}
 
 > `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 

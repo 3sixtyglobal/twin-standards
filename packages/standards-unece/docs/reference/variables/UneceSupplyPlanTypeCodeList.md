@@ -6,7 +6,7 @@ Values for UneceSupplyPlan typeCode property.
 
 ## Type Declaration
 
-### ProjectedSupplyPlan
+### ProjectedSupplyPlan {#projectedsupplyplan}
 
 > `readonly` **ProjectedSupplyPlan**: `"unece:projectedSupplyPlan"` = `"unece:projectedSupplyPlan"`
 
@@ -16,7 +16,7 @@ A supply plan, at line level, projected for this trade delivery.
 
 https://vocabulary.uncefact.org/projectedSupplyPlan
 
-### SpecifiedSupplyPlan
+### SpecifiedSupplyPlan {#specifiedsupplyplan}
 
 > `readonly` **SpecifiedSupplyPlan**: `"unece:specifiedSupplyPlan"` = `"unece:specifiedSupplyPlan"`
 

@@ -6,7 +6,7 @@ Values for UneceCommunicationEvent typeCode property.
 
 ## Type Declaration
 
-### MatchingEvent
+### MatchingEvent {#matchingevent}
 
 > `readonly` **MatchingEvent**: `"unece:matchingEvent"` = `"unece:matchingEvent"`
 
@@ -16,7 +16,7 @@ A matching event for this communication pairing.
 
 https://vocabulary.uncefact.org/matchingEvent
 
-### RelatedEvent
+### RelatedEvent {#relatedevent}
 
 > `readonly` **RelatedEvent**: `"unece:relatedEvent"` = `"unece:relatedEvent"`
 

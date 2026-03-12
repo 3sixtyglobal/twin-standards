@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AnimalBatch
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AnimalBatch"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### breakUpDateTime?
+### breakUpDateTime? {#breakupdatetime}
 
 > `optional` **breakUpDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/breakUpDateTime
 
 ***
 
-### creationDateTime
+### creationDateTime {#creationdatetime}
 
 > **creationDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### fLUXId?
+### fLUXId? {#fluxid}
 
 > `optional` **fLUXId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/fLUXId
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### maximumSizeMeasure?
+### maximumSizeMeasure? {#maximumsizemeasure}
 
 > `optional` **maximumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/maximumSizeMeasure
 
 ***
 
-### minimumSizeMeasure?
+### minimumSizeMeasure? {#minimumsizemeasure}
 
 > `optional` **minimumSizeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/minimumSizeMeasure
 
 ***
 
-### saleDateTime?
+### saleDateTime? {#saledatetime}
 
 > `optional` **saleDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/saleDateTime
 
 ***
 
-### salesNoteId?
+### salesNoteId? {#salesnoteid}
 
 > `optional` **salesNoteId**: `string` \| `IJsonLdValueObject`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/salesNoteId
 
 ***
 
-### specifiedDelimitedPeriod?
+### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
 > `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ***
 
-### specifiedPeriod?
+### specifiedPeriod? {#specifiedperiod}
 
 > `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### weightMeasure?
+### weightMeasure? {#weightmeasure}
 
 > `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

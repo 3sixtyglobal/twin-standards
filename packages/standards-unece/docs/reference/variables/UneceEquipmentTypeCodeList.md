@@ -6,7 +6,7 @@ Values for UneceEquipment typeCode property.
 
 ## Type Declaration
 
-### InterfaceEquipment
+### InterfaceEquipment {#interfaceequipment}
 
 > `readonly` **InterfaceEquipment**: `"unece:interfaceEquipment"` = `"unece:interfaceEquipment"`
 

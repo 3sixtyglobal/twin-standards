@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationReference
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LaboratoryObservationReference"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### abbreviation?
+### abbreviation? {#abbreviation}
 
 > `optional` **abbreviation**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/abbreviation
 
 ***
 
-### comment?
+### comment? {#comment}
 
 > `optional` **comment**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/comment
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### propertyReferenceCode?
+### propertyReferenceCode? {#propertyreferencecode}
 
 > `optional` **propertyReferenceCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/propertyReferenceCode
 
 ***
 
-### status?
+### status? {#status}
 
 > `optional` **status**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/status
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueCode?
+### valueCode? {#valuecode}
 
 > `optional` **valueCode**: `string`
 

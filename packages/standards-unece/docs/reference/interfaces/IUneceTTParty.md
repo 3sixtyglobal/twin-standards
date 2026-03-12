@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TTParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### managedCharacteristic?
+### managedCharacteristic? {#managedcharacteristic}
 
 > `optional` **managedCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/managedCharacteristic
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### partyTypeCode?
+### partyTypeCode? {#partytypecode}
 
 > `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ***
 
-### residenceCountryId?
+### residenceCountryId? {#residencecountryid}
 
 > `optional` **residenceCountryId**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/residenceCountryId
 
 ***
 
-### specifiedTTAnimal?
+### specifiedTTAnimal? {#specifiedttanimal}
 
 > `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/specifiedTTAnimal
 
 ***
 
-### specifiedTTLocation?
+### specifiedTTLocation? {#specifiedttlocation}
 
 > `optional` **specifiedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/specifiedTTLocation
 
 ***
 
-### tTPartyRoleCode?
+### tTPartyRoleCode? {#ttpartyrolecode}
 
 > `optional` **tTPartyRoleCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/tTPartyRoleCode
 
 ***
 
-### typeId?
+### typeId? {#typeid}
 
 > `optional` **typeId**: `string` \| `IJsonLdValueObject`
 

@@ -4,7 +4,7 @@ Interface describing a DID document verification method.
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -12,7 +12,7 @@ The id of the entry.
 
 ***
 
-### controller
+### controller {#controller}
 
 > **controller**: `string`
 
@@ -20,7 +20,7 @@ The controller for the entry.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -28,7 +28,7 @@ The type of the entry.
 
 ***
 
-### publicKeyMultibase?
+### publicKeyMultibase? {#publickeymultibase}
 
 > `optional` **publicKeyMultibase**: `string`
 
@@ -37,7 +37,7 @@ Spec https://datatracker.ietf.org/doc/html/draft-multiformats-multibase-03 .
 
 ***
 
-### publicKeyJwk?
+### publicKeyJwk? {#publickeyjwk}
 
 > `optional` **publicKeyJwk**: `JWK` & `IJsonLdNodeObject`
 
@@ -46,7 +46,7 @@ Spec https://datatracker.ietf.org/doc/html/rfc7517 .
 
 ***
 
-### revocation?
+### revocation? {#revocation}
 
 > `optional` **revocation**: `string`
 

@@ -13,7 +13,7 @@ https://ref.gs1.org/epcis/AssociationEvent
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `"AssociationEvent"`
 
@@ -25,7 +25,7 @@ Type.
 
 ***
 
-### parentID
+### parentID {#parentid}
 
 > **parentID**: `string`
 
@@ -34,7 +34,7 @@ identity URI when the parent is an EPC.
 
 ***
 
-### childEPCs?
+### childEPCs? {#childepcs}
 
 > `optional` **childEPCs**: `string`[]
 
@@ -44,7 +44,7 @@ unless action is DELETE.
 
 ***
 
-### childQuantityList?
+### childQuantityList? {#childquantitylist}
 
 > `optional` **childQuantityList**: [`IEpcisQuantity`](IEpcisQuantity.md)[]
 
@@ -54,7 +54,7 @@ all children.
 
 ***
 
-### action
+### action {#action}
 
 > **action**: [`EpcisActionTypes`](../type-aliases/EpcisActionTypes.md)
 
@@ -62,7 +62,7 @@ How this event relates to the lifecycle of the EPCs named in this event.
 
 ***
 
-### bizStep?
+### bizStep? {#bizstep}
 
 > `optional` **bizStep**: `string`
 
@@ -70,7 +70,7 @@ How this event relates to the lifecycle of the EPCs named in this event.
 
 ***
 
-### disposition?
+### disposition? {#disposition}
 
 > `optional` **disposition**: `string`
 
@@ -79,7 +79,7 @@ presumed to hold true until contradicted by a subsequent event.
 
 ***
 
-### readPoint?
+### readPoint? {#readpoint}
 
 > `optional` **readPoint**: [`IEpcisLocation`](IEpcisLocation.md)
 
@@ -87,7 +87,7 @@ presumed to hold true until contradicted by a subsequent event.
 
 ***
 
-### bizLocation?
+### bizLocation? {#bizlocation}
 
 > `optional` **bizLocation**: [`IEpcisLocation`](IEpcisLocation.md)
 
@@ -96,7 +96,7 @@ may be found, until contradicted by a subsequent event.
 
 ***
 
-### bizTransactionList?
+### bizTransactionList? {#biztransactionlist}
 
 > `optional` **bizTransactionList**: [`IEpcisBizTransaction`](IEpcisBizTransaction.md)[]
 
@@ -105,7 +105,7 @@ of this event.
 
 ***
 
-### sourceList?
+### sourceList? {#sourcelist}
 
 > `optional` **sourceList**: [`IEpcisSource`](IEpcisSource.md)[]
 
@@ -114,7 +114,7 @@ originating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### destinationList?
+### destinationList? {#destinationlist}
 
 > `optional` **destinationList**: [`IEpcisDestination`](IEpcisDestination.md)[]
 
@@ -123,7 +123,7 @@ the terminating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### sensorElementList?
+### sensorElementList? {#sensorelementlist}
 
 > `optional` **sensorElementList**: [`IEpcisSensorElement`](IEpcisSensorElement.md)[]
 
@@ -131,7 +131,7 @@ the terminating endpoint of a business transfer of which this event is a part.
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
@@ -143,7 +143,7 @@ JSON-LD @context.
 
 ***
 
-### eventID?
+### eventID? {#eventid}
 
 > `optional` **eventID**: `string`
 
@@ -155,7 +155,7 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ***
 
-### certificationInfo?
+### certificationInfo? {#certificationinfo}
 
 > `optional` **certificationInfo**: `string` \| `string`[]
 
@@ -168,7 +168,7 @@ Organizations mentioned in this Event.
 
 ***
 
-### errorDeclaration?
+### errorDeclaration? {#errordeclaration}
 
 > `optional` **errorDeclaration**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
 
@@ -180,7 +180,7 @@ Error declaration.
 
 ***
 
-### eventTime
+### eventTime {#eventtime}
 
 > **eventTime**: `string`
 
@@ -193,7 +193,7 @@ occurred.
 
 ***
 
-### eventTimeZoneOffset
+### eventTimeZoneOffset {#eventtimezoneoffset}
 
 > **eventTimeZoneOffset**: `string`
 
@@ -206,7 +206,7 @@ expressed as an offset from UTC.
 
 ***
 
-### recordTime?
+### recordTime? {#recordtime}
 
 > `optional` **recordTime**: `string`
 

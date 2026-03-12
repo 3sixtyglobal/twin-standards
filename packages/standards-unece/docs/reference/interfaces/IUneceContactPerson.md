@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ContactPerson
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ContactPerson"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### alias?
+### alias? {#alias}
 
 > `optional` **alias**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/alias
 
 ***
 
-### birthDateTime?
+### birthDateTime? {#birthdatetime}
 
 > `optional` **birthDateTime**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ***
 
-### birthplaceName?
+### birthplaceName? {#birthplacename}
 
 > `optional` **birthplaceName**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/birthplaceName
 
 ***
 
-### contactPersonTitleCode?
+### contactPersonTitleCode? {#contactpersontitlecode}
 
 > `optional` **contactPersonTitleCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/contactPersonTitleCode
 
 ***
 
-### countryResidenceCountryId?
+### countryResidenceCountryId? {#countryresidencecountryid}
 
 > `optional` **countryResidenceCountryId**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/countryResidenceCountryId
 
 ***
 
-### emailURICommunication?
+### emailURICommunication? {#emailuricommunication}
 
 > `optional` **emailURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/emailURICommunication
 
 ***
 
-### familyName?
+### familyName? {#familyname}
 
 > `optional` **familyName**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/familyName
 
 ***
 
-### familyNamePrefix?
+### familyNamePrefix? {#familynameprefix}
 
 > `optional` **familyNamePrefix**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/familyNamePrefix
 
 ***
 
-### faxCommunication?
+### faxCommunication? {#faxcommunication}
 
 > `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### genderCode?
+### genderCode? {#gendercode}
 
 > `optional` **genderCode**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/genderCode
 
 ***
 
-### givenName?
+### givenName? {#givenname}
 
 > `optional` **givenName**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/givenName
 
 ***
 
-### instantMessagingCommunication?
+### instantMessagingCommunication? {#instantmessagingcommunication}
 
 > `optional` **instantMessagingCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/instantMessagingCommunication
 
 ***
 
-### middleName?
+### middleName? {#middlename}
 
 > `optional` **middleName**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/middleName
 
 ***
 
-### nameSuffix?
+### nameSuffix? {#namesuffix}
 
 > `optional` **nameSuffix**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/nameSuffix
 
 ***
 
-### role?
+### role? {#role}
 
 > `optional` **role**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/role
 
 ***
 
-### specifiedBirthAddress?
+### specifiedBirthAddress? {#specifiedbirthaddress}
 
 > `optional` **specifiedBirthAddress**: [`IUneceBirthAddress`](IUneceBirthAddress.md)
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/specifiedBirthAddress
 
 ***
 
-### specifiedCommunication?
+### specifiedCommunication? {#specifiedcommunication}
 
 > `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ***
 
-### specifiedEmployerIdentity?
+### specifiedEmployerIdentity? {#specifiedemployeridentity}
 
 > `optional` **specifiedEmployerIdentity**: [`IUneceEmployerIdentity`](IUneceEmployerIdentity.md)[]
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/specifiedEmployerIdentity
 
 ***
 
-### specifiedPersonIdentity?
+### specifiedPersonIdentity? {#specifiedpersonidentity}
 
 > `optional` **specifiedPersonIdentity**: [`IUnecePersonIdentity`](IUnecePersonIdentity.md)
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/specifiedPersonIdentity
 
 ***
 
-### specifiedTaxRegistration?
+### specifiedTaxRegistration? {#specifiedtaxregistration}
 
 > `optional` **specifiedTaxRegistration**: [`IUneceTaxRegistration`](IUneceTaxRegistration.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/specifiedTaxRegistration
 
 ***
 
-### telephoneCommunication?
+### telephoneCommunication? {#telephonecommunication}
 
 > `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ***
 
-### title?
+### title? {#title}
 
 > `optional` **title**: `string`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/title
 
 ***
 
-### websiteURICommunication?
+### websiteURICommunication? {#websiteuricommunication}
 
 > `optional` **websiteURICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 

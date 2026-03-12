@@ -8,139 +8,139 @@ Source: `documentTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### CBR
+### CBR {#cbr}
 
 > `readonly` **CBR**: `"CBR"` = `"CBR"`
 
 Carrier Booking Request.
 
-### BKG
+### BKG {#bkg}
 
 > `readonly` **BKG**: `"BKG"` = `"BKG"`
 
 Booking.
 
-### SHI
+### SHI {#shi}
 
 > `readonly` **SHI**: `"SHI"` = `"SHI"`
 
 Shipping Instruction.
 
-### TRD
+### TRD {#trd}
 
 > `readonly` **TRD**: `"TRD"` = `"TRD"`
 
 Transport Document.
 
-### DEI
+### DEI {#dei}
 
 > `readonly` **DEI**: `"DEI"` = `"DEI"`
 
 Delivery Instructions.
 
-### DEO
+### DEO {#deo}
 
 > `readonly` **DEO**: `"DEO"` = `"DEO"`
 
 Delivery Order.
 
-### TRO
+### TRO {#tro}
 
 > `readonly` **TRO**: `"TRO"` = `"TRO"`
 
 Transport Order.
 
-### CRO
+### CRO {#cro}
 
 > `readonly` **CRO**: `"CRO"` = `"CRO"`
 
 Container Release Order.
 
-### ARN
+### ARN {#arn}
 
 > `readonly` **ARN**: `"ARN"` = `"ARN"`
 
 Arrival Notice.
 
-### VGM
+### VGM {#vgm}
 
 > `readonly` **VGM**: `"VGM"` = `"VGM"`
 
 Verified Gross Mass.
 
-### CAS
+### CAS {#cas}
 
 > `readonly` **CAS**: `"CAS"` = `"CAS"`
 
 Cargo Survey.
 
-### CUC
+### CUC {#cuc}
 
 > `readonly` **CUC**: `"CUC"` = `"CUC"`
 
 Customs Clearance.
 
-### DGD
+### DGD {#dgd}
 
 > `readonly` **DGD**: `"DGD"` = `"DGD"`
 
 Dangerous Goods Declaration.
 
-### OOG
+### OOG {#oog}
 
 > `readonly` **OOG**: `"OOG"` = `"OOG"`
 
 Out of Gauge.
 
-### CQU
+### CQU {#cqu}
 
 > `readonly` **CQU**: `"CQU"` = `"CQU"`
 
 Contract Quotation.
 
-### INV
+### INV {#inv}
 
 > `readonly` **INV**: `"INV"` = `"INV"`
 
 Invoice.
 
-### HCE
+### HCE {#hce}
 
 > `readonly` **HCE**: `"HCE"` = `"HCE"`
 
 Health Certificate.
 
-### PCE
+### PCE {#pce}
 
 > `readonly` **PCE**: `"PCE"` = `"PCE"`
 
 Phytosanitary Certificate.
 
-### VCE
+### VCE {#vce}
 
 > `readonly` **VCE**: `"VCE"` = `"VCE"`
 
 Veterinary Certificate.
 
-### FCE
+### FCE {#fce}
 
 > `readonly` **FCE**: `"FCE"` = `"FCE"`
 
 Fumigation Certificate.
 
-### ICE
+### ICE {#ice}
 
 > `readonly` **ICE**: `"ICE"` = `"ICE"`
 
 Inspection Certificate.
 
-### CEA
+### CEA {#cea}
 
 > `readonly` **CEA**: `"CEA"` = `"CEA"`
 
 Certificate of Analysis.
 
-### CEO
+### CEO {#ceo}
 
 > `readonly` **CEO**: `"CEO"` = `"CEO"`
 

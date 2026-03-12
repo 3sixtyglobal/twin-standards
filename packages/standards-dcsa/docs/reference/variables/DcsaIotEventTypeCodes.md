@@ -8,7 +8,7 @@ Source: `iotEventTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### DETC
+### DETC {#detc}
 
 > `readonly` **DETC**: `"DETC"` = `"DETC"`
 

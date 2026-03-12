@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/MDHHealthIndication
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"MDHHealthIndication"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### appliedSanitaryMeasure?
+### appliedSanitaryMeasure? {#appliedsanitarymeasure}
 
 > `optional` **appliedSanitaryMeasure**: [`IUneceSanitaryMeasure`](IUneceSanitaryMeasure.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/appliedSanitaryMeasure
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### locationId?
+### locationId? {#locationid}
 
 > `optional` **locationId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/locationId
 
 ***
 
-### locationName?
+### locationName? {#locationname}
 
 > `optional` **locationName**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/locationName
 
 ***
 
-### reportedDateTime?
+### reportedDateTime? {#reporteddatetime}
 
 > `optional` **reportedDateTime**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/reportedDateTime
 
 ***
 
-### reportedQuantity?
+### reportedQuantity? {#reportedquantity}
 
 > `optional` **reportedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/reportedQuantity
 
 ***
 
-### statusIndicator?
+### statusIndicator? {#statusindicator}
 
 > `optional` **statusIndicator**: `boolean`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/statusIndicator
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

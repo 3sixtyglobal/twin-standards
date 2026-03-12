@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AcknowledgementDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AcknowledgementDocument"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acknowledgementDocumentChannelCode?
+### acknowledgementDocumentChannelCode? {#acknowledgementdocumentchannelcode}
 
 > `optional` **acknowledgementDocumentChannelCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acknowledgementDocumentChannelCode
 
 ***
 
-### acknowledgementDocumentReasonInformation?
+### acknowledgementDocumentReasonInformation? {#acknowledgementdocumentreasoninformation}
 
 > `optional` **acknowledgementDocumentReasonInformation**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/acknowledgementDocumentReasonInformation
 
 ***
 
-### acknowledgementDocumentStatusCode?
+### acknowledgementDocumentStatusCode? {#acknowledgementdocumentstatuscode}
 
 > `optional` **acknowledgementDocumentStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/acknowledgementDocumentStatusCode
 
 ***
 
-### acknowledgementStatusCode?
+### acknowledgementStatusCode? {#acknowledgementstatuscode}
 
 > `optional` **acknowledgementStatusCode**: [`UneceAcknowledgementCodeList`](../type-aliases/UneceAcknowledgementCodeList.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/acknowledgementStatusCode
 
 ***
 
-### channelCode?
+### channelCode? {#channelcode}
 
 > `optional` **channelCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/channelCode
 
 ***
 
-### controlRequirementIndicator?
+### controlRequirementIndicator? {#controlrequirementindicator}
 
 > `optional` **controlRequirementIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/controlRequirementIndicator
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### documentTypeCode?
+### documentTypeCode? {#documenttypecode}
 
 > `optional` **documentTypeCode**: [`UneceDocumentCodeList`](../type-aliases/UneceDocumentCodeList.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/documentTypeCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### itemIdentificationId?
+### itemIdentificationId? {#itemidentificationid}
 
 > `optional` **itemIdentificationId**: `string` \| `IJsonLdValueObject`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/itemIdentificationId
 
 ***
 
-### multipleReferencesIndicator?
+### multipleReferencesIndicator? {#multiplereferencesindicator}
 
 > `optional` **multipleReferencesIndicator**: `boolean`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/multipleReferencesIndicator
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### processCondition?
+### processCondition? {#processcondition}
 
 > `optional` **processCondition**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/processCondition
 
 ***
 
-### processConditionCode?
+### processConditionCode? {#processconditioncode}
 
 > `optional` **processConditionCode**: `string`
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/processConditionCode
 
 ***
 
-### referenceDocument?
+### referenceDocument? {#referencedocument}
 
 > `optional` **referenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/referenceDocument
 
 ***
 
-### reportReceiptDateTime?
+### reportReceiptDateTime? {#reportreceiptdatetime}
 
 > `optional` **reportReceiptDateTime**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/reportReceiptDateTime
 
 ***
 
-### reportSubmissionDateTime?
+### reportSubmissionDateTime? {#reportsubmissiondatetime}
 
 > `optional` **reportSubmissionDateTime**: `string`
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/reportSubmissionDateTime
 
 ***
 
-### status?
+### status? {#status}
 
 > `optional` **status**: `string`
 

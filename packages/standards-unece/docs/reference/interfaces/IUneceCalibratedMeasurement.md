@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CalibratedMeasurement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CalibratedMeasurement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### quantificationTypeCode?
+### quantificationTypeCode? {#quantificationtypecode}
 
 > `optional` **quantificationTypeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/quantificationTypeCode
 
 ***
 
-### toleranceMeasure?
+### toleranceMeasure? {#tolerancemeasure}
 
 > `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/toleranceMeasure
 
 ***
 
-### tolerancePercent?
+### tolerancePercent? {#tolerancepercent}
 
 > `optional` **tolerancePercent**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/tolerancePercent
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### valueCode?
+### valueCode? {#valuecode}
 
 > `optional` **valueCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/valueCode
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

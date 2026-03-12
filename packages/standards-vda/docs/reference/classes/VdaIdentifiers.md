@@ -14,7 +14,7 @@ Handle all identifier types for VDA.
 
 ## Methods
 
-### registerIdentifiers()
+### registerIdentifiers() {#registeridentifiers}
 
 > `static` **registerIdentifiers**(): `void`
 

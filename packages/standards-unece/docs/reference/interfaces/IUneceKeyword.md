@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Keyword
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Keyword"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

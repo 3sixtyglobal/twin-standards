@@ -6,7 +6,7 @@ Values for UneceBasicWorkItem typeCode property.
 
 ## Type Declaration
 
-### ItemBasicWorkItem
+### ItemBasicWorkItem {#itembasicworkitem}
 
 > `readonly` **ItemBasicWorkItem**: `"unece:itemBasicWorkItem"` = `"unece:itemBasicWorkItem"`
 

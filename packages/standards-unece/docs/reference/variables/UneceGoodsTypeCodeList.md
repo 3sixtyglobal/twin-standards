@@ -6,7 +6,7 @@ A character string used to represent a type of goods.
 
 ## Type Declaration
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:GoodsTypeCodeList#ZZZ"` = `"unece:GoodsTypeCodeList#ZZZ"`
 

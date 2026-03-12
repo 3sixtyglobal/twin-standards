@@ -6,7 +6,7 @@ Values for UneceCountrySubDivision typeCode property.
 
 ## Type Declaration
 
-### SubordinateCountrySubDivision
+### SubordinateCountrySubDivision {#subordinatecountrysubdivision}
 
 > `readonly` **SubordinateCountrySubDivision**: `"unece:subordinateCountrySubDivision"` = `"unece:subordinateCountrySubDivision"`
 
@@ -17,7 +17,7 @@ A trade country sub-division that is subordinate to this trade country, such as 
 
 https://vocabulary.uncefact.org/subordinateCountrySubDivision
 
-### SuperordinateCountrySubDivision
+### SuperordinateCountrySubDivision {#superordinatecountrysubdivision}
 
 > `readonly` **SuperordinateCountrySubDivision**: `"unece:superordinateCountrySubDivision"` = `"unece:superordinateCountrySubDivision"`
 

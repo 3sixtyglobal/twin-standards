@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProprietaryIdentity
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProprietaryIdentity"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identificationType?
+### identificationType? {#identificationtype}
 
 > `optional` **identificationType**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identificationType
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 

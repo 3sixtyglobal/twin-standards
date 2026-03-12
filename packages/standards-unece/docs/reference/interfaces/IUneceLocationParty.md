@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LocationParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LocationParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### countryId?
+### countryId? {#countryid}
 
 > `optional` **countryId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/countryId
 
 ***
 
-### definedContact?
+### definedContact? {#definedcontact}
 
 > `optional` **definedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/definedContact
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### faxCommunication?
+### faxCommunication? {#faxcommunication}
 
 > `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationPartyRoleCode?
+### locationPartyRoleCode? {#locationpartyrolecode}
 
 > `optional` **locationPartyRoleCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/locationPartyRoleCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### providedService?
+### providedService? {#providedservice}
 
 > `optional` **providedService**: [`IUneceService`](IUneceService.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/providedService
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### specifiedTransportPerson?
+### specifiedTransportPerson? {#specifiedtransportperson}
 
 > `optional` **specifiedTransportPerson**: [`IUneceTransportPerson`](IUneceTransportPerson.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/specifiedTransportPerson
 
 ***
 
-### telephoneCommunication?
+### telephoneCommunication? {#telephonecommunication}
 
 > `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/telephoneCommunication
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### uRICommunication?
+### uRICommunication? {#uricommunication}
 
 > `optional` **uRICommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
 

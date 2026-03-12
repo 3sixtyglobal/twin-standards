@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/XHEDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"XHEDocument"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### creationDateTime
+### creationDateTime {#creationdatetime}
 
 > **creationDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### recipientXHEParty
+### recipientXHEParty {#recipientxheparty}
 
 > **recipientXHEParty**: [`IUneceXHEParty`](IUneceXHEParty.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/recipientXHEParty
 
 ***
 
-### scopeContext?
+### scopeContext? {#scopecontext}
 
 > `optional` **scopeContext**: [`IUneceXHEContext`](IUneceXHEContext.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/scopeContext
 
 ***
 
-### senderXHEParty?
+### senderXHEParty? {#senderxheparty}
 
 > `optional` **senderXHEParty**: [`IUneceXHEParty`](IUneceXHEParty.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/senderXHEParty
 
 ***
 
-### testIndicator?
+### testIndicator? {#testindicator}
 
 > `optional` **testIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ***
 
-### uUIDId?
+### uUIDId? {#uuidid}
 
 > `optional` **uUIDId**: `string` \| `IJsonLdValueObject`
 

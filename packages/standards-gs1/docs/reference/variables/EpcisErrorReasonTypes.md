@@ -6,14 +6,14 @@ Supported EPCIS 2.0 `error-reason` values from the GS1 EPCIS JSON Schema.
 
 ## Type Declaration
 
-### DidNotOccur
+### DidNotOccur {#didnotoccur}
 
 > `readonly` **DidNotOccur**: `"did_not_occur"` = `"did_not_occur"`
 
 Prior event is erroneous because it did not actually occur; no corrective
 events exist.
 
-### IncorrectData
+### IncorrectData {#incorrectdata}
 
 > `readonly` **IncorrectData**: `"incorrect_data"` = `"incorrect_data"`
 

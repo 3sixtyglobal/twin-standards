@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedParameter
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedParameter"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### parameterType?
+### parameterType? {#parametertype}
 
 > `optional` **parameterType**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/parameterType
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### statusValueMeasure?
+### statusValueMeasure? {#statusvaluemeasure}
 
 > `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/statusValueMeasure
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAllowedIndicator?
+### valueAllowedIndicator? {#valueallowedindicator}
 
 > `optional` **valueAllowedIndicator**: `boolean`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### valueTolerance?
+### valueTolerance? {#valuetolerance}
 
 > `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 

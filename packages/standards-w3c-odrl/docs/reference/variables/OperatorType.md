@@ -6,85 +6,85 @@ The types for ODRL Operators.
 
 ## Type Declaration
 
-### Eq
+### Eq {#eq}
 
 > `readonly` **Eq**: `"eq"` = `"eq"`
 
 Equal type.
 
-### Gt
+### Gt {#gt}
 
 > `readonly` **Gt**: `"gt"` = `"gt"`
 
 Greater than type.
 
-### Gteq
+### Gteq {#gteq}
 
 > `readonly` **Gteq**: `"gteq"` = `"gteq"`
 
 Greater than or equal to type.
 
-### Lt
+### Lt {#lt}
 
 > `readonly` **Lt**: `"lt"` = `"lt"`
 
 Less than type.
 
-### Lteq
+### Lteq {#lteq}
 
 > `readonly` **Lteq**: `"lteq"` = `"lteq"`
 
 Less than or equal to type.
 
-### Neq
+### Neq {#neq}
 
 > `readonly` **Neq**: `"neq"` = `"neq"`
 
 Not equal to type.
 
-### IsA
+### IsA {#isa}
 
 > `readonly` **IsA**: `"isA"` = `"isA"`
 
 Is a type.
 
-### HasPart
+### HasPart {#haspart}
 
 > `readonly` **HasPart**: `"hasPart"` = `"hasPart"`
 
 Has part type.
 
-### IsPartOf
+### IsPartOf {#ispartof}
 
 > `readonly` **IsPartOf**: `"isPartOf"` = `"isPartOf"`
 
 Is part of type.
 
-### IsAllOf
+### IsAllOf {#isallof}
 
 > `readonly` **IsAllOf**: `"isAllOf"` = `"isAllOf"`
 
 Is all of type.
 
-### IsAnyOf
+### IsAnyOf {#isanyof}
 
 > `readonly` **IsAnyOf**: `"isAnyOf"` = `"isAnyOf"`
 
 Is any of type.
 
-### IsNoneOf
+### IsNoneOf {#isnoneof}
 
 > `readonly` **IsNoneOf**: `"isNoneOf"` = `"isNoneOf"`
 
 Is none of type.
 
-### LocTimeEq
+### LocTimeEq {#loctimeeq}
 
 > `readonly` **LocTimeEq**: `"locTimeEq"` = `"locTimeEq"`
 
 Location time equal to type.
 
-### LocTimeGteq
+### LocTimeGteq {#loctimegteq}
 
 > `readonly` **LocTimeGteq**: `"locTimeGteq"` = `"locTimeGteq"`
 

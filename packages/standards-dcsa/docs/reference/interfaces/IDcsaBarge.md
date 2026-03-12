@@ -12,7 +12,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -20,7 +20,7 @@ Barge name.
 
 ***
 
-### vesselIMONumber?
+### vesselIMONumber? {#vesselimonumber}
 
 > `optional` **vesselIMONumber**: `string`
 
@@ -28,7 +28,7 @@ Barge IMO number (when available).
 
 ***
 
-### flag?
+### flag? {#flag}
 
 > `optional` **flag**: `string`
 
@@ -36,7 +36,7 @@ Barge flag.
 
 ***
 
-### callSign?
+### callSign? {#callsign}
 
 > `optional` **callSign**: `string`
 
@@ -44,7 +44,7 @@ Barge call sign.
 
 ***
 
-### operatorCarrierCode?
+### operatorCarrierCode? {#operatorcarriercode}
 
 > `optional` **operatorCarrierCode**: `string`
 
@@ -52,7 +52,7 @@ Carrier code of the barge operator.
 
 ***
 
-### operatorCarrierCodeListProvider?
+### operatorCarrierCodeListProvider? {#operatorcarriercodelistprovider}
 
 > `optional` **operatorCarrierCodeListProvider**: `string`
 

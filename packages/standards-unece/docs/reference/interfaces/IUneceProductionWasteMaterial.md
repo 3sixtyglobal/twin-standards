@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductionWasteMaterial
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductionWasteMaterial"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProductCertificate?
+### applicableProductCertificate? {#applicableproductcertificate}
 
 > `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ***
 
-### applicableProductionWasteRecoveryDisposalProcess?
+### applicableProductionWasteRecoveryDisposalProcess? {#applicableproductionwasterecoverydisposalprocess}
 
 > `optional` **applicableProductionWasteRecoveryDisposalProcess**: [`IUneceProductionWasteRecoveryDisposalProcess`](IUneceProductionWasteRecoveryDisposalProcess.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableProductionWasteRecoveryDisposalProcess
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### includedProductionWasteMaterialComponent?
+### includedProductionWasteMaterialComponent? {#includedproductionwastematerialcomponent}
 
 > `optional` **includedProductionWasteMaterialComponent**: [`IUneceProductionWasteMaterialComponent`](IUneceProductionWasteMaterialComponent.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/includedProductionWasteMaterialComponent
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### volumeMeasure?
+### volumeMeasure? {#volumemeasure}
 
 > `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ***
 
-### weightMeasure?
+### weightMeasure? {#weightmeasure}
 
 > `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 

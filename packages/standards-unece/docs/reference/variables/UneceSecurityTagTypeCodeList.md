@@ -6,7 +6,7 @@ Values for UneceSecurityTag typeCode property.
 
 ## Type Declaration
 
-### AttachedSecurityTag
+### AttachedSecurityTag {#attachedsecuritytag}
 
 > `readonly` **AttachedSecurityTag**: `"unece:attachedSecurityTag"` = `"unece:attachedSecurityTag"`
 

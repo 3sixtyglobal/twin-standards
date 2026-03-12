@@ -6,7 +6,7 @@ Values for UneceObject typeCode property.
 
 ## Type Declaration
 
-### AssessedObject
+### AssessedObject {#assessedobject}
 
 > `readonly` **AssessedObject**: `"unece:assessedObject"` = `"unece:assessedObject"`
 
@@ -16,7 +16,7 @@ An object assessed for this specified assessment.
 
 https://vocabulary.uncefact.org/assessedObject
 
-### CertifiedObject
+### CertifiedObject {#certifiedobject}
 
 > `readonly` **CertifiedObject**: `"unece:certifiedObject"` = `"unece:certifiedObject"`
 
@@ -26,7 +26,7 @@ An object certified by this specified certificate.
 
 https://vocabulary.uncefact.org/certifiedObject
 
-### VerifiedObject
+### VerifiedObject {#verifiedobject}
 
 > `readonly` **VerifiedObject**: `"unece:verifiedObject"` = `"unece:verifiedObject"`
 

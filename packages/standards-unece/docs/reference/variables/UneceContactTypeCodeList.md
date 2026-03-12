@@ -6,625 +6,625 @@ A character string used to represent a contact type.
 
 ## Type Declaration
 
-### InsuranceContact
+### InsuranceContact {#insurancecontact}
 
 > `readonly` **InsuranceContact**: `"unece:ContactTypeCodeList#AA"` = `"unece:ContactTypeCodeList#AA"`
 
 Insurance contact: AA.
 
-### WorkshopContact
+### WorkshopContact {#workshopcontact}
 
 > `readonly` **WorkshopContact**: `"unece:ContactTypeCodeList#AB"` = `"unece:ContactTypeCodeList#AB"`
 
 Workshop contact: AB.
 
-### AcceptingContact
+### AcceptingContact {#acceptingcontact}
 
 > `readonly` **AcceptingContact**: `"unece:ContactTypeCodeList#AC"` = `"unece:ContactTypeCodeList#AC"`
 
 Accepting contact: AC.
 
-### AccountingContact
+### AccountingContact {#accountingcontact}
 
 > `readonly` **AccountingContact**: `"unece:ContactTypeCodeList#AD"` = `"unece:ContactTypeCodeList#AD"`
 
 Accounting contact: AD.
 
-### ContractContact
+### ContractContact {#contractcontact}
 
 > `readonly` **ContractContact**: `"unece:ContactTypeCodeList#AE"` = `"unece:ContactTypeCodeList#AE"`
 
 Contract contact: AE.
 
-### LandRegistryContact
+### LandRegistryContact {#landregistrycontact}
 
 > `readonly` **LandRegistryContact**: `"unece:ContactTypeCodeList#AF"` = `"unece:ContactTypeCodeList#AF"`
 
 Land registry contact: AF.
 
-### Agent
+### Agent {#agent}
 
 > `readonly` **Agent**: `"unece:ContactTypeCodeList#AG"` = `"unece:ContactTypeCodeList#AG"`
 
 Agent: AG.
 
-### CoordinationContact
+### CoordinationContact {#coordinationcontact}
 
 > `readonly` **CoordinationContact**: `"unece:ContactTypeCodeList#AH"` = `"unece:ContactTypeCodeList#AH"`
 
 Coordination contact: AH.
 
-### ProjectManagementContact
+### ProjectManagementContact {#projectmanagementcontact}
 
 > `readonly` **ProjectManagementContact**: `"unece:ContactTypeCodeList#AI"` = `"unece:ContactTypeCodeList#AI"`
 
 Project management contact: AI.
 
-### InvestmentContact
+### InvestmentContact {#investmentcontact}
 
 > `readonly` **InvestmentContact**: `"unece:ContactTypeCodeList#AJ"` = `"unece:ContactTypeCodeList#AJ"`
 
 Investment contact: AJ.
 
-### WorksManagementContact
+### WorksManagementContact {#worksmanagementcontact}
 
 > `readonly` **WorksManagementContact**: `"unece:ContactTypeCodeList#AK"` = `"unece:ContactTypeCodeList#AK"`
 
 Works management contact: AK.
 
-### PersonnelContact
+### PersonnelContact {#personnelcontact}
 
 > `readonly` **PersonnelContact**: `"unece:ContactTypeCodeList#AL"` = `"unece:ContactTypeCodeList#AL"`
 
 Personnel contact: AL.
 
-### ClaimsContact
+### ClaimsContact {#claimscontact}
 
 > `readonly` **ClaimsContact**: `"unece:ContactTypeCodeList#AM"` = `"unece:ContactTypeCodeList#AM"`
 
 Claims contact: AM.
 
-### LaboratoryContact
+### LaboratoryContact {#laboratorycontact}
 
 > `readonly` **LaboratoryContact**: `"unece:ContactTypeCodeList#AN"` = `"unece:ContactTypeCodeList#AN"`
 
 Laboratory contact: AN.
 
-### PlantEquipmentContact
+### PlantEquipmentContact {#plantequipmentcontact}
 
 > `readonly` **PlantEquipmentContact**: `"unece:ContactTypeCodeList#AO"` = `"unece:ContactTypeCodeList#AO"`
 
 Plant/equipment contact: AO.
 
-### AccountsPayableContact
+### AccountsPayableContact {#accountspayablecontact}
 
 > `readonly` **AccountsPayableContact**: `"unece:ContactTypeCodeList#AP"` = `"unece:ContactTypeCodeList#AP"`
 
 Accounts payable contact: AP.
 
-### QuantitySurveyorContact
+### QuantitySurveyorContact {#quantitysurveyorcontact}
 
 > `readonly` **QuantitySurveyorContact**: `"unece:ContactTypeCodeList#AQ"` = `"unece:ContactTypeCodeList#AQ"`
 
 Quantity surveyor contact: AQ.
 
-### AccountsReceivableContact
+### AccountsReceivableContact {#accountsreceivablecontact}
 
 > `readonly` **AccountsReceivableContact**: `"unece:ContactTypeCodeList#AR"` = `"unece:ContactTypeCodeList#AR"`
 
 Accounts receivable contact: AR.
 
-### PublicRelationsContact
+### PublicRelationsContact {#publicrelationscontact}
 
 > `readonly` **PublicRelationsContact**: `"unece:ContactTypeCodeList#AS"` = `"unece:ContactTypeCodeList#AS"`
 
 Public relations contact: AS.
 
-### TechnicalContact
+### TechnicalContact {#technicalcontact}
 
 > `readonly` **TechnicalContact**: `"unece:ContactTypeCodeList#AT"` = `"unece:ContactTypeCodeList#AT"`
 
 Technical contact: AT.
 
-### CityWorksAuthorityContact
+### CityWorksAuthorityContact {#cityworksauthoritycontact}
 
 > `readonly` **CityWorksAuthorityContact**: `"unece:ContactTypeCodeList#AU"` = `"unece:ContactTypeCodeList#AU"`
 
 City works authority contact: AU.
 
-### MaintenanceContact
+### MaintenanceContact {#maintenancecontact}
 
 > `readonly` **MaintenanceContact**: `"unece:ContactTypeCodeList#AV"` = `"unece:ContactTypeCodeList#AV"`
 
 Maintenance contact: AV.
 
-### TownPlanningContact
+### TownPlanningContact {#townplanningcontact}
 
 > `readonly` **TownPlanningContact**: `"unece:ContactTypeCodeList#AW"` = `"unece:ContactTypeCodeList#AW"`
 
 Town planning contact: AW.
 
-### TrafficAuthorityContact
+### TrafficAuthorityContact {#trafficauthoritycontact}
 
 > `readonly` **TrafficAuthorityContact**: `"unece:ContactTypeCodeList#AX"` = `"unece:ContactTypeCodeList#AX"`
 
 Traffic authority contact: AX.
 
-### ElectricitySupplyContact
+### ElectricitySupplyContact {#electricitysupplycontact}
 
 > `readonly` **ElectricitySupplyContact**: `"unece:ContactTypeCodeList#AY"` = `"unece:ContactTypeCodeList#AY"`
 
 Electricity supply contact: AY.
 
-### GasSupplyContact
+### GasSupplyContact {#gassupplycontact}
 
 > `readonly` **GasSupplyContact**: `"unece:ContactTypeCodeList#AZ"` = `"unece:ContactTypeCodeList#AZ"`
 
 Gas supply contact: AZ.
 
-### WaterSupplyContact
+### WaterSupplyContact {#watersupplycontact}
 
 > `readonly` **WaterSupplyContact**: `"unece:ContactTypeCodeList#BA"` = `"unece:ContactTypeCodeList#BA"`
 
 Water supply contact: BA.
 
-### TelecommunicationsNetworkContact
+### TelecommunicationsNetworkContact {#telecommunicationsnetworkcontact}
 
 > `readonly` **TelecommunicationsNetworkContact**: `"unece:ContactTypeCodeList#BB"` = `"unece:ContactTypeCodeList#BB"`
 
 Telecommunications network contact: BB.
 
-### BankingContact
+### BankingContact {#bankingcontact}
 
 > `readonly` **BankingContact**: `"unece:ContactTypeCodeList#BC"` = `"unece:ContactTypeCodeList#BC"`
 
 Banking contact: BC.
 
-### NewDevelopmentsContact
+### NewDevelopmentsContact {#newdevelopmentscontact}
 
 > `readonly` **NewDevelopmentsContact**: `"unece:ContactTypeCodeList#BD"` = `"unece:ContactTypeCodeList#BD"`
 
 New developments contact: BD.
 
-### TransportInfrastructureAuthority
+### TransportInfrastructureAuthority {#transportinfrastructureauthority}
 
 > `readonly` **TransportInfrastructureAuthority**: `"unece:ContactTypeCodeList#BE"` = `"unece:ContactTypeCodeList#BE"`
 
 Transport infrastructure authority: BE.
 
-### ServiceContact
+### ServiceContact {#servicecontact}
 
 > `readonly` **ServiceContact**: `"unece:ContactTypeCodeList#BF"` = `"unece:ContactTypeCodeList#BF"`
 
 Service contact: BF.
 
-### AuditingContact
+### AuditingContact {#auditingcontact}
 
 > `readonly` **AuditingContact**: `"unece:ContactTypeCodeList#BG"` = `"unece:ContactTypeCodeList#BG"`
 
 Auditing contact: BG.
 
-### LegalAuditingContact
+### LegalAuditingContact {#legalauditingcontact}
 
 > `readonly` **LegalAuditingContact**: `"unece:ContactTypeCodeList#BH"` = `"unece:ContactTypeCodeList#BH"`
 
 Legal auditing contact: BH.
 
-### SoftwareHouseContact
+### SoftwareHouseContact {#softwarehousecontact}
 
 > `readonly` **SoftwareHouseContact**: `"unece:ContactTypeCodeList#BI"` = `"unece:ContactTypeCodeList#BI"`
 
 Software house contact: BI.
 
-### DepartmentOrPersonResponsibleForProcessingPurchaseOrder
+### DepartmentOrPersonResponsibleForProcessingPurchaseOrder {#departmentorpersonresponsibleforprocessingpurchaseorder}
 
 > `readonly` **DepartmentOrPersonResponsibleForProcessingPurchaseOrder**: `"unece:ContactTypeCodeList#BJ"` = `"unece:ContactTypeCodeList#BJ"`
 
 Department or person responsible for processing purchase order: BJ.
 
-### ElectronicDataInterchangeCoordinator
+### ElectronicDataInterchangeCoordinator {#electronicdatainterchangecoordinator}
 
 > `readonly` **ElectronicDataInterchangeCoordinator**: `"unece:ContactTypeCodeList#BK"` = `"unece:ContactTypeCodeList#BK"`
 
 Electronic data interchange coordinator: BK.
 
-### WaiverContact
+### WaiverContact {#waivercontact}
 
 > `readonly` **WaiverContact**: `"unece:ContactTypeCodeList#BL"` = `"unece:ContactTypeCodeList#BL"`
 
 Waiver contact: BL.
 
-### AutomatedClearingHouseContact
+### AutomatedClearingHouseContact {#automatedclearinghousecontact}
 
 > `readonly` **AutomatedClearingHouseContact**: `"unece:ContactTypeCodeList#BM"` = `"unece:ContactTypeCodeList#BM"`
 
 Automated clearing house (ACH) contact: BM.
 
-### CertificationContact
+### CertificationContact {#certificationcontact}
 
 > `readonly` **CertificationContact**: `"unece:ContactTypeCodeList#BN"` = `"unece:ContactTypeCodeList#BN"`
 
 Certification contact: BN.
 
-### AfterBusinessHoursContact
+### AfterBusinessHoursContact {#afterbusinesshourscontact}
 
 > `readonly` **AfterBusinessHoursContact**: `"unece:ContactTypeCodeList#BO"` = `"unece:ContactTypeCodeList#BO"`
 
 After business hours contact: BO.
 
-### CompanySecurityOfficers24HourContact
+### CompanySecurityOfficers24HourContact {#companysecurityofficers24hourcontact}
 
 > `readonly` **CompanySecurityOfficers24HourContact**: `"unece:ContactTypeCodeList#BP"` = `"unece:ContactTypeCodeList#BP"`
 
 Company Security Officer’s 24-hour contact: BP.
 
-### AgentOfShipAtTheIntendedPortOfArrival
+### AgentOfShipAtTheIntendedPortOfArrival {#agentofshipattheintendedportofarrival}
 
 > `readonly` **AgentOfShipAtTheIntendedPortOfArrival**: `"unece:ContactTypeCodeList#BQ"` = `"unece:ContactTypeCodeList#BQ"`
 
 Agent of ship at the intended port of arrival: BQ.
 
-### Cook
+### Cook {#cook}
 
 > `readonly` **Cook**: `"unece:ContactTypeCodeList#BR"` = `"unece:ContactTypeCodeList#BR"`
 
 Cook: BR.
 
-### CustomerContact
+### CustomerContact {#customercontact}
 
 > `readonly` **CustomerContact**: `"unece:ContactTypeCodeList#BS"` = `"unece:ContactTypeCodeList#BS"`
 
 Customer contact: BS.
 
-### MeterAccessContact
+### MeterAccessContact {#meteraccesscontact}
 
 > `readonly` **MeterAccessContact**: `"unece:ContactTypeCodeList#BT"` = `"unece:ContactTypeCodeList#BT"`
 
 Meter access contact: BT.
 
-### UltimateConsignee
+### UltimateConsignee {#ultimateconsignee}
 
 > `readonly` **UltimateConsignee**: `"unece:ContactTypeCodeList#BU"` = `"unece:ContactTypeCodeList#BU"`
 
 Ultimate consignee: BU.
 
-### Carrier
+### Carrier {#carrier}
 
 > `readonly` **Carrier**: `"unece:ContactTypeCodeList#CA"` = `"unece:ContactTypeCodeList#CA"`
 
 Carrier: CA.
 
-### ChangedBy
+### ChangedBy {#changedby}
 
 > `readonly` **ChangedBy**: `"unece:ContactTypeCodeList#CB"` = `"unece:ContactTypeCodeList#CB"`
 
 Changed by: CB.
 
-### ResponsiblePersonForInformationProduction
+### ResponsiblePersonForInformationProduction {#responsiblepersonforinformationproduction}
 
 > `readonly` **ResponsiblePersonForInformationProduction**: `"unece:ContactTypeCodeList#CC"` = `"unece:ContactTypeCodeList#CC"`
 
 Responsible person for information production: CC.
 
-### ResponsiblePersonForInformationDissemination
+### ResponsiblePersonForInformationDissemination {#responsiblepersonforinformationdissemination}
 
 > `readonly` **ResponsiblePersonForInformationDissemination**: `"unece:ContactTypeCodeList#CD"` = `"unece:ContactTypeCodeList#CD"`
 
 Responsible person for information dissemination: CD.
 
-### HeadOfUnitForComputerDataProcessing
+### HeadOfUnitForComputerDataProcessing {#headofunitforcomputerdataprocessing}
 
 > `readonly` **HeadOfUnitForComputerDataProcessing**: `"unece:ContactTypeCodeList#CE"` = `"unece:ContactTypeCodeList#CE"`
 
 Head of unit for computer data processing: CE.
 
-### HeadOfUnitForInformationProduction
+### HeadOfUnitForInformationProduction {#headofunitforinformationproduction}
 
 > `readonly` **HeadOfUnitForInformationProduction**: `"unece:ContactTypeCodeList#CF"` = `"unece:ContactTypeCodeList#CF"`
 
 Head of unit for information production: CF.
 
-### HeadOfUnitForInformationDissemination
+### HeadOfUnitForInformationDissemination {#headofunitforinformationdissemination}
 
 > `readonly` **HeadOfUnitForInformationDissemination**: `"unece:ContactTypeCodeList#CG"` = `"unece:ContactTypeCodeList#CG"`
 
 Head of unit for information dissemination: CG.
 
-### Consignee
+### Consignee {#consignee}
 
 > `readonly` **Consignee**: `"unece:ContactTypeCodeList#CN"` = `"unece:ContactTypeCodeList#CN"`
 
 Consignee: CN.
 
-### Consignor
+### Consignor {#consignor}
 
 > `readonly` **Consignor**: `"unece:ContactTypeCodeList#CO"` = `"unece:ContactTypeCodeList#CO"`
 
 Consignor: CO.
 
-### ResponsiblePersonForComputerDataProcessing
+### ResponsiblePersonForComputerDataProcessing {#responsiblepersonforcomputerdataprocessing}
 
 > `readonly` **ResponsiblePersonForComputerDataProcessing**: `"unece:ContactTypeCodeList#CP"` = `"unece:ContactTypeCodeList#CP"`
 
 Responsible person for computer data processing: CP.
 
-### CustomerRelations
+### CustomerRelations {#customerrelations}
 
 > `readonly` **CustomerRelations**: `"unece:ContactTypeCodeList#CR"` = `"unece:ContactTypeCodeList#CR"`
 
 Customer relations: CR.
 
-### ConfirmedWith
+### ConfirmedWith {#confirmedwith}
 
 > `readonly` **ConfirmedWith**: `"unece:ContactTypeCodeList#CW"` = `"unece:ContactTypeCodeList#CW"`
 
 Confirmed with: CW.
 
-### DepartmentEmployeeToExecuteExportProcedures
+### DepartmentEmployeeToExecuteExportProcedures {#departmentemployeetoexecuteexportprocedures}
 
 > `readonly` **DepartmentEmployeeToExecuteExportProcedures**: `"unece:ContactTypeCodeList#DE"` = `"unece:ContactTypeCodeList#DE"`
 
 Department/employee to execute export procedures: DE.
 
-### DepartmentEmployeeToExecuteImportProcedures
+### DepartmentEmployeeToExecuteImportProcedures {#departmentemployeetoexecuteimportprocedures}
 
 > `readonly` **DepartmentEmployeeToExecuteImportProcedures**: `"unece:ContactTypeCodeList#DI"` = `"unece:ContactTypeCodeList#DI"`
 
 Department/employee to execute import procedures: DI.
 
-### DeliveryContact
+### DeliveryContact {#deliverycontact}
 
 > `readonly` **DeliveryContact**: `"unece:ContactTypeCodeList#DL"` = `"unece:ContactTypeCodeList#DL"`
 
 Delivery contact: DL.
 
-### EnteredBy
+### EnteredBy {#enteredby}
 
 > `readonly` **EnteredBy**: `"unece:ContactTypeCodeList#EB"` = `"unece:ContactTypeCodeList#EB"`
 
 Entered by: EB.
 
-### EducationCoordinator
+### EducationCoordinator {#educationcoordinator}
 
 > `readonly` **EducationCoordinator**: `"unece:ContactTypeCodeList#EC"` = `"unece:ContactTypeCodeList#EC"`
 
 Education coordinator: EC.
 
-### EngineeringContact
+### EngineeringContact {#engineeringcontact}
 
 > `readonly` **EngineeringContact**: `"unece:ContactTypeCodeList#ED"` = `"unece:ContactTypeCodeList#ED"`
 
 Engineering contact: ED.
 
-### Expeditor
+### Expeditor {#expeditor}
 
 > `readonly` **Expeditor**: `"unece:ContactTypeCodeList#EX"` = `"unece:ContactTypeCodeList#EX"`
 
 Expeditor: EX.
 
-### GoodsReceivingContact
+### GoodsReceivingContact {#goodsreceivingcontact}
 
 > `readonly` **GoodsReceivingContact**: `"unece:ContactTypeCodeList#GR"` = `"unece:ContactTypeCodeList#GR"`
 
 Goods receiving contact: GR.
 
-### EmergencyDangerousGoodsContact
+### EmergencyDangerousGoodsContact {#emergencydangerousgoodscontact}
 
 > `readonly` **EmergencyDangerousGoodsContact**: `"unece:ContactTypeCodeList#HE"` = `"unece:ContactTypeCodeList#HE"`
 
 Emergency dangerous goods contact: HE.
 
-### DangerousGoodsContact
+### DangerousGoodsContact {#dangerousgoodscontact}
 
 > `readonly` **DangerousGoodsContact**: `"unece:ContactTypeCodeList#HG"` = `"unece:ContactTypeCodeList#HG"`
 
 Dangerous goods contact: HG.
 
-### HazardousMaterialContact
+### HazardousMaterialContact {#hazardousmaterialcontact}
 
 > `readonly` **HazardousMaterialContact**: `"unece:ContactTypeCodeList#HM"` = `"unece:ContactTypeCodeList#HM"`
 
 Hazardous material contact: HM.
 
-### InformationContact
+### InformationContact {#informationcontact}
 
 > `readonly` **InformationContact**: `"unece:ContactTypeCodeList#IC"` = `"unece:ContactTypeCodeList#IC"`
 
 Information contact: IC.
 
-### InsurerContact
+### InsurerContact {#insurercontact}
 
 > `readonly` **InsurerContact**: `"unece:ContactTypeCodeList#IN"` = `"unece:ContactTypeCodeList#IN"`
 
 Insurer contact: IN.
 
-### PlaceOfDeliveryContact
+### PlaceOfDeliveryContact {#placeofdeliverycontact}
 
 > `readonly` **PlaceOfDeliveryContact**: `"unece:ContactTypeCodeList#LB"` = `"unece:ContactTypeCodeList#LB"`
 
 Place of delivery contact: LB.
 
-### PlaceOfCollectionContact
+### PlaceOfCollectionContact {#placeofcollectioncontact}
 
 > `readonly` **PlaceOfCollectionContact**: `"unece:ContactTypeCodeList#LO"` = `"unece:ContactTypeCodeList#LO"`
 
 Place of collection contact: LO.
 
-### MaterialControlContact
+### MaterialControlContact {#materialcontrolcontact}
 
 > `readonly` **MaterialControlContact**: `"unece:ContactTypeCodeList#MC"` = `"unece:ContactTypeCodeList#MC"`
 
 Material control contact: MC.
 
-### MaterialDispositionContact
+### MaterialDispositionContact {#materialdispositioncontact}
 
 > `readonly` **MaterialDispositionContact**: `"unece:ContactTypeCodeList#MD"` = `"unece:ContactTypeCodeList#MD"`
 
 Material disposition contact: MD.
 
-### MaterialHandlingContact
+### MaterialHandlingContact {#materialhandlingcontact}
 
 > `readonly` **MaterialHandlingContact**: `"unece:ContactTypeCodeList#MH"` = `"unece:ContactTypeCodeList#MH"`
 
 Material handling contact: MH.
 
-### MessageRecipientContact
+### MessageRecipientContact {#messagerecipientcontact}
 
 > `readonly` **MessageRecipientContact**: `"unece:ContactTypeCodeList#MR"` = `"unece:ContactTypeCodeList#MR"`
 
 Message recipient contact: MR.
 
-### MessageSenderContact
+### MessageSenderContact {#messagesendercontact}
 
 > `readonly` **MessageSenderContact**: `"unece:ContactTypeCodeList#MS"` = `"unece:ContactTypeCodeList#MS"`
 
 Message sender contact: MS.
 
-### NotificationContact
+### NotificationContact {#notificationcontact}
 
 > `readonly` **NotificationContact**: `"unece:ContactTypeCodeList#NT"` = `"unece:ContactTypeCodeList#NT"`
 
 Notification contact: NT.
 
-### OrderContact
+### OrderContact {#ordercontact}
 
 > `readonly` **OrderContact**: `"unece:ContactTypeCodeList#OC"` = `"unece:ContactTypeCodeList#OC"`
 
 Order contact: OC.
 
-### PrototypeCoordinator
+### PrototypeCoordinator {#prototypecoordinator}
 
 > `readonly` **PrototypeCoordinator**: `"unece:ContactTypeCodeList#PA"` = `"unece:ContactTypeCodeList#PA"`
 
 Prototype coordinator: PA.
 
-### PurchasingContact
+### PurchasingContact {#purchasingcontact}
 
 > `readonly` **PurchasingContact**: `"unece:ContactTypeCodeList#PD"` = `"unece:ContactTypeCodeList#PD"`
 
 Purchasing contact: PD.
 
-### PayeeContact
+### PayeeContact {#payeecontact}
 
 > `readonly` **PayeeContact**: `"unece:ContactTypeCodeList#PE"` = `"unece:ContactTypeCodeList#PE"`
 
 Payee contact: PE.
 
-### ProductManagementContact
+### ProductManagementContact {#productmanagementcontact}
 
 > `readonly` **ProductManagementContact**: `"unece:ContactTypeCodeList#PM"` = `"unece:ContactTypeCodeList#PM"`
 
 Product management contact: PM.
 
-### PrescribingPhysician
+### PrescribingPhysician {#prescribingphysician}
 
 > `readonly` **PrescribingPhysician**: `"unece:ContactTypeCodeList#PP"` = `"unece:ContactTypeCodeList#PP"`
 
 Prescribing physician: PP.
 
-### QualityAssuranceContact
+### QualityAssuranceContact {#qualityassurancecontact}
 
 > `readonly` **QualityAssuranceContact**: `"unece:ContactTypeCodeList#QA"` = `"unece:ContactTypeCodeList#QA"`
 
 Quality assurance contact: QA.
 
-### QualityCoordinatorContact
+### QualityCoordinatorContact {#qualitycoordinatorcontact}
 
 > `readonly` **QualityCoordinatorContact**: `"unece:ContactTypeCodeList#QC"` = `"unece:ContactTypeCodeList#QC"`
 
 Quality coordinator contact: QC.
 
-### ReceivingDockContact
+### ReceivingDockContact {#receivingdockcontact}
 
 > `readonly` **ReceivingDockContact**: `"unece:ContactTypeCodeList#RD"` = `"unece:ContactTypeCodeList#RD"`
 
 Receiving dock contact: RD.
 
-### AuthorizedResponsiblePerson
+### AuthorizedResponsiblePerson {#authorizedresponsibleperson}
 
 > `readonly` **AuthorizedResponsiblePerson**: `"unece:ContactTypeCodeList#RP"` = `"unece:ContactTypeCodeList#RP"`
 
 Authorized responsible person: RP.
 
-### SalesAdministration
+### SalesAdministration {#salesadministration}
 
 > `readonly` **SalesAdministration**: `"unece:ContactTypeCodeList#SA"` = `"unece:ContactTypeCodeList#SA"`
 
 Sales administration: SA.
 
-### ScheduleContact
+### ScheduleContact {#schedulecontact}
 
 > `readonly` **ScheduleContact**: `"unece:ContactTypeCodeList#SC"` = `"unece:ContactTypeCodeList#SC"`
 
 Schedule contact: SC.
 
-### ShippingContact
+### ShippingContact {#shippingcontact}
 
 > `readonly` **ShippingContact**: `"unece:ContactTypeCodeList#SD"` = `"unece:ContactTypeCodeList#SD"`
 
 Shipping contact: SD.
 
-### SalesRepresentativeOrDepartment
+### SalesRepresentativeOrDepartment {#salesrepresentativeordepartment}
 
 > `readonly` **SalesRepresentativeOrDepartment**: `"unece:ContactTypeCodeList#SR"` = `"unece:ContactTypeCodeList#SR"`
 
 Sales representative or department: SR.
 
-### SupplierContact
+### SupplierContact {#suppliercontact}
 
 > `readonly` **SupplierContact**: `"unece:ContactTypeCodeList#SU"` = `"unece:ContactTypeCodeList#SU"`
 
 Supplier contact: SU.
 
-### TrafficAdministrator
+### TrafficAdministrator {#trafficadministrator}
 
 > `readonly` **TrafficAdministrator**: `"unece:ContactTypeCodeList#TA"` = `"unece:ContactTypeCodeList#TA"`
 
 Traffic administrator: TA.
 
-### TestContact
+### TestContact {#testcontact}
 
 > `readonly` **TestContact**: `"unece:ContactTypeCodeList#TD"` = `"unece:ContactTypeCodeList#TD"`
 
 Test contact: TD.
 
-### TechnicalDocumentationRecipient
+### TechnicalDocumentationRecipient {#technicaldocumentationrecipient}
 
 > `readonly` **TechnicalDocumentationRecipient**: `"unece:ContactTypeCodeList#TI"` = `"unece:ContactTypeCodeList#TI"`
 
 Technical documentation recipient: TI.
 
-### TransportContact
+### TransportContact {#transportcontact}
 
 > `readonly` **TransportContact**: `"unece:ContactTypeCodeList#TR"` = `"unece:ContactTypeCodeList#TR"`
 
 Transport contact: TR.
 
-### Warehouse
+### Warehouse {#warehouse}
 
 > `readonly` **Warehouse**: `"unece:ContactTypeCodeList#WH"` = `"unece:ContactTypeCodeList#WH"`
 
 Warehouse: WH.
 
-### AlternateContact
+### AlternateContact {#alternatecontact}
 
 > `readonly` **AlternateContact**: `"unece:ContactTypeCodeList#WI"` = `"unece:ContactTypeCodeList#WI"`
 
 Alternate contact: WI.
 
-### OfficeManager
+### OfficeManager {#officemanager}
 
 > `readonly` **OfficeManager**: `"unece:ContactTypeCodeList#WJ"` = `"unece:ContactTypeCodeList#WJ"`
 
 Office Manager: WJ.
 
-### CharteredAccountantContact
+### CharteredAccountantContact {#charteredaccountantcontact}
 
 > `readonly` **CharteredAccountantContact**: `"unece:ContactTypeCodeList#WK"` = `"unece:ContactTypeCodeList#WK"`
 
 Chartered accountant contact: WK.
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:ContactTypeCodeList#ZZZ"` = `"unece:ContactTypeCodeList#ZZZ"`
 

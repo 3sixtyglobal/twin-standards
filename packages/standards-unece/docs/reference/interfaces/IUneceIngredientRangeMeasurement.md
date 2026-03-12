@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/IngredientRangeMeasurement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"IngredientRangeMeasurement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### lowerLimitActualMeasure
+### lowerLimitActualMeasure {#lowerlimitactualmeasure}
 
 > **lowerLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/lowerLimitActualMeasure
 
 ***
 
-### lowerLimitComparisonOperatorCode
+### lowerLimitComparisonOperatorCode {#lowerlimitcomparisonoperatorcode}
 
 > **lowerLimitComparisonOperatorCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/lowerLimitComparisonOperatorCode
 
 ***
 
-### lowerLimitPressureConditionMeasure?
+### lowerLimitPressureConditionMeasure? {#lowerlimitpressureconditionmeasure}
 
 > `optional` **lowerLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/lowerLimitPressureConditionMeasure
 
 ***
 
-### upperLimitActualMeasure?
+### upperLimitActualMeasure? {#upperlimitactualmeasure}
 
 > `optional` **upperLimitActualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/upperLimitActualMeasure
 
 ***
 
-### upperLimitComparisonOperatorCode?
+### upperLimitComparisonOperatorCode? {#upperlimitcomparisonoperatorcode}
 
 > `optional` **upperLimitComparisonOperatorCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/upperLimitComparisonOperatorCode
 
 ***
 
-### upperLimitPressureConditionMeasure?
+### upperLimitPressureConditionMeasure? {#upperlimitpressureconditionmeasure}
 
 > `optional` **upperLimitPressureConditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 

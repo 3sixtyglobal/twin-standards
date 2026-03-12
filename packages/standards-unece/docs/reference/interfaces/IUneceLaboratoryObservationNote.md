@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationNote
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LaboratoryObservationNote"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### content
+### content {#content}
 
 > **content**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### creationDateTime
+### creationDateTime {#creationdatetime}
 
 > **creationDateTime**: `string`
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/DangerousGoods
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DangerousGoods"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### additionalHazardClassificationId?
+### additionalHazardClassificationId? {#additionalhazardclassificationid}
 
 > `optional` **additionalHazardClassificationId**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/additionalHazardClassificationId
 
 ***
 
-### aircraftLimitationInformation?
+### aircraftLimitationInformation? {#aircraftlimitationinformation}
 
 > `optional` **aircraftLimitationInformation**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/aircraftLimitationInformation
 
 ***
 
-### allPackedInOneInformation?
+### allPackedInOneInformation? {#allpackedinoneinformation}
 
 > `optional` **allPackedInOneInformation**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/allPackedInOneInformation
 
 ***
 
-### associatedTransportEquipment?
+### associatedTransportEquipment? {#associatedtransportequipment}
 
 > `optional` **associatedTransportEquipment**: [`IUneceLogisticsTransportEquipment`](IUneceLogisticsTransportEquipment.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/associatedTransportEquipment
 
 ***
 
-### authorizationInformation?
+### authorizationInformation? {#authorizationinformation}
 
 > `optional` **authorizationInformation**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/authorizationInformation
 
 ***
 
-### complianceDeclarationInformation?
+### complianceDeclarationInformation? {#compliancedeclarationinformation}
 
 > `optional` **complianceDeclarationInformation**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/complianceDeclarationInformation
 
 ***
 
-### controlTemperatureMeasurement?
+### controlTemperatureMeasurement? {#controltemperaturemeasurement}
 
 > `optional` **controlTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/controlTemperatureMeasurement
 
 ***
 
-### crewEmergencyInformation?
+### crewEmergencyInformation? {#crewemergencyinformation}
 
 > `optional` **crewEmergencyInformation**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/crewEmergencyInformation
 
 ***
 
-### crewMemberEmergencyIdentityInformation?
+### crewMemberEmergencyIdentityInformation? {#crewmemberemergencyidentityinformation}
 
 > `optional` **crewMemberEmergencyIdentityInformation**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/crewMemberEmergencyIdentityInformation
 
 ***
 
-### dangerousGoodsPackagingLevelPackagingDangerLevelCode?
+### dangerousGoodsPackagingLevelPackagingDangerLevelCode? {#dangerousgoodspackaginglevelpackagingdangerlevelcode}
 
 > `optional` **dangerousGoodsPackagingLevelPackagingDangerLevelCode**: [`UneceDangerousGoodsPackagingLevelCodeList`](../type-aliases/UneceDangerousGoodsPackagingLevelCodeList.md)
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/dangerousGoodsPackagingLevelPackagingDangerLevel
 
 ***
 
-### dangerousGoodsRegulationCode?
+### dangerousGoodsRegulationCode? {#dangerousgoodsregulationcode}
 
 > `optional` **dangerousGoodsRegulationCode**: [`UneceDangerousGoodsRegulationCodeList`](../type-aliases/UneceDangerousGoodsRegulationCodeList.md)
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/dangerousGoodsRegulationCode
 
 ***
 
-### densityMeasure?
+### densityMeasure? {#densitymeasure}
 
 > `optional` **densityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/densityMeasure
 
 ***
 
-### eMSId?
+### eMSId? {#emsid}
 
 > `optional` **eMSId**: `string` \| `IJsonLdValueObject`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/eMSId
 
 ***
 
-### emergencyContact?
+### emergencyContact? {#emergencycontact}
 
 > `optional` **emergencyContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/emergencyContact
 
 ***
 
-### emergencyTemperatureMeasurement?
+### emergencyTemperatureMeasurement? {#emergencytemperaturemeasurement}
 
 > `optional` **emergencyTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/emergencyTemperatureMeasurement
 
 ***
 
-### exceptedQuantityStatementInformation?
+### exceptedQuantityStatementInformation? {#exceptedquantitystatementinformation}
 
 > `optional` **exceptedQuantityStatementInformation**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/exceptedQuantityStatementInformation
 
 ***
 
-### expertTrainingCertificateInformation?
+### expertTrainingCertificateInformation? {#experttrainingcertificateinformation}
 
 > `optional` **expertTrainingCertificateInformation**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/expertTrainingCertificateInformation
 
 ***
 
-### explosiveCargoNetWeightMeasure?
+### explosiveCargoNetWeightMeasure? {#explosivecargonetweightmeasure}
 
 > `optional` **explosiveCargoNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/explosiveCargoNetWeightMeasure
 
 ***
 
-### explosiveCompatibilityGroupCode?
+### explosiveCompatibilityGroupCode? {#explosivecompatibilitygroupcode}
 
 > `optional` **explosiveCompatibilityGroupCode**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/explosiveCompatibilityGroupCode
 
 ***
 
-### explosiveLabelStatementInformation?
+### explosiveLabelStatementInformation? {#explosivelabelstatementinformation}
 
 > `optional` **explosiveLabelStatementInformation**: `string`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/explosiveLabelStatementInformation
 
 ***
 
-### flashpointTemperatureMeasurement?
+### flashpointTemperatureMeasurement? {#flashpointtemperaturemeasurement}
 
 > `optional` **flashpointTemperatureMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/flashpointTemperatureMeasurement
 
 ***
 
-### handlingInstructions?
+### handlingInstructions? {#handlinginstructions}
 
 > `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/handlingInstructions
 
 ***
 
-### hazardCategoryCode?
+### hazardCategoryCode? {#hazardcategorycode}
 
 > `optional` **hazardCategoryCode**: `string`
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/hazardCategoryCode
 
 ***
 
-### hazardClassVersionId?
+### hazardClassVersionId? {#hazardclassversionid}
 
 > `optional` **hazardClassVersionId**: `string` \| `IJsonLdValueObject`
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/hazardClassVersionId
 
 ***
 
-### hazardClassificationId?
+### hazardClassificationId? {#hazardclassificationid}
 
 > `optional` **hazardClassificationId**: `string` \| `IJsonLdValueObject`
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/hazardClassificationId
 
 ***
 
-### hazardTypeCode?
+### hazardTypeCode? {#hazardtypecode}
 
 > `optional` **hazardTypeCode**: `string`
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/hazardTypeCode
 
 ***
 
-### iMDGSegregationGroupCode?
+### iMDGSegregationGroupCode? {#imdgsegregationgroupcode}
 
 > `optional` **iMDGSegregationGroupCode**: `string`
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/iMDGSegregationGroupCode
 
 ***
 
-### includedFuel?
+### includedFuel? {#includedfuel}
 
 > `optional` **includedFuel**: [`IUneceFuel`](IUneceFuel.md)[]
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/includedFuel
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -375,7 +375,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### limitedQuantityCode?
+### limitedQuantityCode? {#limitedquantitycode}
 
 > `optional` **limitedQuantityCode**: `string`
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/limitedQuantityCode
 
 ***
 
-### lowerPartOrangeHazardPlacardId?
+### lowerPartOrangeHazardPlacardId? {#lowerpartorangehazardplacardid}
 
 > `optional` **lowerPartOrangeHazardPlacardId**: `string` \| `IJsonLdValueObject`
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/lowerPartOrangeHazardPlacardId
 
 ***
 
-### mFAGId?
+### mFAGId? {#mfagid}
 
 > `optional` **mFAGId**: `string` \| `IJsonLdValueObject`
 
@@ -411,7 +411,7 @@ https://vocabulary.uncefact.org/mFAGId
 
 ***
 
-### marinePollutantIndicator?
+### marinePollutantIndicator? {#marinepollutantindicator}
 
 > `optional` **marinePollutantIndicator**: `boolean`
 
@@ -423,7 +423,7 @@ https://vocabulary.uncefact.org/marinePollutantIndicator
 
 ***
 
-### maritimePollutantTypeCode?
+### maritimePollutantTypeCode? {#maritimepollutanttypecode}
 
 > `optional` **maritimePollutantTypeCode**: `string`
 
@@ -435,7 +435,7 @@ https://vocabulary.uncefact.org/maritimePollutantTypeCode
 
 ***
 
-### marking?
+### marking? {#marking}
 
 > `optional` **marking**: `string`
 
@@ -447,7 +447,7 @@ https://vocabulary.uncefact.org/marking
 
 ***
 
-### overpackInformation?
+### overpackInformation? {#overpackinformation}
 
 > `optional` **overpackInformation**: `string`
 
@@ -459,7 +459,7 @@ https://vocabulary.uncefact.org/overpackInformation
 
 ***
 
-### packingInstructionTypeCode?
+### packingInstructionTypeCode? {#packinginstructiontypecode}
 
 > `optional` **packingInstructionTypeCode**: `string`
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/packingInstructionTypeCode
 
 ***
 
-### pollutantIndicator?
+### pollutantIndicator? {#pollutantindicator}
 
 > `optional` **pollutantIndicator**: `boolean`
 
@@ -483,7 +483,7 @@ https://vocabulary.uncefact.org/pollutantIndicator
 
 ***
 
-### pollutantLevelCode?
+### pollutantLevelCode? {#pollutantlevelcode}
 
 > `optional` **pollutantLevelCode**: `string`
 
@@ -495,7 +495,7 @@ https://vocabulary.uncefact.org/pollutantLevelCode
 
 ***
 
-### previousCargoInformation?
+### previousCargoInformation? {#previouscargoinformation}
 
 > `optional` **previousCargoInformation**: `string`
 
@@ -507,7 +507,7 @@ https://vocabulary.uncefact.org/previousCargoInformation
 
 ***
 
-### properShippingName?
+### properShippingName? {#propershippingname}
 
 > `optional` **properShippingName**: `string`
 
@@ -519,7 +519,7 @@ https://vocabulary.uncefact.org/properShippingName
 
 ***
 
-### qValueNumeric?
+### qValueNumeric? {#qvaluenumeric}
 
 > `optional` **qValueNumeric**: `string`
 
@@ -531,7 +531,7 @@ https://vocabulary.uncefact.org/qValueNumeric
 
 ***
 
-### radioactiveIndicator?
+### radioactiveIndicator? {#radioactiveindicator}
 
 > `optional` **radioactiveIndicator**: `boolean`
 
@@ -543,7 +543,7 @@ https://vocabulary.uncefact.org/radioactiveIndicator
 
 ***
 
-### radioactiveMaterial?
+### radioactiveMaterial? {#radioactivematerial}
 
 > `optional` **radioactiveMaterial**: [`IUneceRadioactiveMaterial`](IUneceRadioactiveMaterial.md)
 
@@ -555,7 +555,7 @@ https://vocabulary.uncefact.org/radioactiveMaterial
 
 ***
 
-### regulationName?
+### regulationName? {#regulationname}
 
 > `optional` **regulationName**: `string`
 
@@ -567,7 +567,7 @@ https://vocabulary.uncefact.org/regulationName
 
 ***
 
-### regulatoryAuthorityName?
+### regulatoryAuthorityName? {#regulatoryauthorityname}
 
 > `optional` **regulatoryAuthorityName**: `string`
 
@@ -579,7 +579,7 @@ https://vocabulary.uncefact.org/regulatoryAuthorityName
 
 ***
 
-### relatedDocument?
+### relatedDocument? {#relateddocument}
 
 > `optional` **relatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -591,7 +591,7 @@ https://vocabulary.uncefact.org/relatedDocument
 
 ***
 
-### reportableQuantity?
+### reportableQuantity? {#reportablequantity}
 
 > `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -603,7 +603,7 @@ https://vocabulary.uncefact.org/reportableQuantity
 
 ***
 
-### shipperDeclarationInformation?
+### shipperDeclarationInformation? {#shipperdeclarationinformation}
 
 > `optional` **shipperDeclarationInformation**: `string`
 
@@ -615,7 +615,7 @@ https://vocabulary.uncefact.org/shipperDeclarationInformation
 
 ***
 
-### specialProvisionId?
+### specialProvisionId? {#specialprovisionid}
 
 > `optional` **specialProvisionId**: `string` \| `IJsonLdValueObject`
 
@@ -627,7 +627,7 @@ https://vocabulary.uncefact.org/specialProvisionId
 
 ***
 
-### specifiedPackage?
+### specifiedPackage? {#specifiedpackage}
 
 > `optional` **specifiedPackage**: [`IUnecePackage`](IUnecePackage.md)[]
 
@@ -639,7 +639,7 @@ https://vocabulary.uncefact.org/specifiedPackage
 
 ***
 
-### statedCondition?
+### statedCondition? {#statedcondition}
 
 > `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)[]
 
@@ -651,7 +651,7 @@ https://vocabulary.uncefact.org/statedCondition
 
 ***
 
-### supplementaryInformation?
+### supplementaryInformation? {#supplementaryinformation}
 
 > `optional` **supplementaryInformation**: `string`
 
@@ -663,7 +663,7 @@ https://vocabulary.uncefact.org/supplementaryInformation
 
 ***
 
-### tREMId?
+### tREMId? {#tremid}
 
 > `optional` **tREMId**: `string` \| `IJsonLdValueObject`
 
@@ -675,7 +675,7 @@ https://vocabulary.uncefact.org/tREMId
 
 ***
 
-### tankTypeCertificateInformation?
+### tankTypeCertificateInformation? {#tanktypecertificateinformation}
 
 > `optional` **tankTypeCertificateInformation**: `string`
 
@@ -687,7 +687,7 @@ https://vocabulary.uncefact.org/tankTypeCertificateInformation
 
 ***
 
-### technicalName?
+### technicalName? {#technicalname}
 
 > `optional` **technicalName**: `string`
 
@@ -699,7 +699,7 @@ https://vocabulary.uncefact.org/technicalName
 
 ***
 
-### temperatureUnitMeltingPointTemperatureMeasure?
+### temperatureUnitMeltingPointTemperatureMeasure? {#temperatureunitmeltingpointtemperaturemeasure}
 
 > `optional` **temperatureUnitMeltingPointTemperatureMeasure**: [`IUneceTemperatureUnitMeasureType`](IUneceTemperatureUnitMeasureType.md)[]
 
@@ -711,7 +711,7 @@ https://vocabulary.uncefact.org/temperatureUnitMeltingPointTemperatureMeasure
 
 ***
 
-### transportDangerousGoodsPackageTypeCode?
+### transportDangerousGoodsPackageTypeCode? {#transportdangerousgoodspackagetypecode}
 
 > `optional` **transportDangerousGoodsPackageTypeCode**: [`UnecePackageTypeCodeList`](../type-aliases/UnecePackageTypeCodeList.md)
 
@@ -723,7 +723,7 @@ https://vocabulary.uncefact.org/transportDangerousGoodsPackageTypeCode
 
 ***
 
-### transportExpertContact?
+### transportExpertContact? {#transportexpertcontact}
 
 > `optional` **transportExpertContact**: [`IUneceTradeContact`](IUneceTradeContact.md)
 
@@ -735,7 +735,7 @@ https://vocabulary.uncefact.org/transportExpertContact
 
 ***
 
-### tunnelRestrictionCode?
+### tunnelRestrictionCode? {#tunnelrestrictioncode}
 
 > `optional` **tunnelRestrictionCode**: `string`
 
@@ -747,7 +747,7 @@ https://vocabulary.uncefact.org/tunnelRestrictionCode
 
 ***
 
-### uNDGIdentificationCode?
+### uNDGIdentificationCode? {#undgidentificationcode}
 
 > `optional` **uNDGIdentificationCode**: `string`
 
@@ -760,7 +760,7 @@ https://vocabulary.uncefact.org/uNDGIdentificationCode
 
 ***
 
-### unitDensityMeasure?
+### unitDensityMeasure? {#unitdensitymeasure}
 
 > `optional` **unitDensityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 
@@ -772,7 +772,7 @@ https://vocabulary.uncefact.org/unitDensityMeasure
 
 ***
 
-### unitViscosityMeasure?
+### unitViscosityMeasure? {#unitviscositymeasure}
 
 > `optional` **unitViscosityMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 
@@ -784,7 +784,7 @@ https://vocabulary.uncefact.org/unitViscosityMeasure
 
 ***
 
-### upperPartOrangeHazardPlacardId?
+### upperPartOrangeHazardPlacardId? {#upperpartorangehazardplacardid}
 
 > `optional` **upperPartOrangeHazardPlacardId**: `string` \| `IJsonLdValueObject`
 
@@ -796,7 +796,7 @@ https://vocabulary.uncefact.org/upperPartOrangeHazardPlacardId
 
 ***
 
-### viscosityMeasure?
+### viscosityMeasure? {#viscositymeasure}
 
 > `optional` **viscosityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -808,7 +808,7 @@ https://vocabulary.uncefact.org/viscosityMeasure
 
 ***
 
-### volumeUnitGrossVolumeMeasure?
+### volumeUnitGrossVolumeMeasure? {#volumeunitgrossvolumemeasure}
 
 > `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -821,7 +821,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ***
 
-### volumeUnitMarinePollutantVolumeMeasure?
+### volumeUnitMarinePollutantVolumeMeasure? {#volumeunitmarinepollutantvolumemeasure}
 
 > `optional` **volumeUnitMarinePollutantVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
@@ -833,7 +833,7 @@ https://vocabulary.uncefact.org/volumeUnitMarinePollutantVolumeMeasure
 
 ***
 
-### weightUnitGrossWeightMeasure?
+### weightUnitGrossWeightMeasure? {#weightunitgrossweightmeasure}
 
 > `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -846,7 +846,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ***
 
-### weightUnitNetWeightMeasure?
+### weightUnitNetWeightMeasure? {#weightunitnetweightmeasure}
 
 > `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 

@@ -6,7 +6,7 @@ Values for UneceProductionUnit typeCode property.
 
 ## Type Declaration
 
-### RelatedProductionUnit
+### RelatedProductionUnit {#relatedproductionunit}
 
 > `readonly` **RelatedProductionUnit**: `"unece:relatedProductionUnit"` = `"unece:relatedProductionUnit"`
 
@@ -17,7 +17,7 @@ A production unit related to this production facility.
 
 https://vocabulary.uncefact.org/relatedProductionUnit
 
-### SpecifiedProductionUnit
+### SpecifiedProductionUnit {#specifiedproductionunit}
 
 > `readonly` **SpecifiedProductionUnit**: `"unece:specifiedProductionUnit"` = `"unece:specifiedProductionUnit"`
 
@@ -28,7 +28,7 @@ A facility production unit specified for this production machine.
 
 https://vocabulary.uncefact.org/specifiedProductionUnit
 
-### SubordinateProductionUnit
+### SubordinateProductionUnit {#subordinateproductionunit}
 
 > `readonly` **SubordinateProductionUnit**: `"unece:subordinateProductionUnit"` = `"unece:subordinateProductionUnit"`
 

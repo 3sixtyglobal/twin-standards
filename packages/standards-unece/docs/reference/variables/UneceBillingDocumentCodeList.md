@@ -6,73 +6,73 @@ A character string used to represent a type of billing document.
 
 ## Type Declaration
 
-### SelfBilledCreditNote
+### SelfBilledCreditNote {#selfbilledcreditnote}
 
 > `readonly` **SelfBilledCreditNote**: `"unece:BillingDocumentCodeList#261"` = `"unece:BillingDocumentCodeList#261"`
 
 Self billed credit note: 261.
 
-### ConsolidatedCreditNoteGoodsAndServices
+### ConsolidatedCreditNoteGoodsAndServices {#consolidatedcreditnotegoodsandservices}
 
 > `readonly` **ConsolidatedCreditNoteGoodsAndServices**: `"unece:BillingDocumentCodeList#262"` = `"unece:BillingDocumentCodeList#262"`
 
 Consolidated credit note - goods and services: 262.
 
-### TransportEquipmentMovementReport
+### TransportEquipmentMovementReport {#transportequipmentmovementreport}
 
 > `readonly` **TransportEquipmentMovementReport**: `"unece:BillingDocumentCodeList#265"` = `"unece:BillingDocumentCodeList#265"`
 
 Transport equipment movement report: 265.
 
-### CreditNoteForPriceVariation
+### CreditNoteForPriceVariation {#creditnoteforpricevariation}
 
 > `readonly` **CreditNoteForPriceVariation**: `"unece:BillingDocumentCodeList#296"` = `"unece:BillingDocumentCodeList#296"`
 
 Credit note for price variation: 296.
 
-### TransportEmergencyCard
+### TransportEmergencyCard {#transportemergencycard}
 
 > `readonly` **TransportEmergencyCard**: `"unece:BillingDocumentCodeList#324"` = `"unece:BillingDocumentCodeList#324"`
 
 Transport emergency card: 324.
 
-### PartialInvoice
+### PartialInvoice {#partialinvoice}
 
 > `readonly` **PartialInvoice**: `"unece:BillingDocumentCodeList#326"` = `"unece:BillingDocumentCodeList#326"`
 
 Partial invoice: 326.
 
-### CommercialInvoice
+### CommercialInvoice {#commercialinvoice}
 
 > `readonly` **CommercialInvoice**: `"unece:BillingDocumentCodeList#380"` = `"unece:BillingDocumentCodeList#380"`
 
 Commercial invoice: 380.
 
-### CreditNote
+### CreditNote {#creditnote}
 
 > `readonly` **CreditNote**: `"unece:BillingDocumentCodeList#381"` = `"unece:BillingDocumentCodeList#381"`
 
 Credit note: 381.
 
-### DebitNote
+### DebitNote {#debitnote}
 
 > `readonly` **DebitNote**: `"unece:BillingDocumentCodeList#383"` = `"unece:BillingDocumentCodeList#383"`
 
 Debit note: 383.
 
-### ConsolidatedInvoice
+### ConsolidatedInvoice {#consolidatedinvoice}
 
 > `readonly` **ConsolidatedInvoice**: `"unece:BillingDocumentCodeList#385"` = `"unece:BillingDocumentCodeList#385"`
 
 Consolidated invoice: 385.
 
-### PrepaymentInvoice
+### PrepaymentInvoice {#prepaymentinvoice}
 
 > `readonly` **PrepaymentInvoice**: `"unece:BillingDocumentCodeList#386"` = `"unece:BillingDocumentCodeList#386"`
 
 Prepayment invoice: 386.
 
-### SelfBilledInvoice
+### SelfBilledInvoice {#selfbilledinvoice}
 
 > `readonly` **SelfBilledInvoice**: `"unece:BillingDocumentCodeList#389"` = `"unece:BillingDocumentCodeList#389"`
 

@@ -6,31 +6,31 @@ VDA URI Packages License Plates identifiers.
 
 ## Type Declaration
 
-### Package1J
+### Package1J {#package1j}
 
 > `readonly` **Package1J**: `"1J"` = `"1J"`
 
 Unique package ID of inner packaging (Single Label).
 
-### Package3J
+### Package3J {#package3j}
 
 > `readonly` **Package3J**: `"3J"` = `"3J"`
 
 Unique package ID of JIS loading unit with compartments.
 
-### Package4J
+### Package4J {#package4j}
 
 > `readonly` **Package4J**: `"4J"` = `"4J"`
 
 Unique package ID of JIS loading unit with 1...n JIS packages.
 
-### Package5J
+### Package5J {#package5j}
 
 > `readonly` **Package5J**: `"5J"` = `"5J"`
 
 Unique package ID of mixed loading unit with intermediate packaging level (mixed master).
 
-### Package67
+### Package67 {#package67}
 
 > `readonly` **Package67**: `"6J"` = `"6J"`
 

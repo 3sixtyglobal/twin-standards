@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Print
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Print"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableMaterial?
+### applicableMaterial? {#applicablematerial}
 
 > `optional` **applicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableMaterial
 
 ***
 
-### applicableMethod?
+### applicableMethod? {#applicablemethod}
 
 > `optional` **applicableMethod**: [`IUneceSpecifiedMethod`](IUneceSpecifiedMethod.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableMethod
 
 ***
 
-### applicableProductionDevice?
+### applicableProductionDevice? {#applicableproductiondevice}
 
 > `optional` **applicableProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableProductionDevice
 
 ***
 
-### applicableTechnicalCharacteristic?
+### applicableTechnicalCharacteristic? {#applicabletechnicalcharacteristic}
 
 > `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ***
 
-### backgroundColourCode?
+### backgroundColourCode? {#backgroundcolourcode}
 
 > `optional` **backgroundColourCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/backgroundColourCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### design?
+### design? {#design}
 
 > `optional` **design**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/design
 
 ***
 
-### designCode?
+### designCode? {#designcode}
 
 > `optional` **designCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/designCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### relatedParty?
+### relatedParty? {#relatedparty}
 
 > `optional` **relatedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/relatedParty
 
 ***
 
-### section?
+### section? {#section}
 
 > `optional` **section**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/section
 
 ***
 
-### sectionCode?
+### sectionCode? {#sectioncode}
 
 > `optional` **sectionCode**: `string`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/sectionCode
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### specifiedMachine?
+### specifiedMachine? {#specifiedmachine}
 
 > `optional` **specifiedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/specifiedMachine
 
 ***
 
-### testIndicator?
+### testIndicator? {#testindicator}
 
 > `optional` **testIndicator**: `boolean`
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ***
 
-### textContent?
+### textContent? {#textcontent}
 
 > `optional` **textContent**: `string`
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/textContent
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

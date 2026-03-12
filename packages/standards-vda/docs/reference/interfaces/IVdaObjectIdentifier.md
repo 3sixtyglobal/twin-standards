@@ -8,7 +8,7 @@ Interface for VDA object identifier.
 
 ## Properties
 
-### dataIdentifier
+### dataIdentifier {#dataidentifier}
 
 > **dataIdentifier**: `string`
 
@@ -20,7 +20,7 @@ Data Identifier (DI).
 
 ***
 
-### issuingAgencyCode
+### issuingAgencyCode {#issuingagencycode}
 
 > **issuingAgencyCode**: `string`
 
@@ -32,7 +32,7 @@ Issuing Agency Code (IAC).
 
 ***
 
-### companyIdNumber
+### companyIdNumber {#companyidnumber}
 
 > **companyIdNumber**: `string`
 
@@ -40,7 +40,7 @@ The company identification number.
 
 ***
 
-### partNumber
+### partNumber {#partnumber}
 
 > **partNumber**: `string`
 
@@ -48,7 +48,7 @@ The part number.
 
 ***
 
-### partSerialNumber
+### partSerialNumber {#partserialnumber}
 
 > **partSerialNumber**: `string`
 

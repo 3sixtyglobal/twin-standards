@@ -6,25 +6,25 @@ A character string used to represent the type of an alternate currency amount.
 
 ## Type Declaration
 
-### PaymentAmount
+### PaymentAmount {#paymentamount}
 
 > `readonly` **PaymentAmount**: `"unece:AlternateCurrencyAmountTypeCodeList#1"` = `"unece:AlternateCurrencyAmountTypeCodeList#1"`
 
 Payment Amount: 1.
 
-### ReportingAmount
+### ReportingAmount {#reportingamount}
 
 > `readonly` **ReportingAmount**: `"unece:AlternateCurrencyAmountTypeCodeList#2"` = `"unece:AlternateCurrencyAmountTypeCodeList#2"`
 
 Reporting Amount: 2.
 
-### ConsolidationAmount
+### ConsolidationAmount {#consolidationamount}
 
 > `readonly` **ConsolidationAmount**: `"unece:AlternateCurrencyAmountTypeCodeList#3"` = `"unece:AlternateCurrencyAmountTypeCodeList#3"`
 
 Consolidation Amount: 3.
 
-### EuroTransitionAmount
+### EuroTransitionAmount {#eurotransitionamount}
 
 > `readonly` **EuroTransitionAmount**: `"unece:AlternateCurrencyAmountTypeCodeList#4"` = `"unece:AlternateCurrencyAmountTypeCodeList#4"`
 

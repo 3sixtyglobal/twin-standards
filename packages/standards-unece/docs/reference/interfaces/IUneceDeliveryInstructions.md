@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DeliveryInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DeliveryInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### deliveryInstructionsDescriptionCode?
+### deliveryInstructionsDescriptionCode? {#deliveryinstructionsdescriptioncode}
 
 > `optional` **deliveryInstructionsDescriptionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/deliveryInstructionsDescriptionCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### handling?
+### handling? {#handling}
 
 > `optional` **handling**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/handling
 
 ***
 
-### handlingCode?
+### handlingCode? {#handlingcode}
 
 > `optional` **handlingCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/handlingCode
 
 ***
 
-### instructionsType?
+### instructionsType? {#instructionstype}
 
 > `optional` **instructionsType**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ***
 
-### itemName?
+### itemName? {#itemname}
 
 > `optional` **itemName**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/itemName
 
 ***
 
-### procedure?
+### procedure? {#procedure}
 
 > `optional` **procedure**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/procedure
 
 ***
 
-### requirementIndicator?
+### requirementIndicator? {#requirementindicator}
 
 > `optional` **requirementIndicator**: `boolean`
 

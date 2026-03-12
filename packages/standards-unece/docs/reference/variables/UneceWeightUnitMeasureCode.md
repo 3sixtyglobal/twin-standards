@@ -6,19 +6,19 @@ RDF Class for WeightUnitMeasureType unit code type to define unit code values.
 
 ## Type Declaration
 
-### Gram
+### Gram {#gram}
 
 > `readonly` **Gram**: `"unece:WeightUnitMeasureCode#GRM"` = `"unece:WeightUnitMeasureCode#GRM"`
 
 gram: GRM.
 
-### Kilogram
+### Kilogram {#kilogram}
 
 > `readonly` **Kilogram**: `"unece:WeightUnitMeasureCode#KGM"` = `"unece:WeightUnitMeasureCode#KGM"`
 
 kilogram: KGM.
 
-### Tonne
+### Tonne {#tonne}
 
 > `readonly` **Tonne**: `"unece:WeightUnitMeasureCode#TNE"` = `"unece:WeightUnitMeasureCode#TNE"`
 

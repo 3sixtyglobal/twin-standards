@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedPeriod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedPeriod"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### completeDateTime?
+### completeDateTime? {#completedatetime}
 
 > `optional` **completeDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/completeDateTime
 
 ***
 
-### continuousIndicator?
+### continuousIndicator? {#continuousindicator}
 
 > `optional` **continuousIndicator**: `boolean`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/continuousIndicator
 
 ***
 
-### dayQuantity?
+### dayQuantity? {#dayquantity}
 
 > `optional` **dayQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/dayQuantity
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### duration?
+### duration? {#duration}
 
 > `optional` **duration**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/duration
 
 ***
 
-### durationMeasure?
+### durationMeasure? {#durationmeasure}
 
 > `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/durationMeasure
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### endDayOfWeekCode?
+### endDayOfWeekCode? {#enddayofweekcode}
 
 > `optional` **endDayOfWeekCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/endDayOfWeekCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inclusiveIndicator?
+### inclusiveIndicator? {#inclusiveindicator}
 
 > `optional` **inclusiveIndicator**: `boolean`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/inclusiveIndicator
 
 ***
 
-### maximumDurationMeasure?
+### maximumDurationMeasure? {#maximumdurationmeasure}
 
 > `optional` **maximumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/maximumDurationMeasure
 
 ***
 
-### minimumDurationMeasure?
+### minimumDurationMeasure? {#minimumdurationmeasure}
 
 > `optional` **minimumDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/minimumDurationMeasure
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### nightQuantity?
+### nightQuantity? {#nightquantity}
 
 > `optional` **nightQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/nightQuantity
 
 ***
 
-### openIndicator?
+### openIndicator? {#openindicator}
 
 > `optional` **openIndicator**: `boolean`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/openIndicator
 
 ***
 
-### purposeCode?
+### purposeCode? {#purposecode}
 
 > `optional` **purposeCode**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ***
 
-### seasonCode?
+### seasonCode? {#seasoncode}
 
 > `optional` **seasonCode**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/seasonCode
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### startDateFlexibilityCode?
+### startDateFlexibilityCode? {#startdateflexibilitycode}
 
 > `optional` **startDateFlexibilityCode**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/startDateFlexibilityCode
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/startDateTime
 
 ***
 
-### startDayOfWeekCode?
+### startDayOfWeekCode? {#startdayofweekcode}
 
 > `optional` **startDayOfWeekCode**: `string`
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/startDayOfWeekCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

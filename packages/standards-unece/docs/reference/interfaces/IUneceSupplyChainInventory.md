@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SupplyChainInventory
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SupplyChainInventory"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### assetTransferStatusCode?
+### assetTransferStatusCode? {#assettransferstatuscode}
 
 > `optional` **assetTransferStatusCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/assetTransferStatusCode
 
 ***
 
-### availabilityIndicator?
+### availabilityIndicator? {#availabilityindicator}
 
 > `optional` **availabilityIndicator**: `boolean`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/availabilityIndicator
 
 ***
 
-### averageDemandQuantity?
+### averageDemandQuantity? {#averagedemandquantity}
 
 > `optional` **averageDemandQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/averageDemandQuantity
 
 ***
 
-### averageDurationDateTime?
+### averageDurationDateTime? {#averagedurationdatetime}
 
 > `optional` **averageDurationDateTime**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/averageDurationDateTime
 
 ***
 
-### calculationDateTime?
+### calculationDateTime? {#calculationdatetime}
 
 > `optional` **calculationDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/calculationDateTime
 
 ***
 
-### dispositionDocument?
+### dispositionDocument? {#dispositiondocument}
 
 > `optional` **dispositionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/dispositionDocument
 
 ***
 
-### includedBatch?
+### includedBatch? {#includedbatch}
 
 > `optional` **includedBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/includedBatch
 
 ***
 
-### includedMaterial?
+### includedMaterial? {#includedmaterial}
 
 > `optional` **includedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/includedMaterial
 
 ***
 
-### includedTradeProduct?
+### includedTradeProduct? {#includedtradeproduct}
 
 > `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/includedTradeProduct
 
 ***
 
-### maximumStockLevelMeasure?
+### maximumStockLevelMeasure? {#maximumstocklevelmeasure}
 
 > `optional` **maximumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/maximumStockLevelMeasure
 
 ***
 
-### maximumStockQuantity?
+### maximumStockQuantity? {#maximumstockquantity}
 
 > `optional` **maximumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/maximumStockQuantity
 
 ***
 
-### minimumStockLevelMeasure?
+### minimumStockLevelMeasure? {#minimumstocklevelmeasure}
 
 > `optional` **minimumStockLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/minimumStockLevelMeasure
 
 ***
 
-### minimumStockQuantity?
+### minimumStockQuantity? {#minimumstockquantity}
 
 > `optional` **minimumStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/minimumStockQuantity
 
 ***
 
-### plannedStockCalculationDateTime?
+### plannedStockCalculationDateTime? {#plannedstockcalculationdatetime}
 
 > `optional` **plannedStockCalculationDateTime**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/plannedStockCalculationDateTime
 
 ***
 
-### plannedStockQuantity?
+### plannedStockQuantity? {#plannedstockquantity}
 
 > `optional` **plannedStockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/plannedStockQuantity
 
 ***
 
-### remarkNote?
+### remarkNote? {#remarknote}
 
 > `optional` **remarkNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/remarkNote
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### specifiedSupplyChainEvent?
+### specifiedSupplyChainEvent? {#specifiedsupplychainevent}
 
 > `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ***
 
-### specifiedTradeParty?
+### specifiedTradeParty? {#specifiedtradeparty}
 
 > `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/specifiedTradeParty
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### stockQuantity?
+### stockQuantity? {#stockquantity}
 
 > `optional` **stockQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

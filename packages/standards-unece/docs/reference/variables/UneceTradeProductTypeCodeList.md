@@ -6,7 +6,7 @@ Values for UneceTradeProduct typeCode property.
 
 ## Type Declaration
 
-### ApplicableProduct
+### ApplicableProduct {#applicableproduct}
 
 > `readonly` **ApplicableProduct**: `"unece:applicableProduct"` = `"unece:applicableProduct"`
 
@@ -16,7 +16,7 @@ A product applicable for this subordinate trade line item.
 
 https://vocabulary.uncefact.org/applicableProduct
 
-### ComponentProduct
+### ComponentProduct {#componentproduct}
 
 > `readonly` **ComponentProduct**: `"unece:componentProduct"` = `"unece:componentProduct"`
 
@@ -26,7 +26,7 @@ A trade product component of this product batch.
 
 https://vocabulary.uncefact.org/componentProduct
 
-### IncludedTradeProduct
+### IncludedTradeProduct {#includedtradeproduct}
 
 > `readonly` **IncludedTradeProduct**: `"unece:includedTradeProduct"` = `"unece:includedTradeProduct"`
 
@@ -39,7 +39,7 @@ A trade product included in this supply chain trade transaction.
 
 https://vocabulary.uncefact.org/includedTradeProduct
 
-### InputApplicableProduct
+### InputApplicableProduct {#inputapplicableproduct}
 
 > `readonly` **InputApplicableProduct**: `"unece:inputApplicableProduct"` = `"unece:inputApplicableProduct"`
 
@@ -52,7 +52,7 @@ An input product applicable to this specified production device.
 
 https://vocabulary.uncefact.org/inputApplicableProduct
 
-### OutputApplicableProduct
+### OutputApplicableProduct {#outputapplicableproduct}
 
 > `readonly` **OutputApplicableProduct**: `"unece:outputApplicableProduct"` = `"unece:outputApplicableProduct"`
 
@@ -65,7 +65,7 @@ An output product applicable to this specified production device.
 
 https://vocabulary.uncefact.org/outputApplicableProduct
 
-### RequisitionerSpecifiedProduct
+### RequisitionerSpecifiedProduct {#requisitionerspecifiedproduct}
 
 > `readonly` **RequisitionerSpecifiedProduct**: `"unece:requisitionerSpecifiedProduct"` = `"unece:requisitionerSpecifiedProduct"`
 
@@ -75,7 +75,7 @@ The product specified by the requisitioner for this supply chain trade line item
 
 https://vocabulary.uncefact.org/requisitionerSpecifiedProduct
 
-### SpecifiedTradeProduct
+### SpecifiedTradeProduct {#specifiedtradeproduct}
 
 > `readonly` **SpecifiedTradeProduct**: `"unece:specifiedTradeProduct"` = `"unece:specifiedTradeProduct"`
 

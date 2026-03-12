@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Illness
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Illness"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### caseDispositionCode?
+### caseDispositionCode? {#casedispositioncode}
 
 > `optional` **caseDispositionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/caseDispositionCode
 
 ***
 
-### comment?
+### comment? {#comment}
 
 > `optional` **comment**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/comment
 
 ***
 
-### evacuationLocation?
+### evacuationLocation? {#evacuationlocation}
 
 > `optional` **evacuationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/evacuationLocation
 
 ***
 
-### healthStatusCode?
+### healthStatusCode? {#healthstatuscode}
 
 > `optional` **healthStatusCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/healthStatusCode
 
 ***
 
-### healthStatusReportedIndicator?
+### healthStatusReportedIndicator? {#healthstatusreportedindicator}
 
 > `optional` **healthStatusReportedIndicator**: `boolean`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/healthStatusReportedIndicator
 
 ***
 
-### nature?
+### nature? {#nature}
 
 > `optional` **nature**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/nature
 
 ***
 
-### symptomOnsetDateTime?
+### symptomOnsetDateTime? {#symptomonsetdatetime}
 
 > `optional` **symptomOnsetDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/symptomOnsetDateTime
 
 ***
 
-### treatment?
+### treatment? {#treatment}
 
 > `optional` **treatment**: `string`
 

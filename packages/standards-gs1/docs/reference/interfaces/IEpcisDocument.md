@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/EPCISDocument
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
@@ -16,7 +16,7 @@ The @context.
 
 ***
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -24,7 +24,7 @@ The JSON-LD document id.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"EPCISDocument"`
 
@@ -32,7 +32,7 @@ JSON-LD Type.
 
 ***
 
-### schemaVersion
+### schemaVersion {#schemaversion}
 
 > **schemaVersion**: `string`
 
@@ -40,7 +40,7 @@ Schema version.
 
 ***
 
-### creationDate
+### creationDate {#creationdate}
 
 > **creationDate**: `string`
 
@@ -48,7 +48,7 @@ Creation Date.
 
 ***
 
-### instanceIdentifier?
+### instanceIdentifier? {#instanceidentifier}
 
 > `optional` **instanceIdentifier**: `string`
 
@@ -56,7 +56,7 @@ Creation Date.
 
 ***
 
-### sender?
+### sender? {#sender}
 
 > `optional` **sender**: `string`
 
@@ -64,7 +64,7 @@ Creation Date.
 
 ***
 
-### receiver?
+### receiver? {#receiver}
 
 > `optional` **receiver**: `string`
 
@@ -72,7 +72,7 @@ Creation Date.
 
 ***
 
-### epcisHeader?
+### epcisHeader? {#epcisheader}
 
 > `optional` **epcisHeader**: [`IEpcisHeader`](IEpcisHeader.md)
 
@@ -80,7 +80,7 @@ EPCIS Header.
 
 ***
 
-### epcisBody
+### epcisBody {#epcisbody}
 
 > **epcisBody**: `object`
 

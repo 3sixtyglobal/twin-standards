@@ -7,31 +7,31 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/
 
 ## Type Declaration
 
-### COMPLETED
+### COMPLETED {#completed}
 
 > `readonly` **COMPLETED**: `"COMPLETED"` = `"COMPLETED"`
 
 Completed
 
-### REQUESTED
+### REQUESTED {#requested}
 
 > `readonly` **REQUESTED**: `"REQUESTED"` = `"REQUESTED"`
 
 Requested
 
-### STARTED
+### STARTED {#started}
 
 > `readonly` **STARTED**: `"STARTED"` = `"STARTED"`
 
 Started
 
-### SUSPENDED
+### SUSPENDED {#suspended}
 
 > `readonly` **SUSPENDED**: `"SUSPENDED"` = `"SUSPENDED"`
 
 Suspended
 
-### TERMINATED
+### TERMINATED {#terminated}
 
 > `readonly` **TERMINATED**: `"TERMINATED"` = `"TERMINATED"`
 

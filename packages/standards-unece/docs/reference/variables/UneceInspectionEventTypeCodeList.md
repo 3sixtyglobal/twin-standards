@@ -6,7 +6,7 @@ Values for UneceInspectionEvent typeCode property.
 
 ## Type Declaration
 
-### SpecifiedInspectionEvent
+### SpecifiedInspectionEvent {#specifiedinspectionevent}
 
 > `readonly` **SpecifiedInspectionEvent**: `"unece:specifiedInspectionEvent"` = `"unece:specifiedInspectionEvent"`
 

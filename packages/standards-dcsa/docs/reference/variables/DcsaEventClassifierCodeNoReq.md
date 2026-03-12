@@ -9,19 +9,19 @@ Source: `eventClassifierCode` schema in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### ACT
+### ACT {#act}
 
 > `readonly` **ACT**: `"ACT"` = `"ACT"`
 
 Actual.
 
-### PLN
+### PLN {#pln}
 
 > `readonly` **PLN**: `"PLN"` = `"PLN"`
 
 Planned.
 
-### EST
+### EST {#est}
 
 > `readonly` **EST**: `"EST"` = `"EST"`
 

@@ -6,7 +6,7 @@ Values for UneceCustomsValuation typeCode property.
 
 ## Type Declaration
 
-### ApplicableCustomsValuation
+### ApplicableCustomsValuation {#applicablecustomsvaluation}
 
 > `readonly` **ApplicableCustomsValuation**: `"unece:applicableCustomsValuation"` = `"unece:applicableCustomsValuation"`
 

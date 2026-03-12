@@ -6,7 +6,7 @@ Values for UnecePrint typeCode property.
 
 ## Type Declaration
 
-### SpecifiedPrint
+### SpecifiedPrint {#specifiedprint}
 
 > `readonly` **SpecifiedPrint**: `"unece:specifiedPrint"` = `"unece:specifiedPrint"`
 

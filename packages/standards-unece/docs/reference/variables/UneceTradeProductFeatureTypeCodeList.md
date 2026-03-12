@@ -6,7 +6,7 @@ Values for UneceTradeProductFeature typeCode property.
 
 ## Type Declaration
 
-### MarketingFeature
+### MarketingFeature {#marketingfeature}
 
 > `readonly` **MarketingFeature**: `"unece:marketingFeature"` = `"unece:marketingFeature"`
 

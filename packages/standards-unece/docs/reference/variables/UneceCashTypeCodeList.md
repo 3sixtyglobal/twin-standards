@@ -6,7 +6,7 @@ Values for UneceCash typeCode property.
 
 ## Type Declaration
 
-### IdentifiedCash
+### IdentifiedCash {#identifiedcash}
 
 > `readonly` **IdentifiedCash**: `"unece:identifiedCash"` = `"unece:identifiedCash"`
 

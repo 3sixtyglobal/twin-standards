@@ -20,7 +20,7 @@ References:
 
 ## Type Declaration
 
-### HttpsQueryEndpoint
+### HttpsQueryEndpoint {#httpsqueryendpoint}
 
 > `readonly` **HttpsQueryEndpoint**: `"https://schema.twindev.org/dspace/v1/Https-Query-Endpoint"` = `"https://schema.twindev.org/dspace/v1/Https-Query-Endpoint"`
 
@@ -40,7 +40,7 @@ Transfer Flow:
  - https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
  - https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
 
-### HttpsActivityStreamEndpoint
+### HttpsActivityStreamEndpoint {#httpsactivitystreamendpoint}
 
 > `readonly` **HttpsActivityStreamEndpoint**: `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"` = `"https://schema.twindev.org/dspace/v1/Https-Activity-Stream-Endpoint"`
 
@@ -61,7 +61,7 @@ Transfer Flow:
  - https://www.w3.org/TR/activitystreams-core/
  - https://www.w3.org/TR/activitypub/
 
-### HTTP
+### HTTP {#http}
 
 > `readonly` **HTTP**: `"https://w3id.org/idsa/v4.1/HTTP"` = `"https://w3id.org/idsa/v4.1/HTTP"`
 
@@ -78,7 +78,7 @@ This constant is provided for interoperability with IDSA-based systems.
  - https://w3id.org/idsa/v4.1/HTTP
  - https://github.com/International-Data-Spaces-Association/InformationModel
 
-### HTTPS
+### HTTPS {#https}
 
 > `readonly` **HTTPS**: `"https://w3id.org/idsa/v4.1/HTTPS"` = `"https://w3id.org/idsa/v4.1/HTTPS"`
 

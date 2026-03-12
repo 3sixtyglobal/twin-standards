@@ -18,7 +18,7 @@ Helper methods for creating and verifying proofs.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -26,7 +26,7 @@ Runtime name for the class.
 
 ## Methods
 
-### createProof()
+### createProof() {#createproof}
 
 > **createProof**(`unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IJsonWebSignature2020Proof`](../interfaces/IJsonWebSignature2020Proof.md)\>
 
@@ -64,7 +64,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -102,7 +102,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

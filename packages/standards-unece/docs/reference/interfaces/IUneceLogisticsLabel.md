@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/LogisticsLabel
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LogisticsLabel"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedSection?
+### includedSection? {#includedsection}
 
 > `optional` **includedSection**: [`IUneceSection`](IUneceSection.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/includedSection
 
 ***
 
-### layoutTypeCode?
+### layoutTypeCode? {#layouttypecode}
 
 > `optional` **layoutTypeCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/layoutTypeCode
 
 ***
 
-### markingIndicator?
+### markingIndicator? {#markingindicator}
 
 > `optional` **markingIndicator**: `boolean`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/markingIndicator
 
 ***
 
-### seriesEndId?
+### seriesEndId? {#seriesendid}
 
 > `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ***
 
-### seriesStartId?
+### seriesStartId? {#seriesstartid}
 
 > `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/seriesStartId
 
 ***
 
-### sizeCode?
+### sizeCode? {#sizecode}
 
 > `optional` **sizeCode**: `string`
 

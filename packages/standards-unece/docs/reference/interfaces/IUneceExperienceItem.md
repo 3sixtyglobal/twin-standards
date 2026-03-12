@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ExperienceItem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ExperienceItem"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicablePeriod?
+### applicablePeriod? {#applicableperiod}
 
 > `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ***
 
-### applicableQuantityUnitTypeCode?
+### applicableQuantityUnitTypeCode? {#applicablequantityunittypecode}
 
 > `optional` **applicableQuantityUnitTypeCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableQuantityUnitTypeCode
 
 ***
 
-### availablePeriod?
+### availablePeriod? {#availableperiod}
 
 > `optional` **availablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/availablePeriod
 
 ***
 
-### availableProduct?
+### availableProduct? {#availableproduct}
 
 > `optional` **availableProduct**: [`IUneceExperienceProduct`](IUneceExperienceProduct.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/availableProduct
 
 ***
 
-### availableUnitQuantity?
+### availableUnitQuantity? {#availableunitquantity}
 
 > `optional` **availableUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/availableUnitQuantity
 
 ***
 
-### brandName?
+### brandName? {#brandname}
 
 > `optional` **brandName**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/brandName
 
 ***
 
-### calculatedPrice?
+### calculatedPrice? {#calculatedprice}
 
 > `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/calculatedPrice
 
 ***
 
-### capabilityLevel?
+### capabilityLevel? {#capabilitylevel}
 
 > `optional` **capabilityLevel**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/capabilityLevel
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### destination?
+### destination? {#destination}
 
 > `optional` **destination**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/destination
 
 ***
 
-### guestSpecialCareIndicator?
+### guestSpecialCareIndicator? {#guestspecialcareindicator}
 
 > `optional` **guestSpecialCareIndicator**: `boolean`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/guestSpecialCareIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### indemnityClause?
+### indemnityClause? {#indemnityclause}
 
 > `optional` **indemnityClause**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/indemnityClause
 
 ***
 
-### instruction?
+### instruction? {#instruction}
 
 > `optional` **instruction**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/instruction
 
 ***
 
-### lowerPriceLimitAmount?
+### lowerPriceLimitAmount? {#lowerpricelimitamount}
 
 > `optional` **lowerPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/lowerPriceLimitAmount
 
 ***
 
-### maximumGuestQuantity?
+### maximumGuestQuantity? {#maximumguestquantity}
 
 > `optional` **maximumGuestQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/maximumGuestQuantity
 
 ***
 
-### minimumGuestQuantity?
+### minimumGuestQuantity? {#minimumguestquantity}
 
 > `optional` **minimumGuestQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/minimumGuestQuantity
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### reservationGuarantee?
+### reservationGuarantee? {#reservationguarantee}
 
 > `optional` **reservationGuarantee**: `string`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/reservationGuarantee
 
 ***
 
-### responseStatusCode?
+### responseStatusCode? {#responsestatuscode}
 
 > `optional` **responseStatusCode**: `string`
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/responseStatusCode
 
 ***
 
-### specifiedExperienceEvent?
+### specifiedExperienceEvent? {#specifiedexperienceevent}
 
 > `optional` **specifiedExperienceEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)[]
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/specifiedExperienceEvent
 
 ***
 
-### specifiedTradeParty?
+### specifiedTradeParty? {#specifiedtradeparty}
 
 > `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/specifiedTradeParty
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### theme?
+### theme? {#theme}
 
 > `optional` **theme**: `string`
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/theme
 
 ***
 
-### themeTypeCode?
+### themeTypeCode? {#themetypecode}
 
 > `optional` **themeTypeCode**: `string`
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/themeTypeCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -349,7 +349,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### upperPriceLimitAmount?
+### upperPriceLimitAmount? {#upperpricelimitamount}
 
 > `optional` **upperPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -361,7 +361,7 @@ https://vocabulary.uncefact.org/upperPriceLimitAmount
 
 ***
 
-### visitingPeriod?
+### visitingPeriod? {#visitingperiod}
 
 > `optional` **visitingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 

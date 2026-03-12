@@ -6,7 +6,7 @@ Values for UneceRadioactiveMaterial typeCode property.
 
 ## Type Declaration
 
-### RadioactiveMaterial
+### RadioactiveMaterial {#radioactivematerial}
 
 > `readonly` **RadioactiveMaterial**: `"unece:radioactiveMaterial"` = `"unece:radioactiveMaterial"`
 

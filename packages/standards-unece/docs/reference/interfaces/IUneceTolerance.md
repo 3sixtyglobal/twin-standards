@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Tolerance
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Tolerance"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### marginValueNumeric?
+### marginValueNumeric? {#marginvaluenumeric}
 
 > `optional` **marginValueNumeric**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/marginValueNumeric
 
 ***
 
-### marginValuePercent?
+### marginValuePercent? {#marginvaluepercent}
 
 > `optional` **marginValuePercent**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/marginValuePercent
 
 ***
 
-### minusValuePercent?
+### minusValuePercent? {#minusvaluepercent}
 
 > `optional` **minusValuePercent**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/minusValuePercent
 
 ***
 
-### minusValueQuantity?
+### minusValueQuantity? {#minusvaluequantity}
 
 > `optional` **minusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/minusValueQuantity
 
 ***
 
-### surplusValuePercent?
+### surplusValuePercent? {#surplusvaluepercent}
 
 > `optional` **surplusValuePercent**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/surplusValuePercent
 
 ***
 
-### surplusValueQuantity?
+### surplusValueQuantity? {#surplusvaluequantity}
 
 > `optional` **surplusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

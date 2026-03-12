@@ -6,7 +6,7 @@ Values for UneceGeopoliticalRegion typeCode property.
 
 ## Type Declaration
 
-### ExportGeopoliticalRegion
+### ExportGeopoliticalRegion {#exportgeopoliticalregion}
 
 > `readonly` **ExportGeopoliticalRegion**: `"unece:exportGeopoliticalRegion"` = `"unece:exportGeopoliticalRegion"`
 
@@ -17,7 +17,7 @@ The geopolitical region of export for this supply chain consignment.
 
 https://vocabulary.uncefact.org/exportGeopoliticalRegion
 
-### OriginGeopoliticalRegion
+### OriginGeopoliticalRegion {#origingeopoliticalregion}
 
 > `readonly` **OriginGeopoliticalRegion**: `"unece:originGeopoliticalRegion"` = `"unece:originGeopoliticalRegion"`
 

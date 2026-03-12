@@ -6,7 +6,7 @@ Values for UneceSpecifiedChemicalTreatment typeCode property.
 
 ## Type Declaration
 
-### AppliedChemicalTreatment
+### AppliedChemicalTreatment {#appliedchemicaltreatment}
 
 > `readonly` **AppliedChemicalTreatment**: `"unece:appliedChemicalTreatment"` = `"unece:appliedChemicalTreatment"`
 

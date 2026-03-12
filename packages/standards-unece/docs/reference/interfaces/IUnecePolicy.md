@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Policy
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Policy"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 

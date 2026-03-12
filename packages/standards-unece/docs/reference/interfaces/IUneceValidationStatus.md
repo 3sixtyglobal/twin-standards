@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ValidationStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ValidationStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalReason?
+### additionalReason? {#additionalreason}
 
 > `optional` **additionalReason**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalReason
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### validationDocumentStatusConditionCode?
+### validationDocumentStatusConditionCode? {#validationdocumentstatusconditioncode}
 
 > `optional` **validationDocumentStatusConditionCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/validationDocumentStatusConditionCode
 
 ***
 
-### validationStatusReasonCode?
+### validationStatusReasonCode? {#validationstatusreasoncode}
 
 > `optional` **validationStatusReasonCode**: `string`
 

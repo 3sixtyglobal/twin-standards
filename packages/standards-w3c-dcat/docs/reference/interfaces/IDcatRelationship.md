@@ -10,7 +10,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Relationship
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
@@ -18,7 +18,7 @@ The JSON-LD context for the resource.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"dcat:Relationship"`
 
@@ -26,7 +26,7 @@ The type identifier, typically "Relationship".
 
 ***
 
-### dcterms:relation?
+### dcterms:relation? {#dctermsrelation}
 
 > `optional` **dcterms:relation**: `string` \| `IJsonLdNodeObject`
 
@@ -38,7 +38,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_relation
 
 ***
 
-### dcat:hadRole?
+### dcat:hadRole? {#dcathadrole}
 
 > `optional` **dcat:hadRole**: [`IDcatRole`](IDcatRole.md)
 

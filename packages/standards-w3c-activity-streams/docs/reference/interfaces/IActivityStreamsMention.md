@@ -15,7 +15,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mention
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`ActivityStreamsContextType`](../type-aliases/ActivityStreamsContextType.md)
 
@@ -27,7 +27,7 @@ The LD Context.
 
 ***
 
-### href
+### href {#href}
 
 > **href**: `string`
 
@@ -43,7 +43,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string` \| `IJsonLdLanguageMap`
 
@@ -59,7 +59,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-name
 
 ***
 
-### hreflang?
+### hreflang? {#hreflang}
 
 > `optional` **hreflang**: `string`
 
@@ -75,7 +75,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang
 
 ***
 
-### mediaType?
+### mediaType? {#mediatype}
 
 > `optional` **mediaType**: `string`
 
@@ -91,7 +91,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ***
 
-### rel?
+### rel? {#rel}
 
 > `optional` **rel**: `ObjectOrArray`\<`string`\>
 
@@ -107,7 +107,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel
 
 ***
 
-### height?
+### height? {#height}
 
 > `optional` **height**: `number`
 
@@ -123,7 +123,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height
 
 ***
 
-### width?
+### width? {#width}
 
 > `optional` **width**: `number`
 
@@ -139,7 +139,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width
 
 ***
 
-### preview?
+### preview? {#preview}
 
 > `optional` **preview**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
@@ -155,7 +155,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-preview
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string` \| `string`[]
 

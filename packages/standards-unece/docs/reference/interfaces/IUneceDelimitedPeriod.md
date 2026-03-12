@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DelimitedPeriod
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DelimitedPeriod"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### durationMeasure?
+### durationMeasure? {#durationmeasure}
 
 > `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/durationMeasure
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 

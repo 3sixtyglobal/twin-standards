@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PersonIdentity
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PersonIdentity"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### alienRegistrationId?
+### alienRegistrationId? {#alienregistrationid}
 
 > `optional` **alienRegistrationId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/alienRegistrationId
 
 ***
 
-### driversLicenceId?
+### driversLicenceId? {#driverslicenceid}
 
 > `optional` **driversLicenceId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/driversLicenceId
 
 ***
 
-### identityCardId?
+### identityCardId? {#identitycardid}
 
 > `optional` **identityCardId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identityCardId
 
 ***
 
-### passportId?
+### passportId? {#passportid}
 
 > `optional` **passportId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/passportId
 
 ***
 
-### socialSecurityId?
+### socialSecurityId? {#socialsecurityid}
 
 > `optional` **socialSecurityId**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/socialSecurityId
 
 ***
 
-### specifiedProprietaryIdentity?
+### specifiedProprietaryIdentity? {#specifiedproprietaryidentity}
 
 > `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 

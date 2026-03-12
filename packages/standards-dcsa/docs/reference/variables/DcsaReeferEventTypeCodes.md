@@ -8,13 +8,13 @@ Source: `reeferEventTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### MEAS
+### MEAS {#meas}
 
 > `readonly` **MEAS**: `"MEAS"` = `"MEAS"`
 
 Measured.
 
-### ADJU
+### ADJU {#adju}
 
 > `readonly` **ADJU**: `"ADJU"` = `"ADJU"`
 

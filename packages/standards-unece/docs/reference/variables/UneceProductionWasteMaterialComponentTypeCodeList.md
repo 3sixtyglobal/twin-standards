@@ -6,7 +6,7 @@ Values for UneceProductionWasteMaterialComponent typeCode property.
 
 ## Type Declaration
 
-### IncludedProductionWasteMaterialComponent
+### IncludedProductionWasteMaterialComponent {#includedproductionwastematerialcomponent}
 
 > `readonly` **IncludedProductionWasteMaterialComponent**: `"unece:includedProductionWasteMaterialComponent"` = `"unece:includedProductionWasteMaterialComponent"`
 

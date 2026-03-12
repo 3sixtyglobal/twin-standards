@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/SpecifiedChemicalTreatment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedChemicalTreatment"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### specifiedProcessCertificate?
+### specifiedProcessCertificate? {#specifiedprocesscertificate}
 
 > `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### usedChemical?
+### usedChemical? {#usedchemical}
 
 > `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)[]
 

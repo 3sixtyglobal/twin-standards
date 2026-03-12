@@ -6,7 +6,7 @@ Values for UneceObservationObjectiveParameter typeCode property.
 
 ## Type Declaration
 
-### InterpretationResultApplicableParameter
+### InterpretationResultApplicableParameter {#interpretationresultapplicableparameter}
 
 > `readonly` **InterpretationResultApplicableParameter**: `"unece:interpretationResultApplicableParameter"` = `"unece:interpretationResultApplicableParameter"`
 

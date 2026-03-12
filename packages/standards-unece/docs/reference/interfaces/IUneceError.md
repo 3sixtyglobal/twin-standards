@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Error
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Error"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedEvent?
+### associatedEvent? {#associatedevent}
 
 > `optional` **associatedEvent**: [`IUneceCorrectiveEvent`](IUneceCorrectiveEvent.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedEvent
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### reasonCode?
+### reasonCode? {#reasoncode}
 
 > `optional` **reasonCode**: `string`
 

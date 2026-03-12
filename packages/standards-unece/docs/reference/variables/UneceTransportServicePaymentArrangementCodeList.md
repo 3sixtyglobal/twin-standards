@@ -6,25 +6,25 @@ A character string used to represent a transport service payment arrangement.
 
 ## Type Declaration
 
-### PayableElsewhere
+### PayableElsewhere {#payableelsewhere}
 
 > `readonly` **PayableElsewhere**: `"unece:TransportServicePaymentArrangementCodeList#A"` = `"unece:TransportServicePaymentArrangementCodeList#A"`
 
 Payable elsewhere: A.
 
-### ThirdPartyToPay
+### ThirdPartyToPay {#thirdpartytopay}
 
 > `readonly` **ThirdPartyToPay**: `"unece:TransportServicePaymentArrangementCodeList#B"` = `"unece:TransportServicePaymentArrangementCodeList#B"`
 
 Third party to pay: B.
 
-### Collect
+### Collect {#collect}
 
 > `readonly` **Collect**: `"unece:TransportServicePaymentArrangementCodeList#C"` = `"unece:TransportServicePaymentArrangementCodeList#C"`
 
 Collect: C.
 
-### Prepaid
+### Prepaid {#prepaid}
 
 > `readonly` **Prepaid**: `"unece:TransportServicePaymentArrangementCodeList#P"` = `"unece:TransportServicePaymentArrangementCodeList#P"`
 

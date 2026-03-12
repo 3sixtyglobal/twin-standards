@@ -5,7 +5,7 @@ Spec https://www.w3.org/TR/did-core/#did-document-properties.
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: `"https://www.w3.org/ns/did/v1"` \| \[`"https://www.w3.org/ns/did/v1"`, `...IJsonLdContextDefinitionElement[]`\]
 
@@ -13,7 +13,7 @@ The context for the document.
 
 ***
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -21,7 +21,7 @@ The id for the document.
 
 ***
 
-### alsoKnownAs?
+### alsoKnownAs? {#alsoknownas}
 
 > `optional` **alsoKnownAs**: `string` \| `string`[]
 
@@ -29,7 +29,7 @@ Aliases for the document.
 
 ***
 
-### controller?
+### controller? {#controller}
 
 > `optional` **controller**: `string` \| `string`[]
 
@@ -37,7 +37,7 @@ The controller for the document.
 
 ***
 
-### verificationMethod?
+### verificationMethod? {#verificationmethod}
 
 > `optional` **verificationMethod**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -45,7 +45,7 @@ The verification methods.
 
 ***
 
-### authentication?
+### authentication? {#authentication}
 
 > `optional` **authentication**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -53,7 +53,7 @@ The authentication methods.
 
 ***
 
-### assertionMethod?
+### assertionMethod? {#assertionmethod}
 
 > `optional` **assertionMethod**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -61,7 +61,7 @@ The assertion methods.
 
 ***
 
-### keyAgreement?
+### keyAgreement? {#keyagreement}
 
 > `optional` **keyAgreement**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -69,7 +69,7 @@ The key agreements.
 
 ***
 
-### capabilityInvocation?
+### capabilityInvocation? {#capabilityinvocation}
 
 > `optional` **capabilityInvocation**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -77,7 +77,7 @@ The capability invocations.
 
 ***
 
-### capabilityDelegation?
+### capabilityDelegation? {#capabilitydelegation}
 
 > `optional` **capabilityDelegation**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
@@ -85,7 +85,7 @@ The capability delegations.
 
 ***
 
-### service?
+### service? {#service}
 
 > `optional` **service**: [`IDidService`](IDidService.md)[]
 

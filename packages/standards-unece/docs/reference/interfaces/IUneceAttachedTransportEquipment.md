@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AttachedTransportEquipment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AttachedTransportEquipment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### characteristic?
+### characteristic? {#characteristic}
 
 > `optional` **characteristic**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### transportEquipmentCategoryCode?
+### transportEquipmentCategoryCode? {#transportequipmentcategorycode}
 
 > `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/transportEquipmentCategoryCode
 
 ***
 
-### transportEquipmentSizeTypeCharacteristicCode?
+### transportEquipmentSizeTypeCharacteristicCode? {#transportequipmentsizetypecharacteristiccode}
 
 > `optional` **transportEquipmentSizeTypeCharacteristicCode**: [`UneceTransportEquipmentSizeTypeCodeList`](../type-aliases/UneceTransportEquipmentSizeTypeCodeList.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/transportEquipmentSizeTypeCharacteristicCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

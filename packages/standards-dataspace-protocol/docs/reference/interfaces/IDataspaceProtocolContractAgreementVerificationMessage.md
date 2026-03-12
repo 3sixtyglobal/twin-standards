@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#cont
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ The JSON-LD context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"ContractAgreementVerificationMessage"`
 
@@ -21,7 +21,7 @@ The type of the message.
 
 ***
 
-### providerPid
+### providerPid {#providerpid}
 
 > **providerPid**: `string`
 
@@ -29,7 +29,7 @@ The provider id for the contract.
 
 ***
 
-### consumerPid
+### consumerPid {#consumerpid}
 
 > **consumerPid**: `string`
 

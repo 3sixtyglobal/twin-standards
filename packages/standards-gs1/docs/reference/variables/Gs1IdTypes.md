@@ -6,121 +6,121 @@ GS1 EPC Identifiers.
 
 ## Type Declaration
 
-### Gtin
+### Gtin {#gtin}
 
 > `readonly` **Gtin**: `"sgtin"` = `"sgtin"`
 
 GTIN - Trade Item.
 
-### Sscc
+### Sscc {#sscc}
 
 > `readonly` **Sscc**: `"sscc"` = `"sscc"`
 
 SSCC - Logistics Unit.
 
-### Gln
+### Gln {#gln}
 
 > `readonly` **Gln**: `"sgln"` = `"sgln"`
 
 GLN - Location.
 
-### Grai
+### Grai {#grai}
 
 > `readonly` **Grai**: `"grai"` = `"grai"`
 
 GRAI - Returnable Asset.
 
-### Giai
+### Giai {#giai}
 
 > `readonly` **Giai**: `"giai"` = `"giai"`
 
 GIAI - Fixed Asset.
 
-### GsrnRecipient
+### GsrnRecipient {#gsrnrecipient}
 
 > `readonly` **GsrnRecipient**: `"gsrn"` = `"gsrn"`
 
 GSRN - Recipient - Hospital Admission or Club Membership.
 
-### GsrnProvider
+### GsrnProvider {#gsrnprovider}
 
 > `readonly` **GsrnProvider**: `"gsrnp"` = `"gsrnp"`
 
 GSRN - Provider - Medical Caregiver or Loyalty Club.
 
-### Gtdi
+### Gtdi {#gtdi}
 
 > `readonly` **Gtdi**: `"gtdi"` = `"gtdi"`
 
 GDTI - Document.
 
-### None
+### None {#none}
 
 > `readonly` **None**: `"cpi"` = `"cpi"`
 
 Technical Industries for unique identification of parts and components.
 
-### Gcn
+### Gcn {#gcn}
 
 > `readonly` **Gcn**: `"sgcn"` = `"sgcn"`
 
 GCN - Coupon.
 
-### Ginc
+### Ginc {#ginc}
 
 > `readonly` **Ginc**: `"ginc"` = `"ginc"`
 
 Logical grouping of goods intended for transport as a whole assigned by a freight forwarder.
 
-### Gsin
+### Gsin {#gsin}
 
 > `readonly` **Gsin**: `"gsin"` = `"gsin"`
 
 Logical grouping of logistic units travelling under one dispatch advice and/or bill of lading.
 
-### Ai
+### Ai {#ai}
 
 > `readonly` **Ai**: `"itip"` = `"itip"`
 
 One of multiple pieces comprising, and subordinate to, a whole.
 
-### GtinTpx
+### GtinTpx {#gtintpx}
 
 > `readonly` **GtinTpx**: `"upui"` = `"upui"`
 
 Pack identification to combat illicit trade.
 
-### GlnAi
+### GlnAi {#glnai}
 
 > `readonly` **GlnAi**: `"pgln"` = `"pgln"`
 
 Identification of Economic Operator, Owning party or processing party in CoC/CoO.
 
-### Unspecified
+### Unspecified {#unspecified}
 
 > `readonly` **Unspecified**: `"gid"` = `"gid"`
 
 Unspecified.
 
-### UsDod
+### UsDod {#usdod}
 
 > `readonly` **UsDod**: `"usdod"` = `"usdod"`
 
 US Dept of Defense supply chain.
 
-### AerospaceDefence
+### AerospaceDefence {#aerospacedefence}
 
 > `readonly` **AerospaceDefence**: `"adi"` = `"adi"`
 
 Aerospace and Defense sector for unique identification of aircraft and other parts and items.
 
-### Intermodal
+### Intermodal {#intermodal}
 
 > `readonly` **Intermodal**: `"bic"` = `"bic"`
 
 Intermodal shipping containers.
 
-### Vessel
+### Vessel {#vessel}
 
 > `readonly` **Vessel**: `"imovn"` = `"imovn"`
 

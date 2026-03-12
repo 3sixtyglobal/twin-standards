@@ -9,433 +9,433 @@ Use the union type `EpcisMeasurementTypes` when you want to restrict a field to 
 
 ## Type Declaration
 
-### AbsoluteHumidity
+### AbsoluteHumidity {#absolutehumidity}
 
 > `readonly` **AbsoluteHumidity**: `"AbsoluteHumidity"` = `"AbsoluteHumidity"`
 
 Measurement type "AbsoluteHumidity".
 
-### AbsorbedDose
+### AbsorbedDose {#absorbeddose}
 
 > `readonly` **AbsorbedDose**: `"AbsorbedDose"` = `"AbsorbedDose"`
 
 Measurement type "AbsorbedDose".
 
-### AbsorbedDoseRate
+### AbsorbedDoseRate {#absorbeddoserate}
 
 > `readonly` **AbsorbedDoseRate**: `"AbsorbedDoseRate"` = `"AbsorbedDoseRate"`
 
 Measurement type "AbsorbedDoseRate".
 
-### Acceleration
+### Acceleration {#acceleration}
 
 > `readonly` **Acceleration**: `"Acceleration"` = `"Acceleration"`
 
 Measurement type "Acceleration".
 
-### Radioactivity
+### Radioactivity {#radioactivity}
 
 > `readonly` **Radioactivity**: `"Radioactivity"` = `"Radioactivity"`
 
 Measurement type "Radioactivity".
 
-### Altitude
+### Altitude {#altitude}
 
 > `readonly` **Altitude**: `"Altitude"` = `"Altitude"`
 
 Measurement type "Altitude".
 
-### AmountOfSubstance
+### AmountOfSubstance {#amountofsubstance}
 
 > `readonly` **AmountOfSubstance**: `"AmountOfSubstance"` = `"AmountOfSubstance"`
 
 Measurement type "AmountOfSubstance".
 
-### AmountOfSubstancePerUnitVolume
+### AmountOfSubstancePerUnitVolume {#amountofsubstanceperunitvolume}
 
 > `readonly` **AmountOfSubstancePerUnitVolume**: `"AmountOfSubstancePerUnitVolume"` = `"AmountOfSubstancePerUnitVolume"`
 
 Measurement type "AmountOfSubstancePerUnitVolume".
 
-### Angle
+### Angle {#angle}
 
 > `readonly` **Angle**: `"Angle"` = `"Angle"`
 
 Measurement type "Angle".
 
-### AngularAcceleration
+### AngularAcceleration {#angularacceleration}
 
 > `readonly` **AngularAcceleration**: `"AngularAcceleration"` = `"AngularAcceleration"`
 
 Measurement type "AngularAcceleration".
 
-### AngularMomentum
+### AngularMomentum {#angularmomentum}
 
 > `readonly` **AngularMomentum**: `"AngularMomentum"` = `"AngularMomentum"`
 
 Measurement type "AngularMomentum".
 
-### AngularVelocity
+### AngularVelocity {#angularvelocity}
 
 > `readonly` **AngularVelocity**: `"AngularVelocity"` = `"AngularVelocity"`
 
 Measurement type "AngularVelocity".
 
-### Area
+### Area {#area}
 
 > `readonly` **Area**: `"Area"` = `"Area"`
 
 Measurement type "Area".
 
-### Capacitance
+### Capacitance {#capacitance}
 
 > `readonly` **Capacitance**: `"Capacitance"` = `"Capacitance"`
 
 Measurement type "Capacitance".
 
-### Conductance
+### Conductance {#conductance}
 
 > `readonly` **Conductance**: `"Conductance"` = `"Conductance"`
 
 Measurement type "Conductance".
 
-### Conductivity
+### Conductivity {#conductivity}
 
 > `readonly` **Conductivity**: `"Conductivity"` = `"Conductivity"`
 
 Measurement type "Conductivity".
 
-### Count
+### Count {#count}
 
 > `readonly` **Count**: `"Count"` = `"Count"`
 
 Measurement type "Count".
 
-### Density
+### Density {#density}
 
 > `readonly` **Density**: `"Density"` = `"Density"`
 
 Measurement type "Density".
 
-### Dimensionless
+### Dimensionless {#dimensionless}
 
 > `readonly` **Dimensionless**: `"Dimensionless"` = `"Dimensionless"`
 
 Measurement type "Dimensionless".
 
-### DoseEquivalent
+### DoseEquivalent {#doseequivalent}
 
 > `readonly` **DoseEquivalent**: `"DoseEquivalent"` = `"DoseEquivalent"`
 
 Measurement type "DoseEquivalent".
 
-### DoseEquivalentRate
+### DoseEquivalentRate {#doseequivalentrate}
 
 > `readonly` **DoseEquivalentRate**: `"DoseEquivalentRate"` = `"DoseEquivalentRate"`
 
 Measurement type "DoseEquivalentRate".
 
-### DynamicViscosity
+### DynamicViscosity {#dynamicviscosity}
 
 > `readonly` **DynamicViscosity**: `"DynamicViscosity"` = `"DynamicViscosity"`
 
 Measurement type "DynamicViscosity".
 
-### ElectricCharge
+### ElectricCharge {#electriccharge}
 
 > `readonly` **ElectricCharge**: `"ElectricCharge"` = `"ElectricCharge"`
 
 Measurement type "ElectricCharge".
 
-### ElectricCurrent
+### ElectricCurrent {#electriccurrent}
 
 > `readonly` **ElectricCurrent**: `"ElectricCurrent"` = `"ElectricCurrent"`
 
 Measurement type "ElectricCurrent".
 
-### ElectricCurrentDensity
+### ElectricCurrentDensity {#electriccurrentdensity}
 
 > `readonly` **ElectricCurrentDensity**: `"ElectricCurrentDensity"` = `"ElectricCurrentDensity"`
 
 Measurement type "ElectricCurrentDensity".
 
-### ElectricFieldStrength
+### ElectricFieldStrength {#electricfieldstrength}
 
 > `readonly` **ElectricFieldStrength**: `"ElectricFieldStrength"` = `"ElectricFieldStrength"`
 
 Measurement type "ElectricFieldStrength".
 
-### Energy
+### Energy {#energy}
 
 > `readonly` **Energy**: `"Energy"` = `"Energy"`
 
 Measurement type "Energy".
 
-### Exposure
+### Exposure {#exposure}
 
 > `readonly` **Exposure**: `"Exposure"` = `"Exposure"`
 
 Measurement type "Exposure".
 
-### Force
+### Force {#force}
 
 > `readonly` **Force**: `"Force"` = `"Force"`
 
 Measurement type "Force".
 
-### Frequency
+### Frequency {#frequency}
 
 > `readonly` **Frequency**: `"Frequency"` = `"Frequency"`
 
 Measurement type "Frequency".
 
-### Illuminance
+### Illuminance {#illuminance}
 
 > `readonly` **Illuminance**: `"Illuminance"` = `"Illuminance"`
 
 Measurement type "Illuminance".
 
-### Inductance
+### Inductance {#inductance}
 
 > `readonly` **Inductance**: `"Inductance"` = `"Inductance"`
 
 Measurement type "Inductance".
 
-### Irradiance
+### Irradiance {#irradiance}
 
 > `readonly` **Irradiance**: `"Irradiance"` = `"Irradiance"`
 
 Measurement type "Irradiance".
 
-### KinematicViscosity
+### KinematicViscosity {#kinematicviscosity}
 
 > `readonly` **KinematicViscosity**: `"KinematicViscosity"` = `"KinematicViscosity"`
 
 Measurement type "KinematicViscosity".
 
-### Length
+### Length {#length}
 
 > `readonly` **Length**: `"Length"` = `"Length"`
 
 Measurement type "Length".
 
-### LinearMomentum
+### LinearMomentum {#linearmomentum}
 
 > `readonly` **LinearMomentum**: `"LinearMomentum"` = `"LinearMomentum"`
 
 Measurement type "LinearMomentum".
 
-### Luminance
+### Luminance {#luminance}
 
 > `readonly` **Luminance**: `"Luminance"` = `"Luminance"`
 
 Measurement type "Luminance".
 
-### LuminousFlux
+### LuminousFlux {#luminousflux}
 
 > `readonly` **LuminousFlux**: `"LuminousFlux"` = `"LuminousFlux"`
 
 Measurement type "LuminousFlux".
 
-### LuminousIntensity
+### LuminousIntensity {#luminousintensity}
 
 > `readonly` **LuminousIntensity**: `"LuminousIntensity"` = `"LuminousIntensity"`
 
 Measurement type "LuminousIntensity".
 
-### MagneticFlux
+### MagneticFlux {#magneticflux}
 
 > `readonly` **MagneticFlux**: `"MagneticFlux"` = `"MagneticFlux"`
 
 Measurement type "MagneticFlux".
 
-### MagneticFluxDensity
+### MagneticFluxDensity {#magneticfluxdensity}
 
 > `readonly` **MagneticFluxDensity**: `"MagneticFluxDensity"` = `"MagneticFluxDensity"`
 
 Measurement type "MagneticFluxDensity".
 
-### MagneticVectorPotential
+### MagneticVectorPotential {#magneticvectorpotential}
 
 > `readonly` **MagneticVectorPotential**: `"MagneticVectorPotential"` = `"MagneticVectorPotential"`
 
 Measurement type "MagneticVectorPotential".
 
-### Mass
+### Mass {#mass}
 
 > `readonly` **Mass**: `"Mass"` = `"Mass"`
 
 Measurement type "Mass".
 
-### MassConcentration
+### MassConcentration {#massconcentration}
 
 > `readonly` **MassConcentration**: `"MassConcentration"` = `"MassConcentration"`
 
 Measurement type "MassConcentration".
 
-### MassFlowRate
+### MassFlowRate {#massflowrate}
 
 > `readonly` **MassFlowRate**: `"MassFlowRate"` = `"MassFlowRate"`
 
 Measurement type "MassFlowRate".
 
-### MassPerAreaTime
+### MassPerAreaTime {#massperareatime}
 
 > `readonly` **MassPerAreaTime**: `"MassPerAreaTime"` = `"MassPerAreaTime"`
 
 Measurement type "MassPerAreaTime".
 
-### MemoryCapacity
+### MemoryCapacity {#memorycapacity}
 
 > `readonly` **MemoryCapacity**: `"MemoryCapacity"` = `"MemoryCapacity"`
 
 Measurement type "MemoryCapacity".
 
-### MolalityOfSolute
+### MolalityOfSolute {#molalityofsolute}
 
 > `readonly` **MolalityOfSolute**: `"MolalityOfSolute"` = `"MolalityOfSolute"`
 
 Measurement type "MolalityOfSolute".
 
-### MolarEnergy
+### MolarEnergy {#molarenergy}
 
 > `readonly` **MolarEnergy**: `"MolarEnergy"` = `"MolarEnergy"`
 
 Measurement type "MolarEnergy".
 
-### MolarMass
+### MolarMass {#molarmass}
 
 > `readonly` **MolarMass**: `"MolarMass"` = `"MolarMass"`
 
 Measurement type "MolarMass".
 
-### MolarVolume
+### MolarVolume {#molarvolume}
 
 > `readonly` **MolarVolume**: `"MolarVolume"` = `"MolarVolume"`
 
 Measurement type "MolarVolume".
 
-### Power
+### Power {#power}
 
 > `readonly` **Power**: `"Power"` = `"Power"`
 
 Measurement type "Power".
 
-### Pressure
+### Pressure {#pressure}
 
 > `readonly` **Pressure**: `"Pressure"` = `"Pressure"`
 
 Measurement type "Pressure".
 
-### RadiantFlux
+### RadiantFlux {#radiantflux}
 
 > `readonly` **RadiantFlux**: `"RadiantFlux"` = `"RadiantFlux"`
 
 Measurement type "RadiantFlux".
 
-### RadiantIntensity
+### RadiantIntensity {#radiantintensity}
 
 > `readonly` **RadiantIntensity**: `"RadiantIntensity"` = `"RadiantIntensity"`
 
 Measurement type "RadiantIntensity".
 
-### RelativeHumidity
+### RelativeHumidity {#relativehumidity}
 
 > `readonly` **RelativeHumidity**: `"RelativeHumidity"` = `"RelativeHumidity"`
 
 Measurement type "RelativeHumidity".
 
-### Resistance
+### Resistance {#resistance}
 
 > `readonly` **Resistance**: `"Resistance"` = `"Resistance"`
 
 Measurement type "Resistance".
 
-### Resistivity
+### Resistivity {#resistivity}
 
 > `readonly` **Resistivity**: `"Resistivity"` = `"Resistivity"`
 
 Measurement type "Resistivity".
 
-### SolidAngle
+### SolidAngle {#solidangle}
 
 > `readonly` **SolidAngle**: `"SolidAngle"` = `"SolidAngle"`
 
 Measurement type "SolidAngle".
 
-### SpecificVolume
+### SpecificVolume {#specificvolume}
 
 > `readonly` **SpecificVolume**: `"SpecificVolume"` = `"SpecificVolume"`
 
 Measurement type "SpecificVolume".
 
-### Speed
+### Speed {#speed}
 
 > `readonly` **Speed**: `"Speed"` = `"Speed"`
 
 Measurement type "Speed".
 
-### SurfaceDensity
+### SurfaceDensity {#surfacedensity}
 
 > `readonly` **SurfaceDensity**: `"SurfaceDensity"` = `"SurfaceDensity"`
 
 Measurement type "SurfaceDensity".
 
-### SurfaceTension
+### SurfaceTension {#surfacetension}
 
 > `readonly` **SurfaceTension**: `"SurfaceTension"` = `"SurfaceTension"`
 
 Measurement type "SurfaceTension".
 
-### Temperature
+### Temperature {#temperature}
 
 > `readonly` **Temperature**: `"Temperature"` = `"Temperature"`
 
 Measurement type "Temperature".
 
-### Time
+### Time {#time}
 
 > `readonly` **Time**: `"Time"` = `"Time"`
 
 Measurement type "Time".
 
-### Torque
+### Torque {#torque}
 
 > `readonly` **Torque**: `"Torque"` = `"Torque"`
 
 Measurement type "Torque".
 
-### Voltage
+### Voltage {#voltage}
 
 > `readonly` **Voltage**: `"Voltage"` = `"Voltage"`
 
 Measurement type "Voltage".
 
-### Volume
+### Volume {#volume}
 
 > `readonly` **Volume**: `"Volume"` = `"Volume"`
 
 Measurement type "Volume".
 
-### VolumeFlowRate
+### VolumeFlowRate {#volumeflowrate}
 
 > `readonly` **VolumeFlowRate**: `"VolumeFlowRate"` = `"VolumeFlowRate"`
 
 Measurement type "VolumeFlowRate".
 
-### VolumeFraction
+### VolumeFraction {#volumefraction}
 
 > `readonly` **VolumeFraction**: `"VolumeFraction"` = `"VolumeFraction"`
 
 Measurement type "VolumeFraction".
 
-### VolumetricFlux
+### VolumetricFlux {#volumetricflux}
 
 > `readonly` **VolumetricFlux**: `"VolumetricFlux"` = `"VolumetricFlux"`
 
 Measurement type "VolumetricFlux".
 
-### Wavenumber
+### Wavenumber {#wavenumber}
 
 > `readonly` **Wavenumber**: `"Wavenumber"` = `"Wavenumber"`
 

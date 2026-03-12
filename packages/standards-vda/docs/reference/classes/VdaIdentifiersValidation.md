@@ -14,7 +14,7 @@ Validation for identifier types for VDA.
 
 ## Methods
 
-### jaifId()
+### jaifId() {#jaifid}
 
 > `static` **jaifId**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -48,7 +48,7 @@ True if the value is valid epc.
 
 ***
 
-### jaifIdLocation()
+### jaifIdLocation() {#jaifidlocation}
 
 > `static` **jaifIdLocation**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -82,7 +82,7 @@ True if the value is valid epc.
 
 ***
 
-### jaifIdItem()
+### jaifIdItem() {#jaifiditem}
 
 > `static` **jaifIdItem**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -116,7 +116,7 @@ True if the value is valid epc.
 
 ***
 
-### uriPlp()
+### uriPlp() {#uriplp}
 
 > `static` **uriPlp**(`propertyName`, `value`, `failures`): `value is string`
 
@@ -150,7 +150,7 @@ True if the value is valid epc.
 
 ***
 
-### extractReadPoint()
+### extractReadPoint() {#extractreadpoint}
 
 > `static` **extractReadPoint**(`urn`): [`IVdaReadPoint`](../interfaces/IVdaReadPoint.md) \| `undefined`
 
@@ -172,7 +172,7 @@ The extracted read point object or undefined.
 
 ***
 
-### extractBizLocation()
+### extractBizLocation() {#extractbizlocation}
 
 > `static` **extractBizLocation**(`urn`): [`IVdaBizLocation`](../interfaces/IVdaBizLocation.md) \| `undefined`
 
@@ -194,7 +194,7 @@ The extracted biz location object or undefined.
 
 ***
 
-### extractUriPlp()
+### extractUriPlp() {#extracturiplp}
 
 > `static` **extractUriPlp**(`id`): [`IVdaUriPlates`](../interfaces/IVdaUriPlates.md) \| `undefined`
 
@@ -216,7 +216,7 @@ The VDA URI object or undefined.
 
 ***
 
-### extractIdentifier()
+### extractIdentifier() {#extractidentifier}
 
 > `static` **extractIdentifier**(`epc`): [`IVdaObjectIdentifier`](../interfaces/IVdaObjectIdentifier.md) \| `undefined`
 

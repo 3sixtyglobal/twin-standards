@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/SubordinateLineTradeSettlement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SubordinateLineTradeSettlement"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### amountDirectionCode?
+### amountDirectionCode? {#amountdirectioncode}
 
 > `optional` **amountDirectionCode**: `string`
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/amountDirectionCode
 
 ***
 
-### applicableTax?
+### applicableTax? {#applicabletax}
 
 > `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ***
 
-### billingPeriod?
+### billingPeriod? {#billingperiod}
 
 > `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/billingPeriod
 
 ***
 
-### invoiceReferencedDocument?
+### invoiceReferencedDocument? {#invoicereferenceddocument}
 
 > `optional` **invoiceReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/invoiceReferencedDocument
 
 ***
 
-### purchaseSpecifiedAccountingAccount?
+### purchaseSpecifiedAccountingAccount? {#purchasespecifiedaccountingaccount}
 
 > `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 
 ***
 
-### specifiedAllowanceCharge?
+### specifiedAllowanceCharge? {#specifiedallowancecharge}
 
 > `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/specifiedAllowanceCharge
 
 ***
 
-### specifiedFinancialAdjustment?
+### specifiedFinancialAdjustment? {#specifiedfinancialadjustment}
 
 > `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)[]
 

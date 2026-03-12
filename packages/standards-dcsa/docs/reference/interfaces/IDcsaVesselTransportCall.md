@@ -14,7 +14,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### transportCallReference
+### transportCallReference {#transportcallreference}
 
 > **transportCallReference**: `string`
 
@@ -26,7 +26,7 @@ Unique reference for the transport call.
 
 ***
 
-### transportCallSequenceNumber?
+### transportCallSequenceNumber? {#transportcallsequencenumber}
 
 > `optional` **transportCallSequenceNumber**: `number`
 
@@ -38,7 +38,7 @@ Sequence number of the transport call.
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `unknown`
 
@@ -52,7 +52,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ***
 
-### facilityTypeCode?
+### facilityTypeCode? {#facilitytypecode}
 
 > `optional` **facilityTypeCode**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
 
@@ -64,7 +64,7 @@ Facility type code.
 
 ***
 
-### modeOfTransport
+### modeOfTransport {#modeoftransport}
 
 > **modeOfTransport**: `"VESSEL"`
 
@@ -72,7 +72,7 @@ Discriminator for the transport mode.
 
 ***
 
-### portVisitReference?
+### portVisitReference? {#portvisitreference}
 
 > `optional` **portVisitReference**: `string`
 
@@ -80,7 +80,7 @@ Port visit reference.
 
 ***
 
-### carrierServiceCode?
+### carrierServiceCode? {#carrierservicecode}
 
 > `optional` **carrierServiceCode**: `string`
 
@@ -88,7 +88,7 @@ Carrier service code.
 
 ***
 
-### universalServiceReference?
+### universalServiceReference? {#universalservicereference}
 
 > `optional` **universalServiceReference**: `string`
 
@@ -96,7 +96,7 @@ Universal service reference.
 
 ***
 
-### carrierExportVoyageNumber?
+### carrierExportVoyageNumber? {#carrierexportvoyagenumber}
 
 > `optional` **carrierExportVoyageNumber**: `string`
 
@@ -104,7 +104,7 @@ Carrier export voyage number.
 
 ***
 
-### universalExportVoyageReference?
+### universalExportVoyageReference? {#universalexportvoyagereference}
 
 > `optional` **universalExportVoyageReference**: `string`
 
@@ -112,7 +112,7 @@ Universal export voyage reference.
 
 ***
 
-### carrierImportVoyageNumber?
+### carrierImportVoyageNumber? {#carrierimportvoyagenumber}
 
 > `optional` **carrierImportVoyageNumber**: `string`
 
@@ -120,7 +120,7 @@ Carrier import voyage number.
 
 ***
 
-### universalImportVoyageReference?
+### universalImportVoyageReference? {#universalimportvoyagereference}
 
 > `optional` **universalImportVoyageReference**: `string`
 
@@ -128,7 +128,7 @@ Universal import voyage reference.
 
 ***
 
-### vessel?
+### vessel? {#vessel}
 
 > `optional` **vessel**: [`IDcsaVessel`](IDcsaVessel.md)
 

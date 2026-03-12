@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/NegotiationExchange
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"NegotiationExchange"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### protocolTypeCode?
+### protocolTypeCode? {#protocoltypecode}
 
 > `optional` **protocolTypeCode**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/protocolTypeCode
 
 ***
 
-### responseDueDateTime?
+### responseDueDateTime? {#responseduedatetime}
 
 > `optional` **responseDueDateTime**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/responseDueDateTime
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### sessionId
+### sessionId {#sessionid}
 
 > **sessionId**: `string` \| `IJsonLdValueObject`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/sessionId
 
 ***
 
-### specifiedContext?
+### specifiedContext? {#specifiedcontext}
 
 > `optional` **specifiedContext**: [`IUneceNegotiationContext`](IUneceNegotiationContext.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/specifiedContext
 
 ***
 
-### specifiedIssue?
+### specifiedIssue? {#specifiedissue}
 
 > `optional` **specifiedIssue**: [`IUneceIssue`](IUneceIssue.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/specifiedIssue
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LinearRing
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LinearRing"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic?
+### associatedGeographicalObjectCharacteristic? {#associatedgeographicalobjectcharacteristic}
 
 > `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### coordinate?
+### coordinate? {#coordinate}
 
 > `optional` **coordinate**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/coordinate
 
 ***
 
-### coordinateDirectPosition?
+### coordinateDirectPosition? {#coordinatedirectposition}
 
 > `optional` **coordinateDirectPosition**: [`IUneceDirectPosition`](IUneceDirectPosition.md)
 

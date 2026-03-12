@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProtectionMeans
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProtectionMeans"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acceptedIndicator?
+### acceptedIndicator? {#acceptedindicator}
 
 > `optional` **acceptedIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acceptedIndicator
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### item?
+### item? {#item}
 
 > `optional` **item**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/item
 
 ***
 
-### restriction?
+### restriction? {#restriction}
 
 > `optional` **restriction**: `string`
 

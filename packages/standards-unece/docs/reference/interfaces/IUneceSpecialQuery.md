@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecialQuery
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecialQuery"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latestResponseDateTime?
+### latestResponseDateTime? {#latestresponsedatetime}
 
 > `optional` **latestResponseDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/latestResponseDateTime
 
 ***
 
-### responseDateTime?
+### responseDateTime? {#responsedatetime}
 
 > `optional` **responseDateTime**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/responseDateTime
 
 ***
 
-### responseStatusCode?
+### responseStatusCode? {#responsestatuscode}
 
 > `optional` **responseStatusCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/responseStatusCode
 
 ***
 
-### subject?
+### subject? {#subject}
 
 > `optional` **subject**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/subject
 
 ***
 
-### submittedDateTime?
+### submittedDateTime? {#submitteddatetime}
 
 > `optional` **submittedDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/submittedDateTime
 
 ***
 
-### submittingPersonName?
+### submittingPersonName? {#submittingpersonname}
 
 > `optional` **submittingPersonName**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/submittingPersonName
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

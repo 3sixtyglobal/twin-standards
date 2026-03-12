@@ -6,7 +6,7 @@ Values for UneceSustainabilityCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableSustainabilityCharacteristic
+### ApplicableSustainabilityCharacteristic {#applicablesustainabilitycharacteristic}
 
 > `readonly` **ApplicableSustainabilityCharacteristic**: `"unece:applicableSustainabilityCharacteristic"` = `"unece:applicableSustainabilityCharacteristic"`
 
@@ -46,7 +46,7 @@ A sustainability characteristic applicable to this transportation waste material
 
 https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
-### IncludedCharacteristic
+### IncludedCharacteristic {#includedcharacteristic}
 
 > `readonly` **IncludedCharacteristic**: `"unece:includedCharacteristic"` = `"unece:includedCharacteristic"`
 
@@ -56,7 +56,7 @@ A sustainability characteristic included in this sustainability assertion.
 
 https://vocabulary.uncefact.org/includedCharacteristic
 
-### RelatedSustainabilityCharacteristic
+### RelatedSustainabilityCharacteristic {#relatedsustainabilitycharacteristic}
 
 > `readonly` **RelatedSustainabilityCharacteristic**: `"unece:relatedSustainabilityCharacteristic"` = `"unece:relatedSustainabilityCharacteristic"`
 

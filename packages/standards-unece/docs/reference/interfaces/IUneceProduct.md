@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Product
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Product"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### buyerAssignedId?
+### buyerAssignedId? {#buyerassignedid}
 
 > `optional` **buyerAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/buyerAssignedId
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### globalId?
+### globalId? {#globalid}
 
 > `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/globalId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### industryAssignedId?
+### industryAssignedId? {#industryassignedid}
 
 > `optional` **industryAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/industryAssignedId
 
 ***
 
-### manufacturerAssignedId?
+### manufacturerAssignedId? {#manufacturerassignedid}
 
 > `optional` **manufacturerAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/manufacturerAssignedId
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### relationshipTypeCode?
+### relationshipTypeCode? {#relationshiptypecode}
 
 > `optional` **relationshipTypeCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/relationshipTypeCode
 
 ***
 
-### sellerAssignedId?
+### sellerAssignedId? {#sellerassignedid}
 
 > `optional` **sellerAssignedId**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/sellerAssignedId
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SecurityTag
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SecurityTag"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### locationCode?
+### locationCode? {#locationcode}
 
 > `optional` **locationCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/locationCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

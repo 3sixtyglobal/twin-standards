@@ -6,7 +6,7 @@ Values for UneceRange typeCode property.
 
 ## Type Declaration
 
-### DefinedRange
+### DefinedRange {#definedrange}
 
 > `readonly` **DefinedRange**: `"unece:definedRange"` = `"unece:definedRange"`
 
@@ -16,7 +16,7 @@ A defined range specified for this operational parameter.
 
 https://vocabulary.uncefact.org/definedRange
 
-### RequestedRange
+### RequestedRange {#requestedrange}
 
 > `readonly` **RequestedRange**: `"unece:requestedRange"` = `"unece:requestedRange"`
 
@@ -26,7 +26,7 @@ A requested range specified for this control setting parameter.
 
 https://vocabulary.uncefact.org/requestedRange
 
-### ValueRange
+### ValueRange {#valuerange}
 
 > `readonly` **ValueRange**: `"unece:valueRange"` = `"unece:valueRange"`
 

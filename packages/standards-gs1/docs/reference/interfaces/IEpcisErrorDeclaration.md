@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/ErrorDeclaration
 
 ## Properties
 
-### declarationTime
+### declarationTime {#declarationtime}
 
 > **declarationTime**: `string`
 
@@ -17,7 +17,7 @@ The date and time at which the declaration of error is made.
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -27,7 +27,7 @@ Use [EpcisErrorReasonTypes](../variables/EpcisErrorReasonTypes.md) for known val
 
 ***
 
-### correctiveEventIDs?
+### correctiveEventIDs? {#correctiveeventids}
 
 > `optional` **correctiveEventIDs**: `string`[]
 

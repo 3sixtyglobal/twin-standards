@@ -6,7 +6,7 @@ Values for UneceIssue typeCode property.
 
 ## Type Declaration
 
-### SpecifiedIssue
+### SpecifiedIssue {#specifiedissue}
 
 > `readonly` **SpecifiedIssue**: `"unece:specifiedIssue"` = `"unece:specifiedIssue"`
 

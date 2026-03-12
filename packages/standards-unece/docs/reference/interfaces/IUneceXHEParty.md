@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/XHEParty
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"XHEParty"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### specifiedXHEIdentity
+### specifiedXHEIdentity {#specifiedxheidentity}
 
 > **specifiedXHEIdentity**: [`IUneceXHEIdentity`](IUneceXHEIdentity.md)[]
 

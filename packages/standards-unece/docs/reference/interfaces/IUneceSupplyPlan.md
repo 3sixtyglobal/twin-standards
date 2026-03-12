@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SupplyPlan
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SupplyPlan"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualQuantity?
+### actualQuantity? {#actualquantity}
 
 > `optional` **actualQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ***
 
-### applicablePeriod?
+### applicablePeriod? {#applicableperiod}
 
 > `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ***
 
-### availableQuantity?
+### availableQuantity? {#availablequantity}
 
 > `optional` **availableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/availableQuantity
 
 ***
 
-### confirmedDeliveryEvent?
+### confirmedDeliveryEvent? {#confirmeddeliveryevent}
 
 > `optional` **confirmedDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/confirmedDeliveryEvent
 
 ***
 
-### contractDocument?
+### contractDocument? {#contractdocument}
 
 > `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/contractDocument
 
 ***
 
-### deliveryNoteDocument?
+### deliveryNoteDocument? {#deliverynotedocument}
 
 > `optional` **deliveryNoteDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/deliveryNoteDocument
 
 ***
 
-### deliverySupplyChainEvent?
+### deliverySupplyChainEvent? {#deliverysupplychainevent}
 
 > `optional` **deliverySupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/deliverySupplyChainEvent
 
 ***
 
-### latestSynchronizationDateTime?
+### latestSynchronizationDateTime? {#latestsynchronizationdatetime}
 
 > `optional` **latestSynchronizationDateTime**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/latestSynchronizationDateTime
 
 ***
 
-### minusToleranceQuantity?
+### minusToleranceQuantity? {#minustolerancequantity}
 
 > `optional` **minusToleranceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/minusToleranceQuantity
 
 ***
 
-### plannedQuantity?
+### plannedQuantity? {#plannedquantity}
 
 > `optional` **plannedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/plannedQuantity
 
 ***
 
-### plusToleranceQuantity?
+### plusToleranceQuantity? {#plustolerancequantity}
 
 > `optional` **plusToleranceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/plusToleranceQuantity
 
 ***
 
-### projectedSpecifiedPeriod?
+### projectedSpecifiedPeriod? {#projectedspecifiedperiod}
 
 > `optional` **projectedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/projectedSpecifiedPeriod
 
 ***
 
-### requiredQuantity?
+### requiredQuantity? {#requiredquantity}
 
 > `optional` **requiredQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/requiredQuantity
 
 ***
 
-### scheduledDeliveryEvent?
+### scheduledDeliveryEvent? {#scheduleddeliveryevent}
 
 > `optional` **scheduledDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/scheduledDeliveryEvent
 
 ***
 
-### shipToParty?
+### shipToParty? {#shiptoparty}
 
 > `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### specifiedSpecifiedPeriod?
+### specifiedSpecifiedPeriod? {#specifiedspecifiedperiod}
 
 > `optional` **specifiedSpecifiedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/specifiedSpecifiedPeriod
 
 ***
 
-### specifiedSupplyChainEvent?
+### specifiedSupplyChainEvent? {#specifiedsupplychainevent}
 
 > `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ***
 
-### supplyChainSupplyPlanCommitmentLevelCode?
+### supplyChainSupplyPlanCommitmentLevelCode? {#supplychainsupplyplancommitmentlevelcode}
 
 > `optional` **supplyChainSupplyPlanCommitmentLevelCode**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/supplyChainSupplyPlanCommitmentLevelCode
 
 ***
 
-### supplyChainSupplyPlanReleaseFrequencyCode?
+### supplyChainSupplyPlanReleaseFrequencyCode? {#supplychainsupplyplanreleasefrequencycode}
 
 > `optional` **supplyChainSupplyPlanReleaseFrequencyCode**: `string`
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/supplyChainSupplyPlanReleaseFrequencyCode
 
 ***
 
-### supplyChainSupplyPlanReviewFrequencyCode?
+### supplyChainSupplyPlanReviewFrequencyCode? {#supplychainsupplyplanreviewfrequencycode}
 
 > `optional` **supplyChainSupplyPlanReviewFrequencyCode**: `string`
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/supplyChainSupplyPlanReviewFrequencyCode
 
 ***
 
-### synchronizationDateTime?
+### synchronizationDateTime? {#synchronizationdatetime}
 
 > `optional` **synchronizationDateTime**: `string`
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/synchronizationDateTime
 
 ***
 
-### synchronizationQuantity?
+### synchronizationQuantity? {#synchronizationquantity}
 
 > `optional` **synchronizationQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/synchronizationQuantity
 
 ***
 
-### toleranceQuantity?
+### toleranceQuantity? {#tolerancequantity}
 
 > `optional` **toleranceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/toleranceQuantity
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

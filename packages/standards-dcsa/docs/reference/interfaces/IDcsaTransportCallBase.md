@@ -17,7 +17,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### transportCallReference
+### transportCallReference {#transportcallreference}
 
 > **transportCallReference**: `string`
 
@@ -25,7 +25,7 @@ Unique reference for the transport call.
 
 ***
 
-### transportCallSequenceNumber?
+### transportCallSequenceNumber? {#transportcallsequencenumber}
 
 > `optional` **transportCallSequenceNumber**: `number`
 
@@ -33,7 +33,7 @@ Sequence number of the transport call.
 
 ***
 
-### location?
+### location? {#location}
 
 > `optional` **location**: `unknown`
 
@@ -43,7 +43,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ***
 
-### facilityTypeCode?
+### facilityTypeCode? {#facilitytypecode}
 
 > `optional` **facilityTypeCode**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
 

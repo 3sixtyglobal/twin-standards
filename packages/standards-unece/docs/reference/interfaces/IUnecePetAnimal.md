@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PetAnimal
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PetAnimal"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### allowedIndicator?
+### allowedIndicator? {#allowedindicator}
 
 > `optional` **allowedIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/allowedIndicator
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### restriction?
+### restriction? {#restriction}
 
 > `optional` **restriction**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/MeasureType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"MeasureType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### MeasureTypeValue?
+### MeasureTypeValue? {#measuretypevalue}
 
 > `optional` **MeasureTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/MeasureTypeValue
 
 ***
 
-### MeasureTypeCode?
+### MeasureTypeCode? {#measuretypecode}
 
 > `optional` **MeasureTypeCode**: [`IUneceMeasureCode`](IUneceMeasureCode.md)
 

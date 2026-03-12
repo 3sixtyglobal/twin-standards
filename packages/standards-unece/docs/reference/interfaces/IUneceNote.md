@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Note
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Note"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### content?
+### content? {#content}
 
 > `optional` **content**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/content
 
 ***
 
-### contentCode?
+### contentCode? {#contentcode}
 
 > `optional` **contentCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/contentCode
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### noteSubjectCode?
+### noteSubjectCode? {#notesubjectcode}
 
 > `optional` **noteSubjectCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/noteSubjectCode
 
 ***
 
-### subject?
+### subject? {#subject}
 
 > `optional` **subject**: `string`
 

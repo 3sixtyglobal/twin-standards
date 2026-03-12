@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LogisticsStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LogisticsStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### arrivalReportedEvent?
+### arrivalReportedEvent? {#arrivalreportedevent}
 
 > `optional` **arrivalReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/arrivalReportedEvent
 
 ***
 
-### contactParty?
+### contactParty? {#contactparty}
 
 > `optional` **contactParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/contactParty
 
 ***
 
-### departureReportedEvent?
+### departureReportedEvent? {#departurereportedevent}
 
 > `optional` **departureReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/departureReportedEvent
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### loadingReportedEvent?
+### loadingReportedEvent? {#loadingreportedevent}
 
 > `optional` **loadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/loadingReportedEvent
 
 ***
 
-### logisticsStatusConditionCode?
+### logisticsStatusConditionCode? {#logisticsstatusconditioncode}
 
 > `optional` **logisticsStatusConditionCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/logisticsStatusConditionCode
 
 ***
 
-### logisticsStatusReasonCode?
+### logisticsStatusReasonCode? {#logisticsstatusreasoncode}
 
 > `optional` **logisticsStatusReasonCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/logisticsStatusReasonCode
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### referenceDateTime?
+### referenceDateTime? {#referencedatetime}
 
 > `optional` **referenceDateTime**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ***
 
-### reportedSupplyChainEvent?
+### reportedSupplyChainEvent? {#reportedsupplychainevent}
 
 > `optional` **reportedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/reportedSupplyChainEvent
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### specifiedLogisticsLocation?
+### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
 > `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ***
 
-### unloadingReportedEvent?
+### unloadingReportedEvent? {#unloadingreportedevent}
 
 > `optional` **unloadingReportedEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/unloadingReportedEvent
 
 ***
 
-### validityPeriod?
+### validityPeriod? {#validityperiod}
 
 > `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 

@@ -6,7 +6,7 @@ Values for UneceVoucher typeCode property.
 
 ## Type Declaration
 
-### IdentifiedVoucher
+### IdentifiedVoucher {#identifiedvoucher}
 
 > `readonly` **IdentifiedVoucher**: `"unece:identifiedVoucher"` = `"unece:identifiedVoucher"`
 

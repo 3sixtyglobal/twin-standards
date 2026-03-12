@@ -9,7 +9,7 @@ https://ref.gs1.org/epcis/SourceOrDestination
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -20,7 +20,7 @@ Use [EpcisSourceDestTypes](../variables/EpcisSourceDestTypes.md) for known value
 
 ***
 
-### destination
+### destination {#destination}
 
 > **destination**: `string`
 

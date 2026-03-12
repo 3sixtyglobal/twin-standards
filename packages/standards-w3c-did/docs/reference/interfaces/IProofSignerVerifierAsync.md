@@ -5,7 +5,7 @@ Supports signing with callbacks to prevent private key exposure.
 
 ## Methods
 
-### createProofWithSigner()
+### createProofWithSigner() {#createproofwithsigner}
 
 > **createProofWithSigner**(`unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -41,7 +41,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -75,7 +75,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

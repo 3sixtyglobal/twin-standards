@@ -6,7 +6,7 @@ Values for UneceGovernmentRegistration typeCode property.
 
 ## Type Declaration
 
-### SpecifiedGovernmentRegistration
+### SpecifiedGovernmentRegistration {#specifiedgovernmentregistration}
 
 > `readonly` **SpecifiedGovernmentRegistration**: `"unece:specifiedGovernmentRegistration"` = `"unece:specifiedGovernmentRegistration"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedRoute
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedRoute"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### departurePoint?
+### departurePoint? {#departurepoint}
 
 > `optional` **departurePoint**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/departurePoint
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### linearUnitDistanceMeasure?
+### linearUnitDistanceMeasure? {#linearunitdistancemeasure}
 
 > `optional` **linearUnitDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/linearUnitDistanceMeasure
 
 ***
 
-### mapURIId?
+### mapURIId? {#mapuriid}
 
 > `optional` **mapURIId**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/mapURIId
 
 ***
 
-### routeType?
+### routeType? {#routetype}
 
 > `optional` **routeType**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/routeType
 
 ***
 
-### securityLevelCode?
+### securityLevelCode? {#securitylevelcode}
 
 > `optional` **securityLevelCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### transportMeans?
+### transportMeans? {#transportmeans}
 
 > `optional` **transportMeans**: `string`
 

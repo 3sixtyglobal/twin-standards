@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Licence
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Licence"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedStandard?
+### associatedStandard? {#associatedstandard}
 
 > `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedStandard
 
 ***
 
-### assuranceLevelCode?
+### assuranceLevelCode? {#assurancelevelcode}
 
 > `optional` **assuranceLevelCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/assuranceLevelCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### grantedParty?
+### grantedParty? {#grantedparty}
 
 > `optional` **grantedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/grantedParty
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issuerParty?
+### issuerParty? {#issuerparty}
 
 > `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### subjectTypeCode?
+### subjectTypeCode? {#subjecttypecode}
 
 > `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/subjectTypeCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### validIndicator?
+### validIndicator? {#validindicator}
 
 > `optional` **validIndicator**: `boolean`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/validIndicator
 
 ***
 
-### verifiedObject?
+### verifiedObject? {#verifiedobject}
 
 > `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)[]
 

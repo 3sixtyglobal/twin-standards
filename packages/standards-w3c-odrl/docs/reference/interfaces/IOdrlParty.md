@@ -9,7 +9,7 @@ https://www.w3.org/TR/odrl-model/#party
 
 ## Properties
 
-### uid?
+### uid? {#uid}
 
 > `optional` **uid**: `string`
 
@@ -18,7 +18,7 @@ Must be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
 > `optional` **@type**: `string` \| `string`[]
 
@@ -28,7 +28,7 @@ Can be used to specify additional type information (e.g., "Party",
 
 ***
 
-### partOf?
+### partOf? {#partof}
 
 > `optional` **partOf**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| (`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md))[]
 
@@ -37,7 +37,7 @@ Used to identify a PartyCollection that a Party entity is a member of.
 
 ***
 
-### assigneeOf?
+### assigneeOf? {#assigneeof}
 
 > `optional` **assigneeOf**: `string` \| `string`[]
 
@@ -47,7 +47,7 @@ the assignee functional role of all the Rules of that Policy.
 
 ***
 
-### assignerOf?
+### assignerOf? {#assignerof}
 
 > `optional` **assignerOf**: `string` \| `string`[]
 

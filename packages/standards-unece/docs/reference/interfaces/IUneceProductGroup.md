@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductGroup
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductGroup"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedSupplyChainTradeLineItem?
+### includedSupplyChainTradeLineItem? {#includedsupplychaintradelineitem}
 
 > `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 
 ***
 
-### includedTradeProduct?
+### includedTradeProduct? {#includedtradeproduct}
 
 > `optional` **includedTradeProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/includedTradeProduct
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### subordinateProductGroup?
+### subordinateProductGroup? {#subordinateproductgroup}
 
 > `optional` **subordinateProductGroup**: `IUneceProductGroup`[]
 

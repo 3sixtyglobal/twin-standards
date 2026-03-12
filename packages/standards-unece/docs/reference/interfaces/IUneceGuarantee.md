@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Guarantee
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Guarantee"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### condition?
+### condition? {#condition}
 
 > `optional` **condition**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/condition
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### effectiveDelimitedPeriod?
+### effectiveDelimitedPeriod? {#effectivedelimitedperiod}
 
 > `optional` **effectiveDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/effectiveDelimitedPeriod
 
 ***
 
-### liabilityAmount?
+### liabilityAmount? {#liabilityamount}
 
 > `optional` **liabilityAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 

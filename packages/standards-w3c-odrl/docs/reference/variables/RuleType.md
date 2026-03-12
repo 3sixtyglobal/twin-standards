@@ -6,19 +6,19 @@ The types for ODRL Rules.
 
 ## Type Declaration
 
-### Permission
+### Permission {#permission}
 
 > `readonly` **Permission**: `"Permission"` = `"Permission"`
 
 Permission type.
 
-### Prohibition
+### Prohibition {#prohibition}
 
 > `readonly` **Prohibition**: `"Prohibition"` = `"Prohibition"`
 
 Prohibition type.
 
-### Duty
+### Duty {#duty}
 
 > `readonly` **Duty**: `"Duty"` = `"Duty"`
 

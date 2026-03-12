@@ -5,7 +5,7 @@ https://docs.gaia-x.eu/ontology/development/classes/RegistrationNumber/
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `"RegistrationNumber"` \| `"LocalRegistrationNumber"` \| `"EORI"` \| `"VatID"` \| `"EUID"` \| `"LeiCode"` \| `"TaxID"`
 
@@ -13,7 +13,7 @@ JSON-LD Type.
 
 ***
 
-### local?
+### local? {#local}
 
 > `optional` **local**: `string`
 
@@ -21,7 +21,7 @@ Local Registration.
 
 ***
 
-### countryCode?
+### countryCode? {#countrycode}
 
 > `optional` **countryCode**: `string`
 
@@ -29,7 +29,7 @@ Country code. See https://docs.gaia-x.eu/ontology/development/enums/CountryNameA
 
 ***
 
-### subdivisionCountryCode?
+### subdivisionCountryCode? {#subdivisioncountrycode}
 
 > `optional` **subdivisionCountryCode**: `string`
 
@@ -38,7 +38,7 @@ See https://docs.gaia-x.eu/ontology/development/enums/RegionCode/
 
 ***
 
-### vatID?
+### vatID? {#vatid}
 
 > `optional` **vatID**: `string`
 
@@ -46,7 +46,7 @@ The VAT identification number.
 
 ***
 
-### leiCode?
+### leiCode? {#leicode}
 
 > `optional` **leiCode**: `string`
 
@@ -54,7 +54,7 @@ Unique LEI number as defined by GLEIF.
 
 ***
 
-### eori?
+### eori? {#eori}
 
 > `optional` **eori**: `string`
 
@@ -62,7 +62,7 @@ The Economic Operators Registration and Identification number (EORI).
 
 ***
 
-### country?
+### country? {#country}
 
 > `optional` **country**: `string`
 
@@ -70,7 +70,7 @@ The country where the EORI is registered written in plain english
 
 ***
 
-### euid?
+### euid? {#euid}
 
 > `optional` **euid**: `string`
 
@@ -78,7 +78,7 @@ The European Unique Identifier (EUID) for business located in the European Ec.
 
 ***
 
-### taxId?
+### taxId? {#taxid}
 
 > `optional` **taxId**: `string`
 

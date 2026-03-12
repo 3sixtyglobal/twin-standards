@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Fuel
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Fuel"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### volumeUnitVolumeMeasure?
+### volumeUnitVolumeMeasure? {#volumeunitvolumemeasure}
 
 > `optional` **volumeUnitVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/volumeUnitVolumeMeasure
 
 ***
 
-### weightUnitWeightMeasure?
+### weightUnitWeightMeasure? {#weightunitweightmeasure}
 
 > `optional` **weightUnitWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/weightUnitWeightMeasure
 
 ***
 
-### workingPressureMeasure?
+### workingPressureMeasure? {#workingpressuremeasure}
 
 > `optional` **workingPressureMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 

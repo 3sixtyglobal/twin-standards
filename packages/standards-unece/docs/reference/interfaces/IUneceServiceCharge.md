@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ServiceCharge
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ServiceCharge"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### allowanceCharge?
+### allowanceCharge? {#allowancecharge}
 
 > `optional` **allowanceCharge**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/allowanceCharge
 
 ***
 
-### appliedAmount?
+### appliedAmount? {#appliedamount}
 
 > `optional` **appliedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/appliedAmount
 
 ***
 
-### appliedFromLocation?
+### appliedFromLocation? {#appliedfromlocation}
 
 > `optional` **appliedFromLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/appliedFromLocation
 
 ***
 
-### appliedTax?
+### appliedTax? {#appliedtax}
 
 > `optional` **appliedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/appliedTax
 
 ***
 
-### appliedToLocation?
+### appliedToLocation? {#appliedtolocation}
 
 > `optional` **appliedToLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/appliedToLocation
 
 ***
 
-### calculationBasis?
+### calculationBasis? {#calculationbasis}
 
 > `optional` **calculationBasis**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/calculationBasis
 
 ***
 
-### calculationBasisAreaMeasure?
+### calculationBasisAreaMeasure? {#calculationbasisareameasure}
 
 > `optional` **calculationBasisAreaMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/calculationBasisAreaMeasure
 
 ***
 
-### calculationBasisCommodityCode?
+### calculationBasisCommodityCode? {#calculationbasiscommoditycode}
 
 > `optional` **calculationBasisCommodityCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/calculationBasisCommodityCode
 
 ***
 
-### calculationBasisPrice?
+### calculationBasisPrice? {#calculationbasisprice}
 
 > `optional` **calculationBasisPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/calculationBasisPrice
 
 ***
 
-### calculationBasisQuantity?
+### calculationBasisQuantity? {#calculationbasisquantity}
 
 > `optional` **calculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/calculationBasisQuantity
 
 ***
 
-### chargeCategoryCode?
+### chargeCategoryCode? {#chargecategorycode}
 
 > `optional` **chargeCategoryCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/chargeCategoryCode
 
 ***
 
-### chargeCurrencyCode?
+### chargeCurrencyCode? {#chargecurrencycode}
 
 > `optional` **chargeCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/chargeCurrencyCode
 
 ***
 
-### chargePayingPartyRoleCode?
+### chargePayingPartyRoleCode? {#chargepayingpartyrolecode}
 
 > `optional` **chargePayingPartyRoleCode**: [`UneceChargePayingPartyRoleCodeList`](../type-aliases/UneceChargePayingPartyRoleCodeList.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/chargePayingPartyRoleCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### disbursementAmount?
+### disbursementAmount? {#disbursementamount}
 
 > `optional` **disbursementAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/disbursementAmount
 
 ***
 
-### freightChargeTariffClassCode?
+### freightChargeTariffClassCode? {#freightchargetariffclasscode}
 
 > `optional` **freightChargeTariffClassCode**: [`UneceFreightChargeTariffClassCodeList`](../type-aliases/UneceFreightChargeTariffClassCodeList.md)
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/freightChargeTariffClassCode
 
 ***
 
-### freightChargeTypeId?
+### freightChargeTypeId? {#freightchargetypeid}
 
 > `optional` **freightChargeTypeId**: `string` \| `IJsonLdValueObject`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/freightChargeTypeId
 
 ***
 
-### freightInvoiceTypeCode?
+### freightInvoiceTypeCode? {#freightinvoicetypecode}
 
 > `optional` **freightInvoiceTypeCode**: `string`
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/freightInvoiceTypeCode
 
 ***
 
-### informationTypeCode?
+### informationTypeCode? {#informationtypecode}
 
 > `optional` **informationTypeCode**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/informationTypeCode
 
 ***
 
-### invoiceTypeCode?
+### invoiceTypeCode? {#invoicetypecode}
 
 > `optional` **invoiceTypeCode**: `string`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/invoiceTypeCode
 
 ***
 
-### linearUnitCalculationBasisDistanceMeasure?
+### linearUnitCalculationBasisDistanceMeasure? {#linearunitcalculationbasisdistancemeasure}
 
 > `optional` **linearUnitCalculationBasisDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/linearUnitCalculationBasisDistanceMeasure
 
 ***
 
-### logisticsChargeCalculationBasisCalculationBasisCode?
+### logisticsChargeCalculationBasisCalculationBasisCode? {#logisticschargecalculationbasiscalculationbasiscode}
 
 > `optional` **logisticsChargeCalculationBasisCalculationBasisCode**: `"unece:LogisticsChargeCalculationBasisCodeList#ZZZ"`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/logisticsChargeCalculationBasisCalculationBasisC
 
 ***
 
-### logisticsServiceChargeTransportPaymentMethodCode?
+### logisticsServiceChargeTransportPaymentMethodCode? {#logisticsservicechargetransportpaymentmethodcode}
 
 > `optional` **logisticsServiceChargeTransportPaymentMethodCode**: `string`
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/logisticsServiceChargeTransportPaymentMethodCode
 
 ***
 
-### paymentPlaceLocation?
+### paymentPlaceLocation? {#paymentplacelocation}
 
 > `optional` **paymentPlaceLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/paymentPlaceLocation
 
 ***
 
-### postTranshipmentCalculationBasisQuantity?
+### postTranshipmentCalculationBasisQuantity? {#posttranshipmentcalculationbasisquantity}
 
 > `optional` **postTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/postTranshipmentCalculationBasisQuantity
 
 ***
 
-### preTranshipmentCalculationBasisQuantity?
+### preTranshipmentCalculationBasisQuantity? {#pretranshipmentcalculationbasisquantity}
 
 > `optional` **preTranshipmentCalculationBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/preTranshipmentCalculationBasisQuantity
 
 ***
 
-### repackageAppliedAmount?
+### repackageAppliedAmount? {#repackageappliedamount}
 
 > `optional` **repackageAppliedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -349,7 +349,7 @@ https://vocabulary.uncefact.org/repackageAppliedAmount
 
 ***
 
-### serviceCategoryCode?
+### serviceCategoryCode? {#servicecategorycode}
 
 > `optional` **serviceCategoryCode**: `string`
 
@@ -361,7 +361,7 @@ https://vocabulary.uncefact.org/serviceCategoryCode
 
 ***
 
-### serviceTypeCode?
+### serviceTypeCode? {#servicetypecode}
 
 > `optional` **serviceTypeCode**: `string`
 
@@ -373,7 +373,7 @@ https://vocabulary.uncefact.org/serviceTypeCode
 
 ***
 
-### specifiedPaymentMeans?
+### specifiedPaymentMeans? {#specifiedpaymentmeans}
 
 > `optional` **specifiedPaymentMeans**: [`IUnecePaymentMeans`](IUnecePaymentMeans.md)
 
@@ -385,7 +385,7 @@ https://vocabulary.uncefact.org/specifiedPaymentMeans
 
 ***
 
-### tariffCurrencyCode?
+### tariffCurrencyCode? {#tariffcurrencycode}
 
 > `optional` **tariffCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)[]
 
@@ -397,7 +397,7 @@ https://vocabulary.uncefact.org/tariffCurrencyCode
 
 ***
 
-### transportServiceCategoryCode?
+### transportServiceCategoryCode? {#transportservicecategorycode}
 
 > `optional` **transportServiceCategoryCode**: [`UneceTransportServiceCategoryCodeList`](../type-aliases/UneceTransportServiceCategoryCodeList.md)
 
@@ -409,7 +409,7 @@ https://vocabulary.uncefact.org/transportServiceCategoryCode
 
 ***
 
-### transportServicePaymentArrangementCode?
+### transportServicePaymentArrangementCode? {#transportservicepaymentarrangementcode}
 
 > `optional` **transportServicePaymentArrangementCode**: [`UneceTransportServicePaymentArrangementCodeList`](../type-aliases/UneceTransportServicePaymentArrangementCodeList.md)
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/transportServicePaymentArrangementCode
 
 ***
 
-### unitCalculationBasisAreaMeasure?
+### unitCalculationBasisAreaMeasure? {#unitcalculationbasisareameasure}
 
 > `optional` **unitCalculationBasisAreaMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 

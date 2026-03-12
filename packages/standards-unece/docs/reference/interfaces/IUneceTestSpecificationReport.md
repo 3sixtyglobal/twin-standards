@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TestSpecificationReport
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TestSpecificationReport"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### result?
+### result? {#result}
 
 > `optional` **result**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/result
 
 ***
 
-### standardName?
+### standardName? {#standardname}
 
 > `optional` **standardName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/standardName
 
 ***
 
-### testName?
+### testName? {#testname}
 
 > `optional` **testName**: `string`
 

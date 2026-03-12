@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level
 
 ## Properties
 
-### @type
+### @type {#type}
 
 > **@type**: `"EndpointProperty"`
 
@@ -13,7 +13,7 @@ LD Type.
 
 ***
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -21,7 +21,7 @@ Property name.
 
 ***
 
-### value
+### value {#value}
 
 > **value**: `string`
 

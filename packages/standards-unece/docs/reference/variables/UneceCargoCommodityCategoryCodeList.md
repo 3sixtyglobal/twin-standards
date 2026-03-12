@@ -6,7 +6,7 @@ A character string used to represent a cargo commodity category.
 
 ## Type Declaration
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:CargoCommodityCategoryCodeList#ZZZ"` = `"unece:CargoCommodityCategoryCodeList#ZZZ"`
 

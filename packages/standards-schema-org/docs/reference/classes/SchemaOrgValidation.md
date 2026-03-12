@@ -14,7 +14,7 @@ Handle validation for schema.org.
 
 ## Methods
 
-### geoCoordinates()
+### geoCoordinates() {#geocoordinates}
 
 > `static` **geoCoordinates**(`propertyName`, `value`, `failures`): `value is GeoCoordinatesLeaf`
 

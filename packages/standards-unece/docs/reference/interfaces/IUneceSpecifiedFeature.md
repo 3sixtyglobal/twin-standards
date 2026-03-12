@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedFeature
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedFeature"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### keywordMarketingPhrase?
+### keywordMarketingPhrase? {#keywordmarketingphrase}
 
 > `optional` **keywordMarketingPhrase**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/keywordMarketingPhrase
 
 ***
 
-### marketingPhrase?
+### marketingPhrase? {#marketingphrase}
 
 > `optional` **marketingPhrase**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ***
 
-### objective?
+### objective? {#objective}
 
 > `optional` **objective**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/objective
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### usageCode?
+### usageCode? {#usagecode}
 
 > `optional` **usageCode**: `string`
 

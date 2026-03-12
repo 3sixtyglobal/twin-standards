@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LinearUnitMeasureType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LinearUnitMeasureType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### LinearUnitMeasureTypeValue?
+### LinearUnitMeasureTypeValue? {#linearunitmeasuretypevalue}
 
 > `optional` **LinearUnitMeasureTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/LinearUnitMeasureTypeValue
 
 ***
 
-### LinearUnitMeasureTypeCode?
+### LinearUnitMeasureTypeCode? {#linearunitmeasuretypecode}
 
 > `optional` **LinearUnitMeasureTypeCode**: [`UneceLinearUnitMeasureCode`](../type-aliases/UneceLinearUnitMeasureCode.md)
 

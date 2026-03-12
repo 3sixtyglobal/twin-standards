@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpeciesTTAnimal
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpeciesTTAnimal"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### regulationSpeciesNameTypeCode?
+### regulationSpeciesNameTypeCode? {#regulationspeciesnametypecode}
 
 > `optional` **regulationSpeciesNameTypeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/regulationSpeciesNameTypeCode
 
 ***
 
-### scientificSpeciesNameTypeCode?
+### scientificSpeciesNameTypeCode? {#scientificspeciesnametypecode}
 
 > `optional` **scientificSpeciesNameTypeCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/scientificSpeciesNameTypeCode
 
 ***
 
-### speciesTypeCode
+### speciesTypeCode {#speciestypecode}
 
 > **speciesTypeCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/speciesTypeCode
 
 ***
 
-### tradeSpeciesNameTypeCode?
+### tradeSpeciesNameTypeCode? {#tradespeciesnametypecode}
 
 > `optional` **tradeSpeciesNameTypeCode**: `string`
 

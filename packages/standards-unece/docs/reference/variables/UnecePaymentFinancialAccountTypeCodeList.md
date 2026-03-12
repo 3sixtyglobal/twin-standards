@@ -6,7 +6,7 @@ Values for UnecePaymentFinancialAccount typeCode property.
 
 ## Type Declaration
 
-### SpecifiedPaymentFinancialAccount
+### SpecifiedPaymentFinancialAccount {#specifiedpaymentfinancialaccount}
 
 > `readonly` **SpecifiedPaymentFinancialAccount**: `"unece:specifiedPaymentFinancialAccount"` = `"unece:specifiedPaymentFinancialAccount"`
 

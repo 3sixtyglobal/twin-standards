@@ -6,7 +6,7 @@ Values for UneceSupplyChainTradeTransaction typeCode property.
 
 ## Type Declaration
 
-### RelatedTradeTransaction
+### RelatedTradeTransaction {#relatedtradetransaction}
 
 > `readonly` **RelatedTradeTransaction**: `"unece:relatedTradeTransaction"` = `"unece:relatedTradeTransaction"`
 

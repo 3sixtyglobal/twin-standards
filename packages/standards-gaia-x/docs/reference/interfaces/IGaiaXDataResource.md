@@ -9,7 +9,7 @@ See also W3C DCAT Dataset https://www.w3.org/TR/vocab-dcat-3/.
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`GaiaXContextType`](../type-aliases/GaiaXContextType.md)
 
@@ -21,7 +21,7 @@ The LD Context
 
 ***
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -33,7 +33,7 @@ Subject Id
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DataResource"`
 
@@ -41,7 +41,7 @@ Subject type
 
 ***
 
-### name
+### name {#name}
 
 > **name**: `string`
 
@@ -53,7 +53,7 @@ The Resource Name
 
 ***
 
-### exposedThrough
+### exposedThrough {#exposedthrough}
 
 > **exposedThrough**: `string` \| [`IGaiaXDataExchangeComponent`](IGaiaXDataExchangeComponent.md) \| `IJsonLdNodeObject` & `object`
 
@@ -63,7 +63,7 @@ the third case covers the idiom where a JSON-LD Node is supplied with id and typ
 
 ***
 
-### producedBy
+### producedBy {#producedby}
 
 > **producedBy**: `string` \| [`IGaiaXLegalPerson`](IGaiaXLegalPerson.md)
 
@@ -71,7 +71,7 @@ Who is the data producer
 
 ***
 
-### license
+### license {#license}
 
 > **license**: `string`
 
@@ -79,7 +79,7 @@ Pointer (URL) to the license
 
 ***
 
-### copyrightOwnedBy
+### copyrightOwnedBy {#copyrightownedby}
 
 > **copyrightOwnedBy**: `string` \| [`IGaiaXLegalPerson`](IGaiaXLegalPerson.md)
 
@@ -87,7 +87,7 @@ Copyright owner
 
 ***
 
-### resourcePolicy
+### resourcePolicy {#resourcepolicy}
 
 > **resourcePolicy**: `IOdrlPolicy` \| `IOdrlPolicy`[]
 
@@ -95,7 +95,7 @@ ODRL Policy
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 

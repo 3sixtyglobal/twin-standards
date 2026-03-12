@@ -4,7 +4,7 @@ Retraction event.
 
 ## Properties
 
-### metadata
+### metadata {#metadata}
 
 > **metadata**: [`IDcsaEventMetadataRetraction`](../type-aliases/IDcsaEventMetadataRetraction.md)
 
@@ -12,7 +12,7 @@ Retraction metadata.
 
 ***
 
-### payload?
+### payload? {#payload}
 
 > `optional` **payload**: `undefined`
 

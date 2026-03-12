@@ -6,7 +6,7 @@ Values for UneceTransportationWasteMaterial typeCode property.
 
 ## Type Declaration
 
-### ReportedTransportationWasteMaterial
+### ReportedTransportationWasteMaterial {#reportedtransportationwastematerial}
 
 > `readonly` **ReportedTransportationWasteMaterial**: `"unece:reportedTransportationWasteMaterial"` = `"unece:reportedTransportationWasteMaterial"`
 

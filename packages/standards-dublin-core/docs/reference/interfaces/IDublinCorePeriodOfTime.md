@@ -9,7 +9,7 @@ https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.or
 
 ## Properties
 
-### @type?
+### @type? {#type}
 
 > `optional` **@type**: `"PeriodOfTime"`
 
@@ -17,7 +17,7 @@ The type identifier for PeriodOfTime.
 
 ***
 
-### dcat:startDate?
+### dcat:startDate? {#dcatstartdate}
 
 > `optional` **dcat:startDate**: `string`
 
@@ -29,7 +29,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date
 
 ***
 
-### dcat:endDate?
+### dcat:endDate? {#dcatenddate}
 
 > `optional` **dcat:endDate**: `string`
 
@@ -41,7 +41,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:period_end_date
 
 ***
 
-### time:hasBeginning?
+### time:hasBeginning? {#timehasbeginning}
 
 > `optional` **time:hasBeginning**: `string`
 
@@ -53,7 +53,7 @@ https://www.w3.org/TR/owl-time/#time:hasBeginning
 
 ***
 
-### time:hasEnd?
+### time:hasEnd? {#timehasend}
 
 > `optional` **time:hasEnd**: `string`
 

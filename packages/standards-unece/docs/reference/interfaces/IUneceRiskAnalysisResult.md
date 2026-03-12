@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RiskAnalysisResult
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RiskAnalysisResult"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### consignmentRiskRelatedCode?
+### consignmentRiskRelatedCode? {#consignmentriskrelatedcode}
 
 > `optional` **consignmentRiskRelatedCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/consignmentRiskRelatedCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### levelCode?
+### levelCode? {#levelcode}
 
 > `optional` **levelCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/levelCode
 
 ***
 
-### partyRiskRelatedCode?
+### partyRiskRelatedCode? {#partyriskrelatedcode}
 
 > `optional` **partyRiskRelatedCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/partyRiskRelatedCode
 
 ***
 
-### screeningMethodCode?
+### screeningMethodCode? {#screeningmethodcode}
 
 > `optional` **screeningMethodCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/screeningMethodCode
 
 ***
 
-### securityExemptionCode?
+### securityExemptionCode? {#securityexemptioncode}
 
 > `optional` **securityExemptionCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/securityExemptionCode
 
 ***
 
-### transportEquipmentRiskRelatedCode?
+### transportEquipmentRiskRelatedCode? {#transportequipmentriskrelatedcode}
 
 > `optional` **transportEquipmentRiskRelatedCode**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/transportEquipmentRiskRelatedCode
 
 ***
 
-### transportMovementRiskRelatedCode?
+### transportMovementRiskRelatedCode? {#transportmovementriskrelatedcode}
 
 > `optional` **transportMovementRiskRelatedCode**: `string`
 

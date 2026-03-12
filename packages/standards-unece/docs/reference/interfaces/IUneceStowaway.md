@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Stowaway
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Stowaway"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### careProvided?
+### careProvided? {#careprovided}
 
 > `optional` **careProvided**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/careProvided
 
 ***
 
-### claimedLanguageProficiency?
+### claimedLanguageProficiency? {#claimedlanguageproficiency}
 
 > `optional` **claimedLanguageProficiency**: [`IUneceLanguageProficiency`](IUneceLanguageProficiency.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/claimedLanguageProficiency
 
 ***
 
-### countryClaimedNationalityId?
+### countryClaimedNationalityId? {#countryclaimednationalityid}
 
 > `optional` **countryClaimedNationalityId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/countryClaimedNationalityId
 
 ***
 
-### discoveredDateTime?
+### discoveredDateTime? {#discovereddatetime}
 
 > `optional` **discoveredDateTime**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/discoveredDateTime
 
 ***
 
-### embarkationLocation?
+### embarkationLocation? {#embarkationlocation}
 
 > `optional` **embarkationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/embarkationLocation
 
 ***
 
-### homeAddress?
+### homeAddress? {#homeaddress}
 
 > `optional` **homeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/homeAddress
 
 ***
 
-### intendedDestinationLocationCode?
+### intendedDestinationLocationCode? {#intendeddestinationlocationcode}
 
 > `optional` **intendedDestinationLocationCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/intendedDestinationLocationCode
 
 ***
 
-### intendedDestinationName?
+### intendedDestinationName? {#intendeddestinationname}
 
 > `optional` **intendedDestinationName**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/intendedDestinationName
 
 ***
 
-### interviewDateTime?
+### interviewDateTime? {#interviewdatetime}
 
 > `optional` **interviewDateTime**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/interviewDateTime
 
 ***
 
-### personalStatement?
+### personalStatement? {#personalstatement}
 
 > `optional` **personalStatement**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/personalStatement
 
 ***
 
-### photographicPictureBinaryFile?
+### photographicPictureBinaryFile? {#photographicpicturebinaryfile}
 
 > `optional` **photographicPictureBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/photographicPictureBinaryFile
 
 ***
 
-### physicalDescription?
+### physicalDescription? {#physicaldescription}
 
 > `optional` **physicalDescription**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/physicalDescription
 
 ***
 
-### possessionList?
+### possessionList? {#possessionlist}
 
 > `optional` **possessionList**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/possessionList
 
 ***
 
-### providedContact?
+### providedContact? {#providedcontact}
 
 > `optional` **providedContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/providedContact
 
 ***
 
-### providedName?
+### providedName? {#providedname}
 
 > `optional` **providedName**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/providedName
 
 ***
 
-### responsiblePersonStatement?
+### responsiblePersonStatement? {#responsiblepersonstatement}
 
 > `optional` **responsiblePersonStatement**: `string`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/responsiblePersonStatement
 
 ***
 
-### statedEmbarkationMethod?
+### statedEmbarkationMethod? {#statedembarkationmethod}
 
 > `optional` **statedEmbarkationMethod**: `string`
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/statedEmbarkationMethod
 
 ***
 
-### statedEmbarkationReason?
+### statedEmbarkationReason? {#statedembarkationreason}
 
 > `optional` **statedEmbarkationReason**: `string`
 

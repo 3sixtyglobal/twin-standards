@@ -14,7 +14,7 @@ Helper methods for creating and verifying proofs.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -22,7 +22,7 @@ Runtime name for the class.
 
 ## Methods
 
-### createSignerVerifier()
+### createSignerVerifier() {#createsignerverifier}
 
 > `static` **createSignerVerifier**(`proofType`): [`IProofSignerVerifier`](../interfaces/IProofSignerVerifier.md)
 
@@ -48,7 +48,7 @@ GeneralError if the proof type is not supported.
 
 ***
 
-### createAsyncSignerVerifier()
+### createAsyncSignerVerifier() {#createasyncsignerverifier}
 
 > `static` **createAsyncSignerVerifier**(`proofType`): [`IProofSignerVerifierAsync`](../interfaces/IProofSignerVerifierAsync.md)
 
@@ -75,7 +75,7 @@ GeneralError if the proof type is not supported.
 
 ***
 
-### createProof()
+### createProof() {#createproof}
 
 > `static` **createProof**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -115,7 +115,7 @@ The created proof.
 
 ***
 
-### createProofWithSigner()
+### createProofWithSigner() {#createproofwithsigner}
 
 > `static` **createProofWithSigner**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -156,7 +156,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > `static` **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -190,7 +190,7 @@ True if the credential was verified.
 
 ***
 
-### createUnsignedProof()
+### createUnsignedProof() {#createunsignedproof}
 
 > `static` **createUnsignedProof**(`proofType`, `verificationMethodId`, `otherParams?`): [`IProof`](../type-aliases/IProof.md)
 

@@ -22,7 +22,7 @@ Create a new instance of DataIntegrityProofAsyncSignerVerifier.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -30,7 +30,7 @@ Runtime name for the class.
 
 ## Methods
 
-### createProofWithSigner()
+### createProofWithSigner() {#createproofwithsigner}
 
 > **createProofWithSigner**(`unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -69,7 +69,7 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -107,7 +107,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

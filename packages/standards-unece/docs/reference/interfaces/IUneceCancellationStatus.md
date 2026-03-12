@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CancellationStatus
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CancellationStatus"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### cancellationDocumentStatusConditionCode?
+### cancellationDocumentStatusConditionCode? {#cancellationdocumentstatusconditioncode}
 
 > `optional` **cancellationDocumentStatusConditionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/cancellationDocumentStatusConditionCode
 
 ***
 
-### cancellationStatusReasonCode?
+### cancellationStatusReasonCode? {#cancellationstatusreasoncode}
 
 > `optional` **cancellationStatusReasonCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/cancellationStatusReasonCode
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/reason
 
 ***
 
-### reasonInformation?
+### reasonInformation? {#reasoninformation}
 
 > `optional` **reasonInformation**: `string`
 

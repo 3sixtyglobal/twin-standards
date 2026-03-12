@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CropMixtureConstituent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CropMixtureConstituent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### cropProportionPercent
+### cropProportionPercent {#cropproportionpercent}
 
 > **cropProportionPercent**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/cropProportionPercent
 
 ***
 
-### specifiedBotanicalCrop
+### specifiedBotanicalCrop {#specifiedbotanicalcrop}
 
 > **specifiedBotanicalCrop**: [`IUneceBotanicalCrop`](IUneceBotanicalCrop.md)
 

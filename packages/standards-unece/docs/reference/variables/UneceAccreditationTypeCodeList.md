@@ -6,7 +6,7 @@ Values for UneceAccreditation typeCode property.
 
 ## Type Declaration
 
-### SpecificAccreditation
+### SpecificAccreditation {#specificaccreditation}
 
 > `readonly` **SpecificAccreditation**: `"unece:specificAccreditation"` = `"unece:specificAccreditation"`
 

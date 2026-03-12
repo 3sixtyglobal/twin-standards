@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportationWasteMaterial
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportationWasteMaterial"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProductCertificate?
+### applicableProductCertificate? {#applicableproductcertificate}
 
 > `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### applicableTransportationWasteRecoveryDisposalProcess?
+### applicableTransportationWasteRecoveryDisposalProcess? {#applicabletransportationwasterecoverydisposalprocess}
 
 > `optional` **applicableTransportationWasteRecoveryDisposalProcess**: [`IUneceTransportationWasteRecoveryDisposalProcess`](IUneceTransportationWasteRecoveryDisposalProcess.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableTransportationWasteRecoveryDisposalPro
 
 ***
 
-### completeDeliveryIndicator?
+### completeDeliveryIndicator? {#completedeliveryindicator}
 
 > `optional` **completeDeliveryIndicator**: `boolean`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/completeDeliveryIndicator
 
 ***
 
-### includedTransportationWasteMaterialComponent?
+### includedTransportationWasteMaterialComponent? {#includedtransportationwastematerialcomponent}
 
 > `optional` **includedTransportationWasteMaterialComponent**: [`IUneceTransportationWasteMaterialComponent`](IUneceTransportationWasteMaterialComponent.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/includedTransportationWasteMaterialComponent
 
 ***
 
-### nextDeliveryEvent?
+### nextDeliveryEvent? {#nextdeliveryevent}
 
 > `optional` **nextDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/nextDeliveryEvent
 
 ***
 
-### portReceptionFacilityParty?
+### portReceptionFacilityParty? {#portreceptionfacilityparty}
 
 > `optional` **portReceptionFacilityParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/portReceptionFacilityParty
 
 ***
 
-### previousDeliveryTransportEvent?
+### previousDeliveryTransportEvent? {#previousdeliverytransportevent}
 
 > `optional` **previousDeliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/previousDeliveryTransportEvent
 
 ***
 
-### receptionFacilityContact?
+### receptionFacilityContact? {#receptionfacilitycontact}
 
 > `optional` **receptionFacilityContact**: [`IUneceTradeContact`](IUneceTradeContact.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/receptionFacilityContact
 
 ***
 
-### treatmentFacilityParty?
+### treatmentFacilityParty? {#treatmentfacilityparty}
 
 > `optional` **treatmentFacilityParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/treatmentFacilityParty
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### volumeMeasure?
+### volumeMeasure? {#volumemeasure}
 
 > `optional` **volumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/volumeMeasure
 
 ***
 
-### weightMeasure?
+### weightMeasure? {#weightmeasure}
 
 > `optional` **weightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 

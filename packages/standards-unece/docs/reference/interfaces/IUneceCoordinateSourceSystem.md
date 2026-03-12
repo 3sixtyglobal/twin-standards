@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CoordinateSourceSystem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CoordinateSourceSystem"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### signalSourceAvailableQuantity?
+### signalSourceAvailableQuantity? {#signalsourceavailablequantity}
 
 > `optional` **signalSourceAvailableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/signalSourceAvailableQuantity
 
 ***
 
-### sourceTypeCode?
+### sourceTypeCode? {#sourcetypecode}
 
 > `optional` **sourceTypeCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/sourceTypeCode
 
 ***
 
-### toleranceMeasure?
+### toleranceMeasure? {#tolerancemeasure}
 
 > `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/toleranceMeasure
 
 ***
 
-### usedSignalSourceQuantity?
+### usedSignalSourceQuantity? {#usedsignalsourcequantity}
 
 > `optional` **usedSignalSourceQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

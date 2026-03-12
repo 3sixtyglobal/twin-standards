@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DurationUnitMeasureType
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DurationUnitMeasureType"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### DurationUnitMeasureTypeValue?
+### DurationUnitMeasureTypeValue? {#durationunitmeasuretypevalue}
 
 > `optional` **DurationUnitMeasureTypeValue**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/DurationUnitMeasureTypeValue
 
 ***
 
-### DurationUnitMeasureTypeCode?
+### DurationUnitMeasureTypeCode? {#durationunitmeasuretypecode}
 
 > `optional` **DurationUnitMeasureTypeCode**: [`UneceDurationUnitMeasureCode`](../type-aliases/UneceDurationUnitMeasureCode.md)
 

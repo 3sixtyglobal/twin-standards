@@ -16,7 +16,7 @@ https://ref.gs1.org/epcis/Event
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
@@ -24,7 +24,7 @@ JSON-LD @context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string`
 
@@ -32,7 +32,7 @@ Type of Event.
 
 ***
 
-### eventID?
+### eventID? {#eventid}
 
 > `optional` **eventID**: `string`
 
@@ -40,7 +40,7 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ***
 
-### certificationInfo?
+### certificationInfo? {#certificationinfo}
 
 > `optional` **certificationInfo**: `string` \| `string`[]
 
@@ -49,7 +49,7 @@ Organizations mentioned in this Event.
 
 ***
 
-### errorDeclaration?
+### errorDeclaration? {#errordeclaration}
 
 > `optional` **errorDeclaration**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
 
@@ -57,7 +57,7 @@ Error declaration.
 
 ***
 
-### eventTime
+### eventTime {#eventtime}
 
 > **eventTime**: `string`
 
@@ -66,7 +66,7 @@ occurred.
 
 ***
 
-### eventTimeZoneOffset
+### eventTimeZoneOffset {#eventtimezoneoffset}
 
 > **eventTimeZoneOffset**: `string`
 
@@ -75,7 +75,7 @@ expressed as an offset from UTC.
 
 ***
 
-### recordTime?
+### recordTime? {#recordtime}
 
 > `optional` **recordTime**: `string`
 

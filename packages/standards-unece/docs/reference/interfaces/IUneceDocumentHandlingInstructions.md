@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DocumentHandlingInstructions
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DocumentHandlingInstructions"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### procedure?
+### procedure? {#procedure}
 
 > `optional` **procedure**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/procedure
 
 ***
 
-### requirementIndicator?
+### requirementIndicator? {#requirementindicator}
 
 > `optional` **requirementIndicator**: `boolean`
 

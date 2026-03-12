@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GuestHealthIndication
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GuestHealthIndication"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### restriction?
+### restriction? {#restriction}
 
 > `optional` **restriction**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/restriction
 
 ***
 
-### status?
+### status? {#status}
 
 > `optional` **status**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/status
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -4,7 +4,7 @@ Interface for VDA URI plates.
 
 ## Properties
 
-### applicationFamilyIdentifier
+### applicationFamilyIdentifier {#applicationfamilyidentifier}
 
 > **applicationFamilyIdentifier**: `string`
 
@@ -12,7 +12,7 @@ Application family identifier A2 or A5.
 
 ***
 
-### typeOfPackage
+### typeOfPackage {#typeofpackage}
 
 > **typeOfPackage**: `string`
 
@@ -20,7 +20,7 @@ The type of package 2. Alphanumeric characters.
 
 ***
 
-### issuingAgencyCode
+### issuingAgencyCode {#issuingagencycode}
 
 > **issuingAgencyCode**: `string`
 
@@ -28,7 +28,7 @@ The issuing agency. 2 alphanumeric characters.
 
 ***
 
-### companyIdentificationNumber
+### companyIdentificationNumber {#companyidentificationnumber}
 
 > **companyIdentificationNumber**: `string`
 
@@ -36,7 +36,7 @@ The company identification number.
 
 ***
 
-### packageSerialNumber
+### packageSerialNumber {#packageserialnumber}
 
 > **packageSerialNumber**: `string`
 

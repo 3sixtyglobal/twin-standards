@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/LogisticsTransportEquipment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LogisticsTransportEquipment"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### accompaniedIndicator?
+### accompaniedIndicator? {#accompaniedindicator}
 
 > `optional` **accompaniedIndicator**: `boolean`
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/accompaniedIndicator
 
 ***
 
-### actualRoute?
+### actualRoute? {#actualroute}
 
 > `optional` **actualRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualRoute
 
 ***
 
-### additionalInstructions?
+### additionalInstructions? {#additionalinstructions}
 
 > `optional` **additionalInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/additionalInstructions
 
 ***
 
-### affixedSeal?
+### affixedSeal? {#affixedseal}
 
 > `optional` **affixedSeal**: [`IUneceSeal`](IUneceSeal.md)[]
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/affixedSeal
 
 ***
 
-### airFlowUnitAirFlowMeasure?
+### airFlowUnitAirFlowMeasure? {#airflowunitairflowmeasure}
 
 > `optional` **airFlowUnitAirFlowMeasure**: [`IUneceAirFlowUnitMeasureType`](IUneceAirFlowUnitMeasureType.md)
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/airFlowUnitAirFlowMeasure
 
 ***
 
-### applicableNote?
+### applicableNote? {#applicablenote}
 
 > `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ***
 
-### applicableServiceCharge?
+### applicableServiceCharge? {#applicableservicecharge}
 
 > `optional` **applicableServiceCharge**: [`IUneceServiceCharge`](IUneceServiceCharge.md)[]
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/applicableServiceCharge
 
 ***
 
-### associatedDocument?
+### associatedDocument? {#associateddocument}
 
 > `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ***
 
-### attachedAttachedTransportEquipment?
+### attachedAttachedTransportEquipment? {#attachedattachedtransportequipment}
 
 > `optional` **attachedAttachedTransportEquipment**: [`IUneceAttachedTransportEquipment`](IUneceAttachedTransportEquipment.md)[]
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/attachedAttachedTransportEquipment
 
 ***
 
-### attachedIOTDevice?
+### attachedIOTDevice? {#attachediotdevice}
 
 > `optional` **attachedIOTDevice**: [`IUneceIOTDevice`](IUneceIOTDevice.md)[]
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/attachedIOTDevice
 
 ***
 
-### axleQuantity?
+### axleQuantity? {#axlequantity}
 
 > `optional` **axleQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/axleQuantity
 
 ***
 
-### bondedWarehouseStorageEvent?
+### bondedWarehouseStorageEvent? {#bondedwarehousestorageevent}
 
 > `optional` **bondedWarehouseStorageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/bondedWarehouseStorageEvent
 
 ***
 
-### cargoResidueStatusCode?
+### cargoResidueStatusCode? {#cargoresiduestatuscode}
 
 > `optional` **cargoResidueStatusCode**: `string`
 
@@ -184,7 +184,7 @@ https://vocabulary.uncefact.org/cargoResidueStatusCode
 
 ***
 
-### carriedTransportEquipment?
+### carriedTransportEquipment? {#carriedtransportequipment}
 
 > `optional` **carriedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)[]
 
@@ -197,7 +197,7 @@ https://vocabulary.uncefact.org/carriedTransportEquipment
 
 ***
 
-### carrierAssignedBookingId?
+### carrierAssignedBookingId? {#carrierassignedbookingid}
 
 > `optional` **carrierAssignedBookingId**: `string` \| `IJsonLdValueObject`
 
@@ -209,7 +209,7 @@ https://vocabulary.uncefact.org/carrierAssignedBookingId
 
 ***
 
-### carrierParty?
+### carrierParty? {#carrierparty}
 
 > `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -221,7 +221,7 @@ https://vocabulary.uncefact.org/carrierParty
 
 ***
 
-### characteristic?
+### characteristic? {#characteristic}
 
 > `optional` **characteristic**: `string`
 
@@ -234,7 +234,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ***
 
-### consigneeAssignedConsignmentId?
+### consigneeAssignedConsignmentId? {#consigneeassignedconsignmentid}
 
 > `optional` **consigneeAssignedConsignmentId**: `string` \| `IJsonLdValueObject`
 
@@ -246,7 +246,7 @@ https://vocabulary.uncefact.org/consigneeAssignedConsignmentId
 
 ***
 
-### consolidationEvent?
+### consolidationEvent? {#consolidationevent}
 
 > `optional` **consolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -259,7 +259,7 @@ https://vocabulary.uncefact.org/consolidationEvent
 
 ***
 
-### containedConsignment?
+### containedConsignment? {#containedconsignment}
 
 > `optional` **containedConsignment**: [`IUneceConsignment`](IUneceConsignment.md)[]
 
@@ -271,7 +271,7 @@ https://vocabulary.uncefact.org/containedConsignment
 
 ***
 
-### containedConsignmentQuantity?
+### containedConsignmentQuantity? {#containedconsignmentquantity}
 
 > `optional` **containedConsignmentQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -283,7 +283,7 @@ https://vocabulary.uncefact.org/containedConsignmentQuantity
 
 ***
 
-### containedTransportEquipment?
+### containedTransportEquipment? {#containedtransportequipment}
 
 > `optional` **containedTransportEquipment**: [`IUneceAssociatedTransportEquipment`](IUneceAssociatedTransportEquipment.md)[]
 
@@ -295,7 +295,7 @@ https://vocabulary.uncefact.org/containedTransportEquipment
 
 ***
 
-### damageRemark?
+### damageRemark? {#damageremark}
 
 > `optional` **damageRemark**: `string`
 
@@ -307,7 +307,7 @@ https://vocabulary.uncefact.org/damageRemark
 
 ***
 
-### deconsolidationEvent?
+### deconsolidationEvent? {#deconsolidationevent}
 
 > `optional` **deconsolidationEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -319,7 +319,7 @@ https://vocabulary.uncefact.org/deconsolidationEvent
 
 ***
 
-### deliveryInstructions?
+### deliveryInstructions? {#deliveryinstructions}
 
 > `optional` **deliveryInstructions**: [`IUneceDeliveryInstructions`](IUneceDeliveryInstructions.md)[]
 
@@ -331,7 +331,7 @@ https://vocabulary.uncefact.org/deliveryInstructions
 
 ***
 
-### deliveryTransportEvent?
+### deliveryTransportEvent? {#deliverytransportevent}
 
 > `optional` **deliveryTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -343,7 +343,7 @@ https://vocabulary.uncefact.org/deliveryTransportEvent
 
 ***
 
-### goodsItemUnitQuantity?
+### goodsItemUnitQuantity? {#goodsitemunitquantity}
 
 > `optional` **goodsItemUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -355,7 +355,7 @@ https://vocabulary.uncefact.org/goodsItemUnitQuantity
 
 ***
 
-### grossGoodsVolumeMeasure?
+### grossGoodsVolumeMeasure? {#grossgoodsvolumemeasure}
 
 > `optional` **grossGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
@@ -367,7 +367,7 @@ https://vocabulary.uncefact.org/grossGoodsVolumeMeasure
 
 ***
 
-### grossGoodsWeightMeasure?
+### grossGoodsWeightMeasure? {#grossgoodsweightmeasure}
 
 > `optional` **grossGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
@@ -379,7 +379,7 @@ https://vocabulary.uncefact.org/grossGoodsWeightMeasure
 
 ***
 
-### handlingInstructions?
+### handlingInstructions? {#handlinginstructions}
 
 > `optional` **handlingInstructions**: [`IUneceHandlingInstructions`](IUneceHandlingInstructions.md)[]
 
@@ -391,7 +391,7 @@ https://vocabulary.uncefact.org/handlingInstructions
 
 ***
 
-### humidityPercent?
+### humidityPercent? {#humiditypercent}
 
 > `optional` **humidityPercent**: `string`
 
@@ -403,7 +403,7 @@ https://vocabulary.uncefact.org/humidityPercent
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -415,7 +415,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -427,7 +427,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### invoiceeParty?
+### invoiceeParty? {#invoiceeparty}
 
 > `optional` **invoiceeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -439,7 +439,7 @@ https://vocabulary.uncefact.org/invoiceeParty
 
 ***
 
-### linearDimension?
+### linearDimension? {#lineardimension}
 
 > `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
@@ -451,7 +451,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ***
 
-### linearUnitLoadingLengthMeasure?
+### linearUnitLoadingLengthMeasure? {#linearunitloadinglengthmeasure}
 
 > `optional` **linearUnitLoadingLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -463,7 +463,7 @@ https://vocabulary.uncefact.org/linearUnitLoadingLengthMeasure
 
 ***
 
-### linearUnitRequiredLaneLengthMeasure?
+### linearUnitRequiredLaneLengthMeasure? {#linearunitrequiredlanelengthmeasure}
 
 > `optional` **linearUnitRequiredLaneLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
@@ -475,7 +475,7 @@ https://vocabulary.uncefact.org/linearUnitRequiredLaneLengthMeasure
 
 ***
 
-### loadedConsignmentItem?
+### loadedConsignmentItem? {#loadedconsignmentitem}
 
 > `optional` **loadedConsignmentItem**: [`IUneceConsignmentItem`](IUneceConsignmentItem.md)[]
 
@@ -487,7 +487,7 @@ https://vocabulary.uncefact.org/loadedConsignmentItem
 
 ***
 
-### loadedDangerousGoods?
+### loadedDangerousGoods? {#loadeddangerousgoods}
 
 > `optional` **loadedDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
 
@@ -499,7 +499,7 @@ https://vocabulary.uncefact.org/loadedDangerousGoods
 
 ***
 
-### loadedPackageQuantity?
+### loadedPackageQuantity? {#loadedpackagequantity}
 
 > `optional` **loadedPackageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -511,7 +511,7 @@ https://vocabulary.uncefact.org/loadedPackageQuantity
 
 ***
 
-### loadingEvent?
+### loadingEvent? {#loadingevent}
 
 > `optional` **loadingEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
@@ -523,7 +523,7 @@ https://vocabulary.uncefact.org/loadingEvent
 
 ***
 
-### loadingInstructions?
+### loadingInstructions? {#loadinginstructions}
 
 > `optional` **loadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
@@ -535,7 +535,7 @@ https://vocabulary.uncefact.org/loadingInstructions
 
 ***
 
-### loadingParty?
+### loadingParty? {#loadingparty}
 
 > `optional` **loadingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -547,7 +547,7 @@ https://vocabulary.uncefact.org/loadingParty
 
 ***
 
-### loadingRemark?
+### loadingRemark? {#loadingremark}
 
 > `optional` **loadingRemark**: `string`
 
@@ -559,7 +559,7 @@ https://vocabulary.uncefact.org/loadingRemark
 
 ***
 
-### loadingSequenceNumeric?
+### loadingSequenceNumeric? {#loadingsequencenumeric}
 
 > `optional` **loadingSequenceNumeric**: `string`
 
@@ -571,7 +571,7 @@ https://vocabulary.uncefact.org/loadingSequenceNumeric
 
 ***
 
-### logisticsTransportEquipmentCharacteristicCode?
+### logisticsTransportEquipmentCharacteristicCode? {#logisticstransportequipmentcharacteristiccode}
 
 > `optional` **logisticsTransportEquipmentCharacteristicCode**: `string`
 
@@ -584,7 +584,7 @@ https://vocabulary.uncefact.org/logisticsTransportEquipmentCharacteristicCode
 
 ***
 
-### mainCarriageTransportMovement?
+### mainCarriageTransportMovement? {#maincarriagetransportmovement}
 
 > `optional` **mainCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
@@ -596,7 +596,7 @@ https://vocabulary.uncefact.org/mainCarriageTransportMovement
 
 ***
 
-### manufacturerParty?
+### manufacturerParty? {#manufacturerparty}
 
 > `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -608,7 +608,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ***
 
-### manufacturingDateTime?
+### manufacturingDateTime? {#manufacturingdatetime}
 
 > `optional` **manufacturingDateTime**: `string`
 
@@ -620,7 +620,7 @@ https://vocabulary.uncefact.org/manufacturingDateTime
 
 ***
 
-### netGoodsVolumeMeasure?
+### netGoodsVolumeMeasure? {#netgoodsvolumemeasure}
 
 > `optional` **netGoodsVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)[]
 
@@ -632,7 +632,7 @@ https://vocabulary.uncefact.org/netGoodsVolumeMeasure
 
 ***
 
-### netGoodsWeightMeasure?
+### netGoodsWeightMeasure? {#netgoodsweightmeasure}
 
 > `optional` **netGoodsWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
@@ -644,7 +644,7 @@ https://vocabulary.uncefact.org/netGoodsWeightMeasure
 
 ***
 
-### notifiedParty?
+### notifiedParty? {#notifiedparty}
 
 > `optional` **notifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -656,7 +656,7 @@ https://vocabulary.uncefact.org/notifiedParty
 
 ***
 
-### onCarriageTransportMovement?
+### onCarriageTransportMovement? {#oncarriagetransportmovement}
 
 > `optional` **onCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
@@ -668,7 +668,7 @@ https://vocabulary.uncefact.org/onCarriageTransportMovement
 
 ***
 
-### operatingParty?
+### operatingParty? {#operatingparty}
 
 > `optional` **operatingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -680,7 +680,7 @@ https://vocabulary.uncefact.org/operatingParty
 
 ***
 
-### ownerParty?
+### ownerParty? {#ownerparty}
 
 > `optional` **ownerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -692,7 +692,7 @@ https://vocabulary.uncefact.org/ownerParty
 
 ***
 
-### pickUpEvent?
+### pickUpEvent? {#pickupevent}
 
 > `optional` **pickUpEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -705,7 +705,7 @@ https://vocabulary.uncefact.org/pickUpEvent
 
 ***
 
-### positioningEvent?
+### positioningEvent? {#positioningevent}
 
 > `optional` **positioningEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -718,7 +718,7 @@ https://vocabulary.uncefact.org/positioningEvent
 
 ***
 
-### powerSupplyConnectorQuantity?
+### powerSupplyConnectorQuantity? {#powersupplyconnectorquantity}
 
 > `optional` **powerSupplyConnectorQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -730,7 +730,7 @@ https://vocabulary.uncefact.org/powerSupplyConnectorQuantity
 
 ***
 
-### powerSupplyType?
+### powerSupplyType? {#powersupplytype}
 
 > `optional` **powerSupplyType**: `string`
 
@@ -743,7 +743,7 @@ https://vocabulary.uncefact.org/powerSupplyType
 
 ***
 
-### powerSupplyTypeCode?
+### powerSupplyTypeCode? {#powersupplytypecode}
 
 > `optional` **powerSupplyTypeCode**: `string`
 
@@ -756,7 +756,7 @@ https://vocabulary.uncefact.org/powerSupplyTypeCode
 
 ***
 
-### preCarriageTransportMovement?
+### preCarriageTransportMovement? {#precarriagetransportmovement}
 
 > `optional` **preCarriageTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)[]
 
@@ -768,7 +768,7 @@ https://vocabulary.uncefact.org/preCarriageTransportMovement
 
 ***
 
-### quarantineInstructions?
+### quarantineInstructions? {#quarantineinstructions}
 
 > `optional` **quarantineInstructions**: [`IUneceQuarantineInstructions`](IUneceQuarantineInstructions.md)[]
 
@@ -780,7 +780,7 @@ https://vocabulary.uncefact.org/quarantineInstructions
 
 ***
 
-### registrationCountry?
+### registrationCountry? {#registrationcountry}
 
 > `optional` **registrationCountry**: [`IUneceCountry`](IUneceCountry.md)
 
@@ -792,7 +792,7 @@ https://vocabulary.uncefact.org/registrationCountry
 
 ***
 
-### relatedEvent?
+### relatedEvent? {#relatedevent}
 
 > `optional` **relatedEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
 
@@ -804,7 +804,7 @@ https://vocabulary.uncefact.org/relatedEvent
 
 ***
 
-### releaseId?
+### releaseId? {#releaseid}
 
 > `optional` **releaseId**: `string` \| `IJsonLdValueObject`
 
@@ -816,7 +816,7 @@ https://vocabulary.uncefact.org/releaseId
 
 ***
 
-### releaseRestriction?
+### releaseRestriction? {#releaserestriction}
 
 > `optional` **releaseRestriction**: `string`
 
@@ -828,7 +828,7 @@ https://vocabulary.uncefact.org/releaseRestriction
 
 ***
 
-### reportableQuantity?
+### reportableQuantity? {#reportablequantity}
 
 > `optional` **reportableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -840,7 +840,7 @@ https://vocabulary.uncefact.org/reportableQuantity
 
 ***
 
-### reportedLogisticsStatus?
+### reportedLogisticsStatus? {#reportedlogisticsstatus}
 
 > `optional` **reportedLogisticsStatus**: [`IUneceLogisticsStatus`](IUneceLogisticsStatus.md)[]
 
@@ -852,7 +852,7 @@ https://vocabulary.uncefact.org/reportedLogisticsStatus
 
 ***
 
-### reportingIOTDevicePairing?
+### reportingIOTDevicePairing? {#reportingiotdevicepairing}
 
 > `optional` **reportingIOTDevicePairing**: [`IUnecePairing`](IUnecePairing.md)[]
 
@@ -864,7 +864,7 @@ https://vocabulary.uncefact.org/reportingIOTDevicePairing
 
 ***
 
-### reportingIOTDeviceTransportEvent?
+### reportingIOTDeviceTransportEvent? {#reportingiotdevicetransportevent}
 
 > `optional` **reportingIOTDeviceTransportEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -876,7 +876,7 @@ https://vocabulary.uncefact.org/reportingIOTDeviceTransportEvent
 
 ***
 
-### requestedRoute?
+### requestedRoute? {#requestedroute}
 
 > `optional` **requestedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
@@ -888,7 +888,7 @@ https://vocabulary.uncefact.org/requestedRoute
 
 ***
 
-### returnableIndicator?
+### returnableIndicator? {#returnableindicator}
 
 > `optional` **returnableIndicator**: `boolean`
 
@@ -900,7 +900,7 @@ https://vocabulary.uncefact.org/returnableIndicator
 
 ***
 
-### scheduledRoute?
+### scheduledRoute? {#scheduledroute}
 
 > `optional` **scheduledRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)[]
 
@@ -912,7 +912,7 @@ https://vocabulary.uncefact.org/scheduledRoute
 
 ***
 
-### sealQuantity?
+### sealQuantity? {#sealquantity}
 
 > `optional` **sealQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -924,7 +924,7 @@ https://vocabulary.uncefact.org/sealQuantity
 
 ***
 
-### sealedIndicator?
+### sealedIndicator? {#sealedindicator}
 
 > `optional` **sealedIndicator**: `boolean`
 
@@ -936,7 +936,7 @@ https://vocabulary.uncefact.org/sealedIndicator
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -949,7 +949,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### settingTemperature?
+### settingTemperature? {#settingtemperature}
 
 > `optional` **settingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
 
@@ -962,7 +962,7 @@ https://vocabulary.uncefact.org/settingTemperature
 
 ***
 
-### shipperReferenceInformation?
+### shipperReferenceInformation? {#shipperreferenceinformation}
 
 > `optional` **shipperReferenceInformation**: `string`
 
@@ -974,7 +974,7 @@ https://vocabulary.uncefact.org/shipperReferenceInformation
 
 ***
 
-### specifiedRiskAnalysisResult?
+### specifiedRiskAnalysisResult? {#specifiedriskanalysisresult}
 
 > `optional` **specifiedRiskAnalysisResult**: [`IUneceRiskAnalysisResult`](IUneceRiskAnalysisResult.md)[]
 
@@ -986,7 +986,7 @@ https://vocabulary.uncefact.org/specifiedRiskAnalysisResult
 
 ***
 
-### specifiedTransportMeans?
+### specifiedTransportMeans? {#specifiedtransportmeans}
 
 > `optional` **specifiedTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
@@ -998,7 +998,7 @@ https://vocabulary.uncefact.org/specifiedTransportMeans
 
 ***
 
-### storageEvent?
+### storageEvent? {#storageevent}
 
 > `optional` **storageEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -1010,7 +1010,7 @@ https://vocabulary.uncefact.org/storageEvent
 
 ***
 
-### stowagePositionId?
+### stowagePositionId? {#stowagepositionid}
 
 > `optional` **stowagePositionId**: `string` \| `IJsonLdValueObject`
 
@@ -1022,7 +1022,7 @@ https://vocabulary.uncefact.org/stowagePositionId
 
 ***
 
-### transportEquipmentCategoryCode?
+### transportEquipmentCategoryCode? {#transportequipmentcategorycode}
 
 > `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)
 
@@ -1034,7 +1034,7 @@ https://vocabulary.uncefact.org/transportEquipmentCategoryCode
 
 ***
 
-### transportEquipmentFullnessUsedCapacityCode?
+### transportEquipmentFullnessUsedCapacityCode? {#transportequipmentfullnessusedcapacitycode}
 
 > `optional` **transportEquipmentFullnessUsedCapacityCode**: [`UneceTransportEquipmentFullnessCodeList`](../type-aliases/UneceTransportEquipmentFullnessCodeList.md)
 
@@ -1046,7 +1046,7 @@ https://vocabulary.uncefact.org/transportEquipmentFullnessUsedCapacityCode
 
 ***
 
-### transportEquipmentHaulageArrangementsCode?
+### transportEquipmentHaulageArrangementsCode? {#transportequipmenthaulagearrangementscode}
 
 > `optional` **transportEquipmentHaulageArrangementsCode**: [`UneceTransportEquipmentHaulageArrangementsCodeList`](../type-aliases/UneceTransportEquipmentHaulageArrangementsCodeList.md)
 
@@ -1058,7 +1058,7 @@ https://vocabulary.uncefact.org/transportEquipmentHaulageArrangementsCode
 
 ***
 
-### transportEquipmentLegalStatusLegalStatusCode?
+### transportEquipmentLegalStatusLegalStatusCode? {#transportequipmentlegalstatuslegalstatuscode}
 
 > `optional` **transportEquipmentLegalStatusLegalStatusCode**: [`UneceTransportEquipmentLegalStatusCodeList`](../type-aliases/UneceTransportEquipmentLegalStatusCodeList.md)
 
@@ -1071,7 +1071,7 @@ https://vocabulary.uncefact.org/transportEquipmentLegalStatusLegalStatusCode
 
 ***
 
-### transportEquipmentMovementStatusTransportMovementStatusCode?
+### transportEquipmentMovementStatusTransportMovementStatusCode? {#transportequipmentmovementstatustransportmovementstatuscode}
 
 > `optional` **transportEquipmentMovementStatusTransportMovementStatusCode**: [`UneceTransportEquipmentMovementStatusCodeList`](../type-aliases/UneceTransportEquipmentMovementStatusCodeList.md)
 
@@ -1084,7 +1084,7 @@ https://vocabulary.uncefact.org/transportEquipmentMovementStatusTransportMovemen
 
 ***
 
-### transportEquipmentOperationalStatusCode?
+### transportEquipmentOperationalStatusCode? {#transportequipmentoperationalstatuscode}
 
 > `optional` **transportEquipmentOperationalStatusCode**: [`UneceTransportEquipmentOperationalStatusCodeList`](../type-aliases/UneceTransportEquipmentOperationalStatusCodeList.md)
 
@@ -1097,7 +1097,7 @@ https://vocabulary.uncefact.org/transportEquipmentOperationalStatusCode
 
 ***
 
-### transportEquipmentSizeTypeCharacteristicCode?
+### transportEquipmentSizeTypeCharacteristicCode? {#transportequipmentsizetypecharacteristiccode}
 
 > `optional` **transportEquipmentSizeTypeCharacteristicCode**: [`UneceTransportEquipmentSizeTypeCodeList`](../type-aliases/UneceTransportEquipmentSizeTypeCodeList.md)
 
@@ -1110,7 +1110,7 @@ https://vocabulary.uncefact.org/transportEquipmentSizeTypeCharacteristicCode
 
 ***
 
-### transportEquipmentSupplierPartyRoleCode?
+### transportEquipmentSupplierPartyRoleCode? {#transportequipmentsupplierpartyrolecode}
 
 > `optional` **transportEquipmentSupplierPartyRoleCode**: [`UneceTransportEquipmentSupplierPartyRoleCodeList`](../type-aliases/UneceTransportEquipmentSupplierPartyRoleCodeList.md)
 
@@ -1123,7 +1123,7 @@ https://vocabulary.uncefact.org/transportEquipmentSupplierPartyRoleCode
 
 ***
 
-### transportService?
+### transportService? {#transportservice}
 
 > `optional` **transportService**: [`IUneceService`](IUneceService.md)[]
 
@@ -1135,7 +1135,7 @@ https://vocabulary.uncefact.org/transportService
 
 ***
 
-### transportServicesBuyerParty?
+### transportServicesBuyerParty? {#transportservicesbuyerparty}
 
 > `optional` **transportServicesBuyerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -1147,7 +1147,7 @@ https://vocabulary.uncefact.org/transportServicesBuyerParty
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -1159,7 +1159,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### unloadingEvent?
+### unloadingEvent? {#unloadingevent}
 
 > `optional` **unloadingEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)
 
@@ -1171,7 +1171,7 @@ https://vocabulary.uncefact.org/unloadingEvent
 
 ***
 
-### unloadingInstructions?
+### unloadingInstructions? {#unloadinginstructions}
 
 > `optional` **unloadingInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
@@ -1183,7 +1183,7 @@ https://vocabulary.uncefact.org/unloadingInstructions
 
 ***
 
-### unloadingSequenceNumeric?
+### unloadingSequenceNumeric? {#unloadingsequencenumeric}
 
 > `optional` **unloadingSequenceNumeric**: `string`
 
@@ -1195,7 +1195,7 @@ https://vocabulary.uncefact.org/unloadingSequenceNumeric
 
 ***
 
-### verifiedGrossWeightMeasure?
+### verifiedGrossWeightMeasure? {#verifiedgrossweightmeasure}
 
 > `optional` **verifiedGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
@@ -1208,7 +1208,7 @@ https://vocabulary.uncefact.org/verifiedGrossWeightMeasure
 
 ***
 
-### volumeUnitGrossVolumeMeasure?
+### volumeUnitGrossVolumeMeasure? {#volumeunitgrossvolumemeasure}
 
 > `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -1220,7 +1220,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ***
 
-### weightUnitGrossWeightMeasure?
+### weightUnitGrossWeightMeasure? {#weightunitgrossweightmeasure}
 
 > `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -1233,7 +1233,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ***
 
-### weightUnitNetWeightMeasure?
+### weightUnitNetWeightMeasure? {#weightunitnetweightmeasure}
 
 > `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)[]
 
@@ -1245,7 +1245,7 @@ https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 
 ***
 
-### weightUnitTareWeightMeasure?
+### weightUnitTareWeightMeasure? {#weightunittareweightmeasure}
 
 > `optional` **weightUnitTareWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 

@@ -6,7 +6,7 @@ A character string used to represent the type of basis on which logistic charges
 
 ## Type Declaration
 
-### MutuallyDefined
+### MutuallyDefined {#mutuallydefined}
 
 > `readonly` **MutuallyDefined**: `"unece:LogisticsChargeCalculationBasisCodeList#ZZZ"` = `"unece:LogisticsChargeCalculationBasisCodeList#ZZZ"`
 

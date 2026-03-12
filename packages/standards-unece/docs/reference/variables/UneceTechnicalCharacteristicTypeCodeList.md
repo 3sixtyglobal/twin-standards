@@ -6,7 +6,7 @@ Values for UneceTechnicalCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableTechnicalCharacteristic
+### ApplicableTechnicalCharacteristic {#applicabletechnicalcharacteristic}
 
 > `readonly` **ApplicableTechnicalCharacteristic**: `"unece:applicableTechnicalCharacteristic"` = `"unece:applicableTechnicalCharacteristic"`
 
@@ -20,7 +20,7 @@ A technical characteristic applicable to this trade product.
 
 https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
-### ManagedCharacteristic
+### ManagedCharacteristic {#managedcharacteristic}
 
 > `readonly` **ManagedCharacteristic**: `"unece:managedCharacteristic"` = `"unece:managedCharacteristic"`
 
@@ -30,7 +30,7 @@ A technical characteristic managed by this TT party.
 
 https://vocabulary.uncefact.org/managedCharacteristic
 
-### RelatedTechnicalCharacteristic
+### RelatedTechnicalCharacteristic {#relatedtechnicalcharacteristic}
 
 > `readonly` **RelatedTechnicalCharacteristic**: `"unece:relatedTechnicalCharacteristic"` = `"unece:relatedTechnicalCharacteristic"`
 

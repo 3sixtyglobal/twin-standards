@@ -6,7 +6,7 @@ Values for UneceQuantityAnalysis typeCode property.
 
 ## Type Declaration
 
-### BreakdownQuantityAnalysis
+### BreakdownQuantityAnalysis {#breakdownquantityanalysis}
 
 > `readonly` **BreakdownQuantityAnalysis**: `"unece:breakdownQuantityAnalysis"` = `"unece:breakdownQuantityAnalysis"`
 
@@ -16,7 +16,7 @@ A quantity analysis breakdown of this work item quantity analysis.
 
 https://vocabulary.uncefact.org/breakdownQuantityAnalysis
 
-### TotalQuantityAnalysis
+### TotalQuantityAnalysis {#totalquantityanalysis}
 
 > `readonly` **TotalQuantityAnalysis**: `"unece:totalQuantityAnalysis"` = `"unece:totalQuantityAnalysis"`
 

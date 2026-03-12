@@ -5,7 +5,7 @@ https://docs.gaia-x.eu/ontology/development/classes/Endpoint
 
 ## Properties
 
-### type
+### type {#type}
 
 > **type**: `"Endpoint"` \| `undefined`
 
@@ -13,7 +13,7 @@ The type of JSON-LD node. In this case it is allowed to be omitted as it is usua
 
 ***
 
-### endpointURL
+### endpointURL {#endpointurl}
 
 > **endpointURL**: `string`
 
@@ -21,7 +21,7 @@ The endpoint URL
 
 ***
 
-### formalDescription?
+### formalDescription? {#formaldescription}
 
 > `optional` **formalDescription**: `string`
 
@@ -29,7 +29,7 @@ The formal description
 
 ***
 
-### standardConformity?
+### standardConformity? {#standardconformity}
 
 > `optional` **standardConformity**: `IJsonLdNodeObject`
 

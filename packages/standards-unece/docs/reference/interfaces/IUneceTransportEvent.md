@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/TransportEvent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportEvent"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actualArrivalRelatedDateTime?
+### actualArrivalRelatedDateTime? {#actualarrivalrelateddatetime}
 
 > `optional` **actualArrivalRelatedDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualArrivalRelatedDateTime
 
 ***
 
-### actualDepartureRelatedDateTime?
+### actualDepartureRelatedDateTime? {#actualdeparturerelateddatetime}
 
 > `optional` **actualDepartureRelatedDateTime**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/actualDepartureRelatedDateTime
 
 ***
 
-### actualOccurrenceDateTime?
+### actualOccurrenceDateTime? {#actualoccurrencedatetime}
 
 > `optional` **actualOccurrenceDateTime**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/actualOccurrenceDateTime
 
 ***
 
-### actualOccurrencePeriod?
+### actualOccurrencePeriod? {#actualoccurrenceperiod}
 
 > `optional` **actualOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/actualOccurrencePeriod
 
 ***
 
-### additionalSecurityMeasuresApplicableNote?
+### additionalSecurityMeasuresApplicableNote? {#additionalsecuritymeasuresapplicablenote}
 
 > `optional` **additionalSecurityMeasuresApplicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/additionalSecurityMeasuresApplicableNote
 
 ***
 
-### anchorageDescription?
+### anchorageDescription? {#anchoragedescription}
 
 > `optional` **anchorageDescription**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/anchorageDescription
 
 ***
 
-### anchorageExpectedIndicator?
+### anchorageExpectedIndicator? {#anchorageexpectedindicator}
 
 > `optional` **anchorageExpectedIndicator**: `boolean`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/anchorageExpectedIndicator
 
 ***
 
-### applicableNote?
+### applicableNote? {#applicablenote}
 
 > `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ***
 
-### arrivalRelatedDateTime?
+### arrivalRelatedDateTime? {#arrivalrelateddatetime}
 
 > `optional` **arrivalRelatedDateTime**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/arrivalRelatedDateTime
 
 ***
 
-### associatedGeographicalFeature?
+### associatedGeographicalFeature? {#associatedgeographicalfeature}
 
 > `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/associatedGeographicalFeature
 
 ***
 
-### cargoFacilityRelatedLocation?
+### cargoFacilityRelatedLocation? {#cargofacilityrelatedlocation}
 
 > `optional` **cargoFacilityRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/cargoFacilityRelatedLocation
 
 ***
 
-### certifyingParty?
+### certifyingParty? {#certifyingparty}
 
 > `optional` **certifyingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/certifyingParty
 
 ***
 
-### conveyanceFacilityRelatedLocation?
+### conveyanceFacilityRelatedLocation? {#conveyancefacilityrelatedlocation}
 
 > `optional` **conveyanceFacilityRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/conveyanceFacilityRelatedLocation
 
 ***
 
-### delayOccurrencePeriod?
+### delayOccurrencePeriod? {#delayoccurrenceperiod}
 
 > `optional` **delayOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/delayOccurrencePeriod
 
 ***
 
-### delaySpecifiedEvent?
+### delaySpecifiedEvent? {#delayspecifiedevent}
 
 > `optional` **delaySpecifiedEvent**: `IUneceTransportEvent`[]
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/delaySpecifiedEvent
 
 ***
 
-### departureRelatedDateTime?
+### departureRelatedDateTime? {#departurerelateddatetime}
 
 > `optional` **departureRelatedDateTime**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/departureRelatedDateTime
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### estimatedOccurrenceDateTime?
+### estimatedOccurrenceDateTime? {#estimatedoccurrencedatetime}
 
 > `optional` **estimatedOccurrenceDateTime**: `string`
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 
 ***
 
-### estimatedTransportMeansArrivalOccurrenceDateTime?
+### estimatedTransportMeansArrivalOccurrenceDateTime? {#estimatedtransportmeansarrivaloccurrencedatetime}
 
 > `optional` **estimatedTransportMeansArrivalOccurrenceDateTime**: `string`
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/estimatedTransportMeansArrivalOccurrenceDateTime
 
 ***
 
-### expectedIndicator?
+### expectedIndicator? {#expectedindicator}
 
 > `optional` **expectedIndicator**: `boolean`
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/expectedIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### laycanOccurrencePeriod?
+### laycanOccurrencePeriod? {#laycanoccurrenceperiod}
 
 > `optional` **laycanOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/laycanOccurrencePeriod
 
 ***
 
-### maritimeAnchorageIndicator?
+### maritimeAnchorageIndicator? {#maritimeanchorageindicator}
 
 > `optional` **maritimeAnchorageIndicator**: `boolean`
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/maritimeAnchorageIndicator
 
 ***
 
-### occurrenceLogisticsLocation?
+### occurrenceLogisticsLocation? {#occurrencelogisticslocation}
 
 > `optional` **occurrenceLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/occurrenceLogisticsLocation
 
 ***
 
-### occurrencePeriod?
+### occurrencePeriod? {#occurrenceperiod}
 
 > `optional` **occurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/occurrencePeriod
 
 ***
 
-### pilotBoardingPlace?
+### pilotBoardingPlace? {#pilotboardingplace}
 
 > `optional` **pilotBoardingPlace**: `string`
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/pilotBoardingPlace
 
 ***
 
-### preTranshipmentTransportEquipmentApplicableNote?
+### preTranshipmentTransportEquipmentApplicableNote? {#pretranshipmenttransportequipmentapplicablenote}
 
 > `optional` **preTranshipmentTransportEquipmentApplicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/preTranshipmentTransportEquipmentApplicableNote
 
 ***
 
-### previousAssociatedGeographicalFeature?
+### previousAssociatedGeographicalFeature? {#previousassociatedgeographicalfeature}
 
 > `optional` **previousAssociatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/previousAssociatedGeographicalFeature
 
 ***
 
-### reasonTypeCode?
+### reasonTypeCode? {#reasontypecode}
 
 > `optional` **reasonTypeCode**: `string`
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/reasonTypeCode
 
 ***
 
-### receivedDateTime?
+### receivedDateTime? {#receiveddatetime}
 
 > `optional` **receivedDateTime**: `string`
 
@@ -387,7 +387,7 @@ https://vocabulary.uncefact.org/receivedDateTime
 
 ***
 
-### relatedObservation?
+### relatedObservation? {#relatedobservation}
 
 > `optional` **relatedObservation**: [`IUneceObservation`](IUneceObservation.md)[]
 
@@ -399,7 +399,7 @@ https://vocabulary.uncefact.org/relatedObservation
 
 ***
 
-### relatedRoute?
+### relatedRoute? {#relatedroute}
 
 > `optional` **relatedRoute**: [`IUneceTransportRoute`](IUneceTransportRoute.md)
 
@@ -411,7 +411,7 @@ https://vocabulary.uncefact.org/relatedRoute
 
 ***
 
-### reportedConditionTypeCode?
+### reportedConditionTypeCode? {#reportedconditiontypecode}
 
 > `optional` **reportedConditionTypeCode**: [`UneceLogisticsStatusCodeList`](../type-aliases/UneceLogisticsStatusCodeList.md)
 
@@ -423,7 +423,7 @@ https://vocabulary.uncefact.org/reportedConditionTypeCode
 
 ***
 
-### reportingIOTDevice?
+### reportingIOTDevice? {#reportingiotdevice}
 
 > `optional` **reportingIOTDevice**: [`IUneceIOTDevice`](IUneceIOTDevice.md)[]
 
@@ -435,7 +435,7 @@ https://vocabulary.uncefact.org/reportingIOTDevice
 
 ***
 
-### requestedOccurrenceDateTime?
+### requestedOccurrenceDateTime? {#requestedoccurrencedatetime}
 
 > `optional` **requestedOccurrenceDateTime**: `string`
 
@@ -447,7 +447,7 @@ https://vocabulary.uncefact.org/requestedOccurrenceDateTime
 
 ***
 
-### requestedRelatedService?
+### requestedRelatedService? {#requestedrelatedservice}
 
 > `optional` **requestedRelatedService**: [`IUneceService`](IUneceService.md)[]
 
@@ -459,7 +459,7 @@ https://vocabulary.uncefact.org/requestedRelatedService
 
 ***
 
-### scheduledArrivalRelatedDateTime?
+### scheduledArrivalRelatedDateTime? {#scheduledarrivalrelateddatetime}
 
 > `optional` **scheduledArrivalRelatedDateTime**: `string`
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/scheduledArrivalRelatedDateTime
 
 ***
 
-### scheduledDepartureRelatedDateTime?
+### scheduledDepartureRelatedDateTime? {#scheduleddeparturerelateddatetime}
 
 > `optional` **scheduledDepartureRelatedDateTime**: `string`
 
@@ -484,7 +484,7 @@ https://vocabulary.uncefact.org/scheduledDepartureRelatedDateTime
 
 ***
 
-### scheduledOccurrenceDateTime?
+### scheduledOccurrenceDateTime? {#scheduledoccurrencedatetime}
 
 > `optional` **scheduledOccurrenceDateTime**: `string`
 
@@ -496,7 +496,7 @@ https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
 
 ***
 
-### scheduledOccurrencePeriod?
+### scheduledOccurrencePeriod? {#scheduledoccurrenceperiod}
 
 > `optional` **scheduledOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -508,7 +508,7 @@ https://vocabulary.uncefact.org/scheduledOccurrencePeriod
 
 ***
 
-### securityLevelCode?
+### securityLevelCode? {#securitylevelcode}
 
 > `optional` **securityLevelCode**: `string`
 
@@ -520,7 +520,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ***
 
-### specifiedTransportInstructions?
+### specifiedTransportInstructions? {#specifiedtransportinstructions}
 
 > `optional` **specifiedTransportInstructions**: [`IUneceTransportInstructions`](IUneceTransportInstructions.md)[]
 
@@ -532,7 +532,7 @@ https://vocabulary.uncefact.org/specifiedTransportInstructions
 
 ***
 
-### staySpecifiedEvent?
+### staySpecifiedEvent? {#stayspecifiedevent}
 
 > `optional` **staySpecifiedEvent**: `IUneceTransportEvent`[]
 
@@ -544,7 +544,7 @@ https://vocabulary.uncefact.org/staySpecifiedEvent
 
 ***
 
-### transportInformationApplicableNote?
+### transportInformationApplicableNote? {#transportinformationapplicablenote}
 
 > `optional` **transportInformationApplicableNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -556,7 +556,7 @@ https://vocabulary.uncefact.org/transportInformationApplicableNote
 
 ***
 
-### transportMeansStayOccurrencePeriod?
+### transportMeansStayOccurrencePeriod? {#transportmeansstayoccurrenceperiod}
 
 > `optional` **transportMeansStayOccurrencePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -568,7 +568,7 @@ https://vocabulary.uncefact.org/transportMeansStayOccurrencePeriod
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -580,7 +580,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### unitQuantity?
+### unitQuantity? {#unitquantity}
 
 > `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -592,7 +592,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ***
 
-### unitValueMeasure?
+### unitValueMeasure? {#unitvaluemeasure}
 
 > `optional` **unitValueMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)
 

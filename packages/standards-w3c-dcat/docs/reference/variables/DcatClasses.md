@@ -6,7 +6,7 @@ DCAT core classes representing the main entities in the Data Catalog Vocabulary.
 
 ## Type Declaration
 
-### Catalog
+### Catalog {#catalog}
 
 > `readonly` **Catalog**: `"dcat:Catalog"` = `"dcat:Catalog"`
 
@@ -16,7 +16,7 @@ A curated collection of metadata about resources (e.g., datasets and data servic
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog
 
-### Resource
+### Resource {#resource}
 
 > `readonly` **Resource**: `"dcat:Resource"` = `"dcat:Resource"`
 
@@ -27,7 +27,7 @@ This is an abstract class and should not be used directly.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
 
-### Dataset
+### Dataset {#dataset}
 
 > `readonly` **Dataset**: `"dcat:Dataset"` = `"dcat:Dataset"`
 
@@ -37,7 +37,7 @@ A collection of data, published or curated by a single agent, and available for 
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset
 
-### Distribution
+### Distribution {#distribution}
 
 > `readonly` **Distribution**: `"dcat:Distribution"` = `"dcat:Distribution"`
 
@@ -47,7 +47,7 @@ A specific representation of a dataset. A dataset might be available in multiple
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution
 
-### DataService
+### DataService {#dataservice}
 
 > `readonly` **DataService**: `"dcat:DataService"` = `"dcat:DataService"`
 
@@ -57,7 +57,7 @@ A collection of operations that provides access to one or more datasets or data 
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service
 
-### DatasetSeries
+### DatasetSeries {#datasetseries}
 
 > `readonly` **DatasetSeries**: `"dcat:DatasetSeries"` = `"dcat:DatasetSeries"`
 
@@ -67,7 +67,7 @@ A collection of datasets that are published separately, but share some common ch
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series
 
-### CatalogRecord
+### CatalogRecord {#catalogrecord}
 
 > `readonly` **CatalogRecord**: `"dcat:CatalogRecord"` = `"dcat:CatalogRecord"`
 
@@ -77,7 +77,7 @@ A record in a data catalog, describing the registration of a single dataset or d
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record
 
-### Relationship
+### Relationship {#relationship}
 
 > `readonly` **Relationship**: `"dcat:Relationship"` = `"dcat:Relationship"`
 
@@ -87,7 +87,7 @@ An association class for attaching additional information to a relationship betw
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Relationship
 
-### Role
+### Role {#role}
 
 > `readonly` **Role**: `"dcat:Role"` = `"dcat:Role"`
 

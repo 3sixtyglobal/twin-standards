@@ -8,25 +8,25 @@ Source: `tntPublisherRole` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### CA
+### CA {#ca}
 
 > `readonly` **CA**: `"CA"` = `"CA"`
 
 Carrier.
 
-### AG
+### AG {#ag}
 
 > `readonly` **AG**: `"AG"` = `"AG"`
 
 Agent.
 
-### VSP
+### VSP {#vsp}
 
 > `readonly` **VSP**: `"VSP"` = `"VSP"`
 
 Vessel Sharing Partner.
 
-### SVP
+### SVP {#svp}
 
 > `readonly` **SVP**: `"SVP"` = `"SVP"`
 

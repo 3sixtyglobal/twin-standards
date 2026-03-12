@@ -7,7 +7,7 @@ https://www.w3.org/TR/odrl-model/#constraint-logical
 
 ## Properties
 
-### uid?
+### uid? {#uid}
 
 > `optional` **uid**: `string`
 
@@ -16,7 +16,7 @@ Must be an IRI.
 
 ***
 
-### and?
+### and? {#and}
 
 > `optional` **and**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
@@ -25,7 +25,7 @@ Exactly one logical operator must be present.
 
 ***
 
-### or?
+### or? {#or}
 
 > `optional` **or**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
@@ -34,7 +34,7 @@ Exactly one logical operator must be present.
 
 ***
 
-### xone?
+### xone? {#xone}
 
 > `optional` **xone**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
@@ -43,7 +43,7 @@ Exactly one logical operator must be present.
 
 ***
 
-### andSequence?
+### andSequence? {#andsequence}
 
 > `optional` **andSequence**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 

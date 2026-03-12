@@ -6,7 +6,7 @@ Values for UneceSpecifiedPeriod typeCode property.
 
 ## Type Declaration
 
-### AcceptablePeriod
+### AcceptablePeriod {#acceptableperiod}
 
 > `readonly` **AcceptablePeriod**: `"unece:acceptablePeriod"` = `"unece:acceptablePeriod"`
 
@@ -16,7 +16,7 @@ The specified period within which this referenced document may be accepted.
 
 https://vocabulary.uncefact.org/acceptablePeriod
 
-### AccessAvailabilityPeriod
+### AccessAvailabilityPeriod {#accessavailabilityperiod}
 
 > `readonly` **AccessAvailabilityPeriod**: `"unece:accessAvailabilityPeriod"` = `"unece:accessAvailabilityPeriod"`
 
@@ -26,7 +26,7 @@ The specified period when access to this binary file is available.
 
 https://vocabulary.uncefact.org/accessAvailabilityPeriod
 
-### ActualOccurrencePeriod
+### ActualOccurrencePeriod {#actualoccurrenceperiod}
 
 > `readonly` **ActualOccurrencePeriod**: `"unece:actualOccurrencePeriod"` = `"unece:actualOccurrencePeriod"`
 
@@ -36,7 +36,7 @@ The actual period of time during which this transport event occurred.
 
 https://vocabulary.uncefact.org/actualOccurrencePeriod
 
-### ActualPerformancePeriod
+### ActualPerformancePeriod {#actualperformanceperiod}
 
 > `readonly` **ActualPerformancePeriod**: `"unece:actualPerformancePeriod"` = `"unece:actualPerformancePeriod"`
 
@@ -46,7 +46,7 @@ An actual period of performance for this referenced transport service.
 
 https://vocabulary.uncefact.org/actualPerformancePeriod
 
-### ApplicablePeriod
+### ApplicablePeriod {#applicableperiod}
 
 > `readonly` **ApplicablePeriod**: `"unece:applicablePeriod"` = `"unece:applicablePeriod"`
 
@@ -62,7 +62,7 @@ The period applicable for this supply chain supply plan.
 
 https://vocabulary.uncefact.org/applicablePeriod
 
-### AppliedPeriod
+### AppliedPeriod {#appliedperiod}
 
 > `readonly` **AppliedPeriod**: `"unece:appliedPeriod"` = `"unece:appliedPeriod"`
 
@@ -72,7 +72,7 @@ A period during which this chemical treatment is applied.
 
 https://vocabulary.uncefact.org/appliedPeriod
 
-### AssociatedPeriod
+### AssociatedPeriod {#associatedperiod}
 
 > `readonly` **AssociatedPeriod**: `"unece:associatedPeriod"` = `"unece:associatedPeriod"`
 
@@ -82,7 +82,7 @@ A period of time associated with this document clause.
 
 https://vocabulary.uncefact.org/associatedPeriod
 
-### AvailablePeriod
+### AvailablePeriod {#availableperiod}
 
 > `readonly` **AvailablePeriod**: `"unece:availablePeriod"` = `"unece:availablePeriod"`
 
@@ -92,7 +92,7 @@ An available period for this specified experience item.
 
 https://vocabulary.uncefact.org/availablePeriod
 
-### BillingPeriod
+### BillingPeriod {#billingperiod}
 
 > `readonly` **BillingPeriod**: `"unece:billingPeriod"` = `"unece:billingPeriod"`
 
@@ -104,7 +104,7 @@ The billing period specified for the subordinate line of this trade settlement.
 
 https://vocabulary.uncefact.org/billingPeriod
 
-### CompletionPeriod
+### CompletionPeriod {#completionperiod}
 
 > `readonly` **CompletionPeriod**: `"unece:completionPeriod"` = `"unece:completionPeriod"`
 
@@ -114,7 +114,7 @@ The specified period of completion for this product handling process.
 
 https://vocabulary.uncefact.org/completionPeriod
 
-### DelayOccurrencePeriod
+### DelayOccurrencePeriod {#delayoccurrenceperiod}
 
 > `readonly` **DelayOccurrencePeriod**: `"unece:delayOccurrencePeriod"` = `"unece:delayOccurrencePeriod"`
 
@@ -124,7 +124,7 @@ A specified period of time during which this transport event is delayed.
 
 https://vocabulary.uncefact.org/delayOccurrencePeriod
 
-### DepositValueValidityPeriod
+### DepositValueValidityPeriod {#depositvaluevalidityperiod}
 
 > `readonly` **DepositValueValidityPeriod**: `"unece:depositValueValidityPeriod"` = `"unece:depositValueValidityPeriod"`
 
@@ -134,7 +134,7 @@ The specified period during which the deposit value specified in these returnabl
 
 https://vocabulary.uncefact.org/depositValueValidityPeriod
 
-### DiscretePeriod
+### DiscretePeriod {#discreteperiod}
 
 > `readonly` **DiscretePeriod**: `"unece:discretePeriod"` = `"unece:discretePeriod"`
 
@@ -144,7 +144,7 @@ A discrete period specified for this supply chain event.
 
 https://vocabulary.uncefact.org/discretePeriod
 
-### EffectiveSpecifiedPeriod
+### EffectiveSpecifiedPeriod {#effectivespecifiedperiod}
 
 > `readonly` **EffectiveSpecifiedPeriod**: `"unece:effectiveSpecifiedPeriod"` = `"unece:effectiveSpecifiedPeriod"`
 
@@ -157,7 +157,7 @@ The specified period within which this referenced document is effective.
 
 https://vocabulary.uncefact.org/effectiveSpecifiedPeriod
 
-### EstimatedPerformancePeriod
+### EstimatedPerformancePeriod {#estimatedperformanceperiod}
 
 > `readonly` **EstimatedPerformancePeriod**: `"unece:estimatedPerformancePeriod"` = `"unece:estimatedPerformancePeriod"`
 
@@ -167,7 +167,7 @@ An estimated period of performance for this referenced transport service.
 
 https://vocabulary.uncefact.org/estimatedPerformancePeriod
 
-### ExclusivityPeriod
+### ExclusivityPeriod {#exclusivityperiod}
 
 > `readonly` **ExclusivityPeriod**: `"unece:exclusivityPeriod"` = `"unece:exclusivityPeriod"`
 
@@ -177,7 +177,7 @@ The exclusivity period specified in this line trade agreement.
 
 https://vocabulary.uncefact.org/exclusivityPeriod
 
-### FrequencyEffectivePeriod
+### FrequencyEffectivePeriod {#frequencyeffectiveperiod}
 
 > `readonly` **FrequencyEffectivePeriod**: `"unece:frequencyEffectivePeriod"` = `"unece:frequencyEffectivePeriod"`
 
@@ -187,7 +187,7 @@ A specified period of time for which a frequency is effective for this transport
 
 https://vocabulary.uncefact.org/frequencyEffectivePeriod
 
-### GuaranteedProductLifeSpanPeriod
+### GuaranteedProductLifeSpanPeriod {#guaranteedproductlifespanperiod}
 
 > `readonly` **GuaranteedProductLifeSpanPeriod**: `"unece:guaranteedProductLifeSpanPeriod"` = `"unece:guaranteedProductLifeSpanPeriod"`
 
@@ -197,7 +197,7 @@ The guaranteed product life span specified in this line trade agreement.
 
 https://vocabulary.uncefact.org/guaranteedProductLifeSpanPeriod
 
-### LaycanOccurrencePeriod
+### LaycanOccurrencePeriod {#laycanoccurrenceperiod}
 
 > `readonly` **LaycanOccurrencePeriod**: `"unece:laycanOccurrencePeriod"` = `"unece:laycanOccurrencePeriod"`
 
@@ -207,7 +207,7 @@ The specified period of laycan time during which this transport event occurs.
 
 https://vocabulary.uncefact.org/laycanOccurrencePeriod
 
-### MaximumOrderQuantityOrderingPeriod
+### MaximumOrderQuantityOrderingPeriod {#maximumorderquantityorderingperiod}
 
 > `readonly` **MaximumOrderQuantityOrderingPeriod**: `"unece:maximumOrderQuantityOrderingPeriod"` = `"unece:maximumOrderQuantityOrderingPeriod"`
 
@@ -217,7 +217,7 @@ The maximum order quantity ordering period specified in this line trade agreemen
 
 https://vocabulary.uncefact.org/maximumOrderQuantityOrderingPeriod
 
-### MinimumOrderQuantityOrderingPeriod
+### MinimumOrderQuantityOrderingPeriod {#minimumorderquantityorderingperiod}
 
 > `readonly` **MinimumOrderQuantityOrderingPeriod**: `"unece:minimumOrderQuantityOrderingPeriod"` = `"unece:minimumOrderQuantityOrderingPeriod"`
 
@@ -227,7 +227,7 @@ The minimum order quantity ordering period specified in this line trade agreemen
 
 https://vocabulary.uncefact.org/minimumOrderQuantityOrderingPeriod
 
-### OccurrencePeriod
+### OccurrencePeriod {#occurrenceperiod}
 
 > `readonly` **OccurrencePeriod**: `"unece:occurrencePeriod"` = `"unece:occurrencePeriod"`
 
@@ -239,7 +239,7 @@ A specified period of time for the occurrence of this referenced transport event
 
 https://vocabulary.uncefact.org/occurrencePeriod
 
-### OperationalApplicablePeriod
+### OperationalApplicablePeriod {#operationalapplicableperiod}
 
 > `readonly` **OperationalApplicablePeriod**: `"unece:operationalApplicablePeriod"` = `"unece:operationalApplicablePeriod"`
 
@@ -249,7 +249,7 @@ An operational period applicable for this trade price.
 
 https://vocabulary.uncefact.org/operationalApplicablePeriod
 
-### OperationalPeriod
+### OperationalPeriod {#operationalperiod}
 
 > `readonly` **OperationalPeriod**: `"unece:operationalPeriod"` = `"unece:operationalPeriod"`
 
@@ -260,7 +260,7 @@ An operational period specified for this experience event.
 
 https://vocabulary.uncefact.org/operationalPeriod
 
-### OrderingSpecifiedPeriod
+### OrderingSpecifiedPeriod {#orderingspecifiedperiod}
 
 > `readonly` **OrderingSpecifiedPeriod**: `"unece:orderingSpecifiedPeriod"` = `"unece:orderingSpecifiedPeriod"`
 
@@ -270,7 +270,7 @@ The ordering period specified in this line trade agreement.
 
 https://vocabulary.uncefact.org/orderingSpecifiedPeriod
 
-### PlannedPerformancePeriod
+### PlannedPerformancePeriod {#plannedperformanceperiod}
 
 > `readonly` **PlannedPerformancePeriod**: `"unece:plannedPerformancePeriod"` = `"unece:plannedPerformancePeriod"`
 
@@ -280,7 +280,7 @@ A planned period of performance for this referenced transport service.
 
 https://vocabulary.uncefact.org/plannedPerformancePeriod
 
-### ProjectedSpecifiedPeriod
+### ProjectedSpecifiedPeriod {#projectedspecifiedperiod}
 
 > `readonly` **ProjectedSpecifiedPeriod**: `"unece:projectedSpecifiedPeriod"` = `"unece:projectedSpecifiedPeriod"`
 
@@ -290,7 +290,7 @@ A specified period projected for this supply chain supply plan.
 
 https://vocabulary.uncefact.org/projectedSpecifiedPeriod
 
-### RequestedPerformancePeriod
+### RequestedPerformancePeriod {#requestedperformanceperiod}
 
 > `readonly` **RequestedPerformancePeriod**: `"unece:requestedPerformancePeriod"` = `"unece:requestedPerformancePeriod"`
 
@@ -300,7 +300,7 @@ A requested period of performance for this referenced transport service.
 
 https://vocabulary.uncefact.org/requestedPerformancePeriod
 
-### ResalePeriod
+### ResalePeriod {#resaleperiod}
 
 > `readonly` **ResalePeriod**: `"unece:resalePeriod"` = `"unece:resalePeriod"`
 
@@ -310,7 +310,7 @@ The resale period specified in this line trade agreement.
 
 https://vocabulary.uncefact.org/resalePeriod
 
-### ScheduledOccurrencePeriod
+### ScheduledOccurrencePeriod {#scheduledoccurrenceperiod}
 
 > `readonly` **ScheduledOccurrencePeriod**: `"unece:scheduledOccurrencePeriod"` = `"unece:scheduledOccurrencePeriod"`
 
@@ -320,7 +320,7 @@ The scheduled period of time specified for the occurrence of this transport even
 
 https://vocabulary.uncefact.org/scheduledOccurrencePeriod
 
-### ScheduledPeriod
+### ScheduledPeriod {#scheduledperiod}
 
 > `readonly` **ScheduledPeriod**: `"unece:scheduledPeriod"` = `"unece:scheduledPeriod"`
 
@@ -330,7 +330,7 @@ The specified period during which this transport route is scheduled.
 
 https://vocabulary.uncefact.org/scheduledPeriod
 
-### SeasonalApplicablePeriod
+### SeasonalApplicablePeriod {#seasonalapplicableperiod}
 
 > `readonly` **SeasonalApplicablePeriod**: `"unece:seasonalApplicablePeriod"` = `"unece:seasonalApplicablePeriod"`
 
@@ -340,7 +340,7 @@ A seasonal period applicable for this trade price.
 
 https://vocabulary.uncefact.org/seasonalApplicablePeriod
 
-### ShippingPeriod
+### ShippingPeriod {#shippingperiod}
 
 > `readonly` **ShippingPeriod**: `"unece:shippingPeriod"` = `"unece:shippingPeriod"`
 
@@ -350,7 +350,7 @@ The shipping period specified in this header trade agreement.
 
 https://vocabulary.uncefact.org/shippingPeriod
 
-### SpecifiedSpecifiedPeriod
+### SpecifiedSpecifiedPeriod {#specifiedspecifiedperiod}
 
 > `readonly` **SpecifiedSpecifiedPeriod**: `"unece:specifiedSpecifiedPeriod"` = `"unece:specifiedSpecifiedPeriod"`
 
@@ -360,7 +360,7 @@ The period specified for this supply chain supply plan.
 
 https://vocabulary.uncefact.org/specifiedSpecifiedPeriod
 
-### StayPeriod
+### StayPeriod {#stayperiod}
 
 > `readonly` **StayPeriod**: `"unece:stayPeriod"` = `"unece:stayPeriod"`
 
@@ -370,7 +370,7 @@ A period of stay at this logistics location.
 
 https://vocabulary.uncefact.org/stayPeriod
 
-### TransportMeansStayOccurrencePeriod
+### TransportMeansStayOccurrencePeriod {#transportmeansstayoccurrenceperiod}
 
 > `readonly` **TransportMeansStayOccurrencePeriod**: `"unece:transportMeansStayOccurrencePeriod"` = `"unece:transportMeansStayOccurrencePeriod"`
 
@@ -380,7 +380,7 @@ The specified period during which the transport means is held at a location.
 
 https://vocabulary.uncefact.org/transportMeansStayOccurrencePeriod
 
-### ValidityPeriod
+### ValidityPeriod {#validityperiod}
 
 > `readonly` **ValidityPeriod**: `"unece:validityPeriod"` = `"unece:validityPeriod"`
 
@@ -396,7 +396,7 @@ The validity period specified of this binary file.
 
 https://vocabulary.uncefact.org/validityPeriod
 
-### ValuePeriod
+### ValuePeriod {#valueperiod}
 
 > `readonly` **ValuePeriod**: `"unece:valuePeriod"` = `"unece:valuePeriod"`
 
@@ -406,7 +406,7 @@ A period specified for the value of this sustainability characteristic.
 
 https://vocabulary.uncefact.org/valuePeriod
 
-### VisitingPeriod
+### VisitingPeriod {#visitingperiod}
 
 > `readonly` **VisitingPeriod**: `"unece:visitingPeriod"` = `"unece:visitingPeriod"`
 

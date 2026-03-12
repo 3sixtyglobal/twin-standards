@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedLocation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedLocation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### directions?
+### directions? {#directions}
 
 > `optional` **directions**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/directions
 
 ***
 
-### geopoliticalRegionCode?
+### geopoliticalRegionCode? {#geopoliticalregioncode}
 
 > `optional` **geopoliticalRegionCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/geopoliticalRegionCode
 
 ***
 
-### geopoliticalRegionName?
+### geopoliticalRegionName? {#geopoliticalregionname}
 
 > `optional` **geopoliticalRegionName**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/geopoliticalRegionName
 
 ***
 
-### mapURIId?
+### mapURIId? {#mapuriid}
 
 > `optional` **mapURIId**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/mapURIId
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedLocationTypeCode?
+### specifiedLocationTypeCode? {#specifiedlocationtypecode}
 
 > `optional` **specifiedLocationTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/specifiedLocationTypeCode
 
 ***
 
-### specifiedTradeAddress?
+### specifiedTradeAddress? {#specifiedtradeaddress}
 
 > `optional` **specifiedTradeAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
 

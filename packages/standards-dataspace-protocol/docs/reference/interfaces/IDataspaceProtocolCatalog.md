@@ -25,7 +25,7 @@ by overriding properties with more specific types and constraints.
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -33,7 +33,7 @@ LD Context. Required per Eclipse Data Space Protocol.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"Catalog"`
 
@@ -42,7 +42,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ***
 
-### @id
+### @id {#id}
 
 > **@id**: `string`
 
@@ -55,7 +55,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ***
 
-### participantId
+### participantId {#participantid}
 
 > **participantId**: `string`
 
@@ -63,7 +63,7 @@ Participant Id
 
 ***
 
-### catalog?
+### catalog? {#catalog}
 
 > `optional` **catalog**: [`IDataspaceProtocolCatalogNoContext`](../type-aliases/IDataspaceProtocolCatalogNoContext.md) \| [`IDataspaceProtocolCatalogNoContext`](../type-aliases/IDataspaceProtocolCatalogNoContext.md)[]
 
@@ -71,7 +71,7 @@ Other concerned catalogs
 
 ***
 
-### dataset?
+### dataset? {#dataset}
 
 > `optional` **dataset**: [`IDataspaceProtocolDatasetNoContext`](../type-aliases/IDataspaceProtocolDatasetNoContext.md) \| [`IDataspaceProtocolDatasetNoContext`](../type-aliases/IDataspaceProtocolDatasetNoContext.md)[]
 
@@ -79,7 +79,7 @@ Datasets registered
 
 ***
 
-### distribution?
+### distribution? {#distribution}
 
 > `optional` **distribution**: [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md) \| [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md)[]
 
@@ -87,7 +87,7 @@ Catalog's distributions
 
 ***
 
-### service?
+### service? {#service}
 
 > `optional` **service**: [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md) \| [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md)[]
 
@@ -95,7 +95,7 @@ Data services registered-
 
 ***
 
-### foaf:homepage?
+### foaf:homepage? {#foafhomepage}
 
 > `optional` **foaf:homepage**: `string`
 
@@ -111,7 +111,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage
 
 ***
 
-### dcat:themeTaxonomy?
+### dcat:themeTaxonomy? {#dcatthemetaxonomy}
 
 > `optional` **dcat:themeTaxonomy**: `IDcatResource` \| `IDcatResource`[]
 
@@ -127,7 +127,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes
 
 ***
 
-### dcat:resource?
+### dcat:resource? {#dcatresource}
 
 > `optional` **dcat:resource**: `IDcatResource` \| `IDcatResource`[]
 
@@ -143,7 +143,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
 
 ***
 
-### dcat:record?
+### dcat:record? {#dcatrecord}
 
 > `optional` **dcat:record**: `CatalogRecordOptionalContext` \| `CatalogRecordOptionalContext`[]
 
@@ -159,7 +159,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 
 ***
 
-### dcterms:accrualPeriodicity?
+### dcterms:accrualPeriodicity? {#dctermsaccrualperiodicity}
 
 > `optional` **dcterms:accrualPeriodicity**: `string`
 
@@ -175,7 +175,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency
 
 ***
 
-### dcat:inSeries?
+### dcat:inSeries? {#dcatinseries}
 
 > `optional` **dcat:inSeries**: `string`
 
@@ -191,7 +191,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 ***
 
-### dcterms:spatial?
+### dcterms:spatial? {#dctermsspatial}
 
 > `optional` **dcterms:spatial**: `string` \| `string`[] \| `IJsonLdNodeObject`
 
@@ -207,7 +207,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial
 
 ***
 
-### dcat:spatialResolutionInMeters?
+### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
 
 > `optional` **dcat:spatialResolutionInMeters**: `number`
 
@@ -223,7 +223,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution
 
 ***
 
-### dcterms:temporal?
+### dcterms:temporal? {#dctermstemporal}
 
 > `optional` **dcterms:temporal**: `IDublinCorePeriodOfTime`
 
@@ -239,7 +239,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal
 
 ***
 
-### dcat:temporalResolution?
+### dcat:temporalResolution? {#dcattemporalresolution}
 
 > `optional` **dcat:temporalResolution**: `string`
 
@@ -255,7 +255,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution
 
 ***
 
-### prov:wasGeneratedBy?
+### prov:wasGeneratedBy? {#provwasgeneratedby}
 
 > `optional` **prov:wasGeneratedBy**: `string` \| `IJsonLdNodeObject`
 
@@ -271,7 +271,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ***
 
-### dcterms:title?
+### dcterms:title? {#dctermstitle}
 
 > `optional` **dcterms:title**: `DcatLiteralType`
 
@@ -287,7 +287,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ***
 
-### dcterms:description?
+### dcterms:description? {#dctermsdescription}
 
 > `optional` **dcterms:description**: `DcatLiteralType`
 
@@ -303,7 +303,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ***
 
-### dcterms:identifier?
+### dcterms:identifier? {#dctermsidentifier}
 
 > `optional` **dcterms:identifier**: `DcatLiteralType`
 
@@ -319,7 +319,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 ***
 
-### dcterms:issued?
+### dcterms:issued? {#dctermsissued}
 
 > `optional` **dcterms:issued**: `string`
 
@@ -335,7 +335,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 ***
 
-### dcterms:modified?
+### dcterms:modified? {#dctermsmodified}
 
 > `optional` **dcterms:modified**: `string`
 
@@ -351,7 +351,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ***
 
-### dcterms:language?
+### dcterms:language? {#dctermslanguage}
 
 > `optional` **dcterms:language**: `string` \| `string`[]
 
@@ -367,7 +367,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ***
 
-### dcterms:publisher?
+### dcterms:publisher? {#dctermspublisher}
 
 > `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
 
@@ -383,7 +383,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ***
 
-### dcterms:creator?
+### dcterms:creator? {#dctermscreator}
 
 > `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
 
@@ -399,7 +399,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 ***
 
-### dcterms:accessRights?
+### dcterms:accessRights? {#dctermsaccessrights}
 
 > `optional` **dcterms:accessRights**: `string` \| `IJsonLdNodeObject`
 
@@ -415,7 +415,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 ***
 
-### dcterms:license?
+### dcterms:license? {#dctermslicense}
 
 > `optional` **dcterms:license**: `string` \| `IJsonLdNodeObject`
 
@@ -431,7 +431,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 ***
 
-### dcterms:rights?
+### dcterms:rights? {#dctermsrights}
 
 > `optional` **dcterms:rights**: `string` \| `IJsonLdNodeObject`
 
@@ -447,7 +447,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ***
 
-### dcterms:conformsTo?
+### dcterms:conformsTo? {#dctermsconformsto}
 
 > `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
@@ -463,7 +463,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 ***
 
-### dcterms:type?
+### dcterms:type? {#dctermstype}
 
 > `optional` **dcterms:type**: `string`
 
@@ -479,7 +479,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 ***
 
-### dcat:contactPoint?
+### dcat:contactPoint? {#dcatcontactpoint}
 
 > `optional` **dcat:contactPoint**: `string` \| `IJsonLdNodeObject`
 
@@ -495,7 +495,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ***
 
-### dcat:keyword?
+### dcat:keyword? {#dcatkeyword}
 
 > `optional` **dcat:keyword**: `DcatLiteralType`
 
@@ -511,7 +511,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ***
 
-### dcat:theme?
+### dcat:theme? {#dcattheme}
 
 > `optional` **dcat:theme**: `string` \| `string`[]
 
@@ -527,7 +527,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ***
 
-### dcat:landingPage?
+### dcat:landingPage? {#dcatlandingpage}
 
 > `optional` **dcat:landingPage**: `string` \| `string`[]
 
@@ -543,7 +543,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 ***
 
-### dcat:qualifiedRelation?
+### dcat:qualifiedRelation? {#dcatqualifiedrelation}
 
 > `optional` **dcat:qualifiedRelation**: `string` \| `IDcatRelationship`
 
@@ -559,7 +559,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 ***
 
-### odrl:hasPolicy?
+### odrl:hasPolicy? {#odrlhaspolicy}
 
 > `optional` **odrl:hasPolicy**: `IOdrlPolicy`
 

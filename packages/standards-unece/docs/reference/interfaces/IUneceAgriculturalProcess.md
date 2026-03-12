@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AgriculturalProcess
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AgriculturalProcess"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualEndDateTime?
+### actualEndDateTime? {#actualenddatetime}
 
 > `optional` **actualEndDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualEndDateTime
 
 ***
 
-### actualStartDateTime?
+### actualStartDateTime? {#actualstartdatetime}
 
 > `optional` **actualStartDateTime**: `string`
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualStartDateTime
 
 ***
 
-### appliedAgriculturalApplication?
+### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
 > `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### earliestStartDateTime?
+### earliestStartDateTime? {#earlieststartdatetime}
 
 > `optional` **earliestStartDateTime**: `string`
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/earliestStartDateTime
 
 ***
 
-### harvestedBatch?
+### harvestedBatch? {#harvestedbatch}
 
 > `optional` **harvestedBatch**: [`IUneceCropProduceBatch`](IUneceCropProduceBatch.md)[]
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/harvestedBatch
 
 ***
 
-### latestEndDateTime?
+### latestEndDateTime? {#latestenddatetime}
 
 > `optional` **latestEndDateTime**: `string`
 
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/latestEndDateTime
 
 ***
 
-### productionWasteInstructions?
+### productionWasteInstructions? {#productionwasteinstructions}
 
 > `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/productionWasteInstructions
 
 ***
 
-### reportedProductionWasteMaterial?
+### reportedProductionWasteMaterial? {#reportedproductionwastematerial}
 
 > `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)[]
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 
 ***
 
-### specifiedFieldCrop?
+### specifiedFieldCrop? {#specifiedfieldcrop}
 
 > `optional` **specifiedFieldCrop**: [`IUneceFieldCrop`](IUneceFieldCrop.md)[]
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/specifiedFieldCrop
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### subordinateTypeCode?
+### subordinateTypeCode? {#subordinatetypecode}
 
 > `optional` **subordinateTypeCode**: `string`
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/subordinateTypeCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

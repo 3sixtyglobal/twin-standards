@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TTAnimal
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TTAnimal"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### holderResponsibleParty
+### holderResponsibleParty {#holderresponsibleparty}
 
 > **holderResponsibleParty**: [`IUneceTTParty`](IUneceTTParty.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/holderResponsibleParty
 
 ***
 
-### relatedTTLocation?
+### relatedTTLocation? {#relatedttlocation}
 
 > `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ***
 
-### speciesTypeCode
+### speciesTypeCode {#speciestypecode}
 
 > **speciesTypeCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/speciesTypeCode
 
 ***
 
-### specifiedAnimalBatch?
+### specifiedAnimalBatch? {#specifiedanimalbatch}
 
 > `optional` **specifiedAnimalBatch**: [`IUneceAnimalBatch`](IUneceAnimalBatch.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifiedAnimalBatch
 
 ***
 
-### specifiedAnimalCertificate?
+### specifiedAnimalCertificate? {#specifiedanimalcertificate}
 
 > `optional` **specifiedAnimalCertificate**: [`IUneceAnimalCertificate`](IUneceAnimalCertificate.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/specifiedAnimalCertificate
 
 ***
 
-### specifiedAnimalHoldingEvent
+### specifiedAnimalHoldingEvent {#specifiedanimalholdingevent}
 
 > **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 
 ***
 
-### specifiedAnimalIdentity
+### specifiedAnimalIdentity {#specifiedanimalidentity}
 
 > **specifiedAnimalIdentity**: [`IUneceAnimalIdentity`](IUneceAnimalIdentity.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/specifiedAnimalIdentity
 
 ***
 
-### specifiedDelimitedPeriod?
+### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
 > `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ***
 
-### specifiedIndividualTTAnimal?
+### specifiedIndividualTTAnimal? {#specifiedindividualttanimal}
 
 > `optional` **specifiedIndividualTTAnimal**: [`IUneceIndividualTTAnimal`](IUneceIndividualTTAnimal.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/specifiedIndividualTTAnimal
 
 ***
 
-### specifiedPeriod?
+### specifiedPeriod? {#specifiedperiod}
 
 > `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ***
 
-### specifiedSpeciesTTAnimal?
+### specifiedSpeciesTTAnimal? {#specifiedspeciesttanimal}
 
 > `optional` **specifiedSpeciesTTAnimal**: [`IUneceSpeciesTTAnimal`](IUneceSpeciesTTAnimal.md)[]
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CoordinateReferenceSystem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CoordinateReferenceSystem"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### level
+### level {#level}
 
 > **level**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/level
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedDelimitedPeriod?
+### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
 > `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ***
 
-### specifiedPeriod?
+### specifiedPeriod? {#specifiedperiod}
 
 > `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ***
 
-### subordinateCoordinateReferenceSystem?
+### subordinateCoordinateReferenceSystem? {#subordinatecoordinatereferencesystem}
 
 > `optional` **subordinateCoordinateReferenceSystem**: `IUneceCoordinateReferenceSystem`[]
 

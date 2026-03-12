@@ -6,379 +6,379 @@ The types for DCSA.
 
 ## Type Declaration
 
-### Barge
+### Barge {#barge}
 
 > `readonly` **Barge**: `"Barge"` = `"Barge"`
 
 Barge.
 
-### BargeTransportCall
+### BargeTransportCall {#bargetransportcall}
 
 > `readonly` **BargeTransportCall**: `"BargeTransportCall"` = `"BargeTransportCall"`
 
 Barge transport call.
 
-### BaseEquipmentEvent
+### BaseEquipmentEvent {#baseequipmentevent}
 
 > `readonly` **BaseEquipmentEvent**: `"BaseEquipmentEvent"` = `"BaseEquipmentEvent"`
 
 Base equipment event.
 
-### BaseEvent
+### BaseEvent {#baseevent}
 
 > `readonly` **BaseEvent**: `"BaseEvent"` = `"BaseEvent"`
 
 Base event.
 
-### BaseIoTEvent
+### BaseIoTEvent {#baseiotevent}
 
 > `readonly` **BaseIoTEvent**: `"BaseIoTEvent"` = `"BaseIoTEvent"`
 
 Base IoT event.
 
-### BaseReeferEvent
+### BaseReeferEvent {#basereeferevent}
 
 > `readonly` **BaseReeferEvent**: `"BaseReeferEvent"` = `"BaseReeferEvent"`
 
 Base reefer event.
 
-### BaseShipmentEvent
+### BaseShipmentEvent {#baseshipmentevent}
 
 > `readonly` **BaseShipmentEvent**: `"BaseShipmentEvent"` = `"BaseShipmentEvent"`
 
 Base shipment event.
 
-### BaseTransportEvent
+### BaseTransportEvent {#basetransportevent}
 
 > `readonly` **BaseTransportEvent**: `"BaseTransportEvent"` = `"BaseTransportEvent"`
 
 Base transport event.
 
-### DocumentTypeCodes
+### DocumentTypeCodes {#documenttypecodes}
 
 > `readonly` **DocumentTypeCodes**: `"DocumentTypeCodes"` = `"DocumentTypeCodes"`
 
 Document type codes.
 
-### EquipmentEvent
+### EquipmentEvent {#equipmentevent}
 
 > `readonly` **EquipmentEvent**: `"EquipmentEvent"` = `"EquipmentEvent"`
 
 Equipment event.
 
-### EquipmentEventTypeCodes
+### EquipmentEventTypeCodes {#equipmenteventtypecodes}
 
 > `readonly` **EquipmentEventTypeCodes**: `"EquipmentEventTypeCodes"` = `"EquipmentEventTypeCodes"`
 
 Equipment event type codes.
 
-### EquipmentPayload
+### EquipmentPayload {#equipmentpayload}
 
 > `readonly` **EquipmentPayload**: `"EquipmentPayload"` = `"EquipmentPayload"`
 
 Equipment payload.
 
-### EquipmentSubscriptionBody
+### EquipmentSubscriptionBody {#equipmentsubscriptionbody}
 
 > `readonly` **EquipmentSubscriptionBody**: `"EquipmentSubscriptionBody"` = `"EquipmentSubscriptionBody"`
 
 Equipment subscription body.
 
-### Event
+### Event {#event}
 
 > `readonly` **Event**: `"Event"` = `"Event"`
 
 Event.
 
-### EventClassifierCode
+### EventClassifierCode {#eventclassifiercode}
 
 > `readonly` **EventClassifierCode**: `"EventClassifierCode"` = `"EventClassifierCode"`
 
 Event classifier code.
 
-### EventClassifierCodeNoReq
+### EventClassifierCodeNoReq {#eventclassifiercodenoreq}
 
 > `readonly` **EventClassifierCodeNoReq**: `"EventClassifierCodeNoReq"` = `"EventClassifierCodeNoReq"`
 
 Event classifier code excluding REQ.
 
-### EventMetadataActive
+### EventMetadataActive {#eventmetadataactive}
 
 > `readonly` **EventMetadataActive**: `"EventMetadataActive"` = `"EventMetadataActive"`
 
 Event metadata (active).
 
-### EventMetadataBase
+### EventMetadataBase {#eventmetadatabase}
 
 > `readonly` **EventMetadataBase**: `"EventMetadataBase"` = `"EventMetadataBase"`
 
 Event metadata (base).
 
-### EventMetadataRetraction
+### EventMetadataRetraction {#eventmetadataretraction}
 
 > `readonly` **EventMetadataRetraction**: `"EventMetadataRetraction"` = `"EventMetadataRetraction"`
 
 Event metadata (retraction).
 
-### EventPayload
+### EventPayload {#eventpayload}
 
 > `readonly` **EventPayload**: `"EventPayload"` = `"EventPayload"`
 
 Event payload.
 
-### EventRetraction
+### EventRetraction {#eventretraction}
 
 > `readonly` **EventRetraction**: `"EventRetraction"` = `"EventRetraction"`
 
 Event retraction.
 
-### EventWithPayload
+### EventWithPayload {#eventwithpayload}
 
 > `readonly` **EventWithPayload**: `"EventWithPayload"` = `"EventWithPayload"`
 
 Event with payload.
 
-### EventTypes
+### EventTypes {#eventtypes}
 
 > `readonly` **EventTypes**: `"EventTypes"` = `"EventTypes"`
 
 Event types.
 
-### IotEvent
+### IotEvent {#iotevent}
 
 > `readonly` **IotEvent**: `"IotEvent"` = `"IotEvent"`
 
 IoT event.
 
-### IotEventCode
+### IotEventCode {#ioteventcode}
 
 > `readonly` **IotEventCode**: `"IotEventCode"` = `"IotEventCode"`
 
 IoT event code.
 
-### IotEventMetadataActive
+### IotEventMetadataActive {#ioteventmetadataactive}
 
 > `readonly` **IotEventMetadataActive**: `"IotEventMetadataActive"` = `"IotEventMetadataActive"`
 
 IoT event metadata (active).
 
-### IotEventMetadataRetraction
+### IotEventMetadataRetraction {#ioteventmetadataretraction}
 
 > `readonly` **IotEventMetadataRetraction**: `"IotEventMetadataRetraction"` = `"IotEventMetadataRetraction"`
 
 IoT event metadata (retraction).
 
-### IotEventTypeCodes
+### IotEventTypeCodes {#ioteventtypecodes}
 
 > `readonly` **IotEventTypeCodes**: `"IotEventTypeCodes"` = `"IotEventTypeCodes"`
 
 IoT event type code.
 
-### IotPayload
+### IotPayload {#iotpayload}
 
 > `readonly` **IotPayload**: `"IotPayload"` = `"IotPayload"`
 
 IoT payload.
 
-### IotSubscriptionBody
+### IotSubscriptionBody {#iotsubscriptionbody}
 
 > `readonly` **IotSubscriptionBody**: `"IotSubscriptionBody"` = `"IotSubscriptionBody"`
 
 IoT subscription body.
 
-### ModeOfTransport
+### ModeOfTransport {#modeoftransport}
 
 > `readonly` **ModeOfTransport**: `"ModeOfTransport"` = `"ModeOfTransport"`
 
 Mode of transport.
 
-### OperationsEventTypeCodes
+### OperationsEventTypeCodes {#operationseventtypecodes}
 
 > `readonly` **OperationsEventTypeCodes**: `"OperationsEventTypeCodes"` = `"OperationsEventTypeCodes"`
 
 Operations event type codes.
 
-### PortCallPhaseTypeCodes
+### PortCallPhaseTypeCodes {#portcallphasetypecodes}
 
 > `readonly` **PortCallPhaseTypeCodes**: `"PortCallPhaseTypeCodes"` = `"PortCallPhaseTypeCodes"`
 
 Port call phase type codes.
 
-### PortCallServiceTypeCodes
+### PortCallServiceTypeCodes {#portcallservicetypecodes}
 
 > `readonly` **PortCallServiceTypeCodes**: `"PortCallServiceTypeCodes"` = `"PortCallServiceTypeCodes"`
 
 Port call service type codes.
 
-### Publisher
+### Publisher {#publisher}
 
 > `readonly` **Publisher**: `"Publisher"` = `"Publisher"`
 
 Publisher.
 
-### PublisherRole
+### PublisherRole {#publisherrole}
 
 > `readonly` **PublisherRole**: `"PublisherRole"` = `"PublisherRole"`
 
 Publisher role.
 
-### RailTransportCall
+### RailTransportCall {#railtransportcall}
 
 > `readonly` **RailTransportCall**: `"RailTransportCall"` = `"RailTransportCall"`
 
 Rail transport call.
 
-### ReeferEvent
+### ReeferEvent {#reeferevent}
 
 > `readonly` **ReeferEvent**: `"ReeferEvent"` = `"ReeferEvent"`
 
 Reefer event.
 
-### ReeferEventMetadataActive
+### ReeferEventMetadataActive {#reefereventmetadataactive}
 
 > `readonly` **ReeferEventMetadataActive**: `"ReeferEventMetadataActive"` = `"ReeferEventMetadataActive"`
 
 Reefer event metadata (active).
 
-### ReeferEventMetadataRetraction
+### ReeferEventMetadataRetraction {#reefereventmetadataretraction}
 
 > `readonly` **ReeferEventMetadataRetraction**: `"ReeferEventMetadataRetraction"` = `"ReeferEventMetadataRetraction"`
 
 Reefer event metadata (retraction).
 
-### ReeferEventTypeCodes
+### ReeferEventTypeCodes {#reefereventtypecodes}
 
 > `readonly` **ReeferEventTypeCodes**: `"ReeferEventTypeCodes"` = `"ReeferEventTypeCodes"`
 
 Reefer event type codes.
 
-### ReeferMeasurements
+### ReeferMeasurements {#reefermeasurements}
 
 > `readonly` **ReeferMeasurements**: `"ReeferMeasurements"` = `"ReeferMeasurements"`
 
 Reefer measurements.
 
-### ReeferPayload
+### ReeferPayload {#reeferpayload}
 
 > `readonly` **ReeferPayload**: `"ReeferPayload"` = `"ReeferPayload"`
 
 Reefer payload.
 
-### ReeferSetpoint
+### ReeferSetpoint {#reefersetpoint}
 
 > `readonly` **ReeferSetpoint**: `"ReeferSetpoint"` = `"ReeferSetpoint"`
 
 Reefer setpoint.
 
-### ReeferSubscriptionBody
+### ReeferSubscriptionBody {#reefersubscriptionbody}
 
 > `readonly` **ReeferSubscriptionBody**: `"ReeferSubscriptionBody"` = `"ReeferSubscriptionBody"`
 
 Reefer subscription body.
 
-### Reference
+### Reference {#reference}
 
 > `readonly` **Reference**: `"Reference"` = `"Reference"`
 
 Reference.
 
-### RelatedDocumentReference
+### RelatedDocumentReference {#relateddocumentreference}
 
 > `readonly` **RelatedDocumentReference**: `"RelatedDocumentReference"` = `"RelatedDocumentReference"`
 
 Related document reference.
 
-### ShipmentEvent
+### ShipmentEvent {#shipmentevent}
 
 > `readonly` **ShipmentEvent**: `"ShipmentEvent"` = `"ShipmentEvent"`
 
 Shipment event.
 
-### ShipmentEventTypeCodes
+### ShipmentEventTypeCodes {#shipmenteventtypecodes}
 
 > `readonly` **ShipmentEventTypeCodes**: `"ShipmentEventTypeCodes"` = `"ShipmentEventTypeCodes"`
 
 Shipment event type codes.
 
-### ShipmentPayload
+### ShipmentPayload {#shipmentpayload}
 
 > `readonly` **ShipmentPayload**: `"ShipmentPayload"` = `"ShipmentPayload"`
 
 Shipment payload.
 
-### ShipmentSubscriptionBody
+### ShipmentSubscriptionBody {#shipmentsubscriptionbody}
 
 > `readonly` **ShipmentSubscriptionBody**: `"ShipmentSubscriptionBody"` = `"ShipmentSubscriptionBody"`
 
 Shipment subscription body.
 
-### TntPublisherRole
+### TntPublisherRole {#tntpublisherrole}
 
 > `readonly` **TntPublisherRole**: `"TntPublisherRole"` = `"TntPublisherRole"`
 
 TNT publisher role.
 
-### TransportCall
+### TransportCall {#transportcall}
 
 > `readonly` **TransportCall**: `"TransportCall"` = `"TransportCall"`
 
 Transport call.
 
-### TransportCallFacilityTypeCodes
+### TransportCallFacilityTypeCodes {#transportcallfacilitytypecodes}
 
 > `readonly` **TransportCallFacilityTypeCodes**: `"TransportCallFacilityTypeCodes"` = `"TransportCallFacilityTypeCodes"`
 
 Transport call facility type codes.
 
-### TransportCallBase
+### TransportCallBase {#transportcallbase}
 
 > `readonly` **TransportCallBase**: `"TransportCallBase"` = `"TransportCallBase"`
 
 Transport call base.
 
-### TransportCallSubscriptionBody
+### TransportCallSubscriptionBody {#transportcallsubscriptionbody}
 
 > `readonly` **TransportCallSubscriptionBody**: `"TransportCallSubscriptionBody"` = `"TransportCallSubscriptionBody"`
 
 Transport call subscription body.
 
-### TransportEvent
+### TransportEvent {#transportevent}
 
 > `readonly` **TransportEvent**: `"TransportEvent"` = `"TransportEvent"`
 
 Transport event.
 
-### TransportEventTypeCodes
+### TransportEventTypeCodes {#transporteventtypecodes}
 
 > `readonly` **TransportEventTypeCodes**: `"TransportEventTypeCodes"` = `"TransportEventTypeCodes"`
 
 Transport event type codes.
 
-### TransportPayload
+### TransportPayload {#transportpayload}
 
 > `readonly` **TransportPayload**: `"TransportPayload"` = `"TransportPayload"`
 
 Transport payload.
 
-### TransportSubscriptionBody
+### TransportSubscriptionBody {#transportsubscriptionbody}
 
 > `readonly` **TransportSubscriptionBody**: `"TransportSubscriptionBody"` = `"TransportSubscriptionBody"`
 
 Transport subscription body.
 
-### TruckTransportCall
+### TruckTransportCall {#trucktransportcall}
 
 > `readonly` **TruckTransportCall**: `"TruckTransportCall"` = `"TruckTransportCall"`
 
 Truck transport call.
 
-### Vessel
+### Vessel {#vessel}
 
 > `readonly` **Vessel**: `"Vessel"` = `"Vessel"`
 
 Vessel.
 
-### VesselTransportCall
+### VesselTransportCall {#vesseltransportcall}
 
 > `readonly` **VesselTransportCall**: `"VesselTransportCall"` = `"VesselTransportCall"`
 

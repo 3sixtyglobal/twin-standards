@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/XHEReference
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"XHEReference"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### endAvailabilityDateTime?
+### endAvailabilityDateTime? {#endavailabilitydatetime}
 
 > `optional` **endAvailabilityDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/endAvailabilityDateTime
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### login?
+### login? {#login}
 
 > `optional` **login**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/login
 
 ***
 
-### password?
+### password? {#password}
 
 > `optional` **password**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/password
 
 ***
 
-### startAvailabilityDateTime?
+### startAvailabilityDateTime? {#startavailabilitydatetime}
 
 > `optional` **startAvailabilityDateTime**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationContact
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LaboratoryObservationContact"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### departmentName?
+### departmentName? {#departmentname}
 
 > `optional` **departmentName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ***
 
-### emailCommunication?
+### emailCommunication? {#emailcommunication}
 
 > `optional` **emailCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/emailCommunication
 
 ***
 
-### faxCommunication?
+### faxCommunication? {#faxcommunication}
 
 > `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/faxCommunication
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### mobileTelephoneCommunication?
+### mobileTelephoneCommunication? {#mobiletelephonecommunication}
 
 > `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/mobileTelephoneCommunication
 
 ***
 
-### personName?
+### personName? {#personname}
 
 > `optional` **personName**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/personName
 
 ***
 
-### telephoneCommunication?
+### telephoneCommunication? {#telephonecommunication}
 
 > `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
 

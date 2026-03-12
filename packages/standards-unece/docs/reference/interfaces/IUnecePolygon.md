@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Polygon
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Polygon"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalObjectCharacteristic?
+### associatedGeographicalObjectCharacteristic? {#associatedgeographicalobjectcharacteristic}
 
 > `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ***
 
-### associatedLocation?
+### associatedLocation? {#associatedlocation}
 
 > `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/associatedLocation
 
 ***
 
-### exteriorLinearRing
+### exteriorLinearRing {#exteriorlinearring}
 
 > **exteriorLinearRing**: [`IUneceLinearRing`](IUneceLinearRing.md)
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/exteriorLinearRing
 
 ***
 
-### interiorLinearRing?
+### interiorLinearRing? {#interiorlinearring}
 
 > `optional` **interiorLinearRing**: [`IUneceLinearRing`](IUneceLinearRing.md)[]
 

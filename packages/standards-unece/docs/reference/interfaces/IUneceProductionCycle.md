@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductionCycle
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductionCycle"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProductionProcess?
+### applicableProductionProcess? {#applicableproductionprocess}
 
 > `optional` **applicableProductionProcess**: [`IUneceProductionProcess`](IUneceProductionProcess.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProductionProcess
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### processSpecifiedDocument?
+### processSpecifiedDocument? {#processspecifieddocument}
 
 > `optional` **processSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/processSpecifiedDocument
 
 ***
 
-### productionYearDateTime?
+### productionYearDateTime? {#productionyeardatetime}
 
 > `optional` **productionYearDateTime**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/productionYearDateTime
 
 ***
 
-### relatedBinaryFile?
+### relatedBinaryFile? {#relatedbinaryfile}
 
 > `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/relatedBinaryFile
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 

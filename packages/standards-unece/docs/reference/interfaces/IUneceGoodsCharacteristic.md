@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GoodsCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GoodsCharacteristic"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### absolutePresenceVolumeMeasure?
+### absolutePresenceVolumeMeasure? {#absolutepresencevolumemeasure}
 
 > `optional` **absolutePresenceVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/absolutePresenceVolumeMeasure
 
 ***
 
-### absolutePresenceWeightMeasure?
+### absolutePresenceWeightMeasure? {#absolutepresenceweightmeasure}
 
 > `optional` **absolutePresenceWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/absolutePresenceWeightMeasure
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### proportionalConstituentPercent?
+### proportionalConstituentPercent? {#proportionalconstituentpercent}
 
 > `optional` **proportionalConstituentPercent**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/proportionalConstituentPercent
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

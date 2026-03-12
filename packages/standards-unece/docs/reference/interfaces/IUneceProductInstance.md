@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/ProductInstance
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductInstance"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actualQuantity?
+### actualQuantity? {#actualquantity}
 
 > `optional` **actualQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ***
 
-### ammunitionId?
+### ammunitionId? {#ammunitionid}
 
 > `optional` **ammunitionId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/ammunitionId
 
 ***
 
-### applicableClassification?
+### applicableClassification? {#applicableclassification}
 
 > `optional` **applicableClassification**: [`IUneceClassification`](IUneceClassification.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableClassification
 
 ***
 
-### applicableGoodsCharacteristic?
+### applicableGoodsCharacteristic? {#applicablegoodscharacteristic}
 
 > `optional` **applicableGoodsCharacteristic**: [`IUneceGoodsCharacteristic`](IUneceGoodsCharacteristic.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/applicableGoodsCharacteristic
 
 ***
 
-### applicableProductCharacteristic?
+### applicableProductCharacteristic? {#applicableproductcharacteristic}
 
 > `optional` **applicableProductCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/applicableProductCharacteristic
 
 ***
 
-### appliedProcess?
+### appliedProcess? {#appliedprocess}
 
 > `optional` **appliedProcess**: [`IUneceProductHandlingProcess`](IUneceProductHandlingProcess.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/appliedProcess
 
 ***
 
-### batchId?
+### batchId? {#batchid}
 
 > `optional` **batchId**: `string` \| `IJsonLdValueObject`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/batchId
 
 ***
 
-### bestBeforeDateTime?
+### bestBeforeDateTime? {#bestbeforedatetime}
 
 > `optional` **bestBeforeDateTime**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/bestBeforeDateTime
 
 ***
 
-### brandNameAdditionalInformationNote?
+### brandNameAdditionalInformationNote? {#brandnameadditionalinformationnote}
 
 > `optional` **brandNameAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/brandNameAdditionalInformationNote
 
 ***
 
-### ceramicCapacitorId?
+### ceramicCapacitorId? {#ceramiccapacitorid}
 
 > `optional` **ceramicCapacitorId**: `string` \| `IJsonLdValueObject`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/ceramicCapacitorId
 
 ***
 
-### certificationEvidenceDocument?
+### certificationEvidenceDocument? {#certificationevidencedocument}
 
 > `optional` **certificationEvidenceDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/certificationEvidenceDocument
 
 ***
 
-### commonName?
+### commonName? {#commonname}
 
 > `optional` **commonName**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/commonName
 
 ***
 
-### dNAMarkerId?
+### dNAMarkerId? {#dnamarkerid}
 
 > `optional` **dNAMarkerId**: `string` \| `IJsonLdValueObject`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/dNAMarkerId
 
 ***
 
-### disposalReasonCode?
+### disposalReasonCode? {#disposalreasoncode}
 
 > `optional` **disposalReasonCode**: `string`
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/disposalReasonCode
 
 ***
 
-### ePCId?
+### ePCId? {#epcid}
 
 > `optional` **ePCId**: `string` \| `IJsonLdValueObject`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/ePCId
 
 ***
 
-### equipmentId?
+### equipmentId? {#equipmentid}
 
 > `optional` **equipmentId**: `string` \| `IJsonLdValueObject`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/equipmentId
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### globalSerialId?
+### globalSerialId? {#globalserialid}
 
 > `optional` **globalSerialId**: `string` \| `IJsonLdValueObject`
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/globalSerialId
 
 ***
 
-### iUIDId?
+### iUIDId? {#iuidid}
 
 > `optional` **iUIDId**: `string` \| `IJsonLdValueObject`
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/iUIDId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### ingredientAdditionalInformationNote?
+### ingredientAdditionalInformationNote? {#ingredientadditionalinformationnote}
 
 > `optional` **ingredientAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/ingredientAdditionalInformationNote
 
 ***
 
-### inspectionDocument?
+### inspectionDocument? {#inspectiondocument}
 
 > `optional` **inspectionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/inspectionDocument
 
 ***
 
-### inspectionEvent?
+### inspectionEvent? {#inspectionevent}
 
 > `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/inspectionEvent
 
 ***
 
-### intendedUse?
+### intendedUse? {#intendeduse}
 
 > `optional` **intendedUse**: `string`
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/intendedUse
 
 ***
 
-### kanbanId?
+### kanbanId? {#kanbanid}
 
 > `optional` **kanbanId**: `string` \| `IJsonLdValueObject`
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/kanbanId
 
 ***
 
-### lotId?
+### lotId? {#lotid}
 
 > `optional` **lotId**: `string` \| `IJsonLdValueObject`
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/lotId
 
 ***
 
-### manufacturerAssignedSerialId?
+### manufacturerAssignedSerialId? {#manufacturerassignedserialid}
 
 > `optional` **manufacturerAssignedSerialId**: `string` \| `IJsonLdValueObject`
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/manufacturerAssignedSerialId
 
 ***
 
-### originLocation?
+### originLocation? {#originlocation}
 
 > `optional` **originLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/originLocation
 
 ***
 
-### packagingEvent?
+### packagingEvent? {#packagingevent}
 
 > `optional` **packagingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/packagingEvent
 
 ***
 
-### processingEvent?
+### processingEvent? {#processingevent}
 
 > `optional` **processingEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -386,7 +386,7 @@ https://vocabulary.uncefact.org/processingEvent
 
 ***
 
-### productCharacteristic?
+### productCharacteristic? {#productcharacteristic}
 
 > `optional` **productCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/productCharacteristic
 
 ***
 
-### productionEvent?
+### productionEvent? {#productionevent}
 
 > `optional` **productionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/productionEvent
 
 ***
 
-### qualityGradeAdditionalInformationNote?
+### qualityGradeAdditionalInformationNote? {#qualitygradeadditionalinformationnote}
 
 > `optional` **qualityGradeAdditionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/qualityGradeAdditionalInformationNote
 
 ***
 
-### reclassificationEvent?
+### reclassificationEvent? {#reclassificationevent}
 
 > `optional` **reclassificationEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/reclassificationEvent
 
 ***
 
-### registrationId?
+### registrationId? {#registrationid}
 
 > `optional` **registrationId**: `string` \| `IJsonLdValueObject`
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/registrationId
 
 ***
 
-### scientificName?
+### scientificName? {#scientificname}
 
 > `optional` **scientificName**: `string`
 
@@ -458,7 +458,7 @@ https://vocabulary.uncefact.org/scientificName
 
 ***
 
-### sellByDateTime?
+### sellByDateTime? {#sellbydatetime}
 
 > `optional` **sellByDateTime**: `string`
 
@@ -471,7 +471,7 @@ https://vocabulary.uncefact.org/sellByDateTime
 
 ***
 
-### serialId?
+### serialId? {#serialid}
 
 > `optional` **serialId**: `string` \| `IJsonLdValueObject`
 
@@ -483,7 +483,7 @@ https://vocabulary.uncefact.org/serialId
 
 ***
 
-### supplierAssignedSerialId?
+### supplierAssignedSerialId? {#supplierassignedserialid}
 
 > `optional` **supplierAssignedSerialId**: `string` \| `IJsonLdValueObject`
 
@@ -495,7 +495,7 @@ https://vocabulary.uncefact.org/supplierAssignedSerialId
 
 ***
 
-### usedPackaging?
+### usedPackaging? {#usedpackaging}
 
 > `optional` **usedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)
 

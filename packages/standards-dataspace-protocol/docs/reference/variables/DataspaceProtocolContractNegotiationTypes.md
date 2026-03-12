@@ -7,61 +7,61 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#mess
 
 ## Type Declaration
 
-### ContractNegotiation
+### ContractNegotiation {#contractnegotiation}
 
 > `readonly` **ContractNegotiation**: `"ContractNegotiation"` = `"ContractNegotiation"`
 
 Contract Negotiation.
 
-### ContractRequestMessage
+### ContractRequestMessage {#contractrequestmessage}
 
 > `readonly` **ContractRequestMessage**: `"ContractRequestMessage"` = `"ContractRequestMessage"`
 
 Contract Request Message.
 
-### ContractOfferMessage
+### ContractOfferMessage {#contractoffermessage}
 
 > `readonly` **ContractOfferMessage**: `"ContractOfferMessage"` = `"ContractOfferMessage"`
 
 Contract Offer Message.
 
-### ContractAgreementMessage
+### ContractAgreementMessage {#contractagreementmessage}
 
 > `readonly` **ContractAgreementMessage**: `"ContractAgreementMessage"` = `"ContractAgreementMessage"`
 
 Contract Agreement Message.
 
-### ContractAgreementVerificationMessage
+### ContractAgreementVerificationMessage {#contractagreementverificationmessage}
 
 > `readonly` **ContractAgreementVerificationMessage**: `"ContractAgreementVerificationMessage"` = `"ContractAgreementVerificationMessage"`
 
 Contract Agreement Verification Message.
 
-### ContractNegotiationEventMessage
+### ContractNegotiationEventMessage {#contractnegotiationeventmessage}
 
 > `readonly` **ContractNegotiationEventMessage**: `"ContractNegotiationEventMessage"` = `"ContractNegotiationEventMessage"`
 
 Contract Negotiation Event Message.
 
-### ContractNegotiationTerminationMessage
+### ContractNegotiationTerminationMessage {#contractnegotiationterminationmessage}
 
 > `readonly` **ContractNegotiationTerminationMessage**: `"ContractNegotiationTerminationMessage"` = `"ContractNegotiationTerminationMessage"`
 
 Contract Negotiation Termination Message.
 
-### ContractNegotiationError
+### ContractNegotiationError {#contractnegotiationerror}
 
 > `readonly` **ContractNegotiationError**: `"ContractNegotiationError"` = `"ContractNegotiationError"`
 
 Contract Negotiation Error.
 
-### ContractNegotiationEventType
+### ContractNegotiationEventType {#contractnegotiationeventtype}
 
 > `readonly` **ContractNegotiationEventType**: `"ContractNegotiationEventType"` = `"ContractNegotiationEventType"`
 
 Contract Negotiation Event Type.
 
-### ContractNegotiationStateType
+### ContractNegotiationStateType {#contractnegotiationstatetype}
 
 > `readonly` **ContractNegotiationStateType**: `"ContractNegotiationStateType"` = `"ContractNegotiationStateType"`
 

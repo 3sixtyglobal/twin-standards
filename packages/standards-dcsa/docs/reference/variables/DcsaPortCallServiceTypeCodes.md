@@ -8,91 +8,91 @@ Source: `portCallServiceTypeCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### PILO
+### PILO {#pilo}
 
 > `readonly` **PILO**: `"PILO"` = `"PILO"`
 
 Pilotage.
 
-### MOOR
+### MOOR {#moor}
 
 > `readonly` **MOOR**: `"MOOR"` = `"MOOR"`
 
 Mooring.
 
-### CRGO
+### CRGO {#crgo}
 
 > `readonly` **CRGO**: `"CRGO"` = `"CRGO"`
 
 Cargo operations.
 
-### TOWG
+### TOWG {#towg}
 
 > `readonly` **TOWG**: `"TOWG"` = `"TOWG"`
 
 Towage.
 
-### BUNK
+### BUNK {#bunk}
 
 > `readonly` **BUNK**: `"BUNK"` = `"BUNK"`
 
 Bunkering.
 
-### LASH
+### LASH {#lash}
 
 > `readonly` **LASH**: `"LASH"` = `"LASH"`
 
 Lashing.
 
-### SAFE
+### SAFE {#safe}
 
 > `readonly` **SAFE**: `"SAFE"` = `"SAFE"`
 
 Safety.
 
-### FAST
+### FAST {#fast}
 
 > `readonly` **FAST**: `"FAST"` = `"FAST"`
 
 Fastening.
 
-### GWAY
+### GWAY {#gway}
 
 > `readonly` **GWAY**: `"GWAY"` = `"GWAY"`
 
 Gangway.
 
-### ANCO
+### ANCO {#anco}
 
 > `readonly` **ANCO**: `"ANCO"` = `"ANCO"`
 
 Anchorage.
 
-### SLUG
+### SLUG {#slug}
 
 > `readonly` **SLUG**: `"SLUG"` = `"SLUG"`
 
 Sludge.
 
-### SHPW
+### SHPW {#shpw}
 
 > `readonly` **SHPW**: `"SHPW"` = `"SHPW"`
 
 Ship waste.
 
-### LCRO
+### LCRO {#lcro}
 
 > `readonly` **LCRO**: `"LCRO"` = `"LCRO"`
 
 Loading cargo.
 
-### DCRO
+### DCRO {#dcro}
 
 > `readonly` **DCRO**: `"DCRO"` = `"DCRO"`
 
 Discharge cargo.
 
-### VRDY
+### VRDY {#vrdy}
 
 > `readonly` **VRDY**: `"VRDY"` = `"VRDY"`
 

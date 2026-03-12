@@ -6,7 +6,7 @@ Values for UneceLicence typeCode property.
 
 ## Type Declaration
 
-### ApplicableLicence
+### ApplicableLicence {#applicablelicence}
 
 > `readonly` **ApplicableLicence**: `"unece:applicableLicence"` = `"unece:applicableLicence"`
 

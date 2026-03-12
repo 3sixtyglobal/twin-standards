@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Preference
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Preference"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### dislikedItem?
+### dislikedItem? {#dislikeditem}
 
 > `optional` **dislikedItem**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/dislikedItem
 
 ***
 
-### preferredItem?
+### preferredItem? {#preferreditem}
 
 > `optional` **preferredItem**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/preferredItem
 
 ***
 
-### priorityRankingNumeric?
+### priorityRankingNumeric? {#priorityrankingnumeric}
 
 > `optional` **priorityRankingNumeric**: `string`
 

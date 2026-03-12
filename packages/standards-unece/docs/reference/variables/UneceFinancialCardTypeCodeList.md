@@ -6,7 +6,7 @@ Values for UneceFinancialCard typeCode property.
 
 ## Type Declaration
 
-### ApplicableFinancialCard
+### ApplicableFinancialCard {#applicablefinancialcard}
 
 > `readonly` **ApplicableFinancialCard**: `"unece:applicableFinancialCard"` = `"unece:applicableFinancialCard"`
 
@@ -16,7 +16,7 @@ A financial card applicable to this trade settlement payment means.
 
 https://vocabulary.uncefact.org/applicableFinancialCard
 
-### IdentifiedFinancialCard
+### IdentifiedFinancialCard {#identifiedfinancialcard}
 
 > `readonly` **IdentifiedFinancialCard**: `"unece:identifiedFinancialCard"` = `"unece:identifiedFinancialCard"`
 
@@ -26,7 +26,7 @@ A financial card identified for this trade settlement payment means.
 
 https://vocabulary.uncefact.org/identifiedFinancialCard
 
-### SpecifiedFinancialCard
+### SpecifiedFinancialCard {#specifiedfinancialcard}
 
 > `readonly` **SpecifiedFinancialCard**: `"unece:specifiedFinancialCard"` = `"unece:specifiedFinancialCard"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TransportationWasteMaterialComponent
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TransportationWasteMaterialComponent"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableProductCertificate?
+### applicableProductCertificate? {#applicableproductcertificate}
 
 > `optional` **applicableProductCertificate**: [`IUneceProductCertificate`](IUneceProductCertificate.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableProductCertificate
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### estimatedGeneratedMeasure?
+### estimatedGeneratedMeasure? {#estimatedgeneratedmeasure}
 
 > `optional` **estimatedGeneratedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/estimatedGeneratedMeasure
 
 ***
 
-### maximumDedicatedStorageCapacityMeasure?
+### maximumDedicatedStorageCapacityMeasure? {#maximumdedicatedstoragecapacitymeasure}
 
 > `optional` **maximumDedicatedStorageCapacityMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/maximumDedicatedStorageCapacityMeasure
 
 ***
 
-### plannedDischargedMeasure?
+### plannedDischargedMeasure? {#planneddischargedmeasure}
 
 > `optional` **plannedDischargedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/plannedDischargedMeasure
 
 ***
 
-### remainingDeliveryEvent?
+### remainingDeliveryEvent? {#remainingdeliveryevent}
 
 > `optional` **remainingDeliveryEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/remainingDeliveryEvent
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### volumeUnitReceivedMeasure?
+### volumeUnitReceivedMeasure? {#volumeunitreceivedmeasure}
 
 > `optional` **volumeUnitReceivedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/volumeUnitReceivedMeasure
 
 ***
 
-### volumeUnitRetainedMeasure?
+### volumeUnitRetainedMeasure? {#volumeunitretainedmeasure}
 
 > `optional` **volumeUnitRetainedMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProcessWorkItem
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProcessWorkItem"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### alternativeClassificationCode?
+### alternativeClassificationCode? {#alternativeclassificationcode}
 
 > `optional` **alternativeClassificationCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### primaryClassificationCode?
+### primaryClassificationCode? {#primaryclassificationcode}
 
 > `optional` **primaryClassificationCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/primaryClassificationCode
 
 ***
 
-### totalQuantity?
+### totalQuantity? {#totalquantity}
 
 > `optional` **totalQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/totalQuantity
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

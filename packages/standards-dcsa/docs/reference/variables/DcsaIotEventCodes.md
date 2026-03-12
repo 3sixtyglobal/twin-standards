@@ -8,7 +8,7 @@ Source: `iotEventCode` enum in the DCSA Event Domain (v3.1.0).
 
 ## Type Declaration
 
-### DRO
+### DRO {#dro}
 
 > `readonly` **DRO**: `"DRO"` = `"DRO"`
 

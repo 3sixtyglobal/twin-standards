@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### partyName?
+### partyName? {#partyname}
 
 > `optional` **partyName**: `string`
 
@@ -18,7 +18,7 @@ Name of the publishing party.
 
 ***
 
-### carrierCode
+### carrierCode {#carriercode}
 
 > **carrierCode**: `string`
 
@@ -26,7 +26,7 @@ Carrier code identifying the publisher.
 
 ***
 
-### carrierCodeListProvider
+### carrierCodeListProvider {#carriercodelistprovider}
 
 > **carrierCodeListProvider**: `string`
 

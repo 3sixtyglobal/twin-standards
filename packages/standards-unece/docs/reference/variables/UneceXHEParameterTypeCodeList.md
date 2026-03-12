@@ -6,7 +6,7 @@ Values for UneceXHEParameter typeCode property.
 
 ## Type Declaration
 
-### SpecifiedParameter
+### SpecifiedParameter {#specifiedparameter}
 
 > `readonly` **SpecifiedParameter**: `"unece:specifiedParameter"` = `"unece:specifiedParameter"`
 

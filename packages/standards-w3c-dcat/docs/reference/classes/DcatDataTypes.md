@@ -14,7 +14,7 @@ Class providing DCAT data type utilities and JSON-LD redirect registration.
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -27,7 +27,7 @@ This maps the W3C DCAT namespace to a local redirect URL for faster resolution.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

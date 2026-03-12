@@ -6,1495 +6,1495 @@ UN/LOCODE Countries list.
 
 ## Type Declaration
 
-### AD
+### AD {#ad}
 
 > `readonly` **AD**: `"unlcdc:AD"` = `"unlcdc:AD"`
 
 ANDORRA: AD.
 
-### AE
+### AE {#ae}
 
 > `readonly` **AE**: `"unlcdc:AE"` = `"unlcdc:AE"`
 
 UNITED ARAB EMIRATES (THE): AE.
 
-### AF
+### AF {#af}
 
 > `readonly` **AF**: `"unlcdc:AF"` = `"unlcdc:AF"`
 
 AFGHANISTAN: AF.
 
-### AG
+### AG {#ag}
 
 > `readonly` **AG**: `"unlcdc:AG"` = `"unlcdc:AG"`
 
 ANTIGUA AND BARBUDA: AG.
 
-### AI
+### AI {#ai}
 
 > `readonly` **AI**: `"unlcdc:AI"` = `"unlcdc:AI"`
 
 ANGUILLA: AI.
 
-### AL
+### AL {#al}
 
 > `readonly` **AL**: `"unlcdc:AL"` = `"unlcdc:AL"`
 
 ALBANIA: AL.
 
-### AM
+### AM {#am}
 
 > `readonly` **AM**: `"unlcdc:AM"` = `"unlcdc:AM"`
 
 ARMENIA: AM.
 
-### AO
+### AO {#ao}
 
 > `readonly` **AO**: `"unlcdc:AO"` = `"unlcdc:AO"`
 
 ANGOLA: AO.
 
-### AQ
+### AQ {#aq}
 
 > `readonly` **AQ**: `"unlcdc:AQ"` = `"unlcdc:AQ"`
 
 ANTARCTICA: AQ.
 
-### AR
+### AR {#ar}
 
 > `readonly` **AR**: `"unlcdc:AR"` = `"unlcdc:AR"`
 
 ARGENTINA: AR.
 
-### AS
+### AS {#as}
 
 > `readonly` **AS**: `"unlcdc:AS"` = `"unlcdc:AS"`
 
 AMERICAN SAMOA: AS.
 
-### AT
+### AT {#at}
 
 > `readonly` **AT**: `"unlcdc:AT"` = `"unlcdc:AT"`
 
 AUSTRIA: AT.
 
-### AU
+### AU {#au}
 
 > `readonly` **AU**: `"unlcdc:AU"` = `"unlcdc:AU"`
 
 AUSTRALIA: AU.
 
-### AW
+### AW {#aw}
 
 > `readonly` **AW**: `"unlcdc:AW"` = `"unlcdc:AW"`
 
 ARUBA: AW.
 
-### AX
+### AX {#ax}
 
 > `readonly` **AX**: `"unlcdc:AX"` = `"unlcdc:AX"`
 
 ÅLAND ISLANDS: AX.
 
-### AZ
+### AZ {#az}
 
 > `readonly` **AZ**: `"unlcdc:AZ"` = `"unlcdc:AZ"`
 
 AZERBAIJAN: AZ.
 
-### BA
+### BA {#ba}
 
 > `readonly` **BA**: `"unlcdc:BA"` = `"unlcdc:BA"`
 
 BOSNIA AND HERZEGOVINA: BA.
 
-### BB
+### BB {#bb}
 
 > `readonly` **BB**: `"unlcdc:BB"` = `"unlcdc:BB"`
 
 BARBADOS: BB.
 
-### BD
+### BD {#bd}
 
 > `readonly` **BD**: `"unlcdc:BD"` = `"unlcdc:BD"`
 
 BANGLADESH: BD.
 
-### BE
+### BE {#be}
 
 > `readonly` **BE**: `"unlcdc:BE"` = `"unlcdc:BE"`
 
 BELGIUM: BE.
 
-### BF
+### BF {#bf}
 
 > `readonly` **BF**: `"unlcdc:BF"` = `"unlcdc:BF"`
 
 BURKINA FASO: BF.
 
-### BG
+### BG {#bg}
 
 > `readonly` **BG**: `"unlcdc:BG"` = `"unlcdc:BG"`
 
 BULGARIA: BG.
 
-### BH
+### BH {#bh}
 
 > `readonly` **BH**: `"unlcdc:BH"` = `"unlcdc:BH"`
 
 BAHRAIN: BH.
 
-### BI
+### BI {#bi}
 
 > `readonly` **BI**: `"unlcdc:BI"` = `"unlcdc:BI"`
 
 BURUNDI: BI.
 
-### BJ
+### BJ {#bj}
 
 > `readonly` **BJ**: `"unlcdc:BJ"` = `"unlcdc:BJ"`
 
 BENIN: BJ.
 
-### BL
+### BL {#bl}
 
 > `readonly` **BL**: `"unlcdc:BL"` = `"unlcdc:BL"`
 
 SAINT BARTHÉLEMY: BL.
 
-### BM
+### BM {#bm}
 
 > `readonly` **BM**: `"unlcdc:BM"` = `"unlcdc:BM"`
 
 BERMUDA: BM.
 
-### BN
+### BN {#bn}
 
 > `readonly` **BN**: `"unlcdc:BN"` = `"unlcdc:BN"`
 
 BRUNEI DARUSSALAM: BN.
 
-### BO
+### BO {#bo}
 
 > `readonly` **BO**: `"unlcdc:BO"` = `"unlcdc:BO"`
 
 BOLIVIA, PLURINATIONAL STATE OF: BO.
 
-### BQ
+### BQ {#bq}
 
 > `readonly` **BQ**: `"unlcdc:BQ"` = `"unlcdc:BQ"`
 
 BONAIRE, SINT EUSTATIUS AND SABA: BQ.
 
-### BR
+### BR {#br}
 
 > `readonly` **BR**: `"unlcdc:BR"` = `"unlcdc:BR"`
 
 BRAZIL: BR.
 
-### BS
+### BS {#bs}
 
 > `readonly` **BS**: `"unlcdc:BS"` = `"unlcdc:BS"`
 
 BAHAMAS: BS.
 
-### BT
+### BT {#bt}
 
 > `readonly` **BT**: `"unlcdc:BT"` = `"unlcdc:BT"`
 
 BHUTAN: BT.
 
-### BW
+### BW {#bw}
 
 > `readonly` **BW**: `"unlcdc:BW"` = `"unlcdc:BW"`
 
 BOTSWANA: BW.
 
-### BY
+### BY {#by}
 
 > `readonly` **BY**: `"unlcdc:BY"` = `"unlcdc:BY"`
 
 BELARUS: BY.
 
-### BZ
+### BZ {#bz}
 
 > `readonly` **BZ**: `"unlcdc:BZ"` = `"unlcdc:BZ"`
 
 BELIZE: BZ.
 
-### CA
+### CA {#ca}
 
 > `readonly` **CA**: `"unlcdc:CA"` = `"unlcdc:CA"`
 
 CANADA: CA.
 
-### CC
+### CC {#cc}
 
 > `readonly` **CC**: `"unlcdc:CC"` = `"unlcdc:CC"`
 
 COCOS (KEELING) ISLANDS: CC.
 
-### CD
+### CD {#cd}
 
 > `readonly` **CD**: `"unlcdc:CD"` = `"unlcdc:CD"`
 
 CONGO, THE DEMOCRATIC REPUBLIC OF THE: CD.
 
-### CF
+### CF {#cf}
 
 > `readonly` **CF**: `"unlcdc:CF"` = `"unlcdc:CF"`
 
 CENTRAL AFRICAN REPUBLIC: CF.
 
-### CG
+### CG {#cg}
 
 > `readonly` **CG**: `"unlcdc:CG"` = `"unlcdc:CG"`
 
 CONGO: CG.
 
-### CH
+### CH {#ch}
 
 > `readonly` **CH**: `"unlcdc:CH"` = `"unlcdc:CH"`
 
 SWITZERLAND: CH.
 
-### CI
+### CI {#ci}
 
 > `readonly` **CI**: `"unlcdc:CI"` = `"unlcdc:CI"`
 
 CÔTE D'IVOIRE: CI.
 
-### CK
+### CK {#ck}
 
 > `readonly` **CK**: `"unlcdc:CK"` = `"unlcdc:CK"`
 
 COOK ISLANDS: CK.
 
-### CL
+### CL {#cl}
 
 > `readonly` **CL**: `"unlcdc:CL"` = `"unlcdc:CL"`
 
 CHILE: CL.
 
-### CM
+### CM {#cm}
 
 > `readonly` **CM**: `"unlcdc:CM"` = `"unlcdc:CM"`
 
 CAMEROON: CM.
 
-### CN
+### CN {#cn}
 
 > `readonly` **CN**: `"unlcdc:CN"` = `"unlcdc:CN"`
 
 CHINA: CN.
 
-### CO
+### CO {#co}
 
 > `readonly` **CO**: `"unlcdc:CO"` = `"unlcdc:CO"`
 
 COLOMBIA: CO.
 
-### CR
+### CR {#cr}
 
 > `readonly` **CR**: `"unlcdc:CR"` = `"unlcdc:CR"`
 
 COSTA RICA: CR.
 
-### CU
+### CU {#cu}
 
 > `readonly` **CU**: `"unlcdc:CU"` = `"unlcdc:CU"`
 
 CUBA: CU.
 
-### CV
+### CV {#cv}
 
 > `readonly` **CV**: `"unlcdc:CV"` = `"unlcdc:CV"`
 
 CAPE VERDE: CV.
 
-### CW
+### CW {#cw}
 
 > `readonly` **CW**: `"unlcdc:CW"` = `"unlcdc:CW"`
 
 CURAÇAO: CW.
 
-### CX
+### CX {#cx}
 
 > `readonly` **CX**: `"unlcdc:CX"` = `"unlcdc:CX"`
 
 CHRISTMAS ISLAND: CX.
 
-### CY
+### CY {#cy}
 
 > `readonly` **CY**: `"unlcdc:CY"` = `"unlcdc:CY"`
 
 CYPRUS: CY.
 
-### CZ
+### CZ {#cz}
 
 > `readonly` **CZ**: `"unlcdc:CZ"` = `"unlcdc:CZ"`
 
 CZECHIA: CZ.
 
-### DE
+### DE {#de}
 
 > `readonly` **DE**: `"unlcdc:DE"` = `"unlcdc:DE"`
 
 GERMANY: DE.
 
-### DJ
+### DJ {#dj}
 
 > `readonly` **DJ**: `"unlcdc:DJ"` = `"unlcdc:DJ"`
 
 DJIBOUTI: DJ.
 
-### DK
+### DK {#dk}
 
 > `readonly` **DK**: `"unlcdc:DK"` = `"unlcdc:DK"`
 
 DENMARK: DK.
 
-### DM
+### DM {#dm}
 
 > `readonly` **DM**: `"unlcdc:DM"` = `"unlcdc:DM"`
 
 DOMINICA: DM.
 
-### DO
+### DO {#do}
 
 > `readonly` **DO**: `"unlcdc:DO"` = `"unlcdc:DO"`
 
 DOMINICAN REPUBLIC: DO.
 
-### DZ
+### DZ {#dz}
 
 > `readonly` **DZ**: `"unlcdc:DZ"` = `"unlcdc:DZ"`
 
 ALGERIA: DZ.
 
-### EC
+### EC {#ec}
 
 > `readonly` **EC**: `"unlcdc:EC"` = `"unlcdc:EC"`
 
 ECUADOR: EC.
 
-### EE
+### EE {#ee}
 
 > `readonly` **EE**: `"unlcdc:EE"` = `"unlcdc:EE"`
 
 ESTONIA: EE.
 
-### EG
+### EG {#eg}
 
 > `readonly` **EG**: `"unlcdc:EG"` = `"unlcdc:EG"`
 
 EGYPT: EG.
 
-### EH
+### EH {#eh}
 
 > `readonly` **EH**: `"unlcdc:EH"` = `"unlcdc:EH"`
 
 WESTERN SAHARA: EH.
 
-### ER
+### ER {#er}
 
 > `readonly` **ER**: `"unlcdc:ER"` = `"unlcdc:ER"`
 
 ERITREA: ER.
 
-### ES
+### ES {#es}
 
 > `readonly` **ES**: `"unlcdc:ES"` = `"unlcdc:ES"`
 
 SPAIN: ES.
 
-### ET
+### ET {#et}
 
 > `readonly` **ET**: `"unlcdc:ET"` = `"unlcdc:ET"`
 
 ETHIOPIA: ET.
 
-### FI
+### FI {#fi}
 
 > `readonly` **FI**: `"unlcdc:FI"` = `"unlcdc:FI"`
 
 FINLAND: FI.
 
-### FJ
+### FJ {#fj}
 
 > `readonly` **FJ**: `"unlcdc:FJ"` = `"unlcdc:FJ"`
 
 FIJI: FJ.
 
-### FK
+### FK {#fk}
 
 > `readonly` **FK**: `"unlcdc:FK"` = `"unlcdc:FK"`
 
 FALKLAND ISLANDS (MALVINAS): FK.
 
-### FM
+### FM {#fm}
 
 > `readonly` **FM**: `"unlcdc:FM"` = `"unlcdc:FM"`
 
 MICRONESIA, FEDERATED STATES OF: FM.
 
-### FO
+### FO {#fo}
 
 > `readonly` **FO**: `"unlcdc:FO"` = `"unlcdc:FO"`
 
 FAROE ISLANDS: FO.
 
-### FR
+### FR {#fr}
 
 > `readonly` **FR**: `"unlcdc:FR"` = `"unlcdc:FR"`
 
 Saint-Pierre = PM FSP: FR.
 
-### GA
+### GA {#ga}
 
 > `readonly` **GA**: `"unlcdc:GA"` = `"unlcdc:GA"`
 
 GABON: GA.
 
-### GB
+### GB {#gb}
 
 > `readonly` **GB**: `"unlcdc:GB"` = `"unlcdc:GB"`
 
 UNITED KINGDOM: GB.
 
-### GD
+### GD {#gd}
 
 > `readonly` **GD**: `"unlcdc:GD"` = `"unlcdc:GD"`
 
 GRENADA: GD.
 
-### GE
+### GE {#ge}
 
 > `readonly` **GE**: `"unlcdc:GE"` = `"unlcdc:GE"`
 
 GEORGIA: GE.
 
-### GF
+### GF {#gf}
 
 > `readonly` **GF**: `"unlcdc:GF"` = `"unlcdc:GF"`
 
 FRENCH GUIANA: GF.
 
-### GG
+### GG {#gg}
 
 > `readonly` **GG**: `"unlcdc:GG"` = `"unlcdc:GG"`
 
 GUERNSEY: GG.
 
-### GH
+### GH {#gh}
 
 > `readonly` **GH**: `"unlcdc:GH"` = `"unlcdc:GH"`
 
 GHANA: GH.
 
-### GI
+### GI {#gi}
 
 > `readonly` **GI**: `"unlcdc:GI"` = `"unlcdc:GI"`
 
 GIBRALTAR: GI.
 
-### GL
+### GL {#gl}
 
 > `readonly` **GL**: `"unlcdc:GL"` = `"unlcdc:GL"`
 
 GREENLAND: GL.
 
-### GM
+### GM {#gm}
 
 > `readonly` **GM**: `"unlcdc:GM"` = `"unlcdc:GM"`
 
 GAMBIA: GM.
 
-### GN
+### GN {#gn}
 
 > `readonly` **GN**: `"unlcdc:GN"` = `"unlcdc:GN"`
 
 GUINEA: GN.
 
-### GP
+### GP {#gp}
 
 > `readonly` **GP**: `"unlcdc:GP"` = `"unlcdc:GP"`
 
 GUADELOUPE: GP.
 
-### GQ
+### GQ {#gq}
 
 > `readonly` **GQ**: `"unlcdc:GQ"` = `"unlcdc:GQ"`
 
 EQUATORIAL GUINEA: GQ.
 
-### GR
+### GR {#gr}
 
 > `readonly` **GR**: `"unlcdc:GR"` = `"unlcdc:GR"`
 
 GREECE: GR.
 
-### GS
+### GS {#gs}
 
 > `readonly` **GS**: `"unlcdc:GS"` = `"unlcdc:GS"`
 
 SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS: GS.
 
-### GT
+### GT {#gt}
 
 > `readonly` **GT**: `"unlcdc:GT"` = `"unlcdc:GT"`
 
 GUATEMALA: GT.
 
-### GU
+### GU {#gu}
 
 > `readonly` **GU**: `"unlcdc:GU"` = `"unlcdc:GU"`
 
 GUAM: GU.
 
-### GW
+### GW {#gw}
 
 > `readonly` **GW**: `"unlcdc:GW"` = `"unlcdc:GW"`
 
 GUINEA-BISSAU: GW.
 
-### GY
+### GY {#gy}
 
 > `readonly` **GY**: `"unlcdc:GY"` = `"unlcdc:GY"`
 
 GUYANA: GY.
 
-### HK
+### HK {#hk}
 
 > `readonly` **HK**: `"unlcdc:HK"` = `"unlcdc:HK"`
 
 HONG KONG : HK.
 
-### HM
+### HM {#hm}
 
 > `readonly` **HM**: `"unlcdc:HM"` = `"unlcdc:HM"`
 
 HEARD ISLAND AND MCDONALD ISLANDS: HM.
 
-### HN
+### HN {#hn}
 
 > `readonly` **HN**: `"unlcdc:HN"` = `"unlcdc:HN"`
 
 HONDURAS: HN.
 
-### HR
+### HR {#hr}
 
 > `readonly` **HR**: `"unlcdc:HR"` = `"unlcdc:HR"`
 
 CROATIA: HR.
 
-### HT
+### HT {#ht}
 
 > `readonly` **HT**: `"unlcdc:HT"` = `"unlcdc:HT"`
 
 HAITI: HT.
 
-### HU
+### HU {#hu}
 
 > `readonly` **HU**: `"unlcdc:HU"` = `"unlcdc:HU"`
 
 HUNGARY: HU.
 
-### ID
+### ID {#id}
 
 > `readonly` **ID**: `"unlcdc:ID"` = `"unlcdc:ID"`
 
 INDONESIA: ID.
 
-### IE
+### IE {#ie}
 
 > `readonly` **IE**: `"unlcdc:IE"` = `"unlcdc:IE"`
 
 IRELAND: IE.
 
-### IL
+### IL {#il}
 
 > `readonly` **IL**: `"unlcdc:IL"` = `"unlcdc:IL"`
 
 ISRAEL: IL.
 
-### IM
+### IM {#im}
 
 > `readonly` **IM**: `"unlcdc:IM"` = `"unlcdc:IM"`
 
 ISLE OF MAN: IM.
 
-### IN
+### IN {#in}
 
 > `readonly` **IN**: `"unlcdc:IN"` = `"unlcdc:IN"`
 
 INDIA: IN.
 
-### IO
+### IO {#io}
 
 > `readonly` **IO**: `"unlcdc:IO"` = `"unlcdc:IO"`
 
 BRITISH INDIAN OCEAN TERRITORY: IO.
 
-### IQ
+### IQ {#iq}
 
 > `readonly` **IQ**: `"unlcdc:IQ"` = `"unlcdc:IQ"`
 
 IRAQ: IQ.
 
-### IR
+### IR {#ir}
 
 > `readonly` **IR**: `"unlcdc:IR"` = `"unlcdc:IR"`
 
 IRAN, ISLAMIC REPUBLIC OF: IR.
 
-### IS
+### IS {#is}
 
 > `readonly` **IS**: `"unlcdc:IS"` = `"unlcdc:IS"`
 
 ICELAND: IS.
 
-### IT
+### IT {#it}
 
 > `readonly` **IT**: `"unlcdc:IT"` = `"unlcdc:IT"`
 
 ITALY: IT.
 
-### JE
+### JE {#je}
 
 > `readonly` **JE**: `"unlcdc:JE"` = `"unlcdc:JE"`
 
 JERSEY: JE.
 
-### JM
+### JM {#jm}
 
 > `readonly` **JM**: `"unlcdc:JM"` = `"unlcdc:JM"`
 
 JAMAICA: JM.
 
-### JO
+### JO {#jo}
 
 > `readonly` **JO**: `"unlcdc:JO"` = `"unlcdc:JO"`
 
 JORDAN: JO.
 
-### JP
+### JP {#jp}
 
 > `readonly` **JP**: `"unlcdc:JP"` = `"unlcdc:JP"`
 
 JAPAN: JP.
 
-### KE
+### KE {#ke}
 
 > `readonly` **KE**: `"unlcdc:KE"` = `"unlcdc:KE"`
 
 KENYA: KE.
 
-### KG
+### KG {#kg}
 
 > `readonly` **KG**: `"unlcdc:KG"` = `"unlcdc:KG"`
 
 KYRGYZSTAN: KG.
 
-### KH
+### KH {#kh}
 
 > `readonly` **KH**: `"unlcdc:KH"` = `"unlcdc:KH"`
 
 CAMBODIA: KH.
 
-### KI
+### KI {#ki}
 
 > `readonly` **KI**: `"unlcdc:KI"` = `"unlcdc:KI"`
 
 KIRIBATI: KI.
 
-### KM
+### KM {#km}
 
 > `readonly` **KM**: `"unlcdc:KM"` = `"unlcdc:KM"`
 
 COMOROS: KM.
 
-### KN
+### KN {#kn}
 
 > `readonly` **KN**: `"unlcdc:KN"` = `"unlcdc:KN"`
 
 SAINT KITTS AND NEVIS: KN.
 
-### KP
+### KP {#kp}
 
 > `readonly` **KP**: `"unlcdc:KP"` = `"unlcdc:KP"`
 
 KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF: KP.
 
-### KR
+### KR {#kr}
 
 > `readonly` **KR**: `"unlcdc:KR"` = `"unlcdc:KR"`
 
 KOREA, REPUBLIC OF: KR.
 
-### KW
+### KW {#kw}
 
 > `readonly` **KW**: `"unlcdc:KW"` = `"unlcdc:KW"`
 
 KUWAIT: KW.
 
-### KY
+### KY {#ky}
 
 > `readonly` **KY**: `"unlcdc:KY"` = `"unlcdc:KY"`
 
 CAYMAN ISLANDS: KY.
 
-### KZ
+### KZ {#kz}
 
 > `readonly` **KZ**: `"unlcdc:KZ"` = `"unlcdc:KZ"`
 
 KAZAKHSTAN: KZ.
 
-### LA
+### LA {#la}
 
 > `readonly` **LA**: `"unlcdc:LA"` = `"unlcdc:LA"`
 
 LAO PEOPLE'S DEMOCRATIC REPUBLIC: LA.
 
-### LB
+### LB {#lb}
 
 > `readonly` **LB**: `"unlcdc:LB"` = `"unlcdc:LB"`
 
 LEBANON: LB.
 
-### LC
+### LC {#lc}
 
 > `readonly` **LC**: `"unlcdc:LC"` = `"unlcdc:LC"`
 
 SAINT LUCIA: LC.
 
-### LI
+### LI {#li}
 
 > `readonly` **LI**: `"unlcdc:LI"` = `"unlcdc:LI"`
 
 LIECHTENSTEIN: LI.
 
-### LK
+### LK {#lk}
 
 > `readonly` **LK**: `"unlcdc:LK"` = `"unlcdc:LK"`
 
 SRI LANKA: LK.
 
-### LR
+### LR {#lr}
 
 > `readonly` **LR**: `"unlcdc:LR"` = `"unlcdc:LR"`
 
 LIBERIA: LR.
 
-### LS
+### LS {#ls}
 
 > `readonly` **LS**: `"unlcdc:LS"` = `"unlcdc:LS"`
 
 LESOTHO: LS.
 
-### LT
+### LT {#lt}
 
 > `readonly` **LT**: `"unlcdc:LT"` = `"unlcdc:LT"`
 
 LITHUANIA: LT.
 
-### LU
+### LU {#lu}
 
 > `readonly` **LU**: `"unlcdc:LU"` = `"unlcdc:LU"`
 
 LUXEMBOURG: LU.
 
-### LV
+### LV {#lv}
 
 > `readonly` **LV**: `"unlcdc:LV"` = `"unlcdc:LV"`
 
 LATVIA: LV.
 
-### LY
+### LY {#ly}
 
 > `readonly` **LY**: `"unlcdc:LY"` = `"unlcdc:LY"`
 
 LIBYA: LY.
 
-### MA
+### MA {#ma}
 
 > `readonly` **MA**: `"unlcdc:MA"` = `"unlcdc:MA"`
 
 MOROCCO: MA.
 
-### MC
+### MC {#mc}
 
 > `readonly` **MC**: `"unlcdc:MC"` = `"unlcdc:MC"`
 
 MONACO: MC.
 
-### MD
+### MD {#md}
 
 > `readonly` **MD**: `"unlcdc:MD"` = `"unlcdc:MD"`
 
 MOLDOVA, REPUBLIC OF: MD.
 
-### ME
+### ME {#me}
 
 > `readonly` **ME**: `"unlcdc:ME"` = `"unlcdc:ME"`
 
 MONTENEGRO: ME.
 
-### MF
+### MF {#mf}
 
 > `readonly` **MF**: `"unlcdc:MF"` = `"unlcdc:MF"`
 
 SAINT MARTIN (FRENCH PART): MF.
 
-### MG
+### MG {#mg}
 
 > `readonly` **MG**: `"unlcdc:MG"` = `"unlcdc:MG"`
 
 MADAGASCAR: MG.
 
-### MH
+### MH {#mh}
 
 > `readonly` **MH**: `"unlcdc:MH"` = `"unlcdc:MH"`
 
 MARSHALL ISLANDS (THE): MH.
 
-### MK
+### MK {#mk}
 
 > `readonly` **MK**: `"unlcdc:MK"` = `"unlcdc:MK"`
 
 NORTH MACEDONIA: MK.
 
-### ML
+### ML {#ml}
 
 > `readonly` **ML**: `"unlcdc:ML"` = `"unlcdc:ML"`
 
 MALI: ML.
 
-### MM
+### MM {#mm}
 
 > `readonly` **MM**: `"unlcdc:MM"` = `"unlcdc:MM"`
 
 MYANMAR: MM.
 
-### MN
+### MN {#mn}
 
 > `readonly` **MN**: `"unlcdc:MN"` = `"unlcdc:MN"`
 
 MONGOLIA: MN.
 
-### MO
+### MO {#mo}
 
 > `readonly` **MO**: `"unlcdc:MO"` = `"unlcdc:MO"`
 
 MACAO: MO.
 
-### MP
+### MP {#mp}
 
 > `readonly` **MP**: `"unlcdc:MP"` = `"unlcdc:MP"`
 
 NORTHERN MARIANA ISLANDS (THE): MP.
 
-### MQ
+### MQ {#mq}
 
 > `readonly` **MQ**: `"unlcdc:MQ"` = `"unlcdc:MQ"`
 
 MARTINIQUE: MQ.
 
-### MR
+### MR {#mr}
 
 > `readonly` **MR**: `"unlcdc:MR"` = `"unlcdc:MR"`
 
 MAURITANIA: MR.
 
-### MS
+### MS {#ms}
 
 > `readonly` **MS**: `"unlcdc:MS"` = `"unlcdc:MS"`
 
 MONTSERRAT: MS.
 
-### MT
+### MT {#mt}
 
 > `readonly` **MT**: `"unlcdc:MT"` = `"unlcdc:MT"`
 
 MALTA: MT.
 
-### MU
+### MU {#mu}
 
 > `readonly` **MU**: `"unlcdc:MU"` = `"unlcdc:MU"`
 
 MAURITIUS: MU.
 
-### MV
+### MV {#mv}
 
 > `readonly` **MV**: `"unlcdc:MV"` = `"unlcdc:MV"`
 
 MALDIVES: MV.
 
-### MW
+### MW {#mw}
 
 > `readonly` **MW**: `"unlcdc:MW"` = `"unlcdc:MW"`
 
 MALAWI: MW.
 
-### MX
+### MX {#mx}
 
 > `readonly` **MX**: `"unlcdc:MX"` = `"unlcdc:MX"`
 
 MEXICO: MX.
 
-### MY
+### MY {#my}
 
 > `readonly` **MY**: `"unlcdc:MY"` = `"unlcdc:MY"`
 
 MALAYSIA: MY.
 
-### MZ
+### MZ {#mz}
 
 > `readonly` **MZ**: `"unlcdc:MZ"` = `"unlcdc:MZ"`
 
 MOZAMBIQUE: MZ.
 
-### NA
+### NA {#na}
 
 > `readonly` **NA**: `"unlcdc:NA"` = `"unlcdc:NA"`
 
 NAMIBIA: NA.
 
-### NC
+### NC {#nc}
 
 > `readonly` **NC**: `"unlcdc:NC"` = `"unlcdc:NC"`
 
 NEW CALEDONIA: NC.
 
-### NE
+### NE {#ne}
 
 > `readonly` **NE**: `"unlcdc:NE"` = `"unlcdc:NE"`
 
 NIGER: NE.
 
-### NF
+### NF {#nf}
 
 > `readonly` **NF**: `"unlcdc:NF"` = `"unlcdc:NF"`
 
 NORFOLK ISLAND: NF.
 
-### NG
+### NG {#ng}
 
 > `readonly` **NG**: `"unlcdc:NG"` = `"unlcdc:NG"`
 
 NIGERIA: NG.
 
-### NI
+### NI {#ni}
 
 > `readonly` **NI**: `"unlcdc:NI"` = `"unlcdc:NI"`
 
 NICARAGUA: NI.
 
-### NL
+### NL {#nl}
 
 > `readonly` **NL**: `"unlcdc:NL"` = `"unlcdc:NL"`
 
 NETHERLANDS: NL.
 
-### NO
+### NO {#no}
 
 > `readonly` **NO**: `"unlcdc:NO"` = `"unlcdc:NO"`
 
 NORWAY: NO.
 
-### NP
+### NP {#np}
 
 > `readonly` **NP**: `"unlcdc:NP"` = `"unlcdc:NP"`
 
 NEPAL: NP.
 
-### NR
+### NR {#nr}
 
 > `readonly` **NR**: `"unlcdc:NR"` = `"unlcdc:NR"`
 
 NAURU: NR.
 
-### NU
+### NU {#nu}
 
 > `readonly` **NU**: `"unlcdc:NU"` = `"unlcdc:NU"`
 
 NIUE: NU.
 
-### NZ
+### NZ {#nz}
 
 > `readonly` **NZ**: `"unlcdc:NZ"` = `"unlcdc:NZ"`
 
 NEW ZEALAND: NZ.
 
-### OM
+### OM {#om}
 
 > `readonly` **OM**: `"unlcdc:OM"` = `"unlcdc:OM"`
 
 OMAN: OM.
 
-### PA
+### PA {#pa}
 
 > `readonly` **PA**: `"unlcdc:PA"` = `"unlcdc:PA"`
 
 PANAMA: PA.
 
-### PE
+### PE {#pe}
 
 > `readonly` **PE**: `"unlcdc:PE"` = `"unlcdc:PE"`
 
 PERU: PE.
 
-### PF
+### PF {#pf}
 
 > `readonly` **PF**: `"unlcdc:PF"` = `"unlcdc:PF"`
 
 FRENCH POLYNESIA: PF.
 
-### PG
+### PG {#pg}
 
 > `readonly` **PG**: `"unlcdc:PG"` = `"unlcdc:PG"`
 
 PAPUA NEW GUINEA: PG.
 
-### PH
+### PH {#ph}
 
 > `readonly` **PH**: `"unlcdc:PH"` = `"unlcdc:PH"`
 
 PHILIPPINES (THE): PH.
 
-### PK
+### PK {#pk}
 
 > `readonly` **PK**: `"unlcdc:PK"` = `"unlcdc:PK"`
 
 PAKISTAN: PK.
 
-### PL
+### PL {#pl}
 
 > `readonly` **PL**: `"unlcdc:PL"` = `"unlcdc:PL"`
 
 POLAND: PL.
 
-### PM
+### PM {#pm}
 
 > `readonly` **PM**: `"unlcdc:PM"` = `"unlcdc:PM"`
 
 SAINT PIERRE AND MIQUELON: PM.
 
-### PN
+### PN {#pn}
 
 > `readonly` **PN**: `"unlcdc:PN"` = `"unlcdc:PN"`
 
 PITCAIRN: PN.
 
-### PR
+### PR {#pr}
 
 > `readonly` **PR**: `"unlcdc:PR"` = `"unlcdc:PR"`
 
 PUERTO RICO: PR.
 
-### PS
+### PS {#ps}
 
 > `readonly` **PS**: `"unlcdc:PS"` = `"unlcdc:PS"`
 
 PALESTINE, STATE OF: PS.
 
-### PT
+### PT {#pt}
 
 > `readonly` **PT**: `"unlcdc:PT"` = `"unlcdc:PT"`
 
 PORTUGAL: PT.
 
-### PW
+### PW {#pw}
 
 > `readonly` **PW**: `"unlcdc:PW"` = `"unlcdc:PW"`
 
 PALAU: PW.
 
-### PY
+### PY {#py}
 
 > `readonly` **PY**: `"unlcdc:PY"` = `"unlcdc:PY"`
 
 PARAGUAY: PY.
 
-### QA
+### QA {#qa}
 
 > `readonly` **QA**: `"unlcdc:QA"` = `"unlcdc:QA"`
 
 QATAR: QA.
 
-### RE
+### RE {#re}
 
 > `readonly` **RE**: `"unlcdc:RE"` = `"unlcdc:RE"`
 
 RÉUNION: RE.
 
-### RO
+### RO {#ro}
 
 > `readonly` **RO**: `"unlcdc:RO"` = `"unlcdc:RO"`
 
 ROMANIA: RO.
 
-### RS
+### RS {#rs}
 
 > `readonly` **RS**: `"unlcdc:RS"` = `"unlcdc:RS"`
 
 SERBIA: RS.
 
-### RU
+### RU {#ru}
 
 > `readonly` **RU**: `"unlcdc:RU"` = `"unlcdc:RU"`
 
 RUSSIAN FEDERATION (THE): RU.
 
-### RW
+### RW {#rw}
 
 > `readonly` **RW**: `"unlcdc:RW"` = `"unlcdc:RW"`
 
 RWANDA: RW.
 
-### SA
+### SA {#sa}
 
 > `readonly` **SA**: `"unlcdc:SA"` = `"unlcdc:SA"`
 
 SAUDI ARABIA: SA.
 
-### SB
+### SB {#sb}
 
 > `readonly` **SB**: `"unlcdc:SB"` = `"unlcdc:SB"`
 
 SOLOMON ISLANDS: SB.
 
-### SC
+### SC {#sc}
 
 > `readonly` **SC**: `"unlcdc:SC"` = `"unlcdc:SC"`
 
 SEYCHELLES: SC.
 
-### SD
+### SD {#sd}
 
 > `readonly` **SD**: `"unlcdc:SD"` = `"unlcdc:SD"`
 
 SUDAN (THE): SD.
 
-### SE
+### SE {#se}
 
 > `readonly` **SE**: `"unlcdc:SE"` = `"unlcdc:SE"`
 
 SWEDEN: SE.
 
-### SG
+### SG {#sg}
 
 > `readonly` **SG**: `"unlcdc:SG"` = `"unlcdc:SG"`
 
 SINGAPORE: SG.
 
-### SH
+### SH {#sh}
 
 > `readonly` **SH**: `"unlcdc:SH"` = `"unlcdc:SH"`
 
 SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA: SH.
 
-### SI
+### SI {#si}
 
 > `readonly` **SI**: `"unlcdc:SI"` = `"unlcdc:SI"`
 
 SLOVENIA: SI.
 
-### SJ
+### SJ {#sj}
 
 > `readonly` **SJ**: `"unlcdc:SJ"` = `"unlcdc:SJ"`
 
 SVALBARD AND JAN MAYEN: SJ.
 
-### SK
+### SK {#sk}
 
 > `readonly` **SK**: `"unlcdc:SK"` = `"unlcdc:SK"`
 
 SLOVAKIA: SK.
 
-### SL
+### SL {#sl}
 
 > `readonly` **SL**: `"unlcdc:SL"` = `"unlcdc:SL"`
 
 SIERRA LEONE: SL.
 
-### SM
+### SM {#sm}
 
 > `readonly` **SM**: `"unlcdc:SM"` = `"unlcdc:SM"`
 
 SAN MARINO: SM.
 
-### SN
+### SN {#sn}
 
 > `readonly` **SN**: `"unlcdc:SN"` = `"unlcdc:SN"`
 
 SENEGAL: SN.
 
-### SO
+### SO {#so}
 
 > `readonly` **SO**: `"unlcdc:SO"` = `"unlcdc:SO"`
 
 SOMALIA: SO.
 
-### SR
+### SR {#sr}
 
 > `readonly` **SR**: `"unlcdc:SR"` = `"unlcdc:SR"`
 
 SURINAME: SR.
 
-### SS
+### SS {#ss}
 
 > `readonly` **SS**: `"unlcdc:SS"` = `"unlcdc:SS"`
 
 SOUTH SUDAN: SS.
 
-### ST
+### ST {#st}
 
 > `readonly` **ST**: `"unlcdc:ST"` = `"unlcdc:ST"`
 
 SAO TOME AND PRINCIPE: ST.
 
-### SV
+### SV {#sv}
 
 > `readonly` **SV**: `"unlcdc:SV"` = `"unlcdc:SV"`
 
 EL SALVADOR: SV.
 
-### SX
+### SX {#sx}
 
 > `readonly` **SX**: `"unlcdc:SX"` = `"unlcdc:SX"`
 
 SINT MAARTEN (DUTCH PART): SX.
 
-### SY
+### SY {#sy}
 
 > `readonly` **SY**: `"unlcdc:SY"` = `"unlcdc:SY"`
 
 SYRIAN ARAB REPUBLIC (THE): SY.
 
-### SZ
+### SZ {#sz}
 
 > `readonly` **SZ**: `"unlcdc:SZ"` = `"unlcdc:SZ"`
 
 ESWATINI: SZ.
 
-### TC
+### TC {#tc}
 
 > `readonly` **TC**: `"unlcdc:TC"` = `"unlcdc:TC"`
 
 TURKS AND CAICOS ISLANDS (THE): TC.
 
-### TD
+### TD {#td}
 
 > `readonly` **TD**: `"unlcdc:TD"` = `"unlcdc:TD"`
 
 CHAD: TD.
 
-### TF
+### TF {#tf}
 
 > `readonly` **TF**: `"unlcdc:TF"` = `"unlcdc:TF"`
 
 FRENCH SOUTHERN TERRITORIES: TF.
 
-### TG
+### TG {#tg}
 
 > `readonly` **TG**: `"unlcdc:TG"` = `"unlcdc:TG"`
 
 TOGO: TG.
 
-### TH
+### TH {#th}
 
 > `readonly` **TH**: `"unlcdc:TH"` = `"unlcdc:TH"`
 
 THAILAND: TH.
 
-### TJ
+### TJ {#tj}
 
 > `readonly` **TJ**: `"unlcdc:TJ"` = `"unlcdc:TJ"`
 
 TAJIKISTAN: TJ.
 
-### TK
+### TK {#tk}
 
 > `readonly` **TK**: `"unlcdc:TK"` = `"unlcdc:TK"`
 
 TOKELAU: TK.
 
-### TL
+### TL {#tl}
 
 > `readonly` **TL**: `"unlcdc:TL"` = `"unlcdc:TL"`
 
 TIMOR-LESTE: TL.
 
-### TM
+### TM {#tm}
 
 > `readonly` **TM**: `"unlcdc:TM"` = `"unlcdc:TM"`
 
 TURKMENISTAN: TM.
 
-### TN
+### TN {#tn}
 
 > `readonly` **TN**: `"unlcdc:TN"` = `"unlcdc:TN"`
 
 TUNISIA: TN.
 
-### TO
+### TO {#to}
 
 > `readonly` **TO**: `"unlcdc:TO"` = `"unlcdc:TO"`
 
 TONGA: TO.
 
-### TR
+### TR {#tr}
 
 > `readonly` **TR**: `"unlcdc:TR"` = `"unlcdc:TR"`
 
 TÜRKIYE: TR.
 
-### TT
+### TT {#tt}
 
 > `readonly` **TT**: `"unlcdc:TT"` = `"unlcdc:TT"`
 
 TRINIDAD AND TOBAGO: TT.
 
-### TV
+### TV {#tv}
 
 > `readonly` **TV**: `"unlcdc:TV"` = `"unlcdc:TV"`
 
 TUVALU: TV.
 
-### TW
+### TW {#tw}
 
 > `readonly` **TW**: `"unlcdc:TW"` = `"unlcdc:TW"`
 
 TAIWAN (PROVINCE OF CHINA): TW.
 
-### TZ
+### TZ {#tz}
 
 > `readonly` **TZ**: `"unlcdc:TZ"` = `"unlcdc:TZ"`
 
 TANZANIA, UNITED REPUBLIC OF: TZ.
 
-### UA
+### UA {#ua}
 
 > `readonly` **UA**: `"unlcdc:UA"` = `"unlcdc:UA"`
 
 UKRAINE: UA.
 
-### UG
+### UG {#ug}
 
 > `readonly` **UG**: `"unlcdc:UG"` = `"unlcdc:UG"`
 
 UGANDA: UG.
 
-### UM
+### UM {#um}
 
 > `readonly` **UM**: `"unlcdc:UM"` = `"unlcdc:UM"`
 
 UNITED STATES MINOR OUTLYING ISLANDS: UM.
 
-### US
+### US {#us}
 
 > `readonly` **US**: `"unlcdc:US"` = `"unlcdc:US"`
 
 UNITED STATES OF AMERICA (THE): US.
 
-### UY
+### UY {#uy}
 
 > `readonly` **UY**: `"unlcdc:UY"` = `"unlcdc:UY"`
 
 URUGUAY: UY.
 
-### UZ
+### UZ {#uz}
 
 > `readonly` **UZ**: `"unlcdc:UZ"` = `"unlcdc:UZ"`
 
 UZBEKISTAN: UZ.
 
-### VA
+### VA {#va}
 
 > `readonly` **VA**: `"unlcdc:VA"` = `"unlcdc:VA"`
 
 HOLY SEE (VATICAN CITY STATE): VA.
 
-### VC
+### VC {#vc}
 
 > `readonly` **VC**: `"unlcdc:VC"` = `"unlcdc:VC"`
 
 SAINT VINCENT AND THE GRENADINES: VC.
 
-### VE
+### VE {#ve}
 
 > `readonly` **VE**: `"unlcdc:VE"` = `"unlcdc:VE"`
 
 VENEZUELA (BOLIVARIAN REPUBLIC OF): VE.
 
-### VG
+### VG {#vg}
 
 > `readonly` **VG**: `"unlcdc:VG"` = `"unlcdc:VG"`
 
 VIRGIN ISLANDS (BRITISH): VG.
 
-### VI
+### VI {#vi}
 
 > `readonly` **VI**: `"unlcdc:VI"` = `"unlcdc:VI"`
 
 VIRGIN ISLANDS (U.S.): VI.
 
-### VN
+### VN {#vn}
 
 > `readonly` **VN**: `"unlcdc:VN"` = `"unlcdc:VN"`
 
 VIET NAM: VN.
 
-### VU
+### VU {#vu}
 
 > `readonly` **VU**: `"unlcdc:VU"` = `"unlcdc:VU"`
 
 VANUATU: VU.
 
-### WF
+### WF {#wf}
 
 > `readonly` **WF**: `"unlcdc:WF"` = `"unlcdc:WF"`
 
 WALLIS AND FUTUNA: WF.
 
-### WS
+### WS {#ws}
 
 > `readonly` **WS**: `"unlcdc:WS"` = `"unlcdc:WS"`
 
 SAMOA: WS.
 
-### XZ
+### XZ {#xz}
 
 > `readonly` **XZ**: `"unlcdc:XZ"` = `"unlcdc:XZ"`
 
 INSTALLATIONS IN INTERNATIONAL WATERS: XZ.
 
-### YE
+### YE {#ye}
 
 > `readonly` **YE**: `"unlcdc:YE"` = `"unlcdc:YE"`
 
 YEMEN: YE.
 
-### YT
+### YT {#yt}
 
 > `readonly` **YT**: `"unlcdc:YT"` = `"unlcdc:YT"`
 
 MAYOTTE: YT.
 
-### ZA
+### ZA {#za}
 
 > `readonly` **ZA**: `"unlcdc:ZA"` = `"unlcdc:ZA"`
 
 SOUTH AFRICA: ZA.
 
-### ZM
+### ZM {#zm}
 
 > `readonly` **ZM**: `"unlcdc:ZM"` = `"unlcdc:ZM"`
 
 ZAMBIA: ZM.
 
-### ZW
+### ZW {#zw}
 
 > `readonly` **ZW**: `"unlcdc:ZW"` = `"unlcdc:ZW"`
 

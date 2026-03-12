@@ -6,7 +6,7 @@ Values for UneceSpecifiedFault typeCode property.
 
 ## Type Declaration
 
-### ApplicableFault
+### ApplicableFault {#applicablefault}
 
 > `readonly` **ApplicableFault**: `"unece:applicableFault"` = `"unece:applicableFault"`
 

@@ -6,7 +6,7 @@ Values for UneceAssessment typeCode property.
 
 ## Type Declaration
 
-### ApplicableAssessment
+### ApplicableAssessment {#applicableassessment}
 
 > `readonly` **ApplicableAssessment**: `"unece:applicableAssessment"` = `"unece:applicableAssessment"`
 
@@ -22,7 +22,7 @@ An assessment applicable to this trade product.
 
 https://vocabulary.uncefact.org/applicableAssessment
 
-### RelatedAssessment
+### RelatedAssessment {#relatedassessment}
 
 > `readonly` **RelatedAssessment**: `"unece:relatedAssessment"` = `"unece:relatedAssessment"`
 

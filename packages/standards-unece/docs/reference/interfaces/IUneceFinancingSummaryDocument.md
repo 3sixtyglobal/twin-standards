@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancingSummaryDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancingSummaryDocument"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acceptedTransactionOriginalTotalAmount?
+### acceptedTransactionOriginalTotalAmount? {#acceptedtransactionoriginaltotalamount}
 
 > `optional` **acceptedTransactionOriginalTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acceptedTransactionOriginalTotalAmount
 
 ***
 
-### financedAppliedRatePercent?
+### financedAppliedRatePercent? {#financedappliedratepercent}
 
 > `optional` **financedAppliedRatePercent**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/financedAppliedRatePercent
 
 ***
 
-### financedTotalAmount?
+### financedTotalAmount? {#financedtotalamount}
 
 > `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ***
 
-### financedTransactionSpecifiedQuantity?
+### financedTransactionSpecifiedQuantity? {#financedtransactionspecifiedquantity}
 
 > `optional` **financedTransactionSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/financedTransactionSpecifiedQuantity
 
 ***
 
-### lineOfCreditSpecifiedFinancialAccount?
+### lineOfCreditSpecifiedFinancialAccount? {#lineofcreditspecifiedfinancialaccount}
 
 > `optional` **lineOfCreditSpecifiedFinancialAccount**: [`IUneceFinancingFinancialAccount`](IUneceFinancingFinancialAccount.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/lineOfCreditSpecifiedFinancialAccount
 
 ***
 
-### relatedBooking?
+### relatedBooking? {#relatedbooking}
 
 > `optional` **relatedBooking**: [`IUneceBooking`](IUneceBooking.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/relatedBooking
 
 ***
 
-### specifiedCreditorFinancialAccount?
+### specifiedCreditorFinancialAccount? {#specifiedcreditorfinancialaccount}
 
 > `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)
 

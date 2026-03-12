@@ -6,7 +6,7 @@ Values for UneceLocationParty typeCode property.
 
 ## Type Declaration
 
-### ServicingSpecifiedParty
+### ServicingSpecifiedParty {#servicingspecifiedparty}
 
 > `readonly` **ServicingSpecifiedParty**: `"unece:servicingSpecifiedParty"` = `"unece:servicingSpecifiedParty"`
 

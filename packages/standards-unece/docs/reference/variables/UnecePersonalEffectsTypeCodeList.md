@@ -6,7 +6,7 @@ Values for UnecePersonalEffects typeCode property.
 
 ## Type Declaration
 
-### CrewPersonalEffects
+### CrewPersonalEffects {#crewpersonaleffects}
 
 > `readonly` **CrewPersonalEffects**: `"unece:crewPersonalEffects"` = `"unece:crewPersonalEffects"`
 
@@ -16,7 +16,7 @@ Personal effects of an individual member of the crew for this logistics transpor
 
 https://vocabulary.uncefact.org/crewPersonalEffects
 
-### DeclaredPersonalEffects
+### DeclaredPersonalEffects {#declaredpersonaleffects}
 
 > `readonly` **DeclaredPersonalEffects**: `"unece:declaredPersonalEffects"` = `"unece:declaredPersonalEffects"`
 

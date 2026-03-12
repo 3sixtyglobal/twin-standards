@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentMeans
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentMeans"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableFinancialCard?
+### applicableFinancialCard? {#applicablefinancialcard}
 
 > `optional` **applicableFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableFinancialCard
 
 ***
 
-### creditorSpecifiedFinancialInstitution?
+### creditorSpecifiedFinancialInstitution? {#creditorspecifiedfinancialinstitution}
 
 > `optional` **creditorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/creditorSpecifiedFinancialInstitution
 
 ***
 
-### debtorSpecifiedFinancialInstitution?
+### debtorSpecifiedFinancialInstitution? {#debtorspecifiedfinancialinstitution}
 
 > `optional` **debtorSpecifiedFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/debtorSpecifiedFinancialInstitution
 
 ***
 
-### identifiedCash?
+### identifiedCash? {#identifiedcash}
 
 > `optional` **identifiedCash**: [`IUneceCash`](IUneceCash.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifiedCash
 
 ***
 
-### identifiedCheque?
+### identifiedCheque? {#identifiedcheque}
 
 > `optional` **identifiedCheque**: [`IUneceCheque`](IUneceCheque.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifiedCheque
 
 ***
 
-### identifiedDigitalMethod?
+### identifiedDigitalMethod? {#identifieddigitalmethod}
 
 > `optional` **identifiedDigitalMethod**: [`IUneceDigitalMethod`](IUneceDigitalMethod.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/identifiedDigitalMethod
 
 ***
 
-### identifiedFinancialCard?
+### identifiedFinancialCard? {#identifiedfinancialcard}
 
 > `optional` **identifiedFinancialCard**: [`IUneceFinancialCard`](IUneceFinancialCard.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/identifiedFinancialCard
 
 ***
 
-### identifiedVoucher?
+### identifiedVoucher? {#identifiedvoucher}
 
 > `optional` **identifiedVoucher**: [`IUneceVoucher`](IUneceVoucher.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/identifiedVoucher
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### paidAmount?
+### paidAmount? {#paidamount}
 
 > `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ***
 
-### payeePartyFinancialAccount?
+### payeePartyFinancialAccount? {#payeepartyfinancialaccount}
 
 > `optional` **payeePartyFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/payeePartyFinancialAccount
 
 ***
 
-### payeeSpecifiedFinancialInstitution?
+### payeeSpecifiedFinancialInstitution? {#payeespecifiedfinancialinstitution}
 
 > `optional` **payeeSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/payeeSpecifiedFinancialInstitution
 
 ***
 
-### payerPartyFinancialAccount?
+### payerPartyFinancialAccount? {#payerpartyfinancialaccount}
 
 > `optional` **payerPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/payerPartyFinancialAccount
 
 ***
 
-### payerSpecifiedFinancialInstitution?
+### payerSpecifiedFinancialInstitution? {#payerspecifiedfinancialinstitution}
 
 > `optional` **payerSpecifiedFinancialInstitution**: [`IUneceDebtorFinancialInstitution`](IUneceDebtorFinancialInstitution.md)
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/payerSpecifiedFinancialInstitution
 
 ***
 
-### paymentGuaranteeMeansGuaranteeMethodCode?
+### paymentGuaranteeMeansGuaranteeMethodCode? {#paymentguaranteemeansguaranteemethodcode}
 
 > `optional` **paymentGuaranteeMeansGuaranteeMethodCode**: [`UnecePaymentGuaranteeMeansCodeList`](../type-aliases/UnecePaymentGuaranteeMeansCodeList.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/paymentGuaranteeMeansGuaranteeMethodCode
 
 ***
 
-### paymentMeansChannelPaymentChannelCode?
+### paymentMeansChannelPaymentChannelCode? {#paymentmeanschannelpaymentchannelcode}
 
 > `optional` **paymentMeansChannelPaymentChannelCode**: [`UnecePaymentMeansChannelCodeList`](../type-aliases/UnecePaymentMeansChannelCodeList.md)
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/paymentMeansChannelPaymentChannelCode
 
 ***
 
-### paymentMeansType?
+### paymentMeansType? {#paymentmeanstype}
 
 > `optional` **paymentMeansType**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/paymentMeansType
 
 ***
 
-### paymentMeansTypeCode?
+### paymentMeansTypeCode? {#paymentmeanstypecode}
 
 > `optional` **paymentMeansTypeCode**: [`UnecePaymentMeansCodeList`](../type-aliases/UnecePaymentMeansCodeList.md)
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/paymentMeansTypeCode
 
 ***
 
-### paymentMethodCode?
+### paymentMethodCode? {#paymentmethodcode}
 
 > `optional` **paymentMethodCode**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/paymentMethodCode
 
 ***
 
-### specifiedCreditorFinancialAccount?
+### specifiedCreditorFinancialAccount? {#specifiedcreditorfinancialaccount}
 
 > `optional` **specifiedCreditorFinancialAccount**: [`IUneceCreditorFinancialAccount`](IUneceCreditorFinancialAccount.md)[]
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/specifiedCreditorFinancialAccount
 
 ***
 
-### specifiedPaymentFinancialInstitution?
+### specifiedPaymentFinancialInstitution? {#specifiedpaymentfinancialinstitution}
 
 > `optional` **specifiedPaymentFinancialInstitution**: [`IUnecePaymentFinancialInstitution`](IUnecePaymentFinancialInstitution.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/specifiedPaymentFinancialInstitution
 
 ***
 
-### tradeSettlementPaymentMeansId?
+### tradeSettlementPaymentMeansId? {#tradesettlementpaymentmeansid}
 
 > `optional` **tradeSettlementPaymentMeansId**: `string` \| `IJsonLdValueObject`
 

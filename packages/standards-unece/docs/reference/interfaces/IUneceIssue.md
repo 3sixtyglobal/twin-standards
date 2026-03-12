@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Issue
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Issue"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### maximumSpecifiedCharacteristic?
+### maximumSpecifiedCharacteristic? {#maximumspecifiedcharacteristic}
 
 > `optional` **maximumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/maximumSpecifiedCharacteristic
 
 ***
 
-### minimumSpecifiedCharacteristic?
+### minimumSpecifiedCharacteristic? {#minimumspecifiedcharacteristic}
 
 > `optional` **minimumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/minimumSpecifiedCharacteristic
 
 ***
 
-### specifiedMetricCharacteristic?
+### specifiedMetricCharacteristic? {#specifiedmetriccharacteristic}
 
 > `optional` **specifiedMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifiedMetricCharacteristic
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

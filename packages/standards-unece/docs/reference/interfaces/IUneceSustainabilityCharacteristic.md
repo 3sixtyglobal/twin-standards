@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/SustainabilityCharacteristic
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SustainabilityCharacteristic"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableInspectionResult?
+### applicableInspectionResult? {#applicableinspectionresult}
 
 > `optional` **applicableInspectionResult**: [`IUneceInspectionResult`](IUneceInspectionResult.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableInspectionResult
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### contentTypeCode?
+### contentTypeCode? {#contenttypecode}
 
 > `optional` **contentTypeCode**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/contentTypeCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### maximumValueMeasure?
+### maximumValueMeasure? {#maximumvaluemeasure}
 
 > `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ***
 
-### measurementMethodCode?
+### measurementMethodCode? {#measurementmethodcode}
 
 > `optional` **measurementMethodCode**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/measurementMethodCode
 
 ***
 
-### minimumValueMeasure?
+### minimumValueMeasure? {#minimumvaluemeasure}
 
 > `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/minimumValueMeasure
 
 ***
 
-### shareableIndicator?
+### shareableIndicator? {#shareableindicator}
 
 > `optional` **shareableIndicator**: `boolean`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/shareableIndicator
 
 ***
 
-### specifiedSupplyChainEvent?
+### specifiedSupplyChainEvent? {#specifiedsupplychainevent}
 
 > `optional` **specifiedSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/specifiedSupplyChainEvent
 
 ***
 
-### subordinateCategoryCode?
+### subordinateCategoryCode? {#subordinatecategorycode}
 
 > `optional` **subordinateCategoryCode**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/subordinateCategoryCode
 
 ***
 
-### subordinateTypeCode?
+### subordinateTypeCode? {#subordinatetypecode}
 
 > `optional` **subordinateTypeCode**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/subordinateTypeCode
 
 ***
 
-### sustainabilityCharacteristicValueCode?
+### sustainabilityCharacteristicValueCode? {#sustainabilitycharacteristicvaluecode}
 
 > `optional` **sustainabilityCharacteristicValueCode**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/sustainabilityCharacteristicValueCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### value?
+### value? {#value}
 
 > `optional` **value**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/value
 
 ***
 
-### valueAmount?
+### valueAmount? {#valueamount}
 
 > `optional` **valueAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/valueAmount
 
 ***
 
-### valueBinaryFile?
+### valueBinaryFile? {#valuebinaryfile}
 
 > `optional` **valueBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/valueBinaryFile
 
 ***
 
-### valueDateTime?
+### valueDateTime? {#valuedatetime}
 
 > `optional` **valueDateTime**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/valueDateTime
 
 ***
 
-### valueIndicator?
+### valueIndicator? {#valueindicator}
 
 > `optional` **valueIndicator**: `boolean`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/valueIndicator
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ***
 
-### valueNumeric?
+### valueNumeric? {#valuenumeric}
 
 > `optional` **valueNumeric**: `string`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/valueNumeric
 
 ***
 
-### valueParameter?
+### valueParameter? {#valueparameter}
 
 > `optional` **valueParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/valueParameter
 
 ***
 
-### valuePeriod?
+### valuePeriod? {#valueperiod}
 
 > `optional` **valuePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/valuePeriod
 
 ***
 
-### valueRange?
+### valueRange? {#valuerange}
 
 > `optional` **valueRange**: [`IUneceRange`](IUneceRange.md)[]
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/valueRange
 
 ***
 
-### valueTolerance?
+### valueTolerance? {#valuetolerance}
 
 > `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
 

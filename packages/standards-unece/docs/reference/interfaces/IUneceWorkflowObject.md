@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/WorkflowObject
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"WorkflowObject"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### previousStatusCode?
+### previousStatusCode? {#previousstatuscode}
 
 > `optional` **previousStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/previousStatusCode
 
 ***
 
-### workflowStatusCode
+### workflowStatusCode {#workflowstatuscode}
 
 > **workflowStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 

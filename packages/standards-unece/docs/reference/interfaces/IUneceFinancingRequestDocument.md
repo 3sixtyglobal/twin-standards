@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancingRequestDocument
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancingRequestDocument"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalInformationIncludedNote?
+### additionalInformationIncludedNote? {#additionalinformationincludednote}
 
 > `optional` **additionalInformationIncludedNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalInformationIncludedNote
 
 ***
 
-### agreementInformation?
+### agreementInformation? {#agreementinformation}
 
 > `optional` **agreementInformation**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/agreementInformation
 
 ***
 
-### authorization?
+### authorization? {#authorization}
 
 > `optional` **authorization**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/authorization
 
 ***
 
-### cancellationReason?
+### cancellationReason? {#cancellationreason}
 
 > `optional` **cancellationReason**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/cancellationReason
 
 ***
 
-### contractualClause?
+### contractualClause? {#contractualclause}
 
 > `optional` **contractualClause**: [`IUneceClause`](IUneceClause.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/contractualClause
 
 ***
 
-### copyIndicator?
+### copyIndicator? {#copyindicator}
 
 > `optional` **copyIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/copyIndicator
 
 ***
 
-### creationDateTime?
+### creationDateTime? {#creationdatetime}
 
 > `optional` **creationDateTime**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/creationDateTime
 
 ***
 
-### financingRequestDocumentCurrencyCode?
+### financingRequestDocumentCurrencyCode? {#financingrequestdocumentcurrencycode}
 
 > `optional` **financingRequestDocumentCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/financingRequestDocumentCurrencyCode
 
 ***
 
-### firstAgentSpecifiedFinancialInstitution?
+### firstAgentSpecifiedFinancialInstitution? {#firstagentspecifiedfinancialinstitution}
 
 > `optional` **firstAgentSpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/firstAgentSpecifiedFinancialInstitution
 
 ***
 
-### groupId?
+### groupId? {#groupid}
 
 > `optional` **groupId**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/groupId
 
 ***
 
-### groupedTransactionSpecifiedQuantity?
+### groupedTransactionSpecifiedQuantity? {#groupedtransactionspecifiedquantity}
 
 > `optional` **groupedTransactionSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/groupedTransactionSpecifiedQuantity
 
 ***
 
-### groupedTransactionTotalAmount?
+### groupedTransactionTotalAmount? {#groupedtransactiontotalamount}
 
 > `optional` **groupedTransactionTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/groupedTransactionTotalAmount
 
 ***
 
-### intermediarySpecifiedFinancialInstitution?
+### intermediarySpecifiedFinancialInstitution? {#intermediaryspecifiedfinancialinstitution}
 
 > `optional` **intermediarySpecifiedFinancialInstitution**: [`IUneceCreditorFinancialInstitution`](IUneceCreditorFinancialInstitution.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/intermediarySpecifiedFinancialInstitution
 
 ***
 
-### specifiedCancellationStatus?
+### specifiedCancellationStatus? {#specifiedcancellationstatus}
 
 > `optional` **specifiedCancellationStatus**: [`IUneceCancellationStatus`](IUneceCancellationStatus.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/specifiedCancellationStatus
 
 ***
 
-### specifiedRequestingParty?
+### specifiedRequestingParty? {#specifiedrequestingparty}
 
 > `optional` **specifiedRequestingParty**: [`IUneceRequestingParty`](IUneceRequestingParty.md)
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/specifiedRequestingParty
 
 ***
 
-### specifiedValidationStatus?
+### specifiedValidationStatus? {#specifiedvalidationstatus}
 
 > `optional` **specifiedValidationStatus**: [`IUneceValidationStatus`](IUneceValidationStatus.md)
 

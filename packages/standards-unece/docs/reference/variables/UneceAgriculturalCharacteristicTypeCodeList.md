@@ -6,7 +6,7 @@ Values for UneceAgriculturalCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableAgriculturalCharacteristic
+### ApplicableAgriculturalCharacteristic {#applicableagriculturalcharacteristic}
 
 > `readonly` **ApplicableAgriculturalCharacteristic**: `"unece:applicableAgriculturalCharacteristic"` = `"unece:applicableAgriculturalCharacteristic"`
 
@@ -16,7 +16,7 @@ An agricultural characteristic applicable to this agricultural zone area.
 
 https://vocabulary.uncefact.org/applicableAgriculturalCharacteristic
 
-### SpecifiedAgriculturalCharacteristic
+### SpecifiedAgriculturalCharacteristic {#specifiedagriculturalcharacteristic}
 
 > `readonly` **SpecifiedAgriculturalCharacteristic**: `"unece:specifiedAgriculturalCharacteristic"` = `"unece:specifiedAgriculturalCharacteristic"`
 

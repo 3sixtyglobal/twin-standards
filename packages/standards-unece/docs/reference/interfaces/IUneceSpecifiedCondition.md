@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SpecifiedCondition
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedCondition"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actionCode?
+### actionCode? {#actioncode}
 
 > `optional` **actionCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actionCode
 
 ***
 
-### actionDateTime?
+### actionDateTime? {#actiondatetime}
 
 > `optional` **actionDateTime**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/actionDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specifiedMeasurement?
+### specifiedMeasurement? {#specifiedmeasurement}
 
 > `optional` **specifiedMeasurement**: [`IUneceCalibratedMeasurement`](IUneceCalibratedMeasurement.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifiedMeasurement
 
 ***
 
-### statement?
+### statement? {#statement}
 
 > `optional` **statement**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/statement
 
 ***
 
-### statementCode?
+### statementCode? {#statementcode}
 
 > `optional` **statementCode**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/statementCode
 
 ***
 
-### subjectTypeCode?
+### subjectTypeCode? {#subjecttypecode}
 
 > `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/subjectTypeCode
 
 ***
 
-### valueMeasure?
+### valueMeasure? {#valuemeasure}
 
 > `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 

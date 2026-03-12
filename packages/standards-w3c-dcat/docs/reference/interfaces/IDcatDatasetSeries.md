@@ -14,7 +14,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series
 
 ## Properties
 
-### dcat:distribution?
+### dcat:distribution? {#dcatdistribution}
 
 > `optional` **dcat:distribution**: [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md) \| [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)[]
 
@@ -30,7 +30,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution
 
 ***
 
-### dcterms:accrualPeriodicity?
+### dcterms:accrualPeriodicity? {#dctermsaccrualperiodicity}
 
 > `optional` **dcterms:accrualPeriodicity**: `string`
 
@@ -46,7 +46,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency
 
 ***
 
-### dcat:inSeries?
+### dcat:inSeries? {#dcatinseries}
 
 > `optional` **dcat:inSeries**: `string`
 
@@ -62,7 +62,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 ***
 
-### dcterms:spatial?
+### dcterms:spatial? {#dctermsspatial}
 
 > `optional` **dcterms:spatial**: `string` \| `string`[] \| `IJsonLdNodeObject`
 
@@ -78,7 +78,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial
 
 ***
 
-### dcat:spatialResolutionInMeters?
+### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
 
 > `optional` **dcat:spatialResolutionInMeters**: `number`
 
@@ -94,7 +94,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution
 
 ***
 
-### dcterms:temporal?
+### dcterms:temporal? {#dctermstemporal}
 
 > `optional` **dcterms:temporal**: `IDublinCorePeriodOfTime`
 
@@ -110,7 +110,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal
 
 ***
 
-### dcat:temporalResolution?
+### dcat:temporalResolution? {#dcattemporalresolution}
 
 > `optional` **dcat:temporalResolution**: `string`
 
@@ -126,7 +126,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution
 
 ***
 
-### prov:wasGeneratedBy?
+### prov:wasGeneratedBy? {#provwasgeneratedby}
 
 > `optional` **prov:wasGeneratedBy**: `string` \| `IJsonLdNodeObject`
 
@@ -142,7 +142,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"dcat:DatasetSeries"`
 
@@ -154,7 +154,7 @@ The type identifier, typically "DatasetSeries".
 
 ***
 
-### dcat:first?
+### dcat:first? {#dcatfirst}
 
 > `optional` **dcat:first**: `string`
 
@@ -166,7 +166,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_first
 
 ***
 
-### dcat:last?
+### dcat:last? {#dcatlast}
 
 > `optional` **dcat:last**: `string`
 
@@ -178,7 +178,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_last
 
 ***
 
-### dcat:seriesMember?
+### dcat:seriesMember? {#dcatseriesmember}
 
 > `optional` **dcat:seriesMember**: `string` \| `string`[]
 
@@ -190,7 +190,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_member
 
 ***
 
-### dcat:dataset?
+### dcat:dataset? {#dcatdataset}
 
 > `optional` **dcat:dataset**: [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md) \| [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)[]
 
@@ -202,7 +202,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 
 ***
 
-### @context
+### @context {#context}
 
 > **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
 
@@ -214,7 +214,7 @@ The JSON-LD context for the resource.
 
 ***
 
-### @id?
+### @id? {#id}
 
 > `optional` **@id**: `string`
 
@@ -226,7 +226,7 @@ The unique identifier for the resource.
 
 ***
 
-### dcterms:title?
+### dcterms:title? {#dctermstitle}
 
 > `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -242,7 +242,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ***
 
-### dcterms:description?
+### dcterms:description? {#dctermsdescription}
 
 > `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -258,7 +258,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ***
 
-### dcterms:identifier?
+### dcterms:identifier? {#dctermsidentifier}
 
 > `optional` **dcterms:identifier**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -274,7 +274,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 ***
 
-### dcterms:issued?
+### dcterms:issued? {#dctermsissued}
 
 > `optional` **dcterms:issued**: `string`
 
@@ -290,7 +290,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 ***
 
-### dcterms:modified?
+### dcterms:modified? {#dctermsmodified}
 
 > `optional` **dcterms:modified**: `string`
 
@@ -306,7 +306,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ***
 
-### dcterms:language?
+### dcterms:language? {#dctermslanguage}
 
 > `optional` **dcterms:language**: `string` \| `string`[]
 
@@ -322,7 +322,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ***
 
-### dcterms:publisher?
+### dcterms:publisher? {#dctermspublisher}
 
 > `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
 
@@ -338,7 +338,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ***
 
-### dcterms:creator?
+### dcterms:creator? {#dctermscreator}
 
 > `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
 
@@ -354,7 +354,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 ***
 
-### dcterms:accessRights?
+### dcterms:accessRights? {#dctermsaccessrights}
 
 > `optional` **dcterms:accessRights**: `string` \| `IJsonLdNodeObject`
 
@@ -370,7 +370,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 ***
 
-### dcterms:license?
+### dcterms:license? {#dctermslicense}
 
 > `optional` **dcterms:license**: `string` \| `IJsonLdNodeObject`
 
@@ -386,7 +386,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 ***
 
-### dcterms:rights?
+### dcterms:rights? {#dctermsrights}
 
 > `optional` **dcterms:rights**: `string` \| `IJsonLdNodeObject`
 
@@ -402,7 +402,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ***
 
-### dcterms:conformsTo?
+### dcterms:conformsTo? {#dctermsconformsto}
 
 > `optional` **dcterms:conformsTo**: `string` \| `string`[]
 
@@ -418,7 +418,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 ***
 
-### dcterms:type?
+### dcterms:type? {#dctermstype}
 
 > `optional` **dcterms:type**: `string`
 
@@ -434,7 +434,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 ***
 
-### dcat:contactPoint?
+### dcat:contactPoint? {#dcatcontactpoint}
 
 > `optional` **dcat:contactPoint**: `string` \| `IJsonLdNodeObject`
 
@@ -450,7 +450,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ***
 
-### dcat:keyword?
+### dcat:keyword? {#dcatkeyword}
 
 > `optional` **dcat:keyword**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
 
@@ -466,7 +466,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ***
 
-### dcat:theme?
+### dcat:theme? {#dcattheme}
 
 > `optional` **dcat:theme**: `string` \| `string`[]
 
@@ -482,7 +482,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ***
 
-### dcat:landingPage?
+### dcat:landingPage? {#dcatlandingpage}
 
 > `optional` **dcat:landingPage**: `string` \| `string`[]
 
@@ -498,7 +498,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 ***
 
-### dcat:qualifiedRelation?
+### dcat:qualifiedRelation? {#dcatqualifiedrelation}
 
 > `optional` **dcat:qualifiedRelation**: `string` \| [`IDcatRelationship`](IDcatRelationship.md)
 
@@ -514,7 +514,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 ***
 
-### odrl:hasPolicy?
+### odrl:hasPolicy? {#odrlhaspolicy}
 
 > `optional` **odrl:hasPolicy**: `IOdrlPolicy`
 

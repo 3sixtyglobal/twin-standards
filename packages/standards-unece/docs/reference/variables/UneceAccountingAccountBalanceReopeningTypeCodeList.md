@@ -6,31 +6,31 @@ A character string used to represent the type of accounting account balance reop
 
 ## Type Declaration
 
-### BalanceCarriedOver
+### BalanceCarriedOver {#balancecarriedover}
 
 > `readonly` **BalanceCarriedOver**: `"unece:AccountingAccountBalanceReopeningTypeCodeList#1"` = `"unece:AccountingAccountBalanceReopeningTypeCodeList#1"`
 
 Balance carried over: 1.
 
-### ReopeningDebitAndCreditTotalAmountsOfNotMatchedEntriesOnly
+### ReopeningDebitAndCreditTotalAmountsOfNotMatchedEntriesOnly {#reopeningdebitandcredittotalamountsofnotmatchedentriesonly}
 
 > `readonly` **ReopeningDebitAndCreditTotalAmountsOfNotMatchedEntriesOnly**: `"unece:AccountingAccountBalanceReopeningTypeCodeList#2"` = `"unece:AccountingAccountBalanceReopeningTypeCodeList#2"`
 
 Reopening debit and credit total amounts of not matched entries only: 2.
 
-### ReopeningDetailedOfNotMatchedEntriesOnly
+### ReopeningDetailedOfNotMatchedEntriesOnly {#reopeningdetailedofnotmatchedentriesonly}
 
 > `readonly` **ReopeningDetailedOfNotMatchedEntriesOnly**: `"unece:AccountingAccountBalanceReopeningTypeCodeList#3"` = `"unece:AccountingAccountBalanceReopeningTypeCodeList#3"`
 
 Reopening detailed of not matched entries only: 3.
 
-### ReopeningDebitAndCreditTotalAmounts
+### ReopeningDebitAndCreditTotalAmounts {#reopeningdebitandcredittotalamounts}
 
 > `readonly` **ReopeningDebitAndCreditTotalAmounts**: `"unece:AccountingAccountBalanceReopeningTypeCodeList#4"` = `"unece:AccountingAccountBalanceReopeningTypeCodeList#4"`
 
 Reopening debit and credit total amounts: 4.
 
-### NoBalanceReopening
+### NoBalanceReopening {#nobalancereopening}
 
 > `readonly` **NoBalanceReopening**: `"unece:AccountingAccountBalanceReopeningTypeCodeList#5"` = `"unece:AccountingAccountBalanceReopeningTypeCodeList#5"`
 

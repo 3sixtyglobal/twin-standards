@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/SubordinateLineTradeDelivery
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SubordinateLineTradeDelivery"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualDeliveryEvent?
+### actualDeliveryEvent? {#actualdeliveryevent}
 
 > `optional` **actualDeliveryEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualDeliveryEvent
 
 ***
 
-### billedQuantity?
+### billedQuantity? {#billedquantity}
 
 > `optional` **billedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/billedQuantity
 
 ***
 
-### includedPackaging?
+### includedPackaging? {#includedpackaging}
 
 > `optional` **includedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/includedPackaging
 
 ***
 
-### packageQuantity?
+### packageQuantity? {#packagequantity}
 
 > `optional` **packageQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/packageQuantity
 
 ***
 
-### perPackageUnitQuantity?
+### perPackageUnitQuantity? {#perpackageunitquantity}
 
 > `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/perPackageUnitQuantity
 
 ***
 
-### productUnitQuantity?
+### productUnitQuantity? {#productunitquantity}
 
 > `optional` **productUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 

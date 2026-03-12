@@ -6,7 +6,7 @@ Values for UneceLegalRegistration typeCode property.
 
 ## Type Declaration
 
-### AuthorizedRegistration
+### AuthorizedRegistration {#authorizedregistration}
 
 > `readonly` **AuthorizedRegistration**: `"unece:authorizedRegistration"` = `"unece:authorizedRegistration"`
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/CountrySubDivision
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CountrySubDivision"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### activityAuthorizedParty?
+### activityAuthorizedParty? {#activityauthorizedparty}
 
 > `optional` **activityAuthorizedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/activityAuthorizedParty
 
 ***
 
-### hierarchicalLevelCode?
+### hierarchicalLevelCode? {#hierarchicallevelcode}
 
 > `optional` **hierarchicalLevelCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/hierarchicalLevelCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### locationFunctionTypeCode?
+### locationFunctionTypeCode? {#locationfunctiontypecode}
 
 > `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### subordinateCountrySubDivision?
+### subordinateCountrySubDivision? {#subordinatecountrysubdivision}
 
 > `optional` **subordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/subordinateCountrySubDivision
 
 ***
 
-### superordinateCountrySubDivision?
+### superordinateCountrySubDivision? {#superordinatecountrysubdivision}
 
 > `optional` **superordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/superordinateCountrySubDivision
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

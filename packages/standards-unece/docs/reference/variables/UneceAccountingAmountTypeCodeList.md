@@ -6,37 +6,37 @@ A character string used to represent the type of accounting amount.
 
 ## Type Declaration
 
-### AllowanceChargeAmount
+### AllowanceChargeAmount {#allowancechargeamount}
 
 > `readonly` **AllowanceChargeAmount**: `"unece:AccountingAmountTypeCodeList#1"` = `"unece:AccountingAmountTypeCodeList#1"`
 
 Allowance Charge Amount: 1.
 
-### InsuranceChargeAmount
+### InsuranceChargeAmount {#insurancechargeamount}
 
 > `readonly` **InsuranceChargeAmount**: `"unece:AccountingAmountTypeCodeList#2"` = `"unece:AccountingAmountTypeCodeList#2"`
 
 Insurance Charge Amount: 2.
 
-### TaxableTransportChargeAmount
+### TaxableTransportChargeAmount {#taxabletransportchargeamount}
 
 > `readonly` **TaxableTransportChargeAmount**: `"unece:AccountingAmountTypeCodeList#3"` = `"unece:AccountingAmountTypeCodeList#3"`
 
 Taxable Transport Charge Amount: 3.
 
-### AdjustmentAmount
+### AdjustmentAmount {#adjustmentamount}
 
 > `readonly` **AdjustmentAmount**: `"unece:AccountingAmountTypeCodeList#4"` = `"unece:AccountingAmountTypeCodeList#4"`
 
 Adjustment Amount: 4.
 
-### TaxableAmount
+### TaxableAmount {#taxableamount}
 
 > `readonly` **TaxableAmount**: `"unece:AccountingAmountTypeCodeList#5"` = `"unece:AccountingAmountTypeCodeList#5"`
 
 Taxable Amount: 5.
 
-### TaxAmount
+### TaxAmount {#taxamount}
 
 > `readonly` **TaxAmount**: `"unece:AccountingAmountTypeCodeList#6"` = `"unece:AccountingAmountTypeCodeList#6"`
 

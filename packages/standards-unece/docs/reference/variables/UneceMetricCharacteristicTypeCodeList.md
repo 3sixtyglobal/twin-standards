@@ -6,7 +6,7 @@ Values for UneceMetricCharacteristic typeCode property.
 
 ## Type Declaration
 
-### ApplicableMetricCharacteristic
+### ApplicableMetricCharacteristic {#applicablemetriccharacteristic}
 
 > `readonly` **ApplicableMetricCharacteristic**: `"unece:applicableMetricCharacteristic"` = `"unece:applicableMetricCharacteristic"`
 
@@ -16,7 +16,7 @@ A metric characteristic applicable to this referenced standard.
 
 https://vocabulary.uncefact.org/applicableMetricCharacteristic
 
-### MaximumSpecifiedCharacteristic
+### MaximumSpecifiedCharacteristic {#maximumspecifiedcharacteristic}
 
 > `readonly` **MaximumSpecifiedCharacteristic**: `"unece:maximumSpecifiedCharacteristic"` = `"unece:maximumSpecifiedCharacteristic"`
 
@@ -26,7 +26,7 @@ The maximum metric characteristic specified for this target issue.
 
 https://vocabulary.uncefact.org/maximumSpecifiedCharacteristic
 
-### MinimumSpecifiedCharacteristic
+### MinimumSpecifiedCharacteristic {#minimumspecifiedcharacteristic}
 
 > `readonly` **MinimumSpecifiedCharacteristic**: `"unece:minimumSpecifiedCharacteristic"` = `"unece:minimumSpecifiedCharacteristic"`
 
@@ -36,7 +36,7 @@ The minimum metric characteristic specified for this target issue.
 
 https://vocabulary.uncefact.org/minimumSpecifiedCharacteristic
 
-### SpecifiedMetricCharacteristic
+### SpecifiedMetricCharacteristic {#specifiedmetriccharacteristic}
 
 > `readonly` **SpecifiedMetricCharacteristic**: `"unece:specifiedMetricCharacteristic"` = `"unece:specifiedMetricCharacteristic"`
 

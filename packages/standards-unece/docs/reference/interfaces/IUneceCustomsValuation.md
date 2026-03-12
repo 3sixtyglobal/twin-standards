@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CustomsValuation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CustomsValuation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### addedAdjustmentAmount?
+### addedAdjustmentAmount? {#addedadjustmentamount}
 
 > `optional` **addedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/addedAdjustmentAmount
 
 ***
 
-### addedAdjustmentPercent?
+### addedAdjustmentPercent? {#addedadjustmentpercent}
 
 > `optional` **addedAdjustmentPercent**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/addedAdjustmentPercent
 
 ***
 
-### applicableCurrencyExchange?
+### applicableCurrencyExchange? {#applicablecurrencyexchange}
 
 > `optional` **applicableCurrencyExchange**: [`IUneceCurrencyExchange`](IUneceCurrencyExchange.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableCurrencyExchange
 
 ***
 
-### buyerSellerRelationshipIndicator?
+### buyerSellerRelationshipIndicator? {#buyersellerrelationshipindicator}
 
 > `optional` **buyerSellerRelationshipIndicator**: `boolean`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/buyerSellerRelationshipIndicator
 
 ***
 
-### buyerSellerRelationshipPriceInfluenceIndicator?
+### buyerSellerRelationshipPriceInfluenceIndicator? {#buyersellerrelationshippriceinfluenceindicator}
 
 > `optional` **buyerSellerRelationshipPriceInfluenceIndicator**: `boolean`
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/buyerSellerRelationshipPriceInfluenceIndicator
 
 ***
 
-### chargeApportionMethodCode?
+### chargeApportionMethodCode? {#chargeapportionmethodcode}
 
 > `optional` **chargeApportionMethodCode**: `string`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/chargeApportionMethodCode
 
 ***
 
-### deductedAdjustmentAmount?
+### deductedAdjustmentAmount? {#deductedadjustmentamount}
 
 > `optional` **deductedAdjustmentAmount**: [`IUneceAmountType`](IUneceAmountType.md)
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/deductedAdjustmentAmount
 
 ***
 
-### deductedAdjustmentPercent?
+### deductedAdjustmentPercent? {#deductedadjustmentpercent}
 
 > `optional` **deductedAdjustmentPercent**: `string`
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/deductedAdjustmentPercent
 
 ***
 
-### methodCode?
+### methodCode? {#methodcode}
 
 > `optional` **methodCode**: `string`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/methodCode
 
 ***
 
-### otherChargeAmount?
+### otherChargeAmount? {#otherchargeamount}
 
 > `optional` **otherChargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/otherChargeAmount
 
 ***
 
-### royaltyLicenseFeeIndicator?
+### royaltyLicenseFeeIndicator? {#royaltylicensefeeindicator}
 
 > `optional` **royaltyLicenseFeeIndicator**: `boolean`
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/royaltyLicenseFeeIndicator
 
 ***
 
-### salePriceConditionIndicator?
+### salePriceConditionIndicator? {#salepriceconditionindicator}
 
 > `optional` **salePriceConditionIndicator**: `boolean`
 
@@ -173,7 +173,7 @@ https://vocabulary.uncefact.org/salePriceConditionIndicator
 
 ***
 
-### saleRestriction?
+### saleRestriction? {#salerestriction}
 
 > `optional` **saleRestriction**: `string`
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/saleRestriction
 
 ***
 
-### saleRestrictionIndicator?
+### saleRestrictionIndicator? {#salerestrictionindicator}
 
 > `optional` **saleRestrictionIndicator**: `boolean`
 
@@ -198,7 +198,7 @@ https://vocabulary.uncefact.org/saleRestrictionIndicator
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### wTOAdditionCode?
+### wTOAdditionCode? {#wtoadditioncode}
 
 > `optional` **wTOAdditionCode**: `string`
 

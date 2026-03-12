@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DirectPosition
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DirectPosition"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### axisLabelList?
+### axisLabelList? {#axislabellist}
 
 > `optional` **axisLabelList**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/axisLabelList
 
 ***
 
-### coordinateReferenceDimension?
+### coordinateReferenceDimension? {#coordinatereferencedimension}
 
 > `optional` **coordinateReferenceDimension**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/coordinateReferenceDimension
 
 ***
 
-### countNumeric?
+### countNumeric? {#countnumeric}
 
 > `optional` **countNumeric**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/countNumeric
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### uOMLabelList?
+### uOMLabelList? {#uomlabellist}
 
 > `optional` **uOMLabelList**: `string`
 

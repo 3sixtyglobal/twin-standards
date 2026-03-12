@@ -14,7 +14,7 @@ Data Type registration for FOAF
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -26,7 +26,7 @@ Register redirects for FOAF namespace to enable offline JSON-LD processing.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

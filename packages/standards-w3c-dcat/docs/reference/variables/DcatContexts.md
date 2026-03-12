@@ -6,13 +6,13 @@ DCAT (Data Catalog Vocabulary) namespace contexts.
 
 ## Type Declaration
 
-### Namespace
+### Namespace {#namespace}
 
 > `readonly` **Namespace**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
 
 The canonical RDF namespace URI.
 
-### Context
+### Context {#context}
 
 > `readonly` **Context**: `"http://www.w3.org/ns/dcat#"` = `"http://www.w3.org/ns/dcat#"`
 
@@ -20,19 +20,19 @@ The value to use in @context.
 Note: Context matches Namespace (both include trailing hash) as per DCAT 3.0 specification.
 The DCAT JSON-LD context URL format includes a trailing hash.
 
-### JsonLdContext
+### JsonLdContext {#jsonldcontext}
 
 > `readonly` **JsonLdContext**: `"https://www.w3.org/ns/dcat.jsonld"` = `"https://www.w3.org/ns/dcat.jsonld"`
 
 The JSON-LD Context URL.
 
-### JsonSchemaNamespace
+### JsonSchemaNamespace {#jsonschemanamespace}
 
 > `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-dcat/"` = `"https://schema.twindev.org/w3c-dcat/"`
 
 The namespace location of the hosted version of the JSON Schema.
 
-### NamespaceRdf
+### NamespaceRdf {#namespacerdf}
 
 > `readonly` **NamespaceRdf**: `"http://www.w3.org/2000/01/rdf-schema#"` = `"http://www.w3.org/2000/01/rdf-schema#"`
 
@@ -42,7 +42,7 @@ The namespace for RDF vocabulary.
 
 https://www.w3.org/TR/rdf-schema/
 
-### JsonLdContextRdf
+### JsonLdContextRdf {#jsonldcontextrdf}
 
 > `readonly` **JsonLdContextRdf**: `"https://schema.twindev.org/w3c-rdf/types.jsonld"` = `"https://schema.twindev.org/w3c-rdf/types.jsonld"`
 

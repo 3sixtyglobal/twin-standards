@@ -6,7 +6,7 @@ Values for UneceCropProtectionTreatment typeCode property.
 
 ## Type Declaration
 
-### AppliedCropProtectionTreatment
+### AppliedCropProtectionTreatment {#appliedcropprotectiontreatment}
 
 > `readonly` **AppliedCropProtectionTreatment**: `"unece:appliedCropProtectionTreatment"` = `"unece:appliedCropProtectionTreatment"`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/RepresentativePerson
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"RepresentativePerson"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### birthDateTime?
+### birthDateTime? {#birthdatetime}
 
 > `optional` **birthDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/birthDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### nationalityCountry?
+### nationalityCountry? {#nationalitycountry}
 
 > `optional` **nationalityCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/nationalityCountry
 
 ***
 
-### representativePersonName?
+### representativePersonName? {#representativepersonname}
 
 > `optional` **representativePersonName**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/representativePersonName
 
 ***
 
-### role?
+### role? {#role}
 
 > `optional` **role**: `string`
 

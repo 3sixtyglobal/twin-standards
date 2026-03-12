@@ -6,61 +6,61 @@ A character string used to represent a transport mode.
 
 ## Type Declaration
 
-### TransportModeNotSpecified
+### TransportModeNotSpecified {#transportmodenotspecified}
 
 > `readonly` **TransportModeNotSpecified**: `"unece:TransportModeCodeList#0"` = `"unece:TransportModeCodeList#0"`
 
 Transport mode not specified: 0.
 
-### MaritimeTransport
+### MaritimeTransport {#maritimetransport}
 
 > `readonly` **MaritimeTransport**: `"unece:TransportModeCodeList#1"` = `"unece:TransportModeCodeList#1"`
 
 Maritime transport: 1.
 
-### RailTransport
+### RailTransport {#railtransport}
 
 > `readonly` **RailTransport**: `"unece:TransportModeCodeList#2"` = `"unece:TransportModeCodeList#2"`
 
 Rail transport: 2.
 
-### RoadTransport
+### RoadTransport {#roadtransport}
 
 > `readonly` **RoadTransport**: `"unece:TransportModeCodeList#3"` = `"unece:TransportModeCodeList#3"`
 
 Road transport: 3.
 
-### AirTransport
+### AirTransport {#airtransport}
 
 > `readonly` **AirTransport**: `"unece:TransportModeCodeList#4"` = `"unece:TransportModeCodeList#4"`
 
 Air transport: 4.
 
-### Mail
+### Mail {#mail}
 
 > `readonly` **Mail**: `"unece:TransportModeCodeList#5"` = `"unece:TransportModeCodeList#5"`
 
 Mail: 5.
 
-### MultimodalTransport
+### MultimodalTransport {#multimodaltransport}
 
 > `readonly` **MultimodalTransport**: `"unece:TransportModeCodeList#6"` = `"unece:TransportModeCodeList#6"`
 
 Multimodal transport: 6.
 
-### FixedTransportInstallations
+### FixedTransportInstallations {#fixedtransportinstallations}
 
 > `readonly` **FixedTransportInstallations**: `"unece:TransportModeCodeList#7"` = `"unece:TransportModeCodeList#7"`
 
 Fixed transport installations: 7.
 
-### InlandWaterTransport
+### InlandWaterTransport {#inlandwatertransport}
 
 > `readonly` **InlandWaterTransport**: `"unece:TransportModeCodeList#8"` = `"unece:TransportModeCodeList#8"`
 
 Inland water transport: 8.
 
-### TransportModeNotApplicable
+### TransportModeNotApplicable {#transportmodenotapplicable}
 
 > `readonly` **TransportModeNotApplicable**: `"unece:TransportModeCodeList#9"` = `"unece:TransportModeCodeList#9"`
 

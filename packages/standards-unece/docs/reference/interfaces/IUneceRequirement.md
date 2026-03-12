@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Requirement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Requirement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### rule?
+### rule? {#rule}
 
 > `optional` **rule**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/rule
 
 ***
 
-### specifiedPaymentTradeSettlement?
+### specifiedPaymentTradeSettlement? {#specifiedpaymenttradesettlement}
 
 > `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 
 ***
 
-### specifyingParty?
+### specifyingParty? {#specifyingparty}
 
 > `optional` **specifyingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/specifyingParty
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

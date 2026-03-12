@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Assertion
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Assertion"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### descriptionCode?
+### descriptionCode? {#descriptioncode}
 
 > `optional` **descriptionCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/descriptionCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedCharacteristic?
+### includedCharacteristic? {#includedcharacteristic}
 
 > `optional` **includedCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/includedCharacteristic
 
 ***
 
-### issuingPartyId?
+### issuingPartyId? {#issuingpartyid}
 
 > `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/issuingPartyId
 
 ***
 
-### relatedPolicy?
+### relatedPolicy? {#relatedpolicy}
 
 > `optional` **relatedPolicy**: [`IUnecePolicy`](IUnecePolicy.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/relatedPolicy
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 

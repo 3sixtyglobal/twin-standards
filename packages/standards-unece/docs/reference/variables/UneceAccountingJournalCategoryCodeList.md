@@ -6,67 +6,67 @@ A character string used to represent the type of an accounting journal category.
 
 ## Type Declaration
 
-### Bank
+### Bank {#bank}
 
 > `readonly` **Bank**: `"unece:AccountingJournalCategoryCodeList#1"` = `"unece:AccountingJournalCategoryCodeList#1"`
 
 Bank: 1.
 
-### Amortization
+### Amortization {#amortization}
 
 > `readonly` **Amortization**: `"unece:AccountingJournalCategoryCodeList#10"` = `"unece:AccountingJournalCategoryCodeList#10"`
 
 Amortization: 10.
 
-### Depreciation
+### Depreciation {#depreciation}
 
 > `readonly` **Depreciation**: `"unece:AccountingJournalCategoryCodeList#11"` = `"unece:AccountingJournalCategoryCodeList#11"`
 
 Depreciation: 11.
 
-### Cash
+### Cash {#cash}
 
 > `readonly` **Cash**: `"unece:AccountingJournalCategoryCodeList#2"` = `"unece:AccountingJournalCategoryCodeList#2"`
 
 Cash: 2.
 
-### Others
+### Others {#others}
 
 > `readonly` **Others**: `"unece:AccountingJournalCategoryCodeList#3"` = `"unece:AccountingJournalCategoryCodeList#3"`
 
 Others: 3.
 
-### Purchase
+### Purchase {#purchase}
 
 > `readonly` **Purchase**: `"unece:AccountingJournalCategoryCodeList#4"` = `"unece:AccountingJournalCategoryCodeList#4"`
 
 Purchase: 4.
 
-### Sales
+### Sales {#sales}
 
 > `readonly` **Sales**: `"unece:AccountingJournalCategoryCodeList#5"` = `"unece:AccountingJournalCategoryCodeList#5"`
 
 Sales: 5.
 
-### BankChequesRemit
+### BankChequesRemit {#bankchequesremit}
 
 > `readonly` **BankChequesRemit**: `"unece:AccountingJournalCategoryCodeList#6"` = `"unece:AccountingJournalCategoryCodeList#6"`
 
 Bank cheques remit: 6.
 
-### Miscellaneous
+### Miscellaneous {#miscellaneous}
 
 > `readonly` **Miscellaneous**: `"unece:AccountingJournalCategoryCodeList#7"` = `"unece:AccountingJournalCategoryCodeList#7"`
 
 Miscellaneous: 7.
 
-### Payroll
+### Payroll {#payroll}
 
 > `readonly` **Payroll**: `"unece:AccountingJournalCategoryCodeList#8"` = `"unece:AccountingJournalCategoryCodeList#8"`
 
 Payroll: 8.
 
-### Investments
+### Investments {#investments}
 
 > `readonly` **Investments**: `"unece:AccountingJournalCategoryCodeList#9"` = `"unece:AccountingJournalCategoryCodeList#9"`
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Package
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -18,7 +18,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Package"`
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ***
 
-### additionalLevelCode?
+### additionalLevelCode? {#additionallevelcode}
 
 > `optional` **additionalLevelCode**: `string`
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/additionalLevelCode
 
 ***
 
-### associatedDocument?
+### associatedDocument? {#associateddocument}
 
 > `optional` **associatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedDocument
 
 ***
 
-### colourCode?
+### colourCode? {#colourcode}
 
 > `optional` **colourCode**: `string`
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/colourCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### despatchNoteAssociatedDocument?
+### despatchNoteAssociatedDocument? {#despatchnoteassociateddocument}
 
 > `optional` **despatchNoteAssociatedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/despatchNoteAssociatedDocument
 
 ***
 
-### globalId?
+### globalId? {#globalid}
 
 > `optional` **globalId**: `string` \| `IJsonLdValueObject`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/globalId
 
 ***
 
-### grossVolumeMeasure?
+### grossVolumeMeasure? {#grossvolumemeasure}
 
 > `optional` **grossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/grossVolumeMeasure
 
 ***
 
-### grossWeightMeasure?
+### grossWeightMeasure? {#grossweightmeasure}
 
 > `optional` **grossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/grossWeightMeasure
 
 ***
 
-### hierarchicalLevelId?
+### hierarchicalLevelId? {#hierarchicallevelid}
 
 > `optional` **hierarchicalLevelId**: `string` \| `IJsonLdValueObject`
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/hierarchicalLevelId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedSupplyChainTradeLineItem?
+### includedSupplyChainTradeLineItem? {#includedsupplychaintradelineitem}
 
 > `optional` **includedSupplyChainTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 
 ***
 
-### information?
+### information? {#information}
 
 > `optional` **information**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/information
 
 ***
 
-### itemQuantity?
+### itemQuantity? {#itemquantity}
 
 > `optional` **itemQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/itemQuantity
 
 ***
 
-### linearDimension?
+### linearDimension? {#lineardimension}
 
 > `optional` **linearDimension**: [`IUneceSpatialDimension`](IUneceSpatialDimension.md)
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/linearDimension
 
 ***
 
-### logisticsPackageAdditionalLevelCode?
+### logisticsPackageAdditionalLevelCode? {#logisticspackageadditionallevelcode}
 
 > `optional` **logisticsPackageAdditionalLevelCode**: `string`
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/logisticsPackageAdditionalLevelCode
 
 ***
 
-### netVolumeMeasure?
+### netVolumeMeasure? {#netvolumemeasure}
 
 > `optional` **netVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/netVolumeMeasure
 
 ***
 
-### netWeightMeasure?
+### netWeightMeasure? {#netweightmeasure}
 
 > `optional` **netWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/netWeightMeasure
 
 ***
 
-### nominalGrossVolumeMeasure?
+### nominalGrossVolumeMeasure? {#nominalgrossvolumemeasure}
 
 > `optional` **nominalGrossVolumeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/nominalGrossVolumeMeasure
 
 ***
 
-### nominalGrossWeightMeasure?
+### nominalGrossWeightMeasure? {#nominalgrossweightmeasure}
 
 > `optional` **nominalGrossWeightMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/nominalGrossWeightMeasure
 
 ***
 
-### packageType?
+### packageType? {#packagetype}
 
 > `optional` **packageType**: `string`
 
@@ -266,7 +266,7 @@ https://vocabulary.uncefact.org/packageType
 
 ***
 
-### packageTypeCode?
+### packageTypeCode? {#packagetypecode}
 
 > `optional` **packageTypeCode**: [`UnecePackageTypeCodeList`](../type-aliases/UnecePackageTypeCodeList.md)[]
 
@@ -278,7 +278,7 @@ https://vocabulary.uncefact.org/packageTypeCode
 
 ***
 
-### packagingLevelCode?
+### packagingLevelCode? {#packaginglevelcode}
 
 > `optional` **packagingLevelCode**: [`UnecePackagingLevelCodeList`](../type-aliases/UnecePackagingLevelCodeList.md)
 
@@ -290,7 +290,7 @@ https://vocabulary.uncefact.org/packagingLevelCode
 
 ***
 
-### parentId?
+### parentId? {#parentid}
 
 > `optional` **parentId**: `string` \| `IJsonLdValueObject`
 
@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/parentId
 
 ***
 
-### perPackageUnitQuantity?
+### perPackageUnitQuantity? {#perpackageunitquantity}
 
 > `optional` **perPackageUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -314,7 +314,7 @@ https://vocabulary.uncefact.org/perPackageUnitQuantity
 
 ***
 
-### physicalShippingMarks?
+### physicalShippingMarks? {#physicalshippingmarks}
 
 > `optional` **physicalShippingMarks**: [`IUneceShippingMarks`](IUneceShippingMarks.md)[]
 
@@ -326,7 +326,7 @@ https://vocabulary.uncefact.org/physicalShippingMarks
 
 ***
 
-### returnableIndicator?
+### returnableIndicator? {#returnableindicator}
 
 > `optional` **returnableIndicator**: `boolean`
 
@@ -338,7 +338,7 @@ https://vocabulary.uncefact.org/returnableIndicator
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -350,7 +350,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### seriesEndId?
+### seriesEndId? {#seriesendid}
 
 > `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ***
 
-### seriesStartId?
+### seriesStartId? {#seriesstartid}
 
 > `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
@@ -374,7 +374,7 @@ https://vocabulary.uncefact.org/seriesStartId
 
 ***
 
-### specifiedLineTradeDelivery?
+### specifiedLineTradeDelivery? {#specifiedlinetradedelivery}
 
 > `optional` **specifiedLineTradeDelivery**: [`IUneceLineTradeDelivery`](IUneceLineTradeDelivery.md)
 
@@ -386,7 +386,7 @@ https://vocabulary.uncefact.org/specifiedLineTradeDelivery
 
 ***
 
-### statedCondition?
+### statedCondition? {#statedcondition}
 
 > `optional` **statedCondition**: [`IUneceSpecifiedCondition`](IUneceSpecifiedCondition.md)[]
 
@@ -398,7 +398,7 @@ https://vocabulary.uncefact.org/statedCondition
 
 ***
 
-### usedPackaging?
+### usedPackaging? {#usedpackaging}
 
 > `optional` **usedPackaging**: [`IUneceSupplyChainPackaging`](IUneceSupplyChainPackaging.md)[]
 
@@ -410,7 +410,7 @@ https://vocabulary.uncefact.org/usedPackaging
 
 ***
 
-### volumeUnitGrossVolumeMeasure?
+### volumeUnitGrossVolumeMeasure? {#volumeunitgrossvolumemeasure}
 
 > `optional` **volumeUnitGrossVolumeMeasure**: [`IUneceVolumeUnitMeasureType`](IUneceVolumeUnitMeasureType.md)
 
@@ -422,7 +422,7 @@ https://vocabulary.uncefact.org/volumeUnitGrossVolumeMeasure
 
 ***
 
-### weightUnitGrossWeightMeasure?
+### weightUnitGrossWeightMeasure? {#weightunitgrossweightmeasure}
 
 > `optional` **weightUnitGrossWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -434,7 +434,7 @@ https://vocabulary.uncefact.org/weightUnitGrossWeightMeasure
 
 ***
 
-### weightUnitNetWeightMeasure?
+### weightUnitNetWeightMeasure? {#weightunitnetweightmeasure}
 
 > `optional` **weightUnitNetWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
@@ -446,7 +446,7 @@ https://vocabulary.uncefact.org/weightUnitNetWeightMeasure
 
 ***
 
-### weightUnitTareWeightMeasure?
+### weightUnitTareWeightMeasure? {#weightunittareweightmeasure}
 
 > `optional` **weightUnitTareWeightMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 

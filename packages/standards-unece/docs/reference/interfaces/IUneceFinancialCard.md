@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/FinancialCard
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"FinancialCard"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableIndicator?
+### applicableIndicator? {#applicableindicator}
 
 > `optional` **applicableIndicator**: `boolean`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ***
 
-### cardholderName?
+### cardholderName? {#cardholdername}
 
 > `optional` **cardholderName**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/cardholderName
 
 ***
 
-### creditAvailableAmount?
+### creditAvailableAmount? {#creditavailableamount}
 
 > `optional` **creditAvailableAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/creditAvailableAmount
 
 ***
 
-### creditLimitAmount?
+### creditLimitAmount? {#creditlimitamount}
 
 > `optional` **creditLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/creditLimitAmount
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### expiryDate?
+### expiryDate? {#expirydate}
 
 > `optional` **expiryDate**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/expiryDate
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### interestRatePercent?
+### interestRatePercent? {#interestratepercent}
 
 > `optional` **interestRatePercent**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/interestRatePercent
 
 ***
 
-### issuingCompanyName?
+### issuingCompanyName? {#issuingcompanyname}
 
 > `optional` **issuingCompanyName**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/issuingCompanyName
 
 ***
 
-### microchipIndicator?
+### microchipIndicator? {#microchipindicator}
 
 > `optional` **microchipIndicator**: `boolean`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/microchipIndicator
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### validFromDateTime?
+### validFromDateTime? {#validfromdatetime}
 
 > `optional` **validFromDateTime**: `string`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/validFromDateTime
 
 ***
 
-### verificationNumeric?
+### verificationNumeric? {#verificationnumeric}
 
 > `optional` **verificationNumeric**: `string`
 

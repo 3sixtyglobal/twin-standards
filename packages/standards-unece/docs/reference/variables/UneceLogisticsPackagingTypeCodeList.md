@@ -6,7 +6,7 @@ Values for UneceLogisticsPackaging typeCode property.
 
 ## Type Declaration
 
-### ApplicableLogisticsPackaging
+### ApplicableLogisticsPackaging {#applicablelogisticspackaging}
 
 > `readonly` **ApplicableLogisticsPackaging**: `"unece:applicableLogisticsPackaging"` = `"unece:applicableLogisticsPackaging"`
 

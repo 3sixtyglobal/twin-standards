@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#erro
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ The JSON-LD context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"CatalogError"`
 
@@ -21,7 +21,7 @@ The type of the message.
 
 ***
 
-### code
+### code {#code}
 
 > **code**: `string`
 
@@ -29,7 +29,7 @@ The error code.
 
 ***
 
-### reason?
+### reason? {#reason}
 
 > `optional` **reason**: `any`[]
 

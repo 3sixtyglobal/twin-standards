@@ -6,7 +6,7 @@ Values for UneceSupplyChainTradeLineItem typeCode property.
 
 ## Type Declaration
 
-### IncludedSupplyChainTradeLineItem
+### IncludedSupplyChainTradeLineItem {#includedsupplychaintradelineitem}
 
 > `readonly` **IncludedSupplyChainTradeLineItem**: `"unece:includedSupplyChainTradeLineItem"` = `"unece:includedSupplyChainTradeLineItem"`
 
@@ -20,7 +20,7 @@ A trade line item included in this supply chain trade transaction.
 
 https://vocabulary.uncefact.org/includedSupplyChainTradeLineItem
 
-### SpecifiedTradeLineItem
+### SpecifiedTradeLineItem {#specifiedtradelineitem}
 
 > `readonly` **SpecifiedTradeLineItem**: `"unece:specifiedTradeLineItem"` = `"unece:specifiedTradeLineItem"`
 

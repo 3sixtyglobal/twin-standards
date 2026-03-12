@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductLabel
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductLabel"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### attachmentDateTime?
+### attachmentDateTime? {#attachmentdatetime}
 
 > `optional` **attachmentDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/attachmentDateTime
 
 ***
 
-### barcodeId?
+### barcodeId? {#barcodeid}
 
 > `optional` **barcodeId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/barcodeId
 
 ***
 
-### brandName?
+### brandName? {#brandname}
 
 > `optional` **brandName**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/brandName
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### includedAssertion?
+### includedAssertion? {#includedassertion}
 
 > `optional` **includedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/includedAssertion
 
 ***
 
-### layoutTypeCode?
+### layoutTypeCode? {#layouttypecode}
 
 > `optional` **layoutTypeCode**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/layoutTypeCode
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### seriesEndId?
+### seriesEndId? {#seriesendid}
 
 > `optional` **seriesEndId**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/seriesEndId
 
 ***
 
-### seriesStartId?
+### seriesStartId? {#seriesstartid}
 
 > `optional` **seriesStartId**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/seriesStartId
 
 ***
 
-### sizeCode?
+### sizeCode? {#sizecode}
 
 > `optional` **sizeCode**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/sizeCode
 
 ***
 
-### tagTypeCode?
+### tagTypeCode? {#tagtypecode}
 
 > `optional` **tagTypeCode**: `string`
 

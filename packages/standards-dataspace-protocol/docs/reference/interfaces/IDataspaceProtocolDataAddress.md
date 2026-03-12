@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level
 
 ## Properties
 
-### @type
+### @type {#type}
 
 > **@type**: `"DataAddress"`
 
@@ -13,7 +13,7 @@ LD Type
 
 ***
 
-### endpointType
+### endpointType {#endpointtype}
 
 > **endpointType**: `string`
 
@@ -21,7 +21,7 @@ The type of endpoint of this data address.
 
 ***
 
-### endpoint?
+### endpoint? {#endpoint}
 
 > `optional` **endpoint**: `string`
 
@@ -29,7 +29,7 @@ The endpoint of the data address
 
 ***
 
-### endpointProperties?
+### endpointProperties? {#endpointproperties}
 
 > `optional` **endpointProperties**: [`IDataspaceProtocolEndpointProperty`](IDataspaceProtocolEndpointProperty.md)[]
 

@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Assessment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Assessment"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### assessedObject?
+### assessedObject? {#assessedobject}
 
 > `optional` **assessedObject**: [`IUneceObject`](IUneceObject.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/assessedObject
 
 ***
 
-### assessorParty?
+### assessorParty? {#assessorparty}
 
 > `optional` **assessorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/assessorParty
 
 ***
 
-### associatedBinaryFile?
+### associatedBinaryFile? {#associatedbinaryfile}
 
 > `optional` **associatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/associatedBinaryFile
 
 ***
 
-### assuranceLevelCode?
+### assuranceLevelCode? {#assurancelevelcode}
 
 > `optional` **assuranceLevelCode**: `string`
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/assuranceLevelCode
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### endDateTime?
+### endDateTime? {#enddatetime}
 
 > `optional` **endDateTime**: `string`
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### relatedTradeTransaction?
+### relatedTradeTransaction? {#relatedtradetransaction}
 
 > `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)[]
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/relatedTradeTransaction
 
 ***
 
-### reportDateTime?
+### reportDateTime? {#reportdatetime}
 
 > `optional` **reportDateTime**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/reportDateTime
 
 ***
 
-### reportId?
+### reportId? {#reportid}
 
 > `optional` **reportId**: `string` \| `IJsonLdValueObject`
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/reportId
 
 ***
 
-### selfAssessedIndicator?
+### selfAssessedIndicator? {#selfassessedindicator}
 
 > `optional` **selfAssessedIndicator**: `boolean`
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/selfAssessedIndicator
 
 ***
 
-### startDateTime?
+### startDateTime? {#startdatetime}
 
 > `optional` **startDateTime**: `string`
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/startDateTime
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### verifiedIndicator?
+### verifiedIndicator? {#verifiedindicator}
 
 > `optional` **verifiedIndicator**: `boolean`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/verifiedIndicator
 
 ***
 
-### verifierParty?
+### verifierParty? {#verifierparty}
 
 > `optional` **verifierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 

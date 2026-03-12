@@ -14,7 +14,7 @@ Data Type registration for DID.
 
 ## Methods
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

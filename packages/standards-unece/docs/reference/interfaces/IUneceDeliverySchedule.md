@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DeliverySchedule
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DeliverySchedule"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### scopeCode?
+### scopeCode? {#scopecode}
 
 > `optional` **scopeCode**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/scopeCode
 
 ***
 
-### shipToParty?
+### shipToParty? {#shiptoparty}
 
 > `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ***
 
-### specifiedTradeLineItem?
+### specifiedTradeLineItem? {#specifiedtradelineitem}
 
 > `optional` **specifiedTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 

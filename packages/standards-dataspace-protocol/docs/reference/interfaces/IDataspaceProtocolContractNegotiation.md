@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#ack-
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ The JSON-LD context.
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"ContractNegotiation"`
 
@@ -21,7 +21,7 @@ The type of the message.
 
 ***
 
-### providerPid
+### providerPid {#providerpid}
 
 > **providerPid**: `string`
 
@@ -29,7 +29,7 @@ The provider id for the contract.
 
 ***
 
-### consumerPid
+### consumerPid {#consumerpid}
 
 > **consumerPid**: `string`
 
@@ -37,7 +37,7 @@ The consumer id for the contract.
 
 ***
 
-### state
+### state {#state}
 
 > **state**: [`DataspaceProtocolContractNegotiationStateType`](../type-aliases/DataspaceProtocolContractNegotiationStateType.md)
 

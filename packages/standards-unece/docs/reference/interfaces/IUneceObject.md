@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Object
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Object"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### category?
+### category? {#category}
 
 > `optional` **category**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/category
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### objectType?
+### objectType? {#objecttype}
 
 > `optional` **objectType**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/objectType
 
 ***
 
-### remark?
+### remark? {#remark}
 
 > `optional` **remark**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/remark
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -5,7 +5,7 @@ https://www.w3.org/TR/vc-data-integrity/
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: `"https://w3id.org/security/data-integrity/v2"` \| \[`"https://w3id.org/security/data-integrity/v2"`, `...IJsonLdContextDefinitionElement[]`\]
 
@@ -13,7 +13,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DataIntegrityProof"`
 
@@ -21,7 +21,7 @@ JSON-LD Type.
 
 ***
 
-### cryptosuite
+### cryptosuite {#cryptosuite}
 
 > **cryptosuite**: `string`
 
@@ -29,7 +29,7 @@ An identifier for the cryptographic suite that can be used to verify the proof.
 
 ***
 
-### id?
+### id? {#id}
 
 > `optional` **id**: `string`
 
@@ -37,7 +37,7 @@ The id of the proof.
 
 ***
 
-### proofPurpose
+### proofPurpose {#proofpurpose}
 
 > **proofPurpose**: `string`
 
@@ -45,7 +45,7 @@ The reason the proof was created.
 
 ***
 
-### proofValue?
+### proofValue? {#proofvalue}
 
 > `optional` **proofValue**: `string`
 
@@ -54,7 +54,7 @@ digital proof using the verificationMethod specified.
 
 ***
 
-### verificationMethod?
+### verificationMethod? {#verificationmethod}
 
 > `optional` **verificationMethod**: `string`
 
@@ -62,7 +62,7 @@ The verification method of the proof.
 
 ***
 
-### created?
+### created? {#created}
 
 > `optional` **created**: `string`
 
@@ -70,7 +70,7 @@ The iso date of when the proof was created.
 
 ***
 
-### expires?
+### expires? {#expires}
 
 > `optional` **expires**: `string`
 
@@ -78,7 +78,7 @@ The iso date of when the proof expires.
 
 ***
 
-### domain?
+### domain? {#domain}
 
 > `optional` **domain**: `string` \| `string`[]
 
@@ -86,7 +86,7 @@ One or more security domains in which the proof is meant to be used.
 
 ***
 
-### challenge?
+### challenge? {#challenge}
 
 > `optional` **challenge**: `string` \| `string`[]
 
@@ -94,7 +94,7 @@ Provided to mitigate replay attacks on domains.
 
 ***
 
-### previousProof?
+### previousProof? {#previousproof}
 
 > `optional` **previousProof**: `string`
 
@@ -103,7 +103,7 @@ the current proof is processed
 
 ***
 
-### nonce?
+### nonce? {#nonce}
 
 > `optional` **nonce**: `string`
 

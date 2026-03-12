@@ -11,7 +11,7 @@ https://www.w3.org/TR/odrl-model/#asset
 
 ## Properties
 
-### uid?
+### uid? {#uid}
 
 > `optional` **uid**: `string`
 
@@ -24,7 +24,7 @@ Should be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
 > `optional` **@type**: `string`
 
@@ -37,7 +37,7 @@ Can be used to specify additional type information.
 
 ***
 
-### partOf?
+### partOf? {#partof}
 
 > `optional` **partOf**: `string` \| `IOdrlAssetCollection` \| (`string` \| `IOdrlAssetCollection`)[]
 
@@ -50,7 +50,7 @@ Used to identify an AssetCollection that this Asset is a member of.
 
 ***
 
-### hasPolicy?
+### hasPolicy? {#haspolicy}
 
 > `optional` **hasPolicy**: `string` \| `string`[]
 
@@ -63,7 +63,7 @@ Used to identify the Policy that governs this Asset.
 
 ***
 
-### source
+### source {#source}
 
 > **source**: `string`
 
@@ -72,7 +72,7 @@ Must be an IRI that references the AssetCollection.
 
 ***
 
-### refinement?
+### refinement? {#refinement}
 
 > `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md) \| ([`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md))[]
 

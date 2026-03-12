@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Equipment
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Equipment"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### manufacturerParty?
+### manufacturerParty? {#manufacturerparty}
 
 > `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ***
 
-### pollingCapabilityIndicator?
+### pollingCapabilityIndicator? {#pollingcapabilityindicator}
 
 > `optional` **pollingCapabilityIndicator**: `boolean`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/pollingCapabilityIndicator
 
 ***
 
-### pollingRateMeasure?
+### pollingRateMeasure? {#pollingratemeasure}
 
 > `optional` **pollingRateMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/pollingRateMeasure
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

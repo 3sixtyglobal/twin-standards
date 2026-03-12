@@ -7,14 +7,14 @@ Based on http://purl.org/dc/dcmitype
 
 ## Type Declaration
 
-### Collection
+### Collection {#collection}
 
 > `readonly` **Collection**: `"Collection"` = `"Collection"`
 
 See Description at
 https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Collection
 
-### PeriodOfTime
+### PeriodOfTime {#periodoftime}
 
 > `readonly` **PeriodOfTime**: `"PeriodOfTime"` = `"PeriodOfTime"`
 

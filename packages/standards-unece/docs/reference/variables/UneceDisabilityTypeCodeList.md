@@ -6,7 +6,7 @@ Values for UneceDisability typeCode property.
 
 ## Type Declaration
 
-### NotifiedDisability
+### NotifiedDisability {#notifieddisability}
 
 > `readonly` **NotifiedDisability**: `"unece:notifiedDisability"` = `"unece:notifiedDisability"`
 

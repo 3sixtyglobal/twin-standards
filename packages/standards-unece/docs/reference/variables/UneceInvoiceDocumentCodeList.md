@@ -7,7 +7,7 @@ Deprecated since version D23B.
 
 ## Type Declaration
 
-### ~~SelfBilledCreditNote~~
+### ~~SelfBilledCreditNote~~ {#selfbilledcreditnote}
 
 > `readonly` **SelfBilledCreditNote**: `"unece:InvoiceDocumentCodeList#261"` = `"unece:InvoiceDocumentCodeList#261"`
 
@@ -16,7 +16,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~ConsolidatedCreditNoteGoodsAndServices~~
+### ~~ConsolidatedCreditNoteGoodsAndServices~~ {#consolidatedcreditnotegoodsandservices}
 
 > `readonly` **ConsolidatedCreditNoteGoodsAndServices**: `"unece:InvoiceDocumentCodeList#262"` = `"unece:InvoiceDocumentCodeList#262"`
 
@@ -25,7 +25,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~ProformaInvoice~~
+### ~~ProformaInvoice~~ {#proformainvoice}
 
 > `readonly` **ProformaInvoice**: `"unece:InvoiceDocumentCodeList#325"` = `"unece:InvoiceDocumentCodeList#325"`
 
@@ -34,7 +34,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~CommercialInvoice~~
+### ~~CommercialInvoice~~ {#commercialinvoice}
 
 > `readonly` **CommercialInvoice**: `"unece:InvoiceDocumentCodeList#380"` = `"unece:InvoiceDocumentCodeList#380"`
 
@@ -43,7 +43,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~CreditNote~~
+### ~~CreditNote~~ {#creditnote}
 
 > `readonly` **CreditNote**: `"unece:InvoiceDocumentCodeList#381"` = `"unece:InvoiceDocumentCodeList#381"`
 
@@ -52,7 +52,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DebitNote~~
+### ~~DebitNote~~ {#debitnote}
 
 > `readonly` **DebitNote**: `"unece:InvoiceDocumentCodeList#383"` = `"unece:InvoiceDocumentCodeList#383"`
 
@@ -61,7 +61,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~CorrectedInvoice~~
+### ~~CorrectedInvoice~~ {#correctedinvoice}
 
 > `readonly` **CorrectedInvoice**: `"unece:InvoiceDocumentCodeList#384"` = `"unece:InvoiceDocumentCodeList#384"`
 
@@ -70,7 +70,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~ConsolidatedInvoice~~
+### ~~ConsolidatedInvoice~~ {#consolidatedinvoice}
 
 > `readonly` **ConsolidatedInvoice**: `"unece:InvoiceDocumentCodeList#385"` = `"unece:InvoiceDocumentCodeList#385"`
 
@@ -79,7 +79,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~PrepaymentInvoice~~
+### ~~PrepaymentInvoice~~ {#prepaymentinvoice}
 
 > `readonly` **PrepaymentInvoice**: `"unece:InvoiceDocumentCodeList#386"` = `"unece:InvoiceDocumentCodeList#386"`
 
@@ -88,7 +88,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~SelfBilledInvoice~~
+### ~~SelfBilledInvoice~~ {#selfbilledinvoice}
 
 > `readonly` **SelfBilledInvoice**: `"unece:InvoiceDocumentCodeList#389"` = `"unece:InvoiceDocumentCodeList#389"`
 
@@ -97,7 +97,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~ConsignmentInvoice~~
+### ~~ConsignmentInvoice~~ {#consignmentinvoice}
 
 > `readonly` **ConsignmentInvoice**: `"unece:InvoiceDocumentCodeList#395"` = `"unece:InvoiceDocumentCodeList#395"`
 
@@ -106,7 +106,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~FactoredCreditNote~~
+### ~~FactoredCreditNote~~ {#factoredcreditnote}
 
 > `readonly` **FactoredCreditNote**: `"unece:InvoiceDocumentCodeList#396"` = `"unece:InvoiceDocumentCodeList#396"`
 
@@ -115,7 +115,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DebitNoteRelatedToGoodsOrServices~~
+### ~~DebitNoteRelatedToGoodsOrServices~~ {#debitnoterelatedtogoodsorservices}
 
 > `readonly` **DebitNoteRelatedToGoodsOrServices**: `"unece:InvoiceDocumentCodeList#80"` = `"unece:InvoiceDocumentCodeList#80"`
 
@@ -124,7 +124,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~CreditNoteRelatedToGoodsOrServices~~
+### ~~CreditNoteRelatedToGoodsOrServices~~ {#creditnoterelatedtogoodsorservices}
 
 > `readonly` **CreditNoteRelatedToGoodsOrServices**: `"unece:InvoiceDocumentCodeList#81"` = `"unece:InvoiceDocumentCodeList#81"`
 
@@ -133,7 +133,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~MeteredServicesInvoice~~
+### ~~MeteredServicesInvoice~~ {#meteredservicesinvoice}
 
 > `readonly` **MeteredServicesInvoice**: `"unece:InvoiceDocumentCodeList#82"` = `"unece:InvoiceDocumentCodeList#82"`
 
@@ -142,7 +142,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~CreditNoteRelatedToFinancialAdjustments~~
+### ~~CreditNoteRelatedToFinancialAdjustments~~ {#creditnoterelatedtofinancialadjustments}
 
 > `readonly` **CreditNoteRelatedToFinancialAdjustments**: `"unece:InvoiceDocumentCodeList#83"` = `"unece:InvoiceDocumentCodeList#83"`
 
@@ -151,7 +151,7 @@ Deprecated since version D23B.
 
 #### Deprecated
 
-### ~~DebitNoteRelatedToFinancialAdjustments~~
+### ~~DebitNoteRelatedToFinancialAdjustments~~ {#debitnoterelatedtofinancialadjustments}
 
 > `readonly` **DebitNoteRelatedToFinancialAdjustments**: `"unece:InvoiceDocumentCodeList#84"` = `"unece:InvoiceDocumentCodeList#84"`
 

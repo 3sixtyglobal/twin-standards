@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Classification
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Classification"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### classCharacteristic?
+### classCharacteristic? {#classcharacteristic}
 
 > `optional` **classCharacteristic**: [`IUneceProductCharacteristic`](IUneceProductCharacteristic.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/classCharacteristic
 
 ***
 
-### classCode?
+### classCode? {#classcode}
 
 > `optional` **classCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/classCode
 
 ***
 
-### classContentTypeDescription?
+### classContentTypeDescription? {#classcontenttypedescription}
 
 > `optional` **classContentTypeDescription**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/classContentTypeDescription
 
 ***
 
-### classContentTypeDescriptionCode?
+### classContentTypeDescriptionCode? {#classcontenttypedescriptioncode}
 
 > `optional` **classContentTypeDescriptionCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/classContentTypeDescriptionCode
 
 ***
 
-### className?
+### className? {#classname}
 
 > `optional` **className**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/className
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### subClassCode?
+### subClassCode? {#subclasscode}
 
 > `optional` **subClassCode**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/subClassCode
 
 ***
 
-### systemId?
+### systemId? {#systemid}
 
 > `optional` **systemId**: `string` \| `IJsonLdValueObject`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/systemId
 
 ***
 
-### systemName?
+### systemName? {#systemname}
 
 > `optional` **systemName**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/systemName
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 

@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AgriculturalCertificate
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AgriculturalCertificate"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### actualEffectiveDateTime?
+### actualEffectiveDateTime? {#actualeffectivedatetime}
 
 > `optional` **actualEffectiveDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ***
 
-### applicableAssertion?
+### applicableAssertion? {#applicableassertion}
 
 > `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableAssertion
 
 ***
 
-### applicableObjectCode?
+### applicableObjectCode? {#applicableobjectcode}
 
 > `optional` **applicableObjectCode**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableObjectCode
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### certificateTypeCode?
+### certificateTypeCode? {#certificatetypecode}
 
 > `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issueReasonCode?
+### issueReasonCode? {#issuereasoncode}
 
 > `optional` **issueReasonCode**: `string`
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ***
 
-### issuingPartyId?
+### issuingPartyId? {#issuingpartyid}
 
 > `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/issuingPartyId
 
 ***
 
-### purposeCode?
+### purposeCode? {#purposecode}
 
 > `optional` **purposeCode**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ***
 
-### requestedEffectiveDateTime?
+### requestedEffectiveDateTime? {#requestedeffectivedatetime}
 
 > `optional` **requestedEffectiveDateTime**: `string`
 

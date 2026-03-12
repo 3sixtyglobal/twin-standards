@@ -16,7 +16,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### eventClassifierCode
+### eventClassifierCode {#eventclassifiercode}
 
 > **eventClassifierCode**: [`DcsaEventClassifierCode`](../type-aliases/DcsaEventClassifierCode.md)
 
@@ -27,7 +27,7 @@ constrain this to a subset (e.g. Shipment/IoT/Reefer are always ACT).
 
 ***
 
-### eventDateTime
+### eventDateTime {#eventdatetime}
 
 > **eventDateTime**: `string`
 

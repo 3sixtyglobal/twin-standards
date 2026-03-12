@@ -10,7 +10,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ## Properties
 
-### iotEventTypeCodes?
+### iotEventTypeCodes? {#ioteventtypecodes}
 
 > `optional` **iotEventTypeCodes**: `"DETC"`[]
 
@@ -18,7 +18,7 @@ IoT event type codes to filter by.
 
 ***
 
-### carrierBookingReference?
+### carrierBookingReference? {#carrierbookingreference}
 
 > `optional` **carrierBookingReference**: `string`
 
@@ -26,7 +26,7 @@ Carrier booking reference to filter by.
 
 ***
 
-### equipmentReference?
+### equipmentReference? {#equipmentreference}
 
 > `optional` **equipmentReference**: `string`
 

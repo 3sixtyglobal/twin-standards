@@ -6,7 +6,7 @@ Values for UneceProductCharacteristicCondition typeCode property.
 
 ## Type Declaration
 
-### ApplicableCondition
+### ApplicableCondition {#applicablecondition}
 
 > `readonly` **ApplicableCondition**: `"unece:applicableCondition"` = `"unece:applicableCondition"`
 

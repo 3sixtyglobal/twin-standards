@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/GeographicalCoordinate
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"GeographicalCoordinate"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### acquisitionDateTime?
+### acquisitionDateTime? {#acquisitiondatetime}
 
 > `optional` **acquisitionDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/acquisitionDateTime
 
 ***
 
-### alternativeSourceSystemId?
+### alternativeSourceSystemId? {#alternativesourcesystemid}
 
 > `optional` **alternativeSourceSystemId**: `string` \| `IJsonLdValueObject`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/alternativeSourceSystemId
 
 ***
 
-### altimetricSystemId?
+### altimetricSystemId? {#altimetricsystemid}
 
 > `optional` **altimetricSystemId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/altimetricSystemId
 
 ***
 
-### altitudeMeasure?
+### altitudeMeasure? {#altitudemeasure}
 
 > `optional` **altitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/altitudeMeasure
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### latitudeDirectionIndicator?
+### latitudeDirectionIndicator? {#latitudedirectionindicator}
 
 > `optional` **latitudeDirectionIndicator**: `boolean`
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/latitudeDirectionIndicator
 
 ***
 
-### latitudeMeasure?
+### latitudeMeasure? {#latitudemeasure}
 
 > `optional` **latitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/latitudeMeasure
 
 ***
 
-### longitudeDirectionIndicator?
+### longitudeDirectionIndicator? {#longitudedirectionindicator}
 
 > `optional` **longitudeDirectionIndicator**: `boolean`
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/longitudeDirectionIndicator
 
 ***
 
-### longitudeMeasure?
+### longitudeMeasure? {#longitudemeasure}
 
 > `optional` **longitudeMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
@@ -137,7 +137,7 @@ https://vocabulary.uncefact.org/longitudeMeasure
 
 ***
 
-### systemId?
+### systemId? {#systemid}
 
 > `optional` **systemId**: `string` \| `IJsonLdValueObject`
 
@@ -149,7 +149,7 @@ https://vocabulary.uncefact.org/systemId
 
 ***
 
-### timeZone?
+### timeZone? {#timezone}
 
 > `optional` **timeZone**: `string`
 
@@ -161,7 +161,7 @@ https://vocabulary.uncefact.org/timeZone
 
 ***
 
-### timeZoneCode?
+### timeZoneCode? {#timezonecode}
 
 > `optional` **timeZoneCode**: `string`
 
@@ -173,7 +173,7 @@ https://vocabulary.uncefact.org/timeZoneCode
 
 ***
 
-### timeZoneDateTime?
+### timeZoneDateTime? {#timezonedatetime}
 
 > `optional` **timeZoneDateTime**: `string`
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/timeZoneDateTime
 
 ***
 
-### usedCoordinateReferenceSystem?
+### usedCoordinateReferenceSystem? {#usedcoordinatereferencesystem}
 
 > `optional` **usedCoordinateReferenceSystem**: [`IUneceCoordinateReferenceSystem`](IUneceCoordinateReferenceSystem.md)
 
@@ -197,7 +197,7 @@ https://vocabulary.uncefact.org/usedCoordinateReferenceSystem
 
 ***
 
-### usedCoordinateSourceSystem?
+### usedCoordinateSourceSystem? {#usedcoordinatesourcesystem}
 
 > `optional` **usedCoordinateSourceSystem**: [`IUneceCoordinateSourceSystem`](IUneceCoordinateSourceSystem.md)
 

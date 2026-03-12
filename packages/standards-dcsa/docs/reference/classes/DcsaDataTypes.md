@@ -14,7 +14,7 @@ Data Type registration for DCSA
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -26,7 +26,7 @@ Register redirects for DCSA namespace to enable offline JSON-LD processing.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

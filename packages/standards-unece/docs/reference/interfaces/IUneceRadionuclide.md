@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Radionuclide
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Radionuclide"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### lowDispersibleStatusIndicator?
+### lowDispersibleStatusIndicator? {#lowdispersiblestatusindicator}
 
 > `optional` **lowDispersibleStatusIndicator**: `boolean`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/lowDispersibleStatusIndicator
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### specialFormIndicator?
+### specialFormIndicator? {#specialformindicator}
 
 > `optional` **specialFormIndicator**: `boolean`
 

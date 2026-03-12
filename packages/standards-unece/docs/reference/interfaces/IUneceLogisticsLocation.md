@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/LogisticsLocation
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"LogisticsLocation"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### associatedGeographicalFeature?
+### associatedGeographicalFeature? {#associatedgeographicalfeature}
 
 > `optional` **associatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/associatedGeographicalFeature
 
 ***
 
-### countryName?
+### countryName? {#countryname}
 
 > `optional` **countryName**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/countryName
 
 ***
 
-### countrySubDivisionId?
+### countrySubDivisionId? {#countrysubdivisionid}
 
 > `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### facilityLocation?
+### facilityLocation? {#facilitylocation}
 
 > `optional` **facilityLocation**: [`IUneceLocation`](IUneceLocation.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/facilityLocation
 
 ***
 
-### healthAffectedAreaIndicator?
+### healthAffectedAreaIndicator? {#healthaffectedareaindicator}
 
 > `optional` **healthAffectedAreaIndicator**: `boolean`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/healthAffectedAreaIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inspectionEvent?
+### inspectionEvent? {#inspectionevent}
 
 > `optional` **inspectionEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/inspectionEvent
 
 ***
 
-### locationFunctionTypeCode?
+### locationFunctionTypeCode? {#locationfunctiontypecode}
 
 > `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ***
 
-### logisticsLocationCountryId?
+### logisticsLocationCountryId? {#logisticslocationcountryid}
 
 > `optional` **logisticsLocationCountryId**: `string` \| `IJsonLdValueObject`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/logisticsLocationCountryId
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### physicalGeographicalCoordinate?
+### physicalGeographicalCoordinate? {#physicalgeographicalcoordinate}
 
 > `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 
 ***
 
-### postalAddress?
+### postalAddress? {#postaladdress}
 
 > `optional` **postalAddress**: [`IUneceTradeAddress`](IUneceTradeAddress.md)
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/postalAddress
 
 ***
 
-### previousAssociatedGeographicalFeature?
+### previousAssociatedGeographicalFeature? {#previousassociatedgeographicalfeature}
 
 > `optional` **previousAssociatedGeographicalFeature**: [`IUneceGeographicalFeature`](IUneceGeographicalFeature.md)[]
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/previousAssociatedGeographicalFeature
 
 ***
 
-### servicingSpecifiedParty?
+### servicingSpecifiedParty? {#servicingspecifiedparty}
 
 > `optional` **servicingSpecifiedParty**: [`IUneceLocationParty`](IUneceLocationParty.md)[]
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/servicingSpecifiedParty
 
 ***
 
-### specifiedInspectionEvent?
+### specifiedInspectionEvent? {#specifiedinspectionevent}
 
 > `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)[]
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ***
 
-### stayPeriod?
+### stayPeriod? {#stayperiod}
 
 > `optional` **stayPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/stayPeriod
 
 ***
 
-### subordinateRelatedLocation?
+### subordinateRelatedLocation? {#subordinaterelatedlocation}
 
 > `optional` **subordinateRelatedLocation**: `IUneceLogisticsLocation`[]
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/subordinateRelatedLocation
 
 ***
 
-### subordinateSubordinateLocation?
+### subordinateSubordinateLocation? {#subordinatesubordinatelocation}
 
 > `optional` **subordinateSubordinateLocation**: [`IUneceSubordinateLocation`](IUneceSubordinateLocation.md)[]
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/subordinateSubordinateLocation
 
 ***
 
-### uTCOffsetNumeric?
+### uTCOffsetNumeric? {#utcoffsetnumeric}
 
 > `optional` **uTCOffsetNumeric**: `string`
 

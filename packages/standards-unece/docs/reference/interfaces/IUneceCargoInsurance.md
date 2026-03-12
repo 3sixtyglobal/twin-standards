@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/CargoInsurance
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"CargoInsurance"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### contractGeneralConditions?
+### contractGeneralConditions? {#contractgeneralconditions}
 
 > `optional` **contractGeneralConditions**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/contractGeneralConditions
 
 ***
 
-### coverageCode?
+### coverageCode? {#coveragecode}
 
 > `optional` **coverageCode**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/coverageCode
 
 ***
 
-### coverageDescription?
+### coverageDescription? {#coveragedescription}
 
 > `optional` **coverageDescription**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/coverageDescription
 
 ***
 
-### coverageParty?
+### coverageParty? {#coverageparty}
 
 > `optional` **coverageParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 

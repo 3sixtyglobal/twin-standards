@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/TradeTax
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"TradeTax"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### allowanceChargeBasisAmount?
+### allowanceChargeBasisAmount? {#allowancechargebasisamount}
 
 > `optional` **allowanceChargeBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/allowanceChargeBasisAmount
 
 ***
 
-### applicablePercent?
+### applicablePercent? {#applicablepercent}
 
 > `optional` **applicablePercent**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicablePercent
 
 ***
 
-### applicableTradeLocation?
+### applicableTradeLocation? {#applicabletradelocation}
 
 > `optional` **applicableTradeLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableTradeLocation
 
 ***
 
-### basisAmount?
+### basisAmount? {#basisamount}
 
 > `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ***
 
-### basisQuantity?
+### basisQuantity? {#basisquantity}
 
 > `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ***
 
-### buyerDeductibleTaxSpecifiedAccountingAccount?
+### buyerDeductibleTaxSpecifiedAccountingAccount? {#buyerdeductibletaxspecifiedaccountingaccount}
 
 > `optional` **buyerDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/buyerDeductibleTaxSpecifiedAccountingAccount
 
 ***
 
-### buyerNonDeductibleTaxSpecifiedAccountingAccount?
+### buyerNonDeductibleTaxSpecifiedAccountingAccount? {#buyernondeductibletaxspecifiedaccountingaccount}
 
 > `optional` **buyerNonDeductibleTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/buyerNonDeductibleTaxSpecifiedAccountingAccount
 
 ***
 
-### buyerRepayableTaxSpecifiedAccountingAccount?
+### buyerRepayableTaxSpecifiedAccountingAccount? {#buyerrepayabletaxspecifiedaccountingaccount}
 
 > `optional` **buyerRepayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/buyerRepayableTaxSpecifiedAccountingAccount
 
 ***
 
-### calculatedAmount?
+### calculatedAmount? {#calculatedamount}
 
 > `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/calculatedAmount
 
 ***
 
-### calculatedRate?
+### calculatedRate? {#calculatedrate}
 
 > `optional` **calculatedRate**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/calculatedRate
 
 ***
 
-### calculationMethodCode?
+### calculationMethodCode? {#calculationmethodcode}
 
 > `optional` **calculationMethodCode**: `string`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/calculationMethodCode
 
 ***
 
-### calculationSequenceNumeric?
+### calculationSequenceNumeric? {#calculationsequencenumeric}
 
 > `optional` **calculationSequenceNumeric**: `string`
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/calculationSequenceNumeric
 
 ***
 
-### categoryName?
+### categoryName? {#categoryname}
 
 > `optional` **categoryName**: `string`
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/categoryName
 
 ***
 
-### customsDutyIndicator?
+### customsDutyIndicator? {#customsdutyindicator}
 
 > `optional` **customsDutyIndicator**: `boolean`
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/customsDutyIndicator
 
 ***
 
-### customsDutyRegimeTypeCode?
+### customsDutyRegimeTypeCode? {#customsdutyregimetypecode}
 
 > `optional` **customsDutyRegimeTypeCode**: [`UneceCustomsDutyRegimeTypeCodeList`](../type-aliases/UneceCustomsDutyRegimeTypeCodeList.md)
 
@@ -208,7 +208,7 @@ https://vocabulary.uncefact.org/customsDutyRegimeTypeCode
 
 ***
 
-### customsProcedureGuaranteeCode?
+### customsProcedureGuaranteeCode? {#customsprocedureguaranteecode}
 
 > `optional` **customsProcedureGuaranteeCode**: `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"`
 
@@ -221,7 +221,7 @@ https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 
 ***
 
-### deductionAmount?
+### deductionAmount? {#deductionamount}
 
 > `optional` **deductionAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -233,7 +233,7 @@ https://vocabulary.uncefact.org/deductionAmount
 
 ***
 
-### deferredStatusPartyFinancialAccount?
+### deferredStatusPartyFinancialAccount? {#deferredstatuspartyfinancialaccount}
 
 > `optional` **deferredStatusPartyFinancialAccount**: [`IUneceDebtorFinancialAccount`](IUneceDebtorFinancialAccount.md)
 
@@ -245,7 +245,7 @@ https://vocabulary.uncefact.org/deferredStatusPartyFinancialAccount
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -257,7 +257,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### exemptionAuthorizationId?
+### exemptionAuthorizationId? {#exemptionauthorizationid}
 
 > `optional` **exemptionAuthorizationId**: `string` \| `IJsonLdValueObject`
 
@@ -269,7 +269,7 @@ https://vocabulary.uncefact.org/exemptionAuthorizationId
 
 ***
 
-### exemptionIndicator?
+### exemptionIndicator? {#exemptionindicator}
 
 > `optional` **exemptionIndicator**: `boolean`
 
@@ -281,7 +281,7 @@ https://vocabulary.uncefact.org/exemptionIndicator
 
 ***
 
-### exemptionReason?
+### exemptionReason? {#exemptionreason}
 
 > `optional` **exemptionReason**: `string`
 
@@ -293,7 +293,7 @@ https://vocabulary.uncefact.org/exemptionReason
 
 ***
 
-### grandTotalAmount?
+### grandTotalAmount? {#grandtotalamount}
 
 > `optional` **grandTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -305,7 +305,7 @@ https://vocabulary.uncefact.org/grandTotalAmount
 
 ***
 
-### guarantee?
+### guarantee? {#guarantee}
 
 > `optional` **guarantee**: `string`
 
@@ -318,7 +318,7 @@ https://vocabulary.uncefact.org/guarantee
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -330,7 +330,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### informationAmount?
+### informationAmount? {#informationamount}
 
 > `optional` **informationAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -342,7 +342,7 @@ https://vocabulary.uncefact.org/informationAmount
 
 ***
 
-### jurisdiction?
+### jurisdiction? {#jurisdiction}
 
 > `optional` **jurisdiction**: `string`
 
@@ -354,7 +354,7 @@ https://vocabulary.uncefact.org/jurisdiction
 
 ***
 
-### lineTotalBasisAmount?
+### lineTotalBasisAmount? {#linetotalbasisamount}
 
 > `optional` **lineTotalBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -366,7 +366,7 @@ https://vocabulary.uncefact.org/lineTotalBasisAmount
 
 ***
 
-### localTaxSystemId?
+### localTaxSystemId? {#localtaxsystemid}
 
 > `optional` **localTaxSystemId**: `string` \| `IJsonLdValueObject`
 
@@ -378,7 +378,7 @@ https://vocabulary.uncefact.org/localTaxSystemId
 
 ***
 
-### paymentId?
+### paymentId? {#paymentid}
 
 > `optional` **paymentId**: `string` \| `IJsonLdValueObject`
 
@@ -390,7 +390,7 @@ https://vocabulary.uncefact.org/paymentId
 
 ***
 
-### placeApplicableLocation?
+### placeApplicableLocation? {#placeapplicablelocation}
 
 > `optional` **placeApplicableLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
@@ -402,7 +402,7 @@ https://vocabulary.uncefact.org/placeApplicableLocation
 
 ***
 
-### rate?
+### rate? {#rate}
 
 > `optional` **rate**: `string`
 
@@ -414,7 +414,7 @@ https://vocabulary.uncefact.org/rate
 
 ***
 
-### rateApplicablePercent?
+### rateApplicablePercent? {#rateapplicablepercent}
 
 > `optional` **rateApplicablePercent**: `string`
 
@@ -426,7 +426,7 @@ https://vocabulary.uncefact.org/rateApplicablePercent
 
 ***
 
-### rateCode?
+### rateCode? {#ratecode}
 
 > `optional` **rateCode**: `string`
 
@@ -438,7 +438,7 @@ https://vocabulary.uncefact.org/rateCode
 
 ***
 
-### refundAmount?
+### refundAmount? {#refundamount}
 
 > `optional` **refundAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -450,7 +450,7 @@ https://vocabulary.uncefact.org/refundAmount
 
 ***
 
-### regimeType?
+### regimeType? {#regimetype}
 
 > `optional` **regimeType**: `string`
 
@@ -463,7 +463,7 @@ https://vocabulary.uncefact.org/regimeType
 
 ***
 
-### selfAssessedBasisAmount?
+### selfAssessedBasisAmount? {#selfassessedbasisamount}
 
 > `optional` **selfAssessedBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -476,7 +476,7 @@ https://vocabulary.uncefact.org/selfAssessedBasisAmount
 
 ***
 
-### selfAssessedBasisQuantity?
+### selfAssessedBasisQuantity? {#selfassessedbasisquantity}
 
 > `optional` **selfAssessedBasisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -488,7 +488,7 @@ https://vocabulary.uncefact.org/selfAssessedBasisQuantity
 
 ***
 
-### selfAssessedCalculatedAmount?
+### selfAssessedCalculatedAmount? {#selfassessedcalculatedamount}
 
 > `optional` **selfAssessedCalculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -500,7 +500,7 @@ https://vocabulary.uncefact.org/selfAssessedCalculatedAmount
 
 ***
 
-### sellerPayableTaxSpecifiedAccountingAccount?
+### sellerPayableTaxSpecifiedAccountingAccount? {#sellerpayabletaxspecifiedaccountingaccount}
 
 > `optional` **sellerPayableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
@@ -512,7 +512,7 @@ https://vocabulary.uncefact.org/sellerPayableTaxSpecifiedAccountingAccount
 
 ***
 
-### sellerRefundableTaxSpecifiedAccountingAccount?
+### sellerRefundableTaxSpecifiedAccountingAccount? {#sellerrefundabletaxspecifiedaccountingaccount}
 
 > `optional` **sellerRefundableTaxSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)
 
@@ -524,7 +524,7 @@ https://vocabulary.uncefact.org/sellerRefundableTaxSpecifiedAccountingAccount
 
 ***
 
-### serviceSupplyCountry?
+### serviceSupplyCountry? {#servicesupplycountry}
 
 > `optional` **serviceSupplyCountry**: [`IUneceCountry`](IUneceCountry.md)
 
@@ -536,7 +536,7 @@ https://vocabulary.uncefact.org/serviceSupplyCountry
 
 ***
 
-### specifiedAccountingAccount?
+### specifiedAccountingAccount? {#specifiedaccountingaccount}
 
 > `optional` **specifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
 
@@ -548,7 +548,7 @@ https://vocabulary.uncefact.org/specifiedAccountingAccount
 
 ***
 
-### tariffDeductionQuantity?
+### tariffDeductionQuantity? {#tariffdeductionquantity}
 
 > `optional` **tariffDeductionQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
@@ -560,7 +560,7 @@ https://vocabulary.uncefact.org/tariffDeductionQuantity
 
 ***
 
-### taxBasisAllowanceRate?
+### taxBasisAllowanceRate? {#taxbasisallowancerate}
 
 > `optional` **taxBasisAllowanceRate**: `string`
 
@@ -572,7 +572,7 @@ https://vocabulary.uncefact.org/taxBasisAllowanceRate
 
 ***
 
-### taxCategoryCode?
+### taxCategoryCode? {#taxcategorycode}
 
 > `optional` **taxCategoryCode**: [`UneceTaxCategoryCodeList`](../type-aliases/UneceTaxCategoryCodeList.md)
 
@@ -585,7 +585,7 @@ https://vocabulary.uncefact.org/taxCategoryCode
 
 ***
 
-### taxExemptionAuthorityId?
+### taxExemptionAuthorityId? {#taxexemptionauthorityid}
 
 > `optional` **taxExemptionAuthorityId**: `string` \| `IJsonLdValueObject`
 
@@ -597,7 +597,7 @@ https://vocabulary.uncefact.org/taxExemptionAuthorityId
 
 ***
 
-### taxExemptionReasonExemptionReasonCode?
+### taxExemptionReasonExemptionReasonCode? {#taxexemptionreasonexemptionreasoncode}
 
 > `optional` **taxExemptionReasonExemptionReasonCode**: [`UneceTaxExemptionReasonCodeList`](../type-aliases/UneceTaxExemptionReasonCodeList.md)[]
 
@@ -609,7 +609,7 @@ https://vocabulary.uncefact.org/taxExemptionReasonExemptionReasonCode
 
 ***
 
-### taxPointDate?
+### taxPointDate? {#taxpointdate}
 
 > `optional` **taxPointDate**: `string`
 
@@ -621,7 +621,7 @@ https://vocabulary.uncefact.org/taxPointDate
 
 ***
 
-### taxType?
+### taxType? {#taxtype}
 
 > `optional` **taxType**: `string`
 
@@ -633,7 +633,7 @@ https://vocabulary.uncefact.org/taxType
 
 ***
 
-### taxTypeCode?
+### taxTypeCode? {#taxtypecode}
 
 > `optional` **taxTypeCode**: [`UneceTaxTypeCodeList`](../type-aliases/UneceTaxTypeCodeList.md)
 
@@ -646,7 +646,7 @@ https://vocabulary.uncefact.org/taxTypeCode
 
 ***
 
-### timeReferenceDueDateTypeCode?
+### timeReferenceDueDateTypeCode? {#timereferenceduedatetypecode}
 
 > `optional` **timeReferenceDueDateTypeCode**: [`UneceTimeReferenceCodeList`](../type-aliases/UneceTimeReferenceCodeList.md)
 
@@ -658,7 +658,7 @@ https://vocabulary.uncefact.org/timeReferenceDueDateTypeCode
 
 ***
 
-### tradeTaxCurrencyCode?
+### tradeTaxCurrencyCode? {#tradetaxcurrencycode}
 
 > `optional` **tradeTaxCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
@@ -670,7 +670,7 @@ https://vocabulary.uncefact.org/tradeTaxCurrencyCode
 
 ***
 
-### tradeTaxFunctionCode?
+### tradeTaxFunctionCode? {#tradetaxfunctioncode}
 
 > `optional` **tradeTaxFunctionCode**: `string`
 
@@ -682,7 +682,7 @@ https://vocabulary.uncefact.org/tradeTaxFunctionCode
 
 ***
 
-### tradeTaxPaymentMethodCode?
+### tradeTaxPaymentMethodCode? {#tradetaxpaymentmethodcode}
 
 > `optional` **tradeTaxPaymentMethodCode**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
 
@@ -694,7 +694,7 @@ https://vocabulary.uncefact.org/tradeTaxPaymentMethodCode
 
 ***
 
-### unitBasisAmount?
+### unitBasisAmount? {#unitbasisamount}
 
 > `optional` **unitBasisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 

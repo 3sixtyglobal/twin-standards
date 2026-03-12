@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/ProductionProcess
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"ProductionProcess"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalInformationNote?
+### additionalInformationNote? {#additionalinformationnote}
 
 > `optional` **additionalInformationNote**: [`IUneceNote`](IUneceNote.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalInformationNote
 
 ***
 
-### allocatedMachine?
+### allocatedMachine? {#allocatedmachine}
 
 > `optional` **allocatedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/allocatedMachine
 
 ***
 
-### allocatedProductionDevice?
+### allocatedProductionDevice? {#allocatedproductiondevice}
 
 > `optional` **allocatedProductionDevice**: [`IUneceProductionDevice`](IUneceProductionDevice.md)[]
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/allocatedProductionDevice
 
 ***
 
-### applicableAssessment?
+### applicableAssessment? {#applicableassessment}
 
 > `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ***
 
-### applicableDeclaration?
+### applicableDeclaration? {#applicabledeclaration}
 
 > `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ***
 
-### applicableFault?
+### applicableFault? {#applicablefault}
 
 > `optional` **applicableFault**: [`IUneceSpecifiedFault`](IUneceSpecifiedFault.md)[]
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/applicableFault
 
 ***
 
-### applicableLicence?
+### applicableLicence? {#applicablelicence}
 
 > `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ***
 
-### applicableParameter?
+### applicableParameter? {#applicableparameter}
 
 > `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ***
 
-### applicablePeriod?
+### applicablePeriod? {#applicableperiod}
 
 > `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ***
 
-### applicableProductionCycle?
+### applicableProductionCycle? {#applicableproductioncycle}
 
 > `optional` **applicableProductionCycle**: [`IUneceProductionCycle`](IUneceProductionCycle.md)[]
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/applicableProductionCycle
 
 ***
 
-### applicableSpecifiedCertificate?
+### applicableSpecifiedCertificate? {#applicablespecifiedcertificate}
 
 > `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ***
 
-### applicableSpecifiedInspection?
+### applicableSpecifiedInspection? {#applicablespecifiedinspection}
 
 > `optional` **applicableSpecifiedInspection**: [`IUneceSpecifiedInspection`](IUneceSpecifiedInspection.md)[]
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedInspection
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### applicableSustainabilityInspection?
+### applicableSustainabilityInspection? {#applicablesustainabilityinspection}
 
 > `optional` **applicableSustainabilityInspection**: [`IUneceSustainabilityInspection`](IUneceSustainabilityInspection.md)[]
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityInspection
 
 ***
 
-### appliedChemicalTreatment?
+### appliedChemicalTreatment? {#appliedchemicaltreatment}
 
 > `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ***
 
-### appliedCropProtectionTreatment?
+### appliedCropProtectionTreatment? {#appliedcropprotectiontreatment}
 
 > `optional` **appliedCropProtectionTreatment**: [`IUneceCropProtectionTreatment`](IUneceCropProtectionTreatment.md)[]
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/appliedCropProtectionTreatment
 
 ***
 
-### appliedProductFinishingTreatment?
+### appliedProductFinishingTreatment? {#appliedproductfinishingtreatment}
 
 > `optional` **appliedProductFinishingTreatment**: [`IUneceProductFinishingTreatment`](IUneceProductFinishingTreatment.md)[]
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/appliedProductFinishingTreatment
 
 ***
 
-### associatedStandard?
+### associatedStandard? {#associatedstandard}
 
 > `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/associatedStandard
 
 ***
 
-### criticalIndicator?
+### criticalIndicator? {#criticalindicator}
 
 > `optional` **criticalIndicator**: `boolean`
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/criticalIndicator
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### disclosureLevelCode?
+### disclosureLevelCode? {#disclosurelevelcode}
 
 > `optional` **disclosureLevelCode**: `string`
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/disclosureLevelCode
 
 ***
 
-### finalIndicator?
+### finalIndicator? {#finalindicator}
 
 > `optional` **finalIndicator**: `boolean`
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/finalIndicator
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### inputApplicableBatch?
+### inputApplicableBatch? {#inputapplicablebatch}
 
 > `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/inputApplicableBatch
 
 ***
 
-### inputApplicableMaterial?
+### inputApplicableMaterial? {#inputapplicablematerial}
 
 > `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -324,7 +324,7 @@ https://vocabulary.uncefact.org/inputApplicableMaterial
 
 ***
 
-### inputApplicableProduct?
+### inputApplicableProduct? {#inputapplicableproduct}
 
 > `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/inputApplicableProduct
 
 ***
 
-### inventoryTypeCode?
+### inventoryTypeCode? {#inventorytypecode}
 
 > `optional` **inventoryTypeCode**: `string`
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/inventoryTypeCode
 
 ***
 
-### manufacturerParty?
+### manufacturerParty? {#manufacturerparty}
 
 > `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime? {#occurrencedatetime}
 
 > `optional` **occurrenceDateTime**: `string`
 
@@ -384,7 +384,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### occurrenceEvent?
+### occurrenceEvent? {#occurrenceevent}
 
 > `optional` **occurrenceEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
@@ -396,7 +396,7 @@ https://vocabulary.uncefact.org/occurrenceEvent
 
 ***
 
-### operationReferenceCode?
+### operationReferenceCode? {#operationreferencecode}
 
 > `optional` **operationReferenceCode**: `string`
 
@@ -408,7 +408,7 @@ https://vocabulary.uncefact.org/operationReferenceCode
 
 ***
 
-### operationTechnologyCode?
+### operationTechnologyCode? {#operationtechnologycode}
 
 > `optional` **operationTechnologyCode**: `string`
 
@@ -420,7 +420,7 @@ https://vocabulary.uncefact.org/operationTechnologyCode
 
 ***
 
-### outputApplicableBatch?
+### outputApplicableBatch? {#outputapplicablebatch}
 
 > `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
@@ -432,7 +432,7 @@ https://vocabulary.uncefact.org/outputApplicableBatch
 
 ***
 
-### outputApplicableMaterial?
+### outputApplicableMaterial? {#outputapplicablematerial}
 
 > `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/outputApplicableMaterial
 
 ***
 
-### outputApplicableProduct?
+### outputApplicableProduct? {#outputapplicableproduct}
 
 > `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
@@ -456,7 +456,7 @@ https://vocabulary.uncefact.org/outputApplicableProduct
 
 ***
 
-### performedWorkItem?
+### performedWorkItem? {#performedworkitem}
 
 > `optional` **performedWorkItem**: [`IUneceProcessWorkItem`](IUneceProcessWorkItem.md)[]
 
@@ -468,7 +468,7 @@ https://vocabulary.uncefact.org/performedWorkItem
 
 ***
 
-### productionProcessInventoryTypeCode?
+### productionProcessInventoryTypeCode? {#productionprocessinventorytypecode}
 
 > `optional` **productionProcessInventoryTypeCode**: `string`
 
@@ -480,7 +480,7 @@ https://vocabulary.uncefact.org/productionProcessInventoryTypeCode
 
 ***
 
-### productionProcessSubordinateTypeCode?
+### productionProcessSubordinateTypeCode? {#productionprocesssubordinatetypecode}
 
 > `optional` **productionProcessSubordinateTypeCode**: `string`
 
@@ -492,7 +492,7 @@ https://vocabulary.uncefact.org/productionProcessSubordinateTypeCode
 
 ***
 
-### productionProcessTypeCode?
+### productionProcessTypeCode? {#productionprocesstypecode}
 
 > `optional` **productionProcessTypeCode**: `string`
 
@@ -504,7 +504,7 @@ https://vocabulary.uncefact.org/productionProcessTypeCode
 
 ***
 
-### productionWasteInstructions?
+### productionWasteInstructions? {#productionwasteinstructions}
 
 > `optional` **productionWasteInstructions**: [`IUneceDisposalInstructions`](IUneceDisposalInstructions.md)[]
 
@@ -516,7 +516,7 @@ https://vocabulary.uncefact.org/productionWasteInstructions
 
 ***
 
-### recyclingIndicator?
+### recyclingIndicator? {#recyclingindicator}
 
 > `optional` **recyclingIndicator**: `boolean`
 
@@ -528,7 +528,7 @@ https://vocabulary.uncefact.org/recyclingIndicator
 
 ***
 
-### relatedBinaryFile?
+### relatedBinaryFile? {#relatedbinaryfile}
 
 > `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -540,7 +540,7 @@ https://vocabulary.uncefact.org/relatedBinaryFile
 
 ***
 
-### reportedProductionWasteMaterial?
+### reportedProductionWasteMaterial? {#reportedproductionwastematerial}
 
 > `optional` **reportedProductionWasteMaterial**: [`IUneceProductionWasteMaterial`](IUneceProductionWasteMaterial.md)[]
 
@@ -552,7 +552,7 @@ https://vocabulary.uncefact.org/reportedProductionWasteMaterial
 
 ***
 
-### specificationDocument?
+### specificationDocument? {#specificationdocument}
 
 > `optional` **specificationDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -564,7 +564,7 @@ https://vocabulary.uncefact.org/specificationDocument
 
 ***
 
-### specifiedAssertion?
+### specifiedAssertion? {#specifiedassertion}
 
 > `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -576,7 +576,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -588,7 +588,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### specifiedFacility?
+### specifiedFacility? {#specifiedfacility}
 
 > `optional` **specifiedFacility**: [`IUneceProductionFacility`](IUneceProductionFacility.md)[]
 
@@ -600,7 +600,7 @@ https://vocabulary.uncefact.org/specifiedFacility
 
 ***
 
-### specifiedOrganizationalCertificate?
+### specifiedOrganizationalCertificate? {#specifiedorganizationalcertificate}
 
 > `optional` **specifiedOrganizationalCertificate**: [`IUneceOrganizationalCertificate`](IUneceOrganizationalCertificate.md)[]
 
@@ -612,7 +612,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertificate
 
 ***
 
-### specifiedOrganizationalCertification?
+### specifiedOrganizationalCertification? {#specifiedorganizationalcertification}
 
 > `optional` **specifiedOrganizationalCertification**: [`IUneceOrganizationalCertification`](IUneceOrganizationalCertification.md)[]
 
@@ -624,7 +624,7 @@ https://vocabulary.uncefact.org/specifiedOrganizationalCertification
 
 ***
 
-### specifiedProcessCertificate?
+### specifiedProcessCertificate? {#specifiedprocesscertificate}
 
 > `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
@@ -636,7 +636,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ***
 
-### specifiedProcessCertification?
+### specifiedProcessCertification? {#specifiedprocesscertification}
 
 > `optional` **specifiedProcessCertification**: [`IUneceProcessCertification`](IUneceProcessCertification.md)[]
 
@@ -648,7 +648,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertification
 
 ***
 
-### specifiedProductBatchCertification?
+### specifiedProductBatchCertification? {#specifiedproductbatchcertification}
 
 > `optional` **specifiedProductBatchCertification**: [`IUneceProductBatchCertification`](IUneceProductBatchCertification.md)[]
 
@@ -660,7 +660,7 @@ https://vocabulary.uncefact.org/specifiedProductBatchCertification
 
 ***
 
-### specifiedTradeProductCertification?
+### specifiedTradeProductCertification? {#specifiedtradeproductcertification}
 
 > `optional` **specifiedTradeProductCertification**: [`IUneceTradeProductCertification`](IUneceTradeProductCertification.md)[]
 
@@ -672,7 +672,7 @@ https://vocabulary.uncefact.org/specifiedTradeProductCertification
 
 ***
 
-### status?
+### status? {#status}
 
 > `optional` **status**: `string`
 
@@ -684,7 +684,7 @@ https://vocabulary.uncefact.org/status
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -696,7 +696,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### stepCode?
+### stepCode? {#stepcode}
 
 > `optional` **stepCode**: `string`
 
@@ -708,7 +708,7 @@ https://vocabulary.uncefact.org/stepCode
 
 ***
 
-### subcontractorParty?
+### subcontractorParty? {#subcontractorparty}
 
 > `optional` **subcontractorParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -720,7 +720,7 @@ https://vocabulary.uncefact.org/subcontractorParty
 
 ***
 
-### subordinateProcess?
+### subordinateProcess? {#subordinateprocess}
 
 > `optional` **subordinateProcess**: `IUneceProductionProcess`[]
 

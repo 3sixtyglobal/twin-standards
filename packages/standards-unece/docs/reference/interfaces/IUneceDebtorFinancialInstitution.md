@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/DebtorFinancialInstitution
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"DebtorFinancialInstitution"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### australianBSBId?
+### australianBSBId? {#australianbsbid}
 
 > `optional` **australianBSBId**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/australianBSBId
 
 ***
 
-### austrianBankleitzahlId?
+### austrianBankleitzahlId? {#austrianbankleitzahlid}
 
 > `optional` **austrianBankleitzahlId**: `string` \| `IJsonLdValueObject`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/austrianBankleitzahlId
 
 ***
 
-### bICId?
+### bICId? {#bicid}
 
 > `optional` **bICId**: `string` \| `IJsonLdValueObject`
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/bICId
 
 ***
 
-### cHIPSParticipantId?
+### cHIPSParticipantId? {#chipsparticipantid}
 
 > `optional` **cHIPSParticipantId**: `string` \| `IJsonLdValueObject`
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/cHIPSParticipantId
 
 ***
 
-### cHIPSUniversalId?
+### cHIPSUniversalId? {#chipsuniversalid}
 
 > `optional` **cHIPSUniversalId**: `string` \| `IJsonLdValueObject`
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/cHIPSUniversalId
 
 ***
 
-### canadianPaymentsAssociationId?
+### canadianPaymentsAssociationId? {#canadianpaymentsassociationid}
 
 > `optional` **canadianPaymentsAssociationId**: `string` \| `IJsonLdValueObject`
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/canadianPaymentsAssociationId
 
 ***
 
-### clearingSystemName?
+### clearingSystemName? {#clearingsystemname}
 
 > `optional` **clearingSystemName**: `string`
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/clearingSystemName
 
 ***
 
-### fedwireRoutingNumberId?
+### fedwireRoutingNumberId? {#fedwireroutingnumberid}
 
 > `optional` **fedwireRoutingNumberId**: `string` \| `IJsonLdValueObject`
 
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/fedwireRoutingNumberId
 
 ***
 
-### germanBankleitzahlId?
+### germanBankleitzahlId? {#germanbankleitzahlid}
 
 > `optional` **germanBankleitzahlId**: `string` \| `IJsonLdValueObject`
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/germanBankleitzahlId
 
 ***
 
-### hellenicBankId?
+### hellenicBankId? {#hellenicbankid}
 
 > `optional` **hellenicBankId**: `string` \| `IJsonLdValueObject`
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/hellenicBankId
 
 ***
 
-### hongKongBankId?
+### hongKongBankId? {#hongkongbankid}
 
 > `optional` **hongKongBankId**: `string` \| `IJsonLdValueObject`
 
@@ -160,7 +160,7 @@ https://vocabulary.uncefact.org/hongKongBankId
 
 ***
 
-### indianFinancialSystemId?
+### indianFinancialSystemId? {#indianfinancialsystemid}
 
 > `optional` **indianFinancialSystemId**: `string` \| `IJsonLdValueObject`
 
@@ -172,7 +172,7 @@ https://vocabulary.uncefact.org/indianFinancialSystemId
 
 ***
 
-### irishNSCId?
+### irishNSCId? {#irishnscid}
 
 > `optional` **irishNSCId**: `string` \| `IJsonLdValueObject`
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/irishNSCId
 
 ***
 
-### italianDomesticId?
+### italianDomesticId? {#italiandomesticid}
 
 > `optional` **italianDomesticId**: `string` \| `IJsonLdValueObject`
 
@@ -198,7 +198,7 @@ https://vocabulary.uncefact.org/italianDomesticId
 
 ***
 
-### japanFinancialInstitutionCommonId?
+### japanFinancialInstitutionCommonId? {#japanfinancialinstitutioncommonid}
 
 > `optional` **japanFinancialInstitutionCommonId**: `string` \| `IJsonLdValueObject`
 
@@ -211,7 +211,7 @@ https://vocabulary.uncefact.org/japanFinancialInstitutionCommonId
 
 ***
 
-### locationAddress?
+### locationAddress? {#locationaddress}
 
 > `optional` **locationAddress**: [`IUneceFinancialInstitutionAddress`](IUneceFinancialInstitutionAddress.md)
 
@@ -223,7 +223,7 @@ https://vocabulary.uncefact.org/locationAddress
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -235,7 +235,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### newZealandNCCId?
+### newZealandNCCId? {#newzealandnccid}
 
 > `optional` **newZealandNCCId**: `string` \| `IJsonLdValueObject`
 
@@ -248,7 +248,7 @@ https://vocabulary.uncefact.org/newZealandNCCId
 
 ***
 
-### polishNationalClearingId?
+### polishNationalClearingId? {#polishnationalclearingid}
 
 > `optional` **polishNationalClearingId**: `string` \| `IJsonLdValueObject`
 
@@ -260,7 +260,7 @@ https://vocabulary.uncefact.org/polishNationalClearingId
 
 ***
 
-### portugueseNCCId?
+### portugueseNCCId? {#portuguesenccid}
 
 > `optional` **portugueseNCCId**: `string` \| `IJsonLdValueObject`
 
@@ -272,7 +272,7 @@ https://vocabulary.uncefact.org/portugueseNCCId
 
 ***
 
-### russianCentralBankId?
+### russianCentralBankId? {#russiancentralbankid}
 
 > `optional` **russianCentralBankId**: `string` \| `IJsonLdValueObject`
 
@@ -284,7 +284,7 @@ https://vocabulary.uncefact.org/russianCentralBankId
 
 ***
 
-### sICId?
+### sICId? {#sicid}
 
 > `optional` **sICId**: `string` \| `IJsonLdValueObject`
 
@@ -296,7 +296,7 @@ https://vocabulary.uncefact.org/sICId
 
 ***
 
-### southAfricanNCCId?
+### southAfricanNCCId? {#southafricannccid}
 
 > `optional` **southAfricanNCCId**: `string` \| `IJsonLdValueObject`
 
@@ -309,7 +309,7 @@ https://vocabulary.uncefact.org/southAfricanNCCId
 
 ***
 
-### spanishDomesticInterbankingId?
+### spanishDomesticInterbankingId? {#spanishdomesticinterbankingid}
 
 > `optional` **spanishDomesticInterbankingId**: `string` \| `IJsonLdValueObject`
 
@@ -322,7 +322,7 @@ https://vocabulary.uncefact.org/spanishDomesticInterbankingId
 
 ***
 
-### subDivisionFinancialInstitution?
+### subDivisionFinancialInstitution? {#subdivisionfinancialinstitution}
 
 > `optional` **subDivisionFinancialInstitution**: [`IUneceBranchFinancialInstitution`](IUneceBranchFinancialInstitution.md)
 
@@ -334,7 +334,7 @@ https://vocabulary.uncefact.org/subDivisionFinancialInstitution
 
 ***
 
-### swissBCId?
+### swissBCId? {#swissbcid}
 
 > `optional` **swissBCId**: `string` \| `IJsonLdValueObject`
 
@@ -346,7 +346,7 @@ https://vocabulary.uncefact.org/swissBCId
 
 ***
 
-### uKSortCodeId?
+### uKSortCodeId? {#uksortcodeid}
 
 > `optional` **uKSortCodeId**: `string` \| `IJsonLdValueObject`
 

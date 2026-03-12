@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/Standard
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Standard"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### agencyId?
+### agencyId? {#agencyid}
 
 > `optional` **agencyId**: `string` \| `IJsonLdValueObject`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/agencyId
 
 ***
 
-### applicableAssessment?
+### applicableAssessment? {#applicableassessment}
 
 > `optional` **applicableAssessment**: [`IUneceAssessment`](IUneceAssessment.md)[]
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/applicableAssessment
 
 ***
 
-### applicableCountry?
+### applicableCountry? {#applicablecountry}
 
 > `optional` **applicableCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableCountry
 
 ***
 
-### applicableDeclaration?
+### applicableDeclaration? {#applicabledeclaration}
 
 > `optional` **applicableDeclaration**: [`IUneceSpecifiedDeclaration`](IUneceSpecifiedDeclaration.md)[]
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/applicableDeclaration
 
 ***
 
-### applicableLicence?
+### applicableLicence? {#applicablelicence}
 
 > `optional` **applicableLicence**: [`IUneceLicence`](IUneceLicence.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/applicableLicence
 
 ***
 
-### applicableMetricCharacteristic?
+### applicableMetricCharacteristic? {#applicablemetriccharacteristic}
 
 > `optional` **applicableMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/applicableMetricCharacteristic
 
 ***
 
-### applicableSpecifiedCertificate?
+### applicableSpecifiedCertificate? {#applicablespecifiedcertificate}
 
 > `optional` **applicableSpecifiedCertificate**: [`IUneceSpecifiedCertificate`](IUneceSpecifiedCertificate.md)[]
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/applicableSpecifiedCertificate
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### elementVersionId?
+### elementVersionId? {#elementversionid}
 
 > `optional` **elementVersionId**: `string` \| `IJsonLdValueObject`
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/elementVersionId
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### partId?
+### partId? {#partid}
 
 > `optional` **partId**: `string` \| `IJsonLdValueObject`
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/partId
 
 ***
 
-### specifiedAssertion?
+### specifiedAssertion? {#specifiedassertion}
 
 > `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ***
 
-### specifiedDocument?
+### specifiedDocument? {#specifieddocument}
 
 > `optional` **specifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/specifiedDocument
 
 ***
 
-### typeCode?
+### typeCode? {#typecode}
 
 > `optional` **typeCode**: `string`
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ***
 
-### uRIId?
+### uRIId? {#uriid}
 
 > `optional` **uRIId**: `string` \| `IJsonLdValueObject`
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ***
 
-### versionId?
+### versionId? {#versionid}
 
 > `optional` **versionId**: `string` \| `IJsonLdValueObject`
 

@@ -10,7 +10,7 @@ Additional properties.
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -18,7 +18,7 @@ The URI id.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `string`
 

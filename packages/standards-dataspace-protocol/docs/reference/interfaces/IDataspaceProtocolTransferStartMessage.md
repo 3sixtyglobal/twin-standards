@@ -5,7 +5,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-st
 
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
@@ -13,7 +13,7 @@ LD Context
 
 ***
 
-### @type
+### @type {#type}
 
 > **@type**: `"TransferStartMessage"`
 
@@ -21,7 +21,7 @@ LD Type
 
 ***
 
-### consumerPid
+### consumerPid {#consumerpid}
 
 > **consumerPid**: `string`
 
@@ -29,7 +29,7 @@ MUST refer to the transfer identifier of the Consumer side.
 
 ***
 
-### providerPid
+### providerPid {#providerpid}
 
 > **providerPid**: `string`
 
@@ -37,7 +37,7 @@ MUST refer to the transfer identifier of the Provider side.
 
 ***
 
-### dataAddress?
+### dataAddress? {#dataaddress}
 
 > `optional` **dataAddress**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
 

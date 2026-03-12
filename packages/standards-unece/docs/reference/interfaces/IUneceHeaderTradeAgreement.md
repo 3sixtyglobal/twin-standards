@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/HeaderTradeAgreement
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"HeaderTradeAgreement"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### additionalDocument?
+### additionalDocument? {#additionaldocument}
 
 > `optional` **additionalDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/additionalDocument
 
 ***
 
-### applicableDeliveryTerms?
+### applicableDeliveryTerms? {#applicabledeliveryterms}
 
 > `optional` **applicableDeliveryTerms**: [`IUneceDeliveryTerms`](IUneceDeliveryTerms.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/applicableDeliveryTerms
 
 ***
 
-### applicableForecastTerms?
+### applicableForecastTerms? {#applicableforecastterms}
 
 > `optional` **applicableForecastTerms**: [`IUneceForecastTerms`](IUneceForecastTerms.md)
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/applicableForecastTerms
 
 ***
 
-### applicableLogisticsLocation?
+### applicableLogisticsLocation? {#applicablelogisticslocation}
 
 > `optional` **applicableLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/applicableLogisticsLocation
 
 ***
 
-### applicableLocation?
+### applicableLocation? {#applicablelocation}
 
 > `optional` **applicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/applicableLocation
 
 ***
 
-### applicablePaymentTerms?
+### applicablePaymentTerms? {#applicablepaymentterms}
 
 > `optional` **applicablePaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/applicablePaymentTerms
 
 ***
 
-### applicableRegulatoryProcedure?
+### applicableRegulatoryProcedure? {#applicableregulatoryprocedure}
 
 > `optional` **applicableRegulatoryProcedure**: [`IUneceRegulatoryProcedure`](IUneceRegulatoryProcedure.md)[]
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/applicableRegulatoryProcedure
 
 ***
 
-### blanketOrderDocument?
+### blanketOrderDocument? {#blanketorderdocument}
 
 > `optional` **blanketOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/blanketOrderDocument
 
 ***
 
-### buyerAgentParty?
+### buyerAgentParty? {#buyeragentparty}
 
 > `optional` **buyerAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/buyerAgentParty
 
 ***
 
-### buyerApprovedDateTime?
+### buyerApprovedDateTime? {#buyerapproveddatetime}
 
 > `optional` **buyerApprovedDateTime**: `string`
 
@@ -144,7 +144,7 @@ https://vocabulary.uncefact.org/buyerApprovedDateTime
 
 ***
 
-### buyerAssignedAccountantParty?
+### buyerAssignedAccountantParty? {#buyerassignedaccountantparty}
 
 > `optional` **buyerAssignedAccountantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -156,7 +156,7 @@ https://vocabulary.uncefact.org/buyerAssignedAccountantParty
 
 ***
 
-### buyerOrderDocument?
+### buyerOrderDocument? {#buyerorderdocument}
 
 > `optional` **buyerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -168,7 +168,7 @@ https://vocabulary.uncefact.org/buyerOrderDocument
 
 ***
 
-### buyerParty?
+### buyerParty? {#buyerparty}
 
 > `optional` **buyerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -180,7 +180,7 @@ https://vocabulary.uncefact.org/buyerParty
 
 ***
 
-### buyerReference?
+### buyerReference? {#buyerreference}
 
 > `optional` **buyerReference**: `string`
 
@@ -192,7 +192,7 @@ https://vocabulary.uncefact.org/buyerReference
 
 ***
 
-### buyerRequisitionerParty?
+### buyerRequisitionerParty? {#buyerrequisitionerparty}
 
 > `optional` **buyerRequisitionerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -204,7 +204,7 @@ https://vocabulary.uncefact.org/buyerRequisitionerParty
 
 ***
 
-### buyerTaxRepresentativeParty?
+### buyerTaxRepresentativeParty? {#buyertaxrepresentativeparty}
 
 > `optional` **buyerTaxRepresentativeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -216,7 +216,7 @@ https://vocabulary.uncefact.org/buyerTaxRepresentativeParty
 
 ***
 
-### carrierParty?
+### carrierParty? {#carrierparty}
 
 > `optional` **carrierParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -228,7 +228,7 @@ https://vocabulary.uncefact.org/carrierParty
 
 ***
 
-### catalogueDocument?
+### catalogueDocument? {#cataloguedocument}
 
 > `optional` **catalogueDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -240,7 +240,7 @@ https://vocabulary.uncefact.org/catalogueDocument
 
 ***
 
-### catalogueInformationProviderParty?
+### catalogueInformationProviderParty? {#catalogueinformationproviderparty}
 
 > `optional` **catalogueInformationProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -252,7 +252,7 @@ https://vocabulary.uncefact.org/catalogueInformationProviderParty
 
 ***
 
-### catalogueInformationReceiverParty?
+### catalogueInformationReceiverParty? {#catalogueinformationreceiverparty}
 
 > `optional` **catalogueInformationReceiverParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -264,7 +264,7 @@ https://vocabulary.uncefact.org/catalogueInformationReceiverParty
 
 ***
 
-### catalogueRequestDocument?
+### catalogueRequestDocument? {#cataloguerequestdocument}
 
 > `optional` **catalogueRequestDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -276,7 +276,7 @@ https://vocabulary.uncefact.org/catalogueRequestDocument
 
 ***
 
-### catalogueSubscriptionDocument?
+### catalogueSubscriptionDocument? {#cataloguesubscriptiondocument}
 
 > `optional` **catalogueSubscriptionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -288,7 +288,7 @@ https://vocabulary.uncefact.org/catalogueSubscriptionDocument
 
 ***
 
-### contractDocument?
+### contractDocument? {#contractdocument}
 
 > `optional` **contractDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -300,7 +300,7 @@ https://vocabulary.uncefact.org/contractDocument
 
 ***
 
-### demandForecastDocument?
+### demandForecastDocument? {#demandforecastdocument}
 
 > `optional` **demandForecastDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -312,7 +312,7 @@ https://vocabulary.uncefact.org/demandForecastDocument
 
 ***
 
-### engineeringChangeDocument?
+### engineeringChangeDocument? {#engineeringchangedocument}
 
 > `optional` **engineeringChangeDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -324,7 +324,7 @@ https://vocabulary.uncefact.org/engineeringChangeDocument
 
 ***
 
-### exportLicenceDocument?
+### exportLicenceDocument? {#exportlicencedocument}
 
 > `optional` **exportLicenceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -336,7 +336,7 @@ https://vocabulary.uncefact.org/exportLicenceDocument
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -348,7 +348,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### impactCode?
+### impactCode? {#impactcode}
 
 > `optional` **impactCode**: `string`
 
@@ -360,7 +360,7 @@ https://vocabulary.uncefact.org/impactCode
 
 ***
 
-### importLicenceDocument?
+### importLicenceDocument? {#importlicencedocument}
 
 > `optional` **importLicenceDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -372,7 +372,7 @@ https://vocabulary.uncefact.org/importLicenceDocument
 
 ***
 
-### letterOfCreditDocument?
+### letterOfCreditDocument? {#letterofcreditdocument}
 
 > `optional` **letterOfCreditDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -384,7 +384,7 @@ https://vocabulary.uncefact.org/letterOfCreditDocument
 
 ***
 
-### marketplaceOrderDocument?
+### marketplaceOrderDocument? {#marketplaceorderdocument}
 
 > `optional` **marketplaceOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -396,7 +396,7 @@ https://vocabulary.uncefact.org/marketplaceOrderDocument
 
 ***
 
-### orderResponseDocument?
+### orderResponseDocument? {#orderresponsedocument}
 
 > `optional` **orderResponseDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -408,7 +408,7 @@ https://vocabulary.uncefact.org/orderResponseDocument
 
 ***
 
-### originalOrderDocument?
+### originalOrderDocument? {#originalorderdocument}
 
 > `optional` **originalOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -420,7 +420,7 @@ https://vocabulary.uncefact.org/originalOrderDocument
 
 ***
 
-### previousOrderChangeDocument?
+### previousOrderChangeDocument? {#previousorderchangedocument}
 
 > `optional` **previousOrderChangeDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -432,7 +432,7 @@ https://vocabulary.uncefact.org/previousOrderChangeDocument
 
 ***
 
-### previousOrderDocument?
+### previousOrderDocument? {#previousorderdocument}
 
 > `optional` **previousOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -444,7 +444,7 @@ https://vocabulary.uncefact.org/previousOrderDocument
 
 ***
 
-### previousOrderResponseDocument?
+### previousOrderResponseDocument? {#previousorderresponsedocument}
 
 > `optional` **previousOrderResponseDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -456,7 +456,7 @@ https://vocabulary.uncefact.org/previousOrderResponseDocument
 
 ***
 
-### priceListDocument?
+### priceListDocument? {#pricelistdocument}
 
 > `optional` **priceListDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -468,7 +468,7 @@ https://vocabulary.uncefact.org/priceListDocument
 
 ***
 
-### pricingBaseApplicableLocation?
+### pricingBaseApplicableLocation? {#pricingbaseapplicablelocation}
 
 > `optional` **pricingBaseApplicableLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
@@ -480,7 +480,7 @@ https://vocabulary.uncefact.org/pricingBaseApplicableLocation
 
 ***
 
-### primeContractSellerParty?
+### primeContractSellerParty? {#primecontractsellerparty}
 
 > `optional` **primeContractSellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -492,7 +492,7 @@ https://vocabulary.uncefact.org/primeContractSellerParty
 
 ***
 
-### priorityCode?
+### priorityCode? {#prioritycode}
 
 > `optional` **priorityCode**: `string`
 
@@ -504,7 +504,7 @@ https://vocabulary.uncefact.org/priorityCode
 
 ***
 
-### priorityDescriptionCode?
+### priorityDescriptionCode? {#prioritydescriptioncode}
 
 > `optional` **priorityDescriptionCode**: [`UnecePriorityDescriptionCodeList`](../type-aliases/UnecePriorityDescriptionCodeList.md)
 
@@ -516,7 +516,7 @@ https://vocabulary.uncefact.org/priorityDescriptionCode
 
 ***
 
-### procurementParty?
+### procurementParty? {#procurementparty}
 
 > `optional` **procurementParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -528,7 +528,7 @@ https://vocabulary.uncefact.org/procurementParty
 
 ***
 
-### productEndUserParty?
+### productEndUserParty? {#productenduserparty}
 
 > `optional` **productEndUserParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -540,7 +540,7 @@ https://vocabulary.uncefact.org/productEndUserParty
 
 ***
 
-### promotionalDealDocument?
+### promotionalDealDocument? {#promotionaldealdocument}
 
 > `optional` **promotionalDealDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -552,7 +552,7 @@ https://vocabulary.uncefact.org/promotionalDealDocument
 
 ***
 
-### purchaseConditionsDocument?
+### purchaseConditionsDocument? {#purchaseconditionsdocument}
 
 > `optional` **purchaseConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -564,7 +564,7 @@ https://vocabulary.uncefact.org/purchaseConditionsDocument
 
 ***
 
-### quotationDocument?
+### quotationDocument? {#quotationdocument}
 
 > `optional` **quotationDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -576,7 +576,7 @@ https://vocabulary.uncefact.org/quotationDocument
 
 ***
 
-### quotationProposalDocument?
+### quotationProposalDocument? {#quotationproposaldocument}
 
 > `optional` **quotationProposalDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -588,7 +588,7 @@ https://vocabulary.uncefact.org/quotationProposalDocument
 
 ***
 
-### quotationProposalResponseDocument?
+### quotationProposalResponseDocument? {#quotationproposalresponsedocument}
 
 > `optional` **quotationProposalResponseDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -600,7 +600,7 @@ https://vocabulary.uncefact.org/quotationProposalResponseDocument
 
 ***
 
-### quotationRequestDocument?
+### quotationRequestDocument? {#quotationrequestdocument}
 
 > `optional` **quotationRequestDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -612,7 +612,7 @@ https://vocabulary.uncefact.org/quotationRequestDocument
 
 ***
 
-### quotationRequestResponseDocument?
+### quotationRequestResponseDocument? {#quotationrequestresponsedocument}
 
 > `optional` **quotationRequestResponseDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -624,7 +624,7 @@ https://vocabulary.uncefact.org/quotationRequestResponseDocument
 
 ***
 
-### quoteReferencedWorkflowObject?
+### quoteReferencedWorkflowObject? {#quotereferencedworkflowobject}
 
 > `optional` **quoteReferencedWorkflowObject**: [`IUneceWorkflowObject`](IUneceWorkflowObject.md)
 
@@ -636,7 +636,7 @@ https://vocabulary.uncefact.org/quoteReferencedWorkflowObject
 
 ***
 
-### reference?
+### reference? {#reference}
 
 > `optional` **reference**: `string`
 
@@ -648,7 +648,7 @@ https://vocabulary.uncefact.org/reference
 
 ***
 
-### relevantParty?
+### relevantParty? {#relevantparty}
 
 > `optional` **relevantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
@@ -660,7 +660,7 @@ https://vocabulary.uncefact.org/relevantParty
 
 ***
 
-### requisitionDocument?
+### requisitionDocument? {#requisitiondocument}
 
 > `optional` **requisitionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -672,7 +672,7 @@ https://vocabulary.uncefact.org/requisitionDocument
 
 ***
 
-### requisitionerDocument?
+### requisitionerDocument? {#requisitionerdocument}
 
 > `optional` **requisitionerDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -684,7 +684,7 @@ https://vocabulary.uncefact.org/requisitionerDocument
 
 ***
 
-### revisionId?
+### revisionId? {#revisionid}
 
 > `optional` **revisionId**: `string` \| `IJsonLdValueObject`
 
@@ -696,7 +696,7 @@ https://vocabulary.uncefact.org/revisionId
 
 ***
 
-### salesAgentParty?
+### salesAgentParty? {#salesagentparty}
 
 > `optional` **salesAgentParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -708,7 +708,7 @@ https://vocabulary.uncefact.org/salesAgentParty
 
 ***
 
-### salesConditionsDocument?
+### salesConditionsDocument? {#salesconditionsdocument}
 
 > `optional` **salesConditionsDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -720,7 +720,7 @@ https://vocabulary.uncefact.org/salesConditionsDocument
 
 ***
 
-### salesReportDocument?
+### salesReportDocument? {#salesreportdocument}
 
 > `optional` **salesReportDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -732,7 +732,7 @@ https://vocabulary.uncefact.org/salesReportDocument
 
 ***
 
-### sellerAssignedAccountantParty?
+### sellerAssignedAccountantParty? {#sellerassignedaccountantparty}
 
 > `optional` **sellerAssignedAccountantParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -744,7 +744,7 @@ https://vocabulary.uncefact.org/sellerAssignedAccountantParty
 
 ***
 
-### sellerOrderDocument?
+### sellerOrderDocument? {#sellerorderdocument}
 
 > `optional` **sellerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)
 
@@ -756,7 +756,7 @@ https://vocabulary.uncefact.org/sellerOrderDocument
 
 ***
 
-### sellerParty?
+### sellerParty? {#sellerparty}
 
 > `optional` **sellerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -768,7 +768,7 @@ https://vocabulary.uncefact.org/sellerParty
 
 ***
 
-### sellerReference?
+### sellerReference? {#sellerreference}
 
 > `optional` **sellerReference**: `string`
 
@@ -780,7 +780,7 @@ https://vocabulary.uncefact.org/sellerReference
 
 ***
 
-### sellerTaxRepresentativeParty?
+### sellerTaxRepresentativeParty? {#sellertaxrepresentativeparty}
 
 > `optional` **sellerTaxRepresentativeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -792,7 +792,7 @@ https://vocabulary.uncefact.org/sellerTaxRepresentativeParty
 
 ***
 
-### shippingPeriod?
+### shippingPeriod? {#shippingperiod}
 
 > `optional` **shippingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
@@ -804,7 +804,7 @@ https://vocabulary.uncefact.org/shippingPeriod
 
 ***
 
-### specifiedProject?
+### specifiedProject? {#specifiedproject}
 
 > `optional` **specifiedProject**: [`IUneceProject`](IUneceProject.md)
 
@@ -816,7 +816,7 @@ https://vocabulary.uncefact.org/specifiedProject
 
 ***
 
-### supplyInstructionDocument?
+### supplyInstructionDocument? {#supplyinstructiondocument}
 
 > `optional` **supplyInstructionDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 
@@ -828,7 +828,7 @@ https://vocabulary.uncefact.org/supplyInstructionDocument
 
 ***
 
-### targetMarketCountry?
+### targetMarketCountry? {#targetmarketcountry}
 
 > `optional` **targetMarketCountry**: [`IUneceCountry`](IUneceCountry.md)[]
 
@@ -840,7 +840,7 @@ https://vocabulary.uncefact.org/targetMarketCountry
 
 ***
 
-### ultimateCustomerOrderDocument?
+### ultimateCustomerOrderDocument? {#ultimatecustomerorderdocument}
 
 > `optional` **ultimateCustomerOrderDocument**: [`IUneceDocument`](IUneceDocument.md)[]
 

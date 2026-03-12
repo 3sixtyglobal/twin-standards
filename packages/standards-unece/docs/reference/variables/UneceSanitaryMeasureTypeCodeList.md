@@ -6,7 +6,7 @@ Values for UneceSanitaryMeasure typeCode property.
 
 ## Type Declaration
 
-### AppliedSanitaryMeasure
+### AppliedSanitaryMeasure {#appliedsanitarymeasure}
 
 > `readonly` **AppliedSanitaryMeasure**: `"unece:appliedSanitaryMeasure"` = `"unece:appliedSanitaryMeasure"`
 

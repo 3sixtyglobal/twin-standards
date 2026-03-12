@@ -8,55 +8,55 @@ Source: inline `facilityTypeCode` enum in the `transportCall` schema in the DCSA
 
 ## Type Declaration
 
-### BOCR
+### BOCR {#bocr}
 
 > `readonly` **BOCR**: `"BOCR"` = `"BOCR"`
 
 Border.
 
-### CLOC
+### CLOC {#cloc}
 
 > `readonly` **CLOC**: `"CLOC"` = `"CLOC"`
 
 Customer location.
 
-### COFS
+### COFS {#cofs}
 
 > `readonly` **COFS**: `"COFS"` = `"COFS"`
 
 Container freight station.
 
-### OFFD
+### OFFD {#offd}
 
 > `readonly` **OFFD**: `"OFFD"` = `"OFFD"`
 
 Off dock storage.
 
-### DEPO
+### DEPO {#depo}
 
 > `readonly` **DEPO**: `"DEPO"` = `"DEPO"`
 
 Depot.
 
-### INTE
+### INTE {#inte}
 
 > `readonly` **INTE**: `"INTE"` = `"INTE"`
 
 Inland terminal.
 
-### POTE
+### POTE {#pote}
 
 > `readonly` **POTE**: `"POTE"` = `"POTE"`
 
 Port terminal.
 
-### RAMP
+### RAMP {#ramp}
 
 > `readonly` **RAMP**: `"RAMP"` = `"RAMP"`
 
 Ramp.
 
-### WAYP
+### WAYP {#wayp}
 
 > `readonly` **WAYP**: `"WAYP"` = `"WAYP"`
 

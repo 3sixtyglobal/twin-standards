@@ -6,7 +6,7 @@ Values for UneceSegment typeCode property.
 
 ## Type Declaration
 
-### IncludedSegment
+### IncludedSegment {#includedsegment}
 
 > `readonly` **IncludedSegment**: `"unece:includedSegment"` = `"unece:includedSegment"`
 

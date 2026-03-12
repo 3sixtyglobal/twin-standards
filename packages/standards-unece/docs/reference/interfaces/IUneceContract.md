@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/Contract
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"Contract"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### automaticExtensionDateTime?
+### automaticExtensionDateTime? {#automaticextensiondatetime}
 
 > `optional` **automaticExtensionDateTime**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/automaticExtensionDateTime
 
 ***
 
-### automaticExtensionDurationMeasure?
+### automaticExtensionDurationMeasure? {#automaticextensiondurationmeasure}
 
 > `optional` **automaticExtensionDurationMeasure**: [`IUneceDurationUnitMeasureType`](IUneceDurationUnitMeasureType.md)
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/automaticExtensionDurationMeasure
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier
+### identifier {#identifier}
 
 > **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -96,7 +96,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### signatureName?
+### signatureName? {#signaturename}
 
 > `optional` **signatureName**: `string`
 
@@ -108,7 +108,7 @@ https://vocabulary.uncefact.org/signatureName
 
 ***
 
-### signedDateTime?
+### signedDateTime? {#signeddatetime}
 
 > `optional` **signedDateTime**: `string`
 
@@ -120,7 +120,7 @@ https://vocabulary.uncefact.org/signedDateTime
 
 ***
 
-### signedLocation?
+### signedLocation? {#signedlocation}
 
 > `optional` **signedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
@@ -132,7 +132,7 @@ https://vocabulary.uncefact.org/signedLocation
 
 ***
 
-### signeeJobTitle?
+### signeeJobTitle? {#signeejobtitle}
 
 > `optional` **signeeJobTitle**: `string`
 

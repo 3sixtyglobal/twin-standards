@@ -9,7 +9,7 @@ https://vocabulary.uncefact.org/SpecifiedCertificate
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -17,7 +17,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"SpecifiedCertificate"`
 
@@ -25,7 +25,7 @@ JSON-LD Type.
 
 ***
 
-### actualEffectiveDateTime?
+### actualEffectiveDateTime? {#actualeffectivedatetime}
 
 > `optional` **actualEffectiveDateTime**: `string`
 
@@ -37,7 +37,7 @@ https://vocabulary.uncefact.org/actualEffectiveDateTime
 
 ***
 
-### aliasNameCode?
+### aliasNameCode? {#aliasnamecode}
 
 > `optional` **aliasNameCode**: `string`
 
@@ -49,7 +49,7 @@ https://vocabulary.uncefact.org/aliasNameCode
 
 ***
 
-### applicableClause?
+### applicableClause? {#applicableclause}
 
 > `optional` **applicableClause**: [`IUneceClause`](IUneceClause.md)[]
 
@@ -61,7 +61,7 @@ https://vocabulary.uncefact.org/applicableClause
 
 ***
 
-### applicableGeographicRegion?
+### applicableGeographicRegion? {#applicablegeographicregion}
 
 > `optional` **applicableGeographicRegion**: `string`
 
@@ -73,7 +73,7 @@ https://vocabulary.uncefact.org/applicableGeographicRegion
 
 ***
 
-### applicableStandard?
+### applicableStandard? {#applicablestandard}
 
 > `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
 
@@ -85,7 +85,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ***
 
-### applicableSustainabilityCharacteristic?
+### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
 > `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
@@ -97,7 +97,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ***
 
-### assuranceLevelCode?
+### assuranceLevelCode? {#assurancelevelcode}
 
 > `optional` **assuranceLevelCode**: `string`
 
@@ -109,7 +109,7 @@ https://vocabulary.uncefact.org/assuranceLevelCode
 
 ***
 
-### attachedBinaryFile?
+### attachedBinaryFile? {#attachedbinaryfile}
 
 > `optional` **attachedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
@@ -121,7 +121,7 @@ https://vocabulary.uncefact.org/attachedBinaryFile
 
 ***
 
-### availableLanguageCode?
+### availableLanguageCode? {#availablelanguagecode}
 
 > `optional` **availableLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)[]
 
@@ -133,7 +133,7 @@ https://vocabulary.uncefact.org/availableLanguageCode
 
 ***
 
-### capabilityLevel?
+### capabilityLevel? {#capabilitylevel}
 
 > `optional` **capabilityLevel**: `string`
 
@@ -145,7 +145,7 @@ https://vocabulary.uncefact.org/capabilityLevel
 
 ***
 
-### categoryCode?
+### categoryCode? {#categorycode}
 
 > `optional` **categoryCode**: `string`
 
@@ -157,7 +157,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ***
 
-### certificateTypeCode?
+### certificateTypeCode? {#certificatetypecode}
 
 > `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)[]
 
@@ -169,7 +169,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ***
 
-### certifiedObject?
+### certifiedObject? {#certifiedobject}
 
 > `optional` **certifiedObject**: [`IUneceObject`](IUneceObject.md)[]
 
@@ -181,7 +181,7 @@ https://vocabulary.uncefact.org/certifiedObject
 
 ***
 
-### certifiedParty?
+### certifiedParty? {#certifiedparty}
 
 > `optional` **certifiedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -193,7 +193,7 @@ https://vocabulary.uncefact.org/certifiedParty
 
 ***
 
-### certifiedPersonQuantity?
+### certifiedPersonQuantity? {#certifiedpersonquantity}
 
 > `optional` **certifiedPersonQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
@@ -205,7 +205,7 @@ https://vocabulary.uncefact.org/certifiedPersonQuantity
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -217,7 +217,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### effectiveFromDateTime?
+### effectiveFromDateTime? {#effectivefromdatetime}
 
 > `optional` **effectiveFromDateTime**: `string`
 
@@ -229,7 +229,7 @@ https://vocabulary.uncefact.org/effectiveFromDateTime
 
 ***
 
-### endorsementDateTime?
+### endorsementDateTime? {#endorsementdatetime}
 
 > `optional` **endorsementDateTime**: `string`
 
@@ -241,7 +241,7 @@ https://vocabulary.uncefact.org/endorsementDateTime
 
 ***
 
-### expiryDateTime?
+### expiryDateTime? {#expirydatetime}
 
 > `optional` **expiryDateTime**: `string`
 
@@ -253,7 +253,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -265,7 +265,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### issuanceLocation?
+### issuanceLocation? {#issuancelocation}
 
 > `optional` **issuanceLocation**: [`IUneceTradeLocation`](IUneceTradeLocation.md)[]
 
@@ -277,7 +277,7 @@ https://vocabulary.uncefact.org/issuanceLocation
 
 ***
 
-### issueDateTime?
+### issueDateTime? {#issuedatetime}
 
 > `optional` **issueDateTime**: `string`
 
@@ -289,7 +289,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ***
 
-### issueReasonCode?
+### issueReasonCode? {#issuereasoncode}
 
 > `optional` **issueReasonCode**: `string`
 
@@ -301,7 +301,7 @@ https://vocabulary.uncefact.org/issueReasonCode
 
 ***
 
-### issuerParty?
+### issuerParty? {#issuerparty}
 
 > `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -313,7 +313,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ***
 
-### latestEndorsementDateTime?
+### latestEndorsementDateTime? {#latestendorsementdatetime}
 
 > `optional` **latestEndorsementDateTime**: `string`
 
@@ -325,7 +325,7 @@ https://vocabulary.uncefact.org/latestEndorsementDateTime
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 
@@ -337,7 +337,7 @@ https://vocabulary.uncefact.org/name
 
 ***
 
-### partyId?
+### partyId? {#partyid}
 
 > `optional` **partyId**: `string` \| `IJsonLdValueObject`
 
@@ -349,7 +349,7 @@ https://vocabulary.uncefact.org/partyId
 
 ***
 
-### providingParty?
+### providingParty? {#providingparty}
 
 > `optional` **providingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
@@ -361,7 +361,7 @@ https://vocabulary.uncefact.org/providingParty
 
 ***
 
-### purposeCode?
+### purposeCode? {#purposecode}
 
 > `optional` **purposeCode**: `string`
 
@@ -373,7 +373,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ***
 
-### relatedTradeTransaction?
+### relatedTradeTransaction? {#relatedtradetransaction}
 
 > `optional` **relatedTradeTransaction**: [`IUneceSupplyChainTradeTransaction`](IUneceSupplyChainTradeTransaction.md)[]
 
@@ -385,7 +385,7 @@ https://vocabulary.uncefact.org/relatedTradeTransaction
 
 ***
 
-### reportedDocumentStatus?
+### reportedDocumentStatus? {#reporteddocumentstatus}
 
 > `optional` **reportedDocumentStatus**: [`IUneceDocumentStatus`](IUneceDocumentStatus.md)[]
 
@@ -397,7 +397,7 @@ https://vocabulary.uncefact.org/reportedDocumentStatus
 
 ***
 
-### requestedEffectiveDateTime?
+### requestedEffectiveDateTime? {#requestedeffectivedatetime}
 
 > `optional` **requestedEffectiveDateTime**: `string`
 
@@ -409,7 +409,7 @@ https://vocabulary.uncefact.org/requestedEffectiveDateTime
 
 ***
 
-### requiredIndicator?
+### requiredIndicator? {#requiredindicator}
 
 > `optional` **requiredIndicator**: `boolean`
 
@@ -421,7 +421,7 @@ https://vocabulary.uncefact.org/requiredIndicator
 
 ***
 
-### sequenceNumeric?
+### sequenceNumeric? {#sequencenumeric}
 
 > `optional` **sequenceNumeric**: `string`
 
@@ -433,7 +433,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ***
 
-### statusCode?
+### statusCode? {#statuscode}
 
 > `optional` **statusCode**: `string`
 
@@ -445,7 +445,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ***
 
-### subjectTypeCode?
+### subjectTypeCode? {#subjecttypecode}
 
 > `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
@@ -457,7 +457,7 @@ https://vocabulary.uncefact.org/subjectTypeCode
 
 ***
 
-### validIndicator?
+### validIndicator? {#validindicator}
 
 > `optional` **validIndicator**: `boolean`
 
@@ -469,7 +469,7 @@ https://vocabulary.uncefact.org/validIndicator
 
 ***
 
-### validityExtendedUntilDateTime?
+### validityExtendedUntilDateTime? {#validityextendeduntildatetime}
 
 > `optional` **validityExtendedUntilDateTime**: `string`
 
@@ -482,7 +482,7 @@ https://vocabulary.uncefact.org/validityExtendedUntilDateTime
 
 ***
 
-### validityTypeCode?
+### validityTypeCode? {#validitytypecode}
 
 > `optional` **validityTypeCode**: `string`
 

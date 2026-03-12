@@ -8,7 +8,7 @@ https://ref.gs1.org/epcis/QuantityElement
 
 ## Properties
 
-### epcClass
+### epcClass {#epcclass}
 
 > **epcClass**: `string`
 
@@ -17,7 +17,7 @@ objects belongs.
 
 ***
 
-### quantity?
+### quantity? {#quantity}
 
 > `optional` **quantity**: `number`
 
@@ -26,7 +26,7 @@ EPCClass is denoted by this QuantityElement.
 
 ***
 
-### uom?
+### uom? {#uom}
 
 > `optional` **uom**: `string`
 

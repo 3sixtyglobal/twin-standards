@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/AcademicQualification
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"AcademicQualification"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### abbreviatedName?
+### abbreviatedName? {#abbreviatedname}
 
 > `optional` **abbreviatedName**: `string`
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/abbreviatedName
 
 ***
 
-### name?
+### name? {#name}
 
 > `optional` **name**: `string`
 

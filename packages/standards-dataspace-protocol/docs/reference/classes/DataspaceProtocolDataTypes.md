@@ -14,7 +14,7 @@ Handle all the data types for Dataspace Protocol.
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -26,7 +26,7 @@ Register the JSON-LD Redirects.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

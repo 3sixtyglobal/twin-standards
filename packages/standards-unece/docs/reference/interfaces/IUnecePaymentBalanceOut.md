@@ -8,7 +8,7 @@ https://vocabulary.uncefact.org/PaymentBalanceOut
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
 > `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
@@ -16,7 +16,7 @@ JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"PaymentBalanceOut"`
 
@@ -24,7 +24,7 @@ JSON-LD Type.
 
 ***
 
-### calculatedAmount?
+### calculatedAmount? {#calculatedamount}
 
 > `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
@@ -36,7 +36,7 @@ https://vocabulary.uncefact.org/calculatedAmount
 
 ***
 
-### description?
+### description? {#description}
 
 > `optional` **description**: `string`
 
@@ -48,7 +48,7 @@ https://vocabulary.uncefact.org/description
 
 ***
 
-### identifier?
+### identifier? {#identifier}
 
 > `optional` **identifier**: `string` \| `IJsonLdValueObject`
 
@@ -60,7 +60,7 @@ https://vocabulary.uncefact.org/identifier
 
 ***
 
-### occurrenceDateTime?
+### occurrenceDateTime? {#occurrencedatetime}
 
 > `optional` **occurrenceDateTime**: `string`
 
@@ -72,7 +72,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ***
 
-### reasonCode?
+### reasonCode? {#reasoncode}
 
 > `optional` **reasonCode**: `string`
 
@@ -84,7 +84,7 @@ https://vocabulary.uncefact.org/reasonCode
 
 ***
 
-### reasonDescription?
+### reasonDescription? {#reasondescription}
 
 > `optional` **reasonDescription**: `string`
 

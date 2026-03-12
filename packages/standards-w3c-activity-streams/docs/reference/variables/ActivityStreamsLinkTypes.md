@@ -6,7 +6,7 @@ The link types concerning Activity Streams.
 
 ## Type Declaration
 
-### Link
+### Link {#link}
 
 > `readonly` **Link**: `"Link"` = `"Link"`
 
@@ -16,7 +16,7 @@ Link
 
 https://www.w3.org/TR/activitystreams-core/#link
 
-### Mention
+### Mention {#mention}
 
 > `readonly` **Mention**: `"Mention"` = `"Mention"`
 

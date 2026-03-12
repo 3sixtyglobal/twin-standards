@@ -6,31 +6,31 @@ RDF Class for LinearUnitMeasureType unit code type to define unit code values.
 
 ## Type Declaration
 
-### Centimetre
+### Centimetre {#centimetre}
 
 > `readonly` **Centimetre**: `"unece:LinearUnitMeasureCode#CMT"` = `"unece:LinearUnitMeasureCode#CMT"`
 
 centimetre: CMT.
 
-### Foot
+### Foot {#foot}
 
 > `readonly` **Foot**: `"unece:LinearUnitMeasureCode#FOT"` = `"unece:LinearUnitMeasureCode#FOT"`
 
 foot: FOT.
 
-### Inch
+### Inch {#inch}
 
 > `readonly` **Inch**: `"unece:LinearUnitMeasureCode#INH"` = `"unece:LinearUnitMeasureCode#INH"`
 
 inch: INH.
 
-### Kilometre
+### Kilometre {#kilometre}
 
 > `readonly` **Kilometre**: `"unece:LinearUnitMeasureCode#KMT"` = `"unece:LinearUnitMeasureCode#KMT"`
 
 kilometre: KMT.
 
-### Metre
+### Metre {#metre}
 
 > `readonly` **Metre**: `"unece:LinearUnitMeasureCode#MTR"` = `"unece:LinearUnitMeasureCode#MTR"`
 
