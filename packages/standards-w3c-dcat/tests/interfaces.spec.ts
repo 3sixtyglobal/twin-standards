@@ -3,8 +3,9 @@
 import { ObjectHelper } from "@twin.org/core";
 import { DataTypeHandlerFactory, JsonSchemaHelper, type IJsonSchema } from "@twin.org/data-core";
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DublinCoreContexts, DublinCoreDataTypes } from "@twin.org/standards-dublin-core";
-import { FoafContexts, FoafDataTypes } from "@twin.org/standards-foaf";
+import { DublinCoreContexts } from "@twin.org/standards-dublin-core";
+import { FoafContexts } from "@twin.org/standards-foaf";
+import { addAllContextsToDocumentCache } from "@twin.org/standards-ld-contexts";
 import { VCardContexts } from "@twin.org/standards-w3c-vcard";
 import { DcatDataTypes } from "../src/dataTypes/dcatDataTypes.js";
 import {
@@ -22,14 +23,9 @@ import { DcatContexts } from "../src/models/dcatContexts.js";
 import type { IDcatResource } from "../src/models/IDcatResource.js";
 
 describe("DCAT Interfaces and Schemas", () => {
-	beforeAll(() => {
-		// Register DCAT redirects for offline JSON-LD processing
-		DcatDataTypes.registerRedirects();
-		// Register DCAT data types for schema validation
+	beforeAll(async () => {
 		DcatDataTypes.registerTypes();
-
-		DublinCoreDataTypes.registerRedirects();
-		FoafDataTypes.registerRedirects();
+		await addAllContextsToDocumentCache();
 	});
 
 	describe("IDcatResource Interface", () => {

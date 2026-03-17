@@ -39,6 +39,7 @@
 	"devDependencies": {
 		"@twin.org/nameof-transformer": "next",
 		"@twin.org/nameof-vitest-plugin": "next",
+		"@twin.org/standards-ld-contexts": "0.0.3-next.54",
 		"@twin.org/validate-locales": "next",
 		"@twin.org/ts-to-schema": "next",
 		"@vitest/coverage-v8": "4.0.18",

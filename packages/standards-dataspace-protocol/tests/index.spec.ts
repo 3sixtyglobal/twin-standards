@@ -11,7 +11,7 @@ import {
 	type IDcatDistribution,
 	type IDcatDataService
 } from "@twin.org/standards-w3c-dcat";
-import { OdrlContexts, OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
+import { OdrlContexts } from "@twin.org/standards-w3c-odrl";
 import {
 	DataspaceProtocolCatalogTypes,
 	DataspaceProtocolContexts,
@@ -26,8 +26,6 @@ import {
 
 describe("Dataspace Protocol", () => {
 	beforeAll(async () => {
-		OdrlDataTypes.registerRedirects();
-		DataspaceProtocolDataTypes.registerRedirects();
 		DataspaceProtocolDataTypes.registerTypes();
 		await addAllContextsToDocumentCache();
 	});

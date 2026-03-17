@@ -53,6 +53,7 @@
 		"release-please": "17.3.0"
 	},
 	"workspaces": [
+		"packages/standards-ld-contexts",
 		"packages/standards-w3c-did",
 		"packages/standards-w3c-vcard",
 		"packages/standards-dublin-core",
@@ -62,7 +63,6 @@
 		"packages/standards-unece",
 		"packages/standards-vda",
 		"packages/standards-gaia-x",
-		"packages/standards-ld-contexts",
 		"packages/standards-w3c-activity-streams",
 		"packages/standards-foaf",
 		"packages/standards-w3c-dcat",
