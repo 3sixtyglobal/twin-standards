@@ -129,6 +129,12 @@ export const ActivityStreamsObjectTypes = {
 	Page: "Page",
 
 	/**
+	 * Question
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
+	 */
+	Question: "Question",
+
+	/**
 	 * Place
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-place
 	 */
