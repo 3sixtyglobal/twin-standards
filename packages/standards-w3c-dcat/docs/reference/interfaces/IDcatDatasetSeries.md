@@ -14,9 +14,21 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Dataset_Series
 
 ## Properties
 
+### @context {#context}
+
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+
+The JSON-LD context for the resource.
+
+#### Inherited from
+
+[`IDcatDataset`](IDcatDataset.md).[`@context`](IDcatDataset.md#context)
+
+***
+
 ### dcat:distribution? {#dcatdistribution}
 
-> `optional` **dcat:distribution**: [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md) \| [`DistributionOptionalContext`](../type-aliases/DistributionOptionalContext.md)[]
+> `optional` **dcat:distribution**: `ObjectOrArray`\<[`IDcatDistributionBase`](IDcatDistributionBase.md)\>
 
 An available distribution of the dataset.
 
@@ -180,7 +192,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_last
 
 ### dcat:seriesMember? {#dcatseriesmember}
 
-> `optional` **dcat:seriesMember**: `string` \| `string`[]
+> `optional` **dcat:seriesMember**: `ObjectOrArray`\<`string`\>
 
 A dataset that is part of this dataset series.
 
@@ -192,25 +204,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_series_member
 
 ### dcat:dataset? {#dcatdataset}
 
-> `optional` **dcat:dataset**: [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md) \| [`DatasetOptionalContext`](../type-aliases/DatasetOptionalContext.md)[]
+> `optional` **dcat:dataset**: `ObjectOrArray`\<[`IDcatDatasetBase`](IDcatDatasetBase.md)\>
 
 A dataset that is part of this dataset series.
 
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
-
-***
-
-### @context {#context}
-
-> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
-
-The JSON-LD context for the resource.
-
-#### Inherited from
-
-[`IDcatDataset`](IDcatDataset.md).[`@context`](IDcatDataset.md#context)
 
 ***
 
@@ -228,7 +228,7 @@ The unique identifier for the resource.
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the resource.
 
@@ -244,7 +244,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the resource.
 
@@ -260,7 +260,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ### dcterms:identifier? {#dctermsidentifier}
 
-> `optional` **dcterms:identifier**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
 
 A unique identifier of the resource.
 
@@ -308,7 +308,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language? {#dctermslanguage}
 
-> `optional` **dcterms:language**: `string` \| `string`[]
+> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
 
 A language of the resource.
 
@@ -404,7 +404,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the resource conforms.
 
@@ -452,7 +452,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ### dcat:keyword? {#dcatkeyword}
 
-> `optional` **dcat:keyword**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
 
 A keyword or tag describing the resource.
 
@@ -468,7 +468,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme? {#dcattheme}
 
-> `optional` **dcat:theme**: `string` \| `string`[]
+> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -484,7 +484,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage? {#dcatlandingpage}
 
-> `optional` **dcat:landingPage**: `string` \| `string`[]
+> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
 
 A Web page that can be navigated to gain access to the resource.
 

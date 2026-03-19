@@ -39,7 +39,7 @@ Can be used to specify additional type information.
 
 ### partOf? {#partof}
 
-> `optional` **partOf**: `string` \| `IOdrlAssetCollection` \| (`string` \| `IOdrlAssetCollection`)[]
+> `optional` **partOf**: `ObjectOrArray`\<`string` \| `IOdrlAssetCollection`\>
 
 Reference to the asset collection this asset is part of.
 Used to identify an AssetCollection that this Asset is a member of.
@@ -52,7 +52,7 @@ Used to identify an AssetCollection that this Asset is a member of.
 
 ### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy**: `string` \| `string`[]
+> `optional` **hasPolicy**: `ObjectOrArray`\<`string`\>
 
 Reference to the policy that governs this asset.
 Used to identify the Policy that governs this Asset.
@@ -74,7 +74,7 @@ Must be an IRI that references the AssetCollection.
 
 ### refinement? {#refinement}
 
-> `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md) \| ([`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md))[]
+> `optional` **refinement**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
 
 Refinements applied to the asset collection.
 Used to specify the refinement context under which to identify individual Asset(s)

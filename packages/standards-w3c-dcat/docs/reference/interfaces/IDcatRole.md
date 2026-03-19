@@ -36,7 +36,7 @@ The unique identifier for the role object.
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the role.
 

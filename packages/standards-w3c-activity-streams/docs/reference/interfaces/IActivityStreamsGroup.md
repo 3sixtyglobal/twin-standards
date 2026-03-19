@@ -16,7 +16,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-group
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 Group type.
 

@@ -32,7 +32,7 @@ by overriding properties with more specific types and constraints.
 
 ## Extends
 
-- `Omit`\<`IDcatDistribution`, `"odrl:hasPolicy"` \| `"@type"` \| `"@context"` \| `"dcterms:format"`\>
+- [`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)
 
 ## Properties
 
@@ -44,6 +44,19 @@ LD Context. Required per Eclipse Data Space Protocol.
 
 ***
 
+### @id {#id}
+
+> **@id**: `string`
+
+Unique identifier for the distribution.
+REQUIRED on standalone Distribution objects per Eclipse Data Space Protocol.
+
+#### Overrides
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`@id`](IDataspaceProtocolDistributionBase.md#id)
+
+***
+
 ### @type {#type}
 
 > **@type**: `"Distribution"`
@@ -51,24 +64,15 @@ LD Context. Required per Eclipse Data Space Protocol.
 The type identifier for the Distribution.
 REQUIRED per Eclipse Data Space Protocol.
 
-***
+#### Inherited from
 
-### @id {#id}
-
-> **@id**: `string`
-
-Unique identifier for the dataset.
-REQUIRED per Eclipse Data Space Protocol.
-
-#### Overrides
-
-`Omit.@id`
+`IDataspaceProtocolDistribution`.[`@type`](#type)
 
 ***
 
 ### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md) \| [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)[]
+> `optional` **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -77,14 +81,22 @@ Must contain at least one IOdrlOffer.
 Currently only single offer is supported, but array structure
 allows for future multi-offer support.
 
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`hasPolicy`](IDataspaceProtocolDistributionBase.md#haspolicy)
+
 ***
 
 ### accessService {#accessservice}
 
-> **accessService**: `string` \| [`IDataspaceProtocolDataServiceNoContext`](../type-aliases/IDataspaceProtocolDataServiceNoContext.md)
+> **accessService**: `string` \| [`IDataspaceProtocolDataServiceBase`](IDataspaceProtocolDataServiceBase.md)
 
 Access service.
-It can be a URI pointing to an access service or inline the access service itself
+It can be a URI pointing to an access service or inline the access service itself.
+
+#### Inherited from
+
+`IDataspaceProtocolDistribution`.[`accessService`](#accessservice)
 
 ***
 
@@ -95,11 +107,15 @@ It can be a URI pointing to an access service or inline the access service itsel
 Distribution format.
 REQUIRED per Eclipse Data Space Protocol.
 
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`format`](IDataspaceProtocolDistributionBase.md#format)
+
 ***
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: `DcatLiteralType`
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the distribution.
 
@@ -109,13 +125,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
 #### Inherited from
 
-`Omit.dcterms:title`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:title`](IDataspaceProtocolDistributionBase.md#dctermstitle)
 
 ***
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: `DcatLiteralType`
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the distribution.
 
@@ -125,7 +141,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description
 
 #### Inherited from
 
-`Omit.dcterms:description`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:description`](IDataspaceProtocolDistributionBase.md#dctermsdescription)
 
 ***
 
@@ -141,7 +157,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date
 
 #### Inherited from
 
-`Omit.dcterms:issued`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:issued`](IDataspaceProtocolDistributionBase.md#dctermsissued)
 
 ***
 
@@ -157,7 +173,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date
 
 #### Inherited from
 
-`Omit.dcterms:modified`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:modified`](IDataspaceProtocolDistributionBase.md#dctermsmodified)
 
 ***
 
@@ -173,7 +189,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license
 
 #### Inherited from
 
-`Omit.dcterms:license`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:license`](IDataspaceProtocolDistributionBase.md#dctermslicense)
 
 ***
 
@@ -189,7 +205,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights
 
 #### Inherited from
 
-`Omit.dcterms:accessRights`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:accessRights`](IDataspaceProtocolDistributionBase.md#dctermsaccessrights)
 
 ***
 
@@ -205,7 +221,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights
 
 #### Inherited from
 
-`Omit.dcterms:rights`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:rights`](IDataspaceProtocolDistributionBase.md#dctermsrights)
 
 ***
 
@@ -221,7 +237,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url
 
 #### Inherited from
 
-`Omit.dcat:accessURL`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:accessURL`](IDataspaceProtocolDistributionBase.md#dcataccessurl)
 
 ***
 
@@ -237,7 +253,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service
 
 #### Inherited from
 
-`Omit.dcat:accessService`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:accessService`](IDataspaceProtocolDistributionBase.md#dcataccessservice)
 
 ***
 
@@ -253,7 +269,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url
 
 #### Inherited from
 
-`Omit.dcat:downloadURL`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:downloadURL`](IDataspaceProtocolDistributionBase.md#dcatdownloadurl)
 
 ***
 
@@ -269,7 +285,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_byte_size
 
 #### Inherited from
 
-`Omit.dcat:byteSize`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:byteSize`](IDataspaceProtocolDistributionBase.md#dcatbytesize)
 
 ***
 
@@ -285,7 +301,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution
 
 #### Inherited from
 
-`Omit.dcat:spatialResolutionInMeters`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:spatialResolutionInMeters`](IDataspaceProtocolDistributionBase.md#dcatspatialresolutioninmeters)
 
 ***
 
@@ -301,13 +317,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 #### Inherited from
 
-`Omit.dcat:temporalResolution`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:temporalResolution`](IDataspaceProtocolDistributionBase.md#dcattemporalresolution)
 
 ***
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the distribution conforms.
 
@@ -317,7 +333,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
 
 #### Inherited from
 
-`Omit.dcterms:conformsTo`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:conformsTo`](IDataspaceProtocolDistributionBase.md#dctermsconformsto)
 
 ***
 
@@ -333,7 +349,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type
 
 #### Inherited from
 
-`Omit.dcat:mediaType`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:mediaType`](IDataspaceProtocolDistributionBase.md#dcatmediatype)
 
 ***
 
@@ -349,7 +365,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format
 
 #### Inherited from
 
-`Omit.dcat:compressFormat`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:compressFormat`](IDataspaceProtocolDistributionBase.md#dcatcompressformat)
 
 ***
 
@@ -365,7 +381,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format
 
 #### Inherited from
 
-`Omit.dcat:packageFormat`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:packageFormat`](IDataspaceProtocolDistributionBase.md#dcatpackageformat)
 
 ***
 
@@ -381,4 +397,4 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum
 
 #### Inherited from
 
-`Omit.spdx:checksum`
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`spdx:checksum`](IDataspaceProtocolDistributionBase.md#spdxchecksum)

@@ -25,7 +25,7 @@ The LD Context.
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 Link type.
 

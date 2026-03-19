@@ -1,6 +1,6 @@
-# Interface: IActivityStreamsQuestion
+# Interface: IActivityStreamsQuestionBase
 
-A W3C Activity Streams Question.
+A W3C Activity Streams Question base.
 
 A `Question` represents a question being asked. Use `oneOf` for exclusive
 choices, `anyOf` for inclusive choices, and `closed` to indicate when the question
@@ -598,37 +598,13 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 Question type.
 
 #### Overrides
 
 [`IActivityStreamsIntransitiveActivity`](IActivityStreamsIntransitiveActivity.md).[`type`](IActivityStreamsIntransitiveActivity.md#type)
-
-***
-
-### anyOf? {#anyof}
-
-> `optional` **anyOf**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
-
-Specifies an inclusive list of possible answers.
-
-#### See
-
-https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
-
-***
-
-### oneOf? {#oneof}
-
-> `optional` **oneOf**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
-
-Specifies an exclusive list of possible answers.
-
-#### See
-
-https://www.w3.org/TR/activitystreams-vocabulary/#dfn-oneof
 
 ***
 

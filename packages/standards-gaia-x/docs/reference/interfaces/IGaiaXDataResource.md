@@ -89,7 +89,7 @@ Copyright owner
 
 ### resourcePolicy {#resourcepolicy}
 
-> **resourcePolicy**: `IOdrlPolicy` \| `IOdrlPolicy`[]
+> **resourcePolicy**: `ObjectOrArray`\<`IOdrlPolicy`\>
 
 ODRL Policy
 

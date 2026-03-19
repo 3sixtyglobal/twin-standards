@@ -22,7 +22,7 @@ Provide a unique identifier for the presentation.
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 The types of the data stored in the verifiable credential.
 
@@ -46,7 +46,7 @@ The entity generating the presentation.
 
 ### proof? {#proof}
 
-> `optional` **proof**: [`IProof`](../type-aliases/IProof.md) \| [`IProof`](../type-aliases/IProof.md)[]
+> `optional` **proof**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
 
 Proofs that the verifiable presentation is valid.
 Optional if a different proof method is used, such as JWT.
@@ -59,7 +59,7 @@ Optional if a different proof method is used, such as JWT.
 
 ### @context {#context}
 
-> **@context**: `"https://www.w3.org/ns/credentials/v2"` \| \[`"https://www.w3.org/ns/credentials/v2"`, `...IJsonLdContextDefinitionElement[]`\]
+> **@context**: `"https://www.w3.org/ns/credentials/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/credentials/v2"`\>
 
 The context for the verifiable presentation.
 

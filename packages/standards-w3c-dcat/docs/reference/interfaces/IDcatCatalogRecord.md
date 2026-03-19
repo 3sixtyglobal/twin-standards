@@ -8,6 +8,10 @@ service.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog_Record
 
+## Extends
+
+- [`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md)
+
 ## Properties
 
 ### @context {#context}
@@ -24,6 +28,10 @@ The JSON-LD context for the resource.
 
 The type identifier, typically "CatalogRecord".
 
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`@type`](IDcatCatalogRecordBase.md#type)
+
 ***
 
 ### @id? {#id}
@@ -32,11 +40,15 @@ The type identifier, typically "CatalogRecord".
 
 The unique identifier for the catalog record.
 
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`@id`](IDcatCatalogRecordBase.md#id)
+
 ***
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the catalog record.
 
@@ -44,17 +56,25 @@ A name given to the catalog record.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_title
 
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`dcterms:title`](IDcatCatalogRecordBase.md#dctermstitle)
+
 ***
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the catalog record.
 
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_description
+
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`dcterms:description`](IDcatCatalogRecordBase.md#dctermsdescription)
 
 ***
 
@@ -68,6 +88,10 @@ The date of listing of the catalog record in the catalog.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date
 
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`dcterms:issued`](IDcatCatalogRecordBase.md#dctermsissued)
+
 ***
 
 ### dcterms:modified? {#dctermsmodified}
@@ -80,17 +104,25 @@ Most recent date on which the catalog record entry was changed or modified.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date
 
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`dcterms:modified`](IDcatCatalogRecordBase.md#dctermsmodified)
+
 ***
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the catalog record conforms.
 
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to
+
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`dcterms:conformsTo`](IDcatCatalogRecordBase.md#dctermsconformsto)
 
 ***
 
@@ -103,3 +135,7 @@ The dataset or data service described in the catalog record.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:record_primary_topic
+
+#### Inherited from
+
+[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md).[`foaf:primaryTopic`](IDcatCatalogRecordBase.md#foafprimarytopic)

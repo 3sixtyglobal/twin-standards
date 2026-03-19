@@ -7,7 +7,7 @@ https://www.w3.org/TR/vc-data-integrity/
 
 ### @context? {#context}
 
-> `optional` **@context**: `"https://w3id.org/security/data-integrity/v2"` \| \[`"https://w3id.org/security/data-integrity/v2"`, `...IJsonLdContextDefinitionElement[]`\]
+> `optional` **@context**: `"https://w3id.org/security/data-integrity/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/data-integrity/v2"`\>
 
 JSON-LD Context.
 
@@ -80,7 +80,7 @@ The iso date of when the proof expires.
 
 ### domain? {#domain}
 
-> `optional` **domain**: `string` \| `string`[]
+> `optional` **domain**: `ObjectOrArray`\<`string`\>
 
 One or more security domains in which the proof is meant to be used.
 
@@ -88,7 +88,7 @@ One or more security domains in which the proof is meant to be used.
 
 ### challenge? {#challenge}
 
-> `optional` **challenge**: `string` \| `string`[]
+> `optional` **challenge**: `ObjectOrArray`\<`string`\>
 
 Provided to mitigate replay attacks on domains.
 

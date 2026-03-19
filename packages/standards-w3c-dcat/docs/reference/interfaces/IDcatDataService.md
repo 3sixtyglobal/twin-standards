@@ -10,9 +10,17 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service
 
 ## Extends
 
-- [`IDcatResource`](IDcatResource.md)
+- [`IDcatDataServiceBase`](IDcatDataServiceBase.md)
 
 ## Properties
+
+### @context {#context}
+
+> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
+
+The JSON-LD context for the resource.
+
+***
 
 ### @type {#type}
 
@@ -20,9 +28,9 @@ https://www.w3.org/TR/vocab-dcat-3/#Class:Data_Service
 
 The type identifier, typically "DataService".
 
-#### Overrides
+#### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`@type`](IDcatResource.md#type)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`@type`](IDcatDataServiceBase.md#type)
 
 ***
 
@@ -35,6 +43,10 @@ The root location or primary endpoint of the service (a Web-resolvable IRI).
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_url
+
+#### Inherited from
+
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:endpointURL`](IDcatDataServiceBase.md#dcatendpointurl)
 
 ***
 
@@ -49,11 +61,15 @@ operations, parameters, etc.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description
 
+#### Inherited from
+
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:endpointDescription`](IDcatDataServiceBase.md#dcatendpointdescription)
+
 ***
 
 ### dcat:servesDataset? {#dcatservesdataset}
 
-> `optional` **dcat:servesDataset**: `string` \| `string`[]
+> `optional` **dcat:servesDataset**: `ObjectOrArray`\<`string`\>
 
 A collection of data that this data service can distribute.
 
@@ -61,17 +77,9 @@ A collection of data that this data service can distribute.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset
 
-***
-
-### @context {#context}
-
-> **@context**: [`DcatContextType`](../type-aliases/DcatContextType.md)
-
-The JSON-LD context for the resource.
-
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`@context`](IDcatResource.md#context)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:servesDataset`](IDcatDataServiceBase.md#dcatservesdataset)
 
 ***
 
@@ -83,13 +91,13 @@ The unique identifier for the resource.
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`@id`](IDcatResource.md#id)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`@id`](IDcatDataServiceBase.md#id)
 
 ***
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the resource.
 
@@ -99,13 +107,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:title`](IDcatResource.md#dctermstitle)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:title`](IDcatDataServiceBase.md#dctermstitle)
 
 ***
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the resource.
 
@@ -115,13 +123,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:description`](IDcatResource.md#dctermsdescription)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:description`](IDcatDataServiceBase.md#dctermsdescription)
 
 ***
 
 ### dcterms:identifier? {#dctermsidentifier}
 
-> `optional` **dcterms:identifier**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
 
 A unique identifier of the resource.
 
@@ -131,7 +139,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:identifier`](IDcatResource.md#dctermsidentifier)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:identifier`](IDcatDataServiceBase.md#dctermsidentifier)
 
 ***
 
@@ -147,7 +155,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:issued`](IDcatResource.md#dctermsissued)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:issued`](IDcatDataServiceBase.md#dctermsissued)
 
 ***
 
@@ -163,13 +171,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:modified`](IDcatResource.md#dctermsmodified)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:modified`](IDcatDataServiceBase.md#dctermsmodified)
 
 ***
 
 ### dcterms:language? {#dctermslanguage}
 
-> `optional` **dcterms:language**: `string` \| `string`[]
+> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
 
 A language of the resource.
 
@@ -179,7 +187,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:language`](IDcatResource.md#dctermslanguage)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:language`](IDcatDataServiceBase.md#dctermslanguage)
 
 ***
 
@@ -195,7 +203,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:publisher`](IDcatResource.md#dctermspublisher)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:publisher`](IDcatDataServiceBase.md#dctermspublisher)
 
 ***
 
@@ -211,7 +219,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:creator`](IDcatResource.md#dctermscreator)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:creator`](IDcatDataServiceBase.md#dctermscreator)
 
 ***
 
@@ -227,7 +235,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:accessRights`](IDcatResource.md#dctermsaccessrights)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:accessRights`](IDcatDataServiceBase.md#dctermsaccessrights)
 
 ***
 
@@ -243,7 +251,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:license`](IDcatResource.md#dctermslicense)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:license`](IDcatDataServiceBase.md#dctermslicense)
 
 ***
 
@@ -259,13 +267,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:rights`](IDcatResource.md#dctermsrights)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:rights`](IDcatDataServiceBase.md#dctermsrights)
 
 ***
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the resource conforms.
 
@@ -275,7 +283,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:conformsTo`](IDcatResource.md#dctermsconformsto)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:conformsTo`](IDcatDataServiceBase.md#dctermsconformsto)
 
 ***
 
@@ -291,7 +299,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcterms:type`](IDcatResource.md#dctermstype)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcterms:type`](IDcatDataServiceBase.md#dctermstype)
 
 ***
 
@@ -307,13 +315,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcat:contactPoint`](IDcatResource.md#dcatcontactpoint)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:contactPoint`](IDcatDataServiceBase.md#dcatcontactpoint)
 
 ***
 
 ### dcat:keyword? {#dcatkeyword}
 
-> `optional` **dcat:keyword**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
 
 A keyword or tag describing the resource.
 
@@ -323,13 +331,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcat:keyword`](IDcatResource.md#dcatkeyword)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:keyword`](IDcatDataServiceBase.md#dcatkeyword)
 
 ***
 
 ### dcat:theme? {#dcattheme}
 
-> `optional` **dcat:theme**: `string` \| `string`[]
+> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -339,13 +347,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcat:theme`](IDcatResource.md#dcattheme)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:theme`](IDcatDataServiceBase.md#dcattheme)
 
 ***
 
 ### dcat:landingPage? {#dcatlandingpage}
 
-> `optional` **dcat:landingPage**: `string` \| `string`[]
+> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
 
 A Web page that can be navigated to gain access to the resource.
 
@@ -355,7 +363,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcat:landingPage`](IDcatResource.md#dcatlandingpage)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:landingPage`](IDcatDataServiceBase.md#dcatlandingpage)
 
 ***
 
@@ -371,7 +379,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`dcat:qualifiedRelation`](IDcatResource.md#dcatqualifiedrelation)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`dcat:qualifiedRelation`](IDcatDataServiceBase.md#dcatqualifiedrelation)
 
 ***
 
@@ -387,4 +395,4 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_policy
 
 #### Inherited from
 
-[`IDcatResource`](IDcatResource.md).[`odrl:hasPolicy`](IDcatResource.md#odrlhaspolicy)
+[`IDcatDataServiceBase`](IDcatDataServiceBase.md).[`odrl:hasPolicy`](IDcatDataServiceBase.md#odrlhaspolicy)

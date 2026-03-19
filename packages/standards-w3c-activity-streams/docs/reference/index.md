@@ -29,7 +29,10 @@
 - [IActivityStreamsPerson](interfaces/IActivityStreamsPerson.md)
 - [IActivityStreamsPlace](interfaces/IActivityStreamsPlace.md)
 - [IActivityStreamsProfile](interfaces/IActivityStreamsProfile.md)
-- [IActivityStreamsQuestion](interfaces/IActivityStreamsQuestion.md)
+- [IActivityStreamsQuestionAnyOfChoice](interfaces/IActivityStreamsQuestionAnyOfChoice.md)
+- [IActivityStreamsQuestionBase](interfaces/IActivityStreamsQuestionBase.md)
+- [IActivityStreamsQuestionNeitherChoice](interfaces/IActivityStreamsQuestionNeitherChoice.md)
+- [IActivityStreamsQuestionOneOfChoice](interfaces/IActivityStreamsQuestionOneOfChoice.md)
 - [IActivityStreamsRelationship](interfaces/IActivityStreamsRelationship.md)
 - [IActivityStreamsService](interfaces/IActivityStreamsService.md)
 - [IActivityStreamsTombstone](interfaces/IActivityStreamsTombstone.md)
@@ -37,6 +40,7 @@
 
 ## Type Aliases
 
+- [IActivityStreamsQuestion](type-aliases/IActivityStreamsQuestion.md)
 - [ActivityStreamsContextType](type-aliases/ActivityStreamsContextType.md)
 - [ActivityStreamsContexts](type-aliases/ActivityStreamsContexts.md)
 - [ActivityStreamsLinkTypes](type-aliases/ActivityStreamsLinkTypes.md)

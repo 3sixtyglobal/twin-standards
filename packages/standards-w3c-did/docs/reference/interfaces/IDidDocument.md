@@ -7,7 +7,7 @@ Spec https://www.w3.org/TR/did-core/#did-document-properties.
 
 ### @context {#context}
 
-> **@context**: `"https://www.w3.org/ns/did/v1"` \| \[`"https://www.w3.org/ns/did/v1"`, `...IJsonLdContextDefinitionElement[]`\]
+> **@context**: `"https://www.w3.org/ns/did/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/did/v1"`\>
 
 The context for the document.
 
@@ -23,7 +23,7 @@ The id for the document.
 
 ### alsoKnownAs? {#alsoknownas}
 
-> `optional` **alsoKnownAs**: `string` \| `string`[]
+> `optional` **alsoKnownAs**: `ObjectOrArray`\<`string`\>
 
 Aliases for the document.
 
@@ -31,7 +31,7 @@ Aliases for the document.
 
 ### controller? {#controller}
 
-> `optional` **controller**: `string` \| `string`[]
+> `optional` **controller**: `ObjectOrArray`\<`string`\>
 
 The controller for the document.
 

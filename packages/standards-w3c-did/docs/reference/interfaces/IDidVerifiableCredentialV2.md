@@ -23,7 +23,7 @@ The identifier for the verifiable credential.
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 The types of the data stored in the verifiable credential.
 
@@ -35,7 +35,7 @@ The types of the data stored in the verifiable credential.
 
 ### credentialSubject? {#credentialsubject}
 
-> `optional` **credentialSubject**: `IJsonLdNodeObject` \| `IJsonLdNodeObject`[]
+> `optional` **credentialSubject**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
 The data for the verifiable credential.
 
@@ -47,7 +47,7 @@ The data for the verifiable credential.
 
 ### credentialStatus? {#credentialstatus}
 
-> `optional` **credentialStatus**: [`IDidCredentialStatus`](IDidCredentialStatus.md) \| [`IDidCredentialStatus`](IDidCredentialStatus.md)[]
+> `optional` **credentialStatus**: `ObjectOrArray`\<[`IDidCredentialStatus`](IDidCredentialStatus.md)\>
 
 Used to discover information about the current status of the
 verifiable credential, such as whether it is suspended or revoked.
@@ -60,7 +60,7 @@ verifiable credential, such as whether it is suspended or revoked.
 
 ### credentialSchema? {#credentialschema}
 
-> `optional` **credentialSchema**: [`IDidCredentialSchema`](IDidCredentialSchema.md) \| [`IDidCredentialSchema`](IDidCredentialSchema.md)[]
+> `optional` **credentialSchema**: `ObjectOrArray`\<[`IDidCredentialSchema`](IDidCredentialSchema.md)\>
 
 Annotate type definitions or lock them to specific versions of the vocabulary.
 
@@ -108,7 +108,7 @@ The description of the credential.
 
 ### evidence? {#evidence}
 
-> `optional` **evidence**: `IJsonLdNodeObject` \| `IJsonLdNodeObject`[]
+> `optional` **evidence**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
 Evidence associated with the Credential.
 
@@ -120,7 +120,7 @@ Evidence associated with the Credential.
 
 ### proof? {#proof}
 
-> `optional` **proof**: [`IProof`](../type-aliases/IProof.md) \| [`IProof`](../type-aliases/IProof.md)[]
+> `optional` **proof**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
 
 Proofs that the verifiable credential is valid.
 Optional if a different proof method is used, such as JWT.
@@ -133,7 +133,7 @@ Optional if a different proof method is used, such as JWT.
 
 ### @context {#context}
 
-> **@context**: `"https://www.w3.org/ns/credentials/v2"` \| \[`"https://www.w3.org/ns/credentials/v2"`, `...IJsonLdContextDefinitionElement[]`\]
+> **@context**: `"https://www.w3.org/ns/credentials/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/credentials/v2"`\>
 
 The context for the verifiable credential.
 

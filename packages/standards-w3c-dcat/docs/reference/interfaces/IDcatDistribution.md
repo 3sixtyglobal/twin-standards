@@ -8,6 +8,10 @@ serializations that may differ in various ways.
 
 https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution
 
+## Extends
+
+- [`IDcatDistributionBase`](IDcatDistributionBase.md)
+
 ## Properties
 
 ### @context {#context}
@@ -24,6 +28,10 @@ The JSON-LD context for the resource.
 
 The type identifier, typically "Distribution".
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`@type`](IDcatDistributionBase.md#type)
+
 ***
 
 ### @id? {#id}
@@ -32,11 +40,15 @@ The type identifier, typically "Distribution".
 
 The unique identifier for the distribution object.
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`@id`](IDcatDistributionBase.md#id)
+
 ***
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the distribution.
 
@@ -44,17 +56,25 @@ A name given to the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:title`](IDcatDistributionBase.md#dctermstitle)
+
 ***
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: [`DcatLiteralType`](../type-aliases/DcatLiteralType.md)
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the distribution.
 
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:description`](IDcatDistributionBase.md#dctermsdescription)
 
 ***
 
@@ -68,6 +88,10 @@ Date of formal issuance of the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:issued`](IDcatDistributionBase.md#dctermsissued)
+
 ***
 
 ### dcterms:modified? {#dctermsmodified}
@@ -79,6 +103,10 @@ Most recent date on which the distribution was changed, updated or modified.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:modified`](IDcatDistributionBase.md#dctermsmodified)
 
 ***
 
@@ -92,6 +120,10 @@ A legal document under which the distribution is made available.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:license`](IDcatDistributionBase.md#dctermslicense)
+
 ***
 
 ### dcterms:accessRights? {#dctermsaccessrights}
@@ -103,6 +135,10 @@ Information about who can access the distribution.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:accessRights`](IDcatDistributionBase.md#dctermsaccessrights)
 
 ***
 
@@ -116,6 +152,10 @@ Information about rights held in and over the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:rights`](IDcatDistributionBase.md#dctermsrights)
+
 ***
 
 ### dcat:accessURL? {#dcataccessurl}
@@ -127,6 +167,10 @@ A URL of the resource that gives access to a distribution of the dataset.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:accessURL`](IDcatDistributionBase.md#dcataccessurl)
 
 ***
 
@@ -140,6 +184,10 @@ A data service that gives access to the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:accessService`](IDcatDistributionBase.md#dcataccessservice)
+
 ***
 
 ### dcat:downloadURL? {#dcatdownloadurl}
@@ -151,6 +199,10 @@ The URL of the downloadable file in a given format.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:downloadURL`](IDcatDistributionBase.md#dcatdownloadurl)
 
 ***
 
@@ -164,6 +216,10 @@ The size of the distribution in bytes.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_byte_size
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:byteSize`](IDcatDistributionBase.md#dcatbytesize)
+
 ***
 
 ### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
@@ -175,6 +231,10 @@ The minimum spatial separation resolvable in a distribution, measured in meters.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:spatialResolutionInMeters`](IDcatDistributionBase.md#dcatspatialresolutioninmeters)
 
 ***
 
@@ -188,17 +248,25 @@ Minimum time period resolvable in the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:temporalResolution`](IDcatDistributionBase.md#dcattemporalresolution)
+
 ***
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the distribution conforms.
 
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:conformsTo`](IDcatDistributionBase.md#dctermsconformsto)
 
 ***
 
@@ -212,6 +280,10 @@ The media type of the distribution as defined by IANA.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:mediaType`](IDcatDistributionBase.md#dcatmediatype)
+
 ***
 
 ### dcterms:format? {#dctermsformat}
@@ -223,6 +295,10 @@ The file format of the distribution.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_format
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcterms:format`](IDcatDistributionBase.md#dctermsformat)
 
 ***
 
@@ -236,6 +312,10 @@ The compression format of the distribution.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:compressFormat`](IDcatDistributionBase.md#dcatcompressformat)
+
 ***
 
 ### dcat:packageFormat? {#dcatpackageformat}
@@ -247,6 +327,10 @@ The package format of the distribution.
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`dcat:packageFormat`](IDcatDistributionBase.md#dcatpackageformat)
 
 ***
 
@@ -260,6 +344,10 @@ The checksum property provides a mechanism to verify the data integrity.
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum
 
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`spdx:checksum`](IDcatDistributionBase.md#spdxchecksum)
+
 ***
 
 ### odrl:hasPolicy? {#odrlhaspolicy}
@@ -271,3 +359,7 @@ An ODRL conformant policy expressing the rights associated with the distribution
 #### See
 
 https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_has_policy
+
+#### Inherited from
+
+[`IDcatDistributionBase`](IDcatDistributionBase.md).[`odrl:hasPolicy`](IDcatDistributionBase.md#odrlhaspolicy)

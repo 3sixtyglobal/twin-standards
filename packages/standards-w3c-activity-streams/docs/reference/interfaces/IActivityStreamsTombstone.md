@@ -517,7 +517,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 Tombstone type.
 

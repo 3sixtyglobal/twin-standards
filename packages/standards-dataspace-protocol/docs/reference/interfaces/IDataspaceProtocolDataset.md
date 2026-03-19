@@ -33,7 +33,7 @@ by overriding properties with more specific types and constraints.
 
 ## Extends
 
-- `Omit`\<`IDcatDataset`, `"odrl:hasPolicy"` \| `"dcat:distribution"` \| `"@type"` \| `"@context"`\>
+- [`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)
 
 ## Properties
 
@@ -52,6 +52,10 @@ LD Context. Required per Eclipse Data Space Protocol.
 The type identifier for the dataset.
 REQUIRED per Eclipse Data Space Protocol.
 
+#### Inherited from
+
+`IDataspaceProtocolDataset`.[`@type`](#type)
+
 ***
 
 ### @id {#id}
@@ -61,15 +65,15 @@ REQUIRED per Eclipse Data Space Protocol.
 Unique identifier for the dataset.
 REQUIRED per Eclipse Data Space Protocol.
 
-#### Overrides
+#### Inherited from
 
-`Omit.@id`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`@id`](IDataspaceProtocolDatasetBase.md#id)
 
 ***
 
 ### hasPolicy {#haspolicy}
 
-> **hasPolicy**: [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md) \| [`IDataspaceProtocolOfferNoContext`](../type-aliases/IDataspaceProtocolOfferNoContext.md)[]
+> **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -78,14 +82,22 @@ Must contain at least one IOdrlOffer.
 Currently only single offer is supported, but array structure
 allows for future multi-offer support.
 
+#### Inherited from
+
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`hasPolicy`](IDataspaceProtocolDatasetBase.md#haspolicy)
+
 ***
 
 ### distribution {#distribution}
 
-> **distribution**: [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md) \| [`IDataspaceProtocolDistributionNoContext`](../type-aliases/IDataspaceProtocolDistributionNoContext.md)[]
+> **distribution**: `ObjectOrArray`\<[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)\>
 
 Distribution of the dataset.
 REQUIRED per Eclipse Data Space Protocol.
+
+#### Inherited from
+
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`distribution`](IDataspaceProtocolDatasetBase.md#distribution)
 
 ***
 
@@ -101,7 +113,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency
 
 #### Inherited from
 
-`Omit.dcterms:accrualPeriodicity`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:accrualPeriodicity`](IDataspaceProtocolDatasetBase.md#dctermsaccrualperiodicity)
 
 ***
 
@@ -117,7 +129,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 #### Inherited from
 
-`Omit.dcat:inSeries`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:inSeries`](IDataspaceProtocolDatasetBase.md#dcatinseries)
 
 ***
 
@@ -133,7 +145,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial
 
 #### Inherited from
 
-`Omit.dcterms:spatial`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:spatial`](IDataspaceProtocolDatasetBase.md#dctermsspatial)
 
 ***
 
@@ -149,7 +161,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution
 
 #### Inherited from
 
-`Omit.dcat:spatialResolutionInMeters`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:spatialResolutionInMeters`](IDataspaceProtocolDatasetBase.md#dcatspatialresolutioninmeters)
 
 ***
 
@@ -165,7 +177,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal
 
 #### Inherited from
 
-`Omit.dcterms:temporal`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:temporal`](IDataspaceProtocolDatasetBase.md#dctermstemporal)
 
 ***
 
@@ -181,7 +193,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution
 
 #### Inherited from
 
-`Omit.dcat:temporalResolution`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:temporalResolution`](IDataspaceProtocolDatasetBase.md#dcattemporalresolution)
 
 ***
 
@@ -197,13 +209,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 #### Inherited from
 
-`Omit.prov:wasGeneratedBy`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`prov:wasGeneratedBy`](IDataspaceProtocolDatasetBase.md#provwasgeneratedby)
 
 ***
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: `DcatLiteralType`
+> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
 
 A name given to the resource.
 
@@ -213,13 +225,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 #### Inherited from
 
-`Omit.dcterms:title`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:title`](IDataspaceProtocolDatasetBase.md#dctermstitle)
 
 ***
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: `DcatLiteralType`
+> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the resource.
 
@@ -229,13 +241,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 #### Inherited from
 
-`Omit.dcterms:description`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:description`](IDataspaceProtocolDatasetBase.md#dctermsdescription)
 
 ***
 
 ### dcterms:identifier? {#dctermsidentifier}
 
-> `optional` **dcterms:identifier**: `DcatLiteralType`
+> `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
 
 A unique identifier of the resource.
 
@@ -245,7 +257,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 #### Inherited from
 
-`Omit.dcterms:identifier`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:identifier`](IDataspaceProtocolDatasetBase.md#dctermsidentifier)
 
 ***
 
@@ -261,7 +273,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 #### Inherited from
 
-`Omit.dcterms:issued`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:issued`](IDataspaceProtocolDatasetBase.md#dctermsissued)
 
 ***
 
@@ -277,13 +289,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 #### Inherited from
 
-`Omit.dcterms:modified`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:modified`](IDataspaceProtocolDatasetBase.md#dctermsmodified)
 
 ***
 
 ### dcterms:language? {#dctermslanguage}
 
-> `optional` **dcterms:language**: `string` \| `string`[]
+> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
 
 A language of the resource.
 
@@ -293,7 +305,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 #### Inherited from
 
-`Omit.dcterms:language`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:language`](IDataspaceProtocolDatasetBase.md#dctermslanguage)
 
 ***
 
@@ -309,7 +321,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 #### Inherited from
 
-`Omit.dcterms:publisher`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:publisher`](IDataspaceProtocolDatasetBase.md#dctermspublisher)
 
 ***
 
@@ -325,7 +337,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 #### Inherited from
 
-`Omit.dcterms:creator`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:creator`](IDataspaceProtocolDatasetBase.md#dctermscreator)
 
 ***
 
@@ -341,7 +353,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 #### Inherited from
 
-`Omit.dcterms:accessRights`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:accessRights`](IDataspaceProtocolDatasetBase.md#dctermsaccessrights)
 
 ***
 
@@ -357,7 +369,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 #### Inherited from
 
-`Omit.dcterms:license`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:license`](IDataspaceProtocolDatasetBase.md#dctermslicense)
 
 ***
 
@@ -373,13 +385,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 #### Inherited from
 
-`Omit.dcterms:rights`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:rights`](IDataspaceProtocolDatasetBase.md#dctermsrights)
 
 ***
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `string` \| `string`[]
+> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the resource conforms.
 
@@ -389,7 +401,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 #### Inherited from
 
-`Omit.dcterms:conformsTo`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:conformsTo`](IDataspaceProtocolDatasetBase.md#dctermsconformsto)
 
 ***
 
@@ -405,7 +417,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 #### Inherited from
 
-`Omit.dcterms:type`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcterms:type`](IDataspaceProtocolDatasetBase.md#dctermstype)
 
 ***
 
@@ -421,13 +433,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 #### Inherited from
 
-`Omit.dcat:contactPoint`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:contactPoint`](IDataspaceProtocolDatasetBase.md#dcatcontactpoint)
 
 ***
 
 ### dcat:keyword? {#dcatkeyword}
 
-> `optional` **dcat:keyword**: `DcatLiteralType`
+> `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
 
 A keyword or tag describing the resource.
 
@@ -437,13 +449,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 #### Inherited from
 
-`Omit.dcat:keyword`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:keyword`](IDataspaceProtocolDatasetBase.md#dcatkeyword)
 
 ***
 
 ### dcat:theme? {#dcattheme}
 
-> `optional` **dcat:theme**: `string` \| `string`[]
+> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -453,13 +465,13 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 #### Inherited from
 
-`Omit.dcat:theme`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:theme`](IDataspaceProtocolDatasetBase.md#dcattheme)
 
 ***
 
 ### dcat:landingPage? {#dcatlandingpage}
 
-> `optional` **dcat:landingPage**: `string` \| `string`[]
+> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
 
 A Web page that can be navigated to gain access to the resource.
 
@@ -469,7 +481,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 #### Inherited from
 
-`Omit.dcat:landingPage`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:landingPage`](IDataspaceProtocolDatasetBase.md#dcatlandingpage)
 
 ***
 
@@ -485,4 +497,4 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 #### Inherited from
 
-`Omit.dcat:qualifiedRelation`
+[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md).[`dcat:qualifiedRelation`](IDataspaceProtocolDatasetBase.md#dcatqualifiedrelation)

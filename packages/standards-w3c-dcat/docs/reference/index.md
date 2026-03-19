@@ -7,13 +7,19 @@
 ## Interfaces
 
 - [IDcatCatalog](interfaces/IDcatCatalog.md)
+- [IDcatCatalogBase](interfaces/IDcatCatalogBase.md)
 - [IDcatCatalogRecord](interfaces/IDcatCatalogRecord.md)
+- [IDcatCatalogRecordBase](interfaces/IDcatCatalogRecordBase.md)
 - [IDcatDataService](interfaces/IDcatDataService.md)
+- [IDcatDataServiceBase](interfaces/IDcatDataServiceBase.md)
 - [IDcatDataset](interfaces/IDcatDataset.md)
+- [IDcatDatasetBase](interfaces/IDcatDatasetBase.md)
 - [IDcatDatasetSeries](interfaces/IDcatDatasetSeries.md)
 - [IDcatDistribution](interfaces/IDcatDistribution.md)
+- [IDcatDistributionBase](interfaces/IDcatDistributionBase.md)
 - [IDcatRelationship](interfaces/IDcatRelationship.md)
 - [IDcatResource](interfaces/IDcatResource.md)
+- [IDcatResourceBase](interfaces/IDcatResourceBase.md)
 - [IDcatRole](interfaces/IDcatRole.md)
 
 ## Type Aliases
@@ -22,17 +28,6 @@
 - [DcatContextType](type-aliases/DcatContextType.md)
 - [DcatContexts](type-aliases/DcatContexts.md)
 - [DcatRelationshipType](type-aliases/DcatRelationshipType.md)
-- [DatasetOptionalContext](type-aliases/DatasetOptionalContext.md)
-- [DataServiceOptionalContext](type-aliases/DataServiceOptionalContext.md)
-- [CatalogOptionalContext](type-aliases/CatalogOptionalContext.md)
-- [CatalogRecordOptionalContext](type-aliases/CatalogRecordOptionalContext.md)
-- [DistributionOptionalContext](type-aliases/DistributionOptionalContext.md)
-- [DcatLiteralType](type-aliases/DcatLiteralType.md)
-- [DcatIriType](type-aliases/DcatIriType.md)
-- [DcatDateTimeType](type-aliases/DcatDateTimeType.md)
-- [DcatDurationType](type-aliases/DcatDurationType.md)
-- [DcatDecimalType](type-aliases/DcatDecimalType.md)
-- [DcatNonNegativeIntegerType](type-aliases/DcatNonNegativeIntegerType.md)
 
 ## Variables
 

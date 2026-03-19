@@ -206,6 +206,16 @@ Page
 
 https://www.w3.org/TR/activitystreams-vocabulary/#dfn-page
 
+### Question {#question}
+
+> `readonly` **Question**: `"Question"` = `"Question"`
+
+Question
+
+#### See
+
+https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
+
 ### Place {#place}
 
 > `readonly` **Place**: `"Place"` = `"Place"`

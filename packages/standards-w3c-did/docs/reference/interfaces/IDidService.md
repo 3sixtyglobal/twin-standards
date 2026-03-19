@@ -14,7 +14,7 @@ The id of the service.
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 The type of the service.
 
@@ -22,6 +22,6 @@ The type of the service.
 
 ### serviceEndpoint {#serviceendpoint}
 
-> **serviceEndpoint**: `string` \| `string`[]
+> **serviceEndpoint**: `ObjectOrArray`\<`string`\>
 
 The endpoint for the service.

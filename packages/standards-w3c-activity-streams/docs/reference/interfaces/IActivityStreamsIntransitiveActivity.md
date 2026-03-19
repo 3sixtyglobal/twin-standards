@@ -14,13 +14,13 @@ https://www.w3.org/TR/activitystreams-core/#intransitiveactivities
 
 ## Extended by
 
-- [`IActivityStreamsQuestion`](IActivityStreamsQuestion.md)
+- [`IActivityStreamsQuestionBase`](IActivityStreamsQuestionBase.md)
 
 ## Properties
 
 ### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 Intransitive activity type.
 

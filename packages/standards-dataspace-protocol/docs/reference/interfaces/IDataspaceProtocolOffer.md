@@ -13,7 +13,7 @@ Extends IOdrlOffer with DS Protocol-specific constraints:
 
 ## Extends
 
-- `Omit`\<`IOdrlOffer`, `"uid"`\>
+- [`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)
 
 ## Properties
 
@@ -22,6 +22,18 @@ Extends IOdrlOffer with DS Protocol-specific constraints:
 > **@id**: `string`
 
 Unique identifier for the offer.
+
+#### Overrides
+
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`@id`](IDataspaceProtocolOfferBase.md#id)
+
+***
+
+### @context {#context}
+
+> **@context**: `OdrlContextType`
+
+LD Context.
 
 ***
 
@@ -33,7 +45,7 @@ The type must be "Offer".
 
 #### Inherited from
 
-`Omit.@type`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`@type`](IDataspaceProtocolOfferBase.md#type)
 
 ***
 
@@ -46,83 +58,70 @@ Required for Offer policies.
 
 #### Inherited from
 
-`Omit.assigner`
-
-***
-
-### @context {#context}
-
-> **@context**: `OdrlContextType`
-
-The context for the policy.
-Must include "https://www.w3.org/ns/odrl.jsonld"
-
-#### Inherited from
-
-`Omit.@context`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`assigner`](IDataspaceProtocolOfferBase.md#assigner)
 
 ***
 
 ### profile? {#profile}
 
-> `optional` **profile**: `string` \| `string`[]
+> `optional` **profile**: `ObjectOrArray`\<`string`\>
 
 The profile(s) this policy conforms to.
 IRIs identifying the ODRL Profile(s).
 
 #### Inherited from
 
-`Omit.profile`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`profile`](IDataspaceProtocolOfferBase.md#profile)
 
 ***
 
 ### assignee? {#assignee}
 
-> `optional` **assignee**: `string` \| `IOdrlParty` \| `IOdrlPartyCollection` \| (`string` \| `IOdrlParty` \| `IOdrlPartyCollection`)[]
+> `optional` **assignee**: `ObjectOrArray`\<`string` \| `IOdrlParty` \| `IOdrlPartyCollection`\>
 
 The assignee of the policy.
 Applies to all rules unless overridden at rule level.
 
 #### Inherited from
 
-`Omit.assignee`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`assignee`](IDataspaceProtocolOfferBase.md#assignee)
 
 ***
 
 ### target? {#target}
 
-> `optional` **target**: `string` \| `IOdrlAsset` \| `IOdrlAssetCollection` \| (`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`)[]
+> `optional` **target**: `ObjectOrArray`\<`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`\>
 
 The target asset for the rule.
 
 #### Inherited from
 
-`Omit.target`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`target`](IDataspaceProtocolOfferBase.md#target)
 
 ***
 
 ### action? {#action}
 
-> `optional` **action**: `string` \| `IOdrlAction` \| (`string` \| `IOdrlAction`)[]
+> `optional` **action**: `ObjectOrArray`\<`string` \| `IOdrlAction`\>
 
 The action associated with the rule.
 
 #### Inherited from
 
-`Omit.action`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`action`](IDataspaceProtocolOfferBase.md#action)
 
 ***
 
 ### inheritFrom? {#inheritfrom}
 
-> `optional` **inheritFrom**: `string` \| `string`[]
+> `optional` **inheritFrom**: `ObjectOrArray`\<`string`\>
 
 The parent policy(ies) this policy inherits from.
 IRIs identifying the parent Policy(ies).
 
 #### Inherited from
 
-`Omit.inheritFrom`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`inheritFrom`](IDataspaceProtocolOfferBase.md#inheritfrom)
 
 ***
 
@@ -137,43 +136,43 @@ The conflict resolution strategy.
 
 #### Inherited from
 
-`Omit.conflict`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`conflict`](IDataspaceProtocolOfferBase.md#conflict)
 
 ***
 
 ### permission? {#permission}
 
-> `optional` **permission**: `IOdrlPermission` \| `IOdrlPermission`[]
+> `optional` **permission**: `ObjectOrArray`\<`IOdrlPermission`\>
 
 The permissions in the policy.
 At least one of permission, prohibition, or obligation must be present.
 
 #### Inherited from
 
-`Omit.permission`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`permission`](IDataspaceProtocolOfferBase.md#permission)
 
 ***
 
 ### prohibition? {#prohibition}
 
-> `optional` **prohibition**: `IOdrlProhibition` \| `IOdrlProhibition`[]
+> `optional` **prohibition**: `ObjectOrArray`\<`IOdrlProhibition`\>
 
 The prohibitions in the policy.
 At least one of permission, prohibition, or obligation must be present.
 
 #### Inherited from
 
-`Omit.prohibition`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`prohibition`](IDataspaceProtocolOfferBase.md#prohibition)
 
 ***
 
 ### obligation? {#obligation}
 
-> `optional` **obligation**: `IOdrlDuty` \| `IOdrlDuty`[]
+> `optional` **obligation**: `ObjectOrArray`\<`IOdrlDuty`\>
 
 The obligations in the policy.
 At least one of permission, prohibition, or obligation must be present.
 
 #### Inherited from
 
-`Omit.obligation`
+[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md).[`obligation`](IDataspaceProtocolOfferBase.md#obligation)
