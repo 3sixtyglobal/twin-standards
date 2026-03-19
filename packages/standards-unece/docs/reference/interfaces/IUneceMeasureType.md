@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/MeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### MeasureTypeValue? {#measuretypevalue}
 
-> `optional` **MeasureTypeValue**: `string`
+> `optional` **MeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/MeasureTypeValue
 
 ### MeasureTypeCode? {#measuretypecode}
 
-> `optional` **MeasureTypeCode**: [`IUneceMeasureCode`](IUneceMeasureCode.md)
+> `optional` **MeasureTypeCode?**: [`IUneceMeasureCode`](IUneceMeasureCode.md)
 
 The unit code.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Clause
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedMeasurement? {#associatedmeasurement}
 
-> `optional` **associatedMeasurement**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
+> `optional` **associatedMeasurement?**: [`IUneceMeasurement`](IUneceMeasurement.md)[]
 
 A measurement associated with this document clause.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedMeasurement
 
 ### associatedPeriod? {#associatedperiod}
 
-> `optional` **associatedPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **associatedPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A period of time associated with this document clause.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedPeriod
 
 ### content? {#content}
 
-> `optional` **content**: `string`
+> `optional` **content?**: `string`
 
 Content, expressed as text, of this document clause.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/content
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this document clause.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### uRLId? {#urlid}
 
-> `optional` **uRLId**: `string` \| `IJsonLdValueObject`
+> `optional` **uRLId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Locator (URL) for this document clause.
 

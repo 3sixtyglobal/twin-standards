@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Object
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### category? {#category}
 
-> `optional` **category**: `string`
+> `optional` **category?**: `string`
 
 A category, expressed as text, for this specified object.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/category
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category for this specified object.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified object.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### objectType? {#objecttype}
 
-> `optional` **objectType**: `string`
+> `optional` **objectType?**: `string`
 
 A type, expressed as text, for this specified object.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/objectType
 
 ### remark? {#remark}
 
-> `optional` **remark**: `string`
+> `optional` **remark?**: `string`
 
 A remark, expressed as text, for this specified object.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/remark
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of specified object.
 

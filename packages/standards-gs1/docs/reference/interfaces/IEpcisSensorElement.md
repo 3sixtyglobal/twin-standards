@@ -11,7 +11,7 @@ https://ref.gs1.org/epcis/SensorElement
 
 ### sensorMetadata? {#sensormetadata}
 
-> `optional` **sensorMetadata**: [`IEpcisSensorMetadata`](IEpcisSensorMetadata.md)
+> `optional` **sensorMetadata?**: [`IEpcisSensorMetadata`](IEpcisSensorMetadata.md)
 
 (Optional) Element containing metadata attributes applicable to all
 sensorReport entries within this sensorElement.

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/PortMovementEvent
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualOccurrenceDateTime? {#actualoccurrencedatetime}
 
-> `optional` **actualOccurrenceDateTime**: `string`
+> `optional` **actualOccurrenceDateTime?**: `string`
 
 An actual date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualOccurrenceDateTime
 
 ### arrivalRelatedLocation? {#arrivalrelatedlocation}
 
-> `optional` **arrivalRelatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **arrivalRelatedLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 An arrival location related to this port movement event.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/arrivalRelatedLocation
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this port movement event.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### estimatedOccurrenceDateTime? {#estimatedoccurrencedatetime}
 
-> `optional` **estimatedOccurrenceDateTime**: `string`
+> `optional` **estimatedOccurrenceDateTime?**: `string`
 
 An estimated date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier for this port movement event.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maritimeAnchorageIndicator? {#maritimeanchorageindicator}
 
-> `optional` **maritimeAnchorageIndicator**: `boolean`
+> `optional` **maritimeAnchorageIndicator?**: `boolean`
 
 The indication of whether or not this port movement event involves a maritime anchorage.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/maritimeAnchorageIndicator
 
 ### pilotBoardingPlace? {#pilotboardingplace}
 
-> `optional` **pilotBoardingPlace**: `string`
+> `optional` **pilotBoardingPlace?**: `string`
 
 A pilot boarding place, expressed as text, for this port movement event.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/pilotBoardingPlace
 
 ### requestedOccurrenceDateTime? {#requestedoccurrencedatetime}
 
-> `optional` **requestedOccurrenceDateTime**: `string`
+> `optional` **requestedOccurrenceDateTime?**: `string`
 
 A requested date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/requestedOccurrenceDateTime
 
 ### scheduledOccurrenceDateTime? {#scheduledoccurrencedatetime}
 
-> `optional` **scheduledOccurrenceDateTime**: `string`
+> `optional` **scheduledOccurrenceDateTime?**: `string`
 
 A scheduled date, time, date time, or other date time value of the occurrence of this port movement event.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
 
 ### sequenceNumeric? {#sequencenumeric}
 
-> `optional` **sequenceNumeric**: `string`
+> `optional` **sequenceNumeric?**: `string`
 
 The sequence number for this port movement event.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of port movement event.
 

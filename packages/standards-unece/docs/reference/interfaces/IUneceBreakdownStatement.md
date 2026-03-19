@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/BreakdownStatement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### binaryFile? {#binaryfile}
 
-> `optional` **binaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **binaryFile?**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A specified binary file referenced by this valuation breakdown statement.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/binaryFile
 
 ### changedStatus? {#changedstatus}
 
-> `optional` **changedStatus**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
+> `optional` **changedStatus?**: [`IUneceRecordedStatus`](IUneceRecordedStatus.md)[]
 
 A changed recorded status for this valuation breakdown statement.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/changedStatus
 
 ### comment? {#comment}
 
-> `optional` **comment**: `string`
+> `optional` **comment?**: `string`
 
 A comment, expressed as text, for this valuation breakdown statement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/comment
 
 ### contractualLanguageCode? {#contractuallanguagecode}
 
-> `optional` **contractualLanguageCode**: `string`
+> `optional` **contractualLanguageCode?**: `string`
 
 The code specifying the contractual language for this valuation breakdown statement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### creationBinaryFile? {#creationbinaryfile}
 
-> `optional` **creationBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **creationBinaryFile?**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A specified binary file used to create this valuation breakdown statement.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/defaultLanguageCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this valuation breakdown statement.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### itemBasicWorkItem? {#itembasicworkitem}
 
-> `optional` **itemBasicWorkItem**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)[]
+> `optional` **itemBasicWorkItem?**: [`IUneceBasicWorkItem`](IUneceBasicWorkItem.md)[]
 
 A basic work item in this valuation breakdown statement.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/itemBasicWorkItem
 
 ### itemGroupedWorkItem? {#itemgroupedworkitem}
 
-> `optional` **itemGroupedWorkItem**: [`IUneceGroupedWorkItem`](IUneceGroupedWorkItem.md)[]
+> `optional` **itemGroupedWorkItem?**: [`IUneceGroupedWorkItem`](IUneceGroupedWorkItem.md)[]
 
 A grouped work item in this valuation breakdown statement.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/itemGroupedWorkItem
 
 ### measurementMethodId? {#measurementmethodid}
 
-> `optional` **measurementMethodId**: `string` \| `IJsonLdValueObject`
+> `optional` **measurementMethodId?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of a method of measurement for this valuation breakdown statement.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/name
 
 ### priceListId? {#pricelistid}
 
-> `optional` **priceListId**: `string` \| `IJsonLdValueObject`
+> `optional` **priceListId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of a price list for this valuation breakdown statement.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/priceListId
 
 ### readerBinaryFile? {#readerbinaryfile}
 
-> `optional` **readerBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **readerBinaryFile?**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A specified binary file used to read this valuation breakdown statement.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/readerBinaryFile
 
 ### requestedActionCode? {#requestedactioncode}
 
-> `optional` **requestedActionCode**: `string`
+> `optional` **requestedActionCode?**: `string`
 
 A code specifying the requested action for this valuation breakdown statement.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/requestedActionCode
 
 ### totalPrice? {#totalprice}
 
-> `optional` **totalPrice**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
+> `optional` **totalPrice?**: [`IUneceCalculatedPrice`](IUneceCalculatedPrice.md)[]
 
 A total calculated price for this valuation breakdown statement.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/totalPrice
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying the type of valuation breakdown statement.
 

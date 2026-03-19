@@ -8,4 +8,4 @@ https://ref.gs1.org/epcis/Query
 
 ## Indexable
 
-\[`key`: `string`\]: `string`
+> \[`key`: `string`\]: `string`

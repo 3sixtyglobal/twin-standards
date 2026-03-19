@@ -12,7 +12,7 @@ https://vocabulary.uncefact.org/EventElement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -40,7 +40,7 @@ https://vocabulary.uncefact.org/objectClassId
 
 ### unitQuantity? {#unitquantity}
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **unitQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of this TT event element.
 

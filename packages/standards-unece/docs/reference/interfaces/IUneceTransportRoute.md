@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TransportRoute
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### departurePoint? {#departurepoint}
 
-> `optional` **departurePoint**: `string`
+> `optional` **departurePoint?**: `string`
 
 A departure point, expressed as text, for this transport route.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/departurePoint
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of this transport route.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### frequencyEffectivePeriod? {#frequencyeffectiveperiod}
 
-> `optional` **frequencyEffectivePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **frequencyEffectivePeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A specified period of time for which a frequency is effective for this transport route.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/frequencyEffectivePeriod
 
 ### frequencyTypeCode? {#frequencytypecode}
 
-> `optional` **frequencyTypeCode**: `string`
+> `optional` **frequencyTypeCode?**: `string`
 
 The code specifying the type of frequency for this transport route, such as weekly, bi-monthly or daily.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/frequencyTypeCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this transport route.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### itineraryStopEvent? {#itinerarystopevent}
 
-> `optional` **itineraryStopEvent**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
+> `optional` **itineraryStopEvent?**: [`IUneceTransportEvent`](IUneceTransportEvent.md)[]
 
 An itinerary stop event for this transport route, such as a port call in a vessel schedule.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/itineraryStopEvent
 
 ### mapBinaryObject? {#mapbinaryobject}
 
-> `optional` **mapBinaryObject**: `string`
+> `optional` **mapBinaryObject?**: `string`
 
 Binary object data that is the map of this transport route.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/mapBinaryObject
 
 ### routeType? {#routetype}
 
-> `optional` **routeType**: `string`
+> `optional` **routeType?**: `string`
 
 A type, expressed as text, for this transport route.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/routeType
 
 ### scheduledPeriod? {#scheduledperiod}
 
-> `optional` **scheduledPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **scheduledPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period during which this transport route is scheduled.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/scheduledPeriod
 
 ### securityLevelCode? {#securitylevelcode}
 
-> `optional` **securityLevelCode**: `string`
+> `optional` **securityLevelCode?**: `string`
 
 A code specifying a security level for this transport route.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ### specifiedTransportMovement? {#specifiedtransportmovement}
 
-> `optional` **specifiedTransportMovement**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
+> `optional` **specifiedTransportMovement?**: [`IUneceTransportMovement`](IUneceTransportMovement.md)
 
 The logistics transport movement specified for this transport route.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/specifiedTransportMovement
 
 ### transportMeans? {#transportmeans}
 
-> `optional` **transportMeans**: `string`
+> `optional` **transportMeans?**: `string`
 
 A means of transport, expressed as text, for this transport route.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/transportMeans
 
 ### transportRouteStatusCode? {#transportroutestatuscode}
 
-> `optional` **transportRouteStatusCode**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)
+> `optional` **transportRouteStatusCode?**: [`UneceStatusCodeList`](../type-aliases/UneceStatusCodeList.md)
 
 The code specifying a status for a transport route, such as planned or actual.
 

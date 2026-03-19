@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Tolerance
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### information? {#information}
 
-> `optional` **information**: `string`
+> `optional` **information?**: `string`
 
 Information, expressed as text, for this specified tolerance.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/information
 
 ### marginValueNumeric? {#marginvaluenumeric}
 
-> `optional` **marginValueNumeric**: `string`
+> `optional` **marginValueNumeric?**: `string`
 
 The margin numeric value of this specified tolerance.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/marginValueNumeric
 
 ### marginValuePercent? {#marginvaluepercent}
 
-> `optional` **marginValuePercent**: `string`
+> `optional` **marginValuePercent?**: `string`
 
 The margin percentage value of this specified tolerance.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/marginValuePercent
 
 ### minusValuePercent? {#minusvaluepercent}
 
-> `optional` **minusValuePercent**: `string`
+> `optional` **minusValuePercent?**: `string`
 
 The minus percentage value of this specified tolerance.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/minusValuePercent
 
 ### minusValueQuantity? {#minusvaluequantity}
 
-> `optional` **minusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **minusValueQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The minus quantity value of this specified tolerance.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/minusValueQuantity
 
 ### surplusValuePercent? {#surplusvaluepercent}
 
-> `optional` **surplusValuePercent**: `string`
+> `optional` **surplusValuePercent?**: `string`
 
 The surplus percentage value of this specified tolerance.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/surplusValuePercent
 
 ### surplusValueQuantity? {#surplusvaluequantity}
 
-> `optional` **surplusValueQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **surplusValueQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The surplus quantity value of this specified tolerance.
 

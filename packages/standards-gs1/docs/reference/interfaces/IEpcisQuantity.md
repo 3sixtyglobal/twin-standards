@@ -19,7 +19,7 @@ objects belongs.
 
 ### quantity? {#quantity}
 
-> `optional` **quantity**: `number`
+> `optional` **quantity?**: `number`
 
 (Optional) A number that specifies how many or how much of the specified
 EPCClass is denoted by this QuantityElement.
@@ -28,7 +28,7 @@ EPCClass is denoted by this QuantityElement.
 
 ### uom? {#uom}
 
-> `optional` **uom**: `string`
+> `optional` **uom?**: `string`
 
 (Optional) Unit of measure by which the specified value(s) of the property
 specified by type should be interpreted.

@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/TTExchangedDocument
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of this TT exchanged document.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 The date, time, date time, or other date time value of the issuance of this TT exchanged document.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/senderSpecifiedParty
 
 ### tTExchangedDocumentPurposeCode? {#ttexchangeddocumentpurposecode}
 
-> `optional` **tTExchangedDocumentPurposeCode**: `string`
+> `optional` **tTExchangedDocumentPurposeCode?**: `string`
 
 The code specifying a purpose of this TT exchanged document.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/tTExchangedDocumentPurposeCode
 
 ### tTExchangedDocumentStatusCode? {#ttexchangeddocumentstatuscode}
 
-> `optional` **tTExchangedDocumentStatusCode**: `string`
+> `optional` **tTExchangedDocumentStatusCode?**: `string`
 
 The code specifying the status of this TT exchanged document.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/tTExchangedDocumentStatusCode
 
 ### tTExchangedDocumentTypeCode? {#ttexchangeddocumenttypecode}
 
-> `optional` **tTExchangedDocumentTypeCode**: `string`
+> `optional` **tTExchangedDocumentTypeCode?**: `string`
 
 The code specifying the type of TT exchanged document.
 

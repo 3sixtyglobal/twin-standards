@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/ExperienceItem
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicablePeriod? {#applicableperiod}
 
-> `optional` **applicablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **applicablePeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An applicable period for this specified experience item.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicablePeriod
 
 ### applicableQuantityUnitTypeCode? {#applicablequantityunittypecode}
 
-> `optional` **applicableQuantityUnitTypeCode**: `string`
+> `optional` **applicableQuantityUnitTypeCode?**: `string`
 
 The code specifying the type of quantity unit applicable for this specified experience item.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableQuantityUnitTypeCode
 
 ### availablePeriod? {#availableperiod}
 
-> `optional` **availablePeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **availablePeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 An available period for this specified experience item.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/availablePeriod
 
 ### availableProduct? {#availableproduct}
 
-> `optional` **availableProduct**: [`IUneceExperienceProduct`](IUneceExperienceProduct.md)[]
+> `optional` **availableProduct?**: [`IUneceExperienceProduct`](IUneceExperienceProduct.md)[]
 
 An available product for this specified experience item.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/availableProduct
 
 ### availableUnitQuantity? {#availableunitquantity}
 
-> `optional` **availableUnitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **availableUnitQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units available for this specified experience item.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/availableUnitQuantity
 
 ### brandName? {#brandname}
 
-> `optional` **brandName**: `string`
+> `optional` **brandName?**: `string`
 
 A brand name, expressed as text, of this specified experience item.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/brandName
 
 ### calculatedPrice? {#calculatedprice}
 
-> `optional` **calculatedPrice**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
+> `optional` **calculatedPrice?**: [`IUneceTradePrice`](IUneceTradePrice.md)[]
 
 A calculated price for this specified experience item.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/calculatedPrice
 
 ### capabilityLevel? {#capabilitylevel}
 
-> `optional` **capabilityLevel**: `string`
+> `optional` **capabilityLevel?**: `string`
 
 A capability level, expressed as text, for this specified experience item.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/capabilityLevel
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category for this specified experience item.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified experience item.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/description
 
 ### destination? {#destination}
 
-> `optional` **destination**: `string`
+> `optional` **destination?**: `string`
 
 A destination, expressed as text, for this specified experience item.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/destination
 
 ### guestSpecialCareIndicator? {#guestspecialcareindicator}
 
-> `optional` **guestSpecialCareIndicator**: `boolean`
+> `optional` **guestSpecialCareIndicator?**: `boolean`
 
 The indication of whether or not guest special care is applicable for this specified experience item.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/guestSpecialCareIndicator
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified experience item.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### indemnityClause? {#indemnityclause}
 
-> `optional` **indemnityClause**: `string`
+> `optional` **indemnityClause?**: `string`
 
 An indemnity clause, expressed as text, for this specified experience item.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/indemnityClause
 
 ### instruction? {#instruction}
 
-> `optional` **instruction**: `string`
+> `optional` **instruction?**: `string`
 
 An instruction, expressed as text, for this specified experience item.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/instruction
 
 ### lowerPriceLimitAmount? {#lowerpricelimitamount}
 
-> `optional` **lowerPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **lowerPriceLimitAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a lower price limit of this specified experience item.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/lowerPriceLimitAmount
 
 ### maximumGuestQuantity? {#maximumguestquantity}
 
-> `optional` **maximumGuestQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **maximumGuestQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The maximum number of guests for this specified experience item.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/maximumGuestQuantity
 
 ### minimumGuestQuantity? {#minimumguestquantity}
 
-> `optional` **minimumGuestQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **minimumGuestQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The minimum number of guests for this specified experience item.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/minimumGuestQuantity
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this specified experience item.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/name
 
 ### reservationGuarantee? {#reservationguarantee}
 
-> `optional` **reservationGuarantee**: `string`
+> `optional` **reservationGuarantee?**: `string`
 
 A reservation guarantee, expressed as text, for this specified experience item.
 
@@ -267,7 +267,7 @@ https://vocabulary.uncefact.org/reservationGuarantee
 
 ### responseStatusCode? {#responsestatuscode}
 
-> `optional` **responseStatusCode**: `string`
+> `optional` **responseStatusCode?**: `string`
 
 The code specifying the response status for this specified experience item.
 
@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/responseStatusCode
 
 ### specifiedExperienceEvent? {#specifiedexperienceevent}
 
-> `optional` **specifiedExperienceEvent**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)[]
+> `optional` **specifiedExperienceEvent?**: [`IUneceExperienceEvent`](IUneceExperienceEvent.md)[]
 
 An event for this specified experience item.
 
@@ -291,7 +291,7 @@ https://vocabulary.uncefact.org/specifiedExperienceEvent
 
 ### specifiedTradeParty? {#specifiedtradeparty}
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **specifiedTradeParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party specified for this specified experience item.
 
@@ -303,7 +303,7 @@ https://vocabulary.uncefact.org/specifiedTradeParty
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status for this specified experience item.
 
@@ -315,7 +315,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### theme? {#theme}
 
-> `optional` **theme**: `string`
+> `optional` **theme?**: `string`
 
 A theme, expressed as text, for this specified experience item.
 
@@ -327,7 +327,7 @@ https://vocabulary.uncefact.org/theme
 
 ### themeTypeCode? {#themetypecode}
 
-> `optional` **themeTypeCode**: `string`
+> `optional` **themeTypeCode?**: `string`
 
 The code specifying the type of theme for this specified experience item.
 
@@ -339,7 +339,7 @@ https://vocabulary.uncefact.org/themeTypeCode
 
 ### unitQuantity? {#unitquantity}
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **unitQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units for this specified experience item.
 
@@ -351,7 +351,7 @@ https://vocabulary.uncefact.org/unitQuantity
 
 ### upperPriceLimitAmount? {#upperpricelimitamount}
 
-> `optional` **upperPriceLimitAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **upperPriceLimitAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of an upper price limit of this specified experience item.
 
@@ -363,7 +363,7 @@ https://vocabulary.uncefact.org/upperPriceLimitAmount
 
 ### visitingPeriod? {#visitingperiod}
 
-> `optional` **visitingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
+> `optional` **visitingPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)[]
 
 A visiting period for this specified experience item.
 

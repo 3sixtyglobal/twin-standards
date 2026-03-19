@@ -31,7 +31,7 @@ The provider id for the contract.
 
 ### consumerPid? {#consumerpid}
 
-> `optional` **consumerPid**: `string`
+> `optional` **consumerPid?**: `string`
 
 The consumer id for the contract.
 
@@ -47,6 +47,6 @@ The offer being requested.
 
 ### callbackAddress? {#callbackaddress}
 
-> `optional` **callbackAddress**: `string`
+> `optional` **callbackAddress?**: `string`
 
 The base callback address for the provider to update the consumer on the state of the negotiation.

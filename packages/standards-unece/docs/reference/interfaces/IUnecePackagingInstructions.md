@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/PackagingInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these packaging instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### handling? {#handling}
 
-> `optional` **handling**: `string`
+> `optional` **handling?**: `string`
 
 Packaging handling instructions, expressed as text.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/handling
 
 ### handlingCode? {#handlingcode}
 
-> `optional` **handlingCode**: `string`
+> `optional` **handlingCode?**: `string`
 
 A code specifying packaging handling instructions.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/handlingCode
 
 ### instructionsType? {#instructionstype}
 
-> `optional` **instructionsType**: `string`
+> `optional` **instructionsType?**: `string`
 
 A type, expressed as text, of these packaging instructions.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ### itemName? {#itemname}
 
-> `optional` **itemName**: `string`
+> `optional` **itemName?**: `string`
 
 A name, expressed as text, of an item included in these packaging instructions.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/itemName
 
 ### packagingInstructionsDescriptionCode? {#packaginginstructionsdescriptioncode}
 
-> `optional` **packagingInstructionsDescriptionCode**: `string`
+> `optional` **packagingInstructionsDescriptionCode?**: `string`
 
 The code specifying a description of these packaging instructions.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/packagingInstructionsDescriptionCode
 
 ### procedure? {#procedure}
 
-> `optional` **procedure**: `string`
+> `optional` **procedure?**: `string`
 
 A procedure, expressed as text, for these packaging instructions.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/procedure
 
 ### requirementIndicator? {#requirementindicator}
 
-> `optional` **requirementIndicator**: `boolean`
+> `optional` **requirementIndicator?**: `boolean`
 
 The indication of whether or not there is a requirement for these packaging instructions.
 

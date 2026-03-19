@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Voucher
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableIndicator? {#applicableindicator}
 
-> `optional` **applicableIndicator**: `boolean`
+> `optional` **applicableIndicator?**: `boolean`
 
 The indication of whether or not this experience item voucher is applicable.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this experience item voucher.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### faceAmount? {#faceamount}
 
-> `optional` **faceAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **faceAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value shown on the face of this experience item voucher.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/faceAmount
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this experience item voucher.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 The date or date time of the issuance of this experience item voucher.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuingCompanyName? {#issuingcompanyname}
 
-> `optional` **issuingCompanyName**: `string`
+> `optional` **issuingCompanyName?**: `string`
 
 A name, expressed as text, of the company issuing this experience item voucher.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/issuingCompanyName
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of experience item voucher.
 

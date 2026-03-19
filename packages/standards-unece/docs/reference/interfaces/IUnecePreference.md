@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Preference
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this experience item preference.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### dislikedItem? {#dislikeditem}
 
-> `optional` **dislikedItem**: `string`
+> `optional` **dislikedItem?**: `string`
 
 A disliked item, expressed as text, for this experience item preference.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/dislikedItem
 
 ### preferredItem? {#preferreditem}
 
-> `optional` **preferredItem**: `string`
+> `optional` **preferredItem?**: `string`
 
 A preferred item, expressed as text, for this experience item preference.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/preferredItem
 
 ### priorityRankingNumeric? {#priorityrankingnumeric}
 
-> `optional` **priorityRankingNumeric**: `string`
+> `optional` **priorityRankingNumeric?**: `string`
 
 The priority ranking number for this experience item preference.
 

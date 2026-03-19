@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/AgriculturalApplication
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic?**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this agricultural application.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### appliedArea? {#appliedarea}
 
-> `optional` **appliedArea**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)[]
+> `optional` **appliedArea?**: [`IUneceAgriculturalZoneArea`](IUneceAgriculturalZoneArea.md)[]
 
 A specified agricultural application applied to this agricultural zone area.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/appliedArea
 
 ### appliedCertificate? {#appliedcertificate}
 
-> `optional` **appliedCertificate**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
+> `optional` **appliedCertificate?**: [`IUneceAgriculturalCertificate`](IUneceAgriculturalCertificate.md)[]
 
 An agricultural certificate applied to this specified agricultural application.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/appliedCertificate
 
 ### appliedChemicalTreatment? {#appliedchemicaltreatment}
 
-> `optional` **appliedChemicalTreatment**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
+> `optional` **appliedChemicalTreatment?**: [`IUneceSpecifiedChemicalTreatment`](IUneceSpecifiedChemicalTreatment.md)[]
 
 A specified chemical treatment applied to this agricultural application.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/appliedChemicalTreatment
 
 ### appliedMaterial? {#appliedmaterial}
 
-> `optional` **appliedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **appliedMaterial?**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Specified material applied to this agricultural application.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/appliedMaterial
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified agricultural application.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedLocation? {#specifiedlocation}
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **specifiedLocation?**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location specified for this specified agricultural application.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ### specifiedPlot? {#specifiedplot}
 
-> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
+> `optional` **specifiedPlot?**: [`IUnecePlot`](IUnecePlot.md)[]
 
 A crop plot specified for this agricultural application.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/specifiedPlot
 
 ### specifiedProductBatch? {#specifiedproductbatch}
 
-> `optional` **specifiedProductBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **specifiedProductBatch?**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 A product batch specified for this specified agricultural application.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DocumentContextParameter
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this document context parameter.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedVersion? {#specifiedversion}
 
-> `optional` **specifiedVersion**: [`IUneceVersion`](IUneceVersion.md)
+> `optional` **specifiedVersion?**: [`IUneceVersion`](IUneceVersion.md)
 
 The document version specified for this document context parameter.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/specifiedVersion
 
 ### value? {#value}
 
-> `optional` **value**: `string`
+> `optional` **value?**: `string`
 
 The value, expressed as text, of this document context parameter.
 

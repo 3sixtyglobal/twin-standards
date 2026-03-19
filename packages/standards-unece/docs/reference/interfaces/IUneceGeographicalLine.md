@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalLine
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation? {#associatedlocation}
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location associated with this specified geographical line.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/QuantityType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### QuantityTypeValue? {#quantitytypevalue}
 
-> `optional` **QuantityTypeValue**: `string`
+> `optional` **QuantityTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/QuantityTypeValue
 
 ### QuantityTypeCode? {#quantitytypecode}
 
-> `optional` **QuantityTypeCode**: [`IUneceQuantityCode`](IUneceQuantityCode.md)
+> `optional` **QuantityTypeCode?**: [`IUneceQuantityCode`](IUneceQuantityCode.md)
 
 The unit code.
 

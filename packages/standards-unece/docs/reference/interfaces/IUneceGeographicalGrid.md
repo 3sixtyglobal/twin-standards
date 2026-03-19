@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/GeographicalGrid
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation? {#associatedlocation}
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location associated with this specified geographical grid.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/cell
 
 ### dimensionNumeric? {#dimensionnumeric}
 
-> `optional` **dimensionNumeric**: `string`
+> `optional` **dimensionNumeric?**: `string`
 
 The dimension, expressed as a number, of this geographical grid.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/highLimit
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier for this geographical grid.
 
@@ -125,7 +125,7 @@ https://vocabulary.uncefact.org/lowLimit
 
 ### offsetVectorNumeric? {#offsetvectornumeric}
 
-> `optional` **offsetVectorNumeric**: `string`
+> `optional` **offsetVectorNumeric?**: `string`
 
 The offset vector, expressed as a number, which indicates the offset of cells along each axis for this geographical
 grid.
@@ -150,7 +150,7 @@ https://vocabulary.uncefact.org/originAssociatedDirectPositionList
 
 ### specifiedPlot? {#specifiedplot}
 
-> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
+> `optional` **specifiedPlot?**: [`IUnecePlot`](IUnecePlot.md)[]
 
 A crop plot specified for this geographical grid.
 

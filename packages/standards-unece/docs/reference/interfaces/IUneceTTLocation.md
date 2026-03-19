@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TTLocation
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableTechnicalCharacteristic? {#applicabletechnicalcharacteristic}
 
-> `optional` **applicableTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **applicableTechnicalCharacteristic?**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic applicable to this TT location.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableTechnicalCharacteristic
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this TT location.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this TT location.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 The code specifying the type of TT location.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this TT location.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### responsibleTTParty? {#responsiblettparty}
 
-> `optional` **responsibleTTParty**: [`IUneceTTParty`](IUneceTTParty.md)
+> `optional` **responsibleTTParty?**: [`IUneceTTParty`](IUneceTTParty.md)
 
 The party responsible for this TT location.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/responsibleTTParty
 
 ### specifiedAnimalHoldingEvent? {#specifiedanimalholdingevent}
 
-> `optional` **specifiedAnimalHoldingEvent**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
+> `optional` **specifiedAnimalHoldingEvent?**: [`IUneceAnimalHoldingEvent`](IUneceAnimalHoldingEvent.md)[]
 
 An animal holding event specified for this TT location.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/specifiedAnimalHoldingEvent
 
 ### specifiedGeographicalArea? {#specifiedgeographicalarea}
 
-> `optional` **specifiedGeographicalArea**: [`IUneceGeographicalArea`](IUneceGeographicalArea.md)
+> `optional` **specifiedGeographicalArea?**: [`IUneceGeographicalArea`](IUneceGeographicalArea.md)
 
 The geographical area specified for this TT location.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/specifiedGeographicalArea
 
 ### specifiedTTAnimal? {#specifiedttanimal}
 
-> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
+> `optional` **specifiedTTAnimal?**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 
 An animal specified for this TT location.
 

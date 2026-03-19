@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/FinancingRequestResultDocument
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### financedRatePercent? {#financedratepercent}
 
-> `optional` **financedRatePercent**: `string`
+> `optional` **financedRatePercent?**: `string`
 
 The financed rate, expressed as a percentage, in this financing request result document.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/financedRatePercent
 
 ### financedTotalAmount? {#financedtotalamount}
 
-> `optional` **financedTotalAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **financedTotalAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the financed total amount in this financing request result document.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/financedTotalAmount
 
 ### specifiedFinancingStatus? {#specifiedfinancingstatus}
 
-> `optional` **specifiedFinancingStatus**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)
+> `optional` **specifiedFinancingStatus?**: [`IUneceFinancingStatus`](IUneceFinancingStatus.md)
 
 The financing status specified in this financing request result document.
 

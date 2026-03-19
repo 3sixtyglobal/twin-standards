@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Pairing
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### matchingEvent? {#matchingevent}
 
-> `optional` **matchingEvent**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
+> `optional` **matchingEvent?**: [`IUneceCommunicationEvent`](IUneceCommunicationEvent.md)[]
 
 A matching event for this communication pairing.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/matchingEvent
 
 ### methodCode? {#methodcode}
 
-> `optional` **methodCode**: `string`
+> `optional` **methodCode?**: `string`
 
 The code specifying the method of this communication pairing.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/methodCode
 
 ### pairedIndicator? {#pairedindicator}
 
-> `optional` **pairedIndicator**: `boolean`
+> `optional` **pairedIndicator?**: `boolean`
 
 The indication of whether or not the entity is paired in this communication pairing.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/pairedIndicator
 
 ### targetEntityId? {#targetentityid}
 
-> `optional` **targetEntityId**: `string` \| `IJsonLdValueObject`
+> `optional` **targetEntityId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the target entity for this communication pairing.
 

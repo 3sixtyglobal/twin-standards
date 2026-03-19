@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TestSpecificationReport
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### result? {#result}
 
-> `optional` **result**: `string`
+> `optional` **result?**: `string`
 
 A result, expressed as text, reported in this certification test specification report.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/result
 
 ### standardName? {#standardname}
 
-> `optional` **standardName**: `string`
+> `optional` **standardName?**: `string`
 
 The name, expressed as text, of the standard applicable for this certification test specification report.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/standardName
 
 ### testName? {#testname}
 
-> `optional` **testName**: `string`
+> `optional` **testName?**: `string`
 
 A test name, expressed as text, for this certification test specification report.
 

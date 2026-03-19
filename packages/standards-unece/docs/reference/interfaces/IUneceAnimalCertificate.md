@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/AnimalCertificate
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableAnimalCertification? {#applicableanimalcertification}
 
-> `optional` **applicableAnimalCertification**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)[]
+> `optional` **applicableAnimalCertification?**: [`IUneceAnimalCertification`](IUneceAnimalCertification.md)[]
 
 An animal certification applicable to this animal certificate.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableAnimalCertification
 
 ### applicableAssertion? {#applicableassertion}
 
-> `optional` **applicableAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **applicableAssertion?**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion applicable to this animal certificate.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/applicableAssertion
 
 ### applicableStandard? {#applicablestandard}
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard?**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this animal certificate.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic?**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this animal certificate.
 

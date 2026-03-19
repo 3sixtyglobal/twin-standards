@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalObjectCharacteristic
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description for this geographical object characteristic.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### descriptionReference? {#descriptionreference}
 
-> `optional` **descriptionReference**: `string`
+> `optional` **descriptionReference?**: `string`
 
 The description reference, expressed as text, for this geographical object characteristic.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/descriptionReference
 
 ### geometryCollectionIndicator? {#geometrycollectionindicator}
 
-> `optional` **geometryCollectionIndicator**: `boolean`
+> `optional` **geometryCollectionIndicator?**: `boolean`
 
 The indication of whether or not this geographical object can be characterized as a geometry collection.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/geometryCollectionIndicator
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this geographical object characteristic.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this geographical object characteristic.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalIndicator? {#physicalindicator}
 
-> `optional` **physicalIndicator**: `boolean`
+> `optional` **physicalIndicator?**: `boolean`
 
 The indication of whether or not this geographical object can be characterized as physical.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/physicalIndicator
 
 ### relevantGeometryType? {#relevantgeometrytype}
 
-> `optional` **relevantGeometryType**: `string`
+> `optional` **relevantGeometryType?**: `string`
 
 The type of geometry, expressed as text, relevant for this geographical object characteristic.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/relevantGeometryType
 
 ### shapeType? {#shapetype}
 
-> `optional` **shapeType**: `string`
+> `optional` **shapeType?**: `string`
 
 The type of shape, expressed as text, such as a semi-circle, for this geographical object characteristic.
 

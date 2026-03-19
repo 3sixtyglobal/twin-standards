@@ -30,7 +30,7 @@ The subdivision label (e.g., "Aberdeenshire").
 
 ### type? {#type}
 
-> `optional` **type**: `string`
+> `optional` **type?**: `string`
 
 The subdivision type (e.g., "Province", "Parish", "State").
 
@@ -38,6 +38,6 @@ The subdivision type (e.g., "Province", "Parish", "State").
 
 ### countryCodeUri? {#countrycodeuri}
 
-> `optional` **countryCodeUri**: [`UnLocodeCountriesList`](../type-aliases/UnLocodeCountriesList.md)
+> `optional` **countryCodeUri?**: [`UnLocodeCountriesList`](../type-aliases/UnLocodeCountriesList.md)
 
 The country URI (e.g., "unlcdc:AD").

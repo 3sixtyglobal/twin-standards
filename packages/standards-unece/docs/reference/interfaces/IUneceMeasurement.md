@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Measurement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualMeasure? {#actualmeasure}
 
-> `optional` **actualMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **actualMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 An actual measure for this measurement.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualMeasure
 
 ### comparisonOperatorCode? {#comparisonoperatorcode}
 
-> `optional` **comparisonOperatorCode**: `string`
+> `optional` **comparisonOperatorCode?**: `string`
 
 A code specifying the operator, such as, less than, greater than or equal to, for comparing two actual measures.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/comparisonOperatorCode
 
 ### conditionMeasure? {#conditionmeasure}
 
-> `optional` **conditionMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **conditionMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a condition for this measurement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/conditionMeasure
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this measurement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ### method? {#method}
 
-> `optional` **method**: `string`
+> `optional` **method?**: `string`
 
 A measurement method expressed as text.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/method
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of measurement.
 

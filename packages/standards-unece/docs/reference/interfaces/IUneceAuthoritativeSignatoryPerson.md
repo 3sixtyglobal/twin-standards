@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AuthoritativeSignatoryPerson
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### attainedAcademicQualification? {#attainedacademicqualification}
 
-> `optional` **attainedAcademicQualification**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)[]
+> `optional` **attainedAcademicQualification?**: [`IUneceAcademicQualification`](IUneceAcademicQualification.md)[]
 
 An academic qualification attained by this authoritative signatory person.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/attainedAcademicQualification
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, of this authoritative signatory person.
 

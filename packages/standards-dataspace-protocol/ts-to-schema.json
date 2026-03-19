@@ -40,8 +40,7 @@
 		"./src/models/transferProcess/types/dataspaceProtocolTransferProcessStateType.ts"
 	],
 	"externalReferences": {
-		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
-		"IOdrl(.*)": "https://schema.twindev.org/w3c-odrl/Odrl$1",
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
 		"Odrl(.*)": "https://schema.twindev.org/w3c-odrl/Odrl$1",
 		"ActionType": "https://schema.twindev.org/w3c-odrl/ActionType",
 		"UriActionType": "https://schema.twindev.org/w3c-odrl/UriActionType",

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Illness
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### caseDispositionCode? {#casedispositioncode}
 
-> `optional` **caseDispositionCode**: `string`
+> `optional` **caseDispositionCode?**: `string`
 
 A code specifying a case disposition of this MDH illness.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/caseDispositionCode
 
 ### comment? {#comment}
 
-> `optional` **comment**: `string`
+> `optional` **comment?**: `string`
 
 A comment, expressed as text for this MDH illness.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/comment
 
 ### evacuationLocation? {#evacuationlocation}
 
-> `optional` **evacuationLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **evacuationLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics evacuation location for this MDH illness.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/evacuationLocation
 
 ### healthStatusCode? {#healthstatuscode}
 
-> `optional` **healthStatusCode**: `string`
+> `optional` **healthStatusCode?**: `string`
 
 A code specifying a health status of this MDH illness.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/healthStatusCode
 
 ### healthStatusReportedIndicator? {#healthstatusreportedindicator}
 
-> `optional` **healthStatusReportedIndicator**: `boolean`
+> `optional` **healthStatusReportedIndicator?**: `boolean`
 
 The indication of whether or not the health status has been reported for this MDH illness.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/healthStatusReportedIndicator
 
 ### nature? {#nature}
 
-> `optional` **nature**: `string`
+> `optional` **nature?**: `string`
 
 A nature, expressed as text, of this MDH illness.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/nature
 
 ### symptomOnsetDateTime? {#symptomonsetdatetime}
 
-> `optional` **symptomOnsetDateTime**: `string`
+> `optional` **symptomOnsetDateTime?**: `string`
 
 A symptom onset date, time, date time or other date time value for this MDH illness.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/symptomOnsetDateTime
 
 ### treatment? {#treatment}
 
-> `optional` **treatment**: `string`
+> `optional` **treatment?**: `string`
 
 A treatment, expressed as text, for this MDH illness.
 

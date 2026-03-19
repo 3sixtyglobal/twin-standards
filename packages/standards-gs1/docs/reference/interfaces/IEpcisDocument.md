@@ -18,7 +18,7 @@ The @context.
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The JSON-LD document id.
 
@@ -50,7 +50,7 @@ Creation Date.
 
 ### instanceIdentifier? {#instanceidentifier}
 
-> `optional` **instanceIdentifier**: `string`
+> `optional` **instanceIdentifier?**: `string`
 
 (Optional) The instance identifier of an EPCISDocument.
 
@@ -58,7 +58,7 @@ Creation Date.
 
 ### sender? {#sender}
 
-> `optional` **sender**: `string`
+> `optional` **sender?**: `string`
 
 (Optional) The sender of an EPCISDocument.
 
@@ -66,7 +66,7 @@ Creation Date.
 
 ### receiver? {#receiver}
 
-> `optional` **receiver**: `string`
+> `optional` **receiver?**: `string`
 
 (Optional) The intended receiver of an EPCISDocument.
 
@@ -74,7 +74,7 @@ Creation Date.
 
 ### epcisHeader? {#epcisheader}
 
-> `optional` **epcisHeader**: [`IEpcisHeader`](IEpcisHeader.md)
+> `optional` **epcisHeader?**: [`IEpcisHeader`](IEpcisHeader.md)
 
 EPCIS Header.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ProductCharacteristicCondition
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this product characteristic condition.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/name
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of product characteristic condition.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### valueMeasure? {#valuemeasure}
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this product characteristic condition.
 

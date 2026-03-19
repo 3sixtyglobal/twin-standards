@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ProcessWorkItem
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### alternativeClassificationCode? {#alternativeclassificationcode}
 
-> `optional` **alternativeClassificationCode**: `string`
+> `optional` **alternativeClassificationCode?**: `string`
 
 The code specifying an alternative classification for this process work item.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/alternativeClassificationCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description for this process work item.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### primaryClassificationCode? {#primaryclassificationcode}
 
-> `optional` **primaryClassificationCode**: `string`
+> `optional` **primaryClassificationCode?**: `string`
 
 The code specifying the primary classification for this process work item.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/primaryClassificationCode
 
 ### totalQuantity? {#totalquantity}
 
-> `optional` **totalQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **totalQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The total quantity for this process work item.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/totalQuantity
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of process work item.
 

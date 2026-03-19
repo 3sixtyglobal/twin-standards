@@ -6,45 +6,51 @@ The `ShipmentEvent` is a specialized event to handle all events related to docum
 
 Source: `shipmentEvent` schema in the DCSA Event Domain (v3.1.0).
 
-## Type Declaration
+## Union Members
+
+### Type Literal
 
 \{ `metadata`: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`; `payload`: [`IDcsaShipmentPayload`](../interfaces/IDcsaShipmentPayload.md); \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`
 
 Event metadata (eventType = SHIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`SHIPMENT`](../variables/DcsaEventTypes.md#shipment)
 
-### payload
+#### payload
 
 > **payload**: [`IDcsaShipmentPayload`](../interfaces/IDcsaShipmentPayload.md)
 
 Business attributes related to the `ShipmentEvent`.
 
+***
+
+### Type Literal
+
 \{ `metadata`: [`IDcsaEventMetadataRetraction`](IDcsaEventMetadataRetraction.md) & `object`; `payload?`: `never`; \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataRetraction`](IDcsaEventMetadataRetraction.md) & `object`
 
 Retraction metadata (eventType = SHIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`SHIPMENT`](../variables/DcsaEventTypes.md#shipment)
 
-### payload?
+#### payload?
 
-> `optional` **payload**: `never`
+> `optional` **payload?**: `never`
 
 Retractions do not carry payloads.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/LaboratoryObservationContact
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### departmentName? {#departmentname}
 
-> `optional` **departmentName**: `string`
+> `optional` **departmentName?**: `string`
 
 The name, expressed as text, of the department to which this laboratory observation contact belongs.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/departmentName
 
 ### emailCommunication? {#emailcommunication}
 
-> `optional` **emailCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **emailCommunication?**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The email address of this laboratory observation contact.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/emailCommunication
 
 ### faxCommunication? {#faxcommunication}
 
-> `optional` **faxCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **faxCommunication?**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The fax number of this laboratory observation contact.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### mobileTelephoneCommunication? {#mobiletelephonecommunication}
 
-> `optional` **mobileTelephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **mobileTelephoneCommunication?**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The mobile phone number of this laboratory observation contact.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/mobileTelephoneCommunication
 
 ### personName? {#personname}
 
-> `optional` **personName**: `string`
+> `optional` **personName?**: `string`
 
 The name, expressed as text, of the person for this laboratory observation contact.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/personName
 
 ### telephoneCommunication? {#telephonecommunication}
 
-> `optional` **telephoneCommunication**: [`IUneceCommunication`](IUneceCommunication.md)
+> `optional` **telephoneCommunication?**: [`IUneceCommunication`](IUneceCommunication.md)
 
 The telephone number of this laboratory observation contact.
 

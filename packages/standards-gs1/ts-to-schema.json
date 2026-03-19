@@ -42,6 +42,6 @@
 		"./src/models/epcis20/IEpcisVocabularyElement.ts"
 	],
 	"externalReferences": {
-		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
 	}
 }

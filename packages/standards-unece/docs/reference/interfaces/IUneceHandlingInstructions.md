@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/HandlingInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableTransportSettingTemperature? {#applicabletransportsettingtemperature}
 
-> `optional` **applicableTransportSettingTemperature**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
+> `optional` **applicableTransportSettingTemperature?**: [`IUneceTransportSettingTemperature`](IUneceTransportSettingTemperature.md)[]
 
 A transport related temperature setting applicable to these handling instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableTransportSettingTemperature
 
 ### deliveryApplicableTemperature? {#deliveryapplicabletemperature}
 
-> `optional` **deliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
+> `optional` **deliveryApplicableTemperature?**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for delivery applicable to these handling instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/deliveryApplicableTemperature
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these handling instructions.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### exclusiveUsageIndicator? {#exclusiveusageindicator}
 
-> `optional` **exclusiveUsageIndicator**: `boolean`
+> `optional` **exclusiveUsageIndicator?**: `boolean`
 
 The indication of whether or not an exclusive usage exists in these handling instructions.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/exclusiveUsageIndicator
 
 ### handling? {#handling}
 
-> `optional` **handling**: `string`
+> `optional` **handling?**: `string`
 
 A textual expression of these handling instructions.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/handling
 
 ### handlingCode? {#handlingcode}
 
-> `optional` **handlingCode**: `string`
+> `optional` **handlingCode?**: `string`
 
 A code specifying these handling instructions.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/handlingCode
 
 ### handlingInstructionsDescriptionCode? {#handlinginstructionsdescriptioncode}
 
-> `optional` **handlingInstructionsDescriptionCode**: `string`
+> `optional` **handlingInstructionsDescriptionCode?**: `string`
 
 A code specifying a description of these handling instructions.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/handlingInstructionsDescriptionCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this handling instructions.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### instructionsType? {#instructionstype}
 
-> `optional` **instructionsType**: `string`
+> `optional` **instructionsType?**: `string`
 
 A type, expressed as text, for these handling instructions.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ### itemName? {#itemname}
 
-> `optional` **itemName**: `string`
+> `optional` **itemName?**: `string`
 
 A name, expressed as text, of an item included in these handling instructions.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/itemName
 
 ### marketDeliveryApplicableTemperature? {#marketdeliveryapplicabletemperature}
 
-> `optional` **marketDeliveryApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
+> `optional` **marketDeliveryApplicableTemperature?**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for market delivery applicable to these handling instructions.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/marketDeliveryApplicableTemperature
 
 ### maximumStackabilityApplicableQuantity? {#maximumstackabilityapplicablequantity}
 
-> `optional` **maximumStackabilityApplicableQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **maximumStackabilityApplicableQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The maximum number of units which can be stacked on top of each other according to these handling instructions.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/maximumStackabilityApplicableQuantity
 
 ### maximumStackabilityWeightApplicableMeasure? {#maximumstackabilityweightapplicablemeasure}
 
-> `optional` **maximumStackabilityWeightApplicableMeasure**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
+> `optional` **maximumStackabilityWeightApplicableMeasure?**: [`IUneceWeightUnitMeasureType`](IUneceWeightUnitMeasureType.md)
 
 The maximum stackability weight applicable to these handling instructions.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/maximumStackabilityWeightApplicableMeasure
 
 ### maximumStorageHumidityApplicableMeasure? {#maximumstoragehumidityapplicablemeasure}
 
-> `optional` **maximumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **maximumStorageHumidityApplicableMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum storage humidity applicable to these handling instructions.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/maximumStorageHumidityApplicableMeasure
 
 ### minimumStorageHumidityApplicableMeasure? {#minimumstoragehumidityapplicablemeasure}
 
-> `optional` **minimumStorageHumidityApplicableMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **minimumStorageHumidityApplicableMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum storage humidity applicable to these handling instructions.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/minimumStorageHumidityApplicableMeasure
 
 ### procedure? {#procedure}
 
-> `optional` **procedure**: `string`
+> `optional` **procedure?**: `string`
 
 A procedure, expressed as text, for these handling instructions.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/procedure
 
 ### requirementIndicator? {#requirementindicator}
 
-> `optional` **requirementIndicator**: `boolean`
+> `optional` **requirementIndicator?**: `boolean`
 
 An indication of whether or not a requirement exists for these handling instructions.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/requirementIndicator
 
 ### storageApplicableTemperature? {#storageapplicabletemperature}
 
-> `optional` **storageApplicableTemperature**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
+> `optional` **storageApplicableTemperature?**: [`IUneceInstructedTemperature`](IUneceInstructedTemperature.md)
 
 The instructed temperature for storage applicable to these handling instructions.
 

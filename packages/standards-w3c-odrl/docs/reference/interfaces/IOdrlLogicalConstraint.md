@@ -9,7 +9,7 @@ https://www.w3.org/TR/odrl-model/#constraint-logical
 
 ### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 Optional unique identifier for the logical constraint.
 Must be an IRI.
@@ -18,7 +18,7 @@ Must be an IRI.
 
 ### and? {#and}
 
-> `optional` **and**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
+> `optional` **and?**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 AND operator - all constraints must be satisfied.
 Exactly one logical operator must be present.
@@ -27,7 +27,7 @@ Exactly one logical operator must be present.
 
 ### or? {#or}
 
-> `optional` **or**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
+> `optional` **or?**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 OR operator - at least one constraint must be satisfied.
 Exactly one logical operator must be present.
@@ -36,7 +36,7 @@ Exactly one logical operator must be present.
 
 ### xone? {#xone}
 
-> `optional` **xone**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
+> `optional` **xone?**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 XOR operator - exactly one constraint must be satisfied.
 Exactly one logical operator must be present.
@@ -45,7 +45,7 @@ Exactly one logical operator must be present.
 
 ### andSequence? {#andsequence}
 
-> `optional` **andSequence**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
+> `optional` **andSequence?**: [`IOdrlLogicalConstraintOperand`](IOdrlLogicalConstraintOperand.md)
 
 AND Sequence operator - all constraints must be satisfied in order.
 Exactly one logical operator must be present.

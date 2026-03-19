@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/QuarantineInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of these quarantine instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### quarantineInstructionsDescriptionCode? {#quarantineinstructionsdescriptioncode}
 
-> `optional` **quarantineInstructionsDescriptionCode**: `string`
+> `optional` **quarantineInstructionsDescriptionCode?**: `string`
 
 The code specifying the description of these quarantine instructions.
 

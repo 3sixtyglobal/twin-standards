@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SubordinateLocation
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global
 Location Number (GLN).
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 The code specifying the type of subordinate location.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, of this subordinate location.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalGeographicalCoordinate? {#physicalgeographicalcoordinate}
 
-> `optional` **physicalGeographicalCoordinate**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
+> `optional` **physicalGeographicalCoordinate?**: [`IUneceGeographicalCoordinate`](IUneceGeographicalCoordinate.md)
 
 Physical geographical coordinate information for this subordinate location.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/physicalGeographicalCoordinate
 
 ### subordinateSubordinateSubordinateLocation? {#subordinatesubordinatesubordinatelocation}
 
-> `optional` **subordinateSubordinateSubordinateLocation**: [`IUneceSubordinateSubordinateLocation`](IUneceSubordinateSubordinateLocation.md)
+> `optional` **subordinateSubordinateSubordinateLocation?**: [`IUneceSubordinateSubordinateLocation`](IUneceSubordinateSubordinateLocation.md)
 
 The location subordinate to this subordinate location.
 

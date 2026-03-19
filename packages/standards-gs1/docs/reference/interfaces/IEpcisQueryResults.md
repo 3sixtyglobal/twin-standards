@@ -10,7 +10,7 @@ https://ref.gs1.org/epcis/QueryResults
 
 ### subscriptionID? {#subscriptionid}
 
-> `optional` **subscriptionID**: `string`
+> `optional` **subscriptionID?**: `string`
 
 The concerned subscription.
 

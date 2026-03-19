@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/OperationalParameter
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### changeableIndicator? {#changeableindicator}
 
-> `optional` **changeableIndicator**: `boolean`
+> `optional` **changeableIndicator?**: `boolean`
 
 The indication whether or not this operational parameter is changeable.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/changeableIndicator
 
 ### definedRange? {#definedrange}
 
-> `optional` **definedRange**: [`IUneceRange`](IUneceRange.md)[]
+> `optional` **definedRange?**: [`IUneceRange`](IUneceRange.md)[]
 
 A defined range specified for this operational parameter.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/definedRange
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this operational parameter.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this operational parameter.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, of this operational parameter.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status of this operational parameter.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of this operational parameter.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### value? {#value}
 
-> `optional` **value**: `string`
+> `optional` **value?**: `string`
 
 The value, expressed as text, of this operational parameter.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAllowedIndicator? {#valueallowedindicator}
 
-> `optional` **valueAllowedIndicator**: `boolean`
+> `optional` **valueAllowedIndicator?**: `boolean`
 
 The indication of whether or not this operational parameter value is allowed.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure? {#valuemeasure}
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure value for this operational parameter.
 

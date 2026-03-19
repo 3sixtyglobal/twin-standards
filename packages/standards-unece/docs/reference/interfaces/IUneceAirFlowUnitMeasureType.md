@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AirFlowUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### AirFlowUnitMeasureTypeValue? {#airflowunitmeasuretypevalue}
 
-> `optional` **AirFlowUnitMeasureTypeValue**: `string`
+> `optional` **AirFlowUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/AirFlowUnitMeasureTypeValue
 
 ### AirFlowUnitMeasureTypeCode? {#airflowunitmeasuretypecode}
 
-> `optional` **AirFlowUnitMeasureTypeCode**: [`UneceAirFlowUnitMeasureCode`](../type-aliases/UneceAirFlowUnitMeasureCode.md)
+> `optional` **AirFlowUnitMeasureTypeCode?**: [`UneceAirFlowUnitMeasureCode`](../type-aliases/UneceAirFlowUnitMeasureCode.md)
 
 The unit code.
 

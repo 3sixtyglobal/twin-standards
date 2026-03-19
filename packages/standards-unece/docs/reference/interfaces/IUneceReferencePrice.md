@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ReferencePrice
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### basisQuantity? {#basisquantity}
 
-> `optional` **basisQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **basisQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity on which the reference price is based.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/basisQuantity
 
 ### chargeAmount? {#chargeamount}
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **chargeAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of a charged reference price.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ### comparisonMethodCode? {#comparisonmethodcode}
 
-> `optional` **comparisonMethodCode**: `string`
+> `optional` **comparisonMethodCode?**: `string`
 
 The code specifying the comparison method for this reference price.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/comparisonMethodCode
 
 ### netPriceIndicator? {#netpriceindicator}
 
-> `optional` **netPriceIndicator**: `boolean`
+> `optional` **netPriceIndicator?**: `boolean`
 
 An indication of whether or not the reference price is a net price.
 

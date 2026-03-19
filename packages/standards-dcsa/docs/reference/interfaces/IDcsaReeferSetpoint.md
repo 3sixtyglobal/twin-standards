@@ -15,7 +15,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ### temperature? {#temperature}
 
-> `optional` **temperature**: `number`
+> `optional` **temperature?**: `number`
 
 Target temperature.
 
@@ -23,7 +23,7 @@ Target temperature.
 
 ### temperatureUnit? {#temperatureunit}
 
-> `optional` **temperatureUnit**: `string`
+> `optional` **temperatureUnit?**: `string`
 
 Temperature unit.
 
@@ -31,7 +31,7 @@ Temperature unit.
 
 ### o2? {#o2}
 
-> `optional` **o2**: `number`
+> `optional` **o2?**: `number`
 
 Target O2.
 
@@ -39,7 +39,7 @@ Target O2.
 
 ### co2? {#co2}
 
-> `optional` **co2**: `number`
+> `optional` **co2?**: `number`
 
 Target CO2.
 
@@ -47,7 +47,7 @@ Target CO2.
 
 ### humidity? {#humidity}
 
-> `optional` **humidity**: `number`
+> `optional` **humidity?**: `number`
 
 Target humidity.
 
@@ -55,7 +55,7 @@ Target humidity.
 
 ### airExchange? {#airexchange}
 
-> `optional` **airExchange**: `number`
+> `optional` **airExchange?**: `number`
 
 Target air exchange.
 
@@ -63,6 +63,6 @@ Target air exchange.
 
 ### airExchangeUnit? {#airexchangeunit}
 
-> `optional` **airExchangeUnit**: `string`
+> `optional` **airExchangeUnit?**: `string`
 
 Air exchange unit.

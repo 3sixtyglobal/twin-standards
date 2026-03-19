@@ -6,45 +6,51 @@ The `EquipmentEvent` is a specialized event to handle all events related to equi
 
 Source: `equipmentEvent` schema in the DCSA Event Domain (v3.1.0).
 
-## Type Declaration
+## Union Members
+
+### Type Literal
 
 \{ `metadata`: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`; `payload`: [`IDcsaEquipmentPayload`](../interfaces/IDcsaEquipmentPayload.md); \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`
 
 Event metadata (eventType = EQUIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`EQUIPMENT`](../variables/DcsaEventTypes.md#equipment)
 
-### payload
+#### payload
 
 > **payload**: [`IDcsaEquipmentPayload`](../interfaces/IDcsaEquipmentPayload.md)
 
 Business attributes related to the `EquipmentEvent`.
 
+***
+
+### Type Literal
+
 \{ `metadata`: [`IDcsaEventMetadataRetraction`](IDcsaEventMetadataRetraction.md) & `object`; `payload?`: `never`; \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataRetraction`](IDcsaEventMetadataRetraction.md) & `object`
 
 Retraction metadata (eventType = EQUIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`EQUIPMENT`](../variables/DcsaEventTypes.md#equipment)
 
-### payload?
+#### payload?
 
-> `optional` **payload**: `never`
+> `optional` **payload?**: `never`
 
 Retractions do not carry payloads.
 

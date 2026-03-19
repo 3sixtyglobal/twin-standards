@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/CalculatedPrice
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### calculatedPriceTypeCode? {#calculatedpricetypecode}
 
-> `optional` **calculatedPriceTypeCode**: `string`
+> `optional` **calculatedPriceTypeCode?**: `string`
 
 A code specifying the type of calculated price.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/calculatedPriceTypeCode
 
 ### chargeAmount? {#chargeamount}
 
-> `optional` **chargeAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **chargeAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the calculated price to be charged.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/chargeAmount
 
 ### relatedAllowanceCharge? {#relatedallowancecharge}
 
-> `optional` **relatedAllowanceCharge**: [`IUneceAppliedAllowanceCharge`](IUneceAppliedAllowanceCharge.md)[]
+> `optional` **relatedAllowanceCharge?**: [`IUneceAppliedAllowanceCharge`](IUneceAppliedAllowanceCharge.md)[]
 
 Applied allowance charge information related to this calculated price.
 

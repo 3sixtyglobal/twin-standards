@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalMultiPoint
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedDirectPositionList? {#associateddirectpositionlist}
 
-> `optional` **associatedDirectPositionList**: `string`
+> `optional` **associatedDirectPositionList?**: `string`
 
 The direct position list associated with this geographical multi-point.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### memberGeographicalPoint? {#membergeographicalpoint}
 
-> `optional` **memberGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)[]
+> `optional` **memberGeographicalPoint?**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)[]
 
 A geographical point member of this geographical multi-point feature.
 

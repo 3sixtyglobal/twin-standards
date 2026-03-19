@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Response
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/content
 
 ### contractualLanguageCode? {#contractuallanguagecode}
 
-> `optional` **contractualLanguageCode**: `string`
+> `optional` **contractualLanguageCode?**: `string`
 
 The code specifying the contractual language for this specification response.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### queryId? {#queryid}
 
-> `optional` **queryId**: `string` \| `IJsonLdValueObject`
+> `optional` **queryId?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for the query to which this response refers.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/queryId
 
 ### responseTypeCode? {#responsetypecode}
 
-> `optional` **responseTypeCode**: [`UneceResponseTypeCodeList`](../type-aliases/UneceResponseTypeCodeList.md)
+> `optional` **responseTypeCode?**: [`UneceResponseTypeCodeList`](../type-aliases/UneceResponseTypeCodeList.md)
 
 The code specifying the type of this specification response.
 

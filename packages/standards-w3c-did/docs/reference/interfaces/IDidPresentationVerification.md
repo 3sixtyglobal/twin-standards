@@ -14,7 +14,7 @@ Is the whole presentation verified.
 
 ### holder? {#holder}
 
-> `optional` **holder**: `object`
+> `optional` **holder?**: `object`
 
 Who was the holder.
 
@@ -32,6 +32,6 @@ Is the holder verified.
 
 #### document?
 
-> `optional` **document**: [`IDidDocument`](IDidDocument.md)
+> `optional` **document?**: [`IDidDocument`](IDidDocument.md)
 
 The DID document for the holder.

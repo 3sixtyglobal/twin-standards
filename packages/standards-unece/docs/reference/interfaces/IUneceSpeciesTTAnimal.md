@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpeciesTTAnimal
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### regulationSpeciesNameTypeCode? {#regulationspeciesnametypecode}
 
-> `optional` **regulationSpeciesNameTypeCode**: `string`
+> `optional` **regulationSpeciesNameTypeCode?**: `string`
 
 A code specifying the type of regulation species name for this TT animal.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/regulationSpeciesNameTypeCode
 
 ### scientificSpeciesNameTypeCode? {#scientificspeciesnametypecode}
 
-> `optional` **scientificSpeciesNameTypeCode**: `string`
+> `optional` **scientificSpeciesNameTypeCode?**: `string`
 
 A code specifying the type of scientific species name for this TT animal.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/speciesTypeCode
 
 ### tradeSpeciesNameTypeCode? {#tradespeciesnametypecode}
 
-> `optional` **tradeSpeciesNameTypeCode**: `string`
+> `optional` **tradeSpeciesNameTypeCode?**: `string`
 
 A code specifying the type of trade species name for this TT animal.
 

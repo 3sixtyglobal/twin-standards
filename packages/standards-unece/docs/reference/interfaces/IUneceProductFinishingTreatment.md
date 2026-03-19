@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ProductFinishingTreatment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableProcessCertificate? {#applicableprocesscertificate}
 
-> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **applicableProcessCertificate?**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate applicable to this specified product finishing treatment.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic?**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this specified product finishing treatment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified product finishing treatment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified product finishing treatment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of product finishing treatment.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usedMaterial? {#usedmaterial}
 
-> `optional` **usedMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **usedMaterial?**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Material used for this specified product finishing treatment.
 

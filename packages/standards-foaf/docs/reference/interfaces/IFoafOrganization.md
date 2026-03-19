@@ -14,7 +14,7 @@ http://xmlns.com/foaf/0.1/
 
 ### age? {#age}
 
-> `optional` **age**: `number`
+> `optional` **age?**: `number`
 
 The age in years of some agent.
 
@@ -30,7 +30,7 @@ http://xmlns.com/foaf/spec/#term_age
 
 ### made? {#made}
 
-> `optional` **made**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+> `optional` **made?**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
 Something that was made by this agent.
 
@@ -46,7 +46,7 @@ http://xmlns.com/foaf/spec/#term_made
 
 ### weblog? {#weblog}
 
-> `optional` **weblog**: [`IFoafDocument`](IFoafDocument.md)
+> `optional` **weblog?**: [`IFoafDocument`](IFoafDocument.md)
 
 A weblog of some thing (whether person, group, company etc.).
 
@@ -62,7 +62,7 @@ http://xmlns.com/foaf/spec/#term_weblog
 
 ### openid? {#openid}
 
-> `optional` **openid**: [`IFoafDocument`](IFoafDocument.md)
+> `optional` **openid?**: [`IFoafDocument`](IFoafDocument.md)
 
 An OpenID for an agent.
 
@@ -78,7 +78,7 @@ http://xmlns.com/foaf/spec/#term_openid
 
 ### interest? {#interest}
 
-> `optional` **interest**: [`IFoafDocument`](IFoafDocument.md)
+> `optional` **interest?**: [`IFoafDocument`](IFoafDocument.md)
 
 A page about a topic of interest to this person.
 
@@ -94,7 +94,7 @@ http://xmlns.com/foaf/spec/#term_interest
 
 ### topic\_interest? {#topic_interest}
 
-> `optional` **topic\_interest**: `IJsonLdNodeObject`
+> `optional` **topic\_interest?**: `IJsonLdNodeObject`
 
 A thing of interest to this person.
 
@@ -110,7 +110,7 @@ http://xmlns.com/foaf/spec/#term_topic_interest
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 The unique identifier for the FOAF object.
 
@@ -122,7 +122,7 @@ The unique identifier for the FOAF object.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name for some thing.
 
@@ -138,7 +138,7 @@ http://xmlns.com/foaf/spec/#term_name
 
 ### title? {#title}
 
-> `optional` **title**: `string`
+> `optional` **title?**: `string`
 
 Title (Mr, Mrs, Ms, Dr. etc)
 
@@ -154,7 +154,7 @@ http://xmlns.com/foaf/spec/#term_title
 
 ### mbox? {#mbox}
 
-> `optional` **mbox**: `string`
+> `optional` **mbox?**: `string`
 
 A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox
 
@@ -170,7 +170,7 @@ http://xmlns.com/foaf/spec/#term_mbox
 
 ### homepage? {#homepage}
 
-> `optional` **homepage**: `string`
+> `optional` **homepage?**: `string`
 
 A homepage for some thing.
 
@@ -186,7 +186,7 @@ http://xmlns.com/foaf/spec/#term_homepage
 
 ### depiction? {#depiction}
 
-> `optional` **depiction**: [`IFoafImage`](IFoafImage.md)
+> `optional` **depiction?**: [`IFoafImage`](IFoafImage.md)
 
 A depiction of some thing.
 
@@ -202,7 +202,7 @@ http://xmlns.com/foaf/spec/#term_depiction
 
 ### @context? {#context}
 
-> `optional` **@context**: [`FoafContextType`](../type-aliases/FoafContextType.md)
+> `optional` **@context?**: [`FoafContextType`](../type-aliases/FoafContextType.md)
 
 The LD Context.
 

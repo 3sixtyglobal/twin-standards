@@ -24,8 +24,8 @@
 		"./src/models/IProof.ts"
 	],
 	"externalReferences": {
-		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
-		"IJwk": "https://schema.twindev.org/framework/Jwk"
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
+		"Jwk": "https://schema.twindev.org/framework/Jwk"
 	},
 	"skippablePackages": [
 		"jose"

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DurationUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### DurationUnitMeasureTypeValue? {#durationunitmeasuretypevalue}
 
-> `optional` **DurationUnitMeasureTypeValue**: `string`
+> `optional` **DurationUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/DurationUnitMeasureTypeValue
 
 ### DurationUnitMeasureTypeCode? {#durationunitmeasuretypecode}
 
-> `optional` **DurationUnitMeasureTypeCode**: [`UneceDurationUnitMeasureCode`](../type-aliases/UneceDurationUnitMeasureCode.md)
+> `optional` **DurationUnitMeasureTypeCode?**: [`UneceDurationUnitMeasureCode`](../type-aliases/UneceDurationUnitMeasureCode.md)
 
 The unit code.
 

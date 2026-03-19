@@ -18,6 +18,6 @@ The list of events.
 
 ### vocabularyList? {#vocabularylist}
 
-> `optional` **vocabularyList**: [`IEpcisVocabulary`](IEpcisVocabulary.md)[]
+> `optional` **vocabularyList?**: [`IEpcisVocabulary`](IEpcisVocabulary.md)[]
 
 Optional master data.

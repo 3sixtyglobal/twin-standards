@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/InspectionStatus
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this inspection status.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### inspectionStatusConditionCode? {#inspectionstatusconditioncode}
 
-> `optional` **inspectionStatusConditionCode**: `string`
+> `optional` **inspectionStatusConditionCode?**: `string`
 
 The code specifying this inspection status condition.
 

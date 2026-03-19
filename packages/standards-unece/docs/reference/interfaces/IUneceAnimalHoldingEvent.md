@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AnimalHoldingEvent
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### locationId? {#locationid}
 
-> `optional` **locationId**: `string` \| `IJsonLdValueObject`
+> `optional` **locationId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the location for this animal holding event.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/occurrenceDateTime
 
 ### relatedTTLocation? {#relatedttlocation}
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **relatedTTLocation?**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A Track and Trace (TT) location related to this animal holding event.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/relatedTTLocation
 
 ### relatedTechnicalCharacteristic? {#relatedtechnicalcharacteristic}
 
-> `optional` **relatedTechnicalCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **relatedTechnicalCharacteristic?**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic related to this animal holding event.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/LegalRegistration
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 A code specifying the category of this legal registration.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId? {#countryid}
 
-> `optional` **countryId**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
 
 An identifier of the country in which this legal registration is valid.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### countrySubDivisionId? {#countrysubdivisionid}
 
-> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
+> `optional` **countrySubDivisionId?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of the country sub-division for this legal registration.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this legal registration.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### lastRegisteredYearDateTime? {#lastregisteredyeardatetime}
 
-> `optional` **lastRegisteredYearDateTime**: `string`
+> `optional` **lastRegisteredYearDateTime?**: `string`
 
 The last year in which this legal registration was registered.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lastRegisteredYearDateTime
 
 ### licenceId? {#licenceid}
 
-> `optional` **licenceId**: `string` \| `IJsonLdValueObject`
+> `optional` **licenceId?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a licence for this legal registration.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/licenceId
 
 ### recordedDate? {#recordeddate}
 
-> `optional` **recordedDate**: `string`
+> `optional` **recordedDate?**: `string`
 
 A date when this legal registration was recorded.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/recordedDate
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying the type of this legal registration.
 

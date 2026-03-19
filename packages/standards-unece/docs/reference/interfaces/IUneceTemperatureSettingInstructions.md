@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TemperatureSettingInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these temperature setting instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### procedure? {#procedure}
 
-> `optional` **procedure**: `string`
+> `optional` **procedure?**: `string`
 
 A procedure, expressed as text, for these temperature setting instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/procedure
 
 ### temperatureSettingInstructionsDescriptionCode? {#temperaturesettinginstructionsdescriptioncode}
 
-> `optional` **temperatureSettingInstructionsDescriptionCode**: `string`
+> `optional` **temperatureSettingInstructionsDescriptionCode?**: `string`
 
 The code specifying a description of these temperature setting instructions.
 

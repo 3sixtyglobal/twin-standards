@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TransportationWasteRecoveryDisposalProcess
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description for the type of transportation waste recovery disposal process.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### specifiedProcessCertificate? {#specifiedprocesscertificate}
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate?**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate specified for this transportation waste recovery disposal process.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### transportationWasteRecoveryDisposalProcessTypeCode? {#transportationwasterecoverydisposalprocesstypecode}
 
-> `optional` **transportationWasteRecoveryDisposalProcessTypeCode**: `string`
+> `optional` **transportationWasteRecoveryDisposalProcessTypeCode?**: `string`
 
 The code specifying the type of transportation waste recovery disposal process.
 

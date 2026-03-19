@@ -3,7 +3,7 @@
 	"$id": "https://schema.twindev.org/dcsa/DcsaTransportEvent",
 	"title": "DcsaTransportEvent",
 	"description": "The `TransportEvent` is a specialized event to handle all events related to transportation.\n\nSource: `transportEvent` schema in the DCSA Event Domain (v3.1.0).",
-	"anyOf": [
+	"oneOf": [
 		{
 			"type": "object",
 			"properties": {

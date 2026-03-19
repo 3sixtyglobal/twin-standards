@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Segment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this section segment.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### imageBinaryObject? {#imagebinaryobject}
 
-> `optional` **imageBinaryObject**: `string`
+> `optional` **imageBinaryObject?**: `string`
 
 The image, expressed as a binary object, for this section segment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/imageBinaryObject
 
 ### information? {#information}
 
-> `optional` **information**: `string`
+> `optional` **information?**: `string`
 
 Information, expressed as text, in this section segment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/information
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of section segment.
 

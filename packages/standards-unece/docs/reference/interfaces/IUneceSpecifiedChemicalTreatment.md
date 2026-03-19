@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/SpecifiedChemicalTreatment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableSustainabilityCharacteristic? {#applicablesustainabilitycharacteristic}
 
-> `optional` **applicableSustainabilityCharacteristic**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
+> `optional` **applicableSustainabilityCharacteristic?**: [`IUneceSustainabilityCharacteristic`](IUneceSustainabilityCharacteristic.md)[]
 
 A sustainability characteristic applicable to this specified chemical treatment.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableSustainabilityCharacteristic
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified chemical treatment.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified chemical treatment.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedProcessCertificate? {#specifiedprocesscertificate}
 
-> `optional` **specifiedProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **specifiedProcessCertificate?**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate for this specified chemical treatment.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/specifiedProcessCertificate
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of chemical treatment.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usedChemical? {#usedchemical}
 
-> `optional` **usedChemical**: [`IUneceChemical`](IUneceChemical.md)[]
+> `optional` **usedChemical?**: [`IUneceChemical`](IUneceChemical.md)[]
 
 A distinct chemical used for this specified chemical treatment.
 

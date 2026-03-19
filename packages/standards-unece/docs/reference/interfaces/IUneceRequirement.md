@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Requirement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified requirement.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### rule? {#rule}
 
-> `optional` **rule**: `string`
+> `optional` **rule?**: `string`
 
 A rule, expressed as text, for this specified requirement.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/rule
 
 ### specifiedPaymentTradeSettlement? {#specifiedpaymenttradesettlement}
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
+> `optional` **specifiedPaymentTradeSettlement?**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)
 
 The payment trade settlement for this specified requirement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/specifiedPaymentTradeSettlement
 
 ### specifyingParty? {#specifyingparty}
 
-> `optional` **specifyingParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **specifyingParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party specifying this specified requirement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifyingParty
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of specified requirement.
 

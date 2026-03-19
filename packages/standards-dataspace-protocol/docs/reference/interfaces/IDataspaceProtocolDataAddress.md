@@ -23,7 +23,7 @@ The type of endpoint of this data address.
 
 ### endpoint? {#endpoint}
 
-> `optional` **endpoint**: `string`
+> `optional` **endpoint?**: `string`
 
 The endpoint of the data address
 
@@ -31,6 +31,6 @@ The endpoint of the data address
 
 ### endpointProperties? {#endpointproperties}
 
-> `optional` **endpointProperties**: [`IDataspaceProtocolEndpointProperty`](IDataspaceProtocolEndpointProperty.md)[]
+> `optional` **endpointProperties?**: [`IDataspaceProtocolEndpointProperty`](IDataspaceProtocolEndpointProperty.md)[]
 
 Properties associated to the endpoint which might depend on the endpoint type.

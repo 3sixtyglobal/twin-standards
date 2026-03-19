@@ -57,7 +57,7 @@ Transport call context.
 
 ### delayReasonCode? {#delayreasoncode}
 
-> `optional` **delayReasonCode**: `string`
+> `optional` **delayReasonCode?**: `string`
 
 Delay reason code.
 The authoritative schema references the shared `delayReasonCode` from DCSA_DOMAIN.
@@ -66,7 +66,7 @@ The authoritative schema references the shared `delayReasonCode` from DCSA_DOMAI
 
 ### changeRemark? {#changeremark}
 
-> `optional` **changeRemark**: `string`
+> `optional` **changeRemark?**: `string`
 
 Free-text field to provide information as to why the TransportEvent was sent.
 
@@ -74,7 +74,7 @@ Free-text field to provide information as to why the TransportEvent was sent.
 
 ### relatedDocumentReferences? {#relateddocumentreferences}
 
-> `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
+> `optional` **relatedDocumentReferences?**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
 Related documents.
 
@@ -82,6 +82,6 @@ Related documents.
 
 ### references? {#references}
 
-> `optional` **references**: [`IDcsaReference`](IDcsaReference.md)[]
+> `optional` **references?**: [`IDcsaReference`](IDcsaReference.md)[]
 
 Additional references.

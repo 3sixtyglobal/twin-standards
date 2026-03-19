@@ -47,6 +47,6 @@ The agreement being sent.
 
 ### callbackAddress? {#callbackaddress}
 
-> `optional` **callbackAddress**: `string`
+> `optional` **callbackAddress?**: `string`
 
 The base callback address for the provider to update the consumer on the state of the negotiation.

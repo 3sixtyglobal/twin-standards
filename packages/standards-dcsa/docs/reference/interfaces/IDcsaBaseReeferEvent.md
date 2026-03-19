@@ -36,7 +36,7 @@ Reefer event type code.
 
 ### measurements? {#measurements}
 
-> `optional` **measurements**: [`IDcsaReeferMeasurements`](IDcsaReeferMeasurements.md)
+> `optional` **measurements?**: [`IDcsaReeferMeasurements`](IDcsaReeferMeasurements.md)
 
 Measured reefer values (conditioned by event type).
 
@@ -44,7 +44,7 @@ Measured reefer values (conditioned by event type).
 
 ### setpoints? {#setpoints}
 
-> `optional` **setpoints**: [`IDcsaReeferSetpoint`](IDcsaReeferSetpoint.md)
+> `optional` **setpoints?**: [`IDcsaReeferSetpoint`](IDcsaReeferSetpoint.md)
 
 Reefer setpoint values (conditioned by event type).
 
@@ -52,7 +52,7 @@ Reefer setpoint values (conditioned by event type).
 
 ### geoLocation? {#geolocation}
 
-> `optional` **geoLocation**: `unknown`
+> `optional` **geoLocation?**: `unknown`
 
 Geo location.
 
@@ -70,6 +70,6 @@ Equipment reference.
 
 ### relatedDocumentReferences? {#relateddocumentreferences}
 
-> `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
+> `optional` **relatedDocumentReferences?**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
 Related document references.

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Circle
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation? {#associatedlocation}
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location associated with this specified circle.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedLocation
 
 ### centreGeographicalPoint? {#centregeographicalpoint}
 
-> `optional` **centreGeographicalPoint**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
+> `optional` **centreGeographicalPoint?**: [`IUneceGeographicalPoint`](IUneceGeographicalPoint.md)
 
 The geographical point which defines the centre of this specified circle.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/centreGeographicalPoint
 
 ### radiusMeasure? {#radiusmeasure}
 
-> `optional` **radiusMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **radiusMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the radius for this specified circle.
 

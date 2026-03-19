@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Membership
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified membership.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### endDateTime? {#enddatetime}
 
-> `optional` **endDateTime**: `string`
+> `optional` **endDateTime?**: `string`
 
 The date, time, date time, or other date time value of the end of this specified membership.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified membership.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this specified membership.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/name
 
 ### startDateTime? {#startdatetime}
 
-> `optional` **startDateTime**: `string`
+> `optional` **startDateTime?**: `string`
 
 The date, time, date time, or other date time value of the start of this specified membership.
 

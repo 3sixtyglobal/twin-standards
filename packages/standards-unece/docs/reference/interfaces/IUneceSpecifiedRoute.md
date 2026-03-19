@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecifiedRoute
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### departurePoint? {#departurepoint}
 
-> `optional` **departurePoint**: `string`
+> `optional` **departurePoint?**: `string`
 
 A departure point, expressed as text, for this specified route.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/departurePoint
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified route.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### linearUnitDistanceMeasure? {#linearunitdistancemeasure}
 
-> `optional` **linearUnitDistanceMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
+> `optional` **linearUnitDistanceMeasure?**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The measure of the distance of this specified route.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/linearUnitDistanceMeasure
 
 ### mapURIId? {#mapuriid}
 
-> `optional` **mapURIId**: `string` \| `IJsonLdValueObject`
+> `optional` **mapURIId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the map of this specified route.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/mapURIId
 
 ### routeType? {#routetype}
 
-> `optional` **routeType**: `string`
+> `optional` **routeType?**: `string`
 
 A type, expressed as text, for this specified route.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/routeType
 
 ### securityLevelCode? {#securitylevelcode}
 
-> `optional` **securityLevelCode**: `string`
+> `optional` **securityLevelCode?**: `string`
 
 The code specifying the security level of this specified route.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/securityLevelCode
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status of this specified route.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### transportMeans? {#transportmeans}
 
-> `optional` **transportMeans**: `string`
+> `optional` **transportMeans?**: `string`
 
 A transport means, expressed as text, for this specified route.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalSurface
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic? {#associatedgeographicalobjectcharacteristic}
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> `optional` **associatedGeographicalObjectCharacteristic?**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this geographical surface.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### includedPolygon? {#includedpolygon}
 
-> `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)
+> `optional` **includedPolygon?**: [`IUnecePolygon`](IUnecePolygon.md)
 
 The polygon included in this geographical surface.
 

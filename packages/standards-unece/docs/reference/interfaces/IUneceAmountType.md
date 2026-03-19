@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AmountType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### AmountTypeValue? {#amounttypevalue}
 
-> `optional` **AmountTypeValue**: `string`
+> `optional` **AmountTypeValue?**: `string`
 
 A number of monetary units.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/AmountTypeValue
 
 ### AmountTypeCurrency? {#amounttypecurrency}
 
-> `optional` **AmountTypeCurrency**: [`UneceAmountCurrency`](../type-aliases/UneceAmountCurrency.md)
+> `optional` **AmountTypeCurrency?**: [`UneceAmountCurrency`](../type-aliases/UneceAmountCurrency.md)
 
 An amount currency code.
 

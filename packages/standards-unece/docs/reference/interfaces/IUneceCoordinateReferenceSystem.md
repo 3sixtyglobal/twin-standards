@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/CoordinateReferenceSystem
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/level
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this CS engineering coordinate reference system.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedDelimitedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this CS engineering coordinate reference system.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod? {#specifiedperiod}
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this CS engineering coordinate reference system.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ### subordinateCoordinateReferenceSystem? {#subordinatecoordinatereferencesystem}
 
-> `optional` **subordinateCoordinateReferenceSystem**: `IUneceCoordinateReferenceSystem`[]
+> `optional` **subordinateCoordinateReferenceSystem?**: `IUneceCoordinateReferenceSystem`[]
 
 A CS engineering coordinate reference system subordinate to this CS engineering coordinate reference system.
 

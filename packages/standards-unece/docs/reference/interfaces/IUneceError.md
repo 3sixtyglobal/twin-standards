@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Error
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedEvent? {#associatedevent}
 
-> `optional` **associatedEvent**: [`IUneceCorrectiveEvent`](IUneceCorrectiveEvent.md)[]
+> `optional` **associatedEvent?**: [`IUneceCorrectiveEvent`](IUneceCorrectiveEvent.md)[]
 
 A corrective event associated with this declared error.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedEvent
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 An issue date, time, date time or other date time value for this declared error.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### reasonCode? {#reasoncode}
 
-> `optional` **reasonCode**: `string`
+> `optional` **reasonCode?**: `string`
 
 A code specifying a reason for the declared error.
 

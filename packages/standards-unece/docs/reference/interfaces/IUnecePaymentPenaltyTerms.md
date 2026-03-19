@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/PaymentPenaltyTerms
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualPenaltyAmount? {#actualpenaltyamount}
 
-> `optional` **actualPenaltyAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **actualPenaltyAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of the actual penalty in these trade payment penalty terms.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualPenaltyAmount
 
 ### basisAmount? {#basisamount}
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **basisAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value used as a basis to calculate these trade payment penalty terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### basisDateTime? {#basisdatetime}
 
-> `optional` **basisDateTime**: `string`
+> `optional` **basisDateTime?**: `string`
 
 The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/basisDateTime
 
 ### basisPeriodMeasure? {#basisperiodmeasure}
 
-> `optional` **basisPeriodMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **basisPeriodMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the period used as a basis to calculate these trade payment penalty terms.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/basisPeriodMeasure
 
 ### calculationPercent? {#calculationpercent}
 
-> `optional` **calculationPercent**: `string`
+> `optional` **calculationPercent?**: `string`
 
 The percent applied to calculate these trade payment penalty terms.
 

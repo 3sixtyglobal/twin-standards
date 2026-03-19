@@ -7,7 +7,7 @@ https://www.w3.org/TR/odrl-model/#action
 
 ### rdf:value? {#rdfvalue}
 
-> `optional` **rdf:value**: `object`
+> `optional` **rdf:value?**: `object`
 
 The value/identifier of the action.
 Used in complex action definitions.
@@ -20,7 +20,7 @@ Used in complex action definitions.
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 Direct action identifier.
 Used in simple action references.
@@ -29,7 +29,11 @@ Used in simple action references.
 
 ### refinement? {#refinement}
 
+<<<<<<< Updated upstream
 > `optional` **refinement**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
+=======
+> `optional` **refinement?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
+>>>>>>> Stashed changes
 
 Refinements applied to the action.
 
@@ -37,7 +41,7 @@ Refinements applied to the action.
 
 ### includedIn? {#includedin}
 
-> `optional` **includedIn**: `string`
+> `optional` **includedIn?**: `string`
 
 Reference to the action this action is included in.
 
@@ -45,6 +49,6 @@ Reference to the action this action is included in.
 
 ### implies? {#implies}
 
-> `optional` **implies**: `string`[]
+> `optional` **implies?**: `string`[]
 
 References to actions this action implies.

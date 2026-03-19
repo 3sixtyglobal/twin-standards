@@ -11,7 +11,7 @@ https://www.w3.org/TR/vc-data-model-1.1
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The identifier for the verifiable credential.
 
@@ -35,7 +35,11 @@ The types of the data stored in the verifiable credential.
 
 ### credentialSubject? {#credentialsubject}
 
+<<<<<<< Updated upstream
 > `optional` **credentialSubject**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+=======
+> `optional` **credentialSubject?**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+>>>>>>> Stashed changes
 
 The data for the verifiable credential.
 
@@ -47,7 +51,11 @@ The data for the verifiable credential.
 
 ### credentialStatus? {#credentialstatus}
 
+<<<<<<< Updated upstream
 > `optional` **credentialStatus**: `ObjectOrArray`\<[`IDidCredentialStatus`](IDidCredentialStatus.md)\>
+=======
+> `optional` **credentialStatus?**: `ObjectOrArray`\<[`IDidCredentialStatus`](IDidCredentialStatus.md)\>
+>>>>>>> Stashed changes
 
 Used to discover information about the current status of the
 verifiable credential, such as whether it is suspended or revoked.
@@ -60,7 +68,11 @@ verifiable credential, such as whether it is suspended or revoked.
 
 ### credentialSchema? {#credentialschema}
 
+<<<<<<< Updated upstream
 > `optional` **credentialSchema**: `ObjectOrArray`\<[`IDidCredentialSchema`](IDidCredentialSchema.md)\>
+=======
+> `optional` **credentialSchema?**: `ObjectOrArray`\<[`IDidCredentialSchema`](IDidCredentialSchema.md)\>
+>>>>>>> Stashed changes
 
 Annotate type definitions or lock them to specific versions of the vocabulary.
 
@@ -72,7 +84,7 @@ Annotate type definitions or lock them to specific versions of the vocabulary.
 
 ### issuer? {#issuer}
 
-> `optional` **issuer**: `string` \| \{ `id`: `string`; `name?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; `description?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; \}
+> `optional` **issuer?**: `string` \| \{ `id`: `string`; `name?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; `description?`: `string` \| [`IDidLabel`](IDidLabel.md)[]; \}
 
 The issuing identity.
 
@@ -84,7 +96,7 @@ The issuing identity.
 
 ### name? {#name}
 
-> `optional` **name**: `string` \| [`IDidLabel`](IDidLabel.md)[]
+> `optional` **name?**: `string` \| [`IDidLabel`](IDidLabel.md)[]
 
 The name of the credential.
 
@@ -96,7 +108,7 @@ The name of the credential.
 
 ### description? {#description}
 
-> `optional` **description**: `string` \| [`IDidLabel`](IDidLabel.md)[]
+> `optional` **description?**: `string` \| [`IDidLabel`](IDidLabel.md)[]
 
 The description of the credential.
 
@@ -108,7 +120,11 @@ The description of the credential.
 
 ### evidence? {#evidence}
 
+<<<<<<< Updated upstream
 > `optional` **evidence**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+=======
+> `optional` **evidence?**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+>>>>>>> Stashed changes
 
 Evidence associated with the Credential.
 
@@ -120,7 +136,11 @@ Evidence associated with the Credential.
 
 ### proof? {#proof}
 
+<<<<<<< Updated upstream
 > `optional` **proof**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
+=======
+> `optional` **proof?**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
+>>>>>>> Stashed changes
 
 Proofs that the verifiable credential is valid.
 Optional if a different proof method is used, such as JWT.
@@ -141,7 +161,7 @@ The context for the verifiable credential.
 
 ### issuanceDate? {#issuancedate}
 
-> `optional` **issuanceDate**: `string`
+> `optional` **issuanceDate?**: `string`
 
 The date the verifiable credential was issued, depending on version validFrom might be set instead.
 
@@ -149,6 +169,6 @@ The date the verifiable credential was issued, depending on version validFrom mi
 
 ### expirationDate? {#expirationdate}
 
-> `optional` **expirationDate**: `string`
+> `optional` **expirationDate?**: `string`
 
 The date the verifiable credential expires, depending on version validUntil might be set instead.

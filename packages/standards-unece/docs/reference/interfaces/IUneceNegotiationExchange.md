@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/NegotiationExchange
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### protocolTypeCode? {#protocoltypecode}
 
-> `optional` **protocolTypeCode**: `string`
+> `optional` **protocolTypeCode?**: `string`
 
 The code specifying the type of the protocol for this electronic negotiation exchange, such as Alternating Offer
 Protocol, Continuous Offer Protocol, Withdrawable Alternating Offer Protocol, Withdrawable Continuous Offer Protocol.
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/protocolTypeCode
 
 ### responseDueDateTime? {#responseduedatetime}
 
-> `optional` **responseDueDateTime**: `string`
+> `optional` **responseDueDateTime?**: `string`
 
 The date or date time value when the response is due for this electronic negotiation exchange.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/responseDueDateTime
 
 ### sequenceNumeric? {#sequencenumeric}
 
-> `optional` **sequenceNumeric**: `string`
+> `optional` **sequenceNumeric?**: `string`
 
 The sequence number for this electronic negotiation exchange.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/sessionId
 
 ### specifiedContext? {#specifiedcontext}
 
-> `optional` **specifiedContext**: [`IUneceNegotiationContext`](IUneceNegotiationContext.md)[]
+> `optional` **specifiedContext?**: [`IUneceNegotiationContext`](IUneceNegotiationContext.md)[]
 
 A context specified for this electronic negotiation exchange.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/specifiedContext
 
 ### specifiedIssue? {#specifiedissue}
 
-> `optional` **specifiedIssue**: [`IUneceIssue`](IUneceIssue.md)[]
+> `optional` **specifiedIssue?**: [`IUneceIssue`](IUneceIssue.md)[]
 
 A target issue specified for this electronic negotiation exchange.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedIssue
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of electronic negotiation exchange, such as prerequisite, offer, suggestion or withdrawal.
 

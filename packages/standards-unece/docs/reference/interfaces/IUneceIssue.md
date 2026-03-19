@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Issue
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### maximumSpecifiedCharacteristic? {#maximumspecifiedcharacteristic}
 
-> `optional` **maximumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
+> `optional` **maximumSpecifiedCharacteristic?**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The maximum metric characteristic specified for this target issue.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/maximumSpecifiedCharacteristic
 
 ### minimumSpecifiedCharacteristic? {#minimumspecifiedcharacteristic}
 
-> `optional` **minimumSpecifiedCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
+> `optional` **minimumSpecifiedCharacteristic?**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The minimum metric characteristic specified for this target issue.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/minimumSpecifiedCharacteristic
 
 ### specifiedMetricCharacteristic? {#specifiedmetriccharacteristic}
 
-> `optional` **specifiedMetricCharacteristic**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
+> `optional` **specifiedMetricCharacteristic?**: [`IUneceMetricCharacteristic`](IUneceMetricCharacteristic.md)
 
 The metric characteristic specified for this target issue.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifiedMetricCharacteristic
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of target issue, such as a value or a range.
 

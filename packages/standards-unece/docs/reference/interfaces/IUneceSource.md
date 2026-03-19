@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Source
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### bathingProhibitionCaution? {#bathingprohibitioncaution}
 
-> `optional` **bathingProhibitionCaution**: `string`
+> `optional` **bathingProhibitionCaution?**: `string`
 
 A caution, expressed as text, of a bathing prohibition for this water source.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/bathingProhibitionCaution
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category for this water source.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### characteristic? {#characteristic}
 
-> `optional` **characteristic**: `string`
+> `optional` **characteristic?**: `string`
 
 A characteristic, expressed as text, for this water source.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ### characteristicCode? {#characteristiccode}
 
-> `optional` **characteristicCode**: `string`
+> `optional` **characteristicCode?**: `string`
 
 The code specifying the characteristic of this water source.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/characteristicCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this water source.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/description
 
 ### drinkingProhibitionCaution? {#drinkingprohibitioncaution}
 
-> `optional` **drinkingProhibitionCaution**: `string`
+> `optional` **drinkingProhibitionCaution?**: `string`
 
 A caution, expressed as text, of a drinking prohibition for this water source.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/drinkingProhibitionCaution
 
 ### healthBenefit? {#healthbenefit}
 
-> `optional` **healthBenefit**: `string`
+> `optional` **healthBenefit?**: `string`
 
 A health benefit, expressed as text, for this water source.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/healthBenefit
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this water source.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### marketingPhrase? {#marketingphrase}
 
-> `optional` **marketingPhrase**: `string`
+> `optional` **marketingPhrase?**: `string`
 
 A marketing phrase, expressed as text, for this water source.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this water source.
 

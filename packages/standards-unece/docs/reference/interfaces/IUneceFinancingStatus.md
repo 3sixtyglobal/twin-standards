@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/FinancingStatus
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### financingStatusConditionCode? {#financingstatusconditioncode}
 
-> `optional` **financingStatusConditionCode**: `string`
+> `optional` **financingStatusConditionCode?**: `string`
 
 The code specifying the condition of this financing status.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/financingStatusConditionCode
 
 ### financingStatusReasonCode? {#financingstatusreasoncode}
 
-> `optional` **financingStatusReasonCode**: `string`
+> `optional` **financingStatusReasonCode?**: `string`
 
 The code specifying the reason for this financing status.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/financingStatusReasonCode
 
 ### reason? {#reason}
 
-> `optional` **reason**: `string`
+> `optional` **reason?**: `string`
 
 A reason, expressed as text, for this financing status.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/reason
 
 ### reasonInformation? {#reasoninformation}
 
-> `optional` **reasonInformation**: `string`
+> `optional` **reasonInformation?**: `string`
 
 Information, expressed as text, related to the reason for this financing status.
 

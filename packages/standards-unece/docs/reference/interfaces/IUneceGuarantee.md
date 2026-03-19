@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Guarantee
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### condition? {#condition}
 
-> `optional` **condition**: `string`
+> `optional` **condition?**: `string`
 
 A condition, expressed as text, for this financial guarantee.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/condition
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this financial guarantee.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### effectiveDelimitedPeriod? {#effectivedelimitedperiod}
 
-> `optional` **effectiveDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **effectiveDelimitedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The period within which this financial guarantee is effective.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/effectiveDelimitedPeriod
 
 ### liabilityAmount? {#liabilityamount}
 
-> `optional` **liabilityAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **liabilityAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value of a liability in this financial guarantee.
 

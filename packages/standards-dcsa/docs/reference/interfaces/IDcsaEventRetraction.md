@@ -14,6 +14,6 @@ Retraction metadata.
 
 ### payload? {#payload}
 
-> `optional` **payload**: `undefined`
+> `optional` **payload?**: `undefined`
 
 Retractions do not carry payloads.

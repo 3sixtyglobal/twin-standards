@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Section
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this label section.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedSegment? {#includedsegment}
 
-> `optional` **includedSegment**: [`IUneceSegment`](IUneceSegment.md)[]
+> `optional` **includedSegment?**: [`IUneceSegment`](IUneceSegment.md)[]
 
 A segment included in this label section.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/includedSegment
 
 ### patternCode? {#patterncode}
 
-> `optional` **patternCode**: `string`
+> `optional` **patternCode?**: `string`
 
 The code specifying the pattern of this label section.
 

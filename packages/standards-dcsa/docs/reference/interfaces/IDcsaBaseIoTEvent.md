@@ -44,7 +44,7 @@ IoT event code.
 
 ### geoLocation? {#geolocation}
 
-> `optional` **geoLocation**: `unknown`
+> `optional` **geoLocation?**: `unknown`
 
 Geo location.
 
@@ -62,6 +62,6 @@ Equipment reference.
 
 ### relatedDocumentReferences? {#relateddocumentreferences}
 
-> `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
+> `optional` **relatedDocumentReferences?**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
 Related document references.

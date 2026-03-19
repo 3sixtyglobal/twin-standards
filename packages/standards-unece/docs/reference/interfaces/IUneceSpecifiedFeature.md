@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecifiedFeature
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified feature.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### keywordMarketingPhrase? {#keywordmarketingphrase}
 
-> `optional` **keywordMarketingPhrase**: `string`
+> `optional` **keywordMarketingPhrase?**: `string`
 
 A keyword marketing phrase, expressed as text, for this feature.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/keywordMarketingPhrase
 
 ### marketingPhrase? {#marketingphrase}
 
-> `optional` **marketingPhrase**: `string`
+> `optional` **marketingPhrase?**: `string`
 
 A marketing phrase, expressed as text, for this specified feature.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ### objective? {#objective}
 
-> `optional` **objective**: `string`
+> `optional` **objective?**: `string`
 
 An objective, expressed as text, for this specified feature.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/objective
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of feature.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### usageCode? {#usagecode}
 
-> `optional` **usageCode**: `string`
+> `optional` **usageCode?**: `string`
 
 The code specifying the usage for this specified feature.
 

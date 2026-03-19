@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DeliveryInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### deliveryInstructionsDescriptionCode? {#deliveryinstructionsdescriptioncode}
 
-> `optional` **deliveryInstructionsDescriptionCode**: `string`
+> `optional` **deliveryInstructionsDescriptionCode?**: `string`
 
 The code specifying a description of these delivery instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/deliveryInstructionsDescriptionCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these delivery instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### handling? {#handling}
 
-> `optional` **handling**: `string`
+> `optional` **handling?**: `string`
 
 Delivery handling instructions expressed as text.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/handling
 
 ### handlingCode? {#handlingcode}
 
-> `optional` **handlingCode**: `string`
+> `optional` **handlingCode?**: `string`
 
 A code specifying delivery handling instructions.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/handlingCode
 
 ### instructionsType? {#instructionstype}
 
-> `optional` **instructionsType**: `string`
+> `optional` **instructionsType?**: `string`
 
 A type, expressed as text, for these delivery instructions.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ### itemName? {#itemname}
 
-> `optional` **itemName**: `string`
+> `optional` **itemName?**: `string`
 
 A name, expressed as text, of an item included in these delivery instructions.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/itemName
 
 ### procedure? {#procedure}
 
-> `optional` **procedure**: `string`
+> `optional` **procedure?**: `string`
 
 A procedure, expressed as text, for these delivery instructions.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/procedure
 
 ### requirementIndicator? {#requirementindicator}
 
-> `optional` **requirementIndicator**: `boolean`
+> `optional` **requirementIndicator?**: `boolean`
 
 The indication of whether or not a requirement exists for these delivery instructions.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AdvancePayment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifiedPaymentTerms? {#identifiedpaymentterms}
 
-> `optional` **identifiedPaymentTerms**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
+> `optional` **identifiedPaymentTerms?**: [`IUnecePaymentTerms`](IUnecePaymentTerms.md)
 
 The payment terms identified for this advance payment.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifiedPaymentTerms
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this advance payment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedTax? {#includedtax}
 
-> `optional` **includedTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **includedTax?**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A tax included in this advance payment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/includedTax
 
 ### invoiceSpecifiedDocument? {#invoicespecifieddocument}
 
-> `optional` **invoiceSpecifiedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceSpecifiedDocument?**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An invoice document referenced by this advance payment.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ### receivedDateTime? {#receiveddatetime}
 
-> `optional` **receivedDateTime**: `string`
+> `optional` **receivedDateTime?**: `string`
 
 The formatted date or date time value when an advance payment has been received.
 

@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/TradeSettlementPayment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### closingBookDueDateTime? {#closingbookduedatetime}
 
-> `optional` **closingBookDueDateTime**: `string`
+> `optional` **closingBookDueDateTime?**: `string`
 
 A date, time, date time or other date time value of a closing book due date for this trade settlement payment.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/closingBookDueDateTime
 
 ### endToEndId? {#endtoendid}
 
-> `optional` **endToEndId**: `string` \| `IJsonLdValueObject`
+> `optional` **endToEndId?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for the end-to-end processing of this trade settlement payment, such as an identifier assigned by
 an initiating party to unambiguously identify the transaction.
@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/endToEndId
 
 ### instructionId? {#instructionid}
 
-> `optional` **instructionId**: `string` \| `IJsonLdValueObject`
+> `optional` **instructionId?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of the instruction for this trade settlement payment.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/instructionId
 
 ### requestedExecutionDateTime? {#requestedexecutiondatetime}
 
-> `optional` **requestedExecutionDateTime**: `string`
+> `optional` **requestedExecutionDateTime?**: `string`
 
 The date, time, date time or other date time value of the requested execution of this trade settlement payment.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/requestedExecutionDateTime
 
 ### specifiedPaymentTradeSettlement? {#specifiedpaymenttradesettlement}
 
-> `optional` **specifiedPaymentTradeSettlement**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
+> `optional` **specifiedPaymentTradeSettlement?**: [`IUnecePaymentTradeSettlement`](IUnecePaymentTradeSettlement.md)[]
 
 A trade settlement payment specified for this trade settlement payment.
 

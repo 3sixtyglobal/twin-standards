@@ -23,7 +23,11 @@ The id for the document.
 
 ### alsoKnownAs? {#alsoknownas}
 
+<<<<<<< Updated upstream
 > `optional` **alsoKnownAs**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **alsoKnownAs?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 Aliases for the document.
 
@@ -31,7 +35,11 @@ Aliases for the document.
 
 ### controller? {#controller}
 
+<<<<<<< Updated upstream
 > `optional` **controller**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **controller?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 The controller for the document.
 
@@ -39,7 +47,7 @@ The controller for the document.
 
 ### verificationMethod? {#verificationmethod}
 
-> `optional` **verificationMethod**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **verificationMethod?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The verification methods.
 
@@ -47,7 +55,7 @@ The verification methods.
 
 ### authentication? {#authentication}
 
-> `optional` **authentication**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **authentication?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The authentication methods.
 
@@ -55,7 +63,7 @@ The authentication methods.
 
 ### assertionMethod? {#assertionmethod}
 
-> `optional` **assertionMethod**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **assertionMethod?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The assertion methods.
 
@@ -63,7 +71,7 @@ The assertion methods.
 
 ### keyAgreement? {#keyagreement}
 
-> `optional` **keyAgreement**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **keyAgreement?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The key agreements.
 
@@ -71,7 +79,7 @@ The key agreements.
 
 ### capabilityInvocation? {#capabilityinvocation}
 
-> `optional` **capabilityInvocation**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **capabilityInvocation?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The capability invocations.
 
@@ -79,7 +87,7 @@ The capability invocations.
 
 ### capabilityDelegation? {#capabilitydelegation}
 
-> `optional` **capabilityDelegation**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
+> `optional` **capabilityDelegation?**: (`string` \| [`IDidDocumentVerificationMethod`](IDidDocumentVerificationMethod.md))[]
 
 The capability delegations.
 
@@ -87,6 +95,6 @@ The capability delegations.
 
 ### service? {#service}
 
-> `optional` **service**: [`IDidService`](IDidService.md)[]
+> `optional` **service?**: [`IDidService`](IDidService.md)[]
 
 The services.

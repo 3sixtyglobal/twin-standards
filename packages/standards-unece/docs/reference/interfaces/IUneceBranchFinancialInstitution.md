@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/BranchFinancialInstitution
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this branch of a financial institution.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationAddress? {#locationaddress}
 
-> `optional` **locationAddress**: [`IUneceFinancialInstitutionAddress`](IUneceFinancialInstitutionAddress.md)
+> `optional` **locationAddress?**: [`IUneceFinancialInstitutionAddress`](IUneceFinancialInstitutionAddress.md)
 
 The location address for this branch of a financial institution.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/locationAddress
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this branch of a financial institution.
 

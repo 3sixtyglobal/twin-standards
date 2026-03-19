@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/WorkItemDimension
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### componentDimension? {#componentdimension}
 
-> `optional` **componentDimension**: `IUneceWorkItemDimension`[]
+> `optional` **componentDimension?**: `IUneceWorkItemDimension`[]
 
 A work item component dimension for this work item dimension.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/componentDimension
 
 ### componentWorkItemDimension? {#componentworkitemdimension}
 
-> `optional` **componentWorkItemDimension**: `IUneceWorkItemDimension`[]
+> `optional` **componentWorkItemDimension?**: `IUneceWorkItemDimension`[]
 
 A work item component dimension for this work item dimension.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/componentWorkItemDimension
 
 ### contractualLanguageCode? {#contractuallanguagecode}
 
-> `optional` **contractualLanguageCode**: `string`
+> `optional` **contractualLanguageCode?**: `string`
 
 The code specifying the contractual language for this work item dimension.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/contractualLanguageCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of this work item dimension.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this work item dimension.
 

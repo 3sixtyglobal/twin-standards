@@ -38,7 +38,7 @@ The Id.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 Human readable Name.
 
@@ -50,7 +50,7 @@ Human readable Name.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 Description of the Gaia-X entity.
 
@@ -102,7 +102,7 @@ https://docs.gaia-x.eu/ontology/development/slots/legalAddress/
 
 ### headquartersAddress? {#headquartersaddress}
 
-> `optional` **headquartersAddress**: [`IGaiaXAddress`](IGaiaXAddress.md)
+> `optional` **headquartersAddress?**: [`IGaiaXAddress`](IGaiaXAddress.md)
 
 Headquarters address.
 
@@ -114,7 +114,7 @@ https://docs.gaia-x.eu/ontology/development/slots/headquartersAddress/
 
 ### parentOrganizationOf? {#parentorganizationof}
 
-> `optional` **parentOrganizationOf**: `IJsonLdNodeObject` & `object`[]
+> `optional` **parentOrganizationOf?**: `IJsonLdNodeObject` & `object`[]
 
 Parent organization.
 
@@ -126,7 +126,7 @@ https://docs.gaia-x.eu/ontology/development/slots/parentOrganizationOf/
 
 ### subOrganizationOf? {#suborganizationof}
 
-> `optional` **subOrganizationOf**: `IJsonLdNodeObject` & `object`[]
+> `optional` **subOrganizationOf?**: `IJsonLdNodeObject` & `object`[]
 
 Sub organization of.
 

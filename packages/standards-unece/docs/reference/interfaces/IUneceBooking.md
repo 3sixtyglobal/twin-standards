@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Booking
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualDateTime? {#actualdatetime}
 
-> `optional` **actualDateTime**: `string`
+> `optional` **actualDateTime?**: `string`
 
 An actual date, time, date time, or other date time value of this financial booking.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ### creditDateTime? {#creditdatetime}
 
-> `optional` **creditDateTime**: `string`
+> `optional` **creditDateTime?**: `string`
 
 The credit date, time, date time, or other date time value of this financial booking.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/creditDateTime
 
 ### debitDateTime? {#debitdatetime}
 
-> `optional` **debitDateTime**: `string`
+> `optional` **debitDateTime?**: `string`
 
 The debit date, time, date time, or other date time value of this financial booking.
 

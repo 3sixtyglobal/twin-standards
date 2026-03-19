@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/LinearRing
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic? {#associatedgeographicalobjectcharacteristic}
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> `optional` **associatedGeographicalObjectCharacteristic?**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this linear ring.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### coordinate? {#coordinate}
 
-> `optional` **coordinate**: `string`
+> `optional` **coordinate?**: `string`
 
 A coordinate, expressed as text, for this specified linear ring.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/coordinate
 
 ### coordinateDirectPosition? {#coordinatedirectposition}
 
-> `optional` **coordinateDirectPosition**: [`IUneceDirectPosition`](IUneceDirectPosition.md)
+> `optional` **coordinateDirectPosition?**: [`IUneceDirectPosition`](IUneceDirectPosition.md)
 
 The specified direct position of a coordinate for this linear ring.
 

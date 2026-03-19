@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Policy
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableStandard? {#applicablestandard}
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard?**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this compliance policy.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this compliance policy.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this compliance policy.
 

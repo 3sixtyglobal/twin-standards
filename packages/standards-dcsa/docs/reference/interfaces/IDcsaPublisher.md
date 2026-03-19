@@ -12,7 +12,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ### partyName? {#partyname}
 
-> `optional` **partyName**: `string`
+> `optional` **partyName?**: `string`
 
 Name of the publishing party.
 

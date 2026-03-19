@@ -24,7 +24,7 @@ Discriminator for the transport mode.
 
 ### barge? {#barge}
 
-> `optional` **barge**: [`IDcsaBarge`](IDcsaBarge.md)
+> `optional` **barge?**: [`IDcsaBarge`](IDcsaBarge.md)
 
 Barge.
 
@@ -32,7 +32,7 @@ Barge.
 
 ### portVisitReference? {#portvisitreference}
 
-> `optional` **portVisitReference**: `string`
+> `optional` **portVisitReference?**: `string`
 
 Port visit reference.
 
@@ -40,7 +40,7 @@ Port visit reference.
 
 ### carrierServiceCode? {#carrierservicecode}
 
-> `optional` **carrierServiceCode**: `string`
+> `optional` **carrierServiceCode?**: `string`
 
 Carrier service code.
 
@@ -48,7 +48,7 @@ Carrier service code.
 
 ### universalServiceReference? {#universalservicereference}
 
-> `optional` **universalServiceReference**: `string`
+> `optional` **universalServiceReference?**: `string`
 
 Universal service reference.
 
@@ -56,7 +56,7 @@ Universal service reference.
 
 ### carrierExportVoyageNumber? {#carrierexportvoyagenumber}
 
-> `optional` **carrierExportVoyageNumber**: `string`
+> `optional` **carrierExportVoyageNumber?**: `string`
 
 Carrier export voyage number.
 
@@ -64,7 +64,7 @@ Carrier export voyage number.
 
 ### universalExportVoyageReference? {#universalexportvoyagereference}
 
-> `optional` **universalExportVoyageReference**: `string`
+> `optional` **universalExportVoyageReference?**: `string`
 
 Universal export voyage reference.
 
@@ -72,7 +72,7 @@ Universal export voyage reference.
 
 ### carrierImportVoyageNumber? {#carrierimportvoyagenumber}
 
-> `optional` **carrierImportVoyageNumber**: `string`
+> `optional` **carrierImportVoyageNumber?**: `string`
 
 Carrier import voyage number.
 
@@ -80,7 +80,7 @@ Carrier import voyage number.
 
 ### universalImportVoyageReference? {#universalimportvoyagereference}
 
-> `optional` **universalImportVoyageReference**: `string`
+> `optional` **universalImportVoyageReference?**: `string`
 
 Universal import voyage reference.
 
@@ -100,7 +100,7 @@ Unique reference for the transport call.
 
 ### transportCallSequenceNumber? {#transportcallsequencenumber}
 
-> `optional` **transportCallSequenceNumber**: `number`
+> `optional` **transportCallSequenceNumber?**: `number`
 
 Sequence number of the transport call.
 
@@ -112,7 +112,7 @@ Sequence number of the transport call.
 
 ### location? {#location}
 
-> `optional` **location**: `unknown`
+> `optional` **location?**: `unknown`
 
 Location of the transport call.
 
@@ -126,7 +126,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ### facilityTypeCode? {#facilitytypecode}
 
-> `optional` **facilityTypeCode**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
+> `optional` **facilityTypeCode?**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
 
 Facility type code.
 

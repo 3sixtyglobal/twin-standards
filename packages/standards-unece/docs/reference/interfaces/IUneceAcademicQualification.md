@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AcademicQualification
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### abbreviatedName? {#abbreviatedname}
 
-> `optional` **abbreviatedName**: `string`
+> `optional` **abbreviatedName?**: `string`
 
 The abbreviated name, expressed as text, of this academic qualification.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/abbreviatedName
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this academic qualification.
 

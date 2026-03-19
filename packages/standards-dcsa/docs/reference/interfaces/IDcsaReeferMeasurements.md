@@ -15,7 +15,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ### ambientTemperature? {#ambienttemperature}
 
-> `optional` **ambientTemperature**: `number`
+> `optional` **ambientTemperature?**: `number`
 
 Ambient temperature.
 
@@ -23,7 +23,7 @@ Ambient temperature.
 
 ### temperature? {#temperature}
 
-> `optional` **temperature**: `number`
+> `optional` **temperature?**: `number`
 
 Temperature.
 
@@ -31,7 +31,7 @@ Temperature.
 
 ### temperatureUnit? {#temperatureunit}
 
-> `optional` **temperatureUnit**: `string`
+> `optional` **temperatureUnit?**: `string`
 
 Temperature unit.
 
@@ -39,7 +39,7 @@ Temperature unit.
 
 ### o2? {#o2}
 
-> `optional` **o2**: `number`
+> `optional` **o2?**: `number`
 
 O2 measurement.
 
@@ -47,7 +47,7 @@ O2 measurement.
 
 ### co2? {#co2}
 
-> `optional` **co2**: `number`
+> `optional` **co2?**: `number`
 
 CO2 measurement.
 
@@ -55,7 +55,7 @@ CO2 measurement.
 
 ### humidity? {#humidity}
 
-> `optional` **humidity**: `number`
+> `optional` **humidity?**: `number`
 
 Humidity measurement.
 
@@ -63,7 +63,7 @@ Humidity measurement.
 
 ### airExchange? {#airexchange}
 
-> `optional` **airExchange**: `number`
+> `optional` **airExchange?**: `number`
 
 Air exchange measurement.
 
@@ -71,6 +71,6 @@ Air exchange measurement.
 
 ### airExchangeUnit? {#airexchangeunit}
 
-> `optional` **airExchangeUnit**: `string`
+> `optional` **airExchangeUnit?**: `string`
 
 Air exchange unit.

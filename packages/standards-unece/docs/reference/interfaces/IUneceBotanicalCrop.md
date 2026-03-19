@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/BotanicalCrop
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### botanicalGenusCode? {#botanicalgenuscode}
 
-> `optional` **botanicalGenusCode**: `string`
+> `optional` **botanicalGenusCode?**: `string`
 
 The code specifying the genus for this botanical crop.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/botanicalGenusCode
 
 ### botanicalIdentificationId? {#botanicalidentificationid}
 
-> `optional` **botanicalIdentificationId**: `string` \| `IJsonLdValueObject`
+> `optional` **botanicalIdentificationId?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this botanical crop.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/botanicalIdentificationId
 
 ### botanicalName? {#botanicalname}
 
-> `optional` **botanicalName**: `string`
+> `optional` **botanicalName?**: `string`
 
 The botanical name, expressed as text, for this botanical crop.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/botanicalName
 
 ### botanicalSpeciesCode? {#botanicalspeciescode}
 
-> `optional` **botanicalSpeciesCode**: `string`
+> `optional` **botanicalSpeciesCode?**: `string`
 
 The code specifying the species for this botanical crop.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/botanicalSpeciesCode
 
 ### purposeCode? {#purposecode}
 
-> `optional` **purposeCode**: `string`
+> `optional` **purposeCode?**: `string`
 
 The code specifying the purpose for this botanical crop.
 

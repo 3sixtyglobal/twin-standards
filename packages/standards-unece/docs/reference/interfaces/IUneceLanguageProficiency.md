@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/LanguageProficiency
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### languageName? {#languagename}
 
-> `optional` **languageName**: `string`
+> `optional` **languageName?**: `string`
 
 A name, expressed as text, of the language for which this language proficiency is defined.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/languageName
 
 ### personalLanguageProficiencyLanguageCode? {#personallanguageproficiencylanguagecode}
 
-> `optional` **personalLanguageProficiencyLanguageCode**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
+> `optional` **personalLanguageProficiencyLanguageCode?**: [`UneceLanguageCodeList`](../type-aliases/UneceLanguageCodeList.md)
 
 The code specifying the language for this personal language proficiency.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageCode
 
 ### personalLanguageProficiencyLanguageId? {#personallanguageproficiencylanguageid}
 
-> `optional` **personalLanguageProficiencyLanguageId**: `string` \| `IJsonLdValueObject`
+> `optional` **personalLanguageProficiencyLanguageId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the language for which this personal language proficiency is defined.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageId
 
 ### readingLevelCode? {#readinglevelcode}
 
-> `optional` **readingLevelCode**: `string`
+> `optional` **readingLevelCode?**: `string`
 
 The code specifying the personal reading proficiency level in this language.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/readingLevelCode
 
 ### speakingLevelCode? {#speakinglevelcode}
 
-> `optional` **speakingLevelCode**: `string`
+> `optional` **speakingLevelCode?**: `string`
 
 The code specifying the personal speaking proficiency level in this language.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/speakingLevelCode
 
 ### writingLevelCode? {#writinglevelcode}
 
-> `optional` **writingLevelCode**: `string`
+> `optional` **writingLevelCode?**: `string`
 
 The code specifying the personal writing proficiency level in this language.
 

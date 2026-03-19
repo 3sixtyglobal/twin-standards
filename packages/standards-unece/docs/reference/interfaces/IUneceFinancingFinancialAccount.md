@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/FinancingFinancialAccount
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### accountName? {#accountname}
 
-> `optional` **accountName**: `string`
+> `optional` **accountName?**: `string`
 
 The account name, expressed as text, of this financing financial account.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/accountName
 
 ### bBANId? {#bbanid}
 
-> `optional` **bBANId**: `string` \| `IJsonLdValueObject`
+> `optional` **bBANId?**: `string` \| `IJsonLdValueObject`
 
 The unique Basic Bank Account Number (BBAN) identifier used as part of a National Account Numbering Scheme for this
 financing financial account.
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/bBANId
 
 ### cashAccountTypeCode? {#cashaccounttypecode}
 
-> `optional` **cashAccountTypeCode**: `string`
+> `optional` **cashAccountTypeCode?**: `string`
 
 The code specifying the type of financing financial account.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/cashAccountTypeCode
 
 ### financingFinancialAccountCurrencyCode? {#financingfinancialaccountcurrencycode}
 
-> `optional` **financingFinancialAccountCurrencyCode**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
+> `optional` **financingFinancialAccountCurrencyCode?**: [`UneceCurrencyCodeList`](../type-aliases/UneceCurrencyCodeList.md)
 
 The code specifying the currency of this financing financial account.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/financingFinancialAccountCurrencyCode
 
 ### iBANId? {#ibanid}
 
-> `optional` **iBANId**: `string` \| `IJsonLdValueObject`
+> `optional` **iBANId?**: `string` \| `IJsonLdValueObject`
 
 The unique International Bank Account Number (IBAN) identifier for this financing financial account.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/iBANId
 
 ### proprietaryId? {#proprietaryid}
 
-> `optional` **proprietaryId**: `string` \| `IJsonLdValueObject`
+> `optional` **proprietaryId?**: `string` \| `IJsonLdValueObject`
 
 The proprietary identifier for this financing financial account.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/proprietaryId
 
 ### proprietaryType? {#proprietarytype}
 
-> `optional` **proprietaryType**: `string`
+> `optional` **proprietaryType?**: `string`
 
 The proprietary type, expressed as text, of this financing financial account, such as the nature or use.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/proprietaryType
 
 ### uPICId? {#upicid}
 
-> `optional` **uPICId**: `string` \| `IJsonLdValueObject`
+> `optional` **uPICId?**: `string` \| `IJsonLdValueObject`
 
 The unique Universal Payment Identification Code (UPIC) identifier used by the New York Clearing House for this
 financing financial account.

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AnimalIdentity
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/legalBasis
 
 ### versionId? {#versionid}
 
-> `optional` **versionId**: `string` \| `IJsonLdValueObject`
+> `optional` **versionId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of this animal identity.
 

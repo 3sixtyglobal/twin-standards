@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/RegisteredTax
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### currencyCode? {#currencycode}
 
-> `optional` **currencyCode**: `string`
+> `optional` **currencyCode?**: `string`
 
 The code specifying the currency for this registered tax.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/currencyCode
 
 ### customsDutyIndicator? {#customsdutyindicator}
 
-> `optional` **customsDutyIndicator**: `boolean`
+> `optional` **customsDutyIndicator?**: `boolean`
 
 The indication of whether or not this registered tax is a customs duty.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/customsDutyIndicator
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this registered tax.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### exemptionReason? {#exemptionreason}
 
-> `optional` **exemptionReason**: `string`
+> `optional` **exemptionReason?**: `string`
 
 A reason, expressed as text, for exemption from this registered tax.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/exemptionReason
 
 ### exemptionReasonCode? {#exemptionreasoncode}
 
-> `optional` **exemptionReasonCode**: `string`
+> `optional` **exemptionReasonCode?**: `string`
 
 The code specifying the exemption reason for this registered tax.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/exemptionReasonCode
 
 ### jurisdiction? {#jurisdiction}
 
-> `optional` **jurisdiction**: `string`
+> `optional` **jurisdiction?**: `string`
 
 A jurisdiction, expressed as text, for this registered tax.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/jurisdiction
 
 ### registeredTaxTypeCode? {#registeredtaxtypecode}
 
-> `optional` **registeredTaxTypeCode**: `string`
+> `optional` **registeredTaxTypeCode?**: `string`
 
 The code specifying the type of registered tax.
 

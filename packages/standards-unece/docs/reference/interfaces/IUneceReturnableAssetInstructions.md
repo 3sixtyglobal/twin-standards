@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ReturnableAssetInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### depositValueSpecifiedAmount? {#depositvaluespecifiedamount}
 
-> `optional` **depositValueSpecifiedAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **depositValueSpecifiedAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A deposit value specified in these returnable asset instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/depositValueSpecifiedAmount
 
 ### depositValueValidityPeriod? {#depositvaluevalidityperiod}
 
-> `optional` **depositValueValidityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **depositValueValidityPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The specified period during which the deposit value specified in these returnable asset instructions is valid.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/depositValueValidityPeriod
 
 ### materialId? {#materialid}
 
-> `optional` **materialId**: `string` \| `IJsonLdValueObject`
+> `optional` **materialId?**: `string` \| `IJsonLdValueObject`
 
 An identifier of the material to which these returnable asset instructions apply.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/materialId
 
 ### returnableAssetInstructionsTermsAndConditionsDescriptionCode? {#returnableassetinstructionstermsandconditionsdescriptioncode}
 
-> `optional` **returnableAssetInstructionsTermsAndConditionsDescriptionCode**: `string`
+> `optional` **returnableAssetInstructionsTermsAndConditionsDescriptionCode?**: `string`
 
 The code specifying the description of the terms and conditions for these returnable asset instructions.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/returnableAssetInstructionsTermsAndConditionsDes
 
 ### termsAndConditionsDescription? {#termsandconditionsdescription}
 
-> `optional` **termsAndConditionsDescription**: `string`
+> `optional` **termsAndConditionsDescription?**: `string`
 
 A textual description of the terms and conditions for these returnable asset instructions.
 

@@ -56,7 +56,7 @@ This is generally obtained from the Provider's Catalog.
 
 ### dataAddress? {#dataaddress}
 
-> `optional` **dataAddress**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
+> `optional` **dataAddress?**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
 
 If defined MUST contain a transport-specific set of properties for pushing the data.
 It MAY include an endpoint, a temporary authorization via the endpointProperties property - depending on the endpointType.

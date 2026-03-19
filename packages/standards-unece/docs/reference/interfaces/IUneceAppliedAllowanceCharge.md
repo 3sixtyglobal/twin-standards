@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AppliedAllowanceCharge
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualAmount? {#actualamount}
 
-> `optional` **actualAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **actualAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The actual monetary value of the applied allowance charge.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualAmount
 
 ### appliedAllowanceChargeReasonCode? {#appliedallowancechargereasoncode}
 
-> `optional` **appliedAllowanceChargeReasonCode**: `string`
+> `optional` **appliedAllowanceChargeReasonCode?**: `string`
 
 The code specifying the reason for this applied allowance charge.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/appliedAllowanceChargeReasonCode
 
 ### basisAmount? {#basisamount}
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **basisAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value that is the basis on which the applied allowance charge is calculated.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### calculationPercent? {#calculationpercent}
 
-> `optional` **calculationPercent**: `string`
+> `optional` **calculationPercent?**: `string`
 
 The percentage used to calculate the applied allowance charge.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/calculationPercent
 
 ### categoryAppliedTax? {#categoryappliedtax}
 
-> `optional` **categoryAppliedTax**: [`IUneceAppliedTax`](IUneceAppliedTax.md)
+> `optional` **categoryAppliedTax?**: [`IUneceAppliedTax`](IUneceAppliedTax.md)
 
 The applied tax category of this applied allowance charge.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/chargeIndicator
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of the applied allowance charge.
 

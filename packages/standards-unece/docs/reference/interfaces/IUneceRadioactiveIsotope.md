@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/RadioactiveIsotope
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### activityLevelMeasure? {#activitylevelmeasure}
 
-> `optional` **activityLevelMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **activityLevelMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the activity level of this specified radioactive isotope.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/activityLevelMeasure
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this specified radioactive isotope, such as C14.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/name
 
 ### note? {#note}
 
-> `optional` **note**: `string`
+> `optional` **note?**: `string`
 
 A note, expressed as text, for this specified radioactive isotope.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/note
 
 ### specifiedRadionuclide? {#specifiedradionuclide}
 
-> `optional` **specifiedRadionuclide**: [`IUneceRadionuclide`](IUneceRadionuclide.md)[]
+> `optional` **specifiedRadionuclide?**: [`IUneceRadionuclide`](IUneceRadionuclide.md)[]
 
 The radionuclide details specified for this radioactive isotope.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/specifiedRadionuclide
 
 ### unitActivityLevelMeasure? {#unitactivitylevelmeasure}
 
-> `optional` **unitActivityLevelMeasure**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
+> `optional` **unitActivityLevelMeasure?**: [`IUneceUnitMeasureType`](IUneceUnitMeasureType.md)[]
 
 A measure of the activity level of this specified radioactive isotope.
 

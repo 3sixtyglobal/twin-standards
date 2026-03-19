@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/WasteMaterialRecoveryDisposalProcess
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableProcessCertificate? {#applicableprocesscertificate}
 
-> `optional` **applicableProcessCertificate**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+> `optional` **applicableProcessCertificate?**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
 
 A process certificate applicable to this waste material recovery disposal process.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableProcessCertificate
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of a waste material recovery disposal process.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### wasteMaterialRecoveryDisposalProcessTypeCode? {#wastematerialrecoverydisposalprocesstypecode}
 
-> `optional` **wasteMaterialRecoveryDisposalProcessTypeCode**: `string`
+> `optional` **wasteMaterialRecoveryDisposalProcessTypeCode?**: `string`
 
 The code specifying the type of waste material recovery disposal process.
 

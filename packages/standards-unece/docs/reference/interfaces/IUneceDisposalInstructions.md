@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DisposalInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these disposal instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### disposalInstructionsRecyclingDescriptionCode? {#disposalinstructionsrecyclingdescriptioncode}
 
-> `optional` **disposalInstructionsRecyclingDescriptionCode**: `string`
+> `optional` **disposalInstructionsRecyclingDescriptionCode?**: `string`
 
 A code describing recycling in these disposal instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/disposalInstructionsRecyclingDescriptionCode
 
 ### handling? {#handling}
 
-> `optional` **handling**: `string`
+> `optional` **handling?**: `string`
 
 The handling, expressed as text, in this set of disposal instructions.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/handling
 
 ### materialId? {#materialid}
 
-> `optional` **materialId**: `string` \| `IJsonLdValueObject`
+> `optional` **materialId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the material to which these disposal instructions apply.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/materialId
 
 ### rCRAHandling? {#rcrahandling}
 
-> `optional` **rCRAHandling**: `string`
+> `optional` **rCRAHandling?**: `string`
 
 The Resource Conservation and Recovery Act (RCRA) handling, expressed as text, in this set of disposal instructions.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/rCRAHandling
 
 ### recyclingProcedure? {#recyclingprocedure}
 
-> `optional` **recyclingProcedure**: `string`
+> `optional` **recyclingProcedure?**: `string`
 
 A recycling procedure, expressed as text, for these disposal instructions.
 

@@ -27,7 +27,7 @@ JSON-LD @context.
 
 ### eventID? {#eventid}
 
-> `optional` **eventID**: `string`
+> `optional` **eventID?**: `string`
 
 URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
@@ -39,7 +39,11 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ### certificationInfo? {#certificationinfo}
 
+<<<<<<< Updated upstream
 > `optional` **certificationInfo**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **certificationInfo?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 (Optional) CertificationDetails relevant for Objects, Places and/or
 Organizations mentioned in this Event.
@@ -52,7 +56,7 @@ Organizations mentioned in this Event.
 
 ### errorDeclaration? {#errordeclaration}
 
-> `optional` **errorDeclaration**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
+> `optional` **errorDeclaration?**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
 
 Error declaration.
 
@@ -90,7 +94,7 @@ expressed as an offset from UTC.
 
 ### recordTime? {#recordtime}
 
-> `optional` **recordTime**: `string`
+> `optional` **recordTime?**: `string`
 
 (Optional) The date and time at which this event was recorded by an EPCIS
 Repository; ignored at capture and present on query results.
@@ -123,7 +127,7 @@ Business transaction list (required by schema).
 
 ### parentID? {#parentid}
 
-> `optional` **parentID**: `string`
+> `optional` **parentID?**: `string`
 
 (Optional when action is OBSERVE, required otherwise) Identifier of the parent
 of the aggregation or association; use the pure identity URI when the parent is
@@ -133,7 +137,7 @@ an EPC.
 
 ### epcList? {#epclist}
 
-> `optional` **epcList**: `string`[]
+> `optional` **epcList?**: `string`[]
 
 (Optional) An unordered list of one or more EPCs naming specific objects to
 which the event pertained.
@@ -142,7 +146,7 @@ which the event pertained.
 
 ### quantityList? {#quantitylist}
 
-> `optional` **quantityList**: [`IEpcisQuantity`](IEpcisQuantity.md)[]
+> `optional` **quantityList?**: [`IEpcisQuantity`](IEpcisQuantity.md)[]
 
 An unordered list of one or more QuantityElements identifying (at the class
 level) contained objects.
@@ -159,7 +163,7 @@ How this event relates to the lifecycle of the EPCs named in this event.
 
 ### bizStep? {#bizstep}
 
-> `optional` **bizStep**: `string`
+> `optional` **bizStep?**: `string`
 
 (Optional) The business step of which this event was a part.
 
@@ -167,7 +171,7 @@ How this event relates to the lifecycle of the EPCs named in this event.
 
 ### disposition? {#disposition}
 
-> `optional` **disposition**: `string`
+> `optional` **disposition?**: `string`
 
 (Optional) The business condition of the objects associated with the EPCs,
 presumed to hold true until contradicted by a subsequent event.
@@ -176,7 +180,7 @@ presumed to hold true until contradicted by a subsequent event.
 
 ### readPoint? {#readpoint}
 
-> `optional` **readPoint**: [`IEpcisLocation`](IEpcisLocation.md)
+> `optional` **readPoint?**: [`IEpcisLocation`](IEpcisLocation.md)
 
 (Optional) The read point at which the event took place.
 
@@ -184,7 +188,7 @@ presumed to hold true until contradicted by a subsequent event.
 
 ### bizLocation? {#bizlocation}
 
-> `optional` **bizLocation**: [`IEpcisLocation`](IEpcisLocation.md)
+> `optional` **bizLocation?**: [`IEpcisLocation`](IEpcisLocation.md)
 
 (Optional) The business location where the objects associated with the EPCs
 may be found, until contradicted by a subsequent event.
@@ -193,7 +197,7 @@ may be found, until contradicted by a subsequent event.
 
 ### sourceList? {#sourcelist}
 
-> `optional` **sourceList**: [`IEpcisSource`](IEpcisSource.md)[]
+> `optional` **sourceList?**: [`IEpcisSource`](IEpcisSource.md)[]
 
 (Optional) Unordered list of Source elements that provide context about the
 originating endpoint of a business transfer of which this event is a part.
@@ -202,7 +206,7 @@ originating endpoint of a business transfer of which this event is a part.
 
 ### destinationList? {#destinationlist}
 
-> `optional` **destinationList**: [`IEpcisDestination`](IEpcisDestination.md)[]
+> `optional` **destinationList?**: [`IEpcisDestination`](IEpcisDestination.md)[]
 
 (Optional) Unordered list of Destination elements that provide context about the
 terminating endpoint of a business transfer of which this event is a part.
@@ -211,6 +215,6 @@ terminating endpoint of a business transfer of which this event is a part.
 
 ### sensorElementList? {#sensorelementlist}
 
-> `optional` **sensorElementList**: [`IEpcisSensorElement`](IEpcisSensorElement.md)[]
+> `optional` **sensorElementList?**: [`IEpcisSensorElement`](IEpcisSensorElement.md)[]
 
 (Optional) Connects event to one or more SensorElements.

@@ -53,7 +53,7 @@ Event type discriminator.
 
 ### retractedEventID? {#retractedeventid}
 
-> `optional` **retractedEventID**: `null`
+> `optional` **retractedEventID?**: `null`
 
 Must be `null` (or omitted) for non-retraction events.
 The upstream schema defines a default of `null`.

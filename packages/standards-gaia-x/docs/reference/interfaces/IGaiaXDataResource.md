@@ -97,7 +97,7 @@ ODRL Policy
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 Description of the Gaia-X entity.
 

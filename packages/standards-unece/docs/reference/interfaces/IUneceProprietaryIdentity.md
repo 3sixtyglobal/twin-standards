@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ProprietaryIdentity
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identificationType? {#identificationtype}
 
-> `optional` **identificationType**: `string`
+> `optional` **identificationType?**: `string`
 
 An identifier type, expressed as text, for this proprietary identity.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identificationType
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 A proprietary identifier.
 

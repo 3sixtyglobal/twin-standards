@@ -19,7 +19,7 @@ The date and time at which the declaration of error is made.
 
 ### reason? {#reason}
 
-> `optional` **reason**: `string`
+> `optional` **reason?**: `string`
 
 Reason for the error.
 
@@ -29,7 +29,7 @@ Use [EpcisErrorReasonTypes](../variables/EpcisErrorReasonTypes.md) for known val
 
 ### correctiveEventIDs? {#correctiveeventids}
 
-> `optional` **correctiveEventIDs**: `string`[]
+> `optional` **correctiveEventIDs?**: `string`[]
 
 (Optional) If present, indicates that the events having the specified URIs as
 the value of their eventID fields are to be considered as "corrections" to

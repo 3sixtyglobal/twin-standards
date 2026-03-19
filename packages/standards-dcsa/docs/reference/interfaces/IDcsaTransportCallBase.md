@@ -27,7 +27,7 @@ Unique reference for the transport call.
 
 ### transportCallSequenceNumber? {#transportcallsequencenumber}
 
-> `optional` **transportCallSequenceNumber**: `number`
+> `optional` **transportCallSequenceNumber?**: `number`
 
 Sequence number of the transport call.
 
@@ -35,7 +35,7 @@ Sequence number of the transport call.
 
 ### location? {#location}
 
-> `optional` **location**: `unknown`
+> `optional` **location?**: `unknown`
 
 Location of the transport call.
 
@@ -45,6 +45,6 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ### facilityTypeCode? {#facilitytypecode}
 
-> `optional` **facilityTypeCode**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
+> `optional` **facilityTypeCode?**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
 
 Facility type code.

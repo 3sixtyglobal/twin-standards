@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Allergy
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this guest allergy.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/description
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this guest allergy.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/name
 
 ### restriction? {#restriction}
 
-> `optional` **restriction**: `string`
+> `optional` **restriction?**: `string`
 
 A restriction, expressed as text, related to this guest allergy.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/restriction
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of guest allergy.
 

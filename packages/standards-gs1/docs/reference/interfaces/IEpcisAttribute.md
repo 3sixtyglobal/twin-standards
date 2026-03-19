@@ -18,6 +18,6 @@ Attribute id.
 
 ### attribute? {#attribute}
 
-> `optional` **attribute**: `IJsonLdNodePrimitive`
+> `optional` **attribute?**: `IJsonLdNodePrimitive`
 
 Attribute value.

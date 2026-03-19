@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/InstalmentPayment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### dueDateTime? {#duedatetime}
 
-> `optional` **dueDateTime**: `string`
+> `optional` **dueDateTime?**: `string`
 
 The due date for this instalment payment.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/dueDateTime
 
 ### paidAmount? {#paidamount}
 
-> `optional` **paidAmount**: [`IUneceAmountType`](IUneceAmountType.md)[]
+> `optional` **paidAmount?**: [`IUneceAmountType`](IUneceAmountType.md)[]
 
 A monetary value paid or to be paid for this instalment payment.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/paidAmount
 
 ### sequenceId? {#sequenceid}
 
-> `optional` **sequenceId**: `string` \| `IJsonLdValueObject`
+> `optional` **sequenceId?**: `string` \| `IJsonLdValueObject`
 
 The sequence identifier for this instalment payment.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/sequenceId
 
 ### specifiedFinancingRequestResultDocument? {#specifiedfinancingrequestresultdocument}
 
-> `optional` **specifiedFinancingRequestResultDocument**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)
+> `optional` **specifiedFinancingRequestResultDocument?**: [`IUneceFinancingRequestResultDocument`](IUneceFinancingRequestResultDocument.md)
 
 The financing request result document specified for this instalment payment.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/FieldCrop
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableAgriculturalProcess? {#applicableagriculturalprocess}
 
-> `optional` **applicableAgriculturalProcess**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
+> `optional` **applicableAgriculturalProcess?**: [`IUneceAgriculturalProcess`](IUneceAgriculturalProcess.md)[]
 
 An agricultural process crop production applicable for this field crop.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalProcess
 
 ### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
+> `optional` **appliedAgriculturalApplication?**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 An agricultural application applied to this field crop.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ### className? {#classname}
 
-> `optional` **className**: `string`
+> `optional` **className?**: `string`
 
 The class name, expressed as a text, for this field crop.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/className
 
 ### classificationCode? {#classificationcode}
 
-> `optional` **classificationCode**: `string`
+> `optional` **classificationCode?**: `string`
 
 A code specifying a classification for this field crop.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/classificationCode
 
 ### cultivationContainerCode? {#cultivationcontainercode}
 
-> `optional` **cultivationContainerCode**: `string`
+> `optional` **cultivationContainerCode?**: `string`
 
 The code specifying the type of cultivation container, such as a pot or an iron cabinet, for this field crop.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/cultivationContainerCode
 
 ### cultivationCoverageCode? {#cultivationcoveragecode}
 
-> `optional` **cultivationCoverageCode**: `string`
+> `optional` **cultivationCoverageCode?**: `string`
 
 A code specifying a type of cultivation coverage, such as glass, for this field crop.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/cultivationCoverageCode
 
 ### cultivationMediumCode? {#cultivationmediumcode}
 
-> `optional` **cultivationMediumCode**: `string`
+> `optional` **cultivationMediumCode?**: `string`
 
 The code specifying the type of cultivation medium, such as substrate, for this field crop.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/cultivationMediumCode
 
 ### cultivationTypeCode? {#cultivationtypecode}
 
-> `optional` **cultivationTypeCode**: `string`
+> `optional` **cultivationTypeCode?**: `string`
 
 The code specifying the type of cultivation for this field crop.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/cultivationTypeCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description for this field crop.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/grownPlot
 
 ### grownPreviousCrop? {#grownpreviouscrop}
 
-> `optional` **grownPreviousCrop**: `IUneceFieldCrop`[]
+> `optional` **grownPreviousCrop?**: `IUneceFieldCrop`[]
 
 A field crop grown previous to this field crop.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/grownPreviousCrop
 
 ### harvestDateTime? {#harvestdatetime}
 
-> `optional` **harvestDateTime**: `string`
+> `optional` **harvestDateTime?**: `string`
 
 The date, time, date time, or other date time value for the harvest of this field crop.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/harvestDateTime
 
 ### harvestedProduce? {#harvestedproduce}
 
-> `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
+> `optional` **harvestedProduce?**: [`IUneceProduce`](IUneceProduce.md)[]
 
 Produce harvested from this field crop.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/harvestedProduce
 
 ### plantingReasonCode? {#plantingreasoncode}
 
-> `optional` **plantingReasonCode**: `string`
+> `optional` **plantingReasonCode?**: `string`
 
 A code specifying a reason for planting this field crop.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/plantingReasonCode
 
 ### productionEnvironmentCode? {#productionenvironmentcode}
 
-> `optional` **productionEnvironmentCode**: `string`
+> `optional` **productionEnvironmentCode?**: `string`
 
 The code specifying the production environment for this field crop.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/productionEnvironmentCode
 
 ### productionPeriodCode? {#productionperiodcode}
 
-> `optional` **productionPeriodCode**: `string`
+> `optional` **productionPeriodCode?**: `string`
 
 The code specifying the production period for this field crop.
 
@@ -218,7 +218,7 @@ https://vocabulary.uncefact.org/productionPeriodCode
 
 ### propagationMaterialIndicator? {#propagationmaterialindicator}
 
-> `optional` **propagationMaterialIndicator**: `boolean`
+> `optional` **propagationMaterialIndicator?**: `boolean`
 
 The indication of whether or not a field crop is to be used as propagation material.
 
@@ -230,7 +230,7 @@ https://vocabulary.uncefact.org/propagationMaterialIndicator
 
 ### purposeCode? {#purposecode}
 
-> `optional` **purposeCode**: `string`
+> `optional` **purposeCode?**: `string`
 
 A code specifying a purpose for this field crop.
 
@@ -242,7 +242,7 @@ https://vocabulary.uncefact.org/purposeCode
 
 ### sowingPeriodCode? {#sowingperiodcode}
 
-> `optional` **sowingPeriodCode**: `string`
+> `optional` **sowingPeriodCode?**: `string`
 
 The code specifying the sowing period for this field crop, such as spring or winter.
 
@@ -254,7 +254,7 @@ https://vocabulary.uncefact.org/sowingPeriodCode
 
 ### specifiedAgriculturalCharacteristic? {#specifiedagriculturalcharacteristic}
 
-> `optional` **specifiedAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
+> `optional` **specifiedAgriculturalCharacteristic?**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic specified for this field crop.
 

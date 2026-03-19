@@ -10,7 +10,7 @@ https://ref.gs1.org/epcis/EPCISHeader
 
 ### epcisMasterData? {#epcismasterdata}
 
-> `optional` **epcisMasterData**: `IJsonLdNodeObject` & `object`
+> `optional` **epcisMasterData?**: `IJsonLdNodeObject` & `object`
 
 EPCIS master data.
 
@@ -18,6 +18,6 @@ EPCIS master data.
 
 ##### vocabularyList?
 
-> `optional` **vocabularyList**: [`IEpcisVocabulary`](IEpcisVocabulary.md)[]
+> `optional` **vocabularyList?**: [`IEpcisVocabulary`](IEpcisVocabulary.md)[]
 
 Vocabulary list.

@@ -23,7 +23,7 @@ The type of the message.
 
 ### providerPid? {#providerpid}
 
-> `optional` **providerPid**: `string`
+> `optional` **providerPid?**: `string`
 
 The provider id for the contract.
 
@@ -47,6 +47,6 @@ The offer being requested.
 
 ### callbackAddress? {#callbackaddress}
 
-> `optional` **callbackAddress**: `string`
+> `optional` **callbackAddress?**: `string`
 
 The base callback address for the provider to update the consumer on the state of the negotiation.

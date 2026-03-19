@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Project
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### constraintIndicator? {#constraintindicator}
 
-> `optional` **constraintIndicator**: `boolean`
+> `optional` **constraintIndicator?**: `boolean`
 
 The indication of whether or not the project is constrained by an authority such as the World Trade Organization (WTO)
 for this procuring project.
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/constraintIndicator
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of this procuring project.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/name
 
 ### netBudgetAmount? {#netbudgetamount}
 
-> `optional` **netBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **netBudgetAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the net budget for this procuring project.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/netBudgetAmount
 
 ### specifiedInspectionEvent? {#specifiedinspectionevent}
 
-> `optional` **specifiedInspectionEvent**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
+> `optional` **specifiedInspectionEvent?**: [`IUneceInspectionEvent`](IUneceInspectionEvent.md)
 
 The inspection event specified for this procuring project.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedInspectionEvent
 
 ### subWorksTypeCode? {#subworkstypecode}
 
-> `optional` **subWorksTypeCode**: `string`
+> `optional` **subWorksTypeCode?**: `string`
 
 A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring
 project.
@@ -112,7 +112,7 @@ https://vocabulary.uncefact.org/subWorksTypeCode
 
 ### totalBudgetAmount? {#totalbudgetamount}
 
-> `optional` **totalBudgetAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **totalBudgetAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value of the total budget which includes net amount, taxes, and material and instalment costs for this
 procuring project.
@@ -125,7 +125,7 @@ https://vocabulary.uncefact.org/totalBudgetAmount
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of procuring project, such as goods, works and service.
 
@@ -137,7 +137,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### worksTypeCode? {#workstypecode}
 
-> `optional` **worksTypeCode**: `string`
+> `optional` **worksTypeCode?**: `string`
 
 A code specifying the type of work, such as surveying or consulting, for this procuring project.
 

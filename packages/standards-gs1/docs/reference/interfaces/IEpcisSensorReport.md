@@ -22,7 +22,7 @@ Use [EpcisMeasurementTypes](../variables/EpcisMeasurementTypes.md) for known val
 
 ### exception? {#exception}
 
-> `optional` **exception**: `string`
+> `optional` **exception?**: `string`
 
 A sensor alert value (alarm condition or error condition); extra details may
 be provided via booleanValue or uriValue.
@@ -33,7 +33,7 @@ Use [EpcisSensorAlertTypes](../variables/EpcisSensorAlertTypes.md) for known val
 
 ### deviceID? {#deviceid}
 
-> `optional` **deviceID**: `string`
+> `optional` **deviceID?**: `string`
 
 (Optional) Device from which the sensor data originates.
 
@@ -41,7 +41,7 @@ Use [EpcisSensorAlertTypes](../variables/EpcisSensorAlertTypes.md) for known val
 
 ### deviceMetadata? {#devicemetadata}
 
-> `optional` **deviceMetadata**: `string`
+> `optional` **deviceMetadata?**: `string`
 
 (Optional) Storage location of an electronic document accommodating metadata
 of the device from which the sensor data originates.
@@ -50,7 +50,7 @@ of the device from which the sensor data originates.
 
 ### rawData? {#rawdata}
 
-> `optional` **rawData**: `string`
+> `optional` **rawData?**: `string`
 
 (Optional) Storage/service location of the raw sensor data on which the
 aggregated/business-oriented data contained in the sensorElement is based.
@@ -59,7 +59,7 @@ aggregated/business-oriented data contained in the sensorElement is based.
 
 ### dataProcessingMethod? {#dataprocessingmethod}
 
-> `optional` **dataProcessingMethod**: `string`
+> `optional` **dataProcessingMethod?**: `string`
 
 (Optional) Storage location of an electronic document accommodating the data
 processing method of the contained sensor data, if applicable.
@@ -68,7 +68,7 @@ processing method of the contained sensor data, if applicable.
 
 ### bizRules? {#bizrules}
 
-> `optional` **bizRules**: `string`
+> `optional` **bizRules?**: `string`
 
 (Optional) Storage location of an electronic document accommodating product- or
 application-specific business rules on which basis the EPCIS event was
@@ -78,7 +78,7 @@ triggered.
 
 ### time? {#time}
 
-> `optional` **time**: `string`
+> `optional` **time?**: `string`
 
 (Optional) The actual point in time of an observation as transmitted by a
 sensor device.
@@ -87,7 +87,7 @@ sensor device.
 
 ### microorganism? {#microorganism}
 
-> `optional` **microorganism**: `string`
+> `optional` **microorganism?**: `string`
 
 (Optional) Identifies a specific microorganism species; SHALL NOT be present
 if chemicalSubstance is included.
@@ -96,7 +96,7 @@ if chemicalSubstance is included.
 
 ### chemicalSubstance? {#chemicalsubstance}
 
-> `optional` **chemicalSubstance**: `string`
+> `optional` **chemicalSubstance?**: `string`
 
 (Optional) Identifies a specific chemical substance; SHALL NOT be present
 together with microorganism.
@@ -105,7 +105,7 @@ together with microorganism.
 
 ### coordinateReferenceSystem? {#coordinatereferencesystem}
 
-> `optional` **coordinateReferenceSystem**: `string`
+> `optional` **coordinateReferenceSystem?**: `string`
 
 (Optional) A URI identifying the Coordinate Reference System; if omitted,
 WGS-84 is assumed.
@@ -114,7 +114,7 @@ WGS-84 is assumed.
 
 ### value? {#value}
 
-> `optional` **value**: `number`
+> `optional` **value?**: `number`
 
 (Optional) Value of the property specified by the type; if a time field is
 present, it pertains to that time, otherwise to the eventTime.
@@ -123,7 +123,7 @@ present, it pertains to that time, otherwise to the eventTime.
 
 ### component? {#component}
 
-> `optional` **component**: `string`
+> `optional` **component?**: `string`
 
 (Optional) Vector component identifier for measurements with magnitude and
 direction (e.g. force, pressure); repeat SensorReport per component.
@@ -132,7 +132,7 @@ direction (e.g. force, pressure); repeat SensorReport per component.
 
 ### stringValue? {#stringvalue}
 
-> `optional` **stringValue**: `string`
+> `optional` **stringValue?**: `string`
 
 (Optional) The String value of the property specified by the type as part of
 the sensorReport element.
@@ -141,7 +141,7 @@ the sensorReport element.
 
 ### booleanValue? {#booleanvalue}
 
-> `optional` **booleanValue**: `boolean`
+> `optional` **booleanValue?**: `boolean`
 
 (Optional) Similar to stringValue, for Boolean value.
 
@@ -149,7 +149,7 @@ the sensorReport element.
 
 ### hexBinaryValue? {#hexbinaryvalue}
 
-> `optional` **hexBinaryValue**: `string`
+> `optional` **hexBinaryValue?**: `string`
 
 (Optional) Similar to stringValue, for HexBinary value.
 
@@ -157,7 +157,7 @@ the sensorReport element.
 
 ### uriValue? {#urivalue}
 
-> `optional` **uriValue**: `string`
+> `optional` **uriValue?**: `string`
 
 (Optional) Similar to stringValue, for a URI value.
 
@@ -165,7 +165,7 @@ the sensorReport element.
 
 ### minValue? {#minvalue}
 
-> `optional` **minValue**: `number`
+> `optional` **minValue?**: `number`
 
 (Optional) Minimum quantitative value of the property specified by type, as
 part of the sensorReport element.
@@ -174,7 +174,7 @@ part of the sensorReport element.
 
 ### maxValue? {#maxvalue}
 
-> `optional` **maxValue**: `number`
+> `optional` **maxValue?**: `number`
 
 (Optional) Similar to minValue, for the maximum quantitative value.
 
@@ -182,7 +182,7 @@ part of the sensorReport element.
 
 ### meanValue? {#meanvalue}
 
-> `optional` **meanValue**: `number`
+> `optional` **meanValue?**: `number`
 
 (Optional) The arithmetic mean of the values of the property specified by the
 type as part of the sensorReport element.
@@ -191,7 +191,7 @@ type as part of the sensorReport element.
 
 ### sDev? {#sdev}
 
-> `optional` **sDev**: `number`
+> `optional` **sDev?**: `number`
 
 (Optional) Standard deviation of the values of the property specified by type,
 as part of the sensorReport element.
@@ -200,7 +200,7 @@ as part of the sensorReport element.
 
 ### percRank? {#percrank}
 
-> `optional` **percRank**: `number`
+> `optional` **percRank?**: `number`
 
 (Optional) Percentile rank, signifying the percentage of observations in a
 frequency distribution that are equal to or lower than it.
@@ -209,7 +209,7 @@ frequency distribution that are equal to or lower than it.
 
 ### percValue? {#percvalue}
 
-> `optional` **percValue**: `number`
+> `optional` **percValue?**: `number`
 
 (Optional) The percentile value, at or below which a given percentage of
 observations may be found.
@@ -218,7 +218,7 @@ observations may be found.
 
 ### uom? {#uom}
 
-> `optional` **uom**: `string`
+> `optional` **uom?**: `string`
 
 (Optional) Unit of measure by which the specified value(s) of the property
 specified by type should be interpreted.

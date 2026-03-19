@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/CargoInsurance
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### contractGeneralConditions? {#contractgeneralconditions}
 
-> `optional` **contractGeneralConditions**: `string`
+> `optional` **contractGeneralConditions?**: `string`
 
 The contract general conditions, expressed as text, for this transport cargo insurance.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/contractGeneralConditions
 
 ### coverageCode? {#coveragecode}
 
-> `optional` **coverageCode**: `string`
+> `optional` **coverageCode?**: `string`
 
 The code specifying the coverage of this transport cargo insurance.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/coverageCode
 
 ### coverageDescription? {#coveragedescription}
 
-> `optional` **coverageDescription**: `string`
+> `optional` **coverageDescription?**: `string`
 
 The textual description of the coverage of this transport cargo insurance.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/coverageDescription
 
 ### coverageParty? {#coverageparty}
 
-> `optional` **coverageParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **coverageParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The coverage party for this transport cargo insurance.
 

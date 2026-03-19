@@ -26,7 +26,7 @@ The GS1 sgln identifier.
 
 ### site? {#site}
 
-> `optional` **site**: `string`
+> `optional` **site?**: `string`
 
 Identifies the site in which the location is contained.
 
@@ -34,7 +34,7 @@ Identifies the site in which the location is contained.
 
 ### sst? {#sst}
 
-> `optional` **sst**: [`Gs1SubSiteTypes`](../type-aliases/Gs1SubSiteTypes.md)
+> `optional` **sst?**: [`Gs1SubSiteTypes`](../type-aliases/Gs1SubSiteTypes.md)
 
 Sub site type describes the primary business function of the sub site location.
 
@@ -42,7 +42,7 @@ Sub site type describes the primary business function of the sub site location.
 
 ### ssa? {#ssa}
 
-> `optional` **ssa**: [`Gs1SubSiteAttributes`](../type-aliases/Gs1SubSiteAttributes.md)
+> `optional` **ssa?**: [`Gs1SubSiteAttributes`](../type-aliases/Gs1SubSiteAttributes.md)
 
 Sub site attribute further qualifies the business function of the sub site location.
 
@@ -50,7 +50,7 @@ Sub site attribute further qualifies the business function of the sub site locat
 
 ### ssd? {#ssd}
 
-> `optional` **ssd**: `string`
+> `optional` **ssd?**: `string`
 
 Sub site detail provides additional proprietary information.
 
@@ -58,7 +58,7 @@ Sub site detail provides additional proprietary information.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name of the location.
 
@@ -66,7 +66,7 @@ The name of the location.
 
 ### streetAddressOne? {#streetaddressone}
 
-> `optional` **streetAddressOne**: `string`
+> `optional` **streetAddressOne?**: `string`
 
 The street address line 1.
 
@@ -74,7 +74,7 @@ The street address line 1.
 
 ### streetAddressTwo? {#streetaddresstwo}
 
-> `optional` **streetAddressTwo**: `string`
+> `optional` **streetAddressTwo?**: `string`
 
 The street address line 2.
 
@@ -82,7 +82,7 @@ The street address line 2.
 
 ### streetAddressThree? {#streetaddressthree}
 
-> `optional` **streetAddressThree**: `string`
+> `optional` **streetAddressThree?**: `string`
 
 The street address line 3.
 
@@ -90,7 +90,7 @@ The street address line 3.
 
 ### city? {#city}
 
-> `optional` **city**: `string`
+> `optional` **city?**: `string`
 
 City.
 
@@ -98,7 +98,7 @@ City.
 
 ### state? {#state}
 
-> `optional` **state**: `string`
+> `optional` **state?**: `string`
 
 State.
 
@@ -106,7 +106,7 @@ State.
 
 ### postalCode? {#postalcode}
 
-> `optional` **postalCode**: `string`
+> `optional` **postalCode?**: `string`
 
 Postal Code.
 
@@ -114,7 +114,7 @@ Postal Code.
 
 ### countryCode? {#countrycode}
 
-> `optional` **countryCode**: `string`
+> `optional` **countryCode?**: `string`
 
 Country Code The ISO 3166-1 alpha-2 code specifying the country for the address.
 
@@ -122,7 +122,7 @@ Country Code The ISO 3166-1 alpha-2 code specifying the country for the address.
 
 ### latitude? {#latitude}
 
-> `optional` **latitude**: `number`
+> `optional` **latitude?**: `number`
 
 The latitude of the location in degrees.
 
@@ -130,6 +130,6 @@ The latitude of the location in degrees.
 
 ### longitude? {#longitude}
 
-> `optional` **longitude**: `number`
+> `optional` **longitude?**: `number`
 
 The longitude of the location in degrees.

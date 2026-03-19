@@ -31,6 +31,6 @@ The error code.
 
 ### reason? {#reason}
 
-> `optional` **reason**: `any`[]
+> `optional` **reason?**: `any`[]
 
 The error reason(s).

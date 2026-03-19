@@ -85,6 +85,10 @@
 			"description": "Page"
 		},
 		{
+			"const": "Question",
+			"description": "Question"
+		},
+		{
 			"const": "Place",
 			"description": "Place"
 		},

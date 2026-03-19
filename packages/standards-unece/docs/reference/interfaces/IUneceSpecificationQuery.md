@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecificationQuery
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/content
 
 ### contractualLanguageCode? {#contractuallanguagecode}
 
-> `optional` **contractualLanguageCode**: `string`
+> `optional` **contractualLanguageCode?**: `string`
 
 The code specifying the contractual language for this specification query.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of specification query.
 

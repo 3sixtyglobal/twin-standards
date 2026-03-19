@@ -24,7 +24,7 @@ Discriminator for the transport mode.
 
 ### departureID? {#departureid}
 
-> `optional` **departureID**: `string`
+> `optional` **departureID?**: `string`
 
 Departure reference ID.
 
@@ -32,7 +32,7 @@ Departure reference ID.
 
 ### railService? {#railservice}
 
-> `optional` **railService**: `string`
+> `optional` **railService?**: `string`
 
 Rail service number.
 
@@ -40,7 +40,7 @@ Rail service number.
 
 ### railCar? {#railcar}
 
-> `optional` **railCar**: `string`
+> `optional` **railCar?**: `string`
 
 Railcar identifier.
 
@@ -60,7 +60,7 @@ Unique reference for the transport call.
 
 ### transportCallSequenceNumber? {#transportcallsequencenumber}
 
-> `optional` **transportCallSequenceNumber**: `number`
+> `optional` **transportCallSequenceNumber?**: `number`
 
 Sequence number of the transport call.
 
@@ -72,7 +72,7 @@ Sequence number of the transport call.
 
 ### location? {#location}
 
-> `optional` **location**: `unknown`
+> `optional` **location?**: `unknown`
 
 Location of the transport call.
 
@@ -86,7 +86,7 @@ Kept as unknown since the authoritative schema references LOCATION_DOMAIN types.
 
 ### facilityTypeCode? {#facilitytypecode}
 
-> `optional` **facilityTypeCode**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
+> `optional` **facilityTypeCode?**: [`DcsaTransportCallFacilityTypeCodes`](../type-aliases/DcsaTransportCallFacilityTypeCodes.md)
 
 Facility type code.
 

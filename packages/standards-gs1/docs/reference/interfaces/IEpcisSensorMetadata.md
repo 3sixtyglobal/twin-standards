@@ -11,7 +11,7 @@ https://ref.gs1.org/epcis/SensorMetadata
 
 ### time? {#time}
 
-> `optional` **time**: `string`
+> `optional` **time?**: `string`
 
 (Optional) The actual point in time of an observation as transmitted by a
 sensor device.
@@ -20,7 +20,7 @@ sensor device.
 
 ### deviceID? {#deviceid}
 
-> `optional` **deviceID**: `string`
+> `optional` **deviceID?**: `string`
 
 (Optional) Device from which the sensor data originates.
 
@@ -28,7 +28,7 @@ sensor device.
 
 ### deviceMetadata? {#devicemetadata}
 
-> `optional` **deviceMetadata**: `string`
+> `optional` **deviceMetadata?**: `string`
 
 (Optional) Storage location of an electronic document accommodating metadata
 of the device from which the sensor data originates.
@@ -37,7 +37,7 @@ of the device from which the sensor data originates.
 
 ### rawData? {#rawdata}
 
-> `optional` **rawData**: `string`
+> `optional` **rawData?**: `string`
 
 (Optional) Storage/service location of the raw sensor data on which the
 aggregated/business-oriented data contained in the sensorElement is based.
@@ -46,7 +46,7 @@ aggregated/business-oriented data contained in the sensorElement is based.
 
 ### startTime? {#starttime}
 
-> `optional` **startTime**: `string`
+> `optional` **startTime?**: `string`
 
 (Optional) The lowest (earliest) value of a given observation period as
 transmitted by a sensor device.
@@ -55,7 +55,7 @@ transmitted by a sensor device.
 
 ### endTime? {#endtime}
 
-> `optional` **endTime**: `string`
+> `optional` **endTime?**: `string`
 
 (Optional) The highest (most recent) value of a given observation period, as
 transmitted by a sensor device.
@@ -64,7 +64,7 @@ transmitted by a sensor device.
 
 ### dataProcessingMethod? {#dataprocessingmethod}
 
-> `optional` **dataProcessingMethod**: `string`
+> `optional` **dataProcessingMethod?**: `string`
 
 (Optional) Storage location of an electronic document accommodating the data
 processing method of the contained sensor data, if applicable.
@@ -73,7 +73,7 @@ processing method of the contained sensor data, if applicable.
 
 ### bizRules? {#bizrules}
 
-> `optional` **bizRules**: `string`
+> `optional` **bizRules?**: `string`
 
 (Optional) Storage location of an electronic document accommodating product- or
 application-specific business rules on which basis the EPCIS event was

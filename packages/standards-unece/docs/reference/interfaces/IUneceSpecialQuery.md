@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecialQuery
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### content? {#content}
 
-> `optional` **content**: `string`
+> `optional` **content?**: `string`
 
 Content, expressed as text, of this special query.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/content
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this special query.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### latestResponseDateTime? {#latestresponsedatetime}
 
-> `optional` **latestResponseDateTime**: `string`
+> `optional` **latestResponseDateTime?**: `string`
 
 The date, time, date time, or other date time value for the latest response to this special query.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/latestResponseDateTime
 
 ### responseDateTime? {#responsedatetime}
 
-> `optional` **responseDateTime**: `string`
+> `optional` **responseDateTime?**: `string`
 
 The date, time, date time, or other date time value of the response for this special query.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/responseDateTime
 
 ### responseStatusCode? {#responsestatuscode}
 
-> `optional` **responseStatusCode**: `string`
+> `optional` **responseStatusCode?**: `string`
 
 The code specifying the response status for this special query.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/responseStatusCode
 
 ### subject? {#subject}
 
-> `optional` **subject**: `string`
+> `optional` **subject?**: `string`
 
 A subject, expressed as text, of this special query.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/subject
 
 ### submittedDateTime? {#submitteddatetime}
 
-> `optional` **submittedDateTime**: `string`
+> `optional` **submittedDateTime?**: `string`
 
 The date, time, date time, or other date time value when this special query was submitted.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/submittedDateTime
 
 ### submittingPersonName? {#submittingpersonname}
 
-> `optional` **submittingPersonName**: `string`
+> `optional` **submittingPersonName?**: `string`
 
 A name, expressed as text, of the person submitting this special query.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/submittingPersonName
 
 ### versionId? {#versionid}
 
-> `optional` **versionId**: `string` \| `IJsonLdValueObject`
+> `optional` **versionId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version for this special query.
 

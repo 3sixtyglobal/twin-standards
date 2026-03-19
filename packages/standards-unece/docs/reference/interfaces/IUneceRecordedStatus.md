@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/RecordedStatus
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/changedDateTime
 
 ### changerName? {#changername}
 
-> `optional` **changerName**: `string`
+> `optional` **changerName?**: `string`
 
 The name of the person or system, expressed as text, that changed this recorded status.
 

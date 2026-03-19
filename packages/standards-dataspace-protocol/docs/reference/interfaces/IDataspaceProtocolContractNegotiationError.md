@@ -39,7 +39,7 @@ The consumer id for the contract.
 
 ### code? {#code}
 
-> `optional` **code**: `string`
+> `optional` **code?**: `string`
 
 The error code.
 
@@ -47,6 +47,6 @@ The error code.
 
 ### reason? {#reason}
 
-> `optional` **reason**: `any`[]
+> `optional` **reason?**: `any`[]
 
 The error reason(s).

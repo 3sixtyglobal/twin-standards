@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Country
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### countryId? {#countryid}
 
-> `optional` **countryId**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this trade country.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this trade country.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedQuantity? {#specifiedquantity}
 
-> `optional` **specifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **specifiedQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A quantity specified for this trade country.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/specifiedQuantity
 
 ### subordinateCountrySubDivision? {#subordinatecountrysubdivision}
 
-> `optional` **subordinateCountrySubDivision**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)[]
+> `optional` **subordinateCountrySubDivision?**: [`IUneceCountrySubDivision`](IUneceCountrySubDivision.md)[]
 
 A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province.
 

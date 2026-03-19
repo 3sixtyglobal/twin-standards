@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ShippingMarks
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### barcodeLabel? {#barcodelabel}
 
-> `optional` **barcodeLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
+> `optional` **barcodeLabel?**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 A barcode label that is a part of these logistics shipping marks.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/barcodeLabel
 
 ### logisticsShippingMarksMarkingInstructionCode? {#logisticsshippingmarksmarkinginstructioncode}
 
-> `optional` **logisticsShippingMarksMarkingInstructionCode**: [`UneceMarkingInstructionCodeList`](../type-aliases/UneceMarkingInstructionCodeList.md)[]
+> `optional` **logisticsShippingMarksMarkingInstructionCode?**: [`UneceMarkingInstructionCodeList`](../type-aliases/UneceMarkingInstructionCodeList.md)[]
 
 A code specifying a marking instruction for these logistics shipping marks.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/logisticsShippingMarksMarkingInstructionCode
 
 ### logisticsShippingMarksPackageCategoryCode? {#logisticsshippingmarkspackagecategorycode}
 
-> `optional` **logisticsShippingMarksPackageCategoryCode**: `string`
+> `optional` **logisticsShippingMarksPackageCategoryCode?**: `string`
 
 The code specifying the package category for these logistics shipping marks.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/logisticsShippingMarksPackageCategoryCode
 
 ### marking? {#marking}
 
-> `optional` **marking**: `string`
+> `optional` **marking?**: `string`
 
 Marking, expressed as text, for these logistics shipping marks.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/marking
 
 ### rFIDLabel? {#rfidlabel}
 
-> `optional` **rFIDLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
+> `optional` **rFIDLabel?**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 A Radio Frequency Identification (RFID) label that is a part of these logistics shipping marks.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/rFIDLabel
 
 ### radioactiveLabel? {#radioactivelabel}
 
-> `optional` **radioactiveLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
+> `optional` **radioactiveLabel?**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 Radioactive labelling that is a part of these logistics shipping marks.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/radioactiveLabel
 
 ### vINLabel? {#vinlabel}
 
-> `optional` **vINLabel**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
+> `optional` **vINLabel?**: [`IUneceLogisticsLabel`](IUneceLogisticsLabel.md)[]
 
 A Vehicle Identification Number (VIN) label that is a part of these logistics shipping marks.
 

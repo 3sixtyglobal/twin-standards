@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SanitaryMeasure
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicationDateTime? {#applicationdatetime}
 
-> `optional` **applicationDateTime**: `string`
+> `optional` **applicationDateTime?**: `string`
 
 An application date, time, date time or other date time value for this MDH sanitary measure.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicationDateTime
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this MDH sanitary measure.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### location? {#location}
 
-> `optional` **location**: `string`
+> `optional` **location?**: `string`
 
 A location, expressed as text, for this MDH sanitary measure.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/location
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of MDH sanitary measure.
 

@@ -22,7 +22,7 @@ The location label.
 
 ### subdivisionCode? {#subdivisioncode}
 
-> `optional` **subdivisionCode**: `string`
+> `optional` **subdivisionCode?**: `string`
 
 The subdivision code.
 
@@ -30,7 +30,7 @@ The subdivision code.
 
 ### labelWithDiacritics? {#labelwithdiacritics}
 
-> `optional` **labelWithDiacritics**: `string`
+> `optional` **labelWithDiacritics?**: `string`
 
 The label with diacritics.
 
@@ -38,7 +38,7 @@ The label with diacritics.
 
 ### function? {#function}
 
-> `optional` **function**: `string`
+> `optional` **function?**: `string`
 
 The function code as concatenated string.
 
@@ -46,7 +46,7 @@ The function code as concatenated string.
 
 ### lat? {#lat}
 
-> `optional` **lat**: `number`
+> `optional` **lat?**: `number`
 
 The latitude coordinate.
 
@@ -54,6 +54,6 @@ The latitude coordinate.
 
 ### lng? {#lng}
 
-> `optional` **lng**: `number`
+> `optional` **lng?**: `number`
 
 The longitude coordinate.

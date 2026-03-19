@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/InspectionNote
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### content? {#content}
 
-> `optional` **content**: `string`
+> `optional` **content?**: `string`
 
 Content, expressed as text, of this inspection note.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/content
 
 ### creationDateTime? {#creationdatetime}
 
-> `optional` **creationDateTime**: `string`
+> `optional` **creationDateTime?**: `string`
 
 The date, time, date time, or other date time value for the creation of this inspection note.
 

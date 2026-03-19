@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/FileSizeUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### FileSizeUnitMeasureTypeValue? {#filesizeunitmeasuretypevalue}
 
-> `optional` **FileSizeUnitMeasureTypeValue**: `string`
+> `optional` **FileSizeUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/FileSizeUnitMeasureTypeValue
 
 ### FileSizeUnitMeasureTypeCode? {#filesizeunitmeasuretypecode}
 
-> `optional` **FileSizeUnitMeasureTypeCode**: [`UneceFileSizeUnitMeasureCode`](../type-aliases/UneceFileSizeUnitMeasureCode.md)
+> `optional` **FileSizeUnitMeasureTypeCode?**: [`UneceFileSizeUnitMeasureCode`](../type-aliases/UneceFileSizeUnitMeasureCode.md)
 
 The unit code.
 

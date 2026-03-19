@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/IdentifiedFault
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this identified fault.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### identificationCode? {#identificationcode}
 
-> `optional` **identificationCode**: `string`
+> `optional` **identificationCode?**: `string`
 
 A code specifying an identified fault.
 

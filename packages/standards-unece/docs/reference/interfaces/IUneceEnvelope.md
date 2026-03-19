@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Envelope
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### customizationId? {#customizationid}
 
-> `optional` **customizationId**: `string` \| `IJsonLdValueObject`
+> `optional` **customizationId?**: `string` \| `IJsonLdValueObject`
 
 The customization identifier for this XHE envelope.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/customizationId
 
 ### includedPayload? {#includedpayload}
 
-> `optional` **includedPayload**: [`IUnecePayload`](IUnecePayload.md)
+> `optional` **includedPayload?**: [`IUnecePayload`](IUnecePayload.md)
 
 The payload included in this XHE envelope.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/metadataDocument
 
 ### payloadIncludedIndicator? {#payloadincludedindicator}
 
-> `optional` **payloadIncludedIndicator**: `boolean`
+> `optional` **payloadIncludedIndicator?**: `boolean`
 
 The indication of whether or not a payload is included in this XHE envelope.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/payloadIncludedIndicator
 
 ### profileExecutionId? {#profileexecutionid}
 
-> `optional` **profileExecutionId**: `string` \| `IJsonLdValueObject`
+> `optional` **profileExecutionId?**: `string` \| `IJsonLdValueObject`
 
 The profile execution identifier for this XHE envelope.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/profileExecutionId
 
 ### profileId? {#profileid}
 
-> `optional` **profileId**: `string` \| `IJsonLdValueObject`
+> `optional` **profileId?**: `string` \| `IJsonLdValueObject`
 
 The profile identifier for this XHE envelope.
 

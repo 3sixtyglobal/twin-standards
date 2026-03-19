@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/BirthAddress
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### birthAddressCountryId? {#birthaddresscountryid}
 
-> `optional` **birthAddressCountryId**: `string` \| `IJsonLdValueObject`
+> `optional` **birthAddressCountryId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of a country for this birth address.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/birthAddressCountryId
 
 ### cityName? {#cityname}
 
-> `optional` **cityName**: `string`
+> `optional` **cityName?**: `string`
 
 The name, expressed as text, of the city, town or village of this birth address.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/cityName
 
 ### countrySubDivisionName? {#countrysubdivisionname}
 
-> `optional` **countrySubDivisionName**: `string`
+> `optional` **countrySubDivisionName?**: `string`
 
 The name, expressed as text, of the sub-division of a country for this birth address.
 

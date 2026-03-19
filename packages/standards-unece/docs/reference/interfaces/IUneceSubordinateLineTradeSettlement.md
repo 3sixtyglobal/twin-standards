@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/SubordinateLineTradeSettlement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### amountDirectionCode? {#amountdirectioncode}
 
-> `optional` **amountDirectionCode**: `string`
+> `optional` **amountDirectionCode?**: `string`
 
 The code, specifying the direction, either an addition or subtraction, for the amount of this subordinate line trade
 settlement.
@@ -40,7 +40,7 @@ https://vocabulary.uncefact.org/amountDirectionCode
 
 ### applicableTax? {#applicabletax}
 
-> `optional` **applicableTax**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
+> `optional` **applicableTax?**: [`IUneceTradeTax`](IUneceTradeTax.md)[]
 
 A tax applicable to this subordinate line trade settlement.
 
@@ -52,7 +52,7 @@ https://vocabulary.uncefact.org/applicableTax
 
 ### billingPeriod? {#billingperiod}
 
-> `optional` **billingPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **billingPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The billing period specified for the subordinate line of this trade settlement.
 
@@ -64,7 +64,7 @@ https://vocabulary.uncefact.org/billingPeriod
 
 ### invoiceReferencedDocument? {#invoicereferenceddocument}
 
-> `optional` **invoiceReferencedDocument**: [`IUneceDocument`](IUneceDocument.md)[]
+> `optional` **invoiceReferencedDocument?**: [`IUneceDocument`](IUneceDocument.md)[]
 
 An invoice document referenced for this subordinate line trade settlement.
 
@@ -76,7 +76,7 @@ https://vocabulary.uncefact.org/invoiceReferencedDocument
 
 ### purchaseSpecifiedAccountingAccount? {#purchasespecifiedaccountingaccount}
 
-> `optional` **purchaseSpecifiedAccountingAccount**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
+> `optional` **purchaseSpecifiedAccountingAccount?**: [`IUneceAccountingAccount`](IUneceAccountingAccount.md)[]
 
 A purchase accounting account specified for the subordinate line of this trade settlement.
 
@@ -88,7 +88,7 @@ https://vocabulary.uncefact.org/purchaseSpecifiedAccountingAccount
 
 ### specifiedAllowanceCharge? {#specifiedallowancecharge}
 
-> `optional` **specifiedAllowanceCharge**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
+> `optional` **specifiedAllowanceCharge?**: [`IUneceTradeAllowanceCharge`](IUneceTradeAllowanceCharge.md)[]
 
 An allowance or charge specified for this subordinate line trade settlement.
 
@@ -100,7 +100,7 @@ https://vocabulary.uncefact.org/specifiedAllowanceCharge
 
 ### specifiedFinancialAdjustment? {#specifiedfinancialadjustment}
 
-> `optional` **specifiedFinancialAdjustment**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)[]
+> `optional` **specifiedFinancialAdjustment?**: [`IUneceFinancialAdjustment`](IUneceFinancialAdjustment.md)[]
 
 A financial adjustment specified for this subordinate line trade settlement.
 

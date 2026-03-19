@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Polygon
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### associatedGeographicalObjectCharacteristic? {#associatedgeographicalobjectcharacteristic}
 
-> `optional` **associatedGeographicalObjectCharacteristic**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
+> `optional` **associatedGeographicalObjectCharacteristic?**: [`IUneceGeographicalObjectCharacteristic`](IUneceGeographicalObjectCharacteristic.md)
 
 The geographical object characteristic associated with this specified polygon.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### associatedLocation? {#associatedlocation}
 
-> `optional` **associatedLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **associatedLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A logistics location associated with this specified polygon.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/exteriorLinearRing
 
 ### interiorLinearRing? {#interiorlinearring}
 
-> `optional` **interiorLinearRing**: [`IUneceLinearRing`](IUneceLinearRing.md)[]
+> `optional` **interiorLinearRing?**: [`IUneceLinearRing`](IUneceLinearRing.md)[]
 
 An interior linear ring specified for this polygon.
 

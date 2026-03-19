@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/Communication
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### access? {#access}
 
-> `optional` **access**: `string`
+> `optional` **access?**: `string`
 
 Access information, expressed as text, for the mode of universal communication such as 9 or *70 for a telephone network.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/access
 
 ### areaNumberCode? {#areanumbercode}
 
-> `optional` **areaNumberCode**: `string`
+> `optional` **areaNumberCode?**: `string`
 
 The code specifying the area number for this universal communication.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/areaNumberCode
 
 ### communicationChannelCode? {#communicationchannelcode}
 
-> `optional` **communicationChannelCode**: [`UneceCommunicationChannelCodeList`](../type-aliases/UneceCommunicationChannelCodeList.md)
+> `optional` **communicationChannelCode?**: [`UneceCommunicationChannelCodeList`](../type-aliases/UneceCommunicationChannelCodeList.md)
 
 The code specifying the channel or manner in which a universal communication can be made, such as telephone or email.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/communicationChannelCode
 
 ### completeNumber? {#completenumber}
 
-> `optional` **completeNumber**: `string`
+> `optional` **completeNumber?**: `string`
 
 The text string of characters that make up the complete number for this universal communication.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/completeNumber
 
 ### countryNumberCode? {#countrynumbercode}
 
-> `optional` **countryNumberCode**: `string`
+> `optional` **countryNumberCode?**: `string`
 
 The country access code for this universal communication number such as 44, 1, 353 etc.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/countryNumberCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this universal communication.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/description
 
 ### emailURIId? {#emailuriid}
 
-> `optional` **emailURIId**: `string` \| `IJsonLdValueObject`
+> `optional` **emailURIId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the email for this universal communication.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/emailURIId
 
 ### extensionNumber? {#extensionnumber}
 
-> `optional` **extensionNumber**: `string`
+> `optional` **extensionNumber?**: `string`
 
 The extension number, expressed as text, assigned to this universal communication number to enable a caller to reach a
 specific party.
@@ -124,7 +124,7 @@ https://vocabulary.uncefact.org/extensionNumber
 
 ### hTMLPreferredIndicator? {#htmlpreferredindicator}
 
-> `optional` **hTMLPreferredIndicator**: `boolean`
+> `optional` **hTMLPreferredIndicator?**: `boolean`
 
 The indication of whether or not HTML format is preferred by the recipient for email universal communications.
 
@@ -136,7 +136,7 @@ https://vocabulary.uncefact.org/hTMLPreferredIndicator
 
 ### invalidIndicator? {#invalidindicator}
 
-> `optional` **invalidIndicator**: `boolean`
+> `optional` **invalidIndicator?**: `boolean`
 
 The indication of whether or not this universal communication is invalid.
 
@@ -148,7 +148,7 @@ https://vocabulary.uncefact.org/invalidIndicator
 
 ### localNumber? {#localnumber}
 
-> `optional` **localNumber**: `string`
+> `optional` **localNumber?**: `string`
 
 The universal communication number, expressed as text and not including country access code or the area number code, for
 this communication.
@@ -161,7 +161,7 @@ https://vocabulary.uncefact.org/localNumber
 
 ### uRIId? {#uriid}
 
-> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
+> `optional` **uRIId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI), such as a web or an email address, for this universal communication.
 
@@ -173,7 +173,7 @@ https://vocabulary.uncefact.org/uRIId
 
 ### useCode? {#usecode}
 
-> `optional` **useCode**: `string`
+> `optional` **useCode?**: `string`
 
 The code specifying the use of this universal communication such as for business purposes or private.
 
@@ -185,7 +185,7 @@ https://vocabulary.uncefact.org/useCode
 
 ### websiteURIId? {#websiteuriid}
 
-> `optional` **websiteURIId**: `string` \| `IJsonLdValueObject`
+> `optional` **websiteURIId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) of the website for this universal communication.
 

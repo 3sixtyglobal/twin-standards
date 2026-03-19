@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TaxRegistration
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedTax? {#associatedtax}
 
-> `optional` **associatedTax**: [`IUneceRegisteredTax`](IUneceRegisteredTax.md)
+> `optional` **associatedTax?**: [`IUneceRegisteredTax`](IUneceRegisteredTax.md)
 
 The registered tax associated with this tax registration.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedTax
 
 ### iOSSId? {#iossid}
 
-> `optional` **iOSSId**: `string` \| `IJsonLdValueObject`
+> `optional` **iOSSId?**: `string` \| `IJsonLdValueObject`
 
 The Import One Stop Shop (IOSS) identifier for this tax registration.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/iOSSId
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this tax registration.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TransportInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of these transport instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### instructionsType? {#instructionstype}
 
-> `optional` **instructionsType**: `string`
+> `optional` **instructionsType?**: `string`
 
 A type, expressed as text, for these transport instructions.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/instructionsType
 
 ### transportInstructionsDescriptionCode? {#transportinstructionsdescriptioncode}
 
-> `optional` **transportInstructionsDescriptionCode**: `string`
+> `optional` **transportInstructionsDescriptionCode?**: `string`
 
 The code specifying a description of these transport instructions.
 

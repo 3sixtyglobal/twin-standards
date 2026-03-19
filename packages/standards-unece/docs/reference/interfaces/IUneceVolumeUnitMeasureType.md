@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/VolumeUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### VolumeUnitMeasureTypeValue? {#volumeunitmeasuretypevalue}
 
-> `optional` **VolumeUnitMeasureTypeValue**: `string`
+> `optional` **VolumeUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/VolumeUnitMeasureTypeValue
 
 ### VolumeUnitMeasureTypeCode? {#volumeunitmeasuretypecode}
 
-> `optional` **VolumeUnitMeasureTypeCode**: [`UneceVolumeUnitMeasureCode`](../type-aliases/UneceVolumeUnitMeasureCode.md)
+> `optional` **VolumeUnitMeasureTypeCode?**: [`UneceVolumeUnitMeasureCode`](../type-aliases/UneceVolumeUnitMeasureCode.md)
 
 The unit code.
 

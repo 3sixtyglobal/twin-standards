@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/TradeProductCertification
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableStandard? {#applicablestandard}
 
-> `optional` **applicableStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **applicableStandard?**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard applicable to this trade product certification.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableStandard
 
 ### assertion? {#assertion}
 
-> `optional` **assertion**: `string`
+> `optional` **assertion?**: `string`
 
 An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/assertion
 
 ### assertionCode? {#assertioncode}
 
-> `optional` **assertionCode**: `string`
+> `optional` **assertionCode?**: `string`
 
 A code specifying an assertion for this trade product certification, such as claims that a product is free from peanuts.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/assertionCode
 
 ### relatedLocation? {#relatedlocation}
 
-> `optional` **relatedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **relatedLocation?**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location related to this trade product certification.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/relatedLocation
 
 ### responsibleAgency? {#responsibleagency}
 
-> `optional` **responsibleAgency**: `string`
+> `optional` **responsibleAgency?**: `string`
 
 The agency, expressed as text, responsible for this trade product certification.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/responsibleAgency
 
 ### specifiedAssertion? {#specifiedassertion}
 
-> `optional` **specifiedAssertion**: [`IUneceAssertion`](IUneceAssertion.md)[]
+> `optional` **specifiedAssertion?**: [`IUneceAssertion`](IUneceAssertion.md)[]
 
 A sustainability assertion specified for this trade product certification.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedAssertion
 
 ### standard? {#standard}
 
-> `optional` **standard**: `string`
+> `optional` **standard?**: `string`
 
 The standard, expressed as text, for this trade product certification.
 

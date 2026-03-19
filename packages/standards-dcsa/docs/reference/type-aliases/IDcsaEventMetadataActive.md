@@ -11,6 +11,6 @@ allow it to be omitted or explicitly set to `null`.
 
 ### retractedEventID?
 
-> `optional` **retractedEventID**: `null`
+> `optional` **retractedEventID?**: `null`
 
 Must be `null` (or omitted) for non-retraction events.

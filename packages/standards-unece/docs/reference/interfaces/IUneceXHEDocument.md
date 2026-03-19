@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/XHEDocument
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/recipientXHEParty
 
 ### scopeContext? {#scopecontext}
 
-> `optional` **scopeContext**: [`IUneceXHEContext`](IUneceXHEContext.md)[]
+> `optional` **scopeContext?**: [`IUneceXHEContext`](IUneceXHEContext.md)[]
 
 A context scope for this XHE document.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/scopeContext
 
 ### senderXHEParty? {#senderxheparty}
 
-> `optional` **senderXHEParty**: [`IUneceXHEParty`](IUneceXHEParty.md)
+> `optional` **senderXHEParty?**: [`IUneceXHEParty`](IUneceXHEParty.md)
 
 The sender party for this XHE document.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/senderXHEParty
 
 ### testIndicator? {#testindicator}
 
-> `optional` **testIndicator**: `boolean`
+> `optional` **testIndicator?**: `boolean`
 
 The indication of whether or not this XHE document is a test .
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/testIndicator
 
 ### uUIDId? {#uuidid}
 
-> `optional` **uUIDId**: `string` \| `IJsonLdValueObject`
+> `optional` **uUIDId?**: `string` \| `IJsonLdValueObject`
 
 The UUID (Universally Unique IDentifier) of this XHE document.
 

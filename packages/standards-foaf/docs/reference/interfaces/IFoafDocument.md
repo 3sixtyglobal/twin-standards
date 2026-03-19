@@ -18,7 +18,7 @@ http://xmlns.com/foaf/0.1/
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 The unique identifier for the FOAF object.
 
@@ -30,7 +30,7 @@ The unique identifier for the FOAF object.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name for some thing.
 
@@ -46,7 +46,7 @@ http://xmlns.com/foaf/spec/#term_name
 
 ### title? {#title}
 
-> `optional` **title**: `string`
+> `optional` **title?**: `string`
 
 Title (Mr, Mrs, Ms, Dr. etc)
 
@@ -62,7 +62,7 @@ http://xmlns.com/foaf/spec/#term_title
 
 ### mbox? {#mbox}
 
-> `optional` **mbox**: `string`
+> `optional` **mbox?**: `string`
 
 A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox
 
@@ -78,7 +78,7 @@ http://xmlns.com/foaf/spec/#term_mbox
 
 ### homepage? {#homepage}
 
-> `optional` **homepage**: `string`
+> `optional` **homepage?**: `string`
 
 A homepage for some thing.
 
@@ -94,7 +94,7 @@ http://xmlns.com/foaf/spec/#term_homepage
 
 ### depiction? {#depiction}
 
-> `optional` **depiction**: [`IFoafImage`](IFoafImage.md)
+> `optional` **depiction?**: [`IFoafImage`](IFoafImage.md)
 
 A depiction of some thing.
 
@@ -110,7 +110,7 @@ http://xmlns.com/foaf/spec/#term_depiction
 
 ### @context? {#context}
 
-> `optional` **@context**: [`FoafContextType`](../type-aliases/FoafContextType.md)
+> `optional` **@context?**: [`FoafContextType`](../type-aliases/FoafContextType.md)
 
 The LD Context.
 
@@ -130,7 +130,7 @@ Type.
 
 ### topic? {#topic}
 
-> `optional` **topic**: `string`
+> `optional` **topic?**: `string`
 
 A topic of some page or document.
 
@@ -142,7 +142,7 @@ http://xmlns.com/foaf/spec/#term_topic
 
 ### primaryTopic? {#primarytopic}
 
-> `optional` **primaryTopic**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
+> `optional` **primaryTopic?**: `ObjectOrArray`\<`IJsonLdNodeObject`\>
 
 The primary topic of some page or document.
 
@@ -154,7 +154,7 @@ http://xmlns.com/foaf/spec/#term_primaryTopic
 
 ### sha1? {#sha1}
 
-> `optional` **sha1**: `string`
+> `optional` **sha1?**: `string`
 
 A sha1sum hash, in hex.
 

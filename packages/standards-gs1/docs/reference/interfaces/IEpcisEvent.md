@@ -34,7 +34,7 @@ Type of Event.
 
 ### eventID? {#eventid}
 
-> `optional` **eventID**: `string`
+> `optional` **eventID?**: `string`
 
 URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
@@ -42,7 +42,11 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ### certificationInfo? {#certificationinfo}
 
+<<<<<<< Updated upstream
 > `optional` **certificationInfo**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **certificationInfo?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 (Optional) CertificationDetails relevant for Objects, Places and/or
 Organizations mentioned in this Event.
@@ -51,7 +55,7 @@ Organizations mentioned in this Event.
 
 ### errorDeclaration? {#errordeclaration}
 
-> `optional` **errorDeclaration**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
+> `optional` **errorDeclaration?**: [`IEpcisErrorDeclaration`](IEpcisErrorDeclaration.md)
 
 Error declaration.
 
@@ -77,7 +81,7 @@ expressed as an offset from UTC.
 
 ### recordTime? {#recordtime}
 
-> `optional` **recordTime**: `string`
+> `optional` **recordTime?**: `string`
 
 (Optional) The date and time at which this event was recorded by an EPCIS
 Repository; ignored at capture and present on query results.

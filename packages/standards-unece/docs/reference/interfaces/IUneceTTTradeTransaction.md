@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/TTTradeTransaction
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### typeId? {#typeid}
 
-> `optional` **typeId**: `string` \| `IJsonLdValueObject`
+> `optional` **typeId?**: `string` \| `IJsonLdValueObject`
 
 The identifier for the type of TT trade transaction.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/typeId
 
 ### uRIId? {#uriid}
 
-> `optional` **uRIId**: `string` \| `IJsonLdValueObject`
+> `optional` **uRIId?**: `string` \| `IJsonLdValueObject`
 
 The Uniform Resource Identifier (URI) for this TT trade transaction.
 

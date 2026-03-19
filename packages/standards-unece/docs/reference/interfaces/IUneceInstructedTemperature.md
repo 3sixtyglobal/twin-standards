@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/InstructedTemperature
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### controlCode? {#controlcode}
 
-> `optional` **controlCode**: `string`
+> `optional` **controlCode?**: `string`
 
 The code specifying the control of this instructed temperature, such as normal or chilled.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/controlCode
 
 ### maximumValueMeasure? {#maximumvaluemeasure}
 
-> `optional` **maximumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **maximumValueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the maximum value of this instructed temperature.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ### minimumValueMeasure? {#minimumvaluemeasure}
 
-> `optional` **minimumValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **minimumValueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the minimum value of this instructed temperature.
 

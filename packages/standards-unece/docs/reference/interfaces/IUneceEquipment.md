@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Equipment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this OEM equipment.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturerParty? {#manufacturerparty}
 
-> `optional` **manufacturerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **manufacturerParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The manufacturer party for this OEM equipment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/manufacturerParty
 
 ### pollingCapabilityIndicator? {#pollingcapabilityindicator}
 
-> `optional` **pollingCapabilityIndicator**: `boolean`
+> `optional` **pollingCapabilityIndicator?**: `boolean`
 
 The indication of whether or not this OEM equipment has a polling capability.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/pollingCapabilityIndicator
 
 ### pollingRateMeasure? {#pollingratemeasure}
 
-> `optional` **pollingRateMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **pollingRateMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the polling rate for this OEM equipment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/pollingRateMeasure
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of OEM equipment.
 

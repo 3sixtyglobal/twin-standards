@@ -39,7 +39,7 @@ MUST refer to the transfer identifier of the Provider side.
 
 ### dataAddress? {#dataaddress}
 
-> `optional` **dataAddress**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
+> `optional` **dataAddress?**: [`IDataspaceProtocolDataAddress`](IDataspaceProtocolDataAddress.md)
 
 MUST be provided if the current transfer is a pull transfer and
 contains a transport-specific endpoint address for obtaining the data.

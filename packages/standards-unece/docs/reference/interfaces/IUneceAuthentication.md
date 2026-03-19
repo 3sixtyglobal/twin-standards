@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Authentication
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualDateTime? {#actualdatetime}
 
-> `optional` **actualDateTime**: `string`
+> `optional` **actualDateTime?**: `string`
 
 The actual date, time, date time, or other date time value of this document authentication.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualDateTime
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 A code specifying a category for this document authentication.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### governmentActionTypeCode? {#governmentactiontypecode}
 
-> `optional` **governmentActionTypeCode**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)
+> `optional` **governmentActionTypeCode?**: [`UneceGovernmentActionCodeList`](../type-aliases/UneceGovernmentActionCodeList.md)
 
 The code specifying the type of document authentication.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/governmentActionTypeCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier for this document authentication.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### includedClause? {#includedclause}
 
-> `optional` **includedClause**: [`IUneceClause`](IUneceClause.md)[]
+> `optional` **includedClause?**: [`IUneceClause`](IUneceClause.md)[]
 
 A document clause included in this document authentication.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/includedClause
 
 ### information? {#information}
 
-> `optional` **information**: `string`
+> `optional` **information?**: `string`
 
 Information, expressed as text, for this document authentication.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/information
 
 ### issueLocation? {#issuelocation}
 
-> `optional` **issueLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **issueLocation?**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location of issue of this document authentication.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/issueLocation
 
 ### issueLogisticsLocation? {#issuelogisticslocation}
 
-> `optional` **issueLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
+> `optional` **issueLogisticsLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)
 
 The issue location for this document authentication.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/issueLogisticsLocation
 
 ### locationProviderParty? {#locationproviderparty}
 
-> `optional` **locationProviderParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **locationProviderParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade party providing the location for this document authentication.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/locationProviderParty
 
 ### providerParty? {#providerparty}
 
-> `optional` **providerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **providerParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The trade party providing this document authentication.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/providerParty
 
 ### representationTypeCode? {#representationtypecode}
 
-> `optional` **representationTypeCode**: `string`
+> `optional` **representationTypeCode?**: `string`
 
 The code specifying the type of representation of this document authentication, such as direct or indirect.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/representationTypeCode
 
 ### signatory? {#signatory}
 
-> `optional` **signatory**: `string`
+> `optional` **signatory?**: `string`
 
 The signatory, expressed as text, for this document authentication.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/signatory
 
 ### signatoryImageBinaryObject? {#signatoryimagebinaryobject}
 
-> `optional` **signatoryImageBinaryObject**: `string`
+> `optional` **signatoryImageBinaryObject?**: `string`
 
 The signatory image, expressed as a binary object, for this document authentication.
 
@@ -182,7 +182,7 @@ https://vocabulary.uncefact.org/signatoryImageBinaryObject
 
 ### statement? {#statement}
 
-> `optional` **statement**: `string`
+> `optional` **statement?**: `string`
 
 The statement, expressed as text, for this document authentication.
 
@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/statement
 
 ### statementCode? {#statementcode}
 
-> `optional` **statementCode**: `string`
+> `optional` **statementCode?**: `string`
 
 The code specifying the statement for this document authentication.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/statementCode
 
 ### transportMeansId? {#transportmeansid}
 
-> `optional` **transportMeansId**: `string` \| `IJsonLdValueObject`
+> `optional` **transportMeansId?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of a transport means for this document authentication.
 

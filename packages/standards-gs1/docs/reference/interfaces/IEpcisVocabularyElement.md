@@ -19,7 +19,7 @@ Element id.
 
 ### attributes? {#attributes}
 
-> `optional` **attributes**: [`IEpcisAttribute`](IEpcisAttribute.md)[]
+> `optional` **attributes?**: [`IEpcisAttribute`](IEpcisAttribute.md)[]
 
 Attributes.
 
@@ -27,6 +27,6 @@ Attributes.
 
 ### children? {#children}
 
-> `optional` **children**: `string`[]
+> `optional` **children?**: `string`[]
 
 Children.

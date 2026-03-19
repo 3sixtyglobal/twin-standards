@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/IndividualTTAnimal
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedDelimitedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this individual TT animal.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedPeriod? {#specifiedperiod}
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
+> `optional` **specifiedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)
 
 The delimited period specified for this individual TT animal.
 

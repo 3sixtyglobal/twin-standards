@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/ProductionDevice
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableParameter? {#applicableparameter}
 
-> `optional` **applicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **applicableParameter?**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
 A parameter applicable to this specified production device.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableParameter
 
 ### combinedMachine? {#combinedmachine}
 
-> `optional` **combinedMachine**: [`IUneceMachine`](IUneceMachine.md)[]
+> `optional` **combinedMachine?**: [`IUneceMachine`](IUneceMachine.md)[]
 
 A production machine combined with this specified production device.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/combinedMachine
 
 ### combinedProductionDevice? {#combinedproductiondevice}
 
-> `optional` **combinedProductionDevice**: `IUneceProductionDevice`[]
+> `optional` **combinedProductionDevice?**: `IUneceProductionDevice`[]
 
 A production device combined with this specified production device.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/combinedProductionDevice
 
 ### functionDescription? {#functiondescription}
 
-> `optional` **functionDescription**: `string`
+> `optional` **functionDescription?**: `string`
 
 A textual description of a function of this specified production device.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/functionDescription
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified production device.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### inputApplicableBatch? {#inputapplicablebatch}
 
-> `optional` **inputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **inputApplicableBatch?**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 An input batch applicable to this specified production device.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/inputApplicableBatch
 
 ### inputApplicableMaterial? {#inputapplicablematerial}
 
-> `optional` **inputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **inputApplicableMaterial?**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Input material applicable to this specified production device.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/inputApplicableMaterial
 
 ### inputApplicableProduct? {#inputapplicableproduct}
 
-> `optional` **inputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **inputApplicableProduct?**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 An input product applicable to this specified production device.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/inputApplicableProduct
 
 ### inputCapacityMeasure? {#inputcapacitymeasure}
 
-> `optional` **inputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **inputCapacityMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the input capacity of this specified production device, such as maximum reach or average per month.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/inputCapacityMeasure
 
 ### outputApplicableBatch? {#outputapplicablebatch}
 
-> `optional` **outputApplicableBatch**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
+> `optional` **outputApplicableBatch?**: [`IUneceProductBatch`](IUneceProductBatch.md)[]
 
 An output batch applicable to this specified production device.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/outputApplicableBatch
 
 ### outputApplicableMaterial? {#outputapplicablematerial}
 
-> `optional` **outputApplicableMaterial**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
+> `optional` **outputApplicableMaterial?**: [`IUneceSpecifiedMaterial`](IUneceSpecifiedMaterial.md)[]
 
 Output material applicable to this specified production device.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/outputApplicableMaterial
 
 ### outputApplicableProduct? {#outputapplicableproduct}
 
-> `optional` **outputApplicableProduct**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
+> `optional` **outputApplicableProduct?**: [`IUneceTradeProduct`](IUneceTradeProduct.md)[]
 
 An output product applicable to this specified production device.
 
@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/outputApplicableProduct
 
 ### outputCapacityMeasure? {#outputcapacitymeasure}
 
-> `optional` **outputCapacityMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **outputCapacityMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of the output capacity of this specified production device, such as maximum reach or average per month.
 
@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/outputCapacityMeasure
 
 ### productionDeviceType? {#productiondevicetype}
 
-> `optional` **productionDeviceType**: `string`
+> `optional` **productionDeviceType?**: `string`
 
 A type, expressed as text, for this specified production device.
 
@@ -195,7 +195,7 @@ https://vocabulary.uncefact.org/productionDeviceType
 
 ### reportingIOTDeviceSupplyChainEvent? {#reportingiotdevicesupplychainevent}
 
-> `optional` **reportingIOTDeviceSupplyChainEvent**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
+> `optional` **reportingIOTDeviceSupplyChainEvent?**: [`IUneceSupplyChainEvent`](IUneceSupplyChainEvent.md)[]
 
 An IOT (Internet of Things) or other scanning device reporting event for this specified production device.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/reportingIOTDeviceSupplyChainEvent
 
 ### requestedOperationalApplicableParameter? {#requestedoperationalapplicableparameter}
 
-> `optional` **requestedOperationalApplicableParameter**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
+> `optional` **requestedOperationalApplicableParameter?**: [`IUneceSpecifiedParameter`](IUneceSpecifiedParameter.md)[]
 
 An operational parameter requested for this specified production device.
 
@@ -219,7 +219,7 @@ https://vocabulary.uncefact.org/requestedOperationalApplicableParameter
 
 ### specifiedLocation? {#specifiedlocation}
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)[]
+> `optional` **specifiedLocation?**: [`IUneceLocation`](IUneceLocation.md)[]
 
 A referenced location specified for this production device.
 
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ### specifiedProductionUnit? {#specifiedproductionunit}
 
-> `optional` **specifiedProductionUnit**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
+> `optional` **specifiedProductionUnit?**: [`IUneceProductionUnit`](IUneceProductionUnit.md)[]
 
 A facility production unit for this specified production device.
 
@@ -243,7 +243,7 @@ https://vocabulary.uncefact.org/specifiedProductionUnit
 
 ### subordinateTypeCode? {#subordinatetypecode}
 
-> `optional` **subordinateTypeCode**: `string`
+> `optional` **subordinateTypeCode?**: `string`
 
 The code specifying the subordinate type for this production device.
 
@@ -255,7 +255,7 @@ https://vocabulary.uncefact.org/subordinateTypeCode
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of production device.
 

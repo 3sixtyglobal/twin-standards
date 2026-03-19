@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/CalibratedMeasurement
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this calibrated measurement.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### quantificationTypeCode? {#quantificationtypecode}
 
-> `optional` **quantificationTypeCode**: `string`
+> `optional` **quantificationTypeCode?**: `string`
 
 The code specifying a quantification type for this calibrated measurement, such as measured, calculated, or estimated.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/quantificationTypeCode
 
 ### toleranceMeasure? {#tolerancemeasure}
 
-> `optional` **toleranceMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **toleranceMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the tolerance of this calibrated measurement.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/toleranceMeasure
 
 ### tolerancePercent? {#tolerancepercent}
 
-> `optional` **tolerancePercent**: `string`
+> `optional` **tolerancePercent?**: `string`
 
 The percent of tolerance of this calibrated measurement.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/tolerancePercent
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of calibrated measurement.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### valueCode? {#valuecode}
 
-> `optional` **valueCode**: `string`
+> `optional` **valueCode?**: `string`
 
 The code specifying a value for this calibrated measurement.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/valueCode
 
 ### valueMeasure? {#valuemeasure}
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The value of a measure for this calibrated measurement.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### versionId? {#versionid}
 
-> `optional` **versionId**: `string` \| `IJsonLdValueObject`
+> `optional` **versionId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of a version of this calibrated measurement.
 

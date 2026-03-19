@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Cash
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableIndicator? {#applicableindicator}
 
-> `optional` **applicableIndicator**: `boolean`
+> `optional` **applicableIndicator?**: `boolean`
 
 The indication of whether or not this cash used for payment. is applicable.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableIndicator
 
 ### currencyCode? {#currencycode}
 
-> `optional` **currencyCode**: `string`
+> `optional` **currencyCode?**: `string`
 
 The code specifying a currency of this cash used for payment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/currencyCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of cash used for this payment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of cash used for payment.
 

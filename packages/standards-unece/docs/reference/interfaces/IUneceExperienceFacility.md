@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/ExperienceFacility
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### architecturalStyle? {#architecturalstyle}
 
-> `optional` **architecturalStyle**: `string`
+> `optional` **architecturalStyle?**: `string`
 
 An architectural style, expressed as text, of this experience facility.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/architecturalStyle
 
 ### availableRoute? {#availableroute}
 
-> `optional` **availableRoute**: [`IUneceSpecifiedRoute`](IUneceSpecifiedRoute.md)[]
+> `optional` **availableRoute?**: [`IUneceSpecifiedRoute`](IUneceSpecifiedRoute.md)[]
 
 An available route specified for this experience facility.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/availableRoute
 
 ### completionDateTime? {#completiondatetime}
 
-> `optional` **completionDateTime**: `string`
+> `optional` **completionDateTime?**: `string`
 
 The date of the completion of this experience facility.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/completionDateTime
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this experience facility.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/description
 
 ### experienceFacilityTypeCode? {#experiencefacilitytypecode}
 
-> `optional` **experienceFacilityTypeCode**: `string`
+> `optional` **experienceFacilityTypeCode?**: `string`
 
 The code specifying the type of experience facility.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/experienceFacilityTypeCode
 
 ### facilityType? {#facilitytype}
 
-> `optional` **facilityType**: `string`
+> `optional` **facilityType?**: `string`
 
 A type, expressed as text, of this experience facility.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/facilityType
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this experience facility.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### latestRenovationDateTime? {#latestrenovationdatetime}
 
-> `optional` **latestRenovationDateTime**: `string`
+> `optional` **latestRenovationDateTime?**: `string`
 
 The date of the latest renovation of this experience facility.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/latestRenovationDateTime
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this experience facility.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/name
 
 ### physicalSpecifiedLocation? {#physicalspecifiedlocation}
 
-> `optional` **physicalSpecifiedLocation**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
+> `optional` **physicalSpecifiedLocation?**: [`IUneceSpecifiedLocation`](IUneceSpecifiedLocation.md)[]
 
 A physical location specified for this experience facility.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/physicalSpecifiedLocation
 
 ### specifiedCommunication? {#specifiedcommunication}
 
-> `optional` **specifiedCommunication**: [`IUneceCommunication`](IUneceCommunication.md)[]
+> `optional` **specifiedCommunication?**: [`IUneceCommunication`](IUneceCommunication.md)[]
 
 A specified universal communication for this experience facility.
 
@@ -159,7 +159,7 @@ https://vocabulary.uncefact.org/specifiedCommunication
 
 ### usedSource? {#usedsource}
 
-> `optional` **usedSource**: [`IUneceSource`](IUneceSource.md)[]
+> `optional` **usedSource?**: [`IUneceSource`](IUneceSource.md)[]
 
 A water source used by this experience facility.
 

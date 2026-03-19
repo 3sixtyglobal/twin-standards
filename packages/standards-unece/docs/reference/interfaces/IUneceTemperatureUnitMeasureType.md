@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TemperatureUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### TemperatureUnitMeasureTypeValue? {#temperatureunitmeasuretypevalue}
 
-> `optional` **TemperatureUnitMeasureTypeValue**: `string`
+> `optional` **TemperatureUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/TemperatureUnitMeasureTypeValue
 
 ### TemperatureUnitMeasureTypeCode? {#temperatureunitmeasuretypecode}
 
-> `optional` **TemperatureUnitMeasureTypeCode**: [`UneceTemperatureUnitMeasureCode`](../type-aliases/UneceTemperatureUnitMeasureCode.md)
+> `optional` **TemperatureUnitMeasureTypeCode?**: [`UneceTemperatureUnitMeasureCode`](../type-aliases/UneceTemperatureUnitMeasureCode.md)
 
 The unit code.
 

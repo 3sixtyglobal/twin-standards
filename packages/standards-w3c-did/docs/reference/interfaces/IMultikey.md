@@ -7,7 +7,11 @@ https://www.w3.org/TR/cid-1.0/
 
 ### @context? {#context}
 
+<<<<<<< Updated upstream
 > `optional` **@context**: `"https://www.w3.org/ns/cid/v1"` \| `"https://w3id.org/security/multikey/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/cid/v1"`\> \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/multikey/v1"`\>
+=======
+> `optional` **@context?**: `"https://www.w3.org/ns/cid/v1"` \| `"https://w3id.org/security/multikey/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/cid/v1"`\> \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/multikey/v1"`\>
+>>>>>>> Stashed changes
 
 JSON-LD Context.
 
@@ -15,7 +19,7 @@ JSON-LD Context.
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The id of the entry.
 
@@ -31,7 +35,7 @@ The type of the entry.
 
 ### controller? {#controller}
 
-> `optional` **controller**: `string`
+> `optional` **controller?**: `string`
 
 The controller for the entry.
 
@@ -47,7 +51,7 @@ The public key for the entry.
 
 ### secretKeyMultibase? {#secretkeymultibase}
 
-> `optional` **secretKeyMultibase**: `string`
+> `optional` **secretKeyMultibase?**: `string`
 
 The secret key for the entry.
 
@@ -55,7 +59,7 @@ The secret key for the entry.
 
 ### expires? {#expires}
 
-> `optional` **expires**: `string`
+> `optional` **expires?**: `string`
 
 The date the entry expires.
 
@@ -63,6 +67,6 @@ The date the entry expires.
 
 ### revoked? {#revoked}
 
-> `optional` **revoked**: `string`
+> `optional` **revoked?**: `string`
 
 The date the entry was revoked.

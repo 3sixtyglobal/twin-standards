@@ -4,63 +4,73 @@
 
 Event with payload (i.e., not a retraction).
 
-## Type Declaration
+## Union Members
+
+### Type Literal
 
 \{ `metadata`: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`; `payload`: [`IDcsaShipmentPayload`](../interfaces/IDcsaShipmentPayload.md); \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`
 
 Event metadata (eventType = SHIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`SHIPMENT`](../variables/DcsaEventTypes.md#shipment)
 
-### payload
+#### payload
 
 > **payload**: [`IDcsaShipmentPayload`](../interfaces/IDcsaShipmentPayload.md)
 
 Event payload.
 
+***
+
+### Type Literal
+
 \{ `metadata`: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`; `payload`: [`IDcsaEquipmentPayload`](../interfaces/IDcsaEquipmentPayload.md); \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`
 
 Event metadata (eventType = EQUIPMENT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`EQUIPMENT`](../variables/DcsaEventTypes.md#equipment)
 
-### payload
+#### payload
 
 > **payload**: [`IDcsaEquipmentPayload`](../interfaces/IDcsaEquipmentPayload.md)
 
 Event payload.
 
+***
+
+### Type Literal
+
 \{ `metadata`: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`; `payload`: [`IDcsaTransportPayload`](../interfaces/IDcsaTransportPayload.md); \}
 
-### metadata
+#### metadata
 
 > **metadata**: [`IDcsaEventMetadataActive`](IDcsaEventMetadataActive.md) & `object`
 
 Event metadata (eventType = TRANSPORT).
 
-#### Type Declaration
+##### Type Declaration
 
-##### eventType
+###### eventType
 
 > **eventType**: *typeof* [`TRANSPORT`](../variables/DcsaEventTypes.md#transport)
 
-### payload
+#### payload
 
 > **payload**: [`IDcsaTransportPayload`](../interfaces/IDcsaTransportPayload.md)
 

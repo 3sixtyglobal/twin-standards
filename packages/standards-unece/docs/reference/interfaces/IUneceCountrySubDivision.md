@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/CountrySubDivision
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### activityAuthorizedParty? {#activityauthorizedparty}
 
-> `optional` **activityAuthorizedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **activityAuthorizedParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party that is authorized to perform an activity in this trade country sub-division.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/activityAuthorizedParty
 
 ### hierarchicalLevelCode? {#hierarchicallevelcode}
 
-> `optional` **hierarchicalLevelCode**: `string`
+> `optional` **hierarchicalLevelCode?**: `string`
 
 The code specifying the hierarchical level of this trade country sub-division.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/hierarchicalLevelCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade country sub-division.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
 
 The code specifying the function type of this trade country sub-division.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, of this trade country sub-division.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/name
 
 ### subordinateCountrySubDivision? {#subordinatecountrysubdivision}
 
-> `optional` **subordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
+> `optional` **subordinateCountrySubDivision?**: `IUneceCountrySubDivision`[]
 
 A subordinate country sub-division within this trade country sub-division.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/subordinateCountrySubDivision
 
 ### superordinateCountrySubDivision? {#superordinatecountrysubdivision}
 
-> `optional` **superordinateCountrySubDivision**: `IUneceCountrySubDivision`[]
+> `optional` **superordinateCountrySubDivision?**: `IUneceCountrySubDivision`[]
 
 A superordinate country sub-division for this trade country sub-division.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/superordinateCountrySubDivision
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of country sub-division for trade purposes.
 

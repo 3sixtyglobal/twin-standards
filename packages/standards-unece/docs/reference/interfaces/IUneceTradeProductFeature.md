@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TradeProductFeature
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this trade product feature.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this trade product feature.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### marketingMeasure? {#marketingmeasure}
 
-> `optional` **marketingMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **marketingMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A marketing measure for this trade product feature.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/marketingMeasure
 
 ### marketingPhrase? {#marketingphrase}
 
-> `optional` **marketingPhrase**: `string`
+> `optional` **marketingPhrase?**: `string`
 
 A catch phrase, expressed as text, for marketing of this trade product feature.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/marketingPhrase
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this trade product feature.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/name
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of trade product feature.
 

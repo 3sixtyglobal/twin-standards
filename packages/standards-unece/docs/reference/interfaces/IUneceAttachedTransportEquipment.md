@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/AttachedTransportEquipment
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### characteristic? {#characteristic}
 
-> `optional` **characteristic**: `string`
+> `optional` **characteristic?**: `string`
 
 The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/characteristic
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 A unique identifier of this piece of attached transport equipment.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### transportEquipmentCategoryCode? {#transportequipmentcategorycode}
 
-> `optional` **transportEquipmentCategoryCode**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
+> `optional` **transportEquipmentCategoryCode?**: [`UneceTransportEquipmentCategoryCodeList`](../type-aliases/UneceTransportEquipmentCategoryCodeList.md)[]
 
 A code specifying a category of this piece of attached transport equipment.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/transportEquipmentCategoryCode
 
 ### transportEquipmentSizeTypeCharacteristicCode? {#transportequipmentsizetypecharacteristiccode}
 
-> `optional` **transportEquipmentSizeTypeCharacteristicCode**: [`UneceTransportEquipmentSizeTypeCodeList`](../type-aliases/UneceTransportEquipmentSizeTypeCodeList.md)
+> `optional` **transportEquipmentSizeTypeCharacteristicCode?**: [`UneceTransportEquipmentSizeTypeCodeList`](../type-aliases/UneceTransportEquipmentSizeTypeCodeList.md)
 
 The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/transportEquipmentSizeTypeCharacteristicCode
 
 ### unitQuantity? {#unitquantity}
 
-> `optional` **unitQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **unitQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of units of attached transport equipment.
 

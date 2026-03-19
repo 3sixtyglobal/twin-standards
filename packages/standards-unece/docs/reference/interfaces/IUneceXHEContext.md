@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/XHEContext
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### scopeReference? {#scopereference}
 
-> `optional` **scopeReference**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
+> `optional` **scopeReference?**: [`IUneceXHEReference`](IUneceXHEReference.md)[]
 
 A reference to the scope of this XHE context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/scopeReference
 
 ### specifiedParameter? {#specifiedparameter}
 
-> `optional` **specifiedParameter**: [`IUneceXHEParameter`](IUneceXHEParameter.md)[]
+> `optional` **specifiedParameter?**: [`IUneceXHEParameter`](IUneceXHEParameter.md)[]
 
 A parameter specified for this XHE context.
 

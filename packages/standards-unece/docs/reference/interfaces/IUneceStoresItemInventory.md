@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/StoresItemInventory
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this stores inventory item.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### onboardQuantity? {#onboardquantity}
 
-> `optional` **onboardQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **onboardQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 An onboard quantity for this stores inventory item.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/onboardQuantity
 
 ### sequenceNumeric? {#sequencenumeric}
 
-> `optional` **sequenceNumeric**: `string`
+> `optional` **sequenceNumeric?**: `string`
 
 A sequence number for this stores inventory item.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/sequenceNumeric
 
 ### specifiedLogisticsLocation? {#specifiedlogisticslocation}
 
-> `optional` **specifiedLogisticsLocation**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
+> `optional` **specifiedLogisticsLocation?**: [`IUneceLogisticsLocation`](IUneceLogisticsLocation.md)[]
 
 A location specified for this stores inventory item.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifiedLogisticsLocation
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying the type of stores inventory item.
 

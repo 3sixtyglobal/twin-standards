@@ -22,6 +22,6 @@ The language for the label.
 
 ### @direction? {#direction}
 
-> `optional` **@direction**: `string`
+> `optional` **@direction?**: `string`
 
 The direction of the label.

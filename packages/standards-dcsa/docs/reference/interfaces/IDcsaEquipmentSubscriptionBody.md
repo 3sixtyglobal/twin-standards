@@ -16,7 +16,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ### equipmentEventTypeCodes? {#equipmenteventtypecodes}
 
-> `optional` **equipmentEventTypeCodes**: [`DcsaEquipmentEventTypeCodes`](../type-aliases/DcsaEquipmentEventTypeCodes.md)[]
+> `optional` **equipmentEventTypeCodes?**: [`DcsaEquipmentEventTypeCodes`](../type-aliases/DcsaEquipmentEventTypeCodes.md)[]
 
 Equipment event type codes to filter by.
 
@@ -24,7 +24,7 @@ Equipment event type codes to filter by.
 
 ### equipmentReference? {#equipmentreference}
 
-> `optional` **equipmentReference**: `string`
+> `optional` **equipmentReference?**: `string`
 
 Equipment reference to filter by.
 
@@ -32,7 +32,7 @@ Equipment reference to filter by.
 
 ### transportCallReference? {#transportcallreference}
 
-> `optional` **transportCallReference**: `string`
+> `optional` **transportCallReference?**: `string`
 
 Filters to only receive events for a specific transport call.
 
@@ -44,7 +44,7 @@ Filters to only receive events for a specific transport call.
 
 ### vesselIMONumber? {#vesselimonumber}
 
-> `optional` **vesselIMONumber**: `string`
+> `optional` **vesselIMONumber?**: `string`
 
 Filters to only receive events for a specific vessel IMO number.
 
@@ -56,7 +56,7 @@ Filters to only receive events for a specific vessel IMO number.
 
 ### carrierExportVoyageNumber? {#carrierexportvoyagenumber}
 
-> `optional` **carrierExportVoyageNumber**: `string`
+> `optional` **carrierExportVoyageNumber?**: `string`
 
 Filters to only receive events for a specific carrier export voyage number.
 
@@ -68,7 +68,7 @@ Filters to only receive events for a specific carrier export voyage number.
 
 ### universalExportVoyageReference? {#universalexportvoyagereference}
 
-> `optional` **universalExportVoyageReference**: `string`
+> `optional` **universalExportVoyageReference?**: `string`
 
 Filters to only receive events for a specific universal export voyage reference.
 
@@ -80,7 +80,7 @@ Filters to only receive events for a specific universal export voyage reference.
 
 ### carrierServiceCode? {#carrierservicecode}
 
-> `optional` **carrierServiceCode**: `string`
+> `optional` **carrierServiceCode?**: `string`
 
 Filters to only receive events for a specific carrier service code.
 
@@ -92,7 +92,7 @@ Filters to only receive events for a specific carrier service code.
 
 ### universalServiceReference? {#universalservicereference}
 
-> `optional` **universalServiceReference**: `string`
+> `optional` **universalServiceReference?**: `string`
 
 Filters to only receive events for a specific universal service reference.
 
@@ -104,7 +104,7 @@ Filters to only receive events for a specific universal service reference.
 
 ### UNLocationCode? {#unlocationcode}
 
-> `optional` **UNLocationCode**: `string`
+> `optional` **UNLocationCode?**: `string`
 
 Filters to only receive events for a specific UN/LOCODE.
 

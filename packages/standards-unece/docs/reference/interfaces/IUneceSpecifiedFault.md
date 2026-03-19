@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecifiedFault
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### actualSpecifiedPercent? {#actualspecifiedpercent}
 
-> `optional` **actualSpecifiedPercent**: `string`
+> `optional` **actualSpecifiedPercent?**: `string`
 
 The actual percentage of this specified fault.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/actualSpecifiedPercent
 
 ### actualSpecifiedQuantity? {#actualspecifiedquantity}
 
-> `optional` **actualSpecifiedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **actualSpecifiedQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The actual total quantity of this specified fault.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/actualSpecifiedQuantity
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category for this fault.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### classificationCode? {#classificationcode}
 
-> `optional` **classificationCode**: `string`
+> `optional` **classificationCode?**: `string`
 
 The code specifying the classification for this fault.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/classificationCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified fault.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/description
 
 ### estimatedSpecifiedPercent? {#estimatedspecifiedpercent}
 
-> `optional` **estimatedSpecifiedPercent**: `string`
+> `optional` **estimatedSpecifiedPercent?**: `string`
 
 The estimated percentage of this specified fault.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/estimatedSpecifiedPercent
 
 ### faultType? {#faulttype}
 
-> `optional` **faultType**: `string`
+> `optional` **faultType?**: `string`
 
 A type, expressed as text, of this specified fault.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/faultType
 
 ### operationalApplicableTolerance? {#operationalapplicabletolerance}
 
-> `optional` **operationalApplicableTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **operationalApplicableTolerance?**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 An applicable operational tolerance of this specified fault.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/operationalApplicableTolerance
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of fault.
 

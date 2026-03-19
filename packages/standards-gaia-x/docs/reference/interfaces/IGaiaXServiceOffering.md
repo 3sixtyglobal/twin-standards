@@ -34,7 +34,7 @@ The Id.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 Description of the Gaia-X entity.
 
@@ -82,7 +82,7 @@ ODRL policy associated to the service offering
 
 ### aggregationOfResources? {#aggregationofresources}
 
-> `optional` **aggregationOfResources**: `string`[] \| `IJsonLdNodeObject` & `object` \| [`IGaiaXDataResource`](IGaiaXDataResource.md)[]
+> `optional` **aggregationOfResources?**: `string`[] \| `IJsonLdNodeObject` & `object` \| [`IGaiaXDataResource`](IGaiaXDataResource.md)[]
 
 Resources aggregated
 It is supported different representations, inline,
@@ -92,6 +92,6 @@ by reference both providing the URI or a partial JSON-LD Node object
 
 ### endpoint? {#endpoint}
 
-> `optional` **endpoint**: [`IGaiaXEndpoint`](IGaiaXEndpoint.md)
+> `optional` **endpoint?**: [`IGaiaXEndpoint`](IGaiaXEndpoint.md)
 
 The endpoint

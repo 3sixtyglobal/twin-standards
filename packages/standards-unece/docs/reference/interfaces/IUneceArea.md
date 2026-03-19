@@ -14,7 +14,7 @@ https://vocabulary.uncefact.org/Area
 
 ### ~~@context?~~ {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 

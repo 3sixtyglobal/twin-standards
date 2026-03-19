@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TTParty
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### managedCharacteristic? {#managedcharacteristic}
 
-> `optional` **managedCharacteristic**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
+> `optional` **managedCharacteristic?**: [`IUneceTechnicalCharacteristic`](IUneceTechnicalCharacteristic.md)[]
 
 A technical characteristic managed by this TT party.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/managedCharacteristic
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this TT party.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/name
 
 ### partyTypeCode? {#partytypecode}
 
-> `optional` **partyTypeCode**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
+> `optional` **partyTypeCode?**: [`UnecePartyTypeCodeList`](../type-aliases/UnecePartyTypeCodeList.md)[]
 
 A code specifying the type of TT party.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/partyTypeCode
 
 ### residenceCountryId? {#residencecountryid}
 
-> `optional` **residenceCountryId**: `string` \| `IJsonLdValueObject`
+> `optional` **residenceCountryId?**: `string` \| `IJsonLdValueObject`
 
 The identifier for the country of residence for this TT party, such as the country in which a person lives or in which a
 corporation has its place of incorporation.
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/residenceCountryId
 
 ### specifiedTTAnimal? {#specifiedttanimal}
 
-> `optional` **specifiedTTAnimal**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
+> `optional` **specifiedTTAnimal?**: [`IUneceTTAnimal`](IUneceTTAnimal.md)[]
 
 A tracking animal specified for this TT party.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/specifiedTTAnimal
 
 ### specifiedTTLocation? {#specifiedttlocation}
 
-> `optional` **specifiedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **specifiedTTLocation?**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A location specified for this TT party.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/specifiedTTLocation
 
 ### tTPartyRoleCode? {#ttpartyrolecode}
 
-> `optional` **tTPartyRoleCode**: `string`
+> `optional` **tTPartyRoleCode?**: `string`
 
 A code specifying the role of this TT party.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/tTPartyRoleCode
 
 ### typeId? {#typeid}
 
-> `optional` **typeId**: `string` \| `IJsonLdValueObject`
+> `optional` **typeId?**: `string` \| `IJsonLdValueObject`
 
 An identifier of the type for this TT party.
 

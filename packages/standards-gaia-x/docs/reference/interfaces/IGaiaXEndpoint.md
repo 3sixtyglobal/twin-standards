@@ -23,7 +23,7 @@ The endpoint URL
 
 ### formalDescription? {#formaldescription}
 
-> `optional` **formalDescription**: `string`
+> `optional` **formalDescription?**: `string`
 
 The formal description
 
@@ -31,6 +31,6 @@ The formal description
 
 ### standardConformity? {#standardconformity}
 
-> `optional` **standardConformity**: `IJsonLdNodeObject`
+> `optional` **standardConformity?**: `IJsonLdNodeObject`
 
 Standards conformity

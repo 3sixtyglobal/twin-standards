@@ -28,7 +28,7 @@ The type identifier, typically "Relationship".
 
 ### dcterms:relation? {#dctermsrelation}
 
-> `optional` **dcterms:relation**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:relation?**: `string` \| `IJsonLdNodeObject`
 
 The link to a related resource.
 
@@ -40,7 +40,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:relationship_relation
 
 ### dcat:hadRole? {#dcathadrole}
 
-> `optional` **dcat:hadRole**: [`IDcatRole`](IDcatRole.md)
+> `optional` **dcat:hadRole?**: [`IDcatRole`](IDcatRole.md)
 
 The function of an entity or agent with respect to another resource.
 

@@ -10,7 +10,7 @@ https://ref.gs1.org/epcis/BizTransaction
 
 ### type? {#type}
 
-> `optional` **type**: `string`
+> `optional` **type?**: `string`
 
 Identifier that indicates the type of BizTransaction document (e.g. Purchase
 Order, Despatch Advice).

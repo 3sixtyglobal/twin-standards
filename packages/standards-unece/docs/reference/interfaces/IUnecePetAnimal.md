@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/PetAnimal
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### allowedIndicator? {#allowedindicator}
 
-> `optional` **allowedIndicator**: `boolean`
+> `optional` **allowedIndicator?**: `boolean`
 
 The indication of whether or not this pet animal is allowed.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/allowedIndicator
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category for this pet animal.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this pet animal.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### restriction? {#restriction}
 
-> `optional` **restriction**: `string`
+> `optional` **restriction?**: `string`
 
 A restriction, expressed as text, for this pet animal.
 

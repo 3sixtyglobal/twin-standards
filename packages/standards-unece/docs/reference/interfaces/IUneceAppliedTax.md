@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/AppliedTax
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### appliedTaxTypeCode? {#appliedtaxtypecode}
 
-> `optional` **appliedTaxTypeCode**: `string`
+> `optional` **appliedTaxTypeCode?**: `string`
 
 The code specifying the applied tax type such as VAT.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/appliedTaxTypeCode
 
 ### basisAmount? {#basisamount}
 
-> `optional` **basisAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **basisAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value used as the basis in calculating the applied tax.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/basisAmount
 
 ### calculatedAmount? {#calculatedamount}
 
-> `optional` **calculatedAmount**: [`IUneceAmountType`](IUneceAmountType.md)
+> `optional` **calculatedAmount?**: [`IUneceAmountType`](IUneceAmountType.md)
 
 The monetary value resulting from the calculation of the applied tax.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/calculatedAmount
 
 ### calculatedRate? {#calculatedrate}
 
-> `optional` **calculatedRate**: `string`
+> `optional` **calculatedRate?**: `string`
 
 The rate used to calculate the applied tax.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/calculatedRate
 
 ### taxPointDate? {#taxpointdate}
 
-> `optional` **taxPointDate**: `string`
+> `optional` **taxPointDate?**: `string`
 
 The date of the tax point when taxes, such as VAT, are to be applied.
 

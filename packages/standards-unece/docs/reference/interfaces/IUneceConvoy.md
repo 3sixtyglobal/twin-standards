@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Convoy
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### maximumWidthMeasure? {#maximumwidthmeasure}
 
-> `optional` **maximumWidthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
+> `optional` **maximumWidthMeasure?**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The maximum width measure for this logistics convoy.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/maximumWidthMeasure
 
 ### overallLengthMeasure? {#overalllengthmeasure}
 
-> `optional` **overallLengthMeasure**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
+> `optional` **overallLengthMeasure?**: [`IUneceLinearUnitMeasureType`](IUneceLinearUnitMeasureType.md)
 
 The overall length measure of this logistics convoy.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/overallLengthMeasure
 
 ### powerActiveTransportMeans? {#poweractivetransportmeans}
 
-> `optional` **powerActiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
+> `optional` **powerActiveTransportMeans?**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
 A means of transport actively powering this logistics convoy.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/powerActiveTransportMeans
 
 ### powerInactiveTransportMeans? {#powerinactivetransportmeans}
 
-> `optional` **powerInactiveTransportMeans**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
+> `optional` **powerInactiveTransportMeans?**: [`IUneceLogisticsTransportMeans`](IUneceLogisticsTransportMeans.md)[]
 
 A means of transport not actively powering this logistics convoy.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/powerInactiveTransportMeans
 
 ### transportMeansQuantity? {#transportmeansquantity}
 
-> `optional` **transportMeansQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)
+> `optional` **transportMeansQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)
 
 The number of means of transport in this logistics convoy.
 

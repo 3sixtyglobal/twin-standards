@@ -38,7 +38,7 @@ The label of the UN/LOCODE with diacritics.
 
 ### geoCoordinates? {#geocoordinates}
 
-> `optional` **geoCoordinates**: `object`
+> `optional` **geoCoordinates?**: `object`
 
 The coordinates of the UN/LOCODE.
 

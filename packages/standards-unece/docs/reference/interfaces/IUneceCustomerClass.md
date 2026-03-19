@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/CustomerClass
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category, such as adult or child, of this specified customer class,.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### categoryName? {#categoryname}
 
-> `optional` **categoryName**: `string`
+> `optional` **categoryName?**: `string`
 
 A category name, expressed as text, of this specified customer class.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryName
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified customer class.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### genderCode? {#gendercode}
 
-> `optional` **genderCode**: `string`
+> `optional` **genderCode?**: `string`
 
 The code specifying the gender in this specified customer class.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/genderCode
 
 ### lowerAgeLimitNumeric? {#loweragelimitnumeric}
 
-> `optional` **lowerAgeLimitNumeric**: `string`
+> `optional` **lowerAgeLimitNumeric?**: `string`
 
 The value, expressed as a number of years, for the lower age limit for the category of this specified customer class.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lowerAgeLimitNumeric
 
 ### mealServiceCategoryCode? {#mealservicecategorycode}
 
-> `optional` **mealServiceCategoryCode**: `string`
+> `optional` **mealServiceCategoryCode?**: `string`
 
 The code specifying the meal service category for this specified customer class.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/mealServiceCategoryCode
 
 ### specialBeddingServiceOfferedIndicator? {#specialbeddingserviceofferedindicator}
 
-> `optional` **specialBeddingServiceOfferedIndicator**: `boolean`
+> `optional` **specialBeddingServiceOfferedIndicator?**: `boolean`
 
 The indication of whether or not special bedding service is offered for this specified customer class.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/specialBeddingServiceOfferedIndicator
 
 ### upperAgeLimitNumeric? {#upperagelimitnumeric}
 
-> `optional` **upperAgeLimitNumeric**: `string`
+> `optional` **upperAgeLimitNumeric?**: `string`
 
 The value, expressed as a number of years, for the upper age limit for the category of this specified customer class.
 

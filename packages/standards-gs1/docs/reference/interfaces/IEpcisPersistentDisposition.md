@@ -11,7 +11,7 @@ https://ref.gs1.org/epcis/PersistentDisposition
 
 ### set? {#set}
 
-> `optional` **set**: `string`[]
+> `optional` **set?**: `string`[]
 
 (Optional) List of persistentDisposition URI values to be set.
 
@@ -19,6 +19,6 @@ https://ref.gs1.org/epcis/PersistentDisposition
 
 ### unset? {#unset}
 
-> `optional` **unset**: `string`[]
+> `optional` **unset?**: `string`[]
 
 (Optional) List of persistentDisposition URI values to be unset (revoked).

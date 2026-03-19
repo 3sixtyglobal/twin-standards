@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalMultiCurve
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedDirectPositionList? {#associateddirectpositionlist}
 
-> `optional` **associatedDirectPositionList**: `string`
+> `optional` **associatedDirectPositionList?**: `string`
 
 The direct position list associated with this geographical multi-curve.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### memberGeographicalLine? {#membergeographicalline}
 
-> `optional` **memberGeographicalLine**: [`IUneceGeographicalLine`](IUneceGeographicalLine.md)[]
+> `optional` **memberGeographicalLine?**: [`IUneceGeographicalLine`](IUneceGeographicalLine.md)[]
 
 A geographical line member of this geographical multi-curve.
 

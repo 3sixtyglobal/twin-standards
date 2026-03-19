@@ -11,7 +11,7 @@ Interface describing a verifiable presentation.
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 Provide a unique identifier for the presentation.
 
@@ -27,7 +27,7 @@ The types of the data stored in the verifiable credential.
 
 ### holder? {#holder}
 
-> `optional` **holder**: `string`
+> `optional` **holder?**: `string`
 
 The entity generating the presentation.
 
@@ -35,7 +35,11 @@ The entity generating the presentation.
 
 ### proof? {#proof}
 
+<<<<<<< Updated upstream
 > `optional` **proof**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
+=======
+> `optional` **proof?**: `ObjectOrArray`\<[`IProof`](../type-aliases/IProof.md)\>
+>>>>>>> Stashed changes
 
 Proofs that the verifiable presentation is valid.
 Optional if a different proof method is used, such as JWT.

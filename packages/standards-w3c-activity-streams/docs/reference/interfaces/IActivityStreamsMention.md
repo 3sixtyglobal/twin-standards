@@ -45,7 +45,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href
 
 ### name? {#name}
 
-> `optional` **name**: `string` \| `IJsonLdLanguageMap`
+> `optional` **name?**: `string` \| `IJsonLdLanguageMap`
 
 A natural language name for the link.
 
@@ -61,7 +61,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-name
 
 ### hreflang? {#hreflang}
 
-> `optional` **hreflang**: `string`
+> `optional` **hreflang?**: `string`
 
 A language hint for the target resource.
 
@@ -77,7 +77,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-hreflang
 
 ### mediaType? {#mediatype}
 
-> `optional` **mediaType**: `string`
+> `optional` **mediaType?**: `string`
 
 MIME media type of the referenced resource.
 
@@ -93,7 +93,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-mediatype
 
 ### rel? {#rel}
 
-> `optional` **rel**: `ObjectOrArray`\<`string`\>
+> `optional` **rel?**: `ObjectOrArray`\<`string`\>
 
 Link relation value(s).
 
@@ -109,7 +109,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-rel
 
 ### height? {#height}
 
-> `optional` **height**: `number`
+> `optional` **height?**: `number`
 
 Desired rendered height.
 
@@ -125,7 +125,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-height
 
 ### width? {#width}
 
-> `optional` **width**: `number`
+> `optional` **width?**: `number`
 
 Desired rendered width.
 
@@ -141,7 +141,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-width
 
 ### preview? {#preview}
 
-> `optional` **preview**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
+> `optional` **preview?**: `ObjectOrArray`\<`string` \| `IJsonLdNodeObject`\>
 
 Preview of the link.
 

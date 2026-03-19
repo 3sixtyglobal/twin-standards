@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Production
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this production of goods.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### manufacturingProcessDescription? {#manufacturingprocessdescription}
 
-> `optional` **manufacturingProcessDescription**: `string`
+> `optional` **manufacturingProcessDescription?**: `string`
 
 A textual description of the manufacturing process for this goods production.
 

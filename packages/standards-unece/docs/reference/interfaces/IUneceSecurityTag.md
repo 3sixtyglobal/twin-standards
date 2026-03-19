@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SecurityTag
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### locationCode? {#locationcode}
 
-> `optional` **locationCode**: `string`
+> `optional` **locationCode?**: `string`
 
 The code specifying the location of this product security tag.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/locationCode
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of this product security tag.
 

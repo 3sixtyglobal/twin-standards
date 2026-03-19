@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Version
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier for this document version.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 The date, time, date and time or other date time value of issue of this document version.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, of this document version.
 

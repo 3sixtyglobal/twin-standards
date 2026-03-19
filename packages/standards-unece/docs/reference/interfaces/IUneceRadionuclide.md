@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Radionuclide
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier for this radioactive radionuclide.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### lowDispersibleStatusIndicator? {#lowdispersiblestatusindicator}
 
-> `optional` **lowDispersibleStatusIndicator**: `boolean`
+> `optional` **lowDispersibleStatusIndicator?**: `boolean`
 
 The indication of whether or not this radioactive radionuclide has a low dispersible status.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/lowDispersibleStatusIndicator
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name or symbol, expressed as text, of a radioactive radionuclide.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/name
 
 ### specialFormIndicator? {#specialformindicator}
 
-> `optional` **specialFormIndicator**: `boolean`
+> `optional` **specialFormIndicator?**: `boolean`
 
 The indication of whether or not this radioactive radionuclide has a special form.
 

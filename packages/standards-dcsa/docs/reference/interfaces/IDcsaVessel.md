@@ -22,7 +22,7 @@ Vessel IMO number.
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 Vessel name.
 
@@ -30,7 +30,7 @@ Vessel name.
 
 ### flag? {#flag}
 
-> `optional` **flag**: `string`
+> `optional` **flag?**: `string`
 
 Vessel flag.
 
@@ -38,7 +38,7 @@ Vessel flag.
 
 ### callSign? {#callsign}
 
-> `optional` **callSign**: `string`
+> `optional` **callSign?**: `string`
 
 Vessel call sign.
 
@@ -46,7 +46,7 @@ Vessel call sign.
 
 ### operatorCarrierCode? {#operatorcarriercode}
 
-> `optional` **operatorCarrierCode**: `string`
+> `optional` **operatorCarrierCode?**: `string`
 
 Carrier code of the vessel operator.
 
@@ -54,6 +54,6 @@ Carrier code of the vessel operator.
 
 ### operatorCarrierCodeListProvider? {#operatorcarriercodelistprovider}
 
-> `optional` **operatorCarrierCodeListProvider**: `string`
+> `optional` **operatorCarrierCodeListProvider?**: `string`
 
 Provider of the operator carrier code list.

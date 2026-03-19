@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ForecastTerms
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### dateTypeCode? {#datetypecode}
 
-> `optional` **dateTypeCode**: `string`
+> `optional` **dateTypeCode?**: `string`
 
 A code specifying a type of date in these supply chain forecast terms.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/dateTypeCode
 
 ### forecastTypeCode? {#forecasttypecode}
 
-> `optional` **forecastTypeCode**: `string`
+> `optional` **forecastTypeCode?**: `string`
 
 The code specifying the forecast type in these supply chain forecast terms.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/forecastTypeCode
 
 ### supplyChainForecastTermsCommitmentLevelCode? {#supplychainforecasttermscommitmentlevelcode}
 
-> `optional` **supplyChainForecastTermsCommitmentLevelCode**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)[]
+> `optional` **supplyChainForecastTermsCommitmentLevelCode?**: [`UneceCommitmentLevelCodeList`](../type-aliases/UneceCommitmentLevelCodeList.md)[]
 
 A code specifying a commitment level in these supply chain forecast terms.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/supplyChainForecastTermsCommitmentLevelCode
 
 ### supplyChainForecastTermsFrequencyCode? {#supplychainforecasttermsfrequencycode}
 
-> `optional` **supplyChainForecastTermsFrequencyCode**: `string`
+> `optional` **supplyChainForecastTermsFrequencyCode?**: `string`
 
 A code specifying a frequency in these supply chain forecast terms.
 

@@ -12,7 +12,7 @@ https://github.com/dcsaorg/DCSA-OpenAPI/blob/master/domain/event/event_domain_v3
 
 ### carrierBookingReference? {#carrierbookingreference}
 
-> `optional` **carrierBookingReference**: `string`
+> `optional` **carrierBookingReference?**: `string`
 
 Carrier booking reference to filter by.
 
@@ -20,6 +20,6 @@ Carrier booking reference to filter by.
 
 ### equipmentReference? {#equipmentreference}
 
-> `optional` **equipmentReference**: `string`
+> `optional` **equipmentReference?**: `string`
 
 Equipment reference to filter by.

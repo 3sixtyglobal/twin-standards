@@ -8,7 +8,7 @@
 			"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsQuestionBase"
 		},
 		{
-			"anyOf": [
+			"oneOf": [
 				{
 					"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsQuestionAnyOfChoice"
 				},

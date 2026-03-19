@@ -3,7 +3,7 @@
 	"$id": "https://schema.twindev.org/dcsa/DcsaShipmentEvent",
 	"title": "DcsaShipmentEvent",
 	"description": "The `ShipmentEvent` is a specialized event to handle all events related to documentation.\n\nSource: `shipmentEvent` schema in the DCSA Event Domain (v3.1.0).",
-	"anyOf": [
+	"oneOf": [
 		{
 			"type": "object",
 			"properties": {

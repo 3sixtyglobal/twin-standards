@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/CancellationStatus
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### cancellationDocumentStatusConditionCode? {#cancellationdocumentstatusconditioncode}
 
-> `optional` **cancellationDocumentStatusConditionCode**: `string`
+> `optional` **cancellationDocumentStatusConditionCode?**: `string`
 
 The code specifying the condition of this cancellation status.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/cancellationDocumentStatusConditionCode
 
 ### cancellationStatusReasonCode? {#cancellationstatusreasoncode}
 
-> `optional` **cancellationStatusReasonCode**: `string`
+> `optional` **cancellationStatusReasonCode?**: `string`
 
 The code specifying the reason for this cancellation status.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/cancellationStatusReasonCode
 
 ### reason? {#reason}
 
-> `optional` **reason**: `string`
+> `optional` **reason?**: `string`
 
 A reason, expressed as text, for this cancellation status.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/reason
 
 ### reasonInformation? {#reasoninformation}
 
-> `optional` **reasonInformation**: `string`
+> `optional` **reasonInformation?**: `string`
 
 Information, expressed as text, related to the reason for this cancellation status.
 

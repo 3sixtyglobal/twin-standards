@@ -7,7 +7,11 @@ https://www.w3.org/TR/vc-jws-2020/
 
 ### @context? {#context}
 
+<<<<<<< Updated upstream
 > `optional` **@context**: `"https://w3id.org/security/suites/jws-2020/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/suites/jws-2020/v1"`\>
+=======
+> `optional` **@context?**: `"https://w3id.org/security/suites/jws-2020/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/suites/jws-2020/v1"`\>
+>>>>>>> Stashed changes
 
 JSON-LD Context.
 
@@ -31,7 +35,7 @@ The reason the proof was created.
 
 ### verificationMethod? {#verificationmethod}
 
-> `optional` **verificationMethod**: `string`
+> `optional` **verificationMethod?**: `string`
 
 The verification method of the proof.
 
@@ -39,7 +43,7 @@ The verification method of the proof.
 
 ### created? {#created}
 
-> `optional` **created**: `string`
+> `optional` **created?**: `string`
 
 The iso date of when the proof was created.
 
@@ -47,6 +51,6 @@ The iso date of when the proof was created.
 
 ### jws? {#jws}
 
-> `optional` **jws**: `string`
+> `optional` **jws?**: `string`
 
 The JSON Web Signature.

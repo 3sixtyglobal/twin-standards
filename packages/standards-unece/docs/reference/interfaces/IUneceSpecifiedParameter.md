@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/SpecifiedParameter
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description for this specified parameter.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier of this specified parameter.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this specified parameter.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/name
 
 ### parameterType? {#parametertype}
 
-> `optional` **parameterType**: `string`
+> `optional` **parameterType?**: `string`
 
 A type, expressed as text, for this specified parameter.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/parameterType
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status of this specified parameter.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### statusValueMeasure? {#statusvaluemeasure}
 
-> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **statusValueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value of the status for this specified parameter.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusValueMeasure
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of parameter.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### value? {#value}
 
-> `optional` **value**: `string`
+> `optional` **value?**: `string`
 
 The value, expressed as text, for this specified parameter.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAllowedIndicator? {#valueallowedindicator}
 
-> `optional` **valueAllowedIndicator**: `boolean`
+> `optional` **valueAllowedIndicator?**: `boolean`
 
 The indication of whether or not the value for this specified parameter is allowed.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure? {#valuemeasure}
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
+> `optional` **valueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)[]
 
 A measure of a value for this specified parameter.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/valueMeasure
 
 ### valueTolerance? {#valuetolerance}
 
-> `optional` **valueTolerance**: [`IUneceTolerance`](IUneceTolerance.md)[]
+> `optional` **valueTolerance?**: [`IUneceTolerance`](IUneceTolerance.md)[]
 
 A tolerance specified for the value of this parameter.
 

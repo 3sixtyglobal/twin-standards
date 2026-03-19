@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/UsageCondition
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### ageLimitation? {#agelimitation}
 
-> `optional` **ageLimitation**: `string`
+> `optional` **ageLimitation?**: `string`
 
 An age limitation, expressed as text, for this specified usage condition.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/ageLimitation
 
 ### appropriateClothing? {#appropriateclothing}
 
-> `optional` **appropriateClothing**: `string`
+> `optional` **appropriateClothing?**: `string`
 
 Appropriate clothing, expressed as text, for this specified usage condition.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/appropriateClothing
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified usage condition.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### duration? {#duration}
 
-> `optional` **duration**: `string`
+> `optional` **duration?**: `string`
 
 A duration, expressed as text, for this specified usage condition.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/duration
 
 ### genderLimitation? {#genderlimitation}
 
-> `optional` **genderLimitation**: `string`
+> `optional` **genderLimitation?**: `string`
 
 A gender limitation, expressed as text, for this specified usage condition.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/genderLimitation
 
 ### occupancy? {#occupancy}
 
-> `optional` **occupancy**: `string`
+> `optional` **occupancy?**: `string`
 
 Occupancy, expressed as text, for this specified usage condition.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/occupancy
 
 ### requiringParty? {#requiringparty}
 
-> `optional` **requiringParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **requiringParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party requiring this specified usage condition.
 

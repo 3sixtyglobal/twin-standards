@@ -11,7 +11,7 @@ https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.or
 
 ### @type? {#type}
 
-> `optional` **@type**: `"PeriodOfTime"`
+> `optional` **@type?**: `"PeriodOfTime"`
 
 The type identifier for PeriodOfTime.
 
@@ -19,7 +19,7 @@ The type identifier for PeriodOfTime.
 
 ### dcat:startDate? {#dcatstartdate}
 
-> `optional` **dcat:startDate**: `string`
+> `optional` **dcat:startDate?**: `string`
 
 The start date of the period.
 
@@ -31,7 +31,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:period_start_date
 
 ### dcat:endDate? {#dcatenddate}
 
-> `optional` **dcat:endDate**: `string`
+> `optional` **dcat:endDate?**: `string`
 
 The end date of the period.
 
@@ -43,7 +43,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:period_end_date
 
 ### time:hasBeginning? {#timehasbeginning}
 
-> `optional` **time:hasBeginning**: `string`
+> `optional` **time:hasBeginning?**: `string`
 
 The beginning of a period or interval.
 
@@ -55,7 +55,7 @@ https://www.w3.org/TR/owl-time/#time:hasBeginning
 
 ### time:hasEnd? {#timehasend}
 
-> `optional` **time:hasEnd**: `string`
+> `optional` **time:hasEnd?**: `string`
 
 The end of a period or interval.
 

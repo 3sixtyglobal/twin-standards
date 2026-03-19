@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GovernmentRegistration
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 A code specifying a category of this government registration.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId? {#countryid}
 
-> `optional` **countryId**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country for this government registration.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/countryId
 
 ### countrySubDivisionId? {#countrysubdivisionid}
 
-> `optional` **countrySubDivisionId**: `string` \| `IJsonLdValueObject`
+> `optional` **countrySubDivisionId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the country sub-division for this registration.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countrySubDivisionId
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier for this government registration.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### lastRegisteredYearDateTime? {#lastregisteredyeardatetime}
 
-> `optional` **lastRegisteredYearDateTime**: `string`
+> `optional` **lastRegisteredYearDateTime?**: `string`
 
 The last registered year of this government registration.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/lastRegisteredYearDateTime
 
 ### licenceId? {#licenceid}
 
-> `optional` **licenceId**: `string` \| `IJsonLdValueObject`
+> `optional` **licenceId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of a licence for this government registration.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/licenceId
 
 ### recordedDate? {#recordeddate}
 
-> `optional` **recordedDate**: `string`
+> `optional` **recordedDate?**: `string`
 
 The date that this government registration was recorded.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/recordedDate
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of government registration.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### validityPeriod? {#validityperiod}
 
-> `optional` **validityPeriod**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
+> `optional` **validityPeriod?**: [`IUneceSpecifiedPeriod`](IUneceSpecifiedPeriod.md)
 
 The period of time during which this government registration is valid.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/validityPeriod
 
 ### versionId? {#versionid}
 
-> `optional` **versionId**: `string` \| `IJsonLdValueObject`
+> `optional` **versionId?**: `string` \| `IJsonLdValueObject`
 
 The identifier of the version of this government registration.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DeliverySchedule
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### scopeCode? {#scopecode}
 
-> `optional` **scopeCode**: `string`
+> `optional` **scopeCode?**: `string`
 
 The code indicating the scope of a forecast delivery schedule.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/scopeCode
 
 ### shipToParty? {#shiptoparty}
 
-> `optional` **shipToParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **shipToParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A ship to party for this forecast delivery schedule.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/shipToParty
 
 ### specifiedTradeLineItem? {#specifiedtradelineitem}
 
-> `optional` **specifiedTradeLineItem**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
+> `optional` **specifiedTradeLineItem?**: [`IUneceSupplyChainTradeLineItem`](IUneceSupplyChainTradeLineItem.md)[]
 
 A trade line item specified for this forecast delivery schedule.
 

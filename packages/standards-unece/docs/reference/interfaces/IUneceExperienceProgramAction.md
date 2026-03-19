@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/ExperienceProgramAction
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### actionType? {#actiontype}
 
-> `optional` **actionType**: `string`
+> `optional` **actionType?**: `string`
 
 A type, expressed as text, of experience program action.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/actionType
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this experience program action.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### specifiedTradeParty? {#specifiedtradeparty}
 
-> `optional` **specifiedTradeParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **specifiedTradeParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party specified for this experience program action.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/specifiedTradeParty
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status of this experience program action.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of experience program action.
 

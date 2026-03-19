@@ -22,6 +22,6 @@ The subdivision label.
 
 ### type? {#type}
 
-> `optional` **type**: `string`
+> `optional` **type?**: `string`
 
 The subdivision code.

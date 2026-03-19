@@ -73,7 +73,11 @@ Endpoint URL.
 
 ### servesDataset? {#servesdataset}
 
+<<<<<<< Updated upstream
 > `optional` **servesDataset**: `ObjectOrArray`\<[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)\>
+=======
+> `optional` **servesDataset?**: `ObjectOrArray`\<[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)\>
+>>>>>>> Stashed changes
 
 Datasets served.
 
@@ -85,7 +89,7 @@ Datasets served.
 
 ### dcat:endpointDescription? {#dcatendpointdescription}
 
-> `optional` **dcat:endpointDescription**: `string`
+> `optional` **dcat:endpointDescription?**: `string`
 
 A description of the services available via the end-points, including their
 operations, parameters, etc.
@@ -102,7 +106,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description
 
 ### dcterms:title? {#dctermstitle}
 
+<<<<<<< Updated upstream
 > `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A name given to the resource.
 
@@ -118,7 +126,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ### dcterms:description? {#dctermsdescription}
 
+<<<<<<< Updated upstream
 > `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A free-text account of the resource.
 
@@ -134,7 +146,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ### dcterms:identifier? {#dctermsidentifier}
 
+<<<<<<< Updated upstream
 > `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcterms:identifier?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A unique identifier of the resource.
 
@@ -150,7 +166,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 ### dcterms:issued? {#dctermsissued}
 
-> `optional` **dcterms:issued**: `string`
+> `optional` **dcterms:issued?**: `string`
 
 Date of formal issuance (publication) of the resource.
 
@@ -166,7 +182,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 ### dcterms:modified? {#dctermsmodified}
 
-> `optional` **dcterms:modified**: `string`
+> `optional` **dcterms:modified?**: `string`
 
 Most recent date on which the resource was changed, updated or modified.
 
@@ -182,7 +198,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language? {#dctermslanguage}
 
+<<<<<<< Updated upstream
 > `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcterms:language?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A language of the resource.
 
@@ -198,7 +218,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher? {#dctermspublisher}
 
-> `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:publisher?**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for making the resource available.
 
@@ -214,7 +234,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator? {#dctermscreator}
 
-> `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:creator?**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for producing the resource.
 
@@ -230,7 +250,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 ### dcterms:accessRights? {#dctermsaccessrights}
 
-> `optional` **dcterms:accessRights**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:accessRights?**: `string` \| `IJsonLdNodeObject`
 
 Information about who can access the resource or an indication of its security status.
 
@@ -246,7 +266,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 ### dcterms:license? {#dctermslicense}
 
-> `optional` **dcterms:license**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:license?**: `string` \| `IJsonLdNodeObject`
 
 A legal document under which the resource is made available.
 
@@ -262,7 +282,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 ### dcterms:rights? {#dctermsrights}
 
-> `optional` **dcterms:rights**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:rights?**: `string` \| `IJsonLdNodeObject`
 
 Information about rights held in and over the resource.
 
@@ -278,7 +298,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
+<<<<<<< Updated upstream
 > `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 An established standard to which the resource conforms.
 
@@ -294,7 +318,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 ### dcterms:type? {#dctermstype}
 
-> `optional` **dcterms:type**: `string`
+> `optional` **dcterms:type?**: `string`
 
 The nature or genre of the resource.
 
@@ -310,7 +334,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 ### dcat:contactPoint? {#dcatcontactpoint}
 
-> `optional` **dcat:contactPoint**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcat:contactPoint?**: `string` \| `IJsonLdNodeObject`
 
 Relevant contact information for the catalogued resource.
 
@@ -326,7 +350,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ### dcat:keyword? {#dcatkeyword}
 
+<<<<<<< Updated upstream
 > `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcat:keyword?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A keyword or tag describing the resource.
 
@@ -342,7 +370,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme? {#dcattheme}
 
+<<<<<<< Updated upstream
 > `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcat:theme?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -358,7 +390,11 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage? {#dcatlandingpage}
 
+<<<<<<< Updated upstream
 > `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **dcat:landingPage?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 A Web page that can be navigated to gain access to the resource.
 
@@ -374,7 +410,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 ### dcat:qualifiedRelation? {#dcatqualifiedrelation}
 
-> `optional` **dcat:qualifiedRelation**: `string` \| `IDcatRelationship`
+> `optional` **dcat:qualifiedRelation?**: `string` \| `IDcatRelationship`
 
 Link to a description of a relationship with another resource.
 
@@ -390,7 +426,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 ### odrl:hasPolicy? {#odrlhaspolicy}
 
-> `optional` **odrl:hasPolicy**: `IOdrlPolicy`
+> `optional` **odrl:hasPolicy?**: `IOdrlPolicy`
 
 An ODRL conformant policy expressing the rights associated with the resource.
 

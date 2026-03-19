@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/WorkflowObject
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### previousStatusCode? {#previousstatuscode}
 
-> `optional` **previousStatusCode**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
+> `optional` **previousStatusCode?**: [`UneceWorkflowStatusCodeList`](../type-aliases/UneceWorkflowStatusCodeList.md)
 
 The code specifying the previous status of this trade workflow object.
 

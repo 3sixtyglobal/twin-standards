@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ObservationObjectiveParameter
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of this observation objective parameter.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this observation objective parameter.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this observation objective parameter.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/name
 
 ### parameterType? {#parametertype}
 
-> `optional` **parameterType**: `string`
+> `optional` **parameterType?**: `string`
 
 A type, expressed as text, for this observation objective parameter.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/parameterType
 
 ### statusCode? {#statuscode}
 
-> `optional` **statusCode**: `string`
+> `optional` **statusCode?**: `string`
 
 The code specifying the status of this observation objective parameter.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/statusCode
 
 ### statusValueMeasure? {#statusvaluemeasure}
 
-> `optional` **statusValueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **statusValueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the status value for this observation objective parameter.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/statusValueMeasure
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 The code specifying the type of observation objective parameter, such as retailer, country, toxic standard or
 examination type.
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### value? {#value}
 
-> `optional` **value**: `string`
+> `optional` **value?**: `string`
 
 The value, expressed as text, of this observation objective parameter.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/value
 
 ### valueAllowedIndicator? {#valueallowedindicator}
 
-> `optional` **valueAllowedIndicator**: `boolean`
+> `optional` **valueAllowedIndicator?**: `boolean`
 
 The indication of whether or not this value is allowed for this parameter observation objective.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/valueAllowedIndicator
 
 ### valueMeasure? {#valuemeasure}
 
-> `optional` **valueMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **valueMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the value for this observation objective parameter.
 

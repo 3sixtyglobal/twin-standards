@@ -22,7 +22,7 @@ Barge name.
 
 ### vesselIMONumber? {#vesselimonumber}
 
-> `optional` **vesselIMONumber**: `string`
+> `optional` **vesselIMONumber?**: `string`
 
 Barge IMO number (when available).
 
@@ -30,7 +30,7 @@ Barge IMO number (when available).
 
 ### flag? {#flag}
 
-> `optional` **flag**: `string`
+> `optional` **flag?**: `string`
 
 Barge flag.
 
@@ -38,7 +38,7 @@ Barge flag.
 
 ### callSign? {#callsign}
 
-> `optional` **callSign**: `string`
+> `optional` **callSign?**: `string`
 
 Barge call sign.
 
@@ -46,7 +46,7 @@ Barge call sign.
 
 ### operatorCarrierCode? {#operatorcarriercode}
 
-> `optional` **operatorCarrierCode**: `string`
+> `optional` **operatorCarrierCode?**: `string`
 
 Carrier code of the barge operator.
 
@@ -54,6 +54,6 @@ Carrier code of the barge operator.
 
 ### operatorCarrierCodeListProvider? {#operatorcarriercodelistprovider}
 
-> `optional` **operatorCarrierCodeListProvider**: `string`
+> `optional` **operatorCarrierCodeListProvider?**: `string`
 
 Provider of the operator carrier code list.

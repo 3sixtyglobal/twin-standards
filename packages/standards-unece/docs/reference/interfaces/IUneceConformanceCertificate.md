@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ConformanceCertificate
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### certificateTypeCode? {#certificatetypecode}
 
-> `optional` **certificateTypeCode**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
+> `optional` **certificateTypeCode?**: [`UneceCertificateTypeCodeList`](../type-aliases/UneceCertificateTypeCodeList.md)
 
 The code specifying the type of conformance certificate.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/certificateTypeCode
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The unique identifier of this conformance certificate.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 The date, time, date time, or other date time value when this conformance certificate was issued.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuingPartyId? {#issuingpartyid}
 
-> `optional` **issuingPartyId**: `string` \| `IJsonLdValueObject`
+> `optional` **issuingPartyId?**: `string` \| `IJsonLdValueObject`
 
 An identifier of the issuing party of this conformance certificate.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/issuingPartyId
 
 ### softwareOperatingSystem? {#softwareoperatingsystem}
 
-> `optional` **softwareOperatingSystem**: `string`
+> `optional` **softwareOperatingSystem?**: `string`
 
 The software operating system, expressed as text, for which this conformance certificate is produced.
 

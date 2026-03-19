@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/AgriculturalZoneArea
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableAgriculturalCharacteristic? {#applicableagriculturalcharacteristic}
 
-> `optional` **applicableAgriculturalCharacteristic**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
+> `optional` **applicableAgriculturalCharacteristic?**: [`IUneceAgriculturalCharacteristic`](IUneceAgriculturalCharacteristic.md)[]
 
 An agricultural characteristic applicable to this agricultural zone area.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/applicableAgriculturalCharacteristic
 
 ### appliedAgriculturalApplication? {#appliedagriculturalapplication}
 
-> `optional` **appliedAgriculturalApplication**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
+> `optional` **appliedAgriculturalApplication?**: [`IUneceAgriculturalApplication`](IUneceAgriculturalApplication.md)[]
 
 A specified agricultural application applied to this agricultural zone area.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/appliedAgriculturalApplication
 
 ### designatedSection? {#designatedsection}
 
-> `optional` **designatedSection**: `string`
+> `optional` **designatedSection?**: `string`
 
 The designated section, expressed as text, of this agricultural zone area.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/designatedSection
 
 ### harvestedProduce? {#harvestedproduce}
 
-> `optional` **harvestedProduce**: [`IUneceProduce`](IUneceProduce.md)[]
+> `optional` **harvestedProduce?**: [`IUneceProduce`](IUneceProduce.md)[]
 
 Crop produce harvested from this agricultural zone area.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### multiSurfaceTypeCode? {#multisurfacetypecode}
 
-> `optional` **multiSurfaceTypeCode**: `string`
+> `optional` **multiSurfaceTypeCode?**: `string`
 
 The code specifying the multi-surface type for this agricultural zone area.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/multiSurfaceTypeCode
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, for this agricultural zone area.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/name
 
 ### specifiedLocation? {#specifiedlocation}
 
-> `optional` **specifiedLocation**: [`IUneceLocation`](IUneceLocation.md)
+> `optional` **specifiedLocation?**: [`IUneceLocation`](IUneceLocation.md)
 
 The referenced location specified for this agricultural zone area.
 
@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/specifiedLocation
 
 ### specifiedPlot? {#specifiedplot}
 
-> `optional` **specifiedPlot**: [`IUnecePlot`](IUnecePlot.md)[]
+> `optional` **specifiedPlot?**: [`IUnecePlot`](IUnecePlot.md)[]
 
 A crop plot specified for this agricultural zone area.
 
@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/specifiedPlot
 
 ### subordinateArea? {#subordinatearea}
 
-> `optional` **subordinateArea**: `IUneceAgriculturalZoneArea`[]
+> `optional` **subordinateArea?**: `IUneceAgriculturalZoneArea`[]
 
 An agricultural zone area subordinate to this agricultural zone area.
 
@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/subordinateArea
 
 ### thirdPartyIssuedId? {#thirdpartyissuedid}
 
-> `optional` **thirdPartyIssuedId**: `string` \| `IJsonLdValueObject`
+> `optional` **thirdPartyIssuedId?**: `string` \| `IJsonLdValueObject`
 
 An identifier issued by a third party for this agricultural zone area.
 

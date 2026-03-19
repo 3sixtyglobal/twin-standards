@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/WeightUnitMeasureType
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### WeightUnitMeasureTypeValue? {#weightunitmeasuretypevalue}
 
-> `optional` **WeightUnitMeasureTypeValue**: `string`
+> `optional` **WeightUnitMeasureTypeValue?**: `string`
 
 The numeric value.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/WeightUnitMeasureTypeValue
 
 ### WeightUnitMeasureTypeCode? {#weightunitmeasuretypecode}
 
-> `optional` **WeightUnitMeasureTypeCode**: [`UneceWeightUnitMeasureCode`](../type-aliases/UneceWeightUnitMeasureCode.md)
+> `optional` **WeightUnitMeasureTypeCode?**: [`UneceWeightUnitMeasureCode`](../type-aliases/UneceWeightUnitMeasureCode.md)
 
 The unit code.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DelimitedPeriod
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### durationMeasure? {#durationmeasure}
 
-> `optional` **durationMeasure**: [`IUneceMeasureType`](IUneceMeasureType.md)
+> `optional` **durationMeasure?**: [`IUneceMeasureType`](IUneceMeasureType.md)
 
 The measure of the length of time for this delimited period such as hours, days, weeks, months or years.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/durationMeasure
 
 ### endDateTime? {#enddatetime}
 
-> `optional` **endDateTime**: `string`
+> `optional` **endDateTime?**: `string`
 
 The date, time, date time or other date time value for the end of this delimited period.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/endDateTime
 
 ### startDateTime? {#startdatetime}
 
-> `optional` **startDateTime**: `string`
+> `optional` **startDateTime?**: `string`
 
 The date, time, date time or other date time value for the start of this delimited period.
 

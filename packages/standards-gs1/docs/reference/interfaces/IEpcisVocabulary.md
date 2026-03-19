@@ -18,6 +18,6 @@ Vocabulary type.
 
 ### vocabularyElementList? {#vocabularyelementlist}
 
-> `optional` **vocabularyElementList**: [`IEpcisVocabularyElement`](IEpcisVocabularyElement.md)[]
+> `optional` **vocabularyElementList?**: [`IEpcisVocabularyElement`](IEpcisVocabularyElement.md)[]
 
 List of vocabulary elements.

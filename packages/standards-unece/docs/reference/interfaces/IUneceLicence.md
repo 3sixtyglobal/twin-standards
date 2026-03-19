@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Licence
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### associatedStandard? {#associatedstandard}
 
-> `optional` **associatedStandard**: [`IUneceStandard`](IUneceStandard.md)[]
+> `optional` **associatedStandard?**: [`IUneceStandard`](IUneceStandard.md)[]
 
 A referenced standard associated to this specified licence.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedStandard
 
 ### assuranceLevelCode? {#assurancelevelcode}
 
-> `optional` **assuranceLevelCode**: `string`
+> `optional` **assuranceLevelCode?**: `string`
 
 A code specifying an assurance level of this specified licence.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/assuranceLevelCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this specified licence.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### expiryDateTime? {#expirydatetime}
 
-> `optional` **expiryDateTime**: `string`
+> `optional` **expiryDateTime?**: `string`
 
 An expiry date, time, date time or other date time value for this specified licence.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/expiryDateTime
 
 ### grantedParty? {#grantedparty}
 
-> `optional` **grantedParty**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
+> `optional` **grantedParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)[]
 
 A party granted this specified licence.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/grantedParty
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 An identifier of this specified licence.
 
@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### issueDateTime? {#issuedatetime}
 
-> `optional` **issueDateTime**: `string`
+> `optional` **issueDateTime?**: `string`
 
 An issue date, time, date time or other date time value of this specified licence.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/issueDateTime
 
 ### issuerParty? {#issuerparty}
 
-> `optional` **issuerParty**: [`IUneceTradeParty`](IUneceTradeParty.md)
+> `optional` **issuerParty?**: [`IUneceTradeParty`](IUneceTradeParty.md)
 
 The party that issues this specified licence.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/issuerParty
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 A name, expressed as text, for this specified licence.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/name
 
 ### subjectTypeCode? {#subjecttypecode}
 
-> `optional` **subjectTypeCode**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
+> `optional` **subjectTypeCode?**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
 
 A code specifying a subject type for this licence.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/subjectTypeCode
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of licence.
 
@@ -158,7 +158,7 @@ https://vocabulary.uncefact.org/typeCode
 
 ### validIndicator? {#validindicator}
 
-> `optional` **validIndicator**: `boolean`
+> `optional` **validIndicator?**: `boolean`
 
 The indication of whether or not this specified licence is valid.
 
@@ -170,7 +170,7 @@ https://vocabulary.uncefact.org/validIndicator
 
 ### verifiedObject? {#verifiedobject}
 
-> `optional` **verifiedObject**: [`IUneceObject`](IUneceObject.md)[]
+> `optional` **verifiedObject?**: [`IUneceObject`](IUneceObject.md)[]
 
 An object verified for this specified licence.
 

@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/HaulageInstructions
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description of these haulage instructions.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/description
 
 ### haulageInstructionsDescriptionCode? {#haulageinstructionsdescriptioncode}
 
-> `optional` **haulageInstructionsDescriptionCode**: `string`
+> `optional` **haulageInstructionsDescriptionCode?**: `string`
 
 The code specifying the description of these haulage instructions.
 

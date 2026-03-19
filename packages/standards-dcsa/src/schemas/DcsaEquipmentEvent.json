@@ -3,7 +3,7 @@
 	"$id": "https://schema.twindev.org/dcsa/DcsaEquipmentEvent",
 	"title": "DcsaEquipmentEvent",
 	"description": "The `EquipmentEvent` is a specialized event to handle all events related to equipment (containers).\n\nSource: `equipmentEvent` schema in the DCSA Event Domain (v3.1.0).",
-	"anyOf": [
+	"oneOf": [
 		{
 			"type": "object",
 			"properties": {

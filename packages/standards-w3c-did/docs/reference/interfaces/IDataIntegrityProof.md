@@ -7,7 +7,11 @@ https://www.w3.org/TR/vc-data-integrity/
 
 ### @context? {#context}
 
+<<<<<<< Updated upstream
 > `optional` **@context**: `"https://w3id.org/security/data-integrity/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/data-integrity/v2"`\>
+=======
+> `optional` **@context?**: `"https://w3id.org/security/data-integrity/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/data-integrity/v2"`\>
+>>>>>>> Stashed changes
 
 JSON-LD Context.
 
@@ -31,7 +35,7 @@ An identifier for the cryptographic suite that can be used to verify the proof.
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The id of the proof.
 
@@ -47,7 +51,7 @@ The reason the proof was created.
 
 ### proofValue? {#proofvalue}
 
-> `optional` **proofValue**: `string`
+> `optional` **proofValue?**: `string`
 
 Contains the base-encoded binary data necessary to verify the
 digital proof using the verificationMethod specified.
@@ -56,7 +60,7 @@ digital proof using the verificationMethod specified.
 
 ### verificationMethod? {#verificationmethod}
 
-> `optional` **verificationMethod**: `string`
+> `optional` **verificationMethod?**: `string`
 
 The verification method of the proof.
 
@@ -64,7 +68,7 @@ The verification method of the proof.
 
 ### created? {#created}
 
-> `optional` **created**: `string`
+> `optional` **created?**: `string`
 
 The iso date of when the proof was created.
 
@@ -72,7 +76,7 @@ The iso date of when the proof was created.
 
 ### expires? {#expires}
 
-> `optional` **expires**: `string`
+> `optional` **expires?**: `string`
 
 The iso date of when the proof expires.
 
@@ -80,7 +84,11 @@ The iso date of when the proof expires.
 
 ### domain? {#domain}
 
+<<<<<<< Updated upstream
 > `optional` **domain**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **domain?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 One or more security domains in which the proof is meant to be used.
 
@@ -88,7 +96,11 @@ One or more security domains in which the proof is meant to be used.
 
 ### challenge? {#challenge}
 
+<<<<<<< Updated upstream
 > `optional` **challenge**: `ObjectOrArray`\<`string`\>
+=======
+> `optional` **challenge?**: `ObjectOrArray`\<`string`\>
+>>>>>>> Stashed changes
 
 Provided to mitigate replay attacks on domains.
 
@@ -96,7 +108,7 @@ Provided to mitigate replay attacks on domains.
 
 ### previousProof? {#previousproof}
 
-> `optional` **previousProof**: `string`
+> `optional` **previousProof?**: `string`
 
 Identifies another data integrity proof that MUST verify before
 the current proof is processed
@@ -105,7 +117,7 @@ the current proof is processed
 
 ### nonce? {#nonce}
 
-> `optional` **nonce**: `string`
+> `optional` **nonce?**: `string`
 
 Use of this field is to increase privacy by decreasing linkability
 that is the result of deterministically generated signatures.

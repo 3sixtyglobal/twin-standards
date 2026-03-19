@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/PersonIdentity
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### alienRegistrationId? {#alienregistrationid}
 
-> `optional` **alienRegistrationId**: `string` \| `IJsonLdValueObject`
+> `optional` **alienRegistrationId?**: `string` \| `IJsonLdValueObject`
 
 The alien registration identifier for this person.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/alienRegistrationId
 
 ### driversLicenceId? {#driverslicenceid}
 
-> `optional` **driversLicenceId**: `string` \| `IJsonLdValueObject`
+> `optional` **driversLicenceId?**: `string` \| `IJsonLdValueObject`
 
 The drivers licence identifier for this person.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/driversLicenceId
 
 ### identityCardId? {#identitycardid}
 
-> `optional` **identityCardId**: `string` \| `IJsonLdValueObject`
+> `optional` **identityCardId?**: `string` \| `IJsonLdValueObject`
 
 The identity card identifier for this person.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identityCardId
 
 ### passportId? {#passportid}
 
-> `optional` **passportId**: `string` \| `IJsonLdValueObject`
+> `optional` **passportId?**: `string` \| `IJsonLdValueObject`
 
 The passport identifier for this person.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/passportId
 
 ### socialSecurityId? {#socialsecurityid}
 
-> `optional` **socialSecurityId**: `string` \| `IJsonLdValueObject`
+> `optional` **socialSecurityId?**: `string` \| `IJsonLdValueObject`
 
 The social security identifier for this person.
 
@@ -86,7 +86,7 @@ https://vocabulary.uncefact.org/socialSecurityId
 
 ### specifiedProprietaryIdentity? {#specifiedproprietaryidentity}
 
-> `optional` **specifiedProprietaryIdentity**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
+> `optional` **specifiedProprietaryIdentity?**: [`IUneceProprietaryIdentity`](IUneceProprietaryIdentity.md)[]
 
 A proprietary Identity specified for this person.
 

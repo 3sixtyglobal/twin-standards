@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/TTAnimal
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/holderResponsibleParty
 
 ### relatedTTLocation? {#relatedttlocation}
 
-> `optional` **relatedTTLocation**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
+> `optional` **relatedTTLocation?**: [`IUneceTTLocation`](IUneceTTLocation.md)[]
 
 A location related to this TT animal.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/speciesTypeCode
 
 ### specifiedAnimalBatch? {#specifiedanimalbatch}
 
-> `optional` **specifiedAnimalBatch**: [`IUneceAnimalBatch`](IUneceAnimalBatch.md)
+> `optional` **specifiedAnimalBatch?**: [`IUneceAnimalBatch`](IUneceAnimalBatch.md)
 
 The animal batch specified for this TT animal.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/specifiedAnimalBatch
 
 ### specifiedAnimalCertificate? {#specifiedanimalcertificate}
 
-> `optional` **specifiedAnimalCertificate**: [`IUneceAnimalCertificate`](IUneceAnimalCertificate.md)[]
+> `optional` **specifiedAnimalCertificate?**: [`IUneceAnimalCertificate`](IUneceAnimalCertificate.md)[]
 
 An animal certificate specified for this TT animal.
 
@@ -110,7 +110,7 @@ https://vocabulary.uncefact.org/specifiedAnimalIdentity
 
 ### specifiedDelimitedPeriod? {#specifieddelimitedperiod}
 
-> `optional` **specifiedDelimitedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedDelimitedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this TT animal.
 
@@ -122,7 +122,7 @@ https://vocabulary.uncefact.org/specifiedDelimitedPeriod
 
 ### specifiedIndividualTTAnimal? {#specifiedindividualttanimal}
 
-> `optional` **specifiedIndividualTTAnimal**: [`IUneceIndividualTTAnimal`](IUneceIndividualTTAnimal.md)
+> `optional` **specifiedIndividualTTAnimal?**: [`IUneceIndividualTTAnimal`](IUneceIndividualTTAnimal.md)
 
 The individual tracking animal specified for this TT animal.
 
@@ -134,7 +134,7 @@ https://vocabulary.uncefact.org/specifiedIndividualTTAnimal
 
 ### specifiedPeriod? {#specifiedperiod}
 
-> `optional` **specifiedPeriod**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
+> `optional` **specifiedPeriod?**: [`IUneceDelimitedPeriod`](IUneceDelimitedPeriod.md)[]
 
 A delimited period specified for this TT animal.
 
@@ -146,7 +146,7 @@ https://vocabulary.uncefact.org/specifiedPeriod
 
 ### specifiedSpeciesTTAnimal? {#specifiedspeciesttanimal}
 
-> `optional` **specifiedSpeciesTTAnimal**: [`IUneceSpeciesTTAnimal`](IUneceSpeciesTTAnimal.md)[]
+> `optional` **specifiedSpeciesTTAnimal?**: [`IUneceSpeciesTTAnimal`](IUneceSpeciesTTAnimal.md)[]
 
 A species specified for this TT animal.
 

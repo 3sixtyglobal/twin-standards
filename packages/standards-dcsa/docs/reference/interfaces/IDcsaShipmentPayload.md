@@ -67,7 +67,7 @@ Note: `documentReference` is not necessarily globally unique without `documentTy
 
 ### reason? {#reason}
 
-> `optional` **reason**: `string`
+> `optional` **reason?**: `string`
 
 Free-text field that can be used to explain why a specific ShipmentEvent was sent.
 
@@ -75,7 +75,7 @@ Free-text field that can be used to explain why a specific ShipmentEvent was sen
 
 ### relatedDocumentReferences? {#relateddocumentreferences}
 
-> `optional` **relatedDocumentReferences**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
+> `optional` **relatedDocumentReferences?**: [`IDcsaRelatedDocumentReference`](IDcsaRelatedDocumentReference.md)[]
 
 Related documents.
 
@@ -83,6 +83,6 @@ Related documents.
 
 ### references? {#references}
 
-> `optional` **references**: [`IDcsaReference`](IDcsaReference.md)[]
+> `optional` **references?**: [`IDcsaReference`](IDcsaReference.md)[]
 
 Additional references.

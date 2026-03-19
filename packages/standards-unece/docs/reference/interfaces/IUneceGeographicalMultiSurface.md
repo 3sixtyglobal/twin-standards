@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/GeographicalMultiSurface
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/associatedGeographicalObjectCharacteristic
 
 ### includedPolygon? {#includedpolygon}
 
-> `optional` **includedPolygon**: [`IUnecePolygon`](IUnecePolygon.md)[]
+> `optional` **includedPolygon?**: [`IUnecePolygon`](IUnecePolygon.md)[]
 
 A polygon included in this geographical multi-surface.
 

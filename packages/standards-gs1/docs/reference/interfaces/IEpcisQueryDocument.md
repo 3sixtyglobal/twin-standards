@@ -18,7 +18,7 @@ The @context.
 
 ### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The JSON-LD document id.
 
@@ -34,7 +34,7 @@ JSON-LD Type.
 
 ### schemaVersion? {#schemaversion}
 
-> `optional` **schemaVersion**: `string`
+> `optional` **schemaVersion?**: `string`
 
 Schema version.
 
@@ -42,7 +42,7 @@ Schema version.
 
 ### creationDate? {#creationdate}
 
-> `optional` **creationDate**: `string`
+> `optional` **creationDate?**: `string`
 
 Creation Date.
 

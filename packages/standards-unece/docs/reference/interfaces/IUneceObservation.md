@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/Observation
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### applicableNote? {#applicablenote}
 
-> `optional` **applicableNote**: [`IUneceNote`](IUneceNote.md)[]
+> `optional` **applicableNote?**: [`IUneceNote`](IUneceNote.md)[]
 
 A note providing information applicable to this specified observation.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/applicableNote
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 The textual description for this specified observation.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/description
 
 ### identifier? {#identifier}
 
-> `optional` **identifier**: `string` \| `IJsonLdValueObject`
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
 
 The identifier for this specified observation.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### relatedBinaryFile? {#relatedbinaryfile}
 
-> `optional` **relatedBinaryFile**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
+> `optional` **relatedBinaryFile?**: [`IUneceBinaryFile`](IUneceBinaryFile.md)[]
 
 A binary file related to this specified observation.
 

@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/RegulatedGoods
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### applicableDangerousGoods? {#applicabledangerousgoods}
 
-> `optional` **applicableDangerousGoods**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
+> `optional` **applicableDangerousGoods?**: [`IUneceDangerousGoods`](IUneceDangerousGoods.md)[]
 
 Transport dangerous goods information applicable to these logistics regulated goods.
 

@@ -11,7 +11,7 @@ https://vocabulary.uncefact.org/MDHHealthIndication
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### appliedSanitaryMeasure? {#appliedsanitarymeasure}
 
-> `optional` **appliedSanitaryMeasure**: [`IUneceSanitaryMeasure`](IUneceSanitaryMeasure.md)[]
+> `optional` **appliedSanitaryMeasure?**: [`IUneceSanitaryMeasure`](IUneceSanitaryMeasure.md)[]
 
 A sanitary measure applied for this MDH health indication.
 
@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/appliedSanitaryMeasure
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this MDH health indication.
 
@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/description
 
 ### locationId? {#locationid}
 
-> `optional` **locationId**: `string` \| `IJsonLdValueObject`
+> `optional` **locationId?**: `string` \| `IJsonLdValueObject`
 
 An identifier of a location for this MDH health indication.
 
@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/locationId
 
 ### locationName? {#locationname}
 
-> `optional` **locationName**: `string`
+> `optional` **locationName?**: `string`
 
 A location name, expressed as text, of a location for this MDH health indication.
 
@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/locationName
 
 ### reportedDateTime? {#reporteddatetime}
 
-> `optional` **reportedDateTime**: `string`
+> `optional` **reportedDateTime?**: `string`
 
 A reported date, time, date time or other date time value for this MDH health indication.
 
@@ -87,7 +87,7 @@ https://vocabulary.uncefact.org/reportedDateTime
 
 ### reportedQuantity? {#reportedquantity}
 
-> `optional` **reportedQuantity**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
+> `optional` **reportedQuantity?**: [`IUneceQuantityType`](IUneceQuantityType.md)[]
 
 A reported quantity for this MDH health indication.
 
@@ -99,7 +99,7 @@ https://vocabulary.uncefact.org/reportedQuantity
 
 ### statusIndicator? {#statusindicator}
 
-> `optional` **statusIndicator**: `boolean`
+> `optional` **statusIndicator?**: `boolean`
 
 The indication of whether or not the status of this MDH health indication is true or false.
 
@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/statusIndicator
 
 ### typeCode? {#typecode}
 
-> `optional` **typeCode**: `string`
+> `optional` **typeCode?**: `string`
 
 A code specifying a type of MDH health indication.
 

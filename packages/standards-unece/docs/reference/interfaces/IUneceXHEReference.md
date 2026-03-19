@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/XHEReference
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### endAvailabilityDateTime? {#endavailabilitydatetime}
 
-> `optional` **endAvailabilityDateTime**: `string`
+> `optional` **endAvailabilityDateTime?**: `string`
 
 The end date, time, date time, or other date time value for the availability of this XHE reference.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### login? {#login}
 
-> `optional` **login**: `string`
+> `optional` **login?**: `string`
 
 The login, expressed as text, for this XHE reference.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/login
 
 ### password? {#password}
 
-> `optional` **password**: `string`
+> `optional` **password?**: `string`
 
 The password, expressed as text, for this XHE reference.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/password
 
 ### startAvailabilityDateTime? {#startavailabilitydatetime}
 
-> `optional` **startAvailabilityDateTime**: `string`
+> `optional` **startAvailabilityDateTime?**: `string`
 
 The start date, time, date time, or other date time value for the availability of this XHE reference.
 

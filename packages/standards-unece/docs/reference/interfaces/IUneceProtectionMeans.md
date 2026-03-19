@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/ProtectionMeans
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### acceptedIndicator? {#acceptedindicator}
 
-> `optional` **acceptedIndicator**: `boolean`
+> `optional` **acceptedIndicator?**: `boolean`
 
 The indication of whether or not this disease protection means is accepted.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/acceptedIndicator
 
 ### categoryCode? {#categorycode}
 
-> `optional` **categoryCode**: `string`
+> `optional` **categoryCode?**: `string`
 
 The code specifying the category of disease protection means.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### description? {#description}
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
 
 A textual description of this disease protection means.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/description
 
 ### item? {#item}
 
-> `optional` **item**: `string`
+> `optional` **item?**: `string`
 
 An item, expressed as text, for this disease protection means.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/item
 
 ### restriction? {#restriction}
 
-> `optional` **restriction**: `string`
+> `optional` **restriction?**: `string`
 
 A restriction, expressed as text, for this disease protection means.
 

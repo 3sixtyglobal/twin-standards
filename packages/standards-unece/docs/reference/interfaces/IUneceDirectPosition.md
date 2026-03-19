@@ -10,7 +10,7 @@ https://vocabulary.uncefact.org/DirectPosition
 
 ### @context? {#context}
 
-> `optional` **@context**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
 
 JSON-LD Context.
 
@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### axisLabelList? {#axislabellist}
 
-> `optional` **axisLabelList**: `string`
+> `optional` **axisLabelList?**: `string`
 
 An ordered list of axis labels, expressed as text, for this specified direct position.
 
@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/axisLabelList
 
 ### coordinateReferenceDimension? {#coordinatereferencedimension}
 
-> `optional` **coordinateReferenceDimension**: `string`
+> `optional` **coordinateReferenceDimension?**: `string`
 
 A coordinate reference dimension, expressed as text, for this specified direct position.
 
@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/coordinateReferenceDimension
 
 ### countNumeric? {#countnumeric}
 
-> `optional` **countNumeric**: `string`
+> `optional` **countNumeric?**: `string`
 
 A count for this specified direct position.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/countNumeric
 
 ### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name, expressed as text, of the reference for this specified direct position.
 
@@ -74,7 +74,7 @@ https://vocabulary.uncefact.org/name
 
 ### uOMLabelList? {#uomlabellist}
 
-> `optional` **uOMLabelList**: `string`
+> `optional` **uOMLabelList?**: `string`
 
 An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position.
 
