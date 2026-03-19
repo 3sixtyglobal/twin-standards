@@ -78,11 +78,7 @@ Must include "https://www.w3.org/ns/odrl.jsonld"
 
 ### profile? {#profile}
 
-<<<<<<< Updated upstream
-> `optional` **profile**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **profile?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 The profile(s) this policy conforms to.
 IRIs identifying the ODRL Profile(s).
@@ -95,11 +91,7 @@ IRIs identifying the ODRL Profile(s).
 
 ### target? {#target}
 
-<<<<<<< Updated upstream
-> `optional` **target**: `ObjectOrArray`\<`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`\>
-=======
 > `optional` **target?**: `ObjectOrArray`\<`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`\>
->>>>>>> Stashed changes
 
 The target asset for the rule.
 
@@ -111,11 +103,7 @@ The target asset for the rule.
 
 ### action? {#action}
 
-<<<<<<< Updated upstream
-> `optional` **action**: `ObjectOrArray`\<`string` \| `IOdrlAction`\>
-=======
 > `optional` **action?**: `ObjectOrArray`\<`string` \| `IOdrlAction`\>
->>>>>>> Stashed changes
 
 The action associated with the rule.
 
@@ -127,11 +115,7 @@ The action associated with the rule.
 
 ### inheritFrom? {#inheritfrom}
 
-<<<<<<< Updated upstream
-> `optional` **inheritFrom**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **inheritFrom?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 The parent policy(ies) this policy inherits from.
 IRIs identifying the parent Policy(ies).
@@ -159,11 +143,7 @@ The conflict resolution strategy.
 
 ### permission? {#permission}
 
-<<<<<<< Updated upstream
-> `optional` **permission**: `ObjectOrArray`\<`IOdrlPermission`\>
-=======
 > `optional` **permission?**: `ObjectOrArray`\<`IOdrlPermission`\>
->>>>>>> Stashed changes
 
 The permissions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -176,11 +156,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### prohibition? {#prohibition}
 
-<<<<<<< Updated upstream
-> `optional` **prohibition**: `ObjectOrArray`\<`IOdrlProhibition`\>
-=======
 > `optional` **prohibition?**: `ObjectOrArray`\<`IOdrlProhibition`\>
->>>>>>> Stashed changes
 
 The prohibitions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -193,11 +169,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### obligation? {#obligation}
 
-<<<<<<< Updated upstream
-> `optional` **obligation**: `ObjectOrArray`\<`IOdrlDuty`\>
-=======
 > `optional` **obligation?**: `ObjectOrArray`\<`IOdrlDuty`\>
->>>>>>> Stashed changes
 
 The obligations in the policy.
 At least one of permission, prohibition, or obligation must be present.

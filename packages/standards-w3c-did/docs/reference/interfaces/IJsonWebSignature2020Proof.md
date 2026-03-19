@@ -7,11 +7,7 @@ https://www.w3.org/TR/vc-jws-2020/
 
 ### @context? {#context}
 
-<<<<<<< Updated upstream
-> `optional` **@context**: `"https://w3id.org/security/suites/jws-2020/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/suites/jws-2020/v1"`\>
-=======
 > `optional` **@context?**: `"https://w3id.org/security/suites/jws-2020/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/suites/jws-2020/v1"`\>
->>>>>>> Stashed changes
 
 JSON-LD Context.
 

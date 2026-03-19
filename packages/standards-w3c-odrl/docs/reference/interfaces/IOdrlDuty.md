@@ -31,11 +31,7 @@ Used when the duty involves tracking
 
 ### consequence? {#consequence}
 
-<<<<<<< Updated upstream
-> `optional` **consequence**: `ObjectOrArray`\<`IOdrlDuty`\>
-=======
 > `optional` **consequence?**: `ObjectOrArray`\<`IOdrlDuty`\>
->>>>>>> Stashed changes
 
 The consequences if the duty is not fulfilled.
 Only applicable when the Duty is referenced by a Rule with duty or obligation
@@ -66,11 +62,7 @@ Optional unique identifier for the rule.
 
 ### action? {#action}
 
-<<<<<<< Updated upstream
-> `optional` **action**: `ObjectOrArray`\<`string` \| [`IOdrlAction`](IOdrlAction.md)\>
-=======
 > `optional` **action?**: `ObjectOrArray`\<`string` \| [`IOdrlAction`](IOdrlAction.md)\>
->>>>>>> Stashed changes
 
 The action associated with the rule.
 
@@ -82,11 +74,7 @@ The action associated with the rule.
 
 ### target? {#target}
 
-<<<<<<< Updated upstream
-> `optional` **target**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md)\>
-=======
 > `optional` **target?**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md)\>
->>>>>>> Stashed changes
 
 The target asset for the rule.
 
@@ -98,11 +86,7 @@ The target asset for the rule.
 
 ### assigner? {#assigner}
 
-<<<<<<< Updated upstream
-> `optional` **assigner**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
-=======
 > `optional` **assigner?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
->>>>>>> Stashed changes
 
 The assigner of the rule.
 
@@ -114,11 +98,7 @@ The assigner of the rule.
 
 ### assignee? {#assignee}
 
-<<<<<<< Updated upstream
-> `optional` **assignee**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
-=======
 > `optional` **assignee?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
->>>>>>> Stashed changes
 
 The assignee of the rule.
 
@@ -130,11 +110,7 @@ The assignee of the rule.
 
 ### constraint? {#constraint}
 
-<<<<<<< Updated upstream
-> `optional` **constraint**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
-=======
 > `optional` **constraint?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
->>>>>>> Stashed changes
 
 Constraints applied to the rule.
 

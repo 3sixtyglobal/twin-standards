@@ -69,11 +69,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_endpoint_description
 
 ### dcat:servesDataset? {#dcatservesdataset}
 
-<<<<<<< Updated upstream
-> `optional` **dcat:servesDataset**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcat:servesDataset?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A collection of data that this data service can distribute.
 
@@ -101,11 +97,7 @@ The unique identifier for the resource.
 
 ### dcterms:title? {#dctermstitle}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A name given to the resource.
 
@@ -121,11 +113,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ### dcterms:description? {#dctermsdescription}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A free-text account of the resource.
 
@@ -141,11 +129,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ### dcterms:identifier? {#dctermsidentifier}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:identifier?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A unique identifier of the resource.
 
@@ -193,11 +177,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language? {#dctermslanguage}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:language?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A language of the resource.
 
@@ -293,11 +273,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 An established standard to which the resource conforms.
 
@@ -345,11 +321,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ### dcat:keyword? {#dcatkeyword}
 
-<<<<<<< Updated upstream
-> `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcat:keyword?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A keyword or tag describing the resource.
 
@@ -365,11 +337,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme? {#dcattheme}
 
-<<<<<<< Updated upstream
-> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcat:theme?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -385,11 +353,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage? {#dcatlandingpage}
 
-<<<<<<< Updated upstream
-> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcat:landingPage?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A Web page that can be navigated to gain access to the resource.
 

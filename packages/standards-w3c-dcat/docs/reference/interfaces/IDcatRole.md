@@ -36,11 +36,7 @@ The unique identifier for the role object.
 
 ### dcterms:title? {#dctermstitle}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A name given to the role.
 

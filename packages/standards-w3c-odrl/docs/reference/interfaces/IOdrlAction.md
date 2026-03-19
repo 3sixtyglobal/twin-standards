@@ -29,11 +29,7 @@ Used in simple action references.
 
 ### refinement? {#refinement}
 
-<<<<<<< Updated upstream
-> `optional` **refinement**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
-=======
 > `optional` **refinement?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
->>>>>>> Stashed changes
 
 Refinements applied to the action.
 

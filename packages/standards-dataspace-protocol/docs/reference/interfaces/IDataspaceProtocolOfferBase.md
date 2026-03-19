@@ -57,7 +57,7 @@ Required for Offer policies.
 
 ### profile? {#profile}
 
-> `optional` **profile**: `ObjectOrArray`\<`string`\>
+> `optional` **profile?**: `ObjectOrArray`\<`string`\>
 
 The profile(s) this policy conforms to.
 IRIs identifying the ODRL Profile(s).
@@ -70,7 +70,7 @@ IRIs identifying the ODRL Profile(s).
 
 ### assignee? {#assignee}
 
-> `optional` **assignee**: `ObjectOrArray`\<`string` \| `IOdrlParty` \| `IOdrlPartyCollection`\>
+> `optional` **assignee?**: `ObjectOrArray`\<`string` \| `IOdrlParty` \| `IOdrlPartyCollection`\>
 
 The assignee of the policy.
 Applies to all rules unless overridden at rule level.
@@ -83,7 +83,7 @@ Applies to all rules unless overridden at rule level.
 
 ### target? {#target}
 
-> `optional` **target**: `ObjectOrArray`\<`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`\>
+> `optional` **target?**: `ObjectOrArray`\<`string` \| `IOdrlAsset` \| `IOdrlAssetCollection`\>
 
 The target asset for the rule.
 
@@ -95,7 +95,7 @@ The target asset for the rule.
 
 ### action? {#action}
 
-> `optional` **action**: `ObjectOrArray`\<`string` \| `IOdrlAction`\>
+> `optional` **action?**: `ObjectOrArray`\<`string` \| `IOdrlAction`\>
 
 The action associated with the rule.
 
@@ -107,7 +107,7 @@ The action associated with the rule.
 
 ### inheritFrom? {#inheritfrom}
 
-> `optional` **inheritFrom**: `ObjectOrArray`\<`string`\>
+> `optional` **inheritFrom?**: `ObjectOrArray`\<`string`\>
 
 The parent policy(ies) this policy inherits from.
 IRIs identifying the parent Policy(ies).
@@ -120,7 +120,7 @@ IRIs identifying the parent Policy(ies).
 
 ### conflict? {#conflict}
 
-> `optional` **conflict**: `ConflictStrategyType`
+> `optional` **conflict?**: `ConflictStrategyType`
 
 The conflict resolution strategy.
 - perm: Permissions override Prohibitions
@@ -135,7 +135,7 @@ The conflict resolution strategy.
 
 ### permission? {#permission}
 
-> `optional` **permission**: `ObjectOrArray`\<`IOdrlPermission`\>
+> `optional` **permission?**: `ObjectOrArray`\<`IOdrlPermission`\>
 
 The permissions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -148,7 +148,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### prohibition? {#prohibition}
 
-> `optional` **prohibition**: `ObjectOrArray`\<`IOdrlProhibition`\>
+> `optional` **prohibition?**: `ObjectOrArray`\<`IOdrlProhibition`\>
 
 The prohibitions in the policy.
 At least one of permission, prohibition, or obligation must be present.
@@ -161,7 +161,7 @@ At least one of permission, prohibition, or obligation must be present.
 
 ### obligation? {#obligation}
 
-> `optional` **obligation**: `ObjectOrArray`\<`IOdrlDuty`\>
+> `optional` **obligation?**: `ObjectOrArray`\<`IOdrlDuty`\>
 
 The obligations in the policy.
 At least one of permission, prohibition, or obligation must be present.

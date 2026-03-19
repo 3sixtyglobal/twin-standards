@@ -72,11 +72,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### hasPolicy? {#haspolicy}
 
-<<<<<<< Updated upstream
-> `optional` **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
-=======
 > `optional` **hasPolicy?**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
->>>>>>> Stashed changes
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -119,11 +115,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### dcterms:title? {#dctermstitle}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A name given to the distribution.
 
@@ -139,11 +131,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
 ### dcterms:description? {#dctermsdescription}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A free-text account of the distribution.
 
@@ -335,11 +323,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 An established standard to which the distribution conforms.
 

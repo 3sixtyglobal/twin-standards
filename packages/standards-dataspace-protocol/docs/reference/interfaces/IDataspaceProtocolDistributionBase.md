@@ -51,7 +51,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 Unique identifier for the distribution.
 OPTIONAL for embedded distributions (may use JSON-LD blank nodes).
@@ -65,7 +65,7 @@ REQUIRED on standalone Distribution objects per Eclipse Data Space Protocol.
 
 ### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
+> `optional` **hasPolicy?**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
@@ -96,7 +96,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
 
 A name given to the distribution.
 
@@ -112,7 +112,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the distribution.
 
@@ -128,7 +128,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description
 
 ### dcterms:issued? {#dctermsissued}
 
-> `optional` **dcterms:issued**: `string`
+> `optional` **dcterms:issued?**: `string`
 
 Date of formal issuance of the distribution.
 
@@ -144,7 +144,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date
 
 ### dcterms:modified? {#dctermsmodified}
 
-> `optional` **dcterms:modified**: `string`
+> `optional` **dcterms:modified?**: `string`
 
 Most recent date on which the distribution was changed, updated or modified.
 
@@ -160,7 +160,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date
 
 ### dcterms:license? {#dctermslicense}
 
-> `optional` **dcterms:license**: `string`
+> `optional` **dcterms:license?**: `string`
 
 A legal document under which the distribution is made available.
 
@@ -176,7 +176,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license
 
 ### dcterms:accessRights? {#dctermsaccessrights}
 
-> `optional` **dcterms:accessRights**: `string`
+> `optional` **dcterms:accessRights?**: `string`
 
 Information about who can access the distribution.
 
@@ -192,7 +192,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights
 
 ### dcterms:rights? {#dctermsrights}
 
-> `optional` **dcterms:rights**: `string`
+> `optional` **dcterms:rights?**: `string`
 
 Information about rights held in and over the distribution.
 
@@ -208,7 +208,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights
 
 ### dcat:accessURL? {#dcataccessurl}
 
-> `optional` **dcat:accessURL**: `string`
+> `optional` **dcat:accessURL?**: `string`
 
 A URL of the resource that gives access to a distribution of the dataset.
 
@@ -224,7 +224,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url
 
 ### dcat:accessService? {#dcataccessservice}
 
-> `optional` **dcat:accessService**: `string`
+> `optional` **dcat:accessService?**: `string`
 
 A data service that gives access to the distribution.
 
@@ -240,7 +240,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service
 
 ### dcat:downloadURL? {#dcatdownloadurl}
 
-> `optional` **dcat:downloadURL**: `string`
+> `optional` **dcat:downloadURL?**: `string`
 
 The URL of the downloadable file in a given format.
 
@@ -256,7 +256,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url
 
 ### dcat:byteSize? {#dcatbytesize}
 
-> `optional` **dcat:byteSize**: `number`
+> `optional` **dcat:byteSize?**: `number`
 
 The size of the distribution in bytes.
 
@@ -272,7 +272,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_byte_size
 
 ### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
 
-> `optional` **dcat:spatialResolutionInMeters**: `number`
+> `optional` **dcat:spatialResolutionInMeters?**: `number`
 
 The minimum spatial separation resolvable in a distribution, measured in meters.
 
@@ -288,7 +288,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution
 
 ### dcat:temporalResolution? {#dcattemporalresolution}
 
-> `optional` **dcat:temporalResolution**: `string`
+> `optional` **dcat:temporalResolution?**: `string`
 
 Minimum time period resolvable in the distribution.
 
@@ -304,7 +304,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the distribution conforms.
 
@@ -320,7 +320,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
 
 ### dcat:mediaType? {#dcatmediatype}
 
-> `optional` **dcat:mediaType**: `string`
+> `optional` **dcat:mediaType?**: `string`
 
 The media type of the distribution as defined by IANA.
 
@@ -336,7 +336,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type
 
 ### dcat:compressFormat? {#dcatcompressformat}
 
-> `optional` **dcat:compressFormat**: `string`
+> `optional` **dcat:compressFormat?**: `string`
 
 The compression format of the distribution.
 
@@ -352,7 +352,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format
 
 ### dcat:packageFormat? {#dcatpackageformat}
 
-> `optional` **dcat:packageFormat**: `string`
+> `optional` **dcat:packageFormat?**: `string`
 
 The package format of the distribution.
 
@@ -368,7 +368,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format
 
 ### spdx:checksum? {#spdxchecksum}
 
-> `optional` **spdx:checksum**: `string`
+> `optional` **spdx:checksum?**: `string`
 
 The checksum property provides a mechanism to verify the data integrity.
 

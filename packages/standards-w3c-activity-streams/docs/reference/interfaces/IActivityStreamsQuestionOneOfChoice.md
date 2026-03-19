@@ -6,7 +6,7 @@ Represents a Question with an exclusive list of possible answers, but not an inc
 
 ### anyOf? {#anyof}
 
-> `optional` **anyOf**: `undefined`
+> `optional` **anyOf?**: `undefined`
 
 Specifies an inclusive list of possible answers.
 

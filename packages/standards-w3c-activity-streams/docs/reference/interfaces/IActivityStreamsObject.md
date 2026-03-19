@@ -36,11 +36,7 @@ The LD Context.
 
 ### type? {#type}
 
-<<<<<<< Updated upstream
-> `optional` **type**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **type?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 Object type.
 

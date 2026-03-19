@@ -25,11 +25,7 @@ https://www.w3.org/TR/activitystreams-core/#actors
 
 ### type? {#type}
 
-<<<<<<< Updated upstream
-> `optional` **type**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **type?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 Actor type.
 

@@ -33,7 +33,7 @@ The type identifier, typically "Catalog".
 
 ### foaf:homepage? {#foafhomepage}
 
-> `optional` **foaf:homepage**: `string`
+> `optional` **foaf:homepage?**: `string`
 
 A homepage of the catalog (a public Web document usually available in HTML).
 
@@ -45,7 +45,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage
 
 ### dcat:themeTaxonomy? {#dcatthemetaxonomy}
 
-> `optional` **dcat:themeTaxonomy**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
+> `optional` **dcat:themeTaxonomy?**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
 
 A knowledge organization system (KOS) used to classify the resources in the catalog.
 
@@ -57,7 +57,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes
 
 ### dcat:resource? {#dcatresource}
 
-> `optional` **dcat:resource**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
+> `optional` **dcat:resource?**: `ObjectOrArray`\<[`IDcatResource`](IDcatResource.md)\>
 
 A resource that is listed in the catalog.
 
@@ -69,7 +69,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
 
 ### dcat:dataset? {#dcatdataset}
 
-> `optional` **dcat:dataset**: `ObjectOrArray`\<[`IDcatDatasetBase`](IDcatDatasetBase.md)\>
+> `optional` **dcat:dataset?**: `ObjectOrArray`\<[`IDcatDatasetBase`](IDcatDatasetBase.md)\>
 
 A dataset that is listed in the catalog.
 
@@ -81,7 +81,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
 
 ### dcat:service? {#dcatservice}
 
-> `optional` **dcat:service**: `ObjectOrArray`\<[`IDcatDataServiceBase`](IDcatDataServiceBase.md)\>
+> `optional` **dcat:service?**: `ObjectOrArray`\<[`IDcatDataServiceBase`](IDcatDataServiceBase.md)\>
 
 A data service that is listed in the catalog.
 
@@ -93,7 +93,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
 
 ### dcat:catalog? {#dcatcatalog}
 
-> `optional` **dcat:catalog**: `ObjectOrArray`\<`IDcatCatalogBase`\>
+> `optional` **dcat:catalog?**: `ObjectOrArray`\<`IDcatCatalogBase`\>
 
 A catalog that is listed in the catalog.
 
@@ -105,7 +105,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
 
 ### dcat:record? {#dcatrecord}
 
-> `optional` **dcat:record**: `ObjectOrArray`\<[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md)\>
+> `optional` **dcat:record?**: `ObjectOrArray`\<[`IDcatCatalogRecordBase`](IDcatCatalogRecordBase.md)\>
 
 A record describing the registration of a single resource in the catalog.
 
@@ -117,7 +117,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
 
 ### dcat:distribution? {#dcatdistribution}
 
-> `optional` **dcat:distribution**: `ObjectOrArray`\<[`IDcatDistributionBase`](IDcatDistributionBase.md)\>
+> `optional` **dcat:distribution?**: `ObjectOrArray`\<[`IDcatDistributionBase`](IDcatDistributionBase.md)\>
 
 An available distribution of the dataset.
 
@@ -133,7 +133,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_distribution
 
 ### dcterms:accrualPeriodicity? {#dctermsaccrualperiodicity}
 
-> `optional` **dcterms:accrualPeriodicity**: `string`
+> `optional` **dcterms:accrualPeriodicity?**: `string`
 
 The frequency at which the dataset is published.
 
@@ -149,7 +149,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_frequency
 
 ### dcat:inSeries? {#dcatinseries}
 
-> `optional` **dcat:inSeries**: `string`
+> `optional` **dcat:inSeries?**: `string`
 
 A dataset series of which the dataset is part.
 
@@ -165,7 +165,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_in_series
 
 ### dcterms:spatial? {#dctermsspatial}
 
-> `optional` **dcterms:spatial**: `string` \| `string`[] \| `IJsonLdNodeObject`
+> `optional` **dcterms:spatial?**: `string` \| `string`[] \| `IJsonLdNodeObject`
 
 The geographical area covered by the dataset.
 
@@ -181,7 +181,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial
 
 ### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
 
-> `optional` **dcat:spatialResolutionInMeters**: `number`
+> `optional` **dcat:spatialResolutionInMeters?**: `number`
 
 Minimum spatial separation resolvable in a dataset, measured in meters.
 
@@ -197,7 +197,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_spatial_resolution
 
 ### dcterms:temporal? {#dctermstemporal}
 
-> `optional` **dcterms:temporal**: `IDublinCorePeriodOfTime`
+> `optional` **dcterms:temporal?**: `IDublinCorePeriodOfTime`
 
 The temporal period that the dataset covers.
 
@@ -213,7 +213,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal
 
 ### dcat:temporalResolution? {#dcattemporalresolution}
 
-> `optional` **dcat:temporalResolution**: `string`
+> `optional` **dcat:temporalResolution?**: `string`
 
 Minimum time period resolvable in the dataset.
 
@@ -229,7 +229,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_temporal_resolution
 
 ### prov:wasGeneratedBy? {#provwasgeneratedby}
 
-> `optional` **prov:wasGeneratedBy**: `string` \| `IJsonLdNodeObject`
+> `optional` **prov:wasGeneratedBy?**: `string` \| `IJsonLdNodeObject`
 
 An activity that generated, or provides the business context for, the creation of the dataset.
 
@@ -245,7 +245,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:dataset_was_generated_by
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 The unique identifier for the resource.
 
@@ -257,7 +257,7 @@ The unique identifier for the resource.
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
 
 A name given to the resource.
 
@@ -273,7 +273,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the resource.
 
@@ -289,7 +289,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
 
 ### dcterms:identifier? {#dctermsidentifier}
 
-> `optional` **dcterms:identifier**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:identifier?**: `ObjectOrArray`\<`string`\>
 
 A unique identifier of the resource.
 
@@ -305,7 +305,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
 
 ### dcterms:issued? {#dctermsissued}
 
-> `optional` **dcterms:issued**: `string`
+> `optional` **dcterms:issued?**: `string`
 
 Date of formal issuance (publication) of the resource.
 
@@ -321,7 +321,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
 
 ### dcterms:modified? {#dctermsmodified}
 
-> `optional` **dcterms:modified**: `string`
+> `optional` **dcterms:modified?**: `string`
 
 Most recent date on which the resource was changed, updated or modified.
 
@@ -337,7 +337,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
 
 ### dcterms:language? {#dctermslanguage}
 
-> `optional` **dcterms:language**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:language?**: `ObjectOrArray`\<`string`\>
 
 A language of the resource.
 
@@ -353,7 +353,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher? {#dctermspublisher}
 
-> `optional` **dcterms:publisher**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:publisher?**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for making the resource available.
 
@@ -369,7 +369,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator? {#dctermscreator}
 
-> `optional` **dcterms:creator**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:creator?**: `string` \| `IFoafAgentWithAliases`
 
 An entity responsible for producing the resource.
 
@@ -385,7 +385,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 
 ### dcterms:accessRights? {#dctermsaccessrights}
 
-> `optional` **dcterms:accessRights**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:accessRights?**: `string` \| `IJsonLdNodeObject`
 
 Information about who can access the resource or an indication of its security status.
 
@@ -401,7 +401,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
 
 ### dcterms:license? {#dctermslicense}
 
-> `optional` **dcterms:license**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:license?**: `string` \| `IJsonLdNodeObject`
 
 A legal document under which the resource is made available.
 
@@ -417,7 +417,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
 
 ### dcterms:rights? {#dctermsrights}
 
-> `optional` **dcterms:rights**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcterms:rights?**: `string` \| `IJsonLdNodeObject`
 
 Information about rights held in and over the resource.
 
@@ -433,7 +433,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the resource conforms.
 
@@ -449,7 +449,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
 
 ### dcterms:type? {#dctermstype}
 
-> `optional` **dcterms:type**: `string`
+> `optional` **dcterms:type?**: `string`
 
 The nature or genre of the resource.
 
@@ -465,7 +465,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
 
 ### dcat:contactPoint? {#dcatcontactpoint}
 
-> `optional` **dcat:contactPoint**: `string` \| `IJsonLdNodeObject`
+> `optional` **dcat:contactPoint?**: `string` \| `IJsonLdNodeObject`
 
 Relevant contact information for the catalogued resource.
 
@@ -481,7 +481,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
 
 ### dcat:keyword? {#dcatkeyword}
 
-> `optional` **dcat:keyword**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:keyword?**: `ObjectOrArray`\<`string`\>
 
 A keyword or tag describing the resource.
 
@@ -497,7 +497,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
 
 ### dcat:theme? {#dcattheme}
 
-> `optional` **dcat:theme**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:theme?**: `ObjectOrArray`\<`string`\>
 
 A main category of the resource. A resource can have multiple themes.
 
@@ -513,7 +513,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
 
 ### dcat:landingPage? {#dcatlandingpage}
 
-> `optional` **dcat:landingPage**: `ObjectOrArray`\<`string`\>
+> `optional` **dcat:landingPage?**: `ObjectOrArray`\<`string`\>
 
 A Web page that can be navigated to gain access to the resource.
 
@@ -529,7 +529,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
 
 ### dcat:qualifiedRelation? {#dcatqualifiedrelation}
 
-> `optional` **dcat:qualifiedRelation**: `string` \| [`IDcatRelationship`](IDcatRelationship.md)
+> `optional` **dcat:qualifiedRelation?**: `string` \| [`IDcatRelationship`](IDcatRelationship.md)
 
 Link to a description of a relationship with another resource.
 
@@ -545,7 +545,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 ### odrl:hasPolicy? {#odrlhaspolicy}
 
-> `optional` **odrl:hasPolicy**: `IOdrlPolicy`
+> `optional` **odrl:hasPolicy?**: `IOdrlPolicy`
 
 An ODRL conformant policy expressing the rights associated with the resource.
 

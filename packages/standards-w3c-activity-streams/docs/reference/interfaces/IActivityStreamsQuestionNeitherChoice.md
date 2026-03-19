@@ -6,7 +6,7 @@ Represents a Question with neither anyOf nor oneOf.
 
 ### anyOf? {#anyof}
 
-> `optional` **anyOf**: `undefined`
+> `optional` **anyOf?**: `undefined`
 
 Specifies an inclusive list of possible answers.
 
@@ -14,6 +14,6 @@ Specifies an inclusive list of possible answers.
 
 ### oneOf? {#oneof}
 
-> `optional` **oneOf**: `undefined`
+> `optional` **oneOf?**: `undefined`
 
 Specifies an exclusive list of possible answers.

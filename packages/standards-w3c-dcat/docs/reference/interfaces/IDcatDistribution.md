@@ -48,11 +48,7 @@ The unique identifier for the distribution object.
 
 ### dcterms:title? {#dctermstitle}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A name given to the distribution.
 
@@ -68,11 +64,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 
 ### dcterms:description? {#dctermsdescription}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 A free-text account of the distribution.
 
@@ -264,11 +256,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-<<<<<<< Updated upstream
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 An established standard to which the distribution conforms.
 

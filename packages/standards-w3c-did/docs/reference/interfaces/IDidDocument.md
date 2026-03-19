@@ -23,11 +23,7 @@ The id for the document.
 
 ### alsoKnownAs? {#alsoknownas}
 
-<<<<<<< Updated upstream
-> `optional` **alsoKnownAs**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **alsoKnownAs?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 Aliases for the document.
 
@@ -35,11 +31,7 @@ Aliases for the document.
 
 ### controller? {#controller}
 
-<<<<<<< Updated upstream
-> `optional` **controller**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **controller?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 The controller for the document.
 

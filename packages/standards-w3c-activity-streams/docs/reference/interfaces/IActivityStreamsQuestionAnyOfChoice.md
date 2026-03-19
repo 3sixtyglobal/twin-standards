@@ -18,7 +18,7 @@ https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
 
 ### oneOf? {#oneof}
 
-> `optional` **oneOf**: `undefined`
+> `optional` **oneOf?**: `undefined`
 
 Specifies an exclusive list of possible answers.
 

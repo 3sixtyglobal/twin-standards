@@ -7,11 +7,7 @@ https://www.w3.org/TR/vc-data-integrity/
 
 ### @context? {#context}
 
-<<<<<<< Updated upstream
-> `optional` **@context**: `"https://w3id.org/security/data-integrity/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/data-integrity/v2"`\>
-=======
 > `optional` **@context?**: `"https://w3id.org/security/data-integrity/v2"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/data-integrity/v2"`\>
->>>>>>> Stashed changes
 
 JSON-LD Context.
 
@@ -84,11 +80,7 @@ The iso date of when the proof expires.
 
 ### domain? {#domain}
 
-<<<<<<< Updated upstream
-> `optional` **domain**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **domain?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 One or more security domains in which the proof is meant to be used.
 
@@ -96,11 +88,7 @@ One or more security domains in which the proof is meant to be used.
 
 ### challenge? {#challenge}
 
-<<<<<<< Updated upstream
-> `optional` **challenge**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **challenge?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 Provided to mitigate replay attacks on domains.
 

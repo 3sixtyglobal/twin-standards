@@ -42,11 +42,7 @@ URI identifier of a specific EPCIS event (alias of id in JSON or XML).
 
 ### certificationInfo? {#certificationinfo}
 
-<<<<<<< Updated upstream
-> `optional` **certificationInfo**: `ObjectOrArray`\<`string`\>
-=======
 > `optional` **certificationInfo?**: `ObjectOrArray`\<`string`\>
->>>>>>> Stashed changes
 
 (Optional) CertificationDetails relevant for Objects, Places and/or
 Organizations mentioned in this Event.

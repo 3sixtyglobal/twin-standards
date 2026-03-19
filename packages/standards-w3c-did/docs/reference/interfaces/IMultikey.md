@@ -7,11 +7,7 @@ https://www.w3.org/TR/cid-1.0/
 
 ### @context? {#context}
 
-<<<<<<< Updated upstream
-> `optional` **@context**: `"https://www.w3.org/ns/cid/v1"` \| `"https://w3id.org/security/multikey/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/cid/v1"`\> \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/multikey/v1"`\>
-=======
 > `optional` **@context?**: `"https://www.w3.org/ns/cid/v1"` \| `"https://w3id.org/security/multikey/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://www.w3.org/ns/cid/v1"`\> \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/multikey/v1"`\>
->>>>>>> Stashed changes
 
 JSON-LD Context.
 

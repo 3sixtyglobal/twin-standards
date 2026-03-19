@@ -24,7 +24,7 @@ The type identifier, typically "CatalogRecord".
 
 ### @id? {#id}
 
-> `optional` **@id**: `string`
+> `optional` **@id?**: `string`
 
 The unique identifier for the catalog record.
 
@@ -32,7 +32,7 @@ The unique identifier for the catalog record.
 
 ### dcterms:title? {#dctermstitle}
 
-> `optional` **dcterms:title**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
 
 A name given to the catalog record.
 
@@ -44,7 +44,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_title
 
 ### dcterms:description? {#dctermsdescription}
 
-> `optional` **dcterms:description**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
 
 A free-text account of the catalog record.
 
@@ -56,7 +56,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_description
 
 ### dcterms:issued? {#dctermsissued}
 
-> `optional` **dcterms:issued**: `string`
+> `optional` **dcterms:issued?**: `string`
 
 The date of listing of the catalog record in the catalog.
 
@@ -68,7 +68,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_listing_date
 
 ### dcterms:modified? {#dctermsmodified}
 
-> `optional` **dcterms:modified**: `string`
+> `optional` **dcterms:modified?**: `string`
 
 Most recent date on which the catalog record entry was changed or modified.
 
@@ -80,7 +80,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_update_date
 
 ### dcterms:conformsTo? {#dctermsconformsto}
 
-> `optional` **dcterms:conformsTo**: `ObjectOrArray`\<`string`\>
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
 
 An established standard to which the catalog record conforms.
 
@@ -92,7 +92,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:record_conforms_to
 
 ### foaf:primaryTopic? {#foafprimarytopic}
 
-> `optional` **foaf:primaryTopic**: [`IDcatResource`](IDcatResource.md)
+> `optional` **foaf:primaryTopic?**: [`IDcatResource`](IDcatResource.md)
 
 The dataset or data service described in the catalog record.
 
