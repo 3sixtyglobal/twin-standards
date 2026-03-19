@@ -49,7 +49,7 @@ export interface IUneceCommunicationEvent {
 	/**
 	 * The date, time, date time, or other date time value of an occurrence of this communication event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime?: string;
 

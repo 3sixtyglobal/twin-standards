@@ -54,7 +54,7 @@ export interface IUneceInspectionInstructions {
 	/**
 	 * The date, time, date time, or other date time value of the latest update of this set of inspection instructions.
 	 * @see https://vocabulary.uncefact.org/latestUpdateDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestUpdateDateTime?: string;
 

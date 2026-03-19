@@ -29,7 +29,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -78,7 +78,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this agricultural certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -91,7 +91,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this agricultural certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -116,7 +116,7 @@ export interface IUneceAgriculturalCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this agricultural certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

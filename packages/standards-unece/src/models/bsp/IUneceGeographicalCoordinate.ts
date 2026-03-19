@@ -27,7 +27,7 @@ export interface IUneceGeographicalCoordinate {
 	/**
 	 * The date, time, date time or other date time value of the acquisition of this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/acquisitionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	acquisitionDateTime?: string;
 
@@ -105,7 +105,7 @@ export interface IUneceGeographicalCoordinate {
 	/**
 	 * The date, time, date time, or other date time value for the time zone of this geographical coordinate.
 	 * @see https://vocabulary.uncefact.org/timeZoneDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	timeZoneDateTime?: string;
 

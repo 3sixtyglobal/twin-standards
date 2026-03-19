@@ -32,14 +32,14 @@ export interface IUneceObservationResult {
 	/**
 	 * The date, time, date time, or other date time value for the end of the observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/actualObservationEndDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualObservationEndDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value for the start of the observation for this sample observation result.
 	 * @see https://vocabulary.uncefact.org/actualObservationStartDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualObservationStartDateTime?: string;
 

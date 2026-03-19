@@ -1,6 +1,7 @@
 {
 	"baseUrl": "https://schema.twindev.org/w3c-activity-streams/",
 	"types": [
+		"./src/models/activityStreamsContextType.ts",
 		"./src/models/IActivityStreamsActivity.ts",
 		"./src/models/IActivityStreamsActor.ts",
 		"./src/models/IActivityStreamsApplication.ts",
@@ -34,6 +35,5 @@
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	},
-	"autoExpandTypes": ["ActivityStreamsContextType"]
+	}
 }

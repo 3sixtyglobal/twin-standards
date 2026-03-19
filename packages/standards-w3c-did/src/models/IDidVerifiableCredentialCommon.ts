@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IDidCredentialSchema } from "./IDidCredentialSchema.js";
 import type { IDidCredentialStatus } from "./IDidCredentialStatus.js";
@@ -19,23 +20,23 @@ export interface IDidVerifiableCredentialCommon {
 	/**
 	 * The types of the data stored in the verifiable credential.
 	 */
-	type: string | string[];
+	type: ObjectOrArray<string>;
 
 	/**
 	 * The data for the verifiable credential.
 	 */
-	credentialSubject?: IJsonLdNodeObject | IJsonLdNodeObject[];
+	credentialSubject?: ObjectOrArray<IJsonLdNodeObject>;
 
 	/**
 	 * Used to discover information about the current status of the
 	 * verifiable credential, such as whether it is suspended or revoked.
 	 */
-	credentialStatus?: IDidCredentialStatus | IDidCredentialStatus[];
+	credentialStatus?: ObjectOrArray<IDidCredentialStatus>;
 
 	/**
 	 * Annotate type definitions or lock them to specific versions of the vocabulary.
 	 */
-	credentialSchema?: IDidCredentialSchema | IDidCredentialSchema[];
+	credentialSchema?: ObjectOrArray<IDidCredentialSchema>;
 
 	/**
 	 * The issuing identity.
@@ -55,11 +56,11 @@ export interface IDidVerifiableCredentialCommon {
 	/**
 	 * Evidence associated with the Credential.
 	 */
-	evidence?: IJsonLdNodeObject | IJsonLdNodeObject[];
+	evidence?: ObjectOrArray<IJsonLdNodeObject>;
 
 	/**
 	 * Proofs that the verifiable credential is valid.
 	 * Optional if a different proof method is used, such as JWT.
 	 */
-	proof?: IProof | IProof[];
+	proof?: ObjectOrArray<IProof>;
 }

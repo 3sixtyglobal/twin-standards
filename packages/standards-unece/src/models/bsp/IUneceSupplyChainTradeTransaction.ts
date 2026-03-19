@@ -137,7 +137,7 @@ export interface IUneceSupplyChainTradeTransaction {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this supply chain trade transaction.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

@@ -30,7 +30,7 @@ export interface IUneceSpecifiedNote {
 	/**
 	 * The date, time, date time, or other date time value for the creation of this specified note.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 

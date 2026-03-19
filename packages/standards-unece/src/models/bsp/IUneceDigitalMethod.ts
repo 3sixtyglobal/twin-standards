@@ -49,7 +49,7 @@ export interface IUneceDigitalMethod {
 	/**
 	 * The expiry date or date time of this digital method used for payment.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -74,7 +74,7 @@ export interface IUneceDigitalMethod {
 	/**
 	 * The date or date time from when this digital method used for payment is valid.
 	 * @see https://vocabulary.uncefact.org/validFromDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	validFromDateTime?: string;
 

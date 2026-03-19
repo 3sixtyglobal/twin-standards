@@ -64,7 +64,7 @@ export interface IUneceAcknowledgementDocument {
 	/**
 	 * The date or date time value of the creation of this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 
@@ -83,7 +83,7 @@ export interface IUneceAcknowledgementDocument {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this acknowledgement document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -127,7 +127,7 @@ export interface IUneceAcknowledgementDocument {
 	 * The date, time, date time or other date time value of the receipt of the report being acknowledged by this
 	 * acknowledgment document.
 	 * @see https://vocabulary.uncefact.org/reportReceiptDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	reportReceiptDateTime?: string;
 
@@ -135,7 +135,7 @@ export interface IUneceAcknowledgementDocument {
 	 * The date, time, date time or other date time value of the submission of the report being acknowledged by this
 	 * acknowledgment document.
 	 * @see https://vocabulary.uncefact.org/reportSubmissionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	reportSubmissionDateTime?: string;
 

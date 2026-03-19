@@ -37,7 +37,7 @@ export interface IUneceGuestArrival {
 	/**
 	 * The date, time, date time, or other date time value when this specified guest arrival is expected.
 	 * @see https://vocabulary.uncefact.org/expectedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expectedDateTime?: string;
 

@@ -94,7 +94,7 @@ export interface IUneceExchangedDeclaration {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this exchanged declaration.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -102,7 +102,7 @@ export interface IUneceExchangedDeclaration {
 	 * The date, time, date time or other date time value when the items which are a subject of this exchanged declaration
 	 * enter a jurisdiction, such as the actual date of arrival of a means of transport.
 	 * @see https://vocabulary.uncefact.org/jurisdictionEntryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	jurisdictionEntryDateTime?: string;
 

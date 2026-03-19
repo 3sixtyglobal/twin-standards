@@ -129,7 +129,7 @@ export interface IUnecePicture {
 	/**
 	 * The date, time, date time, or other date value of when this photographic picture was created.
 	 * @see https://vocabulary.uncefact.org/takenDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	takenDateTime?: string;
 

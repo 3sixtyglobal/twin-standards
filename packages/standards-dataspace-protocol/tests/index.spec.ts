@@ -69,6 +69,7 @@ describe("Dataspace Protocol", () => {
 				"@context": OdrlContexts.JsonLdContext,
 				"@type": "Offer",
 				uid: "policy:policy1",
+				assigner: "did:iota:0x123456789abcdef",
 				permission: [
 					{
 						action: "use"
@@ -117,6 +118,7 @@ describe("Dataspace Protocol", () => {
 			hasPolicy: {
 				"@type": "Offer",
 				"@id": "policy:policy1",
+				assigner: "did:iota:0x123456789abcdef",
 				permission: [
 					{
 						action: "use"

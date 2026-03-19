@@ -37,7 +37,7 @@ export interface IUneceConformanceCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this conformance certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

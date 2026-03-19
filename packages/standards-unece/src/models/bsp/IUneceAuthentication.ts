@@ -29,7 +29,7 @@ export interface IUneceAuthentication {
 	/**
 	 * The actual date, time, date time, or other date time value of this document authentication.
 	 * @see https://vocabulary.uncefact.org/actualDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualDateTime?: string;
 

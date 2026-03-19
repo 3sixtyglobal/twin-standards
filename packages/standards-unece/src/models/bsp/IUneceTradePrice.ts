@@ -59,7 +59,7 @@ export interface IUneceTradePrice {
 	/**
 	 * The date, time, date time, or other date time value used as the basis for this trade price.
 	 * @see https://vocabulary.uncefact.org/basisDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	basisDateTime?: string;
 
@@ -150,7 +150,7 @@ export interface IUneceTradePrice {
 	/**
 	 * The expiry date, time, date time, or other date time value for this trade price.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 

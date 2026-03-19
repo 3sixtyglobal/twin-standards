@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { SingleOccurrenceArray } from "@twin.org/core";
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
 import type { DidContexts } from "./didContexts.js";
 import type { DidTypes } from "./didTypes.js";
@@ -15,8 +16,14 @@ export interface IMultikey {
 	"@context"?:
 		| typeof DidContexts.ContextControllerIdentifiers
 		| typeof DidContexts.ContextSecurityMultikey
-		| [typeof DidContexts.ContextControllerIdentifiers, ...IJsonLdContextDefinitionElement[]]
-		| [typeof DidContexts.ContextSecurityMultikey, ...IJsonLdContextDefinitionElement[]];
+		| SingleOccurrenceArray<
+				IJsonLdContextDefinitionElement,
+				typeof DidContexts.ContextControllerIdentifiers
+		  >
+		| SingleOccurrenceArray<
+				IJsonLdContextDefinitionElement,
+				typeof DidContexts.ContextSecurityMultikey
+		  >;
 
 	/**
 	 * The id of the entry.

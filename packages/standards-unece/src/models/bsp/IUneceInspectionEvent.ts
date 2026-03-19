@@ -31,7 +31,7 @@ export interface IUneceInspectionEvent {
 	/**
 	 * The date, time, date time, or other date time value of the occurrence of this inspection event.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime: string;
 

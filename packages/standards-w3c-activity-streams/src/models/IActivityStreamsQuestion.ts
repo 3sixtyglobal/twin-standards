@@ -13,25 +13,11 @@ import type { IActivityStreamsIntransitiveActivity } from "./IActivityStreamsInt
  * is closed.
  * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
  */
-export interface IActivityStreamsQuestion extends IActivityStreamsIntransitiveActivity {
+interface IActivityStreamsQuestionBase extends IActivityStreamsIntransitiveActivity {
 	/**
 	 * Question type.
 	 */
-	type:
-		| (typeof ActivityStreamsTypes.Question | string)
-		| (typeof ActivityStreamsTypes.Question | string)[];
-
-	/**
-	 * Specifies an inclusive list of possible answers.
-	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
-	 */
-	anyOf?: ObjectOrArray<IJsonLdNodeObject>;
-
-	/**
-	 * Specifies an exclusive list of possible answers.
-	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-oneof
-	 */
-	oneOf?: ObjectOrArray<IJsonLdNodeObject>;
+	type: ObjectOrArray<typeof ActivityStreamsTypes.Question | string>;
 
 	/**
 	 * Indicates that the Question has been closed.
@@ -39,3 +25,67 @@ export interface IActivityStreamsQuestion extends IActivityStreamsIntransitiveAc
 	 */
 	closed?: boolean | string;
 }
+
+/**
+ * Represents a Question with an inclusive list of possible answers, but not an exclusive list.
+ */
+interface IActivityStreamsQuestionAnyOfChoice {
+	/**
+	 * Specifies an inclusive list of possible answers.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
+	 */
+	anyOf: ObjectOrArray<IJsonLdNodeObject>;
+
+	/**
+	 * Specifies an exclusive list of possible answers.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-oneof
+	 */
+	oneOf?: never;
+}
+
+/**
+ * Represents a Question with an exclusive list of possible answers, but not an inclusive list.
+ */
+interface IActivityStreamsQuestionOneOfChoice {
+	/**
+	 * Specifies an inclusive list of possible answers.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-anyof
+	 */
+	anyOf?: never;
+
+	/**
+	 * Specifies an exclusive list of possible answers.
+	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-oneof
+	 */
+	oneOf: ObjectOrArray<IJsonLdNodeObject>;
+}
+
+/**
+ * Represents a Question with neither anyOf nor oneOf.
+ */
+interface IActivityStreamsQuestionNeitherChoice {
+	/**
+	 * Specifies an inclusive list of possible answers.
+	 */
+	anyOf?: never;
+
+	/**
+	 * Specifies an exclusive list of possible answers.
+	 */
+	oneOf?: never;
+}
+
+/**
+ * A W3C Activity Streams Question.
+ *
+ * A `Question` represents a question being asked. Use `oneOf` for exclusive
+ * choices, `anyOf` for inclusive choices, and `closed` to indicate when the question
+ * is closed.
+ * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-question
+ */
+export type IActivityStreamsQuestion = IActivityStreamsQuestionBase &
+	(
+		| IActivityStreamsQuestionAnyOfChoice
+		| IActivityStreamsQuestionOneOfChoice
+		| IActivityStreamsQuestionNeitherChoice
+	);

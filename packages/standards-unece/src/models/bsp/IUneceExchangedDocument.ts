@@ -37,7 +37,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value for the acceptance of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/acceptanceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	acceptanceDateTime?: string;
 
@@ -86,7 +86,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value of a cancellation of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/cancellationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	cancellationDateTime?: string;
 
@@ -129,7 +129,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value of a creation of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 
@@ -203,7 +203,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value when the first version of this exchanged document was issued.
 	 * @see https://vocabulary.uncefact.org/firstVersionIssueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	firstVersionIssueDateTime?: string;
 
@@ -247,7 +247,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value for the issuance of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -375,7 +375,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * A date, time, date time, or other date time value of a rejection response of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/rejectionResponseDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	rejectionResponseDateTime?: string;
 
@@ -388,7 +388,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * A date, time, date time, or other date time value of a response of the exchanged document.
 	 * @see https://vocabulary.uncefact.org/responseDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	responseDateTime?: string;
 
@@ -401,7 +401,7 @@ export interface IUneceExchangedDocument {
 	/**
 	 * The date, time, date time or other date time value for the revision of this exchanged document.
 	 * @see https://vocabulary.uncefact.org/revisionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	revisionDateTime?: string;
 
@@ -440,7 +440,7 @@ export interface IUneceExchangedDocument {
 	 * The date, time, date time or other date time value for the formal submission of this exchanged document to a receiver by
 	 * a sender.
 	 * @see https://vocabulary.uncefact.org/submissionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	submissionDateTime?: string;
 

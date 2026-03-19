@@ -54,7 +54,7 @@ export interface IUneceSpecifiedDeclaration {
 	/**
 	 * The issue date, time, date time or other date time value for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

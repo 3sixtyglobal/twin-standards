@@ -12,3 +12,4 @@ packages/standards-unece/src/models/typeCodes/
 packages/standards-unece/src/models/uneceTypes.ts
 packages/standards-unece/src/models/uneceCodeLists.ts
 packages/standards-unece/src-data/
+*.gz

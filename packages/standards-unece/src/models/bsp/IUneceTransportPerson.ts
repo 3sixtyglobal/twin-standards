@@ -47,7 +47,7 @@ export interface IUneceTransportPerson {
 	/**
 	 * The birth date of this transport person.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	birthDateTime?: string;
 
@@ -84,7 +84,7 @@ export interface IUneceTransportPerson {
 	/**
 	 * A date, time, date time, or other date time value that this person disembarked from a means of transport.
 	 * @see https://vocabulary.uncefact.org/disembarkationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	disembarkationDateTime?: string;
 
@@ -103,7 +103,7 @@ export interface IUneceTransportPerson {
 	/**
 	 * A date, time, date time, or other date time value that this person embarked upon a means of transport.
 	 * @see https://vocabulary.uncefact.org/embarkationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	embarkationDateTime?: string;
 

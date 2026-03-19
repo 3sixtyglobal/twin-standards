@@ -60,7 +60,7 @@ export interface IUneceAppliedChemicalTreatment {
 	/**
 	 * The date time of the occurrence of this applied chemical treatment.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime?: string;
 

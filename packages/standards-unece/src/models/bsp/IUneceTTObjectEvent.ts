@@ -73,7 +73,7 @@ export interface IUneceTTObjectEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT object event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -92,7 +92,7 @@ export interface IUneceTTObjectEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT object event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	recordedDateTime: string;
 

@@ -51,7 +51,7 @@ export interface IUneceGovernmentRegistration {
 	/**
 	 * The last registered year of this government registration.
 	 * @see https://vocabulary.uncefact.org/lastRegisteredYearDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	lastRegisteredYearDateTime?: string;
 

@@ -105,7 +105,7 @@ export interface IUneceTransportMovement {
 	/**
 	 * A date, time, date time or other date time value when this logistics transport movement crosses a border.
 	 * @see https://vocabulary.uncefact.org/borderCrossingDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	borderCrossingDateTime?: string;
 
@@ -162,7 +162,7 @@ export interface IUneceTransportMovement {
 	 * The date, time, date time, or other date time value by which cargo should be loaded onto the means of transport for the
 	 * departure of this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/closingDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	closingDateTime?: string;
 

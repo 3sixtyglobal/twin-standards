@@ -90,7 +90,7 @@ export interface IUneceHeaderTradeAgreement {
 	/**
 	 * The date, time, date time, or other date time value of approval by the buyer for this header trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerApprovedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	buyerApprovedDateTime?: string;
 

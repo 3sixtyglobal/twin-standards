@@ -38,7 +38,7 @@ export interface IUneceCurrencyExchange {
 	/**
 	 * The date, time, date time or other date time value of the conversion rate for this trade related currency exchange.
 	 * @see https://vocabulary.uncefact.org/conversionRateDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	conversionRateDateTime?: string;
 

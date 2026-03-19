@@ -28,19 +28,9 @@ export const DataspaceProtocolCatalogTypes = {
 	Dataset: "Dataset",
 
 	/**
-	 * Dataset without JSON-LD context.
-	 */
-	DatasetNoContext: "DatasetNoContext",
-
-	/**
 	 * Data Service.
 	 */
 	DataService: "DataService",
-
-	/**
-	 * Data Service without JSON-LD context.
-	 */
-	DataServiceNoContext: "DataServiceNoContext",
 
 	/**
 	 * Distribution.
@@ -48,19 +38,9 @@ export const DataspaceProtocolCatalogTypes = {
 	Distribution: "Distribution",
 
 	/**
-	 * Distribution without JSON-LD context.
-	 */
-	DistributionNoContext: "DistributionNoContext",
-
-	/**
 	 * Catalog.
 	 */
 	Catalog: "Catalog",
-
-	/**
-	 * Catalog without JSON-LD context.
-	 */
-	CatalogNoContext: "CatalogNoContext",
 
 	/**
 	 * Policy.
@@ -68,19 +48,9 @@ export const DataspaceProtocolCatalogTypes = {
 	Policy: "Policy",
 
 	/**
-	 * Policy without JSON-LD context.
-	 */
-	PolicyNoContext: "PolicyNoContext",
-
-	/**
 	 * Offer.
 	 */
 	Offer: "Offer",
-
-	/**
-	 * Offer without JSON-LD context.
-	 */
-	OfferNoContext: "OfferNoContext",
 
 	/**
 	 * Agreement.
@@ -88,19 +58,9 @@ export const DataspaceProtocolCatalogTypes = {
 	Agreement: "Agreement",
 
 	/**
-	 * Agreement without JSON-LD context.
-	 */
-	AgreementNoContext: "AgreementNoContext",
-
-	/**
 	 * Set.
 	 */
-	Set: "Set",
-
-	/**
-	 * Set without JSON-LD context.
-	 */
-	SetNoContext: "SetNoContext"
+	Set: "Set"
 } as const;
 
 /**

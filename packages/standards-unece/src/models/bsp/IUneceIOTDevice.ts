@@ -77,7 +77,7 @@ export interface IUneceIOTDevice {
 	 * The date, time, date time or other date time value of the latest received signal for this monitoring IOT device, from
 	 * the perspective of the receiver.
 	 * @see https://vocabulary.uncefact.org/latestReceivedSignalDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestReceivedSignalDateTime?: string;
 

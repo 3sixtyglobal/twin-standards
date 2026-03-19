@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { EpcisContextType } from "./epcisContextType.js";
 import type { IEpcisErrorDeclaration } from "./IEpcisErrorDeclaration.js";
 
@@ -27,7 +28,7 @@ export interface IEpcisEvent {
 	 * (Optional) CertificationDetails relevant for Objects, Places and/or
 	 * Organizations mentioned in this Event.
 	 */
-	certificationInfo?: string | string[];
+	certificationInfo?: ObjectOrArray<string>;
 
 	/**
 	 * Error declaration.

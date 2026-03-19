@@ -74,7 +74,7 @@ export interface IUneceTTTransformationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT transformation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -99,7 +99,7 @@ export interface IUneceTTTransformationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT transformation event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	recordedDateTime: string;
 

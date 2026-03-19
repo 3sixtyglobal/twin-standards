@@ -15,14 +15,12 @@ export interface IActivityStreamsTombstone extends IActivityStreamsObject {
 	/**
 	 * Tombstone type.
 	 */
-	type:
-		| (typeof ActivityStreamsObjectTypes.Tombstone | string)
-		| (typeof ActivityStreamsObjectTypes.Tombstone | string)[];
+	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.Tombstone | string>;
 
 	/**
 	 * The date and time at which the object was deleted.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-deleted
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	deleted?: string;
 

@@ -1,5 +1,6 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { ActivityStreamsObjectTypes } from "./activityStreamsObjectTypes.js";
 import type { IActivityStreamsObject } from "./IActivityStreamsObject.js";
@@ -16,9 +17,7 @@ export interface IActivityStreamsRelationship extends IActivityStreamsObject {
 	/**
 	 * Relationship type.
 	 */
-	type:
-		| (typeof ActivityStreamsObjectTypes.Relationship | string)
-		| (typeof ActivityStreamsObjectTypes.Relationship | string)[];
+	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.Relationship | string>;
 
 	/**
 	 * Subject of the relationship.

@@ -41,7 +41,7 @@ export interface IUneceExperienceFacility {
 	/**
 	 * The date of the completion of this experience facility.
 	 * @see https://vocabulary.uncefact.org/completionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	completionDateTime?: string;
 
@@ -72,7 +72,7 @@ export interface IUneceExperienceFacility {
 	/**
 	 * The date of the latest renovation of this experience facility.
 	 * @see https://vocabulary.uncefact.org/latestRenovationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestRenovationDateTime?: string;
 

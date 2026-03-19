@@ -47,7 +47,7 @@ export interface IUneceLicence {
 	/**
 	 * An expiry date, time, date time or other date time value for this specified licence.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -66,7 +66,7 @@ export interface IUneceLicence {
 	/**
 	 * An issue date, time, date time or other date time value of this specified licence.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlDuty } from "./IOdrlDuty.js";
 import type { IOdrlRule } from "./IOdrlRule.js";
 
@@ -14,5 +15,5 @@ export interface IOdrlPermission extends IOdrlRule {
 	 * The duties that must be fulfilled before the permission can be exercised.
 	 * A Permission MAY have none, one, or more duty property values.
 	 */
-	duty?: IOdrlDuty | IOdrlDuty[];
+	duty?: ObjectOrArray<IOdrlDuty>;
 }

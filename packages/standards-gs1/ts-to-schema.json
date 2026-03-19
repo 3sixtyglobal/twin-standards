@@ -1,6 +1,7 @@
 {
 	"baseUrl": "https://schema.twindev.org/gs1-epcis/",
 	"types": [
+		"./src/models/epcis20/epcisContextType.ts",
 		"./src/models/epcis20/epcisActionTypes.ts",
 		"./src/models/epcis20/epcisBizStepTypes.ts",
 		"./src/models/epcis20/epcisBizTransactionTypes.ts",
@@ -42,6 +43,5 @@
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	},
-	"autoExpandTypes": ["EpcisContextType"]
+	}
 }

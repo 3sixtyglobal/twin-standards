@@ -24,7 +24,7 @@ export interface IUneceSanitaryMeasure {
 	/**
 	 * An application date, time, date time or other date time value for this MDH sanitary measure.
 	 * @see https://vocabulary.uncefact.org/applicationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	applicationDateTime?: string;
 

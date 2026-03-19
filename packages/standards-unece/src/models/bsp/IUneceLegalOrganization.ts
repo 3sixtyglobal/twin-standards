@@ -46,7 +46,7 @@ export interface IUneceLegalOrganization {
 	/**
 	 * The date, time, date time, or other date time value when this legally set up organization was established.
 	 * @see https://vocabulary.uncefact.org/establishedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	establishedDateTime?: string;
 

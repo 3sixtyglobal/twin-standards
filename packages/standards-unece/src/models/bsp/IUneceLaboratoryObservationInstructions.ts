@@ -55,7 +55,7 @@ export interface IUneceLaboratoryObservationInstructions {
 	 * The date, time, date time, or other date time value of the latest update of this set of laboratory observation
 	 * instructions.
 	 * @see https://vocabulary.uncefact.org/latestUpdateDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestUpdateDateTime?: string;
 

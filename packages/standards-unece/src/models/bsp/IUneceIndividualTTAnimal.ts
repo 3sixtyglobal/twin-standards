@@ -25,14 +25,14 @@ export interface IUneceIndividualTTAnimal {
 	/**
 	 * The birth date for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	birthDateTime: string;
 
 	/**
 	 * The death date for this individual TT animal.
 	 * @see https://vocabulary.uncefact.org/deathDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	deathDateTime: string;
 

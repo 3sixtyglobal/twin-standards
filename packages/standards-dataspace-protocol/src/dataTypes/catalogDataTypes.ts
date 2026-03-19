@@ -5,24 +5,21 @@ import { DcatContexts } from "@twin.org/standards-w3c-dcat";
 import { DataspaceProtocolCatalogTypes } from "../models/catalog/dataspaceProtocolCatalogTypes.js";
 import { DataspaceProtocolContexts } from "../models/dataspaceProtocolContexts.js";
 import DsProtocolAgreementSchema from "../schemas/DataspaceProtocolAgreement.json" with { type: "json" };
-import DsProtocolAgreementNoContextSchema from "../schemas/DataspaceProtocolAgreementNoContext.json" with { type: "json" };
 import DsProtocolCatalogSchema from "../schemas/DataspaceProtocolCatalog.json" with { type: "json" };
+import DsProtocolCatalogBaseSchema from "../schemas/DataspaceProtocolCatalogBase.json" with { type: "json" };
 import CatalogErrorSchema from "../schemas/DataspaceProtocolCatalogError.json" with { type: "json" };
-import DsProtocolCatalogNoContextSchema from "../schemas/DataspaceProtocolCatalogNoContext.json" with { type: "json" };
 import CatalogRequestMessageSchema from "../schemas/DataspaceProtocolCatalogRequestMessage.json" with { type: "json" };
-import DsProtocolDataServiceNoContextSchema from "../schemas/DataspaceProtocolDataServiceNoContext.json" with { type: "json" };
+import DsProtocolDataServiceSchema from "../schemas/DataspaceProtocolDataService.json" with { type: "json" };
+import DsProtocolDataServiceBaseSchema from "../schemas/DataspaceProtocolDataServiceBase.json" with { type: "json" };
 import DsProtocolDatasetSchema from "../schemas/DataspaceProtocolDataset.json" with { type: "json" };
-import DsProtocolDatasetNoContextSchema from "../schemas/DataspaceProtocolDatasetNoContext.json" with { type: "json" };
+import DsProtocolDatasetBaseSchema from "../schemas/DataspaceProtocolDatasetBase.json" with { type: "json" };
 import DatasetRequestMessageSchema from "../schemas/DataspaceProtocolDatasetRequestMessage.json" with { type: "json" };
-import DsProtocolDistributionNoContextSchema from "../schemas/DataspaceProtocolDistributionNoContext.json" with { type: "json" };
+import DsProtocolDistributionSchema from "../schemas/DataspaceProtocolDistribution.json" with { type: "json" };
+import DsProtocolDistributionBaseSchema from "../schemas/DataspaceProtocolDistributionBase.json" with { type: "json" };
 import DsProtocolOfferSchema from "../schemas/DataspaceProtocolOffer.json" with { type: "json" };
-import DsProtocolOfferNoContextSchema from "../schemas/DataspaceProtocolOfferNoContext.json" with { type: "json" };
+import DsProtocolOfferBaseSchema from "../schemas/DataspaceProtocolOfferBase.json" with { type: "json" };
 import DsProtocolPolicySchema from "../schemas/DataspaceProtocolPolicy.json" with { type: "json" };
-import DsProtocolPolicyNoContextSchema from "../schemas/DataspaceProtocolPolicyNoContext.json" with { type: "json" };
 import DsProtocolSetSchema from "../schemas/DataspaceProtocolSet.json" with { type: "json" };
-import DsProtocolSetNoContextSchema from "../schemas/DataspaceProtocolSetNoContext.json" with { type: "json" };
-import DsProtocolDataServiceSchema from "../schemas-src/DataspaceProtocolDataService.json" with { type: "json" };
-import DsProtocolDistributionSchema from "../schemas-src/DataspaceProtocolDistribution.json" with { type: "json" };
 
 /**
  * Handle all the catalog data types for Dataspace Protocol.
@@ -66,33 +63,27 @@ export class CatalogDataTypes {
 				schema: DsProtocolDatasetSchema
 			},
 			{
-				type: DataspaceProtocolCatalogTypes.DatasetNoContext,
-				schema: DsProtocolDatasetNoContextSchema
-			},
-			{
 				type: DataspaceProtocolCatalogTypes.Catalog,
 				schema: DsProtocolCatalogSchema
-			},
-			{
-				type: DataspaceProtocolCatalogTypes.CatalogNoContext,
-				schema: DsProtocolCatalogNoContextSchema
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Distribution,
 				schema: DsProtocolDistributionSchema
 			},
 			{
-				type: DataspaceProtocolCatalogTypes.DistributionNoContext,
-				schema: DsProtocolDistributionNoContextSchema
-			},
-			{
 				type: DataspaceProtocolCatalogTypes.DataService,
 				schema: DsProtocolDataServiceSchema
 			},
+			{ type: `${DataspaceProtocolCatalogTypes.Dataset}Base`, schema: DsProtocolDatasetBaseSchema },
 			{
-				type: DataspaceProtocolCatalogTypes.DataServiceNoContext,
-				schema: DsProtocolDataServiceNoContextSchema
-			}
+				type: `${DataspaceProtocolCatalogTypes.Distribution}Base`,
+				schema: DsProtocolDistributionBaseSchema
+			},
+			{
+				type: `${DataspaceProtocolCatalogTypes.DataService}Base`,
+				schema: DsProtocolDataServiceBaseSchema
+			},
+			{ type: `${DataspaceProtocolCatalogTypes.Catalog}Base`, schema: DsProtocolCatalogBaseSchema }
 		];
 
 		DataTypeHelper.registerTypes(
@@ -114,32 +105,20 @@ export class CatalogDataTypes {
 				schema: DsProtocolPolicySchema
 			},
 			{
-				type: DataspaceProtocolCatalogTypes.PolicyNoContext,
-				schema: DsProtocolPolicyNoContextSchema
-			},
-			{
 				type: DataspaceProtocolCatalogTypes.Offer,
 				schema: DsProtocolOfferSchema
 			},
 			{
-				type: DataspaceProtocolCatalogTypes.OfferNoContext,
-				schema: DsProtocolOfferNoContextSchema
+				type: `${DataspaceProtocolCatalogTypes.Offer}Base`,
+				schema: DsProtocolOfferBaseSchema
 			},
 			{
 				type: DataspaceProtocolCatalogTypes.Agreement,
 				schema: DsProtocolAgreementSchema
 			},
 			{
-				type: DataspaceProtocolCatalogTypes.AgreementNoContext,
-				schema: DsProtocolAgreementNoContextSchema
-			},
-			{
 				type: DataspaceProtocolCatalogTypes.Set,
 				schema: DsProtocolSetSchema
-			},
-			{
-				type: DataspaceProtocolCatalogTypes.SetNoContext,
-				schema: DsProtocolSetNoContextSchema
 			}
 		];
 

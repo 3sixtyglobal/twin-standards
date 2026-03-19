@@ -45,7 +45,7 @@ export interface IUneceExperienceEvent {
 	/**
 	 * The break up date, time, date time, or other date time value for this experience event.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	breakUpDateTime?: string;
 
@@ -106,7 +106,7 @@ export interface IUneceExperienceEvent {
 	/**
 	 * The meeting date, time, date time, or other date time value for this experience event.
 	 * @see https://vocabulary.uncefact.org/meetingDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	meetingDateTime?: string;
 

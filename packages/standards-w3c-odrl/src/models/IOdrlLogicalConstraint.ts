@@ -12,6 +12,7 @@ export interface IOdrlLogicalConstraint {
 	/**
 	 * Optional unique identifier for the logical constraint.
 	 * Must be an IRI.
+	 * @json-schema format:uri
 	 */
 	uid?: string;
 

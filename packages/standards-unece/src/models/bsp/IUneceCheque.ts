@@ -75,7 +75,7 @@ export interface IUneceCheque {
 	/**
 	 * The date, time, date time, or other date time value when this payment cheque reaches maturity.
 	 * @see https://vocabulary.uncefact.org/maturityDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	maturityDateTime?: string;
 

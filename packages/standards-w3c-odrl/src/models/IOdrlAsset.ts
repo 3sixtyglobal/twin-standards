@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
 
 /**
@@ -23,11 +24,11 @@ export interface IOdrlAsset {
 	 * Reference to the asset collection this asset is part of.
 	 * Used to identify an AssetCollection that this Asset is a member of.
 	 */
-	partOf?: string | IOdrlAssetCollection | (string | IOdrlAssetCollection)[];
+	partOf?: ObjectOrArray<string | IOdrlAssetCollection>;
 
 	/**
 	 * Reference to the policy that governs this asset.
 	 * Used to identify the Policy that governs this Asset.
 	 */
-	hasPolicy?: string | string[];
+	hasPolicy?: ObjectOrArray<string>;
 }

@@ -50,7 +50,7 @@ export interface IUneceLegalRegistration {
 	/**
 	 * The last year in which this legal registration was registered.
 	 * @see https://vocabulary.uncefact.org/lastRegisteredYearDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	lastRegisteredYearDateTime?: string;
 

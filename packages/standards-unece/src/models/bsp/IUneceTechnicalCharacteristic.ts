@@ -59,7 +59,7 @@ export interface IUneceTechnicalCharacteristic {
 	/**
 	 * The date, time, date time, or other date time value of the construction of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/constructionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	constructionDateTime?: string;
 
@@ -84,7 +84,7 @@ export interface IUneceTechnicalCharacteristic {
 	/**
 	 * The date, time, date time, or other date time value of the latest renovation of this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/latestRenovationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestRenovationDateTime?: string;
 
@@ -145,7 +145,7 @@ export interface IUneceTechnicalCharacteristic {
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value. for this technical characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	valueDateTime?: string;
 

@@ -72,7 +72,7 @@ export interface IUneceTTAggregationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT aggregation event occurred.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime: string;
 
@@ -91,7 +91,7 @@ export interface IUneceTTAggregationEvent {
 	/**
 	 * The date, time, date time, or other date time value at which this TT aggregation event was recorded.
 	 * @see https://vocabulary.uncefact.org/recordedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	recordedDateTime: string;
 

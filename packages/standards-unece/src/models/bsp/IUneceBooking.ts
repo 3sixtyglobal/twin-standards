@@ -23,21 +23,21 @@ export interface IUneceBooking {
 	/**
 	 * An actual date, time, date time, or other date time value of this financial booking.
 	 * @see https://vocabulary.uncefact.org/actualDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualDateTime?: string;
 
 	/**
 	 * The credit date, time, date time, or other date time value of this financial booking.
 	 * @see https://vocabulary.uncefact.org/creditDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creditDateTime?: string;
 
 	/**
 	 * The debit date, time, date time, or other date time value of this financial booking.
 	 * @see https://vocabulary.uncefact.org/debitDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	debitDateTime?: string;
 }

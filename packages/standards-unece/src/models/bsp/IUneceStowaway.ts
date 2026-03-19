@@ -49,7 +49,7 @@ export interface IUneceStowaway {
 	/**
 	 * A date, time, date time, or other date time value on which this found stowaway is discovered.
 	 * @see https://vocabulary.uncefact.org/discoveredDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	discoveredDateTime?: string;
 
@@ -80,7 +80,7 @@ export interface IUneceStowaway {
 	/**
 	 * A date, time, date time, or other date time value on which this found stowaway is interviewed.
 	 * @see https://vocabulary.uncefact.org/interviewDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	interviewDateTime?: string;
 

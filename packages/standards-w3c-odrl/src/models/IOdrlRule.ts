@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlAction } from "./IOdrlAction.js";
 import type { IOdrlAsset } from "./IOdrlAsset.js";
 import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
@@ -22,42 +23,27 @@ export interface IOdrlRule {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ActionType | string | IOdrlAction | (ActionType | string | IOdrlAction)[];
+	action?: ObjectOrArray<ActionType | string | IOdrlAction>;
 
 	/**
 	 * The target asset for the rule.
 	 */
-	target?:
-		| string
-		| IOdrlAsset
-		| IOdrlAssetCollection
-		| (string | IOdrlAsset | IOdrlAssetCollection)[];
+	target?: ObjectOrArray<string | IOdrlAsset | IOdrlAssetCollection>;
 
 	/**
 	 * The assigner of the rule.
 	 */
-	assigner?:
-		| string
-		| IOdrlParty
-		| IOdrlPartyCollection
-		| (string | IOdrlParty | IOdrlPartyCollection)[];
+	assigner?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * The assignee of the rule.
 	 */
-	assignee?:
-		| string
-		| IOdrlParty
-		| IOdrlPartyCollection
-		| (string | IOdrlParty | IOdrlPartyCollection)[];
+	assignee?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * Constraints applied to the rule.
 	 */
-	constraint?:
-		| IOdrlConstraint
-		| IOdrlLogicalConstraint
-		| (IOdrlConstraint | IOdrlLogicalConstraint)[];
+	constraint?: ObjectOrArray<IOdrlConstraint | IOdrlLogicalConstraint>;
 
 	/**
 	 * Additional relation sub-properties as defined in ODRL profiles.

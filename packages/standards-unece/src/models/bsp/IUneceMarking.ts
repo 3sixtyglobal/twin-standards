@@ -51,7 +51,7 @@ export interface IUneceMarking {
 	/**
 	 * The date, time, date time or other date time value for the content of this packaging marking.
 	 * @see https://vocabulary.uncefact.org/contentDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	contentDateTime?: string;
 

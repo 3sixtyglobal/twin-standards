@@ -36,14 +36,14 @@ export interface IUneceCropProduceBatch {
 	/**
 	 * The date, time, date time, or other date time value of the break up of this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	breakUpDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the creation of this crop produce batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 

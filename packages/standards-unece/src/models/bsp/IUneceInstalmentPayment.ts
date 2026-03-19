@@ -27,7 +27,7 @@ export interface IUneceInstalmentPayment {
 	/**
 	 * The due date for this instalment payment.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	dueDateTime?: string;
 

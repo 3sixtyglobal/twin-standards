@@ -7,6 +7,7 @@ import AddressSchema from "../schemas/Address.json" with { type: "json" };
 import DataExchangeComponentSchema from "../schemas/DataExchangeComponent.json" with { type: "json" };
 import DataResourceSchema from "../schemas/DataResource.json" with { type: "json" };
 import EndpointSchema from "../schemas/Endpoint.json" with { type: "json" };
+import ContextTypeSchema from "../schemas/GaiaXContextType.json" with { type: "json" };
 import LegalPersonSchema from "../schemas/LegalPerson.json" with { type: "json" };
 import RegistrationNumberSchema from "../schemas/RegistrationNumber.json" with { type: "json" };
 import ServiceOfferingSchema from "../schemas/ServiceOffering.json" with { type: "json" };
@@ -47,6 +48,10 @@ export class GaiaXDataTypes {
 			{
 				type: GaiaXTypes.RegistrationNumber,
 				schema: RegistrationNumberSchema
+			},
+			{
+				type: "ContextType",
+				schema: ContextTypeSchema
 			}
 		];
 

@@ -120,7 +120,7 @@ export interface IUneceProductCharacteristic {
 	/**
 	 * The value for this product characteristic expressed as a date, time, date time, or other date time value.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	valueDateTime?: string;
 

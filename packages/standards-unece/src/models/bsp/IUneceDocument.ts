@@ -48,7 +48,7 @@ export interface IUneceDocument {
 	/**
 	 * The date, time, date time, or other date time value of the acceptance of this referenced document.
 	 * @see https://vocabulary.uncefact.org/acceptanceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	acceptanceDateTime?: string;
 
@@ -115,7 +115,7 @@ export interface IUneceDocument {
 	/**
 	 * The date, time, date time, or other date time value of the creation of this referenced document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 
@@ -206,7 +206,7 @@ export interface IUneceDocument {
 	/**
 	 * The formatted date or date time for the issuance of this referenced document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -321,7 +321,7 @@ export interface IUneceDocument {
 	/**
 	 * The date, time, date time, or other date time value for the formal receipt of this referenced document.
 	 * @see https://vocabulary.uncefact.org/receiptDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	receiptDateTime?: string;
 
@@ -334,7 +334,7 @@ export interface IUneceDocument {
 	/**
 	 * The reference date or date time for this referenced document.
 	 * @see https://vocabulary.uncefact.org/referenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	referenceDateTime?: string;
 
@@ -372,7 +372,7 @@ export interface IUneceDocument {
 	/**
 	 * A date, time, date time or other date time value for the revision of this referenced document.
 	 * @see https://vocabulary.uncefact.org/revisionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	revisionDateTime?: string;
 

@@ -37,7 +37,7 @@ export interface IUneceSchedule {
 	/**
 	 * A date, time, date time, or other date time of an occurrence in this supply chain schedule.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime?: string;
 

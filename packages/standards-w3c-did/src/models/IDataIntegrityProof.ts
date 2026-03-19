@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray, SingleOccurrenceArray } from "@twin.org/core";
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
 import type { DidContexts } from "./didContexts.js";
 import type { DidCryptoSuites } from "./didCryptoSuites.js";
@@ -15,7 +16,10 @@ export interface IDataIntegrityProof {
 	 */
 	"@context"?:
 		| typeof DidContexts.ContextDataIntegrity
-		| [typeof DidContexts.ContextDataIntegrity, ...IJsonLdContextDefinitionElement[]];
+		| SingleOccurrenceArray<
+				IJsonLdContextDefinitionElement,
+				typeof DidContexts.ContextDataIntegrity
+		  >;
 
 	/**
 	 * JSON-LD Type.
@@ -61,12 +65,12 @@ export interface IDataIntegrityProof {
 	/**
 	 * One or more security domains in which the proof is meant to be used.
 	 */
-	domain?: string | string[];
+	domain?: ObjectOrArray<string>;
 
 	/**
 	 * Provided to mitigate replay attacks on domains.
 	 */
-	challenge?: string | string[];
+	challenge?: ObjectOrArray<string>;
 
 	/**
 	 * Identifies another data integrity proof that MUST verify before

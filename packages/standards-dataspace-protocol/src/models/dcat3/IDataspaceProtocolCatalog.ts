@@ -1,12 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IDcatCatalog } from "@twin.org/standards-w3c-dcat";
-import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolCatalogNoContext } from "./IDataspaceProtocolCatalogNoContext.js";
-import type { IDataspaceProtocolDataServiceNoContext } from "./IDataspaceProtocolDataServiceNoContext.js";
-import type { IDataspaceProtocolDatasetNoContext } from "./IDataspaceProtocolDatasetNoContext.js";
-import type { IDataspaceProtocolDistributionNoContext } from "./IDataspaceProtocolDistributionNoContext.js";
+import type { IDataspaceProtocolCatalogBase } from "./IDataspaceProtocolCatalogBase.js";
 
 /**
  * Catalog interface compliant with Eclipse Data Space Protocol.
@@ -28,51 +23,9 @@ import type { IDataspaceProtocolDistributionNoContext } from "./IDataspaceProtoc
  * @see https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
  *
  */
-export interface IDataspaceProtocolCatalog extends Omit<
-	IDcatCatalog,
-	"@type" | "@context" | "dcat:catalog" | "dcat:dataset" | "dcat:distribution" | "dcat:service"
-> {
+export interface IDataspaceProtocolCatalog extends IDataspaceProtocolCatalogBase {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */
 	"@context": DataspaceProtocolContextType;
-
-	/**
-	 * The type identifier for the Catalog.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@type": typeof DataspaceProtocolCatalogTypes.Catalog;
-
-	/**
-	 * Unique identifier for the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@id": string;
-
-	/**
-	 * Participant Id
-	 */
-	participantId: string;
-
-	/**
-	 * Other concerned catalogs
-	 */
-	catalog?: IDataspaceProtocolCatalogNoContext | IDataspaceProtocolCatalogNoContext[];
-
-	/**
-	 * Datasets registered
-	 */
-	dataset?: IDataspaceProtocolDatasetNoContext | IDataspaceProtocolDatasetNoContext[];
-
-	/**
-	 * Catalog's distributions
-	 */
-	distribution?:
-		| IDataspaceProtocolDistributionNoContext
-		| IDataspaceProtocolDistributionNoContext[];
-
-	/**
-	 * Data services registered-
-	 */
-	service?: IDataspaceProtocolDataServiceNoContext | IDataspaceProtocolDataServiceNoContext[];
 }

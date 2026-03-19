@@ -1,6 +1,7 @@
 {
 	"baseUrl": "https://schema.twindev.org/dataspace-protocol/",
 	"types": [
+		"./src/models/dataspaceProtocolContextType.ts",
 		"./src/models/contractNegotiation/IDataspaceProtocolContractAgreementMessage.ts",
 		"./src/models/contractNegotiation/IDataspaceProtocolContractAgreementVerificationMessage.ts",
 		"./src/models/contractNegotiation/IDataspaceProtocolContractNegotiation.ts",
@@ -14,22 +15,19 @@
 		"./src/models/catalog/IDataspaceProtocolCatalogError.ts",
 		"./src/models/catalog/IDataspaceProtocolCatalogRequestMessage.ts",
 		"./src/models/catalog/IDataspaceProtocolDatasetRequestMessage.ts",
+		"./src/models/dcat3/IDataspaceProtocolCatalogBase.ts",
 		"./src/models/dcat3/IDataspaceProtocolCatalog.ts",
-		"./src/models/dcat3/IDataspaceProtocolCatalogNoContext.ts",
+		"./src/models/dcat3/IDataspaceProtocolDataServiceBase.ts",
 		"./src/models/dcat3/IDataspaceProtocolDataService.ts",
-		"./src/models/dcat3/IDataspaceProtocolDataServiceNoContext.ts",
+		"./src/models/dcat3/IDataspaceProtocolDatasetBase.ts",
 		"./src/models/dcat3/IDataspaceProtocolDataset.ts",
-		"./src/models/dcat3/IDataspaceProtocolDatasetNoContext.ts",
+		"./src/models/dcat3/IDataspaceProtocolDistributionBase.ts",
 		"./src/models/dcat3/IDataspaceProtocolDistribution.ts",
-		"./src/models/dcat3/IDataspaceProtocolDistributionNoContext.ts",
 		"./src/models/odrl/IDataspaceProtocolAgreement.ts",
-		"./src/models/odrl/IDataspaceProtocolAgreementNoContext.ts",
 		"./src/models/odrl/IDataspaceProtocolPolicy.ts",
-		"./src/models/odrl/IDataspaceProtocolPolicyNoContext.ts",
 		"./src/models/odrl/IDataspaceProtocolSet.ts",
-		"./src/models/odrl/IDataspaceProtocolSetNoContext.ts",
+		"./src/models/odrl/IDataspaceProtocolOfferBase.ts",
 		"./src/models/odrl/IDataspaceProtocolOffer.ts",
-		"./src/models/odrl/IDataspaceProtocolOfferNoContext.ts",
 		"./src/models/transferProcess/IDataspaceProtocolDataAddress.ts",
 		"./src/models/transferProcess/IDataspaceProtocolEndpointProperty.ts",
 		"./src/models/transferProcess/IDataspaceProtocolTransferCompletionMessage.ts",
@@ -53,32 +51,5 @@
 		"OperatorType": "https://schema.twindev.org/w3c-odrl/OperatorType",
 		"LeftOperandType": "https://schema.twindev.org/w3c-odrl/LeftOperandType",
 		"RightOperandType": "https://schema.twindev.org/w3c-odrl/RightOperandType"
-	},
-	"autoExpandTypes": [
-		"DataspaceProtocolContextType"
-	],
-	"overrides": {
-		"IDataspaceProtocolDataset": {
-			"$schema": "https://json-schema.org/draft/2019-09/schema",
-			"$id": "https://schema.twindev.org/dataspace-protocol/DataspaceProtocolDataset",
-			"description": "Dataset compliant with Eclipse Data Space Protocol. Validates only DS Protocol-specific requirements while allowing all optional DCAT properties.",
-			"title": "DataspaceProtocolDataset",
-			"allOf": [
-				{
-					"$ref": "https://w3id.org/dspace/2025/1/catalog/dataset-schema.json"
-				}
-			]
-		},
-		"IDataspaceProtocolCatalog": {
-			"$schema": "https://json-schema.org/draft/2019-09/schema",
-			"$id": "https://schema.twindev.org/dataspace-protocol/DataspaceProtocolCatalog",
-			"description": "Catalog compliant with Eclipse Data Space Protocol. Validates only DS Protocol-specific requirements while allowing all optional DCAT properties.",
-			"title": "DataspaceProtocolCatalog",
-			"allOf": [
-				{
-					"$ref": "https://w3id.org/dspace/2025/1/catalog/catalog-schema.json"
-				}
-			]
-		}
 	}
 }

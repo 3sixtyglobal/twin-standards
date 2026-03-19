@@ -44,7 +44,7 @@ export interface IUnecePaymentTerms {
 	/**
 	 * The date, time, date time, or other date time value of the bill start specified by these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/billStartDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	billStartDateTime?: string;
 
@@ -57,7 +57,7 @@ export interface IUnecePaymentTerms {
 	/**
 	 * The date, time, date time, or other date time value of the due date specified by these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	dueDateTime?: string;
 

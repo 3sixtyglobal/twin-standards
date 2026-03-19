@@ -99,7 +99,7 @@ export interface IUneceProcessCharacteristic {
 	/**
 	 * The value, expressed as a date, time, date time, or other date time value, for this process characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	valueDateTime?: string;
 

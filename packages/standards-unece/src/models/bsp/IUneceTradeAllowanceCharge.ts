@@ -56,7 +56,7 @@ export interface IUneceTradeAllowanceCharge {
 	/**
 	 * A date, time, date time, or other date time value applied to the trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/appliedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	appliedDateTime?: string;
 

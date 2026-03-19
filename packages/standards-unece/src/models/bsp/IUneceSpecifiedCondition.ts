@@ -32,7 +32,7 @@ export interface IUneceSpecifiedCondition {
 	/**
 	 * A date, time, date time or other date time value of an action for this specified condition.
 	 * @see https://vocabulary.uncefact.org/actionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actionDateTime?: string;
 

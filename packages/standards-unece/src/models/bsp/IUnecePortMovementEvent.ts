@@ -25,7 +25,7 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * An actual date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualOccurrenceDateTime?: string;
 
@@ -44,7 +44,7 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * An estimated date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	estimatedOccurrenceDateTime?: string;
 
@@ -69,14 +69,14 @@ export interface IUnecePortMovementEvent {
 	/**
 	 * A requested date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedOccurrenceDateTime?: string;
 
 	/**
 	 * A scheduled date, time, date time, or other date time value of the occurrence of this port movement event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	scheduledOccurrenceDateTime?: string;
 

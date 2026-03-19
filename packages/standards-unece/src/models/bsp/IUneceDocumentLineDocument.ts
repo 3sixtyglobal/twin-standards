@@ -72,14 +72,14 @@ export interface IUneceDocumentLineDocument {
 	/**
 	 * The date, time, date time, or other date time value for the issuance of this document line.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value for the latest revision of this document line.
 	 * @see https://vocabulary.uncefact.org/latestRevisionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestRevisionDateTime?: string;
 
@@ -110,7 +110,7 @@ export interface IUneceDocumentLineDocument {
 	/**
 	 * The date, time, date time, or other date time value of the publication of this document line.
 	 * @see https://vocabulary.uncefact.org/publicationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	publicationDateTime?: string;
 

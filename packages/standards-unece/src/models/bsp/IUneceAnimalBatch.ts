@@ -27,14 +27,14 @@ export interface IUneceAnimalBatch {
 	/**
 	 * The date, time, date time, or other date time value of the break up of this animal batch.
 	 * @see https://vocabulary.uncefact.org/breakUpDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	breakUpDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the creation of this animal batch.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime: string;
 
@@ -65,7 +65,7 @@ export interface IUneceAnimalBatch {
 	/**
 	 * The date, time, date time, or other date time value of the sale for this animal batch.
 	 * @see https://vocabulary.uncefact.org/saleDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	saleDateTime?: string;
 

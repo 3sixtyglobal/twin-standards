@@ -615,7 +615,9 @@ function generateImportLines(outputDir, imports, importLines) {
 async function generateUneceDataTypes(generatedTypes) {
 	const outputPath = path.join(__dirname, '..', 'src', 'dataTypes', 'uneceDataTypes.ts');
 
-	const sortedTypes = [...generatedTypes].sort((a, b) => a.typeName.localeCompare(b.typeName));
+	const sortedTypes = [...generatedTypes, { typeName: 'ContextType' }].sort((a, b) =>
+		a.typeName.localeCompare(b.typeName)
+	);
 
 	const lines = fileHeaderLines();
 
@@ -654,14 +656,19 @@ async function generateUneceDataTypes(generatedTypes) {
 	for (let i = 0; i < sortedTypes.length; i++) {
 		const t = sortedTypes[i];
 		lines.push('\t\t\t{');
-		lines.push(`\t\t\t\ttype: UneceTypes.${t.typeName},`);
-		lines.push(`\t\t\t\tschema: Unece${t.typeName}Schema`);
-		if (i < sortedTypes.length - 1) {
-			lines.push('\t\t\t},');
+		if (t.typeName !== 'ContextType') {
+			lines.push(`\t\t\t\ttype: UneceTypes.${t.typeName},`);
 		} else {
-			lines.push('\t\t\t}');
+			lines.push('\t\t\t\ttype: "UneceContextType",');
 		}
+		lines.push(`\t\t\t\tschema: Unece${t.typeName}Schema`);
+		lines.push('\t\t\t},');
 	}
+
+	lines.push('\t\t\t{');
+	lines.push('\t\t\t\ttype: "ContextType",');
+	lines.push('\t\t\t\tschema: UneceContextTypeSchema');
+	lines.push('\t\t\t}');
 
 	lines.push('\t\t];');
 	lines.push('');
@@ -730,7 +737,7 @@ async function generateTsToSchemaJson(generatedTypes) {
 		.sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'case' }));
 
 	existingContent.baseUrl = 'https://schema.twindev.org/unece/';
-	existingContent.types = types;
+	existingContent.types = ['./src/models/uneceContextType.ts', ...types];
 	existingContent.externalReferences = {
 		'IJsonLd(.*)': 'https://schema.twindev.org/json-ld/JsonLd$1'
 	};
@@ -855,7 +862,7 @@ function createComment(text, prefix = '', url = '', isDeprecated = false, format
 		commentLines.push(`${prefix} * @deprecated`);
 	}
 	if (format?.length) {
-		commentLines.push(`${prefix} * @format ${format}`);
+		commentLines.push(`${prefix} * @json-schema format:${format}`);
 	}
 	commentLines.push(`${prefix} */`);
 	return commentLines;

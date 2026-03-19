@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IProof } from "./IProof.js";
 
 /**
@@ -14,7 +15,7 @@ export interface IDidVerifiablePresentationCommon {
 	/**
 	 * The types of the data stored in the verifiable credential.
 	 */
-	type: string | string[];
+	type: ObjectOrArray<string>;
 
 	/**
 	 * The entity generating the presentation.
@@ -25,5 +26,5 @@ export interface IDidVerifiablePresentationCommon {
 	 * Proofs that the verifiable presentation is valid.
 	 * Optional if a different proof method is used, such as JWT.
 	 */
-	proof?: IProof | IProof[];
+	proof?: ObjectOrArray<IProof>;
 }

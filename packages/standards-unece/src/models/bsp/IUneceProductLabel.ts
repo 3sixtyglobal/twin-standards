@@ -25,7 +25,7 @@ export interface IUneceProductLabel {
 	/**
 	 * The date, time, date time, or other date time value, for the attachment of this product label.
 	 * @see https://vocabulary.uncefact.org/attachmentDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	attachmentDateTime?: string;
 

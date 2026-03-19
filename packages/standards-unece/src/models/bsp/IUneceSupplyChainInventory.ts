@@ -51,14 +51,14 @@ export interface IUneceSupplyChainInventory {
 	/**
 	 * The date, time, date time, or other date time of the average duration for this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/averageDurationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	averageDurationDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the calculation of this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/calculationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	calculationDateTime?: string;
 
@@ -113,7 +113,7 @@ export interface IUneceSupplyChainInventory {
 	/**
 	 * The date, time, date time, or other date time value of the planned stock calculation of this supply chain inventory.
 	 * @see https://vocabulary.uncefact.org/plannedStockCalculationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	plannedStockCalculationDateTime?: string;
 

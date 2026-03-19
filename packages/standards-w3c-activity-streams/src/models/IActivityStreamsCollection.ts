@@ -16,9 +16,7 @@ export interface IActivityStreamsCollection extends IActivityStreamsObject {
 	/**
 	 * Collection type.
 	 */
-	type:
-		| (typeof ActivityStreamsObjectTypes.Collection | string)
-		| (typeof ActivityStreamsObjectTypes.Collection | string)[];
+	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.Collection | string>;
 
 	/**
 	 * Total number of items.

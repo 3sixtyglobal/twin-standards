@@ -124,6 +124,7 @@ import UneceConsignmentSchema from "../schemas/UneceConsignment.json" with { typ
 import UneceConsignmentItemSchema from "../schemas/UneceConsignmentItem.json" with { type: "json" };
 import UneceContactPersonSchema from "../schemas/UneceContactPerson.json" with { type: "json" };
 import UneceContactTypeCodeListSchema from "../schemas/UneceContactTypeCodeList.json" with { type: "json" };
+import UneceContextTypeSchema from "../schemas/UneceContextType.json" with { type: "json" };
 import UneceContractSchema from "../schemas/UneceContract.json" with { type: "json" };
 import UneceControlSettingParameterSchema from "../schemas/UneceControlSettingParameter.json" with { type: "json" };
 import UneceControlSettingParameterTypeCodeListSchema from "../schemas/UneceControlSettingParameterTypeCodeList.json" with { type: "json" };
@@ -1137,6 +1138,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.ContactTypeCodeList,
 				schema: UneceContactTypeCodeListSchema
+			},
+			{
+				type: "UneceContextType",
+				schema: UneceContextTypeSchema
 			},
 			{
 				type: UneceTypes.Contract,
@@ -3225,6 +3230,10 @@ export class UneceDataTypes {
 			{
 				type: UneceTypes.XHEReference,
 				schema: UneceXHEReferenceSchema
+			},
+			{
+				type: "ContextType",
+				schema: UneceContextTypeSchema
 			}
 		];
 

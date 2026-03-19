@@ -9,6 +9,7 @@ import OdrlAgreementSchema from "../schemas/OdrlAgreement.json" with { type: "js
 import OdrlAssetSchema from "../schemas/OdrlAsset.json" with { type: "json" };
 import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json" with { type: "json" };
 import OdrlConstraintSchema from "../schemas/OdrlConstraint.json" with { type: "json" };
+import ContextTypeSchema from "../schemas/OdrlContextType.json" with { type: "json" };
 import OdrlDutySchema from "../schemas/OdrlDuty.json" with { type: "json" };
 import OdrlLogicalConstraintSchema from "../schemas/OdrlLogicalConstraint.json" with { type: "json" };
 import OdrlLogicalConstraintOperandSchema from "../schemas/OdrlLogicalConstraintOperand.json" with { type: "json" };
@@ -100,6 +101,10 @@ export class OdrlDataTypes {
 			{
 				type: OdrlTypes.Rule,
 				schema: OdrlRuleSchema
+			},
+			{
+				type: "ContextType",
+				schema: ContextTypeSchema
 			}
 		];
 

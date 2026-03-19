@@ -24,7 +24,7 @@ export interface IUneceXHEReference {
 	/**
 	 * The end date, time, date time, or other date time value for the availability of this XHE reference.
 	 * @see https://vocabulary.uncefact.org/endAvailabilityDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endAvailabilityDateTime?: string;
 
@@ -49,7 +49,7 @@ export interface IUneceXHEReference {
 	/**
 	 * The start date, time, date time, or other date time value for the availability of this XHE reference.
 	 * @see https://vocabulary.uncefact.org/startAvailabilityDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startAvailabilityDateTime?: string;
 }

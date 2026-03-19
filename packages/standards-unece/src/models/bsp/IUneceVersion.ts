@@ -30,7 +30,7 @@ export interface IUneceVersion {
 	/**
 	 * The date, time, date and time or other date time value of issue of this document version.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

@@ -54,7 +54,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The creation date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime?: string;
 
@@ -93,7 +93,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The due date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/dueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	dueDateTime?: string;
 
@@ -173,7 +173,7 @@ export interface IUnecePaymentTradeSettlement {
 	/**
 	 * The receipt date, time, date time, or other date time value for this payment trade settlement.
 	 * @see https://vocabulary.uncefact.org/receiptDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	receiptDateTime?: string;
 

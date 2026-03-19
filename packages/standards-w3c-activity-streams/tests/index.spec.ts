@@ -20,6 +20,7 @@ import type { IActivityStreamsQuestion } from "../src/models/IActivityStreamsQue
 import type { IActivityStreamsRelationship } from "../src/models/IActivityStreamsRelationship.js";
 import type { IActivityStreamsTombstone } from "../src/models/IActivityStreamsTombstone.js";
 
+// Examples from here https://www.w3.org/TR/activitystreams-vocabulary/
 describe("standards-w3c-activity-streams", () => {
 	beforeAll(() => {
 		ActivityStreamsDataTypes.registerTypes();

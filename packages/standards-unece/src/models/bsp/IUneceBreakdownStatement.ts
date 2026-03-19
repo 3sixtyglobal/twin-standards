@@ -60,7 +60,7 @@ export interface IUneceBreakdownStatement {
 	/**
 	 * The date, time, date time, or other date time value of the creation of this valuation breakdown statement.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime: string;
 

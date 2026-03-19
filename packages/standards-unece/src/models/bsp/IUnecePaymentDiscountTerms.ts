@@ -38,7 +38,7 @@ export interface IUnecePaymentDiscountTerms {
 	 * The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment
 	 * discount terms.
 	 * @see https://vocabulary.uncefact.org/basisDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	basisDateTime?: string;
 

@@ -78,7 +78,7 @@ export interface IUneceProductInstance {
 	 * The date, time, date time, or other date time value before which it is best to consume the items contained in this trade
 	 * product instance.
 	 * @see https://vocabulary.uncefact.org/bestBeforeDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	bestBeforeDateTime?: string;
 
@@ -133,7 +133,7 @@ export interface IUneceProductInstance {
 	/**
 	 * The date, time, date time, or other date time value of expiry of the items contained in the trade product instance.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -255,7 +255,7 @@ export interface IUneceProductInstance {
 	 * The date, time, date time, or other date time value by after which the items contained in the trade product instance
 	 * should not be sold.
 	 * @see https://vocabulary.uncefact.org/sellByDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	sellByDateTime?: string;
 

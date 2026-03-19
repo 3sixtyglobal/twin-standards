@@ -33,7 +33,7 @@ export interface IUneceNegotiationExchange {
 	/**
 	 * The date or date time value when the response is due for this electronic negotiation exchange.
 	 * @see https://vocabulary.uncefact.org/responseDueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	responseDueDateTime?: string;
 

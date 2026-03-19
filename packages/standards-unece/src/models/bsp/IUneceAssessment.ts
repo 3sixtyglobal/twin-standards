@@ -74,7 +74,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value for the end of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/endDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endDateTime?: string;
 
@@ -93,7 +93,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value of the report of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/reportDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	reportDateTime?: string;
 
@@ -112,7 +112,7 @@ export interface IUneceAssessment {
 	/**
 	 * The date, time, date time or other date time value for the start of this specified assessment.
 	 * @see https://vocabulary.uncefact.org/startDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startDateTime?: string;
 

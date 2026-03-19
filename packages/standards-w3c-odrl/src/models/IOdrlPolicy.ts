@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlAction } from "./IOdrlAction.js";
 import type { IOdrlAsset } from "./IOdrlAsset.js";
 import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
@@ -33,6 +34,7 @@ export interface IOdrlPolicy {
 	/**
 	 * The unique identifier for the policy.
 	 * Must be an IRI.
+	 * @json-schema format:uri
 	 */
 	uid: string;
 
@@ -40,47 +42,35 @@ export interface IOdrlPolicy {
 	 * The profile(s) this policy conforms to.
 	 * IRIs identifying the ODRL Profile(s).
 	 */
-	profile?: string | string[];
+	profile?: ObjectOrArray<string>;
 
 	/**
 	 * The assigner of the policy.
 	 * Applies to all rules unless overridden at rule level.
 	 */
-	assigner?:
-		| string
-		| IOdrlParty
-		| IOdrlPartyCollection
-		| (string | IOdrlParty | IOdrlPartyCollection)[];
+	assigner?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * The assignee of the policy.
 	 * Applies to all rules unless overridden at rule level.
 	 */
-	assignee?:
-		| string
-		| IOdrlParty
-		| IOdrlPartyCollection
-		| (string | IOdrlParty | IOdrlPartyCollection)[];
+	assignee?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * The target asset for the rule.
 	 */
-	target?:
-		| string
-		| IOdrlAsset
-		| IOdrlAssetCollection
-		| (string | IOdrlAsset | IOdrlAssetCollection)[];
+	target?: ObjectOrArray<string | IOdrlAsset | IOdrlAssetCollection>;
 
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ActionType | string | IOdrlAction | (ActionType | string | IOdrlAction)[];
+	action?: ObjectOrArray<ActionType | string | IOdrlAction>;
 
 	/**
 	 * The parent policy(ies) this policy inherits from.
 	 * IRIs identifying the parent Policy(ies).
 	 */
-	inheritFrom?: string | string[];
+	inheritFrom?: ObjectOrArray<string>;
 
 	/**
 	 * The conflict resolution strategy.
@@ -94,17 +84,17 @@ export interface IOdrlPolicy {
 	 * The permissions in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	permission?: IOdrlPermission | IOdrlPermission[];
+	permission?: ObjectOrArray<IOdrlPermission>;
 
 	/**
 	 * The prohibitions in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	prohibition?: IOdrlProhibition | IOdrlProhibition[];
+	prohibition?: ObjectOrArray<IOdrlProhibition>;
 
 	/**
 	 * The obligations in the policy.
 	 * At least one of permission, prohibition, or obligation must be present.
 	 */
-	obligation?: IOdrlDuty | IOdrlDuty[];
+	obligation?: ObjectOrArray<IOdrlDuty>;
 }

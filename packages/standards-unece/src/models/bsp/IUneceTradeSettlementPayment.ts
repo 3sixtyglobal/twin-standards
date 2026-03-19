@@ -26,7 +26,7 @@ export interface IUneceTradeSettlementPayment {
 	/**
 	 * A date, time, date time or other date time value of a closing book due date for this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/closingBookDueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	closingBookDueDateTime?: string;
 
@@ -46,7 +46,7 @@ export interface IUneceTradeSettlementPayment {
 	/**
 	 * The date, time, date time or other date time value of the requested execution of this trade settlement payment.
 	 * @see https://vocabulary.uncefact.org/requestedExecutionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedExecutionDateTime?: string;
 

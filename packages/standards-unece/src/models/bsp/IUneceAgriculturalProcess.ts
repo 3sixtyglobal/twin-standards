@@ -30,7 +30,7 @@ export interface IUneceAgriculturalProcess {
 	 * The date, time, date time or other date time value of the actual end for the crop production in this agricultural
 	 * process.
 	 * @see https://vocabulary.uncefact.org/actualEndDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualEndDateTime?: string;
 
@@ -38,7 +38,7 @@ export interface IUneceAgriculturalProcess {
 	 * The date, time, date time or other date time value for the actual start of the crop production in this agricultural
 	 * process.
 	 * @see https://vocabulary.uncefact.org/actualStartDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualStartDateTime?: string;
 
@@ -58,7 +58,7 @@ export interface IUneceAgriculturalProcess {
 	 * The date, time, date time or other date time value for the earliest start of the crop production in this agricultural
 	 * process.
 	 * @see https://vocabulary.uncefact.org/earliestStartDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	earliestStartDateTime?: string;
 
@@ -72,7 +72,7 @@ export interface IUneceAgriculturalProcess {
 	 * The date, time, date time or other date time value of the latest end for the crop production in this agricultural
 	 * process.
 	 * @see https://vocabulary.uncefact.org/latestEndDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestEndDateTime?: string;
 

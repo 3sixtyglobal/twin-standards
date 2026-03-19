@@ -1,8 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { DcatContextType } from "./dcatContextType.js";
-import type { DcatLiteralType } from "./types/dcatPropertyTypes.js";
 
 /**
  * Interface for DCAT Role.
@@ -30,5 +30,5 @@ export interface IDcatRole {
 	 * A name given to the role.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
 	 */
-	"dcterms:title"?: DcatLiteralType;
+	"dcterms:title"?: ObjectOrArray<string>;
 }

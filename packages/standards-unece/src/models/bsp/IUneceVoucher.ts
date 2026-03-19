@@ -51,7 +51,7 @@ export interface IUneceVoucher {
 	/**
 	 * The date or date time of the issuance of this experience item voucher.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

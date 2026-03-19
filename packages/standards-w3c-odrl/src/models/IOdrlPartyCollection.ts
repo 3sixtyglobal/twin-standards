@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlConstraint } from "./IOdrlConstraint.js";
 import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
 import type { IOdrlParty } from "./IOdrlParty.js";
@@ -20,8 +21,5 @@ export interface IOdrlPartyCollection extends IOdrlParty {
 	 * Refinements applied to the party collection.
 	 * Used to specify constraints that apply to all members of the collection.
 	 */
-	refinement?:
-		| IOdrlConstraint
-		| IOdrlLogicalConstraint
-		| (IOdrlConstraint | IOdrlLogicalConstraint)[];
+	refinement?: ObjectOrArray<IOdrlConstraint | IOdrlLogicalConstraint>;
 }

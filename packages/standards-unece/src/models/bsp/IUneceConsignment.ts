@@ -155,7 +155,7 @@ export interface IUneceConsignment {
 	/**
 	 * The date, time, date time or other date time value when this supply chain consignment is due to be available.
 	 * @see https://vocabulary.uncefact.org/availabilityDueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	availabilityDueDateTime?: string;
 
@@ -194,7 +194,7 @@ export interface IUneceConsignment {
 	 * The date, time, date time or other date time value when this supply chain consignment will be, or has been, accepted by
 	 * the carrier.
 	 * @see https://vocabulary.uncefact.org/carrierAcceptanceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	carrierAcceptanceDateTime?: string;
 
@@ -481,7 +481,7 @@ export interface IUneceConsignment {
 	 * The date, time, date time or other date time value when this supply chain consignment will exit, or has exited from the
 	 * last port, airport, or border post of the country of export.
 	 * @see https://vocabulary.uncefact.org/exportExitDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	exportExitDateTime?: string;
 
@@ -866,7 +866,7 @@ export interface IUneceConsignment {
 	/**
 	 * A date, time, date time, or other date time value when this supply chain consignment is shipped onboard.
 	 * @see https://vocabulary.uncefact.org/shippedOnboardDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	shippedOnboardDateTime?: string;
 
@@ -1105,7 +1105,7 @@ export interface IUneceConsignment {
 	/**
 	 * The date, time, date time or other date time value of the arrival of this supply chain consignment at a warehouse.
 	 * @see https://vocabulary.uncefact.org/warehouseArrivalDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	warehouseArrivalDateTime?: string;
 

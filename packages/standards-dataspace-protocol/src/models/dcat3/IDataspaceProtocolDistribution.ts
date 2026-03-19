@@ -1,10 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IDcatDistribution } from "@twin.org/standards-w3c-dcat";
-import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDataServiceNoContext } from "./IDataspaceProtocolDataServiceNoContext.js";
-import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtocolOfferNoContext.js";
+import type { IDataspaceProtocolDistributionBase } from "./IDataspaceProtocolDistributionBase.js";
 
 /**
  * Distribution interface compliant with Eclipse Data Space Protocol.
@@ -35,46 +32,15 @@ import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtoco
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl
  * @see IResource.odrl:hasPolicy from @twin.org/standards-w3c-dcat
  */
-export interface IDataspaceProtocolDistribution extends Omit<
-	IDcatDistribution,
-	"odrl:hasPolicy" | "@type" | "@context" | "dcterms:format"
-> {
+export interface IDataspaceProtocolDistribution extends IDataspaceProtocolDistributionBase {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * The type identifier for the Distribution.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@type": typeof DataspaceProtocolCatalogTypes.Distribution;
-
-	/**
-	 * Unique identifier for the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
+	 * Unique identifier for the distribution.
+	 * REQUIRED on standalone Distribution objects per Eclipse Data Space Protocol.
 	 */
 	"@id": string;
-
-	/**
-	 * Array of ODRL policies (Offers) as required by DS Protocol.
-	 *
-	 * REQUIRED per Eclipse Data Space Protocol spec.
-	 * Must contain at least one IOdrlOffer.
-	 * Currently only single offer is supported, but array structure
-	 * allows for future multi-offer support.
-	 */
-	hasPolicy?: IDataspaceProtocolOfferNoContext | IDataspaceProtocolOfferNoContext[];
-
-	/**
-	 * Access service.
-	 * It can be a URI pointing to an access service or inline the access service itself
-	 */
-	accessService: string | IDataspaceProtocolDataServiceNoContext;
-
-	/**
-	 * Distribution format.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	format: string;
 }

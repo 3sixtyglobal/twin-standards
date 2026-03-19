@@ -46,7 +46,7 @@ export interface IUneceRegulatoryProcedure {
 	/**
 	 * The date, time, date time, or other date time value of an acquisition for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/acquisitionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	acquisitionDateTime?: string;
 
@@ -274,7 +274,7 @@ export interface IUneceRegulatoryProcedure {
 	 * A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be,
 	 * performed.
 	 * @see https://vocabulary.uncefact.org/performanceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	performanceDateTime?: string;
 

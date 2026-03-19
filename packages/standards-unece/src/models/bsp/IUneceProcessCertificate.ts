@@ -32,7 +32,7 @@ export interface IUneceProcessCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this process certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -93,7 +93,7 @@ export interface IUneceProcessCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this process certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -106,7 +106,7 @@ export interface IUneceProcessCertificate {
 	/**
 	 * The date, time, date time, or other date time value for the issuance of this process certificate.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -131,7 +131,7 @@ export interface IUneceProcessCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this process certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

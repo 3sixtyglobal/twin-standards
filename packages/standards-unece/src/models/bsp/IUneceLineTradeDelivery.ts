@@ -122,7 +122,7 @@ export interface IUneceLineTradeDelivery {
 	/**
 	 * The date, time, date time, or other date time value, at line level, of the buyer order for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	buyerOrderDateTime?: string;
 
@@ -292,7 +292,7 @@ export interface IUneceLineTradeDelivery {
 	 * The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade
 	 * delivery.
 	 * @see https://vocabulary.uncefact.org/goodsOwnershipChangeDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	goodsOwnershipChangeDateTime?: string;
 
@@ -414,7 +414,7 @@ export interface IUneceLineTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at line level, when this delivery is available for
 	 * pick-up.
 	 * @see https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	pickUpAvailabilityDateTime?: string;
 
@@ -626,7 +626,7 @@ export interface IUneceLineTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at line level, when this trade delivery is delivered to
 	 * the ultimate ship to party.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	ultimateShipToDeliveryDateTime?: string;
 

@@ -50,7 +50,7 @@ export interface IUneceAccreditation {
 	/**
 	 * The date, time, date time or other date time value when this certified accreditation expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -63,7 +63,7 @@ export interface IUneceAccreditation {
 	/**
 	 * The date, time, date time or other date time value when this certified accreditation was obtained.
 	 * @see https://vocabulary.uncefact.org/obtainedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	obtainedDateTime?: string;
 

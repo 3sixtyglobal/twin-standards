@@ -38,7 +38,7 @@ export interface IUneceTTExchangedDocument {
 	/**
 	 * The date, time, date time, or other date time value of the issuance of this TT exchanged document.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 

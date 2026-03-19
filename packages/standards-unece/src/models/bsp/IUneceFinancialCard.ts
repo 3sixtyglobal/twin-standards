@@ -63,7 +63,7 @@ export interface IUneceFinancialCard {
 	/**
 	 * The date of expiry up to which this trade settlement financial card is valid.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -100,7 +100,7 @@ export interface IUneceFinancialCard {
 	/**
 	 * The date from which this trade settlement financial card is valid.
 	 * @see https://vocabulary.uncefact.org/validFromDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	validFromDateTime?: string;
 

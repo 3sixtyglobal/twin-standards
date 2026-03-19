@@ -56,7 +56,7 @@ export interface IUneceExchangedDocumentContext {
 	 * The date, time, date time, or other date time value of the processing of a transaction for this exchanged document
 	 * context.
 	 * @see https://vocabulary.uncefact.org/processingTransactionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	processingTransactionDateTime?: string;
 

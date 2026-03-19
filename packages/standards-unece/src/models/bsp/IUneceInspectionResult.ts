@@ -73,7 +73,7 @@ export interface IUneceInspectionResult {
 	/**
 	 * The date, time, date time, or other date time value for the approval of this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/approvalDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	approvalDateTime?: string;
 
@@ -112,7 +112,7 @@ export interface IUneceInspectionResult {
 	/**
 	 * The date, time, date time, or other date time value of the inspection for this specified inspection result.
 	 * @see https://vocabulary.uncefact.org/inspectionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	inspectionDateTime?: string;
 

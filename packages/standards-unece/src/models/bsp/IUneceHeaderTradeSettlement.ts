@@ -54,7 +54,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value when the book closing is due for this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/closingBookDueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	closingBookDueDateTime?: string;
 
@@ -153,7 +153,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value of the invoice in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/invoiceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	invoiceDateTime?: string;
 
@@ -190,7 +190,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/nextInvoiceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	nextInvoiceDateTime?: string;
 
@@ -329,7 +329,7 @@ export interface IUneceHeaderTradeSettlement {
 	/**
 	 * The date, time, date time or other date time value of the scheduled payment of this header trade settlement.
 	 * @see https://vocabulary.uncefact.org/scheduledPaymentDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	scheduledPaymentDateTime?: string;
 

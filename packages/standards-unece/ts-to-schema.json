@@ -1,6 +1,7 @@
 {
 	"baseUrl": "https://schema.twindev.org/unece/",
 	"types": [
+		"./src/models/uneceContextType.ts",
 		"./src/models/bsp/IUneceAcademicQualification.ts",
 		"./src/models/bsp/IUneceAccountingAccount.ts",
 		"./src/models/bsp/IUneceAccreditation.ts",

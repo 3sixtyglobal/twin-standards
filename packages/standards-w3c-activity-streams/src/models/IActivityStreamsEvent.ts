@@ -1,5 +1,6 @@
 // Copyright 2026 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { ActivityStreamsObjectTypes } from "./activityStreamsObjectTypes.js";
 import type { IActivityStreamsObject } from "./IActivityStreamsObject.js";
 
@@ -13,7 +14,5 @@ export interface IActivityStreamsEvent extends IActivityStreamsObject {
 	/**
 	 * Event type.
 	 */
-	type:
-		| (typeof ActivityStreamsObjectTypes.Event | string)
-		| (typeof ActivityStreamsObjectTypes.Event | string)[];
+	type: ObjectOrArray<typeof ActivityStreamsObjectTypes.Event | string>;
 }

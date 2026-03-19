@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlConstraint } from "./IOdrlConstraint.js";
 import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
 import type { ActionType } from "./types/actionType.js";
@@ -24,10 +25,7 @@ export interface IOdrlAction {
 	/**
 	 * Refinements applied to the action.
 	 */
-	refinement?:
-		| IOdrlConstraint
-		| IOdrlLogicalConstraint
-		| (IOdrlConstraint | IOdrlLogicalConstraint)[];
+	refinement?: ObjectOrArray<IOdrlConstraint | IOdrlLogicalConstraint>;
 
 	/**
 	 * Reference to the action this action is included in.

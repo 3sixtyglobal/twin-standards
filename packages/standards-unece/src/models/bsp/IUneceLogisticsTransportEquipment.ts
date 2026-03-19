@@ -360,7 +360,7 @@ export interface IUneceLogisticsTransportEquipment {
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this piece of logistics transport equipment.
 	 * @see https://vocabulary.uncefact.org/manufacturingDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	manufacturingDateTime?: string;
 

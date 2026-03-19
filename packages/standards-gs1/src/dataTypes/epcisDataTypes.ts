@@ -6,6 +6,7 @@ import { EpcisContexts } from "../models/epcis20/epcisContexts.js";
 import { EpcisTypes } from "../models/epcis20/epcisTypes.js";
 import AggregationEventSchema from "../schemas/EpcisAggregationEvent.json" with { type: "json" };
 import AssociationEventSchema from "../schemas/EpcisAssociationEvent.json" with { type: "json" };
+import ContextTypeSchema from "../schemas/EpcisContextType.json" with { type: "json" };
 import DocumentSchema from "../schemas/EpcisDocument.json" with { type: "json" };
 import ObjectEventSchema from "../schemas/EpcisObjectEvent.json" with { type: "json" };
 import QueryDocumentSchema from "../schemas/EpcisQueryDocument.json" with { type: "json" };
@@ -57,6 +58,10 @@ export class EpcisDataTypes {
 			{
 				type: EpcisTypes.TransformationEvent,
 				schema: TransformationEventSchema
+			},
+			{
+				type: "ContextType",
+				schema: ContextTypeSchema
 			}
 		];
 

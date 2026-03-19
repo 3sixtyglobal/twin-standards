@@ -23,7 +23,7 @@ export interface IUneceRecordedStatus {
 	/**
 	 * The date, time, date time, or other date time value when this recorded status changed.
 	 * @see https://vocabulary.uncefact.org/changedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	changedDateTime: string;
 

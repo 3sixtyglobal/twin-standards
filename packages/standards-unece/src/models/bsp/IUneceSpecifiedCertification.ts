@@ -41,14 +41,14 @@ export interface IUneceSpecifiedCertification {
 	/**
 	 * An audit date, time, date time or other date time value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/auditDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	auditDateTime?: string;
 
 	/**
 	 * The end date value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/endDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endDateTime?: string;
 
@@ -91,7 +91,7 @@ export interface IUneceSpecifiedCertification {
 	/**
 	 * The start date value for this specified certification.
 	 * @see https://vocabulary.uncefact.org/startDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startDateTime?: string;
 

@@ -33,7 +33,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The date, time, date time, or other date time value of the end of this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/endDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endDateTime?: string;
 
@@ -58,7 +58,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The production year for this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/productionYearDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	productionYearDateTime?: string;
 
@@ -77,7 +77,7 @@ export interface IUneceProductionCycle {
 	/**
 	 * The date, time, date time, or other date time value of the start of this specified production cycle.
 	 * @see https://vocabulary.uncefact.org/startDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startDateTime?: string;
 }

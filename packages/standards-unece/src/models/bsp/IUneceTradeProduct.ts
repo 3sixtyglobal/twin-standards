@@ -290,7 +290,7 @@ export interface IUneceTradeProduct {
 	 * The formatted date, time, date time, or other date time value of the cancellation of the announced launch of this trade
 	 * product.
 	 * @see https://vocabulary.uncefact.org/cancellationAnnouncedLaunchDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	cancellationAnnouncedLaunchDateTime?: string;
 
@@ -659,7 +659,7 @@ export interface IUneceTradeProduct {
 	 * The formatted date, time, date time, or other date time value of the latest change in the product data for this trade
 	 * product.
 	 * @see https://vocabulary.uncefact.org/latestProductDataChangeDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestProductDataChangeDateTime?: string;
 
@@ -864,7 +864,7 @@ export interface IUneceTradeProduct {
 	/**
 	 * The date, time, date time, or other date time value of the discontinuation of the production of this trade product.
 	 * @see https://vocabulary.uncefact.org/productionDiscontinuedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	productionDiscontinuedDateTime?: string;
 

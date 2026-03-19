@@ -58,7 +58,7 @@ export interface IUneceAdvancePayment {
 	/**
 	 * The formatted date or date time value when an advance payment has been received.
 	 * @see https://vocabulary.uncefact.org/receivedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	receivedDateTime?: string;
 }

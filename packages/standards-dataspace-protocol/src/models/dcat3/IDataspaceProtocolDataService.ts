@@ -1,9 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IDcatDataService } from "@twin.org/standards-w3c-dcat";
-import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDatasetNoContext } from "./IDataspaceProtocolDatasetNoContext.js";
+import type { IDataspaceProtocolDataServiceBase } from "./IDataspaceProtocolDataServiceBase.js";
 
 /**
  * Data Service interface compliant with Eclipse Data Space Protocol.
@@ -25,34 +23,9 @@ import type { IDataspaceProtocolDatasetNoContext } from "./IDataspaceProtocolDat
  * @see https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
  *
  */
-export interface IDataspaceProtocolDataService extends Omit<
-	IDcatDataService,
-	"@type" | "@context" | "dcat:servesDataset" | "dcat:endpointURL"
-> {
+export interface IDataspaceProtocolDataService extends IDataspaceProtocolDataServiceBase {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */
 	"@context": DataspaceProtocolContextType;
-
-	/**
-	 * The type identifier for the Data Service.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@type": typeof DataspaceProtocolCatalogTypes.DataService;
-
-	/**
-	 * Unique identifier for the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@id": string;
-
-	/**
-	 * Endpoint URL
-	 */
-	endpointURL: string;
-
-	/**
-	 * Datasets served.
-	 */
-	servesDataset?: IDataspaceProtocolDatasetNoContext | IDataspaceProtocolDatasetNoContext[];
 }

@@ -29,7 +29,7 @@ export interface IUneceLaboratoryObservationNote {
 	/**
 	 * The date, time, date time, or other date time value for the creation of this laboratory observation note.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime: string;
 }

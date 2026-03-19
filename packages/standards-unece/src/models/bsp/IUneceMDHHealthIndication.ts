@@ -52,7 +52,7 @@ export interface IUneceMDHHealthIndication {
 	/**
 	 * A reported date, time, date time or other date time value for this MDH health indication.
 	 * @see https://vocabulary.uncefact.org/reportedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	reportedDateTime?: string;
 

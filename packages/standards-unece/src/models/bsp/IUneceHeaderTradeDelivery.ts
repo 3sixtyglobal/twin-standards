@@ -91,7 +91,7 @@ export interface IUneceHeaderTradeDelivery {
 	/**
 	 * The date, time, date time, or other date time value, at header level, for the buyer order for this trade delivery.
 	 * @see https://vocabulary.uncefact.org/buyerOrderDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	buyerOrderDateTime?: string;
 
@@ -207,7 +207,7 @@ export interface IUneceHeaderTradeDelivery {
 	 * The date, time, date time, or other date time value, at header level, when the goods ownership of this trade delivery
 	 * changed.
 	 * @see https://vocabulary.uncefact.org/goodsOwnershipChangeDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	goodsOwnershipChangeDateTime?: string;
 
@@ -293,7 +293,7 @@ export interface IUneceHeaderTradeDelivery {
 	 * The formatted date, time, date time, or other date time value, at header level, when this trade delivery is available
 	 * for pick-up.
 	 * @see https://vocabulary.uncefact.org/pickUpAvailabilityDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	pickUpAvailabilityDateTime?: string;
 
@@ -451,7 +451,7 @@ export interface IUneceHeaderTradeDelivery {
 	 * The date, time, date time, or other date time value, at header level, when this trade delivery is delivered to the
 	 * ultimate ship to party.
 	 * @see https://vocabulary.uncefact.org/ultimateShipToDeliveryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	ultimateShipToDeliveryDateTime?: string;
 

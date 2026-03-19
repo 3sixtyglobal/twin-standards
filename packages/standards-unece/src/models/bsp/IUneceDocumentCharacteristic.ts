@@ -88,7 +88,7 @@ export interface IUneceDocumentCharacteristic {
 	/**
 	 * A date, time, date time or other date time value for this document characteristic.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	valueDateTime?: string;
 

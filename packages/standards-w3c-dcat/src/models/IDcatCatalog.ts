@@ -1,14 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { DcatClasses } from "./dcatClasses.js";
-import type { IDcatDataset } from "./IDcatDataset.js";
-import type { IDcatResource } from "./IDcatResource.js";
-import type {
-	CatalogOptionalContext,
-	CatalogRecordOptionalContext,
-	DataServiceOptionalContext,
-	DatasetOptionalContext
-} from "./types/dcatContextFreeTypes.js";
+import type { DcatContextType } from "./dcatContextType.js";
+import type { IDcatCatalogBase } from "./IDcatCatalogBase.js";
 
 /**
  * Interface for DCAT Catalog.
@@ -16,51 +9,9 @@ import type {
  * Note: dcat:Catalog is a sub-class of dcat:Dataset per the W3C spec.
  * @see https://www.w3.org/TR/vocab-dcat-3/#Class:Catalog
  */
-export interface IDcatCatalog extends IDcatDataset {
+export interface IDcatCatalog extends IDcatCatalogBase {
 	/**
-	 * The type identifier, typically "Catalog".
+	 * The JSON-LD context for the resource.
 	 */
-	"@type": typeof DcatClasses.Catalog;
-
-	/**
-	 * A homepage of the catalog (a public Web document usually available in HTML).
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_homepage
-	 */
-	"foaf:homepage"?: string;
-
-	/**
-	 * A knowledge organization system (KOS) used to classify the resources in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_themes
-	 */
-	"dcat:themeTaxonomy"?: IDcatResource | IDcatResource[];
-
-	/**
-	 * A resource that is listed in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_resource
-	 */
-	"dcat:resource"?: IDcatResource | IDcatResource[];
-
-	/**
-	 * A dataset that is listed in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_dataset
-	 */
-	"dcat:dataset"?: DatasetOptionalContext | DatasetOptionalContext[];
-
-	/**
-	 * A data service that is listed in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_service
-	 */
-	"dcat:service"?: DataServiceOptionalContext | DataServiceOptionalContext[];
-
-	/**
-	 * A catalog that is listed in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog
-	 */
-	"dcat:catalog"?: CatalogOptionalContext | CatalogOptionalContext[];
-
-	/**
-	 * A record describing the registration of a single resource in the catalog.
-	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:catalog_catalog_record
-	 */
-	"dcat:record"?: CatalogRecordOptionalContext | CatalogRecordOptionalContext[];
+	"@context": DcatContextType;
 }

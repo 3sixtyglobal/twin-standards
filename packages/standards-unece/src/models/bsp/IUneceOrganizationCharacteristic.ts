@@ -87,7 +87,7 @@ export interface IUneceOrganizationCharacteristic {
 	/**
 	 * The value for this organization characteristic expressed as a date, time, date time, or other date time value.
 	 * @see https://vocabulary.uncefact.org/valueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	valueDateTime?: string;
 

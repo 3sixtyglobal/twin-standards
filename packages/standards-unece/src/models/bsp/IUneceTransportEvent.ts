@@ -39,21 +39,21 @@ export interface IUneceTransportEvent {
 	/**
 	 * The date, time, date time or other date time value of the actual arrival related to this transport event.
 	 * @see https://vocabulary.uncefact.org/actualArrivalRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualArrivalRelatedDateTime?: string;
 
 	/**
 	 * The date, time, date time or other date time value of the actual departure related to this transport event.
 	 * @see https://vocabulary.uncefact.org/actualDepartureRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualDepartureRelatedDateTime?: string;
 
 	/**
 	 * The actual date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/actualOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualOccurrenceDateTime?: string;
 
@@ -90,7 +90,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * An arrival date, time, date time, or other date time value related to this transport event.
 	 * @see https://vocabulary.uncefact.org/arrivalRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	arrivalRelatedDateTime?: string;
 
@@ -133,7 +133,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * A departure date, time, date time, or other date time value related to this transport event.
 	 * @see https://vocabulary.uncefact.org/departureRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	departureRelatedDateTime?: string;
 
@@ -146,7 +146,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The estimated date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/estimatedOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	estimatedOccurrenceDateTime?: string;
 
@@ -154,7 +154,7 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time, or other date time value when the arrival of a means of transport at the location of this
 	 * transport event is estimated to occur.
 	 * @see https://vocabulary.uncefact.org/estimatedTransportMeansArrivalOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	estimatedTransportMeansArrivalOccurrenceDateTime?: string;
 
@@ -222,7 +222,7 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time, or other date time value when information related to this transport event was received, from
 	 * the perspective of the receiver.
 	 * @see https://vocabulary.uncefact.org/receivedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	receivedDateTime?: string;
 
@@ -253,7 +253,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The requested date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/requestedOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedOccurrenceDateTime?: string;
 
@@ -266,7 +266,7 @@ export interface IUneceTransportEvent {
 	/**
 	 * The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledArrivalRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	scheduledArrivalRelatedDateTime?: string;
 
@@ -274,14 +274,14 @@ export interface IUneceTransportEvent {
 	 * The date, time, date time or other date time value of the scheduled departure related to this referenced transport
 	 * event.
 	 * @see https://vocabulary.uncefact.org/scheduledDepartureRelatedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	scheduledDepartureRelatedDateTime?: string;
 
 	/**
 	 * The scheduled date, time, date time, or other date time value of the occurrence of this transport event.
 	 * @see https://vocabulary.uncefact.org/scheduledOccurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	scheduledOccurrenceDateTime?: string;
 

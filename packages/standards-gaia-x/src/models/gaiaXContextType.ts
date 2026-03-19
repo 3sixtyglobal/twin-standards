@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { SingleOccurrenceArray } from "@twin.org/core";
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
 import type { GaiaXContexts } from "./gaiaXContexts.js";
 
@@ -8,13 +9,4 @@ import type { GaiaXContexts } from "./gaiaXContexts.js";
  */
 export type GaiaXContextType =
 	| typeof GaiaXContexts.Context
-	| [
-			...IJsonLdContextDefinitionElement[],
-			typeof GaiaXContexts.Context,
-			IJsonLdContextDefinitionElement
-	  ]
-	| [
-			IJsonLdContextDefinitionElement,
-			typeof GaiaXContexts.Context,
-			...IJsonLdContextDefinitionElement[]
-	  ];
+	| SingleOccurrenceArray<IJsonLdContextDefinitionElement, typeof GaiaXContexts.Context>;

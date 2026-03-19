@@ -1,10 +1,7 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IDcatDataset } from "@twin.org/standards-w3c-dcat";
-import type { DataspaceProtocolCatalogTypes } from "../catalog/dataspaceProtocolCatalogTypes.js";
 import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextType.js";
-import type { IDataspaceProtocolDistributionNoContext } from "./IDataspaceProtocolDistributionNoContext.js";
-import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtocolOfferNoContext.js";
+import type { IDataspaceProtocolDatasetBase } from "./IDataspaceProtocolDatasetBase.js";
 
 /**
  * Dataset interface compliant with Eclipse Data Space Protocol.
@@ -36,40 +33,9 @@ import type { IDataspaceProtocolOfferNoContext } from "../odrl/IDataspaceProtoco
  * @see IOdrlOffer from @twin.org/standards-w3c-odrl
  * @see IResource.odrl:hasPolicy from @twin.org/standards-w3c-dcat
  */
-export interface IDataspaceProtocolDataset extends Omit<
-	IDcatDataset,
-	"odrl:hasPolicy" | "dcat:distribution" | "@type" | "@context"
-> {
+export interface IDataspaceProtocolDataset extends IDataspaceProtocolDatasetBase {
 	/**
 	 * LD Context. Required per Eclipse Data Space Protocol.
 	 */
 	"@context": DataspaceProtocolContextType;
-
-	/**
-	 * The type identifier for the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@type": typeof DataspaceProtocolCatalogTypes.Dataset;
-
-	/**
-	 * Unique identifier for the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	"@id": string;
-
-	/**
-	 * Array of ODRL policies (Offers) as required by DS Protocol.
-	 *
-	 * REQUIRED per Eclipse Data Space Protocol spec.
-	 * Must contain at least one IOdrlOffer.
-	 * Currently only single offer is supported, but array structure
-	 * allows for future multi-offer support.
-	 */
-	hasPolicy: IDataspaceProtocolOfferNoContext | IDataspaceProtocolOfferNoContext[];
-
-	/**
-	 * Distribution of the dataset.
-	 * REQUIRED per Eclipse Data Space Protocol.
-	 */
-	distribution: IDataspaceProtocolDistributionNoContext | IDataspaceProtocolDistributionNoContext[];
 }

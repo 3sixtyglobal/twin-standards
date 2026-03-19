@@ -30,7 +30,7 @@ export interface IUneceMembership {
 	/**
 	 * The date, time, date time, or other date time value of the end of this specified membership.
 	 * @see https://vocabulary.uncefact.org/endDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endDateTime?: string;
 
@@ -49,7 +49,7 @@ export interface IUneceMembership {
 	/**
 	 * The date, time, date time, or other date time value of the start of this specified membership.
 	 * @see https://vocabulary.uncefact.org/startDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startDateTime?: string;
 }

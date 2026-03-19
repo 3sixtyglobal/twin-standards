@@ -32,7 +32,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The actual effective date, time, date time or other date time value for this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/actualEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	actualEffectiveDateTime?: string;
 
@@ -93,7 +93,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this product batch certificate expires.
 	 * @see https://vocabulary.uncefact.org/expiryDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	expiryDateTime?: string;
 
@@ -106,7 +106,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The date, time, date time, or other date time value when this product batch certificate was issued.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -131,7 +131,7 @@ export interface IUneceProductBatchCertificate {
 	/**
 	 * The requested effective date, time, date time or other date time value for this product batch certificate.
 	 * @see https://vocabulary.uncefact.org/requestedEffectiveDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	requestedEffectiveDateTime?: string;
 }

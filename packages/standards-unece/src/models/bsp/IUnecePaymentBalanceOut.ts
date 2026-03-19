@@ -43,7 +43,7 @@ export interface IUnecePaymentBalanceOut {
 	/**
 	 * The date, time, date time, or other date time value of an occurrence of this payment balance out.
 	 * @see https://vocabulary.uncefact.org/occurrenceDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	occurrenceDateTime?: string;
 

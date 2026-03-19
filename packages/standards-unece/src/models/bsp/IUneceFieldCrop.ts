@@ -95,7 +95,7 @@ export interface IUneceFieldCrop {
 	/**
 	 * The date, time, date time, or other date time value for the harvest of this field crop.
 	 * @see https://vocabulary.uncefact.org/harvestDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	harvestDateTime?: string;
 

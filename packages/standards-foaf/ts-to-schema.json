@@ -1,6 +1,7 @@
 {
 	"baseUrl": "https://schema.twindev.org/foaf/",
 	"types": [
+		"./src/models/foafContextType.ts",
 		"./src/models/IFoafAgent.ts",
 		"./src/models/IFoafDocument.ts",
 		"./src/models/IFoafGroup.ts",
@@ -10,6 +11,5 @@
 	],
 	"externalReferences": {
 		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	},
-	"autoExpandTypes": ["FoafContextType"]
+	}
 }

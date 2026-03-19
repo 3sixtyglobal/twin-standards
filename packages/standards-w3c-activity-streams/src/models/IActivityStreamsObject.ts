@@ -23,12 +23,12 @@ export interface IActivityStreamsObject {
 	 *
 	 * The value can be a single type or an array of types.
 	 */
-	type?: (ActivityStreamsObjectTypes | string) | (ActivityStreamsObjectTypes | string)[];
+	type?: ObjectOrArray<ActivityStreamsObjectTypes | string>;
 
 	/**
 	 * Global identifier.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-id
-	 * @format uri
+	 * @json-schema format:uri
 	 */
 	id?: string;
 
@@ -95,35 +95,35 @@ export interface IActivityStreamsObject {
 	/**
 	 * Published date-time.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-published
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	published?: string;
 
 	/**
 	 * Updated date-time.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-updated
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	updated?: string;
 
 	/**
 	 * Start time.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-starttime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	startTime?: string;
 
 	/**
 	 * End time.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-endtime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	endTime?: string;
 
 	/**
 	 * Duration.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-duration
-	 * @format duration
+	 * @json-schema format:duration
 	 */
 	duration?: string;
 

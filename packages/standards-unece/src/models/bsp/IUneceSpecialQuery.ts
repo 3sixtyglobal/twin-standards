@@ -36,14 +36,14 @@ export interface IUneceSpecialQuery {
 	/**
 	 * The date, time, date time, or other date time value for the latest response to this special query.
 	 * @see https://vocabulary.uncefact.org/latestResponseDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	latestResponseDateTime?: string;
 
 	/**
 	 * The date, time, date time, or other date time value of the response for this special query.
 	 * @see https://vocabulary.uncefact.org/responseDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	responseDateTime?: string;
 
@@ -62,7 +62,7 @@ export interface IUneceSpecialQuery {
 	/**
 	 * The date, time, date time, or other date time value when this special query was submitted.
 	 * @see https://vocabulary.uncefact.org/submittedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	submittedDateTime?: string;
 

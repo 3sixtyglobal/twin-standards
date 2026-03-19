@@ -1,5 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlRule } from "./IOdrlRule.js";
 
 /**
@@ -25,7 +26,7 @@ export interface IOdrlDuty extends IOdrlRule {
 	 * Only applicable when the Duty is referenced by a Rule with duty or obligation
 	 * properties.
 	 */
-	consequence?: IOdrlDuty | IOdrlDuty[];
+	consequence?: ObjectOrArray<IOdrlDuty>;
 
 	/**
 	 * The party to be compensated

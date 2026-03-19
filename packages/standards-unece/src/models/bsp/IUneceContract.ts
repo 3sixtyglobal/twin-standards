@@ -26,7 +26,7 @@ export interface IUneceContract {
 	/**
 	 * The date, time, date time, or other date time value of automatic extension for this trade contract.
 	 * @see https://vocabulary.uncefact.org/automaticExtensionDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	automaticExtensionDateTime?: string;
 
@@ -51,7 +51,7 @@ export interface IUneceContract {
 	/**
 	 * The date, date time, or other date time value for the issuance of this trade contract.
 	 * @see https://vocabulary.uncefact.org/issueDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	issueDateTime?: string;
 
@@ -70,7 +70,7 @@ export interface IUneceContract {
 	/**
 	 * The date, time, date time or other date time value when this trade contract was signed.
 	 * @see https://vocabulary.uncefact.org/signedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	signedDateTime?: string;
 

@@ -13,6 +13,7 @@ import ArticleSchema from "../schemas/ActivityStreamsArticle.json" with { type: 
 import AudioSchema from "../schemas/ActivityStreamsAudio.json" with { type: "json" };
 import CollectionSchema from "../schemas/ActivityStreamsCollection.json" with { type: "json" };
 import CollectionPageSchema from "../schemas/ActivityStreamsCollectionPage.json" with { type: "json" };
+import ContextTypeSchema from "../schemas/ActivityStreamsContextType.json" with { type: "json" };
 import DocumentSchema from "../schemas/ActivityStreamsDocument.json" with { type: "json" };
 import EventSchema from "../schemas/ActivityStreamsEvent.json" with { type: "json" };
 import GroupSchema from "../schemas/ActivityStreamsGroup.json" with { type: "json" };
@@ -282,6 +283,10 @@ export abstract class ActivityStreamsDataTypes {
 			{
 				type: "Types",
 				schema: ActivityStreamsTypesSchema
+			},
+			{
+				type: "ContextType",
+				schema: ContextTypeSchema
 			}
 		];
 

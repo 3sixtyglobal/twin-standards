@@ -214,7 +214,7 @@ export interface IUneceLogisticsTransportMeans {
 	/**
 	 * The manufacturing date, time, date time, or other date time value for this logistics means of transport.
 	 * @see https://vocabulary.uncefact.org/manufacturingDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	manufacturingDateTime?: string;
 

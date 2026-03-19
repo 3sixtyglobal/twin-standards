@@ -119,7 +119,7 @@ describe("VerifiableCredentialHelper", () => {
 
 	describe("setValidUntil", () => {
 		test("Sets expirationDate for VC v1 (array context)", () => {
-			const vc: IDidVerifiableCredential & { validUntil?: string } = {
+			const vc: IDidVerifiableCredential & { validUntil?: string; expirationDate?: string } = {
 				"@context": [DidContexts.ContextVCv1],
 				type: "VerifiableCredential"
 			};
@@ -130,7 +130,7 @@ describe("VerifiableCredentialHelper", () => {
 		});
 
 		test("Sets expirationDate for VC v1 (string context)", () => {
-			const vc: IDidVerifiableCredential & { validUntil?: string } = {
+			const vc: IDidVerifiableCredential & { validUntil?: string; expirationDate?: string } = {
 				"@context": DidContexts.ContextVCv1,
 				type: "VerifiableCredential"
 			};
@@ -141,7 +141,7 @@ describe("VerifiableCredentialHelper", () => {
 		});
 
 		test("Sets validUntil for VC v2 (array context)", () => {
-			const vc: IDidVerifiableCredential & { expirationDate?: string } = {
+			const vc: IDidVerifiableCredential & { validUntil?: string; expirationDate?: string } = {
 				"@context": [DidContexts.ContextVCv2],
 				type: "VerifiableCredential"
 			};
@@ -197,7 +197,7 @@ describe("VerifiableCredentialHelper", () => {
 
 	describe("setValidFrom", () => {
 		test("Sets issuanceDate for VC v1 (array context)", () => {
-			const vc: IDidVerifiableCredential & { validFrom?: string } = {
+			const vc: IDidVerifiableCredential & { validFrom?: string; issuanceDate?: string } = {
 				"@context": [DidContexts.ContextVCv1],
 				type: "VerifiableCredential"
 			};
@@ -219,7 +219,7 @@ describe("VerifiableCredentialHelper", () => {
 		});
 
 		test("Sets validFrom for VC v2 (array context)", () => {
-			const vc: IDidVerifiableCredential & { issuanceDate?: string } = {
+			const vc: IDidVerifiableCredential & { validFrom?: string; issuanceDate?: string } = {
 				"@context": [DidContexts.ContextVCv2],
 				type: "VerifiableCredential"
 			};

@@ -26,7 +26,7 @@ export interface IUneceXHEDocument {
 	/**
 	 * The date, time, date time or other date time value of the creation of this XHE document.
 	 * @see https://vocabulary.uncefact.org/creationDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	creationDateTime: string;
 

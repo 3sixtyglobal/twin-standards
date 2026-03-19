@@ -65,7 +65,7 @@ export interface IUneceLineTradeAgreement {
 	/**
 	 * The date, time, date time, or other date time value of approval by the buyer for this line trade agreement.
 	 * @see https://vocabulary.uncefact.org/buyerApprovedDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	buyerApprovedDateTime?: string;
 

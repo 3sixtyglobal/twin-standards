@@ -21,12 +21,12 @@ export interface IActivityStreamsLink {
 	/**
 	 * Link type.
 	 */
-	type: (ActivityStreamsLinkTypes | string) | (ActivityStreamsLinkTypes | string)[];
+	type: ObjectOrArray<ActivityStreamsLinkTypes | string>;
 
 	/**
 	 * The target URI of the Link.
 	 * @see https://www.w3.org/TR/activitystreams-vocabulary/#dfn-href
-	 * @format uri
+	 * @json-schema format:uri
 	 */
 	href: string;
 

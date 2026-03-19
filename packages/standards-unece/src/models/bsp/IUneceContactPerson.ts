@@ -37,7 +37,7 @@ export interface IUneceContactPerson {
 	/**
 	 * The date, time, date time or other date time value which specifies the birth date for this contact person.
 	 * @see https://vocabulary.uncefact.org/birthDateTime
-	 * @format date-time
+	 * @json-schema format:date-time
 	 */
 	birthDateTime?: string;
 
