@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.55](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.54...standards-gaia-x-v0.0.3-next.55) (2026-03-19)
+
+
+### Features
+
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/twinfoundation/standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.54 to 0.0.3-next.55
+
 ## [0.0.3-next.54](https://github.com/twinfoundation/standards/compare/standards-gaia-x-v0.0.3-next.53...standards-gaia-x-v0.0.3-next.54) (2026-03-12)
 
 

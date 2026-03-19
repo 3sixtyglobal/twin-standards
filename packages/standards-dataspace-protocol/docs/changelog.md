@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.0.3-next.55](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.54...standards-dataspace-protocol-v0.0.3-next.55) (2026-03-19)
+
+
+### Features
+
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/twinfoundation/standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+* use local LD contexts in tests instead of remote ones ([#201](https://github.com/twinfoundation/standards/issues/201)) ([7d6c6ea](https://github.com/twinfoundation/standards/commit/7d6c6ea7b952fb9e2240ff252f8ce85c42d78985))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.54 to 0.0.3-next.55
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.54 to 0.0.3-next.55
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.54 to 0.0.3-next.55
+
 ## [0.0.3-next.54](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.53...standards-dataspace-protocol-v0.0.3-next.54) (2026-03-12)
 
 

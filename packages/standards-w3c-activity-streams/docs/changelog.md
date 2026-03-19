@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.3-next.55](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.54...standards-w3c-activity-streams-v0.0.3-next.55) (2026-03-19)
+
+
+### Features
+
+* update to new ts-ts-schema and generic constructs ([4dff991](https://github.com/twinfoundation/standards/commit/4dff991fb70de4320668641ed94abf8e9b06acad))
+
+
+### Bug Fixes
+
+* add missing activity streams question types ([3151d27](https://github.com/twinfoundation/standards/commit/3151d27ed53071b29b808a1ba2d0dda724b54fd1))
+
 ## [0.0.3-next.54](https://github.com/twinfoundation/standards/compare/standards-w3c-activity-streams-v0.0.3-next.53...standards-w3c-activity-streams-v0.0.3-next.54) (2026-03-12)
 
 
