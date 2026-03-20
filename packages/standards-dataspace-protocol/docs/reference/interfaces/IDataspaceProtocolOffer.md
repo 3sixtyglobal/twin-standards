@@ -127,7 +127,7 @@ IRIs identifying the parent Policy(ies).
 
 ### conflict? {#conflict}
 
-> `optional` **conflict?**: `ConflictStrategyType`
+> `optional` **conflict?**: `OdrlConflictStrategyType`
 
 The conflict resolution strategy.
 - perm: Permissions override Prohibitions

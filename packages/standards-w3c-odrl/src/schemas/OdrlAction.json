@@ -48,7 +48,7 @@
 		"includedIn": {
 			"anyOf": [
 				{
-					"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
+					"$ref": "https://schema.twindev.org/w3c-odrl/OdrlActionType"
 				},
 				{
 					"type": "string"
@@ -61,7 +61,7 @@
 			"items": {
 				"anyOf": [
 					{
-						"$ref": "https://schema.twindev.org/w3c-odrl/ActionType"
+						"$ref": "https://schema.twindev.org/w3c-odrl/OdrlActionType"
 					},
 					{
 						"type": "string"

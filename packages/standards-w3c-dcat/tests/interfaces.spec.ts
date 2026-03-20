@@ -51,7 +51,7 @@ describe("DCAT Interfaces and Schemas", () => {
 				"@type": "foaf:Person",
 				"foaf:name": "Dr. Ada Example"
 			},
-			"dcterms:issued": "2021-06-30",
+			"dcterms:issued": "2021-06-30T00:00:00Z",
 			"dcterms:modified": "2025-10-10T12:34:56Z",
 			"dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
 			"dcterms:rights": "Public Domain",
@@ -101,7 +101,7 @@ describe("DCAT Interfaces and Schemas", () => {
 			"dcterms:title": "National Energy Statistics 2025",
 			"dcterms:description":
 				"Annual dataset of national energy production and consumption figures.",
-			"dcterms:issued": "2025-11-18",
+			"dcterms:issued": "2025-11-18T00:00:00Z",
 			"dcterms:creator": {
 				"@id": "http://example.org/person/martyn",
 				"@type": "foaf:Person",
@@ -169,7 +169,7 @@ describe("DCAT Interfaces and Schemas", () => {
 			"dcterms:title": "National Energy Data Catalog",
 			"dcterms:description":
 				"A catalog of datasets and services related to national energy statistics and infrastructure.",
-			"dcterms:issued": "2025-11-18",
+			"dcterms:issued": "2025-11-18T00:00:00Z",
 			"dcterms:publisher": {
 				"@id": "http://example.org/org/energy-office",
 				"@type": "foaf:Organization",
@@ -249,7 +249,7 @@ describe("DCAT Interfaces and Schemas", () => {
 			"dcterms:format": "text/csv",
 			"dcat:accessURL": "http://data.example.org/energy-stats.csv",
 			"dcat:downloadURL": "http://data.example.org/energy-stats.csv",
-			"dcterms:issued": "2025-11-18",
+			"dcterms:issued": "2025-11-18T00:00:00Z",
 			"dcterms:license": "http://creativecommons.org/licenses/by/4.0/"
 		};
 		it("should validate distribution against schema", async () => {
@@ -291,7 +291,7 @@ describe("IDcatDataService Interface", () => {
 		"dcterms:title": "National Energy Statistics API",
 		"dcterms:description":
 			"RESTful API providing access to national energy production and consumption data.",
-		"dcterms:issued": "2025-11-18",
+		"dcterms:issued": "2025-11-18T00:00:00Z",
 		"dcterms:publisher": {
 			"@id": "http://example.org/org/energy-office",
 			"@type": "foaf:Organization",
@@ -363,7 +363,7 @@ describe("IDcatDatasetSeries Interface", () => {
 				"@id": "http://example.org/dataset/energy-stats-2024",
 				"@type": "dcat:Dataset",
 				"dcterms:title": "National Energy Statistics 2024",
-				"dcterms:issued": "2024-11-18",
+				"dcterms:issued": "2024-11-18T00:00:00Z",
 				"dcat:landingPage": "http://data.example.org/energy-stats-2024",
 				"dcat:distribution": {
 					"@id": "http://example.org/dataset/energy-stats-2024/csv",
@@ -376,7 +376,7 @@ describe("IDcatDatasetSeries Interface", () => {
 				"@id": "http://example.org/dataset/energy-stats-2025",
 				"@type": "dcat:Dataset",
 				"dcterms:title": "National Energy Statistics 2025",
-				"dcterms:issued": "2025-11-18",
+				"dcterms:issued": "2025-11-18T00:00:00Z",
 				"dcat:landingPage": "http://data.example.org/energy-stats-2025",
 				"dcat:distribution": {
 					"@id": "http://example.org/dataset/energy-stats-2025/json",
@@ -426,8 +426,8 @@ describe("IDcatCatalogRecord Interface", () => {
 		"dcterms:title": "Catalog record for National Energy Statistics 2025",
 		"dcterms:description":
 			"This record describes the entry of the dataset 'National Energy Statistics 2025' in the National Energy Data Catalog.",
-		"dcterms:issued": "2025-11-18",
-		"dcterms:modified": "2025-11-19",
+		"dcterms:issued": "2025-11-18T00:00:00Z",
+		"dcterms:modified": "2025-11-19T00:00:00Z",
 		"foaf:primaryTopic": {
 			"@context": {
 				dcat: DcatContexts.Namespace,

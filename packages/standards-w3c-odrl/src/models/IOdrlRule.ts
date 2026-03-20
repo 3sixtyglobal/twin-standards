@@ -8,7 +8,7 @@ import type { IOdrlConstraint } from "./IOdrlConstraint.js";
 import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
 import type { IOdrlParty } from "./IOdrlParty.js";
 import type { IOdrlPartyCollection } from "./IOdrlPartyCollection.js";
-import type { ActionType } from "./types/actionType.js";
+import type { OdrlActionType } from "./types/odrlActionType.js";
 
 /**
  * Base interface for ODRL Rules.
@@ -23,7 +23,7 @@ export interface IOdrlRule {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ObjectOrArray<ActionType | string | IOdrlAction>;
+	action?: ObjectOrArray<OdrlActionType | string | IOdrlAction>;
 
 	/**
 	 * The target asset for the rule.

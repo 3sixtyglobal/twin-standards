@@ -22,7 +22,7 @@ Must include "https://www.w3.org/ns/odrl.jsonld"
 
 ### @type {#type}
 
-> **@type**: [`PolicyType`](../type-aliases/PolicyType.md)
+> **@type**: [`OdrlPolicyType`](../type-aliases/OdrlPolicyType.md)
 
 The type of policy.
 Must be one of: "Set", "Offer", "Agreement"
@@ -92,7 +92,7 @@ IRIs identifying the parent Policy(ies).
 
 ### conflict? {#conflict}
 
-> `optional` **conflict?**: [`ConflictStrategyType`](../type-aliases/ConflictStrategyType.md)
+> `optional` **conflict?**: [`OdrlConflictStrategyType`](../type-aliases/OdrlConflictStrategyType.md)
 
 The conflict resolution strategy.
 - perm: Permissions override Prohibitions

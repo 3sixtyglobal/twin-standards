@@ -9,9 +9,10 @@ import {
 	type IDcatDataset,
 	DcatContexts,
 	type IDcatDistribution,
-	type IDcatDataService
+	type IDcatDataService,
+	DcatDataTypes
 } from "@twin.org/standards-w3c-dcat";
-import { OdrlContexts } from "@twin.org/standards-w3c-odrl";
+import { OdrlContexts, OdrlDataTypes } from "@twin.org/standards-w3c-odrl";
 import {
 	DataspaceProtocolCatalogTypes,
 	DataspaceProtocolContexts,
@@ -27,6 +28,8 @@ import {
 describe("Dataspace Protocol", () => {
 	beforeAll(async () => {
 		DataspaceProtocolDataTypes.registerTypes();
+		DcatDataTypes.registerTypes();
+		OdrlDataTypes.registerTypes();
 		await addAllContextsToDocumentCache();
 	});
 

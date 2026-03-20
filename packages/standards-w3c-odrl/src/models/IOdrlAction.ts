@@ -3,7 +3,7 @@
 import type { ObjectOrArray } from "@twin.org/core";
 import type { IOdrlConstraint } from "./IOdrlConstraint.js";
 import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
-import type { ActionType } from "./types/actionType.js";
+import type { OdrlActionType } from "./types/odrlActionType.js";
 
 /**
  * Interface for ODRL Actions.
@@ -30,10 +30,10 @@ export interface IOdrlAction {
 	/**
 	 * Reference to the action this action is included in.
 	 */
-	includedIn?: ActionType | string;
+	includedIn?: OdrlActionType | string;
 
 	/**
 	 * References to actions this action implies.
 	 */
-	implies?: (ActionType | string)[];
+	implies?: (OdrlActionType | string)[];
 }

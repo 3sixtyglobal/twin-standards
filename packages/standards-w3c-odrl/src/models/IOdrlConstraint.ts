@@ -1,9 +1,9 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { LeftOperandType } from "./types/leftOperandType.js";
-import type { OperatorType } from "./types/operatorType.js";
-import type { StatusType } from "./types/statusType.js";
+import type { OdrlLeftOperandType } from "./types/odrlLeftOperandType.js";
+import type { OdrlOperatorType } from "./types/odrlOperatorType.js";
+import type { OdrlStatusType } from "./types/odrlStatusType.js";
 
 /**
  * Interface for ODRL Constraints.
@@ -18,12 +18,12 @@ export interface IOdrlConstraint {
 	/**
 	 * The left operand of the constraint.
 	 */
-	leftOperand: string | LeftOperandType;
+	leftOperand: string | OdrlLeftOperandType;
 
 	/**
 	 * The operator of the constraint.
 	 */
-	operator: OperatorType;
+	operator: OdrlOperatorType;
 
 	/**
 	 * The right operand of the constraint.
@@ -62,5 +62,5 @@ export interface IOdrlConstraint {
 	/**
 	 * The status value for comparison.
 	 */
-	status?: StatusType;
+	status?: OdrlStatusType;
 }

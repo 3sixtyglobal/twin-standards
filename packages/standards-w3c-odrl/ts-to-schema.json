@@ -18,15 +18,15 @@
 		"./src/models/IOdrlProhibition.ts",
 		"./src/models/IOdrlRule.ts",
 		"./src/models/IOdrlSet.ts",
-		"./src/models/types/logicalConstraintType.ts",
+		"./src/models/types/odrlLogicalConstraintType.ts",
 		"./src/models/types/odrlTypes.ts",
-		"./src/models/types/operatorType.ts",
-		"./src/models/types/policyType.ts",
-		"./src/models/types/ruleType.ts",
-		"./src/models/types/statusType.ts",
-		"./src/models/types/actionType.ts",
-		"./src/models/types/leftOperandType.ts",
-		"./src/models/types/rightOperandType.ts"
+		"./src/models/types/odrlOperatorType.ts",
+		"./src/models/types/odrlPolicyType.ts",
+		"./src/models/types/odrlRuleType.ts",
+		"./src/models/types/odrlStatusType.ts",
+		"./src/models/types/odrlActionType.ts",
+		"./src/models/types/odrlLeftOperandType.ts",
+		"./src/models/types/odrlRightOperandType.ts"
 	],
 	"externalReferences": {
 		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"

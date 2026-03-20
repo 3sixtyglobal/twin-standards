@@ -5,22 +5,31 @@ import { JsonLdProcessor } from "@twin.org/data-json-ld";
 import { OdrlContexts } from "../models/odrlContexts.js";
 import { OdrlTypes } from "../models/types/odrlTypes.js";
 import OdrlActionSchema from "../schemas/OdrlAction.json" with { type: "json" };
+import OdrlActionTypeSchema from "../schemas/OdrlActionType.json" with { type: "json" };
 import OdrlAgreementSchema from "../schemas/OdrlAgreement.json" with { type: "json" };
 import OdrlAssetSchema from "../schemas/OdrlAsset.json" with { type: "json" };
 import OdrlAssetCollectionSchema from "../schemas/OdrlAssetCollection.json" with { type: "json" };
 import OdrlConstraintSchema from "../schemas/OdrlConstraint.json" with { type: "json" };
 import ContextTypeSchema from "../schemas/OdrlContextType.json" with { type: "json" };
 import OdrlDutySchema from "../schemas/OdrlDuty.json" with { type: "json" };
+import OdrlLeftOperandTypeSchema from "../schemas/OdrlLeftOperandType.json" with { type: "json" };
 import OdrlLogicalConstraintSchema from "../schemas/OdrlLogicalConstraint.json" with { type: "json" };
 import OdrlLogicalConstraintOperandSchema from "../schemas/OdrlLogicalConstraintOperand.json" with { type: "json" };
+import OdrlLogicalConstraintTypeSchema from "../schemas/OdrlLogicalConstraintType.json" with { type: "json" };
 import OdrlOfferSchema from "../schemas/OdrlOffer.json" with { type: "json" };
+import OdrlOperatorTypeSchema from "../schemas/OdrlOperatorType.json" with { type: "json" };
 import OdrlPartySchema from "../schemas/OdrlParty.json" with { type: "json" };
 import OdrlPartyCollectionSchema from "../schemas/OdrlPartyCollection.json" with { type: "json" };
 import OdrlPermissionSchema from "../schemas/OdrlPermission.json" with { type: "json" };
 import OdrlPolicySchema from "../schemas/OdrlPolicy.json" with { type: "json" };
+import OdrlPolicyTypeSchema from "../schemas/OdrlPolicyType.json" with { type: "json" };
 import OdrlProhibitionSchema from "../schemas/OdrlProhibition.json" with { type: "json" };
+import OdrlRightOperandTypeSchema from "../schemas/OdrlRightOperandType.json" with { type: "json" };
 import OdrlRuleSchema from "../schemas/OdrlRule.json" with { type: "json" };
+import OdrlRuleTypeSchema from "../schemas/OdrlRuleType.json" with { type: "json" };
 import OdrlSetSchema from "../schemas/OdrlSet.json" with { type: "json" };
+import OdrlStatusTypeSchema from "../schemas/OdrlStatusType.json" with { type: "json" };
+import OdrlTypesSchema from "../schemas/OdrlTypes.json" with { type: "json" };
 
 /**
  * Handle all the data types for ODRL.
@@ -105,6 +114,42 @@ export class OdrlDataTypes {
 			{
 				type: "ContextType",
 				schema: ContextTypeSchema
+			},
+			{
+				type: "ActionType",
+				schema: OdrlActionTypeSchema
+			},
+			{
+				type: "LeftOperandType",
+				schema: OdrlLeftOperandTypeSchema
+			},
+			{
+				type: "LogicalConstraintType",
+				schema: OdrlLogicalConstraintTypeSchema
+			},
+			{
+				type: "OperatorType",
+				schema: OdrlOperatorTypeSchema
+			},
+			{
+				type: "PolicyType",
+				schema: OdrlPolicyTypeSchema
+			},
+			{
+				type: "RightOperandType",
+				schema: OdrlRightOperandTypeSchema
+			},
+			{
+				type: "RuleType",
+				schema: OdrlRuleTypeSchema
+			},
+			{
+				type: "StatusType",
+				schema: OdrlStatusTypeSchema
+			},
+			{
+				type: "Types",
+				schema: OdrlTypesSchema
 			}
 		];
 

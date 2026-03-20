@@ -10,9 +10,9 @@ import type { IOdrlPartyCollection } from "./IOdrlPartyCollection.js";
 import type { IOdrlPermission } from "./IOdrlPermission.js";
 import type { IOdrlProhibition } from "./IOdrlProhibition.js";
 import type { OdrlContextType } from "./odrlContextType.js";
-import type { ActionType } from "./types/actionType.js";
-import type { ConflictStrategyType } from "./types/conflictStrategyType.js";
-import type { PolicyType } from "./types/policyType.js";
+import type { OdrlActionType } from "./types/odrlActionType.js";
+import type { OdrlConflictStrategyType } from "./types/odrlConflictStrategyType.js";
+import type { OdrlPolicyType } from "./types/odrlPolicyType.js";
 
 /**
  * Interface representing an ODRL Policy.
@@ -29,7 +29,7 @@ export interface IOdrlPolicy {
 	 * The type of policy.
 	 * Must be one of: "Set", "Offer", "Agreement"
 	 */
-	"@type": PolicyType;
+	"@type": OdrlPolicyType;
 
 	/**
 	 * The unique identifier for the policy.
@@ -64,7 +64,7 @@ export interface IOdrlPolicy {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ObjectOrArray<ActionType | string | IOdrlAction>;
+	action?: ObjectOrArray<OdrlActionType | string | IOdrlAction>;
 
 	/**
 	 * The parent policy(ies) this policy inherits from.
@@ -78,7 +78,7 @@ export interface IOdrlPolicy {
 	 * - prohibit: Prohibitions override Permissions
 	 * - invalid: Policy is void if conflicts exist (default)
 	 */
-	conflict?: ConflictStrategyType;
+	conflict?: OdrlConflictStrategyType;
 
 	/**
 	 * The permissions in the policy.

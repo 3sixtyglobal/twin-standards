@@ -23,7 +23,7 @@ The left operand of the constraint.
 
 ### operator {#operator}
 
-> **operator**: [`OperatorType`](../type-aliases/OperatorType.md)
+> **operator**: [`OdrlOperatorType`](../type-aliases/OdrlOperatorType.md)
 
 The operator of the constraint.
 
@@ -66,6 +66,6 @@ The unit for the right operand value.
 
 ### status? {#status}
 
-> `optional` **status?**: [`StatusType`](../type-aliases/StatusType.md)
+> `optional` **status?**: [`OdrlStatusType`](../type-aliases/OdrlStatusType.md)
 
 The status value for comparison.
