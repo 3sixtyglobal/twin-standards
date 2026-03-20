@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-w3c-vcard",
-	"version": "0.0.3-next.56",
+	"version": "0.0.3-next.57",
 	"description": "Data models for the W3C vCard RDF vocabulary.",
 	"repository": {
 		"type": "git",

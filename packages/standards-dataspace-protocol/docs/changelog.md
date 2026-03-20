@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.57](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.56...standards-dataspace-protocol-v0.0.3-next.57) (2026-03-20)
+
+
+### Bug Fixes
+
+* min items in dataspace protocol ([c94f8df](https://github.com/twinfoundation/standards/commit/c94f8dfae176b46baaade13a4ab6d3df82f0cffa))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.56 to 0.0.3-next.57
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.56 to 0.0.3-next.57
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.56 to 0.0.3-next.57
+
 ## [0.0.3-next.56](https://github.com/twinfoundation/standards/compare/standards-dataspace-protocol-v0.0.3-next.55...standards-dataspace-protocol-v0.0.3-next.56) (2026-03-20)
 
 
