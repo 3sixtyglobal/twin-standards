@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.0.3-next.56](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.55...standards-w3c-dcat-v0.0.3-next.56) (2026-03-20)
+
+
+### Features
+
+* fixes in dataspace and odrl ([9924f91](https://github.com/twinfoundation/standards/commit/9924f9135cb6e227e1040065ab017b1c7ef8347a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.55 to 0.0.3-next.56
+    * @twin.org/standards-foaf bumped from 0.0.3-next.55 to 0.0.3-next.56
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.55 to 0.0.3-next.56
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.55 to 0.0.3-next.56
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.55 to 0.0.3-next.56
+
 ## [0.0.3-next.55](https://github.com/twinfoundation/standards/compare/standards-w3c-dcat-v0.0.3-next.54...standards-w3c-dcat-v0.0.3-next.55) (2026-03-19)
 
 

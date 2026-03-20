@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-dublin-core",
-	"version": "0.0.3-next.55",
+	"version": "0.0.3-next.56",
 	"description": "Data models for Dublin Core metadata terms.",
 	"repository": {
 		"type": "git",
