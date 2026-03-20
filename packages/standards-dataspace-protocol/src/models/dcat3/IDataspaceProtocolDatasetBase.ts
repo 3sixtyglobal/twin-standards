@@ -59,12 +59,14 @@ export interface IDataspaceProtocolDatasetBase extends Omit<
 	 * Must contain at least one IOdrlOffer.
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
+	 * @json-schema minItems:1
 	 */
-	hasPolicy: ObjectOrArray<IDataspaceProtocolOfferBase>;
+	hasPolicy: IDataspaceProtocolOfferBase[];
 
 	/**
 	 * Distribution of the dataset.
 	 * REQUIRED per Eclipse Data Space Protocol.
+	 * @json-schema minItems:1
 	 */
-	distribution: ObjectOrArray<IDataspaceProtocolDistributionBase>;
+	distribution: IDataspaceProtocolDistributionBase[];
 }

@@ -59,8 +59,9 @@ export interface IDataspaceProtocolDistributionBase extends Omit<
 	 * Must contain at least one IOdrlOffer.
 	 * Currently only single offer is supported, but array structure
 	 * allows for future multi-offer support.
+	 * @json-schema minItems:1
 	 */
-	hasPolicy?: ObjectOrArray<IDataspaceProtocolOfferBase>;
+	hasPolicy?: IDataspaceProtocolOfferBase[];
 
 	/**
 	 * Access service.

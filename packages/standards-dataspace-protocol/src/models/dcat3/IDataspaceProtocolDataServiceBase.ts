@@ -48,6 +48,7 @@ export interface IDataspaceProtocolDataServiceBase extends Omit<
 
 	/**
 	 * Datasets served.
+	 * @json-schema minItems:1
 	 */
-	servesDataset?: ObjectOrArray<IDataspaceProtocolDatasetBase>;
+	servesDataset?: IDataspaceProtocolDatasetBase[];
 }
