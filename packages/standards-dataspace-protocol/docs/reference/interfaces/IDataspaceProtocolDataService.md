@@ -73,7 +73,7 @@ Endpoint URL.
 
 ### servesDataset? {#servesdataset}
 
-> `optional` **servesDataset?**: `ObjectOrArray`\<[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)\>
+> `optional` **servesDataset?**: [`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)[]
 
 Datasets served.
 

@@ -65,7 +65,7 @@ REQUIRED on standalone Distribution objects per Eclipse Data Space Protocol.
 
 ### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy?**: `ObjectOrArray`\<[`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)\>
+> `optional` **hasPolicy?**: [`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)[]
 
 Array of ODRL policies (Offers) as required by DS Protocol.
 
