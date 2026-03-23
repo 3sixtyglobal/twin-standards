@@ -27,7 +27,7 @@ Steps:
 
 ## Automation
 
-The script [generateInterfaces.mjs](../scripts/generateInterfaces.mjs) converts these files into TypeScript definitions [../src/models](../src/models) directory.
+The script [generate-interfaces.mjs](../scripts/generate-interfaces.mjs) converts these files into TypeScript definitions [../src/models](../src/models) directory.
 
 * [../src/models/bsp](../src/models/bsp) contains the BSP Models as TypeScript interfaces
 * [../src/models/lists](../src/models/lists) contains the List Codes as TypeScript const enums

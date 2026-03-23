@@ -15,8 +15,8 @@
 	},
 	"scripts": {
 		"clean": "rimraf dist coverage",
-		"build:country-to-json-compressed": "node ./scripts/countryToJsonCompressed.mjs",
-		"build:generate-interfaces": "node ./scripts/generateInterfaces.mjs",
+		"build:country-to-json-compressed": "node ./scripts/country-to-json-compressed.mjs",
+		"build:generate-interfaces": "node ./scripts/generate-interfaces.mjs",
 		"build:schema": "ts-to-schema ./ts-to-schema.json ./src/schemas",
 		"build:compile": "tspc",
 		"build": "npm run build:generate-interfaces && npm run build:compile && npm run build:schema",

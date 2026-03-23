@@ -4,7 +4,7 @@
 import fs, { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { generateIndexFile } from './generateIndexFile.mjs';
+import { generateIndexFile } from './generate-index-file.mjs';
 
 /**
  * Tool to generate TypeScript interfaces from UNECE JSON LD files.

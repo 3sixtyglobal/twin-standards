@@ -8,20 +8,18 @@
 			"type": "object",
 			"properties": {
 				"metadata": {
+					"type": "object",
+					"properties": {
+						"eventType": {
+							"const": "SHIPMENT"
+						}
+					},
+					"required": [
+						"eventType"
+					],
 					"allOf": [
 						{
 							"$ref": "https://schema.twindev.org/dcsa/DcsaEventMetadataActive"
-						},
-						{
-							"type": "object",
-							"properties": {
-								"eventType": {
-									"const": "SHIPMENT"
-								}
-							},
-							"required": [
-								"eventType"
-							]
 						}
 					],
 					"description": "Event metadata (eventType = SHIPMENT)."
@@ -40,20 +38,18 @@
 			"type": "object",
 			"properties": {
 				"metadata": {
+					"type": "object",
+					"properties": {
+						"eventType": {
+							"const": "EQUIPMENT"
+						}
+					},
+					"required": [
+						"eventType"
+					],
 					"allOf": [
 						{
 							"$ref": "https://schema.twindev.org/dcsa/DcsaEventMetadataActive"
-						},
-						{
-							"type": "object",
-							"properties": {
-								"eventType": {
-									"const": "EQUIPMENT"
-								}
-							},
-							"required": [
-								"eventType"
-							]
 						}
 					],
 					"description": "Event metadata (eventType = EQUIPMENT)."
@@ -72,20 +68,18 @@
 			"type": "object",
 			"properties": {
 				"metadata": {
+					"type": "object",
+					"properties": {
+						"eventType": {
+							"const": "TRANSPORT"
+						}
+					},
+					"required": [
+						"eventType"
+					],
 					"allOf": [
 						{
 							"$ref": "https://schema.twindev.org/dcsa/DcsaEventMetadataActive"
-						},
-						{
-							"type": "object",
-							"properties": {
-								"eventType": {
-									"const": "TRANSPORT"
-								}
-							},
-							"required": [
-								"eventType"
-							]
 						}
 					],
 					"description": "Event metadata (eventType = TRANSPORT)."
