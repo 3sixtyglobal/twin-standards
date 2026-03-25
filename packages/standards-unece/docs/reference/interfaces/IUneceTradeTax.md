@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/customsDutyRegimeTypeCode
 
 ### customsProcedureGuaranteeCode? {#customsprocedureguaranteecode}
 
-> `optional` **customsProcedureGuaranteeCode?**: `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"`
+> `optional` **customsProcedureGuaranteeCode?**: `string`
 
 The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be
 fulfilled for this trade related tax, levy or duty.
@@ -648,7 +648,7 @@ https://vocabulary.uncefact.org/taxTypeCode
 
 ### timeReferenceDueDateTypeCode? {#timereferenceduedatetypecode}
 
-> `optional` **timeReferenceDueDateTypeCode?**: [`UneceTimeReferenceCodeList`](../type-aliases/UneceTimeReferenceCodeList.md)
+> `optional` **timeReferenceDueDateTypeCode?**: `string`
 
 The code specifying a type of due date for this trade tax.
 
@@ -684,7 +684,7 @@ https://vocabulary.uncefact.org/tradeTaxFunctionCode
 
 ### tradeTaxPaymentMethodCode? {#tradetaxpaymentmethodcode}
 
-> `optional` **tradeTaxPaymentMethodCode?**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
+> `optional` **tradeTaxPaymentMethodCode?**: `string`
 
 The code specifying the payment method for this trade related tax, levy or duty.
 

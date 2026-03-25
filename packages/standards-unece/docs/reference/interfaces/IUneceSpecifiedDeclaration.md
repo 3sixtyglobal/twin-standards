@@ -111,7 +111,7 @@ https://vocabulary.uncefact.org/name
 
 ### subjectTypeCode? {#subjecttypecode}
 
-> `optional` **subjectTypeCode?**: [`UneceSubjectCodeList`](../type-aliases/UneceSubjectCodeList.md)[]
+> `optional` **subjectTypeCode?**: `string`[]
 
 A code specifying a subject type for this specified declaration.
 

@@ -567,7 +567,7 @@ https://vocabulary.uncefact.org/ownedFinancialAccount
 
 ### partyRoleCode? {#partyrolecode}
 
-> `optional` **partyRoleCode?**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)[]
+> `optional` **partyRoleCode?**: `string`[]
 
 A code specifying the role of this trade party.
 

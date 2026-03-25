@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/cargoCategoryTypeCode
 
 ### cargoCommodityCategoryStatisticalClassificationCode? {#cargocommoditycategorystatisticalclassificationcode}
 
-> `optional` **cargoCommodityCategoryStatisticalClassificationCode?**: `"unece:CargoCommodityCategoryCodeList#ZZZ"`
+> `optional` **cargoCommodityCategoryStatisticalClassificationCode?**: `string`
 
 The code specifying a statistical classification for this transport cargo.
 

@@ -614,7 +614,7 @@ https://vocabulary.uncefact.org/referenceDateTime
 
 ### referenceRelationshipTypeCode? {#referencerelationshiptypecode}
 
-> `optional` **referenceRelationshipTypeCode?**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
+> `optional` **referenceRelationshipTypeCode?**: `string`
 
 The code specifying the type of relationship between this referenced document and another artefact, such as a
 replacement of an original document.
@@ -627,7 +627,7 @@ https://vocabulary.uncefact.org/referenceRelationshipTypeCode
 
 ### referenceTypeCode? {#referencetypecode}
 
-> `optional` **referenceTypeCode?**: [`UneceReferenceCodeList`](../type-aliases/UneceReferenceCodeList.md)
+> `optional` **referenceTypeCode?**: `string`
 
 The code specifying the reference type of this referenced document.
 

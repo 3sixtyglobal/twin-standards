@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/authorizedPersonName
 
 ### contactTypeCode? {#contacttypecode}
 
-> `optional` **contactTypeCode?**: [`UneceContactTypeCodeList`](../type-aliases/UneceContactTypeCodeList.md)
+> `optional` **contactTypeCode?**: `string`
 
 The code specifying the type of trade contact.
 

@@ -147,7 +147,7 @@ https://vocabulary.uncefact.org/dangerousGoodsPackagingLevelPackagingDangerLevel
 
 ### dangerousGoodsRegulationCode? {#dangerousgoodsregulationcode}
 
-> `optional` **dangerousGoodsRegulationCode?**: [`UneceDangerousGoodsRegulationCodeList`](../type-aliases/UneceDangerousGoodsRegulationCodeList.md)
+> `optional` **dangerousGoodsRegulationCode?**: `string`
 
 The code specifying a regulation applicable to these transported dangerous goods.
 

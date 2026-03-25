@@ -279,7 +279,7 @@ https://vocabulary.uncefact.org/linearUnitCalculationBasisDistanceMeasure
 
 ### logisticsChargeCalculationBasisCalculationBasisCode? {#logisticschargecalculationbasiscalculationbasiscode}
 
-> `optional` **logisticsChargeCalculationBasisCalculationBasisCode?**: `"unece:LogisticsChargeCalculationBasisCodeList#ZZZ"`
+> `optional` **logisticsChargeCalculationBasisCalculationBasisCode?**: `string`
 
 The code specifying a basis on which this logistics service charge is to be calculated, such as by volume or per unit.
 

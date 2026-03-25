@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/allowanceChargeIdTypeCode
 
 ### allowanceChargeReasonCode? {#allowancechargereasoncode}
 
-> `optional` **allowanceChargeReasonCode?**: [`UneceAllowanceChargeReasonCodeList`](../type-aliases/UneceAllowanceChargeReasonCodeList.md)
+> `optional` **allowanceChargeReasonCode?**: `string`
 
 The code specifying the reason for this trade allowance charge.
 

@@ -1110,7 +1110,7 @@ https://vocabulary.uncefact.org/transportEquipmentQuantity
 
 ### transportMeansDirectionTransitDirectionCode? {#transportmeansdirectiontransitdirectioncode}
 
-> `optional` **transportMeansDirectionTransitDirectionCode?**: [`UneceTransportMeansDirectionCodeList`](../type-aliases/UneceTransportMeansDirectionCodeList.md)
+> `optional` **transportMeansDirectionTransitDirectionCode?**: `string`
 
 The code specifying the transit direction of this logistics transport movement.
 

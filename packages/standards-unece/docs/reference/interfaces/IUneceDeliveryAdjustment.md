@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/actualQuantity
 
 ### adjustmentReasonCode? {#adjustmentreasoncode}
 
-> `optional` **adjustmentReasonCode?**: [`UneceAdjustmentReasonCodeList`](../type-aliases/UneceAdjustmentReasonCodeList.md)
+> `optional` **adjustmentReasonCode?**: `string`
 
 The code specifying a reason for this delivery adjustment.
 

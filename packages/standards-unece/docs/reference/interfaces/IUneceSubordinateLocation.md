@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)
+> `optional` **locationFunctionTypeCode?**: `string`
 
 The code specifying the type of subordinate location.
 

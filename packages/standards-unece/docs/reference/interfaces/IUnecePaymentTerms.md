@@ -210,7 +210,7 @@ https://vocabulary.uncefact.org/paymentTermsId
 
 ### paymentTermsTypeCode? {#paymenttermstypecode}
 
-> `optional` **paymentTermsTypeCode?**: [`UnecePaymentTermsTypeCodeList`](../type-aliases/UnecePaymentTermsTypeCodeList.md)[]
+> `optional` **paymentTermsTypeCode?**: `string`[]
 
 A code specifying the type of trade payment terms.
 

@@ -194,7 +194,7 @@ https://vocabulary.uncefact.org/payerSpecifiedFinancialInstitution
 
 ### paymentGuaranteeMeansGuaranteeMethodCode? {#paymentguaranteemeansguaranteemethodcode}
 
-> `optional` **paymentGuaranteeMeansGuaranteeMethodCode?**: [`UnecePaymentGuaranteeMeansCodeList`](../type-aliases/UnecePaymentGuaranteeMeansCodeList.md)
+> `optional` **paymentGuaranteeMeansGuaranteeMethodCode?**: `string`
 
 The code specifying the method of guarantee for this trade settlement payment means.
 
@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/paymentGuaranteeMeansGuaranteeMethodCode
 
 ### paymentMeansChannelPaymentChannelCode? {#paymentmeanschannelpaymentchannelcode}
 
-> `optional` **paymentMeansChannelPaymentChannelCode?**: [`UnecePaymentMeansChannelCodeList`](../type-aliases/UnecePaymentMeansChannelCodeList.md)
+> `optional` **paymentMeansChannelPaymentChannelCode?**: `string`
 
 The code specifying the payment channel through which this trade settlement payment is to be processed (Reference United
 Nations Code List (UNCL) 4435).
@@ -231,7 +231,7 @@ https://vocabulary.uncefact.org/paymentMeansType
 
 ### paymentMeansTypeCode? {#paymentmeanstypecode}
 
-> `optional` **paymentMeansTypeCode?**: [`UnecePaymentMeansCodeList`](../type-aliases/UnecePaymentMeansCodeList.md)
+> `optional` **paymentMeansTypeCode?**: `string`
 
 The code specifying the type of trade settlement payment means, such as cash or check.
 

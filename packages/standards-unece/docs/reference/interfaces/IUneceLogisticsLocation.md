@@ -123,7 +123,7 @@ https://vocabulary.uncefact.org/inspectionEvent
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
+> `optional` **locationFunctionTypeCode?**: `string`[]
 
 A code specifying the type of this logistics related location.
 

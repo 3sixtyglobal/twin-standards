@@ -366,7 +366,7 @@ https://vocabulary.uncefact.org/globalId
 
 ### goodsTypeCode? {#goodstypecode}
 
-> `optional` **goodsTypeCode?**: `"unece:GoodsTypeCodeList#ZZZ"`
+> `optional` **goodsTypeCode?**: `string`
 
 The code specifying the type of referenced supply chain consignment item.
 
@@ -378,7 +378,7 @@ https://vocabulary.uncefact.org/goodsTypeCode
 
 ### goodsTypeExtensionTypeExtensionCode? {#goodstypeextensiontypeextensioncode}
 
-> `optional` **goodsTypeExtensionTypeExtensionCode?**: `"unece:GoodsTypeExtensionCodeList#ZZZ"`
+> `optional` **goodsTypeExtensionTypeExtensionCode?**: `string`
 
 The code used as an extension to the type code for further specifying the type of referenced supply chain consignment
 item.

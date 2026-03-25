@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/maximumValueMeasure
 
 ### measuredAttributeTypeCode? {#measuredattributetypecode}
 
-> `optional` **measuredAttributeTypeCode?**: [`UneceMeasuredAttributeCodeList`](../type-aliases/UneceMeasuredAttributeCodeList.md)
+> `optional` **measuredAttributeTypeCode?**: `string`
 
 The code specifying the type of this process characteristic.
 

@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/operatorParty
 
 ### processTypeCode? {#processtypecode}
 
-> `optional` **processTypeCode?**: [`UneceProcessTypeCodeList`](../type-aliases/UneceProcessTypeCodeList.md)
+> `optional` **processTypeCode?**: `string`
 
 The code specifying the type of product handling process.
 

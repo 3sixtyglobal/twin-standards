@@ -302,7 +302,7 @@ https://vocabulary.uncefact.org/onboardIndicator
 
 ### partyRoleCode? {#partyrolecode}
 
-> `optional` **partyRoleCode?**: [`UnecePartyRoleCodeList`](../type-aliases/UnecePartyRoleCodeList.md)[]
+> `optional` **partyRoleCode?**: `string`[]
 
 A code specifying a role of this transport person.
 

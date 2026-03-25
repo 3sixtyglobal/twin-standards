@@ -50,7 +50,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### goodsTypeCode? {#goodstypecode}
 
-> `optional` **goodsTypeCode?**: `"unece:GoodsTypeCodeList#ZZZ"`
+> `optional` **goodsTypeCode?**: `string`
 
 The code specifying the type of subordinate trade line item.
 
@@ -62,7 +62,7 @@ https://vocabulary.uncefact.org/goodsTypeCode
 
 ### goodsTypeExtensionTypeExtensionCode? {#goodstypeextensiontypeextensioncode}
 
-> `optional` **goodsTypeExtensionTypeExtensionCode?**: `"unece:GoodsTypeExtensionCodeList#ZZZ"`[]
+> `optional` **goodsTypeExtensionTypeExtensionCode?**: `string`[]
 
 A code used as an extension to the type code for further specifying this subordinate trade line item.
 

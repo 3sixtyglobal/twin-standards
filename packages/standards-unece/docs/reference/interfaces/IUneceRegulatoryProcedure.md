@@ -183,7 +183,7 @@ https://vocabulary.uncefact.org/controlStartDateConfirmationIndicator
 
 ### crossBorderRegulatoryProcedurePaymentMethodCode? {#crossborderregulatoryprocedurepaymentmethodcode}
 
-> `optional` **crossBorderRegulatoryProcedurePaymentMethodCode?**: [`UnecePaymentMethodCodeList`](../type-aliases/UnecePaymentMethodCodeList.md)
+> `optional` **crossBorderRegulatoryProcedurePaymentMethodCode?**: `string`
 
 The code specifying the payment method for this cross-border regulatory procedure, such as by deferred payment method.
 
@@ -207,7 +207,7 @@ https://vocabulary.uncefact.org/crossBorderRegulatoryProcedureTypeCode
 
 ### customsProcedureGuaranteeCode? {#customsprocedureguaranteecode}
 
-> `optional` **customsProcedureGuaranteeCode?**: `"unece:CustomsProcedureGuaranteeCodeList#ZZZ"`
+> `optional` **customsProcedureGuaranteeCode?**: `string`
 
 The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be
 fulfilled for this cross-border regulatory procedure.

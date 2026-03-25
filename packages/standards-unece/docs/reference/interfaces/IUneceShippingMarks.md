@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/barcodeLabel
 
 ### logisticsShippingMarksMarkingInstructionCode? {#logisticsshippingmarksmarkinginstructioncode}
 
-> `optional` **logisticsShippingMarksMarkingInstructionCode?**: [`UneceMarkingInstructionCodeList`](../type-aliases/UneceMarkingInstructionCodeList.md)[]
+> `optional` **logisticsShippingMarksMarkingInstructionCode?**: `string`[]
 
 A code specifying a marking instruction for these logistics shipping marks.
 

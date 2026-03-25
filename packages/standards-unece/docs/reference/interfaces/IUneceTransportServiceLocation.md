@@ -39,7 +39,7 @@ https://vocabulary.uncefact.org/identifier
 
 ### locationFunctionTypeCode? {#locationfunctiontypecode}
 
-> `optional` **locationFunctionTypeCode?**: [`UneceLocationFunctionCodeList`](../type-aliases/UneceLocationFunctionCodeList.md)[]
+> `optional` **locationFunctionTypeCode?**: `string`[]
 
 A code specifying the type of transport service location.
 
