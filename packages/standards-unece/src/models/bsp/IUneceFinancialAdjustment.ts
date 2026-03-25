@@ -62,7 +62,7 @@ export interface IUneceFinancialAdjustment {
 	 * A code specifying a reason for this financial adjustment.
 	 * @see https://vocabulary.uncefact.org/financialAdjustmentReasonCode
 	 */
-	financialAdjustmentReasonCode?: UneceFinancialAdjustmentReasonCodeList[];
+	financialAdjustmentReasonCode?: (UneceFinancialAdjustmentReasonCodeList | string)[];
 
 	/**
 	 * The invoice document referenced for this financial adjustment.

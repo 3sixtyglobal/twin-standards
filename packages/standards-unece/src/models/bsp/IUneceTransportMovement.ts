@@ -604,7 +604,7 @@ export interface IUneceTransportMovement {
 	 * The code specifying the transit direction of this logistics transport movement.
 	 * @see https://vocabulary.uncefact.org/transportMeansDirectionTransitDirectionCode
 	 */
-	transportMeansDirectionTransitDirectionCode?: UneceTransportMeansDirectionCodeList;
+	transportMeansDirectionTransitDirectionCode?: UneceTransportMeansDirectionCodeList | string;
 
 	/**
 	 * The officer responsible for the security of the means of transport used for this logistics transport movement.

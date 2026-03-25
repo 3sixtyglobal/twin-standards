@@ -51,7 +51,7 @@ export interface IUneceTradeAllowanceCharge {
 	 * The code specifying the reason for this trade allowance charge.
 	 * @see https://vocabulary.uncefact.org/allowanceChargeReasonCode
 	 */
-	allowanceChargeReasonCode?: UneceAllowanceChargeReasonCodeList;
+	allowanceChargeReasonCode?: UneceAllowanceChargeReasonCodeList | string;
 
 	/**
 	 * A date, time, date time, or other date time value applied to the trade allowance charge.

@@ -177,7 +177,7 @@ export interface IUneceTransportPerson {
 	 * A code specifying a role of this transport person.
 	 * @see https://vocabulary.uncefact.org/partyRoleCode
 	 */
-	partyRoleCode?: UnecePartyRoleCodeList[];
+	partyRoleCode?: (UnecePartyRoleCodeList | string)[];
 
 	/**
 	 * A passenger identifier for this transport person.

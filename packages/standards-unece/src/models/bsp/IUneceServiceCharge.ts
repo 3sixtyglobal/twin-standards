@@ -168,7 +168,7 @@ export interface IUneceServiceCharge {
 	 * The code specifying a basis on which this logistics service charge is to be calculated, such as by volume or per unit.
 	 * @see https://vocabulary.uncefact.org/logisticsChargeCalculationBasisCalculationBasisCode
 	 */
-	logisticsChargeCalculationBasisCalculationBasisCode?: UneceLogisticsChargeCalculationBasisCodeList;
+	logisticsChargeCalculationBasisCalculationBasisCode?: UneceLogisticsChargeCalculationBasisCodeList | string;
 
 	/**
 	 * The code specifying the transport payment method for this logistics service charge.

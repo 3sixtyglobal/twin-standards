@@ -45,13 +45,13 @@ export interface IUneceSubordinateTradeLineItem {
 	 * The code specifying the type of subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/goodsTypeCode
 	 */
-	goodsTypeCode?: UneceGoodsTypeCodeList;
+	goodsTypeCode?: UneceGoodsTypeCodeList | string;
 
 	/**
 	 * A code used as an extension to the type code for further specifying this subordinate trade line item.
 	 * @see https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 	 */
-	goodsTypeExtensionTypeExtensionCode?: UneceGoodsTypeExtensionCodeList[];
+	goodsTypeExtensionTypeExtensionCode?: (UneceGoodsTypeExtensionCodeList | string)[];
 
 	/**
 	 * A unique identifier for this subordinate trade line item.

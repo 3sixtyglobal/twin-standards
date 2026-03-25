@@ -104,7 +104,7 @@ export interface IUneceDangerousGoods {
 	 * The code specifying a regulation applicable to these transported dangerous goods.
 	 * @see https://vocabulary.uncefact.org/dangerousGoodsRegulationCode
 	 */
-	dangerousGoodsRegulationCode?: UneceDangerousGoodsRegulationCodeList;
+	dangerousGoodsRegulationCode?: UneceDangerousGoodsRegulationCodeList | string;
 
 	/**
 	 * A density measure for these transported dangerous goods.

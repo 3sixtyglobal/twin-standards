@@ -32,7 +32,7 @@ export interface IUneceShippingMarks {
 	 * A code specifying a marking instruction for these logistics shipping marks.
 	 * @see https://vocabulary.uncefact.org/logisticsShippingMarksMarkingInstructionCode
 	 */
-	logisticsShippingMarksMarkingInstructionCode?: UneceMarkingInstructionCodeList[];
+	logisticsShippingMarksMarkingInstructionCode?: (UneceMarkingInstructionCodeList | string)[];
 
 	/**
 	 * The code specifying the package category for these logistics shipping marks.

@@ -64,7 +64,7 @@ export interface IUneceSpecifiedCondition {
 	 * A code specifying a subject type for this specified condition.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList[];
+	subjectTypeCode?: (UneceSubjectCodeList | string)[];
 
 	/**
 	 * A measure of a value for this specified condition.

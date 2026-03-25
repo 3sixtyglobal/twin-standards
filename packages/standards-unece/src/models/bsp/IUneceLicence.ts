@@ -86,7 +86,7 @@ export interface IUneceLicence {
 	 * A code specifying a subject type for this licence.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList[];
+	subjectTypeCode?: (UneceSubjectCodeList | string)[];
 
 	/**
 	 * A code specifying a type of licence.

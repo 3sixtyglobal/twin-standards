@@ -123,14 +123,14 @@ export interface IUnecePaymentMeans {
 	 * The code specifying the method of guarantee for this trade settlement payment means.
 	 * @see https://vocabulary.uncefact.org/paymentGuaranteeMeansGuaranteeMethodCode
 	 */
-	paymentGuaranteeMeansGuaranteeMethodCode?: UnecePaymentGuaranteeMeansCodeList;
+	paymentGuaranteeMeansGuaranteeMethodCode?: UnecePaymentGuaranteeMeansCodeList | string;
 
 	/**
 	 * The code specifying the payment channel through which this trade settlement payment is to be processed (Reference United
 	 * Nations Code List (UNCL) 4435).
 	 * @see https://vocabulary.uncefact.org/paymentMeansChannelPaymentChannelCode
 	 */
-	paymentMeansChannelPaymentChannelCode?: UnecePaymentMeansChannelCodeList;
+	paymentMeansChannelPaymentChannelCode?: UnecePaymentMeansChannelCodeList | string;
 
 	/**
 	 * The type of trade settlement payment means, expressed as text.
@@ -142,7 +142,7 @@ export interface IUnecePaymentMeans {
 	 * The code specifying the type of trade settlement payment means, such as cash or check.
 	 * @see https://vocabulary.uncefact.org/paymentMeansTypeCode
 	 */
-	paymentMeansTypeCode?: UnecePaymentMeansCodeList;
+	paymentMeansTypeCode?: UnecePaymentMeansCodeList | string;
 
 	/**
 	 * The code specifying the method by which a payment may be made for this trade settlement payment means.

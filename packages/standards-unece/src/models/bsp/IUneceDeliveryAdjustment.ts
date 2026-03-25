@@ -46,7 +46,7 @@ export interface IUneceDeliveryAdjustment {
 	 * The code specifying a reason for this delivery adjustment.
 	 * @see https://vocabulary.uncefact.org/adjustmentReasonCode
 	 */
-	adjustmentReasonCode?: UneceAdjustmentReasonCodeList;
+	adjustmentReasonCode?: UneceAdjustmentReasonCodeList | string;
 
 	/**
 	 * A reason, expressed as text, for this delivery adjustment.

@@ -74,7 +74,7 @@ export interface IUneceSpecifiedDeclaration {
 	 * A code specifying a subject type for this specified declaration.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList[];
+	subjectTypeCode?: (UneceSubjectCodeList | string)[];
 
 	/**
 	 * The code specifying the type of specified declaration.

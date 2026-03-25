@@ -129,7 +129,7 @@ export interface IUnecePaymentTerms {
 	 * A code specifying the type of trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsTypeCode
 	 */
-	paymentTermsTypeCode?: UnecePaymentTermsTypeCodeList[];
+	paymentTermsTypeCode?: (UnecePaymentTermsTypeCodeList | string)[];
 
 	/**
 	 * The measure of the number of settlement periods from this trade payment term time reference to the latest payment date,

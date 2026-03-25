@@ -49,7 +49,7 @@ export interface IUneceTTLocation {
 	 * The code specifying the type of TT location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList | string;
 
 	/**
 	 * A name, expressed as text, of this TT location.

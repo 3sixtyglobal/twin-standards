@@ -34,7 +34,7 @@ export interface IUneceTransportServiceLocation {
 	 * A code specifying the type of transport service location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: (UneceLocationFunctionCodeList | string)[];
 
 	/**
 	 * A name, expressed as text, of this transport service location.

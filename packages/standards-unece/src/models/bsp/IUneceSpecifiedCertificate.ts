@@ -256,7 +256,7 @@ export interface IUneceSpecifiedCertificate {
 	 * A code specifying a subject type for this specified certificate.
 	 * @see https://vocabulary.uncefact.org/subjectTypeCode
 	 */
-	subjectTypeCode?: UneceSubjectCodeList[];
+	subjectTypeCode?: (UneceSubjectCodeList | string)[];
 
 	/**
 	 * The indication of whether or not this specified certificate is valid.

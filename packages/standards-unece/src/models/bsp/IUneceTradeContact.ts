@@ -43,7 +43,7 @@ export interface IUneceTradeContact {
 	 * The code specifying the type of trade contact.
 	 * @see https://vocabulary.uncefact.org/contactTypeCode
 	 */
-	contactTypeCode?: UneceContactTypeCodeList;
+	contactTypeCode?: UneceContactTypeCodeList | string;
 
 	/**
 	 * A name, expressed as text, of the department to which this trade contact belongs within an organization.

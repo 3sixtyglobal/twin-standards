@@ -346,7 +346,7 @@ export interface IUneceTradeParty {
 	 * A code specifying the role of this trade party.
 	 * @see https://vocabulary.uncefact.org/partyRoleCode
 	 */
-	partyRoleCode?: UnecePartyRoleCodeList[];
+	partyRoleCode?: (UnecePartyRoleCodeList | string)[];
 
 	/**
 	 * A code specifying the type of trade party that is independent of its role.

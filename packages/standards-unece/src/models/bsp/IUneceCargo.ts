@@ -33,7 +33,7 @@ export interface IUneceCargo {
 	 * The code specifying a statistical classification for this transport cargo.
 	 * @see https://vocabulary.uncefact.org/cargoCommodityCategoryStatisticalClassificationCode
 	 */
-	cargoCommodityCategoryStatisticalClassificationCode?: UneceCargoCommodityCategoryCodeList;
+	cargoCommodityCategoryStatisticalClassificationCode?: UneceCargoCommodityCategoryCodeList | string;
 
 	/**
 	 * The code specifying the operational category for this transport cargo, such as obnoxious or military.

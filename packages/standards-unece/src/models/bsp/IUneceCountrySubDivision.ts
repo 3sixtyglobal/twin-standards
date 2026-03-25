@@ -47,7 +47,7 @@ export interface IUneceCountrySubDivision {
 	 * The code specifying the function type of this trade country sub-division.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList | string;
 
 	/**
 	 * A name, expressed as text, of this trade country sub-division.

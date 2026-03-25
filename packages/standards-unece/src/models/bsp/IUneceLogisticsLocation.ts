@@ -85,7 +85,7 @@ export interface IUneceLogisticsLocation {
 	 * A code specifying the type of this logistics related location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: (UneceLocationFunctionCodeList | string)[];
 
 	/**
 	 * The unique identifier of a country for this logistics location.

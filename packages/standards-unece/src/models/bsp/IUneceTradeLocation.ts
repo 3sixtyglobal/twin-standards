@@ -51,7 +51,7 @@ export interface IUneceTradeLocation {
 	 * A code specifying the type of trade location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList[];
+	locationFunctionTypeCode?: (UneceLocationFunctionCodeList | string)[];
 
 	/**
 	 * The name, expressed as text, of this location used or referenced in trade.

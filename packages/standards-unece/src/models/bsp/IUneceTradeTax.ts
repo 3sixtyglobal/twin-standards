@@ -134,7 +134,7 @@ export interface IUneceTradeTax {
 	 * fulfilled for this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 	 */
-	customsProcedureGuaranteeCode?: UneceCustomsProcedureGuaranteeCodeList;
+	customsProcedureGuaranteeCode?: UneceCustomsProcedureGuaranteeCodeList | string;
 
 	/**
 	 * A monetary value of the deduction from this trade related tax, levy or duty.
@@ -355,7 +355,7 @@ export interface IUneceTradeTax {
 	 * The code specifying a type of due date for this trade tax.
 	 * @see https://vocabulary.uncefact.org/timeReferenceDueDateTypeCode
 	 */
-	timeReferenceDueDateTypeCode?: UneceTimeReferenceCodeList;
+	timeReferenceDueDateTypeCode?: UneceTimeReferenceCodeList | string;
 
 	/**
 	 * The code specifying the currency for this trade related tax, levy or duty [UNCL 6345].
@@ -373,7 +373,7 @@ export interface IUneceTradeTax {
 	 * The code specifying the payment method for this trade related tax, levy or duty.
 	 * @see https://vocabulary.uncefact.org/tradeTaxPaymentMethodCode
 	 */
-	tradeTaxPaymentMethodCode?: UnecePaymentMethodCodeList;
+	tradeTaxPaymentMethodCode?: UnecePaymentMethodCodeList | string;
 
 	/**
 	 * A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated.

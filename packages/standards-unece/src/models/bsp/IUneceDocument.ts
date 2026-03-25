@@ -343,13 +343,13 @@ export interface IUneceDocument {
 	 * replacement of an original document.
 	 * @see https://vocabulary.uncefact.org/referenceRelationshipTypeCode
 	 */
-	referenceRelationshipTypeCode?: UneceReferenceCodeList;
+	referenceRelationshipTypeCode?: UneceReferenceCodeList | string;
 
 	/**
 	 * The code specifying the reference type of this referenced document.
 	 * @see https://vocabulary.uncefact.org/referenceTypeCode
 	 */
-	referenceTypeCode?: UneceReferenceCodeList;
+	referenceTypeCode?: UneceReferenceCodeList | string;
 
 	/**
 	 * A remark, expressed as text, regarding this referenced document.

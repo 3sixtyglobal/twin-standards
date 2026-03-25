@@ -167,6 +167,15 @@ function isItemDeprecated(item) {
 }
 
 /**
+ * Check if a code list includes a mutually-defined value (ZZZ).
+ */
+function hasListMutuallyDefinedValue(item) {
+	return (
+		Array.isArray(item?.values) && item.values.some(valueItem => valueItem?.['rdf:value'] === 'ZZZ')
+	);
+}
+
+/**
  * Strip 'unece:' prefix from input.
  */
 function stripUnece(input) {
@@ -282,6 +291,8 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				const propImportType = isList
 					? `Unece${stripUnece(propType)}`
 					: `IUnece${stripUnece(propType)}`;
+				const shouldAllowString = isList && hasListMutuallyDefinedValue(jsonLdPropMapping);
+				const propBaseType = shouldAllowString ? `${propImportType} | string` : propImportType;
 
 				imports.push({
 					type: propImportType,
@@ -289,9 +300,9 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				});
 
 				if (isArray && !isLimited) {
-					propType = `${propImportType}[]`;
+					propType = shouldAllowString ? `(${propBaseType})[]` : `${propImportType}[]`;
 				} else {
-					propType = propImportType;
+					propType = propBaseType;
 				}
 			}
 		} else if (propType.startsWith('xsd:')) {

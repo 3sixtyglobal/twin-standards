@@ -70,7 +70,7 @@ export interface IUneceProcessCharacteristic {
 	 * The code specifying the type of this process characteristic.
 	 * @see https://vocabulary.uncefact.org/measuredAttributeTypeCode
 	 */
-	measuredAttributeTypeCode?: UneceMeasuredAttributeCodeList;
+	measuredAttributeTypeCode?: UneceMeasuredAttributeCodeList | string;
 
 	/**
 	 * The measure of the minimum value for this process characteristic.

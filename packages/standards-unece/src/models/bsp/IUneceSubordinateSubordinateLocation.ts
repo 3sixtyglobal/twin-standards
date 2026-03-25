@@ -34,7 +34,7 @@ export interface IUneceSubordinateSubordinateLocation {
 	 * The code specifying the type of subordinate of a subordinate location.
 	 * @see https://vocabulary.uncefact.org/locationFunctionTypeCode
 	 */
-	locationFunctionTypeCode?: UneceLocationFunctionCodeList;
+	locationFunctionTypeCode?: UneceLocationFunctionCodeList | string;
 
 	/**
 	 * The name, expressed as text, of this subordinate of a subordinate location.

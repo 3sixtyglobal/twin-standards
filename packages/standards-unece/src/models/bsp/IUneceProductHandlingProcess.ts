@@ -54,5 +54,5 @@ export interface IUneceProductHandlingProcess {
 	 * The code specifying the type of product handling process.
 	 * @see https://vocabulary.uncefact.org/processTypeCode
 	 */
-	processTypeCode?: UneceProcessTypeCodeList;
+	processTypeCode?: UneceProcessTypeCodeList | string;
 }

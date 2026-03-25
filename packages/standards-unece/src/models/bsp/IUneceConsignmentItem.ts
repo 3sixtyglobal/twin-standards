@@ -229,14 +229,14 @@ export interface IUneceConsignmentItem {
 	 * The code specifying the type of referenced supply chain consignment item.
 	 * @see https://vocabulary.uncefact.org/goodsTypeCode
 	 */
-	goodsTypeCode?: UneceGoodsTypeCodeList;
+	goodsTypeCode?: UneceGoodsTypeCodeList | string;
 
 	/**
 	 * The code used as an extension to the type code for further specifying the type of referenced supply chain consignment
 	 * item.
 	 * @see https://vocabulary.uncefact.org/goodsTypeExtensionTypeExtensionCode
 	 */
-	goodsTypeExtensionTypeExtensionCode?: UneceGoodsTypeExtensionCodeList;
+	goodsTypeExtensionTypeExtensionCode?: UneceGoodsTypeExtensionCodeList | string;
 
 	/**
 	 * A quantity of goods, such as gaseous fuel systems or automotive parts, in this supply chain consignment item.

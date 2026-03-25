@@ -127,7 +127,7 @@ export interface IUneceRegulatoryProcedure {
 	 * The code specifying the payment method for this cross-border regulatory procedure, such as by deferred payment method.
 	 * @see https://vocabulary.uncefact.org/crossBorderRegulatoryProcedurePaymentMethodCode
 	 */
-	crossBorderRegulatoryProcedurePaymentMethodCode?: UnecePaymentMethodCodeList;
+	crossBorderRegulatoryProcedurePaymentMethodCode?: UnecePaymentMethodCodeList | string;
 
 	/**
 	 * A code specifying a type of cross-border regulatory procedure.
@@ -140,7 +140,7 @@ export interface IUneceRegulatoryProcedure {
 	 * fulfilled for this cross-border regulatory procedure.
 	 * @see https://vocabulary.uncefact.org/customsProcedureGuaranteeCode
 	 */
-	customsProcedureGuaranteeCode?: UneceCustomsProcedureGuaranteeCodeList;
+	customsProcedureGuaranteeCode?: UneceCustomsProcedureGuaranteeCodeList | string;
 
 	/**
 	 * The declarant assigned identifier of a declaration for this cross-border regulatory procedure.
