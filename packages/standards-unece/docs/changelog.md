@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.58](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.57...standards-unece-v0.0.3-next.58) (2026-03-25)
+
+
+### Features
+
+* support ZZZ type code in unece ([433eaf6](https://github.com/twinfoundation/standards/commit/433eaf6f24721b2be7f7144b0024f6cf31b0bacf))
+
 ## [0.0.3-next.57](https://github.com/twinfoundation/standards/compare/standards-unece-v0.0.3-next.56...standards-unece-v0.0.3-next.57) (2026-03-20)
 
 

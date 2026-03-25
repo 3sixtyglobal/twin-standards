@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.58](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.57...standards-w3c-did-v0.0.3-next.58) (2026-03-25)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-did:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.57 to 0.0.3-next.58
+
 ## [0.0.3-next.57](https://github.com/twinfoundation/standards/compare/standards-w3c-did-v0.0.3-next.56...standards-w3c-did-v0.0.3-next.57) (2026-03-20)
 
 

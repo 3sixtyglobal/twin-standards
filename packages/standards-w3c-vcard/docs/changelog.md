@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.58](https://github.com/twinfoundation/standards/compare/standards-w3c-vcard-v0.0.3-next.57...standards-w3c-vcard-v0.0.3-next.58) (2026-03-25)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-vcard:** Synchronize repo versions
+
 ## [0.0.3-next.57](https://github.com/twinfoundation/standards/compare/standards-w3c-vcard-v0.0.3-next.56...standards-w3c-vcard-v0.0.3-next.57) (2026-03-20)
 
 

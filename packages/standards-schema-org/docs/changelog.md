@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.58](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.57...standards-schema-org-v0.0.3-next.58) (2026-03-25)
+
+
+### Features
+
+* adding a test to verify the link discovery ([#207](https://github.com/twinfoundation/standards/issues/207)) ([07b36a8](https://github.com/twinfoundation/standards/commit/07b36a85e5e7f7117cc59747242f7715640f070c))
+
 ## [0.0.3-next.57](https://github.com/twinfoundation/standards/compare/standards-schema-org-v0.0.3-next.56...standards-schema-org-v0.0.3-next.57) (2026-03-20)
 
 
