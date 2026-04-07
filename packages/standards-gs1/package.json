@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-gs1",
-	"version": "0.0.3-next.58",
+	"version": "0.0.3-next.59",
 	"description": "Data models for GS1 vocabularies and semantics.",
 	"repository": {
 		"type": "git",
