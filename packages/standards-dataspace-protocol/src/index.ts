@@ -55,6 +55,7 @@ export * from "./models/transferProcess/IDataspaceProtocolTransferStartMessage.j
 export * from "./models/transferProcess/IDataspaceProtocolTransferSuspensionMessage.js";
 export * from "./models/transferProcess/IDataspaceProtocolTransferTerminationMessage.js";
 export * from "./models/transferProcess/types/dataspaceProtocolEndpointType.js";
+export * from "./models/transferProcess/types/dataspaceProtocolTransferFormat.js";
 export * from "./models/transferProcess/types/dataspaceProtocolTransferProcessStateType.js";
 
 export * from "./dataTypes/transferProcessDataTypes.js";
