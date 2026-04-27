@@ -13,10 +13,10 @@ https://schema.twindev.org namespace to provide stable, semantic
 identifiers for data space endpoint types.
 
 References:
-- TWIN RFC 006: https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md
-- TWIN DS Protocol Context: https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/twin-ds-protocol-profile.jsonld
+- TWIN RFC 006: https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md
+- TWIN DS Protocol Context: https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/twin-ds-protocol-profile.jsonld
 - Eclipse DSP Specification: https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/
-- RFC 001 (Query Interface): https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
+- RFC 001 (Query Interface): https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
 
 ## Type Declaration
 
@@ -37,8 +37,8 @@ Transfer Flow:
 
 #### See
 
- - https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
- - https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
+ - https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
+ - https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
 
 ### HttpsActivityStreamEndpoint {#httpsactivitystreamendpoint}
 
@@ -57,7 +57,7 @@ Transfer Flow:
 
 #### See
 
- - https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
+ - https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
  - https://www.w3.org/TR/activitystreams-core/
  - https://www.w3.org/TR/activitypub/
 

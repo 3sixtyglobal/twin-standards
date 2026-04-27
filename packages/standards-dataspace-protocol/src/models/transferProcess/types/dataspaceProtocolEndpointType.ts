@@ -13,10 +13,10 @@
  * identifiers for data space endpoint types.
  *
  * References:
- * - TWIN RFC 006: https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md
- * - TWIN DS Protocol Context: https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/twin-ds-protocol-profile.jsonld
+ * - TWIN RFC 006: https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md
+ * - TWIN DS Protocol Context: https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/twin-ds-protocol-profile.jsonld
  * - Eclipse DSP Specification: https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/
- * - RFC 001 (Query Interface): https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
+ * - RFC 001 (Query Interface): https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolEndpointType = {
@@ -37,8 +37,8 @@ export const DataspaceProtocolEndpointType = {
 	 * 2. Provider returns this endpoint type with data access token
 	 * 3. Consumer queries the endpoint with the token to retrieve data
 	 *
-	 * @see https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
-	 * @see https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
+	 * @see https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
+	 * @see https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-connector/001-data-space-connector-query.md
 	 */
 	HttpsQueryEndpoint: "https://schema.twindev.org/dspace/v1/Https-Query-Endpoint",
 
@@ -54,7 +54,7 @@ export const DataspaceProtocolEndpointType = {
 	 * 2. Consumer provides their Activity Stream inbox URL
 	 * 3. Provider pushes data to the consumer's inbox as Activity Stream objects
 	 *
-	 * @see https://github.com/twinfoundation/rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
+	 * @see https://github.com/iotaledger/twin-rfcs/blob/main/rfcs/data-space-protocol/006-data-space-protocol-profile.md#data-transfer-profile-vocabulary
 	 * @see https://www.w3.org/TR/activitystreams-core/
 	 * @see https://www.w3.org/TR/activitypub/
 	 */
