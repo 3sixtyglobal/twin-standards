@@ -4,7 +4,7 @@
 	"description": "Data models for the W3C Data Catalog Vocabulary.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/standards.git",
+		"url": "git+https://github.com/iotaledger/standards.git",
 		"directory": "packages/standards-w3c-dcat"
 	},
 	"author": "cornel.filip@iota.org",
@@ -83,7 +83,7 @@
 		"metadata"
 	],
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/standards/issues"
+		"url": "git+https://github.com/iotaledger/standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

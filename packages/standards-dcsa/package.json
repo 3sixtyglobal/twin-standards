@@ -4,7 +4,7 @@
 	"description": "Data models for DCSA Track and Trace semantics.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/standards.git",
+		"url": "git+https://github.com/iotaledger/standards.git",
 		"directory": "packages/standards-dcsa"
 	},
 	"author": "martyn.janes@iota.org",
@@ -77,7 +77,7 @@
 		"dcsa"
 	],
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/standards/issues"
+		"url": "git+https://github.com/iotaledger/standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

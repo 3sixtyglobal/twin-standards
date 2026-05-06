@@ -4,7 +4,7 @@
 	"description": "Data models for UN/CEFACT semantic vocabularies.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/standards.git",
+		"url": "git+https://github.com/iotaledger/standards.git",
 		"directory": "packages/standards-unece"
 	},
 	"author": "martyn.janes@iota.org",
@@ -84,7 +84,7 @@
 		"supply-chain"
 	],
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/standards/issues"
+		"url": "git+https://github.com/iotaledger/standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

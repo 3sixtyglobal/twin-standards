@@ -4,7 +4,7 @@
 	"description": "Data models for VDA JAIF semantics.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/standards.git",
+		"url": "git+https://github.com/iotaledger/standards.git",
 		"directory": "packages/standards-vda"
 	},
 	"author": "martyn.janes@iota.org",
@@ -75,7 +75,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/standards/issues"
+		"url": "git+https://github.com/iotaledger/standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

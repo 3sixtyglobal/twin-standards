@@ -4,7 +4,7 @@
 	"description": "Data models for the W3C vCard RDF vocabulary.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/twinfoundation/standards.git",
+		"url": "git+https://github.com/iotaledger/standards.git",
 		"directory": "packages/standards-w3c-vcard"
 	},
 	"author": "cornel.filip@iota.org",
@@ -73,7 +73,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/twinfoundation/standards/issues"
+		"url": "git+https://github.com/iotaledger/standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }
