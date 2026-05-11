@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.61](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.60...standards-dataspace-protocol-v0.0.3-next.61) (2026-05-11)
+
+
+### Features
+
+* typescript 6 update ([79bfb52](https://github.com/iotaledger/twin-standards/commit/79bfb52e3dcb24689cec7b201dde822bcee970c5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.60 to 0.0.3-next.61
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.60 to 0.0.3-next.61
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.60 to 0.0.3-next.61
+
 ## [0.0.3-next.60](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.59...standards-dataspace-protocol-v0.0.3-next.60) (2026-04-21)
 
 
