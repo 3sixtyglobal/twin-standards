@@ -107,7 +107,7 @@ export class ProofHelper {
 		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(unsignedProof), unsignedProof);
 		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(signKey), signKey);
 		return ProofHelper.createSignerVerifier(proofType).createProof(
-			unsecuredDocument as unknown as IJsonLdNodeObject,
+			unsecuredDocument,
 			unsignedProof,
 			signKey
 		);
@@ -143,7 +143,7 @@ export class ProofHelper {
 		Guards.function(ProofHelper.CLASS_NAME, nameof(signCallback), signCallback);
 
 		return ProofHelper.createAsyncSignerVerifier(proofType).createProofWithSigner(
-			unsecuredDocument as unknown as IJsonLdNodeObject,
+			unsecuredDocument,
 			unsignedProof,
 			signCallback
 		);
@@ -170,7 +170,7 @@ export class ProofHelper {
 		Guards.stringValue(ProofHelper.CLASS_NAME, nameof(signedProof.type), signedProof.type);
 		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(verifyKey), verifyKey);
 
-		const signerVerifier = ProofHelper.createSignerVerifier(signedProof.type as ProofTypes);
+		const signerVerifier = ProofHelper.createSignerVerifier(signedProof.type);
 
 		return signerVerifier.verifyProof(securedDocument, signedProof, verifyKey);
 	}
