@@ -40,7 +40,7 @@ export class VerifiableCredentialHelper {
 		verifiableCredential: IDidVerifiableCredential
 	): "v1" | "v2" | undefined {
 		const context = ArrayHelper.fromObjectOrArray(verifiableCredential["@context"]);
-		if (Is.arrayValue(context)) {
+		if (Is.arrayValue<string>(context)) {
 			if (context.includes(DidContexts.ContextVCv1)) {
 				return "v1";
 			}
