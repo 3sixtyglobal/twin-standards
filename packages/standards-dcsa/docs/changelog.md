@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-dcsa-v0.0.3-next.61...standards-dcsa-v0.0.3-next.62) (2026-05-18)
+
+
+### Features
+
+* update schemas with new enum format ([4851603](https://github.com/iotaledger/twin-standards/commit/4851603f26910fafd7fe22b46533814dba3b041c))
+
 ## [0.0.3-next.61](https://github.com/iotaledger/twin-standards/compare/standards-dcsa-v0.0.3-next.60...standards-dcsa-v0.0.3-next.61) (2026-05-11)
 
 

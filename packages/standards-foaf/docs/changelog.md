@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.0.3-next.61...standards-foaf-v0.0.3-next.62) (2026-05-18)
+
+
+### Miscellaneous Chores
+
+* **standards-foaf:** Synchronize repo versions
+
 ## [0.0.3-next.61](https://github.com/iotaledger/twin-standards/compare/standards-foaf-v0.0.3-next.60...standards-foaf-v0.0.3-next.61) (2026-05-11)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.0.3-next.61...standards-dublin-core-v0.0.3-next.62) (2026-05-18)
+
+
+### Miscellaneous Chores
+
+* **standards-dublin-core:** Synchronize repo versions
+
 ## [0.0.3-next.61](https://github.com/iotaledger/twin-standards/compare/standards-dublin-core-v0.0.3-next.60...standards-dublin-core-v0.0.3-next.61) (2026-05-11)
 
 

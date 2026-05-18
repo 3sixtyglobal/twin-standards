@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.61...standards-w3c-did-v0.0.3-next.62) (2026-05-18)
+
+
+### Features
+
+* update schemas with new enum format ([4851603](https://github.com/iotaledger/twin-standards/commit/4851603f26910fafd7fe22b46533814dba3b041c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.61 to 0.0.3-next.62
+
 ## [0.0.3-next.61](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.60...standards-w3c-did-v0.0.3-next.61) (2026-05-11)
 
 
