@@ -10,11 +10,9 @@ import type { IOdrlAction } from "../src/models/IOdrlAction.js";
 import type { IOdrlAsset } from "../src/models/IOdrlAsset.js";
 import type { IOdrlAssetCollection } from "../src/models/IOdrlAssetCollection.js";
 import type { IOdrlConstraint } from "../src/models/IOdrlConstraint.js";
-import type { IOdrlDuty } from "../src/models/IOdrlDuty.js";
 import type { IOdrlLogicalConstraint } from "../src/models/IOdrlLogicalConstraint.js";
 import type { IOdrlParty } from "../src/models/IOdrlParty.js";
 import type { IOdrlPartyCollection } from "../src/models/IOdrlPartyCollection.js";
-import type { IOdrlPermission } from "../src/models/IOdrlPermission.js";
 import type { IOdrlPolicy } from "../src/models/IOdrlPolicy.js";
 import type { IOdrlRule } from "../src/models/IOdrlRule.js";
 import { OdrlContexts } from "../src/models/odrlContexts.js";
@@ -863,7 +861,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(consequence).toBeDefined();
 
 		// Test consequence action
-		const consequenceValue = consequence as IOdrlDuty;
+		const consequenceValue = consequence;
 		const actions = consequenceValue.action as (OdrlActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
@@ -945,7 +943,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(duty).toBeDefined();
 
 		// Test duty action
-		const dutyValue = duty as IOdrlDuty;
+		const dutyValue = duty;
 		const actions = dutyValue.action as (OdrlActionType | IOdrlAction)[];
 		expect(Array.isArray(actions)).toBe(true);
 		const action = actions[0] as IOdrlAction;
@@ -1185,8 +1183,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:20");
 
 		// Test that we have four atomic permissions
-		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
-			[]) as IOdrlPermission[];
+		const permissions = ArrayHelper.fromObjectOrArray(policy.permission) ?? [];
 		expect(permissions).toHaveLength(4);
 
 		// Test each permission is atomic (single target and action)
@@ -1247,8 +1244,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.action).toBe(OdrlActionType.Play);
 
 		// Test individual permissions
-		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
-			[]) as IOdrlPermission[];
+		const permissions = ArrayHelper.fromObjectOrArray(policy.permission) ?? [];
 		expect(permissions).toHaveLength(2);
 		expect(permissions[0].assignee).toBe("http://example.com/people/billie");
 		expect(permissions[1].assignee).toBe("http://example.com/people/murphy");
@@ -1283,8 +1279,7 @@ describe("ODRL Examples from Specification", () => {
 		expect(policy.profile).toBe("http://example.com/odrl:profile:21");
 
 		// Test expanded permissions
-		const permissions = (ArrayHelper.fromObjectOrArray(policy.permission) ??
-			[]) as IOdrlPermission[];
+		const permissions = ArrayHelper.fromObjectOrArray(policy.permission) ?? [];
 		expect(permissions).toHaveLength(2);
 
 		// Test that each permission has all properties expanded
