@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.63](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.62...standards-w3c-odrl-v0.0.3-next.63) (2026-05-19)
+
+
+### Features
+
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.62 to 0.0.3-next.63
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.62 to 0.0.3-next.63
+
 ## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.61...standards-w3c-odrl-v0.0.3-next.62) (2026-05-18)
 
 

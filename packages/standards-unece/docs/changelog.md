@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.63](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.62...standards-unece-v0.0.3-next.63) (2026-05-19)
+
+
+### Features
+
+* update dependencies ([e422ed3](https://github.com/iotaledger/twin-standards/commit/e422ed351fb09e2deea5ef741326c37b0802af3a))
+
 ## [0.0.3-next.62](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.61...standards-unece-v0.0.3-next.62) (2026-05-18)
 
 
