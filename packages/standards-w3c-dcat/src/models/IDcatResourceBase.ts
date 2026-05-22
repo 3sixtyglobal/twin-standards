@@ -1,8 +1,8 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IFoafAgentWithAliases } from "@twin.org/standards-foaf";
+import type { IJsonLdNodeObject, JsonLdObjectWithAliases } from "@twin.org/data-json-ld";
+import type { IFoafAgent } from "@twin.org/standards-foaf";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
 import type { IDcatRelationship } from "./IDcatRelationship.js";
@@ -72,13 +72,13 @@ export interface IDcatResourceBase {
 	 * An entity responsible for making the resource available.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 	 */
-	"dcterms:publisher"?: IFoafAgentWithAliases | string;
+	"dcterms:publisher"?: JsonLdObjectWithAliases<IFoafAgent, "foaf"> | string;
 
 	/**
 	 * An entity responsible for producing the resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
 	 */
-	"dcterms:creator"?: IFoafAgentWithAliases | string;
+	"dcterms:creator"?: JsonLdObjectWithAliases<IFoafAgent, "foaf"> | string;
 
 	/**
 	 * Information about who can access the resource or an indication of its security status.

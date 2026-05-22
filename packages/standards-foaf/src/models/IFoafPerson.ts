@@ -1,7 +1,6 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { JsonLdObjectWithAliases } from "@twin.org/data-json-ld";
 import type { FoafContextType } from "./foafContextType.js";
 import type { FoafTypes } from "./foafTypes.js";
 import type { IFoafAgent } from "./IFoafAgent.js";
@@ -52,12 +51,3 @@ export interface IFoafPerson extends IFoafAgent {
 	 */
 	nick?: string;
 }
-
-/**
- * A FOAF Person with FOAF-prefixed aliases for non-JSON-LD keys.
- * This allows using either prefixed aliases (e.g., "foaf:name") when defining a FOAF Person.
- */
-export type IFoafPersonWithAliases<T extends string = "foaf"> = JsonLdObjectWithAliases<
-	IFoafPerson,
-	T
->;
