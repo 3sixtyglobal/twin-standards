@@ -4,7 +4,7 @@
 	"description": "Data models for the W3C DID Core specification.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/standards.git",
+		"url": "git+https://github.com/iotaledger/twin-standards.git",
 		"directory": "packages/standards-w3c-did"
 	},
 	"author": "martyn.janes@iota.org",
@@ -79,7 +79,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/standards/issues"
+		"url": "git+https://github.com/iotaledger/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

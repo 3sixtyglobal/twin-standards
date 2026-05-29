@@ -4,7 +4,7 @@
 	"description": "Local JSON-LD contexts for offline and controlled use.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/standards.git",
+		"url": "git+https://github.com/iotaledger/twin-standards.git",
 		"directory": "packages/standards-ld-contexts"
 	},
 	"author": "cornel.filip@iota.org",
@@ -73,7 +73,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/standards/issues"
+		"url": "git+https://github.com/iotaledger/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

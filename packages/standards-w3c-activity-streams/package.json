@@ -4,7 +4,7 @@
 	"description": "Data models for the W3C Activity Streams vocabulary.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/standards.git",
+		"url": "git+https://github.com/iotaledger/twin-standards.git",
 		"directory": "packages/standards-w3c-activity-streams"
 	},
 	"author": "jose.cantera@iota.org",
@@ -76,7 +76,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/standards/issues"
+		"url": "git+https://github.com/iotaledger/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

@@ -4,7 +4,7 @@
 	"description": "Data models for GS1 vocabularies and semantics.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/standards.git",
+		"url": "git+https://github.com/iotaledger/twin-standards.git",
 		"directory": "packages/standards-gs1"
 	},
 	"author": "martyn.janes@iota.org",
@@ -78,7 +78,7 @@
 		"specification"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/standards/issues"
+		"url": "git+https://github.com/iotaledger/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }

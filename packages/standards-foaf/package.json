@@ -4,7 +4,7 @@
 	"description": "Data models for the FOAF vocabulary.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/iotaledger/standards.git",
+		"url": "git+https://github.com/iotaledger/twin-standards.git",
 		"directory": "packages/standards-foaf"
 	},
 	"author": "martyn.janes@iota.org",
@@ -77,7 +77,7 @@
 		"foaf"
 	],
 	"bugs": {
-		"url": "git+https://github.com/iotaledger/standards/issues"
+		"url": "git+https://github.com/iotaledger/twin-standards/issues"
 	},
 	"homepage": "https://twindev.org"
 }
