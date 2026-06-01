@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.64](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.63...standards-unece-v0.0.3-next.64) (2026-06-01)
+
+
+### Features
+
+* add contentEncoding for unece base64 properties ([#228](https://github.com/iotaledger/twin-standards/issues/228)) ([c8325c8](https://github.com/iotaledger/twin-standards/commit/c8325c86e9172047d57941e0f8b43b332256f9f4))
+
 ## [0.0.3-next.63](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.62...standards-unece-v0.0.3-next.63) (2026-05-19)
 
 
