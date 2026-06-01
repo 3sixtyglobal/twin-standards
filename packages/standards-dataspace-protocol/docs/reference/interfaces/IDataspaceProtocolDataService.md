@@ -198,7 +198,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
 
 ### dcterms:publisher? {#dctermspublisher}
 
-> `optional` **dcterms:publisher?**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:publisher?**: `string` \| `JsonLdObjectWithAliases`\<`IFoafAgent`, `"foaf"`\>
 
 An entity responsible for making the resource available.
 
@@ -214,7 +214,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
 
 ### dcterms:creator? {#dctermscreator}
 
-> `optional` **dcterms:creator?**: `string` \| `IFoafAgentWithAliases`
+> `optional` **dcterms:creator?**: `string` \| `JsonLdObjectWithAliases`\<`IFoafAgent`, `"foaf"`\>
 
 An entity responsible for producing the resource.
 
