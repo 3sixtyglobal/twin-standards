@@ -51,6 +51,7 @@ export interface IUneceSupplyChainEvent {
 	/**
 	 * Binary object data, such as a photograph, describing this supply chain event.
 	 * @see https://vocabulary.uncefact.org/descriptionBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	descriptionBinaryObject?: string;
 

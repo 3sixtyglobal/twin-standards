@@ -74,6 +74,7 @@ export interface IUneceBinaryFile {
 	/**
 	 * A binary object included in this specified binary file.
 	 * @see https://vocabulary.uncefact.org/includedBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	includedBinaryObject?: string;
 

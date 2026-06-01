@@ -31,6 +31,7 @@ export interface IUneceSegment {
 	/**
 	 * The image, expressed as a binary object, for this section segment.
 	 * @see https://vocabulary.uncefact.org/imageBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	imageBinaryObject?: string;
 

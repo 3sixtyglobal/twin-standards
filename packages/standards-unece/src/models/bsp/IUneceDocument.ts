@@ -61,6 +61,7 @@ export interface IUneceDocument {
 	/**
 	 * A binary object that is attached or otherwise appended to this referenced document.
 	 * @see https://vocabulary.uncefact.org/attachmentBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	attachmentBinaryObject?: string;
 

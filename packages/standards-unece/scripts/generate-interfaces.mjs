@@ -205,7 +205,14 @@ async function generateClass(
 	for (const prop of propData) {
 		propertyLines.push('');
 		propertyLines.push(
-			...createComment(`${prop.description}`, '\t', prop.see, prop.isDeprecated, prop.format)
+			...createComment(
+				`${prop.description}`,
+				'\t',
+				prop.see,
+				prop.isDeprecated,
+				prop.format,
+				prop.contentEncoding
+			)
 		);
 		const propString = `\t${prop.key}${prop.required ? '' : '?'}: ${prop.type};`;
 		propertyLines.push(propString);
@@ -270,6 +277,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 		const isRequired = csvMappingProp?.occurrenceMin === '1';
 		const isArray = csvMappingProp?.occurrenceMax === 'unbounded';
 		let isPropDeprecated = false;
+		let isBase64Binary = false;
 
 		const jsonLdPropMapping = jsonLdMapping[propType];
 		const isLimited = propItem?.maxItems === 1;
@@ -324,6 +332,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 				);
 			}
 
+			isBase64Binary = propType === 'xsd:base64Binary';
 			propType = typeMap[propType];
 		}
 
@@ -351,7 +360,8 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 			required: isRequired ?? false,
 			see: `https://vocabulary.uncefact.org/${propKey}`,
 			isDeprecated: isPropDeprecated,
-			format: isDateTime ? 'date-time' : ''
+			format: isDateTime ? 'date-time' : '',
+			contentEncoding: isBase64Binary ? 'base64' : ''
 		});
 	}
 
@@ -856,7 +866,14 @@ async function writeCodeFile(outputDir, typeName, importLines, typeLines) {
 /**
  * Create a comment with word wrapping.
  */
-function createComment(text, prefix = '', url = '', isDeprecated = false, format = '') {
+function createComment(
+	text,
+	prefix = '',
+	url = '',
+	isDeprecated = false,
+	format = '',
+	contentEncoding = ''
+) {
 	const commentLines = [];
 	commentLines.push(`${prefix}/**`);
 	if (Array.isArray(text)) {
@@ -874,6 +891,9 @@ function createComment(text, prefix = '', url = '', isDeprecated = false, format
 	}
 	if (format?.length) {
 		commentLines.push(`${prefix} * @json-schema format:${format}`);
+	}
+	if (contentEncoding?.length) {
+		commentLines.push(`${prefix} * @json-schema contentEncoding:${contentEncoding}`);
 	}
 	commentLines.push(`${prefix} */`);
 	return commentLines;

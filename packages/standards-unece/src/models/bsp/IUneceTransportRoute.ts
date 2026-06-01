@@ -64,6 +64,7 @@ export interface IUneceTransportRoute {
 	/**
 	 * Binary object data that is the map of this transport route.
 	 * @see https://vocabulary.uncefact.org/mapBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	mapBinaryObject?: string;
 

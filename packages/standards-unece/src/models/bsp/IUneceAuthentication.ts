@@ -102,6 +102,7 @@ export interface IUneceAuthentication {
 	/**
 	 * The signatory image, expressed as a binary object, for this document authentication.
 	 * @see https://vocabulary.uncefact.org/signatoryImageBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	signatoryImageBinaryObject?: string;
 

@@ -57,6 +57,7 @@ export interface IUnecePicture {
 	/**
 	 * Binary object data that is the actual digital image for this photographic picture.
 	 * @see https://vocabulary.uncefact.org/digitalImageBinaryObject
+	 * @json-schema contentEncoding:base64
 	 */
 	digitalImageBinaryObject?: string;
 
