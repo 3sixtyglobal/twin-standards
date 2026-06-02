@@ -1,7 +1,11 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { ObjectOrArray } from "@twin.org/core";
-import type { IJsonLdNodeObject, JsonLdObjectWithAliases } from "@twin.org/data-json-ld";
+import type {
+	IJsonLdNodeObject,
+	JsonLdObjectWithAliases,
+	JsonLdObjectWithOptionalContext
+} from "@twin.org/data-json-ld";
 import type { IFoafAgent } from "@twin.org/standards-foaf";
 import type { IOdrlPolicy } from "@twin.org/standards-w3c-odrl";
 import type { DcatClasses } from "./dcatClasses.js";
@@ -144,5 +148,5 @@ export interface IDcatResourceBase {
 	 * An ODRL conformant policy expressing the rights associated with the resource.
 	 * @see https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_policy
 	 */
-	"odrl:hasPolicy"?: IOdrlPolicy;
+	"odrl:hasPolicy"?: JsonLdObjectWithOptionalContext<IOdrlPolicy>;
 }
