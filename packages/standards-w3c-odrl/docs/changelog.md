@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.64...standards-w3c-odrl-v0.0.3-next.65) (2026-06-02)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-odrl:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.64 to 0.0.3-next.65
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.64 to 0.0.3-next.65
+
 ## [0.0.3-next.64](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.63...standards-w3c-odrl-v0.0.3-next.64) (2026-06-01)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-w3c-activity-streams-v0.0.3-next.64...standards-w3c-activity-streams-v0.0.3-next.65) (2026-06-02)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-activity-streams:** Synchronize repo versions
+
 ## [0.0.3-next.64](https://github.com/iotaledger/twin-standards/compare/standards-w3c-activity-streams-v0.0.3-next.63...standards-w3c-activity-streams-v0.0.3-next.64) (2026-06-01)
 
 

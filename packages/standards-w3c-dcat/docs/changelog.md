@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.0.3-next.64...standards-w3c-dcat-v0.0.3-next.65) (2026-06-02)
+
+
+### Bug Fixes
+
+* dcat resource optional context for policy ([#231](https://github.com/iotaledger/twin-standards/issues/231)) ([2dd5a55](https://github.com/iotaledger/twin-standards/commit/2dd5a553ec43f811bb9c4f65f0fff976d7074101))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.64 to 0.0.3-next.65
+    * @twin.org/standards-foaf bumped from 0.0.3-next.64 to 0.0.3-next.65
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.64 to 0.0.3-next.65
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.64 to 0.0.3-next.65
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.64 to 0.0.3-next.65
+
 ## [0.0.3-next.64](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.0.3-next.63...standards-w3c-dcat-v0.0.3-next.64) (2026-06-01)
 
 
