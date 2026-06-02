@@ -251,7 +251,7 @@ https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
 
 ### odrl:hasPolicy? {#odrlhaspolicy}
 
-> `optional` **odrl:hasPolicy?**: `IOdrlPolicy`
+> `optional` **odrl:hasPolicy?**: `JsonLdObjectWithOptionalContext`\<`IOdrlPolicy`\>
 
 An ODRL conformant policy expressing the rights associated with the resource.
 
