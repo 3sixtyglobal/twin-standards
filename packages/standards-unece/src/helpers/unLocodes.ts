@@ -324,7 +324,8 @@ export class UnLocodes {
 	 * Load a compressed file.
 	 * @param folder The folder to load (e.g., "countries" or "subdivisions").
 	 * @param countryCode The country code.
-	 * @return The loaded data as an array of records.
+	 * @param mapMethod The method to map a raw record to the target type.
+	 * @returns The loaded data as an array of records.
 	 * @throws Error if the file cannot be loaded or decompressed.
 	 * @internal
 	 */
