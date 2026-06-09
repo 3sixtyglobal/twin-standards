@@ -61,7 +61,7 @@ Participant Id
 
 ### catalog? {#catalog}
 
-> `optional` **catalog?**: `ObjectOrArray`\<`IDataspaceProtocolCatalogBase`\>
+> `optional` **catalog?**: `IDataspaceProtocolCatalogBase`[]
 
 Other concerned catalogs
 
@@ -69,7 +69,7 @@ Other concerned catalogs
 
 ### dataset? {#dataset}
 
-> `optional` **dataset?**: `ObjectOrArray`\<[`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)\>
+> `optional` **dataset?**: [`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)[]
 
 Datasets registered
 
@@ -77,7 +77,7 @@ Datasets registered
 
 ### distribution? {#distribution}
 
-> `optional` **distribution?**: `ObjectOrArray`\<[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)\>
+> `optional` **distribution?**: [`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)[]
 
 Catalog's distributions
 
@@ -85,7 +85,7 @@ Catalog's distributions
 
 ### service? {#service}
 
-> `optional` **service?**: `ObjectOrArray`\<[`IDataspaceProtocolDataServiceBase`](IDataspaceProtocolDataServiceBase.md)\>
+> `optional` **service?**: [`IDataspaceProtocolDataServiceBase`](IDataspaceProtocolDataServiceBase.md)[]
 
 Data services registered-
 
