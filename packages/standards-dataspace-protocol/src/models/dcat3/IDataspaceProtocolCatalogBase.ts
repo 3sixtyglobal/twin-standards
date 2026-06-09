@@ -1,6 +1,5 @@
 // Copyright 2025 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { ObjectOrArray } from "@twin.org/core";
 import type { IDcatCatalogBase } from "@twin.org/standards-w3c-dcat";
 import type { IDataspaceProtocolDataServiceBase } from "./IDataspaceProtocolDataServiceBase.js";
 import type { IDataspaceProtocolDatasetBase } from "./IDataspaceProtocolDatasetBase.js";
@@ -51,20 +50,20 @@ export interface IDataspaceProtocolCatalogBase extends Omit<
 	/**
 	 * Other concerned catalogs
 	 */
-	catalog?: ObjectOrArray<IDataspaceProtocolCatalogBase>;
+	catalog?: IDataspaceProtocolCatalogBase[];
 
 	/**
 	 * Datasets registered
 	 */
-	dataset?: ObjectOrArray<IDataspaceProtocolDatasetBase>;
+	dataset?: IDataspaceProtocolDatasetBase[];
 
 	/**
 	 * Catalog's distributions
 	 */
-	distribution?: ObjectOrArray<IDataspaceProtocolDistributionBase>;
+	distribution?: IDataspaceProtocolDistributionBase[];
 
 	/**
 	 * Data services registered-
 	 */
-	service?: ObjectOrArray<IDataspaceProtocolDataServiceBase>;
+	service?: IDataspaceProtocolDataServiceBase[];
 }
