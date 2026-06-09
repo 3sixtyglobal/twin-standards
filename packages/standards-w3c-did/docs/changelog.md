@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.66](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.65...standards-w3c-did-v0.0.3-next.66) (2026-06-09)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-did:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.65 to 0.0.3-next.66
+
 ## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.64...standards-w3c-did-v0.0.3-next.65) (2026-06-02)
 
 

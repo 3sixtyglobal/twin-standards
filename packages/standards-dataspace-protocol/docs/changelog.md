@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.66](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.65...standards-dataspace-protocol-v0.0.3-next.66) (2026-06-09)
+
+
+### Bug Fixes
+
+* dataspace array not singular as per spec ([#235](https://github.com/iotaledger/twin-standards/issues/235)) ([ff0fadf](https://github.com/iotaledger/twin-standards/commit/ff0fadf4087edd6837283b4837f1559bb51f7c45))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.65 to 0.0.3-next.66
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.65 to 0.0.3-next.66
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.65 to 0.0.3-next.66
+
 ## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.64...standards-dataspace-protocol-v0.0.3-next.65) (2026-06-02)
 
 

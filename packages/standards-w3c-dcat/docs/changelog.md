@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.0.3-next.66](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.0.3-next.65...standards-w3c-dcat-v0.0.3-next.66) (2026-06-09)
+
+
+### Miscellaneous Chores
+
+* **standards-w3c-dcat:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.65 to 0.0.3-next.66
+    * @twin.org/standards-foaf bumped from 0.0.3-next.65 to 0.0.3-next.66
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.65 to 0.0.3-next.66
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.65 to 0.0.3-next.66
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.65 to 0.0.3-next.66
+
 ## [0.0.3-next.65](https://github.com/iotaledger/twin-standards/compare/standards-w3c-dcat-v0.0.3-next.64...standards-w3c-dcat-v0.0.3-next.65) (2026-06-02)
 
 

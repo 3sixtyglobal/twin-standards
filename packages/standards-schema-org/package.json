@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-schema-org",
-	"version": "0.0.3-next.65",
+	"version": "0.0.3-next.66",
 	"description": "Data models for Schema.org vocabularies.",
 	"repository": {
 		"type": "git",

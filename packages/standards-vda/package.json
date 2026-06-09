@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-vda",
-	"version": "0.0.3-next.65",
+	"version": "0.0.3-next.66",
 	"description": "Data models for VDA JAIF semantics.",
 	"repository": {
 		"type": "git",
