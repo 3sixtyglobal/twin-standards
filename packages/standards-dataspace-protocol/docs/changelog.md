@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.67](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.66...standards-dataspace-protocol-v0.0.3-next.67) (2026-06-12)
+
+
+### Features
+
+* update ds and dcat generated schemas ([efc333e](https://github.com/iotaledger/twin-standards/commit/efc333e00bb7af828fd005484d0e28204776d948))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.66 to 0.0.3-next.67
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.66 to 0.0.3-next.67
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.66 to 0.0.3-next.67
+
 ## [0.0.3-next.66](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.65...standards-dataspace-protocol-v0.0.3-next.66) (2026-06-09)
 
 
