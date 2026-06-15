@@ -68,11 +68,11 @@ import VesselSchema from "../schemas/DcsaVessel.json" with { type: "json" };
 import VesselTransportCallSchema from "../schemas/DcsaVesselTransportCall.json" with { type: "json" };
 
 /**
- * Data Type registration for DCSA
+ * Handles data type registration for DCSA.
  */
 export abstract class DcsaDataTypes {
 	/**
-	 * Register redirects for DCSA namespace to enable offline JSON-LD processing.
+	 * No-op: DCSA does not define JSON-LD context URLs.
 	 */
 	public static registerRedirects(): void {}
 

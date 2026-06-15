@@ -15,9 +15,9 @@ export class VerifiableCredentialHelper {
 	public static readonly CLASS_NAME: string = nameof<VerifiableCredentialHelper>();
 
 	/**
-	 * Get the context for the verifiable credential.
-	 * @param verifiableCredential The verifiable credential to extract the expiration date from.
-	 * @returns The context.
+	 * Get the JSON-LD context URL for the verifiable credential.
+	 * @param verifiableCredential The verifiable credential to inspect.
+	 * @returns The context URL, or undefined if the version cannot be determined.
 	 */
 	public static getContext(
 		verifiableCredential: IDidVerifiableCredential
@@ -32,9 +32,9 @@ export class VerifiableCredentialHelper {
 	}
 
 	/**
-	 * Get the context version for the verifiable credential.
-	 * @param verifiableCredential The verifiable credential to extract the expiration date from.
-	 * @returns The context version.
+	 * Get the context version string for the verifiable credential.
+	 * @param verifiableCredential The verifiable credential to inspect.
+	 * @returns The context version ("v1" or "v2"), or undefined if not determinable.
 	 */
 	public static getContextVersion(
 		verifiableCredential: IDidVerifiableCredential
@@ -51,9 +51,9 @@ export class VerifiableCredentialHelper {
 	}
 
 	/**
-	 * Get the valid until date from a verifiable credential.
-	 * @param verifiableCredential The verifiable credential to extract the expiration date from.
-	 * @returns The expiration date, if available.
+	 * Get the expiration date from a verifiable credential.
+	 * @param verifiableCredential The verifiable credential to inspect.
+	 * @returns The expiration date string, or undefined if not present.
 	 */
 	public static getValidUntil(verifiableCredential: IDidVerifiableCredential): string | undefined {
 		return (
@@ -63,8 +63,8 @@ export class VerifiableCredentialHelper {
 	}
 
 	/**
-	 * Set the valid until date on a verifiable credential.
-	 * @param verifiableCredential The verifiable credential to set the expiration date on.
+	 * Set the expiration date on a verifiable credential.
+	 * @param verifiableCredential The verifiable credential to update.
 	 * @param validUntil The expiration date to set.
 	 */
 	public static setValidUntil(
@@ -79,9 +79,9 @@ export class VerifiableCredentialHelper {
 	}
 
 	/**
-	 * Get the valid from from a verifiable credential.
-	 * @param verifiableCredential The verifiable credential to extract the issuance date from.
-	 * @returns The issuance date, if available.
+	 * Get the issuance date from a verifiable credential.
+	 * @param verifiableCredential The verifiable credential to inspect.
+	 * @returns The issuance date string, or undefined if not present.
 	 */
 	public static getValidFrom(verifiableCredential: IDidVerifiableCredential): string | undefined {
 		return (
@@ -91,8 +91,8 @@ export class VerifiableCredentialHelper {
 	}
 
 	/**
-	 * Set the valid from date on a verifiable credential.
-	 * @param verifiableCredential The verifiable credential to set the issuance date on.
+	 * Set the issuance date on a verifiable credential.
+	 * @param verifiableCredential The verifiable credential to update.
 	 * @param validFrom The issuance date to set.
 	 */
 	public static setValidFrom(

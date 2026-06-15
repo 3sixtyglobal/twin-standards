@@ -5,7 +5,7 @@ import type { GaiaXTypes } from "./gaiaXTypes.js";
 
 /**
  * Endpoint as defined by the Gaia-X ontology.
- * https://docs.gaia-x.eu/ontology/development/classes/Endpoint
+ * @see https://docs.gaia-x.eu/ontology/development/classes/Endpoint
  */
 export interface IGaiaXEndpoint {
 	/**

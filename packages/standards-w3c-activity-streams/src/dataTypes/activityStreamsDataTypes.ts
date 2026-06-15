@@ -38,7 +38,7 @@ import ActivityStreamsTypesSchema from "../schemas/ActivityStreamsTypes.json" wi
 import VideoSchema from "../schemas/ActivityStreamsVideo.json" with { type: "json" };
 
 /**
- * Data Type registration for the Data Space Connector
+ * Handle all the data types for Activity Streams.
  */
 export abstract class ActivityStreamsDataTypes {
 	/**

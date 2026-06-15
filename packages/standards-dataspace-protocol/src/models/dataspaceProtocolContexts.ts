@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * The contexts for Dataspace Protocol Protocol.
+ * Context URLs and namespace identifiers for the Dataspace Protocol.
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolContexts = {

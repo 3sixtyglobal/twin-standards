@@ -5,8 +5,8 @@ import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProto
 import type { DataspaceProtocolContractNegotiationStateType } from "./types/dataspaceProtocolContractNegotiationStateType.js";
 
 /**
- * Interface for Dataspace Protocol Contract Agreement Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#ack-contract-negotiation
+ * Interface for the Dataspace Protocol contract negotiation acknowledgment.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#ack-contract-negotiation
  */
 export interface IDataspaceProtocolContractNegotiation {
 	/**
@@ -30,7 +30,7 @@ export interface IDataspaceProtocolContractNegotiation {
 	consumerPid: string;
 
 	/**
-	 * The offer being requested.
+	 * The current state of the contract negotiation.
 	 */
 	state: DataspaceProtocolContractNegotiationStateType;
 }

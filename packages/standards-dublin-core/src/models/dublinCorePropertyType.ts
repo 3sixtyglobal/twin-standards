@@ -3,7 +3,7 @@
 
 /**
  * Common Dublin Core property types for ODRL Policy Metadata.
- * Based on http://purl.org/dc/terms/
+ * @see http://purl.org/dc/terms/
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DublinCorePropertyType = {
@@ -63,8 +63,8 @@ export const DublinCorePropertyType = {
 	IsReplacedBy: "isReplacedBy",
 
 	/**
-	 * See Description at
-	 * https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/hasPart
+	 * A related resource that is included either physically or logically in the described resource.
+	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/hasPart
 	 */
 	HasPart: "hasPart"
 } as const;

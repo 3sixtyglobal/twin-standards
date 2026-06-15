@@ -5,17 +5,17 @@ import type { DataspaceProtocolTransferProcessTypes } from "./dataspaceProtocolT
 import type { IDataspaceProtocolDataAddress } from "./IDataspaceProtocolDataAddress.js";
 
 /**
- * Interface for Dataspace Protocol Transfer Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-request-message
+ * Interface for the Dataspace Protocol transfer request message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-request-message
  */
 export interface IDataspaceProtocolTransferRequestMessage {
 	/**
-	 * LD Context
+	 * The JSON-LD context.
 	 */
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * LD Type
+	 * The JSON-LD type.
 	 */
 	"@type": typeof DataspaceProtocolTransferProcessTypes.TransferRequestMessage;
 

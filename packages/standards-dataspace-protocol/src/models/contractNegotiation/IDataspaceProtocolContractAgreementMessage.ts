@@ -6,8 +6,8 @@ import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProto
 import type { IDataspaceProtocolAgreement } from "../odrl/IDataspaceProtocolAgreement.js";
 
 /**
- * Interface for Dataspace Protocol Contract Agreement Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-agreement-message
+ * Interface for the Dataspace Protocol contract agreement message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-agreement-message
  */
 export interface IDataspaceProtocolContractAgreementMessage {
 	/**

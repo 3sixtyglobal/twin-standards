@@ -4,8 +4,8 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 
 /**
- * Interface for Dataspace Protocol Catalog Error.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#error-catalog-error
+ * Interface for the Dataspace Protocol catalog error response.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#error-catalog-error
  */
 export interface IDataspaceProtocolCatalogError {
 	/**

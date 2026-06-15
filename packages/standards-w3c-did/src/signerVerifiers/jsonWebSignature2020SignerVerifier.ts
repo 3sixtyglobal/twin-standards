@@ -17,7 +17,8 @@ import type { IJsonWebSignature2020Proof } from "../models/IJsonWebSignature2020
 import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
 
 /**
- * Helper methods for creating and verifying proofs.
+ * Helper methods for creating and verifying JsonWebSignature2020 proofs.
+ * @see https://w3c-ccg.github.io/lds-jws2020/
  */
 export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier {
 	/**
@@ -74,7 +75,7 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 	}
 
 	/**
-	 * Verify a proof for the given data in format.
+	 * Verify a proof for the given data.
 	 * @param securedDocument The credential to verify.
 	 * @param signedProof The proof to verify.
 	 * @param verifyKey The public key to verify the proof with.

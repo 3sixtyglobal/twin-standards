@@ -35,8 +35,6 @@ export class JsonWebSignature2020AsyncSignerVerifier implements IProofSignerVeri
 
 	/**
 	 * Create a proof with an async signing callback.
-	 * This method prevents private key exposure by delegating signing to a secure callback.
-	 * Implements JWS Compact Serialization per RFC 7515.
 	 * @param unsecuredDocument The data to create the proof for.
 	 * @param unsignedProof The proof options.
 	 * @param signCallback Async callback that signs data with a private key from secure storage.

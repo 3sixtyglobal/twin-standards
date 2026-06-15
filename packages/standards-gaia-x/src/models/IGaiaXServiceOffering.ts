@@ -10,7 +10,8 @@ import type { IGaiaXEntity } from "./IGaiaXEntity.js";
 import type { IGaiaXLegalPerson } from "./IGaiaXLegalPerson.js";
 
 /**
- * A Service offering
+ * A Service Offering as defined by Gaia-X.
+ * @see https://docs.gaia-x.eu/ontology/development/classes/ServiceOffering/
  */
 export interface IGaiaXServiceOffering extends IGaiaXEntity {
 	/**

@@ -2,25 +2,25 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * Dublin Core classes.
- * Based on http://purl.org/dc/dcmitype
+ * Dublin Core DCMI type class identifiers.
+ * @see http://purl.org/dc/dcmitype
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DublinCoreClasses = {
 	/**
-	 * See Description at
-	 * https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Collection
+	 * A collection of resources.
+	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Collection
 	 */
 	Collection: "Collection",
 
 	/**
-	 * See Description at
-	 * https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/PeriodOfTime
+	 * An interval of time named or defined by its start and end dates.
+	 * @see https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/PeriodOfTime
 	 */
 	PeriodOfTime: "PeriodOfTime"
 } as const;
 
 /**
- * Dublin Core classes
+ * Union of all Dublin Core class identifier values.
  */
 export type DublinCoreClasses = (typeof DublinCoreClasses)[keyof typeof DublinCoreClasses];

@@ -5,9 +5,8 @@ import type { Gs1SubSiteAttributes } from "../models/gs1/gs1SubSiteAttributes.js
 import type { Gs1SubSiteTypes } from "../models/gs1/gs1SubSiteTypes.js";
 
 /**
- * Interface describing a GS1 Location master data.
- * Spec https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf .
- * Section 10.2 .
+ * GS1 Location master data entity.
+ * @see https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf
  */
 @entity({
 	description:

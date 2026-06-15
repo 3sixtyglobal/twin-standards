@@ -11,7 +11,7 @@ import type { IGaiaXLegalPerson } from "./IGaiaXLegalPerson.js";
 
 /**
  * A Data Resource as defined by Gaia-X.
- * See also W3C DCAT Dataset https://www.w3.org/TR/vocab-dcat-3/.
+ * @see https://docs.gaia-x.eu/ontology/development/classes/DataResource/
  */
 export interface IGaiaXDataResource extends IGaiaXEntity {
 	/**

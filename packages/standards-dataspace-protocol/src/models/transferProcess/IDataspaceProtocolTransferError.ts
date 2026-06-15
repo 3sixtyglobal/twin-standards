@@ -4,17 +4,17 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolTransferProcessTypes } from "./dataspaceProtocolTransferProcessTypes.js";
 
 /**
- * Interface for Dataspace Protocol Transfer Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol#error-transfer-error
+ * Interface for the Dataspace Protocol transfer error response.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol#error-transfer-error
  */
 export interface IDataspaceProtocolTransferError {
 	/**
-	 * LD Context
+	 * The JSON-LD context.
 	 */
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * LD Type
+	 * The JSON-LD type.
 	 */
 	"@type": typeof DataspaceProtocolTransferProcessTypes.TransferError;
 

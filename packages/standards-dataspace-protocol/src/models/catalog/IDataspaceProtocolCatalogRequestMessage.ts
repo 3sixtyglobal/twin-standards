@@ -4,8 +4,8 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolCatalogTypes } from "./dataspaceProtocolCatalogTypes.js";
 
 /**
- * Interface for Dataspace Protocol Catalog Request Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-request-message
+ * Interface for the Dataspace Protocol catalog request message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-request-message
  */
 export interface IDataspaceProtocolCatalogRequestMessage {
 	/**

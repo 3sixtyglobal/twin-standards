@@ -106,11 +106,11 @@ export class VdaIdentifiersValidation {
 	}
 
 	/**
-	 * Validate if the property is a valid epc id gtin.
+	 * Validate if the property is a valid VDA URI Package License Plate.
 	 * @param propertyName The name of the property being validated.
 	 * @param value The value to test.
 	 * @param failures The list of failures to add to.
-	 * @returns True if the value is valid epc.
+	 * @returns True if the value is a valid URI Package License Plate.
 	 */
 	public static uriPlp(
 		propertyName: string,

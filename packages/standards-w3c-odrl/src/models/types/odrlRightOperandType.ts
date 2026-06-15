@@ -2,16 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * Right operand types for ODRL constraints
+ * Right operand types for ODRL constraints.
+ * @see https://www.w3.org/TR/odrl-vocab/#term-RightOperand
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const OdrlRightOperandType = {
 	/**
-	 * Reference to policy usage events
+	 * Reference to policy usage events.
 	 */
 	PolicyUsage: "odrl:policyUsage"
-
-	// ... other right operand types ...
 } as const;
 
 /**

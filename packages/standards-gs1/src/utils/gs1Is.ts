@@ -15,9 +15,10 @@ export class Gs1Is {
 	}
 
 	/**
-	 * Is the value a valid geo uri https://en.wikipedia.org/wiki/Geo_URI_scheme.
+	 * Is the value a valid geo URI.
 	 * @param value The value to check.
-	 * @returns True if the value matches a geo uri.
+	 * @returns True if the value matches the geo URI scheme.
+	 * @see https://en.wikipedia.org/wiki/Geo_URI_scheme
 	 */
 	public static isGeoUri(value: string): boolean {
 		return /^geo:[+-]?([1-8]?\d(\.\d+)?|90(\.0+)?),\s*[+-]?(180(\.0+)?|((1[0-7]\d)|([1-9]?\d))(\.\d+)?)($|,)(\d{0,5})?/.test(

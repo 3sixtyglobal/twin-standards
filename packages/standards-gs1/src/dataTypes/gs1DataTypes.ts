@@ -8,7 +8,7 @@ import { Gs1Validation } from "../utils/gs1Validation.js";
 
 /**
  * Handle all the data types for GS1.
- * Vocabulary https://www.gs1.org/voc .
+ * @see https://www.gs1.org/voc
  */
 export class Gs1DataTypes {
 	/**

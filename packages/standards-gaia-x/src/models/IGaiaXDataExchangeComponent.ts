@@ -4,8 +4,8 @@ import type { GaiaXContextType } from "./gaiaXContextType.js";
 import type { GaiaXTypes } from "./gaiaXTypes.js";
 
 /**
- * Data Exchange component as defined by Gaia-X
- * https://docs.gaia-x.eu/ontology/development/classes/DataExchangeComponent
+ * Data Exchange Component as defined by Gaia-X.
+ * @see https://docs.gaia-x.eu/ontology/development/classes/DataExchangeComponent
  */
 export interface IGaiaXDataExchangeComponent {
 	/**

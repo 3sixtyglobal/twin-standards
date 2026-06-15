@@ -5,8 +5,8 @@ import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProto
 import type { DataspaceProtocolContractNegotiationEventType } from "./types/dataspaceProtocolContractNegotiationEventType.js";
 
 /**
- * Interface for Dataspace Protocol Contract Negotiation Event Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-event-message
+ * Interface for the Dataspace Protocol contract negotiation event message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-event-message
  */
 export interface IDataspaceProtocolContractNegotiationEventMessage {
 	/**

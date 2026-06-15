@@ -3,22 +3,22 @@
 import type { DataspaceProtocolTransferProcessTypes } from "./dataspaceProtocolTransferProcessTypes.js";
 
 /**
- * Interface for Dataspace Protocol Transfer Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level-types
+ * Interface for a Dataspace Protocol endpoint property key-value pair.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level-types
  */
 export interface IDataspaceProtocolEndpointProperty {
 	/**
-	 * LD Type.
+	 * The JSON-LD type.
 	 */
 	"@type": typeof DataspaceProtocolTransferProcessTypes.EndpointProperty;
 
 	/**
-	 * Property name.
+	 * The property name.
 	 */
 	name: string;
 
 	/**
-	 * Property value.
+	 * The property value.
 	 */
 	value: string;
 }

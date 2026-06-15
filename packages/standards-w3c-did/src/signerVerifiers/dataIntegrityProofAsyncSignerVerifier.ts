@@ -13,8 +13,7 @@ import { JwsAlgorithms } from "../models/jwsAlgorithms.js";
 
 /**
  * Helper methods for creating and verifying Data Integrity proofs with async signing callbacks.
- * This implementation delegates signing to a secure callback to prevent private key exposure.
- * https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
+ * @see https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
  */
 export class DataIntegrityProofAsyncSignerVerifier implements IProofSignerVerifierAsync {
 	/**
@@ -37,7 +36,6 @@ export class DataIntegrityProofAsyncSignerVerifier implements IProofSignerVerifi
 
 	/**
 	 * Create a proof with an async signing callback.
-	 * This method prevents private key exposure by delegating signing to a secure callback.
 	 * @param unsecuredDocument The data to create the proof for.
 	 * @param unsignedProof The proof options.
 	 * @param signCallback Async callback that signs data with a private key from secure storage.

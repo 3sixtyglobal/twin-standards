@@ -5,17 +5,17 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolTransferProcessTypes } from "./dataspaceProtocolTransferProcessTypes.js";
 
 /**
- * Interface for Dataspace Protocol Transfer Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-suspension-message
+ * Interface for the Dataspace Protocol transfer suspension message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-suspension-message
  */
 export interface IDataspaceProtocolTransferSuspensionMessage {
 	/**
-	 * LD Context
+	 * The JSON-LD context.
 	 */
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * LD Type
+	 * The JSON-LD type.
 	 */
 	"@type": typeof DataspaceProtocolTransferProcessTypes.TransferSuspensionMessage;
 

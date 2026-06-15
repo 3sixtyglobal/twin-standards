@@ -12,7 +12,6 @@ import type { IFoafDocument } from "./IFoafDocument.js";
 export interface IFoafImage extends IFoafDocument {
 	/**
 	 * The LD Context.
-	 *
 	 */
 	"@context"?: FoafContextType;
 

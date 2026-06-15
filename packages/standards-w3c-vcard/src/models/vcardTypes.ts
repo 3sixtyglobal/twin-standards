@@ -3,7 +3,7 @@
 
 /**
  * Common VCard property types.
- * Based on http://www.w3.org/2006/vcard/ns#
+ * @see http://www.w3.org/2006/vcard/ns#
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const VCardPropertyType = {

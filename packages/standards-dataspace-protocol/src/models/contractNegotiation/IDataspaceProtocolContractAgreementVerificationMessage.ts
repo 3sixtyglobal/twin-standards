@@ -4,8 +4,8 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProtocolContractNegotiationTypes.js";
 
 /**
- * Interface for Dataspace Protocol Contract Agreement Verification Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-agreement-verification-message
+ * Interface for the Dataspace Protocol contract agreement verification message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-agreement-verification-message
  */
 export interface IDataspaceProtocolContractAgreementVerificationMessage {
 	/**

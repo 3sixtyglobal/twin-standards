@@ -8,7 +8,7 @@ import DidVerifiableCredentialSchema from "../schemas/DidVerifiableCredential.js
 import DidVerifiablePresentationSchema from "../schemas/DidVerifiablePresentation.json" with { type: "json" };
 
 /**
- * Data Type registration for DID.
+ * Handles data type registration for DID.
  */
 export abstract class DidDataTypes {
 	/**

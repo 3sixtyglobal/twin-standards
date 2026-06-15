@@ -27,7 +27,6 @@ import RoleSchema from "../schemas/DcatRole.json" with { type: "json" };
 export class DcatDataTypes {
 	/**
 	 * Register redirects for DCAT namespace to enable offline JSON-LD processing.
-	 * This maps the W3C DCAT namespace to a local redirect URL for faster resolution.
 	 */
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(/https?:\/\/www\.w3\.org\/ns\/dcat#?/, DcatContexts.JsonLdContext);

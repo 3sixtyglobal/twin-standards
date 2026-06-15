@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * The types for Dataspace Protocol Contract Negotiation.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#message-types-0
+ * Type identifiers for the Dataspace Protocol Contract Negotiation.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#message-types-0
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolContractNegotiationTypes = {

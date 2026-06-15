@@ -113,6 +113,7 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 
 /**
  * Add all the contexts to the document cache.
+ * @returns A promise that resolves when all contexts have been added to the cache.
  */
 export async function addAllContextsToDocumentCache(): Promise<void> {
 	for (const url in LD_CONTEXTS) {
@@ -123,6 +124,8 @@ export async function addAllContextsToDocumentCache(): Promise<void> {
 /**
  * Add a context to the document cache.
  * @param url The URL of the context to add to the cache.
+ * @returns A promise that resolves when the context has been added to the cache.
+ * @throws GeneralError if the context URL is not found in the known contexts map.
  */
 export async function addContextToDocumentCache(url: string): Promise<void> {
 	if (Is.empty(LD_CONTEXTS[url])) {

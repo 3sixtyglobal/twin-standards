@@ -8,8 +8,8 @@ import type { IDidLabel } from "./IDidLabel.js";
 import type { IProof } from "./IProof.js";
 
 /**
- * Interface describing a verifiable credential.
- * https://www.w3.org/TR/vc-data-model-2.0
+ * Common properties shared by all verifiable credential versions.
+ * @see https://www.w3.org/TR/vc-data-model-2.0
  */
 export interface IDidVerifiableCredentialCommon {
 	/**

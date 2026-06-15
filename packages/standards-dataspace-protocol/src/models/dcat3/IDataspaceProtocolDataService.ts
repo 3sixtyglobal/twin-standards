@@ -4,28 +4,13 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { IDataspaceProtocolDataServiceBase } from "./IDataspaceProtocolDataServiceBase.js";
 
 /**
- * Data Service interface compliant with Eclipse Data Space Protocol.
- *
- * This interface extends IDataService  and enforces DS Protocol-specific requirements
- * by overriding properties with more specific types and constraints.
- *
- * **Requirements per DS Protocol:**
- * - `@id` MUST be present for dataset identification (REQUIRED)
- * - endpointURL MUST be present (REQUIRED)
- *
- * **Type System Design:**
- * - Interface extension allows TypeScript to override inherited property types
- * - Standards packages (@twin.org/standards-w3c-*) follow W3C specs exactly
- * - DS Protocol-specific constraints are defined here
- *
+ * Data service compliant with Eclipse Data Space Protocol, requiring an id and endpointURL.
  *
  * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
- * @see https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
- *
  */
 export interface IDataspaceProtocolDataService extends IDataspaceProtocolDataServiceBase {
 	/**
-	 * LD Context. Required per Eclipse Data Space Protocol.
+	 * The JSON-LD context.
 	 */
 	"@context": DataspaceProtocolContextType;
 }

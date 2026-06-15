@@ -12,9 +12,7 @@ export const DidContexts = {
 	Namespace: "https://www.w3.org/ns/did/v1",
 
 	/**
-	 * The value to use in JSON-LD context for DID.
-	 * Note: Context matches Namespace (no trailing slash) as per W3C DID specification.
-	 * The W3C DID JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for DID.
 	 */
 	Context: "https://www.w3.org/ns/did/v1",
 
@@ -29,9 +27,7 @@ export const DidContexts = {
 	NamespaceVCv1: "https://www.w3.org/2018/credentials/v1",
 
 	/**
-	 * The value to use in JSON-LD context for DID VC v1.
-	 * Note: ContextVCv1 matches NamespaceVCv1 (no trailing slash) as per W3C Verifiable Credentials v1 specification.
-	 * The W3C VC v1 JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for DID VC v1.
 	 */
 	ContextVCv1: "https://www.w3.org/2018/credentials/v1",
 
@@ -41,9 +37,7 @@ export const DidContexts = {
 	NamespaceVCv2: "https://www.w3.org/ns/credentials/v2",
 
 	/**
-	 * The value to use in JSON-LD context for DID VC v2.
-	 * Note: ContextVCv2 matches NamespaceVCv2 (no trailing slash) as per W3C Verifiable Credentials v2 specification.
-	 * The W3C VC v2 JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for DID VC v2.
 	 */
 	ContextVCv2: "https://www.w3.org/ns/credentials/v2",
 
@@ -53,9 +47,7 @@ export const DidContexts = {
 	NamespaceSecurityEd25519: "https://w3id.org/security/suites/ed25519-2020/v1",
 
 	/**
-	 * The value to use in JSON-LD context for security ed25519 suites.
-	 * Note: ContextSecurityEd25519 matches NamespaceSecurityEd25519 (no trailing slash) as per W3C Security Suites specification.
-	 * The ed25519-2020 JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for security ed25519 suites.
 	 */
 	ContextSecurityEd25519: "https://w3id.org/security/suites/ed25519-2020/v1",
 
@@ -65,9 +57,7 @@ export const DidContexts = {
 	NamespaceSecurityJws2020: "https://w3id.org/security/suites/jws-2020/v1",
 
 	/**
-	 * The value to use in JSON-LD context for security jws-2020 suites.
-	 * Note: ContextSecurityJws2020 matches NamespaceSecurityJws2020 (no trailing slash) as per W3C Security Suites specification.
-	 * The jws-2020 JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for security jws-2020 suites.
 	 */
 	ContextSecurityJws2020: "https://w3id.org/security/suites/jws-2020/v1",
 
@@ -77,9 +67,7 @@ export const DidContexts = {
 	NamespaceDataIntegrity: "https://w3id.org/security/data-integrity/v2",
 
 	/**
-	 * The value to use in JSON-LD context for VC Data Integrity.
-	 * Note: ContextDataIntegrity matches NamespaceDataIntegrity (no trailing slash) as per W3C Data Integrity specification.
-	 * The Data Integrity JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for VC Data Integrity.
 	 */
 	ContextDataIntegrity: "https://w3id.org/security/data-integrity/v2",
 
@@ -89,9 +77,7 @@ export const DidContexts = {
 	NamespaceControllerIdentifiers: "https://www.w3.org/ns/cid/v1",
 
 	/**
-	 * The value to use in JSON-LD context for controller identifiers.
-	 * Note: ContextControllerIdentifiers matches NamespaceControllerIdentifiers (no trailing slash) as per W3C Controller Identifiers specification.
-	 * The Controller Identifiers JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for controller identifiers.
 	 */
 	ContextControllerIdentifiers: "https://www.w3.org/ns/cid/v1",
 
@@ -101,9 +87,7 @@ export const DidContexts = {
 	NamespaceSecurityMultikey: "https://w3id.org/security/multikey/v1",
 
 	/**
-	 * The value to use in JSON-LD context for security multikey suites.
-	 * Note: ContextSecurityMultikey matches NamespaceSecurityMultikey (no trailing slash) as per W3C Security Suites specification.
-	 * The multikey JSON-LD context URL format does not include a trailing slash.
+	 * The value to use in the JSON-LD context for security multikey suites.
 	 */
 	ContextSecurityMultikey: "https://w3id.org/security/multikey/v1"
 } as const;

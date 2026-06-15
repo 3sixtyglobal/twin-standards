@@ -3,8 +3,8 @@
 import type { GaiaXTypes } from "./gaiaXTypes.js";
 
 /**
- * Address as defined by Gaia-X
- * https://docs.gaia-x.eu/ontology/development/classes/Address/
+ * Address as defined by Gaia-X.
+ * @see https://docs.gaia-x.eu/ontology/development/classes/Address/
  */
 export interface IGaiaXAddress {
 	/**

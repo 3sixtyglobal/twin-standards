@@ -5,17 +5,17 @@ import type { DataspaceProtocolTransferProcessTypes } from "./dataspaceProtocolT
 import type { DataspaceProtocolTransferProcessStateType } from "./types/dataspaceProtocolTransferProcessStateType.js";
 
 /**
- * Interface for Dataspace Protocol Transfer Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#ack-transfer-process
+ * Interface for the Dataspace Protocol transfer process acknowledgment.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#ack-transfer-process
  */
 export interface IDataspaceProtocolTransferProcess {
 	/**
-	 * LD Context
+	 * The JSON-LD context.
 	 */
 	"@context": DataspaceProtocolContextType;
 
 	/**
-	 * LD Type
+	 * The JSON-LD type.
 	 */
 	"@type": typeof DataspaceProtocolTransferProcessTypes.TransferProcess;
 

@@ -4,8 +4,8 @@ import type { DataspaceProtocolContextType } from "../dataspaceProtocolContextTy
 import type { DataspaceProtocolContractNegotiationTypes } from "./dataspaceProtocolContractNegotiationTypes.js";
 
 /**
- * Interface for Dataspace Protocol Contract Negotiation Termination Messages.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-termination-message
+ * Interface for the Dataspace Protocol contract negotiation termination message.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-termination-message
  */
 export interface IDataspaceProtocolContractNegotiationTerminationMessage {
 	/**

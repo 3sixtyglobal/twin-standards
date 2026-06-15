@@ -4,7 +4,7 @@ import type { GaiaXTypes } from "./gaiaXTypes.js";
 
 /**
  * Registration Number as defined by the Gaia-X ontology.
- * https://docs.gaia-x.eu/ontology/development/classes/RegistrationNumber/
+ * @see https://docs.gaia-x.eu/ontology/development/classes/RegistrationNumber/
  */
 export interface IGaiaXRegistrationNumber {
 	/**

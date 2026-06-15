@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0.
 
 /**
- * The states for Dataspace Protocol Transfer Process.
- * https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#ack-transfer-process
+ * State type identifiers for the Dataspace Protocol Transfer Process.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#ack-transfer-process
  */
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DataspaceProtocolTransferProcessStateType = {

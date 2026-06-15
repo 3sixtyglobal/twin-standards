@@ -20,8 +20,8 @@ import type { IProof } from "../models/IProof.js";
 import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
 
 /**
- * Helper methods for creating and verifying proofs.
- * https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
+ * Helper methods for creating and verifying Data Integrity proofs using EdDSA-JCS-2022.
+ * @see https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
  */
 export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 	/**
@@ -79,7 +79,7 @@ export class DataIntegrityProofSignerVerifier implements IProofSignerVerifier {
 	}
 
 	/**
-	 * Verify a proof for the given data in format.
+	 * Verify a proof for the given data.
 	 * @param securedDocument The credential to verify.
 	 * @param signedProof The proof to verify.
 	 * @param verifyKey The public key to verify the proof with.
