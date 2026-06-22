@@ -57,7 +57,7 @@ export interface IUneceContactPerson {
 	 * The identifier of the residence country of this contact person.
 	 * @see https://vocabulary.uncefact.org/countryResidenceCountryId
 	 */
-	countryResidenceCountryId?: string | IJsonLdValueObject;
+	countryResidenceCountryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * An email Uniform Resource Identifier (URI) communication for this contact person.

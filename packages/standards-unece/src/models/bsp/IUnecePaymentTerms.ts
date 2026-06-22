@@ -123,7 +123,7 @@ export interface IUnecePaymentTerms {
 	 * The unique identifier of these trade payment terms.
 	 * @see https://vocabulary.uncefact.org/paymentTermsId
 	 */
-	paymentTermsId?: string | IJsonLdValueObject;
+	paymentTermsId?: UnecePaymentTermsId | string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying the type of trade payment terms.

@@ -307,7 +307,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 					outputDir: isList ? LIST_OUTPUT_DIR : CLASS_OUTPUT_DIR
 				});
 
-				if (isArray && !isLimited) {
+				if (isArray && !isLimited && !isIdentifier) {
 					propType = shouldAllowString ? `(${propBaseType})[]` : `${propImportType}[]`;
 				} else {
 					propType = propBaseType;
@@ -346,7 +346,7 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 		}
 
 		if (isIdentifier) {
-			propType = 'string | IJsonLdValueObject';
+			propType = propType === 'string' ? 'string | IJsonLdValueObject' : `${propType} | string | IJsonLdValueObject`;
 			imports.push({
 				type: 'IJsonLdValueObject',
 				package: '@twin.org/data-json-ld'

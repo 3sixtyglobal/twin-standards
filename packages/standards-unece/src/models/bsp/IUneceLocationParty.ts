@@ -33,7 +33,7 @@ export interface IUneceLocationParty {
 	 * A unique country identifier for this location party.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: string | IJsonLdValueObject;
+	countryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * A trade contact defined for this location party.

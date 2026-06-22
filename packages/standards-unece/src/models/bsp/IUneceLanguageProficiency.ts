@@ -40,7 +40,7 @@ export interface IUneceLanguageProficiency {
 	 * The identifier of the language for which this personal language proficiency is defined.
 	 * @see https://vocabulary.uncefact.org/personalLanguageProficiencyLanguageId
 	 */
-	personalLanguageProficiencyLanguageId?: string | IJsonLdValueObject;
+	personalLanguageProficiencyLanguageId?: UneceLanguageId | string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the personal reading proficiency level in this language.

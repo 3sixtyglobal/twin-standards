@@ -45,7 +45,7 @@ export interface IUneceFinancialInstitutionAddress {
 	 * The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: string | IJsonLdValueObject;
+	countryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of the country within this financial institution address.

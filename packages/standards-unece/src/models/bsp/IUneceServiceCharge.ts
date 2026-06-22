@@ -138,7 +138,7 @@ export interface IUneceServiceCharge {
 	 * The unique identifier for this logistics service charge.
 	 * @see https://vocabulary.uncefact.org/freightChargeTypeId
 	 */
-	freightChargeTypeId?: string | IJsonLdValueObject;
+	freightChargeTypeId?: UneceFreightChargeTypeId | string | IJsonLdValueObject;
 
 	/**
 	 * A code specifying a type of freight invoice of this logistics service charge.

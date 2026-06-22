@@ -44,7 +44,7 @@ export interface IUneceStowaway {
 	 * An identifier of a nationality claimed by this found stowaway.
 	 * @see https://vocabulary.uncefact.org/countryClaimedNationalityId
 	 */
-	countryClaimedNationalityId?: string | IJsonLdValueObject;
+	countryClaimedNationalityId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * A date, time, date time, or other date time value on which this found stowaway is discovered.

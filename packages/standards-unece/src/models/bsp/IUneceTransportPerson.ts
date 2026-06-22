@@ -207,7 +207,7 @@ export interface IUneceTransportPerson {
 	 * A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 	 * @see https://vocabulary.uncefact.org/transportPersonLanguageId
 	 */
-	transportPersonLanguageId?: string | IJsonLdValueObject;
+	transportPersonLanguageId?: UneceLanguageId | string | IJsonLdValueObject;
 
 	/**
 	 * The name or set of names, expressed as text, by which this transport person is known.

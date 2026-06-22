@@ -63,5 +63,5 @@ export interface IUneceTradeLocation {
 	 * The unique identifier of a country location used or referenced in trade.
 	 * @see https://vocabulary.uncefact.org/tradeLocationCountryId
 	 */
-	tradeLocationCountryId?: string | IJsonLdValueObject;
+	tradeLocationCountryId?: UneceCountryId | string | IJsonLdValueObject;
 }

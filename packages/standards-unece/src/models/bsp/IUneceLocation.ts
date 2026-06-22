@@ -115,7 +115,7 @@ export interface IUneceLocation {
 	 * The identifier of the country for this referenced location.
 	 * @see https://vocabulary.uncefact.org/locationCountryId
 	 */
-	locationCountryId?: string | IJsonLdValueObject;
+	locationCountryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the reference type of this referenced location.

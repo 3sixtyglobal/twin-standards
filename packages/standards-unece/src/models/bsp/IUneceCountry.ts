@@ -29,7 +29,7 @@ export interface IUneceCountry {
 	 * A unique identifier for this trade country.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: string | IJsonLdValueObject;
+	countryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of this trade country.

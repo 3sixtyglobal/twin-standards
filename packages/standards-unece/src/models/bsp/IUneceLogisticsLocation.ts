@@ -91,7 +91,7 @@ export interface IUneceLogisticsLocation {
 	 * The unique identifier of a country for this logistics location.
 	 * @see https://vocabulary.uncefact.org/logisticsLocationCountryId
 	 */
-	logisticsLocationCountryId?: string | IJsonLdValueObject;
+	logisticsLocationCountryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * A name, expressed as text, of this logistics related location.

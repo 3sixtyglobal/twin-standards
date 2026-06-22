@@ -34,7 +34,7 @@ export interface IUneceGovernmentRegistration {
 	 * The identifier of the country for this government registration.
 	 * @see https://vocabulary.uncefact.org/countryId
 	 */
-	countryId?: string | IJsonLdValueObject;
+	countryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * The identifier of the country sub-division for this registration.

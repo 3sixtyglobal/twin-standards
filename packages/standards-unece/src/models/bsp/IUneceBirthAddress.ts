@@ -26,7 +26,7 @@ export interface IUneceBirthAddress {
 	 * The identifier of a country for this birth address.
 	 * @see https://vocabulary.uncefact.org/birthAddressCountryId
 	 */
-	birthAddressCountryId?: string | IJsonLdValueObject;
+	birthAddressCountryId?: UneceCountryId | string | IJsonLdValueObject;
 
 	/**
 	 * The name, expressed as text, of the city, town or village of this birth address.

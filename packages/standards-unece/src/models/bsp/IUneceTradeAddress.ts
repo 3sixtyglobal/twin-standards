@@ -200,5 +200,5 @@ export interface IUneceTradeAddress {
 	 * The unique identifier of a country for this trade address.
 	 * @see https://vocabulary.uncefact.org/tradeAddressCountryId
 	 */
-	tradeAddressCountryId?: string | IJsonLdValueObject;
+	tradeAddressCountryId?: UneceCountryId | string | IJsonLdValueObject;
 }

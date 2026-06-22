@@ -136,7 +136,7 @@ export interface IUneceDocument {
 	 * An identifier for a language used in this referenced document.
 	 * @see https://vocabulary.uncefact.org/documentLanguageId
 	 */
-	documentLanguageId?: string | IJsonLdValueObject;
+	documentLanguageId?: UneceLanguageId | string | IJsonLdValueObject;
 
 	/**
 	 * The code specifying the status of a line in this referenced document.
