@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.0.3-next.69](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.68...standards-dataspace-protocol-v0.0.3-next.69) (2026-06-22)
+
+
+### Miscellaneous Chores
+
+* **standards-dataspace-protocol:** Synchronize repo versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-dcat bumped from 0.0.3-next.68 to 0.0.3-next.69
+    * @twin.org/standards-w3c-odrl bumped from 0.0.3-next.68 to 0.0.3-next.69
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.68 to 0.0.3-next.69
+
 ## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-dataspace-protocol-v0.0.3-next.67...standards-dataspace-protocol-v0.0.3-next.68) (2026-06-22)
 
 

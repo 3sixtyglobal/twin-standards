@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.3-next.69](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.68...standards-w3c-did-v0.0.3-next.69) (2026-06-22)
+
+
+### Features
+
+* remove gaia-x ([3e87ac1](https://github.com/iotaledger/twin-standards/commit/3e87ac14480758289cd43c8da7fa02dd251ed6c4))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @twin.org/standards-ld-contexts bumped from 0.0.3-next.68 to 0.0.3-next.69
+
 ## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-w3c-did-v0.0.3-next.67...standards-w3c-did-v0.0.3-next.68) (2026-06-22)
 
 

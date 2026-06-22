@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.69](https://github.com/iotaledger/twin-standards/compare/standards-gs1-v0.0.3-next.68...standards-gs1-v0.0.3-next.69) (2026-06-22)
+
+
+### Miscellaneous Chores
+
+* **standards-gs1:** Synchronize repo versions
+
 ## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-gs1-v0.0.3-next.67...standards-gs1-v0.0.3-next.68) (2026-06-22)
 
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3-next.69](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.3-next.68...standards-ld-contexts-v0.0.3-next.69) (2026-06-22)
+
+
+### Features
+
+* remove gaia-x ([b8c05b7](https://github.com/iotaledger/twin-standards/commit/b8c05b78a85e9f00d9fd98749852c83377a099e1))
+* remove gaia-x ([3e87ac1](https://github.com/iotaledger/twin-standards/commit/3e87ac14480758289cd43c8da7fa02dd251ed6c4))
+
 ## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.3-next.67...standards-ld-contexts-v0.0.3-next.68) (2026-06-22)
 
 
