@@ -346,7 +346,10 @@ async function processClass(jsonLdMapping, csvMapping, id, item, generatedTypes)
 		}
 
 		if (isIdentifier) {
-			propType = propType === 'string' ? 'string | IJsonLdValueObject' : `${propType} | string | IJsonLdValueObject`;
+			propType =
+				propType === 'string'
+					? 'string | IJsonLdValueObject'
+					: `${propType} | string | IJsonLdValueObject`;
 			imports.push({
 				type: 'IJsonLdValueObject',
 				package: '@twin.org/data-json-ld'

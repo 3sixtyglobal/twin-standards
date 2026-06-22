@@ -64,14 +64,6 @@ This package provides data models for [VDA JAIF semantics](https://www.vda.de/en
 - [Examples](../packages/standards-vda/docs/examples.md)
 - [Changelog](../packages/standards-vda/docs/changelog.md)
 
-## standards-gaia-x
-
-This package provides data models for [Gaia-X ontology concepts](https://docs.gaia-x.eu/ontology/development/), enabling interoperable representation of federated data space concepts.
-
-- [README](../packages/standards-gaia-x/README.md)
-- [Examples](../packages/standards-gaia-x/docs/examples.md)
-- [Changelog](../packages/standards-gaia-x/docs/changelog.md)
-
 ## standards-ld-contexts
 
 This package provides local JSON-LD contexts commonly used across standards workflows, so development and validation can continue reliably in offline or controlled environments.

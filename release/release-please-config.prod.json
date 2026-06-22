@@ -44,10 +44,6 @@
 			"package-name": "standards-vda",
 			"changelog-path": "docs/changelog.md"
 		},
-		"packages/standards-gaia-x": {
-			"package-name": "standards-gaia-x",
-			"changelog-path": "docs/changelog.md"
-		},
 		"packages/standards-w3c-activity-streams": {
 			"package-name": "standards-w3c-activity-streams",
 			"changelog-path": "docs/changelog.md"
@@ -84,7 +80,6 @@
 				"standards-gs1",
 				"standards-unece",
 				"standards-vda",
-				"standards-gaia-x",
 				"standards-w3c-activity-streams",
 				"standards-foaf",
 				"standards-w3c-dcat",

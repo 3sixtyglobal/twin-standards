@@ -7,7 +7,6 @@
 	"packages/standards-gs1": "0.0.1",
 	"packages/standards-unece": "0.0.1",
 	"packages/standards-vda": "0.0.1",
-	"packages/standards-gaia-x": "0.0.1",
 	"packages/standards-ld-contexts": "0.0.1",
 	"packages/standards-w3c-activity-streams": "0.0.1",
 	"packages/standards-dataspace-protocol": "0.0.1",

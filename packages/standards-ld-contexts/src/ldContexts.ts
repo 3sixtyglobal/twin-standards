@@ -7,7 +7,6 @@ import dataspaceProtocol2025 from "./ldContexts/dataspace-protocol-2025.json" wi
 import dcmitype from "./ldContexts/dublin-core-dcmitype.json" with { type: "json" };
 import dcTerms from "./ldContexts/dublin-core-terms.json" with { type: "json" };
 import foaf from "./ldContexts/foaf.json" with { type: "json" };
-import gaiaX2411 from "./ldContexts/gaia-x-v24.11.json" with { type: "json" };
 import gs1epcis from "./ldContexts/gs1-epcis.json" with { type: "json" };
 import gs1vocab from "./ldContexts/gs1-vocab.json" with { type: "json" };
 import odrlDataspaceProtocol from "./ldContexts/odrl-dataspace-protocol.json" with { type: "json" };
@@ -52,12 +51,6 @@ export const LD_CONTEXTS: { [id: string]: unknown } = {
 	"https://schema.twindev.org/foaf/": foaf,
 	"https://schema.twindev.org/foaf/types.jsonld": foaf,
 	"http://xmlns.com/foaf/0.1/": foaf,
-
-	// Gaia-X
-	"https://w3id.org/gaia-x/2411": gaiaX2411,
-	"https://w3id.org/gaia-x/2411#": gaiaX2411,
-	"https://schema.twindev.org/gaia-x-loire/": gaiaX2411,
-	"https://schema.twindev.org/gaia-x-loire/types.jsonld": gaiaX2411,
 
 	// GS1 EPCIS
 	"https://ref.gs1.org/epcis/": gs1epcis,

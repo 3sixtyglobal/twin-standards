@@ -42,7 +42,7 @@ describe("JsonWebSignature2020SignerVerifier", () => {
 
 		const unsignedProof = ProofHelper.createUnsignedProof(
 			ProofTypes.JsonWebSignature2020,
-			"did:web:wizard.lab.gaia-x.eu:api:credentials:2d37wbGvQzbAQ84yRouh2m2vBKkN8s5AfH9Q75HZRCUQmJW7yAVSNKzjJj6gcjE2mDNDUHCichXWdMH3S2c8AaDLm3kXmf5R8DLGYw32T5A1uaxbEy5W28Tv5BDbSrdfGtCUpjC8RHpZAMFTDET3g3QkFTRuY8rVrR7zjeSWa54WeRLKutKhyR5EbdyNYPWHxm8TEWWuMchWEBnXQNjrntGUEP8csESeaTBCupBqxSJ8WM4fBRwFvJKmCLwJzkpo2LkbWEzpGRy3GvedQ1AFLEe3JCdcgs5b2u5ubgT3pgte71JebuiAPP8jJN3tUAhk9CAPXpu2EHvCuy4C1CuYK5pnMKwRHtRsA2w7i1Gn7EzMrRjiU5AeFS3KLMbbHNLVvuqCeW9Gx93tUfJdQx2Z88obsrH9sWYSCDFExmJE9w31uricJmQcb9815znjuupWrGb3jy32qX7Vvt9uya7keewZuAQ1TjyctKDcqWA44JuKVURtdtykEUuKoUZHBasJ4vaBaBfmy7MBkhFsqPRVp9MdkTwVGv5mHxV6SayZRaN7WoJCWu7Jphb3uB4oEXQXsP4EShYzyqUM8yTrrFtHADiGWDw8CZ86jEvfA7n#JWK2020",
+			"did:example:123456789abcdefghi#keys-1",
 			{ created: "2024-01-31T16:00:45.490Z" }
 		);
 

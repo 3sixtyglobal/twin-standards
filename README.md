@@ -14,7 +14,6 @@ Each package focuses on a recognised specification or vocabulary and provides a 
 - [standards-gs1](packages/standards-gs1/README.md) - Data models for GS1 vocabularies and semantics.
 - [standards-unece](packages/standards-unece/README.md) - Data models for UN/CEFACT semantic vocabularies.
 - [standards-vda](packages/standards-vda/README.md) - Data models for VDA JAIF semantics.
-- [standards-gaia-x](packages/standards-gaia-x/README.md) - Data models for Gaia-X ontology concepts.
 - [standards-ld-contexts](packages/standards-ld-contexts/README.md) - Local JSON-LD contexts for offline and controlled use.
 - [standards-w3c-activity-streams](packages/standards-w3c-activity-streams/README.md) - Data models for the W3C Activity Streams vocabulary.
 - [standards-foaf](packages/standards-foaf/README.md) - Data models for the FOAF vocabulary.
