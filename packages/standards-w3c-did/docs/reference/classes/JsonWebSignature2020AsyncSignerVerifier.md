@@ -34,8 +34,6 @@ Runtime name for the class.
 > **createProofWithSigner**(`unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IJsonWebSignature2020Proof`](../interfaces/IJsonWebSignature2020Proof.md)\>
 
 Create a proof with an async signing callback.
-This method prevents private key exposure by delegating signing to a secure callback.
-Implements JWS Compact Serialization per RFC 7515.
 
 #### Parameters
 

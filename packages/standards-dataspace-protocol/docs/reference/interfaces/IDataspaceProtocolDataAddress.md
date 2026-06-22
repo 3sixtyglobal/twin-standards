@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolDataAddress
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for a Dataspace Protocol data address.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level-types
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level
 
 > **@type**: `"DataAddress"`
 
-LD Type
+The JSON-LD type.
 
 ***
 
@@ -17,7 +20,7 @@ LD Type
 
 > **endpointType**: `string`
 
-The type of endpoint of this data address.
+The endpoint type identifier.
 
 ***
 
@@ -25,7 +28,7 @@ The type of endpoint of this data address.
 
 > `optional` **endpoint?**: `string`
 
-The endpoint of the data address
+The endpoint URL or address.
 
 ***
 
@@ -33,4 +36,4 @@ The endpoint of the data address
 
 > `optional` **endpointProperties?**: [`IDataspaceProtocolEndpointProperty`](IDataspaceProtocolEndpointProperty.md)[]
 
-Properties associated to the endpoint which might depend on the endpoint type.
+Transport-specific endpoint properties.

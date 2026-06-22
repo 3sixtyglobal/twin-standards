@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### birthAddressCountryId? {#birthaddresscountryid}
 
-> `optional` **birthAddressCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **birthAddressCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The identifier of a country for this birth address.
 

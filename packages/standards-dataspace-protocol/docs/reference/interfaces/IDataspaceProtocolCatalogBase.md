@@ -1,23 +1,10 @@
 # Interface: IDataspaceProtocolCatalogBase
 
-Catalog interface compliant with Eclipse Data Space Protocol.
-
-This interface extends ICatalog  and enforces DS Protocol-specific requirements
-by overriding properties with more specific types and constraints.
-
-**Requirements per DS Protocol:**
-- `@id` MUST be present for dataset identification (REQUIRED)
-- participantId MUST be present (REQUIRED)
-
-**Type System Design:**
-- Interface extension allows TypeScript to override inherited property types
-- Standards packages (@twin.org/standards-w3c-*) follow W3C specs exactly
-- DS Protocol-specific constraints are defined here
+Base catalog interface compliant with Eclipse Data Space Protocol, requiring an id and participantId.
 
 ## See
 
- - https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
- - https://www.w3.org/TR/vocab-dcat-3/ - W3C DCAT v3 spec
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
 
 ## Extends
 
@@ -55,7 +42,7 @@ REQUIRED per Eclipse Data Space Protocol.
 
 > **participantId**: `string`
 
-Participant Id
+The participant identifier.
 
 ***
 
@@ -63,7 +50,7 @@ Participant Id
 
 > `optional` **catalog?**: `IDataspaceProtocolCatalogBase`[]
 
-Other concerned catalogs
+Nested catalogs.
 
 ***
 
@@ -71,7 +58,7 @@ Other concerned catalogs
 
 > `optional` **dataset?**: [`IDataspaceProtocolDatasetBase`](IDataspaceProtocolDatasetBase.md)[]
 
-Datasets registered
+Datasets registered in this catalog.
 
 ***
 
@@ -79,7 +66,7 @@ Datasets registered
 
 > `optional` **distribution?**: [`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)[]
 
-Catalog's distributions
+Distributions for this catalog.
 
 ***
 
@@ -87,7 +74,7 @@ Catalog's distributions
 
 > `optional` **service?**: [`IDataspaceProtocolDataServiceBase`](IDataspaceProtocolDataServiceBase.md)[]
 
-Data services registered-
+Data services registered in this catalog.
 
 ***
 

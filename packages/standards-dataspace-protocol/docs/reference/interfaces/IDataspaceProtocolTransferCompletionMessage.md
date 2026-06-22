@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolTransferCompletionMessage
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for the Dataspace Protocol transfer completion message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-completion-message
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-co
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
-LD Context
+The JSON-LD context.
 
 ***
 
@@ -17,7 +20,7 @@ LD Context
 
 > **@type**: `"TransferCompletionMessage"`
 
-LD Type
+The JSON-LD type.
 
 ***
 

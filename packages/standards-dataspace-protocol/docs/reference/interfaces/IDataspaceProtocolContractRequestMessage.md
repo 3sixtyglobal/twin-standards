@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolContractRequestMessage
 
-Interface for Dataspace Protocol Contract Request Messages.
+Interface for the Dataspace Protocol contract request message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-request-message
 
 ## Properties

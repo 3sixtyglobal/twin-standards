@@ -2,8 +2,7 @@
 
 > `const` **DataspaceProtocolTransferProcessStateType**: `object`
 
-The states for Dataspace Protocol Transfer Process.
-https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#ack-transfer-process
+State type identifiers for the Dataspace Protocol Transfer Process.
 
 ## Type Declaration
 
@@ -36,3 +35,7 @@ Suspended
 > `readonly` **TERMINATED**: `"TERMINATED"` = `"TERMINATED"`
 
 Terminated
+
+## See
+
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#ack-transfer-process

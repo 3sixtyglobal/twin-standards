@@ -38,7 +38,7 @@ https://vocabulary.uncefact.org/categoryCode
 
 ### countryId? {#countryid}
 
-> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 An identifier of the country in which this legal registration is valid.
 

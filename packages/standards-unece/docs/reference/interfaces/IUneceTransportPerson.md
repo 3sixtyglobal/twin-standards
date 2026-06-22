@@ -362,7 +362,7 @@ https://vocabulary.uncefact.org/specificAccreditation
 
 ### transportPersonLanguageId? {#transportpersonlanguageid}
 
-> `optional` **transportPersonLanguageId?**: `string` \| `IJsonLdValueObject`
+> `optional` **transportPersonLanguageId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 A unique identifier of a language related to this transport person, such as their spoken or correspondence language.
 

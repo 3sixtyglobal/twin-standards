@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolCatalogError
 
-Interface for Dataspace Protocol Catalog Error.
+Interface for the Dataspace Protocol catalog error response.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#error-catalog-error
 
 ## Properties

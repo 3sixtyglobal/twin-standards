@@ -1,6 +1,9 @@
 # Interface: IGaiaXAddress
 
-Address as defined by Gaia-X
+Address as defined by Gaia-X.
+
+## See
+
 https://docs.gaia-x.eu/ontology/development/classes/Address/
 
 ## Properties

@@ -2,8 +2,7 @@
 
 > `const` **DataspaceProtocolContractNegotiationTypes**: `object`
 
-The types for Dataspace Protocol Contract Negotiation.
-https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#message-types-0
+Type identifiers for the Dataspace Protocol Contract Negotiation.
 
 ## Type Declaration
 
@@ -66,3 +65,7 @@ Contract Negotiation Event Type.
 > `readonly` **ContractNegotiationStateType**: `"ContractNegotiationStateType"` = `"ContractNegotiationStateType"`
 
 Contract Negotiation State Type.
+
+## See
+
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#message-types-0

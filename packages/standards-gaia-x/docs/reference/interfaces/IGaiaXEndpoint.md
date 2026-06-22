@@ -1,6 +1,9 @@
 # Interface: IGaiaXEndpoint
 
 Endpoint as defined by the Gaia-X ontology.
+
+## See
+
 https://docs.gaia-x.eu/ontology/development/classes/Endpoint
 
 ## Properties

@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolCatalogRequestMessage
 
-Interface for Dataspace Protocol Catalog Request Messages.
+Interface for the Dataspace Protocol catalog request message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-request-message
 
 ## Properties

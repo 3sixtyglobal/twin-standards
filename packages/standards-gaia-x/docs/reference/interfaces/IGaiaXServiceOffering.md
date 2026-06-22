@@ -1,6 +1,10 @@
 # Interface: IGaiaXServiceOffering
 
-A Service offering
+A Service Offering as defined by Gaia-X.
+
+## See
+
+https://docs.gaia-x.eu/ontology/development/classes/ServiceOffering/
 
 ## Extends
 

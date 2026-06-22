@@ -98,7 +98,7 @@ https://vocabulary.uncefact.org/name
 
 ### tradeLocationCountryId? {#tradelocationcountryid}
 
-> `optional` **tradeLocationCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **tradeLocationCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The unique identifier of a country location used or referenced in trade.
 

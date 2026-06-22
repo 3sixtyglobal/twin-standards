@@ -1,6 +1,6 @@
 # Abstract Class: DidDataTypes
 
-Data Type registration for DID.
+Handles data type registration for DID.
 
 ## Constructors
 

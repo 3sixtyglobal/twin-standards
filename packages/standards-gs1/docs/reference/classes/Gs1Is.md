@@ -40,7 +40,7 @@ True if the value is an epc.
 
 > `static` **isGeoUri**(`value`): `boolean`
 
-Is the value a valid geo uri https://en.wikipedia.org/wiki/Geo_URI_scheme.
+Is the value a valid geo URI.
 
 #### Parameters
 
@@ -54,4 +54,8 @@ The value to check.
 
 `boolean`
 
-True if the value matches a geo uri.
+True if the value matches the geo URI scheme.
+
+#### See
+
+https://en.wikipedia.org/wiki/Geo_URI_scheme

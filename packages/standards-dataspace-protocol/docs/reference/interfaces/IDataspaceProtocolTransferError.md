@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolTransferError
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for the Dataspace Protocol transfer error response.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol#error-transfer-error
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol#error-transf
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
-LD Context
+The JSON-LD context.
 
 ***
 
@@ -17,7 +20,7 @@ LD Context
 
 > **@type**: `"TransferError"`
 
-LD Type
+The JSON-LD type.
 
 ***
 

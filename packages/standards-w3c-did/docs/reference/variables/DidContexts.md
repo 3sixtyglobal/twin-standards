@@ -16,9 +16,7 @@ The canonical RDF namespace URI for DID.
 
 > `readonly` **Context**: `"https://www.w3.org/ns/did/v1"` = `"https://www.w3.org/ns/did/v1"`
 
-The value to use in JSON-LD context for DID.
-Note: Context matches Namespace (no trailing slash) as per W3C DID specification.
-The W3C DID JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for DID.
 
 ### JsonSchemaNamespace {#jsonschemanamespace}
 
@@ -36,9 +34,7 @@ The canonical RDF namespace URI for DID VC v1.
 
 > `readonly` **ContextVCv1**: `"https://www.w3.org/2018/credentials/v1"` = `"https://www.w3.org/2018/credentials/v1"`
 
-The value to use in JSON-LD context for DID VC v1.
-Note: ContextVCv1 matches NamespaceVCv1 (no trailing slash) as per W3C Verifiable Credentials v1 specification.
-The W3C VC v1 JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for DID VC v1.
 
 ### NamespaceVCv2 {#namespacevcv2}
 
@@ -50,9 +46,7 @@ The canonical RDF namespace URI for DID VC v2.
 
 > `readonly` **ContextVCv2**: `"https://www.w3.org/ns/credentials/v2"` = `"https://www.w3.org/ns/credentials/v2"`
 
-The value to use in JSON-LD context for DID VC v2.
-Note: ContextVCv2 matches NamespaceVCv2 (no trailing slash) as per W3C Verifiable Credentials v2 specification.
-The W3C VC v2 JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for DID VC v2.
 
 ### NamespaceSecurityEd25519 {#namespacesecurityed25519}
 
@@ -64,9 +58,7 @@ The canonical RDF namespace URI for security ed25519 suites.
 
 > `readonly` **ContextSecurityEd25519**: `"https://w3id.org/security/suites/ed25519-2020/v1"` = `"https://w3id.org/security/suites/ed25519-2020/v1"`
 
-The value to use in JSON-LD context for security ed25519 suites.
-Note: ContextSecurityEd25519 matches NamespaceSecurityEd25519 (no trailing slash) as per W3C Security Suites specification.
-The ed25519-2020 JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for security ed25519 suites.
 
 ### NamespaceSecurityJws2020 {#namespacesecurityjws2020}
 
@@ -78,9 +70,7 @@ The canonical RDF namespace URI for security jws-2020 suites.
 
 > `readonly` **ContextSecurityJws2020**: `"https://w3id.org/security/suites/jws-2020/v1"` = `"https://w3id.org/security/suites/jws-2020/v1"`
 
-The value to use in JSON-LD context for security jws-2020 suites.
-Note: ContextSecurityJws2020 matches NamespaceSecurityJws2020 (no trailing slash) as per W3C Security Suites specification.
-The jws-2020 JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for security jws-2020 suites.
 
 ### NamespaceDataIntegrity {#namespacedataintegrity}
 
@@ -92,9 +82,7 @@ The canonical RDF namespace URI for VC Data Integrity.
 
 > `readonly` **ContextDataIntegrity**: `"https://w3id.org/security/data-integrity/v2"` = `"https://w3id.org/security/data-integrity/v2"`
 
-The value to use in JSON-LD context for VC Data Integrity.
-Note: ContextDataIntegrity matches NamespaceDataIntegrity (no trailing slash) as per W3C Data Integrity specification.
-The Data Integrity JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for VC Data Integrity.
 
 ### NamespaceControllerIdentifiers {#namespacecontrolleridentifiers}
 
@@ -106,9 +94,7 @@ The canonical RDF namespace URI for controller identifiers.
 
 > `readonly` **ContextControllerIdentifiers**: `"https://www.w3.org/ns/cid/v1"` = `"https://www.w3.org/ns/cid/v1"`
 
-The value to use in JSON-LD context for controller identifiers.
-Note: ContextControllerIdentifiers matches NamespaceControllerIdentifiers (no trailing slash) as per W3C Controller Identifiers specification.
-The Controller Identifiers JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for controller identifiers.
 
 ### NamespaceSecurityMultikey {#namespacesecuritymultikey}
 
@@ -120,6 +106,4 @@ The canonical RDF namespace URI for security multikey suites.
 
 > `readonly` **ContextSecurityMultikey**: `"https://w3id.org/security/multikey/v1"` = `"https://w3id.org/security/multikey/v1"`
 
-The value to use in JSON-LD context for security multikey suites.
-Note: ContextSecurityMultikey matches NamespaceSecurityMultikey (no trailing slash) as per W3C Security Suites specification.
-The multikey JSON-LD context URL format does not include a trailing slash.
+The value to use in the JSON-LD context for security multikey suites.

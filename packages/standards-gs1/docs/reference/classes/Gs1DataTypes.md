@@ -1,7 +1,10 @@
 # Class: Gs1DataTypes
 
 Handle all the data types for GS1.
-Vocabulary https://www.gs1.org/voc .
+
+## See
+
+https://www.gs1.org/voc
 
 ## Constructors
 

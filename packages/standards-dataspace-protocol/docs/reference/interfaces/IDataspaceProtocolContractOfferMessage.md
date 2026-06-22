@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolContractOfferMessage
 
-Interface for Dataspace Protocol Contract Offer Messages.
+Interface for the Dataspace Protocol contract offer message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-offer-message
 
 ## Properties

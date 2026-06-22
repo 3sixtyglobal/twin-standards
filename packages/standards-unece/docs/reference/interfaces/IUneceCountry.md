@@ -27,7 +27,7 @@ JSON-LD Type.
 
 ### countryId? {#countryid}
 
-> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 A unique identifier for this trade country.
 

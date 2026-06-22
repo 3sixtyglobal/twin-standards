@@ -1,8 +1,10 @@
 # Class: Gs1Location
 
-Interface describing a GS1 Location master data.
-Spec https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf .
-Section 10.2 .
+GS1 Location master data entity.
+
+## See
+
+https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf
 
 ## Constructors
 

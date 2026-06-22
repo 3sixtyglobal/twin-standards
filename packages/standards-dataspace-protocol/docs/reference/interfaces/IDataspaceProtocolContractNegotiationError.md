@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolContractNegotiationError
 
-Interface for Dataspace Protocol Contract Negotiation Error Messages.
+Interface for the Dataspace Protocol contract negotiation error response.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#error-contract-negotiation-error
 
 ## Properties

@@ -1,6 +1,9 @@
 # Interface: IGaiaXDataExchangeComponent
 
-Data Exchange component as defined by Gaia-X
+Data Exchange Component as defined by Gaia-X.
+
+## See
+
 https://docs.gaia-x.eu/ontology/development/classes/DataExchangeComponent
 
 ## Properties

@@ -75,7 +75,7 @@ https://vocabulary.uncefact.org/contactPersonTitleCode
 
 ### countryResidenceCountryId? {#countryresidencecountryid}
 
-> `optional` **countryResidenceCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryResidenceCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The identifier of the residence country of this contact person.
 

@@ -171,7 +171,7 @@ https://vocabulary.uncefact.org/includedPolygon
 
 ### locationCountryId? {#locationcountryid}
 
-> `optional` **locationCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **locationCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The identifier of the country for this referenced location.
 

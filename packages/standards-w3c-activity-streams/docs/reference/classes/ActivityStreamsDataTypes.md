@@ -1,6 +1,6 @@
 # Abstract Class: ActivityStreamsDataTypes
 
-Data Type registration for the Data Space Connector
+Handle all the data types for Activity Streams.
 
 ## Constructors
 

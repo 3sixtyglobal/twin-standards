@@ -1,6 +1,6 @@
 # Abstract Class: DcsaDataTypes
 
-Data Type registration for DCSA
+Handles data type registration for DCSA.
 
 ## Constructors
 
@@ -18,7 +18,7 @@ Data Type registration for DCSA
 
 > `static` **registerRedirects**(): `void`
 
-Register redirects for DCSA namespace to enable offline JSON-LD processing.
+No-op: DCSA does not define JSON-LD context URLs.
 
 #### Returns
 

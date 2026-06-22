@@ -3,7 +3,6 @@
 > `const` **VCardPropertyType**: `object`
 
 Common VCard property types.
-Based on http://www.w3.org/2006/vcard/ns#
 
 ## Type Declaration
 
@@ -72,3 +71,7 @@ Birthday
 > `readonly` **Photo**: `"hasPhoto"` = `"hasPhoto"`
 
 Photo
+
+## See
+
+http://www.w3.org/2006/vcard/ns#

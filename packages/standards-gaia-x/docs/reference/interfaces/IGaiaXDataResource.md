@@ -1,7 +1,10 @@
 # Interface: IGaiaXDataResource
 
 A Data Resource as defined by Gaia-X.
-See also W3C DCAT Dataset https://www.w3.org/TR/vocab-dcat-3/.
+
+## See
+
+https://docs.gaia-x.eu/ontology/development/classes/DataResource/
 
 ## Extends
 

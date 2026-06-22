@@ -135,7 +135,7 @@ https://vocabulary.uncefact.org/locationFunctionTypeCode
 
 ### logisticsLocationCountryId? {#logisticslocationcountryid}
 
-> `optional` **logisticsLocationCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **logisticsLocationCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The unique identifier of a country for this logistics location.
 

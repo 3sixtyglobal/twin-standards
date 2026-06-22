@@ -26,7 +26,7 @@ JSON-LD Type.
 
 ### countryId? {#countryid}
 
-> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 A unique country identifier for this location party.
 

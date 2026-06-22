@@ -1,6 +1,9 @@
 # Class: DataIntegrityProofSignerVerifier
 
-Helper methods for creating and verifying proofs.
+Helper methods for creating and verifying Data Integrity proofs using EdDSA-JCS-2022.
+
+## See
+
 https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
 
 ## Implements
@@ -69,7 +72,7 @@ The created proof.
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
-Verify a proof for the given data in format.
+Verify a proof for the given data.
 
 #### Parameters
 

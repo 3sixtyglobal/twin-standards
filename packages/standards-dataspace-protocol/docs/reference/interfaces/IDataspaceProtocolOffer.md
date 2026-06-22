@@ -1,15 +1,10 @@
 # Interface: IDataspaceProtocolOffer
 
-Offer interface compliant with Eclipse Data Space Protocol.
-
-Extends IOdrlOffer with DS Protocol-specific constraints:
-- `@id` is REQUIRED (used as the primary offer identifier in DS Protocol)
-- `@context` is omitted (inherited from the parent Dataset/Distribution)
+Offer interface compliant with Eclipse Data Space Protocol, requiring an id and context.
 
 ## See
 
- - https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
- - IOdrlOffer from @twin.org/standards-w3c-odrl
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
 
 ## Extends
 
@@ -33,7 +28,7 @@ Unique identifier for the offer.
 
 > **@context**: `OdrlContextType`
 
-LD Context.
+The JSON-LD context.
 
 ***
 

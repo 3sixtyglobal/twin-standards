@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolTransferProcess
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for the Dataspace Protocol transfer process acknowledgment.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#ack-transfer-process
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#ack-transfe
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
-LD Context
+The JSON-LD context.
 
 ***
 
@@ -17,7 +20,7 @@ LD Context
 
 > **@type**: `"TransferProcess"`
 
-LD Type
+The JSON-LD type.
 
 ***
 

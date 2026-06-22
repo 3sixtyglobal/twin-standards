@@ -2,8 +2,7 @@
 
 > `const` **DataspaceProtocolCatalogTypes**: `object`
 
-The types for Dataspace Protocol Catalog Protocol.
-https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-protocol
+Type identifiers for the Dataspace Protocol Catalog Protocol.
 
 ## Type Declaration
 
@@ -72,3 +71,7 @@ Agreement.
 > `readonly` **Set**: `"Set"` = `"Set"`
 
 Set.
+
+## See
+
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-protocol

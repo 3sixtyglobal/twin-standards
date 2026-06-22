@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolContractNegotiation
 
-Interface for Dataspace Protocol Contract Agreement Messages.
+Interface for the Dataspace Protocol contract negotiation acknowledgment.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#ack-contract-negotiation
 
 ## Properties
@@ -41,4 +44,4 @@ The consumer id for the contract.
 
 > **state**: [`DataspaceProtocolContractNegotiationStateType`](../type-aliases/DataspaceProtocolContractNegotiationStateType.md)
 
-The offer being requested.
+The current state of the contract negotiation.

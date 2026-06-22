@@ -2,7 +2,7 @@
 
 > `const` **DataspaceProtocolContexts**: `object`
 
-The contexts for Dataspace Protocol Protocol.
+Context URLs and namespace identifiers for the Dataspace Protocol.
 
 ## Type Declaration
 

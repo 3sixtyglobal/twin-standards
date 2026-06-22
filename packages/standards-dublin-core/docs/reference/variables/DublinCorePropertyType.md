@@ -3,7 +3,6 @@
 > `const` **DublinCorePropertyType**: `object`
 
 Common Dublin Core property types for ODRL Policy Metadata.
-Based on http://purl.org/dc/terms/
 
 ## Type Declaration
 
@@ -75,5 +74,12 @@ Using "@id" references is preferred for comparison purposes.
 
 > `readonly` **HasPart**: `"hasPart"` = `"hasPart"`
 
-See Description at
+A related resource that is included either physically or logically in the described resource.
+
+#### See
+
 https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/hasPart
+
+## See
+
+http://purl.org/dc/terms/

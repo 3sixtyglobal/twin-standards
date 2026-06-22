@@ -198,7 +198,7 @@ https://vocabulary.uncefact.org/paymentTermsEventTimeReferenceFromEventCode
 
 ### paymentTermsId? {#paymenttermsid}
 
-> `optional` **paymentTermsId?**: `string` \| `IJsonLdValueObject`
+> `optional` **paymentTermsId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The unique identifier of these trade payment terms.
 

@@ -365,7 +365,7 @@ https://vocabulary.uncefact.org/streetName
 
 ### tradeAddressCountryId? {#tradeaddresscountryid}
 
-> `optional` **tradeAddressCountryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **tradeAddressCountryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The unique identifier of a country for this trade address.
 

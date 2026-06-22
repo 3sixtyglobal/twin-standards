@@ -26,7 +26,7 @@ Runtime name for the class.
 
 > `static` **getContext**(`verifiableCredential`): `"https://www.w3.org/2018/credentials/v1"` \| `"https://www.w3.org/ns/credentials/v2"` \| `undefined`
 
-Get the context for the verifiable credential.
+Get the JSON-LD context URL for the verifiable credential.
 
 #### Parameters
 
@@ -34,13 +34,13 @@ Get the context for the verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to extract the expiration date from.
+The verifiable credential to inspect.
 
 #### Returns
 
 `"https://www.w3.org/2018/credentials/v1"` \| `"https://www.w3.org/ns/credentials/v2"` \| `undefined`
 
-The context.
+The context URL, or undefined if the version cannot be determined.
 
 ***
 
@@ -48,7 +48,7 @@ The context.
 
 > `static` **getContextVersion**(`verifiableCredential`): `"v1"` \| `"v2"` \| `undefined`
 
-Get the context version for the verifiable credential.
+Get the context version string for the verifiable credential.
 
 #### Parameters
 
@@ -56,13 +56,13 @@ Get the context version for the verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to extract the expiration date from.
+The verifiable credential to inspect.
 
 #### Returns
 
 `"v1"` \| `"v2"` \| `undefined`
 
-The context version.
+The context version ("v1" or "v2"), or undefined if not determinable.
 
 ***
 
@@ -70,7 +70,7 @@ The context version.
 
 > `static` **getValidUntil**(`verifiableCredential`): `string` \| `undefined`
 
-Get the valid until date from a verifiable credential.
+Get the expiration date from a verifiable credential.
 
 #### Parameters
 
@@ -78,13 +78,13 @@ Get the valid until date from a verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to extract the expiration date from.
+The verifiable credential to inspect.
 
 #### Returns
 
 `string` \| `undefined`
 
-The expiration date, if available.
+The expiration date string, or undefined if not present.
 
 ***
 
@@ -92,7 +92,7 @@ The expiration date, if available.
 
 > `static` **setValidUntil**(`verifiableCredential`, `validUntil`): `void`
 
-Set the valid until date on a verifiable credential.
+Set the expiration date on a verifiable credential.
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Set the valid until date on a verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to set the expiration date on.
+The verifiable credential to update.
 
 ##### validUntil
 
@@ -118,7 +118,7 @@ The expiration date to set.
 
 > `static` **getValidFrom**(`verifiableCredential`): `string` \| `undefined`
 
-Get the valid from from a verifiable credential.
+Get the issuance date from a verifiable credential.
 
 #### Parameters
 
@@ -126,13 +126,13 @@ Get the valid from from a verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to extract the issuance date from.
+The verifiable credential to inspect.
 
 #### Returns
 
 `string` \| `undefined`
 
-The issuance date, if available.
+The issuance date string, or undefined if not present.
 
 ***
 
@@ -140,7 +140,7 @@ The issuance date, if available.
 
 > `static` **setValidFrom**(`verifiableCredential`, `validFrom`): `void`
 
-Set the valid from date on a verifiable credential.
+Set the issuance date on a verifiable credential.
 
 #### Parameters
 
@@ -148,7 +148,7 @@ Set the valid from date on a verifiable credential.
 
 [`IDidVerifiableCredential`](../type-aliases/IDidVerifiableCredential.md)
 
-The verifiable credential to set the issuance date on.
+The verifiable credential to update.
 
 ##### validFrom
 

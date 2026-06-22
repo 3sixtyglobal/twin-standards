@@ -206,7 +206,7 @@ https://vocabulary.uncefact.org/documentAmendmentPurposeCode
 
 ### documentLanguageId? {#documentlanguageid}
 
-> `optional` **documentLanguageId?**: `string` \| `IJsonLdValueObject`
+> `optional` **documentLanguageId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 An identifier for a language used in this referenced document.
 

@@ -63,7 +63,7 @@ https://vocabulary.uncefact.org/cityName
 
 ### countryId? {#countryid}
 
-> `optional` **countryId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3).
 

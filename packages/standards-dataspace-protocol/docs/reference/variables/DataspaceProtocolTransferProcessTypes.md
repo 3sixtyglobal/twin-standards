@@ -2,8 +2,7 @@
 
 > `const` **DataspaceProtocolTransferProcessTypes**: `object`
 
-The types for Dataspace Protocol Transfer Process.
-https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#message-types-1
+Type identifiers for the Dataspace Protocol Transfer Process.
 
 ## Type Declaration
 
@@ -60,3 +59,7 @@ Transfer Process
 > `readonly` **TransferError**: `"TransferError"` = `"TransferError"`
 
 Transfer Error.
+
+## See
+
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#message-types-1

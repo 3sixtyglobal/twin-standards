@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolTransferRequestMessage
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for the Dataspace Protocol transfer request message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-request-message
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#transfer-re
 
 > **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
 
-LD Context
+The JSON-LD context.
 
 ***
 
@@ -17,7 +20,7 @@ LD Context
 
 > **@type**: `"TransferRequestMessage"`
 
-LD Type
+The JSON-LD type.
 
 ***
 

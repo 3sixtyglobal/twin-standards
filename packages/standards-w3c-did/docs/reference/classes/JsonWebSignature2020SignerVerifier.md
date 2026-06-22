@@ -1,6 +1,10 @@
 # Class: JsonWebSignature2020SignerVerifier
 
-Helper methods for creating and verifying proofs.
+Helper methods for creating and verifying JsonWebSignature2020 proofs.
+
+## See
+
+https://w3c-ccg.github.io/lds-jws2020/
 
 ## Implements
 
@@ -68,7 +72,7 @@ The created proof.
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
-Verify a proof for the given data in format.
+Verify a proof for the given data.
 
 #### Parameters
 

@@ -120,7 +120,7 @@ True if the value is valid epc.
 
 > `static` **uriPlp**(`propertyName`, `value`, `failures`): `value is string`
 
-Validate if the property is a valid epc id gtin.
+Validate if the property is a valid VDA URI Package License Plate.
 
 #### Parameters
 
@@ -146,7 +146,7 @@ The list of failures to add to.
 
 `value is string`
 
-True if the value is valid epc.
+True if the value is a valid URI Package License Plate.
 
 ***
 

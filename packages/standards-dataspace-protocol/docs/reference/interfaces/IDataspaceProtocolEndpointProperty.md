@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolEndpointProperty
 
-Interface for Dataspace Protocol Transfer Messages.
+Interface for a Dataspace Protocol endpoint property key-value pair.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level-types
 
 ## Properties
@@ -9,7 +12,7 @@ https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/#lower-level
 
 > **@type**: `"EndpointProperty"`
 
-LD Type.
+The JSON-LD type.
 
 ***
 
@@ -17,7 +20,7 @@ LD Type.
 
 > **name**: `string`
 
-Property name.
+The property name.
 
 ***
 
@@ -25,4 +28,4 @@ Property name.
 
 > **value**: `string`
 
-Property value.
+The property value.

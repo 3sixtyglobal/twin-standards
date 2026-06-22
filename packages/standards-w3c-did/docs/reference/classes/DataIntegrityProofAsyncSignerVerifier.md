@@ -1,7 +1,9 @@
 # Class: DataIntegrityProofAsyncSignerVerifier
 
 Helper methods for creating and verifying Data Integrity proofs with async signing callbacks.
-This implementation delegates signing to a secure callback to prevent private key exposure.
+
+## See
+
 https://www.w3.org/TR/vc-di-eddsa/#eddsa-jcs-2022
 
 ## Implements
@@ -35,7 +37,6 @@ Runtime name for the class.
 > **createProofWithSigner**(`unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
 Create a proof with an async signing callback.
-This method prevents private key exposure by delegating signing to a secure callback.
 
 #### Parameters
 

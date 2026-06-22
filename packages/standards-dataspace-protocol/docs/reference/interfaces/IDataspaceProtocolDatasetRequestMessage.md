@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolDatasetRequestMessage
 
-Interface for Dataspace Protocol Dataset Request Messages.
+Interface for the Dataspace Protocol dataset request message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#dataset-request-message
 
 ## Properties

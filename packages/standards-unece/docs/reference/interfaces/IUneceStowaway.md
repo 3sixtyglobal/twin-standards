@@ -51,7 +51,7 @@ https://vocabulary.uncefact.org/claimedLanguageProficiency
 
 ### countryClaimedNationalityId? {#countryclaimednationalityid}
 
-> `optional` **countryClaimedNationalityId?**: `string` \| `IJsonLdValueObject`
+> `optional` **countryClaimedNationalityId?**: `string` \| `object` & `object` \| `object` & `object` \| `object` & `object`
 
 An identifier of a nationality claimed by this found stowaway.
 

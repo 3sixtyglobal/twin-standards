@@ -1,6 +1,9 @@
 # Interface: IDidVerifiableCredentialCommon
 
-Interface describing a verifiable credential.
+Common properties shared by all verifiable credential versions.
+
+## See
+
 https://www.w3.org/TR/vc-data-model-2.0
 
 ## Extended by

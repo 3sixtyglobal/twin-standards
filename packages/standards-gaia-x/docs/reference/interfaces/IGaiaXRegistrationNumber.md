@@ -1,6 +1,9 @@
 # Interface: IGaiaXRegistrationNumber
 
 Registration Number as defined by the Gaia-X ontology.
+
+## See
+
 https://docs.gaia-x.eu/ontology/development/classes/RegistrationNumber/
 
 ## Properties

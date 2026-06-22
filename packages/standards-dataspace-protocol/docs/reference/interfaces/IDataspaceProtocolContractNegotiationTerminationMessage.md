@@ -1,6 +1,9 @@
 # Interface: IDataspaceProtocolContractNegotiationTerminationMessage
 
-Interface for Dataspace Protocol Contract Negotiation Termination Messages.
+Interface for the Dataspace Protocol contract negotiation termination message.
+
+## See
+
 https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#contract-negotiation-termination-message
 
 ## Properties
