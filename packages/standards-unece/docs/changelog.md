@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.67...standards-unece-v0.0.3-next.68) (2026-06-22)
+
+
+### Bug Fixes
+
+* use id types in id unions ([8256206](https://github.com/iotaledger/twin-standards/commit/8256206deb3b276e5d75f91e50941d0f01c5ee9c))
+
 ## [0.0.3-next.67](https://github.com/iotaledger/twin-standards/compare/standards-unece-v0.0.3-next.66...standards-unece-v0.0.3-next.67) (2026-06-12)
 
 

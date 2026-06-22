@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.3-next.68](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.67...standards-w3c-odrl-v0.0.3-next.68) (2026-06-22)
+
+
+### Bug Fixes
+
+* use async getStore in tests ([c5f4d53](https://github.com/iotaledger/twin-standards/commit/c5f4d533d5c9726e0cff6711fe22edbf0fc4d746))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @twin.org/standards-w3c-vcard bumped from 0.0.3-next.67 to 0.0.3-next.68
+    * @twin.org/standards-dublin-core bumped from 0.0.3-next.67 to 0.0.3-next.68
+
 ## [0.0.3-next.67](https://github.com/iotaledger/twin-standards/compare/standards-w3c-odrl-v0.0.3-next.66...standards-w3c-odrl-v0.0.3-next.67) (2026-06-12)
 
 
