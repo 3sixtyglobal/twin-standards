@@ -271,9 +271,7 @@
 
 * add extra ld contexts associated to URLs. cache ([#21](https://github.com/iotaledger/twin-standards/issues/21)) ([05f7bba](https://github.com/iotaledger/twin-standards/commit/05f7bbafd0efbff445b878ccc2709975e50a7773))
 * federated catalogue terms ld context last version copied ([#26](https://github.com/iotaledger/twin-standards/issues/26)) ([37f4ff0](https://github.com/iotaledger/twin-standards/commit/37f4ff00664e8b5efc7d24f1e2417061fd2bda56))
-* gaia-x loire LD Context ([#62](https://github.com/iotaledger/twin-standards/issues/62)) ([072c4e7](https://github.com/iotaledger/twin-standards/commit/072c4e789158b3f989fa0fdd23df2532f7626dad))
-* gaia-x pinned LD Context ([#59](https://github.com/iotaledger/twin-standards/issues/59)) ([7572616](https://github.com/iotaledger/twin-standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
-* pin to 24.11 Gaia-X LD Context ([#58](https://github.com/iotaledger/twin-standards/issues/58)) ([4d3b9cc](https://github.com/iotaledger/twin-standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
+iotaledger/twin-standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
 * refine local LD Contexts ([#84](https://github.com/iotaledger/twin-standards/issues/84)) ([785e359](https://github.com/iotaledger/twin-standards/commit/785e359ad6895fcb97197ca707915651fe3ae79c))
 
 ## [0.0.3-next.32](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.3-next.31...standards-ld-contexts-v0.0.3-next.32) (2026-02-06)
@@ -514,16 +512,12 @@
 
 * add extra ld contexts associated to URLs. cache ([#21](https://github.com/iotaledger/twin-standards/issues/21)) ([05f7bba](https://github.com/iotaledger/twin-standards/commit/05f7bbafd0efbff445b878ccc2709975e50a7773))
 * federated catalogue terms ld context last version copied ([#26](https://github.com/iotaledger/twin-standards/issues/26)) ([37f4ff0](https://github.com/iotaledger/twin-standards/commit/37f4ff00664e8b5efc7d24f1e2417061fd2bda56))
-* gaia-x loire LD Context ([#62](https://github.com/iotaledger/twin-standards/issues/62)) ([072c4e7](https://github.com/iotaledger/twin-standards/commit/072c4e789158b3f989fa0fdd23df2532f7626dad))
-* gaia-x pinned LD Context ([#59](https://github.com/iotaledger/twin-standards/issues/59)) ([7572616](https://github.com/iotaledger/twin-standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
-* pin to 24.11 Gaia-X LD Context ([#58](https://github.com/iotaledger/twin-standards/issues/58)) ([4d3b9cc](https://github.com/iotaledger/twin-standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
+twin-standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
 
 ## [0.0.2-next.16](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.2-next.15...standards-ld-contexts-v0.0.2-next.16) (2025-10-09)
 
 
 ### Bug Fixes
-
-* gaia-x loire LD Context ([#62](https://github.com/iotaledger/twin-standards/issues/62)) ([072c4e7](https://github.com/iotaledger/twin-standards/commit/072c4e789158b3f989fa0fdd23df2532f7626dad))
 
 ## [0.0.2-next.15](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.2-next.14...standards-ld-contexts-v0.0.2-next.15) (2025-10-09)
 
@@ -536,9 +530,6 @@
 
 
 ### Bug Fixes
-
-* gaia-x pinned LD Context ([#59](https://github.com/iotaledger/twin-standards/issues/59)) ([7572616](https://github.com/iotaledger/twin-standards/commit/7572616a2e853e8f6f6234763e675edb96e54005))
-* pin to 24.11 Gaia-X LD Context ([#58](https://github.com/iotaledger/twin-standards/issues/58)) ([4d3b9cc](https://github.com/iotaledger/twin-standards/commit/4d3b9cc365af276f5d4fc111a1744768746daa28))
 
 ## [0.0.2-next.13](https://github.com/iotaledger/twin-standards/compare/standards-ld-contexts-v0.0.2-next.12...standards-ld-contexts-v0.0.2-next.13) (2025-09-22)
 
