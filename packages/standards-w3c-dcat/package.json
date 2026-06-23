@@ -1,6 +1,6 @@
 {
 	"name": "@twin.org/standards-w3c-dcat",
-	"version": "0.9.0-next.0",
+	"version": "0.9.0-next.1",
 	"description": "Data models for the W3C Data Catalog Vocabulary.",
 	"repository": {
 		"type": "git",
@@ -31,16 +31,16 @@
 	},
 	"dependencies": {
 		"@twin.org/data-json-ld": "0.9.0-next.1",
-		"@twin.org/standards-dublin-core": "0.9.0-next.0",
-		"@twin.org/standards-foaf": "0.9.0-next.0",
-		"@twin.org/standards-w3c-odrl": "0.9.0-next.0",
-		"@twin.org/standards-w3c-vcard": "0.9.0-next.0",
+		"@twin.org/standards-dublin-core": "0.9.0-next.1",
+		"@twin.org/standards-foaf": "0.9.0-next.1",
+		"@twin.org/standards-w3c-odrl": "0.9.0-next.1",
+		"@twin.org/standards-w3c-vcard": "0.9.0-next.1",
 		"@twin.org/web": "0.9.0-next.1"
 	},
 	"devDependencies": {
 		"@twin.org/nameof-transformer": "0.9.0-next.1",
 		"@twin.org/nameof-vitest-plugin": "0.9.0-next.1",
-		"@twin.org/standards-ld-contexts": "0.9.0-next.0",
+		"@twin.org/standards-ld-contexts": "0.9.0-next.1",
 		"@twin.org/ts-to-schema": "0.9.0-next.1",
 		"@twin.org/validate-locales": "0.9.0-next.1",
 		"@vitest/coverage-v8": "4.1.9",
