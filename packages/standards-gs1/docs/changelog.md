@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.0](https://github.com/iotaledger/twin-standards/compare/standards-gs1-v0.9.0...standards-gs1-v0.9.0) (2026-06-23)
+
+
+### Features
+
+* release to production ([2ae4125](https://github.com/iotaledger/twin-standards/commit/2ae4125f305d4714b50036eb8a0bd47e4100a7be))
+* release to production ([#246](https://github.com/iotaledger/twin-standards/issues/246)) ([6e6796b](https://github.com/iotaledger/twin-standards/commit/6e6796bd76aa70a9215eeb300ff479cde79368b8))
+
 ## [0.9.0-next.1](https://github.com/iotaledger/twin-standards/compare/standards-gs1-v0.9.0-next.0...standards-gs1-v0.9.0-next.1) (2026-06-23)
 
 
