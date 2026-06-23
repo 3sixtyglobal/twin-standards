@@ -1,0 +1,112 @@
+[
+  {
+    "code": "035",
+    "label": "Orhon",
+    "type": "Province"
+  },
+  {
+    "code": "037",
+    "label": "Darhan uul",
+    "type": "Province"
+  },
+  {
+    "code": "039",
+    "label": "Hentiy",
+    "type": "Province"
+  },
+  {
+    "code": "041",
+    "label": "Hövagöl",
+    "type": "Province"
+  },
+  {
+    "code": "043",
+    "label": "Hovd",
+    "type": "Province"
+  },
+  {
+    "code": "046",
+    "label": "Uvs",
+    "type": "Province"
+  },
+  {
+    "code": "047",
+    "label": "Töv",
+    "type": "Province"
+  },
+  {
+    "code": "049",
+    "label": "Selenge",
+    "type": "Province"
+  },
+  {
+    "code": "051",
+    "label": "Sühbaatar",
+    "type": "Province"
+  },
+  {
+    "code": "053",
+    "label": "Ömnögovi",
+    "type": "Province"
+  },
+  {
+    "code": "055",
+    "label": "Övörhangay",
+    "type": "Province"
+  },
+  {
+    "code": "057",
+    "label": "Dzavhan",
+    "type": "Province"
+  },
+  {
+    "code": "059",
+    "label": "Dundgovi",
+    "type": "Province"
+  },
+  {
+    "code": "061",
+    "label": "Dornod",
+    "type": "Province"
+  },
+  {
+    "code": "063",
+    "label": "Dornogovi",
+    "type": "Province"
+  },
+  {
+    "code": "064",
+    "label": "Govi-Sümber",
+    "type": "Province"
+  },
+  {
+    "code": "065",
+    "label": "Govi-Altay",
+    "type": "Province"
+  },
+  {
+    "code": "067",
+    "label": "Bulgan",
+    "type": "Province"
+  },
+  {
+    "code": "069",
+    "label": "Bayanhongor",
+    "type": "Province"
+  },
+  {
+    "code": "071",
+    "label": "Bayan-Ölgiy",
+    "type": "Province"
+  },
+  {
+    "code": "073",
+    "label": "Arhangay",
+    "type": "Province"
+  },
+  {
+    "code": "1",
+    "label": "Ulaanbaatar",
+    "type": "Capital city"
+  }
+]

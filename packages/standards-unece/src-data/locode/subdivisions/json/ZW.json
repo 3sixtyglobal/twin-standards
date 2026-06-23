@@ -1,0 +1,52 @@
+[
+  {
+    "code": "BU",
+    "label": "Bulawayo",
+    "type": "Province"
+  },
+  {
+    "code": "HA",
+    "label": "Harare",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Manicaland",
+    "type": "Province"
+  },
+  {
+    "code": "MC",
+    "label": "Mashonaland Central",
+    "type": "Province"
+  },
+  {
+    "code": "ME",
+    "label": "Mashonaland East",
+    "type": "Province"
+  },
+  {
+    "code": "MI",
+    "label": "Midlands",
+    "type": "Province"
+  },
+  {
+    "code": "MN",
+    "label": "Matabeleland North",
+    "type": "Province"
+  },
+  {
+    "code": "MS",
+    "label": "Matabeleland South",
+    "type": "Province"
+  },
+  {
+    "code": "MV",
+    "label": "Masvingo",
+    "type": "Province"
+  },
+  {
+    "code": "MW",
+    "label": "Mashonaland West",
+    "type": "Province"
+  }
+]

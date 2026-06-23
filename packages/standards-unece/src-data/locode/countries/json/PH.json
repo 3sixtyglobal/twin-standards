@@ -1,0 +1,3785 @@
+[
+  {
+    "locationCode": "ABU",
+    "label": "Abulug",
+    "subdivisionCode": "CAG",
+    "function": "1",
+    "lat": 18.433333,
+    "lng": 121.45
+  },
+  {
+    "locationCode": "ADL",
+    "label": "Adlay/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "AGO",
+    "label": "Agoncillo",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "AOO",
+    "label": "Agoo",
+    "subdivisionCode": "LUN",
+    "function": "6",
+    "lat": 16.316667,
+    "lng": 120.366667
+  },
+  {
+    "locationCode": "AHE",
+    "label": "Aheron/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "AJU",
+    "label": "Ajuy",
+    "subdivisionCode": "ILI",
+    "function": "1",
+    "lat": 11.166667,
+    "lng": 123.033333
+  },
+  {
+    "locationCode": "AEL",
+    "label": "Alabel",
+    "subdivisionCode": "SCO",
+    "function": "6",
+    "lat": 65.366667,
+    "lng": 125.266667
+  },
+  {
+    "locationCode": "AAV",
+    "label": "Alah",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Alaminos",
+    "subdivisionCode": "PAN",
+    "function": "3",
+    "lat": 16.15,
+    "lng": 119.966667
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alasang/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Albuera",
+    "subdivisionCode": "LEY",
+    "function": "1",
+    "lat": 10.966667,
+    "lng": 124.633333
+  },
+  {
+    "locationCode": "ALC",
+    "label": "Alcoy",
+    "subdivisionCode": "CEB",
+    "function": "13",
+    "lat": 9.683333,
+    "lng": 123.5
+  },
+  {
+    "locationCode": "ALE",
+    "label": "Aleran/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alitagtag",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.85,
+    "lng": 121
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amadeo",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.166667,
+    "lng": 120.916667
+  },
+  {
+    "locationCode": "AMU",
+    "label": "Amunitan/Aparri",
+    "subdivisionCode": "CAG",
+    "function": "1",
+    "lat": 18.316667,
+    "lng": 122.05
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anakan/Masao",
+    "function": "1"
+  },
+  {
+    "locationCode": "AGT",
+    "label": "Angat",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.916667,
+    "lng": 121.016667
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Angeles",
+    "function": "23"
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Angono",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": 121.133333
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Antipolo",
+    "subdivisionCode": "APA",
+    "function": "1"
+  },
+  {
+    "locationCode": "OTP",
+    "label": "Antipolo",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.616667,
+    "lng": 122.466667
+  },
+  {
+    "locationCode": "EUQ",
+    "label": "Antique Evelio Javier Apt",
+    "subdivisionCode": "ANT",
+    "function": "4",
+    "lat": 10.766667,
+    "lng": 121.933333
+  },
+  {
+    "locationCode": "APA",
+    "label": "Apalit",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.95,
+    "lng": 120.766667
+  },
+  {
+    "locationCode": "APR",
+    "label": "Aparri, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Aras Asan/Bislig",
+    "subdivisionCode": "DAO",
+    "function": "1",
+    "lat": 8.883333,
+    "lng": 126.3
+  },
+  {
+    "locationCode": "ARY",
+    "label": "Arayat",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.15,
+    "lng": 120.766667
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Aringay",
+    "subdivisionCode": "LUN",
+    "function": "3",
+    "lat": 16.383333,
+    "lng": 120.35
+  },
+  {
+    "locationCode": "AST",
+    "label": "Astorga",
+    "subdivisionCode": "DAS",
+    "function": "1",
+    "lat": 6.883333,
+    "lng": 125.45
+  },
+  {
+    "locationCode": "ATI",
+    "label": "Atimonan/Siain",
+    "subdivisionCode": "QUE",
+    "function": "1",
+    "lat": 13.983333,
+    "lng": 121.9
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Babato/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bacnotan",
+    "subdivisionCode": "LUN",
+    "function": "3",
+    "lat": 16.716667,
+    "lng": 120.35
+  },
+  {
+    "locationCode": "BCD",
+    "label": "Bacolod, Negros",
+    "function": "14"
+  },
+  {
+    "locationCode": "BCL",
+    "label": "Bacolor",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15,
+    "lng": 120.65
+  },
+  {
+    "locationCode": "BCO",
+    "label": "Bacon/Legaspi",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bacong",
+    "subdivisionCode": "NER",
+    "function": "1",
+    "lat": 9.233333,
+    "lng": 123.3
+  },
+  {
+    "locationCode": "BOO",
+    "label": "Bacoor",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.45,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "BCU",
+    "label": "Baculin/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGC",
+    "label": "Bagac",
+    "function": "1"
+  },
+  {
+    "locationCode": "BNQ",
+    "label": "Baganga/Mati",
+    "function": "14"
+  },
+  {
+    "locationCode": "BGI",
+    "label": "Bagui Bay/San Fernando",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Baguio",
+    "function": "14"
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bais/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLC",
+    "label": "Balabac, Palawan",
+    "subdivisionCode": "PLW",
+    "function": "13",
+    "lat": 7.966667,
+    "lng": 117.05
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balaboe",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Balagtas",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.816667,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "BLM",
+    "label": "Balamban",
+    "subdivisionCode": "CEB",
+    "function": "3",
+    "lat": 10.5,
+    "lng": 123.716667
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Balanga/Batan",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLY",
+    "label": "Balayan",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": 120.733333
+  },
+  {
+    "locationCode": "BLN",
+    "label": "Balengan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "BQA",
+    "label": "Baler/Siain",
+    "function": "14"
+  },
+  {
+    "locationCode": "BGS",
+    "label": "Balingasag",
+    "function": "13",
+    "lat": 8.75,
+    "lng": 124.783333
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Balintang/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Balogo/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLU",
+    "label": "Balumo/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "BMN",
+    "label": "Bamban",
+    "subdivisionCode": "TAR",
+    "function": "3",
+    "lat": 15.666667,
+    "lng": 120.333333
+  },
+  {
+    "locationCode": "BNW",
+    "label": "Banawan/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGK",
+    "label": "Bangkal",
+    "function": "6",
+    "lat": 14.533333,
+    "lng": 121
+  },
+  {
+    "locationCode": "4BA",
+    "label": "Bangui",
+    "subdivisionCode": "ILN",
+    "function": "3",
+    "lat": 18.533333,
+    "lng": 120.75
+  },
+  {
+    "locationCode": "BTY",
+    "label": "Bantayon/San Jose",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Baras",
+    "subdivisionCode": "CAT",
+    "function": "3",
+    "lat": 13.65,
+    "lng": 124.366667
+  },
+  {
+    "locationCode": "BRB",
+    "label": "Barobo/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Barton/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSO",
+    "label": "Basco",
+    "subdivisionCode": "BTN",
+    "function": "14",
+    "lat": 20.45,
+    "lng": 121.966667
+  },
+  {
+    "locationCode": "BSY",
+    "label": "Basey/Catbalogan",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Basiauang/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Bataan, Mariveles",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTG",
+    "label": "Batangas/Luzon",
+    "subdivisionCode": "BTG",
+    "function": "136",
+    "lat": 13.75,
+    "lng": 121.05
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Batarasa/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Batonbaton",
+    "subdivisionCode": "PLW",
+    "function": "1",
+    "lat": 9.183333,
+    "lng": 118.35
+  },
+  {
+    "locationCode": "BAU",
+    "label": "Bauan/Batangas",
+    "subdivisionCode": "BTG",
+    "function": "1",
+    "lat": 13.8,
+    "lng": 121
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bauang",
+    "subdivisionCode": "LUN",
+    "function": "123",
+    "lat": 16.516667,
+    "lng": 120.316667
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Bay",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.166667,
+    "lng": 121.283333
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Bayabas/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "BYP",
+    "label": "Bayang Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "BYW",
+    "label": "Bayawan/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "BYB",
+    "label": "Baybay/Tacloban",
+    "function": "1"
+  },
+  {
+    "locationCode": "BMB",
+    "label": "Bayombong",
+    "subdivisionCode": "NUV",
+    "function": "3",
+    "lat": 16.466667,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Binan",
+    "subdivisionCode": "CAV",
+    "function": "6",
+    "lat": 14.266667,
+    "lng": 121.583333
+  },
+  {
+    "locationCode": "BIN",
+    "label": "Biñan",
+    "subdivisionCode": "LAG",
+    "labelWithDiacritics": "Binan",
+    "function": "13",
+    "lat": 14.333333,
+    "lng": 121.083333
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Binangonan",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.45,
+    "lng": 121.216667
+  },
+  {
+    "locationCode": "BND",
+    "label": "Binondo",
+    "function": "3",
+    "lat": 14.6,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "BPH",
+    "label": "Bislig, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "BIY",
+    "label": "Biyawa/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Boac, Marinduque",
+    "subdivisionCode": "MAD",
+    "function": "1",
+    "lat": 13.433333,
+    "lng": 121.833333
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogo",
+    "function": "13",
+    "lat": 11.05,
+    "lng": 124
+  },
+  {
+    "locationCode": "BOP",
+    "label": "Bolinao",
+    "subdivisionCode": "PAN",
+    "function": "3",
+    "lat": 16.383333,
+    "lng": 119.883333
+  },
+  {
+    "locationCode": "BLP",
+    "label": "Bolos Point/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Boracay",
+    "subdivisionCode": "ROM",
+    "function": "1",
+    "lat": 11.966667,
+    "lng": 121.916667
+  },
+  {
+    "locationCode": "BGV",
+    "label": "Borongan",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Boston/Davao",
+    "subdivisionCode": "DAO",
+    "function": "1",
+    "lat": 7.866667,
+    "lng": 126.35
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Brookes Point, Palawan",
+    "subdivisionCode": "PLW",
+    "function": "13",
+    "lat": 8.766667,
+    "lng": 117.833333
+  },
+  {
+    "locationCode": "BNY",
+    "label": "Buanoy",
+    "subdivisionCode": "CEB",
+    "function": "6",
+    "lat": 10.45,
+    "lng": 123.683333
+  },
+  {
+    "locationCode": "BGR",
+    "label": "Bucar Grande/Suriagao",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUD",
+    "label": "Budbud/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUG",
+    "label": "Bugo",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Bulacan",
+    "subdivisionCode": "BUL",
+    "function": "6",
+    "lat": 14.783333,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Bulan, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Burdeos, Polillo Isl",
+    "subdivisionCode": "QUE",
+    "function": "13",
+    "lat": 14.833333,
+    "lng": 121.966667
+  },
+  {
+    "locationCode": "PPB",
+    "label": "Busan Bay",
+    "subdivisionCode": "ZAS",
+    "function": "6",
+    "lat": 7.583333,
+    "lng": 122.45
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Bustos",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.95,
+    "lng": 120.916667
+  },
+  {
+    "locationCode": "USU",
+    "label": "Busuanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "BXU",
+    "label": "Butuan Bay/Masao",
+    "function": "14"
+  },
+  {
+    "locationCode": "BTC",
+    "label": "Butuan City",
+    "subdivisionCode": "AGN",
+    "function": "3",
+    "lat": 8.933333,
+    "lng": 125.533333
+  },
+  {
+    "locationCode": "CBT",
+    "label": "Cabanatuan",
+    "subdivisionCode": "NUE",
+    "function": "6",
+    "lat": 15.483333,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Cabugao Bay/Legaspi",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAZ",
+    "label": "Cadiz",
+    "function": "1"
+  },
+  {
+    "locationCode": "CGY",
+    "label": "Cagayan de Oro, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "CDY",
+    "label": "Cagayan de Sulu",
+    "function": "4"
+  },
+  {
+    "locationCode": "CDN",
+    "label": "Cagdianao",
+    "subdivisionCode": "SUN",
+    "function": "1",
+    "lat": 9.916667,
+    "lng": 125.666667
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Cahalo",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.283333,
+    "lng": 120.65
+  },
+  {
+    "locationCode": "CAI",
+    "label": "Cainta",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": 121.116667
+  },
+  {
+    "locationCode": "CAJ",
+    "label": "Cajidiocan, Visayan Isl",
+    "subdivisionCode": "ROM",
+    "function": "13",
+    "lat": 12.366667,
+    "lng": 122.683333
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Calaca",
+    "function": "3"
+  },
+  {
+    "locationCode": "CCG",
+    "label": "Calag-Calag/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "CGT",
+    "label": "Calaguitan/Tacloban",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Calamba",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLM",
+    "label": "Calamba",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.2,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "CLP",
+    "label": "Calapan/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "CLT",
+    "label": "Calatagan",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.833333,
+    "lng": 120.633333
+  },
+  {
+    "locationCode": "CLG",
+    "label": "Calauag",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.95,
+    "lng": 122.283333
+  },
+  {
+    "locationCode": "CYP",
+    "label": "Calbayog Apt, Samar",
+    "function": "4",
+    "lat": 12.083333,
+    "lng": 124.55
+  },
+  {
+    "locationCode": "CBY",
+    "label": "Calbayog, Samar",
+    "function": "13",
+    "lat": 12.066667,
+    "lng": 124.6
+  },
+  {
+    "locationCode": "CDB",
+    "label": "Caldera Bay/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAC",
+    "label": "Caloocan City",
+    "function": "6",
+    "lat": 14.65,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "CWY",
+    "label": "Calowayan/Catabalogan",
+    "function": "1"
+  },
+  {
+    "locationCode": "CUG",
+    "label": "Calubian, Leyte",
+    "subdivisionCode": "LEY",
+    "function": "13",
+    "lat": 11.433333,
+    "lng": 124.416667
+  },
+  {
+    "locationCode": "CGP",
+    "label": "Calug Point/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "UPT",
+    "label": "Calumpit",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.916667,
+    "lng": 120.766667
+  },
+  {
+    "locationCode": "CML",
+    "label": "Camalagawan/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Camarines Norte/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "CGM",
+    "label": "Camiguin Island/Aparri",
+    "function": "14"
+  },
+  {
+    "locationCode": "CNY",
+    "label": "Canaybon/Catbalogan",
+    "function": "1"
+  },
+  {
+    "locationCode": "CND",
+    "label": "Candaba",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.083333,
+    "lng": 120.816667
+  },
+  {
+    "locationCode": "CDA",
+    "label": "Candelaria",
+    "subdivisionCode": "QUE",
+    "function": "6",
+    "lat": 13.916667,
+    "lng": 121.416667
+  },
+  {
+    "locationCode": "CNN",
+    "label": "Candon",
+    "subdivisionCode": "ILS",
+    "function": "3",
+    "lat": 17.183333,
+    "lng": 120.45
+  },
+  {
+    "locationCode": "CLB",
+    "label": "Canlubang",
+    "subdivisionCode": "LAG",
+    "function": "23",
+    "lat": 14.216667,
+    "lng": 121.1
+  },
+  {
+    "locationCode": "CNT",
+    "label": "Cantilan/Surigao",
+    "function": "1"
+  },
+  {
+    "locationCode": "CPL",
+    "label": "Capalonga/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "CPS",
+    "label": "Capas",
+    "subdivisionCode": "TAR",
+    "function": "3",
+    "lat": 15.333333,
+    "lng": 120.883333
+  },
+  {
+    "locationCode": "CPC",
+    "label": "Capoocan",
+    "subdivisionCode": "LEY",
+    "function": "1",
+    "lat": 11.3,
+    "lng": 124.65
+  },
+  {
+    "locationCode": "CRG",
+    "label": "Caraga/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "CDO",
+    "label": "Cardona",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.483333,
+    "lng": 121.216667
+  },
+  {
+    "locationCode": "CRA",
+    "label": "Carigara",
+    "subdivisionCode": "LEY",
+    "function": "1",
+    "lat": 11.3,
+    "lng": 124.683333
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carmona",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.3,
+    "lng": 121.05
+  },
+  {
+    "locationCode": "CGG",
+    "label": "Casiguran/Siain",
+    "function": "14"
+  },
+  {
+    "locationCode": "CST",
+    "label": "Castañas",
+    "labelWithDiacritics": "Castanas",
+    "function": "13",
+    "lat": 13.883333,
+    "lng": 121.55
+  },
+  {
+    "locationCode": "CSB",
+    "label": "Casul Bay/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "CTB",
+    "label": "Catamon Bay/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "CUN",
+    "label": "Catanauan",
+    "function": "1"
+  },
+  {
+    "locationCode": "CRM",
+    "label": "Catarman",
+    "function": "4"
+  },
+  {
+    "locationCode": "CTS",
+    "label": "Catbalogan, Samar",
+    "function": "1"
+  },
+  {
+    "locationCode": "MPH",
+    "label": "Caticlan",
+    "function": "4"
+  },
+  {
+    "locationCode": "CYZ",
+    "label": "Cauayan",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAV",
+    "label": "Cavinti",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.233333,
+    "lng": 121.5
+  },
+  {
+    "locationCode": "CVE",
+    "label": "Cavite, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "CEB",
+    "label": "Cebu",
+    "function": "14"
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Clark Field (Angeles)",
+    "subdivisionCode": "PAM",
+    "function": "23",
+    "lat": 15.15,
+    "lng": 120.583333
+  },
+  {
+    "locationCode": "CFA",
+    "label": "Clark Field Apt Luzon Island",
+    "subdivisionCode": "PAM",
+    "function": "4",
+    "lat": 15.183333,
+    "lng": 120.55
+  },
+  {
+    "locationCode": "CLV",
+    "label": "Claveria/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "XCN",
+    "label": "Coron",
+    "function": "4"
+  },
+  {
+    "locationCode": "CGI",
+    "label": "Corregidor Island",
+    "subdivisionCode": "BAN",
+    "function": "1",
+    "lat": 14.383333,
+    "lng": 120.583333
+  },
+  {
+    "locationCode": "CBO",
+    "label": "Cotabato, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "CUE",
+    "label": "Cuenca",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "CSI",
+    "label": "Culasi",
+    "function": "13",
+    "lat": 11.6,
+    "lng": 122.7
+  },
+  {
+    "locationCode": "CUJ",
+    "label": "Culion",
+    "function": "1"
+  },
+  {
+    "locationCode": "CMO",
+    "label": "Currimao",
+    "function": "1"
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curuan/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "CYU",
+    "label": "Cuyo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DTE",
+    "label": "Daet",
+    "function": "4"
+  },
+  {
+    "locationCode": "DCB",
+    "label": "Dahikan Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "DNO",
+    "label": "Danao",
+    "function": "13",
+    "lat": 10.533333,
+    "lng": 124.033333
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Daraga",
+    "subdivisionCode": "ALB",
+    "function": "3",
+    "lat": 13.15,
+    "lng": 123.683333
+  },
+  {
+    "locationCode": "DAS",
+    "label": "Dasmarinas",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.316667,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "DVO",
+    "label": "Davao, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "DPT",
+    "label": "Diapitan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRB",
+    "label": "Diaraboan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "DCT",
+    "label": "DICT / SVT",
+    "subdivisionCode": "DAV",
+    "function": "6",
+    "lat": 7.283333,
+    "lng": 125.7
+  },
+  {
+    "locationCode": "DIC",
+    "label": "Diculum/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "DID",
+    "label": "Didadongan/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "DIZ",
+    "label": "Diezmo",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.216667,
+    "lng": 121.066667
+  },
+  {
+    "locationCode": "DSG",
+    "label": "Dilasag",
+    "function": "4"
+  },
+  {
+    "locationCode": "DDW",
+    "label": "Dinadiawan/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "DNG",
+    "label": "Dinagat Island/Surigao",
+    "function": "1"
+  },
+  {
+    "locationCode": "DNL",
+    "label": "Dinalongan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "DIN",
+    "label": "Dinalupihan",
+    "subdivisionCode": "BAN",
+    "function": "3",
+    "lat": 14.866667,
+    "lng": 120.45
+  },
+  {
+    "locationCode": "DPG",
+    "label": "Dinapigue",
+    "subdivisionCode": "ISA",
+    "function": "3",
+    "lat": 16.666667,
+    "lng": 122.35
+  },
+  {
+    "locationCode": "DGL",
+    "label": "Dingalan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "DIO",
+    "label": "Diotorin/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "DPL",
+    "label": "Dipolog/Ozamis",
+    "function": "14"
+  },
+  {
+    "locationCode": "DIR",
+    "label": "Dirgalan",
+    "function": "1"
+  },
+  {
+    "locationCode": "DIV",
+    "label": "Divilacan/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "DUL",
+    "label": "Dulag",
+    "subdivisionCode": "LEY",
+    "function": "1"
+  },
+  {
+    "locationCode": "DGT",
+    "label": "Dumaguete",
+    "function": "14"
+  },
+  {
+    "locationCode": "ENI",
+    "label": "El Nido/Puerto Princesa",
+    "function": "134",
+    "lat": 11.183333,
+    "lng": 119.4
+  },
+  {
+    "locationCode": "ERM",
+    "label": "Ermita",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.583333,
+    "lng": 120.983333
+  },
+  {
+    "locationCode": "FAM",
+    "label": "Famy",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.433333,
+    "lng": 121.433333
+  },
+  {
+    "locationCode": "FLB",
+    "label": "Floridablanca",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.966667,
+    "lng": 120.516667
+  },
+  {
+    "locationCode": "GAC",
+    "label": "Gachitorena/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAP",
+    "label": "Gapan",
+    "subdivisionCode": "NUE",
+    "function": "3",
+    "lat": 15.3,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "GHE",
+    "label": "Garcia Hernandez",
+    "subdivisionCode": "BOH",
+    "function": "1",
+    "lat": 9.616667,
+    "lng": 124.3
+  },
+  {
+    "locationCode": "GAS",
+    "label": "Gasan",
+    "function": "1"
+  },
+  {
+    "locationCode": "GNI",
+    "label": "General Island/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "GES",
+    "label": "General Santos",
+    "function": "134",
+    "lat": 6.116667,
+    "lng": 125.15
+  },
+  {
+    "locationCode": "GTR",
+    "label": "General Trias",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.383333,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "GGG",
+    "label": "Gigaquit, Mindanao",
+    "subdivisionCode": "SUN",
+    "function": "13",
+    "lat": 9.583333,
+    "lng": 125.683333
+  },
+  {
+    "locationCode": "GGM",
+    "label": "Gigmoto, Catanduanes",
+    "subdivisionCode": "CAT",
+    "function": "13",
+    "lat": 13.766667,
+    "lng": 124.383333
+  },
+  {
+    "locationCode": "GIN",
+    "label": "Gingoog/Masao",
+    "function": "1"
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guagua",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.966667,
+    "lng": 120.633333
+  },
+  {
+    "locationCode": "GHG",
+    "label": "Guihulngan",
+    "subdivisionCode": "NER",
+    "function": "1",
+    "lat": 10.116667,
+    "lng": 123.283333
+  },
+  {
+    "locationCode": "GMS",
+    "label": "Guimaras/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "GUI",
+    "label": "Guinabasan",
+    "function": "3"
+  },
+  {
+    "locationCode": "GUN",
+    "label": "Guiuan",
+    "subdivisionCode": "EAS",
+    "function": "1",
+    "lat": 11.033333,
+    "lng": 125.716667
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gumaca",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": 122.1
+  },
+  {
+    "locationCode": "HYB",
+    "label": "Hagnava Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "AQE",
+    "label": "Hamtic",
+    "subdivisionCode": "ANT",
+    "function": "13",
+    "lat": 10.7,
+    "lng": 121.966667
+  },
+  {
+    "locationCode": "HIJ",
+    "label": "Hijo Wharf/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hilongos",
+    "subdivisionCode": "LEY",
+    "function": "1",
+    "lat": 10.366667,
+    "lng": 124.75
+  },
+  {
+    "locationCode": "HIM",
+    "label": "Himamaylan, Negros",
+    "subdivisionCode": "NEC",
+    "function": "13",
+    "lat": 10.083333,
+    "lng": 122.866667
+  },
+  {
+    "locationCode": "HNT",
+    "label": "Hinatuan/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "HNG",
+    "label": "Hinigaran/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "HNB",
+    "label": "Hinobaan/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "HMH",
+    "label": "Homonhon",
+    "subdivisionCode": "EAS",
+    "function": "13",
+    "lat": 10.75,
+    "lng": 125.7
+  },
+  {
+    "locationCode": "HON",
+    "label": "Hondagua/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Hook Bay/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "IBA",
+    "label": "Iba",
+    "subdivisionCode": "ZMB",
+    "function": "3",
+    "lat": 15.316667,
+    "lng": 119.966667
+  },
+  {
+    "locationCode": "IBN",
+    "label": "Ibaan",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.816667,
+    "lng": 121.133333
+  },
+  {
+    "locationCode": "IGN",
+    "label": "Iligan, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "ILO",
+    "label": "Iloilo, Panay",
+    "function": "14"
+  },
+  {
+    "locationCode": "IMU",
+    "label": "Imus",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "INP",
+    "label": "Inampulugan Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "IND",
+    "label": "Indang",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.183333,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "INT",
+    "label": "Intramuros",
+    "function": "3",
+    "lat": 14.6,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "IPE",
+    "label": "Ipil/Zamboanga",
+    "function": "14"
+  },
+  {
+    "locationCode": "IRI",
+    "label": "Iriga",
+    "subdivisionCode": "CAS",
+    "function": "3",
+    "lat": 13.416667,
+    "lng": 123.416667
+  },
+  {
+    "locationCode": "ISL",
+    "label": "Isabel",
+    "function": "1"
+  },
+  {
+    "locationCode": "BCT",
+    "label": "Isabela, Basilan",
+    "subdivisionCode": "BAS",
+    "function": "13",
+    "lat": 6.7,
+    "lng": 121.966667
+  },
+  {
+    "locationCode": "JAG",
+    "label": "Jagna",
+    "function": "1"
+  },
+  {
+    "locationCode": "JAS",
+    "label": "Jasaan",
+    "function": "13",
+    "lat": 8.65,
+    "lng": 124.75
+  },
+  {
+    "locationCode": "JNZ",
+    "label": "Jimenez/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "JOL",
+    "label": "Jolo",
+    "function": "14"
+  },
+  {
+    "locationCode": "JPM",
+    "label": "Jose Panganiban, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kabasalan/Zamboanga",
+    "subdivisionCode": "ZAS",
+    "function": "1",
+    "lat": 7.783333,
+    "lng": 122.75
+  },
+  {
+    "locationCode": "KLM",
+    "label": "Kalamansig",
+    "subdivisionCode": "SUK",
+    "function": "13",
+    "lat": 6.55,
+    "lng": 124.05
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalayaan",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.35,
+    "lng": 121.566667
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Kalibo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karomatan/Iligan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katipunan/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "KWT",
+    "label": "Kawit",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.433333,
+    "lng": 120.9
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kiamba/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilbay Point/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kinogitan/Iligan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIP",
+    "label": "Kipit/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIW",
+    "label": "Kiwalan/Iligan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolambugan/Iligan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumalarang/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAC",
+    "label": "La Carlota",
+    "subdivisionCode": "NEC",
+    "function": "1",
+    "lat": 10.416667,
+    "lng": 122.916667
+  },
+  {
+    "locationCode": "LPZ",
+    "label": "La Paz/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "LRP",
+    "label": "La Rap/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "LTB",
+    "label": "La Trinidad",
+    "subdivisionCode": "BEN",
+    "function": "3",
+    "lat": 16.45,
+    "lng": 120.583333
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Labason/Zamboanga",
+    "subdivisionCode": "ZAN",
+    "function": "1",
+    "lat": 8.066667,
+    "lng": 122.516667
+  },
+  {
+    "locationCode": "LAY",
+    "label": "Lagondy River",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAG",
+    "label": "Lagonoy/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "LGU",
+    "label": "Laguna",
+    "function": "1",
+    "lat": 10.3,
+    "lng": 123.883333
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lamit Bay/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Lanuza/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAO",
+    "label": "Laoag, Luzon",
+    "subdivisionCode": "ILN",
+    "function": "14",
+    "lat": 18.183333,
+    "lng": 120.583333
+  },
+  {
+    "locationCode": "LPU",
+    "label": "Lapu-Lapu, Cebu",
+    "function": "13",
+    "lat": 10.316667,
+    "lng": 123.95
+  },
+  {
+    "locationCode": "LNA",
+    "label": "Larena",
+    "subdivisionCode": "SIG",
+    "function": "1",
+    "lat": 9.25,
+    "lng": 123.583333
+  },
+  {
+    "locationCode": "APN",
+    "label": "Las Pinas",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.45,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "PNS",
+    "label": "Las Pinas",
+    "subdivisionCode": "NUE",
+    "function": "3",
+    "lat": 15.366667,
+    "lng": 121
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Laurel",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 14.05,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "LZB",
+    "label": "Lazi",
+    "subdivisionCode": "SIG",
+    "function": "13",
+    "lat": 9.116667,
+    "lng": 123.633333
+  },
+  {
+    "locationCode": "LBK",
+    "label": "Lebak/Parang",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIC",
+    "label": "Legaspi",
+    "subdivisionCode": "ALB",
+    "function": "3",
+    "lat": 13.133333,
+    "lng": 123.733333
+  },
+  {
+    "locationCode": "LGP",
+    "label": "Legaspi Apt, Luzon",
+    "function": "134",
+    "lat": 13.133333,
+    "lng": 123.75
+  },
+  {
+    "locationCode": "LEG",
+    "label": "Legazpi",
+    "subdivisionCode": "PAN",
+    "function": "3",
+    "lat": 16.033333,
+    "lng": 120.816667
+  },
+  {
+    "locationCode": "LEM",
+    "label": "Lemery",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.866667,
+    "lng": 120.9
+  },
+  {
+    "locationCode": "LEY",
+    "label": "Leyte",
+    "subdivisionCode": "LEY",
+    "function": "1",
+    "lat": 11.366667,
+    "lng": 124.483333
+  },
+  {
+    "locationCode": "LBA",
+    "label": "Lian",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 14.033333,
+    "lng": 120.65
+  },
+  {
+    "locationCode": "LIA",
+    "label": "Lianga/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "LBS",
+    "label": "Libis",
+    "function": "6",
+    "lat": 14.6,
+    "lng": 121.066667
+  },
+  {
+    "locationCode": "LIB",
+    "label": "Libjo/Surigao",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIG",
+    "label": "Ligao",
+    "subdivisionCode": "ALB",
+    "function": "3",
+    "lat": 13.233333,
+    "lng": 123.516667
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limay/Bataan",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lingayen, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "LGG",
+    "label": "Lingig/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "LNK",
+    "label": "Linik/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "LPA",
+    "label": "Lipa",
+    "function": "1"
+  },
+  {
+    "locationCode": "LIP",
+    "label": "Lipa",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": 121.166667
+  },
+  {
+    "locationCode": "LBO",
+    "label": "Lobo",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.633333,
+    "lng": 121.2
+  },
+  {
+    "locationCode": "LOM",
+    "label": "Lomuyon/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "LOP",
+    "label": "Long Point/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "LOO",
+    "label": "Looc Bay/San Jose",
+    "function": "1"
+  },
+  {
+    "locationCode": "LPO",
+    "label": "Lopez",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": 122.25
+  },
+  {
+    "locationCode": "LOB",
+    "label": "Los Banos",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.166667,
+    "lng": 121.216667
+  },
+  {
+    "locationCode": "LBX",
+    "label": "Lubang",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUB",
+    "label": "Lubao",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.933333,
+    "lng": 120.6
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Lucanin",
+    "function": "1",
+    "lat": 14.466667,
+    "lng": 120.616667
+  },
+  {
+    "locationCode": "LUE",
+    "label": "Lucena",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": 121.616667
+  },
+  {
+    "locationCode": "LUG",
+    "label": "Lugait",
+    "function": "13",
+    "lat": 8.333333,
+    "lng": 124.25
+  },
+  {
+    "locationCode": "LUM",
+    "label": "Lumasal/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Luna",
+    "subdivisionCode": "LUN",
+    "function": "3",
+    "lat": 16.85,
+    "lng": 120.366667
+  },
+  {
+    "locationCode": "LNO",
+    "label": "Lunao",
+    "function": "13",
+    "lat": 8.866667,
+    "lng": 125.05
+  },
+  {
+    "locationCode": "NCP",
+    "label": "Luzon Island",
+    "function": "4",
+    "lat": 14.8,
+    "lng": 120.283333
+  },
+  {
+    "locationCode": "LWA",
+    "label": "Lwbak",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Maasin",
+    "function": "3"
+  },
+  {
+    "locationCode": "MGD",
+    "label": "Mabaguid",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBC",
+    "label": "Mabalacat",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.216667,
+    "lng": 120.566667
+  },
+  {
+    "locationCode": "MAB",
+    "label": "Mabini, Mindanao",
+    "subdivisionCode": "MSR",
+    "function": "13",
+    "lat": 8.95,
+    "lng": 124.783333
+  },
+  {
+    "locationCode": "MBI",
+    "label": "Mabitac",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": 121.416667
+  },
+  {
+    "locationCode": "MCB",
+    "label": "Macabebe",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.883333,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "MCO",
+    "label": "Maco/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MCJ",
+    "label": "Macojalan/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "NOP",
+    "label": "Mactan Island Apt",
+    "function": "134",
+    "lat": 10.3,
+    "lng": 124
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madaum/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Magalang",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.2,
+    "lng": 120.65
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Magalona/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLS",
+    "label": "Magellanes/Masao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MGB",
+    "label": "Magueda Bay/Catbalogan",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Maitum/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Makar/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Makati",
+    "subdivisionCode": "NUV",
+    "function": "13",
+    "lat": 16.416667,
+    "lng": 121.1
+  },
+  {
+    "locationCode": "MKC",
+    "label": "Makati City",
+    "subdivisionCode": "00",
+    "function": "1",
+    "lat": 14.55,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "MLP",
+    "label": "Malabang",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBL",
+    "label": "Malabon",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.666667,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "MLL",
+    "label": "Malalag/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malampaya",
+    "function": "7",
+    "lat": 11.533333,
+    "lng": 119.1
+  },
+  {
+    "locationCode": "MSB",
+    "label": "Malasugat Bay/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTP",
+    "label": "Malatapay",
+    "subdivisionCode": "NER",
+    "function": "1",
+    "lat": 9.55,
+    "lng": 123.15
+  },
+  {
+    "locationCode": "MLT",
+    "label": "Malate",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": 120.983333
+  },
+  {
+    "locationCode": "MLO",
+    "label": "Malolos",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.833333,
+    "lng": 120.8
+  },
+  {
+    "locationCode": "MLB",
+    "label": "Maluso, Basilan",
+    "subdivisionCode": "BAS",
+    "function": "13",
+    "lat": 6.533333,
+    "lng": 121.866667
+  },
+  {
+    "locationCode": "MLV",
+    "label": "Malvar",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 14.033333,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "MGI",
+    "label": "Mambagid",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBO",
+    "label": "Mamburao",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSY",
+    "label": "Manansalay/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNY",
+    "label": "Manay/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "MDL",
+    "label": "Mandaluyong",
+    "function": "3",
+    "lat": 14.583333,
+    "lng": 121.05
+  },
+  {
+    "locationCode": "MCY",
+    "label": "Mandaue City",
+    "subdivisionCode": "CEB",
+    "function": "3",
+    "lat": 10.316667,
+    "lng": 123.916667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mandaue, Cebu",
+    "subdivisionCode": "CEB",
+    "function": "23",
+    "lat": 10.333333,
+    "lng": 123.933333
+  },
+  {
+    "locationCode": "MGG",
+    "label": "Mangogoy/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Manicani",
+    "subdivisionCode": "EAS",
+    "function": "1",
+    "lat": 11,
+    "lng": 125.65
+  },
+  {
+    "locationCode": "MNL",
+    "label": "Manila",
+    "function": "145"
+  },
+  {
+    "locationCode": "MNN",
+    "label": "Manila North Harbour",
+    "function": "13"
+  },
+  {
+    "locationCode": "MNS",
+    "label": "Manila South Harbour",
+    "function": "13"
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Maragondon",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.266667,
+    "lng": 120.733333
+  },
+  {
+    "locationCode": "XMA",
+    "label": "Maramag",
+    "function": "4"
+  },
+  {
+    "locationCode": "MHT",
+    "label": "Marihatag, Mindanao",
+    "subdivisionCode": "SUR",
+    "function": "13",
+    "lat": 8.783333,
+    "lng": 126.283333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marikina",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": 121.083333
+  },
+  {
+    "locationCode": "MRQ",
+    "label": "Marinduque",
+    "function": "4"
+  },
+  {
+    "locationCode": "MVS",
+    "label": "Mariveles, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Masantol",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.883333,
+    "lng": 120.7
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBT",
+    "label": "Masbate",
+    "function": "14"
+  },
+  {
+    "locationCode": "MSC",
+    "label": "Masinloc/Sual",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Mataasnakahoy",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.95,
+    "lng": 121.1
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Matho Cortez/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "MXI",
+    "label": "Mati, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Matina Aplaya/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTN",
+    "label": "Matnog",
+    "subdivisionCode": "SOR",
+    "function": "3",
+    "lat": 12.583333,
+    "lng": 124.083333
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Mauban",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 14.183333,
+    "lng": 121.716667
+  },
+  {
+    "locationCode": "MDN",
+    "label": "Medina",
+    "function": "13",
+    "lat": 8.916667,
+    "lng": 125.016667
+  },
+  {
+    "locationCode": "MNU",
+    "label": "Mendez-Nunez",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.116667,
+    "lng": 120.9
+  },
+  {
+    "locationCode": "MCD",
+    "label": "Mercedes/Jose Panganiban",
+    "function": "1"
+  },
+  {
+    "locationCode": "MEX",
+    "label": "Mexico",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.05,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "MEY",
+    "label": "Meycauayan",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.733333,
+    "lng": 120.95
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Milbuk/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Minalin",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.95,
+    "lng": 120.683333
+  },
+  {
+    "locationCode": "MIO",
+    "label": "Misamis Occ./Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "MIC",
+    "label": "Misamis Or./Cagayan de Oro",
+    "function": "1"
+  },
+  {
+    "locationCode": "MSS",
+    "label": "Mission/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monserrat/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morong/Mariveles",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Mulanay/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Muntinlupa City",
+    "subdivisionCode": "00",
+    "function": "136",
+    "lat": 14.616667,
+    "lng": 121.05
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Nabulao Bay/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Naga, Luzon",
+    "function": "234",
+    "lat": 13.616667,
+    "lng": 123.166667
+  },
+  {
+    "locationCode": "WNP",
+    "label": "Naga/Zamboanga",
+    "function": "14"
+  },
+  {
+    "locationCode": "NAC",
+    "label": "Nagcarlan",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.133333,
+    "lng": 121.4
+  },
+  {
+    "locationCode": "NGH",
+    "label": "Nagh",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAI",
+    "label": "Naic",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.316667,
+    "lng": 120.766667
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Nalungga/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "NPT",
+    "label": "Napot Point",
+    "function": "0"
+  },
+  {
+    "locationCode": "NAP",
+    "label": "Napsan/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Naris Point/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Nasipit/Masao",
+    "function": "1"
+  },
+  {
+    "locationCode": "NUG",
+    "label": "Nasugbu, Luzon",
+    "subdivisionCode": "BTG",
+    "function": "1",
+    "lat": 14.066667,
+    "lng": 120.633333
+  },
+  {
+    "locationCode": "NTO",
+    "label": "Nato",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Navotas",
+    "function": "6",
+    "lat": 14.65,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "NID",
+    "label": "Nido Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "NON",
+    "label": "Nonoc/Surigao Del Norte",
+    "function": "1"
+  },
+  {
+    "locationCode": "NOR",
+    "label": "Norzagaray",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 14.9,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "NHV",
+    "label": "Novaliches",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 14.716667,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Noveleta",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "ODI",
+    "label": "Odiongan",
+    "subdivisionCode": "ROM",
+    "function": "1",
+    "lat": 12.4,
+    "lng": 121.983333
+  },
+  {
+    "locationCode": "OLO",
+    "label": "Olongapo",
+    "function": "1"
+  },
+  {
+    "locationCode": "OPO",
+    "label": "Opol",
+    "function": "13",
+    "lat": 8.516667,
+    "lng": 124.566667
+  },
+  {
+    "locationCode": "ORI",
+    "label": "Orani",
+    "subdivisionCode": "BAN",
+    "function": "3",
+    "lat": 14.8,
+    "lng": 120.533333
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Oras/Catbalogan",
+    "function": "1"
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Orayuita",
+    "function": "1"
+  },
+  {
+    "locationCode": "ORC",
+    "label": "Ormoc/Tacloban",
+    "function": "14"
+  },
+  {
+    "locationCode": "ORL",
+    "label": "Oroquieta",
+    "subdivisionCode": "MSC",
+    "function": "1",
+    "lat": 8.483333,
+    "lng": 123.8
+  },
+  {
+    "locationCode": "OTE",
+    "label": "Oteiza/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "OZC",
+    "label": "Ozamis, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "PDR",
+    "label": "Pacio de Rozas/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "PGC",
+    "label": "Padre Garcia",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.866667,
+    "lng": 121.2
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Paete",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.35,
+    "lng": 121.483333
+  },
+  {
+    "locationCode": "PAG",
+    "label": "Pagadian/Zamboanga",
+    "function": "14"
+  },
+  {
+    "locationCode": "PGB",
+    "label": "Pagbilao",
+    "subdivisionCode": "QUE",
+    "function": "13",
+    "lat": 13.966667,
+    "lng": 121.683333
+  },
+  {
+    "locationCode": "PGS",
+    "label": "Pagsanjan",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.266667,
+    "lng": 121.45
+  },
+  {
+    "locationCode": "PPP",
+    "label": "Pagudpud, Luzon",
+    "subdivisionCode": "LUN",
+    "function": "13",
+    "lat": 16.616667,
+    "lng": 120.316667
+  },
+  {
+    "locationCode": "PLB",
+    "label": "Palamit Bay/San Jose",
+    "function": "1"
+  },
+  {
+    "locationCode": "PLP",
+    "label": "Palapag/San Jose",
+    "function": "1"
+  },
+  {
+    "locationCode": "PLW",
+    "label": "Palawan/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPN",
+    "label": "Palompon",
+    "function": "3"
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Pamintayan/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Pampanga",
+    "function": "13"
+  },
+  {
+    "locationCode": "PPL",
+    "label": "Pamplona/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Panabo",
+    "subdivisionCode": "DAV",
+    "function": "13",
+    "lat": 7.3,
+    "lng": 125.683333
+  },
+  {
+    "locationCode": "PNB",
+    "label": "Panabutan/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "PCN",
+    "label": "Panacan/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "PCA",
+    "label": "Panacosa/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "PGT",
+    "label": "Pangutaran/Jolo",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNN",
+    "label": "Paninirongan/Sanjose",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPA",
+    "label": "Parañaque",
+    "labelWithDiacritics": "Paranaque",
+    "function": "6",
+    "lat": 14.516667,
+    "lng": 120.983333
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Parang",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSL",
+    "label": "Pasaleng, Luzon",
+    "subdivisionCode": "ILN",
+    "function": "13",
+    "lat": 18.55,
+    "lng": 120.916667
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Pasay City",
+    "function": "3",
+    "lat": 14.55,
+    "lng": 121
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasay, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSG",
+    "label": "Pasig/Manila",
+    "function": "3",
+    "lat": 14.6,
+    "lng": 121.066667
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Pateros",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": 121.066667
+  },
+  {
+    "locationCode": "PIS",
+    "label": "Philippines",
+    "function": "1",
+    "lat": 14.583333,
+    "lng": 121
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Pililla",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": 121.3
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Pinamalayan/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Plaridel/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "PDC",
+    "label": "Polanco, Mindanao",
+    "subdivisionCode": "ZAN",
+    "function": "13",
+    "lat": 8.516667,
+    "lng": 123.35
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polangui",
+    "subdivisionCode": "ALB",
+    "function": "3",
+    "lat": 13.283333,
+    "lng": 123.483333
+  },
+  {
+    "locationCode": "PLL",
+    "label": "Polillo, Polillo Isl",
+    "subdivisionCode": "QUE",
+    "function": "13",
+    "lat": 14.7,
+    "lng": 121.933333
+  },
+  {
+    "locationCode": "PLC",
+    "label": "Polloc",
+    "function": "13"
+  },
+  {
+    "locationCode": "POR",
+    "label": "Porac",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 15.066667,
+    "lng": 120.533333
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Poro/San Fernando",
+    "function": "1"
+  },
+  {
+    "locationCode": "PBA",
+    "label": "Port Barton/Palawan",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHD",
+    "label": "Port Holland",
+    "function": "1"
+  },
+  {
+    "locationCode": "IRN",
+    "label": "Port Irene",
+    "subdivisionCode": "CAG",
+    "function": "1",
+    "lat": 18.366667,
+    "lng": 122.1
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Potrero",
+    "subdivisionCode": "PAM",
+    "function": "6",
+    "lat": 15.033333,
+    "lng": 120.6
+  },
+  {
+    "locationCode": "PGA",
+    "label": "Puerto Galera",
+    "subdivisionCode": "MDR",
+    "function": "1",
+    "lat": 13.5,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "PPS",
+    "label": "Puerto Princesa, Palawan",
+    "function": "14"
+  },
+  {
+    "locationCode": "PSM",
+    "label": "Puerto Santa Maria",
+    "function": "0"
+  },
+  {
+    "locationCode": "PUG",
+    "label": "Pugad/Bislig",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUL",
+    "label": "Pulupandan",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Puntalinao/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Punti/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "QUE",
+    "label": "Queson/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "QZT",
+    "label": "Quezon City",
+    "function": "6",
+    "lat": 14.633333,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "QUA",
+    "label": "Quiapo",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.6,
+    "lng": 120.983333
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Quiddiao/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "QBI",
+    "label": "Quinabigan",
+    "function": "1"
+  },
+  {
+    "locationCode": "QBL",
+    "label": "Quinablagan/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "QPT",
+    "label": "Quipit Bay/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "REA",
+    "label": "Real/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "RTB",
+    "label": "Rio Tuba",
+    "subdivisionCode": "PLW",
+    "function": "3",
+    "lat": 8.516667,
+    "lng": 117.433333
+  },
+  {
+    "locationCode": "RIZ",
+    "label": "Rizal, Luzon",
+    "function": "3"
+  },
+  {
+    "locationCode": "ROD",
+    "label": "Rodriguez",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.716667,
+    "lng": 121.116667
+  },
+  {
+    "locationCode": "RLN",
+    "label": "Romblon",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROM",
+    "label": "Romblon",
+    "subdivisionCode": "ROM",
+    "function": "1",
+    "lat": 12.566667,
+    "lng": 122.266667
+  },
+  {
+    "locationCode": "RSO",
+    "label": "Rosario",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 16.083333,
+    "lng": 120.566667
+  },
+  {
+    "locationCode": "RXS",
+    "label": "Roxas/Puerto Princesa",
+    "function": "14"
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Sabang",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBB",
+    "label": "Sabbot/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Sablayan/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sagay/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Salomague",
+    "subdivisionCode": "ILS",
+    "function": "1",
+    "lat": 17.783333,
+    "lng": 120.416667
+  },
+  {
+    "locationCode": "SML",
+    "label": "Sampaloc",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": 121
+  },
+  {
+    "locationCode": "SAE",
+    "label": "San Antonio Este",
+    "subdivisionCode": "NUE",
+    "function": "6"
+  },
+  {
+    "locationCode": "SC2",
+    "label": "San Carlos",
+    "subdivisionCode": "ILN",
+    "function": "3",
+    "lat": 17.883333,
+    "lng": 120.5
+  },
+  {
+    "locationCode": "SCA",
+    "label": "San Carlos/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "SFE",
+    "label": "San Fernando, Luzon",
+    "function": "14"
+  },
+  {
+    "locationCode": "SIO",
+    "label": "San Ignacio/Mati",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAI",
+    "label": "San Ildefonso",
+    "subdivisionCode": "BUL",
+    "function": "3",
+    "lat": 15.066667,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "SIS",
+    "label": "San Isidro/Sanjose",
+    "function": "1"
+  },
+  {
+    "locationCode": "SJ2",
+    "label": "San Jose",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.866667,
+    "lng": 121.1
+  },
+  {
+    "locationCode": "SJI",
+    "label": "San Jose Apt, Mindoro",
+    "subdivisionCode": "ZAN",
+    "function": "134",
+    "lat": 12.35,
+    "lng": 121.083333
+  },
+  {
+    "locationCode": "NJU",
+    "label": "San Juan",
+    "function": "6",
+    "lat": 14.633333,
+    "lng": 121.033333
+  },
+  {
+    "locationCode": "SMT",
+    "label": "San Mateo",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 14.166667,
+    "lng": 121.4
+  },
+  {
+    "locationCode": "SPB",
+    "label": "San Pablo",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.066667,
+    "lng": 121.316667
+  },
+  {
+    "locationCode": "SPO",
+    "label": "San Pedro",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "SPQ",
+    "label": "San Pio Quinto/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSI",
+    "label": "San Simon",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.983333,
+    "lng": 120.766667
+  },
+  {
+    "locationCode": "STE",
+    "label": "San Teodoro/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SGS",
+    "label": "Sanga Sanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "SNG",
+    "label": "Sangi/Cebu",
+    "function": "1"
+  },
+  {
+    "locationCode": "NSP",
+    "label": "Sangley Point",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Santa Ana/Aparri",
+    "function": "1"
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Santa Catalina/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "SCR",
+    "label": "Santa Cruz/Sual",
+    "function": "1"
+  },
+  {
+    "locationCode": "STF",
+    "label": "Santa Fe",
+    "subdivisionCode": "NUV",
+    "function": "3",
+    "lat": 16.15,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Santa Lucia/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Santa Maria/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "STM",
+    "label": "Santa Mesa",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.6,
+    "lng": 121
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Santa Nino",
+    "function": "1"
+  },
+  {
+    "locationCode": "STR",
+    "label": "Santa Rosa",
+    "subdivisionCode": "RIZ",
+    "function": "6",
+    "lat": 14.566667,
+    "lng": 121.116667
+  },
+  {
+    "locationCode": "STA",
+    "label": "Santa Teresita",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.883333,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "SNO",
+    "label": "Santiago",
+    "subdivisionCode": "ISA",
+    "function": "3",
+    "lat": 16.683333,
+    "lng": 121.533333
+  },
+  {
+    "locationCode": "STS",
+    "label": "Santo Tomas",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.65,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "STT",
+    "label": "Santo Tomas",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 14.1,
+    "lng": 121.133333
+  },
+  {
+    "locationCode": "STO",
+    "label": "Santo Tomas",
+    "subdivisionCode": "LUN",
+    "function": "3",
+    "lat": 16.266667,
+    "lng": 120.383333
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sariaya",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.95,
+    "lng": 121.516667
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sasa/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Sasmuan",
+    "subdivisionCode": "PAM",
+    "function": "3",
+    "lat": 14.933333,
+    "lng": 120.616667
+  },
+  {
+    "locationCode": "IAO",
+    "label": "Sayak Apt del Carmen",
+    "subdivisionCode": "SUN",
+    "function": "4",
+    "lat": 9.85,
+    "lng": 126.016667
+  },
+  {
+    "locationCode": "SAY",
+    "label": "Sayao/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Semirara",
+    "subdivisionCode": "ANT",
+    "function": "13",
+    "lat": 12.066667,
+    "lng": 121.4
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Siain, Luzon",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIR",
+    "label": "Siari/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSV",
+    "label": "Siasi",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIY",
+    "label": "Siay/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "ICO",
+    "label": "Sicogon Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Sigayan/Parang",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Silang",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.216667,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "SDG",
+    "label": "Sindangan/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Siniloan",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.416667,
+    "lng": 121.433333
+  },
+  {
+    "locationCode": "XSO",
+    "label": "Siocon/Zamboanga",
+    "function": "14"
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Sogod/Tacloban",
+    "function": "1"
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Sorsogon/Legaspi",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUA",
+    "label": "Sual",
+    "function": "1"
+  },
+  {
+    "locationCode": "SFS",
+    "label": "Subic Bay",
+    "function": "14"
+  },
+  {
+    "locationCode": "SUT",
+    "label": "Sucat",
+    "subdivisionCode": "ISA",
+    "function": "6",
+    "lat": 17.016667,
+    "lng": 121.9
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Sultan Kudarat/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUG",
+    "label": "Surigao, Mindanao",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Taal",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 13.866667,
+    "lng": 120.916667
+  },
+  {
+    "locationCode": "TBC",
+    "label": "Tabaco/Legaspi",
+    "subdivisionCode": "ALB",
+    "function": "1",
+    "lat": 13.35,
+    "lng": 123.733333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tabango, Leyte",
+    "subdivisionCode": "LEY",
+    "function": "3",
+    "lat": 11.3,
+    "lng": 124.366667
+  },
+  {
+    "locationCode": "TBG",
+    "label": "Tabangoa",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBH",
+    "label": "Tablas",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAC",
+    "label": "Tacloban, Leyte",
+    "function": "14"
+  },
+  {
+    "locationCode": "TBU",
+    "label": "Tagabuli/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "TTO",
+    "label": "Taganito",
+    "subdivisionCode": "SUN",
+    "function": "1",
+    "lat": 9.55,
+    "lng": 125.816667
+  },
+  {
+    "locationCode": "TAT",
+    "label": "Tagaytay",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.1,
+    "lng": 120.933333
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tagbilaran, Bohol",
+    "function": "14"
+  },
+  {
+    "locationCode": "TGB",
+    "label": "Tagbita",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKW",
+    "label": "Tagkawayan/Siain",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGO",
+    "label": "Tagoloan",
+    "function": "13",
+    "lat": 8.533333,
+    "lng": 124.75
+  },
+  {
+    "locationCode": "TGD",
+    "label": "Tagudin/San Fernando",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAU",
+    "label": "Taguig",
+    "function": "6",
+    "lat": 14.516667,
+    "lng": 121.7
+  },
+  {
+    "locationCode": "TUI",
+    "label": "Taguig",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": 121.066667
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Taguilon/Ozamis",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGT",
+    "label": "Taguite Bay/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talibon",
+    "subdivisionCode": "BOH",
+    "function": "13",
+    "lat": 10.133333,
+    "lng": 124.316667
+  },
+  {
+    "locationCode": "TLM",
+    "label": "Talomo/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGN",
+    "label": "Tambungon/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Tanauan",
+    "subdivisionCode": "BTG",
+    "function": "6",
+    "lat": 14.066667,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "TNU",
+    "label": "Tanauan/Tacloban",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNY",
+    "label": "Tanay",
+    "subdivisionCode": "RIZ",
+    "function": "3",
+    "lat": 14.483333,
+    "lng": 121.283333
+  },
+  {
+    "locationCode": "TDG",
+    "label": "Tandag/Bislig",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tandayag",
+    "subdivisionCode": "NER",
+    "function": "13",
+    "lat": 9.45,
+    "lng": 123.216667
+  },
+  {
+    "locationCode": "TDC",
+    "label": "Tandoc",
+    "function": "1"
+  },
+  {
+    "locationCode": "TZA",
+    "label": "Tanza",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.383333,
+    "lng": 120.85
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarlac, Luzon",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 15.5,
+    "lng": 120.5
+  },
+  {
+    "locationCode": "TWT",
+    "label": "Tawitawi",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tayabas",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 14.016667,
+    "lng": 121.583333
+  },
+  {
+    "locationCode": "RZP",
+    "label": "Taytay Sandoval",
+    "subdivisionCode": "PLW",
+    "function": "4",
+    "lat": 10.816667,
+    "lng": 119.516667
+  },
+  {
+    "locationCode": "TAY",
+    "label": "Taytay/Puerto Princesa",
+    "function": "1"
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Ternate",
+    "subdivisionCode": "CAV",
+    "function": "3",
+    "lat": 14.283333,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "TIA",
+    "label": "Tiaong",
+    "subdivisionCode": "QUE",
+    "function": "3",
+    "lat": 13.95,
+    "lng": 121.3
+  },
+  {
+    "locationCode": "TIB",
+    "label": "Tibungco/Davao",
+    "function": "1"
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tindalo Oil Field",
+    "function": "1",
+    "lat": 11.066667,
+    "lng": 118.9
+  },
+  {
+    "locationCode": "TIW",
+    "label": "Tiwi",
+    "subdivisionCode": "ALB",
+    "function": "3",
+    "lat": 13.45,
+    "lng": 123.666667
+  },
+  {
+    "locationCode": "TOB",
+    "label": "Toboso/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLD",
+    "label": "Toledo/Cebu",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Tolong/Dumaguete",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLP",
+    "label": "Tolopo",
+    "function": "1"
+  },
+  {
+    "locationCode": "TLS",
+    "label": "Tolosa/Tacloban",
+    "function": "1"
+  },
+  {
+    "locationCode": "TOO",
+    "label": "Tondo",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "TMA",
+    "label": "Trece Martires",
+    "function": "3",
+    "lat": 14.283333,
+    "lng": 120.866667
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Troloban",
+    "function": "0"
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tubigon",
+    "subdivisionCode": "BOH",
+    "function": "1",
+    "lat": 9.95,
+    "lng": 123.966667
+  },
+  {
+    "locationCode": "TUG",
+    "label": "Tuguegarao",
+    "function": "4"
+  },
+  {
+    "locationCode": "TGI",
+    "label": "Tuguis/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGW",
+    "label": "Tungawan Bay/Zamboanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUY",
+    "label": "Tuy",
+    "subdivisionCode": "BTG",
+    "function": "3",
+    "lat": 14,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "ULY",
+    "label": "Ulugan Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "URR",
+    "label": "Umrur",
+    "function": "1"
+  },
+  {
+    "locationCode": "URD",
+    "label": "Urdaneta",
+    "subdivisionCode": "PAN",
+    "function": "3",
+    "lat": 15.966667,
+    "lng": 120.566667
+  },
+  {
+    "locationCode": "VZA",
+    "label": "Valenzuela",
+    "subdivisionCode": "BUL",
+    "function": "6",
+    "lat": 14.7,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Victoria",
+    "subdivisionCode": "LAG",
+    "function": "3",
+    "lat": 14.216667,
+    "lng": 121.316667
+  },
+  {
+    "locationCode": "VCS",
+    "label": "Victorias, Negros",
+    "function": "1"
+  },
+  {
+    "locationCode": "VIG",
+    "label": "Vigan",
+    "subdivisionCode": "ILS",
+    "function": "3",
+    "lat": 17.566667,
+    "lng": 120.383333
+  },
+  {
+    "locationCode": "VNV",
+    "label": "Villanueva",
+    "function": "1"
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Villasis",
+    "subdivisionCode": "PAN",
+    "function": "3",
+    "lat": 15.9,
+    "lng": 120.583333
+  },
+  {
+    "locationCode": "VRC",
+    "label": "Virac",
+    "function": "4"
+  },
+  {
+    "locationCode": "VTL",
+    "label": "Vitali/Zamboanga",
+    "function": "13",
+    "lat": 7.366667,
+    "lng": 122.283333
+  },
+  {
+    "locationCode": "VTO",
+    "label": "Vito/Iloilo",
+    "function": "1"
+  },
+  {
+    "locationCode": "WAS",
+    "label": "Wasag/Dadiangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "WAW",
+    "label": "Wawa/Batangas",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZAM",
+    "label": "Zamboanga",
+    "function": "14"
+  }
+]

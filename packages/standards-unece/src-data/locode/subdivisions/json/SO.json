@@ -1,0 +1,92 @@
+[
+  {
+    "code": "AW",
+    "label": "Awdal",
+    "type": "Region"
+  },
+  {
+    "code": "BK",
+    "label": "Bakool",
+    "type": "Region"
+  },
+  {
+    "code": "BN",
+    "label": "Banaadir",
+    "type": "Region"
+  },
+  {
+    "code": "BR",
+    "label": "Bari",
+    "type": "Region"
+  },
+  {
+    "code": "BY",
+    "label": "Bay",
+    "type": "Region"
+  },
+  {
+    "code": "GA",
+    "label": "Galguduud",
+    "type": "Region"
+  },
+  {
+    "code": "GE",
+    "label": "Gedo",
+    "type": "Region"
+  },
+  {
+    "code": "HI",
+    "label": "Hiiraan",
+    "type": "Region"
+  },
+  {
+    "code": "JD",
+    "label": "Jubbada Dhexe",
+    "type": "Region"
+  },
+  {
+    "code": "JH",
+    "label": "Jubbada Hoose",
+    "type": "Region"
+  },
+  {
+    "code": "MU",
+    "label": "Mudug",
+    "type": "Region"
+  },
+  {
+    "code": "NU",
+    "label": "Nugaal",
+    "type": "Region"
+  },
+  {
+    "code": "SA",
+    "label": "Sanaag",
+    "type": "Region"
+  },
+  {
+    "code": "SD",
+    "label": "Shabeellaha Dhexe",
+    "type": "Region"
+  },
+  {
+    "code": "SH",
+    "label": "Shabeellaha Hoose",
+    "type": "Region"
+  },
+  {
+    "code": "SO",
+    "label": "Sool",
+    "type": "Region"
+  },
+  {
+    "code": "TO",
+    "label": "Togdheer",
+    "type": "Region"
+  },
+  {
+    "code": "WO",
+    "label": "Woqooyi Galbeed",
+    "type": "Region"
+  }
+]

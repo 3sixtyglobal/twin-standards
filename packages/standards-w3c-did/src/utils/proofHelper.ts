@@ -4,13 +4,16 @@ import { GeneralError, Guards, Is } from "@twin.org/core";
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import type { IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import { DidCryptoSuites } from "../models/didCryptoSuites";
-import type { IProof } from "../models/IProof";
-import type { IProofSignerVerifier } from "../models/IProofSignerVerifier";
-import { ProofTypes } from "../models/proofTypes";
-import { DataIntegrityProofSignerVerifier } from "../signerVerifiers/dataIntegrityProofSignerVerifier";
-import { JsonWebSignature2020SignerVerifier } from "../signerVerifiers/jsonWebSignature2020SignerVerifier";
+import { DidContexts } from "../models/didContexts.js";
+import { DidCryptoSuites } from "../models/didCryptoSuites.js";
+import type { IProof } from "../models/IProof.js";
+import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
+import type { IProofSignerVerifierAsync } from "../models/IProofSignerVerifierAsync.js";
+import { ProofTypes } from "../models/proofTypes.js";
+import { DataIntegrityProofAsyncSignerVerifier } from "../signerVerifiers/dataIntegrityProofAsyncSignerVerifier.js";
+import { DataIntegrityProofSignerVerifier } from "../signerVerifiers/dataIntegrityProofSignerVerifier.js";
+import { JsonWebSignature2020AsyncSignerVerifier } from "../signerVerifiers/jsonWebSignature2020AsyncSignerVerifier.js";
+import { JsonWebSignature2020SignerVerifier } from "../signerVerifiers/jsonWebSignature2020SignerVerifier.js";
 
 /**
  * Helper methods for creating and verifying proofs.
@@ -28,13 +31,46 @@ export class ProofHelper {
 	 * @throws GeneralError if the proof type is not supported.
 	 */
 	public static createSignerVerifier(proofType: ProofTypes): IProofSignerVerifier {
-		Guards.arrayOneOf(this.CLASS_NAME, nameof(proofType), proofType, Object.values(ProofTypes));
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
 
 		let signerVerifier: IProofSignerVerifier | undefined;
 		if (proofType === ProofTypes.DataIntegrityProof) {
 			signerVerifier = new DataIntegrityProofSignerVerifier();
 		} else if (proofType === ProofTypes.JsonWebSignature2020) {
 			signerVerifier = new JsonWebSignature2020SignerVerifier();
+		}
+
+		if (Is.empty(signerVerifier)) {
+			throw new GeneralError(ProofHelper.CLASS_NAME, "unsupportedProofType", { proofType });
+		}
+		return signerVerifier;
+	}
+
+	/**
+	 * Create an async signer verifier that supports signing with callbacks.
+	 * This enables signing without exposing private keys.
+	 * @param proofType The type of proof to create.
+	 * @returns The created async signer verifier.
+	 * @throws GeneralError if the proof type is not supported.
+	 */
+	public static createAsyncSignerVerifier(proofType: ProofTypes): IProofSignerVerifierAsync {
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+
+		let signerVerifier: IProofSignerVerifierAsync | undefined;
+		if (proofType === ProofTypes.DataIntegrityProof) {
+			signerVerifier = new DataIntegrityProofAsyncSignerVerifier();
+		} else if (proofType === ProofTypes.JsonWebSignature2020) {
+			signerVerifier = new JsonWebSignature2020AsyncSignerVerifier();
 		}
 
 		if (Is.empty(signerVerifier)) {
@@ -57,14 +93,59 @@ export class ProofHelper {
 		unsignedProof: IProof,
 		signKey: IJwk
 	): Promise<IProof> {
-		Guards.arrayOneOf(this.CLASS_NAME, nameof(proofType), proofType, Object.values(ProofTypes));
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsignedProof), unsignedProof);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(signKey), signKey);
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(unsignedProof), unsignedProof);
+		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(signKey), signKey);
 		return ProofHelper.createSignerVerifier(proofType).createProof(
-			unsecuredDocument as unknown as IJsonLdNodeObject,
+			unsecuredDocument,
 			unsignedProof,
 			signKey
+		);
+	}
+
+	/**
+	 * Create a proof with an async signing callback.
+	 * This method prevents private key exposure by delegating signing to a secure callback.
+	 * @param proofType The type of proof to create.
+	 * @param unsecuredDocument The data to create the proof for.
+	 * @param unsignedProof The proof options.
+	 * @param signCallback Async callback that signs data with a private key from secure storage. The algorithm parameter indicates the expected signing algorithm (e.g., "EdDSA") to enable validation.
+	 * @returns The created proof.
+	 */
+	public static async createProofWithSigner(
+		proofType: ProofTypes,
+		unsecuredDocument: IJsonLdNodeObject,
+		unsignedProof: IProof,
+		signCallback: (data: Uint8Array, algorithm: string) => Promise<Uint8Array>
+	): Promise<IProof> {
+		Guards.arrayOneOf(
+			ProofHelper.CLASS_NAME,
+			nameof(proofType),
+			proofType,
+			Object.values(ProofTypes)
+		);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(unsignedProof), unsignedProof);
+		Guards.function(ProofHelper.CLASS_NAME, nameof(signCallback), signCallback);
+
+		return ProofHelper.createAsyncSignerVerifier(proofType).createProofWithSigner(
+			unsecuredDocument,
+			unsignedProof,
+			signCallback
 		);
 	}
 
@@ -80,12 +161,16 @@ export class ProofHelper {
 		signedProof: IProof,
 		verifyKey: IJwk
 	): Promise<boolean> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(securedDocument), securedDocument);
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(signedProof), signedProof);
-		Guards.stringValue(this.CLASS_NAME, nameof(signedProof.type), signedProof.type);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(verifyKey), verifyKey);
+		Guards.object<IJsonLdNodeObject>(
+			ProofHelper.CLASS_NAME,
+			nameof(securedDocument),
+			securedDocument
+		);
+		Guards.object<IJsonLdNodeObject>(ProofHelper.CLASS_NAME, nameof(signedProof), signedProof);
+		Guards.stringValue(ProofHelper.CLASS_NAME, nameof(signedProof.type), signedProof.type);
+		Guards.object<IJwk>(ProofHelper.CLASS_NAME, nameof(verifyKey), verifyKey);
 
-		const signerVerifier = ProofHelper.createSignerVerifier(signedProof.type as ProofTypes);
+		const signerVerifier = ProofHelper.createSignerVerifier(signedProof.type);
 
 		return signerVerifier.verifyProof(securedDocument, signedProof, verifyKey);
 	}

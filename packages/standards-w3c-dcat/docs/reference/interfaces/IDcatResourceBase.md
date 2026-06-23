@@ -1,0 +1,260 @@
+# Interface: IDcatResourceBase
+
+Base interface for DCAT catalogued resources without JSON-LD context.
+This is the context-free variant of IDcatResource, intended for embedding
+resources inline within other objects where the context is provided by the enclosing document.
+
+## See
+
+https://www.w3.org/TR/vocab-dcat-3/#Class:Resource
+
+## Extended by
+
+- [`IDcatDataServiceBase`](IDcatDataServiceBase.md)
+- [`IDcatDatasetBase`](IDcatDatasetBase.md)
+- [`IDcatResource`](IDcatResource.md)
+
+## Properties
+
+### @type {#type}
+
+> **@type**: `"dcat:Catalog"` \| `"dcat:Resource"` \| `"dcat:Dataset"` \| `"dcat:DataService"` \| `"dcat:DatasetSeries"`
+
+The type of the resource.
+Typically "Catalog", "Dataset", "DataService", "DatasetSeries", or the base "Resource".
+
+***
+
+### @id? {#id}
+
+> `optional` **@id?**: `string`
+
+The unique identifier for the resource.
+
+***
+
+### dcterms:title? {#dctermstitle}
+
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
+
+A name given to the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_title
+
+***
+
+### dcterms:description? {#dctermsdescription}
+
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
+
+A free-text account of the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_description
+
+***
+
+### dcterms:identifier? {#dctermsidentifier}
+
+> `optional` **dcterms:identifier?**: `ObjectOrArray`\<`string`\>
+
+A unique identifier of the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_identifier
+
+***
+
+### dcterms:issued? {#dctermsissued}
+
+> `optional` **dcterms:issued?**: `string`
+
+Date of formal issuance (publication) of the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_release_date
+
+***
+
+### dcterms:modified? {#dctermsmodified}
+
+> `optional` **dcterms:modified?**: `string`
+
+Most recent date on which the resource was changed, updated or modified.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_update_date
+
+***
+
+### dcterms:language? {#dctermslanguage}
+
+> `optional` **dcterms:language?**: `ObjectOrArray`\<`string`\>
+
+A language of the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_language
+
+***
+
+### dcterms:publisher? {#dctermspublisher}
+
+> `optional` **dcterms:publisher?**: `string` \| `JsonLdObjectWithAliases`\<`IFoafAgent`, `"foaf"`\>
+
+An entity responsible for making the resource available.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_publisher
+
+***
+
+### dcterms:creator? {#dctermscreator}
+
+> `optional` **dcterms:creator?**: `string` \| `JsonLdObjectWithAliases`\<`IFoafAgent`, `"foaf"`\>
+
+An entity responsible for producing the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_creator
+
+***
+
+### dcterms:accessRights? {#dctermsaccessrights}
+
+> `optional` **dcterms:accessRights?**: `string` \| `IJsonLdNodeObject`
+
+Information about who can access the resource or an indication of its security status.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_access_rights
+
+***
+
+### dcterms:license? {#dctermslicense}
+
+> `optional` **dcterms:license?**: `string` \| `IJsonLdNodeObject`
+
+A legal document under which the resource is made available.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_license
+
+***
+
+### dcterms:rights? {#dctermsrights}
+
+> `optional` **dcterms:rights?**: `string` \| `IJsonLdNodeObject`
+
+Information about rights held in and over the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_rights
+
+***
+
+### dcterms:conformsTo? {#dctermsconformsto}
+
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
+
+An established standard to which the resource conforms.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_conforms_to
+
+***
+
+### dcterms:type? {#dctermstype}
+
+> `optional` **dcterms:type?**: `string`
+
+The nature or genre of the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_type
+
+***
+
+### dcat:contactPoint? {#dcatcontactpoint}
+
+> `optional` **dcat:contactPoint?**: `string` \| `IJsonLdNodeObject`
+
+Relevant contact information for the catalogued resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_contact_point
+
+***
+
+### dcat:keyword? {#dcatkeyword}
+
+> `optional` **dcat:keyword?**: `ObjectOrArray`\<`string`\>
+
+A keyword or tag describing the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_keyword
+
+***
+
+### dcat:theme? {#dcattheme}
+
+> `optional` **dcat:theme?**: `ObjectOrArray`\<`string`\>
+
+A main category of the resource. A resource can have multiple themes.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_theme
+
+***
+
+### dcat:landingPage? {#dcatlandingpage}
+
+> `optional` **dcat:landingPage?**: `ObjectOrArray`\<`string`\>
+
+A Web page that can be navigated to gain access to the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_landing_page
+
+***
+
+### dcat:qualifiedRelation? {#dcatqualifiedrelation}
+
+> `optional` **dcat:qualifiedRelation?**: `string` \| [`IDcatRelationship`](IDcatRelationship.md)
+
+Link to a description of a relationship with another resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_qualified_relation
+
+***
+
+### odrl:hasPolicy? {#odrlhaspolicy}
+
+> `optional` **odrl:hasPolicy?**: `JsonLdObjectWithOptionalContext`\<`IOdrlPolicy`\>
+
+An ODRL conformant policy expressing the rights associated with the resource.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:resource_has_policy

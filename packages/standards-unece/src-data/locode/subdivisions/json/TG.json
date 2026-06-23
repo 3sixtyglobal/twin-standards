@@ -1,0 +1,27 @@
+[
+  {
+    "code": "C",
+    "label": "Centrale",
+    "type": "Region"
+  },
+  {
+    "code": "K",
+    "label": "Kara",
+    "type": "Region"
+  },
+  {
+    "code": "M",
+    "label": "Maritime (Région)",
+    "type": "Region"
+  },
+  {
+    "code": "P",
+    "label": "Plateaux",
+    "type": "Region"
+  },
+  {
+    "code": "S",
+    "label": "Savanes",
+    "type": "Region"
+  }
+]

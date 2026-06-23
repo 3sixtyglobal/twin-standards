@@ -1,0 +1,57 @@
+[
+  {
+    "code": "1",
+    "label": "Kayes",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Taoudénit",
+    "type": "Region"
+  },
+  {
+    "code": "2",
+    "label": "Koulikoro",
+    "type": "Region"
+  },
+  {
+    "code": "3",
+    "label": "Sikasso",
+    "type": "Region"
+  },
+  {
+    "code": "4",
+    "label": "Ségou",
+    "type": "Region"
+  },
+  {
+    "code": "5",
+    "label": "Mopti",
+    "type": "Region"
+  },
+  {
+    "code": "6",
+    "label": "Tombouctou",
+    "type": "Region"
+  },
+  {
+    "code": "7",
+    "label": "Gao",
+    "type": "Region"
+  },
+  {
+    "code": "8",
+    "label": "Kidal",
+    "type": "Region"
+  },
+  {
+    "code": "9",
+    "label": "Ménaka",
+    "type": "Region"
+  },
+  {
+    "code": "BKO",
+    "label": "Bamako",
+    "type": "District"
+  }
+]

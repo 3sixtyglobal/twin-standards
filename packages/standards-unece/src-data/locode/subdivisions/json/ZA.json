@@ -1,0 +1,47 @@
+[
+  {
+    "code": "EC",
+    "label": "Eastern Cape",
+    "type": "Province"
+  },
+  {
+    "code": "FS",
+    "label": "Free State",
+    "type": "Province"
+  },
+  {
+    "code": "GP",
+    "label": "Gauteng",
+    "type": "Province"
+  },
+  {
+    "code": "KZN",
+    "label": "Kwazulu-Natal",
+    "type": "Province"
+  },
+  {
+    "code": "LP",
+    "label": "Limpopo",
+    "type": "Province"
+  },
+  {
+    "code": "MP",
+    "label": "Mpumalanga",
+    "type": "Province"
+  },
+  {
+    "code": "NC",
+    "label": "Northern Cape",
+    "type": "Province"
+  },
+  {
+    "code": "NW",
+    "label": "North-West",
+    "type": "Province"
+  },
+  {
+    "code": "WC",
+    "label": "Western Cape",
+    "type": "Province"
+  }
+]

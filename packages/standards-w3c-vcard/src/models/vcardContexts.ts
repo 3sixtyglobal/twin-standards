@@ -7,11 +7,21 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const VCardContexts = {
 	/**
-	 * The context root for VCard.
-	 * Based on W3C VCard Ontology.
-	 * @see http://www.w3.org/2006/vcard/ns#
+	 * The canonical RDF namespace URI.
 	 */
-	Context: "http://www.w3.org/2006/vcard/ns#"
+	Namespace: "http://www.w3.org/2006/vcard/ns#",
+
+	/**
+	 * The value to use in @context.
+	 * Note: Context matches Namespace (both include trailing hash) as per vCard specification.
+	 * The vCard JSON-LD context URL format includes a trailing hash.
+	 */
+	Context: "http://www.w3.org/2006/vcard/ns#",
+
+	/**
+	 * The JSON-LD Context URL.
+	 */
+	JsonLdContext: "http://www.w3.org/2006/vcard/ns#"
 } as const;
 
 /**

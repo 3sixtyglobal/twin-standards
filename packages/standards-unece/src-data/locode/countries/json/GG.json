@@ -1,0 +1,30 @@
+[
+  {
+    "locationCode": "ACI",
+    "label": "Alderney",
+    "function": "14",
+    "lat": 49.683333,
+    "lng": -2.2
+  },
+  {
+    "locationCode": "GCI",
+    "label": "Guernsey",
+    "function": "14",
+    "lat": 49.433333,
+    "lng": -2.583333
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Saint Peter Port",
+    "function": "13",
+    "lat": 49.45,
+    "lng": -2.55
+  },
+  {
+    "locationCode": "STS",
+    "label": "Saint Sampson",
+    "function": "3",
+    "lat": 49.483333,
+    "lng": -2.516667
+  }
+]

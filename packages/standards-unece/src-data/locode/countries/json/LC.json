@@ -1,0 +1,42 @@
+[
+  {
+    "locationCode": "CAS",
+    "label": "Castries",
+    "function": "13",
+    "lat": 14.016667,
+    "lng": -60.966667
+  },
+  {
+    "locationCode": "CDS",
+    "label": "Cul de Sac",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Gros Islet",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.066667,
+    "lng": -60.95
+  },
+  {
+    "locationCode": "UVF",
+    "label": "Hewanorra Intl  Apt",
+    "subdivisionCode": "11",
+    "function": "4",
+    "lat": 13.716667,
+    "lng": -60.95
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Saint Lucia Apt",
+    "function": "45",
+    "lat": 13.7,
+    "lng": -60.933333
+  },
+  {
+    "locationCode": "VIF",
+    "label": "Vieux Fort",
+    "function": "1"
+  }
+]

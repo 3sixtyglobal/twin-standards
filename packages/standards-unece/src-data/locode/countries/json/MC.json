@@ -1,0 +1,14 @@
+[
+  {
+    "locationCode": "MON",
+    "label": "Monaco",
+    "function": "15"
+  },
+  {
+    "locationCode": "MCM",
+    "label": "Monte-Carlo",
+    "function": "14",
+    "lat": 43.733333,
+    "lng": 7.416667
+  }
+]

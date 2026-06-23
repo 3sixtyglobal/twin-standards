@@ -1,0 +1,47 @@
+[
+  {
+    "code": "67",
+    "label": "Johnston Atoll (ISO reserved code = JT)",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "71",
+    "label": "Midway Islands (ISO reserved code = I)",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "76",
+    "label": "Navassa Island (ISO reserved code = NV)",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "79",
+    "label": "Wake Island (ISO reserved code = WK)",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "81",
+    "label": "Baker Island",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "84",
+    "label": "Howland Island",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "86",
+    "label": "Jarvis Island",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "89",
+    "label": "Kingman Reef",
+    "type": "Islands/Groups of Islands"
+  },
+  {
+    "code": "95",
+    "label": "Palmyra Atoll",
+    "type": "Islands/Groups of Islands"
+  }
+]

@@ -1,0 +1,15 @@
+{
+	"baseUrl": "https://schema.twindev.org/foaf/",
+	"types": [
+		"./src/models/foafContextType.ts",
+		"./src/models/IFoafAgent.ts",
+		"./src/models/IFoafDocument.ts",
+		"./src/models/IFoafGroup.ts",
+		"./src/models/IFoafImage.ts",
+		"./src/models/IFoafOrganization.ts",
+		"./src/models/IFoafPerson.ts"
+	],
+	"externalReferences": {
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
+	}
+}

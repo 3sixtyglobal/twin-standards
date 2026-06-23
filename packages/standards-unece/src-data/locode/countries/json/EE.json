@@ -1,0 +1,3021 @@
+[
+  {
+    "locationCode": "AAR",
+    "label": "Aaravete",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 59.133333,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "AEB",
+    "label": "Aasmäe",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Aasmae",
+    "function": "6",
+    "lat": 59.233333,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "AAV",
+    "label": "Aaviku",
+    "subdivisionCode": "37",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABJ",
+    "label": "Abaja Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "APL",
+    "label": "Abja-Paluoja",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 58.116667,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "ABR",
+    "label": "Abruka",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.166667,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "ADV",
+    "label": "Admirali Väikesadam",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Admirali Vaikesadam",
+    "function": "1",
+    "lat": 58.533333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "AEN",
+    "label": "Aegna",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.566667,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "AHJ",
+    "label": "Ahja",
+    "subdivisionCode": "64",
+    "function": "3",
+    "lat": 58.2,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "AHO",
+    "label": "Ahoi Jõesadam",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Ahoi Joesadam",
+    "function": "1",
+    "lat": 58.216667,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "ALJ",
+    "label": "Alajõe",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Alajoe",
+    "function": "0",
+    "lat": 59.016667,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "AKS",
+    "label": "Alajõe Kalasadam",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Alajoe Kalasadam",
+    "function": "1",
+    "lat": 59,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "AEC",
+    "label": "Alatskivi",
+    "subdivisionCode": "79",
+    "function": "6",
+    "lat": 58.583333,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "ALU",
+    "label": "Alliku",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Ambla",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Antsla",
+    "subdivisionCode": "87",
+    "function": "3",
+    "lat": 57.833333,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Ardu",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.1,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arkna",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 59.566667,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "ARU",
+    "label": "Aruküla",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Arukula",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "ASE",
+    "label": "Aseri",
+    "subdivisionCode": "45",
+    "function": "13",
+    "lat": 59.45,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "ASV",
+    "label": "Aseri Väikesadam",
+    "subdivisionCode": "60",
+    "labelWithDiacritics": "Aseri Vaikesadam",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "ATL",
+    "label": "Atla",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.3,
+    "lng": 21.9
+  },
+  {
+    "locationCode": "AUD",
+    "label": "Audru",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 58.4,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "BEK",
+    "label": "Bekkeri",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "DIR",
+    "label": "Dirhami",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 59.216667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Doberani",
+    "subdivisionCode": "68",
+    "function": "0",
+    "lat": 58.383333,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "EBA",
+    "label": "Ebavere",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 59.116667,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "EIS",
+    "label": "Eisma",
+    "subdivisionCode": "60",
+    "function": "1",
+    "lat": 59.566667,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "ELV",
+    "label": "Elva",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.233333,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "ERV",
+    "label": "Ervu",
+    "subdivisionCode": "79",
+    "function": "6"
+  },
+  {
+    "locationCode": "HNE",
+    "label": "Haabneeme",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.516667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Haapsalu",
+    "subdivisionCode": "56",
+    "function": "123",
+    "lat": 58.933333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "HVV",
+    "label": "Haapsalu Veskiviigi",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "HLD",
+    "label": "Haldi",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.8,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "HLA",
+    "label": "Halinga",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 58.583333,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "HJA",
+    "label": "Haljala",
+    "subdivisionCode": "60",
+    "function": "3",
+    "lat": 59.416667,
+    "lng": 26.266667
+  },
+  {
+    "locationCode": "HAK",
+    "label": "Hänike",
+    "labelWithDiacritics": "Hanike",
+    "function": "6"
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hanila",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 58.6,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Hara Sadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.583333,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Hara Sadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 59.083333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "HRJ",
+    "label": "Harju",
+    "subdivisionCode": "39",
+    "function": "3",
+    "lat": 58.733333,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harku",
+    "function": "3",
+    "lat": 59.383333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "HLT",
+    "label": "Heltermaa",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.866667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "HII",
+    "label": "Hiiessaare",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 59,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Hundipea",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 24.716667
+  },
+  {
+    "locationCode": "IMA",
+    "label": "Imavere",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 58.733333,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "JGP",
+    "label": "Jaagupi",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.033333,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "JAA",
+    "label": "Jaanikese",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.8,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "JAP",
+    "label": "Japsi Kalasadam",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "JJA",
+    "label": "Järva-Jaani",
+    "labelWithDiacritics": "Jarva-Jaani",
+    "function": "3",
+    "lat": 59.033333,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Järvakandi",
+    "subdivisionCode": "71",
+    "labelWithDiacritics": "Jarvakandi",
+    "function": "3",
+    "lat": 58.766667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "JEP",
+    "label": "Jõe Paadisadam",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Joe Paadisadam",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "JKR",
+    "label": "Jõekääru",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Joekaaru",
+    "function": "1",
+    "lat": 58.983333,
+    "lng": 27.183333
+  },
+  {
+    "locationCode": "JOL",
+    "label": "Joelahtme",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.433333,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "JOE",
+    "label": "Jõesuu",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Joesuu",
+    "function": "3",
+    "lat": 59.466667,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "JGA",
+    "label": "Jõgeva",
+    "subdivisionCode": "50",
+    "labelWithDiacritics": "Jogeva",
+    "function": "23",
+    "lat": 58.75,
+    "lng": 26.383333
+  },
+  {
+    "locationCode": "JVI",
+    "label": "Jõhvi",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Johvi",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "JHT",
+    "label": "Juheta",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "JUR",
+    "label": "Jüri",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Juri",
+    "function": "3",
+    "lat": 59.35,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "KVI",
+    "label": "Kaavi Paadisadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 57.983333,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kaberneeme",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.5,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "KBN",
+    "label": "Kaberneeme Sadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.516667,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "KAD",
+    "label": "Kadrina",
+    "subdivisionCode": "50",
+    "function": "3",
+    "lat": 58.7,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kadrina",
+    "subdivisionCode": "60",
+    "function": "23",
+    "lat": 59.333333,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Käina",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Kaina",
+    "function": "3",
+    "lat": 58.816667,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakumäe",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Kakumae",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.6
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalana",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.916667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kalasadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Kaldu",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.45,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "KJK",
+    "label": "Kalevi Jahtklubi",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Kallaste",
+    "subdivisionCode": "74",
+    "function": "13",
+    "lat": 58.65,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "KLL",
+    "label": "Kallaste",
+    "subdivisionCode": "79",
+    "function": "13",
+    "lat": 58.65,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Kallaste Rannasadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.666667,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kalmaküla Sadam",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Kalmakula Sadam",
+    "function": "1",
+    "lat": 58.883333,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "KLV",
+    "label": "Kalvi",
+    "subdivisionCode": "60",
+    "function": "3",
+    "lat": 59.483333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "KMM",
+    "label": "Kammeri",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.166667,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kandiküla",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Kandikula",
+    "function": "3",
+    "lat": 58.383333,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "KNP",
+    "label": "Kanepi",
+    "subdivisionCode": "XJ",
+    "function": "3",
+    "lat": 57.966667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "KDL",
+    "label": "Kärdla",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Kardla",
+    "function": "14",
+    "lat": 59,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "KPA",
+    "label": "Karepa Sadam",
+    "subdivisionCode": "60",
+    "function": "1",
+    "lat": 59.55,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "KAE",
+    "label": "Karksi",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 58.116667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Karlova Paadisadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kärsa",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Karsa",
+    "function": "1",
+    "lat": 58.25,
+    "lng": 22.733333
+  },
+  {
+    "locationCode": "KKS",
+    "label": "Kassari Sadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.766667,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "KSN",
+    "label": "Kastna",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.333333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Kaunispe",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.05,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "KDU",
+    "label": "Kavandu",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.2,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "KVR",
+    "label": "Kavaru",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.266667,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "KEE",
+    "label": "Keeni",
+    "subdivisionCode": "81",
+    "function": "23",
+    "lat": 57.95,
+    "lng": 26.283333
+  },
+  {
+    "locationCode": "KEH",
+    "label": "Kehra",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.333333,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "KEI",
+    "label": "Keila",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.3,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "KLN",
+    "label": "Kelnase",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.633333,
+    "lng": 25.016667
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kelvingi",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.55,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "KEJ",
+    "label": "Kesse-Jaani",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.633333,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kihnu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.133333,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "KII",
+    "label": "Kiideva",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.766667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "KIU",
+    "label": "Kiiu",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.433333,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "IDA",
+    "label": "Kiviõli",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Kivioli",
+    "function": "3",
+    "lat": 59.35,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "KOB",
+    "label": "Kobela",
+    "subdivisionCode": "87",
+    "function": "3",
+    "lat": 57.833333,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Koeru",
+    "subdivisionCode": "51",
+    "function": "6"
+  },
+  {
+    "locationCode": "KGV",
+    "label": "Koguva",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.6,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Kohila",
+    "subdivisionCode": "71",
+    "function": "23",
+    "lat": 59.166667,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "KJE",
+    "label": "Kohtla-Järve",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Kohtla-Jarve",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "KOI",
+    "label": "Koigi",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 58.833333,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "KGS",
+    "label": "Kõiguste",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Koiguste",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "KJI",
+    "label": "Kolga-Jaani",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 58.516667,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "KLK",
+    "label": "Koljunuki",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.5,
+    "lng": 25.083333
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolkja",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.55,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komsi",
+    "subdivisionCode": "59",
+    "function": "6"
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Koorküla",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Koorkula",
+    "function": "3",
+    "lat": 57.933333,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "KRG",
+    "label": "Kõrgessaare",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Korgessaare",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "KSE",
+    "label": "Kose",
+    "subdivisionCode": "37",
+    "function": "6"
+  },
+  {
+    "locationCode": "KDR",
+    "label": "Kudruküla Sadam",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Kudrukula Sadam",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 29.083333
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kuivastu",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.566667,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kulaaseme",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.283333,
+    "lng": 26.383333
+  },
+  {
+    "locationCode": "KND",
+    "label": "Kunda",
+    "subdivisionCode": "60",
+    "function": "1",
+    "lat": 59.516667,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "KNG",
+    "label": "Kungla",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.35,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "KEA",
+    "label": "Kurena",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 58.483333,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "URE",
+    "label": "Kuressaare",
+    "subdivisionCode": "74",
+    "function": "134",
+    "lat": 58.25,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kuressaare sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.25,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "KKE",
+    "label": "Kurkse",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.266667,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "KUU",
+    "label": "Kuusalu",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.45,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Laabi",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Laagri",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "LKS",
+    "label": "Laaksaare",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.333333,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Lääne",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Laane",
+    "function": "1",
+    "lat": 58.533333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Läätsa",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Laatsa",
+    "function": "1",
+    "lat": 58.133333,
+    "lng": 22.25
+  },
+  {
+    "locationCode": "LGD",
+    "label": "Lagedi",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "LHS",
+    "label": "Lahesuu",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.45,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "LAO",
+    "label": "Lao",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.233333,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Lautri",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.916667,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Lavassaare",
+    "subdivisionCode": "68",
+    "function": "23",
+    "lat": 58.5,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "LHT",
+    "label": "Lehtma",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 59.066667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "LHK",
+    "label": "Lehtma Kalurisadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 59.066667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "LEN",
+    "label": "Lennusadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "LEP",
+    "label": "Leppneeme",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.533333,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "LPN",
+    "label": "Leppneeme Kalasadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.55,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "LIH",
+    "label": "Lihula",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 58.683333,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lindi",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.333333,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "LNA",
+    "label": "Linna",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 58.016667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "LIU",
+    "label": "Liu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.283333,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "LSL",
+    "label": "Lohusalu",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.4,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "LHU",
+    "label": "Lohusuu",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 58.95,
+    "lng": 27.033333
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Loksa",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.583333,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "LMA",
+    "label": "Lõmala",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Lomala",
+    "function": "1",
+    "lat": 58.166667,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "LOO",
+    "label": "Loo",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.433333,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "LPS",
+    "label": "Lõpesuu",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Lopesuu",
+    "function": "1",
+    "lat": 58.483333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "LNR",
+    "label": "Lõunaranna",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Lounaranna",
+    "function": "1",
+    "lat": 58.533333,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "LHM",
+    "label": "Luhamaa",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 57.633333,
+    "lng": 27.366667
+  },
+  {
+    "locationCode": "LUI",
+    "label": "Luige Väikesadam",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Luige Vaikesadam",
+    "function": "1",
+    "lat": 58.866667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "LNJ",
+    "label": "Luunja",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.35,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "MRD",
+    "label": "Maardu",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.466667,
+    "lng": 25.016667
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Maarja-Magdaleena",
+    "subdivisionCode": "50",
+    "function": "3",
+    "lat": 58.616667,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahu Sadam",
+    "subdivisionCode": "60",
+    "function": "1",
+    "lat": 59.516667,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manilaiu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 59.216667,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Männi",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Manni",
+    "function": "1",
+    "lat": 58.516667,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Märjamaa",
+    "subdivisionCode": "71",
+    "labelWithDiacritics": "Marjamaa",
+    "function": "3",
+    "lat": 60.333333,
+    "lng": 24.716667
+  },
+  {
+    "locationCode": "MRS",
+    "label": "Meeruse",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "MEH",
+    "label": "Mehikoorma Sadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.233333,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "MRL",
+    "label": "Merelaiu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.3,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "MIH",
+    "label": "Mihkli Sadam",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.783333,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "MDR",
+    "label": "Miiduranna",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.5,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "MOI",
+    "label": "Mõigu",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Moigu",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "MOL",
+    "label": "Mölgi",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Molgi",
+    "function": "0",
+    "lat": 59.6,
+    "lng": 25
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Mõntu",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Montu",
+    "function": "1",
+    "lat": 57.95,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "MNV",
+    "label": "Mõntu Väikelaevade Sadam",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Montu Vaikelaevade Sadam",
+    "function": "1",
+    "lat": 57.95,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Munalaiu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.233333,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "MDI",
+    "label": "Mundi",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 58.866667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Muratsi Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.233333,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "MUS",
+    "label": "Mustvee",
+    "subdivisionCode": "49",
+    "function": "6",
+    "lat": 58.85,
+    "lng": 26.933333
+  },
+  {
+    "locationCode": "MTV",
+    "label": "Mustvee",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.85,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "MUG",
+    "label": "Muuga",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.5,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "NAI",
+    "label": "Naissaare",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.55,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "NST",
+    "label": "Naistlaiu Sadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.816667,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "NAP",
+    "label": "Näpi",
+    "subdivisionCode": "60",
+    "labelWithDiacritics": "Napi",
+    "function": "3",
+    "lat": 59.366667,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Narva",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 59.383333,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "KUG",
+    "label": "Narva Kulgu Sadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.35,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "JOS",
+    "label": "Narva Linnasadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.383333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "NJS",
+    "label": "Narva-Jõesuu Sadam",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Narva-Joesuu Sadam",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Nasva",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.216667,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "NJD",
+    "label": "Nasva Jõesadam",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Nasva Joesadam",
+    "function": "1",
+    "lat": 58.233333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "NME",
+    "label": "Neeme",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.533333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "NII",
+    "label": "Niibi",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 59.05,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "NOB",
+    "label": "Noblessneri",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Nõva Sadam",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Nova Sadam",
+    "function": "1",
+    "lat": 59.25,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "NRM",
+    "label": "Nurme",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.583333,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "OSU",
+    "label": "Õisu",
+    "subdivisionCode": "51",
+    "labelWithDiacritics": "Oisu",
+    "function": "3",
+    "lat": 58.75,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "OIU",
+    "label": "Oiu",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 58.4,
+    "lng": 25.983333
+  },
+  {
+    "locationCode": "OMR",
+    "label": "Omedu Rand",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.783333,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "OOS",
+    "label": "Oomiste",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.2,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Orava",
+    "subdivisionCode": "XJ",
+    "function": "3",
+    "lat": 57.883333,
+    "lng": 27.45
+  },
+  {
+    "locationCode": "ORI",
+    "label": "Orissaare",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.566667,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "ORJ",
+    "label": "Orjaku",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.783333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "OSM",
+    "label": "Osmussaare Sadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 59.283333,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "OUS",
+    "label": "Õssu",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Ossu",
+    "function": "3",
+    "lat": 58.366667,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "OST",
+    "label": "Österby",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Osterby",
+    "function": "1",
+    "lat": 58.983333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "OTP",
+    "label": "Otepää",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Otepaa",
+    "function": "3",
+    "lat": 58.05,
+    "lng": 26.483333
+  },
+  {
+    "locationCode": "OTI",
+    "label": "Oti",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.566667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "OTS",
+    "label": "Otsa",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.65,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Paatsalu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.516667,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "PSM",
+    "label": "Pae Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.483333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "PAE",
+    "label": "Paekna",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Paide",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 58.883333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "PKS",
+    "label": "Paikuse",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 58.366667,
+    "lng": 24.616667
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Paldiski",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Paldiski Lõunasadam",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Paldiski Lounasadam",
+    "function": "1",
+    "lat": 59.333333,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "PLN",
+    "label": "Paldiski Põhjasadam",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Paldiski Pohjasadam",
+    "function": "1",
+    "lat": 59.35,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "PVE",
+    "label": "Palivere",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 58.983333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Paljassaare",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Pangodi",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.2,
+    "lng": 26.583333
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Papissaare Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "AEF",
+    "label": "Parksepa",
+    "subdivisionCode": "87",
+    "function": "6",
+    "lat": 57.9,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Pärnu",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Parnu",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Pärnu Sadama Väikesadam",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Parnu Sadama Vaikesadam",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "PSV",
+    "label": "Paslepa-Viigi Sadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 59.016667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Patareisadam",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.45,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Peerni",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.25,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "PEE",
+    "label": "Peetri",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 58.366667,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "PHL",
+    "label": "Pihelgalaiu",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.45,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Piirissaare Sadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 27.516667
+  },
+  {
+    "locationCode": "PVS",
+    "label": "Piirivalvesadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Pikasilla",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 58.1,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Pirita",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "AEE",
+    "label": "Põdra",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Podra",
+    "function": "36",
+    "lat": 58.483333,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polli",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 59.05,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "PLT",
+    "label": "Põltsamaa",
+    "subdivisionCode": "52",
+    "labelWithDiacritics": "Poltsamaa",
+    "function": "3",
+    "lat": 58.65,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "POV",
+    "label": "Põlva",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Polva",
+    "function": "23",
+    "lat": 58.05,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "PRL",
+    "label": "Prangli Lõunasadam",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Prangli Lounasadam",
+    "function": "1",
+    "lat": 59.616667,
+    "lng": 25
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Purtse",
+    "subdivisionCode": "45",
+    "function": "13",
+    "lat": 59.416667,
+    "lng": 27
+  },
+  {
+    "locationCode": "PRJ",
+    "label": "Purtse Jahisadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.433333,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "PRK",
+    "label": "Purtse Kalasadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.433333,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "PUS",
+    "label": "Pusi",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.633333,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "AEI",
+    "label": "Püssi",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Pussi",
+    "function": "6",
+    "lat": 59.35,
+    "lng": 27.033333
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Raasiku",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "RAE",
+    "label": "Rae",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.383333,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "RAJ",
+    "label": "Raja",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.833333,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Rakvere",
+    "subdivisionCode": "60",
+    "function": "3",
+    "lat": 59.35,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "RLB",
+    "label": "Rälby Sadam",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Ralby Sadam",
+    "function": "1",
+    "lat": 59.033333,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Ramsi",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 58.3,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "RNM",
+    "label": "Rannametsa",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.116667,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "RPI",
+    "label": "Räpina",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Rapina",
+    "function": "1",
+    "lat": 58.133333,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "RPA",
+    "label": "Räpina",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Rapina",
+    "function": "3",
+    "lat": 58.1,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "AEG",
+    "label": "Rapla",
+    "subdivisionCode": "71",
+    "function": "6",
+    "lat": 59,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "RBS",
+    "label": "Rebase Paadisadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "RVS",
+    "label": "Remniku Vanasadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.016667,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "REO",
+    "label": "Reola",
+    "subdivisionCode": "79",
+    "function": "6"
+  },
+  {
+    "locationCode": "RPL",
+    "label": "Reopalu",
+    "subdivisionCode": "51",
+    "function": "6"
+  },
+  {
+    "locationCode": "RID",
+    "label": "Ridala",
+    "subdivisionCode": "56",
+    "function": "23",
+    "lat": 58.433333,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "RNG",
+    "label": "Ringsu",
+    "subdivisionCode": "74",
+    "function": "13",
+    "lat": 57.783333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "RST",
+    "label": "Ristna",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.266667,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "RJS",
+    "label": "Ristna Jahisadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.916667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "RLS",
+    "label": "Ristna Lõunasadam",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Ristna Lounasadam",
+    "function": "1",
+    "lat": 58.916667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "RHK",
+    "label": "Rohuküla",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Rohukula",
+    "function": "1",
+    "lat": 58.9,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "RON",
+    "label": "Rohuneeme",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.566667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "RNV",
+    "label": "Rohuneeme Väikesadam",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Rohuneeme Vaikesadam",
+    "function": "1",
+    "lat": 59.566667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "RGU",
+    "label": "Rõngu",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Rongu",
+    "function": "3",
+    "lat": 58.133333,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "RGR",
+    "label": "Roograhu",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 59,
+    "lng": 22.816667
+  },
+  {
+    "locationCode": "RMS",
+    "label": "Roomassaare",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.216667,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "ROO",
+    "label": "Roopa",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.266667,
+    "lng": 21.866667
+  },
+  {
+    "locationCode": "RUV",
+    "label": "Ruhve",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "SGS",
+    "label": "Saaga Sadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Saaremaa sadam",
+    "subdivisionCode": "74",
+    "function": "13",
+    "lat": 58.533333,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Saarepera",
+    "subdivisionCode": "64",
+    "function": "1",
+    "lat": 58.166667,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "SVS",
+    "label": "Saastna Vanasadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.733333,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "SAI",
+    "label": "Saiakopli",
+    "subdivisionCode": "60",
+    "function": "3",
+    "lat": 59.216667,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Saku",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.3,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Salinõmme",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Salinomme",
+    "function": "1",
+    "lat": 58.833333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "SNK",
+    "label": "Salinõmme Kalasadam",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Salinomme Kalasadam",
+    "function": "1",
+    "lat": 58.833333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "SNP",
+    "label": "Salinõmme Paadisadam",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Salinomme Paadisadam",
+    "function": "1",
+    "lat": 58.983333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salme",
+    "subdivisionCode": "74",
+    "function": "3",
+    "lat": 58.183333,
+    "lng": 22.25
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Salme Jõesadam",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Salme Joesadam",
+    "function": "1",
+    "lat": 58.166667,
+    "lng": 22.25
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Salmistu",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 59.5,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Salutaguse, Kaiu",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 58.983333,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sassukvere",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.716667,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saue",
+    "subdivisionCode": "37",
+    "function": "23",
+    "lat": 59.316667,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sauga",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 58.416667,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "SLJ",
+    "label": "Selja",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 58.4,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Sigatsuaru Väikesadam",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Sigatsuaru Vaikesadam",
+    "function": "1",
+    "lat": 58.15,
+    "lng": 24
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Sillamäe",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Sillamae",
+    "function": "123",
+    "lat": 59.416667,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sindi",
+    "subdivisionCode": "68",
+    "function": "23",
+    "lat": 58.4,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "SIP",
+    "label": "Sipa",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "SOE",
+    "label": "Soela",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.616667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Sõmeru",
+    "subdivisionCode": "60",
+    "labelWithDiacritics": "Someru",
+    "function": "3",
+    "lat": 59.366667,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Sonda",
+    "subdivisionCode": "45",
+    "function": "6",
+    "lat": 59.333333,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "SSO",
+    "label": "Soo",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 58.716667,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "SV6",
+    "label": "Soodevahe",
+    "subdivisionCode": "37",
+    "function": "6",
+    "lat": 59.4,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "SRU",
+    "label": "Sõru",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Soru",
+    "function": "1",
+    "lat": 58.7,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Sõru Väikelaevasadam",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Soru Vaikelaevasadam",
+    "function": "1",
+    "lat": 58.7,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "SUA",
+    "label": "Suaru",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.133333,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "SUK",
+    "label": "Suaru Kalasadam",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.133333,
+    "lng": 24
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Suur-Holmi",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Suur-Lootsi",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "SUR",
+    "label": "Suurpea",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.633333,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "SUS",
+    "label": "Suursadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "SVI",
+    "label": "Sviby",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Taaliku Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.6,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "AEH",
+    "label": "Tabasalu",
+    "subdivisionCode": "37",
+    "function": "6",
+    "lat": 59.416667,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tabivere",
+    "subdivisionCode": "79",
+    "function": "3",
+    "lat": 58.55,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "TAE",
+    "label": "Taebla",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 58.95,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "TLL",
+    "label": "Tallinn",
+    "subdivisionCode": "37",
+    "function": "12345",
+    "lat": 59.433333,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "TLV",
+    "label": "Talvesadam",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "TML",
+    "label": "Tammelao",
+    "subdivisionCode": "74",
+    "function": "0",
+    "lat": 58.416667,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "TMN",
+    "label": "Tammneeme Sadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.516667,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "AEA",
+    "label": "Tamsalu",
+    "subdivisionCode": "60",
+    "function": "6",
+    "lat": 59.15,
+    "lng": 26.1
+  },
+  {
+    "locationCode": "TAP",
+    "label": "Tapa",
+    "subdivisionCode": "60",
+    "function": "23",
+    "lat": 59.266667,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "TPL",
+    "label": "Tapurla",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.6,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "TMA",
+    "label": "Tärkma",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Tarkma",
+    "function": "1",
+    "lat": 58.683333,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "TAY",
+    "label": "Tartu",
+    "subdivisionCode": "79",
+    "function": "234",
+    "lat": 58.35,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Tarvastu",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 58.25,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "TIL",
+    "label": "Tilgu",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "TDV",
+    "label": "Tõdva",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Todva",
+    "function": "6",
+    "lat": 59.266667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "TOI",
+    "label": "Toila",
+    "subdivisionCode": "45",
+    "function": "13",
+    "lat": 59.433333,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "TJS",
+    "label": "Tori Jõesadam",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Tori Joesadam",
+    "function": "1",
+    "lat": 58.25,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "RVA",
+    "label": "Tõrva",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Torva",
+    "function": "3",
+    "lat": 58,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "TOV",
+    "label": "Tõrvandi",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Torvandi",
+    "function": "3",
+    "lat": 58.316667,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Treimani",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 57.916667,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "TGI",
+    "label": "Triigi",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.6,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "TLT",
+    "label": "Tuletorni",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.783333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Türi",
+    "subdivisionCode": "52",
+    "labelWithDiacritics": "Turi",
+    "function": "23",
+    "lat": 58.8,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "TJA",
+    "label": "Turja Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.333333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "TRU",
+    "label": "Turusadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "UIS",
+    "label": "Uisusadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.55,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "URG",
+    "label": "Ürgoru Paadisadam",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Urgoru Paadisadam",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "VPA",
+    "label": "Vahtrepa Sadam",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 58.883333,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vaida",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.283333,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "VMA",
+    "label": "Väike-Maarja",
+    "subdivisionCode": "60",
+    "labelWithDiacritics": "Vaike-Maarja",
+    "function": "3",
+    "lat": 59.116667,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "VTR",
+    "label": "Väike-Turu",
+    "subdivisionCode": "79",
+    "labelWithDiacritics": "Vaike-Turu",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vaisi",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 59.2,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "VAV",
+    "label": "Vaivara",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 59.366667,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "VLG",
+    "label": "Valga",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 57.766667,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "VLR",
+    "label": "Valmeranna",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.5,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vanasadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.45,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "VSG",
+    "label": "Vana-Sauga Sadam",
+    "subdivisionCode": "68",
+    "function": "1",
+    "lat": 58.383333,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "VDA",
+    "label": "Vändra",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Vandra",
+    "function": "23",
+    "lat": 58.65,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "VRI",
+    "label": "Värati",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Varati",
+    "function": "1",
+    "lat": 58.316667,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "VPS",
+    "label": "Varbla Puhkeküla",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Varbla Puhkekula",
+    "function": "1",
+    "lat": 58.433333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "VBA",
+    "label": "Varbola",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 59.05,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "VRS",
+    "label": "Varese Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.583333,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "VNJ",
+    "label": "Varnja Sadam",
+    "subdivisionCode": "79",
+    "function": "1",
+    "lat": 58.483333,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Värska Sadam",
+    "subdivisionCode": "87",
+    "labelWithDiacritics": "Varska Sadam",
+    "function": "1",
+    "lat": 57.95,
+    "lng": 27.616667
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Värssu",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Varssu",
+    "function": "1",
+    "lat": 58.933333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "VAA",
+    "label": "Vasalemma",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.233333,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Vasknarva",
+    "subdivisionCode": "45",
+    "function": "13",
+    "lat": 59,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "VVN",
+    "label": "Vasknarva Paadisadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "VUS",
+    "label": "Vasknarva Uussadam",
+    "subdivisionCode": "45",
+    "function": "1",
+    "lat": 59.016667,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "VEE",
+    "label": "Veere",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.466667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "VVM",
+    "label": "Veere Vanasadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.466667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "VEI",
+    "label": "Veibri",
+    "subdivisionCode": "79",
+    "function": "0",
+    "lat": 58.333333,
+    "lng": 26.783333
+  },
+  {
+    "locationCode": "VEB",
+    "label": "Vene-Balti",
+    "subdivisionCode": "37",
+    "function": "13",
+    "lat": 59.45,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "VER",
+    "label": "Vergi",
+    "subdivisionCode": "60",
+    "function": "1",
+    "lat": 58.6,
+    "lng": 26.1
+  },
+  {
+    "locationCode": "VIH",
+    "label": "Vihula",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 59.533333,
+    "lng": 29.15
+  },
+  {
+    "locationCode": "VII",
+    "label": "Viimsi",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 59.5,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Viinistu Sadam",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 59.65,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "VIK",
+    "label": "Vikati Sadam",
+    "subdivisionCode": "74",
+    "function": "1",
+    "lat": 58.366667,
+    "lng": 21.866667
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Viljandi",
+    "subdivisionCode": "84",
+    "function": "3",
+    "lat": 58.366667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Virtsu",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.583333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Virtsu Kalasadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.583333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "VVS",
+    "label": "Virtsu Vanasadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.583333,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "VDU",
+    "label": "Võidu",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Voidu",
+    "function": "1",
+    "lat": 58.316667,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "VOI",
+    "label": "Võiste",
+    "subdivisionCode": "68",
+    "labelWithDiacritics": "Voiste",
+    "function": "1",
+    "lat": 58.216667,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "VOP",
+    "label": "Võõpsu",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Voopsu",
+    "function": "1",
+    "lat": 58.083333,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "VOK",
+    "label": "Võõpsu Külasadam",
+    "subdivisionCode": "87",
+    "labelWithDiacritics": "Voopsu Kulasadam",
+    "function": "1",
+    "lat": 58.066667,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "VOU",
+    "label": "Vooru",
+    "subdivisionCode": "84",
+    "function": "23",
+    "lat": 58.133333,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "VRK",
+    "label": "Võrkaia",
+    "subdivisionCode": "74",
+    "labelWithDiacritics": "Vorkaia",
+    "function": "1",
+    "lat": 58.683333,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "VRU",
+    "label": "Võru",
+    "subdivisionCode": "87",
+    "labelWithDiacritics": "Voru",
+    "function": "6",
+    "lat": 57.833333,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "VOS",
+    "label": "Võsu",
+    "subdivisionCode": "60",
+    "labelWithDiacritics": "Vosu",
+    "function": "1",
+    "lat": 59.583333,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "WST",
+    "label": "Westmeri",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "WJS",
+    "label": "Westmeri Jahisadam",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 23.533333
+  }
+]

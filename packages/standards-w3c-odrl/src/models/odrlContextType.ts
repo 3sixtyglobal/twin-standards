@@ -1,21 +1,12 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
+import type { SingleOccurrenceArray } from "@twin.org/core";
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
-import type { OdrlContexts } from "./odrlContexts";
+import type { OdrlContexts } from "./odrlContexts.js";
 
 /**
  * The ODRL JSON-LD context type.
  */
 export type OdrlContextType =
-	| typeof OdrlContexts.ContextRoot
-	| [
-			...IJsonLdContextDefinitionElement[],
-			typeof OdrlContexts.ContextRoot,
-			IJsonLdContextDefinitionElement
-	  ]
-	| [
-			IJsonLdContextDefinitionElement,
-			typeof OdrlContexts.ContextRoot,
-			...IJsonLdContextDefinitionElement[]
-	  ];
+	| typeof OdrlContexts.Context
+	| SingleOccurrenceArray<IJsonLdContextDefinitionElement, typeof OdrlContexts.Context>;

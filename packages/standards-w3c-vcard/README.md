@@ -1,6 +1,6 @@
-# TWIN Standards W3C VCard
+# TWIN Standards W3C vCard
 
-Models which define the structure of [W3C VCard Standard](https://www.w3.org/TR/vcard-rdf/).
+This package provides data models for the [W3C vCard RDF vocabulary](https://www.w3.org/TR/vcard-rdf/), supporting interoperable exchange of profile and contact information.
 
 ## Installation
 

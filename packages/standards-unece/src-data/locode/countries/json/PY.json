@@ -1,0 +1,643 @@
+[
+  {
+    "locationCode": "ARE",
+    "label": "Aregua",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.283333,
+    "lng": -57.4
+  },
+  {
+    "locationCode": "AYE",
+    "label": "Arroyos y Esteros",
+    "subdivisionCode": "3",
+    "function": "6",
+    "lat": -25.066667,
+    "lng": -57.1
+  },
+  {
+    "locationCode": "ASU",
+    "label": "Asunción",
+    "subdivisionCode": "ASU",
+    "labelWithDiacritics": "Asuncion",
+    "function": "145",
+    "lat": -25.266667,
+    "lng": -57.666667
+  },
+  {
+    "locationCode": "AYO",
+    "label": "Ayolas",
+    "function": "4"
+  },
+  {
+    "locationCode": "BFA",
+    "label": "Bahia Negra",
+    "subdivisionCode": "16",
+    "function": "4",
+    "lat": -20.25,
+    "lng": -58.2
+  },
+  {
+    "locationCode": "BCM",
+    "label": "Barrio Caacupé Mí",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Barrio Caacupe Mi",
+    "function": "136",
+    "lat": -25.216667,
+    "lng": -57.55
+  },
+  {
+    "locationCode": "BVT",
+    "label": "Bella Vista",
+    "subdivisionCode": "7",
+    "function": "3",
+    "lat": -22.116667,
+    "lng": -56.516667
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Benjamin Aceval",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": -24.966667,
+    "lng": -57.566667
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Caacupé",
+    "subdivisionCode": "3",
+    "labelWithDiacritics": "Caacupe",
+    "function": "13",
+    "lat": -25.383333,
+    "lng": -57.133333
+  },
+  {
+    "locationCode": "GGU",
+    "label": "Caaguazu",
+    "subdivisionCode": "5",
+    "function": "6",
+    "lat": -25.45,
+    "lng": -56.016667
+  },
+  {
+    "locationCode": "CAC",
+    "label": "Calera Cue",
+    "subdivisionCode": "1",
+    "function": "1",
+    "lat": -22.533333,
+    "lng": -57.816667
+  },
+  {
+    "locationCode": "CCP",
+    "label": "Capiata",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -25.35,
+    "lng": -57.416667
+  },
+  {
+    "locationCode": "CRG",
+    "label": "Caraguatay",
+    "subdivisionCode": "3",
+    "function": "6",
+    "lat": -25.233333,
+    "lng": -56.816667
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Carlos Antonio Lopez",
+    "subdivisionCode": "7",
+    "function": "3",
+    "lat": -26.383333,
+    "lng": -54.75
+  },
+  {
+    "locationCode": "CDP",
+    "label": "Carmen del Paraná",
+    "subdivisionCode": "7",
+    "labelWithDiacritics": "Carmen del Parana",
+    "function": "6",
+    "lat": -27.233333,
+    "lng": -56.216667
+  },
+  {
+    "locationCode": "AGT",
+    "label": "Ciudad del Este",
+    "function": "14"
+  },
+  {
+    "locationCode": "CTT",
+    "label": "Colonia Catuete",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": -24.133333,
+    "lng": -54.616667
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Colonia Mariano Roque Alonso",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": -25.166667,
+    "lng": -57.55
+  },
+  {
+    "locationCode": "CND",
+    "label": "Colonia Neuland",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": -22.666667,
+    "lng": -60.116667
+  },
+  {
+    "locationCode": "CNP",
+    "label": "Concepción",
+    "subdivisionCode": "1",
+    "labelWithDiacritics": "Concepcion",
+    "function": "1",
+    "lat": -23.4,
+    "lng": -57.433333
+  },
+  {
+    "locationCode": "COO",
+    "label": "Coronel Oviedo",
+    "subdivisionCode": "5",
+    "function": "6",
+    "lat": -25.416667,
+    "lng": -56.45
+  },
+  {
+    "locationCode": "ENO",
+    "label": "Encarnación",
+    "subdivisionCode": "7",
+    "labelWithDiacritics": "Encarnacion",
+    "function": "145",
+    "lat": -27.333333,
+    "lng": -55.9
+  },
+  {
+    "locationCode": "ELP",
+    "label": "Estancia Loma Pyta",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": -23.566667,
+    "lng": -59.566667
+  },
+  {
+    "locationCode": "WQA",
+    "label": "Eusebio Ayala",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": -25.4,
+    "lng": -56.966667
+  },
+  {
+    "locationCode": "FNX",
+    "label": "Fenix",
+    "subdivisionCode": "ASU",
+    "function": "1"
+  },
+  {
+    "locationCode": "FDM",
+    "label": "Fernando De La Mora",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.316667,
+    "lng": -57.566667
+  },
+  {
+    "locationCode": "FLM",
+    "label": "Filadelfia",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRM",
+    "label": "Fram",
+    "subdivisionCode": "7",
+    "function": "6",
+    "lat": -26.983333,
+    "lng": -55.883333
+  },
+  {
+    "locationCode": "FUO",
+    "label": "Fuerte Olimpo",
+    "function": "13",
+    "lat": -21.05,
+    "lng": -57.866667
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guarambare",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.483333,
+    "lng": -57.466667
+  },
+  {
+    "locationCode": "HER",
+    "label": "Hernandarias",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -25.4,
+    "lng": -54.616667
+  },
+  {
+    "locationCode": "HHU",
+    "label": "Hohenau",
+    "subdivisionCode": "7",
+    "function": "6",
+    "lat": -22.083333,
+    "lng": -55.75
+  },
+  {
+    "locationCode": "ITE",
+    "label": "Ita Enramada",
+    "function": "1"
+  },
+  {
+    "locationCode": "ITC",
+    "label": "Itacurubi",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": -23.333333,
+    "lng": -57.366667
+  },
+  {
+    "locationCode": "ITA",
+    "label": "Itacurubi",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": -25.45,
+    "lng": -56.85
+  },
+  {
+    "locationCode": "TPT",
+    "label": "Itapua Poty",
+    "subdivisionCode": "7",
+    "function": "3",
+    "lat": -26.616667,
+    "lng": -55.516667
+  },
+  {
+    "locationCode": "CIG",
+    "label": "Itaugua",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -25.383333,
+    "lng": -57.333333
+  },
+  {
+    "locationCode": "IUB",
+    "label": "Iturbe",
+    "subdivisionCode": "4",
+    "function": "6",
+    "lat": -26.05,
+    "lng": -56.483333
+  },
+  {
+    "locationCode": "JEE",
+    "label": "J. E. Estigarribia",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.383333,
+    "lng": -55.6
+  },
+  {
+    "locationCode": "JFC",
+    "label": "José Falcón",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Jose Falcon",
+    "function": "3",
+    "lat": -25.25,
+    "lng": -57.7
+  },
+  {
+    "locationCode": "KTT",
+    "label": "Katuete",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": -24.116667,
+    "lng": -54.616667
+  },
+  {
+    "locationCode": "LPZ",
+    "label": "La Paz",
+    "function": "3",
+    "lat": -26.983333,
+    "lng": -55.883333
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lambare",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -25.35,
+    "lng": -57.65
+  },
+  {
+    "locationCode": "LPO",
+    "label": "Limpio",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -25.183333,
+    "lng": -57.533333
+  },
+  {
+    "locationCode": "MPT",
+    "label": "Loma Plata",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": -22.383333,
+    "lng": -59.85
+  },
+  {
+    "locationCode": "LUQ",
+    "label": "Luque",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 25.266667,
+    "lng": -57.566667
+  },
+  {
+    "locationCode": "ESG",
+    "label": "Mariscal Estigarribia",
+    "function": "4"
+  },
+  {
+    "locationCode": "INF",
+    "label": "Mayor Infante Rivarola",
+    "subdivisionCode": "19",
+    "lat": -21.666667,
+    "lng": -62.383333
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Minga Guazu",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -25.366667,
+    "lng": -54.75
+  },
+  {
+    "locationCode": "TQU",
+    "label": "Nemby",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.366667,
+    "lng": -57.6
+  },
+  {
+    "locationCode": "NES",
+    "label": "Nueva Esperanza",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": -24.5,
+    "lng": -54.85
+  },
+  {
+    "locationCode": "OBP",
+    "label": "Obligado",
+    "function": "6",
+    "lat": -27.033333,
+    "lng": -55.633333
+  },
+  {
+    "locationCode": "PJC",
+    "label": "Pedro Juan Caballero",
+    "function": "4"
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Pilar",
+    "function": "34"
+  },
+  {
+    "locationCode": "JPF",
+    "label": "Presidente Franco",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -25.533333,
+    "lng": -54.616667
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Puerto Antequera",
+    "subdivisionCode": "2",
+    "function": "1",
+    "lat": -24.083333,
+    "lng": -57.2
+  },
+  {
+    "locationCode": "PGU",
+    "label": "Puerto Guarani",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": -21.3,
+    "lng": -57.916667
+  },
+  {
+    "locationCode": "PCJ",
+    "label": "Puerto la Victoria",
+    "function": "123",
+    "lat": -22.283333,
+    "lng": -57.933333
+  },
+  {
+    "locationCode": "PBT",
+    "label": "Puerto Leda",
+    "subdivisionCode": "16",
+    "function": "4",
+    "lat": -20.716667,
+    "lng": -57.983333
+  },
+  {
+    "locationCode": "PPS",
+    "label": "Puerto Pinasco",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": -22.716667,
+    "lng": -57.833333
+  },
+  {
+    "locationCode": "PSJ",
+    "label": "Puerto San José",
+    "subdivisionCode": "7",
+    "labelWithDiacritics": "Puerto San Jose",
+    "function": "3",
+    "lat": -26.566667,
+    "lng": -54.8
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Puerto Sara",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": -25.433333,
+    "lng": -57.533333
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Salto del Guairá",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Salto del Guaira",
+    "function": "3",
+    "lat": -24.05,
+    "lng": -54.35
+  },
+  {
+    "locationCode": "SBT",
+    "label": "San Alberto",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -24.966667,
+    "lng": -54.9
+  },
+  {
+    "locationCode": "SAN",
+    "label": "San Antonio",
+    "function": "1"
+  },
+  {
+    "locationCode": "SJE",
+    "label": "San José",
+    "subdivisionCode": "7",
+    "labelWithDiacritics": "San Jose",
+    "function": "6",
+    "lat": -26.7,
+    "lng": -55.033333
+  },
+  {
+    "locationCode": "SLO",
+    "label": "San Lorenzo",
+    "function": "5"
+  },
+  {
+    "locationCode": "PYS",
+    "label": "San Pedro de Ycuamandiyu",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": -24.1,
+    "lng": -57.083333
+  },
+  {
+    "locationCode": "SPP",
+    "label": "San Pedro del Paraná",
+    "subdivisionCode": "7",
+    "labelWithDiacritics": "San Pedro del Parana",
+    "function": "6",
+    "lat": -26.833333,
+    "lng": -56.2
+  },
+  {
+    "locationCode": "SYG",
+    "label": "San Ygnacio",
+    "subdivisionCode": "8",
+    "function": "6",
+    "lat": -26.866667,
+    "lng": -57.05
+  },
+  {
+    "locationCode": "JSR",
+    "label": "Santa Rita",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -25.983333,
+    "lng": -54.95
+  },
+  {
+    "locationCode": "SRM",
+    "label": "Santa Rosa del Monday",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": -25.8,
+    "lng": -54.9
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terport (San Antonio)",
+    "function": "13",
+    "lat": -25.383333,
+    "lng": -57.633333
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tobati",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": -25.25,
+    "lng": -57.066667
+  },
+  {
+    "locationCode": "TND",
+    "label": "Trinidad",
+    "subdivisionCode": "7",
+    "function": "6",
+    "lat": -27.116667,
+    "lng": -55.783333
+  },
+  {
+    "locationCode": "VMI",
+    "label": "Vallemi",
+    "function": "4"
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Villa Elisa",
+    "function": "3",
+    "lat": 25.35,
+    "lng": -57.616667
+  },
+  {
+    "locationCode": "VFL",
+    "label": "Villa Florida",
+    "subdivisionCode": "9",
+    "function": "6",
+    "lat": -26.383333,
+    "lng": -57.15
+  },
+  {
+    "locationCode": "VHS",
+    "label": "Villa Hayes",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": -25.1,
+    "lng": -57.566667
+  },
+  {
+    "locationCode": "VLR",
+    "label": "Villarrica",
+    "subdivisionCode": "4",
+    "function": "6",
+    "lat": -25.75,
+    "lng": -56.433333
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Villeta",
+    "function": "1"
+  },
+  {
+    "locationCode": "Y2U",
+    "label": "Ybycui",
+    "subdivisionCode": "9",
+    "function": "3",
+    "lat": -26.016667,
+    "lng": -57.05
+  },
+  {
+    "locationCode": "YCI",
+    "label": "Ypacarai",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": -25.383333,
+    "lng": -57.266667
+  },
+  {
+    "locationCode": "YPE",
+    "label": "Ypane",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": -25.45,
+    "lng": -57.533333
+  }
+]

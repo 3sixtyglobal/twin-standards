@@ -1,0 +1,1442 @@
+[
+  {
+    "locationCode": "ZRA",
+    "label": "Adazi",
+    "subdivisionCode": "RIX",
+    "function": "6",
+    "lat": 57.066667,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Aglona",
+    "subdivisionCode": "001",
+    "function": "3",
+    "lat": 56.133333,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "AIN",
+    "label": "Ainazi",
+    "subdivisionCode": "054",
+    "function": "3",
+    "lat": 57.866667,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "AIZ",
+    "label": "Aizkraukle",
+    "subdivisionCode": "002",
+    "function": "23",
+    "lat": 56.6,
+    "lng": 25.216667
+  },
+  {
+    "locationCode": "APE",
+    "label": "Aizpute",
+    "subdivisionCode": "003",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "AKI",
+    "label": "Akniste",
+    "subdivisionCode": "JKB",
+    "function": "36",
+    "lat": 56.166667,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "ALJ",
+    "label": "Aloja",
+    "subdivisionCode": "005",
+    "function": "3",
+    "lat": 57.766667,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "6LV",
+    "label": "Alsunga",
+    "subdivisionCode": "006",
+    "function": "3",
+    "lat": 56.983333,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "ASE",
+    "label": "Aluksne",
+    "subdivisionCode": "002",
+    "function": "23",
+    "lat": 57.416667,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "AMT",
+    "label": "Amata",
+    "subdivisionCode": "008",
+    "function": "3",
+    "lat": 57.2,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "APP",
+    "label": "Ape",
+    "subdivisionCode": "007",
+    "function": "3",
+    "lat": 57.533333,
+    "lng": 26.666667
+  },
+  {
+    "locationCode": "AUC",
+    "label": "Auce",
+    "subdivisionCode": "010",
+    "function": "23",
+    "lat": 56.466667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "ARX",
+    "label": "Avoti",
+    "subdivisionCode": "RIX",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Babite",
+    "subdivisionCode": "079",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "B9G",
+    "label": "Baldone",
+    "subdivisionCode": "013",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "B8R",
+    "label": "Balozi",
+    "subdivisionCode": "052",
+    "function": "3",
+    "lat": 56.866667,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "BLN",
+    "label": "Baltinava",
+    "subdivisionCode": "014",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Baltmarine Terminal, Riga",
+    "subdivisionCode": "RIX"
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balvi",
+    "subdivisionCode": "015",
+    "function": "23",
+    "lat": 57.133333,
+    "lng": -27.25
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barkava",
+    "subdivisionCode": "059",
+    "function": "36",
+    "lat": 56.716667,
+    "lng": 26.6
+  },
+  {
+    "locationCode": "BAU",
+    "label": "Bauska",
+    "subdivisionCode": "016",
+    "function": "23",
+    "lat": 56.4,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Beverina",
+    "subdivisionCode": "017",
+    "function": "3",
+    "lat": 57.5,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "BZC",
+    "label": "Briezuciems",
+    "subdivisionCode": "015",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 27.583333
+  },
+  {
+    "locationCode": "BRC",
+    "label": "Broceni",
+    "subdivisionCode": "018",
+    "function": "23",
+    "lat": 56.7,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Bullu",
+    "subdivisionCode": "RIX",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 24
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Burtnieki",
+    "subdivisionCode": "019",
+    "function": "3",
+    "lat": 57.7,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "BRK",
+    "label": "Burtnieki",
+    "subdivisionCode": "099",
+    "function": "3",
+    "lat": 56.783333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "H5D",
+    "label": "Carnikava",
+    "subdivisionCode": "020",
+    "function": "3",
+    "lat": 57.116667,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "CEN",
+    "label": "Cena",
+    "subdivisionCode": "041",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "CES",
+    "label": "Cesis",
+    "subdivisionCode": "022",
+    "function": "23",
+    "lat": 57.316667,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "CSV",
+    "label": "Cesvaine",
+    "subdivisionCode": "021",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "CBL",
+    "label": "Cibla",
+    "subdivisionCode": "023",
+    "function": "3",
+    "lat": 56.55,
+    "lng": 27.883333
+  },
+  {
+    "locationCode": "CIM",
+    "label": "Cimdenieki",
+    "subdivisionCode": "032",
+    "function": "3",
+    "lat": 56.516667,
+    "lng": 21.083333
+  },
+  {
+    "locationCode": "DGD",
+    "label": "Dagda",
+    "subdivisionCode": "024",
+    "function": "3",
+    "lat": 56.1,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "DGP",
+    "label": "Daugavpils",
+    "subdivisionCode": "DGV",
+    "function": "24",
+    "lat": 55.883333,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dobele",
+    "subdivisionCode": "026",
+    "function": "23",
+    "lat": 56.616667,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "RI7",
+    "label": "Dreilini",
+    "subdivisionCode": "095",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 24.233333
+  },
+  {
+    "locationCode": "DUN",
+    "label": "Dundaga",
+    "function": "23"
+  },
+  {
+    "locationCode": "DRB",
+    "label": "Durbe",
+    "subdivisionCode": "028",
+    "function": "3",
+    "lat": 56.583333,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "JJ5",
+    "label": "Eleja",
+    "subdivisionCode": "041",
+    "function": "3",
+    "lat": 56.4,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "EGE",
+    "label": "Engure",
+    "subdivisionCode": "029",
+    "function": "13",
+    "lat": 57.166667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "ERG",
+    "label": "Ergli",
+    "subdivisionCode": "030",
+    "function": "3",
+    "lat": 56.9,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Gardene",
+    "subdivisionCode": "026",
+    "function": "3",
+    "lat": 56.633333,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "GKE",
+    "label": "Garkalne",
+    "subdivisionCode": "031",
+    "function": "23",
+    "lat": 57.033333,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Garkalne",
+    "subdivisionCode": "079",
+    "function": "3",
+    "lat": 57.066667,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Grebneva",
+    "subdivisionCode": "047",
+    "function": "3"
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Grobina",
+    "subdivisionCode": "LPX",
+    "function": "23",
+    "lat": 56.55,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Gudenieki",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 56.9,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "GUL",
+    "label": "Gulbene",
+    "subdivisionCode": "033",
+    "function": "23",
+    "lat": 57.166667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "ICV",
+    "label": "Iecava",
+    "subdivisionCode": "034",
+    "function": "3",
+    "lat": 56.583333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "IKK",
+    "label": "Ikskile",
+    "subdivisionCode": "035",
+    "function": "3",
+    "lat": 56.833333,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "ILU",
+    "label": "Ilukste",
+    "subdivisionCode": "025",
+    "function": "3",
+    "lat": 56.05,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "ICK",
+    "label": "Incukalns",
+    "subdivisionCode": "037",
+    "function": "23",
+    "lat": 57.083333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "JAU",
+    "label": "Jaunauce",
+    "subdivisionCode": "088",
+    "function": "3",
+    "lat": 56.45,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "JNJ",
+    "label": "Jaunjelgava",
+    "subdivisionCode": "092",
+    "function": "3",
+    "lat": 56.616667,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "JKN",
+    "label": "Jaunkalsnava",
+    "subdivisionCode": "059",
+    "function": "3",
+    "lat": 56.683333,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "JAP",
+    "label": "Jaunpagasts",
+    "subdivisionCode": "097",
+    "function": "3",
+    "lat": 57.133333,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "JNP",
+    "label": "Jaunpiebalga",
+    "subdivisionCode": "039",
+    "function": "3",
+    "lat": 57.183333,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "JPL",
+    "label": "Jaunpils",
+    "subdivisionCode": "040",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 23
+  },
+  {
+    "locationCode": "JPS",
+    "label": "Jekabpils",
+    "subdivisionCode": "042",
+    "function": "23",
+    "lat": 56.483333,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "JGA",
+    "label": "Jelgava",
+    "subdivisionCode": "JEL",
+    "function": "234",
+    "lat": 56.65,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "ZJA",
+    "label": "Jurmala",
+    "subdivisionCode": "JUR",
+    "function": "16",
+    "lat": 56.95,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "KDV",
+    "label": "Kandava",
+    "subdivisionCode": "043",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "UTY",
+    "label": "Karsava",
+    "subdivisionCode": "044",
+    "function": "3",
+    "lat": 56.783333,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "KGM",
+    "label": "Kegums",
+    "subdivisionCode": "051",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "KKV",
+    "label": "Kekava",
+    "subdivisionCode": "052",
+    "function": "36",
+    "lat": 56.816667,
+    "lng": 24.233333
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Koceni",
+    "subdivisionCode": "045",
+    "function": "3",
+    "lat": 57.516667,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "ZKE",
+    "label": "Koknese",
+    "subdivisionCode": "002",
+    "function": "6",
+    "lat": 56.65,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kraslava",
+    "subdivisionCode": "047",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Krimulda",
+    "subdivisionCode": "079",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Krustpils",
+    "function": "3",
+    "lat": 56.533333,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kuldiga",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "LMS",
+    "label": "Lapmezciems",
+    "subdivisionCode": "029",
+    "function": "3",
+    "lat": 57,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Launkalne",
+    "subdivisionCode": "094",
+    "function": "3",
+    "lat": 57.316667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "LZD",
+    "label": "Lazdona",
+    "subdivisionCode": "059",
+    "function": "3",
+    "lat": 56.833333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "LAZ",
+    "label": "Lazdukalns",
+    "function": "3",
+    "lat": 56.933333,
+    "lng": 27.083333
+  },
+  {
+    "locationCode": "LVD",
+    "label": "Lielvarde",
+    "subdivisionCode": "053",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "LPX",
+    "label": "Liepaja",
+    "subdivisionCode": "LPX",
+    "function": "134",
+    "lat": 56.516667,
+    "lng": 21.016667
+  },
+  {
+    "locationCode": "LPA",
+    "label": "Liepna",
+    "subdivisionCode": "007",
+    "function": "3",
+    "lat": 57.35,
+    "lng": 27.466667
+  },
+  {
+    "locationCode": "LGT",
+    "label": "Ligatne",
+    "subdivisionCode": "055",
+    "function": "3",
+    "lat": 57.233333,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "LBZ",
+    "label": "Limbazi",
+    "subdivisionCode": "054",
+    "function": "23",
+    "lat": 57.5,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "LVI",
+    "label": "Livani",
+    "subdivisionCode": "073",
+    "function": "23",
+    "lat": 56.366667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "LZS",
+    "label": "Lizums",
+    "subdivisionCode": "033",
+    "function": "23",
+    "lat": 57.2,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "LBN",
+    "label": "Lubana",
+    "subdivisionCode": "057",
+    "function": "3",
+    "lat": 56.9,
+    "lng": 26.716667
+  },
+  {
+    "locationCode": "BNH",
+    "label": "Ludza",
+    "subdivisionCode": "058",
+    "function": "3",
+    "lat": 56.55,
+    "lng": 27.716667
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madona",
+    "subdivisionCode": "059",
+    "function": "23",
+    "lat": 56.85,
+    "lng": 26.216667
+  },
+  {
+    "locationCode": "MPS",
+    "label": "Malpils",
+    "subdivisionCode": "RIX",
+    "function": "3",
+    "lat": 57,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malta",
+    "subdivisionCode": "077",
+    "function": "3",
+    "lat": 56.35,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "MGI",
+    "label": "Mangali",
+    "subdivisionCode": "003",
+    "function": "3",
+    "lat": 56.75,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "ZVT",
+    "label": "Marupe",
+    "subdivisionCode": "062",
+    "function": "3",
+    "lat": 56.9,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "MZC",
+    "label": "Mazsalaca",
+    "subdivisionCode": "060",
+    "function": "3",
+    "lat": 57.866667,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "MRX",
+    "label": "Mersrags",
+    "subdivisionCode": "063",
+    "function": "123",
+    "lat": 57.333333,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Misa",
+    "subdivisionCode": "105",
+    "function": "6",
+    "lat": 56.583333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Namiki",
+    "subdivisionCode": "088",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "NAU",
+    "label": "Naukseni",
+    "subdivisionCode": "064",
+    "function": "3",
+    "lat": 57.883333,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "NKS",
+    "label": "Naukseni",
+    "subdivisionCode": "064",
+    "function": "3",
+    "lat": 57.883333,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "NRT",
+    "label": "Nereta",
+    "subdivisionCode": "065",
+    "function": "3",
+    "lat": 56.166667,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "NCA",
+    "label": "Nica",
+    "subdivisionCode": "066",
+    "function": "3",
+    "lat": 56.35,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "ORE",
+    "label": "Ogre",
+    "subdivisionCode": "067",
+    "function": "23",
+    "lat": 56.8,
+    "lng": 24.616667
+  },
+  {
+    "locationCode": "OLA",
+    "label": "Olaine",
+    "subdivisionCode": "068",
+    "function": "23",
+    "lat": 56.783333,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "D7G",
+    "label": "Ozolnieki",
+    "subdivisionCode": "069",
+    "function": "3",
+    "lat": 56.683333,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "PBZ",
+    "label": "Pabazi",
+    "subdivisionCode": "089",
+    "function": "3",
+    "lat": 57.266667,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "PAC",
+    "label": "Pace",
+    "subdivisionCode": "016",
+    "function": "3",
+    "lat": 56.316667,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Pargauja",
+    "subdivisionCode": "070",
+    "function": "3",
+    "lat": 57.366667,
+    "lng": 25.016667
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Paternieki",
+    "subdivisionCode": "047",
+    "function": "3"
+  },
+  {
+    "locationCode": "PVT",
+    "label": "Pavilosta",
+    "subdivisionCode": "071",
+    "function": "13",
+    "lat": 56.883333,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Pinki",
+    "subdivisionCode": "032",
+    "function": "3",
+    "lat": 56.933333,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "PVN",
+    "label": "Plavinas",
+    "subdivisionCode": "072",
+    "function": "3",
+    "lat": 56.616667,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "PLC",
+    "label": "Ploce",
+    "subdivisionCode": "LPX",
+    "function": "2"
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Preli (Preili)",
+    "subdivisionCode": "073",
+    "function": "3",
+    "lat": 56.3,
+    "lng": 26.716667
+  },
+  {
+    "locationCode": "PKL",
+    "label": "Priekule",
+    "subdivisionCode": "075",
+    "function": "3",
+    "lat": 56.433333,
+    "lng": 21.583333
+  },
+  {
+    "locationCode": "PKU",
+    "label": "Priekuli",
+    "subdivisionCode": "022",
+    "function": "6",
+    "lat": 57.316667,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "TTU",
+    "label": "Pure",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Ragana",
+    "subdivisionCode": "048",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "RMV",
+    "label": "Ramava",
+    "subdivisionCode": "052",
+    "function": "3",
+    "lat": 56.883333,
+    "lng": 24.15
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Raubeni",
+    "subdivisionCode": "JEL",
+    "function": "3",
+    "lat": 56.65,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "RNA",
+    "label": "Rauna",
+    "subdivisionCode": "022",
+    "function": "3",
+    "lat": 57.333333,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "REN",
+    "label": "Renda",
+    "subdivisionCode": "050",
+    "function": "3",
+    "lat": 57.066667,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "REZ",
+    "label": "Rezekne",
+    "subdivisionCode": "077",
+    "function": "3",
+    "lat": 56.5,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "RBN",
+    "label": "Riebini",
+    "subdivisionCode": "078",
+    "function": "3",
+    "lat": 56.333333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "RIX",
+    "label": "Riga",
+    "subdivisionCode": "RIX",
+    "function": "1245"
+  },
+  {
+    "locationCode": "RBK",
+    "label": "Robeznieki",
+    "subdivisionCode": "015",
+    "function": "3",
+    "lat": 57.216667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "ROJ",
+    "label": "Roja",
+    "subdivisionCode": "079",
+    "function": "13",
+    "lat": 57.5,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "ROP",
+    "label": "Ropazi",
+    "subdivisionCode": "080",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "RPZ",
+    "label": "Ropazi",
+    "subdivisionCode": "080",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "ZRU",
+    "label": "Rucava",
+    "subdivisionCode": "081",
+    "function": "6",
+    "lat": 56.166667,
+    "lng": 21.15
+  },
+  {
+    "locationCode": "RGJ",
+    "label": "Rugaji",
+    "subdivisionCode": "082",
+    "function": "3",
+    "lat": 57,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "RJN",
+    "label": "Rujiena",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 57.9,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumbula",
+    "subdivisionCode": "095",
+    "function": "3",
+    "lat": 56.866667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "RDL",
+    "label": "Rundale",
+    "subdivisionCode": "083",
+    "function": "3",
+    "lat": 56.416667,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Sala",
+    "subdivisionCode": "085",
+    "function": "3",
+    "lat": 56.5,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salacgriva",
+    "subdivisionCode": "054",
+    "function": "13",
+    "lat": 57.75,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "SPS",
+    "label": "Salaspils",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 56.85,
+    "lng": 24.333333
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Saldus",
+    "subdivisionCode": "088",
+    "function": "23",
+    "lat": 56.666667,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarkani",
+    "subdivisionCode": "059",
+    "function": "3",
+    "lat": 56.883333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Saulkrasti",
+    "subdivisionCode": "089",
+    "function": "3",
+    "lat": 57.25,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Sauriesi",
+    "subdivisionCode": "RIX",
+    "function": "3",
+    "lat": 56.916667,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "ZSA",
+    "label": "Seda",
+    "subdivisionCode": "096",
+    "function": "6",
+    "lat": 57.65,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "SEJ",
+    "label": "Seja",
+    "subdivisionCode": "090",
+    "function": "3",
+    "lat": 57.2,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "RQA",
+    "label": "Sidgunda",
+    "subdivisionCode": "061",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Sigulda",
+    "subdivisionCode": "091",
+    "function": "36",
+    "lat": 57.15,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Skriveri",
+    "function": "3",
+    "lat": 56.65,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "SRD",
+    "label": "Skrunda",
+    "subdivisionCode": "093",
+    "function": "3",
+    "lat": 56.683333,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Skulte",
+    "subdivisionCode": "054",
+    "function": "123",
+    "lat": 57.316667,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "SPG",
+    "label": "Slampes Pagasts",
+    "subdivisionCode": "099",
+    "function": "3",
+    "lat": 56.833333,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Smarde",
+    "subdivisionCode": "029",
+    "function": "3",
+    "lat": 56.95,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "STE",
+    "label": "Smiltene",
+    "subdivisionCode": "094",
+    "function": "23",
+    "lat": 57.433333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "STO",
+    "label": "Stopini",
+    "subdivisionCode": "087",
+    "function": "3",
+    "lat": 56.933333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "STC",
+    "label": "Strenci",
+    "subdivisionCode": "096",
+    "function": "3",
+    "lat": 57.616667,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "TSN",
+    "label": "Stunisi",
+    "subdivisionCode": "RIX",
+    "function": "3",
+    "lat": 56.866667,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "TSI",
+    "label": "Talsi",
+    "subdivisionCode": "097",
+    "function": "3",
+    "lat": 57.25,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Targale",
+    "subdivisionCode": "106",
+    "function": "3",
+    "lat": 57.333333,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Taurene",
+    "subdivisionCode": "022",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terehova",
+    "subdivisionCode": "001",
+    "function": "3"
+  },
+  {
+    "locationCode": "TVT",
+    "label": "Tervete",
+    "subdivisionCode": "041",
+    "function": "3",
+    "lat": 56.633333,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Tervete",
+    "subdivisionCode": "098",
+    "function": "3",
+    "lat": 56.466667,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "XRT",
+    "label": "Tiraine",
+    "subdivisionCode": "062",
+    "function": "3",
+    "lat": 56.866667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "TKM",
+    "label": "Tukums",
+    "subdivisionCode": "099",
+    "function": "23",
+    "lat": 56.966667,
+    "lng": 23.15
+  },
+  {
+    "locationCode": "LM8",
+    "label": "Ungurpils",
+    "subdivisionCode": "005",
+    "function": "3",
+    "lat": 57.766667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "UZV",
+    "label": "Uzvara",
+    "subdivisionCode": "016",
+    "function": "3",
+    "lat": 56.316667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "VVM",
+    "label": "Vaidava",
+    "subdivisionCode": "045",
+    "function": "3",
+    "lat": 57.433333,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "VND",
+    "label": "Vainode",
+    "subdivisionCode": "100",
+    "function": "3",
+    "lat": 56.433333,
+    "lng": 21.866667
+  },
+  {
+    "locationCode": "VGE",
+    "label": "Valdgale",
+    "subdivisionCode": "097",
+    "function": "23",
+    "lat": 57.283333,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valka",
+    "subdivisionCode": "101",
+    "function": "23",
+    "lat": 57.766667,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Valle",
+    "subdivisionCode": "002",
+    "function": "3",
+    "lat": 56.5,
+    "lng": 24.716667
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Valmiera",
+    "subdivisionCode": "VMR",
+    "function": "3"
+  },
+  {
+    "locationCode": "VGI",
+    "label": "Vangazi",
+    "subdivisionCode": "037",
+    "function": "23",
+    "lat": 57.083333,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "VKN",
+    "label": "Varaklani",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 56.616667,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "VKV",
+    "label": "Varkava",
+    "subdivisionCode": "004",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "VRK",
+    "label": "Varkava",
+    "subdivisionCode": "103",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "VBG",
+    "label": "Vecpiebalga",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 57.016667,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "VCE",
+    "label": "Vecsaule",
+    "subdivisionCode": "016",
+    "function": "3",
+    "lat": 56.416667,
+    "lng": 24.333333
+  },
+  {
+    "locationCode": "VMK",
+    "label": "Vecumnieki",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 56.666667,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "VCK",
+    "label": "Vecumnieki",
+    "subdivisionCode": "105",
+    "function": "3",
+    "lat": 56.6,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "VNT",
+    "label": "Ventspils",
+    "subdivisionCode": "VEN",
+    "function": "1"
+  },
+  {
+    "locationCode": "VSA",
+    "label": "Veselava",
+    "subdivisionCode": "075",
+    "function": "3",
+    "lat": 57.283333,
+    "lng": 25.483333
+  },
+  {
+    "locationCode": "VST",
+    "label": "Viesite",
+    "subdivisionCode": "107",
+    "function": "3",
+    "lat": 56.35,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Vilaka",
+    "subdivisionCode": "015",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "VLN",
+    "label": "Vilani",
+    "subdivisionCode": "109",
+    "function": "3",
+    "lat": 56.55,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "VAP",
+    "label": "Vilpulka",
+    "subdivisionCode": "084",
+    "function": "3",
+    "lat": 57.95,
+    "lng": 25.233333
+  },
+  {
+    "locationCode": "ZAK",
+    "label": "Zakumuiza",
+    "subdivisionCode": "080",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "ZIL",
+    "label": "Zilaiskalns",
+    "subdivisionCode": "045",
+    "function": "3",
+    "lat": 57.516667,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "ZLP",
+    "label": "Zilupe",
+    "subdivisionCode": "058",
+    "function": "23",
+    "lat": 56.383333,
+    "lng": 28.116667
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "code": "01",
+    "label": "Phyeongyang",
+    "type": "Capital City"
+  },
+  {
+    "code": "02",
+    "label": "Phyeongannamto",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Phyeonganpukto",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Jakangto",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Hwanghainamto",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Hwanghaipukto",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Kangweonto",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Hamkyeongnamto",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Hamkyeongpukto",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Ryanggang-do",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Rason",
+    "type": "Special City"
+  },
+  {
+    "code": "14",
+    "label": "Nampo",
+    "type": "Metropolitan City"
+  },
+  {
+    "code": "15",
+    "label": "Kaeseong",
+    "type": "Metropolitan City"
+  }
+]

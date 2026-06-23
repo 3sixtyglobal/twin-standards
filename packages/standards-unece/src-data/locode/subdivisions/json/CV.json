@@ -1,0 +1,112 @@
+[
+  {
+    "code": "BR",
+    "label": "Brava",
+    "type": "Municipality"
+  },
+  {
+    "code": "BV",
+    "label": "Boa Vista",
+    "type": "Municipality"
+  },
+  {
+    "code": "CA",
+    "label": "Santa Catarina",
+    "type": "Municipality"
+  },
+  {
+    "code": "CF",
+    "label": "Santa Catarina do Fogo",
+    "type": "Municipality"
+  },
+  {
+    "code": "CR",
+    "label": "Santa Cruz",
+    "type": "Municipality"
+  },
+  {
+    "code": "MA",
+    "label": "Maio",
+    "type": "Municipality"
+  },
+  {
+    "code": "MO",
+    "label": "Mosteiros",
+    "type": "Municipality"
+  },
+  {
+    "code": "PA",
+    "label": "Paul",
+    "type": "Municipality"
+  },
+  {
+    "code": "PN",
+    "label": "Porto Novo",
+    "type": "Municipality"
+  },
+  {
+    "code": "PR",
+    "label": "Praia",
+    "type": "Municipality"
+  },
+  {
+    "code": "RB",
+    "label": "Ribeira Brava",
+    "type": "Municipality"
+  },
+  {
+    "code": "RG",
+    "label": "Ribeira Grande",
+    "type": "Municipality"
+  },
+  {
+    "code": "RS",
+    "label": "Ribeira Grande de Santiago",
+    "type": "Municipality"
+  },
+  {
+    "code": "SD",
+    "label": "São Domingos",
+    "type": "Municipality"
+  },
+  {
+    "code": "SF",
+    "label": "São Filipe",
+    "type": "Municipality"
+  },
+  {
+    "code": "SL",
+    "label": "Sal",
+    "type": "Municipality"
+  },
+  {
+    "code": "SM",
+    "label": "São Miguel",
+    "type": "Municipality"
+  },
+  {
+    "code": "SO",
+    "label": "São Lourenço dos Órgãos",
+    "type": "Municipality"
+  },
+  {
+    "code": "SS",
+    "label": "São Salvador do Mundo",
+    "type": "Municipality"
+  },
+  {
+    "code": "SV",
+    "label": "São Vicente",
+    "type": "Municipality"
+  },
+  {
+    "code": "TA",
+    "label": "Tarrafal",
+    "type": "Municipality"
+  },
+  {
+    "code": "TS",
+    "label": "Tarrafal de São Nicolau",
+    "type": "Municipality"
+  }
+]

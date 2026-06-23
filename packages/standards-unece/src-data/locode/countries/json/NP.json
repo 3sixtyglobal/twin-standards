@@ -1,0 +1,361 @@
+[
+  {
+    "locationCode": "ANP",
+    "label": "Annapurna",
+    "function": "3"
+  },
+  {
+    "locationCode": "BGL",
+    "label": "Baglung",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIT",
+    "label": "Baitadi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BJH",
+    "label": "Bajhang",
+    "function": "4"
+  },
+  {
+    "locationCode": "BJU",
+    "label": "Bajura",
+    "function": "4"
+  },
+  {
+    "locationCode": "BDP",
+    "label": "Bhadrapur",
+    "function": "4"
+  },
+  {
+    "locationCode": "BBI",
+    "label": "Bhairahawa",
+    "subdivisionCode": "LU",
+    "function": "6",
+    "lat": 27.5,
+    "lng": 83.45
+  },
+  {
+    "locationCode": "BWA",
+    "label": "Bhairawa",
+    "function": "4"
+  },
+  {
+    "locationCode": "BHR",
+    "label": "Bharatpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "BHP",
+    "label": "Bhojpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Biratnagar",
+    "function": "34"
+  },
+  {
+    "locationCode": "BRI",
+    "label": "Biratnagar",
+    "subdivisionCode": "KO",
+    "function": "6",
+    "lat": 26.483333,
+    "lng": 87.283333
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Birgunj",
+    "function": "3"
+  },
+  {
+    "locationCode": "BSI",
+    "label": "Birgunj ICD",
+    "subdivisionCode": "NA",
+    "function": "6",
+    "lat": 27.016667,
+    "lng": 84.866667
+  },
+  {
+    "locationCode": "BTW",
+    "label": "Butwal",
+    "subdivisionCode": "LU",
+    "function": "3",
+    "lat": 27.7,
+    "lng": 83.45
+  },
+  {
+    "locationCode": "HRJ",
+    "label": "Chaurjhari",
+    "function": "4"
+  },
+  {
+    "locationCode": "DHU",
+    "label": "Dadeldhura",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": 29.3,
+    "lng": 80.583333
+  },
+  {
+    "locationCode": "DNP",
+    "label": "Dang",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAP",
+    "label": "Darchula",
+    "function": "4"
+  },
+  {
+    "locationCode": "DDG",
+    "label": "Dhading",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 27.866667,
+    "lng": 84.916667
+  },
+  {
+    "locationCode": "DHI",
+    "label": "Dhangarhi",
+    "function": "4"
+  },
+  {
+    "locationCode": "DHG",
+    "label": "Dhaulagiri",
+    "function": "0"
+  },
+  {
+    "locationCode": "DOP",
+    "label": "Dolpa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GKH",
+    "label": "Gorkha",
+    "function": "4"
+  },
+  {
+    "locationCode": "HET",
+    "label": "Hetauda",
+    "subdivisionCode": "NA",
+    "function": "3",
+    "lat": 27.416667,
+    "lng": 85.033333
+  },
+  {
+    "locationCode": "ILM",
+    "label": "Ilam",
+    "subdivisionCode": "ME",
+    "function": "3",
+    "lat": 26.9,
+    "lng": 87.933333
+  },
+  {
+    "locationCode": "JKR",
+    "label": "Janakpur",
+    "function": "4"
+  },
+  {
+    "locationCode": "JIR",
+    "label": "Jiri",
+    "function": "4"
+  },
+  {
+    "locationCode": "JMO",
+    "label": "Jomsom",
+    "function": "4"
+  },
+  {
+    "locationCode": "JUM",
+    "label": "Jumla",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Kailali",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kakarbitta",
+    "function": "3"
+  },
+  {
+    "locationCode": "KGJ",
+    "label": "Kanchenjunga",
+    "function": "3",
+    "lat": 27.716667,
+    "lng": 88.216667
+  },
+  {
+    "locationCode": "KTM",
+    "label": "Kathmandu",
+    "function": "345"
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Krishnanagar",
+    "subdivisionCode": "LU",
+    "function": "3",
+    "lat": 27.5,
+    "lng": 82.783333
+  },
+  {
+    "locationCode": "LDN",
+    "label": "Lamidanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTG",
+    "label": "Langtang",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUA",
+    "label": "Lukla",
+    "function": "4"
+  },
+  {
+    "locationCode": "XMG",
+    "label": "Mahendranagar",
+    "function": "4",
+    "lat": 29.25,
+    "lng": 80.133333
+  },
+  {
+    "locationCode": "NGX",
+    "label": "Manang",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEY",
+    "label": "Meghauli",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWP",
+    "label": "Mountain",
+    "function": "4"
+  },
+  {
+    "locationCode": "LLU",
+    "label": "Nawalparasi",
+    "subdivisionCode": "LU",
+    "function": "16",
+    "lat": 27.533333,
+    "lng": 83.666667
+  },
+  {
+    "locationCode": "KEP",
+    "label": "Nepalganj",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPL",
+    "label": "Phaplu",
+    "function": "4"
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Pokhara",
+    "function": "4"
+  },
+  {
+    "locationCode": "RJB",
+    "label": "Rajbiraj",
+    "function": "4"
+  },
+  {
+    "locationCode": "RHP",
+    "label": "Ramechhap",
+    "function": "4"
+  },
+  {
+    "locationCode": "RPA",
+    "label": "Rolpa",
+    "function": "4"
+  },
+  {
+    "locationCode": "RUK",
+    "label": "Rukumkot",
+    "function": "4"
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumjatar",
+    "function": "4"
+  },
+  {
+    "locationCode": "RUP",
+    "label": "Rupandehi",
+    "subdivisionCode": "P5",
+    "function": "3",
+    "lat": 27.583333,
+    "lng": 83.433333
+  },
+  {
+    "locationCode": "FEB",
+    "label": "Sanfebagar",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIH",
+    "label": "Silgarhi-Doti",
+    "function": "4",
+    "lat": 29.266667,
+    "lng": 80.983333
+  },
+  {
+    "locationCode": "SIF",
+    "label": "Simara",
+    "function": "4"
+  },
+  {
+    "locationCode": "IMK",
+    "label": "Simikot",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sunauli",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Surkhet",
+    "function": "4"
+  },
+  {
+    "locationCode": "SYH",
+    "label": "Syangboche",
+    "function": "4"
+  },
+  {
+    "locationCode": "TPJ",
+    "label": "Taplejung",
+    "function": "4"
+  },
+  {
+    "locationCode": "TPU",
+    "label": "Tikapur",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Triveni",
+    "subdivisionCode": "GA",
+    "function": "36",
+    "lat": 27.45,
+    "lng": 83.9
+  },
+  {
+    "locationCode": "TMI",
+    "label": "Tumlingtar",
+    "function": "4",
+    "lat": 27.3,
+    "lng": 87.2
+  }
+]

@@ -1,15 +1,15 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { LeftOperandType } from "./types/leftOperandType";
-import type { OperatorType } from "./types/operatorType";
-import type { StatusType } from "./types/statusType";
+import type { ObjectOrArray } from "@twin.org/core";
+import type { OdrlLeftOperandType } from "./types/odrlLeftOperandType.js";
+import type { OdrlOperatorType } from "./types/odrlOperatorType.js";
+import type { OdrlStatusType } from "./types/odrlStatusType.js";
 
 /**
  * Interface for ODRL Constraints.
+ * https://www.w3.org/TR/odrl-model/#constraint
  */
-export interface IOdrlConstraint extends IJsonLdNodeObject {
+export interface IOdrlConstraint {
 	/**
 	 * Optional unique identifier for the constraint.
 	 */
@@ -18,19 +18,20 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 	/**
 	 * The left operand of the constraint.
 	 */
-	leftOperand: string | LeftOperandType;
+	leftOperand: string | OdrlLeftOperandType;
 
 	/**
 	 * The operator of the constraint.
 	 */
-	operator: OperatorType;
+	operator: OdrlOperatorType;
 
 	/**
 	 * The right operand of the constraint.
 	 * value with optional @type is used for literal values (like "5.00" with type "xsd:decimal")
 	 * id is used when referencing a URI/identifier (like odrl:policyUsage)
+	 * Mutually exclusive with rightOperandReference.
 	 */
-	rightOperand?:
+	rightOperand?: ObjectOrArray<
 		| string
 		| {
 				"@value": string;
@@ -38,12 +39,15 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 		  }
 		| {
 				"@id": string;
-		  };
+		  }
+	>;
 
 	/**
 	 * Reference to the right operand.
+	 * Can be used to reference external resources or policies using an IRI.
+	 * Mutually exclusive with rightOperand.
 	 */
-	rightOperandReference?: string;
+	rightOperandReference?: ObjectOrArray<string>;
 
 	/**
 	 * The data type of the right operand.
@@ -58,5 +62,5 @@ export interface IOdrlConstraint extends IJsonLdNodeObject {
 	/**
 	 * The status value for comparison.
 	 */
-	status?: StatusType;
+	status?: OdrlStatusType;
 }

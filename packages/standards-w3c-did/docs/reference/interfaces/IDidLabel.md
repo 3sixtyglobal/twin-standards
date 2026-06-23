@@ -4,7 +4,7 @@ Interface describing a DID Label.
 
 ## Properties
 
-### @value
+### @value {#value}
 
 > **@value**: `string`
 
@@ -12,7 +12,7 @@ The value for the label.
 
 ***
 
-### @language
+### @language {#language}
 
 > **@language**: `string`
 
@@ -20,8 +20,8 @@ The language for the label.
 
 ***
 
-### @direction?
+### @direction? {#direction}
 
-> `optional` **@direction**: `string`
+> `optional` **@direction?**: `string`
 
 The direction of the label.

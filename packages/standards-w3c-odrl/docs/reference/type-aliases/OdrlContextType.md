@@ -1,5 +1,5 @@
 # Type Alias: OdrlContextType
 
-> **OdrlContextType** = *typeof* [`ContextRoot`](../variables/OdrlContexts.md#contextroot) \| \[`...IJsonLdContextDefinitionElement[]`, *typeof* [`ContextRoot`](../variables/OdrlContexts.md#contextroot), `IJsonLdContextDefinitionElement`\] \| \[`IJsonLdContextDefinitionElement`, *typeof* [`ContextRoot`](../variables/OdrlContexts.md#contextroot), `...IJsonLdContextDefinitionElement[]`\]
+> **OdrlContextType** = *typeof* [`Context`](../variables/OdrlContexts.md#context) \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, *typeof* [`Context`](../variables/OdrlContexts.md#context)\>
 
 The ODRL JSON-LD context type.

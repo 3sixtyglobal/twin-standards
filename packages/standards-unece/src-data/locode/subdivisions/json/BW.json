@@ -1,0 +1,82 @@
+[
+  {
+    "code": "CE",
+    "label": "Central",
+    "type": "District"
+  },
+  {
+    "code": "CH",
+    "label": "Chobe",
+    "type": "District"
+  },
+  {
+    "code": "FR",
+    "label": "Francistown",
+    "type": "City"
+  },
+  {
+    "code": "GA",
+    "label": "Gaborone",
+    "type": "City"
+  },
+  {
+    "code": "GH",
+    "label": "Ghanzi",
+    "type": "District"
+  },
+  {
+    "code": "JW",
+    "label": "Jwaneng",
+    "type": "Town"
+  },
+  {
+    "code": "KG",
+    "label": "Kgalagadi",
+    "type": "District"
+  },
+  {
+    "code": "KL",
+    "label": "Kgatleng",
+    "type": "District"
+  },
+  {
+    "code": "KW",
+    "label": "Kweneng",
+    "type": "District"
+  },
+  {
+    "code": "LO",
+    "label": "Lobatse",
+    "type": "Town"
+  },
+  {
+    "code": "NE",
+    "label": "North East",
+    "type": "District"
+  },
+  {
+    "code": "NW",
+    "label": "North West",
+    "type": "District"
+  },
+  {
+    "code": "SE",
+    "label": "South East",
+    "type": "District"
+  },
+  {
+    "code": "SO",
+    "label": "Southern",
+    "type": "District"
+  },
+  {
+    "code": "SP",
+    "label": "Selibe Phikwe",
+    "type": "Town"
+  },
+  {
+    "code": "ST",
+    "label": "Sowa Town",
+    "type": "Town"
+  }
+]

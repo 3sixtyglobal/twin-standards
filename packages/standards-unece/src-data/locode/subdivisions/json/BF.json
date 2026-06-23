@@ -1,0 +1,222 @@
+[
+  {
+    "code": "BAL",
+    "label": "Balé",
+    "type": "Province"
+  },
+  {
+    "code": "BAM",
+    "label": "Bam",
+    "type": "Province"
+  },
+  {
+    "code": "BAN",
+    "label": "Banwa",
+    "type": "Province"
+  },
+  {
+    "code": "BGR",
+    "label": "Bougouriba",
+    "type": "Province"
+  },
+  {
+    "code": "BLG",
+    "label": "Boulgou",
+    "type": "Province"
+  },
+  {
+    "code": "BLK",
+    "label": "Boulkiemdé",
+    "type": "Province"
+  },
+  {
+    "code": "COM",
+    "label": "Comoé",
+    "type": "Province"
+  },
+  {
+    "code": "GAN",
+    "label": "Ganzourgou",
+    "type": "Province"
+  },
+  {
+    "code": "GNA",
+    "label": "Gnagna",
+    "type": "Province"
+  },
+  {
+    "code": "GOU",
+    "label": "Gourma",
+    "type": "Province"
+  },
+  {
+    "code": "HOU",
+    "label": "Houet",
+    "type": "Province"
+  },
+  {
+    "code": "IOB",
+    "label": "Ioba",
+    "type": "Province"
+  },
+  {
+    "code": "KAD",
+    "label": "Kadiogo",
+    "type": "Province"
+  },
+  {
+    "code": "KEN",
+    "label": "Kénédougou",
+    "type": "Province"
+  },
+  {
+    "code": "KMD",
+    "label": "Komondjari",
+    "type": "Province"
+  },
+  {
+    "code": "KMP",
+    "label": "Kompienga",
+    "type": "Province"
+  },
+  {
+    "code": "KOP",
+    "label": "Koulpélogo",
+    "type": "Province"
+  },
+  {
+    "code": "KOS",
+    "label": "Kossi",
+    "type": "Province"
+  },
+  {
+    "code": "KOT",
+    "label": "Kouritenga",
+    "type": "Province"
+  },
+  {
+    "code": "KOW",
+    "label": "Kourwéogo",
+    "type": "Province"
+  },
+  {
+    "code": "LER",
+    "label": "Léraba",
+    "type": "Province"
+  },
+  {
+    "code": "LOR",
+    "label": "Loroum",
+    "type": "Province"
+  },
+  {
+    "code": "MOU",
+    "label": "Mouhoun",
+    "type": "Province"
+  },
+  {
+    "code": "NAM",
+    "label": "Namentenga",
+    "type": "Province"
+  },
+  {
+    "code": "NAO",
+    "label": "Nahouri",
+    "type": "Province"
+  },
+  {
+    "code": "NAY",
+    "label": "Nayala",
+    "type": "Province"
+  },
+  {
+    "code": "NOU",
+    "label": "Noumbiel",
+    "type": "Province"
+  },
+  {
+    "code": "OUB",
+    "label": "Oubritenga",
+    "type": "Province"
+  },
+  {
+    "code": "OUD",
+    "label": "Oudalan",
+    "type": "Province"
+  },
+  {
+    "code": "PAS",
+    "label": "Passoré",
+    "type": "Province"
+  },
+  {
+    "code": "PON",
+    "label": "Poni",
+    "type": "Province"
+  },
+  {
+    "code": "SEN",
+    "label": "Séno",
+    "type": "Province"
+  },
+  {
+    "code": "SIS",
+    "label": "Sissili",
+    "type": "Province"
+  },
+  {
+    "code": "SMT",
+    "label": "Sanmatenga",
+    "type": "Province"
+  },
+  {
+    "code": "SNG",
+    "label": "Sanguié",
+    "type": "Province"
+  },
+  {
+    "code": "SOM",
+    "label": "Soum",
+    "type": "Province"
+  },
+  {
+    "code": "SOR",
+    "label": "Sourou",
+    "type": "Province"
+  },
+  {
+    "code": "TAP",
+    "label": "Tapoa",
+    "type": "Province"
+  },
+  {
+    "code": "TUI",
+    "label": "Tuy",
+    "type": "Province"
+  },
+  {
+    "code": "YAG",
+    "label": "Yagha",
+    "type": "Province"
+  },
+  {
+    "code": "YAT",
+    "label": "Yatenga",
+    "type": "Province"
+  },
+  {
+    "code": "ZIR",
+    "label": "Ziro",
+    "type": "Province"
+  },
+  {
+    "code": "ZON",
+    "label": "Zondoma",
+    "type": "Province"
+  },
+  {
+    "code": "ZOU",
+    "label": "Zoundwéogo",
+    "type": "Province"
+  }
+]

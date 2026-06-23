@@ -1,0 +1,412 @@
+[
+  {
+    "code": "00",
+    "label": "National Capital Région (Manila)",
+    "type": "Region"
+  },
+  {
+    "code": "ABR",
+    "label": "Abra",
+    "type": "Province"
+  },
+  {
+    "code": "AGN",
+    "label": "Agusan del Norte",
+    "type": "Province"
+  },
+  {
+    "code": "AGS",
+    "label": "Agusan del Sur",
+    "type": "Province"
+  },
+  {
+    "code": "AKL",
+    "label": "Aklan",
+    "type": "Province"
+  },
+  {
+    "code": "ALB",
+    "label": "Albay",
+    "type": "Province"
+  },
+  {
+    "code": "ANT",
+    "label": "Antique",
+    "type": "Province"
+  },
+  {
+    "code": "APA",
+    "label": "Apayao",
+    "type": "Province"
+  },
+  {
+    "code": "AUR",
+    "label": "Aurora",
+    "type": "Province"
+  },
+  {
+    "code": "BAN",
+    "label": "Bataan",
+    "type": "Province"
+  },
+  {
+    "code": "BAS",
+    "label": "Basilan",
+    "type": "Province"
+  },
+  {
+    "code": "BEN",
+    "label": "Benguet",
+    "type": "Province"
+  },
+  {
+    "code": "BIL",
+    "label": "Biliran",
+    "type": "Province"
+  },
+  {
+    "code": "BOH",
+    "label": "Bohol",
+    "type": "Province"
+  },
+  {
+    "code": "BTG",
+    "label": "Batangas",
+    "type": "Province"
+  },
+  {
+    "code": "BTN",
+    "label": "Batanes",
+    "type": "Province"
+  },
+  {
+    "code": "BUK",
+    "label": "Bukidnon",
+    "type": "Province"
+  },
+  {
+    "code": "BUL",
+    "label": "Bulacan",
+    "type": "Province"
+  },
+  {
+    "code": "CAG",
+    "label": "Cagayan",
+    "type": "Province"
+  },
+  {
+    "code": "CAM",
+    "label": "Camiguin",
+    "type": "Province"
+  },
+  {
+    "code": "CAN",
+    "label": "Camarines Norte",
+    "type": "Province"
+  },
+  {
+    "code": "CAP",
+    "label": "Capiz",
+    "type": "Province"
+  },
+  {
+    "code": "CAS",
+    "label": "Camarines Sur",
+    "type": "Province"
+  },
+  {
+    "code": "CAT",
+    "label": "Catanduanes",
+    "type": "Province"
+  },
+  {
+    "code": "CAV",
+    "label": "Cavite",
+    "type": "Province"
+  },
+  {
+    "code": "CEB",
+    "label": "Cebu",
+    "type": "Province"
+  },
+  {
+    "code": "COM",
+    "label": "Davao de Oro",
+    "type": "Province"
+  },
+  {
+    "code": "DAO",
+    "label": "Davao Oriental",
+    "type": "Province"
+  },
+  {
+    "code": "DAS",
+    "label": "Davao del Sur",
+    "type": "Province"
+  },
+  {
+    "code": "DAV",
+    "label": "Davao del Norte",
+    "type": "Province"
+  },
+  {
+    "code": "DIN",
+    "label": "Dinagat Islands",
+    "type": "Province"
+  },
+  {
+    "code": "DVO",
+    "label": "Kanlurang Dabaw",
+    "type": "province"
+  },
+  {
+    "code": "EAS",
+    "label": "Eastern Samar",
+    "type": "Province"
+  },
+  {
+    "code": "GUI",
+    "label": "Guimaras",
+    "type": "Province"
+  },
+  {
+    "code": "IFU",
+    "label": "Ifugao",
+    "type": "Province"
+  },
+  {
+    "code": "ILI",
+    "label": "Iloilo",
+    "type": "Province"
+  },
+  {
+    "code": "ILN",
+    "label": "Ilocos Norte",
+    "type": "Province"
+  },
+  {
+    "code": "ILS",
+    "label": "Ilocos Sur",
+    "type": "Province"
+  },
+  {
+    "code": "ISA",
+    "label": "Isabela",
+    "type": "Province"
+  },
+  {
+    "code": "KAL",
+    "label": "Kalinga-Apayao",
+    "type": "Province"
+  },
+  {
+    "code": "LAG",
+    "label": "Laguna",
+    "type": "Province"
+  },
+  {
+    "code": "LAN",
+    "label": "Lanao del Norte",
+    "type": "Province"
+  },
+  {
+    "code": "LAS",
+    "label": "Lanao del Sur",
+    "type": "Province"
+  },
+  {
+    "code": "LEY",
+    "label": "Leyte",
+    "type": "Province"
+  },
+  {
+    "code": "LUN",
+    "label": "La Union",
+    "type": "Province"
+  },
+  {
+    "code": "MAD",
+    "label": "Marinduque",
+    "type": "Province"
+  },
+  {
+    "code": "MAG",
+    "label": "Maguindanao",
+    "type": "Province"
+  },
+  {
+    "code": "MAS",
+    "label": "Masbate",
+    "type": "Province"
+  },
+  {
+    "code": "MDC",
+    "label": "Mindoro Occidental",
+    "type": "Province"
+  },
+  {
+    "code": "MDR",
+    "label": "Mindoro Oriental",
+    "type": "Province"
+  },
+  {
+    "code": "MOU",
+    "label": "Mountain Province",
+    "type": "Province"
+  },
+  {
+    "code": "MSC",
+    "label": "Misamis Occidental",
+    "type": "Province"
+  },
+  {
+    "code": "MSR",
+    "label": "Misamis Oriental",
+    "type": "Province"
+  },
+  {
+    "code": "NCO",
+    "label": "Kotabato",
+    "type": "Province"
+  },
+  {
+    "code": "NEC",
+    "label": "Negros occidental",
+    "type": "Province"
+  },
+  {
+    "code": "NER",
+    "label": "Negros oriental",
+    "type": "Province"
+  },
+  {
+    "code": "NSA",
+    "label": "Northern Samar",
+    "type": "Province"
+  },
+  {
+    "code": "NUE",
+    "label": "Nueva Ecija",
+    "type": "Province"
+  },
+  {
+    "code": "NUV",
+    "label": "Nueva Vizcaya",
+    "type": "Province"
+  },
+  {
+    "code": "PAM",
+    "label": "Pampanga",
+    "type": "Province"
+  },
+  {
+    "code": "PAN",
+    "label": "Pangasinan",
+    "type": "Province"
+  },
+  {
+    "code": "PLW",
+    "label": "Palawan",
+    "type": "Province"
+  },
+  {
+    "code": "QUE",
+    "label": "Quezon",
+    "type": "Province"
+  },
+  {
+    "code": "QUI",
+    "label": "Quirino",
+    "type": "Province"
+  },
+  {
+    "code": "RIZ",
+    "label": "Rizal",
+    "type": "Province"
+  },
+  {
+    "code": "ROM",
+    "label": "Romblon",
+    "type": "Province"
+  },
+  {
+    "code": "SAR",
+    "label": "Sarangani",
+    "type": "Province"
+  },
+  {
+    "code": "SCO",
+    "label": "South Cotabato",
+    "type": "Province"
+  },
+  {
+    "code": "SIG",
+    "label": "Siquijor",
+    "type": "Province"
+  },
+  {
+    "code": "SLE",
+    "label": "Southern Leyte",
+    "type": "Province"
+  },
+  {
+    "code": "SLU",
+    "label": "Sulu",
+    "type": "Province"
+  },
+  {
+    "code": "SOR",
+    "label": "Sorsogon",
+    "type": "Province"
+  },
+  {
+    "code": "SUK",
+    "label": "Sultan Kudarat",
+    "type": "Province"
+  },
+  {
+    "code": "SUN",
+    "label": "Surigao del Norte",
+    "type": "Province"
+  },
+  {
+    "code": "SUR",
+    "label": "Surigao del Sur",
+    "type": "Province"
+  },
+  {
+    "code": "TAR",
+    "label": "Tarlac",
+    "type": "Province"
+  },
+  {
+    "code": "TAW",
+    "label": "Tawi-Tawi",
+    "type": "Province"
+  },
+  {
+    "code": "WSA",
+    "label": "Western Samar",
+    "type": "Province"
+  },
+  {
+    "code": "ZAN",
+    "label": "Zamboanga del Norte",
+    "type": "Province"
+  },
+  {
+    "code": "ZAS",
+    "label": "Zamboanga del Sur",
+    "type": "Province"
+  },
+  {
+    "code": "ZMB",
+    "label": "Zambales",
+    "type": "Province"
+  },
+  {
+    "code": "ZSI",
+    "label": "Zamboanga Sibuguey [Zamboanga Sibugay]",
+    "type": "Province"
+  }
+]

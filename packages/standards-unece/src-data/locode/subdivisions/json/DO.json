@@ -1,0 +1,212 @@
+[
+  {
+    "code": "01",
+    "label": "Distrito Nacional (Santo Domingo)",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Azua",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Baoruco",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Barahona",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Dajabón",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Duarte",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Elías Piña",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "El Seibo",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Espaillat",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Independencia",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "La Altagracia",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "La Romana",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "La Vega",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "María Trinidad Sánchez",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Monte Cristi",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Pedernales",
+    "type": "Province"
+  },
+  {
+    "code": "17",
+    "label": "Peravia",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Puerto Plata",
+    "type": "Province"
+  },
+  {
+    "code": "19",
+    "label": "Hermanas Mirabal",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Samaná",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "San Cristóbal",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "San Juan",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "San Pedro de Macorís",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Sánchez Ramírez",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Santiago",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Santiago Rodríguez",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Valverde",
+    "type": "Province"
+  },
+  {
+    "code": "28",
+    "label": "Monseñor Nouel",
+    "type": "Province"
+  },
+  {
+    "code": "29",
+    "label": "Monte Plata",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Hato Mayor",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "San José de Ocoa",
+    "type": "Province"
+  },
+  {
+    "code": "32",
+    "label": "Santo Domingo",
+    "type": "Province"
+  },
+  {
+    "code": "33",
+    "label": "Cibao Nordeste",
+    "type": "Region"
+  },
+  {
+    "code": "34",
+    "label": "Cibao Noroeste",
+    "type": "Region"
+  },
+  {
+    "code": "35",
+    "label": "Cibao Norte",
+    "type": "Region"
+  },
+  {
+    "code": "36",
+    "label": "Cibao Sur",
+    "type": "Region"
+  },
+  {
+    "code": "37",
+    "label": "El Valle",
+    "type": "Region"
+  },
+  {
+    "code": "38",
+    "label": "Enriquillo",
+    "type": "Region"
+  },
+  {
+    "code": "39",
+    "label": "Higuamo",
+    "type": "Region"
+  },
+  {
+    "code": "40",
+    "label": "Ozama",
+    "type": "Region"
+  },
+  {
+    "code": "41",
+    "label": "Valdesia",
+    "type": "Region"
+  },
+  {
+    "code": "42",
+    "label": "Yuma",
+    "type": "Region"
+  }
+]

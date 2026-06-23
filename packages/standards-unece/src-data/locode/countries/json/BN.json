@@ -1,0 +1,51 @@
+[
+  {
+    "locationCode": "BWN",
+    "label": "Bandar Seri Begawan",
+    "subdivisionCode": "BM",
+    "function": "1345",
+    "lat": 4.883333,
+    "lng": 114.933333
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bangar",
+    "subdivisionCode": "TE",
+    "function": "3",
+    "lat": 4.716667,
+    "lng": 115.666667
+  },
+  {
+    "locationCode": "KUB",
+    "label": "Kuala Belait",
+    "function": "14"
+  },
+  {
+    "locationCode": "LUM",
+    "label": "Lumut",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUA",
+    "label": "Muara",
+    "function": "1"
+  },
+  {
+    "locationCode": "SER",
+    "label": "Seria",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tanjong Salirong",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Tutong",
+    "subdivisionCode": "TU",
+    "function": "3",
+    "lat": 4.8,
+    "lng": 114.65
+  }
+]

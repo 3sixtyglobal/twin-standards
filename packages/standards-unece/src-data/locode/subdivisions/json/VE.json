@@ -1,0 +1,127 @@
+[
+  {
+    "code": "A",
+    "label": "Distrito Capital",
+    "type": "Capital district"
+  },
+  {
+    "code": "B",
+    "label": "Anzoátegui",
+    "type": "State"
+  },
+  {
+    "code": "C",
+    "label": "Apure",
+    "type": "State"
+  },
+  {
+    "code": "D",
+    "label": "Aragua",
+    "type": "State"
+  },
+  {
+    "code": "E",
+    "label": "Barinas",
+    "type": "State"
+  },
+  {
+    "code": "F",
+    "label": "Bolívar",
+    "type": "State"
+  },
+  {
+    "code": "G",
+    "label": "Carabobo",
+    "type": "State"
+  },
+  {
+    "code": "H",
+    "label": "Cojedes",
+    "type": "State"
+  },
+  {
+    "code": "I",
+    "label": "Falcón",
+    "type": "State"
+  },
+  {
+    "code": "J",
+    "label": "Guárico",
+    "type": "State"
+  },
+  {
+    "code": "K",
+    "label": "Lara",
+    "type": "State"
+  },
+  {
+    "code": "L",
+    "label": "Mérida",
+    "type": "State"
+  },
+  {
+    "code": "M",
+    "label": "Miranda",
+    "type": "State"
+  },
+  {
+    "code": "N",
+    "label": "Monagas",
+    "type": "State"
+  },
+  {
+    "code": "O",
+    "label": "Nueva Esparta",
+    "type": "State"
+  },
+  {
+    "code": "P",
+    "label": "Portuguesa",
+    "type": "State"
+  },
+  {
+    "code": "R",
+    "label": "Sucre",
+    "type": "State"
+  },
+  {
+    "code": "S",
+    "label": "Táchira",
+    "type": "State"
+  },
+  {
+    "code": "T",
+    "label": "Trujillo",
+    "type": "State"
+  },
+  {
+    "code": "U",
+    "label": "Yaracuy",
+    "type": "State"
+  },
+  {
+    "code": "V",
+    "label": "Zulia",
+    "type": "State"
+  },
+  {
+    "code": "W",
+    "label": "Dependencias Federales",
+    "type": "Federal dependencies"
+  },
+  {
+    "code": "X",
+    "label": "La Guaira",
+    "type": "State"
+  },
+  {
+    "code": "Y",
+    "label": "Delta Amacuro",
+    "type": "State"
+  },
+  {
+    "code": "Z",
+    "label": "Amazonas",
+    "type": "State"
+  }
+]

@@ -1,9 +1,10 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
+import type { ObjectOrArray, SingleOccurrenceArray } from "@twin.org/core";
 import type { IJsonLdContextDefinitionElement } from "@twin.org/data-json-ld";
-import type { DidContexts } from "./didContexts";
-import type { IDidDocumentVerificationMethod } from "./IDidDocumentVerificationMethod";
-import type { IDidService } from "./IDidService";
+import type { DidContexts } from "./didContexts.js";
+import type { IDidDocumentVerificationMethod } from "./IDidDocumentVerificationMethod.js";
+import type { IDidService } from "./IDidService.js";
 
 /**
  * Interface describing a DID Document.
@@ -15,7 +16,7 @@ export interface IDidDocument {
 	 */
 	"@context":
 		| typeof DidContexts.Context
-		| [typeof DidContexts.Context, ...IJsonLdContextDefinitionElement[]];
+		| SingleOccurrenceArray<IJsonLdContextDefinitionElement, typeof DidContexts.Context>;
 
 	/**
 	 * The id for the document.
@@ -25,12 +26,12 @@ export interface IDidDocument {
 	/**
 	 * Aliases for the document.
 	 */
-	alsoKnownAs?: string | string[];
+	alsoKnownAs?: ObjectOrArray<string>;
 
 	/**
 	 * The controller for the document.
 	 */
-	controller?: string | string[];
+	controller?: ObjectOrArray<string>;
 
 	/**
 	 * The verification methods.

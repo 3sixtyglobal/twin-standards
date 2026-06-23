@@ -1,16 +1,20 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IOdrlAction } from "./IOdrlAction";
-import type { IOdrlAsset } from "./IOdrlAsset";
-import type { IOdrlConstraint } from "./IOdrlConstraint";
-import type { IOdrlParty } from "./IOdrlParty";
-import type { ActionType } from "./types/actionType";
+import type { ObjectOrArray } from "@twin.org/core";
+import type { IOdrlAction } from "./IOdrlAction.js";
+import type { IOdrlAsset } from "./IOdrlAsset.js";
+import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
+import type { IOdrlConstraint } from "./IOdrlConstraint.js";
+import type { IOdrlLogicalConstraint } from "./IOdrlLogicalConstraint.js";
+import type { IOdrlParty } from "./IOdrlParty.js";
+import type { IOdrlPartyCollection } from "./IOdrlPartyCollection.js";
+import type { OdrlActionType } from "./types/odrlActionType.js";
 
 /**
  * Base interface for ODRL Rules.
+ * https://www.w3.org/TR/odrl-model/#rule
  */
-export interface IOdrlRule extends IJsonLdNodeObject {
+export interface IOdrlRule {
 	/**
 	 * Optional unique identifier for the rule.
 	 */
@@ -19,27 +23,27 @@ export interface IOdrlRule extends IJsonLdNodeObject {
 	/**
 	 * The action associated with the rule.
 	 */
-	action?: ActionType | IOdrlAction | (ActionType | IOdrlAction)[];
+	action?: ObjectOrArray<OdrlActionType | string | IOdrlAction>;
 
 	/**
 	 * The target asset for the rule.
 	 */
-	target?: string | IOdrlAsset | (string | IOdrlAsset)[];
+	target?: ObjectOrArray<string | IOdrlAsset | IOdrlAssetCollection>;
 
 	/**
 	 * The assigner of the rule.
 	 */
-	assigner?: string | IOdrlParty;
+	assigner?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * The assignee of the rule.
 	 */
-	assignee?: string | IOdrlParty;
+	assignee?: ObjectOrArray<string | IOdrlParty | IOdrlPartyCollection>;
 
 	/**
 	 * Constraints applied to the rule.
 	 */
-	constraint?: IOdrlConstraint[];
+	constraint?: ObjectOrArray<IOdrlConstraint | IOdrlLogicalConstraint>;
 
 	/**
 	 * Additional relation sub-properties as defined in ODRL profiles.

@@ -1,0 +1,5095 @@
+[
+  {
+    "locationCode": "ABM",
+    "label": "Abram",
+    "function": "23",
+    "lat": 47.316667,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "ABR",
+    "label": "Abrud",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "ATI",
+    "label": "Acatari",
+    "subdivisionCode": "MS",
+    "function": "23",
+    "lat": 46.483333,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "ADJ",
+    "label": "Adjud",
+    "subdivisionCode": "VN",
+    "function": "35",
+    "lat": 46.1,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "ADC",
+    "label": "Adunatii-Copaceni",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 44.25,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Afumati",
+    "function": "3",
+    "lat": 44.533333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "AGI",
+    "label": "Agigea",
+    "subdivisionCode": "CT",
+    "function": "1",
+    "lat": 44.083333,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "ATM",
+    "label": "Aita Mare",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "AID",
+    "label": "Aiud",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alba Iulia",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Albesti",
+    "subdivisionCode": "MS",
+    "function": "23",
+    "lat": 46.216667,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "ALD",
+    "label": "Alesd",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.05,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "ALX",
+    "label": "Alexandria",
+    "subdivisionCode": "TR",
+    "function": "23",
+    "lat": 43.983333,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "ACB",
+    "label": "Alexandru cel Bun",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 27.3
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Almasu Mare",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Amara",
+    "subdivisionCode": "IL",
+    "function": "3",
+    "lat": 44.616667,
+    "lng": 27.2
+  },
+  {
+    "locationCode": "AGH",
+    "label": "Anghelesti",
+    "subdivisionCode": "VN",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "APA",
+    "label": "Apahida",
+    "subdivisionCode": "B",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARW",
+    "label": "Arad",
+    "function": "24"
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Aricestii-Rahtivani",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.95,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "AVR",
+    "label": "Avrig",
+    "subdivisionCode": "SB",
+    "function": "236",
+    "lat": 45.733333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Babadag",
+    "subdivisionCode": "TL",
+    "function": "6",
+    "lat": 44.9,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "BCM",
+    "label": "Bacau",
+    "function": "24"
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bacia",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "BCU",
+    "label": "Baciu, Cluj",
+    "subdivisionCode": "CJ",
+    "function": "23",
+    "lat": 46.8,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "BCO",
+    "label": "Bacova",
+    "subdivisionCode": "TM",
+    "function": "23",
+    "lat": 45.65,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "BAQ",
+    "label": "Baia",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 44.716667,
+    "lng": 28.666667
+  },
+  {
+    "locationCode": "BDC",
+    "label": "Baia de Cris",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "BDF",
+    "label": "Baia de Fier",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 45.166667,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Baia Mare",
+    "function": "24"
+  },
+  {
+    "locationCode": "BPH",
+    "label": "Baicoi",
+    "subdivisionCode": "PH",
+    "function": "26",
+    "lat": 45.033333,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Baiculesti",
+    "subdivisionCode": "AG",
+    "function": "6",
+    "lat": 45.666667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "BTD",
+    "label": "Baile Tusnad",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "BL3",
+    "label": "Balaciu",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 44.933333,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "BAE",
+    "label": "Baleni",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Balesti",
+    "function": "3"
+  },
+  {
+    "locationCode": "RRM",
+    "label": "Balotesti",
+    "subdivisionCode": "B",
+    "function": "23",
+    "lat": 44.616667,
+    "lng": 26.116667
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Bals",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": 44.35,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "BPU",
+    "label": "Baneasa Apt/Bucuresti",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Banesti",
+    "subdivisionCode": "PH",
+    "function": "6",
+    "lat": 45.1,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "BMA",
+    "label": "Bârcea-Mare",
+    "subdivisionCode": "HD",
+    "labelWithDiacritics": "Barcea-Mare",
+    "function": "3",
+    "lat": 45.816667,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Barla",
+    "subdivisionCode": "AG",
+    "function": "6",
+    "lat": 47.016667,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "BRL",
+    "label": "Bârlad",
+    "labelWithDiacritics": "Barlad",
+    "function": "3",
+    "lat": 46.233333,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Barsana",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Barticesti",
+    "function": "3",
+    "lat": 47.05,
+    "lng": 26.766667
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Basarabi",
+    "function": "1",
+    "lat": 44.166667,
+    "lng": 28.366667
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Bascov",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.883333,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "MBT",
+    "label": "Batos",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.883333,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "BZI",
+    "label": "Bazias",
+    "subdivisionCode": "CS",
+    "function": "13",
+    "lat": 44.8,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "BCT",
+    "label": "Bechet",
+    "subdivisionCode": "DJ",
+    "function": "13",
+    "lat": 43.766667,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "BUM",
+    "label": "Becicherecu Mic",
+    "function": "23",
+    "lat": 45.833333,
+    "lng": 21.05
+  },
+  {
+    "locationCode": "BCN",
+    "label": "Beclean",
+    "subdivisionCode": "HR",
+    "function": "123",
+    "lat": 46.316667,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "BEI",
+    "label": "Beius",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 22.35
+  },
+  {
+    "locationCode": "GBC",
+    "label": "Belciugatele",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 44.483333,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "BRC",
+    "label": "Berca",
+    "subdivisionCode": "BZ",
+    "function": "23",
+    "lat": 45.283333,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "BEZ",
+    "label": "Bezdead",
+    "subdivisionCode": "DB",
+    "function": "16",
+    "lat": 45.15,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "BCD",
+    "label": "Bicsad",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "BR5",
+    "label": "Biharea",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.15,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "BIT",
+    "label": "Bistrita",
+    "function": "2"
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Blaj",
+    "subdivisionCode": "AB",
+    "function": "23",
+    "lat": 46.183333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "BJE",
+    "label": "Blejesti",
+    "subdivisionCode": "TR",
+    "function": "3",
+    "lat": 44.283333,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "BLJ",
+    "label": "Blejoi",
+    "subdivisionCode": "PH",
+    "function": "23",
+    "lat": 44.983333,
+    "lng": 26
+  },
+  {
+    "locationCode": "BBI",
+    "label": "Boboiesti",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 44.933333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "BOB",
+    "label": "Bobota",
+    "function": "23"
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bocsa",
+    "subdivisionCode": "CS",
+    "function": "23",
+    "lat": 46,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "BDI",
+    "label": "Bodesti",
+    "function": "3",
+    "lat": 47.033333,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Boldesti-Scaeni",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.033333,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolintin Deal",
+    "subdivisionCode": "GR",
+    "function": "36",
+    "lat": 44.45,
+    "lng": 25.816667
+  },
+  {
+    "locationCode": "BOV",
+    "label": "Bolintin Vale",
+    "function": "3",
+    "lat": 44.45,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "BCA",
+    "label": "Borca",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "BCE",
+    "label": "Borcea",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 44.333333,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bors",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 21.816667
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Borsa",
+    "subdivisionCode": "MM",
+    "function": "23",
+    "lat": 47.65,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "BSC",
+    "label": "Borsec",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "BOI",
+    "label": "Bosanci",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.583333,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "BTZ",
+    "label": "Botiz",
+    "subdivisionCode": "SM",
+    "function": "3",
+    "lat": 47.833333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Botiza",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.666667,
+    "lng": 24.15
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Botosani",
+    "function": "2"
+  },
+  {
+    "locationCode": "BOZ",
+    "label": "Bozovici",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 44.916667,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "BRB",
+    "label": "Brad",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Brad, Hunedoara",
+    "subdivisionCode": "HD",
+    "function": "23",
+    "lat": 46.116667,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "BDU",
+    "label": "Bragadiru, Ilfov",
+    "function": "3",
+    "lat": 44.366667,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Braila",
+    "subdivisionCode": "BR",
+    "function": "23",
+    "lat": 45.266667,
+    "lng": 27.983333
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Branesti",
+    "subdivisionCode": "IF",
+    "function": "3",
+    "lat": 44.45,
+    "lng": 26.333333
+  },
+  {
+    "locationCode": "BRV",
+    "label": "Brasov",
+    "function": "2"
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Bratca",
+    "function": "23",
+    "lat": 46.933333,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "BII",
+    "label": "Brazii",
+    "subdivisionCode": "AR",
+    "function": "3"
+  },
+  {
+    "locationCode": "PHV",
+    "label": "Brazii de Sus",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.866667,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "BZA",
+    "label": "Breaza, Prahova",
+    "subdivisionCode": "PH",
+    "function": "23",
+    "lat": 45.183333,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Brebu",
+    "function": "23",
+    "lat": 45.416667,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "BUC",
+    "label": "Buces",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "BCV",
+    "label": "Bucov",
+    "subdivisionCode": "PH",
+    "function": "3"
+  },
+  {
+    "locationCode": "BUH",
+    "label": "Bucuresti",
+    "function": "2345"
+  },
+  {
+    "locationCode": "BUV",
+    "label": "Bucuresti 50 Vama",
+    "function": "5"
+  },
+  {
+    "locationCode": "BUB",
+    "label": "Bucuresti Basarab",
+    "function": "2"
+  },
+  {
+    "locationCode": "BUI",
+    "label": "Bucuresti Intrepozite",
+    "function": "2"
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Bucuresti Nord",
+    "function": "25"
+  },
+  {
+    "locationCode": "BBU",
+    "label": "Bucuresti-Baneasa Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUD",
+    "label": "Budesti, Calarasi",
+    "function": "23",
+    "lat": 44.233333,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "BDH",
+    "label": "Buduhala",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 44.983333,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "BUF",
+    "label": "Buftea",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.566667,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "GJJ",
+    "label": "Bumbesti-Jiu",
+    "subdivisionCode": "GJ",
+    "function": "6",
+    "lat": 45.166667,
+    "lng": 23.4
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Busteni",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.4,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "BBT",
+    "label": "Butimanu",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.683333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "BUZ",
+    "label": "Buzau",
+    "function": "2"
+  },
+  {
+    "locationCode": "BZS",
+    "label": "Buzias",
+    "function": "23",
+    "lat": 45.65,
+    "lng": 21.616667
+  },
+  {
+    "locationCode": "CAF",
+    "label": "Calafat",
+    "subdivisionCode": "DJ",
+    "function": "123",
+    "lat": 43.983333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Calarasi",
+    "subdivisionCode": "CL",
+    "function": "1",
+    "lat": 44.2,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Caldararu",
+    "subdivisionCode": "AG",
+    "function": "6",
+    "lat": 44.45,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Calina",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 44.716667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "CLS",
+    "label": "Calinesti",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.816667,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "CFI",
+    "label": "Calomfiresti",
+    "subdivisionCode": "TR",
+    "function": "6",
+    "lat": 43.916667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "CPI",
+    "label": "Campeni",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "CTI",
+    "label": "Campia Turzii",
+    "function": "3",
+    "lat": 46.55,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Câmpina",
+    "subdivisionCode": "PH",
+    "labelWithDiacritics": "Campina",
+    "function": "23",
+    "lat": 45.133333,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "CMP",
+    "label": "Câmpulung Moldovenesc",
+    "subdivisionCode": "SV",
+    "labelWithDiacritics": "Campulung Moldovenesc",
+    "function": "35",
+    "lat": 47.533333,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "RZD",
+    "label": "Campulung Muscel",
+    "function": "6",
+    "lat": 45.266667,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "CRR",
+    "label": "Cap Rosu",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "CCL",
+    "label": "Caracal",
+    "function": "3",
+    "lat": 44.116667,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "CSB",
+    "label": "Caransebes",
+    "function": "4"
+  },
+  {
+    "locationCode": "CCA",
+    "label": "Carcea",
+    "function": "23",
+    "lat": 44.266667,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carei",
+    "function": "2"
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Catanele",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.8,
+    "lng": 25
+  },
+  {
+    "locationCode": "CAC",
+    "label": "Catcau",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "CTC",
+    "label": "Cateasca",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.766667,
+    "lng": 25.083333
+  },
+  {
+    "locationCode": "CAV",
+    "label": "Cavadinesti",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 46.066667,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Cepturasu",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.3,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "CRU",
+    "label": "Cerasu",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.316667,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "CEV",
+    "label": "Cernavoda",
+    "subdivisionCode": "IL",
+    "function": "1",
+    "lat": 44.35,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "CER",
+    "label": "Cernica",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.416667,
+    "lng": 26.283333
+  },
+  {
+    "locationCode": "CJA",
+    "label": "Chiajna",
+    "function": "23",
+    "lat": 44.466667,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "CHL",
+    "label": "Chilia Veche",
+    "subdivisionCode": "TL",
+    "function": "1",
+    "lat": 45.7,
+    "lng": 29.466667
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chimindia",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 23
+  },
+  {
+    "locationCode": "CNO",
+    "label": "Chirnogi",
+    "function": "3",
+    "lat": 44.116667,
+    "lng": 26.583333
+  },
+  {
+    "locationCode": "CHN",
+    "label": "Chiscani",
+    "subdivisionCode": "BR",
+    "function": "16",
+    "lat": 45.183333,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chiselet",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 44.166667,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "CSO",
+    "label": "Chisoda",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.7,
+    "lng": 21.216667
+  },
+  {
+    "locationCode": "CTA",
+    "label": "Chitila",
+    "subdivisionCode": "B",
+    "function": "23",
+    "lat": 44.5,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "RMV",
+    "label": "Ciacova",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.5,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "CNC",
+    "label": "Cîlnic, Gorj",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Cilnic, Gorj",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "CPT",
+    "label": "Cimpenita",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.65,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "CLG",
+    "label": "Cîmpulung",
+    "subdivisionCode": "AG",
+    "labelWithDiacritics": "Cimpulung",
+    "function": "23",
+    "lat": 45.266667,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "CPG",
+    "label": "Cîmpulung la Tisa",
+    "subdivisionCode": "MM",
+    "labelWithDiacritics": "Cimpulung la Tisa",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "CBV",
+    "label": "Cincsor",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "CIO",
+    "label": "Ciorogârla",
+    "subdivisionCode": "IF",
+    "labelWithDiacritics": "Ciorogarla",
+    "function": "3",
+    "lat": 44.433333,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Ciucurova",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 44.933333,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "CIU",
+    "label": "Ciumani",
+    "subdivisionCode": "HD",
+    "function": "6",
+    "lat": 46.683333,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "CBD",
+    "label": "Ciumbrud",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "CCI",
+    "label": "Clinceni",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.366667,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "CLJ",
+    "label": "Cluj-Napoca",
+    "function": "24",
+    "lat": 46.766667,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "CCP",
+    "label": "Cocorastii-Capli",
+    "subdivisionCode": "PH",
+    "function": "36",
+    "lat": 45.066667,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Codlea",
+    "subdivisionCode": "BV",
+    "function": "23",
+    "lat": 45.7,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "CBI",
+    "label": "Colibasi",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.933333,
+    "lng": 24.9
+  },
+  {
+    "locationCode": "CLO",
+    "label": "Colonia",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 24
+  },
+  {
+    "locationCode": "COM",
+    "label": "Comanesti",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "CRC",
+    "label": "Comarnic",
+    "subdivisionCode": "PH",
+    "function": "23",
+    "lat": 45.25,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "CNM",
+    "label": "Comisani",
+    "subdivisionCode": "DB",
+    "function": "16"
+  },
+  {
+    "locationCode": "COA",
+    "label": "Comuna Cincu",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "CVO",
+    "label": "Comuna Voineasa",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 44.283333,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "CND",
+    "label": "Constanta",
+    "subdivisionCode": "CT",
+    "function": "12346",
+    "lat": 44.183333,
+    "lng": 28.65
+  },
+  {
+    "locationCode": "COB",
+    "label": "Corabia",
+    "subdivisionCode": "OT",
+    "function": "1",
+    "lat": 43.766667,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "CRB",
+    "label": "Corbeanca",
+    "function": "3",
+    "lat": 44.6,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "CCV",
+    "label": "Corcova",
+    "subdivisionCode": "MH",
+    "function": "36"
+  },
+  {
+    "locationCode": "CNI",
+    "label": "Cornesti",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "CNU",
+    "label": "Cornetu, Ilfov",
+    "function": "3",
+    "lat": 44.333333,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "CSU",
+    "label": "Cornu de Sus",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.833333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "CLU",
+    "label": "Cornu Luncii",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.466667,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "COR",
+    "label": "Corunca",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 24.616667
+  },
+  {
+    "locationCode": "COS",
+    "label": "Cosoveni",
+    "function": "6",
+    "lat": 44.25,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "CSS",
+    "label": "Costisa",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 46.75,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "COV",
+    "label": "Covasna",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "CRA",
+    "label": "Craiova",
+    "function": "24"
+  },
+  {
+    "locationCode": "CRV",
+    "label": "Craiova",
+    "subdivisionCode": "DJ",
+    "function": "3",
+    "lat": 44.316667,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "CRP",
+    "label": "Crâmpoia",
+    "subdivisionCode": "OT",
+    "labelWithDiacritics": "Crampoia",
+    "function": "3",
+    "lat": 44.3,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "CR8",
+    "label": "Crângurile",
+    "subdivisionCode": "DB",
+    "labelWithDiacritics": "Crangurile",
+    "function": "3",
+    "lat": 44.733333,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "CVA",
+    "label": "Crevedia",
+    "subdivisionCode": "DB",
+    "function": "6",
+    "lat": 44.6,
+    "lng": -25.933333
+  },
+  {
+    "locationCode": "CRI",
+    "label": "Criseni",
+    "function": "23",
+    "lat": 47.233333,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "CRT",
+    "label": "Cristian",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "CTS",
+    "label": "Cristuru Secuiesc",
+    "subdivisionCode": "HR",
+    "function": "16",
+    "lat": 46.283333,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "C5M",
+    "label": "Cumpana",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": 44.1,
+    "lng": 28.55
+  },
+  {
+    "locationCode": "CNT",
+    "label": "Cunta",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "CDA",
+    "label": "Curtea de Arges",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 45.133333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "CUT",
+    "label": "Curtici",
+    "function": "2"
+  },
+  {
+    "locationCode": "DBI",
+    "label": "Darabani",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 26.583333
+  },
+  {
+    "locationCode": "DRS",
+    "label": "Darasti",
+    "function": "3",
+    "lat": 44.316667,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "JDM",
+    "label": "Darmanesti",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.916667,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "DCU",
+    "label": "Dascalu",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.6,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "FLO",
+    "label": "Dealu Floreni",
+    "function": "23",
+    "lat": 47.35,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "DEJ",
+    "label": "Dej",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 47.15,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "DVA",
+    "label": "Deva",
+    "subdivisionCode": "HD",
+    "function": "4",
+    "lat": 45.883333,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "DVS",
+    "label": "Deveselu",
+    "subdivisionCode": "OT",
+    "function": "6",
+    "lat": 44.066667,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "DIM",
+    "label": "Dîmbovita",
+    "subdivisionCode": "DB",
+    "labelWithDiacritics": "Dimbovita",
+    "function": "3",
+    "lat": 45.416667,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "DIN",
+    "label": "Dinkelsbühl",
+    "subdivisionCode": "B",
+    "labelWithDiacritics": "Dinkelsbuhl",
+    "function": "3"
+  },
+  {
+    "locationCode": "DRI",
+    "label": "Ditrau",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 46.816667,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "DBA",
+    "label": "Dobrana",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "DOB",
+    "label": "Dobresti",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 22.266667
+  },
+  {
+    "locationCode": "BDO",
+    "label": "Dobroesti",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.45,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "DOI",
+    "label": "Doicesti",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.983333,
+    "lng": 25.4
+  },
+  {
+    "locationCode": "DMA",
+    "label": "Domasnea",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 45.083333,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "BDM",
+    "label": "Domnesti",
+    "subdivisionCode": "IF",
+    "function": "3",
+    "lat": 44.4,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "DCD",
+    "label": "Dorna Cândrenilor",
+    "labelWithDiacritics": "Dorna Candrenilor",
+    "function": "234",
+    "lat": 47.35,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "DOR",
+    "label": "Dornesti",
+    "function": "2"
+  },
+  {
+    "locationCode": "DHO",
+    "label": "Dorohoi",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "DGA",
+    "label": "Dragalina",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 44.433333,
+    "lng": 27.316667
+  },
+  {
+    "locationCode": "DGV",
+    "label": "Draganesti-Vlasca",
+    "subdivisionCode": "B",
+    "function": "3"
+  },
+  {
+    "locationCode": "DSI",
+    "label": "Dragasani",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 44.65,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "DDL",
+    "label": "Dragomiresti-Deal",
+    "subdivisionCode": "B",
+    "function": "6",
+    "lat": 44.466667,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "VDG",
+    "label": "Dragomiresti-Vale",
+    "subdivisionCode": "B",
+    "function": "6",
+    "lat": 44.466667,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "RZZ",
+    "label": "Drajna de Jos",
+    "subdivisionCode": "PH",
+    "function": "6",
+    "lat": 45.216667,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "DRB",
+    "label": "Drambar",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "DTS",
+    "label": "Drobeta-Turnu Severin",
+    "subdivisionCode": "MH",
+    "function": "12",
+    "lat": 44.633333,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "DCI",
+    "label": "Dulcesti, Neamt",
+    "function": "3",
+    "lat": 46.966667,
+    "lng": 26.766667
+  },
+  {
+    "locationCode": "DUM",
+    "label": "Dumbrava Rosie",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 46.883333,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "DBR",
+    "label": "Dumbraveni, Sibiu",
+    "subdivisionCode": "SB",
+    "function": "23",
+    "lat": 46.233333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "DVI",
+    "label": "Dumbravita, Timis",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "EFS",
+    "label": "Eforie Sud",
+    "subdivisionCode": "CT",
+    "function": "16",
+    "lat": 44.05,
+    "lng": 28.633333
+  },
+  {
+    "locationCode": "EPB",
+    "label": "Episcopia Bihorului",
+    "function": "2",
+    "lat": 47.1,
+    "lng": 21.9
+  },
+  {
+    "locationCode": "ERN",
+    "label": "Ernei",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "FGA",
+    "label": "Fagaras",
+    "function": "23",
+    "lat": 49.85,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Faget",
+    "subdivisionCode": "DJ",
+    "function": "3",
+    "lat": 44.333333,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "FAC",
+    "label": "Falciu",
+    "function": "2"
+  },
+  {
+    "locationCode": "FAL",
+    "label": "Falticeni",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "FDA",
+    "label": "Feldioara",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.816667,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "FET",
+    "label": "Fetesti",
+    "subdivisionCode": "IL",
+    "function": "13",
+    "lat": 44.383333,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "FEI",
+    "label": "Fieni",
+    "subdivisionCode": "DB",
+    "function": "23",
+    "lat": 45.133333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "FIL",
+    "label": "Filiasi",
+    "subdivisionCode": "DJ",
+    "function": "35",
+    "lat": 44.55,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "FDP",
+    "label": "Filipestii de Padure",
+    "subdivisionCode": "PH",
+    "function": "23",
+    "lat": 45,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "FTA",
+    "label": "Finta",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.816667,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "4ZM",
+    "label": "Fintesti",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.1,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "FRT",
+    "label": "Floresti",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "FOS",
+    "label": "Focsani",
+    "function": "2"
+  },
+  {
+    "locationCode": "FTE",
+    "label": "Frecatei",
+    "function": "16"
+  },
+  {
+    "locationCode": "FMU",
+    "label": "Frumusani",
+    "subdivisionCode": "CL",
+    "function": "3",
+    "lat": 44.283333,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "RZE",
+    "label": "Fundulea",
+    "subdivisionCode": "CL",
+    "function": "6",
+    "lat": 44.466667,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "FUA",
+    "label": "Fusea",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.666667,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "GAE",
+    "label": "Gaesti",
+    "subdivisionCode": "DB",
+    "function": "23",
+    "lat": 44.716667,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "GAI",
+    "label": "Gainesti",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.416667,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "GTI",
+    "label": "Galanesti",
+    "subdivisionCode": "SV",
+    "function": "23",
+    "lat": 47.916667,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galati",
+    "subdivisionCode": "GL",
+    "function": "1",
+    "lat": 45.433333,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "GAT",
+    "label": "Galati Transbordare",
+    "function": "2"
+  },
+  {
+    "locationCode": "GNI",
+    "label": "Ganesti",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.333333,
+    "lng": 24.333333
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Garcina",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Gârla-Mare",
+    "subdivisionCode": "MH",
+    "labelWithDiacritics": "Garla-Mare",
+    "function": "3",
+    "lat": 44.2,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "GAV",
+    "label": "Gavojdia",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "GDS",
+    "label": "Geoagiu",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 23.183333
+  },
+  {
+    "locationCode": "GEO",
+    "label": "Geomal",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "GGH",
+    "label": "Gheorgheni",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.716667,
+    "lng": 25.616667
+  },
+  {
+    "locationCode": "GEI",
+    "label": "Gheraesti",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "GHL",
+    "label": "Gherla",
+    "function": "36",
+    "lat": 47.016667,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "GHM",
+    "label": "Gherta Mare",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "GHV",
+    "label": "Ghimbav",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.666667,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Ghiroda",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 21.283333
+  },
+  {
+    "locationCode": "JMV",
+    "label": "Giarmata",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 21.3
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gilau",
+    "function": "3",
+    "lat": 46.75,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "GIU",
+    "label": "Giubega",
+    "function": "3",
+    "lat": 44.133333,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "GLE",
+    "label": "Giulesti",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.35,
+    "lng": 26.383333
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Giurgiu",
+    "subdivisionCode": "GR",
+    "function": "1",
+    "lat": 43.883333,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "GRN",
+    "label": "Giurgiu Nord",
+    "function": "2"
+  },
+  {
+    "locationCode": "GLN",
+    "label": "Glina",
+    "subdivisionCode": "B",
+    "function": "36",
+    "lat": 44.383333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "GLO",
+    "label": "Glogova",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 44.916667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Gorban",
+    "subdivisionCode": "IS",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "GNU",
+    "label": "Grindu",
+    "subdivisionCode": "IL",
+    "function": "3",
+    "lat": 44.766667,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "GTB",
+    "label": "Grosii Tiblesului",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Gruia",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 44.266667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "GUU",
+    "label": "Gruiu",
+    "subdivisionCode": "B",
+    "function": "16",
+    "lat": 44.733333,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "GMZ",
+    "label": "Grumazesti",
+    "function": "3",
+    "lat": 47.133333,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "GCN",
+    "label": "Gura Cîlnaului",
+    "subdivisionCode": "BZ",
+    "labelWithDiacritics": "Gura Cilnaului",
+    "function": "3",
+    "lat": 45.183333,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "GHI",
+    "label": "Gura Humorului",
+    "subdivisionCode": "SV",
+    "function": "23",
+    "lat": 47.55,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "GVD",
+    "label": "Gura Vadului",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "GHO",
+    "label": "Gurahont",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 22.35
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Gurani",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.6,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Halchiu",
+    "subdivisionCode": "BV",
+    "function": "16",
+    "lat": 45.766667,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halmeu",
+    "function": "23"
+  },
+  {
+    "locationCode": "HGU",
+    "label": "Hangu",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 47.05,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harau",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "HA3",
+    "label": "Harghita-Bai",
+    "subdivisionCode": "HR",
+    "function": "6",
+    "lat": 46.35,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "RVA",
+    "label": "Hârsova",
+    "subdivisionCode": "CT",
+    "labelWithDiacritics": "Harsova",
+    "function": "13",
+    "lat": 44.683333,
+    "lng": 27.95
+  },
+  {
+    "locationCode": "HTG",
+    "label": "Hateg, Hunedoara",
+    "subdivisionCode": "HD",
+    "function": "23",
+    "lat": 45.616667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "HID",
+    "label": "Hida",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": 47.05,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "HDS",
+    "label": "Hidiselu de Sus",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.95,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "HTI",
+    "label": "Hintesti",
+    "function": "3",
+    "lat": 44.816667,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "HDC",
+    "label": "Hodac",
+    "subdivisionCode": "MS",
+    "function": "16",
+    "lat": 46.766667,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "RZF",
+    "label": "Hodosa",
+    "subdivisionCode": "MS",
+    "function": "6",
+    "lat": 46.633333,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "HOZ",
+    "label": "Hoghiz",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.983333,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Horezu",
+    "subdivisionCode": "GJ",
+    "function": "35",
+    "lat": 45.15,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "RZG",
+    "label": "Huedin",
+    "subdivisionCode": "CJ",
+    "function": "6",
+    "lat": 46.866667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Hunedoara",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.75,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "RZH",
+    "label": "Husi",
+    "subdivisionCode": "VS",
+    "function": "6",
+    "lat": 46.666667,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "IMA",
+    "label": "Ialomica, Judecul",
+    "subdivisionCode": "IL",
+    "function": "23",
+    "lat": 44.666667,
+    "lng": 27
+  },
+  {
+    "locationCode": "RZI",
+    "label": "Ianca",
+    "subdivisionCode": "BR",
+    "function": "6",
+    "lat": 45.133333,
+    "lng": 27.45
+  },
+  {
+    "locationCode": "IAS",
+    "label": "Iasi",
+    "subdivisionCode": "IS",
+    "function": "234",
+    "lat": 47.166667,
+    "lng": 27.6
+  },
+  {
+    "locationCode": "ILF",
+    "label": "Ilfoveni",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.816667,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "IVM",
+    "label": "Ilva Mica",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "IBZ",
+    "label": "Intorsura Buzaului",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 45.683333,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "ISC",
+    "label": "Isaccea",
+    "subdivisionCode": "TL",
+    "function": "13",
+    "lat": 45.266667,
+    "lng": 28.466667
+  },
+  {
+    "locationCode": "IVE",
+    "label": "Ivesti, Galati",
+    "function": "23",
+    "lat": 45.666667,
+    "lng": 27.516667
+  },
+  {
+    "locationCode": "IZB",
+    "label": "Izbiceni",
+    "function": "3",
+    "lat": 43.816667,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "IZV",
+    "label": "Izvin",
+    "subdivisionCode": "TM",
+    "function": "23",
+    "lat": 45.8,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "JRT",
+    "label": "Jaristea",
+    "subdivisionCode": "VN",
+    "function": "16",
+    "lat": 45.783333,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "JB9",
+    "label": "Jibou",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": 47.266667,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "JDV",
+    "label": "Jidveiu",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.216667,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "JVA",
+    "label": "Jilava",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.316667,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "JIL",
+    "label": "Jimbolia",
+    "function": "23"
+  },
+  {
+    "locationCode": "JOI",
+    "label": "Joita",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 44.483333,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "RZK",
+    "label": "Jucu-Herghelia",
+    "subdivisionCode": "CJ",
+    "function": "6",
+    "lat": 46.85,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "JUD",
+    "label": "Jud. Maramures",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Krasna",
+    "function": "3",
+    "lat": 48.133333,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "SLL",
+    "label": "Lalosu",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 44.55,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "LRM",
+    "label": "Lancram",
+    "function": "23",
+    "lat": 45.983333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Lasi",
+    "subdivisionCode": "B",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZUI",
+    "label": "Lazuri",
+    "subdivisionCode": "DB",
+    "function": "16"
+  },
+  {
+    "locationCode": "LMN",
+    "label": "Lemnia",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 26.266667
+  },
+  {
+    "locationCode": "LER",
+    "label": "Leresti",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 45.333333,
+    "lng": 25.066667
+  },
+  {
+    "locationCode": "LTI",
+    "label": "Liesti",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "LIP",
+    "label": "Lipova",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "5LI",
+    "label": "Livezeni",
+    "subdivisionCode": "MS",
+    "function": "16",
+    "lat": 46.55,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "LZI",
+    "label": "Livezi",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.4,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "RZL",
+    "label": "Ludus",
+    "subdivisionCode": "MS",
+    "function": "6",
+    "lat": 46.483333,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "LUG",
+    "label": "Lugoj",
+    "subdivisionCode": "TM",
+    "function": "23",
+    "lat": 45.683333,
+    "lng": 21.9
+  },
+  {
+    "locationCode": "LMA",
+    "label": "Lumina",
+    "function": "23",
+    "lat": 44.3,
+    "lng": 28.566667
+  },
+  {
+    "locationCode": "LUM",
+    "label": "Luminita",
+    "subdivisionCode": "CT",
+    "function": "1",
+    "lat": 44.25,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "LMU",
+    "label": "Lunca Muresului, Alba",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.433333,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lungeni",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "LGU",
+    "label": "Lunguletu",
+    "subdivisionCode": "DB",
+    "function": "23",
+    "lat": 44.616667,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "LUP",
+    "label": "Lupeni",
+    "subdivisionCode": "HD",
+    "function": "6",
+    "lat": 45.35,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "LUT",
+    "label": "Lutita",
+    "subdivisionCode": "HR",
+    "function": "16"
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Macin",
+    "subdivisionCode": "TL",
+    "function": "1",
+    "lat": 45.25,
+    "lng": 28.166667
+  },
+  {
+    "locationCode": "BH3",
+    "label": "Madaras",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.833333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "MAE",
+    "label": "Magesti",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.016667,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "MGH",
+    "label": "Magheru",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 44.65,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Magurele",
+    "subdivisionCode": "IF",
+    "function": "3",
+    "lat": 44.35,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "MGU",
+    "label": "Magureni",
+    "subdivisionCode": "PH",
+    "function": "16",
+    "lat": 45.066667,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahmudia",
+    "subdivisionCode": "TL",
+    "function": "1",
+    "lat": 45.133333,
+    "lng": 29.133333
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Maieru",
+    "subdivisionCode": "BN",
+    "function": "6",
+    "lat": 47.4,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "RZJ",
+    "label": "Malini",
+    "subdivisionCode": "SV",
+    "function": "6",
+    "lat": 47.45,
+    "lng": 26.1
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manastireni",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 46.766667,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Mangalia",
+    "subdivisionCode": "CT",
+    "function": "123",
+    "lat": 43.833333,
+    "lng": 28.583333
+  },
+  {
+    "locationCode": "MCI",
+    "label": "Maracineni",
+    "subdivisionCode": "AG",
+    "function": "6",
+    "lat": 44.9,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marghita",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.35,
+    "lng": 22.333333
+  },
+  {
+    "locationCode": "MG5",
+    "label": "Marginea",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 25.816667
+  },
+  {
+    "locationCode": "RZM",
+    "label": "Margineni",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 46.6,
+    "lng": 26.9
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Matasaru",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.716667,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matca",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 27.533333
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Mateesti",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "MED",
+    "label": "Medgidia",
+    "subdivisionCode": "CT",
+    "function": "1",
+    "lat": 44.25,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "MES",
+    "label": "Medias",
+    "subdivisionCode": "SB",
+    "function": "3",
+    "lat": 46.166667,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "MAU",
+    "label": "Mediesu Aurit",
+    "function": "3",
+    "lat": 47.766667,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "MDA",
+    "label": "Mehadia",
+    "subdivisionCode": "CS",
+    "function": "23",
+    "lat": 44.9,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "MID",
+    "label": "Midia",
+    "subdivisionCode": "CT",
+    "function": "123",
+    "lat": 44.333333,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "RZP",
+    "label": "Miercurea Sibiului",
+    "subdivisionCode": "SB",
+    "function": "6",
+    "lat": 45.883333,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "MCA",
+    "label": "Miercurea-Ciuc",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "MVU",
+    "label": "Mihai Viteazu",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 46.533333,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "MKO",
+    "label": "Mihail Kogalniceanu",
+    "function": "3",
+    "lat": 44.4,
+    "lng": 28.516667
+  },
+  {
+    "locationCode": "MHE",
+    "label": "Mihailesti",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 44.316667,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "MIJ",
+    "label": "Mija",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.916667,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "RZN",
+    "label": "Mintia",
+    "subdivisionCode": "HD",
+    "function": "6",
+    "lat": 45.933333,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "ENI",
+    "label": "Mioveni",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.95,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Mirila",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": 44.366667,
+    "lng": 24.15
+  },
+  {
+    "locationCode": "RZA",
+    "label": "Mizil",
+    "subdivisionCode": "PH",
+    "function": "6",
+    "lat": 45.016667,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Moara",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.833333,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Mogosoaia",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.516667,
+    "lng": 26
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Moinesti",
+    "subdivisionCode": "BC",
+    "function": "23",
+    "lat": 46.466667,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "MSI",
+    "label": "Moisei",
+    "subdivisionCode": "MM",
+    "function": "23",
+    "lat": 47.65,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "MOI",
+    "label": "Moiseni",
+    "subdivisionCode": "SM",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 23.466667
+  },
+  {
+    "locationCode": "RZY",
+    "label": "Moldova Noua",
+    "subdivisionCode": "CS",
+    "function": "6",
+    "lat": 44.733333,
+    "lng": 21.666667
+  },
+  {
+    "locationCode": "MOV",
+    "label": "Moldova Veche",
+    "subdivisionCode": "CS",
+    "lat": 44.716667,
+    "lng": 21.616667
+  },
+  {
+    "locationCode": "MRI",
+    "label": "Moreni, Dimbovita",
+    "function": "23",
+    "lat": 45,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "MON",
+    "label": "Mosnita Noua",
+    "function": "3",
+    "lat": 45.716667,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "MTE",
+    "label": "Motatei",
+    "subdivisionCode": "DJ",
+    "function": "3",
+    "lat": 44.083333,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "MOT",
+    "label": "Motru",
+    "subdivisionCode": "GJ",
+    "function": "35",
+    "lat": 44.8,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "MVC",
+    "label": "Movila Verde",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": 43.966667,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Munteni",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.9,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Muntenii",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 27.433333
+  },
+  {
+    "locationCode": "MSN",
+    "label": "Mureseni",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murfatlar",
+    "function": "3",
+    "lat": 44.183333,
+    "lng": 28.416667
+  },
+  {
+    "locationCode": "MUS",
+    "label": "Musca",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.366667,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "NDB",
+    "label": "Nadab",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "NAD",
+    "label": "Naidas",
+    "function": "3"
+  },
+  {
+    "locationCode": "NDI",
+    "label": "Navodari",
+    "function": "123",
+    "lat": 44.333333,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "NAZ",
+    "label": "Nazna",
+    "subdivisionCode": "MS",
+    "function": "23",
+    "lat": 46.533333,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "NDE",
+    "label": "Nedelea",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.966667,
+    "lng": 25.816667
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Negru Voda",
+    "function": "2"
+  },
+  {
+    "locationCode": "RZW",
+    "label": "Nehoiu",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 45.416667,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "NIB",
+    "label": "Nicolae Balcescu",
+    "function": "2"
+  },
+  {
+    "locationCode": "NIN",
+    "label": "Nicolina",
+    "function": "2"
+  },
+  {
+    "locationCode": "NCL",
+    "label": "Niculitel",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 45.183333,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "NFN",
+    "label": "Nifon",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 45.15,
+    "lng": 28.366667
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Novacu",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 45.166667,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "OAR",
+    "label": "Oarda de Sus",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "OAJ",
+    "label": "Oarja",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.766667,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "OCM",
+    "label": "Ocna Mures",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.383333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "OBE",
+    "label": "Odobesti",
+    "subdivisionCode": "VN",
+    "function": "36",
+    "lat": 45.766667,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "OSE",
+    "label": "Odorheiu Secuiesc",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 46.3,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "OGI",
+    "label": "Oglinzi",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "OTZ",
+    "label": "Oituz, Bacau",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "OJD",
+    "label": "Ojdula",
+    "subdivisionCode": "CV",
+    "function": "16",
+    "lat": 45.983333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "TM5",
+    "label": "Olosag",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.6,
+    "lng": 21.95
+  },
+  {
+    "locationCode": "OLT",
+    "label": "Oltenita",
+    "subdivisionCode": "CL",
+    "function": "1",
+    "lat": 44.083333,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "ROI",
+    "label": "Onesti",
+    "subdivisionCode": "IS",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "OSI",
+    "label": "Onesti, Bacau",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "OPR",
+    "label": "Oprisor",
+    "function": "3",
+    "lat": 44.283333,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "OMR",
+    "label": "Oradea",
+    "function": "24"
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Orastie",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "OVA",
+    "label": "Oravita",
+    "subdivisionCode": "CS",
+    "function": "23",
+    "lat": 45.016667,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "ORT",
+    "label": "Orlesti",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 44.8,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "ODL",
+    "label": "Orodelu",
+    "function": "3",
+    "lat": 44.25,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "ORV",
+    "label": "Orsova",
+    "subdivisionCode": "MH",
+    "function": "12",
+    "lat": 44.7,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "OSA",
+    "label": "Ortisoara",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.95,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "OTI",
+    "label": "Otopeni",
+    "subdivisionCode": "IF",
+    "function": "3",
+    "lat": 44.55,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "OTP",
+    "label": "Otopeni Apt/Bucuresti",
+    "subdivisionCode": "IF",
+    "function": "4",
+    "lat": 44.566667,
+    "lng": 26.083333
+  },
+  {
+    "locationCode": "OVI",
+    "label": "Ovidiu",
+    "subdivisionCode": "CT",
+    "function": "1",
+    "lat": 44.266667,
+    "lng": 28.566667
+  },
+  {
+    "locationCode": "PAD",
+    "label": "Padureni",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Palota",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "PNC",
+    "label": "Panciu",
+    "function": "3",
+    "lat": 45.9,
+    "lng": 27.083333
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Panic",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": 47.2,
+    "lng": 23
+  },
+  {
+    "locationCode": "PNA",
+    "label": "Pantasesti",
+    "subdivisionCode": "BH",
+    "function": "36",
+    "lat": 46.616667,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Pantelimon",
+    "function": "3",
+    "lat": 44.45,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "S3R",
+    "label": "Parscov",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.283333,
+    "lng": 26.55
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parta",
+    "subdivisionCode": "TM",
+    "function": "36",
+    "lat": 45.633333,
+    "lng": 21.133333
+  },
+  {
+    "locationCode": "PCI",
+    "label": "Pascani",
+    "function": "3",
+    "lat": 47.25,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pascani",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 45.833333,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Patrauti",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.716667,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "PAU",
+    "label": "Paulesti",
+    "subdivisionCode": "PH",
+    "function": "16",
+    "lat": 45,
+    "lng": 25.983333
+  },
+  {
+    "locationCode": "PMG",
+    "label": "Pausesti-Maglasi",
+    "subdivisionCode": "VL",
+    "function": "6",
+    "lat": 45.133333,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "PEA",
+    "label": "Pechea",
+    "subdivisionCode": "GL",
+    "function": "3",
+    "lat": 45.633333,
+    "lng": 27.8
+  },
+  {
+    "locationCode": "PCA",
+    "label": "Pecica",
+    "subdivisionCode": "AR",
+    "function": "23",
+    "lat": 46.166667,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "PCT",
+    "label": "Pecineaga",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": 43.9,
+    "lng": 28.5
+  },
+  {
+    "locationCode": "PEC",
+    "label": "Peciu Nou",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Peris, Ilfov",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.683333,
+    "lng": 26
+  },
+  {
+    "locationCode": "PTA",
+    "label": "Petelea",
+    "subdivisionCode": "MS",
+    "function": "16",
+    "lat": 46.733333,
+    "lng": 24.716667
+  },
+  {
+    "locationCode": "PET",
+    "label": "Petresti",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 45.083333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Petrila, Hunedoara",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 44.916667,
+    "lng": 21.616667
+  },
+  {
+    "locationCode": "PEI",
+    "label": "Petrosani",
+    "function": "3"
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Piatra Neamt",
+    "function": "2"
+  },
+  {
+    "locationCode": "PIA",
+    "label": "Piatra Olt",
+    "function": "3",
+    "lat": 44.35,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "NTP",
+    "label": "Piatra Soimului",
+    "subdivisionCode": "NT",
+    "function": "6",
+    "lat": 46.833333,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "PES",
+    "label": "Pielesti",
+    "subdivisionCode": "DJ",
+    "function": "16",
+    "lat": 44.333333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "PTI",
+    "label": "Pietrari, Valcea",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 45.1,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "POA",
+    "label": "Pietroasa",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 46.583333,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "PSE",
+    "label": "Pietroasele",
+    "subdivisionCode": "BZ",
+    "function": "16",
+    "lat": 46.1,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Pitesti",
+    "function": "2"
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Plavalari",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.566667,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "PLT",
+    "label": "Ploiesti",
+    "subdivisionCode": "PH",
+    "function": "23",
+    "lat": 44.95,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "PLO",
+    "label": "Plopeni",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.066667,
+    "lng": 25.983333
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Poarta Alba",
+    "subdivisionCode": "CT",
+    "function": "1",
+    "lat": 44.216667,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "CIA",
+    "label": "Pociovalistea",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 45.15,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "PDR",
+    "label": "Podari",
+    "subdivisionCode": "DJ",
+    "function": "3",
+    "lat": 44.25,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "PLR",
+    "label": "Poiana Lacului",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.816667,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Poiana Negrii",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 25.216667
+  },
+  {
+    "locationCode": "PSI",
+    "label": "Poiana Sibiului",
+    "subdivisionCode": "SB",
+    "function": "3",
+    "lat": 45.8,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "PDM",
+    "label": "Poienarii de Muscel",
+    "function": "3"
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Polovragi",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 45.183333,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "PLE",
+    "label": "Popesti-Leordeni",
+    "subdivisionCode": "B",
+    "function": "23",
+    "lat": 44.383333,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "PFD",
+    "label": "Portile de Fier Doi",
+    "function": "3",
+    "lat": 44.683333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "PFU",
+    "label": "Portile de Fier Unu",
+    "function": "3",
+    "lat": 44.683333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "PBM",
+    "label": "Porumbenii Mici",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 25.1
+  },
+  {
+    "locationCode": "POS",
+    "label": "Posoloaca",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "PRJ",
+    "label": "Preajba",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 44.25,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Prejmer",
+    "subdivisionCode": "BV",
+    "function": "6",
+    "lat": 45.716667,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "PPC",
+    "label": "Prelipca",
+    "subdivisionCode": "SV",
+    "function": "16",
+    "lat": 47.6,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "PUA",
+    "label": "Pucioasa",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 45.066667,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "RAC",
+    "label": "Rachitova",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.6,
+    "lng": 22.733333
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Radauti",
+    "function": "2"
+  },
+  {
+    "locationCode": "RDU",
+    "label": "Radauti",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.85,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "RMS",
+    "label": "Ramnicu Sarat",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.366667,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "RIV",
+    "label": "Râmnicu Vâlcea",
+    "labelWithDiacritics": "Ramnicu Valcea",
+    "function": "2",
+    "lat": 45.1,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "RNV",
+    "label": "Rasnov",
+    "function": "3",
+    "lat": 45.583333,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "RBI",
+    "label": "Razboieni",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.416667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "RBR",
+    "label": "Rebra",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.316667,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "REC",
+    "label": "Recas",
+    "function": "23",
+    "lat": 45.8,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "RDE",
+    "label": "Rediu",
+    "subdivisionCode": "IS",
+    "function": "16",
+    "lat": 46.9,
+    "lng": 27.583333
+  },
+  {
+    "locationCode": "RHN",
+    "label": "Reghin",
+    "subdivisionCode": "MS",
+    "function": "23",
+    "lat": 46.766667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "RME",
+    "label": "Remetea Mare",
+    "subdivisionCode": "TM",
+    "function": "36",
+    "lat": 45.766667,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "RMA",
+    "label": "Remetea, Harghita",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.783333,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "REA",
+    "label": "Resita",
+    "subdivisionCode": "CS",
+    "function": "3",
+    "lat": 45.3,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "REN",
+    "label": "Resita Nord",
+    "function": "2"
+  },
+  {
+    "locationCode": "RES",
+    "label": "Resita Sud",
+    "function": "2"
+  },
+  {
+    "locationCode": "RZQ",
+    "label": "Rimnicu Vilcea",
+    "subdivisionCode": "VS",
+    "function": "6",
+    "lat": 45.1,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "1"
+  },
+  {
+    "locationCode": "RIS",
+    "label": "Risca",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 46.183333,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "RMN",
+    "label": "Roman",
+    "subdivisionCode": "NT",
+    "function": "23",
+    "lat": 46.916667,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "RMI",
+    "label": "Romuli",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.55,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "RDS",
+    "label": "Rona de Sus",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.9,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "RNN",
+    "label": "Rosia Montana",
+    "function": "16",
+    "lat": -46.3,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosiorii de Vede",
+    "subdivisionCode": "TR",
+    "function": "6",
+    "lat": 44.1,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "ROV",
+    "label": "Rovinari",
+    "subdivisionCode": "GJ",
+    "function": "3",
+    "lat": 44.9,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "RZV",
+    "label": "Roznov",
+    "function": "0"
+  },
+  {
+    "locationCode": "RCR",
+    "label": "Rucar",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 45.383333,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "RUG",
+    "label": "Rugetu",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 45,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "RUP",
+    "label": "Rupea",
+    "function": "3",
+    "lat": 46.05,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "SOI",
+    "label": "Sabaoani",
+    "function": "23",
+    "lat": 47.016667,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "RZR",
+    "label": "Sacalaz",
+    "subdivisionCode": "TM",
+    "function": "6",
+    "lat": 45.75,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "RZS",
+    "label": "Sacele",
+    "subdivisionCode": "BV",
+    "function": "6",
+    "lat": 45.616667,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "STU",
+    "label": "Sacosu Turcesc",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.65,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "BHR",
+    "label": "Salard",
+    "subdivisionCode": "BH",
+    "function": "6",
+    "lat": 47.216667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "SDJ",
+    "label": "Salciua de Jos",
+    "subdivisionCode": "AB",
+    "function": "23",
+    "lat": 46.4,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Saliste",
+    "subdivisionCode": "SB",
+    "function": "3",
+    "lat": 45.783333,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Salonta",
+    "function": "2"
+  },
+  {
+    "locationCode": "SBT",
+    "label": "Sanbotin",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 45.3,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "SNC",
+    "label": "Sancraieni",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "SNL",
+    "label": "Sanleani",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sannicolau Mare",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 46.083333,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "STN",
+    "label": "Sântana",
+    "subdivisionCode": "AR",
+    "labelWithDiacritics": "Santana",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "SDI",
+    "label": "Sântandrei",
+    "subdivisionCode": "BH",
+    "labelWithDiacritics": "Santandrei",
+    "function": "3",
+    "lat": 47.066667,
+    "lng": 21.85
+  },
+  {
+    "locationCode": "SSU",
+    "label": "Sarasau",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "SRT",
+    "label": "Sarata",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.5,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "RTA",
+    "label": "Sarata",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.083333,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarmas",
+    "subdivisionCode": "CV",
+    "function": "3",
+    "lat": 45.7,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "SMG",
+    "label": "Sarmasag",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": 47.35,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sascut",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "LCV",
+    "label": "Sat Luncavita",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 45.283333,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "SVD",
+    "label": "Sat Valea Draganului",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 44.716667,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "SUJ",
+    "label": "Satu Mare",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saulia",
+    "function": "3",
+    "lat": 46.633333,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "SDL",
+    "label": "Savadisla",
+    "subdivisionCode": "CJ",
+    "function": "3",
+    "lat": 46.683333,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "SAV",
+    "label": "Saveni",
+    "subdivisionCode": "BT",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 26.85
+  },
+  {
+    "locationCode": "VST",
+    "label": "Savinesti",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 47.133333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Scheia",
+    "subdivisionCode": "SV",
+    "function": "36",
+    "lat": 47.65,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "SCO",
+    "label": "Scornicesti",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": 44.566667,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "SBS",
+    "label": "Sebes, Alba",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 45.966667,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "SEC",
+    "label": "Secueni",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "DOJ",
+    "label": "Segarcea",
+    "subdivisionCode": "DJ",
+    "function": "6",
+    "lat": 44.1,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Seini",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.75,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Seitin",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.1,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selimbar",
+    "subdivisionCode": "SB",
+    "function": "6",
+    "lat": 45.766667,
+    "lng": 24.2
+  },
+  {
+    "locationCode": "SFG",
+    "label": "Sfantul-Gheorghe",
+    "subdivisionCode": "CV",
+    "function": "23",
+    "lat": 45.866667,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "SBZ",
+    "label": "Sibiu",
+    "function": "24"
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Sighetu Marmatiei",
+    "function": "2"
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Sighisoara",
+    "subdivisionCode": "MS",
+    "function": "23",
+    "lat": 46.216667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Simeria",
+    "subdivisionCode": "HD",
+    "function": "23",
+    "lat": 45.816667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "SMN",
+    "label": "Simian",
+    "subdivisionCode": "BH",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "SJS",
+    "label": "Simleu Silvaniei",
+    "subdivisionCode": "SJ",
+    "function": "3"
+  },
+  {
+    "locationCode": "RZT",
+    "label": "Sinaia",
+    "subdivisionCode": "PH",
+    "function": "6",
+    "lat": 45.35,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "SCI",
+    "label": "Sincraieni",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.3,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Sîncraiu de Mures",
+    "subdivisionCode": "MS",
+    "labelWithDiacritics": "Sincraiu de Mures",
+    "function": "23",
+    "lat": 46.55,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Sindrilita",
+    "subdivisionCode": "B",
+    "function": "36",
+    "lat": 44.516667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "SGM",
+    "label": "Sîngeorgiu de Mures",
+    "subdivisionCode": "MS",
+    "labelWithDiacritics": "Singeorgiu de Mures",
+    "function": "3",
+    "lat": 46.566667,
+    "lng": 24.6
+  },
+  {
+    "locationCode": "SMR",
+    "label": "Sînmartin",
+    "subdivisionCode": "CJ",
+    "labelWithDiacritics": "Sinmartin",
+    "function": "3",
+    "lat": 46.9,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sinnicolau Mare",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 46.666667,
+    "lng": 20.616667
+  },
+  {
+    "locationCode": "4SB",
+    "label": "Sinpetru",
+    "subdivisionCode": "BV",
+    "function": "3",
+    "lat": 45.716667,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "SMU",
+    "label": "Sîntana de Mures",
+    "subdivisionCode": "MS",
+    "labelWithDiacritics": "Sintana de Mures",
+    "function": "23",
+    "lat": 46.566667,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "STG",
+    "label": "Sintereag",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.183333,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "SRU",
+    "label": "Sîntimbru",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Sintimbru",
+    "function": "6",
+    "lat": 46.133333,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "SIR",
+    "label": "Siret",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 47.95,
+    "lng": 26.566667
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Slatina",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": 44.433333,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "STR",
+    "label": "Slatioara",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": 44.4,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "SCZ",
+    "label": "Slava Cercheza",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": 44.4,
+    "lng": 28.55
+  },
+  {
+    "locationCode": "SRS",
+    "label": "Slava Rusa",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 44.85,
+    "lng": 28.6
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Slobozia",
+    "subdivisionCode": "IL",
+    "function": "3",
+    "lat": 44.566667,
+    "lng": 27.366667
+  },
+  {
+    "locationCode": "SLS",
+    "label": "Slobozia Sucevei",
+    "subdivisionCode": "SV",
+    "function": "6",
+    "lat": 47.75,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Slobozia, Arges",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 45.266667,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "SDN",
+    "label": "Smârdan",
+    "labelWithDiacritics": "Smardan",
+    "function": "3",
+    "lat": 45.466667,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "SGV",
+    "label": "Snagov",
+    "function": "23",
+    "lat": 44.7,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "SOC",
+    "label": "Socetu",
+    "function": "3",
+    "lat": 44.2,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Socola",
+    "function": "2"
+  },
+  {
+    "locationCode": "SMS",
+    "label": "Soimesti",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.033333,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "SOU",
+    "label": "Soimus",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Someseni",
+    "function": "2"
+  },
+  {
+    "locationCode": "RZU",
+    "label": "Sovata",
+    "subdivisionCode": "MS",
+    "function": "6",
+    "lat": 46.583333,
+    "lng": 25.066667
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Soveja",
+    "subdivisionCode": "VN",
+    "function": "3",
+    "lat": 46,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "RZC",
+    "label": "Stalpeni",
+    "subdivisionCode": "AG",
+    "function": "6",
+    "lat": 45.033333,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "STM",
+    "label": "Stamora Germana",
+    "function": "23",
+    "lat": 45.283333,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "STI",
+    "label": "Stefanesti, Arges",
+    "function": "23",
+    "lat": 44.866667,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "STJ",
+    "label": "Stefanestii de Jos",
+    "subdivisionCode": "B",
+    "function": "36",
+    "lat": 44.533333,
+    "lng": 26.2
+  },
+  {
+    "locationCode": "TEI",
+    "label": "Stei",
+    "subdivisionCode": "BH",
+    "function": "36",
+    "lat": 46.533333,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "ST9",
+    "label": "Stejaru",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 44.766667,
+    "lng": 28.55
+  },
+  {
+    "locationCode": "SBC",
+    "label": "Subcetate",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.85,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "SCV",
+    "label": "Suceava",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Suceava Nord",
+    "function": "2"
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Sulina (Port et Zone Franche)",
+    "subdivisionCode": "TL",
+    "function": "13",
+    "lat": 45.15,
+    "lng": 29.666667
+  },
+  {
+    "locationCode": "SCS",
+    "label": "Suncuius",
+    "function": "3",
+    "lat": 46.983333,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "SUR",
+    "label": "Sura Mica",
+    "subdivisionCode": "SB",
+    "function": "36",
+    "lat": 45.833333,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talea",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.216667,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tamna",
+    "function": "3",
+    "lat": 44.566667,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "BNS",
+    "label": "Tancabesti",
+    "subdivisionCode": "IF",
+    "function": "3",
+    "lat": 44.7,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "TDE",
+    "label": "Tandarei",
+    "subdivisionCode": "IL",
+    "function": "3",
+    "lat": 44.65,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "CAU",
+    "label": "Tarcau",
+    "subdivisionCode": "NT",
+    "function": "3",
+    "lat": 46.866667,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Târgoviste",
+    "subdivisionCode": "DB",
+    "labelWithDiacritics": "Targoviste",
+    "function": "3",
+    "lat": 44.933333,
+    "lng": 25.45
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Targsoru Nou",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 44.9,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "TFR",
+    "label": "Targu Frumos",
+    "subdivisionCode": "IS",
+    "function": "23",
+    "lat": 47.2,
+    "lng": 27
+  },
+  {
+    "locationCode": "TGU",
+    "label": "Târgu Jiu",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Targu Jiu",
+    "function": "3",
+    "lat": 45.05,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "RZO",
+    "label": "Targu Neamt",
+    "subdivisionCode": "NT",
+    "function": "6",
+    "lat": 47.2,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "TAO",
+    "label": "Târgu Ocna",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Targu Ocna",
+    "function": "3",
+    "lat": 46.266667,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "TSC",
+    "label": "Târgu Secuiesc",
+    "labelWithDiacritics": "Targu Secuiesc",
+    "function": "23",
+    "lat": 46,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "TGM",
+    "label": "Târgu-Mures",
+    "labelWithDiacritics": "Targu-Mures",
+    "function": "4",
+    "lat": 46.55,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "TJI",
+    "label": "Tarju Jiu",
+    "function": "36",
+    "lat": 45.033333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "TVI",
+    "label": "Tarnaveni",
+    "function": "3",
+    "lat": 46.316667,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tasnad",
+    "subdivisionCode": "SM",
+    "function": "3",
+    "lat": 47.483333,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "TCC",
+    "label": "Tecuci",
+    "subdivisionCode": "GL",
+    "function": "6",
+    "lat": 45.866667,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "TEU",
+    "label": "Teius",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.2,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "TON",
+    "label": "Teleorman",
+    "subdivisionCode": "TR",
+    "function": "3",
+    "lat": 44.066667,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Teregova",
+    "subdivisionCode": "CS",
+    "function": "23",
+    "lat": 45.15,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "TET",
+    "label": "Tetchea",
+    "function": "23",
+    "lat": 47.05,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "TIC",
+    "label": "Ticleni",
+    "function": "3",
+    "lat": 44.883333,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "TFT",
+    "label": "Tifesti",
+    "subdivisionCode": "VN",
+    "function": "3",
+    "lat": 45.85,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "TIG",
+    "label": "Tiganesti",
+    "function": "23",
+    "lat": 46.616667,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "TAD",
+    "label": "Tileagd",
+    "function": "23",
+    "lat": 47.066667,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "TMT",
+    "label": "Timisesti",
+    "subdivisionCode": "NT",
+    "function": "6",
+    "lat": 47.233333,
+    "lng": 26.55
+  },
+  {
+    "locationCode": "TSR",
+    "label": "Timisoara",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSN",
+    "label": "Timisoara Nord",
+    "function": "2"
+  },
+  {
+    "locationCode": "6BT",
+    "label": "Tincabesti",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.683333,
+    "lng": 26.083333
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tintesti",
+    "function": "3",
+    "lat": 45.066667,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "TJU",
+    "label": "Tîrgu Jiu",
+    "subdivisionCode": "GJ",
+    "labelWithDiacritics": "Tirgu Jiu",
+    "function": "23",
+    "lat": 45.05,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "RGU",
+    "label": "Tîrgu Lapus",
+    "subdivisionCode": "MM",
+    "labelWithDiacritics": "Tirgu Lapus",
+    "function": "3",
+    "lat": 47.45,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "TIR",
+    "label": "Tirgu Mures",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.516667,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "TIT",
+    "label": "Titu",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.65,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "OAA",
+    "label": "Toaca",
+    "subdivisionCode": "MS",
+    "function": "6"
+  },
+  {
+    "locationCode": "TOH",
+    "label": "Tohani",
+    "function": "3",
+    "lat": 45.066667,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "TOI",
+    "label": "Tomesti",
+    "subdivisionCode": "IS",
+    "function": "3",
+    "lat": 47.116667,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "TNI",
+    "label": "Tonesti, Olt",
+    "function": "3",
+    "lat": 44.8,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "TPL",
+    "label": "Topolog",
+    "subdivisionCode": "TL",
+    "function": "3",
+    "lat": 44.883333,
+    "lng": 28.366667
+  },
+  {
+    "locationCode": "TTI",
+    "label": "Totesti",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.566667,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Traisteni",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 45.35,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "TCE",
+    "label": "Tulcea",
+    "subdivisionCode": "TL",
+    "function": "14",
+    "lat": 45.183333,
+    "lng": 28.8
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Tulghes",
+    "subdivisionCode": "HR",
+    "function": "23",
+    "lat": 46.95,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunari",
+    "subdivisionCode": "B",
+    "function": "36",
+    "lat": 44.55,
+    "lng": 26.15
+  },
+  {
+    "locationCode": "TDA",
+    "label": "Turda",
+    "subdivisionCode": "CJ",
+    "function": "23",
+    "lat": 46.566667,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "TUC",
+    "label": "Tureac",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 47.216667,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "TR5",
+    "label": "Tureni",
+    "subdivisionCode": "CJ",
+    "function": "16",
+    "lat": 46.616667,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Turnu",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.25,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "TUM",
+    "label": "Turnu Magurele",
+    "subdivisionCode": "TR",
+    "function": "1",
+    "lat": 43.75,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "TRO",
+    "label": "Turnu Rosu",
+    "subdivisionCode": "SB",
+    "function": "3",
+    "lat": 45.616667,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Turturesti",
+    "subdivisionCode": "BZ",
+    "function": "16",
+    "lat": 45.116667,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "ULM",
+    "label": "Ulmeni",
+    "subdivisionCode": "BZ",
+    "function": "6",
+    "lat": 45.066667,
+    "lng": 26.65
+  },
+  {
+    "locationCode": "ULI",
+    "label": "Ulmi",
+    "subdivisionCode": "DB",
+    "function": "6",
+    "lat": 44.9,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "UN7",
+    "label": "Ungheni",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.483333,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "URA",
+    "label": "Unirea",
+    "subdivisionCode": "AB",
+    "function": "23",
+    "lat": 46.4,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "ULT",
+    "label": "Urlati",
+    "subdivisionCode": "PH",
+    "function": "6",
+    "lat": 44.983333,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "URZ",
+    "label": "Urziceni",
+    "function": "3"
+  },
+  {
+    "locationCode": "UTW",
+    "label": "Utvin",
+    "subdivisionCode": "TM",
+    "function": "3",
+    "lat": 45.716667,
+    "lng": 21.133333
+  },
+  {
+    "locationCode": "VRI",
+    "label": "Vacaresti, Dimbovita",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 44.85,
+    "lng": 25.483333
+  },
+  {
+    "locationCode": "VIZ",
+    "label": "Vadu Izei",
+    "function": "23",
+    "lat": 47.883333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "VDP",
+    "label": "Vadu Pasii",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.166667,
+    "lng": 26.9
+  },
+  {
+    "locationCode": "RZX",
+    "label": "Vaduri",
+    "subdivisionCode": "NT",
+    "function": "6",
+    "lat": 46.916667,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "VAD",
+    "label": "Valea Adanca",
+    "subdivisionCode": "IS",
+    "function": "3",
+    "lat": 48,
+    "lng": 28.833333
+  },
+  {
+    "locationCode": "VAM",
+    "label": "Valea Luimihai",
+    "function": "2"
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valea Lunga",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "VUI",
+    "label": "Valea Lupului",
+    "subdivisionCode": "IS",
+    "function": "6",
+    "lat": 47.183333,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "VMP",
+    "label": "Valea Mare Podgoria",
+    "subdivisionCode": "AG",
+    "function": "3",
+    "lat": 44.883333,
+    "lng": 24.9
+  },
+  {
+    "locationCode": "VDM",
+    "label": "Valenii de Munte",
+    "function": "23",
+    "lat": 45.183333,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "VAV",
+    "label": "Vama Veche",
+    "function": "3"
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Vanatori",
+    "subdivisionCode": "MH",
+    "function": "3",
+    "lat": 44.233333,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "VTR",
+    "label": "Vanatori Neamt",
+    "subdivisionCode": "NT",
+    "function": "16",
+    "lat": 47.2,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "VMA",
+    "label": "Vanatorii-Mari",
+    "subdivisionCode": "GR",
+    "function": "3",
+    "lat": 44.483333,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Varsand",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAO",
+    "label": "Varsolt",
+    "subdivisionCode": "SJ",
+    "function": "23",
+    "lat": 47.2,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "VLI",
+    "label": "Vaslui",
+    "subdivisionCode": "VS",
+    "function": "23",
+    "lat": 46.633333,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "VDO",
+    "label": "Vatra Dornei",
+    "function": "23",
+    "lat": 47.35,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "VER",
+    "label": "Vernesti",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 45.2,
+    "lng": 24.616667
+  },
+  {
+    "locationCode": "VD3",
+    "label": "Vicovu de Sus",
+    "subdivisionCode": "SV",
+    "function": "6",
+    "lat": 47.933333,
+    "lng": 25.683333
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Vicsani",
+    "function": "2"
+  },
+  {
+    "locationCode": "RZB",
+    "label": "Victoria",
+    "subdivisionCode": "BV",
+    "function": "6",
+    "lat": 45.733333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "VDE",
+    "label": "Videle",
+    "function": "23",
+    "lat": 44.283333,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "VDR",
+    "label": "Vidra, Vrancea",
+    "function": "3",
+    "lat": 45.916667,
+    "lng": 26.9
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vinga",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.016667,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Virtescoiu",
+    "subdivisionCode": "VN",
+    "function": "3",
+    "lat": 45.733333,
+    "lng": 27.083333
+  },
+  {
+    "locationCode": "VDS",
+    "label": "Viseu de Sus",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 47.7,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "VDI",
+    "label": "Vladesti",
+    "subdivisionCode": "VS",
+    "function": "3",
+    "lat": 45.116667,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "VEU",
+    "label": "Vladimirescu",
+    "subdivisionCode": "AR",
+    "function": "3",
+    "lat": 46.15,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Vlahita",
+    "subdivisionCode": "HR",
+    "function": "3",
+    "lat": 46.35,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "VNI",
+    "label": "Voinesti",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 44.983333,
+    "lng": 26.6
+  },
+  {
+    "locationCode": "VOI",
+    "label": "Voiniceni",
+    "subdivisionCode": "MS",
+    "function": "3",
+    "lat": 46.616667,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "VTG",
+    "label": "Voiteg",
+    "function": "23",
+    "lat": 45.466667,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Voluntari",
+    "function": "3",
+    "lat": 44.483333,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "VOL",
+    "label": "Voluntari",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 44.466667,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "VUL",
+    "label": "Vulcan",
+    "subdivisionCode": "HD",
+    "function": "3",
+    "lat": 45.383333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "ZAU",
+    "label": "Zalau",
+    "subdivisionCode": "SJ",
+    "function": "23",
+    "lat": 47.2,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Zarnesti",
+    "subdivisionCode": "BV",
+    "function": "23",
+    "lat": 45.566667,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "ZIC",
+    "label": "Zimnicea",
+    "subdivisionCode": "TR",
+    "function": "1",
+    "lat": 43.65,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "ZTA",
+    "label": "Zlatna",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 46.116667,
+    "lng": 23.216667
+  }
+]

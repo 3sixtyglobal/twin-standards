@@ -1,6 +1,6 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IVdaCommon } from "./IVdaCommon";
+import type { IVdaCommon } from "./IVdaCommon.js";
 
 /**
  * Interface for a VDA Biz Location.

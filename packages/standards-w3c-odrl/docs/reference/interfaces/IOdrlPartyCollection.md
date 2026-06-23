@@ -2,20 +2,17 @@
 
 Interface for ODRL Party Collections.
 A PartyCollection identifies a collection of entities and is a subclass of Party.
+https://www.w3.org/TR/odrl-model/#party
 
 ## Extends
 
 - [`IOdrlParty`](IOdrlParty.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 The unique identifier for the party.
 Must be an IRI.
@@ -26,9 +23,9 @@ Must be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
-> `optional` **@type**: `string` \| `string`[]
+> `optional` **@type?**: `ObjectOrArray`\<`string`\>
 
 The type of the party.
 Can be used to specify additional type information (e.g., "Party",
@@ -40,9 +37,9 @@ Can be used to specify additional type information (e.g., "Party",
 
 ***
 
-### partOf?
+### partOf? {#partof}
 
-> `optional` **partOf**: `string` \| `IOdrlPartyCollection`
+> `optional` **partOf?**: `ObjectOrArray`\<`string` \| `IOdrlPartyCollection`\>
 
 Reference to the party collection this party is part of.
 Used to identify a PartyCollection that a Party entity is a member of.
@@ -53,9 +50,9 @@ Used to identify a PartyCollection that a Party entity is a member of.
 
 ***
 
-### assigneeOf?
+### assigneeOf? {#assigneeof}
 
-> `optional` **assigneeOf**: `string`
+> `optional` **assigneeOf?**: `ObjectOrArray`\<`string`\>
 
 Reference to a policy where this party is an assignee.
 When assigneeOf is asserted, the Party MUST be inferred to undertake
@@ -67,9 +64,9 @@ the assignee functional role of all the Rules of that Policy.
 
 ***
 
-### assignerOf?
+### assignerOf? {#assignerof}
 
-> `optional` **assignerOf**: `string`
+> `optional` **assignerOf?**: `ObjectOrArray`\<`string`\>
 
 Reference to a policy where this party is an assigner.
 When assignerOf is asserted, the Party MUST be inferred to undertake
@@ -81,7 +78,7 @@ the assigner functional role of all the Rules of that Policy.
 
 ***
 
-### source
+### source {#source}
 
 > **source**: `string`
 
@@ -90,9 +87,9 @@ Used to identify the origin or location of the collection.
 
 ***
 
-### refinement?
+### refinement? {#refinement}
 
-> `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **refinement?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
 
 Refinements applied to the party collection.
 Used to specify constraints that apply to all members of the collection.

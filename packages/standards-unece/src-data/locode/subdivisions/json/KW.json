@@ -1,0 +1,32 @@
+[
+  {
+    "code": "AH",
+    "label": "Al A?madi",
+    "type": "Governorate"
+  },
+  {
+    "code": "FA",
+    "label": "Al Farwaniyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "HA",
+    "label": "?awalli",
+    "type": "Governorate"
+  },
+  {
+    "code": "JA",
+    "label": "Al Jahra",
+    "type": "Governorate"
+  },
+  {
+    "code": "KU",
+    "label": "Al Asimah",
+    "type": "Governorate"
+  },
+  {
+    "code": "MU",
+    "label": "Mubarak al Kabir",
+    "type": "Governorate"
+  }
+]

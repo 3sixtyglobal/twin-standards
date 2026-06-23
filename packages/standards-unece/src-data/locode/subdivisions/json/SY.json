@@ -1,0 +1,72 @@
+[
+  {
+    "code": "DI",
+    "label": "Dimashq",
+    "type": "Province"
+  },
+  {
+    "code": "DR",
+    "label": "Dar'a",
+    "type": "Province"
+  },
+  {
+    "code": "DY",
+    "label": "Dayr az Zawr",
+    "type": "Province"
+  },
+  {
+    "code": "HA",
+    "label": "AI Hasakah",
+    "type": "Province"
+  },
+  {
+    "code": "HI",
+    "label": "Hims",
+    "type": "Province"
+  },
+  {
+    "code": "HL",
+    "label": "Halab",
+    "type": "Province"
+  },
+  {
+    "code": "HM",
+    "label": "Hamah",
+    "type": "Province"
+  },
+  {
+    "code": "ID",
+    "label": "Idlib",
+    "type": "Province"
+  },
+  {
+    "code": "LA",
+    "label": "AI Ladhiqiyah",
+    "type": "Province"
+  },
+  {
+    "code": "QU",
+    "label": "AI Qunaytirah",
+    "type": "Province"
+  },
+  {
+    "code": "RA",
+    "label": "Ar Raqqah",
+    "type": "Province"
+  },
+  {
+    "code": "RD",
+    "label": "Rif Dimashq",
+    "type": "Province"
+  },
+  {
+    "code": "SU",
+    "label": "As Suwayda'",
+    "type": "Province"
+  },
+  {
+    "code": "TA",
+    "label": "Tartus",
+    "type": "Province"
+  }
+]

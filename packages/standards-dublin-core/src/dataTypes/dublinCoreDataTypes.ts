@@ -1,8 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { JsonLdProcessor } from "@twin.org/data-json-ld";
-import { DublinCoreContexts } from "../models/dublinCoreContexts";
+import { DublinCoreContexts } from "../models/dublinCoreContexts.js";
 
 /**
  * Handle all the data types for Dublin Core.
@@ -14,11 +13,11 @@ export class DublinCoreDataTypes {
 	public static registerRedirects(): void {
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/purl.org\/dc\/terms\/?/,
-			DublinCoreContexts.ContextTermsRedirect
+			DublinCoreContexts.JsonLdContextTerms
 		);
 		JsonLdProcessor.addRedirect(
 			/https?:\/\/purl.org\/dc\/dcmitype\/?/,
-			DublinCoreContexts.ContextDcmiTypeRedirect
+			DublinCoreContexts.JsonLdContextDcmiType
 		);
 	}
 }

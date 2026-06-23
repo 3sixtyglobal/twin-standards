@@ -1,0 +1,82 @@
+[
+  {
+    "code": "AI",
+    "label": "Aisén del General Carlos Ibañez del Campo",
+    "type": "Region"
+  },
+  {
+    "code": "AN",
+    "label": "Antofagasta",
+    "type": "Region"
+  },
+  {
+    "code": "AP",
+    "label": "Arica y Parinacota",
+    "type": "Region"
+  },
+  {
+    "code": "AR",
+    "label": "La Araucanía",
+    "type": "Region"
+  },
+  {
+    "code": "AT",
+    "label": "Atacama",
+    "type": "Region"
+  },
+  {
+    "code": "BI",
+    "label": "Biobío",
+    "type": "Region"
+  },
+  {
+    "code": "CO",
+    "label": "Coquimbo",
+    "type": "Region"
+  },
+  {
+    "code": "LI",
+    "label": "Libertador General Bernardo O'Higgins",
+    "type": "Region"
+  },
+  {
+    "code": "LL",
+    "label": "Los Lagos",
+    "type": "Region"
+  },
+  {
+    "code": "LR",
+    "label": "Los Ríos",
+    "type": "Region"
+  },
+  {
+    "code": "MA",
+    "label": "Magallanes",
+    "type": "Region"
+  },
+  {
+    "code": "ML",
+    "label": "Maule",
+    "type": "Region"
+  },
+  {
+    "code": "NB",
+    "label": "Ñuble",
+    "type": "Region"
+  },
+  {
+    "code": "RM",
+    "label": "Región Metropolitana de Santiago",
+    "type": "Region"
+  },
+  {
+    "code": "TA",
+    "label": "Tarapacá",
+    "type": "Region"
+  },
+  {
+    "code": "VS",
+    "label": "Valparaíso",
+    "type": "Region"
+  }
+]

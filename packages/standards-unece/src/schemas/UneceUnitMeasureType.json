@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceUnitMeasureType",
+	"title": "UneceUnitMeasureType",
+	"description": "A numeric value determined by measuring an object along with the specified unit of measure.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "UnitMeasureType",
+			"description": "JSON-LD Type."
+		},
+		"UnitMeasureTypeValue": {
+			"type": "string",
+			"description": "The numeric value."
+		},
+		"UnitMeasureTypeCode": {
+			"$ref": "https://schema.twindev.org/unece/UneceUnitMeasureCode",
+			"description": "The unit code."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

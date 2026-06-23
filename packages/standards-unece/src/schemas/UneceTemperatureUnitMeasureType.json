@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceTemperatureUnitMeasureType",
+	"title": "UneceTemperatureUnitMeasureType",
+	"description": "The numeric value determined by temperature measuring.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "TemperatureUnitMeasureType",
+			"description": "JSON-LD Type."
+		},
+		"TemperatureUnitMeasureTypeValue": {
+			"type": "string",
+			"description": "The numeric value."
+		},
+		"TemperatureUnitMeasureTypeCode": {
+			"$ref": "https://schema.twindev.org/unece/UneceTemperatureUnitMeasureCode",
+			"description": "The unit code."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

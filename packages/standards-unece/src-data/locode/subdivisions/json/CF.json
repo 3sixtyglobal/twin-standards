@@ -1,0 +1,87 @@
+[
+  {
+    "code": "AC",
+    "label": "Ouham",
+    "type": "Prefecture"
+  },
+  {
+    "code": "BB",
+    "label": "Bamingui-Bangoran",
+    "type": "Prefecture"
+  },
+  {
+    "code": "BGF",
+    "label": "Bangui",
+    "type": "Commune"
+  },
+  {
+    "code": "BK",
+    "label": "Basse-Kotto",
+    "type": "Prefecture"
+  },
+  {
+    "code": "HK",
+    "label": "Haute-Kotto",
+    "type": "Prefecture"
+  },
+  {
+    "code": "HM",
+    "label": "Haut-Mbomou",
+    "type": "Prefecture"
+  },
+  {
+    "code": "HS",
+    "label": "Mambéré-Kadéï",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KB",
+    "label": "Gribingui",
+    "type": "economic prefecture"
+  },
+  {
+    "code": "KG",
+    "label": "Kémo-Gribingui",
+    "type": "Prefecture"
+  },
+  {
+    "code": "LB",
+    "label": "Lobaye",
+    "type": "Prefecture"
+  },
+  {
+    "code": "MB",
+    "label": "Mbomou",
+    "type": "Prefecture"
+  },
+  {
+    "code": "MP",
+    "label": "Ombella-Mpoko",
+    "type": "Prefecture"
+  },
+  {
+    "code": "NM",
+    "label": "Nana-Mambéré",
+    "type": "Prefecture"
+  },
+  {
+    "code": "OP",
+    "label": "Ouham-Pendé",
+    "type": "Prefecture"
+  },
+  {
+    "code": "SE",
+    "label": "Sangha",
+    "type": "economic prefecture"
+  },
+  {
+    "code": "UK",
+    "label": "Ouaka",
+    "type": "Prefecture"
+  },
+  {
+    "code": "VK",
+    "label": "Vakaga",
+    "type": "Prefecture"
+  }
+]

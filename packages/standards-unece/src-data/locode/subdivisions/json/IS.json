@@ -1,0 +1,42 @@
+[
+  {
+    "code": "1",
+    "label": "Höfuðborgarsvæði",
+    "type": "Region"
+  },
+  {
+    "code": "2",
+    "label": "Suðurnes",
+    "type": "Region"
+  },
+  {
+    "code": "3",
+    "label": "Vesturland",
+    "type": "Region"
+  },
+  {
+    "code": "4",
+    "label": "Vestfirðir",
+    "type": "Region"
+  },
+  {
+    "code": "5",
+    "label": "Norðurland vestra",
+    "type": "Region"
+  },
+  {
+    "code": "6",
+    "label": "Norðurland eystra",
+    "type": "Region"
+  },
+  {
+    "code": "7",
+    "label": "Austurland",
+    "type": "Region"
+  },
+  {
+    "code": "8",
+    "label": "Suðurland",
+    "type": "Region"
+  }
+]

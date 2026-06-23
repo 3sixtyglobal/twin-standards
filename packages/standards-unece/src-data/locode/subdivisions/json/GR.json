@@ -1,0 +1,67 @@
+[
+  {
+    "code": "A",
+    "label": "Anatolikí Makedonía kai Thráki",
+    "type": "Administrative region"
+  },
+  {
+    "code": "B",
+    "label": "Kentrikí Makedonía",
+    "type": "Administrative region"
+  },
+  {
+    "code": "C",
+    "label": "Dytiki Makedonia",
+    "type": "Administrative region"
+  },
+  {
+    "code": "D",
+    "label": "Ípeiros",
+    "type": "Administrative region"
+  },
+  {
+    "code": "E",
+    "label": "Thessalía",
+    "type": "Administrative region"
+  },
+  {
+    "code": "F",
+    "label": "Ionía Nísia",
+    "type": "Administrative region"
+  },
+  {
+    "code": "G",
+    "label": "Dytikí Elláda",
+    "type": "Administrative region"
+  },
+  {
+    "code": "H",
+    "label": "Stereá Elláda",
+    "type": "Administrative region"
+  },
+  {
+    "code": "I",
+    "label": "Attikí",
+    "type": "Administrative region"
+  },
+  {
+    "code": "J",
+    "label": "Pelopónnisos",
+    "type": "Administrative region"
+  },
+  {
+    "code": "K",
+    "label": "Vóreio Aigaío",
+    "type": "Administrative region"
+  },
+  {
+    "code": "L",
+    "label": "Nótio Aigaío",
+    "type": "Administrative region"
+  },
+  {
+    "code": "M",
+    "label": "Kríti",
+    "type": "Administrative region"
+  }
+]

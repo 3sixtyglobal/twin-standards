@@ -1,0 +1,2349 @@
+[
+  {
+    "locationCode": "ABW",
+    "label": "Abau",
+    "function": "14"
+  },
+  {
+    "locationCode": "AFR",
+    "label": "Afore",
+    "function": "4"
+  },
+  {
+    "locationCode": "AUP",
+    "label": "Agaun",
+    "function": "4"
+  },
+  {
+    "locationCode": "AHO",
+    "label": "Ahioma",
+    "function": "1"
+  },
+  {
+    "locationCode": "AIA",
+    "label": "Aiambak",
+    "subdivisionCode": "WPD",
+    "function": "1",
+    "lat": -7.35,
+    "lng": 141.266667
+  },
+  {
+    "locationCode": "AIE",
+    "label": "Aiome",
+    "function": "4"
+  },
+  {
+    "locationCode": "ATP",
+    "label": "Aitape",
+    "function": "4"
+  },
+  {
+    "locationCode": "AYU",
+    "label": "Aiyura",
+    "function": "4"
+  },
+  {
+    "locationCode": "AKI",
+    "label": "Akinum",
+    "function": "1"
+  },
+  {
+    "locationCode": "ALC",
+    "label": "Alcester Island",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -9.566667,
+    "lng": 152.45
+  },
+  {
+    "locationCode": "GUR",
+    "label": "Alotau",
+    "function": "14"
+  },
+  {
+    "locationCode": "AMF",
+    "label": "Ama",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMU",
+    "label": "Amanab",
+    "function": "4"
+  },
+  {
+    "locationCode": "AZB",
+    "label": "Amazon Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMG",
+    "label": "Amboin",
+    "function": "4"
+  },
+  {
+    "locationCode": "AUJ",
+    "label": "Ambunti",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Amio",
+    "subdivisionCode": "EBR",
+    "function": "1",
+    "lat": -6.116667,
+    "lng": 150.75
+  },
+  {
+    "locationCode": "ADC",
+    "label": "Andakombe",
+    "function": "4",
+    "lat": -7.133333,
+    "lng": 145.733333
+  },
+  {
+    "locationCode": "ANB",
+    "label": "Anewa Bay",
+    "subdivisionCode": "NSB",
+    "function": "1",
+    "lat": -6.2,
+    "lng": 155.55
+  },
+  {
+    "locationCode": "AGG",
+    "label": "Angoram",
+    "function": "4"
+  },
+  {
+    "locationCode": "AKG",
+    "label": "Anguganak",
+    "function": "4"
+  },
+  {
+    "locationCode": "AOB",
+    "label": "Annanberg",
+    "function": "4"
+  },
+  {
+    "locationCode": "APR",
+    "label": "April River",
+    "function": "4"
+  },
+  {
+    "locationCode": "ARP",
+    "label": "Aragip",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAW",
+    "label": "Arawa",
+    "function": "45",
+    "lat": -6.216667,
+    "lng": 155.55
+  },
+  {
+    "locationCode": "AOA",
+    "label": "Aroa",
+    "function": "4"
+  },
+  {
+    "locationCode": "AON",
+    "label": "Arona",
+    "function": "4"
+  },
+  {
+    "locationCode": "APP",
+    "label": "Asapa",
+    "function": "4"
+  },
+  {
+    "locationCode": "AEK",
+    "label": "Aseki",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASZ",
+    "label": "Asirim",
+    "function": "4"
+  },
+  {
+    "locationCode": "ABP",
+    "label": "Atkamba",
+    "function": "4"
+  },
+  {
+    "locationCode": "AUI",
+    "label": "Aua Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "AUV",
+    "label": "Aumo",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWB",
+    "label": "Awaba",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWR",
+    "label": "Awar",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAP",
+    "label": "Baibara",
+    "function": "4"
+  },
+  {
+    "locationCode": "VMU",
+    "label": "Baimuru",
+    "function": "4"
+  },
+  {
+    "locationCode": "BDZ",
+    "label": "Baindoung",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAJ",
+    "label": "Bali",
+    "function": "4"
+  },
+  {
+    "locationCode": "OPU",
+    "label": "Balimo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BCP",
+    "label": "Bambu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BMZ",
+    "label": "Bamu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNZ",
+    "label": "Banz",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPD",
+    "label": "Bapi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BWJ",
+    "label": "Bawan",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSP",
+    "label": "Bensbach",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Bereina",
+    "function": "4"
+  },
+  {
+    "locationCode": "BWP",
+    "label": "Bewani",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Bialla",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPK",
+    "label": "Biangabip",
+    "function": "4",
+    "lat": -6.066667,
+    "lng": 144.933333
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Biaru",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIJ",
+    "label": "Biliau",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIZ",
+    "label": "Bimin",
+    "function": "4"
+  },
+  {
+    "locationCode": "XBN",
+    "label": "Biniguni",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNV",
+    "label": "Boana",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOV",
+    "label": "Boang",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNM",
+    "label": "Bodinumu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOI",
+    "label": "Boigu Island",
+    "subdivisionCode": "WPD",
+    "function": "1",
+    "lat": -9.266667,
+    "lng": 142.216667
+  },
+  {
+    "locationCode": "BOQ",
+    "label": "Boku",
+    "function": "4"
+  },
+  {
+    "locationCode": "BVP",
+    "label": "Bolovip",
+    "function": "4"
+  },
+  {
+    "locationCode": "BMH",
+    "label": "Bomai",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPB",
+    "label": "Boridi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Boroko",
+    "function": "15"
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Boset",
+    "function": "4"
+  },
+  {
+    "locationCode": "BRH",
+    "label": "Brahman",
+    "function": "4"
+  },
+  {
+    "locationCode": "UBI",
+    "label": "Buin",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUA",
+    "label": "Buka",
+    "function": "14"
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Bulolo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Buna",
+    "function": "1"
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Bundi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BXZ",
+    "label": "Bunsil",
+    "function": "4"
+  },
+  {
+    "locationCode": "CGC",
+    "label": "Cape Gloucester",
+    "function": "4"
+  },
+  {
+    "locationCode": "CPI",
+    "label": "Cape Orford",
+    "function": "4"
+  },
+  {
+    "locationCode": "CPN",
+    "label": "Cape Rodney",
+    "function": "4"
+  },
+  {
+    "locationCode": "CVL",
+    "label": "Cape Vogel",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAU",
+    "label": "Caution Bay",
+    "subdivisionCode": "CPM",
+    "function": "1",
+    "lat": -9.333333,
+    "lng": 146.933333
+  },
+  {
+    "locationCode": "CVB",
+    "label": "Chungribu",
+    "function": "4"
+  },
+  {
+    "locationCode": "CFG",
+    "label": "Conflict Group",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -10.783333,
+    "lng": 151.8
+  },
+  {
+    "locationCode": "DAO",
+    "label": "Dabo",
+    "function": "4",
+    "lat": 13.133333,
+    "lng": 42.166667
+  },
+  {
+    "locationCode": "DLB",
+    "label": "Dalbertis",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAU",
+    "label": "Daru",
+    "function": "14"
+  },
+  {
+    "locationCode": "DGG",
+    "label": "Daugo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAF",
+    "label": "Daup",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBP",
+    "label": "Debepare",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBL",
+    "label": "Deboyne Lagoon",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -10.783333,
+    "lng": 152.4
+  },
+  {
+    "locationCode": "DER",
+    "label": "Derim",
+    "function": "4"
+  },
+  {
+    "locationCode": "DNU",
+    "label": "Dinangat",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOS",
+    "label": "Dios",
+    "function": "4"
+  },
+  {
+    "locationCode": "DDM",
+    "label": "Dodoima",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOI",
+    "label": "Doini",
+    "function": "4"
+  },
+  {
+    "locationCode": "DOO",
+    "label": "Dorobisoro",
+    "function": "4"
+  },
+  {
+    "locationCode": "DPU",
+    "label": "Dumpu",
+    "function": "4"
+  },
+  {
+    "locationCode": "EFG",
+    "label": "Efogi",
+    "function": "4"
+  },
+  {
+    "locationCode": "EIA",
+    "label": "Eia",
+    "function": "4"
+  },
+  {
+    "locationCode": "EPT",
+    "label": "Eliptamin",
+    "function": "4"
+  },
+  {
+    "locationCode": "EMS",
+    "label": "Embessa",
+    "function": "4"
+  },
+  {
+    "locationCode": "EMI",
+    "label": "Emirau",
+    "function": "4"
+  },
+  {
+    "locationCode": "EMO",
+    "label": "Emo",
+    "function": "4"
+  },
+  {
+    "locationCode": "EGA",
+    "label": "Engati",
+    "function": "4"
+  },
+  {
+    "locationCode": "ERE",
+    "label": "Erave",
+    "function": "4"
+  },
+  {
+    "locationCode": "ERU",
+    "label": "Erume",
+    "function": "4"
+  },
+  {
+    "locationCode": "ESA",
+    "label": "Esa'ala",
+    "function": "4"
+  },
+  {
+    "locationCode": "FNE",
+    "label": "Fane",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRQ",
+    "label": "Feramin",
+    "function": "4"
+  },
+  {
+    "locationCode": "FIN",
+    "label": "Finschhafen",
+    "function": "14"
+  },
+  {
+    "locationCode": "FAQ",
+    "label": "Freida River",
+    "function": "4"
+  },
+  {
+    "locationCode": "FUB",
+    "label": "Fulleborn",
+    "function": "14"
+  },
+  {
+    "locationCode": "FUM",
+    "label": "Fuma",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Garaina",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRL",
+    "label": "Garasa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRH",
+    "label": "Garuahi",
+    "function": "4"
+  },
+  {
+    "locationCode": "GMI",
+    "label": "Gasmata Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "GBC",
+    "label": "Gasuke",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAW",
+    "label": "Gawa Island",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -8.966667,
+    "lng": 151.983333
+  },
+  {
+    "locationCode": "GEW",
+    "label": "Gewoia",
+    "function": "4"
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gilau",
+    "function": "1"
+  },
+  {
+    "locationCode": "GWN",
+    "label": "Gnarowein",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOE",
+    "label": "Gonalia",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOC",
+    "label": "Gora",
+    "function": "4"
+  },
+  {
+    "locationCode": "GKA",
+    "label": "Goroka",
+    "function": "4"
+  },
+  {
+    "locationCode": "GEI",
+    "label": "Green Islands",
+    "function": "14"
+  },
+  {
+    "locationCode": "GVI",
+    "label": "Green River",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUG",
+    "label": "Guari",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAZ",
+    "label": "Guasopa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GLP",
+    "label": "Gulgubip",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUE",
+    "label": "Guriaso",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAP",
+    "label": "Gusap",
+    "function": "4"
+  },
+  {
+    "locationCode": "HBD",
+    "label": "Habi",
+    "function": "4",
+    "lat": -6.283333,
+    "lng": 145.366667
+  },
+  {
+    "locationCode": "HEO",
+    "label": "Haelogo",
+    "function": "4"
+  },
+  {
+    "locationCode": "HAZ",
+    "label": "Hatzfeldthaven",
+    "function": "4"
+  },
+  {
+    "locationCode": "HWA",
+    "label": "Hawabango",
+    "function": "4"
+  },
+  {
+    "locationCode": "HYF",
+    "label": "Hayfields",
+    "function": "4"
+  },
+  {
+    "locationCode": "HNI",
+    "label": "Heiweni",
+    "function": "4"
+  },
+  {
+    "locationCode": "HIT",
+    "label": "Hivaro",
+    "function": "4"
+  },
+  {
+    "locationCode": "HNN",
+    "label": "Honinabi",
+    "function": "4"
+  },
+  {
+    "locationCode": "HKN",
+    "label": "Hoskins",
+    "function": "14"
+  },
+  {
+    "locationCode": "IMA",
+    "label": "Iamalele",
+    "function": "4"
+  },
+  {
+    "locationCode": "IAU",
+    "label": "Iaura",
+    "function": "4"
+  },
+  {
+    "locationCode": "IBI",
+    "label": "Iboki",
+    "function": "4"
+  },
+  {
+    "locationCode": "IHU",
+    "label": "Ihu",
+    "function": "4"
+  },
+  {
+    "locationCode": "ILX",
+    "label": "Ileg",
+    "function": "4"
+  },
+  {
+    "locationCode": "IMN",
+    "label": "Imane",
+    "function": "4"
+  },
+  {
+    "locationCode": "IMD",
+    "label": "Imonda",
+    "function": "4"
+  },
+  {
+    "locationCode": "IDN",
+    "label": "Indagen",
+    "function": "4"
+  },
+  {
+    "locationCode": "IUS",
+    "label": "Inus",
+    "function": "4"
+  },
+  {
+    "locationCode": "IOK",
+    "label": "Iokea",
+    "function": "4"
+  },
+  {
+    "locationCode": "IOP",
+    "label": "Ioma",
+    "function": "4"
+  },
+  {
+    "locationCode": "ITK",
+    "label": "Itogama",
+    "function": "34",
+    "lat": -9.183333,
+    "lng": 148.25
+  },
+  {
+    "locationCode": "JAC",
+    "label": "Jacksons",
+    "function": "5"
+  },
+  {
+    "locationCode": "JAQ",
+    "label": "Jacquinot Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "JOP",
+    "label": "Josephstaal",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBM",
+    "label": "Kabwum",
+    "function": "4"
+  },
+  {
+    "locationCode": "KGW",
+    "label": "Kagi",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGK",
+    "label": "Kagua",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kaiapit",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Kaibola",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -8.416667,
+    "lng": 151.1
+  },
+  {
+    "locationCode": "KZF",
+    "label": "Kaintiba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Kairuku",
+    "subdivisionCode": "CPM",
+    "function": "13",
+    "lat": -8.833333,
+    "lng": 146.533333
+  },
+  {
+    "locationCode": "KPP",
+    "label": "Kakapo",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Kalo",
+    "function": "1"
+  },
+  {
+    "locationCode": "KDQ",
+    "label": "Kamberatoro",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMF",
+    "label": "Kamina",
+    "function": "4"
+  },
+  {
+    "locationCode": "KJU",
+    "label": "Kamiraba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAQ",
+    "label": "Kamulai",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUY",
+    "label": "Kamusi",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEX",
+    "label": "Kanabea",
+    "function": "4"
+  },
+  {
+    "locationCode": "KNE",
+    "label": "Kanainj",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDP",
+    "label": "Kandep",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDR",
+    "label": "Kandrian",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Kanua",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPL",
+    "label": "Kapal",
+    "function": "4",
+    "lat": -8.633333,
+    "lng": 142.85
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kar",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAF",
+    "label": "Karato",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRJ",
+    "label": "Karawari",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Karimui",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRX",
+    "label": "Karkar Is",
+    "function": "134",
+    "lat": -4.633333,
+    "lng": 145.966667
+  },
+  {
+    "locationCode": "KXR",
+    "label": "Karoola",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSB",
+    "label": "Kasanombe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KVG",
+    "label": "Kavieng",
+    "function": "14"
+  },
+  {
+    "locationCode": "KWO",
+    "label": "Kawito",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEG",
+    "label": "Keglsugl",
+    "function": "4"
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kelanoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Kerau",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMA",
+    "label": "Kerema",
+    "function": "14"
+  },
+  {
+    "locationCode": "KII",
+    "label": "Kibuli",
+    "function": "4",
+    "lat": -8.883333,
+    "lng": 142.783333
+  },
+  {
+    "locationCode": "KIE",
+    "label": "Kieta",
+    "function": "14"
+  },
+  {
+    "locationCode": "KIZ",
+    "label": "Kikinonda",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Kikori",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimbe",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIQ",
+    "label": "Kira",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSG",
+    "label": "Kisengan",
+    "function": "4"
+  },
+  {
+    "locationCode": "KVE",
+    "label": "Kitava",
+    "function": "4"
+  },
+  {
+    "locationCode": "UNG",
+    "label": "Kiunga",
+    "function": "14"
+  },
+  {
+    "locationCode": "KWX",
+    "label": "Kiwai Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMB",
+    "label": "Koinambe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKD",
+    "label": "Kokoda",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Kokoro",
+    "function": "4"
+  },
+  {
+    "locationCode": "KQL",
+    "label": "Kol",
+    "function": "4"
+  },
+  {
+    "locationCode": "KCJ",
+    "label": "Komaio",
+    "function": "4"
+  },
+  {
+    "locationCode": "HOC",
+    "label": "Komako",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komo-Manda",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPM",
+    "label": "Kompiam",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPF",
+    "label": "Kondubol",
+    "function": "4",
+    "lat": -10.2,
+    "lng": 149.7
+  },
+  {
+    "locationCode": "KGB",
+    "label": "Konge",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Kopi",
+    "subdivisionCode": "GPK",
+    "function": "1",
+    "lat": -7.3,
+    "lng": 144.183333
+  },
+  {
+    "locationCode": "KPA",
+    "label": "Kopiago",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDE",
+    "label": "Koroba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Kosipe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kumul",
+    "function": "17",
+    "lat": -8.1,
+    "lng": 144.566667
+  },
+  {
+    "locationCode": "CMU",
+    "label": "Kundiawa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KGM",
+    "label": "Kungum",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUP",
+    "label": "Kupiano",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUQ",
+    "label": "Kuri",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWV",
+    "label": "Kurwina",
+    "function": "4"
+  },
+  {
+    "locationCode": "KUX",
+    "label": "Kuyol",
+    "function": "4",
+    "lat": 38.483333,
+    "lng": 126.033333
+  },
+  {
+    "locationCode": "LAB",
+    "label": "Lablab",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAE",
+    "label": "Lae",
+    "function": "14"
+  },
+  {
+    "locationCode": "LGM",
+    "label": "Laiagam",
+    "function": "4"
+  },
+  {
+    "locationCode": "LMY",
+    "label": "Lake Murray",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Lakuramau",
+    "subdivisionCode": "NIK",
+    "function": "1",
+    "lat": -2.883333,
+    "lng": 151.25
+  },
+  {
+    "locationCode": "LMG",
+    "label": "Lamassa",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lambom Island",
+    "subdivisionCode": "NIK",
+    "function": "1",
+    "lat": -4.8,
+    "lng": 152.833333
+  },
+  {
+    "locationCode": "LNM",
+    "label": "Langimar",
+    "function": "4"
+  },
+  {
+    "locationCode": "LLA",
+    "label": "Laughlan Atoll",
+    "subdivisionCode": "MBA",
+    "function": "1",
+    "lat": -9.283333,
+    "lng": 153.666667
+  },
+  {
+    "locationCode": "LHP",
+    "label": "Lehu",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTF",
+    "label": "Leitre",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNC",
+    "label": "Lengbati",
+    "function": "4"
+  },
+  {
+    "locationCode": "LPN",
+    "label": "Leron Plains",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNG",
+    "label": "Lese",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNV",
+    "label": "Lihir Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "LGN",
+    "label": "Linga Linga",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNQ",
+    "label": "Loani",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOL",
+    "label": "Loloho",
+    "function": "1"
+  },
+  {
+    "locationCode": "LOM",
+    "label": "Lombrum",
+    "subdivisionCode": "MRL",
+    "function": "1",
+    "lat": -2.033333,
+    "lng": 147.366667
+  },
+  {
+    "locationCode": "LDT",
+    "label": "Londolovit",
+    "function": "13",
+    "lat": -3.066667,
+    "lng": 152.616667
+  },
+  {
+    "locationCode": "LSJ",
+    "label": "Long Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOR",
+    "label": "Lorengau, Manus Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Losuia",
+    "function": "4"
+  },
+  {
+    "locationCode": "LWI",
+    "label": "Lowai",
+    "function": "4"
+  },
+  {
+    "locationCode": "LMI",
+    "label": "Lumi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Madang",
+    "subdivisionCode": "MPM",
+    "function": "14",
+    "lat": -5.216667,
+    "lng": 145.783333
+  },
+  {
+    "locationCode": "MPG",
+    "label": "Makini",
+    "function": "4"
+  },
+  {
+    "locationCode": "MMV",
+    "label": "Mal",
+    "function": "4"
+  },
+  {
+    "locationCode": "MLQ",
+    "label": "Malalaua",
+    "function": "4"
+  },
+  {
+    "locationCode": "MQO",
+    "label": "Malam",
+    "function": "4",
+    "lat": -8.716667,
+    "lng": 142.65
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Malekolon",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Mamai",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Manam Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Manare",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manda",
+    "function": "34",
+    "lat": -7,
+    "lng": 141.15
+  },
+  {
+    "locationCode": "MVI",
+    "label": "Manetai",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGP",
+    "label": "Manga",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFO",
+    "label": "Manguna",
+    "function": "4"
+  },
+  {
+    "locationCode": "UUU",
+    "label": "Manumu",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Manus Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPF",
+    "label": "Mapoda",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPU",
+    "label": "Mapua",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWI",
+    "label": "Maramuni",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWG",
+    "label": "Marawaka",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGG",
+    "label": "Margarima",
+    "function": "4"
+  },
+  {
+    "locationCode": "MNP",
+    "label": "Maron",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBV",
+    "label": "Masa",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRH",
+    "label": "May River",
+    "function": "4"
+  },
+  {
+    "locationCode": "MDU",
+    "label": "Mendi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MYX",
+    "label": "Menyamya",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFZ",
+    "label": "Mesalia",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIE",
+    "label": "Mielelek",
+    "function": "1"
+  },
+  {
+    "locationCode": "MXK",
+    "label": "Mindik",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZN",
+    "label": "Minj",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Misima Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "MPX",
+    "label": "Miyanmin",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJJ",
+    "label": "Moki",
+    "function": "4"
+  },
+  {
+    "locationCode": "MHY",
+    "label": "Morehead",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXH",
+    "label": "Moro",
+    "function": "4"
+  },
+  {
+    "locationCode": "OBM",
+    "label": "Morobe",
+    "function": "4"
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Motukea Island",
+    "subdivisionCode": "NCD",
+    "function": "1",
+    "lat": -9.433333,
+    "lng": 147.1
+  },
+  {
+    "locationCode": "GUV",
+    "label": "Mougulu",
+    "function": "4"
+  },
+  {
+    "locationCode": "UAE",
+    "label": "Mount Aue",
+    "function": "4"
+  },
+  {
+    "locationCode": "HGU",
+    "label": "Mount Hagen",
+    "function": "4"
+  },
+  {
+    "locationCode": "LNF",
+    "label": "Munbil",
+    "function": "4"
+  },
+  {
+    "locationCode": "MDM",
+    "label": "Munduku",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWU",
+    "label": "Mussau",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDN",
+    "label": "Nadunumu",
+    "function": "4"
+  },
+  {
+    "locationCode": "ATN",
+    "label": "Namatanai",
+    "function": "14"
+  },
+  {
+    "locationCode": "NBA",
+    "label": "Nambaiyufa",
+    "function": "4"
+  },
+  {
+    "locationCode": "NDI",
+    "label": "Namudi",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKN",
+    "label": "Nankina",
+    "function": "4"
+  },
+  {
+    "locationCode": "NOO",
+    "label": "Naoro",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAP",
+    "label": "Napa Napa",
+    "subdivisionCode": "NCD",
+    "function": "1",
+    "lat": -9.45,
+    "lng": 147.116667
+  },
+  {
+    "locationCode": "GBF",
+    "label": "Negarbo",
+    "function": "4"
+  },
+  {
+    "locationCode": "NGR",
+    "label": "Ningerum",
+    "function": "4"
+  },
+  {
+    "locationCode": "NPG",
+    "label": "Nipa",
+    "function": "4"
+  },
+  {
+    "locationCode": "IIS",
+    "label": "Nissan Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "NOM",
+    "label": "Nomad River",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMN",
+    "label": "Nomane",
+    "function": "4"
+  },
+  {
+    "locationCode": "NWT",
+    "label": "Nowata",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUG",
+    "label": "Nuguria",
+    "function": "4"
+  },
+  {
+    "locationCode": "UKU",
+    "label": "Nuku",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUT",
+    "label": "Nutuve",
+    "function": "4"
+  },
+  {
+    "locationCode": "OBX",
+    "label": "Obo",
+    "function": "4"
+  },
+  {
+    "locationCode": "OGE",
+    "label": "Ogeranang",
+    "function": "4"
+  },
+  {
+    "locationCode": "OKV",
+    "label": "Okao",
+    "function": "4",
+    "lat": -3.916667,
+    "lng": 116.2
+  },
+  {
+    "locationCode": "OKP",
+    "label": "Oksapmin",
+    "function": "4"
+  },
+  {
+    "locationCode": "OLQ",
+    "label": "Olsobip",
+    "function": "4"
+  },
+  {
+    "locationCode": "OML",
+    "label": "Omkalai",
+    "function": "4"
+  },
+  {
+    "locationCode": "OSE",
+    "label": "Omora",
+    "function": "4"
+  },
+  {
+    "locationCode": "ONB",
+    "label": "Ononge",
+    "function": "4"
+  },
+  {
+    "locationCode": "OPB",
+    "label": "Open Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAX",
+    "label": "Oram",
+    "function": "4"
+  },
+  {
+    "locationCode": "OTY",
+    "label": "Oria",
+    "function": "4"
+  },
+  {
+    "locationCode": "ROR",
+    "label": "Orobay",
+    "function": "1"
+  },
+  {
+    "locationCode": "OSG",
+    "label": "Ossima",
+    "function": "4"
+  },
+  {
+    "locationCode": "PLE",
+    "label": "Paiela",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAW",
+    "label": "Pambwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "PGN",
+    "label": "Pangia",
+    "function": "4"
+  },
+  {
+    "locationCode": "PGB",
+    "label": "Pangoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPX",
+    "label": "Param",
+    "function": "4"
+  },
+  {
+    "locationCode": "PMP",
+    "label": "Pimaga",
+    "function": "4"
+  },
+  {
+    "locationCode": "PDI",
+    "label": "Pindiu",
+    "function": "4"
+  },
+  {
+    "locationCode": "PDO",
+    "label": "Pondo Harbour",
+    "subdivisionCode": "EBR",
+    "function": "1",
+    "lat": -4.566667,
+    "lng": 151.616667
+  },
+  {
+    "locationCode": "PNP",
+    "label": "Popondetta",
+    "function": "4"
+  },
+  {
+    "locationCode": "RGE",
+    "label": "Porgera",
+    "function": "4"
+  },
+  {
+    "locationCode": "POM",
+    "label": "Port Moresby",
+    "function": "14"
+  },
+  {
+    "locationCode": "PUA",
+    "label": "Puas",
+    "function": "4"
+  },
+  {
+    "locationCode": "PMN",
+    "label": "Pumani",
+    "function": "4"
+  },
+  {
+    "locationCode": "PUI",
+    "label": "Pureni",
+    "function": "4"
+  },
+  {
+    "locationCode": "RBP",
+    "label": "Rabaraba",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rabaul",
+    "function": "14"
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Rakanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Rambutyo Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "RNR",
+    "label": "Robinson River",
+    "function": "14"
+  },
+  {
+    "locationCode": "RMN",
+    "label": "Rumginae",
+    "function": "4"
+  },
+  {
+    "locationCode": "RVI",
+    "label": "Russel Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "RUU",
+    "label": "Ruti",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBV",
+    "label": "Sabah",
+    "function": "4"
+  },
+  {
+    "locationCode": "SFU",
+    "label": "Safia",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGJ",
+    "label": "Sagarai",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAI",
+    "label": "Saibai",
+    "subdivisionCode": "WPD",
+    "function": "1",
+    "lat": -9.383333,
+    "lng": 142.616667
+  },
+  {
+    "locationCode": "SDI",
+    "label": "Saidor",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMU",
+    "label": "Salamaua",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Salamo",
+    "function": "4"
+  },
+  {
+    "locationCode": "SQT",
+    "label": "Samarai",
+    "function": "14",
+    "lat": -10.633333,
+    "lng": 150.633333
+  },
+  {
+    "locationCode": "SGK",
+    "label": "Sangapi",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMH",
+    "label": "Sapmanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "SWG",
+    "label": "Satwag",
+    "function": "4"
+  },
+  {
+    "locationCode": "SXW",
+    "label": "Sauren",
+    "function": "4"
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Schauten",
+    "function": "1"
+  },
+  {
+    "locationCode": "SXH",
+    "label": "Sehulea",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBC",
+    "label": "Selbang",
+    "function": "4"
+  },
+  {
+    "locationCode": "SPV",
+    "label": "Sepik Plains",
+    "function": "4"
+  },
+  {
+    "locationCode": "SXA",
+    "label": "Sialum",
+    "function": "4"
+  },
+  {
+    "locationCode": "SSS",
+    "label": "Siassi",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Sila",
+    "function": "4"
+  },
+  {
+    "locationCode": "SWR",
+    "label": "Silur",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMJ",
+    "label": "Sim",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Simbai",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Simberi Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGB",
+    "label": "Singaua",
+    "function": "4"
+  },
+  {
+    "locationCode": "SPL",
+    "label": "Sipul",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIZ",
+    "label": "Sissano",
+    "function": "4"
+  },
+  {
+    "locationCode": "SWE",
+    "label": "Siwea",
+    "function": "4"
+  },
+  {
+    "locationCode": "SOI",
+    "label": "Sokar Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPH",
+    "label": "Sopu",
+    "function": "4"
+  },
+  {
+    "locationCode": "SMP",
+    "label": "Stockholm",
+    "function": "4"
+  },
+  {
+    "locationCode": "SBE",
+    "label": "Suabi",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKC",
+    "label": "Suki",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULE",
+    "label": "Sule",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUZ",
+    "label": "Suria",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tabibuga",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBG",
+    "label": "Tabubil",
+    "function": "4"
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Tagula",
+    "function": "14"
+  },
+  {
+    "locationCode": "TLW",
+    "label": "Talasea",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tambanum",
+    "subdivisionCode": "ESW",
+    "function": "1",
+    "lat": -4.2,
+    "lng": 143.6
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Tambutyo Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "TMI",
+    "label": "Tami Island",
+    "subdivisionCode": "MPL",
+    "function": "1",
+    "lat": -6.766667,
+    "lng": 147.9
+  },
+  {
+    "locationCode": "TPI",
+    "label": "Tapini",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBQ",
+    "label": "Tarabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRJ",
+    "label": "Tarakbits",
+    "function": "4"
+  },
+  {
+    "locationCode": "TIZ",
+    "label": "Tari",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSK",
+    "label": "Taskul",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAU",
+    "label": "Taugu Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Tauta",
+    "function": "4"
+  },
+  {
+    "locationCode": "TWY",
+    "label": "Tawa",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKB",
+    "label": "Tekadu",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKW",
+    "label": "Tekin",
+    "function": "4"
+  },
+  {
+    "locationCode": "TFM",
+    "label": "Telefomin",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEP",
+    "label": "Teptep",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEO",
+    "label": "Terapo",
+    "function": "4"
+  },
+  {
+    "locationCode": "TDB",
+    "label": "Tetebedi",
+    "function": "34",
+    "lat": -9.15,
+    "lng": 148.05
+  },
+  {
+    "locationCode": "TFA",
+    "label": "Tilfalmin",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBE",
+    "label": "Timbunke",
+    "function": "4"
+  },
+  {
+    "locationCode": "TCK",
+    "label": "Tinboli",
+    "function": "4"
+  },
+  {
+    "locationCode": "TIG",
+    "label": "Tingwon",
+    "function": "4"
+  },
+  {
+    "locationCode": "TLO",
+    "label": "Tol",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOI",
+    "label": "Tolokiwa Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tonu",
+    "function": "4"
+  },
+  {
+    "locationCode": "TCJ",
+    "label": "Torembi",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOK",
+    "label": "Torokina",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSW",
+    "label": "Tsewi",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSI",
+    "label": "Tsili Tsili",
+    "function": "4"
+  },
+  {
+    "locationCode": "TFI",
+    "label": "Tufi",
+    "function": "14"
+  },
+  {
+    "locationCode": "TLP",
+    "label": "Tumolbil",
+    "function": "4"
+  },
+  {
+    "locationCode": "ULA",
+    "label": "Ulamona",
+    "subdivisionCode": "WBK",
+    "function": "1",
+    "lat": -5,
+    "lng": 151.25
+  },
+  {
+    "locationCode": "UMC",
+    "label": "Umba",
+    "function": "4"
+  },
+  {
+    "locationCode": "UPR",
+    "label": "Upiara",
+    "function": "4"
+  },
+  {
+    "locationCode": "URU",
+    "label": "Uroubi",
+    "function": "4"
+  },
+  {
+    "locationCode": "USO",
+    "label": "Usino",
+    "function": "4"
+  },
+  {
+    "locationCode": "UVO",
+    "label": "Uvol",
+    "function": "4"
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Vailala",
+    "subdivisionCode": "GPK",
+    "function": "13",
+    "lat": -7.95,
+    "lng": 145.45
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vanimo",
+    "function": "14"
+  },
+  {
+    "locationCode": "VIV",
+    "label": "Vivigani",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAB",
+    "label": "Wabag",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAO",
+    "label": "Wabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "WGU",
+    "label": "Wagau",
+    "function": "4"
+  },
+  {
+    "locationCode": "WKN",
+    "label": "Wakunai",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Wanigela",
+    "function": "4"
+  },
+  {
+    "locationCode": "WTT",
+    "label": "Wantoat",
+    "function": "4"
+  },
+  {
+    "locationCode": "WNU",
+    "label": "Wanuma",
+    "function": "4"
+  },
+  {
+    "locationCode": "WBM",
+    "label": "Wapenamanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "WBC",
+    "label": "Wapolu",
+    "function": "4"
+  },
+  {
+    "locationCode": "WSU",
+    "label": "Wasu",
+    "function": "4"
+  },
+  {
+    "locationCode": "WSA",
+    "label": "Wasua",
+    "function": "4"
+  },
+  {
+    "locationCode": "WUM",
+    "label": "Wasum",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Watabung",
+    "subdivisionCode": "EHG",
+    "function": "13",
+    "lat": -6.083333,
+    "lng": 145.216667
+  },
+  {
+    "locationCode": "WUG",
+    "label": "Wau",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAJ",
+    "label": "Wawoi Falls",
+    "function": "4"
+  },
+  {
+    "locationCode": "WEP",
+    "label": "Weam",
+    "function": "4"
+  },
+  {
+    "locationCode": "WED",
+    "label": "Wedau",
+    "function": "4"
+  },
+  {
+    "locationCode": "WWK",
+    "label": "Wewak",
+    "function": "14"
+  },
+  {
+    "locationCode": "WPM",
+    "label": "Wipim",
+    "function": "4"
+  },
+  {
+    "locationCode": "WIU",
+    "label": "Witu",
+    "function": "4"
+  },
+  {
+    "locationCode": "WTP",
+    "label": "Woitape",
+    "function": "4"
+  },
+  {
+    "locationCode": "WOA",
+    "label": "Wonenara",
+    "function": "4"
+  },
+  {
+    "locationCode": "WOK",
+    "label": "Woodlark",
+    "function": "1"
+  },
+  {
+    "locationCode": "WUV",
+    "label": "Wuvulu Is",
+    "function": "4"
+  },
+  {
+    "locationCode": "KYX",
+    "label": "Yalumet",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPE",
+    "label": "Yapsiei",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSX",
+    "label": "Yasuru",
+    "function": "4"
+  },
+  {
+    "locationCode": "PGE",
+    "label": "Yegepa",
+    "function": "4"
+  },
+  {
+    "locationCode": "XYR",
+    "label": "Yellow River",
+    "function": "4"
+  },
+  {
+    "locationCode": "YEQ",
+    "label": "Yenkis",
+    "function": "4"
+  },
+  {
+    "locationCode": "YEN",
+    "label": "Yentchan",
+    "subdivisionCode": "ESW",
+    "function": "1",
+    "lat": -4.133333,
+    "lng": 143.25
+  },
+  {
+    "locationCode": "YVD",
+    "label": "Yeva",
+    "function": "4"
+  },
+  {
+    "locationCode": "KGH",
+    "label": "Yongai",
+    "function": "4"
+  },
+  {
+    "locationCode": "RKU",
+    "label": "Yule Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "ZEN",
+    "label": "Zenag",
+    "function": "4"
+  }
+]

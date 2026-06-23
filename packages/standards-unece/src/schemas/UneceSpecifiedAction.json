@@ -1,0 +1,39 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceSpecifiedAction",
+	"title": "UneceSpecifiedAction",
+	"description": "The process of doing something in order to make something happen or to deal with a situation.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "SpecifiedAction",
+			"description": "JSON-LD Type."
+		},
+		"actionType": {
+			"type": "string",
+			"description": "A type, expressed as text, for this specified action."
+		},
+		"description": {
+			"type": "string",
+			"description": "A textual description for this specified action."
+		},
+		"typeCode": {
+			"anyOf": [
+				{
+					"$ref": "https://schema.twindev.org/unece/UneceSpecifiedActionTypeCodeList"
+				},
+				{
+					"type": "string"
+				}
+			],
+			"description": "The code specifying the type of action."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

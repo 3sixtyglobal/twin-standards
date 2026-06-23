@@ -1,10 +1,7 @@
 # Interface: IOdrlPolicy
 
 Interface representing an ODRL Policy.
-
-## Extends
-
-- `IJsonLdNodeObject`
+https://www.w3.org/TR/odrl-model/#policy
 
 ## Extended by
 
@@ -12,39 +9,27 @@ Interface representing an ODRL Policy.
 - [`IOdrlOffer`](IOdrlOffer.md)
 - [`IOdrlSet`](IOdrlSet.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### @context
+### @context {#context}
 
 > **@context**: [`OdrlContextType`](../type-aliases/OdrlContextType.md)
 
 The context for the policy.
 Must include "https://www.w3.org/ns/odrl.jsonld"
 
-#### Overrides
-
-`IJsonLdNodeObject.@context`
-
 ***
 
-### @type
+### @type {#type}
 
-> **@type**: [`PolicyType`](../type-aliases/PolicyType.md)
+> **@type**: [`OdrlPolicyType`](../type-aliases/OdrlPolicyType.md)
 
 The type of policy.
 Must be one of: "Set", "Offer", "Agreement"
 
-#### Overrides
-
-`IJsonLdNodeObject.@type`
-
 ***
 
-### uid
+### uid {#uid}
 
 > **uid**: `string`
 
@@ -53,61 +38,61 @@ Must be an IRI.
 
 ***
 
-### profile?
+### profile? {#profile}
 
-> `optional` **profile**: `string` \| `string`[]
+> `optional` **profile?**: `ObjectOrArray`\<`string`\>
 
 The profile(s) this policy conforms to.
 IRIs identifying the ODRL Profile(s).
 
 ***
 
-### assigner?
+### assigner? {#assigner}
 
-> `optional` **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assigner?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assigner of the policy.
 Applies to all rules unless overridden at rule level.
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
-> `optional` **assignee**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assignee?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assignee of the policy.
 Applies to all rules unless overridden at rule level.
 
 ***
 
-### target?
+### target? {#target}
 
-> `optional` **target**: `string` \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAsset`](IOdrlAsset.md))[]
+> `optional` **target?**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md)\>
 
 The target asset for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
-> `optional` **action**: [`ActionType`](../type-aliases/ActionType.md) \| [`IOdrlAction`](IOdrlAction.md) \| ActionType \| IOdrlAction[]
+> `optional` **action?**: `ObjectOrArray`\<`string` \| [`IOdrlAction`](IOdrlAction.md)\>
 
 The action associated with the rule.
 
 ***
 
-### inheritFrom?
+### inheritFrom? {#inheritfrom}
 
-> `optional` **inheritFrom**: `string` \| `string`[]
+> `optional` **inheritFrom?**: `ObjectOrArray`\<`string`\>
 
 The parent policy(ies) this policy inherits from.
 IRIs identifying the parent Policy(ies).
 
 ***
 
-### conflict?
+### conflict? {#conflict}
 
-> `optional` **conflict**: [`ConflictStrategyType`](../type-aliases/ConflictStrategyType.md)
+> `optional` **conflict?**: [`OdrlConflictStrategyType`](../type-aliases/OdrlConflictStrategyType.md)
 
 The conflict resolution strategy.
 - perm: Permissions override Prohibitions
@@ -116,27 +101,27 @@ The conflict resolution strategy.
 
 ***
 
-### permission?
+### permission? {#permission}
 
-> `optional` **permission**: [`IOdrlPermission`](IOdrlPermission.md)[]
+> `optional` **permission?**: `ObjectOrArray`\<[`IOdrlPermission`](IOdrlPermission.md)\>
 
 The permissions in the policy.
 At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### prohibition?
+### prohibition? {#prohibition}
 
-> `optional` **prohibition**: [`IOdrlProhibition`](IOdrlProhibition.md)[]
+> `optional` **prohibition?**: `ObjectOrArray`\<[`IOdrlProhibition`](IOdrlProhibition.md)\>
 
 The prohibitions in the policy.
 At least one of permission, prohibition, or obligation must be present.
 
 ***
 
-### obligation?
+### obligation? {#obligation}
 
-> `optional` **obligation**: [`IOdrlDuty`](IOdrlDuty.md)[]
+> `optional` **obligation?**: `ObjectOrArray`\<[`IOdrlDuty`](IOdrlDuty.md)\>
 
 The obligations in the policy.
 At least one of permission, prohibition, or obligation must be present.

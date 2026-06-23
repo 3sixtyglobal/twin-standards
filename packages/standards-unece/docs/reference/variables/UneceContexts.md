@@ -4,10 +4,28 @@
 
 The types of UNECE contexts.
 
-## Type declaration
+## Type Declaration
 
-### ContextRoot
+### Namespace {#namespace}
 
-> `readonly` **ContextRoot**: `"https://vocabulary.uncefact.org/"` = `"https://vocabulary.uncefact.org/"`
+> `readonly` **Namespace**: `"https://vocabulary.uncefact.org/"` = `"https://vocabulary.uncefact.org/"`
 
-Context Root.
+The canonical RDF namespace URI.
+
+### Context {#context}
+
+> `readonly` **Context**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
+
+The value to use in @context.
+
+### JsonLdContext {#jsonldcontext}
+
+> `readonly` **JsonLdContext**: `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"` = `"https://vocabulary.uncefact.org/unece-context-D23B.jsonld"`
+
+The JSON-LD Context URL.
+
+### JsonSchemaNamespace {#jsonschemanamespace}
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/unece/"` = `"https://schema.twindev.org/unece/"`
+
+The namespace location of the hosted version of the JSON Schema.

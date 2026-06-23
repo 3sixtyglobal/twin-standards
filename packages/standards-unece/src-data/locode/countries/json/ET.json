@@ -1,0 +1,396 @@
+[
+  {
+    "locationCode": "ADD",
+    "label": "Addis Ababa",
+    "function": "45"
+  },
+  {
+    "locationCode": "AMH",
+    "label": "Arba Mintch",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASO",
+    "label": "Asosa",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALK",
+    "label": "Assella",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 7.95,
+    "lng": 39.133333
+  },
+  {
+    "locationCode": "AWA",
+    "label": "Awassa",
+    "function": "4"
+  },
+  {
+    "locationCode": "AXU",
+    "label": "Axum",
+    "function": "4"
+  },
+  {
+    "locationCode": "BJR",
+    "label": "Bahar Dar",
+    "function": "4"
+  },
+  {
+    "locationCode": "BED",
+    "label": "Bedele",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 8.45,
+    "lng": 36.35
+  },
+  {
+    "locationCode": "BEI",
+    "label": "Beica",
+    "function": "4",
+    "lat": 9.383333,
+    "lng": 34.533333
+  },
+  {
+    "locationCode": "BCY",
+    "label": "Bulchi",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBM",
+    "label": "Debra Marcos",
+    "function": "4"
+  },
+  {
+    "locationCode": "DBT",
+    "label": "Debra Tabor",
+    "function": "4",
+    "lat": 11.85,
+    "lng": 38
+  },
+  {
+    "locationCode": "DEM",
+    "label": "Dembidollo",
+    "function": "4"
+  },
+  {
+    "locationCode": "DSE",
+    "label": "Dessie",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIR",
+    "label": "Dire Dawa",
+    "function": "45"
+  },
+  {
+    "locationCode": "DAD",
+    "label": "Dolo Odo",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 4.183333,
+    "lng": 42.066667
+  },
+  {
+    "locationCode": "SEM",
+    "label": "Dubti",
+    "subdivisionCode": "AF",
+    "function": "6",
+    "lat": 11.733333,
+    "lng": 41.083333
+  },
+  {
+    "locationCode": "DKM",
+    "label": "Dukem",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 8.8,
+    "lng": 38.9
+  },
+  {
+    "locationCode": "GMB",
+    "label": "Gambela",
+    "function": "4"
+  },
+  {
+    "locationCode": "ETE",
+    "label": "Genda Wuha",
+    "function": "4"
+  },
+  {
+    "locationCode": "GNN",
+    "label": "Ghinnir",
+    "function": "4",
+    "lat": 7.25,
+    "lng": 40.716667
+  },
+  {
+    "locationCode": "GIB",
+    "label": "Gibe",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 7.75,
+    "lng": 37.183333
+  },
+  {
+    "locationCode": "GZA",
+    "label": "Giza",
+    "subdivisionCode": "TI",
+    "function": "3",
+    "lat": 13.683333,
+    "lng": 39.5
+  },
+  {
+    "locationCode": "GOB",
+    "label": "Goba",
+    "function": "4"
+  },
+  {
+    "locationCode": "GDE",
+    "label": "Gode",
+    "function": "4",
+    "lat": 5.9,
+    "lng": 43.616667
+  },
+  {
+    "locationCode": "GDQ",
+    "label": "Gondar",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Gore",
+    "function": "4"
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harar",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 9.3,
+    "lng": 42.116667
+  },
+  {
+    "locationCode": "HRT",
+    "label": "Hartishek",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 9.15,
+    "lng": 43.35
+  },
+  {
+    "locationCode": "HOG",
+    "label": "Holeta Genet",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 9.05,
+    "lng": 38.5
+  },
+  {
+    "locationCode": "HUE",
+    "label": "Humera",
+    "function": "4"
+  },
+  {
+    "locationCode": "JIJ",
+    "label": "Jijiga",
+    "function": "3",
+    "lat": 9.35,
+    "lng": 42.8
+  },
+  {
+    "locationCode": "JIM",
+    "label": "Jimma",
+    "function": "4"
+  },
+  {
+    "locationCode": "BCO",
+    "label": "Jinka",
+    "function": "4"
+  },
+  {
+    "locationCode": "ABK",
+    "label": "Kabri Dar",
+    "function": "4",
+    "lat": 6.733333,
+    "lng": 44.25
+  },
+  {
+    "locationCode": "LFO",
+    "label": "K'elafo",
+    "function": "4",
+    "lat": 5.616667,
+    "lng": 44.133333
+  },
+  {
+    "locationCode": "OKA",
+    "label": "Kembolcha",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 7.5,
+    "lng": 41.183333
+  },
+  {
+    "locationCode": "KOA",
+    "label": "Kombolcha",
+    "subdivisionCode": "AM",
+    "function": "3",
+    "lat": 11.083333,
+    "lng": 39.733333
+  },
+  {
+    "locationCode": "LLI",
+    "label": "Lalibela",
+    "function": "4",
+    "lat": 12.033333,
+    "lng": 39.033333
+  },
+  {
+    "locationCode": "MQX",
+    "label": "Makale",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKS",
+    "label": "Mekane Selam",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEK",
+    "label": "Mekele",
+    "subdivisionCode": "TI",
+    "function": "3",
+    "lat": 13.483333,
+    "lng": 39.466667
+  },
+  {
+    "locationCode": "MZX",
+    "label": "Mena",
+    "function": "4"
+  },
+  {
+    "locationCode": "MTF",
+    "label": "Mizan Teferi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOJ",
+    "label": "Mojo",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 8.6,
+    "lng": 39.116667
+  },
+  {
+    "locationCode": "MDP",
+    "label": "Mojo Dry Port",
+    "subdivisionCode": "OR",
+    "function": "6",
+    "lat": 8.566667,
+    "lng": 39.133333
+  },
+  {
+    "locationCode": "OTA",
+    "label": "Mot'a",
+    "function": "4",
+    "lat": 11.083333,
+    "lng": 37.866667
+  },
+  {
+    "locationCode": "MYS",
+    "label": "Moyale",
+    "function": "4",
+    "lat": 3.466667,
+    "lng": 39.083333
+  },
+  {
+    "locationCode": "MUJ",
+    "label": "Mui",
+    "function": "4"
+  },
+  {
+    "locationCode": "NZR",
+    "label": "Nazret",
+    "function": "3",
+    "lat": 8.55,
+    "lng": 39.266667
+  },
+  {
+    "locationCode": "W8N",
+    "label": "Nefas Mewch'a",
+    "subdivisionCode": "AM",
+    "function": "3",
+    "lat": 11.733333,
+    "lng": 38.466667
+  },
+  {
+    "locationCode": "EGL",
+    "label": "Neghelli",
+    "function": "4",
+    "lat": 5.266667,
+    "lng": 39.716667
+  },
+  {
+    "locationCode": "PGN",
+    "label": "Pugnido",
+    "subdivisionCode": "GA",
+    "function": "3",
+    "lat": 7.633333,
+    "lng": 34.25
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sebeta",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 8.916667,
+    "lng": 38.616667
+  },
+  {
+    "locationCode": "S3M",
+    "label": "Semera",
+    "subdivisionCode": "AF",
+    "function": "3",
+    "lat": 11.783333,
+    "lng": 41
+  },
+  {
+    "locationCode": "S7O",
+    "label": "Shashemene",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 7.2,
+    "lng": 38.6
+  },
+  {
+    "locationCode": "SRE",
+    "label": "Shire",
+    "subdivisionCode": "TI",
+    "function": "3",
+    "lat": 14.133333,
+    "lng": 38.4
+  },
+  {
+    "locationCode": "SXU",
+    "label": "Soddu",
+    "function": "4"
+  },
+  {
+    "locationCode": "SOD",
+    "label": "Sodo",
+    "function": "3",
+    "lat": 8.583333,
+    "lng": 35.816667
+  },
+  {
+    "locationCode": "TIE",
+    "label": "Tippi",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAC",
+    "label": "Waca",
+    "function": "4"
+  }
+]

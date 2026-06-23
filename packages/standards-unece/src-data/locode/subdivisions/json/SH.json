@@ -1,0 +1,17 @@
+[
+  {
+    "code": "AC",
+    "label": "Ascension",
+    "type": "Geographical entity"
+  },
+  {
+    "code": "HL",
+    "label": "Saint Helena",
+    "type": "Geographical entity"
+  },
+  {
+    "code": "TA",
+    "label": "Tristan da Cunha",
+    "type": "Geographical entity"
+  }
+]

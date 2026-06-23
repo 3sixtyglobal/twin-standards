@@ -1,0 +1,67 @@
+[
+  {
+    "code": "AA",
+    "label": "Adis Abeba",
+    "type": "Administration"
+  },
+  {
+    "code": "AF",
+    "label": "Afar",
+    "type": "Regional State"
+  },
+  {
+    "code": "AM",
+    "label": "Amara",
+    "type": "Regional State"
+  },
+  {
+    "code": "BE",
+    "label": "Binshangul Gumuz",
+    "type": "Regional State"
+  },
+  {
+    "code": "DD",
+    "label": "Dire Dawa",
+    "type": "Administration"
+  },
+  {
+    "code": "GA",
+    "label": "Gambela Hizboch",
+    "type": "Regional State"
+  },
+  {
+    "code": "HA",
+    "label": "Hareri Hizb",
+    "type": "Regional State"
+  },
+  {
+    "code": "OR",
+    "label": "Oromiya",
+    "type": "Regional State"
+  },
+  {
+    "code": "SI",
+    "label": "Sidama",
+    "type": "Regional State"
+  },
+  {
+    "code": "SN",
+    "label": "YeDebub Biheroch Bihereseboch na Hizboch",
+    "type": "Regional State"
+  },
+  {
+    "code": "SO",
+    "label": "Sumale",
+    "type": "Regional State"
+  },
+  {
+    "code": "SW",
+    "label": "YeDebub Mirab Ityopiya Hizboch",
+    "type": "Regional State"
+  },
+  {
+    "code": "TI",
+    "label": "Tigray",
+    "type": "Regional State"
+  }
+]

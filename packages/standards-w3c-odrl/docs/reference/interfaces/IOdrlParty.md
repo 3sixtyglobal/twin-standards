@@ -1,56 +1,45 @@
 # Interface: IOdrlParty
 
 Interface for ODRL Parties.
-
-## Extends
-
-- `IJsonLdNodeObject`
+https://www.w3.org/TR/odrl-model/#party
 
 ## Extended by
 
 - [`IOdrlPartyCollection`](IOdrlPartyCollection.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 The unique identifier for the party.
 Must be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
-> `optional` **@type**: `string` \| `string`[]
+> `optional` **@type?**: `ObjectOrArray`\<`string`\>
 
 The type of the party.
 Can be used to specify additional type information (e.g., "Party",
 "vcard:Organization", "vcard:Individual").
 
-#### Overrides
-
-`IJsonLdNodeObject.@type`
-
 ***
 
-### partOf?
+### partOf? {#partof}
 
-> `optional` **partOf**: `string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md)
+> `optional` **partOf?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md)\>
 
 Reference to the party collection this party is part of.
 Used to identify a PartyCollection that a Party entity is a member of.
 
 ***
 
-### assigneeOf?
+### assigneeOf? {#assigneeof}
 
-> `optional` **assigneeOf**: `string`
+> `optional` **assigneeOf?**: `ObjectOrArray`\<`string`\>
 
 Reference to a policy where this party is an assignee.
 When assigneeOf is asserted, the Party MUST be inferred to undertake
@@ -58,9 +47,9 @@ the assignee functional role of all the Rules of that Policy.
 
 ***
 
-### assignerOf?
+### assignerOf? {#assignerof}
 
-> `optional` **assignerOf**: `string`
+> `optional` **assignerOf?**: `ObjectOrArray`\<`string`\>
 
 Reference to a policy where this party is an assigner.
 When assignerOf is asserted, the Party MUST be inferred to undertake

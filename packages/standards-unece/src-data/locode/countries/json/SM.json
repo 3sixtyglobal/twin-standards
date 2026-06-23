@@ -1,0 +1,91 @@
+[
+  {
+    "locationCode": "ZAC",
+    "label": "Acquaviva",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 43.95,
+    "lng": 12.416667
+  },
+  {
+    "locationCode": "BMG",
+    "label": "Borgo Maggiore",
+    "function": "3",
+    "lat": 43.933333,
+    "lng": 12.433333
+  },
+  {
+    "locationCode": "CHV",
+    "label": "Chiesanuova",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 43.9,
+    "lng": 12.416667
+  },
+  {
+    "locationCode": "DGN",
+    "label": "Dogana",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 43.966667,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "DSS",
+    "label": "Domagnano",
+    "function": "3",
+    "lat": 43.95,
+    "lng": 12.466667
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Faetano",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 43.916667,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "FCO",
+    "label": "Falciano",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 43.983333,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galazzano",
+    "subdivisionCode": "09",
+    "function": "3"
+  },
+  {
+    "locationCode": "AQ8",
+    "label": "Gualdicciolo",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 43.95,
+    "lng": 12.4
+  },
+  {
+    "locationCode": "RVT",
+    "label": "Rovereta",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 43.983333,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "SAI",
+    "label": "San Marino",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Serravalle",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 43.95,
+    "lng": 12.5
+  }
+]

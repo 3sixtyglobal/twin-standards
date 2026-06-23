@@ -4,16 +4,29 @@
 
 The contexts for ODRL.
 
-## Type declaration
+## Type Declaration
 
-### ContextRedirect
+### Namespace {#namespace}
 
-> `readonly` **ContextRedirect**: `"https://www.w3.org/ns/odrl.jsonld"` = `"https://www.w3.org/ns/odrl.jsonld"`
+> `readonly` **Namespace**: `"http://www.w3.org/ns/odrl/2/"` = `"http://www.w3.org/ns/odrl/2/"`
 
-The context root for ODRL.
+The canonical RDF namespace URI.
 
-### ContextRoot
+### Context {#context}
 
-> `readonly` **ContextRoot**: `"https://www.w3.org/ns/odrl/2/"` = `"https://www.w3.org/ns/odrl/2/"`
+> `readonly` **Context**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
 
-The context root for ODRL vocabulary.
+The value to use in @context.
+Note: Context points to the JSON-LD url as per ODRL 2.2 specification.
+
+### JsonLdContext {#jsonldcontext}
+
+> `readonly` **JsonLdContext**: `"http://www.w3.org/ns/odrl.jsonld"` = `"http://www.w3.org/ns/odrl.jsonld"`
+
+The JSON-LD Context URL.
+
+### JsonSchemaNamespace {#jsonschemanamespace}
+
+> `readonly` **JsonSchemaNamespace**: `"https://schema.twindev.org/w3c-odrl/"` = `"https://schema.twindev.org/w3c-odrl/"`
+
+The namespace location of the hosted version of the JSON Schema.

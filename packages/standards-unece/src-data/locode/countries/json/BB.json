@@ -1,0 +1,98 @@
+[
+  {
+    "locationCode": "BGI",
+    "label": "Bridgetown",
+    "function": "145"
+  },
+  {
+    "locationCode": "G5B",
+    "label": "Brighton",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 13.116667,
+    "lng": -59.516667
+  },
+  {
+    "locationCode": "CCH",
+    "label": "Christ Church",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 13.083333,
+    "lng": -59.533333
+  },
+  {
+    "locationCode": "H9G",
+    "label": "Edge Hill",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 13.15,
+    "lng": -59.6
+  },
+  {
+    "locationCode": "HLT",
+    "label": "Holetown",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 13.183333,
+    "lng": -59.633333
+  },
+  {
+    "locationCode": "JCK",
+    "label": "Jackson",
+    "subdivisionCode": "08",
+    "function": "6",
+    "lat": 13.15,
+    "lng": -59.6
+  },
+  {
+    "locationCode": "NES",
+    "label": "Nesfield",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 13.283333,
+    "lng": -59.616667
+  },
+  {
+    "locationCode": "OST",
+    "label": "Oistins",
+    "function": "3",
+    "lat": 13.066667,
+    "lng": -59.533333
+  },
+  {
+    "locationCode": "STM",
+    "label": "Saint Michael",
+    "subdivisionCode": "08",
+    "function": "16",
+    "lat": 13.116667,
+    "lng": -59.6
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Saint Peter",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 13.25,
+    "lng": -59.616667
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Saint Philip",
+    "subdivisionCode": "10",
+    "function": "6"
+  },
+  {
+    "locationCode": "SLC",
+    "label": "Sam Lords Castle",
+    "function": "3",
+    "lat": 13.116667,
+    "lng": -59.433333
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Speightstown",
+    "function": "3",
+    "lat": 13.25,
+    "lng": -59.65
+  }
+]

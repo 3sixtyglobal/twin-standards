@@ -1,6 +1,6 @@
-# TWIN Standard LD Contexts
+# TWIN Standards LD Contexts
 
-Local copies of standard LD contexts which can be used for offline development.
+This package provides local JSON-LD contexts commonly used across standards workflows, so development and validation can continue reliably in offline or controlled environments.
 
 ## Installation
 

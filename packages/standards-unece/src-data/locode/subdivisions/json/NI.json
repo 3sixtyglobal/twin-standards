@@ -1,0 +1,87 @@
+[
+  {
+    "code": "AN",
+    "label": "Atlántico Norte",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "AS",
+    "label": "Atlántico Sur",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "BO",
+    "label": "Boaco",
+    "type": "Department"
+  },
+  {
+    "code": "CA",
+    "label": "Carazo",
+    "type": "Department"
+  },
+  {
+    "code": "CI",
+    "label": "Chinandega",
+    "type": "Department"
+  },
+  {
+    "code": "CO",
+    "label": "Chontales",
+    "type": "Department"
+  },
+  {
+    "code": "ES",
+    "label": "Estelí",
+    "type": "Department"
+  },
+  {
+    "code": "GR",
+    "label": "Granada",
+    "type": "Department"
+  },
+  {
+    "code": "JI",
+    "label": "Jinotega",
+    "type": "Department"
+  },
+  {
+    "code": "LE",
+    "label": "León",
+    "type": "Department"
+  },
+  {
+    "code": "MD",
+    "label": "Madriz",
+    "type": "Department"
+  },
+  {
+    "code": "MN",
+    "label": "Managua",
+    "type": "Department"
+  },
+  {
+    "code": "MS",
+    "label": "Masaya",
+    "type": "Department"
+  },
+  {
+    "code": "MT",
+    "label": "Matagalpa",
+    "type": "Department"
+  },
+  {
+    "code": "NS",
+    "label": "Nueva Segovia",
+    "type": "Department"
+  },
+  {
+    "code": "RI",
+    "label": "Rivas",
+    "type": "Department"
+  },
+  {
+    "code": "SJ",
+    "label": "Río San Juan",
+    "type": "Department"
+  }
+]

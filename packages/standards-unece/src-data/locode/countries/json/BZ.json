@@ -1,0 +1,174 @@
+[
+  {
+    "locationCode": "BAR",
+    "label": "Barranco",
+    "function": "1",
+    "lat": 16,
+    "lng": -88.916667
+  },
+  {
+    "locationCode": "BZE",
+    "label": "Belize City",
+    "function": "145"
+  },
+  {
+    "locationCode": "TZA",
+    "label": "Belize City Municipal Airport",
+    "subdivisionCode": "BZ",
+    "function": "4",
+    "lat": 17.533333,
+    "lng": -88.3
+  },
+  {
+    "locationCode": "BMP",
+    "label": "Belmopan",
+    "function": "3",
+    "lat": 17.266667,
+    "lng": -88.783333
+  },
+  {
+    "locationCode": "BVJ",
+    "label": "Benque Viejo",
+    "subdivisionCode": "CZL",
+    "function": "6",
+    "lat": 18.266667,
+    "lng": -88.45
+  },
+  {
+    "locationCode": "BVC",
+    "label": "Benque Viejo del Carmen",
+    "subdivisionCode": "CY",
+    "function": "3",
+    "lat": 17.066667,
+    "lng": -89.133333
+  },
+  {
+    "locationCode": "BGK",
+    "label": "Big Creek",
+    "subdivisionCode": "SC",
+    "function": "134",
+    "lat": 16.516667,
+    "lng": -88.4
+  },
+  {
+    "locationCode": "CUK",
+    "label": "Caye Caulker",
+    "subdivisionCode": "BZ",
+    "function": "4",
+    "lat": 17.75,
+    "lng": -88.05
+  },
+  {
+    "locationCode": "CYC",
+    "label": "Caye Chapel",
+    "subdivisionCode": "BZ",
+    "function": "4",
+    "lat": 17.7,
+    "lng": -88.033333
+  },
+  {
+    "locationCode": "COL",
+    "label": "Colinto",
+    "function": "1"
+  },
+  {
+    "locationCode": "CZH",
+    "label": "Corozal",
+    "function": "4"
+  },
+  {
+    "locationCode": "CRR",
+    "label": "Crooked Tree",
+    "subdivisionCode": "BZ",
+    "function": "3",
+    "lat": 17.766667,
+    "lng": -88.533333
+  },
+  {
+    "locationCode": "DGA",
+    "label": "Dangriga",
+    "function": "13",
+    "lat": 16.966667,
+    "lng": -88.216667
+  },
+  {
+    "locationCode": "INB",
+    "label": "Independence Apt",
+    "subdivisionCode": "TOL",
+    "function": "34",
+    "lat": 17.533333,
+    "lng": -88.3
+  },
+  {
+    "locationCode": "MZE",
+    "label": "Manatee Apt",
+    "function": "34",
+    "lat": 17.066667,
+    "lng": -89.583333
+  },
+  {
+    "locationCode": "MDB",
+    "label": "Melinda",
+    "function": "4"
+  },
+  {
+    "locationCode": "ORZ",
+    "label": "Orange Walk",
+    "function": "4"
+  },
+  {
+    "locationCode": "PLJ",
+    "label": "Placencia",
+    "subdivisionCode": "SC",
+    "function": "4",
+    "lat": 16.516667,
+    "lng": -88.366667
+  },
+  {
+    "locationCode": "PND",
+    "label": "Punta Gorda",
+    "function": "4"
+  },
+  {
+    "locationCode": "SQS",
+    "label": "San Ignacio",
+    "subdivisionCode": "CY",
+    "function": "4",
+    "lat": 17.15,
+    "lng": -89.066667
+  },
+  {
+    "locationCode": "SPR",
+    "label": "San Pedro",
+    "function": "4"
+  },
+  {
+    "locationCode": "STU",
+    "label": "Santa Cruz",
+    "subdivisionCode": "CZL",
+    "function": "4",
+    "lat": 18.266667,
+    "lng": -88.45
+  },
+  {
+    "locationCode": "4SA",
+    "label": "Santa Elena",
+    "subdivisionCode": "CY",
+    "function": "3",
+    "lat": 17.15,
+    "lng": -89.05
+  },
+  {
+    "locationCode": "SJX",
+    "label": "Sartaneja",
+    "subdivisionCode": "CZL",
+    "function": "4",
+    "lat": 18.35,
+    "lng": -88.116667
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Silver Creek",
+    "function": "4"
+  }
+]

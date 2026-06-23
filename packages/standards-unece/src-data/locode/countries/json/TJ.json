@@ -1,0 +1,95 @@
+[
+  {
+    "locationCode": "CHK",
+    "label": "Chkalovsk",
+    "function": "3",
+    "lat": 40.233333,
+    "lng": 69.683333
+  },
+  {
+    "locationCode": "DYU",
+    "label": "Dushanbe",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Garm",
+    "subdivisionCode": "GB",
+    "function": "3",
+    "lat": 39.016667,
+    "lng": 70.366667
+  },
+  {
+    "locationCode": "SFA",
+    "label": "Isfara",
+    "function": "3",
+    "lat": 40.116667,
+    "lng": 70.633333
+  },
+  {
+    "locationCode": "KHI",
+    "label": "Khirmanak",
+    "function": "3",
+    "lat": 38.583333,
+    "lng": 68.55
+  },
+  {
+    "locationCode": "LBD",
+    "label": "Khudzhand",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Khujand",
+    "function": "6",
+    "lat": 40.266667,
+    "lng": 69.616667
+  },
+  {
+    "locationCode": "KLB",
+    "label": "Kulob",
+    "subdivisionCode": "KT",
+    "function": "3",
+    "lat": 37.9,
+    "lng": 69.766667
+  },
+  {
+    "locationCode": "NUK",
+    "label": "Nurak (Nurek)",
+    "subdivisionCode": "KT",
+    "function": "3",
+    "lat": 38.383333,
+    "lng": 69.316667
+  },
+  {
+    "locationCode": "PJK",
+    "label": "Penjikent",
+    "subdivisionCode": "SU",
+    "function": "3",
+    "lat": 39.5,
+    "lng": 67.6
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Qurghonteppa",
+    "subdivisionCode": "KT",
+    "function": "23",
+    "lat": 37.833333,
+    "lng": 68.766667
+  },
+  {
+    "locationCode": "STZ",
+    "label": "Shaartuz",
+    "subdivisionCode": "KT",
+    "function": "23",
+    "lat": 37.25,
+    "lng": 68.133333
+  },
+  {
+    "locationCode": "VAH",
+    "label": "Vahdat",
+    "function": "3",
+    "lat": 38.55,
+    "lng": 69.016667
+  }
+]

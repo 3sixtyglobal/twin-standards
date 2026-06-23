@@ -1,0 +1,92 @@
+[
+  {
+    "code": "AT",
+    "label": "Atlántida",
+    "type": "Department"
+  },
+  {
+    "code": "CH",
+    "label": "Choluteca",
+    "type": "Department"
+  },
+  {
+    "code": "CL",
+    "label": "Colón",
+    "type": "Department"
+  },
+  {
+    "code": "CM",
+    "label": "Comayagua",
+    "type": "Department"
+  },
+  {
+    "code": "CP",
+    "label": "Copán",
+    "type": "Department"
+  },
+  {
+    "code": "CR",
+    "label": "Cortés",
+    "type": "Department"
+  },
+  {
+    "code": "EP",
+    "label": "El Paraíso",
+    "type": "Department"
+  },
+  {
+    "code": "FM",
+    "label": "Francisco Morazán",
+    "type": "Department"
+  },
+  {
+    "code": "GD",
+    "label": "Gracias a Dios",
+    "type": "Department"
+  },
+  {
+    "code": "IB",
+    "label": "Islas de la Bahía",
+    "type": "Department"
+  },
+  {
+    "code": "IN",
+    "label": "Intibucá",
+    "type": "Department"
+  },
+  {
+    "code": "LE",
+    "label": "Lempira",
+    "type": "Department"
+  },
+  {
+    "code": "LP",
+    "label": "La Paz",
+    "type": "Department"
+  },
+  {
+    "code": "OC",
+    "label": "Ocotepeque",
+    "type": "Department"
+  },
+  {
+    "code": "OL",
+    "label": "Olancho",
+    "type": "Department"
+  },
+  {
+    "code": "SB",
+    "label": "Santa Bárbara",
+    "type": "Department"
+  },
+  {
+    "code": "VA",
+    "label": "Valle",
+    "type": "Department"
+  },
+  {
+    "code": "YO",
+    "label": "Yoro",
+    "type": "Department"
+  }
+]

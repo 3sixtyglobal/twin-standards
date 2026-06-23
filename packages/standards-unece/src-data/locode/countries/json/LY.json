@@ -1,0 +1,329 @@
+[
+  {
+    "locationCode": "ABK",
+    "label": "Abu Kammash",
+    "function": "1"
+  },
+  {
+    "locationCode": "ABS",
+    "label": "Abu Salim",
+    "subdivisionCode": "TB",
+    "function": "3",
+    "lat": 32.85,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "QGG",
+    "label": "Ajdabiya",
+    "subdivisionCode": "WA",
+    "function": "3",
+    "lat": 30.75,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "ABA",
+    "label": "Al Bayda",
+    "function": "1"
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Al Khums",
+    "function": "13",
+    "lat": 32.65,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "AKF",
+    "label": "Al Kufrah",
+    "function": "4",
+    "lat": 24.166667,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "QEC",
+    "label": "Al Marj",
+    "subdivisionCode": "MJ",
+    "function": "3",
+    "lat": 32.5,
+    "lng": 20.816667
+  },
+  {
+    "locationCode": "APO",
+    "label": "Apollonia",
+    "function": "1"
+  },
+  {
+    "locationCode": "ESI",
+    "label": "As Sidr",
+    "function": "1",
+    "lat": 30.633333,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "QZT",
+    "label": "Awbari (Ubari)",
+    "function": "3",
+    "lat": 23.566667,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "ZAW",
+    "label": "Az Zawiyah",
+    "function": "1",
+    "lat": 32.75,
+    "lng": 12.716667
+  },
+  {
+    "locationCode": "AZT",
+    "label": "Az Zintan",
+    "subdivisionCode": "JG",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "QBL",
+    "label": "Bani Walid",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": 34.766667,
+    "lng": 13.966667
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Bardiyah",
+    "function": "1",
+    "lat": 31.766667,
+    "lng": 25.1
+  },
+  {
+    "locationCode": "LAQ",
+    "label": "Beida",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Bingazi (Benghazi)",
+    "function": "145"
+  },
+  {
+    "locationCode": "BCQ",
+    "label": "Birak",
+    "function": "4",
+    "lat": 27.533333,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "BUA",
+    "label": "Bu'ayrat al Hasun",
+    "function": "1",
+    "lat": 31.4,
+    "lng": 15.733333
+  },
+  {
+    "locationCode": "DRX",
+    "label": "Darnah",
+    "function": "1",
+    "lat": 32.766667,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "BOU",
+    "label": "El Bouri",
+    "function": "1"
+  },
+  {
+    "locationCode": "ELK",
+    "label": "El Choms",
+    "function": "13",
+    "lat": 32.65,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "LTD",
+    "label": "Ghadames",
+    "function": "4"
+  },
+  {
+    "locationCode": "GHT",
+    "label": "Ghat",
+    "function": "4"
+  },
+  {
+    "locationCode": "HUQ",
+    "label": "Houn",
+    "function": "34",
+    "lat": 29.5,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "JAZ",
+    "label": "Janzur",
+    "subdivisionCode": "ZA",
+    "function": "3",
+    "lat": 32.816667,
+    "lng": 13
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Khoms",
+    "function": "6",
+    "lat": 52.333333,
+    "lng": 25.233333
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Mabruk",
+    "subdivisionCode": "SR",
+    "function": "7",
+    "lat": 30,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "MBR",
+    "label": "Marsá Al Burayqah",
+    "labelWithDiacritics": "Marsa Al Burayqah",
+    "function": "3",
+    "lat": 30.383333,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "LMQ",
+    "label": "Marsa Brega",
+    "function": "14"
+  },
+  {
+    "locationCode": "MEH",
+    "label": "Marsa El Hania",
+    "function": "1"
+  },
+  {
+    "locationCode": "MHR",
+    "label": "Marsa El Hariga",
+    "function": "1",
+    "lat": 32.05,
+    "lng": 24
+  },
+  {
+    "locationCode": "MTH",
+    "label": "Melittah",
+    "subdivisionCode": "TB",
+    "function": "17"
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Mellitah (Qasr Ahmed)",
+    "subdivisionCode": "MI",
+    "function": "123",
+    "lat": 32.6,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Misratah",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": 32.366667,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Misurata",
+    "function": "14"
+  },
+  {
+    "locationCode": "MJI",
+    "label": "Mitiga",
+    "function": "4"
+  },
+  {
+    "locationCode": "QMQ",
+    "label": "Murzuq",
+    "subdivisionCode": "MQ",
+    "function": "4",
+    "lat": 25.9,
+    "lng": 13.883333
+  },
+  {
+    "locationCode": "NFR",
+    "label": "Nafoora",
+    "function": "4"
+  },
+  {
+    "locationCode": "REH",
+    "label": "Ras el Hilal",
+    "function": "0"
+  },
+  {
+    "locationCode": "RLA",
+    "label": "Ras Lanuf",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sebha",
+    "function": "34",
+    "lat": 27.033333,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "SRX",
+    "label": "Sert",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRT",
+    "label": "Sirte (Surt)",
+    "function": "1"
+  },
+  {
+    "locationCode": "SOU",
+    "label": "Soussah",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tagiura",
+    "function": "1"
+  },
+  {
+    "locationCode": "TOB",
+    "label": "Tobruk",
+    "function": "14"
+  },
+  {
+    "locationCode": "TOA",
+    "label": "Toulmeitha",
+    "function": "1"
+  },
+  {
+    "locationCode": "TIP",
+    "label": "Tripoli",
+    "function": "14"
+  },
+  {
+    "locationCode": "TUK",
+    "label": "Tukrah",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZLI",
+    "label": "Zliten",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZUA",
+    "label": "Zuara",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZUE",
+    "label": "Zueitina",
+    "function": "0"
+  },
+  {
+    "locationCode": "WAX",
+    "label": "Zwara",
+    "function": "4"
+  }
+]

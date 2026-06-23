@@ -1,0 +1,111 @@
+[
+  {
+    "locationCode": "BUT",
+    "label": "Butha-Buthe",
+    "subdivisionCode": "B",
+    "function": "234",
+    "lat": -28.783333,
+    "lng": 28.233333
+  },
+  {
+    "locationCode": "LEF",
+    "label": "Lebakeng",
+    "function": "4"
+  },
+  {
+    "locationCode": "LRB",
+    "label": "Leribe",
+    "function": "4"
+  },
+  {
+    "locationCode": "LES",
+    "label": "Lesobeng",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFC",
+    "label": "Mafeteng",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPS",
+    "label": "Maputsoe",
+    "function": "23",
+    "lat": -28.883333,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "MSU",
+    "label": "Maseru",
+    "function": "45"
+  },
+  {
+    "locationCode": "MSG",
+    "label": "Matsaile",
+    "function": "4"
+  },
+  {
+    "locationCode": "MHH",
+    "label": "Mohale's Hoek",
+    "function": "6",
+    "lat": -30.15,
+    "lng": 27.466667
+  },
+  {
+    "locationCode": "MKH",
+    "label": "Mokhotlong",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKU",
+    "label": "Nkaus",
+    "function": "4"
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Pelaneng",
+    "function": "4"
+  },
+  {
+    "locationCode": "UNE",
+    "label": "Qacha's Nek",
+    "function": "4",
+    "lat": -30.116667,
+    "lng": 28.683333
+  },
+  {
+    "locationCode": "UTG",
+    "label": "Quthing",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHK",
+    "label": "Sehonghong",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKQ",
+    "label": "Sekakes",
+    "function": "4"
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Semongkong",
+    "function": "4"
+  },
+  {
+    "locationCode": "SHZ",
+    "label": "Seshutes",
+    "function": "4"
+  },
+  {
+    "locationCode": "THB",
+    "label": "Thaba-Tseka",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKO",
+    "label": "Tlokoeng",
+    "function": "4"
+  }
+]

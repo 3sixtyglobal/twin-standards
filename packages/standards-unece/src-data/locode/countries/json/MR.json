@@ -1,0 +1,172 @@
+[
+  {
+    "locationCode": "AEO",
+    "label": "Aioun el Atrouss",
+    "function": "4"
+  },
+  {
+    "locationCode": "AJJ",
+    "label": "Akjoujt",
+    "function": "4"
+  },
+  {
+    "locationCode": "LEG",
+    "label": "Aleg",
+    "function": "4"
+  },
+  {
+    "locationCode": "ATR",
+    "label": "Atar",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSK",
+    "label": "Bassiknou",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 15.85,
+    "lng": -5.933333
+  },
+  {
+    "locationCode": "BGH",
+    "label": "Boghé",
+    "labelWithDiacritics": "Boghe",
+    "function": "4",
+    "lat": 16.583333,
+    "lng": -14.266667
+  },
+  {
+    "locationCode": "OTL",
+    "label": "Boutilimit",
+    "function": "4"
+  },
+  {
+    "locationCode": "CGT",
+    "label": "Chinguitti",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZLG",
+    "label": "El Gouera",
+    "function": "4"
+  },
+  {
+    "locationCode": "FGD",
+    "label": "Fdérik",
+    "labelWithDiacritics": "Fderik",
+    "function": "4",
+    "lat": 22.683333,
+    "lng": -12.7
+  },
+  {
+    "locationCode": "KED",
+    "label": "Kaédi",
+    "labelWithDiacritics": "Kaedi",
+    "function": "4",
+    "lat": 16.15,
+    "lng": -13.5
+  },
+  {
+    "locationCode": "KFA",
+    "label": "Kiffa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBI",
+    "label": "Kobenni",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 15.816667,
+    "lng": -9.366667
+  },
+  {
+    "locationCode": "MBR",
+    "label": "Mbout",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Moudjéria",
+    "labelWithDiacritics": "Moudjeria",
+    "function": "4",
+    "lat": 17.883333,
+    "lng": -12.333333
+  },
+  {
+    "locationCode": "EMN",
+    "label": "Néma",
+    "labelWithDiacritics": "Nema",
+    "function": "4",
+    "lat": 16.616667,
+    "lng": -7.25
+  },
+  {
+    "locationCode": "NDB",
+    "label": "Nouadhibou",
+    "function": "14"
+  },
+  {
+    "locationCode": "NKC",
+    "label": "Nouakchott",
+    "function": "145"
+  },
+  {
+    "locationCode": "PCE",
+    "label": "Point Central",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosso",
+    "function": "13",
+    "lat": 16.5,
+    "lng": -15.916667
+  },
+  {
+    "locationCode": "SEY",
+    "label": "Sélibaby",
+    "labelWithDiacritics": "Selibaby",
+    "function": "4",
+    "lat": 15.166667,
+    "lng": -12.183333
+  },
+  {
+    "locationCode": "THT",
+    "label": "Tamchakett",
+    "function": "4"
+  },
+  {
+    "locationCode": "THI",
+    "label": "Tichitt",
+    "function": "4"
+  },
+  {
+    "locationCode": "TIY",
+    "label": "Tidjikja",
+    "function": "4"
+  },
+  {
+    "locationCode": "TMD",
+    "label": "Timbédra",
+    "labelWithDiacritics": "Timbedra",
+    "function": "4",
+    "lat": 16.25,
+    "lng": -8.166667
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tintane",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 16.4,
+    "lng": -10.166667
+  },
+  {
+    "locationCode": "OUZ",
+    "label": "Zouérat",
+    "labelWithDiacritics": "Zouerat",
+    "function": "4",
+    "lat": 22.7,
+    "lng": -12.483333
+  }
+]

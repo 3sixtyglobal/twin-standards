@@ -1,0 +1,9051 @@
+[
+  {
+    "locationCode": "ABS",
+    "label": "Abisko",
+    "subdivisionCode": "BD",
+    "function": "23",
+    "lat": 68.35,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "ABI",
+    "label": "Åby",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Aby",
+    "function": "3",
+    "lat": 58.666667,
+    "lng": 16.183333
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Adak",
+    "subdivisionCode": "Y",
+    "function": "6",
+    "lat": 65.35,
+    "lng": 18.616667
+  },
+  {
+    "locationCode": "ADO",
+    "label": "Adelsö",
+    "labelWithDiacritics": "Adelso",
+    "function": "3",
+    "lat": 59.366667,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "AEL",
+    "label": "Aelvsered",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 57.233333,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "AGB",
+    "label": "Agnesberg",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 57.783333,
+    "lng": 11.983333
+  },
+  {
+    "locationCode": "AGO",
+    "label": "Agö",
+    "labelWithDiacritics": "Ago",
+    "function": "3"
+  },
+  {
+    "locationCode": "AGU",
+    "label": "Agunnaryd",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.75,
+    "lng": 14.15
+  },
+  {
+    "locationCode": "AHR",
+    "label": "Aha",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 65.466667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "AHU",
+    "label": "Åhus",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ahus",
+    "function": "123",
+    "lat": 55.916667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "AKP",
+    "label": "Åkarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Akarp",
+    "function": "36",
+    "lat": 55.65,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "AAK",
+    "label": "Åkers Styckebruk",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Akers Styckebruk",
+    "function": "23"
+  },
+  {
+    "locationCode": "AKA",
+    "label": "Åkersberga",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Akersberga",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Ala",
+    "subdivisionCode": "X",
+    "function": "1",
+    "lat": 61.216667,
+    "lng": 17.15
+  },
+  {
+    "locationCode": "ALO",
+    "label": "Alafors",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.566667,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "ALG",
+    "label": "Alberga",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 16.116667
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Alby",
+    "subdivisionCode": "Y",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALF",
+    "label": "Alfredshem",
+    "subdivisionCode": "Y",
+    "function": "1"
+  },
+  {
+    "locationCode": "SZB",
+    "label": "Alfta",
+    "subdivisionCode": "X",
+    "function": "6",
+    "lat": 61.35,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "LGR",
+    "label": "Älgarås, Töreboda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Algaras, Toreboda",
+    "function": "3",
+    "lat": 58.8,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "AHT",
+    "label": "Älghult",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Alghult",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alingsås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Alingsas",
+    "function": "3",
+    "lat": 57.916667,
+    "lng": 12.533333
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Älmhult",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Almhult",
+    "function": "3"
+  },
+  {
+    "locationCode": "AVK",
+    "label": "Almvik",
+    "function": "0"
+  },
+  {
+    "locationCode": "N8P",
+    "label": "Alnarp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 13.083333
+  },
+  {
+    "locationCode": "ASM",
+    "label": "Alstermo",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 15.633333
+  },
+  {
+    "locationCode": "AB5",
+    "label": "Alta",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "AGN",
+    "label": "Älvängen",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Alvangen",
+    "function": "123",
+    "lat": 57.95,
+    "lng": 12.116667
+  },
+  {
+    "locationCode": "AEN",
+    "label": "Älvdalen",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Alvdalen",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALN",
+    "label": "Älvenäs",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Alvenas",
+    "function": "1",
+    "lat": 59.383333,
+    "lng": 13.183333
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Alvesta",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZC",
+    "label": "Älvkarleby",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Alvkarleby",
+    "function": "6",
+    "lat": 60.566667,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "ABN",
+    "label": "Älvsbyn",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Alvsbyn",
+    "function": "3",
+    "lat": 65.666667,
+    "lng": 21
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Älvsjö/Stockholm",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Alvsjo/Stockholm",
+    "function": "23",
+    "lat": 59.266667,
+    "lng": 18
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Åmål",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Amal",
+    "function": "123",
+    "lat": 59.05,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "AMM",
+    "label": "Åmmeberg",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Ammeberg",
+    "function": "3",
+    "lat": 58.866667,
+    "lng": 15
+  },
+  {
+    "locationCode": "ATF",
+    "label": "Åmotfors",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Amotfors",
+    "function": "3",
+    "lat": 59.766667,
+    "lng": 12.366667
+  },
+  {
+    "locationCode": "ASL",
+    "label": "Anderslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Anderslov",
+    "function": "36",
+    "lat": 55.433333,
+    "lng": 13.333333
+  },
+  {
+    "locationCode": "ANP",
+    "label": "Anderstorp",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABY",
+    "label": "Aneby",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "AGE",
+    "label": "Ånge",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Ange",
+    "function": "123",
+    "lat": 62.516667,
+    "lng": 15.616667
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Ängelholm",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Angelholm",
+    "function": "23"
+  },
+  {
+    "locationCode": "AGD",
+    "label": "Angered",
+    "subdivisionCode": "O",
+    "function": "23",
+    "lat": 57.783333,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "AKR",
+    "label": "Ankarsrum",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.7,
+    "lng": 16.333333
+  },
+  {
+    "locationCode": "ANK",
+    "label": "Ankarsvik",
+    "subdivisionCode": "C",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANN",
+    "label": "Ånn",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Ann",
+    "function": "123",
+    "lat": 63.316667,
+    "lng": 12.533333
+  },
+  {
+    "locationCode": "ANB",
+    "label": "Anneberg",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.716667,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "APL",
+    "label": "Äppelbo",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Appelbo",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 14
+  },
+  {
+    "locationCode": "AAR",
+    "label": "Ar",
+    "subdivisionCode": "I",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Arboga",
+    "subdivisionCode": "U",
+    "function": "123",
+    "lat": 59.383333,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "ARB",
+    "label": "Arbrå",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Arbra",
+    "function": "123"
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Åre",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Are",
+    "function": "23",
+    "lat": 63.4,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "ADG",
+    "label": "Arildsläge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Arildslage",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARJ",
+    "label": "Årjäng",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Arjang",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARG",
+    "label": "Arjeplog",
+    "subdivisionCode": "BD",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASU",
+    "label": "Arkösund",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Arkosund",
+    "function": "1"
+  },
+  {
+    "locationCode": "ARN",
+    "label": "Arlanda Apt/Stockholm",
+    "subdivisionCode": "C",
+    "function": "4"
+  },
+  {
+    "locationCode": "ART",
+    "label": "Arlandastad",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARL",
+    "label": "Arlöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Arlov",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASV",
+    "label": "Arnäsvall",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Arnasvall",
+    "function": "3",
+    "lat": 63.316667,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Arninge",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arnöviken",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Arnoviken",
+    "function": "1"
+  },
+  {
+    "locationCode": "ASQ",
+    "label": "Ärsta",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Arsta",
+    "function": "3",
+    "lat": 63.05,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "ARS",
+    "label": "Årsta/Stockholm",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Arsta/Stockholm",
+    "function": "3",
+    "lat": 59.3,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Årstadal",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Arstadal",
+    "function": "3"
+  },
+  {
+    "locationCode": "AUD",
+    "label": "Årsunda",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Arsunda",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "AJR",
+    "label": "Arvidsjaur",
+    "subdivisionCode": "BD",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARV",
+    "label": "Arvika",
+    "subdivisionCode": "S",
+    "function": "123"
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asarum",
+    "subdivisionCode": "K",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASB",
+    "label": "Åsbro",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Asbro",
+    "function": "23",
+    "lat": 59,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "AAS",
+    "label": "Åseda",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Aseda",
+    "function": "3"
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Åseda",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Aseda",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "ALE",
+    "label": "Åsele",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Asele",
+    "function": "3",
+    "lat": 64.166667,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "ASE",
+    "label": "Åsensbruk",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Asensbruk",
+    "function": "3"
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Åshammar",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Ashammar",
+    "function": "23",
+    "lat": 60.65,
+    "lng": 16.55
+  },
+  {
+    "locationCode": "ASD",
+    "label": "Askersund",
+    "subdivisionCode": "T",
+    "function": "1"
+  },
+  {
+    "locationCode": "AKM",
+    "label": "Askim",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.633333,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Åskloster",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Askloster",
+    "function": "3"
+  },
+  {
+    "locationCode": "SMT",
+    "label": "Asmundtorp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 12.933333
+  },
+  {
+    "locationCode": "AST",
+    "label": "Åstorp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Astorp",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Åtorp",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Atorp",
+    "function": "6",
+    "lat": 59.116667,
+    "lng": 14.35
+  },
+  {
+    "locationCode": "ATV",
+    "label": "Åtvidaberg",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Atvidaberg",
+    "function": "23"
+  },
+  {
+    "locationCode": "AVE",
+    "label": "Avesta",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "BBE",
+    "label": "Båberg",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Baberg",
+    "function": "3"
+  },
+  {
+    "locationCode": "BCD",
+    "label": "Backaryd",
+    "subdivisionCode": "K",
+    "function": "3",
+    "lat": 56.333333,
+    "lng": 15.183333
+  },
+  {
+    "locationCode": "BKS",
+    "label": "Bäckefors",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Backefors",
+    "function": "3",
+    "lat": 58.8,
+    "lng": 12.15
+  },
+  {
+    "locationCode": "BFS",
+    "label": "Bäckfors",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Backfors",
+    "function": "3"
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Bäckhammar",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Backhammar",
+    "function": "3"
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bäckviken",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Backviken",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGO",
+    "label": "Bagarmossen/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Ballingslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ballingslov",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLV",
+    "label": "Bällstaviken",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Ballstaviken",
+    "function": "23",
+    "lat": 59.35,
+    "lng": 17.966667
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Bålsta",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Balsta",
+    "function": "13",
+    "lat": 59.583333,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bandhagen/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "BND",
+    "label": "Bankeryd",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "BBH",
+    "label": "Barsebäckshamn",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Barsebackshamn",
+    "function": "1",
+    "lat": 55.75,
+    "lng": 12.9
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Båstad",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Bastad",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Bastutrask",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 65,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Båtskärsnäs",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Batskarsnas",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEF",
+    "label": "Bellö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Bello",
+    "function": "6",
+    "lat": 57.583333,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "BTF",
+    "label": "Bengtsfors",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "BGA",
+    "label": "Berga Örlogsskolor",
+    "labelWithDiacritics": "Berga Orlogsskolor",
+    "function": "1",
+    "lat": 59.083333,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "BGF",
+    "label": "Bergeforsen",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.533333,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Bergkvara",
+    "subdivisionCode": "H",
+    "function": "1",
+    "lat": 56.383333,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "BER",
+    "label": "Bergs oljehamn",
+    "subdivisionCode": "AB",
+    "function": "1",
+    "lat": 59.316667,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "BHM",
+    "label": "Bergshamra",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Bergsjö",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Bergsjo",
+    "function": "3",
+    "lat": 63.883333,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Bettna",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 58.9,
+    "lng": 16.633333
+  },
+  {
+    "locationCode": "BID",
+    "label": "Billdal",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.566667,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "BLB",
+    "label": "Billeberga",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.866667,
+    "lng": 13
+  },
+  {
+    "locationCode": "BIM",
+    "label": "Billesholm",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Billingsfors",
+    "subdivisionCode": "O",
+    "function": "23"
+  },
+  {
+    "locationCode": "BPG",
+    "label": "Bispgården",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Bispgarden",
+    "function": "3"
+  },
+  {
+    "locationCode": "BJA",
+    "label": "Bjärnum",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Bjarnum",
+    "function": "3"
+  },
+  {
+    "locationCode": "BJR",
+    "label": "Bjärred",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Bjarred",
+    "function": "13",
+    "lat": 55.716667,
+    "lng": 13.016667
+  },
+  {
+    "locationCode": "BJ5",
+    "label": "Bjartra",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.966667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "BST",
+    "label": "Bjästa",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Bjasta",
+    "function": "3",
+    "lat": 63.2,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "BOO",
+    "label": "Björbo",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Bjorbo",
+    "function": "3",
+    "lat": 60.45,
+    "lng": 14.7
+  },
+  {
+    "locationCode": "BJK",
+    "label": "Björklinge",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Bjorklinge",
+    "function": "3"
+  },
+  {
+    "locationCode": "BJV",
+    "label": "Bjorkvik",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 58.833333,
+    "lng": 16.516667
+  },
+  {
+    "locationCode": "BJN",
+    "label": "Björneborg",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Bjorneborg",
+    "function": "3"
+  },
+  {
+    "locationCode": "BGB",
+    "label": "Bjuraker",
+    "subdivisionCode": "X",
+    "function": "6",
+    "lat": 61.866667,
+    "lng": 16.566667
+  },
+  {
+    "locationCode": "BJM",
+    "label": "Bjurholm",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 63.933333,
+    "lng": 19.216667
+  },
+  {
+    "locationCode": "BJU",
+    "label": "Bjuv",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Blankaholm",
+    "subdivisionCode": "H",
+    "function": "1"
+  },
+  {
+    "locationCode": "BCS",
+    "label": "Blattnicksele",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 65.333333,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "B5P",
+    "label": "Blentarp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.583333,
+    "lng": 13.6
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Blidsberg",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Blomstermåla",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Blomstermala",
+    "function": "3"
+  },
+  {
+    "locationCode": "BDQ",
+    "label": "Böda",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Boda",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDS",
+    "label": "Bodafors",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOD",
+    "label": "Boden",
+    "subdivisionCode": "BD",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOH",
+    "label": "Bohus",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 57.85,
+    "lng": 12
+  },
+  {
+    "locationCode": "BOI",
+    "label": "Boliden",
+    "subdivisionCode": "AC",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLL",
+    "label": "Bollebygd",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLS",
+    "label": "Bollnäs",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Bollnas",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bollstabruk",
+    "subdivisionCode": "Y",
+    "function": "123",
+    "lat": 63,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bor",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.1,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Borås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Boras",
+    "function": "23"
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Borensberg",
+    "subdivisionCode": "E",
+    "function": "1"
+  },
+  {
+    "locationCode": "BON",
+    "label": "Borghamn",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOM",
+    "label": "Borgholm",
+    "subdivisionCode": "H",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGS",
+    "label": "Borgstena",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "BVN",
+    "label": "Borgvattnet",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63.416667,
+    "lng": 15.833333
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Borlänge",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Borlange",
+    "function": "24"
+  },
+  {
+    "locationCode": "SZD",
+    "label": "Borrby",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 55.45,
+    "lng": 14.166667
+  },
+  {
+    "locationCode": "BKY",
+    "label": "Botkyrka",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.233333,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "BMK",
+    "label": "Botsmark",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 64.233333,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Bottnaryd",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLD",
+    "label": "Bovallstrand",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOX",
+    "label": "Boxholm",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "AA8",
+    "label": "Braas",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 57.066667,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "BRS",
+    "label": "Braås",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Braas",
+    "function": "3",
+    "lat": 57.066667,
+    "lng": 15.05
+  },
+  {
+    "locationCode": "BCK",
+    "label": "Bräcke",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Bracke",
+    "function": "236",
+    "lat": 62.75,
+    "lng": 15.416667
+  },
+  {
+    "locationCode": "BRH",
+    "label": "Bräkne-Hoby",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Brakne-Hoby",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Brålanda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Bralanda",
+    "function": "3"
+  },
+  {
+    "locationCode": "BMH",
+    "label": "Brämhult",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Bramhult",
+    "function": "3",
+    "lat": 57.733333,
+    "lng": 13.016667
+  },
+  {
+    "locationCode": "BNF",
+    "label": "Brännfors",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Brannfors",
+    "function": "3"
+  },
+  {
+    "locationCode": "BTA",
+    "label": "Brastad",
+    "subdivisionCode": "O",
+    "function": "23",
+    "lat": 58.383333,
+    "lng": 11.483333
+  },
+  {
+    "locationCode": "BVK",
+    "label": "Bråviken",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Braviken",
+    "function": "13",
+    "lat": 58.633333,
+    "lng": 16.533333
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Bredaryd",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bredviken",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRX",
+    "label": "Bro",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "BKU",
+    "label": "Broakulla",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 56.7,
+    "lng": 15.516667
+  },
+  {
+    "locationCode": "BOY",
+    "label": "Broaryd",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.116667,
+    "lng": 13.25
+  },
+  {
+    "locationCode": "BRY",
+    "label": "Broby",
+    "subdivisionCode": "H",
+    "function": "6",
+    "lat": 56.533333,
+    "lng": 16.133333
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Brofjorden",
+    "subdivisionCode": "O",
+    "function": "1",
+    "lat": 58.35,
+    "lng": 11.383333
+  },
+  {
+    "locationCode": "BMM",
+    "label": "Bromma",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.35,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "BMA",
+    "label": "Bromma Apt/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "4"
+  },
+  {
+    "locationCode": "BRM",
+    "label": "Bromölla",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Bromolla",
+    "function": "3"
+  },
+  {
+    "locationCode": "BSP",
+    "label": "Brösarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Brosarp",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 14.116667
+  },
+  {
+    "locationCode": "BRT",
+    "label": "Brottby",
+    "subdivisionCode": "AB",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Brunflo",
+    "subdivisionCode": "Z",
+    "function": "13",
+    "lat": 63.083333,
+    "lng": 14.816667
+  },
+  {
+    "locationCode": "BUN",
+    "label": "Brunna",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.516667,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "BSI",
+    "label": "Bunkeflostrand",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 55.533333,
+    "lng": 12.95
+  },
+  {
+    "locationCode": "BUR",
+    "label": "Bureå",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Burea",
+    "function": "1"
+  },
+  {
+    "locationCode": "BUV",
+    "label": "Burgsvik",
+    "subdivisionCode": "I",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSR",
+    "label": "Burseryd",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.2,
+    "lng": 13.283333
+  },
+  {
+    "locationCode": "BUK",
+    "label": "Burträsk",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Burtrask",
+    "function": "3",
+    "lat": 64.516667,
+    "lng": 20.65
+  },
+  {
+    "locationCode": "BYU",
+    "label": "Bygdsiljum",
+    "subdivisionCode": "AC",
+    "function": "36",
+    "lat": 64.35,
+    "lng": 20.5
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Byske (Brännfors)",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Byske (Brannfors)",
+    "function": "3"
+  },
+  {
+    "locationCode": "BYX",
+    "label": "Byxelkrok",
+    "subdivisionCode": "H",
+    "function": "1"
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Charlottenberg",
+    "subdivisionCode": "S",
+    "function": "23"
+  },
+  {
+    "locationCode": "DJM",
+    "label": "Dala-Järna",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Dala-Jarna",
+    "function": "36",
+    "lat": 60.55,
+    "lng": 14.35
+  },
+  {
+    "locationCode": "DLA",
+    "label": "Dalarö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Dalaro",
+    "function": "1"
+  },
+  {
+    "locationCode": "DLB",
+    "label": "Dalby",
+    "subdivisionCode": "M",
+    "function": "23"
+  },
+  {
+    "locationCode": "DFO",
+    "label": "Dalsjöfors",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Dalsjofors",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Dals-Långed",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Dals-Langed",
+    "function": "23"
+  },
+  {
+    "locationCode": "DLP",
+    "label": "Dalstorp",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "DND",
+    "label": "Danderyd",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Dannemora",
+    "subdivisionCode": "C",
+    "function": "3"
+  },
+  {
+    "locationCode": "DNK",
+    "label": "Dannike",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.683333,
+    "lng": 13.216667
+  },
+  {
+    "locationCode": "DFS",
+    "label": "Degerfors",
+    "subdivisionCode": "T",
+    "function": "23"
+  },
+  {
+    "locationCode": "DEG",
+    "label": "Degerhamn",
+    "subdivisionCode": "H",
+    "function": "1"
+  },
+  {
+    "locationCode": "DEJ",
+    "label": "Deje",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "DEL",
+    "label": "Delsbo",
+    "subdivisionCode": "X",
+    "function": "3"
+  },
+  {
+    "locationCode": "DNG",
+    "label": "Dingle",
+    "subdivisionCode": "O",
+    "function": "23",
+    "lat": 58.533333,
+    "lng": 11.566667
+  },
+  {
+    "locationCode": "DIO",
+    "label": "Diö",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Dio",
+    "function": "23",
+    "lat": 56.633333,
+    "lng": 14.216667
+  },
+  {
+    "locationCode": "DJP",
+    "label": "Djupvik",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "DD7",
+    "label": "Djuras",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.55,
+    "lng": 15.133333
+  },
+  {
+    "locationCode": "DHN",
+    "label": "Djurhamn",
+    "subdivisionCode": "AB",
+    "function": "0"
+  },
+  {
+    "locationCode": "DJU",
+    "label": "Djurmo",
+    "subdivisionCode": "W",
+    "function": "1"
+  },
+  {
+    "locationCode": "DJN",
+    "label": "Djurön",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Djuron",
+    "function": "1",
+    "lat": 58.633333,
+    "lng": 16.35
+  },
+  {
+    "locationCode": "DSM",
+    "label": "Djursholm",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Domsjö",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Domsjo",
+    "function": "1"
+  },
+  {
+    "locationCode": "DON",
+    "label": "Donsö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Donso",
+    "function": "1"
+  },
+  {
+    "locationCode": "DOR",
+    "label": "Dorotea",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 64.25,
+    "lng": 16.433333
+  },
+  {
+    "locationCode": "DJB",
+    "label": "Dösjebro",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Dosjebro",
+    "function": "3",
+    "lat": 55.816667,
+    "lng": 13.016667
+  },
+  {
+    "locationCode": "DRT",
+    "label": "Drottningholm",
+    "subdivisionCode": "AB",
+    "function": "1",
+    "lat": 59.316667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "DVD",
+    "label": "Duved",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63.4,
+    "lng": 12.866667
+  },
+  {
+    "locationCode": "DSE",
+    "label": "Dvaersaett",
+    "subdivisionCode": "Z",
+    "function": "36",
+    "lat": 63.316667,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "DYN",
+    "label": "Dynäs",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Dynas",
+    "function": "123"
+  },
+  {
+    "locationCode": "EDZ",
+    "label": "Ed",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "EDA",
+    "label": "Eda",
+    "subdivisionCode": "S",
+    "function": "3",
+    "lat": 59.816667,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "EDE",
+    "label": "Edane",
+    "subdivisionCode": "S",
+    "function": "3",
+    "lat": 59.616667,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "EDS",
+    "label": "Edsbyn",
+    "subdivisionCode": "X",
+    "function": "3"
+  },
+  {
+    "locationCode": "EDV",
+    "label": "Edsvalla",
+    "subdivisionCode": "S",
+    "function": "23",
+    "lat": 59.433333,
+    "lng": 13.183333
+  },
+  {
+    "locationCode": "EKB",
+    "label": "Ekeby",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.116667,
+    "lng": 17.233333
+  },
+  {
+    "locationCode": "EEN",
+    "label": "Ekenässjön",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Ekenassjon",
+    "function": "3"
+  },
+  {
+    "locationCode": "EKE",
+    "label": "Ekerö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Ekero",
+    "function": "3"
+  },
+  {
+    "locationCode": "EK9",
+    "label": "Eket",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 13.183333
+  },
+  {
+    "locationCode": "EKH",
+    "label": "Ekshärad",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Eksharad",
+    "function": "3",
+    "lat": 60.166667,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "EKS",
+    "label": "Eksjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Eksjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "ELL",
+    "label": "Elleholm",
+    "subdivisionCode": "K",
+    "function": "13",
+    "lat": 56.166667,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "ELO",
+    "label": "Ellös",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ellos",
+    "function": "13",
+    "lat": 58.183333,
+    "lng": 11.466667
+  },
+  {
+    "locationCode": "EMM",
+    "label": "Emmaboda",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "AJG",
+    "label": "Emmaljunga",
+    "function": "3"
+  },
+  {
+    "locationCode": "ENE",
+    "label": "Enebyberg",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "ENA",
+    "label": "Eneryda",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "EHR",
+    "label": "Enhörna",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Enhorna",
+    "function": "3",
+    "lat": 59.3,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "ENK",
+    "label": "Enköping",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Enkoping",
+    "function": "123",
+    "lat": 59.666667,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "EBG",
+    "label": "Enstaberga",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 58.75,
+    "lng": 16.85
+  },
+  {
+    "locationCode": "ENV",
+    "label": "Enviken",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 60.8,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "ERI",
+    "label": "Erikslund",
+    "subdivisionCode": "Y",
+    "function": "23",
+    "lat": 62.533333,
+    "lng": 15.916667
+  },
+  {
+    "locationCode": "ERK",
+    "label": "Eriksmala",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 15.466667
+  },
+  {
+    "locationCode": "ERS",
+    "label": "Ersmark",
+    "subdivisionCode": "AC",
+    "function": "3"
+  },
+  {
+    "locationCode": "EVL",
+    "label": "Ervalla",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 59.416667,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "EKT",
+    "label": "Eskilstuna",
+    "subdivisionCode": "D",
+    "function": "4"
+  },
+  {
+    "locationCode": "ESL",
+    "label": "Eslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Eslov",
+    "function": "3"
+  },
+  {
+    "locationCode": "ESS",
+    "label": "Essvik",
+    "subdivisionCode": "Y",
+    "function": "13",
+    "lat": 62.3,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "EVD",
+    "label": "Everöd",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Everod",
+    "function": "3",
+    "lat": 55.9,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "FGS",
+    "label": "Fågelfors",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Fagelfors",
+    "function": "3",
+    "lat": 57.2,
+    "lng": 15.833333
+  },
+  {
+    "locationCode": "FAS",
+    "label": "Fagersanna",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.466667,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "FAA",
+    "label": "Fagersta",
+    "subdivisionCode": "U",
+    "function": "23"
+  },
+  {
+    "locationCode": "FAK",
+    "label": "Fagervik",
+    "subdivisionCode": "X",
+    "function": "1"
+  },
+  {
+    "locationCode": "FAG",
+    "label": "Falkenberg",
+    "subdivisionCode": "N",
+    "function": "123",
+    "lat": 56.883333,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "FKG",
+    "label": "Falköping",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Falkoping",
+    "function": "123"
+  },
+  {
+    "locationCode": "FSB",
+    "label": "Falsterbo",
+    "subdivisionCode": "M",
+    "function": "1"
+  },
+  {
+    "locationCode": "FAN",
+    "label": "Falun",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "FBO",
+    "label": "Fårbo",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Farbo",
+    "function": "3",
+    "lat": 57.383333,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Färgelanda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Fargelanda",
+    "function": "3"
+  },
+  {
+    "locationCode": "FLR",
+    "label": "Färila",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Farila",
+    "function": "3",
+    "lat": 61.8,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Färjestaden",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Farjestaden",
+    "function": "13",
+    "lat": 56.65,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "FAV",
+    "label": "Färlöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Farlov",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 14.083333
+  },
+  {
+    "locationCode": "FSD",
+    "label": "Fårösund",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Farosund",
+    "function": "1"
+  },
+  {
+    "locationCode": "FST",
+    "label": "Farsta",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.25,
+    "lng": 18.083333
+  },
+  {
+    "locationCode": "FEN",
+    "label": "Fegen",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 57.1,
+    "lng": 13.033333
+  },
+  {
+    "locationCode": "FEL",
+    "label": "Fellingsbro",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "FIG",
+    "label": "Figeholm",
+    "subdivisionCode": "H",
+    "function": "1"
+  },
+  {
+    "locationCode": "FIL",
+    "label": "Filipstad",
+    "subdivisionCode": "S",
+    "function": "13"
+  },
+  {
+    "locationCode": "FNA",
+    "label": "Finja",
+    "subdivisionCode": "M",
+    "function": "23",
+    "lat": 56.166667,
+    "lng": 13.683333
+  },
+  {
+    "locationCode": "FIN",
+    "label": "Finspång",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Finspang",
+    "function": "23"
+  },
+  {
+    "locationCode": "FIS",
+    "label": "Fiskebäck",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Fiskeback",
+    "function": "1"
+  },
+  {
+    "locationCode": "FBK",
+    "label": "Fiskebäckskil",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Fiskebackskil",
+    "function": "1"
+  },
+  {
+    "locationCode": "FIK",
+    "label": "Fiskeby",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 61.75,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "FLG",
+    "label": "Fjälkinge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Fjalkinge",
+    "function": "3",
+    "lat": 56.05,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "FJA",
+    "label": "Fjällbacka",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Fjallbacka",
+    "function": "1"
+  },
+  {
+    "locationCode": "FJC",
+    "label": "Fjärås",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Fjaras",
+    "function": "3",
+    "lat": 57.433333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "FRK",
+    "label": "Flarken",
+    "function": "3",
+    "lat": 64.3,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "FLX",
+    "label": "Flaxenvik",
+    "function": "0"
+  },
+  {
+    "locationCode": "FLM",
+    "label": "Flemingsberg/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "FLE",
+    "label": "Flen",
+    "subdivisionCode": "D",
+    "function": "23"
+  },
+  {
+    "locationCode": "SZG",
+    "label": "Flisby",
+    "subdivisionCode": "F",
+    "function": "6",
+    "lat": 57.783333,
+    "lng": 14.8
+  },
+  {
+    "locationCode": "FAD",
+    "label": "Fliseryd",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.116667,
+    "lng": 16.166667
+  },
+  {
+    "locationCode": "FLI",
+    "label": "Flivik",
+    "subdivisionCode": "H",
+    "function": "1",
+    "lat": 57.55,
+    "lng": 16.583333
+  },
+  {
+    "locationCode": "FBY",
+    "label": "Floby",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZW",
+    "label": "Floda",
+    "subdivisionCode": "O",
+    "function": "6",
+    "lat": 57.8,
+    "lng": 12.366667
+  },
+  {
+    "locationCode": "FGN",
+    "label": "Flyinge",
+    "subdivisionCode": "M",
+    "function": "36",
+    "lat": 55.75,
+    "lng": 13.35
+  },
+  {
+    "locationCode": "FON",
+    "label": "Fornåsa",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Fornasa",
+    "function": "36",
+    "lat": 58.483333,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "FRS",
+    "label": "Fors",
+    "subdivisionCode": "W",
+    "function": "23"
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Forsa",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 61.733333,
+    "lng": 16.933333
+  },
+  {
+    "locationCode": "FOA",
+    "label": "Forsbacka",
+    "subdivisionCode": "X",
+    "function": "3"
+  },
+  {
+    "locationCode": "FOM",
+    "label": "Forserum",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "FOS",
+    "label": "Forshaga",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "FHD",
+    "label": "Forsheda",
+    "subdivisionCode": "F",
+    "function": "23"
+  },
+  {
+    "locationCode": "FSV",
+    "label": "Forslov",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.35,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "FOR",
+    "label": "Forsmark",
+    "subdivisionCode": "C",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "FVK",
+    "label": "Forsvik",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "FDS",
+    "label": "Frändefors",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Frandefors",
+    "function": "23",
+    "lat": 58.5,
+    "lng": 12.283333
+  },
+  {
+    "locationCode": "FRA",
+    "label": "Frånö",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Frano",
+    "function": "123"
+  },
+  {
+    "locationCode": "FDL",
+    "label": "Fredriksdal",
+    "subdivisionCode": "K",
+    "function": "6",
+    "lat": 56.2,
+    "lng": 15.516667
+  },
+  {
+    "locationCode": "FSA",
+    "label": "Frillesås",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Frillesas",
+    "function": "236",
+    "lat": 57.316667,
+    "lng": 12.166667
+  },
+  {
+    "locationCode": "FRI",
+    "label": "Fristad",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "FTY",
+    "label": "Fritsla",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "FRN",
+    "label": "Froson",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63.183333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "FRO",
+    "label": "Frövi",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Frovi",
+    "function": "3",
+    "lat": 59.466667,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "FDA",
+    "label": "Furudal",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 61.166667,
+    "lng": 15.133333
+  },
+  {
+    "locationCode": "FLD",
+    "label": "Furulund",
+    "subdivisionCode": "M",
+    "function": "23",
+    "lat": 55.766667,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "GDE",
+    "label": "Gäddede",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Gaddede",
+    "function": "3",
+    "lat": 64.5,
+    "lng": 14.15
+  },
+  {
+    "locationCode": "GAD",
+    "label": "Gäddviken",
+    "labelWithDiacritics": "Gaddviken",
+    "function": "0"
+  },
+  {
+    "locationCode": "GGF",
+    "label": "Gagnef",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "GEV",
+    "label": "Gällivare",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Gallivare",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Gällö",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Gallo",
+    "function": "23",
+    "lat": 62.916667,
+    "lng": 15.233333
+  },
+  {
+    "locationCode": "GLS",
+    "label": "Gällstad",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Gallstad",
+    "function": "3",
+    "lat": 57.666667,
+    "lng": 13.433333
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Gamleby",
+    "subdivisionCode": "H",
+    "function": "123",
+    "lat": 57.9,
+    "lng": 16.4
+  },
+  {
+    "locationCode": "GLB",
+    "label": "Gamleby",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.1,
+    "lng": 16.933333
+  },
+  {
+    "locationCode": "GHR",
+    "label": "Gånghester",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ganghester",
+    "function": "3"
+  },
+  {
+    "locationCode": "GKG",
+    "label": "Gärds Köpinge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Gards Kopinge",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 14.15
+  },
+  {
+    "locationCode": "GPB",
+    "label": "Garpenberg",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.316667,
+    "lng": 16.2
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Garphyttan",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAS",
+    "label": "Gärsnäs",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Garsnas",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 14.183333
+  },
+  {
+    "locationCode": "GVX",
+    "label": "Gävle",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Gavle",
+    "function": "14",
+    "lat": 60.666667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "GML",
+    "label": "Gemla",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.866667,
+    "lng": 14.633333
+  },
+  {
+    "locationCode": "GET",
+    "label": "Getinge",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "GIM",
+    "label": "Gimo, Osthammar",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 60.183333,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "GMO",
+    "label": "Gimo, Uppsala",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 60.016667,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "GIS",
+    "label": "Gislaved",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "GLA",
+    "label": "Glanshammar",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "GVA",
+    "label": "Glava",
+    "subdivisionCode": "S",
+    "function": "3",
+    "lat": 59.55,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "GLI",
+    "label": "Glimåkra",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Glimakra",
+    "function": "3"
+  },
+  {
+    "locationCode": "GLM",
+    "label": "Glommen",
+    "subdivisionCode": "N",
+    "function": "1",
+    "lat": 56.933333,
+    "lng": 12.35
+  },
+  {
+    "locationCode": "GLV",
+    "label": "Glumslov",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.95,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "GNA",
+    "label": "Gnarp",
+    "subdivisionCode": "X",
+    "function": "0"
+  },
+  {
+    "locationCode": "GNE",
+    "label": "Gnesta",
+    "subdivisionCode": "D",
+    "function": "3"
+  },
+  {
+    "locationCode": "GNO",
+    "label": "Gnosjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Gnosjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Gorsingeholm",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 59.35,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "GOA",
+    "label": "Göta",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Gota",
+    "function": "123",
+    "lat": 58.116667,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "GOT",
+    "label": "Göteborg",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Goteborg",
+    "function": "12345",
+    "lat": 57.716667,
+    "lng": 11.966667
+  },
+  {
+    "locationCode": "GOE",
+    "label": "Götene",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Gotene",
+    "function": "23"
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Gråbo",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Grabo",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Gräfsnäs",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Grafsnas",
+    "function": "3",
+    "lat": 58.083333,
+    "lng": 12.483333
+  },
+  {
+    "locationCode": "GGE",
+    "label": "Grangärde",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Grangarde",
+    "function": "3",
+    "lat": 60.266667,
+    "lng": 14.983333
+  },
+  {
+    "locationCode": "GRN",
+    "label": "Grängesberg",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Grangesberg",
+    "function": "23",
+    "lat": 60.083333,
+    "lng": 14.983333
+  },
+  {
+    "locationCode": "GKV",
+    "label": "Grankullavik",
+    "subdivisionCode": "H",
+    "function": "13",
+    "lat": 57.333333,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Gränna",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Granna",
+    "function": "3"
+  },
+  {
+    "locationCode": "GND",
+    "label": "Granudden",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 65.516667,
+    "lng": 19.65
+  },
+  {
+    "locationCode": "GRP",
+    "label": "Grästorp",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Grastorp",
+    "function": "3"
+  },
+  {
+    "locationCode": "GVN",
+    "label": "Gravarne",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Grebbestad",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "GRV",
+    "label": "Grevie",
+    "subdivisionCode": "M",
+    "function": "2"
+  },
+  {
+    "locationCode": "GR5",
+    "label": "Grillby",
+    "subdivisionCode": "C",
+    "function": "6",
+    "lat": 59.616667,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Grimsås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Grimsas",
+    "function": "3",
+    "lat": 57.483333,
+    "lng": 13.533333
+  },
+  {
+    "locationCode": "GRM",
+    "label": "Grimslöv",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Grimslov",
+    "function": "3",
+    "lat": 56.733333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "GRH",
+    "label": "Grisslehamn",
+    "subdivisionCode": "AB",
+    "function": "1",
+    "lat": 60.1,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "GDG",
+    "label": "Grödinge",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Grodinge",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "GNR",
+    "label": "Grönö",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Grono",
+    "function": "1",
+    "lat": 60.516667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "GKA",
+    "label": "Gronskara",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.083333,
+    "lng": 15.733333
+  },
+  {
+    "locationCode": "GMS",
+    "label": "Grums",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Grundsund",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "GRK",
+    "label": "Grundvik",
+    "function": "0"
+  },
+  {
+    "locationCode": "GRU",
+    "label": "Gruvön",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Gruvon",
+    "function": "1",
+    "lat": 59.333333,
+    "lng": 13.116667
+  },
+  {
+    "locationCode": "GRY",
+    "label": "Grycksbo",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "GR9",
+    "label": "Gryt",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.1,
+    "lng": 16.966667
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Grytgöl",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Grytgol",
+    "function": "3"
+  },
+  {
+    "locationCode": "GYT",
+    "label": "Grythyttan",
+    "subdivisionCode": "T",
+    "function": "23",
+    "lat": 59.7,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "GHT",
+    "label": "Guldsmedshyttan",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 59.7,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "GUO",
+    "label": "Gullabo",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 56.466667,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "GSP",
+    "label": "Gullspång",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Gullspang",
+    "function": "3",
+    "lat": 58.983333,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "GSK",
+    "label": "Gunnarskog",
+    "subdivisionCode": "S",
+    "function": "3",
+    "lat": 59.833333,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "GUN",
+    "label": "Gunnebo",
+    "subdivisionCode": "E",
+    "function": "1"
+  },
+  {
+    "locationCode": "LSE",
+    "label": "Gunnilse",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.8,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "GTS",
+    "label": "Gustafs",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 15.6
+  },
+  {
+    "locationCode": "GUB",
+    "label": "Gustavsberg",
+    "subdivisionCode": "AB",
+    "function": "1"
+  },
+  {
+    "locationCode": "GUS",
+    "label": "Gustavsvik",
+    "subdivisionCode": "Y",
+    "function": "123",
+    "lat": 62.833333,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "GKS",
+    "label": "Gustavsvik/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "1",
+    "lat": 59.316667,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gusum",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZH",
+    "label": "Gyttorp",
+    "subdivisionCode": "T",
+    "function": "6",
+    "lat": 59.516667,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "HAB",
+    "label": "Habo",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAC",
+    "label": "Hackås",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Hackas",
+    "function": "123",
+    "lat": 62.916667,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "HAG",
+    "label": "Hagen",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "HGR",
+    "label": "Hägersten/Stockholm",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Hagersten/Stockholm",
+    "function": "3"
+  },
+  {
+    "locationCode": "HFS",
+    "label": "Hagfors",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAJ",
+    "label": "Häljarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Haljarp",
+    "function": "3",
+    "lat": 55.85,
+    "lng": 12.916667
+  },
+  {
+    "locationCode": "HYD",
+    "label": "Hallaryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLL",
+    "label": "Hällefors",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Hallefors",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Hälleforsnäs",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Halleforsnas",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLS",
+    "label": "Hällekis",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hallekis",
+    "function": "123"
+  },
+  {
+    "locationCode": "HTD",
+    "label": "Hällestad",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Hallestad",
+    "function": "3",
+    "lat": 58.716667,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "HLG",
+    "label": "Hällingsjö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hallingsjo",
+    "function": "3",
+    "lat": 57.616667,
+    "lng": 12.433333
+  },
+  {
+    "locationCode": "HSG",
+    "label": "Hallsberg",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Hallstahammar",
+    "subdivisionCode": "U",
+    "function": "3",
+    "lat": 56.05,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hallstanäs",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Hallstanas",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAK",
+    "label": "Hallstavik",
+    "subdivisionCode": "AB",
+    "function": "123",
+    "lat": 60.05,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Halmstad",
+    "subdivisionCode": "N",
+    "function": "1234",
+    "lat": 56.666667,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "HBG",
+    "label": "Hamburgsund",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "HMR",
+    "label": "Hammar",
+    "subdivisionCode": "T",
+    "function": "13",
+    "lat": 58.816667,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "HRO",
+    "label": "Hammarö",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Hammaro",
+    "function": "3",
+    "lat": 59.333333,
+    "lng": 13.516667
+  },
+  {
+    "locationCode": "HMD",
+    "label": "Hammerdal",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63.6,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "HNK",
+    "label": "Hanaskog",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.15,
+    "lng": 14.1
+  },
+  {
+    "locationCode": "HNI",
+    "label": "Haninge",
+    "subdivisionCode": "AB",
+    "function": "236",
+    "lat": 59.166667,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "HNE",
+    "label": "Haninge",
+    "subdivisionCode": "D",
+    "function": "23"
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Haparanda",
+    "subdivisionCode": "BD",
+    "function": "123"
+  },
+  {
+    "locationCode": "HAH",
+    "label": "Haraholmen",
+    "subdivisionCode": "BD",
+    "function": "1",
+    "lat": 65.233333,
+    "lng": 21.65
+  },
+  {
+    "locationCode": "HRD",
+    "label": "Harestad",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.816667,
+    "lng": 11.833333
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hargshamn",
+    "subdivisionCode": "C",
+    "function": "123",
+    "lat": 60.166667,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "HND",
+    "label": "Härnösand",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Harnosand",
+    "function": "123",
+    "lat": 62.633333,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "HRY",
+    "label": "Harryda",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.683333,
+    "lng": 12.3
+  },
+  {
+    "locationCode": "HRV",
+    "label": "Härslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Harslov",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 125.333333
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harsprånget",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Harspranget",
+    "function": "3"
+  },
+  {
+    "locationCode": "HBV",
+    "label": "Hässelbyverket/Stockholm",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Hasselbyverket/Stockholm",
+    "function": "1",
+    "lat": 59.35,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "HSP",
+    "label": "Hasslarp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.15,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "HSM",
+    "label": "Hässleholm",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hassleholm",
+    "function": "23"
+  },
+  {
+    "locationCode": "HVD",
+    "label": "Hästveda",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hastveda",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAV",
+    "label": "Havdhem",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.15,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "HVR",
+    "label": "Håverud",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Haverud",
+    "function": "23",
+    "lat": 58.8,
+    "lng": 12.416667
+  },
+  {
+    "locationCode": "HEG",
+    "label": "Heberg",
+    "subdivisionCode": "N",
+    "function": "36",
+    "lat": 57.466667,
+    "lng": 12
+  },
+  {
+    "locationCode": "HBY",
+    "label": "Heby",
+    "subdivisionCode": "C",
+    "function": "23",
+    "lat": 59.933333,
+    "lng": 16.883333
+  },
+  {
+    "locationCode": "HEE",
+    "label": "Hede",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 62.416667,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "HED",
+    "label": "Hedemora",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "HDS",
+    "label": "Hedesunda",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 17
+  },
+  {
+    "locationCode": "HST",
+    "label": "Heestrand",
+    "subdivisionCode": "O",
+    "function": "1",
+    "lat": 58.516667,
+    "lng": 11.283333
+  },
+  {
+    "locationCode": "HLN",
+    "label": "Helgenäs",
+    "labelWithDiacritics": "Helgenas",
+    "function": "0"
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helsingborg",
+    "subdivisionCode": "M",
+    "function": "124"
+  },
+  {
+    "locationCode": "AGH",
+    "label": "Helsingborg-Ängelholm Apt",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Helsingborg-Angelholm Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "HMV",
+    "label": "Hemavan",
+    "subdivisionCode": "AC",
+    "function": "4"
+  },
+  {
+    "locationCode": "HEM",
+    "label": "Hemse",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 57.233333,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "HXN",
+    "label": "Henån",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Henan",
+    "function": "3",
+    "lat": 58.233333,
+    "lng": 11.683333
+  },
+  {
+    "locationCode": "HER",
+    "label": "Herräng",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Herrang",
+    "function": "1"
+  },
+  {
+    "locationCode": "HEJ",
+    "label": "Herrljunga",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HES",
+    "label": "Hestra",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.45,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "HSD",
+    "label": "Hillared",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.633333,
+    "lng": 13.15
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hillerstorp",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "HDA",
+    "label": "Hindås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hindas",
+    "function": "23",
+    "lat": 57.7,
+    "lng": 12.433333
+  },
+  {
+    "locationCode": "HHT",
+    "label": "Hishult",
+    "subdivisionCode": "N",
+    "function": "36",
+    "lat": 56.433333,
+    "lng": 13.3
+  },
+  {
+    "locationCode": "HBA",
+    "label": "Hisings Backa",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRR",
+    "label": "Hisings Kärra/Göteborg",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hisings Karra/Goteborg",
+    "function": "3",
+    "lat": 57.783333,
+    "lng": 11.983333
+  },
+  {
+    "locationCode": "HIT",
+    "label": "Hittarp",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "HJB",
+    "label": "Hjälteby",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Hjalteby",
+    "function": "3",
+    "lat": 58.5,
+    "lng": 114.333333
+  },
+  {
+    "locationCode": "SZQ",
+    "label": "Hjältevad",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Hjaltevad",
+    "function": "236",
+    "lat": 57.633333,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "HJA",
+    "label": "Hjärnarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hjarnarp",
+    "function": "3",
+    "lat": 56.316667,
+    "lng": 12.916667
+  },
+  {
+    "locationCode": "HTM",
+    "label": "Hjärtum",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hjartum",
+    "function": "3",
+    "lat": 58.183333,
+    "lng": 12.1
+  },
+  {
+    "locationCode": "HJO",
+    "label": "Hjo",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HJD",
+    "label": "Hjorted",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOF",
+    "label": "Hofors",
+    "subdivisionCode": "X",
+    "function": "23"
+  },
+  {
+    "locationCode": "HOG",
+    "label": "Höganäs",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hoganas",
+    "function": "123",
+    "lat": 56.2,
+    "lng": 12.55
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Högsäter",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hogsater",
+    "function": "3"
+  },
+  {
+    "locationCode": "HGJ",
+    "label": "Högsjö",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Hogsjo",
+    "function": "3",
+    "lat": 59.033333,
+    "lng": 15.683333
+  },
+  {
+    "locationCode": "HGS",
+    "label": "Högsjö",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Hogsjo",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOK",
+    "label": "Hok",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.516667,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "HJS",
+    "label": "Holjes",
+    "subdivisionCode": "S",
+    "function": "3",
+    "lat": 60.9,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "SZI",
+    "label": "Höllviken",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hollviken",
+    "function": "6",
+    "lat": 55.416667,
+    "lng": 12.95
+  },
+  {
+    "locationCode": "HHM",
+    "label": "Holm",
+    "subdivisionCode": "N",
+    "function": "6",
+    "lat": 56.733333,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Holmsjö",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Holmsjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLD",
+    "label": "Holmsund",
+    "subdivisionCode": "AC",
+    "function": "123"
+  },
+  {
+    "locationCode": "HLO",
+    "label": "Hölö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Holo",
+    "function": "236",
+    "lat": 59.033333,
+    "lng": 17.55
+  },
+  {
+    "locationCode": "HBB",
+    "label": "Holsbybrunn",
+    "subdivisionCode": "F",
+    "function": "23"
+  },
+  {
+    "locationCode": "HNO",
+    "label": "Hönö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hono",
+    "function": "6",
+    "lat": 57.683333,
+    "lng": 11.633333
+  },
+  {
+    "locationCode": "HON",
+    "label": "Hönsäter",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Honsater",
+    "function": "13",
+    "lat": 58.633333,
+    "lng": 13.416667
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Höör",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Hoor",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOE",
+    "label": "Hörby",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Horby",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Horda",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Horndal",
+    "subdivisionCode": "W",
+    "function": "23"
+  },
+  {
+    "locationCode": "HNB",
+    "label": "Hörneborg",
+    "labelWithDiacritics": "Horneborg",
+    "function": "1"
+  },
+  {
+    "locationCode": "HNF",
+    "label": "Hörnefors",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Hornefors",
+    "function": "13",
+    "lat": 63.633333,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "HOD",
+    "label": "Horred",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HVA",
+    "label": "Hova",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "HOA",
+    "label": "Hovås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Hovas",
+    "function": "3",
+    "lat": 57.6,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "HOV",
+    "label": "Hovmantorp",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "HZS",
+    "label": "Hovslätt",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Hovslatt",
+    "function": "3"
+  },
+  {
+    "locationCode": "HUE",
+    "label": "Huddinge",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.216667,
+    "lng": 18
+  },
+  {
+    "locationCode": "HUV",
+    "label": "Hudiksvall",
+    "subdivisionCode": "X",
+    "function": "1234",
+    "lat": 61.733333,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "HLF",
+    "label": "Hultsfred",
+    "subdivisionCode": "H",
+    "function": "234"
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Hunnebostrand",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "HUR",
+    "label": "Hurva",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.8,
+    "lng": 13.433333
+  },
+  {
+    "locationCode": "HUY",
+    "label": "Husby",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.283333,
+    "lng": 16
+  },
+  {
+    "locationCode": "HSQ",
+    "label": "Huskvarna",
+    "subdivisionCode": "F",
+    "function": "23"
+  },
+  {
+    "locationCode": "HUS",
+    "label": "Husum",
+    "subdivisionCode": "Y",
+    "function": "1",
+    "lat": 63.333333,
+    "lng": 19.166667
+  },
+  {
+    "locationCode": "HYG",
+    "label": "Hyllinge",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.1,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "HYL",
+    "label": "Hyltebruk",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "HYP",
+    "label": "Hyppeln",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "HYS",
+    "label": "Hyssna",
+    "function": "36",
+    "lat": 57.566667,
+    "lng": 12.533333
+  },
+  {
+    "locationCode": "IDB",
+    "label": "Idre",
+    "subdivisionCode": "W",
+    "function": "4"
+  },
+  {
+    "locationCode": "IGP",
+    "label": "Igelstorp",
+    "subdivisionCode": "O",
+    "function": "23",
+    "lat": 58.4,
+    "lng": 13.966667
+  },
+  {
+    "locationCode": "IGG",
+    "label": "Iggesund",
+    "subdivisionCode": "X",
+    "function": "123",
+    "lat": 61.633333,
+    "lng": 17.066667
+  },
+  {
+    "locationCode": "LST",
+    "label": "Ingelstad",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.75,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "INS",
+    "label": "Insjön",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Insjon",
+    "function": "3",
+    "lat": 60.683333,
+    "lng": 15.083333
+  },
+  {
+    "locationCode": "JMJ",
+    "label": "Jämjö",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Jamjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAO",
+    "label": "Järbo",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Jarbo",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Järfälla",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Jarfalla",
+    "function": "123",
+    "lat": 59.4,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "JRN",
+    "label": "Järna",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Jarna",
+    "function": "3",
+    "lat": 59.1,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "JPS",
+    "label": "Järpås",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Jarpas",
+    "function": "3",
+    "lat": 58.383333,
+    "lng": 12.966667
+  },
+  {
+    "locationCode": "JPN",
+    "label": "Järpen",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Jarpen",
+    "function": "3",
+    "lat": 63.35,
+    "lng": 13.483333
+  },
+  {
+    "locationCode": "JAV",
+    "label": "Jarvso",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 61.716667,
+    "lng": 16.166667
+  },
+  {
+    "locationCode": "JAT",
+    "label": "Jättersön",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Jatterson",
+    "function": "1"
+  },
+  {
+    "locationCode": "JOH",
+    "label": "Johannedal",
+    "function": "1"
+  },
+  {
+    "locationCode": "JHV",
+    "label": "Johanneshov",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "JOK",
+    "label": "Jokkmokk",
+    "subdivisionCode": "BD",
+    "function": "23",
+    "lat": 66.6,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "JKG",
+    "label": "Jönköping",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Jonkoping",
+    "function": "14"
+  },
+  {
+    "locationCode": "JON",
+    "label": "Jonsered",
+    "subdivisionCode": "O",
+    "function": "23"
+  },
+  {
+    "locationCode": "JOP",
+    "label": "Jonstorp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.233333,
+    "lng": 12.666667
+  },
+  {
+    "locationCode": "JOR",
+    "label": "Jordbro",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "JNA",
+    "label": "Jörlanda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Jorlanda",
+    "function": "1236",
+    "lat": 57.983333,
+    "lng": 11.816667
+  },
+  {
+    "locationCode": "JUK",
+    "label": "Jukkasjärvi",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Jukkasjarvi",
+    "function": "3",
+    "lat": 67.85,
+    "lng": 20.6
+  },
+  {
+    "locationCode": "JUN",
+    "label": "Junsele",
+    "subdivisionCode": "Y",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Kåge",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Kage",
+    "function": "1"
+  },
+  {
+    "locationCode": "KRD",
+    "label": "Kågeröd",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Kagerod",
+    "function": "3"
+  },
+  {
+    "locationCode": "KGG",
+    "label": "Kagghamra",
+    "function": "1",
+    "lat": 59.083333,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Kälarne",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Kalarne",
+    "function": "23",
+    "lat": 62.983333,
+    "lng": 16.083333
+  },
+  {
+    "locationCode": "KAX",
+    "label": "Kalix",
+    "subdivisionCode": "BD",
+    "function": "123"
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Kållandsö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kallandso",
+    "function": "3",
+    "lat": 58.233333,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "KBY",
+    "label": "Källby",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kallby",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRR",
+    "label": "Kållekärr",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kallekarr",
+    "function": "3",
+    "lat": 58.016667,
+    "lng": 11.65
+  },
+  {
+    "locationCode": "KAD",
+    "label": "Kållered",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kallered",
+    "function": "3"
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Kallhäll",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Kallhall",
+    "function": "3",
+    "lat": 59.45,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "SZJ",
+    "label": "Kallinge",
+    "subdivisionCode": "K",
+    "function": "236",
+    "lat": 56.233333,
+    "lng": 15.283333
+  },
+  {
+    "locationCode": "KLR",
+    "label": "Kalmar",
+    "subdivisionCode": "H",
+    "function": "1234",
+    "lat": 56.666667,
+    "lng": 16.366667
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalmarsand",
+    "subdivisionCode": "C",
+    "function": "1",
+    "lat": 59.55,
+    "lng": 17.55
+  },
+  {
+    "locationCode": "KLX",
+    "label": "Kalv",
+    "subdivisionCode": "X",
+    "function": "23",
+    "lat": 61.7,
+    "lng": 16.3
+  },
+  {
+    "locationCode": "KVK",
+    "label": "Kalvik",
+    "subdivisionCode": "O",
+    "function": "1",
+    "lat": 59.066667,
+    "lng": 11.183333
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kapellskär",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Kapellskar",
+    "function": "13",
+    "lat": 59.716667,
+    "lng": 19.066667
+  },
+  {
+    "locationCode": "KPH",
+    "label": "Kappelshamn",
+    "subdivisionCode": "I",
+    "function": "1",
+    "lat": 57.85,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "YBY",
+    "label": "Kareby",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.916667,
+    "lng": 11.9
+  },
+  {
+    "locationCode": "KRH",
+    "label": "Kårehamn",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Karehamn",
+    "function": "1",
+    "lat": 56.95,
+    "lng": 16.9
+  },
+  {
+    "locationCode": "KBK",
+    "label": "Karlholmsbruk",
+    "subdivisionCode": "C",
+    "function": "1",
+    "lat": 60.516667,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Karlsborg",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.583333,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "KXV",
+    "label": "Karlsborg Axelvik",
+    "subdivisionCode": "BD",
+    "function": "1",
+    "lat": 65.8,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Karlshamn",
+    "subdivisionCode": "K",
+    "function": "123",
+    "lat": 56.166667,
+    "lng": 14.85
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Karlskoga",
+    "subdivisionCode": "T",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Karlskrona",
+    "subdivisionCode": "K",
+    "function": "123",
+    "lat": 56.166667,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "KSD",
+    "label": "Karlstad",
+    "subdivisionCode": "S",
+    "function": "14",
+    "lat": 59.366667,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Karlsvik",
+    "subdivisionCode": "X",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAO",
+    "label": "Karö",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Karo",
+    "function": "0",
+    "lat": 60.333333,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "KPA",
+    "label": "Karpalund",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Karskär",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Karskar",
+    "function": "1",
+    "lat": 60.683333,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Katrineholm",
+    "subdivisionCode": "D",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katthammarsvik",
+    "subdivisionCode": "I",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAE",
+    "label": "Kättilstorp",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kattilstorp",
+    "function": "3"
+  },
+  {
+    "locationCode": "KVL",
+    "label": "Kävlinge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Kavlinge",
+    "function": "3"
+  },
+  {
+    "locationCode": "KXH",
+    "label": "Kaxholmen",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.85,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kil",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "KFS",
+    "label": "Kilafors",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 61.233333,
+    "lng": 16.566667
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kilsmo",
+    "subdivisionCode": "T",
+    "function": "23",
+    "lat": 59.066667,
+    "lng": 15.516667
+  },
+  {
+    "locationCode": "SZK",
+    "label": "Kimstad",
+    "subdivisionCode": "E",
+    "function": "236",
+    "lat": 58.533333,
+    "lng": 15.966667
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Kinna",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kinnared",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 57.016667,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kinnarp",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRN",
+    "label": "Kiruna",
+    "subdivisionCode": "BD",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kisa",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kista",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIK",
+    "label": "Kivik",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.683333,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Klädesholmen",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kladesholmen",
+    "function": "136",
+    "lat": 57.95,
+    "lng": 11.533333
+  },
+  {
+    "locationCode": "KGM",
+    "label": "Klagshamn",
+    "subdivisionCode": "M",
+    "function": "13",
+    "lat": 55.533333,
+    "lng": 12.916667
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Klagstorp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.383333,
+    "lng": 13.383333
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klavreström",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Klavrestrom",
+    "function": "123",
+    "lat": 57.133333,
+    "lng": 15.133333
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Klintehamn",
+    "subdivisionCode": "I",
+    "function": "1",
+    "lat": 57.4,
+    "lng": 18.2
+  },
+  {
+    "locationCode": "KLP",
+    "label": "Klippan",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "KK9",
+    "label": "Klockrike",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.5,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "KNR",
+    "label": "Knared",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 56.533333,
+    "lng": 13.316667
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Knislinge",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.183333,
+    "lng": 14.083333
+  },
+  {
+    "locationCode": "KNA",
+    "label": "Knivsta",
+    "subdivisionCode": "C",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolbäck",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Kolback",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOA",
+    "label": "Kolsva",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOG",
+    "label": "Köping",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Koping",
+    "function": "123",
+    "lat": 59.516667,
+    "lng": 15.983333
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Köpingebro",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Kopingebro",
+    "function": "23",
+    "lat": 55.466667,
+    "lng": 13.933333
+  },
+  {
+    "locationCode": "KMH",
+    "label": "Köpmanholmen",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Kopmanholmen",
+    "function": "1",
+    "lat": 63.166667,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "KPO",
+    "label": "Kopparberg",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "KVH",
+    "label": "Kopparverkshamnen",
+    "subdivisionCode": "M",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korsberga",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Korsnäs",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Korsnas",
+    "function": "23"
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Koskullskulle",
+    "subdivisionCode": "BD",
+    "function": "3"
+  },
+  {
+    "locationCode": "KST",
+    "label": "Kosta",
+    "subdivisionCode": "G",
+    "function": "23",
+    "lat": 56.85,
+    "lng": 15.383333
+  },
+  {
+    "locationCode": "KRF",
+    "label": "Kramfors",
+    "subdivisionCode": "Y",
+    "function": "1234",
+    "lat": 62.933333,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Kristdala",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.4,
+    "lng": 16.183333
+  },
+  {
+    "locationCode": "KID",
+    "label": "Kristianstad",
+    "subdivisionCode": "M",
+    "function": "1234"
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kristinehamn",
+    "subdivisionCode": "S",
+    "function": "123",
+    "lat": 59.333333,
+    "lng": 14.116667
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Krokek",
+    "subdivisionCode": "E",
+    "function": "36",
+    "lat": 58.666667,
+    "lng": 16.4
+  },
+  {
+    "locationCode": "KKO",
+    "label": "Krokom",
+    "subdivisionCode": "Z",
+    "function": "236",
+    "lat": 63.333333,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Krokvåg",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Krokvag",
+    "function": "3",
+    "lat": 63.166667,
+    "lng": 16.266667
+  },
+  {
+    "locationCode": "KRY",
+    "label": "Krylbo",
+    "subdivisionCode": "W",
+    "function": "23"
+  },
+  {
+    "locationCode": "KUB",
+    "label": "Kubikenborg",
+    "subdivisionCode": "X",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLV",
+    "label": "Kullavik",
+    "subdivisionCode": "N",
+    "function": "23",
+    "lat": 57.533333,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "KLL",
+    "label": "Kulltorp",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.266667,
+    "lng": 13.783333
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumla",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "KUV",
+    "label": "Kungälv",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kungalv",
+    "function": "13"
+  },
+  {
+    "locationCode": "KNN",
+    "label": "Kungsängen",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Kungsangen",
+    "function": "3"
+  },
+  {
+    "locationCode": "KGT",
+    "label": "Kungsäter",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Kungsater",
+    "function": "3",
+    "lat": 57.316667,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "KUA",
+    "label": "Kungsbacka",
+    "subdivisionCode": "N",
+    "function": "13",
+    "lat": 57.483333,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kungshamn",
+    "subdivisionCode": "O",
+    "function": "1",
+    "lat": 58.35,
+    "lng": 11.25
+  },
+  {
+    "locationCode": "KGR",
+    "label": "Kungsör",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Kungsor",
+    "function": "13",
+    "lat": 59.433333,
+    "lng": 16.1
+  },
+  {
+    "locationCode": "KVM",
+    "label": "Kvänum",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Kvanum",
+    "function": "23"
+  },
+  {
+    "locationCode": "KVA",
+    "label": "Kvarnholmen",
+    "subdivisionCode": "AB",
+    "function": "1"
+  },
+  {
+    "locationCode": "KVN",
+    "label": "Kvarnsveden",
+    "subdivisionCode": "W",
+    "function": "23",
+    "lat": 60.516667,
+    "lng": 15.416667
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Kvarntorp/Örebro",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Kvarntorp/Orebro",
+    "function": "3",
+    "lat": 59.3,
+    "lng": 15
+  },
+  {
+    "locationCode": "KVC",
+    "label": "Kvicksund",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.45,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "KDG",
+    "label": "Kvidinge",
+    "subdivisionCode": "M",
+    "function": "36",
+    "lat": 56.133333,
+    "lng": 13.066667
+  },
+  {
+    "locationCode": "KVY",
+    "label": "Kvissleby",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.3,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "KYK",
+    "label": "Kyrkås",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Kyrkas",
+    "function": "3",
+    "lat": 63.216667,
+    "lng": 14.85
+  },
+  {
+    "locationCode": "KYR",
+    "label": "Kyrkebyn",
+    "subdivisionCode": "S",
+    "function": "1"
+  },
+  {
+    "locationCode": "KKS",
+    "label": "Kyrkesund",
+    "subdivisionCode": "O",
+    "function": "13",
+    "lat": 58.016667,
+    "lng": 11.516667
+  },
+  {
+    "locationCode": "ECK",
+    "label": "Läckeby",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Lackeby",
+    "function": "3",
+    "lat": 56.783333,
+    "lng": 16.3
+  },
+  {
+    "locationCode": "LGN",
+    "label": "Lagan",
+    "subdivisionCode": "G",
+    "function": "23",
+    "lat": 56.916667,
+    "lng": 13.983333
+  },
+  {
+    "locationCode": "LAH",
+    "label": "Laholm",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAL",
+    "label": "Laisvall",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 66.133333,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lammhult",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAO",
+    "label": "Landsbro",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Landskrona",
+    "subdivisionCode": "M",
+    "function": "123",
+    "lat": 55.866667,
+    "lng": 12.833333
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Landvetter",
+    "subdivisionCode": "O",
+    "function": "1234",
+    "lat": 57.683333,
+    "lng": 12.2
+  },
+  {
+    "locationCode": "LAY",
+    "label": "Långaryd",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Langaryd",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 13.35
+  },
+  {
+    "locationCode": "LA9",
+    "label": "Langas",
+    "subdivisionCode": "N",
+    "function": "6",
+    "lat": 56.983333,
+    "lng": 12.45
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Långasjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Langasjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "LGL",
+    "label": "Langsele",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 63.183333,
+    "lng": 17.066667
+  },
+  {
+    "locationCode": "LNG",
+    "label": "Långshyttan",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Langshyttan",
+    "function": "3",
+    "lat": 60.433333,
+    "lng": 15
+  },
+  {
+    "locationCode": "LNA",
+    "label": "Länna",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Lanna",
+    "function": "3",
+    "lat": 59.866667,
+    "lng": 17.95
+  },
+  {
+    "locationCode": "LBO",
+    "label": "Lärbro",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Larbro",
+    "function": "3",
+    "lat": 57.783333,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "LAR",
+    "label": "Larv",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.183333,
+    "lng": 13.116667
+  },
+  {
+    "locationCode": "LAX",
+    "label": "Laxå",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Laxa",
+    "function": "23"
+  },
+  {
+    "locationCode": "LEK",
+    "label": "Leksand",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "LDV",
+    "label": "Lenhovda",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "LER",
+    "label": "Lerum",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "LES",
+    "label": "Lesjöfors",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Lesjofors",
+    "function": "23",
+    "lat": 59.966667,
+    "lng": 14.183333
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Lessebo",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "LTP",
+    "label": "Liatorp",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.65,
+    "lng": 14.266667
+  },
+  {
+    "locationCode": "AQ2",
+    "label": "Liden",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.75,
+    "lng": 16.816667
+  },
+  {
+    "locationCode": "LIT",
+    "label": "Lidhult",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIO",
+    "label": "Lidingö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Lidingo",
+    "function": "123"
+  },
+  {
+    "locationCode": "LDK",
+    "label": "Lidköping",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Lidkoping",
+    "function": "1234",
+    "lat": 58.5,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "LIL",
+    "label": "Liljendal",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "LED",
+    "label": "Lilla Edet",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 58.133333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Limhamn",
+    "subdivisionCode": "M",
+    "function": "123",
+    "lat": 55.583333,
+    "lng": 12.95
+  },
+  {
+    "locationCode": "LMD",
+    "label": "Limmared",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIS",
+    "label": "Linanäs",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Linanas",
+    "function": "13",
+    "lat": 59.766667,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "LDS",
+    "label": "Lindaas",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.55,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "LID",
+    "label": "Lindärva",
+    "labelWithDiacritics": "Lindarva",
+    "function": "6",
+    "lat": 58.433333,
+    "lng": 13.216667
+  },
+  {
+    "locationCode": "LIA",
+    "label": "Lindås",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Lindas",
+    "function": "3",
+    "lat": 56.616667,
+    "lng": 15.566667
+  },
+  {
+    "locationCode": "LDG",
+    "label": "Lindesberg",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lindome",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.566667,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "LGO",
+    "label": "Lingbo",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": 60.466667,
+    "lng": 16.683333
+  },
+  {
+    "locationCode": "LPI",
+    "label": "Linköping",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Linkoping",
+    "function": "234"
+  },
+  {
+    "locationCode": "LJJ",
+    "label": "Ljung",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.983333,
+    "lng": 13.05
+  },
+  {
+    "locationCode": "LJG",
+    "label": "Ljungaverk",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 16.016667
+  },
+  {
+    "locationCode": "LJY",
+    "label": "Ljungby",
+    "subdivisionCode": "G",
+    "function": "23"
+  },
+  {
+    "locationCode": "LJH",
+    "label": "Ljungbyhed",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 13.216667
+  },
+  {
+    "locationCode": "LJP",
+    "label": "Ljungsarp",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 57.566667,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "LJB",
+    "label": "Ljungsbro",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.516667,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "LJL",
+    "label": "Ljusdal",
+    "subdivisionCode": "X",
+    "function": "3"
+  },
+  {
+    "locationCode": "LHM",
+    "label": "Ljusfallshammar",
+    "subdivisionCode": "E",
+    "function": "36",
+    "lat": 58.783333,
+    "lng": 15.5
+  },
+  {
+    "locationCode": "LJU",
+    "label": "Ljusne",
+    "subdivisionCode": "X",
+    "function": "123",
+    "lat": 61.216667,
+    "lng": 17.133333
+  },
+  {
+    "locationCode": "LJO",
+    "label": "Ljusterö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Ljustero",
+    "function": "0",
+    "lat": 59.516667,
+    "lng": 18.616667
+  },
+  {
+    "locationCode": "LOB",
+    "label": "Löberöd",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Loberod",
+    "function": "36",
+    "lat": 55.783333,
+    "lng": 13.5
+  },
+  {
+    "locationCode": "LOD",
+    "label": "Löddeköpinge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Loddekopinge",
+    "function": "136",
+    "lat": 55.766667,
+    "lng": 13.016667
+  },
+  {
+    "locationCode": "LDO",
+    "label": "Lödöse",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Lodose",
+    "function": "123",
+    "lat": 58.033333,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "LDN",
+    "label": "Lofsdalen",
+    "subdivisionCode": "Z",
+    "function": "3"
+  },
+  {
+    "locationCode": "LOF",
+    "label": "Loftahammar",
+    "subdivisionCode": "H",
+    "function": "0",
+    "lat": 57.9,
+    "lng": 16.683333
+  },
+  {
+    "locationCode": "LOM",
+    "label": "Lomma",
+    "subdivisionCode": "M",
+    "function": "123"
+  },
+  {
+    "locationCode": "LON",
+    "label": "Lönsboda",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Lonsboda",
+    "function": "23",
+    "lat": 56.4,
+    "lng": 14.316667
+  },
+  {
+    "locationCode": "LOT",
+    "label": "Löten",
+    "labelWithDiacritics": "Loten",
+    "function": "1",
+    "lat": 59.416667,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "LOU",
+    "label": "Loudden/Stockholm",
+    "subdivisionCode": "AB",
+    "function": "1"
+  },
+  {
+    "locationCode": "LVR",
+    "label": "Lövånger",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Lovanger",
+    "function": "1"
+  },
+  {
+    "locationCode": "LVS",
+    "label": "Lovestad",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 13.883333
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lövholmen",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Lovholmen",
+    "function": "1"
+  },
+  {
+    "locationCode": "LUV",
+    "label": "Ludvika",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "LUG",
+    "label": "Lugnvik",
+    "subdivisionCode": "Y",
+    "function": "1",
+    "lat": 63.283333,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "LLA",
+    "label": "Luleå",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Lulea",
+    "function": "14",
+    "lat": 65.583333,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "LUD",
+    "label": "Lund",
+    "subdivisionCode": "M",
+    "function": "23"
+  },
+  {
+    "locationCode": "LBY",
+    "label": "Lyckeby",
+    "subdivisionCode": "K",
+    "function": "3"
+  },
+  {
+    "locationCode": "LYC",
+    "label": "Lycksele",
+    "subdivisionCode": "AC",
+    "function": "4"
+  },
+  {
+    "locationCode": "LYS",
+    "label": "Lysekil",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 58.283333,
+    "lng": 11.433333
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Mala",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 65.183333,
+    "lng": 18.75
+  },
+  {
+    "locationCode": "MLR",
+    "label": "Målerås",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Maleras",
+    "function": "3",
+    "lat": 56.916667,
+    "lng": 15.566667
+  },
+  {
+    "locationCode": "SZL",
+    "label": "Målilla",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Malilla",
+    "function": "236",
+    "lat": 57.383333,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Malmback",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.583333,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "MBT",
+    "label": "Malmberget",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 67.166667,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malmby",
+    "subdivisionCode": "D",
+    "function": "23",
+    "lat": 59.333333,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "MKP",
+    "label": "Malmkoping",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 59.133333,
+    "lng": 16.733333
+  },
+  {
+    "locationCode": "MMA",
+    "label": "Malmö",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Malmo",
+    "function": "1234",
+    "lat": 55.6,
+    "lng": 13
+  },
+  {
+    "locationCode": "MMX",
+    "label": "Malmö Airport",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Malmo Airport",
+    "function": "4",
+    "lat": 55.516667,
+    "lng": 13.366667
+  },
+  {
+    "locationCode": "MLU",
+    "label": "Malung",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Mantorp",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "MRL",
+    "label": "Mariannelund",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.616667,
+    "lng": 15.566667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marieberg",
+    "function": "1"
+  },
+  {
+    "locationCode": "MRF",
+    "label": "Mariefred",
+    "subdivisionCode": "D",
+    "function": "13"
+  },
+  {
+    "locationCode": "MRH",
+    "label": "Marieholm",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Mariestad",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 58.7,
+    "lng": 13.816667
+  },
+  {
+    "locationCode": "MRK",
+    "label": "Markaryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "MST",
+    "label": "Märsta",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Marsta",
+    "function": "3"
+  },
+  {
+    "locationCode": "MSD",
+    "label": "Marstrand",
+    "subdivisionCode": "O",
+    "function": "13",
+    "lat": 57.883333,
+    "lng": 13.583333
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Marsviken",
+    "subdivisionCode": "D",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Marviken",
+    "subdivisionCode": "E",
+    "function": "1",
+    "lat": 58.55,
+    "lng": 16.833333
+  },
+  {
+    "locationCode": "MVK",
+    "label": "Maryvik",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matfors",
+    "subdivisionCode": "Y",
+    "function": "3"
+  },
+  {
+    "locationCode": "MTM",
+    "label": "Mattmar",
+    "subdivisionCode": "Z",
+    "function": "23"
+  },
+  {
+    "locationCode": "MLS",
+    "label": "Mellansel",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 63.433333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "MBS",
+    "label": "Mellbystrand",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 56.516667,
+    "lng": 12.933333
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Mellerud",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOI",
+    "label": "Mellösa",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Mellosa",
+    "function": "3",
+    "lat": 59.1,
+    "lng": 16.55
+  },
+  {
+    "locationCode": "MEM",
+    "label": "Mem",
+    "subdivisionCode": "E",
+    "function": "13"
+  },
+  {
+    "locationCode": "MJB",
+    "label": "Mjölby",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Mjolby",
+    "function": "23"
+  },
+  {
+    "locationCode": "MOO",
+    "label": "Mo",
+    "subdivisionCode": "Y",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Mockfjärd",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Mockfjard",
+    "function": "3",
+    "lat": 60.5,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "MHA",
+    "label": "Moheda",
+    "subdivisionCode": "G",
+    "function": "23",
+    "lat": 57,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "MHM",
+    "label": "Moholm",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.616667,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "MOJ",
+    "label": "Möja",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Moja",
+    "function": "0",
+    "lat": 59.4,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "SZM",
+    "label": "Möklinta",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Moklinta",
+    "function": "36",
+    "lat": 60.083333,
+    "lng": 16.533333
+  },
+  {
+    "locationCode": "MOL",
+    "label": "Molkom",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "MLE",
+    "label": "Mölle",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Molle",
+    "function": "13",
+    "lat": 56.283333,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "MLO",
+    "label": "Mollösund",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Mollosund",
+    "function": "13"
+  },
+  {
+    "locationCode": "MTP",
+    "label": "Mölltorp",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Molltorp",
+    "function": "23",
+    "lat": 58.5,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "MLB",
+    "label": "Mölnbo",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Molnbo",
+    "function": "3",
+    "lat": 59.05,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "MND",
+    "label": "Mölndal",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Molndal",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOE",
+    "label": "Mölnlycke",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Molnlycke",
+    "function": "236",
+    "lat": 57.65,
+    "lng": 12.133333
+  },
+  {
+    "locationCode": "MON",
+    "label": "Mönsterås",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Monsteras",
+    "function": "123",
+    "lat": 57.033333,
+    "lng": 16.433333
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Mora",
+    "subdivisionCode": "W",
+    "function": "23"
+  },
+  {
+    "locationCode": "MOP",
+    "label": "Mörarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Morarp",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mörbylånga",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Morbylanga",
+    "function": "1",
+    "lat": 56.516667,
+    "lng": 16.383333
+  },
+  {
+    "locationCode": "MGG",
+    "label": "Morgongåva",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Morgongava",
+    "function": "23",
+    "lat": 59.933333,
+    "lng": 16.95
+  },
+  {
+    "locationCode": "MLD",
+    "label": "Mörlunda",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Morlunda",
+    "function": "3",
+    "lat": 57.316667,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Mörrum",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Morrum",
+    "function": "3"
+  },
+  {
+    "locationCode": "MOF",
+    "label": "Mörtfors",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Mortfors",
+    "function": "3",
+    "lat": 57.516667,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "MOT",
+    "label": "Motala",
+    "subdivisionCode": "E",
+    "function": "23"
+  },
+  {
+    "locationCode": "SZN",
+    "label": "Mullhyttan",
+    "subdivisionCode": "T",
+    "function": "236",
+    "lat": 59.15,
+    "lng": 14.683333
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Mullsjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Mullsjo",
+    "function": "3",
+    "lat": 57.916667,
+    "lng": 13.883333
+  },
+  {
+    "locationCode": "MLJ",
+    "label": "Munka-Ljungby",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 12.966667
+  },
+  {
+    "locationCode": "MUK",
+    "label": "Munkedal",
+    "subdivisionCode": "O",
+    "function": "0"
+  },
+  {
+    "locationCode": "MDM",
+    "label": "Munkedalshamn",
+    "subdivisionCode": "O",
+    "function": "123"
+  },
+  {
+    "locationCode": "MNF",
+    "label": "Munkfors",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Munksund",
+    "subdivisionCode": "BD",
+    "function": "123"
+  },
+  {
+    "locationCode": "MNO",
+    "label": "Munsö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Munso",
+    "function": "3",
+    "lat": 59.416667,
+    "lng": 17.55
+  },
+  {
+    "locationCode": "MSK",
+    "label": "Muskö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Musko",
+    "function": "1",
+    "lat": 58.966667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "NAC",
+    "label": "Nacka",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "NCS",
+    "label": "Nacka Strand",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Näs",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Nas",
+    "function": "1"
+  },
+  {
+    "locationCode": "NSJ",
+    "label": "Nässjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Nassjo",
+    "function": "3",
+    "lat": 57.65,
+    "lng": 14.7
+  },
+  {
+    "locationCode": "NSM",
+    "label": "Näsum",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Nasum",
+    "function": "3",
+    "lat": 56.166667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "NVK",
+    "label": "Näsviken",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Nasviken",
+    "function": "23"
+  },
+  {
+    "locationCode": "NTY",
+    "label": "Nättraby",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Nattraby",
+    "function": "236",
+    "lat": 56.2,
+    "lng": 15.516667
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Nävekvarn",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Navekvarn",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVE",
+    "label": "Nävlinge",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Navlinge",
+    "function": "36",
+    "lat": 56.066667,
+    "lng": 13.833333
+  },
+  {
+    "locationCode": "NDE",
+    "label": "Nödinge",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Nodinge",
+    "function": "3"
+  },
+  {
+    "locationCode": "NOL",
+    "label": "Nol (ports)",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 57.916667,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "NOA",
+    "label": "Nora",
+    "subdivisionCode": "T",
+    "function": "3"
+  },
+  {
+    "locationCode": "NST",
+    "label": "Noraström",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Norastrom",
+    "function": "1",
+    "lat": 62.866667,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "NBG",
+    "label": "Norberg",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "NOG",
+    "label": "Nordmaling",
+    "subdivisionCode": "AC",
+    "function": "13",
+    "lat": 63.666667,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "NHR",
+    "label": "Norrahammar",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "NJA",
+    "label": "Norrbottens Järnverk-SSAB",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Norrbottens Jarnverk-SSAB",
+    "function": "1"
+  },
+  {
+    "locationCode": "NOR",
+    "label": "Norrbyskär",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Norrbyskar",
+    "function": "1"
+  },
+  {
+    "locationCode": "NFD",
+    "label": "Norrfjärden",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Norrfjarden",
+    "function": "3",
+    "lat": 65.416667,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "NRH",
+    "label": "Norrhult",
+    "subdivisionCode": "H",
+    "function": "23",
+    "lat": 57.533333,
+    "lng": 15.866667
+  },
+  {
+    "locationCode": "NRK",
+    "label": "Norrköping",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Norrkoping",
+    "function": "1234",
+    "lat": 58.6,
+    "lng": 16.183333
+  },
+  {
+    "locationCode": "NOT",
+    "label": "Norrsundet",
+    "subdivisionCode": "X",
+    "function": "123",
+    "lat": 60.95,
+    "lng": 17.133333
+  },
+  {
+    "locationCode": "NOE",
+    "label": "Norrtälje",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Norrtalje",
+    "function": "1",
+    "lat": 59.75,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "NSG",
+    "label": "Norsborg",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.25,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "NRS",
+    "label": "Norsborg",
+    "subdivisionCode": "D",
+    "function": "3"
+  },
+  {
+    "locationCode": "NOJ",
+    "label": "Norsjö",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Norsjo",
+    "function": "3",
+    "lat": 64.916667,
+    "lng": 19.5
+  },
+  {
+    "locationCode": "NRR",
+    "label": "Norvik",
+    "subdivisionCode": "AB",
+    "function": "13",
+    "lat": 58.933333,
+    "lng": 17.966667
+  },
+  {
+    "locationCode": "NSO",
+    "label": "Nossebro",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "NYB",
+    "label": "Nybro",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "NYG",
+    "label": "Nygård",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Nygard",
+    "function": "36",
+    "lat": 57.066667,
+    "lng": 12.233333
+  },
+  {
+    "locationCode": "NHN",
+    "label": "Nyhamn",
+    "subdivisionCode": "X",
+    "function": "1"
+  },
+  {
+    "locationCode": "NYO",
+    "label": "Nyköping",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Nykoping",
+    "function": "1234",
+    "lat": 58.916667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "NGV",
+    "label": "Nykvarn",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "NYL",
+    "label": "Nyland",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.55,
+    "lng": 16.916667
+  },
+  {
+    "locationCode": "NML",
+    "label": "Nymåla",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Nymala",
+    "function": "3",
+    "lat": 57.266667,
+    "lng": 15.933333
+  },
+  {
+    "locationCode": "NYM",
+    "label": "Nymölla",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Nymolla",
+    "function": "0"
+  },
+  {
+    "locationCode": "NYN",
+    "label": "Nynäshamn",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Nynashamn",
+    "function": "123",
+    "lat": 58.9,
+    "lng": 17.95
+  },
+  {
+    "locationCode": "NYV",
+    "label": "Nyvång",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Nyvang",
+    "function": "23",
+    "lat": 56.133333,
+    "lng": 12.9
+  },
+  {
+    "locationCode": "NYP",
+    "label": "Nyvarp",
+    "function": "0"
+  },
+  {
+    "locationCode": "OAX",
+    "label": "Oaxen",
+    "subdivisionCode": "D",
+    "function": "1"
+  },
+  {
+    "locationCode": "OBB",
+    "label": "Obbola",
+    "subdivisionCode": "AC",
+    "function": "1"
+  },
+  {
+    "locationCode": "OCK",
+    "label": "Ockelbo",
+    "subdivisionCode": "X",
+    "function": "23"
+  },
+  {
+    "locationCode": "OCO",
+    "label": "Öckerö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ockero",
+    "function": "1"
+  },
+  {
+    "locationCode": "ODA",
+    "label": "Ödåkra",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Odakra",
+    "function": "23",
+    "lat": 56.1,
+    "lng": 12.733333
+  },
+  {
+    "locationCode": "ODB",
+    "label": "Odensbacken",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 59.166667,
+    "lng": 15.533333
+  },
+  {
+    "locationCode": "ODE",
+    "label": "Ödeshög",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Odeshog",
+    "function": "3",
+    "lat": 58.216667,
+    "lng": 14.633333
+  },
+  {
+    "locationCode": "ODS",
+    "label": "Ödsmål",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Odsmal",
+    "function": "3",
+    "lat": 58.716667,
+    "lng": 11.483333
+  },
+  {
+    "locationCode": "OJY",
+    "label": "Öjebyn",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Ojebyn",
+    "function": "23",
+    "lat": 65.35,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "OJS",
+    "label": "Öjersjö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ojersjo",
+    "function": "3",
+    "lat": 57.7,
+    "lng": 12.116667
+  },
+  {
+    "locationCode": "OLO",
+    "label": "Olofström",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Olofstrom",
+    "function": "3"
+  },
+  {
+    "locationCode": "OLS",
+    "label": "Olsfors",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.7,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "OLM",
+    "label": "Ölsremma",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Olsremma",
+    "function": "3",
+    "lat": 57.616667,
+    "lng": 13.6
+  },
+  {
+    "locationCode": "OEN",
+    "label": "Ön",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "On",
+    "function": "1",
+    "lat": 59.466667,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "OTD",
+    "label": "Önnestad",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Onnestad",
+    "function": "3",
+    "lat": 56.05,
+    "lng": 14.016667
+  },
+  {
+    "locationCode": "NOS",
+    "label": "Onsala",
+    "subdivisionCode": "N",
+    "function": "6",
+    "lat": 57.416667,
+    "lng": 12.016667
+  },
+  {
+    "locationCode": "OBY",
+    "label": "Örby",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Orby",
+    "function": "3",
+    "lat": 57.483333,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "OYS",
+    "label": "Orbyhus",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 60.233333,
+    "lng": 17.7
+  },
+  {
+    "locationCode": "ORB",
+    "label": "Örebro",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Orebro",
+    "function": "4"
+  },
+  {
+    "locationCode": "OGR",
+    "label": "Öregrund",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Oregrund",
+    "function": "1"
+  },
+  {
+    "locationCode": "ORK",
+    "label": "Örkelljunga",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Orkelljunga",
+    "function": "3"
+  },
+  {
+    "locationCode": "OER",
+    "label": "Örnsköldsvik",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Ornskoldsvik",
+    "function": "1234",
+    "lat": 63.3,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "OFS",
+    "label": "Orrefors",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 56.833333,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Orsa",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "ORJ",
+    "label": "Örsjö",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Orsjo",
+    "function": "3",
+    "lat": 56.7,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "ODO",
+    "label": "Orsundsbro",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 59.733333,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "ORT",
+    "label": "Ortviken",
+    "subdivisionCode": "Y",
+    "function": "1",
+    "lat": 62.383333,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "ORV",
+    "label": "Örviken",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Orviken",
+    "function": "1"
+  },
+  {
+    "locationCode": "OSB",
+    "label": "Osby",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.366667,
+    "lng": 13.983333
+  },
+  {
+    "locationCode": "OSK",
+    "label": "Oskarshamn",
+    "subdivisionCode": "H",
+    "function": "123",
+    "lat": 57.266667,
+    "lng": 16.433333
+  },
+  {
+    "locationCode": "OSS",
+    "label": "Oskarström",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Oskarstrom",
+    "function": "3",
+    "lat": 56.8,
+    "lng": 12.966667
+  },
+  {
+    "locationCode": "OSO",
+    "label": "Ösmo",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Osmo",
+    "function": "0",
+    "lat": 58.966667,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "OYB",
+    "label": "Osterbybruk",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 60.2,
+    "lng": 17.9
+  },
+  {
+    "locationCode": "OAB",
+    "label": "Österhaninge",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Osterhaninge",
+    "function": "6",
+    "lat": 59.116667,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "OSD",
+    "label": "Östersund",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Ostersund",
+    "function": "34"
+  },
+  {
+    "locationCode": "OTV",
+    "label": "Östervåla",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Ostervala",
+    "function": "3",
+    "lat": 60.183333,
+    "lng": 17.183333
+  },
+  {
+    "locationCode": "OSH",
+    "label": "Östhammar",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Osthammar",
+    "function": "0",
+    "lat": 60.266667,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "OTK",
+    "label": "Östra Karup",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ostra Karup",
+    "function": "6",
+    "lat": 56.416667,
+    "lng": 12.95
+  },
+  {
+    "locationCode": "OSV",
+    "label": "Östra Sönnarslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ostra Sonnarslov",
+    "function": "36",
+    "lat": 55.883333,
+    "lng": 14.016667
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Östra Tommarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ostra Tommarp",
+    "function": "3",
+    "lat": 55.533333,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "OST",
+    "label": "Östrand",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Ostrand",
+    "function": "1",
+    "lat": 62.466667,
+    "lng": 17.316667
+  },
+  {
+    "locationCode": "OTT",
+    "label": "Otterbäcken",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Otterbacken",
+    "function": "123",
+    "lat": 58.95,
+    "lng": 14.033333
+  },
+  {
+    "locationCode": "OVH",
+    "label": "Överhörnäs",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Overhornas",
+    "function": "3",
+    "lat": 63.283333,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "OEV",
+    "label": "Överkalix",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Overkalix",
+    "function": "3"
+  },
+  {
+    "locationCode": "OVL",
+    "label": "Överlida",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Overlida",
+    "function": "3"
+  },
+  {
+    "locationCode": "OVE",
+    "label": "Övertorneå",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Overtornea",
+    "function": "23",
+    "lat": 66.383333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "OEM",
+    "label": "Överum",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Overum",
+    "function": "3"
+  },
+  {
+    "locationCode": "OVN",
+    "label": "Oviken",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 62.983333,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "OXE",
+    "label": "Oxelösund",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Oxelosund",
+    "function": "123",
+    "lat": 58.666667,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "OXI",
+    "label": "Oxie",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.533333,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "PRP",
+    "label": "Påarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Paarp",
+    "function": "3",
+    "lat": 56.033333,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "PJA",
+    "label": "Pajala",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 67.2,
+    "lng": 23.366667
+  },
+  {
+    "locationCode": "PSO",
+    "label": "Pålsboda",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Palsboda",
+    "function": "236",
+    "lat": 59.066667,
+    "lng": 15.35
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Partille",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Påskallavik",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Paskallavik",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHM",
+    "label": "Pataholm",
+    "subdivisionCode": "H",
+    "function": "13",
+    "lat": 56.916667,
+    "lng": 16.416667
+  },
+  {
+    "locationCode": "PPK",
+    "label": "Perstorp",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Piteå",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Pitea",
+    "function": "123",
+    "lat": 65.333333,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "PIX",
+    "label": "Pixbo/Härryda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Pixbo/Harryda",
+    "function": "23",
+    "lat": 57.65,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "POR",
+    "label": "Porjus",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 66.95,
+    "lng": 19.816667
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Råå",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Raa",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Ragunda",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63.066667,
+    "lng": 16.4
+  },
+  {
+    "locationCode": "RLO",
+    "label": "Ramlösa",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ramlosa",
+    "function": "6",
+    "lat": 51.016667,
+    "lng": 12.716667
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Ramnäs",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Ramnas",
+    "function": "3"
+  },
+  {
+    "locationCode": "RS8",
+    "label": "Ramsele",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 63.55,
+    "lng": 16.483333
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Ramvik",
+    "subdivisionCode": "Y",
+    "function": "123"
+  },
+  {
+    "locationCode": "RAQ",
+    "label": "Rånäs",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Ranas",
+    "function": "3",
+    "lat": 59.8,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "RST",
+    "label": "Ransta",
+    "subdivisionCode": "U",
+    "function": "0"
+  },
+  {
+    "locationCode": "RVK",
+    "label": "Rättvik",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Rattvik",
+    "function": "3"
+  },
+  {
+    "locationCode": "RVD",
+    "label": "Rävlanda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ravlanda",
+    "function": "3",
+    "lat": 57.65,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "REP",
+    "label": "Reftele",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "RJM",
+    "label": "Rejmyre",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.833333,
+    "lng": 15.916667
+  },
+  {
+    "locationCode": "RDD",
+    "label": "Riddarhyttan",
+    "subdivisionCode": "U",
+    "function": "6",
+    "lat": 59.8,
+    "lng": 15.55
+  },
+  {
+    "locationCode": "RIM",
+    "label": "Rimbo",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "RMF",
+    "label": "Rimforsa",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.133333,
+    "lng": 15.666667
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Ringhals",
+    "subdivisionCode": "N",
+    "function": "1",
+    "lat": 57.25,
+    "lng": 12.083333
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "0"
+  },
+  {
+    "locationCode": "RBF",
+    "label": "Robertsfors",
+    "subdivisionCode": "AC",
+    "function": "36",
+    "lat": 64.183333,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "RFS",
+    "label": "Röfors",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Rofors",
+    "function": "3",
+    "lat": 58.95,
+    "lng": 14.616667
+  },
+  {
+    "locationCode": "ROE",
+    "label": "Rone",
+    "subdivisionCode": "I",
+    "function": "3"
+  },
+  {
+    "locationCode": "RNH",
+    "label": "Ronehamn",
+    "subdivisionCode": "I",
+    "function": "1",
+    "lat": 57.166667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "RNG",
+    "label": "Rönnäng",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Ronnang",
+    "function": "13",
+    "lat": 57.933333,
+    "lng": 11.583333
+  },
+  {
+    "locationCode": "RNB",
+    "label": "Ronneby",
+    "subdivisionCode": "K",
+    "function": "1234",
+    "lat": 56.2,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "RBY",
+    "label": "Ronnebyhamn",
+    "subdivisionCode": "K",
+    "function": "123",
+    "lat": 56.183333,
+    "lng": 15.3
+  },
+  {
+    "locationCode": "ROR",
+    "label": "Rönnskär",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Ronnskar",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROV",
+    "label": "Rönnskärsverken",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Ronnskarsverken",
+    "function": "1"
+  },
+  {
+    "locationCode": "SZP",
+    "label": "Rörvik",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Rorvik",
+    "function": "236",
+    "lat": 57.233333,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "RBG",
+    "label": "Rosenborg",
+    "function": "0",
+    "lat": 59.2,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "ROF",
+    "label": "Rosenfors",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.366667,
+    "lng": 15.833333
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosersberg",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "RNX",
+    "label": "Rossön",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Rosson",
+    "function": "3",
+    "lat": 63.916667,
+    "lng": 16.316667
+  },
+  {
+    "locationCode": "RON",
+    "label": "Rossön",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Rosson",
+    "function": "3",
+    "lat": 63.933333,
+    "lng": 16.35
+  },
+  {
+    "locationCode": "ROT",
+    "label": "Rotebro",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "TTN",
+    "label": "Rottne",
+    "subdivisionCode": "G",
+    "function": "6",
+    "lat": 57.016667,
+    "lng": 14.9
+  },
+  {
+    "locationCode": "RNS",
+    "label": "Rottneros",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "RUD",
+    "label": "Ruda, Högsby",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Ruda, Hogsby",
+    "function": "23",
+    "lat": 57.1,
+    "lng": 16.116667
+  },
+  {
+    "locationCode": "SZO",
+    "label": "Rumskulla",
+    "subdivisionCode": "H",
+    "function": "36",
+    "lat": 57.666667,
+    "lng": 15.583333
+  },
+  {
+    "locationCode": "RUV",
+    "label": "Rundvik",
+    "subdivisionCode": "AC",
+    "function": "13",
+    "lat": 63.533333,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "RUR",
+    "label": "Runmarö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Runmaro",
+    "function": "0"
+  },
+  {
+    "locationCode": "RUN",
+    "label": "Runsten",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "RYZ",
+    "label": "Ryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "RYM",
+    "label": "Rydaholm",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "RWD",
+    "label": "Rydboholm",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.65,
+    "lng": 12.883333
+  },
+  {
+    "locationCode": "RYB",
+    "label": "Rydebäck",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Rydeback",
+    "function": "3",
+    "lat": 55.966667,
+    "lng": 12.766667
+  },
+  {
+    "locationCode": "RDB",
+    "label": "Rydobruk",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 53.95,
+    "lng": 13.15
+  },
+  {
+    "locationCode": "RYD",
+    "label": "Rydsgård",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Rydsgard",
+    "function": "3"
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Säffle",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Saffle",
+    "function": "123",
+    "lat": 59.133333,
+    "lng": 12.916667
+  },
+  {
+    "locationCode": "SVS",
+    "label": "Säivisnäs",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Saivisnas",
+    "function": "0",
+    "lat": 65.8,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Sala",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "SL2",
+    "label": "Sälen",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Salen",
+    "function": "3",
+    "lat": 61.15,
+    "lng": 13.266667
+  },
+  {
+    "locationCode": "SMS",
+    "label": "Salmis",
+    "subdivisionCode": "BD",
+    "function": "1"
+  },
+  {
+    "locationCode": "STL",
+    "label": "Saltkällan",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Saltkallan",
+    "function": "13"
+  },
+  {
+    "locationCode": "SBN",
+    "label": "Saltsjöbaden",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Saltsjobaden",
+    "function": "123"
+  },
+  {
+    "locationCode": "SBB",
+    "label": "Saltsjö-Boo",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Saltsjo-Boo",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRD",
+    "label": "Sandared",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.716667,
+    "lng": 12.783333
+  },
+  {
+    "locationCode": "SAE",
+    "label": "Sandarne",
+    "subdivisionCode": "X",
+    "function": "123"
+  },
+  {
+    "locationCode": "SHT",
+    "label": "Sandhult",
+    "subdivisionCode": "O",
+    "function": "36",
+    "lat": 57.766667,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "SDJ",
+    "label": "Sandsjöfors",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Sandsjofors",
+    "function": "3",
+    "lat": 57.5,
+    "lng": 14.783333
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Sandvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "STR",
+    "label": "Sandvik, Styrsö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Sandvik, Styrso",
+    "function": "13",
+    "lat": 57.616667,
+    "lng": 11.766667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandviken",
+    "subdivisionCode": "X",
+    "function": "23"
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Sankt Anna",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.35,
+    "lng": 16.7
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sankt Ibb",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.916667,
+    "lng": 12.683333
+  },
+  {
+    "locationCode": "2SK",
+    "label": "Sankt Olof",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 14.133333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Såtenäs",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Satenas",
+    "function": "3",
+    "lat": 58.433333,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Säter",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Sater",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZS",
+    "label": "Sätila",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Satila",
+    "function": "36",
+    "lat": 57.533333,
+    "lng": 12.433333
+  },
+  {
+    "locationCode": "SBV",
+    "label": "Sätra Brunn",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Satra Brunn",
+    "function": "3"
+  },
+  {
+    "locationCode": "SVR",
+    "label": "Sävar",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Savar",
+    "function": "3",
+    "lat": 63.9,
+    "lng": 20.566667
+  },
+  {
+    "locationCode": "GO7",
+    "label": "Säve",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Save",
+    "function": "3",
+    "lat": 57.8,
+    "lng": 11.916667
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Sävedalen",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Savedalen",
+    "function": "3",
+    "lat": 57.716667,
+    "lng": 12.033333
+  },
+  {
+    "locationCode": "SJQ",
+    "label": "Sävsjö",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Savsjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Segeltorp",
+    "subdivisionCode": "AB",
+    "function": "6",
+    "lat": 59.283333,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "SNN",
+    "label": "Sennan",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "SES",
+    "label": "Seskarö",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Seskaro",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRE",
+    "label": "Sexdrega",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.583333,
+    "lng": 13.116667
+  },
+  {
+    "locationCode": "SBH",
+    "label": "Sibbhult",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.266667,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "SK8",
+    "label": "Sickla",
+    "subdivisionCode": "AB",
+    "function": "2",
+    "lat": 59.3,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SGT",
+    "label": "Sigtuna",
+    "subdivisionCode": "AB",
+    "function": "123",
+    "lat": 59.616667,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Sikeå",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Sikea",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVD",
+    "label": "Silverdalen",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "SL3",
+    "label": "Simlangsdalen",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 56.716667,
+    "lng": 13.116667
+  },
+  {
+    "locationCode": "SPP",
+    "label": "Simpevarp",
+    "subdivisionCode": "H",
+    "function": "1",
+    "lat": 57.416667,
+    "lng": 16.666667
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Simrishamn",
+    "subdivisionCode": "M",
+    "function": "123",
+    "lat": 55.55,
+    "lng": 14.333333
+  },
+  {
+    "locationCode": "SJV",
+    "label": "Själevad",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Sjalevad",
+    "function": "3",
+    "lat": 63.3,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "SBO",
+    "label": "Sjöbo",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Sjobo",
+    "function": "3"
+  },
+  {
+    "locationCode": "SJB",
+    "label": "Sjöbo",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Sjobo",
+    "function": "3",
+    "lat": 55.633333,
+    "lng": 13.716667
+  },
+  {
+    "locationCode": "SOJ",
+    "label": "Sjömarken",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Sjomarken",
+    "function": "3",
+    "lat": 57.716667,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "ST2",
+    "label": "Sjötorp",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Sjotorp",
+    "function": "3",
+    "lat": 59.483333,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "SJO",
+    "label": "Sjöviken",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Sjoviken",
+    "function": "36",
+    "lat": 58.55,
+    "lng": 11.25
+  },
+  {
+    "locationCode": "SJP",
+    "label": "Sjuntorp",
+    "subdivisionCode": "O",
+    "function": "36",
+    "lat": 58.2,
+    "lng": 12.216667
+  },
+  {
+    "locationCode": "SGM",
+    "label": "Skagshamn",
+    "subdivisionCode": "Y",
+    "function": "1",
+    "lat": 63.216667,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Skalhamn",
+    "subdivisionCode": "O",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKF",
+    "label": "Skånes Fagerhult",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Skanes Fagerhult",
+    "function": "3",
+    "lat": 56.366667,
+    "lng": 13.483333
+  },
+  {
+    "locationCode": "SKG",
+    "label": "Skänninge",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Skanninge",
+    "function": "3"
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Skanör",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Skanor",
+    "function": "13",
+    "lat": 55.416667,
+    "lng": 12.85
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skåpafors",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Skapafors",
+    "function": "3"
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Skara",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Skärblacka",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Skarblacka",
+    "function": "123"
+  },
+  {
+    "locationCode": "SKM",
+    "label": "Skärhamn",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Skarhamn",
+    "function": "13",
+    "lat": 57.983333,
+    "lng": 11.55
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Skärholmen/Stockholm",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Skarholmen/Stockholm",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPG",
+    "label": "Skärplinge",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Skarplinge",
+    "function": "36",
+    "lat": 60.466667,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "SPK",
+    "label": "Skarpnäck",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Skarpnack",
+    "function": "3",
+    "lat": 59.266667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Skattkärr",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Skattkarr",
+    "function": "1",
+    "lat": 59.416667,
+    "lng": 13.633333
+  },
+  {
+    "locationCode": "KUK",
+    "label": "Skebobruk",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.966667,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "SFT",
+    "label": "Skellefteå",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Skelleftea",
+    "function": "1234",
+    "lat": 64.766667,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Skelleftehamn",
+    "subdivisionCode": "AC",
+    "function": "1",
+    "lat": 64.683333,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "SKZ",
+    "label": "Skene",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPL",
+    "label": "Skepplanda",
+    "subdivisionCode": "O",
+    "function": "36",
+    "lat": 57.983333,
+    "lng": 12.2
+  },
+  {
+    "locationCode": "SZR",
+    "label": "Skeppshult",
+    "subdivisionCode": "F",
+    "function": "236",
+    "lat": 57.116667,
+    "lng": 13.35
+  },
+  {
+    "locationCode": "SKI",
+    "label": "Skillingaryd",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "SSG",
+    "label": "Skinnskatteberg",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "XMN",
+    "label": "Skivarp",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.416667,
+    "lng": 13.566667
+  },
+  {
+    "locationCode": "SGZ",
+    "label": "Skogås",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Skogas",
+    "function": "3"
+  },
+  {
+    "locationCode": "SJL",
+    "label": "Skogen",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 63.133333,
+    "lng": 16.35
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Skoghall",
+    "subdivisionCode": "S",
+    "function": "123",
+    "lat": 59.333333,
+    "lng": 13.433333
+  },
+  {
+    "locationCode": "SGP",
+    "label": "Skogstorp/Vingåker",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Skogstorp/Vingaker",
+    "function": "3",
+    "lat": 59.15,
+    "lng": 15.916667
+  },
+  {
+    "locationCode": "SLL",
+    "label": "Sköllersta",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Skollersta",
+    "function": "3",
+    "lat": 59.15,
+    "lng": 15.333333
+  },
+  {
+    "locationCode": "SKJ",
+    "label": "Sköndal",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Skondal",
+    "function": "3",
+    "lat": 59.25,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Skönvik",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Skonvik",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Skövde",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Skovde",
+    "function": "23"
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Skredsvik",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "SUV",
+    "label": "Skruv",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.683333,
+    "lng": 15.366667
+  },
+  {
+    "locationCode": "STZ",
+    "label": "Skultuna",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Skurup",
+    "subdivisionCode": "M",
+    "function": "23"
+  },
+  {
+    "locationCode": "SKN",
+    "label": "Skuthamn",
+    "subdivisionCode": "BD",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSR",
+    "label": "Skutskär",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Skutskar",
+    "function": "123",
+    "lat": 60.633333,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "SKY",
+    "label": "Skyllberg",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 58.95,
+    "lng": 14.983333
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Slite",
+    "subdivisionCode": "I",
+    "function": "1",
+    "lat": 57.716667,
+    "lng": 18.8
+  },
+  {
+    "locationCode": "SLG",
+    "label": "Slöinge",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Sloinge",
+    "function": "23",
+    "lat": 56.85,
+    "lng": 12.683333
+  },
+  {
+    "locationCode": "SUP",
+    "label": "Slutarp",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.083333,
+    "lng": 13.516667
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Smålandsstenar",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Smalandsstenar",
+    "function": "3",
+    "lat": 57.166667,
+    "lng": 13.4
+  },
+  {
+    "locationCode": "SME",
+    "label": "Smedjebacken",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "SMO",
+    "label": "Smögen",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Smogen",
+    "function": "13"
+  },
+  {
+    "locationCode": "SO3",
+    "label": "Söderåkra",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Soderakra",
+    "function": "3",
+    "lat": 56.45,
+    "lng": 16.066667
+  },
+  {
+    "locationCode": "SDB",
+    "label": "Söderbärke",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Soderbarke",
+    "function": "3",
+    "lat": 60.083333,
+    "lng": 15.55
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Söderfors",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Soderfors",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOO",
+    "label": "Söderhamn",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Soderhamn",
+    "function": "1234"
+  },
+  {
+    "locationCode": "SOG",
+    "label": "Söderköping",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Soderkoping",
+    "function": "123"
+  },
+  {
+    "locationCode": "CSA",
+    "label": "Söderkulla",
+    "subdivisionCode": "C",
+    "labelWithDiacritics": "Soderkulla",
+    "function": "3",
+    "lat": 60.133333,
+    "lng": 17.9
+  },
+  {
+    "locationCode": "SOE",
+    "label": "Södertälje",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Sodertalje",
+    "function": "1236",
+    "lat": 59.2,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "IDJ",
+    "label": "Södertälje",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Sodertalje",
+    "function": "3",
+    "lat": 59.183333,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Södra Sandby",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Sodra Sandby",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 13.333333
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Södra Vi",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Sodra Vi",
+    "function": "3",
+    "lat": 57.75,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "SOD",
+    "label": "Södra Vika",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Sodra Vika",
+    "function": "23",
+    "lat": 60.933333,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "SBU",
+    "label": "Sollebrunn",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.116667,
+    "lng": 12.533333
+  },
+  {
+    "locationCode": "SLF",
+    "label": "Sollefteå",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Solleftea",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOA",
+    "label": "Sollentuna",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Solna",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Sölvesborg",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Solvesborg",
+    "function": "123",
+    "lat": 56.05,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Sommen",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 58.133333,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Söråker",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Soraker",
+    "function": "123",
+    "lat": 62.5,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "SRU",
+    "label": "Sorunda",
+    "subdivisionCode": "AB",
+    "function": "0",
+    "lat": 59,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "SSL",
+    "label": "Sösdala",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Sosdala",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Spånga",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Spanga",
+    "function": "23"
+  },
+  {
+    "locationCode": "SPH",
+    "label": "Sparreholm",
+    "subdivisionCode": "D",
+    "function": "23",
+    "lat": 59.066667,
+    "lng": 16.816667
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Sprängsviken",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Sprangsviken",
+    "function": "123"
+  },
+  {
+    "locationCode": "STP",
+    "label": "Staffanstorp",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "STD",
+    "label": "Ställdalen",
+    "subdivisionCode": "T",
+    "labelWithDiacritics": "Stalldalen",
+    "function": "3"
+  },
+  {
+    "locationCode": "STJ",
+    "label": "Stavsjö",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Stavsjo",
+    "function": "16",
+    "lat": 56.833333,
+    "lng": 13.8
+  },
+  {
+    "locationCode": "SGB",
+    "label": "Stegeborg",
+    "subdivisionCode": "E",
+    "function": "0",
+    "lat": 58.433333,
+    "lng": 16.583333
+  },
+  {
+    "locationCode": "SNU",
+    "label": "Stenkullen",
+    "subdivisionCode": "O",
+    "function": "23",
+    "lat": 57.783333,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "SSO",
+    "label": "Stensjö",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Stensjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "STE",
+    "label": "Stenungsund",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 58.75,
+    "lng": 11.816667
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Stigen",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.566667,
+    "lng": 12.066667
+  },
+  {
+    "locationCode": "STG",
+    "label": "Stigtomta",
+    "subdivisionCode": "D",
+    "function": "123",
+    "lat": 58.8,
+    "lng": 16.783333
+  },
+  {
+    "locationCode": "STI",
+    "label": "Stillingsön",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Stillingson",
+    "function": "7",
+    "lat": 58.2,
+    "lng": 11.85
+  },
+  {
+    "locationCode": "SJD",
+    "label": "Stjärnsund",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Stjarnsund",
+    "function": "3",
+    "lat": 60.433333,
+    "lng": 16.2
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stocka",
+    "subdivisionCode": "X",
+    "function": "1",
+    "lat": 61.883333,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "SCM",
+    "label": "Stockamöllan",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Stockamollan",
+    "function": "3",
+    "lat": 55.95,
+    "lng": 13.366667
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Stockaryd",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.316667,
+    "lng": 14.583333
+  },
+  {
+    "locationCode": "STO",
+    "label": "Stockholm",
+    "subdivisionCode": "AB",
+    "function": "12345",
+    "lat": 59.333333,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "SUD",
+    "label": "Stocksund",
+    "subdivisionCode": "AB",
+    "function": "1"
+  },
+  {
+    "locationCode": "STK",
+    "label": "Stockviksverken",
+    "subdivisionCode": "Y",
+    "function": "13",
+    "lat": 62.333333,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "SDE",
+    "label": "Stöde",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Stode",
+    "function": "23",
+    "lat": 62.416667,
+    "lng": 16.6
+  },
+  {
+    "locationCode": "SHG",
+    "label": "Stora Hoga",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.016667,
+    "lng": 11.833333
+  },
+  {
+    "locationCode": "RQT",
+    "label": "Stora Levene",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.333333,
+    "lng": 12.916667
+  },
+  {
+    "locationCode": "SRB",
+    "label": "Stora Raby",
+    "subdivisionCode": "M",
+    "function": "36",
+    "lat": 55.683333,
+    "lng": 13.216667
+  },
+  {
+    "locationCode": "SSI",
+    "label": "Stora Skedvi",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 15.8
+  },
+  {
+    "locationCode": "STV",
+    "label": "Stora Vika",
+    "subdivisionCode": "AB",
+    "function": "13",
+    "lat": 58.933333,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Storaa",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 59.7,
+    "lng": 15.1
+  },
+  {
+    "locationCode": "SRW",
+    "label": "Storebro",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 57.583333,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "SFS",
+    "label": "Storfors",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Storlien",
+    "subdivisionCode": "Z",
+    "function": "23"
+  },
+  {
+    "locationCode": "SUS",
+    "label": "Storugns",
+    "subdivisionCode": "I",
+    "function": "13",
+    "lat": 57.75,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "SMN",
+    "label": "Storuman",
+    "subdivisionCode": "AC",
+    "function": "123",
+    "lat": 65.1,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Storvik",
+    "subdivisionCode": "X",
+    "function": "23"
+  },
+  {
+    "locationCode": "KAF",
+    "label": "Strå",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Stra",
+    "function": "1",
+    "lat": 57.883333,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "STQ",
+    "label": "Strängnäs",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Strangnas",
+    "function": "123",
+    "lat": 59.383333,
+    "lng": 17.033333
+  },
+  {
+    "locationCode": "SBK",
+    "label": "Strömsbruk",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "Stromsbruk",
+    "function": "3",
+    "lat": 61.866667,
+    "lng": 17.316667
+  },
+  {
+    "locationCode": "STS",
+    "label": "Strömsnäsbruk",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Stromsnasbruk",
+    "function": "3"
+  },
+  {
+    "locationCode": "SMD",
+    "label": "Strömstad",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Stromstad",
+    "function": "123",
+    "lat": 58.933333,
+    "lng": 11.183333
+  },
+  {
+    "locationCode": "SSD",
+    "label": "Strömsund",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Stromsund",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Studsvik",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 58.766667,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "STU",
+    "label": "Stugsund",
+    "subdivisionCode": "X",
+    "function": "123",
+    "lat": 61.3,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sund",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUO",
+    "label": "Sundborn",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.65,
+    "lng": 15.766667
+  },
+  {
+    "locationCode": "SNY",
+    "label": "Sundby",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.433333,
+    "lng": 16.616667
+  },
+  {
+    "locationCode": "SUG",
+    "label": "Sundbyberg",
+    "subdivisionCode": "AB",
+    "function": "123"
+  },
+  {
+    "locationCode": "SDK",
+    "label": "Sundsbruk",
+    "subdivisionCode": "Y",
+    "function": "123",
+    "lat": 62.45,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "SDL",
+    "label": "Sundsvall",
+    "subdivisionCode": "Y",
+    "function": "134",
+    "lat": 62.383333,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "SUE",
+    "label": "Sunne",
+    "subdivisionCode": "S",
+    "function": "3"
+  },
+  {
+    "locationCode": "SUH",
+    "label": "Surahammar",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "SUR",
+    "label": "Surte",
+    "subdivisionCode": "O",
+    "function": "13",
+    "lat": 57.816667,
+    "lng": 12.016667
+  },
+  {
+    "locationCode": "SVA",
+    "label": "Svalöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Svalov",
+    "function": "23",
+    "lat": 55.916667,
+    "lng": 13.1
+  },
+  {
+    "locationCode": "VS8",
+    "label": "Svaneholm",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.616667,
+    "lng": 12.816667
+  },
+  {
+    "locationCode": "SND",
+    "label": "Svanesund",
+    "subdivisionCode": "O",
+    "function": "13",
+    "lat": 58.133333,
+    "lng": 11.833333
+  },
+  {
+    "locationCode": "SNA",
+    "label": "Svängsta",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Svangsta",
+    "function": "3"
+  },
+  {
+    "locationCode": "SVX",
+    "label": "Svanö",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Svano",
+    "function": "1"
+  },
+  {
+    "locationCode": "S2N",
+    "label": "Svanön",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Svanon",
+    "function": "0",
+    "lat": 62.9,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "SVP",
+    "label": "Svappavaara",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 67.65,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "SVO",
+    "label": "Svärdsjö",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Svardsjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Svartvik",
+    "subdivisionCode": "X",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEA",
+    "label": "Svedala",
+    "subdivisionCode": "M",
+    "function": "13"
+  },
+  {
+    "locationCode": "EVG",
+    "label": "Sveg",
+    "subdivisionCode": "Z",
+    "function": "234"
+  },
+  {
+    "locationCode": "SJA",
+    "label": "Svenljunga",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Svensbyn",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 65.3,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "SVE",
+    "label": "Svenstavik",
+    "subdivisionCode": "Z",
+    "function": "23",
+    "lat": 62.766667,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "SVI",
+    "label": "Svinesund",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "SYS",
+    "label": "Sysslebäck",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Syssleback",
+    "function": "3"
+  },
+  {
+    "locationCode": "TEG",
+    "label": "Taberg",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "TBY",
+    "label": "Täby",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Taby",
+    "function": "2"
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Tågarp",
+    "labelWithDiacritics": "Tagarp",
+    "function": "3",
+    "lat": 56.283333,
+    "lng": 13.816667
+  },
+  {
+    "locationCode": "TSB",
+    "label": "Tågsjöberg",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Tagsjoberg",
+    "function": "3",
+    "lat": 63.65,
+    "lng": 16.716667
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tandsbyn",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 63,
+    "lng": 14.75
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tångaberg",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Tangaberg",
+    "function": "3"
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanumshede",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "TEO",
+    "label": "Tarendo",
+    "subdivisionCode": "BD",
+    "function": "3",
+    "lat": 67.15,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "TAE",
+    "label": "Tärnaby",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Tarnaby",
+    "function": "3"
+  },
+  {
+    "locationCode": "TNJ",
+    "label": "Tärnsjö",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Tarnsjo",
+    "function": "6",
+    "lat": 60.15,
+    "lng": 16.933333
+  },
+  {
+    "locationCode": "TNH",
+    "label": "Tenhult",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "TIB",
+    "label": "Tibro",
+    "subdivisionCode": "O",
+    "function": "23"
+  },
+  {
+    "locationCode": "TID",
+    "label": "Tidaholm",
+    "subdivisionCode": "O",
+    "function": "23"
+  },
+  {
+    "locationCode": "TIE",
+    "label": "Tierp",
+    "subdivisionCode": "C",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZY",
+    "label": "Timmele",
+    "subdivisionCode": "O",
+    "function": "36",
+    "lat": 57.85,
+    "lng": 13.433333
+  },
+  {
+    "locationCode": "TIM",
+    "label": "Timrå",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Timra",
+    "function": "3"
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tingsryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "TJP",
+    "label": "Tjörnarp",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Tjornarp",
+    "function": "3"
+  },
+  {
+    "locationCode": "TBO",
+    "label": "Tobo",
+    "subdivisionCode": "C",
+    "function": "23",
+    "lat": 60.25,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "TKF",
+    "label": "Töcksfors",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Tocksfors",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZX",
+    "label": "Tofta",
+    "subdivisionCode": "I",
+    "function": "6",
+    "lat": 57.516667,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "TLL",
+    "label": "Tollarp",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "TJO",
+    "label": "Tollsjo",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.8,
+    "lng": 12.633333
+  },
+  {
+    "locationCode": "TOM",
+    "label": "Tomelilla",
+    "subdivisionCode": "M",
+    "function": "23"
+  },
+  {
+    "locationCode": "TTD",
+    "label": "Tomtbod",
+    "subdivisionCode": "I",
+    "function": "13",
+    "lat": 57.183333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tomteboda/Solna",
+    "subdivisionCode": "AB",
+    "function": "236",
+    "lat": 59.35,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "TOE",
+    "label": "Töre",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Tore",
+    "function": "1",
+    "lat": 65.9,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "TOB",
+    "label": "Töreboda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Toreboda",
+    "function": "3"
+  },
+  {
+    "locationCode": "TOV",
+    "label": "Torekov",
+    "subdivisionCode": "M",
+    "function": "1"
+  },
+  {
+    "locationCode": "TTP",
+    "label": "Torestorp",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 57.45,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "RUK",
+    "label": "Torpsbruk",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 14.583333
+  },
+  {
+    "locationCode": "THR",
+    "label": "Torpshammar",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 16.333333
+  },
+  {
+    "locationCode": "TSR",
+    "label": "Torsaker",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 63.066667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torsås",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Torsas",
+    "function": "3"
+  },
+  {
+    "locationCode": "TYF",
+    "label": "Torsby",
+    "subdivisionCode": "S",
+    "function": "34"
+  },
+  {
+    "locationCode": "TOA",
+    "label": "Torshälla",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Torshalla",
+    "function": "13",
+    "lat": 59.416667,
+    "lng": 16.45
+  },
+  {
+    "locationCode": "TRL",
+    "label": "Torslanda",
+    "subdivisionCode": "O",
+    "function": "0"
+  },
+  {
+    "locationCode": "TSO",
+    "label": "Torsö",
+    "subdivisionCode": "K",
+    "labelWithDiacritics": "Torso",
+    "function": "3",
+    "lat": 56,
+    "lng": 14.65
+  },
+  {
+    "locationCode": "TVK",
+    "label": "Torsvik",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "TOP",
+    "label": "Torup",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Totebo",
+    "subdivisionCode": "H",
+    "function": "23",
+    "lat": 57.633333,
+    "lng": 16.2
+  },
+  {
+    "locationCode": "TNS",
+    "label": "Tranås",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Tranas",
+    "function": "3"
+  },
+  {
+    "locationCode": "TAO",
+    "label": "Tranemo",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "TGS",
+    "label": "Trangsund",
+    "subdivisionCode": "AB",
+    "function": "6",
+    "lat": 59.233333,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Trångsviken",
+    "subdivisionCode": "Z",
+    "labelWithDiacritics": "Trangsviken",
+    "function": "23"
+  },
+  {
+    "locationCode": "TTS",
+    "label": "Transtrand",
+    "subdivisionCode": "W",
+    "function": "6",
+    "lat": 61.083333,
+    "lng": 13.316667
+  },
+  {
+    "locationCode": "TRD",
+    "label": "Traryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "TSL",
+    "label": "Träslövsläge",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Traslovslage",
+    "function": "1",
+    "lat": 57.05,
+    "lng": 12.266667
+  },
+  {
+    "locationCode": "TRR",
+    "label": "Tråvad",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Travad",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZU",
+    "label": "Trekanten",
+    "subdivisionCode": "H",
+    "function": "236",
+    "lat": 56.7,
+    "lng": 16.116667
+  },
+  {
+    "locationCode": "TRG",
+    "label": "Trelleborg",
+    "subdivisionCode": "M",
+    "function": "1",
+    "lat": 55.366667,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "THN",
+    "label": "Trollhättan",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Trollhattan",
+    "function": "1234",
+    "lat": 58.266667,
+    "lng": 12.3
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Trosa",
+    "subdivisionCode": "D",
+    "function": "0"
+  },
+  {
+    "locationCode": "TUG",
+    "label": "Tullinge",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.2,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "TUM",
+    "label": "Tumba",
+    "subdivisionCode": "AB",
+    "function": "23",
+    "lat": 59.2,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunadal",
+    "subdivisionCode": "Y",
+    "function": "123",
+    "lat": 62.4,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "TUL",
+    "label": "Tungelsta",
+    "subdivisionCode": "AB",
+    "function": "23"
+  },
+  {
+    "locationCode": "TVA",
+    "label": "Tvååker",
+    "labelWithDiacritics": "Tvaaker",
+    "function": "3",
+    "lat": 57.033333,
+    "lng": 12.383333
+  },
+  {
+    "locationCode": "TVD",
+    "label": "Tvaeraalund",
+    "subdivisionCode": "AC",
+    "function": "3",
+    "lat": 64.083333,
+    "lng": 19.666667
+  },
+  {
+    "locationCode": "TK2",
+    "label": "Tving",
+    "subdivisionCode": "K",
+    "function": "3",
+    "lat": 56.3,
+    "lng": 15.45
+  },
+  {
+    "locationCode": "TYG",
+    "label": "Tygelsjö",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Tygelsjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "TYN",
+    "label": "Tyngsjö",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "Tyngsjo",
+    "function": "3",
+    "lat": 60.3,
+    "lng": 13.883333
+  },
+  {
+    "locationCode": "TYS",
+    "label": "Tyresö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Tyreso",
+    "function": "3"
+  },
+  {
+    "locationCode": "TYR",
+    "label": "Tyringe",
+    "subdivisionCode": "M",
+    "function": "3"
+  },
+  {
+    "locationCode": "UKM",
+    "label": "Ucklum",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.083333,
+    "lng": 11.95
+  },
+  {
+    "locationCode": "UDD",
+    "label": "Uddevalla",
+    "subdivisionCode": "O",
+    "function": "123",
+    "lat": 58.366667,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "UGG",
+    "label": "Ugglarp",
+    "subdivisionCode": "N",
+    "function": "0"
+  },
+  {
+    "locationCode": "UGN",
+    "label": "Ulebergshamn",
+    "subdivisionCode": "O",
+    "function": "13"
+  },
+  {
+    "locationCode": "ULF",
+    "label": "Ulfvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "ULD",
+    "label": "Ullared",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "ULR",
+    "label": "Ulricehamn",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "UME",
+    "label": "Umeå",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Umea",
+    "function": "1234",
+    "lat": 63.833333,
+    "lng": 20.25
+  },
+  {
+    "locationCode": "UND",
+    "label": "Underås",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Underas",
+    "function": "1",
+    "lat": 59.266667,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "USK",
+    "label": "Undersaker",
+    "subdivisionCode": "Z",
+    "function": "36",
+    "lat": 63.333333,
+    "lng": 13.266667
+  },
+  {
+    "locationCode": "URD",
+    "label": "Unnaryd",
+    "subdivisionCode": "N",
+    "function": "3"
+  },
+  {
+    "locationCode": "UPL",
+    "label": "Upplands-Väsby",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Upplands-Vasby",
+    "function": "3",
+    "lat": 59.516667,
+    "lng": 17.9
+  },
+  {
+    "locationCode": "UPP",
+    "label": "Uppsala",
+    "subdivisionCode": "C",
+    "function": "123",
+    "lat": 59.866667,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "SZV",
+    "label": "Urshult",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": 56.533333,
+    "lng": 14.783333
+  },
+  {
+    "locationCode": "URS",
+    "label": "Ursviken",
+    "subdivisionCode": "AC",
+    "function": "123"
+  },
+  {
+    "locationCode": "UTA",
+    "label": "Utansjö",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Utansjo",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAC",
+    "label": "Väckelsång",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Vackelsang",
+    "function": "3",
+    "lat": 56.633333,
+    "lng": 14.916667
+  },
+  {
+    "locationCode": "VDS",
+    "label": "Väderstad",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Vaderstad",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAD",
+    "label": "Vadstena",
+    "subdivisionCode": "E",
+    "function": "3"
+  },
+  {
+    "locationCode": "VGD",
+    "label": "Vaggeryd",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "VHD",
+    "label": "Vagnhärad",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Vagnharad",
+    "function": "0"
+  },
+  {
+    "locationCode": "VAJ",
+    "label": "Väja",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Vaja",
+    "function": "123"
+  },
+  {
+    "locationCode": "VAA",
+    "label": "Vålberg",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Valberg",
+    "function": "13",
+    "lat": 59.4,
+    "lng": 13.166667
+  },
+  {
+    "locationCode": "VLB",
+    "label": "Valbo",
+    "subdivisionCode": "X",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAK",
+    "label": "Valdemarsvik",
+    "subdivisionCode": "E",
+    "function": "1"
+  },
+  {
+    "locationCode": "VLK",
+    "label": "Valla",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 59.016667,
+    "lng": 16.383333
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Vallda",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 57.466667,
+    "lng": 12
+  },
+  {
+    "locationCode": "VTA",
+    "label": "Vallentuna",
+    "subdivisionCode": "AB",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAY",
+    "label": "Vällingby",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Vallingby",
+    "function": "3",
+    "lat": 59.366667,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Vallvik",
+    "subdivisionCode": "X",
+    "function": "123",
+    "lat": 61.183333,
+    "lng": 17.183333
+  },
+  {
+    "locationCode": "VSG",
+    "label": "Valskog",
+    "subdivisionCode": "U",
+    "function": "3",
+    "lat": 59.45,
+    "lng": 15.95
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vänersborg",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vanersborg",
+    "function": "123",
+    "lat": 58.366667,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "VNS",
+    "label": "Vännäs",
+    "subdivisionCode": "AC",
+    "labelWithDiacritics": "Vannas",
+    "function": "23",
+    "lat": 63.916667,
+    "lng": 19.75
+  },
+  {
+    "locationCode": "VAO",
+    "label": "Vansbro",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAX",
+    "label": "Vara",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAG",
+    "label": "Varberg",
+    "subdivisionCode": "N",
+    "function": "123"
+  },
+  {
+    "locationCode": "VRB",
+    "label": "Vårby",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Varby",
+    "function": "1",
+    "lat": 59.25,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "VKI",
+    "label": "Varekil",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.133333,
+    "lng": 11.7
+  },
+  {
+    "locationCode": "VRG",
+    "label": "Vårgårda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vargarda",
+    "function": "3"
+  },
+  {
+    "locationCode": "VGN",
+    "label": "Vargön",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vargon",
+    "function": "123",
+    "lat": 58.366667,
+    "lng": 12.366667
+  },
+  {
+    "locationCode": "VRM",
+    "label": "Värmdö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Varmdo",
+    "function": "3",
+    "lat": 59.366667,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Värnamo",
+    "subdivisionCode": "F",
+    "labelWithDiacritics": "Varnamo",
+    "function": "23"
+  },
+  {
+    "locationCode": "VBC",
+    "label": "Väröbacka",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Varobacka",
+    "function": "23",
+    "lat": 57.25,
+    "lng": 12.183333
+  },
+  {
+    "locationCode": "VTT",
+    "label": "Vartofta",
+    "subdivisionCode": "I",
+    "function": "23",
+    "lat": 58.083333,
+    "lng": 13.616667
+  },
+  {
+    "locationCode": "VSE",
+    "label": "Väse",
+    "subdivisionCode": "S",
+    "labelWithDiacritics": "Vase",
+    "function": "3",
+    "lat": 59.383333,
+    "lng": 13.833333
+  },
+  {
+    "locationCode": "VST",
+    "label": "Västerås",
+    "subdivisionCode": "U",
+    "labelWithDiacritics": "Vasteras",
+    "function": "1234",
+    "lat": 59.616667,
+    "lng": 16.55
+  },
+  {
+    "locationCode": "VHE",
+    "label": "Västerhaninge",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Vasterhaninge",
+    "function": "3"
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Västerlanda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vasterlanda",
+    "function": "3"
+  },
+  {
+    "locationCode": "VVK",
+    "label": "Västervik",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Vastervik",
+    "function": "1234",
+    "lat": 57.75,
+    "lng": 16.633333
+  },
+  {
+    "locationCode": "VFA",
+    "label": "Västra Frölunda",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vastra Frolunda",
+    "function": "3",
+    "lat": 57.65,
+    "lng": 11.85
+  },
+  {
+    "locationCode": "VTH",
+    "label": "Västra Tunhem",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vastra Tunhem",
+    "function": "3",
+    "lat": 58.3,
+    "lng": 12.4
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vattholma",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 60.016667,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "VXH",
+    "label": "Vaxholm",
+    "subdivisionCode": "AB",
+    "function": "13",
+    "lat": 59.4,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "VXO",
+    "label": "Växjö",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Vaxjo",
+    "function": "24"
+  },
+  {
+    "locationCode": "VXT",
+    "label": "Våxtorp",
+    "subdivisionCode": "N",
+    "labelWithDiacritics": "Vaxtorp",
+    "function": "3"
+  },
+  {
+    "locationCode": "VBE",
+    "label": "Veberöd",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Veberod",
+    "function": "23",
+    "lat": 55.633333,
+    "lng": 13.483333
+  },
+  {
+    "locationCode": "VED",
+    "label": "Veddesta",
+    "subdivisionCode": "AB",
+    "function": "3",
+    "lat": 59.4,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "VDG",
+    "label": "Veddige",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 57.266667,
+    "lng": 12.316667
+  },
+  {
+    "locationCode": "6VG",
+    "label": "Vedum",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.166667,
+    "lng": 12.983333
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Vellinge",
+    "subdivisionCode": "M",
+    "function": "23",
+    "lat": 55.466667,
+    "lng": 13.033333
+  },
+  {
+    "locationCode": "VDL",
+    "label": "Vendelsö",
+    "subdivisionCode": "AB",
+    "labelWithDiacritics": "Vendelso",
+    "function": "6",
+    "lat": 59.2,
+    "lng": 18.2
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verkebäck",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Verkeback",
+    "function": "1"
+  },
+  {
+    "locationCode": "VGE",
+    "label": "Vessigebro",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": 56.966667,
+    "lng": 12.65
+  },
+  {
+    "locationCode": "VTL",
+    "label": "Vetlanda",
+    "subdivisionCode": "F",
+    "function": "3"
+  },
+  {
+    "locationCode": "VKB",
+    "label": "Vikarbyn",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 60.916667,
+    "lng": 15.016667
+  },
+  {
+    "locationCode": "VKO",
+    "label": "Vikbolandet",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.533333,
+    "lng": 16.666667
+  },
+  {
+    "locationCode": "VKN",
+    "label": "Viken",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 56.15,
+    "lng": 12.566667
+  },
+  {
+    "locationCode": "VKT",
+    "label": "Vikingstad",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 58.366667,
+    "lng": 15.45
+  },
+  {
+    "locationCode": "VIK",
+    "label": "Vikmanshyttan",
+    "subdivisionCode": "W",
+    "function": "3"
+  },
+  {
+    "locationCode": "VHM",
+    "label": "Vilhelmina",
+    "subdivisionCode": "AC",
+    "function": "4"
+  },
+  {
+    "locationCode": "VIM",
+    "label": "Vimmerby",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vindeln",
+    "subdivisionCode": "BD",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Vingåker",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Vingaker",
+    "function": "3"
+  },
+  {
+    "locationCode": "VNG",
+    "label": "Vinninga",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": 58.45,
+    "lng": 13.266667
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Vinslöv",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Vinslov",
+    "function": "3"
+  },
+  {
+    "locationCode": "VII",
+    "label": "Vintrie",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 12.966667
+  },
+  {
+    "locationCode": "VTR",
+    "label": "Vintrosa",
+    "subdivisionCode": "T",
+    "function": "36",
+    "lat": 59.25,
+    "lng": 14.95
+  },
+  {
+    "locationCode": "VRT",
+    "label": "Virestad",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": 56.616667,
+    "lng": 14.333333
+  },
+  {
+    "locationCode": "VIO",
+    "label": "Virsbo Bruk",
+    "subdivisionCode": "U",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Virserum",
+    "subdivisionCode": "H",
+    "function": "3"
+  },
+  {
+    "locationCode": "VBY",
+    "label": "Visby",
+    "subdivisionCode": "I",
+    "function": "1234",
+    "lat": 57.633333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "VKF",
+    "label": "Viskafors",
+    "subdivisionCode": "O",
+    "function": "3"
+  },
+  {
+    "locationCode": "VLN",
+    "label": "Vislanda",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "VTK",
+    "label": "Vistträsk",
+    "subdivisionCode": "BD",
+    "labelWithDiacritics": "Visttrask",
+    "function": "3",
+    "lat": 65.7,
+    "lng": 20.65
+  },
+  {
+    "locationCode": "VIT",
+    "label": "Vittaryd",
+    "subdivisionCode": "G",
+    "function": "3"
+  },
+  {
+    "locationCode": "VSJ",
+    "label": "Vittsjö",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Vittsjo",
+    "function": "3"
+  },
+  {
+    "locationCode": "VIV",
+    "label": "Vivstavarv",
+    "subdivisionCode": "X",
+    "function": "123"
+  },
+  {
+    "locationCode": "VGO",
+    "label": "Vrångö",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Vrango",
+    "function": "13",
+    "lat": 57.566667,
+    "lng": 11.783333
+  },
+  {
+    "locationCode": "VKR",
+    "label": "Vreta Kloster",
+    "function": "3",
+    "lat": 58.466667,
+    "lng": 150.5
+  },
+  {
+    "locationCode": "VSP",
+    "label": "Vretstorp",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": 59.016667,
+    "lng": 14.866667
+  },
+  {
+    "locationCode": "VRI",
+    "label": "Vrigstad",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 57.35,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Wallhamn",
+    "subdivisionCode": "O",
+    "function": "1",
+    "lat": 58.016667,
+    "lng": 11.7
+  },
+  {
+    "locationCode": "YDR",
+    "label": "Ydre",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 57.833333,
+    "lng": 15.266667
+  },
+  {
+    "locationCode": "YNG",
+    "label": "Yngsjö",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Yngsjo",
+    "function": "0",
+    "lat": 55.883333,
+    "lng": 14.216667
+  },
+  {
+    "locationCode": "YST",
+    "label": "Ystad",
+    "subdivisionCode": "M",
+    "function": "123",
+    "lat": 55.416667,
+    "lng": 13.816667
+  },
+  {
+    "locationCode": "YTT",
+    "label": "Ytterfälle/Härnösand",
+    "subdivisionCode": "Y",
+    "labelWithDiacritics": "Ytterfalle/Harnosand",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "ZGV",
+    "label": "Zinkgruvan",
+    "subdivisionCode": "E",
+    "function": "23",
+    "lat": 58.816667,
+    "lng": 15.083333
+  }
+]

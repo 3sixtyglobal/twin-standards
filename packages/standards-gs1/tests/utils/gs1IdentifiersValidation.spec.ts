@@ -1,7 +1,7 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
 import type { IValidationFailure } from "@twin.org/core";
-import { Gs1IdentifiersValidation } from "../../src/utils/gs1IdentifiersValidation";
+import { Gs1IdentifiersValidation } from "../../src/utils/gs1IdentifiersValidation.js";
 
 describe("Gs1IdentifiersValidation", () => {
 	test("Test should successfully validate EPC Class URI", async () => {

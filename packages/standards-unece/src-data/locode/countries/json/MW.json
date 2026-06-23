@@ -1,0 +1,154 @@
+[
+  {
+    "locationCode": "BLZ",
+    "label": "Blantyre",
+    "function": "4"
+  },
+  {
+    "locationCode": "CEH",
+    "label": "Chelinda",
+    "function": "4",
+    "lat": -10.583333,
+    "lng": 33.8
+  },
+  {
+    "locationCode": "CLM",
+    "label": "Chilomoni",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": -15.783333,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "CPK",
+    "label": "Chipoka",
+    "subdivisionCode": "SA",
+    "function": "136",
+    "lat": -14,
+    "lng": 34.516667
+  },
+  {
+    "locationCode": "CTP",
+    "label": "Chitipa",
+    "subdivisionCode": "CT",
+    "function": "3",
+    "lat": -9.716667,
+    "lng": 33.266667
+  },
+  {
+    "locationCode": "CMK",
+    "label": "Club Makokola",
+    "function": "4",
+    "lat": -14.3,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "DWA",
+    "label": "Dwangwa",
+    "function": "4",
+    "lat": -12.566667,
+    "lng": 38.15
+  },
+  {
+    "locationCode": "KGJ",
+    "label": "Karonga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBQ",
+    "label": "Kasungu",
+    "function": "4",
+    "lat": -13.033333,
+    "lng": 33.433333
+  },
+  {
+    "locationCode": "LIX",
+    "label": "Likoma",
+    "function": "4",
+    "lat": -12.066667,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "LLW",
+    "label": "Lilongwe",
+    "function": "45"
+  },
+  {
+    "locationCode": "LBE",
+    "label": "Limbe",
+    "function": "5"
+  },
+  {
+    "locationCode": "LUZ",
+    "label": "Luchenza",
+    "subdivisionCode": "TH",
+    "function": "3",
+    "lat": -16.016667,
+    "lng": 35.3
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Mangochi",
+    "function": "4",
+    "lat": -14.5,
+    "lng": 35.25
+  },
+  {
+    "locationCode": "MYZ",
+    "label": "Monkey Bay",
+    "function": "4",
+    "lat": -14.1,
+    "lng": 34.516667
+  },
+  {
+    "locationCode": "MU7",
+    "label": "Mulanje",
+    "subdivisionCode": "MU",
+    "function": "3",
+    "lat": -16.033333,
+    "lng": 35.5
+  },
+  {
+    "locationCode": "MZI",
+    "label": "Mzimba",
+    "subdivisionCode": "MZ",
+    "function": "3",
+    "lat": -11.9,
+    "lng": 33.6
+  },
+  {
+    "locationCode": "ZZU",
+    "label": "Mzuzu",
+    "function": "4"
+  },
+  {
+    "locationCode": "NTH",
+    "label": "Ntcheu",
+    "subdivisionCode": "NU",
+    "function": "3",
+    "lat": -14.816667,
+    "lng": 34.633333
+  },
+  {
+    "locationCode": "LMB",
+    "label": "Salima",
+    "function": "4",
+    "lat": -13.783333,
+    "lng": 34.433333
+  },
+  {
+    "locationCode": "THY",
+    "label": "Thyolo",
+    "function": "13",
+    "lat": -16.066667,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "ZOB",
+    "label": "Zomba",
+    "subdivisionCode": "ZO",
+    "function": "6",
+    "lat": -15.383333,
+    "lng": 35.333333
+  }
+]

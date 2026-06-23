@@ -4,15 +4,15 @@
 
 VDA identifiers.
 
-## Type declaration
+## Type Declaration
 
-### Obj
+### Obj {#obj}
 
 > `readonly` **Obj**: `"obj"` = `"obj"`
 
 Object.
 
-### Loc
+### Loc {#loc}
 
 > `readonly` **Loc**: `"loc"` = `"loc"`
 

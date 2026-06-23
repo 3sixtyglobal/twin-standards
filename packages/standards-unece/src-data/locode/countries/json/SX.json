@@ -1,0 +1,37 @@
+[
+  {
+    "locationCode": "CAB",
+    "label": "Cay Bay",
+    "function": "3",
+    "lat": 18.016667,
+    "lng": -63.066667
+  },
+  {
+    "locationCode": "GES",
+    "label": "Gallis Bay",
+    "function": "13",
+    "lat": 18.016667,
+    "lng": -63.066667
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marigot",
+    "function": "1",
+    "lat": 18.066667,
+    "lng": -63.066667
+  },
+  {
+    "locationCode": "PHI",
+    "label": "Philipsburg",
+    "function": "13",
+    "lat": 18.016667,
+    "lng": -63.033333
+  },
+  {
+    "locationCode": "SXM",
+    "label": "Sint-Maarten Apt",
+    "function": "145",
+    "lat": 18.05,
+    "lng": -63.116667
+  }
+]

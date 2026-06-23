@@ -4,15 +4,24 @@
 
 The contexts for VCard.
 
-## Type declaration
+## Type Declaration
 
-### Context
+### Namespace {#namespace}
+
+> `readonly` **Namespace**: `"http://www.w3.org/2006/vcard/ns#"` = `"http://www.w3.org/2006/vcard/ns#"`
+
+The canonical RDF namespace URI.
+
+### Context {#context}
 
 > `readonly` **Context**: `"http://www.w3.org/2006/vcard/ns#"` = `"http://www.w3.org/2006/vcard/ns#"`
 
-The context root for VCard.
-Based on W3C VCard Ontology.
+The value to use in @context.
+Note: Context matches Namespace (both include trailing hash) as per vCard specification.
+The vCard JSON-LD context URL format includes a trailing hash.
 
-#### See
+### JsonLdContext {#jsonldcontext}
 
-http://www.w3.org/2006/vcard/ns#
+> `readonly` **JsonLdContext**: `"http://www.w3.org/2006/vcard/ns#"` = `"http://www.w3.org/2006/vcard/ns#"`
+
+The JSON-LD Context URL.

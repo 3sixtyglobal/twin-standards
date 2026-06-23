@@ -1,0 +1,453 @@
+[
+  {
+    "locationCode": "AIG",
+    "label": "Aigua",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -34.2,
+    "lng": -54.75
+  },
+  {
+    "locationCode": "ABT",
+    "label": "Arbolito",
+    "subdivisionCode": "CL",
+    "function": "6",
+    "lat": -32.65,
+    "lng": -54.25
+  },
+  {
+    "locationCode": "ATI",
+    "label": "Artigas",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUV",
+    "label": "Bella Unión",
+    "labelWithDiacritics": "Bella Union",
+    "function": "4",
+    "lat": -30.25,
+    "lng": -57.583333
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Canelones",
+    "function": "0"
+  },
+  {
+    "locationCode": "CDN",
+    "label": "Cardona",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": -33.883333,
+    "lng": -57.383333
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carmelo",
+    "function": "1"
+  },
+  {
+    "locationCode": "CAO",
+    "label": "Carrasco",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.883333,
+    "lng": -56.05
+  },
+  {
+    "locationCode": "CHY",
+    "label": "Chuy"
+  },
+  {
+    "locationCode": "CYR",
+    "label": "Colonia",
+    "function": "14"
+  },
+  {
+    "locationCode": "CDS",
+    "label": "Colonia del Sacramento",
+    "subdivisionCode": "CO",
+    "function": "3"
+  },
+  {
+    "locationCode": "CLZ",
+    "label": "Colonia Suiza",
+    "subdivisionCode": "CO",
+    "function": "3"
+  },
+  {
+    "locationCode": "CCL",
+    "label": "Conchillas",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.15,
+    "lng": -58
+  },
+  {
+    "locationCode": "CPP",
+    "label": "Cuenca del Plata",
+    "function": "1",
+    "lat": -14.616667,
+    "lng": -44.116667
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dolores",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": -33.533333,
+    "lng": -58.183333
+  },
+  {
+    "locationCode": "DZO",
+    "label": "Durazno",
+    "function": "14"
+  },
+  {
+    "locationCode": "FDA",
+    "label": "Florida",
+    "function": "0"
+  },
+  {
+    "locationCode": "FZB",
+    "label": "Fray Bentos",
+    "function": "1"
+  },
+  {
+    "locationCode": "JCO",
+    "label": "Joanico",
+    "subdivisionCode": "CA",
+    "function": "6",
+    "lat": -34.583333,
+    "lng": -56.25
+  },
+  {
+    "locationCode": "JIT",
+    "label": "Jose Ignacio Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "JLC",
+    "label": "Juan L. Lacaze",
+    "subdivisionCode": "CO",
+    "function": "1",
+    "lat": -34.433333,
+    "lng": -57.45
+  },
+  {
+    "locationCode": "LAP",
+    "label": "La Paloma/Rocha",
+    "function": "1"
+  },
+  {
+    "locationCode": "LPZ",
+    "label": "La Paz",
+    "function": "0"
+  },
+  {
+    "locationCode": "LAG",
+    "label": "Lagomar",
+    "function": "0"
+  },
+  {
+    "locationCode": "LPS",
+    "label": "Las Piedras",
+    "function": "0"
+  },
+  {
+    "locationCode": "LSC",
+    "label": "Lascano",
+    "subdivisionCode": "RO",
+    "function": "3",
+    "lat": -33.666667,
+    "lng": -54.2
+  },
+  {
+    "locationCode": "LIB",
+    "label": "Libertad",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": -34.633333,
+    "lng": -56.616667
+  },
+  {
+    "locationCode": "MDO",
+    "label": "Maldonado",
+    "function": "0"
+  },
+  {
+    "locationCode": "MLZ",
+    "label": "Melo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MER",
+    "label": "Mercedes",
+    "function": "1"
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Minas",
+    "function": "0"
+  },
+  {
+    "locationCode": "MVD",
+    "label": "Montevideo",
+    "function": "145"
+  },
+  {
+    "locationCode": "NVH",
+    "label": "Nueva Helvecia",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.3,
+    "lng": -57.233333
+  },
+  {
+    "locationCode": "NVP",
+    "label": "Nueva Palmira",
+    "function": "1"
+  },
+  {
+    "locationCode": "NVN",
+    "label": "Nuevo Berlin",
+    "subdivisionCode": "RN",
+    "function": "6",
+    "lat": -32.983333,
+    "lng": -58.05
+  },
+  {
+    "locationCode": "OMB",
+    "label": "Ombúes de Lavalle",
+    "subdivisionCode": "CO",
+    "labelWithDiacritics": "Ombues de Lavalle",
+    "function": "3",
+    "lat": -33.916667,
+    "lng": -57.783333
+  },
+  {
+    "locationCode": "PAZ",
+    "label": "Pan de Azucar",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -34.8,
+    "lng": -55.233333
+  },
+  {
+    "locationCode": "PDO",
+    "label": "Pando",
+    "function": "0"
+  },
+  {
+    "locationCode": "PDC",
+    "label": "Paso de Carrasco",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -34.85,
+    "lng": -56.05
+  },
+  {
+    "locationCode": "PDU",
+    "label": "Paysandu",
+    "function": "14"
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Piriápolis",
+    "subdivisionCode": "MA",
+    "labelWithDiacritics": "Piriapolis",
+    "function": "1",
+    "lat": -34.866667,
+    "lng": -55.266667
+  },
+  {
+    "locationCode": "PRB",
+    "label": "Poblado Rincón de la Bolsa",
+    "labelWithDiacritics": "Poblado Rincon de la Bolsa",
+    "function": "3",
+    "lat": -31.816667,
+    "lng": -55.916667
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Progreso",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": -34.65,
+    "lng": -56.216667
+  },
+  {
+    "locationCode": "PCA",
+    "label": "Punta Carretas",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -34.916667,
+    "lng": -56.15
+  },
+  {
+    "locationCode": "PDP",
+    "label": "Punta del Este",
+    "function": "14"
+  },
+  {
+    "locationCode": "PTP",
+    "label": "Punta Pereyra",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.233333,
+    "lng": -58.066667
+  },
+  {
+    "locationCode": "RBR",
+    "label": "Rio Branco",
+    "function": "2"
+  },
+  {
+    "locationCode": "RVY",
+    "label": "Rivera",
+    "function": "4"
+  },
+  {
+    "locationCode": "RCH",
+    "label": "Rocha",
+    "function": "0"
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosario",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.316667,
+    "lng": -57.35
+  },
+  {
+    "locationCode": "STY",
+    "label": "Salto",
+    "function": "14"
+  },
+  {
+    "locationCode": "SCA",
+    "label": "San Carlos",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -34.8,
+    "lng": -54.916667
+  },
+  {
+    "locationCode": "SAO",
+    "label": "San Jacinto",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": -34.533333,
+    "lng": -55.866667
+  },
+  {
+    "locationCode": "SJS",
+    "label": "San José",
+    "labelWithDiacritics": "San Jose",
+    "function": "0"
+  },
+  {
+    "locationCode": "SJC",
+    "label": "San José de Carrasco",
+    "labelWithDiacritics": "San Jose de Carrasco",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Santa Bernardina",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": -33.366667,
+    "lng": -56.483333
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Santa Lucia",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": -34.45,
+    "lng": -56.383333
+  },
+  {
+    "locationCode": "SYM",
+    "label": "Solymar",
+    "function": "0"
+  },
+  {
+    "locationCode": "SOO",
+    "label": "Soriano",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": -33.4,
+    "lng": -58.316667
+  },
+  {
+    "locationCode": "TAW",
+    "label": "Tacuarembo",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tarariras",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.283333,
+    "lng": -57.616667
+  },
+  {
+    "locationCode": "TYT",
+    "label": "Treinta y Tres",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Trinidad",
+    "function": "0"
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valdense",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": -34.333333,
+    "lng": -57.233333
+  },
+  {
+    "locationCode": "VCH",
+    "label": "Vichadero",
+    "function": "4"
+  },
+  {
+    "locationCode": "YOG",
+    "label": "Young",
+    "subdivisionCode": "RN",
+    "function": "3",
+    "lat": -32.683333,
+    "lng": -57.633333
+  },
+  {
+    "locationCode": "ZFL",
+    "label": "Zona Franca Florida",
+    "subdivisionCode": "FD",
+    "function": "3",
+    "lat": -34.183333,
+    "lng": -56.383333
+  },
+  {
+    "locationCode": "ZLI",
+    "label": "Zona Franca Libertad",
+    "subdivisionCode": "SJ",
+    "function": "3",
+    "lat": -34.633333,
+    "lng": -56.616667
+  },
+  {
+    "locationCode": "ZFM",
+    "label": "Zona Franca Montevideo",
+    "subdivisionCode": "MO",
+    "function": "3",
+    "lat": -34.85,
+    "lng": -56.116667
+  }
+]

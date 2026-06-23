@@ -1,0 +1,75 @@
+[
+  {
+    "locationCode": "ABG",
+    "label": "Ablogamé",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Ablogame",
+    "function": "6",
+    "lat": 6.133333,
+    "lng": 1.25
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Adéti-Kopé",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Adeti-Kope",
+    "function": "6",
+    "lat": 6.35,
+    "lng": 1.2
+  },
+  {
+    "locationCode": "ANE",
+    "label": "Aného",
+    "labelWithDiacritics": "Aneho",
+    "function": "1",
+    "lat": 6.233333,
+    "lng": 1.6
+  },
+  {
+    "locationCode": "AKP",
+    "label": "Atakpamé",
+    "subdivisionCode": "P",
+    "labelWithDiacritics": "Atakpame",
+    "function": "3",
+    "lat": 7.533333,
+    "lng": 1.133333
+  },
+  {
+    "locationCode": "DPG",
+    "label": "Dapaong",
+    "function": "35",
+    "lat": 10.85,
+    "lng": 0.2
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kanté",
+    "labelWithDiacritics": "Kante",
+    "function": "3",
+    "lat": 9.95,
+    "lng": 1.033333
+  },
+  {
+    "locationCode": "KON",
+    "label": "Konpiéna",
+    "labelWithDiacritics": "Konpiena",
+    "function": "3",
+    "lat": 10.966667,
+    "lng": 0.65
+  },
+  {
+    "locationCode": "KPE",
+    "label": "Kpeme",
+    "function": "1"
+  },
+  {
+    "locationCode": "LFW",
+    "label": "Lome",
+    "function": "145"
+  },
+  {
+    "locationCode": "LRL",
+    "label": "Niamtougou - Lama-Kara",
+    "function": "4"
+  }
+]

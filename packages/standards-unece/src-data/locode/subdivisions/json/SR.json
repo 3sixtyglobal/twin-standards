@@ -1,0 +1,51 @@
+[
+  {
+    "code": "BR",
+    "label": "Brokopondo",
+    "type": "District"
+  },
+  {
+    "code": "CM",
+    "label": "Commewijne",
+    "type": "District"
+  },
+  {
+    "code": "CR",
+    "label": "Coronie",
+    "type": "District"
+  },
+  {
+    "code": "MA",
+    "label": "Marowijne",
+    "type": "District"
+  },
+  {
+    "code": "NI",
+    "label": "Nickerie",
+    "type": "District"
+  },
+  {
+    "code": "PM",
+    "label": "Paramaribo"
+  },
+  {
+    "code": "PR",
+    "label": "Para",
+    "type": "District"
+  },
+  {
+    "code": "SA",
+    "label": "Saramacca",
+    "type": "District"
+  },
+  {
+    "code": "SI",
+    "label": "Sipaliwini",
+    "type": "District"
+  },
+  {
+    "code": "WA",
+    "label": "Wanica",
+    "type": "District"
+  }
+]

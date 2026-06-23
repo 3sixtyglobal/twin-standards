@@ -1,0 +1,71 @@
+[
+  {
+    "code": "CA",
+    "label": "Zambezi",
+    "type": "Region"
+  },
+  {
+    "code": "ER",
+    "label": "Erongo",
+    "type": "Region"
+  },
+  {
+    "code": "HA",
+    "label": "Hardap",
+    "type": "Region"
+  },
+  {
+    "code": "KA",
+    "label": "//Karas",
+    "type": "Region"
+  },
+  {
+    "code": "KE",
+    "label": "Kavango East",
+    "type": "Region"
+  },
+  {
+    "code": "KH",
+    "label": "Khomas",
+    "type": "Region"
+  },
+  {
+    "code": "KU",
+    "label": "Kunene",
+    "type": "Region"
+  },
+  {
+    "code": "KW",
+    "label": "Kavango West"
+  },
+  {
+    "code": "OD",
+    "label": "Otjozondjupa",
+    "type": "Region"
+  },
+  {
+    "code": "OH",
+    "label": "Omaheke",
+    "type": "Region"
+  },
+  {
+    "code": "ON",
+    "label": "Oshana",
+    "type": "Region"
+  },
+  {
+    "code": "OS",
+    "label": "Omusati",
+    "type": "Region"
+  },
+  {
+    "code": "OT",
+    "label": "Oshikoto",
+    "type": "Region"
+  },
+  {
+    "code": "OW",
+    "label": "Ohangwena",
+    "type": "Region"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "locationCode": "BRI",
+    "label": "Bride",
+    "function": "6",
+    "lat": 54.383333,
+    "lng": -4.383333
+  },
+  {
+    "locationCode": "CTN",
+    "label": "Castletown",
+    "function": "13",
+    "lat": 54.083333,
+    "lng": -4.65
+  },
+  {
+    "locationCode": "DGS",
+    "label": "Douglas",
+    "function": "13",
+    "lat": 54.166667,
+    "lng": -4.483333
+  },
+  {
+    "locationCode": "JBY",
+    "label": "Jurby",
+    "function": "3",
+    "lat": 54.35,
+    "lng": -4.533333
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirkmichale",
+    "function": "3",
+    "lat": 54.283333,
+    "lng": -4.583333
+  },
+  {
+    "locationCode": "7MI",
+    "label": "Maughold",
+    "function": "3",
+    "lat": 54.3,
+    "lng": -4.316667
+  },
+  {
+    "locationCode": "OHN",
+    "label": "Onchan",
+    "function": "3",
+    "lat": 54.183333,
+    "lng": -4.45
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Peel",
+    "function": "13",
+    "lat": 54.216667,
+    "lng": -4.766667
+  },
+  {
+    "locationCode": "PER",
+    "label": "Port Erin",
+    "function": "13",
+    "lat": 54.083333,
+    "lng": -4.766667
+  },
+  {
+    "locationCode": "PSM",
+    "label": "Port Saint Mary",
+    "function": "1",
+    "lat": 54.066667,
+    "lng": -4.733333
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Ramsey",
+    "function": "13",
+    "lat": 54.316667,
+    "lng": -4.383333
+  },
+  {
+    "locationCode": "IOM",
+    "label": "Ronaldsway Apt",
+    "function": "4",
+    "lat": 54.25,
+    "lng": -4.5
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Santon",
+    "function": "16",
+    "lat": 54.116667,
+    "lng": -4.583333
+  }
+]

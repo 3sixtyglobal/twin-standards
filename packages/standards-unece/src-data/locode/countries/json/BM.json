@@ -1,0 +1,73 @@
+[
+  {
+    "locationCode": "SEV",
+    "label": "Devonshire",
+    "function": "1",
+    "lat": 32.3,
+    "lng": -64.75
+  },
+  {
+    "locationCode": "FPT",
+    "label": "Freeport",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDA",
+    "label": "Hamilton",
+    "function": "145"
+  },
+  {
+    "locationCode": "HBI",
+    "label": "Harbour Island",
+    "function": "1",
+    "lat": 25.5,
+    "lng": -76.633333
+  },
+  {
+    "locationCode": "KWF",
+    "label": "Kings Wharf",
+    "function": "13"
+  },
+  {
+    "locationCode": "PA5",
+    "label": "Paget Parish",
+    "function": "3",
+    "lat": 32.283333,
+    "lng": -64.766667
+  },
+  {
+    "locationCode": "5PE",
+    "label": "Pembroke",
+    "function": "3",
+    "lat": 32.3,
+    "lng": -64.766667
+  },
+  {
+    "locationCode": "SGE",
+    "label": "Saint George",
+    "function": "1",
+    "lat": 32.383333,
+    "lng": -64.683333
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandys",
+    "function": "1",
+    "lat": 32.3,
+    "lng": -64.866667
+  },
+  {
+    "locationCode": "SOU",
+    "label": "Southampton",
+    "function": "1",
+    "lat": 32.25,
+    "lng": -64.85
+  },
+  {
+    "locationCode": "WA7",
+    "label": "Warwick",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": -64.8
+  }
+]

@@ -1,10 +1,9 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { Is, type IValidationFailure, Urn, Validation } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
-import type { IEPCClassUri } from "../models/epc/IEPCClassUri";
-import { Gs1IdTypes } from "../models/gs1/gs1IdTypes";
+import type { IEPCClassUri } from "../models/epc/IEPCClassUri.js";
+import { Gs1IdTypes } from "../models/gs1/gs1IdTypes.js";
 
 /**
  * Validation for GS1 identifiers.
@@ -42,7 +41,6 @@ export class Gs1IdentifiersValidation {
 				);
 
 				if (isValid) {
-					// eslint-disable-next-line default-case
 					switch (specificParts[1]) {
 						case Gs1IdTypes.Gtin:
 							Gs1IdentifiersValidation.epcIdGtin(propertyName, urn, failures);
@@ -179,7 +177,7 @@ export class Gs1IdentifiersValidation {
 	public static extractEpcClassUri(epc: string): IEPCClassUri | undefined {
 		const parts = /^urn:epc:class:lgtin:(\d+)\.(\d+)\.([\w!%'()*+,-.:;=]+)/.exec(epc);
 
-		if (parts && parts.length === 4 && parts[1].length + parts[2].length === 13) {
+		if (parts?.length === 4 && parts[1].length + parts[2].length === 13) {
 			return {
 				companyPrefix: parts[1],
 				itemRefAndIndicator: parts[2],

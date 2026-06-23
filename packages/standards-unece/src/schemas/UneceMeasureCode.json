@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceMeasureCode",
+	"title": "UneceMeasureCode",
+	"description": "RDF Class for MeasureType unit code type to define unit code values.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "MeasureCode",
+			"description": "JSON-LD Type."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0.
 import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import type { IJwk } from "@twin.org/web";
-import type { IProof } from "./IProof";
+import type { IProof } from "./IProof.js";
 
 /**
  * Interface describing a proof signer and verifier.

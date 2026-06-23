@@ -1,0 +1,78 @@
+[
+  {
+    "locationCode": "ALA",
+    "label": "Alamedin",
+    "function": "23",
+    "lat": 42.9,
+    "lng": 74.633333
+  },
+  {
+    "locationCode": "BYK",
+    "label": "Balykchy",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 42.45,
+    "lng": 76.166667
+  },
+  {
+    "locationCode": "FRU",
+    "label": "Bishkek (ex Frunze)",
+    "subdivisionCode": "GB",
+    "function": "234",
+    "lat": 42.866667,
+    "lng": 74.6
+  },
+  {
+    "locationCode": "JLD",
+    "label": "Jalal-Abad",
+    "subdivisionCode": "J",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 73
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Kant",
+    "subdivisionCode": "C",
+    "function": "5",
+    "lat": 42.883333,
+    "lng": 74.833333
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kara-Balta",
+    "subdivisionCode": "C",
+    "function": "5",
+    "lat": 42.816667,
+    "lng": 73.85
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manas International Apt",
+    "subdivisionCode": "GB",
+    "function": "34",
+    "lat": 43.066667,
+    "lng": 74.483333
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Naryn",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 41.416667,
+    "lng": 76
+  },
+  {
+    "locationCode": "OSS",
+    "label": "Osh",
+    "function": "24"
+  },
+  {
+    "locationCode": "RBC",
+    "label": "Rybacje",
+    "subdivisionCode": "Y",
+    "function": "3",
+    "lat": 42.466667,
+    "lng": 76.166667
+  }
+]

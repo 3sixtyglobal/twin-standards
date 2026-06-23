@@ -1,0 +1,203 @@
+[
+  {
+    "locationCode": "BFT",
+    "label": "Bellefontaine",
+    "function": "3",
+    "lat": 14.666667,
+    "lng": -61.15
+  },
+  {
+    "locationCode": "WF3",
+    "label": "Case-Pilote",
+    "function": "13",
+    "lat": 14.633333,
+    "lng": -61.133333
+  },
+  {
+    "locationCode": "DUC",
+    "label": "Ducos",
+    "function": "3",
+    "lat": 14.55,
+    "lng": -60.983333
+  },
+  {
+    "locationCode": "FSD",
+    "label": "Fonds-Saint-Denis",
+    "function": "3",
+    "lat": 14.733333,
+    "lng": -61.133333
+  },
+  {
+    "locationCode": "FDF",
+    "label": "Fort-de-France",
+    "function": "1345",
+    "lat": 14.6,
+    "lng": -61.05
+  },
+  {
+    "locationCode": "GME",
+    "label": "Gros-Morne",
+    "function": "3",
+    "lat": 14.7,
+    "lng": -61
+  },
+  {
+    "locationCode": "LAT",
+    "label": "La Trinité",
+    "labelWithDiacritics": "La Trinite",
+    "function": "3",
+    "lat": 14.733333,
+    "lng": -60.966667
+  },
+  {
+    "locationCode": "LEC",
+    "label": "Le Carbet",
+    "function": "3",
+    "lat": 14.7,
+    "lng": -61.183333
+  },
+  {
+    "locationCode": "DMT",
+    "label": "Le Diamant",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": -61.033333
+  },
+  {
+    "locationCode": "LFR",
+    "label": "Le François",
+    "labelWithDiacritics": "Le Francois",
+    "function": "25",
+    "lat": 14.616667,
+    "lng": -60.883333
+  },
+  {
+    "locationCode": "LMT",
+    "label": "Le Lamentin",
+    "function": "345",
+    "lat": 14.6,
+    "lng": -61
+  },
+  {
+    "locationCode": "LLO",
+    "label": "Le Lorrain",
+    "function": "3",
+    "lat": 14.833333,
+    "lng": -61.066667
+  },
+  {
+    "locationCode": "PFI",
+    "label": "Le Marigot",
+    "function": "13",
+    "lat": 14.816667,
+    "lng": -61.033333
+  },
+  {
+    "locationCode": "QMR",
+    "label": "Le Marin",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": -60.866667
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Le Morne-Rouge",
+    "function": "3",
+    "lat": 14.766667,
+    "lng": -61.133333
+  },
+  {
+    "locationCode": "SF4",
+    "label": "Le Precheur",
+    "function": "13",
+    "lat": 14.8,
+    "lng": -61.233333
+  },
+  {
+    "locationCode": "LER",
+    "label": "Le Robert",
+    "function": "13",
+    "lat": 14.666667,
+    "lng": -60.933333
+  },
+  {
+    "locationCode": "KF4",
+    "label": "Le Vauclin",
+    "function": "13",
+    "lat": 14.55,
+    "lng": -60.85
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Les Anses-d'Arlet",
+    "function": "13",
+    "lat": 14.483333,
+    "lng": -61.083333
+  },
+  {
+    "locationCode": "LTI",
+    "label": "Les Trois-Îlets",
+    "labelWithDiacritics": "Les Trois-Ilets",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": -61.033333
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Macouba",
+    "function": "3",
+    "lat": 14.866667,
+    "lng": -61.133333
+  },
+  {
+    "locationCode": "QPC",
+    "label": "Port de Fort-de-France Pt.",
+    "function": "13",
+    "lat": 14.6,
+    "lng": -61.05
+  },
+  {
+    "locationCode": "RPT",
+    "label": "Rivière-Pilote",
+    "labelWithDiacritics": "Riviere-Pilote",
+    "function": "3",
+    "lat": 14.483333,
+    "lng": -60.9
+  },
+  {
+    "locationCode": "STA",
+    "label": "Sainte-Anne",
+    "function": "3",
+    "lat": 14.433333,
+    "lng": -60.883333
+  },
+  {
+    "locationCode": "STM",
+    "label": "Sainte-Marie",
+    "function": "3",
+    "lat": 14.783333,
+    "lng": -60.983333
+  },
+  {
+    "locationCode": "SJO",
+    "label": "Saint-Joseph",
+    "function": "3",
+    "lat": 14.666667,
+    "lng": -61.033333
+  },
+  {
+    "locationCode": "SPI",
+    "label": "Saint-Pierre",
+    "function": "0",
+    "lat": 14.75,
+    "lng": -61.166667
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Schlcher",
+    "labelWithDiacritics": "Scholcher",
+    "function": "5",
+    "lat": 14.6,
+    "lng": -61.1
+  }
+]

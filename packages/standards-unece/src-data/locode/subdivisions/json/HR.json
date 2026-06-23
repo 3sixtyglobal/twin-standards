@@ -1,0 +1,107 @@
+[
+  {
+    "code": "01",
+    "label": "Zagrebacka upanija",
+    "type": "County"
+  },
+  {
+    "code": "02",
+    "label": "Krapinsko-zagorska upanija",
+    "type": "County"
+  },
+  {
+    "code": "03",
+    "label": "Sisacko-moslavacka upanija",
+    "type": "County"
+  },
+  {
+    "code": "04",
+    "label": "Karlovacka upanija",
+    "type": "County"
+  },
+  {
+    "code": "05",
+    "label": "Varadinska upanija",
+    "type": "County"
+  },
+  {
+    "code": "06",
+    "label": "Koprivnicko-krievacka upanija",
+    "type": "County"
+  },
+  {
+    "code": "07",
+    "label": "Bjelovarsko-bilogorska upanija",
+    "type": "County"
+  },
+  {
+    "code": "08",
+    "label": "Primorsko-goranska upanija",
+    "type": "County"
+  },
+  {
+    "code": "09",
+    "label": "Licko-senjska upanija",
+    "type": "County"
+  },
+  {
+    "code": "10",
+    "label": "Viroviticko-podravska upanija",
+    "type": "County"
+  },
+  {
+    "code": "11",
+    "label": "Poeko-slavonska upanija",
+    "type": "County"
+  },
+  {
+    "code": "12",
+    "label": "Brodsko-posavska upanija",
+    "type": "County"
+  },
+  {
+    "code": "13",
+    "label": "Zadarska upanija",
+    "type": "County"
+  },
+  {
+    "code": "14",
+    "label": "Osjecko-baranjska upanija",
+    "type": "County"
+  },
+  {
+    "code": "15",
+    "label": "ibensko-kninska upanija",
+    "type": "County"
+  },
+  {
+    "code": "16",
+    "label": "Vukovarsko-srijemska upanija",
+    "type": "County"
+  },
+  {
+    "code": "17",
+    "label": "Splitsko-dalmatinska upanija",
+    "type": "County"
+  },
+  {
+    "code": "18",
+    "label": "Istarska upanija",
+    "type": "County"
+  },
+  {
+    "code": "19",
+    "label": "Dubrovacko-neretvanska upanija",
+    "type": "County"
+  },
+  {
+    "code": "20",
+    "label": "Medimurska upanija",
+    "type": "County"
+  },
+  {
+    "code": "21",
+    "label": "Grad Zagreb",
+    "type": "City"
+  }
+]

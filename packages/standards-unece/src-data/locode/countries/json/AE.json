@@ -1,0 +1,538 @@
+[
+  {
+    "locationCode": "ABU",
+    "label": "Abu al Bukhoosh",
+    "function": "1",
+    "lat": 25.483333,
+    "lng": 53.133333
+  },
+  {
+    "locationCode": "AUH",
+    "label": "Abu Dhabi",
+    "subdivisionCode": "AZ",
+    "function": "1345",
+    "lat": 24.466667,
+    "lng": 54.366667
+  },
+  {
+    "locationCode": "AMU",
+    "label": "Abu Musa",
+    "function": "1",
+    "lat": 25.866667,
+    "lng": 55.016667
+  },
+  {
+    "locationCode": "ARP",
+    "label": "Ahmed Bin Rashid Port",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 25.533333,
+    "lng": 55.55
+  },
+  {
+    "locationCode": "AJM",
+    "label": "Ajman",
+    "function": "13"
+  },
+  {
+    "locationCode": "AAN",
+    "label": "Al Ain",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWE",
+    "label": "Al Aweer",
+    "subdivisionCode": "DU",
+    "function": "23",
+    "lat": 25.183333,
+    "lng": 55.55
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Al Barsha",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 25.1,
+    "lng": 55.183333
+  },
+  {
+    "locationCode": "DHF",
+    "label": "Al Dhafra",
+    "function": "34",
+    "lat": 24.233333,
+    "lng": 54.533333
+  },
+  {
+    "locationCode": "FJR",
+    "label": "Al Fujayrah",
+    "subdivisionCode": "FU",
+    "function": "14",
+    "lat": 25.116667,
+    "lng": 56.333333
+  },
+  {
+    "locationCode": "HAM",
+    "label": "Al Hamriyah",
+    "function": "3",
+    "lat": 25.483333,
+    "lng": 55.5
+  },
+  {
+    "locationCode": "JAZ",
+    "label": "Al Jazeera Port",
+    "subdivisionCode": "RK",
+    "function": "1",
+    "lat": 25.716667,
+    "lng": 55.8
+  },
+  {
+    "locationCode": "AJP",
+    "label": "Al Jeer Port",
+    "subdivisionCode": "RK",
+    "function": "13",
+    "lat": 26.033333,
+    "lng": 56.05
+  },
+  {
+    "locationCode": "DBI",
+    "label": "Al Mafraq",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 24.3,
+    "lng": 54.6
+  },
+  {
+    "locationCode": "ALQ",
+    "label": "Al Quoz",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 25.116667,
+    "lng": 55.216667
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Al Sufouh",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 25.116667,
+    "lng": 55.183333
+  },
+  {
+    "locationCode": "RUW",
+    "label": "Ar Ruways",
+    "function": "1",
+    "lat": 24.116667,
+    "lng": 52.733333
+  },
+  {
+    "locationCode": "ARZ",
+    "label": "Arzanah Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "DAS",
+    "label": "Das Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "DER",
+    "label": "Deira",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 25.266667,
+    "lng": 55.316667
+  },
+  {
+    "locationCode": "DBP",
+    "label": "Dibba",
+    "subdivisionCode": "SH",
+    "function": "13",
+    "lat": 25.616667,
+    "lng": 56.266667
+  },
+  {
+    "locationCode": "DXB",
+    "label": "Dubai",
+    "subdivisionCode": "DU",
+    "function": "1345",
+    "lat": 25.25,
+    "lng": 55.266667
+  },
+  {
+    "locationCode": "DWC",
+    "label": "Dubai World Central Apt",
+    "function": "34",
+    "lat": 24.883333,
+    "lng": 55.166667
+  },
+  {
+    "locationCode": "END",
+    "label": "Esnnad",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 24.316667,
+    "lng": 54.45
+  },
+  {
+    "locationCode": "FAT",
+    "label": "Fateh Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "FRP",
+    "label": "Free Port",
+    "subdivisionCode": "DU",
+    "function": "1",
+    "lat": 25.25,
+    "lng": 55.25
+  },
+  {
+    "locationCode": "HAB",
+    "label": "Habshan",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 23.933333,
+    "lng": 53.633333
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hail",
+    "subdivisionCode": "AZ",
+    "function": "7",
+    "lat": 35,
+    "lng": 33.5
+  },
+  {
+    "locationCode": "HZP",
+    "label": "Hamriya Free Zone Port",
+    "subdivisionCode": "DU",
+    "function": "1",
+    "lat": 25.3,
+    "lng": 55.316667
+  },
+  {
+    "locationCode": "HSN",
+    "label": "Hassyan",
+    "subdivisionCode": "DU",
+    "function": "13",
+    "lat": 24.9,
+    "lng": 54.9
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatta",
+    "subdivisionCode": "DU",
+    "function": "3",
+    "lat": 24.783333,
+    "lng": 56.116667
+  },
+  {
+    "locationCode": "HTL",
+    "label": "Hulaylah Terminal",
+    "function": "1",
+    "lat": 25.983333,
+    "lng": 55.933333
+  },
+  {
+    "locationCode": "IND",
+    "label": "Indooroodilly",
+    "function": "3"
+  },
+  {
+    "locationCode": "JEA",
+    "label": "Jebel Ali",
+    "function": "1"
+  },
+  {
+    "locationCode": "QWE",
+    "label": "Jebel Ali Free Zone",
+    "subdivisionCode": "DU",
+    "function": "13",
+    "lat": 25,
+    "lng": 55.05
+  },
+  {
+    "locationCode": "SZE",
+    "label": "Jebel Ali Free Zone (South)",
+    "subdivisionCode": "DU",
+    "function": "36",
+    "lat": 24.95,
+    "lng": 55.116667
+  },
+  {
+    "locationCode": "IDA",
+    "label": "Jebel Ali Industrial Area",
+    "subdivisionCode": "DU",
+    "function": "36",
+    "lat": 25,
+    "lng": 55.116667
+  },
+  {
+    "locationCode": "JED",
+    "label": "Jebel Dhanna",
+    "function": "1"
+  },
+  {
+    "locationCode": "JYH",
+    "label": "Jumayrah",
+    "function": "3",
+    "lat": 25.166667,
+    "lng": 55.216667
+  },
+  {
+    "locationCode": "KLB",
+    "label": "Kalba",
+    "function": "13",
+    "lat": 25.066667,
+    "lng": 56.35
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khalidia",
+    "function": "3"
+  },
+  {
+    "locationCode": "KLF",
+    "label": "Khor al Fakkan",
+    "function": "1",
+    "lat": 25.333333,
+    "lng": 56.35
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masfut",
+    "function": "0"
+  },
+  {
+    "locationCode": "MKH",
+    "label": "Mina Khalid",
+    "subdivisionCode": "SH",
+    "function": "13",
+    "lat": 25.35,
+    "lng": 55.366667
+  },
+  {
+    "locationCode": "KHL",
+    "label": "Mina Khalifa/Abu Dhabi",
+    "function": "1",
+    "lat": 24.833333,
+    "lng": 54.666667
+  },
+  {
+    "locationCode": "MRP",
+    "label": "Mina Rashid Port",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 25.266667,
+    "lng": 55.283333
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Mina Saqr",
+    "subdivisionCode": "RK",
+    "function": "1",
+    "lat": 25.966667,
+    "lng": 56.066667
+  },
+  {
+    "locationCode": "MZD",
+    "label": "Mina Zayed/Abu Dhabi",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 24.516667,
+    "lng": 54.366667
+  },
+  {
+    "locationCode": "NHD",
+    "label": "Minhad",
+    "function": "4"
+  },
+  {
+    "locationCode": "RFA",
+    "label": "Mirfa",
+    "subdivisionCode": "AZ",
+    "function": "16",
+    "lat": 25.466667,
+    "lng": 53.483333
+  },
+  {
+    "locationCode": "MUB",
+    "label": "Mubarek Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MBS",
+    "label": "Mubarras Island",
+    "function": "1",
+    "lat": 24.583333,
+    "lng": 53.316667
+  },
+  {
+    "locationCode": "FMZ",
+    "label": "Musafa",
+    "function": "0"
+  },
+  {
+    "locationCode": "AMF",
+    "label": "Musaffah",
+    "subdivisionCode": "AZ",
+    "function": "13",
+    "lat": 24.383333,
+    "lng": 54.483333
+  },
+  {
+    "locationCode": "OFJ",
+    "label": "Offshore Fujairah",
+    "function": "7",
+    "lat": 25.25,
+    "lng": 56.666667
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Port Rashid",
+    "function": "1"
+  },
+  {
+    "locationCode": "RKP",
+    "label": "Rak Khor Port",
+    "subdivisionCode": "RK",
+    "function": "1",
+    "lat": 25.816667,
+    "lng": 55.95
+  },
+  {
+    "locationCode": "RMC",
+    "label": "Rak Maritime City",
+    "subdivisionCode": "RK",
+    "function": "1",
+    "lat": 25.95,
+    "lng": 56.05
+  },
+  {
+    "locationCode": "RKT",
+    "label": "Ras al Khaimah",
+    "function": "14",
+    "lat": 25.783333,
+    "lng": 55.95
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Ras Al Khor",
+    "subdivisionCode": "DU",
+    "function": "6",
+    "lat": 25.283333,
+    "lng": 55.566667
+  },
+  {
+    "locationCode": "DUY",
+    "label": "Ras Zubbaya (Ras Dubayyah)",
+    "function": "0"
+  },
+  {
+    "locationCode": "REI",
+    "label": "Reem Island",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 24.483333,
+    "lng": 54.4
+  },
+  {
+    "locationCode": "RWP",
+    "label": "Ruwais Port",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 24.1,
+    "lng": 52.716667
+  },
+  {
+    "locationCode": "SID",
+    "label": "Sadiyat Island",
+    "function": "1",
+    "lat": 24.533333,
+    "lng": 54.4
+  },
+  {
+    "locationCode": "SZS",
+    "label": "Saif Zone",
+    "subdivisionCode": "SH",
+    "function": "36",
+    "lat": 25.333333,
+    "lng": 55.483333
+  },
+  {
+    "locationCode": "SHJ",
+    "label": "Sharjah",
+    "subdivisionCode": "SH",
+    "function": "134",
+    "lat": 25.35,
+    "lng": 55.383333
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Sila",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 24.066667,
+    "lng": 51.75
+  },
+  {
+    "locationCode": "SRT",
+    "label": "Stevin Rock",
+    "subdivisionCode": "RK",
+    "function": "6",
+    "lat": 25.966667,
+    "lng": 56.05
+  },
+  {
+    "locationCode": "SWE",
+    "label": "Swaihan",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 24.45,
+    "lng": 55.333333
+  },
+  {
+    "locationCode": "DUJ",
+    "label": "The Palm Jumeirah",
+    "subdivisionCode": "DU",
+    "function": "1"
+  },
+  {
+    "locationCode": "ULR",
+    "label": "Umm Al Nar",
+    "function": "1",
+    "lat": 24.433333,
+    "lng": 54.5
+  },
+  {
+    "locationCode": "QIW",
+    "label": "Umm al Quwain",
+    "function": "14",
+    "lat": 25.583333,
+    "lng": 55.583333
+  },
+  {
+    "locationCode": "VHT",
+    "label": "Vopak Horizion Terminal",
+    "subdivisionCode": "RK",
+    "function": "6",
+    "lat": 25.616667,
+    "lng": 56.266667
+  },
+  {
+    "locationCode": "YAS",
+    "label": "Yas Island",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 24.316667,
+    "lng": 52.6
+  },
+  {
+    "locationCode": "ZUR",
+    "label": "Zirku Island",
+    "subdivisionCode": "AZ",
+    "function": "1",
+    "lat": 24.883333,
+    "lng": 53.066667
+  }
+]

@@ -1,0 +1,360 @@
+[
+  {
+    "locationCode": "ABA",
+    "label": "Aboa",
+    "function": "1",
+    "lat": -73.05,
+    "lng": -13.416667
+  },
+  {
+    "locationCode": "AMS",
+    "label": "Amundsen-Scott",
+    "function": "3",
+    "lat": -89.983333,
+    "lng": 139.266667
+  },
+  {
+    "locationCode": "ARC",
+    "label": "Arctowski",
+    "function": "1",
+    "lat": -62.15,
+    "lng": -58.466667
+  },
+  {
+    "locationCode": "ART",
+    "label": "Artigas",
+    "function": "1",
+    "lat": -62.183333,
+    "lng": -58.9
+  },
+  {
+    "locationCode": "APT",
+    "label": "Arturo Prat",
+    "function": "1",
+    "lat": -62.5,
+    "lng": -59.683333
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belgrano II",
+    "function": "3",
+    "lat": -77.866667,
+    "lng": -34.616667
+  },
+  {
+    "locationCode": "BHN",
+    "label": "Bellingshausen",
+    "function": "1",
+    "lat": -62.183333,
+    "lng": -58.95
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Casey Station",
+    "function": "1",
+    "lat": -66.283333,
+    "lng": 110.516667
+  },
+  {
+    "locationCode": "CFZ",
+    "label": "Comandante Ferraz",
+    "function": "1",
+    "lat": -62.083333,
+    "lng": -58.383333
+  },
+  {
+    "locationCode": "CON",
+    "label": "Concordia",
+    "function": "3",
+    "lat": -75.1,
+    "lng": 123.383333
+  },
+  {
+    "locationCode": "DAV",
+    "label": "Davis Station",
+    "function": "1",
+    "lat": -68.566667,
+    "lng": 77.966667
+  },
+  {
+    "locationCode": "DMF",
+    "label": "Dome Fuji",
+    "function": "3",
+    "lat": -77.316667,
+    "lng": 39.7
+  },
+  {
+    "locationCode": "DRZ",
+    "label": "Druzhnaya 4",
+    "function": "3",
+    "lat": -69.733333,
+    "lng": 73.7
+  },
+  {
+    "locationCode": "DDU",
+    "label": "Dumont d'Urville Station",
+    "function": "1",
+    "lat": -66.65,
+    "lng": 140
+  },
+  {
+    "locationCode": "ESC",
+    "label": "Escudero",
+    "function": "1",
+    "lat": -62.2,
+    "lng": -58.95
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Esperanza",
+    "function": "1",
+    "lat": -63.383333,
+    "lng": -56.983333
+  },
+  {
+    "locationCode": "GDC",
+    "label": "Gabriel de Castilla",
+    "function": "3",
+    "lat": -62.983333,
+    "lng": -60.683333
+  },
+  {
+    "locationCode": "OHG",
+    "label": "General Bernardo O'higgins",
+    "function": "1",
+    "lat": -63.316667,
+    "lng": -57.9
+  },
+  {
+    "locationCode": "GWL",
+    "label": "Great Wall",
+    "function": "1",
+    "lat": -62.216667,
+    "lng": -58.966667
+  },
+  {
+    "locationCode": "HLY",
+    "label": "Halley",
+    "function": "1",
+    "lat": -75.566667,
+    "lng": -26.533333
+  },
+  {
+    "locationCode": "JBS",
+    "label": "Jang Bogo Station",
+    "function": "1",
+    "lat": -74.6,
+    "lng": 164.2
+  },
+  {
+    "locationCode": "JCP",
+    "label": "Juan Carlos Primero",
+    "function": "1",
+    "lat": -62.65,
+    "lng": -60.383333
+  },
+  {
+    "locationCode": "JUB",
+    "label": "Jubany",
+    "function": "1",
+    "lat": -62.233333,
+    "lng": -58.65
+  },
+  {
+    "locationCode": "KSG",
+    "label": "King Sejong",
+    "function": "1",
+    "lat": -62.216667,
+    "lng": -58.783333
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kohnen",
+    "function": "1",
+    "lat": -75,
+    "lng": 0.066667
+  },
+  {
+    "locationCode": "LAW",
+    "label": "Law Base",
+    "function": "1",
+    "lat": -69.383333,
+    "lng": 76.383333
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Maitri",
+    "function": "3",
+    "lat": -70.75,
+    "lng": 11.733333
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Marambio",
+    "function": "1",
+    "lat": -64.233333,
+    "lng": -56.65
+  },
+  {
+    "locationCode": "MZU",
+    "label": "Mario Zucchelli",
+    "function": "1",
+    "lat": -74.683333,
+    "lng": 164.116667
+  },
+  {
+    "locationCode": "MAW",
+    "label": "Mawson Station",
+    "function": "1",
+    "lat": -67.6,
+    "lng": 62.866667
+  },
+  {
+    "locationCode": "MCM",
+    "label": "McMurdo",
+    "function": "14",
+    "lat": -77.833333,
+    "lng": 166.666667
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Mirny",
+    "function": "1",
+    "lat": -66.55,
+    "lng": 93
+  },
+  {
+    "locationCode": "NEU",
+    "label": "Neumayer",
+    "function": "3",
+    "lat": -70.633333,
+    "lng": -8.25
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Novolazarevskaya",
+    "function": "3",
+    "lat": -70.766667,
+    "lng": 11.85
+  },
+  {
+    "locationCode": "ORC",
+    "label": "Orcadas",
+    "function": "1",
+    "lat": -60.733333,
+    "lng": -44.733333
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Palmer",
+    "function": "1",
+    "lat": -64.766667,
+    "lng": -64.05
+  },
+  {
+    "locationCode": "PFS",
+    "label": "Port Foster",
+    "function": "1",
+    "lat": -63,
+    "lng": -60.566667
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Progress",
+    "function": "1",
+    "lat": -69.4,
+    "lng": 76.383333
+  },
+  {
+    "locationCode": "ROT",
+    "label": "Rothera",
+    "function": "1",
+    "lat": -67.566667,
+    "lng": -68.116667
+  },
+  {
+    "locationCode": "SMT",
+    "label": "San Martín",
+    "labelWithDiacritics": "San Martin",
+    "function": "1",
+    "lat": -68.116667,
+    "lng": -67.1
+  },
+  {
+    "locationCode": "SNA",
+    "label": "SANAE IV",
+    "function": "3",
+    "lat": -71.666667,
+    "lng": -2.816667
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Scott Base",
+    "function": "3",
+    "lat": -77.85,
+    "lng": 166.75
+  },
+  {
+    "locationCode": "SGN",
+    "label": "Signy",
+    "function": "1",
+    "lat": -60.716667,
+    "lng": -45.6
+  },
+  {
+    "locationCode": "SYW",
+    "label": "Syowa",
+    "function": "1",
+    "lat": -69,
+    "lng": 39.583333
+  },
+  {
+    "locationCode": "TNM",
+    "label": "Teniente R. Marsh",
+    "function": "4",
+    "lat": -62.216667,
+    "lng": -58.916667
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Tor",
+    "function": "3",
+    "lat": -71.883333,
+    "lng": 5.15
+  },
+  {
+    "locationCode": "TRL",
+    "label": "Troll",
+    "function": "3",
+    "lat": -72,
+    "lng": 2.533333
+  },
+  {
+    "locationCode": "VKY",
+    "label": "Vernadsky",
+    "function": "1",
+    "lat": -65.233333,
+    "lng": -64.25
+  },
+  {
+    "locationCode": "VOS",
+    "label": "Vostok",
+    "function": "3",
+    "lat": -78.466667,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "WSA",
+    "label": "Wasa",
+    "function": "1",
+    "lat": -73.05,
+    "lng": -13.416667
+  },
+  {
+    "locationCode": "ZGN",
+    "label": "Zhongshan",
+    "function": "1",
+    "lat": -69.366667,
+    "lng": 76.383333
+  }
+]

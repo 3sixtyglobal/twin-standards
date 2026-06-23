@@ -1,0 +1,60 @@
+[
+  {
+    "locationCode": "AXA",
+    "label": "Anguilla",
+    "function": "45"
+  },
+  {
+    "locationCode": "BLP",
+    "label": "Blowing Point",
+    "function": "1"
+  },
+  {
+    "locationCode": "CRH",
+    "label": "Crocus Hill",
+    "function": "3",
+    "lat": 18.216667,
+    "lng": -63.066667
+  },
+  {
+    "locationCode": "MBB",
+    "label": "Meads Bay Beach",
+    "function": "1",
+    "lat": 18.166667,
+    "lng": -63.133333
+  },
+  {
+    "locationCode": "RBY",
+    "label": "Road Bay",
+    "function": "3"
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Sombrero",
+    "function": "1",
+    "lat": 18.6,
+    "lng": -63.466667
+  },
+  {
+    "locationCode": "FOR",
+    "label": "The Forest",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROA",
+    "label": "The Road",
+    "function": "1"
+  },
+  {
+    "locationCode": "VAL",
+    "label": "The Valley",
+    "function": "3",
+    "lat": 18.216667,
+    "lng": -63.05
+  },
+  {
+    "locationCode": "WLL",
+    "label": "Wall Blake",
+    "function": "14"
+  }
+]

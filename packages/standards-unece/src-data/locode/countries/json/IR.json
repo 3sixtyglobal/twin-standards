@@ -1,0 +1,1049 @@
+[
+  {
+    "locationCode": "ABD",
+    "label": "Abadan",
+    "function": "145"
+  },
+  {
+    "locationCode": "JBD",
+    "label": "Abadeh",
+    "subdivisionCode": "07",
+    "function": "6",
+    "lat": 30.033333,
+    "lng": 52.533333
+  },
+  {
+    "locationCode": "ABR",
+    "label": "Abhar",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 36.133333,
+    "lng": 49.216667
+  },
+  {
+    "locationCode": "AEU",
+    "label": "Abu Musa",
+    "subdivisionCode": "22",
+    "function": "4",
+    "lat": 25.9,
+    "lng": 54.983333
+  },
+  {
+    "locationCode": "AKW",
+    "label": "Aghajari",
+    "function": "4",
+    "lat": 37.5,
+    "lng": 45.966667
+  },
+  {
+    "locationCode": "AHR",
+    "label": "Ahar",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 38.466667,
+    "lng": 47.05
+  },
+  {
+    "locationCode": "AWZ",
+    "label": "Ahwaz",
+    "function": "4"
+  },
+  {
+    "locationCode": "UZA",
+    "label": "Al Uzsayr",
+    "function": "0"
+  },
+  {
+    "locationCode": "LEH",
+    "label": "Ali Shah Avaz",
+    "subdivisionCode": "23",
+    "function": "6",
+    "lat": 35.65,
+    "lng": 51.05
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Amara",
+    "function": "0"
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Amir Abad Pt",
+    "subdivisionCode": "21",
+    "function": "1",
+    "lat": 36.083333,
+    "lng": 52.366667
+  },
+  {
+    "locationCode": "BAM",
+    "label": "Amirabad",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 26.85,
+    "lng": 54.366667
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Arak",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 34.083333,
+    "lng": 49.683333
+  },
+  {
+    "locationCode": "ADU",
+    "label": "Ardabil",
+    "function": "4"
+  },
+  {
+    "locationCode": "PGU",
+    "label": "Asaloyeh",
+    "function": "4",
+    "lat": 27.483333,
+    "lng": 52.616667
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asaluyeh",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 27.466667,
+    "lng": 52.6
+  },
+  {
+    "locationCode": "ASR",
+    "label": "Astara",
+    "function": "0"
+  },
+  {
+    "locationCode": "BBL",
+    "label": "Babolsar",
+    "function": "4"
+  },
+  {
+    "locationCode": "IAQ",
+    "label": "Bahregan",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAJ",
+    "label": "Bajgiran",
+    "function": "5"
+  },
+  {
+    "locationCode": "BXR",
+    "label": "Bam",
+    "function": "4"
+  },
+  {
+    "locationCode": "BND",
+    "label": "Bandar Abbas",
+    "subdivisionCode": "22",
+    "function": "14",
+    "lat": 27.183333,
+    "lng": 56.266667
+  },
+  {
+    "locationCode": "AMD",
+    "label": "Bandar Amirabad",
+    "subdivisionCode": "21",
+    "function": "12356",
+    "lat": 36.783333,
+    "lng": 53.35
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bandar Assaluyeh",
+    "function": "1"
+  },
+  {
+    "locationCode": "BKM",
+    "label": "Bandar Khomeini",
+    "subdivisionCode": "06",
+    "function": "134",
+    "lat": 30.433333,
+    "lng": 49.1
+  },
+  {
+    "locationCode": "BMR",
+    "label": "Bandar Mashur",
+    "subdivisionCode": "06",
+    "function": "17",
+    "lat": 30.55,
+    "lng": 49.183333
+  },
+  {
+    "locationCode": "NEK",
+    "label": "Bandar Neka",
+    "function": "1356",
+    "lat": 36.866667,
+    "lng": 53.533333
+  },
+  {
+    "locationCode": "BSR",
+    "label": "Bandar Shahid Rajaee",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAZ",
+    "label": "Bandar-e Anzali",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 37.466667,
+    "lng": 49.466667
+  },
+  {
+    "locationCode": "BKK",
+    "label": "Bandar-e Emam Khomeyni",
+    "function": "16",
+    "lat": 30.433333,
+    "lng": 49.1
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Bandar-e Gaz",
+    "function": "1",
+    "lat": 36.783333,
+    "lng": 53.95
+  },
+  {
+    "locationCode": "BDH",
+    "label": "Bandar-e Lengeh",
+    "subdivisionCode": "22",
+    "function": "4",
+    "lat": 26.55,
+    "lng": 54.883333
+  },
+  {
+    "locationCode": "MRX",
+    "label": "Bandar-e Måh Shahr",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Bandar-e Mah Shahr",
+    "function": "1234",
+    "lat": 30.533333,
+    "lng": 49.166667
+  },
+  {
+    "locationCode": "BPA",
+    "label": "Bandare Parsian",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 27.166667,
+    "lng": 52.9
+  },
+  {
+    "locationCode": "BNH",
+    "label": "Baneh",
+    "subdivisionCode": "00",
+    "function": "6",
+    "lat": 34.083333,
+    "lng": 49.416667
+  },
+  {
+    "locationCode": "DGN",
+    "label": "Basargan",
+    "function": "0"
+  },
+  {
+    "locationCode": "XBJ",
+    "label": "Birjand",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSM",
+    "label": "Bisheh Kola",
+    "function": "4",
+    "lat": 36.183333,
+    "lng": 53.166667
+  },
+  {
+    "locationCode": "BJB",
+    "label": "Bojnurd",
+    "function": "4",
+    "lat": 37.483333,
+    "lng": 57.316667
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Borazjan",
+    "function": "6",
+    "lat": 29.25,
+    "lng": 51.2
+  },
+  {
+    "locationCode": "BRJ",
+    "label": "Borujerd",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 33.866667,
+    "lng": 48.833333
+  },
+  {
+    "locationCode": "BUZ",
+    "label": "Bushehr",
+    "subdivisionCode": "18",
+    "function": "134",
+    "lat": 28.966667,
+    "lng": 50.833333
+  },
+  {
+    "locationCode": "CI3",
+    "label": "Chabahar",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 25.283333,
+    "lng": 60.633333
+  },
+  {
+    "locationCode": "ZBR",
+    "label": "Chah Bahar",
+    "function": "14"
+  },
+  {
+    "locationCode": "DAM",
+    "label": "Damavand",
+    "function": "3",
+    "lat": 35.733333,
+    "lng": 52.05
+  },
+  {
+    "locationCode": "DAY",
+    "label": "Dayyer",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 27.833333,
+    "lng": 51.933333
+  },
+  {
+    "locationCode": "DEH",
+    "label": "Dehbid",
+    "subdivisionCode": "07",
+    "function": "6",
+    "lat": 30.616667,
+    "lng": 53.2
+  },
+  {
+    "locationCode": "DEF",
+    "label": "Dezful",
+    "subdivisionCode": "06",
+    "function": "4",
+    "lat": 32.416667,
+    "lng": 48.216667
+  },
+  {
+    "locationCode": "DOG",
+    "label": "Do Gharun",
+    "function": "3",
+    "lat": 34.716667,
+    "lng": 60.933333
+  },
+  {
+    "locationCode": "ESF",
+    "label": "Esfahan",
+    "function": "3"
+  },
+  {
+    "locationCode": "ESL",
+    "label": "Eslamshahr",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 35.55,
+    "lng": 51.25
+  },
+  {
+    "locationCode": "FR7",
+    "label": "Fardis",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 35.716667,
+    "lng": 50.983333
+  },
+  {
+    "locationCode": "FAZ",
+    "label": "Fasa",
+    "subdivisionCode": "07",
+    "function": "4",
+    "lat": 28.933333,
+    "lng": 53.633333
+  },
+  {
+    "locationCode": "FKR",
+    "label": "Freidoon Kenar",
+    "subdivisionCode": "21",
+    "function": "1",
+    "lat": 36.7,
+    "lng": 52.55
+  },
+  {
+    "locationCode": "GCH",
+    "label": "Gachsaran",
+    "subdivisionCode": "17",
+    "function": "4",
+    "lat": 30.333333,
+    "lng": 50.816667
+  },
+  {
+    "locationCode": "GNH",
+    "label": "Ganaveh",
+    "function": "6",
+    "lat": 30.45,
+    "lng": 50.833333
+  },
+  {
+    "locationCode": "GHA",
+    "label": "Ghazvin (Qazwin)",
+    "function": "0"
+  },
+  {
+    "locationCode": "GSM",
+    "label": "Gheshm",
+    "function": "4"
+  },
+  {
+    "locationCode": "GBT",
+    "label": "Gorgan",
+    "subdivisionCode": "27",
+    "function": "4",
+    "lat": 36.9,
+    "lng": 54.4
+  },
+  {
+    "locationCode": "HDM",
+    "label": "Hamadan",
+    "function": "4"
+  },
+  {
+    "locationCode": "HDR",
+    "label": "Havadarya",
+    "subdivisionCode": "22",
+    "function": "4",
+    "lat": 46.466667,
+    "lng": 24.816667
+  },
+  {
+    "locationCode": "HEJ",
+    "label": "Henjam",
+    "function": "0"
+  },
+  {
+    "locationCode": "IFH",
+    "label": "Hesa",
+    "function": "4",
+    "lat": 32.916667,
+    "lng": 51.55
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Hormuz",
+    "function": "0"
+  },
+  {
+    "locationCode": "IIL",
+    "label": "Ilam",
+    "function": "4",
+    "lat": 33.583333,
+    "lng": 46.4
+  },
+  {
+    "locationCode": "IMH",
+    "label": "Imam Hasan",
+    "function": "1"
+  },
+  {
+    "locationCode": "IKA",
+    "label": "Imam Khomeini International Apt/Tehran",
+    "subdivisionCode": "23",
+    "function": "4",
+    "lat": 35.4,
+    "lng": 51.15
+  },
+  {
+    "locationCode": "BIK",
+    "label": "Imam Khomeini Pt/ Mahshahr City",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 30.416667,
+    "lng": 49.066667
+  },
+  {
+    "locationCode": "IFN",
+    "label": "Isfahan",
+    "function": "124"
+  },
+  {
+    "locationCode": "IQH",
+    "label": "Islam Qal'eh",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAK",
+    "label": "Jask",
+    "function": "0"
+  },
+  {
+    "locationCode": "JRT",
+    "label": "Jiroft",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 28.666667,
+    "lng": 57.716667
+  },
+  {
+    "locationCode": "DJU",
+    "label": "Jolfa",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 38.916667,
+    "lng": 45.666667
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalaleh",
+    "function": "3",
+    "lat": 35.583333,
+    "lng": 58.066667
+  },
+  {
+    "locationCode": "KNR",
+    "label": "Kangan",
+    "function": "4"
+  },
+  {
+    "locationCode": "QKC",
+    "label": "Karaj",
+    "subdivisionCode": "07",
+    "function": "4",
+    "lat": 35.816667,
+    "lng": 51
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kashan",
+    "function": "1"
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kerman",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMS",
+    "label": "Kermanshah",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 31.3,
+    "lng": 54.866667
+  },
+  {
+    "locationCode": "KSH",
+    "label": "Kermanshah (Bakhtaran)",
+    "subdivisionCode": "05",
+    "function": "123",
+    "lat": 34.3,
+    "lng": 47.05
+  },
+  {
+    "locationCode": "KHA",
+    "label": "Khaneh",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHK",
+    "label": "Khark Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "KHD",
+    "label": "Khorramabad",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Khorramshahr",
+    "function": "1"
+  },
+  {
+    "locationCode": "KHS",
+    "label": "Khosravi",
+    "function": "5"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Khosrowshahr",
+    "function": "6",
+    "lat": 37.933333,
+    "lng": 46.066667
+  },
+  {
+    "locationCode": "KHY",
+    "label": "Khvoy",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 38.55,
+    "lng": 44.933333
+  },
+  {
+    "locationCode": "KIH",
+    "label": "Kish Island",
+    "function": "4",
+    "lat": 26.533333,
+    "lng": 54
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Kuvei",
+    "subdivisionCode": "22",
+    "function": "13",
+    "lat": 26.95,
+    "lng": 56
+  },
+  {
+    "locationCode": "LFM",
+    "label": "Lamerd",
+    "subdivisionCode": "07",
+    "function": "4",
+    "lat": 27.366667,
+    "lng": 53.183333
+  },
+  {
+    "locationCode": "LRR",
+    "label": "Lar",
+    "function": "4"
+  },
+  {
+    "locationCode": "LVP",
+    "label": "Lavan",
+    "function": "14"
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Lingah",
+    "function": "1"
+  },
+  {
+    "locationCode": "MLK",
+    "label": "Malekan",
+    "function": "6",
+    "lat": 34.616667,
+    "lng": 51.1
+  },
+  {
+    "locationCode": "MHD",
+    "label": "Mashad",
+    "function": "4"
+  },
+  {
+    "locationCode": "QMJ",
+    "label": "Masjed Soleyman",
+    "function": "4",
+    "lat": 32.133333,
+    "lng": 49.266667
+  },
+  {
+    "locationCode": "MMH",
+    "label": "Mazandaran Mahalleh",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 37.116667,
+    "lng": 50.233333
+  },
+  {
+    "locationCode": "MEB",
+    "label": "Meybod",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 32.216667,
+    "lng": 54
+  },
+  {
+    "locationCode": "OSM",
+    "label": "Mosul",
+    "function": "0"
+  },
+  {
+    "locationCode": "NKW",
+    "label": "Nakhjavån Tappeh",
+    "labelWithDiacritics": "Nakhjavan Tappeh",
+    "function": "3",
+    "lat": 37.716667,
+    "lng": 45.1
+  },
+  {
+    "locationCode": "NKA",
+    "label": "Neka",
+    "subdivisionCode": "21",
+    "function": "1",
+    "lat": 36.833333,
+    "lng": 53.266667
+  },
+  {
+    "locationCode": "NSB",
+    "label": "Neyshabur",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 36.2,
+    "lng": 58.783333
+  },
+  {
+    "locationCode": "NUJ",
+    "label": "Nojeh",
+    "function": "4",
+    "lat": 45.966667,
+    "lng": 38.483333
+  },
+  {
+    "locationCode": "NSH",
+    "label": "Now Shahr",
+    "function": "1"
+  },
+  {
+    "locationCode": "OMI",
+    "label": "Omidiyeh",
+    "subdivisionCode": "06",
+    "function": "4",
+    "lat": 30.833333,
+    "lng": 49.533333
+  },
+  {
+    "locationCode": "PFQ",
+    "label": "Parsabad",
+    "function": "4",
+    "lat": 39.65,
+    "lng": 47.9
+  },
+  {
+    "locationCode": "PYK",
+    "label": "Payam Apt",
+    "function": "345",
+    "lat": 35.783333,
+    "lng": 50.816667
+  },
+  {
+    "locationCode": "WPS",
+    "label": "Persepolis",
+    "function": "4"
+  },
+  {
+    "locationCode": "PSR",
+    "label": "Piran Shahr",
+    "function": "6",
+    "lat": 36.683333,
+    "lng": 45.133333
+  },
+  {
+    "locationCode": "QAZ",
+    "label": "Qazvin",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 36.266667,
+    "lng": 50
+  },
+  {
+    "locationCode": "QSM",
+    "label": "Qeshm",
+    "function": "3"
+  },
+  {
+    "locationCode": "QSH",
+    "label": "Qeshm island",
+    "function": "3"
+  },
+  {
+    "locationCode": "QUM",
+    "label": "Qum",
+    "subdivisionCode": "25",
+    "function": "34",
+    "lat": 34.633333,
+    "lng": 50.883333
+  },
+  {
+    "locationCode": "RJN",
+    "label": "Rafsanjan",
+    "function": "4"
+  },
+  {
+    "locationCode": "RZR",
+    "label": "Ramsar",
+    "function": "4"
+  },
+  {
+    "locationCode": "RBA",
+    "label": "Ras Bahrgan",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAS",
+    "label": "Rasht",
+    "function": "4"
+  },
+  {
+    "locationCode": "RTM",
+    "label": "Ratawi",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAZ",
+    "label": "Sabzevar",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 33.5,
+    "lng": 48.033333
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sabzevar",
+    "subdivisionCode": "30",
+    "function": "3",
+    "lat": 36.216667,
+    "lng": 57.683333
+  },
+  {
+    "locationCode": "AFZ",
+    "label": "Sabzevar National",
+    "function": "4",
+    "lat": 36.166667,
+    "lng": 57.583333
+  },
+  {
+    "locationCode": "ACP",
+    "label": "Sahand",
+    "function": "4",
+    "lat": 37.333333,
+    "lng": 46.116667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sahlan",
+    "function": "3"
+  },
+  {
+    "locationCode": "SFN",
+    "label": "Salafchegan",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 34.466667,
+    "lng": 50.45
+  },
+  {
+    "locationCode": "SMW",
+    "label": "Samawa",
+    "function": "0"
+  },
+  {
+    "locationCode": "SDG",
+    "label": "Sanandaj",
+    "function": "4"
+  },
+  {
+    "locationCode": "CKT",
+    "label": "Sarakhs",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIX",
+    "label": "Sari",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Sarooj Anchorage",
+    "function": "1",
+    "lat": 27.733333,
+    "lng": 52.15
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Sary",
+    "function": "4"
+  },
+  {
+    "locationCode": "SVH",
+    "label": "Saveh",
+    "subdivisionCode": "00",
+    "function": "3",
+    "lat": 35,
+    "lng": 50.366667
+  },
+  {
+    "locationCode": "SEM",
+    "label": "Semnan",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 35.566667,
+    "lng": 53.383333
+  },
+  {
+    "locationCode": "SBR",
+    "label": "Shahid Bahonar",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 27.133333,
+    "lng": 56.2
+  },
+  {
+    "locationCode": "SRP",
+    "label": "Shahid Rajaee Pt/Bandar Abbas",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 27.116667,
+    "lng": 56.066667
+  },
+  {
+    "locationCode": "QHK",
+    "label": "Shahre Kord",
+    "function": "4",
+    "lat": 32.283333,
+    "lng": 50.833333
+  },
+  {
+    "locationCode": "SEK",
+    "label": "Shahr-e Kord",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 32.316667,
+    "lng": 50.85
+  },
+  {
+    "locationCode": "SHS",
+    "label": "Shahriar",
+    "function": "6",
+    "lat": -5.183333,
+    "lng": 119.383333
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shahrud",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 36.416667,
+    "lng": 55.016667
+  },
+  {
+    "locationCode": "SYZ",
+    "label": "Shiraz",
+    "function": "14"
+  },
+  {
+    "locationCode": "SRJ",
+    "label": "Sirjan",
+    "function": "3"
+  },
+  {
+    "locationCode": "SXI",
+    "label": "Sirri Island",
+    "function": "14"
+  },
+  {
+    "locationCode": "CYT",
+    "label": "Soroosh (Cyrus) Terminal",
+    "function": "1",
+    "lat": 29.033333,
+    "lng": 49.466667
+  },
+  {
+    "locationCode": "TCX",
+    "label": "Tabas",
+    "function": "4"
+  },
+  {
+    "locationCode": "TBZ",
+    "label": "Tabriz",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAJ",
+    "label": "Tajabad",
+    "function": "5"
+  },
+  {
+    "locationCode": "THR",
+    "label": "Tehran",
+    "subdivisionCode": "23",
+    "function": "45",
+    "lat": 35.666667,
+    "lng": 51.416667
+  },
+  {
+    "locationCode": "IHR",
+    "label": "Tilkuh (Iran Shahr)",
+    "subdivisionCode": "12",
+    "function": "4",
+    "lat": 34.95,
+    "lng": 46.666667
+  },
+  {
+    "locationCode": "TEW",
+    "label": "Tohid",
+    "function": "4",
+    "lat": 27.816667,
+    "lng": 52.35
+  },
+  {
+    "locationCode": "TMB",
+    "label": "Tombak",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 27.716667,
+    "lng": 52.166667
+  },
+  {
+    "locationCode": "UIM",
+    "label": "Urmia",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 37.55,
+    "lng": 45.066667
+  },
+  {
+    "locationCode": "OMH",
+    "label": "Urmieh",
+    "function": "4",
+    "lat": 37.55,
+    "lng": 45.1
+  },
+  {
+    "locationCode": "QYS",
+    "label": "Yasouj",
+    "subdivisionCode": "17",
+    "function": "4",
+    "lat": 30.7,
+    "lng": 51.533333
+  },
+  {
+    "locationCode": "YAS",
+    "label": "Yasuj",
+    "function": "3",
+    "lat": 30.65,
+    "lng": 51.583333
+  },
+  {
+    "locationCode": "AZD",
+    "label": "Yazd",
+    "function": "14"
+  },
+  {
+    "locationCode": "ACZ",
+    "label": "Zabol",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAH",
+    "label": "Zahedan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZAN",
+    "label": "Zanjan",
+    "function": "23457",
+    "lat": 36.666667,
+    "lng": 48.466667
+  },
+  {
+    "locationCode": "ZVI",
+    "label": "Zarand",
+    "subdivisionCode": "08",
+    "function": "4",
+    "lat": 30.816667,
+    "lng": 56.4
+  }
+]

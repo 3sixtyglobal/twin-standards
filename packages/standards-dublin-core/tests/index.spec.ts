@@ -1,11 +1,15 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
-import { DublinCoreContexts, DublinCorePropertyType } from "../src/index";
+import { DublinCoreContexts, DublinCorePropertyType } from "../src/index.js";
 
 describe("Dublin Core", () => {
-	it("should have correct context", () => {
+	it("should have correct namespace", () => {
+		expect(DublinCoreContexts.NamespaceTerms).toBe("http://purl.org/dc/terms/");
+	});
+
+	it("should have correct Context properties", () => {
 		expect(DublinCoreContexts.ContextTerms).toBe("http://purl.org/dc/terms/");
+		expect(DublinCoreContexts.ContextDcmiType).toBe("http://purl.org/dc/dcmitype/");
 	});
 
 	it("should have correct property types", () => {

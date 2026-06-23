@@ -1,0 +1,173 @@
+[
+  {
+    "locationCode": "BKM",
+    "label": "Bukit Merah Estate",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 1.283333,
+    "lng": 103.816667
+  },
+  {
+    "locationCode": "CHG",
+    "label": "Changi",
+    "function": "134",
+    "lat": 1.316667,
+    "lng": 104
+  },
+  {
+    "locationCode": "CCK",
+    "label": "Choa Chu Kang",
+    "function": "6",
+    "lat": 1.283333,
+    "lng": 103.85
+  },
+  {
+    "locationCode": "CLE",
+    "label": "Clementi",
+    "function": "6",
+    "lat": 1.283333,
+    "lng": 103.85
+  },
+  {
+    "locationCode": "JUR",
+    "label": "Jurong/Singapore",
+    "function": "13",
+    "lat": 1.333333,
+    "lng": 103.7
+  },
+  {
+    "locationCode": "KEP",
+    "label": "Keppel Wharves",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPT",
+    "label": "PASIR PANJANG Terminal",
+    "subdivisionCode": "05",
+    "function": "13",
+    "lat": 1.283333,
+    "lng": 103.766667
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Pasir Panjang Wharves",
+    "function": "1",
+    "lat": 1.266667,
+    "lng": 103.783333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Pasir Ris New Town",
+    "function": "3",
+    "lat": 1.366667,
+    "lng": 103.933333
+  },
+  {
+    "locationCode": "QPG",
+    "label": "Paya Lebar",
+    "subdivisionCode": "02",
+    "function": "34",
+    "lat": 1.35,
+    "lng": 103.883333
+  },
+  {
+    "locationCode": "PNR",
+    "label": "Pioneer",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 1.316667,
+    "lng": 103.683333
+  },
+  {
+    "locationCode": "AYC",
+    "label": "Pulau Ayer Chawan",
+    "function": "1",
+    "lat": 1.266667,
+    "lng": 103.7
+  },
+  {
+    "locationCode": "PUB",
+    "label": "Pulau Bukom",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Pulau Sebarok",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Seletar",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEM",
+    "label": "Sembawang Port",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Singapore",
+    "function": "145",
+    "lat": 1.283333,
+    "lng": 103.85
+  },
+  {
+    "locationCode": "SCT",
+    "label": "Singapore Container Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tampines",
+    "function": "34",
+    "lat": 1.333333,
+    "lng": 103.933333
+  },
+  {
+    "locationCode": "TPG",
+    "label": "Tanjong Pagar",
+    "function": "1"
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Tanjong Penjuru",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAY",
+    "label": "Telok Ayer Basin",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Tengah",
+    "function": "4"
+  },
+  {
+    "locationCode": "TPY",
+    "label": "Toa Payoh",
+    "function": "3",
+    "lat": 1.333333,
+    "lng": 103.85
+  },
+  {
+    "locationCode": "TUA",
+    "label": "Tuas",
+    "function": "13",
+    "lat": 1.316667,
+    "lng": 103.65
+  },
+  {
+    "locationCode": "WES",
+    "label": "West Coast Town",
+    "function": "6",
+    "lat": 1.283333,
+    "lng": 103.85
+  },
+  {
+    "locationCode": "WDL",
+    "label": "Woodlands",
+    "function": "0"
+  }
+]

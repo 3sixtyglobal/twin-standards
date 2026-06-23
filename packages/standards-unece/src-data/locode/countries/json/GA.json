@@ -1,0 +1,350 @@
+[
+  {
+    "locationCode": "AKE",
+    "label": "Akieni",
+    "function": "4"
+  },
+  {
+    "locationCode": "AWE",
+    "label": "Alowe",
+    "function": "4",
+    "lat": -0.75,
+    "lng": 9.45
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belleville",
+    "function": "3",
+    "lat": 0.033333,
+    "lng": 11.033333
+  },
+  {
+    "locationCode": "BWN",
+    "label": "Biawonque",
+    "function": "4",
+    "lat": -0.666667,
+    "lng": 9.45
+  },
+  {
+    "locationCode": "BMM",
+    "label": "Bitam",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bongo",
+    "function": "4",
+    "lat": -2.166667,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "BGB",
+    "label": "Booué",
+    "labelWithDiacritics": "Booue",
+    "function": "4",
+    "lat": -0.1,
+    "lng": 11.933333
+  },
+  {
+    "locationCode": "CLZ",
+    "label": "Cap Lopez",
+    "function": "1"
+  },
+  {
+    "locationCode": "CCB",
+    "label": "Cocobeach",
+    "function": "1"
+  },
+  {
+    "locationCode": "EKU",
+    "label": "Equata",
+    "subdivisionCode": "1",
+    "function": "1",
+    "lat": -0.216667,
+    "lng": 9.3
+  },
+  {
+    "locationCode": "ETA",
+    "label": "Etame FPSO",
+    "function": "7",
+    "lat": -3.75,
+    "lng": 10.516667
+  },
+  {
+    "locationCode": "FOU",
+    "label": "Fougamou",
+    "function": "4"
+  },
+  {
+    "locationCode": "MVB",
+    "label": "Franceville",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAX",
+    "label": "Gamba",
+    "function": "14"
+  },
+  {
+    "locationCode": "IGL",
+    "label": "Iguela",
+    "function": "4",
+    "lat": -1.916667,
+    "lng": 9.3
+  },
+  {
+    "locationCode": "KGB",
+    "label": "Kongobouma",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koulamoutou",
+    "function": "34",
+    "lat": -1.116667,
+    "lng": 12.5
+  },
+  {
+    "locationCode": "LBQ",
+    "label": "Lambarene",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTL",
+    "label": "Lastoursville",
+    "subdivisionCode": "7",
+    "function": "34",
+    "lat": -0.816667,
+    "lng": 12.7
+  },
+  {
+    "locationCode": "LCN",
+    "label": "Leconi",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBV",
+    "label": "Libreville",
+    "function": "145"
+  },
+  {
+    "locationCode": "LUC",
+    "label": "Lucina",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKU",
+    "label": "Makokou",
+    "function": "4"
+  },
+  {
+    "locationCode": "MDJ",
+    "label": "Mandji",
+    "function": "4",
+    "lat": -1.7,
+    "lng": 10.366667
+  },
+  {
+    "locationCode": "MGO",
+    "label": "Manega",
+    "function": "4"
+  },
+  {
+    "locationCode": "MYB",
+    "label": "Mayoumba",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Mayumba",
+    "subdivisionCode": "5",
+    "function": "6",
+    "lat": 2.983333,
+    "lng": 10.283333
+  },
+  {
+    "locationCode": "MBC",
+    "label": "Mbigou",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBY",
+    "label": "M'bya Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MDV",
+    "label": "Médouneu",
+    "labelWithDiacritics": "Medouneu",
+    "function": "4",
+    "lat": 0.95,
+    "lng": 10.783333
+  },
+  {
+    "locationCode": "MKB",
+    "label": "Mékambo",
+    "labelWithDiacritics": "Mekambo",
+    "function": "4",
+    "lat": 1.016667,
+    "lng": 13.933333
+  },
+  {
+    "locationCode": "MVG",
+    "label": "Mevang",
+    "function": "4",
+    "lat": 0.116667,
+    "lng": 11.066667
+  },
+  {
+    "locationCode": "GIM",
+    "label": "Miele Mimbale",
+    "function": "4",
+    "lat": -0.016667,
+    "lng": 11.383333
+  },
+  {
+    "locationCode": "MVX",
+    "label": "Minvoul",
+    "subdivisionCode": "9",
+    "function": "34",
+    "lat": 2.15,
+    "lng": 12.116667
+  },
+  {
+    "locationCode": "MZC",
+    "label": "Mitzic",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGX",
+    "label": "Moabi",
+    "function": "4",
+    "lat": -2.25,
+    "lng": 11
+  },
+  {
+    "locationCode": "MFF",
+    "label": "Moanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJL",
+    "label": "Mouila",
+    "function": "4"
+  },
+  {
+    "locationCode": "MVE",
+    "label": "Mvengué",
+    "labelWithDiacritics": "Mvengue",
+    "function": "3",
+    "lat": -1.65,
+    "lng": 13.383333
+  },
+  {
+    "locationCode": "KDN",
+    "label": "Ndende",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDJ",
+    "label": "Ndjolé",
+    "labelWithDiacritics": "Ndjole",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKA",
+    "label": "Nkan",
+    "subdivisionCode": "1",
+    "function": "34",
+    "lat": 0.7,
+    "lng": 9.633333
+  },
+  {
+    "locationCode": "NYA",
+    "label": "Nyanga",
+    "function": "1"
+  },
+  {
+    "locationCode": "OGU",
+    "label": "Oguandjo Terminal",
+    "function": "1",
+    "lat": -1.5,
+    "lng": 8.9
+  },
+  {
+    "locationCode": "OKN",
+    "label": "Okondja",
+    "function": "4"
+  },
+  {
+    "locationCode": "OMB",
+    "label": "Omboué",
+    "labelWithDiacritics": "Omboue",
+    "function": "4",
+    "lat": -1.566667,
+    "lng": 9.25
+  },
+  {
+    "locationCode": "OUU",
+    "label": "Ouanga",
+    "function": "4",
+    "lat": -2.966667,
+    "lng": 10.3
+  },
+  {
+    "locationCode": "OWE",
+    "label": "Owendo",
+    "function": "14"
+  },
+  {
+    "locationCode": "NGI",
+    "label": "Owendo",
+    "subdivisionCode": "1",
+    "function": "23",
+    "lat": 0.283333,
+    "lng": 9.5
+  },
+  {
+    "locationCode": "OYE",
+    "label": "Oyem",
+    "function": "4"
+  },
+  {
+    "locationCode": "POG",
+    "label": "Port Gentil",
+    "function": "145"
+  },
+  {
+    "locationCode": "ZKM",
+    "label": "Sette Cama",
+    "function": "4",
+    "lat": -2.516667,
+    "lng": 9.75
+  },
+  {
+    "locationCode": "TCT",
+    "label": "Tchatamba",
+    "function": "7",
+    "lat": -2.033333,
+    "lng": 9.116667
+  },
+  {
+    "locationCode": "TCH",
+    "label": "Tchibanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "WGY",
+    "label": "Wagny",
+    "function": "4",
+    "lat": 0.516667,
+    "lng": 10.433333
+  },
+  {
+    "locationCode": "WNE",
+    "label": "Wora Na Ye",
+    "function": "34",
+    "lat": -2.35,
+    "lng": 9.333333
+  }
+]

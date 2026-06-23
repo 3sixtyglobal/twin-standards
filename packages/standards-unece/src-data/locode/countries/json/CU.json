@@ -1,0 +1,467 @@
+[
+  {
+    "locationCode": "ANT",
+    "label": "Antilla",
+    "function": "23",
+    "lat": 20.833333,
+    "lng": -75.85
+  },
+  {
+    "locationCode": "BHO",
+    "label": "Bahía Honda",
+    "labelWithDiacritics": "Bahia Honda",
+    "function": "1",
+    "lat": 22.9,
+    "lng": -83.166667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Banes",
+    "function": "123",
+    "lat": 20.966667,
+    "lng": -75.716667
+  },
+  {
+    "locationCode": "BCA",
+    "label": "Baracoa",
+    "function": "14"
+  },
+  {
+    "locationCode": "BYM",
+    "label": "Bayamo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Boca Grande",
+    "function": "1",
+    "lat": 21.583333,
+    "lng": -78.666667
+  },
+  {
+    "locationCode": "BOQ",
+    "label": "Boqueron",
+    "function": "23",
+    "lat": 22.166667,
+    "lng": -79.016667
+  },
+  {
+    "locationCode": "BUF",
+    "label": "Bufadero",
+    "function": "123",
+    "lat": 21.566667,
+    "lng": -77.233333
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Cabañas",
+    "labelWithDiacritics": "Cabanas",
+    "function": "1",
+    "lat": 22.983333,
+    "lng": -82.916667
+  },
+  {
+    "locationCode": "CAI",
+    "label": "Caibarién",
+    "labelWithDiacritics": "Caibarien",
+    "function": "1",
+    "lat": 22.516667,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "CMW",
+    "label": "Camagüey",
+    "labelWithDiacritics": "Camaguey",
+    "function": "14",
+    "lat": 21.383333,
+    "lng": -77.916667
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Cárdenas",
+    "labelWithDiacritics": "Cardenas",
+    "function": "123",
+    "lat": 23.033333,
+    "lng": -81.2
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Casilda",
+    "function": "13",
+    "lat": 21.766667,
+    "lng": -80
+  },
+  {
+    "locationCode": "CCC",
+    "label": "Cayo Coco",
+    "function": "4",
+    "lat": 22.5,
+    "lng": -78.5
+  },
+  {
+    "locationCode": "CYO",
+    "label": "Cayo Largo del Sur",
+    "function": "4",
+    "lat": 21.616667,
+    "lng": -81.55
+  },
+  {
+    "locationCode": "CEI",
+    "label": "Ceiba Hueca",
+    "function": "13",
+    "lat": 20.216667,
+    "lng": -77.333333
+  },
+  {
+    "locationCode": "CFG",
+    "label": "Cienfuegos",
+    "function": "14"
+  },
+  {
+    "locationCode": "QCO",
+    "label": "Colon",
+    "function": "134"
+  },
+  {
+    "locationCode": "GIB",
+    "label": "Gibara",
+    "function": "1236",
+    "lat": 21.1,
+    "lng": -76.133333
+  },
+  {
+    "locationCode": "GUB",
+    "label": "Guantanamo Bay",
+    "function": "13"
+  },
+  {
+    "locationCode": "NBW",
+    "label": "Guantanamo Nas Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "GYB",
+    "label": "Guayabal",
+    "function": "1"
+  },
+  {
+    "locationCode": "HOG",
+    "label": "Holguin",
+    "function": "4"
+  },
+  {
+    "locationCode": "IDS",
+    "label": "Isabela de Sagua",
+    "function": "1"
+  },
+  {
+    "locationCode": "JUC",
+    "label": "Júcaro",
+    "labelWithDiacritics": "Jucaro",
+    "function": "123",
+    "lat": 21.633333,
+    "lng": -78.85
+  },
+  {
+    "locationCode": "LCL",
+    "label": "La Coloma",
+    "function": "4",
+    "lat": 22.333333,
+    "lng": -83.633333
+  },
+  {
+    "locationCode": "HAV",
+    "label": "La Habana",
+    "subdivisionCode": "03",
+    "function": "12345",
+    "lat": 23.116667,
+    "lng": -82.35
+  },
+  {
+    "locationCode": "BWW",
+    "label": "Las Brujas",
+    "function": "4",
+    "lat": 23.616667,
+    "lng": -18.316667
+  },
+  {
+    "locationCode": "VTU",
+    "label": "Las Tunas",
+    "subdivisionCode": "10",
+    "function": "234",
+    "lat": 20.95,
+    "lng": -76.95
+  },
+  {
+    "locationCode": "GAO",
+    "label": "Los Canos Apt/Guantanamo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZO",
+    "label": "Manzanillo",
+    "function": "14"
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Mariel",
+    "function": "1234",
+    "lat": 23,
+    "lng": -82.75
+  },
+  {
+    "locationCode": "QMA",
+    "label": "Matanzas",
+    "function": "14"
+  },
+  {
+    "locationCode": "AVI",
+    "label": "Maximo Gomez Apt",
+    "function": "4",
+    "lat": 22.016667,
+    "lng": -78.783333
+  },
+  {
+    "locationCode": "MJG",
+    "label": "Mayajigua",
+    "subdivisionCode": "07",
+    "function": "4",
+    "lat": 21.75,
+    "lng": -79
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Media Luna",
+    "function": "13",
+    "lat": 20.15,
+    "lng": -77.433333
+  },
+  {
+    "locationCode": "MLG",
+    "label": "Melgarejo",
+    "subdivisionCode": "13",
+    "function": "23",
+    "lat": 20.05,
+    "lng": -75.933333
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Miramar",
+    "function": "3",
+    "lat": 23.116667,
+    "lng": -82.416667
+  },
+  {
+    "locationCode": "MOA",
+    "label": "Moa",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morón",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Moron",
+    "function": "23",
+    "lat": 22.1,
+    "lng": -78.616667
+  },
+  {
+    "locationCode": "ICR",
+    "label": "Nicaro",
+    "function": "14"
+  },
+  {
+    "locationCode": "NIQ",
+    "label": "Niquero",
+    "function": "123",
+    "lat": 20.05,
+    "lng": -77.583333
+  },
+  {
+    "locationCode": "GER",
+    "label": "Nueva Gerona",
+    "function": "14"
+  },
+  {
+    "locationCode": "NVT",
+    "label": "Nuevitas",
+    "function": "123",
+    "lat": 21.55,
+    "lng": -77.266667
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palo Alto",
+    "function": "13",
+    "lat": 21.6,
+    "lng": -78.966667
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Pilón",
+    "labelWithDiacritics": "Pilon",
+    "function": "23",
+    "lat": 20.85,
+    "lng": -75.816667
+  },
+  {
+    "locationCode": "QPD",
+    "label": "Pinar del Rio",
+    "function": "4",
+    "lat": 22.416667,
+    "lng": -83.666667
+  },
+  {
+    "locationCode": "PST",
+    "label": "Preston",
+    "function": "4",
+    "lat": 20.75,
+    "lng": -75.65
+  },
+  {
+    "locationCode": "VIT",
+    "label": "Puerto da Vita",
+    "function": "123",
+    "lat": 21.083333,
+    "lng": -75.966667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Puerto de Pastelillo",
+    "function": "13",
+    "lat": 21.55,
+    "lng": -77.216667
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Puerto Manatí",
+    "labelWithDiacritics": "Puerto Manati",
+    "function": "123",
+    "lat": 21.366667,
+    "lng": -76.833333
+  },
+  {
+    "locationCode": "PPA",
+    "label": "Puerto Padre",
+    "function": "123",
+    "lat": 21.2,
+    "lng": -76.6
+  },
+  {
+    "locationCode": "PTA",
+    "label": "Puerto Tarafa",
+    "function": "123",
+    "lat": 21.566667,
+    "lng": -77.25
+  },
+  {
+    "locationCode": "UPA",
+    "label": "Punta Alegre",
+    "function": "4",
+    "lat": 22.366667,
+    "lng": -78.8
+  },
+  {
+    "locationCode": "UMA",
+    "label": "Punta de Maisi",
+    "subdivisionCode": "14",
+    "function": "34",
+    "lat": 20.25,
+    "lng": -74.15
+  },
+  {
+    "locationCode": "SDT",
+    "label": "Sagua de Tánamo",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sagua de Tanamo",
+    "function": "1",
+    "lat": 20.583333,
+    "lng": -75.233333
+  },
+  {
+    "locationCode": "RSL",
+    "label": "Sagua la Grande",
+    "function": "1234",
+    "lat": 22.8,
+    "lng": -80.066667
+  },
+  {
+    "locationCode": "SNJ",
+    "label": "San Julian",
+    "function": "4",
+    "lat": 22.066667,
+    "lng": -84.15
+  },
+  {
+    "locationCode": "QSN",
+    "label": "San Nicolas Bari",
+    "function": "4",
+    "lat": 22.75,
+    "lng": -81.916667
+  },
+  {
+    "locationCode": "SNU",
+    "label": "Santa Clara",
+    "function": "1"
+  },
+  {
+    "locationCode": "SCS",
+    "label": "Santa Cruz del Sur",
+    "function": "1"
+  },
+  {
+    "locationCode": "USS",
+    "label": "Santi Spiritus",
+    "function": "34",
+    "lat": 21.916667,
+    "lng": -79.433333
+  },
+  {
+    "locationCode": "SCU",
+    "label": "Santiago de Cuba",
+    "function": "14"
+  },
+  {
+    "locationCode": "SZJ",
+    "label": "Siguanea",
+    "subdivisionCode": "99",
+    "function": "4",
+    "lat": 21.616667,
+    "lng": -82.95
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tánamo",
+    "labelWithDiacritics": "Tanamo",
+    "function": "3",
+    "lat": 20.683333,
+    "lng": -75.35
+  },
+  {
+    "locationCode": "TND",
+    "label": "Trinidad",
+    "function": "34"
+  },
+  {
+    "locationCode": "TDZ",
+    "label": "Tunas de Zaza",
+    "function": "123",
+    "lat": 21.633333,
+    "lng": -79.55
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Varadero",
+    "subdivisionCode": "04",
+    "function": "34",
+    "lat": 23.15,
+    "lng": -81.25
+  },
+  {
+    "locationCode": "VDO",
+    "label": "Vedado",
+    "function": "3",
+    "lat": 23.133333,
+    "lng": -83.383333
+  }
+]

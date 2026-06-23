@@ -4,27 +4,27 @@
 
 The types of GS1 Identifier data.
 
-## Type declaration
+## Type Declaration
 
-### EpcId
+### EpcId {#epcid}
 
 > `readonly` **EpcId**: `"epc:id"` = `"epc:id"`
 
 Identifier epc id namespace.
 
-### EpcIdGtin
+### EpcIdGtin {#epcidgtin}
 
 > `readonly` **EpcIdGtin**: `"epc:id:sgtin"`
 
 Identifier epc:id:gtin namespace.
 
-### EpcIdGln
+### EpcIdGln {#epcidgln}
 
 > `readonly` **EpcIdGln**: `"epc:id:sgln"`
 
 Identifier epc:id:sgln namespace.
 
-### EpcClass
+### EpcClass {#epcclass}
 
 > `readonly` **EpcClass**: `"epc:class"` = `"epc:class"`
 

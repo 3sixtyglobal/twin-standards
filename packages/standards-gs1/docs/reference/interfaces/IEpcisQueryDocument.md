@@ -1,81 +1,55 @@
 # Interface: IEpcisQueryDocument
 
-EPCIS Query Document.
+EPCIS 2.0 QueryDocument used to submit queries to an EPCIS repository.
+
+## See
+
+https://ref.gs1.org/epcis/EPCISQueryDocument
 
 ## Properties
 
-### @context
+### @context {#context}
 
-> **@context**: `IJsonLdContextDefinition`
+> **@context**: [`EpcisContextType`](../type-aliases/EpcisContextType.md)
 
 The @context.
 
 ***
 
-### id?
+### id? {#id}
 
-> `optional` **id**: `string`
+> `optional` **id?**: `string`
 
 The JSON-LD document id.
 
 ***
 
-### type
+### type {#type}
 
-> **type**: `string`
+> **type**: `"EPCISQueryDocument"`
 
 JSON-LD Type.
 
 ***
 
-### schemaVersion?
+### schemaVersion? {#schemaversion}
 
-> `optional` **schemaVersion**: `string`
+> `optional` **schemaVersion?**: `string`
 
 Schema version.
 
 ***
 
-### creationDate?
+### creationDate? {#creationdate}
 
-> `optional` **creationDate**: `string`
+> `optional` **creationDate?**: `string`
 
 Creation Date.
 
 ***
 
-### epcisBody
+### epcisBody {#epcisbody}
 
-> **epcisBody**: `object`
+> **epcisBody**: [`IEpcisQueryDocumentBody`](IEpcisQueryDocumentBody.md)
 
 The EPCIS Body.
-
-#### queryResults
-
-> **queryResults**: `object`
-
-The results of the query.
-
-##### queryResults.subscriptionID?
-
-> `optional` **subscriptionID**: `string`
-
-The concerned subscription.
-
-##### queryResults.queryName
-
-> **queryName**: `string`
-
-The concerned query.
-
-##### queryResults.resultsBody
-
-> **resultsBody**: `object`
-
-And now the results.
-
-##### queryResults.resultsBody.eventList
-
-> **eventList**: [`IEpcisEvent`](IEpcisEvent.md)[]
-
-The list of events.

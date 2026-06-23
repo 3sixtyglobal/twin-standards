@@ -1,0 +1,67 @@
+[
+  {
+    "code": "AL",
+    "label": "Aileu",
+    "type": "Municipality"
+  },
+  {
+    "code": "AN",
+    "label": "Ainaro",
+    "type": "Municipality"
+  },
+  {
+    "code": "BA",
+    "label": "Baucau",
+    "type": "Municipality"
+  },
+  {
+    "code": "BO",
+    "label": "Bobonaro",
+    "type": "Municipality"
+  },
+  {
+    "code": "CO",
+    "label": "Cova Lima",
+    "type": "Municipality"
+  },
+  {
+    "code": "DI",
+    "label": "Díli",
+    "type": "Municipality"
+  },
+  {
+    "code": "ER",
+    "label": "Ermera",
+    "type": "Municipality"
+  },
+  {
+    "code": "LA",
+    "label": "Lautém",
+    "type": "Municipality"
+  },
+  {
+    "code": "LI",
+    "label": "Liquiça",
+    "type": "Municipality"
+  },
+  {
+    "code": "MF",
+    "label": "Manufahi",
+    "type": "Municipality"
+  },
+  {
+    "code": "MT",
+    "label": "Manatuto",
+    "type": "Municipality"
+  },
+  {
+    "code": "OE",
+    "label": "Oé-Cusse Ambeno",
+    "type": "Special administrative region"
+  },
+  {
+    "code": "VI",
+    "label": "Viqueque",
+    "type": "Municipality"
+  }
+]

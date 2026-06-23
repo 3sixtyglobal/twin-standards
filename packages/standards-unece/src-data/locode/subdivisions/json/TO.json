@@ -1,0 +1,27 @@
+[
+  {
+    "code": "01",
+    "label": "'Eua",
+    "type": "Division"
+  },
+  {
+    "code": "02",
+    "label": "Ha'apai",
+    "type": "Division"
+  },
+  {
+    "code": "03",
+    "label": "Niuas",
+    "type": "Division"
+  },
+  {
+    "code": "04",
+    "label": "Tongatapu",
+    "type": "Division"
+  },
+  {
+    "code": "05",
+    "label": "Vava'u",
+    "type": "Division"
+  }
+]

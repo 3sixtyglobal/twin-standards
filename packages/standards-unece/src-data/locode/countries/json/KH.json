@@ -1,0 +1,175 @@
+[
+  {
+    "locationCode": "BBM",
+    "label": "Battambang",
+    "function": "4"
+  },
+  {
+    "locationCode": "BVT",
+    "label": "Bavet",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 11.066667,
+    "lng": 106.133333
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Cheko",
+    "function": "1"
+  },
+  {
+    "locationCode": "KPC",
+    "label": "Kâmpóng Cham",
+    "subdivisionCode": "3",
+    "labelWithDiacritics": "Kampong Cham",
+    "function": "6",
+    "lat": 12,
+    "lng": 105.45
+  },
+  {
+    "locationCode": "KZC",
+    "label": "Kâmpóng Chhnang",
+    "labelWithDiacritics": "Kampong Chhnang",
+    "function": "4",
+    "lat": 12.25,
+    "lng": 104.666667
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kâmpóng Saôm",
+    "labelWithDiacritics": "Kampong Saom",
+    "function": "1347",
+    "lat": 10.6,
+    "lng": 103.516667
+  },
+  {
+    "locationCode": "KMT",
+    "label": "Kampot",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKO",
+    "label": "Kas Kong",
+    "function": "1"
+  },
+  {
+    "locationCode": "KKZ",
+    "label": "Koh Kong",
+    "function": "4"
+  },
+  {
+    "locationCode": "KZK",
+    "label": "Kompong Thom",
+    "function": "4"
+  },
+  {
+    "locationCode": "KZD",
+    "label": "Krâkôr",
+    "labelWithDiacritics": "Krakor",
+    "function": "4",
+    "lat": 12.533333,
+    "lng": 104.2
+  },
+  {
+    "locationCode": "KTI",
+    "label": "Kratie",
+    "function": "4"
+  },
+  {
+    "locationCode": "MMT",
+    "label": "Mémót",
+    "subdivisionCode": "3",
+    "labelWithDiacritics": "Memot",
+    "function": "3",
+    "lat": 11.816667,
+    "lng": 106.183333
+  },
+  {
+    "locationCode": "MWV",
+    "label": "Mundulkiri",
+    "function": "4"
+  },
+  {
+    "locationCode": "OMY",
+    "label": "Oddor Meanche",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Pailin",
+    "function": "4"
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Paôy Pêt (Poipet)",
+    "labelWithDiacritics": "Paoy Pet (Poipet)",
+    "function": "23",
+    "lat": 13.65,
+    "lng": 102.55
+  },
+  {
+    "locationCode": "PNH",
+    "label": "Phnom Penh",
+    "function": "145"
+  },
+  {
+    "locationCode": "SVY",
+    "label": "Phumi Svay Rolum",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 11.266667,
+    "lng": 105.816667
+  },
+  {
+    "locationCode": "PPT",
+    "label": "Poipet (Paôy Pêt)",
+    "labelWithDiacritics": "Poipet (Paoy Pet)",
+    "function": "23",
+    "lat": 13.65,
+    "lng": 102.55
+  },
+  {
+    "locationCode": "PUS",
+    "label": "Pursat",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 12.533333,
+    "lng": 103.916667
+  },
+  {
+    "locationCode": "RBE",
+    "label": "Ratanakiri",
+    "function": "4"
+  },
+  {
+    "locationCode": "REP",
+    "label": "Siem Reap",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRE",
+    "label": "Sre Ambel",
+    "subdivisionCode": "9",
+    "function": "3",
+    "lat": 11.116667,
+    "lng": 103.766667
+  },
+  {
+    "locationCode": "TNX",
+    "label": "Stung Treng",
+    "function": "4"
+  },
+  {
+    "locationCode": "SVR",
+    "label": "Svay Rieng",
+    "function": "4"
+  },
+  {
+    "locationCode": "TKH",
+    "label": "Ta Khmau",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 11.483333,
+    "lng": 104.95
+  }
+]

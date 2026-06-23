@@ -1,0 +1,142 @@
+[
+  {
+    "code": "01",
+    "label": "Blagoevgrad",
+    "type": "Region"
+  },
+  {
+    "code": "02",
+    "label": "Burgas",
+    "type": "Region"
+  },
+  {
+    "code": "03",
+    "label": "Varna",
+    "type": "Region"
+  },
+  {
+    "code": "04",
+    "label": "Veliko Tarnovo",
+    "type": "Region"
+  },
+  {
+    "code": "05",
+    "label": "Vidin",
+    "type": "Region"
+  },
+  {
+    "code": "06",
+    "label": "Vratsa",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Gabrovo",
+    "type": "Region"
+  },
+  {
+    "code": "08",
+    "label": "Dobrich",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Kardzhali",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Kjustendil",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "Lovech",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "Montana",
+    "type": "Region"
+  },
+  {
+    "code": "13",
+    "label": "Pazardzik",
+    "type": "Region"
+  },
+  {
+    "code": "14",
+    "label": "Pernik",
+    "type": "Region"
+  },
+  {
+    "code": "15",
+    "label": "Pleven",
+    "type": "Region"
+  },
+  {
+    "code": "16",
+    "label": "Plovdiv",
+    "type": "Region"
+  },
+  {
+    "code": "17",
+    "label": "Razgrad",
+    "type": "Region"
+  },
+  {
+    "code": "18",
+    "label": "Ruse",
+    "type": "Region"
+  },
+  {
+    "code": "19",
+    "label": "Silistra",
+    "type": "Region"
+  },
+  {
+    "code": "20",
+    "label": "Sliven",
+    "type": "Region"
+  },
+  {
+    "code": "21",
+    "label": "Smolyan",
+    "type": "Region"
+  },
+  {
+    "code": "22",
+    "label": "Sofia (stolitsa)",
+    "type": "Region"
+  },
+  {
+    "code": "23",
+    "label": "Sofia",
+    "type": "Region"
+  },
+  {
+    "code": "24",
+    "label": "Stara Zagora",
+    "type": "Region"
+  },
+  {
+    "code": "25",
+    "label": "Targovishte",
+    "type": "Region"
+  },
+  {
+    "code": "26",
+    "label": "Haskovo",
+    "type": "Region"
+  },
+  {
+    "code": "27",
+    "label": "Shumen",
+    "type": "Region"
+  },
+  {
+    "code": "28",
+    "label": "Yambol",
+    "type": "Region"
+  }
+]

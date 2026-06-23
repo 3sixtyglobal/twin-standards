@@ -1,0 +1,331 @@
+[
+  {
+    "locationCode": "AKD",
+    "label": "Akdepe",
+    "function": "3",
+    "lat": 38.3,
+    "lng": 57.583333
+  },
+  {
+    "locationCode": "ALT",
+    "label": "Altyn Asyr",
+    "function": "16",
+    "lat": 37.883333,
+    "lng": 58.366667
+  },
+  {
+    "locationCode": "AMY",
+    "label": "Amyderya",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 37.883333,
+    "lng": 65.233333
+  },
+  {
+    "locationCode": "AGT",
+    "label": "Ashgabat",
+    "subdivisionCode": "S",
+    "function": "26",
+    "lat": 37.95,
+    "lng": 58.383333
+  },
+  {
+    "locationCode": "ASB",
+    "label": "Ashkhabad",
+    "subdivisionCode": "S",
+    "function": "34",
+    "lat": 37.95,
+    "lng": 58.383333
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Babadaýhan",
+    "subdivisionCode": "A",
+    "labelWithDiacritics": "Babadayhan",
+    "function": "3",
+    "lat": 37.683333,
+    "lng": 60.383333
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bäherden",
+    "labelWithDiacritics": "Baherden",
+    "function": "23",
+    "lat": 38.433333,
+    "lng": 57.416667
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balkanabat",
+    "subdivisionCode": "B",
+    "function": "23",
+    "lat": 39.5,
+    "lng": 54.35
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Bayramaly",
+    "function": "23",
+    "lat": 37.616667,
+    "lng": 62.166667
+  },
+  {
+    "locationCode": "BKH",
+    "label": "Bekdash",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": 52.533333
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Boldumsaz",
+    "function": "23",
+    "lat": 42.133333,
+    "lng": 59.666667
+  },
+  {
+    "locationCode": "BZY",
+    "label": "Büzmeyin",
+    "labelWithDiacritics": "Buzmeyin",
+    "function": "23",
+    "lat": 38.05,
+    "lng": 58.2
+  },
+  {
+    "locationCode": "CJV",
+    "label": "Chärjew",
+    "subdivisionCode": "L",
+    "labelWithDiacritics": "Charjew",
+    "function": "3",
+    "lat": 39.1,
+    "lng": 63.566667
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Cheleken",
+    "subdivisionCode": "B",
+    "function": "13",
+    "lat": 39.4,
+    "lng": 53.133333
+  },
+  {
+    "locationCode": "DHZ",
+    "label": "Dashhowuz",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": 59.95
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Farap",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 39.166667,
+    "lng": 63.6
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galkynys",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 39.25,
+    "lng": 63.183333
+  },
+  {
+    "locationCode": "GUB",
+    "label": "Gubadag",
+    "function": "3",
+    "lat": 42.066667,
+    "lng": 59.966667
+  },
+  {
+    "locationCode": "GYP",
+    "label": "Gypjak",
+    "subdivisionCode": "A",
+    "function": "3",
+    "lat": 38,
+    "lng": 58.25
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halach",
+    "function": "13",
+    "lat": 38.066667,
+    "lng": 64.883333
+  },
+  {
+    "locationCode": "Z7H",
+    "label": "Hazar",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 39.433333,
+    "lng": 53.1
+  },
+  {
+    "locationCode": "JEB",
+    "label": "Jebel",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": 54.216667
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Kaka",
+    "function": "23",
+    "lat": 37.35,
+    "lng": 59.6
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kerkichi",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 37.85,
+    "lng": 65.233333
+  },
+  {
+    "locationCode": "KHS",
+    "label": "Khodzhambas",
+    "function": "3",
+    "lat": 38.116667,
+    "lng": 65
+  },
+  {
+    "locationCode": "KON",
+    "label": "Köneürgench",
+    "labelWithDiacritics": "Koneurgench",
+    "function": "23",
+    "lat": 42.316667,
+    "lng": 59.133333
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Krasnovodsk",
+    "subdivisionCode": "B",
+    "function": "13",
+    "lat": 40.016667,
+    "lng": 52.966667
+  },
+  {
+    "locationCode": "KUK",
+    "label": "Kushka",
+    "function": "23"
+  },
+  {
+    "locationCode": "LEB",
+    "label": "Lebap",
+    "function": "23",
+    "lat": 41.05,
+    "lng": 61.883333
+  },
+  {
+    "locationCode": "MYP",
+    "label": "Mary",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Murgap",
+    "subdivisionCode": "M",
+    "function": "23",
+    "lat": 37.483333,
+    "lng": 61.966667
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Säkar",
+    "subdivisionCode": "L",
+    "labelWithDiacritics": "Sakar",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": 63.733333
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Sarakhs",
+    "function": "3"
+  },
+  {
+    "locationCode": "SAY",
+    "label": "Sayat",
+    "function": "3",
+    "lat": 38.766667,
+    "lng": 63.883333
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shirvan-Kala",
+    "function": "3",
+    "lat": 42.25,
+    "lng": 58.633333
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tagta",
+    "function": "3",
+    "lat": 41.65,
+    "lng": 59.9
+  },
+  {
+    "locationCode": "TAZ",
+    "label": "Tashauz",
+    "function": "4"
+  },
+  {
+    "locationCode": "CRZ",
+    "label": "Tchardjou",
+    "function": "45"
+  },
+  {
+    "locationCode": "TEJ",
+    "label": "Tejen",
+    "subdivisionCode": "A",
+    "function": "23",
+    "lat": 37.366667,
+    "lng": 60.483333
+  },
+  {
+    "locationCode": "TMZ",
+    "label": "Termez",
+    "function": "1"
+  },
+  {
+    "locationCode": "TK5",
+    "label": "Turkmenabat",
+    "subdivisionCode": "L",
+    "function": "23",
+    "lat": 39.1,
+    "lng": 63.566667
+  },
+  {
+    "locationCode": "KRW",
+    "label": "Turkmenbashi",
+    "subdivisionCode": "B",
+    "function": "1234",
+    "lat": 40.016667,
+    "lng": 52.966667
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Turkmen-Kala",
+    "function": "3",
+    "lat": 37.433333,
+    "lng": 62.333333
+  },
+  {
+    "locationCode": "YOL",
+    "label": "Yolöten",
+    "labelWithDiacritics": "Yoloten",
+    "function": "23",
+    "lat": 37.3,
+    "lng": 62.35
+  },
+  {
+    "locationCode": "YLA",
+    "label": "Yylanly",
+    "function": "23",
+    "lat": 41.866667,
+    "lng": 59.633333
+  }
+]

@@ -4,7 +4,7 @@ Interface for EPC class URI.
 
 ## Properties
 
-### companyPrefix
+### companyPrefix {#companyprefix}
 
 > **companyPrefix**: `string`
 
@@ -12,7 +12,7 @@ The company prefix.
 
 ***
 
-### itemRefAndIndicator
+### itemRefAndIndicator {#itemrefandindicator}
 
 > **itemRefAndIndicator**: `string`
 
@@ -20,7 +20,7 @@ The item reference number.
 
 ***
 
-### lot
+### lot {#lot}
 
 > **lot**: `string`
 

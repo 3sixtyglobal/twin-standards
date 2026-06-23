@@ -1,0 +1,16 @@
+[
+  {
+    "locationCode": "VIC",
+    "label": "Ad Dakhla",
+    "function": "3",
+    "lat": 23.7,
+    "lng": -15.933333
+  },
+  {
+    "locationCode": "EAI",
+    "label": "Ejbei Uad el Aabd",
+    "function": "13",
+    "lat": 27.15,
+    "lng": -13.2
+  }
+]

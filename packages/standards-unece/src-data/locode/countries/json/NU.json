@@ -1,0 +1,14 @@
+[
+  {
+    "locationCode": "ALO",
+    "label": "Alofi",
+    "function": "1",
+    "lat": -19.05,
+    "lng": -169.916667
+  },
+  {
+    "locationCode": "IUE",
+    "label": "Niue Island",
+    "function": "145"
+  }
+]

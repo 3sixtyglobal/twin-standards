@@ -1,0 +1,368 @@
+# Interface: IDataspaceProtocolDistribution
+
+Distribution compliant with Eclipse Data Space Protocol, requiring an id and format.
+
+## See
+
+https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#lower-level-types
+
+## Extends
+
+- [`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md)
+
+## Properties
+
+### @context {#context}
+
+> **@context**: [`DataspaceProtocolContextType`](../type-aliases/DataspaceProtocolContextType.md)
+
+The JSON-LD context.
+
+***
+
+### @id {#id}
+
+> **@id**: `string`
+
+Unique identifier for the distribution; required on standalone distribution objects.
+
+#### Overrides
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`@id`](IDataspaceProtocolDistributionBase.md#id)
+
+***
+
+### @type {#type}
+
+> **@type**: `"Distribution"`
+
+The type identifier for the Distribution.
+REQUIRED per Eclipse Data Space Protocol.
+
+#### Inherited from
+
+`IDataspaceProtocolDistribution`.[`@type`](#type)
+
+***
+
+### hasPolicy? {#haspolicy}
+
+> `optional` **hasPolicy?**: [`IDataspaceProtocolOfferBase`](IDataspaceProtocolOfferBase.md)[]
+
+Optional array of ODRL offers; when present, must contain at least one entry.
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`hasPolicy`](IDataspaceProtocolDistributionBase.md#haspolicy)
+
+***
+
+### accessService {#accessservice}
+
+> **accessService**: `string` \| [`IDataspaceProtocolDataServiceBase`](IDataspaceProtocolDataServiceBase.md)
+
+Access service URI or inline access service definition.
+
+#### Inherited from
+
+`IDataspaceProtocolDistribution`.[`accessService`](#accessservice)
+
+***
+
+### format {#format}
+
+> **format**: `string`
+
+Distribution format identifier.
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`format`](IDataspaceProtocolDistributionBase.md#format)
+
+***
+
+### dcterms:title? {#dctermstitle}
+
+> `optional` **dcterms:title?**: `ObjectOrArray`\<`string`\>
+
+A name given to the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_title
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:title`](IDataspaceProtocolDistributionBase.md#dctermstitle)
+
+***
+
+### dcterms:description? {#dctermsdescription}
+
+> `optional` **dcterms:description?**: `ObjectOrArray`\<`string`\>
+
+A free-text account of the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_description
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:description`](IDataspaceProtocolDistributionBase.md#dctermsdescription)
+
+***
+
+### dcterms:issued? {#dctermsissued}
+
+> `optional` **dcterms:issued?**: `string`
+
+Date of formal issuance of the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_release_date
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:issued`](IDataspaceProtocolDistributionBase.md#dctermsissued)
+
+***
+
+### dcterms:modified? {#dctermsmodified}
+
+> `optional` **dcterms:modified?**: `string`
+
+Most recent date on which the distribution was changed, updated or modified.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_update_date
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:modified`](IDataspaceProtocolDistributionBase.md#dctermsmodified)
+
+***
+
+### dcterms:license? {#dctermslicense}
+
+> `optional` **dcterms:license?**: `string`
+
+A legal document under which the distribution is made available.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_license
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:license`](IDataspaceProtocolDistributionBase.md#dctermslicense)
+
+***
+
+### dcterms:accessRights? {#dctermsaccessrights}
+
+> `optional` **dcterms:accessRights?**: `string`
+
+Information about who can access the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_rights
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:accessRights`](IDataspaceProtocolDistributionBase.md#dctermsaccessrights)
+
+***
+
+### dcterms:rights? {#dctermsrights}
+
+> `optional` **dcterms:rights?**: `string`
+
+Information about rights held in and over the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_rights
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:rights`](IDataspaceProtocolDistributionBase.md#dctermsrights)
+
+***
+
+### dcat:accessURL? {#dcataccessurl}
+
+> `optional` **dcat:accessURL?**: `string`
+
+A URL of the resource that gives access to a distribution of the dataset.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_url
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:accessURL`](IDataspaceProtocolDistributionBase.md#dcataccessurl)
+
+***
+
+### dcat:accessService? {#dcataccessservice}
+
+> `optional` **dcat:accessService?**: `string`
+
+A data service that gives access to the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:accessService`](IDataspaceProtocolDistributionBase.md#dcataccessservice)
+
+***
+
+### dcat:downloadURL? {#dcatdownloadurl}
+
+> `optional` **dcat:downloadURL?**: `string`
+
+The URL of the downloadable file in a given format.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_download_url
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:downloadURL`](IDataspaceProtocolDistributionBase.md#dcatdownloadurl)
+
+***
+
+### dcat:byteSize? {#dcatbytesize}
+
+> `optional` **dcat:byteSize?**: `number`
+
+The size of the distribution in bytes.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_byte_size
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:byteSize`](IDataspaceProtocolDistributionBase.md#dcatbytesize)
+
+***
+
+### dcat:spatialResolutionInMeters? {#dcatspatialresolutioninmeters}
+
+> `optional` **dcat:spatialResolutionInMeters?**: `number`
+
+The minimum spatial separation resolvable in a distribution, measured in meters.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_spatial_resolution
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:spatialResolutionInMeters`](IDataspaceProtocolDistributionBase.md#dcatspatialresolutioninmeters)
+
+***
+
+### dcat:temporalResolution? {#dcattemporalresolution}
+
+> `optional` **dcat:temporalResolution?**: `string`
+
+Minimum time period resolvable in the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_temporal_resolution
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:temporalResolution`](IDataspaceProtocolDistributionBase.md#dcattemporalresolution)
+
+***
+
+### dcterms:conformsTo? {#dctermsconformsto}
+
+> `optional` **dcterms:conformsTo?**: `ObjectOrArray`\<`string`\>
+
+An established standard to which the distribution conforms.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_conforms_to
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcterms:conformsTo`](IDataspaceProtocolDistributionBase.md#dctermsconformsto)
+
+***
+
+### dcat:mediaType? {#dcatmediatype}
+
+> `optional` **dcat:mediaType?**: `string`
+
+The media type of the distribution as defined by IANA.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_media_type
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:mediaType`](IDataspaceProtocolDistributionBase.md#dcatmediatype)
+
+***
+
+### dcat:compressFormat? {#dcatcompressformat}
+
+> `optional` **dcat:compressFormat?**: `string`
+
+The compression format of the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_compression_format
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:compressFormat`](IDataspaceProtocolDistributionBase.md#dcatcompressformat)
+
+***
+
+### dcat:packageFormat? {#dcatpackageformat}
+
+> `optional` **dcat:packageFormat?**: `string`
+
+The package format of the distribution.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_packaging_format
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`dcat:packageFormat`](IDataspaceProtocolDistributionBase.md#dcatpackageformat)
+
+***
+
+### spdx:checksum? {#spdxchecksum}
+
+> `optional` **spdx:checksum?**: `string`
+
+The checksum property provides a mechanism to verify the data integrity.
+
+#### See
+
+https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_checksum
+
+#### Inherited from
+
+[`IDataspaceProtocolDistributionBase`](IDataspaceProtocolDistributionBase.md).[`spdx:checksum`](IDataspaceProtocolDistributionBase.md#spdxchecksum)

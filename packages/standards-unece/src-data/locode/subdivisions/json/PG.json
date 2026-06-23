@@ -1,0 +1,112 @@
+[
+  {
+    "code": "CPK",
+    "label": "Chimbu",
+    "type": "Province"
+  },
+  {
+    "code": "CPM",
+    "label": "Central",
+    "type": "Province"
+  },
+  {
+    "code": "EBR",
+    "label": "East New Britain",
+    "type": "Province"
+  },
+  {
+    "code": "EHG",
+    "label": "Eastern Highlands",
+    "type": "Province"
+  },
+  {
+    "code": "EPW",
+    "label": "Enga",
+    "type": "Province"
+  },
+  {
+    "code": "ESW",
+    "label": "East Sepik",
+    "type": "Province"
+  },
+  {
+    "code": "GPK",
+    "label": "Gulf",
+    "type": "Province"
+  },
+  {
+    "code": "HLA",
+    "label": "Hela",
+    "type": "Province"
+  },
+  {
+    "code": "JWK",
+    "label": "Jiwaka",
+    "type": "Province"
+  },
+  {
+    "code": "MBA",
+    "label": "Milne Bay",
+    "type": "Province"
+  },
+  {
+    "code": "MPL",
+    "label": "Morobe",
+    "type": "Province"
+  },
+  {
+    "code": "MPM",
+    "label": "Madang",
+    "type": "Province"
+  },
+  {
+    "code": "MRL",
+    "label": "Manus",
+    "type": "Province"
+  },
+  {
+    "code": "NCD",
+    "label": "National Capital District (Port Moresby)",
+    "type": "District"
+  },
+  {
+    "code": "NIK",
+    "label": "New Ireland",
+    "type": "Province"
+  },
+  {
+    "code": "NPP",
+    "label": "Northern",
+    "type": "Province"
+  },
+  {
+    "code": "NSB",
+    "label": "Bougainville",
+    "type": "autonomous region"
+  },
+  {
+    "code": "SAN",
+    "label": "West Sepik",
+    "type": "Province"
+  },
+  {
+    "code": "SHM",
+    "label": "Southern Highlands",
+    "type": "Province"
+  },
+  {
+    "code": "WBK",
+    "label": "West New Britain",
+    "type": "Province"
+  },
+  {
+    "code": "WHM",
+    "label": "Western Highlands",
+    "type": "Province"
+  },
+  {
+    "code": "WPD",
+    "label": "Western",
+    "type": "Province"
+  }
+]

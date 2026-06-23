@@ -1,0 +1,29 @@
+[
+  {
+    "locationCode": "CRU",
+    "label": "Carriacou Apt",
+    "function": "34",
+    "lat": 12.466667,
+    "lng": -61.466667
+  },
+  {
+    "locationCode": "GND",
+    "label": "Grenada",
+    "function": "45"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Grenville",
+    "function": "1"
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Hillsborough, Carriacou Is",
+    "function": "1"
+  },
+  {
+    "locationCode": "STG",
+    "label": "Saint George's",
+    "function": "1"
+  }
+]

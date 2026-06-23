@@ -1,0 +1,1034 @@
+[
+  {
+    "locationCode": "AKM",
+    "label": "Akmene",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 56.25,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "AYS",
+    "label": "Alytus",
+    "function": "3",
+    "lat": 54.4,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Anyksciai",
+    "subdivisionCode": "UT",
+    "function": "6",
+    "lat": 55.533333,
+    "lng": 25.1
+  },
+  {
+    "locationCode": "AGM",
+    "label": "Augmenai",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 55.65,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "AUK",
+    "label": "Aukstkiemiai",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 55.766667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "AZI",
+    "label": "Avizieniai",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.766667,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "BET",
+    "label": "Betygala",
+    "function": "6"
+  },
+  {
+    "locationCode": "BLI",
+    "label": "Bilioniai",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Birstonas",
+    "function": "6"
+  },
+  {
+    "locationCode": "BIK",
+    "label": "Biruliskiai",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.933333,
+    "lng": 24
+  },
+  {
+    "locationCode": "BRZ",
+    "label": "Birzai",
+    "function": "3"
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Botingé",
+    "labelWithDiacritics": "Botinge",
+    "function": "1",
+    "lat": 56.066667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "BUI",
+    "label": "Buikiske",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 55.316667,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "BUY",
+    "label": "Buivydiskes",
+    "subdivisionCode": "58",
+    "function": "3",
+    "lat": 54.716667,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "DEW",
+    "label": "Darbenai",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 56.016667,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "DID",
+    "label": "Didzioji Reise",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.783333,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "DYS",
+    "label": "Dovainonys",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 54.816667,
+    "lng": 24.233333
+  },
+  {
+    "locationCode": "MBX",
+    "label": "Drobuksciai",
+    "subdivisionCode": "TE",
+    "function": "3",
+    "lat": 55.7,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "DKI",
+    "label": "Druskininkai",
+    "subdivisionCode": "AL",
+    "function": "34",
+    "lat": 54.016667,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "EMK",
+    "label": "Eitminiskes",
+    "function": "3",
+    "lat": 54.916667,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "ETI",
+    "label": "Elektrenai",
+    "function": "3",
+    "lat": 54.783333,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "EZS",
+    "label": "Ezerelis",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.883333,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "GZD",
+    "label": "Gargzdai",
+    "subdivisionCode": "KL",
+    "function": "36",
+    "lat": 55.7,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "GLV",
+    "label": "Garliava",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.816667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "GLI",
+    "label": "Glitiskes",
+    "subdivisionCode": "VL",
+    "function": "0",
+    "lat": 54.983333,
+    "lng": 25.216667
+  },
+  {
+    "locationCode": "GKS",
+    "label": "Grinkiskis",
+    "function": "3",
+    "lat": 55.55,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "GTY",
+    "label": "Gustonys",
+    "subdivisionCode": "PN",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "IGL",
+    "label": "Ignalina",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 55.35,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "IGA",
+    "label": "Ilgakiemis (Ilgakiemio)",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 54.766667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "OND",
+    "label": "Jasiunai",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.433333,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "JIE",
+    "label": "Jieznas",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.6,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "JNA",
+    "label": "Jonava",
+    "function": "23",
+    "lat": 55.066667,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "JON",
+    "label": "Joniskis",
+    "function": "23",
+    "lat": 56.233333,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "JUR",
+    "label": "Jurbarkas",
+    "function": "3",
+    "lat": 55.083333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "KDO",
+    "label": "Kaisiadorys",
+    "subdivisionCode": "KU",
+    "function": "236",
+    "lat": 54.866667,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "KTE",
+    "label": "Kalote",
+    "function": "6",
+    "lat": 55.783333,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "KLT",
+    "label": "Kaltene",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZQA",
+    "label": "Kalvarija",
+    "subdivisionCode": "MR",
+    "function": "3",
+    "lat": 54.4,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Karmelava",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 54.966667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kaunas",
+    "function": "34"
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kazlu Ruda",
+    "function": "23",
+    "lat": 54.766667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "KDN",
+    "label": "Kedainiai",
+    "function": "3",
+    "lat": 55.3,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kelme",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 55.616667,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kena",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 54.65,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "KLJ",
+    "label": "Klaipeda",
+    "function": "124"
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Klovainiai",
+    "function": "3",
+    "lat": 55.933333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "KRE",
+    "label": "Kretinga",
+    "function": "23",
+    "lat": 55.883333,
+    "lng": 21.233333
+  },
+  {
+    "locationCode": "KET",
+    "label": "Kretingsodis",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 55.883333,
+    "lng": 21.216667
+  },
+  {
+    "locationCode": "KUP",
+    "label": "Kupiskis",
+    "function": "23",
+    "lat": 55.833333,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kursénai",
+    "subdivisionCode": "SA",
+    "labelWithDiacritics": "Kursenai",
+    "function": "23",
+    "lat": 55.983333,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "KYB",
+    "label": "Kybartai",
+    "subdivisionCode": "MR",
+    "function": "23",
+    "lat": 54.633333,
+    "lng": 22.733333
+  },
+  {
+    "locationCode": "LUA",
+    "label": "Laukesa",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "LVK",
+    "label": "Lavoriskes",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.716667,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "LAZ",
+    "label": "Lazdijai",
+    "function": "3",
+    "lat": 54.233333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "LEN",
+    "label": "Lentvaris",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.633333,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Levaniskiai",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 55.266667,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "LII",
+    "label": "Lingailiai",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 55.85,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "LDY",
+    "label": "Liudyne",
+    "function": "6"
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Maciuiciai",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 55.683333,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "MAI",
+    "label": "Maisiagala",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": 25.066667
+  },
+  {
+    "locationCode": "MLM",
+    "label": "Malku ilankos juru uosto PVP/Klaipeda",
+    "subdivisionCode": "KL",
+    "function": "13",
+    "lat": 55.716667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "MJP",
+    "label": "Marijampole",
+    "function": "3"
+  },
+  {
+    "locationCode": "MZK",
+    "label": "Mazeikiai",
+    "function": "23",
+    "lat": 56.316667,
+    "lng": 22.35
+  },
+  {
+    "locationCode": "MDK",
+    "label": "Medininkai",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.533333,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "MCI",
+    "label": "Micaiciai",
+    "subdivisionCode": "44",
+    "function": "23",
+    "lat": 55.966667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Mockava",
+    "function": "23",
+    "lat": 54.333333,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Moletai",
+    "function": "36",
+    "lat": 55.233333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "MOM",
+    "label": "Molo juru uosto PVP/Klaipeda",
+    "subdivisionCode": "KL",
+    "function": "13",
+    "lat": 55.716667,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mosedis",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 56.166667,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Musninkai",
+    "function": "3",
+    "lat": 54.95,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "NJM",
+    "label": "Naujamiestis",
+    "function": "3"
+  },
+  {
+    "locationCode": "NAK",
+    "label": "Naujoji Akmene",
+    "function": "23",
+    "lat": 56.316667,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "NMS",
+    "label": "Nemaksciai",
+    "subdivisionCode": "KU",
+    "function": "23",
+    "lat": 55.416667,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Nemezis",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.633333,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "NER",
+    "label": "Neringa",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 55.366667,
+    "lng": 21.05
+  },
+  {
+    "locationCode": "NE2",
+    "label": "Neveronys",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.916667,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "NID",
+    "label": "Nida",
+    "subdivisionCode": "AL",
+    "function": "3",
+    "lat": 56.1,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "PAB",
+    "label": "Pabrade",
+    "function": "23",
+    "lat": 54.983333,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "PZI",
+    "label": "Paezeriai",
+    "subdivisionCode": "56",
+    "function": "3",
+    "lat": 54.633333,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "PGI",
+    "label": "Pagegiai",
+    "subdivisionCode": "KL",
+    "function": "23",
+    "lat": 55.133333,
+    "lng": 21.9
+  },
+  {
+    "locationCode": "PKJ",
+    "label": "Pakruojis",
+    "subdivisionCode": "SA",
+    "function": "236",
+    "lat": 55.966667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "PLQ",
+    "label": "Palanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Panemune",
+    "subdivisionCode": "KL",
+    "function": "3",
+    "lat": 55.083333,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "PNV",
+    "label": "Panevezys",
+    "function": "34",
+    "lat": 55.733333,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "PSS",
+    "label": "Pasusvys",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "PVS",
+    "label": "Pasvalys",
+    "function": "3",
+    "lat": 56.066667,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "PNA",
+    "label": "Pelednagiai",
+    "function": "3",
+    "lat": 55.233333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "PET",
+    "label": "Petrasiunai",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.866667,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Pilies juru uosto PVP/Klaipeda",
+    "subdivisionCode": "KL",
+    "function": "13",
+    "lat": 55.716667,
+    "lng": 21.083333
+  },
+  {
+    "locationCode": "PLG",
+    "label": "Plunge",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 55.9,
+    "lng": 21.85
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Prienai",
+    "function": "3",
+    "lat": 54.633333,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Pusalotas",
+    "function": "23",
+    "lat": 55.916667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "RVS",
+    "label": "Radviliskis",
+    "subdivisionCode": "SA",
+    "function": "236",
+    "lat": 55.816667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "LTK",
+    "label": "Ramuciai",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 54.95,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "RAS",
+    "label": "Raseiniai",
+    "function": "36",
+    "lat": 55.383333,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Raudondvaris",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.833333,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "RTS",
+    "label": "Rietavas",
+    "function": "3",
+    "lat": 55.716667,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "RKS",
+    "label": "Rokiskis",
+    "subdivisionCode": "PN",
+    "function": "23",
+    "lat": 55.95,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "RKL",
+    "label": "Rukla",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 55.05,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumiskies",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Sakiai",
+    "subdivisionCode": "MR",
+    "function": "3",
+    "lat": 54.95,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Salcininkai",
+    "function": "23",
+    "lat": 54.3,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Salcininkai kelio PVP/Salcininkai",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.3,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "STR",
+    "label": "Senieji Trakai",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 54.616667,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "SSK",
+    "label": "Sestokai",
+    "subdivisionCode": "MR",
+    "function": "2",
+    "lat": 54.366667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "SQQ",
+    "label": "Siauliai",
+    "function": "34"
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Silale",
+    "function": "3",
+    "lat": 55.466667,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Silute",
+    "subdivisionCode": "KL",
+    "function": "23",
+    "lat": 55.333333,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Sirvintos",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 55.016667,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Skuodas",
+    "function": "3",
+    "lat": 56.266667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Slikiai",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 55.216667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Stakliskes",
+    "subdivisionCode": "16",
+    "function": "6",
+    "lat": 54.6,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "SLC",
+    "label": "Strielciai",
+    "subdivisionCode": "PN",
+    "function": "3",
+    "lat": 54.666667,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "SVN",
+    "label": "Svencioneliai",
+    "function": "3",
+    "lat": 55.166667,
+    "lng": 26
+  },
+  {
+    "locationCode": "SVE",
+    "label": "Svencoinys",
+    "function": "6"
+  },
+  {
+    "locationCode": "TAU",
+    "label": "Tauragé",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Taurage",
+    "function": "23",
+    "lat": 55.25,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Telsiai",
+    "subdivisionCode": "TE",
+    "function": "23",
+    "lat": 55.966667,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "TKI",
+    "label": "Trakai",
+    "subdivisionCode": "VL",
+    "function": "3",
+    "lat": 54.633333,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "TKS",
+    "label": "Traksedis",
+    "function": "23",
+    "lat": 55.35,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "TVI",
+    "label": "Tytuvenai",
+    "subdivisionCode": "SA",
+    "function": "23",
+    "lat": 55.6,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "UKE",
+    "label": "Ukmerge",
+    "function": "23",
+    "lat": 55.25,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "UTA",
+    "label": "Utena",
+    "subdivisionCode": "UT",
+    "function": "23",
+    "lat": 55.5,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vaidotai",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 54.6,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vandziogala",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": 55.116667,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "VRN",
+    "label": "Varena",
+    "subdivisionCode": "AL",
+    "function": "23",
+    "lat": 54.216667,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "VEA",
+    "label": "Venta",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 56.2,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "VEN",
+    "label": "Venta",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 56.2,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "VER",
+    "label": "Verbiskes",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 55.316667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "VID",
+    "label": "Vidukle",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 55.4,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "VKA",
+    "label": "Vieksniai",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 56.233333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "VEV",
+    "label": "Vievis",
+    "subdivisionCode": "VL",
+    "function": "23",
+    "lat": 54.766667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "VKV",
+    "label": "Vilkaviskis",
+    "function": "3",
+    "lat": 54.65,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "VNO",
+    "label": "Vilnius",
+    "function": "2345"
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Vilnius",
+    "subdivisionCode": "58",
+    "function": "23",
+    "lat": 54.683333,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "VIS",
+    "label": "Visaginas",
+    "subdivisionCode": "UT",
+    "function": "3",
+    "lat": 55.6,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "ZAP",
+    "label": "Zapishkis",
+    "function": "6"
+  },
+  {
+    "locationCode": "ZYK",
+    "label": "Zapyskis",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 54.916667,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Zarasai",
+    "function": "3",
+    "lat": 55.733333,
+    "lng": 26.25
+  },
+  {
+    "locationCode": "ZZM",
+    "label": "Ziezmariai",
+    "function": "3",
+    "lat": 54.8,
+    "lng": 24.45
+  }
+]

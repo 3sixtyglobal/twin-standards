@@ -1,0 +1,170 @@
+[
+  {
+    "locationCode": "ABF",
+    "label": "Abaiang",
+    "function": "4"
+  },
+  {
+    "locationCode": "AEA",
+    "label": "Abemama",
+    "function": "4"
+  },
+  {
+    "locationCode": "AAK",
+    "label": "Aranuka",
+    "function": "4"
+  },
+  {
+    "locationCode": "AIS",
+    "label": "Arorae Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEZ",
+    "label": "Beru",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Birnie Island",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -3.583333,
+    "lng": -171.516667
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Butaritari",
+    "function": "4"
+  },
+  {
+    "locationCode": "CIS",
+    "label": "Canton Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "CXI",
+    "label": "Christmas Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "EBI",
+    "label": "Enderbury Island",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -3.15,
+    "lng": -171.083333
+  },
+  {
+    "locationCode": "FIS",
+    "label": "Fanning Islands",
+    "function": "1"
+  },
+  {
+    "locationCode": "HUL",
+    "label": "Hull Island",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -4.516667,
+    "lng": -172.183333
+  },
+  {
+    "locationCode": "KUC",
+    "label": "Kuria",
+    "function": "4"
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Maiana",
+    "function": "4"
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Makin Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZK",
+    "label": "Marakei",
+    "function": "4"
+  },
+  {
+    "locationCode": "MCK",
+    "label": "Mckean Island",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -3.583333,
+    "lng": -174.116667
+  },
+  {
+    "locationCode": "NIK",
+    "label": "Nikumaroro",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -4.683333,
+    "lng": -174.516667
+  },
+  {
+    "locationCode": "NIG",
+    "label": "Nikunau",
+    "function": "4"
+  },
+  {
+    "locationCode": "NON",
+    "label": "Nonouti",
+    "function": "4"
+  },
+  {
+    "locationCode": "OOT",
+    "label": "Onotoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "PHO",
+    "label": "Phoenix Islands",
+    "function": "1"
+  },
+  {
+    "locationCode": "SYI",
+    "label": "Sydney Island",
+    "subdivisionCode": "P",
+    "function": "1",
+    "lat": -4.466667,
+    "lng": -171.25
+  },
+  {
+    "locationCode": "TBF",
+    "label": "Tabiteuea North",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSU",
+    "label": "Tabiteuea South",
+    "function": "4"
+  },
+  {
+    "locationCode": "TNV",
+    "label": "Tabuaeran",
+    "function": "4"
+  },
+  {
+    "locationCode": "TMN",
+    "label": "Tamana Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRW",
+    "label": "Tarawa",
+    "function": "14"
+  },
+  {
+    "locationCode": "TNQ",
+    "label": "Teraina",
+    "function": "4"
+  },
+  {
+    "locationCode": "WNI",
+    "label": "Washington Islands",
+    "function": "1"
+  }
+]

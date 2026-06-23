@@ -1,0 +1,132 @@
+[
+  {
+    "code": "CE",
+    "label": "Clare",
+    "type": "County"
+  },
+  {
+    "code": "CN",
+    "label": "Cavan",
+    "type": "County"
+  },
+  {
+    "code": "CO",
+    "label": "Cork",
+    "type": "County"
+  },
+  {
+    "code": "CW",
+    "label": "Carlow",
+    "type": "County"
+  },
+  {
+    "code": "D",
+    "label": "Dublin",
+    "type": "County"
+  },
+  {
+    "code": "DL",
+    "label": "Donegal",
+    "type": "County"
+  },
+  {
+    "code": "G",
+    "label": "Galway",
+    "type": "County"
+  },
+  {
+    "code": "KE",
+    "label": "Kildare",
+    "type": "County"
+  },
+  {
+    "code": "KK",
+    "label": "Kilkenny",
+    "type": "County"
+  },
+  {
+    "code": "KY",
+    "label": "Kerry",
+    "type": "County"
+  },
+  {
+    "code": "LD",
+    "label": "Longford",
+    "type": "County"
+  },
+  {
+    "code": "LH",
+    "label": "Louth",
+    "type": "County"
+  },
+  {
+    "code": "LK",
+    "label": "Limerick",
+    "type": "County"
+  },
+  {
+    "code": "LM",
+    "label": "Leitrim",
+    "type": "County"
+  },
+  {
+    "code": "LS",
+    "label": "Laois",
+    "type": "County"
+  },
+  {
+    "code": "MH",
+    "label": "Meath",
+    "type": "County"
+  },
+  {
+    "code": "MN",
+    "label": "Monaghan",
+    "type": "County"
+  },
+  {
+    "code": "MO",
+    "label": "Mayo",
+    "type": "County"
+  },
+  {
+    "code": "OY",
+    "label": "Offaly",
+    "type": "County"
+  },
+  {
+    "code": "RN",
+    "label": "Roscommon",
+    "type": "County"
+  },
+  {
+    "code": "SO",
+    "label": "Sligo",
+    "type": "County"
+  },
+  {
+    "code": "TA",
+    "label": "Tipperary",
+    "type": "County"
+  },
+  {
+    "code": "WD",
+    "label": "Waterford",
+    "type": "County"
+  },
+  {
+    "code": "WH",
+    "label": "Westmeath",
+    "type": "County"
+  },
+  {
+    "code": "WW",
+    "label": "Wicklow",
+    "type": "County"
+  },
+  {
+    "code": "WX",
+    "label": "Wexford",
+    "type": "County"
+  }
+]

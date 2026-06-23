@@ -1,0 +1,21 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/dcsa/DcsaEventMetadataRetraction",
+	"title": "DcsaEventMetadataRetraction",
+	"description": "Retraction event metadata.\n\nIf `retractedEventID` is provided, the event MUST NOT include a payload.",
+	"type": "object",
+	"properties": {
+		"retractedEventID": {
+			"type": "string",
+			"description": "The `eventID` of the event being retracted."
+		}
+	},
+	"required": [
+		"retractedEventID"
+	],
+	"allOf": [
+		{
+			"$ref": "https://schema.twindev.org/dcsa/DcsaEventMetadataBase"
+		}
+	]
+}

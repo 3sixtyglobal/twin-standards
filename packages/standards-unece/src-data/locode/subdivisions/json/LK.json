@@ -1,0 +1,172 @@
+[
+  {
+    "code": "1",
+    "label": "Basnahira pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Colombo",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Gampaha",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Kalutara",
+    "type": "District"
+  },
+  {
+    "code": "2",
+    "label": "Madhyama pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Kandy",
+    "type": "District"
+  },
+  {
+    "code": "22",
+    "label": "Matale",
+    "type": "District"
+  },
+  {
+    "code": "23",
+    "label": "Nuwara Eliya",
+    "type": "District"
+  },
+  {
+    "code": "3",
+    "label": "Daku?u pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "Galle",
+    "type": "District"
+  },
+  {
+    "code": "32",
+    "label": "Matara",
+    "type": "District"
+  },
+  {
+    "code": "33",
+    "label": "Hambantota",
+    "type": "District"
+  },
+  {
+    "code": "4",
+    "label": "Uturu pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "41",
+    "label": "Jaffna",
+    "type": "District"
+  },
+  {
+    "code": "42",
+    "label": "Kilinochchi",
+    "type": "District"
+  },
+  {
+    "code": "43",
+    "label": "Mannar",
+    "type": "District"
+  },
+  {
+    "code": "44",
+    "label": "Vavuniya",
+    "type": "District"
+  },
+  {
+    "code": "45",
+    "label": "Mullaittivu",
+    "type": "District"
+  },
+  {
+    "code": "5",
+    "label": "Næ?genahira pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "51",
+    "label": "Batticaloa",
+    "type": "District"
+  },
+  {
+    "code": "52",
+    "label": "Ampara",
+    "type": "District"
+  },
+  {
+    "code": "53",
+    "label": "Trincomalee",
+    "type": "District"
+  },
+  {
+    "code": "6",
+    "label": "Vayamba pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "61",
+    "label": "Kurunegala",
+    "type": "District"
+  },
+  {
+    "code": "62",
+    "label": "Puttalam",
+    "type": "District"
+  },
+  {
+    "code": "7",
+    "label": "Uturumæ?da pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "71",
+    "label": "Anuradhapura",
+    "type": "District"
+  },
+  {
+    "code": "72",
+    "label": "Polonnaruwa",
+    "type": "District"
+  },
+  {
+    "code": "8",
+    "label": "Uva pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "81",
+    "label": "Badulla",
+    "type": "District"
+  },
+  {
+    "code": "82",
+    "label": "Monaragala",
+    "type": "District"
+  },
+  {
+    "code": "9",
+    "label": "Sabaragamuva pa?ata",
+    "type": "Province"
+  },
+  {
+    "code": "91",
+    "label": "Ratnapura",
+    "type": "District"
+  },
+  {
+    "code": "92",
+    "label": "Kegalla",
+    "type": "District"
+  }
+]

@@ -1,0 +1,70 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+
+/**
+ * Type identifiers for the Dataspace Protocol Catalog Protocol.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1/#catalog-protocol
+ */
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export const DataspaceProtocolCatalogTypes = {
+	/**
+	 * Catalog Request Message.
+	 */
+	CatalogRequestMessage: "CatalogRequestMessage",
+
+	/**
+	 * Dataset Request Message.
+	 */
+	DatasetRequestMessage: "DatasetRequestMessage",
+
+	/**
+	 * Catalog Error.
+	 */
+	CatalogError: "CatalogError",
+
+	/**
+	 * Dataset.
+	 */
+	Dataset: "Dataset",
+
+	/**
+	 * Data Service.
+	 */
+	DataService: "DataService",
+
+	/**
+	 * Distribution.
+	 */
+	Distribution: "Distribution",
+
+	/**
+	 * Catalog.
+	 */
+	Catalog: "Catalog",
+
+	/**
+	 * Policy.
+	 */
+	Policy: "Policy",
+
+	/**
+	 * Offer.
+	 */
+	Offer: "Offer",
+
+	/**
+	 * Agreement.
+	 */
+	Agreement: "Agreement",
+
+	/**
+	 * Set.
+	 */
+	Set: "Set"
+} as const;
+
+/**
+ * The types for Dataspace Protocol Catalog Protocol.
+ */
+export type DataspaceProtocolCatalogTypes =
+	(typeof DataspaceProtocolCatalogTypes)[keyof typeof DataspaceProtocolCatalogTypes];

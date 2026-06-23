@@ -1,0 +1,52 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceSubordinateLineTradeAgreement",
+	"title": "UneceSubordinateLineTradeAgreement",
+	"description": "The contractual terms of a subordinate line trade agreement.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "SubordinateLineTradeAgreement",
+			"description": "JSON-LD Type."
+		},
+		"additionalDocument": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
+			"description": "An additional document referenced in this subordinate line trade agreement."
+		},
+		"buyerOrderDocument": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceDocument"
+			},
+			"description": "A buyer generated order document referenced in this subordinate line trade agreement."
+		},
+		"grossPriceProductPrice": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradePrice"
+			},
+			"description": "A gross product price in this subordinate line trade agreement."
+		},
+		"netPriceProductPrice": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceTradePrice"
+			},
+			"description": "A net product price in this subordinate line trade agreement."
+		},
+		"sellerOrderDocument": {
+			"$ref": "https://schema.twindev.org/unece/UneceDocument",
+			"description": "The seller generated order document referenced in this subordinate line trade agreement."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

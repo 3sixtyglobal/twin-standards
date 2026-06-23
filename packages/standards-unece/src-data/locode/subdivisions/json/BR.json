@@ -1,0 +1,137 @@
+[
+  {
+    "code": "AC",
+    "label": "Acre",
+    "type": "State"
+  },
+  {
+    "code": "AL",
+    "label": "Alagoas",
+    "type": "State"
+  },
+  {
+    "code": "AM",
+    "label": "Amazonas",
+    "type": "State"
+  },
+  {
+    "code": "AP",
+    "label": "Amapá",
+    "type": "State"
+  },
+  {
+    "code": "BA",
+    "label": "Bahia",
+    "type": "State"
+  },
+  {
+    "code": "CE",
+    "label": "Ceará",
+    "type": "State"
+  },
+  {
+    "code": "DF",
+    "label": "Distrito Federal",
+    "type": "Federal district"
+  },
+  {
+    "code": "ES",
+    "label": "Espírito Santo",
+    "type": "State"
+  },
+  {
+    "code": "GO",
+    "label": "Goiás",
+    "type": "State"
+  },
+  {
+    "code": "MA",
+    "label": "Maranhão",
+    "type": "State"
+  },
+  {
+    "code": "MG",
+    "label": "Minas Gerais",
+    "type": "State"
+  },
+  {
+    "code": "MS",
+    "label": "Mato Grosso do Sul",
+    "type": "State"
+  },
+  {
+    "code": "MT",
+    "label": "Mato Grosso",
+    "type": "State"
+  },
+  {
+    "code": "PA",
+    "label": "Pará",
+    "type": "State"
+  },
+  {
+    "code": "PB",
+    "label": "Paraíba",
+    "type": "State"
+  },
+  {
+    "code": "PE",
+    "label": "Pernambuco",
+    "type": "State"
+  },
+  {
+    "code": "PI",
+    "label": "Piauí",
+    "type": "State"
+  },
+  {
+    "code": "PR",
+    "label": "Paraná",
+    "type": "State"
+  },
+  {
+    "code": "RJ",
+    "label": "Rio de Janeiro",
+    "type": "State"
+  },
+  {
+    "code": "RN",
+    "label": "Rio Grande do Norte",
+    "type": "State"
+  },
+  {
+    "code": "RO",
+    "label": "Rondônia",
+    "type": "State"
+  },
+  {
+    "code": "RR",
+    "label": "Roraima",
+    "type": "State"
+  },
+  {
+    "code": "RS",
+    "label": "Rio Grande do Sul",
+    "type": "State"
+  },
+  {
+    "code": "SC",
+    "label": "Santa Catarina",
+    "type": "State"
+  },
+  {
+    "code": "SE",
+    "label": "Sergipe",
+    "type": "State"
+  },
+  {
+    "code": "SP",
+    "label": "São Paulo",
+    "type": "State"
+  },
+  {
+    "code": "TO",
+    "label": "Tocantins",
+    "type": "State"
+  }
+]

@@ -1,0 +1,119 @@
+# Interface: IUneceDeliveryInstructions
+
+Delivery information of an instructive nature.
+
+## See
+
+https://vocabulary.uncefact.org/DeliveryInstructions
+
+## Properties
+
+### @context? {#context}
+
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+***
+
+### type {#type}
+
+> **type**: `"DeliveryInstructions"`
+
+JSON-LD Type.
+
+***
+
+### deliveryInstructionsDescriptionCode? {#deliveryinstructionsdescriptioncode}
+
+> `optional` **deliveryInstructionsDescriptionCode?**: `string`
+
+The code specifying a description of these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/deliveryInstructionsDescriptionCode
+
+***
+
+### description? {#description}
+
+> `optional` **description?**: `string`
+
+A textual description of these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/description
+
+***
+
+### handling? {#handling}
+
+> `optional` **handling?**: `string`
+
+Delivery handling instructions expressed as text.
+
+#### See
+
+https://vocabulary.uncefact.org/handling
+
+***
+
+### handlingCode? {#handlingcode}
+
+> `optional` **handlingCode?**: `string`
+
+A code specifying delivery handling instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/handlingCode
+
+***
+
+### instructionsType? {#instructionstype}
+
+> `optional` **instructionsType?**: `string`
+
+A type, expressed as text, for these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/instructionsType
+
+***
+
+### itemName? {#itemname}
+
+> `optional` **itemName?**: `string`
+
+A name, expressed as text, of an item included in these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/itemName
+
+***
+
+### procedure? {#procedure}
+
+> `optional` **procedure?**: `string`
+
+A procedure, expressed as text, for these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/procedure
+
+***
+
+### requirementIndicator? {#requirementindicator}
+
+> `optional` **requirementIndicator?**: `boolean`
+
+The indication of whether or not a requirement exists for these delivery instructions.
+
+#### See
+
+https://vocabulary.uncefact.org/requirementIndicator

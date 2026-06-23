@@ -1,0 +1,836 @@
+[
+  {
+    "locationCode": "AKO",
+    "label": "Akouda",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 10.566667
+  },
+  {
+    "locationCode": "HMM",
+    "label": "Al Hammamat",
+    "function": "1236",
+    "lat": 36.4,
+    "lng": 10.616667
+  },
+  {
+    "locationCode": "AMN",
+    "label": "Al Manarah",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.7,
+    "lng": 10.783333
+  },
+  {
+    "locationCode": "TZE",
+    "label": "Al Marsá",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Al Marsa",
+    "function": "1236",
+    "lat": 36.883333,
+    "lng": 10.333333
+  },
+  {
+    "locationCode": "AQY",
+    "label": "Al Qasrayn",
+    "function": "23",
+    "lat": 35.166667,
+    "lng": 8.833333
+  },
+  {
+    "locationCode": "AQR",
+    "label": "Al Qayrawan",
+    "function": "3",
+    "lat": 35.666667,
+    "lng": 10.083333
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Ariana",
+    "subdivisionCode": "11",
+    "function": "16",
+    "lat": 36.85,
+    "lng": 10.183333
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Ashtart Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEJ",
+    "label": "Béja",
+    "labelWithDiacritics": "Beja",
+    "function": "23",
+    "lat": 36.733333,
+    "lng": 9.183333
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Ben Arous",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.75,
+    "lng": 10.216667
+  },
+  {
+    "locationCode": "BGA",
+    "label": "Ben Gardane",
+    "function": "3"
+  },
+  {
+    "locationCode": "N4T",
+    "label": "Beni Khalled",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 36.65,
+    "lng": 10.6
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Bin Arous",
+    "function": "3",
+    "lat": 36.75,
+    "lng": 10.316667
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Bir Mcherga",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 36.516667,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "BIZ",
+    "label": "Bizerte",
+    "function": "1234"
+  },
+  {
+    "locationCode": "BJC",
+    "label": "Borj Cedria",
+    "subdivisionCode": "21",
+    "function": "13",
+    "lat": 36.7,
+    "lng": 10.4
+  },
+  {
+    "locationCode": "BEB",
+    "label": "Borj el Bey",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 10.3
+  },
+  {
+    "locationCode": "B8N",
+    "label": "Bou Argoub",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 36.533333,
+    "lng": 10.55
+  },
+  {
+    "locationCode": "BOF",
+    "label": "Bou Ficha",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 36.3,
+    "lng": 10.45
+  },
+  {
+    "locationCode": "BOU",
+    "label": "Boumhel",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 36.716667,
+    "lng": 10.3
+  },
+  {
+    "locationCode": "BUH",
+    "label": "Bu Hajar",
+    "subdivisionCode": "52",
+    "function": "6",
+    "lat": 35.683333,
+    "lng": 10.866667
+  },
+  {
+    "locationCode": "TZB",
+    "label": "Bu Mirdas",
+    "subdivisionCode": "53",
+    "function": "36",
+    "lat": 35.45,
+    "lng": 10.733333
+  },
+  {
+    "locationCode": "B6Q",
+    "label": "Bu Urqub",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 36.533333,
+    "lng": 10.55
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Carthage",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.85,
+    "lng": 10.316667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chaouat",
+    "function": "3",
+    "lat": 36.866667,
+    "lng": 9.95
+  },
+  {
+    "locationCode": "CHB",
+    "label": "Chebba",
+    "subdivisionCode": "53",
+    "function": "13",
+    "lat": 35.233333,
+    "lng": 11.1
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Dar Chabanne",
+    "subdivisionCode": "21",
+    "function": "6",
+    "lat": 36.466667,
+    "lng": 10.75
+  },
+  {
+    "locationCode": "DID",
+    "label": "Didon",
+    "function": "1",
+    "lat": 33.766667,
+    "lng": 11.9
+  },
+  {
+    "locationCode": "DJE",
+    "label": "Djerba",
+    "function": "134"
+  },
+  {
+    "locationCode": "EBM",
+    "label": "El Borma",
+    "function": "4"
+  },
+  {
+    "locationCode": "EFS",
+    "label": "El Fahs",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 36.366667,
+    "lng": 9.9
+  },
+  {
+    "locationCode": "EHS",
+    "label": "El Fahs",
+    "subdivisionCode": "22",
+    "function": "23",
+    "lat": 36.366667,
+    "lng": 9.9
+  },
+  {
+    "locationCode": "E2H",
+    "label": "El Hamma",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 33.9,
+    "lng": 9.8
+  },
+  {
+    "locationCode": "TZC",
+    "label": "El Jem",
+    "subdivisionCode": "53",
+    "function": "6",
+    "lat": 35.3,
+    "lng": 10.716667
+  },
+  {
+    "locationCode": "MOU",
+    "label": "El Mourouj",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.666667,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "EFA",
+    "label": "Enfida",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 36.133333,
+    "lng": 10.366667
+  },
+  {
+    "locationCode": "NBE",
+    "label": "Enfidha Hammamet Intl Apt",
+    "subdivisionCode": "51",
+    "function": "4",
+    "lat": 36.066667,
+    "lng": 10.433333
+  },
+  {
+    "locationCode": "E8M",
+    "label": "Essouassi",
+    "subdivisionCode": "53",
+    "function": "3",
+    "lat": 35.333333,
+    "lng": 10.533333
+  },
+  {
+    "locationCode": "EZA",
+    "label": "Ez Zahra",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.75,
+    "lng": 10.316667
+  },
+  {
+    "locationCode": "FOA",
+    "label": "Fouchana",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.683333,
+    "lng": 10.166667
+  },
+  {
+    "locationCode": "GAE",
+    "label": "Gabès",
+    "labelWithDiacritics": "Gabes",
+    "function": "14",
+    "lat": 33.883333,
+    "lng": 10.116667
+  },
+  {
+    "locationCode": "GAF",
+    "label": "Gafsa",
+    "function": "4"
+  },
+  {
+    "locationCode": "GML",
+    "label": "Grombalia",
+    "subdivisionCode": "21",
+    "function": "23",
+    "lat": 36.6,
+    "lng": 10.5
+  },
+  {
+    "locationCode": "HAM",
+    "label": "Hammamet",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 36.4,
+    "lng": 10.616667
+  },
+  {
+    "locationCode": "HML",
+    "label": "Hammam-Lif",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.716667,
+    "lng": 10.333333
+  },
+  {
+    "locationCode": "ISI",
+    "label": "Isis",
+    "function": "7",
+    "lat": 34.616667,
+    "lng": 12.416667
+  },
+  {
+    "locationCode": "JEM",
+    "label": "Jammal",
+    "function": "3",
+    "lat": 35.633333,
+    "lng": 10.75
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jarjis",
+    "function": "1",
+    "lat": 33.5,
+    "lng": -11.1
+  },
+  {
+    "locationCode": "J8T",
+    "label": "Jebel Jelloud",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.766667,
+    "lng": 10.2
+  },
+  {
+    "locationCode": "JUL",
+    "label": "Jundubah",
+    "function": "3",
+    "lat": 36.5,
+    "lng": 8.766667
+  },
+  {
+    "locationCode": "QKN",
+    "label": "Kairouan",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKE",
+    "label": "Kalaa Kebira",
+    "function": "23"
+  },
+  {
+    "locationCode": "KSS",
+    "label": "Kasserine",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 35.166667,
+    "lng": 8.816667
+  },
+  {
+    "locationCode": "KEB",
+    "label": "Kebili",
+    "subdivisionCode": "73",
+    "function": "16",
+    "lat": 33.7,
+    "lng": 8.966667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kerkena",
+    "function": "3"
+  },
+  {
+    "locationCode": "KON",
+    "label": "Kondar",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 10.3
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korba",
+    "function": "3"
+  },
+  {
+    "locationCode": "KSH",
+    "label": "Ksar Hellal",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.65,
+    "lng": 10.9
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Ksibet el Médiouni",
+    "subdivisionCode": "52",
+    "labelWithDiacritics": "Ksibet el Mediouni",
+    "function": "1",
+    "lat": 35.666667,
+    "lng": 10.833333
+  },
+  {
+    "locationCode": "KEF",
+    "label": "Ksour Essaf",
+    "subdivisionCode": "53",
+    "function": "3",
+    "lat": 35.416667,
+    "lng": 10.983333
+  },
+  {
+    "locationCode": "LGN",
+    "label": "La Goulette Nord (Halqueloued)",
+    "function": "123"
+  },
+  {
+    "locationCode": "L8T",
+    "label": "La Marsa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.866667,
+    "lng": 10.316667
+  },
+  {
+    "locationCode": "MOH",
+    "label": "La Mohammedia",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.666667,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "LMG",
+    "label": "La Mornaghia",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.75,
+    "lng": 10.016667
+  },
+  {
+    "locationCode": "LSK",
+    "label": "La Skhirra",
+    "function": "123"
+  },
+  {
+    "locationCode": "LSA",
+    "label": "La Soukra",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 36.866667,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "LYT",
+    "label": "Lafayette/Tunis",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 36.816667,
+    "lng": 10.183333
+  },
+  {
+    "locationCode": "LBO",
+    "label": "Le Bardo",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.8,
+    "lng": 10.133333
+  },
+  {
+    "locationCode": "LEK",
+    "label": "Le Kef",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 36.166667,
+    "lng": 8.7
+  },
+  {
+    "locationCode": "LKR",
+    "label": "Le Kram",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 36.833333,
+    "lng": 10.316667
+  },
+  {
+    "locationCode": "BDL",
+    "label": "Les Berges du Lac",
+    "subdivisionCode": "11",
+    "function": "6"
+  },
+  {
+    "locationCode": "MDN",
+    "label": "Madanin",
+    "function": "3",
+    "lat": 33.35,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Mahdia",
+    "subdivisionCode": "53",
+    "function": "123",
+    "lat": 35.5,
+    "lng": 11.05
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahires",
+    "function": "23",
+    "lat": 34.533333,
+    "lng": 10.5
+  },
+  {
+    "locationCode": "MAJ",
+    "label": "Majaz al Bab",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 36.65,
+    "lng": 9.616667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manouba",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.8,
+    "lng": 10.1
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Mateur",
+    "function": "23"
+  },
+  {
+    "locationCode": "MED",
+    "label": "Medenine",
+    "subdivisionCode": "82",
+    "function": "6",
+    "lat": 33.35,
+    "lng": 10.5
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Mégrine",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Megrine",
+    "function": "3",
+    "lat": 36.766667,
+    "lng": 10.233333
+  },
+  {
+    "locationCode": "MEG",
+    "label": "Mégrine-Lescure",
+    "labelWithDiacritics": "Megrine-Lescure",
+    "function": "3",
+    "lat": 36.766667,
+    "lng": 10.2
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Menzel Bourguiba",
+    "function": "123"
+  },
+  {
+    "locationCode": "MZ5",
+    "label": "Menzel Farsi",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.533333,
+    "lng": 10.866667
+  },
+  {
+    "locationCode": "MTE",
+    "label": "Menzel Temime",
+    "function": "3"
+  },
+  {
+    "locationCode": "MEA",
+    "label": "Mesjed Aissa",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.716667,
+    "lng": 10.716667
+  },
+  {
+    "locationCode": "MET",
+    "label": "Metlaoui",
+    "subdivisionCode": "71",
+    "function": "3",
+    "lat": 34.316667,
+    "lng": 8.4
+  },
+  {
+    "locationCode": "MOK",
+    "label": "Moknine",
+    "function": "3"
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Monastir",
+    "function": "345"
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Mornag",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 36.683333,
+    "lng": 10.016667
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Naassen",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 36.683333,
+    "lng": 10.233333
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Nabeul",
+    "function": "23"
+  },
+  {
+    "locationCode": "SSN",
+    "label": "Nassene",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.7,
+    "lng": 10.233333
+  },
+  {
+    "locationCode": "NEA",
+    "label": "Nefta",
+    "subdivisionCode": "72",
+    "function": "6",
+    "lat": 33.866667,
+    "lng": 7.866667
+  },
+  {
+    "locationCode": "OUD",
+    "label": "Oudna",
+    "function": "1",
+    "lat": 36.266667,
+    "lng": 11.65
+  },
+  {
+    "locationCode": "QHL",
+    "label": "Qasr Hallal",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.633333,
+    "lng": 10.883333
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Qulaybiyah",
+    "function": "3",
+    "lat": 36.85,
+    "lng": 11.1
+  },
+  {
+    "locationCode": "RDS",
+    "label": "Radès",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Rades",
+    "function": "123",
+    "lat": 36.766667,
+    "lng": 10.266667
+  },
+  {
+    "locationCode": "SAH",
+    "label": "Sahline",
+    "subdivisionCode": "52",
+    "function": "6",
+    "lat": 35.75,
+    "lng": 10.7
+  },
+  {
+    "locationCode": "SJM",
+    "label": "Sejoumi",
+    "function": "3",
+    "lat": 36.75,
+    "lng": 10.116667
+  },
+  {
+    "locationCode": "SFA",
+    "label": "Sfax",
+    "function": "1234"
+  },
+  {
+    "locationCode": "SBZ",
+    "label": "Sidi Bu Zayd",
+    "function": "3",
+    "lat": 35.033333,
+    "lng": 9.483333
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Siliana",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 36.083333,
+    "lng": 9.366667
+  },
+  {
+    "locationCode": "QSG",
+    "label": "Sloughia",
+    "function": "3",
+    "lat": 36.583333,
+    "lng": 9.516667
+  },
+  {
+    "locationCode": "SLN",
+    "label": "Soliman",
+    "subdivisionCode": "21",
+    "function": "13",
+    "lat": 36.683333,
+    "lng": 10.483333
+  },
+  {
+    "locationCode": "SUS",
+    "label": "Sousse",
+    "function": "1234"
+  },
+  {
+    "locationCode": "TBJ",
+    "label": "Tabarka",
+    "function": "234"
+  },
+  {
+    "locationCode": "TBL",
+    "label": "Tabulbah",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 35.65,
+    "lng": 10.966667
+  },
+  {
+    "locationCode": "TZK",
+    "label": "Tazarka",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 36.55,
+    "lng": 10.833333
+  },
+  {
+    "locationCode": "TAT",
+    "label": "Tazerka Terminal",
+    "function": "1",
+    "lat": 36.6,
+    "lng": 11.683333
+  },
+  {
+    "locationCode": "TBB",
+    "label": "Tebourba",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 36.833333,
+    "lng": 9.833333
+  },
+  {
+    "locationCode": "TOE",
+    "label": "Tozeur",
+    "function": "4"
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunis",
+    "function": "12345"
+  },
+  {
+    "locationCode": "U3T",
+    "label": "Utique",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 37.05,
+    "lng": 10.066667
+  },
+  {
+    "locationCode": "TZA",
+    "label": "Zaghouan",
+    "subdivisionCode": "22",
+    "function": "36",
+    "lat": 36.4,
+    "lng": 10.15
+  },
+  {
+    "locationCode": "ZRZ",
+    "label": "Zarzis",
+    "subdivisionCode": "82",
+    "function": "13",
+    "lat": 33.5,
+    "lng": 11.116667
+  },
+  {
+    "locationCode": "ARB",
+    "label": "Zriba",
+    "function": "6",
+    "lat": 36.333333,
+    "lng": 10.25
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "code": "01",
+    "label": "Johor",
+    "type": "State"
+  },
+  {
+    "code": "02",
+    "label": "Kedah",
+    "type": "State"
+  },
+  {
+    "code": "03",
+    "label": "Kelantan",
+    "type": "State"
+  },
+  {
+    "code": "04",
+    "label": "Melaka",
+    "type": "State"
+  },
+  {
+    "code": "05",
+    "label": "Negeri Sembilan",
+    "type": "State"
+  },
+  {
+    "code": "06",
+    "label": "Pahang",
+    "type": "State"
+  },
+  {
+    "code": "07",
+    "label": "Pulau Pinang",
+    "type": "State"
+  },
+  {
+    "code": "08",
+    "label": "Perak",
+    "type": "State"
+  },
+  {
+    "code": "09",
+    "label": "Perlis",
+    "type": "State"
+  },
+  {
+    "code": "10",
+    "label": "Selangor",
+    "type": "State"
+  },
+  {
+    "code": "11",
+    "label": "Terengganu",
+    "type": "State"
+  },
+  {
+    "code": "12",
+    "label": "Sabah",
+    "type": "State"
+  },
+  {
+    "code": "13",
+    "label": "Sarawak",
+    "type": "State"
+  },
+  {
+    "code": "14",
+    "label": "Wilayah Persekutuan Kuala Lumpur",
+    "type": "Federal territory"
+  },
+  {
+    "code": "15",
+    "label": "Wilayah Persekutuan Labuan",
+    "type": "Federal territory"
+  },
+  {
+    "code": "16",
+    "label": "Wilayah Persekutuan Putrajaya",
+    "type": "Federal territory"
+  }
+]

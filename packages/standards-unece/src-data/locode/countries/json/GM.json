@@ -1,0 +1,114 @@
+[
+  {
+    "locationCode": "BAK",
+    "label": "Bakau",
+    "function": "5"
+  },
+  {
+    "locationCode": "BJL",
+    "label": "Banjul",
+    "function": "145"
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Bansang",
+    "function": "5"
+  },
+  {
+    "locationCode": "BSS",
+    "label": "Basse Santa Su",
+    "function": "5"
+  },
+  {
+    "locationCode": "BRB",
+    "label": "Brikama Ba",
+    "function": "5"
+  },
+  {
+    "locationCode": "BWI",
+    "label": "Bwiam",
+    "function": "5"
+  },
+  {
+    "locationCode": "FKD",
+    "label": "Faji Kunda",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 13.416667,
+    "lng": -16.666667
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Farafenni",
+    "function": "5"
+  },
+  {
+    "locationCode": "KFG",
+    "label": "Kanifing",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 13.433333,
+    "lng": -16.666667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karanai",
+    "function": "3",
+    "lat": 13.216667,
+    "lng": -16.15
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Kau-ur",
+    "function": "5",
+    "lat": 13.7,
+    "lng": -15.316667
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kuntair",
+    "function": "5"
+  },
+  {
+    "locationCode": "JTB",
+    "label": "MacCarthy Island (Jangjangbureh)",
+    "subdivisionCode": "M",
+    "function": "5",
+    "lat": 13.533333,
+    "lng": -14.766667
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Mansa Konko",
+    "function": "5"
+  },
+  {
+    "locationCode": "SYG",
+    "label": "Sanyang",
+    "subdivisionCode": "W",
+    "function": "6",
+    "lat": 13.266667,
+    "lng": -16.75
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Serekunda",
+    "function": "5"
+  },
+  {
+    "locationCode": "SUK",
+    "label": "Sukuta",
+    "subdivisionCode": "W",
+    "function": "16",
+    "lat": 13.4,
+    "lng": -16.7
+  },
+  {
+    "locationCode": "YDM",
+    "label": "Yundum",
+    "subdivisionCode": "W",
+    "function": "3",
+    "lat": 13.333333,
+    "lng": -16.666667
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "locationCode": "AKT",
+    "label": "Akrotiri",
+    "subdivisionCode": "02",
+    "function": "14",
+    "lat": 34.6,
+    "lng": 32.95
+  },
+  {
+    "locationCode": "ANM",
+    "label": "Ayia Napa",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 34.983333,
+    "lng": 34
+  },
+  {
+    "locationCode": "DHK",
+    "label": "Dhekelia",
+    "subdivisionCode": "03",
+    "function": "13",
+    "lat": 34.983333,
+    "lng": 33.75
+  },
+  {
+    "locationCode": "EPK",
+    "label": "Episkopi",
+    "subdivisionCode": "02",
+    "function": "4",
+    "lat": 34.666667,
+    "lng": 32.9
+  },
+  {
+    "locationCode": "FMG",
+    "label": "Famagusta",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 35.1,
+    "lng": 33.95
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karavostasi",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 35.133333,
+    "lng": 32.833333
+  },
+  {
+    "locationCode": "KYR",
+    "label": "Kyrenia",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 35.333333,
+    "lng": 33.333333
+  },
+  {
+    "locationCode": "LCA",
+    "label": "Larnaca",
+    "subdivisionCode": "03",
+    "function": "145",
+    "lat": 34.916667,
+    "lng": 33.616667
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Latchi",
+    "subdivisionCode": "05",
+    "function": "13",
+    "lat": 35.033333,
+    "lng": 32.4
+  },
+  {
+    "locationCode": "LMS",
+    "label": "Limassol",
+    "subdivisionCode": "02",
+    "function": "135",
+    "lat": 34.683333,
+    "lng": 33.05
+  },
+  {
+    "locationCode": "MOI",
+    "label": "Moni",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 34.733333,
+    "lng": 33.2
+  },
+  {
+    "locationCode": "NIC",
+    "label": "Nicosia",
+    "subdivisionCode": "01",
+    "function": "15",
+    "lat": 35.166667,
+    "lng": 33.366667
+  },
+  {
+    "locationCode": "PFO",
+    "label": "Paphos",
+    "subdivisionCode": "05",
+    "function": "14",
+    "lat": 34.766667,
+    "lng": 32.416667
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vasilikos",
+    "subdivisionCode": "03",
+    "function": "1",
+    "lat": 34.716667,
+    "lng": 33.316667
+  },
+  {
+    "locationCode": "ZYY",
+    "label": "Zyyi",
+    "subdivisionCode": "03",
+    "function": "1",
+    "lat": 34.733333,
+    "lng": 33.333333
+  }
+]

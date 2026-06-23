@@ -35,6 +35,50 @@
 		"xml": "http://www.w3.org/XML/1998/namespace",
 		"dct": "http://purl.org/dc/terms/",
 		"dctype": "http://purl.org/dc/dcmitype/",
+		"cmns-cls": "https://www.omg.org/spec/Commons/Classifiers/",
+		"cmns-col": "https://www.omg.org/spec/Commons/Collections/",
+		"cmns-dt": "https://www.omg.org/spec/Commons/DatesAndTimes/",
+		"cmns-ge": "https://www.omg.org/spec/Commons/GeopoliticalEntities/",
+		"cmns-id": "https://www.omg.org/spec/Commons/Identifiers/",
+		"cmns-loc": "https://www.omg.org/spec/Commons/Locations/",
+		"cmns-q": "https://www.omg.org/spec/Commons/Quantities/",
+		"cmns-txt": "https://www.omg.org/spec/Commons/Text/",
+		"lcc-3166-1": "https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/",
+		"lcc-4217": "https://www.omg.org/spec/LCC/Countries/ISO4217-CurrencyCodes/",
+		"lcc-lr": "https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/",
+		"fibo-be-corp-corp": "https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/",
+		"fibo-be-ge-ge": "https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/GovernmentEntities/",
+		"fibo-be-le-cb": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/",
+		"fibo-be-le-lp": "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/",
+		"fibo-be-nfp-nfp": "https://spec.edmcouncil.org/fibo/ontology/BE/NotForProfitOrganizations/NotForProfitOrganizations/",
+		"fibo-be-oac-cctl": "https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/CorporateControl/",
+		"fibo-fbc-dae-dbt": "https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/",
+		"fibo-fbc-pas-fpas": "https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/",
+		"fibo-fnd-acc-cur": "https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/",
+		"fibo-fnd-agr-ctr": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/",
+		"fibo-fnd-arr-doc": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/",
+		"fibo-fnd-arr-lif": "https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/",
+		"fibo-fnd-dt-oc": "https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/",
+		"fibo-fnd-org-org": "https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/",
+		"fibo-fnd-pas-pas": "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/",
+		"fibo-fnd-plc-adr": "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/",
+		"fibo-fnd-plc-fac": "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/",
+		"fibo-fnd-plc-loc": "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/",
+		"fibo-fnd-pty-pty": "https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/",
+		"fibo-fnd-rel-rel": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/",
+		"fibo-pay-ps-ps": "https://spec.edmcouncil.org/fibo/ontology/PAY/PaymentServices/PaymentServices/",
+		"gleif-L1": "https://www.gleif.org/ontology/L1/",
+		"gs1": "https://ref.gs1.org/voc/",
+		"lcc-cr": "https://www.omg.org/spec/LCC/Countries/CountryRepresentation/",
+		"unece": "http://unece.org/vocab#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"bibo": "http://purl.org/ontology/bibo/",
+		"sarif": "http://sarif.info/",
+		"lrmoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+		"snomed": "http://purl.bioontology.org/ontology/SNOMEDCT/",
+		"eli": "http://data.europa.eu/eli/ontology#",
+		"hydra": "http://www.w3.org/ns/hydra/core#",
+		"mo": "http://purl.org/ontology/mo/",
 		"3DModel": {
 			"@id": "schema:3DModel"
 		},
@@ -241,6 +285,9 @@
 		},
 		"AudiobookFormat": {
 			"@id": "schema:AudiobookFormat"
+		},
+		"AuthenticateAction": {
+			"@id": "schema:AuthenticateAction"
 		},
 		"AuthoritativeLegalValue": {
 			"@id": "schema:AuthoritativeLegalValue"
@@ -734,6 +781,9 @@
 		"ComputerStore": {
 			"@id": "schema:ComputerStore"
 		},
+		"ConferenceEvent": {
+			"@id": "schema:ConferenceEvent"
+		},
 		"ConfirmAction": {
 			"@id": "schema:ConfirmAction"
 		},
@@ -772,6 +822,9 @@
 		},
 		"CookAction": {
 			"@id": "schema:CookAction"
+		},
+		"Cooperative": {
+			"@id": "schema:Cooperative"
 		},
 		"Corporation": {
 			"@id": "schema:Corporation"
@@ -1228,6 +1281,9 @@
 		},
 		"Episode": {
 			"@id": "schema:Episode"
+		},
+		"Error": {
+			"@id": "schema:Error"
 		},
 		"Event": {
 			"@id": "schema:Event"
@@ -1787,6 +1843,9 @@
 		"Installment": {
 			"@id": "schema:Installment"
 		},
+		"InstantaneousEvent": {
+			"@id": "schema:InstantaneousEvent"
+		},
 		"InsuranceAgency": {
 			"@id": "schema:InsuranceAgency"
 		},
@@ -1981,6 +2040,9 @@
 		},
 		"LodgingReservation": {
 			"@id": "schema:LodgingReservation"
+		},
+		"LoginAction": {
+			"@id": "schema:LoginAction"
 		},
 		"Longitudinal": {
 			"@id": "schema:Longitudinal"
@@ -2672,6 +2734,9 @@
 		"OnlineFull": {
 			"@id": "schema:OnlineFull"
 		},
+		"OnlineMarketplace": {
+			"@id": "schema:OnlineMarketplace"
+		},
 		"OnlineOnly": {
 			"@id": "schema:OnlineOnly"
 		},
@@ -2683,6 +2748,9 @@
 		},
 		"OpeningHoursSpecification": {
 			"@id": "schema:OpeningHoursSpecification"
+		},
+		"OperatingSystem": {
+			"@id": "schema:OperatingSystem"
 		},
 		"OpinionNewsArticle": {
 			"@id": "schema:OpinionNewsArticle"
@@ -2777,6 +2845,9 @@
 		"PalliativeProcedure": {
 			"@id": "schema:PalliativeProcedure"
 		},
+		"Pamphlet": {
+			"@id": "schema:Pamphlet"
+		},
 		"Paperback": {
 			"@id": "schema:Paperback"
 		},
@@ -2869,6 +2940,9 @@
 		},
 		"PerformanceRole": {
 			"@id": "schema:PerformanceRole"
+		},
+		"PerformingArtsEvent": {
+			"@id": "schema:PerformingArtsEvent"
 		},
 		"PerformingArtsTheater": {
 			"@id": "schema:PerformingArtsTheater"
@@ -3347,6 +3421,9 @@
 		"Reservoir": {
 			"@id": "schema:Reservoir"
 		},
+		"ResetPasswordAction": {
+			"@id": "schema:ResetPasswordAction"
+		},
 		"Residence": {
 			"@id": "schema:Residence"
 		},
@@ -3458,6 +3535,9 @@
 		"RsvpResponseYes": {
 			"@id": "schema:RsvpResponseYes"
 		},
+		"RuntimePlatform": {
+			"@id": "schema:RuntimePlatform"
+		},
 		"SRP": {
 			"@id": "schema:SRP"
 		},
@@ -3544,6 +3624,9 @@
 		},
 		"SendAction": {
 			"@id": "schema:SendAction"
+		},
+		"SequentialArt": {
+			"@id": "schema:SequentialArt"
 		},
 		"Series": {
 			"@id": "schema:Series"
@@ -5063,6 +5146,9 @@
 		"category": {
 			"@id": "schema:category"
 		},
+		"cause": {
+			"@id": "schema:cause"
+		},
 		"causeOf": {
 			"@id": "schema:causeOf"
 		},
@@ -5198,6 +5284,9 @@
 		"commentTime": {
 			"@id": "schema:commentTime",
 			"@type": "Date"
+		},
+		"companyRegistration": {
+			"@id": "schema:companyRegistration"
 		},
 		"competencyRequired": {
 			"@id": "schema:competencyRequired"
@@ -5439,6 +5528,9 @@
 		"cvdNumVentUse": {
 			"@id": "schema:cvdNumVentUse"
 		},
+		"data": {
+			"@id": "schema:data"
+		},
 		"dataFeedElement": {
 			"@id": "schema:dataFeedElement"
 		},
@@ -5609,6 +5701,9 @@
 		"diseaseSpreadStatistics": {
 			"@id": "schema:diseaseSpreadStatistics",
 			"@type": "@id"
+		},
+		"displayLocation": {
+			"@id": "schema:displayLocation"
 		},
 		"dissolutionDate": {
 			"@id": "schema:dissolutionDate",
@@ -5864,6 +5959,9 @@
 		"error": {
 			"@id": "schema:error"
 		},
+		"errorCode": {
+			"@id": "schema:errorCode"
+		},
 		"estimatedCost": {
 			"@id": "schema:estimatedCost"
 		},
@@ -5958,6 +6056,9 @@
 		},
 		"expressedIn": {
 			"@id": "schema:expressedIn"
+		},
+		"extendedAddress": {
+			"@id": "schema:extendedAddress"
 		},
 		"familyName": {
 			"@id": "schema:familyName"
@@ -6293,6 +6394,9 @@
 		"hasPart": {
 			"@id": "schema:hasPart"
 		},
+		"hasParticipationOffer": {
+			"@id": "schema:hasParticipationOffer"
+		},
 		"hasProductReturnPolicy": {
 			"@id": "schema:hasProductReturnPolicy"
 		},
@@ -6301,6 +6405,12 @@
 		},
 		"hasShippingService": {
 			"@id": "schema:hasShippingService"
+		},
+		"hasSponsorshipOffer": {
+			"@id": "schema:hasSponsorshipOffer"
+		},
+		"hasStore": {
+			"@id": "schema:hasStore"
 		},
 		"hasTierBenefit": {
 			"@id": "schema:hasTierBenefit"
@@ -6639,6 +6749,9 @@
 		"isSimilarTo": {
 			"@id": "schema:isSimilarTo"
 		},
+		"isStoreOn": {
+			"@id": "schema:isStoreOn"
+		},
 		"isTierOf": {
 			"@id": "schema:isTierOf"
 		},
@@ -6777,8 +6890,14 @@
 		"leaseLength": {
 			"@id": "schema:leaseLength"
 		},
+		"legalAddress": {
+			"@id": "schema:legalAddress"
+		},
 		"legalName": {
 			"@id": "schema:legalName"
+		},
+		"legalRepresentative": {
+			"@id": "schema:legalRepresentative"
 		},
 		"legalStatus": {
 			"@id": "schema:legalStatus"
@@ -6864,6 +6983,9 @@
 		"license": {
 			"@id": "schema:license",
 			"@type": "@id"
+		},
+		"lifeEvent": {
+			"@id": "schema:lifeEvent"
 		},
 		"line": {
 			"@id": "schema:line"
@@ -7288,7 +7410,8 @@
 			"@id": "schema:observationAbout"
 		},
 		"observationDate": {
-			"@id": "schema:observationDate"
+			"@id": "schema:observationDate",
+			"@type": "Date"
 		},
 		"observationPeriod": {
 			"@id": "schema:observationPeriod"
@@ -7390,6 +7513,9 @@
 		},
 		"ownedThrough": {
 			"@id": "schema:ownedThrough"
+		},
+		"owner": {
+			"@id": "schema:owner"
 		},
 		"ownershipFundingInfo": {
 			"@id": "schema:ownershipFundingInfo"
@@ -7755,6 +7881,9 @@
 		"programmingModel": {
 			"@id": "schema:programmingModel"
 		},
+		"pronouns": {
+			"@id": "schema:pronouns"
+		},
 		"propertyID": {
 			"@id": "schema:propertyID"
 		},
@@ -7905,6 +8034,9 @@
 		},
 		"recourseLoan": {
 			"@id": "schema:recourseLoan"
+		},
+		"referee": {
+			"@id": "schema:referee"
 		},
 		"referenceQuantity": {
 			"@id": "schema:referenceQuantity"
@@ -8356,6 +8488,9 @@
 		"softwareVersion": {
 			"@id": "schema:softwareVersion"
 		},
+		"source": {
+			"@id": "schema:source"
+		},
 		"sourceOrganization": {
 			"@id": "schema:sourceOrganization"
 		},
@@ -8645,6 +8780,9 @@
 		},
 		"timeToComplete": {
 			"@id": "schema:timeToComplete"
+		},
+		"timestamp": {
+			"@id": "schema:timestamp"
 		},
 		"tissueSample": {
 			"@id": "schema:tissueSample"

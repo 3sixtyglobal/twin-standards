@@ -1,0 +1,132 @@
+[
+  {
+    "code": "AG",
+    "label": "Aargau (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "AI",
+    "label": "Appenzell Innerrhoden (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "AR",
+    "label": "Appenzell Ausserrhoden (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "BE",
+    "label": "Bern (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "BL",
+    "label": "Basel-Landschaft (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "BS",
+    "label": "Basel-Stadt (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "FR",
+    "label": "Fribourg (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "GE",
+    "label": "Genève (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "GL",
+    "label": "Glarus (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "GR",
+    "label": "Graubünden (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "JU",
+    "label": "Jura (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "LU",
+    "label": "Luzern (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "NE",
+    "label": "Neuchâtel (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "NW",
+    "label": "Nidwalden (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "OW",
+    "label": "Obwalden (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "SG",
+    "label": "Sankt Gallen (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "SH",
+    "label": "Schaffhausen (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "SO",
+    "label": "Solothurn (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "SZ",
+    "label": "Schwyz (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "TG",
+    "label": "Thurgau (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "TI",
+    "label": "Ticino (it)",
+    "type": "Canton"
+  },
+  {
+    "code": "UR",
+    "label": "Uri (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "VD",
+    "label": "Vaud (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "VS",
+    "label": "Valais (fr)",
+    "type": "Canton"
+  },
+  {
+    "code": "ZG",
+    "label": "Zug (de)",
+    "type": "Canton"
+  },
+  {
+    "code": "ZH",
+    "label": "Zürich (de)",
+    "type": "Canton"
+  }
+]

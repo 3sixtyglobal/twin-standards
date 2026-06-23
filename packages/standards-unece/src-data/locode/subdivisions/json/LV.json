@@ -1,0 +1,212 @@
+[
+  {
+    "code": "002",
+    "label": "Aizkraukles novads (Aizkraukle)",
+    "type": "Municipality"
+  },
+  {
+    "code": "007",
+    "label": "Aluksnes novads (Aluksne)",
+    "type": "Municipality"
+  },
+  {
+    "code": "011",
+    "label": "Adau novads (Adai)",
+    "type": "Municipality"
+  },
+  {
+    "code": "015",
+    "label": "Balvu novads (Balvi)",
+    "type": "Municipality"
+  },
+  {
+    "code": "016",
+    "label": "Bauskas novads (Bauska)",
+    "type": "Municipality"
+  },
+  {
+    "code": "022",
+    "label": "Cesu novads (Cesis)",
+    "type": "Municipality"
+  },
+  {
+    "code": "026",
+    "label": "Dobeles novads (Dobele)",
+    "type": "Municipality"
+  },
+  {
+    "code": "033",
+    "label": "Gulbenes novads (Gulbene)",
+    "type": "Municipality"
+  },
+  {
+    "code": "041",
+    "label": "Jelgavas novads (Jelgava)",
+    "type": "Municipality"
+  },
+  {
+    "code": "042",
+    "label": "Jekabpils novads (Jekabpils)",
+    "type": "Municipality"
+  },
+  {
+    "code": "047",
+    "label": "Kraslavas novads (Kraslava)",
+    "type": "Municipality"
+  },
+  {
+    "code": "050",
+    "label": "Kuldigas novads (Kuldiga)",
+    "type": "Municipality"
+  },
+  {
+    "code": "052",
+    "label": "Kekavas novads (Kekava)",
+    "type": "Municipality"
+  },
+  {
+    "code": "054",
+    "label": "Limbau novads (Limbai)",
+    "type": "Municipality"
+  },
+  {
+    "code": "056",
+    "label": "Livanu novads (Livani)",
+    "type": "Municipality"
+  },
+  {
+    "code": "058",
+    "label": "Ludzas novads (Ludza)",
+    "type": "Municipality"
+  },
+  {
+    "code": "059",
+    "label": "Madonas novads (Madona)",
+    "type": "Municipality"
+  },
+  {
+    "code": "062",
+    "label": "Marupes novads (Marupe)",
+    "type": "Municipality"
+  },
+  {
+    "code": "067",
+    "label": "Ogres novads (Ogre)",
+    "type": "Municipality"
+  },
+  {
+    "code": "068",
+    "label": "Olaines novads (Olaine)",
+    "type": "Municipality"
+  },
+  {
+    "code": "073",
+    "label": "Preilu novads (Preili)",
+    "type": "Municipality"
+  },
+  {
+    "code": "077",
+    "label": "Rezeknes novads (Rezekne)",
+    "type": "Municipality"
+  },
+  {
+    "code": "080",
+    "label": "Ropau novads (Ropai)",
+    "type": "Municipality"
+  },
+  {
+    "code": "087",
+    "label": "Salaspils novads (Salaspils)",
+    "type": "Municipality"
+  },
+  {
+    "code": "088",
+    "label": "Saldus novads (Saldus)",
+    "type": "Municipality"
+  },
+  {
+    "code": "089",
+    "label": "Saulkrastu novads (Saulkrasti)",
+    "type": "Municipality"
+  },
+  {
+    "code": "091",
+    "label": "Siguldas novads (Sigulda)",
+    "type": "Municipality"
+  },
+  {
+    "code": "094",
+    "label": "Smiltenes novads (Smiltene)",
+    "type": "Municipality"
+  },
+  {
+    "code": "097",
+    "label": "Talsu novads (Talsi)",
+    "type": "Municipality"
+  },
+  {
+    "code": "099",
+    "label": "Tukuma novads (Tukums)",
+    "type": "Municipality"
+  },
+  {
+    "code": "101",
+    "label": "Valkas novads (Valka)",
+    "type": "Municipality"
+  },
+  {
+    "code": "106",
+    "label": "Ventspils novads (Ventspils)",
+    "type": "Municipality"
+  },
+  {
+    "code": "111",
+    "label": "Augdaugavas novads (Augdaugava)",
+    "type": "Municipality"
+  },
+  {
+    "code": "112",
+    "label": "Dienvidkurzemes novads (Dienvidkurzeme)",
+    "type": "Municipality"
+  },
+  {
+    "code": "113",
+    "label": "Valmieras novads (Valmiera)",
+    "type": "Municipality"
+  },
+  {
+    "code": "DGV",
+    "label": "Daugavpils",
+    "type": "State city"
+  },
+  {
+    "code": "JEL",
+    "label": "Jelgava",
+    "type": "State city"
+  },
+  {
+    "code": "JUR",
+    "label": "Jurmala",
+    "type": "State city"
+  },
+  {
+    "code": "LPX",
+    "label": "Liepaja",
+    "type": "State city"
+  },
+  {
+    "code": "REZ",
+    "label": "Rezekne",
+    "type": "State city"
+  },
+  {
+    "code": "RIX",
+    "label": "Riga",
+    "type": "State city"
+  },
+  {
+    "code": "VEN",
+    "label": "Ventspils",
+    "type": "State city"
+  }
+]

@@ -1,0 +1,39 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceDocumentContextParameter",
+	"title": "UneceDocumentContextParameter",
+	"description": "A feature that is fixed for a particular document context.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "DocumentContextParameter",
+			"description": "JSON-LD Type."
+		},
+		"identifier": {
+			"anyOf": [
+				{
+					"type": "string"
+				},
+				{
+					"$ref": "https://schema.twindev.org/json-ld/JsonLdValueObject"
+				}
+			],
+			"description": "The unique identifier of this document context parameter."
+		},
+		"specifiedVersion": {
+			"$ref": "https://schema.twindev.org/unece/UneceVersion",
+			"description": "The document version specified for this document context parameter."
+		},
+		"value": {
+			"type": "string",
+			"description": "The value, expressed as text, of this document context parameter."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

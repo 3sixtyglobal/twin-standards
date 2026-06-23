@@ -1,0 +1,137 @@
+[
+  {
+    "code": "05",
+    "label": "Vinnytska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Volynska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Luhanska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "Dnipropetrovska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "14",
+    "label": "Donetska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "18",
+    "label": "Zhytomyrska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "21",
+    "label": "Zakarpatska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "23",
+    "label": "Zaporizka oblast",
+    "type": "Region"
+  },
+  {
+    "code": "26",
+    "label": "Ivano-Frankivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "30",
+    "label": "Kyiv",
+    "type": "City"
+  },
+  {
+    "code": "32",
+    "label": "Kyivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "35",
+    "label": "Kirovohradska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "40",
+    "label": "Sevastopol",
+    "type": "City"
+  },
+  {
+    "code": "43",
+    "label": "Avtonomna Respublika Krym",
+    "type": "Republic"
+  },
+  {
+    "code": "46",
+    "label": "Lvivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "48",
+    "label": "Mykolaivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "51",
+    "label": "Odeska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "53",
+    "label": "Poltavska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "56",
+    "label": "Rivnenska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "59",
+    "label": "Sumska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "61",
+    "label": "Ternopilska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "63",
+    "label": "Kharkivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "65",
+    "label": "Khersonska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "68",
+    "label": "Khmelnytska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "71",
+    "label": "Cherkaska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "74",
+    "label": "Chernihivska oblast",
+    "type": "Region"
+  },
+  {
+    "code": "77",
+    "label": "Chernivetska oblast",
+    "type": "Region"
+  }
+]

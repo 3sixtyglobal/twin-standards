@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceDurationUnitMeasureType",
+	"title": "UneceDurationUnitMeasureType",
+	"description": "A numeric value determined by measuring a duration of time.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "DurationUnitMeasureType",
+			"description": "JSON-LD Type."
+		},
+		"DurationUnitMeasureTypeValue": {
+			"type": "string",
+			"description": "The numeric value."
+		},
+		"DurationUnitMeasureTypeCode": {
+			"$ref": "https://schema.twindev.org/unece/UneceDurationUnitMeasureCode",
+			"description": "The unit code."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

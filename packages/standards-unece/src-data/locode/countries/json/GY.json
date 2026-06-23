@@ -1,0 +1,246 @@
+[
+  {
+    "locationCode": "ANT",
+    "label": "Adventure",
+    "function": "1",
+    "lat": 7.083333,
+    "lng": -58.483333
+  },
+  {
+    "locationCode": "AVE",
+    "label": "Agricola Village",
+    "subdivisionCode": "DE",
+    "function": "6",
+    "lat": 6.466667,
+    "lng": -58.166667
+  },
+  {
+    "locationCode": "AHL",
+    "label": "Aishalton",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAI",
+    "label": "Annai",
+    "function": "4"
+  },
+  {
+    "locationCode": "BMJ",
+    "label": "Baramita",
+    "function": "4"
+  },
+  {
+    "locationCode": "GFO",
+    "label": "Bartica",
+    "function": "14"
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Bartica",
+    "subdivisionCode": "UD",
+    "function": "6",
+    "lat": 5.783333,
+    "lng": -57.633333
+  },
+  {
+    "locationCode": "BCG",
+    "label": "Bemichi",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOU",
+    "label": "Bourda",
+    "subdivisionCode": "DE",
+    "function": "3",
+    "lat": 6.816667,
+    "lng": -58.15
+  },
+  {
+    "locationCode": "CAY",
+    "label": "Cayenne",
+    "function": "3",
+    "lat": 4.933333,
+    "lng": -52.316667
+  },
+  {
+    "locationCode": "DMD",
+    "label": "Diamond",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 6.716667,
+    "lng": -58.183333
+  },
+  {
+    "locationCode": "EKE",
+    "label": "Ekereku",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUY",
+    "label": "Enmore",
+    "subdivisionCode": "DE",
+    "function": "3",
+    "lat": 6.766667,
+    "lng": -57.983333
+  },
+  {
+    "locationCode": "EVR",
+    "label": "Everton",
+    "subdivisionCode": "DE",
+    "function": "136",
+    "lat": 6.916667,
+    "lng": -58.333333
+  },
+  {
+    "locationCode": "GEO",
+    "label": "Georgetown",
+    "function": "145"
+  },
+  {
+    "locationCode": "IMB",
+    "label": "Imbaimadai",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Kaieteur",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Kamarang",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Karanambo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRG",
+    "label": "Karasabai",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTO",
+    "label": "Kato",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKG",
+    "label": "Konawaruk",
+    "function": "4"
+  },
+  {
+    "locationCode": "KPG",
+    "label": "Kurupung",
+    "function": "4"
+  },
+  {
+    "locationCode": "LTM",
+    "label": "Lethem",
+    "function": "4"
+  },
+  {
+    "locationCode": "LDN",
+    "label": "Linden",
+    "function": "1",
+    "lat": 6,
+    "lng": -58.283333
+  },
+  {
+    "locationCode": "LUB",
+    "label": "Lumid Pau",
+    "function": "4"
+  },
+  {
+    "locationCode": "USI",
+    "label": "Mabaruma",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKZ",
+    "label": "Mackenzie",
+    "function": "236",
+    "lat": 6,
+    "lng": -58.283333
+  },
+  {
+    "locationCode": "MHA",
+    "label": "Mahdia",
+    "function": "4"
+  },
+  {
+    "locationCode": "VEG",
+    "label": "Maikwak",
+    "function": "4"
+  },
+  {
+    "locationCode": "MWJ",
+    "label": "Matthews Ridge",
+    "function": "4"
+  },
+  {
+    "locationCode": "MYM",
+    "label": "Monkey Mountain",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAM",
+    "label": "New Amsterdam",
+    "function": "14"
+  },
+  {
+    "locationCode": "OGL",
+    "label": "Ogle",
+    "function": "4"
+  },
+  {
+    "locationCode": "ORJ",
+    "label": "Orinduik",
+    "function": "4"
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Paramakotoi",
+    "function": "4"
+  },
+  {
+    "locationCode": "PRR",
+    "label": "Paruima",
+    "function": "4"
+  },
+  {
+    "locationCode": "PIQ",
+    "label": "Pipillipai",
+    "function": "4"
+  },
+  {
+    "locationCode": "PKM",
+    "label": "Port Kaituma",
+    "function": "4"
+  },
+  {
+    "locationCode": "ROS",
+    "label": "Rosignol",
+    "subdivisionCode": "MA",
+    "function": "6",
+    "lat": 6.283333,
+    "lng": -57.533333
+  },
+  {
+    "locationCode": "SDC",
+    "label": "Sandcreek",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKM",
+    "label": "Skeldon",
+    "function": "4"
+  },
+  {
+    "locationCode": "THI",
+    "label": "Thimery",
+    "function": "5"
+  }
+]

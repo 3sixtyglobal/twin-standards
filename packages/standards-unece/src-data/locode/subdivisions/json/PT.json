@@ -1,0 +1,102 @@
+[
+  {
+    "code": "01",
+    "label": "Aveiro",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Beja",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Braga",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Bragança",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Castelo Branco",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Coimbra",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Évora",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Faro",
+    "type": "District"
+  },
+  {
+    "code": "09",
+    "label": "Guarda",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Leiria",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Lisboa",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Portalegre",
+    "type": "District"
+  },
+  {
+    "code": "13",
+    "label": "Porto",
+    "type": "District"
+  },
+  {
+    "code": "14",
+    "label": "Santarém",
+    "type": "District"
+  },
+  {
+    "code": "15",
+    "label": "Setúbal",
+    "type": "District"
+  },
+  {
+    "code": "16",
+    "label": "Viana do Castelo",
+    "type": "District"
+  },
+  {
+    "code": "17",
+    "label": "Vila Real",
+    "type": "District"
+  },
+  {
+    "code": "18",
+    "label": "Viseu",
+    "type": "District"
+  },
+  {
+    "code": "20",
+    "label": "Região Autónoma dos Açores",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "30",
+    "label": "Região Autónoma da Madeira",
+    "type": "Autonomous region"
+  }
+]

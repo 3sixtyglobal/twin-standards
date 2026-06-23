@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceProduction",
+	"title": "UneceProduction",
+	"description": "The making or manufacturing of goods, such as from components or raw materials.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "Production",
+			"description": "JSON-LD Type."
+		},
+		"identifier": {
+			"anyOf": [
+				{
+					"type": "string"
+				},
+				{
+					"$ref": "https://schema.twindev.org/json-ld/JsonLdValueObject"
+				}
+			],
+			"description": "The identifier for this production of goods."
+		},
+		"manufacturingProcessDescription": {
+			"type": "string",
+			"description": "A textual description of the manufacturing process for this goods production."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

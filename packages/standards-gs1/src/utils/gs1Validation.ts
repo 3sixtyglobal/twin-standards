@@ -1,13 +1,12 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { Is, type IValidationFailure, Validation } from "@twin.org/core";
 import { IdentifierHandlerFactory } from "@twin.org/data-core";
 import { nameof } from "@twin.org/nameof";
-import type { Gs1Location } from "../entities/gs1Location";
-import { Gs1IdentifierTypes } from "../models/gs1/gs1IdentifierTypes";
-import { SubSiteAttributes } from "../models/gs1/subSiteAttributes";
-import { SubSiteTypes } from "../models/gs1/subSiteTypes";
+import type { Gs1Location } from "../entities/gs1Location.js";
+import { Gs1IdentifierTypes } from "../models/gs1/gs1IdentifierTypes.js";
+import { Gs1SubSiteAttributes } from "../models/gs1/gs1SubSiteAttributes.js";
+import { Gs1SubSiteTypes } from "../models/gs1/gs1SubSiteTypes.js";
 
 /**
  * Validation for GS1 types.
@@ -52,14 +51,19 @@ export class Gs1Validation {
 			}
 
 			if (Is.notEmpty(value.sst)) {
-				Validation.arrayOneOf(nameof(value.sst), value.sst, Object.values(SubSiteTypes), failures);
+				Validation.arrayOneOf(
+					nameof(value.sst),
+					value.sst,
+					Object.values(Gs1SubSiteTypes),
+					failures
+				);
 			}
 
 			if (Is.notEmpty(value.ssa)) {
 				Validation.arrayOneOf(
 					nameof(value.ssa),
 					value.ssa,
-					Object.values(SubSiteAttributes),
+					Object.values(Gs1SubSiteAttributes),
 					failures
 				);
 			}

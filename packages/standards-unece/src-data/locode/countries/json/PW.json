@@ -1,0 +1,20 @@
+[
+  {
+    "locationCode": "ANG",
+    "label": "Angaur",
+    "function": "1"
+  },
+  {
+    "locationCode": "ROR",
+    "label": "Koror",
+    "function": "14"
+  },
+  {
+    "locationCode": "MKK",
+    "label": "Melekeok",
+    "subdivisionCode": "212",
+    "function": "3",
+    "lat": 7.483333,
+    "lng": 134.633333
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "locationCode": "GRV",
+    "label": "Grytviken",
+    "function": "13",
+    "lat": -54.266667,
+    "lng": -36.5
+  },
+  {
+    "locationCode": "LEH",
+    "label": "Leith Harbour",
+    "function": "1"
+  }
+]

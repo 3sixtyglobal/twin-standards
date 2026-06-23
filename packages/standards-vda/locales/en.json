@@ -1,1 +1,9 @@
-{}
+{
+	"error": {
+		"validation": {
+			"vdaEpcNoId": "VDA EPC does not contain an identifier.",
+			"vdaIncorrectSegmentCount": "VDA EPC has an incorrect number of segments.",
+			"vdaValueIncorrect": "VDA EPC value is incorrect."
+		}
+	}
+}

@@ -1,0 +1,43 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+/* cSpell:disable */
+/* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IUneceLineTradeAgreement } from "./IUneceLineTradeAgreement.js";
+import type { IUneceLineTradeDelivery } from "./IUneceLineTradeDelivery.js";
+import type { IUneceTradeProduct } from "./IUneceTradeProduct.js";
+import type { UneceContextType } from "../uneceContextType.js";
+import type { UneceTypes } from "../uneceTypes.js";
+
+/**
+ * A group of trade line items, trade line agreement, trade line delivery and trade line settlement details.
+ * @see https://vocabulary.uncefact.org/LineTradeTransaction
+ */
+export interface IUneceLineTradeTransaction {
+	/**
+	 * JSON-LD Context.
+	 */
+	"@context"?: UneceContextType;
+
+	/**
+	 * JSON-LD Type.
+	 */
+	type: typeof UneceTypes.LineTradeTransaction;
+
+	/**
+	 * A trade agreement applicable to this line trade transaction, such as payment or delivery terms.
+	 * @see https://vocabulary.uncefact.org/applicableLineTradeAgreement
+	 */
+	applicableLineTradeAgreement?: IUneceLineTradeAgreement[];
+
+	/**
+	 * A trade delivery applicable to this line trade transaction.
+	 * @see https://vocabulary.uncefact.org/applicableLineTradeDelivery
+	 */
+	applicableLineTradeDelivery?: IUneceLineTradeDelivery[];
+
+	/**
+	 * A trade product included in this line trade transaction.
+	 * @see https://vocabulary.uncefact.org/includedTradeProduct
+	 */
+	includedTradeProduct?: IUneceTradeProduct[];
+}

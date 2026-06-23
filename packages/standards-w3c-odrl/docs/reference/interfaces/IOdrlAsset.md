@@ -1,55 +1,44 @@
 # Interface: IOdrlAsset
 
 Interface for ODRL Assets.
-
-## Extends
-
-- `IJsonLdNodeObject`
+https://www.w3.org/TR/odrl-model/#asset
 
 ## Extended by
 
 - [`IOdrlAssetCollection`](IOdrlAssetCollection.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 The unique identifier for the asset.
 Should be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
-> `optional` **@type**: `string`
+> `optional` **@type?**: `string`
 
 The type of the asset.
 Can be used to specify additional type information.
 
-#### Overrides
-
-`IJsonLdNodeObject.@type`
-
 ***
 
-### partOf?
+### partOf? {#partof}
 
-> `optional` **partOf**: `string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md)
+> `optional` **partOf?**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md)\>
 
 Reference to the asset collection this asset is part of.
 Used to identify an AssetCollection that this Asset is a member of.
 
 ***
 
-### hasPolicy?
+### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy**: `string`
+> `optional` **hasPolicy?**: `ObjectOrArray`\<`string`\>
 
 Reference to the policy that governs this asset.
 Used to identify the Policy that governs this Asset.

@@ -1,0 +1,77 @@
+[
+  {
+    "code": "BG",
+    "label": "Bong",
+    "type": "County"
+  },
+  {
+    "code": "BM",
+    "label": "Bomi",
+    "type": "County"
+  },
+  {
+    "code": "CM",
+    "label": "Grand Cape Mount",
+    "type": "County"
+  },
+  {
+    "code": "GB",
+    "label": "Grand Bassa",
+    "type": "County"
+  },
+  {
+    "code": "GG",
+    "label": "Grand Gedeh",
+    "type": "County"
+  },
+  {
+    "code": "GK",
+    "label": "Grand Kru",
+    "type": "County"
+  },
+  {
+    "code": "GP",
+    "label": "Gbarpolu",
+    "type": "County"
+  },
+  {
+    "code": "LO",
+    "label": "Lofa",
+    "type": "County"
+  },
+  {
+    "code": "MG",
+    "label": "Margibi",
+    "type": "County"
+  },
+  {
+    "code": "MO",
+    "label": "Montserrado",
+    "type": "County"
+  },
+  {
+    "code": "MY",
+    "label": "Maryland",
+    "type": "County"
+  },
+  {
+    "code": "NI",
+    "label": "Nimba",
+    "type": "County"
+  },
+  {
+    "code": "RG",
+    "label": "River Gee",
+    "type": "County"
+  },
+  {
+    "code": "RI",
+    "label": "River Cess",
+    "type": "County"
+  },
+  {
+    "code": "SI",
+    "label": "Sinoe",
+    "type": "County"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "code": "01",
+    "label": "Ar Riyad",
+    "type": "Region"
+  },
+  {
+    "code": "02",
+    "label": "Makkah al Mukarramah",
+    "type": "Region"
+  },
+  {
+    "code": "03",
+    "label": "Al Madinah al Munawwarah",
+    "type": "Region"
+  },
+  {
+    "code": "04",
+    "label": "Ash Sharqiyah",
+    "type": "Region"
+  },
+  {
+    "code": "05",
+    "label": "AI Qasim",
+    "type": "Region"
+  },
+  {
+    "code": "06",
+    "label": "Ha'il",
+    "type": "Region"
+  },
+  {
+    "code": "07",
+    "label": "Tabuk",
+    "type": "Region"
+  },
+  {
+    "code": "08",
+    "label": "AI Hudud ash Shamaliyah",
+    "type": "Region"
+  },
+  {
+    "code": "09",
+    "label": "Jazan",
+    "type": "Region"
+  },
+  {
+    "code": "10",
+    "label": "Najran",
+    "type": "Region"
+  },
+  {
+    "code": "11",
+    "label": "AI Bahah",
+    "type": "Region"
+  },
+  {
+    "code": "12",
+    "label": "AI Jawf",
+    "type": "Region"
+  },
+  {
+    "code": "14",
+    "label": "'Asir",
+    "type": "Region"
+  }
+]

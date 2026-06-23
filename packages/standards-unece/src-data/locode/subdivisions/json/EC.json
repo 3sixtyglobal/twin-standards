@@ -1,0 +1,122 @@
+[
+  {
+    "code": "A",
+    "label": "Azuay",
+    "type": "Province"
+  },
+  {
+    "code": "B",
+    "label": "Bolívar",
+    "type": "Province"
+  },
+  {
+    "code": "C",
+    "label": "Carchi",
+    "type": "Province"
+  },
+  {
+    "code": "D",
+    "label": "Orellana",
+    "type": "Province"
+  },
+  {
+    "code": "E",
+    "label": "Esmeraldas",
+    "type": "Province"
+  },
+  {
+    "code": "F",
+    "label": "Cañar",
+    "type": "Province"
+  },
+  {
+    "code": "G",
+    "label": "Guayas",
+    "type": "Province"
+  },
+  {
+    "code": "H",
+    "label": "Chimborazo",
+    "type": "Province"
+  },
+  {
+    "code": "I",
+    "label": "Imbabura",
+    "type": "Province"
+  },
+  {
+    "code": "L",
+    "label": "Loja",
+    "type": "Province"
+  },
+  {
+    "code": "M",
+    "label": "Manabí",
+    "type": "Province"
+  },
+  {
+    "code": "N",
+    "label": "Napo",
+    "type": "Province"
+  },
+  {
+    "code": "O",
+    "label": "El Oro",
+    "type": "Province"
+  },
+  {
+    "code": "P",
+    "label": "Pichincha",
+    "type": "Province"
+  },
+  {
+    "code": "R",
+    "label": "Los Ríos",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Morona-Santiago",
+    "type": "Province"
+  },
+  {
+    "code": "SD",
+    "label": "Santo Domingo de los Tsáchilas",
+    "type": "Province"
+  },
+  {
+    "code": "SE",
+    "label": "Santa Elena",
+    "type": "Province"
+  },
+  {
+    "code": "T",
+    "label": "Tungurahua",
+    "type": "Province"
+  },
+  {
+    "code": "U",
+    "label": "Sucumbíos",
+    "type": "Province"
+  },
+  {
+    "code": "W",
+    "label": "Galápagos",
+    "type": "Province"
+  },
+  {
+    "code": "X",
+    "label": "Cotopaxi",
+    "type": "Province"
+  },
+  {
+    "code": "Y",
+    "label": "Pastaza",
+    "type": "Province"
+  },
+  {
+    "code": "Z",
+    "label": "Zamora Chinchipe",
+    "type": "Province"
+  }
+]

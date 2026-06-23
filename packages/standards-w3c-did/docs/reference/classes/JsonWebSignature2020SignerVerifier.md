@@ -1,6 +1,10 @@
 # Class: JsonWebSignature2020SignerVerifier
 
-Helper methods for creating and verifying proofs.
+Helper methods for creating and verifying JsonWebSignature2020 proofs.
+
+## See
+
+https://w3c-ccg.github.io/lds-jws2020/
 
 ## Implements
 
@@ -18,15 +22,15 @@ Helper methods for creating and verifying proofs.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
-> `readonly` **CLASS\_NAME**: `string`
+> `readonly` `static` **CLASS\_NAME**: `string`
 
 Runtime name for the class.
 
 ## Methods
 
-### createProof()
+### createProof() {#createproof}
 
 > **createProof**(`unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IJsonWebSignature2020Proof`](../interfaces/IJsonWebSignature2020Proof.md)\>
 
@@ -48,7 +52,7 @@ The proof options.
 
 ##### signKey
 
-`IJwk`
+`JWK`
 
 The key to sign the proof with.
 
@@ -64,11 +68,11 @@ The created proof.
 
 ***
 
-### verifyProof()
+### verifyProof() {#verifyproof}
 
 > **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
-Verify a proof for the given data in format.
+Verify a proof for the given data.
 
 #### Parameters
 
@@ -86,7 +90,7 @@ The proof to verify.
 
 ##### verifyKey
 
-`IJwk`
+`JWK`
 
 The public key to verify the proof with.
 
@@ -102,7 +106,7 @@ True if the credential was verified.
 
 ***
 
-### createHash()
+### createHash() {#createhash}
 
 > **createHash**(`unsecuredDocument`, `unsignedProof`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 

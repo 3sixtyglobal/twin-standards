@@ -8,7 +8,7 @@ Interface for a VDA Biz Location.
 
 ## Properties
 
-### dunsNumber
+### dunsNumber {#dunsnumber}
 
 > **dunsNumber**: `string`
 
@@ -16,7 +16,7 @@ DUNS Number.
 
 ***
 
-### plantBuildingFloorRoom
+### plantBuildingFloorRoom {#plantbuildingfloorroom}
 
 > **plantBuildingFloorRoom**: `string`
 
@@ -24,7 +24,7 @@ Plant Building Floor and Room.
 
 ***
 
-### dataIdentifier
+### dataIdentifier {#dataidentifier}
 
 > **dataIdentifier**: `string`
 
@@ -36,7 +36,7 @@ Data Identifier (DI).
 
 ***
 
-### issuingAgencyCode
+### issuingAgencyCode {#issuingagencycode}
 
 > **issuingAgencyCode**: `string`
 

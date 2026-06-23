@@ -1,0 +1,232 @@
+[
+  {
+    "locationCode": "ALI",
+    "label": "Alindao",
+    "function": "5"
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Baboua",
+    "function": "5"
+  },
+  {
+    "locationCode": "BMF",
+    "label": "Bakouma",
+    "function": "4"
+  },
+  {
+    "locationCode": "BBY",
+    "label": "Bambari",
+    "function": "45"
+  },
+  {
+    "locationCode": "BGU",
+    "label": "Bangassou",
+    "function": "4"
+  },
+  {
+    "locationCode": "BGF",
+    "label": "Bangui",
+    "function": "45"
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Baoro",
+    "function": "5"
+  },
+  {
+    "locationCode": "BTG",
+    "label": "Batangafo",
+    "function": "45"
+  },
+  {
+    "locationCode": "BBT",
+    "label": "Berbérati",
+    "labelWithDiacritics": "Berberati",
+    "function": "4",
+    "lat": 4.266667,
+    "lng": 15.783333
+  },
+  {
+    "locationCode": "IRO",
+    "label": "Birao",
+    "function": "45"
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Bocaranga",
+    "function": "5",
+    "lat": 6.966667,
+    "lng": 15.633333
+  },
+  {
+    "locationCode": "BOD",
+    "label": "Boda",
+    "function": "5"
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogoto",
+    "function": "3",
+    "lat": 4.95,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "BSN",
+    "label": "Bossangoa",
+    "function": "345"
+  },
+  {
+    "locationCode": "BEM",
+    "label": "Bossembélé",
+    "labelWithDiacritics": "Bossembele",
+    "function": "45",
+    "lat": 5.266667,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "BOP",
+    "label": "Bouar",
+    "function": "45"
+  },
+  {
+    "locationCode": "BCF",
+    "label": "Bouca",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOZ",
+    "label": "Bozoum",
+    "function": "45"
+  },
+  {
+    "locationCode": "BIV",
+    "label": "Bria",
+    "function": "45"
+  },
+  {
+    "locationCode": "CRF",
+    "label": "Carnot",
+    "function": "45"
+  },
+  {
+    "locationCode": "DEK",
+    "label": "Dekoa",
+    "function": "5"
+  },
+  {
+    "locationCode": "GDI",
+    "label": "Gordil",
+    "function": "4"
+  },
+  {
+    "locationCode": "GDA",
+    "label": "Gounda",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Grimari",
+    "function": "5"
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kaga Bandoro",
+    "function": "5"
+  },
+  {
+    "locationCode": "KWD",
+    "label": "Kawadjia",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kembé",
+    "labelWithDiacritics": "Kembe",
+    "function": "5"
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Koumala",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKI",
+    "label": "Mboki",
+    "subdivisionCode": "HM",
+    "function": "345",
+    "lat": 5.316667,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Mobaye",
+    "function": "5"
+  },
+  {
+    "locationCode": "MON",
+    "label": "Mongoumba",
+    "function": "5"
+  },
+  {
+    "locationCode": "NDL",
+    "label": "Ndélé",
+    "labelWithDiacritics": "Ndele",
+    "function": "45"
+  },
+  {
+    "locationCode": "NOL",
+    "label": "Nola",
+    "function": "5"
+  },
+  {
+    "locationCode": "OBO",
+    "label": "Obo",
+    "function": "5"
+  },
+  {
+    "locationCode": "ODA",
+    "label": "Ouadda",
+    "function": "4"
+  },
+  {
+    "locationCode": "ODJ",
+    "label": "Ouanda Djallé",
+    "labelWithDiacritics": "Ouanda Djalle",
+    "function": "4",
+    "lat": 8.9,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Paoua",
+    "function": "5"
+  },
+  {
+    "locationCode": "RFA",
+    "label": "Rafai",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sibut",
+    "function": "5"
+  },
+  {
+    "locationCode": "TOG",
+    "label": "Togo",
+    "function": "1234",
+    "lat": 5.5,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "AIG",
+    "label": "Yalinga",
+    "function": "4"
+  },
+  {
+    "locationCode": "IMO",
+    "label": "Zemio",
+    "function": "4"
+  }
+]

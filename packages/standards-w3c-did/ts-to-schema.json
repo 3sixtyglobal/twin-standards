@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://schema.twindev.org/did/",
+	"baseUrl": "https://schema.twindev.org/w3c-did/",
 	"types": [
 		"./src/models/didCryptoSuites.ts",
 		"./src/models/didTypes.ts",
@@ -13,14 +13,21 @@
 		"./src/models/IDidPresentationVerification.ts",
 		"./src/models/IDidService.ts",
 		"./src/models/IDidVerifiableCredential.ts",
+		"./src/models/IDidVerifiableCredentialV1.ts",
+		"./src/models/IDidVerifiableCredentialV2.ts",
 		"./src/models/IDidVerifiablePresentation.ts",
+		"./src/models/IDidVerifiablePresentationV1.ts",
+		"./src/models/IDidVerifiablePresentationV2.ts",
 		"./src/models/IJsonWebSignature2020Proof.ts",
 		"./src/models/IMultikey.ts",
 		"./src/models/proofTypes.ts",
 		"./src/models/IProof.ts"
 	],
 	"externalReferences": {
-		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
-		"IJwk": "https://schema.twindev.org/framework/Jwk"
-	}
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1",
+		"Jwk": "https://schema.twindev.org/framework/Jwk"
+	},
+	"skippablePackages": [
+		"jose"
+	]
 }

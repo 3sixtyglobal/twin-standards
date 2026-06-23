@@ -1,0 +1,428 @@
+[
+  {
+    "locationCode": "IVA",
+    "label": "Ambanja",
+    "function": "5"
+  },
+  {
+    "locationCode": "AHY",
+    "label": "Ambatolahy",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMY",
+    "label": "Ambatomainty",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAM",
+    "label": "Ambatondrazaka",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Ambilobe",
+    "function": "4"
+  },
+  {
+    "locationCode": "AMS",
+    "label": "Amboasary Sud",
+    "subdivisionCode": "U",
+    "function": "23",
+    "lat": -25.033333,
+    "lng": 46.383333
+  },
+  {
+    "locationCode": "AMV",
+    "label": "Ambovombe",
+    "subdivisionCode": "U",
+    "function": "3",
+    "lat": -25.166667,
+    "lng": 46.083333
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Ampanihy",
+    "function": "4"
+  },
+  {
+    "locationCode": "HVA",
+    "label": "Analalava",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZWA",
+    "label": "Andapa",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAD",
+    "label": "Andriamena",
+    "function": "4"
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Androka",
+    "function": "1"
+  },
+  {
+    "locationCode": "JVA",
+    "label": "Ankavandra",
+    "function": "4"
+  },
+  {
+    "locationCode": "WAK",
+    "label": "Ankazoabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKO",
+    "label": "Ankokoambo",
+    "function": "4",
+    "lat": -16.566667,
+    "lng": 44.466667
+  },
+  {
+    "locationCode": "WOR",
+    "label": "Ankorefo",
+    "function": "4"
+  },
+  {
+    "locationCode": "ANM",
+    "label": "Antalaha",
+    "function": "14"
+  },
+  {
+    "locationCode": "TNR",
+    "label": "Antananarivo",
+    "function": "45"
+  },
+  {
+    "locationCode": "WAQ",
+    "label": "Antsalova",
+    "function": "4"
+  },
+  {
+    "locationCode": "ATJ",
+    "label": "Antsirabe",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIE",
+    "label": "Antsiranana",
+    "function": "14"
+  },
+  {
+    "locationCode": "WAI",
+    "label": "Antsohihy",
+    "function": "4"
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Barren Islands",
+    "function": "1"
+  },
+  {
+    "locationCode": "WBE",
+    "label": "Bealanana",
+    "function": "4"
+  },
+  {
+    "locationCode": "WBD",
+    "label": "Befandriana",
+    "function": "4"
+  },
+  {
+    "locationCode": "OVA",
+    "label": "Bekily",
+    "function": "4"
+  },
+  {
+    "locationCode": "BMD",
+    "label": "Belo",
+    "function": "14"
+  },
+  {
+    "locationCode": "WBO",
+    "label": "Beroroha",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSV",
+    "label": "Besakoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "BPY",
+    "label": "Besalampy",
+    "function": "14"
+  },
+  {
+    "locationCode": "BKU",
+    "label": "Betioky",
+    "function": "4"
+  },
+  {
+    "locationCode": "BIK",
+    "label": "Brickaville",
+    "function": "1"
+  },
+  {
+    "locationCode": "DOA",
+    "label": "Doany",
+    "function": "4"
+  },
+  {
+    "locationCode": "EHL",
+    "label": "Ehoala",
+    "subdivisionCode": "U",
+    "function": "1",
+    "lat": -25.066667,
+    "lng": 46.95
+  },
+  {
+    "locationCode": "RVA",
+    "label": "Farafangana",
+    "function": "14"
+  },
+  {
+    "locationCode": "WFI",
+    "label": "Fianarantsoa",
+    "function": "4"
+  },
+  {
+    "locationCode": "FTU",
+    "label": "Fort Dauphin (Toalagnaro)",
+    "function": "14"
+  },
+  {
+    "locationCode": "HLV",
+    "label": "Hell-Ville",
+    "function": "1"
+  },
+  {
+    "locationCode": "IHO",
+    "label": "Ihosy",
+    "function": "4"
+  },
+  {
+    "locationCode": "ILK",
+    "label": "Ilaka",
+    "function": "4"
+  },
+  {
+    "locationCode": "IVA",
+    "label": "Ivato",
+    "function": "5"
+  },
+  {
+    "locationCode": "WMV",
+    "label": "Madirovalo",
+    "function": "4"
+  },
+  {
+    "locationCode": "VVB",
+    "label": "Mahanoro",
+    "function": "14"
+  },
+  {
+    "locationCode": "MXT",
+    "label": "Maintirano",
+    "function": "14"
+  },
+  {
+    "locationCode": "MJN",
+    "label": "Majunga (Mahajanga)",
+    "function": "14"
+  },
+  {
+    "locationCode": "WML",
+    "label": "Malaimbandy",
+    "function": "4"
+  },
+  {
+    "locationCode": "WMP",
+    "label": "Mampikony",
+    "function": "4"
+  },
+  {
+    "locationCode": "WVK",
+    "label": "Manakara",
+    "function": "14"
+  },
+  {
+    "locationCode": "WMR",
+    "label": "Mananara",
+    "function": "14"
+  },
+  {
+    "locationCode": "MNJ",
+    "label": "Mananjary",
+    "function": "14"
+  },
+  {
+    "locationCode": "WMD",
+    "label": "Mandabe",
+    "function": "4"
+  },
+  {
+    "locationCode": "WMA",
+    "label": "Mandritsara",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJA",
+    "label": "Manja",
+    "function": "4"
+  },
+  {
+    "locationCode": "MOB",
+    "label": "Manombo",
+    "function": "1"
+  },
+  {
+    "locationCode": "WMN",
+    "label": "Maroantsetra",
+    "function": "14"
+  },
+  {
+    "locationCode": "ZVA",
+    "label": "Miandrivazo",
+    "function": "4"
+  },
+  {
+    "locationCode": "TVA",
+    "label": "Morafenobe",
+    "function": "4"
+  },
+  {
+    "locationCode": "MXM",
+    "label": "Morombe",
+    "function": "14"
+  },
+  {
+    "locationCode": "MOQ",
+    "label": "Morondava",
+    "function": "14"
+  },
+  {
+    "locationCode": "NOS",
+    "label": "Nosy-Be",
+    "function": "134",
+    "lat": -13.333333,
+    "lng": 48.25
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Nosy-Varika",
+    "function": "1"
+  },
+  {
+    "locationCode": "WPB",
+    "label": "Port Berge Vaovao",
+    "subdivisionCode": "M",
+    "function": "4",
+    "lat": -15.566667,
+    "lng": 47.616667
+  },
+  {
+    "locationCode": "PSL",
+    "label": "Port Saint Louis",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMS",
+    "label": "Sainte Marie",
+    "function": "4",
+    "lat": -16.133333,
+    "lng": 46.966667
+  },
+  {
+    "locationCode": "SVB",
+    "label": "Sambava",
+    "function": "14"
+  },
+  {
+    "locationCode": "DWB",
+    "label": "Soalala",
+    "function": "14"
+  },
+  {
+    "locationCode": "TMM",
+    "label": "Tamatave (Toamasina)",
+    "function": "145"
+  },
+  {
+    "locationCode": "WTA",
+    "label": "Tambohorano",
+    "function": "4"
+  },
+  {
+    "locationCode": "TDV",
+    "label": "Tanandava",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanjombato",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": -18.95,
+    "lng": 47.533333
+  },
+  {
+    "locationCode": "TLN",
+    "label": "Taolagnaro",
+    "function": "3",
+    "lat": -25.016667,
+    "lng": 46.966667
+  },
+  {
+    "locationCode": "TOA",
+    "label": "Toamasina",
+    "function": "1"
+  },
+  {
+    "locationCode": "TTS",
+    "label": "Tsaratanana",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSM",
+    "label": "Tsiombe",
+    "subdivisionCode": "U",
+    "function": "3",
+    "lat": -25.3,
+    "lng": 45.483333
+  },
+  {
+    "locationCode": "WTS",
+    "label": "Tsiroanomandidy",
+    "function": "4"
+  },
+  {
+    "locationCode": "TLE",
+    "label": "Tulear (Toliara)",
+    "function": "14"
+  },
+  {
+    "locationCode": "VND",
+    "label": "Vangaindrano",
+    "function": "4"
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vatomandry",
+    "function": "14"
+  },
+  {
+    "locationCode": "VEH",
+    "label": "Vehiperro",
+    "function": "1"
+  },
+  {
+    "locationCode": "VOH",
+    "label": "Vohemar",
+    "function": "4"
+  }
+]

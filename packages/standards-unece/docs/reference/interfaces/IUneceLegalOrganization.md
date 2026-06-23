@@ -1,0 +1,145 @@
+# Interface: IUneceLegalOrganization
+
+An organization set up on a legal basis as a business, government body, department, charity, or financial institution.
+
+## See
+
+https://vocabulary.uncefact.org/LegalOrganization
+
+## Properties
+
+### @context? {#context}
+
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+***
+
+### type {#type}
+
+> **type**: `"LegalOrganization"`
+
+JSON-LD Type.
+
+***
+
+### authorizedRegistration? {#authorizedregistration}
+
+> `optional` **authorizedRegistration?**: [`IUneceLegalRegistration`](IUneceLegalRegistration.md)[]
+
+A legal registration authorized for this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/authorizedRegistration
+
+***
+
+### businessTypeCode? {#businesstypecode}
+
+> `optional` **businessTypeCode?**: `string`
+
+A code specifying the type of business of this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/businessTypeCode
+
+***
+
+### districtId? {#districtid}
+
+> `optional` **districtId?**: `string` \| `IJsonLdValueObject`
+
+A unique identifier of the district area regarded as a geographic or administrative unit within which this legally set
+up organization operates.
+
+#### See
+
+https://vocabulary.uncefact.org/districtId
+
+***
+
+### establishedDateTime? {#establisheddatetime}
+
+> `optional` **establishedDateTime?**: `string`
+
+The date, time, date time, or other date time value when this legally set up organization was established.
+
+#### See
+
+https://vocabulary.uncefact.org/establishedDateTime
+
+***
+
+### identifier? {#identifier}
+
+> `optional` **identifier?**: `string` \| `IJsonLdValueObject`
+
+A unique identifier for this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/identifier
+
+***
+
+### legalClassificationCode? {#legalclassificationcode}
+
+> `optional` **legalClassificationCode?**: `string`
+
+The code specifying the legal classification of this organization, such as Incorporated (Inc), Limited Liability
+Corporation (LLC) or non-profit.
+
+#### See
+
+https://vocabulary.uncefact.org/legalClassificationCode
+
+***
+
+### name? {#name}
+
+> `optional` **name?**: `string`
+
+A name, expressed as text, of this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/name
+
+***
+
+### postalAddress? {#postaladdress}
+
+> `optional` **postalAddress?**: [`IUneceTradeAddress`](IUneceTradeAddress.md)[]
+
+A postal address for this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/postalAddress
+
+***
+
+### tradingBusinessName? {#tradingbusinessname}
+
+> `optional` **tradingBusinessName?**: `string`
+
+The trading business name, expressed as text, of this legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/tradingBusinessName
+
+***
+
+### typeCode? {#typecode}
+
+> `optional` **typeCode?**: `string`
+
+A code specifying a type of legally set up organization.
+
+#### See
+
+https://vocabulary.uncefact.org/typeCode

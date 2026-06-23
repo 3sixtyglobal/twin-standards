@@ -1,0 +1,60 @@
+# Interface: IUneceProductionWasteRecoveryDisposalProcess
+
+A process of either regaining waste substances in usable form, or of getting rid of waste substances resulting from
+production.
+
+## See
+
+https://vocabulary.uncefact.org/ProductionWasteRecoveryDisposalProcess
+
+## Properties
+
+### @context? {#context}
+
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+***
+
+### type {#type}
+
+> **type**: `"ProductionWasteRecoveryDisposalProcess"`
+
+JSON-LD Type.
+
+***
+
+### description? {#description}
+
+> `optional` **description?**: `string`
+
+A textual description of this production waste recovery disposal process.
+
+#### See
+
+https://vocabulary.uncefact.org/description
+
+***
+
+### productionWasteRecoveryDisposalProcessTypeCode? {#productionwasterecoverydisposalprocesstypecode}
+
+> `optional` **productionWasteRecoveryDisposalProcessTypeCode?**: `string`
+
+The code specifying the type of production waste recovery disposal process.
+
+#### See
+
+https://vocabulary.uncefact.org/productionWasteRecoveryDisposalProcessTypeCode
+
+***
+
+### specifiedProcessCertificate? {#specifiedprocesscertificate}
+
+> `optional` **specifiedProcessCertificate?**: [`IUneceProcessCertificate`](IUneceProcessCertificate.md)[]
+
+A process certificate specified for this production waste recovery disposal process.
+
+#### See
+
+https://vocabulary.uncefact.org/specifiedProcessCertificate

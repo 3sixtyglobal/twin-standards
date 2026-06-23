@@ -1,0 +1,292 @@
+[
+  {
+    "code": "01",
+    "label": "Adrar",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Chlef",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Laghouat",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Oum el Bouaghi",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Batna",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Béjaïa",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Biskra",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Béchar",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Blida",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Bouira",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Tamanrasset",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Tébessa",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Tlemcen",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Tiaret",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Tizi Ouzou",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Alger",
+    "type": "Province"
+  },
+  {
+    "code": "17",
+    "label": "Djelfa",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Jijel",
+    "type": "Province"
+  },
+  {
+    "code": "19",
+    "label": "Sétif",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Saïda",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Skikda",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "Sidi Bel Abbès",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "Annaba",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Guelma",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Constantine",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Médéa",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Mostaganem",
+    "type": "Province"
+  },
+  {
+    "code": "28",
+    "label": "M'sila",
+    "type": "Province"
+  },
+  {
+    "code": "29",
+    "label": "Mascara",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Ouargla",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "Oran",
+    "type": "Province"
+  },
+  {
+    "code": "32",
+    "label": "El Bayadh",
+    "type": "Province"
+  },
+  {
+    "code": "33",
+    "label": "Illizi",
+    "type": "Province"
+  },
+  {
+    "code": "34",
+    "label": "Bordj Bou Arréridj",
+    "type": "Province"
+  },
+  {
+    "code": "35",
+    "label": "Boumerdès",
+    "type": "Province"
+  },
+  {
+    "code": "36",
+    "label": "El Tarf",
+    "type": "Province"
+  },
+  {
+    "code": "37",
+    "label": "Tindouf",
+    "type": "Province"
+  },
+  {
+    "code": "38",
+    "label": "Tissemsilt",
+    "type": "Province"
+  },
+  {
+    "code": "39",
+    "label": "El Oued",
+    "type": "Province"
+  },
+  {
+    "code": "40",
+    "label": "Khenchela",
+    "type": "Province"
+  },
+  {
+    "code": "41",
+    "label": "Souk Ahras",
+    "type": "Province"
+  },
+  {
+    "code": "42",
+    "label": "Tipaza",
+    "type": "Province"
+  },
+  {
+    "code": "43",
+    "label": "Mila",
+    "type": "Province"
+  },
+  {
+    "code": "44",
+    "label": "Aïn Defla",
+    "type": "Province"
+  },
+  {
+    "code": "45",
+    "label": "Naama",
+    "type": "Province"
+  },
+  {
+    "code": "46",
+    "label": "Aïn Témouchent",
+    "type": "Province"
+  },
+  {
+    "code": "47",
+    "label": "Ghardaïa",
+    "type": "Province"
+  },
+  {
+    "code": "48",
+    "label": "Relizane",
+    "type": "Province"
+  },
+  {
+    "code": "49",
+    "label": "Timimoun",
+    "type": "Province"
+  },
+  {
+    "code": "50",
+    "label": "Bordj Badji Mokhtar",
+    "type": "Province"
+  },
+  {
+    "code": "51",
+    "label": "Ouled Djellal",
+    "type": "Province"
+  },
+  {
+    "code": "52",
+    "label": "Béni Abbès",
+    "type": "Province"
+  },
+  {
+    "code": "53",
+    "label": "In Salah",
+    "type": "Province"
+  },
+  {
+    "code": "54",
+    "label": "In Guezzam",
+    "type": "Province"
+  },
+  {
+    "code": "55",
+    "label": "Touggourt",
+    "type": "Province"
+  },
+  {
+    "code": "56",
+    "label": "Djanet",
+    "type": "Province"
+  },
+  {
+    "code": "57",
+    "label": "El Meghaier",
+    "type": "Province"
+  },
+  {
+    "code": "58",
+    "label": "El Meniaa",
+    "type": "Province"
+  }
+]

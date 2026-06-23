@@ -1,0 +1,45 @@
+[
+  {
+    "locationCode": "BAR",
+    "label": "Barentsburg",
+    "function": "1",
+    "lat": 78.066667,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "HOP",
+    "label": "Hopen",
+    "function": "0",
+    "lat": 76.583333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "JAM",
+    "label": "Jan Mayen",
+    "function": "0",
+    "lat": 76.583333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "LYR",
+    "label": "Longyearbyen",
+    "function": "134",
+    "lat": 78.216667,
+    "lng": 15.633333
+  },
+  {
+    "locationCode": "NYA",
+    "label": "Ny-Ålesund",
+    "labelWithDiacritics": "Ny-Alesund",
+    "function": "1",
+    "lat": 78.933333,
+    "lng": 11.95
+  },
+  {
+    "locationCode": "SVE",
+    "label": "Sveagruva",
+    "function": "1",
+    "lat": 77.85,
+    "lng": 16.65
+  }
+]

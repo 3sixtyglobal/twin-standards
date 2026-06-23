@@ -14,7 +14,7 @@ Validation for GS1 types.
 
 ## Methods
 
-### locationMasterData()
+### locationMasterData() {#locationmasterdata}
 
 > `static` **locationMasterData**(`propertyName`, `value`, `failures`, `container?`): `value is Gs1Location`
 

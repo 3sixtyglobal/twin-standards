@@ -1,0 +1,82 @@
+[
+  {
+    "code": "BB",
+    "label": "Brandenburg",
+    "type": "Land"
+  },
+  {
+    "code": "BE",
+    "label": "Berlin",
+    "type": "Land"
+  },
+  {
+    "code": "BW",
+    "label": "Baden-Württemberg",
+    "type": "Land"
+  },
+  {
+    "code": "BY",
+    "label": "Bayern",
+    "type": "Land"
+  },
+  {
+    "code": "HB",
+    "label": "Bremen",
+    "type": "Land"
+  },
+  {
+    "code": "HE",
+    "label": "Hessen",
+    "type": "Land"
+  },
+  {
+    "code": "HH",
+    "label": "Hamburg",
+    "type": "Land"
+  },
+  {
+    "code": "MV",
+    "label": "Mecklenburg-Vorpommern",
+    "type": "Land"
+  },
+  {
+    "code": "NI",
+    "label": "Niedersachsen",
+    "type": "Land"
+  },
+  {
+    "code": "NW",
+    "label": "Nordrhein-Westfalen",
+    "type": "Land"
+  },
+  {
+    "code": "RP",
+    "label": "Rheinland-Pfalz",
+    "type": "Land"
+  },
+  {
+    "code": "SH",
+    "label": "Schleswig-Holstein",
+    "type": "Land"
+  },
+  {
+    "code": "SL",
+    "label": "Saarland",
+    "type": "Land"
+  },
+  {
+    "code": "SN",
+    "label": "Sachsen",
+    "type": "Land"
+  },
+  {
+    "code": "ST",
+    "label": "Sachsen-Anhalt",
+    "type": "Land"
+  },
+  {
+    "code": "TH",
+    "label": "Thüringen",
+    "type": "Land"
+  }
+]

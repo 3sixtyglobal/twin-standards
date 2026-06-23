@@ -4,15 +4,15 @@
 
 The types for proofs.
 
-## Type declaration
+## Type Declaration
 
-### DataIntegrityProof
+### DataIntegrityProof {#dataintegrityproof}
 
 > `readonly` **DataIntegrityProof**: `"DataIntegrityProof"` = `"DataIntegrityProof"`
 
 The type for Data Integrity Proof.
 
-### JsonWebSignature2020
+### JsonWebSignature2020 {#jsonwebsignature2020}
 
 > `readonly` **JsonWebSignature2020**: `"JsonWebSignature2020"` = `"JsonWebSignature2020"`
 

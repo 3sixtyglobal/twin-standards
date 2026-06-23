@@ -1,0 +1,57 @@
+[
+  {
+    "code": "BRU",
+    "label": "Bruxelles-Capitale, Région de",
+    "type": "Region"
+  },
+  {
+    "code": "VAN",
+    "label": "Antwerpen",
+    "type": "Province"
+  },
+  {
+    "code": "VBR",
+    "label": "Vlaams Brabant",
+    "type": "Province"
+  },
+  {
+    "code": "VLI",
+    "label": "Limburg",
+    "type": "Province"
+  },
+  {
+    "code": "VOV",
+    "label": "Oost-Vlaanderen",
+    "type": "Province"
+  },
+  {
+    "code": "VWV",
+    "label": "West-Vlaanderen",
+    "type": "Province"
+  },
+  {
+    "code": "WBR",
+    "label": "Brabant wallon",
+    "type": "Province"
+  },
+  {
+    "code": "WHT",
+    "label": "Hainaut",
+    "type": "Province"
+  },
+  {
+    "code": "WLG",
+    "label": "Liège",
+    "type": "Province"
+  },
+  {
+    "code": "WLX",
+    "label": "Luxembourg",
+    "type": "Province"
+  },
+  {
+    "code": "WNA",
+    "label": "Namur",
+    "type": "Province"
+  }
+]

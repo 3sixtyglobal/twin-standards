@@ -1,0 +1,67 @@
+[
+  {
+    "locationCode": "ANG",
+    "label": "Angolares",
+    "function": "5"
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guadalupe",
+    "function": "5"
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madalena",
+    "function": "5"
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Neves",
+    "function": "5"
+  },
+  {
+    "locationCode": "PGP",
+    "label": "Porto Alegre",
+    "function": "4"
+  },
+  {
+    "locationCode": "PCP",
+    "label": "Principe",
+    "function": "14"
+  },
+  {
+    "locationCode": "RIA",
+    "label": "Ribeira Afonso",
+    "function": "5"
+  },
+  {
+    "locationCode": "STA",
+    "label": "Santana",
+    "function": "5"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Santo Amaro",
+    "function": "5"
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Santo Antonio",
+    "function": "1"
+  },
+  {
+    "locationCode": "TMS",
+    "label": "Sao Tome Island",
+    "function": "145"
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Stormskaer",
+    "function": "0"
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Trindade",
+    "function": "5"
+  }
+]

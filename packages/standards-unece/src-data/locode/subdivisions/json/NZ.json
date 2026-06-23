@@ -1,0 +1,87 @@
+[
+  {
+    "code": "AUK",
+    "label": "Auckland",
+    "type": "region"
+  },
+  {
+    "code": "BOP",
+    "label": "Bay of Plenty",
+    "type": "Region"
+  },
+  {
+    "code": "CAN",
+    "label": "Canterbury",
+    "type": "Region"
+  },
+  {
+    "code": "CIT",
+    "label": "Chatham Islands Territory",
+    "type": "Special Island Authorithy"
+  },
+  {
+    "code": "GIS",
+    "label": "Gisborne",
+    "type": "region"
+  },
+  {
+    "code": "HKB",
+    "label": "Hawkes's Bay",
+    "type": "Region"
+  },
+  {
+    "code": "MBH",
+    "label": "Marlborough",
+    "type": "region"
+  },
+  {
+    "code": "MWT",
+    "label": "Manawatu-Wanganui",
+    "type": "Region"
+  },
+  {
+    "code": "NSN",
+    "label": "Nelson",
+    "type": "region"
+  },
+  {
+    "code": "NTL",
+    "label": "Northland",
+    "type": "Region"
+  },
+  {
+    "code": "OTA",
+    "label": "Otago",
+    "type": "Region"
+  },
+  {
+    "code": "STL",
+    "label": "Southland",
+    "type": "Region"
+  },
+  {
+    "code": "TAS",
+    "label": "Tasman",
+    "type": "Region"
+  },
+  {
+    "code": "TKI",
+    "label": "Taranaki",
+    "type": "Region"
+  },
+  {
+    "code": "WGN",
+    "label": "Wellington",
+    "type": "Region"
+  },
+  {
+    "code": "WKO",
+    "label": "Waikato",
+    "type": "Region"
+  },
+  {
+    "code": "WTC",
+    "label": "West Coast",
+    "type": "Region"
+  }
+]

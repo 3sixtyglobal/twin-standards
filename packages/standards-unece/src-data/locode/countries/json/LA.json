@@ -1,0 +1,345 @@
+[
+  {
+    "locationCode": "AOU",
+    "label": "Attopeu",
+    "function": "34",
+    "lat": 14.816667,
+    "lng": 106.816667
+  },
+  {
+    "locationCode": "HNK",
+    "label": "Ban Houaynamleuk",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 18.366667,
+    "lng": 103.116667
+  },
+  {
+    "locationCode": "OUI",
+    "label": "Ban Houei",
+    "function": "4"
+  },
+  {
+    "locationCode": "GT9",
+    "label": "Ban Thanalèng",
+    "subdivisionCode": "VT",
+    "labelWithDiacritics": "Ban Thanaleng",
+    "function": "3",
+    "lat": 17.883333,
+    "lng": 102.716667
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Boten",
+    "subdivisionCode": "LM",
+    "function": "23",
+    "lat": 21.166667,
+    "lng": 101.666667
+  },
+  {
+    "locationCode": "DSH",
+    "label": "Danesavan",
+    "subdivisionCode": "SV",
+    "function": "3",
+    "lat": 16.616667,
+    "lng": 106.583333
+  },
+  {
+    "locationCode": "HHP",
+    "label": "Hin Hoeup",
+    "subdivisionCode": "VI",
+    "function": "3",
+    "lat": 18.616667,
+    "lng": 102.316667
+  },
+  {
+    "locationCode": "HOE",
+    "label": "Houeisay",
+    "function": "34",
+    "lat": 20.25,
+    "lng": 100.433333
+  },
+  {
+    "locationCode": "KTH",
+    "label": "Kenthao",
+    "subdivisionCode": "XA",
+    "function": "3",
+    "lat": 17.716667,
+    "lng": 101.383333
+  },
+  {
+    "locationCode": "KOG",
+    "label": "Khong",
+    "function": "4"
+  },
+  {
+    "locationCode": "LLY",
+    "label": "Lalay",
+    "subdivisionCode": "SL",
+    "function": "3",
+    "lat": 16.3,
+    "lng": 106.95
+  },
+  {
+    "locationCode": "LTY",
+    "label": "Lantouy",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 22.466667,
+    "lng": 101.7
+  },
+  {
+    "locationCode": "LXG",
+    "label": "Luang Namtha",
+    "function": "34",
+    "lat": 20.966667,
+    "lng": 101.383333
+  },
+  {
+    "locationCode": "LPQ",
+    "label": "Luang Prabang",
+    "function": "234",
+    "lat": 19.883333,
+    "lng": 102.2
+  },
+  {
+    "locationCode": "MGN",
+    "label": "Muang Ngeun",
+    "subdivisionCode": "XA",
+    "function": "3",
+    "lat": 19.6,
+    "lng": 101.1
+  },
+  {
+    "locationCode": "UON",
+    "label": "Muong Sai",
+    "function": "4"
+  },
+  {
+    "locationCode": "NMO",
+    "label": "Nameo",
+    "subdivisionCode": "HO",
+    "function": "3",
+    "lat": 20.283333,
+    "lng": 104.616667
+  },
+  {
+    "locationCode": "NKM",
+    "label": "Namkan",
+    "subdivisionCode": "XI",
+    "function": "3",
+    "lat": 19.45,
+    "lng": 104.066667
+  },
+  {
+    "locationCode": "NPO",
+    "label": "Namphao",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 18.366667,
+    "lng": 105.15
+  },
+  {
+    "locationCode": "NPH",
+    "label": "Naphao",
+    "subdivisionCode": "KH",
+    "function": "3",
+    "lat": 17.65,
+    "lng": 105.75
+  },
+  {
+    "locationCode": "NTY",
+    "label": "Nateuy",
+    "subdivisionCode": "LM",
+    "function": "236",
+    "lat": 21.05,
+    "lng": 101.633333
+  },
+  {
+    "locationCode": "NNK",
+    "label": "Nongnokkhian",
+    "subdivisionCode": "AT",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": 106.016667
+  },
+  {
+    "locationCode": "ODY",
+    "label": "Oudomxay",
+    "function": "234",
+    "lat": 20.666667,
+    "lng": 101.983333
+  },
+  {
+    "locationCode": "PKS",
+    "label": "Paksane",
+    "function": "34",
+    "lat": 18.383333,
+    "lng": 103.65
+  },
+  {
+    "locationCode": "PKZ",
+    "label": "Pakxe",
+    "function": "34",
+    "lat": 15.116667,
+    "lng": 105.766667
+  },
+  {
+    "locationCode": "PGH",
+    "label": "Panghai",
+    "subdivisionCode": "LM",
+    "function": "3",
+    "lat": 21.2,
+    "lng": 101.233333
+  },
+  {
+    "locationCode": "PHK",
+    "label": "Panghok",
+    "subdivisionCode": "PH",
+    "function": "3",
+    "lat": 21.2,
+    "lng": 102.9
+  },
+  {
+    "locationCode": "PCQ",
+    "label": "Phongsaly",
+    "subdivisionCode": "PH",
+    "function": "34",
+    "lat": 21.666667,
+    "lng": 102.1
+  },
+  {
+    "locationCode": "PNH",
+    "label": "Phonhong",
+    "subdivisionCode": "VI",
+    "function": "23",
+    "lat": 18.483333,
+    "lng": 102.4
+  },
+  {
+    "locationCode": "PKU",
+    "label": "Phu Keua",
+    "subdivisionCode": "AT",
+    "function": "3",
+    "lat": 14.7,
+    "lng": 107.55
+  },
+  {
+    "locationCode": "NEU",
+    "label": "Sam Neua",
+    "function": "34",
+    "lat": 20.4,
+    "lng": 104.033333
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Saravane",
+    "function": "34",
+    "lat": 15.7,
+    "lng": 106.4
+  },
+  {
+    "locationCode": "SAV",
+    "label": "Savannakhét",
+    "labelWithDiacritics": "Savannakhet",
+    "function": "36",
+    "lat": 16.55,
+    "lng": 104.75
+  },
+  {
+    "locationCode": "ZBY",
+    "label": "Sayaboury",
+    "function": "34",
+    "lat": 19.25,
+    "lng": 101.7
+  },
+  {
+    "locationCode": "SKG",
+    "label": "Sekong",
+    "subdivisionCode": "XE",
+    "function": "3",
+    "lat": 15.333333,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "SND",
+    "label": "Seno",
+    "function": "4"
+  },
+  {
+    "locationCode": "THK",
+    "label": "Thakhek",
+    "function": "346",
+    "lat": 17.483333,
+    "lng": 104.733333
+  },
+  {
+    "locationCode": "THG",
+    "label": "Thanaleng",
+    "subdivisionCode": "VT",
+    "function": "2356",
+    "lat": 17.883333,
+    "lng": 102.716667
+  },
+  {
+    "locationCode": "TLE",
+    "label": "Thanalouang",
+    "function": "3",
+    "lat": 20.716667,
+    "lng": 102.2
+  },
+  {
+    "locationCode": "UDO",
+    "label": "Udomxay",
+    "function": "4"
+  },
+  {
+    "locationCode": "VGG",
+    "label": "Vangrieng",
+    "function": "234",
+    "lat": 18.916667,
+    "lng": 102.433333
+  },
+  {
+    "locationCode": "VTO",
+    "label": "Vangtao",
+    "subdivisionCode": "CH",
+    "function": "36",
+    "lat": 15.116667,
+    "lng": 105.45
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Vangtoud",
+    "function": "3"
+  },
+  {
+    "locationCode": "VNG",
+    "label": "Viengxay",
+    "function": "4"
+  },
+  {
+    "locationCode": "VTE",
+    "label": "Vientiane",
+    "function": "2345",
+    "lat": 17.966667,
+    "lng": 102.55
+  },
+  {
+    "locationCode": "XAY",
+    "label": "Xayabury",
+    "function": "4"
+  },
+  {
+    "locationCode": "XKH",
+    "label": "Xieng Khouang",
+    "function": "34",
+    "lat": 19.45,
+    "lng": 103.15
+  },
+  {
+    "locationCode": "XIE",
+    "label": "Xienglom",
+    "function": "4"
+  }
+]

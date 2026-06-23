@@ -3,38 +3,35 @@
 Interface for Duty Rules.
 A Duty is the obligation to exercise an action, with all refinements satisfied.
 A Duty is fulfilled if all constraints are satisfied and if its action has been exercised.
+https://www.w3.org/TR/odrl-model/#duty
 
 ## Extends
 
 - [`IOdrlRule`](IOdrlRule.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### attributedParty?
+### attributedParty? {#attributedparty}
 
-> `optional` **attributedParty**: `string`
+> `optional` **attributedParty?**: `string`
 
 The party to be attributed
 Used when the duty involves attribution
 
 ***
 
-### trackingParty?
+### trackingParty? {#trackingparty}
 
-> `optional` **trackingParty**: `string`
+> `optional` **trackingParty?**: `string`
 
 The party performing the tracking
 Used when the duty involves tracking
 
 ***
 
-### consequence?
+### consequence? {#consequence}
 
-> `optional` **consequence**: `IOdrlDuty`[]
+> `optional` **consequence?**: `ObjectOrArray`\<`IOdrlDuty`\>
 
 The consequences if the duty is not fulfilled.
 Only applicable when the Duty is referenced by a Rule with duty or obligation
@@ -42,26 +39,18 @@ properties.
 
 ***
 
-### remedy?
+### compensatedParty? {#compensatedparty}
 
-> `optional` **remedy**: `IOdrlDuty`[]
-
-The remedies that may be fulfilled to cure the violation.
-
-***
-
-### compensatedParty?
-
-> `optional` **compensatedParty**: `string`
+> `optional` **compensatedParty?**: `string`
 
 The party to be compensated
 Used when the duty involves compensation
 
 ***
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 Optional unique identifier for the rule.
 
@@ -71,9 +60,9 @@ Optional unique identifier for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
-> `optional` **action**: [`ActionType`](../type-aliases/ActionType.md) \| [`IOdrlAction`](IOdrlAction.md) \| ActionType \| IOdrlAction[]
+> `optional` **action?**: `ObjectOrArray`\<`string` \| [`IOdrlAction`](IOdrlAction.md)\>
 
 The action associated with the rule.
 
@@ -83,9 +72,9 @@ The action associated with the rule.
 
 ***
 
-### target?
+### target? {#target}
 
-> `optional` **target**: `string` \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAsset`](IOdrlAsset.md))[]
+> `optional` **target?**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md)\>
 
 The target asset for the rule.
 
@@ -95,9 +84,9 @@ The target asset for the rule.
 
 ***
 
-### assigner?
+### assigner? {#assigner}
 
-> `optional` **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assigner?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assigner of the rule.
 
@@ -107,9 +96,9 @@ The assigner of the rule.
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
-> `optional` **assignee**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assignee?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assignee of the rule.
 
@@ -119,9 +108,9 @@ The assignee of the rule.
 
 ***
 
-### constraint?
+### constraint? {#constraint}
 
-> `optional` **constraint**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **constraint?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
 
 Constraints applied to the rule.
 
@@ -131,9 +120,9 @@ Constraints applied to the rule.
 
 ***
 
-### summary?
+### summary? {#summary}
 
-> `optional` **summary**: `string`
+> `optional` **summary?**: `string`
 
 Additional relation sub-properties as defined in ODRL profiles.
 For example, 'summary' in profile "http://example.com/odrl:profile:03"

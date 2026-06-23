@@ -1,11 +1,13 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IOdrlRule } from "./IOdrlRule";
+import type { ObjectOrArray } from "@twin.org/core";
+import type { IOdrlRule } from "./IOdrlRule.js";
 
 /**
  * Interface for Duty Rules.
  * A Duty is the obligation to exercise an action, with all refinements satisfied.
  * A Duty is fulfilled if all constraints are satisfied and if its action has been exercised.
+ * https://www.w3.org/TR/odrl-model/#duty
  */
 export interface IOdrlDuty extends IOdrlRule {
 	/**
@@ -24,12 +26,7 @@ export interface IOdrlDuty extends IOdrlRule {
 	 * Only applicable when the Duty is referenced by a Rule with duty or obligation
 	 * properties.
 	 */
-	consequence?: IOdrlDuty[];
-
-	/**
-	 * The remedies that may be fulfilled to cure the violation.
-	 */
-	remedy?: IOdrlDuty[];
+	consequence?: ObjectOrArray<IOdrlDuty>;
 
 	/**
 	 * The party to be compensated

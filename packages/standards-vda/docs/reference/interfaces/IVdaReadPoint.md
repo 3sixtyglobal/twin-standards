@@ -8,7 +8,7 @@ Interface for VDA read point.
 
 ## Properties
 
-### dataIdentifier
+### dataIdentifier {#dataidentifier}
 
 > **dataIdentifier**: `string`
 
@@ -20,7 +20,7 @@ Data Identifier (DI).
 
 ***
 
-### issuingAgencyCode
+### issuingAgencyCode {#issuingagencycode}
 
 > **issuingAgencyCode**: `string`
 
@@ -32,7 +32,7 @@ Issuing Agency Code (IAC).
 
 ***
 
-### dunsNumber
+### dunsNumber {#dunsnumber}
 
 > **dunsNumber**: `string`
 
@@ -40,7 +40,7 @@ DUNS Number.
 
 ***
 
-### plant
+### plant {#plant}
 
 > **plant**: `string`
 
@@ -48,7 +48,7 @@ Plant.
 
 ***
 
-### costCenter
+### costCenter {#costcenter}
 
 > **costCenter**: `string`
 
@@ -56,7 +56,7 @@ Cost Center.
 
 ***
 
-### serialNumber
+### serialNumber {#serialnumber}
 
 > **serialNumber**: `string`
 

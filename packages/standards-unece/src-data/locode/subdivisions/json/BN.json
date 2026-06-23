@@ -1,0 +1,22 @@
+[
+  {
+    "code": "BE",
+    "label": "Belait",
+    "type": "District"
+  },
+  {
+    "code": "BM",
+    "label": "Brunei dan -Muara",
+    "type": "District"
+  },
+  {
+    "code": "TE",
+    "label": "Temburong",
+    "type": "District"
+  },
+  {
+    "code": "TU",
+    "label": "Tutong",
+    "type": "District"
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "locationCode": "ZAA",
+    "label": "Arima",
+    "subdivisionCode": "ARI",
+    "function": "36",
+    "lat": 10.633333,
+    "lng": -61.283333
+  },
+  {
+    "locationCode": "ARA",
+    "label": "Arouca",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": -61.333333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Balmain",
+    "subdivisionCode": "CTT",
+    "function": "3",
+    "lat": 10.416667,
+    "lng": -61.433333
+  },
+  {
+    "locationCode": "4BT",
+    "label": "Barataria",
+    "subdivisionCode": "SJL",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.466667
+  },
+  {
+    "locationCode": "BAE",
+    "label": "Barrackpore",
+    "subdivisionCode": "PED",
+    "function": "3",
+    "lat": 10.2,
+    "lng": -61.4
+  },
+  {
+    "locationCode": "CAA",
+    "label": "Canaan",
+    "function": "6",
+    "lat": 11.15,
+    "lng": -60.816667
+  },
+  {
+    "locationCode": "CPC",
+    "label": "Carapichaima",
+    "subdivisionCode": "CTT",
+    "function": "3",
+    "lat": 10.466667,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "CRN",
+    "label": "Carenage",
+    "function": "13",
+    "lat": 10.683333,
+    "lng": -61.6
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Caroni",
+    "subdivisionCode": "ARI",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.533333
+  },
+  {
+    "locationCode": "CHG",
+    "label": "Chaguanas",
+    "subdivisionCode": "CHA",
+    "function": "3",
+    "lat": 10.516667,
+    "lng": -61.416667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chaguaramas",
+    "function": "1"
+  },
+  {
+    "locationCode": "CHF",
+    "label": "Champs Fleurs/Port-of-Spain",
+    "subdivisionCode": "POS",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "CHV",
+    "label": "Charlotteville",
+    "subdivisionCode": "ETO",
+    "function": "13",
+    "lat": 11.316667,
+    "lng": -60.55
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Chase Village",
+    "subdivisionCode": "CTT",
+    "function": "3",
+    "lat": 10.466667,
+    "lng": -61.416667
+  },
+  {
+    "locationCode": "CLA",
+    "label": "Claxton Bay",
+    "subdivisionCode": "CTT",
+    "function": "13",
+    "lat": 10.35,
+    "lng": -61.466667
+  },
+  {
+    "locationCode": "CVA",
+    "label": "Couva",
+    "function": "13",
+    "lat": 10.416667,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "CUN",
+    "label": "Cunupia",
+    "subdivisionCode": "CHA",
+    "function": "3",
+    "lat": 10.55,
+    "lng": -61.366667
+  },
+  {
+    "locationCode": "CUR",
+    "label": "Curepe",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": -61.4
+  },
+  {
+    "locationCode": "7AD",
+    "label": "Dabadie",
+    "subdivisionCode": "CTT",
+    "function": "3",
+    "lat": 10.616667,
+    "lng": -61.316667
+  },
+  {
+    "locationCode": "DAE",
+    "label": "Dabadie",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.616667,
+    "lng": -61.316667
+  },
+  {
+    "locationCode": "DMT",
+    "label": "Diego Martin",
+    "subdivisionCode": "DMN",
+    "function": "6",
+    "lat": 10.716667,
+    "lng": -61.566667
+  },
+  {
+    "locationCode": "FRE",
+    "label": "Freeport",
+    "subdivisionCode": "CTT",
+    "function": "13",
+    "lat": 10.45,
+    "lng": -61.416667
+  },
+  {
+    "locationCode": "FXD",
+    "label": "Fyzabad",
+    "subdivisionCode": "SIP",
+    "function": "3",
+    "lat": 10.183333,
+    "lng": -61.55
+  },
+  {
+    "locationCode": "GSP",
+    "label": "Gasparillo",
+    "function": "3",
+    "lat": 10.316667,
+    "lng": -61.416667
+  },
+  {
+    "locationCode": "GNE",
+    "label": "Glencoe",
+    "subdivisionCode": "DMN",
+    "function": "3",
+    "lat": 10.666667,
+    "lng": -61.566667
+  },
+  {
+    "locationCode": "GUO",
+    "label": "Guapo",
+    "subdivisionCode": "PTF",
+    "function": "3",
+    "lat": 10.183333,
+    "lng": -61.65
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guayaguayare",
+    "function": "13",
+    "lat": 10.133333,
+    "lng": -61.033333
+  },
+  {
+    "locationCode": "LAB",
+    "label": "La Brea (Brighton)",
+    "function": "1"
+  },
+  {
+    "locationCode": "LLL",
+    "label": "Laventille",
+    "function": "36",
+    "lat": 10.65,
+    "lng": -61.483333
+  },
+  {
+    "locationCode": "LOE",
+    "label": "Longdenville",
+    "subdivisionCode": "CHA",
+    "function": "3",
+    "lat": 10.516667,
+    "lng": -61.383333
+  },
+  {
+    "locationCode": "MCY",
+    "label": "Macoya",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": -61.383333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marabella",
+    "function": "3",
+    "lat": 10.283333,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "MVL",
+    "label": "Maraval",
+    "subdivisionCode": "DMN",
+    "function": "3",
+    "lat": 10.7,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "MTS",
+    "label": "Montrose",
+    "function": "6",
+    "lat": 11.2,
+    "lng": -60.65
+  },
+  {
+    "locationCode": "MVT",
+    "label": "Morvant/Port-of-Spain",
+    "subdivisionCode": "POS",
+    "function": "36",
+    "lat": 10.65,
+    "lng": -61.466667
+  },
+  {
+    "locationCode": "MHP",
+    "label": "Mount Hope",
+    "subdivisionCode": "SJL",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.433333
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Penal",
+    "subdivisionCode": "SFO",
+    "function": "3",
+    "lat": 10.166667,
+    "lng": -61.466667
+  },
+  {
+    "locationCode": "PIA",
+    "label": "Piarco",
+    "function": "5"
+  },
+  {
+    "locationCode": "PLY",
+    "label": "Plymouth",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTF",
+    "label": "Point Fortin",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTG",
+    "label": "Point Galeota",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTS",
+    "label": "Point Lisas",
+    "function": "1"
+  },
+  {
+    "locationCode": "PPL",
+    "label": "Point Lizza",
+    "function": "3",
+    "lat": 10.433333,
+    "lng": -61.483333
+  },
+  {
+    "locationCode": "PTP",
+    "label": "Pointe a Pierre",
+    "function": "1"
+  },
+  {
+    "locationCode": "POS",
+    "label": "Port-of-Spain",
+    "subdivisionCode": "POS",
+    "function": "145",
+    "lat": 10.65,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "PTW",
+    "label": "Princes Town",
+    "function": "6",
+    "lat": 10.266667,
+    "lng": -61.383333
+  },
+  {
+    "locationCode": "RCR",
+    "label": "Rio Claro",
+    "subdivisionCode": "RCM",
+    "function": "3",
+    "lat": 10.3,
+    "lng": -61.183333
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Saint Clair",
+    "subdivisionCode": "POS",
+    "function": "3",
+    "lat": 10.666667,
+    "lng": -61.516667
+  },
+  {
+    "locationCode": "FPT",
+    "label": "Saint Mary's",
+    "subdivisionCode": "CTT",
+    "function": "13",
+    "lat": 10.216667,
+    "lng": -61.533333
+  },
+  {
+    "locationCode": "SFE",
+    "label": "San Fernando",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "San Juan/Port-of-Spain",
+    "subdivisionCode": "POS",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "SAG",
+    "label": "Sangre Grande",
+    "subdivisionCode": "SGE",
+    "function": "3",
+    "lat": 10.583333,
+    "lng": -61.116667
+  },
+  {
+    "locationCode": "SCR",
+    "label": "Scarborough",
+    "function": "3",
+    "lat": 11.166667,
+    "lng": -60.733333
+  },
+  {
+    "locationCode": "SCA",
+    "label": "Scarborough/Tobago",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Siparia",
+    "function": "6",
+    "lat": 10.133333,
+    "lng": -61.5
+  },
+  {
+    "locationCode": "SOO",
+    "label": "South Oropouche",
+    "function": "6",
+    "lat": 10.216667,
+    "lng": -61.55
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Tacarigua",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": -61.366667
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Tembladora",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tobago",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOC",
+    "label": "Toco",
+    "subdivisionCode": "POS",
+    "function": "3",
+    "lat": 10.833333,
+    "lng": -60.95
+  },
+  {
+    "locationCode": "TCY",
+    "label": "Trincity",
+    "subdivisionCode": "TUP",
+    "function": "23",
+    "lat": 10.633333,
+    "lng": -61.366667
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunapuna",
+    "function": "3"
+  },
+  {
+    "locationCode": "VCA",
+    "label": "Valencia",
+    "subdivisionCode": "SGE",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.2
+  },
+  {
+    "locationCode": "TOB",
+    "label": "Valsayn",
+    "subdivisionCode": "TUP",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.416667
+  },
+  {
+    "locationCode": "VBL",
+    "label": "Vista Bella",
+    "function": "3",
+    "lat": 10.283333,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "WDK",
+    "label": "Woodbrook",
+    "subdivisionCode": "PTF",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -61.533333
+  }
+]

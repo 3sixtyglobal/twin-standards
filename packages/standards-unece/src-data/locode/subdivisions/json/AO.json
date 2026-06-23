@@ -1,0 +1,92 @@
+[
+  {
+    "code": "BGO",
+    "label": "Bengo",
+    "type": "Province"
+  },
+  {
+    "code": "BGU",
+    "label": "Benguela",
+    "type": "Province"
+  },
+  {
+    "code": "BIE",
+    "label": "Bié",
+    "type": "Province"
+  },
+  {
+    "code": "CAB",
+    "label": "Cabinda",
+    "type": "Province"
+  },
+  {
+    "code": "CCU",
+    "label": "Cuando Cubango",
+    "type": "Province"
+  },
+  {
+    "code": "CNN",
+    "label": "Cunene",
+    "type": "Province"
+  },
+  {
+    "code": "CNO",
+    "label": "Cuanza-Norte",
+    "type": "Province"
+  },
+  {
+    "code": "CUS",
+    "label": "Cuanza-Sul",
+    "type": "Province"
+  },
+  {
+    "code": "HUA",
+    "label": "Huambo",
+    "type": "Province"
+  },
+  {
+    "code": "HUI",
+    "label": "Huíla",
+    "type": "Province"
+  },
+  {
+    "code": "LNO",
+    "label": "Lunda-Norte",
+    "type": "Province"
+  },
+  {
+    "code": "LSU",
+    "label": "Lunda Sul",
+    "type": "Province"
+  },
+  {
+    "code": "LUA",
+    "label": "Luanda",
+    "type": "Province"
+  },
+  {
+    "code": "MAL",
+    "label": "Malange",
+    "type": "Province"
+  },
+  {
+    "code": "MOX",
+    "label": "Moxico",
+    "type": "Province"
+  },
+  {
+    "code": "NAM",
+    "label": "Namibe",
+    "type": "Province"
+  },
+  {
+    "code": "UIG",
+    "label": "Uíge",
+    "type": "Province"
+  },
+  {
+    "code": "ZAI",
+    "label": "Zaire",
+    "type": "Province"
+  }
+]

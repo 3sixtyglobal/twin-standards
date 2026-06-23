@@ -1,0 +1,80 @@
+[
+  {
+    "locationCode": "ALV",
+    "label": "Andorra la Vella",
+    "function": "346",
+    "lat": 42.5,
+    "lng": 1.516667
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Canillo",
+    "function": "3",
+    "lat": 42.566667,
+    "lng": 1.583333
+  },
+  {
+    "locationCode": "ENC",
+    "label": "Encamp",
+    "function": "3",
+    "lat": 42.533333,
+    "lng": 1.566667
+  },
+  {
+    "locationCode": "ESC",
+    "label": "Escaldes-Engordany",
+    "function": "3",
+    "lat": 42.516667,
+    "lng": 1.55
+  },
+  {
+    "locationCode": "EAC",
+    "label": "Escàs",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Escas",
+    "function": "3",
+    "lat": 42.55,
+    "lng": 1.516667
+  },
+  {
+    "locationCode": "FMO",
+    "label": "La Farga de Moles",
+    "function": "3"
+  },
+  {
+    "locationCode": "LMA",
+    "label": "La Massana",
+    "function": "3",
+    "lat": 42.566667,
+    "lng": 1.483333
+  },
+  {
+    "locationCode": "ORD",
+    "label": "Ordino",
+    "function": "3",
+    "lat": 42.55,
+    "lng": 1.516667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pas de la Casa",
+    "function": "3",
+    "lat": 42.55,
+    "lng": 1.733333
+  },
+  {
+    "locationCode": "SJL",
+    "label": "Sant Julià de Lòria",
+    "labelWithDiacritics": "Sant Julia de Loria",
+    "function": "3",
+    "lat": 42.466667,
+    "lng": 1.5
+  },
+  {
+    "locationCode": "SCO",
+    "label": "Santa Coloma",
+    "function": "3",
+    "lat": 42.5,
+    "lng": 1.5
+  }
+]

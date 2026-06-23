@@ -1,0 +1,31 @@
+[
+  {
+    "locationCode": "ADM",
+    "label": "Anse du Mai",
+    "function": "1",
+    "lat": 15.6,
+    "lng": -61.383333
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belfast",
+    "function": "1"
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Dominica",
+    "function": "45"
+  },
+  {
+    "locationCode": "POR",
+    "label": "Portsmouth",
+    "function": "13",
+    "lat": 15.566667,
+    "lng": -61.45
+  },
+  {
+    "locationCode": "RSU",
+    "label": "Roseau",
+    "function": "1"
+  }
+]

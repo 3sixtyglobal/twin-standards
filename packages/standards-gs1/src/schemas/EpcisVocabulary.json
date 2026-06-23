@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/gs1-epcis/EpcisVocabulary",
+	"title": "EpcisVocabulary",
+	"description": "EPCIS 2.0 Vocabulary container that groups related vocabulary elements.",
+	"type": "object",
+	"properties": {
+		"type": {
+			"type": "string",
+			"description": "Vocabulary type."
+		},
+		"vocabularyElementList": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/gs1-epcis/EpcisVocabularyElement"
+			},
+			"description": "List of vocabulary elements."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

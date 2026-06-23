@@ -14,7 +14,7 @@ Handle all the data types for schema.org.
 
 ## Methods
 
-### registerRedirects()
+### registerRedirects() {#registerredirects}
 
 > `static` **registerRedirects**(): `void`
 
@@ -26,7 +26,7 @@ Register the JSON-LD Redirects.
 
 ***
 
-### registerTypes()
+### registerTypes() {#registertypes}
 
 > `static` **registerTypes**(): `void`
 

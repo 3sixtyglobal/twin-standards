@@ -1,0 +1,86 @@
+[
+  {
+    "locationCode": "KBS",
+    "label": "Bo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BTE",
+    "label": "Bonthe",
+    "function": "14"
+  },
+  {
+    "locationCode": "DSL",
+    "label": "Daru",
+    "function": "4"
+  },
+  {
+    "locationCode": "FNA",
+    "label": "Freetown",
+    "function": "145"
+  },
+  {
+    "locationCode": "GBK",
+    "label": "Gbangbatok",
+    "function": "4"
+  },
+  {
+    "locationCode": "HGS",
+    "label": "Hastings Apt/Freetown",
+    "subdivisionCode": "W",
+    "function": "34",
+    "lat": 8.366667,
+    "lng": -13.133333
+  },
+  {
+    "locationCode": "KBA",
+    "label": "Kabala",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEN",
+    "label": "Kenema",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSY",
+    "label": "Kissy",
+    "subdivisionCode": "W",
+    "function": "136",
+    "lat": 8.466667,
+    "lng": -13.183333
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Muta",
+    "function": "3"
+  },
+  {
+    "locationCode": "NIT",
+    "label": "Nitti",
+    "function": "1"
+  },
+  {
+    "locationCode": "PEP",
+    "label": "Pepel",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBO",
+    "label": "Sherbro",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Sierra Leone Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "WYE",
+    "label": "Yengema Apt",
+    "subdivisionCode": "E",
+    "function": "34",
+    "lat": 8.616667,
+    "lng": -11.05
+  }
+]

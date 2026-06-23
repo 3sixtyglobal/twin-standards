@@ -1,0 +1,40 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+
+/**
+ * State type identifiers for the Dataspace Protocol Transfer Process.
+ * @see https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/#ack-transfer-process
+ */
+// eslint-disable-next-line @typescript-eslint/naming-convention
+export const DataspaceProtocolTransferProcessStateType = {
+	/**
+	 * Completed
+	 */
+	COMPLETED: "COMPLETED",
+
+	/**
+	 * Requested
+	 */
+	REQUESTED: "REQUESTED",
+
+	/**
+	 * Started
+	 */
+	STARTED: "STARTED",
+
+	/**
+	 * Suspended
+	 */
+	SUSPENDED: "SUSPENDED",
+
+	/**
+	 * Terminated
+	 */
+	TERMINATED: "TERMINATED"
+} as const;
+
+/**
+ * The types for Dataspace Protocol Transfer.
+ */
+export type DataspaceProtocolTransferProcessStateType =
+	(typeof DataspaceProtocolTransferProcessStateType)[keyof typeof DataspaceProtocolTransferProcessStateType];

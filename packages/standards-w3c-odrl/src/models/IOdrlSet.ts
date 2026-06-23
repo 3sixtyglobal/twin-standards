@@ -1,12 +1,12 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
-import type { IOdrlPolicy } from "./IOdrlPolicy";
-import type { OdrlTypes } from "./types/odrlTypes";
+import type { IOdrlPolicy } from "./IOdrlPolicy.js";
+import type { OdrlTypes } from "./types/odrlTypes.js";
 
 /**
  * Interface representing an ODRL Set.
  * A Set is a basic policy type with no specific party requirements.
+ * https://www.w3.org/TR/odrl-model/#policy-set
  */
 export interface IOdrlSet extends IOdrlPolicy {
 	/**

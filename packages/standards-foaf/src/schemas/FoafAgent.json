@@ -1,0 +1,75 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/foaf/FoafAgent",
+	"title": "FoafAgent",
+	"description": "A FOAF Agent.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/foaf/FoafContextType",
+			"description": "The LD Context."
+		},
+		"@type": {
+			"anyOf": [
+				{
+					"const": "Agent"
+				},
+				{
+					"const": "Person"
+				},
+				{
+					"const": "Organization"
+				},
+				{
+					"const": "Group"
+				},
+				{
+					"type": "string"
+				}
+			],
+			"description": "Type."
+		},
+		"age": {
+			"type": "number",
+			"description": "The age in years of some agent."
+		},
+		"made": {
+			"anyOf": [
+				{
+					"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
+				},
+				{
+					"type": "array",
+					"items": {
+						"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject"
+					}
+				}
+			],
+			"description": "Something that was made by this agent."
+		},
+		"weblog": {
+			"$ref": "https://schema.twindev.org/foaf/FoafDocument",
+			"description": "A weblog of some thing (whether person, group, company etc.)."
+		},
+		"openid": {
+			"$ref": "https://schema.twindev.org/foaf/FoafDocument",
+			"description": "An OpenID for an agent."
+		},
+		"interest": {
+			"$ref": "https://schema.twindev.org/foaf/FoafDocument",
+			"description": "A page about a topic of interest to this person."
+		},
+		"topic_interest": {
+			"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject",
+			"description": "A thing of interest to this person."
+		}
+	},
+	"required": [
+		"@type"
+	],
+	"allOf": [
+		{
+			"$ref": "https://schema.twindev.org/foaf/FoafBaseObject"
+		}
+	]
+}

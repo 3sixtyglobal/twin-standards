@@ -1,0 +1,210 @@
+[
+  {
+    "locationCode": "DAH",
+    "label": "Abu Alandah",
+    "subdivisionCode": "AM",
+    "function": "16",
+    "lat": 31.9,
+    "lng": 35.966667
+  },
+  {
+    "locationCode": "DUL",
+    "label": "Ad-Dulayl",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 32.116667,
+    "lng": 36.266667
+  },
+  {
+    "locationCode": "AJL",
+    "label": "Ajloun",
+    "subdivisionCode": "AJ",
+    "function": "3",
+    "lat": 32.333333,
+    "lng": 35.716667
+  },
+  {
+    "locationCode": "AQJ",
+    "label": "Al 'Aqabah",
+    "function": "14",
+    "lat": 29.533333,
+    "lng": 35
+  },
+  {
+    "locationCode": "AAQ",
+    "label": "Al Azraq",
+    "subdivisionCode": "AZ",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 36.883333
+  },
+  {
+    "locationCode": "FUH",
+    "label": "Al Fuhays",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 35.766667
+  },
+  {
+    "locationCode": "8AJ",
+    "label": "Al Jizah",
+    "subdivisionCode": "AM",
+    "function": "3",
+    "lat": 31.7,
+    "lng": 35.95
+  },
+  {
+    "locationCode": "SLT",
+    "label": "Al Salt",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 35.716667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Al-Karak",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 31.183333,
+    "lng": 35.7
+  },
+  {
+    "locationCode": "AMM",
+    "label": "Amman",
+    "function": "45"
+  },
+  {
+    "locationCode": "AQB",
+    "label": "'Aqaba",
+    "function": "13",
+    "lat": 29.516667,
+    "lng": 35
+  },
+  {
+    "locationCode": "ARM",
+    "label": "Ar Ramtha",
+    "subdivisionCode": "IR",
+    "function": "3",
+    "lat": 32.55,
+    "lng": 36
+  },
+  {
+    "locationCode": "ASF",
+    "label": "As Safi",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": 31.033333,
+    "lng": 35.466667
+  },
+  {
+    "locationCode": "ASA",
+    "label": "As Samra'",
+    "function": "3",
+    "lat": 31.366667,
+    "lng": 35.75
+  },
+  {
+    "locationCode": "TFH",
+    "label": "At Tafilah",
+    "subdivisionCode": "AT",
+    "function": "3",
+    "lat": 30.833333,
+    "lng": 35.6
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Az Zarqa'",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 36.1
+  },
+  {
+    "locationCode": "QIR",
+    "label": "Irbid",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jerash",
+    "subdivisionCode": "JA",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 35.883333
+  },
+  {
+    "locationCode": "KHB",
+    "label": "King Hussein Bridge",
+    "subdivisionCode": "BA",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "MPQ",
+    "label": "Ma'an",
+    "function": "4",
+    "lat": 30.2,
+    "lng": 35.733333
+  },
+  {
+    "locationCode": "QMD",
+    "label": "Madaba",
+    "function": "4",
+    "lat": 31.716667,
+    "lng": 35.8
+  },
+  {
+    "locationCode": "OMF",
+    "label": "Mafruq",
+    "function": "4",
+    "lat": 32.333333,
+    "lng": 36.233333
+  },
+  {
+    "locationCode": "PHN",
+    "label": "Prince Hasan Air Base",
+    "subdivisionCode": "MA",
+    "function": "34",
+    "lat": 32.166667,
+    "lng": 37.15
+  },
+  {
+    "locationCode": "QMO",
+    "label": "Qir Moav",
+    "subdivisionCode": "KA",
+    "function": "6",
+    "lat": 31.183333,
+    "lng": 35.7
+  },
+  {
+    "locationCode": "SAH",
+    "label": "Sahab",
+    "subdivisionCode": "AM",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 36
+  },
+  {
+    "locationCode": "IHS",
+    "label": "Sheikh Hussein Bridge",
+    "subdivisionCode": "IR",
+    "lat": 32.483333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "SHO",
+    "label": "Shoubak",
+    "subdivisionCode": "MN",
+    "function": "3",
+    "lat": 30.516667,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "ZFZ",
+    "label": "Zarka Free Zone",
+    "function": "6",
+    "lat": 32.083333,
+    "lng": 36.1
+  }
+]

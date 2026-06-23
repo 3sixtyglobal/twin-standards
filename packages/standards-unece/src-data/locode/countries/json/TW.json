@@ -1,0 +1,441 @@
+[
+  {
+    "locationCode": "APG",
+    "label": "An Ping",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDC",
+    "label": "Bade City",
+    "subdivisionCode": "TAO",
+    "function": "6",
+    "lat": 24.95,
+    "lng": 121.283333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Bali",
+    "function": "13",
+    "lat": 25.15,
+    "lng": 121.4
+  },
+  {
+    "locationCode": "BDA",
+    "label": "Budai",
+    "function": "1",
+    "lat": 23.366667,
+    "lng": 120.1
+  },
+  {
+    "locationCode": "CHW",
+    "label": "Chang-Hua",
+    "function": "23",
+    "lat": 24.066667,
+    "lng": 120.516667
+  },
+  {
+    "locationCode": "CMJ",
+    "label": "Chi Mei",
+    "function": "4"
+  },
+  {
+    "locationCode": "CYI",
+    "label": "Chiayi",
+    "function": "4"
+  },
+  {
+    "locationCode": "CLI",
+    "label": "Chung-Li",
+    "function": "3"
+  },
+  {
+    "locationCode": "CUP",
+    "label": "Chu-pei",
+    "subdivisionCode": "HSZ",
+    "function": "36",
+    "lat": 24.833333,
+    "lng": 121
+  },
+  {
+    "locationCode": "FYN",
+    "label": "Feng-yüan-ch'ü",
+    "subdivisionCode": "TXG",
+    "labelWithDiacritics": "Feng-yuan-ch'u",
+    "function": "23",
+    "lat": 24.25,
+    "lng": 120.716667
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gangshan",
+    "subdivisionCode": "KHH",
+    "function": "3",
+    "lat": 22.783333,
+    "lng": 120.283333
+  },
+  {
+    "locationCode": "GNI",
+    "label": "Green Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUE",
+    "label": "Guishan",
+    "subdivisionCode": "TAO",
+    "function": "3",
+    "lat": 24.9,
+    "lng": 121.55
+  },
+  {
+    "locationCode": "HCN",
+    "label": "Hengchun",
+    "function": "4"
+  },
+  {
+    "locationCode": "HOP",
+    "label": "Hoping",
+    "subdivisionCode": "HUA",
+    "function": "1"
+  },
+  {
+    "locationCode": "HSI",
+    "label": "Hsichih",
+    "function": "3",
+    "lat": 25.066667,
+    "lng": 121.65
+  },
+  {
+    "locationCode": "HCH",
+    "label": "Hsi-Chih",
+    "function": "3",
+    "lat": 25.066667,
+    "lng": 121.65
+  },
+  {
+    "locationCode": "HSZ",
+    "label": "Hsin-chu",
+    "function": "34",
+    "lat": 24.816667,
+    "lng": 120.966667
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Hsin-chuang",
+    "subdivisionCode": "KHH",
+    "function": "3",
+    "lat": 22.75,
+    "lng": 120.3
+  },
+  {
+    "locationCode": "HTC",
+    "label": "Hsin-t'ien",
+    "subdivisionCode": "TPE",
+    "function": "13"
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Hualien",
+    "function": "14"
+  },
+  {
+    "locationCode": "HUK",
+    "label": "Hukou",
+    "subdivisionCode": "HSQ",
+    "function": "1",
+    "lat": 24.9,
+    "lng": 121.05
+  },
+  {
+    "locationCode": "ILA",
+    "label": "I-lan",
+    "function": "23",
+    "lat": 24.766667,
+    "lng": 121.75
+  },
+  {
+    "locationCode": "KHH",
+    "label": "Kaohsiung",
+    "function": "14"
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Keelung (Chilung)",
+    "function": "1"
+  },
+  {
+    "locationCode": "KEZ",
+    "label": "Kepz",
+    "function": "0"
+  },
+  {
+    "locationCode": "KNH",
+    "label": "Kinmen",
+    "function": "4"
+  },
+  {
+    "locationCode": "LHN",
+    "label": "Lishan",
+    "function": "4"
+  },
+  {
+    "locationCode": "LGM",
+    "label": "Lung-men",
+    "function": "1",
+    "lat": 23.566667,
+    "lng": 119.666667
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Mai-Liai",
+    "function": "1",
+    "lat": 23.75,
+    "lng": 120.25
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Mai-liao",
+    "function": "1",
+    "lat": 23.1,
+    "lng": 120.133333
+  },
+  {
+    "locationCode": "MZG",
+    "label": "Makung",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFK",
+    "label": "Matsu",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZMI",
+    "label": "Miao-li",
+    "function": "23",
+    "lat": 24.55,
+    "lng": 120.816667
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Nangang",
+    "subdivisionCode": "KHH",
+    "function": "3",
+    "lat": 25.083333,
+    "lng": 122
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nantou",
+    "function": "13",
+    "lat": 23.9,
+    "lng": 120.683333
+  },
+  {
+    "locationCode": "NTU",
+    "label": "Nan-t'ou",
+    "subdivisionCode": "NAN",
+    "function": "3",
+    "lat": 23.9,
+    "lng": 120.666667
+  },
+  {
+    "locationCode": "NEZ",
+    "label": "Nepz, Nantze",
+    "function": "0"
+  },
+  {
+    "locationCode": "NTC",
+    "label": "New Taipei City",
+    "subdivisionCode": "TPE",
+    "function": "3",
+    "lat": 25,
+    "lng": 121.433333
+  },
+  {
+    "locationCode": "KYD",
+    "label": "Orchid Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "PIF",
+    "label": "Pingtung",
+    "function": "4"
+  },
+  {
+    "locationCode": "TTA",
+    "label": "Pingzhen",
+    "subdivisionCode": "TAO",
+    "function": "3",
+    "lat": 24.933333,
+    "lng": 121.2
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Sha-lun",
+    "function": "13",
+    "lat": 25.1,
+    "lng": 121.216667
+  },
+  {
+    "locationCode": "SIJ",
+    "label": "Sijhih",
+    "subdivisionCode": "TPE",
+    "function": "3"
+  },
+  {
+    "locationCode": "SUO",
+    "label": "Suao",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMT",
+    "label": "Sun Moon Lake",
+    "function": "4"
+  },
+  {
+    "locationCode": "TXG",
+    "label": "Taichung",
+    "subdivisionCode": "TXG",
+    "function": "14"
+  },
+  {
+    "locationCode": "TNN",
+    "label": "Tainan",
+    "function": "14"
+  },
+  {
+    "locationCode": "TAI",
+    "label": "T'ai-nan-hsien",
+    "subdivisionCode": "TNN",
+    "function": "3",
+    "lat": 23.3,
+    "lng": 120.316667
+  },
+  {
+    "locationCode": "TAP",
+    "label": "T'ai-pao",
+    "subdivisionCode": "CYQ",
+    "function": "3",
+    "lat": 23.45,
+    "lng": 120.316667
+  },
+  {
+    "locationCode": "TPE",
+    "label": "Taipei",
+    "subdivisionCode": "TPE",
+    "function": "145",
+    "lat": 25.033333,
+    "lng": 121.516667
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Taipei Songshan Apt",
+    "subdivisionCode": "TPE",
+    "function": "4",
+    "lat": 25.066667,
+    "lng": 121.55
+  },
+  {
+    "locationCode": "TTT",
+    "label": "Taitung",
+    "function": "14"
+  },
+  {
+    "locationCode": "TYN",
+    "label": "Taoyuan",
+    "function": "134"
+  },
+  {
+    "locationCode": "TOF",
+    "label": "Toufen",
+    "function": "3",
+    "lat": 24.516667,
+    "lng": 120.9
+  },
+  {
+    "locationCode": "TUZ",
+    "label": "Tou-liu",
+    "function": "3",
+    "lat": 23.7,
+    "lng": 120.533333
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Tung Hai",
+    "function": "0"
+  },
+  {
+    "locationCode": "WOT",
+    "label": "Wonan",
+    "function": "4"
+  },
+  {
+    "locationCode": "WUJ",
+    "label": "Wu-jih",
+    "function": "23",
+    "lat": 24.1,
+    "lng": 120.616667
+  },
+  {
+    "locationCode": "WUK",
+    "label": "Wu-ku",
+    "subdivisionCode": "TPE",
+    "function": "3"
+  },
+  {
+    "locationCode": "WTU",
+    "label": "Wu-tu",
+    "function": "1236",
+    "lat": 25.083333,
+    "lng": 121.666667
+  },
+  {
+    "locationCode": "YGE",
+    "label": "Ying-Ge",
+    "subdivisionCode": "TPE",
+    "function": "1"
+  },
+  {
+    "locationCode": "FEY",
+    "label": "Yüang-wang",
+    "labelWithDiacritics": "Yuang-wang",
+    "function": "3",
+    "lat": 24.05,
+    "lng": 121.15
+  },
+  {
+    "locationCode": "YUL",
+    "label": "Yüan-Lin",
+    "subdivisionCode": "CHA",
+    "labelWithDiacritics": "Yuan-Lin",
+    "function": "3",
+    "lat": 23.95,
+    "lng": 120.566667
+  },
+  {
+    "locationCode": "YAN",
+    "label": "Yung-an",
+    "function": "3"
+  },
+  {
+    "locationCode": "UGK",
+    "label": "Yung-K'Ang",
+    "function": "6",
+    "lat": 23.016667,
+    "lng": 120.25
+  },
+  {
+    "locationCode": "YLN",
+    "label": "Yunlin",
+    "subdivisionCode": "YUN",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZHB",
+    "label": "Zhubei",
+    "subdivisionCode": "HSZ",
+    "function": "3",
+    "lat": 24.833333,
+    "lng": 121
+  }
+]

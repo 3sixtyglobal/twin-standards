@@ -1,26 +1,19 @@
 # Interface: IOdrlConstraint
 
 Interface for ODRL Constraints.
-
-## Extends
-
-- `IJsonLdNodeObject`
-
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
+https://www.w3.org/TR/odrl-model/#constraint
 
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 Optional unique identifier for the constraint.
 
 ***
 
-### leftOperand
+### leftOperand {#leftoperand}
 
 > **leftOperand**: `string`
 
@@ -28,49 +21,51 @@ The left operand of the constraint.
 
 ***
 
-### operator
+### operator {#operator}
 
-> **operator**: [`OperatorType`](../type-aliases/OperatorType.md)
+> **operator**: [`OdrlOperatorType`](../type-aliases/OdrlOperatorType.md)
 
 The operator of the constraint.
 
 ***
 
-### rightOperand?
+### rightOperand? {#rightoperand}
 
-> `optional` **rightOperand**: `string` \| \{ `@value`: `string`; `@type?`: `string`; \} \| \{ `@id`: `string`; \}
+> `optional` **rightOperand?**: `ObjectOrArray`\<`string` \| \{ `@value`: `string`; `@type?`: `string`; \} \| \{ `@id`: `string`; \}\>
 
 The right operand of the constraint.
 value with optional
 
 ***
 
-### rightOperandReference?
+### rightOperandReference? {#rightoperandreference}
 
-> `optional` **rightOperandReference**: `string`
+> `optional` **rightOperandReference?**: `ObjectOrArray`\<`string`\>
 
 Reference to the right operand.
+Can be used to reference external resources or policies using an IRI.
+Mutually exclusive with rightOperand.
 
 ***
 
-### dataType?
+### dataType? {#datatype}
 
-> `optional` **dataType**: `string`
+> `optional` **dataType?**: `string`
 
 The data type of the right operand.
 
 ***
 
-### unit?
+### unit? {#unit}
 
-> `optional` **unit**: `string`
+> `optional` **unit?**: `string`
 
 The unit for the right operand value.
 
 ***
 
-### status?
+### status? {#status}
 
-> `optional` **status**: [`StatusType`](../type-aliases/StatusType.md)
+> `optional` **status?**: [`OdrlStatusType`](../type-aliases/OdrlStatusType.md)
 
 The status value for comparison.

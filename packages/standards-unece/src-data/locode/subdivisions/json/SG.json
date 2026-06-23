@@ -1,0 +1,27 @@
+[
+  {
+    "code": "01",
+    "label": "Central Singapore",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "North East",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "North West",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "South East",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "South West",
+    "type": "District"
+  }
+]

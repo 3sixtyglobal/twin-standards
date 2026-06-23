@@ -1,19 +1,25 @@
 # TWIN Standards
 
-This mono-repository contains packages defining standards.
+This repository contains reusable standards-aligned data model packages that help organisations exchange information with consistent semantics across identity, policy, metadata, logistics, and data space scenarios.
+
+Each package focuses on a recognised specification or vocabulary and provides a stable foundation for modelling, validation, and integration work, so teams can build interoperable solutions without repeatedly re-implementing core structures.
 
 ## Packages
 
-- [standards-w3c-did](packages/standards-w3c-did/README.md) - Models which define the structure of [W3C DID Standard](https://www.w3.org/TR/did-core/).
-- [standards-w3c-odrl](packages/standards-w3c-odrl/README.md) - Models which define the structure of [W3C ODRL Standard](https://www.w3.org/TR/odrl-model/).
-- [standards-w3c-vcard](packages/standards-w3c-vcard/README.md) - Models which define the structure of [W3C VCard Standard](https://www.w3.org/TR/vcard-rdf/).
-- [standards-dublin-core](packages/standards-dublin-core/README.md) - Models which define the structure of [Dublin Core Standard](https://www.dublincore.org/specifications/dublin-core/).
-- [standards-schema-org](packages/standards-schema-org/README.md) - Models which define the structure of [Schema.org Standard](https://schema.org/).
-- [standards-gs1](packages/standards-gs1/README.md) - Models which define the structure of [GS1 Standard](https://www.gs1.org/).
-- [standards-unece](packages/standards-unece/README.md) - Models which define the structure of [UN/CEFACT Standard](https://vocabulary.uncefact.org/).
-- [standards-vda](packages/standards-vda/README.md) - Models which define the structure of [VDA JAIF Standard](https://www.vda.de/).
-- [standards-gaia-x](packages/standards-gaia-x/README.md) - Models which define the structure of [Gaia-x](https://docs.gaia-x.eu/ontology/development/).
-- [standards-ld-contexts](packages/standards-ld-contexts/README.md) - Local copies of standard LD contexts which can be used for offline development.
+- [standards-w3c-did](packages/standards-w3c-did/README.md) - Data models for the W3C DID Core specification.
+- [standards-w3c-vcard](packages/standards-w3c-vcard/README.md) - Data models for the W3C vCard RDF vocabulary.
+- [standards-dublin-core](packages/standards-dublin-core/README.md) - Data models for Dublin Core metadata terms.
+- [standards-w3c-odrl](packages/standards-w3c-odrl/README.md) - Data models for the W3C ODRL information model.
+- [standards-schema-org](packages/standards-schema-org/README.md) - Data models for Schema.org vocabularies.
+- [standards-gs1](packages/standards-gs1/README.md) - Data models for GS1 vocabularies and semantics.
+- [standards-unece](packages/standards-unece/README.md) - Data models for UN/CEFACT semantic vocabularies.
+- [standards-vda](packages/standards-vda/README.md) - Data models for VDA JAIF semantics.
+- [standards-ld-contexts](packages/standards-ld-contexts/README.md) - Local JSON-LD contexts for offline and controlled use.
+- [standards-w3c-activity-streams](packages/standards-w3c-activity-streams/README.md) - Data models for the W3C Activity Streams vocabulary.
+- [standards-foaf](packages/standards-foaf/README.md) - Data models for the FOAF vocabulary.
+- [standards-w3c-dcat](packages/standards-w3c-dcat/README.md) - Data models for the W3C Data Catalog Vocabulary.
+- [standards-dataspace-protocol](packages/standards-dataspace-protocol/README.md) - Data models for the Dataspace Protocol specification.
+- [standards-dcsa](packages/standards-dcsa/README.md) - Data models for DCSA Track and Trace semantics.
 
 ## Contributing
 

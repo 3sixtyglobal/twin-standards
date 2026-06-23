@@ -1,0 +1,342 @@
+[
+  {
+    "code": "01",
+    "label": "Attard",
+    "type": "Local council"
+  },
+  {
+    "code": "02",
+    "label": "Balzan",
+    "type": "Local council"
+  },
+  {
+    "code": "03",
+    "label": "Birgu",
+    "type": "Local council"
+  },
+  {
+    "code": "04",
+    "label": "Birkirkara",
+    "type": "Local council"
+  },
+  {
+    "code": "05",
+    "label": "Birzebbuga",
+    "type": "Local council"
+  },
+  {
+    "code": "06",
+    "label": "Bormla",
+    "type": "Local council"
+  },
+  {
+    "code": "07",
+    "label": "Dingli",
+    "type": "Local council"
+  },
+  {
+    "code": "08",
+    "label": "Fgura",
+    "type": "Local council"
+  },
+  {
+    "code": "09",
+    "label": "Floriana",
+    "type": "Local council"
+  },
+  {
+    "code": "10",
+    "label": "Fontana",
+    "type": "Local council"
+  },
+  {
+    "code": "11",
+    "label": "Gudja",
+    "type": "Local council"
+  },
+  {
+    "code": "12",
+    "label": "Gzira",
+    "type": "Local council"
+  },
+  {
+    "code": "13",
+    "label": "Ghajnsielem",
+    "type": "Local council"
+  },
+  {
+    "code": "14",
+    "label": "Gharb",
+    "type": "Local council"
+  },
+  {
+    "code": "15",
+    "label": "Gharghur",
+    "type": "Local council"
+  },
+  {
+    "code": "16",
+    "label": "Ghasri",
+    "type": "Local council"
+  },
+  {
+    "code": "17",
+    "label": "Ghaxaq",
+    "type": "Local council"
+  },
+  {
+    "code": "18",
+    "label": "Hamrun",
+    "type": "Local council"
+  },
+  {
+    "code": "19",
+    "label": "Iklin",
+    "type": "Local council"
+  },
+  {
+    "code": "20",
+    "label": "Isla",
+    "type": "Local council"
+  },
+  {
+    "code": "21",
+    "label": "Kalkara",
+    "type": "Local council"
+  },
+  {
+    "code": "22",
+    "label": "Kercem",
+    "type": "Local council"
+  },
+  {
+    "code": "23",
+    "label": "Kirkop",
+    "type": "Local council"
+  },
+  {
+    "code": "24",
+    "label": "Lija",
+    "type": "Local council"
+  },
+  {
+    "code": "25",
+    "label": "Luqa",
+    "type": "Local council"
+  },
+  {
+    "code": "26",
+    "label": "Marsa",
+    "type": "Local council"
+  },
+  {
+    "code": "27",
+    "label": "Marsaskala",
+    "type": "Local council"
+  },
+  {
+    "code": "28",
+    "label": "Marsaxlokk",
+    "type": "Local council"
+  },
+  {
+    "code": "29",
+    "label": "Mdina",
+    "type": "Local council"
+  },
+  {
+    "code": "30",
+    "label": "Mellieha",
+    "type": "Local council"
+  },
+  {
+    "code": "31",
+    "label": "Mgarr",
+    "type": "Local council"
+  },
+  {
+    "code": "32",
+    "label": "Mosta",
+    "type": "Local council"
+  },
+  {
+    "code": "33",
+    "label": "Mqabba",
+    "type": "Local council"
+  },
+  {
+    "code": "34",
+    "label": "Msida",
+    "type": "Local council"
+  },
+  {
+    "code": "35",
+    "label": "Mtarfa",
+    "type": "Local council"
+  },
+  {
+    "code": "36",
+    "label": "Munxar",
+    "type": "Local council"
+  },
+  {
+    "code": "37",
+    "label": "Nadur",
+    "type": "Local council"
+  },
+  {
+    "code": "38",
+    "label": "Naxxar",
+    "type": "Local council"
+  },
+  {
+    "code": "39",
+    "label": "Paola",
+    "type": "Local council"
+  },
+  {
+    "code": "40",
+    "label": "Pembroke",
+    "type": "Local council"
+  },
+  {
+    "code": "41",
+    "label": "Pietà",
+    "type": "Local council"
+  },
+  {
+    "code": "42",
+    "label": "Qala",
+    "type": "Local council"
+  },
+  {
+    "code": "43",
+    "label": "Qormi",
+    "type": "Local council"
+  },
+  {
+    "code": "44",
+    "label": "Qrendi",
+    "type": "Local council"
+  },
+  {
+    "code": "45",
+    "label": "Rabat Gozo",
+    "type": "Local council"
+  },
+  {
+    "code": "46",
+    "label": "Rabat Malta",
+    "type": "Local council"
+  },
+  {
+    "code": "47",
+    "label": "Safi",
+    "type": "Local council"
+  },
+  {
+    "code": "48",
+    "label": "Saint Julian's",
+    "type": "Local council"
+  },
+  {
+    "code": "49",
+    "label": "Saint John",
+    "type": "Local council"
+  },
+  {
+    "code": "50",
+    "label": "Saint Lawrence",
+    "type": "Local council"
+  },
+  {
+    "code": "51",
+    "label": "Saint Paul's Bay",
+    "type": "Local council"
+  },
+  {
+    "code": "52",
+    "label": "Sannat",
+    "type": "Local council"
+  },
+  {
+    "code": "53",
+    "label": "Saint Lucia's",
+    "type": "Local council"
+  },
+  {
+    "code": "54",
+    "label": "Santa Venera",
+    "type": "Local council"
+  },
+  {
+    "code": "55",
+    "label": "Siggiewi",
+    "type": "Local council"
+  },
+  {
+    "code": "56",
+    "label": "Sliema",
+    "type": "Local council"
+  },
+  {
+    "code": "57",
+    "label": "Swieqi",
+    "type": "Local council"
+  },
+  {
+    "code": "58",
+    "label": "Ta' Xbiex",
+    "type": "Local council"
+  },
+  {
+    "code": "59",
+    "label": "Tarxien",
+    "type": "Local council"
+  },
+  {
+    "code": "60",
+    "label": "Valletta",
+    "type": "Local council"
+  },
+  {
+    "code": "61",
+    "label": "Xaghra",
+    "type": "Local council"
+  },
+  {
+    "code": "62",
+    "label": "Xewkija",
+    "type": "Local council"
+  },
+  {
+    "code": "63",
+    "label": "Xghajra",
+    "type": "Local council"
+  },
+  {
+    "code": "64",
+    "label": "Zabbar",
+    "type": "Local council"
+  },
+  {
+    "code": "65",
+    "label": "Zebbug Gozo",
+    "type": "Local council"
+  },
+  {
+    "code": "66",
+    "label": "Zebbug Malta",
+    "type": "Local council"
+  },
+  {
+    "code": "67",
+    "label": "Zejtun",
+    "type": "Local council"
+  },
+  {
+    "code": "68",
+    "label": "Zurrieq",
+    "type": "Local council"
+  }
+]

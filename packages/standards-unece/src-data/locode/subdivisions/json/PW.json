@@ -1,0 +1,82 @@
+[
+  {
+    "code": "002",
+    "label": "Aimeliik",
+    "type": "State"
+  },
+  {
+    "code": "004",
+    "label": "Airai",
+    "type": "State"
+  },
+  {
+    "code": "010",
+    "label": "Angaur",
+    "type": "State"
+  },
+  {
+    "code": "050",
+    "label": "Hatohobei",
+    "type": "State"
+  },
+  {
+    "code": "100",
+    "label": "Kayangel",
+    "type": "State"
+  },
+  {
+    "code": "150",
+    "label": "Koror",
+    "type": "State"
+  },
+  {
+    "code": "212",
+    "label": "Melekeok",
+    "type": "State"
+  },
+  {
+    "code": "214",
+    "label": "Ngaraard",
+    "type": "State"
+  },
+  {
+    "code": "218",
+    "label": "Ngarchelong",
+    "type": "State"
+  },
+  {
+    "code": "222",
+    "label": "Ngardmau",
+    "type": "State"
+  },
+  {
+    "code": "224",
+    "label": "Ngatpang",
+    "type": "State"
+  },
+  {
+    "code": "226",
+    "label": "Ngchesar",
+    "type": "State"
+  },
+  {
+    "code": "227",
+    "label": "Ngeremlengui",
+    "type": "State"
+  },
+  {
+    "code": "228",
+    "label": "Ngiwal",
+    "type": "State"
+  },
+  {
+    "code": "350",
+    "label": "Peleliu",
+    "type": "State"
+  },
+  {
+    "code": "370",
+    "label": "Sonsorol",
+    "type": "State"
+  }
+]

@@ -1,6 +1,7 @@
 {
-	"baseUrl": "https://schema.twindev.org/odrl/",
+	"baseUrl": "https://schema.twindev.org/w3c-odrl/",
 	"types": [
+		"./src/models/odrlContextType.ts",
 		"./src/models/IOdrlAction.ts",
 		"./src/models/IOdrlAgreement.ts",
 		"./src/models/IOdrlAsset.ts",
@@ -8,57 +9,26 @@
 		"./src/models/IOdrlConstraint.ts",
 		"./src/models/IOdrlDuty.ts",
 		"./src/models/IOdrlLogicalConstraint.ts",
+		"./src/models/IOdrlLogicalConstraintOperand.ts",
 		"./src/models/IOdrlOffer.ts",
 		"./src/models/IOdrlParty.ts",
 		"./src/models/IOdrlPartyCollection.ts",
 		"./src/models/IOdrlPermission.ts",
 		"./src/models/IOdrlPolicy.ts",
-		"./src/models/IOdrlPolicyMetadata.ts",
 		"./src/models/IOdrlProhibition.ts",
 		"./src/models/IOdrlRule.ts",
 		"./src/models/IOdrlSet.ts",
-		"./src/models/types/logicalConstraintType.ts",
-		"./src/models/odrlContextType.ts",
+		"./src/models/types/odrlLogicalConstraintType.ts",
 		"./src/models/types/odrlTypes.ts",
-		"./src/models/types/operatorType.ts",
-		"./src/models/types/policyType.ts",
-		"./src/models/types/ruleType.ts",
-		"./src/models/types/statusType.ts",
-		"./src/models/types/actionType.ts",
-		"./src/models/types/leftOperandType.ts",
-		"./src/models/types/uriActionType.ts",
-		"./src/models/types/rightOperandType.ts"
+		"./src/models/types/odrlOperatorType.ts",
+		"./src/models/types/odrlPolicyType.ts",
+		"./src/models/types/odrlRuleType.ts",
+		"./src/models/types/odrlStatusType.ts",
+		"./src/models/types/odrlActionType.ts",
+		"./src/models/types/odrlLeftOperandType.ts",
+		"./src/models/types/odrlRightOperandType.ts"
 	],
 	"externalReferences": {
-		"IJsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
-	},
-	"overrides2": {
-		"OdrlContextType": {
-			"$schema": "https://json-schema.org/draft/2020-12/schema",
-			"$id": "https://schema.twindev.org/odrl/LeftOperandType",
-			"description": "The ODRL JSON-LD context type.",
-			"anyOf": [
-				{
-					"type": "string",
-					"const": "https://www.w3.org/ns/odrl/2/"
-				},
-				{
-					"type": "array",
-					"minItems": 2,
-					"prefixItems": [
-						{
-							"$ref": "https://schema.twindev.org/json-ld/JsonLdContextDefinitionElement"
-						}
-					],
-					"items": true,
-					"minContains": 1,
-					"maxContains": 1,
-					"contains": {
-						"const": "https://www.w3.org/ns/odrl/2/"
-					},
-					"uniqueItems": true
-				}
-			]
-		}
+		"JsonLd(.*)": "https://schema.twindev.org/json-ld/JsonLd$1"
 	}
 }

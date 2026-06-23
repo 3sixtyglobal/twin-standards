@@ -1,0 +1,62 @@
+[
+  {
+    "code": "DR",
+    "label": "Drenthe",
+    "type": "Province"
+  },
+  {
+    "code": "FL",
+    "label": "Flevoland",
+    "type": "Province"
+  },
+  {
+    "code": "FR",
+    "label": "Fryslân",
+    "type": "Province"
+  },
+  {
+    "code": "GE",
+    "label": "Gelderland",
+    "type": "Province"
+  },
+  {
+    "code": "GR",
+    "label": "Groningen",
+    "type": "Province"
+  },
+  {
+    "code": "LI",
+    "label": "Limburg",
+    "type": "Province"
+  },
+  {
+    "code": "NB",
+    "label": "Noord-Brabant",
+    "type": "Province"
+  },
+  {
+    "code": "NH",
+    "label": "Noord-Holland",
+    "type": "Province"
+  },
+  {
+    "code": "OV",
+    "label": "Overijssel",
+    "type": "Province"
+  },
+  {
+    "code": "UT",
+    "label": "Utrecht",
+    "type": "Province"
+  },
+  {
+    "code": "ZE",
+    "label": "Zeeland",
+    "type": "Province"
+  },
+  {
+    "code": "ZH",
+    "label": "Zuid-Holland",
+    "type": "Province"
+  }
+]

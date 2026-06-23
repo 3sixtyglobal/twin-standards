@@ -1,0 +1,470 @@
+[
+  {
+    "locationCode": "ANG",
+    "label": "Ango",
+    "function": "3",
+    "lat": 4.016667,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "ARU",
+    "label": "Aru",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 2.866667,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "BNW",
+    "label": "Banana",
+    "function": "13",
+    "lat": 6.016667,
+    "lng": 12.4
+  },
+  {
+    "locationCode": "FDU",
+    "label": "Bandundu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BSU",
+    "label": "Basankusu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Basongo",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNC",
+    "label": "Beni",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNB",
+    "label": "Boende",
+    "function": "4"
+  },
+  {
+    "locationCode": "BOA",
+    "label": "Boma",
+    "function": "14"
+  },
+  {
+    "locationCode": "BKY",
+    "label": "Bukavu",
+    "function": "4"
+  },
+  {
+    "locationCode": "BMB",
+    "label": "Bumba",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUX",
+    "label": "Bunia",
+    "function": "4"
+  },
+  {
+    "locationCode": "BZU",
+    "label": "Buta",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUT",
+    "label": "Butembo",
+    "subdivisionCode": "NK",
+    "function": "3",
+    "lat": 0.15,
+    "lng": 29.283333
+  },
+  {
+    "locationCode": "DIC",
+    "label": "Dili",
+    "function": "4"
+  },
+  {
+    "locationCode": "GDJ",
+    "label": "Gandajika",
+    "function": "4"
+  },
+  {
+    "locationCode": "BDT",
+    "label": "Gbadolite",
+    "function": "4"
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Gemena",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOM",
+    "label": "Goma",
+    "function": "4"
+  },
+  {
+    "locationCode": "IDF",
+    "label": "Idiofa",
+    "function": "4"
+  },
+  {
+    "locationCode": "IKL",
+    "label": "Ikela",
+    "function": "4"
+  },
+  {
+    "locationCode": "PFR",
+    "label": "Ilebo",
+    "function": "4"
+  },
+  {
+    "locationCode": "INO",
+    "label": "Inongo",
+    "function": "4"
+  },
+  {
+    "locationCode": "IRP",
+    "label": "Isiro",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBO",
+    "label": "Kabalo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KBN",
+    "label": "Kabinda",
+    "function": "4"
+  },
+  {
+    "locationCode": "FMI",
+    "label": "Kalemie",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLY",
+    "label": "Kalima",
+    "function": "4"
+  },
+  {
+    "locationCode": "KMN",
+    "label": "Kamina",
+    "function": "4"
+  },
+  {
+    "locationCode": "KGA",
+    "label": "Kananga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KNM",
+    "label": "Kaniama",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEC",
+    "label": "Kasenga",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Kasindi",
+    "subdivisionCode": "NK",
+    "function": "3",
+    "lat": 0.5,
+    "lng": 29.683333
+  },
+  {
+    "locationCode": "KGN",
+    "label": "Kasongo-Lunda",
+    "function": "4",
+    "lat": -6.466667,
+    "lng": 16.816667
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kasumbalesa",
+    "subdivisionCode": "KA",
+    "function": "5",
+    "lat": -12.183333,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "KKW",
+    "label": "Kikwit",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "KND",
+    "label": "Kindu",
+    "function": "4"
+  },
+  {
+    "locationCode": "FIH",
+    "label": "Kinshasa",
+    "function": "145"
+  },
+  {
+    "locationCode": "KPU",
+    "label": "Kipushi",
+    "function": "23",
+    "lat": -11.75,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "KRZ",
+    "label": "Kiri",
+    "function": "4"
+  },
+  {
+    "locationCode": "FKI",
+    "label": "Kisangani",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWZ",
+    "label": "Kolwezi",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOO",
+    "label": "Kongolo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Kota Koli",
+    "function": "4"
+  },
+  {
+    "locationCode": "LIE",
+    "label": "Libenge",
+    "function": "4"
+  },
+  {
+    "locationCode": "LKS",
+    "label": "Likasi",
+    "subdivisionCode": "KA",
+    "function": "23",
+    "lat": -10.983333,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "LIQ",
+    "label": "Lisala",
+    "function": "4"
+  },
+  {
+    "locationCode": "LJA",
+    "label": "Lodja",
+    "function": "4"
+  },
+  {
+    "locationCode": "FBM",
+    "label": "Lubumbashi",
+    "function": "245"
+  },
+  {
+    "locationCode": "LZA",
+    "label": "Luiza",
+    "function": "4"
+  },
+  {
+    "locationCode": "LZI",
+    "label": "Luozi",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBO",
+    "label": "Lusambo",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUS",
+    "label": "Lusanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGH",
+    "label": "Mahagi",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 2.3,
+    "lng": 30.983333
+  },
+  {
+    "locationCode": "MKL",
+    "label": "Makala",
+    "function": "123",
+    "lat": 2.816667,
+    "lng": 24.716667
+  },
+  {
+    "locationCode": "MNO",
+    "label": "Manono",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSM",
+    "label": "Masi-Manimba",
+    "function": "4",
+    "lat": -4.766667,
+    "lng": 17.916667
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matadi",
+    "function": "14"
+  },
+  {
+    "locationCode": "MDK",
+    "label": "Mbandaka",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJM",
+    "label": "Mbuji-Mayi",
+    "function": "4",
+    "lat": -6.15,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "MNB",
+    "label": "Moanda",
+    "function": "4"
+  },
+  {
+    "locationCode": "BDV",
+    "label": "Moba",
+    "function": "4"
+  },
+  {
+    "locationCode": "MHB",
+    "label": "Moho Bilondo",
+    "function": "16",
+    "lat": -5.916667,
+    "lng": 10.25
+  },
+  {
+    "locationCode": "MWG",
+    "label": "Mwadingusha",
+    "subdivisionCode": "KA",
+    "function": "34",
+    "lat": -10.75,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "MEW",
+    "label": "Mweka",
+    "function": "4"
+  },
+  {
+    "locationCode": "NLO",
+    "label": "N'dolo",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIO",
+    "label": "Nioki",
+    "function": "4"
+  },
+  {
+    "locationCode": "NKL",
+    "label": "Nkolo",
+    "function": "4"
+  },
+  {
+    "locationCode": "NYN",
+    "label": "Nyunzu",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": -5.95,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "RR3",
+    "label": "Patra",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": -4.716667,
+    "lng": 11.95
+  },
+  {
+    "locationCode": "PUN",
+    "label": "Punia",
+    "function": "4"
+  },
+  {
+    "locationCode": "PWO",
+    "label": "Pweto",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Sakania",
+    "subdivisionCode": "KA",
+    "function": "23",
+    "lat": -12.75,
+    "lng": 28.55
+  },
+  {
+    "locationCode": "TNK",
+    "label": "Tenke",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": -11.366667,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "TSH",
+    "label": "Tshikapa",
+    "function": "4"
+  },
+  {
+    "locationCode": "UVI",
+    "label": "Uvira",
+    "function": "5"
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Walikale",
+    "subdivisionCode": "NK",
+    "function": "3",
+    "lat": -1.4,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "WAT",
+    "label": "Watsa",
+    "subdivisionCode": "OR",
+    "function": "3",
+    "lat": 3.05,
+    "lng": 29.533333
+  },
+  {
+    "locationCode": "YAN",
+    "label": "Yangambi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZGQ",
+    "label": "Zongo",
+    "subdivisionCode": "EQ",
+    "function": "6",
+    "lat": 4.35,
+    "lng": 18.6
+  }
+]

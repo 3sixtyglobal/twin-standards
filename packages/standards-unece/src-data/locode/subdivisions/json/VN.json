@@ -1,0 +1,312 @@
+[
+  {
+    "code": "01",
+    "label": "Lai Châu",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Lào Cai",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Hà Giang",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Cao B?ng",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Son La",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Yên Bái",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Tuyên Quang",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "L?ng Son",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Qu?ng Ninh",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Hòa Bình",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Ninh Bình",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Thái Bình",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Thanh Hóa",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "Ngh? An",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "Hà Tinh",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Qu?ng Bình",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Qu?ng Tr?",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Th?a Thiên-Hu?",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Qu?ng Nam",
+    "type": "Province"
+  },
+  {
+    "code": "28",
+    "label": "Kon Tum",
+    "type": "Province"
+  },
+  {
+    "code": "29",
+    "label": "Qu?ng Ngãi",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Gia Lai",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "Bình Ð?nh",
+    "type": "Province"
+  },
+  {
+    "code": "32",
+    "label": "Phú Yên",
+    "type": "Province"
+  },
+  {
+    "code": "33",
+    "label": "Ð?k L?k",
+    "type": "Province"
+  },
+  {
+    "code": "34",
+    "label": "Khánh Hòa",
+    "type": "Province"
+  },
+  {
+    "code": "35",
+    "label": "Lâm Ð?ng",
+    "type": "Province"
+  },
+  {
+    "code": "36",
+    "label": "Ninh Thu?n",
+    "type": "Province"
+  },
+  {
+    "code": "37",
+    "label": "Tây Ninh",
+    "type": "Province"
+  },
+  {
+    "code": "39",
+    "label": "Ð?ng Nai",
+    "type": "Province"
+  },
+  {
+    "code": "40",
+    "label": "Bình Thu?n",
+    "type": "Province"
+  },
+  {
+    "code": "41",
+    "label": "Long An",
+    "type": "Province"
+  },
+  {
+    "code": "43",
+    "label": "Bà R?a - Vung Tàu",
+    "type": "Province"
+  },
+  {
+    "code": "44",
+    "label": "An Giang",
+    "type": "Province"
+  },
+  {
+    "code": "45",
+    "label": "Ð?ng Tháp",
+    "type": "Province"
+  },
+  {
+    "code": "46",
+    "label": "Ti?n Giang",
+    "type": "Province"
+  },
+  {
+    "code": "47",
+    "label": "Ki?n Giang",
+    "type": "Province"
+  },
+  {
+    "code": "49",
+    "label": "Vinh Long",
+    "type": "Province"
+  },
+  {
+    "code": "50",
+    "label": "B?n Tre",
+    "type": "Province"
+  },
+  {
+    "code": "51",
+    "label": "Trà Vinh",
+    "type": "Province"
+  },
+  {
+    "code": "52",
+    "label": "Sóc Trang",
+    "type": "Province"
+  },
+  {
+    "code": "53",
+    "label": "B?c K?n",
+    "type": "Province"
+  },
+  {
+    "code": "54",
+    "label": "B?c Giang",
+    "type": "Province"
+  },
+  {
+    "code": "55",
+    "label": "B?c Liêu",
+    "type": "Province"
+  },
+  {
+    "code": "56",
+    "label": "B?c Ninh",
+    "type": "Province"
+  },
+  {
+    "code": "57",
+    "label": "Bình Duong",
+    "type": "Province"
+  },
+  {
+    "code": "58",
+    "label": "Bình Phu?c",
+    "type": "Province"
+  },
+  {
+    "code": "59",
+    "label": "Cà Mau",
+    "type": "Province"
+  },
+  {
+    "code": "61",
+    "label": "H?i Duong",
+    "type": "Province"
+  },
+  {
+    "code": "63",
+    "label": "Hà Nam",
+    "type": "Province"
+  },
+  {
+    "code": "66",
+    "label": "Hung Yên",
+    "type": "Province"
+  },
+  {
+    "code": "67",
+    "label": "Nam Ð?nh",
+    "type": "Province"
+  },
+  {
+    "code": "68",
+    "label": "Phú Th?",
+    "type": "Province"
+  },
+  {
+    "code": "69",
+    "label": "Thái Nguyên",
+    "type": "Province"
+  },
+  {
+    "code": "70",
+    "label": "Vinh Phúc",
+    "type": "Province"
+  },
+  {
+    "code": "71",
+    "label": "Ði?n Biên",
+    "type": "Province"
+  },
+  {
+    "code": "72",
+    "label": "Ð?k Nông",
+    "type": "Province"
+  },
+  {
+    "code": "73",
+    "label": "H?u Giang",
+    "type": "Province"
+  },
+  {
+    "code": "CT",
+    "label": "C?n Tho",
+    "type": "Municipality"
+  },
+  {
+    "code": "HN",
+    "label": "Hà N?i",
+    "type": "Municipality"
+  },
+  {
+    "code": "HP",
+    "label": "H?i Phòng",
+    "type": "Municipality"
+  },
+  {
+    "code": "SG",
+    "label": "H? Chí Minh",
+    "type": "Municipality"
+  }
+]

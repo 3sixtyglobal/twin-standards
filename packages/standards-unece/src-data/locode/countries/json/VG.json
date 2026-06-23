@@ -1,0 +1,67 @@
+[
+  {
+    "locationCode": "NGD",
+    "label": "Anegada",
+    "function": "4"
+  },
+  {
+    "locationCode": "EIS",
+    "label": "Beef Island, Tortola",
+    "function": "14"
+  },
+  {
+    "locationCode": "JVD",
+    "label": "Jost Van Dyke",
+    "function": "1",
+    "lat": 18.45,
+    "lng": -64.733333
+  },
+  {
+    "locationCode": "NSX",
+    "label": "N. Sound/Virgin Gorda",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Norman Island",
+    "function": "1",
+    "lat": 18.316667,
+    "lng": -64.616667
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Port Purcell",
+    "function": "16",
+    "lat": 18.416667,
+    "lng": -64.6
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Road Town, Tortola",
+    "function": "145"
+  },
+  {
+    "locationCode": "SHO",
+    "label": "Sopers Hole",
+    "function": "1",
+    "lat": 18.383333,
+    "lng": -64.7
+  },
+  {
+    "locationCode": "OP9",
+    "label": "Spanish Town",
+    "function": "3",
+    "lat": 18.45,
+    "lng": -64.433333
+  },
+  {
+    "locationCode": "TOV",
+    "label": "Tortola",
+    "function": "14"
+  },
+  {
+    "locationCode": "VIJ",
+    "label": "Virgin Gorda",
+    "function": "4"
+  }
+]

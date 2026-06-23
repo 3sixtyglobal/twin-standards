@@ -1,0 +1,26 @@
+[
+  {
+    "locationCode": "BAS",
+    "label": "Basseterre, Saint Kitts",
+    "function": "15"
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Charlestown",
+    "function": "14",
+    "lat": 17.133333,
+    "lng": -62.616667
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Nevis",
+    "function": "14",
+    "lat": 17.15,
+    "lng": -62.583333
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Saint Kitts",
+    "function": "45"
+  }
+]

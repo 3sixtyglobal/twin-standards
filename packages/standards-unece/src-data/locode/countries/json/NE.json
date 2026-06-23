@@ -1,0 +1,138 @@
+[
+  {
+    "locationCode": "AJY",
+    "label": "Agades",
+    "function": "4"
+  },
+  {
+    "locationCode": "RLT",
+    "label": "Arlit",
+    "function": "4"
+  },
+  {
+    "locationCode": "BKN",
+    "label": "Birni Nkoni",
+    "function": "4"
+  },
+  {
+    "locationCode": "DIF",
+    "label": "Diffa",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 13.3,
+    "lng": 12.6
+  },
+  {
+    "locationCode": "DOG",
+    "label": "Dogodountchi",
+    "function": "3",
+    "lat": 13.633333,
+    "lng": 4.033333
+  },
+  {
+    "locationCode": "DSS",
+    "label": "Dosso",
+    "function": "3",
+    "lat": 13.05,
+    "lng": 3.2
+  },
+  {
+    "locationCode": "GLM",
+    "label": "Galmi",
+    "subdivisionCode": "5",
+    "function": "3",
+    "lat": 13.966667,
+    "lng": 5.683333
+  },
+  {
+    "locationCode": "ZGA",
+    "label": "Gaya",
+    "function": "6",
+    "lat": 11.883333,
+    "lng": 3.433333
+  },
+  {
+    "locationCode": "IMO",
+    "label": "Imourarene",
+    "subdivisionCode": "1",
+    "function": "6"
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Madaoua",
+    "subdivisionCode": "5",
+    "function": "3",
+    "lat": 14.083333,
+    "lng": 6.433333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malbaza",
+    "subdivisionCode": "5",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": 5.516667
+  },
+  {
+    "locationCode": "MFQ",
+    "label": "Maradi",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIM",
+    "label": "Niamey",
+    "function": "45"
+  },
+  {
+    "locationCode": "OUN",
+    "label": "Ouna",
+    "subdivisionCode": "3",
+    "function": "3",
+    "lat": 12.166667,
+    "lng": 3.15
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tagáza",
+    "subdivisionCode": "4",
+    "labelWithDiacritics": "Tagaza",
+    "function": "3",
+    "lat": 13.55,
+    "lng": 7.283333
+  },
+  {
+    "locationCode": "THZ",
+    "label": "Tahoua",
+    "function": "4"
+  },
+  {
+    "locationCode": "TCH",
+    "label": "Tchirozerine",
+    "subdivisionCode": "1",
+    "function": "3",
+    "lat": 17.1,
+    "lng": 7.816667
+  },
+  {
+    "locationCode": "TIL",
+    "label": "Tillabéri",
+    "subdivisionCode": "6",
+    "labelWithDiacritics": "Tillaberi",
+    "function": "3",
+    "lat": 14.2,
+    "lng": 1.45
+  },
+  {
+    "locationCode": "TAW",
+    "label": "Tyawa",
+    "subdivisionCode": "6",
+    "function": "3",
+    "lat": 13.5,
+    "lng": 1.283333
+  },
+  {
+    "locationCode": "ZND",
+    "label": "Zinder",
+    "function": "4"
+  }
+]

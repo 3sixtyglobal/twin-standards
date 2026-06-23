@@ -1,0 +1,33 @@
+[
+  {
+    "locationCode": "ANU",
+    "label": "Antigua",
+    "function": "15"
+  },
+  {
+    "locationCode": "BBQ",
+    "label": "Barbuda",
+    "function": "1"
+  },
+  {
+    "locationCode": "FAM",
+    "label": "Falmouth",
+    "function": "16",
+    "lat": 17.016667,
+    "lng": -61.783333
+  },
+  {
+    "locationCode": "PHM",
+    "label": "Parham",
+    "function": "16",
+    "lat": 17.083333,
+    "lng": -61.75
+  },
+  {
+    "locationCode": "SJO",
+    "label": "Saint John's",
+    "function": "1",
+    "lat": 17.116667,
+    "lng": -61.85
+  }
+]

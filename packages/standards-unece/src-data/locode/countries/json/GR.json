@@ -1,0 +1,5998 @@
+[
+  {
+    "locationCode": "ABD",
+    "label": "Abdera",
+    "subdivisionCode": "72",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "ANE",
+    "label": "Acharnae Akharna",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.083333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "AAR",
+    "label": "Acharnes",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.083333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "ACL",
+    "label": "Achladi",
+    "function": "1",
+    "lat": 38.883333,
+    "lng": 22.816667
+  },
+  {
+    "locationCode": "HLR",
+    "label": "Achladiás",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Achladias",
+    "function": "3",
+    "lat": 39.133333,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "ADL",
+    "label": "Adamas Milos",
+    "subdivisionCode": "L",
+    "function": "1",
+    "lat": 36.716667,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "AMS",
+    "label": "Adhamas",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAH",
+    "label": "Aegaleo",
+    "function": "6",
+    "lat": 37.983333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "AEG",
+    "label": "Aegina",
+    "function": "1",
+    "lat": 37.733333,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "ANO",
+    "label": "Aeginio",
+    "function": "3",
+    "lat": 40.516667,
+    "lng": 32.55
+  },
+  {
+    "locationCode": "GIE",
+    "label": "Aegio",
+    "function": "3",
+    "lat": 38.25,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "KIA",
+    "label": "Afídhnai",
+    "labelWithDiacritics": "Afidhnai",
+    "function": "3",
+    "lat": 38.216667,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "AGN",
+    "label": "Agathonisi",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 37.45,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "AEF",
+    "label": "Agia Efimia",
+    "function": "1",
+    "lat": 38.3,
+    "lng": 20.6
+  },
+  {
+    "locationCode": "PIL",
+    "label": "Agia Galini",
+    "subdivisionCode": "M",
+    "function": "1",
+    "lat": 35.083333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "AKM",
+    "label": "Agia Kyriaki (Trikeri Magnisia)",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.083333,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Agia Marina Aiginas",
+    "function": "1",
+    "lat": 37.733333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "AGM",
+    "label": "Agia Marina Fthiotidas",
+    "function": "1",
+    "lat": 38.9,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Agia Marina Grammatikou Attikis",
+    "function": "1",
+    "lat": 38.183333,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "AML",
+    "label": "Agia Marina Lerou",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 37.15,
+    "lng": 26.85
+  },
+  {
+    "locationCode": "APK",
+    "label": "Agia Paraskevi",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "APE",
+    "label": "Agía Pelagía",
+    "labelWithDiacritics": "Agia Pelagia",
+    "function": "1",
+    "lat": 36.333333,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "ROU",
+    "label": "Agia Roumeli",
+    "function": "1",
+    "lat": 35.233333,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "AGI",
+    "label": "Agía Triás",
+    "subdivisionCode": "53",
+    "labelWithDiacritics": "Agia Trias",
+    "function": "3",
+    "lat": 40.5,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "V6V",
+    "label": "Agía Varvára",
+    "subdivisionCode": "53",
+    "labelWithDiacritics": "Agia Varvara",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "AGT",
+    "label": "Agio Theodoroi",
+    "function": "134",
+    "lat": 37.916667,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "AAI",
+    "label": "Ágioi Anárgyroi",
+    "subdivisionCode": "31",
+    "labelWithDiacritics": "Agioi Anargyroi",
+    "function": "6",
+    "lat": 39.133333,
+    "lng": 21.016667
+  },
+  {
+    "locationCode": "AGK",
+    "label": "Agiokampos Larissas",
+    "function": "1",
+    "lat": 39.683333,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "AOR",
+    "label": "Agiokampos Oreon",
+    "subdivisionCode": "H",
+    "function": "1",
+    "lat": 38.933333,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "GTO",
+    "label": "Agios Athanasios",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 39.733333,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "AAS",
+    "label": "Ágios Athanásios",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Agios Athanasios",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "AGO",
+    "label": "Ágios Efstrátios",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Agios Efstratios",
+    "function": "1",
+    "lat": 39.533333,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "AGE",
+    "label": "Agios Georgios",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.833333,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Agios Ioannis Rentis",
+    "subdivisionCode": "A1",
+    "function": "23",
+    "lat": 37.95,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "AKI",
+    "label": "Agios Kírykos",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Agios Kirykos",
+    "function": "1",
+    "lat": 37.616667,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "AKO",
+    "label": "Agios Konstantínos",
+    "labelWithDiacritics": "Agios Konstantinos",
+    "function": "1",
+    "lat": 38.75,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "AGF",
+    "label": "Agios Nikolaos Fokidas",
+    "function": "1",
+    "lat": 38.333333,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "ANI",
+    "label": "Agios Nikólaos, Kríti",
+    "subdivisionCode": "92",
+    "labelWithDiacritics": "Agios Nikolaos, Kriti",
+    "function": "1",
+    "lat": 35.183333,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "AGP",
+    "label": "Agios Pávlos",
+    "labelWithDiacritics": "Agios Pavlos",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "AGS",
+    "label": "Agios Stefanos",
+    "function": "0"
+  },
+  {
+    "locationCode": "OTO",
+    "label": "Agios Stefanos Avliotes",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.75,
+    "lng": 19.65
+  },
+  {
+    "locationCode": "ASF",
+    "label": "Agios Stefanos Corfu",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 39.766667,
+    "lng": 19.95
+  },
+  {
+    "locationCode": "AGG",
+    "label": "Agistri Aiginas",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 37.716667,
+    "lng": 23.35
+  },
+  {
+    "locationCode": "ANL",
+    "label": "Agnontas Skopelos",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.083333,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "AGA",
+    "label": "Agriá",
+    "labelWithDiacritics": "Agria",
+    "function": "123",
+    "lat": 39.333333,
+    "lng": 23
+  },
+  {
+    "locationCode": "AGQ",
+    "label": "Agrinion",
+    "function": "3",
+    "lat": 38.633333,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "ADO",
+    "label": "Áhdendron",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Ahdendron",
+    "function": "23",
+    "lat": 40.666667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "AID",
+    "label": "Aidipsou",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.85,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "AGL",
+    "label": "Aigaleo",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 37.983333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "AIG",
+    "label": "Aigiali Amorgou",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 36.9,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "AIN",
+    "label": "Aiginion",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 40.5,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "AEN",
+    "label": "Aígion",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Aigion",
+    "function": "1",
+    "lat": 38.25,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "GAW",
+    "label": "Aitolikon",
+    "function": "6",
+    "lat": 38.433333,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "EGA",
+    "label": "Aiyaleo",
+    "function": "3",
+    "lat": 37.983333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "JHB",
+    "label": "Akharnai",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.066667,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "ACH",
+    "label": "Akharnaí",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Akharnai",
+    "function": "23",
+    "lat": 38.083333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "AKH",
+    "label": "Akhillion",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "ZPI",
+    "label": "Akra Zéfiros",
+    "labelWithDiacritics": "Akra Zefiros",
+    "function": "3",
+    "lat": 36.666667,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "AKT",
+    "label": "Aktio Vonitsas",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 38.95,
+    "lng": 20.75
+  },
+  {
+    "locationCode": "ALX",
+    "label": "Alexándria",
+    "labelWithDiacritics": "Alexandria",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "AXD",
+    "label": "Alexandroúpolis",
+    "labelWithDiacritics": "Alexandroupolis",
+    "function": "134",
+    "lat": 40.85,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Alíartos",
+    "labelWithDiacritics": "Aliartos",
+    "function": "3",
+    "lat": 38.366667,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "AIO",
+    "label": "Alimos",
+    "subdivisionCode": "A1",
+    "function": "13",
+    "lat": 37.916667,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "LVR",
+    "label": "Aliverio",
+    "function": "1",
+    "lat": 38.4,
+    "lng": 24.05
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Alivérion",
+    "labelWithDiacritics": "Aliverion",
+    "function": "3",
+    "lat": 38.416667,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "ALM",
+    "label": "Almiros",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALY",
+    "label": "Almyropotamos Evvoias",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 38.266667,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "ALO",
+    "label": "Alónnisos",
+    "labelWithDiacritics": "Alonnisos",
+    "function": "1",
+    "lat": 39.15,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "ATS",
+    "label": "Altsi",
+    "function": "13",
+    "lat": 35.166667,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Amaliada",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "APL",
+    "label": "Amaliápolis",
+    "labelWithDiacritics": "Amaliapolis",
+    "function": "13",
+    "lat": 39.166667,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amaliás",
+    "labelWithDiacritics": "Amalias",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "AK4",
+    "label": "Amaroúsion",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Amarousion",
+    "function": "3",
+    "lat": 38.05,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "ASI",
+    "label": "Amaroussio",
+    "function": "3",
+    "lat": 38.05,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "ABO",
+    "label": "Ambelókipoi",
+    "labelWithDiacritics": "Ambelokipoi",
+    "function": "3",
+    "lat": 40.466667,
+    "lng": 21.3
+  },
+  {
+    "locationCode": "AMF",
+    "label": "Amfilochía",
+    "labelWithDiacritics": "Amfilochia",
+    "function": "1",
+    "lat": 38.866667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "AMP",
+    "label": "Amfissa",
+    "function": "3",
+    "lat": 38.533333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "GBC",
+    "label": "Amigdaleonas",
+    "function": "6",
+    "lat": 40.966667,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "AMY",
+    "label": "Amíndaion",
+    "subdivisionCode": "63",
+    "labelWithDiacritics": "Amindaion",
+    "function": "23",
+    "lat": 40.683333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "XX2",
+    "label": "Ammoulianí",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Ammouliani",
+    "function": "6",
+    "lat": 40.316667,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Amolianí",
+    "labelWithDiacritics": "Amoliani",
+    "function": "1",
+    "lat": 40.333333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "AMO",
+    "label": "Amorgós (Katapola)",
+    "subdivisionCode": "61",
+    "labelWithDiacritics": "Amorgos (Katapola)",
+    "function": "3",
+    "lat": 36.833333,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "AME",
+    "label": "Ampelakia",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "AP3",
+    "label": "Ampelón",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Ampelon",
+    "function": "3",
+    "lat": 39.733333,
+    "lng": 20.333333
+  },
+  {
+    "locationCode": "APN",
+    "label": "Ampelonas",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 39.75,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "AMT",
+    "label": "Amyntaio",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 40.683333,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anáfi",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Anafi",
+    "function": "1",
+    "lat": 36.35,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "ALS",
+    "label": "Analipsi",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Anargyroi",
+    "function": "6",
+    "lat": 38.033333,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "ANK",
+    "label": "Anatoliko",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.533333,
+    "lng": 21.7
+  },
+  {
+    "locationCode": "ASN",
+    "label": "Anavissos",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.733333,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Andírrion",
+    "labelWithDiacritics": "Andirrion",
+    "function": "1",
+    "lat": 38.333333,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "AND",
+    "label": "Andros",
+    "function": "1",
+    "lat": 37.833333,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "A8A",
+    "label": "Anixi",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "AHS",
+    "label": "Ankhíalos",
+    "labelWithDiacritics": "Ankhialos",
+    "function": "23",
+    "lat": 40.716667,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Ano Diakopto",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "GAJ",
+    "label": "Ano Liosia",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.083333,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "AZN",
+    "label": "Áno Zervochórion",
+    "subdivisionCode": "B",
+    "labelWithDiacritics": "Ano Zervochorion",
+    "function": "3",
+    "lat": 40.65,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "ANX",
+    "label": "Anoixis",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "THO",
+    "label": "Anthousa",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "ATK",
+    "label": "Antikyra",
+    "function": "1",
+    "lat": 38.383333,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "ANP",
+    "label": "Antiparos",
+    "function": "1",
+    "lat": 37.033333,
+    "lng": 25.083333
+  },
+  {
+    "locationCode": "PXO",
+    "label": "Antipaxoi",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.15,
+    "lng": 20.233333
+  },
+  {
+    "locationCode": "APS",
+    "label": "Apsalos",
+    "function": "3",
+    "lat": 40.9,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "ARX",
+    "label": "Araxos",
+    "function": "1",
+    "lat": 38.2,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Areópolis",
+    "labelWithDiacritics": "Areopolis",
+    "function": "3",
+    "lat": 36.65,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "ARG",
+    "label": "Argos (Argolis)",
+    "function": "3"
+  },
+  {
+    "locationCode": "ARM",
+    "label": "Argostólion",
+    "labelWithDiacritics": "Argostolion",
+    "function": "1",
+    "lat": 38.183333,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "ARY",
+    "label": "Argyropouli",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 39.816667,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "AGY",
+    "label": "Argyroupoli",
+    "subdivisionCode": "A1",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAC",
+    "label": "Argyroupolis",
+    "subdivisionCode": "57",
+    "function": "36",
+    "lat": 40.983333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Aridaía",
+    "labelWithDiacritics": "Aridaia",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Arkioi Dodekanissou",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 37.383333,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "ARK",
+    "label": "Arkítsa",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Arkitsa",
+    "function": "13",
+    "lat": 38.75,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "ARN",
+    "label": "Arnaía",
+    "labelWithDiacritics": "Arnaia",
+    "function": "3",
+    "lat": 40.5,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "ART",
+    "label": "Árta",
+    "labelWithDiacritics": "Arta",
+    "function": "3",
+    "lat": 39.133333,
+    "lng": 20.983333
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Artemis",
+    "function": "1",
+    "lat": 37.966667,
+    "lng": 24
+  },
+  {
+    "locationCode": "ASO",
+    "label": "Asopós",
+    "labelWithDiacritics": "Asopos",
+    "function": "3",
+    "lat": 36.733333,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "ASP",
+    "label": "Áspra Spítia",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Aspra Spitia",
+    "function": "3",
+    "lat": 37.616667,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "ASS",
+    "label": "Asprópirgos",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Aspropirgos",
+    "function": "136",
+    "lat": 38.066667,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "APP",
+    "label": "Aspropyrgos",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 38.066667,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "APO",
+    "label": "Aspros",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 40.883333,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "APV",
+    "label": "Asproválta",
+    "labelWithDiacritics": "Asprovalta",
+    "function": "13",
+    "lat": 40.716667,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "AIS",
+    "label": "Ássiros",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Assiros",
+    "function": "3",
+    "lat": 40.816667,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "SOS",
+    "label": "Assos",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 38.383333,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "AST",
+    "label": "Astakós",
+    "labelWithDiacritics": "Astakos",
+    "function": "1",
+    "lat": 38.533333,
+    "lng": 21.083333
+  },
+  {
+    "locationCode": "ARS",
+    "label": "Ástros",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Astros",
+    "function": "13",
+    "lat": 37.4,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "JTY",
+    "label": "Astypálaia",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Astypalaia",
+    "function": "1",
+    "lat": 36.55,
+    "lng": 26.35
+  },
+  {
+    "locationCode": "ASV",
+    "label": "Asvestochórion",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Asvestochorion",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "ATA",
+    "label": "Atalándi",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Atalandi",
+    "function": "13",
+    "lat": 38.65,
+    "lng": 23
+  },
+  {
+    "locationCode": "ATL",
+    "label": "Atherinolakos Ierapetras",
+    "subdivisionCode": "M",
+    "function": "1",
+    "lat": 35,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "ATH",
+    "label": "Athínai",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Athinai",
+    "function": "45",
+    "lat": 37.983333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "ATN",
+    "label": "Athinios Thira Santorini",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 36.383333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "ATT",
+    "label": "Attikí",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Attiki",
+    "function": "3",
+    "lat": 38,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "AVK",
+    "label": "Avlaí",
+    "subdivisionCode": "58",
+    "labelWithDiacritics": "Avlai",
+    "function": "3",
+    "lat": 40.183333,
+    "lng": 21.966667
+  },
+  {
+    "locationCode": "VKL",
+    "label": "Avlaki Stylidos",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "AVA",
+    "label": "Avlida",
+    "subdivisionCode": "64",
+    "function": "13",
+    "lat": 38.4,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "AVL",
+    "label": "Avlon",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAE",
+    "label": "Avlona",
+    "subdivisionCode": "81",
+    "function": "6",
+    "lat": 35.766667,
+    "lng": 27.183333
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Axioupoli",
+    "subdivisionCode": "57",
+    "function": "6",
+    "lat": 40.983333,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "AYA",
+    "label": "Ayía Marína",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Ayia Marina",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "AYM",
+    "label": "Ayía Marína",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Ayia Marina",
+    "function": "3",
+    "lat": 38.566667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "ATR",
+    "label": "Ayía Triás",
+    "labelWithDiacritics": "Ayia Trias",
+    "function": "3",
+    "lat": 38.983333,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "ATM",
+    "label": "Áyios Thomás",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Ayios Thomas",
+    "function": "3",
+    "lat": 38.283333,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Benitsa",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.55,
+    "lng": 19.9
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chaïdari, Athens",
+    "labelWithDiacritics": "Chaidari, Athens",
+    "function": "3",
+    "lat": 38.016667,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "HLS",
+    "label": "Chalastra",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "CLK",
+    "label": "Chalkida",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.466667,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "FOS",
+    "label": "Chalkidón",
+    "subdivisionCode": "B",
+    "labelWithDiacritics": "Chalkidon",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "QKG",
+    "label": "Chalkis",
+    "function": "34",
+    "lat": 38.45,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "CHQ",
+    "label": "Chania",
+    "function": "14",
+    "lat": 35.516667,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chavárion",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Chavarion",
+    "function": "3",
+    "lat": 37.85,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "JKH",
+    "label": "Chíos",
+    "labelWithDiacritics": "Chios",
+    "function": "14",
+    "lat": 38.366667,
+    "lng": 26.133333
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Chrysoupoli",
+    "subdivisionCode": "55",
+    "function": "6",
+    "lat": 40.983333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "DAF",
+    "label": "Dáfni",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Dafni",
+    "function": "1",
+    "lat": 40.216667,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "DAG",
+    "label": "Dágla",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Dagla",
+    "function": "3",
+    "lat": 37.866667,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "DOS",
+    "label": "Delos",
+    "function": "1",
+    "lat": 37.4,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "DVN",
+    "label": "Derveni",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "DKI",
+    "label": "Dheskáti",
+    "labelWithDiacritics": "Dheskati",
+    "function": "3",
+    "lat": 39.933333,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "DHI",
+    "label": "Dhidhimótikhon",
+    "labelWithDiacritics": "Dhidhimotikhon",
+    "function": "3",
+    "lat": 41.35,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "9OP",
+    "label": "Dhílesi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Dhilesi",
+    "function": "3",
+    "lat": 38.35,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "DTM",
+    "label": "Dhístomon",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Dhistomon",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "DOX",
+    "label": "Dhoxáton",
+    "labelWithDiacritics": "Dhoxaton",
+    "function": "3",
+    "lat": 41.1,
+    "lng": 24.233333
+  },
+  {
+    "locationCode": "DHS",
+    "label": "Dhrimos",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "DRS",
+    "label": "Dhroserón",
+    "labelWithDiacritics": "Dhroseron",
+    "function": "3",
+    "lat": 40.833333,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "DIA",
+    "label": "Diafánion",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Diafanion",
+    "function": "1",
+    "lat": 35.75,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "DIK",
+    "label": "Diakofti Kythiron",
+    "function": "1",
+    "lat": 36.266667,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "DMB",
+    "label": "Dombraina Boiotias",
+    "function": "1",
+    "lat": 38.216667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Domokos",
+    "function": "0"
+  },
+  {
+    "locationCode": "DVA",
+    "label": "Domvrena",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 38.25,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "DON",
+    "label": "Donousa Kykladon",
+    "function": "1",
+    "lat": 37.1,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "DOU",
+    "label": "Douneika",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 37.75,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "DRM",
+    "label": "Drama",
+    "function": "3"
+  },
+  {
+    "locationCode": "DPA",
+    "label": "Drapetzona",
+    "function": "1",
+    "lat": 37.95,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "DRE",
+    "label": "Drepano Riou",
+    "function": "1",
+    "lat": 38.333333,
+    "lng": 21.85
+  },
+  {
+    "locationCode": "ANR",
+    "label": "Drymos",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "EDE",
+    "label": "Édessa",
+    "labelWithDiacritics": "Edessa",
+    "function": "3",
+    "lat": 40.8,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "EDI",
+    "label": "Edipsos",
+    "function": "1",
+    "lat": 38.866667,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "EFP",
+    "label": "Efpalion",
+    "function": "6",
+    "lat": 22.533333,
+    "lng": -38.683333
+  },
+  {
+    "locationCode": "EPS",
+    "label": "Eginio Pierias",
+    "subdivisionCode": "61",
+    "function": "3"
+  },
+  {
+    "locationCode": "EGI",
+    "label": "Eginion",
+    "function": "1",
+    "lat": 40.483333,
+    "lng": 22.583333
+  },
+  {
+    "locationCode": "ELN",
+    "label": "Elafonissos Lakonias",
+    "function": "1",
+    "lat": 36.516667,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "ELI",
+    "label": "Elaiochori",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 37.45,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "XZX",
+    "label": "Elaiokhória",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Elaiokhoria",
+    "function": "13",
+    "lat": 40.333333,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "ELA",
+    "label": "Elatia",
+    "function": "3"
+  },
+  {
+    "locationCode": "ELT",
+    "label": "Eleftheres",
+    "function": "1",
+    "lat": 40.85,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "EEU",
+    "label": "Eleusina",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 38.033333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "FLS",
+    "label": "Eleusis",
+    "subdivisionCode": "A1",
+    "function": "13",
+    "lat": 38.033333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "KIE",
+    "label": "Elíki",
+    "subdivisionCode": "J",
+    "labelWithDiacritics": "Eliki",
+    "function": "3",
+    "lat": 38.216667,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "ELL",
+    "label": "Ellasona",
+    "function": "0"
+  },
+  {
+    "locationCode": "ENK",
+    "label": "Ellinikón",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Ellinikon",
+    "function": "3",
+    "lat": 36.616667,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "EPM",
+    "label": "Epanomí",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Epanomi",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "EPI",
+    "label": "Epidavros",
+    "function": "1",
+    "lat": 37.633333,
+    "lng": 23.15
+  },
+  {
+    "locationCode": "ETK",
+    "label": "Eratini",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 38.366667,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "ERK",
+    "label": "Ereikousses Diapontioi Islands",
+    "function": "1",
+    "lat": 39.866667,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "ERE",
+    "label": "Erétria",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Eretria",
+    "function": "13",
+    "lat": 38.4,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "ERM",
+    "label": "Ermióni",
+    "labelWithDiacritics": "Ermioni",
+    "function": "1",
+    "lat": 37.383333,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "ERY",
+    "label": "Erythres",
+    "subdivisionCode": "A1",
+    "function": "13",
+    "lat": 38.216667,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "ETL",
+    "label": "Etolikon",
+    "function": "0"
+  },
+  {
+    "locationCode": "EVM",
+    "label": "Évosmon",
+    "labelWithDiacritics": "Evosmon",
+    "function": "23",
+    "lat": 40.666667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "EVP",
+    "label": "Evpálion",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Evpalion",
+    "function": "36",
+    "lat": 38.416667,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "EVZ",
+    "label": "Évzonoi",
+    "labelWithDiacritics": "Evzonoi",
+    "function": "3",
+    "lat": 41.1,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "EYD",
+    "label": "Eydilos",
+    "function": "1",
+    "lat": 37.633333,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "KRL",
+    "label": "Faliraki",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": 36.333333,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "FNR",
+    "label": "Faneromeni Salaminas",
+    "function": "1",
+    "lat": 37.983333,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "FAM",
+    "label": "Farmakonissi Dodekanissos",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 37.283333,
+    "lng": 27.083333
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Fársala",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Farsala",
+    "function": "3",
+    "lat": 39.283333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "FER",
+    "label": "Férai",
+    "labelWithDiacritics": "Ferai",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "FIL",
+    "label": "Filiatrá",
+    "labelWithDiacritics": "Filiatra",
+    "function": "3",
+    "lat": 37.15,
+    "lng": 21.583333
+  },
+  {
+    "locationCode": "FIS",
+    "label": "Fiskárdo",
+    "subdivisionCode": "23",
+    "labelWithDiacritics": "Fiskardo",
+    "function": "1",
+    "lat": 38.45,
+    "lng": 20.566667
+  },
+  {
+    "locationCode": "FIA",
+    "label": "Flórina",
+    "labelWithDiacritics": "Florina",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "FOL",
+    "label": "Folégandros",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Folegandros",
+    "function": "1",
+    "lat": 36.616667,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "FOU",
+    "label": "Foúrnoi",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Fournoi",
+    "function": "1",
+    "lat": 37.5,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "SAT",
+    "label": "Frikes Ithakis",
+    "function": "1",
+    "lat": 38.466667,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "FYT",
+    "label": "Fyteies",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 38.7,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "GAL",
+    "label": "Galatas Troizinas",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 37.5,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "GTA",
+    "label": "Galatista",
+    "subdivisionCode": "64",
+    "function": "3",
+    "lat": 40.466667,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "GSI",
+    "label": "Galátsion",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Galatsion",
+    "function": "3",
+    "lat": 38.016667,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "GLX",
+    "label": "Galaxidi",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 38.383333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "GNO",
+    "label": "Ganóchora",
+    "subdivisionCode": "61",
+    "labelWithDiacritics": "Ganochora",
+    "function": "3",
+    "lat": 40.3,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "GAS",
+    "label": "Gastoúni",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Gastouni",
+    "function": "3",
+    "lat": 37.85,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "GAD",
+    "label": "Gavdos Chanea",
+    "function": "1",
+    "lat": 34.85,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "GAV",
+    "label": "Gávrion",
+    "labelWithDiacritics": "Gavrion",
+    "function": "1",
+    "lat": 37.883333,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "GAZ",
+    "label": "Gázoros",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Gazoros",
+    "function": "23",
+    "lat": 41.016667,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "GEF",
+    "label": "Géfyra",
+    "labelWithDiacritics": "Gefyra",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "GKU",
+    "label": "Gerakarou",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "GER",
+    "label": "Gerakas",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "GIA",
+    "label": "Gialtra",
+    "function": "6",
+    "lat": 22.916667,
+    "lng": 38.85
+  },
+  {
+    "locationCode": "GAK",
+    "label": "Giannitsa",
+    "subdivisionCode": "59",
+    "function": "6",
+    "lat": 40.783333,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "GLO",
+    "label": "Glossa",
+    "function": "1",
+    "lat": 39.166667,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "GLY",
+    "label": "Glyfa Fthiotidas",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 38.95,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "GFD",
+    "label": "Glyfada",
+    "subdivisionCode": "A1",
+    "function": "13",
+    "lat": 37.866667,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gónnoi",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Gonnoi",
+    "function": "3",
+    "lat": 39.866667,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "GSA",
+    "label": "Gouménissa",
+    "subdivisionCode": "B",
+    "labelWithDiacritics": "Goumenissa",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "GOV",
+    "label": "Gouvion",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.65,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "GVA",
+    "label": "Grevená",
+    "labelWithDiacritics": "Grevena",
+    "function": "3",
+    "lat": 40.083333,
+    "lng": 21.433333
+  },
+  {
+    "locationCode": "GYT",
+    "label": "Gythion",
+    "function": "1",
+    "lat": 36.766667,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "HRI",
+    "label": "Halandri",
+    "subdivisionCode": "A1",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halki Dodekanison",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.216667,
+    "lng": 27.6
+  },
+  {
+    "locationCode": "HRK",
+    "label": "Herakleia Kykladon",
+    "function": "1",
+    "lat": 36.866667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "HER",
+    "label": "Heraklion (Iraklion)",
+    "subdivisionCode": "91",
+    "function": "14",
+    "lat": 35.333333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "HYD",
+    "label": "Hydra (Idhra)",
+    "function": "1",
+    "lat": 37.35,
+    "lng": 23.466667
+  },
+  {
+    "locationCode": "HYD",
+    "label": "Idhra (Hydra)",
+    "function": "1",
+    "lat": 37.35,
+    "lng": 23.466667
+  },
+  {
+    "locationCode": "IER",
+    "label": "Ierápetra",
+    "subdivisionCode": "92",
+    "labelWithDiacritics": "Ierapetra",
+    "function": "13",
+    "lat": 35,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "IES",
+    "label": "Ierissos",
+    "function": "1",
+    "lat": 40.383333,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "IGO",
+    "label": "Igoumenítsa",
+    "labelWithDiacritics": "Igoumenitsa",
+    "function": "1",
+    "lat": 39.5,
+    "lng": 20.266667
+  },
+  {
+    "locationCode": "JIK",
+    "label": "Ikaría",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Ikaria",
+    "function": "4",
+    "lat": 37.583333,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "IKN",
+    "label": "Ikonian",
+    "function": "0"
+  },
+  {
+    "locationCode": "ILI",
+    "label": "Ilion",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "ILO",
+    "label": "Ilioúpolis",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Ilioupolis",
+    "function": "3",
+    "lat": 37.916667,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "INF",
+    "label": "Inofyta",
+    "function": "0"
+  },
+  {
+    "locationCode": "INO",
+    "label": "Inousses",
+    "function": "1",
+    "lat": 38.516667,
+    "lng": 26.216667
+  },
+  {
+    "locationCode": "IOA",
+    "label": "Ioánnina",
+    "labelWithDiacritics": "Ioannina",
+    "function": "4",
+    "lat": 39.666667,
+    "lng": 20.85
+  },
+  {
+    "locationCode": "IOS",
+    "label": "Ios",
+    "function": "1",
+    "lat": 36.716667,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "IRA",
+    "label": "Iráklia",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Iraklia",
+    "function": "3",
+    "lat": 41.166667,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "IKL",
+    "label": "Iraklion",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "NAI",
+    "label": "Iráklion",
+    "subdivisionCode": "91",
+    "labelWithDiacritics": "Iraklion",
+    "function": "34",
+    "lat": 35.333333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "HER",
+    "label": "Iraklion (Heraklion)",
+    "subdivisionCode": "91",
+    "function": "14",
+    "lat": 35.333333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "ITM",
+    "label": "Isthmía",
+    "labelWithDiacritics": "Isthmia",
+    "function": "1",
+    "lat": 37.916667,
+    "lng": 23
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Istiaia",
+    "subdivisionCode": "04",
+    "function": "3"
+  },
+  {
+    "locationCode": "ITA",
+    "label": "Itea",
+    "function": "1",
+    "lat": 38.433333,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "ITH",
+    "label": "Ithaki (Ithaca)",
+    "function": "1",
+    "lat": 38.366667,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "KKV",
+    "label": "Kakavia",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 39.9,
+    "lng": 20.35
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalabaka",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 39.7,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "KLM",
+    "label": "Kalamaki",
+    "function": "1",
+    "lat": 37.916667,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "GAI",
+    "label": "Kalamaria",
+    "subdivisionCode": "54",
+    "function": "6",
+    "lat": 40.566667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "KLX",
+    "label": "Kalamáta",
+    "labelWithDiacritics": "Kalamata",
+    "function": "14",
+    "lat": 37.033333,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Kalamos Island (Lefkada)",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 38.616667,
+    "lng": 20.916667
+  },
+  {
+    "locationCode": "KLP",
+    "label": "Kalampaka",
+    "subdivisionCode": "44",
+    "function": "35"
+  },
+  {
+    "locationCode": "KLD",
+    "label": "Kalathos Rodou",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.116667,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "KLL",
+    "label": "Kalilimenes",
+    "function": "1",
+    "lat": 34.933333,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "KCH",
+    "label": "Kalíves Valtsaíikes",
+    "labelWithDiacritics": "Kalives Valtsaiikes",
+    "function": "3",
+    "lat": 38.016667,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Kallithéa/Athínai",
+    "labelWithDiacritics": "Kallithea/Athinai",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "KLH",
+    "label": "Kalochori",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "KMI",
+    "label": "Kálymnos",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Kalymnos",
+    "function": "1",
+    "lat": 36.95,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "KLY",
+    "label": "Kalyvia Thorikou",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 37.833333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "KRE",
+    "label": "Kamares Sifnos",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 36.983333,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "KT6",
+    "label": "Kamaterón",
+    "subdivisionCode": "I",
+    "labelWithDiacritics": "Kamateron",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamínia",
+    "subdivisionCode": "33",
+    "labelWithDiacritics": "Kaminia",
+    "function": "3",
+    "lat": 39.766667,
+    "lng": 20.866667
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Kamiros Skala",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.266667,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "APA",
+    "label": "Kapandrition",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.216667,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "VOR",
+    "label": "Kappariá",
+    "labelWithDiacritics": "Kapparia",
+    "function": "3",
+    "lat": 37.766667,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapsalion (Kythira)",
+    "function": "1",
+    "lat": 36.15,
+    "lng": 23
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Kardamaina Kos",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.783333,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "KDM",
+    "label": "Kardámyla",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Kardamyla",
+    "function": "13",
+    "lat": 38.533333,
+    "lng": 26.1
+  },
+  {
+    "locationCode": "KRD",
+    "label": "Kardítsa",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Karditsa",
+    "function": "3",
+    "lat": 39.35,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Karkinagri Ikarias",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 37.516667,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "AOK",
+    "label": "Kárpathos",
+    "labelWithDiacritics": "Karpathos",
+    "function": "14",
+    "lat": 35.5,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "KSS",
+    "label": "Karpenísi",
+    "labelWithDiacritics": "Karpenisi",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": 21.783333
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Karyá",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Karya",
+    "function": "3",
+    "lat": 39.983333,
+    "lng": 22.383333
+  },
+  {
+    "locationCode": "KST",
+    "label": "Karystos",
+    "function": "1",
+    "lat": 38.016667,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "KAD",
+    "label": "Kassándra",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Kassandra",
+    "function": "3",
+    "lat": 40.05,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Kassiopi Corfu",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 39.783333,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kassiopis",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.783333,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "KSJ",
+    "label": "Kassos",
+    "function": "14",
+    "lat": 35.416667,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kastelli Kissamou",
+    "function": "1",
+    "lat": 35.516667,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kastellorizou (ex Megísti)",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Kastellorizou (ex Megisti)",
+    "function": "1",
+    "lat": 36.15,
+    "lng": 29.6
+  },
+  {
+    "locationCode": "KZS",
+    "label": "Kastelorizo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KSO",
+    "label": "Kastoriá",
+    "labelWithDiacritics": "Kastoria",
+    "function": "4",
+    "lat": 40.516667,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Kastos Island",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 38.566667,
+    "lng": 20.916667
+  },
+  {
+    "locationCode": "KAK",
+    "label": "Katakolon",
+    "function": "13",
+    "lat": 37.65,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "KTP",
+    "label": "Katápola",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Katapola",
+    "function": "13",
+    "lat": 36.833333,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "KEI",
+    "label": "Kateríni",
+    "labelWithDiacritics": "Katerini",
+    "function": "13",
+    "lat": 40.266667,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "KAH",
+    "label": "Káto Achaïa",
+    "labelWithDiacritics": "Kato Achaia",
+    "function": "123",
+    "lat": 38.15,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "KAC",
+    "label": "Káto Akhaía",
+    "labelWithDiacritics": "Kato Akhaia",
+    "function": "23",
+    "lat": 38.133333,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Kato Doliana",
+    "subdivisionCode": "J",
+    "function": "3",
+    "lat": 37.416667,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "KGT",
+    "label": "Kato Gefya",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "NEY",
+    "label": "Káto Nevrokópion",
+    "labelWithDiacritics": "Kato Nevrokopion",
+    "function": "3",
+    "lat": 41.35,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "VEO",
+    "label": "Kató Vérmion",
+    "labelWithDiacritics": "Kato Vermion",
+    "function": "3",
+    "lat": 40.55,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Kattavía",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Kattavia",
+    "function": "3",
+    "lat": 35.95,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "KVA",
+    "label": "Kavála",
+    "subdivisionCode": "55",
+    "labelWithDiacritics": "Kavala",
+    "function": "134",
+    "lat": 40.933333,
+    "lng": 24.4
+  },
+  {
+    "locationCode": "3KR",
+    "label": "Kavallárion",
+    "subdivisionCode": "B",
+    "labelWithDiacritics": "Kavallarion",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "KEA",
+    "label": "Kéa (Tzia)",
+    "labelWithDiacritics": "Kea (Tzia)",
+    "function": "1",
+    "lat": 37.65,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "KFL",
+    "label": "Kefallinia",
+    "function": "3"
+  },
+  {
+    "locationCode": "K33",
+    "label": "Kefalonia",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 38.25,
+    "lng": 20.5
+  },
+  {
+    "locationCode": "KEF",
+    "label": "Kefalos Ko",
+    "function": "1",
+    "lat": 36.733333,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "KFO",
+    "label": "Kefalóvrison",
+    "subdivisionCode": "33",
+    "labelWithDiacritics": "Kefalovrison",
+    "function": "3",
+    "lat": 39.666667,
+    "lng": 20.616667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Keramoti",
+    "function": "1",
+    "lat": 40.866667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Keratéa",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Keratea",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Keratsini",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.966667,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "KTS",
+    "label": "Keratsínion",
+    "labelWithDiacritics": "Keratsinion",
+    "function": "13",
+    "lat": 37.966667,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "CFU",
+    "label": "Kérkira (Corfu)",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Kerkira (Corfu)",
+    "function": "14",
+    "lat": 39.616667,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "CSF",
+    "label": "Khóra Sfakíon",
+    "labelWithDiacritics": "Khora Sfakion",
+    "function": "1",
+    "lat": 35.2,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "KHR",
+    "label": "Khrisoúpolis",
+    "subdivisionCode": "55",
+    "labelWithDiacritics": "Khrisoupolis",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "KIO",
+    "label": "Kiato",
+    "function": "13",
+    "lat": 38,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "KFS",
+    "label": "Kifisiá",
+    "labelWithDiacritics": "Kifisia",
+    "function": "3",
+    "lat": 38.066667,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "KKZ",
+    "label": "Kilkís",
+    "labelWithDiacritics": "Kilkis",
+    "function": "3",
+    "lat": 41,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Killíni",
+    "labelWithDiacritics": "Killini",
+    "function": "23",
+    "lat": 37.933333,
+    "lng": 21.133333
+  },
+  {
+    "locationCode": "KYM",
+    "label": "Kimási",
+    "labelWithDiacritics": "Kimasi",
+    "function": "1",
+    "lat": 38.8,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimi (Kými)",
+    "labelWithDiacritics": "Kimi (Kymi)",
+    "function": "13",
+    "lat": 38.633333,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "KMS",
+    "label": "Kímolos",
+    "labelWithDiacritics": "Kimolos",
+    "function": "1",
+    "lat": 36.783333,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "KIP",
+    "label": "Kiparissia",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 37.25,
+    "lng": 21.666667
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Klima",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.133333,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Koilas Ermionidos",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 37.416667,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Kolchiko",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "KDO",
+    "label": "Kolindrós",
+    "labelWithDiacritics": "Kolindros",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 22.483333
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Kolokinthoú",
+    "labelWithDiacritics": "Kolokinthou",
+    "function": "3",
+    "lat": 38,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komotiní",
+    "labelWithDiacritics": "Komotini",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": 25.4
+  },
+  {
+    "locationCode": "KOA",
+    "label": "Kónitsa",
+    "labelWithDiacritics": "Konitsa",
+    "function": "3",
+    "lat": 40.05,
+    "lng": 20.766667
+  },
+  {
+    "locationCode": "KNS",
+    "label": "Kontias Limnou",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 39.833333,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kopanós",
+    "subdivisionCode": "53",
+    "labelWithDiacritics": "Kopanos",
+    "function": "13",
+    "lat": 40.633333,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Korakochori",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 37.666667,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Kórinthos",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Korinthos",
+    "function": "13",
+    "lat": 37.933333,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "KMT",
+    "label": "Kormísta",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Kormista",
+    "function": "6",
+    "lat": 40.983333,
+    "lng": -24.05
+  },
+  {
+    "locationCode": "KPO",
+    "label": "Koropi",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Koropion",
+    "function": "0"
+  },
+  {
+    "locationCode": "KYD",
+    "label": "Korydallós",
+    "subdivisionCode": "44",
+    "labelWithDiacritics": "Korydallos",
+    "function": "3",
+    "lat": 39.816667,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "KGS",
+    "label": "Kos",
+    "function": "14",
+    "lat": 36.866667,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kosta Ermionidas",
+    "function": "1",
+    "lat": 37.3,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koufália",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Koufalia",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "KOF",
+    "label": "Koufonissia Kykladon",
+    "function": "1",
+    "lat": 36.933333,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Kounavoi",
+    "subdivisionCode": "HK",
+    "function": "6",
+    "lat": 35.233333,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "AON",
+    "label": "Kounoupidiana",
+    "subdivisionCode": "M",
+    "function": "13",
+    "lat": 35.533333,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "KZI",
+    "label": "Kozáni",
+    "labelWithDiacritics": "Kozani",
+    "function": "4",
+    "lat": 40.3,
+    "lng": 21.783333
+  },
+  {
+    "locationCode": "KGR",
+    "label": "Kremasti",
+    "subdivisionCode": "81",
+    "function": "3",
+    "lat": 36.4,
+    "lng": 28.116667
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Krioneri",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRY",
+    "label": "Kryonéri",
+    "labelWithDiacritics": "Kryoneri",
+    "function": "6",
+    "lat": 38.35,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "KYL",
+    "label": "Kyllíni",
+    "labelWithDiacritics": "Kyllini",
+    "function": "1",
+    "lat": 37.933333,
+    "lng": 21.15
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kými (Kimi)",
+    "labelWithDiacritics": "Kymi (Kimi)",
+    "function": "13",
+    "lat": 38.633333,
+    "lng": 24.1
+  },
+  {
+    "locationCode": "KYP",
+    "label": "Kyparissia",
+    "function": "0"
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kythira",
+    "function": "4",
+    "lat": 36.15,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "KYT",
+    "label": "Kythnos",
+    "function": "1",
+    "lat": 37.383333,
+    "lng": 24.4
+  },
+  {
+    "locationCode": "LGA",
+    "label": "Laganás",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Laganas",
+    "function": "3",
+    "lat": 37.833333,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "LGK",
+    "label": "Lagkadás",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Lagkadas",
+    "function": "6",
+    "lat": 40.616667,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Lágos (Pórto-Lágo)",
+    "subdivisionCode": "72",
+    "labelWithDiacritics": "Lagos (Porto-Lago)",
+    "function": "1",
+    "lat": 41.016667,
+    "lng": 25.116667
+  },
+  {
+    "locationCode": "LAG",
+    "label": "Lagyna",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 23
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Lakkiá",
+    "labelWithDiacritics": "Lakkia",
+    "function": "3",
+    "lat": 40.516667,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Lakkion",
+    "function": "1",
+    "lat": 37.133333,
+    "lng": 26.85
+  },
+  {
+    "locationCode": "KKM",
+    "label": "Lákkoma",
+    "subdivisionCode": "71",
+    "labelWithDiacritics": "Lakkoma",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": 25.533333
+  },
+  {
+    "locationCode": "LKK",
+    "label": "Lákkoma (Khalkidhiki)",
+    "labelWithDiacritics": "Lakkoma (Khalkidhiki)",
+    "function": "3",
+    "lat": 40.383333,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lamía",
+    "labelWithDiacritics": "Lamia",
+    "function": "3",
+    "lat": 38.9,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Langadhás",
+    "labelWithDiacritics": "Langadhas",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "LAR",
+    "label": "Lardos Rhodes",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.066667,
+    "lng": 28.033333
+  },
+  {
+    "locationCode": "LRA",
+    "label": "Lárisa",
+    "labelWithDiacritics": "Larisa",
+    "function": "4",
+    "lat": 39.633333,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "LRY",
+    "label": "Larymna",
+    "function": "1",
+    "lat": 38.566667,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Laurium (Lavrion)",
+    "function": "1",
+    "lat": 37.716667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Lavrion (Laurium)",
+    "function": "1",
+    "lat": 37.716667,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "LNA",
+    "label": "Lechainá",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Lechaina",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Lefkáda (Lefkás)",
+    "labelWithDiacritics": "Lefkada (Lefkas)",
+    "function": "1",
+    "lat": 38.833333,
+    "lng": 20.7
+  },
+  {
+    "locationCode": "LEF",
+    "label": "Lefkandi",
+    "function": "1",
+    "lat": 38.416667,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Lefkás (Lefkáda)",
+    "labelWithDiacritics": "Lefkas (Lefkada)",
+    "function": "1",
+    "lat": 38.833333,
+    "lng": 20.7
+  },
+  {
+    "locationCode": "LKI",
+    "label": "Lefkí",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Lefki",
+    "function": "3",
+    "lat": 39.333333,
+    "lng": 20.916667
+  },
+  {
+    "locationCode": "LFK",
+    "label": "Lefkímmi",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Lefkimmi",
+    "function": "1",
+    "lat": 39.416667,
+    "lng": 20.1
+  },
+  {
+    "locationCode": "LXS",
+    "label": "Lemnos",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Leondárion",
+    "labelWithDiacritics": "Leondarion",
+    "function": "3",
+    "lat": 37.983333,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "LND",
+    "label": "Leonídion",
+    "labelWithDiacritics": "Leonidion",
+    "function": "1",
+    "lat": 37.15,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "LPK",
+    "label": "Leptokariá",
+    "subdivisionCode": "71",
+    "labelWithDiacritics": "Leptokaria",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "LRS",
+    "label": "Leros",
+    "function": "14",
+    "lat": 37.183333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "L83",
+    "label": "Lesbos",
+    "subdivisionCode": "83",
+    "function": "3",
+    "lat": 39.166667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "LEA",
+    "label": "Levádeia",
+    "labelWithDiacritics": "Levadeia",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "GAG",
+    "label": "Levadhia",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 38.433333,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "LKV",
+    "label": "Likóvrisi",
+    "labelWithDiacritics": "Likovrisi",
+    "function": "3",
+    "lat": 38.066667,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "LII",
+    "label": "Limni",
+    "function": "1",
+    "lat": 38.766667,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Limnotopos",
+    "subdivisionCode": "57",
+    "function": "6",
+    "lat": 40.95,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "LIA",
+    "label": "Linaria",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.85,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "LDR",
+    "label": "Lindos Rodou",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.1,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "LIN",
+    "label": "Linoperamata Hrakliou",
+    "function": "1",
+    "lat": 35.35,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "LIP",
+    "label": "Lipsoí",
+    "subdivisionCode": "81",
+    "labelWithDiacritics": "Lipsoi",
+    "function": "1",
+    "lat": 37.283333,
+    "lng": 26.766667
+  },
+  {
+    "locationCode": "6TL",
+    "label": "Lití",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Liti",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "LIT",
+    "label": "Litókhoron",
+    "labelWithDiacritics": "Litokhoron",
+    "function": "3",
+    "lat": 40.1,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "ADI",
+    "label": "Livádia",
+    "subdivisionCode": "31",
+    "labelWithDiacritics": "Livadia",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "LIV",
+    "label": "Livanatai",
+    "function": "3",
+    "lat": 38.7,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "LIX",
+    "label": "Lixuri",
+    "function": "1",
+    "lat": 38.2,
+    "lng": 20.433333
+  },
+  {
+    "locationCode": "LOD",
+    "label": "Loudias",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "LOU",
+    "label": "Loutraki",
+    "function": "3"
+  },
+  {
+    "locationCode": "LTR",
+    "label": "Loutro Chanion",
+    "function": "1",
+    "lat": 35.2,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "MGO",
+    "label": "Magiko",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "MGU",
+    "label": "Magoúla",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Magoula",
+    "function": "3",
+    "lat": 39.45,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "M8L",
+    "label": "Magoúla",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Magoula",
+    "function": "1",
+    "lat": 39.816667,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Magoúla",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Magoula",
+    "function": "13",
+    "lat": 38.083333,
+    "lng": 23.516667
+  },
+  {
+    "locationCode": "MKR",
+    "label": "Makriyialos",
+    "subdivisionCode": "92",
+    "function": "23",
+    "lat": 35.033333,
+    "lng": 25.966667
+  },
+  {
+    "locationCode": "MLK",
+    "label": "Malakása",
+    "labelWithDiacritics": "Malakasa",
+    "function": "23",
+    "lat": 38.233333,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malaoi",
+    "function": "0"
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Malessina",
+    "function": "1",
+    "lat": 38.65,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "GAO",
+    "label": "Malia",
+    "subdivisionCode": "HK",
+    "function": "6",
+    "lat": 35.283333,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Mándra",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Mandra",
+    "function": "3",
+    "lat": 38.066667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "GAP",
+    "label": "Mandra Attikis",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 38.066667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "MNG",
+    "label": "Mángana",
+    "subdivisionCode": "72",
+    "labelWithDiacritics": "Mangana",
+    "function": "3",
+    "lat": 40.95,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manolás",
+    "labelWithDiacritics": "Manolas",
+    "function": "3",
+    "lat": 38.05,
+    "lng": 21.35
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Mantoúdion",
+    "labelWithDiacritics": "Mantoudion",
+    "function": "3",
+    "lat": 38.8,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Marathítis",
+    "subdivisionCode": "HK",
+    "labelWithDiacritics": "Marathitis",
+    "function": "3",
+    "lat": 35.283333,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "MKP",
+    "label": "Marathokampos Samou",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 37.7,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "MHO",
+    "label": "Marathonas",
+    "subdivisionCode": "A1",
+    "function": "3"
+  },
+  {
+    "locationCode": "GAQ",
+    "label": "Markopoulo",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 37.883333,
+    "lng": 23.933333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Markopoulon",
+    "function": "3"
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Marmari",
+    "function": "1",
+    "lat": 38.05,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "MRN",
+    "label": "Marmárion",
+    "labelWithDiacritics": "Marmarion",
+    "function": "3",
+    "lat": 38.05,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "MXK",
+    "label": "Mastichari Kos",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.85,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Mathraki Diapontioi Island",
+    "function": "1",
+    "lat": 39.783333,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "MVR",
+    "label": "Mavr",
+    "subdivisionCode": "33",
+    "function": "3",
+    "lat": 39.95,
+    "lng": 20.6
+  },
+  {
+    "locationCode": "MAV",
+    "label": "Mavrothálassa",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Mavrothalassa",
+    "function": "3",
+    "lat": 40.9,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "MVI",
+    "label": "Mavrovouni",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "MEG",
+    "label": "Megálon Livádion",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Megalon Livadion",
+    "function": "1",
+    "lat": 37.15,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Megalópolis",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Megalopolis",
+    "function": "3",
+    "lat": 37.4,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "MGN",
+    "label": "Meganísi",
+    "subdivisionCode": "24",
+    "labelWithDiacritics": "Meganisi",
+    "function": "1",
+    "lat": 38.666667,
+    "lng": 20.75
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Mégara",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Megara",
+    "function": "0",
+    "lat": 37.983333,
+    "lng": 23.35
+  },
+  {
+    "locationCode": "MLA",
+    "label": "Melía",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Melia",
+    "function": "23",
+    "lat": 39.566667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Melissokhorion",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "MEN",
+    "label": "Menidi",
+    "function": "1",
+    "lat": 39.033333,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Mesolóngion",
+    "labelWithDiacritics": "Mesolongion",
+    "function": "1",
+    "lat": 38.366667,
+    "lng": 21.433333
+  },
+  {
+    "locationCode": "MNI",
+    "label": "Messíni",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Messini",
+    "function": "3",
+    "lat": 37.05,
+    "lng": 22
+  },
+  {
+    "locationCode": "MSS",
+    "label": "Messongis",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.466667,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "MHI",
+    "label": "Mesta Hiou",
+    "function": "1",
+    "lat": 38.283333,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "MMS",
+    "label": "Metamorfosis",
+    "function": "0"
+  },
+  {
+    "locationCode": "MEA",
+    "label": "Methana",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 37.583333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "MET",
+    "label": "Methoni",
+    "function": "1",
+    "lat": 36.816667,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "MSV",
+    "label": "Métsovon",
+    "subdivisionCode": "33",
+    "labelWithDiacritics": "Metsovon",
+    "function": "3",
+    "lat": 39.766667,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "MLO",
+    "label": "Milos (Adamas)",
+    "subdivisionCode": "61",
+    "function": "4",
+    "lat": 36.75,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "MYR",
+    "label": "Mírina",
+    "labelWithDiacritics": "Mirina",
+    "function": "1",
+    "lat": 39.866667,
+    "lng": 25.066667
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Missimi",
+    "function": "0"
+  },
+  {
+    "locationCode": "MOA",
+    "label": "Molai",
+    "subdivisionCode": "J",
+    "function": "3",
+    "lat": 36.8,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "MOL",
+    "label": "Molyvos",
+    "subdivisionCode": "83",
+    "function": "13",
+    "lat": 39.366667,
+    "lng": 26.15
+  },
+  {
+    "locationCode": "MON",
+    "label": "Monemvasía",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Monemvasia",
+    "function": "1",
+    "lat": 36.683333,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "MVO",
+    "label": "Moní Vatopedíou",
+    "subdivisionCode": "69",
+    "labelWithDiacritics": "Moni Vatopediou",
+    "function": "1",
+    "lat": 40.3,
+    "lng": 24.2
+  },
+  {
+    "locationCode": "GAR",
+    "label": "Moschato/Athínai",
+    "labelWithDiacritics": "Moschato/Athinai",
+    "function": "6",
+    "lat": 37.95,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Moscháton",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Moschaton",
+    "function": "36",
+    "lat": 39.316667,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "MKT",
+    "label": "Moskhaton",
+    "subdivisionCode": "A1",
+    "function": "6",
+    "lat": 37.95,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "MDR",
+    "label": "Moúdhros",
+    "labelWithDiacritics": "Moudhros",
+    "function": "1",
+    "lat": 39.866667,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Mouriaí",
+    "labelWithDiacritics": "Mouriai",
+    "function": "3",
+    "lat": 41.25,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "MOU",
+    "label": "Moutsoúna",
+    "labelWithDiacritics": "Moutsouna",
+    "function": "1",
+    "lat": 37.083333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "MPO",
+    "label": "Mpoukaris",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.45,
+    "lng": 19.983333
+  },
+  {
+    "locationCode": "JMK",
+    "label": "Mykonos",
+    "subdivisionCode": "82",
+    "function": "14",
+    "lat": 37.45,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "MYL",
+    "label": "Mylaki",
+    "function": "1",
+    "lat": 38.383333,
+    "lng": 24.066667
+  },
+  {
+    "locationCode": "MRS",
+    "label": "Myrties Kalymnou",
+    "subdivisionCode": "L",
+    "function": "1",
+    "lat": 36.983333,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "MYB",
+    "label": "Myrtos Beach",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 38.35,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "MJT",
+    "label": "Mytilene",
+    "function": "14",
+    "lat": 39.1,
+    "lng": 26.55
+  },
+  {
+    "locationCode": "NAF",
+    "label": "Náfplion",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Nafplion",
+    "function": "123",
+    "lat": 37.566667,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Náousa",
+    "subdivisionCode": "53",
+    "labelWithDiacritics": "Naousa",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Naoussa Parou",
+    "function": "1",
+    "lat": 37.116667,
+    "lng": 25.233333
+  },
+  {
+    "locationCode": "NAV",
+    "label": "Navarino",
+    "function": "0"
+  },
+  {
+    "locationCode": "NPK",
+    "label": "Návpaktos",
+    "labelWithDiacritics": "Navpaktos",
+    "function": "1",
+    "lat": 38.4,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "JNX",
+    "label": "Náxos",
+    "labelWithDiacritics": "Naxos",
+    "function": "14",
+    "lat": 37.1,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Néa Alikarnassós",
+    "subdivisionCode": "91",
+    "labelWithDiacritics": "Nea Alikarnassos",
+    "function": "34",
+    "lat": 35.333333,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Néa Artáki",
+    "labelWithDiacritics": "Nea Artaki",
+    "function": "13",
+    "lat": 38.516667,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Nea Epidhavros",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 37.666667,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "NER",
+    "label": "Nea Erythrea",
+    "function": "3",
+    "lat": 38.1,
+    "lng": 23.816667
+  },
+  {
+    "locationCode": "NOA",
+    "label": "Nea Ionia",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "NKA",
+    "label": "Néa Kallikrátia",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Nea Kallikratia",
+    "function": "13",
+    "lat": 40.316667,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "NKV",
+    "label": "Néa Karváli",
+    "labelWithDiacritics": "Nea Karvali",
+    "function": "1",
+    "lat": 40.966667,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "NKK",
+    "label": "Néa Khalkidhón",
+    "labelWithDiacritics": "Nea Khalkidhon",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "NKS",
+    "label": "Néa Kíos",
+    "labelWithDiacritics": "Nea Kios",
+    "function": "3",
+    "lat": 37.583333,
+    "lng": 22.733333
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Néa Liósia",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Nea Liosia",
+    "function": "23",
+    "lat": 38.033333,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "ANM",
+    "label": "Nea Makri",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.083333,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "NMG",
+    "label": "Néa Málgara",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Nea Malgara",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "NMK",
+    "label": "Nea Mikhaniona",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.466667,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "NMA",
+    "label": "Néa Moudhaniá",
+    "labelWithDiacritics": "Nea Moudhania",
+    "function": "1",
+    "lat": 40.233333,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "NPA",
+    "label": "Néa Pélla",
+    "labelWithDiacritics": "Nea Pella",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.483333
+  },
+  {
+    "locationCode": "NPE",
+    "label": "Nea Peramos",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "NPY",
+    "label": "Néa Pláyia",
+    "labelWithDiacritics": "Nea Playia",
+    "function": "1",
+    "lat": 40.266667,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "NRS",
+    "label": "Néa Raidhestós",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Nea Raidhestos",
+    "function": "3",
+    "lat": 40.533333,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "GBB",
+    "label": "Néa Sánda",
+    "subdivisionCode": "73",
+    "labelWithDiacritics": "Nea Sanda",
+    "function": "36",
+    "lat": 41.1,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "NSN",
+    "label": "Néa Sánta",
+    "labelWithDiacritics": "Nea Santa",
+    "function": "3",
+    "lat": 40.85,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "ANS",
+    "label": "Nea Smyrni",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "NST",
+    "label": "Néa Stíra",
+    "labelWithDiacritics": "Nea Stira",
+    "function": "1",
+    "lat": 38.183333,
+    "lng": 24.2
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Néa Víssa",
+    "subdivisionCode": "A",
+    "labelWithDiacritics": "Nea Vissa",
+    "function": "3",
+    "lat": 41.583333,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "NEA",
+    "label": "Neapolis",
+    "function": "1",
+    "lat": 36.5,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "NME",
+    "label": "Neméa",
+    "labelWithDiacritics": "Nemea",
+    "function": "3",
+    "lat": 37.816667,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "NEO",
+    "label": "Neochoroúda",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Neochorouda",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "NKL",
+    "label": "Neohorion Kyllinis",
+    "function": "0"
+  },
+  {
+    "locationCode": "NEH",
+    "label": "Neokhorákion",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Neokhorakion",
+    "function": "3",
+    "lat": 39.166667,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "NCO",
+    "label": "Neokhoroúdha",
+    "labelWithDiacritics": "Neokhoroudha",
+    "function": "23",
+    "lat": 40.733333,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Néon Karlovásion",
+    "labelWithDiacritics": "Neon Karlovasion",
+    "function": "1",
+    "lat": 37.8,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "2NR",
+    "label": "Neon Rysion",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "NIA",
+    "label": "Niáta",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Niata",
+    "function": "3",
+    "lat": 36.9,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "NID",
+    "label": "Nidhríon",
+    "labelWithDiacritics": "Nidhrion",
+    "function": "1",
+    "lat": 38.7,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "NGA",
+    "label": "Nigríta",
+    "labelWithDiacritics": "Nigrita",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "NIK",
+    "label": "Nikaia",
+    "function": "3"
+  },
+  {
+    "locationCode": "NIS",
+    "label": "Nisiros",
+    "function": "1",
+    "lat": 36.616667,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "OIK",
+    "label": "Oia Kyklades",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 36.466667,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "OIN",
+    "label": "Oinófita",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Oinofita",
+    "function": "23",
+    "lat": 38.316667,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "OIO",
+    "label": "Oinoi",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.166667,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "OLY",
+    "label": "Olympiada",
+    "subdivisionCode": "C",
+    "function": "3",
+    "lat": 40.566667,
+    "lng": 21.583333
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Oraiókastron",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Oraiokastron",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "ORC",
+    "label": "Orchomenós",
+    "labelWithDiacritics": "Orchomenos",
+    "function": "3",
+    "lat": 38.5,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "ORE",
+    "label": "Orei",
+    "function": "1",
+    "lat": 38.95,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "OEO",
+    "label": "Oreokastro",
+    "subdivisionCode": "54",
+    "function": "6",
+    "lat": 40.716667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "ORS",
+    "label": "Orestiás",
+    "subdivisionCode": "71",
+    "labelWithDiacritics": "Orestias",
+    "function": "3",
+    "lat": 41.5,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "ORM",
+    "label": "Ormília",
+    "labelWithDiacritics": "Ormilia",
+    "function": "3",
+    "lat": 40.3,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "PNT",
+    "label": "Órmos Panórmou",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Ormos Panormou",
+    "function": "1",
+    "lat": 37.65,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "ORO",
+    "label": "Oropos",
+    "function": "1",
+    "lat": 38.316667,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "OTH",
+    "label": "Othonoí",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Othonoi",
+    "function": "13",
+    "lat": 39.85,
+    "lng": 19.4
+  },
+  {
+    "locationCode": "OUR",
+    "label": "Ouranópolis",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Ouranopolis",
+    "function": "1",
+    "lat": 40.316667,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "PME",
+    "label": "Pachi",
+    "function": "1",
+    "lat": 37.966667,
+    "lng": 23.35
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Paianía",
+    "labelWithDiacritics": "Paiania",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "PEP",
+    "label": "Palaiá Epídavros",
+    "labelWithDiacritics": "Palaia Epidavros",
+    "function": "1",
+    "lat": 37.633333,
+    "lng": 23.15
+  },
+  {
+    "locationCode": "PFA",
+    "label": "Palaiá Fókaia",
+    "labelWithDiacritics": "Palaia Fokaia",
+    "function": "13",
+    "lat": 37.716667,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "PAK",
+    "label": "Palaiokastritsa",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": 39.683333,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "PKT",
+    "label": "Palaiókastro",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Palaiokastro",
+    "function": "3",
+    "lat": 40.433333,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "PMO",
+    "label": "Palaiomonástiro",
+    "subdivisionCode": "44",
+    "labelWithDiacritics": "Palaiomonastiro",
+    "function": "3",
+    "lat": 39.45,
+    "lng": 21.65
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palaión Fáliron",
+    "labelWithDiacritics": "Palaion Faliron",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "PML",
+    "label": "Palamas",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 39.466667,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "PCH",
+    "label": "Paleochora",
+    "subdivisionCode": "94",
+    "function": "1",
+    "lat": 35.216667,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "PSF",
+    "label": "Paleohora Sfakion",
+    "function": "1",
+    "lat": 35.2,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "PPG",
+    "label": "Pallíni",
+    "labelWithDiacritics": "Pallini",
+    "function": "3",
+    "lat": 38,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Paloúkia",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Paloukia",
+    "function": "13",
+    "lat": 37.966667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Panetolion",
+    "function": "0"
+  },
+  {
+    "locationCode": "PNA",
+    "label": "Panórama",
+    "labelWithDiacritics": "Panorama",
+    "function": "3",
+    "lat": 40.583333,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "PPK",
+    "label": "Papadianika/Asopos",
+    "subdivisionCode": "16",
+    "function": "3"
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Paramythía",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Paramythia",
+    "function": "3",
+    "lat": 39.466667,
+    "lng": 20.516667
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Párga",
+    "labelWithDiacritics": "Parga",
+    "function": "1",
+    "lat": 39.283333,
+    "lng": 20.4
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Páros",
+    "labelWithDiacritics": "Paros",
+    "function": "14",
+    "lat": 37.083333,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "PMS",
+    "label": "Pátmos",
+    "labelWithDiacritics": "Patmos",
+    "function": "1",
+    "lat": 37.316667,
+    "lng": 26.55
+  },
+  {
+    "locationCode": "GPA",
+    "label": "Patras",
+    "function": "14",
+    "lat": 38.233333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "PAX",
+    "label": "Paxi",
+    "function": "1",
+    "lat": 39.2,
+    "lng": 20.183333
+  },
+  {
+    "locationCode": "PEF",
+    "label": "Péfki",
+    "subdivisionCode": "44",
+    "labelWithDiacritics": "Pefki",
+    "function": "3",
+    "lat": 39.783333,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "PLS",
+    "label": "Pelasgia",
+    "subdivisionCode": "H",
+    "function": "3",
+    "lat": 38.95,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Pelasyía",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Pelasyia",
+    "function": "13",
+    "lat": 38.95,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "PLL",
+    "label": "Pella",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "PTF",
+    "label": "Pendálofos",
+    "labelWithDiacritics": "Pendalofos",
+    "function": "23",
+    "lat": 40.733333,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "TTL",
+    "label": "Pentalofos",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.733333,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "PTO",
+    "label": "Pentálofos",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Pentalofos",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "PER",
+    "label": "Perama",
+    "function": "1",
+    "lat": 37.966667,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "PGM",
+    "label": "Perama Geras Mytilinis",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 39.033333,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "PRR",
+    "label": "Perea",
+    "subdivisionCode": "54",
+    "function": "13",
+    "lat": 40.5,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "P6K",
+    "label": "Perigiali",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "PST",
+    "label": "Peristera",
+    "function": "3",
+    "lat": 38.283333,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Peristeri",
+    "function": "3"
+  },
+  {
+    "locationCode": "PSK",
+    "label": "Pessada Kefallinnias",
+    "function": "1",
+    "lat": 38.1,
+    "lng": 20.583333
+  },
+  {
+    "locationCode": "PEB",
+    "label": "Petani Beach",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 38.266667,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "PLV",
+    "label": "Petra",
+    "subdivisionCode": "83",
+    "function": "1",
+    "lat": 39.333333,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "PET",
+    "label": "Pétra Lesvou",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Petra Lesvou",
+    "function": "23",
+    "lat": 38.366667,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "PRE",
+    "label": "Petries Evvoias",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.4,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "PTC",
+    "label": "Petriti",
+    "subdivisionCode": "22",
+    "function": "13",
+    "lat": 39.45,
+    "lng": 20
+  },
+  {
+    "locationCode": "PYV",
+    "label": "Peyki Evvoias",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 39,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "PSE",
+    "label": "Phserimos Dodekanisou",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.933333,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "PIK",
+    "label": "Pikérmion",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Pikermion",
+    "function": "36",
+    "lat": 38,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "IKE",
+    "label": "Pikérnis",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Pikernis",
+    "function": "3",
+    "lat": 37.65,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Pilea (Pylaía)",
+    "labelWithDiacritics": "Pilea (Pylaia)",
+    "function": "3",
+    "lat": 40.6,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Piraeus",
+    "subdivisionCode": "I",
+    "function": "1",
+    "lat": 37.933333,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "PIS",
+    "label": "Pissaetos Ithakis",
+    "function": "1",
+    "lat": 38.35,
+    "lng": 20.683333
+  },
+  {
+    "locationCode": "ISS",
+    "label": "Pissónas",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Pissonas",
+    "function": "3",
+    "lat": 38.533333,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Pitra",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": 36.683333,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "PGN",
+    "label": "Plagiárion",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Plagiarion",
+    "function": "3",
+    "lat": 40.466667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "ALG",
+    "label": "Plakias",
+    "subdivisionCode": "M",
+    "function": "1",
+    "lat": 35.183333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "PIA",
+    "label": "Platania",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.133333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "PTN",
+    "label": "Plátanos",
+    "labelWithDiacritics": "Platanos",
+    "function": "3",
+    "lat": 40.55,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "PTI",
+    "label": "Plataria",
+    "subdivisionCode": "32",
+    "function": "1",
+    "lat": 39.45,
+    "lng": 20.283333
+  },
+  {
+    "locationCode": "PLT",
+    "label": "Plati",
+    "function": "0"
+  },
+  {
+    "locationCode": "P5T",
+    "label": "Platy",
+    "subdivisionCode": "53",
+    "function": "13",
+    "lat": 40.633333,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "PLG",
+    "label": "Platygiali Etoloakarnanias",
+    "function": "1",
+    "lat": 38.466667,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "PVA",
+    "label": "Plevroma",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 40.7,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "PLM",
+    "label": "Plomárion",
+    "subdivisionCode": "83",
+    "labelWithDiacritics": "Plomarion",
+    "function": "13",
+    "lat": 38.983333,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "PON",
+    "label": "Políchni",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Polichni",
+    "function": "3",
+    "lat": 40.65,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Politiká",
+    "labelWithDiacritics": "Politika",
+    "function": "1",
+    "lat": 38.583333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "PLC",
+    "label": "Polychnitos Lesvou",
+    "function": "1",
+    "lat": 34.1,
+    "lng": 26.166667
+  },
+  {
+    "locationCode": "PLD",
+    "label": "Polydendri",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 38.2,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polygyros",
+    "subdivisionCode": "64",
+    "function": "3",
+    "lat": 40.383333,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "PLK",
+    "label": "Polykastron",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "PKE",
+    "label": "Poros Kefallinias",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Poros Trizinias",
+    "function": "1"
+  },
+  {
+    "locationCode": "VTH",
+    "label": "Port Vathý (Vathý)",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Port Vathy (Vathy)",
+    "function": "1",
+    "lat": 37.75,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "PHE",
+    "label": "Porto Heli",
+    "function": "1"
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Pórto Ráfti (Limín Mesoyaías)",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Porto Rafti (Limin Mesoyaias)",
+    "function": "3",
+    "lat": 37.883333,
+    "lng": 24.016667
+  },
+  {
+    "locationCode": "PKH",
+    "label": "Portochélion",
+    "labelWithDiacritics": "Portochelion",
+    "function": "4",
+    "lat": 37.316667,
+    "lng": 23.15
+  },
+  {
+    "locationCode": "POA",
+    "label": "Potamos Antikithera",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 35.883333,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Prasonisi Rhodes",
+    "subdivisionCode": "L",
+    "function": "13",
+    "lat": 35.883333,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "PKI",
+    "label": "Prassa Kimolos",
+    "subdivisionCode": "L",
+    "function": "13",
+    "lat": 36.816667,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "PVK",
+    "label": "Preveza/Lefkas",
+    "function": "14"
+  },
+  {
+    "locationCode": "PPI",
+    "label": "Prinos Thassou",
+    "function": "1",
+    "lat": 40.75,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "DSD",
+    "label": "Prosotsáni",
+    "subdivisionCode": "52",
+    "labelWithDiacritics": "Prosotsani",
+    "function": "13",
+    "lat": 41.183333,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Próti",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Proti",
+    "function": "16",
+    "lat": 40.95,
+    "lng": 24
+  },
+  {
+    "locationCode": "PRT",
+    "label": "Protória",
+    "subdivisionCode": "91",
+    "labelWithDiacritics": "Protoria",
+    "function": "3",
+    "lat": 35.033333,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Psachna",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 38.583333,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Psakhná",
+    "labelWithDiacritics": "Psakhna",
+    "function": "1",
+    "lat": 38.583333,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Psará",
+    "subdivisionCode": "85",
+    "labelWithDiacritics": "Psara",
+    "function": "1",
+    "lat": 38.533333,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "PS2",
+    "label": "Psychiko",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.016667,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "PTE",
+    "label": "Pteleos",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.033333,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "PLI",
+    "label": "Pyli",
+    "function": "1",
+    "lat": 40.766667,
+    "lng": 21.033333
+  },
+  {
+    "locationCode": "PYL",
+    "label": "Pýlos",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Pylos",
+    "function": "13",
+    "lat": 36.9,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "PYR",
+    "label": "Pyrgos",
+    "function": "14"
+  },
+  {
+    "locationCode": "PYT",
+    "label": "Pythagóreion",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Pythagoreion",
+    "function": "1",
+    "lat": 37.7,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "RAF",
+    "label": "Rafina",
+    "function": "1"
+  },
+  {
+    "locationCode": "REN",
+    "label": "Rentis",
+    "function": "0"
+  },
+  {
+    "locationCode": "RET",
+    "label": "Réthymnon",
+    "labelWithDiacritics": "Rethymnon",
+    "function": "1",
+    "lat": 35.366667,
+    "lng": 24.466667
+  },
+  {
+    "locationCode": "REV",
+    "label": "Revithoussa",
+    "function": "1",
+    "lat": 37.95,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "RHO",
+    "label": "Rhodes",
+    "function": "145"
+  },
+  {
+    "locationCode": "RIO",
+    "label": "Rio",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAX",
+    "label": "Riolos",
+    "function": "6",
+    "lat": 38.05,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "RTS",
+    "label": "Ritsóna",
+    "labelWithDiacritics": "Ritsona",
+    "function": "3",
+    "lat": 38.416667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "RIZ",
+    "label": "Rízes",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Rizes",
+    "function": "16",
+    "lat": 36.233333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "RZM",
+    "label": "Rízoma",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Rizoma",
+    "function": "3",
+    "lat": 39.65,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "SGT",
+    "label": "Sagiada Thesprotias",
+    "subdivisionCode": "32",
+    "function": "1",
+    "lat": 39.633333,
+    "lng": 20.183333
+  },
+  {
+    "locationCode": "SGB",
+    "label": "Saint George",
+    "function": "1"
+  },
+  {
+    "locationCode": "STN",
+    "label": "Saint Nicolas",
+    "subdivisionCode": "03",
+    "function": "1",
+    "lat": 38.35,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salamís",
+    "labelWithDiacritics": "Salamis",
+    "function": "1",
+    "lat": 37.966667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "SNK",
+    "label": "Salonika",
+    "subdivisionCode": "54",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAI",
+    "label": "Sámi",
+    "subdivisionCode": "23",
+    "labelWithDiacritics": "Sami",
+    "function": "13",
+    "lat": 38.25,
+    "lng": 20.65
+  },
+  {
+    "locationCode": "SMI",
+    "label": "Samos",
+    "function": "14"
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samothráki",
+    "labelWithDiacritics": "Samothraki",
+    "function": "1",
+    "lat": 40.483333,
+    "lng": 25.516667
+  },
+  {
+    "locationCode": "SPS",
+    "label": "Sapes",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "SVL",
+    "label": "Savália",
+    "labelWithDiacritics": "Savalia",
+    "function": "3",
+    "lat": 37.816667,
+    "lng": 21.283333
+  },
+  {
+    "locationCode": "SCH",
+    "label": "Schimatari",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 38.35,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "SMT",
+    "label": "Schimatarion",
+    "function": "23",
+    "lat": 38.333333,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "SHC",
+    "label": "Schinousa Kykladon",
+    "function": "1",
+    "lat": 36.866667,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "ZAQ",
+    "label": "Sérifos",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Serifos",
+    "function": "13",
+    "lat": 37.15,
+    "lng": -24.5
+  },
+  {
+    "locationCode": "SER",
+    "label": "Sériphos",
+    "subdivisionCode": "82",
+    "labelWithDiacritics": "Seriphos",
+    "function": "1",
+    "lat": 37.15,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "SRI",
+    "label": "Serrai",
+    "function": "3"
+  },
+  {
+    "locationCode": "SRS",
+    "label": "Serres",
+    "subdivisionCode": "62",
+    "function": "0",
+    "lat": 41.083333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "SVT",
+    "label": "Sevasti",
+    "subdivisionCode": "B",
+    "function": "3",
+    "lat": 40.35,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Shinari Zakynthou",
+    "function": "1",
+    "lat": 37.9,
+    "lng": 20.7
+  },
+  {
+    "locationCode": "SID",
+    "label": "Sidirokastro",
+    "function": "0"
+  },
+  {
+    "locationCode": "SGR",
+    "label": "Sigri Lesvou",
+    "function": "1",
+    "lat": 39.216667,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "SGI",
+    "label": "Sigrion",
+    "function": "1",
+    "lat": 39.216667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "SII",
+    "label": "Sikinos",
+    "subdivisionCode": "82",
+    "function": "1",
+    "lat": 36.7,
+    "lng": 25.116667
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Sikionia",
+    "function": "1"
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Sindhos",
+    "function": "3",
+    "lat": 40.666667,
+    "lng": 2.466667
+  },
+  {
+    "locationCode": "SIS",
+    "label": "Síndos",
+    "labelWithDiacritics": "Sindos",
+    "function": "3",
+    "lat": 40.666667,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "JSH",
+    "label": "Siteía",
+    "labelWithDiacritics": "Siteia",
+    "function": "14",
+    "lat": 35.2,
+    "lng": 26.116667
+  },
+  {
+    "locationCode": "T9H",
+    "label": "Sithonia",
+    "subdivisionCode": "64",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "V8S",
+    "label": "Sivota",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 38.616667,
+    "lng": 20.683333
+  },
+  {
+    "locationCode": "SKD",
+    "label": "Skafidia",
+    "function": "16",
+    "lat": 37.7,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Skála Lakonias",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Skala Lakonias",
+    "function": "3",
+    "lat": 36.85,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "SKM",
+    "label": "Skáloma",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Skaloma",
+    "function": "1",
+    "lat": 39.616667,
+    "lng": 20.183333
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skaramangás",
+    "labelWithDiacritics": "Skaramangas",
+    "function": "1",
+    "lat": 38,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Skhimatárion",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Skhimatarion",
+    "function": "3",
+    "lat": 38.35,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "JSI",
+    "label": "Skíathos",
+    "labelWithDiacritics": "Skiathos",
+    "function": "14",
+    "lat": 39.166667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Skíros",
+    "labelWithDiacritics": "Skiros",
+    "function": "14",
+    "lat": 38.9,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Skopelos",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKY",
+    "label": "Skydra",
+    "function": "0"
+  },
+  {
+    "locationCode": "SFD",
+    "label": "Sofades",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 39.333333,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "QW3",
+    "label": "Sofiko",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "SOI",
+    "label": "Soroni",
+    "subdivisionCode": "L",
+    "function": "1",
+    "lat": 36.366667,
+    "lng": 28
+  },
+  {
+    "locationCode": "SDH",
+    "label": "Soúda",
+    "subdivisionCode": "94",
+    "labelWithDiacritics": "Souda",
+    "function": "13",
+    "lat": 35.516667,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "GAF",
+    "label": "Souda Bay",
+    "function": "6",
+    "lat": 35.483333,
+    "lng": 24.133333
+  },
+  {
+    "locationCode": "SFN",
+    "label": "Souflíon",
+    "labelWithDiacritics": "Souflion",
+    "function": "123",
+    "lat": 41.2,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "SOG",
+    "label": "Sougia Chanion",
+    "function": "1",
+    "lat": 35.2,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "SOR",
+    "label": "Soupri",
+    "function": "135"
+  },
+  {
+    "locationCode": "TSS",
+    "label": "Soúrpi",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Sourpi",
+    "function": "3",
+    "lat": 39.1,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "SOU",
+    "label": "Soussaki",
+    "function": "1",
+    "lat": 37.916667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Souvala",
+    "subdivisionCode": "A1",
+    "function": "1",
+    "lat": 37.766667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Spárti",
+    "labelWithDiacritics": "Sparti",
+    "function": "3",
+    "lat": 37.083333,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Spáta",
+    "labelWithDiacritics": "Spata",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.9
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Spétsai",
+    "labelWithDiacritics": "Spetsai",
+    "function": "1",
+    "lat": 37.266667,
+    "lng": 23.15
+  },
+  {
+    "locationCode": "STM",
+    "label": "Stamáta",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Stamata",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "SCR",
+    "label": "Stavrochorion",
+    "subdivisionCode": "57",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Stavros Agias Paraskevis",
+    "function": "3"
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Stavros Halkidikis",
+    "function": "1"
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stavroupolis",
+    "function": "3"
+  },
+  {
+    "locationCode": "STE",
+    "label": "Steni Evvias",
+    "function": "0"
+  },
+  {
+    "locationCode": "GBE",
+    "label": "Stenimahos",
+    "function": "6",
+    "lat": 40.6,
+    "lng": 22.116667
+  },
+  {
+    "locationCode": "STI",
+    "label": "Stratoni",
+    "function": "1"
+  },
+  {
+    "locationCode": "SYS",
+    "label": "Stylída (Stylis)",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Stylida (Stylis)",
+    "function": "13",
+    "lat": 38.916667,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "STY",
+    "label": "Stylinda",
+    "function": "0"
+  },
+  {
+    "locationCode": "SYS",
+    "label": "Stylis (Stylída)",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Stylis (Stylida)",
+    "function": "13",
+    "lat": 38.916667,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "SUD",
+    "label": "Suda Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "SYM",
+    "label": "Symi",
+    "function": "1",
+    "lat": 36.6,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "JSY",
+    "label": "Syra (Syros)",
+    "function": "1"
+  },
+  {
+    "locationCode": "SYO",
+    "label": "Syra Island",
+    "function": "3",
+    "lat": 37.433333,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "JSY",
+    "label": "Syros (Syra)",
+    "function": "1"
+  },
+  {
+    "locationCode": "SYV",
+    "label": "Syvota",
+    "subdivisionCode": "32",
+    "function": "1",
+    "lat": 39.4,
+    "lng": 20.233333
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Taktikoupolis",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.55,
+    "lng": 23.366667
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Tanágra",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Tanagra",
+    "function": "3",
+    "lat": 38.316667,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "TVR",
+    "label": "Távros",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Tavros",
+    "function": "136",
+    "lat": 37.966667,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "TPS",
+    "label": "Terpní",
+    "subdivisionCode": "62",
+    "labelWithDiacritics": "Terpni",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "TPA",
+    "label": "Terpsithéa",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Terpsithea",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "TSO",
+    "label": "Thasos",
+    "function": "1"
+  },
+  {
+    "locationCode": "THR",
+    "label": "Thérmi",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Thermi",
+    "function": "3",
+    "lat": 40.55,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "SKG",
+    "label": "Thessaloníki",
+    "labelWithDiacritics": "Thessaloniki",
+    "function": "145",
+    "lat": 40.633333,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "TKO",
+    "label": "Thessi Kyrillo",
+    "function": "1"
+  },
+  {
+    "locationCode": "JTR",
+    "label": "Thíra",
+    "labelWithDiacritics": "Thira",
+    "function": "14",
+    "lat": 36.416667,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Thirasía",
+    "labelWithDiacritics": "Thirasia",
+    "function": "1",
+    "lat": 36.433333,
+    "lng": 25.35
+  },
+  {
+    "locationCode": "TPT",
+    "label": "Thiriopetra",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 41.05,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "THI",
+    "label": "Thísvi",
+    "labelWithDiacritics": "Thisvi",
+    "function": "3",
+    "lat": 38.266667,
+    "lng": 22.966667
+  },
+  {
+    "locationCode": "THP",
+    "label": "Thisvi Port",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 38.216667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "TVA",
+    "label": "Thívai",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Thivai",
+    "function": "3",
+    "lat": 38.316667,
+    "lng": 23.316667
+  },
+  {
+    "locationCode": "THK",
+    "label": "Thrakomakedones",
+    "subdivisionCode": "A1",
+    "function": "23",
+    "lat": 38.116667,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "GAY",
+    "label": "Thrapsanon",
+    "subdivisionCode": "HK",
+    "function": "6",
+    "lat": 35.183333,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "THM",
+    "label": "Thymaina Island",
+    "subdivisionCode": "84",
+    "function": "1",
+    "lat": 37.583333,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "TIL",
+    "label": "Tilos",
+    "subdivisionCode": "81",
+    "function": "1",
+    "lat": 36.416667,
+    "lng": 27.366667
+  },
+  {
+    "locationCode": "TIN",
+    "label": "Tínos",
+    "labelWithDiacritics": "Tinos",
+    "function": "1",
+    "lat": 37.533333,
+    "lng": 25.166667
+  },
+  {
+    "locationCode": "GBA",
+    "label": "Tithoréa",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Tithorea",
+    "function": "6",
+    "lat": 38.583333,
+    "lng": 22.666667
+  },
+  {
+    "locationCode": "TLA",
+    "label": "Tolo Argolidos",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 37.516667,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Trachia Argolidas",
+    "function": "3"
+  },
+  {
+    "locationCode": "TFP",
+    "label": "Trachia Fafplio",
+    "function": "3"
+  },
+  {
+    "locationCode": "TGN",
+    "label": "Traganon",
+    "function": "3"
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Tranóvalton",
+    "labelWithDiacritics": "Tranovalton",
+    "function": "3",
+    "lat": 40.05,
+    "lng": 21.866667
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Trikala",
+    "function": "0"
+  },
+  {
+    "locationCode": "TRK",
+    "label": "Trikeri Island",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 39.083333,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "TLF",
+    "label": "Trilofon",
+    "subdivisionCode": "53",
+    "function": "3",
+    "lat": 40.566667,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "TFS",
+    "label": "Trílofos",
+    "subdivisionCode": "61",
+    "labelWithDiacritics": "Trilofos",
+    "function": "3",
+    "lat": 40.383333,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "TRP",
+    "label": "Tripolis",
+    "function": "3"
+  },
+  {
+    "locationCode": "TRY",
+    "label": "Trypiti Chalkidikis",
+    "function": "1",
+    "lat": 40.366667,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "TSI",
+    "label": "Tsingéli",
+    "labelWithDiacritics": "Tsingeli",
+    "function": "1",
+    "lat": 39.166667,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "TYR",
+    "label": "Týrnavos",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Tyrnavos",
+    "function": "3",
+    "lat": 39.733333,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "VFO",
+    "label": "Vafiochórion",
+    "subdivisionCode": "57",
+    "labelWithDiacritics": "Vafiochorion",
+    "function": "3",
+    "lat": 41,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "VRD",
+    "label": "Várda",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Varda",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Varibobi",
+    "function": "0"
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vasiliká",
+    "labelWithDiacritics": "Vasilika",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vasilikó",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Vasiliko",
+    "function": "3",
+    "lat": 39.2,
+    "lng": 23.966667
+  },
+  {
+    "locationCode": "VAO",
+    "label": "Vasilikón",
+    "labelWithDiacritics": "Vasilikon",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "VU5",
+    "label": "Vasiloúdhion",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Vasiloudhion",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": 23.183333
+  },
+  {
+    "locationCode": "VSS",
+    "label": "Vassiliki Leykadas",
+    "function": "1",
+    "lat": 38.616667,
+    "lng": 20.583333
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Vassiliko Chalkida",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vathi",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 38.4,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "VLK",
+    "label": "Vathilakkos",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.766667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "VTH",
+    "label": "Vathý (Port Vathý)",
+    "subdivisionCode": "84",
+    "labelWithDiacritics": "Vathy (Port Vathy)",
+    "function": "1",
+    "lat": 37.75,
+    "lng": 26.983333
+  },
+  {
+    "locationCode": "VAB",
+    "label": "Vatika Bay",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": 36.5,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "VLT",
+    "label": "Velestino",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 39.366667,
+    "lng": 22.733333
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velo",
+    "function": "0"
+  },
+  {
+    "locationCode": "VER",
+    "label": "Veria",
+    "function": "0"
+  },
+  {
+    "locationCode": "VTA",
+    "label": "Voiotia",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 38.316667,
+    "lng": 23
+  },
+  {
+    "locationCode": "VLX",
+    "label": "Vólax",
+    "labelWithDiacritics": "Volax",
+    "function": "3",
+    "lat": 41.316667,
+    "lng": 24
+  },
+  {
+    "locationCode": "VLC",
+    "label": "Volissos (Limnia) Chios",
+    "subdivisionCode": "85",
+    "function": "1",
+    "lat": 38.466667,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "VOL",
+    "label": "Vólos",
+    "labelWithDiacritics": "Volos",
+    "function": "14",
+    "lat": 39.366667,
+    "lng": 22.95
+  },
+  {
+    "locationCode": "VOA",
+    "label": "Vónitsa",
+    "labelWithDiacritics": "Vonitsa",
+    "function": "3",
+    "lat": 38.916667,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "VRN",
+    "label": "Voreinón",
+    "labelWithDiacritics": "Voreinon",
+    "function": "3",
+    "lat": 41.016667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "VOT",
+    "label": "Votanikos",
+    "function": "0"
+  },
+  {
+    "locationCode": "VOM",
+    "label": "Voudia Milos",
+    "subdivisionCode": "L",
+    "function": "1",
+    "lat": 36.75,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "VOU",
+    "label": "Voula",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.85,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "VLM",
+    "label": "Vouliagméni",
+    "subdivisionCode": "A1",
+    "labelWithDiacritics": "Vouliagmeni",
+    "function": "13",
+    "lat": 37.816667,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "V3A",
+    "label": "Vrilissia",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 38.033333,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "VRI",
+    "label": "Vrisákia",
+    "labelWithDiacritics": "Vrisakia",
+    "function": "1",
+    "lat": 38.566667,
+    "lng": 23.6
+  },
+  {
+    "locationCode": "VYR",
+    "label": "Vyronas",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "XAN",
+    "label": "Xánthi",
+    "labelWithDiacritics": "Xanthi",
+    "function": "3",
+    "lat": 41.133333,
+    "lng": 24.883333
+  },
+  {
+    "locationCode": "XKB",
+    "label": "Xirokámbion",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Xirokambion",
+    "function": "16",
+    "lat": 36.966667,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "XIR",
+    "label": "Xirokampos Leros",
+    "subdivisionCode": "L",
+    "function": "13",
+    "lat": 37.116667,
+    "lng": 26.866667
+  },
+  {
+    "locationCode": "XYL",
+    "label": "Xylókastron",
+    "labelWithDiacritics": "Xylokastron",
+    "function": "6",
+    "lat": 38.083333,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "XYT",
+    "label": "Xylokeratia Milos",
+    "subdivisionCode": "L",
+    "function": "13",
+    "lat": 36.666667,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "YLI",
+    "label": "Yali Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "YAL",
+    "label": "Yaltra",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 38.85,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "YER",
+    "label": "Yerakiní",
+    "subdivisionCode": "64",
+    "labelWithDiacritics": "Yerakini",
+    "function": "1",
+    "lat": 40.283333,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "YNN",
+    "label": "Yiannitsa",
+    "function": "3"
+  },
+  {
+    "locationCode": "GRG",
+    "label": "Ypato",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 38.383333,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "YPS",
+    "label": "Ypsos",
+    "subdivisionCode": "F",
+    "function": "13",
+    "lat": 39.7,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "ZGA",
+    "label": "Zagorá",
+    "subdivisionCode": "E",
+    "labelWithDiacritics": "Zagora",
+    "function": "3",
+    "lat": 39.45,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "ZTH",
+    "label": "Zákynthos",
+    "subdivisionCode": "21",
+    "labelWithDiacritics": "Zakynthos",
+    "function": "14",
+    "lat": 37.783333,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "ZEA",
+    "label": "Zea Island",
+    "function": "0"
+  },
+  {
+    "locationCode": "ZEF",
+    "label": "Zefiri",
+    "function": "6",
+    "lat": 36.7,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "EE3",
+    "label": "Zefyri",
+    "subdivisionCode": "A1",
+    "function": "3",
+    "lat": 38.066667,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "5ZE",
+    "label": "Zervochórion",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Zervochorion",
+    "function": "3",
+    "lat": 39.4,
+    "lng": 20.55
+  },
+  {
+    "locationCode": "ZEG",
+    "label": "Zevgolateio",
+    "subdivisionCode": "J",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "ZEY",
+    "label": "Zevgolatíon",
+    "labelWithDiacritics": "Zevgolation",
+    "function": "3",
+    "lat": 37.933333,
+    "lng": 22.8
+  }
+]

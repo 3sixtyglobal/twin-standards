@@ -1,0 +1,25 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/foaf/FoafOrganization",
+	"title": "FoafOrganization",
+	"description": "A FOAF Organization.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/foaf/FoafContextType",
+			"description": "The LD Context."
+		},
+		"@type": {
+			"const": "Organization",
+			"description": "Type."
+		}
+	},
+	"required": [
+		"@type"
+	],
+	"allOf": [
+		{
+			"$ref": "https://schema.twindev.org/foaf/FoafAgent"
+		}
+	]
+}

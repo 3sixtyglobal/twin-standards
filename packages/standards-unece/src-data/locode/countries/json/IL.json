@@ -1,0 +1,2859 @@
+[
+  {
+    "locationCode": "ABU",
+    "label": "Abu Ghosh",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "ACR",
+    "label": "Acre",
+    "function": "1"
+  },
+  {
+    "locationCode": "ADM",
+    "label": "Adam",
+    "function": "3"
+  },
+  {
+    "locationCode": "ADI",
+    "label": "Adanim",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.133333,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "AFU",
+    "label": "Afula",
+    "function": "3",
+    "lat": 32.6,
+    "lng": 35.283333
+  },
+  {
+    "locationCode": "AKK",
+    "label": "Akko",
+    "subdivisionCode": "Z",
+    "function": "13",
+    "lat": 32.916667,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "ALN",
+    "label": "Alenbi",
+    "function": "3"
+  },
+  {
+    "locationCode": "AHG",
+    "label": "Alon Hagalil",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.75,
+    "lng": 35.216667
+  },
+  {
+    "locationCode": "ABB",
+    "label": "Alonei Abba",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "AIM",
+    "label": "Alonim",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "ALU",
+    "label": "Alumot",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.7,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "AMD",
+    "label": "Ami'Ad",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.916667,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Amir",
+    "function": "3",
+    "lat": 33.183333,
+    "lng": 35.633333
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Amirim",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.933333,
+    "lng": 35.45
+  },
+  {
+    "locationCode": "AMM",
+    "label": "Amminadav",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.75,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "IAD",
+    "label": "Arad",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.25,
+    "lng": 35.216667
+  },
+  {
+    "locationCode": "ARV",
+    "label": "Arava",
+    "function": "3"
+  },
+  {
+    "locationCode": "ZIN",
+    "label": "Arava Terminal Zin",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 32.483333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "ARB",
+    "label": "Arbel",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.8,
+    "lng": 35.483333
+  },
+  {
+    "locationCode": "ASU",
+    "label": "Arsuf",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.183333,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Ashalim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 30.95,
+    "lng": 34.7
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Ashdod",
+    "function": "1"
+  },
+  {
+    "locationCode": "BXQ",
+    "label": "Ashdod Bonded",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "ASB",
+    "label": "Ashdod Bonded Air",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "CXQ",
+    "label": "Ashdod Conterm",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "ASF",
+    "label": "Ashdod Fridenson",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "ASM",
+    "label": "Ashdod Granaries",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "ASL",
+    "label": "Ashdod Logisticare",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.8,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Ashdod Meshakef",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "MLA",
+    "label": "Ashdod Millennium",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "OVO",
+    "label": "Ashdod Overseas",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "OVS",
+    "label": "Ashdod Overseas 2",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "OVY",
+    "label": "Ashdod Overseas Hayovel Terminal",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Ashdod Rail Terminal",
+    "subdivisionCode": "D",
+    "function": "2",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "AST",
+    "label": "Ashdod Southport",
+    "subdivisionCode": "D",
+    "function": "1",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "MTS",
+    "label": "Ashdod Terminal 207",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.816667,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "AYL",
+    "label": "Ashdot Ya'Akov Ihud",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.65,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "AKL",
+    "label": "Ashkelon",
+    "function": "1"
+  },
+  {
+    "locationCode": "ATT",
+    "label": "Atlit",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "AVG",
+    "label": "Avigdor",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.7,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "AVI",
+    "label": "Avihayil",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.35,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Ayalon Valley",
+    "subdivisionCode": "JM",
+    "function": "23",
+    "lat": 31.833333,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "AYA",
+    "label": "Ayanot",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "AZO",
+    "label": "Azor",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "BHN",
+    "label": "Bahan",
+    "function": "3",
+    "lat": 32.35,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Baqa Al-Gharbiyye",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.416667,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Bar'am",
+    "function": "3",
+    "lat": 33.05,
+    "lng": 35.433333
+  },
+  {
+    "locationCode": "BKN",
+    "label": "Barkan Industrial Park",
+    "function": "6",
+    "lat": 32.1,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "BHE",
+    "label": "Bat Hefer",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.316667,
+    "lng": 35
+  },
+  {
+    "locationCode": "BSH",
+    "label": "Bat Shlomo",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.583333,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Bat Yam",
+    "function": "3"
+  },
+  {
+    "locationCode": "BRZ",
+    "label": "Bazra",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.2,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "BEV",
+    "label": "Beer Sheba",
+    "function": "4"
+  },
+  {
+    "locationCode": "BEE",
+    "label": "Be'er Ya'akov",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "BER",
+    "label": "Be'Eri",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.416667,
+    "lng": 34.483333
+  },
+  {
+    "locationCode": "BEY",
+    "label": "Be'erot Yitzhak",
+    "function": "3",
+    "lat": 32.05,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "BVQ",
+    "label": "Beer-Tuvia",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.766667,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "BBE",
+    "label": "Beit Berl",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.183333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "SHI",
+    "label": "Beit Hashita",
+    "function": "3"
+  },
+  {
+    "locationCode": "BHA",
+    "label": "Beit Hashmonay",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.883333,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Beit Hillel",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.2,
+    "lng": 35.6
+  },
+  {
+    "locationCode": "BJN",
+    "label": "Beit Jann",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.95,
+    "lng": 35.366667
+  },
+  {
+    "locationCode": "BEI",
+    "label": "Beit Kama",
+    "function": "3",
+    "lat": 31.45,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "BE8",
+    "label": "Beit Nehemia",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.966667,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "JCT",
+    "label": "Beit Shean Jordan Cargo Terminal",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.816667,
+    "lng": 35.933333
+  },
+  {
+    "locationCode": "MJO",
+    "label": "Beit Shean Jordan Meshakef",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.816667,
+    "lng": 35.916667
+  },
+  {
+    "locationCode": "BSR",
+    "label": "Beit Shean Rail Terminal",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.5,
+    "lng": 35.5
+  },
+  {
+    "locationCode": "BYA",
+    "label": "Beit Yanai",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.366667,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "BTZ",
+    "label": "Beit Zera",
+    "subdivisionCode": "Z",
+    "function": "23",
+    "lat": 32.683333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "BGA",
+    "label": "Ben Gurion International Apt",
+    "subdivisionCode": "TA",
+    "function": "34",
+    "lat": 32.016667,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Ben Shemen",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.95,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "BBK",
+    "label": "Bene Beraq",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "BTD",
+    "label": "Bet Dagan",
+    "function": "6",
+    "lat": 32,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Bet El Azari",
+    "function": "3",
+    "lat": 31.833333,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "BEH",
+    "label": "Bet Hanan",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "BNY",
+    "label": "Bet Hananya",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.533333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Bet Lehem Hagelilit",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.733333,
+    "lng": 35.183333
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bet Oren",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": 35
+  },
+  {
+    "locationCode": "BET",
+    "label": "Bet She'an",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.5,
+    "lng": 35.5
+  },
+  {
+    "locationCode": "BSE",
+    "label": "Bet Shemesh",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.733333,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "BYE",
+    "label": "Bet Yehoshua",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.25,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "BZA",
+    "label": "Bet Zayit",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.766667,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "BZT",
+    "label": "Betzet",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.066667,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "BGV",
+    "label": "Binyamina-Giv'at Ada",
+    "function": "16",
+    "lat": 32.516667,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Bitanit",
+    "function": "3"
+  },
+  {
+    "locationCode": "BNA",
+    "label": "Bnei Atarot",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "BNE",
+    "label": "Bnei Ayish",
+    "function": "3",
+    "lat": 31.783333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "BBR",
+    "label": "Bnei Brak",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Bnei Darom",
+    "function": "3",
+    "lat": 31.816667,
+    "lng": 31.683333
+  },
+  {
+    "locationCode": "BDR",
+    "label": "Bnei Dror",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.25,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Bnei Reem",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.766667,
+    "lng": 34.783333
+  },
+  {
+    "locationCode": "CAE",
+    "label": "Caesarea",
+    "function": "3",
+    "lat": 32.483333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "DFN",
+    "label": "Dafna",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.216667,
+    "lng": 35.633333
+  },
+  {
+    "locationCode": "DAK",
+    "label": "Daliyat Al Karmel",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "DIY",
+    "label": "Daliyya",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.583333,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Dan",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.233333,
+    "lng": 35.65
+  },
+  {
+    "locationCode": "DEG",
+    "label": "Degania",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.7,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "DVI",
+    "label": "Devira",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.416667,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "DIM",
+    "label": "Dimona",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.066667,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "DOR",
+    "label": "Dorot",
+    "function": "3",
+    "lat": 31.5,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "EIL",
+    "label": "Eilabun",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 32.833333,
+    "lng": 35.4
+  },
+  {
+    "locationCode": "EIG",
+    "label": "Ein Gedi",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.45,
+    "lng": 35.366667
+  },
+  {
+    "locationCode": "ENS",
+    "label": "Ein Shemer",
+    "function": "3",
+    "lat": 32.45,
+    "lng": 35
+  },
+  {
+    "locationCode": "EIN",
+    "label": "Ein Tzurim",
+    "function": "3",
+    "lat": 31.7,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "EIY",
+    "label": "Ein Yahav",
+    "function": "4"
+  },
+  {
+    "locationCode": "ETH",
+    "label": "Elat (Eilath)",
+    "function": "14"
+  },
+  {
+    "locationCode": "2LL",
+    "label": "Eliad",
+    "function": "3",
+    "lat": 32.8,
+    "lng": 35.733333
+  },
+  {
+    "locationCode": "EHF",
+    "label": "Emek Hefer Industrial Park",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 32.4,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "EMU",
+    "label": "Emunim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.75,
+    "lng": 34.666667
+  },
+  {
+    "locationCode": "ENH",
+    "label": "En Harod Ihud",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.566667,
+    "lng": 35.383333
+  },
+  {
+    "locationCode": "EHA",
+    "label": "Eshel Hanasi",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.333333,
+    "lng": 34.7
+  },
+  {
+    "locationCode": "OST",
+    "label": "Eshta'ol",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.783333,
+    "lng": 35
+  },
+  {
+    "locationCode": "EVS",
+    "label": "Even Shmuel",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.566667,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "EVE",
+    "label": "Even Yehuda",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "GAA",
+    "label": "Ga'ash",
+    "function": "3",
+    "lat": 32.233333,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "GNE",
+    "label": "Gan Ner",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.516667,
+    "lng": 35.333333
+  },
+  {
+    "locationCode": "SHM",
+    "label": "Gan Shmuel",
+    "function": "3",
+    "lat": 32.45,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "GSO",
+    "label": "Gan Sorek",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "GYV",
+    "label": "Gan Yavne",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.783333,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gannot",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "GAT",
+    "label": "Gat Rimmon",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "GDA",
+    "label": "Gedera",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 34.783333
+  },
+  {
+    "locationCode": "GEF",
+    "label": "Gefen",
+    "function": "3",
+    "lat": 31.75,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "GEZ",
+    "label": "Gezer",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "GIN",
+    "label": "Ginaton",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.95,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "GBI",
+    "label": "Givat Brenner",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "GHM",
+    "label": "Givat Haim",
+    "function": "6",
+    "lat": 32.383333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "GIV",
+    "label": "Givat Hashloshah",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "GKT",
+    "label": "Giv'at Koah",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "GVS",
+    "label": "Giv'at Shmuel",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "GSC",
+    "label": "Giv'at Shmuel",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "GLI",
+    "label": "Glil Yam",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.15,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "GRO",
+    "label": "Grofit",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 29.933333,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "8UH",
+    "label": "Gush Halav",
+    "subdivisionCode": "Z",
+    "function": "13",
+    "lat": 33.166667,
+    "lng": 35.433333
+  },
+  {
+    "locationCode": "HAO",
+    "label": "Ha Ogen",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.366667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "HAB",
+    "label": "Habonim",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.633333,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "HDR",
+    "label": "Hadar 'Am",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.35,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Hadera",
+    "function": "1"
+  },
+  {
+    "locationCode": "HDD",
+    "label": "Hadid",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.966667,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "HFA",
+    "label": "Haifa",
+    "subdivisionCode": "HA",
+    "function": "145",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "HBT",
+    "label": "Haifa Bayport",
+    "subdivisionCode": "HA",
+    "function": "1",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "HFM",
+    "label": "Haifa Granaries",
+    "subdivisionCode": "HA",
+    "function": "6",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "MSP",
+    "label": "Haifa Israel Shipyards Port",
+    "subdivisionCode": "Z",
+    "function": "1",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "MEH",
+    "label": "Haifa Meshakef",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "OVR",
+    "label": "Haifa Overseas",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.8,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "HZ8",
+    "label": "Haluza",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.083333,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Hanita",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.083333,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatzor HaGlilit",
+    "function": "3",
+    "lat": 32.983333,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "HYV",
+    "label": "Hayogev",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.6,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Hazerim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.233333,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "HZR",
+    "label": "Hazor",
+    "function": "6",
+    "lat": 32.966667,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "HAZ",
+    "label": "HaZorea'",
+    "function": "3",
+    "lat": 32.65,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "IHA",
+    "label": "Herzliyya",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.166667,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "HHS",
+    "label": "Hod Ha'Sharon",
+    "function": "3",
+    "lat": 32.15,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Holon/Tel Aviv",
+    "function": "3",
+    "lat": 32,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "HUL",
+    "label": "Hulda",
+    "function": "3",
+    "lat": 31.833333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "JOR",
+    "label": "Jordan",
+    "function": "3"
+  },
+  {
+    "locationCode": "JUL",
+    "label": "Julis",
+    "function": "1",
+    "lat": 31.683333,
+    "lng": 34.65
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Kabri",
+    "function": "3",
+    "lat": 33.016667,
+    "lng": 35.15
+  },
+  {
+    "locationCode": "KKN",
+    "label": "Kafr Kanna",
+    "function": "3",
+    "lat": 32.75,
+    "lng": -35.35
+  },
+  {
+    "locationCode": "KAQ",
+    "label": "Kafr Qasem",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.1,
+    "lng": 34.966667
+  },
+  {
+    "locationCode": "KFS",
+    "label": "Kafr Saba",
+    "subdivisionCode": "M",
+    "function": "23",
+    "lat": 32.15,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kannot",
+    "function": "3",
+    "lat": 31.783333,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "KY7",
+    "label": "Karmei Yosef",
+    "subdivisionCode": "M",
+    "function": "16",
+    "lat": 31.833333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "CML",
+    "label": "Karmi'el",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.916667,
+    "lng": 35.3
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Katzir-Harish",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.483333,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Kaukab Abu El-Hija",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.816667,
+    "lng": 14.966667
+  },
+  {
+    "locationCode": "AZA",
+    "label": "Kefar Aza",
+    "function": "3",
+    "lat": 31.483333,
+    "lng": 34.533333
+  },
+  {
+    "locationCode": "KBN",
+    "label": "Kefar Bin Nun",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.85,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "KBL",
+    "label": "Kefar Blum",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.166667,
+    "lng": 35.6
+  },
+  {
+    "locationCode": "KGI",
+    "label": "Kefar Gil'adi",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.233333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Kefar HaMaccabi",
+    "function": "3",
+    "lat": 32.783333,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kefar Hanagid",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.883333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "KFA",
+    "label": "Kefar Malal",
+    "function": "3",
+    "lat": 32.166667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "KMA",
+    "label": "Kefar Masaryk",
+    "function": "3",
+    "lat": 32.883333,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "KSV",
+    "label": "Kefar Sava",
+    "function": "3",
+    "lat": 32.166667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "SZO",
+    "label": "Kefar Szold",
+    "function": "3",
+    "lat": 33.2,
+    "lng": 35.65
+  },
+  {
+    "locationCode": "VVL",
+    "label": "Kefar Vitkin",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.383333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Kefar Vradim",
+    "function": "3",
+    "lat": 33,
+    "lng": 35.266667
+  },
+  {
+    "locationCode": "YON",
+    "label": "Kefar Yona",
+    "function": "3",
+    "lat": 32.316667,
+    "lng": -34.933333
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Kerem Shalom",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.2,
+    "lng": 34.283333
+  },
+  {
+    "locationCode": "KZR",
+    "label": "Kfar Azar",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.05,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "KFN",
+    "label": "Kfar Netter",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 32.266667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "H6K",
+    "label": "Kfar Ruth",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "KLS",
+    "label": "Kfar Saba",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.166667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "KTH",
+    "label": "Kfar Tavor",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": 35.416667
+  },
+  {
+    "locationCode": "KTD",
+    "label": "Kfar Truman",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.966667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "KFV",
+    "label": "Kfar Vitkin",
+    "subdivisionCode": "M",
+    "function": "1",
+    "lat": 32.366667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "ETI",
+    "label": "Kibbutz Einat",
+    "function": "6",
+    "lat": 32.066667,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "KTZ",
+    "label": "Kidmat Tzvi",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.016667,
+    "lng": 35.683333
+  },
+  {
+    "locationCode": "KID",
+    "label": "Kidron",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "KNR",
+    "label": "Kinneret",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.733333,
+    "lng": 35.566667
+  },
+  {
+    "locationCode": "KTM",
+    "label": "Kiryat Anavim",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "HM2",
+    "label": "Kiryat Ekron",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.85,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "KMO",
+    "label": "Kiryat Motzkin",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.833333,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "KNO",
+    "label": "Kiryat Ono",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.05,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "KSW",
+    "label": "Kiryat Shmona",
+    "function": "4"
+  },
+  {
+    "locationCode": "KIT",
+    "label": "Kiryat Tiv'On",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "KIY",
+    "label": "Kiryat Yam",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.833333,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "K8B",
+    "label": "Kiryat-Bialik",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.833333,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "KSF",
+    "label": "Kissufim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.366667,
+    "lng": 34.383333
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kokhav Yair-Tzur Yigal",
+    "function": "6",
+    "lat": 32,
+    "lng": 35
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Konetra",
+    "function": "3"
+  },
+  {
+    "locationCode": "GSM",
+    "label": "Kvutzat Shiller",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 34.783333
+  },
+  {
+    "locationCode": "LHV",
+    "label": "Lahav",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.383333,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "LHM",
+    "label": "Lehawim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.366667,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "LIO",
+    "label": "Li On",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.683333,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "LOD",
+    "label": "Lod",
+    "function": "3",
+    "lat": 31.95,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "OVL",
+    "label": "Lod Overseas",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 31.95,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Ma'agan Michael",
+    "function": "3",
+    "lat": 32.55,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Ma'alot-Tarshiha",
+    "function": "3",
+    "lat": 33.016667,
+    "lng": 35.283333
+  },
+  {
+    "locationCode": "NIT",
+    "label": "Ma'anit",
+    "function": "6",
+    "lat": 32.45,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "MAZ",
+    "label": "Ma'ayan Tzvi",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.55,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "MGA",
+    "label": "Ma'galim",
+    "function": "3",
+    "lat": 31.4,
+    "lng": 34.6
+  },
+  {
+    "locationCode": "MGN",
+    "label": "Magén",
+    "subdivisionCode": "D",
+    "labelWithDiacritics": "Magen",
+    "function": "3",
+    "lat": 31.283333,
+    "lng": 34.416667
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Maggal",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.383333,
+    "lng": 35.033333
+  },
+  {
+    "locationCode": "M8A",
+    "label": "Magshimim",
+    "subdivisionCode": "M",
+    "function": "13",
+    "lat": 32.033333,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "MMN",
+    "label": "Maman/Lod",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.05,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "MTZ",
+    "label": "Masada",
+    "function": "4"
+  },
+  {
+    "locationCode": "MSD",
+    "label": "Mashabbe Sade",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31,
+    "lng": 34.783333
+  },
+  {
+    "locationCode": "MUO",
+    "label": "Masu'ot Yitzhak",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.7,
+    "lng": 34.683333
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Matan",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 32.15,
+    "lng": 34.966667
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Matula",
+    "function": "3"
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Mazkeret Batya",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.85,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "MZH",
+    "label": "Mazliah",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "MGD",
+    "label": "Megadim",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.716667,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "MEG",
+    "label": "Megiddo",
+    "function": "3",
+    "lat": 32.566667,
+    "lng": 35.183333
+  },
+  {
+    "locationCode": "MTR",
+    "label": "Meitar",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.316667,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "MXF",
+    "label": "Merhavya",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.6,
+    "lng": 35.316667
+  },
+  {
+    "locationCode": "MES",
+    "label": "Mesilot",
+    "function": "3",
+    "lat": 32.5,
+    "lng": 35.466667
+  },
+  {
+    "locationCode": "MZI",
+    "label": "Mevasseret Ziyyon",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.15
+  },
+  {
+    "locationCode": "MIG",
+    "label": "Migdal HaEmek",
+    "function": "3",
+    "lat": 32.666667,
+    "lng": 35.233333
+  },
+  {
+    "locationCode": "TFN",
+    "label": "Migdal Tefen",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.966667,
+    "lng": 35.266667
+  },
+  {
+    "locationCode": "MHT",
+    "label": "Mikhmoret",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.4,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "MSG",
+    "label": "Misgav",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.85,
+    "lng": 35.25
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Misgav 'Am",
+    "function": "3",
+    "lat": 33.25,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "MIS",
+    "label": "Mishmar David",
+    "function": "3",
+    "lat": 31.816667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "MHK",
+    "label": "Mishmar Ha'emek",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.6,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "MHN",
+    "label": "Mishmar Hanegev",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.35,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Mishmar Hashiv'a",
+    "function": "3",
+    "lat": 32.016667,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "MHY",
+    "label": "Mishmar Hayarden",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33,
+    "lng": 35.583333
+  },
+  {
+    "locationCode": "MIE",
+    "label": "Mishmeret",
+    "function": "3",
+    "lat": 32.216667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "AS2",
+    "label": "Mishor Adumim",
+    "subdivisionCode": "M",
+    "function": "16",
+    "lat": 31.783333,
+    "lng": 35.316667
+  },
+  {
+    "locationCode": "MSO",
+    "label": "Mishor Rotem",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 31.083333,
+    "lng": 35.266667
+  },
+  {
+    "locationCode": "MIP",
+    "label": "Mitspeh Ramon",
+    "function": "34",
+    "lat": 30.6,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "M9P",
+    "label": "Mitzpe Netofa",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.8,
+    "lng": 35.383333
+  },
+  {
+    "locationCode": "MZR",
+    "label": "Mizra",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.65,
+    "lng": 35.283333
+  },
+  {
+    "locationCode": "MOD",
+    "label": "Modi'in-Maccabim-Re'ut",
+    "function": "3",
+    "lat": 31.9,
+    "lng": 35
+  },
+  {
+    "locationCode": "MVA",
+    "label": "Moshav Ahisamach",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "MTT",
+    "label": "Moza Illit",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.15
+  },
+  {
+    "locationCode": "NAA",
+    "label": "Na An",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "NAB",
+    "label": "Nabulus",
+    "subdivisionCode": "JM",
+    "function": "13",
+    "lat": 32.216667,
+    "lng": 35.25
+  },
+  {
+    "locationCode": "NHZ",
+    "label": "Nahal Oz",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.466667,
+    "lng": 34.483333
+  },
+  {
+    "locationCode": "NHY",
+    "label": "Nahariya",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "NAS",
+    "label": "Nahshonim",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "NAZ",
+    "label": "Nazareth",
+    "function": "36",
+    "lat": 32.7,
+    "lng": 35.3
+  },
+  {
+    "locationCode": "NEG",
+    "label": "Negba",
+    "function": "3",
+    "lat": 31.666667,
+    "lng": 34.683333
+  },
+  {
+    "locationCode": "GEV",
+    "label": "Negev",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 30.5,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "NEH",
+    "label": "Nehalim",
+    "function": "3",
+    "lat": 32.066667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "NZY",
+    "label": "Nes Ziyyona",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.916667,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "NHR",
+    "label": "Nesher",
+    "function": "3",
+    "lat": 32.766667,
+    "lng": 35.05
+  },
+  {
+    "locationCode": "NAT",
+    "label": "Netanya",
+    "function": "123",
+    "lat": 32.333333,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "NET",
+    "label": "Netivot",
+    "function": "3",
+    "lat": 31.416667,
+    "lng": 34.583333
+  },
+  {
+    "locationCode": "ZER",
+    "label": "Netzer Sereni",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Nevatim",
+    "function": "3",
+    "lat": 31.216667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "NLL",
+    "label": "Newe Ilan",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "NUR",
+    "label": "Newe Ur",
+    "function": "36",
+    "lat": 32.583333,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "NWY",
+    "label": "Newe Yamin",
+    "function": "3",
+    "lat": 32.166667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "NAM",
+    "label": "Nir Am",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.516667,
+    "lng": 34.583333
+  },
+  {
+    "locationCode": "NID",
+    "label": "Nir Dawid",
+    "function": "3",
+    "lat": 32.5,
+    "lng": 35.45
+  },
+  {
+    "locationCode": "NOZ",
+    "label": "Nir Oz",
+    "function": "3",
+    "lat": 31.3,
+    "lng": 34.4
+  },
+  {
+    "locationCode": "YIT",
+    "label": "Nir Yitzhak",
+    "function": "3",
+    "lat": 31.233333,
+    "lng": 34.35
+  },
+  {
+    "locationCode": "NZV",
+    "label": "Nir Zevi",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.95,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "NZN",
+    "label": "Nizana",
+    "function": "3"
+  },
+  {
+    "locationCode": "NNM",
+    "label": "Nizzanim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.716667,
+    "lng": 34.633333
+  },
+  {
+    "locationCode": "OFA",
+    "label": "Ofakim",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.283333,
+    "lng": 34.616667
+  },
+  {
+    "locationCode": "OFR",
+    "label": "Ofra",
+    "function": "16",
+    "lat": 31.95,
+    "lng": 35.25
+  },
+  {
+    "locationCode": "OLE",
+    "label": "Olesh",
+    "function": "3",
+    "lat": 32.316667,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "OME",
+    "label": "'Omer",
+    "function": "3",
+    "lat": 31.283333,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Or 'Aqiva",
+    "function": "3",
+    "lat": 32.5,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "OYH",
+    "label": "Or Yehuda",
+    "function": "3",
+    "lat": 32.033333,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "OHM",
+    "label": "Oshrat",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.966667,
+    "lng": 35.15
+  },
+  {
+    "locationCode": "VDA",
+    "label": "Ovda",
+    "function": "4"
+  },
+  {
+    "locationCode": "PHM",
+    "label": "Palmachim",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.933333,
+    "lng": 34.7
+  },
+  {
+    "locationCode": "PHH",
+    "label": "Pardes Hanna",
+    "function": "3",
+    "lat": 32.466667,
+    "lng": 34.983333
+  },
+  {
+    "locationCode": "PDY",
+    "label": "Pardesiya",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.3,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "PET",
+    "label": "Petah Tikva",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "PTQ",
+    "label": "Petah Tiqwa",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "PEH",
+    "label": "Petahya",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.866667,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "PST",
+    "label": "Post Office Lod",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 31.95,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "PSM",
+    "label": "Post Offoce Modi'In",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 31.9,
+    "lng": 35
+  },
+  {
+    "locationCode": "QAD",
+    "label": "Qadima",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 32.283333,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "OVM",
+    "label": "Qiryat Ata Milenium Terminal",
+    "subdivisionCode": "Z",
+    "function": "6",
+    "lat": 32.8,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "QYB",
+    "label": "Qiryat Bialik",
+    "function": "3",
+    "lat": 32.833333,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "QYT",
+    "label": "Qiryat Gat",
+    "function": "3",
+    "lat": 31.6,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "QYM",
+    "label": "Qiryat Mal'akhi",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.733333,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "QIS",
+    "label": "Qiryat Shemona",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Ra'ananna",
+    "function": "3",
+    "lat": 32.183333,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "RFH",
+    "label": "Rafiach",
+    "function": "3"
+  },
+  {
+    "locationCode": "RHT",
+    "label": "Rahat",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.383333,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "DAV",
+    "label": "Ramat David",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "RFL",
+    "label": "Ramat Ef Al",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.033333,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "RMG",
+    "label": "Ramat Gan",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "RHV",
+    "label": "Ramat HaKovesh",
+    "function": "3",
+    "lat": 32.216667,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Ramat HaSharon",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 32.15,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "RHS",
+    "label": "Ramat Hashofet",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.6,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "RHO",
+    "label": "Ramat Hovav",
+    "function": "3",
+    "lat": 31.133333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "RRA",
+    "label": "Ramat Razi'el",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.766667,
+    "lng": 35.066667
+  },
+  {
+    "locationCode": "RYY",
+    "label": "Ramat Yishay",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.7,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "RYO",
+    "label": "Ramat Yohanan",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.783333,
+    "lng": 35.116667
+  },
+  {
+    "locationCode": "RML",
+    "label": "Ramla",
+    "function": "3",
+    "lat": 31.916667,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "RAO",
+    "label": "Ram-On",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.516667,
+    "lng": 35.25
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Red Sea Security",
+    "subdivisionCode": "D",
+    "function": "6",
+    "lat": 29.55,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "RGM",
+    "label": "Regavim",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.516667,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "RBA",
+    "label": "Regba",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.966667,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "REH",
+    "label": "Rehovot",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.883333,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "RDM",
+    "label": "Revadim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.766667,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "RVM",
+    "label": "Revivim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.033333,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "RLZ",
+    "label": "Rishon Leziyyon",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.95,
+    "lng": 34.8
+  },
+  {
+    "locationCode": "RNP",
+    "label": "Rishpon",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.2,
+    "lng": 34.816667
+  },
+  {
+    "locationCode": "RHA",
+    "label": "Rosh Ha'ayin",
+    "function": "3",
+    "lat": 32.083333,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "RHN",
+    "label": "Rosh Hanikra",
+    "function": "3"
+  },
+  {
+    "locationCode": "RPN",
+    "label": "Rosh Pina",
+    "function": "4"
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Sakhnin",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.85,
+    "lng": 35.283333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sasa",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.016667,
+    "lng": 35.383333
+  },
+  {
+    "locationCode": "SVY",
+    "label": "Savyon",
+    "function": "6",
+    "lat": 32.033333,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "SDE",
+    "label": "Sde Uziyahu",
+    "function": "3",
+    "lat": 31.75,
+    "lng": -34.683333
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Sde Warbug",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.2,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "SDO",
+    "label": "Sdot Yam",
+    "function": "3",
+    "lat": 32.483333,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "SDB",
+    "label": "Sedeh Boker",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 30.866667,
+    "lng": 34.783333
+  },
+  {
+    "locationCode": "SDT",
+    "label": "Sederot",
+    "function": "3",
+    "lat": 31.516667,
+    "lng": 34.583333
+  },
+  {
+    "locationCode": "SED",
+    "label": "Sedom",
+    "function": "4"
+  },
+  {
+    "locationCode": "YTD",
+    "label": "Sedot Yam",
+    "function": "3",
+    "lat": 32.483333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "SGS",
+    "label": "Segev Shalom",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.2,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "MEN",
+    "label": "Sha'ar Menashe",
+    "function": "34",
+    "lat": 37.45,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "STT",
+    "label": "Sha'arei Tikva",
+    "function": "3",
+    "lat": 32.116667,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shahar",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.616667,
+    "lng": 34.716667
+  },
+  {
+    "locationCode": "SHR",
+    "label": "Shamir",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.15,
+    "lng": 35.65
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Shedema",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.833333,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "SHF",
+    "label": "Shefar'am",
+    "function": "23",
+    "lat": 32.8,
+    "lng": 35.166667
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Shelomi",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 33.066667,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "SZF",
+    "label": "Shizafon",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 30.033333,
+    "lng": 35.016667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Shoham",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 31.983333,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "SUK",
+    "label": "Sukrier",
+    "function": "0"
+  },
+  {
+    "locationCode": "SWS",
+    "label": "Swissport Cargo ICD/Lod",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 31.95,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Taba Border Crossing",
+    "function": "3"
+  },
+  {
+    "locationCode": "SDV",
+    "label": "Tel Aviv Sde Dov Airport",
+    "subdivisionCode": "TA",
+    "function": "4",
+    "lat": 32.1,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "TLV",
+    "label": "Tel Aviv-Yafo",
+    "subdivisionCode": "TA",
+    "function": "12345",
+    "lat": 32.05,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "LCH",
+    "label": "Tel Lachish",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.566667,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "MON",
+    "label": "Tel Mond",
+    "function": "3",
+    "lat": 32.25,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "TIB",
+    "label": "Tiberias",
+    "function": "13",
+    "lat": 32.8,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "TCL",
+    "label": "Tirat Carmel",
+    "function": "3"
+  },
+  {
+    "locationCode": "TLM",
+    "label": "Tlalim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 30.983333,
+    "lng": 34.766667
+  },
+  {
+    "locationCode": "TNV",
+    "label": "Tnuvot",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.3,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "TRN",
+    "label": "Tur'an",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.766667,
+    "lng": 35.366667
+  },
+  {
+    "locationCode": "TZM",
+    "label": "Tze'Elim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.2,
+    "lng": 34.533333
+  },
+  {
+    "locationCode": "TZO",
+    "label": "Tzofit",
+    "function": "3",
+    "lat": 32.2,
+    "lng": 34.916667
+  },
+  {
+    "locationCode": "KTJ",
+    "label": "Tzora",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.75,
+    "lng": 34.966667
+  },
+  {
+    "locationCode": "TKA",
+    "label": "Tzoran-Kadima",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 34.9
+  },
+  {
+    "locationCode": "ZRF",
+    "label": "Tzrifin",
+    "function": "36",
+    "lat": 31.95,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "THD",
+    "label": "Tzur Hadassah",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.716667,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "UDM",
+    "label": "Udim",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.266667,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "UMM",
+    "label": "Umm al-Fahm",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.516667,
+    "lng": 35.15
+  },
+  {
+    "locationCode": "YHM",
+    "label": "Yad HaShmona",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.8,
+    "lng": 35.083333
+  },
+  {
+    "locationCode": "YMD",
+    "label": "Yad Mordechai",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.583333,
+    "lng": 34.55
+  },
+  {
+    "locationCode": "YGL",
+    "label": "Yagel",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 31.316667,
+    "lng": 34.85
+  },
+  {
+    "locationCode": "YAK",
+    "label": "Yakum",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.233333,
+    "lng": 34.833333
+  },
+  {
+    "locationCode": "YRK",
+    "label": "Yarka",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.233333,
+    "lng": 35.2
+  },
+  {
+    "locationCode": "YVE",
+    "label": "Yavne",
+    "subdivisionCode": "M",
+    "function": "26",
+    "lat": 31.883333,
+    "lng": 34.733333
+  },
+  {
+    "locationCode": "YVL",
+    "label": "Yavne'el",
+    "function": "3",
+    "lat": 32.683333,
+    "lng": 35.483333
+  },
+  {
+    "locationCode": "KYZ",
+    "label": "Yehiam",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.983333,
+    "lng": 35.216667
+  },
+  {
+    "locationCode": "YEH",
+    "label": "Yehud",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": 32.033333,
+    "lng": 34.883333
+  },
+  {
+    "locationCode": "YAM",
+    "label": "Yeruham",
+    "function": "6",
+    "lat": 31.633333,
+    "lng": 35.533333
+  },
+  {
+    "locationCode": "YIF",
+    "label": "Yiftah",
+    "function": "3",
+    "lat": 33.116667,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "YSH",
+    "label": "Yish'I",
+    "subdivisionCode": "JM",
+    "function": "3",
+    "lat": 31.733333,
+    "lng": 34.966667
+  },
+  {
+    "locationCode": "YKN",
+    "label": "Yokneam",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.65,
+    "lng": 35.1
+  },
+  {
+    "locationCode": "YOT",
+    "label": "Yotvata",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZFT",
+    "label": "Zfat",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": 32.95,
+    "lng": 35.483333
+  },
+  {
+    "locationCode": "ZYW",
+    "label": "Zichron Ya'Akow",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.25,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "ZKM",
+    "label": "Zikim",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": 31.733333,
+    "lng": 34.616667
+  },
+  {
+    "locationCode": "ZGP",
+    "label": "Zippori",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": 32.733333,
+    "lng": 35.266667
+  }
+]

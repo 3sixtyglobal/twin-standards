@@ -1,0 +1,132 @@
+[
+  {
+    "code": "ALK",
+    "label": "Ailuk",
+    "type": "Municipality"
+  },
+  {
+    "code": "ALL",
+    "label": "Ailinglaplap",
+    "type": "Municipality"
+  },
+  {
+    "code": "ARN",
+    "label": "Arno",
+    "type": "Municipality"
+  },
+  {
+    "code": "AUR",
+    "label": "Aur",
+    "type": "Municipality"
+  },
+  {
+    "code": "EBO",
+    "label": "Ebon",
+    "type": "Municipality"
+  },
+  {
+    "code": "ENI",
+    "label": "Enewetak & Ujelang",
+    "type": "Municipality"
+  },
+  {
+    "code": "JAB",
+    "label": "Jabat",
+    "type": "Municipality"
+  },
+  {
+    "code": "JAL",
+    "label": "Jaluit",
+    "type": "Municipality"
+  },
+  {
+    "code": "KIL",
+    "label": "Bikini & Kili",
+    "type": "Municipality"
+  },
+  {
+    "code": "KWA",
+    "label": "Kwajalein",
+    "type": "Municipality"
+  },
+  {
+    "code": "L",
+    "label": "Ralik chain",
+    "type": "Chains (of islands)"
+  },
+  {
+    "code": "LAE",
+    "label": "Lae",
+    "type": "Municipality"
+  },
+  {
+    "code": "LIB",
+    "label": "Lib",
+    "type": "Municipality"
+  },
+  {
+    "code": "LIK",
+    "label": "Likiep",
+    "type": "Municipality"
+  },
+  {
+    "code": "MAJ",
+    "label": "Majuro",
+    "type": "Municipality"
+  },
+  {
+    "code": "MAL",
+    "label": "Maloelap",
+    "type": "Municipality"
+  },
+  {
+    "code": "MEJ",
+    "label": "Mejit",
+    "type": "Municipality"
+  },
+  {
+    "code": "MIL",
+    "label": "Mili",
+    "type": "Municipality"
+  },
+  {
+    "code": "NMK",
+    "label": "Namdrik",
+    "type": "Municipality"
+  },
+  {
+    "code": "NMU",
+    "label": "Namu",
+    "type": "Municipality"
+  },
+  {
+    "code": "RON",
+    "label": "Rongelap",
+    "type": "Municipality"
+  },
+  {
+    "code": "T",
+    "label": "Ratak chain",
+    "type": "Chains (of islands)"
+  },
+  {
+    "code": "UJA",
+    "label": "Ujae",
+    "type": "Municipality"
+  },
+  {
+    "code": "UTI",
+    "label": "Utrik",
+    "type": "Municipality"
+  },
+  {
+    "code": "WTH",
+    "label": "Wotho",
+    "type": "Municipality"
+  },
+  {
+    "code": "WTJ",
+    "label": "Wotje",
+    "type": "Municipality"
+  }
+]

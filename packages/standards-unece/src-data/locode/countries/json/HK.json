@@ -1,0 +1,480 @@
+[
+  {
+    "locationCode": "ABD",
+    "label": "Aberdeen",
+    "function": "13",
+    "lat": 22.25,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "ALC",
+    "label": "Ap Lei Chau",
+    "function": "1"
+  },
+  {
+    "locationCode": "CWB",
+    "label": "Causeway Bay",
+    "function": "13",
+    "lat": 22.283333,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "9CK",
+    "label": "Cha Kwo Ling",
+    "function": "3",
+    "lat": 22.3,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "CHW",
+    "label": "Chai Wan",
+    "function": "3",
+    "lat": 22.25,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "CSW",
+    "label": "Cheung Sha Wan",
+    "function": "3",
+    "lat": 22.233333,
+    "lng": 114
+  },
+  {
+    "locationCode": "9FL",
+    "label": "Fanling",
+    "function": "3",
+    "lat": 22.5,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "FOT",
+    "label": "Fo Tan",
+    "function": "6",
+    "lat": 22.4,
+    "lng": 114.2
+  },
+  {
+    "locationCode": "HKC",
+    "label": "Ha Kwai Chung",
+    "function": "13",
+    "lat": 22.366667,
+    "lng": 114.116667
+  },
+  {
+    "locationCode": "9HH",
+    "label": "Hang Hau Town",
+    "function": "3",
+    "lat": 22.316667,
+    "lng": 114.266667
+  },
+  {
+    "locationCode": "9HV",
+    "label": "Happy Valley",
+    "function": "3",
+    "lat": 22.266667,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "9HT",
+    "label": "Hok Tsui Wan",
+    "function": "3",
+    "lat": 22.216667,
+    "lng": 114.25
+  },
+  {
+    "locationCode": "HKG",
+    "label": "Hong Kong",
+    "function": "145",
+    "lat": 22.316667,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "CL4",
+    "label": "Hong Kong Central",
+    "function": "3",
+    "lat": 22.266667,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "GOM",
+    "label": "Hung Hom",
+    "function": "6",
+    "lat": 22.3,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "9KT",
+    "label": "Kennedy Town",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.116667
+  },
+  {
+    "locationCode": "KWN",
+    "label": "Kowloon",
+    "function": "123",
+    "lat": 22.3,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "KCO",
+    "label": "Kwai Chung",
+    "function": "6",
+    "lat": 22.366667,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "KTZ",
+    "label": "Kwun Tong",
+    "function": "234",
+    "lat": 22.316667,
+    "lng": 114.216667
+  },
+  {
+    "locationCode": "LCK",
+    "label": "Lai Chi Kok",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "9LT",
+    "label": "Lam Tei",
+    "function": "3",
+    "lat": 22.416667,
+    "lng": 113.983333
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lamma Island",
+    "function": "1"
+  },
+  {
+    "locationCode": "9LY",
+    "label": "Lei Yue Mun",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "9LM",
+    "label": "Lok Ma Chau",
+    "function": "3",
+    "lat": 22.516667,
+    "lng": 114.083333
+  },
+  {
+    "locationCode": "9ML",
+    "label": "Ma Liu Shui",
+    "function": "3",
+    "lat": 22.416667,
+    "lng": 114.216667
+  },
+  {
+    "locationCode": "9MO",
+    "label": "Ma On Shan Tsuen",
+    "function": "3",
+    "lat": 22.4,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "MWN",
+    "label": "Ma Wan",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.05
+  },
+  {
+    "locationCode": "MLV",
+    "label": "Mid Levels",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "MKK",
+    "label": "Mong Kok",
+    "function": "3",
+    "lat": 22.316667,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "9NC",
+    "label": "Ngau Chi Wan",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.2
+  },
+  {
+    "locationCode": "NPT",
+    "label": "North Point",
+    "function": "3",
+    "lat": 22.3,
+    "lng": 114.2
+  },
+  {
+    "locationCode": "PFL",
+    "label": "Pok Fu Lam",
+    "function": "3",
+    "lat": 22.25,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "QBY",
+    "label": "Quarry Bay",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.216667
+  },
+  {
+    "locationCode": "9RP",
+    "label": "Repulse Bay",
+    "function": "3",
+    "lat": 22.233333,
+    "lng": 114.2
+  },
+  {
+    "locationCode": "9SK",
+    "label": "Sai Kung",
+    "function": "3",
+    "lat": 22.383333,
+    "lng": 114.266667
+  },
+  {
+    "locationCode": "9SP",
+    "label": "San Po Kong",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.2
+  },
+  {
+    "locationCode": "8ST",
+    "label": "Sha Tau Kok",
+    "function": "3",
+    "lat": 22.55,
+    "lng": 114.216667
+  },
+  {
+    "locationCode": "STN",
+    "label": "Sha Tin",
+    "function": "3",
+    "lat": 22.383333,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "SSP",
+    "label": "Sham Shui Po",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "9ST",
+    "label": "Sham Tseng",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.05
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Shek Kong",
+    "function": "3",
+    "lat": 22.433333,
+    "lng": 114.1
+  },
+  {
+    "locationCode": "STT",
+    "label": "Shek Tong Tsui",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "SGS",
+    "label": "Sheung Shui",
+    "function": "3",
+    "lat": 22.516667,
+    "lng": 114.116667
+  },
+  {
+    "locationCode": "SHW",
+    "label": "Sheung Wan",
+    "function": "3",
+    "lat": 22.283333,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "9TH",
+    "label": "Tai Hang",
+    "function": "3",
+    "lat": 22.466667,
+    "lng": 114.15
+  },
+  {
+    "locationCode": "TKT",
+    "label": "Tai Kok Tsui",
+    "function": "236",
+    "lat": 22.316667,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "TLS",
+    "label": "Tai Lang Shui",
+    "function": "3",
+    "lat": 22.4,
+    "lng": 113.933333
+  },
+  {
+    "locationCode": "9TT",
+    "label": "Tai Mong Tsai",
+    "function": "3",
+    "lat": 22.4,
+    "lng": 114.3
+  },
+  {
+    "locationCode": "TNO",
+    "label": "Tai No",
+    "function": "3",
+    "lat": 22.366667,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "TPO",
+    "label": "Tai Po",
+    "function": "3",
+    "lat": 22.3,
+    "lng": 113.95
+  },
+  {
+    "locationCode": "8TT",
+    "label": "Tai Tam",
+    "function": "3",
+    "lat": 22.216667,
+    "lng": 114.216667
+  },
+  {
+    "locationCode": "9TW",
+    "label": "Tai Wai",
+    "function": "3",
+    "lat": 22.45,
+    "lng": 114.033333
+  },
+  {
+    "locationCode": "TSW",
+    "label": "Tin Shui Wai",
+    "function": "3",
+    "lat": 22.466667,
+    "lng": 114
+  },
+  {
+    "locationCode": "9TK",
+    "label": "Ting Kau",
+    "function": "3",
+    "lat": 22.366667,
+    "lng": 114.083333
+  },
+  {
+    "locationCode": "TKW",
+    "label": "To Kwa Wan",
+    "function": "3",
+    "lat": 22.316667,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tolo Harbour",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKO",
+    "label": "Tseung Kwan O",
+    "function": "3",
+    "lat": 22.333333,
+    "lng": 114.25
+  },
+  {
+    "locationCode": "TST",
+    "label": "Tsim Sha Tsui",
+    "function": "13",
+    "lat": 22.3,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "TSI",
+    "label": "Tsing Yi",
+    "function": "3",
+    "lat": 22.35,
+    "lng": 114.1
+  },
+  {
+    "locationCode": "ZTW",
+    "label": "Tsuen Wan",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Tuen Mun",
+    "function": "3",
+    "lat": 22.4,
+    "lng": 113.983333
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Victoria",
+    "function": "1"
+  },
+  {
+    "locationCode": "9WF",
+    "label": "Wah Fu",
+    "function": "3",
+    "lat": 22.25,
+    "lng": 114.133333
+  },
+  {
+    "locationCode": "WNI",
+    "label": "Wan Chai",
+    "function": "13",
+    "lat": 22.283333,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "WTS",
+    "label": "Wan Tsai",
+    "function": "3",
+    "lat": 22.166667,
+    "lng": 114.25
+  },
+  {
+    "locationCode": "WON",
+    "label": "Wong Chuk Hang",
+    "function": "3",
+    "lat": 22.383333,
+    "lng": 114.35
+  },
+  {
+    "locationCode": "9WT",
+    "label": "Wong Tai Sin",
+    "function": "3",
+    "lat": 22.35,
+    "lng": 114.183333
+  },
+  {
+    "locationCode": "9YM",
+    "label": "Yau Ma Tei",
+    "function": "13",
+    "lat": 22.316667,
+    "lng": 114.166667
+  },
+  {
+    "locationCode": "9YT",
+    "label": "Yau Tong",
+    "function": "3",
+    "lat": 22.3,
+    "lng": 114.233333
+  },
+  {
+    "locationCode": "YUE",
+    "label": "Yuen Long",
+    "function": "1"
+  }
+]

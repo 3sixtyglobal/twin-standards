@@ -1,0 +1,6324 @@
+[
+  {
+    "locationCode": "AAN",
+    "label": "Äänekoski",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Aanekoski",
+    "function": "3"
+  },
+  {
+    "locationCode": "AVS",
+    "label": "Aavasaksa",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "TKU",
+    "label": "Åbo (Turku)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Abo (Turku)",
+    "function": "134",
+    "lat": 60.45,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "ATS",
+    "label": "Äetsä",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Aetsa",
+    "function": "23",
+    "lat": 61.283333,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "ATI",
+    "label": "Ähtäri",
+    "labelWithDiacritics": "Ahtari",
+    "function": "3"
+  },
+  {
+    "locationCode": "AJO",
+    "label": "Ajos",
+    "function": "1",
+    "lat": 65.666667,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Akaa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.166667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "APK",
+    "label": "Äkäslompolo",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Akaslompolo",
+    "function": "3",
+    "lat": 67.6,
+    "lng": 24.15
+  },
+  {
+    "locationCode": "AJI",
+    "label": "Alajärvi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Alajarvi",
+    "function": "3",
+    "lat": 63,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "FAB",
+    "label": "Alastaro",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.95,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "ALE",
+    "label": "Alaveteli",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.7,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alavieska",
+    "function": "3",
+    "lat": 64.166667,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Alavus",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "AHL",
+    "label": "Alholmen",
+    "function": "1",
+    "lat": 63.7,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "ANK",
+    "label": "Anjala",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.683333,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "ANJ",
+    "label": "Anjalankoski",
+    "function": "3",
+    "lat": 60.75,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Antskog",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.15,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "ATL",
+    "label": "Anttila Oy",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.483333,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "ATT",
+    "label": "Anttola",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 61.583333,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Arkkukari",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.6,
+    "lng": 24.4
+  },
+  {
+    "locationCode": "AOK",
+    "label": "Arrakoski",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 61.4,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "AKK",
+    "label": "Asikkala",
+    "subdivisionCode": "04",
+    "function": "16",
+    "lat": 62.05,
+    "lng": 28.433333
+  },
+  {
+    "locationCode": "ASK",
+    "label": "Askola",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.516667,
+    "lng": 25.6
+  },
+  {
+    "locationCode": "AUR",
+    "label": "Aura",
+    "subdivisionCode": "19",
+    "function": "23",
+    "lat": 60.6,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Bäcksbacka",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Backsbacka",
+    "function": "3",
+    "lat": 63.45,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Baronsalmi",
+    "function": "1",
+    "lat": 59.966667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Bennäs",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Bennas",
+    "function": "3",
+    "lat": 63.6,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Birkala (Pirkkala)",
+    "subdivisionCode": "11",
+    "function": "34",
+    "lat": 61.466667,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "BJO",
+    "label": "Björkholma",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Bjorkholma",
+    "function": "3",
+    "lat": 63.333333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "POR",
+    "label": "Björneborg (Pori)",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Bjorneborg (Pori)",
+    "function": "134",
+    "lat": 61.483333,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Borgå (Porvoo)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Borga (Porvoo)",
+    "function": "1",
+    "lat": 60.4,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Bosund",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.816667,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Brahestad (Raahe)",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 64.683333,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Brändö",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Brando",
+    "function": "1",
+    "lat": 60.416667,
+    "lng": 21.05
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Bromarv",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 59.983333,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "DAK",
+    "label": "Dagsmark",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 62.233333,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "DLS",
+    "label": "Dalsbruk (Taalintehdas)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.016667,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "DEG",
+    "label": "Degerby",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 60.1,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Dragsfjärd",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Dragsfjard",
+    "function": "1",
+    "lat": 60.066667,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "ECK",
+    "label": "Eckerö",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Eckero",
+    "function": "1",
+    "lat": 60.216667,
+    "lng": 19.616667
+  },
+  {
+    "locationCode": "EER",
+    "label": "Eerikkilä",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Eerikkila",
+    "function": "3",
+    "lat": 62.65,
+    "lng": 30.116667
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Ekenäs (Tammisaari)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Ekenas (Tammisaari)",
+    "function": "1",
+    "lat": 59.966667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "EM2",
+    "label": "Elämäjärvi",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Elamajarvi",
+    "function": "13",
+    "lat": 63.483333,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "ELK",
+    "label": "Elimaki",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.716667,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "ENO",
+    "label": "Eno",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.8,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "ENK",
+    "label": "Enonkoski",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 62.083333,
+    "lng": 28.916667
+  },
+  {
+    "locationCode": "ENF",
+    "label": "Enontekiö (Enontekis)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Enontekio (Enontekis)",
+    "function": "4",
+    "lat": 68.383333,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "ENF",
+    "label": "Enontekis (Enontekiö)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Enontekis (Enontekio)",
+    "function": "4",
+    "lat": 68.383333,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "ERV",
+    "label": "Ervasto",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.133333,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Esbo (Espoo)",
+    "subdivisionCode": "18",
+    "function": "136",
+    "lat": 60.2,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "ES2",
+    "label": "Espoo",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.216667,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Espoo (Esbo)",
+    "subdivisionCode": "18",
+    "function": "136",
+    "lat": 60.2,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "EUA",
+    "label": "Eura",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.133333,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "EJO",
+    "label": "Euraåminne (Eurajoki)",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Euraaminne (Eurajoki)",
+    "function": "1",
+    "lat": 61.2,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "EJO",
+    "label": "Eurajoki (Euraåminne)",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Eurajoki (Euraaminne)",
+    "function": "1",
+    "lat": 61.2,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "EVJ",
+    "label": "Evijärvi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Evijarvi",
+    "function": "3",
+    "lat": 63.366667,
+    "lng": 23.483333
+  },
+  {
+    "locationCode": "FAR",
+    "label": "Färjsundet",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Farjsundet",
+    "function": "1",
+    "lat": 60.233333,
+    "lng": 20.016667
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Finby (Särkisalo)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Finby (Sarkisalo)",
+    "function": "13",
+    "lat": 60.1,
+    "lng": 22.933333
+  },
+  {
+    "locationCode": "FSO",
+    "label": "Finström",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Finstrom",
+    "function": "3",
+    "lat": 60.266667,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "FAD",
+    "label": "Fiskars",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 60.133333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "FOG",
+    "label": "Föglö",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Foglo",
+    "function": "1",
+    "lat": 60.016667,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "FOR",
+    "label": "Förby",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Forby",
+    "function": "1"
+  },
+  {
+    "locationCode": "FSF",
+    "label": "Forssa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.816667,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "HMN",
+    "label": "Fredrikshamn (Hamina)",
+    "subdivisionCode": "09",
+    "function": "1",
+    "lat": 60.566667,
+    "lng": 27.2
+  },
+  {
+    "locationCode": "GAM",
+    "label": "Gammelby",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 25.883333
+  },
+  {
+    "locationCode": "GDB",
+    "label": "Gottby (Godby)",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 60.133333,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Grankulla (Kauniainen)",
+    "subdivisionCode": "18",
+    "function": "3"
+  },
+  {
+    "locationCode": "GUL",
+    "label": "Gullö",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Gullo",
+    "function": "13",
+    "lat": 59.95,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Gustavs (Kustavi)",
+    "subdivisionCode": "19",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Haapajärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Haapajarvi",
+    "function": "3",
+    "lat": 63.75,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "HAP",
+    "label": "Haapamäki",
+    "labelWithDiacritics": "Haapamaki",
+    "function": "3",
+    "lat": 62.25,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "HPS",
+    "label": "Haapavesi",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.133333,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "HAJ",
+    "label": "Haarajärvi",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Haarajarvi",
+    "function": "3",
+    "lat": 62.183333,
+    "lng": 30.183333
+  },
+  {
+    "locationCode": "KOL",
+    "label": "Haikola",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.9,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "HAO",
+    "label": "Hailuoto",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 65,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "HAK",
+    "label": "Hakkola",
+    "subdivisionCode": "03",
+    "function": "13",
+    "lat": 62.383333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "HLK",
+    "label": "Halikko",
+    "subdivisionCode": "19",
+    "function": "3"
+  },
+  {
+    "locationCode": "HLI",
+    "label": "Halli",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 61.866667,
+    "lng": 24.833333
+  },
+  {
+    "locationCode": "HLL",
+    "label": "Hällnäs",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Hallnas",
+    "function": "3",
+    "lat": 63.25,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halonen",
+    "subdivisionCode": "10",
+    "function": "13",
+    "lat": 66.683333,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "LHO",
+    "label": "Halosenlahti",
+    "function": "1",
+    "lat": 65.233333,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "HLS",
+    "label": "Halsua",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.45,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "HLA",
+    "label": "Haluna",
+    "subdivisionCode": "15",
+    "function": "236",
+    "lat": 63.133333,
+    "lng": 28
+  },
+  {
+    "locationCode": "HKY",
+    "label": "Hämeenkyrö (Tavastkyro)",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Hameenkyro (Tavastkyro)",
+    "function": "3",
+    "lat": 61.633333,
+    "lng": 23.2
+  },
+  {
+    "locationCode": "HMY",
+    "label": "Hämeenlinna (Tavastehus)",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Hameenlinna (Tavastehus)",
+    "function": "3"
+  },
+  {
+    "locationCode": "HMN",
+    "label": "Hamina (Fredrikshamn)",
+    "subdivisionCode": "09",
+    "function": "1",
+    "lat": 60.566667,
+    "lng": 27.2
+  },
+  {
+    "locationCode": "HKO",
+    "label": "Hangö (Hanko)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hango (Hanko)",
+    "function": "1"
+  },
+  {
+    "locationCode": "HKM",
+    "label": "Hankasalmi",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 62.383333,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "HKO",
+    "label": "Hanko (Hangö)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hanko (Hango)",
+    "function": "1"
+  },
+  {
+    "locationCode": "HRJ",
+    "label": "Harjavalta",
+    "subdivisionCode": "17",
+    "function": "3"
+  },
+  {
+    "locationCode": "HJM",
+    "label": "Harjumaa",
+    "function": "3",
+    "lat": 61.816667,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "HJS",
+    "label": "Harjunsalmi",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 61.666667,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "HRM",
+    "label": "Härmä",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Harma",
+    "function": "3",
+    "lat": 63.233333,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "HTL",
+    "label": "Hartola",
+    "function": "3",
+    "lat": 61.15,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "HRT",
+    "label": "Hartola/Kymenlaakso",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 61.15,
+    "lng": 26.516667
+  },
+  {
+    "locationCode": "HTO",
+    "label": "Hartola/Paijat-Hame",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 61.583333,
+    "lng": 26.016667
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harvaluoto",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 20.466667
+  },
+  {
+    "locationCode": "HLJ",
+    "label": "Harviala",
+    "function": "3",
+    "lat": 60.95,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hattula",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 61.066667,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "HHO",
+    "label": "Hauho",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 61.166667,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "HAU",
+    "label": "Haukipudas",
+    "subdivisionCode": "14",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAI",
+    "label": "Haukivuori",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 62.016667,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "HJI",
+    "label": "Hausjärvi",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Hausjarvi",
+    "function": "23",
+    "lat": 60.783333,
+    "lng": 24.933333
+  },
+  {
+    "locationCode": "HEI",
+    "label": "Heinavaara",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.55,
+    "lng": 30.166667
+  },
+  {
+    "locationCode": "HEA",
+    "label": "Heinola",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 61.2,
+    "lng": 26.033333
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helsingfors (Helsinki)",
+    "subdivisionCode": "18",
+    "function": "1"
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helsinki (Helsingfors)",
+    "subdivisionCode": "18",
+    "function": "1"
+  },
+  {
+    "locationCode": "HER",
+    "label": "Herrala",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "HVA",
+    "label": "Hervanta",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.416667,
+    "lng": 23.866667
+  },
+  {
+    "locationCode": "HIT",
+    "label": "Hiitinen",
+    "function": "1",
+    "lat": 59.883333,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "HIK",
+    "label": "Hikiä",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Hikia",
+    "function": "3",
+    "lat": 60.75,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "HIM",
+    "label": "Himanka",
+    "function": "13",
+    "lat": 64.066667,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "HMA",
+    "label": "Himankakylä",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Himankakyla",
+    "function": "13",
+    "lat": 64.166667,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "HIJ",
+    "label": "Hinnerjoki",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 60.983333,
+    "lng": 21.95
+  },
+  {
+    "locationCode": "HVM",
+    "label": "Hirvensalmi",
+    "function": "13",
+    "lat": 61.633333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "HVH",
+    "label": "Hirvihaara",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.616667,
+    "lng": 25.233333
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Högfors (Karkkila)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hogfors (Karkkila)",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "HOG",
+    "label": "Högsåra",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Hogsara",
+    "function": "13",
+    "lat": 59.95,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "HOJ",
+    "label": "Holjakka",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.483333,
+    "lng": 29.433333
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Hollola",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 61.05,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "LSH",
+    "label": "Honkajoki",
+    "subdivisionCode": "17",
+    "function": "6",
+    "lat": 61.983333,
+    "lng": 22.266667
+  },
+  {
+    "locationCode": "HON",
+    "label": "Honkakoski",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 61.75,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Horo",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 62.6,
+    "lng": 21.633333
+  },
+  {
+    "locationCode": "HOU",
+    "label": "Houtskär (Houtskari)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Houtskar (Houtskari)",
+    "function": "1",
+    "lat": 60.216667,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "HOU",
+    "label": "Houtskari (Houtskär)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Houtskari (Houtskar)",
+    "function": "1",
+    "lat": 60.216667,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "HUN",
+    "label": "Huittinen",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.183333,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "HUM",
+    "label": "Humppila",
+    "subdivisionCode": "06",
+    "function": "236",
+    "lat": 60.933333,
+    "lng": 23.366667
+  },
+  {
+    "locationCode": "HPF",
+    "label": "Huutjarvi",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.466667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "HYR",
+    "label": "Hyrylä",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hyryla",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Hyrynsalmi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 64.666667,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "HYV",
+    "label": "Hyvinge (Hyvinkää)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hyvinge (Hyvinkaa)",
+    "function": "3",
+    "lat": 60.633333,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "HYV",
+    "label": "Hyvinkää (Hyvinge)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Hyvinkaa (Hyvinge)",
+    "function": "3",
+    "lat": 60.633333,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "IIS",
+    "label": "Idensalmi (Iisalmi)",
+    "subdivisionCode": "15",
+    "function": "123",
+    "lat": 63.55,
+    "lng": 27.183333
+  },
+  {
+    "locationCode": "IHO",
+    "label": "Ihode",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.983333,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "IIO",
+    "label": "Ii",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 65.316667,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "IIS",
+    "label": "Iisalmi (Idensalmi)",
+    "subdivisionCode": "15",
+    "function": "123",
+    "lat": 63.55,
+    "lng": 27.183333
+  },
+  {
+    "locationCode": "IIV",
+    "label": "Iisvesi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 62.666667,
+    "lng": 27.033333
+  },
+  {
+    "locationCode": "IIT",
+    "label": "Iittala",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 61.116667,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "ITI",
+    "label": "Iitti",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.866667,
+    "lng": 26.383333
+  },
+  {
+    "locationCode": "IKA",
+    "label": "Ikaalinen (Ikalis)",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.766667,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "IKK",
+    "label": "Ikkala",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "IJK",
+    "label": "Ilmajoki",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.733333,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "ILO",
+    "label": "Ilomantsi (Ilomants)",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.666667,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "ILV",
+    "label": "Ilvesjoki",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.333333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "IMA",
+    "label": "Imatra",
+    "subdivisionCode": "02",
+    "function": "123",
+    "lat": 61.166667,
+    "lng": 28.75
+  },
+  {
+    "locationCode": "INA",
+    "label": "Inari",
+    "function": "3",
+    "lat": 68.9,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "INK",
+    "label": "Ingå (Inkoo)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Inga (Inkoo)",
+    "function": "1"
+  },
+  {
+    "locationCode": "IGY",
+    "label": "Ingermaninkylä (Ingermansby)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Ingermaninkyla (Ingermansby)",
+    "function": "3",
+    "lat": 60.616667,
+    "lng": 26.15
+  },
+  {
+    "locationCode": "INI",
+    "label": "Iniö",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Inio",
+    "function": "1",
+    "lat": 60.4,
+    "lng": 21.4
+  },
+  {
+    "locationCode": "IKR",
+    "label": "Inkeroinen",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.7,
+    "lng": 26.85
+  },
+  {
+    "locationCode": "INK",
+    "label": "Inkoo (Ingå)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Inkoo (Inga)",
+    "function": "1"
+  },
+  {
+    "locationCode": "ISN",
+    "label": "Isnäs",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Isnas",
+    "function": "1"
+  },
+  {
+    "locationCode": "ISO",
+    "label": "Isojoki",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.116667,
+    "lng": 21.966667
+  },
+  {
+    "locationCode": "ISK",
+    "label": "Isokyro",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "IVL",
+    "label": "Ivalo",
+    "subdivisionCode": "10",
+    "function": "34",
+    "lat": 68.65,
+    "lng": 27.6
+  },
+  {
+    "locationCode": "JLA",
+    "label": "Jaala",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 61.05,
+    "lng": 26.466667
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Jakobstad (Pietarsaari)",
+    "subdivisionCode": "12",
+    "function": "123",
+    "lat": 63.683333,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "JJV",
+    "label": "Jalasjärvi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Jalasjarvi",
+    "function": "3",
+    "lat": 62.5,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "JMV",
+    "label": "Jämijärvi",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Jamijarvi",
+    "function": "3",
+    "lat": 61.816667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "JAM",
+    "label": "Jaminkipohja",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 61.9,
+    "lng": 24.116667
+  },
+  {
+    "locationCode": "JMS",
+    "label": "Jämsä",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Jamsa",
+    "function": "3"
+  },
+  {
+    "locationCode": "JSK",
+    "label": "Jämsänkoski",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Jamsankoski",
+    "function": "3",
+    "lat": 61.916667,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "JAN",
+    "label": "Janakkala",
+    "subdivisionCode": "06",
+    "function": "1",
+    "lat": 60.9,
+    "lng": 24.6
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Järvelä",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Jarvela",
+    "function": "6",
+    "lat": 69.383333,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "JVP",
+    "label": "Järvenpää (Träskända)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Jarvenpaa (Traskanda)",
+    "function": "3",
+    "lat": 60.233333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "JPA",
+    "label": "Jeppo (Jepua)",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.4,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "JPA",
+    "label": "Jepua (Jeppo)",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.4,
+    "lng": 22.616667
+  },
+  {
+    "locationCode": "JOE",
+    "label": "Joensuu",
+    "subdivisionCode": "13",
+    "function": "1234",
+    "lat": 62.6,
+    "lng": 29.766667
+  },
+  {
+    "locationCode": "JKA",
+    "label": "Jokela",
+    "subdivisionCode": "15",
+    "function": "3"
+  },
+  {
+    "locationCode": "JOK",
+    "label": "Jokioinen",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 60.816667,
+    "lng": 23.45
+  },
+  {
+    "locationCode": "JOR",
+    "label": "Jormua",
+    "function": "3",
+    "lat": 64.316667,
+    "lng": 27.866667
+  },
+  {
+    "locationCode": "JOI",
+    "label": "Joroinen",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 62.183333,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "RVA",
+    "label": "Jorvas",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 60.133333,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "JSA",
+    "label": "Joutsa",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 61.733333,
+    "lng": 26.116667
+  },
+  {
+    "locationCode": "JOU",
+    "label": "Joutseno",
+    "subdivisionCode": "02",
+    "function": "123",
+    "lat": 61.1,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "JKS",
+    "label": "Juankoski",
+    "function": "3",
+    "lat": 63.066667,
+    "lng": 28.35
+  },
+  {
+    "locationCode": "JRV",
+    "label": "Jurva",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.683333,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "JUS",
+    "label": "Jussaro",
+    "function": "1",
+    "lat": 59.816667,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "JUK",
+    "label": "Juuka",
+    "subdivisionCode": "13",
+    "function": "16",
+    "lat": 63.233333,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "JUU",
+    "label": "Juupajoki",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.783333,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "JVA",
+    "label": "Juva",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 61.883333,
+    "lng": 27.85
+  },
+  {
+    "locationCode": "JYK",
+    "label": "Jyskä",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Jyska",
+    "function": "3",
+    "lat": 62.233333,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "JYV",
+    "label": "Jyväskylä",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Jyvaskyla",
+    "function": "1234",
+    "lat": 62.25,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "KRV",
+    "label": "Kaaresuvanto",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 68.45,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Kaarina (Sankt Karins)",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.416667,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "KVA",
+    "label": "Kaavi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.966667,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "KPN",
+    "label": "Kaipiainen",
+    "function": "23",
+    "lat": 60.9,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "KPL",
+    "label": "Kaipola",
+    "subdivisionCode": "04",
+    "function": "123",
+    "lat": 61.816667,
+    "lng": 25.216667
+  },
+  {
+    "locationCode": "KAJ",
+    "label": "Kajaani (Kajana)",
+    "subdivisionCode": "05",
+    "function": "234",
+    "lat": 64.233333,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "KAJ",
+    "label": "Kajana (Kajaani)",
+    "subdivisionCode": "05",
+    "function": "234",
+    "lat": 64.233333,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "KJO",
+    "label": "Kalajoki",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 64.25,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "KLT",
+    "label": "Kalanti",
+    "subdivisionCode": "19",
+    "function": "23",
+    "lat": 60.816667,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalkkiranta (Kalkstrand)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.25,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalkstrand (Kalkkiranta)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.25,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "KBY",
+    "label": "Kållby (Kolppi)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Kallby (Kolppi)",
+    "function": "23",
+    "lat": 63.616667,
+    "lng": 22.866667
+  },
+  {
+    "locationCode": "KK5",
+    "label": "Kalliola",
+    "subdivisionCode": "04",
+    "function": "13",
+    "lat": 61.083333,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "KLV",
+    "label": "Kallviken",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "KSA",
+    "label": "Kangasala",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.466667,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "KGI",
+    "label": "Kangasniemi",
+    "function": "3",
+    "lat": 61.983333,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "KNP",
+    "label": "Kankaanpää",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Kankaanpaa",
+    "function": "23"
+  },
+  {
+    "locationCode": "KNN",
+    "label": "Kannonkoski",
+    "function": "3",
+    "lat": 62.966667,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "KNS",
+    "label": "Kannus",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.9,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kantlax (Kaitalahti)",
+    "subdivisionCode": "12",
+    "function": "13",
+    "lat": 61.75,
+    "lng": 23.716667
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Kantvik",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.083333,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "NKI",
+    "label": "Kanunki",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.55,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Karhula",
+    "subdivisionCode": "09",
+    "function": "3"
+  },
+  {
+    "locationCode": "KAI",
+    "label": "Karigasniemi",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 69.4,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "KRJ",
+    "label": "Karijoki (Bötom)",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Karijoki (Botom)",
+    "function": "3",
+    "lat": 62.3,
+    "lng": 21.7
+  },
+  {
+    "locationCode": "KJA",
+    "label": "Karis (Karjaa)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.083333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "KJA",
+    "label": "Karjaa (Karis)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.083333,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Karkkila (Högfors)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Karkkila (Hogfors)",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "KKL",
+    "label": "Kärköla",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Karkola",
+    "function": "3",
+    "lat": 60.866667,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Karleby (Kokkola)",
+    "subdivisionCode": "07",
+    "function": "123",
+    "lat": 63.833333,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Kärsämäki",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Karsamaki",
+    "function": "3",
+    "lat": 63.966667,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Karstula",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.883333,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "KR2",
+    "label": "Karvala",
+    "function": "3",
+    "lat": 63.133333,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Karvio",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 62.5,
+    "lng": 28.65
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kaskinen (Kaskö)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Kaskinen (Kasko)",
+    "function": "1",
+    "lat": 60.616667,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kaskö (Kaskinen)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Kasko (Kaskinen)",
+    "function": "1",
+    "lat": 60.616667,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "KSN",
+    "label": "Kasnäs",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Kasnas",
+    "function": "1",
+    "lat": 59.916667,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "KHJ",
+    "label": "Kauhajoki",
+    "subdivisionCode": "03",
+    "function": "4",
+    "lat": 62.433333,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "KAU",
+    "label": "Kauhava",
+    "subdivisionCode": "03",
+    "function": "4",
+    "lat": 63.1,
+    "lng": 23.083333
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kauniainen (Grankulla)",
+    "subdivisionCode": "18",
+    "function": "3"
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kausala",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.9,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "KST",
+    "label": "Kaustinen (Kaustby)",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.533333,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "UTT",
+    "label": "Kauttua",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.116667,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "KUV",
+    "label": "Kauvatsa",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.333333,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "KEI",
+    "label": "Keikyä",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Keikya",
+    "function": "3",
+    "lat": 61.266667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "KIE",
+    "label": "Keitele",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 63.183333,
+    "lng": 26.366667
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kello",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 65.133333,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "KKK",
+    "label": "Kellokoski",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.55,
+    "lng": 25.4
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kemi/Torneå (Kemi/Tornio)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Kemi/Tornea (Kemi/Tornio)",
+    "function": "134",
+    "lat": 65.733333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kemi/Tornio (Kemi/Torneå)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Kemi/Tornio (Kemi/Tornea)",
+    "function": "134",
+    "lat": 65.733333,
+    "lng": 24.566667
+  },
+  {
+    "locationCode": "KJI",
+    "label": "Kemijärvi",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Kemijarvi",
+    "function": "3",
+    "lat": 66.666667,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "KMM",
+    "label": "Keminmaa",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 65.8,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kemiö (Kimito)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Kemio (Kimito)",
+    "function": "1",
+    "lat": 60.166667,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "KLE",
+    "label": "Kempele",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 64.916667,
+    "lng": 25.483333
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kerava (Kervo)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 25.116667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kervo (Kerava)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 25.116667
+  },
+  {
+    "locationCode": "KES",
+    "label": "Kesälahti",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Kesalahti",
+    "function": "123",
+    "lat": 61.883333,
+    "lng": 29.833333
+  },
+  {
+    "locationCode": "KEU",
+    "label": "Keuruu",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.266667,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "KIH",
+    "label": "Kihniö",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Kihnio",
+    "function": "3",
+    "lat": 62.183333,
+    "lng": 23.166667
+  },
+  {
+    "locationCode": "FAE",
+    "label": "Kiikala",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.466667,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "KII",
+    "label": "Kiistala",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 67.866667,
+    "lng": 25.333333
+  },
+  {
+    "locationCode": "KNK",
+    "label": "Killinkoski",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 62.4,
+    "lng": 23.883333
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Kilpilahti (Sköldvik)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Kilpilahti (Skoldvik)",
+    "function": "1",
+    "lat": 60.3,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilpisjärvi",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Kilpisjarvi",
+    "function": "3",
+    "lat": 69.05,
+    "lng": 20.8
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimito (Kemiö)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Kimito (Kemio)",
+    "function": "1",
+    "lat": 60.166667,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kinnula",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.366667,
+    "lng": 24.966667
+  },
+  {
+    "locationCode": "FAF",
+    "label": "Kintaus",
+    "subdivisionCode": "08",
+    "function": "6",
+    "lat": 62.266667,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "KIJ",
+    "label": "Kirjala",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.366667,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "KKI",
+    "label": "Kirkkonummi",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.116667,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirkniemi",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 60.166667,
+    "lng": 23.95
+  },
+  {
+    "locationCode": "KTQ",
+    "label": "Kitee",
+    "subdivisionCode": "13",
+    "function": "14",
+    "lat": 62.1,
+    "lng": 30.116667
+  },
+  {
+    "locationCode": "KTT",
+    "label": "Kittilä",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Kittila",
+    "function": "4",
+    "lat": 67.666667,
+    "lng": 24.9
+  },
+  {
+    "locationCode": "KVI",
+    "label": "Kiuruvesi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 63.65,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "KVJ",
+    "label": "Kivijärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Kivijarvi",
+    "function": "3",
+    "lat": 63.116667,
+    "lng": 25.066667
+  },
+  {
+    "locationCode": "KIV",
+    "label": "Kivilompolo",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 66.3,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klamila",
+    "subdivisionCode": "09",
+    "function": "13",
+    "lat": 60.516667,
+    "lng": 27.466667
+  },
+  {
+    "locationCode": "KLU",
+    "label": "Klaukkala",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.383333,
+    "lng": 24.75
+  },
+  {
+    "locationCode": "KVL",
+    "label": "Koivulahti",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 63.033333,
+    "lng": 26.783333
+  },
+  {
+    "locationCode": "KOJ",
+    "label": "Kojonkulma",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.95,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "KKR",
+    "label": "Kökar",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Kokar",
+    "function": "1",
+    "lat": 59.933333,
+    "lng": 20.883333
+  },
+  {
+    "locationCode": "KMI",
+    "label": "Kokemäki",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Kokemaki",
+    "function": "3",
+    "lat": 61.25,
+    "lng": 22.35
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kokkola (Karleby)",
+    "subdivisionCode": "07",
+    "function": "123",
+    "lat": 63.833333,
+    "lng": 23.116667
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Kolari",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 67.333333,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "KLH",
+    "label": "Kolho",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 62.133333,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "KNV",
+    "label": "Konnevesi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 26.283333
+  },
+  {
+    "locationCode": "KON",
+    "label": "Kontiolahti",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.766667,
+    "lng": 29.85
+  },
+  {
+    "locationCode": "KK4",
+    "label": "Koria",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.833333,
+    "lng": 26.6
+  },
+  {
+    "locationCode": "KMU",
+    "label": "Kormu",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.733333,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "KPH",
+    "label": "Korpilahti (Korplax)",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.866667,
+    "lng": 23.233333
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korpo (Korppoo)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.166667,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korppoo (Korpo)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.166667,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "KHO",
+    "label": "Korsholm/Mustasaari",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.116667,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "KSS",
+    "label": "Korsnäs",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Korsnas",
+    "function": "3",
+    "lat": 62.783333,
+    "lng": 21.183333
+  },
+  {
+    "locationCode": "KKV",
+    "label": "Koskenkorva",
+    "subdivisionCode": "03",
+    "function": "16",
+    "lat": 62.683333,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "KKP",
+    "label": "Koskenpää",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Koskenpaa",
+    "function": "3",
+    "lat": 62.083333,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "KHT",
+    "label": "Koski Tl",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.65,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Kotka",
+    "subdivisionCode": "09",
+    "function": "123",
+    "lat": 60.466667,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koura",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.716667,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "KU7",
+    "label": "Kouvala",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.966667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "KVO",
+    "label": "Kouvola",
+    "subdivisionCode": "09",
+    "function": "23"
+  },
+  {
+    "locationCode": "KVH",
+    "label": "Koverhaara (Koverhar)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 59.866667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "KVH",
+    "label": "Koverhar (Koverhaara)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 59.866667,
+    "lng": 23.216667
+  },
+  {
+    "locationCode": "KYO",
+    "label": "Köyliö",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Koylio",
+    "function": "3",
+    "lat": 61.116667,
+    "lng": 22.35
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Kristiinankaupunki (Kristinestad)",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 62.283333,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Kristinestad (Kristiinankaupunki)",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 62.283333,
+    "lng": 21.383333
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Kronoby",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.716667,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Kronvik",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 63.066667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Kruunupyy",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.716667,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "KUH",
+    "label": "Kuhmo",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 64.133333,
+    "lng": 29.516667
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Kuhmoinen",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 61.55,
+    "lng": 25.15
+  },
+  {
+    "locationCode": "SPJ",
+    "label": "Kuivasalmi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.283333,
+    "lng": 29.833333
+  },
+  {
+    "locationCode": "KUP",
+    "label": "Kulho",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 29.916667
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Kulloo (Kullo)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.35,
+    "lng": 25.5
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumlinge",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 60.266667,
+    "lng": 20.783333
+  },
+  {
+    "locationCode": "KMK",
+    "label": "Kuomiokoski",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 61.433333,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "KUO",
+    "label": "Kuopio",
+    "subdivisionCode": "15",
+    "function": "1234",
+    "lat": 62.883333,
+    "lng": 27.683333
+  },
+  {
+    "locationCode": "KEV",
+    "label": "Kuorevesi",
+    "subdivisionCode": "11",
+    "function": "4",
+    "lat": 61.85,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Kuortane",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.8,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "KTI",
+    "label": "Kuortti",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 61.433333,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "KJK",
+    "label": "Kurejoki",
+    "function": "3",
+    "lat": 63,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "KKA",
+    "label": "Kurikka",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kuru",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 61.866667,
+    "lng": 23.733333
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kustavi (Gustavs)",
+    "subdivisionCode": "19",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAO",
+    "label": "Kuusamo",
+    "subdivisionCode": "14",
+    "function": "34",
+    "lat": 65.966667,
+    "lng": 29.183333
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Kuusankoski",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.9,
+    "lng": 26.633333
+  },
+  {
+    "locationCode": "KYP",
+    "label": "Kylanpää",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Kylanpaa",
+    "function": "36",
+    "lat": 62.9,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "KYL",
+    "label": "Kylmäkoski",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Kylmakoski",
+    "function": "3",
+    "lat": 61.166667,
+    "lng": 23.683333
+  },
+  {
+    "locationCode": "KMS",
+    "label": "Kymenlaakso",
+    "subdivisionCode": "09",
+    "function": "6",
+    "lat": 60.5,
+    "lng": 27
+  },
+  {
+    "locationCode": "YRO",
+    "label": "Kyro",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.7,
+    "lng": 22.75
+  },
+  {
+    "locationCode": "KKO",
+    "label": "Kyröskoski",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Kyroskoski",
+    "function": "3",
+    "lat": 61.666667,
+    "lng": 23.183333
+  },
+  {
+    "locationCode": "KYY",
+    "label": "Kyyjärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Kyyjarvi",
+    "function": "3",
+    "lat": 63.033333,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "LAA",
+    "label": "Laajasalo",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.166667,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "LHI",
+    "label": "Lahti (Lahtis)",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 60.983333,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "LHI",
+    "label": "Lahtis (Lahti)",
+    "subdivisionCode": "16",
+    "function": "23",
+    "lat": 60.983333,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "ALH",
+    "label": "Laihia",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 62.966667,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "LAI",
+    "label": "Laitila",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.866667,
+    "lng": 41.666667
+  },
+  {
+    "locationCode": "LAK",
+    "label": "Lakulahti",
+    "function": "1",
+    "lat": 60.516667,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lammi",
+    "subdivisionCode": "09",
+    "function": "3"
+  },
+  {
+    "locationCode": "LMI",
+    "label": "Längelmäki",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Langelmaki",
+    "function": "23",
+    "lat": 61.683333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Långnäs",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Langnas",
+    "function": "1"
+  },
+  {
+    "locationCode": "LLO",
+    "label": "Lapaluoto",
+    "subdivisionCode": "14",
+    "function": "13",
+    "lat": 64.666667,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "LJV",
+    "label": "Lapinjärvi",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Lapinjarvi",
+    "function": "3",
+    "lat": 60.616667,
+    "lng": 26.183333
+  },
+  {
+    "locationCode": "LLA",
+    "label": "Lapinlahti",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 63.366667,
+    "lng": 27.4
+  },
+  {
+    "locationCode": "LPJ",
+    "label": "Lappajärvi",
+    "labelWithDiacritics": "Lappajarvi",
+    "function": "1",
+    "lat": 63.2,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "LPE",
+    "label": "Lappböle",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Lappbole",
+    "function": "3",
+    "lat": 60.216667,
+    "lng": 24.45
+  },
+  {
+    "locationCode": "LPP",
+    "label": "Lappeenranta (Villmanstrand)",
+    "subdivisionCode": "02",
+    "function": "1234",
+    "lat": 61.05,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "LPI",
+    "label": "Lappi",
+    "subdivisionCode": "14",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Lappohja (Lappvik)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 59.9,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Lappvik (Lappohja)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 59.9,
+    "lng": 23.25
+  },
+  {
+    "locationCode": "LPA",
+    "label": "Lapua (Lappo)",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.966667,
+    "lng": 23.05
+  },
+  {
+    "locationCode": "LTT",
+    "label": "Lapväärtti",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Lapvaartti",
+    "function": "3",
+    "lat": 62.25,
+    "lng": 21.533333
+  },
+  {
+    "locationCode": "LAR",
+    "label": "Larsmo",
+    "function": "3",
+    "lat": 63.75,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Lauhala",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 62.083333,
+    "lng": 22.25
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Laukaa",
+    "subdivisionCode": "08",
+    "function": "1236",
+    "lat": 62.416667,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "LKO",
+    "label": "Laukkoski",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.45,
+    "lng": 25.383333
+  },
+  {
+    "locationCode": "AAI",
+    "label": "Lautiosaari",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 65.8,
+    "lng": 24.583333
+  },
+  {
+    "locationCode": "LHT",
+    "label": "Lehtimäki",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Lehtimaki",
+    "function": "3",
+    "lat": 62.783333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "LEI",
+    "label": "Leivonmäki",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Leivonmaki",
+    "function": "3",
+    "lat": 61.916667,
+    "lng": 26.116667
+  },
+  {
+    "locationCode": "LEM",
+    "label": "Lemi",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.05,
+    "lng": 27.8
+  },
+  {
+    "locationCode": "LPL",
+    "label": "Lempäälä",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Lempaala",
+    "function": "3",
+    "lat": 61.316667,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "ZXQ",
+    "label": "Leppakoski",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.85,
+    "lng": 24.366667
+  },
+  {
+    "locationCode": "LPV",
+    "label": "Leppävirta",
+    "labelWithDiacritics": "Leppavirta",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "LEP",
+    "label": "Lepplax",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.666667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "LKL",
+    "label": "Leskelä",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Leskela",
+    "function": "3",
+    "lat": 64.183333,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "FAG",
+    "label": "Lestijärvi",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Lestijarvi",
+    "function": "6",
+    "lat": 62.533333,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "LIK",
+    "label": "Lieksa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.316667,
+    "lng": 30.016667
+  },
+  {
+    "locationCode": "LLX",
+    "label": "Lielax",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.316667,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Lieto",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.5,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "LLJ",
+    "label": "Liljendal",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.566667,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "L8K",
+    "label": "Liminka",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.816667,
+    "lng": 25.4
+  },
+  {
+    "locationCode": "LSK",
+    "label": "Lindkoski",
+    "subdivisionCode": "18",
+    "function": "16",
+    "lat": 60.633333,
+    "lng": 26.266667
+  },
+  {
+    "locationCode": "LPF",
+    "label": "Linnankyla",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 62.116667,
+    "lng": 23.033333
+  },
+  {
+    "locationCode": "LVU",
+    "label": "Linnavuori",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.5,
+    "lng": 23.366667
+  },
+  {
+    "locationCode": "LIP",
+    "label": "Liperi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.516667,
+    "lng": 29.383333
+  },
+  {
+    "locationCode": "LON",
+    "label": "Littoinen",
+    "subdivisionCode": "19",
+    "function": "23",
+    "lat": 60.433333,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "LHJ",
+    "label": "Lohja (Lojo)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.25,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "LMA",
+    "label": "Loimaa",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.866667,
+    "lng": 22.983333
+  },
+  {
+    "locationCode": "LHJ",
+    "label": "Lojo (Lohja)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.25,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "LOP",
+    "label": "Loppi",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.716667,
+    "lng": 24.6
+  },
+  {
+    "locationCode": "LVB",
+    "label": "Lövböle",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Lovbole",
+    "function": "1",
+    "lat": 60.15,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "LOV",
+    "label": "Loviisa (Lovisa)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "LOV",
+    "label": "Lovisa (Loviisa)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 26.233333
+  },
+  {
+    "locationCode": "LHA",
+    "label": "Luhanka",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 61.783333,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "LHK",
+    "label": "Luhtajoki",
+    "subdivisionCode": "13",
+    "function": "3"
+  },
+  {
+    "locationCode": "LUI",
+    "label": "Luikonlahti",
+    "function": "3",
+    "lat": 62.916667,
+    "lng": 28.65
+  },
+  {
+    "locationCode": "LMJ",
+    "label": "Lumijoki",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.833333,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "UHI",
+    "label": "Luoma-aho",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 63.083333,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "SLF",
+    "label": "Luopioinen",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.366667,
+    "lng": 24.666667
+  },
+  {
+    "locationCode": "LUA",
+    "label": "Luumäki",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Luumaki",
+    "function": "123",
+    "lat": 60.916667,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "LUV",
+    "label": "Luvia",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 61.35,
+    "lng": 21.616667
+  },
+  {
+    "locationCode": "MLX",
+    "label": "Maalahti (Malax)",
+    "subdivisionCode": "12",
+    "function": "36",
+    "lat": 62.933333,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "MAA",
+    "label": "Maaninka",
+    "subdivisionCode": "15",
+    "function": "13",
+    "lat": 63.15,
+    "lng": 27.3
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Maantiekylä",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Maantiekyla",
+    "function": "3",
+    "lat": 60.333333,
+    "lng": 25
+  },
+  {
+    "locationCode": "MHQ",
+    "label": "Maarianhamina (Mariehamn)",
+    "subdivisionCode": "01",
+    "function": "14",
+    "lat": 60.1,
+    "lng": 19.95
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Mäkelä",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Makela",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAX",
+    "label": "Maksamaa (Maxmo)",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.2,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "MLX",
+    "label": "Malax (Maalahti)",
+    "subdivisionCode": "12",
+    "function": "36",
+    "lat": 62.933333,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "MMG",
+    "label": "Malmgård",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Malmgard",
+    "function": "3",
+    "lat": 60.55,
+    "lng": 25.95
+  },
+  {
+    "locationCode": "MMI",
+    "label": "Malmi",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 60.25,
+    "lng": 25
+  },
+  {
+    "locationCode": "MNT",
+    "label": "Mäntsälä",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Mantsala",
+    "function": "3",
+    "lat": 60.633333,
+    "lng": 25.316667
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Mänttä",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Mantta",
+    "function": "3",
+    "lat": 62.033333,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "MHU",
+    "label": "Mäntyharju",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Mantyharju",
+    "function": "23",
+    "lat": 61.416667,
+    "lng": 26.883333
+  },
+  {
+    "locationCode": "MTY",
+    "label": "Mäntyluoto",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Mantyluoto",
+    "function": "123",
+    "lat": 61.583333,
+    "lng": 21.483333
+  },
+  {
+    "locationCode": "MHQ",
+    "label": "Mariehamn (Maarianhamina)",
+    "subdivisionCode": "01",
+    "function": "14",
+    "lat": 60.1,
+    "lng": 19.95
+  },
+  {
+    "locationCode": "MKI",
+    "label": "Marinkainen",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.933333,
+    "lng": 23.416667
+  },
+  {
+    "locationCode": "MRS",
+    "label": "Marsund",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 60.2,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "MTI",
+    "label": "Marttila",
+    "function": "3",
+    "lat": 60.583333,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "MBY",
+    "label": "Masaby (Masala)",
+    "subdivisionCode": "18",
+    "function": "236",
+    "lat": 60.15,
+    "lng": 24.533333
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masku",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.566667,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Mattilanpera",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.583333,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "MAX",
+    "label": "Maxmo (Maksamaa)",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.2,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "FAH",
+    "label": "Mellilä",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Mellila",
+    "function": "6",
+    "lat": 60.766667,
+    "lng": 22.916667
+  },
+  {
+    "locationCode": "MEN",
+    "label": "Menkijärvi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Menkijarvi",
+    "function": "4",
+    "lat": 62.95,
+    "lng": 23.566667
+  },
+  {
+    "locationCode": "MRJ",
+    "label": "Merijärvi",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Merijarvi",
+    "function": "3",
+    "lat": 64.3,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "MER",
+    "label": "Merikarvia (Sastmola)",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 61.85,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "M7T",
+    "label": "Merimasku",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 21.866667
+  },
+  {
+    "locationCode": "MKY",
+    "label": "Metsäkylä",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Metsakyla",
+    "function": "3",
+    "lat": 61.566667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "MKA",
+    "label": "Miehikkälä",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Miehikkala",
+    "function": "3",
+    "lat": 60.666667,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "MIE",
+    "label": "Mietoinen",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.633333,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "MIK",
+    "label": "Mikkeli (Sankt Michel)",
+    "subdivisionCode": "04",
+    "function": "1234",
+    "lat": 61.683333,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "MJO",
+    "label": "Mjösund",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Mjosund",
+    "function": "3",
+    "lat": 60.2,
+    "lng": 22.45
+  },
+  {
+    "locationCode": "MNK",
+    "label": "Monninkylä",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Monninkyla",
+    "function": "3",
+    "lat": 60.5,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "MUH",
+    "label": "Muhos",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.8,
+    "lng": 25.983333
+  },
+  {
+    "locationCode": "MJL",
+    "label": "Muijala",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 60.283333,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "MUL",
+    "label": "Multia",
+    "subdivisionCode": "08",
+    "function": "1",
+    "lat": 62.416667,
+    "lng": 24.783333
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Munsala",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 63.483333,
+    "lng": 22.333333
+  },
+  {
+    "locationCode": "MUO",
+    "label": "Muonio",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 67.95,
+    "lng": 23.7
+  },
+  {
+    "locationCode": "MSS",
+    "label": "Mussalo",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "MST",
+    "label": "Mustio",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.166667,
+    "lng": 23.833333
+  },
+  {
+    "locationCode": "MUS",
+    "label": "Mustola",
+    "subdivisionCode": "02",
+    "function": "1",
+    "lat": 61.066667,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "MRE",
+    "label": "Muurame",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.133333,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "MKL",
+    "label": "Muurikkala",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.666667,
+    "lng": 27.883333
+  },
+  {
+    "locationCode": "MRL",
+    "label": "Muurla",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.35,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "MRV",
+    "label": "Muuruvesi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 63.016667,
+    "lng": 28.2
+  },
+  {
+    "locationCode": "MYL",
+    "label": "Myllykoski",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 60.783333,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "MYN",
+    "label": "Mynamaki",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.666667,
+    "lng": 22
+  },
+  {
+    "locationCode": "MLA",
+    "label": "Myrskylä",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Myrskyla",
+    "function": "3",
+    "lat": 60.666667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "NLI",
+    "label": "Naantali (Nådendal)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Naantali (Nadendal)",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "NAJ",
+    "label": "Naarajärvi",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Naarajarvi",
+    "function": "23",
+    "lat": 62.283333,
+    "lng": 27.083333
+  },
+  {
+    "locationCode": "NLI",
+    "label": "Nådendal (Naantali)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Nadendal (Naantali)",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 22.033333
+  },
+  {
+    "locationCode": "NAU",
+    "label": "Nagu (Nauvo)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.183333,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "NKK",
+    "label": "Nakkila",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.366667,
+    "lng": 22
+  },
+  {
+    "locationCode": "NRP",
+    "label": "Närpes (Närpiö)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Narpes (Narpio)",
+    "function": "3",
+    "lat": 62.466667,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "NRP",
+    "label": "Närpiö (Närpes)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Narpio (Narpes)",
+    "function": "3",
+    "lat": 62.466667,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "NST",
+    "label": "Nastola",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.95,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "NAU",
+    "label": "Nauvo (Nagu)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.183333,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "NDT",
+    "label": "Nedervetil",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 63.7,
+    "lng": 23.333333
+  },
+  {
+    "locationCode": "NVT",
+    "label": "Neuvoton",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "NII",
+    "label": "Niirala",
+    "subdivisionCode": "15",
+    "function": "23",
+    "lat": 62.533333,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "NLS",
+    "label": "Nilsia",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 63.2,
+    "lng": 28.833333
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Nivala",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.9,
+    "lng": 24.95
+  },
+  {
+    "locationCode": "NOK",
+    "label": "Nokia",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.466667,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "NOU",
+    "label": "Nousiainen (Nousis)",
+    "subdivisionCode": "19",
+    "function": "13",
+    "lat": 60.6,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "NUI",
+    "label": "Nuijamaa",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 60.966667,
+    "lng": 28.533333
+  },
+  {
+    "locationCode": "NKA",
+    "label": "Nukari",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 24.916667
+  },
+  {
+    "locationCode": "NML",
+    "label": "Nummela",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 60.316667,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "NRM",
+    "label": "Nuoramoinen",
+    "function": "3",
+    "lat": 61.45,
+    "lng": 25.833333
+  },
+  {
+    "locationCode": "NUR",
+    "label": "Nurmes",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 63.533333,
+    "lng": 29.166667
+  },
+  {
+    "locationCode": "NJI",
+    "label": "Nurmijärvi",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Nurmijarvi",
+    "function": "3",
+    "lat": 60.45,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "NRO",
+    "label": "Nurmo",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 62.833333,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "NUU",
+    "label": "Nuutajärvi",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Nuutajarvi",
+    "function": "3",
+    "lat": 61.05,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "NYH",
+    "label": "Nyhem",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.05,
+    "lng": 22.883333
+  },
+  {
+    "locationCode": "UKP",
+    "label": "Nykarleby (Uusikaarlepyy)",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 63.533333,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "SVL",
+    "label": "Nyslott (Savonlinna)",
+    "subdivisionCode": "04",
+    "function": "1234",
+    "lat": 61.866667,
+    "lng": 28.9
+  },
+  {
+    "locationCode": "UKI",
+    "label": "Nystad (Uusikaupunki)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.8,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "ODE",
+    "label": "Odensö",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Odenso",
+    "function": "3",
+    "lat": 59.916667,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "OTH",
+    "label": "Ohtola",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.416667,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "OTI",
+    "label": "Oitti",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.783333,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "FAI",
+    "label": "Ojakkala",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 60.366667,
+    "lng": 24.383333
+  },
+  {
+    "locationCode": "OLK",
+    "label": "Olkiluoto",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 61.233333,
+    "lng": 21.483333
+  },
+  {
+    "locationCode": "ORA",
+    "label": "Oravikoski",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.566667,
+    "lng": 27.6
+  },
+  {
+    "locationCode": "OMA",
+    "label": "Orimattila",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.8,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "OIP",
+    "label": "Oripää",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Oripaa",
+    "function": "3",
+    "lat": 60.85,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "ORV",
+    "label": "Orivesi",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.683333,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "OTA",
+    "label": "Otanmäki",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Otanmaki",
+    "function": "23",
+    "lat": 64.116667,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "STV",
+    "label": "Otava",
+    "subdivisionCode": "04",
+    "function": "6",
+    "lat": 61.65,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "OLA",
+    "label": "Oulainen",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 64.266667,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "OUL",
+    "label": "Oulu (Uleåborg)",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Oulu (Uleaborg)",
+    "function": "1234",
+    "lat": 65.016667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "OPP",
+    "label": "Oulunsalo",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.933333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "OUK",
+    "label": "Outokumpu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.733333,
+    "lng": 29.016667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Paakkila",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.783333,
+    "lng": 28.65
+  },
+  {
+    "locationCode": "PJO",
+    "label": "Padasjoki",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 61.35,
+    "lng": 25.283333
+  },
+  {
+    "locationCode": "PAI",
+    "label": "Paimio (Pemar)",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.45,
+    "lng": 22.683333
+  },
+  {
+    "locationCode": "PKA",
+    "label": "Palkane",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.333333,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Palokka",
+    "subdivisionCode": "08",
+    "function": "36",
+    "lat": 62.283333,
+    "lng": 25.7
+  },
+  {
+    "locationCode": "OUN",
+    "label": "Paltamo",
+    "function": "3",
+    "lat": 64.416667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "PNN",
+    "label": "Pännäinen",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Pannainen",
+    "function": "36",
+    "lat": 63.6,
+    "lng": 22.8
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parainen (Pargas)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.3,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Pargas (Parainen)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.3,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "PAH",
+    "label": "Parhalahti",
+    "subdivisionCode": "14",
+    "function": "16",
+    "lat": 64.483333,
+    "lng": 24.333333
+  },
+  {
+    "locationCode": "PRK",
+    "label": "Parikkala",
+    "subdivisionCode": "02",
+    "function": "123",
+    "lat": 61.55,
+    "lng": 29.5
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Parkano",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 62.016667,
+    "lng": 23.016667
+  },
+  {
+    "locationCode": "PAA",
+    "label": "Parola",
+    "subdivisionCode": "06",
+    "function": "13",
+    "lat": 61.033333,
+    "lng": 24.35
+  },
+  {
+    "locationCode": "PNI",
+    "label": "Pateniemi",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 65.05,
+    "lng": 25.4
+  },
+  {
+    "locationCode": "PTK",
+    "label": "Pattijoki",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.683333,
+    "lng": 24.683333
+  },
+  {
+    "locationCode": "PDS",
+    "label": "Pedersöre",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pedersore",
+    "function": "3",
+    "lat": 63.6,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "PKO",
+    "label": "Pekola",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 64.35,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "PLK",
+    "label": "Pelkosenniemi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 67.1,
+    "lng": 27.5
+  },
+  {
+    "locationCode": "PLL",
+    "label": "Pello",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 66.783333,
+    "lng": 23.916667
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Peltosalmi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 63.533333,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "PNL",
+    "label": "Pennala",
+    "subdivisionCode": "13",
+    "function": "1"
+  },
+  {
+    "locationCode": "PEI",
+    "label": "Peräseinäjoki",
+    "labelWithDiacritics": "Peraseinajoki",
+    "function": "3",
+    "lat": 62.566667,
+    "lng": 23.066667
+  },
+  {
+    "locationCode": "PRH",
+    "label": "Perho",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.216667,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "PER",
+    "label": "Pernå (Pernaja)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Perna (Pernaja)",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "PER",
+    "label": "Pernaja (Pernå)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Pernaja (Perna)",
+    "function": "1",
+    "lat": 60.45,
+    "lng": 26.05
+  },
+  {
+    "locationCode": "PNO",
+    "label": "Perniö (Bjärnå)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Pernio (Bjarna)",
+    "function": "23",
+    "lat": 60.2,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "PTI",
+    "label": "Pertteli",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.433333,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "ZBQ",
+    "label": "Perttula",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 60.45,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Pertunmaa",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 61.5,
+    "lng": 26.483333
+  },
+  {
+    "locationCode": "PTV",
+    "label": "Petäjävesi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Petajavesi",
+    "function": "3",
+    "lat": 62.25,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "PTU",
+    "label": "Petkula",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 67.666667,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "PET",
+    "label": "Petolahti",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 62.833333,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "PSM",
+    "label": "Pieksämäki",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Pieksamaki",
+    "function": "3",
+    "lat": 62.3,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "PIE",
+    "label": "Pielavesi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.216667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Pietarsaari (Jakobstad)",
+    "subdivisionCode": "12",
+    "function": "123",
+    "lat": 63.683333,
+    "lng": 22.783333
+  },
+  {
+    "locationCode": "PT2",
+    "label": "Pihtipudas",
+    "subdivisionCode": "08",
+    "function": "13",
+    "lat": 63.383333,
+    "lng": 25.566667
+  },
+  {
+    "locationCode": "PK9",
+    "label": "Piikkiö",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Piikkio",
+    "function": "16",
+    "lat": 60.433333,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "PSP",
+    "label": "Piispajärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Piispajarvi",
+    "function": "3",
+    "lat": 65.3,
+    "lng": 29.1
+  },
+  {
+    "locationCode": "PII",
+    "label": "Piispanristi",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.416667,
+    "lng": 22.333333
+  },
+  {
+    "locationCode": "PIK",
+    "label": "Pikkala",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.083333,
+    "lng": 24.3
+  },
+  {
+    "locationCode": "PKR",
+    "label": "Pikkarala",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.916667,
+    "lng": 25.75
+  },
+  {
+    "locationCode": "PPF",
+    "label": "Pinsio",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.566667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "PIA",
+    "label": "Pirkanmaa",
+    "function": "6",
+    "lat": 61.7,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "PIR",
+    "label": "Pirkkala (Birkala)",
+    "subdivisionCode": "11",
+    "function": "34",
+    "lat": 61.466667,
+    "lng": 23.633333
+  },
+  {
+    "locationCode": "PJA",
+    "label": "Pohja",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.483333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "POH",
+    "label": "Pohjankuru (Skuru)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.116667,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "PSI",
+    "label": "Poitsila",
+    "subdivisionCode": "09",
+    "function": "123",
+    "lat": 60.55,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "POL",
+    "label": "Polvijärvi",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Polvijarvi",
+    "function": "3",
+    "lat": 62.85,
+    "lng": 29.366667
+  },
+  {
+    "locationCode": "PMU",
+    "label": "Pomarkku",
+    "subdivisionCode": "17",
+    "function": "23",
+    "lat": 61.7,
+    "lng": 22
+  },
+  {
+    "locationCode": "TIL",
+    "label": "Pöppölä",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Poppola",
+    "function": "3",
+    "lat": 64.583333,
+    "lng": 27.166667
+  },
+  {
+    "locationCode": "POR",
+    "label": "Pori (Björneborg)",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Pori (Bjorneborg)",
+    "function": "134",
+    "lat": 61.483333,
+    "lng": 21.8
+  },
+  {
+    "locationCode": "POA",
+    "label": "Porkkala (Porkala)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 59.983333,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Pornainen",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.466667,
+    "lng": 25.366667
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Porvoo (Borgå)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Porvoo (Borga)",
+    "function": "1",
+    "lat": 60.4,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "PO5",
+    "label": "Posio",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 66.1,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "POY",
+    "label": "Pöytyä",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Poytya",
+    "function": "3",
+    "lat": 60.716667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "PUD",
+    "label": "Pudasjärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pudasjarvi",
+    "function": "3",
+    "lat": 65.333333,
+    "lng": 27
+  },
+  {
+    "locationCode": "PUH",
+    "label": "Puhos",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 62.1,
+    "lng": 29.916667
+  },
+  {
+    "locationCode": "PHS",
+    "label": "Puhos",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 65.316667,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "PUK",
+    "label": "Pukkila",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 60.633333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "PUL",
+    "label": "Pulkkila",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.266667,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "PUN",
+    "label": "Punkaharju",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 61.8,
+    "lng": 29.4
+  },
+  {
+    "locationCode": "PK8",
+    "label": "Punkalaidun",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.116667,
+    "lng": 23.1
+  },
+  {
+    "locationCode": "PTA",
+    "label": "Puntala",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.266667,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "PUO",
+    "label": "Puolanka",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 64.866667,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "PUU",
+    "label": "Puumala",
+    "subdivisionCode": "04",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHJ",
+    "label": "Pyhäjoki",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pyhajoki",
+    "function": "3",
+    "lat": 64.45,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "PHA",
+    "label": "Pyhäntä",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pyhanta",
+    "function": "3",
+    "lat": 64.1,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "PYH",
+    "label": "Pyhäranta",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Pyharanta",
+    "function": "3"
+  },
+  {
+    "locationCode": "PYI",
+    "label": "Pyhäsalmi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Pyhasalmi",
+    "function": "3",
+    "lat": 63.683333,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "HTA",
+    "label": "Pyhtää (Pyttis)",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Pyhtaa (Pyttis)",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "RAA",
+    "label": "Raahe (Brahestad)",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 64.683333,
+    "lng": 24.483333
+  },
+  {
+    "locationCode": "RKY",
+    "label": "Rääkkylä",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Raakkyla",
+    "function": "3",
+    "lat": 62.3,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "RAH",
+    "label": "Rahja",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.2,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "RAO",
+    "label": "Raisio",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "RAJ",
+    "label": "Rajajooseppi",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 68.466667,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "RJM",
+    "label": "Rajamäki",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Rajamaki",
+    "function": "23",
+    "lat": 60.533333,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "RNT",
+    "label": "Rantasalmi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.066667,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "RTY",
+    "label": "Rantatoysa",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.633333,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "RAN",
+    "label": "Ranua",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 65.916667,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "ETA",
+    "label": "Raseborg",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 59.983333,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "ROU",
+    "label": "Rauha",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.183333,
+    "lng": 28.683333
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Rauma (Raumo)",
+    "subdivisionCode": "17",
+    "function": "123",
+    "lat": 61.133333,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Raumo (Rauma)",
+    "subdivisionCode": "17",
+    "function": "123",
+    "lat": 61.133333,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "RLI",
+    "label": "Rautalampi",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 26.816667
+  },
+  {
+    "locationCode": "RTR",
+    "label": "Rautaruukki",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 64.65,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "RTV",
+    "label": "Rautavaara",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.483333,
+    "lng": 28.283333
+  },
+  {
+    "locationCode": "RJL",
+    "label": "Reijola",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 62.533333,
+    "lng": 29.833333
+  },
+  {
+    "locationCode": "RJV",
+    "label": "Reisjärvi",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Reisjarvi",
+    "function": "3",
+    "lat": 63.616667,
+    "lng": 24.9
+  },
+  {
+    "locationCode": "RKO",
+    "label": "Renko",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.9,
+    "lng": 24.283333
+  },
+  {
+    "locationCode": "PLT",
+    "label": "Replot",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 63.25,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "REP",
+    "label": "Reposaari",
+    "function": "13",
+    "lat": 61.616667,
+    "lng": 21.45
+  },
+  {
+    "locationCode": "RII",
+    "label": "Riihikoski",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.716667,
+    "lng": 22.6
+  },
+  {
+    "locationCode": "RIA",
+    "label": "Riihimäki",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Riihimaki",
+    "function": "3",
+    "lat": 60.75,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "RYM",
+    "label": "Rimito (Rymättylä)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Rimito (Rymattyla)",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 21.95
+  },
+  {
+    "locationCode": "RIS",
+    "label": "Ristiina",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 61.5,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "RSJ",
+    "label": "Ristijärvi",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Ristijarvi",
+    "function": "3",
+    "lat": 64.5,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "RTL",
+    "label": "Ritola",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.733333,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "RHU",
+    "label": "Rouhu",
+    "function": "1",
+    "lat": 60.533333,
+    "lng": 21.666667
+  },
+  {
+    "locationCode": "RVN",
+    "label": "Rovaniemi",
+    "subdivisionCode": "10",
+    "function": "1234",
+    "lat": 66.5,
+    "lng": 25.716667
+  },
+  {
+    "locationCode": "RKA",
+    "label": "Röykkä",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Roykka",
+    "function": "3",
+    "lat": 60.483333,
+    "lng": 24.65
+  },
+  {
+    "locationCode": "ROY",
+    "label": "Röyttä",
+    "labelWithDiacritics": "Roytta",
+    "function": "1",
+    "lat": 65.75,
+    "lng": 24.166667
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Ruokolahti",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.283333,
+    "lng": 28.833333
+  },
+  {
+    "locationCode": "ROO",
+    "label": "Ruotila",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.7,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "RUO",
+    "label": "Ruotsinpyhtää (Strömfors)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Ruotsinpyhtaa (Stromfors)",
+    "function": "1",
+    "lat": 60.533333,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "RUI",
+    "label": "Ruovesi",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 61.983333,
+    "lng": 24.083333
+  },
+  {
+    "locationCode": "RSO",
+    "label": "Rusko",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.533333,
+    "lng": 22.2
+  },
+  {
+    "locationCode": "RUU",
+    "label": "Ruukki",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 64.65,
+    "lng": 25.083333
+  },
+  {
+    "locationCode": "RYM",
+    "label": "Rymättylä (Rimito)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Rymattyla (Rimito)",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 21.95
+  },
+  {
+    "locationCode": "RYT",
+    "label": "Ryttylä",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Ryttyla",
+    "function": "3",
+    "lat": 60.816667,
+    "lng": 24.766667
+  },
+  {
+    "locationCode": "SKS",
+    "label": "Saaksjärvi",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Saaksjarvi",
+    "function": "3",
+    "lat": 60.583333,
+    "lng": 25.416667
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Sääksjärvi",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Saaksjarvi",
+    "function": "3",
+    "lat": 61.416667,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Sääksjärvi",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Saaksjarvi",
+    "function": "3",
+    "lat": 62.7,
+    "lng": 26.666667
+  },
+  {
+    "locationCode": "SAI",
+    "label": "Saarijärvi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Saarijarvi",
+    "function": "3",
+    "lat": 62.7,
+    "lng": 25.25
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Sailonen",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.95,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Säkylä",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Sakyla",
+    "function": "3",
+    "lat": 61.033333,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "SLL",
+    "label": "Salla",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 66.833333,
+    "lng": 28.666667
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salo",
+    "subdivisionCode": "19",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPK",
+    "label": "Salpakangas",
+    "subdivisionCode": "18",
+    "function": "3"
+  },
+  {
+    "locationCode": "SJI",
+    "label": "Sammaljoki",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.233333,
+    "lng": 23.133333
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandö (Santasaari)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Sando (Santasaari)",
+    "function": "13",
+    "lat": 60.216667,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Sankt Karins (Kaarina)",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.416667,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "MIK",
+    "label": "Sankt Michel (Mikkeli)",
+    "subdivisionCode": "04",
+    "function": "1234",
+    "lat": 61.683333,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "SSI",
+    "label": "Särkisalmi",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "Sarkisalmi",
+    "function": "123",
+    "lat": 61.6,
+    "lng": 29.483333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sastamala",
+    "function": "3",
+    "lat": 61.35,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "MER",
+    "label": "Sastmola (Merikarvia)",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 61.85,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saukkola",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.183333,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "SKL",
+    "label": "Saukkola",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.383333,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "FAA",
+    "label": "Sauvo",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.35,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Savitaipale",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.2,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "SVL",
+    "label": "Savonlinna (Nyslott)",
+    "subdivisionCode": "04",
+    "function": "1234",
+    "lat": 61.866667,
+    "lng": 28.9
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Savukoski",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 67.283333,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "KO8",
+    "label": "Saynatsalo",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.133333,
+    "lng": 25.766667
+  },
+  {
+    "locationCode": "SJY",
+    "label": "Seinäjoki",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Seinajoki",
+    "function": "234"
+  },
+  {
+    "locationCode": "STA",
+    "label": "Seutula (Sjöskog)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Seutula (Sjoskog)",
+    "function": "3",
+    "lat": 60.35,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "SIP",
+    "label": "Sibbo (Sipoo)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "YSE",
+    "label": "Sievi",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 63.9,
+    "lng": 24.5
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Siikainen",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 61.866667,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "SKJ",
+    "label": "Siikajoki",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.833333,
+    "lng": 24.733333
+  },
+  {
+    "locationCode": "SKT",
+    "label": "Siikalatva",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.266667,
+    "lng": 25.866667
+  },
+  {
+    "locationCode": "SII",
+    "label": "Siilinjärvi",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Siilinjarvi",
+    "function": "123",
+    "lat": 63.083333,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "SYY",
+    "label": "Siipyy (Sideby)",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 62.033333,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "SLY",
+    "label": "Siltakylä (Broby)",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Siltakyla (Broby)",
+    "function": "13",
+    "lat": 60.5,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "SOM",
+    "label": "Simo",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 65.666667,
+    "lng": 25.05
+  },
+  {
+    "locationCode": "SIM",
+    "label": "Simpele",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.433333,
+    "lng": 29.366667
+  },
+  {
+    "locationCode": "SIP",
+    "label": "Sipoo (Sibbo)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.366667,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Siuntio",
+    "subdivisionCode": "18",
+    "function": "236",
+    "lat": 60.183333,
+    "lng": 24.2
+  },
+  {
+    "locationCode": "SIO",
+    "label": "Siuro",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.466667,
+    "lng": 23.35
+  },
+  {
+    "locationCode": "SKI",
+    "label": "Skinnarvik",
+    "subdivisionCode": "19",
+    "function": "13",
+    "lat": 60.133333,
+    "lng": 22.466667
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Skogby",
+    "subdivisionCode": "18",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Sköldvik (Kilpilahti)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Skoldvik (Kilpilahti)",
+    "function": "1",
+    "lat": 60.3,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "POH",
+    "label": "Skuru (Pohjankuru)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.116667,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "SKU",
+    "label": "Skutviken",
+    "function": "1",
+    "lat": 59.933333,
+    "lng": 23.383333
+  },
+  {
+    "locationCode": "SNA",
+    "label": "Snappertuna",
+    "subdivisionCode": "18",
+    "function": "13",
+    "lat": 60,
+    "lng": 23.65
+  },
+  {
+    "locationCode": "SOT",
+    "label": "Sodankylä",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Sodankyla",
+    "function": "34",
+    "lat": 67.416667,
+    "lng": 26.6
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Söderkulla",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Soderkulla",
+    "function": "3",
+    "lat": 60.3,
+    "lng": 25.3
+  },
+  {
+    "locationCode": "SOI",
+    "label": "Soini",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.866667,
+    "lng": 24.2
+  },
+  {
+    "locationCode": "SRO",
+    "label": "Somero",
+    "subdivisionCode": "19",
+    "function": "3"
+  },
+  {
+    "locationCode": "SON",
+    "label": "Sonkajarvi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 63.666667,
+    "lng": 27.516667
+  },
+  {
+    "locationCode": "SOO",
+    "label": "Söörmarkku",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Soormarkku",
+    "function": "3",
+    "lat": 61.583333,
+    "lng": 21.816667
+  },
+  {
+    "locationCode": "SSK",
+    "label": "Sorsakoski",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 62.45,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "SMO",
+    "label": "Sotkamo",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.116667,
+    "lng": 28.383333
+  },
+  {
+    "locationCode": "RUO",
+    "label": "Strömfors (Ruotsinpyhtää)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Stromfors (Ruotsinpyhtaa)",
+    "function": "1",
+    "lat": 60.533333,
+    "lng": 26.45
+  },
+  {
+    "locationCode": "STR",
+    "label": "Strömma",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Stromma",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Sulkava",
+    "subdivisionCode": "18",
+    "function": "16",
+    "lat": 60.75,
+    "lng": 25.2
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Summa",
+    "subdivisionCode": "09",
+    "function": "13",
+    "lat": 60.533333,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "SUL",
+    "label": "Sunila",
+    "subdivisionCode": "09",
+    "function": "1",
+    "lat": 60.483333,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Suolahti",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.566667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Suomenlinna (Sveaborg)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.133333,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Suomussalmi",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 64.9,
+    "lng": 29
+  },
+  {
+    "locationCode": "SUJ",
+    "label": "Suonenjoki",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "SUI",
+    "label": "Susikas",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.866667,
+    "lng": 23.85
+  },
+  {
+    "locationCode": "SBG",
+    "label": "Sveaborg (Suomenlinna)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.133333,
+    "lng": 24.983333
+  },
+  {
+    "locationCode": "KP7",
+    "label": "Sykäräinen",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Sykarainen",
+    "function": "3",
+    "lat": 63.616667,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "SYS",
+    "label": "Sysmä",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Sysma",
+    "function": "3",
+    "lat": 61.5,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "DLS",
+    "label": "Taalintehdas (Dalsbruk)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.016667,
+    "lng": 22.516667
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Taavetti",
+    "function": "234",
+    "lat": 60.916667,
+    "lng": 27.566667
+  },
+  {
+    "locationCode": "THK",
+    "label": "Tahkoluoto",
+    "function": "1",
+    "lat": 61.633333,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "TPS",
+    "label": "Taipalsaari",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.15,
+    "lng": 28.066667
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Taivalkoski",
+    "subdivisionCode": "14",
+    "function": "23",
+    "lat": 65.566667,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "TVS",
+    "label": "Taivassalo (Tövsala)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Taivassalo (Tovsala)",
+    "function": "1",
+    "lat": 60.566667,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "TMM",
+    "label": "Tammela",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 60.8,
+    "lng": 23.766667
+  },
+  {
+    "locationCode": "TMP",
+    "label": "Tammerfors (Tampere)",
+    "subdivisionCode": "17",
+    "function": "124",
+    "lat": 61.5,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Tammisaari (Ekenäs)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Tammisaari (Ekenas)",
+    "function": "1",
+    "lat": 59.966667,
+    "lng": 23.433333
+  },
+  {
+    "locationCode": "TMP",
+    "label": "Tampere (Tammerfors)",
+    "subdivisionCode": "17",
+    "function": "124",
+    "lat": 61.5,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "TVO",
+    "label": "Tarvasjoki",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.583333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "HMY",
+    "label": "Tavastehus (Hämeenlinna)",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Tavastehus (Hameenlinna)",
+    "function": "3"
+  },
+  {
+    "locationCode": "TER",
+    "label": "Teerijärvi (Terjärv)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Teerijarvi (Terjarv)",
+    "function": "3",
+    "lat": 63.533333,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "TEI",
+    "label": "Teijo",
+    "subdivisionCode": "19",
+    "function": "1"
+  },
+  {
+    "locationCode": "TNL",
+    "label": "Tenala",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 60.066667,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terjärv (Teerijärvi)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Terjarv (Teerijarvi)",
+    "function": "3",
+    "lat": 63.533333,
+    "lng": 23.5
+  },
+  {
+    "locationCode": "TTL",
+    "label": "Terttila",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 60.55,
+    "lng": 23.55
+  },
+  {
+    "locationCode": "TRJ",
+    "label": "Tervajoki",
+    "subdivisionCode": "12",
+    "function": "23",
+    "lat": 63,
+    "lng": 22.133333
+  },
+  {
+    "locationCode": "TRK",
+    "label": "Tervakoski",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 60.8,
+    "lng": 24.616667
+  },
+  {
+    "locationCode": "TVM",
+    "label": "Tervalampi",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.333333,
+    "lng": 24.433333
+  },
+  {
+    "locationCode": "TEV",
+    "label": "Tervo",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.95,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "TRV",
+    "label": "Tervola",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 66.833333,
+    "lng": 24.8
+  },
+  {
+    "locationCode": "TSD",
+    "label": "Tervsund",
+    "function": "1",
+    "lat": 60.25,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "TJO",
+    "label": "Tessjö (Tesjoki)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Tessjo (Tesjoki)",
+    "function": "1",
+    "lat": 60.466667,
+    "lng": 26.316667
+  },
+  {
+    "locationCode": "TES",
+    "label": "Tessvär",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Tessvar",
+    "function": "13",
+    "lat": 60.05,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "TEU",
+    "label": "Teuva",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "TKK",
+    "label": "Tikkakoski",
+    "subdivisionCode": "08",
+    "function": "36",
+    "lat": 62.4,
+    "lng": 25.633333
+  },
+  {
+    "locationCode": "TKR",
+    "label": "Tikkurila (Dickursby)",
+    "subdivisionCode": "18",
+    "function": "23",
+    "lat": 60.3,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "TOH",
+    "label": "Tohmajärvi",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Tohmajarvi",
+    "function": "3",
+    "lat": 62.183333,
+    "lng": 30.383333
+  },
+  {
+    "locationCode": "TLP",
+    "label": "Toholampi",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.766667,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "TJA",
+    "label": "Toijala",
+    "subdivisionCode": "11",
+    "function": "23"
+  },
+  {
+    "locationCode": "TVK",
+    "label": "Toivakka",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.083333,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "TOI",
+    "label": "Toivala",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.983333,
+    "lng": 27.733333
+  },
+  {
+    "locationCode": "TOJ",
+    "label": "Töjby",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Tojby",
+    "function": "13",
+    "lat": 62.65,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "TOK",
+    "label": "Tolkis (Tolkkinen)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.333333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "TOK",
+    "label": "Tolkkinen (Tolkis)",
+    "subdivisionCode": "18",
+    "function": "1",
+    "lat": 60.333333,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Tolosenmaki",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.133333,
+    "lng": 30.066667
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torneå (Tornio)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Tornea (Tornio)",
+    "function": "1",
+    "lat": 65.85,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Tornio (Torneå)",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Tornio (Tornea)",
+    "function": "1",
+    "lat": 65.85,
+    "lng": 24.183333
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Tottesund",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 63.233333,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "TVS",
+    "label": "Tövsala (Taivassalo)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Tovsala (Taivassalo)",
+    "function": "1",
+    "lat": 60.566667,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Träsk",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Trask",
+    "function": "3",
+    "lat": 60.216667,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "JVP",
+    "label": "Träskända (Järvenpää)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Traskanda (Jarvenpaa)",
+    "function": "3",
+    "lat": 60.233333,
+    "lng": 24.7
+  },
+  {
+    "locationCode": "TUK",
+    "label": "Tuhkakylä",
+    "labelWithDiacritics": "Tuhkakyla",
+    "function": "3",
+    "lat": 64.033333,
+    "lng": 28.1
+  },
+  {
+    "locationCode": "TUP",
+    "label": "Tupavuori",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.466667,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "TUO",
+    "label": "Tupos",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.866667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "TRI",
+    "label": "Turenki",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 60.916667,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "TKU",
+    "label": "Turku (Åbo)",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Turku (Abo)",
+    "function": "134",
+    "lat": 60.45,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Tursa",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.1,
+    "lng": 23.3
+  },
+  {
+    "locationCode": "FAL",
+    "label": "Turtola",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 66.65,
+    "lng": 23.983333
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Tuuri",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 62.6,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "TSN",
+    "label": "Tuusniemi",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.8,
+    "lng": 28.483333
+  },
+  {
+    "locationCode": "TUU",
+    "label": "Tuusula",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.4,
+    "lng": 25.033333
+  },
+  {
+    "locationCode": "TVA",
+    "label": "Tvärminne",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Tvarminne",
+    "function": "13",
+    "lat": 59.833333,
+    "lng": 23.183333
+  },
+  {
+    "locationCode": "TY5",
+    "label": "Tyrnävä",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Tyrnava",
+    "function": "3",
+    "lat": 64.766667,
+    "lng": 25.65
+  },
+  {
+    "locationCode": "UIM",
+    "label": "Uimaharju",
+    "subdivisionCode": "13",
+    "function": "123",
+    "lat": 62.9,
+    "lng": 30.233333
+  },
+  {
+    "locationCode": "OUL",
+    "label": "Uleåborg (Oulu)",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Uleaborg (Oulu)",
+    "function": "1234",
+    "lat": 65.016667,
+    "lng": 25.466667
+  },
+  {
+    "locationCode": "ULV",
+    "label": "Ulvila",
+    "subdivisionCode": "17",
+    "function": "123",
+    "lat": 61.433333,
+    "lng": 21.883333
+  },
+  {
+    "locationCode": "URI",
+    "label": "Urajärvi",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Urajarvi",
+    "function": "3",
+    "lat": 61.133333,
+    "lng": 25.783333
+  },
+  {
+    "locationCode": "URA",
+    "label": "Urjala",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.083333,
+    "lng": 23.533333
+  },
+  {
+    "locationCode": "USK",
+    "label": "Uskila",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 61.233333,
+    "lng": 24.25
+  },
+  {
+    "locationCode": "UTJ",
+    "label": "Utajärvi",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Utajarvi",
+    "function": "3",
+    "lat": 64.75,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "UTS",
+    "label": "Utsjoki",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 69.883333,
+    "lng": 27
+  },
+  {
+    "locationCode": "UKT",
+    "label": "Utti",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.883333,
+    "lng": 26.933333
+  },
+  {
+    "locationCode": "UUK",
+    "label": "Uukuniemi",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 61.783333,
+    "lng": 30.016667
+  },
+  {
+    "locationCode": "URN",
+    "label": "Uurainen",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 62.483333,
+    "lng": 25.433333
+  },
+  {
+    "locationCode": "UKP",
+    "label": "Uusikaarlepyy (Nykarleby)",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 63.533333,
+    "lng": 22.533333
+  },
+  {
+    "locationCode": "UKI",
+    "label": "Uusikaupunki (Nystad)",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.8,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "UPK",
+    "label": "Uusikylä",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Uusikyla",
+    "function": "23456",
+    "lat": 62.183333,
+    "lng": 30.616667
+  },
+  {
+    "locationCode": "UUS",
+    "label": "Uusi-Valamo/Heinävesi",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Uusi-Valamo/Heinavesi",
+    "function": "13"
+  },
+  {
+    "locationCode": "VAJ",
+    "label": "Vaajakoski",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.266667,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "VKY",
+    "label": "Vääksy",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Vaaksy",
+    "function": "3",
+    "lat": 61.183333,
+    "lng": 25.55
+  },
+  {
+    "locationCode": "VVA",
+    "label": "Vaala",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 64.55,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Vaalimaa",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.583333,
+    "lng": 27.816667
+  },
+  {
+    "locationCode": "VAA",
+    "label": "Vaasa (Vasa)",
+    "subdivisionCode": "12",
+    "function": "134",
+    "lat": 63.1,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "VTO",
+    "label": "Vahto",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.6,
+    "lng": 22.3
+  },
+  {
+    "locationCode": "VAI",
+    "label": "Vainikkala",
+    "subdivisionCode": "02",
+    "function": "2"
+  },
+  {
+    "locationCode": "VKK",
+    "label": "Valkeakoski",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.266667,
+    "lng": 24.033333
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valkeala",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.95,
+    "lng": 26.8
+  },
+  {
+    "locationCode": "VKO",
+    "label": "Valko (Valkom)",
+    "subdivisionCode": "18",
+    "function": "13"
+  },
+  {
+    "locationCode": "VKO",
+    "label": "Valkom (Valko)",
+    "subdivisionCode": "18",
+    "function": "13"
+  },
+  {
+    "locationCode": "VAM",
+    "label": "Vammala",
+    "subdivisionCode": "11",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vanda (Vantaa)",
+    "subdivisionCode": "18",
+    "function": "34",
+    "lat": 60.3,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Vanhalinna",
+    "subdivisionCode": "19",
+    "function": "236",
+    "lat": 60.466667,
+    "lng": 22.366667
+  },
+  {
+    "locationCode": "VAT",
+    "label": "Vantaa (Vanda)",
+    "subdivisionCode": "18",
+    "function": "34",
+    "lat": 60.3,
+    "lng": 24.85
+  },
+  {
+    "locationCode": "VRD",
+    "label": "Vårdö",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Vardo",
+    "function": "3",
+    "lat": 60.25,
+    "lng": 20.383333
+  },
+  {
+    "locationCode": "VJK",
+    "label": "Varjakka",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 64.9,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "VRK",
+    "label": "Varkaus",
+    "subdivisionCode": "15",
+    "function": "1234",
+    "lat": 62.316667,
+    "lng": 27.9
+  },
+  {
+    "locationCode": "FAK",
+    "label": "Varpaisjärvi",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Varpaisjarvi",
+    "function": "6",
+    "lat": 63.366667,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "VIR",
+    "label": "Varpuniemi (Kello)",
+    "subdivisionCode": "10",
+    "function": "13",
+    "lat": 64.083333,
+    "lng": 28.4
+  },
+  {
+    "locationCode": "VRT",
+    "label": "Vartius",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 64.5,
+    "lng": 29.983333
+  },
+  {
+    "locationCode": "VAR",
+    "label": "Vartsala",
+    "subdivisionCode": "19",
+    "function": "13",
+    "lat": 60.333333,
+    "lng": 23
+  },
+  {
+    "locationCode": "VLS",
+    "label": "Värtsilä",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Vartsila",
+    "function": "6",
+    "lat": 62.2,
+    "lng": 30.6
+  },
+  {
+    "locationCode": "VAA",
+    "label": "Vasa (Vaasa)",
+    "subdivisionCode": "12",
+    "function": "134",
+    "lat": 63.1,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "VKI",
+    "label": "Vaskiluoto",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.083333,
+    "lng": 21.533333
+  },
+  {
+    "locationCode": "WAS",
+    "label": "Vasklot (Vaskiluoto)",
+    "subdivisionCode": "12",
+    "function": "13",
+    "lat": 63.1,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "VTF",
+    "label": "Västanfjärd",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Vastanfjard",
+    "function": "13",
+    "lat": 60.05,
+    "lng": 22.65
+  },
+  {
+    "locationCode": "XX6",
+    "label": "Vehkajärvi",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Vehkajarvi",
+    "function": "3",
+    "lat": 61.483333,
+    "lng": 24.866667
+  },
+  {
+    "locationCode": "VHM",
+    "label": "Vehmaa",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 60.666667,
+    "lng": 21.7
+  },
+  {
+    "locationCode": "VKA",
+    "label": "Veikkola",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.283333,
+    "lng": 24.416667
+  },
+  {
+    "locationCode": "VEI",
+    "label": "Veitsiluoto",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 65.683333,
+    "lng": 24.633333
+  },
+  {
+    "locationCode": "VKF",
+    "label": "Vekaranjärvi",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Vekaranjarvi",
+    "function": "3",
+    "lat": 61.083333,
+    "lng": 26.966667
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velkua",
+    "subdivisionCode": "19",
+    "function": "1",
+    "lat": 60.466667,
+    "lng": 21.666667
+  },
+  {
+    "locationCode": "VSA",
+    "label": "Vesanto",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.916667,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "VSH",
+    "label": "Vesilahti",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 61.316667,
+    "lng": 23.616667
+  },
+  {
+    "locationCode": "VES",
+    "label": "Vessölandet",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Vessolandet",
+    "function": "3",
+    "lat": 60.283333,
+    "lng": 25.733333
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Vestlax",
+    "subdivisionCode": "19",
+    "function": "13",
+    "lat": 60.083333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "VET",
+    "label": "Veteli (Vetil)",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 63.483333,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "VIE",
+    "label": "Vieremä",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Vierema",
+    "function": "6",
+    "lat": 63.75,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "VMA",
+    "label": "Vierumäki",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Vierumaki",
+    "function": "23",
+    "lat": 61.116667,
+    "lng": 25.933333
+  },
+  {
+    "locationCode": "VTV",
+    "label": "Vihtavuori",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 62.366667,
+    "lng": 25.9
+  },
+  {
+    "locationCode": "VHI",
+    "label": "Vihti (Vichtis)",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 60.416667,
+    "lng": 24.316667
+  },
+  {
+    "locationCode": "VIA",
+    "label": "Viiala",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 61.216667,
+    "lng": 23.783333
+  },
+  {
+    "locationCode": "VSI",
+    "label": "Viitasaari",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 63.066667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "JKK",
+    "label": "Viljakkala",
+    "function": "3",
+    "lat": 61.7,
+    "lng": 23.266667
+  },
+  {
+    "locationCode": "VLH",
+    "label": "Villähde",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Villahde",
+    "function": "23",
+    "lat": 60.95,
+    "lng": 25.8
+  },
+  {
+    "locationCode": "LPP",
+    "label": "Villmanstrand (Lappeenranta)",
+    "subdivisionCode": "02",
+    "function": "1234",
+    "lat": 61.05,
+    "lng": 28.183333
+  },
+  {
+    "locationCode": "VPU",
+    "label": "Vilppula",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 62.016667,
+    "lng": 24.516667
+  },
+  {
+    "locationCode": "FAJ",
+    "label": "Vimpeli",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": 63.15,
+    "lng": 23.8
+  },
+  {
+    "locationCode": "VNI",
+    "label": "Vinkkilä",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Vinkkila",
+    "function": "23",
+    "lat": 60.683333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "VLI",
+    "label": "Virolahti",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.583333,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Virrat (Virdois)",
+    "subdivisionCode": "11",
+    "function": "123",
+    "lat": 62.233333,
+    "lng": 23.75
+  },
+  {
+    "locationCode": "VST",
+    "label": "Virtasalami",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 62.15,
+    "lng": 27.45
+  },
+  {
+    "locationCode": "VOI",
+    "label": "Voikka",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 60.933333,
+    "lng": 26.616667
+  },
+  {
+    "locationCode": "N8V",
+    "label": "Voltti",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 63.283333,
+    "lng": 22.833333
+  },
+  {
+    "locationCode": "VOR",
+    "label": "Vora",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 63.133333,
+    "lng": 22.25
+  },
+  {
+    "locationCode": "VOU",
+    "label": "Vöyri",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Voyri",
+    "function": "3",
+    "lat": 63.116667,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "VUO",
+    "label": "Vuokatti",
+    "subdivisionCode": "14",
+    "function": "236",
+    "lat": 64.116667,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "VKT",
+    "label": "Vuoksen Terminal",
+    "subdivisionCode": "02",
+    "function": "123",
+    "lat": 61.216667,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "VJI",
+    "label": "Vuolijoki",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 64.183333,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "VSS",
+    "label": "Vuosaari (Nordsjö)",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Vuosaari (Nordsjo)",
+    "function": "1",
+    "lat": 60.216667,
+    "lng": 25.183333
+  },
+  {
+    "locationCode": "YMY",
+    "label": "Ylämylly",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Ylamylly",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 29.566667
+  },
+  {
+    "locationCode": "YLA",
+    "label": "Ylane",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 60.883333,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "YRA",
+    "label": "Ylihärmä",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Yliharma",
+    "function": "23",
+    "lat": 63.133333,
+    "lng": 22.766667
+  },
+  {
+    "locationCode": "YLK",
+    "label": "Ylikiiminki",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 65.033333,
+    "lng": 26.116667
+  },
+  {
+    "locationCode": "YMU",
+    "label": "Ylimarkku (Övermark)",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Ylimarkku (Overmark)",
+    "function": "3",
+    "lat": 62.616667,
+    "lng": 21.466667
+  },
+  {
+    "locationCode": "YSO",
+    "label": "Ylistaro",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 61.233333,
+    "lng": 22.416667
+  },
+  {
+    "locationCode": "YTO",
+    "label": "Ylitornio",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 66.316667,
+    "lng": 23.666667
+  },
+  {
+    "locationCode": "YLI",
+    "label": "Ylivieska",
+    "subdivisionCode": "14",
+    "function": "4",
+    "lat": 64.083333,
+    "lng": 24.55
+  },
+  {
+    "locationCode": "YJA",
+    "label": "Ylöjärvi",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Ylojarvi",
+    "function": "236",
+    "lat": 61.55,
+    "lng": 23.583333
+  },
+  {
+    "locationCode": "YPA",
+    "label": "Ypäjä",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Ypaja",
+    "function": "3",
+    "lat": 60.8,
+    "lng": 23.283333
+  },
+  {
+    "locationCode": "YXP",
+    "label": "Yxpila",
+    "function": "123",
+    "lat": 63.833333,
+    "lng": 23.033333
+  }
+]

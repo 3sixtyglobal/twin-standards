@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsArticle",
+	"title": "ActivityStreamsArticle",
+	"description": "A W3C Activity Streams Article.\n\nAn `Article` is a written work.",
+	"type": "object",
+	"properties": {
+		"type": {
+			"anyOf": [
+				{
+					"const": "Article"
+				},
+				{
+					"type": "string"
+				},
+				{
+					"type": "array",
+					"items": {
+						"anyOf": [
+							{
+								"const": "Article"
+							},
+							{
+								"type": "string"
+							}
+						]
+					}
+				}
+			],
+			"description": "Article type."
+		}
+	},
+	"required": [
+		"type"
+	],
+	"allOf": [
+		{
+			"$ref": "https://schema.twindev.org/w3c-activity-streams/ActivityStreamsDocument"
+		}
+	]
+}

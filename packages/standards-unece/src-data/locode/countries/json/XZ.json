@@ -1,0 +1,312 @@
+[
+  {
+    "locationCode": "AAD",
+    "label": "Aasgard",
+    "function": "1",
+    "lat": 65.083333,
+    "lng": 6.733333
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Al Shaheen terminal",
+    "function": "1",
+    "lat": 26.583333,
+    "lng": 52
+  },
+  {
+    "locationCode": "ALV",
+    "label": "Alve",
+    "function": "7",
+    "lat": 65.966667,
+    "lng": 7.5
+  },
+  {
+    "locationCode": "ANU",
+    "label": "Anoa Natuna",
+    "function": "1",
+    "lat": 5.233333,
+    "lng": 105.6
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Ardjuna",
+    "function": "1",
+    "lat": -5.9,
+    "lng": 105.95
+  },
+  {
+    "locationCode": "BRA",
+    "label": "Brage",
+    "function": "7",
+    "lat": 60.583333,
+    "lng": 3.083333
+  },
+  {
+    "locationCode": "BUV",
+    "label": "Buffalo Venture",
+    "function": "1"
+  },
+  {
+    "locationCode": "CMT",
+    "label": "Camar Marine Terminal",
+    "function": "1",
+    "lat": -6.3,
+    "lng": 113
+  },
+  {
+    "locationCode": "OCA",
+    "label": "Co-operation Zone A (AU,ID)",
+    "function": "1"
+  },
+  {
+    "locationCode": "DHS",
+    "label": "Dai Hung (STS Load)",
+    "function": "1",
+    "lat": 8.866667,
+    "lng": 103.3
+  },
+  {
+    "locationCode": "DHT",
+    "label": "Dai Hung (Tandem Load)",
+    "function": "1",
+    "lat": 8.466667,
+    "lng": 108.683333
+  },
+  {
+    "locationCode": "DRT",
+    "label": "De Ruiter",
+    "function": "3"
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Draugen",
+    "function": "1",
+    "lat": 64.333333,
+    "lng": 7.75
+  },
+  {
+    "locationCode": "DTL",
+    "label": "Dulang Marine Terminal",
+    "function": "1",
+    "lat": 5.8,
+    "lng": 104.166667
+  },
+  {
+    "locationCode": "FRM",
+    "label": "Fram",
+    "function": "7",
+    "lat": 61.083333,
+    "lng": 3.5
+  },
+  {
+    "locationCode": "GJO",
+    "label": "Gjoa",
+    "function": "7",
+    "lat": 61.366667,
+    "lng": 4
+  },
+  {
+    "locationCode": "GRA",
+    "label": "Grane",
+    "function": "7",
+    "lat": 59.166667,
+    "lng": 2.5
+  },
+  {
+    "locationCode": "HEI",
+    "label": "Heidrun",
+    "function": "1",
+    "lat": 65.316667,
+    "lng": 7.333333
+  },
+  {
+    "locationCode": "HUL",
+    "label": "Huldra",
+    "function": "7",
+    "lat": 60.866667,
+    "lng": 2.666667
+  },
+  {
+    "locationCode": "KMT",
+    "label": "Kakap Marine Terminal",
+    "function": "1",
+    "lat": 5.016667,
+    "lng": 105.95
+  },
+  {
+    "locationCode": "KRI",
+    "label": "Kristin",
+    "function": "7",
+    "lat": 65.033333,
+    "lng": 6.416667
+  },
+  {
+    "locationCode": "KBJ",
+    "label": "Kvitebjorn",
+    "function": "7",
+    "lat": 61.083333,
+    "lng": 2.5
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Laminaria Terminal",
+    "function": "1",
+    "lat": -11,
+    "lng": 126
+  },
+  {
+    "locationCode": "LGT",
+    "label": "Legendre Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "MKL",
+    "label": "Mikkel",
+    "function": "7",
+    "lat": 64.666667,
+    "lng": 7.75
+  },
+  {
+    "locationCode": "MVI",
+    "label": "Morvin",
+    "function": "7",
+    "lat": 65.133333,
+    "lng": 6.466667
+  },
+  {
+    "locationCode": "NJO",
+    "label": "Njord",
+    "function": "1",
+    "lat": 64.25,
+    "lng": 7.2
+  },
+  {
+    "locationCode": "NNE",
+    "label": "Norne",
+    "function": "1",
+    "lat": 66,
+    "lng": 7.983333
+  },
+  {
+    "locationCode": "NTE",
+    "label": "Northern Endeavour",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Sibuko Bay",
+    "function": "1",
+    "lat": 3.85,
+    "lng": 118.1
+  },
+  {
+    "locationCode": "SHV",
+    "label": "Snohvit",
+    "function": "7",
+    "lat": 71.616667,
+    "lng": 21.416667
+  },
+  {
+    "locationCode": "STP",
+    "label": "Stage Platform",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUU",
+    "label": "Suursaq",
+    "function": "146",
+    "lat": 80.816667,
+    "lng": -66.633333
+  },
+  {
+    "locationCode": "SYG",
+    "label": "Sygna",
+    "function": "7",
+    "lat": 61.5,
+    "lng": 2
+  },
+  {
+    "locationCode": "TGR",
+    "label": "Tandjung Gerem",
+    "function": "1",
+    "lat": 5.966667,
+    "lng": 105.983333
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tune",
+    "function": "7",
+    "lat": 60.5,
+    "lng": 2.666667
+  },
+  {
+    "locationCode": "THA",
+    "label": "Tyrihans",
+    "function": "7",
+    "lat": 64.816667,
+    "lng": 7.05
+  },
+  {
+    "locationCode": "URD",
+    "label": "Urd",
+    "function": "7",
+    "lat": 66.033333,
+    "lng": 8.383333
+  },
+  {
+    "locationCode": "VFK",
+    "label": "Veslefrikk",
+    "function": "7",
+    "lat": 60.783333,
+    "lng": 2.883333
+  },
+  {
+    "locationCode": "VGD",
+    "label": "Vigdis",
+    "function": "7",
+    "lat": 61.416667,
+    "lng": 2.166667
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Vilje",
+    "function": "7",
+    "lat": 59.666667,
+    "lng": 2.283333
+  },
+  {
+    "locationCode": "VSU",
+    "label": "Visund",
+    "function": "7",
+    "lat": 61.466667,
+    "lng": 2.5
+  },
+  {
+    "locationCode": "VOV",
+    "label": "Volve",
+    "function": "7",
+    "lat": 58.416667,
+    "lng": 1.916667
+  },
+  {
+    "locationCode": "WRT",
+    "label": "Widuri Marine Terminal",
+    "function": "1",
+    "lat": -4.666667,
+    "lng": 106.65
+  },
+  {
+    "locationCode": "YET",
+    "label": "Yetagun Field",
+    "function": "1",
+    "lat": 13.05,
+    "lng": 96.85
+  },
+  {
+    "locationCode": "YGT",
+    "label": "Yttergryta",
+    "function": "7",
+    "lat": 65.116667,
+    "lng": 7.7
+  }
+]

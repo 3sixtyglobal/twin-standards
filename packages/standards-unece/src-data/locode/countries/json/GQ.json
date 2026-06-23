@@ -1,0 +1,103 @@
+[
+  {
+    "locationCode": "ATE",
+    "label": "Aseng FPSO",
+    "function": "7",
+    "lat": 3.366667,
+    "lng": 9.133333
+  },
+  {
+    "locationCode": "BSG",
+    "label": "Bata",
+    "function": "145"
+  },
+  {
+    "locationCode": "BUL",
+    "label": "Butuku-Luba",
+    "function": "1"
+  },
+  {
+    "locationCode": "COG",
+    "label": "Cogo",
+    "function": "1"
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Ebebiyín",
+    "subdivisionCode": "KN",
+    "labelWithDiacritics": "Ebebiyin",
+    "function": "23",
+    "lat": 2.15,
+    "lng": 11.316667
+  },
+  {
+    "locationCode": "LUB",
+    "label": "Luba",
+    "subdivisionCode": "BS",
+    "function": "1"
+  },
+  {
+    "locationCode": "SSG",
+    "label": "Malabo",
+    "subdivisionCode": "BN",
+    "function": "14"
+  },
+  {
+    "locationCode": "GEM",
+    "label": "Mongomeyen",
+    "subdivisionCode": "WN",
+    "function": "34",
+    "lat": 1.7,
+    "lng": 11.016667
+  },
+  {
+    "locationCode": "MON",
+    "label": "Mongomo",
+    "subdivisionCode": "WN",
+    "function": "3",
+    "lat": 1.616667,
+    "lng": 11.3
+  },
+  {
+    "locationCode": "PET",
+    "label": "Punta Europa Terminal",
+    "function": "1",
+    "lat": 3.783333,
+    "lng": 8.716667
+  },
+  {
+    "locationCode": "RMN",
+    "label": "Rio Muni",
+    "function": "3"
+  },
+  {
+    "locationCode": "ABU",
+    "label": "San Antonio de Palé",
+    "subdivisionCode": "AN",
+    "labelWithDiacritics": "San Antonio de Pale",
+    "function": "3",
+    "lat": -1.4,
+    "lng": 5.6
+  },
+  {
+    "locationCode": "SIS",
+    "label": "Santa Isabel",
+    "function": "5"
+  },
+  {
+    "locationCode": "SER",
+    "label": "Serpentina Terminal",
+    "subdivisionCode": "AN",
+    "function": "1",
+    "lat": 3.8,
+    "lng": 8.083333
+  },
+  {
+    "locationCode": "ZAF",
+    "label": "Zafiro Terminal",
+    "subdivisionCode": "AN",
+    "function": "1",
+    "lat": 3.85,
+    "lng": 8.166667
+  }
+]

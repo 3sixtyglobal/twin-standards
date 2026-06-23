@@ -1,0 +1,53 @@
+[
+  {
+    "locationCode": "ASM",
+    "label": "Anse-Marcel",
+    "function": "3",
+    "lat": 18.1,
+    "lng": -63.033333
+  },
+  {
+    "locationCode": "GCY",
+    "label": "Cul-de-Sac",
+    "function": "3",
+    "lat": 18.1,
+    "lng": -63.033333
+  },
+  {
+    "locationCode": "GES",
+    "label": "Galisbay",
+    "function": "1",
+    "lat": 18.066667,
+    "lng": -63.083333
+  },
+  {
+    "locationCode": "CCE",
+    "label": "Grand-Case",
+    "function": "3",
+    "lat": 18.1,
+    "lng": -63.066667
+  },
+  {
+    "locationCode": "SFG",
+    "label": "L'Espérance Apt/St Martin",
+    "labelWithDiacritics": "L'Esperance Apt/St Martin",
+    "function": "345",
+    "lat": 18.1,
+    "lng": -63.05
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marigot",
+    "function": "1",
+    "lat": 18.066667,
+    "lng": -63.083333
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Quartier d'Orléans",
+    "labelWithDiacritics": "Quartier d'Orleans",
+    "function": "3",
+    "lat": 18.083333,
+    "lng": -63.016667
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "code": "AH",
+    "label": "Ahuachapán",
+    "type": "Department"
+  },
+  {
+    "code": "CA",
+    "label": "Cabañas",
+    "type": "Department"
+  },
+  {
+    "code": "CH",
+    "label": "Chalatenango",
+    "type": "Department"
+  },
+  {
+    "code": "CU",
+    "label": "Cuscatlán",
+    "type": "Department"
+  },
+  {
+    "code": "LI",
+    "label": "La Libertad",
+    "type": "Department"
+  },
+  {
+    "code": "MO",
+    "label": "Morazán",
+    "type": "Department"
+  },
+  {
+    "code": "PA",
+    "label": "La Paz",
+    "type": "Department"
+  },
+  {
+    "code": "SA",
+    "label": "Santa Ana",
+    "type": "Department"
+  },
+  {
+    "code": "SM",
+    "label": "San Miguel",
+    "type": "Department"
+  },
+  {
+    "code": "SO",
+    "label": "Sonsonate",
+    "type": "Department"
+  },
+  {
+    "code": "SS",
+    "label": "San Salvador",
+    "type": "Department"
+  },
+  {
+    "code": "SV",
+    "label": "San Vicente",
+    "type": "Department"
+  },
+  {
+    "code": "UN",
+    "label": "La Unión",
+    "type": "Department"
+  },
+  {
+    "code": "US",
+    "label": "Usulután",
+    "type": "Department"
+  }
+]

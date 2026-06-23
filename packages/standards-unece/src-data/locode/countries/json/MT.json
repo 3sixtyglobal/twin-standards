@@ -1,0 +1,726 @@
+[
+  {
+    "locationCode": "ATT",
+    "label": "Attard",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 35.883333,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "BIC",
+    "label": "Bahar ic-Caghaq",
+    "subdivisionCode": "38",
+    "function": "3",
+    "lat": 35.933333,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahrija",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.333333
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balzan",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 35.9,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Birgu (Vittoriosa)",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "BIR",
+    "label": "Birkirkara",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "BZE",
+    "label": "Birzebbugia",
+    "subdivisionCode": "05",
+    "function": "13",
+    "lat": 35.833333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Blata l'Bajda",
+    "subdivisionCode": "18",
+    "function": "13"
+  },
+  {
+    "locationCode": "COS",
+    "label": "Bormla (Cospicua)",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "BUG",
+    "label": "Bugibba",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 35.95,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Bur Marrad",
+    "subdivisionCode": "51",
+    "function": "3",
+    "lat": 35.933333,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "CKW",
+    "label": "Cirkewwa",
+    "function": "13"
+  },
+  {
+    "locationCode": "JCO",
+    "label": "Comino",
+    "function": "4"
+  },
+  {
+    "locationCode": "DMP",
+    "label": "Delimara",
+    "subdivisionCode": "33",
+    "function": "13",
+    "lat": 35.816667,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "DGL",
+    "label": "Dingli",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 35.85,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "FGU",
+    "label": "Fgura",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "FLY",
+    "label": "Fleur-de-Lys",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "FLO",
+    "label": "Floriana",
+    "subdivisionCode": "09",
+    "function": "134",
+    "lat": 35.883333,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "FNT",
+    "label": "Fontana",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "GSM",
+    "label": "Ghajnsielem",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 36.016667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Gharb",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 36.05,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "GHA",
+    "label": "Ghargur",
+    "function": "1"
+  },
+  {
+    "locationCode": "GSR",
+    "label": "Ghasri",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 36.05,
+    "lng": 14.216667
+  },
+  {
+    "locationCode": "GXQ",
+    "label": "Ghaxaq",
+    "subdivisionCode": "17",
+    "function": "6",
+    "lat": 35.833333,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "GUD",
+    "label": "Gudja",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 35.833333,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "GWA",
+    "label": "Gwardamanga",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "GZI",
+    "label": "Gzira",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 35.9,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "HHF",
+    "label": "Hal Far",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 35.816667,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Hamrun",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 35.883333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Il-Kappara",
+    "subdivisionCode": "49",
+    "function": "3",
+    "lat": 35.85,
+    "lng": 14.566667
+  },
+  {
+    "locationCode": "MDL",
+    "label": "Il-Madliena",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "ISR",
+    "label": "Is-Swatar",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "KLN",
+    "label": "Kalafrana",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 35.816667,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalkara",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kercem",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.216667
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirkop",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 35.833333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "LIJ",
+    "label": "Lija",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "IKL",
+    "label": "L-Iklin",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "LUQ",
+    "label": "Luqa",
+    "subdivisionCode": "25",
+    "function": "34",
+    "lat": 35.85,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "DIS",
+    "label": "Malta Freeport Distripark",
+    "subdivisionCode": "05",
+    "function": "13",
+    "lat": 35.833333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Marsa",
+    "subdivisionCode": "31",
+    "function": "1",
+    "lat": 35.866667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "MSF",
+    "label": "Marsalforn",
+    "subdivisionCode": "65",
+    "function": "3",
+    "lat": 36.066667,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "MSX",
+    "label": "Marsamxett",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 35.9,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "MSS",
+    "label": "Marsaskala",
+    "subdivisionCode": "32",
+    "function": "16",
+    "lat": 35.866667,
+    "lng": 14.55
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marsaxlokk",
+    "subdivisionCode": "05",
+    "function": "1",
+    "lat": 35.833333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "MDI",
+    "label": "Mdina",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.4
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Mellieha",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 35.95,
+    "lng": 14.35
+  },
+  {
+    "locationCode": "MGR",
+    "label": "Mgarr",
+    "subdivisionCode": "21",
+    "function": "6",
+    "lat": 35.916667,
+    "lng": 14.366667
+  },
+  {
+    "locationCode": "MGZ",
+    "label": "Mgarr, Gozo",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 36.016667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "MOA",
+    "label": "Mosta",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "MQA",
+    "label": "Mqabba",
+    "subdivisionCode": "22",
+    "function": "6",
+    "lat": 35.85,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "MRI",
+    "label": "Mriehel",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 35.883333,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "MSD",
+    "label": "Msida",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 35.883333,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "MTA",
+    "label": "Mtarfa",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "MUN",
+    "label": "Munxar",
+    "subdivisionCode": "36",
+    "function": "6",
+    "lat": 36.016667,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "NAD",
+    "label": "Nadur",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "NXR",
+    "label": "Naxxar",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "PAO",
+    "label": "Paola",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "PEM",
+    "label": "Pembroke",
+    "subdivisionCode": "40",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "PTA",
+    "label": "Pietà",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Pieta",
+    "function": "6",
+    "lat": 35.883333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "QAL",
+    "label": "Qala",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.3
+  },
+  {
+    "locationCode": "RMI",
+    "label": "Qormi",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "QRD",
+    "label": "Qrendi",
+    "subdivisionCode": "44",
+    "function": "6",
+    "lat": 35.833333,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rabat",
+    "subdivisionCode": "45",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safi",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 35.816667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "STJ",
+    "label": "Saint Julians",
+    "subdivisionCode": "60",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "SLW",
+    "label": "Saint Lawrence",
+    "subdivisionCode": "50",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.2
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Saint Lucia",
+    "subdivisionCode": "53",
+    "function": "3",
+    "lat": 35.85,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "SPB",
+    "label": "Saint Paul's Bay (San Pawl il-Bahar)",
+    "subdivisionCode": "51",
+    "function": "1",
+    "lat": 35.933333,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "SJN",
+    "label": "San Giljan (St Julian)",
+    "subdivisionCode": "48",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "SGW",
+    "label": "San Gwann, Valletta",
+    "subdivisionCode": "49",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sannat",
+    "subdivisionCode": "52",
+    "function": "3",
+    "lat": 36.016667,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "STV",
+    "label": "Santa Venera",
+    "subdivisionCode": "53",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 143.4
+  },
+  {
+    "locationCode": "SEN",
+    "label": "Senglea",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.516667
+  },
+  {
+    "locationCode": "SGG",
+    "label": "Siggiewi",
+    "subdivisionCode": "55",
+    "function": "3",
+    "lat": 35.85,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Sliema",
+    "subdivisionCode": "56",
+    "function": "1",
+    "lat": 35.9,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "SWI",
+    "label": "Swieqi",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 35.916667,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Ta' l-Ibrag",
+    "function": "3",
+    "lat": 35.9,
+    "lng": 14.45
+  },
+  {
+    "locationCode": "TAQ",
+    "label": "Ta' Qali",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.416667
+  },
+  {
+    "locationCode": "TAX",
+    "label": "Ta' Xbiex",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.483333
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Tal-Handaq",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.466667
+  },
+  {
+    "locationCode": "TVU",
+    "label": "Tal-Virtù",
+    "subdivisionCode": "46",
+    "labelWithDiacritics": "Tal-Virtu",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.383333
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarxien",
+    "subdivisionCode": "58",
+    "function": "1",
+    "lat": 35.85,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "MLA",
+    "label": "Valletta",
+    "subdivisionCode": "60",
+    "function": "1456",
+    "lat": 35.883333,
+    "lng": 14.5
+  },
+  {
+    "locationCode": "VTR",
+    "label": "Victoria",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 36.033333,
+    "lng": 14.233333
+  },
+  {
+    "locationCode": "XGA",
+    "label": "Xaghra",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 36.05,
+    "lng": 14.25
+  },
+  {
+    "locationCode": "XWK",
+    "label": "Xewkija",
+    "subdivisionCode": "62",
+    "function": "3",
+    "lat": 36.25,
+    "lng": 141.866667
+  },
+  {
+    "locationCode": "XAG",
+    "label": "Xghajra",
+    "subdivisionCode": "63",
+    "function": "3",
+    "lat": 35.883333,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "ZBR",
+    "label": "Zabbar",
+    "subdivisionCode": "64",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "ZEG",
+    "label": "Zebbug",
+    "subdivisionCode": "65",
+    "function": "3",
+    "lat": 35.866667,
+    "lng": 14.433333
+  },
+  {
+    "locationCode": "ZTN",
+    "label": "Zejtun",
+    "subdivisionCode": "67",
+    "function": "35",
+    "lat": 35.85,
+    "lng": 14.533333
+  },
+  {
+    "locationCode": "ZUR",
+    "label": "Zurrieq",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 35.833333,
+    "lng": 14.466667
+  }
+]

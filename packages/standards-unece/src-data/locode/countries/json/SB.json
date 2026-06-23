@@ -1,0 +1,322 @@
+[
+  {
+    "locationCode": "AFT",
+    "label": "Afutara",
+    "function": "4"
+  },
+  {
+    "locationCode": "ALB",
+    "label": "Allardyce Harbour, Sta Isabel Is",
+    "function": "1"
+  },
+  {
+    "locationCode": "ANH",
+    "label": "Anuha Island",
+    "function": "4",
+    "lat": -8.983333,
+    "lng": 160.216667
+  },
+  {
+    "locationCode": "AOB",
+    "label": "Aola Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "RNA",
+    "label": "Arona",
+    "subdivisionCode": "CE",
+    "function": "4",
+    "lat": -9.216667,
+    "lng": 161.216667
+  },
+  {
+    "locationCode": "ATD",
+    "label": "Ato'ifi",
+    "subdivisionCode": "ML",
+    "function": "4",
+    "lat": -8.85,
+    "lng": 161.016667
+  },
+  {
+    "locationCode": "AKS",
+    "label": "Auki, Malaita Is",
+    "function": "14"
+  },
+  {
+    "locationCode": "AVU",
+    "label": "Avu Avu, Guadalcanal Is",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Balalai Island",
+    "function": "4",
+    "lat": -6.983333,
+    "lng": 155.883333
+  },
+  {
+    "locationCode": "VEV",
+    "label": "Barakoma",
+    "function": "4"
+  },
+  {
+    "locationCode": "RRI",
+    "label": "Barora Ite Island",
+    "function": "4",
+    "lat": -7.583333,
+    "lng": 158.4
+  },
+  {
+    "locationCode": "BPF",
+    "label": "Batuna",
+    "function": "4"
+  },
+  {
+    "locationCode": "BNY",
+    "label": "Bellona",
+    "function": "4",
+    "lat": -11.283333,
+    "lng": 159.783333
+  },
+  {
+    "locationCode": "CHY",
+    "label": "Choiseul Bay",
+    "function": "14",
+    "lat": -6.7,
+    "lng": 156.433333
+  },
+  {
+    "locationCode": "FRE",
+    "label": "Fera Island",
+    "subdivisionCode": "IS",
+    "function": "4",
+    "lat": -8.1,
+    "lng": 159.583333
+  },
+  {
+    "locationCode": "SSG",
+    "label": "Filuo",
+    "function": "3",
+    "lat": -7.766667,
+    "lng": 158.65
+  },
+  {
+    "locationCode": "GEF",
+    "label": "Geva",
+    "function": "4"
+  },
+  {
+    "locationCode": "GZO",
+    "label": "Gizo",
+    "function": "14",
+    "lat": -8.1,
+    "lng": 156.85
+  },
+  {
+    "locationCode": "GSI",
+    "label": "Guadalcanal",
+    "function": "4",
+    "lat": -9.516667,
+    "lng": 160.183333
+  },
+  {
+    "locationCode": "HIR",
+    "label": "Honiara, Guadalcanal Is",
+    "function": "145"
+  },
+  {
+    "locationCode": "JJA",
+    "label": "Jajao",
+    "function": "4",
+    "lat": -8.2,
+    "lng": 159.266667
+  },
+  {
+    "locationCode": "KGE",
+    "label": "Kaghau Island",
+    "function": "4",
+    "lat": -7.333333,
+    "lng": 157.583333
+  },
+  {
+    "locationCode": "IRA",
+    "label": "Kirakira, San Cristobal Is",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUE",
+    "label": "Kukundu",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWR",
+    "label": "Kwai Harbour",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWS",
+    "label": "Kwailabesi",
+    "function": "4"
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Lata",
+    "subdivisionCode": "TE",
+    "function": "134",
+    "lat": -10.716667,
+    "lng": 165.8
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Lever Harbour",
+    "function": "1",
+    "lat": -8.016667,
+    "lng": 157.6
+  },
+  {
+    "locationCode": "LOF",
+    "label": "Lofung",
+    "function": "1"
+  },
+  {
+    "locationCode": "RUS",
+    "label": "Marau Sound, Guadalcanal Is",
+    "function": "14"
+  },
+  {
+    "locationCode": "MBU",
+    "label": "Mbambanakira, Guadalcanal Is",
+    "function": "4"
+  },
+  {
+    "locationCode": "MNY",
+    "label": "Mono",
+    "function": "4"
+  },
+  {
+    "locationCode": "MUA",
+    "label": "Munda, New Georgia",
+    "function": "4"
+  },
+  {
+    "locationCode": "NAZ",
+    "label": "Nana Apt / Star Harbour",
+    "function": "4",
+    "lat": -10.783333,
+    "lng": 162.3
+  },
+  {
+    "locationCode": "NEM",
+    "label": "Nemba",
+    "function": "13",
+    "lat": -10.766667,
+    "lng": 165.7
+  },
+  {
+    "locationCode": "GTA",
+    "label": "Nggatokae Island",
+    "function": "4",
+    "lat": -8.766667,
+    "lng": 158.183333
+  },
+  {
+    "locationCode": "NOR",
+    "label": "Noro, New Georgia",
+    "function": "1"
+  },
+  {
+    "locationCode": "ONE",
+    "label": "Onepusu, Malaita Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "OTV",
+    "label": "Ontong Java",
+    "function": "4"
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Parasi, Malaita Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "PSG",
+    "label": "Pulisingau",
+    "function": "3",
+    "lat": -7.883333,
+    "lng": 157.166667
+  },
+  {
+    "locationCode": "RBV",
+    "label": "Ramata",
+    "function": "4"
+  },
+  {
+    "locationCode": "RNL",
+    "label": "Rennell Island",
+    "function": "4"
+  },
+  {
+    "locationCode": "RIN",
+    "label": "Ringgi Cove, Kolombangara",
+    "function": "14",
+    "lat": -8.116667,
+    "lng": 157.116667
+  },
+  {
+    "locationCode": "NNB",
+    "label": "Santa Ana",
+    "function": "4"
+  },
+  {
+    "locationCode": "SCZ",
+    "label": "Santa Cruz Is",
+    "function": "14"
+  },
+  {
+    "locationCode": "SVY",
+    "label": "Savo",
+    "function": "4"
+  },
+  {
+    "locationCode": "EGM",
+    "label": "Seghe",
+    "function": "4",
+    "lat": -8.566667,
+    "lng": 157.883333
+  },
+  {
+    "locationCode": "SHH",
+    "label": "Shortland Harbour",
+    "function": "1",
+    "lat": -7.083333,
+    "lng": 155.866667
+  },
+  {
+    "locationCode": "VAO",
+    "label": "Suavanao",
+    "function": "4"
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Tarapaina",
+    "function": "4"
+  },
+  {
+    "locationCode": "TLG",
+    "label": "Tulagi, Ngella",
+    "function": "14"
+  },
+  {
+    "locationCode": "VIU",
+    "label": "Viru Harbour",
+    "function": "14"
+  },
+  {
+    "locationCode": "XYA",
+    "label": "Yandina, Russell Island",
+    "function": "134",
+    "lat": -9.116667,
+    "lng": 159.216667
+  }
+]

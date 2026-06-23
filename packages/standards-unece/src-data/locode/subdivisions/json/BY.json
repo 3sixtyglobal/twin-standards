@@ -1,0 +1,37 @@
+[
+  {
+    "code": "BR",
+    "label": "Bresckaja voblasc (be) - Brestskaja oblast' (ru)",
+    "type": "Oblast"
+  },
+  {
+    "code": "HM",
+    "label": "Horad Minsk",
+    "type": "City"
+  },
+  {
+    "code": "HO",
+    "label": "Homyel'skaya voblasts' (be) - Gomel'skaya oblast' (ru)",
+    "type": "Oblast"
+  },
+  {
+    "code": "HR",
+    "label": "Hrodzyenskaya voblasts' (be) - Grodnenskaya oblast' (ru)",
+    "type": "Oblast"
+  },
+  {
+    "code": "MA",
+    "label": "Mahilyowskaya voblasts' (be) - Mogilevskaya oblast' (ru)",
+    "type": "Oblast"
+  },
+  {
+    "code": "MI",
+    "label": "Minskaya voblasts' (be) - Minskaya oblast' (ru)",
+    "type": "Oblast"
+  },
+  {
+    "code": "VI",
+    "label": "Vitsyebskaya voblasts' (be) - Vitebskaya oblast' (ru)",
+    "type": "Oblast"
+  }
+]

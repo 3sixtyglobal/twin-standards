@@ -1,0 +1,32 @@
+[
+  {
+    "code": "AN",
+    "label": "Anseba",
+    "type": "Region"
+  },
+  {
+    "code": "DK",
+    "label": "Debubawi Keyyi? Ba?ri",
+    "type": "Region"
+  },
+  {
+    "code": "DU",
+    "label": "Debub",
+    "type": "Region"
+  },
+  {
+    "code": "GB",
+    "label": "Gash-Barka",
+    "type": "Region"
+  },
+  {
+    "code": "MA",
+    "label": "Maikel",
+    "type": "Region"
+  },
+  {
+    "code": "SK",
+    "label": "Semienawi Keyyi? Ba?ri",
+    "type": "Region"
+  }
+]

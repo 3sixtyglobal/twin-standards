@@ -1,0 +1,1762 @@
+[
+  {
+    "locationCode": "AGG",
+    "label": "An Giang",
+    "subdivisionCode": "44",
+    "function": "3"
+  },
+  {
+    "locationCode": "ANP",
+    "label": "An Phú",
+    "subdivisionCode": "44",
+    "labelWithDiacritics": "An Phu",
+    "function": "3",
+    "lat": 10.85,
+    "lng": 105.083333
+  },
+  {
+    "locationCode": "OTW",
+    "label": "B12 Oil Terminal",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 20.95,
+    "lng": 103.05
+  },
+  {
+    "locationCode": "BNO",
+    "label": "Ba Ngoi",
+    "subdivisionCode": "34",
+    "function": "13",
+    "lat": 11.9,
+    "lng": 109.15
+  },
+  {
+    "locationCode": "7BR",
+    "label": "Bà Ria",
+    "subdivisionCode": "43",
+    "labelWithDiacritics": "Ba Ria",
+    "function": "3",
+    "lat": 10.5,
+    "lng": 107.166667
+  },
+  {
+    "locationCode": "BGG",
+    "label": "Bac Giang",
+    "subdivisionCode": "54",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLU",
+    "label": "Bac Lieu",
+    "subdivisionCode": "55",
+    "function": "3",
+    "lat": 9.283333,
+    "lng": 105.716667
+  },
+  {
+    "locationCode": "BNH",
+    "label": "Bac Ninh",
+    "subdivisionCode": "56",
+    "function": "3"
+  },
+  {
+    "locationCode": "BHO",
+    "label": "Bach Ho",
+    "subdivisionCode": "40",
+    "function": "1",
+    "lat": 9.833333,
+    "lng": 108
+  },
+  {
+    "locationCode": "BMV",
+    "label": "Banmethuot",
+    "function": "4",
+    "lat": 12.666667,
+    "lng": 108.1
+  },
+  {
+    "locationCode": "BAO",
+    "label": "Bao Loc",
+    "subdivisionCode": "35",
+    "function": "1"
+  },
+  {
+    "locationCode": "BCT",
+    "label": "Ben Cát",
+    "labelWithDiacritics": "Ben Cat",
+    "function": "3",
+    "lat": 11.15,
+    "lng": 106.6
+  },
+  {
+    "locationCode": "BCD",
+    "label": "Ben Dam Con Dao Terminals",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 8.65,
+    "lng": 106.55
+  },
+  {
+    "locationCode": "BNE",
+    "label": "Bèn Nghè",
+    "labelWithDiacritics": "Ben Nghe",
+    "function": "3",
+    "lat": 19.266667,
+    "lng": 105.6
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Bèn Nghè",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Ben Nghe",
+    "function": "13",
+    "lat": 10.75,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Ben Tre",
+    "subdivisionCode": "50",
+    "function": "1",
+    "lat": 10.233333,
+    "lng": 106.383333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Benthuy",
+    "function": "1"
+  },
+  {
+    "locationCode": "BHA",
+    "label": "Biên Hòa",
+    "labelWithDiacritics": "Bien Hoa",
+    "function": "3",
+    "lat": 10.966667,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "BCH",
+    "label": "Bình Chánh",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Binh Chanh",
+    "function": "6",
+    "lat": 10.666667,
+    "lng": 106.566667
+  },
+  {
+    "locationCode": "BDH",
+    "label": "Binh Dinh",
+    "subdivisionCode": "31",
+    "function": "3"
+  },
+  {
+    "locationCode": "BDU",
+    "label": "Binh Duong",
+    "subdivisionCode": "27",
+    "function": "13"
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Binh Duong Terminal",
+    "subdivisionCode": "57",
+    "function": "13",
+    "lat": 10.9,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Binh Hoa",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 14.5,
+    "lng": 108.916667
+  },
+  {
+    "locationCode": "BIH",
+    "label": "Bình Hòa",
+    "labelWithDiacritics": "Binh Hoa",
+    "function": "3",
+    "lat": 10.933333,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Binh Long Port",
+    "subdivisionCode": "44",
+    "function": "1",
+    "lat": 10.566667,
+    "lng": 105.25
+  },
+  {
+    "locationCode": "BMH",
+    "label": "Binh Minh",
+    "function": "13",
+    "lat": 10.333333,
+    "lng": 105.816667
+  },
+  {
+    "locationCode": "BTH",
+    "label": "Binh Thanh",
+    "function": "3",
+    "lat": 10.766667,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Binh Thuan",
+    "subdivisionCode": "40",
+    "function": "3"
+  },
+  {
+    "locationCode": "BSE",
+    "label": "Bông Sen",
+    "labelWithDiacritics": "Bong Sen",
+    "function": "13",
+    "lat": 10.683333,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "HNH",
+    "label": "Bong Son",
+    "function": "1",
+    "lat": 14.433333,
+    "lng": 109.016667
+  },
+  {
+    "locationCode": "THQ",
+    "label": "Buon Ma Thuot",
+    "subdivisionCode": "33",
+    "function": "6",
+    "lat": 12.666667,
+    "lng": 108.05
+  },
+  {
+    "locationCode": "CAH",
+    "label": "Ca Mau",
+    "function": "4",
+    "lat": 9.166667,
+    "lng": 105.15
+  },
+  {
+    "locationCode": "CCU",
+    "label": "Cai Cui Port",
+    "subdivisionCode": "CT",
+    "function": "13",
+    "lat": 9.983333,
+    "lng": 106.5
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Cai Mep",
+    "subdivisionCode": "43",
+    "function": "1",
+    "lat": 10.383333,
+    "lng": 107.083333
+  },
+  {
+    "locationCode": "CMT",
+    "label": "Cai Mep International Terminal",
+    "subdivisionCode": "43",
+    "function": "13",
+    "lat": 10.516667,
+    "lng": 107
+  },
+  {
+    "locationCode": "CKH",
+    "label": "Cam Khê",
+    "subdivisionCode": "70",
+    "labelWithDiacritics": "Cam Khe",
+    "function": "3",
+    "lat": 21.433333,
+    "lng": 105.116667
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Cam Lâm",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Cam Lam",
+    "function": "123",
+    "lat": 11.9,
+    "lng": 109.15
+  },
+  {
+    "locationCode": "CPH",
+    "label": "Cam Pha",
+    "function": "1"
+  },
+  {
+    "locationCode": "CXR",
+    "label": "Cam Ranh",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 11.9,
+    "lng": 109.133333
+  },
+  {
+    "locationCode": "CRB",
+    "label": "Camranh",
+    "function": "1"
+  },
+  {
+    "locationCode": "VCA",
+    "label": "Can Tho",
+    "subdivisionCode": "CT",
+    "function": "134",
+    "lat": 10.033333,
+    "lng": 105.783333
+  },
+  {
+    "locationCode": "CBG",
+    "label": "Cao Bang",
+    "subdivisionCode": "04",
+    "function": "3"
+  },
+  {
+    "locationCode": "CSJ",
+    "label": "Cape Saint Jacques",
+    "function": "4",
+    "lat": 10.35,
+    "lng": 107.066667
+  },
+  {
+    "locationCode": "CLI",
+    "label": "Cát Lái",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Cat Lai",
+    "function": "13",
+    "lat": 10.766667,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "OCL",
+    "label": "Cat Lai Oil Port",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.733333,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "CMY",
+    "label": "Chan May Port",
+    "subdivisionCode": "26",
+    "function": "13",
+    "lat": 16.333333,
+    "lng": 108
+  },
+  {
+    "locationCode": "CTN",
+    "label": "Chau Thanh",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 13.95,
+    "lng": 109.083333
+  },
+  {
+    "locationCode": "CLH",
+    "label": "Chi Linh",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 21.666667,
+    "lng": 106.316667
+  },
+  {
+    "locationCode": "C8Q",
+    "label": "Chu Lai",
+    "subdivisionCode": "29",
+    "function": "3",
+    "lat": 15.4,
+    "lng": 108.7
+  },
+  {
+    "locationCode": "CVE",
+    "label": "Chua Ve Terminal",
+    "subdivisionCode": "HP",
+    "function": "13",
+    "lat": 20.866667,
+    "lng": 106.7
+  },
+  {
+    "locationCode": "CCA",
+    "label": "Cua Cam Terminal",
+    "subdivisionCode": "HP",
+    "function": "13",
+    "lat": 20.866667,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "CUA",
+    "label": "Cua Lo",
+    "subdivisionCode": "22",
+    "function": "13",
+    "lat": 18.816667,
+    "lng": 105.716667
+  },
+  {
+    "locationCode": "CUV",
+    "label": "Cua Viet Port",
+    "subdivisionCode": "25",
+    "function": "13",
+    "lat": 16.9,
+    "lng": 107.166667
+  },
+  {
+    "locationCode": "CLO",
+    "label": "Culao",
+    "function": "13",
+    "lat": 18.8,
+    "lng": 105.7
+  },
+  {
+    "locationCode": "DAD",
+    "label": "Da Nang",
+    "subdivisionCode": "27",
+    "function": "14",
+    "lat": 16.066667,
+    "lng": 108.216667
+  },
+  {
+    "locationCode": "DKN",
+    "label": "Dak Konong",
+    "subdivisionCode": "28",
+    "function": "3",
+    "lat": 14.8,
+    "lng": 107.9
+  },
+  {
+    "locationCode": "DLI",
+    "label": "Dalat",
+    "function": "4",
+    "lat": 11.933333,
+    "lng": 108.416667
+  },
+  {
+    "locationCode": "DMO",
+    "label": "Dam Mon",
+    "subdivisionCode": "34",
+    "function": "1",
+    "lat": 12.666667,
+    "lng": 109.4
+  },
+  {
+    "locationCode": "DI2",
+    "label": "Di An",
+    "subdivisionCode": "57",
+    "function": "36",
+    "lat": 10.9,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "DVU",
+    "label": "Dinh Vu Terminal",
+    "subdivisionCode": "HP",
+    "function": "13",
+    "lat": 20.9,
+    "lng": 106.766667
+  },
+  {
+    "locationCode": "DXA",
+    "label": "Doan Xa Terminal",
+    "subdivisionCode": "HP",
+    "function": "13",
+    "lat": 20.866667,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "DGD",
+    "label": "Dong Da",
+    "function": "3",
+    "lat": 22.633333,
+    "lng": 106.4
+  },
+  {
+    "locationCode": "DH2",
+    "label": "Dong Hà",
+    "subdivisionCode": "61",
+    "labelWithDiacritics": "Dong Ha",
+    "function": "3",
+    "lat": 20.966667,
+    "lng": 106.3
+  },
+  {
+    "locationCode": "DN3",
+    "label": "Dông Hài",
+    "subdivisionCode": "23",
+    "labelWithDiacritics": "Dong Hai",
+    "function": "13",
+    "lat": 18.166667,
+    "lng": 106.283333
+  },
+  {
+    "locationCode": "DHO",
+    "label": "Dong Hoa",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 10.9,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "DOH",
+    "label": "Dong Hoi",
+    "function": "1"
+  },
+  {
+    "locationCode": "DNA",
+    "label": "Dong Nai",
+    "function": "13",
+    "lat": 18.083333,
+    "lng": 106.316667
+  },
+  {
+    "locationCode": "DGS",
+    "label": "Dong Son",
+    "subdivisionCode": "46",
+    "function": "3",
+    "lat": 10.4,
+    "lng": 106.566667
+  },
+  {
+    "locationCode": "DTH",
+    "label": "Dong Thap",
+    "function": "13",
+    "lat": 10.483333,
+    "lng": 105.566667
+  },
+  {
+    "locationCode": "DXN",
+    "label": "Dong Xuyen Port",
+    "subdivisionCode": "43",
+    "function": "13",
+    "lat": 10.4,
+    "lng": 107.1
+  },
+  {
+    "locationCode": "DCH",
+    "label": "Duc Hoa",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 10.816667,
+    "lng": 106.45
+  },
+  {
+    "locationCode": "DQT",
+    "label": "Dung Quat",
+    "subdivisionCode": "29",
+    "function": "1346",
+    "lat": 15.4,
+    "lng": 108.7
+  },
+  {
+    "locationCode": "GLI",
+    "label": "Gia Lai",
+    "subdivisionCode": "30",
+    "function": "3"
+  },
+  {
+    "locationCode": "GIL",
+    "label": "Gia Lam",
+    "function": "36",
+    "lat": 21.066667,
+    "lng": 106.483333
+  },
+  {
+    "locationCode": "H7D",
+    "label": "Gia Lam Pho",
+    "subdivisionCode": "HN",
+    "function": "3",
+    "lat": 21.05,
+    "lng": 105.883333
+  },
+  {
+    "locationCode": "8GV",
+    "label": "Gia Nghia",
+    "subdivisionCode": "72",
+    "function": "3",
+    "lat": 12,
+    "lng": 107.683333
+  },
+  {
+    "locationCode": "GDA",
+    "label": "Go Dau A Terminal",
+    "subdivisionCode": "39",
+    "function": "13",
+    "lat": 10.65,
+    "lng": 107.016667
+  },
+  {
+    "locationCode": "GDB",
+    "label": "Go Dau B Terminal",
+    "subdivisionCode": "39",
+    "function": "13",
+    "lat": 10.616667,
+    "lng": 107.016667
+  },
+  {
+    "locationCode": "HAG",
+    "label": "Hà Giang",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Ha Giang",
+    "function": "3",
+    "lat": 22.833333,
+    "lng": 104.983333
+  },
+  {
+    "locationCode": "HLG",
+    "label": "Ha Long",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 20.95,
+    "lng": 107.066667
+  },
+  {
+    "locationCode": "HTY",
+    "label": "Ha Tay",
+    "subdivisionCode": "HN",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Ha Tinh",
+    "function": "1"
+  },
+  {
+    "locationCode": "HDG",
+    "label": "Hai Duong",
+    "subdivisionCode": "61",
+    "function": "13"
+  },
+  {
+    "locationCode": "HSN",
+    "label": "Hai Son",
+    "subdivisionCode": "DN",
+    "function": "13",
+    "lat": 16.1,
+    "lng": 108.233333
+  },
+  {
+    "locationCode": "HPH",
+    "label": "Haiphong",
+    "subdivisionCode": "HP",
+    "function": "1234",
+    "lat": 20.85,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "HAN",
+    "label": "Hanoi",
+    "subdivisionCode": "HN",
+    "function": "145",
+    "lat": 21.033333,
+    "lng": 105.85
+  },
+  {
+    "locationCode": "HGG",
+    "label": "Hau Giang",
+    "subdivisionCode": "73",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPC",
+    "label": "Hiep Phuoc Port",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.633333,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "HTH",
+    "label": "Hiep Thanh",
+    "subdivisionCode": "36",
+    "function": "6",
+    "lat": 11.833333,
+    "lng": 109.1
+  },
+  {
+    "locationCode": "SGN",
+    "label": "Ho Chi Minh City",
+    "subdivisionCode": "SG",
+    "function": "13456",
+    "lat": 10.766667,
+    "lng": 106.666667
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Ho Chi Minh, VICT",
+    "function": "1"
+  },
+  {
+    "locationCode": "HBH",
+    "label": "Hoa Binh",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 20.8,
+    "lng": 105.333333
+  },
+  {
+    "locationCode": "HLC",
+    "label": "Hoa Lac",
+    "subdivisionCode": "70",
+    "function": "6",
+    "lat": 21.25,
+    "lng": 105.466667
+  },
+  {
+    "locationCode": "HMC",
+    "label": "Hoa Mac",
+    "subdivisionCode": "63",
+    "function": "23",
+    "lat": 20.633333,
+    "lng": 106
+  },
+  {
+    "locationCode": "HVG",
+    "label": "Hoa Vang",
+    "function": "6",
+    "lat": 16.016667,
+    "lng": 108.216667
+  },
+  {
+    "locationCode": "HAA",
+    "label": "Hoai An",
+    "function": "1"
+  },
+  {
+    "locationCode": "HIA",
+    "label": "Hoi An",
+    "function": "1"
+  },
+  {
+    "locationCode": "HCH",
+    "label": "Hon Chong",
+    "function": "1"
+  },
+  {
+    "locationCode": "HLP",
+    "label": "Hon La Port",
+    "subdivisionCode": "24",
+    "function": "1",
+    "lat": 17.933333,
+    "lng": 106.516667
+  },
+  {
+    "locationCode": "HON",
+    "label": "Hongai",
+    "function": "1"
+  },
+  {
+    "locationCode": "HUI",
+    "label": "Hue",
+    "function": "14"
+  },
+  {
+    "locationCode": "HYN",
+    "label": "Hung Yen",
+    "subdivisionCode": "66",
+    "function": "13"
+  },
+  {
+    "locationCode": "PLG",
+    "label": "ICD Phuc Long",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 18.683333,
+    "lng": 105.65
+  },
+  {
+    "locationCode": "STR",
+    "label": "ICD Sotrans",
+    "subdivisionCode": "SG",
+    "function": "136",
+    "lat": 10.816667,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "ITX",
+    "label": "ICD TRANSIMEX THU DUC",
+    "subdivisionCode": "SG",
+    "function": "136",
+    "lat": 10.833333,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "KHI",
+    "label": "Khánh Hôi",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Khanh Hoi",
+    "function": "3",
+    "lat": 10.75,
+    "lng": 106.7
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Khonh Hung",
+    "function": "1"
+  },
+  {
+    "locationCode": "KDN",
+    "label": "Kim Dong",
+    "subdivisionCode": "21",
+    "function": "6",
+    "lat": 19.466667,
+    "lng": 105.633333
+  },
+  {
+    "locationCode": "KON",
+    "label": "Kon Tum",
+    "subdivisionCode": "28",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAH",
+    "label": "Ky Anh",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 18.083333,
+    "lng": 106.3
+  },
+  {
+    "locationCode": "KYQ",
+    "label": "Ky Ha Quang Nam Terminal",
+    "subdivisionCode": "27",
+    "function": "13",
+    "lat": 15.466667,
+    "lng": 108.683333
+  },
+  {
+    "locationCode": "KYH",
+    "label": "Ky Ha Terminal",
+    "subdivisionCode": "27",
+    "function": "13",
+    "lat": 15.483333,
+    "lng": 108.683333
+  },
+  {
+    "locationCode": "LDG",
+    "label": "Lam Dong",
+    "subdivisionCode": "35",
+    "function": "3"
+  },
+  {
+    "locationCode": "LAM",
+    "label": "Lam Thao",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 18.383333,
+    "lng": 105.566667
+  },
+  {
+    "locationCode": "LGS",
+    "label": "Lang Son",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 20.483333,
+    "lng": 105.233333
+  },
+  {
+    "locationCode": "LAO",
+    "label": "Lao Bao",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 16.616667,
+    "lng": 106.6
+  },
+  {
+    "locationCode": "LCA",
+    "label": "Lao Cai",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 22.483333,
+    "lng": 103.95
+  },
+  {
+    "locationCode": "LNH",
+    "label": "Loc Ninh",
+    "subdivisionCode": "37",
+    "function": "6",
+    "lat": 11.85,
+    "lng": 106.6
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Long An International Port",
+    "subdivisionCode": "41",
+    "function": "1",
+    "lat": 10.533333,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Long An-Ben Luc",
+    "subdivisionCode": "41",
+    "function": "3"
+  },
+  {
+    "locationCode": "LBN",
+    "label": "Long Binh",
+    "function": "13",
+    "lat": 11.25,
+    "lng": 107.5
+  },
+  {
+    "locationCode": "LBT",
+    "label": "Long Binh Tan",
+    "subdivisionCode": "39",
+    "function": "13",
+    "lat": 10.933333,
+    "lng": 106.833333
+  },
+  {
+    "locationCode": "LTH",
+    "label": "Long Thanh",
+    "function": "1",
+    "lat": 10.783333,
+    "lng": 106.95
+  },
+  {
+    "locationCode": "XLO",
+    "label": "Long Xuyen",
+    "function": "4",
+    "lat": 10.316667,
+    "lng": 105.466667
+  },
+  {
+    "locationCode": "LPO",
+    "label": "Lotus Port",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.733333,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "LGT",
+    "label": "Luong Tai",
+    "function": "6",
+    "lat": 20.966667,
+    "lng": 106.133333
+  },
+  {
+    "locationCode": "MDM",
+    "label": "Mai Dam",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 9.933333,
+    "lng": 105.866667
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Mong Cai",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUT",
+    "label": "My Tho",
+    "function": "1"
+  },
+  {
+    "locationCode": "MTH",
+    "label": "My Thoi",
+    "subdivisionCode": "53",
+    "function": "13",
+    "lat": 10.35,
+    "lng": 106.35
+  },
+  {
+    "locationCode": "NCN",
+    "label": "Nam Can Port",
+    "subdivisionCode": "59",
+    "function": "13",
+    "lat": 8.816667,
+    "lng": 105.016667
+  },
+  {
+    "locationCode": "NMD",
+    "label": "Nam Dinh",
+    "function": "1"
+  },
+  {
+    "locationCode": "NHD",
+    "label": "Nam Hai Dinh Vu Port",
+    "subdivisionCode": "HP",
+    "function": "123",
+    "lat": 20.816667,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nghe An",
+    "subdivisionCode": "22",
+    "function": "3"
+  },
+  {
+    "locationCode": "NGT",
+    "label": "Nghe Tinh",
+    "function": "13",
+    "lat": 20.4,
+    "lng": 106.15
+  },
+  {
+    "locationCode": "NGH",
+    "label": "Nghi Son",
+    "function": "13",
+    "lat": 19.333333,
+    "lng": 105.833333
+  },
+  {
+    "locationCode": "NVT",
+    "label": "Nguyen Van Troi Port",
+    "subdivisionCode": "DN",
+    "function": "13",
+    "lat": 16.05,
+    "lng": 108.216667
+  },
+  {
+    "locationCode": "ONB",
+    "label": "Nha Be Oil Port",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.7,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "NHA",
+    "label": "Nha Trang",
+    "function": "14"
+  },
+  {
+    "locationCode": "NHT",
+    "label": "Nhon Trach",
+    "subdivisionCode": "39",
+    "function": "136",
+    "lat": 10.716667,
+    "lng": 106.85
+  },
+  {
+    "locationCode": "NBH",
+    "label": "Ninh Binh",
+    "subdivisionCode": "18",
+    "function": "3"
+  },
+  {
+    "locationCode": "NIH",
+    "label": "Ninh Hòa",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Ninh Hoa",
+    "function": "13",
+    "lat": 12.483333,
+    "lng": 109.133333
+  },
+  {
+    "locationCode": "NTN",
+    "label": "Ninh Thuan",
+    "function": "3"
+  },
+  {
+    "locationCode": "PHA",
+    "label": "Phan Rang",
+    "function": "14"
+  },
+  {
+    "locationCode": "PRT",
+    "label": "Phan Rang-Tháp Chàm",
+    "subdivisionCode": "36",
+    "labelWithDiacritics": "Phan Rang-Thap Cham",
+    "function": "3",
+    "lat": 11.566667,
+    "lng": 108.983333
+  },
+  {
+    "locationCode": "PHH",
+    "label": "Phan Thiet",
+    "function": "14"
+  },
+  {
+    "locationCode": "PHB",
+    "label": "Phú Bai",
+    "subdivisionCode": "26",
+    "labelWithDiacritics": "Phu Bai",
+    "function": "13",
+    "lat": 16.366667,
+    "lng": 107.733333
+  },
+  {
+    "locationCode": "PGO",
+    "label": "Phu Giáo",
+    "subdivisionCode": "57",
+    "labelWithDiacritics": "Phu Giao",
+    "function": "6",
+    "lat": 11.216667,
+    "lng": 106.733333
+  },
+  {
+    "locationCode": "PLY",
+    "label": "Phu Lý",
+    "subdivisionCode": "63",
+    "labelWithDiacritics": "Phu Ly",
+    "function": "23",
+    "lat": 20.533333,
+    "lng": 105.9
+  },
+  {
+    "locationCode": "PHU",
+    "label": "Phu My",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHN",
+    "label": "Phú Nhuan",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Phu Nhuan",
+    "function": "6",
+    "lat": 10.783333,
+    "lng": 106.666667
+  },
+  {
+    "locationCode": "PQC",
+    "label": "Phu Quoc",
+    "function": "14",
+    "lat": 10.216667,
+    "lng": 103.966667
+  },
+  {
+    "locationCode": "PHT",
+    "label": "Phu Tho",
+    "subdivisionCode": "68",
+    "function": "3",
+    "lat": 21.333333,
+    "lng": 105.166667
+  },
+  {
+    "locationCode": "PYN",
+    "label": "Phu Yen",
+    "subdivisionCode": "32",
+    "function": "3"
+  },
+  {
+    "locationCode": "HBN",
+    "label": "Phu-bon",
+    "function": "4",
+    "lat": 12,
+    "lng": 106
+  },
+  {
+    "locationCode": "PHG",
+    "label": "Phuóc Long",
+    "labelWithDiacritics": "Phuoc Long",
+    "function": "13",
+    "lat": 10.716667,
+    "lng": 106.95
+  },
+  {
+    "locationCode": "IPH",
+    "label": "Phuoc Long ICD",
+    "function": "13",
+    "lat": 10.7,
+    "lng": 106.95
+  },
+  {
+    "locationCode": "PHL",
+    "label": "Phuoe Le",
+    "function": "1"
+  },
+  {
+    "locationCode": "PXU",
+    "label": "Pleiku",
+    "subdivisionCode": "28",
+    "function": "34",
+    "lat": 14,
+    "lng": 108.016667
+  },
+  {
+    "locationCode": "KUG",
+    "label": "Pleiku",
+    "subdivisionCode": "30",
+    "function": "6",
+    "lat": 13.983333,
+    "lng": 108
+  },
+  {
+    "locationCode": "PNG",
+    "label": "Po Hang",
+    "subdivisionCode": "26",
+    "function": "6"
+  },
+  {
+    "locationCode": "HHO",
+    "label": "Quanduc",
+    "function": "4"
+  },
+  {
+    "locationCode": "QBH",
+    "label": "Quäng Bình",
+    "subdivisionCode": "24",
+    "labelWithDiacritics": "Quang Binh",
+    "function": "13",
+    "lat": 17.5,
+    "lng": 106.333333
+  },
+  {
+    "locationCode": "QUL",
+    "label": "Quang Long",
+    "function": "1"
+  },
+  {
+    "locationCode": "QNM",
+    "label": "Quang Nam",
+    "subdivisionCode": "27",
+    "function": "3"
+  },
+  {
+    "locationCode": "XNG",
+    "label": "Quang Ngai",
+    "function": "14"
+  },
+  {
+    "locationCode": "OPC",
+    "label": "Quang Ngai",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 15.116667,
+    "lng": 108.8
+  },
+  {
+    "locationCode": "QNH",
+    "label": "Quang Ninh",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 17.4,
+    "lng": 106.633333
+  },
+  {
+    "locationCode": "QUT",
+    "label": "Quang Tri",
+    "function": "1"
+  },
+  {
+    "locationCode": "QUG",
+    "label": "Quê Duong",
+    "subdivisionCode": "56",
+    "labelWithDiacritics": "Que Duong",
+    "function": "3",
+    "lat": 21.15,
+    "lng": 106.166667
+  },
+  {
+    "locationCode": "UIH",
+    "label": "Qui Nhon",
+    "subdivisionCode": "31",
+    "function": "134",
+    "lat": 13.766667,
+    "lng": 109.216667
+  },
+  {
+    "locationCode": "VKG",
+    "label": "Rach Gia",
+    "function": "4"
+  },
+  {
+    "locationCode": "RDG",
+    "label": "Rang Dong",
+    "function": "1",
+    "lat": 10,
+    "lng": 108.333333
+  },
+  {
+    "locationCode": "RQU",
+    "label": "Rao Qua",
+    "function": "13",
+    "lat": 18.45,
+    "lng": 105.316667
+  },
+  {
+    "locationCode": "RBE",
+    "label": "Red Beach",
+    "function": "0"
+  },
+  {
+    "locationCode": "RUB",
+    "label": "Ruby",
+    "function": "7",
+    "lat": 10.383333,
+    "lng": 108.5
+  },
+  {
+    "locationCode": "SAD",
+    "label": "Sa Déc",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Sa Dec",
+    "function": "13",
+    "lat": 10.3,
+    "lng": 105.766667
+  },
+  {
+    "locationCode": "CSG",
+    "label": "Sai Gon Port",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.833333,
+    "lng": 106.75
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Saigon ITV/Phu My",
+    "subdivisionCode": "43",
+    "function": "13",
+    "lat": 10.6,
+    "lng": 107.016667
+  },
+  {
+    "locationCode": "OSP",
+    "label": "Saigon Petro Oil Terminal",
+    "subdivisionCode": "SG",
+    "function": "13",
+    "lat": 10.75,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "SOA",
+    "label": "Soc Trang",
+    "subdivisionCode": "52",
+    "function": "34",
+    "lat": 9.6,
+    "lng": 105.966667
+  },
+  {
+    "locationCode": "SDP",
+    "label": "Son Duong Port",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 18.1,
+    "lng": 106.45
+  },
+  {
+    "locationCode": "SQH",
+    "label": "Son La",
+    "function": "34",
+    "lat": 21.316667,
+    "lng": 103.9
+  },
+  {
+    "locationCode": "SON",
+    "label": "Song Doc",
+    "function": "1",
+    "lat": 7.15,
+    "lng": 104.083333
+  },
+  {
+    "locationCode": "SH9",
+    "label": "Song Han 9",
+    "function": "13",
+    "lat": 16.05,
+    "lng": 108.216667
+  },
+  {
+    "locationCode": "STC",
+    "label": "Song Than ICD",
+    "subdivisionCode": "57",
+    "function": "367",
+    "lat": 10.766667,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "STD",
+    "label": "Su Tu Den",
+    "subdivisionCode": "40",
+    "function": "1",
+    "lat": 10.416667,
+    "lng": 108.4
+  },
+  {
+    "locationCode": "TMK",
+    "label": "Tamky",
+    "subdivisionCode": "27",
+    "function": "4",
+    "lat": 15.55,
+    "lng": 108.466667
+  },
+  {
+    "locationCode": "TAA",
+    "label": "Tan An",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 10.533333,
+    "lng": 106.416667
+  },
+  {
+    "locationCode": "TBM",
+    "label": "Tan Binh",
+    "subdivisionCode": "SG",
+    "function": "6",
+    "lat": 10.8,
+    "lng": 106.65
+  },
+  {
+    "locationCode": "TCG",
+    "label": "Tan Cang",
+    "subdivisionCode": "SG",
+    "function": "1"
+  },
+  {
+    "locationCode": "ILB",
+    "label": "Tan Cang - Long Binh ICD",
+    "subdivisionCode": "39",
+    "function": "236",
+    "lat": 10.9,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "TMT",
+    "label": "Tan Cang - Mien Trung Terminal",
+    "subdivisionCode": "31",
+    "function": "13",
+    "lat": 13.766667,
+    "lng": 109.233333
+  },
+  {
+    "locationCode": "HPP",
+    "label": "Tan Cang Hiep Phuoc Port",
+    "subdivisionCode": "SG",
+    "function": "1",
+    "lat": 10.633333,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "QNT",
+    "label": "Tan Cang Qui Nhon",
+    "function": "13",
+    "lat": 13.766667,
+    "lng": 109.833333
+  },
+  {
+    "locationCode": "TCN",
+    "label": "Tan Canh",
+    "subdivisionCode": "41",
+    "function": "13",
+    "lat": 14.65,
+    "lng": 107.833333
+  },
+  {
+    "locationCode": "QTR",
+    "label": "Tan Dinh",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 16.783333,
+    "lng": 107.183333
+  },
+  {
+    "locationCode": "TGA",
+    "label": "Tan Dinh",
+    "subdivisionCode": "54",
+    "function": "36",
+    "lat": 16.8,
+    "lng": 106.983333
+  },
+  {
+    "locationCode": "TSN",
+    "label": "Tan Son Nhat Apt",
+    "subdivisionCode": "SG",
+    "function": "34"
+  },
+  {
+    "locationCode": "TTH",
+    "label": "Tan Thanh",
+    "subdivisionCode": "43",
+    "function": "3",
+    "lat": 14.8,
+    "lng": 108.433333
+  },
+  {
+    "locationCode": "TTD",
+    "label": "Tân Thuan Dông",
+    "subdivisionCode": "SG",
+    "labelWithDiacritics": "Tan Thuan Dong",
+    "function": "13",
+    "lat": 10.733333,
+    "lng": 106.716667
+  },
+  {
+    "locationCode": "TUY",
+    "label": "Tân Uyên",
+    "labelWithDiacritics": "Tan Uyen",
+    "function": "6",
+    "lat": 11.066667,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tanamexco ICD",
+    "subdivisionCode": "SG",
+    "function": "1367"
+  },
+  {
+    "locationCode": "TNT",
+    "label": "Tay Ninh",
+    "subdivisionCode": "36",
+    "function": "6",
+    "lat": 11.3,
+    "lng": 106.1
+  },
+  {
+    "locationCode": "TBH",
+    "label": "Thai Binh",
+    "function": "3",
+    "lat": 20.45,
+    "lng": 106.333333
+  },
+  {
+    "locationCode": "THA",
+    "label": "Thai Hoa",
+    "function": "3"
+  },
+  {
+    "locationCode": "TNG",
+    "label": "Thái Nguyên",
+    "labelWithDiacritics": "Thai Nguyen",
+    "function": "23",
+    "lat": 21.55,
+    "lng": 105.866667
+  },
+  {
+    "locationCode": "TBI",
+    "label": "Thang Binh",
+    "function": "1"
+  },
+  {
+    "locationCode": "THO",
+    "label": "Thanh Hoa",
+    "function": "1"
+  },
+  {
+    "locationCode": "TPP",
+    "label": "Thanh Phuoc Port",
+    "subdivisionCode": "57",
+    "function": "1",
+    "lat": 11.066667,
+    "lng": 106.8
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Thi Nai Port",
+    "subdivisionCode": "31",
+    "function": "13",
+    "lat": 13.766667,
+    "lng": 109.25
+  },
+  {
+    "locationCode": "THD",
+    "label": "Thu Dau Mot",
+    "subdivisionCode": "05",
+    "function": "13",
+    "lat": 10.966667,
+    "lng": 106.65
+  },
+  {
+    "locationCode": "THU",
+    "label": "Thuan An",
+    "subdivisionCode": "31",
+    "function": "13",
+    "lat": 15.5,
+    "lng": 108.666667
+  },
+  {
+    "locationCode": "TBN",
+    "label": "Thuân An",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Thuan An",
+    "function": "3",
+    "lat": 20.383333,
+    "lng": 106.35
+  },
+  {
+    "locationCode": "TGG",
+    "label": "Tien Giang",
+    "subdivisionCode": "46",
+    "function": "3"
+  },
+  {
+    "locationCode": "DTS",
+    "label": "Tien Sa Terminal",
+    "subdivisionCode": "DN",
+    "function": "13",
+    "lat": 16.116667,
+    "lng": 108.2
+  },
+  {
+    "locationCode": "TNC",
+    "label": "Tong Cang",
+    "function": "3",
+    "lat": 22.9,
+    "lng": 106.133333
+  },
+  {
+    "locationCode": "TNO",
+    "label": "Tra Noc",
+    "function": "13",
+    "lat": 10.1,
+    "lng": 105.7
+  },
+  {
+    "locationCode": "TVH",
+    "label": "Tra Vinh",
+    "subdivisionCode": "51",
+    "function": "3"
+  },
+  {
+    "locationCode": "TVN",
+    "label": "Transvina Terminal",
+    "subdivisionCode": "HP",
+    "function": "13",
+    "lat": 20.866667,
+    "lng": 106.683333
+  },
+  {
+    "locationCode": "TGH",
+    "label": "Trung Hoa",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 12.616667,
+    "lng": 109.15
+  },
+  {
+    "locationCode": "TGT",
+    "label": "Trung Trach",
+    "function": "3",
+    "lat": 10.033333,
+    "lng": 106.2
+  },
+  {
+    "locationCode": "TBB",
+    "label": "Tuy Hoa",
+    "function": "14"
+  },
+  {
+    "locationCode": "TQG",
+    "label": "Tuyen Quang",
+    "subdivisionCode": "07",
+    "function": "3"
+  },
+  {
+    "locationCode": "UYH",
+    "label": "Uyen Hung",
+    "subdivisionCode": "57",
+    "function": "3",
+    "lat": 11.066667,
+    "lng": 106.783333
+  },
+  {
+    "locationCode": "VLM",
+    "label": "Van Lâm",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Van Lam",
+    "function": "6",
+    "lat": 18.683333,
+    "lng": 105.516667
+  },
+  {
+    "locationCode": "VPH",
+    "label": "Van Phong",
+    "subdivisionCode": "HP",
+    "function": "1",
+    "lat": 20.8,
+    "lng": 106.866667
+  },
+  {
+    "locationCode": "VCH",
+    "label": "Vat Cach",
+    "function": "1",
+    "lat": 20.883333,
+    "lng": 106.6
+  },
+  {
+    "locationCode": "LMP",
+    "label": "Vietnam Lee & Man Port",
+    "subdivisionCode": "73",
+    "function": "16",
+    "lat": 28.3,
+    "lng": 103.833333
+  },
+  {
+    "locationCode": "VHG",
+    "label": "Vinalines Hau Giang Port",
+    "subdivisionCode": "73",
+    "function": "1",
+    "lat": 9.15,
+    "lng": 105.133333
+  },
+  {
+    "locationCode": "VNH",
+    "label": "Vinh",
+    "subdivisionCode": "22",
+    "function": "14",
+    "lat": 18.733333,
+    "lng": 105.666667
+  },
+  {
+    "locationCode": "VLO",
+    "label": "Vinh Loi",
+    "function": "1"
+  },
+  {
+    "locationCode": "VLG",
+    "label": "Vinh Long",
+    "function": "13",
+    "lat": 10.233333,
+    "lng": 105.966667
+  },
+  {
+    "locationCode": "VPC",
+    "label": "Vinh Phuc",
+    "subdivisionCode": "71",
+    "function": "3"
+  },
+  {
+    "locationCode": "VYN",
+    "label": "Vinh Yen",
+    "function": "3"
+  },
+  {
+    "locationCode": "VAG",
+    "label": "Vung Áng",
+    "labelWithDiacritics": "Vung Ang",
+    "function": "1",
+    "lat": 18.066667,
+    "lng": 106.433333
+  },
+  {
+    "locationCode": "VRO",
+    "label": "Vung Ro",
+    "function": "13",
+    "lat": 12.85,
+    "lng": 109.416667
+  },
+  {
+    "locationCode": "VUT",
+    "label": "Vung Tau",
+    "subdivisionCode": "43",
+    "function": "134",
+    "lat": 10.35,
+    "lng": 107.066667
+  },
+  {
+    "locationCode": "YBA",
+    "label": "Yen Bai",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 21.7,
+    "lng": 104.866667
+  },
+  {
+    "locationCode": "YMY",
+    "label": "Yen My",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 18.95,
+    "lng": 105.333333
+  },
+  {
+    "locationCode": "YEV",
+    "label": "Yên Viên",
+    "labelWithDiacritics": "Yen Vien",
+    "function": "3",
+    "lat": 21.083333,
+    "lng": 105.916667
+  }
+]

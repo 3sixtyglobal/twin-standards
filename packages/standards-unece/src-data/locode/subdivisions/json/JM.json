@@ -1,0 +1,72 @@
+[
+  {
+    "code": "01",
+    "label": "Kingston",
+    "type": "Partish"
+  },
+  {
+    "code": "02",
+    "label": "Saint Andrew",
+    "type": "Partish"
+  },
+  {
+    "code": "03",
+    "label": "Saint Thomas",
+    "type": "Partish"
+  },
+  {
+    "code": "04",
+    "label": "Portland",
+    "type": "Partish"
+  },
+  {
+    "code": "05",
+    "label": "Saint Mary",
+    "type": "Partish"
+  },
+  {
+    "code": "06",
+    "label": "Saint Ann",
+    "type": "Partish"
+  },
+  {
+    "code": "07",
+    "label": "Trelawny",
+    "type": "Partish"
+  },
+  {
+    "code": "08",
+    "label": "Saint James",
+    "type": "Partish"
+  },
+  {
+    "code": "09",
+    "label": "Hanover",
+    "type": "Partish"
+  },
+  {
+    "code": "10",
+    "label": "Westmoreland",
+    "type": "Partish"
+  },
+  {
+    "code": "11",
+    "label": "Saint Elizabeth",
+    "type": "Partish"
+  },
+  {
+    "code": "12",
+    "label": "Manchester",
+    "type": "Partish"
+  },
+  {
+    "code": "13",
+    "label": "Clarendon",
+    "type": "Partish"
+  },
+  {
+    "code": "14",
+    "label": "Saint Catherine",
+    "type": "Partish"
+  }
+]

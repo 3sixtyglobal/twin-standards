@@ -1,0 +1,82 @@
+[
+  {
+    "code": "AA",
+    "label": "Greater Accra",
+    "type": "Region"
+  },
+  {
+    "code": "AF",
+    "label": "Ahafo",
+    "type": "Region"
+  },
+  {
+    "code": "AH",
+    "label": "Ashanti",
+    "type": "Region"
+  },
+  {
+    "code": "BE",
+    "label": "Bono East",
+    "type": "Region"
+  },
+  {
+    "code": "BO",
+    "label": "Bono",
+    "type": "Region"
+  },
+  {
+    "code": "CP",
+    "label": "Central",
+    "type": "Region"
+  },
+  {
+    "code": "EP",
+    "label": "Eastern",
+    "type": "Region"
+  },
+  {
+    "code": "NE",
+    "label": "North East",
+    "type": "Region"
+  },
+  {
+    "code": "NP",
+    "label": "Northern",
+    "type": "Region"
+  },
+  {
+    "code": "OT",
+    "label": "Oti",
+    "type": "Region"
+  },
+  {
+    "code": "SV",
+    "label": "Savannah",
+    "type": "Region"
+  },
+  {
+    "code": "TV",
+    "label": "Volta",
+    "type": "Region"
+  },
+  {
+    "code": "UE",
+    "label": "Upper East",
+    "type": "Region"
+  },
+  {
+    "code": "UW",
+    "label": "Upper West",
+    "type": "Region"
+  },
+  {
+    "code": "WN",
+    "label": "Western North",
+    "type": "Region"
+  },
+  {
+    "code": "WP",
+    "label": "Western",
+    "type": "Region"
+  }
+]

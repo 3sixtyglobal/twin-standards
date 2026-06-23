@@ -1,0 +1,59 @@
+# Interface: IUneceRecordedStatus
+
+Recorded information relevant to a condition or a position of an object.
+
+## See
+
+https://vocabulary.uncefact.org/RecordedStatus
+
+## Properties
+
+### @context? {#context}
+
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+***
+
+### type {#type}
+
+> **type**: `"RecordedStatus"`
+
+JSON-LD Type.
+
+***
+
+### changedDateTime {#changeddatetime}
+
+> **changedDateTime**: `string`
+
+The date, time, date time, or other date time value when this recorded status changed.
+
+#### See
+
+https://vocabulary.uncefact.org/changedDateTime
+
+***
+
+### changerName? {#changername}
+
+> `optional` **changerName?**: `string`
+
+The name of the person or system, expressed as text, that changed this recorded status.
+
+#### See
+
+https://vocabulary.uncefact.org/changerName
+
+***
+
+### recordedStatusConditionCode {#recordedstatusconditioncode}
+
+> **recordedStatusConditionCode**: `string`
+
+The code specifying the condition for this recorded status.
+
+#### See
+
+https://vocabulary.uncefact.org/recordedStatusConditionCode

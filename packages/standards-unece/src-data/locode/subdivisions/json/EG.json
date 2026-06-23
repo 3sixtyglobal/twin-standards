@@ -1,0 +1,137 @@
+[
+  {
+    "code": "ALX",
+    "label": "AI Iskandariyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "ASN",
+    "label": "Aswan",
+    "type": "Governorate"
+  },
+  {
+    "code": "AST",
+    "label": "Asyut",
+    "type": "Governorate"
+  },
+  {
+    "code": "BA",
+    "label": "Al Ba?r al A?mar",
+    "type": "Governorate"
+  },
+  {
+    "code": "BH",
+    "label": "Al Bu?ayrah",
+    "type": "Governorate"
+  },
+  {
+    "code": "BNS",
+    "label": "Bani Suwayf",
+    "type": "Governorate"
+  },
+  {
+    "code": "C",
+    "label": "AI Qahirah",
+    "type": "Governorate"
+  },
+  {
+    "code": "DK",
+    "label": "Ad Daqahliyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "DT",
+    "label": "Dumyat",
+    "type": "Governorate"
+  },
+  {
+    "code": "FYM",
+    "label": "AI Fayyum",
+    "type": "Governorate"
+  },
+  {
+    "code": "GH",
+    "label": "AI Gharbiyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "GZ",
+    "label": "AI Jizah",
+    "type": "Governorate"
+  },
+  {
+    "code": "IS",
+    "label": "AI Isma 'iliyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "JS",
+    "label": "Janub Sina'",
+    "type": "Governorate"
+  },
+  {
+    "code": "KB",
+    "label": "AI Qalyubiyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "KFS",
+    "label": "Kafr ash Shaykh",
+    "type": "Governorate"
+  },
+  {
+    "code": "KN",
+    "label": "Qina",
+    "type": "Governorate"
+  },
+  {
+    "code": "LX",
+    "label": "Al Uqsur",
+    "type": "Governorate"
+  },
+  {
+    "code": "MN",
+    "label": "AI Minya",
+    "type": "Governorate"
+  },
+  {
+    "code": "MNF",
+    "label": "AI Minufiyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "MT",
+    "label": "Matruh",
+    "type": "Governorate"
+  },
+  {
+    "code": "PTS",
+    "label": "Bur Sa'id",
+    "type": "Governorate"
+  },
+  {
+    "code": "SHG",
+    "label": "Suhaj",
+    "type": "Governorate"
+  },
+  {
+    "code": "SHR",
+    "label": "Ash Sharqiyah",
+    "type": "Governorate"
+  },
+  {
+    "code": "SIN",
+    "label": "Shamal Sina'",
+    "type": "Governorate"
+  },
+  {
+    "code": "SUZ",
+    "label": "As Suways",
+    "type": "Governorate"
+  },
+  {
+    "code": "WAD",
+    "label": "AI Wadi al Jadid",
+    "type": "Governorate"
+  }
+]

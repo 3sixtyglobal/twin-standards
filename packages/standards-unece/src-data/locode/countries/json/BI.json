@@ -1,0 +1,129 @@
+[
+  {
+    "locationCode": "BBZ",
+    "label": "Bubanza",
+    "subdivisionCode": "BB",
+    "function": "3",
+    "lat": -3.083333,
+    "lng": 29.383333
+  },
+  {
+    "locationCode": "BJM",
+    "label": "Bujumbura",
+    "function": "45"
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Bururi",
+    "subdivisionCode": "BR",
+    "function": "3",
+    "lat": -3.95,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "CKZ",
+    "label": "Cankuzo",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": -3.216667,
+    "lng": 30.55
+  },
+  {
+    "locationCode": "CBK",
+    "label": "Cibitoke",
+    "subdivisionCode": "BM",
+    "function": "13",
+    "lat": -3.333333,
+    "lng": 29.366667
+  },
+  {
+    "locationCode": "GID",
+    "label": "Gitega",
+    "function": "4"
+  },
+  {
+    "locationCode": "KKB",
+    "label": "Karuzi",
+    "subdivisionCode": "KR",
+    "function": "3",
+    "lat": -3.1,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "KYZ",
+    "label": "Kayanza",
+    "subdivisionCode": "KY",
+    "function": "3",
+    "lat": -2.916667,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "KRE",
+    "label": "Kirundo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MMB",
+    "label": "Makamba",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -4.133333,
+    "lng": 29.8
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Muramvya",
+    "subdivisionCode": "MU",
+    "function": "3",
+    "lat": -3.266667,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "MYG",
+    "label": "Muyinga",
+    "subdivisionCode": "MY",
+    "function": "3",
+    "lat": -2.833333,
+    "lng": 30.333333
+  },
+  {
+    "locationCode": "MWM",
+    "label": "Mwaro",
+    "subdivisionCode": "MU",
+    "function": "3",
+    "lat": -3.516667,
+    "lng": 29.7
+  },
+  {
+    "locationCode": "NGZ",
+    "label": "Ngozi",
+    "subdivisionCode": "NG",
+    "function": "3",
+    "lat": -2.9,
+    "lng": 29.816667
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumonge",
+    "subdivisionCode": "RM",
+    "function": "3",
+    "lat": -3.966667,
+    "lng": 29.433333
+  },
+  {
+    "locationCode": "RUT",
+    "label": "Rutana",
+    "subdivisionCode": "RT",
+    "function": "3",
+    "lat": -3.916667,
+    "lng": 30
+  },
+  {
+    "locationCode": "RUY",
+    "label": "Ruyigi",
+    "subdivisionCode": "RY",
+    "function": "3",
+    "lat": -3.466667,
+    "lng": 30.233333
+  }
+]

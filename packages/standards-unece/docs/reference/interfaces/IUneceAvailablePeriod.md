@@ -1,0 +1,60 @@
+# Interface: IUneceAvailablePeriod
+
+A specific period of time such as the length of time between two known date/time points, from a start date onwards, or
+up to an end date for which something is available.
+
+## See
+
+https://vocabulary.uncefact.org/AvailablePeriod
+
+## Properties
+
+### @context? {#context}
+
+> `optional` **@context?**: [`UneceContextType`](../type-aliases/UneceContextType.md)
+
+JSON-LD Context.
+
+***
+
+### type {#type}
+
+> **type**: `"AvailablePeriod"`
+
+JSON-LD Type.
+
+***
+
+### description? {#description}
+
+> `optional` **description?**: `string`
+
+The textual description of this available period.
+
+#### See
+
+https://vocabulary.uncefact.org/description
+
+***
+
+### endDateTime? {#enddatetime}
+
+> `optional` **endDateTime?**: `string`
+
+The date, time, date time or other date time value for the end of this available period of time.
+
+#### See
+
+https://vocabulary.uncefact.org/endDateTime
+
+***
+
+### startDateTime? {#startdatetime}
+
+> `optional` **startDateTime?**: `string`
+
+The date, time, date time or other date time value for the start of this available period of time.
+
+#### See
+
+https://vocabulary.uncefact.org/startDateTime

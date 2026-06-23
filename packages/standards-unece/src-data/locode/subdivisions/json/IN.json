@@ -1,0 +1,187 @@
+[
+  {
+    "code": "AN",
+    "label": "Andaman and Nicobar Islands",
+    "type": "Union territory"
+  },
+  {
+    "code": "AP",
+    "label": "Andhra Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "AR",
+    "label": "Arunachal Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "AS",
+    "label": "Assam",
+    "type": "State"
+  },
+  {
+    "code": "BR",
+    "label": "Bihar",
+    "type": "State"
+  },
+  {
+    "code": "CH",
+    "label": "Chandigarh",
+    "type": "Union territory"
+  },
+  {
+    "code": "CT",
+    "label": "Chhattisgarh",
+    "type": "State"
+  },
+  {
+    "code": "DH",
+    "label": "Dadra and Nagar Haveli and Daman and Diu",
+    "type": "Union territory"
+  },
+  {
+    "code": "DL",
+    "label": "Delhi",
+    "type": "Union territory"
+  },
+  {
+    "code": "GA",
+    "label": "Goa",
+    "type": "State"
+  },
+  {
+    "code": "GJ",
+    "label": "Gujarat",
+    "type": "State"
+  },
+  {
+    "code": "HP",
+    "label": "Himachal Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "HR",
+    "label": "Haryana",
+    "type": "State"
+  },
+  {
+    "code": "JH",
+    "label": "Jharkhand",
+    "type": "State"
+  },
+  {
+    "code": "JK",
+    "label": "Jammu and Kashmir",
+    "type": "Union territory"
+  },
+  {
+    "code": "JK",
+    "label": "Jammu and Kashmir",
+    "type": "Union territory"
+  },
+  {
+    "code": "KA",
+    "label": "Karnataka",
+    "type": "State"
+  },
+  {
+    "code": "KL",
+    "label": "Kerala",
+    "type": "State"
+  },
+  {
+    "code": "LA",
+    "label": "Ladakh",
+    "type": "Union territory"
+  },
+  {
+    "code": "LD",
+    "label": "Lakshadweep",
+    "type": "Union territory"
+  },
+  {
+    "code": "MH",
+    "label": "Maharashtra",
+    "type": "State"
+  },
+  {
+    "code": "ML",
+    "label": "Meghalaya",
+    "type": "State"
+  },
+  {
+    "code": "MN",
+    "label": "Manipur",
+    "type": "State"
+  },
+  {
+    "code": "MP",
+    "label": "Madhya Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "MZ",
+    "label": "Mizoram",
+    "type": "State"
+  },
+  {
+    "code": "NL",
+    "label": "Nagaland",
+    "type": "State"
+  },
+  {
+    "code": "OR",
+    "label": "Odisha",
+    "type": "State"
+  },
+  {
+    "code": "PB",
+    "label": "Punjab",
+    "type": "State"
+  },
+  {
+    "code": "PY",
+    "label": "Puducherry",
+    "type": "Union territory"
+  },
+  {
+    "code": "RJ",
+    "label": "Rajasthan",
+    "type": "State"
+  },
+  {
+    "code": "SK",
+    "label": "Sikkim",
+    "type": "State"
+  },
+  {
+    "code": "TG",
+    "label": "Telangana",
+    "type": "State"
+  },
+  {
+    "code": "TN",
+    "label": "Tamil Nadu",
+    "type": "State"
+  },
+  {
+    "code": "TR",
+    "label": "Tripura",
+    "type": "State"
+  },
+  {
+    "code": "UP",
+    "label": "Uttar Pradesh",
+    "type": "State"
+  },
+  {
+    "code": "UT",
+    "label": "Uttarakhand",
+    "type": "State"
+  },
+  {
+    "code": "WB",
+    "label": "West Bengal",
+    "type": "State"
+  }
+]

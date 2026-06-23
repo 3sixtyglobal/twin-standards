@@ -1,0 +1,646 @@
+[
+  {
+    "locationCode": "AKR",
+    "label": "Akranes",
+    "function": "1"
+  },
+  {
+    "locationCode": "AKU",
+    "label": "Akureyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "AEY",
+    "label": "Akureyri Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASS",
+    "label": "Arskogssandur",
+    "function": "1",
+    "lat": 65.933333,
+    "lng": -18.366667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Bakkafjördur",
+    "labelWithDiacritics": "Bakkafjordur",
+    "function": "1",
+    "lat": 66.033333,
+    "lng": -14.8
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Bildudalur - høfn",
+    "labelWithDiacritics": "Bildudalur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "BIU",
+    "label": "Bildudalur Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Blonduos",
+    "function": "14"
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolungarvik",
+    "function": "134",
+    "lat": 66.133333,
+    "lng": -23.25
+  },
+  {
+    "locationCode": "BOI",
+    "label": "Bordeyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGJ",
+    "label": "Borgarfjørdur eystri",
+    "labelWithDiacritics": "Borgarfjordur eystri",
+    "function": "1"
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Borgarnes",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRE",
+    "label": "Breiddalsvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRJ",
+    "label": "Brjánslækur",
+    "subdivisionCode": "3",
+    "labelWithDiacritics": "Brjanslakur",
+    "function": "1",
+    "lat": 65.533333,
+    "lng": -23.2
+  },
+  {
+    "locationCode": "BUD",
+    "label": "Budardalur",
+    "subdivisionCode": "3",
+    "function": "13",
+    "lat": 65.116667,
+    "lng": -21.766667
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Dalvík",
+    "labelWithDiacritics": "Dalvik",
+    "function": "1",
+    "lat": 65.966667,
+    "lng": -18.533333
+  },
+  {
+    "locationCode": "DPV",
+    "label": "Djupavik",
+    "function": "1"
+  },
+  {
+    "locationCode": "DJU",
+    "label": "Djúpivogur",
+    "labelWithDiacritics": "Djupivogur",
+    "function": "14",
+    "lat": 64.65,
+    "lng": -14.283333
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Drangsnes",
+    "function": "1"
+  },
+  {
+    "locationCode": "EGS",
+    "label": "Egilsstadir",
+    "function": "4"
+  },
+  {
+    "locationCode": "ESK",
+    "label": "Eskifjørdur - høfn",
+    "labelWithDiacritics": "Eskifjordur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "EFJ",
+    "label": "Eskifjørdur Apt",
+    "labelWithDiacritics": "Eskifjordur Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "FAG",
+    "label": "Fagurholsmyri",
+    "function": "4"
+  },
+  {
+    "locationCode": "FAS",
+    "label": "Faskrudsfjørdur",
+    "labelWithDiacritics": "Faskrudsfjordur",
+    "function": "14"
+  },
+  {
+    "locationCode": "FEY",
+    "label": "Flatey",
+    "subdivisionCode": "3",
+    "function": "1",
+    "lat": 65.366667,
+    "lng": -22.933333
+  },
+  {
+    "locationCode": "FLA",
+    "label": "Flateyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "FLI",
+    "label": "Flateyri Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRB",
+    "label": "Gardabaer",
+    "function": "1",
+    "lat": 64.083333,
+    "lng": -12.933333
+  },
+  {
+    "locationCode": "GRD",
+    "label": "Gardur",
+    "function": "1"
+  },
+  {
+    "locationCode": "GJR",
+    "label": "Gjogur",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRE",
+    "label": "Grenivík",
+    "labelWithDiacritics": "Grenivik",
+    "function": "1",
+    "lat": 65.95,
+    "lng": -18.183333
+  },
+  {
+    "locationCode": "GRY",
+    "label": "Grimsey",
+    "function": "4"
+  },
+  {
+    "locationCode": "GRI",
+    "label": "Grindavík",
+    "labelWithDiacritics": "Grindavik",
+    "function": "1",
+    "lat": 63.833333,
+    "lng": -22.433333
+  },
+  {
+    "locationCode": "GRF",
+    "label": "Grundarfjørdur",
+    "labelWithDiacritics": "Grundarfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "GRT",
+    "label": "Grundartangi",
+    "function": "1"
+  },
+  {
+    "locationCode": "GUF",
+    "label": "Gufunes/Reykjavik",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAF",
+    "label": "Hafnarfjørdur",
+    "labelWithDiacritics": "Hafnarfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "HNR",
+    "label": "Hafnir",
+    "function": "1",
+    "lat": 63.916667,
+    "lng": -22.683333
+  },
+  {
+    "locationCode": "HEL",
+    "label": "Helguvik",
+    "function": "1",
+    "lat": 64.033333,
+    "lng": -22.55
+  },
+  {
+    "locationCode": "HEA",
+    "label": "Hella",
+    "function": "3",
+    "lat": 63.833333,
+    "lng": 20.4
+  },
+  {
+    "locationCode": "HJA",
+    "label": "Hjalteyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "HFN",
+    "label": "Höfn, Hornafjørdur",
+    "labelWithDiacritics": "Hofn, Hornafjordur",
+    "function": "14",
+    "lat": 64.25,
+    "lng": -15.216667
+  },
+  {
+    "locationCode": "HOF",
+    "label": "Hofsós",
+    "labelWithDiacritics": "Hofsos",
+    "function": "1",
+    "lat": 65.9,
+    "lng": -19.433333
+  },
+  {
+    "locationCode": "HVK",
+    "label": "Hólmavík",
+    "labelWithDiacritics": "Holmavik",
+    "function": "4",
+    "lat": 65.716667,
+    "lng": -21.683333
+  },
+  {
+    "locationCode": "HRI",
+    "label": "Hrisey",
+    "function": "1"
+  },
+  {
+    "locationCode": "HUS",
+    "label": "Husavik - høfn",
+    "labelWithDiacritics": "Husavik - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "HVM",
+    "label": "Hvammstangi",
+    "function": "1"
+  },
+  {
+    "locationCode": "HVE",
+    "label": "Hveragerdi",
+    "function": "3",
+    "lat": 64,
+    "lng": -21.2
+  },
+  {
+    "locationCode": "HVO",
+    "label": "Hvolsvöllur",
+    "labelWithDiacritics": "Hvolsvollur",
+    "function": "3",
+    "lat": 63.733333,
+    "lng": -20.233333
+  },
+  {
+    "locationCode": "ISA",
+    "label": "Isafjørdur - høfn",
+    "labelWithDiacritics": "Isafjordur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "KEF",
+    "label": "Keflavík",
+    "labelWithDiacritics": "Keflavik",
+    "function": "4",
+    "lat": 64.016667,
+    "lng": -22.566667
+  },
+  {
+    "locationCode": "KEV",
+    "label": "Keflavikurkaupstadur",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirkjubæjarklaustur",
+    "subdivisionCode": "8",
+    "labelWithDiacritics": "Kirkjubajarklaustur",
+    "function": "3",
+    "lat": 63.783333,
+    "lng": -18.066667
+  },
+  {
+    "locationCode": "KOP",
+    "label": "Kopasker - høfn",
+    "labelWithDiacritics": "Kopasker - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOV",
+    "label": "Kópavogur",
+    "labelWithDiacritics": "Kopavogur",
+    "function": "1",
+    "lat": 64.1,
+    "lng": -21.916667
+  },
+  {
+    "locationCode": "KRO",
+    "label": "Krokfjardarnes",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAN",
+    "label": "Landeyjahöfn",
+    "subdivisionCode": "8",
+    "labelWithDiacritics": "Landeyjahofn",
+    "function": "1",
+    "lat": 61.516667,
+    "lng": -20.116667
+  },
+  {
+    "locationCode": "LSA",
+    "label": "Litli Sandur",
+    "function": "1",
+    "lat": 64.4,
+    "lng": -21.45
+  },
+  {
+    "locationCode": "HVR",
+    "label": "Midsandur",
+    "function": "1"
+  },
+  {
+    "locationCode": "MJH",
+    "label": "Mjoeyrarhofn",
+    "subdivisionCode": "7",
+    "function": "1367",
+    "lat": 64.916667,
+    "lng": -13.95
+  },
+  {
+    "locationCode": "MJO",
+    "label": "Mjofjördur",
+    "labelWithDiacritics": "Mjofjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "MOS",
+    "label": "Mosfellsbaer",
+    "function": "13",
+    "lat": 64.166667,
+    "lng": -21.716667
+  },
+  {
+    "locationCode": "MVA",
+    "label": "Myvatn",
+    "function": "4"
+  },
+  {
+    "locationCode": "NES",
+    "label": "Neskaupstadur",
+    "function": "1"
+  },
+  {
+    "locationCode": "NJA",
+    "label": "Njardvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "NOU",
+    "label": "Nordurfjördur",
+    "labelWithDiacritics": "Nordurfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "OLF",
+    "label": "Olafsfjørdur",
+    "labelWithDiacritics": "Olafsfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "OLV",
+    "label": "Olafsvík",
+    "labelWithDiacritics": "Olafsvik",
+    "function": "1",
+    "lat": 64.883333,
+    "lng": -23.716667
+  },
+  {
+    "locationCode": "OSP",
+    "label": "Ospakseyri",
+    "function": "1",
+    "lat": 65.45,
+    "lng": -21.433333
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Patreksfjørdur - høfn",
+    "labelWithDiacritics": "Patreksfjordur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAU",
+    "label": "Raufarhöfn",
+    "labelWithDiacritics": "Raufarhofn",
+    "function": "14",
+    "lat": 66.45,
+    "lng": -15.95
+  },
+  {
+    "locationCode": "RFJ",
+    "label": "Reydarfjørdur",
+    "labelWithDiacritics": "Reydarfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "RHA",
+    "label": "Reykhólar",
+    "labelWithDiacritics": "Reykholar",
+    "function": "1",
+    "lat": 65.45,
+    "lng": -22.2
+  },
+  {
+    "locationCode": "RYK",
+    "label": "Reykjabesbaer",
+    "subdivisionCode": "2",
+    "function": "3",
+    "lat": 64,
+    "lng": -22.55
+  },
+  {
+    "locationCode": "REY",
+    "label": "Reykjavík",
+    "labelWithDiacritics": "Reykjavik",
+    "function": "1",
+    "lat": 64.15,
+    "lng": -21.95
+  },
+  {
+    "locationCode": "RIF",
+    "label": "Rif-Hellisandur",
+    "function": "14"
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sandgerdi",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAU",
+    "label": "Saudarkrokur - høfn",
+    "labelWithDiacritics": "Saudarkrokur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selfoss",
+    "function": "3"
+  },
+  {
+    "locationCode": "SFS",
+    "label": "Selfoss - Apt",
+    "function": "4"
+  },
+  {
+    "locationCode": "SEY",
+    "label": "Seydisfjørdur",
+    "labelWithDiacritics": "Seydisfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIG",
+    "label": "Siglufjørdur - høfn",
+    "labelWithDiacritics": "Siglufjordur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SKF",
+    "label": "Skaftafell",
+    "subdivisionCode": "8",
+    "function": "3",
+    "lat": 64.016667,
+    "lng": -17
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skagaströnd",
+    "labelWithDiacritics": "Skagastrond",
+    "function": "1",
+    "lat": 65.833333,
+    "lng": -20.316667
+  },
+  {
+    "locationCode": "KJF",
+    "label": "Skerjafjördur",
+    "labelWithDiacritics": "Skerjafjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "STD",
+    "label": "Stodhvarfjørdur",
+    "labelWithDiacritics": "Stodhvarfjordur",
+    "function": "1"
+  },
+  {
+    "locationCode": "STK",
+    "label": "Stokkseyri",
+    "subdivisionCode": "0",
+    "function": "3",
+    "lat": 63.833333,
+    "lng": -21.05
+  },
+  {
+    "locationCode": "STR",
+    "label": "Straumsvik",
+    "function": "1"
+  },
+  {
+    "locationCode": "STY",
+    "label": "Stykkisholmur - høfn",
+    "labelWithDiacritics": "Stykkisholmur - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUV",
+    "label": "Sudavik",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUD",
+    "label": "Sudureyri/Sugandafjord",
+    "function": "1"
+  },
+  {
+    "locationCode": "SVA",
+    "label": "Svalbardseyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAL",
+    "label": "Talknafjørdur/Sveinseyri",
+    "labelWithDiacritics": "Talknafjordur/Sveinseyri",
+    "function": "1"
+  },
+  {
+    "locationCode": "THE",
+    "label": "Theistareykir",
+    "subdivisionCode": "6",
+    "function": "3",
+    "lat": 65.9,
+    "lng": -16.966667
+  },
+  {
+    "locationCode": "TEY",
+    "label": "Thingeyri",
+    "function": "14"
+  },
+  {
+    "locationCode": "THH",
+    "label": "Thorlakshofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "THO",
+    "label": "Thorshofn",
+    "function": "14"
+  },
+  {
+    "locationCode": "THN",
+    "label": "Tjörneshöfn",
+    "labelWithDiacritics": "Tjorneshofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "VES",
+    "label": "Vestmannaeyjar - høfn",
+    "labelWithDiacritics": "Vestmannaeyjar - hofn",
+    "function": "1"
+  },
+  {
+    "locationCode": "VIK",
+    "label": "Vík",
+    "subdivisionCode": "8",
+    "labelWithDiacritics": "Vik",
+    "function": "3",
+    "lat": 63.416667,
+    "lng": -19.016667
+  },
+  {
+    "locationCode": "VOG",
+    "label": "Vogar",
+    "function": "1",
+    "lat": 63.983333,
+    "lng": -22.383333
+  },
+  {
+    "locationCode": "VPN",
+    "label": "Vopnafjördur",
+    "labelWithDiacritics": "Vopnafjordur",
+    "function": "1",
+    "lat": 65.75,
+    "lng": -14.833333
+  }
+]

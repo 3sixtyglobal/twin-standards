@@ -1,0 +1,162 @@
+[
+  {
+    "code": "AK",
+    "label": "Acklins",
+    "type": "District"
+  },
+  {
+    "code": "BI",
+    "label": "Bimini",
+    "type": "District"
+  },
+  {
+    "code": "BP",
+    "label": "Black Point",
+    "type": "District"
+  },
+  {
+    "code": "BY",
+    "label": "Berry Islands",
+    "type": "District"
+  },
+  {
+    "code": "CE",
+    "label": "Central Eleuthera",
+    "type": "District"
+  },
+  {
+    "code": "CI",
+    "label": "Cat Island",
+    "type": "District"
+  },
+  {
+    "code": "CK",
+    "label": "Crooked Island and Long Cay",
+    "type": "District"
+  },
+  {
+    "code": "CO",
+    "label": "Central Abaco",
+    "type": "District"
+  },
+  {
+    "code": "CS",
+    "label": "Central Andros",
+    "type": "District"
+  },
+  {
+    "code": "EG",
+    "label": "East Grand Bahama",
+    "type": "District"
+  },
+  {
+    "code": "EX",
+    "label": "Exuma",
+    "type": "District"
+  },
+  {
+    "code": "FP",
+    "label": "City of Freeport",
+    "type": "District"
+  },
+  {
+    "code": "GC",
+    "label": "Grand Cay",
+    "type": "District"
+  },
+  {
+    "code": "HI",
+    "label": "Harbour Island",
+    "type": "District"
+  },
+  {
+    "code": "HT",
+    "label": "Hope Town",
+    "type": "District"
+  },
+  {
+    "code": "IN",
+    "label": "Inagua",
+    "type": "District"
+  },
+  {
+    "code": "LI",
+    "label": "Long Island",
+    "type": "District"
+  },
+  {
+    "code": "MC",
+    "label": "Mangrove Cay",
+    "type": "District"
+  },
+  {
+    "code": "MG",
+    "label": "Mayaguana",
+    "type": "District"
+  },
+  {
+    "code": "MI",
+    "label": "Moore's Island",
+    "type": "District"
+  },
+  {
+    "code": "NE",
+    "label": "North Eleuthera",
+    "type": "District"
+  },
+  {
+    "code": "NO",
+    "label": "North Abaco",
+    "type": "District"
+  },
+  {
+    "code": "NP",
+    "label": "New Providence",
+    "type": "Island"
+  },
+  {
+    "code": "NS",
+    "label": "North Andros",
+    "type": "District"
+  },
+  {
+    "code": "RC",
+    "label": "Rum Cay",
+    "type": "District"
+  },
+  {
+    "code": "RI",
+    "label": "Ragged Island",
+    "type": "District"
+  },
+  {
+    "code": "SA",
+    "label": "South Andros",
+    "type": "District"
+  },
+  {
+    "code": "SE",
+    "label": "South Eleuthera",
+    "type": "District"
+  },
+  {
+    "code": "SO",
+    "label": "South Abaco",
+    "type": "District"
+  },
+  {
+    "code": "SS",
+    "label": "San Salvador",
+    "type": "District"
+  },
+  {
+    "code": "SW",
+    "label": "Spanish Wells",
+    "type": "District"
+  },
+  {
+    "code": "WG",
+    "label": "West Grand Bahama",
+    "type": "District"
+  }
+]

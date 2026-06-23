@@ -1,12 +1,11 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-
 import { Converter, GeneralError, Guards, Is } from "@twin.org/core";
 import { nameof } from "@twin.org/nameof";
 import type { IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import { DidTypes } from "../models/didTypes";
-import type { IMultikey } from "../models/IMultikey";
+import { DidContexts } from "../models/didContexts.js";
+import { DidTypes } from "../models/didTypes.js";
+import type { IMultikey } from "../models/IMultikey.js";
 
 /**
  * Helper methods for multikey.
@@ -123,8 +122,8 @@ export class MultikeyHelper {
 			}
 			secretKeyRaw = Converter.base58ToBytes(multikey.secretKeyMultibase.slice(1));
 			if (secretKeyRaw[0] !== 0x80 || secretKeyRaw[1] !== 0x26) {
-				throw new GeneralError(MultikeyHelper.CLASS_NAME, "publicKeyMultibaseMissingHeader", {
-					publicKeyMultibase: multikey.publicKeyMultibase
+				throw new GeneralError(MultikeyHelper.CLASS_NAME, "secretKeyMultibaseMissingHeader", {
+					secretKeyMultibase: multikey.secretKeyMultibase
 				});
 			}
 		}

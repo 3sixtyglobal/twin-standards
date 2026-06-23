@@ -1,0 +1,27 @@
+[
+  {
+    "code": "01",
+    "label": "Ville de Kigali",
+    "type": "city"
+  },
+  {
+    "code": "02",
+    "label": "Est",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Nord",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Ouest",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Sud",
+    "type": "Province"
+  }
+]

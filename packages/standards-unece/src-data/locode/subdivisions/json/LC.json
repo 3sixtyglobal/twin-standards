@@ -1,0 +1,52 @@
+[
+  {
+    "code": "01",
+    "label": "Anse la Raye",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Castries",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Choiseul",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Dennery",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Gros Islet",
+    "type": "District"
+  },
+  {
+    "code": "07",
+    "label": "Laborie",
+    "type": "District"
+  },
+  {
+    "code": "08",
+    "label": "Micoud",
+    "type": "District"
+  },
+  {
+    "code": "10",
+    "label": "Soufrière",
+    "type": "District"
+  },
+  {
+    "code": "11",
+    "label": "Vieux Fort",
+    "type": "District"
+  },
+  {
+    "code": "12",
+    "label": "Canaries",
+    "type": "District"
+  }
+]

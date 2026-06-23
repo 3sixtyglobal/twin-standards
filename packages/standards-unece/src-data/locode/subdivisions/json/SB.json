@@ -1,0 +1,52 @@
+[
+  {
+    "code": "CE",
+    "label": "Central",
+    "type": "Province"
+  },
+  {
+    "code": "CH",
+    "label": "Choiseul",
+    "type": "Province"
+  },
+  {
+    "code": "CT",
+    "label": "Capital Territory (Honiara)",
+    "type": "Capital territory"
+  },
+  {
+    "code": "GU",
+    "label": "Guadalcanal",
+    "type": "Province"
+  },
+  {
+    "code": "IS",
+    "label": "Isabel",
+    "type": "Province"
+  },
+  {
+    "code": "MK",
+    "label": "Makira-Ulawa",
+    "type": "Province"
+  },
+  {
+    "code": "ML",
+    "label": "Malaita",
+    "type": "Province"
+  },
+  {
+    "code": "RB",
+    "label": "Rennell and Bellona",
+    "type": "Province"
+  },
+  {
+    "code": "TE",
+    "label": "Temotu",
+    "type": "Province"
+  },
+  {
+    "code": "WE",
+    "label": "Western",
+    "type": "Province"
+  }
+]

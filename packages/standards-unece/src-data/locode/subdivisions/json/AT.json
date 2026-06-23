@@ -1,0 +1,47 @@
+[
+  {
+    "code": "1",
+    "label": "Burgenland",
+    "type": "state"
+  },
+  {
+    "code": "2",
+    "label": "Kärnten",
+    "type": "state"
+  },
+  {
+    "code": "3",
+    "label": "Niederösterreich",
+    "type": "state"
+  },
+  {
+    "code": "4",
+    "label": "Oberösterreich",
+    "type": "state"
+  },
+  {
+    "code": "5",
+    "label": "Salzburg",
+    "type": "state"
+  },
+  {
+    "code": "6",
+    "label": "Steiermark",
+    "type": "state"
+  },
+  {
+    "code": "7",
+    "label": "Tirol",
+    "type": "state"
+  },
+  {
+    "code": "8",
+    "label": "Vorarlberg",
+    "type": "state"
+  },
+  {
+    "code": "9",
+    "label": "Wien",
+    "type": "state"
+  }
+]

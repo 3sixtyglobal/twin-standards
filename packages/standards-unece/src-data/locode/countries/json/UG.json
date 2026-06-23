@@ -1,0 +1,258 @@
+[
+  {
+    "locationCode": "RUA",
+    "label": "Arua",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUG",
+    "label": "Bugembe",
+    "function": "0"
+  },
+  {
+    "locationCode": "BUS",
+    "label": "Busia",
+    "function": "3"
+  },
+  {
+    "locationCode": "EBB",
+    "label": "Entebbe",
+    "function": "4"
+  },
+  {
+    "locationCode": "FPO",
+    "label": "Fort Portal",
+    "function": "0"
+  },
+  {
+    "locationCode": "GAB",
+    "label": "Gaba",
+    "function": "3",
+    "lat": 0.1,
+    "lng": 32.916667
+  },
+  {
+    "locationCode": "MKN",
+    "label": "Galiraya",
+    "subdivisionCode": "108",
+    "function": "1",
+    "lat": 1.3,
+    "lng": 32.866667
+  },
+  {
+    "locationCode": "ULU",
+    "label": "Gulu",
+    "function": "4"
+  },
+  {
+    "locationCode": "JIN",
+    "label": "Jinja",
+    "function": "14"
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kabale",
+    "function": "0"
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Kabalega Falls",
+    "function": "4"
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Kampala",
+    "function": "45"
+  },
+  {
+    "locationCode": "KMU",
+    "label": "Kamuli",
+    "subdivisionCode": "205",
+    "function": "3",
+    "lat": 0.933333,
+    "lng": 33.116667
+  },
+  {
+    "locationCode": "KPK",
+    "label": "Kapeeka",
+    "subdivisionCode": "116",
+    "function": "3",
+    "lat": 0.683333,
+    "lng": 32.25
+  },
+  {
+    "locationCode": "KSE",
+    "label": "Kasese",
+    "function": "234"
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kisubi",
+    "subdivisionCode": "106",
+    "function": "35",
+    "lat": 0.116667,
+    "lng": 32.516667
+  },
+  {
+    "locationCode": "KGM",
+    "label": "Kitgum",
+    "function": "3",
+    "lat": 3.283333,
+    "lng": 32.866667
+  },
+  {
+    "locationCode": "KOB",
+    "label": "Koboko",
+    "function": "3",
+    "lat": 3.416667,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "KTD",
+    "label": "Kotido",
+    "subdivisionCode": "306",
+    "function": "3",
+    "lat": 2.966667,
+    "lng": 34.116667
+  },
+  {
+    "locationCode": "LIR",
+    "label": "Lira",
+    "function": "0"
+  },
+  {
+    "locationCode": "LUG",
+    "label": "Lugazi",
+    "function": "3",
+    "lat": 0.383333,
+    "lng": 32.916667
+  },
+  {
+    "locationCode": "LUW",
+    "label": "Luwero",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 0.833333,
+    "lng": 32.466667
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malaba",
+    "lat": 0.683333,
+    "lng": 33.833333
+  },
+  {
+    "locationCode": "4MM",
+    "label": "Manafwa",
+    "subdivisionCode": "221",
+    "function": "3",
+    "lat": 1.016667,
+    "lng": 34.35
+  },
+  {
+    "locationCode": "MSK",
+    "label": "Masaka",
+    "function": "0"
+  },
+  {
+    "locationCode": "KCU",
+    "label": "Masindi",
+    "function": "4"
+  },
+  {
+    "locationCode": "MBA",
+    "label": "Mbale",
+    "function": "0"
+  },
+  {
+    "locationCode": "MBQ",
+    "label": "Mbarara",
+    "function": "34"
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Moroto",
+    "subdivisionCode": "308",
+    "function": "6",
+    "lat": 2.483333,
+    "lng": 34.666667
+  },
+  {
+    "locationCode": "OYG",
+    "label": "Moyo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPW",
+    "label": "Mpondwe",
+    "subdivisionCode": "406",
+    "function": "3",
+    "lat": 0.9,
+    "lng": 29.75
+  },
+  {
+    "locationCode": "MUB",
+    "label": "Mubende",
+    "function": "0"
+  },
+  {
+    "locationCode": "MUK",
+    "label": "Mukono",
+    "subdivisionCode": "108",
+    "function": "23",
+    "lat": 0.35,
+    "lng": 32.75
+  },
+  {
+    "locationCode": "NKU",
+    "label": "Nkumba",
+    "subdivisionCode": "106",
+    "function": "3",
+    "lat": 0.833333,
+    "lng": 32.5
+  },
+  {
+    "locationCode": "PB2",
+    "label": "Pabbo",
+    "subdivisionCode": "319",
+    "function": "3",
+    "lat": 3,
+    "lng": 32.133333
+  },
+  {
+    "locationCode": "PKE",
+    "label": "Pakelle",
+    "function": "3",
+    "lat": 3.366667,
+    "lng": 31.866667
+  },
+  {
+    "locationCode": "PAF",
+    "label": "Pakuba",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAK",
+    "label": "Rakai",
+    "subdivisionCode": "110",
+    "function": "3",
+    "lat": -0.716667,
+    "lng": 31.483333
+  },
+  {
+    "locationCode": "SRT",
+    "label": "Soroti",
+    "function": "4"
+  },
+  {
+    "locationCode": "TRY",
+    "label": "Tororo",
+    "function": "234"
+  },
+  {
+    "locationCode": "YMB",
+    "label": "Yumbe",
+    "subdivisionCode": "303",
+    "function": "16"
+  }
+]

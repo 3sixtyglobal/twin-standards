@@ -1,0 +1,1215 @@
+[
+  {
+    "locationCode": "ATF",
+    "label": "Ambato",
+    "function": "34"
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Arenillas",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": -3.55,
+    "lng": -80.066667
+  },
+  {
+    "locationCode": "ATI",
+    "label": "Atuntaqui",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 0.333333,
+    "lng": -78.216667
+  },
+  {
+    "locationCode": "BBA",
+    "label": "Baba",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.783333,
+    "lng": -79.666667
+  },
+  {
+    "locationCode": "BYO",
+    "label": "Babahoyo",
+    "subdivisionCode": "R",
+    "function": "3"
+  },
+  {
+    "locationCode": "BHA",
+    "label": "Bahía de Caráquez",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Bahia de Caraquez",
+    "function": "14",
+    "lat": -0.55,
+    "lng": -80.5
+  },
+  {
+    "locationCode": "EBL",
+    "label": "Balao",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balzar",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.366667,
+    "lng": -79.9
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Banos",
+    "subdivisionCode": "T",
+    "function": "3",
+    "lat": -1.4,
+    "lng": -78.416667
+  },
+  {
+    "locationCode": "BLI",
+    "label": "Bartolome Island",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.283333,
+    "lng": -90.55
+  },
+  {
+    "locationCode": "EQB",
+    "label": "Bucay",
+    "subdivisionCode": "G",
+    "function": "6",
+    "lat": -2.683333,
+    "lng": -79.666667
+  },
+  {
+    "locationCode": "BUF",
+    "label": "Buena Fe",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -0.9,
+    "lng": -79.483333
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Caleta Tagus",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.25,
+    "lng": -91.366667
+  },
+  {
+    "locationCode": "CNT",
+    "label": "Canuto",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": -0.8,
+    "lng": -80.116667
+  },
+  {
+    "locationCode": "CTM",
+    "label": "Catarama",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.583333,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "CAY",
+    "label": "Cayambe",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": 0.5,
+    "lng": -78.133333
+  },
+  {
+    "locationCode": "CRT",
+    "label": "Cerecita",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.35,
+    "lng": -80.283333
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chambo",
+    "subdivisionCode": "H",
+    "function": "6",
+    "lat": 1.733333,
+    "lng": -78.583333
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chanduy",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.416667,
+    "lng": -80.666667
+  },
+  {
+    "locationCode": "EQC",
+    "label": "Chone",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": -0.683333,
+    "lng": -80.1
+  },
+  {
+    "locationCode": "CHG",
+    "label": "Chongón",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Chongon",
+    "function": "36",
+    "lat": -2.233333,
+    "lng": -80.066667
+  },
+  {
+    "locationCode": "CLE",
+    "label": "Clementina",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.783333,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "OCC",
+    "label": "Coca",
+    "subdivisionCode": "N",
+    "function": "1346",
+    "lat": -0.483333,
+    "lng": -76.966667
+  },
+  {
+    "locationCode": "CMM",
+    "label": "Coronel Marcelino Mariduena",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.2,
+    "lng": -79.416667
+  },
+  {
+    "locationCode": "CTI",
+    "label": "Cotacachi",
+    "subdivisionCode": "I",
+    "function": "6",
+    "lat": 0.3,
+    "lng": -78.266667
+  },
+  {
+    "locationCode": "CUE",
+    "label": "Cuenca",
+    "subdivisionCode": "A",
+    "function": "34",
+    "lat": -2.883333,
+    "lng": -78.983333
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Cumandá",
+    "subdivisionCode": "H",
+    "labelWithDiacritics": "Cumanda",
+    "function": "3",
+    "lat": -2.2,
+    "lng": -79.133333
+  },
+  {
+    "locationCode": "CUA",
+    "label": "Cumbaya",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.2,
+    "lng": -78.433333
+  },
+  {
+    "locationCode": "DAL",
+    "label": "Daule",
+    "function": "3",
+    "lat": -1.833333,
+    "lng": -79.933333
+  },
+  {
+    "locationCode": "DUN",
+    "label": "Durán",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Duran",
+    "function": "1",
+    "lat": -2.2,
+    "lng": -79.833333
+  },
+  {
+    "locationCode": "ELC",
+    "label": "El Carmen",
+    "subdivisionCode": "M",
+    "function": "36",
+    "lat": -0.266667,
+    "lng": -79.433333
+  },
+  {
+    "locationCode": "EMP",
+    "label": "El Empalme",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.05,
+    "lng": -79.616667
+  },
+  {
+    "locationCode": "EGO",
+    "label": "El Guabo",
+    "function": "6",
+    "lat": -2.65,
+    "lng": -79.716667
+  },
+  {
+    "locationCode": "EQH",
+    "label": "El Quinche",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.1,
+    "lng": -78.283333
+  },
+  {
+    "locationCode": "EQD",
+    "label": "El Triunfo",
+    "subdivisionCode": "T",
+    "function": "6",
+    "lat": -1.3,
+    "lng": -78.4
+  },
+  {
+    "locationCode": "ESM",
+    "label": "Esmeraldas",
+    "subdivisionCode": "E",
+    "function": "14",
+    "lat": 0.983333,
+    "lng": -79.7
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Espanola Island",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -1.383333,
+    "lng": -89.683333
+  },
+  {
+    "locationCode": "FLO",
+    "label": "Floreana Island",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -1.3,
+    "lng": -90.433333
+  },
+  {
+    "locationCode": "GPS",
+    "label": "Galapagos Islands",
+    "function": "4"
+  },
+  {
+    "locationCode": "GUO",
+    "label": "Gualaceo",
+    "subdivisionCode": "A",
+    "function": "3",
+    "lat": -2.9,
+    "lng": -78.783333
+  },
+  {
+    "locationCode": "GNO",
+    "label": "Guano",
+    "subdivisionCode": "H",
+    "function": "6",
+    "lat": -1.583333,
+    "lng": -78.633333
+  },
+  {
+    "locationCode": "GYE",
+    "label": "Guayaquil",
+    "subdivisionCode": "G",
+    "function": "145",
+    "lat": -2.166667,
+    "lng": -79.9
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guayas",
+    "subdivisionCode": "G",
+    "function": "16",
+    "lat": -0.966667,
+    "lng": -79.55
+  },
+  {
+    "locationCode": "GBB",
+    "label": "Guayllabamba",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.5,
+    "lng": -78.333333
+  },
+  {
+    "locationCode": "HBL",
+    "label": "Hacienda Bolivia",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.35,
+    "lng": -78.433333
+  },
+  {
+    "locationCode": "HGU",
+    "label": "Hacienda Guayas",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.316667,
+    "lng": -79.866667
+  },
+  {
+    "locationCode": "HQL",
+    "label": "Huaquillas",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": -3.483333,
+    "lng": -80.233333
+  },
+  {
+    "locationCode": "IBA",
+    "label": "Ibarra",
+    "subdivisionCode": "I",
+    "function": "3",
+    "lat": 0.35,
+    "lng": -78.116667
+  },
+  {
+    "locationCode": "IAR",
+    "label": "Isidro Ayora",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.883333,
+    "lng": -80.166667
+  },
+  {
+    "locationCode": "WGL",
+    "label": "Isle Baltra",
+    "function": "4",
+    "lat": 44.516667,
+    "lng": -79.216667
+  },
+  {
+    "locationCode": "JAO",
+    "label": "Jaramijó",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Jaramijo",
+    "function": "3",
+    "lat": -0.933333,
+    "lng": -80.633333
+  },
+  {
+    "locationCode": "JIP",
+    "label": "Jipijapa",
+    "subdivisionCode": "M",
+    "function": "346",
+    "lat": -1.333333,
+    "lng": -80.583333
+  },
+  {
+    "locationCode": "JQU",
+    "label": "Junquillal",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.716667,
+    "lng": -79.866667
+  },
+  {
+    "locationCode": "LAC",
+    "label": "La Concordia",
+    "subdivisionCode": "E",
+    "function": "3",
+    "lat": 1.033333,
+    "lng": -79.033333
+  },
+  {
+    "locationCode": "LJS",
+    "label": "La Joya de los Sachas",
+    "subdivisionCode": "N",
+    "function": "3",
+    "lat": -0.316667,
+    "lng": -76.85
+  },
+  {
+    "locationCode": "LLD",
+    "label": "La Libertad",
+    "subdivisionCode": "G",
+    "function": "1",
+    "lat": -2.233333,
+    "lng": -80.9
+  },
+  {
+    "locationCode": "LAM",
+    "label": "La Maná",
+    "subdivisionCode": "X",
+    "labelWithDiacritics": "La Mana",
+    "function": "3",
+    "lat": -0.933333,
+    "lng": -79.216667
+  },
+  {
+    "locationCode": "LPT",
+    "label": "La Puntilla",
+    "function": "136",
+    "lat": -2.15,
+    "lng": -79.866667
+  },
+  {
+    "locationCode": "LTR",
+    "label": "La Troncal",
+    "subdivisionCode": "F",
+    "function": "3",
+    "lat": -2.4,
+    "lng": -79.333333
+  },
+  {
+    "locationCode": "LUN",
+    "label": "La Unión",
+    "subdivisionCode": "R",
+    "labelWithDiacritics": "La Union",
+    "function": "3",
+    "lat": -1.783333,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "LGQ",
+    "label": "Lago Agrio",
+    "function": "4",
+    "lat": 0.866667,
+    "lng": -76.866667
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Lasso",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": -0.75,
+    "lng": -78.6
+  },
+  {
+    "locationCode": "LAT",
+    "label": "Latacunga",
+    "subdivisionCode": "X",
+    "function": "3",
+    "lat": -0.933333,
+    "lng": -78.616667
+  },
+  {
+    "locationCode": "LOH",
+    "label": "Loja",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRR",
+    "label": "Macará",
+    "subdivisionCode": "L",
+    "labelWithDiacritics": "Macara",
+    "function": "4",
+    "lat": -4.383333,
+    "lng": -79.95
+  },
+  {
+    "locationCode": "XMS",
+    "label": "Macas",
+    "subdivisionCode": "S",
+    "function": "4",
+    "lat": -2.316667,
+    "lng": -78.116667
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Machachi",
+    "subdivisionCode": "P",
+    "function": "36",
+    "lat": -0.5,
+    "lng": -78.566667
+  },
+  {
+    "locationCode": "MCH",
+    "label": "Machala",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEC",
+    "label": "Manta",
+    "subdivisionCode": "M",
+    "function": "14",
+    "lat": -0.95,
+    "lng": -80.733333
+  },
+  {
+    "locationCode": "MSU",
+    "label": "Mariscal Sucre",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.1,
+    "lng": -79.483333
+  },
+  {
+    "locationCode": "MZD",
+    "label": "Mendez",
+    "subdivisionCode": "S",
+    "function": "4",
+    "lat": -2.666667,
+    "lng": -78.316667
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Milagro",
+    "function": "36",
+    "lat": -2.033333,
+    "lng": -80.25
+  },
+  {
+    "locationCode": "MOC",
+    "label": "Mocache",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.183333,
+    "lng": -79.5
+  },
+  {
+    "locationCode": "MTO",
+    "label": "Montalvo",
+    "subdivisionCode": "R",
+    "function": "36",
+    "lat": -1.8,
+    "lng": -79.333333
+  },
+  {
+    "locationCode": "MTC",
+    "label": "Montecristi",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": -1.05,
+    "lng": -80.666667
+  },
+  {
+    "locationCode": "MTV",
+    "label": "Monteverde",
+    "function": "3",
+    "lat": -2.033333,
+    "lng": -80.716667
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morona",
+    "function": "6",
+    "lat": -2.883333,
+    "lng": -77.683333
+  },
+  {
+    "locationCode": "NAR",
+    "label": "Naranjal",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.666667,
+    "lng": -79.616667
+  },
+  {
+    "locationCode": "NRJ",
+    "label": "Naranjito",
+    "subdivisionCode": "G",
+    "function": "6",
+    "lat": -2.216667,
+    "lng": -79.483333
+  },
+  {
+    "locationCode": "PLQ",
+    "label": "Palenque",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.45,
+    "lng": -79.733333
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Palestina",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.633333,
+    "lng": -79.966667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasaje",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.183333,
+    "lng": -79.916667
+  },
+  {
+    "locationCode": "PJE",
+    "label": "Pasaje",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": -3.333333,
+    "lng": -79.816667
+  },
+  {
+    "locationCode": "PSC",
+    "label": "Pascuales",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": -2.083333,
+    "lng": -79.933333
+  },
+  {
+    "locationCode": "PTZ",
+    "label": "Pastaza",
+    "function": "4",
+    "lat": -2,
+    "lng": -77
+  },
+  {
+    "locationCode": "PPI",
+    "label": "Patricia Pilar",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -0.566667,
+    "lng": -79.35
+  },
+  {
+    "locationCode": "PTE",
+    "label": "Paute",
+    "subdivisionCode": "A",
+    "function": "6",
+    "lat": -2.783333,
+    "lng": -78.75
+  },
+  {
+    "locationCode": "PDL",
+    "label": "Pedernales",
+    "subdivisionCode": "M",
+    "function": "6",
+    "lat": 0.833333,
+    "lng": -80.05
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Pedro Carbo",
+    "function": "13"
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Pelileo",
+    "subdivisionCode": "T",
+    "function": "2",
+    "lat": -1.316667,
+    "lng": -78.533333
+  },
+  {
+    "locationCode": "PIF",
+    "label": "Pifo",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.233333,
+    "lng": -78.333333
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Piñas",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Pinas",
+    "function": "6",
+    "lat": 3.666667,
+    "lng": -79.65
+  },
+  {
+    "locationCode": "PYS",
+    "label": "Playas",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": -2.633333,
+    "lng": -80.383333
+  },
+  {
+    "locationCode": "PVL",
+    "label": "Portovelo",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": -3.716667,
+    "lng": -79.616667
+  },
+  {
+    "locationCode": "PVO",
+    "label": "Portoviejo",
+    "subdivisionCode": "M",
+    "function": "34",
+    "lat": -1.05,
+    "lng": -80.45
+  },
+  {
+    "locationCode": "PSJ",
+    "label": "Posorja",
+    "subdivisionCode": "G",
+    "function": "136",
+    "lat": -2.7,
+    "lng": -80.25
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Progreso",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.883333,
+    "lng": -79.866667
+  },
+  {
+    "locationCode": "PUV",
+    "label": "Pueblo Viejo",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": -0.783333,
+    "lng": -79.85
+  },
+  {
+    "locationCode": "PUE",
+    "label": "Puebloviejo",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.55,
+    "lng": -79.533333
+  },
+  {
+    "locationCode": "AYO",
+    "label": "Puerto Ayora, Isla Santa Cruz",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.75,
+    "lng": -90.316667
+  },
+  {
+    "locationCode": "PBG",
+    "label": "Puerto Balao Grande",
+    "subdivisionCode": "G",
+    "function": "1",
+    "lat": -2.9,
+    "lng": -79.833333
+  },
+  {
+    "locationCode": "BAQ",
+    "label": "Puerto Baquerizo Moreno",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.9,
+    "lng": -89.6
+  },
+  {
+    "locationCode": "PBO",
+    "label": "Puerto Bolívar",
+    "subdivisionCode": "O",
+    "labelWithDiacritics": "Puerto Bolivar",
+    "function": "1",
+    "lat": -3.266667,
+    "lng": -79.983333
+  },
+  {
+    "locationCode": "PEG",
+    "label": "Puerto Egas",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.233333,
+    "lng": -90.85
+  },
+  {
+    "locationCode": "PFO",
+    "label": "Puerto Francisco de Orellana",
+    "subdivisionCode": "D",
+    "function": "3",
+    "lat": -0.466667,
+    "lng": -76.966667
+  },
+  {
+    "locationCode": "PEV",
+    "label": "Puerto Nuevo",
+    "function": "16",
+    "lat": -2.216667,
+    "lng": -79.916667
+  },
+  {
+    "locationCode": "VIL",
+    "label": "Puerto Villamil, Isla Isabela",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.933333,
+    "lng": -91.016667
+  },
+  {
+    "locationCode": "PUN",
+    "label": "Puná",
+    "subdivisionCode": "G",
+    "labelWithDiacritics": "Puna",
+    "function": "13",
+    "lat": -2.733333,
+    "lng": -79.916667
+  },
+  {
+    "locationCode": "PYO",
+    "label": "Putumayo",
+    "function": "4",
+    "lat": 0.066667,
+    "lng": -75.9
+  },
+  {
+    "locationCode": "PUY",
+    "label": "Puyo",
+    "subdivisionCode": "Y",
+    "function": "6",
+    "lat": 1.466667,
+    "lng": -77.983333
+  },
+  {
+    "locationCode": "QVD",
+    "label": "Quevedo",
+    "subdivisionCode": "R",
+    "function": "36",
+    "lat": -1.033333,
+    "lng": -79.45
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Quinche",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.116667,
+    "lng": -78.3
+  },
+  {
+    "locationCode": "EQA",
+    "label": "Quininde",
+    "subdivisionCode": "E",
+    "function": "6",
+    "lat": 0.333333,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "QSA",
+    "label": "Quinsaloma",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.2,
+    "lng": -79.3
+  },
+  {
+    "locationCode": "UIO",
+    "label": "Quito",
+    "function": "45"
+  },
+  {
+    "locationCode": "RAB",
+    "label": "Rabida Island",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.416667,
+    "lng": -90.7
+  },
+  {
+    "locationCode": "RBA",
+    "label": "Riobamba",
+    "function": "3",
+    "lat": -1.666667,
+    "lng": -78.633333
+  },
+  {
+    "locationCode": "RMN",
+    "label": "Ruminahui",
+    "subdivisionCode": "P",
+    "function": "2",
+    "lat": -0.216667,
+    "lng": -78.516667
+  },
+  {
+    "locationCode": "SNC",
+    "label": "Salinas",
+    "subdivisionCode": "G",
+    "function": "1",
+    "lat": -2.216667,
+    "lng": -80.966667
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salitre",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -1.833333,
+    "lng": -79.8
+  },
+  {
+    "locationCode": "BOD",
+    "label": "Samborondon",
+    "function": "6",
+    "lat": -2.183333,
+    "lng": -79.883333
+  },
+  {
+    "locationCode": "SCS",
+    "label": "San Carlos",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.5,
+    "lng": -78.766667
+  },
+  {
+    "locationCode": "SCY",
+    "label": "San Cristóbal",
+    "subdivisionCode": "W",
+    "labelWithDiacritics": "San Cristobal",
+    "function": "4",
+    "lat": -0.9,
+    "lng": -89.616667
+  },
+  {
+    "locationCode": "SNJ",
+    "label": "San Juan",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.666667,
+    "lng": -79.766667
+  },
+  {
+    "locationCode": "SLR",
+    "label": "San Lorenzo",
+    "subdivisionCode": "E",
+    "function": "1",
+    "lat": 1.25,
+    "lng": -78.833333
+  },
+  {
+    "locationCode": "SAI",
+    "label": "Sangolquí",
+    "subdivisionCode": "P",
+    "labelWithDiacritics": "Sangolqui",
+    "function": "3",
+    "lat": -0.316667,
+    "lng": -78.45
+  },
+  {
+    "locationCode": "WSE",
+    "label": "Santa Cecillia",
+    "function": "4"
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Santa Elena",
+    "subdivisionCode": "SE",
+    "function": "23",
+    "lat": -2.216667,
+    "lng": -80.85
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Santa Rosa",
+    "subdivisionCode": "O",
+    "function": "3",
+    "lat": -3.45,
+    "lng": -79.966667
+  },
+  {
+    "locationCode": "SGO",
+    "label": "Santo Domingo",
+    "subdivisionCode": "SD",
+    "function": "23",
+    "lat": -0.25,
+    "lng": -79.166667
+  },
+  {
+    "locationCode": "SDO",
+    "label": "Santo Domingo de los Colorados",
+    "function": "3"
+  },
+  {
+    "locationCode": "SYM",
+    "label": "Seymour",
+    "subdivisionCode": "W",
+    "function": "1",
+    "lat": -0.416667,
+    "lng": -90.283333
+  },
+  {
+    "locationCode": "SBO",
+    "label": "Simón Bolívar",
+    "labelWithDiacritics": "Simon Bolivar",
+    "function": "36",
+    "lat": -2.016667,
+    "lng": -79.483333
+  },
+  {
+    "locationCode": "SUQ",
+    "label": "Sucua",
+    "subdivisionCode": "S",
+    "function": "4",
+    "lat": -2.466667,
+    "lng": -78.166667
+  },
+  {
+    "locationCode": "TBB",
+    "label": "Tababela",
+    "subdivisionCode": "P",
+    "function": "34",
+    "lat": -0.183333,
+    "lng": -78.333333
+  },
+  {
+    "locationCode": "TAB",
+    "label": "Tabacundo",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": 0.5,
+    "lng": -78.2
+  },
+  {
+    "locationCode": "TSC",
+    "label": "Taisha",
+    "subdivisionCode": "S",
+    "function": "4",
+    "lat": -2.366667,
+    "lng": -77.5
+  },
+  {
+    "locationCode": "TPC",
+    "label": "Tarapoa",
+    "function": "4",
+    "lat": -1.416667,
+    "lng": -76.766667
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tena",
+    "subdivisionCode": "N",
+    "function": "6",
+    "lat": -0.983333,
+    "lng": -77.816667
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Tenguel",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -3,
+    "lng": -79.766667
+  },
+  {
+    "locationCode": "TEP",
+    "label": "Tepre",
+    "function": "1"
+  },
+  {
+    "locationCode": "TPN",
+    "label": "Tiputini",
+    "subdivisionCode": "D",
+    "function": "4",
+    "lat": -0.7,
+    "lng": -76.333333
+  },
+  {
+    "locationCode": "TSL",
+    "label": "Tisaleo",
+    "subdivisionCode": "T",
+    "function": "23",
+    "lat": -1.35,
+    "lng": -78.666667
+  },
+  {
+    "locationCode": "TUA",
+    "label": "Tulcan",
+    "function": "4",
+    "lat": 0.8,
+    "lng": -77.7
+  },
+  {
+    "locationCode": "TUO",
+    "label": "Tumbaco",
+    "subdivisionCode": "P",
+    "function": "3",
+    "lat": -0.216667,
+    "lng": -78.4
+  },
+  {
+    "locationCode": "TDM",
+    "label": "Tundayme",
+    "subdivisionCode": "Z",
+    "function": "3",
+    "lat": -3.566667,
+    "lng": -78.483333
+  },
+  {
+    "locationCode": "VLC",
+    "label": "Valencia",
+    "subdivisionCode": "R",
+    "function": "23",
+    "lat": -0.95,
+    "lng": -79.333333
+  },
+  {
+    "locationCode": "VHS",
+    "label": "Valle Hermoso",
+    "subdivisionCode": "L",
+    "function": "3",
+    "lat": -4.433333,
+    "lng": -80.3
+  },
+  {
+    "locationCode": "VEI",
+    "label": "Velasco Ibarra",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": -1.05,
+    "lng": -79.616667
+  },
+  {
+    "locationCode": "VEN",
+    "label": "Ventanas",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.45,
+    "lng": -79.466667
+  },
+  {
+    "locationCode": "VIC",
+    "label": "Viche",
+    "function": "6",
+    "lat": 38,
+    "lng": -79.55
+  },
+  {
+    "locationCode": "VCS",
+    "label": "Vinces",
+    "subdivisionCode": "R",
+    "function": "3",
+    "lat": -1.55,
+    "lng": -79.733333
+  },
+  {
+    "locationCode": "VFT",
+    "label": "Virgen de Fatima",
+    "subdivisionCode": "G",
+    "function": "34",
+    "lat": -2.25,
+    "lng": -79.633333
+  },
+  {
+    "locationCode": "YGU",
+    "label": "Yaguachi",
+    "subdivisionCode": "G",
+    "function": "36",
+    "lat": -2.116667,
+    "lng": -79.683333
+  },
+  {
+    "locationCode": "ZTL",
+    "label": "Zapotal",
+    "subdivisionCode": "G",
+    "function": "16",
+    "lat": -2.316667,
+    "lng": -80.533333
+  },
+  {
+    "locationCode": "ZPT",
+    "label": "Zapotal de Colonche",
+    "subdivisionCode": "G",
+    "function": "3",
+    "lat": -2.05,
+    "lng": -80.633333
+  }
+]

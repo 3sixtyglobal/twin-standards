@@ -1,0 +1,43 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceGuestHealthIndication",
+	"title": "UneceGuestHealthIndication",
+	"description": "A guest's physical or mental condition.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "GuestHealthIndication",
+			"description": "JSON-LD Type."
+		},
+		"description": {
+			"type": "string",
+			"description": "A textual description of this guest health indication."
+		},
+		"restriction": {
+			"type": "string",
+			"description": "A restriction, expressed as text, for this guest health indication."
+		},
+		"status": {
+			"type": "string",
+			"description": "A status, expressed as text, for this guest health indication."
+		},
+		"typeCode": {
+			"anyOf": [
+				{
+					"$ref": "https://schema.twindev.org/unece/UneceGuestHealthIndicationTypeCodeList"
+				},
+				{
+					"type": "string"
+				}
+			],
+			"description": "The code specifying the type of guest heath indication."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

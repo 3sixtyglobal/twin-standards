@@ -1,0 +1,212 @@
+[
+  {
+    "code": "AB",
+    "label": "Alba",
+    "type": "Departments"
+  },
+  {
+    "code": "AG",
+    "label": "Arges",
+    "type": "Departments"
+  },
+  {
+    "code": "AR",
+    "label": "Arad",
+    "type": "Departments"
+  },
+  {
+    "code": "B",
+    "label": "Bucuresti",
+    "type": "Municipality"
+  },
+  {
+    "code": "BC",
+    "label": "Bacau",
+    "type": "Departments"
+  },
+  {
+    "code": "BH",
+    "label": "Bihor",
+    "type": "Departments"
+  },
+  {
+    "code": "BN",
+    "label": "Bistrita-Nasaud",
+    "type": "Departments"
+  },
+  {
+    "code": "BR",
+    "label": "Braila",
+    "type": "Departments"
+  },
+  {
+    "code": "BT",
+    "label": "Botosani",
+    "type": "Departments"
+  },
+  {
+    "code": "BV",
+    "label": "Brasov",
+    "type": "Departments"
+  },
+  {
+    "code": "BZ",
+    "label": "Buzau",
+    "type": "Departments"
+  },
+  {
+    "code": "CJ",
+    "label": "Cluj",
+    "type": "Departments"
+  },
+  {
+    "code": "CL",
+    "label": "Calarasi",
+    "type": "Departments"
+  },
+  {
+    "code": "CS",
+    "label": "Caras-Severin",
+    "type": "Departments"
+  },
+  {
+    "code": "CT",
+    "label": "Constarta",
+    "type": "Departments"
+  },
+  {
+    "code": "CV",
+    "label": "Covasna",
+    "type": "Departments"
+  },
+  {
+    "code": "DB",
+    "label": "Dâmbovita",
+    "type": "Departments"
+  },
+  {
+    "code": "DJ",
+    "label": "Dolj",
+    "type": "Departments"
+  },
+  {
+    "code": "GJ",
+    "label": "Gorj",
+    "type": "Departments"
+  },
+  {
+    "code": "GL",
+    "label": "Galati",
+    "type": "Departments"
+  },
+  {
+    "code": "GR",
+    "label": "Giurgiu",
+    "type": "Departments"
+  },
+  {
+    "code": "HD",
+    "label": "Hunedoara",
+    "type": "Departments"
+  },
+  {
+    "code": "HR",
+    "label": "Harghita",
+    "type": "Departments"
+  },
+  {
+    "code": "IF",
+    "label": "Ilfov",
+    "type": "Departments"
+  },
+  {
+    "code": "IL",
+    "label": "Ialomita",
+    "type": "Departments"
+  },
+  {
+    "code": "IS",
+    "label": "Iasi",
+    "type": "Departments"
+  },
+  {
+    "code": "MH",
+    "label": "Mehedinti",
+    "type": "Departments"
+  },
+  {
+    "code": "MM",
+    "label": "Maramures",
+    "type": "Departments"
+  },
+  {
+    "code": "MS",
+    "label": "Mures",
+    "type": "Departments"
+  },
+  {
+    "code": "NT",
+    "label": "Neamt",
+    "type": "Departments"
+  },
+  {
+    "code": "OT",
+    "label": "Olt",
+    "type": "Departments"
+  },
+  {
+    "code": "PH",
+    "label": "Prahova",
+    "type": "Departments"
+  },
+  {
+    "code": "SB",
+    "label": "Sibiu",
+    "type": "Departments"
+  },
+  {
+    "code": "SJ",
+    "label": "Salaj",
+    "type": "Departments"
+  },
+  {
+    "code": "SM",
+    "label": "Satu Mare",
+    "type": "Departments"
+  },
+  {
+    "code": "SV",
+    "label": "Suceava",
+    "type": "Departments"
+  },
+  {
+    "code": "TL",
+    "label": "Tulcea",
+    "type": "Departments"
+  },
+  {
+    "code": "TM",
+    "label": "Timis",
+    "type": "Departments"
+  },
+  {
+    "code": "TR",
+    "label": "Teleorman",
+    "type": "Departments"
+  },
+  {
+    "code": "VL",
+    "label": "Vâlcea",
+    "type": "Departments"
+  },
+  {
+    "code": "VN",
+    "label": "Vrancea",
+    "type": "Departments"
+  },
+  {
+    "code": "VS",
+    "label": "Vaslui",
+    "type": "Departments"
+  }
+]

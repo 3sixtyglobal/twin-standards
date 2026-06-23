@@ -1,0 +1,356 @@
+[
+  {
+    "locationCode": "BEL",
+    "label": "Bel-Air",
+    "subdivisionCode": "BF",
+    "function": "13",
+    "lat": 10.233333,
+    "lng": -14.466667
+  },
+  {
+    "locationCode": "BTY",
+    "label": "Benty",
+    "function": "1"
+  },
+  {
+    "locationCode": "BEY",
+    "label": "Beyla",
+    "subdivisionCode": "BE",
+    "function": "3",
+    "lat": 8.683333,
+    "lng": -8.633333
+  },
+  {
+    "locationCode": "BFA",
+    "label": "Boffa",
+    "subdivisionCode": "BF",
+    "function": "13",
+    "lat": 10.183333,
+    "lng": -14.033333
+  },
+  {
+    "locationCode": "BKJ",
+    "label": "Boké",
+    "labelWithDiacritics": "Boke",
+    "function": "4",
+    "lat": 10.933333,
+    "lng": -14.3
+  },
+  {
+    "locationCode": "CKY",
+    "label": "Conakry",
+    "function": "145"
+  },
+  {
+    "locationCode": "CKA",
+    "label": "Conakry Eco",
+    "subdivisionCode": "KD",
+    "function": "6",
+    "lat": 9.5,
+    "lng": -13.7
+  },
+  {
+    "locationCode": "COY",
+    "label": "Coyah",
+    "subdivisionCode": "CO",
+    "function": "3",
+    "lat": 9.7,
+    "lng": -13.35
+  },
+  {
+    "locationCode": "DAB",
+    "label": "Dabola",
+    "subdivisionCode": "DB",
+    "function": "3",
+    "lat": 10.733333,
+    "lng": -11.116667
+  },
+  {
+    "locationCode": "DPL",
+    "label": "Dapilon",
+    "subdivisionCode": "BK",
+    "function": "13",
+    "lat": 10.85,
+    "lng": -14.5
+  },
+  {
+    "locationCode": "DIN",
+    "label": "Dinguiraye",
+    "subdivisionCode": "DI",
+    "function": "3",
+    "lat": 11.283333,
+    "lng": -10.716667
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Dougoula",
+    "subdivisionCode": "BK",
+    "function": "123",
+    "lat": 10.75,
+    "lng": -14.55
+  },
+  {
+    "locationCode": "DKA",
+    "label": "Dubreka",
+    "subdivisionCode": "DU",
+    "function": "13",
+    "lat": 9.783333,
+    "lng": -13.5
+  },
+  {
+    "locationCode": "FAA",
+    "label": "Faranah",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRM",
+    "label": "Farmoreya",
+    "subdivisionCode": "FO",
+    "function": "3",
+    "lat": 9.266667,
+    "lng": -13.033333
+  },
+  {
+    "locationCode": "FOR",
+    "label": "Forecariah",
+    "subdivisionCode": "FO",
+    "function": "3",
+    "lat": 9.433333,
+    "lng": -13.083333
+  },
+  {
+    "locationCode": "FIG",
+    "label": "Fria",
+    "function": "4"
+  },
+  {
+    "locationCode": "GAO",
+    "label": "Gaoual",
+    "subdivisionCode": "GA",
+    "function": "3",
+    "lat": 11.75,
+    "lng": -13.2
+  },
+  {
+    "locationCode": "GUE",
+    "label": "Gueckedou",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 80.566667,
+    "lng": -10.133333
+  },
+  {
+    "locationCode": "KGB",
+    "label": "Kagbélen",
+    "subdivisionCode": "DU",
+    "labelWithDiacritics": "Kagbelen",
+    "function": "3",
+    "lat": 9.716667,
+    "lng": -13.516667
+  },
+  {
+    "locationCode": "KMC",
+    "label": "Kamsar",
+    "subdivisionCode": "BK",
+    "function": "12346",
+    "lat": 10.666667,
+    "lng": -14.583333
+  },
+  {
+    "locationCode": "KNN",
+    "label": "Kankan",
+    "function": "4"
+  },
+  {
+    "locationCode": "KTG",
+    "label": "Katougouma",
+    "subdivisionCode": "BK",
+    "function": "13",
+    "lat": 0.05,
+    "lng": -14.45
+  },
+  {
+    "locationCode": "KER",
+    "label": "Kerouane",
+    "subdivisionCode": "KE",
+    "function": "3",
+    "lat": 9.266667,
+    "lng": -9.016667
+  },
+  {
+    "locationCode": "KDA",
+    "label": "Kindia",
+    "subdivisionCode": "KD",
+    "function": "23",
+    "lat": 10.05,
+    "lng": -12.85
+  },
+  {
+    "locationCode": "KIN",
+    "label": "Kiniéro",
+    "subdivisionCode": "KO",
+    "labelWithDiacritics": "Kiniero",
+    "function": "3",
+    "lat": 10.4,
+    "lng": -9.75
+  },
+  {
+    "locationCode": "KSI",
+    "label": "Kissidougou",
+    "function": "4"
+  },
+  {
+    "locationCode": "KOU",
+    "label": "Koubia",
+    "subdivisionCode": "KB",
+    "function": "3",
+    "lat": 10.066667,
+    "lng": -13.633333
+  },
+  {
+    "locationCode": "SBI",
+    "label": "Koundara",
+    "function": "4"
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Kouroussa",
+    "subdivisionCode": "KO",
+    "function": "3",
+    "lat": 10.65,
+    "lng": -9.883333
+  },
+  {
+    "locationCode": "LEK",
+    "label": "Labe",
+    "function": "4"
+  },
+  {
+    "locationCode": "LEL",
+    "label": "Lélouma",
+    "subdivisionCode": "LE",
+    "labelWithDiacritics": "Lelouma",
+    "function": "3",
+    "lat": 11.433333,
+    "lng": -12.683333
+  },
+  {
+    "locationCode": "LOL",
+    "label": "Lola",
+    "subdivisionCode": "LO",
+    "function": "3",
+    "lat": 7.8,
+    "lng": -8.533333
+  },
+  {
+    "locationCode": "MCA",
+    "label": "Macenta",
+    "function": "4"
+  },
+  {
+    "locationCode": "MLI",
+    "label": "Mali",
+    "subdivisionCode": "ML",
+    "function": "3",
+    "lat": 12.05,
+    "lng": -12.3
+  },
+  {
+    "locationCode": "MMO",
+    "label": "Mamou",
+    "subdivisionCode": "MM",
+    "function": "3",
+    "lat": 10.366667,
+    "lng": -12.083333
+  },
+  {
+    "locationCode": "MDN",
+    "label": "Mandiana",
+    "subdivisionCode": "MD",
+    "function": "3",
+    "lat": 10.633333,
+    "lng": -8.7
+  },
+  {
+    "locationCode": "SBY",
+    "label": "Moresby",
+    "function": "1"
+  },
+  {
+    "locationCode": "NZE",
+    "label": "Nzerekore",
+    "function": "4"
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Pita",
+    "subdivisionCode": "PI",
+    "function": "3",
+    "lat": 11.05,
+    "lng": -12.4
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Port de Boké",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Port de Boke",
+    "function": "1",
+    "lat": 10.516667,
+    "lng": -14.716667
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Port-Kamsar",
+    "function": "1",
+    "lat": 10.65,
+    "lng": -14.616667
+  },
+  {
+    "locationCode": "SBL",
+    "label": "Sambailo",
+    "subdivisionCode": "KN",
+    "function": "34",
+    "lat": 12.583333,
+    "lng": -13.366667
+  },
+  {
+    "locationCode": "SGD",
+    "label": "Sangarédi",
+    "subdivisionCode": "BK",
+    "labelWithDiacritics": "Sangaredi",
+    "function": "236",
+    "lat": 11.1,
+    "lng": -13.816667
+  },
+  {
+    "locationCode": "GII",
+    "label": "Siguiri",
+    "function": "4"
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Télimélé",
+    "subdivisionCode": "TE",
+    "labelWithDiacritics": "Telimele",
+    "function": "3",
+    "lat": 10.9,
+    "lng": -13.033333
+  },
+  {
+    "locationCode": "TOU",
+    "label": "Tougué",
+    "subdivisionCode": "TO",
+    "labelWithDiacritics": "Tougue",
+    "function": "3",
+    "lat": 11.45,
+    "lng": -11.666667
+  },
+  {
+    "locationCode": "YOM",
+    "label": "Yomou",
+    "subdivisionCode": "YO",
+    "function": "3",
+    "lat": 7.566667,
+    "lng": -9.266667
+  }
+]

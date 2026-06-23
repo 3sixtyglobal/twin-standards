@@ -1,0 +1,174 @@
+[
+  {
+    "locationCode": "ADU",
+    "label": "Addu",
+    "subdivisionCode": "01",
+    "function": "13"
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Baa Atoll",
+    "subdivisionCode": "NO",
+    "function": "1",
+    "lat": 5.133333,
+    "lng": 72.95
+  },
+  {
+    "locationCode": "CPP",
+    "label": "Coastline Private Port",
+    "subdivisionCode": "MLE",
+    "function": "1",
+    "lat": 4.166667,
+    "lng": 73.45
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gan",
+    "subdivisionCode": "SU",
+    "function": "4",
+    "lat": -0.7,
+    "lng": 73.15
+  },
+  {
+    "locationCode": "HID",
+    "label": "Halaveli",
+    "subdivisionCode": "NC",
+    "function": "1",
+    "lat": 4.033333,
+    "lng": 72.916667
+  },
+  {
+    "locationCode": "HAQ",
+    "label": "Hanimaadhoo",
+    "function": "4"
+  },
+  {
+    "locationCode": "HDO",
+    "label": "Hithadhoo",
+    "subdivisionCode": "SC",
+    "function": "3",
+    "lat": 1.766667,
+    "lng": 73.366667
+  },
+  {
+    "locationCode": "HOO",
+    "label": "Hithadhoo",
+    "subdivisionCode": "SU",
+    "function": "6",
+    "lat": -0.6,
+    "lng": 73.083333
+  },
+  {
+    "locationCode": "HTP",
+    "label": "Hithadhoo Port",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": -0.633333,
+    "lng": 73.1
+  },
+  {
+    "locationCode": "HHE",
+    "label": "Hulhulé Island",
+    "subdivisionCode": "MLE",
+    "labelWithDiacritics": "Hulhule Island",
+    "function": "1",
+    "lat": 4.183333,
+    "lng": 73.516667
+  },
+  {
+    "locationCode": "KDM",
+    "label": "Kaadedhdhoo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KDO",
+    "label": "Kadhdhoo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KEL",
+    "label": "Kelai",
+    "subdivisionCode": "UN",
+    "function": "1"
+  },
+  {
+    "locationCode": "KFP",
+    "label": "Koodoo Fisheries",
+    "subdivisionCode": "27",
+    "function": "1",
+    "lat": 0.733333,
+    "lng": 73.433333
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kulhudhuffushi",
+    "subdivisionCode": "23",
+    "function": "13",
+    "lat": 6.616667,
+    "lng": 73.05
+  },
+  {
+    "locationCode": "KDP",
+    "label": "Kulhudhuffushi Port",
+    "subdivisionCode": "23",
+    "function": "1",
+    "lat": 6.616667,
+    "lng": 73.066667
+  },
+  {
+    "locationCode": "MMP",
+    "label": "Maamigili Port",
+    "subdivisionCode": "00",
+    "function": "1",
+    "lat": 3.466667,
+    "lng": 72.833333
+  },
+  {
+    "locationCode": "MGP",
+    "label": "Maldive Gas",
+    "subdivisionCode": "MLE",
+    "function": "1",
+    "lat": 4.183333,
+    "lng": 73.45
+  },
+  {
+    "locationCode": "MLE",
+    "label": "Male",
+    "subdivisionCode": "MLE",
+    "function": "145",
+    "lat": 4.166667,
+    "lng": 73.5
+  },
+  {
+    "locationCode": "MCP",
+    "label": "Male' Commercial Harbor",
+    "subdivisionCode": "MLE",
+    "function": "1",
+    "lat": 4.166667,
+    "lng": 73.5
+  },
+  {
+    "locationCode": "RGI",
+    "label": "Rangali",
+    "subdivisionCode": "NC",
+    "function": "1",
+    "lat": 3.6,
+    "lng": 72.7
+  },
+  {
+    "locationCode": "VGI",
+    "label": "Viligili",
+    "subdivisionCode": "US",
+    "function": "3",
+    "lat": 0.75,
+    "lng": 73.366667
+  },
+  {
+    "locationCode": "VHP",
+    "label": "Villa Hakatha",
+    "subdivisionCode": "MLE",
+    "function": "1",
+    "lat": 4.183333,
+    "lng": 73.433333
+  }
+]

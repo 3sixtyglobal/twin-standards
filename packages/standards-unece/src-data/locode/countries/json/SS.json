@@ -1,0 +1,146 @@
+[
+  {
+    "locationCode": "AWE",
+    "label": "Aweil",
+    "subdivisionCode": "BN",
+    "function": "3",
+    "lat": 8.766667,
+    "lng": 27.383333
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Bentiu Town",
+    "subdivisionCode": "UY",
+    "function": "3",
+    "lat": 9.266667,
+    "lng": 29.783333
+  },
+  {
+    "locationCode": "BOM",
+    "label": "Boma",
+    "subdivisionCode": "JG",
+    "function": "3",
+    "lat": 6.166667,
+    "lng": 34.466667
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bor",
+    "subdivisionCode": "JG",
+    "function": "3",
+    "lat": 7.666667,
+    "lng": 33.633333
+  },
+  {
+    "locationCode": "JUB",
+    "label": "Juba",
+    "subdivisionCode": "EC",
+    "function": "34",
+    "lat": 4.85,
+    "lng": 31.616667
+  },
+  {
+    "locationCode": "KAJ",
+    "label": "Kajo Keji",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 3.833333,
+    "lng": 31.65
+  },
+  {
+    "locationCode": "KYA",
+    "label": "Kaya",
+    "subdivisionCode": "EC",
+    "function": "3",
+    "lat": 3.55,
+    "lng": 30.866667
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Malakal",
+    "subdivisionCode": "NU",
+    "function": "34",
+    "lat": 9.533333,
+    "lng": 31.65
+  },
+  {
+    "locationCode": "NIM",
+    "label": "Nimule",
+    "subdivisionCode": "EE",
+    "function": "3",
+    "lat": 3.6,
+    "lng": 32.05
+  },
+  {
+    "locationCode": "RAG",
+    "label": "Raga",
+    "subdivisionCode": "BW",
+    "function": "3",
+    "lat": 8.45,
+    "lng": 25.666667
+  },
+  {
+    "locationCode": "RBK",
+    "label": "Rumbek",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 6.8,
+    "lng": 29.7
+  },
+  {
+    "locationCode": "RUM",
+    "label": "Rumbek",
+    "subdivisionCode": "LK",
+    "function": "3",
+    "lat": 6.8,
+    "lng": 29.683333
+  },
+  {
+    "locationCode": "TON",
+    "label": "Tonj",
+    "subdivisionCode": "WR",
+    "function": "3",
+    "lat": 7.266667,
+    "lng": 28.75
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torit",
+    "subdivisionCode": "EE",
+    "function": "3",
+    "lat": 4.4,
+    "lng": 32.566667
+  },
+  {
+    "locationCode": "WAP",
+    "label": "Warrap",
+    "subdivisionCode": "WR",
+    "function": "3",
+    "lat": 8,
+    "lng": 28.85
+  },
+  {
+    "locationCode": "WUU",
+    "label": "Wau",
+    "subdivisionCode": "BW",
+    "function": "34",
+    "lat": 7.7,
+    "lng": 28
+  },
+  {
+    "locationCode": "YAM",
+    "label": "Yambio",
+    "subdivisionCode": "EW",
+    "function": "3",
+    "lat": 4.566667,
+    "lng": 28.383333
+  },
+  {
+    "locationCode": "YID",
+    "label": "Yida",
+    "subdivisionCode": "UY",
+    "function": "34",
+    "lat": 10.1,
+    "lng": 30.083333
+  }
+]

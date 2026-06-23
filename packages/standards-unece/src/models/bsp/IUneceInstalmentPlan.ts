@@ -1,0 +1,29 @@
+// Copyright 2025 IOTA Stiftung.
+// SPDX-License-Identifier: Apache-2.0.
+/* cSpell:disable */
+/* This file is auto-generated with the generateInterfaces script, do not edit manually. */
+import type { IUneceInstalmentPayment } from "./IUneceInstalmentPayment.js";
+import type { UneceContextType } from "../uneceContextType.js";
+import type { UneceTypes } from "../uneceTypes.js";
+
+/**
+ * A plan for paying a total sum of money by several payments made over a period of time.
+ * @see https://vocabulary.uncefact.org/InstalmentPlan
+ */
+export interface IUneceInstalmentPlan {
+	/**
+	 * JSON-LD Context.
+	 */
+	"@context"?: UneceContextType;
+
+	/**
+	 * JSON-LD Type.
+	 */
+	type: typeof UneceTypes.InstalmentPlan;
+
+	/**
+	 * An instalment payment specified for this instalment plan.
+	 * @see https://vocabulary.uncefact.org/specifiedInstalmentPayment
+	 */
+	specifiedInstalmentPayment: IUneceInstalmentPayment[];
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "code": "BA",
+    "label": "Bafatá",
+    "type": "Region"
+  },
+  {
+    "code": "BL",
+    "label": "Bolama/Bijagós",
+    "type": "Region"
+  },
+  {
+    "code": "BM",
+    "label": "Biombo",
+    "type": "Region"
+  },
+  {
+    "code": "BS",
+    "label": "Bissau",
+    "type": "Autonomous sector"
+  },
+  {
+    "code": "CA",
+    "label": "Cacheu",
+    "type": "Region"
+  },
+  {
+    "code": "GA",
+    "label": "Gabú",
+    "type": "Region"
+  },
+  {
+    "code": "OI",
+    "label": "Oio",
+    "type": "Region"
+  },
+  {
+    "code": "QU",
+    "label": "Quinara",
+    "type": "Region"
+  },
+  {
+    "code": "TO",
+    "label": "Tombali",
+    "type": "Region"
+  }
+]

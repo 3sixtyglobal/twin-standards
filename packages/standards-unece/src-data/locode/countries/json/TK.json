@@ -1,0 +1,23 @@
+[
+  {
+    "locationCode": "AFU",
+    "label": "Atafu",
+    "function": "1",
+    "lat": -8.533333,
+    "lng": -172.516667
+  },
+  {
+    "locationCode": "FKO",
+    "label": "Fakaofo",
+    "function": "1",
+    "lat": -9.366667,
+    "lng": -171.25
+  },
+  {
+    "locationCode": "NKU",
+    "label": "Nukunonu",
+    "function": "1",
+    "lat": -9.166667,
+    "lng": -171.85
+  }
+]

@@ -5,3 +5,11 @@ package-lock.json
 changelog.md
 **/codes
 **/codeTypes
+ts-to-schema.json
+packages/standards-unece/src/models/bsp/
+packages/standards-unece/src/models/lists/
+packages/standards-unece/src/models/typeCodes/
+packages/standards-unece/src/models/uneceTypes.ts
+packages/standards-unece/src/models/uneceCodeLists.ts
+packages/standards-unece/src-data/
+*.gz

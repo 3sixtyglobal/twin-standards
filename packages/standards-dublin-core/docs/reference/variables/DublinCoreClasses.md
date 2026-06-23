@@ -2,14 +2,30 @@
 
 > `const` **DublinCoreClasses**: `object`
 
-Dublin Core classes.
-Based on http://purl.org/dc/dcmitype
+Dublin Core DCMI type class identifiers.
 
-## Type declaration
+## Type Declaration
 
-### Collection
+### Collection {#collection}
 
 > `readonly` **Collection**: `"Collection"` = `"Collection"`
 
-See Description at
+A collection of resources.
+
+#### See
+
 https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Collection
+
+### PeriodOfTime {#periodoftime}
+
+> `readonly` **PeriodOfTime**: `"PeriodOfTime"` = `"PeriodOfTime"`
+
+An interval of time named or defined by its start and end dates.
+
+#### See
+
+https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/PeriodOfTime
+
+## See
+
+http://purl.org/dc/dcmitype

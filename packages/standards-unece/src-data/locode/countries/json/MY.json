@@ -1,0 +1,2396 @@
+[
+  {
+    "locationCode": "ABU",
+    "label": "Abu",
+    "function": "1",
+    "lat": 6.116667,
+    "lng": 105.283333
+  },
+  {
+    "locationCode": "AIR",
+    "label": "Air Itam/Penang",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.4,
+    "lng": 100.283333
+  },
+  {
+    "locationCode": "AOG",
+    "label": "Alor Gajah",
+    "subdivisionCode": "04",
+    "function": "23",
+    "lat": 2.366667,
+    "lng": 102.2
+  },
+  {
+    "locationCode": "AOR",
+    "label": "Alor Setar",
+    "function": "4"
+  },
+  {
+    "locationCode": "APG",
+    "label": "Ampang",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.15,
+    "lng": 101.766667
+  },
+  {
+    "locationCode": "ANG",
+    "label": "Angsi",
+    "function": "1",
+    "lat": 5.083333,
+    "lng": 104.683333
+  },
+  {
+    "locationCode": "BKM",
+    "label": "Ba Kelalan",
+    "subdivisionCode": "13",
+    "function": "34",
+    "lat": 3.983333,
+    "lng": 115.616667
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagan Datok",
+    "function": "1"
+  },
+  {
+    "locationCode": "BWH",
+    "label": "Bagan Luar (Butterworth)",
+    "function": "134"
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahau",
+    "subdivisionCode": "05",
+    "function": "6",
+    "lat": 5.5,
+    "lng": 102.416667
+  },
+  {
+    "locationCode": "BKP",
+    "label": "Bakapit",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Balakong",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.016667,
+    "lng": 101.75
+  },
+  {
+    "locationCode": "BPL",
+    "label": "Balik Pulau",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.35,
+    "lng": 100.233333
+  },
+  {
+    "locationCode": "2SF",
+    "label": "Bandar Baru Bangi",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.95,
+    "lng": 101.766667
+  },
+  {
+    "locationCode": "BBS",
+    "label": "Bandar Baru Selayang",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 3.266667,
+    "lng": 101.65
+  },
+  {
+    "locationCode": "BEK",
+    "label": "Bandar Enstek",
+    "function": "6",
+    "lat": 2.75,
+    "lng": 101.733333
+  },
+  {
+    "locationCode": "BMA",
+    "label": "Bandar Maharani",
+    "function": "1"
+  },
+  {
+    "locationCode": "BSD",
+    "label": "Bandar Sri Damansara",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.183333,
+    "lng": 101.6
+  },
+  {
+    "locationCode": "BTK",
+    "label": "Bandar Tenggara",
+    "function": "1",
+    "lat": 1.866667,
+    "lng": 103.616667
+  },
+  {
+    "locationCode": "BGU",
+    "label": "Bangau",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 6.95,
+    "lng": 116.7
+  },
+  {
+    "locationCode": "BAI",
+    "label": "Bangi",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.9,
+    "lng": 101.783333
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Banting",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.816667,
+    "lng": 101.483333
+  },
+  {
+    "locationCode": "BBN",
+    "label": "Bario",
+    "function": "4"
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Batang Kali",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 3.466667,
+    "lng": 101.633333
+  },
+  {
+    "locationCode": "BBA",
+    "label": "Batu Batu, Sabah",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 5.033333,
+    "lng": 115.95
+  },
+  {
+    "locationCode": "BCA",
+    "label": "Batu Caves",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.233333,
+    "lng": 101.666667
+  },
+  {
+    "locationCode": "TJH",
+    "label": "Batu Gajah",
+    "subdivisionCode": "08",
+    "function": "1",
+    "lat": 4.466667,
+    "lng": 101.05
+  },
+  {
+    "locationCode": "BTW",
+    "label": "Batu Kawan",
+    "subdivisionCode": "07",
+    "function": "126",
+    "lat": 5.25,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "BLI",
+    "label": "Batu Lintang, Sarawak",
+    "subdivisionCode": "13",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTM",
+    "label": "Batu Maung",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 5.283333,
+    "lng": 100.283333
+  },
+  {
+    "locationCode": "BAT",
+    "label": "Batu Pahat",
+    "function": "1"
+  },
+  {
+    "locationCode": "BAU",
+    "label": "Bau, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLE",
+    "label": "Bayan Lepas",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.283333,
+    "lng": 100.25
+  },
+  {
+    "locationCode": "BEA",
+    "label": "Beaufort",
+    "subdivisionCode": "12",
+    "function": "123",
+    "lat": 5.333333,
+    "lng": 115.75
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bedong",
+    "subdivisionCode": "02",
+    "function": "6",
+    "lat": 5.716667,
+    "lng": 100.516667
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Bedong",
+    "subdivisionCode": "12",
+    "function": "6",
+    "lat": 5.583333,
+    "lng": 116.65
+  },
+  {
+    "locationCode": "BLG",
+    "label": "Belaga, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Beluran, Sabah",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 5.883333,
+    "lng": 117.55
+  },
+  {
+    "locationCode": "BEN",
+    "label": "Bentong",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 3.533333,
+    "lng": 101.916667
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Benut, Johor",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRN",
+    "label": "Beranang",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 2.883333,
+    "lng": 101.866667
+  },
+  {
+    "locationCode": "BRG",
+    "label": "Berangan",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 6.166667,
+    "lng": 102.2
+  },
+  {
+    "locationCode": "BTG",
+    "label": "Betong, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BIA",
+    "label": "Biawak, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BDR",
+    "label": "Bidor",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.116667,
+    "lng": 101.283333
+  },
+  {
+    "locationCode": "BNG",
+    "label": "Binatang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Bintangor",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTU",
+    "label": "Bintulu, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BBE",
+    "label": "Bukit Beruntung",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "BKH",
+    "label": "Bukit Kayu Hitam",
+    "function": "3",
+    "lat": 6.5,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "BKR",
+    "label": "Bukit Keteri",
+    "subdivisionCode": "09",
+    "function": "23",
+    "lat": 6.533333,
+    "lng": 100.25
+  },
+  {
+    "locationCode": "BMT",
+    "label": "Bukit Mertajam",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.366667,
+    "lng": 100.466667
+  },
+  {
+    "locationCode": "BRJ",
+    "label": "Bukit Raja",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.1,
+    "lng": 101.433333
+  },
+  {
+    "locationCode": "BGG",
+    "label": "Bunan Gega, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "BGK",
+    "label": "Bunga Kekwa",
+    "function": "7",
+    "lat": 7.05,
+    "lng": 104.066667
+  },
+  {
+    "locationCode": "BGR",
+    "label": "Bunga Raya",
+    "function": "1",
+    "lat": 6.95,
+    "lng": 104.1
+  },
+  {
+    "locationCode": "WOT",
+    "label": "Butterworth",
+    "function": "6",
+    "lat": 5.416667,
+    "lng": 100.4
+  },
+  {
+    "locationCode": "CAK",
+    "label": "Cakerawala Terminal",
+    "function": "7",
+    "lat": 7.116667,
+    "lng": 103.1
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Cameron Highlands",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 4.483333,
+    "lng": 101.45
+  },
+  {
+    "locationCode": "CIE",
+    "label": "Carey Island Estate",
+    "function": "6",
+    "lat": 2.916667,
+    "lng": 101.4
+  },
+  {
+    "locationCode": "CEN",
+    "label": "Cendor",
+    "function": "1",
+    "lat": 5.566667,
+    "lng": 104.55
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Cheras",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.05,
+    "lng": 101.766667
+  },
+  {
+    "locationCode": "CRS",
+    "label": "Cheras",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 3.1,
+    "lng": 101.716667
+  },
+  {
+    "locationCode": "CUK",
+    "label": "Cukai",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 4.25,
+    "lng": 103.416667
+  },
+  {
+    "locationCode": "ZCA",
+    "label": "Cyberjaya",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 2.916667,
+    "lng": 101.65
+  },
+  {
+    "locationCode": "DMS",
+    "label": "Damansara",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 3.133333,
+    "lng": 101.633333
+  },
+  {
+    "locationCode": "DDW",
+    "label": "Danjindawai",
+    "function": "1"
+  },
+  {
+    "locationCode": "DRO",
+    "label": "Daro, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "END",
+    "label": "Endau",
+    "function": "1"
+  },
+  {
+    "locationCode": "FLM",
+    "label": "Falim",
+    "function": "6",
+    "lat": 4.75,
+    "lng": 101.066667
+  },
+  {
+    "locationCode": "GEB",
+    "label": "Gebeng",
+    "subdivisionCode": "06",
+    "function": "23",
+    "lat": 3.966667,
+    "lng": 103.416667
+  },
+  {
+    "locationCode": "JGP",
+    "label": "Gelang Patah",
+    "function": "6"
+  },
+  {
+    "locationCode": "GLG",
+    "label": "Gelugor",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 5.416667,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "GTB",
+    "label": "Genting",
+    "function": "4",
+    "lat": 3.7,
+    "lng": 98.166667
+  },
+  {
+    "locationCode": "GTI",
+    "label": "George Town",
+    "function": "6",
+    "lat": 5.416667,
+    "lng": 100.333333
+  },
+  {
+    "locationCode": "GMU",
+    "label": "Gua Musang",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 4.883333,
+    "lng": 101.966667
+  },
+  {
+    "locationCode": "HUM",
+    "label": "Hutan Melintang",
+    "subdivisionCode": "08",
+    "function": "1",
+    "lat": 3.883333,
+    "lng": 100.933333
+  },
+  {
+    "locationCode": "INA",
+    "label": "Inanam",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 5.983333,
+    "lng": 116.133333
+  },
+  {
+    "locationCode": "IPH",
+    "label": "Ipoh",
+    "function": "4"
+  },
+  {
+    "locationCode": "JAM",
+    "label": "Jambongan, Sabah",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 6.666667,
+    "lng": 117.5
+  },
+  {
+    "locationCode": "JEP",
+    "label": "Jelapang",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.633333,
+    "lng": 101.05
+  },
+  {
+    "locationCode": "JEL",
+    "label": "Jelutong",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 5.4,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "JER",
+    "label": "Jeram",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.216667,
+    "lng": 101.316667
+  },
+  {
+    "locationCode": "JRH",
+    "label": "Jertih",
+    "subdivisionCode": "11",
+    "function": "6",
+    "lat": 5.75,
+    "lng": 102.5
+  },
+  {
+    "locationCode": "JTA",
+    "label": "Jitra, Kedah",
+    "function": "3"
+  },
+  {
+    "locationCode": "JHB",
+    "label": "Johor Bahru",
+    "function": "14"
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kabong, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAJ",
+    "label": "Kajang",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.983333,
+    "lng": 101.783333
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Kampar",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.3,
+    "lng": 101.15
+  },
+  {
+    "locationCode": "TKP",
+    "label": "Kampong Tanjong Kupang",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 1.35,
+    "lng": 103.583333
+  },
+  {
+    "locationCode": "TAE",
+    "label": "Kampong Tasek",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 4.65,
+    "lng": 101.1
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kampong Ulu Redang",
+    "function": "3",
+    "lat": 5.783333,
+    "lng": 103.016667
+  },
+  {
+    "locationCode": "KJW",
+    "label": "Kampung Jawa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 2.7,
+    "lng": 103.583333
+  },
+  {
+    "locationCode": "KKL",
+    "label": "Kampung Kelang Lama",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.383333,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "TLA",
+    "label": "Kampung Tanjung Langsat",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 1.466667,
+    "lng": 104.016667
+  },
+  {
+    "locationCode": "TIB",
+    "label": "Kampung Tikam Batu",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.583333,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamunting",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.883333,
+    "lng": 100.733333
+  },
+  {
+    "locationCode": "KGR",
+    "label": "Kangar",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": 6.433333,
+    "lng": 100.183333
+  },
+  {
+    "locationCode": "KAP",
+    "label": "Kapar",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.133333,
+    "lng": 101.366667
+  },
+  {
+    "locationCode": "KPI",
+    "label": "Kapit, Sarawak",
+    "function": "4"
+  },
+  {
+    "locationCode": "KES",
+    "label": "Kejit",
+    "function": "1"
+  },
+  {
+    "locationCode": "KBK",
+    "label": "Kelang Baharu",
+    "function": "36",
+    "lat": 5.683333,
+    "lng": 100.583333
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kemaman",
+    "function": "1"
+  },
+  {
+    "locationCode": "KGU",
+    "label": "Keningau",
+    "function": "4",
+    "lat": 5.333333,
+    "lng": 116.166667
+  },
+  {
+    "locationCode": "KPN",
+    "label": "Kepong",
+    "subdivisionCode": "14",
+    "function": "1",
+    "lat": 3.216667,
+    "lng": 101.633333
+  },
+  {
+    "locationCode": "KEP",
+    "label": "Kepong Cubitt Forest Village",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.183333,
+    "lng": 101.566667
+  },
+  {
+    "locationCode": "KTE",
+    "label": "Kerteh",
+    "subdivisionCode": "11",
+    "function": "23",
+    "lat": 4.516667,
+    "lng": 103.45
+  },
+  {
+    "locationCode": "KET",
+    "label": "Kertih",
+    "subdivisionCode": "11",
+    "function": "1",
+    "lat": 4.516667,
+    "lng": 103.45
+  },
+  {
+    "locationCode": "KIJ",
+    "label": "Kijal",
+    "function": "1"
+  },
+  {
+    "locationCode": "KIK",
+    "label": "Kikeh",
+    "function": "7",
+    "lat": 5.866667,
+    "lng": 114.283333
+  },
+  {
+    "locationCode": "KIM",
+    "label": "Kimanis, Sabah",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 5.616667,
+    "lng": 115.9
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Klang",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.033333,
+    "lng": 101.45
+  },
+  {
+    "locationCode": "UAG",
+    "label": "Kluang",
+    "function": "6",
+    "lat": 2.033333,
+    "lng": 103.316667
+  },
+  {
+    "locationCode": "KLU",
+    "label": "Kluang",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 2.033333,
+    "lng": 103.333333
+  },
+  {
+    "locationCode": "KBD",
+    "label": "Kota Belud, Sabah",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 6.35,
+    "lng": 116.433333
+  },
+  {
+    "locationCode": "KBR",
+    "label": "Kota Bharu",
+    "function": "14"
+  },
+  {
+    "locationCode": "BKI",
+    "label": "Kota Kinabalu, Sabah",
+    "subdivisionCode": "12",
+    "function": "1345",
+    "lat": 5.966667,
+    "lng": 116.066667
+  },
+  {
+    "locationCode": "BDV",
+    "label": "Kota Marudu",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 6.5,
+    "lng": 116.766667
+  },
+  {
+    "locationCode": "KSS",
+    "label": "Kota Sarang Semut",
+    "subdivisionCode": "02",
+    "function": "1",
+    "lat": 56.5,
+    "lng": 102.666667
+  },
+  {
+    "locationCode": "KTI",
+    "label": "Kota Tinggi",
+    "function": "1"
+  },
+  {
+    "locationCode": "KRE",
+    "label": "Krety",
+    "function": "1"
+  },
+  {
+    "locationCode": "KBA",
+    "label": "Kuala Baram",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 4.566667,
+    "lng": 113.983333
+  },
+  {
+    "locationCode": "KBE",
+    "label": "Kuala Belud, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "KBS",
+    "label": "Kuala Besar",
+    "function": "1"
+  },
+  {
+    "locationCode": "BST",
+    "label": "Kuala Besut",
+    "function": "1",
+    "lat": 5.833333,
+    "lng": 102.566667
+  },
+  {
+    "locationCode": "DGN",
+    "label": "Kuala Dungun",
+    "subdivisionCode": "11",
+    "function": "13",
+    "lat": 4.783333,
+    "lng": 103.433333
+  },
+  {
+    "locationCode": "KUG",
+    "label": "Kuala Gula",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Kuala Kangsar",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.766667,
+    "lng": 100.95
+  },
+  {
+    "locationCode": "KKH",
+    "label": "Kuala Kedah",
+    "function": "1"
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kuala Ketil",
+    "subdivisionCode": "14",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kuala Krai",
+    "function": "23",
+    "lat": 5.533333,
+    "lng": 102.183333
+  },
+  {
+    "locationCode": "KLG",
+    "label": "Kuala Langat",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 2.75,
+    "lng": 101.583333
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kuala Lumpur",
+    "function": "45"
+  },
+  {
+    "locationCode": "KPU",
+    "label": "Kuala Penyu, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kuala Perlis",
+    "function": "1"
+  },
+  {
+    "locationCode": "KUP",
+    "label": "Kuala Pilah",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 2.733333,
+    "lng": 102.25
+  },
+  {
+    "locationCode": "PRN",
+    "label": "Kuala Rompin",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSD",
+    "label": "Kuala Sedili",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSG",
+    "label": "Kuala Segama, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kuala Selangor",
+    "subdivisionCode": "10",
+    "function": "16",
+    "lat": 3.333333,
+    "lng": 101.05
+  },
+  {
+    "locationCode": "TGG",
+    "label": "Kuala Terengganu",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUA",
+    "label": "Kuantan (Tanjong Gelang)",
+    "function": "14"
+  },
+  {
+    "locationCode": "KCH",
+    "label": "Kuching, Sarawak",
+    "function": "145"
+  },
+  {
+    "locationCode": "KUD",
+    "label": "Kudat, Sabah",
+    "function": "134"
+  },
+  {
+    "locationCode": "KKP",
+    "label": "Kukup",
+    "function": "1"
+  },
+  {
+    "locationCode": "KLI",
+    "label": "Kulai",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 1.666667,
+    "lng": 103.6
+  },
+  {
+    "locationCode": "KLM",
+    "label": "Kulim",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.35,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kunak, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "LBU",
+    "label": "Labuan",
+    "subdivisionCode": "15",
+    "function": "14",
+    "lat": 5.283333,
+    "lng": 115.233333
+  },
+  {
+    "locationCode": "LBH",
+    "label": "Labuan Haji",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 4.483333,
+    "lng": 118.633333
+  },
+  {
+    "locationCode": "LDU",
+    "label": "Lahad Datu, Sabah",
+    "function": "14"
+  },
+  {
+    "locationCode": "LAH",
+    "label": "Lahat",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 4.55,
+    "lng": 101.033333
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Langkap",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 4.083333,
+    "lng": 101.25
+  },
+  {
+    "locationCode": "LGK",
+    "label": "Langkawi",
+    "subdivisionCode": "02",
+    "function": "134",
+    "lat": 6.366667,
+    "lng": 99.8
+  },
+  {
+    "locationCode": "LWY",
+    "label": "Lawas, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "LMN",
+    "label": "Limbang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "LGG",
+    "label": "Lingga, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "AKA",
+    "label": "Long Akah",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 3.316667,
+    "lng": 114.783333
+  },
+  {
+    "locationCode": "LBP",
+    "label": "Long Banga",
+    "subdivisionCode": "13",
+    "function": "4",
+    "lat": 3.183333,
+    "lng": 115.416667
+  },
+  {
+    "locationCode": "LLM",
+    "label": "Long Lama",
+    "function": "4",
+    "lat": 3.766667,
+    "lng": 114.4
+  },
+  {
+    "locationCode": "LGL",
+    "label": "Long Lellang",
+    "function": "4",
+    "lat": 3.416667,
+    "lng": 115.133333
+  },
+  {
+    "locationCode": "GSA",
+    "label": "Long Pasia",
+    "function": "4",
+    "lat": 4.383333,
+    "lng": 115.733333
+  },
+  {
+    "locationCode": "LSM",
+    "label": "Long Semado",
+    "function": "4"
+  },
+  {
+    "locationCode": "ODN",
+    "label": "Long Seridan",
+    "function": "4"
+  },
+  {
+    "locationCode": "LSU",
+    "label": "Long Sukang",
+    "function": "4"
+  },
+  {
+    "locationCode": "LBA",
+    "label": "Lubok Antu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 1.083333,
+    "lng": 112
+  },
+  {
+    "locationCode": "LUM",
+    "label": "Lumut",
+    "function": "1"
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Lunas",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.433333,
+    "lng": 100.533333
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lundu, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "LUT",
+    "label": "Lutong, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Mak Mandin",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.416667,
+    "lng": 100.366667
+  },
+  {
+    "locationCode": "MKZ",
+    "label": "Malacca",
+    "function": "14"
+  },
+  {
+    "locationCode": "MAN",
+    "label": "Manjung",
+    "subdivisionCode": "08",
+    "function": "1",
+    "lat": 4.15,
+    "lng": 100.616667
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Marudi, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "MSI",
+    "label": "Masai",
+    "function": "3",
+    "lat": 13.5,
+    "lng": 103.883333
+  },
+  {
+    "locationCode": "MEA",
+    "label": "Melaka",
+    "subdivisionCode": "14",
+    "function": "3"
+  },
+  {
+    "locationCode": "MEM",
+    "label": "Mempakul, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "MEL",
+    "label": "Menglembu",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 4.566667,
+    "lng": 101.033333
+  },
+  {
+    "locationCode": "MTK",
+    "label": "Mentakab",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 3.483333,
+    "lng": 102.35
+  },
+  {
+    "locationCode": "MBS",
+    "label": "Menumbok",
+    "subdivisionCode": "12",
+    "function": "13",
+    "lat": 5.3,
+    "lng": 115.366667
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Merbok",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 5.716667,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "MEP",
+    "label": "Mersing",
+    "function": "14"
+  },
+  {
+    "locationCode": "MEU",
+    "label": "Meru",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.133333,
+    "lng": 101.433333
+  },
+  {
+    "locationCode": "MYY",
+    "label": "Miri, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "MZS",
+    "label": "Mostyn",
+    "function": "4",
+    "lat": 4.616667,
+    "lng": 118.15
+  },
+  {
+    "locationCode": "MUA",
+    "label": "Muar",
+    "function": "1"
+  },
+  {
+    "locationCode": "MUD",
+    "label": "Muda Marine Terminal",
+    "function": "1",
+    "lat": 7.583333,
+    "lng": 102.983333
+  },
+  {
+    "locationCode": "MKM",
+    "label": "Mukah, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "MZV",
+    "label": "Mulu",
+    "subdivisionCode": "13",
+    "function": "4",
+    "lat": 4.05,
+    "lng": 114.8
+  },
+  {
+    "locationCode": "MEN",
+    "label": "Nenasi",
+    "subdivisionCode": "06",
+    "function": "13",
+    "lat": 3.133333,
+    "lng": 103.45
+  },
+  {
+    "locationCode": "NBL",
+    "label": "Nibong Tebal",
+    "subdivisionCode": "06",
+    "function": "6",
+    "lat": 5.166667,
+    "lng": 100.483333
+  },
+  {
+    "locationCode": "NTB",
+    "label": "Nibong Tebal",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.166667,
+    "lng": 100.466667
+  },
+  {
+    "locationCode": "NII",
+    "label": "Nilai",
+    "subdivisionCode": "05",
+    "function": "1",
+    "lat": 2.816667,
+    "lng": 101.8
+  },
+  {
+    "locationCode": "SNP",
+    "label": "North Pt",
+    "subdivisionCode": "10",
+    "function": "1"
+  },
+  {
+    "locationCode": "LPK",
+    "label": "Northport/Pt Klang",
+    "subdivisionCode": "14",
+    "function": "1"
+  },
+  {
+    "locationCode": "NUS",
+    "label": "Nusajaya",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 1.466667,
+    "lng": 103.633333
+  },
+  {
+    "locationCode": "PGB",
+    "label": "Padang Besar",
+    "function": "3",
+    "lat": 6.383333,
+    "lng": 100.3
+  },
+  {
+    "locationCode": "PGS",
+    "label": "Padang Serai",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.516667,
+    "lng": 100.55
+  },
+  {
+    "locationCode": "PAK",
+    "label": "Paka",
+    "subdivisionCode": "11",
+    "function": "3",
+    "lat": 4.65,
+    "lng": 103.433333
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Paloh, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAY",
+    "label": "Pamol",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Panchang",
+    "function": "1"
+  },
+  {
+    "locationCode": "PAD",
+    "label": "Pandamaran",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 3.016667,
+    "lng": 101.7
+  },
+  {
+    "locationCode": "PGK",
+    "label": "Pangkur",
+    "function": "3",
+    "lat": 4.216667,
+    "lng": 100.566667
+  },
+  {
+    "locationCode": "PRM",
+    "label": "Pantai Remis",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.45,
+    "lng": 100.633333
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Papar",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 5.733333,
+    "lng": 115.933333
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parit Raja",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 1.866667,
+    "lng": 103.116667
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasir Gogok",
+    "function": "1"
+  },
+  {
+    "locationCode": "PGU",
+    "label": "Pasir Gudang, Johor",
+    "function": "1"
+  },
+  {
+    "locationCode": "PHI",
+    "label": "Pasir Hitam",
+    "function": "1"
+  },
+  {
+    "locationCode": "PEH",
+    "label": "Pasir Puteh",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 5.833333,
+    "lng": 102.4
+  },
+  {
+    "locationCode": "PED",
+    "label": "Pedena",
+    "function": "1"
+  },
+  {
+    "locationCode": "PKN",
+    "label": "Pekan",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 3.5,
+    "lng": 103.416667
+  },
+  {
+    "locationCode": "NTL",
+    "label": "Penang",
+    "function": "6",
+    "lat": 5.166667,
+    "lng": 100.466667
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Penang (Georgetown)",
+    "subdivisionCode": "07",
+    "function": "14",
+    "lat": 5.416667,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "PMT",
+    "label": "Penara Marine Terminal",
+    "function": "1",
+    "lat": 6.116667,
+    "lng": 105.016667
+  },
+  {
+    "locationCode": "PND",
+    "label": "Pending",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 1.55,
+    "lng": 110.383333
+  },
+  {
+    "locationCode": "PGG",
+    "label": "Pengerang",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 1.366667,
+    "lng": 104.116667
+  },
+  {
+    "locationCode": "PKK",
+    "label": "Pengkalan Kubor",
+    "function": "1"
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Perai",
+    "function": "123",
+    "lat": 5.383333,
+    "lng": 100.383333
+  },
+  {
+    "locationCode": "PJA",
+    "label": "Petaling Jaya",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.083333,
+    "lng": 101.65
+  },
+  {
+    "locationCode": "POW",
+    "label": "Pontian",
+    "function": "1"
+  },
+  {
+    "locationCode": "PDI",
+    "label": "Port Dickson",
+    "function": "1"
+  },
+  {
+    "locationCode": "XPQ",
+    "label": "Port Klang (Ferry Port)",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 3.016667,
+    "lng": 101.366667
+  },
+  {
+    "locationCode": "PKG",
+    "label": "Port Klang (Pelabuhan Klang)",
+    "subdivisionCode": "10",
+    "function": "1235",
+    "lat": 3,
+    "lng": 101.4
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Prai",
+    "function": "1"
+  },
+  {
+    "locationCode": "PUC",
+    "label": "Puchong",
+    "subdivisionCode": "10",
+    "function": "3"
+  },
+  {
+    "locationCode": "PBA",
+    "label": "Pulau Batik, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRU",
+    "label": "Pulau Bruit",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 2.583333,
+    "lng": 111.333333
+  },
+  {
+    "locationCode": "LAU",
+    "label": "Pulau Indah",
+    "subdivisionCode": "10",
+    "function": "16",
+    "lat": 2.933333,
+    "lng": 101.316667
+  },
+  {
+    "locationCode": "PJK",
+    "label": "Pulau Jarak",
+    "function": "1",
+    "lat": 3.966667,
+    "lng": 100.083333
+  },
+  {
+    "locationCode": "LAC",
+    "label": "Pulau Lang Lang",
+    "function": "4",
+    "lat": 7.4,
+    "lng": 113.833333
+  },
+  {
+    "locationCode": "PPI",
+    "label": "Pulau Pisang",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTB",
+    "label": "Pulau Tambisan, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "PTU",
+    "label": "Pulau Tikus",
+    "subdivisionCode": "07",
+    "function": "6",
+    "lat": 5.433333,
+    "lng": 100.316667
+  },
+  {
+    "locationCode": "PUN",
+    "label": "Punang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "PCK",
+    "label": "Puncak Alam",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.216667,
+    "lng": 101.433333
+  },
+  {
+    "locationCode": "PSG",
+    "label": "Pusing",
+    "subdivisionCode": "08",
+    "function": "3"
+  },
+  {
+    "locationCode": "PUT",
+    "label": "Putrajaya",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 2.916667,
+    "lng": 101.7
+  },
+  {
+    "locationCode": "RNU",
+    "label": "Ranau",
+    "function": "4"
+  },
+  {
+    "locationCode": "RAW",
+    "label": "Rawang",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.316667,
+    "lng": 101.583333
+  },
+  {
+    "locationCode": "RDN",
+    "label": "Redang",
+    "function": "4",
+    "lat": 5.766667,
+    "lng": 103
+  },
+  {
+    "locationCode": "REJ",
+    "label": "Rejang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "REM",
+    "label": "Rembau",
+    "subdivisionCode": "05",
+    "function": "6",
+    "lat": 2.583333,
+    "lng": 102.1
+  },
+  {
+    "locationCode": "SBT",
+    "label": "Sabahat",
+    "subdivisionCode": "12",
+    "function": "1",
+    "lat": 5.066667,
+    "lng": 119.033333
+  },
+  {
+    "locationCode": "SIP",
+    "label": "Samalaju",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 3.95,
+    "lng": 113.533333
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samu",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 1.55,
+    "lng": 111.533333
+  },
+  {
+    "locationCode": "SDK",
+    "label": "Sandakan, Sabah",
+    "function": "14"
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarikei",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 2.116667,
+    "lng": 111.516667
+  },
+  {
+    "locationCode": "SPS",
+    "label": "Seberang Perai Selatan",
+    "function": "6",
+    "lat": 5.2,
+    "lng": 100.45
+  },
+  {
+    "locationCode": "ZSU",
+    "label": "Sebuyau",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 1.516667,
+    "lng": 110.933333
+  },
+  {
+    "locationCode": "SGM",
+    "label": "Segamat",
+    "subdivisionCode": "01",
+    "function": "123",
+    "lat": 2.5,
+    "lng": 102.816667
+  },
+  {
+    "locationCode": "SEG",
+    "label": "Segari",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.35,
+    "lng": 100.633333
+  },
+  {
+    "locationCode": "SEJ",
+    "label": "Sejingkat, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selalang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Selama",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 5.216667,
+    "lng": 100.7
+  },
+  {
+    "locationCode": "SEK",
+    "label": "Selangkor",
+    "subdivisionCode": "14",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Selekoh",
+    "function": "6",
+    "lat": 3.916667,
+    "lng": 100.783333
+  },
+  {
+    "locationCode": "BSE",
+    "label": "Sematan, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "SMY",
+    "label": "Semenyih",
+    "subdivisionCode": "10",
+    "function": "6",
+    "lat": 2.95,
+    "lng": 101.85
+  },
+  {
+    "locationCode": "SMM",
+    "label": "Semporna, Sabah",
+    "function": "14"
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Senai",
+    "subdivisionCode": "01",
+    "function": "234",
+    "lat": 1.6,
+    "lng": 103.65
+  },
+  {
+    "locationCode": "SNR",
+    "label": "Senari - Sarawak",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 1.6,
+    "lng": 110.433333
+  },
+  {
+    "locationCode": "SEW",
+    "label": "Senawang",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 2.7,
+    "lng": 101.966667
+  },
+  {
+    "locationCode": "SVG",
+    "label": "Sendayan Village",
+    "function": "6",
+    "lat": 2.683333,
+    "lng": 101.85
+  },
+  {
+    "locationCode": "SEP",
+    "label": "Sepang, Selangor",
+    "subdivisionCode": "10",
+    "function": "137",
+    "lat": 2.7,
+    "lng": 101.75
+  },
+  {
+    "locationCode": "SPE",
+    "label": "Sepulot",
+    "function": "4"
+  },
+  {
+    "locationCode": "SRB",
+    "label": "Seremban",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 2.716667,
+    "lng": 101.933333
+  },
+  {
+    "locationCode": "SKB",
+    "label": "Seri Kembangan",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.016667,
+    "lng": 101.7
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Shah Alam",
+    "function": "1"
+  },
+  {
+    "locationCode": "SBW",
+    "label": "Sibu, Sarawak",
+    "function": "14"
+  },
+  {
+    "locationCode": "SIJ",
+    "label": "Sijingkat",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIK",
+    "label": "Sik",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.816667,
+    "lng": 100.733333
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Silay",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMG",
+    "label": "Simanggang, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SAP",
+    "label": "Simpang Ampat",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.483333,
+    "lng": 100.433333
+  },
+  {
+    "locationCode": "SMP",
+    "label": "Simpang Lima",
+    "function": "6",
+    "lat": 4.233333,
+    "lng": 100.7
+  },
+  {
+    "locationCode": "SPG",
+    "label": "Simpangan, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "SMJ",
+    "label": "Simunjan, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SDM",
+    "label": "Sindumin",
+    "function": "1"
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Sipitang, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "SIR",
+    "label": "Siran",
+    "function": "1"
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Sirikin, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SWY",
+    "label": "Sitiawan",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sobak Bernam",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.766667,
+    "lng": 100.966667
+  },
+  {
+    "locationCode": "SME",
+    "label": "Sri Medan",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUB",
+    "label": "Subang Jaya",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.066667,
+    "lng": 101.583333
+  },
+  {
+    "locationCode": "SZB",
+    "label": "Subang Kuala Lumpur Apt",
+    "subdivisionCode": "10",
+    "function": "34",
+    "lat": 3.133333,
+    "lng": 101.55
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Sundar, Sarawak",
+    "function": "1"
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sungai Bakap",
+    "subdivisionCode": "07",
+    "function": "6",
+    "lat": 5.216667,
+    "lng": 100.5
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Sungai Bakau",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.133333,
+    "lng": 100.416667
+  },
+  {
+    "locationCode": "SBS",
+    "label": "Sungai Besi",
+    "function": "6",
+    "lat": 3.05,
+    "lng": -101.7
+  },
+  {
+    "locationCode": "SBU",
+    "label": "Sungai Buloh",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 3.216667,
+    "lng": 101.566667
+  },
+  {
+    "locationCode": "SBL",
+    "label": "Sungai Buluh",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 3.2,
+    "lng": 101.583333
+  },
+  {
+    "locationCode": "SUG",
+    "label": "Sungai Gadut",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 2.666667,
+    "lng": 102
+  },
+  {
+    "locationCode": "SGL",
+    "label": "Sungai Lalang",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 5.7,
+    "lng": 100.516667
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sungai Merah",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 2.333333,
+    "lng": 111.833333
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Sungai Nibong",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 5.333333,
+    "lng": 100.3
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sungai Nibong",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 1.266667,
+    "lng": 111.733333
+  },
+  {
+    "locationCode": "PET",
+    "label": "Sungai Petani",
+    "subdivisionCode": "02",
+    "function": "23",
+    "lat": 5.633333,
+    "lng": 100.483333
+  },
+  {
+    "locationCode": "SRE",
+    "label": "Sungai Rengit",
+    "function": "1"
+  },
+  {
+    "locationCode": "SGG",
+    "label": "Sungai Udang",
+    "subdivisionCode": "04",
+    "function": "1",
+    "lat": 2.25,
+    "lng": 102.083333
+  },
+  {
+    "locationCode": "SUP",
+    "label": "Sungai Udang Port",
+    "function": "1",
+    "lat": 2.25,
+    "lng": 102.133333
+  },
+  {
+    "locationCode": "SUW",
+    "label": "Sungai Way",
+    "subdivisionCode": "10",
+    "function": "123",
+    "lat": 3.083333,
+    "lng": 101.616667
+  },
+  {
+    "locationCode": "GTK",
+    "label": "Sungei Tekai",
+    "function": "4"
+  },
+  {
+    "locationCode": "SGK",
+    "label": "Sungkai",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4,
+    "lng": 101.316667
+  },
+  {
+    "locationCode": "TPG",
+    "label": "Taiping",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOL",
+    "label": "Taman Molek",
+    "subdivisionCode": "01",
+    "function": "6",
+    "lat": 1.55,
+    "lng": 103.8
+  },
+  {
+    "locationCode": "SXT",
+    "label": "Taman Negara",
+    "function": "4"
+  },
+  {
+    "locationCode": "TPI",
+    "label": "Tampoi",
+    "function": "3",
+    "lat": 1.483333,
+    "lng": 103.7
+  },
+  {
+    "locationCode": "TAI",
+    "label": "Tampoi",
+    "subdivisionCode": "01",
+    "function": "13",
+    "lat": 1.483333,
+    "lng": 103.683333
+  },
+  {
+    "locationCode": "TMR",
+    "label": "Tanah Merah",
+    "subdivisionCode": "03",
+    "function": "23",
+    "lat": 5.8,
+    "lng": 102.133333
+  },
+  {
+    "locationCode": "TTE",
+    "label": "Tandjung Tengelili",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKK",
+    "label": "Tangkak",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 2.266667,
+    "lng": 102.533333
+  },
+  {
+    "locationCode": "TBA",
+    "label": "Tanjong Baran",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBE",
+    "label": "Tanjong Berhala",
+    "function": "1"
+  },
+  {
+    "locationCode": "TBI",
+    "label": "Tanjong Bin",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 1.333333,
+    "lng": 103.55
+  },
+  {
+    "locationCode": "TDA",
+    "label": "Tanjong Dawai",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKI",
+    "label": "Tanjong Kidurong",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKL",
+    "label": "Tanjong Kling",
+    "function": "0"
+  },
+  {
+    "locationCode": "TSR",
+    "label": "Tanjong Surat",
+    "function": "1"
+  },
+  {
+    "locationCode": "TGE",
+    "label": "Tanjung Gelang",
+    "subdivisionCode": "06",
+    "function": "13",
+    "lat": 3.983333,
+    "lng": 103.416667
+  },
+  {
+    "locationCode": "TAG",
+    "label": "Tanjung Lembung",
+    "subdivisionCode": "02",
+    "function": "13",
+    "lat": 6.283333,
+    "lng": 99.783333
+  },
+  {
+    "locationCode": "TAM",
+    "label": "Tanjung Malim",
+    "subdivisionCode": "08",
+    "function": "23",
+    "lat": 3.683333,
+    "lng": 101.5
+  },
+  {
+    "locationCode": "TMP",
+    "label": "Tanjung Manis",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 2.133333,
+    "lng": 111.35
+  },
+  {
+    "locationCode": "TPP",
+    "label": "Tanjung Pelepas",
+    "subdivisionCode": "01",
+    "function": "123",
+    "lat": 1.366667,
+    "lng": 103.55
+  },
+  {
+    "locationCode": "TGS",
+    "label": "Tanjung Setapa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 1.366667,
+    "lng": 104.116667
+  },
+  {
+    "locationCode": "TP8",
+    "label": "Tapah",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.183333,
+    "lng": 101.266667
+  },
+  {
+    "locationCode": "TAT",
+    "label": "Tapis Terminal",
+    "function": "1"
+  },
+  {
+    "locationCode": "TWU",
+    "label": "Tawau, Sabah",
+    "function": "14"
+  },
+  {
+    "locationCode": "TBU",
+    "label": "Tebedu",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 1.033333,
+    "lng": 110.616667
+  },
+  {
+    "locationCode": "TEB",
+    "label": "Tebrau",
+    "function": "3",
+    "lat": 1.5,
+    "lng": 103.833333
+  },
+  {
+    "locationCode": "TAN",
+    "label": "Telok Anson",
+    "function": "0"
+  },
+  {
+    "locationCode": "TLK",
+    "label": "Telok Panglima Garang",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.916667,
+    "lng": 101.466667
+  },
+  {
+    "locationCode": "TRM",
+    "label": "Telok Ramunia",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Teluk Intan",
+    "function": "13"
+  },
+  {
+    "locationCode": "TEI",
+    "label": "Teluk Intan",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 4.033333,
+    "lng": 101.016667
+  },
+  {
+    "locationCode": "TRB",
+    "label": "Teluk Rubiah",
+    "subdivisionCode": "08",
+    "function": "13",
+    "lat": 49.816667,
+    "lng": 100.616667
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Telupid",
+    "function": "4",
+    "lat": 5.566667,
+    "lng": 117.116667
+  },
+  {
+    "locationCode": "TGO",
+    "label": "Tembungo",
+    "function": "7",
+    "lat": 6.633333,
+    "lng": 115.783333
+  },
+  {
+    "locationCode": "TEM",
+    "label": "Temerloh",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 3.433333,
+    "lng": 102.416667
+  },
+  {
+    "locationCode": "TEN",
+    "label": "Tengku, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "ASQ",
+    "label": "Teronoh",
+    "subdivisionCode": "08",
+    "function": "16",
+    "lat": 4.416667,
+    "lng": 100.983333
+  },
+  {
+    "locationCode": "TOD",
+    "label": "Tioman",
+    "function": "14"
+  },
+  {
+    "locationCode": "TMG",
+    "label": "Tomanggong",
+    "function": "14"
+  },
+  {
+    "locationCode": "TUB",
+    "label": "Tubau",
+    "subdivisionCode": "13",
+    "function": "13",
+    "lat": 3.133333,
+    "lng": 113.7
+  },
+  {
+    "locationCode": "TMB",
+    "label": "Tumbum",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUM",
+    "label": "Tumpat",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tungku",
+    "function": "1"
+  },
+  {
+    "locationCode": "UTI",
+    "label": "Ulu Tiram",
+    "subdivisionCode": "01",
+    "function": "23",
+    "lat": 1.633333,
+    "lng": 103.833333
+  },
+  {
+    "locationCode": "WAL",
+    "label": "Wallace Bay, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "WES",
+    "label": "Weston, Sabah",
+    "function": "1"
+  },
+  {
+    "locationCode": "WSP",
+    "label": "Westport/Port Klang",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 2.95,
+    "lng": 101.3
+  },
+  {
+    "locationCode": "YPG",
+    "label": "Yong Peng",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 2.016667,
+    "lng": 103.066667
+  }
+]

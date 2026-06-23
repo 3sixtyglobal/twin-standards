@@ -10,7 +10,7 @@ Common VDA interface.
 
 ## Properties
 
-### dataIdentifier
+### dataIdentifier {#dataidentifier}
 
 > **dataIdentifier**: `string`
 
@@ -18,7 +18,7 @@ Data Identifier (DI).
 
 ***
 
-### issuingAgencyCode
+### issuingAgencyCode {#issuingagencycode}
 
 > **issuingAgencyCode**: `string`
 

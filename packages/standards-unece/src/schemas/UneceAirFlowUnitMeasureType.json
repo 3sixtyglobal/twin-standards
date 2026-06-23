@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceAirFlowUnitMeasureType",
+	"title": "UneceAirFlowUnitMeasureType",
+	"description": "The numeric value determined by a measurement of air flow.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "AirFlowUnitMeasureType",
+			"description": "JSON-LD Type."
+		},
+		"AirFlowUnitMeasureTypeValue": {
+			"type": "string",
+			"description": "The numeric value."
+		},
+		"AirFlowUnitMeasureTypeCode": {
+			"$ref": "https://schema.twindev.org/unece/UneceAirFlowUnitMeasureCode",
+			"description": "The unit code."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

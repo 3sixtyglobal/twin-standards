@@ -1,0 +1,4339 @@
+[
+  {
+    "locationCode": "AL8",
+    "label": "Aleksince",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 17.95
+  },
+  {
+    "locationCode": "BCC",
+    "label": "Bacuch",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.866667,
+    "lng": 19.816667
+  },
+  {
+    "locationCode": "BAJ",
+    "label": "Bajc",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 18.216667
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Baka",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 47.9,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "BNI",
+    "label": "Balog nad Iplom",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.066667,
+    "lng": 19.116667
+  },
+  {
+    "locationCode": "BNB",
+    "label": "Bánovce nad Bebravou",
+    "labelWithDiacritics": "Banovce nad Bebravou",
+    "function": "236",
+    "lat": 48.716667,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "BBY",
+    "label": "Banská Bystrica",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Banska Bystrica",
+    "function": "34",
+    "lat": 48.733333,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "SZN",
+    "label": "Banska Stiavnica",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.45,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "BDV",
+    "label": "Bardejov",
+    "function": "23",
+    "lat": 49.283333,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "BTZ",
+    "label": "Batizovce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 20.2
+  },
+  {
+    "locationCode": "BEC",
+    "label": "Becherov",
+    "subdivisionCode": "PV",
+    "function": "3"
+  },
+  {
+    "locationCode": "BCK",
+    "label": "Beckov",
+    "subdivisionCode": "TA",
+    "function": "1"
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Bela",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.833333,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "BNC",
+    "label": "Bela Nad Cirochou",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.966667,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "BLD",
+    "label": "Beladice",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "BEL",
+    "label": "Belusa",
+    "function": "3",
+    "lat": 49.066667,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "BLO",
+    "label": "Bernolákovo",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Bernolakovo",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "BES",
+    "label": "Besenova",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "BEZ",
+    "label": "Bezovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "6SK",
+    "label": "Bidovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.733333,
+    "lng": 21.433333
+  },
+  {
+    "locationCode": "BTV",
+    "label": "Bitarova",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.216667,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "BNT",
+    "label": "Bohdanovce nad Trnavou",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.433333,
+    "lng": 17.55
+  },
+  {
+    "locationCode": "BOJ",
+    "label": "Bojnice",
+    "function": "3",
+    "lat": 48.783333,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "NOL",
+    "label": "Boleráz",
+    "labelWithDiacritics": "Boleraz",
+    "function": "23",
+    "lat": 48.45,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "BSC",
+    "label": "Bosáca",
+    "labelWithDiacritics": "Bosaca",
+    "function": "36",
+    "lat": 48.833333,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Bosany",
+    "function": "23",
+    "lat": 48.583333,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "BVO",
+    "label": "Branovo",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.033333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Bratislava",
+    "subdivisionCode": "BL",
+    "function": "2345",
+    "lat": 48.15,
+    "lng": 17.116667
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Bratislava Port",
+    "subdivisionCode": "BL",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTY",
+    "label": "Brestovany",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.383333,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "BZO",
+    "label": "Brezno",
+    "subdivisionCode": "BC",
+    "function": "236",
+    "lat": 48.816667,
+    "lng": 19.65
+  },
+  {
+    "locationCode": "BPB",
+    "label": "Brezova pod Bradlom",
+    "function": "6",
+    "lat": 48.666667,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "BRO",
+    "label": "Brodské",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Brodske",
+    "function": "3"
+  },
+  {
+    "locationCode": "8KS",
+    "label": "Brzotín",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Brzotin",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 20.5
+  },
+  {
+    "locationCode": "BDM",
+    "label": "Budmerice",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "SZF",
+    "label": "Buzica",
+    "subdivisionCode": "KI",
+    "function": "6",
+    "lat": 48.533333,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Bystré",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Bystre",
+    "function": "3",
+    "lat": 49.016667,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "YRK",
+    "label": "Bystricka",
+    "function": "6",
+    "lat": 49.05,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "BCA",
+    "label": "Bytca",
+    "function": "3",
+    "lat": 49.216667,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Cab",
+    "subdivisionCode": "NI",
+    "function": "36",
+    "lat": 48.4,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "CTE",
+    "label": "Cachtice",
+    "function": "3",
+    "lat": 48.7,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "CAD",
+    "label": "Cadca",
+    "subdivisionCode": "ZI",
+    "function": "2"
+  },
+  {
+    "locationCode": "CAJ",
+    "label": "Cajkov",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.283333,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Cana",
+    "subdivisionCode": "KI",
+    "function": "2"
+  },
+  {
+    "locationCode": "CAS",
+    "label": "Castá",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Casta",
+    "function": "3",
+    "lat": 48.4,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "CKC",
+    "label": "Castkovce",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "CEC",
+    "label": "Cecejovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.6,
+    "lng": 21.066667
+  },
+  {
+    "locationCode": "CEL",
+    "label": "Celadice",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "CEN",
+    "label": "Cenkovce",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "CRV",
+    "label": "Cerovo",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.25,
+    "lng": 19.166667
+  },
+  {
+    "locationCode": "CER",
+    "label": "Certizné",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Certizne",
+    "function": "3",
+    "lat": 49.35,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "CEK",
+    "label": "Cerveny Kamen",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "CVG",
+    "label": "Chorvátsky Grob",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Chorvatsky Grob",
+    "function": "6",
+    "lat": 48.216667,
+    "lng": 17.283333
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Chotín",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Chotin",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "CYY",
+    "label": "Chynorany",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "CNT",
+    "label": "Cierna nad Tisou",
+    "subdivisionCode": "KI",
+    "function": "2"
+  },
+  {
+    "locationCode": "CIE",
+    "label": "Cierny",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 47.883333,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "CNB",
+    "label": "Cierny Brod",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 17.666667
+  },
+  {
+    "locationCode": "SFA",
+    "label": "Cifare",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "CFR",
+    "label": "Cífer",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Cifer",
+    "function": "3",
+    "lat": 48.316667,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "COB",
+    "label": "Cinobana",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.45,
+    "lng": 19.65
+  },
+  {
+    "locationCode": "DTA",
+    "label": "Detva",
+    "function": "3"
+  },
+  {
+    "locationCode": "BAA",
+    "label": "Devinska Nova Ves/Bratislava",
+    "subdivisionCode": "BL",
+    "function": "2"
+  },
+  {
+    "locationCode": "DZR",
+    "label": "Dezerice",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.766667,
+    "lng": 18.216667
+  },
+  {
+    "locationCode": "TDN",
+    "label": "Diviaky nad Nitricou",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.766667,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "DBR",
+    "label": "Dobrá",
+    "labelWithDiacritics": "Dobra",
+    "function": "23",
+    "lat": 48.416667,
+    "lng": 22.016667
+  },
+  {
+    "locationCode": "DOJ",
+    "label": "Dojc",
+    "subdivisionCode": "TA",
+    "function": "36",
+    "lat": 48.666667,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dol'any",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.416667,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "DNS",
+    "label": "Dolna Streda",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.266667,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "DOV",
+    "label": "Dolné Vestenice",
+    "labelWithDiacritics": "Dolne Vestenice",
+    "function": "3",
+    "lat": 48.7,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "DOK",
+    "label": "Dolny Kubín",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Dolny Kubin",
+    "function": "23",
+    "lat": 49.2,
+    "lng": 19.3
+  },
+  {
+    "locationCode": "DLV",
+    "label": "Dolný Lieskov",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Dolny Lieskov",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "DOS",
+    "label": "Dolný Stál",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Dolny Stal",
+    "function": "36",
+    "lat": 47.933333,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "DOM",
+    "label": "Domica",
+    "subdivisionCode": "KI",
+    "function": "3"
+  },
+  {
+    "locationCode": "DVE",
+    "label": "Drahovce",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.516667,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "DRC",
+    "label": "Drienovec",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 20.95
+  },
+  {
+    "locationCode": "DRI",
+    "label": "Drietoma",
+    "subdivisionCode": "TC",
+    "function": "3"
+  },
+  {
+    "locationCode": "DRZ",
+    "label": "Drzenice",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.283333,
+    "lng": 18.7
+  },
+  {
+    "locationCode": "SZH",
+    "label": "Dubnica",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.8,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "DNV",
+    "label": "Dubnica nad Váhom",
+    "labelWithDiacritics": "Dubnica nad Vahom",
+    "function": "23",
+    "lat": 48.966667,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "DUB",
+    "label": "Dubova",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "DUE",
+    "label": "Ducové",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Ducove",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "SZI",
+    "label": "Dulovce",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 47.866667,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "DJZ",
+    "label": "Dunajska Luzna",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.083333,
+    "lng": -17.266667
+  },
+  {
+    "locationCode": "DZJ",
+    "label": "Dunajská Luzná",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Dunajska Luzna",
+    "function": "3",
+    "lat": 48.083333,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "DJA",
+    "label": "Dunajská Streda",
+    "labelWithDiacritics": "Dunajska Streda",
+    "function": "3"
+  },
+  {
+    "locationCode": "DVO",
+    "label": "Dvorniky",
+    "subdivisionCode": "KI",
+    "function": "16",
+    "lat": 48.6,
+    "lng": 20.833333
+  },
+  {
+    "locationCode": "DZI",
+    "label": "Dvory nad Zitavou",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "FIA",
+    "label": "Filakovo",
+    "subdivisionCode": "BC",
+    "function": "2"
+  },
+  {
+    "locationCode": "FNT",
+    "label": "Fintice",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 21.3
+  },
+  {
+    "locationCode": "FCE",
+    "label": "Fricovce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.016667,
+    "lng": 20.966667
+  },
+  {
+    "locationCode": "GLT",
+    "label": "Galanta",
+    "subdivisionCode": "TA",
+    "function": "123",
+    "lat": 48.2,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "GAN",
+    "label": "Gan",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "GBY",
+    "label": "Gbelany",
+    "subdivisionCode": "ZI",
+    "function": "6",
+    "lat": 49.216667,
+    "lng": 18.85
+  },
+  {
+    "locationCode": "GBL",
+    "label": "Gbely",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.716667,
+    "lng": 17.133333
+  },
+  {
+    "locationCode": "GLA",
+    "label": "Gelnica",
+    "function": "23",
+    "lat": 48.85,
+    "lng": 20.933333
+  },
+  {
+    "locationCode": "GEM",
+    "label": "Gemerska Horka",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "GIR",
+    "label": "Giraltovce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.116667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "HML",
+    "label": "Hamuliakovo",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.033333,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "HLA",
+    "label": "Handlova",
+    "function": "3",
+    "lat": 48.716667,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "HDL",
+    "label": "Handlová",
+    "labelWithDiacritics": "Handlova",
+    "function": "23",
+    "lat": 48.733333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "8TK",
+    "label": "Haniska",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "HKS",
+    "label": "Haniska pri Kosiciach",
+    "function": "3"
+  },
+  {
+    "locationCode": "HNT",
+    "label": "Hanusovce nad Topl'ou",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49.033333,
+    "lng": 21.5
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Harichovce",
+    "function": "3",
+    "lat": 48.966667,
+    "lng": 20.583333
+  },
+  {
+    "locationCode": "NEC",
+    "label": "Harmanec",
+    "subdivisionCode": "BC",
+    "function": "23",
+    "lat": 48.816667,
+    "lng": 19.05
+  },
+  {
+    "locationCode": "HCV",
+    "label": "Hencovce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.883333,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "HNH",
+    "label": "Hliník nad Hronom",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Hlinik nad Hronom",
+    "function": "3",
+    "lat": 48.55,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "HLO",
+    "label": "Hlohovec",
+    "subdivisionCode": "TA",
+    "function": "23",
+    "lat": 48.416667,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "HZD",
+    "label": "Hniezdne",
+    "subdivisionCode": "PV",
+    "function": "36",
+    "lat": 49.3,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "SZK",
+    "label": "Hnústa",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Hnusta",
+    "function": "6",
+    "lat": 48.583333,
+    "lng": 19.966667
+  },
+  {
+    "locationCode": "HRS",
+    "label": "Hodrusa",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.466667,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "HOL",
+    "label": "Holíc",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Holic",
+    "function": "23",
+    "lat": 48.8,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "HOE",
+    "label": "Holice",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 17.483333
+  },
+  {
+    "locationCode": "8EB",
+    "label": "Hontianske Tesáre",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Hontianske Tesare",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "HOK",
+    "label": "Horná Králová",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Horna Kralova",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 17.916667
+  },
+  {
+    "locationCode": "HST",
+    "label": "Horna Streda",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "HSM",
+    "label": "Horné Srnie",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Horne Srnie",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZL",
+    "label": "Horný Hricov",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Horny Hricov",
+    "function": "6",
+    "lat": 49.25,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "HOR",
+    "label": "Horovce",
+    "function": "6",
+    "lat": 49.15,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "HOS",
+    "label": "Hostovce",
+    "subdivisionCode": "KI",
+    "function": "3"
+  },
+  {
+    "locationCode": "HRV",
+    "label": "Hradiste pod Vrátnom",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Hradiste pod Vratnom",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "HHA",
+    "label": "Hranicné",
+    "labelWithDiacritics": "Hranicne",
+    "function": "3",
+    "lat": 49.366667,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "HRI",
+    "label": "Hricov",
+    "subdivisionCode": "ZI",
+    "function": "4"
+  },
+  {
+    "locationCode": "HNA",
+    "label": "Hrinová",
+    "labelWithDiacritics": "Hrinova",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 19.533333
+  },
+  {
+    "locationCode": "HRN",
+    "label": "Hrnciarovce nad Parnou",
+    "subdivisionCode": "TA",
+    "function": "236",
+    "lat": 48.35,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "HDU",
+    "label": "Hronska Dubrava",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 19
+  },
+  {
+    "locationCode": "HUL",
+    "label": "Hul",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "HNE",
+    "label": "Humenné",
+    "labelWithDiacritics": "Humenne",
+    "function": "236",
+    "lat": 48.916667,
+    "lng": 21.9
+  },
+  {
+    "locationCode": "HBV",
+    "label": "Hurbanova Ves",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 17.4
+  },
+  {
+    "locationCode": "HBO",
+    "label": "Hurbanovo",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "ILV",
+    "label": "Ilava",
+    "function": "236",
+    "lat": 49,
+    "lng": 18.216667
+  },
+  {
+    "locationCode": "PEL",
+    "label": "Ipelský Sokolec",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Ipelsky Sokolec",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "SZC",
+    "label": "Istebné",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Istebne",
+    "function": "6",
+    "lat": 49.216667,
+    "lng": 19.216667
+  },
+  {
+    "locationCode": "IVA",
+    "label": "Ivanka pri Dunaji",
+    "subdivisionCode": "BL",
+    "function": "6",
+    "lat": 48.183333,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "IPN",
+    "label": "Ivanka pri Nitre",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "SZP",
+    "label": "Jablonica",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.6,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "JNT",
+    "label": "Jablonov nad Turnou",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 20.666667
+  },
+  {
+    "locationCode": "JLO",
+    "label": "Jablonové",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Jablonove",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "SZO",
+    "label": "Jahodna",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.05,
+    "lng": 17.7
+  },
+  {
+    "locationCode": "JAR",
+    "label": "Jarovce",
+    "subdivisionCode": "BL",
+    "function": "3"
+  },
+  {
+    "locationCode": "JAS",
+    "label": "Jasenica",
+    "function": "3",
+    "lat": 49.183333,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "JBE",
+    "label": "Jaslovské Bohunice",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Jaslovske Bohunice",
+    "function": "3",
+    "lat": 48.466667,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "JOS",
+    "label": "Jasov",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 20.983333
+  },
+  {
+    "locationCode": "JAO",
+    "label": "Jasova",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": -18.4
+  },
+  {
+    "locationCode": "JSV",
+    "label": "Jasová",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Jasova",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "JAV",
+    "label": "Javorina",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.266667,
+    "lng": 20.15
+  },
+  {
+    "locationCode": "JKA",
+    "label": "Jelka",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 17.516667
+  },
+  {
+    "locationCode": "JJJ",
+    "label": "Jelsava",
+    "subdivisionCode": "BC",
+    "function": "23",
+    "lat": 48.633333,
+    "lng": 20.233333
+  },
+  {
+    "locationCode": "JSK",
+    "label": "Jesenské",
+    "labelWithDiacritics": "Jesenske",
+    "function": "236",
+    "lat": 48.166667,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "JRV",
+    "label": "Jurova",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 17.516667
+  },
+  {
+    "locationCode": "KA2",
+    "label": "Kalinkovo",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.066667,
+    "lng": 17.25
+  },
+  {
+    "locationCode": "KNH",
+    "label": "Kalná nad Hronom",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Kalna nad Hronom",
+    "function": "3",
+    "lat": 48.2,
+    "lng": 18.516667
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalonda",
+    "subdivisionCode": "BC",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNC",
+    "label": "Kamenica nad Cirochou",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.933333,
+    "lng": 22
+  },
+  {
+    "locationCode": "KSY",
+    "label": "Kapusany",
+    "subdivisionCode": "PV",
+    "function": "23",
+    "lat": 49.05,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "KHU",
+    "label": "Katarinska Huta",
+    "function": "3",
+    "lat": 48.45,
+    "lng": 19.616667
+  },
+  {
+    "locationCode": "KHC",
+    "label": "Kechnec",
+    "subdivisionCode": "KI",
+    "function": "236",
+    "lat": 48.55,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "KZK",
+    "label": "Kezmarok",
+    "function": "3",
+    "lat": 49.133333,
+    "lng": 20.416667
+  },
+  {
+    "locationCode": "KLO",
+    "label": "Klokocov",
+    "subdivisionCode": "ZI",
+    "function": "3"
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Kocovce",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "KAO",
+    "label": "Kolárovo",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Kolarovo",
+    "function": "123",
+    "lat": 47.9,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "KNA",
+    "label": "Komarno",
+    "subdivisionCode": "NI",
+    "function": "23"
+  },
+  {
+    "locationCode": "KNP",
+    "label": "Komarno Port",
+    "subdivisionCode": "NI",
+    "function": "1"
+  },
+  {
+    "locationCode": "KOM",
+    "label": "Komjatice",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Koromla",
+    "function": "3",
+    "lat": 48.7,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "KTK",
+    "label": "Kos",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Koseca",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.016667,
+    "lng": 18.266667
+  },
+  {
+    "locationCode": "KSC",
+    "label": "Kosice",
+    "subdivisionCode": "KI",
+    "function": "2345",
+    "lat": 48.716667,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "KNT",
+    "label": "Kostany nad Turcom",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.033333,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Kostolné Kracany",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Kostolne Kracany",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "KOV",
+    "label": "Kovarce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.5,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "KRC",
+    "label": "Kozarovce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.316667,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "KKV",
+    "label": "Krakovany",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 17.766667
+  },
+  {
+    "locationCode": "KRA",
+    "label": "Kral",
+    "subdivisionCode": "BC",
+    "function": "3"
+  },
+  {
+    "locationCode": "KNN",
+    "label": "Králová nad Váhom",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Kralova nad Vahom",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "SZQ",
+    "label": "Kralovsky Chlmec",
+    "subdivisionCode": "KI",
+    "function": "6",
+    "lat": 48.416667,
+    "lng": 21.983333
+  },
+  {
+    "locationCode": "FD3",
+    "label": "Krásno",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Krasno",
+    "function": "13",
+    "lat": 48.6,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "KKU",
+    "label": "Krásno nad Kysucou",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Krasno nad Kysucou",
+    "function": "3",
+    "lat": 49.383333,
+    "lng": 18.833333
+  },
+  {
+    "locationCode": "SZR",
+    "label": "Kremnica",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.7,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "KRV",
+    "label": "Kriván",
+    "labelWithDiacritics": "Krivan",
+    "function": "23",
+    "lat": 48.533333,
+    "lng": 19.433333
+  },
+  {
+    "locationCode": "KRY",
+    "label": "Krízovany",
+    "labelWithDiacritics": "Krizovany",
+    "function": "3",
+    "lat": 48.983333,
+    "lng": 21.05
+  },
+  {
+    "locationCode": "KDV",
+    "label": "Krízovany nad Dudváhom",
+    "labelWithDiacritics": "Krizovany nad Dudvahom",
+    "function": "36",
+    "lat": 48.333333,
+    "lng": 17.666667
+  },
+  {
+    "locationCode": "SKO",
+    "label": "Krnca",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.55,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "KPY",
+    "label": "Krompachy",
+    "function": "236",
+    "lat": 48.916667,
+    "lng": 20.866667
+  },
+  {
+    "locationCode": "KRU",
+    "label": "Krupina",
+    "function": "23",
+    "lat": 48.35,
+    "lng": 19.066667
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Krusovce",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.583333,
+    "lng": 18.2
+  },
+  {
+    "locationCode": "KKO",
+    "label": "Kuklov",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 17.083333
+  },
+  {
+    "locationCode": "KKY",
+    "label": "Kútniky",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Kutniky",
+    "function": "3",
+    "lat": 47.966667,
+    "lng": 17.666667
+  },
+  {
+    "locationCode": "KUT",
+    "label": "Kúty",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Kuty",
+    "function": "23",
+    "lat": 48.666667,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "KVE",
+    "label": "Kvetoslavov",
+    "subdivisionCode": "TA",
+    "function": "16",
+    "lat": 48.05,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "KNM",
+    "label": "Kysucké Nové Mesto",
+    "labelWithDiacritics": "Kysucke Nove Mesto",
+    "function": "3",
+    "lat": 49.3,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "LAD",
+    "label": "Lada",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 21.366667
+  },
+  {
+    "locationCode": "LAV",
+    "label": "Ladomerska Vieska",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.566667,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Laskar",
+    "function": "6",
+    "lat": 48.733333,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "LU8",
+    "label": "Lazy pod Makytou",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.233333,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "LNR",
+    "label": "Lednické Rovné",
+    "labelWithDiacritics": "Lednicke Rovne",
+    "function": "3",
+    "lat": 49.066667,
+    "lng": 18.283333
+  },
+  {
+    "locationCode": "LEH",
+    "label": "Lehota",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.316667,
+    "lng": 18
+  },
+  {
+    "locationCode": "LPV",
+    "label": "Lehota Pod Vtacnikom",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "LPB",
+    "label": "Lehotka Pod Brehmi",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 18.8
+  },
+  {
+    "locationCode": "LEN",
+    "label": "Lenartovce",
+    "subdivisionCode": "BC",
+    "function": "2"
+  },
+  {
+    "locationCode": "LEO",
+    "label": "Leopoldov",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.45,
+    "lng": 17.766667
+  },
+  {
+    "locationCode": "LVE",
+    "label": "Levice",
+    "function": "23",
+    "lat": 48.216667,
+    "lng": 18.6
+  },
+  {
+    "locationCode": "VOA",
+    "label": "Levoca",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49.033333,
+    "lng": 20.6
+  },
+  {
+    "locationCode": "LIC",
+    "label": "Licartovce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.883333,
+    "lng": 21.25
+  },
+  {
+    "locationCode": "LLA",
+    "label": "Lietavska Lucka",
+    "subdivisionCode": "ZI",
+    "function": "6",
+    "lat": 49.166667,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "LIA",
+    "label": "Likavka",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.1,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "LIP",
+    "label": "Lipany",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49.15,
+    "lng": 20.966667
+  },
+  {
+    "locationCode": "RUV",
+    "label": "Liptovské Revúce",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Liptovske Revuce",
+    "function": "3",
+    "lat": 48.933333,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "SZS",
+    "label": "Liptovsky Hradok",
+    "subdivisionCode": "ZI",
+    "function": "6",
+    "lat": 49.033333,
+    "lng": 19.733333
+  },
+  {
+    "locationCode": "LPJ",
+    "label": "Liptovsky Ján",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Liptovsky Jan",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 19.683333
+  },
+  {
+    "locationCode": "LIM",
+    "label": "Liptovsky Mikulás",
+    "labelWithDiacritics": "Liptovsky Mikulas",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 19.616667
+  },
+  {
+    "locationCode": "LSK",
+    "label": "Lisková",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Liskova",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 19.35
+  },
+  {
+    "locationCode": "LOV",
+    "label": "Lovinobana",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.433333,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "LZO",
+    "label": "Lozorno",
+    "function": "23",
+    "lat": 48.333333,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "LUB",
+    "label": "Lubeník",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Lubenik",
+    "function": "23",
+    "lat": 48.666667,
+    "lng": 20.2
+  },
+  {
+    "locationCode": "LBT",
+    "label": "Lubotice",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49.016667,
+    "lng": 21.283333
+  },
+  {
+    "locationCode": "LUE",
+    "label": "Lucenec",
+    "function": "4"
+  },
+  {
+    "locationCode": "LCY",
+    "label": "Lúcky",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Lucky",
+    "function": "6",
+    "lat": 48.766667,
+    "lng": 22.05
+  },
+  {
+    "locationCode": "LUK",
+    "label": "Lúka",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Luka",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "LMH",
+    "label": "Luky p Makytou-Horni Lidéc",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Luky p Makytou-Horni Lidec",
+    "function": "2"
+  },
+  {
+    "locationCode": "LUZ",
+    "label": "Luzianky",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "LYD",
+    "label": "Lysá nad Dunajcom",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Lysa nad Dunajcom",
+    "function": "3",
+    "lat": 49.4,
+    "lng": 20.333333
+  },
+  {
+    "locationCode": "LMS",
+    "label": "Lysa pod Makytou-Strelna",
+    "subdivisionCode": "TC",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAO",
+    "label": "Macov",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Mad",
+    "subdivisionCode": "TA",
+    "function": "23",
+    "lat": 47.95,
+    "lng": 17.666667
+  },
+  {
+    "locationCode": "MDC",
+    "label": "Madunice",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.483333,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "MJH",
+    "label": "Majcichov",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.283333,
+    "lng": 17.633333
+  },
+  {
+    "locationCode": "MHB",
+    "label": "Makov-Horni Becva",
+    "subdivisionCode": "ZI",
+    "function": "3"
+  },
+  {
+    "locationCode": "MDM",
+    "label": "Mala Domasa",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.966667,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "XCV",
+    "label": "Malá Trna",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Mala Trna",
+    "function": "13",
+    "lat": 48.45,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "MAC",
+    "label": "Malacky",
+    "function": "236",
+    "lat": 48.433333,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "SZT",
+    "label": "Male Bielice",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.633333,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "MDV",
+    "label": "Male Dvorniky",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Malé Kosihy",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Male Kosihy",
+    "function": "3",
+    "lat": 47.916667,
+    "lng": 18.75
+  },
+  {
+    "locationCode": "LVM",
+    "label": "Malé Leváre",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Male Levare",
+    "function": "23",
+    "lat": 48.5,
+    "lng": 16.966667
+  },
+  {
+    "locationCode": "MUH",
+    "label": "Male Uherce",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.616667,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Malinovo",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "MKS",
+    "label": "Maly Krtis",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 19.366667
+  },
+  {
+    "locationCode": "MV4",
+    "label": "Marcelova",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.783333,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "NKA",
+    "label": "Marianka",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.25,
+    "lng": 17.066667
+  },
+  {
+    "locationCode": "MUV",
+    "label": "Markusovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.916667,
+    "lng": 20.633333
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Martin",
+    "function": "3"
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Martovce",
+    "function": "13",
+    "lat": 47.85,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "MJV",
+    "label": "Matejovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.916667,
+    "lng": 20.683333
+  },
+  {
+    "locationCode": "MVA",
+    "label": "Matovské Vojkovské",
+    "labelWithDiacritics": "Matovske Vojkovske",
+    "function": "2"
+  },
+  {
+    "locationCode": "MED",
+    "label": "Medvedov",
+    "subdivisionCode": "TA",
+    "function": "3"
+  },
+  {
+    "locationCode": "MEZ",
+    "label": "Medzilaborce",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.266667,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "MES",
+    "label": "Mestecko",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.166667,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "MNO",
+    "label": "Michal Na Ostrove",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 17.5
+  },
+  {
+    "locationCode": "MVV",
+    "label": "Michalová",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Michalova",
+    "function": "3",
+    "lat": 48.766667,
+    "lng": 19.783333
+  },
+  {
+    "locationCode": "MHC",
+    "label": "Michalovce",
+    "function": "236",
+    "lat": 48.75,
+    "lng": 21.916667
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Milhost",
+    "subdivisionCode": "KI",
+    "function": "3"
+  },
+  {
+    "locationCode": "MLV",
+    "label": "Miloslavov",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 17.3
+  },
+  {
+    "locationCode": "MPA",
+    "label": "Mnísek nad Popradom",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Mnisek nad Popradom",
+    "function": "3",
+    "lat": 49.416667,
+    "lng": 20.716667
+  },
+  {
+    "locationCode": "MCK",
+    "label": "Mocenok",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "MHV",
+    "label": "Mochovce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 18.45
+  },
+  {
+    "locationCode": "MOD",
+    "label": "Modra",
+    "function": "16",
+    "lat": 48.333333,
+    "lng": 17.316667
+  },
+  {
+    "locationCode": "MDK",
+    "label": "Modranka",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "HIL",
+    "label": "Mojmírovce",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Mojmirovce",
+    "function": "13",
+    "lat": 48.216667,
+    "lng": 18.066667
+  },
+  {
+    "locationCode": "MJ7",
+    "label": "Mojs",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.2,
+    "lng": 18.816667
+  },
+  {
+    "locationCode": "MNB",
+    "label": "Moldava Nad Bodvou",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 21
+  },
+  {
+    "locationCode": "MOL",
+    "label": "Moravské Lieskové",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Moravske Lieskove",
+    "function": "3",
+    "lat": 48.816667,
+    "lng": 17.8
+  },
+  {
+    "locationCode": "MSJ",
+    "label": "Moravsky Sväty Ján",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Moravsky Svaty Jan",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "MYJ",
+    "label": "Myjava",
+    "subdivisionCode": "TC",
+    "function": "2"
+  },
+  {
+    "locationCode": "MYV",
+    "label": "Myjava-Vrbovce",
+    "subdivisionCode": "TC",
+    "function": "3"
+  },
+  {
+    "locationCode": "M7L",
+    "label": "Myslina",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.95,
+    "lng": 21.85
+  },
+  {
+    "locationCode": "NSO",
+    "label": "Námestovo",
+    "labelWithDiacritics": "Namestovo",
+    "function": "3",
+    "lat": 49.4,
+    "lng": 19.466667
+  },
+  {
+    "locationCode": "NAN",
+    "label": "Nána",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Nana",
+    "function": "3",
+    "lat": 47.816667,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "NRD",
+    "label": "Narad",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 47.833333,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "NMK",
+    "label": "Nemecká",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Nemecka",
+    "function": "3",
+    "lat": 48.816667,
+    "lng": 19.416667
+  },
+  {
+    "locationCode": "NSV",
+    "label": "Nemsová",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Nemsova",
+    "function": "3",
+    "lat": 48.966667,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "NEN",
+    "label": "Nenince",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.15,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "SVA",
+    "label": "Nesvady",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "NRA",
+    "label": "Nitra",
+    "function": "0"
+  },
+  {
+    "locationCode": "NTB",
+    "label": "Nitrianska Blatnica",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.55,
+    "lng": 17.966667
+  },
+  {
+    "locationCode": "SZU",
+    "label": "Nitrianske Hrnciarovce",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.333333,
+    "lng": 18.133333
+  },
+  {
+    "locationCode": "SZV",
+    "label": "Nitrianske Pravno",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.866667,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "NZA",
+    "label": "Nizná",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Nizna",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "NZZ",
+    "label": "Nizná",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Nizna",
+    "function": "3",
+    "lat": 49.316667,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "NBA",
+    "label": "Nová Bana",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Nova Bana",
+    "function": "36",
+    "lat": 48.433333,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "NOB",
+    "label": "Nova Bosaca",
+    "subdivisionCode": "TC",
+    "function": "3"
+  },
+  {
+    "locationCode": "NOY",
+    "label": "Nova Bystrica",
+    "function": "3",
+    "lat": 49.35,
+    "lng": 19.016667
+  },
+  {
+    "locationCode": "NDD",
+    "label": "Nová Dedinka",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Nova Dedinka",
+    "function": "3",
+    "lat": 48.183333,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "NDN",
+    "label": "Nova Dubnica",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.95,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "SYC",
+    "label": "Nova Straz",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 47.766667,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "NVV",
+    "label": "Nová Ves",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Nova Ves",
+    "function": "3",
+    "lat": 48.166667,
+    "lng": 19.366667
+  },
+  {
+    "locationCode": "NVE",
+    "label": "Nová Ves",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Nova Ves",
+    "function": "3",
+    "lat": 49.033333,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "NVZ",
+    "label": "Nova Ves Nad Zitavou",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.283333,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "NKY",
+    "label": "Nováky",
+    "labelWithDiacritics": "Novaky",
+    "function": "3",
+    "lat": 48.716667,
+    "lng": 18.55
+  },
+  {
+    "locationCode": "NMV",
+    "label": "Nové Mesto nad Váhom",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Nove Mesto nad Vahom",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "NSA",
+    "label": "Nové Sady",
+    "labelWithDiacritics": "Nove Sady",
+    "function": "3",
+    "lat": 48.4,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "NOV",
+    "label": "Nové Zámky",
+    "labelWithDiacritics": "Nove Zamky",
+    "function": "3",
+    "lat": 47.983333,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "NVA",
+    "label": "Novosad",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 21.733333
+  },
+  {
+    "locationCode": "OKO",
+    "label": "Okoc",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 47.883333,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "ORJ",
+    "label": "Oravska Jasenica",
+    "function": "3",
+    "lat": 49.65,
+    "lng": 19.716667
+  },
+  {
+    "locationCode": "P3L",
+    "label": "Oravská Lesná",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Oravska Lesna",
+    "function": "3",
+    "lat": 49.383333,
+    "lng": 19.183333
+  },
+  {
+    "locationCode": "ORP",
+    "label": "Oravská Polhora",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Oravska Polhora",
+    "function": "3",
+    "lat": 49.516667,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "OVE",
+    "label": "Oravské Veselé",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Oravske Vesele",
+    "function": "3",
+    "lat": 49.466667,
+    "lng": 19.383333
+  },
+  {
+    "locationCode": "S4G",
+    "label": "Oravsky Podzamok",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.266667,
+    "lng": 19.366667
+  },
+  {
+    "locationCode": "OLV",
+    "label": "Orlov",
+    "function": "3",
+    "lat": 49.283333,
+    "lng": 20.866667
+  },
+  {
+    "locationCode": "OCD",
+    "label": "Oscadnica",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.433333,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "SZW",
+    "label": "Oslany",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.633333,
+    "lng": 18.466667
+  },
+  {
+    "locationCode": "OST",
+    "label": "Ostrov",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "PKV",
+    "label": "Palarikovo",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 18.066667
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palota",
+    "subdivisionCode": "PV",
+    "function": "2"
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Pana",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 18.233333
+  },
+  {
+    "locationCode": "PAP",
+    "label": "Papradno",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.233333,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Partizánske",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Partizanske",
+    "function": "236",
+    "lat": 48.633333,
+    "lng": 18.383333
+  },
+  {
+    "locationCode": "PTV",
+    "label": "Petrovany",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 48.916667,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "BRP",
+    "label": "Petrzalka/Bratislava",
+    "subdivisionCode": "BL",
+    "function": "3"
+  },
+  {
+    "locationCode": "PZK",
+    "label": "Pezinok",
+    "function": "3"
+  },
+  {
+    "locationCode": "PZY",
+    "label": "Piestany",
+    "function": "4"
+  },
+  {
+    "locationCode": "SYB",
+    "label": "Plave Vozokany",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.066667,
+    "lng": 18.483333
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Plavec",
+    "subdivisionCode": "PV",
+    "function": "2"
+  },
+  {
+    "locationCode": "PLE",
+    "label": "Plesivec",
+    "subdivisionCode": "KI",
+    "function": "23",
+    "lat": 48.55,
+    "lng": 20.4
+  },
+  {
+    "locationCode": "POB",
+    "label": "Podbrezová",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Podbrezova",
+    "function": "23",
+    "lat": 48.816667,
+    "lng": 19.533333
+  },
+  {
+    "locationCode": "PHJ",
+    "label": "Podhajska",
+    "subdivisionCode": "NI",
+    "function": "36",
+    "lat": 48.1,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "PDC",
+    "label": "Podolinec",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49.25,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "POD",
+    "label": "Podspady",
+    "subdivisionCode": "PV",
+    "function": "3"
+  },
+  {
+    "locationCode": "PDT",
+    "label": "Podturen",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 19.7
+  },
+  {
+    "locationCode": "POM",
+    "label": "Podzavoz (Milosova)",
+    "subdivisionCode": "ZI",
+    "function": "3"
+  },
+  {
+    "locationCode": "PPH",
+    "label": "Pohronska Polhora",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 19.8
+  },
+  {
+    "locationCode": "PRV",
+    "label": "Pohronsky Ruskov",
+    "subdivisionCode": "NI",
+    "function": "3"
+  },
+  {
+    "locationCode": "PLK",
+    "label": "Polomka",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.85,
+    "lng": 19.85
+  },
+  {
+    "locationCode": "PLT",
+    "label": "Poltár",
+    "labelWithDiacritics": "Poltar",
+    "function": "23",
+    "lat": 48.433333,
+    "lng": 19.8
+  },
+  {
+    "locationCode": "POP",
+    "label": "Poprad",
+    "subdivisionCode": "PV",
+    "function": "1",
+    "lat": 49.05,
+    "lng": 20.3
+  },
+  {
+    "locationCode": "TAT",
+    "label": "Poprad/Tatry",
+    "subdivisionCode": "PV",
+    "function": "4"
+  },
+  {
+    "locationCode": "POR",
+    "label": "Poriadie",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.766667,
+    "lng": 17.6
+  },
+  {
+    "locationCode": "PVR",
+    "label": "Potvorice",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "PVZ",
+    "label": "Povazany",
+    "function": "3",
+    "lat": 48.483333,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "PBY",
+    "label": "Povazská Bystrica",
+    "labelWithDiacritics": "Povazska Bystrica",
+    "function": "236",
+    "lat": 49.1,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "PLB",
+    "label": "Praha",
+    "subdivisionCode": "BC",
+    "function": "1",
+    "lat": 48.366667,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "PRA",
+    "label": "Prakovce",
+    "subdivisionCode": "KI",
+    "function": "6",
+    "lat": 48.816667,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "SZX",
+    "label": "Pravenec",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.85,
+    "lng": 18.65
+  },
+  {
+    "locationCode": "RIC",
+    "label": "Precin",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "PRD",
+    "label": "Predmier",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.2,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "POV",
+    "label": "Presov",
+    "function": "4"
+  },
+  {
+    "locationCode": "SYA",
+    "label": "Pribenik",
+    "subdivisionCode": "KI",
+    "function": "6",
+    "lat": 48.383333,
+    "lng": 22
+  },
+  {
+    "locationCode": "PRI",
+    "label": "Pribeta",
+    "subdivisionCode": "NI",
+    "function": "3"
+  },
+  {
+    "locationCode": "PVO",
+    "label": "Príbovce",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Pribovce",
+    "function": "3",
+    "lat": 49,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "PZA",
+    "label": "Prievidza",
+    "function": "23",
+    "lat": 48.766667,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "4PB",
+    "label": "Prochot",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.6,
+    "lng": 18.716667
+  },
+  {
+    "locationCode": "PRS",
+    "label": "Pruské",
+    "labelWithDiacritics": "Pruske",
+    "function": "3",
+    "lat": 49.016667,
+    "lng": 18.216667
+  },
+  {
+    "locationCode": "PCV",
+    "label": "Púchov",
+    "labelWithDiacritics": "Puchov",
+    "function": "3",
+    "lat": 49.133333,
+    "lng": 18.333333
+  },
+  {
+    "locationCode": "PUU",
+    "label": "Pusté Úlany",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Puste Ulany",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Radzovce",
+    "function": "23",
+    "lat": 48.216667,
+    "lng": 19.833333
+  },
+  {
+    "locationCode": "RRK",
+    "label": "Rajec",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "TEL",
+    "label": "Rajecke Teplice",
+    "subdivisionCode": "ZI",
+    "function": "23",
+    "lat": 49.133333,
+    "lng": 18.683333
+  },
+  {
+    "locationCode": "RKA",
+    "label": "Rakova",
+    "function": "23",
+    "lat": 49.433333,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "RAL",
+    "label": "Raslavice",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.15,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "RAZ",
+    "label": "Raztocno",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.766667,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "REV",
+    "label": "Revúca",
+    "labelWithDiacritics": "Revuca",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 20.116667
+  },
+  {
+    "locationCode": "RST",
+    "label": "Rimavská Sobota",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Rimavska Sobota",
+    "function": "3",
+    "lat": 48.383333,
+    "lng": 20.033333
+  },
+  {
+    "locationCode": "RZY",
+    "label": "Rimavske Zaluzany",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.5,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "XXX",
+    "label": "RIS Inland waterways",
+    "function": "1"
+  },
+  {
+    "locationCode": "RCE",
+    "label": "Risnovce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 17.9
+  },
+  {
+    "locationCode": "SLZ",
+    "label": "Rohoznik",
+    "subdivisionCode": "BL",
+    "function": "6",
+    "lat": 48.466667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "RSA",
+    "label": "Rosina",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.183333,
+    "lng": 18.766667
+  },
+  {
+    "locationCode": "RVK",
+    "label": "Rovinka",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 17.216667
+  },
+  {
+    "locationCode": "RVN",
+    "label": "Rovne",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 17.216667
+  },
+  {
+    "locationCode": "ROZ",
+    "label": "Roznava",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "R4B",
+    "label": "Rúban",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Ruban",
+    "function": "3",
+    "lat": 47.933333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "RDN",
+    "label": "Rudná",
+    "labelWithDiacritics": "Rudna",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "RSV",
+    "label": "Rusovce/Bratislava",
+    "subdivisionCode": "BL",
+    "function": "23"
+  },
+  {
+    "locationCode": "RZK",
+    "label": "Ruzomberok",
+    "function": "236",
+    "lat": 49.066667,
+    "lng": 19.3
+  },
+  {
+    "locationCode": "RYB",
+    "label": "Rybany",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 18.25
+  },
+  {
+    "locationCode": "SAB",
+    "label": "Sabinov",
+    "function": "23",
+    "lat": 49.1,
+    "lng": 21.1
+  },
+  {
+    "locationCode": "K87",
+    "label": "Sady nad Torysou",
+    "subdivisionCode": "KI",
+    "function": "13",
+    "lat": 48.7,
+    "lng": 21.333333
+  },
+  {
+    "locationCode": "SHA",
+    "label": "Sahy",
+    "subdivisionCode": "NI",
+    "function": "3"
+  },
+  {
+    "locationCode": "SJH",
+    "label": "Sajdikove Humence",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.65,
+    "lng": 17.266667
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Sala",
+    "function": "23",
+    "lat": 48.15,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Sala",
+    "function": "36",
+    "lat": 48.033333,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salka",
+    "subdivisionCode": "NI",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZG",
+    "label": "Samorin",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.033333,
+    "lng": 17.316667
+  },
+  {
+    "locationCode": "SEN",
+    "label": "Sankovce",
+    "function": "3",
+    "lat": 48.483333,
+    "lng": 20.266667
+  },
+  {
+    "locationCode": "MLY",
+    "label": "Sarisské Michal'any",
+    "labelWithDiacritics": "Sarisske Michal'any",
+    "function": "3",
+    "lat": 49.066667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Sarkan",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.866667,
+    "lng": 18.566667
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sarovce",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.266667,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "SEB",
+    "label": "Sebedrazie",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.733333,
+    "lng": 18.633333
+  },
+  {
+    "locationCode": "SVC",
+    "label": "Secovce",
+    "function": "36",
+    "lat": 48.7,
+    "lng": 21.65
+  },
+  {
+    "locationCode": "SLP",
+    "label": "Selpice",
+    "function": "3",
+    "lat": 48.433333,
+    "lng": 17.516667
+  },
+  {
+    "locationCode": "SNE",
+    "label": "Senec",
+    "function": "23",
+    "lat": 48.216667,
+    "lng": 17.4
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Senica",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 19.2
+  },
+  {
+    "locationCode": "SEA",
+    "label": "Senica",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "SNC",
+    "label": "Senica, Okres",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 17.366667
+  },
+  {
+    "locationCode": "SKV",
+    "label": "Senkvice",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 17.35
+  },
+  {
+    "locationCode": "SER",
+    "label": "Sered",
+    "function": "3",
+    "lat": 48.283333,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "SIB",
+    "label": "Siatorska Bukovinka",
+    "subdivisionCode": "BC",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLK",
+    "label": "Siladice",
+    "subdivisionCode": "TA",
+    "function": "16",
+    "lat": 48.366667,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "SOV",
+    "label": "Sisov",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.65,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "SKA",
+    "label": "Skalica",
+    "subdivisionCode": "TA",
+    "function": "23"
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Skalité",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Skalite",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKZ",
+    "label": "Skalité-Zwardon",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Skalite-Zwardon",
+    "function": "2"
+  },
+  {
+    "locationCode": "SLV",
+    "label": "Sládkovicovo",
+    "labelWithDiacritics": "Sladkovicovo",
+    "function": "23",
+    "lat": 48.2,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "S8M",
+    "label": "Slanské Nové Mesto",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Slanske Nove Mesto",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 21.533333
+  },
+  {
+    "locationCode": "VEC",
+    "label": "Slavec",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 20.483333
+  },
+  {
+    "locationCode": "SLC",
+    "label": "Slavosovce",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.716667,
+    "lng": 20.283333
+  },
+  {
+    "locationCode": "SLD",
+    "label": "Sliac",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLO",
+    "label": "Slovenská Lupca",
+    "labelWithDiacritics": "Slovenska Lupca",
+    "function": "23",
+    "lat": 48.766667,
+    "lng": 19.283333
+  },
+  {
+    "locationCode": "SDA",
+    "label": "Slovenske Darmoty",
+    "subdivisionCode": "BC",
+    "function": "3"
+  },
+  {
+    "locationCode": "SSA",
+    "label": "Slovenské Nové Mesto",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Slovenske Nove Mesto",
+    "function": "23"
+  },
+  {
+    "locationCode": "SZY",
+    "label": "Smizany",
+    "function": "3",
+    "lat": 48.966667,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "SMO",
+    "label": "Smolenice",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.5,
+    "lng": 17.433333
+  },
+  {
+    "locationCode": "SNA",
+    "label": "Snina",
+    "function": "23",
+    "lat": 48.966667,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "SOB",
+    "label": "Sobrance",
+    "function": "3",
+    "lat": 48.75,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "SOK",
+    "label": "Sokolce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.85,
+    "lng": 17.833333
+  },
+  {
+    "locationCode": "SKC",
+    "label": "Sokolovce",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.533333,
+    "lng": 17.85
+  },
+  {
+    "locationCode": "SOP",
+    "label": "Soporna",
+    "function": "3",
+    "lat": 48.25,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "SPC",
+    "label": "Spacince",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.433333,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "2BA",
+    "label": "Spisska Bela",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.183333,
+    "lng": 20.466667
+  },
+  {
+    "locationCode": "SNV",
+    "label": "Spisská Nová Ves",
+    "labelWithDiacritics": "Spisska Nova Ves",
+    "function": "3",
+    "lat": 48.95,
+    "lng": 20.566667
+  },
+  {
+    "locationCode": "SSV",
+    "label": "Spisská Stará Ves",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Spisska Stara Ves",
+    "function": "6",
+    "lat": 49.366667,
+    "lng": 20.35
+  },
+  {
+    "locationCode": "SPR",
+    "label": "Spisske Podhradie",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 49,
+    "lng": 20.75
+  },
+  {
+    "locationCode": "SHY",
+    "label": "Spisske Vlachy",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.95,
+    "lng": 20.8
+  },
+  {
+    "locationCode": "DF4",
+    "label": "Spisský Stiavnik",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Spissky Stiavnik",
+    "function": "13",
+    "lat": 49,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "SVR",
+    "label": "Srvcinovec",
+    "subdivisionCode": "ZI",
+    "function": "3"
+  },
+  {
+    "locationCode": "SLB",
+    "label": "Stará Lubovna",
+    "labelWithDiacritics": "Stara Lubovna",
+    "function": "3",
+    "lat": 49.3,
+    "lng": 20.7
+  },
+  {
+    "locationCode": "STA",
+    "label": "Stará Turá",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Stara Tura",
+    "function": "23",
+    "lat": 48.783333,
+    "lng": 17.7
+  },
+  {
+    "locationCode": "STV",
+    "label": "Staskov",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.416667,
+    "lng": 18.7
+  },
+  {
+    "locationCode": "STE",
+    "label": "Stefanov",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 17.2
+  },
+  {
+    "locationCode": "ZSK",
+    "label": "Strázske",
+    "labelWithDiacritics": "Strazske",
+    "function": "23",
+    "lat": 48.866667,
+    "lng": 21.833333
+  },
+  {
+    "locationCode": "STR",
+    "label": "Strba",
+    "function": "23",
+    "lat": 49.066667,
+    "lng": 20.083333
+  },
+  {
+    "locationCode": "SBP",
+    "label": "Strbské Pleso",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Strbske Pleso",
+    "function": "36",
+    "lat": 49.116667,
+    "lng": 20.05
+  },
+  {
+    "locationCode": "SEC",
+    "label": "Strecno",
+    "subdivisionCode": "ZI",
+    "function": "35",
+    "lat": 49.183333,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "REK",
+    "label": "Strekov",
+    "subdivisionCode": "NI",
+    "function": "23",
+    "lat": 47.9,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "SPV",
+    "label": "Stropkov",
+    "function": "3"
+  },
+  {
+    "locationCode": "SPA",
+    "label": "Stupava",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 17.016667
+  },
+  {
+    "locationCode": "SRA",
+    "label": "Stúrovo",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Sturovo",
+    "function": "23",
+    "lat": 47.8,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "SCY",
+    "label": "Sucany",
+    "function": "3",
+    "lat": 49.1,
+    "lng": 19
+  },
+  {
+    "locationCode": "SUH",
+    "label": "Suchá Hora",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Sucha Hora",
+    "function": "3",
+    "lat": 49.366667,
+    "lng": 19.8
+  },
+  {
+    "locationCode": "SUC",
+    "label": "Sumiac",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.85,
+    "lng": 20.133333
+  },
+  {
+    "locationCode": "SUR",
+    "label": "Surany",
+    "subdivisionCode": "NI",
+    "function": "23",
+    "lat": 48.083333,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "SUI",
+    "label": "Surianky",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.433333,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "SU2",
+    "label": "Surice",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.233333,
+    "lng": 91.916667
+  },
+  {
+    "locationCode": "SVJ",
+    "label": "Svaty Jur",
+    "subdivisionCode": "BL",
+    "function": "6",
+    "lat": 48.25,
+    "lng": 17.05
+  },
+  {
+    "locationCode": "SVK",
+    "label": "Svidník",
+    "labelWithDiacritics": "Svidnik",
+    "function": "3",
+    "lat": 49.3,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "SVI",
+    "label": "Svinna",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.783333,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "SVT",
+    "label": "Svit",
+    "subdivisionCode": "PV",
+    "function": "3"
+  },
+  {
+    "locationCode": "SZM",
+    "label": "Svodin",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 47.916667,
+    "lng": 18.5
+  },
+  {
+    "locationCode": "TAJ",
+    "label": "Tajna",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.266667,
+    "lng": 18.366667
+  },
+  {
+    "locationCode": "TEP",
+    "label": "Teplicka nad Vahom",
+    "subdivisionCode": "ZI",
+    "function": "16",
+    "lat": 49.233333,
+    "lng": 18.8
+  },
+  {
+    "locationCode": "TER",
+    "label": "Terchová",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Terchova",
+    "function": "3",
+    "lat": 49.266667,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "NTM",
+    "label": "Tesárske Mlynany",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Tesarske Mlynany",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 18.35
+  },
+  {
+    "locationCode": "TIS",
+    "label": "Tisovec",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 19.933333
+  },
+  {
+    "locationCode": "TLM",
+    "label": "Tlmace",
+    "function": "13",
+    "lat": 48.283333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "TKV",
+    "label": "Tomásikovo",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Tomasikovo",
+    "function": "36",
+    "lat": 48.083333,
+    "lng": 17.7
+  },
+  {
+    "locationCode": "TOM",
+    "label": "Tomásov",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Tomasov",
+    "function": "3",
+    "lat": 48.133333,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "TOE",
+    "label": "Tomásovce",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Tomasovce",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 19.616667
+  },
+  {
+    "locationCode": "TON",
+    "label": "Ton",
+    "subdivisionCode": "NI",
+    "function": "3"
+  },
+  {
+    "locationCode": "TCY",
+    "label": "Topol'cany",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.566667,
+    "lng": 18.183333
+  },
+  {
+    "locationCode": "SZD",
+    "label": "Topolcianky",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.416667,
+    "lng": 18.416667
+  },
+  {
+    "locationCode": "TOP",
+    "label": "Topolnica",
+    "subdivisionCode": "TA",
+    "function": "6"
+  },
+  {
+    "locationCode": "TKY",
+    "label": "Topolníky",
+    "labelWithDiacritics": "Topolniky",
+    "function": "6",
+    "lat": 47.966667,
+    "lng": 17.783333
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Tornala",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.416667,
+    "lng": 20.333333
+  },
+  {
+    "locationCode": "TVY",
+    "label": "Tovarniky",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.566667,
+    "lng": 18.15
+  },
+  {
+    "locationCode": "TRK",
+    "label": "Trakovice",
+    "function": "36",
+    "lat": 48.433333,
+    "lng": 170.7
+  },
+  {
+    "locationCode": "TBC",
+    "label": "Trebatice",
+    "subdivisionCode": "PV",
+    "function": "6",
+    "lat": 48.6,
+    "lng": 174.833333
+  },
+  {
+    "locationCode": "TRB",
+    "label": "Trebiaov",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.633333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "TEB",
+    "label": "Trebisov",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "TRT",
+    "label": "Trencianska Teplá",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Trencianska Tepla",
+    "function": "2",
+    "lat": 48.933333,
+    "lng": 18.116667
+  },
+  {
+    "locationCode": "TRA",
+    "label": "Trencianska Turná",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Trencianska Turna",
+    "function": "3",
+    "lat": 48.85,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "TTA",
+    "label": "Trencianska Turná",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Trencianska Turna",
+    "function": "3",
+    "lat": 48.85,
+    "lng": 18.016667
+  },
+  {
+    "locationCode": "TBE",
+    "label": "Trencianske Bohuslavice",
+    "subdivisionCode": "TC",
+    "function": "13"
+  },
+  {
+    "locationCode": "TSK",
+    "label": "Trencianske Stankovce",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.833333,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "TST",
+    "label": "Trencianske Teplice",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.9,
+    "lng": 18.166667
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Trencín",
+    "labelWithDiacritics": "Trencin",
+    "function": "3",
+    "lat": 48.883333,
+    "lng": 18.05
+  },
+  {
+    "locationCode": "TRH",
+    "label": "Trhoviste",
+    "function": "3",
+    "lat": 48.7,
+    "lng": 21.816667
+  },
+  {
+    "locationCode": "TNA",
+    "label": "Trnava",
+    "subdivisionCode": "TA",
+    "function": "123",
+    "lat": 48.366667,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "TPL",
+    "label": "Trnava pri Laborci",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.816667,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "TSA",
+    "label": "Trstena",
+    "subdivisionCode": "ZI",
+    "function": "3"
+  },
+  {
+    "locationCode": "TTE",
+    "label": "Trstice",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "TRS",
+    "label": "Trstín",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Trstin",
+    "function": "3",
+    "lat": 48.516667,
+    "lng": 17.45
+  },
+  {
+    "locationCode": "SZB",
+    "label": "Tupa",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.116667,
+    "lng": 18.9
+  },
+  {
+    "locationCode": "TNY",
+    "label": "Turany",
+    "function": "3",
+    "lat": 49.116667,
+    "lng": 19.033333
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Turcianske Teplice",
+    "subdivisionCode": "ZI",
+    "function": "13",
+    "lat": 48.866667,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "TNB",
+    "label": "Turna Nad Bodvou",
+    "subdivisionCode": "KI",
+    "function": "3",
+    "lat": 48.6,
+    "lng": 20.866667
+  },
+  {
+    "locationCode": "TNV",
+    "label": "Turnianska Nová Ves",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Turnianska Nova Ves",
+    "function": "3",
+    "lat": 48.583333,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "TVR",
+    "label": "Tvrdosin",
+    "function": "6",
+    "lat": 49.333333,
+    "lng": 19.566667
+  },
+  {
+    "locationCode": "TVE",
+    "label": "Tvrdosovce",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.1,
+    "lng": 18.066667
+  },
+  {
+    "locationCode": "UBL",
+    "label": "Ubla",
+    "subdivisionCode": "PV",
+    "function": "3"
+  },
+  {
+    "locationCode": "VOC",
+    "label": "Vadovce",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.733333,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "DXZ",
+    "label": "Valaska",
+    "subdivisionCode": "BC",
+    "function": "13",
+    "lat": 48.816667,
+    "lng": 19.583333
+  },
+  {
+    "locationCode": "VRN",
+    "label": "Varín",
+    "labelWithDiacritics": "Varin",
+    "function": "23",
+    "lat": 49.2,
+    "lng": 18.883333
+  },
+  {
+    "locationCode": "VEK",
+    "label": "Vefky Kamenec, Pacin",
+    "subdivisionCode": "KI",
+    "function": "3"
+  },
+  {
+    "locationCode": "VLA",
+    "label": "Velicná",
+    "labelWithDiacritics": "Velicna",
+    "function": "23",
+    "lat": 49.2,
+    "lng": 19.25
+  },
+  {
+    "locationCode": "VLD",
+    "label": "Vel'Ká Ida",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Vel'Ka Ida",
+    "function": "3",
+    "lat": 48.6,
+    "lng": 21.166667
+  },
+  {
+    "locationCode": "VLN",
+    "label": "Velká Lomnica",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Velka Lomnica",
+    "function": "6",
+    "lat": 49.116667,
+    "lng": 20.366667
+  },
+  {
+    "locationCode": "VEP",
+    "label": "Velká Paka",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Velka Paka",
+    "function": "3",
+    "lat": 48.033333,
+    "lng": 17.4
+  },
+  {
+    "locationCode": "VBC",
+    "label": "Velke Bierovce",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.85,
+    "lng": 176.5
+  },
+  {
+    "locationCode": "VKB",
+    "label": "Vel'Ke Bierovce",
+    "subdivisionCode": "TC",
+    "function": "6",
+    "lat": 48.85,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "VEL",
+    "label": "Velke Blahovo",
+    "function": "6",
+    "lat": 48.016667,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "VKP",
+    "label": "Velké Kapusany",
+    "labelWithDiacritics": "Velke Kapusany",
+    "function": "23",
+    "lat": 48.55,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "VLK",
+    "label": "Vel'Ke Kosihy",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.766667,
+    "lng": 17.883333
+  },
+  {
+    "locationCode": "VKO",
+    "label": "Vel'ké Kostol'any",
+    "labelWithDiacritics": "Vel'ke Kostol'any",
+    "function": "3",
+    "lat": 48.5,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "VKL",
+    "label": "Velké Leváre",
+    "labelWithDiacritics": "Velke Levare",
+    "function": "3",
+    "lat": 48.5,
+    "lng": 17
+  },
+  {
+    "locationCode": "VTY",
+    "label": "Velke Ripnany",
+    "subdivisionCode": "NI",
+    "function": "36",
+    "lat": 48.5,
+    "lng": 17.983333
+  },
+  {
+    "locationCode": "VKR",
+    "label": "Vel'Ke Rovne",
+    "subdivisionCode": "ZI",
+    "function": "6",
+    "lat": 49.3,
+    "lng": 18.583333
+  },
+  {
+    "locationCode": "VSC",
+    "label": "Velké Slemence",
+    "labelWithDiacritics": "Velke Slemence",
+    "function": "3",
+    "lat": 48.516667,
+    "lng": 22.15
+  },
+  {
+    "locationCode": "VUE",
+    "label": "Velké Uherce",
+    "subdivisionCode": "TC",
+    "labelWithDiacritics": "Velke Uherce",
+    "function": "3",
+    "lat": 48.6,
+    "lng": 18.433333
+  },
+  {
+    "locationCode": "VZZ",
+    "label": "Vel'ké Záluzie",
+    "subdivisionCode": "NI",
+    "labelWithDiacritics": "Vel'ke Zaluzie",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 17.95
+  },
+  {
+    "locationCode": "VZK",
+    "label": "Vel'ké Zlievce",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Vel'ke Zlievce",
+    "function": "16",
+    "lat": 48.2,
+    "lng": 19.45
+  },
+  {
+    "locationCode": "VKS",
+    "label": "Velký Krtís",
+    "labelWithDiacritics": "Velky Krtis",
+    "function": "3",
+    "lat": 48.216667,
+    "lng": 19.333333
+  },
+  {
+    "locationCode": "VMD",
+    "label": "Velky Meder",
+    "function": "236",
+    "lat": 47.85,
+    "lng": 17.766667
+  },
+  {
+    "locationCode": "VYS",
+    "label": "Velky Saris",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 49.05,
+    "lng": 21.2
+  },
+  {
+    "locationCode": "VES",
+    "label": "Veselé",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Vesele",
+    "function": "3",
+    "lat": 48.55,
+    "lng": 17.733333
+  },
+  {
+    "locationCode": "VIE",
+    "label": "Vieska",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48,
+    "lng": 17.533333
+  },
+  {
+    "locationCode": "VIG",
+    "label": "Viglas",
+    "function": "3",
+    "lat": 48.566667,
+    "lng": 19.3
+  },
+  {
+    "locationCode": "VHR",
+    "label": "Vinohrady",
+    "subdivisionCode": "BL",
+    "function": "6",
+    "lat": 48.15,
+    "lng": 17.1
+  },
+  {
+    "locationCode": "HRA",
+    "label": "Vinohrady nad Váhom",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Vinohrady nad Vahom",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 17.75
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vinosady",
+    "subdivisionCode": "BL",
+    "function": "6",
+    "lat": 45.3,
+    "lng": 17.283333
+  },
+  {
+    "locationCode": "VNV",
+    "label": "Visnové",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Visnove",
+    "function": "3",
+    "lat": 49.166667,
+    "lng": 18.783333
+  },
+  {
+    "locationCode": "VIT",
+    "label": "Vistuk",
+    "subdivisionCode": "BL",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "VHY",
+    "label": "Vlachy",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 19.483333
+  },
+  {
+    "locationCode": "VLY",
+    "label": "Vlcany",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.016667,
+    "lng": 17.933333
+  },
+  {
+    "locationCode": "VVC",
+    "label": "Vlckovce",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 17.65
+  },
+  {
+    "locationCode": "VNA",
+    "label": "Vlkanová",
+    "labelWithDiacritics": "Vlkanova",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 19.15
+  },
+  {
+    "locationCode": "VRD",
+    "label": "Voderady",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 48.283333,
+    "lng": 17.566667
+  },
+  {
+    "locationCode": "VBE",
+    "label": "Vráble",
+    "labelWithDiacritics": "Vrable",
+    "function": "3",
+    "lat": 48.25,
+    "lng": 18.316667
+  },
+  {
+    "locationCode": "VKN",
+    "label": "Vrakun",
+    "subdivisionCode": "TA",
+    "function": "6",
+    "lat": 47.95,
+    "lng": 17.6
+  },
+  {
+    "locationCode": "VRA",
+    "label": "Vranov nad Toplou",
+    "subdivisionCode": "PV",
+    "function": "3",
+    "lat": 48.9,
+    "lng": 21.683333
+  },
+  {
+    "locationCode": "VBO",
+    "label": "Vrbové",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Vrbove",
+    "function": "3",
+    "lat": 48.616667,
+    "lng": 17.716667
+  },
+  {
+    "locationCode": "VKY",
+    "label": "Vrutky",
+    "function": "6",
+    "lat": 49.116667,
+    "lng": 18.916667
+  },
+  {
+    "locationCode": "VDY",
+    "label": "Vydrany",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.016667,
+    "lng": 17.583333
+  },
+  {
+    "locationCode": "VY2",
+    "label": "Vyhne",
+    "subdivisionCode": "BC",
+    "function": "3",
+    "lat": 48.5,
+    "lng": 18.8
+  },
+  {
+    "locationCode": "VJB",
+    "label": "Vysná Jablonka",
+    "labelWithDiacritics": "Vysna Jablonka",
+    "function": "3",
+    "lat": 49.15,
+    "lng": 22.1
+  },
+  {
+    "locationCode": "VYN",
+    "label": "Vysné Nemecké",
+    "subdivisionCode": "KI",
+    "labelWithDiacritics": "Vysne Nemecke",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 22.266667
+  },
+  {
+    "locationCode": "VSK",
+    "label": "Vysny Komárnik",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Vysny Komarnik",
+    "function": "3",
+    "lat": 49.4,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "ZI4",
+    "label": "Vysný Kubín",
+    "subdivisionCode": "ZI",
+    "labelWithDiacritics": "Vysny Kubin",
+    "function": "3",
+    "lat": 49.183333,
+    "lng": 19.316667
+  },
+  {
+    "locationCode": "VPM",
+    "label": "Vysoká pri Morave",
+    "subdivisionCode": "BL",
+    "labelWithDiacritics": "Vysoka pri Morave",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 16.916667
+  },
+  {
+    "locationCode": "VYY",
+    "label": "Vysoké Tatry",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Vysoke Tatry",
+    "function": "3",
+    "lat": 49.133333,
+    "lng": 20.216667
+  },
+  {
+    "locationCode": "ZAB",
+    "label": "Záborské",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Zaborske",
+    "function": "3",
+    "lat": 48.95,
+    "lng": 21.3
+  },
+  {
+    "locationCode": "ZZH",
+    "label": "Záhradné",
+    "subdivisionCode": "PV",
+    "labelWithDiacritics": "Zahradne",
+    "function": "3",
+    "lat": 49.083333,
+    "lng": 21.266667
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Zarnovica",
+    "subdivisionCode": "BC",
+    "function": "6",
+    "lat": 48.483333,
+    "lng": 18.733333
+  },
+  {
+    "locationCode": "ZDA",
+    "label": "Závada",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Zavada",
+    "function": "3",
+    "lat": 48.3,
+    "lng": 19.483333
+  },
+  {
+    "locationCode": "ZHM",
+    "label": "Závadka nad Hronom",
+    "subdivisionCode": "BC",
+    "labelWithDiacritics": "Zavadka nad Hronom",
+    "function": "3",
+    "lat": 48.85,
+    "lng": 19.916667
+  },
+  {
+    "locationCode": "ZAV",
+    "label": "Zavar",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.35,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "SZA",
+    "label": "Zavazna Poruba",
+    "subdivisionCode": "ZI",
+    "function": "6",
+    "lat": 49.066667,
+    "lng": 19.65
+  },
+  {
+    "locationCode": "ZBE",
+    "label": "Zbehy",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 48.366667,
+    "lng": 18.033333
+  },
+  {
+    "locationCode": "ZBY",
+    "label": "Zbehy",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.666667,
+    "lng": 17.683333
+  },
+  {
+    "locationCode": "EEC",
+    "label": "Zelenec",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 17.6
+  },
+  {
+    "locationCode": "ZEL",
+    "label": "Zeliezovce",
+    "function": "3",
+    "lat": 48.05,
+    "lng": 18.666667
+  },
+  {
+    "locationCode": "ZMO",
+    "label": "Zemianska Olca",
+    "subdivisionCode": "NI",
+    "function": "3",
+    "lat": 47.8,
+    "lng": 17.866667
+  },
+  {
+    "locationCode": "ZKL",
+    "label": "Zemianske Kostolany",
+    "subdivisionCode": "TC",
+    "function": "3",
+    "lat": 48.683333,
+    "lng": 18.533333
+  },
+  {
+    "locationCode": "ZMS",
+    "label": "Zemianske Sady",
+    "subdivisionCode": "TA",
+    "function": "3",
+    "lat": 48.333333,
+    "lng": 17.816667
+  },
+  {
+    "locationCode": "ZIA",
+    "label": "Ziar nad Hronom",
+    "function": "123",
+    "lat": 48.583333,
+    "lng": 18.866667
+  },
+  {
+    "locationCode": "ILZ",
+    "label": "Zilina",
+    "function": "45"
+  },
+  {
+    "locationCode": "ZVE",
+    "label": "Zitavce",
+    "subdivisionCode": "NI",
+    "function": "6",
+    "lat": 48.2,
+    "lng": 18.3
+  },
+  {
+    "locationCode": "ZSY",
+    "label": "Zlaté Klasy",
+    "subdivisionCode": "TA",
+    "labelWithDiacritics": "Zlate Klasy",
+    "function": "3",
+    "lat": 48.116667,
+    "lng": 17.416667
+  },
+  {
+    "locationCode": "ZLM",
+    "label": "Zlaté Moravce",
+    "labelWithDiacritics": "Zlate Moravce",
+    "function": "23",
+    "lat": 48.383333,
+    "lng": 18.4
+  },
+  {
+    "locationCode": "ZHR",
+    "label": "Zohor",
+    "function": "23",
+    "lat": 48.316667,
+    "lng": 16.983333
+  },
+  {
+    "locationCode": "ZRC",
+    "label": "Zuberec",
+    "function": "3",
+    "lat": 49.25,
+    "lng": 19.6
+  },
+  {
+    "locationCode": "ZBH",
+    "label": "Zubrohlava",
+    "subdivisionCode": "ZI",
+    "function": "3",
+    "lat": 49.45,
+    "lng": 19.516667
+  },
+  {
+    "locationCode": "ZVN",
+    "label": "Zvolen",
+    "subdivisionCode": "BC",
+    "function": "23",
+    "lat": 48.583333,
+    "lng": 19.133333
+  },
+  {
+    "locationCode": "ZSL",
+    "label": "Zvolenská Slatina",
+    "labelWithDiacritics": "Zvolenska Slatina",
+    "function": "23",
+    "lat": 48.566667,
+    "lng": 19.266667
+  },
+  {
+    "locationCode": "ZVO",
+    "label": "Zvoncín",
+    "labelWithDiacritics": "Zvoncin",
+    "function": "6",
+    "lat": 48.4,
+    "lng": 17.5
+  }
+]

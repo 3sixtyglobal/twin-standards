@@ -3,72 +3,75 @@
 > `const` **VCardPropertyType**: `object`
 
 Common VCard property types.
-Based on http://www.w3.org/2006/vcard/ns#
 
-## Type declaration
+## Type Declaration
 
-### FormattedName
+### FormattedName {#formattedname}
 
 > `readonly` **FormattedName**: `"fn"` = `"fn"`
 
 Formatted name
 
-### Email
+### Email {#email}
 
 > `readonly` **Email**: `"hasEmail"` = `"hasEmail"`
 
 Email address
 
-### Organization
+### Organization {#organization}
 
 > `readonly` **Organization**: `"Organization"` = `"Organization"`
 
 Organization type
 
-### Group
+### Group {#group}
 
 > `readonly` **Group**: `"Group"` = `"Group"`
 
 Group type
 
-### Individual
+### Individual {#individual}
 
 > `readonly` **Individual**: `"Individual"` = `"Individual"`
 
 Individual type
 
-### Address
+### Address {#address}
 
 > `readonly` **Address**: `"Address"` = `"Address"`
 
 Address
 
-### Phone
+### Phone {#phone}
 
 > `readonly` **Phone**: `"hasTelephone"` = `"hasTelephone"`
 
 Phone number
 
-### Url
+### Url {#url}
 
 > `readonly` **Url**: `"hasUrl"` = `"hasUrl"`
 
 URL
 
-### Nickname
+### Nickname {#nickname}
 
 > `readonly` **Nickname**: `"nickname"` = `"nickname"`
 
 Nickname
 
-### Birthday
+### Birthday {#birthday}
 
 > `readonly` **Birthday**: `"bday"` = `"bday"`
 
 Birthday
 
-### Photo
+### Photo {#photo}
 
 > `readonly` **Photo**: `"hasPhoto"` = `"hasPhoto"`
 
 Photo
+
+## See
+
+http://www.w3.org/2006/vcard/ns#

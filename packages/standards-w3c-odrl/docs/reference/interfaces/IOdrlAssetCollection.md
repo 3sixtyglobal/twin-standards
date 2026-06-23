@@ -3,20 +3,17 @@
 Interface for ODRL Asset Collections.
 An AssetCollection is a single resource representing a set of member resources,
 where all members of the set will be the subject of the Rule.
+https://www.w3.org/TR/odrl-model/#asset
 
 ## Extends
 
 - [`IOdrlAsset`](IOdrlAsset.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 The unique identifier for the asset.
 Should be an IRI.
@@ -27,9 +24,9 @@ Should be an IRI.
 
 ***
 
-### @type?
+### @type? {#type}
 
-> `optional` **@type**: `string`
+> `optional` **@type?**: `string`
 
 The type of the asset.
 Can be used to specify additional type information.
@@ -40,9 +37,9 @@ Can be used to specify additional type information.
 
 ***
 
-### partOf?
+### partOf? {#partof}
 
-> `optional` **partOf**: `string` \| `IOdrlAssetCollection`
+> `optional` **partOf?**: `ObjectOrArray`\<`string` \| `IOdrlAssetCollection`\>
 
 Reference to the asset collection this asset is part of.
 Used to identify an AssetCollection that this Asset is a member of.
@@ -53,9 +50,9 @@ Used to identify an AssetCollection that this Asset is a member of.
 
 ***
 
-### hasPolicy?
+### hasPolicy? {#haspolicy}
 
-> `optional` **hasPolicy**: `string`
+> `optional` **hasPolicy?**: `ObjectOrArray`\<`string`\>
 
 Reference to the policy that governs this asset.
 Used to identify the Policy that governs this Asset.
@@ -66,7 +63,7 @@ Used to identify the Policy that governs this Asset.
 
 ***
 
-### source
+### source {#source}
 
 > **source**: `string`
 
@@ -75,9 +72,9 @@ Must be an IRI that references the AssetCollection.
 
 ***
 
-### refinement?
+### refinement? {#refinement}
 
-> `optional` **refinement**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **refinement?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
 
 Refinements applied to the asset collection.
 Used to specify the refinement context under which to identify individual Asset(s)

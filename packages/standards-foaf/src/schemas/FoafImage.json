@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/foaf/FoafImage",
+	"title": "FoafImage",
+	"description": "A FOAF image.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/foaf/FoafContextType",
+			"description": "The LD Context."
+		},
+		"@type": {
+			"const": "Image",
+			"description": "Type."
+		},
+		"depicts": {
+			"$ref": "https://schema.twindev.org/json-ld/JsonLdNodeObject",
+			"description": "A thing depicted in this representation."
+		},
+		"thumbnail": {
+			"$ref": "https://schema.twindev.org/foaf/FoafImage",
+			"description": "A derived thumbnail image."
+		}
+	},
+	"required": [
+		"@type"
+	],
+	"allOf": [
+		{
+			"$ref": "https://schema.twindev.org/foaf/FoafDocument"
+		}
+	]
+}

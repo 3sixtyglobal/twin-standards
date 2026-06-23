@@ -1,0 +1,37 @@
+[
+  {
+    "code": "01",
+    "label": "Água Grande",
+    "type": "District"
+  },
+  {
+    "code": "02",
+    "label": "Cantagalo",
+    "type": "District"
+  },
+  {
+    "code": "03",
+    "label": "Caué",
+    "type": "District"
+  },
+  {
+    "code": "04",
+    "label": "Lembá",
+    "type": "District"
+  },
+  {
+    "code": "05",
+    "label": "Lobata",
+    "type": "District"
+  },
+  {
+    "code": "06",
+    "label": "Mé-Zóch",
+    "type": "District"
+  },
+  {
+    "code": "P",
+    "label": "Príncipe",
+    "type": "autonomous region"
+  }
+]

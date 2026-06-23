@@ -1,0 +1,82 @@
+[
+  {
+    "code": "02",
+    "label": "Dolnoslaskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "04",
+    "label": "Kujawsko-pomorskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "06",
+    "label": "Lubelskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "08",
+    "label": "Lubuskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "10",
+    "label": "Lódzkie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "12",
+    "label": "Malopolskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "14",
+    "label": "Mazowieckie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "16",
+    "label": "Opolskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "18",
+    "label": "Podkarpackie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "20",
+    "label": "Podlaskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "22",
+    "label": "Pomorskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "24",
+    "label": "Slaskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "26",
+    "label": "Swietokrzyskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "28",
+    "label": "Warminsko-mazurskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "30",
+    "label": "Wielkopolskie",
+    "type": "Voivodship"
+  },
+  {
+    "code": "32",
+    "label": "Zachodniopomorskie",
+    "type": "Voivodship"
+  }
+]

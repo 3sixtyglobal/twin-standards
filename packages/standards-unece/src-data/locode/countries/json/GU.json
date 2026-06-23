@@ -1,0 +1,92 @@
+[
+  {
+    "locationCode": "AGA",
+    "label": "Agana",
+    "function": "3"
+  },
+  {
+    "locationCode": "APR",
+    "label": "Apra (Agana)",
+    "function": "1"
+  },
+  {
+    "locationCode": "BRR",
+    "label": "Barrigada",
+    "function": "16",
+    "lat": 13.466667,
+    "lng": 144.783333
+  },
+  {
+    "locationCode": "DED",
+    "label": "Dededo",
+    "function": "3"
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Guam",
+    "function": "145"
+  },
+  {
+    "locationCode": "HGT",
+    "label": "Hagatna",
+    "function": "3",
+    "lat": 13.466667,
+    "lng": 144.733333
+  },
+  {
+    "locationCode": "INA",
+    "label": "Inarajan",
+    "function": "3",
+    "lat": 13.266667,
+    "lng": 144.733333
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Mongmong-Toto-Maite",
+    "function": "3",
+    "lat": 13.466667,
+    "lng": 144.766667
+  },
+  {
+    "locationCode": "PIT",
+    "label": "Piti",
+    "function": "3",
+    "lat": 13.433333,
+    "lng": 144.683333
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Santa Rita",
+    "function": "6",
+    "lat": 13.383333,
+    "lng": -144.666667
+  },
+  {
+    "locationCode": "SJA",
+    "label": "Sinajana",
+    "function": "3",
+    "lat": 13.45,
+    "lng": 144.75
+  },
+  {
+    "locationCode": "TMG",
+    "label": "Tamuning",
+    "function": "3",
+    "lat": 13.483333,
+    "lng": 144.766667
+  },
+  {
+    "locationCode": "TMN",
+    "label": "Tumon",
+    "function": "3",
+    "lat": 13.5,
+    "lng": 144.8
+  },
+  {
+    "locationCode": "YGO",
+    "label": "Yigo",
+    "function": "34",
+    "lat": 13.533333,
+    "lng": 144.883333
+  }
+]

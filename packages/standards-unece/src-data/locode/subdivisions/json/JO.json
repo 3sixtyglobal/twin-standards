@@ -1,0 +1,62 @@
+[
+  {
+    "code": "AJ",
+    "label": "Ajlun",
+    "type": "Governorate"
+  },
+  {
+    "code": "AM",
+    "label": "Al A¯simah",
+    "type": "Governorate"
+  },
+  {
+    "code": "AQ",
+    "label": "Al Aqabah",
+    "type": "Governorate"
+  },
+  {
+    "code": "AT",
+    "label": "At Tafilah",
+    "type": "Governorate"
+  },
+  {
+    "code": "AZ",
+    "label": "Az Zarqa",
+    "type": "Governorate"
+  },
+  {
+    "code": "BA",
+    "label": "Al Balqa",
+    "type": "Governorate"
+  },
+  {
+    "code": "IR",
+    "label": "Irbid",
+    "type": "Governorate"
+  },
+  {
+    "code": "JA",
+    "label": "Jarash",
+    "type": "Governorate"
+  },
+  {
+    "code": "KA",
+    "label": "AI Karak",
+    "type": "Governorate"
+  },
+  {
+    "code": "MA",
+    "label": "AI Mafraq",
+    "type": "Governorate"
+  },
+  {
+    "code": "MD",
+    "label": "Madaba",
+    "type": "Governorate"
+  },
+  {
+    "code": "MN",
+    "label": "Maan",
+    "type": "Governorate"
+  }
+]

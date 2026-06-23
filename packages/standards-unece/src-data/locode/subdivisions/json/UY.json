@@ -1,0 +1,97 @@
+[
+  {
+    "code": "AR",
+    "label": "Artigas",
+    "type": "Department"
+  },
+  {
+    "code": "CA",
+    "label": "Canelones",
+    "type": "Department"
+  },
+  {
+    "code": "CL",
+    "label": "Cerro Largo",
+    "type": "Department"
+  },
+  {
+    "code": "CO",
+    "label": "Colonia",
+    "type": "Department"
+  },
+  {
+    "code": "DU",
+    "label": "Durazno",
+    "type": "Department"
+  },
+  {
+    "code": "FD",
+    "label": "Florida",
+    "type": "Department"
+  },
+  {
+    "code": "FS",
+    "label": "Flores",
+    "type": "Department"
+  },
+  {
+    "code": "LA",
+    "label": "Lavalleja",
+    "type": "Department"
+  },
+  {
+    "code": "MA",
+    "label": "Maldonado",
+    "type": "Department"
+  },
+  {
+    "code": "MO",
+    "label": "Montevideo",
+    "type": "Department"
+  },
+  {
+    "code": "PA",
+    "label": "Paysandú",
+    "type": "Department"
+  },
+  {
+    "code": "RN",
+    "label": "Río Negro",
+    "type": "Department"
+  },
+  {
+    "code": "RO",
+    "label": "Rocha",
+    "type": "Department"
+  },
+  {
+    "code": "RV",
+    "label": "Rivera",
+    "type": "Department"
+  },
+  {
+    "code": "SA",
+    "label": "Salto",
+    "type": "Department"
+  },
+  {
+    "code": "SJ",
+    "label": "San José",
+    "type": "Department"
+  },
+  {
+    "code": "SO",
+    "label": "Soriano",
+    "type": "Department"
+  },
+  {
+    "code": "TA",
+    "label": "Tacuarembó",
+    "type": "Department"
+  },
+  {
+    "code": "TT",
+    "label": "Treinta y Tres",
+    "type": "Department"
+  }
+]

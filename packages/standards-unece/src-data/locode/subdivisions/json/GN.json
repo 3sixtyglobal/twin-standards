@@ -1,0 +1,167 @@
+[
+  {
+    "code": "BE",
+    "label": "Beyla",
+    "type": "Prefecture"
+  },
+  {
+    "code": "BF",
+    "label": "Boffa",
+    "type": "Prefecture"
+  },
+  {
+    "code": "BK",
+    "label": "Boké",
+    "type": "Prefecture"
+  },
+  {
+    "code": "CO",
+    "label": "Coyah",
+    "type": "Prefecture"
+  },
+  {
+    "code": "DB",
+    "label": "Dabola",
+    "type": "Prefecture"
+  },
+  {
+    "code": "DI",
+    "label": "Dinguiraye",
+    "type": "Prefecture"
+  },
+  {
+    "code": "DL",
+    "label": "Dalaba",
+    "type": "Prefecture"
+  },
+  {
+    "code": "DU",
+    "label": "Dubréka",
+    "type": "Prefecture"
+  },
+  {
+    "code": "FA",
+    "label": "Faranah",
+    "type": "Prefecture"
+  },
+  {
+    "code": "FO",
+    "label": "Forécariah",
+    "type": "Prefecture"
+  },
+  {
+    "code": "FR",
+    "label": "Fria",
+    "type": "Prefecture"
+  },
+  {
+    "code": "GA",
+    "label": "Gaoual",
+    "type": "Prefecture"
+  },
+  {
+    "code": "GU",
+    "label": "Guékédou",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KA",
+    "label": "Kankan",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KB",
+    "label": "Koubia",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KD",
+    "label": "Kindia",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KE",
+    "label": "Kérouané",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KN",
+    "label": "Koundara",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KO",
+    "label": "Kouroussa",
+    "type": "Prefecture"
+  },
+  {
+    "code": "KS",
+    "label": "Kissidougou",
+    "type": "Prefecture"
+  },
+  {
+    "code": "LA",
+    "label": "Labé",
+    "type": "Prefecture"
+  },
+  {
+    "code": "LE",
+    "label": "Lélouma",
+    "type": "Prefecture"
+  },
+  {
+    "code": "LO",
+    "label": "Lola",
+    "type": "Prefecture"
+  },
+  {
+    "code": "MC",
+    "label": "Macenta",
+    "type": "Prefecture"
+  },
+  {
+    "code": "MD",
+    "label": "Mandiana",
+    "type": "Prefecture"
+  },
+  {
+    "code": "ML",
+    "label": "Mali",
+    "type": "Prefecture"
+  },
+  {
+    "code": "MM",
+    "label": "Mamou",
+    "type": "Prefecture"
+  },
+  {
+    "code": "NZ",
+    "label": "Nzérékoré",
+    "type": "Prefecture"
+  },
+  {
+    "code": "PI",
+    "label": "Pita",
+    "type": "Prefecture"
+  },
+  {
+    "code": "SI",
+    "label": "Siguiri",
+    "type": "Prefecture"
+  },
+  {
+    "code": "TE",
+    "label": "Télimélé",
+    "type": "Prefecture"
+  },
+  {
+    "code": "TO",
+    "label": "Tougué",
+    "type": "Prefecture"
+  },
+  {
+    "code": "YO",
+    "label": "Yomou",
+    "type": "Prefecture"
+  }
+]

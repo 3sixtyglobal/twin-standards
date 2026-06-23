@@ -1,0 +1,92 @@
+[
+  {
+    "code": "1",
+    "label": "Concepción",
+    "type": "Department"
+  },
+  {
+    "code": "10",
+    "label": "Alto Paraná",
+    "type": "Department"
+  },
+  {
+    "code": "11",
+    "label": "Central",
+    "type": "Department"
+  },
+  {
+    "code": "12",
+    "label": "Ñeembucú",
+    "type": "Department"
+  },
+  {
+    "code": "13",
+    "label": "Amambay",
+    "type": "Department"
+  },
+  {
+    "code": "14",
+    "label": "Canindeyú",
+    "type": "Department"
+  },
+  {
+    "code": "15",
+    "label": "Presidente Hayes",
+    "type": "Department"
+  },
+  {
+    "code": "16",
+    "label": "Alto Paraguay",
+    "type": "Department"
+  },
+  {
+    "code": "19",
+    "label": "Boquerón",
+    "type": "Department"
+  },
+  {
+    "code": "2",
+    "label": "San Pedro",
+    "type": "Department"
+  },
+  {
+    "code": "3",
+    "label": "Cordillera",
+    "type": "Department"
+  },
+  {
+    "code": "4",
+    "label": "Guairá",
+    "type": "Department"
+  },
+  {
+    "code": "5",
+    "label": "Caaguazú",
+    "type": "Department"
+  },
+  {
+    "code": "6",
+    "label": "Caazapá",
+    "type": "Department"
+  },
+  {
+    "code": "7",
+    "label": "Itapúa",
+    "type": "Department"
+  },
+  {
+    "code": "8",
+    "label": "Misiones",
+    "type": "Department"
+  },
+  {
+    "code": "9",
+    "label": "Paraguarí",
+    "type": "Department"
+  },
+  {
+    "code": "ASU",
+    "label": "Asunción",
+    "type": "Capital"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "code": "AB",
+    "label": "Abia",
+    "type": "State"
+  },
+  {
+    "code": "AD",
+    "label": "Adamawa",
+    "type": "State"
+  },
+  {
+    "code": "AK",
+    "label": "Akwa Ibom",
+    "type": "State"
+  },
+  {
+    "code": "AN",
+    "label": "Anambra",
+    "type": "State"
+  },
+  {
+    "code": "BA",
+    "label": "Bauchi",
+    "type": "State"
+  },
+  {
+    "code": "BE",
+    "label": "Benue",
+    "type": "State"
+  },
+  {
+    "code": "BO",
+    "label": "Borno",
+    "type": "State"
+  },
+  {
+    "code": "BY",
+    "label": "Bayelsa",
+    "type": "State"
+  },
+  {
+    "code": "CR",
+    "label": "Cross River",
+    "type": "State"
+  },
+  {
+    "code": "DE",
+    "label": "Delta",
+    "type": "State"
+  },
+  {
+    "code": "EB",
+    "label": "Ebonyi",
+    "type": "State"
+  },
+  {
+    "code": "ED",
+    "label": "Edo",
+    "type": "State"
+  },
+  {
+    "code": "EK",
+    "label": "Ekiti",
+    "type": "State"
+  },
+  {
+    "code": "EN",
+    "label": "Enugu",
+    "type": "State"
+  },
+  {
+    "code": "FC",
+    "label": "Abuja Capital Territory",
+    "type": "Capital territory"
+  },
+  {
+    "code": "GO",
+    "label": "Gombe",
+    "type": "State"
+  },
+  {
+    "code": "IM",
+    "label": "Imo",
+    "type": "State"
+  },
+  {
+    "code": "JI",
+    "label": "Jigawa",
+    "type": "State"
+  },
+  {
+    "code": "KD",
+    "label": "Kaduna",
+    "type": "State"
+  },
+  {
+    "code": "KE",
+    "label": "Kebbi",
+    "type": "State"
+  },
+  {
+    "code": "KN",
+    "label": "Kano",
+    "type": "State"
+  },
+  {
+    "code": "KO",
+    "label": "Kogi",
+    "type": "State"
+  },
+  {
+    "code": "KT",
+    "label": "Katsina",
+    "type": "State"
+  },
+  {
+    "code": "KW",
+    "label": "Kwara",
+    "type": "State"
+  },
+  {
+    "code": "LA",
+    "label": "Lagos",
+    "type": "State"
+  },
+  {
+    "code": "NA",
+    "label": "Nasarawa",
+    "type": "State"
+  },
+  {
+    "code": "NI",
+    "label": "Niger",
+    "type": "State"
+  },
+  {
+    "code": "OG",
+    "label": "Ogun",
+    "type": "State"
+  },
+  {
+    "code": "ON",
+    "label": "Ondo",
+    "type": "State"
+  },
+  {
+    "code": "OS",
+    "label": "Osun",
+    "type": "State"
+  },
+  {
+    "code": "OY",
+    "label": "Oyo",
+    "type": "State"
+  },
+  {
+    "code": "PL",
+    "label": "Plateau",
+    "type": "State"
+  },
+  {
+    "code": "RI",
+    "label": "Rivers",
+    "type": "State"
+  },
+  {
+    "code": "SO",
+    "label": "Sokoto",
+    "type": "State"
+  },
+  {
+    "code": "TA",
+    "label": "Taraba",
+    "type": "State"
+  },
+  {
+    "code": "YO",
+    "label": "Yobe",
+    "type": "State"
+  },
+  {
+    "code": "ZA",
+    "label": "Zamfara",
+    "type": "State"
+  }
+]

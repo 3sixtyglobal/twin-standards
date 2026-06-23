@@ -1,0 +1,177 @@
+[
+  {
+    "locationCode": "AAL",
+    "label": "A'ali",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 26.15,
+    "lng": 50.516667
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Adliya",
+    "function": "6",
+    "lat": 26.216667,
+    "lng": 50.583333
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Al Hajar",
+    "function": "6",
+    "lat": 26.2,
+    "lng": 50.5
+  },
+  {
+    "locationCode": "AHD",
+    "label": "Al Hidd",
+    "subdivisionCode": "15",
+    "function": "1367",
+    "lat": 26.233333,
+    "lng": 50.65
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Al Ma'amir",
+    "function": "6",
+    "lat": 26.133333,
+    "lng": 50.6
+  },
+  {
+    "locationCode": "AMH",
+    "label": "Al Manamah",
+    "subdivisionCode": "13",
+    "function": "36",
+    "lat": 26.233333,
+    "lng": 50.566667
+  },
+  {
+    "locationCode": "GBQ",
+    "label": "Al Muharraq",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 26.25,
+    "lng": 50.6
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahrain International Airport",
+    "subdivisionCode": "15",
+    "function": "45",
+    "lat": 26.266667,
+    "lng": 50.633333
+  },
+  {
+    "locationCode": "TOW",
+    "label": "Hamad Town",
+    "function": "6",
+    "lat": 26.1,
+    "lng": 50.5
+  },
+  {
+    "locationCode": "ISA",
+    "label": "ISA Air Base",
+    "subdivisionCode": "14",
+    "function": "4",
+    "lat": 25.916667,
+    "lng": 50.583333
+  },
+  {
+    "locationCode": "JAL",
+    "label": "Jidd 'Ali",
+    "function": "6",
+    "lat": 26.166667,
+    "lng": 50.55
+  },
+  {
+    "locationCode": "JDF",
+    "label": "Jidhafs",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 26.216667,
+    "lng": 20.533333
+  },
+  {
+    "locationCode": "KBS",
+    "label": "Khalifa Bin Salman Port",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 26.2,
+    "lng": 50.616667
+  },
+  {
+    "locationCode": "KFC",
+    "label": "King Fahed Causeway",
+    "subdivisionCode": "17",
+    "lat": 26.183333,
+    "lng": 50.316667
+  },
+  {
+    "locationCode": "MTH",
+    "label": "Madinat Hamad",
+    "function": "6",
+    "lat": 26.1,
+    "lng": 50.5
+  },
+  {
+    "locationCode": "MIN",
+    "label": "Mina Sulman Port",
+    "subdivisionCode": "13",
+    "function": "1",
+    "lat": 26.2,
+    "lng": 50.616667
+  },
+  {
+    "locationCode": "QAL",
+    "label": "Qalali",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 26.266667,
+    "lng": 50.483333
+  },
+  {
+    "locationCode": "RAJ",
+    "label": "Ras Abu Jarjur",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 26.066667,
+    "lng": 50.616667
+  },
+  {
+    "locationCode": "RIF",
+    "label": "Riffa",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 26.116667,
+    "lng": 50.55
+  },
+  {
+    "locationCode": "SAN",
+    "label": "Sanad",
+    "subdivisionCode": "15",
+    "function": "6",
+    "lat": 26.15,
+    "lng": 50.566667
+  },
+  {
+    "locationCode": "SIT",
+    "label": "Sitrah",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": 26.133333,
+    "lng": 50.616667
+  },
+  {
+    "locationCode": "TUB",
+    "label": "Tubli",
+    "function": "6",
+    "lat": 26.183333,
+    "lng": 50.533333
+  },
+  {
+    "locationCode": "UAH",
+    "label": "Umm al Hassam",
+    "function": "6",
+    "lat": 26.2,
+    "lng": 50.583333
+  }
+]

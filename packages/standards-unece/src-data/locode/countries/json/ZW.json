@@ -1,0 +1,386 @@
+[
+  {
+    "locationCode": "BAT",
+    "label": "Bata",
+    "function": "3"
+  },
+  {
+    "locationCode": "BBG",
+    "label": "Beitbridge",
+    "function": "3",
+    "lat": -22.216667,
+    "lng": 30
+  },
+  {
+    "locationCode": "BGV",
+    "label": "Belgravia",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": -17.8,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "BIN",
+    "label": "Bindura",
+    "function": "3",
+    "lat": -17.3,
+    "lng": 31.316667
+  },
+  {
+    "locationCode": "BFO",
+    "label": "Buffalo Range",
+    "function": "4"
+  },
+  {
+    "locationCode": "BUQ",
+    "label": "Bulawayo",
+    "function": "45"
+  },
+  {
+    "locationCode": "BZH",
+    "label": "Bumi Hills",
+    "function": "4"
+  },
+  {
+    "locationCode": "CHE",
+    "label": "Chegutu",
+    "subdivisionCode": "MW",
+    "function": "16",
+    "lat": -18.133333,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "CIM",
+    "label": "Chimanimani",
+    "subdivisionCode": "MA",
+    "function": "6",
+    "lat": -19.8,
+    "lng": 32.866667
+  },
+  {
+    "locationCode": "Z45",
+    "label": "Chinhoyi",
+    "subdivisionCode": "MW",
+    "function": "3",
+    "lat": -17.366667,
+    "lng": 30.2
+  },
+  {
+    "locationCode": "CHJ",
+    "label": "Chipinge",
+    "function": "4"
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chiredzi",
+    "function": "23",
+    "lat": -21.05,
+    "lng": 31.666667
+  },
+  {
+    "locationCode": "CGW",
+    "label": "Chitungwiza",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": -18,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "DW3",
+    "label": "Darwendale",
+    "subdivisionCode": "MW",
+    "function": "3",
+    "lat": -17.716667,
+    "lng": 30.55
+  },
+  {
+    "locationCode": "FLU",
+    "label": "Filabusi",
+    "subdivisionCode": "MS",
+    "function": "16",
+    "lat": -20.533333,
+    "lng": 29.283333
+  },
+  {
+    "locationCode": "GDE",
+    "label": "Glendale",
+    "subdivisionCode": "MC",
+    "function": "3",
+    "lat": -17.35,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "GOK",
+    "label": "Gokwe",
+    "subdivisionCode": "MI",
+    "function": "6",
+    "lat": -18.216667,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "GTS",
+    "label": "Graniteside",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": -17.85,
+    "lng": 31.05
+  },
+  {
+    "locationCode": "GUI",
+    "label": "Guruve",
+    "subdivisionCode": "MC",
+    "function": "3",
+    "lat": -16.65,
+    "lng": 30.7
+  },
+  {
+    "locationCode": "GTU",
+    "label": "Gutu",
+    "subdivisionCode": "MV",
+    "function": "3",
+    "lat": -19.65,
+    "lng": 31.166667
+  },
+  {
+    "locationCode": "GWA",
+    "label": "Gwanda",
+    "subdivisionCode": "MS",
+    "function": "16",
+    "lat": -20.933333,
+    "lng": 29
+  },
+  {
+    "locationCode": "GWE",
+    "label": "Gweru",
+    "subdivisionCode": "MI",
+    "function": "34",
+    "lat": -19.45,
+    "lng": 29.816667
+  },
+  {
+    "locationCode": "HRE",
+    "label": "Harare",
+    "function": "45"
+  },
+  {
+    "locationCode": "HUI",
+    "label": "Hauna",
+    "subdivisionCode": "MA",
+    "function": "3",
+    "lat": -18.483333,
+    "lng": 32.833333
+  },
+  {
+    "locationCode": "HDL",
+    "label": "Headlands",
+    "function": "3",
+    "lat": -18.283333,
+    "lng": 32.033333
+  },
+  {
+    "locationCode": "WKI",
+    "label": "Hwange",
+    "function": "4"
+  },
+  {
+    "locationCode": "HWN",
+    "label": "Hwange National Park",
+    "function": "4",
+    "lat": -19.166667,
+    "lng": 26.5
+  },
+  {
+    "locationCode": "KDM",
+    "label": "Kadoma",
+    "function": "3",
+    "lat": -18.316667,
+    "lng": 29.9
+  },
+  {
+    "locationCode": "KAB",
+    "label": "Kariba",
+    "function": "4"
+  },
+  {
+    "locationCode": "KWE",
+    "label": "Kwekwe",
+    "function": "23"
+  },
+  {
+    "locationCode": "LI4",
+    "label": "Lalapansi",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": -19.333333,
+    "lng": 30.183333
+  },
+  {
+    "locationCode": "MJW",
+    "label": "Mahenye",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAP",
+    "label": "Mapanzure",
+    "subdivisionCode": "MV",
+    "function": "3",
+    "lat": -20.383333,
+    "lng": 30.85
+  },
+  {
+    "locationCode": "MBH",
+    "label": "Marlborough",
+    "subdivisionCode": "HA",
+    "function": "6",
+    "lat": -17.75,
+    "lng": 31.216667
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Marondera",
+    "function": "3",
+    "lat": -18.183333,
+    "lng": 31.55
+  },
+  {
+    "locationCode": "MVZ",
+    "label": "Masvingo",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZW",
+    "label": "Mazowe",
+    "subdivisionCode": "MC",
+    "function": "3",
+    "lat": -17.516667,
+    "lng": 30.966667
+  },
+  {
+    "locationCode": "MGU",
+    "label": "Mhangura",
+    "subdivisionCode": "MW",
+    "function": "3",
+    "lat": -16.9,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "MPK",
+    "label": "Milton Park",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": -17.8,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "MSA",
+    "label": "Msasa",
+    "subdivisionCode": "HA",
+    "function": "3",
+    "lat": -17.833333,
+    "lng": 31.1
+  },
+  {
+    "locationCode": "UTA",
+    "label": "Mutare",
+    "function": "24"
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Mutoko",
+    "subdivisionCode": "ME",
+    "function": "6",
+    "lat": -17.4,
+    "lng": 32.216667
+  },
+  {
+    "locationCode": "NBD",
+    "label": "Nembudziya",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": -17.683333,
+    "lng": 29.016667
+  },
+  {
+    "locationCode": "NGE",
+    "label": "Ngezi",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": -20.566667,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "NAG",
+    "label": "Norton",
+    "subdivisionCode": "MW",
+    "function": "6",
+    "lat": -17.883333,
+    "lng": 30.7
+  },
+  {
+    "locationCode": "RSP",
+    "label": "Rusape",
+    "subdivisionCode": "MA",
+    "function": "12",
+    "lat": -18.533333,
+    "lng": 32.116667
+  },
+  {
+    "locationCode": "ZMW",
+    "label": "Selous",
+    "subdivisionCode": "MW",
+    "function": "3",
+    "lat": -18.083333,
+    "lng": 30.45
+  },
+  {
+    "locationCode": "VM8",
+    "label": "Shamva",
+    "subdivisionCode": "MC",
+    "function": "3",
+    "lat": -17.3,
+    "lng": 31.566667
+  },
+  {
+    "locationCode": "SGW",
+    "label": "Shurugwi",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": -19.666667,
+    "lng": 30
+  },
+  {
+    "locationCode": "STH",
+    "label": "Southerton",
+    "function": "3",
+    "lat": -17.85,
+    "lng": 31.016667
+  },
+  {
+    "locationCode": "THJ",
+    "label": "Thompson Junction",
+    "function": "23",
+    "lat": -18,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "VFA",
+    "label": "Victoria Falls",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZMZ",
+    "label": "Zimbabwe",
+    "subdivisionCode": "MV",
+    "function": "13",
+    "lat": -20.266667,
+    "lng": 30.916667
+  },
+  {
+    "locationCode": "ZVS",
+    "label": "Zvishavane",
+    "subdivisionCode": "MI",
+    "function": "3",
+    "lat": -20.333333,
+    "lng": 30.033333
+  }
+]

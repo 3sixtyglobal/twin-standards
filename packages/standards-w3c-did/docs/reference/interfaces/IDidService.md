@@ -4,7 +4,7 @@ Interface describing a did document service.
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -12,16 +12,16 @@ The id of the service.
 
 ***
 
-### type
+### type {#type}
 
-> **type**: `string` \| `string`[]
+> **type**: `ObjectOrArray`\<`string`\>
 
 The type of the service.
 
 ***
 
-### serviceEndpoint
+### serviceEndpoint {#serviceendpoint}
 
-> **serviceEndpoint**: `string` \| `string`[]
+> **serviceEndpoint**: `ObjectOrArray`\<`string`\>
 
 The endpoint for the service.

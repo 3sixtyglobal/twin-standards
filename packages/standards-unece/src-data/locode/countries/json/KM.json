@@ -1,0 +1,56 @@
+[
+  {
+    "locationCode": "AJN",
+    "label": "Anjouan Apt",
+    "subdivisionCode": "A",
+    "function": "134",
+    "lat": -12.25,
+    "lng": 44.416667
+  },
+  {
+    "locationCode": "DZA",
+    "label": "Dzaoudzi",
+    "subdivisionCode": "M",
+    "function": "3",
+    "lat": -12.783333,
+    "lng": 45.283333
+  },
+  {
+    "locationCode": "FOU",
+    "label": "Foumboni, Moheli",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAH",
+    "label": "Hahaya Apt/Moroni",
+    "function": "4"
+  },
+  {
+    "locationCode": "LOG",
+    "label": "Longoni",
+    "subdivisionCode": "A",
+    "function": "6"
+  },
+  {
+    "locationCode": "NWA",
+    "label": "Mohéli Apt",
+    "subdivisionCode": "M",
+    "labelWithDiacritics": "Moheli Apt",
+    "function": "34",
+    "lat": -12.25,
+    "lng": 43.75
+  },
+  {
+    "locationCode": "YVA",
+    "label": "Moroni",
+    "function": "145"
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Mutsamudu, Anjouan",
+    "subdivisionCode": "A",
+    "function": "13",
+    "lat": -12.15,
+    "lng": 44.383333
+  }
+]

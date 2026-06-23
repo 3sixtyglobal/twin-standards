@@ -1,0 +1,124 @@
+[
+  {
+    "locationCode": "CCY",
+    "label": "Awala-Yalimapo",
+    "function": "13",
+    "lat": 5.683333,
+    "lng": -53.933333
+  },
+  {
+    "locationCode": "CAY",
+    "label": "Cayenne",
+    "function": "145",
+    "lat": 4.933333,
+    "lng": -52.333333
+  },
+  {
+    "locationCode": "DDC",
+    "label": "Dégrad des Cannes",
+    "labelWithDiacritics": "Degrad des Cannes",
+    "function": "1",
+    "lat": 4.866667,
+    "lng": -52.266667
+  },
+  {
+    "locationCode": "REM",
+    "label": "Dégrad des Cannes-Pariacabo Pt/Remire",
+    "labelWithDiacritics": "Degrad des Cannes-Pariacabo Pt/Remire",
+    "function": "1367",
+    "lat": 4.883333,
+    "lng": -52.283333
+  },
+  {
+    "locationCode": "GDE",
+    "label": "Guadeloupe",
+    "function": "4",
+    "lat": 4.733333,
+    "lng": -53.783333
+  },
+  {
+    "locationCode": "QKR",
+    "label": "Kourou",
+    "function": "1345",
+    "lat": 5.15,
+    "lng": -52.633333
+  },
+  {
+    "locationCode": "MCR",
+    "label": "Macouria",
+    "function": "3",
+    "lat": 5.016667,
+    "lng": -52.483333
+  },
+  {
+    "locationCode": "BCY",
+    "label": "Mana",
+    "function": "34",
+    "lat": 5.6,
+    "lng": -53.816667
+  },
+  {
+    "locationCode": "MPY",
+    "label": "Maripasoula",
+    "function": "4",
+    "lat": 3.633333,
+    "lng": -54.033333
+  },
+  {
+    "locationCode": "MTY",
+    "label": "Matoury",
+    "function": "3",
+    "lat": 4.85,
+    "lng": -52.333333
+  },
+  {
+    "locationCode": "MON",
+    "label": "Montsinéry-Tonnegrande",
+    "labelWithDiacritics": "Montsinery-Tonnegrande",
+    "function": "3",
+    "lat": 4.9,
+    "lng": -52.5
+  },
+  {
+    "locationCode": "LCY",
+    "label": "Ouanary",
+    "function": "14",
+    "lat": 4.216667,
+    "lng": -51.666667
+  },
+  {
+    "locationCode": "REI",
+    "label": "Regina",
+    "function": "4",
+    "lat": 4.316667,
+    "lng": -52.133333
+  },
+  {
+    "locationCode": "OYP",
+    "label": "Saint-Georges",
+    "function": "134",
+    "lat": 3.9,
+    "lng": -51.8
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Saint-Laurent-du-Maroni",
+    "function": "134",
+    "lat": 5.5,
+    "lng": -54.033333
+  },
+  {
+    "locationCode": "XAU",
+    "label": "Saul",
+    "function": "4",
+    "lat": 3.616667,
+    "lng": -53.216667
+  },
+  {
+    "locationCode": "SMY",
+    "label": "Sinnamary",
+    "function": "3",
+    "lat": 5.383333,
+    "lng": -52.95
+  }
+]

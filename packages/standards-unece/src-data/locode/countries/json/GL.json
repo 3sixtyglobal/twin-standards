@@ -1,0 +1,276 @@
+[
+  {
+    "locationCode": "JEG",
+    "label": "Aasiaat (Egedesminde)",
+    "function": "14"
+  },
+  {
+    "locationCode": "LLU",
+    "label": "Alluitsup Paa",
+    "function": "45",
+    "lat": 60.45,
+    "lng": -45.55
+  },
+  {
+    "locationCode": "JRK",
+    "label": "Arsuk",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Daneborg",
+    "function": "1"
+  },
+  {
+    "locationCode": "DUN",
+    "label": "Dundas",
+    "function": "4"
+  },
+  {
+    "locationCode": "IKE",
+    "label": "Ikerasak",
+    "function": "3",
+    "lat": 70.5,
+    "lng": -51.3
+  },
+  {
+    "locationCode": "OBY",
+    "label": "Illorqortoormiut (Scoresbysund)",
+    "function": "14"
+  },
+  {
+    "locationCode": "ILL",
+    "label": "Illorsuit",
+    "function": "3",
+    "lat": 71,
+    "lng": -53
+  },
+  {
+    "locationCode": "JAV",
+    "label": "Ilulissat (Jakobshavn)",
+    "function": "14"
+  },
+  {
+    "locationCode": "ITQ",
+    "label": "Isertoq",
+    "function": "3",
+    "lat": 64.566667,
+    "lng": -39.016667
+  },
+  {
+    "locationCode": "IUT",
+    "label": "Ivigtut",
+    "function": "1"
+  },
+  {
+    "locationCode": "QKT",
+    "label": "Kangaamiut",
+    "function": "34",
+    "lat": 65.833333,
+    "lng": -53.333333
+  },
+  {
+    "locationCode": "QPW",
+    "label": "Kangaatsiaq",
+    "function": "5",
+    "lat": 68.3,
+    "lng": -53.466667
+  },
+  {
+    "locationCode": "FHN",
+    "label": "Kangerdluarssoruseg (Færingehavn",
+    "labelWithDiacritics": "Kangerdluarssoruseg (Faringehavn",
+    "function": "1"
+  },
+  {
+    "locationCode": "SFJ",
+    "label": "Kangerlussuaq (Sondre Stromfjord",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kangerlussuaq Havn",
+    "function": "1",
+    "lat": 66.966667,
+    "lng": -50.933333
+  },
+  {
+    "locationCode": "JGR",
+    "label": "Kangilinguit (Gronnedal)",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kullorsuaq",
+    "function": "13",
+    "lat": 74.583333,
+    "lng": -57.2
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kulusuk",
+    "function": "14"
+  },
+  {
+    "locationCode": "KUN",
+    "label": "Kuummiut",
+    "function": "1",
+    "lat": 65.866667,
+    "lng": -37.016667
+  },
+  {
+    "locationCode": "MML",
+    "label": "Maarmorliik",
+    "function": "1",
+    "lat": 71.133333,
+    "lng": -51.283333
+  },
+  {
+    "locationCode": "JSU",
+    "label": "Maniitsoq (Sukkertoppen)",
+    "function": "14"
+  },
+  {
+    "locationCode": "MRG",
+    "label": "Mesters Vig",
+    "function": "1"
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Nalunaq Gold Mine",
+    "function": "13",
+    "lat": 60.316667,
+    "lng": -44.933333
+  },
+  {
+    "locationCode": "JNN",
+    "label": "Nanortalik",
+    "function": "14"
+  },
+  {
+    "locationCode": "JNS",
+    "label": "Narsaq",
+    "function": "4"
+  },
+  {
+    "locationCode": "UAK",
+    "label": "Narsarsuaq",
+    "function": "14"
+  },
+  {
+    "locationCode": "CNP",
+    "label": "Neerlerit Inaat",
+    "function": "4"
+  },
+  {
+    "locationCode": "NUG",
+    "label": "Nuugaatsiaq",
+    "function": "3"
+  },
+  {
+    "locationCode": "GOH",
+    "label": "Nuuk (Godthaab)",
+    "function": "134",
+    "lat": 64.183333,
+    "lng": -51.75
+  },
+  {
+    "locationCode": "JFR",
+    "label": "Paamiut (Fredrikshaab)",
+    "function": "14"
+  },
+  {
+    "locationCode": "THU",
+    "label": "Pituffik",
+    "function": "14"
+  },
+  {
+    "locationCode": "NAQ",
+    "label": "Qaanaaq",
+    "function": "14"
+  },
+  {
+    "locationCode": "JQA",
+    "label": "Qaarsut",
+    "function": "45",
+    "lat": 70.733333,
+    "lng": -52.65
+  },
+  {
+    "locationCode": "JJU",
+    "label": "Qaqortoq (Julianehaab)",
+    "function": "14"
+  },
+  {
+    "locationCode": "JCH",
+    "label": "Qasigiannguit (Christianshaab)",
+    "function": "14"
+  },
+  {
+    "locationCode": "JGO",
+    "label": "Qeqertarsuaq (Godhavn)",
+    "function": "14"
+  },
+  {
+    "locationCode": "QUE",
+    "label": "Qullissat",
+    "function": "4"
+  },
+  {
+    "locationCode": "SAA",
+    "label": "Saattut",
+    "function": "3",
+    "lat": 70.8,
+    "lng": -51.616667
+  },
+  {
+    "locationCode": "SEQ",
+    "label": "Seqi Olivine Mine",
+    "function": "13",
+    "lat": 64.966667,
+    "lng": -51.566667
+  },
+  {
+    "locationCode": "JHS",
+    "label": "Sisimiut (Holsteinsborg)",
+    "function": "14"
+  },
+  {
+    "locationCode": "AGM",
+    "label": "Tasiilaq",
+    "function": "14",
+    "lat": 65.6,
+    "lng": -37.633333
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tasiusaq",
+    "function": "3",
+    "lat": 73.4,
+    "lng": -56
+  },
+  {
+    "locationCode": "TNT",
+    "label": "Tiniteqilaaq",
+    "function": "13",
+    "lat": 65.9,
+    "lng": -37.816667
+  },
+  {
+    "locationCode": "TOV",
+    "label": "Toqqusaq",
+    "function": "1",
+    "lat": 64.866667,
+    "lng": -52.2
+  },
+  {
+    "locationCode": "JUV",
+    "label": "Upernavik",
+    "function": "4"
+  },
+  {
+    "locationCode": "UMD",
+    "label": "Uummannaq",
+    "function": "14"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "locationCode": "DUK",
+    "label": "Dukwi",
+    "subdivisionCode": "CE",
+    "function": "16",
+    "lat": -20.583333,
+    "lng": 26.533333
+  },
+  {
+    "locationCode": "FRW",
+    "label": "Francistown",
+    "subdivisionCode": "NE",
+    "function": "2346",
+    "lat": -21.166667,
+    "lng": 27.516667
+  },
+  {
+    "locationCode": "GAB",
+    "label": "Gaberones Camp",
+    "function": "6",
+    "lat": -24.666667,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "GBE",
+    "label": "Gaborone",
+    "function": "3456",
+    "lat": -24.666667,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "GNZ",
+    "label": "Ghanzi",
+    "function": "34"
+  },
+  {
+    "locationCode": "HUK",
+    "label": "Hukuntsi",
+    "function": "4"
+  },
+  {
+    "locationCode": "JWA",
+    "label": "Jwaneng",
+    "function": "4"
+  },
+  {
+    "locationCode": "BBK",
+    "label": "Kasane",
+    "function": "4"
+  },
+  {
+    "locationCode": "KHW",
+    "label": "Khwai River Lodge",
+    "function": "4"
+  },
+  {
+    "locationCode": "LET",
+    "label": "Letlhakane",
+    "function": "3",
+    "lat": -21.416667,
+    "lng": 25.583333
+  },
+  {
+    "locationCode": "LOQ",
+    "label": "Lobatse",
+    "function": "4"
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahalapye",
+    "function": "123",
+    "lat": -23.1,
+    "lng": 26.833333
+  },
+  {
+    "locationCode": "MUB",
+    "label": "Maun",
+    "function": "4"
+  },
+  {
+    "locationCode": "MGS",
+    "label": "Mogoditshane",
+    "subdivisionCode": "KW",
+    "function": "3",
+    "lat": -24.616667,
+    "lng": 25.85
+  },
+  {
+    "locationCode": "ORP",
+    "label": "Orapa",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palapye",
+    "function": "23",
+    "lat": -22.566667,
+    "lng": 27.133333
+  },
+  {
+    "locationCode": "RSA",
+    "label": "Ramotswa",
+    "function": "23",
+    "lat": -24.866667,
+    "lng": 25.816667
+  },
+  {
+    "locationCode": "SVT",
+    "label": "Savuti",
+    "function": "4"
+  },
+  {
+    "locationCode": "PKW",
+    "label": "Selebi-Phikwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "SER",
+    "label": "Serowe",
+    "function": "3",
+    "lat": -22.383333,
+    "lng": 26.7
+  },
+  {
+    "locationCode": "SWX",
+    "label": "Shakawe",
+    "function": "4"
+  },
+  {
+    "locationCode": "SXN",
+    "label": "Suapan",
+    "function": "4"
+  },
+  {
+    "locationCode": "SUN",
+    "label": "Sunnyside",
+    "function": "0"
+  },
+  {
+    "locationCode": "TBY",
+    "label": "Tsabong",
+    "function": "4"
+  },
+  {
+    "locationCode": "TLD",
+    "label": "Tuli Lodge",
+    "function": "4"
+  }
+]

@@ -7,6 +7,11 @@
 // eslint-disable-next-line @typescript-eslint/naming-convention
 export const DidTypes = {
 	/**
+	 * The type for Document.
+	 */
+	Document: "Document",
+
+	/**
 	 * The type for Verifiable Credential.
 	 */
 	VerifiableCredential: "VerifiableCredential",

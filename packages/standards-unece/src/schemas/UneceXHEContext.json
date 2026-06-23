@@ -1,0 +1,34 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceXHEContext",
+	"title": "UneceXHEContext",
+	"description": "A set of circumstances that form the setting for an XHE (Exchange Header Envelope) data exchange.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "XHEContext",
+			"description": "JSON-LD Type."
+		},
+		"scopeReference": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceXHEReference"
+			},
+			"description": "A reference to the scope of this XHE context."
+		},
+		"specifiedParameter": {
+			"type": "array",
+			"items": {
+				"$ref": "https://schema.twindev.org/unece/UneceXHEParameter"
+			},
+			"description": "A parameter specified for this XHE context."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

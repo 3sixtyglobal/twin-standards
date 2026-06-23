@@ -1,8 +1,10 @@
 # Class: Gs1Location
 
-Interface describing a GS1 Location master data.
-Spec https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf .
-Section 10.2 .
+GS1 Location master data entity.
+
+## See
+
+https://www.gs1.org/sites/default/files/docs/epc/CBV-Standard-1-2-1-r-2017-05-05.pdf
 
 ## Constructors
 
@@ -16,7 +18,7 @@ Section 10.2 .
 
 ## Properties
 
-### id
+### id {#id}
 
 > **id**: `string`
 
@@ -24,112 +26,112 @@ The GS1 sgln identifier.
 
 ***
 
-### site?
+### site? {#site}
 
-> `optional` **site**: `string`
+> `optional` **site?**: `string`
 
 Identifies the site in which the location is contained.
 
 ***
 
-### sst?
+### sst? {#sst}
 
-> `optional` **sst**: [`SubSiteTypes`](../type-aliases/SubSiteTypes.md)
+> `optional` **sst?**: [`Gs1SubSiteTypes`](../type-aliases/Gs1SubSiteTypes.md)
 
 Sub site type describes the primary business function of the sub site location.
 
 ***
 
-### ssa?
+### ssa? {#ssa}
 
-> `optional` **ssa**: [`SubSiteAttributes`](../type-aliases/SubSiteAttributes.md)
+> `optional` **ssa?**: [`Gs1SubSiteAttributes`](../type-aliases/Gs1SubSiteAttributes.md)
 
 Sub site attribute further qualifies the business function of the sub site location.
 
 ***
 
-### ssd?
+### ssd? {#ssd}
 
-> `optional` **ssd**: `string`
+> `optional` **ssd?**: `string`
 
 Sub site detail provides additional proprietary information.
 
 ***
 
-### name?
+### name? {#name}
 
-> `optional` **name**: `string`
+> `optional` **name?**: `string`
 
 The name of the location.
 
 ***
 
-### streetAddressOne?
+### streetAddressOne? {#streetaddressone}
 
-> `optional` **streetAddressOne**: `string`
+> `optional` **streetAddressOne?**: `string`
 
 The street address line 1.
 
 ***
 
-### streetAddressTwo?
+### streetAddressTwo? {#streetaddresstwo}
 
-> `optional` **streetAddressTwo**: `string`
+> `optional` **streetAddressTwo?**: `string`
 
 The street address line 2.
 
 ***
 
-### streetAddressThree?
+### streetAddressThree? {#streetaddressthree}
 
-> `optional` **streetAddressThree**: `string`
+> `optional` **streetAddressThree?**: `string`
 
 The street address line 3.
 
 ***
 
-### city?
+### city? {#city}
 
-> `optional` **city**: `string`
+> `optional` **city?**: `string`
 
 City.
 
 ***
 
-### state?
+### state? {#state}
 
-> `optional` **state**: `string`
+> `optional` **state?**: `string`
 
 State.
 
 ***
 
-### postalCode?
+### postalCode? {#postalcode}
 
-> `optional` **postalCode**: `string`
+> `optional` **postalCode?**: `string`
 
 Postal Code.
 
 ***
 
-### countryCode?
+### countryCode? {#countrycode}
 
-> `optional` **countryCode**: `string`
+> `optional` **countryCode?**: `string`
 
 Country Code The ISO 3166-1 alpha-2 code specifying the country for the address.
 
 ***
 
-### latitude?
+### latitude? {#latitude}
 
-> `optional` **latitude**: `number`
+> `optional` **latitude?**: `number`
 
 The latitude of the location in degrees.
 
 ***
 
-### longitude?
+### longitude? {#longitude}
 
-> `optional` **longitude**: `number`
+> `optional` **longitude?**: `number`
 
 The longitude of the location in degrees.

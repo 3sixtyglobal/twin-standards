@@ -1,10 +1,7 @@
 # Interface: IOdrlRule
 
 Base interface for ODRL Rules.
-
-## Extends
-
-- `IJsonLdNodeObject`
+https://www.w3.org/TR/odrl-model/#rule
 
 ## Extended by
 
@@ -12,63 +9,59 @@ Base interface for ODRL Rules.
 - [`IOdrlPermission`](IOdrlPermission.md)
 - [`IOdrlProhibition`](IOdrlProhibition.md)
 
-## Indexable
-
-\[`key`: `string`\]: `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `string`[] \| `IJsonLdNodeObject` \| `IJsonLdGraphObject` \| `object` & `object` \| `object` & `object` \| `object` & `object` \| `IJsonLdListObject` \| `IJsonLdSetObject` \| `IJsonLdNodePrimitive`[] \| `IJsonLdLanguageMap` \| `IJsonLdIndexMap` \| `IJsonLdNodeObject`[] \| `IJsonLdIdMap` \| `IJsonLdTypeMap` \| `IJsonLdContextDefinition` \| `IJsonLdContextDefinitionElement`[] \| `IJsonLdJsonObject` \| `IJsonLdJsonObject`[] \| \{[`key`: `string`]: `string`; \}
-
 ## Properties
 
-### uid?
+### uid? {#uid}
 
-> `optional` **uid**: `string`
+> `optional` **uid?**: `string`
 
 Optional unique identifier for the rule.
 
 ***
 
-### action?
+### action? {#action}
 
-> `optional` **action**: [`ActionType`](../type-aliases/ActionType.md) \| [`IOdrlAction`](IOdrlAction.md) \| ActionType \| IOdrlAction[]
+> `optional` **action?**: `ObjectOrArray`\<`string` \| [`IOdrlAction`](IOdrlAction.md)\>
 
 The action associated with the rule.
 
 ***
 
-### target?
+### target? {#target}
 
-> `optional` **target**: `string` \| [`IOdrlAsset`](IOdrlAsset.md) \| (`string` \| [`IOdrlAsset`](IOdrlAsset.md))[]
+> `optional` **target?**: `ObjectOrArray`\<`string` \| [`IOdrlAssetCollection`](IOdrlAssetCollection.md) \| [`IOdrlAsset`](IOdrlAsset.md)\>
 
 The target asset for the rule.
 
 ***
 
-### assigner?
+### assigner? {#assigner}
 
-> `optional` **assigner**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assigner?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assigner of the rule.
 
 ***
 
-### assignee?
+### assignee? {#assignee}
 
-> `optional` **assignee**: `string` \| [`IOdrlParty`](IOdrlParty.md)
+> `optional` **assignee?**: `ObjectOrArray`\<`string` \| [`IOdrlPartyCollection`](IOdrlPartyCollection.md) \| [`IOdrlParty`](IOdrlParty.md)\>
 
 The assignee of the rule.
 
 ***
 
-### constraint?
+### constraint? {#constraint}
 
-> `optional` **constraint**: [`IOdrlConstraint`](IOdrlConstraint.md)[]
+> `optional` **constraint?**: `ObjectOrArray`\<[`IOdrlConstraint`](IOdrlConstraint.md) \| [`IOdrlLogicalConstraint`](IOdrlLogicalConstraint.md)\>
 
 Constraints applied to the rule.
 
 ***
 
-### summary?
+### summary? {#summary}
 
-> `optional` **summary**: `string`
+> `optional` **summary?**: `string`
 
 Additional relation sub-properties as defined in ODRL profiles.
 For example, 'summary' in profile "http://example.com/odrl:profile:03"

@@ -1,0 +1,52 @@
+[
+  {
+    "code": "01",
+    "label": "Western",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "Central",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Eastern",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Luapula",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Northern",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "North-Western",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Southern",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Copperbelt",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Lusaka",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Muchinga",
+    "type": "Province"
+  }
+]

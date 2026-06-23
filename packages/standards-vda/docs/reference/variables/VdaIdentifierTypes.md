@@ -4,21 +4,21 @@
 
 The types of VDA Identifier data.
 
-## Type declaration
+## Type Declaration
 
-### JaifId
+### JaifId {#jaifid}
 
 > `readonly` **JaifId**: `"jaif:id"` = `"jaif:id"`
 
 Identifier Joint Automotive Industry Format namespace.
 
-### JaifLocation
+### JaifLocation {#jaiflocation}
 
 > `readonly` **JaifLocation**: `"jaif:id@location"` = `"jaif:id@location"`
 
 Specific extended namespace for location validation.
 
-### JaifItem
+### JaifItem {#jaifitem}
 
 > `readonly` **JaifItem**: `"jaif:id@item"` = `"jaif:id@item"`
 

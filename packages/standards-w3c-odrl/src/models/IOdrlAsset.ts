@@ -1,12 +1,13 @@
 // Copyright 2024 IOTA Stiftung.
 // SPDX-License-Identifier: Apache-2.0.
-import type { IJsonLdNodeObject } from "@twin.org/data-json-ld";
-import type { IOdrlAssetCollection } from "./IOdrlAssetCollection";
+import type { ObjectOrArray } from "@twin.org/core";
+import type { IOdrlAssetCollection } from "./IOdrlAssetCollection.js";
 
 /**
  * Interface for ODRL Assets.
+ * https://www.w3.org/TR/odrl-model/#asset
  */
-export interface IOdrlAsset extends IJsonLdNodeObject {
+export interface IOdrlAsset {
 	/**
 	 * The unique identifier for the asset.
 	 * Should be an IRI.
@@ -23,11 +24,11 @@ export interface IOdrlAsset extends IJsonLdNodeObject {
 	 * Reference to the asset collection this asset is part of.
 	 * Used to identify an AssetCollection that this Asset is a member of.
 	 */
-	partOf?: string | IOdrlAssetCollection;
+	partOf?: ObjectOrArray<string | IOdrlAssetCollection>;
 
 	/**
 	 * Reference to the policy that governs this asset.
 	 * Used to identify the Policy that governs this Asset.
 	 */
-	hasPolicy?: string;
+	hasPolicy?: ObjectOrArray<string>;
 }

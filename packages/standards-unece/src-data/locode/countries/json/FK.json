@@ -1,0 +1,24 @@
+[
+  {
+    "locationCode": "FBE",
+    "label": "Fox Bay",
+    "function": "15"
+  },
+  {
+    "locationCode": "MPN",
+    "label": "Mount Pleasant",
+    "function": "45"
+  },
+  {
+    "locationCode": "PSY",
+    "label": "Port Stanley",
+    "function": "14"
+  },
+  {
+    "locationCode": "PWI",
+    "label": "Port William",
+    "function": "3",
+    "lat": -51.666667,
+    "lng": -57.8
+  }
+]

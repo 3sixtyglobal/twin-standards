@@ -1,0 +1,32 @@
+[
+  {
+    "code": "D",
+    "label": "Al Janubi",
+    "type": "District"
+  },
+  {
+    "code": "HA",
+    "label": "H_efa",
+    "type": "District"
+  },
+  {
+    "code": "JM",
+    "label": "Yerushalayim",
+    "type": "District"
+  },
+  {
+    "code": "M",
+    "label": "Al Awsat",
+    "type": "District"
+  },
+  {
+    "code": "TA",
+    "label": "Tel-Aviv",
+    "type": "District"
+  },
+  {
+    "code": "Z",
+    "label": "Ash Shamali",
+    "type": "District"
+  }
+]

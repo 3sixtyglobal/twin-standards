@@ -1,0 +1,17 @@
+[
+  {
+    "code": "BO",
+    "label": "Bonaire",
+    "type": "Special Municipality"
+  },
+  {
+    "code": "SA",
+    "label": "Saba",
+    "type": "Special Municipality"
+  },
+  {
+    "code": "SE",
+    "label": "Sint Eustatius",
+    "type": "Special Municipality"
+  }
+]

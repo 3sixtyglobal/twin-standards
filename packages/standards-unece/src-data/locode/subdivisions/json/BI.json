@@ -1,0 +1,92 @@
+[
+  {
+    "code": "BB",
+    "label": "Bubanza",
+    "type": "Province"
+  },
+  {
+    "code": "BL",
+    "label": "Bujumbura Rural",
+    "type": "Province"
+  },
+  {
+    "code": "BM",
+    "label": "Bujumbura Mairie",
+    "type": "Province"
+  },
+  {
+    "code": "BR",
+    "label": "Bururi",
+    "type": "Province"
+  },
+  {
+    "code": "CA",
+    "label": "Cankuzo",
+    "type": "Province"
+  },
+  {
+    "code": "CI",
+    "label": "Cibitoke",
+    "type": "Province"
+  },
+  {
+    "code": "GI",
+    "label": "Gitega",
+    "type": "Province"
+  },
+  {
+    "code": "KI",
+    "label": "Kirundo",
+    "type": "Province"
+  },
+  {
+    "code": "KR",
+    "label": "Karuzi",
+    "type": "Province"
+  },
+  {
+    "code": "KY",
+    "label": "Kayanza",
+    "type": "Province"
+  },
+  {
+    "code": "MA",
+    "label": "Makamba",
+    "type": "Province"
+  },
+  {
+    "code": "MU",
+    "label": "Muramvya",
+    "type": "Province"
+  },
+  {
+    "code": "MW",
+    "label": "Mwaro",
+    "type": "Province"
+  },
+  {
+    "code": "MY",
+    "label": "Muyinga",
+    "type": "Province"
+  },
+  {
+    "code": "NG",
+    "label": "Ngozi",
+    "type": "Province"
+  },
+  {
+    "code": "RM",
+    "label": "Rumonge",
+    "type": "province"
+  },
+  {
+    "code": "RT",
+    "label": "Rutana",
+    "type": "Province"
+  },
+  {
+    "code": "RY",
+    "label": "Ruyigi",
+    "type": "Province"
+  }
+]

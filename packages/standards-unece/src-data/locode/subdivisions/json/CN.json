@@ -1,0 +1,172 @@
+[
+  {
+    "code": "AH",
+    "label": "Anhui Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "BJ",
+    "label": "Beijing Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "CQ",
+    "label": "Chongqing Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "FJ",
+    "label": "Fujian Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "GD",
+    "label": "Guangdong Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "GS",
+    "label": "Gansu Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "GX",
+    "label": "Guangxi Zhuangzu Zizhiqu",
+    "type": "Autonomous Region"
+  },
+  {
+    "code": "GZ",
+    "label": "Guizhou Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HA",
+    "label": "Henan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HB",
+    "label": "Hubei Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HE",
+    "label": "Hebei Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HI",
+    "label": "Hainan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HK",
+    "label": "Hong Kong SAR",
+    "type": "Special Administrative Region"
+  },
+  {
+    "code": "HL",
+    "label": "Heilongjiang Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "HN",
+    "label": "Hunan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "JL",
+    "label": "Jilin Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "JS",
+    "label": "Jiangsu Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "JX",
+    "label": "Jiangxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "LN",
+    "label": "Liaoning Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "MO",
+    "label": "Macao SAR",
+    "type": "Special Administrative Region"
+  },
+  {
+    "code": "NM",
+    "label": "Nei Mongol Zizhiqu",
+    "type": "Autonomous Region"
+  },
+  {
+    "code": "NX",
+    "label": "Ningxia Huizu Zizhiqu",
+    "type": "Autonomous Region"
+  },
+  {
+    "code": "QH",
+    "label": "Qinghai Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "SC",
+    "label": "Sichuan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "SD",
+    "label": "Shandong Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "SH",
+    "label": "Shanghai Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "SN",
+    "label": "Shaanxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "SX",
+    "label": "Shanxi Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "TJ",
+    "label": "Tianjin Shi",
+    "type": "Municipality"
+  },
+  {
+    "code": "TW",
+    "label": "Taiwan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "XJ",
+    "label": "Xinjiang Uygur Zizhiqu",
+    "type": "Autonomous Region"
+  },
+  {
+    "code": "XZ",
+    "label": "Xizang Zizhiqu",
+    "type": "Autonomous Region"
+  },
+  {
+    "code": "YN",
+    "label": "Yunnan Sheng",
+    "type": "Province"
+  },
+  {
+    "code": "ZJ",
+    "label": "Zhejiang Sheng",
+    "type": "Province"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "code": "AN",
+    "label": "Annobón",
+    "type": "Province"
+  },
+  {
+    "code": "BN",
+    "label": "Bioko Norte",
+    "type": "Province"
+  },
+  {
+    "code": "BS",
+    "label": "Bioko Sur",
+    "type": "Province"
+  },
+  {
+    "code": "CS",
+    "label": "Centro Sur",
+    "type": "Province"
+  },
+  {
+    "code": "DJ",
+    "label": "Djibloho",
+    "type": "Province"
+  },
+  {
+    "code": "KN",
+    "label": "Kié-Ntem",
+    "type": "Province"
+  },
+  {
+    "code": "LI",
+    "label": "Litoral",
+    "type": "Province"
+  },
+  {
+    "code": "WN",
+    "label": "Wele-Nzas",
+    "type": "Province"
+  }
+]

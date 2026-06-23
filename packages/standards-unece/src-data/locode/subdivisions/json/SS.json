@@ -1,0 +1,52 @@
+[
+  {
+    "code": "BN",
+    "label": "Northern Bahr el Ghazal",
+    "type": "State"
+  },
+  {
+    "code": "BW",
+    "label": "Western Bahr el Ghazal",
+    "type": "State"
+  },
+  {
+    "code": "EC",
+    "label": "Central Equatoria",
+    "type": "State"
+  },
+  {
+    "code": "EE",
+    "label": "Eastern Equatoria",
+    "type": "State"
+  },
+  {
+    "code": "EW",
+    "label": "Western Equatoria",
+    "type": "State"
+  },
+  {
+    "code": "JG",
+    "label": "Jonglei",
+    "type": "State"
+  },
+  {
+    "code": "LK",
+    "label": "Lakes",
+    "type": "State"
+  },
+  {
+    "code": "NU",
+    "label": "Upper Nile",
+    "type": "State"
+  },
+  {
+    "code": "UY",
+    "label": "Unity",
+    "type": "State"
+  },
+  {
+    "code": "WR",
+    "label": "Warrap",
+    "type": "State"
+  }
+]

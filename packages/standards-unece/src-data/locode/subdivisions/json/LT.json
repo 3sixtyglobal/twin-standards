@@ -1,0 +1,352 @@
+[
+  {
+    "code": "01",
+    "label": "Akmene",
+    "type": "District municipality"
+  },
+  {
+    "code": "02",
+    "label": "Alytaus miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "03",
+    "label": "Alytus",
+    "type": "District municipality"
+  },
+  {
+    "code": "04",
+    "label": "Anykciai",
+    "type": "District municipality"
+  },
+  {
+    "code": "05",
+    "label": "Birtonas",
+    "type": "Municipality"
+  },
+  {
+    "code": "06",
+    "label": "Birai",
+    "type": "District municipality"
+  },
+  {
+    "code": "07",
+    "label": "Druskininkai",
+    "type": "Municipality"
+  },
+  {
+    "code": "08",
+    "label": "Elektrénai",
+    "type": "Municipality"
+  },
+  {
+    "code": "09",
+    "label": "Ignalina",
+    "type": "District municipality"
+  },
+  {
+    "code": "10",
+    "label": "Jonava",
+    "type": "District municipality"
+  },
+  {
+    "code": "11",
+    "label": "Jonikis",
+    "type": "District municipality"
+  },
+  {
+    "code": "12",
+    "label": "Jurbarkas",
+    "type": "District municipality"
+  },
+  {
+    "code": "13",
+    "label": "Kaiiadorys",
+    "type": "District municipality"
+  },
+  {
+    "code": "14",
+    "label": "Kalvarija",
+    "type": "Municipality"
+  },
+  {
+    "code": "15",
+    "label": "Kauno miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "16",
+    "label": "Kaunas",
+    "type": "District municipality"
+  },
+  {
+    "code": "17",
+    "label": "Kazlu Rudos",
+    "type": "Municipality"
+  },
+  {
+    "code": "18",
+    "label": "Kedainiai",
+    "type": "District municipality"
+  },
+  {
+    "code": "19",
+    "label": "Kelme",
+    "type": "District municipality"
+  },
+  {
+    "code": "20",
+    "label": "Klaipedos miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "21",
+    "label": "Klaipeda",
+    "type": "District municipality"
+  },
+  {
+    "code": "22",
+    "label": "Kretinga",
+    "type": "District municipality"
+  },
+  {
+    "code": "23",
+    "label": "Kupikis",
+    "type": "District municipality"
+  },
+  {
+    "code": "24",
+    "label": "Lazdijai",
+    "type": "District municipality"
+  },
+  {
+    "code": "25",
+    "label": "Marijampole",
+    "type": "District municipality"
+  },
+  {
+    "code": "26",
+    "label": "Maeikiai",
+    "type": "District municipality"
+  },
+  {
+    "code": "27",
+    "label": "Moletai",
+    "type": "District municipality"
+  },
+  {
+    "code": "28",
+    "label": "Neringa",
+    "type": "Municipality"
+  },
+  {
+    "code": "29",
+    "label": "Pagégiai",
+    "type": "Municipality"
+  },
+  {
+    "code": "30",
+    "label": "Pakruojis",
+    "type": "District municipality"
+  },
+  {
+    "code": "31",
+    "label": "Palangos miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "32",
+    "label": "Paneveio miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "33",
+    "label": "Paneveys",
+    "type": "District municipality"
+  },
+  {
+    "code": "34",
+    "label": "Pasvalys",
+    "type": "District municipality"
+  },
+  {
+    "code": "35",
+    "label": "Plunge",
+    "type": "District municipality"
+  },
+  {
+    "code": "36",
+    "label": "Prienai",
+    "type": "District municipality"
+  },
+  {
+    "code": "37",
+    "label": "Radvilikis",
+    "type": "District municipality"
+  },
+  {
+    "code": "38",
+    "label": "Raseiniai",
+    "type": "District municipality"
+  },
+  {
+    "code": "39",
+    "label": "Rietavas",
+    "type": "Municipality"
+  },
+  {
+    "code": "40",
+    "label": "Rokikis",
+    "type": "District municipality"
+  },
+  {
+    "code": "41",
+    "label": "akiai",
+    "type": "District municipality"
+  },
+  {
+    "code": "42",
+    "label": "alcininkai",
+    "type": "District municipality"
+  },
+  {
+    "code": "43",
+    "label": "iauliu miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "44",
+    "label": "iauliai",
+    "type": "District municipality"
+  },
+  {
+    "code": "45",
+    "label": "ilale",
+    "type": "District municipality"
+  },
+  {
+    "code": "46",
+    "label": "ilute",
+    "type": "District municipality"
+  },
+  {
+    "code": "47",
+    "label": "irvintos",
+    "type": "District municipality"
+  },
+  {
+    "code": "48",
+    "label": "Skuodas",
+    "type": "District municipality"
+  },
+  {
+    "code": "49",
+    "label": "vencionys",
+    "type": "District municipality"
+  },
+  {
+    "code": "50",
+    "label": "Taurage",
+    "type": "District municipality"
+  },
+  {
+    "code": "51",
+    "label": "Teliai",
+    "type": "District municipality"
+  },
+  {
+    "code": "52",
+    "label": "Trakai",
+    "type": "District municipality"
+  },
+  {
+    "code": "53",
+    "label": "Ukmerge",
+    "type": "District municipality"
+  },
+  {
+    "code": "54",
+    "label": "Utena",
+    "type": "District municipality"
+  },
+  {
+    "code": "55",
+    "label": "Varena",
+    "type": "District municipality"
+  },
+  {
+    "code": "56",
+    "label": "Vilkavikis",
+    "type": "District municipality"
+  },
+  {
+    "code": "57",
+    "label": "Vilniaus miestas",
+    "type": "City municipality"
+  },
+  {
+    "code": "58",
+    "label": "Vilnius",
+    "type": "District municipality"
+  },
+  {
+    "code": "59",
+    "label": "Visaginas",
+    "type": "Municipality"
+  },
+  {
+    "code": "60",
+    "label": "Zarasai",
+    "type": "District municipality"
+  },
+  {
+    "code": "AL",
+    "label": "Alytaus Apskritis",
+    "type": "County"
+  },
+  {
+    "code": "KL",
+    "label": "Klaipedos apskritis",
+    "type": "County"
+  },
+  {
+    "code": "KU",
+    "label": "Kauno Apskritis",
+    "type": "County"
+  },
+  {
+    "code": "MR",
+    "label": "Marijampoles apskritis",
+    "type": "County"
+  },
+  {
+    "code": "PN",
+    "label": "Paneveio apskritis",
+    "type": "County"
+  },
+  {
+    "code": "SA",
+    "label": "iauliu Apskritis",
+    "type": "County"
+  },
+  {
+    "code": "TA",
+    "label": "Taurages apskritis",
+    "type": "County"
+  },
+  {
+    "code": "TE",
+    "label": "Teliu Apskritis",
+    "type": "County"
+  },
+  {
+    "code": "UT",
+    "label": "Utenos Apskritis",
+    "type": "County"
+  },
+  {
+    "code": "VL",
+    "label": "Vilniaus Apskritis",
+    "type": "County"
+  }
+]

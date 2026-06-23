@@ -1,0 +1,433 @@
+[
+  {
+    "locationCode": "BRV",
+    "label": "Berovo",
+    "subdivisionCode": "201",
+    "function": "3",
+    "lat": 41.7,
+    "lng": 22.85
+  },
+  {
+    "locationCode": "BTL",
+    "label": "Bitola",
+    "subdivisionCode": "501",
+    "function": "234",
+    "lat": 41.016667,
+    "lng": 21.316667
+  },
+  {
+    "locationCode": "BLC",
+    "label": "Blace",
+    "function": "3"
+  },
+  {
+    "locationCode": "BLT",
+    "label": "Blato",
+    "function": "3"
+  },
+  {
+    "locationCode": "BDA",
+    "label": "Bogdanci",
+    "subdivisionCode": "401",
+    "function": "3",
+    "lat": 41.2,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "BRD",
+    "label": "Bogorodica",
+    "function": "3"
+  },
+  {
+    "locationCode": "BT5",
+    "label": "Bogovinje",
+    "subdivisionCode": "609",
+    "function": "3",
+    "lat": 41.916667,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "DEB",
+    "label": "Debar",
+    "subdivisionCode": "303",
+    "function": "3",
+    "lat": 41.533333,
+    "lng": 20.516667
+  },
+  {
+    "locationCode": "DLV",
+    "label": "Delcevo",
+    "function": "3"
+  },
+  {
+    "locationCode": "DEH",
+    "label": "Demir Hisar",
+    "subdivisionCode": "502",
+    "function": "3",
+    "lat": 41.216667,
+    "lng": 21.2
+  },
+  {
+    "locationCode": "DKJ",
+    "label": "Demir Kapija",
+    "subdivisionCode": "103",
+    "function": "13",
+    "lat": 41.4,
+    "lng": 22.233333
+  },
+  {
+    "locationCode": "DVB",
+    "label": "Deve Bair",
+    "function": "3"
+  },
+  {
+    "locationCode": "DRA",
+    "label": "Dracevo",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 41.933333,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "GVL",
+    "label": "Gevgelija",
+    "subdivisionCode": "405",
+    "function": "23",
+    "lat": 41.133333,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "GST",
+    "label": "Gostivar",
+    "subdivisionCode": "604",
+    "function": "3"
+  },
+  {
+    "locationCode": "GDK",
+    "label": "Gradsko",
+    "subdivisionCode": "102",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "ILI",
+    "label": "Ilinden",
+    "subdivisionCode": "85",
+    "function": "3",
+    "lat": 41.983333,
+    "lng": 21.566667
+  },
+  {
+    "locationCode": "JNC",
+    "label": "Jacince",
+    "function": "3"
+  },
+  {
+    "locationCode": "KFN",
+    "label": "Kafasan",
+    "function": "3"
+  },
+  {
+    "locationCode": "KBI",
+    "label": "Karbinci",
+    "subdivisionCode": "205",
+    "function": "3",
+    "lat": 41.8,
+    "lng": 22.283333
+  },
+  {
+    "locationCode": "KVD",
+    "label": "Kavadarci",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": 22
+  },
+  {
+    "locationCode": "KCV",
+    "label": "Kicevo",
+    "function": "3"
+  },
+  {
+    "locationCode": "KCI",
+    "label": "Kocani",
+    "function": "3",
+    "lat": 41.916667,
+    "lng": 22.4
+  },
+  {
+    "locationCode": "KI8",
+    "label": "Konopiste",
+    "subdivisionCode": "104",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": 22.066667
+  },
+  {
+    "locationCode": "KOS",
+    "label": "Kosovo",
+    "function": "3",
+    "lat": 41.816667,
+    "lng": 21.116667
+  },
+  {
+    "locationCode": "KKP",
+    "label": "Kriva Palanka",
+    "subdivisionCode": "702",
+    "function": "3",
+    "lat": 42.2,
+    "lng": 22.316667
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumanovo",
+    "subdivisionCode": "703",
+    "function": "3",
+    "lat": 42.116667,
+    "lng": 21.7
+  },
+  {
+    "locationCode": "LOZ",
+    "label": "Lozovo",
+    "subdivisionCode": "105",
+    "function": "23",
+    "lat": 41.75,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "MB7",
+    "label": "Makedonski Brod",
+    "subdivisionCode": "308",
+    "function": "3",
+    "lat": 41.5,
+    "lng": 21.2
+  },
+  {
+    "locationCode": "MTL",
+    "label": "Medzitlija",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 21.433333
+  },
+  {
+    "locationCode": "MIR",
+    "label": "Miravci",
+    "subdivisionCode": "405",
+    "function": "3",
+    "lat": 41.3,
+    "lng": 22.433333
+  },
+  {
+    "locationCode": "NGT",
+    "label": "Negotino",
+    "subdivisionCode": "106",
+    "function": "3",
+    "lat": 41.483333,
+    "lng": 22.083333
+  },
+  {
+    "locationCode": "NOD",
+    "label": "Novi Dojran",
+    "subdivisionCode": "406",
+    "function": "1",
+    "lat": 41.216667,
+    "lng": 22.7
+  },
+  {
+    "locationCode": "NSL",
+    "label": "Novo Selo",
+    "subdivisionCode": "408",
+    "function": "3",
+    "lat": 41.416667,
+    "lng": 22.9
+  },
+  {
+    "locationCode": "OBL",
+    "label": "Oblesevo",
+    "subdivisionCode": "206",
+    "function": "3",
+    "lat": 41.883333,
+    "lng": 22.333333
+  },
+  {
+    "locationCode": "OHD",
+    "label": "Ohrid",
+    "subdivisionCode": "310",
+    "function": "34",
+    "lat": 41.116667,
+    "lng": 20.8
+  },
+  {
+    "locationCode": "PLN",
+    "label": "Pelince",
+    "function": "3"
+  },
+  {
+    "locationCode": "PTR",
+    "label": "Petrovec",
+    "subdivisionCode": "810",
+    "function": "4",
+    "lat": 41.933333,
+    "lng": 21.6
+  },
+  {
+    "locationCode": "PLP",
+    "label": "Prilep",
+    "subdivisionCode": "508",
+    "function": "23",
+    "lat": 41.333333,
+    "lng": 21.55
+  },
+  {
+    "locationCode": "PRO",
+    "label": "Probistip",
+    "subdivisionCode": "209",
+    "function": "3",
+    "lat": 42,
+    "lng": 22.183333
+  },
+  {
+    "locationCode": "RAD",
+    "label": "Radovis",
+    "subdivisionCode": "409",
+    "function": "16",
+    "lat": 41.65,
+    "lng": 22.5
+  },
+  {
+    "locationCode": "RSN",
+    "label": "Resen",
+    "function": "3"
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Skopje",
+    "function": "34"
+  },
+  {
+    "locationCode": "SPT",
+    "label": "Sopot",
+    "subdivisionCode": "101",
+    "function": "3",
+    "lat": 41.783333,
+    "lng": 21.716667
+  },
+  {
+    "locationCode": "SDR",
+    "label": "Star Dojran",
+    "subdivisionCode": "406",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": 22.716667
+  },
+  {
+    "locationCode": "STE",
+    "label": "Stenje",
+    "subdivisionCode": "509",
+    "function": "3",
+    "lat": 40.933333,
+    "lng": 20.9
+  },
+  {
+    "locationCode": "STP",
+    "label": "Stip",
+    "function": "3"
+  },
+  {
+    "locationCode": "STO",
+    "label": "Stojakovo",
+    "subdivisionCode": "401",
+    "function": "3",
+    "lat": 41.15,
+    "lng": 22.566667
+  },
+  {
+    "locationCode": "STG",
+    "label": "Struga",
+    "subdivisionCode": "108",
+    "function": "3"
+  },
+  {
+    "locationCode": "STM",
+    "label": "Strumica",
+    "subdivisionCode": "410",
+    "function": "3",
+    "lat": 41.433333,
+    "lng": 22.633333
+  },
+  {
+    "locationCode": "STN",
+    "label": "Sveti Naum",
+    "subdivisionCode": "310",
+    "function": "3",
+    "lat": 40.9,
+    "lng": 20.8
+  },
+  {
+    "locationCode": "SNI",
+    "label": "Sveti Nikole",
+    "subdivisionCode": "108",
+    "function": "1",
+    "lat": 41.85,
+    "lng": 21.933333
+  },
+  {
+    "locationCode": "TBN",
+    "label": "Tabanovce",
+    "function": "3"
+  },
+  {
+    "locationCode": "TEV",
+    "label": "Tetovo",
+    "subdivisionCode": "609",
+    "function": "3",
+    "lat": 42,
+    "lng": 20.966667
+  },
+  {
+    "locationCode": "MTS",
+    "label": "Titov Veles",
+    "subdivisionCode": "101",
+    "function": "6",
+    "lat": 41.7,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "TBR",
+    "label": "Trubarevo",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 41.966667,
+    "lng": 21.516667
+  },
+  {
+    "locationCode": "VAL",
+    "label": "Valandovo",
+    "subdivisionCode": "403",
+    "function": "3",
+    "lat": 41.316667,
+    "lng": 22.55
+  },
+  {
+    "locationCode": "TTV",
+    "label": "Veles",
+    "subdivisionCode": "101",
+    "function": "23",
+    "lat": 41.7,
+    "lng": 21.766667
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Vinica",
+    "subdivisionCode": "202",
+    "function": "3",
+    "lat": 41.866667,
+    "lng": 22.483333
+  },
+  {
+    "locationCode": "VLK",
+    "label": "Volkovo",
+    "function": "3"
+  }
+]

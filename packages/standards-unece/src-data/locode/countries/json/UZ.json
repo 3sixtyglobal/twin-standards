@@ -1,0 +1,304 @@
+[
+  {
+    "locationCode": "AKT",
+    "label": "Akaltyn",
+    "function": "13",
+    "lat": 41.433333,
+    "lng": 61.066667
+  },
+  {
+    "locationCode": "ALK",
+    "label": "Almalyk",
+    "function": "3"
+  },
+  {
+    "locationCode": "ALT",
+    "label": "Altyaryk",
+    "subdivisionCode": "FA",
+    "function": "23",
+    "lat": 40.383333,
+    "lng": 71.466667
+  },
+  {
+    "locationCode": "AZN",
+    "label": "Andizhan",
+    "function": "4"
+  },
+  {
+    "locationCode": "ASA",
+    "label": "Asaka",
+    "subdivisionCode": "AN",
+    "function": "13",
+    "lat": 40.633333,
+    "lng": 72.233333
+  },
+  {
+    "locationCode": "AST",
+    "label": "Astana",
+    "subdivisionCode": "XO",
+    "function": "23",
+    "lat": 41.333333,
+    "lng": 60.6
+  },
+  {
+    "locationCode": "BHK",
+    "label": "Bukhara",
+    "function": "4"
+  },
+  {
+    "locationCode": "CKT",
+    "label": "Chimkent",
+    "subdivisionCode": "FA",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 71.633333
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Chukur-Say",
+    "subdivisionCode": "TO",
+    "function": "23",
+    "lat": 41.366667,
+    "lng": 69.216667
+  },
+  {
+    "locationCode": "FEG",
+    "label": "Fergana",
+    "function": "4"
+  },
+  {
+    "locationCode": "GST",
+    "label": "Guliston",
+    "function": "23",
+    "lat": 40.5,
+    "lng": 68.783333
+  },
+  {
+    "locationCode": "JIZ",
+    "label": "Jizzakh",
+    "subdivisionCode": "JI",
+    "function": "23",
+    "lat": 40.1,
+    "lng": 67.833333
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kamashi",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 38.816667,
+    "lng": 66.45
+  },
+  {
+    "locationCode": "KPA",
+    "label": "Karakalpakiya",
+    "subdivisionCode": "QR",
+    "function": "3",
+    "lat": 44.75,
+    "lng": 56.083333
+  },
+  {
+    "locationCode": "KBZ",
+    "label": "Karaulbazar",
+    "function": "3",
+    "lat": 39.483333,
+    "lng": 64.783333
+  },
+  {
+    "locationCode": "KSQ",
+    "label": "Karshi",
+    "subdivisionCode": "QA",
+    "function": "234",
+    "lat": 38.85,
+    "lng": 65.783333
+  },
+  {
+    "locationCode": "KGS",
+    "label": "Kengsoy",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 38.35,
+    "lng": 65.85
+  },
+  {
+    "locationCode": "KHM",
+    "label": "Khamza",
+    "function": "23",
+    "lat": 40.416667,
+    "lng": 71.5
+  },
+  {
+    "locationCode": "KKH",
+    "label": "Khanabad",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 38.833333,
+    "lng": 65.933333
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Kokand",
+    "subdivisionCode": "FA",
+    "function": "23",
+    "lat": 40.516667,
+    "lng": 70.933333
+  },
+  {
+    "locationCode": "6BT",
+    "label": "Kungrad",
+    "subdivisionCode": "QR",
+    "function": "3",
+    "lat": 43.066667,
+    "lng": 58.9
+  },
+  {
+    "locationCode": "MGN",
+    "label": "Marghilon",
+    "function": "23"
+  },
+  {
+    "locationCode": "NMA",
+    "label": "Namangan",
+    "function": "4"
+  },
+  {
+    "locationCode": "NVI",
+    "label": "Navoi Apt.",
+    "subdivisionCode": "NW",
+    "function": "4",
+    "lat": 40.116667,
+    "lng": 65.166667
+  },
+  {
+    "locationCode": "NWY",
+    "label": "Nawoiy",
+    "function": "23",
+    "lat": 40.116667,
+    "lng": 65.35
+  },
+  {
+    "locationCode": "NCU",
+    "label": "Nukus",
+    "function": "4"
+  },
+  {
+    "locationCode": "AGN",
+    "label": "Ohangaron",
+    "subdivisionCode": "TO",
+    "function": "23",
+    "lat": 40.9,
+    "lng": 69.633333
+  },
+  {
+    "locationCode": "QAR",
+    "label": "Qarshi",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 39.516667,
+    "lng": 59.483333
+  },
+  {
+    "locationCode": "QUN",
+    "label": "Qunghirot",
+    "subdivisionCode": "QR",
+    "function": "23",
+    "lat": 43.033333,
+    "lng": 58.833333
+  },
+  {
+    "locationCode": "SKD",
+    "label": "Samarkand",
+    "function": "4"
+  },
+  {
+    "locationCode": "SYA",
+    "label": "Sary-Assiya",
+    "function": "3",
+    "lat": 39.116667,
+    "lng": 66.95
+  },
+  {
+    "locationCode": "TSH",
+    "label": "Sergeli",
+    "subdivisionCode": "TO",
+    "function": "3",
+    "lat": 41.4,
+    "lng": 69.733333
+  },
+  {
+    "locationCode": "SHU",
+    "label": "Shurkhasan",
+    "subdivisionCode": "QA",
+    "function": "3",
+    "lat": 38.9,
+    "lng": 67.2
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tashkent",
+    "function": "245"
+  },
+  {
+    "locationCode": "TER",
+    "label": "Termez",
+    "subdivisionCode": "SU",
+    "function": "23",
+    "lat": 37.216667,
+    "lng": 67.266667
+  },
+  {
+    "locationCode": "UCH",
+    "label": "Uchquduq",
+    "subdivisionCode": "NW",
+    "function": "24",
+    "lat": 42.25,
+    "lng": 63.916667
+  },
+  {
+    "locationCode": "ULU",
+    "label": "Ulugbek",
+    "function": "3",
+    "lat": 41.383333,
+    "lng": 69.4
+  },
+  {
+    "locationCode": "UGC",
+    "label": "Urganch (Urgench)",
+    "subdivisionCode": "XO",
+    "function": "234",
+    "lat": 41.55,
+    "lng": 60.633333
+  },
+  {
+    "locationCode": "GUT",
+    "label": "Urgut",
+    "subdivisionCode": "SA",
+    "function": "3",
+    "lat": 39.4,
+    "lng": 67.233333
+  },
+  {
+    "locationCode": "YLH",
+    "label": "Yalangach",
+    "subdivisionCode": "TO",
+    "function": "3",
+    "lat": 41.35,
+    "lng": 69.333333
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Zarafshon",
+    "subdivisionCode": "NW",
+    "function": "23",
+    "lat": 41.566667,
+    "lng": 64.2
+  },
+  {
+    "locationCode": "ZER",
+    "label": "Zeravshan",
+    "subdivisionCode": "NW",
+    "function": "4",
+    "lat": 41.95,
+    "lng": 64.316667
+  }
+]

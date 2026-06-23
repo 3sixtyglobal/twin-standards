@@ -1,0 +1,1405 @@
+[
+  {
+    "locationCode": "ADU",
+    "label": "Aduana",
+    "function": "0"
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amatitlán",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Amatitlan",
+    "function": "3",
+    "lat": 14.483333,
+    "lng": -90.616667
+  },
+  {
+    "locationCode": "ANT",
+    "label": "Antigua",
+    "function": "0"
+  },
+  {
+    "locationCode": "AGA",
+    "label": "Antigua Guatemala",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.55,
+    "lng": -90.733333
+  },
+  {
+    "locationCode": "AMI",
+    "label": "Asunción Mita",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Asuncion Mita",
+    "function": "3",
+    "lat": 14.316667,
+    "lng": -89.7
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Barberena",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.3,
+    "lng": -90.35
+  },
+  {
+    "locationCode": "BAR",
+    "label": "Bárcenas",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Barcenas",
+    "function": "37",
+    "lat": 14.516667,
+    "lng": -90.6
+  },
+  {
+    "locationCode": "BOC",
+    "label": "Boca del Monte",
+    "subdivisionCode": "01",
+    "function": "236",
+    "lat": 14.55,
+    "lng": -90.516667
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Camotán",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Camotan",
+    "function": "3",
+    "lat": 14.816667,
+    "lng": -89.366667
+  },
+  {
+    "locationCode": "CMM",
+    "label": "Carmelita",
+    "function": "4"
+  },
+  {
+    "locationCode": "CJL",
+    "label": "Chajul",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 15.483333,
+    "lng": -91.033333
+  },
+  {
+    "locationCode": "CHR",
+    "label": "Champerico",
+    "subdivisionCode": "11",
+    "function": "12367",
+    "lat": 14.3,
+    "lng": -91.916667
+  },
+  {
+    "locationCode": "CHC",
+    "label": "Chicacao",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": -91.316667
+  },
+  {
+    "locationCode": "CCO",
+    "label": "Chichicastenango",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 14.933333,
+    "lng": -91.116667
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chimaltenango",
+    "function": "23"
+  },
+  {
+    "locationCode": "CHT",
+    "label": "Chinautla",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.7,
+    "lng": -90.483333
+  },
+  {
+    "locationCode": "CIQ",
+    "label": "Chiquimula",
+    "function": "4"
+  },
+  {
+    "locationCode": "CHQ",
+    "label": "Chiquimulilla",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.083333,
+    "lng": -90.366667
+  },
+  {
+    "locationCode": "CTU",
+    "label": "Ciudad Tecún Umán",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Ciudad Tecun Uman",
+    "function": "23",
+    "lat": 14.666667,
+    "lng": -92.15
+  },
+  {
+    "locationCode": "CDV",
+    "label": "Ciudad Vieja",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": -90.75
+  },
+  {
+    "locationCode": "CTF",
+    "label": "Coatepeque",
+    "subdivisionCode": "09",
+    "function": "2346",
+    "lat": 14.7,
+    "lng": -91.866667
+  },
+  {
+    "locationCode": "CBV",
+    "label": "Coban",
+    "function": "34"
+  },
+  {
+    "locationCode": "CLS",
+    "label": "Cocales",
+    "subdivisionCode": "SU",
+    "function": "36",
+    "lat": 14.4,
+    "lng": -91.183333
+  },
+  {
+    "locationCode": "CCN",
+    "label": "Concepcion",
+    "subdivisionCode": "SO",
+    "function": "3",
+    "lat": 14.783333,
+    "lng": -91.15
+  },
+  {
+    "locationCode": "CUI",
+    "label": "Cuilapa",
+    "function": "3",
+    "lat": 14.283333,
+    "lng": -90.3
+  },
+  {
+    "locationCode": "COY",
+    "label": "Cuyotenango",
+    "function": "3"
+  },
+  {
+    "locationCode": "DON",
+    "label": "Dos Lagunas",
+    "function": "34",
+    "lat": 17.683333,
+    "lng": -89.533333
+  },
+  {
+    "locationCode": "E8C",
+    "label": "El Carmen",
+    "subdivisionCode": "15",
+    "function": "1",
+    "lat": 15.15,
+    "lng": -90.233333
+  },
+  {
+    "locationCode": "ELE",
+    "label": "El Estor",
+    "subdivisionCode": "18",
+    "function": "1"
+  },
+  {
+    "locationCode": "EJO",
+    "label": "El Jicaro",
+    "subdivisionCode": "PR",
+    "function": "3",
+    "lat": 14.766667,
+    "lng": -90.4
+  },
+  {
+    "locationCode": "EJC",
+    "label": "El Jocotillo",
+    "function": "3",
+    "lat": 14.366667,
+    "lng": -90.5
+  },
+  {
+    "locationCode": "ENJ",
+    "label": "El Naranjo",
+    "function": "4"
+  },
+  {
+    "locationCode": "ELP",
+    "label": "El Pino",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.316667,
+    "lng": -90.383333
+  },
+  {
+    "locationCode": "PRO",
+    "label": "El Progreso",
+    "subdivisionCode": "02",
+    "function": "236",
+    "lat": 14.85,
+    "lng": -90.05
+  },
+  {
+    "locationCode": "EQZ",
+    "label": "El Quetzal",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 14.766667,
+    "lng": -91.816667
+  },
+  {
+    "locationCode": "ERH",
+    "label": "El Rancho",
+    "function": "0"
+  },
+  {
+    "locationCode": "ELR",
+    "label": "El Rancho",
+    "subdivisionCode": "02",
+    "function": "36",
+    "lat": 14.9,
+    "lng": -90
+  },
+  {
+    "locationCode": "ESV",
+    "label": "El Salvador",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 15.466667,
+    "lng": -91.333333
+  },
+  {
+    "locationCode": "ELT",
+    "label": "El Tejar",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -90.783333
+  },
+  {
+    "locationCode": "ERI",
+    "label": "Entre Ríos",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Entre Rios",
+    "function": "236",
+    "lat": 15.633333,
+    "lng": -88.533333
+  },
+  {
+    "locationCode": "ESC",
+    "label": "Escuintla",
+    "function": "3"
+  },
+  {
+    "locationCode": "ESQ",
+    "label": "Esquipulas",
+    "subdivisionCode": "20",
+    "function": "37",
+    "lat": 14.566667,
+    "lng": -89.35
+  },
+  {
+    "locationCode": "EST",
+    "label": "Estanzuela",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 15,
+    "lng": -89.566667
+  },
+  {
+    "locationCode": "FRS",
+    "label": "Flores",
+    "function": "4"
+  },
+  {
+    "locationCode": "FRA",
+    "label": "Fraijanes",
+    "function": "0"
+  },
+  {
+    "locationCode": "GUT",
+    "label": "Guastatoya",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 14.85,
+    "lng": -90.05
+  },
+  {
+    "locationCode": "GUA",
+    "label": "Guatemala City",
+    "function": "45"
+  },
+  {
+    "locationCode": "HUG",
+    "label": "Huehuetenango",
+    "function": "4"
+  },
+  {
+    "locationCode": "IXC",
+    "label": "Ixcán",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Ixcan",
+    "function": "3",
+    "lat": 15.983333,
+    "lng": -90.766667
+  },
+  {
+    "locationCode": "JZB",
+    "label": "Izabal",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 15.4,
+    "lng": -89.133333
+  },
+  {
+    "locationCode": "ITA",
+    "label": "Iztapa",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": 13.933333,
+    "lng": -90.7
+  },
+  {
+    "locationCode": "JAL",
+    "label": "Jalapa",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -89.983333
+  },
+  {
+    "locationCode": "JTG",
+    "label": "Jocotenango",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -90.733333
+  },
+  {
+    "locationCode": "JUT",
+    "label": "Jutiapa",
+    "subdivisionCode": "22",
+    "function": "3",
+    "lat": 14.283333,
+    "lng": -89.9
+  },
+  {
+    "locationCode": "LAA",
+    "label": "La Aurora",
+    "function": "1"
+  },
+  {
+    "locationCode": "LBA",
+    "label": "La Blanca",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -92.133333
+  },
+  {
+    "locationCode": "LDE",
+    "label": "La Democracia",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": -90.933333
+  },
+  {
+    "locationCode": "LAF",
+    "label": "La Fragua",
+    "function": "0"
+  },
+  {
+    "locationCode": "LGA",
+    "label": "La Gomera",
+    "subdivisionCode": "ES",
+    "function": "3",
+    "lat": 14.083333,
+    "lng": -91.05
+  },
+  {
+    "locationCode": "LPN",
+    "label": "La Libertad Peten",
+    "function": "6",
+    "lat": 16.783333,
+    "lng": -90.116667
+  },
+  {
+    "locationCode": "LA2",
+    "label": "La Maquina",
+    "subdivisionCode": "10",
+    "function": "3",
+    "lat": 14.383333,
+    "lng": -91.583333
+  },
+  {
+    "locationCode": "LIV",
+    "label": "Lívingston",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Livingston",
+    "function": "13",
+    "lat": 15.833333,
+    "lng": -88.75
+  },
+  {
+    "locationCode": "LAS",
+    "label": "Los Amates",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 15.266667,
+    "lng": -89.1
+  },
+  {
+    "locationCode": "LEC",
+    "label": "Los Esclavos",
+    "subdivisionCode": "SR",
+    "function": "3",
+    "lat": 14.25,
+    "lng": -90.283333
+  },
+  {
+    "locationCode": "LOX",
+    "label": "Los Tablones",
+    "subdivisionCode": "04",
+    "function": "4",
+    "lat": 14.75,
+    "lng": -90.783333
+  },
+  {
+    "locationCode": "MAG",
+    "label": "Magdalena",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 15.533333,
+    "lng": -91.433333
+  },
+  {
+    "locationCode": "MMA",
+    "label": "Magdalena Milpas Altas",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": -90.666667
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Masagua",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 14.2,
+    "lng": -90.833333
+  },
+  {
+    "locationCode": "MAT",
+    "label": "Mataquescuintla",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": -90.183333
+  },
+  {
+    "locationCode": "MAZ",
+    "label": "Mazatenango",
+    "function": "3"
+  },
+  {
+    "locationCode": "MCR",
+    "label": "Melchor de Mencos",
+    "function": "4",
+    "lat": 17.066667,
+    "lng": -89.15
+  },
+  {
+    "locationCode": "MIX",
+    "label": "Mixco",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -90.6
+  },
+  {
+    "locationCode": "MJS",
+    "label": "Monjas",
+    "subdivisionCode": "21",
+    "function": "3",
+    "lat": 14.5,
+    "lng": -89.866667
+  },
+  {
+    "locationCode": "MOR",
+    "label": "Morales",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 15.483333,
+    "lng": -88.816667
+  },
+  {
+    "locationCode": "NAH",
+    "label": "Nahualate",
+    "subdivisionCode": "10",
+    "function": "236",
+    "lat": 14.533333,
+    "lng": -91.4
+  },
+  {
+    "locationCode": "NEB",
+    "label": "Nebaj",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 15.4,
+    "lng": -91.15
+  },
+  {
+    "locationCode": "NNO",
+    "label": "Nino Perdido",
+    "subdivisionCode": "15",
+    "function": "3",
+    "lat": 15.166667,
+    "lng": -90.1
+  },
+  {
+    "locationCode": "8RT",
+    "label": "Nueva Concepción",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Nueva Concepcion",
+    "function": "3",
+    "lat": 14.2,
+    "lng": -91.3
+  },
+  {
+    "locationCode": "NSR",
+    "label": "Nueva Santa Rosa",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.366667,
+    "lng": -90.266667
+  },
+  {
+    "locationCode": "OBE",
+    "label": "Obero",
+    "subdivisionCode": "05",
+    "function": "23",
+    "lat": 14.033333,
+    "lng": -90.816667
+  },
+  {
+    "locationCode": "PLA",
+    "label": "Palencia",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.65,
+    "lng": -90.35
+  },
+  {
+    "locationCode": "PAL",
+    "label": "Palin",
+    "function": "0"
+  },
+  {
+    "locationCode": "PAR",
+    "label": "Parramos",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": 14.6,
+    "lng": -90.8
+  },
+  {
+    "locationCode": "PCG",
+    "label": "Paso Caballos",
+    "function": "4"
+  },
+  {
+    "locationCode": "PAT",
+    "label": "Patulul",
+    "subdivisionCode": "10",
+    "function": "23",
+    "lat": 14.416667,
+    "lng": -91.166667
+  },
+  {
+    "locationCode": "PTZ",
+    "label": "Patzicía",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Patzicia",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": -90.916667
+  },
+  {
+    "locationCode": "PAN",
+    "label": "Patzún",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Patzun",
+    "function": "3",
+    "lat": 14.683333,
+    "lng": -91.016667
+  },
+  {
+    "locationCode": "PET",
+    "label": "Petapa",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.5,
+    "lng": -90.55
+  },
+  {
+    "locationCode": "PEE",
+    "label": "Petén",
+    "labelWithDiacritics": "Peten",
+    "function": "6",
+    "lat": 16.9,
+    "lng": -89.9
+  },
+  {
+    "locationCode": "PKJ",
+    "label": "Playa Grande",
+    "subdivisionCode": "14",
+    "function": "4",
+    "lat": 15.916667,
+    "lng": -90.733333
+  },
+  {
+    "locationCode": "PON",
+    "label": "Poptún",
+    "labelWithDiacritics": "Poptun",
+    "function": "4",
+    "lat": 16.333333,
+    "lng": -89.416667
+  },
+  {
+    "locationCode": "PNV",
+    "label": "Pueblo Nuevo Viñas",
+    "labelWithDiacritics": "Pueblo Nuevo Vinas",
+    "function": "3",
+    "lat": 14.233333,
+    "lng": -90.483333
+  },
+  {
+    "locationCode": "PBR",
+    "label": "Puerto Barrios",
+    "function": "14"
+  },
+  {
+    "locationCode": "PRQ",
+    "label": "Puerto Quetzal",
+    "function": "1"
+  },
+  {
+    "locationCode": "PSJ",
+    "label": "Puerto San José",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Puerto San Jose",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": -90.816667
+  },
+  {
+    "locationCode": "STC",
+    "label": "Puerto Santo Tomás de Castilla",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Puerto Santo Tomas de Castilla",
+    "function": "1",
+    "lat": 15.7,
+    "lng": -88.616667
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Purulhá",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Purulha",
+    "function": "3",
+    "lat": 15.266667,
+    "lng": -90.2
+  },
+  {
+    "locationCode": "AAZ",
+    "label": "Quetzaltenango",
+    "function": "34"
+  },
+  {
+    "locationCode": "AQB",
+    "label": "Quiché",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Quiche",
+    "function": "4",
+    "lat": 15.366667,
+    "lng": -89.8
+  },
+  {
+    "locationCode": "QUI",
+    "label": "Quiriguá",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Quirigua",
+    "function": "3",
+    "lat": 15.266667,
+    "lng": -89.083333
+  },
+  {
+    "locationCode": "RTE",
+    "label": "Retalhuleu",
+    "function": "3"
+  },
+  {
+    "locationCode": "RIO",
+    "label": "Río Bravo",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Rio Bravo",
+    "function": "16",
+    "lat": 14.4,
+    "lng": -91.316667
+  },
+  {
+    "locationCode": "RDC",
+    "label": "Río Dulce",
+    "labelWithDiacritics": "Rio Dulce",
+    "function": "3",
+    "lat": 15.766667,
+    "lng": -96.25
+  },
+  {
+    "locationCode": "RIH",
+    "label": "Rio Hondo",
+    "function": "0"
+  },
+  {
+    "locationCode": "RUV",
+    "label": "Rubelsanto",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLM",
+    "label": "Salamá",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Salama",
+    "function": "3",
+    "lat": 15.1,
+    "lng": -90.266667
+  },
+  {
+    "locationCode": "SA2",
+    "label": "San Agustín Acasaguastlán",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "San Agustin Acasaguastlan",
+    "function": "3",
+    "lat": 14.95,
+    "lng": -89.966667
+  },
+  {
+    "locationCode": "SAI",
+    "label": "San Andrés Itzapa",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "San Andres Itzapa",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": -90.833333
+  },
+  {
+    "locationCode": "SAA",
+    "label": "San Antonio Suchitepéquez",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "San Antonio Suchitepequez",
+    "function": "23",
+    "lat": 14.533333,
+    "lng": -91.416667
+  },
+  {
+    "locationCode": "SAB",
+    "label": "San Bartolomé Milpas Altas",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "San Bartolome Milpas Altas",
+    "function": "3",
+    "lat": 14.6,
+    "lng": -90.666667
+  },
+  {
+    "locationCode": "SBE",
+    "label": "San Benito",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 16.916667,
+    "lng": -89.9
+  },
+  {
+    "locationCode": "SCA",
+    "label": "San Cristóbal Acasaguastlán",
+    "subdivisionCode": "02",
+    "labelWithDiacritics": "San Cristobal Acasaguastlan",
+    "function": "3",
+    "lat": 14.916667,
+    "lng": -89.883333
+  },
+  {
+    "locationCode": "SCF",
+    "label": "San Cristóbal Frontera",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "San Cristobal Frontera",
+    "function": "3",
+    "lat": 14.183333,
+    "lng": -89.666667
+  },
+  {
+    "locationCode": "SCV",
+    "label": "San Cristóbal Verapaz",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "San Cristobal Verapaz",
+    "function": "3",
+    "lat": 15.383333,
+    "lng": -90.4
+  },
+  {
+    "locationCode": "SFR",
+    "label": "San Francisco",
+    "subdivisionCode": "PE",
+    "function": "3",
+    "lat": 16.8,
+    "lng": -89.933333
+  },
+  {
+    "locationCode": "IXT",
+    "label": "San Ixtán",
+    "labelWithDiacritics": "San Ixtan",
+    "function": "3",
+    "lat": 14.166667,
+    "lng": -90.016667
+  },
+  {
+    "locationCode": "SJE",
+    "label": "San Jerónimo",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "San Jeronimo",
+    "function": "3",
+    "lat": 15.05,
+    "lng": -90.2
+  },
+  {
+    "locationCode": "SNJ",
+    "label": "San Jose",
+    "function": "135"
+  },
+  {
+    "locationCode": "SN2",
+    "label": "San José",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "San Jose",
+    "function": "3",
+    "lat": 13.916667,
+    "lng": -90.816667
+  },
+  {
+    "locationCode": "SJG",
+    "label": "San José del Golfo",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "San Jose del Golfo",
+    "function": "3",
+    "lat": 14.75,
+    "lng": -90.366667
+  },
+  {
+    "locationCode": "SJP",
+    "label": "San José Pinula",
+    "labelWithDiacritics": "San Jose Pinula",
+    "function": "3"
+  },
+  {
+    "locationCode": "SJC",
+    "label": "San Juan Chamelco",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 15.433333,
+    "lng": -90.333333
+  },
+  {
+    "locationCode": "SAJ",
+    "label": "San Juan Cotzal",
+    "subdivisionCode": "14",
+    "function": "3",
+    "lat": 15.433333,
+    "lng": -91.033333
+  },
+  {
+    "locationCode": "SJS",
+    "label": "San Juan Sacatepéquez",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "San Juan Sacatepequez",
+    "function": "3",
+    "lat": 14.716667,
+    "lng": -90.633333
+  },
+  {
+    "locationCode": "SNL",
+    "label": "San Lucas",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.616667,
+    "lng": -90.65
+  },
+  {
+    "locationCode": "SAL",
+    "label": "San Lucas Sacatepéquez",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "San Lucas Sacatepequez",
+    "function": "3",
+    "lat": 14.6,
+    "lng": -90.65
+  },
+  {
+    "locationCode": "SLT",
+    "label": "San Lucas Tolimán",
+    "subdivisionCode": "SO",
+    "labelWithDiacritics": "San Lucas Toliman",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -91.133333
+  },
+  {
+    "locationCode": "SAM",
+    "label": "San Marcos",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 14.966667,
+    "lng": -91.8
+  },
+  {
+    "locationCode": "SMS",
+    "label": "San Marcos",
+    "subdivisionCode": "18",
+    "function": "3",
+    "lat": 15.566667,
+    "lng": -88.916667
+  },
+  {
+    "locationCode": "SMD",
+    "label": "San Miguel Dueñas",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "San Miguel Duenas",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": -90.783333
+  },
+  {
+    "locationCode": "SMI",
+    "label": "San Miguel Petapa",
+    "subdivisionCode": "01",
+    "function": "236",
+    "lat": 14.5,
+    "lng": -90.566667
+  },
+  {
+    "locationCode": "SPY",
+    "label": "San Pedro Ayampuc",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.783333,
+    "lng": -90.45
+  },
+  {
+    "locationCode": "SPS",
+    "label": "San Pedro Sacatepéquez",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "San Pedro Sacatepequez",
+    "function": "3",
+    "lat": 14.683333,
+    "lng": -90.633333
+  },
+  {
+    "locationCode": "SRL",
+    "label": "San Rafael Las Flores",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": -90.166667
+  },
+  {
+    "locationCode": "SRA",
+    "label": "San Rafael Pie de La Cuesta",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 14.933333,
+    "lng": -91.916667
+  },
+  {
+    "locationCode": "SRM",
+    "label": "San Raimundo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.75,
+    "lng": -90.583333
+  },
+  {
+    "locationCode": "SAN",
+    "label": "San Raymundo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.75,
+    "lng": -90.583333
+  },
+  {
+    "locationCode": "SEB",
+    "label": "San Sebastián",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "San Sebastian",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -91.65
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Sanarate",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 14.783333,
+    "lng": -90.183333
+  },
+  {
+    "locationCode": "PPR",
+    "label": "Sansare",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": 14.733333,
+    "lng": -90.1
+  },
+  {
+    "locationCode": "SBR",
+    "label": "Santa Bárbara",
+    "subdivisionCode": "13",
+    "labelWithDiacritics": "Santa Barbara",
+    "function": "3",
+    "lat": 15.316667,
+    "lng": -91.616667
+  },
+  {
+    "locationCode": "SBA",
+    "label": "Santa Bárbara",
+    "subdivisionCode": "SU",
+    "labelWithDiacritics": "Santa Barbara",
+    "function": "36",
+    "lat": 14.433333,
+    "lng": -91.233333
+  },
+  {
+    "locationCode": "SCP",
+    "label": "Santa Catarina Pinula",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -90.483333
+  },
+  {
+    "locationCode": "SAC",
+    "label": "Santa Cruz",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 15.016667,
+    "lng": -89.683333
+  },
+  {
+    "locationCode": "SCQ",
+    "label": "Santa Cruz del Quiche",
+    "function": "6",
+    "lat": 15.016667,
+    "lng": -91.15
+  },
+  {
+    "locationCode": "SCM",
+    "label": "Santa Cruz Muluá",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Santa Cruz Mulua",
+    "function": "3",
+    "lat": 14.583333,
+    "lng": -91.616667
+  },
+  {
+    "locationCode": "SRV",
+    "label": "Santa Cruz Verapaz",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 15.366667,
+    "lng": -90.433333
+  },
+  {
+    "locationCode": "SEP",
+    "label": "Santa Elena",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 16.1,
+    "lng": -90.45
+  },
+  {
+    "locationCode": "EBS",
+    "label": "Santa Elena Barillas",
+    "subdivisionCode": "GU",
+    "function": "3",
+    "lat": 14.4,
+    "lng": -90.55
+  },
+  {
+    "locationCode": "SLA",
+    "label": "Santa Lucia",
+    "function": "6",
+    "lat": 14.85,
+    "lng": -90.083333
+  },
+  {
+    "locationCode": "SLC",
+    "label": "Santa Lucía Cotzumalguapa",
+    "subdivisionCode": "05",
+    "labelWithDiacritics": "Santa Lucia Cotzumalguapa",
+    "function": "23",
+    "lat": 14.333333,
+    "lng": -91.016667
+  },
+  {
+    "locationCode": "SLU",
+    "label": "Santa Lucía Milpas Altas",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Santa Lucia Milpas Altas",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -90.666667
+  },
+  {
+    "locationCode": "SMC",
+    "label": "Santa María Cauqué",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Santa Maria Cauque",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -90.7
+  },
+  {
+    "locationCode": "PSA",
+    "label": "Santa Rosa de Lima",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 14.383333,
+    "lng": -90.283333
+  },
+  {
+    "locationCode": "SNT",
+    "label": "Santiago Atitlán",
+    "subdivisionCode": "07",
+    "labelWithDiacritics": "Santiago Atitlan",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -91.233333
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Santiago Sacatepéquez",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Santiago Sacatepequez",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -90.666667
+  },
+  {
+    "locationCode": "SDS",
+    "label": "Santo Domingo Suchitepéquez",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Santo Domingo Suchitepequez",
+    "function": "3",
+    "lat": 14.466667,
+    "lng": -91.483333
+  },
+  {
+    "locationCode": "STZ",
+    "label": "Santo Tomas",
+    "subdivisionCode": "19",
+    "function": "6",
+    "lat": 14.833333,
+    "lng": -89.716667
+  },
+  {
+    "locationCode": "IZ4",
+    "label": "Santo Tomás de Castilla",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Santo Tomas de Castilla",
+    "function": "3",
+    "lat": 15.683333,
+    "lng": -88.6
+  },
+  {
+    "locationCode": "STU",
+    "label": "Santo Tomás La Unión",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Santo Tomas La Union",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -91.383333
+  },
+  {
+    "locationCode": "STM",
+    "label": "Santo Tomás Milpas Altas",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Santo Tomas Milpas Altas",
+    "function": "3",
+    "lat": 14.566667,
+    "lng": -90.666667
+  },
+  {
+    "locationCode": "SPC",
+    "label": "Sipacate",
+    "function": "6",
+    "lat": 13.916667,
+    "lng": -91.133333
+  },
+  {
+    "locationCode": "SIQ",
+    "label": "Siquinalá",
+    "labelWithDiacritics": "Siquinala",
+    "function": "3",
+    "lat": 14.3,
+    "lng": -90.966667
+  },
+  {
+    "locationCode": "SOL",
+    "label": "Solola",
+    "subdivisionCode": "SO",
+    "function": "6",
+    "lat": 14.766667,
+    "lng": -91.183333
+  },
+  {
+    "locationCode": "SUM",
+    "label": "Sumpango",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": 14.633333,
+    "lng": -90.733333
+  },
+  {
+    "locationCode": "TAC",
+    "label": "Tactic",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 15.333333,
+    "lng": -90.3
+  },
+  {
+    "locationCode": "TAX",
+    "label": "Taxisco",
+    "subdivisionCode": "SR",
+    "function": "3",
+    "lat": 14.066667,
+    "lng": -90.45
+  },
+  {
+    "locationCode": "TCP",
+    "label": "Tecpán Guatemala",
+    "subdivisionCode": "04",
+    "labelWithDiacritics": "Tecpan Guatemala",
+    "function": "3",
+    "lat": 14.766667,
+    "lng": -90.983333
+  },
+  {
+    "locationCode": "TEC",
+    "label": "Teculután",
+    "labelWithDiacritics": "Teculutan",
+    "function": "3",
+    "lat": 14.983333,
+    "lng": -89.716667
+  },
+  {
+    "locationCode": "TUC",
+    "label": "Tecun Uman",
+    "subdivisionCode": "09",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKM",
+    "label": "Tikal",
+    "function": "4"
+  },
+  {
+    "locationCode": "TPA",
+    "label": "Tilapa",
+    "subdivisionCode": "12",
+    "function": "3",
+    "lat": 14.483333,
+    "lng": -92.166667
+  },
+  {
+    "locationCode": "TIG",
+    "label": "Tiquisate",
+    "function": "3",
+    "lat": 14.283333,
+    "lng": -91.366667
+  },
+  {
+    "locationCode": "TOT",
+    "label": "Totonicapán",
+    "subdivisionCode": "08",
+    "labelWithDiacritics": "Totonicapan",
+    "function": "3",
+    "lat": 14.916667,
+    "lng": -91.366667
+  },
+  {
+    "locationCode": "UAX",
+    "label": "Uaxactún",
+    "labelWithDiacritics": "Uaxactun",
+    "function": "4",
+    "lat": 17.4,
+    "lng": -89.633333
+  },
+  {
+    "locationCode": "USP",
+    "label": "Uspantán",
+    "subdivisionCode": "QC",
+    "labelWithDiacritics": "Uspantan",
+    "function": "3",
+    "lat": 15.383333,
+    "lng": -90.833333
+  },
+  {
+    "locationCode": "USU",
+    "label": "Usumatlán",
+    "subdivisionCode": "19",
+    "labelWithDiacritics": "Usumatlan",
+    "function": "3",
+    "lat": 14.95,
+    "lng": -89.783333
+  },
+  {
+    "locationCode": "VLL",
+    "label": "Villa Canales",
+    "subdivisionCode": "01",
+    "function": "236",
+    "lat": 14.466667,
+    "lng": -90.516667
+  },
+  {
+    "locationCode": "VIN",
+    "label": "Villa Nueva",
+    "function": "1"
+  },
+  {
+    "locationCode": "VLN",
+    "label": "Villa Nueva",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.516667,
+    "lng": -90.583333
+  },
+  {
+    "locationCode": "VLO",
+    "label": "Villalobos",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 14.533333,
+    "lng": -90.583333
+  },
+  {
+    "locationCode": "ZAC",
+    "label": "Zacapa",
+    "function": "3"
+  }
+]

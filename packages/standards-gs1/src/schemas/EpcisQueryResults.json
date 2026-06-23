@@ -1,0 +1,25 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/gs1-epcis/EpcisQueryResults",
+	"title": "EpcisQueryResults",
+	"description": "EPCIS 2.0 QueryResults payload returned from a repository query.",
+	"type": "object",
+	"properties": {
+		"subscriptionID": {
+			"type": "string",
+			"description": "The concerned subscription."
+		},
+		"queryName": {
+			"type": "string",
+			"description": "The concerned query."
+		},
+		"resultsBody": {
+			"$ref": "https://schema.twindev.org/gs1-epcis/EpcisQueryResultsBody",
+			"description": "The query results payload."
+		}
+	},
+	"required": [
+		"queryName",
+		"resultsBody"
+	]
+}

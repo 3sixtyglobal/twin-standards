@@ -1,0 +1,417 @@
+[
+  {
+    "code": "AD",
+    "label": "Adygeya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "AL",
+    "label": "Altay, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "ALT",
+    "label": "Altayskiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "AMU",
+    "label": "Amurskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "ARK",
+    "label": "Arkhangel'skaya oblast,",
+    "type": "Administrative region"
+  },
+  {
+    "code": "AST",
+    "label": "Astrakhanskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "BA",
+    "label": "Bashkortostan, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "BEL",
+    "label": "Belgorodskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "BRY",
+    "label": "Bryanskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "BU",
+    "label": "Buryatiya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "CE",
+    "label": "Chechenskaya Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "CHE",
+    "label": "Chelyabinskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "CHU",
+    "label": "Chukotskiy avtonomnyy okrug",
+    "type": "Autonomous district"
+  },
+  {
+    "code": "CU",
+    "label": "Chuvashskaya Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "DA",
+    "label": "Dagestan, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "IN",
+    "label": "Ingushskaya Respublika [Respublika Ingushetiya]",
+    "type": "Republic"
+  },
+  {
+    "code": "IRK",
+    "label": "Irkutskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "IVA",
+    "label": "Ivanovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KAM",
+    "label": "Kamchatskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KB",
+    "label": "Kabardino-Balkarskaya Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KC",
+    "label": "Karachayevo-Cherkesskaya Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KDA",
+    "label": "Krasnodarskiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "KEM",
+    "label": "Kemerovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KGD",
+    "label": "Kaliningradskaya oblast,",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KGN",
+    "label": "Kurganskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KHA",
+    "label": "Khabarovskiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "KHM",
+    "label": "Khanty-Mansiyskiy avtonomnyy okrug",
+    "type": "Autonomous district"
+  },
+  {
+    "code": "KIR",
+    "label": "Kirovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KK",
+    "label": "Khakasiya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KL",
+    "label": "Kalmykiya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KLU",
+    "label": "Kaluzhskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KO",
+    "label": "Komi, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KOS",
+    "label": "Kostromskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KR",
+    "label": "Kareliya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "KRS",
+    "label": "Kurskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "KYA",
+    "label": "Krasnoyarskiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "LEN",
+    "label": "Leningradskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "LIP",
+    "label": "Lipetskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "MAG",
+    "label": "Magadanskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "ME",
+    "label": "Mariy El, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "MO",
+    "label": "Mordoviya, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "MOS",
+    "label": "Moskovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "MOW",
+    "label": "Moskva",
+    "type": "Autonomous city"
+  },
+  {
+    "code": "MUR",
+    "label": "Murmanskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "NEN",
+    "label": "Nenetskiy avtonomnyy okrug",
+    "type": "Autonomous district"
+  },
+  {
+    "code": "NGR",
+    "label": "Novgorodskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "NIZ",
+    "label": "Nizhegorodskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "NVS",
+    "label": "Novosibirskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "OMS",
+    "label": "Omskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "ORE",
+    "label": "Orenburgskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "ORL",
+    "label": "Orlovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "PER",
+    "label": "Perm",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "PNZ",
+    "label": "Penzenskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "PRI",
+    "label": "Primorskiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "PSK",
+    "label": "Pskovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "ROS",
+    "label": "Rostovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "RYA",
+    "label": "Ryazanskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "SA",
+    "label": "Sakha, Respublika [Yakutiya]",
+    "type": "Republic"
+  },
+  {
+    "code": "SAK",
+    "label": "Sakhalinskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "SAM",
+    "label": "Samarskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "SAR",
+    "label": "Saratovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "SE",
+    "label": "Severnaya Osetiya, Respublika Alaniya] [Respublika Severnaya Osetiya-Alaniya]",
+    "type": "Republic"
+  },
+  {
+    "code": "SMO",
+    "label": "Smolenskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "SPE",
+    "label": "Sankt-Peterburg",
+    "type": "Autonomous city"
+  },
+  {
+    "code": "STA",
+    "label": "Stavropol'skiy kray",
+    "type": "Administrative territory"
+  },
+  {
+    "code": "SVE",
+    "label": "Sverdlovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "TA",
+    "label": "Tatarstan, Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "TAM",
+    "label": "Tambovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "TOM",
+    "label": "Tomskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "TUL",
+    "label": "Tul'skaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "TVE",
+    "label": "Tverskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "TY",
+    "label": "Tyva, Respublika [Tuva]",
+    "type": "Republic"
+  },
+  {
+    "code": "TYU",
+    "label": "Tyumenskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "UD",
+    "label": "Udmurtskaya Respublika",
+    "type": "Republic"
+  },
+  {
+    "code": "ULY",
+    "label": "Ul'yanovskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "VGG",
+    "label": "Volgogradskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "VLA",
+    "label": "Vladimirskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "VLG",
+    "label": "Vologodskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "VOR",
+    "label": "Voronezhskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "YAN",
+    "label": "Yamalo-Nenetskiy avtonomnyy okrug",
+    "type": "Autonomous district"
+  },
+  {
+    "code": "YAR",
+    "label": "Yaroslavskaya oblast'",
+    "type": "Administrative region"
+  },
+  {
+    "code": "YEV",
+    "label": "Yevreyskaya avtonomnaya oblast'",
+    "type": "Autonomous region"
+  },
+  {
+    "code": "ZAB",
+    "label": "Zabaykal'skiy kray",
+    "type": "Administrative territory"
+  }
+]

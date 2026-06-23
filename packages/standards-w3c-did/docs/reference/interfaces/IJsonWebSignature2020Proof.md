@@ -5,15 +5,15 @@ https://www.w3.org/TR/vc-jws-2020/
 
 ## Properties
 
-### @context?
+### @context? {#context}
 
-> `optional` **@context**: `"https://w3id.org/security/suites/jws-2020/v1"` \| \[`"https://w3id.org/security/suites/jws-2020/v1"`, `...IJsonLdContextDefinitionElement[]`\]
+> `optional` **@context?**: `"https://w3id.org/security/suites/jws-2020/v1"` \| `SingleOccurrenceArray`\<`IJsonLdContextDefinitionElement`, `"https://w3id.org/security/suites/jws-2020/v1"`\>
 
 JSON-LD Context.
 
 ***
 
-### type
+### type {#type}
 
 > **type**: `"JsonWebSignature2020"`
 
@@ -21,7 +21,7 @@ JSON-LD Type.
 
 ***
 
-### proofPurpose
+### proofPurpose {#proofpurpose}
 
 > **proofPurpose**: `string`
 
@@ -29,24 +29,24 @@ The reason the proof was created.
 
 ***
 
-### verificationMethod?
+### verificationMethod? {#verificationmethod}
 
-> `optional` **verificationMethod**: `string`
+> `optional` **verificationMethod?**: `string`
 
 The verification method of the proof.
 
 ***
 
-### created?
+### created? {#created}
 
-> `optional` **created**: `string`
+> `optional` **created?**: `string`
 
 The iso date of when the proof was created.
 
 ***
 
-### jws?
+### jws? {#jws}
 
-> `optional` **jws**: `string`
+> `optional` **jws?**: `string`
 
 The JSON Web Signature.

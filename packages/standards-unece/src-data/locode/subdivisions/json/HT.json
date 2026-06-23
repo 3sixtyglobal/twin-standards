@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AR",
+    "label": "Artibonite",
+    "type": "Department"
+  },
+  {
+    "code": "CE",
+    "label": "Centre",
+    "type": "Department"
+  },
+  {
+    "code": "GA",
+    "label": "GrandeAnse",
+    "type": "Department"
+  },
+  {
+    "code": "ND",
+    "label": "Nord",
+    "type": "Department"
+  },
+  {
+    "code": "NE",
+    "label": "Nord-Est",
+    "type": "Department"
+  },
+  {
+    "code": "NI",
+    "label": "Nippes",
+    "type": "Department"
+  },
+  {
+    "code": "NO",
+    "label": "Nord-Ouest",
+    "type": "Department"
+  },
+  {
+    "code": "OU",
+    "label": "Ouest",
+    "type": "Department"
+  },
+  {
+    "code": "SD",
+    "label": "Sud",
+    "type": "Department"
+  },
+  {
+    "code": "SE",
+    "label": "Sud-Est",
+    "type": "Department"
+  }
+]

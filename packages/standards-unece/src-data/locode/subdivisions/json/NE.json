@@ -1,0 +1,42 @@
+[
+  {
+    "code": "1",
+    "label": "Agadez",
+    "type": "Region"
+  },
+  {
+    "code": "2",
+    "label": "Diffa",
+    "type": "Region"
+  },
+  {
+    "code": "3",
+    "label": "Dosso",
+    "type": "Region"
+  },
+  {
+    "code": "4",
+    "label": "Maradi",
+    "type": "Region"
+  },
+  {
+    "code": "5",
+    "label": "Tahoua",
+    "type": "Region"
+  },
+  {
+    "code": "6",
+    "label": "Tillabéri",
+    "type": "Region"
+  },
+  {
+    "code": "7",
+    "label": "Zinder",
+    "type": "Region"
+  },
+  {
+    "code": "8",
+    "label": "Niamey",
+    "type": "Urban community"
+  }
+]

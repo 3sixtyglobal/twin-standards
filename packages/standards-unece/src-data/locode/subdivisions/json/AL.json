@@ -1,0 +1,62 @@
+[
+  {
+    "code": "01",
+    "label": "Berat",
+    "type": "County"
+  },
+  {
+    "code": "02",
+    "label": "Durrës",
+    "type": "County"
+  },
+  {
+    "code": "03",
+    "label": "Elbasan",
+    "type": "County"
+  },
+  {
+    "code": "04",
+    "label": "Fier",
+    "type": "County"
+  },
+  {
+    "code": "05",
+    "label": "Gjirokastër",
+    "type": "County"
+  },
+  {
+    "code": "06",
+    "label": "Korçë",
+    "type": "County"
+  },
+  {
+    "code": "07",
+    "label": "Kukës",
+    "type": "County"
+  },
+  {
+    "code": "08",
+    "label": "Lezhë",
+    "type": "County"
+  },
+  {
+    "code": "09",
+    "label": "Dibër",
+    "type": "County"
+  },
+  {
+    "code": "10",
+    "label": "Shkodër",
+    "type": "County"
+  },
+  {
+    "code": "11",
+    "label": "Tiranë",
+    "type": "County"
+  },
+  {
+    "code": "12",
+    "label": "Vlorë",
+    "type": "County"
+  }
+]

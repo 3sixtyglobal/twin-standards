@@ -1,0 +1,87 @@
+[
+  {
+    "code": "01",
+    "label": "Pinar del Río",
+    "type": "Province"
+  },
+  {
+    "code": "02",
+    "label": "La Habana",
+    "type": "Province"
+  },
+  {
+    "code": "03",
+    "label": "Ciudad de La Habana",
+    "type": "Province"
+  },
+  {
+    "code": "04",
+    "label": "Matanzas",
+    "type": "Province"
+  },
+  {
+    "code": "05",
+    "label": "Villa Clara",
+    "type": "Province"
+  },
+  {
+    "code": "06",
+    "label": "Cienfuegos",
+    "type": "Province"
+  },
+  {
+    "code": "07",
+    "label": "Sancti Spíritus",
+    "type": "Province"
+  },
+  {
+    "code": "08",
+    "label": "Ciego de Ávila",
+    "type": "Province"
+  },
+  {
+    "code": "09",
+    "label": "Camagüey",
+    "type": "Province"
+  },
+  {
+    "code": "10",
+    "label": "Las Tunas",
+    "type": "Province"
+  },
+  {
+    "code": "11",
+    "label": "Holguín",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Granma",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Santiago de Cuba",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Guantánamo",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Artemisa",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Mayabeque",
+    "type": "Province"
+  },
+  {
+    "code": "99",
+    "label": "Isla de la Juventud",
+    "type": "Special municipality"
+  }
+]

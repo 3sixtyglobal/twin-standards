@@ -2,4 +2,4 @@
 
 > **DublinCoreClasses** = *typeof* [`DublinCoreClasses`](../variables/DublinCoreClasses.md)\[keyof *typeof* [`DublinCoreClasses`](../variables/DublinCoreClasses.md)\]
 
-Dublin Core classes
+Union of all Dublin Core class identifier values.

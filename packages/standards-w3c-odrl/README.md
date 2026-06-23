@@ -1,6 +1,6 @@
 # TWIN Standards W3C ODRL
 
-Models which define the structure of [W3C ODRL Standard](https://www.w3.org/TR/odrl-model/).
+This package provides data models for the [W3C ODRL information model](https://www.w3.org/TR/odrl-model/), enabling clear representation of permissions, duties, and prohibitions in policy workflows.
 
 ## Installation
 

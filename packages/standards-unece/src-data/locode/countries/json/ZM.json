@@ -1,0 +1,423 @@
+[
+  {
+    "locationCode": "BMA",
+    "label": "Bwana Mkubwa",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -13.033333,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "CHA",
+    "label": "Chachacha",
+    "function": "5"
+  },
+  {
+    "locationCode": "CHI",
+    "label": "Chililabombwe",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -12.366667,
+    "lng": 27.833333
+  },
+  {
+    "locationCode": "CGJ",
+    "label": "Chingola",
+    "function": "4"
+  },
+  {
+    "locationCode": "CIP",
+    "label": "Chipata",
+    "function": "4"
+  },
+  {
+    "locationCode": "CHU",
+    "label": "Chirundu",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": -16.05,
+    "lng": 28.833333
+  },
+  {
+    "locationCode": "CHM",
+    "label": "Chisamba",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -14.983333,
+    "lng": 28.383333
+  },
+  {
+    "locationCode": "CHO",
+    "label": "Choma",
+    "function": "3"
+  },
+  {
+    "locationCode": "CGE",
+    "label": "Chongwe",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": -15.35,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "CHZ",
+    "label": "Chozi",
+    "function": "3",
+    "lat": -9.283333,
+    "lng": 32.333333
+  },
+  {
+    "locationCode": "IKA",
+    "label": "Isoka",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -10.133333,
+    "lng": 32.633333
+  },
+  {
+    "locationCode": "QKE",
+    "label": "Kabwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAF",
+    "label": "Kafue",
+    "function": "0"
+  },
+  {
+    "locationCode": "KLB",
+    "label": "Kalabo",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAO",
+    "label": "Kalomo",
+    "function": "3"
+  },
+  {
+    "locationCode": "KSH",
+    "label": "Kalulishi",
+    "subdivisionCode": "08",
+    "function": "36",
+    "lat": -12.833333,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "KUI",
+    "label": "Kalulushi",
+    "subdivisionCode": "08",
+    "function": "6",
+    "lat": -12.833333,
+    "lng": 28.083333
+  },
+  {
+    "locationCode": "KNH",
+    "label": "Kansanshi",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": -12.1,
+    "lng": 26.433333
+  },
+  {
+    "locationCode": "KMZ",
+    "label": "Kaoma",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAM",
+    "label": "Kapiri Mposhi",
+    "function": "3",
+    "lat": -13.966667,
+    "lng": 28.666667
+  },
+  {
+    "locationCode": "ZKB",
+    "label": "Kasaba Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAA",
+    "label": "Kasama",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZKP",
+    "label": "Kasompe",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katete",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": -11.216667,
+    "lng": 33.15
+  },
+  {
+    "locationCode": "KTM",
+    "label": "Katima Mulilo",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": -17.466667,
+    "lng": 24.216667
+  },
+  {
+    "locationCode": "KWB",
+    "label": "Kawambwa",
+    "subdivisionCode": "04",
+    "function": "3",
+    "lat": -9.783333,
+    "lng": 29.083333
+  },
+  {
+    "locationCode": "KZG",
+    "label": "Kazungula",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": -17.783333,
+    "lng": 25.266667
+  },
+  {
+    "locationCode": "KIW",
+    "label": "Kitwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "LVI",
+    "label": "Livingstone",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUA",
+    "label": "Luanshya",
+    "function": "0"
+  },
+  {
+    "locationCode": "LXU",
+    "label": "Lukulu",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUM",
+    "label": "Lumamba",
+    "function": "5"
+  },
+  {
+    "locationCode": "LWA",
+    "label": "Lumwana",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": -11.833333,
+    "lng": 25.133333
+  },
+  {
+    "locationCode": "LUZ",
+    "label": "Lundazi",
+    "function": "3",
+    "lat": -12.283333,
+    "lng": 33.166667
+  },
+  {
+    "locationCode": "LUN",
+    "label": "Lusaka",
+    "function": "45"
+  },
+  {
+    "locationCode": "MAK",
+    "label": "Makeni",
+    "function": "3",
+    "lat": -24.25,
+    "lng": 172.833333
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Maluba",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -11.083333,
+    "lng": 31.966667
+  },
+  {
+    "locationCode": "MNS",
+    "label": "Mansa",
+    "function": "4"
+  },
+  {
+    "locationCode": "MRB",
+    "label": "Maramba",
+    "function": "3"
+  },
+  {
+    "locationCode": "MTB",
+    "label": "Matumbo",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -10.966667,
+    "lng": 32.016667
+  },
+  {
+    "locationCode": "MBK",
+    "label": "Mazabuka",
+    "function": "6",
+    "lat": -15.866667,
+    "lng": 27.766667
+  },
+  {
+    "locationCode": "MMQ",
+    "label": "Mbala",
+    "function": "4"
+  },
+  {
+    "locationCode": "MFU",
+    "label": "Mfuwe",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKU",
+    "label": "Mkushi",
+    "subdivisionCode": "02",
+    "function": "3",
+    "lat": -13.616667,
+    "lng": 29.4
+  },
+  {
+    "locationCode": "MNR",
+    "label": "Mongu",
+    "function": "4"
+  },
+  {
+    "locationCode": "MZE",
+    "label": "Monze",
+    "function": "3",
+    "lat": -16.266667,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "MPK",
+    "label": "Mpika",
+    "function": "3",
+    "lat": -11.833333,
+    "lng": 31.45
+  },
+  {
+    "locationCode": "MPO",
+    "label": "Mpongwe",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": -13.533333,
+    "lng": 28.15
+  },
+  {
+    "locationCode": "MPU",
+    "label": "Mpulungu",
+    "function": "3",
+    "lat": -8.75,
+    "lng": 31.1
+  },
+  {
+    "locationCode": "MFR",
+    "label": "Mufulira",
+    "function": "3"
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Mutasa",
+    "subdivisionCode": "08",
+    "function": "6",
+    "lat": -12.85,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "MWM",
+    "label": "Mwami",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": -13.816667,
+    "lng": 32.766667
+  },
+  {
+    "locationCode": "NKD",
+    "label": "Nakonde",
+    "subdivisionCode": "05",
+    "function": "3",
+    "lat": -9.333333,
+    "lng": 32.766667
+  },
+  {
+    "locationCode": "NLA",
+    "label": "Ndola",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZGM",
+    "label": "Ngoma",
+    "function": "4"
+  },
+  {
+    "locationCode": "YMB",
+    "label": "Nyimba",
+    "subdivisionCode": "03",
+    "function": "3",
+    "lat": -14.55,
+    "lng": 30.833333
+  },
+  {
+    "locationCode": "RGY",
+    "label": "Ridgeway",
+    "subdivisionCode": "09",
+    "function": "3",
+    "lat": -15.45,
+    "lng": 28.316667
+  },
+  {
+    "locationCode": "SXG",
+    "label": "Senanga",
+    "function": "4"
+  },
+  {
+    "locationCode": "SJQ",
+    "label": "Sesheke",
+    "function": "4"
+  },
+  {
+    "locationCode": "SIA",
+    "label": "Siavonga",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": -16.533333,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "SIN",
+    "label": "Sinda",
+    "subdivisionCode": "03",
+    "function": "6",
+    "lat": -14.233333,
+    "lng": 31.75
+  },
+  {
+    "locationCode": "SLI",
+    "label": "Solwezi",
+    "function": "4"
+  },
+  {
+    "locationCode": "TDM",
+    "label": "Tunduma",
+    "function": "3",
+    "lat": -9.3,
+    "lng": 32.766667
+  },
+  {
+    "locationCode": "BBZ",
+    "label": "Zambezi",
+    "function": "4"
+  },
+  {
+    "locationCode": "ZMA",
+    "label": "Zimba",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": -17.316667,
+    "lng": 26.2
+  }
+]

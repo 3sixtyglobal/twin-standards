@@ -1,0 +1,392 @@
+[
+  {
+    "code": "10",
+    "label": "Krung Thep Maha Nakhon [Bangkok]",
+    "type": "Metropolitan administration"
+  },
+  {
+    "code": "11",
+    "label": "Samut Prakan",
+    "type": "Province"
+  },
+  {
+    "code": "12",
+    "label": "Nonthaburi",
+    "type": "Province"
+  },
+  {
+    "code": "13",
+    "label": "Pathum Thani",
+    "type": "Province"
+  },
+  {
+    "code": "14",
+    "label": "Phra Nakhon Si Ayutthaya",
+    "type": "Province"
+  },
+  {
+    "code": "15",
+    "label": "Ang Thong",
+    "type": "Province"
+  },
+  {
+    "code": "16",
+    "label": "Lop Buri",
+    "type": "Province"
+  },
+  {
+    "code": "17",
+    "label": "Sing Buri",
+    "type": "Province"
+  },
+  {
+    "code": "18",
+    "label": "Chai Nat",
+    "type": "Province"
+  },
+  {
+    "code": "19",
+    "label": "Saraburi",
+    "type": "Province"
+  },
+  {
+    "code": "20",
+    "label": "Chon Buri",
+    "type": "Province"
+  },
+  {
+    "code": "21",
+    "label": "Rayong",
+    "type": "Province"
+  },
+  {
+    "code": "22",
+    "label": "Chanthaburi",
+    "type": "Province"
+  },
+  {
+    "code": "23",
+    "label": "Trat",
+    "type": "Province"
+  },
+  {
+    "code": "24",
+    "label": "Chachoengsao",
+    "type": "Province"
+  },
+  {
+    "code": "25",
+    "label": "Prachin Buri",
+    "type": "Province"
+  },
+  {
+    "code": "26",
+    "label": "Nakhon Nayok",
+    "type": "Province"
+  },
+  {
+    "code": "27",
+    "label": "Sa Kaeo",
+    "type": "Province"
+  },
+  {
+    "code": "30",
+    "label": "Nakhon Ratchasima",
+    "type": "Province"
+  },
+  {
+    "code": "31",
+    "label": "Buri Ram",
+    "type": "Province"
+  },
+  {
+    "code": "32",
+    "label": "Surin",
+    "type": "Province"
+  },
+  {
+    "code": "33",
+    "label": "Si Sa Ket",
+    "type": "Province"
+  },
+  {
+    "code": "34",
+    "label": "Ubon Ratchathani",
+    "type": "Province"
+  },
+  {
+    "code": "35",
+    "label": "Yasothon",
+    "type": "Province"
+  },
+  {
+    "code": "36",
+    "label": "Chaiyaphum",
+    "type": "Province"
+  },
+  {
+    "code": "37",
+    "label": "Amnat Charoen",
+    "type": "Province"
+  },
+  {
+    "code": "38",
+    "label": "Bueng Kan",
+    "type": "Province"
+  },
+  {
+    "code": "39",
+    "label": "Nong Bua Lam Phu",
+    "type": "Province"
+  },
+  {
+    "code": "40",
+    "label": "Khon Kaen",
+    "type": "Province"
+  },
+  {
+    "code": "41",
+    "label": "Udon Thani",
+    "type": "Province"
+  },
+  {
+    "code": "42",
+    "label": "Loei",
+    "type": "Province"
+  },
+  {
+    "code": "43",
+    "label": "Nong Khai",
+    "type": "Province"
+  },
+  {
+    "code": "44",
+    "label": "Maha Sarakham",
+    "type": "Province"
+  },
+  {
+    "code": "45",
+    "label": "Roi Et",
+    "type": "Province"
+  },
+  {
+    "code": "46",
+    "label": "Kalasin",
+    "type": "Province"
+  },
+  {
+    "code": "47",
+    "label": "Sakon Nakhon",
+    "type": "Province"
+  },
+  {
+    "code": "48",
+    "label": "Nakhon Phanom",
+    "type": "Province"
+  },
+  {
+    "code": "49",
+    "label": "Mukdahan",
+    "type": "Province"
+  },
+  {
+    "code": "50",
+    "label": "Chiang Mai",
+    "type": "Province"
+  },
+  {
+    "code": "51",
+    "label": "Lamphun",
+    "type": "Province"
+  },
+  {
+    "code": "52",
+    "label": "Lampang",
+    "type": "Province"
+  },
+  {
+    "code": "53",
+    "label": "Uttaradit",
+    "type": "Province"
+  },
+  {
+    "code": "54",
+    "label": "Phrae",
+    "type": "Province"
+  },
+  {
+    "code": "55",
+    "label": "Nan",
+    "type": "Province"
+  },
+  {
+    "code": "56",
+    "label": "Phayao",
+    "type": "Province"
+  },
+  {
+    "code": "57",
+    "label": "Chiang Rai",
+    "type": "Province"
+  },
+  {
+    "code": "58",
+    "label": "Mae Hong Son",
+    "type": "Province"
+  },
+  {
+    "code": "60",
+    "label": "Nakhon Sawan",
+    "type": "Province"
+  },
+  {
+    "code": "61",
+    "label": "Uthai Thani",
+    "type": "Province"
+  },
+  {
+    "code": "62",
+    "label": "Kamphaeng Phet",
+    "type": "Province"
+  },
+  {
+    "code": "63",
+    "label": "Tak",
+    "type": "Province"
+  },
+  {
+    "code": "64",
+    "label": "Sukhothai",
+    "type": "Province"
+  },
+  {
+    "code": "65",
+    "label": "Phitsanulok",
+    "type": "Province"
+  },
+  {
+    "code": "66",
+    "label": "Phichit",
+    "type": "Province"
+  },
+  {
+    "code": "67",
+    "label": "Phetchabun",
+    "type": "Province"
+  },
+  {
+    "code": "70",
+    "label": "Ratchaburi",
+    "type": "Province"
+  },
+  {
+    "code": "71",
+    "label": "Kanchanaburi",
+    "type": "Province"
+  },
+  {
+    "code": "72",
+    "label": "Suphan Buri",
+    "type": "Province"
+  },
+  {
+    "code": "73",
+    "label": "Nakhon Pathom",
+    "type": "Province"
+  },
+  {
+    "code": "74",
+    "label": "Samut Sakhon",
+    "type": "Province"
+  },
+  {
+    "code": "75",
+    "label": "Samut Songkhram",
+    "type": "Province"
+  },
+  {
+    "code": "76",
+    "label": "Phetchaburi",
+    "type": "Province"
+  },
+  {
+    "code": "77",
+    "label": "Prachuap Khiri Khan",
+    "type": "Province"
+  },
+  {
+    "code": "80",
+    "label": "Nakhon Si Thammarat",
+    "type": "Province"
+  },
+  {
+    "code": "81",
+    "label": "Krabi",
+    "type": "Province"
+  },
+  {
+    "code": "82",
+    "label": "Phangnga",
+    "type": "Province"
+  },
+  {
+    "code": "83",
+    "label": "Phuket",
+    "type": "Province"
+  },
+  {
+    "code": "84",
+    "label": "Surat Thani",
+    "type": "Province"
+  },
+  {
+    "code": "85",
+    "label": "Ranong",
+    "type": "Province"
+  },
+  {
+    "code": "86",
+    "label": "Chumphon",
+    "type": "Province"
+  },
+  {
+    "code": "90",
+    "label": "Songkhla",
+    "type": "Province"
+  },
+  {
+    "code": "91",
+    "label": "Satun",
+    "type": "Province"
+  },
+  {
+    "code": "92",
+    "label": "Trang",
+    "type": "Province"
+  },
+  {
+    "code": "93",
+    "label": "Phatthalung",
+    "type": "Province"
+  },
+  {
+    "code": "94",
+    "label": "Pattani",
+    "type": "Province"
+  },
+  {
+    "code": "95",
+    "label": "Yala",
+    "type": "Province"
+  },
+  {
+    "code": "96",
+    "label": "Narathiwat",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Phatthaya",
+    "type": "special administrative"
+  }
+]

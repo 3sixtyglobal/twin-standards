@@ -14,7 +14,7 @@ Helper methods for creating and verifying proofs.
 
 ## Properties
 
-### CLASS\_NAME
+### CLASS\_NAME {#class_name}
 
 > `readonly` `static` **CLASS\_NAME**: `string`
 
@@ -22,7 +22,7 @@ Runtime name for the class.
 
 ## Methods
 
-### createSignerVerifier()
+### createSignerVerifier() {#createsignerverifier}
 
 > `static` **createSignerVerifier**(`proofType`): [`IProofSignerVerifier`](../interfaces/IProofSignerVerifier.md)
 
@@ -48,7 +48,34 @@ GeneralError if the proof type is not supported.
 
 ***
 
-### createProof()
+### createAsyncSignerVerifier() {#createasyncsignerverifier}
+
+> `static` **createAsyncSignerVerifier**(`proofType`): [`IProofSignerVerifierAsync`](../interfaces/IProofSignerVerifierAsync.md)
+
+Create an async signer verifier that supports signing with callbacks.
+This enables signing without exposing private keys.
+
+#### Parameters
+
+##### proofType
+
+[`ProofTypes`](../type-aliases/ProofTypes.md)
+
+The type of proof to create.
+
+#### Returns
+
+[`IProofSignerVerifierAsync`](../interfaces/IProofSignerVerifierAsync.md)
+
+The created async signer verifier.
+
+#### Throws
+
+GeneralError if the proof type is not supported.
+
+***
+
+### createProof() {#createproof}
 
 > `static` **createProof**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signKey`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
 
@@ -76,7 +103,7 @@ The proof options.
 
 ##### signKey
 
-`IJwk`
+`JWK`
 
 The key to sign the proof with.
 
@@ -88,7 +115,48 @@ The created proof.
 
 ***
 
-### verifyProof()
+### createProofWithSigner() {#createproofwithsigner}
+
+> `static` **createProofWithSigner**(`proofType`, `unsecuredDocument`, `unsignedProof`, `signCallback`): `Promise`\<[`IProof`](../type-aliases/IProof.md)\>
+
+Create a proof with an async signing callback.
+This method prevents private key exposure by delegating signing to a secure callback.
+
+#### Parameters
+
+##### proofType
+
+[`ProofTypes`](../type-aliases/ProofTypes.md)
+
+The type of proof to create.
+
+##### unsecuredDocument
+
+`IJsonLdNodeObject`
+
+The data to create the proof for.
+
+##### unsignedProof
+
+[`IProof`](../type-aliases/IProof.md)
+
+The proof options.
+
+##### signCallback
+
+(`data`, `algorithm`) => `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
+
+Async callback that signs data with a private key from secure storage. The algorithm parameter indicates the expected signing algorithm (e.g., "EdDSA") to enable validation.
+
+#### Returns
+
+`Promise`\<[`IProof`](../type-aliases/IProof.md)\>
+
+The created proof.
+
+***
+
+### verifyProof() {#verifyproof}
 
 > `static` **verifyProof**(`securedDocument`, `signedProof`, `verifyKey`): `Promise`\<`boolean`\>
 
@@ -110,7 +178,7 @@ The proof to verify.
 
 ##### verifyKey
 
-`IJwk`
+`JWK`
 
 The public key to verify the proof with.
 
@@ -122,7 +190,7 @@ True if the credential was verified.
 
 ***
 
-### createUnsignedProof()
+### createUnsignedProof() {#createunsignedproof}
 
 > `static` **createUnsignedProof**(`proofType`, `verificationMethodId`, `otherParams?`): [`IProof`](../type-aliases/IProof.md)
 

@@ -1,0 +1,26 @@
+[
+  {
+    "code": "MAP",
+    "label": "Malampa"
+  },
+  {
+    "code": "PAM",
+    "label": "Pénama"
+  },
+  {
+    "code": "SAM",
+    "label": "Sanma"
+  },
+  {
+    "code": "SEE",
+    "label": "Shéfa"
+  },
+  {
+    "code": "TAE",
+    "label": "Taféa"
+  },
+  {
+    "code": "TOB",
+    "label": "Torba"
+  }
+]

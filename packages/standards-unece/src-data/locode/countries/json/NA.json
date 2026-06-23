@@ -1,0 +1,289 @@
+[
+  {
+    "locationCode": "AIW",
+    "label": "Ai-Ais",
+    "function": "4"
+  },
+  {
+    "locationCode": "ADI",
+    "label": "Arandis",
+    "function": "4"
+  },
+  {
+    "locationCode": "VFG",
+    "label": "Ariamsvlei",
+    "subdivisionCode": "KA",
+    "function": "3",
+    "lat": -28.116667,
+    "lng": 19.816667
+  },
+  {
+    "locationCode": "ZAR",
+    "label": "Aussenkehr",
+    "function": "6",
+    "lat": -28.35,
+    "lng": 17.383333
+  },
+  {
+    "locationCode": "BQI",
+    "label": "Bagani",
+    "function": "4"
+  },
+  {
+    "locationCode": "GOG",
+    "label": "Gobabis",
+    "function": "4"
+  },
+  {
+    "locationCode": "GFY",
+    "label": "Grootfontein",
+    "function": "4"
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halali",
+    "function": "4"
+  },
+  {
+    "locationCode": "HTN",
+    "label": "Henties Bay (Hentiesbaai)",
+    "subdivisionCode": "ER",
+    "function": "3",
+    "lat": -22.116667,
+    "lng": 14.283333
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Karasburg",
+    "function": "45"
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Karibib",
+    "function": "3",
+    "lat": -21.933333,
+    "lng": 15.85
+  },
+  {
+    "locationCode": "KAT",
+    "label": "Katima Mulilo",
+    "subdivisionCode": "CA",
+    "function": "3",
+    "lat": -17.5,
+    "lng": 24.266667
+  },
+  {
+    "locationCode": "KMP",
+    "label": "Keetmanshoop",
+    "function": "4"
+  },
+  {
+    "locationCode": "LUD",
+    "label": "Lüderitz",
+    "labelWithDiacritics": "Luderitz",
+    "function": "14",
+    "lat": -26.65,
+    "lng": 15.166667
+  },
+  {
+    "locationCode": "MTH",
+    "label": "Maltahohe",
+    "subdivisionCode": "HA",
+    "function": "6",
+    "lat": -24.833333,
+    "lng": 16.983333
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Mariental",
+    "function": "5"
+  },
+  {
+    "locationCode": "MQG",
+    "label": "Midgard",
+    "function": "4"
+  },
+  {
+    "locationCode": "OKU",
+    "label": "Mokuti Lodge",
+    "function": "4"
+  },
+  {
+    "locationCode": "MJO",
+    "label": "Mount Etjo Lodge",
+    "function": "4"
+  },
+  {
+    "locationCode": "MPA",
+    "label": "Mpacha",
+    "function": "4"
+  },
+  {
+    "locationCode": "NNI",
+    "label": "Namutoni",
+    "function": "4"
+  },
+  {
+    "locationCode": "WOR",
+    "label": "Noordoewer",
+    "subdivisionCode": "KA",
+    "function": "35",
+    "lat": -28.75,
+    "lng": 17.616667
+  },
+  {
+    "locationCode": "OOZ",
+    "label": "Okahandja",
+    "subdivisionCode": "OD",
+    "function": "6",
+    "lat": -21.983333,
+    "lng": 16.916667
+  },
+  {
+    "locationCode": "OKF",
+    "label": "Okaukuejo",
+    "function": "4"
+  },
+  {
+    "locationCode": "OMA",
+    "label": "Omaruru",
+    "subdivisionCode": "ER",
+    "function": "3",
+    "lat": -21.433333,
+    "lng": 15.933333
+  },
+  {
+    "locationCode": "OMG",
+    "label": "Omega",
+    "function": "4"
+  },
+  {
+    "locationCode": "OND",
+    "label": "Ondangwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "OGV",
+    "label": "Ongava Game Reserve",
+    "function": "4"
+  },
+  {
+    "locationCode": "ONG",
+    "label": "Ongwediva",
+    "subdivisionCode": "ON",
+    "function": "3",
+    "lat": -17.766667,
+    "lng": 15.75
+  },
+  {
+    "locationCode": "OPW",
+    "label": "Opuwa",
+    "function": "4"
+  },
+  {
+    "locationCode": "OMD",
+    "label": "Oranjemund",
+    "function": "4"
+  },
+  {
+    "locationCode": "OHI",
+    "label": "Oshakati",
+    "function": "45"
+  },
+  {
+    "locationCode": "OSH",
+    "label": "Oshikango",
+    "subdivisionCode": "OW",
+    "function": "6",
+    "lat": -17.4,
+    "lng": 15.883333
+  },
+  {
+    "locationCode": "OVO",
+    "label": "Oshivelo",
+    "subdivisionCode": "OT",
+    "function": "3",
+    "lat": -18.616667,
+    "lng": 17.166667
+  },
+  {
+    "locationCode": "OTP",
+    "label": "Otavi",
+    "subdivisionCode": "OD",
+    "function": "3",
+    "lat": -19.65,
+    "lng": 17.333333
+  },
+  {
+    "locationCode": "OTJ",
+    "label": "Otjiwarongo",
+    "function": "45"
+  },
+  {
+    "locationCode": "OUT",
+    "label": "Outjo",
+    "subdivisionCode": "KU",
+    "function": "3",
+    "lat": -20.116667,
+    "lng": 16.15
+  },
+  {
+    "locationCode": "RUA",
+    "label": "Ruacana",
+    "subdivisionCode": "KU",
+    "function": "16",
+    "lat": -17.433333,
+    "lng": 14.35
+  },
+  {
+    "locationCode": "NDU",
+    "label": "Rundu",
+    "function": "4"
+  },
+  {
+    "locationCode": "SZM",
+    "label": "Sesriem",
+    "function": "4"
+  },
+  {
+    "locationCode": "SWP",
+    "label": "Swakopmund",
+    "function": "45"
+  },
+  {
+    "locationCode": "TCY",
+    "label": "Terrace Bay",
+    "function": "4"
+  },
+  {
+    "locationCode": "TSB",
+    "label": "Tsumeb",
+    "function": "4"
+  },
+  {
+    "locationCode": "UIS",
+    "label": "Uis",
+    "subdivisionCode": "ER",
+    "function": "3",
+    "lat": -21.216667,
+    "lng": 14.85
+  },
+  {
+    "locationCode": "WVB",
+    "label": "Walvis Bay",
+    "function": "1"
+  },
+  {
+    "locationCode": "WDH",
+    "label": "Windhoek",
+    "function": "45"
+  },
+  {
+    "locationCode": "ERS",
+    "label": "Windhoek Eros Airport",
+    "subdivisionCode": "KH",
+    "function": "4",
+    "lat": -22.6,
+    "lng": 17.066667
+  }
+]

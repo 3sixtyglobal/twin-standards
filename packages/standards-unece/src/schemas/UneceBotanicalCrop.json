@@ -1,0 +1,47 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://schema.twindev.org/unece/UneceBotanicalCrop",
+	"title": "UneceBotanicalCrop",
+	"description": "Plants or produce cultivated from a single botanical species or variety.",
+	"type": "object",
+	"properties": {
+		"@context": {
+			"$ref": "https://schema.twindev.org/unece/UneceContextType",
+			"description": "JSON-LD Context."
+		},
+		"type": {
+			"const": "BotanicalCrop",
+			"description": "JSON-LD Type."
+		},
+		"botanicalGenusCode": {
+			"type": "string",
+			"description": "The code specifying the genus for this botanical crop."
+		},
+		"botanicalIdentificationId": {
+			"anyOf": [
+				{
+					"type": "string"
+				},
+				{
+					"$ref": "https://schema.twindev.org/json-ld/JsonLdValueObject"
+				}
+			],
+			"description": "The identifier for this botanical crop."
+		},
+		"botanicalName": {
+			"type": "string",
+			"description": "The botanical name, expressed as text, for this botanical crop."
+		},
+		"botanicalSpeciesCode": {
+			"type": "string",
+			"description": "The code specifying the species for this botanical crop."
+		},
+		"purposeCode": {
+			"type": "string",
+			"description": "The code specifying the purpose for this botanical crop."
+		}
+	},
+	"required": [
+		"type"
+	]
+}

@@ -12,18 +12,19 @@ import { Sha256 } from "@twin.org/crypto";
 import { JsonLdProcessor, type IJsonLdNodeObject } from "@twin.org/data-json-ld";
 import { nameof } from "@twin.org/nameof";
 import { Jwk, Jws, type IJwk } from "@twin.org/web";
-import { DidContexts } from "../models/didContexts";
-import type { IJsonWebSignature2020Proof } from "../models/IJsonWebSignature2020Proof";
-import type { IProofSignerVerifier } from "../models/IProofSignerVerifier";
+import { DidContexts } from "../models/didContexts.js";
+import type { IJsonWebSignature2020Proof } from "../models/IJsonWebSignature2020Proof.js";
+import type { IProofSignerVerifier } from "../models/IProofSignerVerifier.js";
 
 /**
- * Helper methods for creating and verifying proofs.
+ * Helper methods for creating and verifying JsonWebSignature2020 proofs.
+ * @see https://w3c-ccg.github.io/lds-jws2020/
  */
 export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier {
 	/**
 	 * Runtime name for the class.
 	 */
-	public readonly CLASS_NAME: string = nameof<JsonWebSignature2020SignerVerifier>();
+	public static readonly CLASS_NAME: string = nameof<JsonWebSignature2020SignerVerifier>();
 
 	/**
 	 * Create a proof for the given data.
@@ -37,13 +38,17 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 		unsignedProof: IJsonWebSignature2020Proof,
 		signKey: IJwk
 	): Promise<IJsonWebSignature2020Proof> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
+		Guards.object<IJsonLdNodeObject>(
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
 		Guards.object<IJsonWebSignature2020Proof>(
-			this.CLASS_NAME,
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
 			nameof(unsignedProof),
 			unsignedProof
 		);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(signKey), signKey);
+		Guards.object<IJwk>(JsonWebSignature2020SignerVerifier.CLASS_NAME, nameof(signKey), signKey);
 
 		const unsecuredDocumentClone = ObjectHelper.clone(unsecuredDocument);
 
@@ -70,7 +75,7 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 	}
 
 	/**
-	 * Verify a proof for the given data in format.
+	 * Verify a proof for the given data.
 	 * @param securedDocument The credential to verify.
 	 * @param signedProof The proof to verify.
 	 * @param verifyKey The public key to verify the proof with.
@@ -81,12 +86,24 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 		signedProof: IJsonWebSignature2020Proof,
 		verifyKey: IJwk
 	): Promise<boolean> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(securedDocument), securedDocument);
-		Guards.object<IJsonWebSignature2020Proof>(this.CLASS_NAME, nameof(signedProof), signedProof);
-		Guards.object<IJwk>(this.CLASS_NAME, nameof(verifyKey), verifyKey);
+		Guards.object<IJsonLdNodeObject>(
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
+			nameof(securedDocument),
+			securedDocument
+		);
+		Guards.object<IJsonWebSignature2020Proof>(
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
+			nameof(signedProof),
+			signedProof
+		);
+		Guards.object<IJwk>(
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
+			nameof(verifyKey),
+			verifyKey
+		);
 		const jws = signedProof.jws;
 		if (!Is.stringValue(jws)) {
-			throw new GeneralError(this.CLASS_NAME, "jwsMissing");
+			throw new GeneralError(JsonWebSignature2020SignerVerifier.CLASS_NAME, "missingJws");
 		}
 
 		const hash = await this.createHash(securedDocument, signedProof);
@@ -106,14 +123,18 @@ export class JsonWebSignature2020SignerVerifier implements IProofSignerVerifier 
 		unsecuredDocument: IJsonLdNodeObject,
 		unsignedProof: IJsonWebSignature2020Proof
 	): Promise<Uint8Array> {
-		Guards.object<IJsonLdNodeObject>(this.CLASS_NAME, nameof(unsecuredDocument), unsecuredDocument);
+		Guards.object<IJsonLdNodeObject>(
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
+			nameof(unsecuredDocument),
+			unsecuredDocument
+		);
 		Guards.object<IJsonWebSignature2020Proof>(
-			this.CLASS_NAME,
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
 			nameof(unsignedProof),
 			unsignedProof
 		);
 		Guards.stringValue(
-			this.CLASS_NAME,
+			JsonWebSignature2020SignerVerifier.CLASS_NAME,
 			nameof(unsignedProof.verificationMethod),
 			unsignedProof.verificationMethod
 		);

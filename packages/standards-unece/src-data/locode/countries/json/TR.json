@@ -1,0 +1,4706 @@
+[
+  {
+    "locationCode": "ACI",
+    "label": "Acibadem",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "APY",
+    "label": "Acipayam",
+    "subdivisionCode": "20",
+    "function": "0"
+  },
+  {
+    "locationCode": "ADA",
+    "label": "Adana",
+    "subdivisionCode": "01",
+    "function": "14"
+  },
+  {
+    "locationCode": "ADZ",
+    "label": "Adapazari",
+    "subdivisionCode": "54",
+    "function": "3"
+  },
+  {
+    "locationCode": "ADI",
+    "label": "Adiyaman",
+    "subdivisionCode": "02",
+    "function": "0"
+  },
+  {
+    "locationCode": "AFY",
+    "label": "Afyonkarahisar",
+    "subdivisionCode": "03",
+    "function": "34"
+  },
+  {
+    "locationCode": "AJI",
+    "label": "Agri",
+    "subdivisionCode": "04",
+    "function": "4"
+  },
+  {
+    "locationCode": "AHM",
+    "label": "Ahmetli",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "AKB",
+    "label": "Akçaabat",
+    "subdivisionCode": "61",
+    "labelWithDiacritics": "Akcaabat",
+    "function": "1",
+    "lat": 41.016667,
+    "lng": 39.566667
+  },
+  {
+    "locationCode": "KKC",
+    "label": "Akçakoca",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Akcakoca",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": 31.1
+  },
+  {
+    "locationCode": "AKC",
+    "label": "Akcansa",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 40.1,
+    "lng": 26.383333
+  },
+  {
+    "locationCode": "GKV",
+    "label": "Akçapinar",
+    "subdivisionCode": "48",
+    "labelWithDiacritics": "Akcapinar",
+    "function": "1",
+    "lat": 37.016667,
+    "lng": 28.366667
+  },
+  {
+    "locationCode": "AKY",
+    "label": "Akçay",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Akcay",
+    "function": "1",
+    "lat": 39.583333,
+    "lng": 26.933333
+  },
+  {
+    "locationCode": "AKD",
+    "label": "Akdeniz",
+    "function": "1",
+    "lat": 36.866667,
+    "lng": 34.7
+  },
+  {
+    "locationCode": "AHS",
+    "label": "Akhisar",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "AKS",
+    "label": "Aksaray",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ARY",
+    "label": "Aksaray",
+    "subdivisionCode": "68",
+    "function": "0"
+  },
+  {
+    "locationCode": "AHR",
+    "label": "Aksehir",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "AKI",
+    "label": "Akseki",
+    "subdivisionCode": "07",
+    "function": "0"
+  },
+  {
+    "locationCode": "AKZ",
+    "label": "Akyazi",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "KY8",
+    "label": "Akyurt",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.133333,
+    "lng": 33.1
+  },
+  {
+    "locationCode": "ALA",
+    "label": "Alanya",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 36.533333,
+    "lng": 31.983333
+  },
+  {
+    "locationCode": "API",
+    "label": "Alapli",
+    "subdivisionCode": "67",
+    "function": "0"
+  },
+  {
+    "locationCode": "ASH",
+    "label": "Alasehir",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "ALE",
+    "label": "Alemdag",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ALI",
+    "label": "Aliaga",
+    "subdivisionCode": "35",
+    "function": "1"
+  },
+  {
+    "locationCode": "ABK",
+    "label": "Alibeyköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Alibeykoy",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "ANC",
+    "label": "Alsancak",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 27.183333
+  },
+  {
+    "locationCode": "AYD",
+    "label": "Altinkum",
+    "subdivisionCode": "09",
+    "function": "1"
+  },
+  {
+    "locationCode": "ATV",
+    "label": "Altinova",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 40.683333,
+    "lng": 29.5
+  },
+  {
+    "locationCode": "ATS",
+    "label": "Altinsehir",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.05,
+    "lng": 28.75
+  },
+  {
+    "locationCode": "ALT",
+    "label": "Altintepe",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "AIZ",
+    "label": "Altinusagi",
+    "subdivisionCode": "23",
+    "function": "3",
+    "lat": 38.566667,
+    "lng": 38.466667
+  },
+  {
+    "locationCode": "AMA",
+    "label": "Amasra",
+    "subdivisionCode": "67",
+    "function": "1"
+  },
+  {
+    "locationCode": "AMY",
+    "label": "Amasya",
+    "subdivisionCode": "05",
+    "function": "0"
+  },
+  {
+    "locationCode": "AMB",
+    "label": "Ambarli",
+    "subdivisionCode": "08",
+    "function": "3",
+    "lat": 41.316667,
+    "lng": 41.683333
+  },
+  {
+    "locationCode": "AMR",
+    "label": "Ambarli",
+    "subdivisionCode": "34",
+    "function": "13",
+    "lat": 40.966667,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "PAM",
+    "label": "Ambarli",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 39.166667
+  },
+  {
+    "locationCode": "ADK",
+    "label": "Anadolukavagi",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ANA",
+    "label": "Anamur",
+    "subdivisionCode": "33",
+    "function": "1",
+    "lat": 36.066667,
+    "lng": 32.85
+  },
+  {
+    "locationCode": "ANK",
+    "label": "Ankara",
+    "subdivisionCode": "06",
+    "function": "2345"
+  },
+  {
+    "locationCode": "AKA",
+    "label": "Antakya",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 36.183333,
+    "lng": 36.166667
+  },
+  {
+    "locationCode": "AYT",
+    "label": "Antalya",
+    "subdivisionCode": "07",
+    "function": "1234",
+    "lat": 36.833333,
+    "lng": 30.6
+  },
+  {
+    "locationCode": "UZE",
+    "label": "Antalya Free Zone",
+    "subdivisionCode": "07",
+    "function": "6",
+    "lat": 36.833333,
+    "lng": 30.6
+  },
+  {
+    "locationCode": "ARD",
+    "label": "Ardahan",
+    "subdivisionCode": "75",
+    "function": "34",
+    "lat": 41.1,
+    "lng": 42.7
+  },
+  {
+    "locationCode": "ARE",
+    "label": "Arifiye",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 30.366667
+  },
+  {
+    "locationCode": "ARM",
+    "label": "Armutlu",
+    "subdivisionCode": "58",
+    "function": "6",
+    "lat": 39.566667,
+    "lng": 37.3
+  },
+  {
+    "locationCode": "ARN",
+    "label": "Arnavutköy/Istambul",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Arnavutkoy/Istambul",
+    "function": "3",
+    "lat": 41.066667,
+    "lng": 29.033333
+  },
+  {
+    "locationCode": "RSN",
+    "label": "Arsin",
+    "subdivisionCode": "61",
+    "function": "3",
+    "lat": 40.95,
+    "lng": 39.933333
+  },
+  {
+    "locationCode": "AVN",
+    "label": "Artvin",
+    "subdivisionCode": "08",
+    "function": "0"
+  },
+  {
+    "locationCode": "ATA",
+    "label": "Atakoy",
+    "subdivisionCode": "21",
+    "function": "6",
+    "lat": 37.916667,
+    "lng": 40.516667
+  },
+  {
+    "locationCode": "STR",
+    "label": "Atasehir",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 29.116667
+  },
+  {
+    "locationCode": "AVE",
+    "label": "Avcilar",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 39.616667,
+    "lng": 39.816667
+  },
+  {
+    "locationCode": "AVC",
+    "label": "Avcilar",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "AYA",
+    "label": "Ayancik",
+    "subdivisionCode": "57",
+    "function": "1",
+    "lat": 41.933333,
+    "lng": 34.583333
+  },
+  {
+    "locationCode": "AYS",
+    "label": "Ayas",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "AYZ",
+    "label": "Ayazaga",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ADN",
+    "label": "Aydin",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "UZA",
+    "label": "Aydinlik Koy",
+    "subdivisionCode": "05",
+    "function": "6",
+    "lat": 40.716667,
+    "lng": 35.85
+  },
+  {
+    "locationCode": "AYK",
+    "label": "Aydinlikoy",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ARI",
+    "label": "Ayranci",
+    "subdivisionCode": "70",
+    "function": "0"
+  },
+  {
+    "locationCode": "AYV",
+    "label": "Ayvalik",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 39.316667,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "BBP",
+    "label": "Baba Point",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 39.466667,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "BBD",
+    "label": "Babadag",
+    "subdivisionCode": "20",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAB",
+    "label": "Babaeski",
+    "subdivisionCode": "39",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAF",
+    "label": "Bafra",
+    "subdivisionCode": "55",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAG",
+    "label": "Bagcilar",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "BGB",
+    "label": "Baglarbasi",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 37.45,
+    "lng": 41.45
+  },
+  {
+    "locationCode": "BAH",
+    "label": "Bahçelievler",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Bahcelievler",
+    "function": "3",
+    "lat": 39.933333,
+    "lng": 32.833333
+  },
+  {
+    "locationCode": "BAC",
+    "label": "Bahçesaray",
+    "subdivisionCode": "65",
+    "labelWithDiacritics": "Bahcesaray",
+    "function": "3",
+    "lat": 38.133333,
+    "lng": 42.8
+  },
+  {
+    "locationCode": "BAK",
+    "label": "Bakirköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Bakirkoy",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 28.866667
+  },
+  {
+    "locationCode": "BLA",
+    "label": "Balâ",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Bala",
+    "function": "3",
+    "lat": 39.566667,
+    "lng": 33.133333
+  },
+  {
+    "locationCode": "BZI",
+    "label": "Balikesir",
+    "subdivisionCode": "10",
+    "function": "14"
+  },
+  {
+    "locationCode": "BLY",
+    "label": "Balya",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAN",
+    "label": "Banaz",
+    "subdivisionCode": "64",
+    "function": "0"
+  },
+  {
+    "locationCode": "BDM",
+    "label": "Bandirma",
+    "subdivisionCode": "10",
+    "function": "1234",
+    "lat": 40.35,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "BTN",
+    "label": "Bartin",
+    "subdivisionCode": "74",
+    "function": "0"
+  },
+  {
+    "locationCode": "ABH",
+    "label": "Basaksehir",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "BKY",
+    "label": "Basköy",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Baskoy",
+    "function": "3",
+    "lat": 40.2,
+    "lng": 28.75
+  },
+  {
+    "locationCode": "BAS",
+    "label": "Basmahane",
+    "subdivisionCode": "35",
+    "function": "23",
+    "lat": 38.416667,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "BKC",
+    "label": "Basmakçi",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Basmakci",
+    "function": "3",
+    "lat": 37.9,
+    "lng": 30.016667
+  },
+  {
+    "locationCode": "YOJ",
+    "label": "Baspinar",
+    "subdivisionCode": "66",
+    "function": "3",
+    "lat": 40.116667,
+    "lng": 35.55
+  },
+  {
+    "locationCode": "BAL",
+    "label": "Batman",
+    "subdivisionCode": "72",
+    "function": "4"
+  },
+  {
+    "locationCode": "IGT",
+    "label": "Battalgazi",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 38.416667,
+    "lng": 38.35
+  },
+  {
+    "locationCode": "BYT",
+    "label": "Bayburt",
+    "subdivisionCode": "69",
+    "function": "0"
+  },
+  {
+    "locationCode": "BYN",
+    "label": "Bayindir",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "JBB",
+    "label": "Bayrakli",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 37.266667,
+    "lng": 40.266667
+  },
+  {
+    "locationCode": "BYM",
+    "label": "Bayramic",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "BYR",
+    "label": "Bayramoglu",
+    "subdivisionCode": "41",
+    "function": "0"
+  },
+  {
+    "locationCode": "BAY",
+    "label": "Bayrampasa",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "BER",
+    "label": "Bergama",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "BTS",
+    "label": "Besiktas",
+    "subdivisionCode": "34",
+    "function": "13",
+    "lat": 41.05,
+    "lng": 29.016667
+  },
+  {
+    "locationCode": "BYD",
+    "label": "Beydag",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "BEY",
+    "label": "Beykoz",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "BBI",
+    "label": "Beylerbeyi",
+    "subdivisionCode": "34",
+    "function": "13",
+    "lat": 41.05,
+    "lng": 29.05
+  },
+  {
+    "locationCode": "BYL",
+    "label": "Beylikduzu",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "BYO",
+    "label": "Beyoglu",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "BPZ",
+    "label": "Beypazari",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "BYS",
+    "label": "Beysehir",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "BIG",
+    "label": "Biga",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "BGD",
+    "label": "Bigadiç",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Bigadic",
+    "function": "3",
+    "lat": 39.383333,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "BIL",
+    "label": "Bilecik",
+    "subdivisionCode": "11",
+    "function": "0"
+  },
+  {
+    "locationCode": "BIN",
+    "label": "Bingöl",
+    "subdivisionCode": "12",
+    "labelWithDiacritics": "Bingol",
+    "function": "3",
+    "lat": 38.883333,
+    "lng": 40.483333
+  },
+  {
+    "locationCode": "BIT",
+    "label": "Bitlis",
+    "subdivisionCode": "13",
+    "function": "3",
+    "lat": 38.4,
+    "lng": 42.1
+  },
+  {
+    "locationCode": "BXN",
+    "label": "Bodrum",
+    "subdivisionCode": "48",
+    "function": "14",
+    "lat": 37.033333,
+    "lng": 27.416667
+  },
+  {
+    "locationCode": "BOG",
+    "label": "Bogazagzi",
+    "subdivisionCode": "67",
+    "function": "1"
+  },
+  {
+    "locationCode": "BON",
+    "label": "Bogazliyan",
+    "subdivisionCode": "66",
+    "function": "3",
+    "lat": 39.183333,
+    "lng": 35.233333
+  },
+  {
+    "locationCode": "BOL",
+    "label": "Bolu",
+    "subdivisionCode": "14",
+    "function": "1"
+  },
+  {
+    "locationCode": "BVN",
+    "label": "Bolvadin",
+    "subdivisionCode": "03",
+    "function": "0"
+  },
+  {
+    "locationCode": "BOR",
+    "label": "Bornova",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "BNI",
+    "label": "Bornova/Izmir",
+    "subdivisionCode": "35",
+    "function": "34",
+    "lat": 38.466667,
+    "lng": 27.216667
+  },
+  {
+    "locationCode": "BOS",
+    "label": "Bostanci",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "BOT",
+    "label": "Botas",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 36.816667,
+    "lng": 36.166667
+  },
+  {
+    "locationCode": "HAD",
+    "label": "Boyalik",
+    "subdivisionCode": "34",
+    "function": "23",
+    "lat": 41.166667,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "BZB",
+    "label": "Bozburun",
+    "subdivisionCode": "48",
+    "function": "1"
+  },
+  {
+    "locationCode": "BZC",
+    "label": "Bozcaada",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 39.833333,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "BDG",
+    "label": "Bozdogan",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "BZY",
+    "label": "Bozüyük",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Bozuyuk",
+    "function": "3",
+    "lat": 39.9,
+    "lng": 30.05
+  },
+  {
+    "locationCode": "BUC",
+    "label": "Buca",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "BCK",
+    "label": "Bucak",
+    "subdivisionCode": "15",
+    "function": "0"
+  },
+  {
+    "locationCode": "BUH",
+    "label": "Buharkent",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "BDN",
+    "label": "Buldan",
+    "subdivisionCode": "20",
+    "function": "0"
+  },
+  {
+    "locationCode": "BDR",
+    "label": "Burdur",
+    "subdivisionCode": "15",
+    "function": "0"
+  },
+  {
+    "locationCode": "BHN",
+    "label": "Burhaniye",
+    "subdivisionCode": "10",
+    "function": "1"
+  },
+  {
+    "locationCode": "BTZ",
+    "label": "Bursa",
+    "subdivisionCode": "16",
+    "function": "3"
+  },
+  {
+    "locationCode": "BCE",
+    "label": "Buyukcekmece",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "BUY",
+    "label": "Büyükçukur",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Buyukcukur",
+    "function": "1",
+    "lat": 41.066667,
+    "lng": 35.966667
+  },
+  {
+    "locationCode": "BKA",
+    "label": "Büyükkaristiran",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Buyukkaristiran",
+    "function": "3",
+    "lat": 41.3,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "CAK",
+    "label": "Cakmak",
+    "subdivisionCode": "27",
+    "function": "6",
+    "lat": 37.216667,
+    "lng": 36.833333
+  },
+  {
+    "locationCode": "CKM",
+    "label": "Çakmakli",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Cakmakli",
+    "function": "3",
+    "lat": 38.733333,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "CAL",
+    "label": "Cal",
+    "subdivisionCode": "20",
+    "function": "0"
+  },
+  {
+    "locationCode": "CAM",
+    "label": "Çamalti",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Camalti",
+    "function": "1",
+    "lat": 41.65,
+    "lng": 32.383333
+  },
+  {
+    "locationCode": "CMB",
+    "label": "Çamdibi",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Camdibi",
+    "function": "3",
+    "lat": 40.4,
+    "lng": 29.75
+  },
+  {
+    "locationCode": "CML",
+    "label": "Çamlica",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Camlica",
+    "function": "3",
+    "lat": 37.916667,
+    "lng": 31.75
+  },
+  {
+    "locationCode": "CDR",
+    "label": "Çamlidere",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Camlidere",
+    "function": "3",
+    "lat": 40.5,
+    "lng": 32.483333
+  },
+  {
+    "locationCode": "CAN",
+    "label": "Çan",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Can",
+    "function": "3",
+    "lat": 40.033333,
+    "lng": 27.05
+  },
+  {
+    "locationCode": "CKZ",
+    "label": "Çanakkale",
+    "subdivisionCode": "17",
+    "labelWithDiacritics": "Canakkale",
+    "function": "1",
+    "lat": 40.15,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "ZCA",
+    "label": "Cankaya",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 39.916667,
+    "lng": 32.883333
+  },
+  {
+    "locationCode": "CKR",
+    "label": "Çankiri",
+    "subdivisionCode": "18",
+    "labelWithDiacritics": "Cankiri",
+    "function": "3",
+    "lat": 40.6,
+    "lng": 33.616667
+  },
+  {
+    "locationCode": "CAR",
+    "label": "Çardak",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Cardak",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 29.666667
+  },
+  {
+    "locationCode": "SZF",
+    "label": "Carsamba Apt/Samsun",
+    "subdivisionCode": "55",
+    "function": "4"
+  },
+  {
+    "locationCode": "CAT",
+    "label": "Çatalca",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Catalca",
+    "function": "3",
+    "lat": 41.133333,
+    "lng": 28.466667
+  },
+  {
+    "locationCode": "CVD",
+    "label": "Çavdir",
+    "subdivisionCode": "15",
+    "labelWithDiacritics": "Cavdir",
+    "function": "3",
+    "lat": 37.15,
+    "lng": 29.7
+  },
+  {
+    "locationCode": "CCY",
+    "label": "Çay",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Cay",
+    "function": "3",
+    "lat": 38.583333,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "CAB",
+    "label": "Çaybasi",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Caybasi",
+    "function": "3",
+    "lat": 40.05,
+    "lng": 29.083333
+  },
+  {
+    "locationCode": "CUM",
+    "label": "Çaycuma",
+    "subdivisionCode": "67",
+    "labelWithDiacritics": "Caycuma",
+    "function": "34",
+    "lat": 41.416667,
+    "lng": 32.083333
+  },
+  {
+    "locationCode": "CAY",
+    "label": "Çayirova",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Cayirova",
+    "function": "3",
+    "lat": 39.216667,
+    "lng": 37.083333
+  },
+  {
+    "locationCode": "CKO",
+    "label": "Cekmekoy",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 29.166667
+  },
+  {
+    "locationCode": "CTK",
+    "label": "Celtik",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "CEM",
+    "label": "Cemberlitas",
+    "subdivisionCode": "62",
+    "function": "6",
+    "lat": 39.3,
+    "lng": 39.35
+  },
+  {
+    "locationCode": "CKY",
+    "label": "Çerkezköy",
+    "subdivisionCode": "59",
+    "labelWithDiacritics": "Cerkezkoy",
+    "function": "3",
+    "lat": 41.283333,
+    "lng": 28
+  },
+  {
+    "locationCode": "CES",
+    "label": "Çesme",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Cesme",
+    "function": "1",
+    "lat": 38.316667,
+    "lng": 26.3
+  },
+  {
+    "locationCode": "CEV",
+    "label": "Cevizli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "CEY",
+    "label": "Ceyhan",
+    "subdivisionCode": "01",
+    "function": "0"
+  },
+  {
+    "locationCode": "CID",
+    "label": "Cide",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 41.9,
+    "lng": 32.983333
+  },
+  {
+    "locationCode": "CIF",
+    "label": "Ciftehavuzlar",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "CTR",
+    "label": "Cifteler",
+    "subdivisionCode": "26",
+    "function": "3",
+    "lat": 39.366667,
+    "lng": 31.033333
+  },
+  {
+    "locationCode": "CIG",
+    "label": "Cigli",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "CNE",
+    "label": "Cigne",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "CHB",
+    "label": "Cihanbeyli",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "CIR",
+    "label": "Cihangir",
+    "subdivisionCode": "13",
+    "function": "6",
+    "lat": 38.916667,
+    "lng": 42.6
+  },
+  {
+    "locationCode": "CIN",
+    "label": "Cine",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "CIV",
+    "label": "Çivril",
+    "labelWithDiacritics": "Civril",
+    "function": "23",
+    "lat": 38.283333,
+    "lng": 29.733333
+  },
+  {
+    "locationCode": "CZE",
+    "label": "Cizre",
+    "subdivisionCode": "73",
+    "function": "3",
+    "lat": 37.316667,
+    "lng": 42.183333
+  },
+  {
+    "locationCode": "CNR",
+    "label": "Çobanlar",
+    "subdivisionCode": "03",
+    "labelWithDiacritics": "Cobanlar",
+    "function": "3",
+    "lat": 38.683333,
+    "lng": 30.783333
+  },
+  {
+    "locationCode": "CKG",
+    "label": "Colakoglu",
+    "subdivisionCode": "44",
+    "function": "3",
+    "lat": 38.433333,
+    "lng": 38.416667
+  },
+  {
+    "locationCode": "COR",
+    "label": "Çorlu",
+    "subdivisionCode": "59",
+    "labelWithDiacritics": "Corlu",
+    "function": "23",
+    "lat": 41.166667,
+    "lng": 27.8
+  },
+  {
+    "locationCode": "COM",
+    "label": "Corum",
+    "subdivisionCode": "19",
+    "function": "3",
+    "lat": 40.533333,
+    "lng": 34.95
+  },
+  {
+    "locationCode": "CUB",
+    "label": "Cubuklu",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "CMR",
+    "label": "Çumra",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Cumra",
+    "function": "3",
+    "lat": 37.566667,
+    "lng": 32.8
+  },
+  {
+    "locationCode": "DLM",
+    "label": "Dalaman",
+    "subdivisionCode": "48",
+    "function": "4"
+  },
+  {
+    "locationCode": "DAN",
+    "label": "Dardanelles",
+    "function": "3",
+    "lat": 40.2,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "DAR",
+    "label": "Darica",
+    "subdivisionCode": "41",
+    "function": "1"
+  },
+  {
+    "locationCode": "DAT",
+    "label": "Datça",
+    "subdivisionCode": "48",
+    "labelWithDiacritics": "Datca",
+    "function": "1",
+    "lat": 36.75,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "DAV",
+    "label": "Davutpasa",
+    "subdivisionCode": "34",
+    "function": "236",
+    "lat": 41,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "DPS",
+    "label": "Davutpasa",
+    "subdivisionCode": "37",
+    "function": "3",
+    "lat": 41.566667,
+    "lng": 34.183333
+  },
+  {
+    "locationCode": "DAZ",
+    "label": "Dazkiri",
+    "subdivisionCode": "03",
+    "function": "0"
+  },
+  {
+    "locationCode": "DCI",
+    "label": "Demirci",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "DMR",
+    "label": "Demirciler",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 40.85,
+    "lng": 29.783333
+  },
+  {
+    "locationCode": "DMK",
+    "label": "Demirkapi",
+    "subdivisionCode": "49",
+    "function": "6",
+    "lat": 39.083333,
+    "lng": 41.9
+  },
+  {
+    "locationCode": "DEM",
+    "label": "Demirköy",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Demirkoy",
+    "function": "3",
+    "lat": 41.816667,
+    "lng": 27.75
+  },
+  {
+    "locationCode": "DMT",
+    "label": "Demirtas",
+    "subdivisionCode": "16",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": 29.1
+  },
+  {
+    "locationCode": "DNZ",
+    "label": "Denizli",
+    "subdivisionCode": "20",
+    "function": "3"
+  },
+  {
+    "locationCode": "DFZ",
+    "label": "Denizli Osb",
+    "subdivisionCode": "20",
+    "function": "3",
+    "lat": 37.8,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "DEK",
+    "label": "Dereköy",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Derekoy",
+    "function": "3",
+    "lat": 41.933333,
+    "lng": 27.35
+  },
+  {
+    "locationCode": "DRC",
+    "label": "Derince",
+    "subdivisionCode": "41",
+    "function": "13"
+  },
+  {
+    "locationCode": "DRK",
+    "label": "Devrek",
+    "subdivisionCode": "67",
+    "function": "0"
+  },
+  {
+    "locationCode": "DDM",
+    "label": "Didim",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "DIK",
+    "label": "Dikili",
+    "subdivisionCode": "35",
+    "function": "1",
+    "lat": 39.066667,
+    "lng": 26.883333
+  },
+  {
+    "locationCode": "DIL",
+    "label": "Diliskelesi",
+    "subdivisionCode": "41",
+    "function": "1"
+  },
+  {
+    "locationCode": "DLV",
+    "label": "Dilovasi",
+    "subdivisionCode": "41",
+    "function": "0"
+  },
+  {
+    "locationCode": "DNR",
+    "label": "Dinar",
+    "subdivisionCode": "03",
+    "function": "0"
+  },
+  {
+    "locationCode": "DIY",
+    "label": "Diyarbakir",
+    "subdivisionCode": "21",
+    "function": "34"
+  },
+  {
+    "locationCode": "DHN",
+    "label": "Doganhisar",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "DOG",
+    "label": "Dogubayazit",
+    "function": "6",
+    "lat": 39.533333,
+    "lng": 44.083333
+  },
+  {
+    "locationCode": "DOL",
+    "label": "Dolayoba",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "DMC",
+    "label": "Domaniç Kozluca",
+    "subdivisionCode": "43",
+    "labelWithDiacritics": "Domanic Kozluca",
+    "function": "3",
+    "lat": 39.8,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "DYL",
+    "label": "Dörtyol",
+    "subdivisionCode": "31",
+    "labelWithDiacritics": "Dortyol",
+    "function": "1",
+    "lat": 36.866667,
+    "lng": 36.2
+  },
+  {
+    "locationCode": "EAL",
+    "label": "Dosemealti",
+    "subdivisionCode": "07",
+    "function": "36",
+    "lat": 37.016667,
+    "lng": 30.6
+  },
+  {
+    "locationCode": "DUD",
+    "label": "Dudullu",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "DPR",
+    "label": "Dumlupinar",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "DRY",
+    "label": "Dursunbey",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "DUZ",
+    "label": "Düzce",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Duzce",
+    "function": "3",
+    "lat": 40.833333,
+    "lng": 31.166667
+  },
+  {
+    "locationCode": "ECE",
+    "label": "Eceabat",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "EDK",
+    "label": "Edincik",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "EDI",
+    "label": "Edirne",
+    "subdivisionCode": "22",
+    "function": "1"
+  },
+  {
+    "locationCode": "EDO",
+    "label": "Edremit",
+    "subdivisionCode": "10",
+    "function": "134",
+    "lat": 39.583333,
+    "lng": 27.016667
+  },
+  {
+    "locationCode": "EGI",
+    "label": "Egirdir",
+    "subdivisionCode": "32",
+    "function": "0"
+  },
+  {
+    "locationCode": "EZS",
+    "label": "Elazig",
+    "subdivisionCode": "23",
+    "function": "4"
+  },
+  {
+    "locationCode": "EBN",
+    "label": "Elbistan",
+    "function": "6",
+    "lat": 38.2,
+    "lng": 37.183333
+  },
+  {
+    "locationCode": "LMG",
+    "label": "Elmadag",
+    "function": "6",
+    "lat": 39.916667,
+    "lng": 33.216667
+  },
+  {
+    "locationCode": "ELM",
+    "label": "Elmali",
+    "subdivisionCode": "07",
+    "function": "0"
+  },
+  {
+    "locationCode": "EEK",
+    "label": "Emek",
+    "subdivisionCode": "65",
+    "function": "6",
+    "lat": 38.583333,
+    "lng": 43.966667
+  },
+  {
+    "locationCode": "EME",
+    "label": "Emet",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "EMI",
+    "label": "Eminönü",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Eminonu",
+    "function": "3",
+    "lat": 41,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "EMG",
+    "label": "Emirdag",
+    "subdivisionCode": "03",
+    "function": "0"
+  },
+  {
+    "locationCode": "EGZ",
+    "label": "Emirgazi",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "ENE",
+    "label": "Enez",
+    "subdivisionCode": "22",
+    "function": "1",
+    "lat": 40.716667,
+    "lng": 26.066667
+  },
+  {
+    "locationCode": "RCS",
+    "label": "Ercis",
+    "subdivisionCode": "65",
+    "function": "6",
+    "lat": 39.016667,
+    "lng": 43.35
+  },
+  {
+    "locationCode": "ERK",
+    "label": "Erdek",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 40.383333,
+    "lng": 27.783333
+  },
+  {
+    "locationCode": "ELI",
+    "label": "Eregli",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 37.5,
+    "lng": 34.05
+  },
+  {
+    "locationCode": "ERE",
+    "label": "Eregli",
+    "subdivisionCode": "67",
+    "function": "13",
+    "lat": 41.283333,
+    "lng": 31.4
+  },
+  {
+    "locationCode": "ERN",
+    "label": "Erenkoy",
+    "subdivisionCode": "34",
+    "function": "3"
+  },
+  {
+    "locationCode": "D8T",
+    "label": "Erenler",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "EMK",
+    "label": "Ermenek",
+    "subdivisionCode": "70",
+    "function": "3",
+    "lat": 36.633333,
+    "lng": 32.883333
+  },
+  {
+    "locationCode": "ZIN",
+    "label": "Erzin",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 36.95,
+    "lng": 36.2
+  },
+  {
+    "locationCode": "ERC",
+    "label": "Erzincan",
+    "subdivisionCode": "24",
+    "function": "34",
+    "lat": 39.75,
+    "lng": 39.483333
+  },
+  {
+    "locationCode": "ERZ",
+    "label": "Erzurum",
+    "subdivisionCode": "25",
+    "function": "234"
+  },
+  {
+    "locationCode": "ESB",
+    "label": "Esenboga Apt/Ankara",
+    "subdivisionCode": "06",
+    "function": "4"
+  },
+  {
+    "locationCode": "ESE",
+    "label": "Esenler",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ESY",
+    "label": "Esenyurt",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ESK",
+    "label": "Eskisehir",
+    "subdivisionCode": "26",
+    "function": "234"
+  },
+  {
+    "locationCode": "ESM",
+    "label": "Esme",
+    "subdivisionCode": "64",
+    "function": "0"
+  },
+  {
+    "locationCode": "ETI",
+    "label": "Etiler",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KOK",
+    "label": "Evrensekiz",
+    "subdivisionCode": "39",
+    "function": "3",
+    "lat": 41.366667,
+    "lng": 27.483333
+  },
+  {
+    "locationCode": "EYP",
+    "label": "Evyap Port /Kocaeli",
+    "subdivisionCode": "41",
+    "function": "123",
+    "lat": 40.766667,
+    "lng": 29.7
+  },
+  {
+    "locationCode": "EVY",
+    "label": "Evyapan",
+    "subdivisionCode": "36",
+    "function": "3",
+    "lat": 40.033333,
+    "lng": 43.05
+  },
+  {
+    "locationCode": "EYU",
+    "label": "Eyüp",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Eyup",
+    "function": "3",
+    "lat": 41.05,
+    "lng": 28.916667
+  },
+  {
+    "locationCode": "EZI",
+    "label": "Ezine",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "FAT",
+    "label": "Fatih",
+    "subdivisionCode": "34",
+    "function": "25"
+  },
+  {
+    "locationCode": "FAS",
+    "label": "Fatsa",
+    "subdivisionCode": "52",
+    "function": "1",
+    "lat": 41.033333,
+    "lng": 37.483333
+  },
+  {
+    "locationCode": "FET",
+    "label": "Fethiye",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 36.616667,
+    "lng": 29.1
+  },
+  {
+    "locationCode": "FIK",
+    "label": "Fikirtepe",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "FIN",
+    "label": "Finike",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 36.283333,
+    "lng": 30.133333
+  },
+  {
+    "locationCode": "FRZ",
+    "label": "Firuzköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Firuzkoy",
+    "function": "13",
+    "lat": 41,
+    "lng": 28.7
+  },
+  {
+    "locationCode": "FLO",
+    "label": "Florya",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "FOC",
+    "label": "Foça",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Foca",
+    "function": "1",
+    "lat": 38.666667,
+    "lng": 26.75
+  },
+  {
+    "locationCode": "GTA",
+    "label": "Galata",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "GAY",
+    "label": "Gayrettepe",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "GZT",
+    "label": "Gaziantep",
+    "subdivisionCode": "27",
+    "function": "34"
+  },
+  {
+    "locationCode": "GZM",
+    "label": "Gaziemir",
+    "subdivisionCode": "35",
+    "function": "23",
+    "lat": 38.316667,
+    "lng": 27.116667
+  },
+  {
+    "locationCode": "GZR",
+    "label": "Gaziler",
+    "subdivisionCode": "18",
+    "function": "6",
+    "lat": 40.9,
+    "lng": 33.616667
+  },
+  {
+    "locationCode": "GAZ",
+    "label": "Gaziosmanpasa",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "GSZ",
+    "label": "Gazipasa",
+    "subdivisionCode": "07",
+    "function": "3",
+    "lat": 36.266667,
+    "lng": 32.3
+  },
+  {
+    "locationCode": "GEB",
+    "label": "Gebze",
+    "subdivisionCode": "41",
+    "function": "123",
+    "lat": 40.783333,
+    "lng": 29.416667
+  },
+  {
+    "locationCode": "GDZ",
+    "label": "Gediz",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "GEL",
+    "label": "Gelibolu",
+    "subdivisionCode": "17",
+    "function": "13"
+  },
+  {
+    "locationCode": "GEM",
+    "label": "Gemlik",
+    "subdivisionCode": "16",
+    "function": "1",
+    "lat": 40.416667,
+    "lng": 29.15
+  },
+  {
+    "locationCode": "GER",
+    "label": "Gerede",
+    "subdivisionCode": "14",
+    "function": "0"
+  },
+  {
+    "locationCode": "GRK",
+    "label": "Germencik",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "GZE",
+    "label": "Gerze",
+    "subdivisionCode": "57",
+    "function": "1",
+    "lat": 41.633333,
+    "lng": 36.183333
+  },
+  {
+    "locationCode": "GEY",
+    "label": "Geyve",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "GIR",
+    "label": "Giresun",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 40.916667,
+    "lng": 38.383333
+  },
+  {
+    "locationCode": "GCK",
+    "label": "Gocek",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 36.75,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "GCA",
+    "label": "Gokceada",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 40.183333,
+    "lng": 25.916667
+  },
+  {
+    "locationCode": "GBS",
+    "label": "Gölbasi",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Golbasi",
+    "function": "3",
+    "lat": 39.8,
+    "lng": 32.8
+  },
+  {
+    "locationCode": "GOK",
+    "label": "Gölcük",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Golcuk",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 29.833333
+  },
+  {
+    "locationCode": "GMA",
+    "label": "Gölmarmara",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Golmarmara",
+    "function": "3",
+    "lat": 38.7,
+    "lng": 27.933333
+  },
+  {
+    "locationCode": "GLP",
+    "label": "Gölpazari",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Golpazari",
+    "function": "3",
+    "lat": 40.283333,
+    "lng": 30.316667
+  },
+  {
+    "locationCode": "GON",
+    "label": "Gönen",
+    "subdivisionCode": "10",
+    "labelWithDiacritics": "Gonen",
+    "function": "3",
+    "lat": 40.1,
+    "lng": 27.65
+  },
+  {
+    "locationCode": "GDS",
+    "label": "Gördes",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Gordes",
+    "function": "3",
+    "lat": 38.9,
+    "lng": 28.3
+  },
+  {
+    "locationCode": "GOR",
+    "label": "Görele",
+    "subdivisionCode": "28",
+    "labelWithDiacritics": "Gorele",
+    "function": "1",
+    "lat": 41.033333,
+    "lng": 39
+  },
+  {
+    "locationCode": "GYN",
+    "label": "Göynük",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Goynuk",
+    "function": "3",
+    "lat": 40.4,
+    "lng": 30.783333
+  },
+  {
+    "locationCode": "GOZ",
+    "label": "Göztepe",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Goztepe",
+    "function": "3",
+    "lat": 40.966667,
+    "lng": 29.1
+  },
+  {
+    "locationCode": "GUL",
+    "label": "Güllük",
+    "subdivisionCode": "48",
+    "labelWithDiacritics": "Gulluk",
+    "function": "1",
+    "lat": 37.233333,
+    "lng": 27.6
+  },
+  {
+    "locationCode": "GHN",
+    "label": "Gümüshane",
+    "subdivisionCode": "29",
+    "labelWithDiacritics": "Gumushane",
+    "function": "3",
+    "lat": 40.45,
+    "lng": 39.483333
+  },
+  {
+    "locationCode": "GMS",
+    "label": "Gümüsova",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Gumusova",
+    "function": "36",
+    "lat": 40.833333,
+    "lng": 30.933333
+  },
+  {
+    "locationCode": "GUM",
+    "label": "Gümüssuyu",
+    "subdivisionCode": "57",
+    "labelWithDiacritics": "Gumussuyu",
+    "function": "3",
+    "lat": 41.95,
+    "lng": 34.933333
+  },
+  {
+    "locationCode": "GUN",
+    "label": "Gunesli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "GYB",
+    "label": "Gunesli Yenibosna",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.016667,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "GUG",
+    "label": "Güngören",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Gungoren",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.85
+  },
+  {
+    "locationCode": "GPR",
+    "label": "Gürpinar",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Gurpinar",
+    "function": "3",
+    "lat": 41,
+    "lng": 28.6
+  },
+  {
+    "locationCode": "GRS",
+    "label": "Gürsu",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Gursu",
+    "function": "3",
+    "lat": 40.216667,
+    "lng": 29.2
+  },
+  {
+    "locationCode": "GUZ",
+    "label": "Güzelbahçe",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Guzelbahce",
+    "function": "6",
+    "lat": 38.35,
+    "lng": 26.883333
+  },
+  {
+    "locationCode": "HAB",
+    "label": "Habibler",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "HMY",
+    "label": "Hadimkoy",
+    "subdivisionCode": "34",
+    "function": "3"
+  },
+  {
+    "locationCode": "HAK",
+    "label": "Hakkari",
+    "subdivisionCode": "30",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAL",
+    "label": "Halkali",
+    "subdivisionCode": "34",
+    "function": "23"
+  },
+  {
+    "locationCode": "HAR",
+    "label": "Haramidere",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "HAE",
+    "label": "Harbiye",
+    "subdivisionCode": "31",
+    "function": "6",
+    "lat": 36.133333,
+    "lng": 36.133333
+  },
+  {
+    "locationCode": "HSG",
+    "label": "Hasanoglan",
+    "function": "6",
+    "lat": 40,
+    "lng": 33.183333
+  },
+  {
+    "locationCode": "HAP",
+    "label": "Hasanpasa",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAS",
+    "label": "Hasköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Haskoy",
+    "function": "1",
+    "lat": 41.033333,
+    "lng": 28.966667
+  },
+  {
+    "locationCode": "HAT",
+    "label": "Hatay",
+    "subdivisionCode": "31",
+    "function": "4"
+  },
+  {
+    "locationCode": "HVR",
+    "label": "Havran",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAV",
+    "label": "Havsa",
+    "subdivisionCode": "22",
+    "function": "0"
+  },
+  {
+    "locationCode": "HAY",
+    "label": "Haydarpasa",
+    "subdivisionCode": "34",
+    "function": "13"
+  },
+  {
+    "locationCode": "HMA",
+    "label": "Haymana",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "HYR",
+    "label": "Hayrabolu",
+    "subdivisionCode": "59",
+    "function": "0"
+  },
+  {
+    "locationCode": "HEN",
+    "label": "Hendek",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "HER",
+    "label": "Hereke",
+    "subdivisionCode": "41",
+    "function": "1"
+  },
+  {
+    "locationCode": "HIS",
+    "label": "Hisarönü",
+    "subdivisionCode": "48",
+    "labelWithDiacritics": "Hisaronu",
+    "function": "13",
+    "lat": 36.783333,
+    "lng": 28.133333
+  },
+  {
+    "locationCode": "HOP",
+    "label": "Hopa",
+    "subdivisionCode": "08",
+    "function": "13",
+    "lat": 41.4,
+    "lng": 41.416667
+  },
+  {
+    "locationCode": "IDS",
+    "label": "Icdas Jetty",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 40.45,
+    "lng": 27.3
+  },
+  {
+    "locationCode": "ICE",
+    "label": "Icerenkoy",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "MGL",
+    "label": "Içmeler",
+    "subdivisionCode": "48",
+    "labelWithDiacritics": "Icmeler",
+    "function": "2",
+    "lat": 36.783333,
+    "lng": 28.216667
+  },
+  {
+    "locationCode": "IGD",
+    "label": "Igdir",
+    "subdivisionCode": "76",
+    "function": "0"
+  },
+  {
+    "locationCode": "IGN",
+    "label": "Igneada",
+    "subdivisionCode": "39",
+    "function": "1",
+    "lat": 41.883333,
+    "lng": 28.016667
+  },
+  {
+    "locationCode": "IHY",
+    "label": "Ihsaniye",
+    "subdivisionCode": "03",
+    "function": "3"
+  },
+  {
+    "locationCode": "IKI",
+    "label": "Ikitelli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ILG",
+    "label": "Ilgin",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "ILI",
+    "label": "Ilic",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 39.45,
+    "lng": 38.55
+  },
+  {
+    "locationCode": "INC",
+    "label": "Incirlik",
+    "subdivisionCode": "01",
+    "function": "3",
+    "lat": 36.983333,
+    "lng": 35.433333
+  },
+  {
+    "locationCode": "ICO",
+    "label": "Incirliova",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "INE",
+    "label": "Inebolu",
+    "subdivisionCode": "37",
+    "function": "1",
+    "lat": 41.966667,
+    "lng": 33.766667
+  },
+  {
+    "locationCode": "INL",
+    "label": "Inegöl",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Inegol",
+    "function": "3",
+    "lat": 40.083333,
+    "lng": 29.516667
+  },
+  {
+    "locationCode": "INH",
+    "label": "Inhisar",
+    "subdivisionCode": "11",
+    "function": "0"
+  },
+  {
+    "locationCode": "INO",
+    "label": "Inonu",
+    "subdivisionCode": "26",
+    "function": "3"
+  },
+  {
+    "locationCode": "IPS",
+    "label": "Ipsala",
+    "subdivisionCode": "22",
+    "function": "3"
+  },
+  {
+    "locationCode": "IDM",
+    "label": "Isdemir",
+    "subdivisionCode": "31",
+    "function": "1",
+    "lat": 36.716667,
+    "lng": 36.183333
+  },
+  {
+    "locationCode": "SKK",
+    "label": "Isikkent",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.416667,
+    "lng": 27.233333
+  },
+  {
+    "locationCode": "ISK",
+    "label": "Iskenderun",
+    "subdivisionCode": "31",
+    "function": "123",
+    "lat": 36.583333,
+    "lng": 36.166667
+  },
+  {
+    "locationCode": "ISE",
+    "label": "Isparta",
+    "subdivisionCode": "32",
+    "function": "4"
+  },
+  {
+    "locationCode": "IST",
+    "label": "Istanbul",
+    "subdivisionCode": "34",
+    "function": "12345",
+    "lat": 41.016667,
+    "lng": 28.966667
+  },
+  {
+    "locationCode": "ISL",
+    "label": "Istanbul New Airport",
+    "subdivisionCode": "34",
+    "function": "4",
+    "lat": 41.266667,
+    "lng": 28.75
+  },
+  {
+    "locationCode": "ITY",
+    "label": "Istinye/Istambul",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.1,
+    "lng": 29.05
+  },
+  {
+    "locationCode": "IZM",
+    "label": "Izmir",
+    "subdivisionCode": "35",
+    "function": "12345",
+    "lat": 38.416667,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "ADB",
+    "label": "Izmir Adnan Menderes International Airport",
+    "subdivisionCode": "35",
+    "function": "4",
+    "lat": 38.4,
+    "lng": 27.15
+  },
+  {
+    "locationCode": "IZT",
+    "label": "Izmit",
+    "subdivisionCode": "41",
+    "function": "123",
+    "lat": 40.783333,
+    "lng": 29.95
+  },
+  {
+    "locationCode": "IZK",
+    "label": "Iznik",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "KBS",
+    "label": "Kabatas",
+    "function": "1236",
+    "lat": 41.033333,
+    "lng": 29
+  },
+  {
+    "locationCode": "KTS",
+    "label": "Kabatas",
+    "subdivisionCode": "63",
+    "function": "6",
+    "lat": 36.9,
+    "lng": 39.083333
+  },
+  {
+    "locationCode": "KAD",
+    "label": "Kadikoy",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KHN",
+    "label": "Kadinhani",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "OIY",
+    "label": "Kadirli",
+    "subdivisionCode": "80",
+    "function": "36",
+    "lat": 37.366667,
+    "lng": 36.1
+  },
+  {
+    "locationCode": "KAG",
+    "label": "Kâgithane",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kagithane",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": 28.966667
+  },
+  {
+    "locationCode": "KCM",
+    "label": "Kahramanmaras",
+    "subdivisionCode": "46",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAL",
+    "label": "Kalekoy",
+    "function": "0"
+  },
+  {
+    "locationCode": "KAN",
+    "label": "Kandira",
+    "subdivisionCode": "41",
+    "function": "0"
+  },
+  {
+    "locationCode": "K7A",
+    "label": "Kapakli",
+    "subdivisionCode": "59",
+    "function": "36",
+    "lat": 41.316667,
+    "lng": 27.966667
+  },
+  {
+    "locationCode": "KPY",
+    "label": "Kapiköy",
+    "subdivisionCode": "65",
+    "labelWithDiacritics": "Kapikoy",
+    "function": "2",
+    "lat": 38.5,
+    "lng": 44.3
+  },
+  {
+    "locationCode": "KPU",
+    "label": "Kapikule",
+    "subdivisionCode": "22",
+    "function": "3"
+  },
+  {
+    "locationCode": "KRB",
+    "label": "Karabiga",
+    "subdivisionCode": "17",
+    "function": "1",
+    "lat": 40.4,
+    "lng": 27.3
+  },
+  {
+    "locationCode": "KBK",
+    "label": "Karabük",
+    "subdivisionCode": "78",
+    "labelWithDiacritics": "Karabuk",
+    "function": "3",
+    "lat": 41.25,
+    "lng": 32.5
+  },
+  {
+    "locationCode": "KBN",
+    "label": "Karaburun",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "KBY",
+    "label": "Karacabey",
+    "subdivisionCode": "16",
+    "function": "1"
+  },
+  {
+    "locationCode": "KCU",
+    "label": "Karacasu",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "KGK",
+    "label": "Karagedik",
+    "subdivisionCode": "06",
+    "function": "36",
+    "lat": 39.566667,
+    "lng": 32.8
+  },
+  {
+    "locationCode": "KRH",
+    "label": "Karahanli",
+    "subdivisionCode": "64",
+    "function": "0"
+  },
+  {
+    "locationCode": "KKY",
+    "label": "Karaköy/Istambul",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Karakoy/Istambul",
+    "function": "13",
+    "lat": 41.033333,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "KMN",
+    "label": "Karaman",
+    "subdivisionCode": "70",
+    "function": "0"
+  },
+  {
+    "locationCode": "KRM",
+    "label": "Karamürsel",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Karamursel",
+    "function": "3",
+    "lat": 40.683333,
+    "lng": 29.616667
+  },
+  {
+    "locationCode": "KPN",
+    "label": "Karapinar",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "KRP",
+    "label": "Karapürçek",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Karapurcek",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": 30.533333
+  },
+  {
+    "locationCode": "KRS",
+    "label": "Karasu",
+    "subdivisionCode": "54",
+    "function": "13",
+    "lat": 41.066667,
+    "lng": 30.783333
+  },
+  {
+    "locationCode": "KRT",
+    "label": "Karatas",
+    "subdivisionCode": "01",
+    "function": "16",
+    "lat": 36.55,
+    "lng": 35.383333
+  },
+  {
+    "locationCode": "KLU",
+    "label": "Karpuzlu",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "KSY",
+    "label": "Kars",
+    "subdivisionCode": "36",
+    "function": "4"
+  },
+  {
+    "locationCode": "JKS",
+    "label": "Karsiyaka",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.45,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "KAR",
+    "label": "Kartal",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "KPE",
+    "label": "Kartepe",
+    "subdivisionCode": "41",
+    "function": "13",
+    "lat": 40.733333,
+    "lng": 29.966667
+  },
+  {
+    "locationCode": "KAS",
+    "label": "Kas",
+    "subdivisionCode": "07",
+    "function": "1",
+    "lat": 36.183333,
+    "lng": 29.633333
+  },
+  {
+    "locationCode": "KMP",
+    "label": "Kasimpasa",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.95
+  },
+  {
+    "locationCode": "KTM",
+    "label": "Kastamonu",
+    "subdivisionCode": "37",
+    "function": "4"
+  },
+  {
+    "locationCode": "KAV",
+    "label": "Kavacik",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.083333,
+    "lng": 29.083333
+  },
+  {
+    "locationCode": "KIS",
+    "label": "Kayisdagi",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 29.15
+  },
+  {
+    "locationCode": "KAY",
+    "label": "Kaynarca",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KCA",
+    "label": "Kaynarca",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "KNL",
+    "label": "Kaynasli",
+    "subdivisionCode": "14",
+    "function": "6",
+    "lat": 40.766667,
+    "lng": 31.316667
+  },
+  {
+    "locationCode": "ASR",
+    "label": "Kayseri",
+    "subdivisionCode": "38",
+    "function": "234",
+    "lat": 38.716667,
+    "lng": 35.466667
+  },
+  {
+    "locationCode": "ASF",
+    "label": "Kayseri Free Zone",
+    "subdivisionCode": "38",
+    "function": "3",
+    "lat": 38.716667,
+    "lng": 35.383333
+  },
+  {
+    "locationCode": "KZZ",
+    "label": "Kazan",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "KZI",
+    "label": "Kazanli",
+    "subdivisionCode": "33",
+    "function": "23",
+    "lat": 36.833333,
+    "lng": 34.75
+  },
+  {
+    "locationCode": "KKB",
+    "label": "Kâzimkarabekir",
+    "subdivisionCode": "70",
+    "labelWithDiacritics": "Kazimkarabekir",
+    "function": "3",
+    "lat": 37.233333,
+    "lng": 32.983333
+  },
+  {
+    "locationCode": "KAZ",
+    "label": "Kazlicesme",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KEB",
+    "label": "Keban",
+    "subdivisionCode": "23",
+    "function": "0"
+  },
+  {
+    "locationCode": "KCB",
+    "label": "Keçiborlu",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Keciborlu",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 30.3
+  },
+  {
+    "locationCode": "KFK",
+    "label": "Kefken",
+    "subdivisionCode": "41",
+    "function": "1",
+    "lat": 41.2,
+    "lng": 30.25
+  },
+  {
+    "locationCode": "KLS",
+    "label": "Keles",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "KPS",
+    "label": "Kemalpasa",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "KMR",
+    "label": "Kemer",
+    "subdivisionCode": "07",
+    "function": "13",
+    "lat": 36.583333,
+    "lng": 30.55
+  },
+  {
+    "locationCode": "KEM",
+    "label": "Kemerburgaz",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KOY",
+    "label": "Kemerkoy",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": 40.766667
+  },
+  {
+    "locationCode": "KST",
+    "label": "Kepsut",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "KES",
+    "label": "Kesan",
+    "subdivisionCode": "22",
+    "function": "0"
+  },
+  {
+    "locationCode": "KSL",
+    "label": "Kestel",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "KIL",
+    "label": "Kilis",
+    "function": "3",
+    "lat": 36.716667,
+    "lng": 37.116667
+  },
+  {
+    "locationCode": "KNK",
+    "label": "Kinik",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "KRC",
+    "label": "Kirac",
+    "function": "3",
+    "lat": 41.05,
+    "lng": 28.616667
+  },
+  {
+    "locationCode": "KRZ",
+    "label": "Kiraz",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "KRK",
+    "label": "Kirikkale",
+    "subdivisionCode": "71",
+    "function": "3"
+  },
+  {
+    "locationCode": "KIC",
+    "label": "Kirkagaç",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Kirkagac",
+    "function": "3",
+    "lat": 39.1,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "KIR",
+    "label": "Kirklareli",
+    "subdivisionCode": "39",
+    "function": "0"
+  },
+  {
+    "locationCode": "KSH",
+    "label": "Kirsehir",
+    "subdivisionCode": "40",
+    "function": "0"
+  },
+  {
+    "locationCode": "KZM",
+    "label": "Kizilcahamam",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "KZE",
+    "label": "Kiziltepe",
+    "subdivisionCode": "47",
+    "function": "3",
+    "lat": 37.183333,
+    "lng": 40.583333
+  },
+  {
+    "locationCode": "KIZ",
+    "label": "Kiziltoprak",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 40.983333,
+    "lng": 29.033333
+  },
+  {
+    "locationCode": "KCS",
+    "label": "Kocabas",
+    "subdivisionCode": "20",
+    "function": "6",
+    "lat": 37.8,
+    "lng": 29.316667
+  },
+  {
+    "locationCode": "KCO",
+    "label": "Kocaeli",
+    "subdivisionCode": "41",
+    "function": "4"
+  },
+  {
+    "locationCode": "KCL",
+    "label": "Koçarli",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Kocarli",
+    "function": "3",
+    "lat": 37.75,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "KN2",
+    "label": "Konak",
+    "subdivisionCode": "35",
+    "function": "13",
+    "lat": 38.4,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "KKL",
+    "label": "Konakli",
+    "subdivisionCode": "31",
+    "function": "6"
+  },
+  {
+    "locationCode": "KYA",
+    "label": "Konya",
+    "subdivisionCode": "42",
+    "function": "234"
+  },
+  {
+    "locationCode": "ERG",
+    "label": "Konya Ereglisi",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "KPR",
+    "label": "Kopru",
+    "subdivisionCode": "21",
+    "function": "6",
+    "lat": 37.816667,
+    "lng": 40.95
+  },
+  {
+    "locationCode": "KFZ",
+    "label": "Körfez",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Korfez",
+    "function": "123",
+    "lat": 40.783333,
+    "lng": 29.733333
+  },
+  {
+    "locationCode": "KOR",
+    "label": "Korkuteli",
+    "subdivisionCode": "07",
+    "function": "0"
+  },
+  {
+    "locationCode": "KSK",
+    "label": "Kösk",
+    "subdivisionCode": "09",
+    "labelWithDiacritics": "Kosk",
+    "function": "3",
+    "lat": 37.85,
+    "lng": 28.05
+  },
+  {
+    "locationCode": "KCZ",
+    "label": "Koycegiz",
+    "subdivisionCode": "48",
+    "function": "0"
+  },
+  {
+    "locationCode": "KYR",
+    "label": "Koyundere",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.566667,
+    "lng": 27.066667
+  },
+  {
+    "locationCode": "KZN",
+    "label": "Kozan",
+    "subdivisionCode": "01",
+    "function": "0"
+  },
+  {
+    "locationCode": "KOZ",
+    "label": "Kozyatagi",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "KUC",
+    "label": "Küçükbakkal",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kucukbakkal",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 29.133333
+  },
+  {
+    "locationCode": "KCE",
+    "label": "Küçükçekmece",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kucukcekmece",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 28.766667
+  },
+  {
+    "locationCode": "KUK",
+    "label": "Küçükköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kucukkoy",
+    "function": "3",
+    "lat": 41.05,
+    "lng": 28.9
+  },
+  {
+    "locationCode": "KUY",
+    "label": "Küçükyali",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kucukyali",
+    "function": "3",
+    "lat": 40.95,
+    "lng": 29.116667
+  },
+  {
+    "locationCode": "KLA",
+    "label": "Kula",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "KLL",
+    "label": "Kullar",
+    "subdivisionCode": "41",
+    "function": "3",
+    "lat": 40.716667,
+    "lng": 29.983333
+  },
+  {
+    "locationCode": "KUL",
+    "label": "Kulu",
+    "subdivisionCode": "42",
+    "function": "0"
+  },
+  {
+    "locationCode": "KBG",
+    "label": "Kumburgaz",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.45
+  },
+  {
+    "locationCode": "KUM",
+    "label": "Kumluca",
+    "subdivisionCode": "07",
+    "function": "0"
+  },
+  {
+    "locationCode": "KMX",
+    "label": "Kumport",
+    "subdivisionCode": "34",
+    "function": "123",
+    "lat": 40.95,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "KUE",
+    "label": "Küre",
+    "subdivisionCode": "37",
+    "labelWithDiacritics": "Kure",
+    "function": "3",
+    "lat": 41.8,
+    "lng": 33.716667
+  },
+  {
+    "locationCode": "KUR",
+    "label": "Kurtköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Kurtkoy",
+    "function": "3",
+    "lat": 40.916667,
+    "lng": 29.3
+  },
+  {
+    "locationCode": "KUS",
+    "label": "Kusadasi",
+    "subdivisionCode": "09",
+    "function": "13",
+    "lat": 37.85,
+    "lng": 27.25
+  },
+  {
+    "locationCode": "KOC",
+    "label": "Kusukkuyu",
+    "subdivisionCode": "10",
+    "function": "1"
+  },
+  {
+    "locationCode": "KTY",
+    "label": "Kütahya",
+    "subdivisionCode": "43",
+    "labelWithDiacritics": "Kutahya",
+    "function": "3",
+    "lat": 39.416667,
+    "lng": 29.983333
+  },
+  {
+    "locationCode": "KUB",
+    "label": "Kuyubasi",
+    "subdivisionCode": "31",
+    "function": "6",
+    "lat": 35.966667,
+    "lng": 36.266667
+  },
+  {
+    "locationCode": "KCK",
+    "label": "Kuyucak",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "KUZ",
+    "label": "Kuzuluk",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.633333,
+    "lng": 30.65
+  },
+  {
+    "locationCode": "LAL",
+    "label": "Lâlapasa",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Lalapasa",
+    "function": "3",
+    "lat": 41.833333,
+    "lng": 26.733333
+  },
+  {
+    "locationCode": "LAP",
+    "label": "Lapseki",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "LEV",
+    "label": "Levent",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "LMA",
+    "label": "Limas",
+    "subdivisionCode": "41",
+    "function": "12",
+    "lat": 40.716667,
+    "lng": 29.883333
+  },
+  {
+    "locationCode": "LUL",
+    "label": "Lüleburgaz",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Luleburgaz",
+    "function": "3",
+    "lat": 41.4,
+    "lng": 27.35
+  },
+  {
+    "locationCode": "MHM",
+    "label": "Mahmudiye",
+    "subdivisionCode": "26",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAH",
+    "label": "Mahmutbey",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "MLX",
+    "label": "Malatya",
+    "subdivisionCode": "44",
+    "function": "4"
+  },
+  {
+    "locationCode": "MLK",
+    "label": "Malkara",
+    "subdivisionCode": "59",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAL",
+    "label": "Maltepe",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "MVG",
+    "label": "Manavgat",
+    "subdivisionCode": "07",
+    "function": "13",
+    "lat": 36.766667,
+    "lng": 31.45
+  },
+  {
+    "locationCode": "MAM",
+    "label": "Manisa",
+    "subdivisionCode": "45",
+    "function": "23"
+  },
+  {
+    "locationCode": "MYS",
+    "label": "Manyas",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "MAD",
+    "label": "Mardas",
+    "subdivisionCode": "34",
+    "function": "123",
+    "lat": 41.016667,
+    "lng": 28.95
+  },
+  {
+    "locationCode": "MDN",
+    "label": "Mardin",
+    "subdivisionCode": "47",
+    "function": "0"
+  },
+  {
+    "locationCode": "MRA",
+    "label": "Marmara Adasi",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 40.583333,
+    "lng": 27.55
+  },
+  {
+    "locationCode": "MAR",
+    "label": "Marmara Ereglisi",
+    "subdivisionCode": "59",
+    "function": "0"
+  },
+  {
+    "locationCode": "MRM",
+    "label": "Marmaris",
+    "subdivisionCode": "48",
+    "function": "1",
+    "lat": 36.85,
+    "lng": 28.266667
+  },
+  {
+    "locationCode": "MPT",
+    "label": "Marport",
+    "subdivisionCode": "34",
+    "function": "123"
+  },
+  {
+    "locationCode": "MAS",
+    "label": "Maslak",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "MKG",
+    "label": "Melikgazi",
+    "subdivisionCode": "38",
+    "function": "3",
+    "lat": 38.716667,
+    "lng": 36.216667
+  },
+  {
+    "locationCode": "MEN",
+    "label": "Menderes",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "MNM",
+    "label": "Menemen",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "MRC",
+    "label": "Meriç",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Meric",
+    "function": "3",
+    "lat": 41.183333,
+    "lng": 26.416667
+  },
+  {
+    "locationCode": "MQJ",
+    "label": "Merkez Apt/Balikesir",
+    "subdivisionCode": "10",
+    "function": "4"
+  },
+  {
+    "locationCode": "MER",
+    "label": "Mersin",
+    "subdivisionCode": "33",
+    "function": "123",
+    "lat": 36.716667,
+    "lng": 34.633333
+  },
+  {
+    "locationCode": "MFZ",
+    "label": "Mersin-Free Zone",
+    "subdivisionCode": "33",
+    "function": "123",
+    "lat": 36.8,
+    "lng": 34.633333
+  },
+  {
+    "locationCode": "MRT",
+    "label": "Merter",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "MZH",
+    "label": "Merzifon",
+    "subdivisionCode": "05",
+    "function": "4"
+  },
+  {
+    "locationCode": "MEK",
+    "label": "Mevlanakapi",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "MIL",
+    "label": "Milas",
+    "subdivisionCode": "48",
+    "function": "4"
+  },
+  {
+    "locationCode": "MIM",
+    "label": "Mimarsinan",
+    "subdivisionCode": "34",
+    "function": "1",
+    "lat": 41.016667,
+    "lng": 28.55
+  },
+  {
+    "locationCode": "MUD",
+    "label": "Mudanya",
+    "subdivisionCode": "16",
+    "function": "13",
+    "lat": 40.366667,
+    "lng": 28.883333
+  },
+  {
+    "locationCode": "MDR",
+    "label": "Mudurnu",
+    "subdivisionCode": "14",
+    "function": "0"
+  },
+  {
+    "locationCode": "MUG",
+    "label": "Mugla",
+    "subdivisionCode": "48",
+    "function": "0"
+  },
+  {
+    "locationCode": "MDY",
+    "label": "Muradiye",
+    "subdivisionCode": "45",
+    "function": "23",
+    "lat": 38.65,
+    "lng": 27.333333
+  },
+  {
+    "locationCode": "MUR",
+    "label": "Muratli",
+    "subdivisionCode": "59",
+    "function": "0"
+  },
+  {
+    "locationCode": "MSR",
+    "label": "Mus",
+    "subdivisionCode": "49",
+    "function": "4"
+  },
+  {
+    "locationCode": "MKP",
+    "label": "Mustafa Kemalpasa",
+    "subdivisionCode": "16",
+    "function": "3"
+  },
+  {
+    "locationCode": "MUT",
+    "label": "Mut",
+    "subdivisionCode": "70",
+    "function": "0"
+  },
+  {
+    "locationCode": "NAL",
+    "label": "Nallihan",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "NZL",
+    "label": "Nazilli",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "NEM",
+    "label": "Nemrut Bay",
+    "subdivisionCode": "35",
+    "function": "1"
+  },
+  {
+    "locationCode": "NEV",
+    "label": "Nevsehir",
+    "subdivisionCode": "50",
+    "function": "4"
+  },
+  {
+    "locationCode": "NIG",
+    "label": "Nigde",
+    "subdivisionCode": "51",
+    "function": "0"
+  },
+  {
+    "locationCode": "NIL",
+    "label": "Nilüfer",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Nilufer",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "GIU",
+    "label": "Nizip",
+    "subdivisionCode": "27",
+    "function": "36",
+    "lat": 37,
+    "lng": 37.783333
+  },
+  {
+    "locationCode": "M47",
+    "label": "Nusaybin",
+    "subdivisionCode": "47",
+    "function": "13",
+    "lat": 37.066667,
+    "lng": 41.216667
+  },
+  {
+    "locationCode": "ODE",
+    "label": "Ödemis",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Odemis",
+    "function": "3",
+    "lat": 38.216667,
+    "lng": 27.983333
+  },
+  {
+    "locationCode": "ODU",
+    "label": "Odunluk",
+    "subdivisionCode": "17",
+    "function": "1"
+  },
+  {
+    "locationCode": "OKM",
+    "label": "Okmeydani",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "OME",
+    "label": "Omerli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "OPR",
+    "label": "Öncüpinar",
+    "subdivisionCode": "27",
+    "labelWithDiacritics": "Oncupinar",
+    "function": "3",
+    "lat": 36.633333,
+    "lng": 37.083333
+  },
+  {
+    "locationCode": "ORD",
+    "label": "Ordu",
+    "subdivisionCode": "52",
+    "function": "1",
+    "lat": 40.983333,
+    "lng": 37.866667
+  },
+  {
+    "locationCode": "OHL",
+    "label": "Orhaneli",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "OGZ",
+    "label": "Orhangazi",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "ORH",
+    "label": "Orhanli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ORN",
+    "label": "Ornektepe",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "ORT",
+    "label": "Ortaca",
+    "subdivisionCode": "48",
+    "function": "0"
+  },
+  {
+    "locationCode": "OKY",
+    "label": "Ortakoy",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 41.05,
+    "lng": 29.016667
+  },
+  {
+    "locationCode": "OMB",
+    "label": "Osmanbey",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 30.616667
+  },
+  {
+    "locationCode": "OLI",
+    "label": "Osmaneli",
+    "subdivisionCode": "11",
+    "function": "0"
+  },
+  {
+    "locationCode": "OSZ",
+    "label": "Osmangazi",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "OSE",
+    "label": "Osmaniye",
+    "subdivisionCode": "80",
+    "function": "3",
+    "lat": 37.25,
+    "lng": 36.25
+  },
+  {
+    "locationCode": "POV",
+    "label": "Pamukova",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "PAS",
+    "label": "Pasabahçe",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Pasabahce",
+    "function": "3",
+    "lat": 41.116667,
+    "lng": 29.1
+  },
+  {
+    "locationCode": "9AK",
+    "label": "Pasaköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Pasakoy",
+    "function": "13",
+    "lat": 41.016667,
+    "lng": 29.266667
+  },
+  {
+    "locationCode": "PAY",
+    "label": "Payas",
+    "subdivisionCode": "31",
+    "function": "0"
+  },
+  {
+    "locationCode": "PZR",
+    "label": "Pazar",
+    "subdivisionCode": "53",
+    "function": "1",
+    "lat": 41.166667,
+    "lng": 40.883333
+  },
+  {
+    "locationCode": "PAZ",
+    "label": "Pazarkule,",
+    "subdivisionCode": "22",
+    "function": "3"
+  },
+  {
+    "locationCode": "PYI",
+    "label": "Pazaryeri",
+    "subdivisionCode": "11",
+    "function": "0"
+  },
+  {
+    "locationCode": "PEH",
+    "label": "Pehlivanköy",
+    "subdivisionCode": "39",
+    "labelWithDiacritics": "Pehlivankoy",
+    "function": "3",
+    "lat": 41.35,
+    "lng": 26.916667
+  },
+  {
+    "locationCode": "PEN",
+    "label": "Pendik",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "UZC",
+    "label": "Pinarbasi",
+    "subdivisionCode": "35",
+    "function": "6",
+    "lat": 38.416667,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "PIN",
+    "label": "Pinarhisar",
+    "subdivisionCode": "39",
+    "function": "0"
+  },
+  {
+    "locationCode": "PTL",
+    "label": "Polatli",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "PLP",
+    "label": "Poliport",
+    "subdivisionCode": "41",
+    "function": "1",
+    "lat": 37.983333,
+    "lng": 42.05
+  },
+  {
+    "locationCode": "ESP",
+    "label": "Porsuk",
+    "subdivisionCode": "26",
+    "function": "2",
+    "lat": -0.016667,
+    "lng": -0.016667
+  },
+  {
+    "locationCode": "KSP",
+    "label": "Port of Karasu",
+    "subdivisionCode": "54",
+    "function": "1",
+    "lat": 41.116667,
+    "lng": 30.666667
+  },
+  {
+    "locationCode": "PZZ",
+    "label": "Pozanti",
+    "subdivisionCode": "01",
+    "function": "36",
+    "lat": 37.416667,
+    "lng": 34.866667
+  },
+  {
+    "locationCode": "PUR",
+    "label": "Pursaklar",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.016667,
+    "lng": 32.883333
+  },
+  {
+    "locationCode": "RAH",
+    "label": "Rahmanlar",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "RAM",
+    "label": "Raman",
+    "subdivisionCode": "21",
+    "function": "3"
+  },
+  {
+    "locationCode": "RAI",
+    "label": "Rami",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "RES",
+    "label": "Resadiye",
+    "subdivisionCode": "60",
+    "function": "0"
+  },
+  {
+    "locationCode": "REY",
+    "label": "Reyhanli",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 36.266667,
+    "lng": 36.566667
+  },
+  {
+    "locationCode": "RIZ",
+    "label": "Rize",
+    "subdivisionCode": "53",
+    "function": "1",
+    "lat": 41.033333,
+    "lng": 40.483333
+  },
+  {
+    "locationCode": "RZY",
+    "label": "Rota-Izmit Bay",
+    "subdivisionCode": "35",
+    "function": "1",
+    "lat": 29.716667,
+    "lng": 40.766667
+  },
+  {
+    "locationCode": "SAW",
+    "label": "Sabiha Gokcen Apt/Istanbul",
+    "subdivisionCode": "34",
+    "function": "4",
+    "lat": 40.883333,
+    "lng": 29.3
+  },
+  {
+    "locationCode": "SAF",
+    "label": "Safranbolu",
+    "function": "3",
+    "lat": 41.25,
+    "lng": 32.683333
+  },
+  {
+    "locationCode": "GHY",
+    "label": "Sahinbey",
+    "subdivisionCode": "27",
+    "function": "3",
+    "lat": 36.883333,
+    "lng": 37.35
+  },
+  {
+    "locationCode": "SAK",
+    "label": "Sakarya",
+    "subdivisionCode": "54",
+    "function": "3",
+    "lat": 40.783333,
+    "lng": 30.4
+  },
+  {
+    "locationCode": "SAL",
+    "label": "Salihli",
+    "subdivisionCode": "45",
+    "function": "3"
+  },
+  {
+    "locationCode": "SND",
+    "label": "Samandag",
+    "subdivisionCode": "31",
+    "function": "3",
+    "lat": 36.083333,
+    "lng": 35.966667
+  },
+  {
+    "locationCode": "SAM",
+    "label": "Samandira",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SSX",
+    "label": "Samsun",
+    "subdivisionCode": "55",
+    "function": "14",
+    "lat": 41.283333,
+    "lng": 36.333333
+  },
+  {
+    "locationCode": "SKP",
+    "label": "Sancaktepe",
+    "subdivisionCode": "69",
+    "function": "3",
+    "lat": 40.2,
+    "lng": 40.116667
+  },
+  {
+    "locationCode": "SFQ",
+    "label": "Sanliurfa",
+    "subdivisionCode": "63",
+    "function": "4"
+  },
+  {
+    "locationCode": "SCA",
+    "label": "Sapanca",
+    "subdivisionCode": "54",
+    "function": "0"
+  },
+  {
+    "locationCode": "SHN",
+    "label": "Saphane",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAR",
+    "label": "Saray",
+    "subdivisionCode": "59",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKY",
+    "label": "Sarayköy",
+    "subdivisionCode": "20",
+    "labelWithDiacritics": "Saraykoy",
+    "function": "3",
+    "lat": 37.916667,
+    "lng": 28.933333
+  },
+  {
+    "locationCode": "SRL",
+    "label": "Saraylar",
+    "subdivisionCode": "10",
+    "function": "1",
+    "lat": 40.666667,
+    "lng": 27.666667
+  },
+  {
+    "locationCode": "SNU",
+    "label": "Sarayönü",
+    "subdivisionCode": "42",
+    "labelWithDiacritics": "Sarayonu",
+    "function": "3",
+    "lat": 38.283333,
+    "lng": 32.416667
+  },
+  {
+    "locationCode": "SRG",
+    "label": "Sarigazi",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SGL",
+    "label": "Sarigöl",
+    "subdivisionCode": "45",
+    "labelWithDiacritics": "Sarigol",
+    "function": "3",
+    "lat": 38.233333,
+    "lng": 28.716667
+  },
+  {
+    "locationCode": "SRS",
+    "label": "Sariseki",
+    "subdivisionCode": "31",
+    "function": "123",
+    "lat": 36.666667,
+    "lng": 36.216667
+  },
+  {
+    "locationCode": "SRY",
+    "label": "Sariyer",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKR",
+    "label": "Sarkikaraagaç",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Sarkikaraagac",
+    "function": "3"
+  },
+  {
+    "locationCode": "SRK",
+    "label": "Sarköy",
+    "subdivisionCode": "59",
+    "labelWithDiacritics": "Sarkoy",
+    "function": "3",
+    "lat": 40.616667,
+    "lng": 27.1
+  },
+  {
+    "locationCode": "SRC",
+    "label": "Sarnic",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.533333,
+    "lng": 27.266667
+  },
+  {
+    "locationCode": "SHL",
+    "label": "Saruhanli",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "SAS",
+    "label": "Sasalli",
+    "subdivisionCode": "35",
+    "function": "3",
+    "lat": 38.483333,
+    "lng": 26.95
+  },
+  {
+    "locationCode": "SEF",
+    "label": "Sefakoy",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SFH",
+    "label": "Seferihisar",
+    "subdivisionCode": "35",
+    "function": "3"
+  },
+  {
+    "locationCode": "SHK",
+    "label": "Sehitlik",
+    "subdivisionCode": "25",
+    "function": "3",
+    "lat": 40.483333,
+    "lng": 40.733333
+  },
+  {
+    "locationCode": "UZD",
+    "label": "Sekerpinar",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 40.85,
+    "lng": 29.366667
+  },
+  {
+    "locationCode": "SCK",
+    "label": "Selçuk",
+    "subdivisionCode": "35",
+    "labelWithDiacritics": "Selcuk",
+    "function": "3",
+    "lat": 37.95,
+    "lng": 27.366667
+  },
+  {
+    "locationCode": "SEL",
+    "label": "Selimiye",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SEN",
+    "label": "Senirkent",
+    "subdivisionCode": "32",
+    "function": "0"
+  },
+  {
+    "locationCode": "SKH",
+    "label": "Sereflikoçhisar",
+    "subdivisionCode": "06",
+    "labelWithDiacritics": "Sereflikochisar",
+    "function": "3",
+    "lat": 38.933333,
+    "lng": 33.55
+  },
+  {
+    "locationCode": "SEI",
+    "label": "Serik",
+    "subdivisionCode": "07",
+    "function": "0"
+  },
+  {
+    "locationCode": "SER",
+    "label": "Serviburun",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "SEY",
+    "label": "Seydisehir",
+    "subdivisionCode": "42",
+    "function": "3"
+  },
+  {
+    "locationCode": "SYT",
+    "label": "Seyitgazi",
+    "subdivisionCode": "26",
+    "function": "0"
+  },
+  {
+    "locationCode": "SYR",
+    "label": "Seyrantepe",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SXZ",
+    "label": "Siirt",
+    "subdivisionCode": "56",
+    "function": "4"
+  },
+  {
+    "locationCode": "SLE",
+    "label": "Sile",
+    "subdivisionCode": "34",
+    "function": "1",
+    "lat": 41.166667,
+    "lng": 29.6
+  },
+  {
+    "locationCode": "SIL",
+    "label": "Silivri",
+    "subdivisionCode": "34",
+    "function": "13",
+    "lat": 41.066667,
+    "lng": 28.25
+  },
+  {
+    "locationCode": "SMV",
+    "label": "Simav",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "SCN",
+    "label": "Sincan",
+    "subdivisionCode": "06",
+    "function": "0"
+  },
+  {
+    "locationCode": "SDG",
+    "label": "Sindirgi",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "SIC",
+    "label": "Sinop",
+    "subdivisionCode": "57",
+    "function": "14",
+    "lat": 42.016667,
+    "lng": 35.133333
+  },
+  {
+    "locationCode": "SRN",
+    "label": "Sirinevler",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "SIR",
+    "label": "Sirkeci",
+    "subdivisionCode": "34",
+    "function": "2"
+  },
+  {
+    "locationCode": "SNK",
+    "label": "Sirnak",
+    "function": "3",
+    "lat": 37.516667,
+    "lng": 42.45
+  },
+  {
+    "locationCode": "SIS",
+    "label": "Sisli",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "STL",
+    "label": "Siteler",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 39.966667,
+    "lng": 32.9
+  },
+  {
+    "locationCode": "VAS",
+    "label": "Sivas",
+    "subdivisionCode": "58",
+    "function": "34"
+  },
+  {
+    "locationCode": "SVS",
+    "label": "Sivasli",
+    "subdivisionCode": "64",
+    "function": "0"
+  },
+  {
+    "locationCode": "SVR",
+    "label": "Sivrihisar",
+    "subdivisionCode": "26",
+    "function": "0"
+  },
+  {
+    "locationCode": "SGT",
+    "label": "Sögüt",
+    "subdivisionCode": "11",
+    "labelWithDiacritics": "Sogut",
+    "function": "3",
+    "lat": 40,
+    "lng": 30.183333
+  },
+  {
+    "locationCode": "SOG",
+    "label": "Sögütlü",
+    "subdivisionCode": "54",
+    "labelWithDiacritics": "Sogutlu",
+    "function": "3",
+    "lat": 40.9,
+    "lng": 30.483333
+  },
+  {
+    "locationCode": "SKE",
+    "label": "Soke",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "SMA",
+    "label": "Soma",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "SUA",
+    "label": "Suadiye",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "YLI",
+    "label": "Sultanbeyli",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 40.95,
+    "lng": 29.266667
+  },
+  {
+    "locationCode": "SDI",
+    "label": "Sultandagi",
+    "subdivisionCode": "03",
+    "function": "0"
+  },
+  {
+    "locationCode": "SHR",
+    "label": "Sultanhisar",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "SUR",
+    "label": "Surmene",
+    "subdivisionCode": "61",
+    "function": "1",
+    "lat": 40.9,
+    "lng": 40.116667
+  },
+  {
+    "locationCode": "SSL",
+    "label": "Susurluk",
+    "subdivisionCode": "10",
+    "function": "0"
+  },
+  {
+    "locationCode": "SSZ",
+    "label": "Susuz",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 40.35,
+    "lng": 33.116667
+  },
+  {
+    "locationCode": "SUT",
+    "label": "Sutluce",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "TAK",
+    "label": "Taksim/Istambul",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "TBY",
+    "label": "Tarabya",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "TAR",
+    "label": "Tarsus",
+    "subdivisionCode": "33",
+    "function": "23"
+  },
+  {
+    "locationCode": "TSD",
+    "label": "Tasdelen",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "TSK",
+    "label": "Taskent",
+    "subdivisionCode": "42",
+    "function": "3",
+    "lat": 36.916667,
+    "lng": 32.483333
+  },
+  {
+    "locationCode": "TAS",
+    "label": "Tasucu",
+    "subdivisionCode": "33",
+    "function": "1",
+    "lat": 36.316667,
+    "lng": 33.866667
+  },
+  {
+    "locationCode": "TAV",
+    "label": "Tavas",
+    "subdivisionCode": "20",
+    "function": "0"
+  },
+  {
+    "locationCode": "TVS",
+    "label": "Tavsanli",
+    "subdivisionCode": "43",
+    "function": "0"
+  },
+  {
+    "locationCode": "TFN",
+    "label": "Tefenni",
+    "subdivisionCode": "15",
+    "function": "0"
+  },
+  {
+    "locationCode": "TEK",
+    "label": "Tekirdag",
+    "subdivisionCode": "59",
+    "function": "1234",
+    "lat": 40.966667,
+    "lng": 27.516667
+  },
+  {
+    "locationCode": "TPI",
+    "label": "Tepebasi",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.983333
+  },
+  {
+    "locationCode": "TRE",
+    "label": "Tire",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "TIR",
+    "label": "Tirebolu",
+    "subdivisionCode": "28",
+    "function": "1",
+    "lat": 41,
+    "lng": 38.8
+  },
+  {
+    "locationCode": "TJK",
+    "label": "Tokat",
+    "subdivisionCode": "60",
+    "function": "4"
+  },
+  {
+    "locationCode": "TOC",
+    "label": "Topcular",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "TOK",
+    "label": "Topkapi",
+    "subdivisionCode": "24",
+    "function": "3",
+    "lat": 39.1,
+    "lng": 38.633333
+  },
+  {
+    "locationCode": "TOP",
+    "label": "Topkapi",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 41.033333,
+    "lng": 28.9
+  },
+  {
+    "locationCode": "TOR",
+    "label": "Torbali",
+    "subdivisionCode": "35",
+    "function": "0"
+  },
+  {
+    "locationCode": "TGT",
+    "label": "Toros Gubre Terminal, Gubre",
+    "subdivisionCode": "31",
+    "function": "123",
+    "lat": 36.916667,
+    "lng": 35.983333
+  },
+  {
+    "locationCode": "TZX",
+    "label": "Trabzon",
+    "subdivisionCode": "61",
+    "function": "134",
+    "lat": 41,
+    "lng": 39.733333
+  },
+  {
+    "locationCode": "TUN",
+    "label": "Tunceli",
+    "subdivisionCode": "62",
+    "function": "0"
+  },
+  {
+    "locationCode": "TUR",
+    "label": "Turan",
+    "subdivisionCode": "35",
+    "function": "1"
+  },
+  {
+    "locationCode": "TKY",
+    "label": "Turanköy",
+    "subdivisionCode": "16",
+    "labelWithDiacritics": "Turankoy",
+    "function": "3",
+    "lat": 40.2,
+    "lng": 29.35
+  },
+  {
+    "locationCode": "TGL",
+    "label": "Turgutlu",
+    "subdivisionCode": "45",
+    "function": "0"
+  },
+  {
+    "locationCode": "TUT",
+    "label": "Tutunciftlik",
+    "subdivisionCode": "41",
+    "function": "1"
+  },
+  {
+    "locationCode": "TUZ",
+    "label": "Tuzla",
+    "subdivisionCode": "34",
+    "function": "1",
+    "lat": 40.833333,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "TFZ",
+    "label": "Tuzla Free Zone",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 40.816667,
+    "lng": 29.3
+  },
+  {
+    "locationCode": "ULA",
+    "label": "Ula",
+    "subdivisionCode": "48",
+    "function": "0"
+  },
+  {
+    "locationCode": "ULS",
+    "label": "Ulas",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 41.233333,
+    "lng": 27.7
+  },
+  {
+    "locationCode": "ULU",
+    "label": "Ulubey",
+    "subdivisionCode": "64",
+    "function": "0"
+  },
+  {
+    "locationCode": "UUS",
+    "label": "Ulus",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 39.933333,
+    "lng": 32.866667
+  },
+  {
+    "locationCode": "UMR",
+    "label": "Umraniye",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "UNY",
+    "label": "Ünye",
+    "subdivisionCode": "52",
+    "labelWithDiacritics": "Unye",
+    "function": "1",
+    "lat": 41.133333,
+    "lng": 37.283333
+  },
+  {
+    "locationCode": "URL",
+    "label": "Urla",
+    "subdivisionCode": "35",
+    "function": "1"
+  },
+  {
+    "locationCode": "USA",
+    "label": "Usak",
+    "subdivisionCode": "64",
+    "function": "4"
+  },
+  {
+    "locationCode": "USK",
+    "label": "Üsküdar",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Uskudar",
+    "function": "1",
+    "lat": 41.016667,
+    "lng": 29.05
+  },
+  {
+    "locationCode": "UZU",
+    "label": "Uzunköprü",
+    "subdivisionCode": "22",
+    "labelWithDiacritics": "Uzunkopru",
+    "function": "2",
+    "lat": 41.266667,
+    "lng": 26.683333
+  },
+  {
+    "locationCode": "ZNT",
+    "label": "Uzuntarla",
+    "subdivisionCode": "41",
+    "function": "6",
+    "lat": 40.733333,
+    "lng": 30.15
+  },
+  {
+    "locationCode": "VAK",
+    "label": "Vakfikebir",
+    "subdivisionCode": "61",
+    "function": "1",
+    "lat": 41.033333,
+    "lng": 39.266667
+  },
+  {
+    "locationCode": "VAN",
+    "label": "Van",
+    "subdivisionCode": "65",
+    "function": "234"
+  },
+  {
+    "locationCode": "VLM",
+    "label": "Velimese",
+    "subdivisionCode": "59",
+    "function": "3",
+    "lat": 41.25,
+    "lng": 27.883333
+  },
+  {
+    "locationCode": "VIZ",
+    "label": "Vize",
+    "subdivisionCode": "39",
+    "function": "0"
+  },
+  {
+    "locationCode": "YAK",
+    "label": "Yakacik",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "YKP",
+    "label": "Yakuplu",
+    "subdivisionCode": "34",
+    "function": "3",
+    "lat": 40.983333,
+    "lng": 28.65
+  },
+  {
+    "locationCode": "YLA",
+    "label": "Yalova",
+    "subdivisionCode": "17",
+    "function": "3",
+    "lat": 40.266667,
+    "lng": 26.4
+  },
+  {
+    "locationCode": "YAL",
+    "label": "Yalova",
+    "subdivisionCode": "77",
+    "function": "13",
+    "lat": 40.65,
+    "lng": 29.266667
+  },
+  {
+    "locationCode": "YLV",
+    "label": "Yalvaç",
+    "subdivisionCode": "32",
+    "labelWithDiacritics": "Yalvac",
+    "function": "3",
+    "lat": 38.283333,
+    "lng": 31.183333
+  },
+  {
+    "locationCode": "YAR",
+    "label": "Yarimca",
+    "subdivisionCode": "41",
+    "function": "1"
+  },
+  {
+    "locationCode": "YTG",
+    "label": "Yatagan",
+    "subdivisionCode": "48",
+    "function": "0"
+  },
+  {
+    "locationCode": "YYL",
+    "label": "Yayalar",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 40.883333,
+    "lng": 29.25
+  },
+  {
+    "locationCode": "YBS",
+    "label": "Yenibosna",
+    "subdivisionCode": "34",
+    "function": "0"
+  },
+  {
+    "locationCode": "YCA",
+    "label": "Yeniçaga",
+    "subdivisionCode": "14",
+    "labelWithDiacritics": "Yenicaga",
+    "function": "3",
+    "lat": 40.75,
+    "lng": 32.016667
+  },
+  {
+    "locationCode": "YEN",
+    "label": "Yenice",
+    "subdivisionCode": "17",
+    "function": "0"
+  },
+  {
+    "locationCode": "YDG",
+    "label": "Yenidogan",
+    "subdivisionCode": "34",
+    "function": "3"
+  },
+  {
+    "locationCode": "JYN",
+    "label": "Yenikoy",
+    "subdivisionCode": "34",
+    "function": "6",
+    "lat": 41.116667,
+    "lng": 29.65
+  },
+  {
+    "locationCode": "YEK",
+    "label": "Yenikoy",
+    "subdivisionCode": "41",
+    "function": "36",
+    "lat": 40.7,
+    "lng": 29.9
+  },
+  {
+    "locationCode": "AUT",
+    "label": "Yeniköy-Autoport",
+    "subdivisionCode": "41",
+    "labelWithDiacritics": "Yenikoy-Autoport",
+    "function": "1",
+    "lat": 40.716667,
+    "lng": 29.866667
+  },
+  {
+    "locationCode": "YEH",
+    "label": "Yenimahalle",
+    "subdivisionCode": "06",
+    "function": "3",
+    "lat": 39.966667,
+    "lng": 32.8
+  },
+  {
+    "locationCode": "YPZ",
+    "label": "Yenipazar",
+    "subdivisionCode": "09",
+    "function": "0"
+  },
+  {
+    "locationCode": "YEZ",
+    "label": "Yenipazar",
+    "subdivisionCode": "11",
+    "function": "0"
+  },
+  {
+    "locationCode": "YSR",
+    "label": "Yenisehir",
+    "subdivisionCode": "16",
+    "function": "0"
+  },
+  {
+    "locationCode": "YAT",
+    "label": "Yesilköy",
+    "subdivisionCode": "01",
+    "labelWithDiacritics": "Yesilkoy",
+    "function": "3",
+    "lat": 36.666667,
+    "lng": 35.483333
+  },
+  {
+    "locationCode": "YES",
+    "label": "Yesilköy",
+    "subdivisionCode": "34",
+    "labelWithDiacritics": "Yesilkoy",
+    "function": "3",
+    "lat": 40.95,
+    "lng": 28.816667
+  },
+  {
+    "locationCode": "YIK",
+    "label": "Yesilovacik",
+    "subdivisionCode": "33",
+    "function": "1",
+    "lat": 36.2,
+    "lng": 33.666667
+  },
+  {
+    "locationCode": "YYT",
+    "label": "Yesilyurt",
+    "subdivisionCode": "44",
+    "function": "6",
+    "lat": 38.283333,
+    "lng": 38.233333
+  },
+  {
+    "locationCode": "YPO",
+    "label": "Yilport",
+    "subdivisionCode": "41",
+    "function": "13",
+    "lat": 40.766667,
+    "lng": 29.533333
+  },
+  {
+    "locationCode": "YOZ",
+    "label": "Yozgat",
+    "subdivisionCode": "66",
+    "function": "0"
+  },
+  {
+    "locationCode": "YUK",
+    "label": "Yüksekova",
+    "subdivisionCode": "30",
+    "labelWithDiacritics": "Yuksekova",
+    "function": "3",
+    "lat": 37.566667,
+    "lng": 44.283333
+  },
+  {
+    "locationCode": "ADY",
+    "label": "Yumurtalik",
+    "subdivisionCode": "01",
+    "function": "1",
+    "lat": 36.766667,
+    "lng": 35.783333
+  },
+  {
+    "locationCode": "YUM",
+    "label": "Yumurtalik Bay",
+    "subdivisionCode": "01",
+    "function": "0"
+  },
+  {
+    "locationCode": "ZEY",
+    "label": "Zeytinburnu",
+    "subdivisionCode": "34",
+    "function": "1"
+  },
+  {
+    "locationCode": "ZON",
+    "label": "Zonguldak",
+    "subdivisionCode": "67",
+    "function": "1",
+    "lat": 41.45,
+    "lng": 31.783333
+  }
+]

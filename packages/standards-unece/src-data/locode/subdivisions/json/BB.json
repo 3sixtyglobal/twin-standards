@@ -1,0 +1,57 @@
+[
+  {
+    "code": "01",
+    "label": "Christ Church",
+    "type": "Parish"
+  },
+  {
+    "code": "02",
+    "label": "Saint Andrew",
+    "type": "Parish"
+  },
+  {
+    "code": "03",
+    "label": "Saint George",
+    "type": "Parish"
+  },
+  {
+    "code": "04",
+    "label": "Saint James",
+    "type": "Parish"
+  },
+  {
+    "code": "05",
+    "label": "Saint John",
+    "type": "Parish"
+  },
+  {
+    "code": "06",
+    "label": "Saint Joseph",
+    "type": "Parish"
+  },
+  {
+    "code": "07",
+    "label": "Saint Lucy",
+    "type": "Parish"
+  },
+  {
+    "code": "08",
+    "label": "Saint Michael",
+    "type": "Parish"
+  },
+  {
+    "code": "09",
+    "label": "Saint Peter",
+    "type": "Parish"
+  },
+  {
+    "code": "10",
+    "label": "Saint Philip",
+    "type": "Parish"
+  },
+  {
+    "code": "11",
+    "label": "Saint Thomas",
+    "type": "Parish"
+  }
+]

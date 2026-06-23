@@ -1,0 +1,72 @@
+[
+  {
+    "code": "AB",
+    "label": "Abidjan",
+    "type": "autonomous district"
+  },
+  {
+    "code": "BS",
+    "label": "Bas-Sassandra",
+    "type": "district"
+  },
+  {
+    "code": "CM",
+    "label": "Comoé",
+    "type": "district"
+  },
+  {
+    "code": "DN",
+    "label": "Denguélé",
+    "type": "district"
+  },
+  {
+    "code": "GD",
+    "label": "Gôh-Djiboua",
+    "type": "district"
+  },
+  {
+    "code": "LC",
+    "label": "Lacs",
+    "type": "district"
+  },
+  {
+    "code": "LG",
+    "label": "Lagunes",
+    "type": "district"
+  },
+  {
+    "code": "MG",
+    "label": "Montagnes",
+    "type": "district"
+  },
+  {
+    "code": "SM",
+    "label": "Sassandra-Marahoué",
+    "type": "district"
+  },
+  {
+    "code": "SV",
+    "label": "Savanes",
+    "type": "district"
+  },
+  {
+    "code": "VB",
+    "label": "Vallée du Bandama",
+    "type": "district"
+  },
+  {
+    "code": "WR",
+    "label": "Woroba",
+    "type": "district"
+  },
+  {
+    "code": "YM",
+    "label": "Yamoussoukro",
+    "type": "autonomous district"
+  },
+  {
+    "code": "ZZ",
+    "label": "Zanzan",
+    "type": "district"
+  }
+]

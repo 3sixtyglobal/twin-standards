@@ -1,0 +1,122 @@
+[
+  {
+    "code": "A",
+    "label": "Salta",
+    "type": "Province"
+  },
+  {
+    "code": "B",
+    "label": "Buenos Aires",
+    "type": "Province"
+  },
+  {
+    "code": "C",
+    "label": "Ciudad Autónoma de Buenos Aires",
+    "type": "City"
+  },
+  {
+    "code": "D",
+    "label": "San Luis",
+    "type": "Province"
+  },
+  {
+    "code": "E",
+    "label": "Entre Ríos",
+    "type": "Province"
+  },
+  {
+    "code": "F",
+    "label": "La Rioja",
+    "type": "Province"
+  },
+  {
+    "code": "G",
+    "label": "Santiago del Estero",
+    "type": "Province"
+  },
+  {
+    "code": "H",
+    "label": "Chaco",
+    "type": "Province"
+  },
+  {
+    "code": "J",
+    "label": "San Juan",
+    "type": "Province"
+  },
+  {
+    "code": "K",
+    "label": "Catamarca",
+    "type": "Province"
+  },
+  {
+    "code": "L",
+    "label": "La Pampa",
+    "type": "Province"
+  },
+  {
+    "code": "M",
+    "label": "Mendoza",
+    "type": "Province"
+  },
+  {
+    "code": "N",
+    "label": "Misiones",
+    "type": "Province"
+  },
+  {
+    "code": "P",
+    "label": "Formosa",
+    "type": "Province"
+  },
+  {
+    "code": "Q",
+    "label": "Neuquén",
+    "type": "Province"
+  },
+  {
+    "code": "R",
+    "label": "Río Negro",
+    "type": "Province"
+  },
+  {
+    "code": "S",
+    "label": "Santa Fe",
+    "type": "Province"
+  },
+  {
+    "code": "T",
+    "label": "Tucumán",
+    "type": "Province"
+  },
+  {
+    "code": "U",
+    "label": "Chubut",
+    "type": "Province"
+  },
+  {
+    "code": "V",
+    "label": "Tierra del Fuego",
+    "type": "Province"
+  },
+  {
+    "code": "W",
+    "label": "Corrientes",
+    "type": "Province"
+  },
+  {
+    "code": "X",
+    "label": "Córdoba",
+    "type": "Province"
+  },
+  {
+    "code": "Y",
+    "label": "Jujuy",
+    "type": "Province"
+  },
+  {
+    "code": "Z",
+    "label": "Santa Cruz",
+    "type": "Province"
+  }
+]
