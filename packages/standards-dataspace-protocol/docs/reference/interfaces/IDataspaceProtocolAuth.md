@@ -1,8 +1,7 @@
 # Interface: IDataspaceProtocolAuth
 
 Interface for the authentication descriptor on a versioned Dataspace Protocol endpoint.
-Describes the authentication mechanism required to call the versioned endpoint (not for the
-unauthenticated /.well-known/dspace-version discovery endpoint itself).
+Describes the authentication mechanism required to call the versioned endpoint.
 
 ## See
 
